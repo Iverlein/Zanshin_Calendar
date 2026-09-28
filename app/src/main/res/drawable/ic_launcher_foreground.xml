@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- An open brush circle (ensō) with a waxing moon inside, in the two calendar accents. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M72.5,36.8 A26,26 0 1,0 78.6,59.5"
+        android:strokeWidth="5.5"
+        android:strokeColor="#E3A94F"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,40 A14,14 0 0,1 54,68 A8,14 0 0,0 54,40 Z"
+        android:fillColor="#EC8468" />
+</vector>

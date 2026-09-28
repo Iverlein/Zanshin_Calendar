@@ -1,0 +1,25 @@
+Categories:
+  - Calendar & Agenda
+License: MPL-2.0
+AuthorName: Iverlein
+SourceCode: https://github.com/Iverlein/Zanshin_Calendar
+IssueTracker: https://github.com/Iverlein/Zanshin_Calendar/issues
+Donate: https://ridingtheboar.com/donations/
+
+AutoName: Zanshin
+
+RepoType: git
+Repo: https://github.com/Iverlein/Zanshin_Calendar.git
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1

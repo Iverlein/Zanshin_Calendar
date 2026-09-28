@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+*.apk
+*.aab
+
+# Test vectors: third-party tables kept locally, not published (tests skip without them)
+core/src/test/resources/vectors/

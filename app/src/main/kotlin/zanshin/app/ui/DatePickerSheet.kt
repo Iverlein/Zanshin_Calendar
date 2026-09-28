@@ -1,0 +1,154 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+
+package zanshin.app.ui
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.Text
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import zanshin.app.CalendarKind
+import zanshin.app.DayInfo
+import zanshin.app.Labels
+import zanshin.core.time.SUPPORTED_RANGE
+import java.time.LocalDate
+import java.time.YearMonth
+import java.time.ZoneId
+
+/**
+ * Month grid of Gregorian days; under each, the day number in the calendar
+ * being viewed, with a dot on holidays and festivals. Limited to 1900–2100.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun DatePickerSheet(
+    selected: LocalDate,
+    today: LocalDate,
+    calendar: CalendarKind,
+    zone: ZoneId,
+    onPick: (LocalDate) -> Unit,
+    onDismiss: () -> Unit,
+) {
+    val accent = if (calendar == CalendarKind.TIBETAN) Palette.saffron else Palette.vermilion
+    var month by remember { mutableStateOf(YearMonth.from(selected)) }
+    val firstMonth = YearMonth.from(SUPPORTED_RANGE.start)
+    val lastMonth = YearMonth.from(SUPPORTED_RANGE.endInclusive)
+
+    ModalBottomSheet(
+        onDismissRequest = onDismiss,
+        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
+        containerColor = Palette.surface,
+        scrimColor = Palette.scrim,
+    ) {
+        Column(
+            Modifier.padding(start = 16.dp, end = 16.dp, bottom = 24.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
+                IconButton(onClick = { month = month.minusMonths(1) }, enabled = month > firstMonth) {
+                    Icon(Icons.ChevronLeft, contentDescription = "Previous month", tint = if (month > firstMonth) Palette.text else Palette.off)
+                }
+                Text(month.atDay(1).format(Labels.monthTitle), style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.SemiBold))
+                IconButton(onClick = { month = month.plusMonths(1) }, enabled = month < lastMonth) {
+                    Icon(Icons.ChevronRight, contentDescription = "Next month", tint = if (month < lastMonth) Palette.text else Palette.off)
+                }
+            }
+            Row(Modifier.fillMaxWidth()) {
+                for (name in listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")) {
+                    Text(name, style = body.copy(fontSize = 12.sp, color = Palette.faint, textAlign = TextAlign.Center), modifier = Modifier.weight(1f))
+                }
+            }
+
+            val lead = month.atDay(1).dayOfWeek.value - 1
+            val cells: List<LocalDate?> = List(lead) { null } + (1..month.lengthOfMonth()).map { month.atDay(it) }
+            for (week in cells.chunked(7)) {
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                    for (i in 0 until 7) {
+                        val date = week.getOrNull(i)
+                        Box(Modifier.weight(1f)) {
+                            if (date != null) DayCell(date, date == selected, date == today, calendar, zone, accent) { onPick(date) }
+                        }
+                    }
+                }
+            }
+
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
+                Text(
+                    "Small figures: ${if (calendar == CalendarKind.TIBETAN) "Tibetan day" else "旧暦 day"}",
+                    style = body.copy(fontSize = 12.sp, color = Palette.faint),
+                )
+                Text(
+                    "Today",
+                    style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold),
+                    modifier = Modifier
+                        .heightIn(min = 44.dp)
+                        .border(1.dp, Palette.lineStrong, RoundedCornerShape(22.dp))
+                        .clickable(role = Role.Button) { onPick(today) }
+                        .padding(horizontal = 16.dp, vertical = 12.dp),
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun DayCell(
+    date: LocalDate,
+    selected: Boolean,
+    today: Boolean,
+    calendar: CalendarKind,
+    zone: ZoneId,
+    accent: Color,
+    onClick: () -> Unit,
+) {
+    val info = remember(date) { DayInfo.of(date, zone) }
+    val sub = when (calendar) {
+        CalendarKind.TIBETAN -> "${info.tibetan.day}" + if (info.tibetan.holiday != null) " •" else ""
+        CalendarKind.KYUREKI -> {
+            val k = info.kyureki
+            (if (k.day == 1) "${k.month}/1" else "${k.day}") + if (k.festival != null) " •" else ""
+        }
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(50.dp)
+            .background(if (selected) accent else Color.Transparent, RoundedCornerShape(12.dp))
+            .border(1.dp, if (today && !selected) accent else Color.Transparent, RoundedCornerShape(12.dp))
+            .clickable(role = Role.Button, onClickLabel = date.toString(), onClick = onClick),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+    ) {
+        val fg = if (selected) Palette.ink else Palette.text
+        Text("${date.dayOfMonth}", style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = fg))
+        Text(sub, style = body.copy(fontSize = 11.sp, color = fg.copy(alpha = 0.8f)))
+    }
+}
