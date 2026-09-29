@@ -300,14 +300,20 @@ Rules as tabulated in Japanese Wikipedia (十二直, 二十八宿, 九星, 選�
 雑節 as defined by the NAOJ. "節月" is the solar month that begins at each odd
 solar term, 立春 = 寅月.
 
+The names of the bands follow the sources: 中段 is the 十二直 alone (Japanese
+Wikipedia 十二直; koyomi8.com 暦注の説明 その１), 暦注下段 and 選日 are separate
+lists (Wikipedia 暦注下段 and 選日; koyomi8.com その２ and その３), and
+`Senjitsu.band` records which one each day belongs to.
+
 | Annotation | Rule |
 | --- | --- |
 | 十二直 | 建 on the day whose branch is the solar month's; the first day of a solar month repeats the previous day's |
 | 二十八宿 | an unbroken 28-day cycle, 角 on JD ≡ 17 (mod 28) — the weekday × branch table |
 | 九星 of the day | 陽遁 from the 甲子 nearest 冬至 (一白, counting up), 陰遁 from the 甲子 nearest 夏至 (九紫, counting down); a solstice on 甲午 or 癸巳 takes the later 甲子; a 240-day half ends with the 60-day 九星 leap, switching at its 甲午 from 七赤 or 三碧 |
 | 九星 of the year and month | 11 − (Y mod 9) with 立春 as the year boundary; the 節の九星 table |
-| 選日, 暦注下段 | 天赦日, 一粒万倍日, 大明日, 天恩日, 母倉日, 節徳日, 鬼宿日, 寅の日, 巳の日, 己巳, 甲子, 天一天上, 受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 往亡日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 歳下食, 重日, 復日, 庚申 |
-| Personal | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch; needs a birth date |
+| 暦注下段 | 天赦日, 大明日, 天恩日, 母倉日, 節徳日, 鬼宿日, 受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 往亡日, 歳下食, 重日, 復日 |
+| 選日 | 一粒万倍日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 天一天上; with them the deity days 寅の日, 巳の日, 己巳, 甲子, 庚申 |
+| Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch; needs a birth date |
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
 
@@ -345,6 +351,7 @@ compute them.
 | --- | --- |
 | 六曜, 十二直, 二十八宿 | こよみ博物館, 株式会社トーダン (an almanac publisher) |
 | 選日 and 暦注下段, 九星, 恵方, 庚申 | Japanese Wikipedia; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子 |
+| Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
 | 雑節, 節句, 十三夜 | NAOJ 暦Wiki |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
@@ -439,9 +446,12 @@ canvas "Zanshin Calendar — basic design".
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
   on the day a new one begins.
 - **Moon phase:** a phase glyph next to the date.
-- **暦注:** the middle band (十二直, 二十八宿, day star), the selected days of the
-  bottom band, the 雑節, then 干支 of day and year, the solar month, month and
-  year stars and the 恵方 — laid out like a printed almanac.
+- **暦注:** in the order of a printed almanac — the middle band (中段, the
+  十二直 alone), the 二十八宿, the lower band (暦注下段), the selected days
+  (選日), the 雑節, then 干支 of day and year, the solar month, month and year
+  stars, the day star and the 恵方. The day star sits with the other 九星: it is
+  a personal reading, not a day quality, and entered almanacs only after Meiji
+  (Todan こよみ博物館「暦注」).
 
 ### 10.5 Menu, settings, location
 

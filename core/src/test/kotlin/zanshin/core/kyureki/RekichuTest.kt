@@ -121,4 +121,21 @@ class RekichuTest {
             date = date.plusDays(1)
         }
     }
+
+    /**
+     * The 選日 of Japanese Wikipedia 選日 (一覧) and koyomi8 rekicyuu_doc02, plus
+     * the deity days 寅の日, 巳の日, 己巳, 甲子 and 庚申; every other entry is
+     * 暦注下段 (Wikipedia 暦注下段, koyomi8 rekicyuu_doc03).
+     */
+    @Test
+    fun `selected days are split between the lower band and the selected-day column`() {
+        val senjitsu = setOf(
+            Senjitsu.ICHIRYU_MANBAI, Senjitsu.FUJOJU, Senjitsu.HASSEN, Senjitsu.HASSEN_MABI, Senjitsu.JIPPOGURE,
+            Senjitsu.TENICHI_TENJO, Senjitsu.SANRINBO, Senjitsu.OTSUCHI, Senjitsu.KOTSUCHI, Senjitsu.TSUCHI_MABI,
+            Senjitsu.TORA, Senjitsu.MI, Senjitsu.TSUCHINOTO_MI, Senjitsu.KINOE_NE, Senjitsu.KANOE_SARU,
+        )
+        Senjitsu.entries.forEach {
+            assertEquals(if (it in senjitsu) Band.SENJITSU else Band.KAGEDAN, it.band, it.kanji)
+        }
+    }
 }

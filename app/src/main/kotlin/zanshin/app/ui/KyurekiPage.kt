@@ -33,9 +33,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import zanshin.app.DayInfo
 import zanshin.app.Labels
+import zanshin.core.kyureki.Band
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.Rokuyo
+import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Reading
@@ -154,21 +156,18 @@ fun KyurekiPage(info: DayInfo, modifier: Modifier = Modifier) {
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
-        SectionTitle("中段 · Middle band")
+        SectionTitle("中段 · Twelve stations")
         Column {
             AnnotationRow(chokuAnnotation(rk.choku)) { sheet = it }
-            AnnotationRow(shukuAnnotation(rk.shuku)) { sheet = it }
-            AnnotationRow(Annotation(rk.dayStar.kanji, "day star: ${rk.dayStar.english}", Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar])) { sheet = it }
         }
 
-        if (rk.senjitsu.isNotEmpty()) {
-            SectionTitle("下段 · Selected days")
-            Column {
-                rk.senjitsu.forEach { s ->
-                    AnnotationRow(Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])) { sheet = it }
-                }
-            }
+        SectionTitle("二十八宿 · Lunar lodge")
+        Column {
+            AnnotationRow(shukuAnnotation(rk.shuku)) { sheet = it }
         }
+
+        SenjitsuSection("下段 · Lower band", rk.senjitsu.filter { it.band == Band.KAGEDAN }) { sheet = it }
+        SenjitsuSection("選日 · Selected days", rk.senjitsu.filter { it.band == Band.SENJITSU }) { sheet = it }
 
         if (rk.zassetsu.isNotEmpty()) {
             SectionTitle("雑節 · Seasonal markers")
@@ -195,6 +194,7 @@ fun KyurekiPage(info: DayInfo, modifier: Modifier = Modifier) {
             FactRow("Month star", rk.monthStar.kanji, "${rk.monthStar.reading} — ${rk.monthStar.english}", tibetan = false, kanji = true)
             FactRow("Year star", rk.yearStar.kanji, "${rk.yearStar.reading} — ${rk.yearStar.english}", tibetan = false, kanji = true)
         }
+        AnnotationRow(Annotation(rk.dayStar.kanji, "day star: ${rk.dayStar.english}", Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar])) { sheet = it }
         AnnotationRow(Annotation("恵方", "lucky direction of the year: ${rk.ehou.english}", Tone.GOOD, Texts.EHOU[rk.ehou], subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}")) { sheet = it }
     }
 
@@ -206,4 +206,15 @@ private fun chokuAnnotation(c: Choku) = Annotation(c.kanji, "${c.reading} — ${
 private fun shukuAnnotation(s: Shuku): Annotation {
     val reading = Texts.SHUKU[s]
     return Annotation("${s.kanji}宿", "${s.reading} — ${s.english} · 28 lodges", toneOf(reading), reading)
+}
+
+@Composable
+private fun SenjitsuSection(title: String, days: List<Senjitsu>, onOpen: (Annotation) -> Unit) {
+    if (days.isEmpty()) return
+    SectionTitle(title)
+    Column {
+        days.forEach { s ->
+            AnnotationRow(Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s]), onOpen)
+        }
+    }
 }

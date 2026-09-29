@@ -12,8 +12,8 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
 <ul>
 <li>Month and day, rokuyō (六曜), the current solar term (二十四節気) and the moon phase</li>
-<li>The almanac bands: 十二直, 二十八宿 and the day's 九星</li>
-<li>Selected days such as 一粒万倍日, 天赦日, 不成就日 and 三隣亡</li>
+<li>The twelve stations (十二直, the middle band), the lunar lodge (二十八宿) and the day's 九星</li>
+<li>Lucky and unlucky days of the lower band (暦注下段) and the selected days (選日), such as 天赦日, 一粒万倍日, 不成就日 and 三隣亡</li>
 <li>Seasonal markers (雑節), festivals, the day and year signs (干支) and the lucky direction of the year (恵方)</li>
 </ul>
 

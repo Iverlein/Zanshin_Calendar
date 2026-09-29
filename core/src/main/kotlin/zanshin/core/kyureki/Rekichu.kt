@@ -96,42 +96,49 @@ enum class KyuSei(override val kanji: String, override val reading: String, over
     }
 }
 
-/** 選日 and 暦注下段 — selected good and bad days. */
-enum class Senjitsu(override val kanji: String, override val reading: String, override val english: String, val tone: Tone) : Term {
-    TENSHA("天赦日", "tenshanichi", "Heaven's pardon", Tone.GOOD),
-    ICHIRYU_MANBAI("一粒万倍日", "ichiryū manbaibi", "One grain, ten thousand fold", Tone.GOOD),
-    DAIMYO("大明日", "daimyōnichi", "Great brightness", Tone.GOOD),
-    TENON("天恩日", "ten'onnichi", "Heaven's grace", Tone.GOOD),
-    BOSO("母倉日", "bosōnichi", "Mother's storehouse", Tone.GOOD),
-    SETTOKU("節徳日", "settokunichi", "Virtue of the season", Tone.GOOD),
-    KISHUKU("鬼宿日", "kishukunichi", "Ghost lodge day", Tone.GOOD),
-    TORA("寅の日", "tora no hi", "Tiger day", Tone.GOOD),
-    MI("巳の日", "mi no hi", "Snake day", Tone.GOOD),
-    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", "Earth-yin Snake day", Tone.GOOD),
-    KINOE_NE("甲子", "kinoe-ne", "Wood-yang Rat, first of the sixty", Tone.GOOD),
-    TENICHI_TENJO("天一天上", "ten'ichi tenjō", "Ten'ichi in heaven", Tone.GOOD),
-    JUSHI("受死日", "jushinichi", "Receiving death (black day)", Tone.BAD),
-    JISSHI("十死日", "jisshinichi", "Tenfold death", Tone.BAD),
-    KIKO("帰忌日", "kikonichi", "Return taboo", Tone.BAD),
-    CHIIMI("血忌日", "chiiminichi", "Blood taboo", Tone.BAD),
-    TENKA("天火日", "tenkanichi", "Heaven's fire", Tone.BAD),
-    JIKA("地火日", "jikanichi", "Earth's fire", Tone.BAD),
-    OMO("往亡日", "ōmōnichi", "Going and perishing", Tone.BAD),
-    FUJOJU("不成就日", "fujōjubi", "Nothing accomplished", Tone.BAD),
-    SANRINBO("三隣亡", "sanrinbō", "Ruin of three neighbours", Tone.BAD),
-    JIPPOGURE("十方暮", "jippōgure", "Darkness in ten directions", Tone.BAD),
-    HASSEN("八専", "hassen", "Eight concentrations", Tone.BAD),
-    HASSEN_MABI("八専間日", "hassen mabi", "Rest day within hassen", Tone.NEUTRAL),
-    OTSUCHI("大犯土", "ōtsuchi", "Great earth taboo", Tone.BAD),
-    KOTSUCHI("小犯土", "kotsuchi", "Lesser earth taboo", Tone.BAD),
-    TSUCHI_MABI("犯土間日", "tsuchi mabi", "Rest day between earth taboos", Tone.NEUTRAL),
-    SAIGEJIKI("歳下食", "saigejiki", "Year's descending eater", Tone.BAD),
-    JUNICHI("重日", "jūnichi", "Doubling day", Tone.MIXED),
-    FUKUNICHI("復日", "fukunichi", "Repeating day", Tone.MIXED),
-    KANOE_SARU("庚申", "kōshin", "Metal-yang Monkey (kōshin)", Tone.MIXED),
-    TAIKA("大禍日", "taikanichi", "Great calamity (personal)", Tone.BAD),
-    ROSHAKU("狼藉日", "rōshakunichi", "Havoc (personal)", Tone.BAD),
-    METSUMON("滅門日", "metsumonnichi", "Ruin of the house (personal)", Tone.BAD),
+/**
+ * Which list of the almanac an annotation belongs to: 暦注下段, printed in the
+ * lower band, or the 選日, a column of their own (Japanese Wikipedia 暦注下段
+ * and 選日; koyomi8.com rekicyuu_doc02 and rekicyuu_doc03).
+ */
+enum class Band { KAGEDAN, SENJITSU }
+
+/** 暦注下段 and 選日 — the good and bad days of the lower band and the selected-day column. */
+enum class Senjitsu(override val kanji: String, override val reading: String, override val english: String, val tone: Tone, val band: Band) : Term {
+    TENSHA("天赦日", "tenshanichi", "Heaven's pardon", Tone.GOOD, Band.KAGEDAN),
+    ICHIRYU_MANBAI("一粒万倍日", "ichiryū manbaibi", "One grain, ten thousand fold", Tone.GOOD, Band.SENJITSU),
+    DAIMYO("大明日", "daimyōnichi", "Great brightness", Tone.GOOD, Band.KAGEDAN),
+    TENON("天恩日", "ten'onnichi", "Heaven's grace", Tone.GOOD, Band.KAGEDAN),
+    BOSO("母倉日", "bosōnichi", "Mother's storehouse", Tone.GOOD, Band.KAGEDAN),
+    SETTOKU("節徳日", "settokunichi", "Virtue of the season", Tone.GOOD, Band.KAGEDAN),
+    KISHUKU("鬼宿日", "kishukunichi", "Ghost lodge day", Tone.GOOD, Band.KAGEDAN),
+    TORA("寅の日", "tora no hi", "Tiger day", Tone.GOOD, Band.SENJITSU),
+    MI("巳の日", "mi no hi", "Snake day", Tone.GOOD, Band.SENJITSU),
+    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", "Earth-yin Snake day", Tone.GOOD, Band.SENJITSU),
+    KINOE_NE("甲子", "kinoe-ne", "Wood-yang Rat, first of the sixty", Tone.GOOD, Band.SENJITSU),
+    TENICHI_TENJO("天一天上", "ten'ichi tenjō", "Ten'ichi in heaven", Tone.GOOD, Band.SENJITSU),
+    JUSHI("受死日", "jushinichi", "Receiving death (black day)", Tone.BAD, Band.KAGEDAN),
+    JISSHI("十死日", "jisshinichi", "Tenfold death", Tone.BAD, Band.KAGEDAN),
+    KIKO("帰忌日", "kikonichi", "Return taboo", Tone.BAD, Band.KAGEDAN),
+    CHIIMI("血忌日", "chiiminichi", "Blood taboo", Tone.BAD, Band.KAGEDAN),
+    TENKA("天火日", "tenkanichi", "Heaven's fire", Tone.BAD, Band.KAGEDAN),
+    JIKA("地火日", "jikanichi", "Earth's fire", Tone.BAD, Band.KAGEDAN),
+    OMO("往亡日", "ōmōnichi", "Going and perishing", Tone.BAD, Band.KAGEDAN),
+    FUJOJU("不成就日", "fujōjubi", "Nothing accomplished", Tone.BAD, Band.SENJITSU),
+    SANRINBO("三隣亡", "sanrinbō", "Ruin of three neighbours", Tone.BAD, Band.SENJITSU),
+    JIPPOGURE("十方暮", "jippōgure", "Darkness in ten directions", Tone.BAD, Band.SENJITSU),
+    HASSEN("八専", "hassen", "Eight concentrations", Tone.BAD, Band.SENJITSU),
+    HASSEN_MABI("八専間日", "hassen mabi", "Rest day within hassen", Tone.NEUTRAL, Band.SENJITSU),
+    OTSUCHI("大犯土", "ōtsuchi", "Great earth taboo", Tone.BAD, Band.SENJITSU),
+    KOTSUCHI("小犯土", "kotsuchi", "Lesser earth taboo", Tone.BAD, Band.SENJITSU),
+    TSUCHI_MABI("犯土間日", "tsuchi mabi", "Rest day between earth taboos", Tone.NEUTRAL, Band.SENJITSU),
+    SAIGEJIKI("歳下食", "saigejiki", "Year's descending eater", Tone.BAD, Band.KAGEDAN),
+    JUNICHI("重日", "jūnichi", "Doubling day", Tone.MIXED, Band.KAGEDAN),
+    FUKUNICHI("復日", "fukunichi", "Repeating day", Tone.MIXED, Band.KAGEDAN),
+    KANOE_SARU("庚申", "kōshin", "Metal-yang Monkey (kōshin)", Tone.MIXED, Band.SENJITSU),
+    TAIKA("大禍日", "taikanichi", "Great calamity (personal)", Tone.BAD, Band.KAGEDAN),
+    ROSHAKU("狼藉日", "rōshakunichi", "Havoc (personal)", Tone.BAD, Band.KAGEDAN),
+    METSUMON("滅門日", "metsumonnichi", "Ruin of the house (personal)", Tone.BAD, Band.KAGEDAN),
 }
 
 /** 雑節 — seasonal markers defined by the NAOJ. */
