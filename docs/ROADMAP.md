@@ -7,68 +7,35 @@ its settled design moves into the SPEC and the entry here is removed.
 The rules of the SPEC apply to everything below: no text without a published
 source (§8), nothing the app cannot calculate, no `INTERNET` permission (§2).
 
+## By effort
+
+The items below, easiest first. Sizes: **S** a sitting, one or two files;
+**M** a few days, new code with its tests; **L** a week or more, touching
+most screens or needing a generator in `tools/`; **XL** several weeks,
+mostly research or design before any code. The rank counts the work of
+building an item, not its prerequisites; "Needs" gives those, so the build
+order can differ from the rank. An item with no use on its own is ranked
+with the one that gives it a use. "Later" is not ranked.
+
+| # | Item | Size | Why | Needs |
+| --- | --- | --- | --- | --- |
+| 1 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L1; L3, which brings the switch |
+| 2 | T3 Tibetan pebbles, element colours, personal mansions | M | The five forces and the pebble scheme are sourced; the yearly reading is a small engine with a 60-year vector, the pebbles are drawing | Two checks on the pebble scheme; a source for the mansions; a place for the element colour |
+| 3 | L1 Text out of the code | L | Mechanical but touches every screen: UI strings, every reading and every enum gloss into catalogs, locale-aware dates, a completeness test | — |
+| 4 | L3 Russian, with the L2 switch | L | Every key and reading translated and checked against the original sources, the store listing, and a full read-through on the phone. The switch itself is small (`locales_config.xml` and a start-up wrapper for Android 8–12) but has nothing to offer before a translation exists, so it ships with this one | L1 |
+| 5 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
+| 6 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
+| 7 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+
 ## 1.1 — 旧暦 page
-
-### R1. Activity vocabulary
-
-Prerequisite for R3 and R4. The "good for" and "avoid" lists in `Texts.kt` are
-free strings, and the same activity appears under several wordings
-("weddings", "marriage", "taking a bride"; "building", "any building work").
-Each string gets an `Activity` (wedding, travel, moving house, building,
-earthworks, business, medicine, sowing, …); the source wording stays in the
-reading sheet.
-
-- Merge only wordings that name the same act. When in doubt, keep them apart.
-- Done when: every list entry maps to an `Activity`, and a test fails on an
-  unmapped string.
-
-### R2. 九星気学 option
-
-A switch in settings, off by default, that adds a personal 九星 row to the
-middle band.
-
-- Uses the birth date already stored for the personal days; switching it on
-  without one asks for it.
-- 本命星 is `Rekichu.yearStar()` of the birth year, reckoned from 立春. The day
-  and month stars are already computed.
-- The row gives the relation of the 本命星 to the day star by their elements:
-  相生, 比和 or 相剋, with its tone.
-- Source: needed before any wording is written. Japanese Wikipedia 九星気学
-  (CC BY-SA) is the first candidate. The sheet states that 気学 is a separate
-  school, not part of the historical almanac.
-- Done when: the relation for every pair of stars is in a test with its
-  source, and the owner has confirmed the row on the phone.
-
-### R3. Day summary
-
-A summary of the day built only from what the sources state or what can be
-counted. **No verdict, score or weighting the tradition does not give.**
-
-What it may contain:
-
-- **The two days the almanac itself flags.** 受死日 is printed as ● in the
-  lower band, hence 黒日, and the source says no other annotation need be read
-  on it. 天赦日 alone carries the note 万よし. Source: Japanese Wikipedia
-  暦注下段.
-- **The day's annotations grouped by their tone**, each by name.
-- **Activities** (R1): which annotations name an activity as good and which
-  as to be avoided. Where they disagree, both sides are shown with their
-  sources; the conflict is not resolved.
-- **Personal part**, when a birth date is set: the 三箇の悪日 and the R2
-  relation.
-
-Placement: one line under the rokuyō in the header — the ● or 万よし mark when
-the day has one, then "good for" and "avoid" as R4 glyphs; a tap opens the
-breakdown. The same line is the candidate content for the widget (SPEC §10.6).
-
-Open: is there a published rule for which annotation outranks which (下段 over
-中段, 二十八宿 over 十二直)? Without one, R3 stays a listing.
 
 ### R4. Visual cues
 
-- **Activity glyphs** beside "good for" and "avoid", drawn in the stroke style
-  of `ui/Icons.kt` and licensed with the app (MPL-2.0). The 119 strings in
-  `Texts.kt` fall into about twenty families, one glyph each:
+- **Activity glyphs** on the "In brief" line, in place of its counts, and in
+  its breakdown (SPEC §10.4), drawn in the stroke style of `ui/Icons.kt` and
+  licensed with the app (MPL-2.0). The `Activity` entries (SPEC §8.2) fall
+  into about twenty families, one glyph each; a family field on `Activity`
+  keeps the grouping testable:
 
   | Glyph | Covers, for example |
   | --- | --- |
@@ -110,7 +77,7 @@ Open: is there a published rule for which annotation outranks which (下段 over
   - 十二直: a dial of twelve with today's station marked.
   - 二十八宿: a ring of 28 in its four quadrants of seven.
   - 九星: the 3×3 board (後天定位盤) with today's star, each cell carrying its
-    trigram, direction and colour (the data of `Texts.KYUSEI`). With R2 on,
+    trigram, direction and colour (the data of `Texts.KYUSEI`). With the nine-star reading on,
     the 本命星 is marked too.
   - 六曜: a strip of six with today's step.
 - **Trigrams** (☰☱☲☳☴☵☶☷) drawn as vectors, not taken from a font.
@@ -120,64 +87,13 @@ Open: is there a published rule for which annotation outranks which (下段 over
   (`tools/subset_fonts.py`).
 - Mock up on the design canvas before building.
 
-### R5. Marking good and bad days
-
-What tradition gives:
-
-| Mark | Tradition | Source |
-| --- | --- | --- |
-| ● | 受死日, printed as a black dot in the lower band, hence 黒日 | Japanese Wikipedia 暦注下段; koyomi8.com |
-| 万よし | note on 天赦日 only | Japanese Wikipedia 暦注下段 |
-
-No colouring of whole days by luck is recorded for the historical almanac.
-In the 具注暦 the red writing (朱書き) marks the 二十八宿 and 七曜 in the upper
-margin, not luck. On modern Japanese calendars a red date means a Sunday or
-holiday, so a red day for "bad" would be misread.
-
-Plan:
-
-- The date picker shows ● under 受死日 and a mark for 天赦日, so both can be
-  found when choosing a day.
-- The day header shows the same marks (R3).
-- The lucky/unlucky colours of the rows stay as they are: an app convention,
-  and not presented as traditional.
-- No background or font colour for a whole day, since that would need a
-  weighting the tradition does not give (R3).
-
-### R6. Home of the deity days
-
-1.0.1 lists 寅の日, 巳の日, 己巳, 甲子 and 庚申 among the 選日, as koyomi8 does for
-庚申 and 己巳. They are festival days of deities (Kotobank; Wikipedia 庚申待)
-rather than 選日 proper. Move them if a source names a better home.
-
 ## Tibetan page
-
-### T1. Tibetan script for every term
-
-Each term shown as the Japanese page shows kanji: Tibetan script, then its
-reading, then English, all in the tap balloon. Tibetan terms must read as
-easily as the romaji on the 旧暦 page, so the reading is two lines: Wylie
-(exact spelling, as the sources print it) and a phonetic spelling (how it is
-said), e.g. *sa ga* · Saga.
-
-- Font: the phone ships `NotoSerifTibetan-VF.ttf` (Android 15, checked
-  2026-09-29), but not every Android build does. Bundle Noto Serif Tibetan
-  (OFL), subset like Shippori Mincho; keep the layout features, since
-  stacked letters need shaping.
-- Script from the Wylie already in the sources, converted by a tool in
-  `tools/` and checked by hand against the source's own script where it
-  prints one; the output is committed, as with the other generated tables.
-- Phonetics: the THL Simplified Phonetic Transcription of Standard Tibetan
-  (Germano and Tournadre, 2003), a published rule set that works from the
-  Wylie. The conversion lives in `tools/` with a test of the examples THL
-  gives; names with an established spelling in the app's sources (festival
-  names from Edition Rabten) keep that spelling.
 
 ### T2. Meaning of the components and day details
 
 The five components (weekday, lunar day, mansion, yoga, karaṇa) and the
-lunar-day cycles get reading sheets with "good for" and "avoid", on the
-activity vocabulary of R1.
+lunar-day cycles get reading sheets with "good for" and "avoid", mapped to
+the same `Activity` entries as the 旧暦 readings (SPEC §8.2).
 
 - Mansions: Henning, *Horary and electional astrology of the five
   components* (kalacakra.org/calendar/tibast03.htm), after the White Beryl
@@ -190,26 +106,67 @@ activity vocabulary of R1.
 - Yogas, karaṇas, lunar days: a source is still needed for each.
 - Copyrighted sources, so own English summaries (SPEC §8).
 
-### T3. Good, bad and neutral days, and personal marks
+### T3. Pebbles, element colours and personal mansions
 
-What tradition gives:
+The sme ba already shows in the colour of its box (SPEC §10.3). What is left
+waits on sources or on design:
 
-| Mark | Tradition | Source |
-| --- | --- | --- |
-| ○ / × | white and black pebbles: one to three of them express the relation of a natal element to a transiting one (mother, child, friend, enemy, same) | Berzin, *Details of Tibetan Astrology 3* (Study Buddhism) |
-| colours of the elements | wood green, fire red, earth yellow, iron white, water blue or black | Berzin 3 |
-| colours of the sme ba | 1 white, 2 black, 3 navy blue, 4 green, 5 yellow, 6 white, 7 red, 8 white, 9 maroon; "when the magic-square is printed, the colour of each box is in accordance with this scheme" | Berzin, *Details of Tibetan Astrology 4* |
-
-Plan:
-
-- Personal weekdays: the app has the life, soul and deadly weekday (srog,
-  bla, gshed) of the birth animal. Add the six personal mansions (srog, bla,
-  dbang, skeg, btub, gshed skar), which Berzin names; the table per animal
-  still needs a source.
-- Show the relation of the day's element to the birth element with the ○/×
-  pebbles, and the sme ba and elements in their colours. That is the
-  traditional colouring; whole days stay uncoloured, as on the 旧暦 page (R5).
-- The element pair already marks four of its ten pairs as inauspicious.
+- **Pebbles (○ / ×).** Berzin, *Details of Tibetan Astrology 3*, describes
+  them for five pebble-elements (life-force, body, power, valley-of-fortune,
+  life-spirit) that each element-animal year carries: the birth year's are
+  compared with a transiting year's, and each relation (mother, child,
+  friend, enemy, same) gets one to three white or black pebbles. It is a
+  yearly reading, not one of the day's element; it sits better with T4.
+  - *Which pebbles:* found. Gyurme Dorje, *Tibetan Elemental Divination
+    Paintings* (London: John Eskenazi, 2001), glossary, as quoted on the
+    Rangjung Yeshe wiki ("Thirty Chinese and Tibetan Computational Charts"):
+    mother three white, friend two white, same element one white for water
+    or earth and one black for fire, iron or wood, child one white and one
+    black, enemy two black.
+  - *The five forces of each year:* found. The source is the *White Beryl*
+    (Sde srid Sangs rgyas rgya mtsho; f. 156a/b, f. 158a) with Lo-chen
+    Dharmaśrī's *Moonbeams* (ff. 5b–6b), as edited by Gyurme Dorje 2001
+    (read in the copy on archive.org). The *White Beryl* itself is on BDRC
+    (W1KG12714, vol. 1, about pp. 297–335), but its OCR is too noisy to take
+    a table from.
+    - srog (vitality): the element of the animal's direction — tiger, hare
+      wood; snake, horse fire; monkey, bird iron; mouse, pig water; ox,
+      dragon, sheep, dog earth.
+    - dbang thang (destiny): the element of the year.
+    - klung rta (luck): tiger, horse, dog iron; mouse, dragon, monkey wood;
+      bird, ox, snake water; pig, sheep, hare fire; never earth.
+    - bla (spirit): the element that feeds srog.
+    - lus (body): a key element by animal — water for tiger, hare, bird,
+      monkey; wood for ox, sheep, horse, mouse; iron for dog, dragon, pig,
+      snake — then from the relation of the year's element to the key:
+      same iron, feeds it wood, fed by it water, overcomes it earth,
+      overcome by it fire. Each male–female pair of years shares one; the
+      result equals the 納音 of the year (wood mouse = 甲子), a second
+      tradition to test against.
+    - Gyurme Dorje's sixty-year charts (pp. 70–87) give all four per year.
+      Extracted from the OCR 2026-09-29: 57 of 60 years (44, 47 and 57
+      lost); srog and klung rta match the rules in all 57, lus in 56 (year
+      21 is an extraction slip, its pair gives water). The vector is to be
+      rebuilt from those charts, gitignored like the other third-party
+      tables.
+    - Still to check before building: the book's main-text statement of the
+      pebble scheme, for a *White Beryl* folio; and the direction of each
+      relation (Berzin: the transiting year's element against the natal
+      one).
+    - tibastro.be and errarium.com state similar rules but disagree in
+      detail (tibastro.be lists Dragon under two klung rta elements); they
+      are not sources.
+- **Element colours:** wood green, fire red, earth yellow, iron white, water
+  black or blue (Berzin 3). The day's element appears only inside the day
+  line, so it first needs a place of its own on the page.
+- **Personal mansions:** the app has the life, soul and deadly weekday (srog,
+  bla, gshed) of the birth animal. Berzin names six personal mansions (srog,
+  bla, dbang, skeg, btub, gshed skar); the table per animal still needs a
+  source. The *White Beryl* OCR has no hit for these names, so they are
+  either spelled otherwise there or come from almanac practice (the yearly
+  Men-Tsee-Khang lo tho).
+- Whole days stay uncoloured, as on the 旧暦 page (SPEC §10.4). The element
+  pair already marks four of its ten pairs as inauspicious.
 
 ### T4. Divination
 
@@ -219,7 +176,7 @@ Plan:
   age (Berzin 3, 4; they differ for men and women, so they need a gender
   setting, see T5), obstacle years (keg). The yearly sme ba appears to follow the
   same count as the 九星 year star (1 at a wood-rat year, counting down), so
-  it can share code with R2 once a vector confirms it. The readings of each
+  it can share code with the 九星 year star (SPEC §7.5) once a vector confirms it. The readings of each
   result need sources; the calculated positions do not.
 - **Mo** (Mipham's dice: two throws of the ARAPACANA die, 36 outcomes; other
   systems use three dice or a mala) has no calculation beyond a random draw.
@@ -229,9 +186,11 @@ Plan:
 
 ### T5. Personal settings
 
+Built together with T4: nothing else reads the gender.
+
 Birth date and gender sit together in one "Personal" section of the menu,
 since every personal reading needs one or both: the personal days of both
-calendars and R2 need the birth date; the progressions of T4 need both.
+calendars and the nine-star reading need the birth date; the progressions of T4 need both.
 
 - Gender: not set, male or female; the tradition defines the progressions
   for these two only. While it is not set, the readings that need it are
@@ -263,6 +222,8 @@ Nothing on screen changes.
   translated; only glosses, readings and UI text are.
 
 ### L2. Language switch
+
+Built together with L3: with English alone there is nothing to switch to.
 
 - Android 13 and later: `res/xml/locales_config.xml` and
   `android:localeConfig`, so the system offers a per-app language in

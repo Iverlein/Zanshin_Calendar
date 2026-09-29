@@ -38,7 +38,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 
 | In v1 | Later |
 | --- | --- |
-| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days | Tsurphu version; Rishi-star bathing week; Tibetan script rendering |
+| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days | Tsurphu version; Rishi-star bathing week |
 | Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食; 七十二候 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | Moon rise and set |
 | Screen with date navigation, home-screen widget, location setting | Notifications |
@@ -303,7 +303,12 @@ solar term, 立春 = 寅月.
 The names of the bands follow the sources: 中段 is the 十二直 alone (Japanese
 Wikipedia 十二直; koyomi8.com 暦注の説明 その１), 暦注下段 and 選日 are separate
 lists (Wikipedia 暦注下段 and 選日; koyomi8.com その２ and その３), and
-`Senjitsu.band` records which one each day belongs to.
+`Senjitsu.band` records which one each day belongs to. The festival days of
+deities that fall by the sexagenary cycle form a third group, 縁日 (Japanese
+Wikipedia 縁日): 甲子 of Daikokuten, 己巳 of Benzaiten, 庚申 of Taishakuten and
+Shōmen Kongō, 寅の日 of Bishamonten and 巳の日, the day behind 初巳. koyomi8
+also counts 庚申 and 己巳 among the 選日; the app lists each day once, under
+縁日.
 
 | Annotation | Rule |
 | --- | --- |
@@ -312,10 +317,22 @@ lists (Wikipedia 暦注下段 and 選日; koyomi8.com その２ and その３), 
 | 九星 of the day | 陽遁 from the 甲子 nearest 冬至 (一白, counting up), 陰遁 from the 甲子 nearest 夏至 (九紫, counting down); a solstice on 甲午 or 癸巳 takes the later 甲子; a 240-day half ends with the 60-day 九星 leap, switching at its 甲午 from 七赤 or 三碧 |
 | 九星 of the year and month | 11 − (Y mod 9) with 立春 as the year boundary; the 節の九星 table |
 | 暦注下段 | 天赦日, 大明日, 天恩日, 母倉日, 節徳日, 鬼宿日, 受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 往亡日, 歳下食, 重日, 復日 |
-| 選日 | 一粒万倍日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 天一天上; with them the deity days 寅の日, 巳の日, 己巳, 甲子, 庚申 |
+| 選日 | 一粒万倍日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 天一天上 |
+| 縁日 | 寅の日, 巳の日, 己巳, 甲子, 庚申 |
 | Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch; needs a birth date |
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
+
+**九星気学 (optional, personal).** The 本命星 is the year star of the birth date,
+the year reckoned from 立春. Its relation to the day star follows the stars'
+elements (Japanese Wikipedia 九星, 九星の関係): 相生 when one element feeds the
+other (木生火, 火生土, 土生金, 金生水, 水生木), 比和 when both share one, 相剋 when
+one overcomes the other (木剋土, 土剋水, 水剋火, 火剋金, 金剋木). The article reads
+the table as it stands for a person's years, months and days, 相生 and 比和 as
+good and 相剋 as bad; its ※ marks apply to directions only and are not used. The
+table prints 九紫火星 under 六白金星's 金剋木; the row's heading and the 七赤金星
+row give 三碧木星 and 四緑木星 there, which the app follows. All 81 pairs are a
+test vector.
 
 Left out, because their full rules cannot be recovered or need more than a date:
 神吉日 (almanacs apply undocumented exclusions), 凶会日 (conflicting tables),
@@ -333,7 +350,7 @@ copied:
 | Licence | Used for |
 | --- | --- |
 | Own English summary of the cited source, MPL-2.0 | copyrighted sources — Todan's こよみ博物館, NAOJ, Kotobank dictionaries, FPMT, Edition Rabten, Henning, Lotsawa House. Written as statements of fact and "good for / avoid" lists, not translations |
-| CC BY-SA 4.0 | wording adapted from Japanese Wikipedia (選日, 暦注下段, 九星, 歳徳神, 庚申待) |
+| CC BY-SA 4.0 | wording adapted from Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待) |
 
 No text under a non-commercial or no-derivatives licence: F-Droid labels an
 app containing one with the *Non-Free Assets* anti-feature.
@@ -342,8 +359,16 @@ app containing one with the *Non-Free Assets* anti-feature.
 
 `core/.../texts/Texts.kt` holds every reading as Kotlin data: a `Reading` with
 summary, "good for" and "avoid" lists, a `Source` (title, publisher, URL) and a
-`License`. Names and English glosses of the terms live with the enums that
-compute them.
+`License`, and optionally further sources (`also`) for parts of the summary
+under the same licence. Names and English glosses of the terms live with the
+enums that compute them.
+
+The "good for" and "avoid" lists keep the source's wording. `Activities.kt`
+maps every wording to the act it names (`Activity`: "weddings", "marriage" and
+"taking a bride" are one act), so annotations can be compared; only wordings
+that name the same act share an entry, and the rokuyō's hours ("the morning",
+"noon") map to a `DayTime` instead. A test fails on a wording with no entry and
+on an entry no wording uses.
 
 ### 8.3 Sources in use
 
@@ -351,6 +376,11 @@ compute them.
 | --- | --- |
 | 六曜, 十二直, 二十八宿 | こよみ博物館, 株式会社トーダン (an almanac publisher) |
 | 選日 and 暦注下段, 九星, 恵方, 庚申 | Japanese Wikipedia; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子 |
+| 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
+| 縁日 as a group | Japanese Wikipedia 縁日 |
+| Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
+| Tibetan pronunciation | THL Simplified Phonetic Transcription of Standard Tibetan, Germano and Tournadre, 2003 (thlib.org; archived by the Wayback Machine at `thlib.org/global/php/essay_reader.php?url=/thl/phonetics/s/b1`–`b12`) |
+| Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
 | 雑節, 節句, 十三夜 | NAOJ 暦Wiki |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
@@ -397,6 +427,8 @@ canvas "Zanshin Calendar — basic design".
   element they belong to is tapped, and close on tapping outside it.
 - **Every term is translated on tap.** Each Tibetan word and each kanji opens
   a balloon with its English (and reading); these carry no dotted underline.
+  A Tibetan term shows in Tibetan script; its balloon gives the Wylie, how it
+  is said and the English, and screen readers read the pronunciation (§10.3).
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
   mark; tapping one opens a sheet with its reading, "good for" and "avoid",
   source and licence.
@@ -408,7 +440,9 @@ canvas "Zanshin Calendar — basic design".
 - **Switching calendars:** two entries at the top of the side menu, and a tap
   on the calendar's name in the header switches directly.
 - **Tapping the Gregorian date** in the header opens the date picker, limited
-  to 1900–2100.
+  to 1900–2100. Under each day it shows the day number in the calendar being
+  viewed, a dot on holidays and festivals and, in the 旧暦 view, the day marks
+  of §10.4, with a legend whose kanji translate on tap.
 - Festivals and holidays carry a line glyph drawn for this app.
 - **Local sky line** at the bottom of both calendars (§10.5).
 
@@ -434,6 +468,25 @@ canvas "Zanshin Calendar — basic design".
 - **Almanac:** festival, monthly observance, personal day, element pair and
   hair-cutting day as reading rows; then the five components (mansion, yoga,
   karaṇa, weekday) and the lunar-day cycles as tappable terms.
+- **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
+  weekday, trigram) is written in Tibetan script, converted at run time from
+  the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its
+  label. Its balloon adds the Wylie and the pronunciation in the THL
+  Simplified Phonetic Transcription of Standard Tibetan (Germano and
+  Tournadre, 2003; `Thl.kt`: the general principle, special rules 1–13, the
+  exceptions and the word boundaries, tested on the document's own 86
+  examples). A spelling the converter cannot read stays in Wylie: the karaṇa
+  vishti, a Sanskrit loan, until its Tibetan spelling is sourced. The
+  spellings were checked against the OCR of the White Beryl (BDRC
+  W1KG12714): 95 of 106 terms appear there verbatim; til brdung and mi
+  'phrod follow its spelling rather than Henning's (til rdung, mi phrod);
+  snron, snrubs and six yogas (rnam sel, tshe dang ldan pa, shin tu 'grams,
+  yongs bsnun, mchog can, yongs 'joms) are not in the OCR and remain as the
+  sources give them. The font is Noto Serif Tibetan (OFL), one weight,
+  subset to the Tibetan block with its shaping features.
+- **Sme ba in its colour:** the lunar day's number carries a swatch of the
+  colour its box is printed in (Berzin, *Details of Tibetan Astrology 4*). No
+  whole day is coloured.
 
 ### 10.4 旧暦 view
 
@@ -443,15 +496,38 @@ canvas "Zanshin Calendar — basic design".
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
+- **Day marks:** the two days the almanac itself marks (Japanese Wikipedia
+  暦注下段) get a line under the rokuyō: 受死日, printed as a black dot in the
+  lower band and hence 黒日, shows a filled dot and "black day — the worst of
+  all"; 天赦日, the only day with the note 万よし, shows a ring and "heaven's
+  pardon — good for all". The line opens the day's reading; the same marks
+  appear in the date picker. On a day with both, the black day wins, since on
+  it no other annotation need be read. The marks are drawn, not set in type.
+  No whole day is coloured by luck: none is recorded for the historical
+  almanac, whose red writing (朱書き) in the 具注暦 marks the 二十八宿 and 七曜,
+  and on modern Japanese calendars a red date means a Sunday or holiday. The
+  lucky and unlucky colours of the rows are an app convention.
+- **In brief:** a line under the rokuyō (and under the day mark) counts the
+  activities the day's annotations name as good and to avoid, and how many are
+  named both ways; it opens the breakdown. The breakdown lists each activity
+  with the annotations that name it, the annotations by tone, the day mark, and
+  for the owner the 三箇の悪日 and the 九星気学 relation. It is a listing, never a
+  verdict: no published rule says which annotation outranks another (下段 over
+  中段, 二十八宿 over 十二直), so none is weighed, and where annotations disagree
+  both sides are shown.
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
   on the day a new one begins.
 - **Moon phase:** a phase glyph next to the date.
 - **暦注:** in the order of a printed almanac — the middle band (中段, the
   十二直 alone), the 二十八宿, the lower band (暦注下段), the selected days
-  (選日), the 雑節, then 干支 of day and year, the solar month, month and year
-  stars, the day star and the 恵方. The day star sits with the other 九星: it is
+  (選日), the deity days (縁日), the 雑節, then 干支 of day and year, the
+  solar month, month and year stars, the day star and the 恵方. The day star sits with the other 九星: it is
   a personal reading, not a day quality, and entered almanacs only after Meiji
   (Todan こよみ博物館「暦注」).
+- **九星気学 row:** with the nine-star reading on, the relation of the owner's
+  本命星 to the day star (§7.5) follows the day star, as 相生, 比和 or 相剋 with
+  its tone and cycle ("metal feeds water"). Its reading says the reading belongs
+  to 九星気学, gathered as 気学 in 1909, not to the historical almanac.
 
 ### 10.5 Menu, settings, location
 
@@ -472,14 +548,15 @@ canvas "Zanshin Calendar — basic design".
 - The location drives the local sky line only; neither calendar depends on it.
 - **Birth date**, optional and stored on the device: enables the personal days
   (Tibetan luck/life/anti, Japanese 三箇の悪日).
+- **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
+  §10.4. Switching it on without a birth date asks for one; cancelling leaves
+  it off.
 - **Local sky line:** sunrise, sunset, true solar noon (the sun's transit, not
   12:00) and the sun's altitude then. Facts only.
 
 ### 10.6 Deferred until the basic design is set
 
 - The widget: sizes and content.
-- Tibetan script (§3), after checking font coverage on the phone. Until then,
-  Tibetan terms appear in English and Wylie.
 
 ## 11. Milestones and done criteria
 

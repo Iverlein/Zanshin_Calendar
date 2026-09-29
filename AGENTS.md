@@ -44,7 +44,10 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   without a dotted underline.
 - **New kanji need a font rebuild.** Shippori Mincho is subset to the
   characters in the sources: run `tools/subset_fonts.py` with the full fonts
-  from google/fonts `ofl/shipporimincho/` after adding any.
+  from google/fonts `ofl/shipporimincho/` after adding any. Tibetan needs no
+  rebuild: its script is generated from the Wylie at run time
+  (`core/.../tibetan/Ewts.kt`) and the Noto Serif Tibetan subset keeps the
+  whole Tibetan block (`subset_fonts.py --tibetan`).
 - **Calendar changes need a vector**, not only a passing build. The 2033
   leap-month choice is a named constant in `Kyureki.kt`, pending confirmation
   from its published source (SPEC §7.1, S3).
