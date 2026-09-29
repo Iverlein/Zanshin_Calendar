@@ -299,10 +299,18 @@ Chinese and Traditional Chinese.
 - Chinese as two separate languages, each translated and reviewed on its
   own, not converted from one to the other: `values-b+zh+Hans` and
   `values-b+zh+Hant` in the app, `zh-CN` and `zh-TW` in the store listing.
-- Japanese goes right after Russian, as the first Weblate language: its
+- Japanese goes right after Russian, as the first Weblate language, and is
+  translated by the project there, with the project as its reviewers. Its
   readings of the 旧暦 page can be written from the Japanese sources
   directly, but Todan's copyrighted wording still may not be copied;
-  Wikipedia's CC BY-SA wording may, with attribution.
+  Wikipedia's CC BY-SA wording may, with attribution. The Weblate glossary
+  holds the terms the app already uses (十二直, 選日, …).
+- The gratis Libre plan keeps a project Public: any signed-in user can
+  contribute to any language, including Japanese (Weblate docs, *Access
+  control*). Quality rests on reviews, which can be set per language, and on
+  reviewing each Weblate pull request before merging. Whether unapproved
+  strings are left out of Android `strings.xml`, which has no state field,
+  is untested; until it is, the pull request is the gate.
 - The app itself gains no network access: translations arrive in the source
   and ship with a release.
 
