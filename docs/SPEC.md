@@ -44,6 +44,8 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 | Screen with date navigation, home-screen widget, location setting | Notifications |
 | Texts from published sources only (§8) | Translations beyond English |
 
+Planned work, with its open questions, is in [ROADMAP.md](ROADMAP.md).
+
 ## 4. Architecture
 
 Gradle multi-module project, Kotlin throughout.
