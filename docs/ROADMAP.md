@@ -150,6 +150,94 @@ Plan:
 庚申 and 己巳. They are festival days of deities (Kotobank; Wikipedia 庚申待)
 rather than 選日 proper. Move them if a source names a better home.
 
+## Tibetan page
+
+### T1. Tibetan script for every term
+
+Each term shown as the Japanese page shows kanji: Tibetan script, then its
+reading, then English, all in the tap balloon. Tibetan terms must read as
+easily as the romaji on the 旧暦 page, so the reading is two lines: Wylie
+(exact spelling, as the sources print it) and a phonetic spelling (how it is
+said), e.g. *sa ga* · Saga.
+
+- Font: the phone ships `NotoSerifTibetan-VF.ttf` (Android 15, checked
+  2026-09-29), but not every Android build does. Bundle Noto Serif Tibetan
+  (OFL), subset like Shippori Mincho; keep the layout features, since
+  stacked letters need shaping.
+- Script from the Wylie already in the sources, converted by a tool in
+  `tools/` and checked by hand against the source's own script where it
+  prints one; the output is committed, as with the other generated tables.
+- Phonetics: the THL Simplified Phonetic Transcription of Standard Tibetan
+  (Germano and Tournadre, 2003), a published rule set that works from the
+  Wylie. The conversion lives in `tools/` with a test of the examples THL
+  gives; names with an established spelling in the app's sources (festival
+  names from Edition Rabten) keep that spelling.
+
+### T2. Meaning of the components and day details
+
+The five components (weekday, lunar day, mansion, yoga, karaṇa) and the
+lunar-day cycles get reading sheets with "good for" and "avoid", on the
+activity vocabulary of R1.
+
+- Mansions: Henning, *Horary and electional astrology of the five
+  components* (kalacakra.org/calendar/tibast03.htm), after the White Beryl
+  and the Treasury of Jewels: each mansion's nature, activities, food and
+  planet.
+- Activities: the same page lists, per activity, the good and bad weekdays,
+  mansions, solar-day animals and trigrams (from the *'bras rtsis bai dkar
+  dgongs don kun phan me long*). This is the Tibetan counterpart of the 旧暦
+  "good for / avoid" lists.
+- Yogas, karaṇas, lunar days: a source is still needed for each.
+- Copyrighted sources, so own English summaries (SPEC §8).
+
+### T3. Good, bad and neutral days, and personal marks
+
+What tradition gives:
+
+| Mark | Tradition | Source |
+| --- | --- | --- |
+| ○ / × | white and black pebbles: one to three of them express the relation of a natal element to a transiting one (mother, child, friend, enemy, same) | Berzin, *Details of Tibetan Astrology 3* (Study Buddhism) |
+| colours of the elements | wood green, fire red, earth yellow, iron white, water blue or black | Berzin 3 |
+| colours of the sme ba | 1 white, 2 black, 3 navy blue, 4 green, 5 yellow, 6 white, 7 red, 8 white, 9 maroon; "when the magic-square is printed, the colour of each box is in accordance with this scheme" | Berzin, *Details of Tibetan Astrology 4* |
+
+Plan:
+
+- Personal weekdays: the app has the life, soul and deadly weekday (srog,
+  bla, gshed) of the birth animal. Add the six personal mansions (srog, bla,
+  dbang, skeg, btub, gshed skar), which Berzin names; the table per animal
+  still needs a source.
+- Show the relation of the day's element to the birth element with the ○/×
+  pebbles, and the sme ba and elements in their colours. That is the
+  traditional colouring; whole days stay uncoloured, as on the 旧暦 page (R5).
+- The element pair already marks four of its ten pairs as inauspicious.
+
+### T4. Divination
+
+- **Element calculation ('byung rtsis)** is arithmetic: birth animal and
+  element, sme ba and spar kha of year and day (the day's already computed,
+  Janson E.9–E.11), progressed animal, element and sme ba for each year of
+  age (Berzin 3, 4; they differ for men and women, so they need a gender
+  setting, see T5), obstacle years (keg). The yearly sme ba appears to follow the
+  same count as the 九星 year star (1 at a wood-rat year, counting down), so
+  it can share code with R2 once a vector confirms it. The readings of each
+  result need sources; the calculated positions do not.
+- **Mo** (Mipham's dice: two throws of the ARAPACANA die, 36 outcomes; other
+  systems use three dice or a mala) has no calculation beyond a random draw.
+  Every reading is a text, and the English ones are copyrighted
+  translations (Goldberg, *Mo*, Snow Lion 1990). Berzin notes it is done in
+  a meditational context after a retreat. Not planned.
+
+### T5. Personal settings
+
+Birth date and gender sit together in one "Personal" section of the menu,
+since every personal reading needs one or both: the personal days of both
+calendars and R2 need the birth date; the progressions of T4 need both.
+
+- Gender: not set, male or female; the tradition defines the progressions
+  for these two only. While it is not set, the readings that need it are
+  hidden rather than guessed.
+- Both stay on the device only, as the birth date does now (SPEC §10.5).
+
 ## Later
 
 - **Fortune-telling page** (九星気学 in full): 本命星, 月命星, the year, month
@@ -157,7 +245,6 @@ rather than 選日 proper. Move them if a source names a better home.
   directions. All of these can be calculated from the boards; the readings need
   sources. Only calculated positions, never free interpretation.
 - Kyūreki: 神吉日, 凶会日, 五墓日, 時下食; 七十二候 (SPEC §3).
-- Tibetan: Tsurphu version; Rishi-star bathing week; Tibetan script, after
-  checking font coverage on the phone (SPEC §3, §10.6).
+- Tibetan: Tsurphu version; Rishi-star bathing week (SPEC §3).
 - Moon rise and set; notifications; translations beyond English (SPEC §3).
 - The widget: sizes and content (SPEC §10.6).
