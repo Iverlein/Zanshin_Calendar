@@ -238,6 +238,69 @@ calendars and R2 need the birth date; the progressions of T4 need both.
   hidden rather than guessed.
 - Both stay on the device only, as the birth date does now (SPEC §10.5).
 
+## Localisation
+
+English stays the source language. Russian comes first, translated by the
+project; German, French, Spanish, Portuguese, Chinese and Japanese follow
+through Hosted Weblate.
+
+### L1. Text out of the code
+
+Prerequisite for everything below, and best done before 1.1 adds more text.
+Nothing on screen changes.
+
+- UI text (section titles, "begins today", `Labels`) moves from Kotlin into
+  `res/values/strings.xml`.
+- `core/` is plain JVM, so its readings (`Texts.kt`) and the English glosses
+  on the engine enums (`Choku.english` and the like) move into a catalog per
+  language under `core/src/main/resources/`, keyed by enum name. A test fails
+  when a language lacks a key the English catalog has, and every translated
+  reading keeps its `Source`.
+- Dates, month ordinals and numbers go through locale-aware formatters
+  instead of hand-built strings ("Tue 29 Sep 2026", "8th month").
+- Tibetan and Japanese terms, Wylie, phonetics and romaji are not
+  translated; only glosses, readings and UI text are.
+
+### L2. Language switch
+
+- Android 13 and later: `res/xml/locales_config.xml` and
+  `android:localeConfig`, so the system offers a per-app language in
+  Settings › Apps. No code, no dependency.
+- Android 8–12 (minSdk 26): a language entry in the menu's settings, next to
+  the Personal section (T5), applied with a small locale wrapper at start-up
+  rather than a new AppCompat dependency.
+- Default: follow the system language, English when it is not supported.
+
+### L3. Russian, by the project
+
+- `values-ru/strings.xml`, the Russian catalog and a store listing in
+  `fastlane/metadata/android/ru-RU/`.
+- Readings are translated from the English summaries, then checked against
+  the original source, since an error in an "avoid" list misleads.
+- Established Russian terminology where a source gives one: Study Buddhism
+  publishes Berzin's astrology articles in Russian.
+- Licences: the MPL-2.0 summaries translate freely; wording adapted from
+  Japanese Wikipedia stays CC BY-SA 4.0 in translation, with its
+  attribution. The reading sheet adds "translation of the English summary".
+- Done when every key is translated, `TextsTest` passes for `ru`, and the
+  owner has read the app in Russian on the phone.
+
+### L4. Hosted Weblate
+
+For German, French, Spanish, Portuguese, Chinese and Japanese.
+
+- A project on Hosted Weblate (gratis for libre projects), one component for
+  `strings.xml`, one for the reading catalog, one for the store listing.
+- Reviews switched on for the reading catalog: a translated reading ships
+  only once a reviewer has approved it, for the same reason as in L3.
+- Weblate commits through a pull request, never straight to `main`.
+- Open: Chinese in Simplified, Traditional or both (`zh-CN`, `zh-TW`)?
+- Japanese: the readings of the 旧暦 page can be written from the Japanese
+  sources directly, but Todan's copyrighted wording still may not be copied;
+  Wikipedia's CC BY-SA wording may, with attribution.
+- The app itself gains no network access: translations arrive in the source
+  and ship with a release.
+
 ## Later
 
 - **Fortune-telling page** (九星気学 in full): 本命星, 月命星, the year, month
@@ -246,5 +309,5 @@ calendars and R2 need the birth date; the progressions of T4 need both.
   sources. Only calculated positions, never free interpretation.
 - Kyūreki: 神吉日, 凶会日, 五墓日, 時下食; 七十二候 (SPEC §3).
 - Tibetan: Tsurphu version; Rishi-star bathing week (SPEC §3).
-- Moon rise and set; notifications; translations beyond English (SPEC §3).
+- Moon rise and set; notifications (SPEC §3).
 - The widget: sizes and content (SPEC §10.6).
