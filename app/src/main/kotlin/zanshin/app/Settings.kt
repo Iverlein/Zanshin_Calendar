@@ -59,8 +59,14 @@ class Settings(context: Context) {
             if (value == null) remove(KEY_BIRTH) else putLong(KEY_BIRTH, value.toEpochDay())
         }.apply()
 
+    /** The personal 九星気学 row of the 旧暦 view (ROADMAP R2); off by default. */
+    var kigaku: Boolean
+        get() = prefs.getBoolean(KEY_KIGAKU, false)
+        set(value) = prefs.edit().putBoolean(KEY_KIGAKU, value).apply()
+
     private companion object {
         const val KEY_BIRTH = "birth"
+        const val KEY_KIGAKU = "kigaku"
         const val KEY_CALENDAR = "calendar"
         const val KEY_LAT = "lat"
         const val KEY_LON = "lon"

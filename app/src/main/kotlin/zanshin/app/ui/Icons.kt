@@ -33,6 +33,9 @@ object Icons {
         1.7f,
     )
 
+    /** The 3×3 board of the nine stars. */
+    val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
+
     private fun stroke(path: String, width: Float = 1.8f): ImageVector =
         ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
             .addPath(

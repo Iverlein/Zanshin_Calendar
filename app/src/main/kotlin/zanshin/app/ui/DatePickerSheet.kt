@@ -11,10 +11,12 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -31,6 +33,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -38,6 +42,7 @@ import androidx.compose.ui.unit.sp
 import zanshin.app.CalendarKind
 import zanshin.app.DayInfo
 import zanshin.app.Labels
+import zanshin.core.kyureki.DayMark
 import zanshin.core.time.SUPPORTED_RANGE
 import java.time.LocalDate
 import java.time.YearMonth
@@ -45,7 +50,8 @@ import java.time.ZoneId
 
 /**
  * Month grid of Gregorian days; under each, the day number in the calendar
- * being viewed, with a dot on holidays and festivals. Limited to 1900–2100.
+ * being viewed, with a dot on holidays and festivals and, in the 旧暦 view,
+ * the almanac's mark for 受死日 and 天赦日. Limited to 1900–2100.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -100,6 +106,22 @@ fun DatePickerSheet(
                 }
             }
 
+            if (calendar == CalendarKind.KYUREKI) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    for (mark in DayMark.entries) {
+                        DayMarkGlyph(mark, Palette.faint, 7.dp)
+                        GlossText(
+                            mark.senjitsu.kanji,
+                            mark.senjitsu.english,
+                            body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Palette.faint),
+                            reading = mark.senjitsu.reading,
+                            preferAbove = true,
+                        )
+                        Spacer(Modifier.width(10.dp))
+                    }
+                }
+            }
+
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                 Text(
                     "Small figures: ${if (calendar == CalendarKind.TIBETAN) "Tibetan day" else "旧暦 day"}",
@@ -149,6 +171,17 @@ private fun DayCell(
     ) {
         val fg = if (selected) Palette.ink else Palette.text
         Text("${date.dayOfMonth}", style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = fg))
-        Text(sub, style = body.copy(fontSize = 11.sp, color = fg.copy(alpha = 0.8f)))
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
+            Text(sub, style = body.copy(fontSize = 11.sp, color = fg.copy(alpha = 0.8f)))
+            val mark = if (calendar == CalendarKind.KYUREKI) info.rekichu.mark else null
+            if (mark != null) {
+                DayMarkGlyph(
+                    mark,
+                    fg.copy(alpha = 0.8f),
+                    6.dp,
+                    Modifier.semantics { contentDescription = "${mark.senjitsu.kanji}, ${mark.senjitsu.english}" },
+                )
+            }
+        }
     }
 }

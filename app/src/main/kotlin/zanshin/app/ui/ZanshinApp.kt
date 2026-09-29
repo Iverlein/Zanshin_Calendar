@@ -8,6 +8,7 @@ import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -31,6 +32,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
+import androidx.compose.material3.Switch
+import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
@@ -60,6 +63,7 @@ import zanshin.app.Labels
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
 import zanshin.core.astro.SunTimes
+import zanshin.core.kyureki.Kigaku
 import java.time.LocalDate
 import java.time.ZoneId
 import java.util.Locale
@@ -72,6 +76,9 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     var place by remember { mutableStateOf(settings.place) }
     var birth by remember { mutableStateOf(settings.birthDate) }
     var birthDialog by remember { mutableStateOf(false) }
+    var kigaku by remember { mutableStateOf(settings.kigaku) }
+    // Set while the birth-date dialog was opened by switching 九星気学 on.
+    var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
     var pickerOpen by remember { mutableStateOf(false) }
     var today by remember { mutableStateOf(LocalDate.now()) }
@@ -117,6 +124,17 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     scope.launch { drawer.close() }
                     birthDialog = true
                 },
+                kigaku = kigaku,
+                onKigaku = { on ->
+                    if (on && birth == null) {
+                        scope.launch { drawer.close() }
+                        kigakuPending = true
+                        birthDialog = true
+                    } else {
+                        kigaku = on
+                        settings.kigaku = on
+                    }
+                },
                 onCalendar = {
                     chooseCalendar(it)
                     scope.launch { drawer.close() }
@@ -159,7 +177,7 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
                     CalendarKind.TIBETAN -> TibetanPage(info)
-                    CalendarKind.KYUREKI -> KyurekiPage(info)
+                    CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null)
                 }
             }
             SkyLine(date = date, place = place, onLocation = { screen = Screen.LOCATION })
@@ -172,8 +190,16 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     birth = it
                     settings.birthDate = it
                     birthDialog = false
+                    if (kigakuPending && it != null) {
+                        kigaku = true
+                        settings.kigaku = true
+                    }
+                    kigakuPending = false
                 },
-                onDismiss = { birthDialog = false },
+                onDismiss = {
+                    birthDialog = false
+                    kigakuPending = false
+                },
             )
         }
 
@@ -325,6 +351,8 @@ private fun SideMenu(
     placeLabel: String?,
     birthLabel: String?,
     onBirth: () -> Unit,
+    kigaku: Boolean,
+    onKigaku: (Boolean) -> Unit,
     onCalendar: (CalendarKind) -> Unit,
     onLocation: () -> Unit,
     onAbout: () -> Unit,
@@ -359,6 +387,7 @@ private fun SideMenu(
             SectionLabel("SETTINGS")
             MenuRow(Icons.Pin, "Location", placeLabel ?: "Not set", onLocation)
             MenuRow(Icons.Sun, "Birth date", birthLabel ?: "Not set — for personal days", onBirth)
+            SwitchRow(Icons.Board, "Nine-star reading", "Your birth star against the day star", kigaku, onKigaku)
             MenuRow(Icons.Info, "About & sources", "Formulas, fonts, GeoNames", onAbout)
         }
     }
@@ -391,6 +420,37 @@ private fun CalendarRow(title: String, subtitle: String, selected: Boolean, acce
             Text(subtitle, style = body.copy(fontSize = 13.sp, color = Palette.muted))
         }
         if (selected) Icon(Icons.Check, contentDescription = "Selected", tint = accent, modifier = Modifier.size(20.dp))
+    }
+}
+
+@Composable
+private fun SwitchRow(icon: ImageVector, title: String, subtitle: String, checked: Boolean, onChange: (Boolean) -> Unit) {
+    Row(
+        modifier = Modifier
+            .padding(horizontal = 12.dp)
+            .fillMaxWidth()
+            .heightIn(min = 56.dp)
+            .toggleable(value = checked, role = Role.Switch, onValueChange = onChange)
+            .padding(horizontal = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Icon(icon, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(22.dp))
+        Column(Modifier.weight(1f)) {
+            Text(title, style = body.copy(fontSize = 16.sp))
+            Text(subtitle, style = body.copy(fontSize = 13.sp, color = Palette.muted))
+        }
+        Switch(
+            checked = checked,
+            onCheckedChange = null,
+            colors = SwitchDefaults.colors(
+                checkedThumbColor = Palette.ink,
+                checkedTrackColor = Palette.vermilion,
+                uncheckedThumbColor = Palette.muted,
+                uncheckedTrackColor = Palette.raised,
+                uncheckedBorderColor = Palette.lineStrong,
+            ),
+        )
     }
 }
 

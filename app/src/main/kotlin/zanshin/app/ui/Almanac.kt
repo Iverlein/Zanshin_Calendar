@@ -5,6 +5,7 @@
 package zanshin.app.ui
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -36,8 +37,10 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Reading
 
@@ -56,6 +59,20 @@ fun toneLabel(tone: Tone): String = when (tone) {
 }
 
 /**
+ * The almanac's own mark for the day, drawn rather than set in type: a black
+ * dot for 受死日, a ring for 天赦日. [color] is the text colour, so the dot
+ * reads on both themes.
+ */
+@Composable
+fun DayMarkGlyph(mark: DayMark, color: Color, size: Dp, modifier: Modifier = Modifier) {
+    val fill = when (mark) {
+        DayMark.BLACK -> Modifier.background(color, CircleShape)
+        DayMark.PARDON -> Modifier.border(size / 5, color, CircleShape)
+    }
+    Box(modifier.size(size).then(fill))
+}
+
+/**
  * A Tibetan word or kanji. Tapping it shows its English (and reading) in a
  * balloon; there is no underline — every such term is tappable (SPEC §10.1).
  */
@@ -67,6 +84,10 @@ fun GlossText(
     reading: String? = null,
     preferAbove: Boolean = false,
     modifier: Modifier = Modifier,
+    /** Replaces the reading and English rows, for terms with more to say (Tibetan: Wylie, phonetics, English). */
+    rows: List<BalloonRow>? = null,
+    /** What a screen reader says for [text]. */
+    spoken: String = text,
 ) {
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
@@ -75,11 +96,11 @@ fun GlossText(
             style = style,
             modifier = Modifier
                 .clickable(role = Role.Button, onClickLabel = "English") { open = !open }
-                .semantics { contentDescription = "$text, $english" },
+                .semantics { contentDescription = "$spoken, $english" },
         )
         if (open) {
             Balloon(
-                rows = listOfNotNull(
+                rows = rows ?: listOfNotNull(
                     reading?.let { BalloonRow("Reading", it) },
                     BalloonRow("English", english),
                 ),
@@ -180,9 +201,11 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             Spacer(Modifier.heightIn(min = 4.dp))
             SelectionContainer {
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Text("Source", style = body.copy(fontSize = 12.sp, color = Palette.faint))
-                    Text("${r.source.title} — ${r.source.publisher}", style = body.copy(fontSize = 13.sp, color = Palette.muted))
-                    Text(r.source.url, style = body.copy(fontSize = 12.sp, color = Palette.faint))
+                    Text(if (r.also.isEmpty()) "Source" else "Sources", style = body.copy(fontSize = 12.sp, color = Palette.faint))
+                    for (s in listOf(r.source) + r.also) {
+                        Text("${s.title} — ${s.publisher}", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                        Text(s.url, style = body.copy(fontSize = 12.sp, color = Palette.faint))
+                    }
                     Text(r.license.label, style = body.copy(fontSize = 12.sp, color = Palette.faint))
                 }
             }
