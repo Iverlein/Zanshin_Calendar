@@ -299,8 +299,9 @@ Chinese and Traditional Chinese.
 - Chinese as two separate languages, each translated and reviewed on its
   own, not converted from one to the other: `values-b+zh+Hans` and
   `values-b+zh+Hant` in the app, `zh-CN` and `zh-TW` in the store listing.
-- Japanese goes right after Russian, as the first Weblate language, and is
-  translated by the project there, with the project as its reviewers. Its
+- Japanese goes right after Russian, as the first Weblate language,
+  translated there by the owner together with invited friends; the owner
+  and those of them who read Japanese well are its reviewers. Its
   readings of the 旧暦 page can be written from the Japanese sources
   directly, but Todan's copyrighted wording still may not be copied;
   Wikipedia's CC BY-SA wording may, with attribution. The Weblate glossary
