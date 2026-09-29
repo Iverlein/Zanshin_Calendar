@@ -14,7 +14,7 @@ Repo: https://github.com/Iverlein/Zanshin_Calendar.git
 Builds:
   - versionName: '1.0'
     versionCode: 1
-    commit: v1.0
+    commit: 0491c2b2793e31cd855227f98a9708df4a86cf0b
     subdir: app
     gradle:
       - yes
