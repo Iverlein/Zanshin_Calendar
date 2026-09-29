@@ -162,9 +162,11 @@ waits on sources or on design:
 - **Personal mansions:** the app has the life, soul and deadly weekday (srog,
   bla, gshed) of the birth animal. Berzin names six personal mansions (srog,
   bla, dbang, skeg, btub, gshed skar); the table per animal still needs a
-  source. The *White Beryl* OCR has no hit for these names, so they are
-  either spelled otherwise there or come from almanac practice (the yearly
-  Men-Tsee-Khang lo tho).
+  source. The *White Beryl* OCR has no hit for these names, and a full-text
+  search of the Rinchen Terdzö (rtz.tsadra.org, 2026-09-29) found none either,
+  nor any of the karaṇa vishti or of the eight names the White Beryl OCR does
+  not confirm (SPEC §10.3). The table likely comes from almanac practice (the
+  yearly Men-Tsee-Khang lo tho) or a calculation manual.
 - Whole days stay uncoloured, as on the 旧暦 page (SPEC §10.4). The element
   pair already marks four of its ten pairs as inauspicious.
 
