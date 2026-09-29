@@ -10,6 +10,7 @@ import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.PersonalDay
@@ -37,6 +38,8 @@ data class Reading(
     val avoid: List<String> = emptyList(),
     val source: Source,
     val license: License = License.OWN,
+    /** Further sources for parts of the summary, under the same licence. */
+    val also: List<Source> = emptyList(),
 )
 
 object Sources {
@@ -54,6 +57,7 @@ object Sources {
     val WP_TSUCHI = Source("犯土", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/犯土")
     val WP_KOSHIN = Source("庚申待", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/庚申待")
     val WP_KYUSEI = Source("九星", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星")
+    val WP_KIGAKU = Source("九星気学", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星気学")
     val WP_TOSHITOKU = Source("歳徳神", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/歳徳神")
     val KB_TORA = Source("「寅の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/寅の日")
     val KB_MI = Source("「巳の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/巳の日")
@@ -170,6 +174,23 @@ object Texts {
             source = Sources.WP_KYUSEI, license = License.CC_BY_SA,
         )
     }.toMap()
+
+    /**
+     * The relation of one's birth star to the day star (九星気学). Relations from Japanese
+     * Wikipedia 九星; the school from 九星気学.
+     */
+    val KIGAKU: Map<StarRelation, Reading> = mapOf(
+        StarRelation.SOSHO to "相生: the element of one star feeds the other's, as metal feeds water. Read against a person's years, months and days, this counts as good.",
+        StarRelation.HIWA to "比和: both stars have the same element. Read against a person's years, months and days, this counts as good.",
+        StarRelation.SOKOKU to "相剋: the element of one star overcomes the other's, as earth overcomes water. Read against a person's years, months and days, this counts as bad.",
+    ).mapValues { (_, s) ->
+        Reading(
+            "$s Your birth star (本命星) is the year star of your birth year, counted from 立春. This reading belongs to " +
+                "九星気学, fortune-telling by the nine stars, gathered as 気学 in 1909; it is not an " +
+                "annotation of the historical almanac.",
+            source = Sources.WP_KYUSEI, license = License.CC_BY_SA, also = listOf(Sources.WP_KIGAKU),
+        )
+    }
 
     val SENJITSU: Map<Senjitsu, Reading> = mapOf(
         Senjitsu.TENSHA to Reading("The hundred gods rise to heaven and heaven forgives all wrongs: the best day of the year, noted as \"good for all\". Five or six times a year.", good = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),

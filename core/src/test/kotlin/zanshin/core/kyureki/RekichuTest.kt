@@ -123,19 +123,48 @@ class RekichuTest {
     }
 
     /**
-     * The 選日 of Japanese Wikipedia 選日 (一覧) and koyomi8 rekicyuu_doc02, plus
-     * the deity days 寅の日, 巳の日, 己巳, 甲子 and 庚申; every other entry is
-     * 暦注下段 (Wikipedia 暦注下段, koyomi8 rekicyuu_doc03).
+     * The 選日 of Japanese Wikipedia 選日 (一覧) and koyomi8 rekicyuu_doc02; the
+     * 縁日 of Japanese Wikipedia 縁日 (甲子 of Daikokuten, 己巳 of Benzaiten, 庚申
+     * of Taishakuten and Shōmen Kongō, 寅の日 of Bishamonten, and 巳の日 as the
+     * day of the sexagenary cycle behind 初巳); every other entry is 暦注下段
+     * (Wikipedia 暦注下段, koyomi8 rekicyuu_doc03).
      */
     @Test
-    fun `selected days are split between the lower band and the selected-day column`() {
+    fun `selected days are split between the lower band, the selected-day column and the deity days`() {
         val senjitsu = setOf(
             Senjitsu.ICHIRYU_MANBAI, Senjitsu.FUJOJU, Senjitsu.HASSEN, Senjitsu.HASSEN_MABI, Senjitsu.JIPPOGURE,
             Senjitsu.TENICHI_TENJO, Senjitsu.SANRINBO, Senjitsu.OTSUCHI, Senjitsu.KOTSUCHI, Senjitsu.TSUCHI_MABI,
-            Senjitsu.TORA, Senjitsu.MI, Senjitsu.TSUCHINOTO_MI, Senjitsu.KINOE_NE, Senjitsu.KANOE_SARU,
         )
+        val ennichi = setOf(Senjitsu.TORA, Senjitsu.MI, Senjitsu.TSUCHINOTO_MI, Senjitsu.KINOE_NE, Senjitsu.KANOE_SARU)
         Senjitsu.entries.forEach {
-            assertEquals(if (it in senjitsu) Band.SENJITSU else Band.KAGEDAN, it.band, it.kanji)
+            val expected = when (it) {
+                in senjitsu -> Band.SENJITSU
+                in ennichi -> Band.ENNICHI
+                else -> Band.KAGEDAN
+            }
+            assertEquals(expected, it.band, it.kanji)
         }
+    }
+
+    @Test
+    fun `the black day and the pardon day carry their marks, the black day first`() {
+        var date = LocalDate.of(2026, 1, 1)
+        var black = 0
+        var pardon = 0
+        while (date.year == 2026) {
+            val day = Rekichu.of(date)
+            val expected = when {
+                Senjitsu.JUSHI in day.senjitsu -> DayMark.BLACK
+                Senjitsu.TENSHA in day.senjitsu -> DayMark.PARDON
+                else -> null
+            }
+            assertEquals(expected, day.mark, "$date")
+            if (day.mark == DayMark.BLACK) black++
+            if (day.mark == DayMark.PARDON) pardon++
+            date = date.plusDays(1)
+        }
+        // 天赦日 falls five or six times a year (Japanese Wikipedia 暦注下段).
+        assertTrue(pardon in 5..6, "$pardon pardon days")
+        assertTrue(black > 0)
     }
 }

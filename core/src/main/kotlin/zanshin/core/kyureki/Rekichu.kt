@@ -99,9 +99,10 @@ enum class KyuSei(override val kanji: String, override val reading: String, over
 /**
  * Which list of the almanac an annotation belongs to: 暦注下段, printed in the
  * lower band, or the 選日, a column of their own (Japanese Wikipedia 暦注下段
- * and 選日; koyomi8.com rekicyuu_doc02 and rekicyuu_doc03).
+ * and 選日; koyomi8.com rekicyuu_doc02 and rekicyuu_doc03); or the 縁日, the
+ * festival days of deities by the sexagenary cycle (Japanese Wikipedia 縁日).
  */
-enum class Band { KAGEDAN, SENJITSU }
+enum class Band { KAGEDAN, SENJITSU, ENNICHI }
 
 /** 暦注下段 and 選日 — the good and bad days of the lower band and the selected-day column. */
 enum class Senjitsu(override val kanji: String, override val reading: String, override val english: String, val tone: Tone, val band: Band) : Term {
@@ -112,10 +113,10 @@ enum class Senjitsu(override val kanji: String, override val reading: String, ov
     BOSO("母倉日", "bosōnichi", "Mother's storehouse", Tone.GOOD, Band.KAGEDAN),
     SETTOKU("節徳日", "settokunichi", "Virtue of the season", Tone.GOOD, Band.KAGEDAN),
     KISHUKU("鬼宿日", "kishukunichi", "Ghost lodge day", Tone.GOOD, Band.KAGEDAN),
-    TORA("寅の日", "tora no hi", "Tiger day", Tone.GOOD, Band.SENJITSU),
-    MI("巳の日", "mi no hi", "Snake day", Tone.GOOD, Band.SENJITSU),
-    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", "Earth-yin Snake day", Tone.GOOD, Band.SENJITSU),
-    KINOE_NE("甲子", "kinoe-ne", "Wood-yang Rat, first of the sixty", Tone.GOOD, Band.SENJITSU),
+    TORA("寅の日", "tora no hi", "Tiger day", Tone.GOOD, Band.ENNICHI),
+    MI("巳の日", "mi no hi", "Snake day", Tone.GOOD, Band.ENNICHI),
+    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", "Earth-yin Snake day", Tone.GOOD, Band.ENNICHI),
+    KINOE_NE("甲子", "kinoe-ne", "Wood-yang Rat, first of the sixty", Tone.GOOD, Band.ENNICHI),
     TENICHI_TENJO("天一天上", "ten'ichi tenjō", "Ten'ichi in heaven", Tone.GOOD, Band.SENJITSU),
     JUSHI("受死日", "jushinichi", "Receiving death (black day)", Tone.BAD, Band.KAGEDAN),
     JISSHI("十死日", "jisshinichi", "Tenfold death", Tone.BAD, Band.KAGEDAN),
@@ -135,7 +136,7 @@ enum class Senjitsu(override val kanji: String, override val reading: String, ov
     SAIGEJIKI("歳下食", "saigejiki", "Year's descending eater", Tone.BAD, Band.KAGEDAN),
     JUNICHI("重日", "jūnichi", "Doubling day", Tone.MIXED, Band.KAGEDAN),
     FUKUNICHI("復日", "fukunichi", "Repeating day", Tone.MIXED, Band.KAGEDAN),
-    KANOE_SARU("庚申", "kōshin", "Metal-yang Monkey (kōshin)", Tone.MIXED, Band.SENJITSU),
+    KANOE_SARU("庚申", "kōshin", "Metal-yang Monkey (kōshin)", Tone.MIXED, Band.ENNICHI),
     TAIKA("大禍日", "taikanichi", "Great calamity (personal)", Tone.BAD, Band.KAGEDAN),
     ROSHAKU("狼藉日", "rōshakunichi", "Havoc (personal)", Tone.BAD, Band.KAGEDAN),
     METSUMON("滅門日", "metsumonnichi", "Ruin of the house (personal)", Tone.BAD, Band.KAGEDAN),
@@ -181,7 +182,21 @@ data class RekichuDay(
     val senjitsu: List<Senjitsu>,
     val zassetsu: List<Zassetsu>,
     val ehou: Ehou,
-)
+) {
+    /** The mark the almanac itself gives the day, if any. */
+    val mark: DayMark?
+        get() = DayMark.entries.firstOrNull { it.senjitsu in senjitsu }
+}
+
+/**
+ * The two days the almanac itself marks (Japanese Wikipedia 暦注下段): 受死日
+ * with a black dot, hence 黒日, and 天赦日 with the note 万よし. The black day
+ * comes first: on it no other annotation need be read.
+ */
+enum class DayMark(val senjitsu: Senjitsu) {
+    BLACK(Senjitsu.JUSHI),
+    PARDON(Senjitsu.TENSHA),
+}
 
 object Rekichu {
     private val dayStarCache = ConcurrentHashMap<Int, List<Pair<LocalDate, Boolean>>>()

@@ -13,6 +13,7 @@ import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.PersonalDay
@@ -21,6 +22,11 @@ import zanshin.core.tibetan.TibetanFestival
 
 /** SPEC §8.1: nothing is shown without a published source. */
 class TextsTest {
+    private val all = listOf(
+        Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.EHOU,
+        Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU,
+    ).flatMap { it.values } + Texts.HAIRCUT
+
     @Test
     fun `every annotation has a sourced reading`() {
         fun <E : Enum<E>> complete(entries: List<E>, map: Map<E, Reading>) =
@@ -36,15 +42,24 @@ class TextsTest {
         complete(SpecialDay.entries, Texts.SPECIAL_DAY)
         complete(TibetanFestival.entries, Texts.TIBETAN_FESTIVAL)
         complete(PersonalDay.entries, Texts.PERSONAL_DAY)
+        complete(StarRelation.entries, Texts.KIGAKU)
         assertEquals(30, Texts.HAIRCUT.size)
 
-        val all = listOf(
-            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.EHOU,
-            Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY,
-        ).flatMap { it.values } + Texts.HAIRCUT
         for (r in all) {
-            assertTrue(r.source.url.startsWith("http"), "source of \"${r.summary}\"")
+            for (s in listOf(r.source) + r.also) assertTrue(s.url.startsWith("http"), "source of \"${r.summary}\"")
             assertTrue(r.summary.isNotBlank() || r.good.isNotEmpty() || r.avoid.isNotEmpty(), "empty reading from ${r.source.title}")
         }
+    }
+
+    /** ROADMAP R1: every "good for" and "avoid" wording names an activity or a time of day, not both. */
+    @Test
+    fun `every listed wording maps to an activity or a time of day`() {
+        val wordings = all.flatMap { it.good + it.avoid }.toSet()
+        for (w in wordings) {
+            val kinds = listOfNotNull(Activities.BY_WORDING[w], Activities.TIMES[w])
+            assertEquals(1, kinds.size, "\"$w\" must map to exactly one of activities or times")
+        }
+        assertEquals(wordings, Activities.BY_WORDING.keys + Activities.TIMES.keys, "wordings no reading uses")
+        assertEquals(Activity.entries.toSet(), Activities.BY_WORDING.values.flatten().toSet(), "activities no wording names")
     }
 }
