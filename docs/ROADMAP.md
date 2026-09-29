@@ -240,9 +240,10 @@ calendars and R2 need the birth date; the progressions of T4 need both.
 
 ## Localisation
 
-English stays the source language. Russian comes first, translated by the
-project; German, French, Spanish, Portuguese, Chinese and Japanese follow
-through Hosted Weblate.
+English stays the source language. The order: Russian, translated by the
+project; then Japanese; then German, French, Spanish, Portuguese and
+Chinese (Simplified and Traditional, served separately), all through Hosted
+Weblate.
 
 ### L1. Text out of the code
 
@@ -287,16 +288,20 @@ Nothing on screen changes.
 
 ### L4. Hosted Weblate
 
-For German, French, Spanish, Portuguese, Chinese and Japanese.
+For Japanese first, then German, French, Spanish, Portuguese, Simplified
+Chinese and Traditional Chinese.
 
 - A project on Hosted Weblate (gratis for libre projects), one component for
   `strings.xml`, one for the reading catalog, one for the store listing.
 - Reviews switched on for the reading catalog: a translated reading ships
   only once a reviewer has approved it, for the same reason as in L3.
 - Weblate commits through a pull request, never straight to `main`.
-- Open: Chinese in Simplified, Traditional or both (`zh-CN`, `zh-TW`)?
-- Japanese: the readings of the 旧暦 page can be written from the Japanese
-  sources directly, but Todan's copyrighted wording still may not be copied;
+- Chinese as two separate languages, each translated and reviewed on its
+  own, not converted from one to the other: `values-b+zh+Hans` and
+  `values-b+zh+Hant` in the app, `zh-CN` and `zh-TW` in the store listing.
+- Japanese goes right after Russian, as the first Weblate language: its
+  readings of the 旧暦 page can be written from the Japanese sources
+  directly, but Todan's copyrighted wording still may not be copied;
   Wikipedia's CC BY-SA wording may, with attribution.
 - The app itself gains no network access: translations arrive in the source
   and ship with a release.
