@@ -447,7 +447,11 @@ canvas "Zanshin Calendar — basic design".
   as a full-height column: the two calendars at the top, settings below.
 - **Location**, stored only on the device:
   - **"Use my location"**: one reading from the device's location service
-    (`ACCESS_COARSE_LOCATION`, asked for when tapped, not at start-up).
+    (`ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION`, asked for when
+    tapped, not at start-up). Fine location enables the GPS provider, the
+    only offline source on phones without network location (common without
+    Google services); if the user grants approximate location only, the
+    fused and network providers are used.
   - **City search**, offline, over a bundled list of about 25,000 cities
     (GeoNames `cities15000`, CC BY 4.0; attribution in the About screen).
   - **Coordinates** typed by hand.
