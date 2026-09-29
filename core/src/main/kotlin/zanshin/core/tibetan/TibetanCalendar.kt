@@ -90,6 +90,9 @@ object TibetanCalendar {
         MonthNames("rgyal", "Pauṣa", Animal.RABBIT, "late winter"),
     )
 
+    /** Names of Tibetan month [month], 1–12. */
+    fun monthNames(month: Int): MonthNames = MONTH_NAMES[month - 1]
+
     fun of(date: LocalDate, a2: Rational = Phugpa.A2_ALMANAC): TibetanDay = of(date.julianDayNumber(), a2)
 
     fun of(jd: Long, a2: Rational = Phugpa.A2_ALMANAC): TibetanDay {

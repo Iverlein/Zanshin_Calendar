@@ -21,6 +21,9 @@ class HenningPhugpaTest {
     /** Henning writes gro bzhin as "gro zhin". */
     private fun mansionName(m: Mansion) = if (m == Mansion.SHRAVANA) "gro zhin" else m.wylie
 
+    /** Henning writes til brdung, the White Beryl's spelling, as "til rdung". */
+    private fun karanaName(k: Karana) = if (k == Karana.TAITILA) "til rdung" else k.wylie
+
     private fun label(e: Enum<*>) = e.name.lowercase().replaceFirstChar { it.uppercase() }
 
     private val festivalByText = mapOf(
@@ -48,7 +51,7 @@ class HenningPhugpaTest {
             assertEquals(r[8].isEmpty(), t.repetition == Repetition.FIRST_OF_TWO, "repetition $where")
             if (r[8].isNotEmpty()) {
                 assertEquals(r[8], t.yoga.wylie, "yoga $where")
-                assertEquals(r[9], t.karana.wylie, "karana $where")
+                assertEquals(r[9], karanaName(t.karana), "karana $where")
                 assertEquals(r[10], label(t.lunarDayAnimal), "lunar-day animal $where")
                 assertEquals(r[11], t.trigram.wylie, "trigram $where")
                 assertEquals(r[12].toInt(), t.smeBa, "number $where")

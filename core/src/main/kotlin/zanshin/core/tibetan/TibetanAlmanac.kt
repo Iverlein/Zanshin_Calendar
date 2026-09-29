@@ -7,7 +7,8 @@ package zanshin.core.tibetan
 /**
  * Tables for the daily entries of a Phugpa almanac (Janson §10 and
  * Appendix E). Names follow Edward Henning's Phugpa calendar archive and his
- * "Symbolic details of the Kālacakra calendar" (kalacakra.org); the English
+ * "Symbolic details of the Kālacakra calendar" (kalacakra.org), except where
+ * the White Beryl spells them otherwise (til brdung, mi 'phrod); the English
  * glosses are this project's.
  */
 
@@ -96,7 +97,7 @@ enum class Karana(val wylie: String, val sanskrit: String, val english: String) 
     VAVA("gdab pa", "Vava", "setting down"),
     BALAVA("byis pa", "Bālava", "the child"),
     KAULAVA("rigs can", "Kaulava", "of good family"),
-    TAITILA("til rdung", "Taitila", "sesame pounder"),
+    TAITILA("til brdung", "Taitila", "sesame pounder"),
     GARA("khyim skyes", "Gara", "born in the house"),
     VANIJA("tshong ba", "Vaṇija", "the merchant"),
     VISHTI("vishti", "Viṣṭi", "Viṣṭi (Bhadrā)"),
@@ -134,7 +135,7 @@ enum class ElementPair(
     FIRE_FIRE(IndianElement.FIRE, IndianElement.FIRE, "'phel 'gyur", "pragati", "progress", true),
     WIND_WIND(IndianElement.WIND, IndianElement.WIND, "phun tshogs", "saṃpanna", "excellence", true),
     FIRE_WIND(IndianElement.FIRE, IndianElement.WIND, "stobs ldan", "balayukta", "strength", true),
-    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi phrod", "alābha", "deficiency", false),
+    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi 'phrod", "alābha", "deficiency", false),
     WATER_WIND(IndianElement.WATER, IndianElement.WIND, "mi mthun", "pratikūla", "discord", false),
     EARTH_FIRE(IndianElement.EARTH, IndianElement.FIRE, "sreg pa", "dahana", "burning", false),
     FIRE_WATER(IndianElement.FIRE, IndianElement.WATER, "'chi ba", "maraṇa", "death", false);
