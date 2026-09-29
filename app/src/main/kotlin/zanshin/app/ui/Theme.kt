@@ -51,6 +51,9 @@ val Figtree = FontFamily(
     figtree(FontWeight.SemiBold),
 )
 
+/** Tibetan script: Noto Serif Tibetan, one weight, the Tibetan block (tools/subset_fonts.py). */
+val TibetanSerif = FontFamily(Font(R.font.noto_serif_tibetan, FontWeight.Medium))
+
 /** Large numerals and every kanji: a subset of Shippori Mincho (tools/subset_fonts.py). */
 val Mincho = FontFamily(
     Font(R.font.shippori_medium, FontWeight.Medium),

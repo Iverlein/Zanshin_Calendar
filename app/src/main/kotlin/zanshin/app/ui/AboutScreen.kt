@@ -44,16 +44,21 @@ private val SECTIONS = listOf(
         "sun from the VSOP87D series of Bretagnon and Francou, ΔT from the polynomials of Espenak and Meeus " +
         "(NASA). Everything is computed on this phone; the app has no internet access.",
     "Readings" to "Every reading names its source. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, " +
-        "十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 歳徳神, 庚申待), whose adapted text is " +
+        "十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is " +
         "licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: " +
         "Lama Zopa Rinpoche's translation of the hair-cutting days (FPMT, 2008); Edition Rabten's Tibetan " +
         "calendar; Edward Henning's symbolic details of the calendar; and Jigme Lingpa's prayer on the tenth " +
-        "day (Lotsawa House). Readings not adapted from Wikipedia are the app's own English summaries of the " +
+        "day (Lotsawa House); the colours of the nine numbers from Alexander Berzin's Details of Tibetan " +
+        "Astrology (Study Buddhism). Readings not adapted from Wikipedia are the app's own English summaries of the " +
         "cited sources, under the app's licence.",
+    "Tibetan" to "Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the " +
+        "White Beryl of Desi Sangye Gyatso; their pronunciation follows the THL Simplified Phonetic " +
+        "Transcription of Standard Tibetan (David Germano and Nicolas Tournadre, 2003).",
     "Glyphs" to "Festival glyphs are drawn for this app and share its licence.",
     "Cities" to "City list from GeoNames (geonames.org), licensed under Creative Commons Attribution 4.0.",
-    "Fonts" to "Figtree, © 2022 The Figtree Project Authors, and Shippori Mincho, © 2021 The Shippori Mincho " +
-        "Project Authors, both under the SIL Open Font License 1.1.",
+    "Fonts" to "Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho " +
+        "Project Authors; and Noto Serif Tibetan, © 2022 The Noto Project Authors; all under the SIL Open Font " +
+        "License 1.1.",
     "Licence" to "Zanshin Calendar is free software under the Mozilla Public License 2.0.",
 )
 

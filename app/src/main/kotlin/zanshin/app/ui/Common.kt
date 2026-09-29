@@ -35,6 +35,7 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.LineHeightStyle
@@ -152,6 +153,19 @@ fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, onDismiss: () 
 @Composable
 fun BalloonText(
     text: String,
+    style: TextStyle,
+    open: Boolean,
+    onToggle: () -> Unit,
+    rows: List<BalloonRow>,
+    preferAbove: Boolean = false,
+    description: String? = null,
+    underline: Boolean = true,
+) = BalloonText(AnnotatedString(text), style, open, onToggle, rows, preferAbove, description, underline)
+
+/** As above, for a line that mixes scripts (a Tibetan month name after its number). */
+@Composable
+fun BalloonText(
+    text: AnnotatedString,
     style: TextStyle,
     open: Boolean,
     onToggle: () -> Unit,
