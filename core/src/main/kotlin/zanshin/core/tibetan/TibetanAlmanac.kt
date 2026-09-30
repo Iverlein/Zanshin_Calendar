@@ -4,6 +4,8 @@
 
 package zanshin.core.tibetan
 
+import zanshin.core.texts.gloss
+
 /**
  * Tables for the daily entries of a Phugpa almanac (Janson §10 and
  * Appendix E). Names follow Edward Henning's Phugpa calendar archive and his
@@ -13,8 +15,10 @@ package zanshin.core.tibetan
  */
 
 /** The four elements of the Indian system, used for weekdays and lunar mansions. */
-enum class IndianElement(val english: String, val wylie: String) {
-    EARTH("Earth", "sa"), WATER("Water", "chu"), FIRE("Fire", "me"), WIND("Wind", "rlung")
+enum class IndianElement(val wylie: String) {
+    EARTH("sa"), WATER("chu"), FIRE("me"), WIND("rlung");
+
+    val english: String get() = gloss(this)
 }
 
 /** Weekday elements, Janson Table 5. */
@@ -27,65 +31,69 @@ val Weekday.element: IndianElement
     }
 
 /** The 27 lunar mansions (rgyu skar), numbered from 0 as in Janson (10.3). */
-enum class Mansion(val wylie: String, val sanskrit: String, val english: String, val element: IndianElement) {
-    ASHVINI("tha skar", "Aśvinī", "horse-woman", IndianElement.WIND),
-    BHARANI("bra nye", "Bharaṇī", "bearer", IndianElement.FIRE),
-    KRITTIKA("smin drug", "Kṛttikā", "the Pleiades", IndianElement.FIRE),
-    ROHINI("snar ma", "Rohiṇī", "the red one", IndianElement.EARTH),
-    MRIGASHIRAS("mgo", "Mṛgaśiras", "deer's head", IndianElement.WIND),
-    ARDRA("lag", "Ārdrā", "the moist one", IndianElement.WATER),
-    PUNARVASU("nabs so", "Punarvasu", "return of the good", IndianElement.WIND),
-    PUSHYA("rgyal", "Puṣya", "the nourisher", IndianElement.FIRE),
-    ASHLESHA("skag", "Āśleṣā", "the embrace", IndianElement.WATER),
-    MAGHA("mchu", "Maghā", "the bountiful", IndianElement.FIRE),
-    PURVAPHALGUNI("gre", "Pūrvaphalgunī", "former reddish one", IndianElement.FIRE),
-    UTTARAPHALGUNI("dbo", "Uttaraphalgunī", "latter reddish one", IndianElement.WIND),
-    HASTA("me bzhi", "Hasta", "the hand", IndianElement.WIND),
-    CITRA("nag pa", "Citrā", "the bright one", IndianElement.WIND),
-    SVATI("sa ri", "Svātī", "the independent one", IndianElement.WIND),
-    VISHAKHA("sa ga", "Viśākhā", "the forked one", IndianElement.FIRE),
-    ANURADHA("lha mtshams", "Anurādhā", "following Rādhā", IndianElement.EARTH),
-    JYESHTHA("snron", "Jyeṣṭhā", "the eldest", IndianElement.EARTH),
-    MULA("snrubs", "Mūla", "the root", IndianElement.WATER),
-    PURVASHADHA("chu stod", "Pūrvāṣāḍhā", "former invincible one", IndianElement.WATER),
-    UTTARASHADHA("chu smad", "Uttarāṣāḍhā", "latter invincible one", IndianElement.EARTH),
-    SHRAVANA("gro bzhin", "Śravaṇa", "hearing", IndianElement.EARTH),
-    DHANISHTHA("mon gre", "Dhaniṣṭhā", "the wealthiest", IndianElement.WATER),
-    SHATABHISHAJ("mon gru", "Śatabhiṣaj", "hundred physicians", IndianElement.EARTH),
-    PURVABHADRAPADA("khrums stod", "Pūrvabhādrapadā", "former auspicious feet", IndianElement.FIRE),
-    UTTARABHADRAPADA("khrums smad", "Uttarabhādrapadā", "latter auspicious feet", IndianElement.WATER),
-    REVATI("nam gru", "Revatī", "the wealthy one", IndianElement.WATER),
+enum class Mansion(val wylie: String, val sanskrit: String, val element: IndianElement) {
+    ASHVINI("tha skar", "Aśvinī", IndianElement.WIND),
+    BHARANI("bra nye", "Bharaṇī", IndianElement.FIRE),
+    KRITTIKA("smin drug", "Kṛttikā", IndianElement.FIRE),
+    ROHINI("snar ma", "Rohiṇī", IndianElement.EARTH),
+    MRIGASHIRAS("mgo", "Mṛgaśiras", IndianElement.WIND),
+    ARDRA("lag", "Ārdrā", IndianElement.WATER),
+    PUNARVASU("nabs so", "Punarvasu", IndianElement.WIND),
+    PUSHYA("rgyal", "Puṣya", IndianElement.FIRE),
+    ASHLESHA("skag", "Āśleṣā", IndianElement.WATER),
+    MAGHA("mchu", "Maghā", IndianElement.FIRE),
+    PURVAPHALGUNI("gre", "Pūrvaphalgunī", IndianElement.FIRE),
+    UTTARAPHALGUNI("dbo", "Uttaraphalgunī", IndianElement.WIND),
+    HASTA("me bzhi", "Hasta", IndianElement.WIND),
+    CITRA("nag pa", "Citrā", IndianElement.WIND),
+    SVATI("sa ri", "Svātī", IndianElement.WIND),
+    VISHAKHA("sa ga", "Viśākhā", IndianElement.FIRE),
+    ANURADHA("lha mtshams", "Anurādhā", IndianElement.EARTH),
+    JYESHTHA("snron", "Jyeṣṭhā", IndianElement.EARTH),
+    MULA("snrubs", "Mūla", IndianElement.WATER),
+    PURVASHADHA("chu stod", "Pūrvāṣāḍhā", IndianElement.WATER),
+    UTTARASHADHA("chu smad", "Uttarāṣāḍhā", IndianElement.EARTH),
+    SHRAVANA("gro bzhin", "Śravaṇa", IndianElement.EARTH),
+    DHANISHTHA("mon gre", "Dhaniṣṭhā", IndianElement.WATER),
+    SHATABHISHAJ("mon gru", "Śatabhiṣaj", IndianElement.EARTH),
+    PURVABHADRAPADA("khrums stod", "Pūrvabhādrapadā", IndianElement.FIRE),
+    UTTARABHADRAPADA("khrums smad", "Uttarabhādrapadā", IndianElement.WATER),
+    REVATI("nam gru", "Revatī", IndianElement.WATER);
+
+    val english: String get() = gloss(this)
 }
 
 /** The 27 yogas (sbyor ba), Janson (10.5), with the Tibetan names of the Phugpa almanacs. */
-enum class Yoga(val wylie: String, val sanskrit: String, val english: String) {
-    VISHKAMBHA("rnam sel", "Viṣkambha", "support"),
-    PRITI("mdza' bo", "Prīti", "affection"),
-    AYUSHMAN("tshe dang ldan pa", "Āyuṣmān", "long life"),
-    SAUBHAGYA("skal bzang", "Saubhāgya", "good fortune"),
-    SHOBHANA("dge byed", "Śobhana", "splendour"),
-    ATIGANDA("shin tu 'grams", "Atigaṇḍa", "great danger"),
-    SUKARMAN("las bzang", "Sukarman", "good deeds"),
-    DHRITI("'dzin byed", "Dhṛti", "steadfastness"),
-    SHULA("zug rngu", "Śūla", "spike"),
-    GANDA("'grams", "Gaṇḍa", "danger"),
-    VRIDDHI("'phel", "Vṛddhi", "growth"),
-    DHRUVA("brtan pa", "Dhruva", "constancy"),
-    VYAGHATA("yongs bsnun", "Vyāghāta", "striking"),
-    HARSHANA("dga' ba", "Harṣaṇa", "delight"),
-    VAJRA("rdo rje", "Vajra", "vajra"),
-    SIDDHI("dngos grub", "Siddhi", "accomplishment"),
-    VYATIPATA("phan tshun", "Vyatīpāta", "calamity"),
-    VARIYAS("mchog can", "Varīyas", "excellence"),
-    PARIGHA("yongs 'joms", "Parigha", "obstruction"),
-    SHIVA("zhi ba", "Śiva", "peace"),
-    SIDDHA("grub pa", "Siddha", "the accomplished"),
-    SADHYA("bsgrub bya", "Sādhya", "what is to be accomplished"),
-    SHUBHA("dge ba", "Śubha", "virtue"),
-    SHUKLA("dkar po", "Śukla", "white"),
-    BRAHMA("tshangs pa", "Brahma", "Brahmā"),
-    INDRA("dbang po", "Indra", "Indra"),
-    VAIDHRITI("'khon 'dzin", "Vaidhṛti", "discord"),
+enum class Yoga(val wylie: String, val sanskrit: String) {
+    VISHKAMBHA("rnam sel", "Viṣkambha"),
+    PRITI("mdza' bo", "Prīti"),
+    AYUSHMAN("tshe dang ldan pa", "Āyuṣmān"),
+    SAUBHAGYA("skal bzang", "Saubhāgya"),
+    SHOBHANA("dge byed", "Śobhana"),
+    ATIGANDA("shin tu 'grams", "Atigaṇḍa"),
+    SUKARMAN("las bzang", "Sukarman"),
+    DHRITI("'dzin byed", "Dhṛti"),
+    SHULA("zug rngu", "Śūla"),
+    GANDA("'grams", "Gaṇḍa"),
+    VRIDDHI("'phel", "Vṛddhi"),
+    DHRUVA("brtan pa", "Dhruva"),
+    VYAGHATA("yongs bsnun", "Vyāghāta"),
+    HARSHANA("dga' ba", "Harṣaṇa"),
+    VAJRA("rdo rje", "Vajra"),
+    SIDDHI("dngos grub", "Siddhi"),
+    VYATIPATA("phan tshun", "Vyatīpāta"),
+    VARIYAS("mchog can", "Varīyas"),
+    PARIGHA("yongs 'joms", "Parigha"),
+    SHIVA("zhi ba", "Śiva"),
+    SIDDHA("grub pa", "Siddha"),
+    SADHYA("bsgrub bya", "Sādhya"),
+    SHUBHA("dge ba", "Śubha"),
+    SHUKLA("dkar po", "Śukla"),
+    BRAHMA("tshangs pa", "Brahma"),
+    INDRA("dbang po", "Indra"),
+    VAIDHRITI("'khon 'dzin", "Vaidhṛti");
+
+    val english: String get() = gloss(this)
 }
 
 /**
@@ -93,18 +101,21 @@ enum class Yoga(val wylie: String, val sanskrit: String, val english: String) {
  * 60 are the four fixed ones, the rest cycle through the seven changing ones
  * as (H − 1) amod 7 (Janson §10 (viii)).
  */
-enum class Karana(val wylie: String, val sanskrit: String, val english: String) {
-    VAVA("gdab pa", "Vava", "setting down"),
-    BALAVA("byis pa", "Bālava", "the child"),
-    KAULAVA("rigs can", "Kaulava", "of good family"),
-    TAITILA("til brdung", "Taitila", "sesame pounder"),
-    GARA("khyim skyes", "Gara", "born in the house"),
-    VANIJA("tshong ba", "Vaṇija", "the merchant"),
-    VISHTI("vishti", "Viṣṭi", "Viṣṭi (Bhadrā)"),
-    SHAKUNI("bkra shis", "Śakuni", "auspicious"),
-    CATUSHPADA("rkang bzhi", "Catuṣpada", "four-footed"),
-    NAGA("klu", "Nāga", "nāga, serpent spirit"),
-    KIMSTUGHNA("mi sdug pa", "Kiṃstughna", "unpleasant");
+enum class Karana(val wylie: String, val sanskrit: String) {
+    VAVA("gdab pa", "Vava"),
+    BALAVA("byis pa", "Bālava"),
+    KAULAVA("rigs can", "Kaulava"),
+    TAITILA("til brdung", "Taitila"),
+    GARA("khyim skyes", "Gara"),
+    VANIJA("tshong ba", "Vaṇija"),
+    VISHTI("vishti", "Viṣṭi"),
+    SHAKUNI("bkra shis", "Śakuni"),
+    CATUSHPADA("rkang bzhi", "Catuṣpada"),
+    NAGA("klu", "Nāga"),
+    KIMSTUGHNA("mi sdug pa", "Kiṃstughna");
+
+    val english: String get() = gloss(this)
+
 
     companion object {
         fun ofHalfDay(h: Int): Karana = when (h) {
@@ -121,24 +132,20 @@ enum class Karana(val wylie: String, val sanskrit: String, val english: String) 
  * The ten combinations of the weekday's and the mansion's element
  * (khams kyi sbyor ba, 'byung 'phrod), named after Henning's list.
  */
-enum class ElementPair(
-    val a: IndianElement,
-    val b: IndianElement,
-    val wylie: String,
-    val sanskrit: String,
-    val english: String,
-    val auspicious: Boolean,
-) {
-    EARTH_EARTH(IndianElement.EARTH, IndianElement.EARTH, "dngos grub", "siddhi", "accomplishment", true),
-    WATER_WATER(IndianElement.WATER, IndianElement.WATER, "bdud rtsi", "amṛta", "nectar", true),
-    EARTH_WATER(IndianElement.EARTH, IndianElement.WATER, "lang tsho", "yauvana", "youth", true),
-    FIRE_FIRE(IndianElement.FIRE, IndianElement.FIRE, "'phel 'gyur", "pragati", "progress", true),
-    WIND_WIND(IndianElement.WIND, IndianElement.WIND, "phun tshogs", "saṃpanna", "excellence", true),
-    FIRE_WIND(IndianElement.FIRE, IndianElement.WIND, "stobs ldan", "balayukta", "strength", true),
-    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi 'phrod", "alābha", "deficiency", false),
-    WATER_WIND(IndianElement.WATER, IndianElement.WIND, "mi mthun", "pratikūla", "discord", false),
-    EARTH_FIRE(IndianElement.EARTH, IndianElement.FIRE, "sreg pa", "dahana", "burning", false),
-    FIRE_WATER(IndianElement.FIRE, IndianElement.WATER, "'chi ba", "maraṇa", "death", false);
+enum class ElementPair(val a: IndianElement, val b: IndianElement, val wylie: String, val sanskrit: String, val auspicious: Boolean) {
+    EARTH_EARTH(IndianElement.EARTH, IndianElement.EARTH, "dngos grub", "siddhi", true),
+    WATER_WATER(IndianElement.WATER, IndianElement.WATER, "bdud rtsi", "amṛta", true),
+    EARTH_WATER(IndianElement.EARTH, IndianElement.WATER, "lang tsho", "yauvana", true),
+    FIRE_FIRE(IndianElement.FIRE, IndianElement.FIRE, "'phel 'gyur", "pragati", true),
+    WIND_WIND(IndianElement.WIND, IndianElement.WIND, "phun tshogs", "saṃpanna", true),
+    FIRE_WIND(IndianElement.FIRE, IndianElement.WIND, "stobs ldan", "balayukta", true),
+    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi 'phrod", "alābha", false),
+    WATER_WIND(IndianElement.WATER, IndianElement.WIND, "mi mthun", "pratikūla", false),
+    EARTH_FIRE(IndianElement.EARTH, IndianElement.FIRE, "sreg pa", "dahana", false),
+    FIRE_WATER(IndianElement.FIRE, IndianElement.WATER, "'chi ba", "maraṇa", false);
+
+    val english: String get() = gloss(this)
+
 
     companion object {
         /** The pair is unordered: weekday and mansion elements in either order. */
@@ -148,21 +155,25 @@ enum class ElementPair(
 }
 
 /** The eight trigrams (spar kha) in Janson's Table 15 order. */
-enum class Trigram(val wylie: String, val chinese: String, val english: String) {
-    LI("li", "離", "fire"), KHON("khon", "坤", "earth"), DWA("dwa", "兌", "lake"), KHEN("khen", "乾", "sky"),
-    KHAM("kham", "坎", "water"), GIN("gin", "艮", "mountain"), ZIN("zin", "震", "thunder"), ZON("zon", "巽", "wind"),
+enum class Trigram(val wylie: String, val chinese: String) {
+    LI("li", "離"), KHON("khon", "坤"), DWA("dwa", "兌"), KHEN("khen", "乾"),
+    KHAM("kham", "坎"), GIN("gin", "艮"), ZIN("zin", "震"), ZON("zon", "巽");
+
+    val english: String get() = gloss(this)
 }
 
 /** The nine numbers (sme ba) and their colours, Janson Table 16. */
 val SME_BA_COLOURS = listOf("white", "black", "blue", "green", "yellow", "white", "red", "white", "red")
 
 /** Monthly observances by lunar day, as listed in Rabten's Tibetan calendar. */
-enum class SpecialDay(val day: Int, val english: String) {
-    EIGHTH(8, "Eighth day"),
-    TENTH(10, "Tenth day — tsok"),
-    FULL_MOON(15, "Full moon — Sojong"),
-    TWENTY_FIFTH(25, "Twenty-fifth day — tsok"),
-    NEW_MOON(30, "New moon — Sojong"),
+enum class SpecialDay(val day: Int) {
+    EIGHTH(8),
+    TENTH(10),
+    FULL_MOON(15),
+    TWENTY_FIFTH(25),
+    NEW_MOON(30);
+
+    val english: String get() = gloss(this)
 }
 
 /**
@@ -170,22 +181,29 @@ enum class SpecialDay(val day: Int, val english: String) {
  * Rabten's calendars (Zamling Chisang, Gaden Ngamchö, the Ten Good Omens,
  * Thanksgiving to the Protectors); not held in leap months except Losar.
  */
-enum class TibetanFestival(val month: Int, val day: Int, val title: String, val english: String) {
-    LOSAR(1, 1, "Losar", "Tibetan New Year"),
-    CHOTRUL_DUCHEN(1, 15, "Chötrul Düchen", "Day of Miracles"),
-    KALACAKRA(3, 15, "Kālacakra", "Revelation of the Kālacakra Tantra"),
-    BIRTH(4, 7, "Birth of the Buddha", "Birth of the Buddha"),
-    SAGA_DAWA_DUCHEN(4, 15, "Saga Dawa Düchen", "Enlightenment and parinirvāṇa of the Buddha"),
-    ZAMLING_CHISANG(5, 15, "Zamling Chisang", "Universal smoke offering to all protectors"),
-    CHOKHOR_DUCHEN(6, 4, "Chökhor Düchen", "First turning of the wheel of Dharma"),
-    ENTRY_INTO_WOMB(6, 15, "Entry into the womb", "The Buddha's entry into his mother's womb"),
-    LHABAB_DUCHEN(9, 22, "Lhabab Düchen", "Descent of the Buddha from the realm of the gods"),
-    GADEN_NGAMCHO(10, 25, "Gaden Ngamchö", "Parinirvāṇa of Je Tsongkhapa"),
-    SANGPO_CHUZOM(11, 6, "Sangpo Chuzom", "Day of the Ten Good Omens"),
-    PROTECTORS(12, 29, "Thanksgiving to the Protectors", "Thanksgiving offering to the Dharma protectors"),
+enum class TibetanFestival(val month: Int, val day: Int) {
+    LOSAR(1, 1),
+    CHOTRUL_DUCHEN(1, 15),
+    KALACAKRA(3, 15),
+    BIRTH(4, 7),
+    SAGA_DAWA_DUCHEN(4, 15),
+    ZAMLING_CHISANG(5, 15),
+    CHOKHOR_DUCHEN(6, 4),
+    ENTRY_INTO_WOMB(6, 15),
+    LHABAB_DUCHEN(9, 22),
+    GADEN_NGAMCHO(10, 25),
+    SANGPO_CHUZOM(11, 6),
+    PROTECTORS(12, 29);
+
+    val title: String get() = gloss(this, "title")
+    val english: String get() = gloss(this)
 }
 
-enum class PersonalDay(val english: String) { LUCK("Luck day"), LIFE("Life day"), ANTI("Anti day") }
+enum class PersonalDay {
+    LUCK, LIFE, ANTI;
+
+    val english: String get() = gloss(this)
+}
 
 /**
  * Luck, life and anti weekdays by the animal of one's birth year, from the

@@ -24,11 +24,11 @@ class DaySummaryTest {
             assertEquals(rk.mark, s.mark, "$date")
             for (n in s.activities) {
                 assertTrue(n.good.isNotEmpty() || n.avoid.isNotEmpty(), "$date ${n.activity}")
-                n.good.forEach { assertTrue(n.activity in Activities.of(it.reading!!.good), "$date ${n.activity} ${it.kanji}") }
-                n.avoid.forEach { assertTrue(n.activity in Activities.of(it.reading!!.avoid), "$date ${n.activity} ${it.kanji}") }
+                n.good.forEach { assertTrue(n.activity in Activities.of(it.reading!!.goodKeys), "$date ${n.activity} ${it.kanji}") }
+                n.avoid.forEach { assertTrue(n.activity in Activities.of(it.reading!!.avoidKeys), "$date ${n.activity} ${it.kanji}") }
                 assertEquals(n.good.isNotEmpty() && n.avoid.isNotEmpty(), n.disputed)
             }
-            val named = s.byTone.values.flatten().flatMap { e -> e.reading?.let { Activities.of(it.good) + Activities.of(it.avoid) }.orEmpty() }.toSet()
+            val named = s.byTone.values.flatten().flatMap { e -> e.reading?.let { Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) }.orEmpty() }.toSet()
             assertEquals(named, s.activities.map { it.activity }.toSet(), "$date: activities left out")
             if (s.activities.any { it.disputed }) disputedDays++
             date = date.plusDays(1)

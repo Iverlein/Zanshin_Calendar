@@ -56,7 +56,7 @@ class TextsTest {
     /** ROADMAP R1: every "good for" and "avoid" wording names an activity or a time of day, not both. */
     @Test
     fun `every listed wording maps to an activity or a time of day`() {
-        val wordings = all.flatMap { it.good + it.avoid }.toSet()
+        val wordings = all.flatMap { it.goodKeys + it.avoidKeys }.toSet()
         for (w in wordings) {
             val kinds = listOfNotNull(Activities.BY_WORDING[w], Activities.TIMES[w])
             assertEquals(1, kinds.size, "\"$w\" must map to exactly one of activities or times")

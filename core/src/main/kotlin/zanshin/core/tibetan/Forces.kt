@@ -4,6 +4,8 @@
 
 package zanshin.core.tibetan
 
+import zanshin.core.texts.gloss
+
 /*
  * The four elemental aspects of a year and the yearly pebble reading of the
  * elemental divination ('byung rtsis). Rules from the White Beryl (f. 156a/b,
@@ -19,11 +21,13 @@ val Element.feeds: Element get() = Element.entries[(ordinal + 1) % 5]
 val Element.overcomes: Element get() = Element.entries[(ordinal + 2) % 5]
 
 /** The four elemental aspects of a year, in the order the charts give them. */
-enum class Force(val wylie: String, val english: String) {
-    VITALITY("srog", "vitality"),
-    BODY("lus", "body"),
-    DESTINY("dbang thang", "destiny"),
-    LUCK("klung rta", "luck"),
+enum class Force(val wylie: String) {
+    VITALITY("srog"),
+    BODY("lus"),
+    DESTINY("dbang thang"),
+    LUCK("klung rta");
+
+    val english: String get() = gloss(this)
 }
 
 /** The elements of one year's four aspects. */
@@ -41,12 +45,14 @@ data class YearForces(val vitality: Element, val body: Element, val destiny: Ele
  * by it, its friend is overcome by it, its enemy overcomes it. For a wood
  * person, water years are mother years and iron years enemy years.
  */
-enum class Kinship(val english: String) {
-    MOTHER("mother"),
-    FRIEND("friend"),
-    IDENTITY("identity"),
-    SON("son"),
-    ENEMY("enemy"),
+enum class Kinship {
+    MOTHER,
+    FRIEND,
+    IDENTITY,
+    SON,
+    ENEMY;
+
+    val english: String get() = gloss(this)
 }
 
 /** Noughts (white pebbles) and crosses (black pebbles). */

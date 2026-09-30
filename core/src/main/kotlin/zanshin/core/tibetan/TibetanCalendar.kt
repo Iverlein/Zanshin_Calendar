@@ -5,6 +5,8 @@
 package zanshin.core.tibetan
 
 import zanshin.core.rational.Rational
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.gloss
 import zanshin.core.time.amod
 import zanshin.core.time.julianDayNumber
 import zanshin.core.time.localDateOfJulianDayNumber
@@ -18,18 +20,24 @@ enum class Animal { MOUSE, OX, TIGER, RABBIT, DRAGON, SNAKE, HORSE, SHEEP, MONKE
 enum class Gender { MALE, FEMALE }
 
 /** Days of the week with their Tibetan names and planets, Janson Table 5. */
-enum class Weekday(val english: String, val wylie: String, val planet: String) {
-    SATURDAY("Saturday", "spen ma", "Saturn"),
-    SUNDAY("Sunday", "nyi ma", "Sun"),
-    MONDAY("Monday", "zla ba", "Moon"),
-    TUESDAY("Tuesday", "mig dmar", "Mars"),
-    WEDNESDAY("Wednesday", "lhag pa", "Mercury"),
-    THURSDAY("Thursday", "phur bu", "Jupiter"),
-    FRIDAY("Friday", "pa sangs", "Venus"),
+enum class Weekday(val wylie: String) {
+    SATURDAY("spen ma"),
+    SUNDAY("nyi ma"),
+    MONDAY("zla ba"),
+    TUESDAY("mig dmar"),
+    WEDNESDAY("lhag pa"),
+    THURSDAY("phur bu"),
+    FRIDAY("pa sangs");
+
+    val english: String get() = gloss(this)
+    val planet: String get() = gloss(this, "planet")
 }
 
 /** Month names, Phugpa system, Janson Table 4. */
-data class MonthNames(val wylie: String, val sanskrit: String, val animal: Animal, val season: String)
+data class MonthNames(val number: Int, val wylie: String, val sanskrit: String, val animal: Animal) {
+    /** Seasonal name, e.g. "early spring", from the catalog. */
+    val season: String get() = Catalog.text("TibetanMonth.$number.season")
+}
 
 enum class Repetition { NONE, FIRST_OF_TWO, SECOND_OF_TWO }
 
@@ -76,18 +84,18 @@ data class TibetanDay(
 object TibetanCalendar {
 
     private val MONTH_NAMES = listOf(
-        MonthNames("mchu", "Māgha", Animal.DRAGON, "early spring"),
-        MonthNames("dbo", "Phālguna", Animal.SNAKE, "mid spring"),
-        MonthNames("nag pa", "Caitra", Animal.HORSE, "late spring"),
-        MonthNames("sa ga", "Vaiśākha", Animal.SHEEP, "early summer"),
-        MonthNames("snron", "Jyeṣṭha", Animal.MONKEY, "mid summer"),
-        MonthNames("chu stod", "Āṣāḍha", Animal.BIRD, "late summer"),
-        MonthNames("gro bzhin", "Śrāvaṇa", Animal.DOG, "early autumn"),
-        MonthNames("khrums", "Bhādrapada", Animal.PIG, "mid autumn"),
-        MonthNames("tha skar", "Āśvina", Animal.MOUSE, "late autumn"),
-        MonthNames("smin drug", "Kārttika", Animal.OX, "early winter"),
-        MonthNames("mgo", "Mārgaśīrṣa", Animal.TIGER, "mid winter"),
-        MonthNames("rgyal", "Pauṣa", Animal.RABBIT, "late winter"),
+        MonthNames(1, "mchu", "Māgha", Animal.DRAGON),
+        MonthNames(2, "dbo", "Phālguna", Animal.SNAKE),
+        MonthNames(3, "nag pa", "Caitra", Animal.HORSE),
+        MonthNames(4, "sa ga", "Vaiśākha", Animal.SHEEP),
+        MonthNames(5, "snron", "Jyeṣṭha", Animal.MONKEY),
+        MonthNames(6, "chu stod", "Āṣāḍha", Animal.BIRD),
+        MonthNames(7, "gro bzhin", "Śrāvaṇa", Animal.DOG),
+        MonthNames(8, "khrums", "Bhādrapada", Animal.PIG),
+        MonthNames(9, "tha skar", "Āśvina", Animal.MOUSE),
+        MonthNames(10, "smin drug", "Kārttika", Animal.OX),
+        MonthNames(11, "mgo", "Mārgaśīrṣa", Animal.TIGER),
+        MonthNames(12, "rgyal", "Pauṣa", Animal.RABBIT),
     )
 
     /** Names of Tibetan month [month], 1–12. */

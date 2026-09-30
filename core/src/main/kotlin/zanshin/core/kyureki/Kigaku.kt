@@ -4,15 +4,20 @@
 
 package zanshin.core.kyureki
 
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.gloss
 import java.time.LocalDate
 
 /** The five elements (五行), in the order of the generating cycle: 木生火, 火生土, 土生金, 金生水, 水生木. */
-enum class Gogyo(val kanji: String, val english: String) {
-    WOOD("木", "wood"),
-    FIRE("火", "fire"),
-    EARTH("土", "earth"),
-    METAL("金", "metal"),
-    WATER("水", "water");
+enum class Gogyo(val kanji: String) {
+    WOOD("木"),
+    FIRE("火"),
+    EARTH("土"),
+    METAL("金"),
+    WATER("水");
+
+    val english: String get() = gloss(this)
+
 
     /** The element this one feeds (相生). */
     val feeds: Gogyo get() = entries[(ordinal + 1) % 5]
@@ -37,10 +42,12 @@ val KyuSei.element: Gogyo
  * For a person's years, months and days the article reads 相生 and 比和 as
  * good and 相剋 as bad.
  */
-enum class StarRelation(override val kanji: String, override val reading: String, override val english: String, val tone: Tone) : Term {
-    SOSHO("相生", "sōshō", "one feeds the other", Tone.GOOD),
-    HIWA("比和", "hiwa", "the same element", Tone.GOOD),
-    SOKOKU("相剋", "sōkoku", "one overcomes the other", Tone.BAD),
+enum class StarRelation(override val kanji: String, override val reading: String, val tone: Tone) : Term {
+    SOSHO("相生", "sōshō", Tone.GOOD),
+    HIWA("比和", "hiwa", Tone.GOOD),
+    SOKOKU("相剋", "sōkoku", Tone.BAD);
+
+    override val english: String get() = gloss(this)
 }
 
 /** The relation of one's birth star to another star, with the cycle that links them, e.g. 金生水. */
@@ -54,14 +61,14 @@ object Kigaku {
     fun affinity(own: KyuSei, other: KyuSei): StarAffinity {
         val a = own.element
         val b = other.element
-        fun link(from: Gogyo, verb: String, to: Gogyo, english: String, relation: StarRelation) =
-            StarAffinity(own, other, relation, "${from.kanji}$verb${to.kanji}", "${from.english} $english ${to.english}")
+        fun link(from: Gogyo, verb: String, to: Gogyo, key: String, relation: StarRelation) =
+            StarAffinity(own, other, relation, "${from.kanji}$verb${to.kanji}", Catalog.format(key, from.english, to.english))
         return when {
-            a == b -> StarAffinity(own, other, StarRelation.HIWA, StarRelation.HIWA.kanji, "both ${a.english}")
-            b.feeds == a -> link(b, "生", a, "feeds", StarRelation.SOSHO)
-            a.feeds == b -> link(a, "生", b, "feeds", StarRelation.SOSHO)
-            b.overcomes == a -> link(b, "剋", a, "overcomes", StarRelation.SOKOKU)
-            else -> link(a, "剋", b, "overcomes", StarRelation.SOKOKU)
+            a == b -> StarAffinity(own, other, StarRelation.HIWA, StarRelation.HIWA.kanji, Catalog.format("StarAffinity.same", a.english))
+            b.feeds == a -> link(b, "生", a, "StarAffinity.feeds", StarRelation.SOSHO)
+            a.feeds == b -> link(a, "生", b, "StarAffinity.feeds", StarRelation.SOSHO)
+            b.overcomes == a -> link(b, "剋", a, "StarAffinity.overcomes", StarRelation.SOKOKU)
+            else -> link(a, "剋", b, "StarAffinity.overcomes", StarRelation.SOKOKU)
         }
     }
 }

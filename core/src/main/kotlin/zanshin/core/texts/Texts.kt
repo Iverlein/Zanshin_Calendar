@@ -20,28 +20,47 @@ import zanshin.core.tibetan.TibetanFestival
 
 /*
  * Readings shown on demand (SPEC §8). Each has a published source and a
- * licence. The default is this project's own English statement of what the
- * source says (MPL-2.0); wording adapted from Japanese Wikipedia is CC BY-SA
- * 4.0. Nothing under a non-commercial licence: F-Droid would flag it as a
- * non-free asset.
+ * licence; its text is in the catalog (`texts/texts.properties`). The default
+ * is this project's own English statement of what the source says (MPL-2.0);
+ * wording adapted from Japanese Wikipedia is CC BY-SA 4.0. Nothing under a
+ * non-commercial licence: F-Droid would flag it as a non-free asset.
  */
 
-enum class License(val label: String) {
-    OWN("English summary of the cited source by the Zanshin Calendar authors, MPL-2.0"),
-    CC_BY_SA("Adapted from Japanese Wikipedia, CC BY-SA 4.0"),
+enum class License {
+    OWN, CC_BY_SA;
+
+    val label: String get() = gloss(this)
 }
 
 data class Source(val title: String, val publisher: String, val url: String)
 
+/**
+ * A sourced reading. Its text lives in the catalog (SPEC §8.2): the summary
+ * under [key], and the wordings of the "good for" and "avoid" lists under
+ * `wording.<key>`. The lists keep the source's wording, one catalog entry per
+ * wording, so `Activities` can tell which act each one names.
+ */
 data class Reading(
-    val summary: String,
-    val good: List<String> = emptyList(),
-    val avoid: List<String> = emptyList(),
+    val goodKeys: List<String> = emptyList(),
+    val avoidKeys: List<String> = emptyList(),
     val source: Source,
     val license: License = License.OWN,
     /** Further sources for parts of the summary, under the same licence. */
     val also: List<Source> = emptyList(),
-)
+    /** Catalog key of the summary, set by [keyed] for most readings; none in the catalog when the source gives only the lists. */
+    val key: String = "",
+    /** Catalog key of the text that fills the summary's {0}. */
+    val arg: String? = null,
+) {
+    val summary: String
+        get() = Catalog.textOrNull(key)?.let { s -> arg?.let { Catalog.fill(s, Catalog.text(it)) } ?: s } ?: ""
+    val good: List<String> get() = goodKeys.map { Catalog.text("wording.$it") }
+    val avoid: List<String> get() = avoidKeys.map { Catalog.text("wording.$it") }
+}
+
+/** Readings keyed by term, each summary under `reading.<Enum>.<NAME>`. */
+private fun <E : Enum<E>> keyed(vararg entries: Pair<E, Reading>): Map<E, Reading> =
+    entries.associate { (e, r) -> e to r.copy(key = "reading.${glossKey(e)}") }
 
 object Sources {
     val TODAN_ROKUYO = Source("こよみ博物館「六曜」", "株式会社トーダン (Todan)", "https://www.todan.co.jp/koyomi_museum/basic/rekichu/6.html")
@@ -89,251 +108,192 @@ object Sources {
 
 object Texts {
 
-    val ROKUYO: Map<Rokuyo, Reading> = mapOf(
-        Rokuyo.SENSHO to Reading(
-            "Act early: the morning is lucky, the afternoon unlucky. Taken as good for urgent business and lawsuits.",
-            good = listOf("the morning", "quick decisions"), avoid = listOf("the afternoon"), source = Sources.TODAN_ROKUYO,
-        ),
-        Rokuyo.TOMOBIKI to Reading(
-            "A draw: neither side wins. Good for celebrations; lucky in the morning and evening, unlucky at noon. " +
-                "Funerals are customarily avoided, a folk belief from the similar-sounding 友曳.",
-            good = listOf("celebrations", "morning and evening"), avoid = listOf("noon", "funerals (custom)"), source = Sources.TODAN_ROKUYO,
-        ),
-        Rokuyo.SENBU to Reading(
-            "Wait quietly and avoid haste: the morning is unlucky, the afternoon lucky. Disputes and urgent matters are best avoided.",
-            good = listOf("the afternoon", "calm"), avoid = listOf("the morning", "haste", "disputes"), source = Sources.TODAN_ROKUYO,
-        ),
-        Rokuyo.BUTSUMETSU to Reading(
-            "Nothing comes to fruition; the worst of the six, and weddings are avoided. Despite the name it has nothing to do " +
-                "with Buddhism: the old name meant \"empty\".",
-            avoid = listOf("new beginnings", "weddings"), source = Sources.TODAN_ROKUYO,
-        ),
-        Rokuyo.TAIAN to Reading(
-            "Great peace: success in everything — travel, moving house, marriage, opening a shop.",
-            good = listOf("travel", "moving house", "marriage", "opening a shop", "everything"), source = Sources.TODAN_ROKUYO,
-        ),
-        Rokuyo.SHAKKO to Reading(
-            "Unlucky for celebrations; only the hour of the Horse, about 11:00–13:00, is lucky. Take care with fire and blades.",
-            good = listOf("around noon"), avoid = listOf("celebrations", "fire", "blades"), source = Sources.TODAN_ROKUYO,
-        ),
+    val ROKUYO: Map<Rokuyo, Reading> = keyed(
+        Rokuyo.SENSHO to Reading(goodKeys = listOf("the_morning", "quick_decisions"), avoidKeys = listOf("the_afternoon"), source = Sources.TODAN_ROKUYO),
+        Rokuyo.TOMOBIKI to Reading(goodKeys = listOf("celebrations", "morning_and_evening"), avoidKeys = listOf("noon", "funerals_custom"), source = Sources.TODAN_ROKUYO),
+        Rokuyo.SENBU to Reading(goodKeys = listOf("the_afternoon", "calm"), avoidKeys = listOf("the_morning", "haste", "disputes"), source = Sources.TODAN_ROKUYO),
+        Rokuyo.BUTSUMETSU to Reading(avoidKeys = listOf("new_beginnings", "weddings"), source = Sources.TODAN_ROKUYO),
+        Rokuyo.TAIAN to Reading(goodKeys = listOf("travel", "moving_house", "marriage", "opening_a_shop", "everything"), source = Sources.TODAN_ROKUYO),
+        Rokuyo.SHAKKO to Reading(goodKeys = listOf("around_noon"), avoidKeys = listOf("celebrations", "fire", "blades"), source = Sources.TODAN_ROKUYO),
     )
 
-    val CHOKU: Map<Choku, Reading> = mapOf(
-        Choku.TATSU to Reading("Very lucky, good for everything.", good = listOf("everything"), avoid = listOf("moving earth", "boarding ships"), source = Sources.TODAN_CHOKU),
-        Choku.NOZOKU to Reading("A day to ward off what is bad.", good = listOf("throwing things away", "clearing out"), source = Sources.TODAN_CHOKU),
-        Choku.MITSU to Reading("A full day.", good = listOf("shrine rites", "building a house", "moving house", "weddings", "opening a shop", "sowing", "moving earth"), source = Sources.TODAN_CHOKU),
-        Choku.TAIRA to Reading("Good and bad are level; very good for talks.", good = listOf("consultations", "negotiations"), source = Sources.TODAN_CHOKU),
-        Choku.SADAN to Reading("A day for settling things.", good = listOf("sowing", "weddings", "digging wells", "fixing decisions"), source = Sources.TODAN_CHOKU),
-        Choku.TORU to Reading("A day for taking things in.", good = listOf("harvesting", "buying", "acquiring things"), source = Sources.TODAN_CHOKU),
-        Choku.YABURU to Reading("A breaking day.", avoid = listOf("promises", "consultations", "agreements"), source = Sources.TODAN_CHOKU),
-        Choku.AYAUSHI to Reading("A precarious day.", avoid = listOf("setting out on journeys", "sea travel"), source = Sources.TODAN_CHOKU),
-        Choku.NARU to Reading("A day of completion.", good = listOf("money talks", "opening a shop", "announcements", "raising pillars"), source = Sources.TODAN_CHOKU),
-        Choku.OSAN to Reading("A day of gathering in; no obstacle to ordinary affairs.", good = listOf("storing", "collecting"), source = Sources.TODAN_CHOKU),
-        Choku.HIRAKU to Reading("An opening day: what you begin finds its way.", good = listOf("starting school", "opening a business", "beginnings"), source = Sources.TODAN_CHOKU),
-        Choku.TOZU to Reading("A closing day, bad for most things.", avoid = listOf("opening a shop", "beginnings"), source = Sources.TODAN_CHOKU),
+    val CHOKU: Map<Choku, Reading> = keyed(
+        Choku.TATSU to Reading(goodKeys = listOf("everything"), avoidKeys = listOf("moving_earth", "boarding_ships"), source = Sources.TODAN_CHOKU),
+        Choku.NOZOKU to Reading(goodKeys = listOf("throwing_things_away", "clearing_out"), source = Sources.TODAN_CHOKU),
+        Choku.MITSU to Reading(goodKeys = listOf("shrine_rites", "building_a_house", "moving_house", "weddings", "opening_a_shop", "sowing", "moving_earth"), source = Sources.TODAN_CHOKU),
+        Choku.TAIRA to Reading(goodKeys = listOf("consultations", "negotiations"), source = Sources.TODAN_CHOKU),
+        Choku.SADAN to Reading(goodKeys = listOf("sowing", "weddings", "digging_wells", "fixing_decisions"), source = Sources.TODAN_CHOKU),
+        Choku.TORU to Reading(goodKeys = listOf("harvesting", "buying", "acquiring_things"), source = Sources.TODAN_CHOKU),
+        Choku.YABURU to Reading(avoidKeys = listOf("promises", "consultations", "agreements"), source = Sources.TODAN_CHOKU),
+        Choku.AYAUSHI to Reading(avoidKeys = listOf("setting_out_on_journeys", "sea_travel"), source = Sources.TODAN_CHOKU),
+        Choku.NARU to Reading(goodKeys = listOf("money_talks", "opening_a_shop", "announcements", "raising_pillars"), source = Sources.TODAN_CHOKU),
+        Choku.OSAN to Reading(goodKeys = listOf("storing", "collecting"), source = Sources.TODAN_CHOKU),
+        Choku.HIRAKU to Reading(goodKeys = listOf("starting_school", "opening_a_business", "beginnings"), source = Sources.TODAN_CHOKU),
+        Choku.TOZU to Reading(avoidKeys = listOf("opening_a_shop", "beginnings"), source = Sources.TODAN_CHOKU),
     )
 
-    val SHUKU: Map<Shuku, Reading> = mapOf(
-        Shuku.KAKU to Reading("", good = listOf("weddings", "building", "digging wells", "setting out", "sewing"), avoid = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.KO to Reading("", good = listOf("sowing", "betrothal gifts", "sewing", "receiving money"), avoid = listOf("building"), source = Sources.TODAN_SHUKU),
-        Shuku.TEI to Reading("", good = listOf("taking a bride", "opening gates", "building stone walls", "opening a shop"), avoid = listOf("sewing", "first wearing of new clothes"), source = Sources.TODAN_SHUKU),
-        Shuku.BO to Reading("Very lucky.", good = listOf("sewing", "raising the ridgepole", "weddings", "building", "setting up a branch family", "retiring", "haircuts"), source = Sources.TODAN_SHUKU),
-        Shuku.SHIN to Reading("", good = listOf("shrine rites", "memorial services"), avoid = listOf("building", "weddings", "funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.BI to Reading("", good = listOf("starting medicine", "weddings", "building", "opening gates"), avoid = listOf("opening a shop", "sewing"), source = Sources.TODAN_SHUKU),
-        Shuku.KI to Reading("Funerals and interments bring great misfortune.", good = listOf("sewing", "first wearing of new clothes"), avoid = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.TO to Reading("Wells and storehouses built today fill with treasure.", good = listOf("digging wells", "building storehouses", "sewing", "building"), source = Sources.TODAN_SHUKU),
-        Shuku.GYU to Reading("Good for everything.", good = listOf("everything"), source = Sources.TODAN_SHUKU),
-        Shuku.JO to Reading("A bad day.", avoid = listOf("funerals", "sewing", "new clothes", "building", "moving house", "opening a shop"), source = Sources.TODAN_SHUKU),
-        Shuku.KYO to Reading("Misfortune follows at once.", avoid = listOf("building", "marriage talks", "funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.KIH to Reading("A very bad day: these bring poverty.", avoid = listOf("weddings", "sewing", "driving nails", "moving house"), source = Sources.TODAN_SHUKU),
-        Shuku.SHITSU to Reading("", good = listOf("weddings", "taking medicine", "haircuts", "raising pillars", "building", "digging wells"), avoid = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.HEKI to Reading("", good = listOf("sewing", "new clothes", "building a house", "funerals", "weddings"), avoid = listOf("naming"), source = Sources.TODAN_SHUKU),
-        Shuku.KEI to Reading("", good = listOf("grafting", "felling trees", "sewing"), avoid = listOf("opening a shop, gate or storehouse"), source = Sources.TODAN_SHUKU),
-        Shuku.RO to Reading("Very good for weddings.", good = listOf("opening gates", "sewing", "new clothes", "building", "weddings"), source = Sources.TODAN_SHUKU),
-        Shuku.I to Reading("Funerals are especially to be avoided.", good = listOf("building a house", "sewing", "money talks", "helping others"), avoid = listOf("funerals"), source = Sources.TODAN_SHUKU),
-        Shuku.BO2 to Reading("", good = listOf("prayers to gods and buddhas", "shrines and altars", "memorial services", "devotion"), source = Sources.TODAN_SHUKU),
-        Shuku.HITSU to Reading("", good = listOf("prayer", "building", "burial", "filling holes", "building storehouses", "turning soil"), source = Sources.TODAN_SHUKU),
-        Shuku.SHI to Reading("A bad day: a wedding scatters wealth and brings illness. Be restrained.", avoid = listOf("weddings"), source = Sources.TODAN_SHUKU),
-        Shuku.SHIN2 to Reading("", good = listOf("putting things in order", "making things", "setting out"), avoid = listOf("funerals"), source = Sources.TODAN_SHUKU),
-        Shuku.SEI to Reading("A calm, lucky day.", avoid = listOf("funerals", "sewing"), source = Sources.TODAN_SHUKU),
-        Shuku.KI2 to Reading("A very lucky day, good for everything.", good = listOf("building a house", "sewing", "digging wells", "everything"), source = Sources.TODAN_SHUKU),
-        Shuku.RYU to Reading("A funeral brings seven misfortunes.", good = listOf("sowing"), avoid = listOf("funerals", "sewing", "raising pillars"), source = Sources.TODAN_SHUKU),
-        Shuku.SEI2 to Reading("A very bad day for these.", avoid = listOf("negotiations", "marriage", "starting medicine", "funerals", "interments"), source = Sources.TODAN_SHUKU),
-        Shuku.CHO to Reading("These lay the foundation of the family's prosperity.", good = listOf("weddings", "sewing", "new clothes", "opening a shop"), source = Sources.TODAN_SHUKU),
-        Shuku.YOKU to Reading("A bad day.", good = listOf("cutting grass"), avoid = listOf("entrance exams", "weddings", "negotiations"), source = Sources.TODAN_SHUKU),
-        Shuku.SHIN3 to Reading("", good = listOf("buying land", "raising the ridgepole", "funerals", "weddings"), avoid = listOf("sewing", "new clothes"), source = Sources.TODAN_SHUKU),
+    val SHUKU: Map<Shuku, Reading> = keyed(
+        Shuku.KAKU to Reading(goodKeys = listOf("weddings", "building", "digging_wells", "setting_out", "sewing"), avoidKeys = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.KO to Reading(goodKeys = listOf("sowing", "betrothal_gifts", "sewing", "receiving_money"), avoidKeys = listOf("building"), source = Sources.TODAN_SHUKU),
+        Shuku.TEI to Reading(goodKeys = listOf("taking_a_bride", "opening_gates", "building_stone_walls", "opening_a_shop"), avoidKeys = listOf("sewing", "first_wearing_of_new_clothes"), source = Sources.TODAN_SHUKU),
+        Shuku.BO to Reading(goodKeys = listOf("sewing", "raising_the_ridgepole", "weddings", "building", "setting_up_a_branch_family", "retiring", "haircuts"), source = Sources.TODAN_SHUKU),
+        Shuku.SHIN to Reading(goodKeys = listOf("shrine_rites", "memorial_services"), avoidKeys = listOf("building", "weddings", "funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.BI to Reading(goodKeys = listOf("starting_medicine", "weddings", "building", "opening_gates"), avoidKeys = listOf("opening_a_shop", "sewing"), source = Sources.TODAN_SHUKU),
+        Shuku.KI to Reading(goodKeys = listOf("sewing", "first_wearing_of_new_clothes"), avoidKeys = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.TO to Reading(goodKeys = listOf("digging_wells", "building_storehouses", "sewing", "building"), source = Sources.TODAN_SHUKU),
+        Shuku.GYU to Reading(goodKeys = listOf("everything"), source = Sources.TODAN_SHUKU),
+        Shuku.JO to Reading(avoidKeys = listOf("funerals", "sewing", "new_clothes", "building", "moving_house", "opening_a_shop"), source = Sources.TODAN_SHUKU),
+        Shuku.KYO to Reading(avoidKeys = listOf("building", "marriage_talks", "funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.KIH to Reading(avoidKeys = listOf("weddings", "sewing", "driving_nails", "moving_house"), source = Sources.TODAN_SHUKU),
+        Shuku.SHITSU to Reading(goodKeys = listOf("weddings", "taking_medicine", "haircuts", "raising_pillars", "building", "digging_wells"), avoidKeys = listOf("funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.HEKI to Reading(goodKeys = listOf("sewing", "new_clothes", "building_a_house", "funerals", "weddings"), avoidKeys = listOf("naming"), source = Sources.TODAN_SHUKU),
+        Shuku.KEI to Reading(goodKeys = listOf("grafting", "felling_trees", "sewing"), avoidKeys = listOf("opening_a_shop_gate_or_storehouse"), source = Sources.TODAN_SHUKU),
+        Shuku.RO to Reading(goodKeys = listOf("opening_gates", "sewing", "new_clothes", "building", "weddings"), source = Sources.TODAN_SHUKU),
+        Shuku.I to Reading(goodKeys = listOf("building_a_house", "sewing", "money_talks", "helping_others"), avoidKeys = listOf("funerals"), source = Sources.TODAN_SHUKU),
+        Shuku.BO2 to Reading(goodKeys = listOf("prayers_to_gods_and_buddhas", "shrines_and_altars", "memorial_services", "devotion"), source = Sources.TODAN_SHUKU),
+        Shuku.HITSU to Reading(goodKeys = listOf("prayer", "building", "burial", "filling_holes", "building_storehouses", "turning_soil"), source = Sources.TODAN_SHUKU),
+        Shuku.SHI to Reading(avoidKeys = listOf("weddings"), source = Sources.TODAN_SHUKU),
+        Shuku.SHIN2 to Reading(goodKeys = listOf("putting_things_in_order", "making_things", "setting_out"), avoidKeys = listOf("funerals"), source = Sources.TODAN_SHUKU),
+        Shuku.SEI to Reading(avoidKeys = listOf("funerals", "sewing"), source = Sources.TODAN_SHUKU),
+        Shuku.KI2 to Reading(goodKeys = listOf("building_a_house", "sewing", "digging_wells", "everything"), source = Sources.TODAN_SHUKU),
+        Shuku.RYU to Reading(goodKeys = listOf("sowing"), avoidKeys = listOf("funerals", "sewing", "raising_pillars"), source = Sources.TODAN_SHUKU),
+        Shuku.SEI2 to Reading(avoidKeys = listOf("negotiations", "marriage", "starting_medicine", "funerals", "interments"), source = Sources.TODAN_SHUKU),
+        Shuku.CHO to Reading(goodKeys = listOf("weddings", "sewing", "new_clothes", "opening_a_shop"), source = Sources.TODAN_SHUKU),
+        Shuku.YOKU to Reading(goodKeys = listOf("cutting_grass"), avoidKeys = listOf("entrance_exams", "weddings", "negotiations"), source = Sources.TODAN_SHUKU),
+        Shuku.SHIN3 to Reading(goodKeys = listOf("buying_land", "raising_the_ridgepole", "funerals", "weddings"), avoidKeys = listOf("sewing", "new_clothes"), source = Sources.TODAN_SHUKU),
     )
 
-    val KYUSEI: Map<KyuSei, Reading> = listOf(
-        "Water; north; trigram 坎 (water); white.",
-        "Earth; southwest; trigram 坤 (earth); black.",
-        "Wood; east; trigram 震 (thunder); blue.",
-        "Wood; southeast; trigram 巽 (wind); green.",
-        "Earth; centre; 太極 (the supreme ultimate); yellow.",
-        "Metal; northwest; trigram 乾 (heaven); white.",
-        "Metal; west; trigram 兌 (lake); red.",
-        "Earth; northeast; trigram 艮 (mountain); white.",
-        "Fire; south; trigram 離 (fire); purple.",
-    ).mapIndexed { i, s ->
-        KyuSei.entries[i] to Reading(
-            "Element, direction, trigram and colour: $s Used in Japanese onmyōdō to read fortunes and directions; the " +
-                "stars have nothing to do with planets.",
-            source = Sources.WP_KYUSEI, license = License.CC_BY_SA,
-        )
-    }.toMap()
+    val KYUSEI: Map<KyuSei, Reading> = KyuSei.entries.associateWith {
+        Reading(key = "reading.KyuSei", arg = "reading.${glossKey(it)}", source = Sources.WP_KYUSEI, license = License.CC_BY_SA)
+    }
 
     /**
      * The relation of one's birth star to the day star (九星気学). Relations from Japanese
      * Wikipedia 九星; the school from 九星気学.
      */
-    val KIGAKU: Map<StarRelation, Reading> = mapOf(
-        StarRelation.SOSHO to "相生: the element of one star feeds the other's, as metal feeds water. Read against a person's years, months and days, this counts as good.",
-        StarRelation.HIWA to "比和: both stars have the same element. Read against a person's years, months and days, this counts as good.",
-        StarRelation.SOKOKU to "相剋: the element of one star overcomes the other's, as earth overcomes water. Read against a person's years, months and days, this counts as bad.",
-    ).mapValues { (_, s) ->
+    val KIGAKU: Map<StarRelation, Reading> = StarRelation.entries.associateWith {
         Reading(
-            "$s Your birth star (本命星) is the year star of your birth year, counted from 立春. This reading belongs to " +
-                "九星気学, fortune-telling by the nine stars, gathered as 気学 in 1909; it is not an " +
-                "annotation of the historical almanac.",
+            key = "reading.StarRelation", arg = "reading.${glossKey(it)}",
             source = Sources.WP_KYUSEI, license = License.CC_BY_SA, also = listOf(Sources.WP_KIGAKU),
         )
     }
 
-    val SENJITSU: Map<Senjitsu, Reading> = mapOf(
-        Senjitsu.TENSHA to Reading("The hundred gods rise to heaven and heaven forgives all wrongs: the best day of the year, noted as \"good for all\". Five or six times a year.", good = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.ICHIRYU_MANBAI to Reading("A single grain grows into ten thousand: taken as good for beginnings. A Japanese selection without a classical Chinese source; its credibility is low.", good = listOf("beginnings"), source = Sources.WP_ICHIRYU, license = License.CC_BY_SA),
-        Senjitsu.DAIMYO to Reading("Heaven and earth open and the sun reaches every corner: very good for all good deeds.", good = listOf("building", "moving house", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.TENON to Reading("A day of heaven's grace: very good for happy occasions, not to be used for sad ones.", good = listOf("celebrations"), avoid = listOf("mourning"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.BOSO to Reading("Heaven cherishes people as a mother her child: good for everything, marriage especially.", good = listOf("marriage", "building"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.SETTOKU to Reading("Good for work that touches the earth, such as extending or rebuilding a house.", good = listOf("extending a house", "earthworks"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.KISHUKU to Reading("The day of the lodge 鬼, which the almanac counts very lucky.", good = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.TORA to Reading("The Tiger day of the twelve-day cycle. A tiger goes a thousand ri and comes back a thousand ri, so weddings were avoided. The festival day of Bishamonten.", avoid = listOf("weddings"), source = Sources.KB_TORA),
-        Senjitsu.MI to Reading("The Snake day of the twelve-day cycle.", source = Sources.KB_MI),
-        Senjitsu.TSUCHINOTO_MI to Reading("The festival day of Benzaiten, once every sixty days.", source = Sources.KB_MI),
-        Senjitsu.KINOE_NE to Reading("The first of the sixty days and the festival day of Daikokuten. On 甲子待 people stayed up until the hour of the Rat and offered soybeans, black beans and forked radish for worldly fortune.", source = Sources.KB_KINOENE),
-        Senjitsu.TENICHI_TENJO to Reading("For these sixteen days the direction god Ten'ichi-jin is back in heaven, so no direction is blocked and any journey is fine. Nichiyū-jin stays in the house instead: keep it clean.", good = listOf("journeys in any direction"), avoid = listOf("an unclean house"), source = Sources.WP_TENICHI, license = License.CC_BY_SA),
-        Senjitsu.JUSHI to Reading("The black day, the worst of all: no other annotation need be read. An illness begun today is said to be fatal. Funerals alone are not affected.", avoid = listOf("visiting the sick", "taking medicine", "acupuncture", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.JISSHI to Reading("Next after the black day: bad for everything, though funerals are not affected.", avoid = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.KIKO to Reading("The spirit of the star Tianbang stands at the door and keeps people from coming home.", avoid = listOf("long journeys", "coming home", "moving house", "bringing in a bride", "lending or borrowing money"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.CHIIMI to Reading("Seeing blood is unlucky.", avoid = listOf("acupuncture", "bloodshed", "hunting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.TENKA to Reading("Heaven's fire is fierce: raising a roof today is said to bring fire.", avoid = listOf("raising the ridgepole", "roofing", "house repairs", "moving house"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.JIKA to Reading("The earth's fire is fierce.", avoid = listOf("moving earth", "laying foundations", "raising pillars", "digging wells", "sowing", "building graves", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.OMO to Reading("\"Go and perish\": once the day armies did not march.", avoid = listOf("long journeys", "taking up office", "moving house", "weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.FUJOJU to Reading("Nothing is accomplished: starting anything is unlucky.", avoid = listOf("weddings", "opening a shop", "naming a child", "moving house", "contracts", "starting lessons", "making wishes"), source = Sources.WP_FUJOJU, license = License.CC_BY_SA),
-        Senjitsu.SANRINBO to Reading("Building today is said to ruin three neighbours. Some almanacs add that climbing high brings injury.", avoid = listOf("raising the ridgepole", "breaking ground", "any building work", "climbing high"), source = Sources.WP_SANRINBO, license = License.CC_BY_SA),
-        Senjitsu.JIPPOGURE to Reading("Ten days when the energies of heaven and earth clash and nothing goes well: much toil, little result.", avoid = listOf("new ventures"), source = Sources.WP_JIPPO, license = License.CC_BY_SA),
-        Senjitsu.HASSEN to Reading("Twelve days in which eight have stem and branch of the same element: good grows better and bad grows worse, and later almanacs stressed only the bad.", source = Sources.WP_HASSEN, license = License.CC_BY_SA),
-        Senjitsu.HASSEN_MABI to Reading("One of the four days within 八専 whose stem and branch do not share an element: free of its influence.", source = Sources.WP_HASSEN, license = License.CC_BY_SA),
-        Senjitsu.OTSUCHI to Reading("The earth god Dokujin is in the ground: do not disturb the soil.", avoid = listOf("digging", "wells", "sowing", "earthworks", "felling trees", "ground-breaking rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
-        Senjitsu.KOTSUCHI to Reading("The earth god Dokujin is in the ground: do not disturb the soil.", avoid = listOf("digging", "wells", "sowing", "earthworks", "felling trees", "ground-breaking rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
-        Senjitsu.TSUCHI_MABI to Reading("The day between the great and lesser earth taboos, without their restrictions.", source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
-        Senjitsu.SAIGEJIKI to Reading("The star spirit Tenkō comes down to eat; what people eat loses its strength. A light bad day.", avoid = listOf("eating and drinking heavily", "sowing", "opening rice bales", "planting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.JUNICHI to Reading("What is done today happens again: good for good things, bad for bad ones. Weddings are avoided, as they would repeat.", avoid = listOf("weddings", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.FUKUNICHI to Reading("Good deeds today are doubled and so are bad ones. Weddings are avoided, as they would repeat.", avoid = listOf("weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.KANOE_SARU to Reading("Kōshin night: the three worms in the body rise to heaven while one sleeps and report one's misdeeds, so people stayed awake together (庚申待).", source = Sources.WP_KOSHIN, license = License.CC_BY_SA),
-        Senjitsu.TAIKA to Reading("The worst of the three bad days for your birth year.", avoid = listOf("careless words", "house repairs", "building gates", "sea voyages", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.ROSHAKU to Reading("One of the three bad days for your birth year: everything is said to fail.", avoid = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.METSUMON to Reading("One of the three bad days for your birth year: said to ruin a whole house.", avoid = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+    val SENJITSU: Map<Senjitsu, Reading> = keyed(
+        Senjitsu.TENSHA to Reading(goodKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.ICHIRYU_MANBAI to Reading(goodKeys = listOf("beginnings"), source = Sources.WP_ICHIRYU, license = License.CC_BY_SA),
+        Senjitsu.DAIMYO to Reading(goodKeys = listOf("building", "moving_house", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.TENON to Reading(goodKeys = listOf("celebrations"), avoidKeys = listOf("mourning"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.BOSO to Reading(goodKeys = listOf("marriage", "building"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.SETTOKU to Reading(goodKeys = listOf("extending_a_house", "earthworks"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.KISHUKU to Reading(goodKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.TORA to Reading(avoidKeys = listOf("weddings"), source = Sources.KB_TORA),
+        Senjitsu.MI to Reading(source = Sources.KB_MI),
+        Senjitsu.TSUCHINOTO_MI to Reading(source = Sources.KB_MI),
+        Senjitsu.KINOE_NE to Reading(source = Sources.KB_KINOENE),
+        Senjitsu.TENICHI_TENJO to Reading(goodKeys = listOf("journeys_in_any_direction"), avoidKeys = listOf("an_unclean_house"), source = Sources.WP_TENICHI, license = License.CC_BY_SA),
+        Senjitsu.JUSHI to Reading(avoidKeys = listOf("visiting_the_sick", "taking_medicine", "acupuncture", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.JISSHI to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.KIKO to Reading(avoidKeys = listOf("long_journeys", "coming_home", "moving_house", "bringing_in_a_bride", "lending_or_borrowing_money"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.CHIIMI to Reading(avoidKeys = listOf("acupuncture", "bloodshed", "hunting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.TENKA to Reading(avoidKeys = listOf("raising_the_ridgepole", "roofing", "house_repairs", "moving_house"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.JIKA to Reading(avoidKeys = listOf("moving_earth", "laying_foundations", "raising_pillars", "digging_wells", "sowing", "building_graves", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.OMO to Reading(avoidKeys = listOf("long_journeys", "taking_up_office", "moving_house", "weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.FUJOJU to Reading(avoidKeys = listOf("weddings", "opening_a_shop", "naming_a_child", "moving_house", "contracts", "starting_lessons", "making_wishes"), source = Sources.WP_FUJOJU, license = License.CC_BY_SA),
+        Senjitsu.SANRINBO to Reading(avoidKeys = listOf("raising_the_ridgepole", "breaking_ground", "any_building_work", "climbing_high"), source = Sources.WP_SANRINBO, license = License.CC_BY_SA),
+        Senjitsu.JIPPOGURE to Reading(avoidKeys = listOf("new_ventures"), source = Sources.WP_JIPPO, license = License.CC_BY_SA),
+        Senjitsu.HASSEN to Reading(source = Sources.WP_HASSEN, license = License.CC_BY_SA),
+        Senjitsu.HASSEN_MABI to Reading(source = Sources.WP_HASSEN, license = License.CC_BY_SA),
+        Senjitsu.OTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
+        Senjitsu.KOTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
+        Senjitsu.TSUCHI_MABI to Reading(source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
+        Senjitsu.SAIGEJIKI to Reading(avoidKeys = listOf("eating_and_drinking_heavily", "sowing", "opening_rice_bales", "planting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.JUNICHI to Reading(avoidKeys = listOf("weddings", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.FUKUNICHI to Reading(avoidKeys = listOf("weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.KANOE_SARU to Reading(source = Sources.WP_KOSHIN, license = License.CC_BY_SA),
+        Senjitsu.TAIKA to Reading(avoidKeys = listOf("careless_words", "house_repairs", "building_gates", "sea_voyages", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.ROSHAKU to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.METSUMON to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
     )
 
-    val ZASSETSU: Map<Zassetsu, Reading> = mapOf(
-        Zassetsu.SETSUBUN to Reading("The day before 立春. Once the eve of every season, now only of spring; the bean-throwing comes from the Chinese exorcism 追儺.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HIGAN_IRI to Reading("First day of the seven days centred on the equinox.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HIGAN to Reading("Within the seven days centred on the equinox.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HIGAN_CHUNICHI to Reading("The equinox itself, middle day of higan.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HIGAN_AKE to Reading("Last day of higan.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.SHANICHI to Reading("The 戊 day nearest the equinox, dedicated to the earth deity. Dropped from the official ephemeris after the war.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HACHIJUHACHIYA to Reading("The 88th day from 立春: the end of the frost season — beware the late frost.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.NYUBAI to Reading("The sun at longitude 80°: the calendar start of the rainy season.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HANGESHO to Reading("The sun at longitude 100°.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.DOYO_IRI to Reading("Start of the eighteen or so days before a season begins, which five-element theory gives to earth.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.DOYO to Reading("Within the earth season before a new season begins.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.DOYO_USHI to Reading("An Ox day within doyō.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.NIHYAKUTOKA to Reading("The 210th day from 立春, when rice is in flower and typhoons approach.", source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.NIHYAKUHATSUKA to Reading("The 220th day from 立春, still in the typhoon season.", source = Sources.NAOJ_ZASSETSU),
+    val ZASSETSU: Map<Zassetsu, Reading> = keyed(
+        Zassetsu.SETSUBUN to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HIGAN_IRI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HIGAN to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HIGAN_CHUNICHI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HIGAN_AKE to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.SHANICHI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HACHIJUHACHIYA to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.NYUBAI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.HANGESHO to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.DOYO_IRI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.DOYO to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.DOYO_USHI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.NIHYAKUTOKA to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.NIHYAKUHATSUKA to Reading(source = Sources.NAOJ_ZASSETSU),
     )
 
     val EHOU: Map<Ehou, Reading> = Ehou.entries.associateWith {
-        Reading(
-            "Where 歳徳神, the god of the year's fortune, resides. Whatever is done facing this direction is lucky.",
-            source = Sources.WP_TOSHITOKU, license = License.CC_BY_SA,
-        )
+        Reading(key = "reading.Ehou", source = Sources.WP_TOSHITOKU, license = License.CC_BY_SA)
     }
 
     /** Lunar days on which cutting one's hair brings a good result, per the same source. */
     val HAIRCUT_GOOD: Set<Int> = setOf(3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 18, 19, 22, 23, 26, 27)
 
-    /** Result of cutting one's hair on each lunar day, 1–30. */
-    val HAIRCUT: List<Reading> = listOf(
-        "Short life", "Many illnesses", "Wealth will come", "A good complexion", "Possessions increase",
-        "A lawsuit", "Complexion fades", "Long life", "Meeting youthful people", "Great power",
-        "Sharp intelligence", "Danger to life", "Good for all beings", "Wealth", "Auspicious",
-        "Thirst", "Flesh turns blue", "Receiving possessions", "Meeting helpful people", "Hunger and thirst",
-        "Illness", "Finding food and water", "Things go well", "Eye pain", "Contagious illness",
-        "Lasting happiness", "Virtue increases", "Fights and quarrels", "One's life force wanders",
-        "Meeting the dead reborn as spirits in human form",
-    ).map { Reading("Cutting hair today: $it.", source = Sources.FPMT_HAIR) }
+    /** Result of cutting one's hair on each lunar day, 1–30: the result alone under `reading.Haircut.<day>`. */
+    val HAIRCUT: List<Reading> = (1..30).map { Reading(key = "reading.Haircut", arg = "reading.Haircut.$it", source = Sources.FPMT_HAIR) }
 
-    val ELEMENT_PAIR: Map<ElementPair, Reading> = mapOf(
-        ElementPair.EARTH_EARTH to Reading("Earth meets earth: power, and with power every wish is achieved.", source = Sources.RABTEN),
-        ElementPair.WATER_WATER to Reading("Water meets water: nectar, which increases life's force.", source = Sources.RABTEN),
-        ElementPair.EARTH_WATER to Reading("Earth meets water: youth, which brings great happiness.", source = Sources.RABTEN),
-        ElementPair.FIRE_FIRE to Reading("Fire meets fire: increase of food and wealth.", source = Sources.RABTEN),
-        ElementPair.WIND_WIND to Reading("Wind meets wind: perfection, and quick accomplishment of wishes.", source = Sources.RABTEN),
-        ElementPair.FIRE_WIND to Reading("Fire meets wind: strength, which brings all good omens.", source = Sources.RABTEN),
-        ElementPair.EARTH_WIND to Reading("Earth meets wind: incompatibility, which exhausts food and wealth.", source = Sources.RABTEN),
-        ElementPair.WATER_WIND to Reading("Water meets wind: disharmony, which separates friends.", source = Sources.RABTEN),
-        ElementPair.EARTH_FIRE to Reading("Earth meets fire: burning, which creates suffering.", source = Sources.RABTEN),
-        ElementPair.FIRE_WATER to Reading("Fire meets water: death, which robs life away.", source = Sources.RABTEN),
+    val ELEMENT_PAIR: Map<ElementPair, Reading> = keyed(
+        ElementPair.EARTH_EARTH to Reading(source = Sources.RABTEN),
+        ElementPair.WATER_WATER to Reading(source = Sources.RABTEN),
+        ElementPair.EARTH_WATER to Reading(source = Sources.RABTEN),
+        ElementPair.FIRE_FIRE to Reading(source = Sources.RABTEN),
+        ElementPair.WIND_WIND to Reading(source = Sources.RABTEN),
+        ElementPair.FIRE_WIND to Reading(source = Sources.RABTEN),
+        ElementPair.EARTH_WIND to Reading(source = Sources.RABTEN),
+        ElementPair.WATER_WIND to Reading(source = Sources.RABTEN),
+        ElementPair.EARTH_FIRE to Reading(source = Sources.RABTEN),
+        ElementPair.FIRE_WATER to Reading(source = Sources.RABTEN),
     )
 
-    val SPECIAL_DAY: Map<SpecialDay, Reading> = mapOf(
-        SpecialDay.EIGHTH to Reading("A special day for any wholesome action; recommended for lay practitioners to take the eight precepts.", source = Sources.RABTEN),
-        SpecialDay.TENTH to Reading(
-            "Guru Rinpoche promised to come to Tibet on every tenth day, so each tenth day is a festival of his enlightened activity, " +
-                "kept with tsok offerings and guru pūjā (after Jigme Lingpa's prayer on the benefits of the tenth day).",
-            source = Sources.LOTSAWA_TENTH,
-        ),
-        SpecialDay.FULL_MOON to Reading("Full moon: a special day for any wholesome action, and a Sojong day of monastic confession.", source = Sources.RABTEN),
-        SpecialDay.TWENTY_FIFTH to Reading("A day for tsok offerings, especially recommended for guru pūjā.", source = Sources.RABTEN),
-        SpecialDay.NEW_MOON to Reading("New moon: a special day for any wholesome action, and a Sojong day of monastic confession.", source = Sources.RABTEN),
+    val SPECIAL_DAY: Map<SpecialDay, Reading> = keyed(
+        SpecialDay.EIGHTH to Reading(source = Sources.RABTEN),
+        SpecialDay.TENTH to Reading(source = Sources.LOTSAWA_TENTH),
+        SpecialDay.FULL_MOON to Reading(source = Sources.RABTEN),
+        SpecialDay.TWENTY_FIFTH to Reading(source = Sources.RABTEN),
+        SpecialDay.NEW_MOON to Reading(source = Sources.RABTEN),
     )
 
-    val TIBETAN_FESTIVAL: Map<TibetanFestival, Reading> = mapOf(
-        TibetanFestival.LOSAR to Reading("The first day of the Tibetan year, celebrated in every auspicious and joyous way; the first fifteen days commemorate the Buddha's miracles.", source = Sources.RABTEN),
-        TibetanFestival.CHOTRUL_DUCHEN to Reading("The day of Buddha Śākyamuni's great miracles. Positive and negative actions on such days multiply.", source = Sources.RABTEN),
-        TibetanFestival.KALACAKRA to Reading("The revelation of the Kālacakra Tantra.", source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.BIRTH to Reading("The birth of the Buddha.", source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.SAGA_DAWA_DUCHEN to Reading("The full moon of Saga Dawa, the fourth month: the day on which the Buddha took birth, attained enlightenment and passed into parinirvāṇa.", source = Sources.RABTEN),
-        TibetanFestival.ZAMLING_CHISANG to Reading("The universal smoke offering (sang) to all the protectors.", source = Sources.RABTEN),
-        TibetanFestival.CHOKHOR_DUCHEN to Reading("Buddha Śākyamuni turns the wheel of Dharma for the first time.", source = Sources.RABTEN),
-        TibetanFestival.ENTRY_INTO_WOMB to Reading("The Buddha's entry into the womb of his mother.", source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.LHABAB_DUCHEN to Reading("Buddha Śākyamuni returns from the realm of the gods.", source = Sources.RABTEN),
-        TibetanFestival.GADEN_NGAMCHO to Reading("The parinirvāṇa of Je Tsongkhapa.", source = Sources.RABTEN),
-        TibetanFestival.SANGPO_CHUZOM to Reading("The day of the ten good omens: for turning inauspicious circumstances into auspicious ones, and for merrymaking.", source = Sources.RABTEN),
-        TibetanFestival.PROTECTORS to Reading("Thanksgiving to the Dharma protectors at the close of the year.", source = Sources.RABTEN),
+    val TIBETAN_FESTIVAL: Map<TibetanFestival, Reading> = keyed(
+        TibetanFestival.LOSAR to Reading(source = Sources.RABTEN),
+        TibetanFestival.CHOTRUL_DUCHEN to Reading(source = Sources.RABTEN),
+        TibetanFestival.KALACAKRA to Reading(source = Sources.HENNING_ARCHIVE),
+        TibetanFestival.BIRTH to Reading(source = Sources.HENNING_ARCHIVE),
+        TibetanFestival.SAGA_DAWA_DUCHEN to Reading(source = Sources.RABTEN),
+        TibetanFestival.ZAMLING_CHISANG to Reading(source = Sources.RABTEN),
+        TibetanFestival.CHOKHOR_DUCHEN to Reading(source = Sources.RABTEN),
+        TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE),
+        TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN),
+        TibetanFestival.GADEN_NGAMCHO to Reading(source = Sources.RABTEN),
+        TibetanFestival.SANGPO_CHUZOM to Reading(source = Sources.RABTEN),
+        TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN),
     )
 
     /** Kyūreki festivals, by their kanji as in [zanshin.core.kyureki.Festival]. */
     val JAPANESE_FESTIVAL: Map<String, Reading> = mapOf(
-        "旧正月" to Reading("The first day of the first month of the old lunisolar calendar.", source = Sources.NAOJ_SEKKU),
-        "人日の節句" to Reading("One of the five seasonal festivals (五節句), on the 7th day of the 1st month. The five were official holidays until 1872.", source = Sources.NAOJ_SEKKU),
-        "上巳の節句" to Reading("One of the five seasonal festivals, on the 3rd day of the 3rd month.", source = Sources.NAOJ_SEKKU),
-        "端午の節句" to Reading("One of the five seasonal festivals, on the 5th day of the 5th month.", source = Sources.NAOJ_SEKKU),
-        "七夕" to Reading("One of the five seasonal festivals, on the 7th day of the 7th month. Kept on the old-calendar date it is the \"traditional Tanabata\".", source = Sources.NAOJ_SEKKU),
-        "十五夜" to Reading("The mid-autumn moon of the 15th night of the 8th month, the moon-viewing night.", source = Sources.NAOJ_JUSANYA),
-        "重陽の節句" to Reading("One of the five seasonal festivals, on the 9th day of the 9th month.", source = Sources.NAOJ_SEKKU),
-        "十三夜" to Reading(
-            "A second moon-viewing on the 13th night of the 9th month, a custom found only in Japan, said to begin with a " +
-                "moon-viewing held by the retired emperor Uda in 919. Also called the later moon, chestnut moon or bean moon.",
-            source = Sources.NAOJ_JUSANYA,
-        ),
-    )
+        "旧正月" to Reading(source = Sources.NAOJ_SEKKU),
+        "人日の節句" to Reading(source = Sources.NAOJ_SEKKU),
+        "上巳の節句" to Reading(source = Sources.NAOJ_SEKKU),
+        "端午の節句" to Reading(source = Sources.NAOJ_SEKKU),
+        "七夕" to Reading(source = Sources.NAOJ_SEKKU),
+        "十五夜" to Reading(source = Sources.NAOJ_JUSANYA),
+        "重陽の節句" to Reading(source = Sources.NAOJ_SEKKU),
+        "十三夜" to Reading(source = Sources.NAOJ_JUSANYA),
+    ).mapValues { (kanji, r) -> r.copy(key = "reading.Festival.$kanji") }
 
-    val PERSONAL_DAY: Map<PersonalDay, Reading> = mapOf(
-        PersonalDay.LUCK to Reading("A harmonious weekday for your birth year: suitable for starting projects and celebrating auspicious events.", source = Sources.RABTEN),
-        PersonalDay.LIFE to Reading("A harmonious weekday for your birth year: suitable for starting projects and celebrating auspicious events.", source = Sources.RABTEN),
-        PersonalDay.ANTI to Reading("A disharmonious weekday for your birth year: generally unsuitable for starting things or celebrations.", source = Sources.RABTEN),
+    val PERSONAL_DAY: Map<PersonalDay, Reading> = keyed(
+        PersonalDay.LUCK to Reading(source = Sources.RABTEN),
+        PersonalDay.LIFE to Reading(source = Sources.RABTEN),
+        PersonalDay.ANTI to Reading(source = Sources.RABTEN),
     )
 
     /**
@@ -341,28 +301,7 @@ object Texts {
      * aspect of the present year. The ranking and the predictions for the
      * vitality pebbles follow the White Beryl's chapter on obstacle years.
      */
-    val PEBBLES: Map<Kinship, Reading> = mapOf(
-        Kinship.MOTHER to "Mother: the year's element feeds yours, as water feeds wood. The best of the five relations, " +
-            "marked with three white pebbles. For the vitality, three white pebbles foretell that the tree of life grows " +
-            "and that one is well supported.",
-        Kinship.FRIEND to "Friend: your element overcomes the year's, as wood overcomes earth. Second to the mother " +
-            "relation, marked with two white pebbles. For the vitality, two white pebbles foretell enough to live on, " +
-            "wishes fulfilled and no threat to life that year.",
-        Kinship.IDENTITY to "Identity: the year's element is the same as yours. For earth and water it is marked with one " +
-            "white pebble, which for the vitality foretells no obstacle to long life; for wood, fire and iron with one " +
-            "black pebble, which for the vitality foretells that the sap of the tree of life dries and rites lose their force.",
-        Kinship.SON to "Son: your element feeds the year's, as wood feeds fire. Marked with one white and one black " +
-            "pebble; for the vitality they foretell good and bad together, so misfortune can still be turned aside by rites.",
-        Kinship.ENEMY to "Enemy: the year's element overcomes yours, as iron overcomes wood. The worst of the five " +
-            "relations, marked with two black pebbles. For the vitality, two black pebbles foretell punishment and " +
-            "a broken tree of life.",
-    ).mapValues { (_, s) ->
-        Reading(
-            "$s Each of the four aspects of your birth year (vitality, body, destiny, luck) is set against the same " +
-                "aspect of the present Tibetan year; the source gives its predictions for the vitality, and body, destiny " +
-                "and luck are read in the same way. The full divination of obstacle years adds further pebbles that this " +
-                "app does not calculate.",
-            source = Sources.WHITE_BERYL_PEBBLES,
-        )
+    val PEBBLES: Map<Kinship, Reading> = Kinship.entries.associateWith {
+        Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES)
     }
 }

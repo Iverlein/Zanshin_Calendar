@@ -4,6 +4,8 @@
 
 package zanshin.core.kyureki
 
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.gloss
 import zanshin.core.time.julianDayNumber
 import java.time.Instant
 import java.time.LocalDate
@@ -32,9 +34,7 @@ interface Term {
 const val STEMS = "甲乙丙丁戊己庚辛壬癸"
 const val BRANCHES = "子丑寅卯辰巳午未申酉戌亥"
 private val STEM_READINGS = listOf("kinoe", "kinoto", "hinoe", "hinoto", "tsuchinoe", "tsuchinoto", "kanoe", "kanoto", "mizunoe", "mizunoto")
-private val STEM_ENGLISH = listOf("Wood yang", "Wood yin", "Fire yang", "Fire yin", "Earth yang", "Earth yin", "Metal yang", "Metal yin", "Water yang", "Water yin")
 private val BRANCH_READINGS = listOf("ne", "ushi", "tora", "u", "tatsu", "mi", "uma", "hitsuji", "saru", "tori", "inu", "i")
-private val BRANCH_ENGLISH = listOf("Rat", "Ox", "Tiger", "Rabbit", "Dragon", "Snake", "Horse", "Sheep", "Monkey", "Rooster", "Dog", "Boar")
 
 /** A sexagenary combination, index 0 = 甲子. */
 data class Kanshi(val index: Int) : Term {
@@ -42,54 +42,61 @@ data class Kanshi(val index: Int) : Term {
     val branch: Int get() = index % 12
     override val kanji: String get() = "${STEMS[stem]}${BRANCHES[branch]}"
     override val reading: String get() = "${STEM_READINGS[stem]}-${BRANCH_READINGS[branch]}"
-    override val english: String get() = "${STEM_ENGLISH[stem]} ${BRANCH_ENGLISH[branch]}"
+    override val english: String get() = Catalog.format("Kanshi", Catalog.text("Stem.$stem"), Catalog.text("Branch.$branch"))
 
     companion object {
         fun ofDay(jd: Long): Kanshi = Kanshi(Math.floorMod(jd + 49, 60L).toInt())
         fun ofYear(year: Int): Kanshi = Kanshi(Math.floorMod(year - 4, 60))
-        fun branchName(branch: Int): String = "${BRANCHES[branch]} (${BRANCH_ENGLISH[branch]})"
+        fun branchName(branch: Int): String = "${BRANCHES[branch]} (${Catalog.text("Branch.$branch")})"
     }
 }
 
 /** 十二直, the twelve "stations" of the middle band; tones after Todan's readings. */
-enum class Choku(override val kanji: String, override val reading: String, override val english: String, val tone: Tone) : Term {
-    TATSU("建", "tatsu", "establish", Tone.GOOD),
-    NOZOKU("除", "nozoku", "remove", Tone.GOOD),
-    MITSU("満", "mitsu", "full", Tone.GOOD),
-    TAIRA("平", "taira", "level", Tone.GOOD),
-    SADAN("定", "sadan", "settle", Tone.GOOD),
-    TORU("執", "toru", "take in hand", Tone.GOOD),
-    YABURU("破", "yaburu", "break", Tone.BAD),
-    AYAUSHI("危", "ayaushi", "danger", Tone.BAD),
-    NARU("成", "naru", "completion", Tone.GOOD),
-    OSAN("納", "osan", "receive", Tone.GOOD),
-    HIRAKU("開", "hiraku", "open", Tone.GOOD),
-    TOZU("閉", "tozu", "close", Tone.BAD),
+enum class Choku(override val kanji: String, override val reading: String, val tone: Tone) : Term {
+    TATSU("建", "tatsu", Tone.GOOD),
+    NOZOKU("除", "nozoku", Tone.GOOD),
+    MITSU("満", "mitsu", Tone.GOOD),
+    TAIRA("平", "taira", Tone.GOOD),
+    SADAN("定", "sadan", Tone.GOOD),
+    TORU("執", "toru", Tone.GOOD),
+    YABURU("破", "yaburu", Tone.BAD),
+    AYAUSHI("危", "ayaushi", Tone.BAD),
+    NARU("成", "naru", Tone.GOOD),
+    OSAN("納", "osan", Tone.GOOD),
+    HIRAKU("開", "hiraku", Tone.GOOD),
+    TOZU("閉", "tozu", Tone.BAD);
+
+    override val english: String get() = gloss(this)
 }
 
 /** 二十八宿, the 28 lunar lodges of the almanac. */
-enum class Shuku(override val kanji: String, override val reading: String, override val english: String) : Term {
-    KAKU("角", "kaku", "Horn"), KO("亢", "kō", "Neck"), TEI("氐", "tei", "Root"), BO("房", "bō", "Room"),
-    SHIN("心", "shin", "Heart"), BI("尾", "bi", "Tail"), KI("箕", "ki", "Winnowing Basket"),
-    TO("斗", "to", "Dipper"), GYU("牛", "gyū", "Ox"), JO("女", "jo", "Girl"), KYO("虚", "kyo", "Emptiness"),
-    KIH("危", "ki", "Rooftop"), SHITSU("室", "shitsu", "Encampment"), HEKI("壁", "heki", "Wall"),
-    KEI("奎", "kei", "Legs"), RO("婁", "rō", "Bond"), I("胃", "i", "Stomach"), BO2("昴", "bō", "Hairy Head"),
-    HITSU("畢", "hitsu", "Net"), SHI("觜", "shi", "Turtle Beak"), SHIN2("参", "shin", "Three Stars"),
-    SEI("井", "sei", "Well"), KI2("鬼", "ki", "Ghost"), RYU("柳", "ryū", "Willow"), SEI2("星", "sei", "Star"),
-    CHO("張", "chō", "Extended Net"), YOKU("翼", "yoku", "Wings"), SHIN3("軫", "shin", "Chariot"),
+enum class Shuku(override val kanji: String, override val reading: String) : Term {
+    KAKU("角", "kaku"), KO("亢", "kō"), TEI("氐", "tei"), BO("房", "bō"),
+    SHIN("心", "shin"), BI("尾", "bi"), KI("箕", "ki"),
+    TO("斗", "to"), GYU("牛", "gyū"), JO("女", "jo"), KYO("虚", "kyo"),
+    KIH("危", "ki"), SHITSU("室", "shitsu"), HEKI("壁", "heki"),
+    KEI("奎", "kei"), RO("婁", "rō"), I("胃", "i"), BO2("昴", "bō"),
+    HITSU("畢", "hitsu"), SHI("觜", "shi"), SHIN2("参", "shin"),
+    SEI("井", "sei"), KI2("鬼", "ki"), RYU("柳", "ryū"), SEI2("星", "sei"),
+    CHO("張", "chō"), YOKU("翼", "yoku"), SHIN3("軫", "shin");
+
+    override val english: String get() = gloss(this)
 }
 
 /** 九星, the nine stars. */
-enum class KyuSei(override val kanji: String, override val reading: String, override val english: String) : Term {
-    IPPAKU("一白水星", "ippaku suisei", "One White, Water"),
-    JIKOKU("二黒土星", "jikoku dosei", "Two Black, Earth"),
-    SANPEKI("三碧木星", "sanpeki mokusei", "Three Jade, Wood"),
-    SHIROKU("四緑木星", "shiroku mokusei", "Four Green, Wood"),
-    GOO("五黄土星", "goō dosei", "Five Yellow, Earth"),
-    ROPPAKU("六白金星", "roppaku kinsei", "Six White, Metal"),
-    SHICHISEKI("七赤金星", "shichiseki kinsei", "Seven Red, Metal"),
-    HAPPAKU("八白土星", "happaku dosei", "Eight White, Earth"),
-    KYUSHI("九紫火星", "kyūshi kasei", "Nine Purple, Fire");
+enum class KyuSei(override val kanji: String, override val reading: String) : Term {
+    IPPAKU("一白水星", "ippaku suisei"),
+    JIKOKU("二黒土星", "jikoku dosei"),
+    SANPEKI("三碧木星", "sanpeki mokusei"),
+    SHIROKU("四緑木星", "shiroku mokusei"),
+    GOO("五黄土星", "goō dosei"),
+    ROPPAKU("六白金星", "roppaku kinsei"),
+    SHICHISEKI("七赤金星", "shichiseki kinsei"),
+    HAPPAKU("八白土星", "happaku dosei"),
+    KYUSHI("九紫火星", "kyūshi kasei");
+
+    override val english: String get() = gloss(this)
+
 
     companion object {
         fun of(number: Int): KyuSei = entries[Math.floorMod(number - 1, 9)]
@@ -105,67 +112,73 @@ enum class KyuSei(override val kanji: String, override val reading: String, over
 enum class Band { KAGEDAN, SENJITSU, ENNICHI }
 
 /** 暦注下段 and 選日 — the good and bad days of the lower band and the selected-day column. */
-enum class Senjitsu(override val kanji: String, override val reading: String, override val english: String, val tone: Tone, val band: Band) : Term {
-    TENSHA("天赦日", "tenshanichi", "Heaven's pardon", Tone.GOOD, Band.KAGEDAN),
-    ICHIRYU_MANBAI("一粒万倍日", "ichiryū manbaibi", "One grain, ten thousand fold", Tone.GOOD, Band.SENJITSU),
-    DAIMYO("大明日", "daimyōnichi", "Great brightness", Tone.GOOD, Band.KAGEDAN),
-    TENON("天恩日", "ten'onnichi", "Heaven's grace", Tone.GOOD, Band.KAGEDAN),
-    BOSO("母倉日", "bosōnichi", "Mother's storehouse", Tone.GOOD, Band.KAGEDAN),
-    SETTOKU("節徳日", "settokunichi", "Virtue of the season", Tone.GOOD, Band.KAGEDAN),
-    KISHUKU("鬼宿日", "kishukunichi", "Ghost lodge day", Tone.GOOD, Band.KAGEDAN),
-    TORA("寅の日", "tora no hi", "Tiger day", Tone.GOOD, Band.ENNICHI),
-    MI("巳の日", "mi no hi", "Snake day", Tone.GOOD, Band.ENNICHI),
-    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", "Earth-yin Snake day", Tone.GOOD, Band.ENNICHI),
-    KINOE_NE("甲子", "kinoe-ne", "Wood-yang Rat, first of the sixty", Tone.GOOD, Band.ENNICHI),
-    TENICHI_TENJO("天一天上", "ten'ichi tenjō", "Ten'ichi in heaven", Tone.GOOD, Band.SENJITSU),
-    JUSHI("受死日", "jushinichi", "Receiving death (black day)", Tone.BAD, Band.KAGEDAN),
-    JISSHI("十死日", "jisshinichi", "Tenfold death", Tone.BAD, Band.KAGEDAN),
-    KIKO("帰忌日", "kikonichi", "Return taboo", Tone.BAD, Band.KAGEDAN),
-    CHIIMI("血忌日", "chiiminichi", "Blood taboo", Tone.BAD, Band.KAGEDAN),
-    TENKA("天火日", "tenkanichi", "Heaven's fire", Tone.BAD, Band.KAGEDAN),
-    JIKA("地火日", "jikanichi", "Earth's fire", Tone.BAD, Band.KAGEDAN),
-    OMO("往亡日", "ōmōnichi", "Going and perishing", Tone.BAD, Band.KAGEDAN),
-    FUJOJU("不成就日", "fujōjubi", "Nothing accomplished", Tone.BAD, Band.SENJITSU),
-    SANRINBO("三隣亡", "sanrinbō", "Ruin of three neighbours", Tone.BAD, Band.SENJITSU),
-    JIPPOGURE("十方暮", "jippōgure", "Darkness in ten directions", Tone.BAD, Band.SENJITSU),
-    HASSEN("八専", "hassen", "Eight concentrations", Tone.BAD, Band.SENJITSU),
-    HASSEN_MABI("八専間日", "hassen mabi", "Rest day within hassen", Tone.NEUTRAL, Band.SENJITSU),
-    OTSUCHI("大犯土", "ōtsuchi", "Great earth taboo", Tone.BAD, Band.SENJITSU),
-    KOTSUCHI("小犯土", "kotsuchi", "Lesser earth taboo", Tone.BAD, Band.SENJITSU),
-    TSUCHI_MABI("犯土間日", "tsuchi mabi", "Rest day between earth taboos", Tone.NEUTRAL, Band.SENJITSU),
-    SAIGEJIKI("歳下食", "saigejiki", "Year's descending eater", Tone.BAD, Band.KAGEDAN),
-    JUNICHI("重日", "jūnichi", "Doubling day", Tone.MIXED, Band.KAGEDAN),
-    FUKUNICHI("復日", "fukunichi", "Repeating day", Tone.MIXED, Band.KAGEDAN),
-    KANOE_SARU("庚申", "kōshin", "Metal-yang Monkey (kōshin)", Tone.MIXED, Band.ENNICHI),
-    TAIKA("大禍日", "taikanichi", "Great calamity (personal)", Tone.BAD, Band.KAGEDAN),
-    ROSHAKU("狼藉日", "rōshakunichi", "Havoc (personal)", Tone.BAD, Band.KAGEDAN),
-    METSUMON("滅門日", "metsumonnichi", "Ruin of the house (personal)", Tone.BAD, Band.KAGEDAN),
+enum class Senjitsu(override val kanji: String, override val reading: String, val tone: Tone, val band: Band) : Term {
+    TENSHA("天赦日", "tenshanichi", Tone.GOOD, Band.KAGEDAN),
+    ICHIRYU_MANBAI("一粒万倍日", "ichiryū manbaibi", Tone.GOOD, Band.SENJITSU),
+    DAIMYO("大明日", "daimyōnichi", Tone.GOOD, Band.KAGEDAN),
+    TENON("天恩日", "ten'onnichi", Tone.GOOD, Band.KAGEDAN),
+    BOSO("母倉日", "bosōnichi", Tone.GOOD, Band.KAGEDAN),
+    SETTOKU("節徳日", "settokunichi", Tone.GOOD, Band.KAGEDAN),
+    KISHUKU("鬼宿日", "kishukunichi", Tone.GOOD, Band.KAGEDAN),
+    TORA("寅の日", "tora no hi", Tone.GOOD, Band.ENNICHI),
+    MI("巳の日", "mi no hi", Tone.GOOD, Band.ENNICHI),
+    TSUCHINOTO_MI("己巳の日", "tsuchinoto-mi no hi", Tone.GOOD, Band.ENNICHI),
+    KINOE_NE("甲子", "kinoe-ne", Tone.GOOD, Band.ENNICHI),
+    TENICHI_TENJO("天一天上", "ten'ichi tenjō", Tone.GOOD, Band.SENJITSU),
+    JUSHI("受死日", "jushinichi", Tone.BAD, Band.KAGEDAN),
+    JISSHI("十死日", "jisshinichi", Tone.BAD, Band.KAGEDAN),
+    KIKO("帰忌日", "kikonichi", Tone.BAD, Band.KAGEDAN),
+    CHIIMI("血忌日", "chiiminichi", Tone.BAD, Band.KAGEDAN),
+    TENKA("天火日", "tenkanichi", Tone.BAD, Band.KAGEDAN),
+    JIKA("地火日", "jikanichi", Tone.BAD, Band.KAGEDAN),
+    OMO("往亡日", "ōmōnichi", Tone.BAD, Band.KAGEDAN),
+    FUJOJU("不成就日", "fujōjubi", Tone.BAD, Band.SENJITSU),
+    SANRINBO("三隣亡", "sanrinbō", Tone.BAD, Band.SENJITSU),
+    JIPPOGURE("十方暮", "jippōgure", Tone.BAD, Band.SENJITSU),
+    HASSEN("八専", "hassen", Tone.BAD, Band.SENJITSU),
+    HASSEN_MABI("八専間日", "hassen mabi", Tone.NEUTRAL, Band.SENJITSU),
+    OTSUCHI("大犯土", "ōtsuchi", Tone.BAD, Band.SENJITSU),
+    KOTSUCHI("小犯土", "kotsuchi", Tone.BAD, Band.SENJITSU),
+    TSUCHI_MABI("犯土間日", "tsuchi mabi", Tone.NEUTRAL, Band.SENJITSU),
+    SAIGEJIKI("歳下食", "saigejiki", Tone.BAD, Band.KAGEDAN),
+    JUNICHI("重日", "jūnichi", Tone.MIXED, Band.KAGEDAN),
+    FUKUNICHI("復日", "fukunichi", Tone.MIXED, Band.KAGEDAN),
+    KANOE_SARU("庚申", "kōshin", Tone.MIXED, Band.ENNICHI),
+    TAIKA("大禍日", "taikanichi", Tone.BAD, Band.KAGEDAN),
+    ROSHAKU("狼藉日", "rōshakunichi", Tone.BAD, Band.KAGEDAN),
+    METSUMON("滅門日", "metsumonnichi", Tone.BAD, Band.KAGEDAN);
+
+    override val english: String get() = gloss(this)
 }
 
 /** 雑節 — seasonal markers defined by the NAOJ. */
-enum class Zassetsu(override val kanji: String, override val reading: String, override val english: String) : Term {
-    SETSUBUN("節分", "setsubun", "Parting of the seasons"),
-    HIGAN_IRI("彼岸入り", "higan iri", "Start of higan"),
-    HIGAN("彼岸", "higan", "Higan, equinox week"),
-    HIGAN_CHUNICHI("彼岸の中日", "higan no chūnichi", "Middle day of higan"),
-    HIGAN_AKE("彼岸明け", "higan ake", "End of higan"),
-    SHANICHI("社日", "shanichi", "Day of the earth deity"),
-    HACHIJUHACHIYA("八十八夜", "hachijūhachiya", "Eighty-eighth night"),
-    NYUBAI("入梅", "nyūbai", "Start of the rainy season"),
-    HANGESHO("半夏生", "hangeshō", "Crow-dipper sprouts"),
-    DOYO_IRI("土用入り", "doyō iri", "Start of doyō"),
-    DOYO("土用", "doyō", "Doyō, earth season"),
-    DOYO_USHI("土用の丑の日", "doyō no ushi no hi", "Ox day of doyō"),
-    NIHYAKUTOKA("二百十日", "nihyaku tōka", "Two-hundred-tenth day"),
-    NIHYAKUHATSUKA("二百二十日", "nihyaku hatsuka", "Two-hundred-twentieth day"),
+enum class Zassetsu(override val kanji: String, override val reading: String) : Term {
+    SETSUBUN("節分", "setsubun"),
+    HIGAN_IRI("彼岸入り", "higan iri"),
+    HIGAN("彼岸", "higan"),
+    HIGAN_CHUNICHI("彼岸の中日", "higan no chūnichi"),
+    HIGAN_AKE("彼岸明け", "higan ake"),
+    SHANICHI("社日", "shanichi"),
+    HACHIJUHACHIYA("八十八夜", "hachijūhachiya"),
+    NYUBAI("入梅", "nyūbai"),
+    HANGESHO("半夏生", "hangeshō"),
+    DOYO_IRI("土用入り", "doyō iri"),
+    DOYO("土用", "doyō"),
+    DOYO_USHI("土用の丑の日", "doyō no ushi no hi"),
+    NIHYAKUTOKA("二百十日", "nihyaku tōka"),
+    NIHYAKUHATSUKA("二百二十日", "nihyaku hatsuka");
+
+    override val english: String get() = gloss(this)
 }
 
 /** 恵方, the lucky direction of the year (where 歳徳神 resides), by the year's stem. */
-enum class Ehou(override val kanji: String, override val reading: String, override val english: String) : Term {
-    EAST_NORTHEAST("東北東やや東", "tōhokutō", "East-northeast (75°)"),
-    WEST_SOUTHWEST("西南西やや西", "seinansei", "West-southwest (255°)"),
-    SOUTH_SOUTHEAST("南南東やや南", "nannantō", "South-southeast (165°)"),
-    NORTH_NORTHWEST("北北西やや北", "hokuhokusei", "North-northwest (345°)"),
+enum class Ehou(override val kanji: String, override val reading: String) : Term {
+    EAST_NORTHEAST("東北東やや東", "tōhokutō"),
+    WEST_SOUTHWEST("西南西やや西", "seinansei"),
+    SOUTH_SOUTHEAST("南南東やや南", "nannantō"),
+    NORTH_NORTHWEST("北北西やや北", "hokuhokusei");
+
+    override val english: String get() = gloss(this)
 }
 
 data class RekichuDay(

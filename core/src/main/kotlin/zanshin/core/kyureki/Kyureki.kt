@@ -5,6 +5,8 @@
 package zanshin.core.kyureki
 
 import zanshin.core.astro.Astro
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.gloss
 import zanshin.core.time.julianDayNumber
 import zanshin.core.time.mod
 import java.time.Instant
@@ -13,36 +15,43 @@ import java.time.LocalTime
 import java.time.ZoneOffset
 import java.util.concurrent.ConcurrentHashMap
 
-enum class Rokuyo(val kanji: String, val romaji: String, val english: String) {
-    TAIAN("大安", "Taian", "great peace"),
-    SHAKKO("赤口", "Shakkō", "red mouth"),
-    SENSHO("先勝", "Senshō", "win first"),
-    TOMOBIKI("友引", "Tomobiki", "a draw between friends"),
-    SENBU("先負", "Senbu", "lose first"),
-    BUTSUMETSU("仏滅", "Butsumetsu", "nothing comes of it"),
+enum class Rokuyo(val kanji: String, val romaji: String) {
+    TAIAN("大安", "Taian"),
+    SHAKKO("赤口", "Shakkō"),
+    SENSHO("先勝", "Senshō"),
+    TOMOBIKI("友引", "Tomobiki"),
+    SENBU("先負", "Senbu"),
+    BUTSUMETSU("仏滅", "Butsumetsu");
+
+    val english: String get() = gloss(this)
 }
 
 /** The 24 solar terms in Japanese almanac order, from 立春 at 315°. */
-enum class SolarTerm(val longitude: Int, val kanji: String, val romaji: String, val english: String) {
-    RISSHUN(315, "立春", "Risshun", "start of spring"), USUI(330, "雨水", "Usui", "rain water"),
-    KEICHITSU(345, "啓蟄", "Keichitsu", "insects awaken"), SHUNBUN(0, "春分", "Shunbun", "spring equinox"),
-    SEIMEI(15, "清明", "Seimei", "clear and bright"), KOKUU(30, "穀雨", "Kokuu", "grain rain"),
-    RIKKA(45, "立夏", "Rikka", "start of summer"), SHOMAN(60, "小満", "Shōman", "grain fills a little"),
-    BOSHU(75, "芒種", "Bōshu", "grain in ear"), GESHI(90, "夏至", "Geshi", "summer solstice"),
-    SHOSHO(105, "小暑", "Shōsho", "lesser heat"), TAISHO(120, "大暑", "Taisho", "greater heat"),
-    RISSHU(135, "立秋", "Risshū", "start of autumn"), SHOSHO_HEAT(150, "処暑", "Shosho", "heat subsides"),
-    HAKURO(165, "白露", "Hakuro", "white dew"), SHUBUN(180, "秋分", "Shūbun", "autumn equinox"),
-    KANRO(195, "寒露", "Kanro", "cold dew"), SOKO(210, "霜降", "Sōkō", "frost descends"),
-    RITTO(225, "立冬", "Rittō", "start of winter"), SHOSETSU(240, "小雪", "Shōsetsu", "lesser snow"),
-    TAISETSU(255, "大雪", "Taisetsu", "greater snow"), TOJI(270, "冬至", "Tōji", "winter solstice"),
-    SHOKAN(285, "小寒", "Shōkan", "lesser cold"), DAIKAN(300, "大寒", "Daikan", "greater cold");
+enum class SolarTerm(val longitude: Int, val kanji: String, val romaji: String) {
+    RISSHUN(315, "立春", "Risshun"), USUI(330, "雨水", "Usui"),
+    KEICHITSU(345, "啓蟄", "Keichitsu"), SHUNBUN(0, "春分", "Shunbun"),
+    SEIMEI(15, "清明", "Seimei"), KOKUU(30, "穀雨", "Kokuu"),
+    RIKKA(45, "立夏", "Rikka"), SHOMAN(60, "小満", "Shōman"),
+    BOSHU(75, "芒種", "Bōshu"), GESHI(90, "夏至", "Geshi"),
+    SHOSHO(105, "小暑", "Shōsho"), TAISHO(120, "大暑", "Taisho"),
+    RISSHU(135, "立秋", "Risshū"), SHOSHO_HEAT(150, "処暑", "Shosho"),
+    HAKURO(165, "白露", "Hakuro"), SHUBUN(180, "秋分", "Shūbun"),
+    KANRO(195, "寒露", "Kanro"), SOKO(210, "霜降", "Sōkō"),
+    RITTO(225, "立冬", "Rittō"), SHOSETSU(240, "小雪", "Shōsetsu"),
+    TAISETSU(255, "大雪", "Taisetsu"), TOJI(270, "冬至", "Tōji"),
+    SHOKAN(285, "小寒", "Shōkan"), DAIKAN(300, "大寒", "Daikan");
+
+    val english: String get() = gloss(this)
+
 
     companion object {
         fun atLongitude(deg: Int): SolarTerm = entries.first { it.longitude == deg }
     }
 }
 
-data class Festival(val kanji: String, val romaji: String, val english: String)
+data class Festival(val kanji: String, val romaji: String) {
+    val english: String get() = Catalog.text("Festival.$kanji")
+}
 
 data class KyurekiDay(
     val date: LocalDate,
@@ -54,7 +63,6 @@ data class KyurekiDay(
     /** Traditional month name, e.g. 葉月. */
     val monthName: String,
     val monthNameRomaji: String,
-    val monthNameEnglish: String,
     val rokuyo: Rokuyo,
     val dayKanshi: String,
     val yearKanshi: String,
@@ -64,7 +72,10 @@ data class KyurekiDay(
     val currentTermStart: LocalDate,
     val nextTermStart: LocalDate,
     val festival: Festival?,
-)
+) {
+    /** English of the traditional month name, from the catalog. */
+    val monthNameEnglish: String get() = Catalog.text("KyurekiMonth.$month")
+}
 
 /**
  * The Japanese lunisolar calendar under the Tenpō rules (SPEC §7), computed
@@ -79,23 +90,20 @@ object Kyureki {
     private val BRANCHES = "子丑寅卯辰巳午未申酉戌亥"
 
     private val MONTH_NAMES = listOf(
-        Triple("睦月", "Mutsuki", "month of affection"), Triple("如月", "Kisaragi", "month of layered clothes"),
-        Triple("弥生", "Yayoi", "month of growth"), Triple("卯月", "Uzuki", "month of the deutzia flower"),
-        Triple("皐月", "Satsuki", "month of rice planting"), Triple("水無月", "Minazuki", "month of water"),
-        Triple("文月", "Fumizuki", "month of letters"), Triple("葉月", "Hazuki", "month of leaves"),
-        Triple("長月", "Nagatsuki", "month of long nights"), Triple("神無月", "Kannazuki", "month of the gods"),
-        Triple("霜月", "Shimotsuki", "month of frost"), Triple("師走", "Shiwasu", "month when teachers run"),
+        "睦月" to "Mutsuki", "如月" to "Kisaragi", "弥生" to "Yayoi", "卯月" to "Uzuki",
+        "皐月" to "Satsuki", "水無月" to "Minazuki", "文月" to "Fumizuki", "葉月" to "Hazuki",
+        "長月" to "Nagatsuki", "神無月" to "Kannazuki", "霜月" to "Shimotsuki", "師走" to "Shiwasu",
     )
 
     private val FESTIVALS = mapOf(
-        (1 to 1) to Festival("旧正月", "Kyū-shōgatsu", "New Year of the old calendar"),
-        (1 to 7) to Festival("人日の節句", "Jinjitsu", "festival of the day of people"),
-        (3 to 3) to Festival("上巳の節句", "Jōshi", "festival of the first Snake day"),
-        (5 to 5) to Festival("端午の節句", "Tango", "festival of the first Horse day"),
-        (7 to 7) to Festival("七夕", "Tanabata", "evening of the seventh"),
-        (8 to 15) to Festival("十五夜", "Jūgoya", "fifteenth night, the mid-autumn moon"),
-        (9 to 9) to Festival("重陽の節句", "Chōyō", "festival of double yang"),
-        (9 to 13) to Festival("十三夜", "Jūsanya", "thirteenth night, the later moon"),
+        (1 to 1) to Festival("旧正月", "Kyū-shōgatsu"),
+        (1 to 7) to Festival("人日の節句", "Jinjitsu"),
+        (3 to 3) to Festival("上巳の節句", "Jōshi"),
+        (5 to 5) to Festival("端午の節句", "Tango"),
+        (7 to 7) to Festival("七夕", "Tanabata"),
+        (8 to 15) to Festival("十五夜", "Jūgoya"),
+        (9 to 9) to Festival("重陽の節句", "Chōyō"),
+        (9 to 13) to Festival("十三夜", "Jūsanya"),
     )
 
     /** Major terms that fix a month number regardless of leap months (Tenpō rule 4). */
@@ -122,7 +130,7 @@ object Kyureki {
         val terms = termsAround(date)
         val current = terms.last { !it.second.isAfter(date) }
         val next = terms.first { it.second.isAfter(date) }
-        val (name, romaji, english) = MONTH_NAMES[month.number - 1]
+        val (name, romaji) = MONTH_NAMES[month.number - 1]
         return KyurekiDay(
             date = date,
             year = month.year,
@@ -131,7 +139,6 @@ object Kyureki {
             day = day,
             monthName = name,
             monthNameRomaji = romaji,
-            monthNameEnglish = english,
             rokuyo = Rokuyo.entries[(month.number + day) % 6],
             dayKanshi = kanshi(mod(jd + 49, 60L).toInt()),
             yearKanshi = kanshi(mod(month.year - 4, 60)),

@@ -67,12 +67,12 @@ data class DaySummary(
 
             // In order of first mention, so the list follows the almanac's own order.
             val order = LinkedHashSet<Activity>()
-            entries.forEach { e -> e.reading?.let { order += Activities.of(it.good) + Activities.of(it.avoid) } }
+            entries.forEach { e -> e.reading?.let { order += Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) } }
             val activities = order.map { a ->
                 ActivityNote(
                     a,
-                    good = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.good) },
-                    avoid = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.avoid) },
+                    good = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.goodKeys) },
+                    avoid = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.avoidKeys) },
                 )
             }
 
