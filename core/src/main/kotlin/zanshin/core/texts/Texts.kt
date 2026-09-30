@@ -13,6 +13,7 @@ import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ElementPair
+import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
@@ -71,6 +72,12 @@ object Sources {
         "https://fpmt.org/wp-content/uploads/teachers/zopa/advice/pdf/cutting_hair_advice_lzr08.pdf",
     )
     val RABTEN = Source("Tibetan Calendar 2026, Fire-Horse Year 2153", "Edition Rabten", "https://www.rabten.eu/downloads/calendarEN.pdf")
+    val WHITE_BERYL_PEBBLES = Source(
+        "Vaiḍūrya dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, ff. 248b–254a, with Lo chen Dharmaśrī's " +
+            "Moonbeams, f. 28a/b; the four aspects ff. 156a/b, 158a",
+        "BDRC W1KG12714",
+        "https://library.bdrc.io/show/bdr:MW1KG12714",
+    )
     val HENNING_SYMBOLS = Source("Symbolic details of the Kālacakra calendar", "Edward Henning", "http://www.kalacakra.org/calendar/symlst.htm")
     val HENNING_ARCHIVE = Source("Phugpa Tibetan calendar list", "Edward Henning", "http://www.kalacakra.org/calendar/tiblist.htm")
     val LOTSAWA_TENTH = Source(
@@ -328,4 +335,34 @@ object Texts {
         PersonalDay.LIFE to Reading("A harmonious weekday for your birth year: suitable for starting projects and celebrating auspicious events.", source = Sources.RABTEN),
         PersonalDay.ANTI to Reading("A disharmonious weekday for your birth year: generally unsuitable for starting things or celebrations.", source = Sources.RABTEN),
     )
+
+    /**
+     * The yearly pebble reading: one aspect of the birth year against the same
+     * aspect of the present year. The ranking and the predictions for the
+     * vitality pebbles follow the White Beryl's chapter on obstacle years.
+     */
+    val PEBBLES: Map<Kinship, Reading> = mapOf(
+        Kinship.MOTHER to "Mother: the year's element feeds yours, as water feeds wood. The best of the five relations, " +
+            "marked with three white pebbles. For the vitality, three white pebbles foretell that the tree of life grows " +
+            "and that one is well supported.",
+        Kinship.FRIEND to "Friend: your element overcomes the year's, as wood overcomes earth. Second to the mother " +
+            "relation, marked with two white pebbles. For the vitality, two white pebbles foretell enough to live on, " +
+            "wishes fulfilled and no threat to life that year.",
+        Kinship.IDENTITY to "Identity: the year's element is the same as yours. For earth and water it is marked with one " +
+            "white pebble, which for the vitality foretells no obstacle to long life; for wood, fire and iron with one " +
+            "black pebble, which for the vitality foretells that the sap of the tree of life dries and rites lose their force.",
+        Kinship.SON to "Son: your element feeds the year's, as wood feeds fire. Marked with one white and one black " +
+            "pebble; for the vitality they foretell good and bad together, so misfortune can still be turned aside by rites.",
+        Kinship.ENEMY to "Enemy: the year's element overcomes yours, as iron overcomes wood. The worst of the five " +
+            "relations, marked with two black pebbles. For the vitality, two black pebbles foretell punishment and " +
+            "a broken tree of life.",
+    ).mapValues { (_, s) ->
+        Reading(
+            "$s Each of the four aspects of your birth year (vitality, body, destiny, luck) is set against the same " +
+                "aspect of the present Tibetan year; the source gives its predictions for the vitality, and body, destiny " +
+                "and luck are read in the same way. The full divination of obstacle years adds further pebbles that this " +
+                "app does not calculate.",
+            source = Sources.WHITE_BERYL_PEBBLES,
+        )
+    }
 }
