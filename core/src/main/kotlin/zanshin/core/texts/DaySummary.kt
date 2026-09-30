@@ -13,6 +13,8 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.StarAffinity
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.ElectionalFactor
+import zanshin.core.tibetan.TibetanDay
 
 /** The app's lucky/unlucky dot for the rokuyō: an app convention, not a traditional mark. */
 fun rokuyoTone(r: Rokuyo): Tone = when (r) {
@@ -29,8 +31,8 @@ fun toneOf(r: Reading?): Tone = when {
     else -> Tone.MIXED
 }
 
-/** One annotation of the day as the summary lists it. */
-data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, val reading: Reading?)
+/** One annotation of the day as the summary lists it; [latin] when its name is not kanji (the Tibetan day's factors). */
+data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, val reading: Reading?, val latin: Boolean = false)
 
 /** An activity and the annotations that name it good or to be avoided; both sides are kept. */
 data class ActivityNote(val activity: Activity, val good: List<SummaryEntry>, val avoid: List<SummaryEntry>) {
@@ -65,24 +67,49 @@ data class DaySummary(
                 rk.senjitsu.forEach { add(SummaryEntry(it.kanji, it.english, it.tone, Texts.SENJITSU[it])) }
             }
 
-            // In order of first mention, so the list follows the almanac's own order.
+            return DaySummary(
+                mark = rk.mark,
+                byTone = entries.filter { it.tone != Tone.NEUTRAL }.groupBy { it.tone },
+                activities = activities(entries),
+                personal = entries.filter { e -> PERSONAL.any { it.kanji == e.kanji } },
+                affinity = birthStar?.let { Kigaku.affinity(it, rk.dayStar) },
+            )
+        }
+
+        /**
+         * The Tibetan day in brief (SPEC §5.10): what the activity lists name its
+         * weekday, lunar date, mansion, day animal and trigram good or bad for.
+         */
+        fun of(day: TibetanDay): DaySummary {
+            fun entry(name: String, factor: ElectionalFactor, reading: Reading) =
+                SummaryEntry(name, factor.english, toneOf(reading), reading, latin = true)
+            val entries = listOf(
+                entry(day.weekday.english, ElectionalFactor.WEEKDAY, Texts.ELECTIONAL_WEEKDAY.getValue(day.weekday)),
+                entry(Catalog.format("ElectionalFactor.LUNAR_DATE.title", day.day.toString()), ElectionalFactor.LUNAR_DATE, Texts.ELECTIONAL_DATE.getValue(day.day)),
+                entry(day.mansion.sanskrit, ElectionalFactor.MANSION, Texts.MANSION.getValue(day.mansion)),
+                entry(gloss(day.dayAnimal), ElectionalFactor.DAY_ANIMAL, Texts.ELECTIONAL_ANIMAL.getValue(day.dayAnimal)),
+                entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), ElectionalFactor.TRIGRAM, Texts.ELECTIONAL_TRIGRAM.getValue(day.trigram)),
+            )
+            return DaySummary(
+                mark = null,
+                byTone = entries.filter { it.tone != Tone.NEUTRAL }.groupBy { it.tone },
+                activities = activities(entries),
+                personal = emptyList(),
+                affinity = null,
+            )
+        }
+
+        /** Activities with the entries that name them, in order of first mention, so the list follows the almanac's own order. */
+        private fun activities(entries: List<SummaryEntry>): List<ActivityNote> {
             val order = LinkedHashSet<Activity>()
             entries.forEach { e -> e.reading?.let { order += Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) } }
-            val activities = order.map { a ->
+            return order.map { a ->
                 ActivityNote(
                     a,
                     good = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.goodKeys) },
                     avoid = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.avoidKeys) },
                 )
             }
-
-            return DaySummary(
-                mark = rk.mark,
-                byTone = entries.filter { it.tone != Tone.NEUTRAL }.groupBy { it.tone },
-                activities = activities,
-                personal = entries.filter { e -> PERSONAL.any { it.kanji == e.kanji } },
-                affinity = birthStar?.let { Kigaku.affinity(it, rk.dayStar) },
-            )
         }
     }
 }

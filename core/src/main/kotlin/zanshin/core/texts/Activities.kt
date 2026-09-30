@@ -122,7 +122,26 @@ enum class Activity {
     HEAVY_EATING,
     CARELESS_WORDS,
     HASTE,
-    CALM;
+    CALM,
+
+    // The Tibetan activity lists (SPEC §5.10)
+    OFFERINGS,
+    SACRED_SUPPORTS,
+    DIVINATION,
+    LEARNING_ASTROLOGY,
+    STUDYING_SCRIPTURE,
+    LEARNING_ARTS,
+    MEDICAL_TREATMENT,
+    SURGERY,
+    STUDYING_MEDICINE,
+    BUYING_HOME,
+    MAKING_A_WILL,
+    MAKING_WEAPONS,
+    HEALTH_AND_WEALTH,
+    PACIFYING,
+    INCREASING,
+    CONTROLLING,
+    DESTROYING;
 
     val english: String get() = gloss(this)
 }
@@ -264,6 +283,28 @@ object Activities {
         "careless_words" to of(CARELESS_WORDS),
         "haste" to of(HASTE),
         "calm" to of(CALM),
+
+        "offerings_to_deities" to of(OFFERINGS),
+        "taking_a_new_home" to of(MOVING_HOUSE),
+        "setting_up_supports" to of(SACRED_SUPPORTS),
+        "installing_a_deity" to of(SACRED_SUPPORTS),
+        "astrology_and_divination" to of(DIVINATION),
+        "learning_astrology" to of(LEARNING_ASTROLOGY),
+        "studying_scripture" to of(STUDYING_SCRIPTURE),
+        "learning_music_or_dance" to of(LEARNING_ARTS),
+        "planting_and_sowing" to of(PLANTING, SOWING),
+        "laying_the_foundation_of_a_home" to of(LAYING_FOUNDATIONS),
+        "medical_treatment" to of(MEDICAL_TREATMENT),
+        "surgical_treatment" to of(SURGERY),
+        "studying_medicine" to of(STUDYING_MEDICINE),
+        "buying_a_home" to of(BUYING_HOME),
+        "making_a_will" to of(MAKING_A_WILL),
+        "making_weapons" to of(MAKING_WEAPONS),
+        "health_and_wealth" to of(HEALTH_AND_WEALTH),
+        "pacifying_activity" to of(PACIFYING),
+        "increasing_activity" to of(INCREASING),
+        "controlling_activity" to of(CONTROLLING),
+        "destructive_activity" to of(DESTROYING),
     )
 
     /** The rokuyō's hours, by wording key. */

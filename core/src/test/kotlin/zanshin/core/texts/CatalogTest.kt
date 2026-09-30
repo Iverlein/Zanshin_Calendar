@@ -20,6 +20,7 @@ import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Element
+import zanshin.core.tibetan.ElectionalFactor
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Force
@@ -49,7 +50,7 @@ class CatalogTest {
             IndianElement.entries, Weekday.entries, Mansion.entries, Yoga.entries, Karana.entries, ElementPair.entries,
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
-            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, License.entries,
+            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, License.entries, ElectionalFactor.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }
@@ -69,7 +70,8 @@ class CatalogTest {
         val readings = listOf(
             Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU,
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
-            Texts.PERSONAL_DAY, Texts.PEBBLES,
+            Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
+            Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         ).flatMap { it.values } + Texts.HAIRCUT
         for (r in readings) {
             assertTrue(r.key.startsWith("reading."), "reading without a key from ${r.source.title}")

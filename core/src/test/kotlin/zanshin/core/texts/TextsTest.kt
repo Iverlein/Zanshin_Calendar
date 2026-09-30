@@ -17,6 +17,7 @@ import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
@@ -26,6 +27,7 @@ class TextsTest {
     private val all = listOf(
         Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.EHOU,
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
+        Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
     ).flatMap { it.values } + Texts.HAIRCUT
 
     @Test
@@ -45,6 +47,7 @@ class TextsTest {
         complete(PersonalDay.entries, Texts.PERSONAL_DAY)
         complete(StarRelation.entries, Texts.KIGAKU)
         complete(Kinship.entries, Texts.PEBBLES)
+        complete(Mansion.entries, Texts.MANSION)
         assertEquals(30, Texts.HAIRCUT.size)
 
         for (r in all) {

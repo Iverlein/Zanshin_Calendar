@@ -12,11 +12,16 @@ import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
+import zanshin.core.tibetan.Animal
+import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
+import zanshin.core.tibetan.Trigram
+import zanshin.core.tibetan.Weekday
 
 /*
  * Readings shown on demand (SPEC §8). Each has a published source and a
@@ -99,6 +104,7 @@ object Sources {
     )
     val HENNING_SYMBOLS = Source("Symbolic details of the Kālacakra calendar", "Edward Henning", "http://www.kalacakra.org/calendar/symlst.htm")
     val HENNING_ARCHIVE = Source("Phugpa Tibetan calendar list", "Edward Henning", "http://www.kalacakra.org/calendar/tiblist.htm")
+    val HENNING_ELECTIONAL = Source("Horary and electional astrology of the five components", "Edward Henning", "http://www.kalacakra.org/calendar/tibast03.htm")
     val LOTSAWA_TENTH = Source(
         "A Prayer Invoking the Benefits of the Festival of the Tenth Day, by Rigdzin Jigme Lingpa, tr. Rigpa Translations, 2013",
         "Lotsawa House",
@@ -241,6 +247,37 @@ object Texts {
 
     /** Result of cutting one's hair on each lunar day, 1–30: the result alone under `reading.Haircut.<day>`. */
     val HAIRCUT: List<Reading> = (1..30).map { Reading(key = "reading.Haircut", arg = "reading.Haircut.$it", source = Sources.FPMT_HAIR) }
+
+    /**
+     * The lunar mansion: its kind of work, nature, planet and foods, and what the
+     * list of mansions and the activity lists name it good or bad for (SPEC §5.10).
+     */
+    val MANSION: Map<Mansion, Reading> = Mansion.entries.associateWith { m ->
+        Reading(
+            goodKeys = (Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
+            avoidKeys = Electional.bad { m in it.mansions },
+            source = Sources.HENNING_ELECTIONAL,
+            key = "reading.Mansion",
+            arg = "reading.${glossKey(m)}",
+        )
+    }
+
+    private fun electional(arg: String, good: List<String>, bad: List<String>) =
+        Reading(goodKeys = good, avoidKeys = bad, source = Sources.HENNING_ELECTIONAL, key = "reading.Electional", arg = "reading.Electional.$arg")
+
+    /** What the activity lists name each weekday, lunar date, day animal and trigram good or bad for. */
+    val ELECTIONAL_WEEKDAY: Map<Weekday, Reading> = Weekday.entries.associateWith { w ->
+        electional("weekday", Electional.good { w in it.weekdays }, Electional.bad { w in it.weekdays })
+    }
+    val ELECTIONAL_DATE: Map<Int, Reading> = (1..30).associateWith { d ->
+        electional("date", Electional.good { d in it.dates }, Electional.bad { d in it.dates })
+    }
+    val ELECTIONAL_ANIMAL: Map<Animal, Reading> = Animal.entries.associateWith { a ->
+        electional("animal", Electional.good { a in it.animals }, Electional.bad { a in it.animals })
+    }
+    val ELECTIONAL_TRIGRAM: Map<Trigram, Reading> = Trigram.entries.associateWith { t ->
+        electional("trigram", Electional.good { t in it.trigrams }, Electional.bad { t in it.trigrams })
+    }
 
     val ELEMENT_PAIR: Map<ElementPair, Reading> = keyed(
         ElementPair.EARTH_EARTH to Reading(source = Sources.RABTEN),
