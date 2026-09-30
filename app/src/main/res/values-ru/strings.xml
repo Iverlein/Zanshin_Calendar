@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Interface text of Zanshin Calendar, Russian (ROADMAP L3), translated by the project.
+  Tibetan and Japanese terms (Wylie, kanji, romaji) stay as they are.
+-->
+<resources>
+
+    <!-- Language and formats -->
+    <string name="locale_tag">ru</string>
+    <string name="pattern_header_date">EEE d MMM yyyy</string>
+    <string name="pattern_short_date">d MMM</string>
+    <!-- LLLL: the month's standalone name, «октябрь 2026», not «октября» -->
+    <string name="pattern_month_title">LLLL yyyy</string>
+    <string name="pattern_clock">HH:mm</string>
+    <string name="month">%1$s-й месяц</string>
+    <string name="month_leap">Високосный %1$s-й месяц</string>
+    <string name="moon_new">Новолуние</string>
+    <string name="moon_waxing_crescent">Растущий серп</string>
+    <string name="moon_first_quarter">Первая четверть</string>
+    <string name="moon_waxing_gibbous">Растущая луна</string>
+    <string name="moon_full">Полнолуние</string>
+    <string name="moon_waning_gibbous">Убывающая луна</string>
+    <string name="moon_last_quarter">Последняя четверть</string>
+    <string name="moon_waning_crescent">Убывающий серп</string>
+
+    <!-- Tibetan page -->
+    <string name="tib_from_dawn">с рассвета</string>
+    <string name="tib_moved_from_day">перенесён с %1$d-го дня, который пропущен</string>
+    <string name="tib_first_of_two">первый из двух</string>
+    <string name="tib_second_of_two">второй из двух</string>
+    <string name="tib_day_omitted">В этом месяце пропущен %1$d-й день</string>
+    <string name="row_tibetan">Тибетский</string>
+    <string name="row_wylie">Уайли</string>
+    <string name="row_say">Читается</string>
+    <string name="row_english">По-русски</string>
+    <string name="row_sanskrit">Санскрит</string>
+    <string name="row_animal">Животное</string>
+    <string name="row_season">Сезон</string>
+    <string name="tib_animal_month">месяц: %1$s</string>
+    <string name="element_animal">%1$s-%2$s</string>
+    <string name="tib_year_line">год: %1$s-%2$s</string>
+    <string name="row_year">Год</string>
+    <string name="tib_year_full">%1$s-%3$s, %2$s</string>
+    <string name="row_royal_year">Царский год</string>
+    <string name="row_rabjung">Рабджунг</string>
+    <string name="tib_rabjung">%1$s-й цикл, год %2$d</string>
+    <string name="row_weekday">День недели</string>
+    <string name="row_planet">Планета</string>
+    <string name="row_element">Стихия</string>
+    <string name="row_gender">Род</string>
+    <string name="tib_monthly_observance">ежемесячная практика</string>
+    <string name="tib_for_birth_year">для вашего года рождения</string>
+    <string name="tib_element_pair_subtitle">стихии дня недели и созвездия: %1$s</string>
+    <string name="tib_haircut">Стрижка</string>
+    <string name="section_almanac">Альманах</string>
+    <string name="section_your_day">Ваш день</string>
+    <string name="pebble_row_title">%1$s  %2$s</string>
+    <string name="pebble_subtitle">%1$s: у дня — %2$s, у вас — %3$s</string>
+    <string name="aspect_for_you">%1$s · %2$s %3$s</string>
+    <string name="detail_date">Лунное число</string>
+    <string name="detail_date_value">%1$s-е · %2$s</string>
+    <string name="detail_month">Месяц</string>
+    <string name="detail_month_value">%1$s · %2$s</string>
+    <string name="detail_counted">Как считается</string>
+    <string name="detail_counted_day">Стихия месяца выводится из стихии могущества года (%1$s) по животному месяца; лунные числа идут по стихиям от ребёнка стихии месяца (%2$s): 1-е и 6-е — её ребёнок, 5-е и 10-е — сама стихия месяца.</string>
+    <string name="detail_its_day">%1$s дня</string>
+    <string name="detail_yours">Ваша</string>
+    <string name="detail_yours_value">%1$s, по году рождения %2$s</string>
+    <string name="detail_relation">Отношение</string>
+    <string name="section_five_components">Пять составляющих</string>
+    <string name="row_lunar_mansion">Лунное созвездие</string>
+    <string name="row_yoga">Йога</string>
+    <string name="row_karana">Карана</string>
+    <string name="section_lunar_day">Лунный день</string>
+    <string name="row_trigram">Триграмма</string>
+    <string name="row_number">Число</string>
+    <string name="pebbles_mixed">белых камней: %1$d, чёрных: %2$d</string>
+    <plurals name="pebbles_white">
+        <item quantity="one">%d белый камень</item>
+        <item quantity="few">%d белых камня</item>
+        <item quantity="many">%d белых камней</item>
+        <item quantity="other">%d белого камня</item>
+    </plurals>
+    <plurals name="pebbles_black">
+        <item quantity="one">%d чёрный камень</item>
+        <item quantity="few">%d чёрных камня</item>
+        <item quantity="many">%d чёрных камней</item>
+        <item quantity="other">%d чёрного камня</item>
+    </plurals>
+
+    <!-- 旧暦 page -->
+    <string name="kyu_day">день</string>
+    <string name="kyu_month_description">%1$s, %2$d-й день</string>
+    <string name="row_traditional_name">Старое название</string>
+    <string name="row_meaning">Значение</string>
+    <string name="kyu_rokuyo_line">%1$s · рокуё</string>
+    <string name="kyu_black_day">чёрный день — худший из всех</string>
+    <string name="kyu_pardon_day">день небесного прощения — хорош для всего</string>
+    <string name="kyu_day_in_brief">День вкратце</string>
+    <string name="kyu_in_brief">Вкратце</string>
+    <string name="kyu_brief_counts">хорошо: %1$d · избегать: %2$d</string>
+    <string name="kyu_brief_disputed">\u0020· спорных: %1$d</string>
+    <string name="kyu_begins_today">начинается сегодня</string>
+    <string name="kyu_until">до %1$s</string>
+    <string name="section_choku">中段 · Двенадцать станций</string>
+    <string name="section_shuku">二十八宿 · Лунная стоянка</string>
+    <string name="section_kagedan">下段 · Нижняя полоса</string>
+    <string name="section_senjitsu">選日 · Избранные дни</string>
+    <string name="section_ennichi">縁日 · Дни божеств</string>
+    <string name="section_zassetsu">雑節 · Сезонные вехи</string>
+    <string name="section_kanshi">干支 · Циклы</string>
+    <string name="row_day">День</string>
+    <string name="row_solar_month">Солнечный месяц</string>
+    <string name="kyu_solar_month">месяц: %1$s, с %2$s</string>
+    <string name="row_month_star">Звезда месяца</string>
+    <string name="row_year_star">Звезда года</string>
+    <string name="kyu_day_star">звезда дня: %1$s</string>
+    <string name="kyu_birth_star">ваша звезда рождения: %1$s · %2$s</string>
+    <string name="kyu_ehou">счастливое направление года: %1$s</string>
+    <string name="kyu_choku_gloss">%1$s — %2$s · двенадцать станций</string>
+    <string name="kyu_shuku_gloss">%1$s — %2$s · 28 стоянок</string>
+
+    <!-- Frame and menu -->
+    <string name="menu_open">Открыть меню</string>
+    <string name="choose_date">Выбрать дату</string>
+    <string name="today">Сегодня</string>
+    <string name="switch_calendar">Сменить календарь</string>
+    <string name="calendar_tibetan">Тибетский</string>
+    <string name="sky_set_location">Укажите место для восхода и заката</string>
+    <string name="sky_sunrise">Восход</string>
+    <string name="sky_solar_noon">Истинный полдень</string>
+    <string name="sky_sunset">Закат</string>
+    <string name="sky_altitude">· %1$.1f°</string>
+    <string name="change_location">Сменить место</string>
+    <string name="menu_close">Закрыть меню</string>
+    <string name="menu_calendar">КАЛЕНДАРЬ</string>
+    <string name="menu_tibetan_subtitle">Пхугпа</string>
+    <string name="menu_kyureki">旧暦 Кюрэки</string>
+    <string name="menu_kyureki_subtitle">Правила Тэмпо, рокуё</string>
+    <string name="menu_settings">НАСТРОЙКИ</string>
+    <string name="menu_location">Место</string>
+    <string name="not_set">Не задано</string>
+    <string name="menu_birth_date">Дата рождения</string>
+    <string name="menu_birth_not_set">Не задана — для личных дней</string>
+    <string name="menu_kigaku">Чтение девяти звёзд</string>
+    <string name="menu_kigaku_subtitle">Ваша звезда рождения и звезда дня</string>
+    <string name="menu_language">Язык</string>
+    <string name="language_system">Язык телефона</string>
+    <string name="menu_about">О приложении и источниках</string>
+    <string name="menu_about_subtitle">Формулы, шрифты, GeoNames</string>
+    <string name="selected">Выбрано</string>
+
+    <!-- About -->
+    <string name="back">Назад</string>
+    <string name="about_title">О приложении и источниках</string>
+    <string name="about_tibetan_title">Тибетский календарь</string>
+    <string name="about_tibetan">Версия Пхугпа, рассчитанная по арифметике Сванте Янсона, «Tibetan Calendar Mathematics» (2007, исправлено в 2014 и 2022), эпоха 806, с суточной аномалией Луны 1/28, как в альманахе Мен-Ци-Кханга. Лунное созвездие, йога, карана и циклы лунного дня следуют Янсону, §10 и приложение E. Проверено по таблице дат Лосара у Янсона за 1927–2046 годы и, день за днём, по рассчитанным календарям Пхугпа Эдварда Хеннинга (kalacakra.org).</string>
+    <string name="about_kyureki_title">旧暦</string>
+    <string name="about_kyureki">Правила Тэмпо по японскому стандартному времени: месяц начинается в день новолуния и нумеруется по главному солнечному сезону, который в него попадает. В 2033 году високосный месяц — 閏11月, рекомендованное решение «проблемы 2033 года». Солнечные сезоны, новолуния и 雑節 проверены по данным Национальной астрономической обсерватории Японии (暦要項).</string>
+    <string name="about_rekichu_title">暦注</string>
+    <string name="about_rekichu">Пометки альманаха (十二直, 二十八宿, 九星, 選日 и 暦注下段) следуют правилам, сведённым в таблицы в японской Википедии по книге 岡田芳朗・阿久根末忠『現代こよみ読み解き事典』 (1993), и проверены день за днём по こよみのページ (koyomi8.com). 神吉日 и 凶会日 не включены: их полные правила не восстановимы.</string>
+    <string name="about_astronomy_title">Солнце и Луна</string>
+    <string name="about_astronomy">Жан Меёс, «Astronomical Algorithms» (2-е изд., 1998): новолуния по главе 49, Солнце по ряду VSOP87D Бретаньона и Франку, ΔT по многочленам Эспенака и Меёса (NASA). Всё вычисляется на этом телефоне; у приложения нет доступа в интернет.</string>
+    <string name="about_readings_title">Толкования</string>
+    <string name="about_readings">У каждого толкования указан источник. Японские: こよみ博物館 издателя альманахов Todan (六曜, 十二直, 二十八宿); японская Википедия (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), адаптированный текст которой распространяется по лицензии CC BY-SA 4.0; 暦Wiki NAOJ (雑節, 節句, 十三夜); словари на Kotobank. Тибетские: перевод дней стрижки Ламы Сопы Ринпоче (FPMT, 2008); тибетский календарь Edition Rabten; символические подробности календаря Эдварда Хеннинга; молитва Джигме Лингпы о десятом дне (Lotsawa House); цвета девяти чисел из «Подробностей тибетской астрологии» Александра Берзина (Study Buddhism); четыре аспекта года и камни дня, месяца и года из «Белого берилла» Деси Сангье Гьяцо с «Лунными лучами» Лочена Дхармашри. Толкования, не взятые из Википедии, — собственные английские изложения приложения по указанным источникам под лицензией приложения; по-русски это их перевод.</string>
+    <string name="about_tibetan_script_title">Тибетское письмо</string>
+    <string name="about_tibetan_script">Тибетские термины написаны тибетским письмом по их транслитерации Уайли, сверенной с «Белым бериллом» Деси Сангье Гьяцо; произношение следует упрощённой фонетической транскрипции стандартного тибетского THL (Дэвид Джермано и Николя Турнадр, 2003).</string>
+    <string name="about_glyphs_title">Значки</string>
+    <string name="about_glyphs">Значки праздников нарисованы для этого приложения и распространяются под его лицензией.</string>
+    <string name="about_cities_title">Города</string>
+    <string name="about_cities">Список городов — GeoNames (geonames.org), лицензия Creative Commons Attribution 4.0.</string>
+    <string name="about_fonts_title">Шрифты</string>
+    <string name="about_fonts">Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho Project Authors; Noto Serif Tibetan, © 2022 The Noto Project Authors; все под лицензией SIL Open Font License 1.1.</string>
+    <string name="about_licence_title">Лицензия</string>
+    <string name="about_licence">Zanshin Calendar — свободная программа под лицензией Mozilla Public License 2.0.</string>
+
+    <!-- Location -->
+    <string name="loc_my_location_label">Моё место · %1$s</string>
+    <string name="loc_locating">Определяю место…</string>
+    <string name="loc_unavailable">Место не определено. Попробуйте на улице или найдите город.</string>
+    <string name="loc_denied">Нет разрешения на определение места.</string>
+    <string name="loc_current">Сейчас</string>
+    <string name="loc_use_mine">Определить моё место</string>
+    <string name="loc_search">Поиск города (без сети)</string>
+    <string name="loc_type_city">Введите город</string>
+    <string name="loc_loading">Загружаю города…</string>
+    <string name="loc_or_coordinates">Или введите координаты</string>
+    <string name="loc_latitude">Широта</string>
+    <string name="loc_longitude">Долгота</string>
+    <string name="loc_save">Сохранить координаты</string>
+    <string name="loc_zone_note">Для введённых координат и вашего места берётся часовой пояс телефона.</string>
+
+    <!-- Date picker -->
+    <string name="picker_previous_month">Предыдущий месяц</string>
+    <string name="picker_next_month">Следующий месяц</string>
+    <string name="picker_small_figures_tibetan">Мелкие цифры: тибетский день</string>
+    <string name="picker_small_figures_kyureki">Мелкие цифры: день 旧暦</string>
+
+    <!-- Day in brief and reading sheets -->
+    <string name="brief_title">День вкратце</string>
+    <string name="brief_black_day">чёрный день альманаха: остальные пометки можно не читать</string>
+    <string name="brief_pardon_day">альманах отмечает его как хороший для всего</string>
+    <string name="good_for">Хорошо для</string>
+    <string name="avoid">Избегать</string>
+    <string name="brief_by_tone">По характеру</string>
+    <string name="brief_for_you">Для вас</string>
+    <string name="brief_birth_star">звезда рождения и звезда дня: %1$s</string>
+    <string name="brief_note">Перечислено так, как дают источники. Ни одно опубликованное правило не ставит одну пометку выше другой, поэтому они не взвешиваются; где они расходятся, показаны обе стороны.</string>
+    <string name="brief_also_avoid">названо и среди «избегать»</string>
+    <string name="brief_also_good">названо и среди «хорошо»</string>
+    <string name="tone_lucky">благоприятно</string>
+    <string name="tone_unlucky">неблагоприятно</string>
+    <string name="tone_mixed">смешанно</string>
+    <string name="tone_neutral">нейтрально</string>
+    <string name="action_english">Перевод</string>
+    <string name="row_reading">Чтение</string>
+    <string name="action_meaning">Значение</string>
+    <string name="sheet_gloss_tone">%1$s · %2$s</string>
+    <string name="sheet_no_reading">Для этой записи нет опубликованного толкования.</string>
+    <string name="source">Источник</string>
+    <string name="sources">Источники</string>
+    <string name="text_pending_source">текст ждёт источника</string>
+    <string name="birth_save">Сохранить</string>
+    <string name="birth_clear">Очистить</string>
+    <string name="birth_cancel">Отмена</string>
+
+    <!-- Glyphs: descriptions for screen readers -->
+    <string name="glyph_lotus">лотос</string>
+    <string name="glyph_butter_lamp">масляная лампада</string>
+    <string name="glyph_mandala">мандала</string>
+    <string name="glyph_lotus_bud">бутон лотоса</string>
+    <string name="glyph_bodhi_leaf">лист дерева бодхи</string>
+    <string name="glyph_smoke_offering">дымное подношение</string>
+    <string name="glyph_wheel_of_dharma">колесо Дхармы</string>
+    <string name="glyph_seed_within_a_circle">семя в круге</string>
+    <string name="glyph_triple_ladder">тройная лестница</string>
+    <string name="glyph_butter_lamps">масляные лампады</string>
+    <string name="glyph_ten_dots">десять точек</string>
+    <string name="glyph_flame">пламя</string>
+    <string name="glyph_kadomatsu">кадомацу</string>
+    <string name="glyph_herb_sprig">веточка трав</string>
+    <string name="glyph_peach_blossom">цветок персика</string>
+    <string name="glyph_carp_streamers">вымпелы-карпы</string>
+    <string name="glyph_two_stars_across_the_river">две звезды по берегам реки</string>
+    <string name="glyph_full_moon_and_susuki_grass">полная луна и трава сусуки</string>
+    <string name="glyph_chrysanthemum">хризантема</string>
+    <string name="glyph_gibbous_moon">луна после первой четверти</string>
+</resources>

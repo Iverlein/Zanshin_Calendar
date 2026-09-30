@@ -7,6 +7,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Monthly observances on the 8th, 10th, 15th, 25th and 30th</li>
 <li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
+<li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the white and black pebbles of the day, month and year</li>
 </ul>
 
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
@@ -18,6 +19,8 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 </ul>
 
 Tap any Tibetan term or kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid, with the published source it comes from.
+
+In English and Russian: choose the language in the menu, or let the app follow the phone.
 
 <b>Computed on the phone</b>
 Everything is calculated on the device for any date from 1900 to 2100: Tibetan dates with Svante Janson's published arithmetic, new moons and solar terms with Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.

@@ -293,7 +293,7 @@ private fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: Ti
             gloss(signs.year.element, "inText"),
             gloss(signs.month.element, "inText"),
         ),
-        labels.string(R.string.detail_its_day, force.english) to gloss(sign.forces[force]),
+        labels.string(R.string.detail_its_day, force.english).replaceFirstChar(Char::uppercase) to gloss(sign.forces[force]),
         labels.string(R.string.detail_yours) to labels.string(R.string.detail_yours_value, gloss(birth.forces[force]), name(birth)),
         labels.string(R.string.detail_relation) to "${c.kinship.english} · $p",
     )
@@ -369,7 +369,7 @@ fun FactRow(label: String, term: String, english: String, tibetan: Boolean = tru
         Text(
             label,
             style = body.copy(fontSize = 14.sp, color = Palette.muted),
-            modifier = Modifier.width(120.dp).let { if (tibetan) it.alignByBaseline() else it },
+            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (tibetan) it.alignByBaseline() else it },
         )
         if (swatch != null) {
             Spacer(
