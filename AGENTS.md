@@ -12,10 +12,11 @@ in step with the code.
 | `core/` | Pure Kotlin/JVM engines: `tibetan/` (Janson's arithmetic), `kyureki/` (Tenpō rules), `astro/` (Meeus, VSOP87, ΔT), `rational/`, `time/`. No Android, no dependencies. |
 | `core/src/test/resources/vectors/` | Test vectors, tab-separated, source cited in each header. Third-party tables: gitignored, kept only locally; tests that need a missing file are skipped (`vectors()` in `Vectors.kt`). |
 | `cli/` | Desktop tool to print a day, a kyūreki sui or a Tibetan year. |
-| `app/` | Compose UI. Package `zanshin.app`, application id `io.github.iverlein.zanshin`. |
+| `core/src/main/resources/texts/` | The catalog: English names of the terms, reading summaries and list wordings, one `texts_<language>.properties` per translation (SPEC §8.2). |
+| `app/` | Compose UI. Package `zanshin.app`, application id and `R` namespace `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`. |
 | `fastlane/metadata/android/en-US/` | F-Droid store listing: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
 | `docs/fdroid/` | The recipe proposed to fdroiddata (SPEC §12). |
-| `tools/` | Python generators: VSOP87 table, city list, font subset, Henning vector extraction. Their outputs are committed. |
+| `tools/` | Python generators: VSOP87 table, city list, font subset, Henning and Gyurme Dorje vector extraction. Their outputs are committed, except the vectors. |
 
 ## Commands
 
@@ -36,8 +37,9 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
 - **No `INTERNET` permission, ever** (SPEC §2). Check the merged manifest after
   adding a library: `aapt2 dump permissions app/build/outputs/apk/debug/app-debug.apk`.
 - **No text without a published source** (SPEC §8). Readings live in
-  `core/.../texts/Texts.kt`, each with a `Source` and `License`; `TextsTest`
-  fails if an annotation lacks one. Never write a reading from memory, and never
+  `core/.../texts/Texts.kt`, each with a `Source` and `License`, their text in
+  `core/src/main/resources/texts/texts.properties`; `TextsTest` fails if an
+  annotation lacks a source, `CatalogTest` if a text lacks its catalog entry. Never write a reading from memory, and never
   copy copyrighted wording: state its facts in your own English (F-Droid needs
   every asset licensed).
 - **Every Tibetan term and kanji must show its English on tap** (`GlossText`),

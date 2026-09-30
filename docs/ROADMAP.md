@@ -20,12 +20,11 @@ with the one that gives it a use. "Later" is not ranked.
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
 | 1 | T3 Element colours, personal mansions | S | A colour per element and a table per animal, once each has what it needs | A place for the element colour; a source for the mansions |
-| 2 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L1; L3, which brings the switch |
-| 3 | L1 Text out of the code | L | Mechanical but touches every screen: UI strings, every reading and every enum gloss into catalogs, locale-aware dates, a completeness test | — |
-| 4 | L3 Russian, with the L2 switch | L | Every key and reading translated and checked against the original sources, the store listing, and a full read-through on the phone. The switch itself is small (`locales_config.xml` and a start-up wrapper for Android 8–12) but has nothing to offer before a translation exists, so it ships with this one | L1 |
-| 5 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
-| 6 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
-| 7 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 2 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L3, which brings the switch |
+| 3 | L3 Russian, with the L2 switch | L | Every key and reading translated and checked against the original sources, the store listing, and a full read-through on the phone. The switch itself is small (`locales_config.xml` and a start-up wrapper for Android 8–12) but has nothing to offer before a translation exists, so it ships with this one | — |
+| 4 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
+| 5 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
+| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 
 ## 1.1 — 旧暦 page
 
@@ -162,22 +161,9 @@ project; then Japanese; then German, French, Spanish, Portuguese and
 Chinese (Simplified and Traditional, served separately), all through Hosted
 Weblate.
 
-### L1. Text out of the code
-
-Prerequisite for everything below, and best done before 1.1 adds more text.
-Nothing on screen changes.
-
-- UI text (section titles, "begins today", `Labels`) moves from Kotlin into
-  `res/values/strings.xml`.
-- `core/` is plain JVM, so its readings (`Texts.kt`) and the English glosses
-  on the engine enums (`Choku.english` and the like) move into a catalog per
-  language under `core/src/main/resources/`, keyed by enum name. A test fails
-  when a language lacks a key the English catalog has, and every translated
-  reading keeps its `Source`.
-- Dates, month ordinals and numbers go through locale-aware formatters
-  instead of hand-built strings ("Tue 29 Sep 2026", "8th month").
-- Tibetan and Japanese terms, Wylie, phonetics and romaji are not
-  translated; only glosses, readings and UI text are.
+The text is out of the code: interface text in `strings.xml`, the engines'
+and readings' text in the catalog, dates and ordinals by the app's language
+(SPEC §8.2, §10.1). A language is added as files, not code.
 
 ### L2. Language switch
 
@@ -193,8 +179,10 @@ Built together with L3: with English alone there is nothing to switch to.
 
 ### L3. Russian, by the project
 
-- `values-ru/strings.xml`, the Russian catalog and a store listing in
-  `fastlane/metadata/android/ru-RU/`.
+- `values-ru/strings.xml` (with `locale_tag` = ru and Russian date
+  patterns), `texts_ru.properties` and a store listing in
+  `fastlane/metadata/android/ru-RU/`. ICU writes Russian ordinals as bare
+  numbers, so the `month` pattern carries the ending ("%1$s-й месяц").
 - Readings are translated from the English summaries, then checked against
   the original source, since an error in an "avoid" list misleads.
 - Established Russian terminology where a source gives one: Study Buddhism
@@ -202,7 +190,7 @@ Built together with L3: with English alone there is nothing to switch to.
 - Licences: the MPL-2.0 summaries translate freely; wording adapted from
   Japanese Wikipedia stays CC BY-SA 4.0 in translation, with its
   attribution. The reading sheet adds "translation of the English summary".
-- Done when every key is translated, `TextsTest` passes for `ru`, and the
+- Done when every key is translated, `CatalogTest` passes for `ru`, and the
   owner has read the app in Russian on the phone.
 
 ### L4. Hosted Weblate

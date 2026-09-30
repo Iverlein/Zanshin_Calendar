@@ -389,18 +389,31 @@ app containing one with the *Non-Free Assets* anti-feature.
 
 ### 8.2 Catalog
 
-`core/.../texts/Texts.kt` holds every reading as Kotlin data: a `Reading` with
-summary, "good for" and "avoid" lists, a `Source` (title, publisher, URL) and a
-`License`, and optionally further sources (`also`) for parts of the summary
-under the same licence. Names and English glosses of the terms live with the
-enums that compute them.
+`core/.../texts/Texts.kt` holds every reading's structure as Kotlin data: a
+`Reading` with the keys of its "good for" and "avoid" wordings, a `Source`
+(title, publisher, URL) and a `License`, and optionally further sources
+(`also`) for parts of the summary under the same licence.
+
+The text itself is in a catalog per language, `core/src/main/resources/texts/`:
+`texts.properties` is English, the source language, and a translation is
+`texts_<language>.properties` (`_ru`, `_zh_Hant`), UTF-8, read by `Catalog.kt`.
+Keys: `<Enum>.<NAME>` for the English name of a term (`Choku.TATSU`), with
+`.<field>` for a second one (`Weekday.SUNDAY.planet`, `Element.FIRE.inText`
+for running text); `reading.<Enum>.<NAME>` for a reading's summary;
+`wording.<key>` for each wording of the lists. Readings that share a sentence
+keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
+`reading.Haircut`). A key a translation lacks falls back to English, and
+`CatalogTest` fails when a translation's keys or placeholders differ from the
+English. Tibetan and Japanese terms, Wylie, phonetics, romaji and the sources'
+titles are not in the catalog: they are not translated. The catalog follows the
+language the app's own resources resolved to (§10.1), not the phone's.
 
 The "good for" and "avoid" lists keep the source's wording. `Activities.kt`
-maps every wording to the act it names (`Activity`: "weddings", "marriage" and
-"taking a bride" are one act), so annotations can be compared; only wordings
-that name the same act share an entry, and the rokuyō's hours ("the morning",
-"noon") map to a `DayTime` instead. A test fails on a wording with no entry and
-on an entry no wording uses.
+maps every wording key to the act it names (`Activity`: "weddings", "marriage"
+and "taking a bride" are one act), so annotations can be compared in any
+language; only wordings that name the same act share an entry, and the
+rokuyō's hours ("the morning", "noon") map to a `DayTime` instead. A test
+fails on a wording with no entry and on an entry no wording uses.
 
 ### 8.3 Sources in use
 
@@ -467,6 +480,14 @@ canvas "Zanshin Calendar — basic design".
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
   mark; tapping one opens a sheet with its reading, "good for" and "avoid",
   source and licence.
+- **Text out of the code.** Interface text is in `res/values/strings.xml`, the
+  engines' and readings' text in the catalog (§8.2). Dates, ordinals and
+  numbers follow the language the app's resources resolved to, named by the
+  `locale_tag` string: date formats are translatable `DateTimeFormatter`
+  patterns (`pattern_header_date`: "EEE d MMM yyyy"), ordinals come from ICU
+  ("8th month"). A phone set to a language the app lacks shows English
+  throughout, dates included. Coordinates stay in the international form
+  (35.02°N 135.75°E), and a saved place keeps the label it was saved with.
 
 ### 10.2 Day screen, common to both calendars
 
