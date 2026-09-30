@@ -67,6 +67,64 @@ class ForcesTest {
         }
     }
 
+    /** Table 2.5 of the same edition (p. 91): the destiny element of each month by the year's. */
+    @Test
+    fun `month elements match the table`() {
+        val animals = listOf(Animal.TIGER, Animal.RABBIT, Animal.DRAGON, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY, Animal.BIRD, Animal.DOG, Animal.PIG, Animal.MOUSE, Animal.OX)
+        val table = mapOf(
+            Element.WOOD to "fire fire earth earth iron iron water water wood wood fire fire",
+            Element.FIRE to "earth earth iron iron water water wood wood fire fire earth earth",
+            Element.EARTH to "iron iron water water wood wood fire fire earth earth iron iron",
+            Element.IRON to "water water wood wood fire fire earth earth iron iron water water",
+            Element.WATER to "wood wood fire fire earth earth iron iron water water wood wood",
+        )
+        for ((year, row) in table) {
+            row.split(' ').forEachIndexed { i, e -> assertEquals(element(e), Forces.monthElement(year, animals[i]), "$year ${animals[i]}") }
+        }
+    }
+
+    /**
+     * Chart 8.1 (p. 296; White Beryl ff. 295b–299a): a subject born in a fire
+     * dragon year, on the 15th of the 3rd month of an earth tiger year. The 3rd
+     * month is a wood horse month, the 15th a wood dragon day; the chart sets
+     * the subject's vitality and body against theirs.
+     */
+    @Test
+    fun `month and day signs and pebbles match the health chart`() {
+        val month = Sign(Forces.monthElement(Element.EARTH, Animal.HORSE), Animal.HORSE)
+        assertEquals(Sign(Element.WOOD, Animal.HORSE), month)
+        val day = Sign(Forces.dateElement(month.element, 15), Animal.DRAGON)
+        assertEquals(Sign(Element.WOOD, Animal.DRAGON), day)
+        val subject = Forces.of(Element.FIRE, Animal.DRAGON)
+        fun marks(own: Element, other: Element) = Forces.pebbles(Forces.kinship(own, other), own).let { "0".repeat(it.white) + "X".repeat(it.black) }
+        assertEquals("000", marks(subject.vitality, month.forces.vitality))
+        assertEquals("0X", marks(subject.body, month.forces.body))
+        assertEquals("0", marks(subject.vitality, day.forces.vitality))
+        assertEquals("000", marks(subject.body, day.forces.body))
+        // The hour, earth bird: vitality iron (0X), body earth (0).
+        val hour = Forces.of(Element.EARTH, Animal.BIRD)
+        assertEquals("0X", marks(subject.vitality, hour.vitality))
+        assertEquals("0", marks(subject.body, hour.body))
+    }
+
+    @Test
+    fun `lunar dates run through the elements from the son of the month's`() {
+        // In a fire month the 1st is earth, the 2nd iron (p. 90).
+        assertEquals(Element.EARTH, Forces.dateElement(Element.FIRE, 1))
+        assertEquals(Element.IRON, Forces.dateElement(Element.FIRE, 2))
+        assertEquals(Element.FIRE, Forces.dateElement(Element.FIRE, 5))
+        assertEquals(Element.EARTH, Forces.dateElement(Element.FIRE, 6))
+    }
+
+    /** The app's month animal and lunar-date animal give chart 8.1's signs for the day it describes. */
+    @Test
+    fun `signs of a calendar day`() {
+        // 1998 was an earth tiger year; its 3rd month's 15th fell in spring 1998.
+        val day = (0L..200L).map { TibetanCalendar.of(java.time.LocalDate.of(1998, 3, 1).plusDays(it)) }
+            .first { it.month == 3 && !it.leapMonth && it.day == 15 }
+        assertEquals(DaySigns(Sign(Element.EARTH, Animal.TIGER), Sign(Element.WOOD, Animal.HORSE), Sign(Element.WOOD, Animal.DRAGON)), Forces.signs(day))
+    }
+
     @Test
     fun `kinship is what the other element is to one's own`() {
         // For a wood person: water years are mother years, fire son, earth friend, iron enemy (p. 64).

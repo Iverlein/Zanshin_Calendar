@@ -61,11 +61,19 @@ data class Pebbles(val white: Int, val black: Int) {
     override fun toString(): String = "○".repeat(white) + "×".repeat(black)
 }
 
-/** One aspect of the birth year against the same aspect of the present year. */
-data class ForceContrast(val force: Force, val own: Element, val year: Element) {
-    val kinship: Kinship get() = Forces.kinship(own, year)
+/** One aspect of the birth year against the same aspect of a year, month or day. */
+data class ForceContrast(val force: Force, val own: Element, val other: Element) {
+    val kinship: Kinship get() = Forces.kinship(own, other)
     val pebbles: Pebbles get() = Forces.pebbles(kinship, own)
 }
+
+/** An element with an animal: the sign of a year, a month or a lunar date. */
+data class Sign(val element: Element, val animal: Animal) {
+    val forces: YearForces get() = Forces.of(element, animal)
+}
+
+/** The signs the elemental divination reads for one day: its year, its month and its lunar date. */
+data class DaySigns(val year: Sign, val month: Sign, val date: Sign)
 
 object Forces {
     /**
@@ -127,4 +135,39 @@ object Forces {
     /** Each aspect of the birth year against the same aspect of the present year. */
     fun contrast(birth: YearForces, year: YearForces): List<ForceContrast> =
         Force.entries.map { ForceContrast(it, birth[it], year[it]) }
+
+    /**
+     * The destiny element of a month, by its animal, from the year's destiny
+     * element: tiger, hare, mouse and ox months are its son; dragon and snake
+     * its friend; horse and sheep its enemy; monkey and bird its mother; dog
+     * and pig the same element (Gyurme Dorje, p. 90 and Table 2.5).
+     */
+    fun monthElement(yearElement: Element, monthAnimal: Animal): Element = when (monthAnimal) {
+        Animal.TIGER, Animal.RABBIT, Animal.MOUSE, Animal.OX -> yearElement.feeds
+        Animal.DRAGON, Animal.SNAKE -> yearElement.overcomes
+        Animal.HORSE, Animal.SHEEP -> Element.entries.first { it.overcomes == yearElement }
+        Animal.MONKEY, Animal.BIRD -> Element.entries.first { it.feeds == yearElement }
+        Animal.DOG, Animal.PIG -> yearElement
+    }
+
+    /**
+     * The destiny element of lunar date [date]: the dates run through the
+     * elements from the son of the month's, so the 1st and 6th are its son,
+     * the 5th and 10th the month's own element (p. 90). A doubled date repeats
+     * the element, a skipped one is passed over.
+     */
+    fun dateElement(monthElement: Element, date: Int): Element = Element.entries[(monthElement.ordinal + date) % 5]
+
+    /**
+     * The year, month and lunar-date signs of [day]. The month's animal is its
+     * Phugpa one (the 3rd month a horse, as in the book's chart 8.1); the
+     * date's animal runs from the tiger in male months and the monkey in
+     * female ones, which is [TibetanDay.lunarDayAnimal].
+     */
+    fun signs(day: TibetanDay): DaySigns {
+        val year = Sign(day.yearElement, day.yearAnimal)
+        val monthAnimal = day.monthNames.animal
+        val month = Sign(monthElement(day.yearElement, monthAnimal), monthAnimal)
+        return DaySigns(year, month, Sign(dateElement(month.element, day.day), day.lunarDayAnimal))
+    }
 }

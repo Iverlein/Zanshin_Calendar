@@ -92,8 +92,8 @@ object Sources {
     )
     val RABTEN = Source("Tibetan Calendar 2026, Fire-Horse Year 2153", "Edition Rabten", "https://www.rabten.eu/downloads/calendarEN.pdf")
     val WHITE_BERYL_PEBBLES = Source(
-        "Vaiḍūrya dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, ff. 248b–254a, with Lo chen Dharmaśrī's " +
-            "Moonbeams, f. 28a/b; the four aspects ff. 156a/b, 158a",
+        "Vaiḍūrya dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, ff. 248b–254a and 295b–299a, with Lo chen " +
+            "Dharmaśrī's Moonbeams, ff. 28a/b and 31b–32a; the four aspects ff. 156a/b, 158a",
         "BDRC W1KG12714",
         "https://library.bdrc.io/show/bdr:MW1KG12714",
     )
@@ -297,9 +297,10 @@ object Texts {
     )
 
     /**
-     * The yearly pebble reading: one aspect of the birth year against the same
-     * aspect of the present year. The ranking and the predictions for the
-     * vitality pebbles follow the White Beryl's chapter on obstacle years.
+     * The pebble readings: one aspect of the birth year against the same aspect
+     * of the lunar date, the month or the year. The ranking and the predictions
+     * for the vitality pebbles follow the White Beryl's chapter on obstacle
+     * years; the day and month contrasts its divination of health.
      */
     val PEBBLES: Map<Kinship, Reading> = Kinship.entries.associateWith {
         Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES)
