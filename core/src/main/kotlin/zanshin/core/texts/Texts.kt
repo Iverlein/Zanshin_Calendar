@@ -104,6 +104,7 @@ object Sources {
     )
     val HENNING_SYMBOLS = Source("Symbolic details of the Kālacakra calendar", "Edward Henning", "http://www.kalacakra.org/calendar/symlst.htm")
     val HENNING_ARCHIVE = Source("Phugpa Tibetan calendar list", "Edward Henning", "http://www.kalacakra.org/calendar/tiblist.htm")
+    val BERZIN_ASTROLOGY_1 = Source("Details of Tibetan Astrology 1: Philosophical Context and Horoscopes", "Alexander Berzin, Study Buddhism", "https://studybuddhism.com/en/advanced-studies/history-culture/tibetan-astrology/details-of-tibetan-astrology-1-philosophical-context-and-horoscopes")
     val HENNING_ELECTIONAL = Source("Horary and electional astrology of the five components", "Edward Henning", "http://www.kalacakra.org/calendar/tibast03.htm")
     val LOTSAWA_TENTH = Source(
         "A Prayer Invoking the Benefits of the Festival of the Tenth Day, by Rigdzin Jigme Lingpa, tr. Rigpa Translations, 2013",
@@ -340,6 +341,6 @@ object Texts {
      * years; the day and month contrasts its divination of health.
      */
     val PEBBLES: Map<Kinship, Reading> = Kinship.entries.associateWith {
-        Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES)
+        Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES, also = listOf(Sources.BERZIN_ASTROLOGY_1))
     }
 }

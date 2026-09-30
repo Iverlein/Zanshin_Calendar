@@ -101,10 +101,40 @@ class ForcesTest {
         assertEquals("0X", marks(subject.body, month.forces.body))
         assertEquals("0", marks(subject.vitality, day.forces.vitality))
         assertEquals("000", marks(subject.body, day.forces.body))
-        // The hour, earth bird: vitality iron (0X), body earth (0).
-        val hour = Forces.of(Element.EARTH, Animal.BIRD)
-        assertEquals("0X", marks(subject.vitality, hour.vitality))
-        assertEquals("0", marks(subject.body, hour.body))
+        // The hour, earth bird: vitality iron (0X), body earth (0). The bird hour of a wood day is its friend, earth.
+        val hour = Forces.hours(day).single { it.sign.animal == Animal.BIRD }
+        assertEquals(Sign(Element.EARTH, Animal.BIRD), hour.sign)
+        assertEquals(17 * 60, hour.startMinute)
+        assertEquals("0X", marks(subject.vitality, hour.sign.forces.vitality))
+        assertEquals("0", marks(subject.body, hour.sign.forces.body))
+    }
+
+    /** Table 2.7 (p. 91): the hours' destiny elements for each daily one, and the hours' order and clock times. */
+    @Test
+    fun `hour elements follow the day's by the hour's animal`() {
+        // "The first two-hour period, known as daybreak or the hour of the hare, will have the destiny element
+        // wood if the destiny element of the day is water."
+        assertEquals(Element.WOOD, Forces.hourElement(Element.WATER, Animal.RABBIT))
+        // The table's first rows, for a wood day: hare fire, dragon earth, snake iron.
+        val wood = Forces.hours(Sign(Element.WOOD, Animal.DRAGON))
+        assertEquals(listOf(Element.FIRE, Element.EARTH, Element.IRON), wood.take(3).map { it.sign.element })
+        assertEquals(Animal.RABBIT, wood.first().sign.animal)
+        assertEquals(5 * 60, wood.first().startMinute)
+        assertEquals(Animal.MOUSE, wood[9].sign.animal)
+        assertEquals(23 * 60, wood[9].startMinute)
+        assertEquals(Animal.TIGER, wood.last().sign.animal)
+        assertEquals(3 * 60, wood.last().startMinute)
+        // Every element's hours: the rule of p. 90, cell by cell of Table 2.7.
+        val table = mapOf(
+            Element.WOOD to "fire earth iron water wood fire earth iron water wood fire earth",
+            Element.FIRE to "earth iron water wood fire earth iron water wood fire earth iron",
+            Element.EARTH to "iron water wood fire earth iron water wood fire earth iron water",
+            Element.IRON to "water wood fire earth iron water wood fire earth iron water wood",
+            Element.WATER to "wood fire earth iron water wood fire earth iron water wood fire",
+        )
+        for ((day, row) in table) {
+            assertEquals(row, Forces.hours(Sign(day, Animal.DRAGON)).joinToString(" ") { it.sign.element.name.lowercase() }, "$day")
+        }
     }
 
     @Test

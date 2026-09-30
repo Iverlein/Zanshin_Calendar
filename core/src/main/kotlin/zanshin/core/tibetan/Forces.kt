@@ -75,6 +75,13 @@ data class Sign(val element: Element, val animal: Animal) {
 /** The signs the elemental divination reads for one day: its year, its month and its lunar date. */
 data class DaySigns(val year: Sign, val month: Sign, val date: Sign)
 
+/**
+ * One of the twelve two-hour periods of a Tibetan day: its sign, and when it
+ * starts in clock time, minutes after midnight (the mouse hour's 23:00 is
+ * 1380); it lasts 120 minutes.
+ */
+data class HourSign(val sign: Sign, val startMinute: Int)
+
 object Forces {
     /**
      * The four aspects of the year of [element] and [animal]. Vitality is the
@@ -157,6 +164,34 @@ object Forces {
      * the element, a skipped one is passed over.
      */
     fun dateElement(monthElement: Element, date: Int): Element = Element.entries[(monthElement.ordinal + date) % 5]
+
+    /** The animals of the day's two-hour periods, from daybreak: the hare hour first, the tiger hour last. */
+    val HOUR_ANIMALS: List<Animal> = List(12) { Animal.entries[(Animal.RABBIT.ordinal + it) % 12] }
+
+    /**
+     * An hour's destiny element from the lunar date's, by the hour's animal
+     * (White Beryl; Gyurme Dorje p. 90, Table 2.7): hare, monkey and ox hours
+     * take its son; dragon, bird and tiger its friend; snake and dog its enemy;
+     * horse and pig its mother; sheep and mouse the same element.
+     */
+    fun hourElement(dateElement: Element, hourAnimal: Animal): Element = when (hourAnimal) {
+        Animal.RABBIT, Animal.MONKEY, Animal.OX -> dateElement.feeds
+        Animal.DRAGON, Animal.BIRD, Animal.TIGER -> dateElement.overcomes
+        Animal.SNAKE, Animal.DOG -> Element.entries.first { it.overcomes == dateElement }
+        Animal.HORSE, Animal.PIG -> Element.entries.first { it.feeds == dateElement }
+        Animal.SHEEP, Animal.MOUSE -> dateElement
+    }
+
+    /**
+     * The twelve hours of the day whose lunar date is [date], from the hare hour
+     * at 05:00 clock time to the tiger hour ending at 05:00 the next morning:
+     * "the first astrological period of the day begins at dawn … standardly
+     * taken as from 5 to 7 o'clock wristwatch-time" (Berzin, Details of Tibetan
+     * Astrology 1).
+     */
+    fun hours(date: Sign): List<HourSign> = HOUR_ANIMALS.mapIndexed { i, animal ->
+        HourSign(Sign(hourElement(date.element, animal), animal), (5 * 60 + i * 120) % (24 * 60))
+    }
 
     /**
      * The year, month and lunar-date signs of [day]. The month's animal is its
