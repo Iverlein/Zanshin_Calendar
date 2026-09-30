@@ -47,7 +47,9 @@ import zanshin.app.LocalLabels
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
+import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
+import zanshin.core.texts.toneOf
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.Force
@@ -73,6 +75,8 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
     val accent = Palette.saffron
     var balloon by remember(day.jd) { mutableStateOf<TibetanBalloon?>(null) }
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
+    var summaryOpen by remember(day.jd) { mutableStateOf(false) }
+    val summary = remember(day.jd, labels.locale) { DaySummary.of(day) }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }
@@ -182,6 +186,8 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
             )
         }
 
+        BriefRow(summary) { summaryOpen = true }
+
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
         // Readings, each opening its sourced text.
@@ -189,6 +195,7 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
         val forBirthYear = stringResource(R.string.tib_for_birth_year)
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
+        val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
         val annotations = buildList {
             holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
@@ -203,6 +210,17 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     if (pair.auspicious) Tone.GOOD else Tone.BAD,
                     Texts.ELEMENT_PAIR[pair],
                     subtitle = pairSubtitle,
+                    titleIsKanji = false,
+                ),
+            )
+            val mansionReading = Texts.MANSION.getValue(day.mansion)
+            add(
+                Annotation(
+                    day.mansion.sanskrit,
+                    day.mansion.english,
+                    toneOf(mansionReading),
+                    mansionReading,
+                    subtitle = mansionSubtitle,
                     titleIsKanji = false,
                 ),
             )
@@ -248,6 +266,7 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
     }
 
     sheet?.let { ReadingSheet(it) { sheet = null } }
+    if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
 }
 
 /**

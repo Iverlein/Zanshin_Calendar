@@ -152,22 +152,7 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             }
         }
 
-        val briefLabel = stringResource(R.string.kyu_day_in_brief)
-        Row(
-            Modifier.fillMaxWidth().heightIn(min = 44.dp).clickable(role = Role.Button, onClickLabel = briefLabel) { summaryOpen = true },
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-        ) {
-            val disputed = summary.activities.count { it.disputed }
-            Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
-            Text(
-                stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
-                    if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "",
-                style = body.copy(fontSize = 14.sp, color = Palette.muted),
-                modifier = Modifier.weight(1f),
-            )
-            Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp))
-        }
+        BriefRow(summary) { summaryOpen = true }
 
         Row(
             modifier = Modifier
