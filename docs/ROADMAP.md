@@ -19,8 +19,8 @@ with the one that gives it a use. "Later" is not ranked.
 
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
-| 1 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L1; L3, which brings the switch |
-| 2 | T3 Tibetan pebbles, element colours, personal mansions | M | The five forces and the pebble scheme are sourced; the yearly reading is a small engine with a 60-year vector, the pebbles are drawing | Two checks on the pebble scheme; a source for the mansions; a place for the element colour |
+| 1 | T3 Element colours, personal mansions | S | A colour per element and a table per animal, once each has what it needs | A place for the element colour; a source for the mansions |
+| 2 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L1; L3, which brings the switch |
 | 3 | L1 Text out of the code | L | Mechanical but touches every screen: UI strings, every reading and every enum gloss into catalogs, locale-aware dates, a completeness test | — |
 | 4 | L3 Russian, with the L2 switch | L | Every key and reading translated and checked against the original sources, the store listing, and a full read-through on the phone. The switch itself is small (`locales_config.xml` and a start-up wrapper for Android 8–12) but has nothing to offer before a translation exists, so it ships with this one | L1 |
 | 5 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
@@ -106,56 +106,12 @@ the same `Activity` entries as the 旧暦 readings (SPEC §8.2).
 - Yogas, karaṇas, lunar days: a source is still needed for each.
 - Copyrighted sources, so own English summaries (SPEC §8).
 
-### T3. Pebbles, element colours and personal mansions
+### T3. Element colours and personal mansions
 
-The sme ba already shows in the colour of its box (SPEC §10.3). What is left
-waits on sources or on design:
+The sme ba shows in the colour of its box (SPEC §10.3), and the four aspects
+of the year with the yearly pebbles are built (SPEC §5.9). What is left
+waits on a source or on design:
 
-- **Pebbles (○ / ×).** Berzin, *Details of Tibetan Astrology 3*, describes
-  them for five pebble-elements (life-force, body, power, valley-of-fortune,
-  life-spirit) that each element-animal year carries: the birth year's are
-  compared with a transiting year's, and each relation (mother, child,
-  friend, enemy, same) gets one to three white or black pebbles. It is a
-  yearly reading, not one of the day's element; it sits better with T4.
-  - *Which pebbles:* found. Gyurme Dorje, *Tibetan Elemental Divination
-    Paintings* (London: John Eskenazi, 2001), glossary, as quoted on the
-    Rangjung Yeshe wiki ("Thirty Chinese and Tibetan Computational Charts"):
-    mother three white, friend two white, same element one white for water
-    or earth and one black for fire, iron or wood, child one white and one
-    black, enemy two black.
-  - *The five forces of each year:* found. The source is the *White Beryl*
-    (Sde srid Sangs rgyas rgya mtsho; f. 156a/b, f. 158a) with Lo-chen
-    Dharmaśrī's *Moonbeams* (ff. 5b–6b), as edited by Gyurme Dorje 2001
-    (read in the copy on archive.org). The *White Beryl* itself is on BDRC
-    (W1KG12714, vol. 1, about pp. 297–335), but its OCR is too noisy to take
-    a table from.
-    - srog (vitality): the element of the animal's direction — tiger, hare
-      wood; snake, horse fire; monkey, bird iron; mouse, pig water; ox,
-      dragon, sheep, dog earth.
-    - dbang thang (destiny): the element of the year.
-    - klung rta (luck): tiger, horse, dog iron; mouse, dragon, monkey wood;
-      bird, ox, snake water; pig, sheep, hare fire; never earth.
-    - bla (spirit): the element that feeds srog.
-    - lus (body): a key element by animal — water for tiger, hare, bird,
-      monkey; wood for ox, sheep, horse, mouse; iron for dog, dragon, pig,
-      snake — then from the relation of the year's element to the key:
-      same iron, feeds it wood, fed by it water, overcomes it earth,
-      overcome by it fire. Each male–female pair of years shares one; the
-      result equals the 納音 of the year (wood mouse = 甲子), a second
-      tradition to test against.
-    - Gyurme Dorje's sixty-year charts (pp. 70–87) give all four per year.
-      Extracted from the OCR 2026-09-29: 57 of 60 years (44, 47 and 57
-      lost); srog and klung rta match the rules in all 57, lus in 56 (year
-      21 is an extraction slip, its pair gives water). The vector is to be
-      rebuilt from those charts, gitignored like the other third-party
-      tables.
-    - Still to check before building: the book's main-text statement of the
-      pebble scheme, for a *White Beryl* folio; and the direction of each
-      relation (Berzin: the transiting year's element against the natal
-      one).
-    - tibastro.be and errarium.com state similar rules but disagree in
-      detail (tibastro.be lists Dragon under two klung rta elements); they
-      are not sources.
 - **Element colours:** wood green, fire red, earth yellow, iron white, water
   black or blue (Berzin 3). The day's element appears only inside the day
   line, so it first needs a place of its own on the page.

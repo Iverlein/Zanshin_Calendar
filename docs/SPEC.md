@@ -38,7 +38,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 
 | In v1 | Later |
 | --- | --- |
-| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days | Tsurphu version; Rishi-star bathing week |
+| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the yearly pebbles (§5.9) | Tsurphu version; Rishi-star bathing week |
 | Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食; 七十二候 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | Moon rise and set |
 | Screen with date navigation, home-screen widget, location setting | Notifications |
@@ -225,6 +225,38 @@ day by day against Henning's computed calendars (§9):
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
 
+### 5.9 Four aspects of the year and the yearly pebbles
+
+Each year of the sexagenary cycle has four elemental aspects (White Beryl
+f. 156a/b, f. 158a; Moonbeams ff. 5b–6b), in `Forces.kt`:
+
+| Aspect | Rule |
+| --- | --- |
+| Vitality (srog) | the element of the animal's direction: tiger, hare wood; snake, horse fire; monkey, bird iron; mouse, pig water; ox, dragon, sheep, dog earth |
+| Body (lus) | from a key element by animal (water for tiger, hare, bird, monkey; wood for ox, sheep, horse, mouse; iron for dog, dragon, pig, snake): the year's element the same as the key gives iron, feeding it wood, fed by it water, overcoming it earth, overcome by it fire |
+| Destiny (dbang thang) | the element of the year |
+| Luck (klung rta) | tiger, horse, dog iron; mouse, dragon, monkey wood; bird, ox, snake water; pig, sheep, hare fire |
+
+The yearly reading sets each aspect of the birth year against the same
+aspect of the present Tibetan year and names what the year's element is to
+the person's: mother (it feeds yours), friend (yours overcomes it),
+identity, son (yours feeds it), enemy (it overcomes yours). Pebbles: mother
+three white, friend two white, identity one white for earth or water and one
+black for wood, fire or iron, son one white and one black, enemy two black
+(White Beryl ff. 248b–249a; Moonbeams f. 28a/b). The app shows them as the
+schematic charts write them, ○ for white and × for black. Only this part of
+the divination of obstacle years is calculated: the log-men year, trigram,
+numeric square, sectors of growth and decline and the hour add pebbles of
+their own, not shown. The life-spirit (bla, the element that feeds the
+vitality) is not one of the four aspects the charts compare, so it is not
+shown.
+
+The rules and the direction were read in Gyurme Dorje's edition, *Tibetan
+Elemental Divination Paintings* (2001), used as a reading copy: pp. 64, 68
+and chart 6.2 (p. 228), which also gives every cell of a subject born in a
+fire dragon year read in an earth tiger year (§9). The app cites the White
+Beryl and the Moonbeams.
+
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
 
@@ -379,6 +411,7 @@ on an entry no wording uses.
 | 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
+| Four aspects of the year, yearly pebbles | The White Beryl (ff. 156a/b, 158a, 248b–254a) with Lo chen Dharmaśrī's *Moonbeams* (ff. 5b–6b, 28a/b), read in Gyurme Dorje's edition (2001) |
 | Tibetan pronunciation | THL Simplified Phonetic Transcription of Standard Tibetan, Germano and Tournadre, 2003 (thlib.org; archived by the Wayback Machine at `thlib.org/global/php/essay_reader.php?url=/thl/phonetics/s/b1`–`b12`) |
 | Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
@@ -408,6 +441,8 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | `naoj-2026-2027.tsv` | Solar terms, new moons and 雑節 with JST times, 2026–2027 | NAOJ 暦要項 |
 | `koyomi8-2026-2027.tsv` | Every day of 2026–2027: 干支, 十二直, 二十八宿, 旧暦 date, 六曜, 九星, 選日 | こよみのページ (koyomi8.com), an independent computation |
 | `crosscheck-new-moons.tsv`, `crosscheck-solar-terms.tsv` | New moons and 15° solar terms 1900–2100, UTC | Computed with PyEphem 4.2.1 — a cross-check, not a published table. Worst differences: 34 s and 36 s |
+| `gyurme-dorje-forces.tsv` | Vitality, body, destiny and luck of all 60 years, and the relationship of destiny to vitality (kha-yan, khong-nong, …) | Gyurme Dorje (2001), charts to Plates 3–8, pp. 70–85, extracted from the archive.org OCR by `tools/extract_gyurme_dorje.py`. One body and three relationship rows are lost in the OCR; year 57 prints destiny wood where its own relationship row and every other year give the year's element, iron |
+| *(in `ForcesTest`)* | Chart 6.2: the four aspects of a fire dragon, an earth tiger and an iron mouse year, and all 20 elemental cells of the obstacle-year chart | Gyurme Dorje (2001), p. 228 |
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
 
 ## 10. User interface
@@ -484,6 +519,14 @@ canvas "Zanshin Calendar — basic design".
   yongs bsnun, mchog can, yongs 'joms) are not in the OCR and remain as the
   sources give them. The font is Noto Serif Tibetan (OFL), one weight,
   subset to the Tibetan block with its shaping features.
+- **Year balloon** also lists the year's four aspects: vitality, body,
+  destiny and luck with their elements (§5.9).
+- **Your year:** with a birth date set, a section after the almanac sets
+  each aspect of the birth year against the present year's, one row per
+  aspect: its pebbles, the relation and both elements ("Vitality ××, enemy:
+  the year's wood to your earth"). Each row opens the relation's reading;
+  the tone dot is lucky for white pebbles only, unlucky for black only,
+  mixed for both.
 - **Sme ba in its colour:** the lunar day's number carries a swatch of the
   colour its box is printed in (Berzin, *Details of Tibetan Astrology 4*). No
   whole day is coloured.
@@ -547,7 +590,7 @@ canvas "Zanshin Calendar — basic design".
     (§2).
 - The location drives the local sky line only; neither calendar depends on it.
 - **Birth date**, optional and stored on the device: enables the personal days
-  (Tibetan luck/life/anti, Japanese 三箇の悪日).
+  (Tibetan luck/life/anti, Japanese 三箇の悪日) and the Tibetan yearly pebbles.
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on without a birth date asks for one; cancelling leaves
   it off.
