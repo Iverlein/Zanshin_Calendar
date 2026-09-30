@@ -46,6 +46,8 @@
     <string name="row_season">Season</string>
     <!-- the animal named in the month, e.g. "Dragon month" -->
     <string name="tib_animal_month">%1$s month</string>
+    <!-- an element and an animal as one name: "Iron Horse" -->
+    <string name="element_animal">%1$s %2$s</string>
     <!-- element and animal, e.g. "Fire Horse year" -->
     <string name="tib_year_line">%1$s %2$s year</string>
     <string name="row_year">Year</string>
@@ -64,7 +66,24 @@
     <string name="tib_element_pair_subtitle">elements of weekday and mansion: %1$s</string>
     <string name="tib_haircut">Haircut</string>
     <string name="section_almanac">Almanac</string>
-    <string name="section_your_year">Your year</string>
+    <string name="section_your_day">Your day</string>
+    <!-- "Vitality  ○○": the aspect, then the pebbles -->
+    <string name="pebble_row_title">%1$s  %2$s</string>
+    <!-- kinship, then the two elements in running text -->
+    <string name="pebble_subtitle">%1$s: the day\'s %2$s to your %3$s</string>
+    <!-- the year's or month's element, then your pebbles and the relation: "Fire · ○○○ mother" -->
+    <string name="aspect_for_you">%1$s · %2$s %3$s</string>
+    <string name="detail_date">Lunar date</string>
+    <!-- "15th · Wood Dragon" -->
+    <string name="detail_date_value">%1$s · %2$s</string>
+    <string name="detail_month">Month</string>
+    <string name="detail_month_value">%1$s · %2$s</string>
+    <string name="detail_counted">How it is counted</string>
+    <string name="detail_counted_day">The month\'s element follows from the year\'s destiny element (%1$s) by the month\'s animal; the lunar dates run through the elements from the son of the month\'s (%2$s): the 1st and 6th are its son, the 5th and 10th the month\'s own element.</string>
+    <string name="detail_its_day">The day\'s %1$s</string>
+    <string name="detail_yours">Yours</string>
+    <string name="detail_yours_value">%1$s, from your %2$s year</string>
+    <string name="detail_relation">Relation</string>
     <string name="section_five_components">Five components</string>
     <string name="row_lunar_mansion">Lunar mansion</string>
     <string name="row_yoga">Yoga</string>
@@ -72,8 +91,6 @@
     <string name="section_lunar_day">Lunar day</string>
     <string name="row_trigram">Trigram</string>
     <string name="row_number">Number</string>
-    <!-- kinship, then the two elements in running text: "mother: the year's fire to your earth" -->
-    <string name="pebble_subtitle">%1$s: the year\'s %2$s to your %3$s</string>
     <!-- for screen readers -->
     <string name="pebbles_mixed">%1$d white and %2$d black pebbles</string>
     <!-- for screen readers -->

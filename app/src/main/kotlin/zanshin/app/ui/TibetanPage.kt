@@ -49,12 +49,16 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.ForceContrast
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.SME_BA_COLOURS
+import zanshin.core.tibetan.Sign
+import zanshin.core.tibetan.TibetanDay
+import zanshin.core.tibetan.YearForces
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
@@ -146,7 +150,8 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_sanskrit), day.monthNames.sanskrit),
                     BalloonRow(stringResource(R.string.row_animal), stringResource(R.string.tib_animal_month, gloss(day.monthNames.animal))),
                     BalloonRow(stringResource(R.string.row_season), day.monthNames.season),
-                ),
+                    BalloonRow(stringResource(R.string.row_element), gloss(info.signs.month.element)),
+                ) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
             )
             BalloonText(
                 text = stringResource(R.string.tib_year_line, gloss(day.yearElement), gloss(day.yearAnimal)),
@@ -160,12 +165,10 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     ),
                     BalloonRow(stringResource(R.string.row_royal_year), "${day.royalYear}"),
                     BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
-                ) + Forces.of(day.yearElement, day.yearAnimal).let { f ->
-                    Force.entries.map { BalloonRow(it.english.replaceFirstChar(Char::uppercase), gloss(f[it])) }
-                },
+                ) + aspectRows(Forces.of(day.yearElement, day.yearAnimal), info.birthSign?.forces, Force.entries),
             )
             BalloonText(
-                text = "${day.weekday.english} · ${day.weekday.planet} · ${gloss(day.dayElement)} ${gloss(day.dayAnimal)}",
+                text = "${day.weekday.english} · ${day.weekday.planet} · ${stringResource(R.string.element_animal, gloss(day.dayElement), gloss(day.dayAnimal))}",
                 style = body.copy(color = Palette.muted),
                 open = balloon == TibetanBalloon.DAY,
                 onToggle = { toggle(TibetanBalloon.DAY) },
@@ -217,9 +220,14 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
         SectionTitle(stringResource(R.string.section_almanac))
         Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
 
-        info.yearContrast?.let { contrasts ->
-            SectionTitle(stringResource(R.string.section_your_year))
-            Column { contrasts.forEach { AnnotationRow(pebbleAnnotation(it, labels)) { a -> sheet = a } } }
+        info.birthSign?.let { birth ->
+            val signs = info.signs
+            SectionTitle(stringResource(R.string.section_your_day))
+            Column {
+                for (force in listOf(Force.VITALITY, Force.BODY)) {
+                    AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels)) { a -> sheet = a }
+                }
+            }
         }
 
         SectionTitle(stringResource(R.string.section_five_components))
@@ -243,19 +251,54 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
 }
 
 /**
- * One aspect of the birth year against this year's, with its pebbles as the
- * charts write them: white noughts, black crosses.
+ * The aspects of a year or month in its balloon: each one's element, and with
+ * a birth date set its pebbles and relation to the same aspect of the birth
+ * year ("Fire · ○○○ mother"). The month and the year hold these rather than
+ * the page, where they would repeat for weeks.
  */
-private fun pebbleAnnotation(c: ForceContrast, labels: Labels): Annotation {
+@Composable
+private fun aspectRows(its: YearForces, own: YearForces?, forces: List<Force>): List<BalloonRow> = forces.map { force ->
+    val value = if (own == null) {
+        gloss(its[force])
+    } else {
+        val c = ForceContrast(force, own[force], its[force])
+        stringResource(R.string.aspect_for_you, gloss(its[force]), c.pebbles.toString(), c.kinship.english)
+    }
+    BalloonRow(force.english.replaceFirstChar(Char::uppercase), value)
+}
+
+/**
+ * One aspect of the birth year against the same aspect of the lunar date (the
+ * White Beryl's divination of health, which reads vitality and body): its
+ * pebbles as the charts write them, white noughts and black crosses, and on
+ * tap how the date's element was worked out.
+ */
+private fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: TibetanDay, labels: Labels): Annotation {
+    val sign = signs.date
+    val c = ForceContrast(force, birth.forces[force], sign.forces[force])
     val p = c.pebbles
-    val aspect = c.force.english.replaceFirstChar(Char::uppercase)
+    val aspect = force.english.replaceFirstChar(Char::uppercase)
     val spoken = when {
         p.black == 0 -> labels.plural(R.plurals.pebbles_white, p.white)
         p.white == 0 -> labels.plural(R.plurals.pebbles_black, p.black)
         else -> labels.string(R.string.pebbles_mixed, p.white, p.black)
     }
+    fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
+    val details = listOf(
+        labels.string(R.string.detail_date) to labels.string(R.string.detail_date_value, labels.ordinal(day.day), name(signs.date)),
+        labels.string(R.string.detail_month) to labels.string(R.string.detail_month_value, labels.month(day.month, day.leapMonth), name(signs.month)),
+        labels.string(R.string.row_year) to name(signs.year),
+        labels.string(R.string.detail_counted) to labels.string(
+            R.string.detail_counted_day,
+            gloss(signs.year.element, "inText"),
+            gloss(signs.month.element, "inText"),
+        ),
+        labels.string(R.string.detail_its_day, force.english) to gloss(sign.forces[force]),
+        labels.string(R.string.detail_yours) to labels.string(R.string.detail_yours_value, gloss(birth.forces[force]), name(birth)),
+        labels.string(R.string.detail_relation) to "${c.kinship.english} · $p",
+    )
     return Annotation(
-        title = "$aspect  $p",
+        title = labels.string(R.string.pebble_row_title, aspect, p.toString()),
         english = c.kinship.english,
         tone = when {
             p.black == 0 -> Tone.GOOD
@@ -263,9 +306,10 @@ private fun pebbleAnnotation(c: ForceContrast, labels: Labels): Annotation {
             else -> Tone.MIXED
         },
         reading = Texts.PEBBLES[c.kinship],
-        subtitle = labels.string(R.string.pebble_subtitle, c.kinship.english, gloss(c.year, "inText"), gloss(c.own, "inText")),
+        subtitle = labels.string(R.string.pebble_subtitle, c.kinship.english, gloss(c.other, "inText"), gloss(c.own, "inText")),
         titleIsKanji = false,
         spokenTitle = "$aspect, $spoken",
+        details = details,
     )
 }
 

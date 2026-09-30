@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.selection.SelectionContainer
@@ -136,6 +137,8 @@ data class Annotation(
     val titleIsKanji: Boolean = true,
     /** What a screen reader says for [title], when the title holds marks such as pebbles. */
     val spokenTitle: String? = null,
+    /** How the entry was worked out, as label and value, shown under the reading. */
+    val details: List<Pair<String, String>> = emptyList(),
 )
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -209,6 +212,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             if (r.summary.isNotBlank()) Text(r.summary, style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
             if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.good, Palette.good)
             if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoid, Palette.bad)
+            if (a.details.isNotEmpty()) DetailsBlock(a.details)
             Spacer(Modifier.heightIn(min = 4.dp))
             SelectionContainer {
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -219,6 +223,19 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
                     }
                     Text(r.license.label, style = body.copy(fontSize = 12.sp, color = Palette.faint))
                 }
+            }
+        }
+    }
+}
+
+/** Label and value rows under a reading: how its entry was worked out. */
+@Composable
+private fun DetailsBlock(rows: List<Pair<String, String>>) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        for ((label, value) in rows) {
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.width(112.dp))
+                Text(value, style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f))
             }
         }
     }
