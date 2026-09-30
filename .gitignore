@@ -230,3 +230,6 @@ captures/
 
 # Test vectors: third-party tables kept locally, not published (tests skip without them)
 core/src/test/resources/vectors/
+
+# PDF engine and review dossiers, kept locally
+tools/pdf/
