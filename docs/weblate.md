@@ -57,13 +57,24 @@ directly (version control: *GitHub pull request*).
   `https://hosted.weblate.org/hooks/github/` on push, so Weblate follows
   `main`.
 
-## Open: the catalog's licence
+## The catalog's licence
 
-Weblate takes one licence per component. The catalog mixes the app's own
+Weblate takes one licence per component, and the catalog mixes the app's own
 summaries (MPL-2.0) with wording adapted from Japanese Wikipedia (CC BY-SA
-4.0, whose translations stay CC BY-SA). Either the catalog component is
-CC BY-SA 4.0 as a whole, or the Wikipedia-adapted readings move to a
-component of their own.
+4.0, whose translations stay CC BY-SA). Settled by the owner on 2026-09-30:
+the catalog is split. The readings whose `License` is `CC_BY_SA` move to a
+file family of their own (`texts/wikipedia.properties` and its
+translations), which `Catalog.kt` reads beside `texts*.properties`, and get
+a fourth component under CC BY-SA 4.0; the rest of the catalog stays
+MPL-2.0. The split is made when the project is set up.
+
+## Eligibility and timing
+
+The Libre plan asks for a libre licence, a README that says translations
+are on Weblate, and at least three months of active development; a trial
+project not approved within 14 days is removed. Development here began on
+2026-09-28, so the trial starts no earlier than 2026-12-28, with the README
+line added then.
 
 ## Existing translations
 
