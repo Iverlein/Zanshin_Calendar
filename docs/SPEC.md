@@ -422,9 +422,13 @@ Keys: `<Enum>.<NAME>` for the English name of a term (`Choku.TATSU`), with
 for running text); `reading.<Enum>.<NAME>` for a reading's summary;
 `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
-`reading.Haircut`). A key a translation lacks falls back to English, and
-`CatalogTest` fails when a translation's keys or placeholders differ from the
-English. Tibetan and Japanese terms, Wylie, phonetics, romaji and the sources'
+`reading.Haircut`). A translation may be partial, since Weblate commits
+only reviewed strings ([weblate.md](weblate.md)): a key it lacks, or leaves
+empty, falls back to English, in the catalog as in `strings.xml`.
+`CatalogTest` and the app's `TranslationsTest` fail when a translation has a
+key English lacks, other placeholders, or a `locale_tag` in another
+language; a language offered in the menu (§10.5) must also be complete.
+Tibetan and Japanese terms, Wylie, phonetics, romaji and the sources'
 titles are not in the catalog: they are not translated. The catalog follows the
 language the app's own resources resolved to (§10.1), not the phone's.
 
@@ -660,7 +664,9 @@ canvas "Zanshin Calendar — basic design".
   applied by a locale wrapper when the activity starts (`AppLanguage.kt`),
   without an AppCompat dependency. The activity is recreated in the new
   language. By default the app follows the phone, English when the phone's
-  language is not offered.
+  language is not offered. A language is offered only once it is complete
+  and has been read through on a phone; a partial one still shows, string
+  by string, on a phone set to it.
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on without a birth date asks for one; cancelling leaves
   it off.

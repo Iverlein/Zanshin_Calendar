@@ -20,7 +20,7 @@ with the one that gives it a use. "Later" is not ranked.
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
 | 1 | T3 The hour's pebbles, element colours, personal mansions | S | The hour is one more row once the page knows the time; a colour per element and a table per animal, once each has what it needs | A time of day and the hours panel (a round clock); a place for the element colour; a source for the mansions |
-| 2 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L3 |
+| 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | The owner's Weblate and GitHub accounts |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
 | 5 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
@@ -189,27 +189,23 @@ the language switch in the menu (SPEC §8.2, §10.5).
 For Japanese first, then German, French, Spanish, Portuguese, Simplified
 Chinese and Traditional Chinese.
 
-- A project on Hosted Weblate (gratis for libre projects), one component for
-  `strings.xml`, one for the reading catalog, one for the store listing.
-- Reviews switched on for the reading catalog: a translated reading ships
-  only once a reviewer has approved it, for the same reason as in L3.
-- Weblate commits through a pull request, never straight to `main`.
-- Chinese as two separate languages, each translated and reviewed on its
-  own, not converted from one to the other: `values-b+zh+Hans` and
-  `values-b+zh+Hant` in the app, `zh-CN` and `zh-TW` in the store listing.
+The repository is ready: partial translations fall back to English string
+by string, tests guard keys, placeholders, `locale_tag` and the
+completeness of offered languages, and [weblate.md](weblate.md) gives every
+setting of the project and its three components. What is left is on
+Weblate and GitHub, with the owner's accounts:
+
+- Push `main`; create the project on Hosted Weblate (Libre plan) and its
+  components as in weblate.md; approve the imported Russian strings; add
+  the GitHub webhook.
+- Decide the catalog component's licence (weblate.md, *Open*).
+- Fill the glossary with the kanji and Tibetan terms and their English.
 - Japanese goes right after Russian, as the first Weblate language,
   translated there by the owner together with invited friends; the owner
   and those of them who read Japanese well are its reviewers. Its
   readings of the 旧暦 page can be written from the Japanese sources
   directly, but Todan's copyrighted wording still may not be copied;
-  Wikipedia's CC BY-SA wording may, with attribution. The Weblate glossary
-  holds the terms the app already uses (十二直, 選日, …).
-- The gratis Libre plan keeps a project Public: any signed-in user can
-  contribute to any language, including Japanese (Weblate docs, *Access
-  control*). Quality rests on reviews, which can be set per language, and on
-  reviewing each Weblate pull request before merging. Whether unapproved
-  strings are left out of Android `strings.xml`, which has no state field,
-  is untested; until it is, the pull request is the gate.
+  Wikipedia's CC BY-SA wording may, with attribution.
 - The app itself gains no network access: translations arrive in the source
   and ship with a release.
 

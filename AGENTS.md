@@ -13,7 +13,7 @@ in step with the code.
 | `core/src/test/resources/vectors/` | Test vectors, tab-separated, source cited in each header. Third-party tables: gitignored, kept only locally; tests that need a missing file are skipped (`vectors()` in `Vectors.kt`). |
 | `cli/` | Desktop tool to print a day, a kyūreki sui or a Tibetan year. |
 | `core/src/main/resources/texts/` | The catalog: English names of the terms, reading summaries and list wordings, one `texts_<language>.properties` per translation (SPEC §8.2). |
-| `app/` | Compose UI. Package `zanshin.app`, application id and `R` namespace `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`. |
+| `app/` | Compose UI. Package `zanshin.app`, application id and `R` namespace `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations in `res/values-<lang>/` (Weblate, [docs/weblate.md](docs/weblate.md)), checked by `src/test/.../TranslationsTest.kt`. |
 | `fastlane/metadata/android/en-US/` | F-Droid store listing: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
 | `docs/fdroid/` | The recipe proposed to fdroiddata (SPEC §12). |
 | `tools/` | Python generators: VSOP87 table, city list, font subset, Henning and Gyurme Dorje vector extraction. Their outputs are committed, except the vectors. |
@@ -22,6 +22,7 @@ in step with the code.
 
 ```bash
 ./gradlew :core:test                                   # engines against the vectors
+./gradlew :app:testDebugUnitTest                       # translations: keys, placeholders, offered languages complete
 ./gradlew :cli:run --args="2026-09-28"                 # one day, as text
 ./gradlew :cli:run --args="--sui 2033"                 # kyūreki months from month 11
 ./gradlew :app:assembleDebug                           # APK in app/build/outputs/apk/debug/
