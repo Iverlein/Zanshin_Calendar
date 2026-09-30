@@ -168,6 +168,8 @@
     <string name="menu_birth_not_set">Not set — for personal days</string>
     <string name="menu_kigaku">Nine-star reading</string>
     <string name="menu_kigaku_subtitle">Your birth star against the day star</string>
+    <string name="menu_language">Language</string>
+    <string name="language_system">Phone\'s language</string>
     <string name="menu_about">About &amp; sources</string>
     <string name="menu_about_subtitle">Formulas, fonts, GeoNames</string>
     <string name="selected">Selected</string>

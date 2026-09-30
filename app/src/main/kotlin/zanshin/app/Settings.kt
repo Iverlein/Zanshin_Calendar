@@ -64,7 +64,16 @@ class Settings(context: Context) {
         get() = prefs.getBoolean(KEY_KIGAKU, false)
         set(value) = prefs.edit().putBoolean(KEY_KIGAKU, value).apply()
 
+    /** The app's language before Android 13 (see [AppLanguage]); null follows the phone. */
+    var language: String?
+        get() = prefs.getString(KEY_LANGUAGE, null)
+        set(value) {
+            // Committed at once: the activity is recreated right after and reads it back.
+            prefs.edit().apply { if (value == null) remove(KEY_LANGUAGE) else putString(KEY_LANGUAGE, value) }.commit()
+        }
+
     private companion object {
+        const val KEY_LANGUAGE = "language"
         const val KEY_BIRTH = "birth"
         const val KEY_KIGAKU = "kigaku"
         const val KEY_CALENDAR = "calendar"

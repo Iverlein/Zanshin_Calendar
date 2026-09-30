@@ -33,6 +33,8 @@ object Icons {
         1.7f,
     )
 
+    val Globe = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M3.5 9h17M3.5 15h17M12 3c-2.4 2.6-3.6 5.6-3.6 9s1.2 6.4 3.6 9M12 3c2.4 2.6 3.6 5.6 3.6 9s-1.2 6.4-3.6 9", 1.6f)
+
     /** The 3×3 board of the nine stars. */
     val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
 

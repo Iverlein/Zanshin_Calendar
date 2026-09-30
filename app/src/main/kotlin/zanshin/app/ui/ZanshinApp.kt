@@ -4,6 +4,7 @@
 
 package zanshin.app.ui
 
+import android.app.Activity
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -52,10 +53,12 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import kotlinx.coroutines.launch
+import zanshin.app.AppLanguage
 import zanshin.app.CalendarKind
 import zanshin.app.Cities
 import zanshin.app.DayInfo
@@ -78,6 +81,9 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     var birth by remember { mutableStateOf(settings.birthDate) }
     var birthDialog by remember { mutableStateOf(false) }
     var kigaku by remember { mutableStateOf(settings.kigaku) }
+    val activity = LocalContext.current as Activity
+    val language = remember { AppLanguage.current(activity) }
+    var languageDialog by remember { mutableStateOf(false) }
     // Set while the birth-date dialog was opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
@@ -148,6 +154,11 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     scope.launch { drawer.close() }
                     screen = Screen.ABOUT
                 },
+                languageLabel = language?.let(AppLanguage::nativeName) ?: stringResource(R.string.language_system),
+                onLanguage = {
+                    scope.launch { drawer.close() }
+                    languageDialog = true
+                },
                 onClose = { scope.launch { drawer.close() } },
             )
         },
@@ -201,6 +212,17 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     birthDialog = false
                     kigakuPending = false
                 },
+            )
+        }
+
+        if (languageDialog) {
+            LanguageDialog(
+                current = language,
+                onChoose = {
+                    languageDialog = false
+                    if (it != language) AppLanguage.set(activity, it)
+                },
+                onDismiss = { languageDialog = false },
             )
         }
 
@@ -358,6 +380,8 @@ private fun SideMenu(
     onCalendar: (CalendarKind) -> Unit,
     onLocation: () -> Unit,
     onAbout: () -> Unit,
+    languageLabel: String,
+    onLanguage: () -> Unit,
     onClose: () -> Unit,
 ) {
     ModalDrawerSheet(
@@ -400,6 +424,7 @@ private fun SideMenu(
             MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
             MenuRow(Icons.Sun, stringResource(R.string.menu_birth_date), birthLabel ?: stringResource(R.string.menu_birth_not_set), onBirth)
             SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
+            MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
         }
     }
