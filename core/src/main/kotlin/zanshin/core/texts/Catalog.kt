@@ -17,7 +17,9 @@ import java.util.concurrent.ConcurrentHashMap
  * translations, UTF-8. A key a language lacks falls back to English.
  *
  * Read with [Properties.load] from a UTF-8 reader rather than ResourceBundle,
- * which on older Android reads property files as ISO 8859-1.
+ * which on older Android reads property files as ISO 8859-1. A translation may
+ * be partial, as Weblate commits only reviewed strings (SPEC §8.2): an empty
+ * entry counts as missing.
  */
 object Catalog {
     private val loaded = ConcurrentHashMap<String, Map<String, String>>()
@@ -43,7 +45,7 @@ object Catalog {
         val stream = Catalog::class.java.getResourceAsStream("/texts/texts$suffix.properties") ?: return@getOrPut emptyMap()
         val p = Properties()
         InputStreamReader(stream, Charsets.UTF_8).use { p.load(it) }
-        p.stringPropertyNames().associateWith { p.getProperty(it) }
+        p.stringPropertyNames().associateWith { p.getProperty(it) }.filterValues { it.isNotBlank() }
     }
 
     fun textOrNull(key: String, locale: Locale = this.locale ?: Locale.getDefault()): String? =
