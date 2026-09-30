@@ -20,9 +20,9 @@ with the one that gives it a use. "Later" is not ranked.
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
 | 1 | T3 The hour's pebbles, element colours, personal mansions | S | The hour is one more row once the page knows the time; a colour per element and a table per animal, once each has what it needs | A time of day and the hours panel (a round clock); a place for the element colour; a source for the mansions |
-| 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | The owner's Weblate and GitHub accounts |
+| 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
+| 4 | T2 Tibetan readings | M | Mansions and the activity lists are built; yogas, karaṇas, lunar days and further activities each need a source first | Sources |
 | 5 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 
@@ -90,20 +90,16 @@ with the one that gives it a use. "Later" is not ranked.
 
 ### T2. Meaning of the components and day details
 
-The five components (weekday, lunar day, mansion, yoga, karaṇa) and the
-lunar-day cycles get reading sheets with "good for" and "avoid", mapped to
-the same `Activity` entries as the 旧暦 readings (SPEC §8.2).
+The lunar mansion's reading and Henning's thirteen activity lists are built
+(SPEC §5.10), with the Tibetan day in brief. What is left waits on sources:
 
-- Mansions: Henning, *Horary and electional astrology of the five
-  components* (kalacakra.org/calendar/tibast03.htm), after the White Beryl
-  and the Treasury of Jewels: each mansion's nature, activities, food and
-  planet.
-- Activities: the same page lists, per activity, the good and bad weekdays,
-  mansions, solar-day animals and trigrams (from the *'bras rtsis bai dkar
-  dgongs don kun phan me long*). This is the Tibetan counterpart of the 旧暦
-  "good for / avoid" lists.
-- Yogas, karaṇas, lunar days: a source is still needed for each.
-- Copyrighted sources, so own English summaries (SPEC §8).
+- Yogas, karaṇas, lunar days: a source is still needed for each. Henning's
+  destructive list names Viṣṭi among what is good for it, which a karaṇa
+  reading could carry once karaṇas have one.
+- More activities: Henning gives a selection and meant to add others; the
+  full lists are in the *'bras rtsis bai dkar dgongs don kun phan me long*.
+- The doubtful mansion entries (SPEC §5.10), Uttarāṣāḍhā above all, can be
+  settled from the Tibetan text of that list.
 
 ### T3. The hour's pebbles, element colours and personal mansions
 
@@ -198,7 +194,11 @@ Weblate and GitHub, with the owner's accounts:
 - Push `main`; create the project on Hosted Weblate (Libre plan) and its
   components as in weblate.md; approve the imported Russian strings; add
   the GitHub webhook.
-- Decide the catalog component's licence (weblate.md, *Open*).
+- Not before 2026-12-28: the Libre plan wants three months of active
+  development, and development began on 2026-09-28 (weblate.md,
+  *Eligibility*). The README then names Weblate.
+- Split the catalog: the Wikipedia-adapted readings into a CC BY-SA
+  component of their own (weblate.md, *The catalog's licence*).
 - Fill the glossary with the kanji and Tibetan terms and their English.
 - Japanese goes right after Russian, as the first Weblate language,
   translated there by the owner together with invited friends; the owner

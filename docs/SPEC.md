@@ -38,7 +38,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 
 | In v1 | Later |
 | --- | --- |
-| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9) | Tsurphu version; Rishi-star bathing week |
+| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9); the lunar mansion's reading and the activity lists (§5.10) | Tsurphu version; Rishi-star bathing week |
 | Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食; 七十二候 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | Moon rise and set |
 | Screen with date navigation, home-screen widget, location setting | Notifications |
@@ -280,6 +280,48 @@ Moonbeams.
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
 
+### 5.10 Electional lists: the mansion and the day's activities
+
+Edward Henning, *Horary and electional astrology of the five components*
+(kalacakra.org), in `Electional.kt`:
+
+- **Lunar mansions**, after the White Beryl and the *Treasury of Jewels*:
+  each mansion's kind of work, nature, planet and foods, and the activities
+  the list of mansions names it good for.
+- **Activities**: Henning's selection of thirteen from the activity lists
+  of the *'bras rtsis bai dkar dgongs don kun phan me long*, which follows
+  the White Beryl: offerings to deities, taking a new home, starting a
+  journey, astrology and divination, making weapons, marriage, funerals,
+  setting up supports and temples, and the four activities (destructive,
+  controlling, pacifying, increasing) with accomplishing health and wealth.
+  For each, the good and bad weekdays, lunar dates, mansions, day animals
+  (the 60-day cycle's) and trigrams. What a list does not name is neutral.
+
+The lists are taken as printed, with these rules for what is doubtful:
+
+- A name in parentheses, or with a qualifier ("Monday (S only)",
+  "Mūla (bad for entombment)"), counts for neither side; so does a
+  category the source calls "merely acceptable" or "neutral". The one
+  exception is the mouse, "bad for divination" in the divination list
+  itself.
+- A mansion named more than once for one activity, in any of these places,
+  is left out. Uttarāṣāḍhā in particular appears twice in several lists,
+  once as both good and bad, and is probably confused there with
+  Uttarabhādrapadā; the Tibetan original is not at hand to settle it.
+- Rising signs are left out, since the page shows a day and not a moment;
+  Abhijit, which the Phugpa calendar does not count among the day's
+  mansions; "black" years, months and days, earth-lords and the demons,
+  which the app does not calculate.
+- Ranges are applied as stated: for pacifying, every mansion not named
+  good, acceptable or neutral is bad; for health and wealth, waxing dates
+  are good but for the 6th, 7th and 9th, waning dates bad.
+
+A mansion's reading joins what the list of mansions names it good for with
+the activity lists' good and bad; where they disagree (Rohiṇī is good for
+marriage in the first, bad in the second) both stay, as elsewhere in the
+app. The day in brief (§10.3) lists every activity with the factors that
+name it good or bad; it weighs none against another.
+
 ## 6. Astronomy library
 
 **Source:** Jean Meeus, *Astronomical Algorithms*, 2nd ed. (1998).
@@ -465,6 +507,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | 雑節, 節句, 十三夜 | NAOJ 暦Wiki |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
+| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long* |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
 Still open: the published source of the 2033 resolution (§7.1).
@@ -558,9 +601,14 @@ canvas "Zanshin Calendar — basic design".
 - **Day line:** one short line — weekday, planet, day element and animal, e.g.
   "Monday · Moon · Iron Horse". Tapping it opens a balloon with the full
   details: weekday with its Tibetan name, planet, element, animal, gender.
-- **Almanac:** festival, monthly observance, personal day, element pair and
-  hair-cutting day as reading rows; then the five components (mansion, yoga,
-  karaṇa, weekday) and the lunar-day cycles as tappable terms.
+- **In brief:** under the day line, as on the 旧暦 page, a line counts the
+  activities the lists of §5.10 name good, to avoid, and both; it opens the
+  activities with the weekday, lunar date, mansion, day animal and trigram
+  that name them.
+- **Almanac:** festival, monthly observance, personal day, element pair,
+  lunar mansion (§5.10) and hair-cutting day as reading rows; then the five
+  components (mansion, yoga, karaṇa, weekday) and the lunar-day cycles as
+  tappable terms.
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written in Tibetan script, converted at run time from
   the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its
