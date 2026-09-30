@@ -225,7 +225,7 @@ day by day against Henning's computed calendars (§9):
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
 
-### 5.9 Four aspects of the year and the yearly pebbles
+### 5.9 Four aspects and the pebbles
 
 Each year of the sexagenary cycle has four elemental aspects (White Beryl
 f. 156a/b, f. 158a; Moonbeams ff. 5b–6b), in `Forces.kt`:
@@ -428,6 +428,16 @@ English. Tibetan and Japanese terms, Wylie, phonetics, romaji and the sources'
 titles are not in the catalog: they are not translated. The catalog follows the
 language the app's own resources resolved to (§10.1), not the phone's.
 
+Russian (`texts_ru.properties`, `values-ru/strings.xml`) is translated by the
+project from the English summaries and checked against the cited sources.
+The terms of the elemental divination follow the Russian edition of Berzin's
+*Details of Tibetan Astrology* on Study Buddhism: жизненная сила, тело,
+могущество, конь ветра for the four aspects, мать, ребёнок, друг, враг and
+совпадение for the relations, камни for the pebbles. A translated reading
+keeps its source and licence; its licence label says it is a translation
+(MPL-2.0 for the app's own summaries, CC BY-SA 4.0 with attribution for
+wording adapted from Japanese Wikipedia).
+
 The "good for" and "avoid" lists keep the source's wording. `Activities.kt`
 maps every wording key to the act it names (`Activity`: "weddings", "marriage"
 and "taking a bride" are one act), so annotations can be compared in any
@@ -444,7 +454,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
-| Four aspects of the year, yearly pebbles | The White Beryl (ff. 156a/b, 158a, 248b–254a) with Lo chen Dharmaśrī's *Moonbeams* (ff. 5b–6b, 28a/b), read in Gyurme Dorje's edition (2001) |
+| Four aspects, the pebbles of the day, month and year | The White Beryl (ff. 156a/b, 158a, 248b–254a, 295b–299a) with Lo chen Dharmaśrī's *Moonbeams* (ff. 5b–6b, 28a/b, 31b–32a), read in Gyurme Dorje's edition (2001) |
 | Tibetan pronunciation | THL Simplified Phonetic Transcription of Standard Tibetan, Germano and Tournadre, 2003 (thlib.org; archived by the Wayback Machine at `thlib.org/global/php/essay_reader.php?url=/thl/phonetics/s/b1`–`b12`) |
 | Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
@@ -641,7 +651,16 @@ canvas "Zanshin Calendar — basic design".
     (§2).
 - The location drives the local sky line only; neither calendar depends on it.
 - **Birth date**, optional and stored on the device: enables the personal days
-  (Tibetan luck/life/anti, Japanese 三箇の悪日) and the Tibetan yearly pebbles.
+  (Tibetan luck/life/anti, Japanese 三箇の悪日) and the Tibetan pebbles.
+- **Language**: the phone's language or one the app is translated into
+  (English, Russian), each listed by its own name. Android 13 and later keep
+  the choice themselves as the per-app language (`LocaleManager`, with
+  `res/xml/locales_config.xml` and `android:localeConfig`, so Settings ›
+  Apps offers it too); before 13 it is stored with the other settings and
+  applied by a locale wrapper when the activity starts (`AppLanguage.kt`),
+  without an AppCompat dependency. The activity is recreated in the new
+  language. By default the app follows the phone, English when the phone's
+  language is not offered.
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on without a birth date asks for one; cancelling leaves
   it off.
