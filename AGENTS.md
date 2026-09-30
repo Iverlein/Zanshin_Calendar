@@ -17,6 +17,7 @@ in step with the code.
 | `fastlane/metadata/android/en-US/` | F-Droid store listing: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
 | `docs/fdroid/` | The recipe proposed to fdroiddata (SPEC §12). |
 | `tools/` | Python generators: VSOP87 table, city list, font subset, Henning and Gyurme Dorje vector extraction. Their outputs are committed, except the vectors. |
+| `tools/emulator/` | Driving the app on the `zanshin-test` emulator: `emu.py` (preferences, language, taps by on-screen text, screenshots with their text), `tour.py` (a fixed tour to compare two builds), `russian_tour.py` (the language switch and a Russian read-through). |
 
 ## Commands
 
