@@ -32,6 +32,12 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
 `zanshin-test` emulator) is described in `~/RUNBOOK.md` §7. Always pass
 `-s <serial>` to adb: the phone and the emulator are often attached together.
 
+- **Test on the emulator only**, never on the owner's phone: tours, taps,
+  changed dates, preferences and languages all go to `zanshin-test`.
+- **Install every new build on the phone** when it is connected (`adb
+  devices`), after each update, without being asked, so it always runs the
+  latest build.
+
 ## Rules that are easy to break
 
 - **No `INTERNET` permission, ever** (SPEC §2). Check the merged manifest after
