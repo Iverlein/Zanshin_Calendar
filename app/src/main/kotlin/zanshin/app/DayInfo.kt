@@ -10,6 +10,8 @@ import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.KyurekiDay
 import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.RekichuDay
+import zanshin.core.tibetan.ForceContrast
+import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.personalDay
 import zanshin.core.tibetan.TibetanCalendar
@@ -32,19 +34,25 @@ class DayInfo private constructor(
     val rekichu: RekichuDay,
     /** Luck, life or anti day for the owner's birth year, if a birth date is set. */
     val personalDay: PersonalDay?,
+    /** The four aspects of the birth year against those of this Tibetan year, if a birth date is set. */
+    val yearContrast: List<ForceContrast>?,
 ) {
     companion object {
         private val cache = LruCache<Pair<LocalDate, LocalDate?>, DayInfo>(256)
 
         fun of(date: LocalDate, zone: ZoneId, birth: LocalDate? = null): DayInfo = cache[date to birth] ?: run {
             val tibetan = TibetanCalendar.of(date)
+            val born = birth?.let { TibetanCalendar.of(it) }
             DayInfo(
                 date = date,
                 tibetan = tibetan,
                 kyureki = Kyureki.of(date),
                 moonElongation = Astro.moonElongationDeg(date.atTime(LocalTime.of(21, 0)).atZone(zone).toInstant()),
                 rekichu = Rekichu.of(date, birth),
-                personalDay = birth?.let { personalDay(TibetanCalendar.of(it).yearAnimal, tibetan.weekday) },
+                personalDay = born?.let { personalDay(it.yearAnimal, tibetan.weekday) },
+                yearContrast = born?.let {
+                    Forces.contrast(Forces.of(it.yearElement, it.yearAnimal), Forces.of(tibetan.yearElement, tibetan.yearAnimal))
+                },
             )
         }.also { cache.put(date to birth, it) }
     }

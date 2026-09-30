@@ -49,7 +49,8 @@ private val SECTIONS = listOf(
         "Lama Zopa Rinpoche's translation of the hair-cutting days (FPMT, 2008); Edition Rabten's Tibetan " +
         "calendar; Edward Henning's symbolic details of the calendar; and Jigme Lingpa's prayer on the tenth " +
         "day (Lotsawa House); the colours of the nine numbers from Alexander Berzin's Details of Tibetan " +
-        "Astrology (Study Buddhism). Readings not adapted from Wikipedia are the app's own English summaries of the " +
+        "Astrology (Study Buddhism); the four aspects of each year and the yearly pebbles from the White Beryl " +
+        "of Desi Sangye Gyatso with Lochen Dharmashri's Moonbeams. Readings not adapted from Wikipedia are the app's own English summaries of the " +
         "cited sources, under the app's licence.",
     "Tibetan" to "Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the " +
         "White Beryl of Desi Sangye Gyatso; their pronunciation follows the THL Simplified Phonetic " +

@@ -44,6 +44,9 @@ import zanshin.app.DayInfo
 import zanshin.app.Labels
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
+import zanshin.core.tibetan.Force
+import zanshin.core.tibetan.ForceContrast
+import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.SME_BA_COLOURS
@@ -148,7 +151,9 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     BalloonRow("Year", "${Labels.enum(day.yearElement)} ${Labels.enum(day.yearGender).lowercase()} ${Labels.enum(day.yearAnimal)}"),
                     BalloonRow("Royal year", "${day.royalYear}"),
                     BalloonRow("Rabjung", "${Labels.ordinal(day.rabjungCycle)} cycle, year ${day.rabjungYear}"),
-                ),
+                ) + Forces.of(day.yearElement, day.yearAnimal).let { f ->
+                    Force.entries.map { BalloonRow(it.english.replaceFirstChar(Char::uppercase), Labels.enum(f[it])) }
+                },
             )
             BalloonText(
                 text = "${day.weekday.english} · ${day.weekday.planet} · ${Labels.enum(day.dayElement)} ${Labels.enum(day.dayAnimal)}",
@@ -199,6 +204,11 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
         SectionTitle("Almanac")
         Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
 
+        info.yearContrast?.let { contrasts ->
+            SectionTitle("Your year")
+            Column { contrasts.forEach { AnnotationRow(pebbleAnnotation(it)) { a -> sheet = a } } }
+        }
+
         SectionTitle("Five components")
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
             FactRow("Lunar mansion", day.mansion.wylie, "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}")
@@ -217,6 +227,32 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
     }
 
     sheet?.let { ReadingSheet(it) { sheet = null } }
+}
+
+/**
+ * One aspect of the birth year against this year's, with its pebbles as the
+ * charts write them: white noughts, black crosses.
+ */
+private fun pebbleAnnotation(c: ForceContrast): Annotation {
+    val p = c.pebbles
+    val aspect = c.force.english.replaceFirstChar(Char::uppercase)
+    val spoken = listOfNotNull(
+        if (p.white > 0) "${p.white} white" else null,
+        if (p.black > 0) "${p.black} black" else null,
+    ).joinToString(" and ") + if (p.white + p.black > 1) " pebbles" else " pebble"
+    return Annotation(
+        title = "$aspect  $p",
+        english = c.kinship.english,
+        tone = when {
+            p.black == 0 -> Tone.GOOD
+            p.white == 0 -> Tone.BAD
+            else -> Tone.MIXED
+        },
+        reading = Texts.PEBBLES[c.kinship],
+        subtitle = "${c.kinship.english}: the year's ${c.year.name.lowercase()} to your ${c.own.name.lowercase()}",
+        titleIsKanji = false,
+        spokenTitle = "$aspect, $spoken",
+    )
 }
 
 /**

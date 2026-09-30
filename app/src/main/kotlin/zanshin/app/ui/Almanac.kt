@@ -128,6 +128,8 @@ data class Annotation(
     val reading: Reading?,
     val subtitle: String? = null,
     val titleIsKanji: Boolean = true,
+    /** What a screen reader says for [title], when the title holds marks such as pebbles. */
+    val spokenTitle: String? = null,
 )
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -156,6 +158,7 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
                 } else {
                     body.copy(fontSize = 16.sp, fontWeight = FontWeight.Medium)
                 },
+                modifier = a.spokenTitle?.let { spoken -> Modifier.semantics { contentDescription = spoken } } ?: Modifier,
             )
             Text(a.subtitle ?: a.english, style = body.copy(fontSize = 13.sp, color = Palette.muted))
         }
