@@ -19,7 +19,7 @@ with the one that gives it a use. "Later" is not ranked.
 
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
-| 1 | T3 Element colours, personal mansions | S | A colour per element and a table per animal, once each has what it needs | A place for the element colour; a source for the mansions |
+| 1 | T3 The hour's pebbles, element colours, personal mansions | S | The hour is one more row once the page knows the time; a colour per element and a table per animal, once each has what it needs | A time of day and the hours panel (a round clock); a place for the element colour; a source for the mansions |
 | 2 | L4 Hosted Weblate | M | Project setup, three components and the review rules; the translating itself is outside the code and open-ended | L3, which brings the switch |
 | 3 | L3 Russian, with the L2 switch | L | Every key and reading translated and checked against the original sources, the store listing, and a full read-through on the phone. The switch itself is small (`locales_config.xml` and a start-up wrapper for Android 8–12) but has nothing to offer before a translation exists, so it ships with this one | — |
 | 4 | T2 Tibetan readings | L | Own-English summaries of Henning for mansions and activities; yogas, karaṇas and lunar days still lack a source | Sources |
@@ -105,11 +105,22 @@ the same `Activity` entries as the 旧暦 readings (SPEC §8.2).
 - Yogas, karaṇas, lunar days: a source is still needed for each.
 - Copyrighted sources, so own English summaries (SPEC §8).
 
-### T3. Element colours and personal mansions
+### T3. The hour's pebbles, element colours and personal mansions
 
 The sme ba shows in the colour of its box (SPEC §10.3), and the four aspects
-of the year with the yearly pebbles are built (SPEC §5.9). What is left
-waits on a source or on design:
+with the pebbles of the day, month and year are built (SPEC §5.9). What is
+left waits on a source or on design:
+
+- **The hour's pebbles.** The divination of health reads the hour too
+  (chart 8.1): the two-hour periods from the hare at daybreak, each hour's
+  element from the day's by its animal (hare, monkey, ox son; dragon, bird,
+  tiger friend; snake, dog enemy; horse, pig mother; sheep, mouse identity;
+  Gyurme Dorje p. 90, Table 2.7). The page shows a day, not a moment, so it
+  needs the current time and the hours' boundaries (from sunrise, or fixed
+  clock hours; to be settled from the source) before it has a place.
+  The owner's design: an icon opens an hours panel, a round clock with each
+  two-hour period coloured by its pebbles and the workings on tap, as the
+  day's rows have them.
 
 - **Element colours:** wood green, fire red, earth yellow, iron white, water
   black or blue (Berzin 3). The day's element appears only inside the day
