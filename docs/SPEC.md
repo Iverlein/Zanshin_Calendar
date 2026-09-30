@@ -242,11 +242,10 @@ another sign and names what the other element is to the person's: mother
 (it feeds yours), friend (yours overcomes it), identity, son (yours feeds
 it), enemy (it overcomes yours). Two readings use it:
 
-- **The day and the month**, from the divination of health (White Beryl
-  ff. 295b–299a; Moonbeams ff. 31b–32a), which sets the person's vitality
-  and body against those of the present year, month, day and hour. The
-  app shows the day and the month; the hour needs a time of day and is
-  planned (ROADMAP T3). The month's destiny element follows from the year's
+- **The day, the month and the hours**, from the divination of health
+  (White Beryl ff. 295b–299a; Moonbeams ff. 31b–32a), which sets the
+  person's vitality and body against those of the present year, month, day
+  and hour. The month's destiny element follows from the year's
   by the month's animal: tiger, hare, mouse and ox months take its son,
   dragon and snake its friend, horse and sheep its enemy, monkey and bird
   its mother, dog and pig the same element (Gyurme Dorje p. 90, Table 2.5).
@@ -255,8 +254,19 @@ it), enemy (it overcomes yours). Two readings use it:
   month's, the 1st and 6th its son, the 5th and 10th the month's own; its
   animal is the lunar-day animal of §5.8 (from the tiger in male months,
   the monkey in female ones). A doubled date repeats both, a skipped one is
-  passed over. The four aspects of a month or date follow from its sign by
-  the rules above.
+  passed over. The day has twelve two-hour hours, the hare hour first; an
+  hour's element follows from the lunar date's by the hour's animal: hare,
+  monkey and ox hours take its son, dragon, bird and tiger its friend,
+  snake and dog its enemy, horse and pig its mother, sheep and mouse the
+  same element (p. 90, Table 2.7; chart 8.1's hour of a wood dragon day is
+  an earth bird). The hours are counted in clock time at the place, the hare
+  hour from 05:00 to 07:00: "the first astrological period of the day begins
+  at dawn. Nowadays, this is standardly taken as from 5 to 7 o'clock
+  wristwatch-time, regardless of the time of year" (Berzin, *Details of
+  Tibetan Astrology 1*). Gyurme Dorje's Table 2.4 gives the same periods in
+  solar time; the app follows Berzin, whom it cites. The Tibetan day of a
+  civil date runs from its 05:00 to 05:00 the next morning. The four
+  aspects of a month, date or hour follow from its sign by the rules above.
 - **The year**, from the divination of obstacle years: each of the four
   aspects of the birth year against the present year's. Pebbles: mother
 three white, friend two white, identity one white for earth or water and one
@@ -532,7 +542,7 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | `koyomi8-2026-2027.tsv` | Every day of 2026–2027: 干支, 十二直, 二十八宿, 旧暦 date, 六曜, 九星, 選日 | こよみのページ (koyomi8.com), an independent computation |
 | `crosscheck-new-moons.tsv`, `crosscheck-solar-terms.tsv` | New moons and 15° solar terms 1900–2100, UTC | Computed with PyEphem 4.2.1 — a cross-check, not a published table. Worst differences: 34 s and 36 s |
 | `gyurme-dorje-forces.tsv` | Vitality, body, destiny and luck of all 60 years, and the relationship of destiny to vitality (kha-yan, khong-nong, …) | Gyurme Dorje (2001), charts to Plates 3–8, pp. 70–85, extracted from the archive.org OCR by `tools/extract_gyurme_dorje.py`. One body and three relationship rows are lost in the OCR; year 57 prints destiny wood where its own relationship row and every other year give the year's element, iron |
-| *(in `ForcesTest`)* | Table 2.5, the destiny elements of the twelve months for each yearly element (p. 91); chart 8.1, the month, day and hour pebbles of the health divination (p. 296) | Gyurme Dorje (2001) |
+| *(in `ForcesTest`)* | Table 2.5, the destiny elements of the twelve months for each yearly element (p. 91); chart 8.1, the month, day and hour pebbles of the health divination (p. 296); Table 2.7, the hours' destiny elements (p. 91) | Gyurme Dorje (2001) |
 | *(in `ForcesTest`)* | Chart 6.2: the four aspects of a fire dragon, an earth tiger and an iron mouse year, and all 20 elemental cells of the obstacle-year chart | Gyurme Dorje (2001), p. 228 |
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
 
@@ -640,6 +650,14 @@ canvas "Zanshin Calendar — basic design".
   counted, the day's element, yours and the relation.
   The tone dot is lucky for white pebbles only, unlucky for black only,
   mixed for both.
+- **Hours of the day:** a clock icon on the "Your day" header opens the
+  hours (§5.9): a 24-hour dial, midnight at the top, with the twelve
+  two-hour periods named by their animals; the outer ring coloured by the
+  pebbles of the hour's vitality against the birth year's, the inner by
+  those of the body. On today's page a hand marks the present moment and
+  the current hour is selected. Tapping an hour, or stepping with the
+  arrows beside its sign, shows its vitality and body rows, which open the
+  reading and its workings as the day's rows do.
 - **Sme ba in its colour:** the lunar day's number carries a swatch of the
   colour its box is printed in (Berzin, *Details of Tibetan Astrology 4*). No
   whole day is coloured.

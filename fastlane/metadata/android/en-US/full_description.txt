@@ -8,7 +8,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
 <li>The lunar mansion's nature, and a day in brief: what the activity lists name good or to avoid for the day's weekday, date, mansion, animal and trigram</li>
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
-<li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the white and black pebbles of the day, month and year</li>
+<li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the white and black pebbles of the year, month, day and each hour, on a round dial of the hours</li>
 </ul>
 
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
