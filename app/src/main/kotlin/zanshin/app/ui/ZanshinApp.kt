@@ -188,7 +188,7 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             ) { page ->
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
-                    CalendarKind.TIBETAN -> TibetanPage(info)
+                    CalendarKind.TIBETAN -> TibetanPage(info, zone)
                     CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null)
                 }
             }

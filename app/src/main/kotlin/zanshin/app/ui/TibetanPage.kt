@@ -9,6 +9,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -53,6 +54,10 @@ import zanshin.core.texts.toneOf
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.Force
+import androidx.compose.material3.IconButton
+import zanshin.core.tibetan.Pebbles
+import zanshin.core.tibetan.HourSign
+import java.time.ZoneId
 import zanshin.core.tibetan.ForceContrast
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
@@ -69,13 +74,14 @@ private enum class TibetanBalloon { MONTH, YEAR, DAY }
 
 /** The Tibetan view of one day (SPEC §10.3). */
 @Composable
-fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
+fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
     val day = info.tibetan
     val labels = LocalLabels.current
     val accent = Palette.saffron
     var balloon by remember(day.jd) { mutableStateOf<TibetanBalloon?>(null) }
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
+    var hoursOpen by remember(day.jd) { mutableStateOf(false) }
     val summary = remember(day.jd, labels.locale) { DaySummary.of(day) }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
@@ -240,7 +246,12 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
 
         info.birthSign?.let { birth ->
             val signs = info.signs
-            SectionTitle(stringResource(R.string.section_your_day))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_your_day)) }
+                IconButton(onClick = { hoursOpen = true }) {
+                    Icon(Icons.Clock, contentDescription = stringResource(R.string.hours_open), tint = Palette.muted)
+                }
+            }
             Column {
                 for (force in listOf(Force.VITALITY, Force.BODY)) {
                     AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels)) { a -> sheet = a }
@@ -265,8 +276,11 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
         }
     }
 
-    sheet?.let { ReadingSheet(it) { sheet = null } }
     if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
+    info.birthSign?.let { birth ->
+        if (hoursOpen) HoursSheet(info.date, day, birth, info.signs, zone, onOpen = { sheet = it }) { hoursOpen = false }
+    }
+    sheet?.let { ReadingSheet(it) { sheet = null } }
 }
 
 /**
@@ -287,13 +301,13 @@ private fun aspectRows(its: YearForces, own: YearForces?, forces: List<Force>): 
 }
 
 /**
- * One aspect of the birth year against the same aspect of the lunar date (the
- * White Beryl's divination of health, which reads vitality and body): its
- * pebbles as the charts write them, white noughts and black crosses, and on
- * tap how the date's element was worked out.
+ * One aspect of the birth year against the same aspect of the lunar date, or
+ * of one of its hours (the White Beryl's divination of health, which reads
+ * vitality and body): its pebbles as the charts write them, white noughts and
+ * black crosses, and on tap how the date's or hour's element was worked out.
  */
-private fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: TibetanDay, labels: Labels): Annotation {
-    val sign = signs.date
+internal fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: TibetanDay, labels: Labels, hour: HourSign? = null): Annotation {
+    val sign = hour?.sign ?: signs.date
     val c = ForceContrast(force, birth.forces[force], sign.forces[force])
     val p = c.pebbles
     val aspect = force.english.replaceFirstChar(Char::uppercase)
@@ -303,33 +317,53 @@ private fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: Ti
         else -> labels.string(R.string.pebbles_mixed, p.white, p.black)
     }
     fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
-    val details = listOf(
-        labels.string(R.string.detail_date) to labels.string(R.string.detail_date_value, labels.ordinal(day.day), name(signs.date)),
-        labels.string(R.string.detail_month) to labels.string(R.string.detail_month_value, labels.month(day.month, day.leapMonth), name(signs.month)),
-        labels.string(R.string.row_year) to name(signs.year),
-        labels.string(R.string.detail_counted) to labels.string(
-            R.string.detail_counted_day,
-            gloss(signs.year.element, "inText"),
-            gloss(signs.month.element, "inText"),
-        ),
-        labels.string(R.string.detail_its_day, force.english).replaceFirstChar(Char::uppercase) to gloss(sign.forces[force]),
-        labels.string(R.string.detail_yours) to labels.string(R.string.detail_yours_value, gloss(birth.forces[force]), name(birth)),
-        labels.string(R.string.detail_relation) to "${c.kinship.english} · $p",
-    )
+    val details = buildList {
+        hour?.let { h -> add(labels.string(R.string.detail_hour) to labels.string(R.string.detail_hour_value, hourName(h, labels), hourSpan(h), name(h.sign))) }
+        add(labels.string(R.string.detail_date) to labels.string(R.string.detail_date_value, labels.ordinal(day.day), name(signs.date)))
+        add(labels.string(R.string.detail_month) to labels.string(R.string.detail_month_value, labels.month(day.month, day.leapMonth), name(signs.month)))
+        add(labels.string(R.string.row_year) to name(signs.year))
+        add(
+            labels.string(R.string.detail_counted) to if (hour == null) {
+                labels.string(R.string.detail_counted_day, gloss(signs.year.element, "inText"), gloss(signs.month.element, "inText"))
+            } else {
+                labels.string(R.string.detail_counted_hour, gloss(signs.date.element, "inText"))
+            },
+        )
+        add(labels.string(if (hour == null) R.string.detail_its_day else R.string.detail_its_hour, force.english).replaceFirstChar(Char::uppercase) to gloss(sign.forces[force]))
+        add(labels.string(R.string.detail_yours) to labels.string(R.string.detail_yours_value, gloss(birth.forces[force]), name(birth)))
+        add(labels.string(R.string.detail_relation) to "${c.kinship.english} · $p")
+    }
     return Annotation(
         title = labels.string(R.string.pebble_row_title, aspect, p.toString()),
         english = c.kinship.english,
-        tone = when {
-            p.black == 0 -> Tone.GOOD
-            p.white == 0 -> Tone.BAD
-            else -> Tone.MIXED
-        },
+        tone = pebbleTone(p),
         reading = Texts.PEBBLES[c.kinship],
-        subtitle = labels.string(R.string.pebble_subtitle, c.kinship.english, gloss(c.other, "inText"), gloss(c.own, "inText")),
+        subtitle = labels.string(
+            if (hour == null) R.string.pebble_subtitle else R.string.pebble_subtitle_hour,
+            c.kinship.english,
+            gloss(c.other, "inText"),
+            gloss(c.own, "inText"),
+        ),
         titleIsKanji = false,
         spokenTitle = "$aspect, $spoken",
         details = details,
     )
+}
+
+/** Lucky for white pebbles only, unlucky for black only, mixed for both. */
+internal fun pebbleTone(p: Pebbles): Tone = when {
+    p.black == 0 -> Tone.GOOD
+    p.white == 0 -> Tone.BAD
+    else -> Tone.MIXED
+}
+
+/** "Bird hour". */
+internal fun hourName(h: HourSign, labels: Labels): String = labels.string(R.string.hour_name, gloss(h.sign.animal))
+
+/** "17:00–19:00", clock time. */
+internal fun hourSpan(h: HourSign): String {
+    fun hhmm(m: Int) = "%02d:%02d".format((m / 60) % 24, m % 60)
+    return "${hhmm(h.startMinute)}–${hhmm(h.startMinute + 120)}"
 }
 
 /**
