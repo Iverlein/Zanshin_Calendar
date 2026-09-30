@@ -34,8 +34,11 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.res.stringResource
 import zanshin.app.DayInfo
 import zanshin.app.Labels
+import zanshin.app.LocalLabels
+import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Band
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.DayMark
@@ -45,6 +48,7 @@ import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
 import zanshin.core.texts.Reading
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
@@ -65,7 +69,8 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
     var summaryOpen by remember(day.date) { mutableStateOf(false) }
     val summary = remember(day.date, birthStar) { DaySummary.of(day, rk, birthStar) }
     val kanjiStyle = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, color = Palette.text)
-    val monthLabel = Labels.month(day.month, day.leapMonth)
+    val labels = LocalLabels.current
+    val monthLabel = labels.month(day.month, day.leapMonth)
     val rokuyo = Annotation(day.rokuyo.kanji, "${day.rokuyo.romaji} — ${day.rokuyo.english}", rokuyoTone(day.rokuyo), Texts.ROKUYO[day.rokuyo])
 
     Column(
@@ -94,7 +99,7 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
         Row(verticalAlignment = Alignment.Top) {
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("day", style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                    Text(stringResource(R.string.kyu_day), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                     Text(
                         "${day.day}",
                         style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 120.sp, letterSpacing = (-4).sp, color = Palette.text),
@@ -106,15 +111,15 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
                     style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.Medium),
                     open = monthOpen,
                     onToggle = { monthOpen = !monthOpen },
-                    description = "$monthLabel, day ${day.day}",
+                    description = stringResource(R.string.kyu_month_description, monthLabel, day.day),
                     rows = listOf(
-                        BalloonRow("Traditional name", "${day.monthName} · ${day.monthNameRomaji}"),
-                        BalloonRow("Meaning", day.monthNameEnglish),
-                        BalloonRow("Year", "${day.year}"),
+                        BalloonRow(stringResource(R.string.row_traditional_name), "${day.monthName} · ${day.monthNameRomaji}"),
+                        BalloonRow(stringResource(R.string.row_meaning), day.monthNameEnglish),
+                        BalloonRow(stringResource(R.string.row_year), "${day.year}"),
                     ),
                 )
             }
-            MoonGlyph(info.moonElongation, 64.dp, Labels.moonPhase(info.moonElongation))
+            MoonGlyph(info.moonElongation, 64.dp, labels.moonPhase(info.moonElongation))
         }
 
         Row(
@@ -125,7 +130,7 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             Text(day.rokuyo.kanji, style = kanjiStyle.copy(fontSize = 72.sp, color = accent).tight(1.0f))
             Column {
                 Text(day.rokuyo.romaji, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold))
-                Text("${day.rokuyo.english} · rokuyō", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(stringResource(R.string.kyu_rokuyo_line, day.rokuyo.english), style = body.copy(fontSize = 13.sp, color = Palette.muted))
             }
         }
 
@@ -139,23 +144,25 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
                 Text(mark.senjitsu.kanji, style = kanjiStyle.copy(fontSize = 20.sp))
                 Text(
                     when (mark) {
-                        DayMark.BLACK -> "black day — the worst of all"
-                        DayMark.PARDON -> "heaven's pardon — good for all"
+                        DayMark.BLACK -> stringResource(R.string.kyu_black_day)
+                        DayMark.PARDON -> stringResource(R.string.kyu_pardon_day)
                     },
                     style = body.copy(fontSize = 14.sp, color = Palette.muted),
                 )
             }
         }
 
+        val briefLabel = stringResource(R.string.kyu_day_in_brief)
         Row(
-            Modifier.fillMaxWidth().heightIn(min = 44.dp).clickable(role = Role.Button, onClickLabel = "Day in brief") { summaryOpen = true },
+            Modifier.fillMaxWidth().heightIn(min = 44.dp).clickable(role = Role.Button, onClickLabel = briefLabel) { summaryOpen = true },
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             val disputed = summary.activities.count { it.disputed }
-            Text("In brief", style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
+            Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
             Text(
-                "good for ${summary.good.size} · avoid ${summary.avoid.size}" + if (disputed > 0) " · $disputed disputed" else "",
+                stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
+                    if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "",
                 style = body.copy(fontSize = 14.sp, color = Palette.muted),
                 modifier = Modifier.weight(1f),
             )
@@ -177,33 +184,33 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             }
             if (day.termBeginning != null) {
                 Text(
-                    "begins today",
+                    stringResource(R.string.kyu_begins_today),
                     style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Palette.ink),
                     modifier = Modifier.background(accent, RoundedCornerShape(12.dp)).padding(horizontal = 10.dp, vertical = 4.dp),
                 )
             } else {
-                Text("until ${day.nextTermStart.minusDays(1).format(Labels.shortDate)}", style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                Text(stringResource(R.string.kyu_until, day.nextTermStart.minusDays(1).format(labels.shortDate)), style = body.copy(fontSize = 14.sp, color = Palette.muted))
             }
         }
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
-        SectionTitle("中段 · Twelve stations")
+        SectionTitle(stringResource(R.string.section_choku))
         Column {
-            AnnotationRow(chokuAnnotation(rk.choku)) { sheet = it }
+            AnnotationRow(chokuAnnotation(rk.choku, labels)) { sheet = it }
         }
 
-        SectionTitle("二十八宿 · Lunar lodge")
+        SectionTitle(stringResource(R.string.section_shuku))
         Column {
-            AnnotationRow(shukuAnnotation(rk.shuku)) { sheet = it }
+            AnnotationRow(shukuAnnotation(rk.shuku, labels)) { sheet = it }
         }
 
-        SenjitsuSection("下段 · Lower band", rk.senjitsu.filter { it.band == Band.KAGEDAN }) { sheet = it }
-        SenjitsuSection("選日 · Selected days", rk.senjitsu.filter { it.band == Band.SENJITSU }) { sheet = it }
-        SenjitsuSection("縁日 · Deity days", rk.senjitsu.filter { it.band == Band.ENNICHI }) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_kagedan), rk.senjitsu.filter { it.band == Band.KAGEDAN }) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_senjitsu), rk.senjitsu.filter { it.band == Band.SENJITSU }) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_ennichi), rk.senjitsu.filter { it.band == Band.ENNICHI }) { sheet = it }
 
         if (rk.zassetsu.isNotEmpty()) {
-            SectionTitle("雑節 · Seasonal markers")
+            SectionTitle(stringResource(R.string.section_zassetsu))
             Column {
                 rk.zassetsu.forEach { z ->
                     AnnotationRow(Annotation(z.kanji, "${z.reading} — ${z.english}", Tone.NEUTRAL, Texts.ZASSETSU[z])) { sheet = it }
@@ -211,23 +218,23 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             }
         }
 
-        SectionTitle("干支 · Cycles")
+        SectionTitle(stringResource(R.string.section_kanshi))
         Column {
-            FactRow("Day", rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true)
+            FactRow(stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true)
             val yearKanshi = Kanshi.ofYear(day.year)
-            FactRow("Year", yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}", tibetan = false, kanji = true)
+            FactRow(stringResource(R.string.row_year), yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}", tibetan = false, kanji = true)
             val branch = Kanshi(rk.setsuBranch)
             FactRow(
-                "Solar month",
+                stringResource(R.string.row_solar_month),
                 "${branch.kanji.drop(1)}月",
-                "month of the ${branch.english.substringAfterLast(' ')}, since ${rk.setsuStart.format(Labels.shortDate)}",
+                stringResource(R.string.kyu_solar_month, Catalog.text("Branch.${branch.branch}"), rk.setsuStart.format(labels.shortDate)),
                 tibetan = false,
                 kanji = true,
             )
-            FactRow("Month star", rk.monthStar.kanji, "${rk.monthStar.reading} — ${rk.monthStar.english}", tibetan = false, kanji = true)
-            FactRow("Year star", rk.yearStar.kanji, "${rk.yearStar.reading} — ${rk.yearStar.english}", tibetan = false, kanji = true)
+            FactRow(stringResource(R.string.row_month_star), rk.monthStar.kanji, "${rk.monthStar.reading} — ${rk.monthStar.english}", tibetan = false, kanji = true)
+            FactRow(stringResource(R.string.row_year_star), rk.yearStar.kanji, "${rk.yearStar.reading} — ${rk.yearStar.english}", tibetan = false, kanji = true)
         }
-        AnnotationRow(Annotation(rk.dayStar.kanji, "day star: ${rk.dayStar.english}", Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar])) { sheet = it }
+        AnnotationRow(Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar])) { sheet = it }
         if (birthStar != null) {
             val a = Kigaku.affinity(birthStar, rk.dayStar)
             AnnotationRow(
@@ -236,22 +243,22 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
                     "${a.relation.reading} — ${a.relation.english}",
                     a.relation.tone,
                     Texts.KIGAKU[a.relation],
-                    subtitle = "your birth star ${birthStar.english} · ${a.cycleEnglish}",
+                    subtitle = stringResource(R.string.kyu_birth_star, birthStar.english, a.cycleEnglish),
                 ),
             ) { sheet = it }
         }
-        AnnotationRow(Annotation("恵方", "lucky direction of the year: ${rk.ehou.english}", Tone.GOOD, Texts.EHOU[rk.ehou], subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}")) { sheet = it }
+        AnnotationRow(Annotation("恵方", stringResource(R.string.kyu_ehou, rk.ehou.english), Tone.GOOD, Texts.EHOU[rk.ehou], subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}")) { sheet = it }
     }
 
     sheet?.let { ReadingSheet(it) { sheet = null } }
     if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
 }
 
-private fun chokuAnnotation(c: Choku) = Annotation(c.kanji, "${c.reading} — ${c.english} · twelve stations", c.tone, Texts.CHOKU[c])
+private fun chokuAnnotation(c: Choku, labels: Labels) = Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c])
 
-private fun shukuAnnotation(s: Shuku): Annotation {
+private fun shukuAnnotation(s: Shuku, labels: Labels): Annotation {
     val reading = Texts.SHUKU[s]
-    return Annotation("${s.kanji}宿", "${s.reading} — ${s.english} · 28 lodges", toneOf(reading), reading)
+    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading)
 }
 
 private fun senjitsuAnnotation(s: Senjitsu) = Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])

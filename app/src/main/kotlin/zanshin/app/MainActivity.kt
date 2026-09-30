@@ -9,8 +9,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.runtime.CompositionLocalProvider
 import zanshin.app.ui.ZanshinApp
 import zanshin.app.ui.ZanshinTheme
+import zanshin.core.texts.Catalog
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,9 +23,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val settings = Settings(this)
         val cities = Cities(applicationContext)
+        val labels = Labels(resources)
+        Catalog.locale = labels.locale
         setContent {
-            ZanshinTheme {
-                ZanshinApp(settings, cities)
+            CompositionLocalProvider(LocalLabels provides labels) {
+                ZanshinTheme {
+                    ZanshinApp(settings, cities)
+                }
             }
         }
     }

@@ -1,4 +1,277 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Interface text of Zanshin Calendar (SPEC §10.1), English, the source language.
+  The text of the engines and readings is in core/src/main/resources/texts/.
+  Tibetan and Japanese terms (Wylie, kanji, romaji) stay as they are in any translation.
+-->
 <resources>
-    <string name="app_name">Zanshin</string>
+    <string name="app_name" translatable="false">Zanshin</string>
+
+    <!-- Language and formats -->
+    <!-- the BCP 47 tag of this translation (ru, ja, zh-Hans…): dates and the reading catalog follow it -->
+    <string name="locale_tag">en</string>
+    <!-- java.time DateTimeFormatter pattern of the date at the top: "Fri 23 Oct 2026" -->
+    <string name="pattern_header_date">EEE d MMM yyyy</string>
+    <!-- DateTimeFormatter pattern: "23 Oct" -->
+    <string name="pattern_short_date">d MMM</string>
+    <!-- DateTimeFormatter pattern of the date picker's month: "October 2026" -->
+    <string name="pattern_month_title">MMMM yyyy</string>
+    <!-- DateTimeFormatter pattern of sunrise and sunset times -->
+    <string name="pattern_clock">HH:mm</string>
+    <!-- an ordinal month number, e.g. "8th month". The ordinal comes from ICU's ordinal format for the language, which for some languages (Russian) is the bare number: add the ending here, "%1$s-й месяц" -->
+    <string name="month">%1$s month</string>
+    <!-- "Leap 2nd month" -->
+    <string name="month_leap">Leap %1$s month</string>
+    <string name="moon_new">New moon</string>
+    <string name="moon_waxing_crescent">Waxing crescent</string>
+    <string name="moon_first_quarter">First quarter</string>
+    <string name="moon_waxing_gibbous">Waxing gibbous</string>
+    <string name="moon_full">Full moon</string>
+    <string name="moon_waning_gibbous">Waning gibbous</string>
+    <string name="moon_last_quarter">Last quarter</string>
+    <string name="moon_waning_crescent">Waning crescent</string>
+
+    <!-- Tibetan page -->
+    <string name="tib_from_dawn">from dawn</string>
+    <string name="tib_moved_from_day">moved from day %1$d, which is omitted</string>
+    <string name="tib_first_of_two">first of two</string>
+    <string name="tib_second_of_two">second of two</string>
+    <string name="tib_day_omitted">Day %1$d is omitted this month</string>
+    <string name="row_tibetan">Tibetan</string>
+    <string name="row_wylie">Wylie</string>
+    <string name="row_say">Say</string>
+    <string name="row_english">English</string>
+    <string name="row_sanskrit">Sanskrit</string>
+    <string name="row_animal">Animal</string>
+    <string name="row_season">Season</string>
+    <!-- the animal named in the month, e.g. "Dragon month" -->
+    <string name="tib_animal_month">%1$s month</string>
+    <!-- element and animal, e.g. "Fire Horse year" -->
+    <string name="tib_year_line">%1$s %2$s year</string>
+    <string name="row_year">Year</string>
+    <!-- element, gender and animal, e.g. "Fire male Horse" -->
+    <string name="tib_year_full">%1$s %2$s %3$s</string>
+    <string name="row_royal_year">Royal year</string>
+    <string name="row_rabjung">Rabjung</string>
+    <!-- e.g. "17th cycle, year 40" -->
+    <string name="tib_rabjung">%1$s cycle, year %2$d</string>
+    <string name="row_weekday">Weekday</string>
+    <string name="row_planet">Planet</string>
+    <string name="row_element">Element</string>
+    <string name="row_gender">Gender</string>
+    <string name="tib_monthly_observance">monthly observance</string>
+    <string name="tib_for_birth_year">for your birth year</string>
+    <string name="tib_element_pair_subtitle">elements of weekday and mansion: %1$s</string>
+    <string name="tib_haircut">Haircut</string>
+    <string name="section_almanac">Almanac</string>
+    <string name="section_your_year">Your year</string>
+    <string name="section_five_components">Five components</string>
+    <string name="row_lunar_mansion">Lunar mansion</string>
+    <string name="row_yoga">Yoga</string>
+    <string name="row_karana">Karaṇa</string>
+    <string name="section_lunar_day">Lunar day</string>
+    <string name="row_trigram">Trigram</string>
+    <string name="row_number">Number</string>
+    <!-- kinship, then the two elements in running text: "mother: the year's fire to your earth" -->
+    <string name="pebble_subtitle">%1$s: the year\'s %2$s to your %3$s</string>
+    <!-- for screen readers -->
+    <string name="pebbles_mixed">%1$d white and %2$d black pebbles</string>
+    <!-- for screen readers -->
+    <plurals name="pebbles_white">
+        <item quantity="one">%d white pebble</item>
+        <item quantity="other">%d white pebbles</item>
+    </plurals>
+    <plurals name="pebbles_black">
+        <item quantity="one">%d black pebble</item>
+        <item quantity="other">%d black pebbles</item>
+    </plurals>
+
+    <!-- 旧暦 page -->
+    <string name="kyu_day">day</string>
+    <!-- for screen readers: "9th month, day 13" -->
+    <string name="kyu_month_description">%1$s, day %2$d</string>
+    <string name="row_traditional_name">Traditional name</string>
+    <string name="row_meaning">Meaning</string>
+    <!-- the rokuyō's English, then its Japanese name, kept as rokuyō -->
+    <string name="kyu_rokuyo_line">%1$s · rokuyō</string>
+    <string name="kyu_black_day">black day — the worst of all</string>
+    <string name="kyu_pardon_day">heaven\'s pardon — good for all</string>
+    <!-- action label for screen readers -->
+    <string name="kyu_day_in_brief">Day in brief</string>
+    <string name="kyu_in_brief">In brief</string>
+    <string name="kyu_brief_counts">good for %1$d · avoid %2$d</string>
+    <!-- appended to kyu_brief_counts; keep the leading space -->
+    <string name="kyu_brief_disputed">\u0020· %1$d disputed</string>
+    <string name="kyu_begins_today">begins today</string>
+    <string name="kyu_until">until %1$s</string>
+    <string name="section_choku">中段 · Twelve stations</string>
+    <string name="section_shuku">二十八宿 · Lunar lodge</string>
+    <string name="section_kagedan">下段 · Lower band</string>
+    <string name="section_senjitsu">選日 · Selected days</string>
+    <string name="section_ennichi">縁日 · Deity days</string>
+    <string name="section_zassetsu">雑節 · Seasonal markers</string>
+    <string name="section_kanshi">干支 · Cycles</string>
+    <string name="row_day">Day</string>
+    <string name="row_solar_month">Solar month</string>
+    <!-- branch animal and the start date: "month of the Dog, since 8 Oct" -->
+    <string name="kyu_solar_month">month of the %1$s, since %2$s</string>
+    <string name="row_month_star">Month star</string>
+    <string name="row_year_star">Year star</string>
+    <string name="kyu_day_star">day star: %1$s</string>
+    <string name="kyu_birth_star">your birth star %1$s · %2$s</string>
+    <string name="kyu_ehou">lucky direction of the year: %1$s</string>
+    <string name="kyu_choku_gloss">%1$s — %2$s · twelve stations</string>
+    <string name="kyu_shuku_gloss">%1$s — %2$s · 28 lodges</string>
+
+    <!-- Frame and menu -->
+    <string name="menu_open">Open menu</string>
+    <!-- action label for screen readers -->
+    <string name="choose_date">Choose date</string>
+    <string name="today">Today</string>
+    <!-- action label for screen readers -->
+    <string name="switch_calendar">Switch calendar</string>
+    <string name="calendar_tibetan">Tibetan</string>
+    <string name="sky_set_location">Set a location for sunrise and sunset</string>
+    <string name="sky_sunrise">Sunrise</string>
+    <string name="sky_solar_noon">Solar noon</string>
+    <string name="sky_sunset">Sunset</string>
+    <!-- the sun's altitude at solar noon -->
+    <string name="sky_altitude">· %1$.1f°</string>
+    <!-- action label for screen readers -->
+    <string name="change_location">Change location</string>
+    <string name="menu_close">Close menu</string>
+    <string name="menu_calendar">CALENDAR</string>
+    <string name="menu_tibetan_subtitle">Phugpa</string>
+    <string name="menu_kyureki">旧暦 Kyūreki</string>
+    <string name="menu_kyureki_subtitle">Tenpō rules, rokuyō</string>
+    <string name="menu_settings">SETTINGS</string>
+    <string name="menu_location">Location</string>
+    <string name="not_set">Not set</string>
+    <string name="menu_birth_date">Birth date</string>
+    <string name="menu_birth_not_set">Not set — for personal days</string>
+    <string name="menu_kigaku">Nine-star reading</string>
+    <string name="menu_kigaku_subtitle">Your birth star against the day star</string>
+    <string name="menu_about">About &amp; sources</string>
+    <string name="menu_about_subtitle">Formulas, fonts, GeoNames</string>
+    <string name="selected">Selected</string>
+
+    <!-- About -->
+    <string name="back">Back</string>
+    <string name="about_title">About &amp; sources</string>
+    <string name="about_tibetan_title">Tibetan calendar</string>
+    <string name="about_tibetan">Phugpa version, computed with the arithmetic of Svante Janson, “Tibetan Calendar Mathematics” (2007, revised 2014 and 2022), epoch 806, with the moon\'s daily anomaly of 1/28 used by the Men-Tsee-Khang almanac. Lunar mansion, yoga, karaṇa and the lunar-day cycles follow Janson §10 and Appendix E. Checked against Janson\'s table of Losar dates for 1927–2046 and, day by day, against Edward Henning\'s computed Phugpa calendars (kalacakra.org).</string>
+    <string name="about_kyureki_title">旧暦</string>
+    <string name="about_kyureki">Tenpō rules in Japan Standard Time: months begin on the day of new moon and are numbered by the major solar term they contain. For 2033 the leap month is 閏11月, the recommended resolution of the 2033 problem. Solar terms, new moons and 雑節 are checked against the National Astronomical Observatory of Japan (暦要項).</string>
+    <string name="about_rekichu_title">暦注</string>
+    <string name="about_rekichu">The almanac annotations (十二直, 二十八宿, 九星, 選日 and 暦注下段) follow the rules tabulated in Japanese Wikipedia after 岡田芳朗・阿久根末忠『現代こよみ読み解き事典』 (1993), and are checked day by day against こよみのページ (koyomi8.com). 神吉日 and 凶会日 are left out: their full rules are not recoverable.</string>
+    <string name="about_astronomy_title">Sun and moon</string>
+    <string name="about_astronomy">Jean Meeus, “Astronomical Algorithms” (2nd ed., 1998): new moons from chapter 49, the sun from the VSOP87D series of Bretagnon and Francou, ΔT from the polynomials of Espenak and Meeus (NASA). Everything is computed on this phone; the app has no internet access.</string>
+    <string name="about_readings_title">Readings</string>
+    <string name="about_readings">Every reading names its source. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, 十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: Lama Zopa Rinpoche\'s translation of the hair-cutting days (FPMT, 2008); Edition Rabten\'s Tibetan calendar; Edward Henning\'s symbolic details of the calendar; and Jigme Lingpa\'s prayer on the tenth day (Lotsawa House); the colours of the nine numbers from Alexander Berzin\'s Details of Tibetan Astrology (Study Buddhism); the four aspects of each year and the yearly pebbles from the White Beryl of Desi Sangye Gyatso with Lochen Dharmashri\'s Moonbeams. Readings not adapted from Wikipedia are the app\'s own English summaries of the cited sources, under the app\'s licence.</string>
+    <string name="about_tibetan_script_title">Tibetan</string>
+    <string name="about_tibetan_script">Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the White Beryl of Desi Sangye Gyatso; their pronunciation follows the THL Simplified Phonetic Transcription of Standard Tibetan (David Germano and Nicolas Tournadre, 2003).</string>
+    <string name="about_glyphs_title">Glyphs</string>
+    <string name="about_glyphs">Festival glyphs are drawn for this app and share its licence.</string>
+    <string name="about_cities_title">Cities</string>
+    <string name="about_cities">City list from GeoNames (geonames.org), licensed under Creative Commons Attribution 4.0.</string>
+    <string name="about_fonts_title">Fonts</string>
+    <string name="about_fonts">Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho Project Authors; and Noto Serif Tibetan, © 2022 The Noto Project Authors; all under the SIL Open Font License 1.1.</string>
+    <string name="about_licence_title">Licence</string>
+    <string name="about_licence">Zanshin Calendar is free software under the Mozilla Public License 2.0.</string>
+
+    <!-- Location -->
+    <!-- saved as the place's name -->
+    <string name="loc_my_location_label">My location · %1$s</string>
+    <string name="loc_locating">Locating…</string>
+    <string name="loc_unavailable">No location available. Try again outdoors, or search for a city.</string>
+    <string name="loc_denied">Location permission not granted.</string>
+    <string name="loc_current">Current</string>
+    <string name="loc_use_mine">Use my location</string>
+    <string name="loc_search">Search city (offline)</string>
+    <string name="loc_type_city">Type a city</string>
+    <string name="loc_loading">Loading cities…</string>
+    <string name="loc_or_coordinates">Or enter coordinates</string>
+    <string name="loc_latitude">Latitude</string>
+    <string name="loc_longitude">Longitude</string>
+    <string name="loc_save">Save coordinates</string>
+    <string name="loc_zone_note">Typed coordinates and your own location use the phone\'s time zone.</string>
+
+    <!-- Date picker -->
+    <string name="picker_previous_month">Previous month</string>
+    <string name="picker_next_month">Next month</string>
+    <string name="picker_small_figures_tibetan">Small figures: Tibetan day</string>
+    <string name="picker_small_figures_kyureki">Small figures: 旧暦 day</string>
+
+    <!-- Day in brief and reading sheets -->
+    <string name="brief_title">The day in brief</string>
+    <string name="brief_black_day">the almanac\'s black day: no other annotation need be read</string>
+    <string name="brief_pardon_day">the almanac notes it good for all</string>
+    <string name="good_for">Good for</string>
+    <string name="avoid">Avoid</string>
+    <string name="brief_by_tone">By tone</string>
+    <string name="brief_for_you">For you</string>
+    <string name="brief_birth_star">birth star and day star: %1$s</string>
+    <string name="brief_note">Listed as the sources give them. No published rule says which annotation outranks another, so none is weighed against the others; where they disagree, both are shown.</string>
+    <string name="brief_also_avoid">also named to avoid</string>
+    <string name="brief_also_good">also named good</string>
+    <string name="tone_lucky">lucky</string>
+    <string name="tone_unlucky">unlucky</string>
+    <string name="tone_mixed">mixed</string>
+    <string name="tone_neutral">neutral</string>
+    <!-- action label: tapping a term shows its English -->
+    <string name="action_english">English</string>
+    <string name="row_reading">Reading</string>
+    <!-- action label: tapping a row opens its reading -->
+    <string name="action_meaning">Meaning</string>
+    <!-- the term's English, then its tone -->
+    <string name="sheet_gloss_tone">%1$s · %2$s</string>
+    <string name="sheet_no_reading">No published reading for this entry.</string>
+    <string name="source">Source</string>
+    <string name="sources">Sources</string>
+    <string name="text_pending_source">text pending source</string>
+    <string name="birth_save">Save</string>
+    <string name="birth_clear">Clear</string>
+    <string name="birth_cancel">Cancel</string>
+
+    <!-- Glyphs -->
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_lotus">lotus</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_butter_lamp">butter lamp</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_mandala">mandala</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_lotus_bud">lotus bud</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_bodhi_leaf">bodhi leaf</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_smoke_offering">smoke offering</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_wheel_of_dharma">wheel of Dharma</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_seed_within_a_circle">seed within a circle</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_triple_ladder">triple ladder</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_butter_lamps">butter lamps</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_ten_dots">ten dots</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_flame">flame</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_kadomatsu">kadomatsu</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_herb_sprig">herb sprig</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_peach_blossom">peach blossom</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_carp_streamers">carp streamers</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_two_stars_across_the_river">two stars across the river</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_full_moon_and_susuki_grass">full moon and susuki grass</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_chrysanthemum">chrysanthemum</string>
+    <!-- describes a festival glyph for screen readers -->
+    <string name="glyph_gibbous_moon">gibbous moon</string>
 </resources>

@@ -32,6 +32,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -50,6 +51,7 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupPositionProvider
 import androidx.compose.ui.window.PopupProperties
+import io.github.iverlein.zanshin.R
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos
@@ -258,7 +260,7 @@ fun PendingTextRow(title: String) {
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
         Text(title, style = body.copy(fontSize = 14.sp, color = Palette.muted))
-        Text("text pending source", style = body.copy(fontSize = 12.sp, color = Palette.faint))
+        Text(stringResource(R.string.text_pending_source), style = body.copy(fontSize = 12.sp, color = Palette.faint))
     }
 }
 

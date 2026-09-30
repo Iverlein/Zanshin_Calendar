@@ -40,10 +40,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.res.stringResource
 import zanshin.app.DayInfo
 import zanshin.app.Labels
+import zanshin.app.LocalLabels
+import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
+import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.ForceContrast
 import zanshin.core.tibetan.Forces
@@ -60,6 +65,7 @@ private enum class TibetanBalloon { MONTH, YEAR, DAY }
 @Composable
 fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
     val day = info.tibetan
+    val labels = LocalLabels.current
     val accent = Palette.saffron
     var balloon by remember(day.jd) { mutableStateOf<TibetanBalloon?>(null) }
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
@@ -89,11 +95,11 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                 )
                 Text(holiday.festival.english, style = body.copy(color = Palette.muted))
                 holiday.movedFromDay?.let {
-                    Text("moved from day $it, which is omitted", style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                    Text(stringResource(R.string.tib_moved_from_day, it), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
                 Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text("${day.day}", style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 44.sp, color = Palette.text))
-                    Text("from dawn", style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.padding(bottom = 8.dp))
+                    Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.padding(bottom = 8.dp))
                 }
             }
         } else {
@@ -103,19 +109,19 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 168.sp, letterSpacing = (-6).sp, color = Palette.text),
                     modifier = Modifier.capBox(168.sp),
                 )
-                Text("from dawn", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(stringResource(R.string.tib_from_dawn), style = body.copy(fontSize = 13.sp, color = Palette.muted))
             }
         }
 
         when (day.repetition) {
-            Repetition.FIRST_OF_TWO -> Chip("first of two")
-            Repetition.SECOND_OF_TWO -> Chip("second of two")
+            Repetition.FIRST_OF_TWO -> Chip(stringResource(R.string.tib_first_of_two))
+            Repetition.SECOND_OF_TWO -> Chip(stringResource(R.string.tib_second_of_two))
             Repetition.NONE -> Unit
         }
         day.omittedBefore?.let { omitted ->
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Icon(Icons.Info, contentDescription = null, tint = Palette.muted)
-                Text("Day $omitted is omitted this month", style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                Text(stringResource(R.string.tib_day_omitted, omitted), style = body.copy(fontSize = 14.sp, color = Palette.muted))
             }
         }
 
@@ -125,47 +131,50 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
             val monthSaid = remember(monthWylie) { Thl.toPhonetic(monthWylie) }
             BalloonText(
                 text = buildAnnotatedString {
-                    append("${Labels.month(day.month, day.leapMonth)} · ")
+                    append("${labels.month(day.month, day.leapMonth)} · ")
                     if (monthScript != null) withStyle(SpanStyle(fontFamily = TibetanSerif)) { append(monthScript) } else append(monthWylie)
                 },
                 style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.Medium),
                 open = balloon == TibetanBalloon.MONTH,
                 onToggle = { toggle(TibetanBalloon.MONTH) },
                 underline = false,
-                description = "${Labels.month(day.month, day.leapMonth)}, ${monthSaid ?: monthWylie}",
+                description = "${labels.month(day.month, day.leapMonth)}, ${monthSaid ?: monthWylie}",
                 rows = listOfNotNull(
-                    monthScript?.let { BalloonRow("Tibetan", it, tibetanStyle(16.sp)) },
-                    BalloonRow("Wylie", monthWylie),
-                    monthSaid?.let { BalloonRow("Say", it) },
-                    BalloonRow("Sanskrit", day.monthNames.sanskrit),
-                    BalloonRow("Animal", "${Labels.enum(day.monthNames.animal)} month"),
-                    BalloonRow("Season", day.monthNames.season),
+                    monthScript?.let { BalloonRow(stringResource(R.string.row_tibetan), it, tibetanStyle(16.sp)) },
+                    BalloonRow(stringResource(R.string.row_wylie), monthWylie),
+                    monthSaid?.let { BalloonRow(stringResource(R.string.row_say), it) },
+                    BalloonRow(stringResource(R.string.row_sanskrit), day.monthNames.sanskrit),
+                    BalloonRow(stringResource(R.string.row_animal), stringResource(R.string.tib_animal_month, gloss(day.monthNames.animal))),
+                    BalloonRow(stringResource(R.string.row_season), day.monthNames.season),
                 ),
             )
             BalloonText(
-                text = "${Labels.enum(day.yearElement)} ${Labels.enum(day.yearAnimal)} year",
+                text = stringResource(R.string.tib_year_line, gloss(day.yearElement), gloss(day.yearAnimal)),
                 style = body.copy(fontSize = 17.sp, color = Palette.muted),
                 open = balloon == TibetanBalloon.YEAR,
                 onToggle = { toggle(TibetanBalloon.YEAR) },
                 rows = listOf(
-                    BalloonRow("Year", "${Labels.enum(day.yearElement)} ${Labels.enum(day.yearGender).lowercase()} ${Labels.enum(day.yearAnimal)}"),
-                    BalloonRow("Royal year", "${day.royalYear}"),
-                    BalloonRow("Rabjung", "${Labels.ordinal(day.rabjungCycle)} cycle, year ${day.rabjungYear}"),
+                    BalloonRow(
+                        stringResource(R.string.row_year),
+                        stringResource(R.string.tib_year_full, gloss(day.yearElement), gloss(day.yearGender, "inText"), gloss(day.yearAnimal)),
+                    ),
+                    BalloonRow(stringResource(R.string.row_royal_year), "${day.royalYear}"),
+                    BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
                 ) + Forces.of(day.yearElement, day.yearAnimal).let { f ->
-                    Force.entries.map { BalloonRow(it.english.replaceFirstChar(Char::uppercase), Labels.enum(f[it])) }
+                    Force.entries.map { BalloonRow(it.english.replaceFirstChar(Char::uppercase), gloss(f[it])) }
                 },
             )
             BalloonText(
-                text = "${day.weekday.english} · ${day.weekday.planet} · ${Labels.enum(day.dayElement)} ${Labels.enum(day.dayAnimal)}",
+                text = "${day.weekday.english} · ${day.weekday.planet} · ${gloss(day.dayElement)} ${gloss(day.dayAnimal)}",
                 style = body.copy(color = Palette.muted),
                 open = balloon == TibetanBalloon.DAY,
                 onToggle = { toggle(TibetanBalloon.DAY) },
                 rows = listOf(
-                    BalloonRow("Weekday", "${day.weekday.english} · gza’ ${day.weekday.wylie}"),
-                    BalloonRow("Planet", day.weekday.planet),
-                    BalloonRow("Element", Labels.enum(day.dayElement)),
-                    BalloonRow("Animal", Labels.enum(day.dayAnimal)),
-                    BalloonRow("Gender", day.dayGender.name.lowercase()),
+                    BalloonRow(stringResource(R.string.row_weekday), "${day.weekday.english} · gza’ ${day.weekday.wylie}"),
+                    BalloonRow(stringResource(R.string.row_planet), day.weekday.planet),
+                    BalloonRow(stringResource(R.string.row_element), gloss(day.dayElement)),
+                    BalloonRow(stringResource(R.string.row_animal), gloss(day.dayAnimal)),
+                    BalloonRow(stringResource(R.string.row_gender), gloss(day.dayGender, "inText")),
                 ),
             )
         }
@@ -173,11 +182,15 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
         // Readings, each opening its sourced text.
+        val observance = stringResource(R.string.tib_monthly_observance)
+        val forBirthYear = stringResource(R.string.tib_for_birth_year)
+        val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
+        val haircutTitle = stringResource(R.string.tib_haircut)
         val annotations = buildList {
             holidayAnnotation?.let { add(it) }
-            day.specialDay?.let { add(Annotation(it.english, "monthly observance", Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
+            day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
             info.personalDay?.let {
-                add(Annotation(it.english, "for your birth year", if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false))
+                add(Annotation(it.english, forBirthYear, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false))
             }
             val pair = day.elementPair
             add(
@@ -186,43 +199,43 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
                     "${pair.english} (${pair.wylie})",
                     if (pair.auspicious) Tone.GOOD else Tone.BAD,
                     Texts.ELEMENT_PAIR[pair],
-                    subtitle = "elements of weekday and mansion: ${pair.english}",
+                    subtitle = pairSubtitle,
                     titleIsKanji = false,
                 ),
             )
             val haircut = Texts.HAIRCUT[day.day - 1]
             add(
                 Annotation(
-                    "Haircut",
-                    haircut.summary.removePrefix("Cutting hair today: ").removeSuffix("."),
+                    haircutTitle,
+                    Catalog.text(haircut.arg!!),
                     if (day.day in Texts.HAIRCUT_GOOD) Tone.GOOD else Tone.BAD,
                     haircut,
                     titleIsKanji = false,
                 ),
             )
         }
-        SectionTitle("Almanac")
+        SectionTitle(stringResource(R.string.section_almanac))
         Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
 
         info.yearContrast?.let { contrasts ->
-            SectionTitle("Your year")
-            Column { contrasts.forEach { AnnotationRow(pebbleAnnotation(it)) { a -> sheet = a } } }
+            SectionTitle(stringResource(R.string.section_your_year))
+            Column { contrasts.forEach { AnnotationRow(pebbleAnnotation(it, labels)) { a -> sheet = a } } }
         }
 
-        SectionTitle("Five components")
+        SectionTitle(stringResource(R.string.section_five_components))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            FactRow("Lunar mansion", day.mansion.wylie, "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}")
-            FactRow("Yoga", day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
-            FactRow("Karaṇa", day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
-            FactRow("Weekday", "gza’ ${day.weekday.wylie}", "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}")
+            FactRow(stringResource(R.string.row_lunar_mansion), day.mansion.wylie, "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}")
+            FactRow(stringResource(R.string.row_yoga), day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
+            FactRow(stringResource(R.string.row_karana), day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
+            FactRow(stringResource(R.string.row_weekday), "gza’ ${day.weekday.wylie}", "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}")
         }
 
-        SectionTitle("Lunar day")
+        SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            FactRow("Animal", Labels.enum(day.lunarDayAnimal), Labels.enum(day.lunarDayAnimal), tibetan = false)
-            FactRow("Trigram", day.trigram.wylie, "${day.trigram.chinese} — ${day.trigram.english}")
+            FactRow(stringResource(R.string.row_animal), gloss(day.lunarDayAnimal), gloss(day.lunarDayAnimal), tibetan = false)
+            FactRow(stringResource(R.string.row_trigram), day.trigram.wylie, "${day.trigram.chinese} — ${day.trigram.english}")
             val colour = SME_BA_COLOURS[day.smeBa - 1]
-            FactRow("Number", "${day.smeBa}", "${day.smeBa} · $colour", tibetan = false, swatch = smeBaSwatch(colour))
+            FactRow(stringResource(R.string.row_number), "${day.smeBa}", "${day.smeBa} · ${Catalog.text("Colour.$colour")}", tibetan = false, swatch = smeBaSwatch(colour))
         }
     }
 
@@ -233,13 +246,14 @@ fun TibetanPage(info: DayInfo, modifier: Modifier = Modifier) {
  * One aspect of the birth year against this year's, with its pebbles as the
  * charts write them: white noughts, black crosses.
  */
-private fun pebbleAnnotation(c: ForceContrast): Annotation {
+private fun pebbleAnnotation(c: ForceContrast, labels: Labels): Annotation {
     val p = c.pebbles
     val aspect = c.force.english.replaceFirstChar(Char::uppercase)
-    val spoken = listOfNotNull(
-        if (p.white > 0) "${p.white} white" else null,
-        if (p.black > 0) "${p.black} black" else null,
-    ).joinToString(" and ") + if (p.white + p.black > 1) " pebbles" else " pebble"
+    val spoken = when {
+        p.black == 0 -> labels.plural(R.plurals.pebbles_white, p.white)
+        p.white == 0 -> labels.plural(R.plurals.pebbles_black, p.black)
+        else -> labels.string(R.string.pebbles_mixed, p.white, p.black)
+    }
     return Annotation(
         title = "$aspect  $p",
         english = c.kinship.english,
@@ -249,7 +263,7 @@ private fun pebbleAnnotation(c: ForceContrast): Annotation {
             else -> Tone.MIXED
         },
         reading = Texts.PEBBLES[c.kinship],
-        subtitle = "${c.kinship.english}: the year's ${c.year.name.lowercase()} to your ${c.own.name.lowercase()}",
+        subtitle = labels.string(R.string.pebble_subtitle, c.kinship.english, gloss(c.year, "inText"), gloss(c.own, "inText")),
         titleIsKanji = false,
         spokenTitle = "$aspect, $spoken",
     )
@@ -287,7 +301,11 @@ fun TibetanTerm(wylie: String, english: String, size: TextUnit = 16.sp, preferAb
         style = if (script != null) tibetanStyle(size) else body.copy(fontSize = size),
         preferAbove = preferAbove,
         modifier = modifier,
-        rows = listOfNotNull(BalloonRow("Wylie", wylie), said?.let { BalloonRow("Say", it) }, BalloonRow("English", english)),
+        rows = listOfNotNull(
+            BalloonRow(stringResource(R.string.row_wylie), wylie),
+            said?.let { BalloonRow(stringResource(R.string.row_say), it) },
+            BalloonRow(stringResource(R.string.row_english), english),
+        ),
         spoken = said ?: wylie,
     )
 }

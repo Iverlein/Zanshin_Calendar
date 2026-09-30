@@ -52,6 +52,7 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import kotlinx.coroutines.launch
@@ -59,14 +60,14 @@ import zanshin.app.CalendarKind
 import zanshin.app.Cities
 import zanshin.app.DayInfo
 import zanshin.app.Days
-import zanshin.app.Labels
+import zanshin.app.LocalLabels
+import io.github.iverlein.zanshin.R
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
 import zanshin.core.astro.SunTimes
 import zanshin.core.kyureki.Kigaku
 import java.time.LocalDate
 import java.time.ZoneId
-import java.util.Locale
 
 private enum class Screen { DAYS, LOCATION, ABOUT }
 
@@ -119,7 +120,7 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             SideMenu(
                 calendar = calendar,
                 placeLabel = place?.label,
-                birthLabel = birth?.format(Labels.headerDate),
+                birthLabel = birth?.format(LocalLabels.current.headerDate),
                 onBirth = {
                     scope.launch { drawer.close() }
                     birthDialog = true
@@ -239,23 +240,23 @@ private fun Header(
         horizontalArrangement = Arrangement.spacedBy(4.dp),
     ) {
         IconButton(onClick = onMenu) {
-            Icon(Icons.Menu, contentDescription = "Open menu", tint = Palette.text)
+            Icon(Icons.Menu, contentDescription = stringResource(R.string.menu_open), tint = Palette.text)
         }
         Row(
             modifier = Modifier
                 .weight(1f)
                 .heightIn(min = 44.dp)
-                .clickable(role = Role.Button, onClickLabel = "Choose date", onClick = onDate)
+                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.choose_date), onClick = onDate)
                 .padding(horizontal = 6.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            Text(date.format(Labels.headerDate), style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold))
+            Text(date.format(LocalLabels.current.headerDate), style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold))
             Icon(Icons.ChevronDown, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(16.dp))
         }
         if (!isToday) {
             Text(
-                "Today",
+                stringResource(R.string.today),
                 style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = Palette.muted),
                 modifier = Modifier
                     .heightIn(min = 44.dp)
@@ -267,12 +268,12 @@ private fun Header(
             modifier = Modifier
                 .height(44.dp)
                 .border(1.dp, accent, RoundedCornerShape(22.dp))
-                .clickable(role = Role.Button, onClickLabel = "Switch calendar", onClick = onSwitch)
+                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.switch_calendar), onClick = onSwitch)
                 .padding(horizontal = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            val name = if (calendar == CalendarKind.TIBETAN) "Tibetan" else "旧暦"
+            val name = if (calendar == CalendarKind.TIBETAN) stringResource(R.string.calendar_tibetan) else "旧暦"
             Text(
                 name,
                 style = body.copy(
@@ -298,7 +299,7 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
     ) {
         if (place == null) {
             Text(
-                "Set a location for sunrise and sunset",
+                stringResource(R.string.sky_set_location),
                 style = body.copy(fontSize = 14.sp, color = Palette.muted),
                 modifier = Modifier
                     .heightIn(min = 44.dp)
@@ -309,20 +310,21 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
             return@Column
         }
         val sun = remember(date, place) { SunTimes.of(date, place.place) }
+        val labels = LocalLabels.current
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
-            SkyItem(Icons.Sunrise, sun.sunrise?.format(Labels.clock) ?: "—", "Sunrise")
+            SkyItem(Icons.Sunrise, sun.sunrise?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunrise))
             SkyItem(
                 Icons.Sun,
-                sun.transit.format(Labels.clock),
-                "Solar noon",
-                suffix = String.format(Locale.ROOT, "· %.1f°", sun.altitudeAtTransitDeg),
+                sun.transit.format(labels.clock),
+                stringResource(R.string.sky_solar_noon),
+                suffix = stringResource(R.string.sky_altitude, sun.altitudeAtTransitDeg),
             )
-            SkyItem(Icons.Sunset, sun.sunset?.format(Labels.clock) ?: "—", "Sunset")
+            SkyItem(Icons.Sunset, sun.sunset?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunset))
         }
         Row(
             modifier = Modifier
                 .heightIn(min = 36.dp)
-                .clickable(role = Role.Button, onClickLabel = "Change location", onClick = onLocation),
+                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.change_location), onClick = onLocation),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
@@ -375,20 +377,30 @@ private fun SideMenu(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
             ) {
-                Text("Zanshin", style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 24.sp))
-                IconButton(onClick = onClose) { Icon(Icons.Close, contentDescription = "Close menu", tint = Palette.muted) }
+                Text(stringResource(R.string.app_name), style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 24.sp))
+                IconButton(onClick = onClose) { Icon(Icons.Close, contentDescription = stringResource(R.string.menu_close), tint = Palette.muted) }
             }
-            SectionLabel("CALENDAR")
-            CalendarRow("Tibetan", "Phugpa", calendar == CalendarKind.TIBETAN, Palette.saffron) { onCalendar(CalendarKind.TIBETAN) }
-            CalendarRow("旧暦 Kyūreki", "Tenpō rules, rokuyō", calendar == CalendarKind.KYUREKI, Palette.vermilion) {
+            SectionLabel(stringResource(R.string.menu_calendar))
+            CalendarRow(
+                stringResource(R.string.calendar_tibetan),
+                stringResource(R.string.menu_tibetan_subtitle),
+                calendar == CalendarKind.TIBETAN,
+                Palette.saffron,
+            ) { onCalendar(CalendarKind.TIBETAN) }
+            CalendarRow(
+                stringResource(R.string.menu_kyureki),
+                stringResource(R.string.menu_kyureki_subtitle),
+                calendar == CalendarKind.KYUREKI,
+                Palette.vermilion,
+            ) {
                 onCalendar(CalendarKind.KYUREKI)
             }
             Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
-            SectionLabel("SETTINGS")
-            MenuRow(Icons.Pin, "Location", placeLabel ?: "Not set", onLocation)
-            MenuRow(Icons.Sun, "Birth date", birthLabel ?: "Not set — for personal days", onBirth)
-            SwitchRow(Icons.Board, "Nine-star reading", "Your birth star against the day star", kigaku, onKigaku)
-            MenuRow(Icons.Info, "About & sources", "Formulas, fonts, GeoNames", onAbout)
+            SectionLabel(stringResource(R.string.menu_settings))
+            MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
+            MenuRow(Icons.Sun, stringResource(R.string.menu_birth_date), birthLabel ?: stringResource(R.string.menu_birth_not_set), onBirth)
+            SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
+            MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
         }
     }
 }
@@ -419,7 +431,7 @@ private fun CalendarRow(title: String, subtitle: String, selected: Boolean, acce
             Text(title, style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold))
             Text(subtitle, style = body.copy(fontSize = 13.sp, color = Palette.muted))
         }
-        if (selected) Icon(Icons.Check, contentDescription = "Selected", tint = accent, modifier = Modifier.size(20.dp))
+        if (selected) Icon(Icons.Check, contentDescription = stringResource(R.string.selected), tint = accent, modifier = Modifier.size(20.dp))
     }
 }
 

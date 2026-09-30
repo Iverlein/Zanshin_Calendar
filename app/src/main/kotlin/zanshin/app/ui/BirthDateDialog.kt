@@ -14,7 +14,9 @@ import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import io.github.iverlein.zanshin.R
 import java.time.Instant
 import java.time.LocalDate
 import java.time.ZoneOffset
@@ -37,15 +39,15 @@ fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate?) -> Unit, onDismiss
         confirmButton = {
             TextButton(onClick = {
                 onSave(state.selectedDateMillis?.let { Instant.ofEpochMilli(it).atZone(ZoneOffset.UTC).toLocalDate() })
-            }) { Text("Save", color = Palette.saffron) }
+            }) { Text(stringResource(R.string.birth_save), color = Palette.saffron) }
         },
         dismissButton = {
             Row {
-                if (initial != null) TextButton(onClick = { onSave(null) }) { Text("Clear", color = Palette.muted) }
-                TextButton(onClick = onDismiss) { Text("Cancel", color = Palette.muted) }
+                if (initial != null) TextButton(onClick = { onSave(null) }) { Text(stringResource(R.string.birth_clear), color = Palette.muted) }
+                TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
             }
         },
     ) {
-        DatePicker(state = state, colors = colors, title = { Text("Birth date", modifier = androidx.compose.ui.Modifier.padding(start = 24.dp, top = 16.dp)) })
+        DatePicker(state = state, colors = colors, title = { Text(stringResource(R.string.menu_birth_date), modifier = androidx.compose.ui.Modifier.padding(start = 24.dp, top = 16.dp)) })
     }
 }

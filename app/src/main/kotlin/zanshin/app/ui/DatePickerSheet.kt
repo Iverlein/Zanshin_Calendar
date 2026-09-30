@@ -32,6 +32,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -41,12 +42,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import zanshin.app.CalendarKind
 import zanshin.app.DayInfo
-import zanshin.app.Labels
+import zanshin.app.LocalLabels
+import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.DayMark
 import zanshin.core.time.SUPPORTED_RANGE
+import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.YearMonth
 import java.time.ZoneId
+import java.time.format.TextStyle
 
 /**
  * Month grid of Gregorian days; under each, the day number in the calendar
@@ -63,6 +67,7 @@ fun DatePickerSheet(
     onPick: (LocalDate) -> Unit,
     onDismiss: () -> Unit,
 ) {
+    val labels = LocalLabels.current
     val accent = if (calendar == CalendarKind.TIBETAN) Palette.saffron else Palette.vermilion
     var month by remember { mutableStateOf(YearMonth.from(selected)) }
     val firstMonth = YearMonth.from(SUPPORTED_RANGE.start)
@@ -80,15 +85,15 @@ fun DatePickerSheet(
         ) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                 IconButton(onClick = { month = month.minusMonths(1) }, enabled = month > firstMonth) {
-                    Icon(Icons.ChevronLeft, contentDescription = "Previous month", tint = if (month > firstMonth) Palette.text else Palette.off)
+                    Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.picker_previous_month), tint = if (month > firstMonth) Palette.text else Palette.off)
                 }
-                Text(month.atDay(1).format(Labels.monthTitle), style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.SemiBold))
+                Text(month.atDay(1).format(labels.monthTitle), style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.SemiBold))
                 IconButton(onClick = { month = month.plusMonths(1) }, enabled = month < lastMonth) {
-                    Icon(Icons.ChevronRight, contentDescription = "Next month", tint = if (month < lastMonth) Palette.text else Palette.off)
+                    Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.picker_next_month), tint = if (month < lastMonth) Palette.text else Palette.off)
                 }
             }
             Row(Modifier.fillMaxWidth()) {
-                for (name in listOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")) {
+                for (name in DayOfWeek.entries.map { it.getDisplayName(TextStyle.SHORT, labels.locale) }) {
                     Text(name, style = body.copy(fontSize = 12.sp, color = Palette.faint, textAlign = TextAlign.Center), modifier = Modifier.weight(1f))
                 }
             }
@@ -124,11 +129,11 @@ fun DatePickerSheet(
 
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                 Text(
-                    "Small figures: ${if (calendar == CalendarKind.TIBETAN) "Tibetan day" else "旧暦 day"}",
+                    stringResource(if (calendar == CalendarKind.TIBETAN) R.string.picker_small_figures_tibetan else R.string.picker_small_figures_kyureki),
                     style = body.copy(fontSize = 12.sp, color = Palette.faint),
                 )
                 Text(
-                    "Today",
+                    stringResource(R.string.today),
                     style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold),
                     modifier = Modifier
                         .heightIn(min = 44.dp)

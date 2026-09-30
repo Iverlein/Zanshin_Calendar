@@ -4,7 +4,12 @@
 
 package zanshin.app
 
+import android.content.res.Resources
+import android.icu.text.MessageFormat
+import android.icu.util.ULocale
 import android.util.LruCache
+import io.github.iverlein.zanshin.R
+import androidx.compose.runtime.staticCompositionLocalOf
 import zanshin.core.astro.Astro
 import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.KyurekiDay
@@ -69,34 +74,40 @@ object Days {
         ChronoUnit.DAYS.between(first, date.coerceIn(SUPPORTED_RANGE.start, SUPPORTED_RANGE.endInclusive)).toInt()
 }
 
-object Labels {
-    val headerDate: DateTimeFormatter = DateTimeFormatter.ofPattern("EEE d MMM yyyy", Locale.ENGLISH)
-    val shortDate: DateTimeFormatter = DateTimeFormatter.ofPattern("d MMM", Locale.ENGLISH)
-    val monthTitle: DateTimeFormatter = DateTimeFormatter.ofPattern("MMMM yyyy", Locale.ENGLISH)
-    val clock: DateTimeFormatter = DateTimeFormatter.ofPattern("HH:mm", Locale.ENGLISH)
+/**
+ * Dates, ordinals and phrases in the app's language: the language its resources
+ * resolved to (`locale_tag` in strings.xml), so dates never switch language
+ * while the text around them stays English (SPEC §10.1).
+ */
+class Labels(private val res: Resources) {
+    val locale: Locale = Locale.forLanguageTag(res.getString(R.string.locale_tag))
+    val headerDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_header_date), locale)
+    val shortDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_short_date), locale)
+    val monthTitle: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_month_title), locale)
+    val clock: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_clock), locale)
+    private val ordinals = MessageFormat("{0,ordinal}", ULocale.forLocale(locale))
 
-    fun ordinal(n: Int): String {
-        val suffix = if (n % 100 in 11..13) "th" else when (n % 10) {
-            1 -> "st"
-            2 -> "nd"
-            3 -> "rd"
-            else -> "th"
-        }
-        return "$n$suffix"
-    }
+    fun string(id: Int, vararg args: Any): String = res.getString(id, *args)
 
-    fun month(number: Int, leap: Boolean): String = "${if (leap) "Leap " else ""}${ordinal(number)} month"
+    fun plural(id: Int, n: Int): String = res.getQuantityString(id, n, n)
 
-    fun enum(e: Enum<*>): String = e.name.lowercase().replaceFirstChar { it.uppercase() }
+    /** 1st, 2nd, 3rd… as the language writes them. */
+    fun ordinal(n: Int): String = ordinals.format(arrayOf(n))
 
-    fun moonPhase(elongation: Double): String = when {
-        elongation < 12 || elongation > 348 -> "New moon"
-        elongation < 84 -> "Waxing crescent"
-        elongation < 96 -> "First quarter"
-        elongation < 168 -> "Waxing gibbous"
-        elongation < 192 -> "Full moon"
-        elongation < 264 -> "Waning gibbous"
-        elongation < 276 -> "Last quarter"
-        else -> "Waning crescent"
-    }
+    fun month(number: Int, leap: Boolean): String = string(if (leap) R.string.month_leap else R.string.month, ordinal(number))
+
+    fun moonPhase(elongation: Double): String = string(
+        when {
+            elongation < 12 || elongation > 348 -> R.string.moon_new
+            elongation < 84 -> R.string.moon_waxing_crescent
+            elongation < 96 -> R.string.moon_first_quarter
+            elongation < 168 -> R.string.moon_waxing_gibbous
+            elongation < 192 -> R.string.moon_full
+            elongation < 264 -> R.string.moon_waning_gibbous
+            elongation < 276 -> R.string.moon_last_quarter
+            else -> R.string.moon_waning_crescent
+        },
+    )
 }
+
+val LocalLabels = staticCompositionLocalOf<Labels> { error("Labels not provided") }

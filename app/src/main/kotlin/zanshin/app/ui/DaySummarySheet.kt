@@ -24,9 +24,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.ActivityNote
@@ -51,7 +53,7 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                 .padding(start = 24.dp, end = 24.dp, bottom = 32.dp),
             verticalArrangement = Arrangement.spacedBy(18.dp),
         ) {
-            Text("The day in brief", style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
+            Text(stringResource(R.string.brief_title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
 
             s.mark?.let { mark ->
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -59,18 +61,18 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                     GlossText(mark.senjitsu.kanji, mark.senjitsu.english, termStyle.copy(fontSize = 18.sp), reading = mark.senjitsu.reading)
                     Text(
                         when (mark) {
-                            DayMark.BLACK -> "the almanac's black day: no other annotation need be read"
-                            DayMark.PARDON -> "the almanac notes it good for all"
+                            DayMark.BLACK -> stringResource(R.string.brief_black_day)
+                            DayMark.PARDON -> stringResource(R.string.brief_pardon_day)
                         },
                         style = body.copy(fontSize = 14.sp, color = Palette.muted),
                     )
                 }
             }
 
-            ActivityBlock("Good for", s.good, Palette.good, good = true)
-            ActivityBlock("Avoid", s.avoid, Palette.bad, good = false)
+            ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
+            ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
 
-            Block("By tone") {
+            Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {
                     val entries = s.byTone[tone].orEmpty()
                     if (entries.isEmpty()) continue
@@ -82,21 +84,20 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
             }
 
             if (s.personal.isNotEmpty() || s.affinity != null) {
-                Block("For you") {
+                Block(stringResource(R.string.brief_for_you)) {
                     if (s.personal.isNotEmpty()) Terms(s.personal)
                     s.affinity?.let { a ->
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             Box(Modifier.size(8.dp).background(toneColor(a.relation.tone), CircleShape))
                             GlossText(a.relation.kanji, a.relation.english, termStyle, reading = a.relation.reading)
-                            Text("birth star and day star: ${a.cycleEnglish}", style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                            Text(stringResource(R.string.brief_birth_star, a.cycleEnglish), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                         }
                     }
                 }
             }
 
             Text(
-                "Listed as the sources give them. No published rule says which annotation outranks another, " +
-                    "so none is weighed against the others; where they disagree, both are shown.",
+                stringResource(R.string.brief_note),
                 style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp),
             )
         }
@@ -122,7 +123,7 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                     Text(n.activity.english, style = body.copy(fontSize = 16.sp))
                     if (n.disputed) {
                         Text(
-                            if (good) "also named to avoid" else "also named good",
+                            stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
                             style = body.copy(fontSize = 12.sp, color = Palette.mixed),
                         )
                     }

@@ -48,6 +48,7 @@ import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
@@ -60,6 +61,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import zanshin.app.Cities
 import zanshin.app.City
+import io.github.iverlein.zanshin.R
 import zanshin.app.SavedPlace
 import zanshin.app.formatCoordinates
 import zanshin.core.astro.Place
@@ -88,7 +90,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
     fun chooseDevice(location: Location) {
         onChoose(
             SavedPlace(
-                label = "My location · ${formatCoordinates(location.latitude, location.longitude)}",
+                label = context.getString(R.string.loc_my_location_label, formatCoordinates(location.latitude, location.longitude)),
                 place = Place(location.latitude, location.longitude, ZoneId.systemDefault()),
             ),
         )
@@ -96,12 +98,12 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
 
     val permission = rememberLauncherForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { granted ->
         if (granted.values.any { it }) {
-            status = "Locating…"
+            status = context.getString(R.string.loc_locating)
             currentLocation(context) { location ->
-                if (location != null) chooseDevice(location) else status = "No location available. Try again outdoors, or search for a city."
+                if (location != null) chooseDevice(location) else status = context.getString(R.string.loc_unavailable)
             }
         } else {
-            status = "Location permission not granted."
+            status = context.getString(R.string.loc_denied)
         }
     }
 
@@ -115,16 +117,16 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
             Modifier.fillMaxWidth().height(64.dp).padding(start = 6.dp, top = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            IconButton(onClick = onBack) { Icon(Icons.ChevronLeft, contentDescription = "Back", tint = Palette.text) }
-            Text("Location", style = body.copy(fontSize = 18.sp, fontWeight = FontWeight.SemiBold))
+            IconButton(onClick = onBack) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.back), tint = Palette.text) }
+            Text(stringResource(R.string.menu_location), style = body.copy(fontSize = 18.sp, fontWeight = FontWeight.SemiBold))
         }
         Column(
             Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 12.dp),
             verticalArrangement = Arrangement.spacedBy(22.dp),
         ) {
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("Current", style = body.copy(fontSize = 13.sp, color = Palette.muted))
-                Text(current?.label ?: "Not set", style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.Medium))
+                Text(stringResource(R.string.loc_current), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(current?.label ?: stringResource(R.string.not_set), style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.Medium))
             }
 
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -141,7 +143,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
                 ) {
                     Icon(Icons.Crosshair, contentDescription = null, tint = Palette.saffron, modifier = Modifier.size(20.dp))
                     Text(
-                        "Use my location",
+                        stringResource(R.string.loc_use_mine),
                         style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = Palette.saffron),
                         modifier = Modifier.padding(start = 10.dp),
                     )
@@ -150,7 +152,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
             }
 
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text("Search city (offline)", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(stringResource(R.string.loc_search), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                 Row(
                     Modifier
                         .fillMaxWidth()
@@ -162,10 +164,10 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
                 ) {
                     Icon(Icons.Search, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(18.dp))
-                    Field(query, { query = it }, placeholder = "Type a city", modifier = Modifier.weight(1f))
+                    Field(query, { query = it }, placeholder = stringResource(R.string.loc_type_city), modifier = Modifier.weight(1f))
                 }
                 if (!loaded && query.isNotBlank()) {
-                    Text("Loading cities…", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                    Text(stringResource(R.string.loc_loading), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                 }
                 for (city in results) {
                     Row(
@@ -188,16 +190,16 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
             }
 
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text("Or enter coordinates", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(stringResource(R.string.loc_or_coordinates), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    CoordinateField("Latitude", lat, { lat = it }, Modifier.weight(1f))
-                    CoordinateField("Longitude", lon, { lon = it }, Modifier.weight(1f))
+                    CoordinateField(stringResource(R.string.loc_latitude), lat, { lat = it }, Modifier.weight(1f))
+                    CoordinateField(stringResource(R.string.loc_longitude), lon, { lon = it }, Modifier.weight(1f))
                 }
                 val la = lat.replace(',', '.').toDoubleOrNull()
                 val lo = lon.replace(',', '.').toDoubleOrNull()
                 val valid = la != null && lo != null && la in -90.0..90.0 && lo in -180.0..180.0
                 Text(
-                    "Save coordinates",
+                    stringResource(R.string.loc_save),
                     style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = if (valid) Palette.ink else Palette.faint),
                     modifier = Modifier
                         .fillMaxWidth()
@@ -210,7 +212,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
                     textAlign = androidx.compose.ui.text.style.TextAlign.Center,
                 )
                 Text(
-                    "Typed coordinates and your own location use the phone's time zone.",
+                    stringResource(R.string.loc_zone_note),
                     style = body.copy(fontSize = 12.sp, color = Palette.faint),
                 )
             }
