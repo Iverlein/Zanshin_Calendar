@@ -33,6 +33,8 @@
     <a href="{{ "/" | relLangURL }}#calendars">{{ i18n "nav_calendars" }}</a>
     <a href="{{ "/" | relLangURL }}#private">{{ i18n "nav_privacy" }}</a>
     <a class="github" href="{{ site.Params.source }}">GitHub</a>
+    {{- $donate := "donate/" | relLangURL }}
+    <a class="donate" href="{{ $donate }}"{{ if eq .RelPermalink $donate }} aria-current="page"{{ end }}>{{ partial "noshi-mini.html" }}<span>{{ i18n "nav_donate" }}</span></a>
   </nav>
   {{- /* ?lang= tells the server to remember the choice in a cookie, so its
      Accept-Language redirect (Caddy vhost) never overrides it. */}}
@@ -46,6 +48,12 @@
     {{- end }}
   </div>
 </header>
+{{- if ne .Layout "donate" }}
+<a class="noshi" href="{{ "donate/" | relLangURL }}" aria-label="{{ i18n "nav_donate" }}">
+  {{ partial "noshi.html" }}
+  <span>{{ i18n "nav_donate" }}</span>
+</a>
+{{- end }}
 <main>
 {{ block "main" . }}{{ end }}
 </main>
