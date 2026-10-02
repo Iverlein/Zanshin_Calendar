@@ -238,3 +238,6 @@ tools/pdf/
 website/public/
 website/resources/
 website/.hugo_build.lock
+
+# Local assistant settings
+.claude/
