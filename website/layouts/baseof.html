@@ -5,23 +5,65 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $l := partialCached "listing.html" . site.Language.Lang }}
 <title>{{ block "title" . }}{{ with partialCached "listing.html" . site.Language.Lang }}{{ .title }} — {{ .short }}{{ end }}{{ end }}</title>
-<meta name="description" content="{{ $l.short }}">
+{{- $desc := .Description | default $l.short }}
+{{- $title := cond .IsHome $l.title .Title }}
+{{- if eq .Kind "404" }}{{ $title = i18n "missing_title" }}{{ end }}
+<meta name="description" content="{{ $desc }}">
 <meta name="theme-color" content="#111311">
 <meta name="color-scheme" content="dark">
+{{- if eq .Kind "404" }}
+<meta name="robots" content="noindex">
+{{- else }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{- range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{- if eq .Language.Lang hugo.Sites.Default.Language.Lang }}
+<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 {{- end }}
+{{- end }}
+{{- end }}
+<link rel="icon" href="{{ "favicon.ico" | absURL }}" sizes="32x32">
 <link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml">
-{{- with partial "listed.html" "images/icon.png" }}
+{{- $icon := partial "listed.html" "images/icon.png" }}
+{{- with $icon }}
 <link rel="apple-touch-icon" href="{{ (.Resize "180x png").RelPermalink }}">
 <meta property="og:image" content="{{ .Permalink }}">
+<meta property="og:image:width" content="{{ .Width }}">
+<meta property="og:image:height" content="{{ .Height }}">
 {{- end }}
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ $l.title }}">
 <meta property="og:locale" content="{{ replace site.Params.listing "-" "_" }}">
-<meta property="og:title" content="{{ $l.title }}">
-<meta property="og:description" content="{{ $l.short }}">
+{{- range .Translations }}
+<meta property="og:locale:alternate" content="{{ replace .Site.Params.listing "-" "_" }}">
+{{- end }}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary">
+{{- if .IsHome }}
+{{- $langs := slice }}{{ range hugo.Sites }}{{ $langs = $langs | append .Language.Lang }}{{ end }}
+{{- /* Data for search engines, never executed, so the page's script-src 'none' does not touch it. */}}
+{{- $app := dict
+  "@context" "https://schema.org"
+  "@type" "SoftwareApplication"
+  "name" $l.title
+  "description" $l.short
+  "url" .Permalink
+  "operatingSystem" "Android 8.0+"
+  "applicationCategory" "UtilitiesApplication"
+  "softwareVersion" $l.versionName
+  "license" "https://www.mozilla.org/en-US/MPL/2.0/"
+  "isAccessibleForFree" true
+  "inLanguage" $langs
+  "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
+  "sameAs" (slice site.Params.source)
+}}
+{{- with $icon }}{{ $app = merge $app (dict "image" .Permalink) }}{{ end }}
+{{- with partial "listed.html" "images/phoneScreenshots/1.png" }}{{ $app = merge $app (dict "screenshot" .Permalink) }}{{ end }}
+{{- if site.Params.fdroidLive }}{{ $app = merge $app (dict "downloadUrl" site.Params.fdroid "installUrl" site.Params.fdroid) }}{{ end }}
+<script type="application/ld+json">{{ $app | jsonify | safeJS }}</script>
+{{- end }}
 <link rel="preload" href="{{ "fonts/figtree.ttf" | absURL }}" as="font" type="font/ttf" crossorigin>
 {{- $css := resources.Get "css/site.css" | resources.ExecuteAsTemplate "css/site.css" . | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
