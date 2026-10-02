@@ -36,7 +36,7 @@ The design, the formulas and their sources are in [docs/SPEC.md](docs/SPEC.md).
 
 ## Support
 
-[Give me a tip](https://ridingtheboar.com/donations/)
+[Give me a tip](https://zanshin.fyi/donate/)
 
 ## Licence
 

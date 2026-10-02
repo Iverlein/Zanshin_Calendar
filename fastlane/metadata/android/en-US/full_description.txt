@@ -29,4 +29,4 @@ Everything is calculated on the device for any date from 1900 to 2100: Tibetan d
 <b>Private</b>
 The app has no internet permission. Your location is taken once from GPS when you ask for it, picked from an offline list of cities, or typed in as coordinates, and it stays on the phone.
 
-<a href="https://ridingtheboar.com/donations/">Give me a tip</a>
+<a href="https://zanshin.fyi/donate/">Give me a tip</a>
