@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+"""The five store screenshots, in one language, on the emulator.
+
+1. Tibetan day: Lhabab Düchen, 2026-11-01, in Lhasa
+2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
+3. The Lhabab Düchen reading sheet, with its source
+4. The 旧暦 almanac bands, from 中段 down
+5. The menu over the 旧暦 page
+
+No birth date is set, so no personal rows appear. The status bar is put in demo
+mode (09:00, full battery, no signal icons). This image ignores demo mode's
+"hide notifications", and every clock change posts a "Clock change"
+notification, so the shade is cleared after each change. Demo mode is left
+before the shade is opened, and entered afresh for every screenshot: the shade,
+taps and swipes all bring the satellite icon back. The clock is changed
+to the shown dates; afterwards automatic time, the status bar and emu.restore()
+are put back.
+Review the PNGs before copying them to
+fastlane/metadata/android/<locale>/images/phoneScreenshots/.
+
+Usage: tools/emulator/store_shots.py en|ru OUTDIR
+"""
+import re
+import sys
+import time
+from pathlib import Path
+
+from emu import KYOTO, LHASA, adb, nodes, prefs, language, restore, sh, start, up
+
+LABELS = {
+    "en": {"festival": r"^Lhabab Düchen$", "menu": r"[Mm]enu"},
+    "ru": {"festival": r"^Лхабаб Дючен$", "menu": r"меню"},
+}
+
+lang, out = sys.argv[1], Path(sys.argv[2])
+labels = LABELS[lang]
+out.mkdir(parents=True, exist_ok=True)
+
+
+def demo(command, **extras):
+    args = ["am", "broadcast", "-a", "com.android.systemui.demo", "-e", "command", command]
+    for k, v in extras.items():
+        args += ["-e", k, v]
+    adb("shell", *args)
+
+
+def shot(n):
+    # Taps and swipes bring the satellite icon back, and only a fresh entry
+    # into demo mode hides it again.
+    demo("exit")
+    demo_bar()
+    time.sleep(1.5)
+    (out / f"{n}.png").write_bytes(adb("exec-out", "screencap", "-p", capture=True))
+    print(f"== {n}")
+    print("\n".join(f"  {t}\t{d}" for t, d, _, _ in nodes() if t or d))
+
+
+def find(pattern, desc=False, last=False):
+    hits = [(x, y) for t, d, x, y in nodes() if re.search(pattern, d if desc else t)]
+    if not hits:
+        sys.exit(f"not found: {pattern}")
+    return hits[-1] if last else hits[0]
+
+
+def tap_at(xy):
+    adb("shell", "input", "tap", str(xy[0]), str(xy[1]))
+    time.sleep(1.5)
+
+
+def clean_status_bar():
+    demo("exit")
+    sh("cmd statusbar expand-notifications")
+    time.sleep(1.5)
+    for _, d, x, y in nodes():
+        if d == "Clear all notifications.":
+            tap_at((x, y))
+    sh("cmd statusbar collapse")
+    time.sleep(1)
+
+
+def demo_bar():
+    demo("enter")
+    demo("clock", hhmm="0900")
+    demo("battery", level="100", plugged="false")
+    demo("network", wifi="hide", mobile="hide", airplane="hide", satellite="hide")
+    demo("notifications", visible="false")
+    demo("status", location="hide", alarm="hide", sync="hide", bluetooth="hide", volume="hide", mute="hide", zen="hide")
+
+
+def day(mmddhhmm, calendar, place):
+    prefs(calendar, birth=None, kigaku=False, place=place)
+    sh(f"date {mmddhhmm}2026.00")
+    clean_status_bar()
+    start(7)
+
+
+# Setting the clock needs a root adbd; the emulator image allows it.
+adb("root")
+adb("wait-for-device")
+time.sleep(2)
+sh("settings put global auto_time 0")
+sh("settings put global sysui_demo_allowed 1")
+language(lang)
+try:
+    day("11010900", "TIBETAN", LHASA)
+    shot(1)
+    up()
+    # The almanac row, not the page heading of the same name.
+    tap_at(find(labels["festival"], last=True))
+    shot(3)
+
+    day("10230900", "KYUREKI", KYOTO)
+    shot(2)
+    # Scroll slowly, without a fling, until 中段 sits under the top bar.
+    for _ in range(4):
+        hits = [y for t, _, _, y in nodes() if t.startswith("中段")]
+        if hits and hits[0] < 1600:
+            adb("shell", "input", "swipe", "540", str(hits[0]), "540", "330", "3000")
+            break
+        up()
+    shot(4)
+
+    adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
+    adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
+    tap_at(find(labels["menu"], desc=True))
+    shot(5)
+finally:
+    demo("exit")
+    sh("settings put global auto_time 1")
+    restore()

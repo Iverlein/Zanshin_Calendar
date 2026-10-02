@@ -24,6 +24,9 @@ PKG = "io.github.iverlein.zanshin"
 BIRTH_1976_06_01 = 2343  # epoch days
 KYOTO_LAT = 4630125598962940169  # 35.0211 as Double raw bits, as the app stores it
 KYOTO_LON = 4638980428775913266  # 135.7538
+# Places as the app stores them: zone, latitude and longitude bits, label.
+KYOTO = ("Asia/Tokyo", KYOTO_LAT, KYOTO_LON, "Kyoto · 35.02°N 135.75°E")
+LHASA = ("Asia/Shanghai", 4629038950741599846, 4636111009531455078, "Lhasa · 29.65°N 91.10°E")
 
 
 def adb(*args, capture=False):
@@ -35,18 +38,19 @@ def sh(command):
     return adb("shell", command, capture=True).decode(errors="replace")
 
 
-def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True):
+def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO):
     """Write the app's preferences; the app is stopped first. birth=None leaves it unset."""
+    zone, lat, lon, label = place
     birth_line = f'<long name="birth" value="{birth}" />' if birth is not None else ""
     xml = f"""<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
     <string name="calendar">{calendar}</string>
-    <string name="zone">Asia/Tokyo</string>
+    <string name="zone">{zone}</string>
     {birth_line}
-    <long name="lon" value="{KYOTO_LON}" />
-    <string name="label">Kyoto · 35.02°N 135.75°E</string>
+    <long name="lon" value="{lon}" />
+    <string name="label">{label}</string>
     <boolean name="kigaku" value="{'true' if kigaku else 'false'}" />
-    <long name="lat" value="{KYOTO_LAT}" />
+    <long name="lat" value="{lat}" />
 </map>
 """
     with tempfile.NamedTemporaryFile("w", suffix=".xml", encoding="utf-8", delete=False) as f:
