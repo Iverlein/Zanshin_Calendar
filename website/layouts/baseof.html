@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $l := partialCached "listing.html" . site.Language.Lang }}
+<title>{{ block "title" . }}{{ with partialCached "listing.html" . site.Language.Lang }}{{ .title }} — {{ .short }}{{ end }}{{ end }}</title>
+<meta name="description" content="{{ $l.short }}">
+<meta name="theme-color" content="#111311">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{- end }}
+<link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml">
+{{- with partial "listed.html" "images/icon.png" }}
+<link rel="apple-touch-icon" href="{{ (.Resize "180x png").RelPermalink }}">
+<meta property="og:image" content="{{ .Permalink }}">
+{{- end }}
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ replace site.Params.listing "-" "_" }}">
+<meta property="og:title" content="{{ $l.title }}">
+<meta property="og:description" content="{{ $l.short }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<link rel="preload" href="{{ "fonts/figtree.ttf" | absURL }}" as="font" type="font/ttf" crossorigin>
+{{- $css := resources.Get "css/site.css" | resources.ExecuteAsTemplate "css/site.css" . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+<header class="top wrap">
+  <a class="brand" href="{{ "/" | relLangURL }}">{{ partial "enso.html" }}<span>{{ $l.title }}</span></a>
+  <nav aria-label="{{ i18n "nav_label" }}">
+    <a href="{{ "/" | relLangURL }}#calendars">{{ i18n "nav_calendars" }}</a>
+    <a href="{{ "/" | relLangURL }}#private">{{ i18n "nav_privacy" }}</a>
+    <a class="github" href="{{ site.Params.source }}">GitHub</a>
+  </nav>
+  {{- /* ?lang= tells the server to remember the choice in a cookie, so its
+     Accept-Language redirect (Caddy vhost) never overrides it. */}}
+  <div class="langs" role="group" aria-label="{{ i18n "lang_label" }}">
+    {{- range .AllTranslations }}
+    {{- if eq .Language.Lang site.Language.Lang }}
+    <span class="on" aria-current="page" lang="{{ .Language.Locale }}" title="{{ .Language.Label }}">{{ upper .Language.Lang }}</span>
+    {{- else }}
+    <a href="{{ .RelPermalink }}?lang={{ .Language.Lang }}" hreflang="{{ .Language.Locale }}" lang="{{ .Language.Locale }}" title="{{ .Language.Label }}">{{ upper .Language.Lang }}</a>
+    {{- end }}
+    {{- end }}
+  </div>
+</header>
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+<footer class="wrap">
+  <p>{{ i18n "footer_licence" (dict "Title" $l.title "Licence" (print site.Params.source "/blob/main/LICENSE") "Fonts" ("fonts/licenses/" | absURL)) | safeHTML }}</p>
+  <p><a href="{{ site.Params.source }}">{{ i18n "source_code" }}</a> · <a href="{{ site.Params.spec }}">{{ i18n "specification" }}</a> · <a href="{{ "donate/" | relLangURL }}">{{ i18n "tip" }}</a></p>
+</footer>
+</body>
+</html>

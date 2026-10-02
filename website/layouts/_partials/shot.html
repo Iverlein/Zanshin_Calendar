@@ -1,0 +1,7 @@
+{{- $s := .shot }}
+{{- $t := index $s site.Language.Lang }}
+{{- with partial "listed.html" (printf "images/phoneScreenshots/%s" $s.file) }}
+{{- $small := .Resize "360x webp q80" }}
+{{- $large := .Resize "720x webp q80" }}
+<img class="phone" src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 360w, {{ $large.RelPermalink }} 720w" sizes="(min-width: 860px) 340px, 60vw" width="{{ $small.Width }}" height="{{ $small.Height }}" alt="{{ $t.alt }}"{{ if not $.eager }} loading="lazy"{{ end }}>
+{{- end }}

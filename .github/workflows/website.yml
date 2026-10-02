@@ -1,0 +1,64 @@
+# Builds website/ with Hugo and rsyncs it to the VPS.
+#
+# The deploy key in DEPLOY_SSH_KEY is pinned on the server to
+# `rrsync /var/www/zanshin`: it can write that directory and run nothing else.
+# DEPLOY_HOST is a secret so the origin address behind Cloudflare stays out of
+# this public repository; DEPLOY_KNOWN_HOSTS pins the host key. SITE_URL, a
+# repository variable, is the site's address; until it is set, the site is
+# built with relative links.
+name: Website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - website/**
+      - fastlane/metadata/android/**
+      - app/build.gradle.kts
+      - app/src/main/res/font/**
+      - app/src/main/assets/licenses/**
+      - .github/workflows/website.yml
+  workflow_dispatch:
+
+concurrency:
+  group: website
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  HUGO_VERSION: 0.167.0
+  HUGO_SHA256: 0163f5c3deddac1f494a1629ddc40c65d18de9d5794facd98f7f96ac2c7d8957
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install Hugo
+        run: |
+          tarball="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sSfLO "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${tarball}"
+          echo "${HUGO_SHA256}  ${tarball}" | sha256sum -c -
+          tar -xzf "${tarball}" hugo
+          sudo mv hugo /usr/local/bin/
+
+      - name: Build
+        working-directory: website
+        run: hugo --minify --gc --baseURL "${{ vars.SITE_URL || '/' }}"
+
+      - name: Deploy
+        env:
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/deploy
+          rsync -rlz --delete --chmod=D755,F644 \
+            -e "ssh -i ~/.ssh/deploy -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            website/public/ "zanshin-deploy@${HOST}:./"

@@ -1,0 +1,27 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<section class="donate-head wrap">
+  {{ partial "enso.html" }}
+  <h1>{{ .Title }}</h1>
+  <p class="lead">{{ i18n "donate_lead" }}</p>
+  <p class="note">{{ i18n "donate_network" }}</p>
+</section>
+
+<section class="coins wrap">
+  {{- range $i, $c := hugo.Data.donate.coin }}
+  {{- $qr := images.QR $c.address (dict "level" "medium" "scale" 6 "targetDir" "donate") }}
+  <article class="coin {{ if modBool $i 2 }}saffron{{ else }}vermilion{{ end }}">
+    <header>
+      <h2>{{ $c.name }} <span class="ticker">{{ $c.ticker }}</span></h2>
+      <p class="network">{{ $c.network }}</p>
+    </header>
+    <div class="qr"><img src="{{ $qr.RelPermalink }}" width="{{ $qr.Width }}" height="{{ $qr.Height }}" alt="{{ i18n "donate_qr" $c.name }}" loading="lazy"></div>
+    <code class="address" title="{{ i18n "donate_select" }}">{{ $c.address }}</code>
+  </article>
+  {{- end }}
+</section>
+
+<section class="thanks wrap">
+  <p>{{ i18n "donate_thanks" }}</p>
+</section>
+{{ end }}

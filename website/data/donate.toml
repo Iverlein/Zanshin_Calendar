@@ -1,0 +1,27 @@
+# Donation addresses, the same as ridingtheboar.com/donations/ (checked
+# 2026-10-02: each address there decodes from its QR image). The QR codes on
+# /donate/ are generated from these strings at build time, so an address is
+# changed in one place.
+[[coin]]
+name = "Bitcoin"
+ticker = "BTC"
+network = "Bitcoin"
+address = "bc1qvuwdqthtjxyw0n4m0g747fs9pes4wnctqwmnnv"
+
+[[coin]]
+name = "Ethereum"
+ticker = "ETH"
+network = "Ethereum · ERC-20"
+address = "0x5C61c91d2245B2ddBC3B39C65Ed9898433140624"
+
+[[coin]]
+name = "Tether"
+ticker = "USDT"
+network = "Tron · TRC-20"
+address = "TRfGE7xfXVgiN26K77HqtYYL1E4vWjVqs5"
+
+[[coin]]
+name = "Toncoin"
+ticker = "TON"
+network = "TON"
+address = "UQCwxVpOReNn3xoLYMhjWGlvkgcaRkt0czPDQ9RecW_gmfN-"

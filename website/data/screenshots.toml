@@ -1,0 +1,46 @@
+# Captions for fastlane/metadata/android/<listing>/images/phoneScreenshots/<file>,
+# one table per language.
+[[shot]]
+file = "1.png"
+[shot.en]
+caption = "A Tibetan day"
+alt = "Tibetan day: Lhabab Düchen, the 22nd of the 9th month, with the almanac and the sun's times in Lhasa"
+[shot.ru]
+caption = "Тибетский день"
+alt = "Тибетский день: Лхабаб Дючен, 22-е число 9-го месяца, с альманахом и временем солнца в Лхасе"
+
+[[shot]]
+file = "2.png"
+[shot.en]
+caption = "A 旧暦 day"
+alt = "Japanese day: 十三夜, the 13th of the 9th month, 先負, and the solar term 霜降 beginning"
+[shot.ru]
+caption = "День по 旧暦"
+alt = "Японский день: 十三夜, 13-й день 9-го месяца, 先負 и начало солнечного сезона 霜降"
+
+[[shot]]
+file = "3.png"
+[shot.en]
+caption = "Every reading has its source"
+alt = "A reading opened: Lhabab Düchen explained, with the published source it comes from"
+[shot.ru]
+caption = "У каждого толкования есть источник"
+alt = "Открытое толкование: Лхабаб Дючен и опубликованный источник, из которого оно взято"
+
+[[shot]]
+file = "4.png"
+[shot.en]
+caption = "The almanac bands"
+alt = "The 旧暦 almanac: 中段, 二十八宿, 暦注下段 and 選日, each entry with its English"
+[shot.ru]
+caption = "Полосы альманаха"
+alt = "Альманах 旧暦: 中段, 二十八宿, 暦注下段 и 選日, у каждой записи — перевод"
+
+[[shot]]
+file = "5.png"
+[shot.en]
+caption = "Calendar, place and birth date"
+alt = "The menu: Tibetan or 旧暦, location, birth date, and about and sources"
+[shot.ru]
+caption = "Календарь, место и дата рождения"
+alt = "Меню: тибетский календарь или 旧暦, место, дата рождения, о приложении и источниках"

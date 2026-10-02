@@ -233,3 +233,8 @@ core/src/test/resources/vectors/
 
 # PDF engine and review dossiers, kept locally
 tools/pdf/
+
+# Website build output
+website/public/
+website/resources/
+website/.hugo_build.lock

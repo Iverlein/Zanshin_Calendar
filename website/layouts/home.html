@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{- $l := partialCached "listing.html" . site.Language.Lang }}
+{{- $shots := hugo.Data.screenshots.shot }}
+<section class="hero wrap">
+  <div class="hero-text">
+    <h1>{{ $l.title }}</h1>
+    <p class="short">{{ $l.short }}</p>
+    <p class="lead">{{ $l.lead | safeHTML }}</p>
+    <div class="actions">{{ partial "get.html" . }}</div>
+    <p class="note">{{ i18n "note" (dict "Version" $l.versionName) }}</p>
+  </div>
+  {{- with index $shots 0 }}
+  <div class="hero-shot">{{ partial "shot.html" (dict "shot" . "eager" true) }}</div>
+  {{- end }}
+</section>
+
+<section class="shots" aria-label="{{ i18n "screenshots" }}">
+  <div class="strip wrap">
+    {{- range after 1 $shots }}
+    <figure>{{ partial "shot.html" (dict "shot" .) }}<figcaption>{{ (index . site.Language.Lang).caption }}</figcaption></figure>
+    {{- end }}
+  </div>
+</section>
+
+<section id="calendars" class="calendars wrap">
+  {{- range $i, $c := $l.calendars }}
+  <article class="card {{ if $i }}vermilion{{ else }}saffron{{ end }}">
+    <h2>{{ $c.title | safeHTML }}</h2>
+    {{ $c.body | safeHTML }}
+  </article>
+  {{- end }}
+</section>
+
+<section class="paragraphs wrap">
+  {{- range $l.paragraphs }}
+  <p>{{ . | safeHTML }}</p>
+  {{- end }}
+</section>
+
+<section id="private" class="principles wrap">
+  {{- range $l.principles }}
+  <article>
+    <h2>{{ .title | safeHTML }}</h2>
+    <p>{{ .body | safeHTML }}</p>
+  </article>
+  {{- end }}
+  <article>
+    <h2>{{ i18n "sources_title" }}</h2>
+    <p>{{ i18n "sources_text" (dict "Spec" site.Params.spec) | safeHTML }}</p>
+  </article>
+</section>
+
+{{- with $l.changes }}
+<section class="changes wrap">
+  <h2>{{ i18n "new_in" $l.versionName }}</h2>
+  <p>{{ . }}</p>
+</section>
+{{- end }}
+
+<section class="get wrap">
+  {{ partial "enso.html" }}
+  <div class="actions">{{ partial "get.html" . }}</div>
+</section>
+{{ end }}

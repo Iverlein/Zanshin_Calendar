@@ -1,0 +1,63 @@
+# The Zanshin Calendar website. Texts, screenshots, version and changelog come
+# from the F-Droid listing and the app build file, mounted below, so the site
+# never says what the store listing does not. The address comes from the
+# SITE_URL repository variable at deploy time (.github/workflows/website.yml).
+baseURL = "/"
+title = "Zanshin Calendar"
+disableKinds = ["taxonomy", "term", "section", "rss"]
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+[params]
+source = "https://github.com/Iverlein/Zanshin_Calendar"
+spec = "https://github.com/Iverlein/Zanshin_Calendar/blob/main/docs/SPEC.md"
+fdroid = "https://f-droid.org/packages/io.github.iverlein.zanshin/"
+# Set to true once the package page on f-droid.org answers.
+fdroidLive = false
+
+# Each language reads fastlane/metadata/android/<listing>/; screenshots and the
+# icon fall back to en-US, as on F-Droid. Interface words are in i18n/.
+[languages.en]
+locale = "en"
+label = "English"
+weight = 1
+[languages.en.params]
+listing = "en-US"
+
+[languages.ru]
+locale = "ru"
+label = "Русский"
+weight = 2
+[languages.ru.params]
+listing = "ru-RU"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "data"
+target = "data"
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+[[module.mounts]]
+source = "../fastlane/metadata/android"
+target = "assets/listing"
+[[module.mounts]]
+source = "../app"
+target = "assets/app"
+files = ["build.gradle.kts"]
+[[module.mounts]]
+source = "../app/src/main/res/font"
+target = "static/fonts"
+files = ["figtree.ttf", "shippori_medium.ttf"]
+[[module.mounts]]
+source = "../app/src/main/assets/licenses"
+target = "static/fonts/licenses"
+files = ["Figtree-OFL.txt", "ShipporiMincho-OFL.txt"]

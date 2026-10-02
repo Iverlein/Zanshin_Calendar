@@ -1,0 +1,260 @@
+/* The app's palette (app/.../ui/Theme.kt) and its fonts. Dark only, like the app.
+   Figtree and the Shippori subset have no Cyrillic: Onest and Zanshin Serif
+   Cyrillic (PT Serif, renamed; tools/subset_web_fonts.py) fill it in, and their
+   unicode-range keeps a page without Cyrillic from downloading them. */
+@font-face {
+  font-family: "Figtree";
+  src: url("{{ "fonts/figtree.ttf" | relURL }}") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Shippori Mincho";
+  src: url("{{ "fonts/shippori_medium.ttf" | relURL }}") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Onest Cyrillic";
+  src: url("{{ "fonts/onest-cyrillic.woff2" | relURL }}") format("woff2");
+  font-weight: 400 600;
+  font-display: swap;
+  unicode-range: U+0400-045F, U+0490-0491, U+2116;
+}
+@font-face {
+  font-family: "Zanshin Serif Cyrillic";
+  src: url("{{ "fonts/zanshin-serif-cyrillic.woff2" | relURL }}") format("woff2");
+  /* One weight; the range stops the browser from thickening it for headings. */
+  font-weight: 400 600;
+  font-display: swap;
+  unicode-range: U+0400-045F, U+0490-0491, U+2116;
+}
+
+:root {
+  --ink: #111311;
+  --surface: #1a1d1a;
+  --raised: #232723;
+  --line: #2c302c;
+  --line-strong: #3a3f3a;
+  --text: #ece8df;
+  --muted: #a6a99f;
+  --faint: #80847c;
+  --saffron: #e3a94f;
+  --vermilion: #ec8468;
+  --sans: "Figtree", "Onest Cyrillic", "Shippori Mincho", system-ui, sans-serif;
+  --serif: "Shippori Mincho", "Zanshin Serif Cyrillic", "Noto Serif CJK JP", serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font: 400 17px/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--saffron); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--text); }
+
+.wrap { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 600px) { .wrap { padding: 0 32px; } }
+
+/* Header */
+.top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding-top: 20px; padding-bottom: 20px;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  color: var(--text); text-decoration: none; font-weight: 600; letter-spacing: .01em;
+}
+.brand .enso { width: 28px; height: 28px; }
+.top nav { display: flex; gap: 20px; font-size: 15px; }
+.top nav a { color: var(--muted); text-decoration: none; }
+.top nav a:hover { color: var(--text); }
+.top nav { margin-left: auto; }
+/* Language switch: both codes always visible, the current one filled. */
+.langs {
+  display: flex; flex: none; padding: 3px; gap: 2px;
+  border: 1.5px solid var(--line-strong); border-radius: 999px;
+  font-size: 13px; font-weight: 600; letter-spacing: .06em; line-height: 1;
+}
+.langs a, .langs span { padding: 7px 10px; border-radius: 999px; }
+.langs a { color: var(--muted); text-decoration: none; }
+.langs a:hover { color: var(--text); background: var(--raised); }
+.langs .on { background: var(--saffron); color: var(--ink); }
+@media (max-width: 480px) {
+  .brand span { display: none; }
+  .top nav { gap: 14px; }
+  /* The source-code button and the footer link to GitHub too. */
+  .top nav a.github { display: none; }
+}
+@media (max-width: 360px) {
+  .top nav { gap: 12px; font-size: 14px; }
+}
+
+.enso { color: var(--saffron); }
+.enso .moon { fill: var(--vermilion); }
+
+/* Hero */
+.hero {
+  display: grid; gap: 40px; align-items: center;
+  padding-top: 32px; padding-bottom: 56px;
+}
+@media (min-width: 860px) {
+  .hero { grid-template-columns: minmax(0, 1fr) 340px; gap: 64px; padding-top: 56px; padding-bottom: 80px; }
+}
+.hero h1 {
+  margin: 0 0 12px;
+  font: 500 clamp(44px, 8vw, 76px)/1.05 var(--serif);
+  color: var(--saffron);
+  letter-spacing: -.01em;
+}
+.short { margin: 0 0 24px; font-size: clamp(19px, 2.4vw, 23px); line-height: 1.4; color: var(--text); }
+.lead { margin: 0 0 32px; color: var(--muted); max-width: 38em; }
+.note { margin: 20px 0 0; font-size: 14px; color: var(--faint); }
+.hero-shot { justify-self: center; width: min(320px, 78vw); }
+
+.actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.button {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 18px;
+  border: 1.5px solid var(--line-strong); border-radius: 999px;
+  color: var(--text); text-decoration: none; font-weight: 500;
+}
+.button:hover { border-color: var(--muted); color: var(--text); }
+.button.primary { background: var(--saffron); border-color: var(--saffron); color: var(--ink); }
+.button.primary:hover { background: #ecbb6c; border-color: #ecbb6c; color: var(--ink); }
+.button.pending { border-color: var(--saffron); color: var(--saffron); cursor: default; }
+
+.phone {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--line-strong); border-radius: 28px;
+  box-shadow: 0 30px 80px -30px rgba(0, 0, 0, .9);
+  background: var(--ink);
+}
+
+/* Screenshots */
+.shots { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--surface); }
+.strip {
+  display: grid; grid-auto-flow: column; grid-auto-columns: min(220px, 62vw);
+  gap: 20px; padding-top: 40px; padding-bottom: 40px;
+  overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin;
+  scroll-padding-inline: 16px;
+}
+@media (min-width: 600px) { .strip { scroll-padding-inline: 32px; } }
+@media (min-width: 960px) {
+  .strip { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; overflow: visible; }
+}
+.strip figure { margin: 0; scroll-snap-align: start; }
+.strip .phone { border-radius: 20px; box-shadow: none; }
+.strip figcaption { margin-top: 12px; font-size: 14px; color: var(--muted); }
+
+/* Calendars */
+.calendars { display: grid; gap: 24px; padding-top: 72px; padding-bottom: 24px; }
+@media (min-width: 860px) { .calendars { grid-template-columns: 1fr 1fr; } }
+.card {
+  padding: 28px 28px 20px; border: 1px solid var(--line);
+  border-radius: 20px; background: var(--surface);
+}
+.card h2 { margin: 0 0 16px; font: 500 26px/1.25 var(--serif); }
+.card.saffron h2 { color: var(--saffron); }
+.card.vermilion h2 { color: var(--vermilion); }
+.card ul { margin: 0; padding: 0; list-style: none; }
+.card li { position: relative; padding: 9px 0 9px 20px; border-top: 1px solid var(--line); color: var(--muted); }
+.card li:first-child { border-top: 0; }
+.card li::before {
+  content: ""; position: absolute; left: 2px; top: 19px;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--faint);
+}
+.card.saffron li::before { background: var(--saffron); }
+.card.vermilion li::before { background: var(--vermilion); }
+
+.paragraphs { padding-top: 24px; padding-bottom: 24px; }
+.paragraphs p { margin: 0 0 12px; max-width: 46em; color: var(--muted); }
+
+/* Principles */
+.principles { display: grid; gap: 32px; padding-top: 48px; padding-bottom: 72px; }
+@media (min-width: 860px) { .principles { grid-template-columns: repeat(3, 1fr); gap: 40px; } }
+.principles article { border-top: 1px solid var(--line-strong); padding-top: 20px; }
+.principles h2 {
+  margin: 0 0 10px; font-size: 13px; font-weight: 600;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--faint);
+}
+.principles p { margin: 0; color: var(--muted); }
+
+.changes { padding-bottom: 72px; }
+.changes h2 { margin: 0 0 8px; font: 500 24px/1.3 var(--serif); }
+.changes p { margin: 0; max-width: 46em; color: var(--muted); }
+
+.get {
+  display: flex; flex-direction: column; align-items: center; gap: 28px;
+  padding-top: 64px; padding-bottom: 72px; border-top: 1px solid var(--line);
+}
+.get .enso { width: 72px; height: 72px; }
+.get .actions { justify-content: center; }
+
+footer { padding-top: 28px; padding-bottom: 40px; border-top: 1px solid var(--line); font-size: 14px; color: var(--faint); }
+footer p { margin: 0 0 8px; max-width: 60em; }
+footer a { color: var(--muted); }
+
+.missing { text-align: center; padding-top: 96px; padding-bottom: 120px; }
+.missing .enso { width: 72px; height: 72px; }
+.missing h1 { font: 500 40px/1.2 var(--serif); color: var(--saffron); margin: 24px 0 8px; }
+.missing p { color: var(--muted); }
+
+/* Donations: one card per coin, accents alternating like the calendar cards.
+   The QR is dark on paper rather than inverted, because many wallet scanners
+   do not read light-on-dark codes; multiply turns the PNG's white into the
+   paper colour. */
+.donate-head { padding-top: 48px; padding-bottom: 40px; }
+@media (min-width: 860px) { .donate-head { padding-top: 72px; } }
+.donate-head .enso { width: 56px; height: 56px; }
+.donate-head h1 {
+  margin: 20px 0 16px;
+  font: 500 clamp(36px, 6vw, 56px)/1.1 var(--serif);
+  color: var(--saffron); letter-spacing: -.01em;
+}
+.donate-head .lead { margin-bottom: 12px; }
+.donate-head .note { margin: 0; max-width: 46em; }
+
+.coins { display: grid; gap: 24px; padding-bottom: 24px; }
+@media (min-width: 640px) { .coins { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1040px) { .coins { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; } }
+.coin {
+  display: flex; flex-direction: column; gap: 20px;
+  padding: 24px; border: 1px solid var(--line);
+  border-radius: 20px; background: var(--surface);
+  border-top: 3px solid var(--accent);
+}
+.coin.saffron { --accent: var(--saffron); }
+.coin.vermilion { --accent: var(--vermilion); }
+.coin h2 { margin: 0; font: 500 24px/1.25 var(--serif); color: var(--accent); }
+.coin .ticker {
+  margin-left: 6px; font: 600 12px/1 var(--sans); letter-spacing: .12em;
+  color: var(--faint); vertical-align: middle;
+}
+.coin .network {
+  margin: 6px 0 0; font-size: 13px; font-weight: 600;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+}
+.qr {
+  align-self: center; width: min(100%, 220px); padding: 10px;
+  border-radius: 14px; background: var(--text);
+}
+.qr img { display: block; width: 100%; height: auto; mix-blend-mode: multiply; image-rendering: pixelated; }
+.address {
+  display: block; padding: 12px 14px; border: 1px solid var(--line-strong);
+  border-radius: 12px; background: var(--ink);
+  font: 400 14px/1.5 ui-monospace, "SFMono-Regular", "DejaVu Sans Mono", monospace;
+  color: var(--text); overflow-wrap: anywhere; user-select: all; cursor: text;
+}
+.address:hover { border-color: var(--accent); }
+.thanks { padding-top: 32px; padding-bottom: 80px; }
+.thanks p { margin: 0; font: 500 20px/1.4 var(--serif); color: var(--muted); }
+
+a:focus-visible, .button:focus-visible, .langs a:focus-visible { outline: 2px solid var(--saffron); outline-offset: 3px; }

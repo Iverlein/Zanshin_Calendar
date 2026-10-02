@@ -1,0 +1,7 @@
+{{- /* A file of this language's F-Droid listing, or of en-US when the
+   language has none, as F-Droid itself falls back for images. */ -}}
+{{- $r := resources.Get (printf "listing/%s/%s" site.Params.listing .) -}}
+{{- if not $r -}}
+  {{- $r = resources.Get (printf "listing/en-US/%s" .) -}}
+{{- end -}}
+{{- return $r -}}

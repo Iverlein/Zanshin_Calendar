@@ -1,0 +1,8 @@
+{{ define "title" }}{{ i18n "missing_title" }} — {{ site.Title }}{{ end }}
+{{ define "main" }}
+<section class="missing wrap">
+  {{ partial "enso.html" }}
+  <h1>{{ i18n "missing_title" }}</h1>
+  <p>{{ i18n "missing_text" }} <a href="{{ "/" | relLangURL }}">{{ i18n "missing_back" site.Title }}</a>.</p>
+</section>
+{{ end }}

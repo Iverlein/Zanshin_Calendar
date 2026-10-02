@@ -1,0 +1,42 @@
+{{- /* The F-Droid listing, parsed once: title, short description, the lead
+   paragraph, the two calendars (blocks with a list), the principles (other
+   titled blocks), plain paragraphs, and the version with its changelog. */ -}}
+{{- $dir := printf "listing/%s/" site.Params.listing -}}
+{{- $full := (resources.Get (print $dir "full_description.txt")).Content | strings.TrimSpace -}}
+{{- $blocks := split (replaceRE `\r` "" $full) "\n\n" -}}
+{{- $calendars := slice -}}
+{{- $principles := slice -}}
+{{- $paragraphs := slice -}}
+{{- range after 1 $blocks -}}
+  {{- $b := strings.TrimSpace . -}}
+  {{- if hasPrefix $b "<b>" -}}
+    {{- $title := replaceRE `(?s)^<b>(.*?)</b>.*$` "$1" $b -}}
+    {{- $body := replaceRE `(?s)^<b>.*?</b>\s*` "" $b -}}
+    {{- $item := dict "title" $title "body" $body -}}
+    {{- if strings.Contains $body "<ul>" -}}
+      {{- $calendars = $calendars | append $item -}}
+    {{- else -}}
+      {{- $principles = $principles | append $item -}}
+    {{- end -}}
+  {{- else if not (hasPrefix $b "<a ") -}}
+    {{- $paragraphs = $paragraphs | append $b -}}
+  {{- end -}}
+{{- end -}}
+{{- $gradle := (resources.Get "app/build.gradle.kts").Content -}}
+{{- $versionName := index (index (findRESubmatch `versionName\s*=\s*"([^"]+)"` $gradle 1) 0) 1 -}}
+{{- $versionCode := index (index (findRESubmatch `versionCode\s*=\s*(\d+)` $gradle 1) 0) 1 -}}
+{{- $changes := "" -}}
+{{- /* No fallback: an English changelog on another language's page reads as a gap. */ -}}
+{{- with resources.Get (printf "%schangelogs/%s.txt" $dir $versionCode) -}}
+  {{- $changes = .Content | strings.TrimSpace -}}
+{{- end -}}
+{{- return dict
+  "title" ((resources.Get (print $dir "title.txt")).Content | strings.TrimSpace)
+  "short" ((resources.Get (print $dir "short_description.txt")).Content | strings.TrimSpace)
+  "lead" (index $blocks 0)
+  "calendars" $calendars
+  "principles" $principles
+  "paragraphs" $paragraphs
+  "versionName" $versionName
+  "changes" $changes
+-}}

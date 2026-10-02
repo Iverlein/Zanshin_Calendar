@@ -1,0 +1,6 @@
+{{- if site.Params.fdroidLive -}}
+<a class="button primary" href="{{ site.Params.fdroid }}">{{ i18n "get_fdroid" }}</a>
+{{- else -}}
+<span class="button pending" aria-disabled="true">{{ i18n "fdroid_pending" }}</span>
+{{- end }}
+<a class="button" href="{{ site.Params.source }}">{{ i18n "source_code" }}</a>
