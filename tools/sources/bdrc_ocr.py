@@ -10,9 +10,10 @@
                                         Ume_Druma, Ume_Petsuk
 
 CPU only, a few seconds a page. On the typeset 1996 White Beryl the
-Woodblock model beats Modern (12% against 41% syllable errors, 2026-10-03);
-on woodblock tables the columns interleave and digits drop. Its use here is
-as a second witness beside agy (disagree.py). Setup notes and the upstream
+Woodblock model beats Modern (12% against 41% syllable errors, 2026-10-03),
+and Woodblock-Stacks is better again (5% CER on the benchmark pages); on
+woodblock tables the columns interleave and digits drop. Its use here is as
+a quick second witness beside Yigdzin-1 (hf_read.py, disagree.py). Setup notes and the upstream
 bug patched below: ~/knowledge/tibetan-woodblock-ocr.md on MONOLITH.
 """
 import os
@@ -58,9 +59,9 @@ def ocr(app, model, indir, outdir):
 
 def main(argv):
     if len(argv) == 2 and argv[1] == "setup":
-        setup(Path(argv[0]))
+        setup(Path(argv[0]).resolve())
     elif len(argv) == 5 and argv[1] == "run":
-        ocr(Path(argv[0]), argv[2], argv[3], argv[4])
+        ocr(Path(argv[0]).resolve(), argv[2], argv[3], argv[4])
     else:
         sys.exit(__doc__)
 

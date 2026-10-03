@@ -10,7 +10,8 @@ launch flags of its own, as MONOLITH's automation asks of every consumer
 (~/automation/ai/README.md). If nothing serves on the port, it starts
 `llm-serve PRESET` and stops it when done; a server it did not start is left
 alone, and if that server holds another preset the script stops with a
-message rather than taking the port. LLM_ENDPOINT overrides the address,
+message rather than taking the port. SIGTERM and SIGHUP stop it cleanly
+too, and at the end it checks that no model is left on the GPU (gpu.py). LLM_ENDPOINT overrides the address,
 LLM_PRESETS the preset registry (for trying a model before it is added).
 
 --lines cuts a page into text lines first (by the horizontal ink profile,
@@ -27,10 +28,14 @@ import shutil
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).parent))
+import gpu  # noqa: E402
 
 ENDPOINT = os.environ.get("LLM_ENDPOINT", "http://127.0.0.1:8080").rstrip("/")
 DEFAULT_PROMPT = ("Transcribe all the Tibetan text in this image into Tibetan Unicode exactly as printed, "
@@ -72,13 +77,28 @@ class Lease:
             if healthy():
                 return self
             if self.proc.poll() is not None:
+                self.stop()
                 sys.exit(f"llm-serve {self.preset} exited with {self.proc.returncode}; see {log.name}")
             time.sleep(1)
+        self.stop()
         sys.exit(f"llm-serve {self.preset} did not come up in 300 s; see {log.name}")
+
+    def stop(self):
+        """Stop the server and wait until it is really gone."""
+        llm_serve("--stop")
+        for _ in range(60):
+            if not llm_serve("--preset") and not healthy():
+                return
+            time.sleep(1)
+        print(f"# llm-serve {self.preset} still up 60 s after --stop; check llm-serve --status", flush=True)
 
     def __exit__(self, *exc):
         if self.proc:
-            llm_serve("--stop")
+            self.stop()
+        elif llm_serve("--preset"):
+            print(f"# llm-serve {self.preset} left running: it was up before this run", flush=True)
+            return
+        gpu.report()
 
 
 def data_url(im):
@@ -103,28 +123,44 @@ def ask(im, prompt, max_tokens=2048):
         return json.load(r)["choices"][0]["message"]["content"]
 
 
-def lines(page, core=0.2, min_height=8):
+def lines(page, core=0.2, min_height=8, column=(0.55, 0.95)):
     """Text lines of a typeset page. Tibetan vowel signs bridge the white
     between lines, so lines are found by their dense cores (the head line and
     letter bodies, where the ink profile passes a fifth of its maximum), and
-    each line runs from the emptiest row above its core to the one below."""
+    each line runs from the emptiest row above its core to the one below.
+    Cores are taken from two profiles: one over a column at the right of the
+    page, because the White Beryl's woodcuts stand at the left and a profile
+    across them merges the text lines beside a figure into one; and one over
+    the whole width, for the short last lines of a verse that do not reach
+    that column (a whole-width core is kept only where no column core is)."""
     g = page.convert("L")
     w, h = g.size
     px = g.load()
-    ink = [sum(1 for x in range(0, w, 2) if px[x, y] < 128) for y in range(h)]
-    smooth = [sum(ink[max(0, y - 2):y + 3]) for y in range(h)]
-    threshold = max(smooth) * core
-    cores, start = [], None
-    for y, v in enumerate(smooth + [0]):
-        if v > threshold and start is None:
-            start = y
-        elif v <= threshold and start is not None:
-            if y - start >= min_height:
-                cores.append((start, y))
-            start = None
+
+    def profile(x0, x1):
+        ink = [sum(1 for x in range(x0, x1, 2) if px[x, y] < 128) for y in range(h)]
+        return [sum(ink[max(0, y - 2):y + 3]) for y in range(h)]
+
+    def find(smooth):
+        threshold = max(smooth) * core
+        found, start = [], None
+        for y, v in enumerate(smooth + [0]):
+            if v > threshold and start is None:
+                start = y
+            elif v <= threshold and start is not None:
+                if y - start >= min_height:
+                    found.append((start, y))
+                start = None
+        return found
+
+    full = profile(0, w)
+    in_column = find(profile(int(w * column[0]), int(w * column[1])))
+    cores = in_column + [c for c in find(full)
+                         if not any(c[0] < b and a < c[1] for a, b in in_column)]
+    cores.sort()
     cuts = [0]
     for (a0, a1), (b0, b1) in zip(cores, cores[1:]):
-        cuts.append(min(range(a1, b0 + 1), key=lambda y: smooth[y]))
+        cuts.append(min(range(a1, max(a1, b0) + 1), key=lambda y: full[y]))
     cuts.append(h)
     return [g.crop((0, cuts[i], w, cuts[i + 1])) for i in range(len(cores))]
 
@@ -146,14 +182,21 @@ def main(argv):
         sys.exit(__doc__)
     preset, out, imgs = argv[0], Path(argv[1]), argv[2:]
     out.mkdir(parents=True, exist_ok=True)
+    gpu.exit_on_signals()  # a killed run still stops the server it started
     with Lease(preset):
         for img in imgs:
             page = Image.open(img)
             t0 = time.time()
-            if by_line:
-                text = "\n".join(ask(line, prompt, 160).strip() for line in lines(page))
-            else:
-                text = ask(page, prompt, max_tokens)
+            try:
+                if by_line:
+                    text = "\n".join(ask(line, prompt, 160).strip() for line in lines(page))
+                else:
+                    text = ask(page, prompt, max_tokens)
+            except urllib.error.HTTPError as e:
+                # One page the server cannot answer (its chat parser rejects the output,
+                # the image overflows the context) should not end the run.
+                print(img, f"failed: HTTP {e.code} {e.read()[:200]!r}", flush=True)
+                continue
             (out / f"{Path(img).stem}.txt").write_text(text)
             print(img, f"{time.time() - t0:.0f} s", flush=True)
 

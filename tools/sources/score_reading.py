@@ -11,7 +11,8 @@ reading, and the syllable error rate over it is printed (substitutions,
 insertions and deletions of tsheg-separated syllables, divided by the length
 of the passage), with the differing syllables, so that a reader's habits show.
 Punctuation (shad) and spaces are ignored. Used on 2026-10-03 to choose
-between agy models and local OCR for the White Beryl (docs/sources/PLAN.md).
+between agy models and local OCR for the White Beryl (docs/sources/PLAN.md);
+ocr_bench.py scores whole pages against the BDRC benchmark.
 """
 import difflib
 import re
