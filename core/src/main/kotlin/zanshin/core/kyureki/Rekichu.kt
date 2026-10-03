@@ -41,6 +41,8 @@ data class Kanshi(val index: Int) : Term {
     val stem: Int get() = index % 10
     val branch: Int get() = index % 12
     override val kanji: String get() = "${STEMS[stem]}${BRANCHES[branch]}"
+    /** The stem's element: 甲乙 wood, 丙丁 fire, 戊己 earth, 庚辛 metal, 壬癸 water. */
+    val element: Gogyo get() = Gogyo.entries[stem / 2]
     override val reading: String get() = "${STEM_READINGS[stem]}-${BRANCH_READINGS[branch]}"
     override val english: String get() = Catalog.format("Kanshi", Catalog.text("Stem.$stem"), Catalog.text("Branch.$branch"))
 
@@ -172,11 +174,11 @@ enum class Zassetsu(override val kanji: String, override val reading: String) : 
 }
 
 /** 恵方, the lucky direction of the year (where 歳徳神 resides), by the year's stem. */
-enum class Ehou(override val kanji: String, override val reading: String) : Term {
-    EAST_NORTHEAST("東北東やや東", "tōhokutō"),
-    WEST_SOUTHWEST("西南西やや西", "seinansei"),
-    SOUTH_SOUTHEAST("南南東やや南", "nannantō"),
-    NORTH_NORTHWEST("北北西やや北", "hokuhokusei");
+enum class Ehou(override val kanji: String, override val reading: String, /** Degrees from north, clockwise. */ val bearing: Int) : Term {
+    EAST_NORTHEAST("東北東やや東", "tōhokutō", 75),
+    WEST_SOUTHWEST("西南西やや西", "seinansei", 255),
+    SOUTH_SOUTHEAST("南南東やや南", "nannantō", 165),
+    NORTH_NORTHWEST("北北西やや北", "hokuhokusei", 345);
 
     override val english: String get() = gloss(this)
 }

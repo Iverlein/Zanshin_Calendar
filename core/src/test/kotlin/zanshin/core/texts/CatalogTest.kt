@@ -50,7 +50,7 @@ class CatalogTest {
             IndianElement.entries, Weekday.entries, Mansion.entries, Yoga.entries, Karana.entries, ElementPair.entries,
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
-            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, License.entries, ElectionalFactor.entries,
+            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }

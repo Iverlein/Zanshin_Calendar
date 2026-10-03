@@ -23,6 +23,13 @@ fun rokuyoTone(r: Rokuyo): Tone = when (r) {
     else -> Tone.MIXED
 }
 
+/** The times of day a rokuyō's reading names good and to avoid (Todan), drawn as the day arc. */
+fun rokuyoTimes(r: Rokuyo): Pair<Set<DayTime>, Set<DayTime>> {
+    val reading = Texts.ROKUYO[r]
+    fun times(keys: List<String>?) = keys.orEmpty().flatMap { Activities.TIMES[it].orEmpty() }.toSet()
+    return times(reading?.goodKeys) to times(reading?.avoidKeys)
+}
+
 /** Lucky, unlucky or mixed from what a reading recommends and forbids. */
 fun toneOf(r: Reading?): Tone = when {
     r == null -> Tone.NEUTRAL
@@ -54,6 +61,15 @@ data class DaySummary(
 ) {
     val good: List<ActivityNote> get() = activities.filter { it.good.isNotEmpty() }
     val avoid: List<ActivityNote> get() = activities.filter { it.avoid.isNotEmpty() }
+
+    /** The families of the activities named good, in family order (the summary line's glyphs). */
+    val goodFamilies: List<ActivityFamily> get() = good.map { it.activity.family }.distinct().sorted()
+
+    /** The families of the activities named to avoid, in family order. */
+    val avoidFamilies: List<ActivityFamily> get() = avoid.map { it.activity.family }.distinct().sorted()
+
+    /** Families holding an activity named both good and to avoid. */
+    val disputedFamilies: Set<ActivityFamily> get() = activities.filter { it.disputed }.map { it.activity.family }.toSet()
 
     companion object {
         private val PERSONAL = setOf(Senjitsu.TAIKA, Senjitsu.ROSHAKU, Senjitsu.METSUMON)

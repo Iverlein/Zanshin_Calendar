@@ -146,6 +146,77 @@ enum class Activity {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The families the activities are drawn by, one glyph each (SPEC §10.4): the
+ * day's summary line shows which families its annotations name good and to
+ * avoid. Declared in the order that line shows them.
+ */
+enum class ActivityFamily {
+    EVERYTHING,
+    CELEBRATION,
+    WEDDING,
+    JOURNEY,
+    SEA,
+    MOVING_HOUSE,
+    BUILDING,
+    EARTH,
+    WELL,
+    FIELD,
+    TRADE,
+    AGREEMENT,
+    BEGINNING,
+    LEARNING,
+    MEDICINE,
+    FUNERAL,
+    SHRINE,
+    PRAYER,
+    SACRED,
+    RITE,
+    CLOTHES,
+    HAIRCUT,
+    NAME,
+    HOUSEHOLD,
+    BLADE,
+    FIRE,
+    CONDUCT;
+
+    val english: String get() = gloss(this)
+}
+
+/** The family an activity is drawn with. Every activity has one: the `when` is exhaustive. */
+val Activity.family: ActivityFamily
+    get() = when (this) {
+        EVERYTHING -> ActivityFamily.EVERYTHING
+        CELEBRATION -> ActivityFamily.CELEBRATION
+        WEDDING, BETROTHAL, MARRIAGE_TALKS -> ActivityFamily.WEDDING
+        JOURNEY, COMING_HOME -> ActivityFamily.JOURNEY
+        SEA_TRAVEL -> ActivityFamily.SEA
+        MOVING_HOUSE, BRANCH_FAMILY, RETIRING, BUYING_HOME -> ActivityFamily.MOVING_HOUSE
+        BUILDING, EXTENDING_HOUSE, HOUSE_REPAIRS, RAISING_PILLARS, RIDGEPOLE, ROOFING, BUILDING_GATES, OPENING_GATES,
+        STONE_WALLS, BUILDING_STOREHOUSES, OPENING_STOREHOUSES, DRIVING_NAILS, CLIMBING_HIGH, MAKING_THINGS -> ActivityFamily.BUILDING
+        MOVING_EARTH, DIGGING, BREAKING_GROUND, GROUND_BREAKING_RITES, LAYING_FOUNDATIONS, FILLING_HOLES -> ActivityFamily.EARTH
+        WELLS -> ActivityFamily.WELL
+        SOWING, PLANTING, GRAFTING, HARVESTING, CUTTING_GRASS, FELLING_TREES, OPENING_RICE_BALES -> ActivityFamily.FIELD
+        OPENING_SHOP, BUYING, BUYING_LAND, ACQUIRING, RECEIVING_MONEY, MONEY_TALKS, LENDING_MONEY, STORING, COLLECTING -> ActivityFamily.TRADE
+        CONTRACTS, AGREEMENTS, PROMISES, NEGOTIATIONS, CONSULTATIONS, DISPUTES, FIXING_DECISIONS, QUICK_DECISIONS, MAKING_A_WILL -> ActivityFamily.AGREEMENT
+        BEGINNINGS, NEW_VENTURES, TAKING_UP_OFFICE, ANNOUNCEMENTS -> ActivityFamily.BEGINNING
+        STARTING_SCHOOL, STARTING_LESSONS, ENTRANCE_EXAMS, STUDYING_SCRIPTURE, LEARNING_ARTS, LEARNING_ASTROLOGY,
+        DIVINATION, STUDYING_MEDICINE -> ActivityFamily.LEARNING
+        TAKING_MEDICINE, STARTING_MEDICINE, ACUPUNCTURE, VISITING_THE_SICK, MEDICAL_TREATMENT, SURGERY -> ActivityFamily.MEDICINE
+        FUNERALS, BURIAL, MEMORIAL_SERVICES, MOURNING, BUILDING_GRAVES -> ActivityFamily.FUNERAL
+        SHRINE_RITES, SHRINES_AND_ALTARS -> ActivityFamily.SHRINE
+        PRAYER, DEVOTION, MAKING_WISHES, OFFERINGS -> ActivityFamily.PRAYER
+        SACRED_SUPPORTS -> ActivityFamily.SACRED
+        PACIFYING, INCREASING, CONTROLLING, DESTROYING, HEALTH_AND_WEALTH -> ActivityFamily.RITE
+        SEWING, NEW_CLOTHES, FIRST_WEARING -> ActivityFamily.CLOTHES
+        HAIRCUTS -> ActivityFamily.HAIRCUT
+        NAMING -> ActivityFamily.NAME
+        CLEARING_OUT, THROWING_AWAY, PUTTING_IN_ORDER, UNCLEAN_HOUSE -> ActivityFamily.HOUSEHOLD
+        BLADES, BLOODSHED, HUNTING, MAKING_WEAPONS -> ActivityFamily.BLADE
+        FIRE -> ActivityFamily.FIRE
+        CALM, HASTE, CARELESS_WORDS, HEAVY_EATING, HELPING_OTHERS -> ActivityFamily.CONDUCT
+    }
+
 /** The times of day the rokuyō name good or bad. They are hours, not acts. */
 enum class DayTime { MORNING, NOON, AFTERNOON, EVENING }
 
