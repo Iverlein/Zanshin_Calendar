@@ -23,69 +23,8 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 Tibetan readings | M | Mansions and the activity lists are built; yogas, karaṇas, lunar days and further activities each need a source first | Sources |
-| 5 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
-| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
-| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
-
-## 1.1 — 旧暦 page
-
-### R4. Visual cues
-
-- **Activity glyphs** on the "In brief" line, in place of its counts, and in
-  its breakdown (SPEC §10.4), drawn in the stroke style of `ui/Icons.kt` and
-  licensed with the app (MPL-2.0). The `Activity` entries (SPEC §8.2) fall
-  into about twenty families, one glyph each; a family field on `Activity`
-  keeps the grouping testable:
-
-  | Glyph | Covers, for example |
-  | --- | --- |
-  | wedding | weddings, marriage, taking a bride, betrothal gifts, marriage talks |
-  | journey | travel, setting out, long journeys, coming home |
-  | sea | boarding ships, sea travel, sea voyages |
-  | moving house | moving house, setting up a branch family, retiring |
-  | building | building, raising pillars, raising the ridgepole, roofing, gates, walls, storehouses, house repairs, driving nails |
-  | earth | moving earth, digging, earthworks, breaking ground, laying foundations, filling holes |
-  | well | digging wells, wells |
-  | field | sowing, planting, grafting, harvesting, cutting grass, felling trees, opening rice bales |
-  | shop | opening a shop or business, buying, buying land, receiving money, money talks |
-  | agreement | contracts, agreements, promises, negotiations, consultations, disputes |
-  | beginning | beginnings, new ventures, starting school or lessons, entrance exams, taking up office, announcements |
-  | medicine | taking or starting medicine, acupuncture, visiting the sick |
-  | funeral | funerals, burial, interments, memorial services, mourning, building graves |
-  | shrine | shrine rites, prayer, shrines and altars, devotion, making wishes |
-  | clothes | sewing, new clothes, first wearing of new clothes |
-  | name | naming, naming a child |
-  | household | clearing out, throwing things away, putting things in order, an unclean house |
-  | blade | blades, bloodshed, hunting |
-  | fire | fire |
-  | everything | everything |
-
-  Times of day from the rokuyō ("the morning", "noon", "the afternoon",
-  "morning and evening") are not activities: they get a day arc with the good
-  hours filled, not a glyph.
-- **The rest of the page:**
-  - 六曜: the day arc above, so 先勝 and 先負 read at a glance.
-  - Solar term and 雑節: a ring of the 24 terms with the current one and the
-    season's 土用 and 彼岸 spans marked.
-  - 干支: line glyphs for the twelve animals and the five elements.
-  - 恵方: a compass rose with the year's bearing (the degrees are already in
-    `Ehou`).
-  - Month and year stars: on the same 3×3 board as the day star.
-- **The Tibetan page** gets the same treatment in a later release, using the
-  same glyph set.
-- **Diagrams in the reading sheets:**
-  - 十二直: a dial of twelve with today's station marked.
-  - 二十八宿: a ring of 28 in its four quadrants of seven.
-  - 九星: the 3×3 board (後天定位盤) with today's star, each cell carrying its
-    trigram, direction and colour (the data of `Texts.KYUSEI`). With the nine-star reading on,
-    the 本命星 is marked too.
-  - 六曜: a strip of six with today's step.
-- **Trigrams** (☰☱☲☳☴☵☶☷) drawn as vectors, not taken from a font.
-- **Tone on the sheet** as a coloured band, not only the row's dot.
-- Every diagram has a content description for screen readers. New kanji in
-  diagrams (direction and trigram names) need the font rebuild
-  (`tools/subset_fonts.py`).
-- Mock up on the design canvas before building.
+| 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
 ## Tibetan page
 

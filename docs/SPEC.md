@@ -611,8 +611,8 @@ canvas "Zanshin Calendar — basic design".
 - **Day line:** one short line — weekday, planet, day element and animal, e.g.
   "Monday · Moon · Iron Horse". Tapping it opens a balloon with the full
   details: weekday with its Tibetan name, planet, element, animal, gender.
-- **In brief:** under the day line, as on the 旧暦 page, a line counts the
-  activities the lists of §5.10 name good, to avoid, and both; it opens the
+- **In brief:** under the day line, as on the 旧暦 page, the glyphs of the
+  activities the lists of §5.10 name good and to avoid (§10.7); it opens the
   activities with the weekday, lunar date, mansion, day animal and trigram
   that name them.
 - **Almanac:** festival, monthly observance, personal day, element pair,
@@ -658,9 +658,10 @@ canvas "Zanshin Calendar — basic design".
   the current hour is selected. Tapping an hour, or stepping with the
   arrows beside its sign, shows its vitality and body rows, which open the
   reading and its workings as the day's rows do.
-- **Sme ba in its colour:** the lunar day's number carries a swatch of the
-  colour its box is printed in (Berzin, *Details of Tibetan Astrology 4*). No
-  whole day is coloured.
+- **Sme ba in its colour:** the lunar day's number carries the square of the
+  nine numbers, each box in the colour it is printed in and today's marked
+  (Berzin, *Details of Tibetan Astrology 4*: colours, and the arrangement with
+  9 at the top, south, and 1 at the bottom, north). No whole day is coloured.
 
 ### 10.4 旧暦 view
 
@@ -681,9 +682,10 @@ canvas "Zanshin Calendar — basic design".
   almanac, whose red writing (朱書き) in the 具注暦 marks the 二十八宿 and 七曜,
   and on modern Japanese calendars a red date means a Sunday or holiday. The
   lucky and unlucky colours of the rows are an app convention.
-- **In brief:** a line under the rokuyō (and under the day mark) counts the
-  activities the day's annotations name as good and to avoid, and how many are
-  named both ways; it opens the breakdown. The breakdown lists each activity
+- **In brief:** a line under the rokuyō (and under the day mark) shows the
+  glyphs of the activity families the day's annotations name good and to
+  avoid (§10.7), a family in the mixed colour when one of its activities is
+  named both ways; screen readers hear the counts. It opens the breakdown. The breakdown lists each activity
   with the annotations that name it, the annotations by tone, the day mark, and
   for the owner the 三箇の悪日 and the 九星気学 relation. It is a listing, never a
   verdict: no published rule says which annotation outranks another (下段 over
@@ -742,6 +744,52 @@ canvas "Zanshin Calendar — basic design".
 ### 10.6 Deferred until the basic design is set
 
 - The widget: sizes and content.
+
+### 10.7 Visual cues
+
+Settled 2026-10-03 on the design canvas "Zanshin Calendar — visual cues".
+Glyphs and diagrams are drawn for this app (`ui/CueGlyphs.kt`,
+`ui/Diagrams.kt`, MPL-2.0) in the stroke style of the festival glyphs: a
+24-unit grid, stroke 1.4, round caps. Every diagram has a content description;
+kanji drawn inside one are explained by its caption, which names the cell
+last tapped, today's at first (§10.1: every kanji shows its English on tap).
+
+- **Activity families.** Each `Activity` has an `ActivityFamily` (27, from
+  everything, weddings and journeys to rites, haircuts and conduct), one glyph
+  each; a test fails on a family no activity uses, and the `when` that maps
+  them is exhaustive. The In brief line shows the families named good and to
+  avoid, in the order the enum declares; the breakdown puts each activity's
+  family glyph before it.
+- **Animals and elements.** The twelve animals are drawn as heads (whole
+  bodies were indistinguishable at 20 dp), shared by the 干支 rows and the
+  Tibetan year, day and lunar-day animal; the five elements (Tibetan iron
+  drawn as metal) and the Indian wind serve the 干支 stems, the Tibetan year
+  and day, the weekday and mansion elements and the element pair.
+- **旧暦 page.** 六曜: a day arc, morning on the left, noon at the top, in the
+  tones of the times its reading names (`rokuyoTimes`), drawn only when it
+  names some; its sheet repeats the arc and shows the six days in turn. Solar
+  term: a ring of the 24, 冬至 at the top, the current term filled, the four
+  土用 (the 18° before each 立) and the two 彼岸 (about three days either side
+  of each equinox) as inner arcs. 九星: the day, month (月) and year (年) stars
+  on one board of nine; the day star's sheet shows the board with each box's
+  colour, trigram and direction. 恵方: a compass of the 24 directions with the
+  year's bearing. 十二直: a dial of the twelve with their tones. 二十八宿: a ring
+  in four quadrants of seven, north at the top, from 角 in the east
+  counterclockwise as in the sky.
+- **Boards of nine.** Both calendars draw the Lo Shu square south at the
+  top: 4 9 2 / 3 5 7 / 8 1 6, the 九星 on the fixed board (後天定位盤, Japanese
+  Wikipedia 九星) and the sme ba as Berzin prints it; the trigram of each box
+  is the same in both. North-up elsewhere (compass, rings): only the boards
+  follow the board convention.
+- **Tibetan page.** Element pair: the two elements on its row, and in its
+  sheet the table of the ten pairs, weekday down, mansion across. Lunar
+  mansion: a small ring of 27 on its row, the full ring in its sheet. Haircut:
+  scissors on its row, the thirty lunar days with their tones in its sheet.
+  Trigram: drawn as its three lines.
+- **Reading sheets** carry a band in the reading's tone across their top.
+- **Font.** `tools/subset_fonts.py` takes the characters of the Kotlin
+  sources, the catalogs and the string resources; a rebuild after new kanji
+  in any of them.
 
 ## 11. Milestones and done criteria
 
