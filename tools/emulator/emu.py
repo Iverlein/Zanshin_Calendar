@@ -20,7 +20,7 @@ import time
 from pathlib import Path
 
 SERIAL = "emulator-5554"
-PKG = "io.github.iverlein.zanshin"
+PKG = "io.github.iverlein.zanshin.beta"  # the debug build (applicationIdSuffix in app/build.gradle.kts)
 BIRTH_1976_06_01 = 2343  # epoch days
 KYOTO_LAT = 4630125598962940169  # 35.0211 as Double raw bits, as the app stores it
 KYOTO_LON = 4638980428775913266  # 135.7538

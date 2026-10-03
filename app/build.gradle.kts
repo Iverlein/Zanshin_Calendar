@@ -16,6 +16,12 @@ android {
     }
 
     buildTypes {
+        // Debug builds install beside the F-Droid release: own package, own
+        // name on the launcher ("Zanshin beta", src/debug/res), own settings.
+        debug {
+            applicationIdSuffix = ".beta"
+            versionNameSuffix = "-beta"
+        }
         release {
             isMinifyEnabled = true
             isShrinkResources = true
