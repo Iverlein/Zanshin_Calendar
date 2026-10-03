@@ -9,7 +9,8 @@ element, kind (*mgron skar*, *dgra skar* …), whose *bla* it is, a long list
 of activities to do and a shorter one to avoid, what a birth and an
 illness on it mean, portents, rain, its minor star (*skar chung*) and a
 remedy. The app's mansion readings already come from Henning, who follows
-this chapter; what is new here is the Tibetan of one verse.
+this chapter; what is new here is the Tibetan of one verse, read by eye.
+All 28 verses, from two OCR readings, are in [mansion-verses.md](mansion-verses.md).
 
 ## Uttarāṣāḍhā (chu smad)
 
@@ -82,7 +83,7 @@ in its place. "Genuine" means the print does have ཆུཾད there.
 
 | Box (img.) | Henning | The print | Result for the app |
 | --- | --- | --- | --- |
-| 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. |
+| 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད བྱིཞི; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. The good list ends with བྱིཞི, Abhijit (missed in the first reading by eye; found by the Yigdzin OCR and confirmed on the scan). |
 | 8 taking a new home (25) | Uttarāṣāḍhā good and bad | good: … ས་ག [one word not read] ཆུཾད མོནྡྲེ གྲོཞི མོནྲུ ཁྲོད …; bad: ཐཀྲ སྐག སྣྲུབས ལྷ་མཚམས ཁྲུམ་སྨད | Uttarāṣāḍhā **good**; the bad one is khrums smad written out, **Uttarabhādrapadā bad**. |
 | 12 setting out on journeys (27) | Uttarāṣāḍhā good and bad | good: ཐཀྲ རྒྱལ ནབསོ ས་རི ལྷོས གྲོཞི ཆོད མོནྡྲེ མོནྲུ ཁྲིད; bad: … སྣྲོན སྣྲུབས ཆུཾད ཁྲོད ནུཾ | Uttarāṣāḍhā **bad** (genuine, as WB's own verse has it); Henning's good one is ཁྲིད, **Uttarabhādrapadā good**. The good list also has མོནྲུ, **Śatabhiṣaj**, which Henning leaves out. |
 | 40 making weapons (48) | Uttarāṣāḍhā good and bad | good: … ཁྲུཾད …; bad: … ཆུཾད (genuine) | Uttarāṣāḍhā **bad**; **Uttarabhādrapadā good**. |

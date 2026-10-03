@@ -9,17 +9,62 @@ something the app can build.
 Written 2026-10-03, at the end of the session that found the *White Beryl*
 passages and wrote the topic files.
 
-## Status, 2026-10-03 (second session)
+## Status, 2026-10-03 (third session)
 
 | Task | State |
 | --- | --- |
-| 1. Doubled mansions | **Done.** Every doubled entry resolved on the KP scans; see [mansions.md](mansions.md), *Box by box*. The corrections to `Electional.kt` are a code task. |
-| 2. KP inventory | **Done** for img. 21–65 by eye, with the book's own list of contents (img. 9–10); the rest of the book described page by page ([kun-phan-me-long.md](kun-phan-me-long.md)). Some headings stay unsettled ([…]); boxes 51–52 not located. |
-| 3. Mansion verses | **Not done.** All verse pages transcribed by machine (`wb/`, local), but the agy text invents mansion names at verse heads and merges verses; the 27 verses still need reading on the scans. Start with each verse's first line (img. 321–336). |
-| 4. Yogas | **Partly.** NM gives the yoga names three times and neither ཡོན་ཏན nor མདའ among them (question 2 leans to epithets); no witness for the ranking (question 1 still needs a reader). The long readings are transcribed by machine (`wb/agy/355–356.txt`), not yet scan-checked. |
-| 5. Lunar dates | **Not done.** Pages transcribed by machine (`wb/agy/305–312.txt`); the […] still need 6× crops. |
+| 1. Doubled mansions | **Done.** Every doubled entry resolved on the KP scans; see [mansions.md](mansions.md), *Box by box* (box 6 also lists byi bzhin, found by the OCR). The corrections to `Electional.kt` are a code task. |
+| 2. KP inventory | **Done.** Every box placed and named from the OCR of all 120 folios and the book's two lists of contents (img. 8–11, 63–64); box 1 is the opening prose, box 4 the robe chart; boxes 50 and 51 are missing from this print but found in a second print (KP2, BDRC I3CN12074 img. 218–345); headings 13, 19, 23, 30, 31, 36 and 44 settled or corrected; the second half described section by section ([kun-phan-me-long.md](kun-phan-me-long.md)). |
+| 3. Mansion verses | **Done**, by machine: all 28 verses (Abhijit included) in [mansion-verses.md](mansion-verses.md), Tibetan up to the birth line and the full lists in English; every disagreement between the two OCR readings settled (four stay open, marked). Not read by eye syllable by syllable. |
+| 4. Yogas | **Done** as far as the texts go: names and short readings checked on the scan, long readings from the two OCR readings, KP as a third witness (sha 'khon differs: KP's own reading, for WB2 agrees with WB); WB2 (the Sakya Centre print) has the same ranking and avoidance verses, so questions 1 and 2 need a reader, not another copy. |
+| 5. Lunar dates | **Done**: the […] filled from the scan but one syllable (date 25); the other *bla gnas* systems (by hour, *lho gter*, weekday) written out ([lunar-dates.md](lunar-dates.md)). |
 | 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found (the weekday's, pp. 308–312; weekday × mansion, pp. 331–333). |
 | 7. Kyūreki gaps | **Done** as far as sources go: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to koyomi8 with its own hedge; O-Bon facts found, the choice is the SPEC's ([kyureki.md](kyureki.md)). |
+
+## Next investigation
+
+What is left on the Tibetan side, in order of use to the app; each item
+says where to look and with which tool.
+
+1. **The app's own corrections (code, waiting on the owner).** The KP
+   boxes and the WB verses now agree on the doubled mansions
+   ([mansions.md](mansions.md), *Box by box*; [mansion-verses.md](mansion-verses.md)
+   for Uttarāṣāḍhā and Uttarabhādrapadā). Before `Electional.kt` changes:
+   should the app follow the print where it names mansions Henning left
+   out, and what does it do with box 6, which lists khrums smad in both
+   halves (question 6)?
+2. **New calculable readings found, not yet in the app:** KP's second
+   part §2 (planet × mansion elements), §3 (*'phrod chen*), §5 (*grub
+   sbyor*), §11 (*bla gza'*, *bla skar*), and WB's weekday × mansion
+   (pp. 331–333) and weekday readings (pp. 308–312). Each needs its table
+   read (KP2 is the better-preserved copy for KP: BDRC I3CN12074,
+   img. 218–345) and a SPEC entry before code.
+3. **Read by eye what was read by machine**, where a reading is to be
+   quoted in the app: the 28 verses ([mansion-verses.md](mansion-verses.md))
+   and the second half of KP. Use `disagree.py` sheets; the four open
+   readings in the verses and the three […] in
+   [lunar-dates.md](lunar-dates.md) first.
+4. **WB2's personal-mansion verse** (question 4): the page is not among
+   WB2 img. 468–473; the etext's page markers run two ahead of the image
+   numbers, and the verse follows the mansion groupings (etext p. 470).
+   Expected to confirm 13 and 26.
+5. **Questions for a reader** ([open-questions.md](open-questions.md)):
+   1 (ranking), 2 (ཡོན་ཏན, མདའ), 5 (SY's Mouse gshed gza'), 6 (box 6), 8
+   (sha 'khon: KP's change). A third WB print would not settle 1, 2 or 8:
+   WB2 has the same words.
+6. **WB ch. 33 inventory** ([white-beryl-ch33.md](white-beryl-ch33.md))
+   was made from BDRC's OCR; recheck its section headings with
+   `hf_read.py yigdzin` when a section is taken up.
+
+**Tools and their limits** (all in `tools/sources/`, see *Tools* below):
+Yigdzin-1 is the main reader but **drops lines beside woodcuts** (WB
+img. 325, 330, 333: verse heads) and leans to common spellings; MITRA is
+the witness and catches those drops (`disagree.py` flags them "missing");
+both fail on BDRC's 1224-pixel microfilm scans (WB2), where MITRA invents
+text. agy, asked to choose between two readings (`agy_choose.py`), was
+wrong in about one case in five where a formula or the scan could check
+it; judge its answers, do not take them. `gpu.py` and the readers stop
+every model they start, even when killed.
 
 ## Before starting
 
@@ -45,29 +90,85 @@ scratch directory, not in the repository:
   `bdrc.py volumes MW…` and `bdrc.py scans DIR I… 21-67` — page images.
 - `scans.py crop | row | stack` — enlarged crops, one region across many
   images (heading cells, or one word wherever it occurs), stacked folios.
-- `agy_read.py DIR IMG…` — transcription of typeset pages by agy (see
-  *Reading with agy* below).
+- `agy_read.py DIR IMG…` — transcription by agy, for single hard crops
+  (see *Reading with agy* below).
 - `ndl.py WORDS` — NDL catalogue search, for printed Japanese sources.
-- `bdrc_ocr.py APP setup|run` — BDRC's own OCR, as an independent second
-  reading; `disagree.py MAIN WITNESS --scan IMG --sheet OUT` — where agy and
-  it differ, with those scan lines stacked for checking.
-- `score_reading.py TRUTH READING…` — syllable error rate against a passage
-  read on the scan; how readers were compared (below).
-- `local_read.py PRESET …` — a local vision model through `llm-serve`. On
-  2026-10-03 Qwen3-VL-8B (48% errors), Yigdzin-1 (88%) and gemma-4-E4B
-  (100%) were tried and none is usable; agy 2%, BDRC Woodblock 12%. Details
-  in ~/knowledge/local-vision-models-tibetan.md on MONOLITH.
+- `hf_read.py yigdzin|mitra OUT IMG…` — **the main reader**: BDRC's
+  Yigdzin-1 OCR model on the local GPU (`hf_read.py setup VENV` makes its
+  environment); MITRA, the runner-up, as witness.
+- `disagree.py MAIN WITNESS --scan IMG --sheet OUT` — where two readings
+  differ (and what MAIN dropped), with those scan lines stacked for
+  checking by eye; `--crops DIR --json FLAGS` for the next step.
+- `agy_choose.py OUT SCANDIR FLAGS…` — each flag put to agy as a choice
+  between the two readings; judge the answers before using them.
+- `mansion_verses.py WORKDIR OUT` — builds [mansion-verses.md](mansion-verses.md)
+  from the readings, the judged choices and the English (WORKDIR is
+  `wb/verses/`, local).
+- `gpu.py` — what still holds the GPU; the readers call it when they end.
+- `bdrc_ocr.py APP setup|run` — BDRC's older app models (CPU, seconds a
+  page), a quicker but weaker witness.
+- `score_reading.py TRUTH READING…` and `ocr_bench.py pick|score` — a
+  reader's error rate against a passage read on the scan, or against the
+  open BDRC benchmark; how the readers below were ranked.
+- `local_read.py PRESET …` — general vision models through `llm-serve`;
+  none reads Tibetan well enough (below).
+
+### Which reader, 2026-10-03
+
+Thirteen readers were scored on 15 pages of the open BDRC Tibetan OCR
+benchmark (blockprint, digital font, metal type; Uchen) and WB p. 357 read
+by eye. Mean character error rate:
+
+| Reader | blockprint | typeset | WB p. 357 | all |
+| --- | --- | --- | --- | --- |
+| Yigdzin-1 (`BDRC/tibetan-ocr`) | 1.1% | 0.1–0.6% | 0.1% | **0.6%** |
+| MITRA (`buddhist-nlp/bdrc-mitra-ocr-qwen35-0.8b`) | 1.5% | 0.8–1.5% | 0.1% | 1.2% |
+| BDRC app, Woodblock-Stacks / Woodblock | 6–9% | 1.4–10% | 5–6% | 5–7% |
+| PechaBridge, dots.mocr, PaddleOCR-VL, Qwen3.5-9B, Qwen3.6-35B, BDRC Modern | 34–67% | 1–37% | 0.5–17% | 19–31% |
+| Tesseract `bod`, BDRC `bod_uchen` | 69–77% | 6–24% | 5–15% | ~35% |
+
+agy (Gemini 3.1 Pro) made 2% syllable errors on p. 357, Yigdzin-1 0.5%
+(one syllable, which MITRA misread the same way). Over the 31 WB pages agy
+has transcribed, the two agree on 76–96% of syllables on most pages; where
+they part most (p. 310, 29%), agy wrote fluent lines that are not on the
+page and Yigdzin-1 read the scan correctly. **agy's transcriptions in
+`wb/agy/` are therefore not a reliable base; read the pages again with
+Yigdzin-1.** BDRC's own leaderboard
+(huggingface.co/spaces/BDRC/tibetan-ocr-leaderboard, 46 systems) agrees:
+the same two models first, Gemini 3.1 Pro at 0.33 median CER.
+
+**Workflow:**
+
+1. Typeset pages (WB, NM, SY): `hf_read.py yigdzin` over the pages, a
+   witness beside it (`hf_read.py mitra`, or `bdrc_ocr.py … Woodblock-Stacks`
+   on the CPU), then `disagree.py` with Yigdzin-1 as MAIN; check each flag
+   on the scan. On the benchmark pages Yigdzin-1 got 74 of 3761 syllables
+   wrong; MITRA flagged 43% of those (flagging 2.4% of the text),
+   Woodblock-Stacks 58% (10%), both together 68% (12%). On WB pages that
+   means 1–8 flags a page with MITRA (img. 305–308: 99–100% agreement), but
+   about 84 with Woodblock-Stacks, so MITRA is the witness to use when the
+   GPU has the time (1.5–2 min a WB page against Yigdzin-1's 20 s). The two BDRC models
+   share training data and some errors (p. 357: both read བཙན for the
+   print's བཙོན), and Yigdzin-1 leans to the common spelling where the
+   print has an unusual one, so a passage to be quoted is still read once
+   against the scan.
+2. Woodblock tables (KP): crop each half of a box (`scans.py crop`) and
+   read the crops; a whole folio comes out with the lines of side-by-side
+   boxes run together. The crops come out as clean lists that keep the
+   print's abbreviations; errors are in fine strokes (ནུཾ read ཆུཾ), so
+   check every entry that matters against the crop. On box 6 the model
+   found an entry (བྱིཞི) the reading by eye had missed.
+3. agy only for what both readers and the eye leave unsettled, one crop at
+   a time: its weekly quota is shared and small.
 
 ### Reading with agy
 
-agy (`Gemini 3.1 Pro (High)`) reads the typeset 1996 *White Beryl* nearly
-clean, far better than the BDRC OCR, at 5–15 minutes a page; run several
-`agy_read.py` processes over disjoint page lists. It does **not** read
+agy (`Gemini 3.1 Pro (High)`) takes 5–15 minutes a page and invents
+plausible text where it cannot read (see above). It does **not** read
 woodblock tables: on KP's abbreviated mansion lists it wrote the standard
 order of the 27 mansions instead of the print, and on box headings it got
-about half right and invented box numbers. So its typeset text is a working
-copy to check on the scan, and woodblock tables are read by eye with
-`scans.py`.
+about half right and invented box numbers. Use it for single hard crops,
+not for bulk reading.
 
 ### The services themselves
 

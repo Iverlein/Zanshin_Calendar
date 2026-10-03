@@ -44,7 +44,7 @@ also says public bodies do not touch the question
 
 ## The personal reading of 三箇の悪日 (SPEC §7.5)
 
-**Sourced, with a hedge.** こよみのページ (koyomi8.com, the site the app
+**Sourced**, to the 簠簋内伝 and to こよみのページ (koyomi8.com, the site the app
 already uses for its 暦注 vectors), *暦注の説明（その３）・下段について*,
 https://koyomi8.com/sub/rekicyuu_doc03.html, says the three bad days were
 originally meant to be watched only by those born in the matching year,
@@ -68,13 +68,21 @@ branch" is the code's. Its companion page on 狼藉日
 per person by birth year and 節月 («寅年生まれの人は正月（節月）の子の日が狼藉日»),
 later simplified to apply to everyone.
 
-Open: koyomi8 says «らしい» and names no classical source for the section; it
-lists 岡田芳朗『旧暦読本』 and 岡田芳朗・阿久根末忠編『こよみ読み解き事典』 as
-the basis of its 暦注 pages. A print check in either book, or in a classical
-text (the 簠簋内伝 is in the NDL digital collection; ndlsearch finds it under
-三箇悪日), would remove the hedge. Wikipedia's 暦注下段 gives the same table
-but cites nothing. The app shows the reading only with a birth date and can
-cite koyomi8 now; the expert dossier's question 2 stands.
+**The classical source, checked 2026-10-03.** The 簠簋内伝
+(『三國相傳陰陽輨轄簠簋内傳金烏玉兎集』), 巻上, §十七 三箇悪日, in the
+printing of 田中太右衛門 (1919), NDL Digital Collections pid 1911335,
+image 20 (https://dl.ndl.go.jp/pid/1911335/1/20), read on the scan: a
+table headed 正節切 ("by the solar months"), one column for each month,
+each column labelled with the birth year it applies to (寅人, 卯人, 辰人 …,
+"a person of the 寅 year …"), and the three rows 大禍日 亥午丑申卯戌巳子未寅酉辰,
+狼藉日 子卯午酉子卯午酉子卯午酉, 滅門日 巳子未寅酉辰亥午丑申卯戌. That is
+koyomi8's table and the app's, and the birth-year reading is the text's
+own, not a later guess: the hedge «らしい» can go. NDL's OCR index finds the
+same section in the 1800 printing (pid 1901824, with the same 滅門日 row) and
+in a 寛永9 (1632) edition (pid 2533009); those two were not looked at on
+the scan. The text adds that the three days stand for the three gods of poverty,
+hunger and obstruction and the three poisons, and so are used for nothing
+(«右今三箇日取貧窮飢渇障导三神貪欲瞋恚愚癡三毒故萬事不用»).
 
 ## Gregorian-dated festivals (SPEC §7.3)
 

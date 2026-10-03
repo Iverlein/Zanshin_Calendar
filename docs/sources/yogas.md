@@ -135,10 +135,51 @@ the almanacs', and has the 18th as dpa' bo too.
   no རང་སྐྱེས་གསུམ) or any ranking of the yogas; SY names no yoga list at
   all. The question still needs a reader.
 
+## A third witness: KP
+
+KP box 4 (img. 70, "the results of the yogas in brief", སྦྱོར་འབྲས་མདོར་བསྡུས),
+from the Yigdzin OCR of the scan, with the last line checked on the scan:
+the 27 short readings in WB's own words (KP is a digest of WB), sel ba
+first and unnumbered, then mdza' po as 1 … sha 'khon as 26. They agree
+with the table above line for line, with one difference: the last reads
+
+> ཤ་འཁོན་བུད་མེད་མཛའ་དང་འགྲས།
+
+"sha 'khon: falling out with a woman friend", where WB p. 349 prints
+མཛའ་དང་ཕྲད, "meeting a woman friend". Sha 'khon is one of the three yogas WB
+says to avoid entirely (above), which KP's reading fits and WB's does not.
+WB2, the Sakya Centre print (below), also has ཕྲད, so the change is KP's.
+
+- **Question 1:** KP has no ranking verse either; its box ends with the
+  27 readings. It numbers the yogas from mdza' po, so in KP's count the
+  6th is las bzang and the 18th yongs 'joms; read that way, WB's bad list
+  "6, 9, 10, 13, 18" would be las bzang, 'bras, 'phel ba, dga' ba and yongs
+  'joms, which fits the readings worse than counting from sel ba does
+  (rab stongs, gzer, 'bras, rma chen, dpa' bo). The question stays open.
+
+## A second print of WB: the Sakya Centre edition
+
+WB2 (Sakya Centre, Dehradun, BDRC MW1KG12714, vol. 2 scans I1KG12740,
+"reproduced from a set of prints"), img. 486–487, read 2026-10-03 on the
+scan; the scans are 1224 pixels wide, so the OCR of these pages is
+unreliable (it reported variants the scan does not bear out) and the lines
+below were read on enlarged crops:
+
+- the short readings agree with the 1996 edition; sha 'khon reads
+  **མཛའ་དང་ཕྲད** there too, so KP's འགྲས is KP's own reading, not WB's;
+- the ranking verse reads «…འདི་རྣམས་ཡིན། །དྲུག ། དགུ་བཅུ་དང་བཅུ་གསུམ་དང་། །བཅོ་བརྒྱད་ངན་སྤང་གཞན་རྣམས་འབྲིང་། …རང་སྐྱེས་གསུམ་དང་ལྔ་བདུན་དང་། །གཉིས་དང་བརྒྱད་དྲུག་བཟང་བར་བཤད།», as in 1996;
+- the avoidance verse has ཟུག་རྔུ་མདའ, as in 1996.
+
+So questions 1 and 2 are questions of reading, not of the text: both
+prints carry the same words.
+
 ## Long readings, in brief
 
-pp. 347–348, from the etext (gaps where the OCR lost syllables; the short
-readings above are the ones checked on the scan):
+pp. 347–348, first from the etext (gaps where the OCR lost syllables),
+then (2026-10-03) from the two OCR readings of the scans, Yigdzin-1 and
+MITRA, which agree on all of p. 348 and on all but five syllables of
+p. 347 (none of them in a yoga's name); the short readings above are the
+ones checked on the scan by eye:
 
 | # | WB | Gist of the long reading |
 | --- | --- | --- |
@@ -158,7 +199,7 @@ readings above are the ones checked on the scan):
 | 14 | dga' ba | dharma, wealth, a pleasing mind; place, support, road, friends; house and merit |
 | 15 | rdo rje | fear and terror; good for fierce rites against others; peaceful and auspicious work fails |
 | 16 | dngos grub | glory, a good name, clear faculties; skill in means; victory |
-| 17 | kun brdungs | methods against demons and armies; ordination and temple work (unclear in the OCR); slander |
+| 17 | kun brdungs | "son of the blind"; by skilful means slays demons and armies; ordination, temples and the gods' work; misfortune and gossip (རབ་བྱུང་ལྷ་ཁང་ལྷ་ཡི་ལས། །བྱུར་དང་མི་ཁ་སྨྲ་བ་ཡིན།) |
 | 18 | dpa' bo | a teacher with discipline; authority in dharma; reaching liberation; wisdom |
 | 19 | yongs 'joms | consorting with māras; fear of enemies; glory stolen; illness; unforeseen ruin |
 | 20 | zhi ba | gentle within and without; life, wealth and lineage secure; enemies pacified, aims achieved |

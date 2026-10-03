@@ -28,6 +28,8 @@ spelled **བིཥྚི** (biShTi).
 
 On the scan, the first word of bzhi mdo's third line is small; མཚོན་གཏོར
 (weapon-torma) is the likeliest reading, མཆོད་གཏོར (offering-torma) the
-alternative.
+alternative. KP repeats all eleven verses (img. 74–75, after its yoga box, read with
+the Yigdzin OCR); there the word is cut with a u-vowel, མཆུན or མཚུན, but
+it ends in ན, not ད, which favours མཚོན (weapon) over མཆོད (offering).
 
 Henning's destructive list names Viṣṭi among what is good for it; WB agrees.
