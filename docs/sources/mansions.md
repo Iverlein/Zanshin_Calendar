@@ -44,41 +44,87 @@ split: funeral rites (*gshin las*) good, cremation and tombs to avoid.
 ## What the activity lists' doubled entries are
 
 The app drops a mansion that Henning names twice for one activity (SPEC
-§5.10). In the current tables:
+§5.10). Every such box was read on the KP scans (BDRC W4CZ65561) on
+2026-10-03, its mansion list aligned word by word with Henning's list for
+the same box. Image numbers are given per box; the inventory of all boxes
+is in [kun-phan-me-long.md](kun-phan-me-long.md).
 
-| Activity | Doubled mansion | Henning |
+### The abbreviations
+
+KP writes most mansion names short. The ones that matter here:
+
+| Print | Mansion | How it is told apart |
 | --- | --- | --- |
-| offerings to deities | Uttarāṣāḍhā ×3 good, ×1 qualified; Dhaniṣṭhā ×2 good | |
-| taking a new home | Uttarāṣāḍhā | good and bad |
-| setting out on journeys | Uttarāṣāḍhā | good and bad |
-| making weapons | Uttarāṣāḍhā | good and bad |
-| marriage | Uttarāṣāḍhā | good and bad |
-| funerals | Uttarāṣāḍhā | good and qualified |
-| controlling activity | Uttarāṣāḍhā ×2 good; Mṛgaśiras bad and qualified | |
+| ཆུཾད (often looks like ཆུད) | chu smad, Uttarāṣāḍhā (20) | *zhabs kyu* (u) under ཆ and an anusvāra ring above |
+| ཆོད | chu stod, Pūrvāṣāḍhā (19) | *naro* (o) above ཆ, no ring |
+| ཁྲུཾད (also ཁྲིད in one box) | khrums smad, Uttarabhādrapadā (25) | the stacked ཁྲ, with u and the ring |
+| ཁྲོད | khrums stod, Pūrvabhādrapadā (24) | ཁྲ with *naro* |
+| ནུཾ | nam gru, Revatī (26) | |
+| མོནྡྲེ, དྲེ | mon gre, Dhaniṣṭhā (22) | |
+| མོནྲུ | mon gru, Śatabhiṣaj (23) | |
+| གྲེ | gre, Pūrvaphalgunī (10) | |
+| གྲོཞི | gro bzhin, Śravaṇa (21) | |
+| བྱིཞི | byi bzhin, Abhijit | |
+| ལྷོས | lha mtshams, Anurādhā (16) | |
+| ཐཀྲ | tha skar, Aśvinī (0) | |
 
-KP's tables, which Henning translated, do not spell mansion names out:
-they abbreviate them, e.g. on img. 23, the good box for offerings to the
-deities (*lha mchod pa la bzang ba*):
+The *smad* forms of chu and khrums differ only in the stacked letter, and
+the ring sits at the same place in both, so the confusion is easy. One box
+(new home, img. 25) spells ཁྲུམ་སྨད out in full where Henning has
+Uttarāṣāḍhā, which shows the kind of slip directly. Img. 66 of KP lists the
+28 mansions by element with every name written out; it confirms *chu smad*
+as earth and *chu stod* as water, as WB has them.
 
-> […] སྐར་མ་ མགོ་ ཆུད་ … ནབས་སོ་ མྱེ་ … སྣར་ རྒྱལ་ ས་རི་ དབོ་ སྨིན་ ལྷོས་ […]ད་ སྒྲོན་ སྒྲུབས་ གྲོཞི་ མོན་དྲེ་ ཁྲོད་ མོནྲུ་ […] ཁྲིད་ ཁྲེའི་ …
+### Box by box
 
-Read against Henning's order for the same box (Mṛgaśiras, Uttarāṣāḍhā,
-Punarvasu, Hasta, Rohiṇī, Puṣya, Svātī, Uttaraphalgunī, Kṛttikā, Anurādhā,
-Pūrvāṣāḍhā, Dhaniṣṭhā, Jyeṣṭhā, Mūla, Śravaṇa, Dhaniṣṭhā, Uttarāṣāḍhā,
-Śatabhiṣaj, Revatī, Uttarāṣāḍhā), the print's ཁྲོད (khrums stod,
-Pūrvabhādrapadā) and ཁྲིད or ཁྲུད (khrums smad, Uttarabhādrapadā) stand
-where Henning has his second and third Uttarāṣāḍhā, and ཆུད where he has
-the first. This is the confusion SPEC §5.10 suspected: Henning expanded
-the *smad* / *stod* abbreviations of khrums as chu smad. The 2550 px scan
-does not show the vowel signs of these abbreviations clearly enough to
-settle every one; the BDRC woodblock OCR reads the same places as ཚུད,
-ཤུད and ཁྲུད.
+The left column is Henning's doubled entry; the right, what the print has
+in its place. "Genuine" means the print does have ཆུཾད there.
 
-Settled so far:
+| Box (img.) | Henning | The print | Result for the app |
+| --- | --- | --- | --- |
+| 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. |
+| 8 taking a new home (25) | Uttarāṣāḍhā good and bad | good: … ས་ག [one word not read] ཆུཾད མོནྡྲེ གྲོཞི མོནྲུ ཁྲོད …; bad: ཐཀྲ སྐག སྣྲུབས ལྷ་མཚམས ཁྲུམ་སྨད | Uttarāṣāḍhā **good**; the bad one is khrums smad written out, **Uttarabhādrapadā bad**. |
+| 12 setting out on journeys (27) | Uttarāṣāḍhā good and bad | good: ཐཀྲ རྒྱལ ནབསོ ས་རི ལྷོས གྲོཞི ཆོད མོནྡྲེ མོནྲུ ཁྲིད; bad: … སྣྲོན སྣྲུབས ཆུཾད ཁྲོད ནུཾ | Uttarāṣāḍhā **bad** (genuine, as WB's own verse has it); Henning's good one is ཁྲིད, **Uttarabhādrapadā good**. The good list also has མོནྲུ, **Śatabhiṣaj**, which Henning leaves out. |
+| 40 making weapons (48) | Uttarāṣāḍhā good and bad | good: … ཁྲུཾད …; bad: … ཆུཾད (genuine) | Uttarāṣāḍhā **bad**; **Uttarabhādrapadā good**. |
+| 42 marriage (49) | Uttarāṣāḍhā good and bad | good: ཆུཾད དབོ གྲོཞི ནབསོ … (genuine); bad: … ནག ཁྲུཾད མོནྡྲེ མོནྲུ ཁྲོད ཆོད ཐཀྲ | Uttarāṣāḍhā **good** (WB's verse agrees); **Uttarabhādrapadā bad**. |
+| 45 funerals (51) | Uttarāṣāḍhā good, and good "bad for cremation and burial" | good: ཐཀྲ ནུཾ ཁྲུཾད ནབསོ སྣྲུབས (note) སྐག (note) … (ཁྲོད) མོནྲུ བྱིཞི ཆུཾད (note) | The first is ཁྲུཾད, **Uttarabhādrapadā good**; the second is genuine and qualified, so Uttarāṣāḍhā stays among the named-with-a-qualifier (WB: funeral rites good, cremation and tombs to avoid). |
+| 62 controlling activity (61) | Uttarāṣāḍhā ×2 good; Mṛgaśiras bad and "acceptable" | good: ནབསོ རྒྱལ མྱེ མཆུ ཆོད ནག ས་ག བྲ་ཉེ མོནྡྲེ ནུཾ གྲེ མོནྲུ ཁྲུཾད དབོ ཆུཾད ཐཀྲ; acceptable: ལྷོས སྣྲུབས མགོ ཁྲོད ས་རི; bad: སྣྲོན སྐག སྨིན མགོ ལག གྲོཞི བྱིཞི | Henning's first Uttarāṣāḍhā is ཁྲུཾད, **Uttarabhādrapadā good**; the second is genuine, **Uttarāṣāḍhā good**. The good list also has གྲེ (**Pūrvaphalgunī**) and མོནྲུ (**Śatabhiṣaj**), which Henning leaves out. Mṛgaśiras (མགོ) is in the print both as acceptable and as bad, so it stays out. |
 
-- **offerings to deities:** two of Henning's three Uttarāṣāḍhā are khrums
-  stod and khrums smad (Pūrvabhādrapadā, Uttarabhādrapadā), which are then
-  good; the first (ཆུད) is likely chu smad itself.
-- **every other doubled entry:** to be read box by box on the scans of KP
-  img. 21–67 (or a clearer copy), with the abbreviations above as the key.
-  Until then the app's rule (left out) stands.
+Boxes Henning did not double, checked on the way: 38 astrology (img. 47),
+46 supports (img. 52), 63 pacifying and 64 health and wealth (img. 62) have
+a genuine ཆུཾད where Henning has Uttarāṣāḍhā. Two have the other slip:
+
+- **61 destructive activity** (img. 61): Henning's good Uttarāṣāḍhā is
+  ཁྲུཾད, Uttarabhādrapadā; the box has no chu smad.
+- **65 increasing activity** (img. 63): the bad list reads སྣྲོན སྐག སྣྲུབས
+  ཆོད ཆུཾད གྲོཞི བྱིཞི མོནྡྲེ བྲ་ཉེ ལག ཁྲིད. Henning's "Uttarāṣāḍhā" is the
+  last word, ཁྲིད, Uttarabhādrapadā; the genuine ཆུཾད earlier in the list is
+  missing from his. So both are bad.
+
+### What this means for the app's lists
+
+All of these are corrections to `core/.../tibetan/Electional.kt`, a separate
+code task; until then the rule (doubles left out) stands. In the code's
+terms:
+
+- **offerings to deities:** good gains Uttarāṣāḍhā and Pūrvaphalgunī, keeps
+  one Dhaniṣṭhā; Uttarabhādrapadā is in both halves (left out); bad gains
+  Citrā.
+- **taking a new home, marriage:** good Uttarāṣāḍhā, bad Uttarabhādrapadā.
+- **journeys, making weapons:** good Uttarabhādrapadā, bad Uttarāṣāḍhā;
+  journeys good gains Śatabhiṣaj.
+- **funerals:** good Uttarabhādrapadā; Uttarāṣāḍhā stays named-with-a-qualifier.
+- **destructive activity:** good Uttarabhādrapadā instead of Uttarāṣāḍhā.
+- **controlling activity:** good gains Uttarabhādrapadā, Pūrvaphalgunī and
+  Śatabhiṣaj, keeps Uttarāṣāḍhā; Mṛgaśiras stays out.
+- **increasing activity:** bad gains Uttarabhādrapadā (Uttarāṣāḍhā stays bad).
+
+Henning's page says it gives "a selection", so the mansions he leaves out
+(Citrā, Śatabhiṣaj, Pūrvaphalgunī above) may be deliberate; the print has
+them, and whether the app follows the print or Henning is a decision for
+the code task.
+
+Readings that rest on the vowel signs (every ཆུཾད/ཁྲུཾད above) were made
+on crops enlarged 4–6×, comparing each word with the same word elsewhere in
+the print. One word in box 8's good list (a ring-topped abbreviation after
+ས་ག) was not read.

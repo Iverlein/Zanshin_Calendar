@@ -112,6 +112,29 @@ And "རང་སྐྱེས … བརྒྱད་དྲུག" reads either a
 1996 print and its scan agree on every syllable, so the question is one of
 reading, for someone who reads the rtsis tradition.
 
+## A second witness: NM and SY
+
+Searched 2026-10-03 for task 4 of [PLAN.md](PLAN.md). NM (etext) gives the
+27 yogas three times, as bare name lists without readings ("know the result
+from the name", མིང་གིས་འབྲས་བུ་ཡོངས་ཤེས་བྱ), in its *ma ṇi* and *lnga bsdus*
+sections, printed pp. 251–252, 278–279 and 287–288:
+
+> སེལ་བ་དང་ནི་མཛའ་བོ་དང་། །ཚེ་ལྡན་པ་དང་སྐལ་བཟང་དང་། །བཟང་པོ་དང་ནི་རབ་བརྟན་དང་། །ལས་བཟང་འཛིན་པ་གཟེར་འབྲས་དང་། །འཕེལ་བ་ངེས་པ་རྨ་ཆེན་དང་། །དགའ་དང་རྡོ་རྗེ་དངོས་གྲུབ་དང་། །ཀུན་ཏུ་ལྟུང་དང་དཔའ་བོ་དང་། །ཡོངས་སུ་བསྣུན་དང་ཞི་བ་དང་། །གྲུབ་པ་བསྒྲུབ་བྱ་དགེ་བ་དང་། །དཀར་པོ་ཚངས་པ་དབང་པོ་དང་། །ཤ་འཁོན་འཛིན་པ་ཞེས་བྱ་སྟེ། །སྦྱོར་བ་ཉི་ཤུ་རྩ་བདུན་ནོ། །
+
+(pp. 251–252.) The other two lists agree but for 6 ཤིན་ཏུ་སྐྲངས (where
+the first has རབ་བརྟན), 17 ལྟུང, 19 ཡོངས་འཇོམས or ཡོངས་བསྣུན, 27 ཤ་ཁོན་འཛིན.
+So NM confirms WB's names (sel ba, rma chen, dpa' bo, sha 'khon) against
+the almanacs', and has the 18th as dpa' bo too.
+
+- **Question 2** ([open-questions.md](open-questions.md)): neither ཡོན་ཏན nor
+  མདའ is among NM's 27 names in any of its three lists, nor anywhere near a
+  yoga list in SY. So they are not yoga names in the one other manual with
+  a full list (NM is Sakya); the reading as epithets, or as a corruption,
+  gains weight, but no witness repeats the avoidance verse.
+- **Question 1:** neither NM nor SY has the ranking verse (no དྲུག་དགུ་བཅུ,
+  no རང་སྐྱེས་གསུམ) or any ranking of the yogas; SY names no yoga list at
+  all. The question still needs a reader.
+
 ## Long readings, in brief
 
 pp. 347–348, from the etext (gaps where the OCR lost syllables; the short

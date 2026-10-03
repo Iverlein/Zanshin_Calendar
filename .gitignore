@@ -241,3 +241,6 @@ website/.hugo_build.lock
 
 # Local assistant settings
 .claude/
+
+# Machine transcriptions of the White Beryl, kept locally (docs/sources/wb/README.md)
+docs/sources/wb/

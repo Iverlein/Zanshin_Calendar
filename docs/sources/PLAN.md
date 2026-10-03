@@ -9,6 +9,18 @@ something the app can build.
 Written 2026-10-03, at the end of the session that found the *White Beryl*
 passages and wrote the topic files.
 
+## Status, 2026-10-03 (second session)
+
+| Task | State |
+| --- | --- |
+| 1. Doubled mansions | **Done.** Every doubled entry resolved on the KP scans; see [mansions.md](mansions.md), *Box by box*. The corrections to `Electional.kt` are a code task. |
+| 2. KP inventory | **Done** for img. 21–65 by eye, with the book's own list of contents (img. 9–10); the rest of the book described page by page ([kun-phan-me-long.md](kun-phan-me-long.md)). Some headings stay unsettled ([…]); boxes 51–52 not located. |
+| 3. Mansion verses | **Not done.** All verse pages transcribed by machine (`wb/`, local), but the agy text invents mansion names at verse heads and merges verses; the 27 verses still need reading on the scans. Start with each verse's first line (img. 321–336). |
+| 4. Yogas | **Partly.** NM gives the yoga names three times and neither ཡོན་ཏན nor མདའ among them (question 2 leans to epithets); no witness for the ranking (question 1 still needs a reader). The long readings are transcribed by machine (`wb/agy/355–356.txt`), not yet scan-checked. |
+| 5. Lunar dates | **Not done.** Pages transcribed by machine (`wb/agy/305–312.txt`); the […] still need 6× crops. |
+| 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found (the weekday's, pp. 308–312; weekday × mansion, pp. 331–333). |
+| 7. Kyūreki gaps | **Done** as far as sources go: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to koyomi8 with its own hedge; O-Bon facts found, the choice is the SPEC's ([kyureki.md](kyureki.md)). |
+
 ## Before starting
 
 - Read [README.md](README.md) (how the files quote) and SPEC §8 (no text
@@ -25,7 +37,39 @@ passages and wrote the topic files.
 
 ## Tools
 
-All of these worked on 2026-10-03.
+All of these worked on 2026-10-03. The scripts are in `tools/sources/`
+(each prints its usage when run without arguments); keep downloads in a
+scratch directory, not in the repository:
+
+- `bdrc.py etext DIR IE…` — the etexts below, with page markers;
+  `bdrc.py volumes MW…` and `bdrc.py scans DIR I… 21-67` — page images.
+- `scans.py crop | row | stack` — enlarged crops, one region across many
+  images (heading cells, or one word wherever it occurs), stacked folios.
+- `agy_read.py DIR IMG…` — transcription of typeset pages by agy (see
+  *Reading with agy* below).
+- `ndl.py WORDS` — NDL catalogue search, for printed Japanese sources.
+- `bdrc_ocr.py APP setup|run` — BDRC's own OCR, as an independent second
+  reading; `disagree.py MAIN WITNESS --scan IMG --sheet OUT` — where agy and
+  it differ, with those scan lines stacked for checking.
+- `score_reading.py TRUTH READING…` — syllable error rate against a passage
+  read on the scan; how readers were compared (below).
+- `local_read.py PRESET …` — a local vision model through `llm-serve`. On
+  2026-10-03 Qwen3-VL-8B (48% errors), Yigdzin-1 (88%) and gemma-4-E4B
+  (100%) were tried and none is usable; agy 2%, BDRC Woodblock 12%. Details
+  in ~/knowledge/local-vision-models-tibetan.md on MONOLITH.
+
+### Reading with agy
+
+agy (`Gemini 3.1 Pro (High)`) reads the typeset 1996 *White Beryl* nearly
+clean, far better than the BDRC OCR, at 5–15 minutes a page; run several
+`agy_read.py` processes over disjoint page lists. It does **not** read
+woodblock tables: on KP's abbreviated mansion lists it wrote the standard
+order of the 27 mansions instead of the print, and on box headings it got
+about half right and invented box numbers. So its typeset text is a working
+copy to check on the scan, and woodblock tables are read by eye with
+`scans.py`.
+
+### The services themselves
 
 **BDRC etexts**, no browser needed:
 

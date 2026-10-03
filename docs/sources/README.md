@@ -13,9 +13,14 @@ our own words). What is still to be found, and how, is in
 | [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from the OCR only; two readings of the ranking verse open |
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, a few syllables […]; illness and remedy lines summarized only; date 4 of the *bla gnas* unclear |
-| [mansions.md](mansions.md) | The mansion verses; the doubtful entries of the activity lists | T2 | Uttarāṣāḍhā's verse settled; the other 27 verses not written out; the doubled entries settled for one activity of six |
-| [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Located and partly read; most boxes not yet read |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Five questions |
+| [mansions.md](mansions.md) | The mansion verses; the doubtful entries of the activity lists | T2 | Uttarāṣāḍhā's verse settled; the other 27 verses not written out; **every doubled entry resolved on the KP scans** |
+| [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box of img. 21–65 inventoried, with the book's list of contents; the rest of the book described |
+| [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
+| [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals | §7 | 2033 settled; 三箇の悪日 sourced with a hedge; festival facts found |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Seven questions |
+
+Machine transcriptions of WB, used as working copies only, are kept locally
+in `wb/` (gitignored; see `wb/README.md`).
 
 ## How the files quote
 

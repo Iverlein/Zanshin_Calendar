@@ -1,0 +1,32 @@
+# White Beryl, chapter 33: what it holds
+
+Sigla, numbering and quoting rules are in [README.md](README.md). WB vol. 2,
+1996 Beijing edition; printed page = image number − 8. One line per
+section, from the BDRC OCR of each page (img. 305–358, 2026-10-03): enough
+to say what a section is and where it starts, not to quote it. Sections
+already written out have their file named.
+
+| Pages (img.) | Section | Written out | Use for the app |
+| --- | --- | --- | --- |
+| 297–304 (305–312) | The 30 lunar dates: activities, births, illness; the four perilous dates; the five-fold cycle; the *bla gnas* | [lunar-dates.md](lunar-dates.md) | T2, lunar days |
+| 305 (313) | End of the *bla gnas*; the "fruit of vowels and consonants" (*dbyangs gsal 'bras bu*): the five stages child, youth, adult, old, dead of the name syllable on a day | no | needs the person's name: not a day reading |
+| 306–307 (314–315) | Remedies when a planet harms (*gza' gnod pa*): rites, offerings and recitations per planet, and per name vowel | no | readings only, nothing to calculate |
+| 308–312 (316–320) | The seven planets as weekdays: for each, its caste, whose *bla gza'* it is, element, the activities good and bad on it, a birth on it, illness and remedy, rain, portents (Sunday, img. 316 … Saturday, img. 320) | no | **T2: a reading for the weekday row**, like the mansion's; the app's weekday row has none |
+| 313–328 (321–336) | The 28 mansion verses | [mansions.md](mansions.md) (one of 28; the rest in progress) | T2, the mansion reading (now from Henning) |
+| 329 (337) | End of the last verses; the mansions' strength (*dar gud*) | no | not yet clear |
+| 330 (338) | The personal mansions and weekdays per birth animal | [personal-mansions.md](personal-mansions.md) | T3 |
+| 331–333 (339–341) | The 28 named combinations of weekday and mansion (*kun dga'*, *dus kyi dbyug pa*, *dul ba*, *skye dgu*, *gnon* …, *bdud rtsi*, *gtun*), a long reading of each (img. 339–340) and a short one (*mdor bsdus*, img. 341) | no | **T2: a new day reading**, fully calculable from weekday and mansion |
+| 334 (342) | The element pair of weekday and mansion, Chinese and Indian | no | the app already shows the element pair (Rabten's names) |
+| 335–336 (343–344) | Special combinations: *'grub sbyor*, *bdud rtsi sbyor*, … ; the demon days (*bdud kyi nyi ma*) | no | T2: flags on a day, calculable |
+| 337–338 (345–346) | Days of destruction (*'jig pa'i nyi ma*), *srog sbyor*; the personal weekdays (*srog gza'*, *bla gza'*) and what to do on them | no | T3: the personal weekday, partly in the app already |
+| 339–342 (347–350) | Tables: the elements; per birth animal the *srog gza'*, *keg skar*, *gshed gza'* …; the *'grub sbyor*, demon, discordant (*mi mthun*) and destruction days after the *Rdo rje gtsug lag* | no | tables for the sections above |
+| 343–344 (351–352) | The karaṇas over the 60 half-days of the month | [karanas.md](karanas.md) | T2, karaṇas |
+| 345–346 (353–354) | The *bla skar*, *dur skar* (great and small), *srog skar* … by element | no | T3, personal mansions by element; to compare with p. 330 |
+| 347–349 (355–357) | The 27 yogas: long and short readings, those to avoid, a ranking | [yogas.md](yogas.md) | T2, yogas |
+| 349–351 (357–359) | The 11 karaṇas with woodcuts | [karanas.md](karanas.md) | T2, karaṇas |
+
+The two new day readings worth building next are the weekday's (pp. 308–312)
+and the weekday-and-mansion combination's (pp. 331–333): both depend only on
+what the app already calculates, and both are verse in WB, so they are to
+be written out from the scans in the way of [mansions.md](mansions.md)
+before any English is drafted.

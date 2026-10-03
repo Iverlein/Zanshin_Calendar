@@ -19,3 +19,11 @@ the text, not about the app.
    Is there a reason to keep the 1996 numbers?
 5. SY gives the Mouse's gshed gza' as zla ba (Monday); WB and Rabten say
    spen pa (Saturday). A copying slip in SY, or another tradition?
+6. KP box 6 (offerings to deities, img. 23): khrums smad (ཁྲུཾད) is
+   listed among the good mansions and again among the bad. A slip of the
+   print, or good for one kind of offering and bad for another?
+7. KP's list of contents (img. 9–10) shows no items 1–4, and boxes 1, 4,
+   51 and 52 were not found on the scans (box 4 may be the robe woodcut of
+   img. 22, which has no number). Is a folio missing from the Mtho las dgon
+   print, or are these elsewhere in the book?
+
