@@ -69,6 +69,11 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   would label the app *Non-Free Assets*.
 - **No personal data in the repository**: it is public. Examples and tests use
   Kyoto or Lhasa, never the owner's location.
+- **Check a release build before tagging.** R8 renames classes; the catalog
+  keys engine terms by their enum's class name, kept by
+  `app/proguard-rules.pro`. A debug build never shows a breakage there: build
+  `assembleRelease`, sign it with the debug key (zipalign, apksigner) and look
+  at both pages and a sheet on the emulator for raw keys such as `lh1.SENBU`.
 - **Releases** (SPEC §12): bump `versionCode` and `versionName` in
   `app/build.gradle.kts`, add `changelogs/<versionCode>.txt`, commit, tag
   `v<versionName>`. The store description must not name unbuilt features.
