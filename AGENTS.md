@@ -55,8 +55,10 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
 - **Every Tibetan term and kanji must show its English on tap** (`GlossText`),
   without a dotted underline.
 - **New kanji need a font rebuild.** Shippori Mincho is subset to the
-  characters in the sources: run `tools/subset_fonts.py` with the full fonts
-  from google/fonts `ofl/shipporimincho/` after adding any. Tibetan needs no
+  characters in the Kotlin sources, the text catalogs and the string
+  resources: run `tools/subset_fonts.py` with the full fonts from
+  google/fonts `ofl/shipporimincho/` after adding any (fontTools in a
+  throwaway virtualenv; the host Python has none). Tibetan needs no
   rebuild: its script is generated from the Wylie at run time
   (`core/.../tibetan/Ewts.kt`) and the Noto Serif Tibetan subset keeps the
   whole Tibetan block (`subset_fonts.py --tibetan`).

@@ -5,9 +5,10 @@
 """Subset the bundled fonts to the characters the app can show.
 
 Shippori Mincho (SIL OFL 1.1) is ~9 MB per weight because of its kanji; the
-app needs a few dozen. The subset is every character that appears in the
-Kotlin sources of core/ and app/, plus printable ASCII. Rerun after adding
-kanji to the sources.
+app needs a few hundred. The subset is every character that appears in the
+Kotlin sources of core/ and app/, in the text catalogs
+(core/src/main/resources/texts/) and in the string resources of every
+language, plus printable ASCII. Rerun after adding kanji to any of them.
 
 Noto Serif Tibetan (SIL OFL 1.1) is a variable font of about 2 MB. Its
 Tibetan is generated at run time from Wylie (core/.../tibetan/Ewts.kt), so it
@@ -39,7 +40,13 @@ OUT = ROOT / "app/src/main/res/font"
 
 def characters():
     chars = {chr(c) for c in range(0x20, 0x7F)}
-    for path in list((ROOT / "core/src/main").rglob("*.kt")) + list((ROOT / "app/src/main").rglob("*.kt")):
+    sources = (
+        list((ROOT / "core/src/main").rglob("*.kt"))
+        + list((ROOT / "app/src/main").rglob("*.kt"))
+        + list((ROOT / "core/src/main/resources/texts").glob("*.properties"))
+        + list((ROOT / "app/src/main/res").glob("values*/strings.xml"))
+    )
+    for path in sources:
         if path.name == "Vsop87Earth.kt":
             continue
         chars.update(ch for ch in path.read_text(encoding="utf-8") if ord(ch) > 0x7F)
