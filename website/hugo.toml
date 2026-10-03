@@ -12,8 +12,8 @@ defaultContentLanguage = "en"
 source = "https://github.com/Iverlein/Zanshin_Calendar"
 spec = "https://github.com/Iverlein/Zanshin_Calendar/blob/main/docs/SPEC.md"
 fdroid = "https://f-droid.org/packages/io.github.iverlein.zanshin/"
-# Set to true once the package page on f-droid.org answers.
-fdroidLive = false
+# The package page answers since 2026-10-02; false shows "On its way" instead.
+fdroidLive = true
 
 # Each language reads fastlane/metadata/android/<listing>/; screenshots and the
 # icon fall back to en-US, as on F-Droid. Interface words are in i18n/.
@@ -30,6 +30,7 @@ label = "Русский"
 weight = 2
 [languages.ru.params]
 listing = "ru-RU"
+fdroid = "https://f-droid.org/ru/packages/io.github.iverlein.zanshin/"
 
 [[module.mounts]]
 source = "assets"
