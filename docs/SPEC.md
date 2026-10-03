@@ -776,8 +776,11 @@ What its inclusion policy asks of this repository, and where it is met:
 | A tag per release | `v` + `versionName`, on the commit that sets it |
 | Description matches the app | the listing mentions no feature that is not built (no widget until §10.6 is done) |
 
-The recipe proposed to `fdroiddata` is kept in
-`docs/fdroid/io.github.iverlein.zanshin.yml`. A release is: bump `versionCode`
+The app is on F-Droid since 2026-10-02:
+<https://f-droid.org/packages/io.github.iverlein.zanshin/>. A copy of its
+`fdroiddata` recipe is kept in `docs/fdroid/io.github.iverlein.zanshin.yml`;
+the recipe itself changes only through a merge request to `fdroiddata`, and
+the copy follows it. A release is: bump `versionCode`
 and `versionName`, add `changelogs/<versionCode>.txt`, commit, tag
 `v<versionName>`, push the tag; F-Droid's update checker picks up the tag.
 Builds are not reproducible yet, so F-Droid signs with its own key; switching

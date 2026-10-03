@@ -19,6 +19,12 @@ readings of that day and sunrise, solar noon and sunset for your place.
 - Dates from 1900 to 2100. No internet permission: everything is computed on
   the phone.
 
+## Install
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/io.github.iverlein.zanshin/)
+
+Website: [zanshin.fyi](https://zanshin.fyi/)
+
 ## Build
 
 JDK 21 and the Android SDK (platform 37) are needed.
