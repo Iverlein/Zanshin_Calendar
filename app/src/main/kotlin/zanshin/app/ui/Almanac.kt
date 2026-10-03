@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -21,6 +22,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
@@ -139,6 +141,12 @@ data class Annotation(
     val spokenTitle: String? = null,
     /** How the entry was worked out, as label and value, shown under the reading. */
     val details: List<Pair<String, String>> = emptyList(),
+    /** Drawn in place of the tone dot (the 恵方 compass). */
+    val lead: (@Composable () -> Unit)? = null,
+    /** Glyphs after the title in the row (the element pair, the haircut's scissors). */
+    val glyphs: (@Composable () -> Unit)? = null,
+    /** A diagram in the reading sheet, under the gloss (SPEC §10.4). */
+    val diagram: (@Composable () -> Unit)? = null,
 )
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -155,13 +163,19 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Box(
-            Modifier
-                .size(8.dp)
-                .background(toneColor(a.tone), CircleShape)
-                .semantics { contentDescription = toneText },
-        )
+        val lead = a.lead
+        if (lead != null) {
+            Box(Modifier.semantics { contentDescription = toneText }) { lead() }
+        } else {
+            Box(
+                Modifier
+                    .size(8.dp)
+                    .background(toneColor(a.tone), CircleShape)
+                    .semantics { contentDescription = toneText },
+            )
+        }
         Column(Modifier.weight(1f)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(
                 a.title,
                 style = if (a.titleIsKanji) {
@@ -171,6 +185,8 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
                 },
                 modifier = a.spokenTitle?.let { spoken -> Modifier.semantics { contentDescription = spoken } } ?: Modifier,
             )
+                a.glyphs?.invoke()
+            }
             Text(a.subtitle ?: a.english, style = body.copy(fontSize = 13.sp, color = Palette.muted))
         }
     }
@@ -185,6 +201,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
         containerColor = Palette.surface,
         scrimColor = Palette.scrim,
+        dragHandle = { ToneBand(a.tone) },
     ) {
         Column(
             Modifier
@@ -204,6 +221,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
                 )
             }
             Text(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone)), style = body.copy(color = Palette.muted))
+            a.diagram?.let { Centered(it) }
             val r = a.reading
             if (r == null) {
                 Text(stringResource(R.string.sheet_no_reading), style = body.copy(color = Palette.faint))
@@ -246,5 +264,15 @@ private fun ListBlock(title: String, items: List<String>, color: Color) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         Text(items.joinToString(" · "), style = body.copy(lineHeight = 21.sp))
+    }
+}
+
+/** The top of a reading sheet: a band in the reading's tone, then the drag handle. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ToneBand(tone: Tone) {
+    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+        Box(Modifier.fillMaxWidth().height(5.dp).background(toneColor(tone)))
+        BottomSheetDefaults.DragHandle()
     }
 }

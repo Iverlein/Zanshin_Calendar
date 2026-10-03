@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
@@ -30,36 +31,63 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.SummaryEntry
+import zanshin.core.texts.family
 
 private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 15.sp)
 
-/** The day's summary line: how many activities are named good, to avoid, or both; opens [DaySummarySheet]. */
+/**
+ * The day's summary line (SPEC §10.4): the glyphs of the activity families
+ * the annotations name good and to avoid, a family in the mixed colour when
+ * one of its activities is named both ways; opens [DaySummarySheet]. Screen
+ * readers get the counts.
+ */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
+    val disputed = summary.activities.count { it.disputed }
+    val spoken = stringResource(R.string.kyu_in_brief) + ": " +
+        stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
+        if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else ""
     Row(
-        Modifier.fillMaxWidth().heightIn(min = 44.dp).clickable(role = Role.Button, onClickLabel = briefLabel, onClick = onOpen),
+        Modifier
+            .fillMaxWidth()
+            .heightIn(min = 44.dp)
+            .clickable(role = Role.Button, onClickLabel = briefLabel, onClick = onOpen)
+            .clearAndSetSemantics { contentDescription = spoken },
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        val disputed = summary.activities.count { it.disputed }
-        Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
-        Text(
-            stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
-                if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "",
-            style = body.copy(fontSize = 14.sp, color = Palette.muted),
-            modifier = Modifier.weight(1f),
-        )
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
+            FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
+            FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
+        }
         Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp))
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun FamilyLine(label: String, families: List<ActivityFamily>, disputed: Set<ActivityFamily>, color: Color) {
+    if (families.isEmpty()) return
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Text(label, style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = color), modifier = Modifier.width(62.dp))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(9.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            for (f in families) CueIcon(CueGlyphs.FAMILY.getValue(f), if (f in disputed) Palette.mixed else color, 22.dp)
+        }
     }
 }
 
@@ -145,6 +173,7 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         for (n in notes) {
             Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
                 Column(Modifier.weight(1f)) {
                     Text(n.activity.english, style = body.copy(fontSize = 16.sp))
                     if (n.disputed) {

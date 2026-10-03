@@ -1,0 +1,679 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
+
+package zanshin.app.ui
+
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Rect
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.TextMeasurer
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.drawText
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.ui.text.style.Hyphens
+import androidx.compose.ui.text.style.LineBreak
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import io.github.iverlein.zanshin.R
+import zanshin.core.kyureki.Choku
+import zanshin.core.kyureki.KyuSei
+import zanshin.core.kyureki.Rokuyo
+import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.SolarTerm
+import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
+import zanshin.core.texts.DayTime
+import zanshin.core.texts.Texts
+import zanshin.core.tibetan.ElementPair
+import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.IndianElement
+import zanshin.core.tibetan.Mansion
+import zanshin.core.tibetan.Trigram
+import kotlin.math.PI
+import kotlin.math.atan2
+import kotlin.math.cos
+import kotlin.math.hypot
+import kotlin.math.sin
+
+// Diagrams of the visual cues (SPEC §10.4). Bearings are degrees clockwise
+// from the top. Kanji drawn inside a diagram are explained by its caption,
+// which follows the cell last tapped (today's at first).
+
+private fun polar(c: Offset, r: Float, bearing: Float): Offset {
+    val a = bearing * PI.toFloat() / 180f
+    return Offset(c.x + r * sin(a), c.y - r * cos(a))
+}
+
+/** Bearing of [p] seen from [c], 0..360. */
+private fun bearingOf(c: Offset, p: Offset): Float {
+    val b = atan2(p.x - c.x, c.y - p.y) * 180f / PI.toFloat()
+    return (b + 360f) % 360f
+}
+
+private fun ring(c: Offset, r: Float) = Rect(c.x - r, c.y - r, c.x + r, c.y + r)
+
+/** A ring sector between radii [r0] and [r1] and bearings [a0] to [a1]. */
+private fun sector(c: Offset, r0: Float, r1: Float, a0: Float, a1: Float) = Path().apply {
+    val p = polar(c, r1, a0)
+    moveTo(p.x, p.y)
+    arcTo(ring(c, r1), a0 - 90f, a1 - a0, false)
+    val q = polar(c, r0, a1)
+    lineTo(q.x, q.y)
+    arcTo(ring(c, r0), a1 - 90f, a0 - a1, false)
+    close()
+}
+
+private fun DrawScope.arcStroke(c: Offset, r: Float, a0: Float, a1: Float, color: Color, width: Float, cap: StrokeCap = StrokeCap.Butt) {
+    drawArc(color, a0 - 90f, a1 - a0, false, topLeft = Offset(c.x - r, c.y - r), size = Size(2 * r, 2 * r), style = Stroke(width, cap = cap))
+}
+
+private fun DrawScope.label(measurer: TextMeasurer, text: String, at: Offset, style: TextStyle) {
+    val layout = measurer.measure(text, style)
+    drawText(layout, topLeft = Offset(at.x - layout.size.width / 2f, at.y - layout.size.height / 2f))
+}
+
+private val kanjiStyle get() = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold)
+private val captionStyle get() = body.copy(fontSize = 14.sp, color = Palette.muted, textAlign = TextAlign.Center)
+
+@Composable
+private fun Caption(text: String) {
+    Text(text, style = captionStyle, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
+}
+
+// ---------------------------------------------------------------- 六曜
+
+private val ROKUYO_CYCLE = listOf(Rokuyo.SENSHO, Rokuyo.TOMOBIKI, Rokuyo.SENBU, Rokuyo.BUTSUMETSU, Rokuyo.TAIAN, Rokuyo.SHAKKO)
+
+/** Hours drawn for each time a rokuyō names; noon is drawn last, over the halves it cuts into. */
+private val DAY_TIME_HOURS = listOf(
+    DayTime.MORNING to (6f to 12f),
+    DayTime.AFTERNOON to (12f to 18f),
+    DayTime.EVENING to (12f to 18f),
+    DayTime.NOON to (11f to 13f),
+)
+
+/**
+ * The day as an arc, morning on the left, noon at the top, evening on the
+ * right, with the times the rokuyō's reading names good and to avoid in
+ * their tone colours ([times] from `rokuyoTimes`). Nothing is drawn for a
+ * rokuyō whose reading names no time.
+ */
+@Composable
+fun DayArc(times: Pair<Set<DayTime>, Set<DayTime>>, width: Dp, modifier: Modifier = Modifier) {
+    val description = stringResource(R.string.desc_day_arc)
+    Canvas(modifier.size(width, width * 0.56f).semantics { contentDescription = description }) {
+        val stroke = size.width * 0.065f
+        val r = size.width / 2 - stroke
+        val c = Offset(size.width / 2, size.height - stroke / 2)
+        fun bearing(h: Float) = (h - 12f) * 15f
+        arcStroke(c, r, -90f, 90f, Palette.lineStrong, stroke, StrokeCap.Round)
+        for ((time, hours) in DAY_TIME_HOURS) {
+            val color = when (time) {
+                in times.second -> Palette.bad.copy(alpha = 0.6f)
+                in times.first -> Palette.good
+                else -> continue
+            }
+            arcStroke(c, r, bearing(hours.first), bearing(hours.second), color, stroke)
+        }
+        val tick = polar(c, r - stroke * 1.3f, 0f)
+        drawLine(Palette.faint, tick, Offset(tick.x, tick.y + stroke), 1.dp.toPx(), StrokeCap.Round)
+        drawLine(Palette.off, Offset(0f, c.y), Offset(size.width, c.y), 1.dp.toPx(), StrokeCap.Round)
+    }
+}
+
+/** The six rokuyō in turn, today's marked; tapping one names it below. */
+@Composable
+fun RokuyoStrip(today: Rokuyo) {
+    var selected by remember(today) { mutableIntStateOf(ROKUYO_CYCLE.indexOf(today)) }
+    Column {
+        Text(stringResource(R.string.rokuyo_cycle), style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.padding(bottom = 8.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            ROKUYO_CYCLE.forEachIndexed { i, r ->
+                val on = r == today
+                Box(
+                    Modifier
+                        .weight(1f)
+                        .height(44.dp)
+                        .background(if (i == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
+                        .border(if (on) 1.5.dp else 1.dp, if (on) Palette.vermilion else Palette.lineStrong, RoundedCornerShape(8.dp))
+                        .clickable(role = Role.Button) { selected = i },
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(r.kanji, style = kanjiStyle.copy(fontSize = 15.sp, color = if (on) Palette.vermilion else Palette.muted))
+                }
+            }
+        }
+        val r = ROKUYO_CYCLE[selected]
+        Caption("${r.kanji} ${r.romaji} — ${r.english}")
+    }
+}
+
+// ---------------------------------------------------------------- solar terms
+
+/** Solar longitude to the ring's bearing: 冬至 at the top, the year running clockwise. */
+private fun termBearing(longitude: Float) = ((longitude - 270f) % 360f + 360f) % 360f
+
+/**
+ * The 24 solar terms as a ring, 冬至 at the top: the current term filled,
+ * the four 土用 (the 18° before each 立) and the two 彼岸 (about three days
+ * either side of each equinox) as inner arcs.
+ */
+@Composable
+fun TermRing(current: SolarTerm, size: Dp) {
+    val description = stringResource(R.string.desc_term_ring, current.kanji)
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val c = center
+        val r = this.size.minDimension / 2 - 4.dp.toPx()
+        val w = r * 0.14f
+        drawCircle(Palette.lineStrong, r, c, style = Stroke(1.dp.toPx()))
+        val a = termBearing(current.longitude.toFloat())
+        drawPath(sector(c, r - w, r + w * 0.25f, a, a + 15f), Palette.vermilion)
+        for (k in 0 until 24) {
+            val major = k % 3 == 0
+            val p0 = polar(c, r - (if (major) w else w * 0.5f), k * 15f)
+            val p1 = polar(c, r + (if (major) w * 0.6f else w * 0.3f), k * 15f)
+            drawLine(if (major) Palette.muted else Palette.faint, p0, p1, (if (major) 1.4f else 1f).dp.toPx(), StrokeCap.Round)
+        }
+        val inner = r - w * 1.9f
+        for (start in listOf(297f, 27f, 117f, 207f)) {
+            val b = termBearing(start)
+            arcStroke(c, inner, b, b + 18f, Palette.saffron, w * 0.55f, StrokeCap.Round)
+        }
+        for (equinox in listOf(0f, 180f)) {
+            val b = termBearing(equinox)
+            arcStroke(c, inner, b - 3f, b + 3f, Palette.good, w * 0.55f, StrokeCap.Round)
+        }
+    }
+}
+
+// ---------------------------------------------------------------- 恵方
+
+/** A compass rose of the 24 directions, north at the top, with the year's lucky bearing as a needle. */
+@Composable
+fun Compass(bearing: Int, size: Dp, description: String) {
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val c = center
+        val r = this.size.minDimension / 2 - 2.dp.toPx()
+        drawCircle(Palette.lineStrong, r, c, style = Stroke(1.dp.toPx()))
+        for (k in 0 until 24) {
+            val major = k % 6 == 0
+            drawLine(
+                if (major) Palette.muted else Palette.faint,
+                polar(c, r - (if (major) r * 0.16f else r * 0.07f), k * 15f),
+                polar(c, r, k * 15f),
+                (if (major) 1.4f else 1f).dp.toPx(),
+                StrokeCap.Round,
+            )
+        }
+        val b = bearing.toFloat()
+        val tip = polar(c, r * 0.86f, b)
+        val tail = polar(c, r * 0.35f, b + 180f)
+        val left = polar(c, r * 0.1f, b - 90f)
+        val right = polar(c, r * 0.1f, b + 90f)
+        val needle = Path().apply {
+            moveTo(tip.x, tip.y); lineTo(left.x, left.y); lineTo(tail.x, tail.y); lineTo(right.x, right.y); close()
+        }
+        drawPath(needle, Palette.vermilion.copy(alpha = 0.18f))
+        drawPath(needle, Palette.vermilion, style = Stroke(1.4.dp.toPx()))
+        drawCircle(Palette.text, 1.8.dp.toPx(), c)
+    }
+}
+
+// ---------------------------------------------------------------- boards of nine
+
+/**
+ * The Lo Shu square, south at the top, as both calendars draw it: the 九星
+ * on the fixed board (後天定位盤, Japanese Wikipedia 九星) and the Tibetan
+ * sme ba (Berzin, Details of Tibetan Astrology 4: 9 at the top, south, and
+ * 1 at the bottom, north). Read row by row from the top left (southeast).
+ */
+val LO_SHU = listOf(4, 9, 2, 3, 5, 7, 8, 1, 6)
+
+/** The trigram of each number's box (Berzin 4; Japanese Wikipedia 九星); the centre has none. */
+private val LO_SHU_TRIGRAM = mapOf(
+    1 to Trigram.KHAM, 2 to Trigram.KHON, 3 to Trigram.ZIN, 4 to Trigram.ZON,
+    6 to Trigram.KHEN, 7 to Trigram.DWA, 8 to Trigram.GIN, 9 to Trigram.LI,
+)
+
+private val LO_SHU_DIRECTION = listOf("南東", "南", "南西", "東", "中央", "西", "北東", "北", "北西")
+
+/** The printed colours of the nine stars, after their readings (white, black, blue, green, yellow, white, red, white, purple). */
+private fun starColour(n: Int): Color = when (n) {
+    1, 6, 8 -> Color(0xFFE9E6DC)
+    2 -> Color(0xFF4A4A46)
+    3 -> Color(0xFF5FA7A0)
+    4 -> Color(0xFF7FB46A)
+    5 -> Color(0xFFD9B94A)
+    7 -> Color(0xFFD9705A)
+    else -> Color(0xFFA07AC0)
+}
+
+/** Lines of a trigram from the top down, true for a whole line. */
+private fun trigramLines(t: Trigram): List<Boolean> = when (t) {
+    Trigram.KHEN -> listOf(true, true, true)
+    Trigram.DWA -> listOf(false, true, true)
+    Trigram.LI -> listOf(true, false, true)
+    Trigram.ZIN -> listOf(false, false, true)
+    Trigram.ZON -> listOf(true, true, false)
+    Trigram.KHAM -> listOf(false, true, false)
+    Trigram.GIN -> listOf(true, false, false)
+    Trigram.KHON -> listOf(false, false, false)
+}
+
+/** A trigram drawn as its three lines, not set in type. */
+@Composable
+fun TrigramBars(t: Trigram, size: Dp, color: Color = Palette.text, description: String? = null) {
+    val semantics = if (description != null) Modifier.semantics { contentDescription = description } else Modifier
+    Canvas(Modifier.size(size).then(semantics)) {
+        val w = this.size.width * 0.72f
+        val x0 = (this.size.width - w) / 2
+        val gap = this.size.height * 0.24f
+        val y0 = this.size.height / 2 - gap
+        val sw = this.size.height * 0.09f
+        trigramLines(t).forEachIndexed { i, whole ->
+            val y = y0 + i * gap
+            if (whole) {
+                drawLine(color, Offset(x0, y), Offset(x0 + w, y), sw, StrokeCap.Round)
+            } else {
+                drawLine(color, Offset(x0, y), Offset(x0 + w * 0.38f, y), sw, StrokeCap.Round)
+                drawLine(color, Offset(x0 + w * 0.62f, y), Offset(x0 + w, y), sw, StrokeCap.Round)
+            }
+        }
+    }
+}
+
+/**
+ * The nine stars on the fixed board, [day] marked, [month] and [year] with
+ * a small 月 and 年. The page's version: names only.
+ */
+@Composable
+fun StarBoard(day: KyuSei, month: KyuSei, year: KyuSei, size: Dp) {
+    val description = stringResource(R.string.desc_nine_board)
+    val measurer = rememberTextMeasurer()
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val cell = this.size.width / 3
+        LO_SHU.forEachIndexed { i, n ->
+            val star = KyuSei.of(n)
+            val x = (i % 3) * cell
+            val y = (i / 3) * cell
+            val on = star == day
+            val inset = 1.5.dp.toPx()
+            drawRoundRect(if (on) Palette.raised else Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), androidx.compose.ui.geometry.CornerRadius(6.dp.toPx()))
+            drawRoundRect(
+                if (on) Palette.vermilion else Palette.lineStrong,
+                Offset(x + inset, y + inset),
+                Size(cell - 2 * inset, cell - 2 * inset),
+                androidx.compose.ui.geometry.CornerRadius(6.dp.toPx()),
+                style = Stroke((if (on) 1.5f else 1f).dp.toPx()),
+            )
+            drawCircle(starColour(n), 2.6.dp.toPx(), Offset(x + 8.dp.toPx(), y + 8.dp.toPx()))
+            label(measurer, star.kanji.take(2), Offset(x + cell / 2, y + cell / 2), kanjiStyle.copy(fontSize = (cell * 0.24f).toSp(), color = if (on) Palette.text else Palette.muted))
+            val marks = listOfNotNull("月".takeIf { star == month }, "年".takeIf { star == year })
+            marks.forEachIndexed { j, m ->
+                val mc = Offset(x + cell - 9.dp.toPx() - j * 14.dp.toPx(), y + cell - 9.dp.toPx())
+                drawCircle(Palette.saffron, 6.dp.toPx(), mc, style = Stroke(1.dp.toPx()))
+                label(measurer, m, mc, kanjiStyle.copy(fontSize = 8.sp, color = Palette.saffron))
+            }
+        }
+    }
+}
+
+/**
+ * The fixed board in the 九星 reading: each box with its star, colour,
+ * trigram and direction; tapping a box gives its star's reading below.
+ */
+@Composable
+fun StarBoardDetail(day: KyuSei, size: Dp) {
+    var selected by remember(day) { mutableIntStateOf(day.ordinal + 1) }
+    val description = stringResource(R.string.desc_nine_board)
+    val measurer = rememberTextMeasurer()
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+        Canvas(
+            Modifier
+                .size(size)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val col = (p.x / (this.size.width / 3f)).toInt().coerceIn(0, 2)
+                        val row = (p.y / (this.size.height / 3f)).toInt().coerceIn(0, 2)
+                        selected = LO_SHU[row * 3 + col]
+                    }
+                },
+        ) {
+            val cell = this.size.width / 3
+            LO_SHU.forEachIndexed { i, n ->
+                val x = (i % 3) * cell
+                val y = (i / 3) * cell
+                val on = n == day.ordinal + 1
+                val inset = 2.dp.toPx()
+                val corner = androidx.compose.ui.geometry.CornerRadius(8.dp.toPx())
+                drawRoundRect(if (n == selected) Palette.raised else Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), corner)
+                drawRoundRect(
+                    if (on) Palette.vermilion else Palette.lineStrong,
+                    Offset(x + inset, y + inset),
+                    Size(cell - 2 * inset, cell - 2 * inset),
+                    corner,
+                    style = Stroke((if (on) 1.6f else 1f).dp.toPx()),
+                )
+                drawCircle(starColour(n), 3.2.dp.toPx(), Offset(x + 11.dp.toPx(), y + 11.dp.toPx()))
+                label(measurer, LO_SHU_DIRECTION[i], Offset(x + cell - 16.dp.toPx(), y + 11.dp.toPx()), kanjiStyle.copy(fontSize = 8.sp, color = Palette.faint))
+                label(measurer, KyuSei.of(n).kanji.take(2), Offset(x + cell / 2, y + cell * 0.45f), kanjiStyle.copy(fontSize = (cell * 0.2f).toSp(), color = if (on) Palette.text else Palette.muted))
+                LO_SHU_TRIGRAM[n]?.let { t ->
+                    val w = cell * 0.2f
+                    val x0 = x + cell / 2 - w / 2
+                    val gap = 3.2.dp.toPx()
+                    val y0 = y + cell - 20.dp.toPx()
+                    trigramLines(t).forEachIndexed { k, whole ->
+                        val yy = y0 + k * gap
+                        if (whole) {
+                            drawLine(Palette.faint, Offset(x0, yy), Offset(x0 + w, yy), 1.4.dp.toPx(), StrokeCap.Round)
+                        } else {
+                            drawLine(Palette.faint, Offset(x0, yy), Offset(x0 + w * 0.38f, yy), 1.4.dp.toPx(), StrokeCap.Round)
+                            drawLine(Palette.faint, Offset(x0 + w * 0.62f, yy), Offset(x0 + w, yy), 1.4.dp.toPx(), StrokeCap.Round)
+                        }
+                    }
+                }
+            }
+        }
+        val star = KyuSei.of(selected)
+        Caption("${star.kanji} ${star.reading} — ${star.english}\n${Catalog.text("reading.KyuSei.${star.name}")}")
+    }
+}
+
+/** The sme ba colours as printed (Berzin 4), by number; black gets a rim on the dark page. */
+fun smeBaColour(n: Int): Color = when (n) {
+    1, 6, 8 -> Color(0xFFF2EFE8)
+    2 -> Color(0xFF000000)
+    3 -> Color(0xFF2E4A8C)
+    4 -> Color(0xFF3F8A4E)
+    5 -> Color(0xFFE1B93A)
+    else -> Color(0xFFB3322A)
+}
+
+/** The nine numbers (sme ba) in the square, each in its printed colour, [today] marked. */
+@Composable
+fun SmeBaSquare(today: Int, size: Dp, description: String) {
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val cell = this.size.width / 3
+        LO_SHU.forEachIndexed { i, n ->
+            val x = (i % 3) * cell
+            val y = (i / 3) * cell
+            val on = n == today
+            val inset = 0.6.dp.toPx()
+            drawRect(if (on) Palette.raised else Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
+            val s = cell * 0.46f
+            drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + (cell - s) / 2), Size(s, s))
+            if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + (cell - s) / 2), Size(s, s), style = Stroke(0.6.dp.toPx()))
+            if (on) drawRect(Palette.saffron, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.4.dp.toPx()))
+        }
+    }
+}
+
+// ---------------------------------------------------------------- 十二直 and 二十八宿
+
+/** The twelve stations as a dial, 建 at the top, each with its tone; tapping one names it below. */
+@Composable
+fun ChokuDial(today: Choku, size: Dp) {
+    var selected by remember(today) { mutableIntStateOf(today.ordinal) }
+    val description = stringResource(R.string.desc_choku_dial)
+    val measurer = rememberTextMeasurer()
+    val toneWords = Tone.entries.associateWith { toneLabel(it) }
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+        Canvas(
+            Modifier
+                .size(size)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                        selected = (((bearingOf(c, p) + 15f) / 30f).toInt()) % 12
+                    }
+                },
+        ) {
+            val c = center
+            val r1 = this.size.minDimension / 2 - 2.dp.toPx()
+            val r0 = r1 * 0.62f
+            Choku.entries.forEachIndexed { i, k ->
+                val on = k == today
+                val path = sector(c, r0, r1, i * 30f - 14f, i * 30f + 14f)
+                drawPath(path, if (i == selected) Palette.raised else Palette.surface)
+                drawPath(path, if (on) Palette.vermilion else Palette.lineStrong, style = Stroke((if (on) 1.6f else 1f).dp.toPx()))
+                label(measurer, k.kanji, polar(c, (r0 + r1) / 2, i * 30f), kanjiStyle.copy(fontSize = 15.sp, color = if (on) Palette.vermilion else if (k.tone == Tone.BAD) Palette.muted else Palette.text))
+                drawCircle(toneColor(k.tone), 2.6.dp.toPx(), polar(c, r0 - 8.dp.toPx(), i * 30f))
+            }
+        }
+        val k = Choku.entries[selected]
+        Caption("${k.kanji} ${k.reading} — ${k.english} · ${toneWords.getValue(k.tone)}")
+    }
+}
+
+private val QUADRANT = listOf("東", "北", "西", "南")
+
+/**
+ * The 28 lodges in their four quadrants of seven, north at the top, running
+ * counterclockwise from 角 in the east as in the sky; tapping one names it below.
+ */
+@Composable
+fun ShukuRing(today: Shuku, size: Dp) {
+    var selected by remember(today) { mutableIntStateOf(today.ordinal) }
+    val description = stringResource(R.string.desc_shuku_ring)
+    val quadrantNames = listOf(R.string.dir_east, R.string.dir_north, R.string.dir_west, R.string.dir_south).map { stringResource(it) }
+    val measurer = rememberTextMeasurer()
+    val step = 360f / 28f
+    fun bearing(n: Int) = 135f - (n + 0.5f) * step
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+        Canvas(
+            Modifier
+                .size(size)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                        val b = bearingOf(c, p)
+                        selected = (((135f - b) / step).let { ((it % 28f) + 28f) % 28f }).toInt()
+                    }
+                },
+        ) {
+            val c = center
+            val r1 = this.size.minDimension / 2 - 2.dp.toPx()
+            val r0 = r1 * 0.74f
+            Shuku.entries.forEachIndexed { n, s ->
+                val on = s == today
+                val a = bearing(n)
+                val path = sector(c, r0, r1, a - step / 2 + 0.8f, a + step / 2 - 0.8f)
+                drawPath(path, if (n == selected) Palette.raised else Palette.surface)
+                drawPath(path, if (on) Palette.vermilion else Palette.lineStrong, style = Stroke((if (on) 1.6f else 0.9f).dp.toPx()))
+                label(measurer, s.kanji, polar(c, (r0 + r1) / 2, a), kanjiStyle.copy(fontSize = 11.sp, color = if (on) Palette.vermilion else Palette.muted))
+            }
+            QUADRANT.forEachIndexed { q, d ->
+                label(measurer, d, polar(c, r0 - 18.dp.toPx(), 90f - 90f * q), kanjiStyle.copy(fontSize = 12.sp, color = Palette.faint))
+            }
+        }
+        val s = Shuku.entries[selected]
+        Caption("${s.kanji}宿 ${s.reading} — ${s.english} · ${quadrantNames[selected / 7]}")
+    }
+}
+
+// ---------------------------------------------------------------- Tibetan
+
+/**
+ * The 27 lunar mansions as a ring from Aśvinī at the top, [today] marked.
+ * The large one names the mansion tapped in its centre; the small one is a
+ * mark for the almanac row.
+ */
+@Composable
+fun MansionRing(today: Mansion, size: Dp, small: Boolean = false) {
+    var selected by remember(today) { mutableIntStateOf(today.ordinal) }
+    val description = stringResource(R.string.desc_mansion_ring, today.sanskrit)
+    val measurer = rememberTextMeasurer()
+    val step = 360f / 27f
+    val sel = Mansion.entries[selected]
+    val script = remember(sel) { Ewts.toTibetan(sel.wylie) }
+    Canvas(
+        Modifier
+            .size(size)
+            .semantics { contentDescription = description }
+            .then(
+                if (small) {
+                    Modifier
+                } else {
+                    Modifier.pointerInput(Unit) {
+                        detectTapGestures { p ->
+                            val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                            if (hypot(p.x - c.x, p.y - c.y) > this.size.width * 0.3f) selected = (bearingOf(c, p) / step).toInt() % 27
+                        }
+                    }
+                },
+            ),
+    ) {
+        val c = center
+        val r1 = this.size.minDimension / 2 - (if (small) 0.5f else 2f).dp.toPx()
+        val r0 = if (small) r1 * 0.55f else r1 * 0.8f
+        Mansion.entries.forEachIndexed { i, m ->
+            val on = m == today
+            val path = sector(c, r0, r1, i * step + (if (small) 1.5f else 0.7f), (i + 1) * step - (if (small) 1.5f else 0.7f))
+            if (small) {
+                if (on) drawPath(sector(c, r0 * 0.7f, r1, i * step - 2f, (i + 1) * step + 2f), Palette.saffron) else drawPath(path, Palette.off)
+            } else {
+                drawPath(path, if (i == selected) Palette.raised else Palette.surface)
+                drawPath(path, if (on) Palette.saffron else Palette.lineStrong, style = Stroke((if (on) 1.6f else 0.8f).dp.toPx()))
+                label(measurer, "${i + 1}", polar(c, (r0 + r1) / 2, (i + 0.5f) * step), body.copy(fontSize = 10.sp, fontWeight = FontWeight.SemiBold, color = if (on) Palette.saffron else Palette.faint))
+            }
+        }
+        if (!small) {
+            label(measurer, sel.sanskrit, Offset(c.x, c.y - r1 * 0.22f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
+            label(measurer, script ?: sel.wylie, c, if (script != null) tibetanStyle(18.sp) else body.copy(fontSize = 16.sp))
+            label(measurer, "${sel.english} · ${sel.element.english}", Offset(c.x, c.y + r1 * 0.24f), body.copy(fontSize = 12.sp, color = Palette.faint))
+        }
+    }
+}
+
+private val INDIAN = listOf(IndianElement.WIND, IndianElement.FIRE, IndianElement.EARTH, IndianElement.WATER)
+
+/**
+ * The ten pairs of the weekday's and the mansion's elements as a table,
+ * weekday down, mansion across, each pair in its tone; [weekday] and
+ * [mansion] mark today's.
+ */
+@Composable
+fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
+    val description = stringResource(R.string.desc_pair_grid)
+    Column(Modifier.semantics { contentDescription = description }, verticalArrangement = Arrangement.spacedBy(5.dp)) {
+        @Composable
+        fun head(e: IndianElement) = Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            CueIcon(CueGlyphs.of(e), Palette.muted, 20.dp)
+            Text(e.english, style = body.copy(fontSize = 11.sp, color = Palette.muted))
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+            Box(Modifier.width(44.dp))
+            INDIAN.forEach { Box(Modifier.weight(1f), contentAlignment = Alignment.Center) { head(it) } }
+        }
+        INDIAN.forEach { row ->
+            Row(horizontalArrangement = Arrangement.spacedBy(5.dp), verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.width(44.dp), contentAlignment = Alignment.Center) { head(row) }
+                INDIAN.forEach { col ->
+                    val pair = ElementPair.of(row, col)
+                    val on = row == weekday && col == mansion
+                    Box(
+                        Modifier
+                            .weight(1f)
+                            .height(48.dp)
+                            .background(if (on) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
+                            .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp)),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Text(
+                            pair.english,
+                            style = body.copy(
+                                fontSize = 11.sp,
+                                lineHeight = 13.sp,
+                                color = if (pair.auspicious) Palette.good else Palette.bad,
+                                textAlign = TextAlign.Center,
+                                hyphens = Hyphens.Auto,
+                                lineBreak = LineBreak.Paragraph,
+                            ),
+                            modifier = Modifier.padding(horizontal = 3.dp),
+                        )
+                    }
+                }
+            }
+        }
+        Text(stringResource(R.string.pair_grid_axes), style = body.copy(fontSize = 11.sp, color = Palette.faint))
+    }
+}
+
+/** The thirty lunar days with their hair-cutting tone, [today] marked; tapping a day gives its reading below. */
+@Composable
+fun HaircutGrid(today: Int) {
+    var selected by remember(today) { mutableIntStateOf(today) }
+    Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+        Text(stringResource(R.string.haircut_days), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+        for (row in 0 until 5) {
+            Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                for (col in 0 until 6) {
+                    val d = row * 6 + col + 1
+                    val on = d == today
+                    Column(
+                        Modifier
+                            .weight(1f)
+                            .aspectRatio(1.1f)
+                            .background(if (d == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
+                            .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                            .clickable(role = Role.Button) { selected = d },
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center,
+                    ) {
+                        Text("$d", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
+                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(if (d in Texts.HAIRCUT_GOOD) Palette.good else Palette.bad, CircleShape))
+                    }
+                }
+            }
+        }
+        Caption(stringResource(R.string.haircut_day, selected, Catalog.text(Texts.HAIRCUT[selected - 1].arg!!)))
+    }
+}
+
+/** A diagram centred in the sheet's width. */
+@Composable
+fun Centered(content: @Composable () -> Unit) {
+    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) { content() }
+}

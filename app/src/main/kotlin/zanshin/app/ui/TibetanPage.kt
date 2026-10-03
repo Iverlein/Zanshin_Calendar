@@ -47,6 +47,7 @@ import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
@@ -163,6 +164,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_element), gloss(info.signs.month.element)),
                 ) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
             )
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+            CueIcon(CueGlyphs.of(day.yearElement), Palette.muted, 20.dp)
+            CueIcon(CueGlyphs.ANIMAL.getValue(day.yearAnimal), Palette.muted, 20.dp, modifier = Modifier.padding(end = 6.dp))
             BalloonText(
                 text = stringResource(R.string.tib_year_line, gloss(day.yearElement), gloss(day.yearAnimal)),
                 style = body.copy(fontSize = 17.sp, color = Palette.muted),
@@ -177,6 +181,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
                 ) + aspectRows(Forces.of(day.yearElement, day.yearAnimal), info.birthSign?.forces, Force.entries),
             )
+            }
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+            CueIcon(CueGlyphs.of(day.dayElement), Palette.muted, 20.dp)
+            CueIcon(CueGlyphs.ANIMAL.getValue(day.dayAnimal), Palette.muted, 20.dp, modifier = Modifier.padding(end = 6.dp))
             BalloonText(
                 text = "${day.weekday.english} · ${day.weekday.planet} · ${stringResource(R.string.element_animal, gloss(day.dayElement), gloss(day.dayAnimal))}",
                 style = body.copy(color = Palette.muted),
@@ -190,6 +198,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_gender), gloss(day.dayGender, "inText")),
                 ),
             )
+            }
         }
 
         BriefRow(summary) { summaryOpen = true }
@@ -217,6 +226,12 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.ELEMENT_PAIR[pair],
                     subtitle = pairSubtitle,
                     titleIsKanji = false,
+                    glyphs = {
+                        CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp)
+                        Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(12.dp))
+                        CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 18.dp)
+                    },
+                    diagram = { ElementPairGrid(day.weekday.element, day.mansion.element) },
                 ),
             )
             val mansionReading = Texts.MANSION.getValue(day.mansion)
@@ -228,6 +243,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     mansionReading,
                     subtitle = mansionSubtitle,
                     titleIsKanji = false,
+                    glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
+                    diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
             )
             val haircut = Texts.HAIRCUT[day.day - 1]
@@ -238,6 +255,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     if (day.day in Texts.HAIRCUT_GOOD) Tone.GOOD else Tone.BAD,
                     haircut,
                     titleIsKanji = false,
+                    glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
+                    diagram = { HaircutGrid(day.day) },
                 ),
             )
         }
@@ -261,18 +280,46 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
 
         SectionTitle(stringResource(R.string.section_five_components))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            FactRow(stringResource(R.string.row_lunar_mansion), day.mansion.wylie, "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}")
+            FactRow(
+                stringResource(R.string.row_lunar_mansion),
+                day.mansion.wylie,
+                "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}",
+                lead = { CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 20.dp) },
+            )
             FactRow(stringResource(R.string.row_yoga), day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
             FactRow(stringResource(R.string.row_karana), day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
-            FactRow(stringResource(R.string.row_weekday), "gza’ ${day.weekday.wylie}", "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}")
+            FactRow(
+                stringResource(R.string.row_weekday),
+                "gza’ ${day.weekday.wylie}",
+                "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}",
+                lead = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 20.dp) },
+            )
         }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            FactRow(stringResource(R.string.row_animal), gloss(day.lunarDayAnimal), gloss(day.lunarDayAnimal), tibetan = false)
-            FactRow(stringResource(R.string.row_trigram), day.trigram.wylie, "${day.trigram.chinese} — ${day.trigram.english}")
+            FactRow(
+                stringResource(R.string.row_animal),
+                gloss(day.lunarDayAnimal),
+                gloss(day.lunarDayAnimal),
+                tibetan = false,
+                lead = { CueIcon(CueGlyphs.ANIMAL.getValue(day.lunarDayAnimal), Palette.text, 22.dp) },
+            )
+            FactRow(
+                stringResource(R.string.row_trigram),
+                day.trigram.wylie,
+                "${day.trigram.chinese} — ${day.trigram.english}",
+                lead = { TrigramBars(day.trigram, 22.dp) },
+            )
             val colour = SME_BA_COLOURS[day.smeBa - 1]
-            FactRow(stringResource(R.string.row_number), "${day.smeBa}", "${day.smeBa} · ${Catalog.text("Colour.$colour")}", tibetan = false, swatch = smeBaSwatch(colour))
+            val number = "${day.smeBa} · ${Catalog.text("Colour.$colour")}"
+            FactRow(
+                stringResource(R.string.row_number),
+                "${day.smeBa}",
+                number,
+                tibetan = false,
+                lead = { SmeBaSquare(day.smeBa, 30.dp, stringResource(R.string.desc_sme_ba, day.smeBa)) },
+            )
         }
     }
 
@@ -366,20 +413,6 @@ internal fun hourSpan(h: HourSign): String {
     return "${hhmm(h.startMinute)}–${hhmm(h.startMinute + 120)}"
 }
 
-/**
- * The colour a sme ba box is printed in (Berzin, Details of Tibetan Astrology 4),
- * by the colour name the app shows. Black gets a rim so it reads on the dark page.
- */
-private fun smeBaSwatch(name: String): Color = when (name) {
-    "white" -> Color(0xFFF2EFE8)
-    "black" -> Color(0xFF000000)
-    "blue" -> Color(0xFF2E4A8C)
-    "green" -> Color(0xFF3F8A4E)
-    "yellow" -> Color(0xFFE1B93A)
-    "red" -> Color(0xFFB3322A)
-    else -> Palette.faint
-}
-
 /** Tibetan script in the bundled font, sized to sit level with Latin text of [size]. */
 fun tibetanStyle(size: TextUnit): TextStyle = body.copy(fontFamily = TibetanSerif, fontSize = size * 1.15f)
 
@@ -414,16 +447,28 @@ fun TibetanTerm(wylie: String, english: String, size: TextUnit = 16.sp, preferAb
  * lift it above the label.
  */
 @Composable
-fun FactRow(label: String, term: String, english: String, tibetan: Boolean = true, kanji: Boolean = false, swatch: Color? = null) {
+fun FactRow(
+    label: String,
+    term: String,
+    english: String,
+    tibetan: Boolean = true,
+    kanji: Boolean = false,
+    swatch: Color? = null,
+    /** Glyphs drawn between the label and the term (SPEC §10.4). */
+    lead: (@Composable () -> Unit)? = null,
+) {
     Row(
         Modifier.fillMaxWidth().heightIn(min = 40.dp),
-        verticalAlignment = if (tibetan) Alignment.Top else Alignment.CenterVertically,
+        verticalAlignment = if (tibetan && lead == null) Alignment.Top else Alignment.CenterVertically,
     ) {
         Text(
             label,
             style = body.copy(fontSize = 14.sp, color = Palette.muted),
-            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (tibetan) it.alignByBaseline() else it },
+            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (tibetan && lead == null) it.alignByBaseline() else it },
         )
+        if (lead != null) {
+            Row(Modifier.padding(end = 10.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) { lead() }
+        }
         if (swatch != null) {
             Spacer(
                 Modifier
@@ -434,7 +479,7 @@ fun FactRow(label: String, term: String, english: String, tibetan: Boolean = tru
             )
         }
         if (tibetan) {
-            TibetanTerm(term, english, preferAbove = true, modifier = Modifier.alignByBaseline())
+            TibetanTerm(term, english, preferAbove = true, modifier = if (lead == null) Modifier.alignByBaseline() else Modifier)
         } else if (kanji) {
             GlossText(
                 term,

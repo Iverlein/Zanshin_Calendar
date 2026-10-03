@@ -401,7 +401,7 @@ private fun SideMenu(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
             ) {
-                Text(stringResource(R.string.app_name), style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 24.sp))
+                Text(stringResource(R.string.menu_title), style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 24.sp))
                 IconButton(onClick = onClose) { Icon(Icons.Close, contentDescription = stringResource(R.string.menu_close), tint = Palette.muted) }
             }
             SectionLabel(stringResource(R.string.menu_calendar))

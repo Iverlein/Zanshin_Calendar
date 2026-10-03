@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -53,6 +54,8 @@ import zanshin.core.texts.Reading
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
 import zanshin.core.texts.rokuyoTone
+import zanshin.core.texts.rokuyoTimes
+import zanshin.core.tibetan.Animal
 import zanshin.core.texts.toneOf
 
 /**
@@ -71,7 +74,20 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
     val kanjiStyle = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, color = Palette.text)
     val labels = LocalLabels.current
     val monthLabel = labels.month(day.month, day.leapMonth)
-    val rokuyo = Annotation(day.rokuyo.kanji, "${day.rokuyo.romaji} — ${day.rokuyo.english}", rokuyoTone(day.rokuyo), Texts.ROKUYO[day.rokuyo])
+    val rokuyoTimes = rokuyoTimes(day.rokuyo)
+    val namesTimes = rokuyoTimes.first.isNotEmpty() || rokuyoTimes.second.isNotEmpty()
+    val rokuyo = Annotation(
+        day.rokuyo.kanji,
+        "${day.rokuyo.romaji} — ${day.rokuyo.english}",
+        rokuyoTone(day.rokuyo),
+        Texts.ROKUYO[day.rokuyo],
+        diagram = {
+            Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                if (namesTimes) Centered { DayArc(rokuyoTimes, 220.dp) }
+                RokuyoStrip(day.rokuyo)
+            }
+        },
+    )
 
     Column(
         modifier = modifier
@@ -128,9 +144,10 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             horizontalArrangement = Arrangement.spacedBy(16.dp),
         ) {
             Text(day.rokuyo.kanji, style = kanjiStyle.copy(fontSize = 72.sp, color = accent).tight(1.0f))
-            Column {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(day.rokuyo.romaji, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold))
                 Text(stringResource(R.string.kyu_rokuyo_line, day.rokuyo.english), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                if (namesTimes) DayArc(rokuyoTimes, 76.dp, Modifier.padding(top = 4.dp))
             }
         }
 
@@ -161,9 +178,10 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
                 .border(1.dp, Palette.line, RoundedCornerShape(14.dp))
                 .padding(horizontal = 16.dp, vertical = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween,
         ) {
-            Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            TermRing(day.currentTerm, 48.dp)
+            Spacer(Modifier.width(14.dp))
+            Row(Modifier.weight(1f), verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 GlossText(day.currentTerm.kanji, day.currentTerm.english, kanjiStyle.copy(fontSize = 26.sp), reading = day.currentTerm.romaji)
                 Text(day.currentTerm.romaji, style = body, modifier = Modifier.padding(bottom = 3.dp))
             }
@@ -205,21 +223,33 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
 
         SectionTitle(stringResource(R.string.section_kanshi))
         Column {
-            FactRow(stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true)
             val yearKanshi = Kanshi.ofYear(day.year)
-            FactRow(stringResource(R.string.row_year), yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}", tibetan = false, kanji = true)
             val branch = Kanshi(rk.setsuBranch)
+            FactRow(stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true, lead = { KanshiGlyphs(rk.dayKanshi) })
+            FactRow(stringResource(R.string.row_year), yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}", tibetan = false, kanji = true, lead = { KanshiGlyphs(yearKanshi) })
             FactRow(
                 stringResource(R.string.row_solar_month),
                 "${branch.kanji.drop(1)}月",
                 stringResource(R.string.kyu_solar_month, Catalog.text("Branch.${branch.branch}"), rk.setsuStart.format(labels.shortDate)),
                 tibetan = false,
                 kanji = true,
+                lead = { KanshiGlyphs(branch, element = false) },
             )
-            FactRow(stringResource(R.string.row_month_star), rk.monthStar.kanji, "${rk.monthStar.reading} — ${rk.monthStar.english}", tibetan = false, kanji = true)
-            FactRow(stringResource(R.string.row_year_star), rk.yearStar.kanji, "${rk.yearStar.reading} — ${rk.yearStar.english}", tibetan = false, kanji = true)
         }
-        AnnotationRow(Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar])) { sheet = it }
+
+        SectionTitle(stringResource(R.string.section_stars))
+        val dayStar = Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar], diagram = { StarBoardDetail(rk.dayStar, 288.dp) })
+        Row(
+            Modifier.fillMaxWidth().clickable(role = Role.Button) { sheet = dayStar },
+            horizontalArrangement = Arrangement.spacedBy(18.dp),
+        ) {
+            StarBoard(rk.dayStar, rk.monthStar, rk.yearStar, 120.dp)
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                StarLine(stringResource(R.string.row_day_star), null, rk.dayStar)
+                StarLine(stringResource(R.string.row_month_star), "月", rk.monthStar)
+                StarLine(stringResource(R.string.row_year_star), "年", rk.yearStar)
+            }
+        }
         if (birthStar != null) {
             val a = Kigaku.affinity(birthStar, rk.dayStar)
             AnnotationRow(
@@ -232,18 +262,30 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
                 ),
             ) { sheet = it }
         }
-        AnnotationRow(Annotation("恵方", stringResource(R.string.kyu_ehou, rk.ehou.english), Tone.GOOD, Texts.EHOU[rk.ehou], subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}")) { sheet = it }
+        val ehouLine = stringResource(R.string.kyu_ehou, rk.ehou.english)
+        AnnotationRow(
+            Annotation(
+                "恵方",
+                ehouLine,
+                Tone.GOOD,
+                Texts.EHOU[rk.ehou],
+                subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}",
+                lead = { Compass(rk.ehou.bearing, 56.dp, ehouLine) },
+                diagram = { Compass(rk.ehou.bearing, 160.dp, ehouLine) },
+            ),
+        ) { sheet = it }
     }
 
     sheet?.let { ReadingSheet(it) { sheet = null } }
     if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
 }
 
-private fun chokuAnnotation(c: Choku, labels: Labels) = Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c])
+private fun chokuAnnotation(c: Choku, labels: Labels) =
+    Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c], diagram = { ChokuDial(c, 240.dp) })
 
 private fun shukuAnnotation(s: Shuku, labels: Labels): Annotation {
     val reading = Texts.SHUKU[s]
-    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading)
+    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading, diagram = { ShukuRing(s, 280.dp) })
 }
 
 private fun senjitsuAnnotation(s: Senjitsu) = Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])
@@ -255,6 +297,27 @@ private fun SenjitsuSection(title: String, days: List<Senjitsu>, onOpen: (Annota
     Column {
         days.forEach { s ->
             AnnotationRow(senjitsuAnnotation(s), onOpen)
+        }
+    }
+}
+
+/** The element of a 干支's stem and the animal of its branch, as glyphs; the text beside them names both. */
+@Composable
+private fun KanshiGlyphs(k: Kanshi, element: Boolean = true) {
+    if (element) CueIcon(CueGlyphs.of(k.element), Palette.muted, 20.dp)
+    CueIcon(CueGlyphs.ANIMAL.getValue(Animal.entries[k.branch]), Palette.muted, 20.dp)
+}
+
+@Composable
+private fun StarLine(label: String, mark: String?, star: KyuSei) {
+    Column {
+        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted))
+            if (mark != null) Text(mark, style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Palette.saffron))
+        }
+        Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(star.kanji.take(2), style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 18.sp, color = Palette.text))
+            Text(star.english, style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.padding(bottom = 2.dp))
         }
     }
 }
