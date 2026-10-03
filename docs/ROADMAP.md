@@ -25,6 +25,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 4 | T2 Tibetan readings | M | Mansions and the activity lists are built; yogas, karaṇas, lunar days and further activities each need a source first | Sources |
 | 5 | R4 Visual cues | XL | About twenty activity glyphs, a dozen diagrams and the trigrams, each drawn, described for screen readers and mocked up first; a font rebuild | — |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
 ## 1.1 — 旧暦 page
 
@@ -149,6 +150,15 @@ calendars and the nine-star reading need the birth date; the progressions of T4 
   for these two only. While it is not set, the readings that need it are
   hidden rather than guessed.
 - Both stay on the device only, as the birth date does now (SPEC §10.5).
+
+### M1. Meditation Timer and Periodic Bell
+
+Porting the core functionality of the open-source MindBell app into Zanshin Calendar using modern Android architecture (idiomatic Kotlin, Jetpack Compose).
+
+- **Meditation Timer**: A countdown UI built in Compose. Will use a Foreground Service with a persistent notification to ensure the timer finishes reliably without being killed by modern Android battery optimization.
+- **Periodically Sounding Bell**: A background chime that rings at either fixed intervals or randomized intervals (matching MindBell's original functions, ringing within an active daytime window).
+- **Audio**: Needs a bundled bell sound (e.g., OGG/MP3) with an F-Droid compatible free license (such as Apache 2.0 or CC0).
+- **Implementation**: Avoids the deprecated MindBell background service patterns. Uses modern `AlarmManager.setExactAndAllowWhileIdle()` (or equivalent WorkManager scheduling) with a `BroadcastReceiver` to handle audio playback efficiently. Must maintain the strict `No INTERNET` policy.
 
 ## Localisation
 
