@@ -1,5 +1,5 @@
 {{- if site.Params.fdroidLive -}}
-<a class="button primary" href="{{ site.Params.fdroid }}">{{ i18n "get_fdroid" }}</a>
+<a class="button primary badge" href="{{ site.Params.fdroid }}">{{ partial "fdroid-mark.html" }}<span><small>{{ i18n "get_on" }}</small> <b>F-Droid</b></span></a>
 {{- else -}}
 <span class="button pending" aria-disabled="true">{{ i18n "fdroid_pending" }}</span>
 {{- end }}

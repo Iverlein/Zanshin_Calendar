@@ -137,6 +137,12 @@ a:hover { color: var(--text); }
 .button.primary { background: var(--saffron); border-color: var(--saffron); color: var(--ink); }
 .button.primary:hover { background: #ecbb6c; border-color: #ecbb6c; color: var(--ink); }
 .button.pending { border-color: var(--saffron); color: var(--saffron); cursor: default; }
+/* F-Droid's badge, redrawn in the palette: the robot, then "Get it on" over the name. */
+.button.badge { gap: 10px; padding: 0 22px 0 16px; }
+.badge .mark { width: 26px; height: 26px; flex: none; }
+.badge span { display: flex; flex-direction: column; line-height: 1.1; }
+.badge small { font-size: .7rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.badge b { font-size: 1.2rem; font-weight: 600; letter-spacing: -.01em; }
 
 .phone {
   display: block; width: 100%; height: auto;
