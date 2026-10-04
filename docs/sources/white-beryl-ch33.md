@@ -11,7 +11,7 @@ already written out have their file named.
 | 297–304 (305–312) | The 30 lunar dates: activities, births, illness; the four perilous dates; the five-fold cycle; the *bla gnas* | [lunar-dates.md](lunar-dates.md) | T2, lunar days |
 | 305 (313) | End of the *bla gnas*; the "fruit of vowels and consonants" (*dbyangs gsal 'bras bu*): the five stages child, youth, adult, old, dead of the name syllable on a day | no | needs the person's name: not a day reading |
 | 306–307 (314–315) | Remedies when a planet harms (*gza' gnod pa*): rites, offerings and recitations per planet, and per name vowel | no | readings only, nothing to calculate |
-| 308–312 (316–320) | The seven planets as weekdays: for each, its caste, whose *bla gza'* it is, element, the activities good and bad on it, a birth on it, illness and remedy, rain, portents (Sunday, img. 316 … Saturday, img. 320) | no | **T2: a reading for the weekday row**, like the mansion's; the app's weekday row has none |
+| 308–312 (316–320) | The seven planets as weekdays: for each, its caste, whose *bla gza'* it is, element, the activities good and bad on it, a birth on it, illness and remedy, rain, portents (Sunday, img. 316 … Saturday, img. 320) | [weekdays.md](weekdays.md) | T2, the weekday's reading (built) |
 | 313–328 (321–336) | The 28 mansion verses | [mansions.md](mansions.md) (one of 28; the rest in progress) | T2, the mansion reading (now from Henning) |
 | 329 (337) | End of the last verses; the mansions' strength (*dar gud*) | no | not yet clear |
 | 330 (338) | The personal mansions and weekdays per birth animal | [personal-mansions.md](personal-mansions.md) | T3 |
@@ -25,8 +25,9 @@ already written out have their file named.
 | 347–349 (355–357) | The 27 yogas: long and short readings, those to avoid, a ranking | [yogas.md](yogas.md) | T2, yogas |
 | 349–351 (357–359) | The 11 karaṇas with woodcuts | [karanas.md](karanas.md) | T2, karaṇas |
 
-The two new day readings worth building next are the weekday's (pp. 308–312)
-and the weekday-and-mansion combination's (pp. 331–333): both depend only on
-what the app already calculates, and both are verse in WB, so they are to
-be written out from the scans in the way of [mansions.md](mansions.md)
-before any English is drafted.
+The weekday's reading (pp. 308–312) is written out in
+[weekdays.md](weekdays.md) and built. The next new day reading is the
+weekday-and-mansion combination's (pp. 331–333): it depends only on what
+the app already calculates, and it is verse in WB, so it is to be written
+out from the scans in the way of [mansions.md](mansions.md) before any
+English is drafted.

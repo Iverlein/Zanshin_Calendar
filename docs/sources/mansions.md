@@ -84,7 +84,7 @@ in its place. "Genuine" means the print does have ཆུཾད there.
 | Box (img.) | Henning | The print | Result for the app |
 | --- | --- | --- | --- |
 | 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད བྱིཞི; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. The good list ends with བྱིཞི, Abhijit (missed in the first reading by eye; found by the Yigdzin OCR and confirmed on the scan). |
-| 8 taking a new home (25) | Uttarāṣāḍhā good and bad | good: … ས་ག [one word not read] ཆུཾད མོནྡྲེ གྲོཞི མོནྲུ ཁྲོད …; bad: ཐཀྲ སྐག སྣྲུབས ལྷ་མཚམས ཁྲུམ་སྨད | Uttarāṣāḍhā **good**; the bad one is khrums smad written out, **Uttarabhādrapadā bad**. |
+| 8 taking a new home (25) | Uttarāṣāḍhā good and bad | good: སྣར མགོ ནབསོ རྒྱལ མཆུ གྲེ དབོ མྱེ ནག ས་རི ས་ག ནུཾ ཆུཾད མོནྡྲེ གྲོཞི མོནྲུ ཁྲོད; bad: ཐཀྲ སྐག སྣྲུབས ལྷ་མཚམས ཁྲུམ་སྨད | Uttarāṣāḍhā **good**; the bad one is khrums smad written out, **Uttarabhādrapadā bad**. The good list's seventeen are Henning's seventeen, ནུཾ (Revatī) among them. |
 | 12 setting out on journeys (27) | Uttarāṣāḍhā good and bad | good: ཐཀྲ རྒྱལ ནབསོ ས་རི ལྷོས གྲོཞི ཆོད མོནྡྲེ མོནྲུ ཁྲིད; bad: … སྣྲོན སྣྲུབས ཆུཾད ཁྲོད ནུཾ | Uttarāṣāḍhā **bad** (genuine, as WB's own verse has it); Henning's good one is ཁྲིད, **Uttarabhādrapadā good**. The good list also has མོནྲུ, **Śatabhiṣaj**, which Henning leaves out. |
 | 40 making weapons (48) | Uttarāṣāḍhā good and bad | good: … ཁྲུཾད …; bad: … ཆུཾད (genuine) | Uttarāṣāḍhā **bad**; **Uttarabhādrapadā good**. |
 | 42 marriage (49) | Uttarāṣāḍhā good and bad | good: ཆུཾད དབོ གྲོཞི ནབསོ … (genuine); bad: … ནག ཁྲུཾད མོནྡྲེ མོནྲུ ཁྲོད ཆོད ཐཀྲ | Uttarāṣāḍhā **good** (WB's verse agrees); **Uttarabhādrapadā bad**. |
@@ -104,9 +104,10 @@ a genuine ཆུཾད where Henning has Uttarāṣāḍhā. Two have the other 
 
 ### What this means for the app's lists
 
-All of these are corrections to `core/.../tibetan/Electional.kt`, a separate
-code task; until then the rule (doubles left out) stands. In the code's
-terms:
+These corrections are made in `core/.../tibetan/Electional.kt` (SPEC
+§5.10), which follows the print, also where it names a mansion Henning
+leaves out; a mansion the print itself names twice for one activity stays
+out. In the code's terms:
 
 - **offerings to deities:** good gains Uttarāṣāḍhā and Pūrvaphalgunī, keeps
   one Dhaniṣṭhā; Uttarabhādrapadā is in both halves (left out); bad gains
@@ -122,10 +123,10 @@ terms:
 
 Henning's page says it gives "a selection", so the mansions he leaves out
 (Citrā, Śatabhiṣaj, Pūrvaphalgunī above) may be deliberate; the print has
-them, and whether the app follows the print or Henning is a decision for
-the code task.
+them, and the app follows the print (SPEC §5.10).
 
 Readings that rest on the vowel signs (every ཆུཾད/ཁྲུཾད above) were made
 on crops enlarged 4–6×, comparing each word with the same word elsewhere in
-the print. One word in box 8's good list (a ring-topped abbreviation after
-ས་ག) was not read.
+the print. The ring-topped word after ས་ག in box 8's good list, left
+unread at first, is ནུཾ, Revatī (read on the scan 2026-10-04 and by the
+Yigdzin OCR, which gives ནྲུཾ).

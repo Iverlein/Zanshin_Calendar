@@ -4,6 +4,12 @@ The three 旧暦 questions of [PLAN.md](PLAN.md) task 7, with what was found on
 2026-10-03. Facts only, in our own words (SPEC §8); the Japanese is quoted
 where the finding rests on its wording.
 
+**In the app since 2026-10-03:** `Kyureki.kt` cites the 2033 statement (SPEC
+§7.1); the three personal bad days cite the 簠簋内伝 scan and koyomi8
+(`Rekichu.personalDays`, SPEC §7.5, and their readings); O-Bon shows on
+15 August, labelled by the Gregorian date, from Japanese Wikipedia お盆
+(SPEC §7.3).
+
 ## The 2033 leap month (SPEC §7.1 rule 5)
 
 **Settled.** The 一般社団法人日本カレンダー暦文化振興協会 (暦文協) published
@@ -30,8 +36,8 @@ matrix of thirteen rules).
 
 The app agrees: `./gradlew :cli:run --args="--sui 2033"` prints 11月 from
 2033-11-22, **閏11月 from 2033-12-22**, 12月 from 2034-01-20. The constant
-`RESOLUTION_2033_SUI` in `Kyureki.kt` can now cite this source, and SPEC
-§7.1 and §8.3 can drop "to be confirmed".
+`RESOLUTION_2033_SUI` in `Kyureki.kt` cites this source, as do SPEC §7.1
+and §8.3.
 
 The 国立天文台 takes no side: it explains the problem and the three
 proposals on its 暦Wiki
@@ -76,11 +82,21 @@ table headed 正節切 ("by the solar months"), one column for each month,
 each column labelled with the birth year it applies to (寅人, 卯人, 辰人 …,
 "a person of the 寅 year …"), and the three rows 大禍日 亥午丑申卯戌巳子未寅酉辰,
 狼藉日 子卯午酉子卯午酉子卯午酉, 滅門日 巳子未寅酉辰亥午丑申卯戌. That is
-koyomi8's table and the app's, and the birth-year reading is the text's
-own, not a later guess: the hedge «らしい» can go. NDL's OCR index finds the
-same section in the 1800 printing (pid 1901824, with the same 滅門日 row) and
-in a 寛永9 (1632) edition (pid 2533009); those two were not looked at on
-the scan. The text adds that the three days stand for the three gods of poverty,
+koyomi8's table and the app's, and the birth-year reading is printed in
+the text, not koyomi8's guess, so the app's reading states it without
+koyomi8's hedge «らしい». Two older printings, read on the NDL's scans on 2026-10-04:
+the 寛政12 (1800) printing (pid 1901824, img. 20,
+https://dl.ndl.go.jp/pid/1901824/1/20) has the same table, headed 正節切,
+with the small labels 寅人 … 丑人 over the columns and the same three rows;
+the 寛永9 (1632) edition (pid 2533009, img. 26,
+https://dl.ndl.go.jp/pid/2533009/1/26) has the same three rows, marked 正
+for the solar months, but no birth-year labels on the columns. Its top
+margin carries a handwritten note giving 狼藉日 by groups of birth years
+(寅午戌年人 …), a reader's addition, not the print. So the birth-year
+reading is printed at least from 1800; the oldest printing seen gives the
+table by solar month alone.
+
+The text adds that the three days stand for the three gods of poverty,
 hunger and obstruction and the three poisons, and so are used for nothing
 («右今三箇日取貧窮飢渇障导三神貪欲瞋恚愚癡三毒故萬事不用»).
 
@@ -101,8 +117,13 @@ on August 15)"; the code has only the kyūreki-dated ones.
   or just before 処暑), which the app's kyūreki 7/7 already approximates.
 - The other kyūreki festivals the app shows (sekku, 十五夜, 十三夜, 旧正月)
   are kept today on the Gregorian date of the same number (3月3日, 5月5日 …)
-  or, for 十五夜 and 十三夜, still by the lunar date. A source for each is
-  still to be cited if the app shows the Gregorian-day forms.
+  or, for 十五夜 and 十三夜, still by the lunar date. For the sekku the
+  国立天文台's 暦Wiki 「節句」 says so (read 2026-10-04 in a browser): the
+  old seasons follow the lunisolar date, «現在のように太陽暦の同じ日付に
+  もとづく季節とは平均1か月ほどのズレがあります», hence the 月遅れ and the
+  伝統的七夕 (https://eco.mtk.nao.ac.jp/koyomi/wiki/C0E1B6E7.html, the page
+  the app already cites for the sekku). The app shows only the kyūreki
+  forms, so no Gregorian-day form needs a further source.
 
 What the SPEC needs is a decision on which of these the page shows (only
 月遅れ O-Bon, as its example says, or every 月遅れ and 新暦 form); the

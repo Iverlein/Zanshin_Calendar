@@ -178,8 +178,11 @@ prints carry the same words.
 pp. 347–348, first from the etext (gaps where the OCR lost syllables),
 then (2026-10-03) from the two OCR readings of the scans, Yigdzin-1 and
 MITRA, which agree on all of p. 348 and on all but five syllables of
-p. 347 (none of them in a yoga's name); the short readings above are the
-ones checked on the scan by eye:
+p. 347 (none of them in a yoga's name). Those five were settled on the
+scan on 2026-10-04: ཤིས (MITRA; Yigdzin ཤེས), ཚོམས (MITRA; ཆོམས), བུ་ཚ
+(MITRA; ཚེ), ཕོ་ནུ (Yigdzin; MITRA ཅུ) and འཚོར (MITRA; འཆོར); none changes
+a gist below. The short readings above are the ones checked on the scan by
+eye:
 
 | # | WB | Gist of the long reading |
 | --- | --- | --- |

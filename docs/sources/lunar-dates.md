@@ -12,7 +12,11 @@ the evening).
 
 A verse lists the good activities and closes with བཟང་; the next list,
 closed by ངན་, སྤང་ or བག, holds those to avoid. The lines are quoted as
-read on the scans; […] marks a syllable the scan does not show clearly.
+read on the scans; […] marks a syllable the scan does not show clearly
+(none is left since 2026-10-04). Date 25's ཕྱུགས་ཉོས་སྒབ་འཕེལ is clear on the
+scan (p. 301, img. 309) and in both OCR readings, but སྒབ is not a number
+like the other dates' སྟོང (a thousandfold) or བདུན (sevenfold); the
+table says only that livestock increases.
 The illness and remedy lines are summarized, not quoted. *shwa rags*
 (ཤྭ་རགས, dates 22 and 27) is not identified; KP's list of contents pairs
 ཤྭ་རག with protection against water (ཤྭ་རག་ཆུ་བསྲུང་, item 51), so some
@@ -33,7 +37,7 @@ same pages also name (dates 13, 17, 18 and 28 among them).
 | 10 | བཅུ་ལ་སྐྲ་འཁྲུ་རབ་བྱུང་གནས། །རྒྱལ་ས་ལྷ་ཁང་མཆོད་རྟེན་བརྩིག །རྟེན་བཞེངས་དམག་འདྲེན་ལྷོ་མིན་དང་། །ཞིང་འདེབས་རྒྱས་པའི་ལས་རྣམས་བཟང་། །ལམ་ཞུགས་བྲན་བསྟེན་ཕྱུགས་ཉོ་སྤང་། །ཕོ་མོ་སྐྱེས་དབུལ་ཤི་བ་ངན། | washing the hair, ordination, consecration, enthronement, building temples and stupas, making images, an army not to the south, planting, increasing rites | setting out, servants, buying livestock | poor | as date 2; death bad |
 | 11 | བཅུ་གཅིག་སྐྲ་འཁྲུ་ཁྲུས་འགྲེལ་འདོགས། །རྒྱལ་ས་རབ་གནས་རབ་བྱུང་མཁར། །དམག་འདྲེན་ལྷོ་མིན་གཞན་གསུམ་དང་། །ས་ཁ་གཏར་སྲེག་ལམ་དྲག་བཟང་། །བྲན་བསྟན་ཕྱུགས་ཀྱི་ཉོ་འདུལ་སྤང་། །སྐྱེས་བསྟུད་ཤེས་ཡངས་ | washing the hair, bathing, tying on amulets ('grel 'dogs), enthronement, consecration, ordination, building, an army in the three directions other than south, breaking ground, bloodletting and moxibustion, setting out, fierce rites | servants, buying and breaking livestock | children follow; wide learning | as date 3; death bad |
 | 12 | བཅུ་གཉིས་རབ་གནས་རྒྱལ་ས་འཇུག །མཆོད་རྟེན་ལྷ་ཁང་བརྩིག་པ་དང་། །ཐབ་འཆའ་རྟེན་བཞེངས་ས་བོན་གདབ། །རྫིང་ཡུར་ཁྲོན་འདྲུ་ཞི་ལས་དང་། །དམག་འདྲེན་ལྷོ་ནུབ་མ་གཏོགས་བཟང་། །ལམ་ཞུགས་སྐྲ་འཁྲུ་བྲན་གཡོག་བསྟེན། །ཕྱུགས་ཉོ་སྦྱིན་སྲེག་རབ་བྱུང་སྤང་། །བུ་བཟང་བུ་མོ་སྐྱེས་ན་ངན། | consecration, enthronement, building stupas and temples, a hearth, making images, sowing, digging ponds, canals and wells, pacifying, an army except south and west | setting out, washing the hair, taking servants, buying livestock, fire offerings, ordination | a boy good; a girl bad | as date 4 |
-| 13 | བཅུ་གསུམ་རྒྱལ་ས་སྐྲ་འཁྲུ་ལམ། །རབ་གནས་མཁར་ལས་ཐབ་ཁ་བཅའ། །ལྷ་ཁང་རྟེན་བཞེངས་མཆོད་རྟེན་བརྩིག །སྦྱིན་སྲེག་ཆུ་རགས་རྒྱས་ལས་བཟང་། །རྫིང་ཁྲོན་བྲན་བསྟེན་ཕྱུགས་ཉོ་སྤང་། །གང་སྐྱེས་འཆི་འམ་ངན་པ་ཡིན། | enthronement, washing the hair, setting out, consecration, building, a hearth, temples, images, stupas, fire offerings, dams, increasing | ponds and wells, servants, buying livestock | dies or fares badly | as an earlier date (its number not legible); death good |
+| 13 | བཅུ་གསུམ་རྒྱལ་ས་སྐྲ་འཁྲུ་ལམ། །རབ་གནས་མཁར་ལས་ཐབ་ཁ་བཅའ། །ལྷ་ཁང་རྟེན་བཞེངས་མཆོད་རྟེན་བརྩིག །སྦྱིན་སྲེག་ཆུ་རགས་རྒྱས་ལས་བཟང་། །རྫིང་ཁྲོན་བྲན་བསྟེན་ཕྱུགས་ཉོ་སྤང་། །གང་སྐྱེས་འཆི་འམ་ངན་པ་ཡིན། | enthronement, washing the hair, setting out, consecration, building, a hearth, temples, images, stupas, fire offerings, dams, increasing | ponds and wells, servants, buying livestock | dies or fares badly | as date 5 (ཆེས་ལྔར་མཚུངས, p. 300, img. 308, the print's ཆེས for ཚེས); death good |
 | 14 | བཅུ་བཞི་སྐྲ་འཁྲུ་རབ་བྱུང་དང་། །རབ་ཏུ་གནས་དང་ཕྱུགས་ཉོ་བ། །མཁར་ལས་ལམ་ཞུགས་དབང་ལས་བཟང་། །ས་བོན་ཆོས་འཆད་བྲན་བསྟེན་སྤང་། །བུ་སྐྱེས་མར་ངན་བུ་མོ་བསྟུད། | washing the hair, ordination, consecration, buying livestock, building, setting out, power rites | sowing, teaching dharma, servants | a boy is bad for the mother; girls follow | as date 6 |
 | 15 | བཅོ་ལྔ་དྲུག་ལས་ཁྱིམ་འཛིན་དང་། །རྟེན་བཞེངས་མཆོད་རྟེན་ལྷ་ཁང་བརྩིག །རབ་གནས་ས་བོན་ལྷ་གཡང་ལམ། །དབང་ཆོས་སྐྲ་འཁྲུ་ནོར་སྒྲུབ་གཤིན། །རྒྱལ་ས་བཟློག་པ་མཁར་ལས་བཟང་། །ཕྱུགས་ཉོ་བདུན་འཕེལ་མནའ་སྐྱེལ་བ། །བག་མ་རབ་བྱུང་བུ་འབོགས་དང་། །བུ་ལོན་འཇལ་ངན་བུ་སྐྱེས་ཕྱུག །བུ་མོ་འཆི་འམ་དབེན། | the six rites, taking a house, making images, building stupas and temples, consecration, sowing, prosperity rites, setting out, empowerment, dharma, washing the hair, gaining wealth, funeral rites, enthronement, averting rites, building; livestock sevenfold | oaths, marriage, ordination, giving a child away, paying debts | a boy rich; a girl dies or lives alone | as date 7 |
 | 16 | བཅུ་དྲུག་ས་དབྱེ་ཞིང་ཞི་ལས། །སྐྲ་འཁྲུ་བྲན་ནོར་ཉོ་བ་བཟང་། །རབ་གནས་ལམ་ཇག་ཁ་སྨྲས་མཁར། །རྒྱལ་སར་འཇུག་ངན་ཕྱུགས་ཉོས་འཕེལ། །ཕོ་མོ་བཙས་ན་ཕྱིས་ནས་བསྟུད། | breaking ground, fields, pacifying, washing the hair, buying servants and goods; livestock increases | consecration, setting out, robbery, quarrels, building, enthronement | more children later | as date 8; death bad |
@@ -45,7 +49,7 @@ same pages also name (dates 13, 17, 18 and 28 among them).
 | 22 | ཉེར་གཉིས་ཡིག་རྩིས་བཟོ་རིག་སློབ། །ཐབ་འཆའ་སྐྲ་འཁྲུ་རྫིང་ཡུར་ཁྲོན། །ཞིང་འདེབས་གཏད་སྲི་བྲག་ལས་བཟང་། །ཕྱུགས་ནི་ལྔར་འཕེལ་ཁང་གསར་འཛིན། །རབ་གནས་རྒྱལ་ས་ལྷ་རྟེན་བཞེངས། །འདུན་བག་དུར་འདེབས་ལམ་བྲན་བསྟེན། །མཁར་ལས་ནོར་ཉོ་རྐང་འགྲོས་འདུལ། །ཤྭ་རགས་སྦྱིན་སྲེག་ངན་པས་སྤང་། །བུ་སྐྱེས་བཟང་ཞིང་བུ་མོ་ངན། | learning writing, astrology and crafts, a hearth, washing the hair, ponds, canals and wells, planting, *gtad* and *sri* rites, rock work; livestock fivefold | taking a new house, consecration, enthronement, images, council, marriage, burial, setting out, servants, building, buying goods, breaking animals, *shwa rags*, fire offerings | a boy good, a girl bad | as date 6 |
 | 23 | ཉེར་གསུམ་མཁར་ལས་ཐབ་འཆའ་ལམ། །རབ་བྱུང་སྐྲ་འཁྲུ་ས་བོན་གདབ། །སྦྱིན་སྲེག་ཆུ་རགས་ཞི་ལས་བཟང་། །རྫིང་ཡུར་ཁྲོན་འདྲུ་ཕྱུགས་ཉོ་དང་། །བྲན་ནོར་རབ་གནས་རྒྱལ་ས་དང་། །གང་སྐྱེས་འཆི་འམ་ངན་པ་ཡིན། | building, a hearth, setting out, ordination, washing the hair, sowing, fire offerings, dams, pacifying | ponds, canals and wells, buying livestock, servants and goods, consecration, enthronement (the verse has no closing ངན་ here) | dies or fares badly | as date 7; death good |
 | 24 | ཉེར་བཞི་བྲན་བསྟེན་ནོར་ཕྱུགས་ཉོ། །ལམ་ཞུགས་ས་བོན་རྒྱས་ལས་བཟང་། །རྒྱལ་ས་རབ་གནས་སྐྲ་འཁྲུ་སྤང་། །བུ་སྐྱེས་མ་ལ་ངན་པ་ཡིན། །བུ་མོ་སྐྱེས་བསྟུད་ | servants, buying goods and livestock, setting out, sowing, increasing | enthronement, consecration, washing the hair | a boy is bad for the mother; girls follow | as date 8 |
-| 25 | ཉེར་ལྔ་མཁར་ལས་ཞིང་ཉོ་ལམ། །ས་ཁ་སྲི་མནན་གཤིན་ལས་དང་། །ས་བོན་དྲག་ལས་དམག་འདྲེན་པ། །ཤར་མིན་ཀུན་བཟང་སྐྲ་འཁྲུ་དང་། །རབ་གནས་རྒྱལ་ས་བྲན་བསྟེན་ངན། །ཕྱུགས་ཉོས་[…]་འཕེལ་བུ་སྐྱེས་ཕྱུག །བུ་མོ་འཆི་འམ་དབེན། | building, buying fields, setting out, breaking ground, suppressing *sri*, funeral rites, sowing, fierce rites, an army in any direction but east; livestock increases | washing the hair, consecration, enthronement, servants | a boy rich; a girl dies or lives alone | as date 1 |
+| 25 | ཉེར་ལྔ་མཁར་ལས་ཞིང་ཉོ་ལམ། །ས་ཁ་སྲི་མནན་གཤིན་ལས་དང་། །ས་བོན་དྲག་ལས་དམག་འདྲེན་པ། །ཤར་མིན་ཀུན་བཟང་སྐྲ་འཁྲུ་དང་། །རབ་གནས་རྒྱལ་ས་བྲན་བསྟེན་ངན། །ཕྱུགས་ཉོས་སྒབ་འཕེལ་བུ་སྐྱེས་ཕྱུག །བུ་མོ་འཆི་འམ་དབེན། | building, buying fields, setting out, breaking ground, suppressing *sri*, funeral rites, sowing, fierce rites, an army in any direction but east; livestock increases | washing the hair, consecration, enthronement, servants | a boy rich; a girl dies or lives alone | as date 1 |
 | 26 | ཉེར་དྲུག་སྐྲ་འཁྲུ་ས་བོན་གདབ། །ས་ཁ་དབྱེ་དང་དྲག་ལས་བཟང་། །བྲན་བསྟེན་ལམ་ཞུགས་ནོར་ཕྱུགས་ཉོ། །རྒྱལ་ས་རབ་གནས་མཁར་ལས་སྤང་། །བུ་མོ་སྐྱེས་བསྟུད་ཤི་བ་ངན། | washing the hair, sowing, breaking ground, fierce rites | servants, setting out, buying goods and livestock, enthronement, consecration, building | girls follow | as date 2; death bad |
 | 27 | ཉེར་བདུན་ལམ་ཞུགས་སྐྲ་འཁྲུ་གཤིན། །ས་བོན་འདེབས་དང་ཐབ་ཁ་འཆའ། །རྫིང་ཁྲོན་འདྲུ་སོགས་རྒྱས་ལས་བཟང་། །རྒྱལ་ས་རབ་གནས་བྲན་ནོར་ཉོ། །རྟེན་བཞེངས་ལྷ་ཁང་ཤྭ་རགས་བག །སྦྱིན་སྲེག་ངན་ཞིང་ཕྱུགས་ཉོ་འབྲིང་། །བུ་སྐྱེས་རིག་རྣོ་བུ་མོ་ངན། །ཁྱོ་ཡི་ཕྱི་ལ་འབྲང་བའོ། | setting out, washing the hair, funeral rites, sowing, a hearth, ponds and wells, increasing | enthronement, consecration, buying servants and goods, images, temples, *shwa rags*, marriage, fire offerings; buying livestock middling | a boy of sharp mind; a girl bad, follows her husband away | as date 3; death good |
 | 28 | ཉེར་བརྒྱད་སྦྱིན་སྲེག་ཆུ་རགས་རྒྱག །དབང་ལས་བཟང་ཞིང་སྐྲ་འཁྲུ་ལམ། །གཤིན་ལས་བྲན་བསྟེན་རྫིང་ཡུར་བག །རྒྱལ་ས་རབ་གནས་ས་བོན་ནོར། །ཕྱུགས་ཉོ་དམག་འདྲེན་ལྷོ་ནུབ་སྤང་། །གང་སྐྱེས་གསོ་དཀའ་ | fire offerings, building dams, power rites | washing the hair, setting out, funeral rites, servants, ponds and canals, marriage, enthronement, consecration, sowing, goods, buying livestock, an army to the south and west | hard to raise | as date 4; death bad |
@@ -126,12 +130,13 @@ Read on the scan of p. 304 (img. 312), 2026-10-03, with the Yigdzin OCR
 as a working copy. Next to the Phugpa list WB gives the place by the hour
 of the day, alone:
 
-> དུས་ཚོད་བླ་གནས་ནམ་ལངས་མཆུ། །ཉི་ཤར་ཁ་ནང་ཉི་དྲོས་ལྕེ། །ཉི་ཕྱེད་མིག་ལ་ཕྱེད་ཡོལ་དུས། །རྩེ་ཆུང་དགོངས་བྱ་[…]་ལ། །ཉི་སྨྱུར་སྤོ་བྲང་ཉི་ནུབ་དུས། །བྲང་ཞོལ་ས་སྲོས་ལྟོ་བ་ལ། །སྲོད་འཁོར་མཚན་མ་ནམ་ཕྱེད་དུས། །ཕོ་བ་ཕྱེད་ཡོལ་བྲང་དཀྱིལ་ལ། །ཐོ་རེངས་རྒྱུ་མ་ལ་གནས་སོ། །
+> དུས་ཚོད་བླ་གནས་ནམ་ལངས་མཆུ། །ཉི་ཤར་ཁ་ནང་ཉི་དྲོས་ལྕེ། །ཉི་ཕྱེད་མིག་ལ་ཕྱེད་ཡོལ་དུས། །རྩེ་ཆུང་དགོངས་བྱ་གློ་རྩ་ལ། །ཉི་སྨྱུར་སྤོ་བྲང་ཉི་ནུབ་དུས། །བྲང་ཞོལ་ས་སྲོས་ལྟོ་བ་ལ། །སྲོད་འཁོར་མཚན་མ་ནམ་ཕྱེད་དུས། །ཕོ་བ་ཕྱེད་ཡོལ་བྲང་དཀྱིལ་ལ། །ཐོ་རེངས་རྒྱུ་མ་ལ་གནས་སོ། །
 
 dawn the lips, sunrise inside the mouth, morning the tongue, noon the
-eyes; the afternoon and evening lines are not settled (the syllable after
-དགོངས་བྱ is unclear, and the pairing of time and place there is open);
-sunset the lower chest, dusk the belly, the first watch of the night the
+eyes; then *phyed yol* (early afternoon) the *rtse chung* and *dgongs
+bya* (evening) the lung channels (གློ་རྩ, read on the scan 2026-10-04,
+with both OCR readings), though which time goes with which place in this
+couplet is not certain; late afternoon *spo brang*; sunset the lower chest, dusk the belly, the first watch of the night the
 genitals, midnight the stomach, after midnight the middle of the chest,
 before dawn the intestines.
 
@@ -147,7 +152,7 @@ which names the hour as well as the place for every date:
 | 5 | sunrise to late afternoon | inside the mouth | 20 | noon | both shins |
 | 6 | morning | palms | 21 | morning | both soles |
 | 7 | first light to dawn | both ankles | 22 | dawn | the hollows of both kidneys |
-| 8 | midnight | the crooks of both elbows (གྲ[…]་མོ་ཁུག) | 23 | midnight | both calves |
+| 8 | midnight | the crooks of both elbows (གྲེ་མོ་ཁུག, for གྲུ་མོ) | 23 | midnight | both calves |
 | 9 | dawn | genitals | 24 | evening (སྲོད) | both palms |
 | 10 | first watch | waist | 25 | midnight | tongue |
 | 11 | evening | nose and ears | 26 | first light | neck |

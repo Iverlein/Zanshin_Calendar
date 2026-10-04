@@ -224,6 +224,7 @@ day by day against Henning's computed calendars (§9):
 | Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008) |
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
+| Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
 
 ### 5.9 Four aspects and the pebbles
 
@@ -314,10 +315,17 @@ The lists are taken as printed, with these rules for what is doubtful:
   category the source calls "merely acceptable" or "neutral". The one
   exception is the mouse, "bad for divination" in the divination list
   itself.
-- A mansion named more than once for one activity, in any of these places,
-  is left out. Uttarāṣāḍhā in particular appears twice in several lists,
-  once as both good and bad, and is probably confused there with
-  Uttarabhādrapadā; the Tibetan original is not at hand to settle it.
+- Where Henning names a mansion twice for one activity, the mansions follow
+  the print he translated, the *kun phan me long* (BDRC W4CZ65561, the
+  Mtho las dgon print, activity tables img. 21–65), read box by box in
+  [sources/mansions.md](sources/mansions.md): its abbreviations of khrums
+  stod and khrums smad had been read as chu smad, so most of his doubled
+  Uttarāṣāḍhā are Uttarabhādrapadā. The print's own reading is kept also
+  where Henning left a mansion out (Citrā bad for offerings; Śatabhiṣaj good
+  for journeys; Pūrvaphalgunī and Śatabhiṣaj good for controlling
+  activity). A mansion the print still names in two places for one activity
+  (Uttarabhādrapadā in both halves of the offerings box; Mṛgaśiras as
+  acceptable and bad for controlling activity) is left out.
 - Rising signs are left out, since the page shows a day and not a moment;
   Abhijit, which the Phugpa calendar does not count among the day's
   mansions; "black" years, months and days, earth-lords and the demons,
@@ -327,10 +335,53 @@ The lists are taken as printed, with these rules for what is doubtful:
   are good but for the 6th, 7th and 9th, waning dates bad.
 
 A mansion's reading joins what the list of mansions names it good for with
-the activity lists' good and bad; where they disagree (Rohiṇī is good for
+the activity lists' good and bad, and cites the print beside Henning; where they disagree (Rohiṇī is good for
 marriage in the first, bad in the second) both stay, as elsewhere in the
 app. The day in brief (§10.3) lists every activity with the factors that
 name it good or bad; it weighs none against another.
+
+### 5.11 The White Beryl's readings: lunar date, weekday, yoga, karaṇa
+
+Chapter 33 of the White Beryl (Sde srid Sangs rgyas rgya mtsho, 1685;
+Beijing 1996 edition, vol. 2, BDRC MW2CZ8040) gives a reading for each of
+the day's components. The texts, quoted from the scans, are in
+[sources/](sources/README.md); the app states their facts in its own
+English (§8.1), each reading citing its pages:
+
+- **Lunar date** (pp. 297–304, [lunar-dates.md](sources/lunar-dates.md)):
+  the good and bad activities of each of the thirty dates, a birth and a
+  death on it, its place in the five-fold cycle (dga' ba, bzang po, rgyal
+  ba virtuous; stong pa, rdzogs pa not, with their remedies), the four
+  perilous dates (8, 15, 22, 30) and where the soul (bla gnas) sits, after
+  the Phugpa list for people. Three acts the text names are not identified
+  (shwa rags on the 22nd and 27th, thag ser on the 29th) and stay out of
+  the lists; the reading names them. The dot: lucky on a virtuous day,
+  unlucky on the other two, mixed on the 8th and the 22nd, virtuous but
+  perilous.
+- **Weekday** (pp. 308–312, [weekdays.md](sources/weekdays.md)): the
+  verse on the day's planet: whose *bla gza'* it is, its caste, nature and
+  element, the activities good and bad on it, when it is strong, setting
+  out and its directions, a birth and a death on it, and what the closing
+  verse forbids on it even when it is strong. Words the reading cannot
+  identify stay out of the lists. The dot: Mars and Saturn unlucky, the
+  closing verse avoiding virtuous work on them; the Sun mixed, named there
+  too though its own verse calls it peaceful; the other four lucky.
+- **Yoga** (pp. 347–349, [yogas.md](sources/yogas.md)): the short reading,
+  the gist of the longer verse, and the avoidance verse (kun brdungs,
+  yongs 'joms and sha 'khon avoided whole; six others in their first nine
+  chu tshod, 3 h 36 min from their start). The White Beryl names most yogas
+  otherwise than the almanacs; its name is shown under the reading. The
+  dot: unlucky for the three avoided whole and the three whose short
+  reading names a harm (rab stongs, gzer, 'bras), mixed for the other
+  three avoided in part (sel ba, rma chen, rdo rje) and the one it calls
+  middling (dga' ba), lucky for the rest. Its ranking verse is not used:
+  how to read it is open ([open-questions.md](sources/open-questions.md) 1).
+- **Karaṇa** (pp. 349–351, [karanas.md](sources/karanas.md)): what each
+  verse names good, and for Viṣṭi what to avoid. Its name in the White
+  Beryl is shown under the reading. The dot: Viṣṭi unlucky, the rest lucky.
+
+The lists' wordings map to activities like every other reading's (§8.2).
+The day in brief (§10.3) still draws only on the activity lists of §5.10.
 
 ## 6. Astronomy library
 
@@ -371,9 +422,12 @@ All instants in JST (UTC+9) — the civil zone, not a true solar meridian.
 4. The months containing 冬至, 春分, 夏至 and 秋分 are always 11, 2, 5 and 8.
    Where rules 2–3 leave a choice, this fixes it.
 5. **2033 problem.** In 2033–34 the rules above contradict each other. The
-   engine follows the resolution recommended by the Japan calendar society
-   (閏11月 in 2033) as a named, single-place decision in code; the
-   recommendation is confirmed from its published source during S3 (§8.3).
+   engine follows the resolution the 日本カレンダー暦文化振興協会 (暦文協)
+   recommended at its general meeting of 28 August 2015: 閏11月, the
+   lunation from 2033-12-22 (rekibunkyo.or.jp/year2033problem.html). The
+   society left the general intercalation rule open, so the engine keeps
+   the choice as a named, single-place decision in code; the NAOJ takes no
+   side ([sources/kyureki.md](sources/kyureki.md)).
 
 The 24 solar terms (節気) are the 15° points. Index them by longitude with
 立春 = 315° as the first, the Japanese almanac order.
@@ -388,8 +442,13 @@ number. Consequence: the first day of month 1 is always 先勝.
 
 Kyūreki-dated observances: the five sekku (人日 1/7, 上巳 3/3, 端午 5/5,
 七夕 7/7, 重陽 9/9), 十五夜 8/15, 十三夜 9/13, and 旧正月 1/1. Festivals
-that most of Japan now keeps by the Gregorian calendar (for example O-Bon on
-August 15) are shown on their Gregorian date and labelled as such.
+that most of Japan now keeps by the Gregorian calendar are shown on their
+Gregorian date and labelled as such: O-Bon on 15 August, the middle of the
+月遅れ days 13–16 August that most regions keep (Japanese Wikipedia お盆;
+Tokyo keeps 15 July, Okinawa and Amami the kyūreki date). The sekku are kept
+today on the Gregorian day of the same number (NAOJ 暦Wiki 節句), but the
+page names them on their kyūreki day, the calendar it shows
+([sources/kyureki.md](sources/kyureki.md)).
 
 ### 7.4 Kanshi
 
@@ -423,7 +482,7 @@ also counts 庚申 and 己巳 among the 選日; the app lists each day once, und
 | 暦注下段 | 天赦日, 大明日, 天恩日, 母倉日, 節徳日, 鬼宿日, 受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 往亡日, 歳下食, 重日, 復日 |
 | 選日 | 一粒万倍日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 天一天上 |
 | 縁日 | 寅の日, 巳の日, 己巳, 甲子, 庚申 |
-| Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch; needs a birth date |
+| Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch, as the 簠簋内伝 gives them (巻上「三箇悪日」, NDL pid 1911335, img. 20; koyomi8 その３ has the same table); needs a birth date |
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
 
@@ -515,12 +574,16 @@ fails on a wording with no entry and on an entry no wording uses.
 | Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
 | 雑節, 節句, 十三夜 | NAOJ 暦Wiki |
+| O-Bon by the Gregorian date | Japanese Wikipedia お盆 |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
-| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long* |
+| Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
+| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561) |
+| Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
-Still open: the published source of the 2033 resolution (§7.1).
+The 2033 resolution: 暦文協, 2015-08-28 (§7.1). The birth-year rule of the
+三箇の悪日: the 簠簋内伝 on the NDL's scan, with koyomi8 (§7.5).
 
 ## 9. Test vectors
 
@@ -615,10 +678,11 @@ canvas "Zanshin Calendar — basic design".
   activities the lists of §5.10 name good and to avoid (§10.7); it opens the
   activities with the weekday, lunar date, mansion, day animal and trigram
   that name them.
-- **Almanac:** festival, monthly observance, personal day, element pair,
-  lunar mansion (§5.10) and hair-cutting day as reading rows; then the five
-  components (mansion, yoga, karaṇa, weekday) and the lunar-day cycles as
-  tappable terms.
+- **Almanac:** festival, monthly observance, personal day, personal
+  mansion (§5.8, on the days the mansion is one of one's six), lunar date
+  and weekday (§5.11), element pair, lunar mansion (§5.10), yoga and karaṇa (§5.11) and
+  hair-cutting day as reading rows; then the five components (mansion,
+  yoga, karaṇa, weekday) and the lunar-day cycles as tappable terms.
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written in Tibetan script, converted at run time from
   the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its
@@ -626,14 +690,18 @@ canvas "Zanshin Calendar — basic design".
   Simplified Phonetic Transcription of Standard Tibetan (Germano and
   Tournadre, 2003; `Thl.kt`: the general principle, special rules 1–13, the
   exceptions and the word boundaries, tested on the document's own 86
-  examples). A spelling the converter cannot read stays in Wylie: the karaṇa
-  vishti, a Sanskrit loan, until its Tibetan spelling is sourced. The
-  spellings were checked against the OCR of the White Beryl (BDRC
-  W1KG12714): 95 of 106 terms appear there verbatim; til brdung and mi
-  'phrod follow its spelling rather than Henning's (til rdung, mi phrod);
-  snron, snrubs and six yogas (rnam sel, tshe dang ldan pa, shin tu 'grams,
-  yongs bsnun, mchog can, yongs 'joms) are not in the OCR and remain as the
-  sources give them. The font is Noto Serif Tibetan (OFL), one weight,
+  examples). The karaṇa Viṣṭi, a Sanskrit loan, is spelled as the White
+  Beryl prints it, བིཥྚི (pp. 349–351), written in EWTS with an explicit stack
+  (biSh+Ti); THL gives no rule for a Sanskrit stack, so it has no
+  pronunciation. The spellings were checked against the OCR of the White
+  Beryl (BDRC W1KG12714): 95 of 106 terms appear there verbatim; til brdung
+  and mi 'phrod follow its spelling rather than Henning's (til rdung, mi
+  phrod); snron, snrubs and six yogas (rnam sel, tshe dang ldan pa, shin tu
+  'grams, yongs bsnun, mchog can, yongs 'joms) were not in the OCR and remain
+  as the almanacs give them. Read on the scans, the White Beryl names five
+  of those yogas otherwise (sel ba, tshe ldan, rab stongs, rma chen, dpa'
+  bo) and does print yongs 'joms; the Sakya *nor bu'i me long* has yongs su
+  bsnun beside it ([yogas.md](sources/yogas.md)). The font is Noto Serif Tibetan (OFL), one weight,
   subset to the Tibetan block with its shaping features.
 - **Year balloon** also lists the year's four aspects: vitality, body,
   destiny and luck with their elements (§5.9); with a birth date set, each

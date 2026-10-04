@@ -19,10 +19,10 @@ with the one that gives it a use. "Later" is not ranked.
 
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
-| 1 | T3 Element colours, personal mansions | S | A colour per element and a table per animal, once each has what it needs | A place for the element colour, and one for the mansions (both sourced, [sources/personal-mansions.md](sources/personal-mansions.md)) |
+| 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 Tibetan readings | M | Mansions and the activity lists are built; the sources for yogas, karaṇas, lunar days and further activities are found ([sources/](sources/README.md)) | Reading the *kun phan me long* tables for the doubtful entries and more activities |
+| 4 | T2 Tibetan readings | M | Mansions, the activity lists (doubled mansions read on the print), lunar dates, weekdays, yogas and karaṇas are built; further activities are left ([sources/](sources/README.md)) | Reading the *kun phan me long* tables for more activities |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -30,51 +30,31 @@ with the one that gives it a use. "Later" is not ranked.
 
 ### T2. Meaning of the components and day details
 
-The lunar mansion's reading and Henning's thirteen activity lists are built
-(SPEC §5.10), with the Tibetan day in brief. The sources for the rest were
-found on 2026-10-03 and are written out, with the Tibetan, in
+Built: the lunar mansion's reading and Henning's thirteen activity lists
+(SPEC §5.10), with his doubled mansions read on the *kun phan me long*
+print; the White Beryl's readings of the lunar date, the weekday, the
+yoga and the karaṇa (SPEC §5.11); the Tibetan day in brief. The texts are in
 [sources/](sources/README.md), with a plan for what is still to be read
-([sources/PLAN.md](sources/PLAN.md)):
+([sources/PLAN.md](sources/PLAN.md)). Left:
 
-- **Lunar dates** ([lunar-dates.md](sources/lunar-dates.md)): *White Beryl* ch. 33, each date's good and
-  bad activities, births and illness, the four perilous dates (8, 15, 22,
-  30), the five-fold cycle's readings (dga' ba … rdzogs pa) and the *bla
-  gnas*, where bloodletting and moxibustion are avoided.
-- **Yogas** ([yogas.md](sources/yogas.md)): a short and a long reading of each, the yogas to avoid
-  and a ranking. The *White Beryl* names them otherwise than the almanacs
-  the app follows; the table there maps the two. Two readings of the
-  ranking verse are open ([open-questions.md](sources/open-questions.md) 1–2).
-- **Karaṇas** ([karanas.md](sources/karanas.md)): a reading of each. Viṣṭi is spelled བིཥྚི, which gives
-  the app its Tibetan; Kaulava is dge ba and Catuṣpada bzhi mdo in the
-  *White Beryl*, where the app has rigs can and rkang bzhi.
-- **The doubtful mansion entries** ([mansions.md](sources/mansions.md)): the *White Beryl*'s own verse on
-  Uttarāṣāḍhā says what that mansion is good and bad for; and the *kun
-  phan me long*, which Henning translated, abbreviates the mansion names,
-  so that at least two of his Uttarāṣāḍhā (offerings to deities) are
-  khrums stod and khrums smad. The other boxes are still to be read
-  against the scans.
-- **More activities** ([kun-phan-me-long.md](sources/kun-phan-me-long.md)): the *kun phan me long* tables, img. 21–67 of
-  BDRC W4CZ65561, hold many more activities than Henning's thirteen
-  (naming, new clothes, building …).
+- **More activities** ([kun-phan-me-long.md](sources/kun-phan-me-long.md)):
+  the *kun phan me long* tables hold many more activities than Henning's
+  thirteen (naming, new clothes, building …), and new calculable readings
+  (planet × mansion, *'phrod chen*, *grub sbyor*, *bla gza'*, *bla skar*);
+  the White Beryl's weekday × mansion combinations (pp. 331–333).
+- **Open readings** for a reader of the tradition: the yoga ranking
+  ([open-questions.md](sources/open-questions.md) 1–2) and the offerings
+  box's Uttarabhādrapadā (6).
 
-### T3. Element colours and personal mansions
+### T3. Element colours
 
-The sme ba shows in the colour of its box (SPEC §10.3), and the four aspects
-with the pebbles of the year, month, day and hours are built (SPEC §5.9).
-What is left waits on a source or on design:
+The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
+with the pebbles of the year, month, day and hours are built (SPEC §5.9),
+and so are the personal mansions (SPEC §5.8). What is left waits on design:
 
 - **Element colours:** wood green, fire red, earth yellow, iron white, water
   black or blue (Berzin 3). The day's element appears only inside the day
   line, so it first needs a place of its own on the page.
-- **Personal mansions:** the source is found (2026-10-03). The *White
-  Beryl* (Beijing 1996, vol. 2, p. 330) gives, from Mouse to Pig, six
-  mansions (bla, srog, dbang, skeg, bdud, gshed skar; Berzin's "btub" is
-  the bdud skar) and three weekdays, with their readings; two independent
-  rtsis manuals list the same mansions, and the 36 weekdays match Rabten's
-  table in `personalDay`. The table, the Tibetan and how the three texts
-  settle each other's slips are in
-  [sources/personal-mansions.md](sources/personal-mansions.md). What is left is a place on the page: a mansion row of the day that
-  names it as one's bla, srog … skar, like the personal day.
 - Whole days stay uncoloured, as on the 旧暦 page (SPEC §10.4). The element
   pair already marks four of its ten pairs as inauspicious.
 

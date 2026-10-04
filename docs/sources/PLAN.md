@@ -9,45 +9,44 @@ something the app can build.
 Written 2026-10-03, at the end of the session that found the *White Beryl*
 passages and wrote the topic files.
 
-## Status, 2026-10-03 (third session)
+## Status, 2026-10-04
 
 | Task | State |
 | --- | --- |
-| 1. Doubled mansions | **Done.** Every doubled entry resolved on the KP scans; see [mansions.md](mansions.md), *Box by box* (box 6 also lists byi bzhin, found by the OCR). The corrections to `Electional.kt` are a code task. |
+| 1. Doubled mansions | **Done.** Every doubled entry resolved on the KP scans; see [mansions.md](mansions.md), *Box by box* (box 6 also lists byi bzhin, found by the OCR). The corrections are made in `Electional.kt`, following the print (SPEC §5.10); box 8's last unread word is ནུཾ, Revatī (2026-10-04). |
 | 2. KP inventory | **Done.** Every box placed and named from the OCR of all 120 folios and the book's two lists of contents (img. 8–11, 63–64); box 1 is the opening prose, box 4 the robe chart; boxes 50 and 51 are missing from this print but found in a second print (KP2, BDRC I3CN12074 img. 218–345); headings 13, 19, 23, 30, 31, 36 and 44 settled or corrected; the second half described section by section ([kun-phan-me-long.md](kun-phan-me-long.md)). |
-| 3. Mansion verses | **Done**, by machine: all 28 verses (Abhijit included) in [mansion-verses.md](mansion-verses.md), Tibetan up to the birth line and the full lists in English; every disagreement between the two OCR readings settled (four stay open, marked). Not read by eye syllable by syllable. |
-| 4. Yogas | **Done** as far as the texts go: names and short readings checked on the scan, long readings from the two OCR readings, KP as a third witness (sha 'khon differs: KP's own reading, for WB2 agrees with WB); WB2 (the Sakya Centre print) has the same ranking and avoidance verses, so questions 1 and 2 need a reader, not another copy. |
-| 5. Lunar dates | **Done**: the […] filled from the scan but one syllable (date 25); the other *bla gnas* systems (by hour, *lho gter*, weekday) written out ([lunar-dates.md](lunar-dates.md)). |
-| 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found (the weekday's, pp. 308–312; weekday × mansion, pp. 331–333). |
-| 7. Kyūreki gaps | **Done** as far as sources go: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to koyomi8 with its own hedge; O-Bon facts found, the choice is the SPEC's ([kyureki.md](kyureki.md)). |
+| 3. Mansion verses | **Done**, by machine: all 28 verses (Abhijit included) in [mansion-verses.md](mansion-verses.md), Tibetan up to the birth line and the full lists in English; every disagreement between the two OCR readings settled, the last five on the scan (2026-10-04). Not read by eye syllable by syllable. |
+| 4. Yogas | **Done** as far as the texts go: names and short readings checked on the scan, long readings from the two OCR readings (their five disagreements settled on the scan, 2026-10-04), KP as a third witness (sha 'khon differs: KP's own reading, for WB2 agrees with WB); WB2 (the Sakya Centre print) has the same ranking and avoidance verses, so questions 1 and 2 need a reader, not another copy. |
+| 5. Lunar dates | **Done**: every […] filled from the scan (date 25 reads སྒབ, not identified; date 13's illness is as date 5); the other *bla gnas* systems (by hour, *lho gter*, weekday) written out ([lunar-dates.md](lunar-dates.md)). |
+| 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found: the weekday's (pp. 308–312), now written out in [weekdays.md](weekdays.md) and built; weekday × mansion (pp. 331–333). |
+| 7. Kyūreki gaps | **Done**: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to the 簠簋内伝 (1919 and 1800 printings label the columns by birth year; the 1632 edition does not); O-Bon on 15 August and the sekku's Gregorian days sourced (Wikipedia お盆, NAOJ 節句); all three in the app ([kyureki.md](kyureki.md)). |
 
 ## Next investigation
 
 What is left on the Tibetan side, in order of use to the app; each item
 says where to look and with which tool.
 
-1. **The app's own corrections (code, waiting on the owner).** The KP
-   boxes and the WB verses now agree on the doubled mansions
-   ([mansions.md](mansions.md), *Box by box*; [mansion-verses.md](mansion-verses.md)
-   for Uttarāṣāḍhā and Uttarabhādrapadā). Before `Electional.kt` changes:
-   should the app follow the print where it names mansions Henning left
-   out, and what does it do with box 6, which lists khrums smad in both
-   halves (question 6)?
+1. ~~The app's own corrections.~~ Made: `Electional.kt` follows the print,
+   and box 6's khrums smad, in both halves, stays out (SPEC §5.10;
+   question 6 is still for a reader).
 2. **New calculable readings found, not yet in the app:** KP's second
    part §2 (planet × mansion elements), §3 (*'phrod chen*), §5 (*grub
    sbyor*), §11 (*bla gza'*, *bla skar*), and WB's weekday × mansion
-   (pp. 331–333) and weekday readings (pp. 308–312). Each needs its table
+   (pp. 331–333). Each needs its table
    read (KP2 is the better-preserved copy for KP: BDRC I3CN12074,
    img. 218–345) and a SPEC entry before code.
 3. **Read by eye what was read by machine**, where a reading is to be
    quoted in the app: the 28 verses ([mansion-verses.md](mansion-verses.md))
-   and the second half of KP. Use `disagree.py` sheets; the four open
-   readings in the verses and the three […] in
-   [lunar-dates.md](lunar-dates.md) first.
-4. **WB2's personal-mansion verse** (question 4): the page is not among
-   WB2 img. 468–473; the etext's page markers run two ahead of the image
-   numbers, and the verse follows the mansion groupings (etext p. 470).
-   Expected to confirm 13 and 26.
+   and the second half of KP. Use `disagree.py` sheets. (The open
+   readings in the verses and the […] in [lunar-dates.md](lunar-dates.md)
+   were settled on the scan on 2026-10-04.)
+4. **WB2's personal-mansion verse** (question 4): not among WB2
+   img. 468–473. On 2026-10-04: img. 474 (folio side 462) is still the
+   mansion verses, and the etext has the weekday-and-mansion combinations
+   by p. 478–481 (img. 476–479), so the verse is on img. 475 or 476. Those
+   folios are served only at 1224 px (a larger `--width` returns no image),
+   too small to read the verse with confidence. The app does not wait on
+   it: the names NM, SY and WB print already agree (question 4).
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
    1 (ranking), 2 (ཡོན་ཏན, མདའ), 5 (SY's Mouse gshed gza'), 6 (box 6), 8
    (sha 'khon: KP's change). A third WB print would not settle 1, 2 or 8:
