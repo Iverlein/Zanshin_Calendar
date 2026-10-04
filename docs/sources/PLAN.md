@@ -39,8 +39,7 @@ says where to look and with which tool.
    2026-10-04) is the table of the personal mansions and weekdays the app
    already has from WB p. 330; 104 of its 108 cells agree, the other four
    are carver's slips ([personal-mansions.md](personal-mansions.md)). Its
-   readings, if they follow on img. 86, are not yet seen (BDRC answered
-   502 that day); WB's are in the app.
+   readings (img. 86) are WB's verse shortened, with nothing new.
 3. **Read by eye what was read by machine**, where a reading is to be
    quoted in the app: the 28 verses ([mansion-verses.md](mansion-verses.md))
    and the second half of KP. Use `disagree.py` sheets. (The open

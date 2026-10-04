@@ -138,6 +138,18 @@ tradition: its slips are a carver's, and its agreement counts as WB's.
 **Open question 5** (the Mouse's gshed gza'): KP has ༠, Saturday, with WB
 and Rabten. SY's ཟླ་བ stands alone.
 
+**KP's readings** follow on img. 86 (read on the scan, 2026-10-04): WB's
+verse above, shortened. It opens «བླ་གཟའ་བླ་སྐར་བྱ་ལས་འགྲུབ། །གཤེད་སྐར་ལ་ནི་
+བགེགས་འདུལ་བཟང་།», so the bla gza' joins the bla skar where WB has དེ་ལྟར; then
+«…དར་དུས་འཕྲིན་ལས་འགྲུབ། །སྲོག་གཟའ་དགེ་ལ་གཤེད་གཟར་འཛེམ། །དགྲ་བོའི་བླ་གཟའ་རྒུད་པ་
+དང་། །གཤེད་གཟའ་…དུས་ཉིད་ལ། །མཐུ་དང་ནུས་པ་སྤྲད་ན་མྱུར། །བླ་སྲོག་དབང་སྐར་ཅི་ཡང་བཟང་།»
+(a crack in the block runs through the two places marked …); then the
+births, «…བཙས་དུས་བླ་སྐར་དང་། །ཕྲད་ན་ཚེ་རིང་འགྱུར་བ་ཡིན། །དབང་སྐར་ཕྲད་ན་བསོད་ནམས་
+ཆེ།», the gshed skar's short life and its being the 'chi skar, and a closing
+line not read with confidence. It leaves out WB's mother, friend and child
+weekdays and mansions and the line naming skeg, bdud and gshed skar bad.
+Nothing in it is new to the app's readings.
+
 ## Result
 
 | Animal | bla | srog | dbang | skeg | bdud | gshed | bla gza' | srog gza' | gshed gza' |
