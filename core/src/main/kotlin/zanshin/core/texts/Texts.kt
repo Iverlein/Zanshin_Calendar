@@ -136,6 +136,7 @@ object Sources {
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
+    val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 224–226")
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–238")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
@@ -493,6 +494,21 @@ object Texts {
     }
     val ELECTIONAL_ANIMAL: Map<Animal, Reading> = Animal.entries.associateWith { a ->
         electional("animal", Electional.good { a in it.animals }, Electional.bad { a in it.animals })
+    }
+    /**
+     * The lunar date's animal, the *nyi ma* (open question 9): where the earth
+     * lord sits in the house on a day of that animal and the earth lord who
+     * witnesses it, both for the reckoning of the dead (WB vol. 2,
+     * pp. 224–226, docs/sources/earth-lords.md), with the activity lists'
+     * good and bad for a day of that animal.
+     */
+    val EARTH_LORD: Map<Animal, Reading> = Animal.entries.associateWith { a ->
+        val lists = ELECTIONAL_ANIMAL.getValue(a)
+        Reading(
+            goodKeys = lists.goodKeys, avoidKeys = lists.avoidKeys, source = Sources.WHITE_BERYL_EARTH_LORDS,
+            also = listOf(Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
+            key = "reading.EarthLord", arg = "reading.EarthLord.${a.name}",
+        )
     }
     val ELECTIONAL_TRIGRAM: Map<Trigram, Reading> = Trigram.entries.associateWith { t ->
         electional("trigram", Electional.good { t in it.trigrams }, Electional.bad { t in it.trigrams })
