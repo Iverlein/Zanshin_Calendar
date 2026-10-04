@@ -346,6 +346,64 @@ Write the findings into a new `kyureki.md` in this folder. The owner's
 review dossier for an expert (built locally, not in the repository) asks
 the same questions; answers from the expert go here too.
 
+### ~~8. Add Tibetan script for transcribed names~~
+
+**Done** (2026-10-04): The UI was updated to show the Tibetan script alongside the transcript for these terms using `Ewts.toTibetan()`. The collected mappings are preserved below for reference.
+
+| Place | Tibetan term | Transcript |
+| --- | --- | --- |
+| `GreatCombination.KUN_DGA` | ཀུན་དགའ་ | kun dga' |
+| `GreatCombination.DUS_DBYIG` | དུས་དབྱིག་ | dus dbyig |
+| `GreatCombination.DUL` | དུལ་བ་ | dul ba |
+| `GreatCombination.SKYE_DGU` | སྐྱེ་དགུ་ | skye dgu |
+| `GreatCombination.GZHON` | གཞོན་ | gzhon |
+| `GreatCombination.BYA_ROG` | བྱ་རོག་ | bya rog |
+| `GreatCombination.RGYAL_MTSHAN` | རྒྱལ་མཚན་ | rgyal mtshan |
+| `GreatCombination.DPAL_BEU` | དཔལ་བེའུ་ | dpal be'u |
+| `GreatCombination.RDO_RJE` | རྡོ་རྗེ་ | rdo rje |
+| `GreatCombination.THO_BA` | ཐོ་བ་ | tho ba |
+| `GreatCombination.GDUGS` | གདུགས་ | gdugs |
+| `GreatCombination.GROGS` | གྲོགས་ | grogs |
+| `GreatCombination.YID` | ཡིད་ | yid |
+| `GreatCombination.DOD` | འདོད་ | 'dod |
+| `GreatCombination.MGAL_ME` | མགལ་མེ་ | mgal me |
+| `GreatCombination.RTSA_BTON` | རྩ་བཏོན་ | rtsa bton |
+| `GreatCombination.CHI_BDAG` | འཆི་བདག་ | 'chi bdag |
+| `GreatCombination.MDA` | མདའ་ | mda' |
+| `GreatCombination.GRUB` | གྲུབ་ | grub |
+| `GreatCombination.MDUNG` | མདུང་ | mdung |
+| `GreatCombination.BDUD_RTSI` | བདུད་རྩི་ | bdud rtsi |
+| `GreatCombination.GTUN_SHING` | གཏུན་ཤིང་ | gtun shing |
+| `GreatCombination.GLANG_PO` | གླང་པོ་ | glang po |
+| `GreatCombination.RTAG_MYOS` | རྟག་མྱོས་ | rtag myos |
+| `GreatCombination.ZAD_PA` | ཟད་པ་ | zad pa |
+| `GreatCombination.GYO` | གཡོ་ | g.yo |
+| `GreatCombination.BRTAN` | བརྟན་ | brtan |
+| `GreatCombination.PHEL` | འཕེལ་ | 'phel |
+| `CombinationDay.GRUB_SBYOR` | འགྲུབ་སྦྱོར་ | 'grub sbyor |
+| `CombinationDay.ZUNG_SBYOR` | ཟུང་སྦྱོར་ | zung sbyor |
+| `CombinationDay.BDUD_RGYAL` | བདུད་རྒྱལ་ | bdud rgyal |
+| `CombinationDay.GRUB_NYI` | གྲུབ་ཉི་ | grub nyi |
+| `CombinationDay.BKRA_SHIS_NYI` | བཀྲ་ཤིས་ཉི་མ་ | bkra shis nyi ma |
+| `CombinationDay.PHEL_NYI` | འཕེལ་ཉི་ | 'phel nyi |
+| `CombinationDay.CHUB_NYI` | ཆུབ་ཉི་ | chub nyi |
+| `CombinationDay.MTHUN_NYI` | མཐུན་ཉི་ | mthun nyi |
+| `CombinationDay.SBYOR_NYI` | སྦྱོར་ཉི་ | sbyor nyi |
+| `CombinationDay.BDUD_NYI` | བདུད་ཀྱི་ཉི་མ་ | bdud kyi nyi ma |
+| `CombinationDay.CHI_SBYOR` | འཆི་སྦྱོར་ | 'chi sbyor |
+| `CombinationDay.MI_PHROD_NYI` | མི་འཕྲོད་ཉི་མ་ | mi 'phrod nyi ma |
+| `CombinationDay.MI_MTHUN_NYI` | མི་མཐུན་ཉི་མ་ | mi mthun nyi ma |
+| `CombinationDay.JIG_NYI` | འཇིག་པའི་ཉི་མ་ | 'jig pa'i nyi ma |
+| `CombinationDay.GTAN_SPANG` | གཏན་སྤང་ | gtan spang |
+| `Trigram.LI` (goddess) | འོད་འབར་མ་ | 'od 'bar ma |
+| `Trigram.KHON` (goddess) | བསྟན་མ་ | bstan ma |
+| `Trigram.DWA` (goddess) | དཀར་གསལ་མ་ | dkar gsal ma |
+| `Trigram.KHEN` (goddess) | མདངས་ལྡན་མ་ | mdangs ldan ma |
+| `Trigram.KHAM` (goddess) | ཆར་འབེབས་མ་ | char 'bebs ma |
+| `Trigram.GIN` (goddess) | གཡོ་མེད་མ་ | g.yo med ma |
+| `Trigram.ZIN` (goddess) | འོད་འཆང་མ་ | 'od 'chang ma |
+| `Trigram.ZON` (goddess) | སྐྱོབ་བྱེད་མ་ | skyob byed ma |
+
 ## Dead ends
 
 Searched and found wanting, so not to be repeated:
