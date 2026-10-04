@@ -72,7 +72,8 @@ class DaySummaryTest {
         assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi", "Khon"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         assertEquals(setOf(Tone.BAD), s.byTone.keys)
         // Funerals: no combination names them, so Sunday decides, and the weaker factors that agree stand beside it.
-        assertEquals(listOf("Sunday", "Ārdrā", "Rabbit", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
+        // The day animal is the lunar date's (open question 9), which the funeral list does not name.
+        assertEquals(listOf("Sunday", "Ārdrā", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
         // Destroying: the element pair, the death combination, names it first.
         assertEquals(listOf("Fire – Water", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
     }

@@ -53,7 +53,8 @@ data class ActivityNote(val activity: Activity, val good: List<SummaryEntry>, va
  * the dates it enters or turns, first of the *kun phan me long*'s seven; the weekday and the
  * mansion, whose own results come first (WB p. 337); the special days of
  * weekday and mansion, which "matter somewhat"; then the date, karaṇa, yoga
- * and day animal as the *kun phan me long* ranks them. The trigram is not
+ * and day animal (the lunar date's, the *nyi ma* of WB's notes, vol. 2,
+ * p. 493) as the *kun phan me long* ranks them. The trigram is not
  * among them and counts last.
  */
 enum class DayFactor {
@@ -152,7 +153,7 @@ data class DaySummary(
             fun lucky(b: Boolean) = if (b) Tone.GOOD else Tone.BAD
             val pair = day.elementPair
             val mansion = Texts.MANSION.getValue(day.mansion)
-            val animal = Texts.ELECTIONAL_ANIMAL.getValue(day.dayAnimal)
+            val animal = Texts.ELECTIONAL_ANIMAL.getValue(day.lunarDayAnimal)
             val trigram = Texts.ELECTIONAL_TRIGRAM.getValue(day.trigram)
             val great = Ranked(
                 entry(day.greatCombination.english.replaceFirstChar(Char::uppercase), DayFactor.GREAT_COMBINATION, lucky(day.greatCombination.lucky), Texts.GREAT_COMBINATION[day.greatCombination]),
@@ -179,7 +180,7 @@ data class DaySummary(
                 ),
                 Ranked(entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), listOfNotNull(Texts.KARANA[day.karana]), tier = 6),
                 Ranked(entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), listOfNotNull(Texts.YOGA[day.yoga]), tier = 7),
-                Ranked(entry(gloss(day.dayAnimal), DayFactor.DAY_ANIMAL, toneOf(animal), animal), listOf(animal), tier = 8),
+                Ranked(entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, toneOf(animal), animal), listOf(animal), tier = 8),
                 Ranked(entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, toneOf(trigram), trigram), listOf(trigram), tier = 9),
             )
             val rahu = Texts.RAHU[day.day]?.let {

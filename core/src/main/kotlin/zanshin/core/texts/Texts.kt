@@ -98,6 +98,12 @@ object Sources {
         "国立国会図書館デジタルコレクション (NDL)",
         "https://dl.ndl.go.jp/pid/1911335/1/20",
     )
+    /** 歳下食 by the year's branch, a second witness to Wikipedia's table, read on the NDL scan. */
+    val DOKUSEN_EKIGAKU = Source(
+        "開運館 編『独占易学全書』「歳下食日」, 又間精華堂, 大阪 1901, p. 54",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/760758/1/29",
+    )
     val KOYOMI8_GEDAN = Source("暦注の説明（その３）・下段について", "こよみのページ (koyomi8.com)", "https://koyomi8.com/sub/rekicyuu_doc03.html")
     val KB_TORA = Source("「寅の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/寅の日")
     val KB_MI = Source("「巳の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/巳の日")
@@ -129,6 +135,7 @@ object Sources {
     val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
+    val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–238")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
@@ -258,7 +265,7 @@ object Texts {
         Senjitsu.OTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
         Senjitsu.KOTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
         Senjitsu.TSUCHI_MABI to Reading(source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
-        Senjitsu.SAIGEJIKI to Reading(avoidKeys = listOf("eating_and_drinking_heavily", "sowing", "opening_rice_bales", "planting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.SAIGEJIKI to Reading(avoidKeys = listOf("eating_and_drinking_heavily", "sowing", "opening_rice_bales", "planting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = listOf(Sources.DOKUSEN_EKIGAKU)),
         Senjitsu.JUNICHI to Reading(avoidKeys = listOf("weddings", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.FUKUNICHI to Reading(avoidKeys = listOf("weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.KANOE_SARU to Reading(source = Sources.WP_KOSHIN, license = License.CC_BY_SA),
@@ -303,7 +310,7 @@ object Texts {
             goodKeys = (Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
             avoidKeys = Electional.bad { m in it.mansions },
             source = Sources.HENNING_ELECTIONAL,
-            also = listOf(Sources.KUN_PHAN_ME_LONG),
+            also = listOf(Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_MANSION_CLASSES),
             key = "reading.Mansion",
             arg = "reading.${glossKey(m)}",
         )
@@ -318,7 +325,7 @@ object Texts {
     /**
      * The yoga's dot: unlucky for the three the White Beryl says to avoid
      * whole and the three whose short reading names a harm, mixed for the
-     * others it says to avoid in their first nine chu tshod and the two it
+     * others it says to avoid in their first chu tshod (3, 5, 6 or 9) and the two it
      * calls middling, lucky for the rest. Its ranking verse is not used: how
      * to read it is an open question (docs/sources/open-questions.md 1).
      */
@@ -382,12 +389,12 @@ object Texts {
         Reading(goodKeys = listOf("breaking_ground", "suppressing_sri", "setting_out", "washing_the_hair", "building", "pacifying_rites", "field_work"), avoidKeys = listOf("funeral_rites", "consecration", "enthronement", "building_temples_and_stupas", "marriage", "making_images", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.19"),
         Reading(goodKeys = listOf("increasing_rites"), avoidKeys = listOf("washing_the_hair", "consecration", "enthronement", "setting_out", "making_images"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.20"),
         Reading(goodKeys = listOf("planting", "setting_out", "power_rites", "buying_livestock"), avoidKeys = listOf("consecration", "taking_servants", "enthronement", "marriage", "building_temples", "making_images", "washing_the_hair"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.21"),
-        Reading(goodKeys = listOf("learning_writing_astrology_and_crafts", "building_a_hearth", "washing_the_hair", "digging_ponds_canals_and_wells", "planting", "gtad_and_sri_rites", "work_with_rock", "buying_livestock"), avoidKeys = listOf("taking_a_new_home", "consecration", "enthronement", "making_images", "council", "marriage", "burial", "setting_out", "taking_servants", "building", "buying_goods", "breaking_in_livestock", "fire_offerings"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.22"),
+        Reading(goodKeys = listOf("learning_writing_astrology_and_crafts", "building_a_hearth", "washing_the_hair", "digging_ponds_canals_and_wells", "planting", "gtad_and_sri_rites", "work_with_rock", "buying_livestock"), avoidKeys = listOf("taking_a_new_home", "consecration", "enthronement", "making_images", "council", "marriage", "burial", "setting_out", "taking_servants", "building", "buying_goods", "breaking_in_livestock", "fire_offerings", "building_flood_dikes"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.22"),
         Reading(goodKeys = listOf("building", "building_a_hearth", "setting_out", "ordination", "washing_the_hair", "sowing", "fire_offerings", "building_dams", "pacifying_rites"), avoidKeys = listOf("digging_ponds_canals_and_wells", "buying_livestock", "buying_servants_and_goods", "consecration", "enthronement"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.23"),
         Reading(goodKeys = listOf("taking_servants", "buying_goods", "buying_livestock", "setting_out", "sowing", "increasing_rites"), avoidKeys = listOf("enthronement", "consecration", "washing_the_hair"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.24"),
         Reading(goodKeys = listOf("building", "buying_fields", "setting_out", "breaking_ground", "suppressing_sri", "funeral_rites", "sowing", "fierce_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("washing_the_hair", "consecration", "enthronement", "taking_servants"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.25"),
         Reading(goodKeys = listOf("washing_the_hair", "sowing", "breaking_ground", "fierce_rites"), avoidKeys = listOf("taking_servants", "setting_out", "buying_goods", "buying_livestock", "enthronement", "consecration", "building"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.26"),
-        Reading(goodKeys = listOf("setting_out", "washing_the_hair", "funeral_rites", "sowing", "building_a_hearth", "digging_ponds_and_wells", "increasing_rites"), avoidKeys = listOf("enthronement", "consecration", "buying_servants_and_goods", "making_images", "building_temples", "marriage", "fire_offerings"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.27"),
+        Reading(goodKeys = listOf("setting_out", "washing_the_hair", "funeral_rites", "sowing", "building_a_hearth", "digging_ponds_and_wells", "increasing_rites"), avoidKeys = listOf("enthronement", "consecration", "buying_servants_and_goods", "making_images", "building_temples", "marriage", "fire_offerings", "building_flood_dikes"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.27"),
         Reading(goodKeys = listOf("fire_offerings", "building_dams", "power_rites"), avoidKeys = listOf("washing_the_hair", "setting_out", "funeral_rites", "taking_servants", "digging_ponds_and_canals", "marriage", "enthronement", "consecration", "sowing", "buying_goods", "buying_livestock", "war_south_or_west"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.28"),
         Reading(goodKeys = listOf("teaching_dharma", "subduing_enemies", "setting_out", "suppressing_sri", "fierce_rites"), avoidKeys = listOf("sowing", "taking_servants", "breaking_in_livestock", "brewing_beer", "washing_the_hair", "consecration", "funeral_rites", "enthronement", "bloodletting_and_moxibustion", "making_images", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.29"),
         Reading(goodKeys = listOf("power_rites", "sowing"), avoidKeys = listOf("consecration", "enthronement", "washing_the_hair", "setting_out", "bloodletting_and_moxibustion", "funeral_rites", "marriage", "buying_servants_and_goods", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.30"),
@@ -433,7 +440,7 @@ object Texts {
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),
         Weekday.TUESDAY to Reading(
-            goodKeys = listOf("war", "martial_skills", "appointing_generals", "fierce_rites", "subduing_enemies", "enthronement", "judging_disputes", "lawsuits", "averting_rites", "suppressing_sri", "horse_racing", "fire_offerings", "hurling_zor", "directing_magic", "collecting_debts", "taking_new_lands", "raising_dogs", "moxibustion", "work_with_gold_coral_and_swords", "destroying_forts", "power_rites"),
+            goodKeys = listOf("war", "martial_skills", "appointing_generals", "fierce_rites", "subduing_enemies", "enthronement", "judging_disputes", "lawsuits", "averting_rites", "suppressing_sri", "horse_racing", "fire_offerings", "hurling_zor", "directing_magic", "collecting_debts", "taking_new_lands", "raising_dogs", "moxibustion", "work_with_gold_coral_and_swords", "destroying_forts", "power_rites", "building_flood_dikes"),
             avoidKeys = listOf("ordination", "consecration", "marriage", "bathing", "putting_on_ornaments", "virtuous_work", "empowerment", "divination", "burial", "funeral_rites", "council", "taking_servants", "building", "building_temples", "making_images", "astrology", "preparing_medicine", "crafts", "cutting_hair_and_nails", "sending_out_wealth", "bloodletting", "building_towns", "gatherings", "feasts", "sowing", "worship_of_deities", "building_a_hearth", "building_storehouses", "digging_ponds_and_canals", "field_work", "breaking_ground", "planting_trees", "planting_flowers", "lasting_work", "auspicious_work", "spectacles", "reconciliation", "prosperity_rites", "trade", "first_wearing_of_new_clothes", "sewing_tents", "moving_house", "pacifying_rites", "increasing_rites", "setting_out"),
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),
@@ -453,7 +460,7 @@ object Texts {
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),
         Weekday.SATURDAY to Reading(
-            goodKeys = listOf("taking_a_new_home", "gaining_wealth", "long_life_and_prosperity_rites", "acquiring_goods_and_livestock", "leading_an_army", "field_work", "building_towns", "planting_flowers", "planting_trees", "ironwork", "digging_ponds_and_wells", "breaking_ground", "suppressing_sri", "raising_banners", "building_storehouses", "building", "naming", "consorting_with_women", "making_weapons", "black_rites", "raising_dogs", "astrology", "robbery", "sowing", "killing_others"),
+            goodKeys = listOf("taking_a_new_home", "laying_foundations", "gaining_wealth", "long_life_and_prosperity_rites", "acquiring_goods_and_livestock", "leading_an_army", "field_work", "building_towns", "planting_flowers", "planting_trees", "ironwork", "digging_ponds_and_wells", "breaking_ground", "suppressing_sri", "raising_banners", "building_storehouses", "building", "naming", "consorting_with_women", "making_weapons", "black_rites", "raising_dogs", "astrology", "robbery", "sowing", "killing_others"),
             avoidKeys = listOf("ordination", "consecration", "restoring_vows", "virtuous_work", "council", "auspicious_work", "lasting_work", "first_wearing_of_new_clothes", "cutting_hair_and_nails", "increasing_rites", "power_rites", "bloodletting_and_moxibustion", "washing_the_hair", "preparing_medicine", "trade", "averting_rites", "marriage", "sending_out_wealth", "sewing_tents", "funeral_rites", "moving_house", "games", "building_temples", "making_images", "trading_land_and_houses", "saddling", "feasts", "reconciliation", "worship_of_deities", "putting_on_ornaments", "enthronement", "serving_the_king", "prostrations", "presenting_offerings", "affairs_of_state", "judging_disputes", "fighting_enemies", "taking_a_retinue", "spectacles", "setting_out"),
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),

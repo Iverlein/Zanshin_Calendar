@@ -494,6 +494,7 @@ object Activities {
         "digging_ponds_canals_and_wells" to of(DIGGING, WELLS),
         "digging_ponds_and_canals" to of(DIGGING),
         "building_dams" to of(DAMS),
+        "building_flood_dikes" to of(DAMS),
         "fire_offerings" to of(FIRE_OFFERINGS),
         "retinue_and_marriage" to of(SERVANTS, WEDDING),
         "trade" to of(TRADING),
