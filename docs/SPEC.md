@@ -402,8 +402,12 @@ English (§8.1), each reading citing its pages:
   person's progressed trigram and sme ba (T4) or of a sme ba counted from
   the solstice, so its row opens none. The date's animal is the *nyi ma*
   (open question 9): it carries the activity lists of §5.10 and, in WB's
-  chapter 31 (vol. 2, pp. 222–225), the earth lords of each animal day for
-  funeral reckoning, which are not built; its row opens none yet.
+  chapter 31 (vol. 2, pp. 224–226, [earth-lords.md](sources/earth-lords.md)),
+  the earth lords of each animal day for the reckoning of the dead: where
+  the earth lord sits in the house, what is bad there and its remedy, and
+  the earth lord who witnesses the day with its funeral rules. Tapping the
+  animal's row opens them with the activity lists for a day of that animal;
+  no tone, and not in the day in brief, which already counts those lists.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -702,6 +706,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
 | Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337 and 341, with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |
 | Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040) |
+| Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
@@ -808,8 +813,8 @@ canvas "Zanshin Calendar — basic design".
   weekday (§5.11), lunar mansion (§5.10), special days, lunar date, karaṇa
   and yoga (§5.11); then the
   hair-cutting day; then the five components (weekday, mansion, karaṇa,
-  yoga) and the lunar-day cycles as tappable terms, the trigram opening its
-  goddess's reading (§5.11).
+  yoga) and the lunar-day cycles as tappable terms, the animal opening its
+  earth lords and the trigram its goddess's reading (§5.11).
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written in Tibetan script, converted at run time from
   the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its

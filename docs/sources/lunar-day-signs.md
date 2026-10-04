@@ -148,7 +148,8 @@ No reading of the lunar date's animal of its own was found:
   animal (question 9 in [open-questions.md](open-questions.md), answered
   2026-10-04 from WB's notes, vol. 2, pp. 493–494). They are funeral
   reckoning: the passage itself says to apply them to *gshin rtsis* only
-  (p. 225, «འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་»), and they are not yet built.
+  (p. 225, «འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་»). Read and built on 2026-10-04:
+  [earth-lords.md](earth-lords.md).
 - WB uses the date's animal as the sign of the date in the divination of
   health (vitality and body against the birth year), which the app shows
   under "Your day" (SPEC §5.9).

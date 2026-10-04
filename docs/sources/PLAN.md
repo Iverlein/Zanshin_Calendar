@@ -55,10 +55,11 @@ says where to look and with which tool.
    words. Question 2 was answered on 2026-10-04 (number words: the yogas'
    avoided chu tshod) and question 9 too (the *nyi ma* is the lunar date's
    animal).
-7. **The earth lords of each animal day** (WB vol. 2, ch. 31, pp. 222–225,
-   img. 230–233): the reading of the date's animal, for funeral reckoning
-   only ([lunar-day-signs.md](lunar-day-signs.md)); to be read on the scan
-   and given a SPEC entry before code.
+7. ~~The earth lords of each animal day~~ Read and built 2026-10-04
+   ([earth-lords.md](earth-lords.md), SPEC §5.11). Left from that chapter:
+   the day's earth lord counted from the year, the *bla mkhyen* and the
+   hearth god's place (its mouse-day entry unclear), and the day by the
+   clan's element, which needs the person's clan.
 6. **WB ch. 33 inventory** ([white-beryl-ch33.md](white-beryl-ch33.md))
    was made from BDRC's OCR; recheck its section headings with
    `hf_read.py yigdzin` when a section is taken up.
