@@ -245,8 +245,10 @@
     <string name="brief_note_tibetan">Взвешено так, как велят «Белый берилл» и kun phan me long: сначала сочетание дня недели и созвездия (именное сочетание и пара стихий), затем день недели и созвездие, затем особые дни дня недели и созвездия, затем число, карана, йога и животное дня. Занятие решает сильнейший из называющих его; перевешенные факторы не перечисляются.</string>
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
     <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
+    <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по rdo rje gtsug lag: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
     <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
+    <string name="tib_rahu_general_subtitle">%1$d-е число: куда движется Раху</string>
     <string name="brief_also_avoid">названо и среди «избегать»</string>
     <string name="brief_also_good">названо и среди «хорошо»</string>
     <string name="tone_lucky">благоприятно</string>

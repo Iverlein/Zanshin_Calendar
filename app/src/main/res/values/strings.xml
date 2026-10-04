@@ -281,8 +281,10 @@
     <string name="brief_note_tibetan">Weighed as the White Beryl and the kun phan me long say: the combination of weekday and mansion (its named combination and the element pair) first, then the weekday and the mansion, then the special days of weekday and mansion, then the date, the karaṇa, the yoga and the day animal. An activity is decided by the strongest that names it; factors that are outweighed are not listed.</string>
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
     <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
+    <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the rdo rje gtsug lag: %1$s</string>
     <string name="tib_rahu_title">Rāhu\'s course</string>
     <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
+    <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
     <string name="brief_also_avoid">also named to avoid</string>
     <string name="brief_also_good">also named good</string>
     <string name="tone_lucky">lucky</string>

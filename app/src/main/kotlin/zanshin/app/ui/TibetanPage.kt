@@ -221,8 +221,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val whiteBerylLabel = stringResource(R.string.detail_white_beryl)
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
+        val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
         val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
+        val gtsugLagDaySubtitle = stringResource(R.string.tib_gtsug_lag_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val annotations = buildList {
             holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
@@ -277,6 +279,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             Texts.RAHU[day.day]?.let { r ->
                 add(Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
             }
+            Texts.RAHU_GENERAL[day.day]?.let { r ->
+                add(Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
+            }
             add(
                 Annotation(
                     day.weekday.english,
@@ -301,15 +306,15 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
             )
-            day.combinationDays.forEach { c ->
+            day.combinationDays.map { it to false }.plus(day.gtsugLagDays.map { it to true }).forEach { (c, gtsugLag) ->
                 val cScript = "${Ewts.toTibetan(c.wylie)} (${c.wylie})"
                 add(
                     Annotation(
                         c.english.replaceFirstChar(Char::uppercase),
                         cScript,
                         if (c.lucky) Tone.GOOD else Tone.BAD,
-                        Texts.COMBINATION_DAY[c],
-                        subtitle = combinationDaySubtitle,
+                        if (gtsugLag) Texts.GTSUG_LAG_DAY[c] else Texts.COMBINATION_DAY[c],
+                        subtitle = if (gtsugLag) gtsugLagDaySubtitle else combinationDaySubtitle,
                         titleIsKanji = false,
                         details = listOf(whiteBerylLabel to cScript),
                     ),
