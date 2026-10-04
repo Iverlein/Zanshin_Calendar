@@ -9,7 +9,8 @@
   bdrc.py volumes MW_ID                   list a work's volumes (image groups)
   bdrc.py scans OUTDIR VOLUME [FIRST-LAST] [--width N]
                                           page images of one volume, numbered as
-                                          BDRC numbers them (img. N = canvas N)
+                                          BDRC labels them ("img. N", which can
+                                          differ from the canvas's place)
 
 The IE id is on the work's library.bdrc.io page ("Open in Etext Viewer"), and
 so is its MW id. VOLUME is an image-group id (I…) or a number
@@ -17,6 +18,7 @@ in the volumes listing. No browser needed (docs/sources/PLAN.md, Tools).
 Open-access volumes answer every image; restricted ones only about twenty.
 """
 import json
+import re
 import sys
 import time
 import urllib.parse
@@ -94,18 +96,31 @@ def volumes(mw):
     return result
 
 
+def image_number(canvas, index):
+    """BDRC's own number of a canvas, "img. 321": the one the topic files cite. It is
+    not the canvas's place in the manifest, since a volume's first images (the
+    scanning targets) are left out, so canvas 1 is often img. 3."""
+    labels = canvas.get("label") or []
+    for label in labels if isinstance(labels, list) else [labels]:
+        value = label.get("@value", "") if isinstance(label, dict) else str(label)
+        m = re.fullmatch(r"img\. (\d+)", value)
+        if m:
+            return int(m.group(1))
+    return index
+
+
 def scans(out, volume, first=1, last=None, width=None):
-    """Save canvases first..last of a volume as img<NNN>.jpg (full size, or --width)."""
+    """Save images first..last of a volume, by BDRC's image numbers, as img<NNN>.jpg (full size, or --width)."""
     manifest = json.loads(get(MANIFEST.format(volume)))
-    canvases = manifest["sequences"][0]["canvases"]
-    last = min(last or len(canvases), len(canvases))
+    canvases = {image_number(c, i): c for i, c in enumerate(manifest["sequences"][0]["canvases"], 1)}
+    last = min(last or max(canvases), max(canvases))
     size = f"{width}," if width else "max"
     Path(out).mkdir(parents=True, exist_ok=True)
     for n in range(first, last + 1):
         target = Path(out) / f"img{n:03d}.jpg"
-        if target.exists():
+        if target.exists() or n not in canvases:
             continue
-        service = canvases[n - 1]["images"][0]["resource"]["service"]["@id"]
+        service = canvases[n]["images"][0]["resource"]["service"]["@id"]
         try:
             target.write_bytes(get(f"{service}/full/{size}/0/default.jpg"))
             print(n, target)
