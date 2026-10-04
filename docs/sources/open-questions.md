@@ -25,7 +25,10 @@ the text, not about the app.
    nag pa (13) and ཤེ་ས = nam gru (26), already agree with NM and SY. The
    woodblock print WB2 has no numbers; its page was not found yet.)*
 5. SY gives the Mouse's gshed gza' as zla ba (Monday); WB and Rabten say
-   spen pa (Saturday). A copying slip in SY, or another tradition?
+   spen pa (Saturday). A copying slip in SY, or another tradition? KP's
+   table (img. 85, read 2026-10-04) has ༠, Saturday, with WB; but KP is
+   WB's chapter carved as tables, so SY stands against one tradition, not
+   three ([personal-mansions.md](personal-mansions.md)).
 6. KP box 6 (offerings to deities, img. 23): khrums smad (ཁྲུཾད) is
    listed among the good mansions and again among the bad. The second
    print (KP2, img. 242, [kun-phan-me-long.md](kun-phan-me-long.md)) has

@@ -158,7 +158,7 @@ yearly elements and img. 87–101 as woodcuts of animals).
 | 7–8 | 76–77 | Rāhu's course by date and by time, the *sde brgyad*, the Rāhu wheel |
 | 9 | 78–80 | how to compute the *dus sbyor*, with tables of the hours by sign |
 | 10 | 81–82 | the *bdud rtsi thun mtshams* (Jupiter's nectar periods), day and night tables |
-| 11 | 83–84 | the *bla gza'* and *bla skar* of each year animal, table and results |
+| 11 | 83–84 (on the scan 85) | the *bla gza'* and *bla skar* of each year animal, table and results: the personal mansions and weekdays of WB p. 330, read in [personal-mansions.md](personal-mansions.md) |
 | 12 | 85–86 | the *spar kha* and *sme ba*: tables, computation, results, ransom rites |
 | 13 | 87–90 | the earth lords (*sa bdag*) of the year: chart |
 | 14 | 91–96 | the earth lords of the month: chart |
@@ -171,4 +171,5 @@ yearly elements and img. 87–101 as woodcuts of animals).
   chapter, carved for printing); **120** blank.
 
 The weight of the factors (img. 13) and §4–6 bear on readings the app
-already has; §2, §3, §5 and §11 hold calculable day readings it does not.
+already has; §2, §3, §5 and §11 held calculable day readings, all now in
+the app (§11 as the personal mansions and weekdays).

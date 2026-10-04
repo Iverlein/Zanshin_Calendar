@@ -9,7 +9,7 @@ our own words). What is still to be found, and how, is in
 
 | File | Topic | Roadmap | State |
 | --- | --- | --- | --- |
-| [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings | T3 | Settled: read on the scan, checked against two other texts and Rabten |
+| [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings | T3 | Settled: read on the scan, checked against two other texts, Rabten and KP's table (img. 85) |
 | [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; two readings of the ranking verse open |
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, no syllable left unread (date 25's སྒབ read but not identified); illness and remedy lines summarized only; all four *bla gnas* systems written out |

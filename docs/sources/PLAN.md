@@ -33,11 +33,14 @@ says where to look and with which tool.
 1. ~~The app's own corrections.~~ Made: `Electional.kt` follows the print,
    and box 6's khrums smad, in both halves, stays out (SPEC §5.10;
    question 6 is still for a reader).
-2. **New calculable readings found, not yet in the app:** KP's second
-   part §11 (*bla gza'*, *bla skar*). (§2, §3 and §5, the combinations and
-   special days, are built from WB's own text: [combinations.md](combinations.md).) Each needs its table
-   read (KP2 is the better-preserved copy for KP: BDRC I3CN12074,
-   img. 218–345) and a SPEC entry before code.
+2. ~~New calculable readings in KP's second part.~~ None is left: §2, §3
+   and §5, the combinations and special days, are built from WB's own text
+   ([combinations.md](combinations.md)), and §11 (img. 85, read
+   2026-10-04) is the table of the personal mansions and weekdays the app
+   already has from WB p. 330; 104 of its 108 cells agree, the other four
+   are carver's slips ([personal-mansions.md](personal-mansions.md)). Its
+   readings, if they follow on img. 86, are not yet seen (BDRC answered
+   502 that day); WB's are in the app.
 3. **Read by eye what was read by machine**, where a reading is to be
    quoted in the app: the 28 verses ([mansion-verses.md](mansion-verses.md))
    and the second half of KP. Use `disagree.py` sheets. (The open
@@ -51,9 +54,10 @@ says where to look and with which tool.
    too small to read the verse with confidence. The app does not wait on
    it: the names NM, SY and WB print already agree (question 4).
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
-   1 (ranking), 5 (SY's Mouse gshed gza'), 6 (box 6), 8 (sha 'khon: KP's
-   change), 10 ('Od 'bar ma's *chu gri bkar*). A third WB print would not
-   settle 1 or 8: WB2 has the same words. Question 2 was answered on 2026-10-04 (number words: the yogas'
+   1 (ranking), 5 (SY's Mouse gshed gza'; KP now sides with WB), 6 (box
+   6), 8 (sha 'khon: KP's change), 10 ('Od 'bar ma's *chu gri bkar*). A
+   third WB print would not settle 1 or 8: WB2 has the same words.
+   Question 2 was answered on 2026-10-04 (number words: the yogas'
    avoided chu tshod) and question 9 too (the *nyi ma* is the lunar date's
    animal).
 6. **WB ch. 33 inventory** ([white-beryl-ch33.md](white-beryl-ch33.md))

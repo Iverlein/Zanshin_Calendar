@@ -95,6 +95,49 @@ match Rabten's table in `personalDay`, whose "luck" day is the bla gza',
 "life" the srog gza' and "anti" the gshed gza'. SY's gshed gza' for Mouse
 reads ཟླ་བ (Monday) against WB's སྤེན (Saturday) and Rabten's Saturday.
 
+## A fourth witness: KP's table
+
+**KP §11** (img. 85, not 83–84 as its list of contents has it: img. 83–84
+are §10's tables of the *bdud rtsi* periods), read on the scan on
+2026-10-04 at three times the size, cell by cell. A table with the twelve
+year animals as columns (བྱི་བ … ཕག) and nine rows, all as digits:
+བླ་སྐར, བླ་གཟའ, སྲོག་གཟའ, སྲོག་སྐར, དབང་སྐར, སྐེག་སྐར, བདུད་སྐར, གཤེད་གཟའ,
+གཤེད་སྐར. Mansions count from tha skar = 0 and weekdays from Saturday = 0,
+as in WB's verse. In this print ༢ has one hook at its head and ༣ two;
+that is what parts them below.
+
+```
+              Mou Ox  Tig Rab Dra Sna Hor She Mon Bir Dog Pig
+བླ་སྐར         ༡༩ ༡༦ ༤  ༡༠ ༢  ༡༢ ༡༦ ༧  ༧  ༡༣ ༨  ༡
+བླ་གཟའ         ༤  ༠  ༥  ༥  ༡  ༢  ༣  ༦  ༦  ༦  ༢  ༤
+སྲོག་གཟའ        ༣  ༤  ༠  ༠  ༤  ༦  ༦  ༢  ༥  ༥  ༤  ༣
+སྲོག་སྐར        ༥  ༡༣ ༢༦ ༢༦ ༢༣ ༡༡ ༡༡ ༠  ༠  ༦  ༢༦ ༧
+དབང་སྐར        ༢  ༡༡ ༨  ༡༡ ༡༦ ༥  ༥  ༡  ༡  ༥༤ ༤  ༡༠
+སྐེག་སྐར        ༢༥ ༡  ༡༣ ༢༥ ༧  ༧  ༡༩ ༡༩ ༨  ༢  ༡༠ ༢༥
+བདུད་སྐར        ༩  ༧  ༡༠ ༡༤ ༨  ༨  ༤  ༤  ༤  ༡༠ ༢  ༢
+གཤེད་གཟའ        ༠  ༥  ༦  ༦  ༥  ༤  ༤  ༥  ༣  ༣  ༥  ༠
+གཤེད་སྐར        ༢༢ ༤  ༡  ༡༧ ༡༠ ༥  ༡༦ ༢༦ ༡༦ ༢༣ ༡༡ ༡༡
+```
+
+104 of the 108 cells agree with the result below. The other four are one
+digit or one stroke away from it, and each time WB's verse and the other
+witnesses agree against KP:
+
+| Place | KP | WB, NM, SY, Rabten | Taken |
+| --- | --- | --- | --- |
+| bla gza', Snake | ༢ (Monday) | WB's verse དམར; Rabten Tuesday | Tuesday; ༢ for ༣, one hook short |
+| dbang skar, Bird | ༥༤ | WB ཁྲུམས་སྟོད(༢༤), NM ༢༤ | 24; 54 is no mansion |
+| bdud skar, Tiger | ༡༠ (gre) | WB དབོ(༡༡), NM ༡༡ | 11 |
+| gshed skar, Horse | ༡༦ (lha mtshams) | WB ཤེ་ས (nam gru), NM ༢༦, SY ནམ་གྲུ | 26 |
+
+The Mouse's gshed skar has its first digit blotted; the second is ༢, and
+of 22 and 32 only 22 is a mansion. KP is the White Beryl's chapter carved
+as tables (its colophon, img. 119), so it is a copy, not an independent
+tradition: its slips are a carver's, and its agreement counts as WB's.
+
+**Open question 5** (the Mouse's gshed gza'): KP has ༠, Saturday, with WB
+and Rabten. SY's ཟླ་བ stands alone.
+
 ## Result
 
 | Animal | bla | srog | dbang | skeg | bdud | gshed | bla gza' | srog gza' | gshed gza' |
