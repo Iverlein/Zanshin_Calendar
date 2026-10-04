@@ -168,6 +168,24 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                 }
             }
 
+            if (s.setAside.isNotEmpty()) {
+                Block(stringResource(R.string.brief_set_aside)) {
+                    for ((by, entries) in s.setAside) {
+                        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                                Box(Modifier.size(8.dp).background(toneColor(by.tone), CircleShape))
+                                GlossText(by.kanji, by.english, termStyle)
+                            }
+                            Text(
+                                stringResource(if (by.tone == Tone.GOOD) R.string.brief_set_aside_lifted else R.string.brief_set_aside_alone),
+                                style = body.copy(fontSize = 14.sp, color = Palette.muted),
+                            )
+                            Terms(entries, small = true)
+                        }
+                    }
+                }
+            }
+
             if (s.personal.isNotEmpty() || s.affinity != null) {
                 Block(stringResource(R.string.brief_for_you)) {
                     if (s.personal.isNotEmpty()) Terms(s.personal)

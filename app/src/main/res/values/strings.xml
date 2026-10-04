@@ -264,7 +264,14 @@
     <string name="brief_by_tone">By tone</string>
     <string name="brief_for_you">For you</string>
     <string name="brief_birth_star">birth star and day star: %1$s</string>
-    <string name="brief_note">Listed as the sources give them. No published rule says which annotation outranks another, so none is weighed against the others; where they disagree, both are shown.</string>
+    <string name="brief_note">Listed as the sources give them. No published rule ranks one kind of annotation above another, so the kinds are not weighed; where they disagree, both are shown. Only the lower band\'s own rules set some notes aside.</string>
+    <string name="brief_set_aside">Set aside</string>
+    <string name="brief_set_aside_alone">stands alone in the lower band; these do not count today</string>
+    <string name="brief_set_aside_lifted">names the day good, so this light bad day need not be kept</string>
+    <string name="kyu_set_aside">%1$s · set aside</string>
+    <string name="kyu_heavier">%1$s · heavier with another bad day</string>
+    <string name="detail_set_aside_by">Set aside by</string>
+    <string name="detail_heavier_with">Heavier with</string>
     <string name="brief_day_good">a lucky day</string>
     <string name="brief_day_bad">an unlucky day</string>
     <string name="brief_day_special">the combinations disagree; the special days of weekday and mansion decide</string>

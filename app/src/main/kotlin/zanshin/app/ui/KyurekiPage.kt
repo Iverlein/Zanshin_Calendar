@@ -46,6 +46,7 @@ import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Kigaku
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Kanshi
+import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.Tone
@@ -207,9 +208,9 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             AnnotationRow(shukuAnnotation(rk.shuku, labels)) { sheet = it }
         }
 
-        SenjitsuSection(stringResource(R.string.section_kagedan), rk.senjitsu.filter { it.band == Band.KAGEDAN }) { sheet = it }
-        SenjitsuSection(stringResource(R.string.section_senjitsu), rk.senjitsu.filter { it.band == Band.SENJITSU }) { sheet = it }
-        SenjitsuSection(stringResource(R.string.section_ennichi), rk.senjitsu.filter { it.band == Band.ENNICHI }) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_kagedan), rk, Band.KAGEDAN, labels) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_senjitsu), rk, Band.SENJITSU, labels) { sheet = it }
+        SenjitsuSection(stringResource(R.string.section_ennichi), rk, Band.ENNICHI, labels) { sheet = it }
 
         if (rk.zassetsu.isNotEmpty()) {
             SectionTitle(stringResource(R.string.section_zassetsu))
@@ -289,13 +290,41 @@ private fun shukuAnnotation(s: Shuku, labels: Labels): Annotation {
 
 private fun senjitsuAnnotation(s: Senjitsu) = Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])
 
+/**
+ * An annotation of the lower band or the selected days, with the band's own
+ * rules (SPEC §7.5): set aside by 受死日, 十死日 or a good day, or 歳下食
+ * made heavier by another bad day; the row says so and the sheet names which.
+ */
+private fun senjitsuAnnotation(s: Senjitsu, rk: RekichuDay, labels: Labels): Annotation {
+    fun name(o: Senjitsu) = "${o.kanji} — ${o.english}"
+    val gloss = "${s.reading} — ${s.english}"
+    val by = rk.setAside[s]
+    val heavier = if (s == Senjitsu.SAIGEJIKI) rk.heavierWith else emptyList()
+    return Annotation(
+        s.kanji,
+        gloss,
+        s.tone,
+        Texts.SENJITSU[s],
+        subtitle = when {
+            by != null -> labels.string(R.string.kyu_set_aside, gloss)
+            heavier.isNotEmpty() -> labels.string(R.string.kyu_heavier, gloss)
+            else -> null
+        },
+        details = buildList {
+            by?.let { add(labels.string(R.string.detail_set_aside_by) to name(it)) }
+            if (heavier.isNotEmpty()) add(labels.string(R.string.detail_heavier_with) to heavier.joinToString(", ") { name(it) })
+        },
+    )
+}
+
 @Composable
-private fun SenjitsuSection(title: String, days: List<Senjitsu>, onOpen: (Annotation) -> Unit) {
+private fun SenjitsuSection(title: String, rk: RekichuDay, band: Band, labels: Labels, onOpen: (Annotation) -> Unit) {
+    val days = rk.senjitsu.filter { it.band == band }
     if (days.isEmpty()) return
     SectionTitle(title)
     Column {
         days.forEach { s ->
-            AnnotationRow(senjitsuAnnotation(s), onOpen)
+            AnnotationRow(senjitsuAnnotation(s, rk, labels), onOpen)
         }
     }
 }

@@ -228,7 +228,14 @@
     <string name="brief_by_tone">По характеру</string>
     <string name="brief_for_you">Для вас</string>
     <string name="brief_birth_star">звезда рождения и звезда дня: %1$s</string>
-    <string name="brief_note">Перечислено так, как дают источники. Ни одно опубликованное правило не ставит одну пометку выше другой, поэтому они не взвешиваются; где они расходятся, показаны обе стороны.</string>
+    <string name="brief_note">Перечислено так, как дают источники. Ни одно опубликованное правило не ставит один род пометок выше другого, поэтому роды не взвешиваются; где они расходятся, показаны обе стороны. Лишь собственные правила нижней полосы откладывают некоторые пометки.</string>
+    <string name="brief_set_aside">Не учитываются</string>
+    <string name="brief_set_aside_alone">стоит в нижней полосе один; эти сегодня не учитываются</string>
+    <string name="brief_set_aside_lifted">называет день хорошим, и этот лёгкий дурной день можно не соблюдать</string>
+    <string name="kyu_set_aside">%1$s · не учитывается</string>
+    <string name="kyu_heavier">%1$s · тяжелее с другим дурным днём</string>
+    <string name="detail_set_aside_by">Не учитывается из-за</string>
+    <string name="detail_heavier_with">Тяжелее вместе с</string>
     <string name="brief_day_good">благоприятный день</string>
     <string name="brief_day_bad">неблагоприятный день</string>
     <string name="brief_day_special">сочетания расходятся; решают особые дни дня недели и созвездия</string>
