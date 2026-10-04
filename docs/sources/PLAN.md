@@ -48,7 +48,10 @@ says where to look and with which tool.
    page = image number) as a third witness beside Yigdzin-1 and MITRA,
    aligned with `disagree.py` against the settled text; its flags are
    checked on the scan. **Weekdays done** 2026-10-04 (94% agreement, 69
-   flags; two readings corrected, [weekdays.md](weekdays.md)). (The open
+   flags; two readings corrected, [weekdays.md](weekdays.md)); the
+   combinations and yogas checked the same day, nothing changed (the
+   etext is patchy there; [combinations.md](combinations.md),
+   [yogas.md](yogas.md)). (The open
    readings in the mansion verses and the […] in
    [lunar-dates.md](lunar-dates.md) were settled on the scan on
    2026-10-04.)

@@ -5,6 +5,11 @@ the rules for quoting are in [README.md](README.md).
 
 WB vol. 2, pp. 347–349 (scans img. 355–357). A long reading of each yoga
 (pp. 347–348), the yogas to avoid, a short reading of each, and a ranking.
+The passages quoted below were read on the scan; the long readings, of
+which the app gives the gist, come from the two OCR readings. Against
+BDRC's etext (2026-10-04) the long readings of sel ba and mdza' bo name
+the same things as the app's gist; the etext runs these pages in another
+order (the karaṇas interleaved), so it cannot be aligned as a whole.
 
 ## Names
 

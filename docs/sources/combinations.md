@@ -7,7 +7,11 @@ the 28 named combinations (*'phrod chen*), the ten element pairs (*khams kyi
 sbyor ba*, the small combination), and the special days (*'grub sbyor* and
 the others). Machine reading: Yigdzin-1 for pp. 333–337 (img. 341–345),
 whose text is clean; the tables read on the scans (691 px), digit by digit,
-and every number checked against the verses.
+and every number checked against the verses. Checked again on 2026-10-04
+against BDRC's etext of the edition (pages 338–346): it leaves many
+phrases out on these pages, and where it has them it disagrees only in
+OCR fragments (དེ, ད་དུས, ད); no other word is offered, so the two verses
+below stand as read.
 
 ## The 28 named combinations
 
