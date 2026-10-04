@@ -128,3 +128,24 @@ on August 15)"; the code has only the kyūreki-dated ones.
 What the SPEC needs is a decision on which of these the page shows (only
 月遅れ O-Bon, as its example says, or every 月遅れ and 新暦 form); the
 facts above support O-Bon on 8月15日 labelled 月遅れ.
+
+## 歳下食, a second witness (SPEC §7.5)
+
+**Checked 2026-10-04.** 歳下食 is the one 暦注 the koyomi8 vectors do not
+cover: koyomi8 does not compute it, and its 下段 page does not mention it
+(`Koyomi8Test`). The app's table (one sexagenary day for each year branch,
+`Rekichu.SAIGEJIKI`) came from Japanese Wikipedia 暦注下段 alone. A second
+source, found through the NDL catalogue's full text: 開運館 編『独占易学全書』
+(又間精華堂, 大阪 1901), 「歳下食日」, p. 54, NDL pid 760758, img. 29
+(https://dl.ndl.go.jp/pid/760758/1/29), public domain, read on the scan.
+It gives the day of each year in kana: 子年 丁丑, 丑年 庚寅, 寅年 丁卯, 卯年
+壬辰, 辰年 丁巳, 巳年 丙午, 午年 丁未, 未年 庚申, 申年 丁酉, 酉年 丙戌, 戌年 辛亥,
+亥年 庚子. All twelve agree with Wikipedia and the code. It explains the day
+as the one in sixty on which the evil star 天狗星 comes down to the human
+world to eat, an old tale kept by custom, and adds a condition Wikipedia
+lacks: «此内十干十二支相生して余の悪日にあたらざる日は障なし», a day whose
+stem and branch generate one another and which falls on no other bad day
+does no harm. The reading now says so.
+
+Neither source says where the year begins for this annotation; the app
+takes 立春, as for every other year-keyed 暦注 (SPEC §7.5).

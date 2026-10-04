@@ -11,8 +11,10 @@ names; her day says what an illness that comes on then is traced to and
 how it is treated (`Texts.TRIGRAM`). For the date's sme ba and animal,
 neither WB nor KP gives a reading of their own: their readings are of the
 person's progressed trigram and sme ba, of a sme ba counted from the
-solstice, or of the 60-day animal, and KP ranks the day's animal sign last
-of the seven factors of a day.
+solstice; the date's animal is the *nyi ma* (open question 9, answered
+2026-10-04), whose readings are KP's activity lists and, for funerals,
+WB's earth lords of each animal day (below); KP ranks it last of the seven
+factors of a day.
 
 ## The date's trigram and sme ba in the almanac
 
@@ -61,6 +63,24 @@ readings below hold for her day under either count):
 | G.yo med ma | 6, 14, 22, 30 | ལུང་སྟོང་རླུང་འཚུབ་འགྲིམས་པ: wandering empty valleys in a storm | གྲིབ་བཙན་བརྗེ་ཐོད་གཏོང | རིམས་མདོས་བསྐང་བཤགས་སྟོང་དྲིན | རིམས་དང་ལྡང་དུབ་སྨྱོ་འབོག: contagion, exhaustion, madness |
 | 'Od 'chang ma | 7, 15, 23 | ཕྱོགས་ངན་ཟས་དང་དམར: food from a bad direction, flesh and blood | ས་བདག་ཀླུ་གཉན་གྲེ་མོ | ཀླུ་ཆོག་དང་གྲེ་མོ་བཀར | ནུ་མཆིན་རྩིབ་མ་གཟེར, ཕོ་བ་ན་དང་སྐྲངས་པོ: liver and ribs, stomach, swellings |
 | Skyob byed ma | 8, 16, 24 | ལྷ་ཁང་བན་བོན་ནོར: property of a temple or of Buddhist or Bon priests | བེ་ཧར་དཀོར་བདག་དམ་སྲི | རྒྱལ་མདོས་བསྐང་བཤགས་དམ་སྲི་བཀར | མཁལ་རྐེད་ན་མིག་ནད་སྙིང་རླུང་ལྡང་དུབ: kidneys and waist, eyes, heart wind, exhaustion |
+
+**The spirit names and rites, looked up 2026-10-04** in the dictionaries
+of Steinert's collection (see [weekdays.md](weekdays.md)): *gre bo* a kind
+of male *gdon* (Ives Waldo, Jim Valby); *rgyal 'gong* spirits born of the
+*rgyal po* and the *'gong po* (Jim Valby); *dkor bdag* the spirit who
+guards religious property, Pe har for one (Jim Valby); *dam sri* the
+*sri* who harm vows (Rangjung Yeshe); *gri btsan* a *btsan* (Jim Valby);
+*bse rag* the ghost that eats the essence of food and wealth (Rangjung
+Yeshe, Tshig mdzod chen mo); *shu thor* pustules (Ives Waldo). *bkar*
+in the rites column is *uccāṭana*, driving off (Negi, Mahāvyutpatti
+glossaries), as in གྲེ་མོ་བཀར and དམ་སྲི་བཀར. 'Od 'bar ma's ཆུ་གྲི་བཀར, printed so
+(1996, vol. 1, p. 449, BDRC OCR), is less plain: the dictionaries know
+*chu gri* only as a small knife, "a surgical implement for removing
+tumours" (Dan Martin), and her illness is a swelling; it may also be a
+misprint for ཆུ་གྲེ, the water *gre* of Char 'bebs ma's row (question 10 in
+[open-questions.md](open-questions.md)). The app keeps the parallel
+reading, a rite to drive off the *chu gri*. *gnam the* and *brje thod
+gtong* are not in the dictionaries; they stay as printed.
 
 **The deeper count is the trigram.** WB continues (img. 460, l. 1–15):
 "more profound than this, the count": in tiger, horse and dog months the 1st
@@ -124,8 +144,11 @@ No reading of the lunar date's animal of its own was found:
   the granary on an ox day …) with what to avoid, mostly in funerals. The
   day there is the *nyi ma*, which WB's almanac chapter lists before and
   apart from the date's trigram and sme ba (དེ་ནས་ཉི་མ་གང་ཡིན་འདྲི། །དེ་རྗེས་སྤར་ཁའི་ཡི་གེ་དང་།);
-  the date's animal has no rule there. Which animal these readings mean is
-  open (question 9 in [open-questions.md](open-questions.md)).
+  the date's animal has no rule there. These readings mean the lunar date's
+  animal (question 9 in [open-questions.md](open-questions.md), answered
+  2026-10-04 from WB's notes, vol. 2, pp. 493–494). They are funeral
+  reckoning: the passage itself says to apply them to *gshin rtsis* only
+  (p. 225, «འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་»), and they are not yet built.
 - WB uses the date's animal as the sign of the date in the divination of
   health (vitality and body against the birth year), which the app shows
   under "Your day" (SPEC §5.9).

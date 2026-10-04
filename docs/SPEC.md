@@ -306,7 +306,8 @@ Edward Henning, *Horary and electional astrology of the five components*
   setting up supports and temples, and the four activities (destructive,
   controlling, pacifying, increasing) with accomplishing health and wealth.
   For each, the good and bad weekdays, lunar dates, mansions, day animals
-  (the 60-day cycle's) and trigrams. What a list does not name is neutral.
+  (the lunar date's, §5.8, as WB's notes count the *nyi ma*: open question 9,
+  answered 2026-10-04) and trigrams. What a list does not name is neutral.
 
 The lists are taken as printed, with these rules for what is doubtful:
 
@@ -334,6 +335,13 @@ The lists are taken as printed, with these rules for what is doubtful:
   good, acceptable or neutral is bad; for health and wealth, waxing dates
   are good but for the 6th, 7th and 9th, waning dates bad.
 
+Henning's list of natures joins two systems for two mansions (Śatabhiṣaj
+"very stable, ephemeral", Uttarabhādrapadā "quick change, permanent") and
+follows the Indian classes for Revatī; the White Beryl's own seven classes
+(vol. 2, pp. 328–329, [sources/mansions.md](sources/mansions.md)) put
+Śatabhiṣaj among the very stable, Uttarabhādrapadā among the quick and
+good, Revatī among the unstable and changing, and those three readings add
+WB's class after Henning's line.
 A mansion's reading joins what the list of mansions names it good for with
 the activity lists' good and bad, and cites the print beside Henning; where they disagree (Rohiṇī is good for
 marriage in the first, bad in the second) both stay, as elsewhere in the
@@ -352,9 +360,11 @@ English (§8.1), each reading citing its pages:
   death on it, its place in the five-fold cycle (dga' ba, bzang po, rgyal
   ba virtuous; stong pa, rdzogs pa not, with their remedies), the four
   perilous dates (8, 15, 22, 30) and where the soul (bla gnas) sits, after
-  the Phugpa list for people. Three acts the text names are not identified
-  (shwa rags on the 22nd and 27th, thag ser on the 29th) and stay out of
-  the lists; the reading names them. The dot: lucky on a virtuous day,
+  the Phugpa list for people. Two acts were identified from the
+  dictionaries and WB's own usage: shwa rags (22nd and 27th), a dike
+  against flash floods, counted with dams; thag ser (29th), read as thog
+  ser, casting lightning and hail, counted with fierce rites; both
+  readings name the print's word. The dot: lucky on a virtuous day,
   unlucky on the other two, mixed on the 8th and the 22nd, virtuous but
   perilous.
 - **Weekday** (pp. 308–312, [weekdays.md](sources/weekdays.md)): the
@@ -367,8 +377,10 @@ English (§8.1), each reading citing its pages:
   too though its own verse calls it peaceful; the other four lucky.
 - **Yoga** (pp. 347–349, [yogas.md](sources/yogas.md)): the short reading,
   the gist of the longer verse, and the avoidance verse (kun brdungs,
-  yongs 'joms and sha 'khon avoided whole; six others in their first nine
-  chu tshod, 3 h 36 min from their start). The White Beryl names most yogas
+  yongs 'joms and sha 'khon avoided whole; six others from their start,
+  for as many chu tshod of 24 minutes as the verse counts in number words:
+  sel ba 3, zug rngu 5, skrangs pa and shin skrangs 6, kun 'joms and rdo
+  rje 9). The White Beryl names most yogas
   otherwise than the almanacs; its name is shown under the reading. The
   dot: unlucky for the three avoided whole and the three whose short
   reading names a harm (rab stongs, gzer, 'bras), mixed for the other
@@ -385,11 +397,13 @@ English (§8.1), each reading citing its pages:
   every date by `TrigramGoddessTest`). Her day says what an illness that
   comes on then is traced to, the harming spirits, how it shows and the
   rites named. Tapping the trigram row opens it; an illness reading, with
-  no lists and no dot. The date's sme ba and animal have no reading of
-  their own in the White Beryl or the *kun phan me long*: the readings
-  found are of the person's progressed trigram and sme ba (T4), of a sme
-  ba counted from the solstice, or of the *nyi ma* (open question 9), so
-  those rows open none.
+  no lists and no dot. The date's sme ba has no reading of its own in the
+  White Beryl or the *kun phan me long*: the readings found are of the
+  person's progressed trigram and sme ba (T4) or of a sme ba counted from
+  the solstice, so its row opens none. The date's animal is the *nyi ma*
+  (open question 9): it carries the activity lists of §5.10 and, in WB's
+  chapter 31 (vol. 2, pp. 222–225), the earth lords of each animal day for
+  funeral reckoning, which are not built; its row opens none yet.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -422,8 +436,8 @@ are times within the day (§5.13); the day is weighed thus:
   (the named combination, *'phrod chen*, and the element pair, §5.8);
   Rāhu, on the dates its detailed course names (§5.13), the first of the
   *kun phan me long*'s seven; the weekday; the mansion; the special days of weekday and mansion; the lunar
-  date; the karaṇa; the yoga; the day animal (the 60-day animal of §5.10's
-  lists; open question 9). The trigram is not among them; its lists (§5.10)
+  date; the karaṇa; the yoga; the day animal (the lunar date's, as §5.10's
+  lists). The trigram is not among them; its lists (§5.10)
   count last. A factor's lists are those of its readings: the element
   pair's (§5.11), the weekday's verse and Henning's weekday list, the
   mansion's reading (§5.10), each special day's, the date's verse and
@@ -670,7 +684,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Set | Source |
 | --- | --- |
 | 六曜, 十二直, 二十八宿 | こよみ博物館, 株式会社トーダン (an almanac publisher) |
-| 選日 and 暦注下段, 九星, 恵方, 庚申 | Japanese Wikipedia; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子 |
+| 選日 and 暦注下段, 九星, 恵方, 庚申 | Japanese Wikipedia; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子; 『独占易学全書』 (1901, NDL) for 歳下食, a second witness to Wikipedia's table |
 | 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
@@ -683,7 +697,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
-| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561) |
+| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329 |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
 | Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337 and 341, with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |

@@ -67,7 +67,8 @@ explicit.
 - **Setting out:** bad in general; very bad to the south, the north and the intermediate directions; peaceful, increasing and other white works mostly bad.
 - **Born on it:** a boy hard to raise, given to evil, divisive, proud and quick to anger; a girl dies young.
 - **Death, rain, portents:** a death repeated three times (p. 310, img. 318); rain then drought; portents: danger of weapons, bad for generals and evil-doers.
-- **Not in the app's lists:** རྐུན་ཇག་འཕོང (losing to thieves?); ས[ྦ]་རྒྱུག and ཤྭ་རགས་བརྩིག་པ (not identified; ཤྭ་རགས as in lunar-dates.md); ཚེ་ལོ་རྩེ, བྱི་བཤོར (not identified); བཙོན་ཚུད, གསོན་དགེ, ཕྱ་ཐེར among the bad (imprisonment; virtue for the living?; not identified).
+- **In the lists since 2026-10-04:** ཤྭ་རགས་བརྩིག་པ, building dikes against flash floods ([lunar-dates.md](lunar-dates.md)).
+- **Not in the app's lists:** རྐུན་ཇག་འཕོང (*rkun jag* thieves and robbers, Tshig mdzod chen mo; *'phong* unclear); ས[ྦ]་རྒྱག (*sba* is cane, *sba rgyug* a cane or staff, Tshig gter rgya mtsho; making wickerwork?); ཚེ་ལོ་རྩེ (not identified), བྱི་བཤོར (*byi shor*, adultery, Jim Valby and Tshig gter rgya mtsho: not an act the lists can use); བཙོན་ཚུད, གསོན་དགེ, ཕྱ་ཐེར among the bad (imprisonment; virtue for the living?; not identified).
 
 ## Wednesday, Mercury (ལྷག་པ), p. 310, img. 318
 
@@ -119,7 +120,8 @@ explicit.
 - **Setting out:** bad in general; above all to the intermediate directions, the east and the west.
 - **Born on it:** handsome but of little merit; a boy middling, a girl short-lived (the print's ཆེ or ཚེ, MITRA ཚེ).
 - **Death, rain, portents:** a death not repeated; rain bad; a prisoner loses all he owns.
-- **Not in the app's lists:** ཞལ་བསྲོ (not identified); གྲོང་ཁྱེར(འགའ་ཞིག་ཏུ)གདབ: the bracket is the editors' "in some copies"; read as founding towns; ཞི་བཟོ, ཕྲུ་ཟློག (MITRA རློག) among the bad (not identified).
+- **In the lists since 2026-10-04:** ཞལ་བསྲོ, laying foundations: the dictionaries give *zhal bsro* two senses, the opening of the eyes of a consecrated image and the laying of a foundation (Tshig mdzod chen mo, Brda dkrol gser gyi me long); beside ཁང་བཟུང (taking a house), and with consecration among Saturday's bad, it is the second.
+- **Not in the app's lists:** གྲོང་ཁྱེར(འགའ་ཞིག་ཏུ)གདབ: the bracket is the editors' "in some copies"; read as founding towns; ཞི་བཟོ, ཕྲུ་ཟློག (MITRA རློག) among the bad (not identified).
 
 ## The closing verse, p. 312, img. 320
 
@@ -167,3 +169,31 @@ explicit.
 | 320, 14 | ཆེ | ཚེ | unclear | a girl short-lived |
 | 320, 22 | སྒྲ | སྐྲ | སྒྲ | Rāhu (སྒྲ་གཅན) |
 | 320, 22 | བསྡུ་ན | བསྣུན | བསྣུན | the yoga yongs bsnun |
+
+## Words looked up, 2026-10-04
+
+The words left out above were looked up in the 64 dictionaries of
+Christian Steinert's collection (github.com/christiansteinert/tibetan-dictionary,
+`_input/dictionaries/public`: Rangjung Yeshe, Jim Valby, Ives Waldo, Dan
+Martin, the Tshig mdzod chen mo, Dung dkar, Dag tshig gsar bsgrigs, Brda
+dkrol gser gyi me long, Bod yig tshig gter rgya mtsho and others), by
+Wylie headword. What they settle:
+
+| Word | Weekday | Found | In the lists |
+| --- | --- | --- | --- |
+| ཞལ་བསྲོ | Saturday, good | laying a foundation (or the consecration of an image) | yes, laying foundations |
+| ཤྭ་རགས | Tuesday, good | a dike against flash floods ([lunar-dates.md](lunar-dates.md)) | yes, with dams |
+| འབྲོག་དགོན་འགྲོ | Sunday, good | *'brog dgon*: solitary country without villages (Ives Waldo, Jim Valby) | no: no such activity; going into the forest is already listed |
+| ཡོ་ལང | Sunday, good, after སྟོན་མོ | festivities, a feast (Sgom sde tshig mdzod chen mo: *ston mo, gsol ston*; Dag tshig gsar bsgrigs: merry-making) | no: feasts already listed |
+| རྔ་ཡབ་ལས | Thursday, good | the yak-tail whisk (all) | no activity |
+| གཤེགས་གསོལ | Thursday, good | asking the deity to depart at a rite's end (Rangjung Yeshe) | no activity |
+| བྱི་བཤོར | Tuesday, good | *byi shor*, adultery (Jim Valby, Tshig gter rgya mtsho) | no |
+| ཕྲུ་ཟློག | Saturday, bad | *phru* is turning the soil of a field (Dag tshig gsar bsgrigs; Tshig mdzod chen mo: *sa zhing, phru slog*), so ploughing | no: Saturday's good list has field work, and ploughing is not split from it |
+| སྦ་རྒྱག | Tuesday, good | *sba* cane (*sba rgyug*, a cane or staff); the act is not attested | no |
+| དུར་སྦོ | Wednesday, bad | not in the dictionaries; MITRA's དུར་སྤོ is "moving a grave", as in Aśvinī's verse | no |
+| མདོས | Wednesday, bad | the thread-cross ransom rite (as in the lunar dates' *mdos* and *gtor ma*) | no: no activity of its own |
+
+Not found in any of them: དངོས་ལེན, ཞི་བཟོ, ཚེ་ལོ་རྩེ, གསོན་དགེ, ཕྱ་ཐེར (beside
+tents and sewing here and in Rohiṇī's verse, so probably a cloth or tent
+item), སྨན་ཚོང, དུར་སྔ་མགྲོན་འགྲོ, མཚན་དགུག.
+

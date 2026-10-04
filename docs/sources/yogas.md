@@ -85,13 +85,28 @@ p. 348–349, read from the scans (img. 356 foot, 357 head):
 
 p. 348 (img. 356), read from the scan:
 
-> དེ་ཡང་འདི་ལྟར་ཤེས་པར་བྱ། །ཀུན་བརྡུངས་དང་ནི་ཡོངས་འཇོམས་དང་། །ཤ་འཁོན་རྣམས་ནི་རིལ་པོར་སྤང་། །སེལ་བ་ཡོན་ཏན་ཟུག་རྔུ་མདའ། །སྐྲངས་པ་དང་ནི་ཤིན་སྐྲངས་སོ། །ཀུན་འཇོམས་དང་ནི་རྡོ་རྗེ་ལ། །ཆུ་ཚོད་དགུ་དགུ་རང་རང་གི། །འཆར་བའི་མགོ་ནས་སྤང་བར་བྱ། །
+> དེ་ཡང་འདི་ལྟར་ཤེས་པར་བྱ། །ཀུན་བརྡུངས་དང་ནི་ཡོངས་འཇོམས་དང་། །ཤ་འཁོན་རྣམས་ནི་རིལ་པོར་སྤང་། །སེལ་བ་ཡོན་ཏན་ཟུག་རྔུ་མདའ། །སྐྲངས་པ་དང་ནི་ཤིན་སྐྲངས་རོ། །ཀུན་འཇོམས་དང་ནི་རྡོ་རྗེ་ལ། །ཆུ་ཚོད་དགུ་དགུ་རང་རང་གི། །འཆར་བའི་མགོ་ནས་སྤང་བར་བྱ། །
 
 Kun brdungs (17), yongs 'joms (19) and sha 'khon (27) are avoided
-entirely. Of sel ba (1), zug rngu (9), skrangs pa (10), shin skrangs (6),
-kun 'joms (13) and rdo rje (15), the first nine chu tshod from the yoga's
-beginning are avoided. ཡོན་ཏན and མདའ in the third line are either two more
-yogas under names not found elsewhere, or epithets; which is open.
+entirely. The third and fourth lines count in number words (*grangs
+tshig*), which this verse uses as the rtsis texts do: ཡོན་ཏན, the three
+guṇas, is 3 (Sgom sde tshig mdzod chen mo: «གྲངས་གསུམ་གྱི་མིང»), མདའ, Kāma's
+arrows, 5 (Jim Valby), རོ, the six tastes, 6 (Tshig mdzod chen mo,
+Rangjung Yeshe); then དགུ་དགུ, nine each. So, from each yoga's beginning,
+sel ba (1) is avoided for 3 chu tshod, zug rngu (9) for 5, skrangs pa
+(10) and shin skrangs (6) for 6, kun 'joms (13) and rdo rje (15) for 9
+each. A chu tshod is a sixtieth of a day, 24 minutes.
+
+**Question 2 settled, 2026-10-04.** ཡོན་ཏན and མདའ are not yoga names but
+numbers. The last syllable of the fourth line is རོ in the 1996 print: so
+read by BDRC's OCR of the edition, by Yigdzin-1 and by MITRA, and the
+scan (703 px) bears out the narrow ར; the earlier transcription here had
+སོ, a slip. The figures are those of the Indian rule for the six yogas
+whose beginning is avoided, Viṣkambha 3 ghaṭikās, Śūla 5, Gaṇḍa and
+Atigaṇḍa 6, Vyāghāta and Vajra 9, with Vyatīpāta and Vaidhṛti avoided
+whole (as the *Muhūrta Mārtaṇḍa* is reported to give it; not read in the
+original). Until then the app avoided the first nine chu tshod of all
+six.
 
 ## Ranking
 

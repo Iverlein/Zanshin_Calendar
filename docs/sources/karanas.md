@@ -26,10 +26,14 @@ spelled **བིཥྚི** (biShTi).
 | Nāga, klu | ཀླུ་ལ་བརྟན་ལས་བསད་འཕྲོག་དང་། །སྐལ་བ་བཟང་པོའི་ལས་རྣམས་བཟང་། | good for lasting work, killing and robbing, and for works of good fortune |
 | Kiṃstughna, mi sdug pa | མི་སྡུག་པ་ལ་དགེ་ལས་དང་། །མི་བསད་པ་དང་འཕྲོག་པའི་ལས། །སྐལ་བ་བཟང་པོའི་ལས་རྣམས་དང་། །མངོན་འདོད་རྒྱས་ལས་དབང་བསྐུར་བཟང་། | good for virtue, for killing people (mi bsad pa) and robbing, works of good fortune, wished-for increase and empowerment |
 
-On the scan, the first word of bzhi mdo's third line is small; མཚོན་གཏོར
-(weapon-torma) is the likeliest reading, མཆོད་གཏོར (offering-torma) the
-alternative. KP repeats all eleven verses (img. 74–75, after its yoga box, read with
-the Yigdzin OCR); there the word is cut with a u-vowel, མཆུན or མཚུན, but
-it ends in ན, not ད, which favours མཚོན (weapon) over མཆོད (offering).
+On the scan of the 1996 edition, the first word of bzhi mdo's third line
+is small; BDRC's OCR of that edition reads it མཚུན. KP repeats all eleven
+verses (img. 74–75, after its yoga box, read with the Yigdzin OCR); there
+the word is cut with a u-vowel, མཆུན or མཚུན, but it ends in ན, not ད.
+The Derge print (BDRC W1KG12714, vol. 2, img. 490), a third witness
+checked on 2026-10-04, reads མཚུན་གཏོར་ལ་སོགས in BDRC's OCR of it; the
+folio is served at 1212 × 194 px, too small to confirm the vowel by eye.
+Three witnesses ending the word in ན settle it as མཚོན་གཏོར, weapon-tormas
+(the u-vowel a slip for o); མཆོད་གཏོར (offering-torma) is not supported.
 
 Henning's destructive list names Viṣṭi among what is good for it; WB agrees.

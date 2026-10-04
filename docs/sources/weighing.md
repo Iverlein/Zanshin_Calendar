@@ -63,5 +63,5 @@ not rendered.
   [combinations.md](combinations.md); the app's ranking (SPEC §5.12) puts
   the combinations above the weekday and the mansion, and the special days
   after them.
-- The *nyi ma* is the day's animal sign; which animal is open question 9.
+- The *nyi ma* is the day's animal sign, the lunar date's animal (open question 9, answered 2026-10-04).
   The trigram and the sme ba are not among the seven.

@@ -17,11 +17,34 @@ read on the scans; […] marks a syllable the scan does not show clearly
 scan (p. 301, img. 309) and in both OCR readings, but སྒབ is not a number
 like the other dates' སྟོང (a thousandfold) or བདུན (sevenfold); the
 table says only that livestock increases.
-The illness and remedy lines are summarized, not quoted. *shwa rags*
-(ཤྭ་རགས, dates 22 and 27) is not identified; KP's list of contents pairs
-ཤྭ་རག with protection against water (ཤྭ་རག་ཆུ་བསྲུང་, item 51), so some
-kind of embankment is likely. It is distinct from ཆུ་རགས, dams, which the
-same pages also name (dates 13, 17, 18 and 28 among them).
+The illness and remedy lines are summarized, not quoted.
+
+**Two acts identified on 2026-10-04.** *shwa rags* (ཤྭ་རགས, dates 22 and
+27) is a dike against flash floods. *Rags* is an embankment or dike in the
+dictionaries (Tshig mdzod chen mo: ཆུ་རགས "a dike or wall that stops
+water", འགོག་རགས "a dike that stops water"; Ives Waldo: sa rags "earth
+embankment", bye rags "sand dam"), and *shwa* is the flash flood of *shwa
+'od* (ཤྭ་འོད; Dag tshig gsar bsgrigs: "a great river that comes suddenly
+from heavy rain, in dialect *chu log*"; Dung dkar: "water bursting from a
+mountainside"; Rangjung Yeshe, Jim Valby, Dan Martin: flood, mountain
+torrent). WB itself names it among the works that guard against rivers,
+ཤྭ་རགས་བརྩིག་སོགས་ཆུ་བོ་བསྲུང་ (khrums stod's verse, p. 327, img. 335), and
+KP's list of contents pairs it with protection against water
+(ཤྭ་རག་ཆུ་བསྲུང་, item 51). It is distinct from ཆུ་རགས, dams, which the
+same pages also name (dates 13, 17, 18 and 28 among them); the app maps
+both to one activity, dams and dikes.
+
+*thag ser* (ཐག་སེར, date 29) is read on the scan of the 1996 edition as
+printed, without a vowel (p. 302, img. 310), but it occurs nowhere else in
+the OCR of either volume of the 1996 edition, while ཐོག་སེར, lightning and hail (Jim Valby, Negi: *karakā*), occurs
+throughout, with the same company as here: རྒྱལ་ས་དགེ་ལས་ཐོག་སེར་འབེབས། །རྟེན་བཞེངས་དྲག་རིམ་སྲི་མནན་པ
+(p. 357, img. 365), ཐོག་སེར་དབབ་པའི་ལས (Rāhu's course, p. 237, img. 245), and
+Rāhu's course for this same date 29, དགྲ་བྲུབ་ཧོམ་སྤོར་ཐོག་སེར་བཟང (p. 238,
+img. 246; the Derge OCR reads ཐོག་སེར there too). So it is read as ཐོག་སེར
+with its vowel lost: casting lightning and hail, a fierce rite, which the
+app already counts under fierce rites, as in Rāhu's readings. The Derge
+print (vol. 2, img. 436) is served at 1229 × 178 px, too small to see the
+vowel.
 
 | Date | Text (activities and birth) | Good | Avoid | Birth | Ill / death |
 | --- | --- | --- | --- | --- | --- |
@@ -53,7 +76,7 @@ same pages also name (dates 13, 17, 18 and 28 among them).
 | 26 | ཉེར་དྲུག་སྐྲ་འཁྲུ་ས་བོན་གདབ། །ས་ཁ་དབྱེ་དང་དྲག་ལས་བཟང་། །བྲན་བསྟེན་ལམ་ཞུགས་ནོར་ཕྱུགས་ཉོ། །རྒྱལ་ས་རབ་གནས་མཁར་ལས་སྤང་། །བུ་མོ་སྐྱེས་བསྟུད་ཤི་བ་ངན། | washing the hair, sowing, breaking ground, fierce rites | servants, setting out, buying goods and livestock, enthronement, consecration, building | girls follow | as date 2; death bad |
 | 27 | ཉེར་བདུན་ལམ་ཞུགས་སྐྲ་འཁྲུ་གཤིན། །ས་བོན་འདེབས་དང་ཐབ་ཁ་འཆའ། །རྫིང་ཁྲོན་འདྲུ་སོགས་རྒྱས་ལས་བཟང་། །རྒྱལ་ས་རབ་གནས་བྲན་ནོར་ཉོ། །རྟེན་བཞེངས་ལྷ་ཁང་ཤྭ་རགས་བག །སྦྱིན་སྲེག་ངན་ཞིང་ཕྱུགས་ཉོ་འབྲིང་། །བུ་སྐྱེས་རིག་རྣོ་བུ་མོ་ངན། །ཁྱོ་ཡི་ཕྱི་ལ་འབྲང་བའོ། | setting out, washing the hair, funeral rites, sowing, a hearth, ponds and wells, increasing | enthronement, consecration, buying servants and goods, images, temples, *shwa rags*, marriage, fire offerings; buying livestock middling | a boy of sharp mind; a girl bad, follows her husband away | as date 3; death good |
 | 28 | ཉེར་བརྒྱད་སྦྱིན་སྲེག་ཆུ་རགས་རྒྱག །དབང་ལས་བཟང་ཞིང་སྐྲ་འཁྲུ་ལམ། །གཤིན་ལས་བྲན་བསྟེན་རྫིང་ཡུར་བག །རྒྱལ་ས་རབ་གནས་ས་བོན་ནོར། །ཕྱུགས་ཉོ་དམག་འདྲེན་ལྷོ་ནུབ་སྤང་། །གང་སྐྱེས་གསོ་དཀའ་ | fire offerings, building dams, power rites | washing the hair, setting out, funeral rites, servants, ponds and canals, marriage, enthronement, consecration, sowing, goods, buying livestock, an army to the south and west | hard to raise | as date 4; death bad |
-| 29 | ཉེར་དགུ་ཆོས་སྟོན་དགྲ་འདུལ་ལམ། །ཐག་སེར་སྲི་མནན་དྲག་ལས་བཟང་། །ས་བོན་བྲན་བསྟེན་རྐང་འགྲོས་འདུལ། །ཆང་བཙོ་སྐྲ་འཁྲུ་རབ་གནས་གཤིན། །རྒྱལ་ས་གཏར་སྲེག་ལྷ་རྟེན་བཞེངས། །ཕྱུགས་ཉོ་སྤང་ཞིང་གང་སྐྱེས་བྱུར། | teaching dharma, subduing enemies, setting out, ཐག་སེར (unidentified), suppressing *sri*, fierce rites | sowing, servants, breaking animals, brewing beer, washing the hair, consecration, funeral rites, enthronement, bloodletting and moxibustion, images, buying livestock | misfortune | as date 5 |
+| 29 | ཉེར་དགུ་ཆོས་སྟོན་དགྲ་འདུལ་ལམ། །ཐག་སེར་སྲི་མནན་དྲག་ལས་བཟང་། །ས་བོན་བྲན་བསྟེན་རྐང་འགྲོས་འདུལ། །ཆང་བཙོ་སྐྲ་འཁྲུ་རབ་གནས་གཤིན། །རྒྱལ་ས་གཏར་སྲེག་ལྷ་རྟེན་བཞེངས། །ཕྱུགས་ཉོ་སྤང་ཞིང་གང་སྐྱེས་བྱུར། | teaching dharma, subduing enemies, setting out, ཐག་སེར (for ཐོག་སེར, casting lightning and hail, see above), suppressing *sri*, fierce rites | sowing, servants, breaking animals, brewing beer, washing the hair, consecration, funeral rites, enthronement, bloodletting and moxibustion, images, buying livestock | misfortune | as date 5 |
 | 30 | གནམ་གང་དབང་ལས་ས་བོན་བཟང་། །རབ་གནས་རྒྱལ་ས་སྐྲ་འཁྲུ་ལམ། །གཏར་སྲེག་གཤིན་བག་བྲན་ནོར་ཉོ། །ཕྱུགས་ཉོ་སྤང་ཞིང་གང་སྐྱེས་དབུལ། | power rites, sowing | consecration, enthronement, washing the hair, setting out, bloodletting and moxibustion, funeral rites, marriage, buying servants and goods, buying livestock | poor | as date 6 |
 
 ## The four dangerous times

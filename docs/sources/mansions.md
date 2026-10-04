@@ -130,3 +130,37 @@ on crops enlarged 4–6×, comparing each word with the same word elsewhere in
 the print. The ring-topped word after ས་ག in box 8's good list, left
 unread at first, is ནུཾ, Revatī (read on the scan 2026-10-04 and by the
 Yigdzin OCR, which gives ནྲུཾ).
+
+## The White Beryl's seven classes of mansions
+
+Read 2026-10-04 on the scan of the 1996 edition, vol. 2, pp. 328–329
+(img. 336–337, read by eye; its editors number the mansions from 0, Abhijit sharing 21
+with gro bzhin), with BDRC's OCR of it and of the Derge print (vol. 2,
+img. 470–471) as working copies. Right after the 28 verses ([mansion-verses.md](mansion-verses.md)),
+WB sorts the mansions into seven classes, each with what it is good for,
+the rain it brings and a birth on it:
+
+| Class | Mansions | Good for |
+| --- | --- | --- |
+| unstable and changing (ཕྱོགས་སྡེབས་མི་བརྟན་འགྱུར་བ) | rgyal (Puṣya), me bzhi (Hasta), nam gru (Revatī), tha skar (Aśvinī) | offering rites, teaching the dharma, giving vows, presenting petitions and gifts to superiors, quick aims of one's own |
+| very stable (རབ་ཏུ་བརྟན་པ) | snar ma (Rohiṇī), dbo (Uttaraphalgunī), chu smad (Uttarāṣāḍhā), mon gru (Śatabhiṣaj) | taking new land, appointing new chiefs, rites of great stability, gardens and groves, building |
+| quick and good (མྱུར་ལ་བཟང་བ) | mgo (Mṛgaśiras), nag pa (Citrā), lha mtshams (Anurādhā), khrums smad (Uttarabhādrapadā) | ornaments, games, field work, all quick work |
+| fierce (དྲག་པོ) | lag (Ārdrā), skag (Āśleṣā), snron (Jyeṣṭhā), snrubs (Mūla) | destroying, robbing, fierce work |
+| quick and changing (མྱུར་ལ་འགྱུར་བ) | nabs so (Punarvasu), sa ri (Svātī), gro bzhin (Śravaṇa), byi bzhin (Abhijit), mon dre (Dhaniṣṭhā) | journeys far abroad, trade and all that is not lasting, work to be done quickly |
+| stable and accomplishing (བརྟན་པའི་དོན་གྲུབ) | mchu (Maghā), gre (Pūrvaphalgunī), chu stod (Pūrvāṣāḍhā), khrums stod (Pūrvabhādrapadā) | marriage alliances, buying livestock, taking a retinue, empowerment, consecration, trade, building and foundations, virtuous work, fire offerings |
+| neutral (བཏང་སྙོམས) | smin drug (Kṛttikā), sa ga (Viśākhā) | crafts in the five precious substances and in earth, fire offerings; lawsuits come out even |
+
+The editors add a note to the stable-and-accomplishing class: most
+copies bring in bra nye (Bharaṇī) as well, but the four given in the
+section on results are taken as right.
+
+**Against Henning's nature list** (tibast03.htm, which names WB as its
+source): 24 mansions agree. Four do not: Henning has Revatī "quickly good,
+mild and tender" and Abhijit "unstable, light and swift", WB the reverse
+classes (unstable and changing; quick and changing); for Śatabhiṣaj
+Henning joins WB's "very stable" with "ephemeral", for Uttarabhādrapadā
+"quick change" with "permanent", so each of those two reads against
+itself. Henning's other halves match the Indian classes, where Śatabhiṣaj
+is movable and Uttarabhādrapadā fixed. The app keeps Henning's line and
+adds WB's class to the readings of Śatabhiṣaj, Uttarabhādrapadā and
+Revatī; Abhijit is not a day's mansion in the Phugpa calendar.
