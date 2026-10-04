@@ -245,15 +245,16 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             // The day's readings in the rank of the White Beryl and the kun phan me long (SPEC §5.12):
             // the combinations, the weekday and the mansion, the special days, the date, karaṇa and yoga.
             val great = day.greatCombination
+            val greatScript = "${Ewts.toTibetan(great.wylie)} (${great.wylie})"
             add(
                 Annotation(
                     great.english.replaceFirstChar(Char::uppercase),
-                    great.wylie,
+                    greatScript,
                     if (great.lucky) Tone.GOOD else Tone.BAD,
                     Texts.GREAT_COMBINATION[great],
                     subtitle = greatCombinationSubtitle,
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to great.wylie),
+                    details = listOf(whiteBerylLabel to greatScript),
                 ),
             )
             val pair = day.elementPair
@@ -301,15 +302,16 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 ),
             )
             day.combinationDays.forEach { c ->
+                val cScript = "${Ewts.toTibetan(c.wylie)} (${c.wylie})"
                 add(
                     Annotation(
                         c.english.replaceFirstChar(Char::uppercase),
-                        c.wylie,
+                        cScript,
                         if (c.lucky) Tone.GOOD else Tone.BAD,
                         Texts.COMBINATION_DAY[c],
                         subtitle = combinationDaySubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to c.wylie),
+                        details = listOf(whiteBerylLabel to cScript),
                     ),
                 )
             }
@@ -403,13 +405,14 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 tibetan = false,
                 lead = { CueIcon(CueGlyphs.ANIMAL.getValue(day.lunarDayAnimal), Palette.text, 22.dp) },
             )
+            val goddessScript = "${Ewts.toTibetan(day.trigram.goddess)} (${day.trigram.goddess})"
             val trigramAnnotation = Annotation(
-                day.trigram.goddess.replaceFirstChar(Char::uppercase),
+                goddessScript,
                 stringResource(R.string.tib_trigram_subtitle, day.trigram.wylie),
                 Tone.NEUTRAL,
                 Texts.TRIGRAM[day.trigram],
                 titleIsKanji = false,
-                details = listOf(whiteBerylLabel to day.trigram.goddess),
+                details = listOf(whiteBerylLabel to goddessScript),
             )
             FactRow(
                 stringResource(R.string.row_trigram),
