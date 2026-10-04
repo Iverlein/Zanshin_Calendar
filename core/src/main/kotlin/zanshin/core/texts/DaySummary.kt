@@ -95,7 +95,8 @@ data class DayVerdict(val tone: Tone, val by: VerdictBy)
  * The day in brief (ROADMAP R3), built only from what the sources state or
  * what can be counted. On the 旧暦 page there is no verdict or weighting:
  * annotations are grouped by tone and activities listed with who names them,
- * and where annotations disagree both sides stay. The Tibetan day is weighed
+ * and where annotations disagree both sides stay; only the lower band's own
+ * rules set some aside (SPEC §7.5). The Tibetan day is weighed
  * as the *kun phan me long* says (SPEC §5.12): [verdict] is its tone, and
  * outweighed factors are left out.
  */
@@ -106,6 +107,8 @@ data class DaySummary(
     val personal: List<SummaryEntry>,
     val affinity: StarAffinity?,
     val verdict: DayVerdict? = null,
+    /** The 旧暦 annotations the almanac does not count today, with the one that sets them aside (SPEC §7.5). */
+    val setAside: Map<SummaryEntry, List<SummaryEntry>> = emptyMap(),
 ) {
     val good: List<ActivityNote> get() = activities.filter { it.good.isNotEmpty() }
     val avoid: List<ActivityNote> get() = activities.filter { it.avoid.isNotEmpty() }
@@ -124,11 +127,13 @@ data class DaySummary(
 
         fun of(day: KyurekiDay, rk: RekichuDay, birthStar: KyuSei? = null): DaySummary {
             val shukuReading = Texts.SHUKU[rk.shuku]
+            fun entry(s: Senjitsu) = SummaryEntry(s.kanji, s.english, s.tone, Texts.SENJITSU[s])
+            val setAside = rk.setAside
             val entries = buildList {
                 add(SummaryEntry(day.rokuyo.kanji, day.rokuyo.english, rokuyoTone(day.rokuyo), Texts.ROKUYO[day.rokuyo]))
                 add(SummaryEntry(rk.choku.kanji, rk.choku.english, rk.choku.tone, Texts.CHOKU[rk.choku]))
                 add(SummaryEntry("${rk.shuku.kanji}宿", rk.shuku.english, toneOf(shukuReading), shukuReading))
-                rk.senjitsu.forEach { add(SummaryEntry(it.kanji, it.english, it.tone, Texts.SENJITSU[it])) }
+                rk.senjitsu.filter { it !in setAside }.forEach { add(entry(it)) }
             }
 
             return DaySummary(
@@ -137,6 +142,7 @@ data class DaySummary(
                 activities = activities(entries),
                 personal = entries.filter { e -> PERSONAL.any { it.kanji == e.kanji } },
                 affinity = birthStar?.let { Kigaku.affinity(it, rk.dayStar) },
+                setAside = setAside.entries.groupBy({ entry(it.value) }, { entry(it.key) }),
             )
         }
 

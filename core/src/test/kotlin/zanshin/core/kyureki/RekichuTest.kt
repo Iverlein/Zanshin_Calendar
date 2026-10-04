@@ -167,4 +167,41 @@ class RekichuTest {
         assertTrue(pardon in 5..6, "$pardon pardon days")
         assertTrue(black > 0)
     }
+
+    @Test
+    fun `on 受死日 and 十死日 the lower band carries nothing else`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year < 2028) {
+            val day = Rekichu.of(date)
+            val lead = day.senjitsu.filter { it == Senjitsu.JUSHI || it == Senjitsu.JISSHI }
+            assertTrue(lead.size <= 1, "$date: both days")
+            if (lead.isNotEmpty()) {
+                val others = day.senjitsu.filter { it.band == Band.KAGEDAN && it != lead.single() }
+                assertEquals(others.associateWith { lead.single() }, day.setAside, "$date")
+                assertEquals(emptyList<Senjitsu>(), day.heavierWith, "$date")
+            } else {
+                // Without them only 歳下食 is ever set aside, and never while another bad day makes it heavier.
+                assertTrue(day.setAside.keys.all { it == Senjitsu.SAIGEJIKI }, "$date")
+                if (day.heavierWith.isNotEmpty()) assertEquals(emptyMap<Senjitsu, Senjitsu>(), day.setAside, "$date")
+            }
+            date = date.plusDays(1)
+        }
+    }
+
+    @Test
+    fun `the lower band set aside on 5 February 2026, a black day`() {
+        val day = Rekichu.of(LocalDate.of(2026, 2, 5))
+        assertEquals(listOf(Senjitsu.DAIMYO, Senjitsu.TENON, Senjitsu.JUSHI, Senjitsu.FUKUNICHI), day.senjitsu)
+        assertEquals(mapOf(Senjitsu.DAIMYO to Senjitsu.JUSHI, Senjitsu.TENON to Senjitsu.JUSHI, Senjitsu.FUKUNICHI to Senjitsu.JUSHI), day.setAside)
+    }
+
+    @Test
+    fun `歳下食 lifted by a good day, heavier with a bad one`() {
+        val lifted = Rekichu.of(LocalDate.of(2026, 6, 2))
+        assertEquals(listOf(Senjitsu.DAIMYO, Senjitsu.TENICHI_TENJO, Senjitsu.SAIGEJIKI), lifted.senjitsu)
+        assertEquals(mapOf(Senjitsu.SAIGEJIKI to Senjitsu.DAIMYO), lifted.setAside)
+        val heavier = Rekichu.of(LocalDate.of(2026, 4, 3))
+        assertEquals(listOf(Senjitsu.CHIIMI), heavier.heavierWith)
+        assertEquals(emptyMap<Senjitsu, Senjitsu>(), heavier.setAside)
+    }
 }

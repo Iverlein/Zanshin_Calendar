@@ -201,6 +201,35 @@ data class RekichuDay(
     /** The mark the almanac itself gives the day, if any. */
     val mark: DayMark?
         get() = DayMark.entries.firstOrNull { it.senjitsu in senjitsu }
+
+    /**
+     * The annotations the almanac does not count today, each with the one
+     * that sets it aside (SPEC §7.5, Japanese Wikipedia 暦注下段): on 受死日
+     * and 十死日 the lower band printed nothing else, and 歳下食, a light bad
+     * day, need not be kept when another annotation names the day good and
+     * none other names it bad.
+     */
+    val setAside: Map<Senjitsu, Senjitsu>
+        get() {
+            val lead = senjitsu.firstOrNull { it in SUPPRESSING }
+            if (lead != null) return senjitsu.filter { it.band == Band.KAGEDAN && it != lead }.associateWith { lead }
+            if (Senjitsu.SAIGEJIKI !in senjitsu || heavierWith.isNotEmpty()) return emptyMap()
+            val lifting = senjitsu.firstOrNull { it.tone == Tone.GOOD && it.band != Band.ENNICHI } ?: return emptyMap()
+            return mapOf(Senjitsu.SAIGEJIKI to lifting)
+        }
+
+    /** The other bad days that make 歳下食 heavier (Japanese Wikipedia 暦注下段); empty when it is set aside. */
+    val heavierWith: List<Senjitsu>
+        get() = if (Senjitsu.SAIGEJIKI !in senjitsu || senjitsu.any { it in SUPPRESSING }) {
+            emptyList()
+        } else {
+            senjitsu.filter { it != Senjitsu.SAIGEJIKI && it.tone == Tone.BAD && it.band != Band.ENNICHI }
+        }
+
+    private companion object {
+        /** The two days printed alone in the lower band; they never fall together. */
+        val SUPPRESSING = setOf(Senjitsu.JUSHI, Senjitsu.JISSHI)
+    }
 }
 
 /**

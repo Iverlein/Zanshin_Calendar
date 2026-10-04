@@ -33,6 +33,9 @@ class DaySummaryTest {
             }
             val named = s.byTone.values.flatten().flatMap { e -> e.reading?.let { Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) }.orEmpty() }.toSet()
             assertEquals(named, s.activities.map { it.activity }.toSet(), "$date: activities left out")
+            val aside = s.setAside.values.flatten()
+            assertEquals(rk.setAside.size, aside.size, "$date")
+            assertTrue(aside.none { it in s.byTone.values.flatten() }, "$date: a set-aside annotation still counted")
             if (s.activities.any { it.disputed }) disputedDays++
             date = date.plusDays(1)
         }
@@ -62,6 +65,16 @@ class DaySummaryTest {
             s.avoidFamilies,
         )
         assertEquals(setOf(ActivityFamily.BUILDING), s.disputedFamilies)
+    }
+
+    @Test
+    fun `the black day of 5 February 2026 counts no other lower-band note`() {
+        val date = LocalDate.of(2026, 2, 5)
+        val s = DaySummary.of(Kyureki.of(date), Rekichu.of(date))
+        assertEquals(listOf("大明日", "天恩日", "復日"), s.setAside.entries.single { it.key.kanji == "受死日" }.value.map { it.kanji })
+        val counted = s.byTone.values.flatten().map { it.kanji }
+        assertTrue("受死日" in counted)
+        assertTrue(listOf("大明日", "天恩日", "復日").none { it in counted }, "$counted")
     }
 
     @Test
