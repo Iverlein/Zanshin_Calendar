@@ -32,7 +32,7 @@ class TextsTest {
         Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.EHOU,
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
-        Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.RAHU, Texts.EARTH_LORD,
+        Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD,
     ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE
 
     @Test
@@ -77,5 +77,14 @@ class TextsTest {
         }
         assertEquals(wordings, Activities.BY_WORDING.keys + Activities.TIMES.keys, "wordings no reading uses")
         assertEquals(Activity.entries.toSet(), Activities.BY_WORDING.values.flatten().toSet(), "activities no wording names")
+    }
+
+    @Test
+    fun `Rahu's course is read on every date, the detailed course where it has one`() {
+        // The detailed course names sixteen dates; the general course, with no lists, the other fourteen.
+        assertEquals((1..30).toSet(), Texts.RAHU.keys + Texts.RAHU_GENERAL.keys)
+        assertTrue(Texts.RAHU.keys.none { it in Texts.RAHU_GENERAL })
+        assertEquals(listOf(2, 3, 5, 7, 9, 10, 13, 16, 19, 20, 23, 26, 28, 30), Texts.RAHU_GENERAL.keys.sorted())
+        assertTrue(Texts.RAHU_GENERAL.values.all { it.goodKeys.isEmpty() && it.avoidKeys.isEmpty() })
     }
 }

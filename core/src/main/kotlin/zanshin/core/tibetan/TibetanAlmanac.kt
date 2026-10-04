@@ -195,32 +195,63 @@ enum class GreatCombination(val wylie: String, val lucky: Boolean) {
  * the mansions that make it on Sunday … Saturday, by WB's numbers (0 tha
  * skar … 21 gro bzhin … 26 nam gru; [ABHIJIT] for byi bzhin, never the day's
  * mansion), the second column of the table, where it has one, counted too.
+ * [gtsugLag] is the other reckoning WB quotes after it from the *Rdo rje
+ * gtsug lag* (p. 337, its table p. 342) for five of the kinds, other
+ * mansions under the same names.
  */
-enum class CombinationDay(val wylie: String, val lucky: Boolean, private val table: List<List<Int>>) {
+enum class CombinationDay(
+    val wylie: String,
+    val lucky: Boolean,
+    private val table: List<List<Int>>,
+    private val gtsugLag: List<List<Int>>? = null,
+) {
     GRUB_SBYOR("'grub sbyor", true, listOf(listOf(12), listOf(21), listOf(0), listOf(16), listOf(7), listOf(26), listOf(3))),
     ZUNG_SBYOR("zung sbyor", true, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(11), listOf(3), listOf(19))),
     BDUD_RGYAL("bdud rgyal", true, listOf(listOf(18), listOf(ABHIJIT), listOf(25), listOf(2), listOf(6), listOf(10), listOf(14))),
-    GRUB_NYI("grub nyi", true, listOf(listOf(18, 19), listOf(22, 13), listOf(25), listOf(2), listOf(7, 6), listOf(10), listOf(15, 14))),
+    GRUB_NYI(
+        "grub nyi", true, listOf(listOf(18, 19), listOf(22, 13), listOf(25), listOf(2), listOf(7, 6), listOf(10), listOf(15, 14)),
+        listOf(listOf(24, 25, 26, 20), listOf(21, 3), listOf(25, 26, 2), listOf(2, 23), listOf(6, 7), listOf(21, 0), listOf(21)),
+    ),
     BKRA_SHIS_NYI("bkra shis nyi ma", true, listOf(listOf(25), listOf(8), listOf(14, 10), listOf(17), listOf(11), listOf(2), listOf(3, 14))),
     PHEL_NYI("'phel nyi", true, listOf(listOf(3), listOf(14, 19), listOf(7, 6), listOf(16), listOf(25), listOf(4), listOf(24, 22))),
     CHUB_NYI("chub nyi", true, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(24), listOf(3), listOf(19))),
     MTHUN_NYI("mthun nyi", true, listOf(listOf(17), listOf(25), listOf(24), listOf(1), listOf(0), listOf(9), listOf(26))),
     SBYOR_NYI("sbyor nyi", true, listOf(listOf(4), listOf(17), listOf(2), listOf(19, 1), listOf(23, 22), listOf(0, 21), listOf(12, 17))),
-    BDUD_NYI("bdud kyi nyi ma", false, listOf(listOf(2), listOf(11), listOf(8), listOf(19), listOf(4), listOf(7), listOf(23))),
+    BDUD_NYI(
+        "bdud kyi nyi ma", false, listOf(listOf(2), listOf(11), listOf(8), listOf(19), listOf(4), listOf(7), listOf(23)),
+        listOf(listOf(16, 1), listOf(7, 19, 20, 5), listOf(20, 22, 15), listOf(0, 4), listOf(4, 15), listOf(8, 26), listOf(11, 12)),
+    ),
     CHI_SBYOR("'chi sbyor", false, listOf(listOf(16), listOf(2), listOf(23), listOf(0), listOf(4), listOf(3), listOf(12))),
-    MI_PHROD_NYI("mi 'phrod nyi ma", false, listOf(listOf(22, 21), listOf(15, 16), listOf(16), listOf(17, 18), listOf(21, 23), listOf(3), listOf(10))),
-    MI_MTHUN_NYI("mi mthun nyi ma", false, listOf(listOf(17, 23), listOf(25), listOf(24, 0), listOf(1), listOf(16, 15), listOf(9), listOf(26, 13))),
-    JIG_NYI("'jig pa'i nyi ma", false, listOf(listOf(15, 24), listOf(17, 3), listOf(26, 24, 23), listOf(12, 13), listOf(3), listOf(6, 10), listOf(1, 8))),
+    MI_PHROD_NYI(
+        "mi 'phrod nyi ma", false, listOf(listOf(22, 21), listOf(15, 16), listOf(16), listOf(17, 18), listOf(21, 23), listOf(3), listOf(10)),
+        listOf(listOf(9, 21, 22), listOf(5, 15, 16), listOf(5, 16, 18), listOf(18), listOf(21, 23, 26), listOf(3), listOf(10, 19, 20)),
+    ),
+    MI_MTHUN_NYI(
+        "mi mthun nyi ma", false, listOf(listOf(17, 23), listOf(25), listOf(24, 0), listOf(1), listOf(16, 15), listOf(9), listOf(26, 13)),
+        listOf(listOf(9, 17, 18, 23), listOf(15, ABHIJIT, 25), listOf(1, 0, 24, 5), listOf(1), listOf(15, 5, 16), listOf(9), listOf(13, 26)),
+    ),
+    JIG_NYI(
+        "'jig pa'i nyi ma", false, listOf(listOf(15, 24), listOf(17, 3), listOf(26, 24, 23), listOf(12, 13), listOf(3), listOf(6, 10), listOf(1, 8)),
+        listOf(listOf(15, 19, 24), listOf(3, 20, 23), listOf(23, 24), listOf(3, 13, 18, 26), listOf(3, 18), listOf(3, 6, 10), listOf(8, 19, 20)),
+    ),
     GTAN_SPANG("gtan spang", false, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(22), listOf(3), listOf(19)));
 
     val english: String get() = gloss(this)
 
     /** The mansions that make this day on [w]. */
-    fun mansions(w: Weekday): Set<Mansion> =
-        table[Math.floorMod(w.ordinal - Weekday.SUNDAY.ordinal, 7)].filter { it != ABHIJIT }.map { Mansion.entries[it] }.toSet()
+    fun mansions(w: Weekday): Set<Mansion> = on(table, w)
+
+    /** The mansions that make this day on [w] by the *Rdo rje gtsug lag*; none for the kinds it does not reckon. */
+    fun gtsugLagMansions(w: Weekday): Set<Mansion> = gtsugLag?.let { on(it, w) }.orEmpty()
 
     companion object {
         fun of(w: Weekday, m: Mansion): List<CombinationDay> = entries.filter { m in it.mansions(w) }
+
+        /** The days the *Rdo rje gtsug lag* makes of [w] and [m] that WB's own table does not. */
+        fun ofGtsugLag(w: Weekday, m: Mansion): List<CombinationDay> = entries.filter { m in it.gtsugLagMansions(w) && m !in it.mansions(w) }
+
+        private fun on(t: List<List<Int>>, w: Weekday): Set<Mansion> =
+            t[Math.floorMod(w.ordinal - Weekday.SUNDAY.ordinal, 7)].filter { it != ABHIJIT }.map { Mansion.entries[it] }.toSet()
     }
 }
 

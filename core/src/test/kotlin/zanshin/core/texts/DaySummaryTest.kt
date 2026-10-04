@@ -12,6 +12,7 @@ import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.TibetanCalendar
 import java.time.LocalDate
 
@@ -93,10 +94,21 @@ class DaySummaryTest {
 
     @Test
     fun `where the combinations disagree, the special days decide`() {
-        // 18 January 2026: Sunday with Mūla is grub (lucky) but fire with water (unlucky);
+        // 28 January 2026: Wednesday with Kṛttikā is grub (lucky) but fire with water (unlucky);
         // the demon king and a day of accomplishment, both lucky, settle it (SPEC §5.12).
-        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 18)))
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
         assertEquals(DayVerdict(Tone.GOOD, VerdictBy.COMBINATION_DAY), s.verdict)
+        assertEquals(listOf("Accomplishment", "Wednesday", "Demon king", "Day of accomplishment"), s.byTone.getValue(Tone.GOOD).take(4).map { it.kanji })
+    }
+
+    @Test
+    fun `where the special days disagree too, the sides decide`() {
+        // 18 January 2026: Sunday with Mūla, grub but fire with water; the demon king and a day of accomplishment
+        // are lucky, and the Rdo rje gtsug lag makes it a day of discord as well, so the lucky factors' count decides.
+        val day = TibetanCalendar.of(LocalDate.of(2026, 1, 18))
+        assertEquals(listOf(CombinationDay.MI_MTHUN_NYI), day.gtsugLagDays)
+        val s = DaySummary.of(day)
+        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.SIDES), s.verdict)
         assertEquals(listOf("Accomplishment", "Demon king", "Day of accomplishment"), s.byTone.getValue(Tone.GOOD).take(3).map { it.kanji })
     }
 

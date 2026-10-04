@@ -88,8 +88,9 @@ class ElectionalTest {
         val marriage = s.activities.single { it.activity == Activity.WEDDING }
         // Marriage lists Wednesday, Aśvinī, the 19th and the li trigram as bad, and the sheep, the 60-day animal,
         // as good; the lists count the lunar date's animal, here the tiger, which marriage does not name
-        // (open question 9). The weekday decides, the death combination agrees below the mansion (SPEC §5.12).
-        assertEquals(listOf("Wednesday", "Aśvinī", "Death combination", "day 19", "Li"), marriage.avoid.map { it.kanji })
+        // (open question 9). The weekday decides, the death combination agrees below the mansion (SPEC §5.12), and
+        // so does the demon day the Rdo rje gtsug lag makes of Wednesday with Aśvinī.
+        assertEquals(listOf("Wednesday", "Aśvinī", "Death combination", "Demon day", "day 19", "Li"), marriage.avoid.map { it.kanji })
         assertTrue(marriage.good.isEmpty())
         assertFalse(marriage.disputed)
     }

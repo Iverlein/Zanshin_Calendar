@@ -171,6 +171,8 @@ data class DaySummary(
             )
             val special = day.combinationDays.map {
                 Ranked(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.COMBINATION_DAY[it]), listOfNotNull(Texts.COMBINATION_DAY[it]), tier = 4)
+            } + day.gtsugLagDays.map {
+                Ranked(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.GTSUG_LAG_DAY[it]), listOfNotNull(Texts.GTSUG_LAG_DAY[it]), tier = 4)
             }
             val planetAndMansion = listOf(
                 Ranked(

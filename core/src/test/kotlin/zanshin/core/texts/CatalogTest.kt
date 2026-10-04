@@ -77,7 +77,7 @@ class CatalogTest {
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
             Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA,
-            Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.RAHU, Texts.EARTH_LORD,
+            Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD,
         ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE
         (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values + Texts.TRIGRAM.values + Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.COMBINATION_DAY.values + Texts.RAHU.values).forEach { present(it.key) }
         for (r in readings) {

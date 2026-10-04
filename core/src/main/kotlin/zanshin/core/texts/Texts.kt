@@ -136,10 +136,11 @@ object Sources {
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
-    val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 224–226")
+    val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–238")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
+    val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
     val NOR_BU_ME_LONG = Source(
         "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
@@ -153,6 +154,18 @@ object Sources {
     /** The print Henning translated the activity lists from; his doubled mansions are read on it (SPEC §5.10). */
     val KUN_PHAN_ME_LONG = Source(
         "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the activity tables (img. 21–65)",
+        "BDRC MW4CZ65561",
+        "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
+    /** The same print's chart of Rāhu's general course by date, the White Beryl's grouped by direction (§7, img. 78). */
+    val KUN_PHAN_ME_LONG_RAHU = Source(
+        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Rāhu's course by date (img. 78)",
+        "BDRC MW4CZ65561",
+        "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
+    /** The same print's chart of the day's earth lords: where each sits, the hearth god, the witnessing earth lord (§16, img. 103). */
+    val KUN_PHAN_ME_LONG_EARTH_LORDS = Source(
+        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the earth lords of the day (img. 103)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
@@ -497,16 +510,17 @@ object Texts {
     }
     /**
      * The lunar date's animal, the *nyi ma* (open question 9): where the earth
-     * lord sits in the house on a day of that animal and the earth lord who
-     * witnesses it, both for the reckoning of the dead (WB vol. 2,
-     * pp. 224–226, docs/sources/earth-lords.md), with the activity lists'
-     * good and bad for a day of that animal.
+     * lord sits in the house on a day of that animal, in which part of the
+     * house, where the hearth god is, and the earth lord who witnesses it,
+     * all for the reckoning of the dead (WB vol. 2, pp. 223–226, and the *kun
+     * phan me long*'s chart, img. 103; docs/sources/earth-lords.md), with
+     * the activity lists' good and bad for a day of that animal.
      */
     val EARTH_LORD: Map<Animal, Reading> = Animal.entries.associateWith { a ->
         val lists = ELECTIONAL_ANIMAL.getValue(a)
         Reading(
             goodKeys = lists.goodKeys, avoidKeys = lists.avoidKeys, source = Sources.WHITE_BERYL_EARTH_LORDS,
-            also = listOf(Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
+            also = listOf(Sources.KUN_PHAN_ME_LONG_EARTH_LORDS, Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
             key = "reading.EarthLord", arg = "reading.EarthLord.${a.name}",
         )
     }
@@ -563,6 +577,20 @@ object Texts {
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu.$date")
 
     /**
+     * Rāhu's general course (the White Beryl, vol. 2, pp. 236–237, with the
+     * rule for fierce work p. 238; the *kun phan me long*'s chart agrees
+     * date by date; docs/sources/rahu.md), on the fourteen dates the detailed
+     * course ([RAHU]) does not name: when and where Rāhu moves. No lists:
+     * the course names no activities.
+     */
+    val RAHU_GENERAL: Map<Int, Reading> = (1..30).filter { it !in RAHU }.associateWith {
+        Reading(
+            source = Sources.WHITE_BERYL_RAHU, also = listOf(Sources.KUN_PHAN_ME_LONG_RAHU),
+            key = "reading.RahuGeneral", arg = "reading.RahuGeneral.$it",
+        )
+    }
+
+    /**
      * The special days of weekday and mansion (vol. 2, pp. 335–337, with the
      * table p. 341; docs/sources/combinations.md), with what each names good
      * and to avoid. They are the special cases (dmigs bsal) of the weighing,
@@ -588,6 +616,24 @@ object Texts {
 
     private fun wbDay(good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_COMBINATION_DAYS)
+
+    /**
+     * The same kinds of special day reckoned by the *Rdo rje gtsug lag*,
+     * which WB quotes after its own (p. 337, with the table p. 342;
+     * docs/sources/combinations.md): each summary says so, adds what that
+     * text says of the day where it says something, and gives WB's own
+     * reading of the kind, whose lists it keeps.
+     */
+    val GTSUG_LAG_DAY: Map<CombinationDay, Reading> =
+        listOf(CombinationDay.GRUB_NYI, CombinationDay.BDUD_NYI, CombinationDay.MI_PHROD_NYI, CombinationDay.MI_MTHUN_NYI, CombinationDay.JIG_NYI)
+            .associateWith { c ->
+                val own = COMBINATION_DAY.getValue(c)
+                Reading(
+                    goodKeys = own.goodKeys + listOfNotNull("dharma_practice".takeIf { c == CombinationDay.GRUB_NYI }),
+                    avoidKeys = own.avoidKeys, source = Sources.WHITE_BERYL_GTSUG_LAG_DAYS,
+                    key = "reading.GtsugLagDay.${c.name}", arg = "reading.CombinationDay.${c.name}",
+                )
+            }
 
     /**
      * The 28 named combinations of weekday and mansion, the great combination
