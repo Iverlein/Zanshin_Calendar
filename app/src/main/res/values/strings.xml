@@ -76,6 +76,8 @@
     <!-- the weekday's reading row, by its planet: "planet: Saturn" -->
     <string name="tib_weekday_subtitle">planet: %1$s</string>
     <string name="tib_trigram_subtitle">goddess of the %1$s day</string>
+    <!-- the lunar date's animal opens the earth lords of its day, for funerals -->
+    <string name="tib_animal_subtitle">the date\'s animal: its earth lords</string>
     <!-- the karaṇa's English name: "karaṇa: the merchant" -->
     <string name="tib_karana_subtitle">karaṇa: %1$s</string>
     <!-- the reading row of the lunar date: "Lunar date 12" -->

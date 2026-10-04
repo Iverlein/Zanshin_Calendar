@@ -57,6 +57,7 @@
     <string name="tib_yoga_subtitle">йога: %1$s</string>
     <string name="tib_weekday_subtitle">планета: %1$s</string>
     <string name="tib_trigram_subtitle">богиня дня %1$s</string>
+    <string name="tib_animal_subtitle">животное числа: его владыки земли</string>
     <string name="tib_karana_subtitle">карана: %1$s</string>
     <string name="tib_lunar_date_title">Лунное число %1$d</string>
     <string name="tib_lunar_date_subtitle">пятеричный цикл: %1$s</string>

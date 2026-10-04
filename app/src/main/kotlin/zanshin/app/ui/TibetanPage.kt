@@ -398,12 +398,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            val animalAnnotation = Annotation(
+                gloss(day.lunarDayAnimal),
+                stringResource(R.string.tib_animal_subtitle),
+                Tone.NEUTRAL,
+                Texts.EARTH_LORD[day.lunarDayAnimal],
+                titleIsKanji = false,
+            )
             FactRow(
                 stringResource(R.string.row_animal),
                 gloss(day.lunarDayAnimal),
                 gloss(day.lunarDayAnimal),
                 tibetan = false,
                 lead = { CueIcon(CueGlyphs.ANIMAL.getValue(day.lunarDayAnimal), Palette.text, 22.dp) },
+                onClick = { sheet = animalAnnotation },
             )
             val goddessScript = "${Ewts.toTibetan(day.trigram.goddess)} (${day.trigram.goddess})"
             val trigramAnnotation = Annotation(
