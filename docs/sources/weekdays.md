@@ -24,6 +24,16 @@ verses and the woodcut give. The verses below are the machine reading with
 those corrections, not read by eye syllable by syllable; […] or a note
 marks what stays unclear.
 
+**A third witness (2026-10-04):** BDRC's etext of the same edition
+(IE0OPI51524892, pages 316–320) aligned with the verses below agrees on
+94% of their syllables. Of its 69 flags, the long ones are the illness,
+theft and remedy passages summarized here, and most short ones its own
+errors (སྐུ for སྐྱ, རྒྱུན for རྒྱན, རྒྱུག for རྒྱག). Checked on the scan,
+two readings change: Jupiter's verse has བནྡེ (*ban de*, monks), not
+བརྗེ, and Saturday's bad list ཕྲུ་རློག, not ཕྲུ་ཟློག. Saturday's
+ཚེ་གཡང་སྒྱེད is སྐྱེད in the etext; at 703 px the stack cannot be told
+apart on the scan, and it is in no list.
+
 The lists keep to what can be identified; the words left out of the app's
 lists are named under each weekday. The good list closes with བཟང་, the
 bad with ངན་ or སྤང་; a few activities sit in both lists of one weekday
@@ -85,9 +95,9 @@ explicit.
 
 ## Thursday, Jupiter (ཕུར་བུ), pp. 310–311, img. 318–319
 
-> བླ་མ་བྱང་སེམས་བློན་པོ་དང་། །བརྗེ་སྐྱེས་པའི་བླ་གཟའ་ཡིན། །སྐུ་མདོག་སེར་པོ་བྲམ་ཟེའི་རིགས། །ཞི་དྲག་འདྲེས་མ་རླུང་གི་ཁམས། །རབ་བྱུང་དབང་བསྐུར་རབ་གནས་སྡོམ། །བག་མ་དྲ་གྱོན་ས་བོན་གདབ། །དགེ་ཕྱོགས་དཀྱིལ་འཁོར་སྦྱིན་སྲེག་བྱ། །རིག་བསླབ་འཆད་ཉན་རྒྱལ་སར་འཇུག །གཏར་ཁ་རྒྱག་དང་དབང་གི་ལས། །མེ་བཙའ་སྨན་སྦྱོར་མོ་རྩིས་བྱ། །མཁར་ལས་ཐབ་འཆའ་ཁྱིམ་གསར་འཛིན། །ཆང་བཅོ་སྔགས་བཟླ་རྒྱན་འདོགས་ཚོང་། །སྲི་མནན་ལྷ་ཁང་རྟེན་བཞེངས་བྱ། །སྤྲ་ཕྱར་འཚེམ་དང་བ་དན་འཛུགས། །ཤིང་ལས་འཕོ་སྐྱས་རྟ་གླང་འདུལ། །རྟ་དྲེལ་སྒ་རྒྱག་འཁོར་བསྟེན་བསྡུམས། །སྟོན་མོ་མེ་ཏོག་སྐྱེ་ཤིང་འཛུགས། །སྐྲ་འཁྲུ་རིན་ཅེན་ལྔ་ཡི་ལས། །བཟློག་པ་མཐུ་གཏད་ཧོམ་སྤར་བ། །ཕ་མའི་དོན་དང་རྔ་ཡབ་ལས། །འདུན་གྲོས་བརྟན་པའི་ལས་བྱ་དང་། །གཤེགས་གསོལ་བཀྲ་ཤིས་བྱ་བར་བཟང་། །ལམ་ཞུགས་སྤྱིར་བཟང་ནུབ་ཕྱོགས་སྤང་། །བསྐྲད་ལས་ཉ་དང་གཞུ་ཁྱིམ་སྟོབས། །ཐོག་འབུབས་དུར་འདེབས་མནའ་སྐྱེལ་དམག །ནད་ཐེབས་ཕྱུགས་གཏོང་སྐྲ་སེན་འབྲེག །མདོས་གཏོར་ཟོར་ཁ་འཕེན་པ་དང་། །བཙོན་ཚུད་བཟོ་ཡི་བྱ་བ་ངན། །གཤིན་ལས་ངན་ཀྱང་ཤིད་སྟོན་བཟང་། །མི་ཤི་ཤུལ་ལ་ངན་པ་ཙམ། །བུ་ཕོ་སྐྱེས་ན་བཞིན་ངན་ཅིང་། །བློ་གསལ་མཁས་ཤིང་ཆོས་ཀྱང་བྱེད། །བུ་མོ་ཚེ་རིང་གྲོགས་ཀྱང་བཟང་། །ལྟས་བྱུང་ཐོག་འཇིགས་དགེ་སློང་དང་། །རིག་བྱེད་མཁན་ལ་ངན་པར་བྱེད། །
+> བླ་མ་བྱང་སེམས་བློན་པོ་དང་། །བནྡེ་སྐྱེས་པའི་བླ་གཟའ་ཡིན། །སྐུ་མདོག་སེར་པོ་བྲམ་ཟེའི་རིགས། །ཞི་དྲག་འདྲེས་མ་རླུང་གི་ཁམས། །རབ་བྱུང་དབང་བསྐུར་རབ་གནས་སྡོམ། །བག་མ་དྲ་གྱོན་ས་བོན་གདབ། །དགེ་ཕྱོགས་དཀྱིལ་འཁོར་སྦྱིན་སྲེག་བྱ། །རིག་བསླབ་འཆད་ཉན་རྒྱལ་སར་འཇུག །གཏར་ཁ་རྒྱག་དང་དབང་གི་ལས། །མེ་བཙའ་སྨན་སྦྱོར་མོ་རྩིས་བྱ། །མཁར་ལས་ཐབ་འཆའ་ཁྱིམ་གསར་འཛིན། །ཆང་བཅོ་སྔགས་བཟླ་རྒྱན་འདོགས་ཚོང་། །སྲི་མནན་ལྷ་ཁང་རྟེན་བཞེངས་བྱ། །སྤྲ་ཕྱར་འཚེམ་དང་བ་དན་འཛུགས། །ཤིང་ལས་འཕོ་སྐྱས་རྟ་གླང་འདུལ། །རྟ་དྲེལ་སྒ་རྒྱག་འཁོར་བསྟེན་བསྡུམས། །སྟོན་མོ་མེ་ཏོག་སྐྱེ་ཤིང་འཛུགས། །སྐྲ་འཁྲུ་རིན་ཅེན་ལྔ་ཡི་ལས། །བཟློག་པ་མཐུ་གཏད་ཧོམ་སྤར་བ། །ཕ་མའི་དོན་དང་རྔ་ཡབ་ལས། །འདུན་གྲོས་བརྟན་པའི་ལས་བྱ་དང་། །གཤེགས་གསོལ་བཀྲ་ཤིས་བྱ་བར་བཟང་། །ལམ་ཞུགས་སྤྱིར་བཟང་ནུབ་ཕྱོགས་སྤང་། །བསྐྲད་ལས་ཉ་དང་གཞུ་ཁྱིམ་སྟོབས། །ཐོག་འབུབས་དུར་འདེབས་མནའ་སྐྱེལ་དམག །ནད་ཐེབས་ཕྱུགས་གཏོང་སྐྲ་སེན་འབྲེག །མདོས་གཏོར་ཟོར་ཁ་འཕེན་པ་དང་། །བཙོན་ཚུད་བཟོ་ཡི་བྱ་བ་ངན། །གཤིན་ལས་ངན་ཀྱང་ཤིད་སྟོན་བཟང་། །མི་ཤི་ཤུལ་ལ་ངན་པ་ཙམ། །བུ་ཕོ་སྐྱེས་ན་བཞིན་ངན་ཅིང་། །བློ་གསལ་མཁས་ཤིང་ཆོས་ཀྱང་བྱེད། །བུ་མོ་ཚེ་རིང་གྲོགས་ཀྱང་བཟང་། །ལྟས་བྱུང་ཐོག་འཇིགས་དགེ་སློང་དང་། །རིག་བྱེད་མཁན་ལ་ངན་པར་བྱེད། །
 
-- **Who:** *bla gza'* of lamas, bodhisattvas, ministers and the བརྗེ་སྐྱེས (the twice-born?); yellow, brahmin caste; mixed peaceful and fierce, wind. The verse does not name the planet: the woodcut and the order do.
+- **Who:** *bla gza'* of lamas, bodhisattvas, ministers and monks (བནྡེ, *ban de*; both OCR models read བརྗེ, the scan and BDRC's etext བནྡེ); yellow, brahmin caste; mixed peaceful and fierce, wind. The verse does not name the planet: the woodcut and the order do.
 - **Good:** ordination, empowerment, consecration, taking vows, marriage, first wearing of new clothes, sowing, virtuous work, maṇḍala rites, fire offerings, learning the sciences, teaching and hearing the dharma, enthronement, bloodletting and moxibustion, rites of power, preparing medicine, astrology and divination, building, building a hearth, taking a new home, brewing beer, reciting mantras, putting on ornaments, trade, suppressing sri spirits, building temples, making images, sewing tents, raising banners and victory banners, woodwork, moving house, breaking in livestock, saddling horses and mules, taking a retinue, reconciliation, feasts, planting flowers, planting trees, washing the hair, work with the precious substances, averting rites, directing magical power against foes, the parents' affairs, council, lasting work, auspicious work, setting out.
 - **Strong:** in Pisces and Sagittarius (ཉ་དང་གཞུ); the line opens with བསྐྲད་ལས, expelling rites, probably what succeeds then.
 - **Avoid:** roofing, burial, oaths, war, sending livestock away, cutting hair and nails, hurling mdos, gtor ma and zor, crafts, funeral rites.
@@ -111,7 +121,7 @@ explicit.
 
 ## Saturday, Saturn (སྤེན་པ), p. 312, img. 320
 
-> སྤི༷ན་པ༷་དབུལ་པོ་མ་ནིང་བྲན། །བྱིས་པའི་བླ་གཟའ་གདོལ་པའི་རིགས། །དྲག་གཟའ་སེར་སྐྱ་ས་ཡི་ཁམས། །ཁང་བཟུང་ཞལ་བསྲོ་ནོར་སྒྲུབ་པ༑ །ཚེ་གཡང་སྒྱེད་འཛུགས་ནོར་ཕྱུགས་ལེན། །དམག་འདྲེན་ཞིང་ལས་གྲོང་ཁྱེར་འགའ་ཞིག་ཏུ། གདབ། །མེ་ཏོག་སྐྱེ་ཤིང་འཛུགས་པ་དང་། །ལྕགས་ལས་རྫིང་ཁྲོན་ས་ཁ་དབྱེ། །སྲི་གནོན་རྒྱལ་མཚན་བང་མཛོད་འཛིན། །ཡུལ་མཁར་མིང་འདོགས་བུད་མེད་བགྲོད། །མདའ་མཚོན་ནག་ལས་ཁྱི་གསར་གསོ། །རྩིས་དང་རྐུན་ཇག་ས་བོན་བཟང་། །མཚན་མོ་ཟླ་བའི་མར་ངོ་དང་། །ཆུ་སྲིན་བུམ་ཁྱིམ་བསད་ལས་འགྲུབ། །རབ་བྱུང་རབ་གནས་ཁྲིམས་འཆལ་འཆོས། །གསོན་དགེ་འདུན་གྲོས་བཀྲ་ཤིས་བརྟན། །དྲ་གྱོན་ཞི་བཟོ་སྐྲ་སེན་འབྲེག །རྒྱས་དང་དབང་ལས་གཏར་ཁ་རྒྱག །མེ་བཙའ་སྐྲ་འཁྲུ་སྨན་སྦྱར་དང་། །ཚོང་བྱེད་ཟློག་པ་ཕྲུ་ཟློག་བག །ནོར་ཕྱུགས་ཕྱིར་གཏོང་སྦྲ་ཕྱར་འཚེམ། །བཙོན་བཟུང་ལོངས་སྤྱོད་ཐམས་ཅད་འཆོར། །གཤིན་ལས་སྐྱས་དང་རྩེད་མོ་བྱ། །ལྷ་ཁང་རྟེན་བཞེངས་ཞིང་ཁང་ཚོང་། །རྟ་དྲེལ་སྒ་རྒྱག་སྟོན་མོ་བསྡུམས། །ལྷ་གསོལ་རྒྱན་འདོགས་རྒྱལ་ས་བཟུང་། །རྒྱལ་པོ་བསྙེན་བཀུར་ཕྱག་མཆོད་འབུལ། །རྒྱལ་སྲིད་བྱ་བ་ཞལ་ཆེ་གཅོད། །དགྲ་འཐབ་འཁོར་བསྟེན་ལྟད་མོ་ང༷ན། །ལམ་ཞུགས་སྤྱིར་ངན་ཁྱད་པར་དུ། །མཚམས་ཤར་ནུབ་རྣམས་སྤང་བྱ་ཡིན། །སྐྱེས་པ་གཟུགས་བཟང་བསོད་ནམས་ཆུང་། །བུ་འབྲིང་བུ་མོ་ཆེ་ཡང་ཐུང་། །ཤི་ན་ཟློས་མེད་ཆར་བབས་ངན། །
+> སྤི༷ན་པ༷་དབུལ་པོ་མ་ནིང་བྲན། །བྱིས་པའི་བླ་གཟའ་གདོལ་པའི་རིགས། །དྲག་གཟའ་སེར་སྐྱ་ས་ཡི་ཁམས། །ཁང་བཟུང་ཞལ་བསྲོ་ནོར་སྒྲུབ་པ༑ །ཚེ་གཡང་སྒྱེད་འཛུགས་ནོར་ཕྱུགས་ལེན། །དམག་འདྲེན་ཞིང་ལས་གྲོང་ཁྱེར་འགའ་ཞིག་ཏུ། གདབ། །མེ་ཏོག་སྐྱེ་ཤིང་འཛུགས་པ་དང་། །ལྕགས་ལས་རྫིང་ཁྲོན་ས་ཁ་དབྱེ། །སྲི་གནོན་རྒྱལ་མཚན་བང་མཛོད་འཛིན། །ཡུལ་མཁར་མིང་འདོགས་བུད་མེད་བགྲོད། །མདའ་མཚོན་ནག་ལས་ཁྱི་གསར་གསོ། །རྩིས་དང་རྐུན་ཇག་ས་བོན་བཟང་། །མཚན་མོ་ཟླ་བའི་མར་ངོ་དང་། །ཆུ་སྲིན་བུམ་ཁྱིམ་བསད་ལས་འགྲུབ། །རབ་བྱུང་རབ་གནས་ཁྲིམས་འཆལ་འཆོས། །གསོན་དགེ་འདུན་གྲོས་བཀྲ་ཤིས་བརྟན། །དྲ་གྱོན་ཞི་བཟོ་སྐྲ་སེན་འབྲེག །རྒྱས་དང་དབང་ལས་གཏར་ཁ་རྒྱག །མེ་བཙའ་སྐྲ་འཁྲུ་སྨན་སྦྱར་དང་། །ཚོང་བྱེད་ཟློག་པ་ཕྲུ་རློག་བག །ནོར་ཕྱུགས་ཕྱིར་གཏོང་སྦྲ་ཕྱར་འཚེམ། །བཙོན་བཟུང་ལོངས་སྤྱོད་ཐམས་ཅད་འཆོར། །གཤིན་ལས་སྐྱས་དང་རྩེད་མོ་བྱ། །ལྷ་ཁང་རྟེན་བཞེངས་ཞིང་ཁང་ཚོང་། །རྟ་དྲེལ་སྒ་རྒྱག་སྟོན་མོ་བསྡུམས། །ལྷ་གསོལ་རྒྱན་འདོགས་རྒྱལ་ས་བཟུང་། །རྒྱལ་པོ་བསྙེན་བཀུར་ཕྱག་མཆོད་འབུལ། །རྒྱལ་སྲིད་བྱ་བ་ཞལ་ཆེ་གཅོད། །དགྲ་འཐབ་འཁོར་བསྟེན་ལྟད་མོ་ང༷ན། །ལམ་ཞུགས་སྤྱིར་ངན་ཁྱད་པར་དུ། །མཚམས་ཤར་ནུབ་རྣམས་སྤང་བྱ་ཡིན། །སྐྱེས་པ་གཟུགས་བཟང་བསོད་ནམས་ཆུང་། །བུ་འབྲིང་བུ་མོ་ཆེ་ཡང་ཐུང་། །ཤི་ན་ཟློས་མེད་ཆར་བབས་ངན། །
 
 - **Who:** poor, neuter, a servant: *bla gza'* of children; caṇḍāla caste; fierce, grey-yellow, earth.
 - **Good:** taking a new home, gaining wealth, long-life and prosperity rites, acquiring goods and livestock, leading an army, field work, building towns, planting flowers, planting trees, ironwork, digging ponds and wells, breaking ground, suppressing sri spirits, raising banners and victory banners, building storehouses, building, naming, consorting with women, making weapons such as arrows and lances, black rites, raising dogs, astrology, robbery, sowing, killing others.
@@ -121,7 +131,7 @@ explicit.
 - **Born on it:** handsome but of little merit; a boy middling, a girl short-lived (the print's ཆེ or ཚེ, MITRA ཚེ).
 - **Death, rain, portents:** a death not repeated; rain bad; a prisoner loses all he owns.
 - **In the lists since 2026-10-04:** ཞལ་བསྲོ, laying foundations: the dictionaries give *zhal bsro* two senses, the opening of the eyes of a consecrated image and the laying of a foundation (Tshig mdzod chen mo, Brda dkrol gser gyi me long); beside ཁང་བཟུང (taking a house), and with consecration among Saturday's bad, it is the second.
-- **Not in the app's lists:** གྲོང་ཁྱེར(འགའ་ཞིག་ཏུ)གདབ: the bracket is the editors' "in some copies"; read as founding towns; ཞི་བཟོ, ཕྲུ་ཟློག (MITRA རློག) among the bad (not identified).
+- **Not in the app's lists:** གྲོང་ཁྱེར(འགའ་ཞིག་ཏུ)གདབ: the bracket is the editors' "in some copies"; read as founding towns; ཞི་བཟོ, ཕྲུ་རློག among the bad (not identified). Yigdzin-1 read ཕྲུ་ཟློག; MITRA, BDRC's etext and the scan, where the stack is narrower than the ཟློག just before it, have རློག, and the etext's illness passage has འཕྲུ་རློག.
 
 ## The closing verse, p. 312, img. 320
 
@@ -188,7 +198,7 @@ Wylie headword. What they settle:
 | རྔ་ཡབ་ལས | Thursday, good | the yak-tail whisk (all) | no activity |
 | གཤེགས་གསོལ | Thursday, good | asking the deity to depart at a rite's end (Rangjung Yeshe) | no activity |
 | བྱི་བཤོར | Tuesday, good | *byi shor*, adultery (Jim Valby, Tshig gter rgya mtsho) | no |
-| ཕྲུ་ཟློག | Saturday, bad | *phru* is turning the soil of a field (Dag tshig gsar bsgrigs; Tshig mdzod chen mo: *sa zhing, phru slog*), so ploughing | no: Saturday's good list has field work, and ploughing is not split from it |
+| ཕྲུ་རློག | Saturday, bad | *phru* is turning the soil of a field (Dag tshig gsar bsgrigs; Tshig mdzod chen mo: *sa zhing, phru slog*), so ploughing; the print's རློག (not Yigdzin-1's ཟློག) is the nearer to *phru slog* | no: Saturday's good list has field work, and ploughing is not split from it |
 | སྦ་རྒྱག | Tuesday, good | *sba* cane (*sba rgyug*, a cane or staff); the act is not attested | no |
 | དུར་སྦོ | Wednesday, bad | not in the dictionaries; MITRA's དུར་སྤོ is "moving a grave", as in Aśvinī's verse | no |
 | མདོས | Wednesday, bad | the thread-cross ransom rite (as in the lunar dates' *mdos* and *gtor ma*) | no: no activity of its own |

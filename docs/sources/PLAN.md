@@ -40,11 +40,18 @@ says where to look and with which tool.
    already has from WB p. 330; 104 of its 108 cells agree, the other four
    are carver's slips ([personal-mansions.md](personal-mansions.md)). Its
    readings (img. 86) are WB's verse shortened, with nothing new.
-3. **Read by eye what was read by machine**, where a reading is to be
-   quoted in the app: the 28 verses ([mansion-verses.md](mansion-verses.md))
-   and the second half of KP. Use `disagree.py` sheets. (The open
-   readings in the verses and the […] in [lunar-dates.md](lunar-dates.md)
-   were settled on the scan on 2026-10-04.)
+3. **Read by eye what was read by machine**, where it feeds the app: the
+   weekday verses (`Texts.WEEKDAY`), WB's combinations and special days
+   (pp. 331–337) and the yogas' longer readings. The mansion verses are
+   not quoted (the app's mansion lists are Henning's), so they wait until
+   they are. The method that works: BDRC's etext of WB (IE0OPI51524892,
+   page = image number) as a third witness beside Yigdzin-1 and MITRA,
+   aligned with `disagree.py` against the settled text; its flags are
+   checked on the scan. **Weekdays done** 2026-10-04 (94% agreement, 69
+   flags; two readings corrected, [weekdays.md](weekdays.md)). (The open
+   readings in the mansion verses and the […] in
+   [lunar-dates.md](lunar-dates.md) were settled on the scan on
+   2026-10-04.)
 4. **WB2's personal-mansion verse** (question 4): not among WB2
    img. 468–473. On 2026-10-04: img. 474 (folio side 462) is still the
    mansion verses, and the etext has the weekday-and-mansion combinations
@@ -437,6 +444,10 @@ Searched and found wanting, so not to be repeated:
   sits in its 414 images is not known.
 - **NM page images**: stream-only on archive.org; the etext is all there is.
 - **Tesseract `bod`**: useless on woodblock prints.
+- **BDRC Woodblock-Stacks on WB vol. 2** (2026-10-04): the scans are only
+  703 px wide; read as served it gives noise (8% of syllables agree), at
+  3× upscaled 76%, its flags almost all its own (dropped vowel signs, ལྷ
+  for ཉ). BDRC's etext is the third witness to use.
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.
