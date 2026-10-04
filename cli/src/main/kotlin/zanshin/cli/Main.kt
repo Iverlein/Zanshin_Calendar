@@ -72,6 +72,7 @@ private fun printDay(options: List<String>) {
         if (k.termBeginning != null) " · begins today" else "")
     println("  kanshi day ${k.dayKanshi} · year ${k.yearKanshi}")
     k.festival?.let { println("  festival: ${it.kanji} ${it.romaji}") }
+    k.gregorianFestival?.let { println("  festival (Gregorian date): ${it.kanji} ${it.romaji}") }
     println("  moon elongation at 21:00: ${"%.1f".format(Astro.moonElongationDeg(evening))}°")
     println()
     println("Sky at ${place.latitude}, ${place.longitude} (${place.zone})")

@@ -12,7 +12,7 @@ import zanshin.core.texts.Activity
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
 
-/** SPEC §5.10: Henning's activity lists as transcribed, with the rules for their doubtful entries. */
+/** SPEC §5.10: Henning's activity lists, his doubled mansions read on the print, and the rules for what stays doubtful. */
 class ElectionalTest {
     private fun list(wording: String) = Electional.ACTIVITIES.single { it.wording == wording }
 
@@ -30,18 +30,38 @@ class ElectionalTest {
     }
 
     @Test
-    fun `a mansion named twice for one activity is left out`() {
-        // Marriage: Uttarāṣāḍhā is both good and bad; Svātī good only in parentheses.
+    fun `a mansion named in two places for one activity is left out`() {
+        // Marriage: Svātī good only in parentheses.
         val marriage = list("marriage")
-        assertFalse(Mansion.UTTARASHADHA in marriage.good.mansions || Mansion.UTTARASHADHA in marriage.bad.mansions)
         assertFalse(Mansion.SVATI in marriage.good.mansions)
         assertTrue(Mansion.PUSHYA in marriage.good.mansions)
-        // Offerings: Dhaniṣṭhā is listed twice, Mṛgaśiras once.
+        // Offerings: Uttarabhādrapadā stands in the good and the bad half of the print.
         val offerings = list("offerings_to_deities")
-        assertFalse(Mansion.DHANISHTHA in offerings.good.mansions)
+        assertFalse(Mansion.UTTARABHADRAPADA in offerings.good.mansions || Mansion.UTTARABHADRAPADA in offerings.bad.mansions)
         assertTrue(Mansion.MRIGASHIRAS in offerings.good.mansions)
         // Controlling: Mṛgaśiras is both "merely acceptable" and bad.
         assertFalse(Mansion.MRIGASHIRAS in list("controlling_activity").bad.mansions)
+    }
+
+    /** Henning's doubled chu smad, read on the print he translated (docs/sources/mansions.md, Box by box). */
+    @Test
+    fun `the doubled mansions follow the kun phan me long`() {
+        fun good(w: String) = list(w).good.mansions
+        fun bad(w: String) = list(w).bad.mansions
+        val ua = Mansion.UTTARASHADHA
+        val ub = Mansion.UTTARABHADRAPADA
+        assertTrue(ua in good("marriage") && ub in bad("marriage"))
+        assertTrue(ua in good("taking_a_new_home") && ub in bad("taking_a_new_home"))
+        assertTrue(ub in good("setting_out_on_journeys") && ua in bad("setting_out_on_journeys"))
+        assertTrue(Mansion.SHATABHISHAJ in good("setting_out_on_journeys"))
+        assertTrue(ub in good("making_weapons") && ua in bad("making_weapons"))
+        assertTrue(ub in good("funerals") && ua !in good("funerals") && ua !in bad("funerals"))
+        assertTrue(ub in good("destructive_activity") && ua !in good("destructive_activity"))
+        assertTrue(listOf(ua, ub, Mansion.PURVAPHALGUNI, Mansion.SHATABHISHAJ).all { it in good("controlling_activity") })
+        assertTrue(ua in bad("increasing_activity") && ub in bad("increasing_activity"))
+        val offerings = list("offerings_to_deities")
+        assertTrue(listOf(ua, Mansion.PURVAPHALGUNI, Mansion.DHANISHTHA).all { it in offerings.good.mansions })
+        assertTrue(Mansion.CITRA in offerings.bad.mansions)
     }
 
     @Test

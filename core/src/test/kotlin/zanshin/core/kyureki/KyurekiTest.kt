@@ -13,6 +13,17 @@ import java.time.LocalDate
 
 class KyurekiTest {
 
+    /** SPEC §7.3: O-Bon on its Gregorian date, 月遅れ, whatever the kyūreki date. */
+    @Test
+    fun `O-Bon by the Gregorian date`() {
+        for (year in listOf(2026, 2033)) {
+            val day = Kyureki.of(LocalDate.of(year, 8, 15))
+            assertEquals("お盆", day.gregorianFestival?.kanji)
+            assertTrue(day.gregorianFestival!!.gregorian)
+        }
+        assertEquals(null, Kyureki.of(LocalDate.of(2026, 8, 14)).gregorianFestival)
+    }
+
     @Test
     fun `autumn 2026`() {
         // 十五夜 2026 is 25 September; month 9 begins 11 October (new moon 10 Oct 15:50 UTC = 11 Oct JST).

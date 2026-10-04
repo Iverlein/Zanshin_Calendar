@@ -22,7 +22,12 @@ class HenningPhugpaTest {
     private fun mansionName(m: Mansion) = if (m == Mansion.SHRAVANA) "gro zhin" else m.wylie
 
     /** Henning writes til brdung, the White Beryl's spelling, as "til rdung". */
-    private fun karanaName(k: Karana) = if (k == Karana.TAITILA) "til rdung" else k.wylie
+    /** Henning's spellings where the app follows the White Beryl's (SPEC §10.3). */
+    private fun karanaName(k: Karana) = when (k) {
+        Karana.TAITILA -> "til rdung"
+        Karana.VISHTI -> "vishti"
+        else -> k.wylie
+    }
 
     private fun label(e: Enum<*>) = e.name.lowercase().replaceFirstChar { it.uppercase() }
 

@@ -448,7 +448,12 @@ object Rekichu {
         else -> setOf(6, 14, 22, 30)
     }
 
-    /** 三箇の悪日: only in the solar month whose branch equals the birth year's branch. */
+    /**
+     * 三箇の悪日: only in the solar month whose branch equals the birth year's
+     * branch, as the 簠簋内伝 gives them (巻上「三箇悪日」, its table headed
+     * 正節切, columns labelled 寅人, 卯人 …; NDL pid 1911335, img. 20) and
+     * koyomi8 tabulates them. The day branches below are that table's rows.
+     */
     private fun personalDays(birthBranch: Int, dayBranch: Int, setsu: Int): List<Senjitsu> {
         if (birthBranch != setsu) return emptyList()
         val (taika, roshaku, metsumon) = listOf(

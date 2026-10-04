@@ -81,8 +81,9 @@ data class Factors(
 /**
  * One activity of the lists, with what is good and bad for it. [named] holds
  * the mansions the source names only with a qualifier or in parentheses: they
- * count as good or bad for nothing, but a mansion named more than once for
- * one activity, in any of these, is left out (SPEC §5.10).
+ * count as good or bad for nothing, and a mansion named in two of these
+ * places for one activity (good and bad, or also with a qualifier) is left
+ * out (SPEC §5.10).
  */
 class ActivityList(val wording: String, good: Factors, bad: Factors, named: List<Mansion> = emptyList()) {
     private val twice = (good.mansions + bad.mansions + named).groupingBy { it }.eachCount().filterValues { it > 1 }.keys
@@ -95,15 +96,20 @@ class ActivityList(val wording: String, good: Factors, bad: Factors, named: List
  * "Horary and electional astrology of the five components" (kalacakra.org):
  * the lunar mansions' natures and activities (after the White Beryl and the
  * Treasury of Jewels) and his selection from the activity lists of the
- * 'bras rtsis bai dkar dgongs don kun phan me long. Rising signs are left
- * out, since the app shows a day, not a moment, and so is Abhijit, which the
- * Phugpa calendar does not count among the day's mansions.
+ * 'bras rtsis bai dkar dgongs don kun phan me long. Where his lists name a
+ * mansion twice, the mansions follow the print he translated (BDRC
+ * W4CZ65561, read box by box in docs/sources/mansions.md): its abbreviations
+ * of khrums stod and khrums smad had been read as chu smad. Rising signs are
+ * left out, since the app shows a day, not a moment, and so is Abhijit, which
+ * the Phugpa calendar does not count among the day's mansions.
  */
 object Electional {
     private fun m(vararg x: Mansion) = x.toList()
 
     val ACTIVITIES: List<ActivityList> = listOf(
-        // 6. Offerings to deities. For the protectors and in general alike.
+        // 6. Offerings to deities. For the protectors and in general alike. Uttarāṣāḍhā
+        // stands in both lists of the print, Uttarabhādrapadā in the good and the bad
+        // half (open question 6), so it is left out.
         ActivityList(
             "offerings_to_deities",
             good = Factors(
@@ -111,8 +117,8 @@ object Electional {
                 dates = setOf(15),
                 mansions = m(
                     MRIGASHIRAS, UTTARASHADHA, PUNARVASU, HASTA,
-                    ROHINI, PUSHYA, SVATI, UTTARAPHALGUNI, KRITTIKA, ANURADHA, PURVASHADHA, DHANISHTHA, JYESHTHA, MULA,
-                    SHRAVANA, DHANISHTHA, UTTARASHADHA, SHATABHISHAJ, REVATI, UTTARASHADHA,
+                    ROHINI, PUSHYA, SVATI, UTTARAPHALGUNI, KRITTIKA, ANURADHA, PURVASHADHA, PURVAPHALGUNI, JYESHTHA, MULA,
+                    SHRAVANA, DHANISHTHA, SHATABHISHAJ, REVATI, UTTARABHADRAPADA,
                 ),
                 animals = setOf(SHEEP, DRAGON, HORSE),
                 trigrams = setOf(KHAM, GIN, ZIN),
@@ -120,10 +126,9 @@ object Electional {
             bad = Factors(
                 weekdays = setOf(TUESDAY, SATURDAY),
                 dates = setOf(1),
-                mansions = m(MAGHA, VISHAKHA, ASHLESHA, BHARANI),
+                mansions = m(MAGHA, VISHAKHA, UTTARABHADRAPADA, ASHLESHA, BHARANI, CITRA),
                 animals = setOf(TIGER),
             ),
-            named = m(UTTARASHADHA),
         ),
         // 8. Taking a new home.
         ActivityList(
@@ -139,14 +144,14 @@ object Electional {
             bad = Factors(
                 weekdays = setOf(SUNDAY),
                 dates = setOf(10, 20, 22, 30),
-                mansions = m(ASHVINI, ASHLESHA, MULA, ANURADHA, UTTARASHADHA),
+                mansions = m(ASHVINI, ASHLESHA, MULA, ANURADHA, UTTARABHADRAPADA),
             ),
         ),
         // 12. Starting a journey. Every good weekday carries a direction, so none is kept.
         ActivityList(
             "setting_out_on_journeys",
             good = Factors(
-                mansions = m(ASHVINI, PUSHYA, PUNARVASU, SVATI, ANURADHA, SHRAVANA, PURVASHADHA, DHANISHTHA, UTTARASHADHA),
+                mansions = m(ASHVINI, PUSHYA, PUNARVASU, SVATI, ANURADHA, SHRAVANA, PURVASHADHA, DHANISHTHA, SHATABHISHAJ, UTTARABHADRAPADA),
                 animals = setOf(BIRD),
             ),
             bad = Factors(
@@ -181,7 +186,7 @@ object Electional {
             "making_weapons",
             good = Factors(
                 weekdays = setOf(SUNDAY, SATURDAY),
-                mansions = m(MRIGASHIRAS, ARDRA, UTTARASHADHA, MULA, PURVASHADHA, CITRA, HASTA, MAGHA, BHARANI),
+                mansions = m(MRIGASHIRAS, ARDRA, UTTARABHADRAPADA, MULA, PURVASHADHA, CITRA, HASTA, MAGHA, BHARANI),
                 animals = setOf(TIGER, DRAGON, OX),
                 trigrams = setOf(KHAM),
             ),
@@ -204,7 +209,7 @@ object Electional {
                 dates = setOf(1, 3, 4, 5, 7, 6, 8, 12, 15, 17, 19, 21, 27, 28, 30),
                 mansions = m(
                     BHARANI, KRITTIKA, ROHINI, MAGHA, ANURADHA, JYESHTHA, MULA, REVATI, ARDRA, HASTA, ASHLESHA, CITRA,
-                    UTTARASHADHA, DHANISHTHA, SHATABHISHAJ, PURVAPHALGUNI, PURVABHADRAPADA, PURVASHADHA, ASHVINI,
+                    UTTARABHADRAPADA, DHANISHTHA, SHATABHISHAJ, PURVAPHALGUNI, PURVABHADRAPADA, PURVASHADHA, ASHVINI,
                 ),
                 animals = setOf(BIRD, SNAKE, HORSE, MOUSE, DOG, OX),
                 trigrams = setOf(LI),
@@ -217,7 +222,7 @@ object Electional {
             good = Factors(
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY),
                 dates = setOf(7, 17, 27, 15, 25),
-                mansions = m(ASHVINI, REVATI, UTTARASHADHA, PUNARVASU, SHATABHISHAJ, PUSHYA),
+                mansions = m(ASHVINI, REVATI, UTTARABHADRAPADA, PUNARVASU, SHATABHISHAJ, PUSHYA),
                 animals = setOf(TIGER, MONKEY, DOG),
             ),
             bad = Factors(
@@ -258,7 +263,7 @@ object Electional {
                 weekdays = setOf(TUESDAY, SATURDAY),
                 dates = setOf(4, 29, 11, 18, 22, 8, 15, 25, 26),
                 mansions = m(
-                    MRIGASHIRAS, ARDRA, ASHLESHA, MAGHA, ANURADHA, HASTA, PURVASHADHA, UTTARASHADHA, MULA, UTTARAPHALGUNI,
+                    MRIGASHIRAS, ARDRA, ASHLESHA, MAGHA, ANURADHA, HASTA, PURVASHADHA, UTTARABHADRAPADA, MULA, UTTARAPHALGUNI,
                     ASHVINI, VISHAKHA, BHARANI, JYESHTHA,
                 ),
                 animals = setOf(TIGER, DRAGON),
@@ -278,7 +283,7 @@ object Electional {
                 dates = setOf(15, 4, 7, 21, 28, 30, 14, 3),
                 mansions = m(
                     PUNARVASU, PUSHYA, HASTA, MAGHA, PURVASHADHA, CITRA, VISHAKHA, BHARANI, DHANISHTHA, REVATI,
-                    UTTARASHADHA, UTTARAPHALGUNI, UTTARASHADHA, ASHVINI,
+                    PURVAPHALGUNI, SHATABHISHAJ, UTTARABHADRAPADA, UTTARAPHALGUNI, UTTARASHADHA, ASHVINI,
                 ),
                 animals = setOf(PIG),
             ),
@@ -337,7 +342,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(SATURDAY, TUESDAY),
-                mansions = m(JYESHTHA, ASHLESHA, MULA, PURVASHADHA, SHRAVANA, DHANISHTHA, BHARANI, ARDRA, UTTARASHADHA),
+                mansions = m(JYESHTHA, ASHLESHA, MULA, PURVASHADHA, SHRAVANA, DHANISHTHA, BHARANI, ARDRA, UTTARASHADHA, UTTARABHADRAPADA),
             ),
         ),
     )

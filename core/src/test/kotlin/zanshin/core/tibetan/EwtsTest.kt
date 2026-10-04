@@ -30,6 +30,7 @@ class EwtsTest {
             "bkra shis" to "བཀྲ་ཤིས",
             "lha mtshams" to "ལྷ་མཚམས",
             "rlung" to "རླུང",
+            "biSh+Ti" to "བིཥྚི", // a Sanskrit loan, stacked explicitly, as the White Beryl prints Viṣṭi
         )
         for ((w, t) in cases) assertEquals(t, Ewts.toTibetan(w), w)
     }
@@ -40,11 +41,11 @@ class EwtsTest {
         assertNull(Ewts.toTibetan("xyz"))
     }
 
-    /** Every Tibetan term the app shows has a script, except the Sanskrit loan still to be sourced. */
+    /** Every Tibetan term the app shows has a script. */
     @Test
     fun `every term of the engine converts`() {
         val terms = Weekday.entries.map { it.wylie } + Mansion.entries.map { it.wylie } + Yoga.entries.map { it.wylie } +
-            Karana.entries.filter { it != Karana.VISHTI }.map { it.wylie } + ElementPair.entries.map { it.wylie } +
+            Karana.entries.map { it.wylie } + ElementPair.entries.map { it.wylie } +
             Trigram.entries.map { it.wylie } + IndianElement.entries.map { it.wylie } +
             (1..12).map { TibetanCalendar.monthNames(it).wylie }
         for (w in terms) assertNotNull(Ewts.toTibetan(w), w)

@@ -27,8 +27,10 @@ import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.IndianElement
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
+import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
@@ -51,6 +53,7 @@ class CatalogTest {
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
             StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries,
+            LunarDayClass.entries, PersonalMansion.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }
@@ -71,8 +74,10 @@ class CatalogTest {
             Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU,
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
-            Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
-        ).flatMap { it.values } + Texts.HAIRCUT
+            Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA,
+            Texts.PERSONAL_MANSION, Texts.WEEKDAY,
+        ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE
+        (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values).forEach { present(it.key) }
         for (r in readings) {
             assertTrue(r.key.startsWith("reading."), "reading without a key from ${r.source.title}")
             r.arg?.let { present(r.key); present(it) }

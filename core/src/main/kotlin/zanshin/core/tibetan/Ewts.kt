@@ -24,10 +24,12 @@ data class Syllable(
 /**
  * Extended Wylie (EWTS) to Tibetan script, for the plain Tibetan syllables
  * the almanac uses. Words separated by spaces become syllables separated by a
- * tsheg. A dot forces a prefix reading ("g.ya"). Sanskrit transliteration
- * beyond the retroflex letters is not handled; [toTibetan] returns null for
- * anything it cannot read, so no term is shown in a script guessed from a
- * spelling the converter does not know.
+ * tsheg. A dot forces a prefix reading ("g.ya"). A Sanskrit loan is written
+ * with EWTS's explicit stacking: "+" joins the letters of one stack, and the
+ * word is written without a tsheg ("biSh+Ti", བིཥྚི). Other Sanskrit
+ * transliteration is not handled; [toTibetan] returns null for anything it
+ * cannot read, so no term is shown in a script guessed from a spelling the
+ * converter does not know.
  */
 object Ewts {
     private val CONSONANTS: Map<String, Int> = linkedMapOf(
@@ -58,7 +60,31 @@ object Ewts {
         wylie.trim().replace('’', '\'').split(Regex("\\s+")).map { syllable(it) }
     }.getOrNull()
 
-    fun toTibetan(wylie: String): String? = parse(wylie)?.joinToString(TSHEG.toString()) { render(it) }
+    fun toTibetan(wylie: String): String? = runCatching {
+        wylie.trim().replace('’', '\'').split(Regex("\\s+")).joinToString(TSHEG.toString()) {
+            if ('+' in it) stacked(it) else render(syllable(it))
+        }
+    }.getOrNull()
+
+    /** A word written with explicit stacks ("biSh+Ti"): each stack, then its vowel, with no tsheg between. */
+    private fun stacked(word: String): String {
+        val out = StringBuilder()
+        var i = 0
+        while (i < word.length) {
+            var first = true
+            do {
+                if (!first) i++ // the "+"
+                val c = CONSONANTS.keys.firstOrNull { word.startsWith(it, i) } ?: error("not EWTS: $word")
+                out.appendCodePoint(CONSONANTS.getValue(c) + if (first) 0 else SUBJOINED_OFFSET)
+                i += c.length
+                first = false
+            } while (i < word.length && word[i] == '+')
+            val v = VOWELS.keys.firstOrNull { word.startsWith(it, i) } ?: error("no vowel in $word")
+            out.append(VOWELS.getValue(v))
+            i += v.length
+        }
+        return out.toString()
+    }
 
     private fun render(s: Syllable): String {
         val out = StringBuilder()

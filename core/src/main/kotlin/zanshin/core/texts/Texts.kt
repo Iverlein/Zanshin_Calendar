@@ -11,17 +11,22 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.StarRelation
+import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.ElementPair
+import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
+import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
+import zanshin.core.tibetan.Yoga
 
 /*
  * Readings shown on demand (SPEC §8). Each has a published source and a
@@ -84,6 +89,14 @@ object Sources {
     val WP_KYUSEI = Source("九星", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星")
     val WP_KIGAKU = Source("九星気学", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星気学")
     val WP_TOSHITOKU = Source("歳徳神", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/歳徳神")
+    val WP_OBON = Source("お盆", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/お盆")
+    /** The 三箇の悪日 by birth year: the classical text, read on the NDL scan, and koyomi8's table of it. */
+    val FUKI_NAIDEN = Source(
+        "『三國相傳陰陽輨轄簠簋内傳金烏玉兎集』巻上「三箇悪日」, 田中太右衛門, 1919",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/1911335/1/20",
+    )
+    val KOYOMI8_GEDAN = Source("暦注の説明（その３）・下段について", "こよみのページ (koyomi8.com)", "https://koyomi8.com/sub/rekicyuu_doc03.html")
     val KB_TORA = Source("「寅の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/寅の日")
     val KB_MI = Source("「巳の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/巳の日")
     val KB_KINOENE = Source("「甲子」 日本大百科全書・世界大百科事典", "Kotobank", "https://kotobank.jp/word/甲子")
@@ -102,10 +115,33 @@ object Sources {
         "BDRC W1KG12714",
         "https://library.bdrc.io/show/bdr:MW1KG12714",
     )
+    /** The White Beryl's chapter 33, 1996 edition; [pages] names the section, the pages are the printed ones. */
+    private fun whiteBeryl(pages: String) = Source(
+        "Phug lugs rtsis kyi legs bshad bai DUr dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, 1685; " +
+            "Krung go'i bod kyi shes rig dpe skrun khang, Beijing 1996, vol. 2, $pages",
+        "BDRC MW2CZ8040",
+        "https://library.bdrc.io/show/bdr:MW2CZ8040",
+    )
+    val WHITE_BERYL_YOGAS = whiteBeryl("pp. 347–349")
+    val WHITE_BERYL_KARANAS = whiteBeryl("pp. 349–351")
+    val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
+    val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
+    val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
+    val NOR_BU_ME_LONG = Source(
+        "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
+        "BDRC MW29978_8B19DD",
+        "https://library.bdrc.io/show/bdr:MW29978_8B19DD",
+    )
     val HENNING_SYMBOLS = Source("Symbolic details of the Kālacakra calendar", "Edward Henning", "http://www.kalacakra.org/calendar/symlst.htm")
     val HENNING_ARCHIVE = Source("Phugpa Tibetan calendar list", "Edward Henning", "http://www.kalacakra.org/calendar/tiblist.htm")
     val BERZIN_ASTROLOGY_1 = Source("Details of Tibetan Astrology 1: Philosophical Context and Horoscopes", "Alexander Berzin, Study Buddhism", "https://studybuddhism.com/en/advanced-studies/history-culture/tibetan-astrology/details-of-tibetan-astrology-1-philosophical-context-and-horoscopes")
     val HENNING_ELECTIONAL = Source("Horary and electional astrology of the five components", "Edward Henning", "http://www.kalacakra.org/calendar/tibast03.htm")
+    /** The print Henning translated the activity lists from; his doubled mansions are read on it (SPEC §5.10). */
+    val KUN_PHAN_ME_LONG = Source(
+        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the activity tables (img. 21–65)",
+        "BDRC MW4CZ65561",
+        "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
     val LOTSAWA_TENTH = Source(
         "A Prayer Invoking the Benefits of the Festival of the Tenth Day, by Rigdzin Jigme Lingpa, tr. Rigpa Translations, 2013",
         "Lotsawa House",
@@ -185,6 +221,9 @@ object Texts {
         )
     }
 
+    /** Where the birth-year rule of the three personal bad days is stated (SPEC §7.5). */
+    private val PERSONAL_BAD_DAYS = listOf(Sources.FUKI_NAIDEN, Sources.KOYOMI8_GEDAN)
+
     val SENJITSU: Map<Senjitsu, Reading> = keyed(
         Senjitsu.TENSHA to Reading(goodKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.ICHIRYU_MANBAI to Reading(goodKeys = listOf("beginnings"), source = Sources.WP_ICHIRYU, license = License.CC_BY_SA),
@@ -217,9 +256,9 @@ object Texts {
         Senjitsu.JUNICHI to Reading(avoidKeys = listOf("weddings", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.FUKUNICHI to Reading(avoidKeys = listOf("weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.KANOE_SARU to Reading(source = Sources.WP_KOSHIN, license = License.CC_BY_SA),
-        Senjitsu.TAIKA to Reading(avoidKeys = listOf("careless_words", "house_repairs", "building_gates", "sea_voyages", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.ROSHAKU to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.METSUMON to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.TAIKA to Reading(avoidKeys = listOf("careless_words", "house_repairs", "building_gates", "sea_voyages", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
+        Senjitsu.ROSHAKU to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
+        Senjitsu.METSUMON to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
     )
 
     val ZASSETSU: Map<Zassetsu, Reading> = keyed(
@@ -258,13 +297,170 @@ object Texts {
             goodKeys = (Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
             avoidKeys = Electional.bad { m in it.mansions },
             source = Sources.HENNING_ELECTIONAL,
+            also = listOf(Sources.KUN_PHAN_ME_LONG),
             key = "reading.Mansion",
             arg = "reading.${glossKey(m)}",
         )
     }
 
+    /**
+     * The yoga: the White Beryl's short reading, the gist of its longer verse,
+     * and whether its avoidance verse names it (docs/sources/yogas.md).
+     */
+    val YOGA: Map<Yoga, Reading> = keyed(*Yoga.entries.map { it to Reading(source = Sources.WHITE_BERYL_YOGAS) }.toTypedArray())
+
+    /**
+     * The yoga's dot: unlucky for the three the White Beryl says to avoid
+     * whole and the three whose short reading names a harm, mixed for the
+     * others it says to avoid in their first nine chu tshod and the two it
+     * calls middling, lucky for the rest. Its ranking verse is not used: how
+     * to read it is an open question (docs/sources/open-questions.md 1).
+     */
+    val YOGA_TONE: Map<Yoga, Tone> = Yoga.entries.associateWith {
+        when (it) {
+            Yoga.VYATIPATA, Yoga.PARIGHA, Yoga.VAIDHRITI, Yoga.ATIGANDA, Yoga.SHULA, Yoga.GANDA -> Tone.BAD
+            Yoga.VISHKAMBHA, Yoga.VYAGHATA, Yoga.VAJRA, Yoga.HARSHANA -> Tone.MIXED
+            else -> Tone.GOOD
+        }
+    }
+
+    /**
+     * The karaṇa: what the White Beryl's verse on it names good, and for Viṣṭi
+     * what to avoid (docs/sources/karanas.md).
+     */
+    val KARANA: Map<Karana, Reading> = keyed(
+        Karana.VAVA to Reading(goodKeys = listOf("virtue", "lasting_work", "work_on_the_move", "increasing_rites", "preparing_medicine", "dharma_practice", "reciting_mantras"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.BALAVA to Reading(goodKeys = listOf("serving_the_teacher", "the_brahmins_affairs", "ordination", "the_parents_affairs", "fire_offerings", "honouring_and_service", "work_with_cattle"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.KAULAVA to Reading(goodKeys = listOf("gathering_merit", "making_images", "consecration", "disputes", "trade", "power_rites", "unsteady_and_moving_work", "moving_goods"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.TAITILA to Reading(goodKeys = listOf("gathering_power", "prayers_for_good_fortune", "power_rites", "increasing_rites", "making_friends", "joyful_occasions"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.GARA to Reading(goodKeys = listOf("field_work", "taking_a_new_home"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.VANIJA to Reading(goodKeys = listOf("buying_and_trading", "lasting_work"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.VISHTI to Reading(goodKeys = listOf("killing_others", "preparing_poison", "harsh_work", "fierce_rites"), avoidKeys = listOf("virtue", "empowerment", "consecration", "lawsuits", "marriage"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.SHAKUNI to Reading(goodKeys = listOf("increasing_rites", "mantras", "cursing", "preparing_medicine"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.CATUSHPADA to Reading(goodKeys = listOf("worship_of_brahmins", "affairs_of_state", "work_with_cattle", "weapon_tormas"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.NAGA to Reading(goodKeys = listOf("lasting_work", "killing_and_robbing", "works_of_good_fortune"), source = Sources.WHITE_BERYL_KARANAS),
+        Karana.KIMSTUGHNA to Reading(goodKeys = listOf("virtue", "killing_people", "robbing", "works_of_good_fortune", "wished_for_increase", "empowerment"), source = Sources.WHITE_BERYL_KARANAS),
+    )
+
+    /**
+     * The karaṇa's dot: Viṣṭi unlucky, since the verse names every virtuous
+     * work bad on it and good only harsh ones; the others lucky, since their
+     * verses name only what they are good for.
+     */
+    val KARANA_TONE: Map<Karana, Tone> = Karana.entries.associateWith { if (it == Karana.VISHTI) Tone.BAD else Tone.GOOD }
+
+    /**
+     * The lunar date, 1–30: the White Beryl's good and bad activities, with its
+     * place in the five-fold cycle, a birth and a death on it, the four
+     * perilous dates and where the soul (bla gnas) sits (docs/sources/lunar-dates.md).
+     */
+    val LUNAR_DATE: List<Reading> = listOf(
+        Reading(goodKeys = listOf("setting_out", "lawsuits", "breaking_ground", "pacifying_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("teaching_dharma", "washing_the_hair", "funeral_rites", "marriage", "giving_anything_out", "worship_of_deities", "averting_rites", "suppressing_sri", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.1"),
+        Reading(goodKeys = listOf("consecration", "enthronement", "building_a_hearth", "sowing", "digging_ponds_and_wells", "increasing_rites", "buying_livestock"), avoidKeys = listOf("lawsuits", "setting_out", "washing_the_hair", "building_dams", "fire_offerings"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.2"),
+        Reading(goodKeys = listOf("ordination", "consecration", "setting_out", "lawsuits", "building", "taking_a_new_home", "washing_the_hair", "fire_offerings", "increasing_rites", "power_rites", "war_not_south", "buying_livestock"), avoidKeys = listOf("retinue_and_marriage", "digging_ponds_canals_and_wells"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.3"),
+        Reading(goodKeys = listOf("washing_the_hair", "trade", "taking_servants", "felling_trees", "prostrations", "suppressing_sri", "power_rites", "fierce_rites", "buying_livestock"), avoidKeys = listOf("ordination", "consecration", "setting_out", "bloodletting_and_moxibustion", "leading_an_army", "marriage", "digging_ponds_and_wells", "sowing"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.4"),
+        Reading(goodKeys = listOf("ordination", "washing_the_hair", "setting_out", "consecration", "taking_servants", "pacifying_rites", "buying_livestock"), avoidKeys = listOf("funeral_rites", "marriage"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.5"),
+        Reading(goodKeys = listOf("washing_the_hair", "consecration", "breaking_ground", "increasing_rites"), avoidKeys = listOf("setting_out", "hearing_dharma", "ordination", "taking_servants", "buying_livestock", "enthronement", "building", "marriage"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.6"),
+        Reading(goodKeys = listOf("building", "consecration", "setting_out", "digging_ponds_canals_and_wells", "taking_a_new_home", "funeral_rites", "building_a_hearth", "lawsuits", "war_not_east", "power_rites"), avoidKeys = listOf("washing_the_hair", "taking_servants", "marriage", "ordination", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.7"),
+        Reading(goodKeys = listOf("attacking_enemies", "judging_disputes", "enthronement", "consecration", "oaths", "suppressing_sri", "washing_the_hair", "making_images", "building_a_hearth", "fierce_rites"), avoidKeys = listOf("marriage", "new_clothes", "setting_out", "bloodletting", "ordination", "sowing", "digging_ponds_canals_and_wells", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.8"),
+        Reading(goodKeys = listOf("enthronement", "consecration", "setting_out", "suppressing_sri", "pacifying_rites", "war_not_south"), avoidKeys = listOf("washing_the_hair", "taking_servants", "funeral_rites", "marriage"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.9"),
+        Reading(goodKeys = listOf("washing_the_hair", "ordination", "consecration", "enthronement", "building_temples_and_stupas", "making_images", "war_not_south", "planting", "increasing_rites"), avoidKeys = listOf("setting_out", "taking_servants", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.10"),
+        Reading(goodKeys = listOf("washing_the_hair", "bathing", "tying_on_amulets", "enthronement", "consecration", "ordination", "building", "war_not_south", "breaking_ground", "bloodletting_and_moxibustion", "setting_out", "fierce_rites"), avoidKeys = listOf("taking_servants", "buying_livestock", "breaking_in_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.11"),
+        Reading(goodKeys = listOf("consecration", "enthronement", "building_temples_and_stupas", "building_a_hearth", "making_images", "sowing", "digging_ponds_canals_and_wells", "pacifying_rites", "war_not_south_or_west"), avoidKeys = listOf("setting_out", "washing_the_hair", "taking_servants", "buying_livestock", "fire_offerings", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.12"),
+        Reading(goodKeys = listOf("enthronement", "washing_the_hair", "setting_out", "consecration", "building", "building_a_hearth", "building_temples_and_stupas", "making_images", "fire_offerings", "building_dams", "increasing_rites"), avoidKeys = listOf("digging_ponds_and_wells", "taking_servants", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.13"),
+        Reading(goodKeys = listOf("washing_the_hair", "ordination", "consecration", "buying_livestock", "building", "setting_out", "power_rites"), avoidKeys = listOf("sowing", "teaching_dharma", "taking_servants"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.14"),
+        Reading(goodKeys = listOf("taking_a_new_home", "making_images", "building_temples_and_stupas", "consecration", "sowing", "prosperity_rites", "setting_out", "empowerment", "dharma_practice", "washing_the_hair", "gaining_wealth", "funeral_rites", "enthronement", "averting_rites", "building", "buying_livestock"), avoidKeys = listOf("oaths", "marriage", "ordination", "giving_a_child_away", "paying_debts"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.15"),
+        Reading(goodKeys = listOf("breaking_ground", "field_work", "pacifying_rites", "washing_the_hair", "buying_servants_and_goods", "buying_livestock"), avoidKeys = listOf("consecration", "setting_out", "robbery", "quarrels", "building", "enthronement"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.16"),
+        Reading(goodKeys = listOf("funeral_rites", "setting_out", "building_a_hearth", "building", "digging_ponds_and_wells", "sowing", "increasing_rites"), avoidKeys = listOf("washing_the_hair", "building_dams", "fire_offerings", "marriage", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.17"),
+        Reading(goodKeys = listOf("washing_the_hair", "virtuous_work", "making_images", "suppressing_sri", "building_a_hearth", "sowing", "building_dams", "fire_offerings", "fierce_rites", "roofing", "hanging_doors", "setting_out", "bloodletting_and_moxibustion", "funeral_rites", "enthronement"), avoidKeys = listOf("digging_ponds_canals_and_wells", "marriage", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.18"),
+        Reading(goodKeys = listOf("breaking_ground", "suppressing_sri", "setting_out", "washing_the_hair", "building", "pacifying_rites", "field_work"), avoidKeys = listOf("funeral_rites", "consecration", "enthronement", "building_temples_and_stupas", "marriage", "making_images", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.19"),
+        Reading(goodKeys = listOf("increasing_rites"), avoidKeys = listOf("washing_the_hair", "consecration", "enthronement", "setting_out", "making_images"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.20"),
+        Reading(goodKeys = listOf("planting", "setting_out", "power_rites", "buying_livestock"), avoidKeys = listOf("consecration", "taking_servants", "enthronement", "marriage", "building_temples", "making_images", "washing_the_hair"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.21"),
+        Reading(goodKeys = listOf("learning_writing_astrology_and_crafts", "building_a_hearth", "washing_the_hair", "digging_ponds_canals_and_wells", "planting", "gtad_and_sri_rites", "work_with_rock", "buying_livestock"), avoidKeys = listOf("taking_a_new_home", "consecration", "enthronement", "making_images", "council", "marriage", "burial", "setting_out", "taking_servants", "building", "buying_goods", "breaking_in_livestock", "fire_offerings"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.22"),
+        Reading(goodKeys = listOf("building", "building_a_hearth", "setting_out", "ordination", "washing_the_hair", "sowing", "fire_offerings", "building_dams", "pacifying_rites"), avoidKeys = listOf("digging_ponds_canals_and_wells", "buying_livestock", "buying_servants_and_goods", "consecration", "enthronement"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.23"),
+        Reading(goodKeys = listOf("taking_servants", "buying_goods", "buying_livestock", "setting_out", "sowing", "increasing_rites"), avoidKeys = listOf("enthronement", "consecration", "washing_the_hair"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.24"),
+        Reading(goodKeys = listOf("building", "buying_fields", "setting_out", "breaking_ground", "suppressing_sri", "funeral_rites", "sowing", "fierce_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("washing_the_hair", "consecration", "enthronement", "taking_servants"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.25"),
+        Reading(goodKeys = listOf("washing_the_hair", "sowing", "breaking_ground", "fierce_rites"), avoidKeys = listOf("taking_servants", "setting_out", "buying_goods", "buying_livestock", "enthronement", "consecration", "building"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.26"),
+        Reading(goodKeys = listOf("setting_out", "washing_the_hair", "funeral_rites", "sowing", "building_a_hearth", "digging_ponds_and_wells", "increasing_rites"), avoidKeys = listOf("enthronement", "consecration", "buying_servants_and_goods", "making_images", "building_temples", "marriage", "fire_offerings"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.27"),
+        Reading(goodKeys = listOf("fire_offerings", "building_dams", "power_rites"), avoidKeys = listOf("washing_the_hair", "setting_out", "funeral_rites", "taking_servants", "digging_ponds_and_canals", "marriage", "enthronement", "consecration", "sowing", "buying_goods", "buying_livestock", "war_south_or_west"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.28"),
+        Reading(goodKeys = listOf("teaching_dharma", "subduing_enemies", "setting_out", "suppressing_sri", "fierce_rites"), avoidKeys = listOf("sowing", "taking_servants", "breaking_in_livestock", "brewing_beer", "washing_the_hair", "consecration", "funeral_rites", "enthronement", "bloodletting_and_moxibustion", "making_images", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.29"),
+        Reading(goodKeys = listOf("power_rites", "sowing"), avoidKeys = listOf("consecration", "enthronement", "washing_the_hair", "setting_out", "bloodletting_and_moxibustion", "funeral_rites", "marriage", "buying_servants_and_goods", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.30"),
+    )
+
+    /** The four perilous dates of every month (the White Beryl, p. 302). */
+    val PERILOUS_DATES: Set<Int> = setOf(8, 15, 22, 30)
+
+    /**
+     * The lunar date's dot: lucky on the three virtuous days of the five-fold
+     * cycle, unlucky on the other two; mixed for a virtuous day that is also
+     * one of the perilous dates (the 8th and the 22nd).
+     */
+    fun lunarDateTone(date: Int): Tone = when {
+        !LunarDayClass.of(date).virtuous -> Tone.BAD
+        date in PERILOUS_DATES -> Tone.MIXED
+        else -> Tone.GOOD
+    }
+
+    /**
+     * The weekday: the White Beryl's verse on its planet, with what it names
+     * good and bad, when the planet is strong, setting out, a birth and a
+     * death (docs/sources/weekdays.md).
+     */
+    val WEEKDAY: Map<Weekday, Reading> = keyed(
+        Weekday.SUNDAY to Reading(
+            goodKeys = listOf("enthronement", "founding_a_palace", "affairs_of_state", "meeting_great_people", "fire_offerings", "preparing_medicine", "bathing", "empowerment", "ordination", "planting_trees", "making_weapons", "building_a_hearth", "raising_banners", "sowing", "averting_thieves", "horse_racing", "breaking_in_horses_and_livestock", "prosperity_rites", "spectacles", "naming", "building_dams", "saddling", "crafts_in_gold_wood_leather_and_bone", "work_with_fire", "smoke_offerings", "reciting_scripture", "worship_of_deities", "presenting_petitions", "prostrations", "study", "going_into_the_forest", "feasts", "making_perfumes", "auspicious_work"),
+            avoidKeys = listOf("oaths", "funeral_rites", "carrying_out_the_dead", "harsh_words", "pacifying_rites", "visiting_the_sick", "bloodletting_and_moxibustion", "temple_foundations", "cutting_hair_and_nails", "first_wearing_of_new_clothes", "sewing_tents", "taking_a_new_home", "suppressing_sri", "building_towns", "planting", "digging_ponds_and_canals", "breaking_ground", "marriage", "consecration", "planting_flowers", "moving_house", "breaking_in_oxen", "building_storehouses", "sending_out_wealth", "reconciliation", "lawsuits_and_disputes", "setting_out"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.MONDAY to Reading(
+            goodKeys = listOf("preparing_medicine", "sowing", "brewing_beer", "bathing", "work_with_water", "auspicious_work", "taking_servants", "offerings_to_nagas", "building_a_hearth", "taking_a_new_home", "worship_of_deities", "digging_ponds_and_canals", "breaking_ground", "consecration", "marriage", "making_perfumes", "breaking_in_oxen", "spectacles", "reconciliation", "washing_the_hair", "cutting_hair_and_nails", "taking_elixirs", "putting_on_ornaments", "prostrations", "matchmaking", "first_wearing_of_new_clothes", "dairy_work", "breaking_in_horses", "field_work", "planting_trees", "grain_work", "bloodletting_and_moxibustion", "offerings_to_the_lama", "prosperity_rites", "pacifying_rites", "increasing_rites", "temple_foundations", "making_images"),
+            avoidKeys = listOf("receiving_wealth", "sending_out_wealth", "funeral_rites", "suppressing_sri", "carrying_out_the_dead", "power_rites", "fierce_rites", "ordination", "hearing_dharma", "lawsuits", "war", "building", "making_weapons", "building_dams", "fire_offerings", "hunting", "setting_out"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.TUESDAY to Reading(
+            goodKeys = listOf("war", "martial_skills", "appointing_generals", "fierce_rites", "subduing_enemies", "enthronement", "judging_disputes", "lawsuits", "averting_rites", "suppressing_sri", "horse_racing", "fire_offerings", "hurling_zor", "directing_magic", "collecting_debts", "taking_new_lands", "raising_dogs", "moxibustion", "work_with_gold_coral_and_swords", "destroying_forts", "power_rites"),
+            avoidKeys = listOf("ordination", "consecration", "marriage", "bathing", "putting_on_ornaments", "virtuous_work", "empowerment", "divination", "burial", "funeral_rites", "council", "taking_servants", "building", "building_temples", "making_images", "astrology", "preparing_medicine", "crafts", "cutting_hair_and_nails", "sending_out_wealth", "bloodletting", "building_towns", "gatherings", "feasts", "sowing", "worship_of_deities", "building_a_hearth", "building_storehouses", "digging_ponds_and_canals", "field_work", "breaking_ground", "planting_trees", "planting_flowers", "lasting_work", "auspicious_work", "spectacles", "reconciliation", "prosperity_rites", "trade", "first_wearing_of_new_clothes", "sewing_tents", "moving_house", "pacifying_rites", "increasing_rites", "setting_out"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.WEDNESDAY to Reading(
+            goodKeys = listOf("poetry_and_grammar", "writing_treatises", "reciting_mantras", "work_with_jewels", "earthworks", "trade", "taking_vows", "consecration", "learning_writing_and_astrology", "empowerment", "studying_the_dharma", "work_with_water", "reconciliation", "seeking_connections", "taking_a_new_home", "putting_on_ornaments", "first_wearing_of_new_clothes", "lawsuits", "prosperity_rites", "taking_a_retinue", "pacifying_rites", "washing_the_hair", "presenting_offerings", "building", "digging_ponds_canals_and_wells", "building_temples", "making_images", "building_storehouses", "moving_house", "planting", "breaking_ground", "crafts", "planting_trees", "planting_flowers", "breaking_in_livestock", "astrology_and_divination", "funeral_rites", "saddling", "bloodletting_and_moxibustion", "matchmaking", "cutting_hair_and_nails", "bathing", "magic_shows", "virtuous_work", "increasing_rites", "setting_out"),
+            avoidKeys = listOf("ordination", "brewing_beer", "sending_out_wealth", "building_a_hearth", "building_dams", "hearing_dharma", "preparing_medicine", "taking_a_bride", "power_rites", "averting_rites", "disputes", "judging_disputes", "war", "robbery", "fierce_rites"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.THURSDAY to Reading(
+            goodKeys = listOf("ordination", "empowerment", "consecration", "taking_vows", "marriage", "first_wearing_of_new_clothes", "sowing", "virtuous_work", "mandala_rites", "fire_offerings", "learning_the_sciences", "teaching_and_hearing_the_dharma", "enthronement", "bloodletting_and_moxibustion", "power_rites", "preparing_medicine", "astrology_and_divination", "building", "building_a_hearth", "taking_a_new_home", "brewing_beer", "reciting_mantras", "putting_on_ornaments", "trade", "suppressing_sri", "building_temples", "making_images", "sewing_tents", "raising_banners", "woodwork", "moving_house", "breaking_in_livestock", "saddling", "taking_a_retinue", "reconciliation", "feasts", "planting_flowers", "planting_trees", "washing_the_hair", "work_with_jewels", "averting_rites", "directing_magic", "the_parents_affairs", "council", "lasting_work", "auspicious_work", "setting_out"),
+            avoidKeys = listOf("roofing", "burial", "oaths", "war", "sending_out_livestock", "cutting_hair_and_nails", "hurling_mdos_torma_and_zor", "crafts", "funeral_rites"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.FRIDAY to Reading(
+            goodKeys = listOf("worship_of_deities", "teaching_dharma", "ordination", "consecration", "virtuous_work", "making_images", "brewing_beer", "seeking_friends", "sowing", "matchmaking", "marriage", "trade", "putting_on_ornaments", "making_perfumes", "farming", "building_temples", "building_new_houses", "laying_foundations", "first_wearing_of_new_clothes", "building", "digging_ponds_and_canals", "metal_and_jewel_work", "bloodletting", "increasing_rites", "moxibustion", "taking_a_new_home", "spectacles", "taking_a_retinue", "funeral_rites", "horse_racing", "games", "building_a_hearth", "feasts", "washing_the_hair", "cutting_hair_and_nails", "breaking_ground", "saddling", "council", "lasting_work", "auspicious_work", "astrology_and_divination", "learning_the_sciences", "reconciliation", "affairs_of_state", "judging_disputes", "presenting_petitions", "prostrations", "presenting_offerings", "building_dams", "consorting_with_women", "power_rites", "setting_out"),
+            avoidKeys = listOf("feuds", "moving_house", "paying_debts", "hurling_mdos_torma_and_zor", "robbery", "fierce_rites", "sending_out_livestock"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+        Weekday.SATURDAY to Reading(
+            goodKeys = listOf("taking_a_new_home", "gaining_wealth", "long_life_and_prosperity_rites", "acquiring_goods_and_livestock", "leading_an_army", "field_work", "building_towns", "planting_flowers", "planting_trees", "ironwork", "digging_ponds_and_wells", "breaking_ground", "suppressing_sri", "raising_banners", "building_storehouses", "building", "naming", "consorting_with_women", "making_weapons", "black_rites", "raising_dogs", "astrology", "robbery", "sowing", "killing_others"),
+            avoidKeys = listOf("ordination", "consecration", "restoring_vows", "virtuous_work", "council", "auspicious_work", "lasting_work", "first_wearing_of_new_clothes", "cutting_hair_and_nails", "increasing_rites", "power_rites", "bloodletting_and_moxibustion", "washing_the_hair", "preparing_medicine", "trade", "averting_rites", "marriage", "sending_out_wealth", "sewing_tents", "funeral_rites", "moving_house", "games", "building_temples", "making_images", "trading_land_and_houses", "saddling", "feasts", "reconciliation", "worship_of_deities", "putting_on_ornaments", "enthronement", "serving_the_king", "prostrations", "presenting_offerings", "affairs_of_state", "judging_disputes", "fighting_enemies", "taking_a_retinue", "spectacles", "setting_out"),
+            source = Sources.WHITE_BERYL_WEEKDAYS,
+        ),
+    )
+
+    /**
+     * The weekday's dot: unlucky for Tuesday and Saturday, fierce planets on
+     * which the chapter's closing verse says virtuous work is avoided; mixed
+     * for Sunday, which that verse names with them though its own verse calls
+     * it peaceful; lucky for the other four.
+     */
+    fun weekdayTone(w: Weekday): Tone = when (w) {
+        Weekday.TUESDAY, Weekday.SATURDAY -> Tone.BAD
+        Weekday.SUNDAY -> Tone.MIXED
+        else -> Tone.GOOD
+    }
+
     private fun electional(arg: String, good: List<String>, bad: List<String>) =
-        Reading(goodKeys = good, avoidKeys = bad, source = Sources.HENNING_ELECTIONAL, key = "reading.Electional", arg = "reading.Electional.$arg")
+        Reading(
+            goodKeys = good, avoidKeys = bad, source = Sources.HENNING_ELECTIONAL, also = listOf(Sources.KUN_PHAN_ME_LONG),
+            key = "reading.Electional", arg = "reading.Electional.$arg",
+        )
 
     /** What the activity lists name each weekday, lunar date, day animal and trigram good or bad for. */
     val ELECTIONAL_WEEKDAY: Map<Weekday, Reading> = Weekday.entries.associateWith { w ->
@@ -316,7 +512,7 @@ object Texts {
         TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN),
     )
 
-    /** Kyūreki festivals, by their kanji as in [zanshin.core.kyureki.Festival]. */
+    /** Kyūreki festivals, and those kept by the Gregorian date, by their kanji as in [zanshin.core.kyureki.Festival]. */
     val JAPANESE_FESTIVAL: Map<String, Reading> = mapOf(
         "旧正月" to Reading(source = Sources.NAOJ_SEKKU),
         "人日の節句" to Reading(source = Sources.NAOJ_SEKKU),
@@ -326,6 +522,7 @@ object Texts {
         "十五夜" to Reading(source = Sources.NAOJ_JUSANYA),
         "重陽の節句" to Reading(source = Sources.NAOJ_SEKKU),
         "十三夜" to Reading(source = Sources.NAOJ_JUSANYA),
+        "お盆" to Reading(source = Sources.WP_OBON, license = License.CC_BY_SA),
     ).mapValues { (kanji, r) -> r.copy(key = "reading.Festival.$kanji") }
 
     val PERSONAL_DAY: Map<PersonalDay, Reading> = keyed(
@@ -333,6 +530,19 @@ object Texts {
         PersonalDay.LIFE to Reading(source = Sources.RABTEN),
         PersonalDay.ANTI to Reading(source = Sources.RABTEN),
     )
+
+    /** One's personal mansions (the White Beryl, p. 330, with the Sakya manual's prose beside its table). */
+    val PERSONAL_MANSION: Map<PersonalMansion, Reading> = keyed(
+        *PersonalMansion.entries.map {
+            it to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = listOf(Sources.NOR_BU_ME_LONG))
+        }.toTypedArray(),
+    )
+
+    /** Lucky for the bla, srog and dbang skar, which both texts call good for anything; unlucky for the other three, which they call bad. */
+    fun personalMansionTone(m: PersonalMansion): Tone = when (m) {
+        PersonalMansion.BLA, PersonalMansion.SROG, PersonalMansion.DBANG -> Tone.GOOD
+        else -> Tone.BAD
+    }
 
     /**
      * The pebble readings: one aspect of the birth year against the same aspect

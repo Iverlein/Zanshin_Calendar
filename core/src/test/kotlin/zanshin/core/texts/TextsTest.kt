@@ -16,11 +16,15 @@ import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ElementPair
+import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
+import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
+import zanshin.core.tibetan.Weekday
+import zanshin.core.tibetan.Yoga
 
 /** SPEC §8.1: nothing is shown without a published source. */
 class TextsTest {
@@ -28,7 +32,8 @@ class TextsTest {
         Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.EHOU,
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
-    ).flatMap { it.values } + Texts.HAIRCUT
+        Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY,
+    ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE
 
     @Test
     fun `every annotation has a sourced reading`() {
@@ -48,6 +53,12 @@ class TextsTest {
         complete(StarRelation.entries, Texts.KIGAKU)
         complete(Kinship.entries, Texts.PEBBLES)
         complete(Mansion.entries, Texts.MANSION)
+        complete(Yoga.entries, Texts.YOGA)
+        assertEquals(Yoga.entries.toSet(), Texts.YOGA_TONE.keys)
+        complete(Karana.entries, Texts.KARANA)
+        complete(PersonalMansion.entries, Texts.PERSONAL_MANSION)
+        complete(Weekday.entries, Texts.WEEKDAY)
+        assertEquals(30, Texts.LUNAR_DATE.size)
         assertEquals(30, Texts.HAIRCUT.size)
 
         for (r in all) {

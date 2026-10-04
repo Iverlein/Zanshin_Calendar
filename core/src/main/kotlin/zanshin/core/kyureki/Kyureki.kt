@@ -49,7 +49,8 @@ enum class SolarTerm(val longitude: Int, val kanji: String, val romaji: String) 
     }
 }
 
-data class Festival(val kanji: String, val romaji: String) {
+/** A festival; [gregorian] when it is kept by the civil date rather than the kyūreki one (SPEC §7.3). */
+data class Festival(val kanji: String, val romaji: String, val gregorian: Boolean = false) {
     val english: String get() = Catalog.text("Festival.$kanji")
 }
 
@@ -72,6 +73,8 @@ data class KyurekiDay(
     val currentTermStart: LocalDate,
     val nextTermStart: LocalDate,
     val festival: Festival?,
+    /** A festival most of Japan keeps on this Gregorian date (お盆, 月遅れ). */
+    val gregorianFestival: Festival? = null,
 ) {
     /** English of the traditional month name, from the catalog. */
     val monthNameEnglish: String get() = Catalog.text("KyurekiMonth.$month")
@@ -106,14 +109,28 @@ object Kyureki {
         (9 to 13) to Festival("十三夜", "Jūsanya"),
     )
 
+    /**
+     * Festivals most of Japan now keeps by the Gregorian date (SPEC §7.3).
+     * O-Bon, once around the 15th of the 7th month, has been kept a month
+     * late (月遅れ), 13–16 August, in most regions since the solar calendar
+     * was adopted in the Meiji era; Tokyo keeps 15 July, Okinawa and Amami
+     * the kyūreki date (Japanese Wikipedia お盆). The app marks the 15th.
+     */
+    private val GREGORIAN_FESTIVALS = mapOf(
+        (8 to 15) to Festival("お盆", "O-Bon", gregorian = true),
+    )
+
     /** Major terms that fix a month number regardless of leap months (Tenpō rule 4). */
     private val FIXED = mapOf(0 to 2, 90 to 5, 180 to 8, 270 to 11)
 
     /**
      * SPEC §7.1 rule 5, the 2033 problem: in the sui that opens in month 11
      * of 2033 the rules contradict each other. Resolution: the leap month is
-     * the one right after month 11 (閏11月), as recommended by the Japan
-     * calendar society. To be confirmed from its published source (S3).
+     * the one right after month 11 (閏11月), the lunation from 2033-12-22, as
+     * recommended by the 日本カレンダー暦文化振興協会 (暦文協) at its general
+     * meeting of 2015-08-28 (rekibunkyo.or.jp/year2033problem.html). It
+     * leaves the general intercalation rule open, so the choice stays a
+     * single named exception rather than a rule.
      */
     private const val RESOLUTION_2033_SUI = 2033
     private const val RESOLUTION_2033_LEAP_INDEX = 1
@@ -147,6 +164,7 @@ object Kyureki {
             currentTermStart = current.second,
             nextTermStart = next.second,
             festival = if (month.leap) null else FESTIVALS[month.number to day],
+            gregorianFestival = GREGORIAN_FESTIVALS[date.monthValue to date.dayOfMonth],
         )
     }
 

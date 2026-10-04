@@ -63,35 +63,40 @@ enum class Mansion(val wylie: String, val sanskrit: String, val element: IndianE
     val english: String get() = gloss(this)
 }
 
-/** The 27 yogas (sbyor ba), Janson (10.5), with the Tibetan names of the Phugpa almanacs. */
-enum class Yoga(val wylie: String, val sanskrit: String) {
-    VISHKAMBHA("rnam sel", "Viṣkambha"),
-    PRITI("mdza' bo", "Prīti"),
-    AYUSHMAN("tshe dang ldan pa", "Āyuṣmān"),
-    SAUBHAGYA("skal bzang", "Saubhāgya"),
-    SHOBHANA("dge byed", "Śobhana"),
-    ATIGANDA("shin tu 'grams", "Atigaṇḍa"),
-    SUKARMAN("las bzang", "Sukarman"),
-    DHRITI("'dzin byed", "Dhṛti"),
-    SHULA("zug rngu", "Śūla"),
-    GANDA("'grams", "Gaṇḍa"),
-    VRIDDHI("'phel", "Vṛddhi"),
-    DHRUVA("brtan pa", "Dhruva"),
-    VYAGHATA("yongs bsnun", "Vyāghāta"),
-    HARSHANA("dga' ba", "Harṣaṇa"),
-    VAJRA("rdo rje", "Vajra"),
-    SIDDHI("dngos grub", "Siddhi"),
-    VYATIPATA("phan tshun", "Vyatīpāta"),
-    VARIYAS("mchog can", "Varīyas"),
-    PARIGHA("yongs 'joms", "Parigha"),
-    SHIVA("zhi ba", "Śiva"),
-    SIDDHA("grub pa", "Siddha"),
-    SADHYA("bsgrub bya", "Sādhya"),
-    SHUBHA("dge ba", "Śubha"),
-    SHUKLA("dkar po", "Śukla"),
-    BRAHMA("tshangs pa", "Brahma"),
-    INDRA("dbang po", "Indra"),
-    VAIDHRITI("'khon 'dzin", "Vaidhṛti");
+/**
+ * The 27 yogas (sbyor ba), Janson (10.5), with the Tibetan names of the Phugpa
+ * almanacs; [whiteBeryl] is the name the White Beryl gives the same yoga
+ * (vol. 2, pp. 347–349 of the 1996 edition), which differs for most of them
+ * (docs/sources/yogas.md).
+ */
+enum class Yoga(val wylie: String, val sanskrit: String, val whiteBeryl: String) {
+    VISHKAMBHA("rnam sel", "Viṣkambha", "sel ba"),
+    PRITI("mdza' bo", "Prīti", "mdza' bo"),
+    AYUSHMAN("tshe dang ldan pa", "Āyuṣmān", "tshe ldan"),
+    SAUBHAGYA("skal bzang", "Saubhāgya", "skal bzang"),
+    SHOBHANA("dge byed", "Śobhana", "bzang po"),
+    ATIGANDA("shin tu 'grams", "Atigaṇḍa", "rab stongs"),
+    SUKARMAN("las bzang", "Sukarman", "las bzang"),
+    DHRITI("'dzin byed", "Dhṛti", "'dzin pa"),
+    SHULA("zug rngu", "Śūla", "gzer"),
+    GANDA("'grams", "Gaṇḍa", "'bras"),
+    VRIDDHI("'phel", "Vṛddhi", "'phel ba"),
+    DHRUVA("brtan pa", "Dhruva", "nges pa"),
+    VYAGHATA("yongs bsnun", "Vyāghāta", "rma chen"),
+    HARSHANA("dga' ba", "Harṣaṇa", "dga' ba"),
+    VAJRA("rdo rje", "Vajra", "rdo rje"),
+    SIDDHI("dngos grub", "Siddhi", "dngos grub"),
+    VYATIPATA("phan tshun", "Vyatīpāta", "kun brdungs"),
+    VARIYAS("mchog can", "Varīyas", "dpa' bo"),
+    PARIGHA("yongs 'joms", "Parigha", "yongs 'joms"),
+    SHIVA("zhi ba", "Śiva", "zhi ba"),
+    SIDDHA("grub pa", "Siddha", "grub pa"),
+    SADHYA("bsgrub bya", "Sādhya", "grub bya"),
+    SHUBHA("dge ba", "Śubha", "dge ba"),
+    SHUKLA("dkar po", "Śukla", "dkar po"),
+    BRAHMA("tshangs pa", "Brahma", "tshangs pa"),
+    INDRA("dbang po", "Indra", "dbang po"),
+    VAIDHRITI("'khon 'dzin", "Vaidhṛti", "sha 'khon");
 
     val english: String get() = gloss(this)
 }
@@ -99,20 +104,22 @@ enum class Yoga(val wylie: String, val sanskrit: String) {
 /**
  * The 11 karaṇas (byed pa). Half-lunar-day number H (1–60): H = 1, 58, 59,
  * 60 are the four fixed ones, the rest cycle through the seven changing ones
- * as (H − 1) amod 7 (Janson §10 (viii)).
+ * as (H − 1) amod 7 (Janson §10 (viii)). [whiteBeryl] is the name the White
+ * Beryl gives it (vol. 2, pp. 349–351), where it differs from the almanacs'
+ * for Bālava, Kaulava, Vaṇija and Catuṣpada; Viṣṭi is spelled as it prints it.
  */
-enum class Karana(val wylie: String, val sanskrit: String) {
-    VAVA("gdab pa", "Vava"),
-    BALAVA("byis pa", "Bālava"),
-    KAULAVA("rigs can", "Kaulava"),
-    TAITILA("til brdung", "Taitila"),
-    GARA("khyim skyes", "Gara"),
-    VANIJA("tshong ba", "Vaṇija"),
-    VISHTI("vishti", "Viṣṭi"),
-    SHAKUNI("bkra shis", "Śakuni"),
-    CATUSHPADA("rkang bzhi", "Catuṣpada"),
-    NAGA("klu", "Nāga"),
-    KIMSTUGHNA("mi sdug pa", "Kiṃstughna");
+enum class Karana(val wylie: String, val sanskrit: String, val whiteBeryl: String) {
+    VAVA("gdab pa", "Vava", "gdab pa"),
+    BALAVA("byis pa", "Bālava", "byis pa can"),
+    KAULAVA("rigs can", "Kaulava", "dge ba"),
+    TAITILA("til brdung", "Taitila", "til brdung"),
+    GARA("khyim skyes", "Gara", "khyim skyes"),
+    VANIJA("tshong ba", "Vaṇija", "tshong pa"),
+    VISHTI("biSh+Ti", "Viṣṭi", "biSh+Ti"),
+    SHAKUNI("bkra shis", "Śakuni", "bkra shis"),
+    CATUSHPADA("rkang bzhi", "Catuṣpada", "bzhi mdo"),
+    NAGA("klu", "Nāga", "klu"),
+    KIMSTUGHNA("mi sdug pa", "Kiṃstughna", "mi sdug pa");
 
     val english: String get() = gloss(this)
 
@@ -162,6 +169,25 @@ enum class Trigram(val wylie: String, val chinese: String) {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The five-fold cycle of the lunar dates (the White Beryl, pp. 302–303): dga'
+ * ba on the 1st, 6th, 11th …, then bzang po, rgyal ba, stong pa and rdzogs pa.
+ * The first three are virtuous, the last two not.
+ */
+enum class LunarDayClass(val wylie: String, val sanskrit: String, val virtuous: Boolean) {
+    NANDA("dga' ba", "Nandā", true),
+    BHADRA("bzang po", "Bhadrā", true),
+    JAYA("rgyal ba", "Jayā", true),
+    RIKTA("stong pa", "Riktā", false),
+    PURNA("rdzogs pa", "Pūrṇā", false);
+
+    val english: String get() = gloss(this)
+
+    companion object {
+        fun of(date: Int): LunarDayClass = entries[(date - 1) % 5]
+    }
+}
+
 /** The nine numbers (sme ba) and their colours, Janson Table 16. */
 val SME_BA_COLOURS = listOf("white", "black", "blue", "green", "yellow", "white", "red", "white", "red")
 
@@ -203,6 +229,46 @@ enum class PersonalDay {
     LUCK, LIFE, ANTI;
 
     val english: String get() = gloss(this)
+}
+
+/**
+ * The six personal mansions of a birth-year animal (rgyu skar): bla skar,
+ * srog skar, dbang skar, skeg skar, bdud skar and gshed skar.
+ */
+enum class PersonalMansion(val wylie: String) {
+    BLA("bla skar"),
+    SROG("srog skar"),
+    DBANG("dbang skar"),
+    SKEG("skeg skar"),
+    BDUD("bdud skar"),
+    GSHED("gshed skar");
+
+    val english: String get() = gloss(this)
+}
+
+/**
+ * Which of one's personal mansions the day's mansion is, by the animal of the
+ * birth year: the White Beryl, vol. 2, p. 330 (1996), its slips settled by two
+ * rtsis manuals that print the same table (docs/sources/personal-mansions.md).
+ * A mansion can hold two roles (the Snake's dbang and gshed skar are both lag).
+ */
+fun personalMansions(birthAnimal: Animal, mansion: Mansion): List<PersonalMansion> {
+    // bla, srog, dbang, skeg, bdud, gshed, as Mansion ordinals (0 = tha skar), Mouse to Pig.
+    val row = when (birthAnimal) {
+        Animal.MOUSE -> intArrayOf(19, 5, 2, 25, 9, 22)
+        Animal.OX -> intArrayOf(16, 13, 11, 1, 7, 4)
+        Animal.TIGER -> intArrayOf(4, 26, 8, 13, 11, 1)
+        Animal.RABBIT -> intArrayOf(10, 26, 11, 25, 14, 17)
+        Animal.DRAGON -> intArrayOf(2, 23, 16, 7, 8, 10)
+        Animal.SNAKE -> intArrayOf(12, 11, 5, 7, 8, 5)
+        Animal.HORSE -> intArrayOf(16, 11, 5, 19, 4, 26)
+        Animal.SHEEP -> intArrayOf(7, 0, 1, 19, 4, 26)
+        Animal.MONKEY -> intArrayOf(7, 0, 1, 8, 4, 16)
+        Animal.BIRD -> intArrayOf(13, 6, 24, 2, 10, 23)
+        Animal.DOG -> intArrayOf(8, 26, 4, 10, 2, 11)
+        Animal.PIG -> intArrayOf(1, 7, 10, 25, 2, 11)
+    }
+    return PersonalMansion.entries.filter { row[it.ordinal] == mansion.ordinal }
 }
 
 /**
