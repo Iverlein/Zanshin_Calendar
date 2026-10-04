@@ -23,7 +23,7 @@ our own words). What is still to be found, and how, is in
 | [mansion-verses.md](mansion-verses.md) | All 28 mansion verses of WB, Tibetan and the lists in English | T2 | From two OCR readings, every disagreement settled, the last four on the scan (2026-10-04); not read by eye syllable by syllable |
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
-| [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; all in the app |
+| [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
 | [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Nine questions: 7 answered, 4 and 8 narrowed by WB2 |
 
 Machine transcriptions of WB, used as working copies only, are kept locally

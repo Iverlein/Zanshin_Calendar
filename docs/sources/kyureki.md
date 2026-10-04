@@ -149,3 +149,62 @@ does no harm. The reading now says so.
 
 Neither source says where the year begins for this annotation; the app
 takes 立春, as for every other year-keyed 暦注 (SPEC §7.5).
+
+## Weighing the annotations (SPEC §7.5, §10.4)
+
+**Checked 2026-10-04**, by analogy with the Tibetan page's weighing
+([weighing.md](weighing.md)): do the 暦注 rank, weigh or cancel one another?
+No source ranks one kind above another. A few rules act inside the lower
+band, and the app follows those.
+
+**Used.** Japanese Wikipedia 暦注下段 (after 岡田・阿久根 1993):
+
+- Its opening: «下段の暦注は本来、受死日（●）と十死日（十し）は他のものと重複して
+  記載されず». The two days stood alone in the lower band; modern almanacs
+  often print others beside them. The app sets the day's other 下段
+  annotations aside on either day. 受死日 and 十死日 never share a day: in
+  every solar month their branches differ (koyomi8 その３ gives both tables).
+- 受死日: «この日には他の暦注は一切見る必要がない», already in its reading.
+- 十死日: «受死日（黒日）の次に凶日とされ、全てのことに凶とされる。ただし、
+  受死日と違い、葬式も差し支えありとしている»; koyomi8 その３: «葬式にも凶».
+  Funerals are affected too. The reading had this backwards ("funerals are
+  not affected") and now says "funerals included".
+- 歳下食: «歳下食は軽い凶日とされ、他の暦注に吉日があれば、歳下食は忌む必要が
+  ない。ただし、他の凶日と重なると、より重くなる». Which days count as 吉日 and
+  凶日 is not said. The app takes the good and bad days of the lower band
+  and the 選日, not the 十二直's stations (nine of twelve are good, so the
+  rule would lift almost every 歳下食) and not the 縁日. Where a good and a
+  bad day both fall on it, the bad one decides: the 1901 table's condition
+  (above) also requires no other bad day.
+- 重日, 復日: they double what is done, «吉事には吉で、凶事には凶». Their tone
+  was already mixed.
+
+In 2026–2027, 歳下食 falls on a 大明日 every time (both are fixed by the
+sexagenary day), so it is set aside unless a bad day joins it: 2026-06-02 is
+lifted by 大明日, while on 2026-04-03 血忌日 makes it heavier. 2026-02-05 is
+a black day carrying 大明日, 天恩日 and 復日 (`RekichuTest`).
+
+**Found, not used:**
+
+- koyomi8 その２ on 一粒万倍日: «他の吉日と重なれば効果は倍増、凶日と重なると
+  効果半減と云われる». It is given as hearsay («と云われる»), and Wikipedia
+  一粒万倍日 calls the day itself without a source text.
+- Japanese Wikipedia 十二直: «昭和初期までは十二直が暦注中で最重視されていた».
+  This describes what people watched, not a ranking; its source is a personal
+  homepage.
+- The 宿曜経's days of weekday and mansion, 甘露日, 金剛峯日 and 羅刹日, are
+  the Japanese kin of the Tibetan combinations of weekday and mansion. They
+  count the 27 mansions by the lunar date. In the 28-mansion cycle that the
+  almanac uses from the Jōkyō calendar (NAOJ 暦Wiki 二十八宿: «暦注としては
+  貞享暦以降二十七宿に代わって採用»), every mansion falls on a fixed weekday
+  (角 Thursday, 鬼 Friday …), as NAOJ notes («曜日は7日なので二十八宿では
+  組み合わせが限られます»). The tables would make every 畢 and 尾 day a 甘露日
+  and every 翼, 参 and 柳 day a 羅刹日: a property of the mansion, not a
+  combination. The tables are known only from modern 宿曜 sites; whether the
+  具注暦 printed these days is not checked.
+- 欽定協紀辨方書 (1739), 卷10 (Wikisource, 四庫全書本), sets out a full
+  weighing in six grades, from «上吉足勝凶，從宜不從忌» to «最下凶叠大凶，遇德仍
+  諸事皆忌». It turns on the 建除 stations and the virtue spirits (天德, 月德),
+  and it rejects the older rule that any baleful spirit overrides a good one
+  («舊本凡吉神遇凶煞皆從忌而不從宜»). It is the Qing system; nothing found
+  says the Japanese almanac used it, and the 仮名暦 prints few of its spirits.

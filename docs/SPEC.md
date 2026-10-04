@@ -620,6 +620,21 @@ table prints 九紫火星 under 六白金星's 金剋木; the row's heading and 
 row give 三碧木星 and 四緑木星 there, which the app follows. All 81 pairs are a
 test vector.
 
+**The lower band's own rules** (Japanese Wikipedia 暦注下段, read 2026-10-04;
+[sources/kyureki.md](sources/kyureki.md)). No source ranks one kind of
+annotation above another; within the lower band three rules act:
+
+- 受死日 and 十死日 were printed alone in the lower band («他のものと重複して
+  記載されず»). On either day the day's other 下段 annotations are set aside:
+  they stay on the page, marked so, and do not count in the day in brief. The
+  two never fall on one day. The 選日 and 縁日 are separate lists and stay.
+- 歳下食 is a light bad day: with another annotation naming the day good it
+  need not be kept, and with another bad day it weighs more. The app takes the
+  good and bad days of the lower band and the 選日 (not the 縁日); with a bad
+  one it is heavier, else with a good one it is set aside. The 1901 table's
+  condition (no other bad day) agrees on the bad side.
+- 重日 and 復日 double what is done, good or bad; their tone is mixed.
+
 Left out, because their full rules cannot be recovered or need more than a date:
 神吉日 (almanacs apply undocumented exclusions), 凶会日 (conflicting tables),
 五墓日 (needs the 納音 of the birth year) and the hourly 時下食.
@@ -887,10 +902,13 @@ canvas "Zanshin Calendar — basic design".
   avoid (§10.7), a family in the mixed colour when one of its activities is
   named both ways; screen readers hear the counts. It opens the breakdown. The breakdown lists each activity
   with the annotations that name it, the annotations by tone, the day mark, and
-  for the owner the 三箇の悪日 and the 九星気学 relation. It is a listing, never a
-  verdict: no published rule says which annotation outranks another (下段 over
-  中段, 二十八宿 over 十二直), so none is weighed, and where annotations disagree
-  both sides are shown.
+  for the owner the 三箇の悪日 and the 九星気学 relation, and the annotations
+  set aside by the lower band's rules (§7.5) under the one that sets them
+  aside. It is a listing, never a verdict: no published rule ranks one kind of
+  annotation above another (下段 over 中段, 二十八宿 over 十二直), so the kinds
+  are not weighed, and where annotations disagree both sides are shown. A row
+  set aside says so ("set aside"), and its reading names what set it aside; a
+  heavier 歳下食 names the bad days that make it so.
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
   on the day a new one begins.
 - **Moon phase:** a phase glyph next to the date.
