@@ -146,8 +146,55 @@ What each names, in the verses (the app's lists, `Texts.COMBINATION_DAY`):
   (ཕུར་བུ་མ་གཏོགས་ཟུང་སྦྱོར་དང་། །ཆ་མཐུན་འདྲ་བ་སྤང་བླང་གཅེས།): the table has the same
   mansions in both columns but Thursday's.
 
-Then a second set "from the *Rdo rje gtsug lag*" (p. 337: *grub pa'i nyi
-ma*, *bdud kyi nyi ma*, *mi mthun*, *'jig nyi*, *mi 'phrod*, with other
-mansions), not in the table and not used by the app. WB closes: "of these,
-the individual results of planet and mansion are the main thing, to be
-examined in detail" (དེ་ཡང་གཟའ་སྐར་སོ་སོ་ཡི། །སྒེར་གྱི་འབྲས་བུ་གཙོ་བས་ཞིབ།).
+Then a second set "from the *Rdo rje gtsug lag*", which WB closes with:
+"of these, the individual results of planet and mansion are the main thing,
+to be examined in detail" (དེ་ཡང་གཟའ་སྐར་སོ་སོ་ཡི། །སྒེར་གྱི་འབྲས་བུ་གཙོ་བས་ཞིབ།).
+
+## The *Rdo rje gtsug lag*'s special days
+
+WB p. 337 (img. 345), the verse; p. 342 (img. 350), its table, under
+three headings: རྡོ་རྗེ་གཙུག་ལག་གི་གྲུབ་ཉི་མི་འདྲ་བཞི, བདུད་ཉི་རྡོ་རྗེ་གཙུག་ལག་ལུགས,
+མི་མཐུན་ཉི་མ་བཞི, and below them འཇིག་ཉི་བཞི and མི་འཕྲོད་ཉི་མ་གསུམ. Read
+2026-10-04: the verse by Yigdzin-1, MITRA and BDRC's etext, checked on the
+scan; the table on the scan at 3–6×, digit by digit (in this hand ༢ has
+one hook and ༣ two, as in KP). The introduction:
+
+> གཞན་ཡང་རྡོ་རྗེ་གཙུག་ལག་ནས། །བདུད་ཉི་རང་གཤེད་ལས་ལ་བརྩི། །མི་འཕྲོད་ཉི་མ་ལྟས་ངན་ནོ། །གྲུབ་པའི་ཉི་མར་བསྙེན་སྒྲུབ་བོ། །ཞེས་པ་གྲུབ་པའི་ཉི་མ་ནི། །
+
+"Further, from the *Rdo rje gtsug lag*: the demon day is reckoned against
+the work it is the bane of (*rang gshed*); the day of incompatibility is an
+ill omen; on the day of accomplishment, approach and accomplishment (*bsnyen
+sgrub*, a deity's retreat practice)." Yigdzin-1 reads ལྷས for ལྟས; MITRA
+and the etext have ལྟས, and so does the scan. The verse then names, weekday
+by weekday, the mansions of each day, with the editors' numbers; the table
+gives the same mansions, one to a cell, filling a weekday's spare cells
+with repeats. By WB's numbers (Sunday … Saturday):
+
+| Day | Sun | Mon | Tue | Wed | Thu | Fri | Sat |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| *grub pa'i nyi ma* | 24, 25, 26, 20 | 21, 3 | 25, 26, 2 | 2, 23 | 6, 7 | 21, 0 | 21 |
+| *bdud kyi nyi ma* | 16, 1 | 7, 19, 20, 5 | 20, 22, 15 | 0, 4 | 4, 15 | 8, 26 | 11, 12 |
+| *mi mthun nyi ma* | 9, 17, 18, 23 | 15, 21 (byi bzhin), 25 | 1, 0, 24, 5 | 1 | 15, 5, 16 | 9 | 13, 26 |
+| *'jig nyi* | 15, 19, 24 | 3, 20, 23 | 23, 24 | 3, 13, 18, 26 | 3, 18 | 3, 6, 10 | 8, 19, 20 |
+| *mi 'phrod nyi ma* | 9, 21, 22 | 5, 15, 16 | 5, 16, 18 | 18 | 21, 23, 26 | 3 | 10, 19, 20 |
+
+Every cell agrees with the verse's numbers and names. Where the OCR's
+numbers differ, the scan has the table's: *mi mthun*'s Saturday is ནག་པ(༡༣),
+Citrā, and *mi 'phrod*'s Sunday མོན་དྲེ(༢༢) and Thursday མོན་གྲུ(༢༣). Three
+names are worth a note:
+
+- **བྱི་བཞིན(༢༡)**, *mi mthun*'s Monday: Abhijit, which the editors number
+  21 like gro bzhin; never the day's mansion, so it drops out. Gro bzhin is
+  spelt out wherever the verse means it (གྲོ་བཞིན, once གྲོ་ཞུན).
+- **བྲེ(༡༩)**, *'jig nyi*'s Sunday: chu stod, Pūrvāṣāḍhā, as in WB's
+  verse of the personal mansions (p. 330, [personal-mansions.md](personal-mansions.md)).
+- **སྒྲོག(༢༣)**, *'jig nyi*'s Monday: mon gru, Śatabhiṣaj, as in the first
+  set's *'jig pa'i nyi ma* (Tuesday, སྒྲོག(༢༣)) and the *'chi sbyor* verse,
+  where Mars is bound by *sgrog*.
+
+**In the app** (SPEC §5.12): a day this table makes and WB's own table does
+not is shown as that kind, marked as the *Rdo rje gtsug lag*'s, with its
+line above where it has one and WB's reading of the kind, whose lists it
+keeps (the day of accomplishment adds dharma practice for *bsnyen sgrub*);
+it counts among the special days. In 2026 it adds a special day to 92 days,
+on some of them the only one.

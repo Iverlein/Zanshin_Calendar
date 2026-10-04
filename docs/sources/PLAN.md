@@ -21,7 +21,7 @@ passages and wrote the topic files.
 | 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found: the weekday's (pp. 308–312), now written out in [weekdays.md](weekdays.md) and built; weekday × mansion (pp. 331–333). |
 | 7. Kyūreki gaps | **Done**: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to the 簠簋内伝 (1919 and 1800 printings label the columns by birth year; the 1632 edition does not); O-Bon on 15 August and the sekku's Gregorian days sourced (Wikipedia お盆, NAOJ 節句); all three in the app ([kyureki.md](kyureki.md)). |
 | 8. Lunar-day animal, trigram, sme ba | **Done** (2026-10-04): the trigram is the day of one of WB's eight goddesses (vol. 1, pp. 449–450, read on the scan), its illness reading built; the date's sme ba and animal have no reading of their own in WB or KP, what was found is recorded with its reasons ([lunar-day-signs.md](lunar-day-signs.md); question 9). |
-| 9. Weighing the day | **Done** (2026-10-04): KP's ranking ([weighing.md](weighing.md)) and WB's combinations of weekday and mansion, the 28 named ones, the ten element pairs and the fifteen special days ([combinations.md](combinations.md)), read on the scans and built (SPEC §5.12). Rāhu's detailed course by date built too ([rahu.md](rahu.md)). Left: the second set of special days after the *Rdo rje gtsug lag* (WB p. 337); Rāhu's general course; the combination period, which needs the planets (SPEC §5.13). |
+| 9. Weighing the day | **Done** (2026-10-04): KP's ranking ([weighing.md](weighing.md)) and WB's combinations of weekday and mansion, the 28 named ones, the ten element pairs and the fifteen special days ([combinations.md](combinations.md)), read on the scans and built (SPEC §5.12). Rāhu's detailed course by date built too ([rahu.md](rahu.md)). The second set of special days, after the *Rdo rje gtsug lag* (WB p. 337, table p. 342), read and built too. Rāhu's general course read too, KP's chart (img. 78) agreeing date by date, and built on the fourteen dates the detailed course leaves (2026-10-04). Left: the combination period, which needs the planets (SPEC §5.13). |
 | 10. Facts on the pages, 2026-10-04 | **Done**: every hedge in the shown readings resolved or recorded. *shwa rags* is a dike against flash floods and *thag ser* read as *thog ser* (lightning and hail) ([lunar-dates.md](lunar-dates.md)); bzhi mdo's weapon-tormas confirmed by the Derge print ([karanas.md](karanas.md)); WB's seven classes of mansions read, correcting Henning's natures for three mansions ([mansions.md](mansions.md)); the yoga avoidance verse read as number words, 3/5/6/9 chu tshod ([yogas.md](yogas.md)); question 9 answered; weekday words looked up in 64 dictionaries ([weekdays.md](weekdays.md)); 歳下食 checked against a 1901 table ([kyureki.md](kyureki.md)). |
 | 11. Weighing the 暦注, 2026-10-04 | **Done**: no source ranks the kinds of annotation; within the lower band, 受死日 and 十死日 stand alone and 歳下食 is lifted by a good day and heavier with a bad one (Wikipedia 暦注下段), built; 十死日's funerals corrected; the 宿曜経 combinations, koyomi8's 一粒万倍日 rule and the 協紀辨方書 grades found and not used ([kyureki.md](kyureki.md)). |
 
@@ -73,10 +73,12 @@ says where to look and with which tool.
    was made from BDRC's OCR; recheck its section headings with
    `hf_read.py yigdzin` when a section is taken up.
 7. ~~The earth lords of each animal day~~ Read and built 2026-10-04
-   ([earth-lords.md](earth-lords.md), SPEC §5.11). Left from that chapter:
-   the day's earth lord counted from the year, the *bla mkhyen* and the
-   hearth god's place (its mouse-day entry unclear), and the day by the
-   clan's element, which needs the person's clan.
+   ([earth-lords.md](earth-lords.md), SPEC §5.11); the day's earth lord's
+   part of the house and the hearth god's place read and built too, with
+   KP's chart (img. 103) as second witness, which also has the mouse day's
+   སྲང. Left from that chapter: the *bla mkhyen*, which needs the sme ba of
+   the sixty-day count (the year's section of WB ch. 31 to be read first),
+   and the day by the clan's element, which needs the person's clan.
 
 **Tools and their limits** (all in `tools/sources/`, see *Tools* below):
 Yigdzin-1 is the main reader but **drops lines beside woodcuts** (WB

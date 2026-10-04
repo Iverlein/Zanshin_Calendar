@@ -402,10 +402,12 @@ English (§8.1), each reading citing its pages:
   person's progressed trigram and sme ba (T4) or of a sme ba counted from
   the solstice, so its row opens none. The date's animal is the *nyi ma*
   (open question 9): it carries the activity lists of §5.10 and, in WB's
-  chapter 31 (vol. 2, pp. 224–226, [earth-lords.md](sources/earth-lords.md)),
-  the earth lords of each animal day for the reckoning of the dead: where
-  the earth lord sits in the house, what is bad there and its remedy, and
-  the earth lord who witnesses the day with its funeral rules. Tapping the
+  chapter 31 (vol. 2, pp. 223–226, [earth-lords.md](sources/earth-lords.md),
+  with the *kun phan me long*'s chart, img. 103, as second witness), the
+  earth lords of each animal day for the reckoning of the dead: where the
+  earth lord sits in the house, what is bad there and its remedy, which
+  part of the house it keeps to, where the hearth god is, and the earth
+  lord who witnesses the day with its funeral rules. Tapping the
   animal's row opens them with the activity lists for a day of that animal;
   no tone, and not in the day in brief, which already counts those lists.
 
@@ -455,8 +457,13 @@ are times within the day (§5.13); the day is weighed thus:
   sbyor*, *zung sbyor*, *bdud rgyal*, *grub nyi*, *bkra shis nyi ma*, *'phel
   nyi*, *chub nyi*, *mthun nyi*, *sbyor nyi* lucky; *bdud kyi nyi ma*, *'chi
   sbyor*, *mi 'phrod*, *mi mthun*, *'jig pa'i nyi ma*, *gtan spang*
-  unlucky), the second tradition of a split column counted too. A day can be
-  several, or none.
+  unlucky), the second tradition of a split column counted too; and the
+  other reckoning WB quotes after it from the *Rdo rje gtsug lag* (p. 337,
+  its table p. 342) for five of the kinds (*grub nyi*, *bdud kyi nyi ma*,
+  *mi mthun*, *'jig pa'i nyi ma*, *mi 'phrod*), whose days WB's own table
+  does not make are shown marked as that text's, with its line on the day
+  and WB's reading of the kind, and are counted among the special days. A
+  day can be several, or none.
 - **An activity** is decided by the strongest tier that names it with one
   voice (the two combinations are one tier, the special days another); a
   tier whose factors name it both ways is passed over. Factors below that
@@ -496,9 +503,12 @@ against the date, karaṇa and yoga.
   back (1, 4, 6, 8, 11, 12, 14, 15, 17, 18, 21, 22, 24, 25, 27, 29): when,
   where to, how many days it stays, and what that day is good and bad for.
   The app shows the detailed course on those dates as a reading row
-  ("Rāhu's course") and weighs its lists (§5.12); the general course, whose
-  directions are not plain in places and which KP's chart groups otherwise,
-  is not shown.
+  ("Rāhu's course") and weighs its lists (§5.12). On the other fourteen
+  dates the same row gives the general course, when and from where to where
+  Rāhu moves, which the *kun phan me long*'s chart (§7, img. 78) confirms
+  date by date, with WB's rule for fierce work (go along with its course,
+  never face it, p. 238); it names no activities and takes no part in the
+  weighing.
 - **Not built**: the combination period (*tatkāla dus sbyor*), which the
   *kun phan me long* holds above everything: it is reckoned from the sign
   rising in each double hour (KP §9, img. 78–80) and the planets in it, and
@@ -719,8 +729,8 @@ fails on a wording with no entry and on an entry no wording uses.
 | Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329 |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
-| Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337 and 341, with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |
-| Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040) |
+| Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337, 341 and 342 (the *Rdo rje gtsug lag*'s special days), with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |
+| Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040); the *kun phan me long*'s chart of the general course, img. 78 (BDRC MW4CZ65561) |
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |

@@ -4,10 +4,11 @@ Sigla and the rules for quoting are in [README.md](README.md). WB vol. 2,
 ch. 31 (the earth lords), pp. 236–238 (img. 244–246), "the reckoning of
 Rāhu, chief of all planets" (གཟའ་ཀུན་གཙོ་བོ་རཱ་ཧུའི་རྩིས), read 2026-10-04:
 Yigdzin-1's reading, clean on these pages; the two doubtful words checked on
-the scan (691 px). KP §7–8 (img. 76–77) gives the same course as a chart.
-The *kun phan me long* ranks Rāhu first of the seven factors of a day
-([weighing.md](weighing.md)); the app builds the detailed course
-(`Texts.RAHU`, SPEC §5.13).
+the scan (691 px). KP §7 (on the scan img. 78) gives the general course as
+a chart. The *kun phan me long* ranks Rāhu first of the seven factors of a
+day ([weighing.md](weighing.md)); the app builds the detailed course
+(`Texts.RAHU`) and, on the other dates, the general one (`Texts.RAHU_GENERAL`,
+SPEC §5.13).
 
 ## The general course
 
@@ -18,10 +19,60 @@ printed:
 
 > སྤྱི་འདོམས་ནུ་རུའི་རྒྱུ་ལུགས་ནི། །ཚེས་གཅིག་ཉི་ཕྱེད་ལྷོ་ནུབ་ནས། །བྱང་ཤར་དུ་རྒྱུ་གཉིས་ཕྱེད་ཡོལ། །ཤར་ནས་ནུབ་ཏུ་གསུམ་ཉི་དྲོས། །ལྷོ་ནུབ་ནས་ནི་བྱང་ཤར་དུ། །བཞི་ལ་དཔུང་པ་གཡོན་པ་དག །མ་མོ་དམག་དཔོན་ལྗང་སྔོན་སྦྲུལ། །འཁོར་དུ་མ་མོ་བརྒྱད་དང་བཅས། །ཟླ་བ་ནུབ་དུས་ནུབ་ནས་ཤར། །ལྔ་ལ་ཉི་དྲོས་ཤར་ནས་ནུབ། །དྲུག་ལ་ཇོ་རེངས་བྱང་ནས་ལྷོ། །བདུན་ལ་སྲོད་དུས་བྱང་ནས་ལྷོར། །བརྒྱད་ལ་དཔུང་གཡས་དྲང་སྲོང་སྦྲུལ། །དགྲ་ལྟས་བསྐོར་ནས་ཤར་ལྷོ་ནས། །རྡེའུ་འགོ་དྲོས་ནུབ་བྱང་རྒྱུ། །ཚེས་དགུའི་སྲོད་ལ་དེ་བཞིན་དུ། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་ཏུ། །བཅུ་ཡི་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གཅིག་སྲོད་ལ་ཆུ་སོ་བདུད། །སྤྲུལ་ཞིང་ཟླ་བཅས་བྱང་ནས་ལྷོར། །བཅུ་གཉིས་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གསུམ་ནམ་ལངས་བྱང་ནས་ལྷོར། །བཅུ་བཞི་སྔ་དྲོ་མཁའ་ནས་མཚོར། །བཅོ་ལྔ་ཉི་ཕྱེད་མགོ་སྲིན་པོ། །བྷི་ཏར་སྤྲུལ་ནས་འཁོར་སྲིན་བརྒྱད། །དང་བཅས་ལྷོ་ནུབ་བྱང་ནས་ཤར། །བཅུ་དྲུག་ཉི་ནུབ་བྱང་ཤར་ནས། །ལྷོ་ནུབ་ཏུ་རྒྱུ་བཅུ་བདུན་ལ། །ནམ་ཕྱེད་ནུབ་ནས་ཤར་ཕྱོགས་རྒྱུ། །བཅོ་བརྒྱད་ནམ་ཕྱེད་མཇུག་མ་དག །ཀླུ་བདུད་རཱ་ཛར་སྤྲུལ་ནས་འཁོར། །ཀླུ་བཅས་ལྷོ་ནུབ་བྱང་ཤར་རྒྱུ། །བཅུ་དགུའི་སྔ་དྲོ་དང་པོ་ལ། །ལྷོ་ནས་བྱང་ཕྱོགས་ཉི་ཤུ་ལ། །ཉི་ཕྱེད་ཤར་ལྷོ་ནས་ནུབ་བྱང་། །ཉེར་གཅིག་སྐྱ་རེངས་ཤར་ནས་ནུབ། །ཉེར་གཉིས་ཉི་མ་ཕྱེད་ཡོལ་ལ། །གཤིན་རྗེ་དུ་བ་མཇུག་རིངས་སུ། །སྤྲུལ་འཁོར་ལྔ་བཅས་ནུབ་བྱང་ནས། །ཤར་ལྷོར་རྒྱུ་ཞིང་ཉེར་གསུམ་ལ། །ཉི་ཕྱེད་ནུབ་བྱང་ནས་ཤར་ལྷོ། །ཉེར་བཞི་ཉི་ཕྱེད་བྱང་ནས་ལྷོར། །ཉེར་ལྔ་སྐྱ་རེངས་ཤར་བའི་དུས། །དཔུང་གཡས་ཀླུ་བཙན་ཁྱབ་འཇུག་སྤྲུལ། །ཀླུ་བཙན་གྱིས་བསྐོར་ལྷོ་ནས་བྱང་། །ཉེར་དྲུག་ནམ་གྱི་ཕྱེད་ཡོལ་དུས། །ཤར་ནས་ནུབ་རྒྱུ་ཉེར་བདུན་གྱི། །ནམ་ཕྱེད་ལྷོ་ནུབ་ནས་བྱང་ཤར། །ཉེར་བརྒྱད་ཐོ་རེངས་བྱང་ནས་ལྷོར། །ཉེར་དགུའི་ཉི་མ་མདུང་གང་ལ། །དུམ་བུ་བརྒྱད་པོ་གཅིག་ཏུ་དྲིལ། །སྙིང་མིག་མཆེ་བ་སྒྲ་གཅན་འཛིན། །སྤྲུལ་ཏེ་བགེགས་རིགས་ཀྱིས་བསྐོར་ནས། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་ཏུ། །གནམ་གང་ལྷ་ཡི་འདུན་ས་ནས། །སྟེང་འོག་ཕྱོགས་མཚམས་ཁྱབ་པར་རྒྱུ།
 
-It names no activities, and some of its directions are not plain (the 14th
-"from the sky into the lake", the 15th "south-west, north, to the east").
-The app does not show it. KP's chart (img. 76) groups the dates otherwise
-and in places disagrees; the two are not reconciled here.
+It names no activities. KP's chart of the same course (§7, on the scan
+img. 78, not 76 as its list of contents has it; title སྒྲ་གཅན་ཚེས་ལ་ནུ་རུ་ལུགས་རྒྱུ་བའི་ཤོག་ཁྲ,
+"chart of Rāhu's *nu ru* course by date"), read 2026-10-04 box by box with
+Yigdzin-1 on 2× crops and checked on the scan, groups the dates by
+direction, nine boxes, and gives each date's time. Every date agrees with
+WB, and it settles the two places where WB's verse is not plain: the 15th
+(ལྷོ་ནུབ་བྱང་ནས་ཤར) and the 18th (ལྷོ་ནུབ་བྱང་ཤར་རྒྱུ) both stand in KP's box
+ལྷོ་ནུབ་ནས་བྱང་ཤར་རྒྱུ, south-west to north-east. The course, date by date:
+
+| Date | When | From → to |
+| --- | --- | --- |
+| 1 | noon (ཉི་ཕྱེད) | south-west → north-east |
+| 2 | after noon (ཕྱེད་ཡོལ) | east → west |
+| 3 | the warm of the morning (ཉི་དྲོས) | south-west → north-east |
+| 4 | moonset (ཟླ་བ་ནུབ་དུས); the left shoulder, as the *ma mo* general, a blue-green snake, with eight *ma mo* | west → east |
+| 5 | the warm of the morning | east → west |
+| 6 | dawn (ཇོ་རེངས, KP ཐོ་རེངས) | north → south |
+| 7 | dusk (སྲོད) | north → south |
+| 8 | རྡེའུ་འགོ་དྲོས (KP the same); the right shoulder, as the sage snake | south-east → north-west |
+| 9 | dusk | north-east → south-west |
+| 10 | dawn (སྐྱ་རེངས) | south → north |
+| 11 | dusk; as the *chu so bdud* | north → south |
+| 12 | dawn | south → north |
+| 13 | daybreak (ནམ་ལངས) | north → south |
+| 14 | morning (སྔ་དྲོ) | from the sky into the lake (KP: into the ocean) |
+| 15 | noon; the head, as the *srin po* Bhita, with eight *srin po* | south-west → north-east |
+| 16 | sunset (ཉི་ནུབ) | north-east → south-west |
+| 17 | midnight (ནམ་ཕྱེད) | west → east |
+| 18 | midnight; the tail, as the *klu bdud* Rāja, with *klu* | south-west → north-east |
+| 19 | early morning (སྔ་དྲོ་དང་པོ) | south → north |
+| 20 | noon | south-east → north-west |
+| 21 | dawn | east → west |
+| 22 | after noon; as Yama, the long-tailed smoke, with five | north-west → south-east |
+| 23 | noon | north-west → south-east |
+| 24 | noon | north → south |
+| 25 | dawn; the right shoulder, as Viṣṇu the *klu btsan*, with *klu btsan* | south → north |
+| 26 | after midnight (ནམ་གྱི་ཕྱེད་ཡོལ) | east → west |
+| 27 | midnight | south-west → north-east |
+| 28 | dawn (ཐོ་རེངས) | north → south |
+| 29 | the sun a spear high; the eight parts rolled into one, as Rāhu, with the obstructers | north-east → south-west |
+| 30 | — | from the meeting place of the gods, through above, below and every direction |
+
+On some of the sixteen dates the detailed course gives another time or
+direction (the 12th enters by the north gate at dusk and goes north to
+south, the 18th goes east to west); WB calls that course the more exact
+one, so the app shows it on those dates and the general course on the
+other fourteen (2, 3, 5, 7, 9, 10, 13, 16, 19, 20, 23, 26, 28, 30), with
+WB's rule for fierce work (p. 238): drive out obstacles while Rāhu moves,
+strike when it turns back, never facing it but going along with its course
+(རྒྱུ་བའི་དུས་ལ་བདུད་གཅོད་ཅིང་། །ལྡོག་པའི་དུས་སུ་གསོད་པར་གསུངས། །གདོང་ཐུག་མི་བྱ་རྒྱུ་དང་བསྟུན།).
+
+KP's other nine boxes on img. 78 are Rāhu's course over the hours of one
+day (ཉིན་ཞག་ཕྲུགས་གཅིག་གམ་དུས་ལ་འཁོར་བའི་སྒྲ་གཅན་རྒྱུ་དུས), WB's p. 239 passage:
+not read further here, and not built (SPEC §5.13).
 
 ## The detailed course
 

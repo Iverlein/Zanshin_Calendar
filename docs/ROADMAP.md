@@ -38,7 +38,8 @@ yoga, the karaṇa and the trigram (the eight goddesses of the date, SPEC
 the page in its rank, the day in brief deciding each activity by the
 strongest factor and the day's tone by the combinations of weekday and
 mansion (the 28 named ones and the element pairs), then the special days,
-then the side with more factors; Rāhu's course by date; the personal
+then the side with more factors, the *Rdo rje gtsug lag*'s special days
+(WB p. 337) among them; Rāhu's course by date; the personal
 mansions (SPEC §5.8); WB ch. 31's earth lords of the lunar date's animal
 (SPEC §5.11). The texts are in
 [sources/](sources/README.md), with a plan for what is still to be read
@@ -46,16 +47,14 @@ mansions (SPEC §5.8); WB ch. 31's earth lords of the lunar date's animal
 
 - **The hour-level factors** (SPEC §5.13): the combination period
   (*tatkāla dus sbyor*, KP §9), which the text holds above everything and
-  which needs the five planets; Rāhu's course by hour, year and month; the
-  second set of special days after the *Rdo rje gtsug lag* (WB p. 337).
+  which needs the five planets; Rāhu's course by hour, year and month.
 - **More activities** ([kun-phan-me-long.md](sources/kun-phan-me-long.md)):
   the *kun phan me long* tables hold many more activities than Henning's
   thirteen (naming, new clothes, building …), and two new calculable
   readings, *bla gza'* and *bla skar* (KP's second part §11).
 - **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
-  day's earth lord counted from the year, the *bla mkhyen*, the hearth
-  god's place, and the day by the clan's element (it needs the person's
-  clan).
+  *bla mkhyen* of the day (it needs the sme ba of the sixty-day count) and
+  the day by the clan's element (it needs the person's clan).
 - **Open readings** for a reader of the tradition
   ([open-questions.md](sources/open-questions.md)): the yoga ranking (1),
   SY's Mouse *gshed gza'* (5), the offerings box's khrums smad (6), sha

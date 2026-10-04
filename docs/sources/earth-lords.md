@@ -14,18 +14,85 @@ witnesses; the places where they part were checked on the scan. Yigdzin-1's
 scan. The text in parentheses is the editors' (variant names). Not read by
 eye syllable by syllable.
 
-The chapter gives several reckonings of the day's earth lords. Two are
-keyed by the day's animal alone and are used by the app; the others need
-what the app does not have:
+**Second witness** (2026-10-04): the *kun phan me long*'s chart of the
+day's earth lords (§16, on the scan img. 103, two images on from its list
+of contents), WB's passage carved as a chart: the day's earth lord drawn in
+the middle, rabbit-headed, and one box for each day animal round him, laid
+out as the house (south at the top), each box giving the seat in the house,
+whom it harms, the remedy, the hearth god's place and the witnessing earth
+lord. Read box by box with Yigdzin-1 on 2× crops; every seat, hearth god
+and witness agrees with WB.
 
-- the day's earth lord (*zhag gi sa bdag*, Gser mdzod ser po, p. 223),
-  which circles the house by the day and needs its position counted from
-  the year (*'dzem bcos lo yi skabs ltar*);
-- the *bla mkhyen* of the day, "in the seventh-red direction of the day",
-  and the hearth god's place (pp. 224–225), whose first entry (mouse day)
-  reads སྲང, not clear;
-- the day by the clan's element (*rus chen*, p. 225), which needs the
-  person's clan.
+The chapter gives several reckonings of the day's earth lords. Four are
+keyed by the day's animal and are used by the app; two are not:
+
+- **used:** the day's earth lord and its part of the house (p. 223), its
+  seat in the house (p. 224), the hearth god's place (p. 224) and the
+  witnessing earth lord (pp. 225–226), all below;
+- **not used:** the *bla mkhyen* of the day (p. 224, below), which needs
+  the day's sme ba square, and the day by the clan's element (*rus chen*,
+  p. 225), which needs the person's clan, something the app does not ask
+  and should not.
+
+## The day's earth lord and its part of the house
+
+p. 223 (img. 231), read on the scan:
+
+> ཞག་གི་ས་བདག་ངོ་བོ་བཞི། །གཙོ་བོ་གསེར་མཛོད་སེར་པོ(༡)ནི། །སྐུ་མདོག་དཀར་སྔོ་འོད་དང་ལྡན། །མི་ལུས་རི་བོང་མགོ་བོ་ཅན། […] ཞག་ལྷ་སུམ་བརྒྱ་དྲུག་ཅུས་བསྐོར། །ཁྱིམ་ནང་གནས་ཏེ་གཡོན་དུ་འཁོར(འགའ་ཞིག་ལས་བྱི་སྐོར་དུ་བཤད།)། །སྟག་གི་ཞག་ལ་ཤར་སྟོད་གནས། །དེས་འགྲེ་རང་རང་ཞག་གི་ཐོག །ལས་ཐབས་རོ་བག་རང་འཐག་འཛུགས། །མཁར་ལས་སྐས་འཛུགས་བང་པ་འཆའ། །སྐྱས་དང་ནས་འབྲས་སྐམ་ནོར་འཇལ། །དམག་དང་ཁྱིམ་གྱི་བྱ་བ་འཛེམ། །
+
+"Of the day's earth lords the chief is Gser mdzod ser po, white-blue and
+shining, with a man's body and a hare's head […]; with 360 day-gods round
+him he dwells in the house and circles to the left (some say from the
+mouse); on the tiger day he is in the upper east, and so on, each on its
+own day; [then] hearth, corpse, bride, setting up a mill, building, ladders,
+granaries, moving house, paying out barley, rice, dry goods and wealth, war
+and household work are avoided." The seat in the house (next section) is
+"this very one" (འདི་ཉིད་ནང་དཔྱད་ལ་གནས་ཚུལ), so the works avoided are the
+seats' own, and the passage adds no lists of its own.
+
+**Its part of the house** follows the day animals round the house from the
+tiger's upper east. KP's chart sets the twelve boxes in that order round
+the figure (south at the top): tiger and hare east, dragon south-east,
+snake and horse south, sheep south-west, monkey and bird west, dog
+north-west, pig and mouse north, ox north-east. The witnesses' funeral
+roads below name the same places, each day's own (tiger upper east, hare
+lower east, dragon south-east, snake upper south, sheep south-west, monkey
+upper west, bird lower west, dog north-west, pig upper north, mouse lower
+north). The app gives the quarter.
+
+## The hearth god's place
+
+p. 224 (img. 232), read on the scan; KP's boxes have the same twelve:
+
+> ཐབ་ལྷ(༤)སེ་ཤར་དག་གནས་ཚུལ། །མི་དཀར་ལག་ན་དར་དཀར་འཕྱར། །གཡོན་འཁོར་བྱི་བའི་ཉི་མར་སྲང་། །གླང་ལ་ཐབ་འོག་སྟག་ཉིར་ལྷོ། །ཡོས་ཤར་འབྲུག་ནུབ་སྦྲུལ་ཉིར་བྱང་། །རྟ་ཤར་ལུག་ནུབ་སྤྲེལ་ལ་བྱང་། །བྱ་ནུབ་ཁྱི་བྱང་ཕག་ལ་ལྷོ། །བྱ་བ་ཀུན་དང་ཁྱད་པར་དུ། །རོ་ལ་ཀོ་ལོང་གསོལ་བར་བྱེད། །ཉམས་ན་དོ་བདག་ཕ་ཚན་ངན། །
+
+| Day | Mouse | Ox | Tiger | Hare | Dragon | Snake | Horse | Sheep | Monkey | Bird | Dog | Pig |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hearth god | སྲང | under the hearth | south | east | west | north | east | west | north | west | north | south |
+
+"It takes offence at all work, and above all at a corpse; if it is harmed,
+it is bad for the head of the household's paternal kin." The mouse day's
+སྲང, which the first reading left open, is in KP's box too (ཐབ་ལྷ་སྲང), so it
+is the text's word, not a slip; *srang* is a lane or street. The app gives
+it as printed with that sense.
+
+## The *bla mkhyen* of the day
+
+p. 224 (img. 232), read on the scan:
+
+> ཞག་གི་བླ་མཁྱེན(༢)གནས་པའི་ཚུལ། །ཞག་དེའི་བདུན་དམར་ཕྱོགས་སུ་གནས། །དཔེར་ན་ཤིང་བྱི་ཐོག་མ་ལ། །ལྷོ་ནུབ་ཕྱོགས་ན་བླ་མཁྱེན་གནས། །འཛེམ་བཅོས་ལོ་ཡི་སྐབས་ལྟར་སྦྱར། །
+
+"It dwells in the direction of the day's seven-red: on the first wood-mouse
+day, for example, in the south-west; avoidance and remedy as in the year's
+section." The seven-red (བདུན་དམར) is the sme ba 7, as WB names the sme ba
+throughout (vol. 2, pp. 78–97). In the square of the nine with 5 in the
+middle (south at the top: 4 9 2 / 3 5 7 / 8 1 6) the 7 is in the west;
+with 1 in the middle it is in the south-west, so the example's day has the
+sme ba 1. Which count gives a day its sme ba, and which wood-mouse day is
+"the first", the passage does not say. The app has a wood-mouse day in
+its sixty-day count (`dayElement`, `dayAnimal`) but a sme ba only for the
+lunar date (Janson), not for the sixty-day count, and the year's section
+it points to was not read. Not built.
 
 The passage closes the clan reckoning with a caution that applies to the
 whole: the learned of Tibet (Mi pham dge legs and others) apply it to the
@@ -104,7 +171,8 @@ line is not used.
 | Pig | Gnyan be (or Gnyan khra phyug po) | no mourning; the corpse's road not to the upper north |
 
 **In the app** (SPEC §5.11): tapping the lunar-date animal's row opens a
-reading that joins the two tables for the day's animal, with KP's activity
+reading that joins, for the day's animal, the seat in the house, the
+earth lord's part of the house, the hearth god's place and the witness, with KP's activity
 lists for a day of that animal. It has no tone and does not enter the day
 in brief: it is funeral reckoning, and the funeral list of the activity
 lists already speaks for the day.

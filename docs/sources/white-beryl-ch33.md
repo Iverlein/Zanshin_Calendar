@@ -19,7 +19,7 @@ already written out have their file named.
 | 333–334 (341–342) | The element pairs of weekday and mansion with what each is good for (p. 333), Chinese and Indian elements (p. 334) | [combinations.md](combinations.md) | built: the element pair's reading and lists (SPEC §5.12) |
 | 335–337 (343–345) | Special days: *'grub sbyor*, *zung sbyor*, … *'chi sbyor*, the demon days, *gtan spang*; their table p. 341 | [combinations.md](combinations.md) | built (SPEC §5.12) |
 | 337–338 (345–346) | Days of destruction (*'jig pa'i nyi ma*), *srog sbyor*; the personal weekdays (*srog gza'*, *bla gza'*) and what to do on them | no | T3: the personal weekday, partly in the app already |
-| 339–342 (347–350) | Tables: the elements; per birth animal the *srog gza'*, *keg skar*, *gshed gza'* …; the *'grub sbyor*, demon, discordant (*mi mthun*) and destruction days after the *Rdo rje gtsug lag* | no | tables for the sections above |
+| 339–342 (347–350) | Tables: the elements; per birth animal the *srog gza'*, *keg skar*, *gshed gza'* …; p. 342 (img. 350): the *Rdo rje gtsug lag*'s days of accomplishment, demon, discord (*mi mthun*), destruction and incompatibility | the p. 342 table in [combinations.md](combinations.md) | p. 342 built (SPEC §5.12); the rest tables for the sections above |
 | 343–344 (351–352) | The karaṇas over the 60 half-days of the month | [karanas.md](karanas.md) | T2, karaṇas |
 | 345–346 (353–354) | The *bla skar*, *dur skar* (great and small), *srog skar* … by element | no | T3, personal mansions by element; to compare with p. 330 |
 | 347–349 (355–357) | The 27 yogas: long and short readings, those to avoid, a ranking | [yogas.md](yogas.md) | T2, yogas |
