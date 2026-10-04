@@ -56,6 +56,7 @@
     <string name="tib_personal_mansion_subtitle">%1$s, для вашего года рождения</string>
     <string name="tib_yoga_subtitle">йога: %1$s</string>
     <string name="tib_weekday_subtitle">планета: %1$s</string>
+    <string name="tib_trigram_subtitle">богиня дня %1$s</string>
     <string name="tib_karana_subtitle">карана: %1$s</string>
     <string name="tib_lunar_date_title">Лунное число %1$d</string>
     <string name="tib_lunar_date_subtitle">пятеричный цикл: %1$s</string>
@@ -227,6 +228,17 @@
     <string name="brief_for_you">Для вас</string>
     <string name="brief_birth_star">звезда рождения и звезда дня: %1$s</string>
     <string name="brief_note">Перечислено так, как дают источники. Ни одно опубликованное правило не ставит одну пометку выше другой, поэтому они не взвешиваются; где они расходятся, показаны обе стороны.</string>
+    <string name="brief_day_good">благоприятный день</string>
+    <string name="brief_day_bad">неблагоприятный день</string>
+    <string name="brief_day_special">сочетания расходятся; решают особые дни дня недели и созвездия</string>
+    <string name="brief_day_combination">оба сочетания дня недели и созвездия согласны</string>
+    <string name="brief_day_sides">сочетания расходятся; большинство факторов дня на этой стороне</string>
+    <string name="brief_day_strongest">факторы разделились поровну; решает сильнейший</string>
+    <string name="brief_note_tibetan">Взвешено так, как велят «Белый берилл» и kun phan me long: сначала сочетание дня недели и созвездия (именное сочетание и пара стихий), затем день недели и созвездие, затем особые дни дня недели и созвездия, затем число, карана, йога и животное дня. Занятие решает сильнейший из называющих его; перевешенные факторы не перечисляются.</string>
+    <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
+    <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
+    <string name="tib_rahu_title">Путь Раху</string>
+    <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
     <string name="brief_also_avoid">названо и среди «избегать»</string>
     <string name="brief_also_good">названо и среди «хорошо»</string>
     <string name="tone_lucky">благоприятно</string>

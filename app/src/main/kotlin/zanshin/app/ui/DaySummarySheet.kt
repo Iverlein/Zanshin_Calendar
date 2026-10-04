@@ -42,6 +42,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DaySummary
+import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
 import zanshin.core.texts.family
 
@@ -58,7 +59,8 @@ private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWe
 fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
     val disputed = summary.activities.count { it.disputed }
-    val spoken = stringResource(R.string.kyu_in_brief) + ": " +
+    val dayLabel = summary.verdict?.let { stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) }
+    val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
         stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
         if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else ""
     Row(
@@ -71,7 +73,13 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
+                summary.verdict?.let { v ->
+                    Box(Modifier.size(8.dp).background(toneColor(v.tone), CircleShape))
+                    Text(dayLabel!!, style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                }
+            }
             FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
             FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
         }
@@ -91,7 +99,7 @@ private fun FamilyLine(label: String, families: List<ActivityFamily>, disputed: 
     }
 }
 
-/** The breakdown behind the day's summary line (ROADMAP R3): a listing, never a verdict. */
+/** The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed day on the Tibetan one (SPEC §5.12). */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
@@ -123,6 +131,29 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                 }
             }
 
+            s.verdict?.let { v ->
+                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Box(Modifier.padding(top = 8.dp).size(10.dp).background(toneColor(v.tone), CircleShape))
+                    Column {
+                        Text(
+                            stringResource(if (v.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad),
+                            style = body.copy(fontSize = 18.sp),
+                        )
+                        Text(
+                            stringResource(
+                                when (v.by) {
+                                    VerdictBy.COMBINATION_DAY -> R.string.brief_day_special
+                                    VerdictBy.COMBINATION -> R.string.brief_day_combination
+                                    VerdictBy.SIDES -> R.string.brief_day_sides
+                                    VerdictBy.STRONGEST -> R.string.brief_day_strongest
+                                },
+                            ),
+                            style = body.copy(fontSize = 14.sp, color = Palette.muted),
+                        )
+                    }
+                }
+            }
+
             ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
             ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
 
@@ -151,7 +182,7 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
             }
 
             Text(
-                stringResource(R.string.brief_note),
+                stringResource(if (s.verdict != null) R.string.brief_note_tibetan else R.string.brief_note),
                 style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp),
             )
         }

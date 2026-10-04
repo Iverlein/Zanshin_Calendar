@@ -219,6 +219,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
         val lunarDateSubtitle = stringResource(R.string.tib_lunar_date_subtitle, LunarDayClass.of(day.day).english)
         val whiteBerylLabel = stringResource(R.string.detail_white_beryl)
+        val rahuTitle = stringResource(R.string.tib_rahu_title)
+        val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
+        val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
+        val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val annotations = buildList {
             holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
@@ -238,25 +242,18 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     ),
                 )
             }
+            // The day's readings in the rank of the White Beryl and the kun phan me long (SPEC §5.12):
+            // the combinations, the weekday and the mansion, the special days, the date, karaṇa and yoga.
+            val great = day.greatCombination
             add(
                 Annotation(
-                    lunarDateTitle,
-                    LunarDayClass.of(day.day).english,
-                    Texts.lunarDateTone(day.day),
-                    Texts.LUNAR_DATE[day.day - 1],
-                    subtitle = lunarDateSubtitle,
+                    great.english.replaceFirstChar(Char::uppercase),
+                    great.wylie,
+                    if (great.lucky) Tone.GOOD else Tone.BAD,
+                    Texts.GREAT_COMBINATION[great],
+                    subtitle = greatCombinationSubtitle,
                     titleIsKanji = false,
-                ),
-            )
-            add(
-                Annotation(
-                    day.weekday.english,
-                    day.weekday.planet,
-                    Texts.weekdayTone(day.weekday),
-                    Texts.WEEKDAY[day.weekday],
-                    subtitle = weekdaySubtitle,
-                    titleIsKanji = false,
-                    glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
+                    details = listOf(whiteBerylLabel to great.wylie),
                 ),
             )
             val pair = day.elementPair
@@ -276,6 +273,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { ElementPairGrid(day.weekday.element, day.mansion.element) },
                 ),
             )
+            Texts.RAHU[day.day]?.let { r ->
+                add(Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
+            }
+            add(
+                Annotation(
+                    day.weekday.english,
+                    day.weekday.planet,
+                    Texts.weekdayTone(day.weekday),
+                    Texts.WEEKDAY[day.weekday],
+                    subtitle = weekdaySubtitle,
+                    titleIsKanji = false,
+                    glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
+                ),
+            )
             val mansionReading = Texts.MANSION.getValue(day.mansion)
             add(
                 Annotation(
@@ -289,15 +300,27 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
             )
+            day.combinationDays.forEach { c ->
+                add(
+                    Annotation(
+                        c.english.replaceFirstChar(Char::uppercase),
+                        c.wylie,
+                        if (c.lucky) Tone.GOOD else Tone.BAD,
+                        Texts.COMBINATION_DAY[c],
+                        subtitle = combinationDaySubtitle,
+                        titleIsKanji = false,
+                        details = listOf(whiteBerylLabel to c.wylie),
+                    ),
+                )
+            }
             add(
                 Annotation(
-                    day.yoga.sanskrit,
-                    day.yoga.english,
-                    Texts.YOGA_TONE.getValue(day.yoga),
-                    Texts.YOGA[day.yoga],
-                    subtitle = yogaSubtitle,
+                    lunarDateTitle,
+                    LunarDayClass.of(day.day).english,
+                    Texts.lunarDateTone(day.day),
+                    Texts.LUNAR_DATE[day.day - 1],
+                    subtitle = lunarDateSubtitle,
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
                 ),
             )
             add(
@@ -309,6 +332,17 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = karanaSubtitle,
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
+                ),
+            )
+            add(
+                Annotation(
+                    day.yoga.sanskrit,
+                    day.yoga.english,
+                    Texts.YOGA_TONE.getValue(day.yoga),
+                    Texts.YOGA[day.yoga],
+                    subtitle = yogaSubtitle,
+                    titleIsKanji = false,
+                    details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
                 ),
             )
             val haircut = Texts.HAIRCUT[day.day - 1]
@@ -345,19 +379,19 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         SectionTitle(stringResource(R.string.section_five_components))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
             FactRow(
-                stringResource(R.string.row_lunar_mansion),
-                day.mansion.wylie,
-                "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}",
-                lead = { CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 20.dp) },
-            )
-            FactRow(stringResource(R.string.row_yoga), day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
-            FactRow(stringResource(R.string.row_karana), day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
-            FactRow(
                 stringResource(R.string.row_weekday),
                 "gza’ ${day.weekday.wylie}",
                 "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}",
                 lead = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 20.dp) },
             )
+            FactRow(
+                stringResource(R.string.row_lunar_mansion),
+                day.mansion.wylie,
+                "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}",
+                lead = { CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 20.dp) },
+            )
+            FactRow(stringResource(R.string.row_karana), day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
+            FactRow(stringResource(R.string.row_yoga), day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
         }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
@@ -369,11 +403,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 tibetan = false,
                 lead = { CueIcon(CueGlyphs.ANIMAL.getValue(day.lunarDayAnimal), Palette.text, 22.dp) },
             )
+            val trigramAnnotation = Annotation(
+                day.trigram.goddess.replaceFirstChar(Char::uppercase),
+                stringResource(R.string.tib_trigram_subtitle, day.trigram.wylie),
+                Tone.NEUTRAL,
+                Texts.TRIGRAM[day.trigram],
+                titleIsKanji = false,
+                details = listOf(whiteBerylLabel to day.trigram.goddess),
+            )
             FactRow(
                 stringResource(R.string.row_trigram),
                 day.trigram.wylie,
                 "${day.trigram.chinese} — ${day.trigram.english}",
                 lead = { TrigramBars(day.trigram, 22.dp) },
+                onClick = { sheet = trigramAnnotation },
             )
             val colour = SME_BA_COLOURS[day.smeBa - 1]
             val number = "${day.smeBa} · ${Catalog.text("Colour.$colour")}"
@@ -520,9 +563,11 @@ fun FactRow(
     swatch: Color? = null,
     /** Glyphs drawn between the label and the term (SPEC §10.4). */
     lead: (@Composable () -> Unit)? = null,
+    /** Opens the term's reading, for the few facts that have one. */
+    onClick: (() -> Unit)? = null,
 ) {
     Row(
-        Modifier.fillMaxWidth().heightIn(min = 40.dp),
+        Modifier.fillMaxWidth().heightIn(min = 40.dp).let { if (onClick != null) it.clickable(onClick = onClick) else it },
         verticalAlignment = if (tibetan && lead == null) Alignment.Top else Alignment.CenterVertically,
     ) {
         Text(

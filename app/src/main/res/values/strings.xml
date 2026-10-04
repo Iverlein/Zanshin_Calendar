@@ -75,6 +75,7 @@
     <string name="tib_yoga_subtitle">yoga: %1$s</string>
     <!-- the weekday's reading row, by its planet: "planet: Saturn" -->
     <string name="tib_weekday_subtitle">planet: %1$s</string>
+    <string name="tib_trigram_subtitle">goddess of the %1$s day</string>
     <!-- the karaṇa's English name: "karaṇa: the merchant" -->
     <string name="tib_karana_subtitle">karaṇa: %1$s</string>
     <!-- the reading row of the lunar date: "Lunar date 12" -->
@@ -262,6 +263,17 @@
     <string name="brief_for_you">For you</string>
     <string name="brief_birth_star">birth star and day star: %1$s</string>
     <string name="brief_note">Listed as the sources give them. No published rule says which annotation outranks another, so none is weighed against the others; where they disagree, both are shown.</string>
+    <string name="brief_day_good">a lucky day</string>
+    <string name="brief_day_bad">an unlucky day</string>
+    <string name="brief_day_special">the combinations disagree; the special days of weekday and mansion decide</string>
+    <string name="brief_day_combination">the two combinations of weekday and mansion agree</string>
+    <string name="brief_day_sides">the combinations disagree; most of the day\'s factors go this way</string>
+    <string name="brief_day_strongest">the factors are evenly split; the strongest decides</string>
+    <string name="brief_note_tibetan">Weighed as the White Beryl and the kun phan me long say: the combination of weekday and mansion (its named combination and the element pair) first, then the weekday and the mansion, then the special days of weekday and mansion, then the date, the karaṇa, the yoga and the day animal. An activity is decided by the strongest that names it; factors that are outweighed are not listed.</string>
+    <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
+    <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
+    <string name="tib_rahu_title">Rāhu\'s course</string>
+    <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
     <string name="brief_also_avoid">also named to avoid</string>
     <string name="brief_also_good">also named good</string>
     <string name="tone_lucky">lucky</string>
