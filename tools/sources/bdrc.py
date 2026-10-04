@@ -130,6 +130,7 @@ def scans(out, volume, first=1, last=None, width=None):
 
 def main(argv):
     if len(argv) >= 3 and argv[0] == "etext":
+        Path(argv[1]).mkdir(parents=True, exist_ok=True)
         for given in argv[2:]:
             for ve in etext_volumes(given):
                 etext(ve, Path(argv[1]) / f"{ve}.txt")
