@@ -53,6 +53,13 @@
     <string name="tib_element_pair_subtitle">стихии дня недели и созвездия: %1$s</string>
     <string name="tib_mansion_subtitle">лунное созвездие: %1$s</string>
     <string name="tib_haircut">Стрижка</string>
+    <string name="tib_personal_mansion_subtitle">%1$s, для вашего года рождения</string>
+    <string name="tib_yoga_subtitle">йога: %1$s</string>
+    <string name="tib_weekday_subtitle">планета: %1$s</string>
+    <string name="tib_karana_subtitle">карана: %1$s</string>
+    <string name="tib_lunar_date_title">Лунное число %1$d</string>
+    <string name="tib_lunar_date_subtitle">пятеричный цикл: %1$s</string>
+    <string name="detail_white_beryl">В «Белом берилле»</string>
     <string name="section_almanac">Альманах</string>
     <string name="section_your_day">Ваш день</string>
     <string name="pebble_row_title">%1$s  %2$s</string>

@@ -68,6 +68,7 @@ import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearForces
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
 
@@ -211,12 +212,53 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
         val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
+        val yogaSubtitle = stringResource(R.string.tib_yoga_subtitle, day.yoga.english)
+        val personalMansionSubtitle = stringResource(R.string.tib_personal_mansion_subtitle, day.mansion.sanskrit)
+        val karanaSubtitle = stringResource(R.string.tib_karana_subtitle, day.karana.english)
+        val weekdaySubtitle = stringResource(R.string.tib_weekday_subtitle, day.weekday.planet)
+        val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
+        val lunarDateSubtitle = stringResource(R.string.tib_lunar_date_subtitle, LunarDayClass.of(day.day).english)
+        val whiteBerylLabel = stringResource(R.string.detail_white_beryl)
         val annotations = buildList {
             holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
             info.personalDay?.let {
                 add(Annotation(it.english, forBirthYear, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false))
             }
+            info.personalMansions.forEach {
+                add(
+                    Annotation(
+                        it.english,
+                        forBirthYear,
+                        Texts.personalMansionTone(it),
+                        Texts.PERSONAL_MANSION[it],
+                        subtitle = personalMansionSubtitle,
+                        titleIsKanji = false,
+                        details = listOf(whiteBerylLabel to it.wylie),
+                    ),
+                )
+            }
+            add(
+                Annotation(
+                    lunarDateTitle,
+                    LunarDayClass.of(day.day).english,
+                    Texts.lunarDateTone(day.day),
+                    Texts.LUNAR_DATE[day.day - 1],
+                    subtitle = lunarDateSubtitle,
+                    titleIsKanji = false,
+                ),
+            )
+            add(
+                Annotation(
+                    day.weekday.english,
+                    day.weekday.planet,
+                    Texts.weekdayTone(day.weekday),
+                    Texts.WEEKDAY[day.weekday],
+                    subtitle = weekdaySubtitle,
+                    titleIsKanji = false,
+                    glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
+                ),
+            )
             val pair = day.elementPair
             add(
                 Annotation(
@@ -245,6 +287,28 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
                     diagram = { MansionRing(day.mansion, 280.dp) },
+                ),
+            )
+            add(
+                Annotation(
+                    day.yoga.sanskrit,
+                    day.yoga.english,
+                    Texts.YOGA_TONE.getValue(day.yoga),
+                    Texts.YOGA[day.yoga],
+                    subtitle = yogaSubtitle,
+                    titleIsKanji = false,
+                    details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
+                ),
+            )
+            add(
+                Annotation(
+                    day.karana.sanskrit,
+                    day.karana.english,
+                    Texts.KARANA_TONE.getValue(day.karana),
+                    Texts.KARANA[day.karana],
+                    subtitle = karanaSubtitle,
+                    titleIsKanji = false,
+                    details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
                 ),
             )
             val haircut = Texts.HAIRCUT[day.day - 1]

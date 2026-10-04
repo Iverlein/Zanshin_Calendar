@@ -96,8 +96,7 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
             .padding(horizontal = 28.dp, vertical = 20.dp),
         verticalArrangement = Arrangement.spacedBy(18.dp),
     ) {
-        val festival = day.festival
-        if (festival != null) {
+        for (festival in listOfNotNull(day.festival, day.gregorianFestival)) {
             val a = Annotation(festival.kanji, "${festival.romaji} — ${festival.english}", Tone.GOOD, Texts.JAPANESE_FESTIVAL[festival.kanji])
             Row(
                 Modifier.clickable(role = Role.Button) { sheet = a },

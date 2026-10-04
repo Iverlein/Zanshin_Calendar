@@ -69,6 +69,20 @@
     <!-- the lunar mansion's English name: "lunar mansion: horse-woman" -->
     <string name="tib_mansion_subtitle">lunar mansion: %1$s</string>
     <string name="tib_haircut">Haircut</string>
+    <!-- a personal mansion's row: the day's mansion, by its Sanskrit name: "Mṛgaśiras, for your birth year" -->
+    <string name="tib_personal_mansion_subtitle">%1$s, for your birth year</string>
+    <!-- the yoga's English name: "yoga: support" -->
+    <string name="tib_yoga_subtitle">yoga: %1$s</string>
+    <!-- the weekday's reading row, by its planet: "planet: Saturn" -->
+    <string name="tib_weekday_subtitle">planet: %1$s</string>
+    <!-- the karaṇa's English name: "karaṇa: the merchant" -->
+    <string name="tib_karana_subtitle">karaṇa: %1$s</string>
+    <!-- the reading row of the lunar date: "Lunar date 12" -->
+    <string name="tib_lunar_date_title">Lunar date %1$d</string>
+    <!-- the date's place in the five-fold cycle, by its English name: "five-fold cycle: joy" -->
+    <string name="tib_lunar_date_subtitle">five-fold cycle: %1$s</string>
+    <!-- a detail row of a yoga's reading: the name the White Beryl gives it, in Wylie -->
+    <string name="detail_white_beryl">In the White Beryl</string>
     <string name="section_almanac">Almanac</string>
     <string name="section_your_day">Your day</string>
     <!-- "Vitality  ○○": the aspect, then the pebbles -->

@@ -19,7 +19,9 @@ import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.Sign
+import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.personalDay
+import zanshin.core.tibetan.personalMansions
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.time.SUPPORTED_RANGE
@@ -40,6 +42,8 @@ class DayInfo private constructor(
     val rekichu: RekichuDay,
     /** Luck, life or anti day for the owner's birth year, if a birth date is set. */
     val personalDay: PersonalDay?,
+    /** Which of the owner's personal mansions the day's mansion is, if a birth date is set: none, one, or two. */
+    val personalMansions: List<PersonalMansion>,
     /** The sign of the birth year, if a birth date is set: its aspects are set against the day's, month's and year's. */
     val birthSign: Sign?,
     /** The year, month and lunar-date signs of the elemental divination for this day. */
@@ -58,6 +62,7 @@ class DayInfo private constructor(
                 moonElongation = Astro.moonElongationDeg(date.atTime(LocalTime.of(21, 0)).atZone(zone).toInstant()),
                 rekichu = Rekichu.of(date, birth),
                 personalDay = born?.let { personalDay(it.yearAnimal, tibetan.weekday) },
+                personalMansions = born?.let { personalMansions(it.yearAnimal, tibetan.mansion) }.orEmpty(),
                 birthSign = born?.let { Sign(it.yearElement, it.yearAnimal) },
                 signs = Forces.signs(tibetan),
             )

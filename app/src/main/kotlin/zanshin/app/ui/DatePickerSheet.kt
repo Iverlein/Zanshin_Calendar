@@ -161,7 +161,7 @@ private fun DayCell(
         CalendarKind.TIBETAN -> "${info.tibetan.day}" + if (info.tibetan.holiday != null) " •" else ""
         CalendarKind.KYUREKI -> {
             val k = info.kyureki
-            (if (k.day == 1) "${k.month}/1" else "${k.day}") + if (k.festival != null) " •" else ""
+            (if (k.day == 1) "${k.month}/1" else "${k.day}") + if (k.festival != null || k.gregorianFestival != null) " •" else ""
         }
     }
     Column(
