@@ -86,9 +86,10 @@ class ElectionalTest {
         assertEquals(listOf(Weekday.WEDNESDAY, 19, Mansion.ASHVINI, Animal.SHEEP, Trigram.LI), listOf(day.weekday, day.day, day.mansion, day.dayAnimal, day.trigram))
         val s = DaySummary.of(day)
         val marriage = s.activities.single { it.activity == Activity.WEDDING }
-        // Marriage lists Wednesday, the 19th, Aśvinī and the li trigram as bad, and the sheep as good.
-        assertEquals(listOf("Wednesday", "day 19", "Aśvinī", "Li"), marriage.avoid.map { it.kanji })
-        assertEquals(listOf("Sheep"), marriage.good.map { it.kanji })
-        assertTrue(marriage.disputed)
+        // Marriage lists Wednesday, Aśvinī, the 19th and the li trigram as bad, and the sheep as good:
+        // the weekday decides, the death combination agrees below the mansion (SPEC §5.12); the sheep is outweighed.
+        assertEquals(listOf("Wednesday", "Aśvinī", "Death combination", "day 19", "Li"), marriage.avoid.map { it.kanji })
+        assertTrue(marriage.good.isEmpty())
+        assertFalse(marriage.disputed)
     }
 }

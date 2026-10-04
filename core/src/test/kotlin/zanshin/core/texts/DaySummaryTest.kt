@@ -11,6 +11,7 @@ import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.Rokuyo
+import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.TibetanCalendar
 import java.time.LocalDate
 
@@ -64,13 +65,43 @@ class DaySummaryTest {
     }
 
     @Test
-    fun `the Tibetan summary line of 1 November 2026`() {
+    fun `the Tibetan day of 1 November 2026, weighed`() {
+        // Sunday with Ārdrā: no special day; the raven and fire with water, both unlucky, decide (SPEC §5.12).
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(setOf(ActivityFamily.WEDDING, ActivityFamily.RITE, ActivityFamily.BLADE), s.disputedFamilies)
-        assertEquals(
-            listOf(ActivityFamily.WEDDING, ActivityFamily.LEARNING, ActivityFamily.MEDICINE, ActivityFamily.PRAYER, ActivityFamily.RITE, ActivityFamily.BLADE),
-            s.goodFamilies,
-        )
+        assertEquals(DayVerdict(Tone.BAD, VerdictBy.COMBINATION), s.verdict)
+        assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi", "Khon"), s.byTone.getValue(Tone.BAD).map { it.kanji })
+        assertEquals(setOf(Tone.BAD), s.byTone.keys)
+        // Funerals: no combination names them, so Sunday decides, and the weaker factors that agree stand beside it.
+        assertEquals(listOf("Sunday", "Ārdrā", "Rabbit", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
+        // Destroying: the element pair, the death combination, names it first.
+        assertEquals(listOf("Fire – Water", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
+    }
+
+    @Test
+    fun `where the combinations disagree, the special days decide`() {
+        // 18 January 2026: Sunday with Mūla is grub (lucky) but fire with water (unlucky);
+        // the demon king and a day of accomplishment, both lucky, settle it (SPEC §5.12).
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 18)))
+        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.COMBINATION_DAY), s.verdict)
+        assertEquals(listOf("Accomplishment", "Demon king", "Day of accomplishment"), s.byTone.getValue(Tone.GOOD).take(3).map { it.kanji })
+    }
+
+    @Test
+    fun `every Tibetan activity is decided by the strongest factor that names it`() {
+        val rank = DayFactor.entries.map { it.english }
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            assertTrue(s.disputedFamilies.isEmpty(), "$date")
+            for (n in s.activities) {
+                val side = n.good + n.avoid
+                assertTrue(n.good.isEmpty() || n.avoid.isEmpty(), "$date ${n.activity}")
+                assertEquals(side.sortedBy { rank.indexOf(it.english) }, side, "$date ${n.activity}: rank order")
+            }
+            val verdict = s.verdict!!
+            assertTrue(s.byTone.keys.all { it == verdict.tone }, "$date: only the day's tone is listed")
+            date = date.plusDays(1)
+        }
     }
 
     @Test

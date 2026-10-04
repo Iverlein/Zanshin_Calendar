@@ -161,10 +161,81 @@ enum class ElementPair(val a: IndianElement, val b: IndianElement, val wylie: St
     }
 }
 
-/** The eight trigrams (spar kha) in Janson's Table 15 order. */
-enum class Trigram(val wylie: String, val chinese: String) {
-    LI("li", "離"), KHON("khon", "坤"), DWA("dwa", "兌"), KHEN("khen", "乾"),
-    KHAM("kham", "坎"), GIN("gin", "艮"), ZIN("zin", "震"), ZON("zon", "巽");
+/**
+ * The 28 named combinations of weekday and mansion ('phrod chen), in the
+ * order of the White Beryl's table (vol. 1, pp. 148–149): [lucky] as its
+ * readings (vol. 2, pp. 331–333) call them. Counted over the 28 mansions in
+ * the White Beryl's order, Abhijit after Śravaṇa, from Aśvinī on Sunday and
+ * four mansions further on each weekday after it (docs/sources/combinations.md).
+ */
+enum class GreatCombination(val wylie: String, val lucky: Boolean) {
+    KUN_DGA("kun dga'", true), DUS_DBYIG("dus dbyig", false), DUL("dul ba", true), SKYE_DGU("skye dgu", true),
+    GZHON("gzhon", true), BYA_ROG("bya rog", false), RGYAL_MTSHAN("rgyal mtshan", true), DPAL_BEU("dpal be'u", true),
+    RDO_RJE("rdo rje", false), THO_BA("tho ba", false), GDUGS("gdugs", true), GROGS("grogs", true),
+    YID("yid", true), DOD("'dod", true), MGAL_ME("mgal me", false), RTSA_BTON("rtsa bton", false),
+    CHI_BDAG("'chi bdag", false), MDA("mda'", false), GRUB("grub", true), MDUNG("mdung", false),
+    BDUD_RTSI("bdud rtsi", true), GTUN_SHING("gtun shing", false), GLANG_PO("glang po", true), RTAG_MYOS("rtag myos", true),
+    ZAD_PA("zad pa", false), GYO("g.yo", true), BRTAN("brtan", false), PHEL("'phel", true);
+
+    val english: String get() = gloss(this)
+
+    companion object {
+        /** The mansion's place among the 28 in the White Beryl's order, Abhijit (byi bzhin) after Śravaṇa (gro bzhin). */
+        fun place(m: Mansion): Int = if (m.ordinal <= Mansion.SHRAVANA.ordinal) m.ordinal else m.ordinal + 1
+
+        /** Sunday starts at Aśvinī, each weekday after it four mansions on (Saturday at Śatabhiṣaj). */
+        fun of(w: Weekday, m: Mansion): GreatCombination =
+            entries[Math.floorMod(place(m) - 4 * Math.floorMod(w.ordinal - Weekday.SUNDAY.ordinal, 7), 28)]
+    }
+}
+
+/**
+ * The special days of weekday and mansion the White Beryl names (vol. 2,
+ * pp. 335–337, its table p. 341; docs/sources/combinations.md): for each,
+ * the mansions that make it on Sunday … Saturday, by WB's numbers (0 tha
+ * skar … 21 gro bzhin … 26 nam gru; [ABHIJIT] for byi bzhin, never the day's
+ * mansion), the second column of the table, where it has one, counted too.
+ */
+enum class CombinationDay(val wylie: String, val lucky: Boolean, private val table: List<List<Int>>) {
+    GRUB_SBYOR("'grub sbyor", true, listOf(listOf(12), listOf(21), listOf(0), listOf(16), listOf(7), listOf(26), listOf(3))),
+    ZUNG_SBYOR("zung sbyor", true, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(11), listOf(3), listOf(19))),
+    BDUD_RGYAL("bdud rgyal", true, listOf(listOf(18), listOf(ABHIJIT), listOf(25), listOf(2), listOf(6), listOf(10), listOf(14))),
+    GRUB_NYI("grub nyi", true, listOf(listOf(18, 19), listOf(22, 13), listOf(25), listOf(2), listOf(7, 6), listOf(10), listOf(15, 14))),
+    BKRA_SHIS_NYI("bkra shis nyi ma", true, listOf(listOf(25), listOf(8), listOf(14, 10), listOf(17), listOf(11), listOf(2), listOf(3, 14))),
+    PHEL_NYI("'phel nyi", true, listOf(listOf(3), listOf(14, 19), listOf(7, 6), listOf(16), listOf(25), listOf(4), listOf(24, 22))),
+    CHUB_NYI("chub nyi", true, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(24), listOf(3), listOf(19))),
+    MTHUN_NYI("mthun nyi", true, listOf(listOf(17), listOf(25), listOf(24), listOf(1), listOf(0), listOf(9), listOf(26))),
+    SBYOR_NYI("sbyor nyi", true, listOf(listOf(4), listOf(17), listOf(2), listOf(19, 1), listOf(23, 22), listOf(0, 21), listOf(12, 17))),
+    BDUD_NYI("bdud kyi nyi ma", false, listOf(listOf(2), listOf(11), listOf(8), listOf(19), listOf(4), listOf(7), listOf(23))),
+    CHI_SBYOR("'chi sbyor", false, listOf(listOf(16), listOf(2), listOf(23), listOf(0), listOf(4), listOf(3), listOf(12))),
+    MI_PHROD_NYI("mi 'phrod nyi ma", false, listOf(listOf(22, 21), listOf(15, 16), listOf(16), listOf(17, 18), listOf(21, 23), listOf(3), listOf(10))),
+    MI_MTHUN_NYI("mi mthun nyi ma", false, listOf(listOf(17, 23), listOf(25), listOf(24, 0), listOf(1), listOf(16, 15), listOf(9), listOf(26, 13))),
+    JIG_NYI("'jig pa'i nyi ma", false, listOf(listOf(15, 24), listOf(17, 3), listOf(26, 24, 23), listOf(12, 13), listOf(3), listOf(6, 10), listOf(1, 8))),
+    GTAN_SPANG("gtan spang", false, listOf(listOf(9), listOf(15), listOf(5), listOf(18), listOf(22), listOf(3), listOf(19)));
+
+    val english: String get() = gloss(this)
+
+    /** The mansions that make this day on [w]. */
+    fun mansions(w: Weekday): Set<Mansion> =
+        table[Math.floorMod(w.ordinal - Weekday.SUNDAY.ordinal, 7)].filter { it != ABHIJIT }.map { Mansion.entries[it] }.toSet()
+
+    companion object {
+        fun of(w: Weekday, m: Mansion): List<CombinationDay> = entries.filter { m in it.mansions(w) }
+    }
+}
+
+/** Abhijit in the table of [CombinationDay]: never the day's mansion in the Phugpa calendar. */
+private const val ABHIJIT = -1
+
+/**
+ * The eight trigrams (spar kha) in Janson's Table 15 order. [goddess] is the
+ * one of the White Beryl's eight goddesses (lha mo brgyad, vol. 1,
+ * pp. 449–450) whose day the date is: its "deeper" count by date and month
+ * gives the date's trigram under her name.
+ */
+enum class Trigram(val wylie: String, val chinese: String, val goddess: String) {
+    LI("li", "離", "'od 'bar ma"), KHON("khon", "坤", "bstan ma"), DWA("dwa", "兌", "dkar gsal ma"), KHEN("khen", "乾", "mdangs ldan ma"),
+    KHAM("kham", "坎", "char 'bebs ma"), GIN("gin", "艮", "g.yo med ma"), ZIN("zin", "震", "'od 'chang ma"), ZON("zon", "巽", "skyob byed ma");
 
     val english: String get() = gloss(this)
 }

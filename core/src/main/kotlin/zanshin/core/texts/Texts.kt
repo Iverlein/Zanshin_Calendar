@@ -24,6 +24,8 @@ import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
+import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
@@ -115,10 +117,10 @@ object Sources {
         "BDRC W1KG12714",
         "https://library.bdrc.io/show/bdr:MW1KG12714",
     )
-    /** The White Beryl's chapter 33, 1996 edition; [pages] names the section, the pages are the printed ones. */
-    private fun whiteBeryl(pages: String) = Source(
+    /** The White Beryl, 1996 edition; [pages] names the section, the pages are the printed ones (chapter 33 in vol. 2). */
+    private fun whiteBeryl(pages: String, volume: Int = 2) = Source(
         "Phug lugs rtsis kyi legs bshad bai DUr dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, 1685; " +
-            "Krung go'i bod kyi shes rig dpe skrun khang, Beijing 1996, vol. 2, $pages",
+            "Krung go'i bod kyi shes rig dpe skrun khang, Beijing 1996, vol. $volume, $pages",
         "BDRC MW2CZ8040",
         "https://library.bdrc.io/show/bdr:MW2CZ8040",
     )
@@ -127,6 +129,10 @@ object Sources {
     val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
+    val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
+    val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–238")
+    val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
+    val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
     val NOR_BU_ME_LONG = Source(
         "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
         "BDRC MW29978_8B19DD",
@@ -402,6 +408,15 @@ object Texts {
     }
 
     /**
+     * The date's trigram as the day of one of the White Beryl's eight
+     * goddesses: what an illness that comes on that day is traced to, the
+     * spirits that harm, how it shows and the rites named for it
+     * (docs/sources/lunar-day-signs.md). An illness reading only, so it
+     * carries no lists and no tone.
+     */
+    val TRIGRAM: Map<Trigram, Reading> = keyed(*Trigram.entries.map { it to Reading(source = Sources.WHITE_BERYL_GODDESSES) }.toTypedArray())
+
+    /**
      * The weekday: the White Beryl's verse on its planet, with what it names
      * good and bad, when the planet is strong, setting out, a birth and a
      * death (docs/sources/weekdays.md).
@@ -476,18 +491,90 @@ object Texts {
         electional("trigram", Electional.good { t in it.trigrams }, Electional.bad { t in it.trigrams })
     }
 
+    /**
+     * The element pair of weekday and mansion, the small combination: the
+     * White Beryl's verse on the ten (vol. 2, p. 333), with what each is good
+     * for; the names as Rabten prints them.
+     */
     val ELEMENT_PAIR: Map<ElementPair, Reading> = keyed(
-        ElementPair.EARTH_EARTH to Reading(source = Sources.RABTEN),
-        ElementPair.WATER_WATER to Reading(source = Sources.RABTEN),
-        ElementPair.EARTH_WATER to Reading(source = Sources.RABTEN),
-        ElementPair.FIRE_FIRE to Reading(source = Sources.RABTEN),
-        ElementPair.WIND_WIND to Reading(source = Sources.RABTEN),
-        ElementPair.FIRE_WIND to Reading(source = Sources.RABTEN),
-        ElementPair.EARTH_WIND to Reading(source = Sources.RABTEN),
-        ElementPair.WATER_WIND to Reading(source = Sources.RABTEN),
-        ElementPair.EARTH_FIRE to Reading(source = Sources.RABTEN),
-        ElementPair.FIRE_WATER to Reading(source = Sources.RABTEN),
+        ElementPair.EARTH_EARTH to wbPair("setting_up_supports", "building", "buying_fields", "increasing_rites", "council", "lasting_work"),
+        ElementPair.WATER_WATER to wbPair("trade", "field_work", "preparing_medicine", "bathing", "taking_a_bride", "long_life_and_prosperity_rites"),
+        ElementPair.EARTH_WATER to wbPair("putting_on_ornaments", "games", "feasts"),
+        ElementPair.FIRE_FIRE to wbPair("trade", "sowing", "giving_anything_out", "prosperity_rites", "virtuous_work"),
+        ElementPair.WIND_WIND to wbPair("travel", "reconciliation", "unsteady_and_moving_work", "fierce_rites"),
+        ElementPair.FIRE_WIND to wbPair("worship_of_deities", "dharma_practice", "pacifying_rites", "increasing_rites", "power_rites"),
+        ElementPair.EARTH_WIND to wbPair(),
+        ElementPair.WATER_WIND to wbPair(),
+        ElementPair.EARTH_FIRE to wbPair("leading_an_army", "subduing_enemies", "fierce_rites", "disputes"),
+        ElementPair.FIRE_WATER to wbPair("killing_others", "directing_magic", "preparing_poison"),
     )
+
+    private fun wbPair(vararg good: String) = Reading(goodKeys = good.toList(), source = Sources.WHITE_BERYL_COMBINATIONS, also = listOf(Sources.RABTEN))
+
+    /**
+     * Rāhu's course by lunar date, the White Beryl's detailed account (vol. 2,
+     * pp. 237–238; docs/sources/rahu.md): on the sixteen dates it enters a
+     * direction or turns back, when and where it moves, and what that day is
+     * good and bad for. Dates it does not name have no entry.
+     */
+    val RAHU: Map<Int, Reading> = mapOf(
+        1 to rahu(1, good = listOf("fierce_rites", "hurling_zor")),
+        4 to rahu(4, good = listOf("taking_a_bride", "trade", "felling_trees", "virtuous_work", "brewing_beer"), avoid = listOf("funerals", "teaching_dharma", "reconciliation")),
+        6 to rahu(6, good = listOf("fierce_rites")),
+        8 to rahu(8, good = listOf("lawsuits", "attacking_enemies", "robbery", "oaths"), avoid = listOf("washing_the_hair", "sewing", "taking_a_bride", "bathing")),
+        11 to rahu(11, good = listOf("killing_others", "black_rites")),
+        12 to rahu(12, good = listOf("bathing", "feasts", "paying_debts", "washing_the_hair", "sowing"), avoid = listOf("taking_servants", "breaking_in_livestock")),
+        14 to rahu(14, good = listOf("fierce_rites")),
+        15 to rahu(15, good = listOf("worship_of_deities", "prosperity_rites", "empowerment", "dharma_practice"), avoid = listOf("sending_out_wealth", "oaths", "taking_a_bride", "giving_a_child_away")),
+        17 to rahu(17, good = listOf("fierce_rites")),
+        18 to rahu(18, good = listOf("ordination", "building_temples_and_stupas", "setting_out", "leading_an_army"), avoid = listOf("oaths", "prostrations", "building", "hanging_doors", "roofing")),
+        21 to rahu(21, good = listOf("fierce_rites")),
+        22 to rahu(22, good = listOf("crafts", "learning_writing_and_astrology", "digging_ponds_and_canals", "gtad_and_sri_rites", "council"), avoid = listOf("building_a_house", "breaking_in_livestock")),
+        24 to rahu(24, good = listOf("fierce_rites")),
+        25 to rahu(25, good = listOf("buying_fields", "building"), avoid = listOf("sending_out_wealth", "leading_an_army")),
+        27 to rahu(27),
+        29 to rahu(29, good = listOf("fierce_rites", "subduing_enemies"), avoid = listOf("dharma_practice", "sowing", "brewing_beer")),
+    )
+
+    private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
+        Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu.$date")
+
+    /**
+     * The special days of weekday and mansion (vol. 2, pp. 335–337, with the
+     * table p. 341; docs/sources/combinations.md), with what each names good
+     * and to avoid. They are the special cases (dmigs bsal) of the weighing,
+     * above the combinations (SPEC §5.12).
+     */
+    val COMBINATION_DAY: Map<CombinationDay, Reading> = keyed(
+        CombinationDay.GRUB_SBYOR to wbDay(good = listOf("everything")),
+        CombinationDay.ZUNG_SBYOR to wbDay(good = listOf("pacifying_rites", "increasing_rites", "power_rites"), avoid = listOf("fierce_rites")),
+        CombinationDay.BDUD_RGYAL to wbDay(good = listOf("fierce_rites", "subduing_enemies", "attacking_enemies")),
+        CombinationDay.GRUB_NYI to wbDay(good = listOf("virtuous_work"), avoid = listOf("black_rites")),
+        CombinationDay.BKRA_SHIS_NYI to wbDay(good = listOf("empowerment", "consecration", "worship_of_deities", "virtuous_work")),
+        CombinationDay.PHEL_NYI to wbDay(good = listOf("virtuous_work", "learning_writing_and_astrology", "work_with_water", "digging_wells", "field_work", "sowing")),
+        CombinationDay.CHUB_NYI to wbDay(good = listOf("virtuous_work")),
+        CombinationDay.MTHUN_NYI to wbDay(good = listOf("reconciliation", "matchmaking", "helping_others")),
+        CombinationDay.SBYOR_NYI to wbDay(good = listOf("worship_of_deities", "matchmaking", "spectacles", "virtuous_work", "increasing_rites"), avoid = listOf("black_rites")),
+        CombinationDay.BDUD_NYI to wbDay(good = listOf("directing_magic"), avoid = listOf("marriage", "funerals", "setting_out")),
+        CombinationDay.CHI_SBYOR to wbDay(avoid = listOf("building", "consecration", "long_life_and_prosperity_rites", "marriage", "setting_out")),
+        CombinationDay.MI_PHROD_NYI to wbDay(good = listOf("subduing_enemies"), avoid = listOf("marriage", "funerals", "medical_treatment", "reconciliation")),
+        CombinationDay.MI_MTHUN_NYI to wbDay(avoid = listOf("marriage", "funerals", "virtuous_work")),
+        CombinationDay.JIG_NYI to wbDay(avoid = listOf("marriage", "funerals", "setting_out")),
+        CombinationDay.GTAN_SPANG to wbDay(avoid = listOf("everything", "bloodletting_and_moxibustion")),
+    )
+
+    private fun wbDay(good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
+        Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_COMBINATION_DAYS)
+
+    /**
+     * The 28 named combinations of weekday and mansion, the great combination
+     * ('phrod chen): the White Beryl's short reading of each with the gist of
+     * its verse (vol. 2, pp. 331–333; docs/sources/combinations.md). No lists:
+     * the verses name fortunes, not activities.
+     */
+    val GREAT_COMBINATION: Map<GreatCombination, Reading> =
+        keyed(*GreatCombination.entries.map { it to Reading(source = Sources.WHITE_BERYL_COMBINATIONS) }.toTypedArray())
+
 
     val SPECIAL_DAY: Map<SpecialDay, Reading> = keyed(
         SpecialDay.EIGHTH to Reading(source = Sources.RABTEN),

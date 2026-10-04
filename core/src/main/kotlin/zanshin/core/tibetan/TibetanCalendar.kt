@@ -70,6 +70,10 @@ data class TibetanDay(
     val mansion: Mansion,
     /** Combination of the weekday's and the mansion's element. */
     val elementPair: ElementPair,
+    /** The named combination of weekday and mansion ('phrod chen, SPEC §5.12). */
+    val greatCombination: GreatCombination,
+    /** The special days of weekday and mansion this day is (SPEC §5.12), often none. */
+    val combinationDays: List<CombinationDay>,
     val yoga: Yoga,
     /** Karaṇa in effect at daybreak. */
     val karana: Karana,
@@ -154,6 +158,8 @@ object TibetanCalendar {
             holiday = holidayOn(jd, month, day, repetition, a2),
             mansion = mansion,
             elementPair = ElementPair.of(weekday.element, mansion.element),
+            greatCombination = GreatCombination.of(weekday, mansion),
+            combinationDays = CombinationDay.of(weekday, mansion),
             yoga = Yoga.entries[((moon + sun).frac() * 27).floor().toInt()],
             karana = Karana.ofHalfDay(((moon - sun).frac() * 60).floor().toInt() + 1),
             lunarDayAnimal = Animal.entries[amod(day + 6 * month.number + 8, 12) - 1],

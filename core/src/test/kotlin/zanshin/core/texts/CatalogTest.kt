@@ -34,6 +34,8 @@ import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
+import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
@@ -52,7 +54,7 @@ class CatalogTest {
             IndianElement.entries, Weekday.entries, Mansion.entries, Yoga.entries, Karana.entries, ElementPair.entries,
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
-            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries,
+            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
@@ -75,9 +77,9 @@ class CatalogTest {
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
             Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA,
-            Texts.PERSONAL_MANSION, Texts.WEEKDAY,
+            Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.RAHU,
         ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE
-        (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values).forEach { present(it.key) }
+        (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values + Texts.TRIGRAM.values + Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.COMBINATION_DAY.values + Texts.RAHU.values).forEach { present(it.key) }
         for (r in readings) {
             assertTrue(r.key.startsWith("reading."), "reading without a key from ${r.source.title}")
             r.arg?.let { present(r.key); present(it) }
