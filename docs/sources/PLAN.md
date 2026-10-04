@@ -52,18 +52,18 @@ says where to look and with which tool.
    it: the names NM, SY and WB print already agree (question 4).
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
    1 (ranking), 5 (SY's Mouse gshed gza'), 6 (box 6), 8 (sha 'khon: KP's
-   change). A third WB print would not settle 1 or 8: WB2 has the same
-   words. Question 2 was answered on 2026-10-04 (number words: the yogas'
+   change), 10 ('Od 'bar ma's *chu gri bkar*). A third WB print would not
+   settle 1 or 8: WB2 has the same words. Question 2 was answered on 2026-10-04 (number words: the yogas'
    avoided chu tshod) and question 9 too (the *nyi ma* is the lunar date's
    animal).
+6. **WB ch. 33 inventory** ([white-beryl-ch33.md](white-beryl-ch33.md))
+   was made from BDRC's OCR; recheck its section headings with
+   `hf_read.py yigdzin` when a section is taken up.
 7. ~~The earth lords of each animal day~~ Read and built 2026-10-04
    ([earth-lords.md](earth-lords.md), SPEC §5.11). Left from that chapter:
    the day's earth lord counted from the year, the *bla mkhyen* and the
    hearth god's place (its mouse-day entry unclear), and the day by the
    clan's element, which needs the person's clan.
-6. **WB ch. 33 inventory** ([white-beryl-ch33.md](white-beryl-ch33.md))
-   was made from BDRC's OCR; recheck its section headings with
-   `hf_read.py yigdzin` when a section is taken up.
 
 **Tools and their limits** (all in `tools/sources/`, see *Tools* below):
 Yigdzin-1 is the main reader but **drops lines beside woodcuts** (WB
@@ -224,6 +224,9 @@ QT_QPA_PLATFORM=offscreen venv/bin/python cli.py --model OCRModels/Woodblock --f
 Tesseract's `bod` model is no use on these prints.
 
 ## Tasks
+
+The briefs as they were set; what each found is in the table at the top
+and in its topic file.
 
 ### 1. Settle the doubled mansions of the activity lists (T2)
 

@@ -47,8 +47,10 @@ not rendered.
   sign (KP's second part §9, img. 78–80), and so is the hour of rule 2:
   neither is a factor of the whole day. A day reading has no hours; the
   rules that remain are 2 (without the hour), 3 and 4.
-- Rāhu's course by date and time is KP §7–8 (img. 76–77); the app does not
-  compute it.
+- Rāhu's course by date and time is KP §7–8 (img. 76–77). The app weighs
+  the White Beryl's detailed course on the sixteen dates it names, first
+  of the seven ([rahu.md](rahu.md), SPEC §5.13); the course by the hour is
+  not built.
 - The weights of rule 1 put the mansion above the planet, rules 2 and 4 the
   planet above the mansion. Where two factors disagree, rules 2 and 4 are
   the ones that decide; rule 1 says how much a good factor is worth, not

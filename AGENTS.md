@@ -65,8 +65,9 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   (`core/.../tibetan/Ewts.kt`) and the Noto Serif Tibetan subset keeps the
   whole Tibetan block (`subset_fonts.py --tibetan`).
 - **Calendar changes need a vector**, not only a passing build. The 2033
-  leap-month choice is a named constant in `Kyureki.kt`, pending confirmation
-  from its published source (SPEC §7.1, S3).
+  leap-month choice is a named constant in `Kyureki.kt`, citing the 暦文協's
+  2015 recommendation of 閏11月; the general intercalation rule stays open
+  (SPEC §7.1).
 - **No text under a non-commercial licence** (CC BY-NC and the like): F-Droid
   would label the app *Non-Free Assets*.
 - **No personal data in the repository**: it is public. Examples and tests use

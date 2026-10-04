@@ -732,7 +732,7 @@ The 2033 resolution: 暦文協, 2015-08-28 (§7.1). The birth-year rule of the
 
 Stored as tab-separated files under `core/src/test/resources/vectors/`, one
 file per source, each with the source citation in `#` header lines. `cli` and
-`app` never read them. Files marked *pending* do not exist yet.
+`app` never read them.
 
 The vector files are third-party tables, so they are kept locally and listed in
 `.gitignore`: the public repository does not carry them. A test whose file is

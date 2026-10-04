@@ -10,10 +10,13 @@ readings of that day and sunrise, solar noon and sunset for your place.
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
   leap months; festivals and monthly observances; lunar mansion, yoga,
-  karaṇa, element pair, lunar-day animal, trigram and number; hair-cutting
-  days and personal days for a birth year.
+  karaṇa, element pair, lunar-day animal, trigram and number, each with its
+  reading from the White Beryl and the *kun phan me long*; the day in brief
+  weighed by those texts' rank; hair-cutting days, personal days and
+  mansions for a birth year.
 - **旧暦:** month and day, 六曜, the current solar term, moon phase, 十二直,
-  二十八宿, 九星, 選日 and 暦注下段, 雑節, 干支 and 恵方.
+  二十八宿, 九星, 選日 and 暦注下段 (with the lower band's own rules), 雑節,
+  干支 and 恵方.
 - Every Tibetan term and kanji shows its English on tap; every reading names
   its published source.
 - Dates from 1900 to 2100. No internet permission: everything is computed on
