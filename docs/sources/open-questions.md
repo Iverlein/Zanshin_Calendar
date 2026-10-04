@@ -38,3 +38,13 @@ the text, not about the app.
    Sha 'khon is avoided entirely in WB's own list. *(2026-10-03: WB2, the
    Sakya Centre print, reads ཕྲད too, so the difference is KP's; did KP's
    compiler correct WB here, or slip?)*
+9. The day's animal: WB's almanac chapter has the *nyi ma* written apart
+   from the date's trigram and sme ba, and ch. 31 places the earth lords of
+   each animal day by the *nyi ma* (vol. 2, pp. 222–225); the notes printed
+   after WB count the "month-date" animals from the tiger in male months and
+   the monkey in female ones (vol. 2, p. 493), which is the lunar date's
+   animal. In the earth-lord readings and in KP's tables, is the *nyi ma*
+   the animal of the 60-day cycle or of the lunar date? The app takes the
+   60-day animal for KP's lists (SPEC §5.10) and the lunar date's for the
+   divination of health (SPEC §5.9)
+   ([lunar-day-signs.md](lunar-day-signs.md)).

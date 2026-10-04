@@ -14,12 +14,16 @@ our own words). What is still to be found, and how, is in
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, no syllable left unread (date 25's སྒབ read but not identified); illness and remedy lines summarized only; all four *bla gnas* systems written out |
 | [weekdays.md](weekdays.md) | The seven planets as weekdays, and the closing verse | T2 | From two OCR readings, every disagreement settled on the scan; the words left out of the app's lists named |
+| [combinations.md](combinations.md) | The 28 named combinations of weekday and mansion (WB's table and readings), the ten element pairs with their lists, the fifteen special days (*'grub sbyor* … *gtan spang*) | §5.12 | Tables read on the scan digit by digit, checked against the verses; verses from Yigdzin-1 |
+| [rahu.md](rahu.md) | Rāhu's course by lunar date: the general course of thirty dates, and the detailed course of sixteen with what each is good and bad for | §5.13 | From Yigdzin-1, clean; two words checked on the scan |
+| [weighing.md](weighing.md) | How the factors of a day are weighed: KP's ranking (Rāhu, weekday, mansion, date, karaṇa, yoga, *nyi ma*), its rules for disagreements and the combination's precedence | §5.12 | Read on the scan (KP img. 13–14) |
+| [lunar-day-signs.md](lunar-day-signs.md) | The lunar day's animal, trigram and sme ba: the eight goddesses of the date (the trigram's illness reading); why the sme ba and animal have no day reading | T2 | Goddess passage read on the scan; the trigram identity checked by `TrigramGoddessTest` |
 | [mansions.md](mansions.md) | The mansion verses; the doubtful entries of the activity lists | T2 | Uttarāṣāḍhā's verse settled by eye; **every doubled entry resolved on the KP scans** |
 | [mansion-verses.md](mansion-verses.md) | All 28 mansion verses of WB, Tibetan and the lists in English | T2 | From two OCR readings, every disagreement settled, the last four on the scan (2026-10-04); not read by eye syllable by syllable |
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eight questions: 7 answered, 4 and 8 narrowed by WB2 |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Nine questions: 7 answered, 4 and 8 narrowed by WB2 |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).

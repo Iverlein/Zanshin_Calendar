@@ -15,9 +15,9 @@ already written out have their file named.
 | 313–328 (321–336) | The 28 mansion verses | [mansions.md](mansions.md) (one of 28; the rest in progress) | T2, the mansion reading (now from Henning) |
 | 329 (337) | End of the last verses; the mansions' strength (*dar gud*) | no | not yet clear |
 | 330 (338) | The personal mansions and weekdays per birth animal | [personal-mansions.md](personal-mansions.md) | T3 |
-| 331–333 (339–341) | The 28 named combinations of weekday and mansion (*kun dga'*, *dus kyi dbyug pa*, *dul ba*, *skye dgu*, *gnon* …, *bdud rtsi*, *gtun*), a long reading of each (img. 339–340) and a short one (*mdor bsdus*, img. 341) | no | **T2: a new day reading**, fully calculable from weekday and mansion |
-| 334 (342) | The element pair of weekday and mansion, Chinese and Indian | no | the app already shows the element pair (Rabten's names) |
-| 335–336 (343–344) | Special combinations: *'grub sbyor*, *bdud rtsi sbyor*, … ; the demon days (*bdud kyi nyi ma*) | no | T2: flags on a day, calculable |
+| 331–333 (339–341) | The 28 named combinations of weekday and mansion (*kun dga'*, *dus kyi dbyug pa*, *dul ba*, *skye dgu*, *gnon* …, *bdud rtsi*, *gtun*), a long reading of each (img. 339–340) and a short one (*mdor bsdus*, img. 341) | [combinations.md](combinations.md) | built (SPEC §5.12), the rule from WB's table vol. 1, pp. 148–149 |
+| 333–334 (341–342) | The element pairs of weekday and mansion with what each is good for (p. 333), Chinese and Indian elements (p. 334) | [combinations.md](combinations.md) | built: the element pair's reading and lists (SPEC §5.12) |
+| 335–337 (343–345) | Special days: *'grub sbyor*, *zung sbyor*, … *'chi sbyor*, the demon days, *gtan spang*; their table p. 341 | [combinations.md](combinations.md) | built (SPEC §5.12) |
 | 337–338 (345–346) | Days of destruction (*'jig pa'i nyi ma*), *srog sbyor*; the personal weekdays (*srog gza'*, *bla gza'*) and what to do on them | no | T3: the personal weekday, partly in the app already |
 | 339–342 (347–350) | Tables: the elements; per birth animal the *srog gza'*, *keg skar*, *gshed gza'* …; the *'grub sbyor*, demon, discordant (*mi mthun*) and destruction days after the *Rdo rje gtsug lag* | no | tables for the sections above |
 | 343–344 (351–352) | The karaṇas over the 60 half-days of the month | [karanas.md](karanas.md) | T2, karaṇas |

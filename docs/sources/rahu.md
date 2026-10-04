@@ -1,0 +1,62 @@
+# Rāhu's course by lunar date
+
+Sigla and the rules for quoting are in [README.md](README.md). WB vol. 2,
+ch. 31 (the earth lords), pp. 236–238 (img. 244–246), "the reckoning of
+Rāhu, chief of all planets" (གཟའ་ཀུན་གཙོ་བོ་རཱ་ཧུའི་རྩིས), read 2026-10-04:
+Yigdzin-1's reading, clean on these pages; the two doubtful words checked on
+the scan (691 px). KP §7–8 (img. 76–77) gives the same course as a chart.
+The *kun phan me long* ranks Rāhu first of the seven factors of a day
+([weighing.md](weighing.md)); the app builds the detailed course
+(`Texts.RAHU`, SPEC §5.13).
+
+## The general course
+
+Rāhu's course for all thirty dates, "the general nu ru course"
+(སྤྱི་འདོམས་ནུ་རུའི་རྒྱུ་ལུགས): for each date the time of day and the
+directions it moves between, with the forms it takes on some dates. As
+printed:
+
+> སྤྱི་འདོམས་ནུ་རུའི་རྒྱུ་ལུགས་ནི། །ཚེས་གཅིག་ཉི་ཕྱེད་ལྷོ་ནུབ་ནས། །བྱང་ཤར་དུ་རྒྱུ་གཉིས་ཕྱེད་ཡོལ། །ཤར་ནས་ནུབ་ཏུ་གསུམ་ཉི་དྲོས། །ལྷོ་ནུབ་ནས་ནི་བྱང་ཤར་དུ། །བཞི་ལ་དཔུང་པ་གཡོན་པ་དག །མ་མོ་དམག་དཔོན་ལྗང་སྔོན་སྦྲུལ། །འཁོར་དུ་མ་མོ་བརྒྱད་དང་བཅས། །ཟླ་བ་ནུབ་དུས་ནུབ་ནས་ཤར། །ལྔ་ལ་ཉི་དྲོས་ཤར་ནས་ནུབ། །དྲུག་ལ་ཇོ་རེངས་བྱང་ནས་ལྷོ། །བདུན་ལ་སྲོད་དུས་བྱང་ནས་ལྷོར། །བརྒྱད་ལ་དཔུང་གཡས་དྲང་སྲོང་སྦྲུལ། །དགྲ་ལྟས་བསྐོར་ནས་ཤར་ལྷོ་ནས། །རྡེའུ་འགོ་དྲོས་ནུབ་བྱང་རྒྱུ། །ཚེས་དགུའི་སྲོད་ལ་དེ་བཞིན་དུ། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་ཏུ། །བཅུ་ཡི་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གཅིག་སྲོད་ལ་ཆུ་སོ་བདུད། །སྤྲུལ་ཞིང་ཟླ་བཅས་བྱང་ནས་ལྷོར། །བཅུ་གཉིས་སྐྱ་རེངས་ལྷོ་ནས་བྱང་། །བཅུ་གསུམ་ནམ་ལངས་བྱང་ནས་ལྷོར། །བཅུ་བཞི་སྔ་དྲོ་མཁའ་ནས་མཚོར། །བཅོ་ལྔ་ཉི་ཕྱེད་མགོ་སྲིན་པོ། །བྷི་ཏར་སྤྲུལ་ནས་འཁོར་སྲིན་བརྒྱད། །དང་བཅས་ལྷོ་ནུབ་བྱང་ནས་ཤར། །བཅུ་དྲུག་ཉི་ནུབ་བྱང་ཤར་ནས། །ལྷོ་ནུབ་ཏུ་རྒྱུ་བཅུ་བདུན་ལ། །ནམ་ཕྱེད་ནུབ་ནས་ཤར་ཕྱོགས་རྒྱུ། །བཅོ་བརྒྱད་ནམ་ཕྱེད་མཇུག་མ་དག །ཀླུ་བདུད་རཱ་ཛར་སྤྲུལ་ནས་འཁོར། །ཀླུ་བཅས་ལྷོ་ནུབ་བྱང་ཤར་རྒྱུ། །བཅུ་དགུའི་སྔ་དྲོ་དང་པོ་ལ། །ལྷོ་ནས་བྱང་ཕྱོགས་ཉི་ཤུ་ལ། །ཉི་ཕྱེད་ཤར་ལྷོ་ནས་ནུབ་བྱང་། །ཉེར་གཅིག་སྐྱ་རེངས་ཤར་ནས་ནུབ། །ཉེར་གཉིས་ཉི་མ་ཕྱེད་ཡོལ་ལ། །གཤིན་རྗེ་དུ་བ་མཇུག་རིངས་སུ། །སྤྲུལ་འཁོར་ལྔ་བཅས་ནུབ་བྱང་ནས། །ཤར་ལྷོར་རྒྱུ་ཞིང་ཉེར་གསུམ་ལ། །ཉི་ཕྱེད་ནུབ་བྱང་ནས་ཤར་ལྷོ། །ཉེར་བཞི་ཉི་ཕྱེད་བྱང་ནས་ལྷོར། །ཉེར་ལྔ་སྐྱ་རེངས་ཤར་བའི་དུས། །དཔུང་གཡས་ཀླུ་བཙན་ཁྱབ་འཇུག་སྤྲུལ། །ཀླུ་བཙན་གྱིས་བསྐོར་ལྷོ་ནས་བྱང་། །ཉེར་དྲུག་ནམ་གྱི་ཕྱེད་ཡོལ་དུས། །ཤར་ནས་ནུབ་རྒྱུ་ཉེར་བདུན་གྱི། །ནམ་ཕྱེད་ལྷོ་ནུབ་ནས་བྱང་ཤར། །ཉེར་བརྒྱད་ཐོ་རེངས་བྱང་ནས་ལྷོར། །ཉེར་དགུའི་ཉི་མ་མདུང་གང་ལ། །དུམ་བུ་བརྒྱད་པོ་གཅིག་ཏུ་དྲིལ། །སྙིང་མིག་མཆེ་བ་སྒྲ་གཅན་འཛིན། །སྤྲུལ་ཏེ་བགེགས་རིགས་ཀྱིས་བསྐོར་ནས། །བྱང་ཤར་ནས་ནི་ལྷོ་ནུབ་ཏུ། །གནམ་གང་ལྷ་ཡི་འདུན་ས་ནས། །སྟེང་འོག་ཕྱོགས་མཚམས་ཁྱབ་པར་རྒྱུ།
+
+It names no activities, and some of its directions are not plain (the 14th
+"from the sky into the lake", the 15th "south-west, north, to the east").
+The app does not show it. KP's chart (img. 76) groups the dates otherwise
+and in places disagrees; the two are not reconciled here.
+
+## The detailed course
+
+"These eight times are only the rough course … more exactly, it is thus":
+the dates on which Rāhu enters a direction (འཇུག) or turns back with its
+retinue (འཁོར་རྣམས་བཟློག), when, how long it stays, and what that day is good
+and bad for. As printed (ཆོས་བྱ on the 29th read on the scan for Yigdzin's
+ཚེས་བྱ, and སྐྲ་འཁྲུ on the 8th for its སྒྲ་འཁྲུ; ཆང་བཙོང་ན on the 29th is read as
+ཆང་བཙོ་ངན, "brewing is bad"):
+
+> དེ་ནས་ཕྱི་ལྟར་རྒྱུ་བའི་ལུགས། །དུས་བརྒྱད་རྒྱུ་ཚུལ་རགས་པ་ཙམ། །གོང་གི་ནུ་རུར་གཏོགས་མོད་ཀྱང་། །ད་དུང་ཞིབ་པར་འདི་ལྟར་ཡོད། །ཚེས་བཞིའི་ཉི་ནུབ་ནུབ་ཏུ་འཇུག །ཤར་དུ་སྲོད་རྒྱུ་ལས་དོན་གཉེར། །བག་མ་བླང་ཞིང་ཚོང་བྱ་བ། །ཤིང་གཅོད་དཀར་ཆོས་ཆང་བཅོ་བཟང་། །མི་ཤི་ཆོས་སྟོན་འཐབ་མོ་འདུམ། །སྤང་ཞིང་ཞག་གཉིས་ཤར་དུ་གནས། །ཚེས་དྲུག་ནང་པར་ནུབ་ཏུ་འཁོར། །བཟློག་དུས་ཧོམ་སྤར་སེར་འབེབས་བཟང་། །ཚེས་བརྒྱད་ཤར་ནས་ཤར་ལྷོར་འཇུག །སྔ་དྲོ་ནུབ་བྱང་མཚམས་སུ་རྒྱུ། །ཞལ་ཆེ་དགྲ་རྒོལ་རྐུན་མ་བྱ། །མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ། །གོས་འཚེམ་བག་མ་ཁྲུས་ངན་ནོ། །ཞག་གསུམ་ནུབ་བྱང་ཕྱོགས་སུ་གནས། །བཅུ་གཅིག་སྲོད་ལ་འཁོར་རྣམས་བཟློག །བསད་པ་སྙིང་ཐུན་ལས་བྱའོ། །བཅུ་གཉིས་བྱང་སྒོར་སྲོད་ལ་འཇུག །ནམ་བྱིང་བྱང་ནས་ལྷོ་རུ་རྒྱུ། །ཁྲུས་དང་སྟོན་མོ་བུ་ལོན་འཇལ། །སྐྲ་འཁྲུ་བཟང་ཞིང་ས་བོན་གདབ། །བྲན་ཉི་རྐང་འགྲོས་འདུལ་བ་ངན། །ཞག་གཉིས་ལྷོ་ཡི་ཕྱོགས་དེར་གནས། །བཅུ་བཞི་ཉི་ཕྱེད་འཁོར་རྣམས་བཟློག །སེར་བ་དང་ནི་བྲུབ་ལས་བཟང་། །བཅོ་ལྔའི་སྔ་དྲོ་ལྷོ་ནུབ་འཇུག །ཉི་མ་ཕྱེད་ན་བྱང་ཤར་རྒྱུ། །ལྷ་གསོལ་གཡང་སྐྱབས་ཚུར་ལེན་དང་། །སྒྲུབ་པ་དབང་བསྐུར་ཆོས་སྤྱོད་བཟང་། །ཕར་འཇལ་མནའ་སྐྱེལ་བག་མ་དང་། །བུ་འབོགས་ངན་ཞིང་ཞག་གཉིས་བར། །བྱང་ཤར་མཚམས་སུ་གནས་བྱས་ནས། །བཅུ་བདུན་ནམ་ཕྱེད་ལྷོ་ནུབ་ལྡོག །ཐོག་སེར་དབབ་པའི་ལས་ལ་ཤིས། །བཅོ་བརྒྱད་ནམ་ཕྱེད་ཤར་དུ་འཇུག །ནམ་ཕྱེད་ཡོལ་ལ་ནུབ་ཏུ་རྒྱུ། །དེ་ལས་རབ་བྱུང་ལྷ་ཁང་དང་། །མཆོད་རྟེན་ལམ་ཞུགས་དམག་དྲངས་བཟང་། །མནའ་སྐྱེལ་ཕྱག་འཚལ་མཁར་ལས་དང་། །སྒོ་འཛུགས་ཐོག་འབུབས་སྒོ་ཡོལ་ངན། །ཞག་གསུམ་ནུབ་གནས་ཉེར་གཅིག་གི །ཉིན་གུང་འཁོར་ལྡོག་དྲག་ལས་བཟང་། །ཉེར་གཉིས་ཉི་ཕྱེད་ནུབ་བྱང་འཇུག །མྱུར་ཆུང་ལ་ནི་ཤར་ལྷོར་འཇུག །བཟོ་དང་ཡིག་རྩིས་སློབ་པ་དང་། །ཆུ་འདྲུ་གཏད་བཟང་འདུན་མ་བྱ། །ཁང་དུར་ས་བཙལ་རྐང་འགྲོས་འདུལ། །ངན་ཞིང་ཞག་གཉིས་ཤར་ལྷོར་གནས། །ཉེར་བཞིའི་ཉི་ཕྱེད་ཡོལ་ལ་ལྡོག །ཐོག་སེར་དབབ་བའི་ལས་དག་བྱ། །ཉེར་ལྔའི་ནམ་ཕྱེད་ལྷོ་རུ་འཇུག །སྐྱ་རེངས་ཤར་དུས་བྱང་དུ་རྒྱུ། །ཞིང་ཉོ་མཁར་ལས་བྱེད་པ་བཟང་། །ནོར་འཇལ་དམག་འདྲེན་སྤང་བར་བྱ། །ཞག་གཉིས་བྱང་གནས་ཉེར་བདུན་གྱི། །ས་སྲོད་འཁོར་བཟློག་ཁྱབ་འཇུག་སྒྲུབ། །ཉེར་དགུའི་ཉི་མ་ཕྱེད་ཡོལ་དུས། །བྱང་ཤར་དུ་འཇུག་ཉི་མ་ཉིད། །མདུང་གང་ཙམ་ལ་ལྷོ་ནུབ་རྒྱུ། །དགྲ་བྲུབ་ཧོམ་སྤོར་ཐོག་སེར་བཟང་། །ཆོས་བྱ་ས་བོན་ཆང་བཙོ་ངན། །ཞག་གཉིས་ལྷོ་ནུབ་ཕྱོགས་སུ་གནས། །ཚེས་གཅིག་ནམ་ལངས་འཁོར་རྣམས་བཟློག །སེར་བ་ཟོར་གྱི་འབེབས་ལས་བཟང་།
+
+The sixteen dates, as the app gives them (`Texts.RAHU`):
+
+| Date | When, where | Good | Bad |
+| --- | --- | --- | --- |
+| 4 | enters the west at sunset, moves east at dusk, two days there | pursuing aims, a bride, trade, felling trees, white dharma, brewing | funerals, teaching dharma, settling fights |
+| 6 | turns west in the morning | fierce fire offerings (ཧོམ), casting hail | |
+| 8 | enters the south-east from the east, moves north-west in the forenoon, three days | lawsuits, attacking enemies, robbery, oaths | washing the hair, sewing, a bride, bathing |
+| 11 | the retinue turns back at dusk | killing, heart-curse rites | |
+| 12 | enters by the north gate at dusk, north to south at nightfall, two days | bathing, feasts, paying debts, washing the hair, sowing | servants, breaking in animals |
+| 14 | the retinue turns back at noon | hail, burying rites | |
+| 15 | enters the south-west in the forenoon, north-east at noon, two days | offerings to deities, prosperity rites, practice, empowerment, dharma practice | paying out, oaths, a bride, giving a child |
+| 17 | turns back south-west at midnight | lightning and hail | |
+| 18 | enters the east at midnight, west after midnight, three days | ordination, temples, stupas, setting out, an army | oaths, prostrations, building, doors, roofing, door hangings |
+| 21 | the retinue turns back at midday | fierce work | |
+| 22 | enters the north-west at noon, south-east early in the afternoon, two days | crafts, learning writing and astrology, digging channels, gtad rites, council | houses, a grave site, breaking in animals |
+| 24 | turns back in the afternoon | lightning and hail | |
+| 25 | enters the south at midnight, north at dawn, two days | buying fields, building | paying out wealth, an army |
+| 27 | the retinue turns back at dusk | the rites of Viṣṇu | |
+| 29 | enters the north-east in the afternoon, south-west when the sun is a spear high, two days | burying enemies, fierce fire offerings, lightning and hail | dharma work, sowing, brewing |
+| 1 | the retinue turns back at daybreak | hail, hurling zor | |
+
+The passage goes on (p. 238) to the rule for fierce work (go with its
+course, never face it, གདོང་ཐུག་མི་བྱ་རྒྱུ་དང་བསྟུན), Viṣṭi days, remedies, and
+other ways of its course (by year, month, the "hidden" and "secret" ones,
+by the hours of one day: ཉིན་ཞག་གཅིག་གི་དུས་རྒྱུ་ལུགས, p. 239), which the app does
+not build.

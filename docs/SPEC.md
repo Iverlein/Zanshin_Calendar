@@ -337,10 +337,9 @@ The lists are taken as printed, with these rules for what is doubtful:
 A mansion's reading joins what the list of mansions names it good for with
 the activity lists' good and bad, and cites the print beside Henning; where they disagree (Rohiṇī is good for
 marriage in the first, bad in the second) both stay, as elsewhere in the
-app. The day in brief (§10.3) lists every activity with the factors that
-name it good or bad; it weighs none against another.
+app. The day in brief (§10.3) weighs the factors as §5.12 says.
 
-### 5.11 The White Beryl's readings: lunar date, weekday, yoga, karaṇa
+### 5.11 The White Beryl's readings: lunar date, weekday, yoga, karaṇa, trigram
 
 Chapter 33 of the White Beryl (Sde srid Sangs rgyas rgya mtsho, 1685;
 Beijing 1996 edition, vol. 2, BDRC MW2CZ8040) gives a reading for each of
@@ -379,9 +378,115 @@ English (§8.1), each reading citing its pages:
 - **Karaṇa** (pp. 349–351, [karanas.md](sources/karanas.md)): what each
   verse names good, and for Viṣṭi what to avoid. Its name in the White
   Beryl is shown under the reading. The dot: Viṣṭi unlucky, the rest lucky.
+- **Trigram** (vol. 1, pp. 449–450, [lunar-day-signs.md](sources/lunar-day-signs.md)):
+  the date as the day of one of the eight goddesses the White Beryl counts
+  through the month; its count by date and month gives the date's trigram
+  under her name (*li* 'Od 'bar ma … *zon* Skyob byed ma, checked against
+  every date by `TrigramGoddessTest`). Her day says what an illness that
+  comes on then is traced to, the harming spirits, how it shows and the
+  rites named. Tapping the trigram row opens it; an illness reading, with
+  no lists and no dot. The date's sme ba and animal have no reading of
+  their own in the White Beryl or the *kun phan me long*: the readings
+  found are of the person's progressed trigram and sme ba (T4), of a sme
+  ba counted from the solstice, or of the *nyi ma* (open question 9), so
+  those rows open none.
 
 The lists' wordings map to activities like every other reading's (§8.2).
-The day in brief (§10.3) still draws only on the activity lists of §5.10.
+The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
+
+### 5.12 Weighing the day
+
+Two texts say how the factors of a day weigh against each other, and the
+app follows both:
+
+- **The *kun phan me long*** (its opening prose, img. 13–14, read on the
+  scan: [sources/weighing.md](sources/weighing.md)): Rāhu, the weekday, the
+  mansion, the date, the karaṇa, the yoga and the day's animal sign (*nyi
+  ma*), each stronger than the next; where the planet and the mansion
+  disagree the planet leads, where the mansion and the date disagree the
+  mansion; where good and bad are mixed among them all, the combination
+  (*'phrod*) leads, without a special case (*dmigs bsal*) the side that has
+  more, and where that does not settle it the stronger; a combination
+  period (*dus sbyor*) outweighs everything.
+- **The White Beryl** (vol. 2, pp. 331–337, [sources/combinations.md](sources/combinations.md)):
+  the combination of weekday and mansion makes every work good or bad, so
+  that "even when the planet and the mansion are each good, a bad
+  combination becomes its result" (p. 333); of the special days of weekday
+  and mansion, the do's and don'ts "matter somewhat", while "the individual
+  results of planet and mansion are the main thing" (p. 337).
+
+Rāhu's course is by date and direction, the hour and the combination period
+are times within the day (§5.13); the day is weighed thus:
+
+- **Rank**, strongest first: the two combinations of weekday and mansion
+  (the named combination, *'phrod chen*, and the element pair, §5.8);
+  Rāhu, on the dates its detailed course names (§5.13), the first of the
+  *kun phan me long*'s seven; the weekday; the mansion; the special days of weekday and mansion; the lunar
+  date; the karaṇa; the yoga; the day animal (the 60-day animal of §5.10's
+  lists; open question 9). The trigram is not among them; its lists (§5.10)
+  count last. A factor's lists are those of its readings: the element
+  pair's (§5.11), the weekday's verse and Henning's weekday list, the
+  mansion's reading (§5.10), each special day's, the date's verse and
+  Henning's date list, the karaṇa's verse; the named combinations and the
+  yogas carry no lists.
+- **The named combination** is WB's table (vol. 1, pp. 148–149): counted
+  over the 28 mansions in WB's order, Abhijit after Śravaṇa, kun dga' falls
+  on Aśvinī on Sunday and four mansions further on each weekday after it.
+  Its tone is its short reading's (16 lucky, 12 unlucky).
+- **The special days** are WB's table (p. 341, fifteen kinds: *'grub
+  sbyor*, *zung sbyor*, *bdud rgyal*, *grub nyi*, *bkra shis nyi ma*, *'phel
+  nyi*, *chub nyi*, *mthun nyi*, *sbyor nyi* lucky; *bdud kyi nyi ma*, *'chi
+  sbyor*, *mi 'phrod*, *mi mthun*, *'jig pa'i nyi ma*, *gtan spang*
+  unlucky), the second tradition of a split column counted too. A day can be
+  several, or none.
+- **An activity** is decided by the strongest tier that names it with one
+  voice (the two combinations are one tier, the special days another); a
+  tier whose factors name it both ways is passed over. Factors below that
+  name it the same way stand beside it; those that name it the other way
+  are outweighed and left out of the day in brief (their own readings still
+  say it). A factor whose own lists name an activity both ways says nothing
+  on it.
+- **Rāhu** decides the activities it names, but is reckoned by direction
+  and takes no side on the day's tone.
+- **The day's tone**: the two combinations where they agree; where they
+  disagree, the special days where the day has some and they agree (the
+  text's special case); otherwise the side that more of the toned factors
+  take (lucky or unlucky; mixed counts for neither); with as many on each
+  side, the strongest. The day in brief names the tone and what decided it,
+  and lists only the factors of that tone, in rank order; the others are
+  outweighed.
+- **Order on the page**: the Almanac section lists the day's readings in
+  rank order (named combination, element pair, Rāhu, weekday, mansion,
+  special days, lunar date, karaṇa, yoga), after the festival, observance and
+  personal rows and before the hair-cutting day; the five components in the
+  same order.
+
+The weights the *kun phan me long* gives first (the date once, the planet
+fourfold, the mansion eightfold) put the mansion above the planet, against
+its own rule for disagreements; they say what a good factor is worth, and
+are not used to decide. Where the special days rank among the single
+factors is the app's reading of WB p. 337 ("the individual results of
+planet and mansion are the main thing"); the texts do not place them
+against the date, karaṇa and yoga.
+
+### 5.13 Rāhu, the hours and the combination period
+
+- **Rāhu's course** ([sources/rahu.md](sources/rahu.md)): the White Beryl
+  (vol. 2, pp. 236–238) gives it by lunar date twice, a general course for
+  all thirty dates (time and directions, no activities) and a detailed
+  course for the sixteen dates on which Rāhu enters a direction or turns
+  back (1, 4, 6, 8, 11, 12, 14, 15, 17, 18, 21, 22, 24, 25, 27, 29): when,
+  where to, how many days it stays, and what that day is good and bad for.
+  The app shows the detailed course on those dates as a reading row
+  ("Rāhu's course") and weighs its lists (§5.12); the general course, whose
+  directions are not plain in places and which KP's chart groups otherwise,
+  is not shown.
+- **Not built**: the combination period (*tatkāla dus sbyor*), which the
+  *kun phan me long* holds above everything: it is reckoned from the sign
+  rising in each double hour (KP §9, img. 78–80) and the planets in it, and
+  the app computes no planets but the Sun and the Moon. Rāhu's course by the
+  hours of one day, by year and month, and the hour against the day's
+  animal sign (KP's rule 2) wait for the same.
 
 ## 6. Astronomy library
 
@@ -580,6 +685,10 @@ fails on a wording with no entry and on an entry no wording uses.
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
 | Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561) |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
+| Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
+| Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337 and 341, with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |
+| Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040) |
+| Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
 The 2033 resolution: 暦文協, 2015-08-28 (§7.1). The birth-year rule of the
@@ -675,14 +784,18 @@ canvas "Zanshin Calendar — basic design".
   "Monday · Moon · Iron Horse". Tapping it opens a balloon with the full
   details: weekday with its Tibetan name, planet, element, animal, gender.
 - **In brief:** under the day line, as on the 旧暦 page, the glyphs of the
-  activities the lists of §5.10 name good and to avoid (§10.7); it opens the
-  activities with the weekday, lunar date, mansion, day animal and trigram
-  that name them.
+  activities the day's factors name good and to avoid, weighed as §5.12
+  says (§10.7); it opens the day's tone and what decided it, the factors of
+  that tone, and each activity with the factors that decide it. Outweighed
+  factors are not listed.
 - **Almanac:** festival, monthly observance, personal day, personal
-  mansion (§5.8, on the days the mansion is one of one's six), lunar date
-  and weekday (§5.11), element pair, lunar mansion (§5.10), yoga and karaṇa (§5.11) and
-  hair-cutting day as reading rows; then the five components (mansion,
-  yoga, karaṇa, weekday) and the lunar-day cycles as tappable terms.
+  mansion (§5.8, on the days the mansion is one of one's six); then the
+  day's readings in the rank of §5.12: named combination, element pair,
+  weekday (§5.11), lunar mansion (§5.10), special days, lunar date, karaṇa
+  and yoga (§5.11); then the
+  hair-cutting day; then the five components (weekday, mansion, karaṇa,
+  yoga) and the lunar-day cycles as tappable terms, the trigram opening its
+  goddess's reading (§5.11).
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written in Tibetan script, converted at run time from
   the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its

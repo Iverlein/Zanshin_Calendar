@@ -20,6 +20,8 @@ passages and wrote the topic files.
 | 5. Lunar dates | **Done**: every […] filled from the scan (date 25 reads སྒབ, not identified; date 13's illness is as date 5); the other *bla gnas* systems (by hour, *lho gter*, weekday) written out ([lunar-dates.md](lunar-dates.md)). |
 | 6. WB ch. 33 inventory | **Done**, from the OCR: [white-beryl-ch33.md](white-beryl-ch33.md). Two new calculable day readings found: the weekday's (pp. 308–312), now written out in [weekdays.md](weekdays.md) and built; weekday × mansion (pp. 331–333). |
 | 7. Kyūreki gaps | **Done**: 2033 settled (暦文協, 2015-08-28, 閏11月, matches the app); 三箇の悪日 sourced to the 簠簋内伝 (1919 and 1800 printings label the columns by birth year; the 1632 edition does not); O-Bon on 15 August and the sekku's Gregorian days sourced (Wikipedia お盆, NAOJ 節句); all three in the app ([kyureki.md](kyureki.md)). |
+| 8. Lunar-day animal, trigram, sme ba | **Done** (2026-10-04): the trigram is the day of one of WB's eight goddesses (vol. 1, pp. 449–450, read on the scan), its illness reading built; the date's sme ba and animal have no reading of their own in WB or KP, what was found is recorded with its reasons ([lunar-day-signs.md](lunar-day-signs.md); question 9). |
+| 9. Weighing the day | **Done** (2026-10-04): KP's ranking ([weighing.md](weighing.md)) and WB's combinations of weekday and mansion, the 28 named ones, the ten element pairs and the fifteen special days ([combinations.md](combinations.md)), read on the scans and built (SPEC §5.12). Rāhu's detailed course by date built too ([rahu.md](rahu.md)). Left: the second set of special days after the *Rdo rje gtsug lag* (WB p. 337); Rāhu's general course; the combination period, which needs the planets (SPEC §5.13). |
 
 ## Next investigation
 
@@ -30,9 +32,8 @@ says where to look and with which tool.
    and box 6's khrums smad, in both halves, stays out (SPEC §5.10;
    question 6 is still for a reader).
 2. **New calculable readings found, not yet in the app:** KP's second
-   part §2 (planet × mansion elements), §3 (*'phrod chen*), §5 (*grub
-   sbyor*), §11 (*bla gza'*, *bla skar*), and WB's weekday × mansion
-   (pp. 331–333). Each needs its table
+   part §11 (*bla gza'*, *bla skar*). (§2, §3 and §5, the combinations and
+   special days, are built from WB's own text: [combinations.md](combinations.md).) Each needs its table
    read (KP2 is the better-preserved copy for KP: BDRC I3CN12074,
    img. 218–345) and a SPEC entry before code.
 3. **Read by eye what was read by machine**, where a reading is to be
