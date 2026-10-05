@@ -55,6 +55,11 @@ import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.texts.gloss
+import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Texts
+import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.nectarHours
+import zanshin.core.tibetan.risingSign
 import java.time.Duration
 import java.time.LocalDate
 import java.time.LocalTime
@@ -67,16 +72,20 @@ import kotlin.math.sin
 
 /**
  * The hours of the Tibetan day (SPEC §10.3): a 24-hour dial, midnight at the
- * top, with the twelve two-hour periods from the hare hour at 05:00. The outer
- * ring is coloured by the pebbles of the hour's vitality against the birth
- * year's, the inner ring by those of the body; tapping an hour shows both rows,
- * which open their readings through [onOpen].
+ * top, with the twelve two-hour periods from the hare hour at 05:00. The
+ * inner ring is the combination period, the sign rising in each hour (SPEC
+ * §5.13), coloured by the White Beryl's verdict on it, with dots on the
+ * nectar periods. With a birth date, two outer rings are coloured by the
+ * pebbles of the hour's vitality and body against the birth year's. Tapping
+ * an hour shows its rows, which open their readings through [onOpen].
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, zone: ZoneId, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
+fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, zone: ZoneId, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
     val labels = LocalLabels.current
     val hours = remember(signs.date) { Forces.hours(signs.date) }
+    val periods = remember(day.month) { (0 until 12).map { risingSign(day.month, it) } }
+    val nectar = remember(day.weekday) { nectarHours(day.weekday) }
     // The Tibetan day of this page runs from 05:00 on its date to 05:00 the next morning.
     val dayStart = remember(date, zone) { date.atTime(LocalTime.of(5, 0)).atZone(zone) }
     var now by remember { mutableStateOf(ZonedDateTime.now(zone)) }
@@ -91,7 +100,7 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
     var selected by remember(date) { mutableIntStateOf(current ?: 0) }
     val nowMinute = if (current != null) now.hour * 60 + now.minute else null
 
-    fun tone(i: Int, force: Force) = pebbleTone(ForceContrast(force, birth.forces[force], hours[i].sign.forces[force]).pebbles)
+    fun tone(i: Int, force: Force) = pebbleTone(ForceContrast(force, birth!!.forces[force], hours[i].sign.forces[force]).pebbles)
 
     ModalBottomSheet(
         onDismissRequest = onDismiss,
@@ -111,7 +120,7 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
             val labelStyle = TextStyle(fontFamily = Figtree, fontSize = 12.sp, color = Palette.muted)
             val selectedLabelStyle = labelStyle.copy(color = Palette.text, fontWeight = FontWeight.SemiBold)
             val animalNames = hours.map { gloss(it.sign.animal) }
-            val dialDescription = stringResource(R.string.hours_dial_description)
+            val dialDescription = stringResource(if (birth != null) R.string.hours_dial_description else R.string.hours_dial_description_period)
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Canvas(
                     Modifier
@@ -128,19 +137,21 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
                             }
                         },
                 ) {
-                    val outerWidth = size.minDimension * 0.10f
+                    val outerWidth = size.minDimension * if (birth != null) 0.08f else 0.10f
                     val innerWidth = outerWidth
                     val gap = size.minDimension * 0.012f
                     val labelBand = size.minDimension * 0.11f
                     val outerRadius = size.minDimension / 2f - labelBand - outerWidth / 2f
                     val innerRadius = outerRadius - outerWidth / 2f - gap - innerWidth / 2f
+                    // The combination period: the innermost ring, or the only one without a birth date.
+                    val periodRadius = if (birth != null) innerRadius - innerWidth - gap else outerRadius
                     val center = Offset(size.width / 2f, size.height / 2f)
 
                     fun startAngle(minute: Int) = minute / 1440f * 360f - 90f
-                    fun ring(radius: Float, width: Float, i: Int, force: Force) {
+                    fun ring(radius: Float, width: Float, i: Int, tone: Tone) {
                         val alpha = if (i == selected) 1f else 0.55f
                         drawArc(
-                            color = toneColor(tone(i, force)).copy(alpha = alpha),
+                            color = toneColor(tone).copy(alpha = alpha),
                             startAngle = startAngle(hours[i].startMinute) + 0.8f,
                             sweepAngle = 30f - 1.6f,
                             useCenter = false,
@@ -150,8 +161,11 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
                         )
                     }
                     for (i in hours.indices) {
-                        ring(outerRadius, outerWidth, i, Force.VITALITY)
-                        ring(innerRadius, innerWidth, i, Force.BODY)
+                        if (birth != null) {
+                            ring(outerRadius, outerWidth, i, tone(i, Force.VITALITY))
+                            ring(innerRadius, innerWidth, i, tone(i, Force.BODY))
+                        }
+                        ring(periodRadius, outerWidth, i, Texts.DUS_SBYOR.getValue(periods[i]).first)
                         // The animal's name outside the rings, at the middle of its hour.
                         val mid = Math.toRadians((startAngle(hours[i].startMinute) + 15f).toDouble())
                         val r = outerRadius + outerWidth / 2f + labelBand / 2f
@@ -164,11 +178,17 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
                             ),
                         )
                     }
+                    // The nectar periods: a dot inside the combination ring at the middle of each clock hour.
+                    for (h in nectar) {
+                        val a = Math.toRadians((startAngle((5 * 60 + h * 60 + 30) % 1440)).toDouble())
+                        val r = periodRadius - outerWidth / 2f - gap * 2.5f
+                        drawCircle(Palette.saffron, radius = gap * 1.6f, center = Offset(center.x + (r * cos(a)).toFloat(), center.y + (r * sin(a)).toFloat()))
+                    }
                     // The present moment, on today's page.
                     nowMinute?.let { m ->
                         val a = Math.toRadians(startAngle(m).toDouble())
                         val tip = outerRadius + outerWidth / 2f
-                        val base = innerRadius - innerWidth / 2f
+                        val base = periodRadius - outerWidth / 2f
                         drawLine(
                             Palette.saffron,
                             start = Offset(center.x + (base * cos(a)).toFloat(), center.y + (base * sin(a)).toFloat()),
@@ -201,11 +221,40 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign, signs: DaySigns, z
             }
 
             Column {
-                for (force in listOf(Force.VITALITY, Force.BODY)) {
-                    AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels, hours[selected]), onOpen)
+                val sign = periods[selected]
+                val (periodTone, periodReading) = Texts.DUS_SBYOR.getValue(sign)
+                val title = stringResource(R.string.hours_period_title, sign.english)
+                AnnotationRow(
+                    Annotation(
+                        title,
+                        stringResource(if (periodTone == Tone.GOOD) R.string.hours_period_good else R.string.hours_period_bad),
+                        periodTone,
+                        periodReading,
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.hours_period_sign) to "${Ewts.toTibetan(sign.wylie)} (${sign.wylie})"),
+                    ),
+                    onOpen,
+                )
+                // A nectar period falls in the first or second clock hour of a two-hour period.
+                nectar.filter { it / 2 == selected }.forEach { h ->
+                    AnnotationRow(
+                        Annotation(
+                            stringResource(R.string.tib_nectar_title),
+                            "%02d:00–%02d:00".format((5 + h) % 24, (6 + h) % 24),
+                            Tone.GOOD,
+                            Texts.NECTAR_PERIODS,
+                            titleIsKanji = false,
+                        ),
+                        onOpen,
+                    )
+                }
+                if (birth != null) {
+                    for (force in listOf(Force.VITALITY, Force.BODY)) {
+                        AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels, hours[selected]), onOpen)
+                    }
                 }
             }
-            Text(stringResource(R.string.hours_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
+            Text(stringResource(if (birth != null) R.string.hours_note else R.string.hours_note_period), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
         }
     }
 }

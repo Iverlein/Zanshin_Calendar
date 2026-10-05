@@ -381,17 +381,17 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 ),
             )
         }
-        SectionTitle(stringResource(R.string.section_almanac))
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_almanac)) }
+            IconButton(onClick = { hoursOpen = true }) {
+                Icon(Icons.Clock, contentDescription = stringResource(R.string.hours_open), tint = Palette.muted)
+            }
+        }
         Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
 
         info.birthSign?.let { birth ->
             val signs = info.signs
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_your_day)) }
-                IconButton(onClick = { hoursOpen = true }) {
-                    Icon(Icons.Clock, contentDescription = stringResource(R.string.hours_open), tint = Palette.muted)
-                }
-            }
+            SectionTitle(stringResource(R.string.section_your_day))
             Column {
                 for (force in listOf(Force.VITALITY, Force.BODY)) {
                     AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels)) { a -> sheet = a }
@@ -463,9 +463,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
     }
 
     if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
-    info.birthSign?.let { birth ->
-        if (hoursOpen) HoursSheet(info.date, day, birth, info.signs, zone, onOpen = { sheet = it }) { hoursOpen = false }
-    }
+    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, onOpen = { sheet = it }) { hoursOpen = false }
     sheet?.let { ReadingSheet(it) { sheet = null } }
 }
 
