@@ -399,3 +399,22 @@ fun personalDay(birthAnimal: Animal, weekday: Weekday): PersonalDay? {
         else -> null
     }
 }
+
+/**
+ * Jupiter's nectar periods (*bdud rtsi thun mtshams*), the *kun phan me long*
+ * §10 (img. 81–82; docs/sources/nectar-periods.md). Each of the twelve double
+ * hours from dawn is halved and each half has a ruling planet: by day the
+ * first half of dawn is the weekday's own planet and each next one is counted
+ * six on in the order of the weekdays, by night the first half after sunset
+ * is the weekday's planet again and each next one is counted five on. The
+ * halves Jupiter rules are the nectar periods. They come as clock hours from
+ * the hare hour, the app's clock for the hours (§10.3): 0 is 05:00–06:00,
+ * 12 is 17:00–18:00, 23 is 04:00–05:00.
+ */
+fun nectarHours(weekday: Weekday): List<Int> {
+    // The tables number the planets as the weekdays: Saturn 0, Sun 1 … Venus 6, which are the ordinals.
+    val jupiter = Weekday.THURSDAY.ordinal
+    val day = (0 until 12).filter { (weekday.ordinal + 5 * it) % 7 == jupiter }
+    val night = (0 until 12).filter { (weekday.ordinal + 4 * it) % 7 == jupiter }.map { it + 12 }
+    return day + night
+}

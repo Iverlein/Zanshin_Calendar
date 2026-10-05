@@ -158,6 +158,11 @@ object Sources {
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     /** The same print's chart of Rāhu's general course by date, the White Beryl's grouped by direction (§7, img. 78). */
+    val KUN_PHAN_ME_LONG_NECTAR = Source(
+        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Jupiter's nectar periods by day and by night (img. 81–82)",
+        "BDRC MW4CZ65561",
+        "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
     val KUN_PHAN_ME_LONG_RAHU = Source(
         "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Rāhu's course by date (img. 78)",
         "BDRC MW4CZ65561",
@@ -576,6 +581,17 @@ object Texts {
 
     private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date")
+
+    /**
+     * Jupiter's nectar periods ([zanshin.core.tibetan.nectarHours]): the rule,
+     * and what the print's activity boxes name them good for (boxes 17, 19,
+     * 26, 34, 49, 55, 60; docs/sources/kp-activities.md).
+     */
+    val NECTAR_PERIODS = Reading(
+        goodKeys = listOf("auspicious_work", "reconciliation", "raising_banners", "preparing_medicine", "consecration", "bringing_rain", "council"),
+        source = Sources.KUN_PHAN_ME_LONG_NECTAR, also = listOf(Sources.KUN_PHAN_ME_LONG),
+        key = "reading.NectarPeriods",
+    )
 
     /**
      * Rāhu's general course (the White Beryl, vol. 2, pp. 236–237, with the
