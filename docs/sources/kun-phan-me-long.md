@@ -157,7 +157,7 @@ yearly elements and img. 87–101 as woodcuts of animals).
 | 5 | 71–72 | the seven *grub sbyor* and the other special days, with their exceptions and remedies |
 | 6 | 73–76 | the karaṇas, Viṣṭi first: a table of the karaṇa's two halves on each date, their results (in [karanas.md](karanas.md)), the times of the *sa'i 'phung byed nag mo* |
 | 7–8 | 76–77 | Rāhu's course by date and by time, the *sde brgyad*, the Rāhu wheel |
-| 9 | 78–80 | how to compute the *dus sbyor*, with tables of the hours by sign |
+| 9 | 78–80 | how to compute the *dus sbyor*, with tables of the hours by sign: read and built in [combination-period.md](combination-period.md) |
 | 10 | 81–82 | the *bdud rtsi thun mtshams* (Jupiter's nectar periods), day and night tables: read and built in [nectar-periods.md](nectar-periods.md) |
 | 11 | 83–84 (on the scan 85) | the *bla gza'* and *bla skar* of each year animal, table and results: the personal mansions and weekdays of WB p. 330, read in [personal-mansions.md](personal-mansions.md) |
 | 12 | 85–86 | the *spar kha* and *sme ba*: tables, computation, results, ransom rites |

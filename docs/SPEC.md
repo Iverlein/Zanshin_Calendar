@@ -535,11 +535,15 @@ against the date, karaṇa and yoga.
   day's nectar hours, whose reading lists what the activity tables name
   them good for. It takes no part in the weighing: it is a time within the
   day.
-- **Not built**: the combination period (*tatkāla dus sbyor*), which the
-  *kun phan me long* holds above everything: it is reckoned from the sign
-  rising in each double hour (KP §9, img. 78–80) and the planets in it, and
-  the app computes no planets but the Sun and the Moon. The hour against
-  the day's animal sign (KP's rule 2) waits for the same.
+- **The combination period** (*tatkāla dus sbyor*,
+  [sources/combination-period.md](sources/combination-period.md)), which the
+  texts hold above every factor of the day: the sign rising in each hour.
+  KP's table (§9, img. 79–80) gives the month's sign at daybreak and one
+  sign more each hour (the 3rd month Aries … the 2nd Pisces); WB (vol. 2,
+  pp. 371–376) gives for each sign what is good and bad while it rises and
+  whether the period is to be accomplished or avoided. It is shown on the
+  hours panel (§10.3), not weighed into the day.
+- **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ## 6. Astronomy library
 
@@ -900,14 +904,17 @@ canvas "Zanshin Calendar — basic design".
   counted, the day's element, yours and the relation.
   The tone dot is lucky for white pebbles only, unlucky for black only,
   mixed for both.
-- **Hours of the day:** a clock icon on the "Your day" header opens the
-  hours (§5.9): a 24-hour dial, midnight at the top, with the twelve
-  two-hour periods named by their animals; the outer ring coloured by the
-  pebbles of the hour's vitality against the birth year's, the inner by
-  those of the body. On today's page a hand marks the present moment and
-  the current hour is selected. Tapping an hour, or stepping with the
-  arrows beside its sign, shows its vitality and body rows, which open the
-  reading and its workings as the day's rows do.
+- **Hours of the day:** a clock icon on the Almanac header opens the
+  hours: a 24-hour dial, midnight at the top, with the twelve two-hour
+  periods named by their animals. Its inner ring is the combination period
+  (§5.13), each hour coloured by the White Beryl's verdict on its rising
+  sign, with dots on Jupiter's nectar periods; with a birth date two outer
+  rings show the pebbles of the hour's vitality and body against the birth
+  year's (§5.9). On today's page a hand marks the present moment and the
+  current hour is selected. Tapping an hour, or stepping with the arrows
+  beside its sign, shows its rows: the combination period, a nectar period
+  if one falls in it, and with a birth date vitality and body; each opens
+  its reading as the day's rows do.
 - **Sme ba in its colour:** the lunar day's number carries the square of the
   nine numbers, each box in the colour it is printed in and today's marked
   (Berzin, *Details of Tibetan Astrology 4*: colours, and the arrangement with
