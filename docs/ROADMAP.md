@@ -39,7 +39,8 @@ the page in its rank, the day in brief deciding each activity by the
 strongest factor and the day's tone by the combinations of weekday and
 mansion (the 28 named ones and the element pairs), then the special days,
 then the side with more factors, the *Rdo rje gtsug lag*'s special days
-(WB p. 337) among them; Rāhu's course by date and over the hours of a day; the personal
+(WB p. 337) among them; Rāhu's course by date and over the hours of a day;
+Jupiter's nectar periods (KP §10); the personal
 mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
 ([kp-activities.md](sources/kp-activities.md)); WB ch. 31's earth lords of the lunar date's animal
 (SPEC §5.11). The texts are in

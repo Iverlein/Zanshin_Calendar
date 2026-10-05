@@ -522,6 +522,15 @@ against the date, karaṇa and yoga.
   (p. 239): eight named times of day, each with the direction it moves
   from and to. They stay in the reading, not on the hours panel, since the
   text names times of day rather than clock hours.
+- **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
+  the *kun phan me long* §10: each double hour is halved, each half ruled
+  by a planet, counted from the weekday's own planet six on by day (from
+  dawn) and five on by night (from sunset); Jupiter's halves are the
+  nectar periods. On the twelve hours from the hare hour at 05:00 (§10.3)
+  each half is a clock hour, and the Almanac section has a row with the
+  day's nectar hours, whose reading lists what the activity tables name
+  them good for. It takes no part in the weighing: it is a time within the
+  day.
 - **Not built**: the combination period (*tatkāla dus sbyor*), which the
   *kun phan me long* holds above everything: it is reckoned from the sign
   rising in each double hour (KP §9, img. 78–80) and the planets in it, and
