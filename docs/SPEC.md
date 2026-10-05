@@ -308,6 +308,14 @@ Edward Henning, *Horary and electional astrology of the five components*
   For each, the good and bad weekdays, lunar dates, mansions, day animals
   (the lunar date's, §5.8, as WB's notes count the *nyi ma*: open question 9,
   answered 2026-10-04) and trigrams. What a list does not name is neutral.
+- **The print's other boxes**, read on its scans in the same way
+  ([sources/kp-activities.md](sources/kp-activities.md)): 44 more
+  activities, from naming and new clothes to building, sowing, trade,
+  medicine, rain and councils. A box that says "otherwise as box N" takes
+  N's lists in the kinds it names nothing in; the boxes that qualify nearly
+  every entry (averting rites, crafts, military training, the KP2-only
+  boxes 50–51) and the charts are not built. The lists' readings cite the
+  print first and Henning beside it.
 
 The lists are taken as printed, with these rules for what is doubtful:
 
