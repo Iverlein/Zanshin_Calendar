@@ -68,6 +68,7 @@ import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearForces
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
@@ -222,6 +223,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
+        val nectarTitle = stringResource(R.string.tib_nectar_title)
+        val nectarSubtitle = stringResource(
+            R.string.tib_nectar_subtitle,
+            nectarHours(day.weekday).joinToString(" · ") { h -> "%02d:00–%02d:00".format((5 + h) % 24, (6 + h) % 24) },
+        )
         val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val gtsugLagDaySubtitle = stringResource(R.string.tib_gtsug_lag_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
@@ -282,6 +288,12 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             Texts.RAHU_GENERAL[day.day]?.let { r ->
                 add(Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
             }
+            add(
+                Annotation(
+                    nectarTitle, nectarSubtitle, Tone.GOOD, Texts.NECTAR_PERIODS, titleIsKanji = false,
+                    details = listOf(nectarTitle to "${Ewts.toTibetan("bdud rtsi thun mtshams")} (bdud rtsi thun mtshams)"),
+                ),
+            )
             add(
                 Annotation(
                     day.weekday.english,

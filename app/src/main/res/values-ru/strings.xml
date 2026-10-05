@@ -246,6 +246,8 @@
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
     <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по rdo rje gtsug lag: %1$s</string>
+    <string name="tib_nectar_title">Периоды нектара</string>
+    <string name="tib_nectar_subtitle">часы Юпитера сегодня: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
     <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
     <string name="tib_rahu_general_subtitle">%1$d-е число: куда движется Раху</string>
