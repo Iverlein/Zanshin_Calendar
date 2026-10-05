@@ -18,7 +18,7 @@ our own words). What is still to be found, and how, is in
 | [rahu.md](rahu.md) | Rāhu's course by lunar date: the general course of thirty dates, and the detailed course of sixteen with what each is good and bad for | §5.13 | From Yigdzin-1, clean; two words checked on the scan; the general course checked against KP's chart (img. 78) |
 | [weighing.md](weighing.md) | How the factors of a day are weighed: KP's ranking (Rāhu, weekday, mansion, date, karaṇa, yoga, *nyi ma*), its rules for disagreements and the combination's precedence | §5.12 | Read on the scan (KP img. 13–14) |
 | [lunar-day-signs.md](lunar-day-signs.md) | The lunar day's animal, trigram and sme ba: the eight goddesses of the date (the trigram's illness reading); why the sme ba has no day reading; the animal is the *nyi ma* | T2 | Goddess passage read on the scan; the trigram identity checked by `TrigramGoddessTest` |
-| [earth-lords.md](earth-lords.md) | The earth lords of the date's animal (WB vol. 2, pp. 224–226): where the earth lord sits in the house and the one who witnesses the day, for funerals | T2 | Machine-read with two witnesses, three syllables settled on the scan; built (SPEC §5.11) |
+| [earth-lords.md](earth-lords.md) | The earth lords of the date's animal (WB vol. 2, pp. 224–226): where the earth lord sits in the house and the one who witnesses the day, for funerals; the day's sme ba and the *bla mkhyen* | T2 | Machine-read with two witnesses, three syllables settled on the scan; built (SPEC §5.11); the day's sme ba count settled from BS and MK (OCR only), the *bla mkhyen* not built |
 | [mansions.md](mansions.md) | The mansion verses; the doubtful entries of the activity lists | T2 | Uttarāṣāḍhā's verse settled by eye; **every doubled entry resolved on the KP scans** |
 | [mansion-verses.md](mansion-verses.md) | All 28 mansion verses of WB, Tibetan and the lists in English | T2 | From two OCR readings, every disagreement settled, the last four on the scan (2026-10-04); not read by eye syllable by syllable |
 | [combination-period.md](combination-period.md) | The combination period: KP's table of the rising sign by hour and WB's readings of the twelve | §5.13 | Read with Yigdzin-1 and on the scans; the table checked by a test (2026-10-05) |
@@ -27,7 +27,7 @@ our own words). What is still to be found, and how, is in
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Nine questions: 7 answered, 4 and 8 narrowed by WB2 |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions: 2, 7, 9 and 11 answered, 4 and 8 narrowed by WB2 |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -56,6 +56,8 @@ in `wb/` (gitignored; see `wb/README.md`).
 | **SY** | Nam mkha' seng ge, *Skar yig blo gsal dga' bskyed blang dor gsal ba'i me long*, chapter *skar khra 'bras bshad* | in *Nam mkha' seng ge'i sman rtsis*, pp. 289–393 | BDRC MW2DB13644_565451; etext IE0OPI0000249F |
 | **KP** | *'Bras rtsis bai dkar dgongs don dri med kun phan me long* | Mtho las dgon print, A mdo, 120 images | BDRC MW4CZ65561 (scans I4CZ65599, open; no etext). A second dbu can print (**KP2**) in MW3CN12069_4F9795, vol. 4 (scans I3CN12074, img. 218–345, open); one in W21970 (restricted). |
 | **Rabten** | Edition Rabten, *Tibetan Calendar 2026* | — | already cited by `personalDay` |
+| **BS** | Blo bzang sbyin pa (b. 1918), *Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog* | in his *Gsung 'bum*, Kan su'u mi rigs dpe skrun khang, Lan kru'u 2003, vol. 3 (second group, pp. 9–102); again in *Gangs ljongs rig bcu'i snying bcud chen mo*, *Bzo rtsis zlos gar* vol. 2, Mi rigs dpe skrun khang, Pe cin | BDRC MW25151_4E0A69 and MW1PD95727_O1PD95727_X9IUCSSDTMOC; etext search only; scans lending-only (archive.org `bdrc-W25151`) |
+| **MK** | a text on Chinese reckoning in *Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng*, vol. 10 | Bod ljongs dpe rnying dpe skrun khang, Lha sa 2012 | BDRC MW1PD152297, etext volume VEIE0OPI8D89959A_I2PD18783 (the passage at character 445 758); search only; scans lending-only |
 
 ## Numbering
 

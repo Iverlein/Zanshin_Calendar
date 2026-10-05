@@ -68,7 +68,14 @@ the text, not about the app.
     same table; ཆུ་གྲི for ཆུ་གྲེ, the water *gre*?), or does it name the
     *chu gri*, the small knife that lances a swelling, which is her illness
     ([lunar-day-signs.md](lunar-day-signs.md))?
-11. WB vol. 2, p. 192: the day's sme ba is «one-white on the day of the
+11. ~~The direction of the day's sme ba.~~ *Answered 2026-10-05
+    ([earth-lords.md](earth-lords.md)): two later rtsis texts, Blo bzang
+    sbyin pa's *Tsi na'i rtsis la 'jug pa* and one in the *Mdo khams stod*
+    collection, count it up from the first wood-mouse day after the
+    winter solstice and down from the first after the summer solstice;
+    that wood-mouse day is WB's "first wood-mouse day" with the
+    one-white. Neither was read on a scan (lending-only).* The question
+    as it stood: WB vol. 2, p. 192: the day's sme ba is «one-white on the day of the
     winter solstice, then one sme ba each day». Does the count run up
     (1, 2, 3 …) or down (1, 9, 8 …)? And p. 224's example, the *bla
     mkhyen* in the south-west «on the first wood-mouse day», implies sme ba

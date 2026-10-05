@@ -90,9 +90,10 @@ throughout (vol. 2, pp. 78–97). In the square of the nine with 5 in the
 middle (south at the top: 4 9 2 / 3 5 7 / 8 1 6) the 7 is in the west;
 with 1 in the middle it is in the south-west, so the example's day has the
 sme ba 1. Which count gives a day its sme ba, and which wood-mouse day is
-"the first", the passage does not say. The app has a wood-mouse day in
-its sixty-day count (`dayElement`, `dayAnimal`) but a sme ba only for the
-lunar date (Janson), not for the sixty-day count. Not built.
+"the first", the passage does not say; two later texts do (below,
+question 11 answered). The app has a wood-mouse day in its sixty-day
+count (`dayElement`, `dayAnimal`) but a sme ba only for the lunar date
+(Janson), not for the sixty-day count. Not built yet.
 
 **The day's sme ba, read 2026-10-05.** The year's section (p. 180, etext
 p. 188) sends the year's *bla mkhyen* round the year's sme ba square
@@ -104,14 +105,63 @@ does (p. 192, img. 200, read on the scan; the etext drops དུས་དགུ�
 
 "On the day of the winter solstice the one-white is produced; from then,
 one sme ba each day." So the day's sme ba is 1 on the winter solstice and
-moves on by one a day. Two things stay open, and the reading waits on
-them (open question 11): which way the count runs (the year's sme ba
-counts down; "one sme ba each day" does not say), and how the example's
-"first wood-mouse day" with sme ba 1 fits a count that starts on the
-solstice. The Chinese count of day stars, which the app's 旧暦 page uses
-(SPEC §7.5), starts one-white on the wood-mouse (甲子) day nearest the
-winter solstice and counts up, which would fit both; that is a likeness,
-not a statement of the text.
+moves on by one a day. The passage leaves two things open (open question
+11): which way the count runs (the year's sme ba counts down; "one sme ba
+each day" does not say), and how the example's "first wood-mouse day"
+with sme ba 1 fits a count that starts on the solstice. A second copy of
+WB in BDRC's search (MW2PD17386_D19206, in *Bod lugs gso rig rtsa che'i
+dpe rnying kun btus*; no scans) has the same lines with
+«ཉིན་རེ་སྐྱེ་བ་རེ། །བསྐྱོས་པས་ཞག་དགུ་བྱས་མཇུག་རྫོགས» ("moving on, the round is
+complete in nine days"), which settles neither.
+
+WB uses "the day's sme ba" (*zhag gi sme ba*) for a second count too:
+in the hours (vol. 2, p. 535, img. 543, from the etext), the date's sme ba
+(1, 4 or 7 on the first date of a month by its place in the season, then
+by date: the app's lunar-date sme ba, Janson's) starts the nine day and
+nine night periods. That count cannot be meant at p. 224, whose example
+gives a wood-mouse day a fixed sme ba; under the date count a wood-mouse
+day can have any of the nine.
+
+**Question 11 answered, 2026-10-05**, by two later rtsis texts that state
+the count, both found with BDRC's full-text search and both read from the
+OCR only (their scans are lending-only on archive.org):
+
+- **BS** (Blo bzang sbyin pa, b. 1918, *Tsi na'i rtsis la 'jug pa'i yi
+  ge*), the same words in two printings: «འགའ་ཞིག་ཞག་གི་སྨེ་བ་ནི། །དགུན་ཉི་ལྡོག་ནས་དང་པོའི་སྒང་། །བར་དུ་ཤིང་བྱི་ནམ་བྱུང་ཚེ། །ཉིན་དེར་སྨེ་བ་གཅིག་དཀར་ཡིན། །དང་པོའི་སྒང་ནས་གསུམ་སྒང་བར། །ཤིང་བྱིའི་ཉི་མར་བདུན་དམར་འོང་། །གསུམ་པའི་སྒང་ནས་དབྱར་ཉི་ལྡོག །བར་དེའི་ཤིང་བྱི་བཞི་ལྗང་འགྲོགས། །དེ་ནས་ཤིང་གླང་ལྔ་སེར་སོགས། །སྨེ་བ་ལུགས་འབྱུང་ཟླ་དྲུག་ལ། །ལྔ་བའི་སྒང་ནས་བདུན་སྒང་བར། །ཤིང་བྱི་བྱུང་ཉིན་དགུ་དམར་ཏེ། །བདུན་སྒང་ནས་བཟུང་དགུ་བའི་སྒང་། །བར་གྱི་ཤིང་བྱིར་གསུམ་མཐིང་སྦྱོར། །དེ་ནས་དགུན་ཉི་ལྡོག་ཉིན་བར། །ཤིང་བྱིའི་ཉིན་མོར་དྲུག་དཀར་དང་། །ཤིང་གླང་ལྔ་སེར་ཉིན་སྨེ་རྣམས། །ཟླ་དྲུག…»
+  "Some reckon the day's sme ba so: whenever a wood-mouse day falls
+  between the winter solstice and the first *sgang*, that day has the
+  one-white; between the first and third *sgang*, a wood-mouse day has
+  the seven-red; between the third *sgang* and the summer solstice it
+  goes with the four-green, then the wood-ox has the five-yellow, and so
+  on: the sme ba run forward (*lugs 'byung*) for six months. Between the
+  fifth and seventh *sgang* a wood-mouse day has the nine-red; between the
+  seventh and ninth, the three-blue; from then to the winter solstice, a
+  wood-mouse day has the six-white and a wood-ox the five-yellow: the
+  day's sme ba for six months [backward]." The *sgang* are WB's mid-month
+  terms, numbered by the month as in WB vol. 1, pp. 190–192 (the eleventh
+  is the winter solstice, the second the spring equinox, the fifth the
+  summer solstice), so the six stretches are each about sixty days.
+- **MK** (a text in *Yul mdo khams stod kyi mkhas grub rnam pa'i gsung
+  bcud*, vol. 10): «དེ་ནས་ཞག་གི་སྨེ་བ་ཡང་། །ལུགས་འབྱུང་དགུན་ཉི་ལྡོག་འོག་དང་། །ལུགས་ལྡོག་དབྱར་ཉི་ལྡོག་འོག་གི །ཤིང་བྱི་ནས་བརྩམས་…ཁ་བྱང་ཐད་ཀྱི་སྨེ་བ་སྟེ། །དཔེར་ན་དཔྱིད་རའི་ཤིང་བྱི་ལ། །གཅིག་དཀར་དབུས་སུ་གནས་བཞིན་ནོ།»
+  "The day's sme ba too: forward after the winter solstice and backward
+  after the summer solstice, beginning from the wood-mouse day […]; for
+  example, on the wood-mouse day of the first spring month the one-white
+  is in the middle." The first spring month is the tiger month, which in
+  the Phugpa count is the eleventh (the app's `monthAnimal`, after
+  Janson), the month of the winter solstice.
+
+So the count runs **up** (1, 2, 3 …) from the first wood-mouse day after
+the winter solstice and **down** (9, 8, 7 …) from the first wood-mouse day
+after the summer solstice; WB's "first wood-mouse day" with the one-white
+is the first of these. WB's own line, "the one-white on the winter
+solstice", names the turning point, and BS and MK say on which day of it
+the count takes hold. Each wood-mouse day takes its sme ba from the
+stretch it falls in (1, 7, 4 in the forward half; 9, 3, 6 in the
+backward), and every other day counts on from the last wood-mouse day.
+This is the Chinese count of day stars with one difference: the Japanese
+rule the 旧暦 page uses (SPEC §7.5) takes the 甲子 *nearest* the solstice,
+which can come before it; BS takes the first *after* it. BS gives it as
+one view («འགའ་ཞིག», "some"); no text found gives another.
 
 The passage closes the clan reckoning with a caution that applies to the
 whole: the learned of Tibet (Mi pham dge legs and others) apply it to the
