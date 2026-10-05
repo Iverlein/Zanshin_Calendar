@@ -6,8 +6,8 @@ in [README.md](README.md); the boxes and their images are inventoried in
 [mansions.md](mansions.md).
 
 Henning translated thirteen of KP's activity boxes, which the app has had
-since 1.0 (SPEC §5.10). The other boxes were read on 2026-10-04 and are in
-`Electional.kt`. Each was read on the scan of KP (BDRC I4CZ65599, 2550 px,
+since 1.0 (SPEC §5.10). The other boxes were read on 2026-10-04 and 05 and
+are in `Electional.kt`, 50 lists in all. Each was read on the scan of KP (BDRC I4CZ65599, 2550 px,
 enlarged two to four times where the print is small), with the Yigdzin-1
 and MITRA readings of the folio (`tools/sources/hf_read.py`) and the same
 box in KP2 (I3CN12074) beside it. Where the three disagree the scan decides,
@@ -466,20 +466,87 @@ KP img. 60, KP2 img. 283.
 - **Neither side:** the Sun (good for royal councils); the Moon (in brackets)
 - **Not calculated:** Abhijit (bad); rising signs; the nectar periods (good); ki kang, dbul, phung zor and the like (bad)
 
+### 50. Ordination, teaching, maṇḍalas, study, empowerment, practice — རབ་བྱུང་འཆད་ཉན་དཀྱིལ་འཁོར་འདྲི་བ་དང་བསློབ་གཉེར་དབང་བསྐུར་སྒྲུབ་མཆོད་ལ་བཟང་བ
+
+KP2 img. 276 (not in KP).
+
+- **Good:** Sun Thu; dates 3, 5, 10, 13, 23, 11; sa ri, sa ga, snar ma, mgo, lag, nabs so, rgyal, mchu, smin drug, me bzhi, nag pa, mon gre, mon gru, chu stod, khrums smad; days Dragon; trigrams gin
+- **Bad:** Tue Sat; dates 1, 22, 15; days Sheep, Ox
+- **Neither side:** the Moon and Mercury (in brackets: bad for ordination); Venus (in brackets: good for ordination and teaching); lha mtshams, chu smad, snron, nam gru, tha skar, bra nye, khrums stod (good for empowerment); dbo (good for teaching); skag and gro bzhin (bad for study); the Tiger day (bad for study); the Pig day (good, and bad for study)
+- **Not calculated:** the links རྣམ་ཤེས, ཚོར་བ; rising signs; zin phung, nyi nag, Viṣṭi, 'phung byed, the Nāga planet and the like (bad); for drawing maṇḍalas the lines are laid out as the White Beryl teaches
+- KP2 only. Two or three bad dates beside 1, 22 and 15 (read 4, 8, 9 by machine) are not clear on the photograph and are left out.
+
+### 51. Dikes and protection against water — ཤྭ་རག་ཆུ་བསྲུང་སོགས་ལ་བཟང་བ
+
+KP2 img. 277 (not in KP).
+
+- **Good:** Sun Fri Tue; smin drug, rgyal, gre, dbo, me bzhi, sa ri, sa ga, skag, khrums stod, mon gre; days Dog
+- **Bad:** Mon Wed; chu smad, khrums smad, chu stod, lag, mchu, nam gru, nag pa, snron, snrubs
+- **Neither side:** Thursday and Saturn (in brackets)
+- **Not calculated:** the dates of both halves (not read with confidence on the photograph); Abhijit (bad); rising signs; Rāhu's course, bstan ma, byi lam and the like
+- KP2 only. The bad mansions end «དེ་ནི་ཤིན་ཏུ» (very bad), an emphasis. The heading's ཤྭ་རག is the shwa rags of the lunar dates (a dike against flash floods), and the box is listed under that wording.
+
+### 52a. Cutting hair and nails — བཟོ་དང་སྐྲ་སེན་བྲེག་པར་བཟང་བ (སྐྲ་སེན)
+
+KP img. 55, KP2 img. 278.
+
+- **Good:** Fri Mon Wed; smin drug, mgo, nag pa, mchu, sa ga, lha mtshams, khrums smad, tha skar, lag, me bzhi, nam gru
+- **Bad:** Sun Tue Thu Sat; snar ma, snron, chu smad, dbo, mon gru, bra nye; days Monkey, Dragon
+- **Neither side:** khrums stod (good for a craft, word not read)
+- **Not calculated:** Abhijit (good for shaving); the links; rising signs; the earth lords' days (bad)
+- Box 52 joins crafts and cutting hair and nails, split here in two. The Moon and Mercury are good «for silver work and cutting hair and nails» (the Moon's mercury work only acceptable); smin drug, mgo, nag pa, mchu, sa ga, lha mtshams and khrums smad «for crafts and hair»; tha skar, lag, me bzhi and nam gru for shaving the head. Each bad weekday is good for one craft (the Sun gold, wood, leather and bone; Mars coral, swords and gold; Jupiter jewels; Saturn breaking up iron), so it stays bad for the hair. The White Beryl's weekday verses avoid cutting hair on the same four days.
+
+### 52b. Crafts — བཟོ་དང་སྐྲ་སེན་བྲེག་པར་བཟང་བ (བཟོ)
+
+KP img. 55, KP2 img. 278.
+
+- **Good:** Fri; smin drug, mgo, nag pa, mchu, sa ga, lha mtshams, khrums smad; days Dog, Ox; trigrams kham, li
+- **Bad:** snar ma, snron, chu smad, dbo, mon gru, bra nye; days Monkey, Dragon
+- **Neither side:** the Moon and Mercury (for silver work only); the Sun, Mars, Jupiter and Saturn (bad, but each good for one craft); tha skar and lag (good for woodwork)
+- **Not calculated:** the links; rising signs
+- The crafts half of box 52 (see 52a). The Dog and Ox days and the trigram kham are good for ironwork, li for iron and pottery: kept good, since ironwork is a craft.
+
+### 53a. Military training — དམག་རྩལ་གཤོམ་དང་ཆོ་ལོ་སོགས་བྱེད་པར་བཟང་བ (དམག་རྩལ)
+
+KP img. 56, KP2 img. 279.
+
+- **Good:** tha skar, mgo, lag, skag, chu stod, me bzhi, lha mtshams, dbo, mon gru, snron, snrubs, khrums stod, sa ga, mchu
+- **Bad:** Sun Thu Mon Wed; days Tiger, Dragon, Ox; trigrams zon
+- **Neither side:** the dates, each tied to a direction (bad to the south-west, the east, the south …, the gates of war); nabs so, nag pa, nam gru, gre, bra nye, smin drug, snar ma, gro bzhin (bad, but good for attacking an enemy)
+- **Not calculated:** Abhijit (good); the links; rising signs; the wheel's numbers, pi ling, the earth lords and the like (bad)
+- Box 53 joins military training with dice and games, split here in two: the plain mansions and the bad weekdays and days hold for both.
+
+### 53b. Dice and games — དམག་རྩལ་གཤོམ་དང་ཆོ་ལོ་སོགས་བྱེད་པར་བཟང་བ (ཆོ་ལོ)
+
+KP img. 56, KP2 img. 279.
+
+- **Good:** Sat Tue Fri; tha skar, mgo, lag, skag, chu stod, me bzhi, lha mtshams, dbo, mon gru, snron, snrubs, khrums stod, sa ga, mchu; days Snake, Hare, Sheep, Dog, Monkey; trigrams li
+- **Bad:** Sun Thu Mon Wed; days Tiger, Dragon, Ox; trigrams zon
+- **Neither side:** as 53a
+- **Not calculated:** as 53a
+- Saturn, Mars and Venus, the five day animals and the trigram li are «རྩེད་མོ་བཟང» (good for games).
+
 ## Boxes not built
 
 - **4, 14, 36** and the plough woodcut (img. 35) are charts counted from the
   Sun's mansion or by the hour, not lists for the day; **13** is a few lines
   of prose on a child's first outing.
 - **47** (averting rites, img. 53): nearly every entry names the kind of
-  rite it suits (gentle, fierce, *zor*), so almost nothing counts for the
-  rite as such.
-- **50** (ordination, teaching, maṇḍalas, study, empowerment; KP2 img. 276)
-  gives each weekday for one of its several activities; **51** (*shwa rag*,
-  protection against water; KP2 img. 277) was not read. Both are in KP2 only.
-- **52** (crafts; cutting hair and nails, img. 55) and **53** (military
-  training and games, img. 56) qualify each weekday and mansion by a craft
-  or a direction.
+  rite it suits (gentle, fierce, *zor*), and together the kinds cover every
+  weekday, so nothing counts for the rite as such.
 
-These could be built activity by activity if their qualified entries are
-split into separate lists; that is a further reading.
+## Split and joined boxes (2026-10-05)
+
+Four boxes that qualify most of their entries were built as well, read on
+the scans the same way:
+
+- **50** and **51** are in KP2 only (img. 276–277). Box 50 joins ordination,
+  teaching, drawing maṇḍalas, study, empowerment and practice under one
+  heading; its plain entries hold for all of them and are one list, while
+  what it names for one of them alone counts for neither side. Box 51 is
+  the *shwa rag* of the lunar dates, a dike against flash floods, and is
+  listed under that wording; its dates are not clear on the photograph.
+- **52** joins crafts with cutting hair and nails, and **53** military
+  training with dice and games. Each is split into two lists: an entry the
+  box qualifies for one half ("good for silver work and cutting hair",
+  "good for games") counts for that half, and the plain entries for both.

@@ -44,7 +44,7 @@ the list names but that is not in the print has no image. Rows marked
 "(OCR)" were placed from the Yigdzin OCR of the whole book (2026-10-03),
 which reads each box's number and heading, and the heading checked against
 the list of contents on the scan. **Henning**
-marks the thirteen boxes Henning translated; the app has those and 44 more,
+marks the thirteen boxes Henning translated; the app has those and 50 lists more,
 read in [kp-activities.md](kp-activities.md).
 
 | Box | img. | Heading as printed (list of contents / box) | English | Contents |

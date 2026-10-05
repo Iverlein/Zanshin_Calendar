@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 Tibetan readings | M | Mansions, the activity lists (doubled mansions read on the print), lunar dates, weekdays, yogas, karaṇas, the trigram, the combinations of weekday and mansion, the special days, Rāhu's course and the earth lords are built, and the day is weighed by the texts' rank; the print's other activity boxes are read and built (44); the hour-level factors, the last qualified boxes and the rest of WB ch. 31 are left ([sources/](sources/README.md)) | Reading the *kun phan me long* tables for more activities |
+| 4 | T2 Tibetan readings | M | Mansions, the activity lists (doubled mansions read on the print), lunar dates, weekdays, yogas, karaṇas, the trigram, the combinations of weekday and mansion, the special days, Rāhu's course and the earth lords are built, and the day is weighed by the texts' rank; the print's other activity boxes are read and built (50 lists); the hour-level factors and the rest of WB ch. 31 are left ([sources/](sources/README.md)) | Reading the *kun phan me long* tables for more activities |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -40,7 +40,8 @@ strongest factor and the day's tone by the combinations of weekday and
 mansion (the 28 named ones and the element pairs), then the special days,
 then the side with more factors, the *Rdo rje gtsug lag*'s special days
 (WB p. 337) among them; Rāhu's course by date; the personal
-mansions (SPEC §5.8); WB ch. 31's earth lords of the lunar date's animal
+mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
+([kp-activities.md](sources/kp-activities.md)); WB ch. 31's earth lords of the lunar date's animal
 (SPEC §5.11). The texts are in
 [sources/](sources/README.md), with a plan for what is still to be read
 ([sources/PLAN.md](sources/PLAN.md)). Left:
@@ -48,11 +49,6 @@ mansions (SPEC §5.8); WB ch. 31's earth lords of the lunar date's animal
 - **The hour-level factors** (SPEC §5.13): the combination period
   (*tatkāla dus sbyor*, KP §9), which the text holds above everything and
   which needs the five planets; Rāhu's course by hour, year and month.
-- **The last activity boxes** ([kp-activities.md](sources/kp-activities.md)):
-  44 of the print's other boxes are built; averting rites, crafts, military
-  training and KP2's boxes 50–51 qualify nearly every entry and would need
-  splitting into separate lists. (*bla gza'* and *bla skar*, KP §11, turned
-  out to be the personal mansions already built.)
 - **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
   *bla mkhyen* of the day (it needs the sme ba of the sixty-day count) and
   the day by the clan's element (it needs the person's clan).
