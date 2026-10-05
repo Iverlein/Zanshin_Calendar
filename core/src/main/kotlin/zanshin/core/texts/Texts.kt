@@ -26,6 +26,7 @@ import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
@@ -138,6 +139,18 @@ object Sources {
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
+    val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's bla mkhyen p. 180 and the day's sme ba p. 192")
+    /** Blo bzang sbyin pa's account of the day's sme ba, which way it counts and from which wood-mouse day (docs/sources/earth-lords.md). */
+    val BLO_BZANG_SBYIN_PA_DAY_SME_BA = Source(
+        "Blo bzang sbyin pa, Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog, in his Gsung 'bum, Kan su'u mi rigs dpe skrun khang, Lanzhou 2003, vol. 3",
+        "BDRC MW25151_4E0A69",
+        "https://library.bdrc.io/show/bdr:MW25151_4E0A69",
+    )
+    val MDO_KHAMS_STOD_DAY_SME_BA = Source(
+        "Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng, vol. 10, Bod ljongs dpe rnying dpe skrun khang, Lhasa 2012",
+        "BDRC MW1PD152297",
+        "https://library.bdrc.io/show/bdr:MW1PD152297",
+    )
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–239")
     val WHITE_BERYL_DUS_SBYOR = whiteBeryl("pp. 371–376")
@@ -534,6 +547,23 @@ object Texts {
             goodKeys = lists.goodKeys, avoidKeys = lists.avoidKeys, source = Sources.WHITE_BERYL_EARTH_LORDS,
             also = listOf(Sources.KUN_PHAN_ME_LONG_EARTH_LORDS, Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
             key = "reading.EarthLord", arg = "reading.EarthLord.${a.name}",
+        )
+    }
+    /**
+     * The *bla mkhyen* of the day, in the direction of the day's seven-red
+     * (WB vol. 2, p. 224), with what the year's section names avoided towards
+     * it, whom it harms and the remedy (p. 180); the day's sme ba by the count
+     * of [zanshin.core.tibetan.DaySmeBa]. Its direction fills the summary.
+     */
+    val BLA_MKHYEN: Map<Direction, Reading> = Direction.entries.associateWith { d ->
+        Reading(
+            avoidKeys = listOf(
+                "markets", "any_building_work", "seeking_land", "taking_out_a_corpse", "building_graves", "founding_a_palace",
+                "funeral_rites", "taking_in_a_dog", "setting_up_a_gate", "building_a_hearth", "war", "robbery",
+            ),
+            source = Sources.WHITE_BERYL_BLA_MKHYEN,
+            also = listOf(Sources.BLO_BZANG_SBYIN_PA_DAY_SME_BA, Sources.MDO_KHAMS_STOD_DAY_SME_BA),
+            key = "reading.BlaMkhyen", arg = glossKey(d),
         )
     }
     val ELECTIONAL_TRIGRAM: Map<Trigram, Reading> = Trigram.entries.associateWith { t ->
