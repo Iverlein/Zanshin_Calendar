@@ -998,6 +998,89 @@ object Electional {
                 animals = setOf(TIGER, MONKEY, BIRD, DOG),
             ),
         ),
+        // 50. Ordination, teaching, maṇḍalas, study, empowerment, practice (KP2 only, img. 276).
+        ActivityList(
+            "ordination_teaching_and_empowerment",
+            good = Factors(
+                weekdays = setOf(SUNDAY, THURSDAY),
+                dates = setOf(3, 5, 10, 13, 23, 11),
+                mansions = m(SVATI, VISHAKHA, ROHINI, MRIGASHIRAS, ARDRA, PUNARVASU, PUSHYA, MAGHA, KRITTIKA, HASTA, CITRA, DHANISHTHA, SHATABHISHAJ, PURVASHADHA, UTTARABHADRAPADA),
+                animals = setOf(DRAGON),
+                trigrams = setOf(GIN),
+            ),
+            bad = Factors(
+                weekdays = setOf(TUESDAY, SATURDAY),
+                dates = setOf(1, 22, 15),
+                animals = setOf(SHEEP, OX),
+            ),
+        ),
+        // 51. Dikes and protection against water (KP2 only, img. 277).
+        ActivityList(
+            "building_flood_dikes",
+            good = Factors(
+                weekdays = setOf(SUNDAY, FRIDAY, TUESDAY),
+                mansions = m(KRITTIKA, PUSHYA, PURVAPHALGUNI, UTTARAPHALGUNI, HASTA, SVATI, VISHAKHA, ASHLESHA, PURVABHADRAPADA, DHANISHTHA),
+                animals = setOf(DOG),
+            ),
+            bad = Factors(
+                weekdays = setOf(MONDAY, WEDNESDAY),
+                mansions = m(UTTARASHADHA, UTTARABHADRAPADA, PURVASHADHA, ARDRA, MAGHA, REVATI, CITRA, JYESHTHA, MULA),
+            ),
+        ),
+        // 52a. Cutting hair and nails (img. 55, KP2 img. 278).
+        ActivityList(
+            "cutting_hair_and_nails",
+            good = Factors(
+                weekdays = setOf(FRIDAY, MONDAY, WEDNESDAY),
+                mansions = m(KRITTIKA, MRIGASHIRAS, CITRA, MAGHA, VISHAKHA, ANURADHA, UTTARABHADRAPADA, ASHVINI, ARDRA, HASTA, REVATI),
+            ),
+            bad = Factors(
+                weekdays = setOf(SUNDAY, TUESDAY, THURSDAY, SATURDAY),
+                mansions = m(ROHINI, JYESHTHA, UTTARASHADHA, UTTARAPHALGUNI, SHATABHISHAJ, BHARANI),
+                animals = setOf(MONKEY, DRAGON),
+            ),
+        ),
+        // 52b. Crafts (img. 55, KP2 img. 278).
+        ActivityList(
+            "crafts",
+            good = Factors(
+                weekdays = setOf(FRIDAY),
+                mansions = m(KRITTIKA, MRIGASHIRAS, CITRA, MAGHA, VISHAKHA, ANURADHA, UTTARABHADRAPADA),
+                animals = setOf(DOG, OX),
+                trigrams = setOf(KHAM, LI),
+            ),
+            bad = Factors(
+                mansions = m(ROHINI, JYESHTHA, UTTARASHADHA, UTTARAPHALGUNI, SHATABHISHAJ, BHARANI),
+                animals = setOf(MONKEY, DRAGON),
+            ),
+        ),
+        // 53a. Military training (img. 56, KP2 img. 279).
+        ActivityList(
+            "martial_skills",
+            good = Factors(
+                mansions = m(ASHVINI, MRIGASHIRAS, ARDRA, ASHLESHA, PURVASHADHA, HASTA, ANURADHA, UTTARAPHALGUNI, SHATABHISHAJ, JYESHTHA, MULA, PURVABHADRAPADA, VISHAKHA, MAGHA),
+            ),
+            bad = Factors(
+                weekdays = setOf(SUNDAY, THURSDAY, MONDAY, WEDNESDAY),
+                animals = setOf(TIGER, DRAGON, OX),
+                trigrams = setOf(ZON),
+            ),
+        ),
+        // 53b. Dice and games (img. 56, KP2 img. 279).
+        ActivityList(
+            "games",
+            good = Factors(
+                weekdays = setOf(SATURDAY, TUESDAY, FRIDAY),
+                mansions = m(ASHVINI, MRIGASHIRAS, ARDRA, ASHLESHA, PURVASHADHA, HASTA, ANURADHA, UTTARAPHALGUNI, SHATABHISHAJ, JYESHTHA, MULA, PURVABHADRAPADA, VISHAKHA, MAGHA),
+                animals = setOf(SNAKE, RABBIT, SHEEP, DOG, MONKEY),
+                trigrams = setOf(LI),
+            ),
+            bad = Factors(
+                weekdays = setOf(SUNDAY, THURSDAY, MONDAY, WEDNESDAY),
+                animals = setOf(TIGER, DRAGON, OX),
+                trigrams = setOf(ZON),
+            ),
+        ),
     )
 
     /**

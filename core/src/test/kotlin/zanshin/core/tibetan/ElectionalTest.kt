@@ -17,9 +17,9 @@ class ElectionalTest {
     private fun list(wording: String) = Electional.ACTIVITIES.single { it.wording == wording }
 
     @Test
-    fun `Henning's thirteen and the print's 44 other activities, each without duplicates or overlap`() {
-        assertEquals(57, Electional.ACTIVITIES.size)
-        assertEquals(57, Electional.ACTIVITIES.map { it.wording }.distinct().size)
+    fun `Henning's thirteen and the print's 50 other activities, each without duplicates or overlap`() {
+        assertEquals(63, Electional.ACTIVITIES.size)
+        assertEquals(63, Electional.ACTIVITIES.map { it.wording }.distinct().size)
         for (a in Electional.ACTIVITIES) {
             assertEquals(a.good.mansions.distinct(), a.good.mansions, a.wording)
             assertTrue(a.good.mansions.intersect(a.bad.mansions.toSet()).isEmpty(), a.wording)
@@ -110,6 +110,9 @@ class ElectionalTest {
         assertEquals(list("feeding_up_horses").bad.animals, list("saddling").bad.animals)
         // Box 49, consecration: the 9th in both halves is left out.
         assertFalse(9 in list("consecration").good.dates || 9 in list("consecration").bad.dates)
+        // Box 52 split: the hair half keeps the weekdays the crafts half qualifies by material.
+        assertEquals(setOf(Weekday.FRIDAY, Weekday.MONDAY, Weekday.WEDNESDAY), list("cutting_hair_and_nails").good.weekdays)
+        assertEquals(setOf(Weekday.FRIDAY), list("crafts").good.weekdays)
         // Box 16 split: what is good for taking in wealth is bad for giving it away.
         assertTrue(Weekday.SUNDAY in list("receiving_wealth").good.weekdays && Weekday.SUNDAY in list("sending_out_wealth").bad.weekdays)
     }

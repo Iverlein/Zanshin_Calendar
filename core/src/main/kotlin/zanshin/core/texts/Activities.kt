@@ -676,6 +676,7 @@ object Activities {
         "bringing_rain" to of(RAINMAKING),
         "thread_cross_and_torma_rites" to of(AVERTING_RITES),
         "honouring_and_petitioning" to of(PETITIONS),
+        "ordination_teaching_and_empowerment" to of(ORDINATION, TEACHING_DHARMA, HEARING_DHARMA, EMPOWERMENT, STUDY, DHARMA_PRACTICE),
     )
 
     /** The rokuyō's hours, by wording key. */
