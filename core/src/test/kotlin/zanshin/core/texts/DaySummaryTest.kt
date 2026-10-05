@@ -88,8 +88,9 @@ class DaySummaryTest {
         // Funerals: no combination names them, so Sunday decides, and the weaker factors that agree stand beside it.
         // The day animal is the lunar date's (open question 9), which the funeral list does not name.
         assertEquals(listOf("Sunday", "Ārdrā", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
-        // Destroying: the element pair, the death combination, names it first.
-        assertEquals(listOf("Fire – Water", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
+        // Destroying: the element pair, the death combination, names it first; Rāhu's autumn course
+        // (the 22nd of the 9th month: fierce work good, WB p. 239) stands beside it in its own tier.
+        assertEquals(listOf("Fire – Water", "Rāhu", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
     }
 
     @Test

@@ -27,4 +27,13 @@ class NectarPeriodsTest {
             assertEquals(day.map { it - 1 } + night.map { it + 11 }, nectarHours(weekday), "$weekday")
         }
     }
+
+    @Test
+    fun `Rāhu's course by month falls on the dates WB gives`() {
+        val rahu = zanshin.core.texts.Texts.RAHU_MONTH
+        assertEquals(setOf(6, 9, 11, 13), rahu.keys.filter { it.first == 1 }.map { it.second }.toSet())
+        assertEquals(setOf(9, 11, 13, 16, 19), rahu.keys.filter { it.first == 2 }.map { it.second }.toSet())
+        for (month in 7..9) assertEquals(setOf(4, 8, 11, 15, 22, 25, 29), rahu.keys.filter { it.first == month }.map { it.second }.toSet())
+        assertEquals(setOf(1, 2, 7, 8, 9), rahu.keys.map { it.first }.toSet())
+    }
 }

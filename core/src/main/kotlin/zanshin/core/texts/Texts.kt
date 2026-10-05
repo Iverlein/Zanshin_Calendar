@@ -583,6 +583,23 @@ object Texts {
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date")
 
     /**
+     * Rāhu's course by month (the White Beryl, vol. 2, pp. 238–239;
+     * docs/sources/rahu.md): in the first two months of spring it moves "like a
+     * messenger turning its head" through the parts of its body on given
+     * dates, and in the three months of autumn it takes seven forms on given
+     * dates, times and directions; on all of them fierce work is good. Keyed
+     * by Tibetan month and date. Summer and winter are not given.
+     */
+    val RAHU_MONTH: Map<Pair<Int, Int>, Reading> = buildMap {
+        for (date in listOf(6, 9, 11, 13)) put(1 to date, rahuMonth("1.$date"))
+        for (date in listOf(16, 9, 11, 13, 19)) put(2 to date, rahuMonth("2.$date"))
+        for (month in 7..9) for (date in listOf(15, 11, 8, 4, 22, 25, 29)) put(month to date, rahuMonth("autumn.$date"))
+    }
+
+    private fun rahuMonth(arg: String) =
+        Reading(goodKeys = listOf("fierce_rites"), source = Sources.WHITE_BERYL_RAHU, key = "reading.RahuMonth", arg = "reading.RahuMonth.$arg")
+
+    /**
      * Jupiter's nectar periods ([zanshin.core.tibetan.nectarHours]): the rule,
      * and what the print's activity boxes name them good for (boxes 17, 19,
      * 26, 34, 49, 55, 60; docs/sources/kp-activities.md).

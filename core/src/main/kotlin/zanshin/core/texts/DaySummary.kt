@@ -191,10 +191,10 @@ data class DaySummary(
                 Ranked(entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, toneOf(animal), animal), listOf(animal), tier = 8),
                 Ranked(entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, toneOf(trigram), trigram), listOf(trigram), tier = 9),
             )
-            val rahu = Texts.RAHU[day.day]?.let {
-                // Rāhu is reckoned by direction; it decides activities but takes no side on the day's tone.
-                listOf(Ranked(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it), tier = 1))
-            }.orEmpty()
+            // Rāhu is reckoned by direction; it decides activities but takes no side on the day's tone.
+            val rahu = listOfNotNull(Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day]).map {
+                Ranked(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it), tier = 1)
+            }
             val ranked = listOf(great, elements) + rahu + planetAndMansion + special + single
 
             fun toned(fs: List<Ranked>) = fs.map { it.entry.tone }.filter { it == Tone.GOOD || it == Tone.BAD }
