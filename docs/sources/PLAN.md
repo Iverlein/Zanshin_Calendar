@@ -80,8 +80,9 @@ says where to look and with which tool.
    part of the house and the hearth god's place read and built too, with
    KP's chart (img. 103) as second witness, which also has the mouse day's
    སྲང. Left from that chapter: the *bla mkhyen*, which needs the sme ba of
-   the sixty-day count (the year's section of WB ch. 31 to be read first),
-   and the day by the clan's element, which needs the person's clan.
+   the sixty-day count (read 2026-10-05: open question 11). The day by the
+   clan's element is not planned (2026-10-05): it needs a Tibetan clan,
+   which the app's readers do not have.
 
 **Tools and their limits** (all in `tools/sources/`, see *Tools* below):
 Yigdzin-1 is the main reader but **drops lines beside woodcuts** (WB

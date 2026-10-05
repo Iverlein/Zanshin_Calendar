@@ -32,7 +32,8 @@ keyed by the day's animal and are used by the app; two are not:
 - **not used:** the *bla mkhyen* of the day (p. 224, below), which needs
   the day's sme ba square, and the day by the clan's element (*rus chen*,
   p. 225), which needs the person's clan, something the app does not ask
-  and should not.
+  and should not; not planned (owner's decision, 2026-10-05: the reckoning
+  is for Tibetan families, not for the app's readers).
 
 ## The day's earth lord and its part of the house
 

@@ -52,8 +52,10 @@ mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
   which needs the five planets; Rāhu's course by year and month.
 - **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
   *bla mkhyen* of the day (it needs the day's sme ba, which WB starts at 1
-  on the winter solstice without saying which way it counts: question 11) and
-  the day by the clan's element (it needs the person's clan).
+  on the winter solstice without saying which way it counts: question 11).
+  The day by the clan's element (*rus chen*, p. 225) is not planned: it
+  needs a Tibetan patrilineal clan, which the app's readers do not have, and
+  WB itself confines it to reckoning for the dead.
 - **Open readings** for a reader of the tradition
   ([open-questions.md](sources/open-questions.md)): the yoga ranking (1),
   SY's Mouse *gshed gza'* (5), the offerings box's khrums smad (6), sha
