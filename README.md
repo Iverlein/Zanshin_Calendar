@@ -4,7 +4,7 @@ An offline Android app that shows one day at a time in the Tibetan calendar
 (Phugpa) or the old Japanese calendar (旧暦, Tenpō rules), with the almanac
 readings of that day and sunrise, solar noon and sunset for your place.
 
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Lhabab Düchen">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Saga Dawa Düchen">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="220" alt="Japanese day: 十三夜">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
 
