@@ -138,7 +138,7 @@ object Sources {
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
-    val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–238")
+    val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–239")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
     val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
@@ -552,7 +552,8 @@ object Texts {
      * Rāhu's course by lunar date, the White Beryl's detailed account (vol. 2,
      * pp. 237–238; docs/sources/rahu.md): on the sixteen dates it enters a
      * direction or turns back, when and where it moves, and what that day is
-     * good and bad for. Dates it does not name have no entry.
+     * good and bad for. Dates it does not name have no entry. This and the
+     * general course both add its course over the hours of any day (p. 239).
      */
     val RAHU: Map<Int, Reading> = mapOf(
         1 to rahu(1, good = listOf("fierce_rites", "hurling_zor")),
@@ -574,7 +575,7 @@ object Texts {
     )
 
     private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
-        Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu.$date")
+        Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date")
 
     /**
      * Rāhu's general course (the White Beryl, vol. 2, pp. 236–237, with the
