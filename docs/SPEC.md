@@ -518,13 +518,16 @@ against the date, karaṇa and yoga.
   Rāhu moves, which the *kun phan me long*'s chart (§7, img. 78) confirms
   date by date, with WB's rule for fierce work (go along with its course,
   never face it, p. 238); it names no activities and takes no part in the
-  weighing.
+  weighing. Both readings add Rāhu's course over the hours of any day
+  (p. 239): eight named times of day, each with the direction it moves
+  from and to. They stay in the reading, not on the hours panel, since the
+  text names times of day rather than clock hours.
 - **Not built**: the combination period (*tatkāla dus sbyor*), which the
   *kun phan me long* holds above everything: it is reckoned from the sign
   rising in each double hour (KP §9, img. 78–80) and the planets in it, and
-  the app computes no planets but the Sun and the Moon. Rāhu's course by the
-  hours of one day, by year and month, and the hour against the day's
-  animal sign (KP's rule 2) wait for the same.
+  the app computes no planets but the Sun and the Moon. Rāhu's course by
+  year and month and the hour against the day's animal sign (KP's rule 2)
+  wait for the same.
 
 ## 6. Astronomy library
 

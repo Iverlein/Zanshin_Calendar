@@ -109,5 +109,26 @@ The sixteen dates, as the app gives them (`Texts.RAHU`):
 The passage goes on (p. 238) to the rule for fierce work (go with its
 course, never face it, གདོང་ཐུག་མི་བྱ་རྒྱུ་དང་བསྟུན), Viṣṭi days, remedies, and
 other ways of its course (by year, month, the "hidden" and "secret" ones,
-by the hours of one day: ཉིན་ཞག་གཅིག་གི་དུས་རྒྱུ་ལུགས, p. 239), which the app does
-not build.
+by the hours of one day: ཉིན་ཞག་གཅིག་གི་དུས་རྒྱུ་ལུགས, p. 239). The app builds
+the last of these (below); the others it does not.
+
+## The course over one day
+
+p. 239 (img. 247), from BDRC's etext of the edition, checked on the scan
+for the first six times (2026-10-05):
+
+> ཉིན་ཞག་གཅིག་གི་དུས་རྒྱུ་ལུགས། །ཉི་རྩེར་ཤར་ནས་ནུབ་བྱང་རྒྱུ། །ཉི་དྲོས་ནུབ་བྱང་ནས་ལྷོར་རྒྱུ། །ཉི་ཕྱེད་ལྷོ་ནས་བྱང་ཤར་དུ། །ཉི་སྨྱུར་བྱང་ཤར་ནས་ནུབ་ཕྱོགས། །ཉི་ནུབ་ནུབ་ནས་ཤར་ལྷོར་རྒྱུ། །སྲོད་འཁོར་ཤར་ལྷོ་ནས་བྱང་དུ། །ནམ་ཕྱེད་བྱང་ནས་ལྷོ་ནུབ་ཏུ། །ཐོ་རེངས་ནམ་ལོངས་ལྷོ་ནུབ་ནས། །ཤར་གྱི་ཕྱོགས་སུ་རྒྱུ་བའོ། །འདི་བསྟུན་དྲག་པོའི་ལས་སྦྱར་བཟང་། །གང་ཡང་གདོང་ཐུག་འཛེམ་པ་གཅེས། །
+
+(The etext spells ཉི་མྱུར where the scan has ཉི་སྨྱུར.) Every day Rāhu moves
+through eight times: at first sun (ཉི་རྩེ) east to north-west, in the
+warm of the morning north-west to south, at noon south to north-east, in
+the late afternoon (ཉི་སྨྱུར) north-east to west, at sunset west to
+south-east, at dusk (སྲོད་འཁོར) south-east to north, at midnight north to
+south-west, from dawn to daybreak south-west to east. Fierce work is done
+going along with it, and above all nothing should face it.
+
+The app adds this to both Rāhu readings, the detailed course and the
+general one, so it opens from the day's Rāhu row; it does not place the
+eight times on the hours panel's clock, since the passage names times of
+day, not hours. KP's nine boxes on img. 78 that give the same course
+(ཉིན་ཞག་ཕྲུགས་གཅིག) were not read.
