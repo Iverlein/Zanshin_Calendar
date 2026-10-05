@@ -521,7 +521,11 @@ against the date, karaṇa and yoga.
   weighing. Both readings add Rāhu's course over the hours of any day
   (p. 239): eight named times of day, each with the direction it moves
   from and to. They stay in the reading, not on the hours panel, since the
-  text names times of day rather than clock hours.
+  text names times of day rather than clock hours. On the dates WB gives
+  for its course by month (pp. 238–239: the first and middle month of
+  spring, the three months of autumn) a second Rāhu row names the form it
+  takes and fierce rites good, weighed in Rāhu's tier like the detailed
+  course.
 - **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
   the *kun phan me long* §10: each double hour is halved, each half ruled
   by a planet, counted from the weekday's own planet six on by day (from
@@ -534,9 +538,8 @@ against the date, karaṇa and yoga.
 - **Not built**: the combination period (*tatkāla dus sbyor*), which the
   *kun phan me long* holds above everything: it is reckoned from the sign
   rising in each double hour (KP §9, img. 78–80) and the planets in it, and
-  the app computes no planets but the Sun and the Moon. Rāhu's course by
-  year and month and the hour against the day's animal sign (KP's rule 2)
-  wait for the same.
+  the app computes no planets but the Sun and the Moon. The hour against
+  the day's animal sign (KP's rule 2) waits for the same.
 
 ## 6. Astronomy library
 

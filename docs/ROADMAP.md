@@ -39,7 +39,7 @@ the page in its rank, the day in brief deciding each activity by the
 strongest factor and the day's tone by the combinations of weekday and
 mansion (the 28 named ones and the element pairs), then the special days,
 then the side with more factors, the *Rdo rje gtsug lag*'s special days
-(WB p. 337) among them; Rāhu's course by date and over the hours of a day;
+(WB p. 337) among them; Rāhu's course by date, by month and over the hours of a day;
 Jupiter's nectar periods (KP §10); the personal
 mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
 ([kp-activities.md](sources/kp-activities.md)); WB ch. 31's earth lords of the lunar date's animal
@@ -49,7 +49,7 @@ mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
 
 - **The hour-level factors** (SPEC §5.13): the combination period
   (*tatkāla dus sbyor*, KP §9), which the text holds above everything and
-  which needs the five planets; Rāhu's course by year and month.
+  which needs the five planets.
 - **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
   *bla mkhyen* of the day (it needs the day's sme ba, which WB starts at 1
   on the winter solstice without saying which way it counts: question 11).

@@ -112,6 +112,35 @@ other ways of its course (by year, month, the "hidden" and "secret" ones,
 by the hours of one day: ཉིན་ཞག་གཅིག་གི་དུས་རྒྱུ་ལུགས, p. 239). The app builds
 the last of these (below); the others it does not.
 
+## The course by month
+
+pp. 238–239 (img. 246–247), from BDRC's etext, the passage checked on the
+scan (2026-10-05). After the "inner", *tho brgal* and hidden courses (by
+date, mansion and the dark of the moon, not built), WB gives Rāhu's forms
+by month:
+
+- In the three months of spring it acts as Yama, as a *klu* in Lake Ma dros
+  and as a *ma mo* from the charnel ground, sending winds, heat and storms
+  (the last two «ཚེས་གཉིས་ལ», on the 2nd): harms, with no work named good.
+- «མགོ་འགྱུ་ཕོ་ཉ་ལྟར་རྒྱུ་ལུགས», moving like a messenger turning its head: in
+  the first month of spring on the 6th in its eye, the 9th the right
+  shoulder, the 11th the left shoulder, the 13th the heart; in the middle
+  month on the 16th the eye, the 9th the head, the 11th the heart, the 13th
+  the left shoulder, the 19th the right. «དྲག་པོའི་ལས་སྦྱོར་གང་ཡང་ཤིས», any
+  fierce work is auspicious.
+- In the three months of autumn: the 15th at noon as the *ma mo* Bitipatra,
+  north-east to south-west; the 11th at midnight as a *sman*, south to
+  north; the 8th at daybreak as a *bdud*, south-west to north-east; the 4th
+  at nightfall as a *gnyan*, north-west to south-east; the 22nd in the late
+  afternoon as a *dmu*, east to west; the 25th at dusk as a *srin*, north to
+  south; the 29th in the late afternoon as Yama, within Lake Ma dros. «དེ་
+  དག་རྣམས་ལ་དྲག་ལས་བཟང», on all of them fierce work is good.
+
+Summer and winter are not given, and no course by year was found. The app
+builds the dated parts as `Texts.RAHU_MONTH`, a second Rāhu row on those
+days (months 1, 2, 7, 8, 9 of Janson's seasons), naming fierce rites good
+and weighed in Rāhu's tier (SPEC §5.12).
+
 ## The course over one day
 
 p. 239 (img. 247), from BDRC's etext of the edition, checked on the scan
