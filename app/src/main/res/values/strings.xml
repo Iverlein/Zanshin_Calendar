@@ -286,6 +286,7 @@
     <string name="tib_nectar_subtitle">Jupiter\'s hours today: %1$s</string>
     <string name="tib_rahu_title">Rāhu\'s course</string>
     <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
+    <string name="tib_rahu_month_subtitle">its course in %1$s: good for fierce work</string>
     <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
     <string name="brief_also_avoid">also named to avoid</string>
     <string name="brief_also_good">also named good</string>

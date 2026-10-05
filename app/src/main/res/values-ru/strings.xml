@@ -250,6 +250,7 @@
     <string name="tib_nectar_subtitle">часы Юпитера сегодня: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
     <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
+    <string name="tib_rahu_month_subtitle">его путь в месяц «%1$s»: хорош для грозных дел</string>
     <string name="tib_rahu_general_subtitle">%1$d-е число: куда движется Раху</string>
     <string name="brief_also_avoid">названо и среди «избегать»</string>
     <string name="brief_also_good">названо и среди «хорошо»</string>

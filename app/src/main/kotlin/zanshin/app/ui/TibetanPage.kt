@@ -223,6 +223,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
+        val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.season)
         val nectarTitle = stringResource(R.string.tib_nectar_title)
         val nectarSubtitle = stringResource(
             R.string.tib_nectar_subtitle,
@@ -287,6 +288,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             }
             Texts.RAHU_GENERAL[day.day]?.let { r ->
                 add(Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
+            }
+            Texts.RAHU_MONTH[day.month to day.day]?.let { r ->
+                add(Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
             }
             add(
                 Annotation(
