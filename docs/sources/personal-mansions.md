@@ -138,6 +138,31 @@ tradition: its slips are a carver's, and its agreement counts as WB's.
 **Open question 5** (the Mouse's gshed gza'): KP has ༠, Saturday, with WB
 and Rabten. SY's ཟླ་བ stands alone.
 
+**Question 5 answered (2026-10-05): SY's ཟླ་བ is a slip.** WB's verse names
+the weekdays by the five-element relations (the mother, friend and child
+weekdays, the *gshed gza'*), and WB gives the weekdays' elements in the
+nag rtsis: «ཉི་མ་མིག་དམར་མེ་ཡི་གཟའ། །ཟླ་ལྷག་ཆུ་གཟའ་ཕུར་བུ་ཤིང་། །པ་ཝ་སངས་ལྕགས་སྤེན་པ་ས།»
+(vol. 1, p. 257, img. 267, from the etext; the same line in many manuals
+found with BDRC's search): Sun and Mars fire, Moon and Mercury water,
+Jupiter wood, Venus iron, Saturn earth. Each animal's *gshed gza'* in
+the table above is the weekday of the element that destroys the animal's
+own, all twelve:
+
+| Animals | Element | Destroyed by | Weekday | gshed gza' above |
+| --- | --- | --- | --- | --- |
+| Mouse, Pig | water | earth | Saturday | Sat, Sat |
+| Ox, Dragon, Sheep, Dog | earth | wood | Thursday | Thu ×4 |
+| Tiger, Hare | wood | iron | Friday | Fri, Fri |
+| Snake, Horse | fire | water | Monday or Wednesday | Wed, Wed |
+| Monkey, Bird | iron | fire | Sunday or Tuesday | Tue, Tue |
+
+Monday is water, the Mouse's own element, so it cannot be its *gshed
+gza'*. SY's own table, in its etext (pp. 363–364, etext pp. 391–392; the
+print, BDRC I1PD30933, is restricted), gives the Pig, the other water
+animal, ལག་སྤེན་པ (Saturday), and the same weekday to every other pair:
+pa sangs for Tiger and Hare, lhag pa for Snake and Horse, mig dmar for
+Monkey and Bird. The app's Saturday stands.
+
 **KP's readings** follow on img. 86 (read on the scan, 2026-10-04): WB's
 verse above, shortened. It opens «བླ་གཟའ་བླ་སྐར་བྱ་ལས་འགྲུབ། །གཤེད་སྐར་ལ་ནི་
 བགེགས་འདུལ་བཟང་།», so the bla gza' joins the bla skar where WB has དེ་ལྟར; then

@@ -82,6 +82,24 @@ misprint for ཆུ་གྲེ, the water *gre* of Char 'bebs ma's row (questio
 reading, a rite to drive off the *chu gri*. *gnam the* and *brje thod
 gtong* are not in the dictionaries; they stay as printed.
 
+**Question 10 answered (2026-10-05).** WB itself uses *gri* for a
+violent death and the spirit it leaves, and *chu gri* for a death by
+water, some twenty times in vols. 1 and 2 (etext). In the list of bad deaths,
+«…བརྣངས་ནས་ཤི་བ་ཆུ་གྲིར་ཤི། །རྟ་གྲིར་ཤི་དང་ཐོག་གིས་བསད།» (vol. 1, img. 339:
+died by water, died by a horse, killed by lightning); with its remedy,
+«བརྒྱུད་ལ་ཆུ་གྲིར་ཤི་བ་ལྡང་། །ཆུ་གླུད་བཏང་ཞིང་ཆུ་སྲི་མནན།» (img. 415: one who died
+by water rises in the lineage; send a water ransom, suppress the water
+*sri*); the woman's death in childbirth is *bu gri* («བུད་མེད་བུ་གྲིར་འཆི»,
+img. 381). And WB has the rite for that one, in the same form as
+'Od 'bar ma's: «…དམ་སྲི་དགུ་སྐོར་དང་། །གཤིན་རྡོག་བུ་གྲི་བཀར་བར་བྱ།» (vol. 1,
+p. 435, img. 445, read on the scan; the 1996 etext loses བུ་གྲི, the Ser
+thang print's etext has it). So ཆུ་གྲི་བཀར is driving off the *chu gri*, the
+spirit of one who died by water: no misprint, and not the surgeon's
+knife. It suits her day, whose causes include work on water channels and
+whose harm-doers include the *klu*. Found 2026-10-05 with BDRC's
+full-text search, where the phrase itself occurs only in WB and its
+copies (and *Bod kyi rtsis rig kun 'dus chen mo*).
+
 **The deeper count is the trigram.** WB continues (img. 460, l. 1–15):
 "more profound than this, the count": in tiger, horse and dog months the 1st
 is 'Od 'bar ma as above; in pig, sheep and hare months 1, 9, 17, 25 are

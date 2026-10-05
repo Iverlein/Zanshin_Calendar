@@ -26,6 +26,7 @@ passages and wrote the topic files.
 | 11. Weighing the 暦注, 2026-10-04 | **Done**: no source ranks the kinds of annotation; within the lower band, 受死日 and 十死日 stand alone and 歳下食 is lifted by a good day and heavier with a bad one (Wikipedia 暦注下段), built; 十死日's funerals corrected; the 宿曜経 combinations, koyomi8's 一粒万倍日 rule and the 協紀辨方書 grades found and not used ([kyureki.md](kyureki.md)). |
 | 12. KP's other activity boxes, 2026-10-04/05 | **Done**: 44 boxes read on the scans with KP2 and two OCR readings, then boxes 50–53 split or joined (crafts and haircuts, military training and games, KP2's 50–51): 50 lists in `Electional.kt`; box 47 (averting rites, every entry a kind of rite) and the charts not built ([kp-activities.md](kp-activities.md)). |
 | 13. Hour-level readings, 2026-10-05 | **Done** where no planets are needed: Rāhu's course over a day (WB p. 239) in its readings and its course by month (pp. 238–239) as a second Rāhu row; Jupiter's nectar periods (KP §10, img. 81–82) built from their rule, every cell checked ([nectar-periods.md](nectar-periods.md)). The day's sme ba read (WB p. 192); its direction, open question 11, settled the same day from two later texts (BS, MK: up from the first wood-mouse day after the winter solstice, down after the summer solstice), and the *bla mkhyen* built ([earth-lords.md](earth-lords.md), SPEC §5.11). The combination period turned out to need no planets: it is the sign rising in each hour, from KP §9's table, with WB's readings of the twelve (pp. 371–376), built on the hours panel ([combination-period.md](combination-period.md)). |
+| 14. Questions for a reader, 2026-10-05 | 5, 6 and 10 **answered** from WB itself with BDRC's full-text search (SY's Monday a slip by WB's element rule; box 6's good khrums is khrums stod; *chu gri bkar* drives off the spirit of a death by water); 1 and 8 narrowed, still for a reader ([open-questions.md](open-questions.md)). |
 
 ## Next investigation
 
@@ -65,9 +66,12 @@ says where to look and with which tool.
    too small to read the verse with confidence. The app does not wait on
    it: the names NM, SY and WB print already agree (question 4).
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
-   1 (ranking), 5 (SY's Mouse gshed gza'; KP now sides with WB), 6 (box
-   6), 8 (sha 'khon: KP's change), 10 ('Od 'bar ma's *chu gri bkar*). A
-   third WB print would not settle 1 or 8: WB2 has the same words.
+   1 (ranking) and 8 (sha 'khon's verb) remain, both narrowed on
+   2026-10-05 with BDRC's full-text search: the ranking verse has one more
+   witness and no gloss; sha 'khon has three readings in nine books, and
+   an older manual already notes the variant. Questions 5, 6 and 10 were
+   answered the same day from WB itself (the weekdays' elements, the
+   mansion verses, WB's own *gri* deaths and the rite *bu gri bkar*).
    Question 2 was answered on 2026-10-04 (number words: the yogas'
    avoided chu tshod) and question 9 too (the *nyi ma* is the lunar date's
    animal), and question 11 on 2026-10-05 (the day's sme ba, from BS and

@@ -6,7 +6,13 @@ the rules for quoting are in [README.md](README.md).
 These are for a reader of the rtsis tradition; each is a question about
 the text, not about the app.
 
-1. WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
+1. *Narrowed 2026-10-05 ([yogas.md](yogas.md), "The ranking, searched"):
+   the verse is in a third text, *Rtsis rig shes bya kun gsal* (Sera,
+   1998), word for word and without commentary, and nowhere else in
+   BDRC's search. Counted from sel ba, four of the five bad numbers are
+   WB's own bad yogas (6 rab stongs, 9 gzer, 10 'bras, 13 rma chen) and
+   five of the good (2, 3, 5, 7, 8) its good ones; 18 (dpa' bo) in the bad
+   list and 6 in the good stay unexplained, and so does རང་སྐྱེས.* WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
    print): does "དྲུག་དགུ་བཅུ་དང་བཅུ་གསུམ་དང་། །བཅོ་བརྒྱད་
    ངན" count the yogas from Viṣkambha (making the 18th, dpa' bo, bad,
    against its good short reading), or from somewhere else? And how is
@@ -24,12 +30,24 @@ the text, not about the app.
    are the 1996 editors' additions; the names they stand beside, ནག =
    nag pa (13) and ཤེ་ས = nam gru (26), already agree with NM and SY. The
    woodblock print WB2 has no numbers; its page was not found yet.)*
-5. SY gives the Mouse's gshed gza' as zla ba (Monday); WB and Rabten say
+5. ~~The Mouse's gshed gza'.~~ *Answered 2026-10-05
+   ([personal-mansions.md](personal-mansions.md)): SY's ཟླ་བ is a slip.
+   Each animal's gshed gza' is the weekday of the element that destroys
+   the animal's (WB vol. 1, p. 257 gives the weekdays' elements), which
+   for the water Mouse is earth, Saturday alone; all twelve of WB's fit
+   that, and SY's own table gives the Pig, the other water animal,
+   Saturday.* The question as it stood: SY gives the Mouse's gshed gza' as zla ba (Monday); WB and Rabten say
    spen pa (Saturday). A copying slip in SY, or another tradition? KP's
    table (img. 85, read 2026-10-04) has ༠, Saturday, with WB; but KP is
    WB's chapter carved as tables, so SY stands against one tradition, not
    three ([personal-mansions.md](personal-mansions.md)).
-6. KP box 6 (offerings to deities, img. 23): khrums smad (ཁྲུཾད) is
+6. ~~KP box 6.~~ *Answered 2026-10-05 ([mansions.md](mansions.md)): WB's
+   mansion verses, which KP's tables digest, name offerings to the gods
+   good under khrums stod (24, p. 327) and to be avoided under khrums smad
+   (25, pp. 327–328). So the bad ཁྲུཾད is right and the good one stands
+   for ཁྲོད, khrums stod, which the box otherwise lacks; the same two
+   abbreviations are confused elsewhere in both prints.* The question as
+   it stood: KP box 6 (offerings to deities, img. 23): khrums smad (ཁྲུཾད) is
    listed among the good mansions and again among the bad. The second
    print (KP2, img. 242, [kun-phan-me-long.md](kun-phan-me-long.md)) has
    the same, so it is not a slip of one impression. Good for one kind of
@@ -39,7 +57,15 @@ the text, not about the app.
    items 1–4 are on img. 8; box 1 is the opening prose, box 4 the robe
    chart, box 52 is on img. 55; boxes 50 and 51 are missing from the
    Mtho las dgon print but present in a second print (KP2, img. 276–277).
-8. KP's short reading of the yoga sha 'khon (img. 70) is "falling out with
+8. *Narrowed 2026-10-05 ([yogas.md](yogas.md)): the tradition has three
+   readings. ཕྲད (meeting) in WB's prints, *Gdan dus thun mong gi rtsis
+   gzhi* and the *Rtsis kyi lag len nyer mkho'i bum bzang* of Si tu dbon
+   Karma nges legs bstan 'dzin and Mi pham dge legs rnam rgyal, which adds
+   on the scan «བྲལ་ཞེས་ཀྱང་སྣང་», "'parting' is also found"; འགྲས (falling
+   out) in KP, *Dkar rtsis dang nag rtsis kyi gzhung* (Thimphu 1981) and
+   *Rtsis rig shes bya kun gsal*; འབྲལ (parting) in two modern books. The
+   two negative readings fit the name and WB's own long reading and
+   avoidance; WB's own words are ཕྲད.* KP's short reading of the yoga sha 'khon (img. 70) is "falling out with
    a woman friend" (མཛའ་དང་འགྲས), WB p. 349 "meeting a woman friend" (མཛའ་དང་ཕྲད).
    Sha 'khon is avoided entirely in WB's own list. *(2026-10-03: WB2, the
    Sakya Centre print, reads ཕྲད too, so the difference is KP's; did KP's
@@ -63,7 +89,13 @@ the text, not about the app.
    60-day animal for KP's lists (SPEC §5.10) and the lunar date's for the
    divination of health (SPEC §5.9)
    ([lunar-day-signs.md](lunar-day-signs.md)).
-10. WB vol. 1, p. 449, 'Od 'bar ma's rites: «བོང་ར་བཙན་མདོས་ཆུ་གྲི་བཀར».
+10. ~~'Od 'bar ma's *chu gri bkar*.~~ *Answered 2026-10-05
+    ([lunar-day-signs.md](lunar-day-signs.md)): a rite to drive off the
+    *chu gri*, the spirit of one who died by water. WB uses *gri* for the
+    violent deaths and their spirits throughout (ཆུ་གྲིར་ཤི, རྟ་གྲིར་ཤི,
+    བུད་མེད་བུ་གྲིར་འཆི), and has the same rite for a death in childbirth,
+    «གཤིན་རྡོག་བུ་གྲི་བཀར་བར་བྱ» (vol. 1, p. 435, read on the scan).* The
+    question as it stood: WB vol. 1, p. 449, 'Od 'bar ma's rites: «བོང་ར་བཙན་མདོས་ཆུ་གྲི་བཀར».
     Is ཆུ་གྲི་བཀར a rite to drive off a spirit (as གྲེ་མོ་བཀར, དམ་སྲི་བཀར in the
     same table; ཆུ་གྲི for ཆུ་གྲེ, the water *gre*?), or does it name the
     *chu gri*, the small knife that lances a swelling, which is her illness

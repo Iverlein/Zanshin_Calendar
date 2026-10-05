@@ -83,7 +83,7 @@ in its place. "Genuine" means the print does have ཆུཾད there.
 
 | Box (img.) | Henning | The print | Result for the app |
 | --- | --- | --- | --- |
-| 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད བྱིཞི; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. The good list ends with བྱིཞི, Abhijit (missed in the first reading by eye; found by the Yigdzin OCR and confirmed on the scan). |
+| 6 offerings to deities (23) | Uttarāṣāḍhā ×3 good, "Uttarāṣāḍhā (?)" bad; Dhaniṣṭhā ×2 good | good, protectors: མགོ ཆུཾད ནབསོ མྱེ; general: སྣར རྒྱལ ས་རི དབོ སྨིན ལྷོས ཆོད གྲེ སྣྲོན སྣྲུབས གྲོཞི མོནྡྲེ ཆུཾད མོནྲུ ནུཾ ཁྲུཾད བྱིཞི; bad: མཆུ ས་ག ཁྲུཾད སྐག བྲ་ཉེ ནག | Uttarāṣāḍhā is genuine twice (once among the protectors, once in general), both good. Henning's third is ཁྲུཾད, Uttarabhādrapadā; his "(?)" bad one is ཁྲུཾད as well, so Uttarabhādrapadā stands in **both** halves of the print. **2026-10-05:** WB's verses name offerings to the gods good under khrums stod and to be avoided under khrums smad, so the good ཁྲུཾད is taken as ཁྲོད, **Pūrvabhādrapadā good**, and the bad one stands, **Uttarabhādrapadā bad** (below, and question 6). His first Dhaniṣṭhā is གྲེ, **Pūrvaphalgunī** (good); the second is མོནྡྲེ, Dhaniṣṭhā (good). The bad list also names ནག, **Citrā**, which Henning leaves out. The good list ends with བྱིཞི, Abhijit (missed in the first reading by eye; found by the Yigdzin OCR and confirmed on the scan). |
 | 8 taking a new home (25) | Uttarāṣāḍhā good and bad | good: སྣར མགོ ནབསོ རྒྱལ མཆུ གྲེ དབོ མྱེ ནག ས་རི ས་ག ནུཾ ཆུཾད མོནྡྲེ གྲོཞི མོནྲུ ཁྲོད; bad: ཐཀྲ སྐག སྣྲུབས ལྷ་མཚམས ཁྲུམ་སྨད | Uttarāṣāḍhā **good**; the bad one is khrums smad written out, **Uttarabhādrapadā bad**. The good list's seventeen are Henning's seventeen, ནུཾ (Revatī) among them. |
 | 12 setting out on journeys (27) | Uttarāṣāḍhā good and bad | good: ཐཀྲ རྒྱལ ནབསོ ས་རི ལྷོས གྲོཞི ཆོད མོནྡྲེ མོནྲུ ཁྲིད; bad: … སྣྲོན སྣྲུབས ཆུཾད ཁྲོད ནུཾ | Uttarāṣāḍhā **bad** (genuine, as WB's own verse has it); Henning's good one is ཁྲིད, **Uttarabhādrapadā good**. The good list also has མོནྲུ, **Śatabhiṣaj**, which Henning leaves out. |
 | 40 making weapons (48) | Uttarāṣāḍhā good and bad | good: … ཁྲུཾད …; bad: … ཆུཾད (genuine) | Uttarāṣāḍhā **bad**; **Uttarabhādrapadā good**. |
@@ -124,6 +124,21 @@ out. In the code's terms:
 Henning's page says it gives "a selection", so the mansions he leaves out
 (Citrā, Śatabhiṣaj, Pūrvaphalgunī above) may be deliberate; the print has
 them, and the app follows the print (SPEC §5.10).
+
+**Box 6's khrums, settled 2026-10-05** (question 6). KP is WB carved as
+tables, so its lists should follow WB's mansion verses
+([mansion-verses.md](mansion-verses.md)). For offerings to the gods
+(ལྷ་གསོལ) they part the two khrums: khrums stod's verse (p. 327, img. 335)
+has them among the good works, khrums smad's (pp. 327–328, img. 335–336)
+among those to avoid («ལྷ་གསོལ་གཡང་འགུགས་འདུ་ལོང་བྱེད། …ཞི་རྒྱས་བག་མ་དུག་འདེབས་ངན»).
+The box's bad ཁྲུཾད agrees; its good ཁྲུཾད does not, and khrums stod is
+otherwise missing from the box, which names every mansion but tha skar,
+lag and khrums stod. The two abbreviations are confused in both prints
+elsewhere too (ཁྲོུཾད beside ཁྲུཾད, [kp-activities.md](kp-activities.md)), and
+the other bad entries of the box (mchu, skag, bra nye, nag pa) have
+offerings to the gods among their avoided works in WB as well. So the good
+one is read as ཁྲོད: Pūrvabhādrapadā good, Uttarabhādrapadā bad. KP2 has
+the same two ཁྲུཾད, so the slip is older than either impression.
 
 Readings that rest on the vowel signs (every ཆུཾད/ཁྲུཾད above) were made
 on crops enlarged 4–6×, comparing each word with the same word elsewhere in

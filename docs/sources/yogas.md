@@ -132,6 +132,33 @@ And "རང་སྐྱེས … བརྒྱད་དྲུག" reads either a
 1996 print and its scan agree on every syllable, so the question is one of
 reading, for someone who reads the rtsis tradition.
 
+**The ranking, searched (2026-10-05).** BDRC's full-text search finds the
+verse in WB's printings and in one other book, *Rtsis rig shes bya kun
+gsal* by Shes rab nyi ma (Sera Byes, Bylakuppe 1998; BDRC MW1KG4867,
+OCR only, scans lending-only), word for word («…སྦྱོར་བ་ངན་པའི་རིགས་རྣམས་ཡིན། །
+དྲུག་དགུ་བཅུ་དང་བཅུ་གསུམ་དང་། །བཅོ་བརྒྱད་ངན་སྤང་གཞན་རྣམས་འབྲིང་། །རང་སྐྱེས་གསུམ་དང་ལྔ་བདུན་
+དང་། །གཉིས་དང་བརྒྱད་དྲུག་བཟང་བར་བཤད།») and with no gloss before the karaṇas
+begin. No other text has its lines, and no search for a ranking in other
+words (སྦྱོར་བ་བཟང་ངན, a count from one's birth yoga) found one. What the
+words allow, read against WB's own short readings above:
+
+- Counted from sel ba, four of the five bad numbers are yogas WB's own
+  readings call harmful: 6 rab stongs, 9 gzer, 10 'bras, 13 rma chen
+  ("middling; leprosy"). The fifth, 18, is dpa' bo, "victory over
+  enemies"; the neighbouring kun brdungs (17) and yongs 'joms (19), which
+  the avoidance verse drops whole, are not named. The long readings run
+  in the same order, so no shift in WB's list explains it.
+- In the good line, 2, 3, 5, 7 and 8 (mdza' bo, tshe ldan, bzang po, las
+  bzang, 'dzin pa) are all good in WB's readings; 6 is rab stongs, which
+  the line before calls bad.
+- རང་སྐྱེས, "self-born", has no meaning here that a text states. It may be
+  one's birth yoga, with the numbers counted from it as the Indian *tārā*
+  count does from the birth mansion, but then 3, 5 and 7 would be the bad
+  places of that count, not good; or an epithet of one yoga (Brahmā is
+  "self-born", and tshangs pa, 25, is good), which no text confirms.
+
+The app still does not use the ranking.
+
 ## A second witness: NM and SY
 
 Searched 2026-10-03 for task 4 of [PLAN.md](PLAN.md). NM (etext) gives the
@@ -192,6 +219,32 @@ below were read on enlarged crops:
 
 So questions 1 and 2 are questions of reading, not of the text: both
 prints carry the same words.
+
+## Sha 'khon's short reading in other books (question 8)
+
+BDRC's full-text search, 2026-10-05, finds the line in nine places, with
+three verbs:
+
+| Reading | Where |
+| --- | --- |
+| ཕྲད, meeting | WB (1996 and the Ser thang print MW3CN5026; the transcription MW2PD17386_D19206); *Gdan dus thun mong gi rtsis gzhi* («…'ja' dang 'phrad», MW3CN2232_28865D); *Rtsis kyi lag len nyer mkho'i bum bzang* (below) |
+| འགྲས, falling out | KP box 4; *Dkar rtsis dang nag rtsis kyi gzhung* (Kunsang Topgyal, Thimphu 1981, MW26041, «sha 'ben» in its OCR); *Rtsis rig shes bya kun gsal* (Sera 1998, MW1KG4867) |
+| འབྲལ, parting | *Nying bcud rig gnas sdom bshad* (Lanzhou 2010, MW1PD137853), «…zhes gsungs so», quoting; the Northwest Nationalities University journal (MW1PD45099) |
+
+The *Bum bzang* (by Si tu dbon Karma nges legs bstan 'dzin and Mi pham dge
+legs rnam rgyal, New Delhi 1977, BDRC MW1GS88389, vol. I1GS88391, img. 323,
+f. 315, line 5, read on the scan) names the yoga with the almanacs'
+'khon 'dzin and adds a note:
+
+> །འཁོན་འཛིན་བུད་མེད་མཛའ་དང་འཕྲད། །བྲལ་ཞེས་ཀྱང་སྣང་།
+
+"'khon 'dzin: meeting a woman friend; 'parting' is also found." So the
+variant is older than the modern books (which of the book's two authors
+wrote the line, and when, the 1977 reprint does not say), and the book that
+records it keeps ཕྲད in its line. WB's own words are ཕྲད in both prints. The two
+negative verbs fit the name (*sha 'khon*, a blood feud), WB's long reading
+of the yoga (the retinue declines, deeds end badly) and its avoidance of
+the yoga whole; ཕྲད fits none of these, but it is the text.
 
 ## Long readings, in brief
 
