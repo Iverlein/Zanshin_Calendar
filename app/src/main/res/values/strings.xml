@@ -288,6 +288,13 @@
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
     <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the rdo rje gtsug lag: %1$s</string>
+    <string name="tib_bla_mkhyen_title">The astrologer spirit (bla mkhyen)</string>
+    <string name="tib_bla_mkhyen_subtitle">in the %1$s · the day\'s sme ba %2$d</string>
+    <string name="detail_day_sme_ba">The day\'s sme ba</string>
+    <string name="detail_sme_ba_count">Counted from</string>
+    <string name="sme_ba_count_up">the wood-mouse day %1$s (%2$d), upwards: after the winter solstice</string>
+    <string name="sme_ba_count_down">the wood-mouse day %1$s (%2$d), downwards: after the summer solstice</string>
+    <string name="detail_seven_red">The seven-red, its place</string>
     <string name="tib_nectar_title">Nectar periods</string>
     <string name="tib_nectar_subtitle">Jupiter\'s hours today: %1$s</string>
     <string name="tib_rahu_title">Rāhu\'s course</string>
@@ -392,4 +399,5 @@
     <string name="haircut_day">Day %1$d: %2$s</string>
     <!-- describes the square of the nine numbers for screen readers -->
     <string name="desc_sme_ba">The nine numbers in their square, %1$d marked</string>
+    <string name="desc_moved_sme_ba">The square of nine with %1$d in the middle, the seven-red outlined</string>
 </resources>

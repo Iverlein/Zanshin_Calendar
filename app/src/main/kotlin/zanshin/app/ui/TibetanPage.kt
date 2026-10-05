@@ -54,6 +54,7 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.toneOf
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DaySigns
+import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
 import androidx.compose.material3.IconButton
 import zanshin.core.tibetan.Pebbles
@@ -224,6 +225,18 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
         val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.season)
+        val daySmeBa = remember(info.date) { DaySmeBa.of(info.date) }
+        val blaMkhyenTitle = stringResource(R.string.tib_bla_mkhyen_title)
+        val blaMkhyenSubtitle = stringResource(R.string.tib_bla_mkhyen_subtitle, daySmeBa.sevenRed.english, daySmeBa.number)
+        val blaMkhyenDetails = listOf(
+            stringResource(R.string.detail_day_sme_ba) to "${daySmeBa.number} · ${Catalog.text("Colour.${SME_BA_COLOURS[daySmeBa.number - 1]}")}",
+            stringResource(R.string.detail_sme_ba_count) to stringResource(
+                if (daySmeBa.forward) R.string.sme_ba_count_up else R.string.sme_ba_count_down,
+                daySmeBa.woodMouse.format(labels.shortDate),
+                daySmeBa.woodMouseNumber,
+            ),
+            stringResource(R.string.detail_seven_red) to daySmeBa.sevenRed.english,
+        )
         val nectarTitle = stringResource(R.string.tib_nectar_title)
         val nectarSubtitle = stringResource(
             R.string.tib_nectar_subtitle,
@@ -292,6 +305,13 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             Texts.RAHU_MONTH[day.month to day.day]?.let { r ->
                 add(Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
             }
+            add(
+                Annotation(
+                    blaMkhyenTitle, blaMkhyenSubtitle, Tone.NEUTRAL, Texts.BLA_MKHYEN[daySmeBa.sevenRed], titleIsKanji = false,
+                    details = blaMkhyenDetails,
+                    diagram = { MovedSmeBaSquare(daySmeBa.number, 7, 200.dp, stringResource(R.string.desc_moved_sme_ba, daySmeBa.number)) },
+                ),
+            )
             add(
                 Annotation(
                     nectarTitle, nectarSubtitle, Tone.GOOD, Texts.NECTAR_PERIODS, titleIsKanji = false,

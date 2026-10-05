@@ -448,6 +448,40 @@ fun SmeBaSquare(today: Int, size: Dp, description: String) {
     }
 }
 
+/**
+ * The square moved so that [centre] stands in the middle, south at the top,
+ * with the place of [mark] outlined and the four directions round it: the
+ * day's sme ba and its seven-red, the *bla mkhyen*'s place (SPEC §5.11).
+ */
+@Composable
+fun MovedSmeBaSquare(centre: Int, mark: Int, size: Dp, description: String) {
+    val measurer = rememberTextMeasurer()
+    val names = listOf(R.string.dir_south, R.string.dir_east, R.string.dir_west, R.string.dir_north).map { stringResource(it) }
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val margin = 18.dp.toPx()
+        val cell = (this.size.width - 2 * margin) / 3
+        LO_SHU.forEachIndexed { i, base ->
+            val n = (base + centre - 5 + 9 - 1) % 9 + 1
+            val x = margin + (i % 3) * cell
+            val y = margin + (i / 3) * cell
+            val inset = 1.dp.toPx()
+            drawRect(Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
+            val s = cell * 0.34f
+            drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s))
+            if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s), style = Stroke(0.6.dp.toPx()))
+            label(measurer, "$n", Offset(x + cell / 2, y + cell * 0.74f), TextStyle().copy(fontSize = 13.sp, color = Palette.text))
+            if (n == mark) drawRect(Palette.saffron, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(2.dp.toPx()))
+            if (i == 4) drawRect(Palette.lineStrong, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.dp.toPx()))
+        }
+        val mid = this.size.width / 2
+        val style = TextStyle().copy(fontSize = 10.sp, color = Palette.muted)
+        label(measurer, names[0], Offset(mid, margin / 2), style)
+        label(measurer, names[3], Offset(mid, this.size.height - margin / 2), style)
+        label(measurer, names[1].take(1).uppercase(), Offset(margin / 2, mid), style)
+        label(measurer, names[2].take(1).uppercase(), Offset(this.size.width - margin / 2, mid), style)
+    }
+}
+
 // ---------------------------------------------------------------- 十二直 and 二十八宿
 
 /** The twelve stations as a dial, 建 at the top, each with its tone; tapping one names it below. */

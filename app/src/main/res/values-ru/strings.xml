@@ -252,6 +252,13 @@
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
     <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по rdo rje gtsug lag: %1$s</string>
+    <string name="tib_bla_mkhyen_title">Дух-астролог (bla mkhyen)</string>
+    <string name="tib_bla_mkhyen_subtitle">сторона: %1$s · число дня %2$d</string>
+    <string name="detail_day_sme_ba">Число (sme ba) дня</string>
+    <string name="detail_sme_ba_count">Отсчёт от</string>
+    <string name="sme_ba_count_up">дня дерева-мыши %1$s (%2$d), вперёд: после зимнего солнцестояния</string>
+    <string name="sme_ba_count_down">дня дерева-мыши %1$s (%2$d), назад: после летнего солнцестояния</string>
+    <string name="detail_seven_red">«Семь красное», его место</string>
     <string name="tib_nectar_title">Периоды нектара</string>
     <string name="tib_nectar_subtitle">часы Юпитера сегодня: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
@@ -317,4 +324,5 @@
     <string name="haircut_days">Тридцать лунных дней</string>
     <string name="haircut_day">День %1$d: %2$s</string>
     <string name="desc_sme_ba">Девять чисел в квадрате, отмечено %1$d</string>
+    <string name="desc_moved_sme_ba">Квадрат девяти с %1$d в середине, «семь красное» обведено</string>
 </resources>
