@@ -29,8 +29,10 @@ keyed by the day's animal and are used by the app; two are not:
 - **used:** the day's earth lord and its part of the house (p. 223), its
   seat in the house (p. 224), the hearth god's place (p. 224) and the
   witnessing earth lord (pp. 225–226), all below;
-- **not used:** the *bla mkhyen* of the day (p. 224, below), which needs
-  the day's sme ba square, and the day by the clan's element (*rus chen*,
+- **used since 2026-10-05:** the *bla mkhyen* of the day (p. 224, below),
+  in the direction of the day's seven-red, with the year's avoidances
+  (p. 180, img. 188, read on the scan);
+- **not used:** the day by the clan's element (*rus chen*,
   p. 225), which needs the person's clan, something the app does not ask
   and should not; not planned (owner's decision, 2026-10-05: the reckoning
   is for Tibetan families, not for the app's readers).
@@ -92,8 +94,8 @@ with 1 in the middle it is in the south-west, so the example's day has the
 sme ba 1. Which count gives a day its sme ba, and which wood-mouse day is
 "the first", the passage does not say; two later texts do (below,
 question 11 answered). The app has a wood-mouse day in its sixty-day
-count (`dayElement`, `dayAnimal`) but a sme ba only for the lunar date
-(Janson), not for the sixty-day count. Not built yet.
+count (`dayElement`, `dayAnimal`); the sixty-day count's sme ba is
+`DaySmeBa`, built 2026-10-05 with the reading (SPEC §5.11).
 
 **The day's sme ba, read 2026-10-05.** The year's section (p. 180, etext
 p. 188) sends the year's *bla mkhyen* round the year's sme ba square

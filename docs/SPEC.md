@@ -420,6 +420,24 @@ English (§8.1), each reading citing its pages:
   lord who witnesses the day with its funeral rules. Tapping the
   animal's row opens them with the activity lists for a day of that animal;
   no tone, and not in the day in brief, which already counts those lists.
+- **The *bla mkhyen* of the day** (vol. 2, p. 224, with the year's
+  section p. 180 and the day's sme ba p. 192; [earth-lords.md](sources/earth-lords.md)):
+  the astrologer spirit dwells in the direction of the day's seven-red,
+  where the 7 stands when the day's sme ba is put in the middle of the
+  square (south at the top: 4 9 2 / 3 5 7 / 8 1 6 for 5); the year's
+  section names what is avoided towards it, whom it harms and the remedy.
+  The day's sme ba here is not the date's: it is the sixty-day count that
+  the White Beryl starts at the one-white on the winter solstice, with the
+  rule Blo bzang sbyin pa's *Tsi na'i rtsis la 'jug pa* and a text in the
+  *Mdo khams stod* collection give (open question 11): a wood-mouse day
+  takes the sme ba of the stretch it falls in between the sun's longitudes
+  270°, 330°, 30°, 90°, 150°, 210° (the mid-month terms, dated in Lhasa
+  mean solar time, UT + 6:04:24), 1, 7, 4 counting up and 9, 3, 6
+  counting down, and every other day counts on from the last wood-mouse
+  day (`DaySmeBa`). It is an Almanac row after Rāhu's, opening the reading
+  with the day's sme ba, the wood-mouse day it counts from and the moved
+  square; no tone, not weighed (§5.12), as it holds for a direction, not
+  for the day.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.

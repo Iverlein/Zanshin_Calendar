@@ -25,7 +25,7 @@ passages and wrote the topic files.
 | 10. Facts on the pages, 2026-10-04 | **Done**: every hedge in the shown readings resolved or recorded. *shwa rags* is a dike against flash floods and *thag ser* read as *thog ser* (lightning and hail) ([lunar-dates.md](lunar-dates.md)); bzhi mdo's weapon-tormas confirmed by the Derge print ([karanas.md](karanas.md)); WB's seven classes of mansions read, correcting Henning's natures for three mansions ([mansions.md](mansions.md)); the yoga avoidance verse read as number words, 3/5/6/9 chu tshod ([yogas.md](yogas.md)); question 9 answered; weekday words looked up in 64 dictionaries ([weekdays.md](weekdays.md)); 歳下食 checked against a 1901 table ([kyureki.md](kyureki.md)). |
 | 11. Weighing the 暦注, 2026-10-04 | **Done**: no source ranks the kinds of annotation; within the lower band, 受死日 and 十死日 stand alone and 歳下食 is lifted by a good day and heavier with a bad one (Wikipedia 暦注下段), built; 十死日's funerals corrected; the 宿曜経 combinations, koyomi8's 一粒万倍日 rule and the 協紀辨方書 grades found and not used ([kyureki.md](kyureki.md)). |
 | 12. KP's other activity boxes, 2026-10-04/05 | **Done**: 44 boxes read on the scans with KP2 and two OCR readings, then boxes 50–53 split or joined (crafts and haircuts, military training and games, KP2's 50–51): 50 lists in `Electional.kt`; box 47 (averting rites, every entry a kind of rite) and the charts not built ([kp-activities.md](kp-activities.md)). |
-| 13. Hour-level readings, 2026-10-05 | **Done** where no planets are needed: Rāhu's course over a day (WB p. 239) in its readings and its course by month (pp. 238–239) as a second Rāhu row; Jupiter's nectar periods (KP §10, img. 81–82) built from their rule, every cell checked ([nectar-periods.md](nectar-periods.md)). The day's sme ba read (WB p. 192); its direction, open question 11, settled the same day from two later texts (BS, MK: up from the first wood-mouse day after the winter solstice, down after the summer solstice), so the *bla mkhyen* can be built ([earth-lords.md](earth-lords.md)). The combination period turned out to need no planets: it is the sign rising in each hour, from KP §9's table, with WB's readings of the twelve (pp. 371–376), built on the hours panel ([combination-period.md](combination-period.md)). |
+| 13. Hour-level readings, 2026-10-05 | **Done** where no planets are needed: Rāhu's course over a day (WB p. 239) in its readings and its course by month (pp. 238–239) as a second Rāhu row; Jupiter's nectar periods (KP §10, img. 81–82) built from their rule, every cell checked ([nectar-periods.md](nectar-periods.md)). The day's sme ba read (WB p. 192); its direction, open question 11, settled the same day from two later texts (BS, MK: up from the first wood-mouse day after the winter solstice, down after the summer solstice), and the *bla mkhyen* built ([earth-lords.md](earth-lords.md), SPEC §5.11). The combination period turned out to need no planets: it is the sign rising in each hour, from KP §9's table, with WB's readings of the twelve (pp. 371–376), built on the hours panel ([combination-period.md](combination-period.md)). |
 
 ## Next investigation
 
@@ -79,9 +79,9 @@ says where to look and with which tool.
    ([earth-lords.md](earth-lords.md), SPEC §5.11); the day's earth lord's
    part of the house and the hearth god's place read and built too, with
    KP's chart (img. 103) as second witness, which also has the mouse day's
-   སྲང. Left from that chapter: the *bla mkhyen*, which needs the sme ba of
-   the sixty-day count; that count was settled on 2026-10-05 (question
-   11), so it waits only on being built. The day by the
+   སྲང. The *bla mkhyen*, which needs the sme ba of the sixty-day count,
+   was built on 2026-10-05 once that count was settled (question 11).
+   The day by the
    clan's element is not planned (2026-10-05): it needs a Tibetan clan,
    which the app's readers do not have.
 
