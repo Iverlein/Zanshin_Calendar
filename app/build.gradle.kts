@@ -11,8 +11,8 @@ android {
         applicationId = "io.github.iverlein.zanshin"
         minSdk = 26
         targetSdk = 37
-        versionCode = 4
-        versionName = "2.0"
+        versionCode = 5
+        versionName = "2.1"
     }
 
     buildTypes {
