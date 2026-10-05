@@ -8,6 +8,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -17,6 +18,7 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
@@ -221,18 +223,24 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         for (n in notes) {
-            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
-                Column(Modifier.weight(1f)) {
-                    Text(n.activity.english, style = body.copy(fontSize = 16.sp))
-                    if (n.disputed) {
-                        Text(
-                            stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
-                            style = body.copy(fontSize = 12.sp, color = Palette.mixed),
-                        )
+            BoxWithConstraints {
+                // The label takes its own width up to 55% of the row and wraps by words past
+                // that; the annotations fill the rest, right-aligned. Without the cap a wide
+                // set of annotations squeezed the label into a one-letter column.
+                val labelMax = maxWidth * 0.55f
+                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
+                    Column(Modifier.widthIn(max = labelMax)) {
+                        Text(n.activity.english, style = body.copy(fontSize = 16.sp))
+                        if (n.disputed) {
+                            Text(
+                                stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
+                                style = body.copy(fontSize = 12.sp, color = Palette.mixed),
+                            )
+                        }
                     }
+                    Terms(if (good) n.good else n.avoid, small = true, modifier = Modifier.weight(1f), end = true)
                 }
-                Terms(if (good) n.good else n.avoid, small = true)
             }
         }
     }
@@ -241,8 +249,12 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
 /** Annotation names, each translated on tap. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Terms(entries: List<SummaryEntry>, small: Boolean = false) {
-    FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+private fun Terms(entries: List<SummaryEntry>, small: Boolean = false, modifier: Modifier = Modifier, end: Boolean = false) {
+    FlowRow(
+        modifier,
+        horizontalArrangement = if (end) Arrangement.spacedBy(12.dp, Alignment.End) else Arrangement.spacedBy(12.dp),
+        verticalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
         for (e in entries) {
             GlossText(
                 e.kanji,
