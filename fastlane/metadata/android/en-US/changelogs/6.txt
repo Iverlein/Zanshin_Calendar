@@ -1,0 +1,1 @@
+The day summary no longer squeezes an activity's name into a column of single letters when its annotations are wide.
