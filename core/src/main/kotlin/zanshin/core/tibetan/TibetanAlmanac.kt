@@ -418,3 +418,21 @@ fun nectarHours(weekday: Weekday): List<Int> {
     val night = (0 until 12).filter { (weekday.ordinal + 4 * it) % 7 == jupiter }.map { it + 12 }
     return day + night
 }
+
+/** The twelve signs (*khyim*), Aries first, as the White Beryl and the *kun phan me long* name them. */
+enum class ZodiacSign(val wylie: String) {
+    ARIES("lug"), TAURUS("glang"), GEMINI("'khrig pa"), CANCER("karka Ta"), LEO("seng ge"), VIRGO("bu mo"),
+    LIBRA("srang"), SCORPIO("sdig pa"), SAGITTARIUS("gzhu"), CAPRICORN("chu srin"), AQUARIUS("bum pa"), PISCES("nya");
+
+    val english: String get() = gloss(this)
+}
+
+/**
+ * The combination period (*dus sbyor*) of each of the day's twelve hours: the
+ * sign rising in it, after the *kun phan me long*'s table (§9, img. 79–80;
+ * docs/sources/combination-period.md). Its rows are the months, each with its
+ * sign (the 3rd month Aries … the 2nd Pisces); at daybreak (ནམ་ལངས), the
+ * first hour, the month's own sign rises, and each later hour the next sign.
+ * [hour] counts the app's twelve hours from the hare hour at 05:00 (§10.3).
+ */
+fun risingSign(month: Int, hour: Int): ZodiacSign = ZodiacSign.entries[Math.floorMod(month - 3 + hour, 12)]

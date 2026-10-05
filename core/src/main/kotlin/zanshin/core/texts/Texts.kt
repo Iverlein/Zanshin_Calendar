@@ -13,6 +13,7 @@ import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
+import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.ElementPair
@@ -139,6 +140,7 @@ object Sources {
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–239")
+    val WHITE_BERYL_DUS_SBYOR = whiteBeryl("pp. 371–376")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
     val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
@@ -158,6 +160,11 @@ object Sources {
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     /** The same print's chart of Rāhu's general course by date, the White Beryl's grouped by direction (§7, img. 78). */
+    val KUN_PHAN_ME_LONG_DUS_SBYOR = Source(
+        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the sign rising in each hour by month (img. 79–80)",
+        "BDRC MW4CZ65561",
+        "https://library.bdrc.io/show/bdr:MW4CZ65561",
+    )
     val KUN_PHAN_ME_LONG_NECTAR = Source(
         "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Jupiter's nectar periods by day and by night (img. 81–82)",
         "BDRC MW4CZ65561",
@@ -581,6 +588,34 @@ object Texts {
 
     private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date")
+
+    /**
+     * The combination period (*dus sbyor*) of each sign, the White Beryl's
+     * chapter on the twelve houses at the moment (vol. 2, pp. 371–376;
+     * docs/sources/combination-period.md): what is to be done and avoided
+     * while the sign rises, and whether the period is to be accomplished
+     * (lucky) or avoided (unlucky). The text holds it above every factor of
+     * the day, since their works are all complete in its house.
+     */
+    val DUS_SBYOR: Map<ZodiacSign, Pair<Tone, Reading>> = mapOf(
+        ZodiacSign.ARIES to dusSbyor("ARIES", Tone.BAD, good = listOf("empowerment", "ordination", "taking_servants", "cutting_hair_and_nails", "fighting_enemies", "war", "robbery", "seeking_connections", "fire_offerings", "fierce_rites"), avoid = listOf("consecration", "building_temples_and_stupas", "making_images", "taking_a_bride", "building_walls", "bloodletting_and_moxibustion", "trade", "bringing_rain", "virtuous_acts_for_the_living", "council", "auspicious_work", "digging_ponds_canals_and_wells", "sowing", "worship_of_deities", "planting_trees_and_flowers", "pacifying_rites", "power_rites", "increasing_rites")),
+        ZodiacSign.TAURUS to dusSbyor("TAURUS", Tone.GOOD, good = listOf("ordination", "fire_offerings", "power_rites", "fierce_rites", "putting_on_ornaments", "taking_a_bride", "first_wearing_of_new_clothes", "crafts", "bloodletting_and_moxibustion", "astrology_and_divination", "cutting_hair_and_nails", "worship_of_deities", "averting_rites", "suppressing_sri", "building_temples_and_stupas", "making_images", "presenting_offerings", "consecration", "building_walls", "buying_fields", "building_storehouses", "council", "auspicious_work", "virtuous_acts_for_the_living", "digging_ponds_canals_and_wells", "sowing", "sewing_tents", "raising_banners", "taking_servants", "matchmaking", "planting_trees_and_flowers", "breaking_in_horses_and_livestock", "trade", "taking_a_new_home", "spectacles"), avoid = listOf()),
+        ZodiacSign.GEMINI to dusSbyor("GEMINI", Tone.GOOD, good = listOf("empowerment", "consecration", "dharma_practice", "worship_of_deities", "preparing_medicine", "building_temples", "making_images", "raising_banners", "taking_a_bride", "first_wearing_of_new_clothes", "putting_on_ornaments", "crafts", "digging_ponds_canals_and_wells", "cutting_hair_and_nails", "trade", "planting_trees_and_flowers", "spectacles", "bloodletting_and_moxibustion", "study", "naming", "increasing_rites"), avoid = listOf("power_rites", "fierce_rites", "pacifying_rites", "ordination", "building_walls")),
+        ZodiacSign.CANCER to dusSbyor("CANCER", Tone.BAD, good = listOf("suppressing_sri", "digging_ponds_and_wells", "work_with_water", "increasing_rites", "bringing_rain", "leading_an_army", "unsteady_and_moving_work"), avoid = listOf("consecration", "building_walls", "first_wearing_of_new_clothes", "crafts", "auspicious_work", "council", "virtuous_acts_for_the_living", "taking_servants", "washing_the_hair", "cutting_hair_and_nails", "worship_of_deities", "making_images", "sowing", "building_storehouses", "raising_banners", "breaking_in_horses_and_livestock", "horse_racing", "preparing_medicine")),
+        ZodiacSign.LEO to dusSbyor("LEO", Tone.GOOD, good = listOf("ordination", "building_temples_and_stupas", "worship_of_deities", "fire_offerings", "pacifying_rites", "power_rites", "averting_rites", "astrology_and_divination", "suppressing_sri", "putting_on_ornaments", "taking_a_bride", "enthronement", "building_walls", "building_a_hearth", "sewing_tents", "first_wearing_of_new_clothes", "crafts", "cutting_hair_and_nails", "virtuous_acts_for_the_living", "auspicious_work", "council", "honouring_and_petitioning", "empowerment", "spectacles", "breaking_in_horses_and_livestock", "horse_racing", "leading_an_army", "taking_a_retinue", "raising_banners", "trade", "reconciliation", "building_dams"), avoid = listOf()),
+        ZodiacSign.VIRGO to dusSbyor("VIRGO", Tone.GOOD, good = listOf("building_temples", "making_images", "taking_a_bride", "putting_on_ornaments", "first_wearing_of_new_clothes", "crafts", "washing_the_hair", "preparing_medicine", "bloodletting_and_moxibustion", "building_walls", "reconciliation", "setting_out", "astrology_and_divination", "cutting_hair_and_nails", "auspicious_work", "virtuous_acts_for_the_living", "council", "building_dams", "trade", "pacifying_rites", "increasing_rites", "lasting_work", "unsteady_and_moving_work", "affairs_of_state"), avoid = listOf("ordination", "leading_an_army", "fierce_rites")),
+        ZodiacSign.LIBRA to dusSbyor("LIBRA", Tone.BAD, good = listOf("farming", "trade", "breaking_ground", "lasting_work", "astrology_and_divination", "building_dams", "power_rites"), avoid = listOf("consecration", "making_images", "taking_a_bride", "crafts", "auspicious_work", "council", "virtuous_acts_for_the_living", "washing_the_hair", "bathing", "cutting_hair_and_nails", "building_walls", "planting_trees_and_flowers", "bringing_rain", "raising_banners", "naming", "taking_servants", "pacifying_rites", "increasing_rites")),
+        ZodiacSign.SCORPIO to dusSbyor("SCORPIO", Tone.BAD, good = listOf("consecration", "empowerment", "averting_rites", "suppressing_sri", "serving_the_king", "lasting_work", "trade", "fierce_rites", "making_weapons"), avoid = listOf("building_temples", "making_images", "enthronement", "bringing_rain", "first_wearing_of_new_clothes", "building_walls", "taking_a_bride", "council", "auspicious_work", "virtuous_acts_for_the_living", "preparing_medicine", "bloodletting_and_moxibustion", "cutting_hair_and_nails", "sewing_tents", "building_storehouses", "leading_an_army", "farming", "sowing", "raising_banners", "worship_of_deities", "naming", "reconciliation", "pacifying_rites", "increasing_rites", "power_rites")),
+        ZodiacSign.SAGITTARIUS to dusSbyor("SAGITTARIUS", Tone.GOOD, good = listOf("building_temples", "making_images", "suppressing_sri", "setting_out", "taking_a_bride", "putting_on_ornaments", "enthronement", "first_wearing_of_new_clothes", "preparing_medicine", "taking_a_retinue", "astrology_and_divination", "averting_rites", "sewing_tents", "building_walls", "digging_ponds_and_wells", "breaking_ground", "medical_treatment", "breaking_in_horses_and_livestock", "virtuous_acts_for_the_living", "council", "auspicious_work", "spectacles", "raising_banners", "leading_an_army", "naming", "averting_thieves", "pacifying_rites", "increasing_rites", "fierce_rites"), avoid = listOf("building_dams", "worship_of_deities", "ordination")),
+        ZodiacSign.CAPRICORN to dusSbyor("CAPRICORN", Tone.BAD, good = listOf(), avoid = listOf("consecration", "building_temples", "making_images", "crafts", "auspicious_work", "virtuous_acts_for_the_living", "council", "fire_offerings", "taking_a_bride", "enthronement", "preparing_medicine", "bloodletting_and_moxibustion", "cutting_hair_and_nails", "worship_of_deities", "building_walls", "sewing_tents", "pacifying_rites", "increasing_rites", "power_rites", "reconciliation", "raising_banners")),
+        ZodiacSign.AQUARIUS to dusSbyor("AQUARIUS", Tone.GOOD, good = listOf("ordination", "building_temples_and_stupas", "making_images", "bathing", "washing_the_hair", "building_walls", "taking_a_new_home", "digging_ponds_canals_and_wells", "breaking_ground", "learning_writing_and_astrology", "auspicious_work", "virtuous_acts_for_the_living", "council", "pacifying_rites", "increasing_rites", "lasting_work", "building_a_hearth", "building_storehouses", "sowing", "planting_trees_and_flowers", "sewing_tents", "naming"), avoid = listOf("bloodletting_and_moxibustion", "fierce_rites", "leading_an_army", "horse_racing", "building_dams")),
+        ZodiacSign.PISCES to dusSbyor("PISCES", Tone.GOOD, good = listOf("dharma_practice", "ordination", "study", "putting_on_ornaments", "taking_a_bride", "enthronement", "first_wearing_of_new_clothes", "crafts", "cutting_hair_and_nails", "building_walls", "building_a_hearth", "preparing_medicine", "bloodletting_and_moxibustion", "astrology_and_divination", "washing_the_hair", "bathing", "breaking_ground", "farming", "work_with_cattle", "sowing", "travel", "learning_the_sciences", "setting_out", "sewing_tents", "reconciliation", "planting_trees_and_flowers", "spectacles", "naming", "pacifying_rites"), avoid = listOf("building_temples_and_stupas", "making_images", "increasing_rites", "fierce_rites", "leading_an_army", "building_dams", "fire_offerings")),
+    )
+
+    private fun dusSbyor(sign: String, tone: Tone, good: List<String>, avoid: List<String>) = tone to Reading(
+        goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_DUS_SBYOR, also = listOf(Sources.KUN_PHAN_ME_LONG_DUS_SBYOR),
+        key = "reading.DusSbyor", arg = "reading.DusSbyor.$sign",
+    )
 
     /**
      * Rāhu's course by month (the White Beryl, vol. 2, pp. 238–239;
