@@ -494,7 +494,7 @@ object Texts {
 
     private fun electional(arg: String, good: List<String>, bad: List<String>) =
         Reading(
-            goodKeys = good, avoidKeys = bad, source = Sources.HENNING_ELECTIONAL, also = listOf(Sources.KUN_PHAN_ME_LONG),
+            goodKeys = good, avoidKeys = bad, source = Sources.KUN_PHAN_ME_LONG, also = listOf(Sources.HENNING_ELECTIONAL),
             key = "reading.Electional", arg = "reading.Electional.$arg",
         )
 

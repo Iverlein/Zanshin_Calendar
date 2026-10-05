@@ -17,8 +17,9 @@ class ElectionalTest {
     private fun list(wording: String) = Electional.ACTIVITIES.single { it.wording == wording }
 
     @Test
-    fun `thirteen activities, each mansion list without duplicates or overlap`() {
-        assertEquals(13, Electional.ACTIVITIES.size)
+    fun `Henning's thirteen and the print's 44 other activities, each without duplicates or overlap`() {
+        assertEquals(57, Electional.ACTIVITIES.size)
+        assertEquals(57, Electional.ACTIVITIES.map { it.wording }.distinct().size)
         for (a in Electional.ACTIVITIES) {
             assertEquals(a.good.mansions.distinct(), a.good.mansions, a.wording)
             assertTrue(a.good.mansions.intersect(a.bad.mansions.toSet()).isEmpty(), a.wording)
@@ -93,5 +94,23 @@ class ElectionalTest {
         assertEquals(listOf("Wednesday", "Aśvinī", "Death combination", "Demon day", "day 19", "Li"), marriage.avoid.map { it.kanji })
         assertTrue(marriage.good.isEmpty())
         assertFalse(marriage.disputed)
+    }
+
+    @Test
+    fun `the print's other boxes, read on the scans`() {
+        // Box 22, sowing (img. 36): the 28th stands in both halves, so it counts for neither.
+        val sowing = list("sowing")
+        assertEquals(setOf(Weekday.SATURDAY, Weekday.MONDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY), sowing.good.weekdays)
+        assertEquals(setOf(4, 8, 14, 29), sowing.bad.dates)
+        assertFalse(28 in sowing.good.dates || 28 in sowing.bad.dates)
+        assertTrue(Animal.PIG in sowing.bad.animals)
+        // Box 11, food and brewing: "otherwise as the feasts", but it names something in every kind, so its own lists stand.
+        assertEquals(listOf(Mansion.UTTARABHADRAPADA), list("preparing_food_and_brewing").good.mansions)
+        // Box 30, saddling: "the rest as feeding up horses", whose day animals it takes.
+        assertEquals(list("feeding_up_horses").bad.animals, list("saddling").bad.animals)
+        // Box 49, consecration: the 9th in both halves is left out.
+        assertFalse(9 in list("consecration").good.dates || 9 in list("consecration").bad.dates)
+        // Box 16 split: what is good for taking in wealth is bad for giving it away.
+        assertTrue(Weekday.SUNDAY in list("receiving_wealth").good.weekdays && Weekday.SUNDAY in list("sending_out_wealth").bad.weekdays)
     }
 }

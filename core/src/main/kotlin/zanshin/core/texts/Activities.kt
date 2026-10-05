@@ -209,7 +209,11 @@ enum class Activity {
     PERFUME,
     ORNAMENTS,
     WATER_WORK,
-    LOVE;
+    LOVE,
+
+    // The kun phan me long's other activity boxes (SPEC §5.10)
+    HORSES,
+    RAINMAKING;
 
     val english: String get() = gloss(this)
 }
@@ -308,6 +312,8 @@ val Activity.family: ActivityFamily
         ORNAMENTS -> ActivityFamily.CLOTHES
         WATER_WORK -> ActivityFamily.WELL
         LOVE -> ActivityFamily.WEDDING
+        HORSES -> ActivityFamily.FIELD
+        RAINMAKING -> ActivityFamily.RITE
     }
 
 /** The times of day the rokuyō name good or bad. They are hours, not acts. */
@@ -652,6 +658,24 @@ object Activities {
         "acquiring_goods_and_livestock" to of(ACQUIRING, BUYING_LIVESTOCK),
         "trading_land_and_houses" to of(BUYING_LAND),
         "serving_the_king" to of(STATECRAFT),
+
+        // The kun phan me long's other activity boxes
+        "building_walls" to of(BUILDING),
+        "setting_up_hearth_and_pillars" to of(HEARTH, RAISING_PILLARS),
+        "preparing_food_and_brewing" to of(BREWING),
+        "giving_and_taking_loans" to of(LENDING_MONEY),
+        "planting_trees_and_flowers" to of(PLANTING),
+        "virtuous_acts_for_the_living" to of(VIRTUE),
+        "manuring_and_breaking_in_oxen" to of(FIELD_WORK, TAMING_ANIMALS),
+        "giving_gifts_and_dowries" to of(GIVING_OUT),
+        "feeding_up_horses" to of(HORSES),
+        "treating_horses_mules_and_donkeys" to of(HORSES),
+        "calling_prosperity_and_bon_rites" to of(PROSPERITY_RITES),
+        "bathing_and_washing_the_hair" to of(BATHING, WASHING_HAIR),
+        "composing_treatises_and_learning_poetics" to of(STUDY),
+        "bringing_rain" to of(RAINMAKING),
+        "thread_cross_and_torma_rites" to of(AVERTING_RITES),
+        "honouring_and_petitioning" to of(PETITIONS),
     )
 
     /** The rokuyō's hours, by wording key. */
