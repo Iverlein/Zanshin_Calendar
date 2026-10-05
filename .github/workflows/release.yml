@@ -1,0 +1,32 @@
+# Keeps a GitHub release for every version tag, and attaches F-Droid's signed
+# APK once f-droid.org has published that version (tools/release_apks.py).
+# F-Droid builds and publishes some days after a tag, so the daily run picks
+# the APK up when it appears.
+name: Releases
+
+on:
+  push:
+    tags: ['v*']
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: releases
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  releases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Releases and F-Droid APKs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/release_apks.py

@@ -1091,6 +1091,13 @@ the recipe itself changes only through a merge request to `fdroiddata`, and
 the copy follows it. A release is: bump `versionCode`
 and `versionName`, add `changelogs/<versionCode>.txt`, commit, tag
 `v<versionName>`, push the tag; F-Droid's update checker picks up the tag.
+F-Droid's bot adds the build to the recipe within about a day, and its
+build cycle publishes it some days later. The tag also gets a GitHub
+release with the changelogs as notes, and once f-droid.org has published
+that version, F-Droid's own APK is attached to it, checked against
+F-Droid's signed index (`tools/release_apks.py`, run by
+`.github/workflows/release.yml` on each tag and daily). One signature
+everywhere: a GitHub install and an F-Droid install update each other.
 Builds are not reproducible yet, so F-Droid signs with its own key; switching
 to the developer's key later forces users to reinstall.
 
