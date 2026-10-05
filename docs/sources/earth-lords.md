@@ -91,8 +91,26 @@ with 1 in the middle it is in the south-west, so the example's day has the
 sme ba 1. Which count gives a day its sme ba, and which wood-mouse day is
 "the first", the passage does not say. The app has a wood-mouse day in
 its sixty-day count (`dayElement`, `dayAnimal`) but a sme ba only for the
-lunar date (Janson), not for the sixty-day count, and the year's section
-it points to was not read. Not built.
+lunar date (Janson), not for the sixty-day count. Not built.
+
+**The day's sme ba, read 2026-10-05.** The year's section (p. 180, etext
+p. 188) sends the year's *bla mkhyen* round the year's sme ba square
+(«གཡོན་སྐོར་གནམ་ལོའི་བདུན་ཟུར་འགྲིམ»), with its avoidances and remedies;
+it does not say how a day gets its sme ba. The chapter on the nine sme ba
+does (p. 192, img. 200, read on the scan; the etext drops དུས་དགུན):
+
+> སྐྱེས་དུས་དགུན་ཉི་ལྡོག་པའི་ཉིན། །སྨེ་བ་གཅིག་དཀར་བསྐྱེད་པར་འགྱུར། །དེ་ནས་ཉིན་རེ་སྨེ་བ་རེ། །
+
+"On the day of the winter solstice the one-white is produced; from then,
+one sme ba each day." So the day's sme ba is 1 on the winter solstice and
+moves on by one a day. Two things stay open, and the reading waits on
+them (open question 11): which way the count runs (the year's sme ba
+counts down; "one sme ba each day" does not say), and how the example's
+"first wood-mouse day" with sme ba 1 fits a count that starts on the
+solstice. The Chinese count of day stars, which the app's 旧暦 page uses
+(SPEC §7.5), starts one-white on the wood-mouse (甲子) day nearest the
+winter solstice and counts up, which would fit both; that is a likeness,
+not a statement of the text.
 
 The passage closes the clan reckoning with a caution that applies to the
 whole: the learned of Tibet (Mi pham dge legs and others) apply it to the

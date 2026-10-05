@@ -65,7 +65,8 @@ says where to look and with which tool.
    it: the names NM, SY and WB print already agree (question 4).
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
    1 (ranking), 5 (SY's Mouse gshed gza'; KP now sides with WB), 6 (box
-   6), 8 (sha 'khon: KP's change), 10 ('Od 'bar ma's *chu gri bkar*). A
+   6), 8 (sha 'khon: KP's change), 10 ('Od 'bar ma's *chu gri bkar*), 11 (the
+   direction of the day's sme ba). A
    third WB print would not settle 1 or 8: WB2 has the same words.
    Question 2 was answered on 2026-10-04 (number words: the yogas'
    avoided chu tshod) and question 9 too (the *nyi ma* is the lunar date's

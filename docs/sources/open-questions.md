@@ -68,3 +68,10 @@ the text, not about the app.
     same table; ཆུ་གྲི for ཆུ་གྲེ, the water *gre*?), or does it name the
     *chu gri*, the small knife that lances a swelling, which is her illness
     ([lunar-day-signs.md](lunar-day-signs.md))?
+11. WB vol. 2, p. 192: the day's sme ba is «one-white on the day of the
+    winter solstice, then one sme ba each day». Does the count run up
+    (1, 2, 3 …) or down (1, 9, 8 …)? And p. 224's example, the *bla
+    mkhyen* in the south-west «on the first wood-mouse day», implies sme ba
+    1 on that day: is the count anchored on the solstice itself, or, as in
+    the Chinese day stars, on the wood-mouse day nearest it
+    ([earth-lords.md](earth-lords.md))?

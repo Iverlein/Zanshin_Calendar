@@ -50,12 +50,14 @@ mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
   (*tatkāla dus sbyor*, KP §9), which the text holds above everything and
   which needs the five planets; Rāhu's course by year and month.
 - **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
-  *bla mkhyen* of the day (it needs the sme ba of the sixty-day count) and
+  *bla mkhyen* of the day (it needs the day's sme ba, which WB starts at 1
+  on the winter solstice without saying which way it counts: question 11) and
   the day by the clan's element (it needs the person's clan).
 - **Open readings** for a reader of the tradition
   ([open-questions.md](sources/open-questions.md)): the yoga ranking (1),
   SY's Mouse *gshed gza'* (5), the offerings box's khrums smad (6), sha
-  'khon's short reading (8) and 'Od 'bar ma's *chu gri bkar* (10).
+  'khon's short reading (8), 'Od 'bar ma's *chu gri bkar* (10) and the
+  direction of the day's sme ba (11).
 
 ### T3. Element colours
 
