@@ -69,6 +69,9 @@ other fourteen (2, 3, 5, 7, 9, 10, 13, 16, 19, 20, 23, 26, 28, 30), with
 WB's rule for fierce work (p. 238): drive out obstacles while Rāhu moves,
 strike when it turns back, never facing it but going along with its course
 (རྒྱུ་བའི་དུས་ལ་བདུད་གཅོད་ཅིང་། །ལྡོག་པའི་དུས་སུ་གསོད་པར་གསུངས། །གདོང་ཐུག་མི་བྱ་རྒྱུ་དང་བསྟུན།).
+The table above is the app's `RahuCourse.GENERAL`, and the test vector
+`white-beryl-rahu.tsv` is made from it; the row's compass draws it, or the
+detailed course's move where that names one (SPEC §5.13).
 
 KP's other nine boxes on img. 78 are Rāhu's course over the hours of one
 day (ཉིན་ཞག་ཕྲུགས་གཅིག་གམ་དུས་ལ་འཁོར་བའི་སྒྲ་གཅན་རྒྱུ་དུས), WB's p. 239 passage:

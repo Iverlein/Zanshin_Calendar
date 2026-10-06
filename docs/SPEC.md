@@ -583,7 +583,15 @@ have much to avoid.
   Rāhu moves, which the *kun phan me long*'s chart (§7, img. 78) confirms
   date by date, with WB's rule for fierce work (go along with its course,
   never face it, p. 238); it names no activities and takes no part in the
-  weighing. Both readings add Rāhu's course over the hours of any day
+  weighing. The row's compass (§10.7) draws the move the row's reading
+  gives: the detailed course's on the eight dates it enters a direction
+  and moves on (4, 8, 12, 15, 18, 22, 25, 29), which runs against the
+  general course on the 12th (north to south, not south to north) and the
+  18th (east to west, not south-west to north-east); the general course
+  on the other dates, the turning-back ones included, whose detailed
+  reading names no course, its caption naming which (`RahuCourse`, tested
+  against the general course's table in rahu.md). Both readings add
+  Rāhu's course over the hours of any day
   (p. 239): eight named times of day, each with the direction it moves
   from and to. They stay in the reading, not on the hours panel, since the
   text names times of day rather than clock hours. On the dates WB gives
@@ -1156,8 +1164,14 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   the order a month runs through them, Kiṃstughna first, the seven moving
   ones under a line, the three fixed last; yoga: a ring of the 27; both
   small on the row and full in the sheet, each cell with its tone. The
-  five components rows carry no second ring. Rāhu's direction is in its
-  readings' prose only, so it has no compass yet.
+  five components rows carry no second ring. Rāhu: a compass, north at the
+  top as the 恵方's, small on the row and in the sheet with the eight
+  directions and a caption naming the course and its directions; an arrow
+  from the direction it comes from to the one it goes to, as the date's
+  reading gives it (`RahuCourse.of`, §5.13); on the 14th four arrows into
+  a pool in the middle (from the sky into the lake), on the 30th eight
+  outward (every direction). Rāhu's course by month has none: the row's
+  compass is the date's.
 - **Reading sheets** carry a band in the reading's tone across their top.
 - **Font.** `tools/subset_fonts.py` takes the characters of the Kotlin
   sources, the catalogs and the string resources; a rebuild after new kanji

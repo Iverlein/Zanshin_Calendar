@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below, T2.1 built | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below, T2.1 and T2.2 built | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -46,16 +46,7 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 
 #### T2.1 The haircut row, weighed — built 2026-10-06 (SPEC §10.3)
 
-#### T2.2 Rāhu's compass — S
-
-- **Gap.** Rāhu's row is the only Tibetan row without a graphic; its
-  direction is in the readings' prose only.
-- **Work.** The general course by date, from-direction and to-direction
-  for all thirty dates, as data in core, with a vector file from the table
-  in [rahu.md](sources/rahu.md) (WB vol. 2, pp. 236–238; KP's chart, img.
-  78, agrees date by date) and a test against it. A compass on the row and
-  in the sheet with the arrow from one direction to the other, north at
-  the top as the other compasses (SPEC §10.7).
+#### T2.2 Rāhu's compass — built 2026-10-06 (SPEC §10.7)
 
 #### T2.3 The person's own days — S, then M
 
@@ -169,7 +160,7 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 
 #### Order
 
-1. T2.2 (small, visible every day); T2.1 is built.
+1. T2.1 and T2.2 are built.
 2. T2.3 and T2.4, the display halves (small, close the brief's silence).
 3. T2.7 and T2.8, after the owner's decisions.
 4. T2.5, then T2.6 (the reading; each ends with a build).
