@@ -10,7 +10,7 @@ our own words). What is still to be found, and how, is in
 | File | Topic | Roadmap | State |
 | --- | --- | --- | --- |
 | [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings | T3 | Settled: read on the scan, checked against two other texts, Rabten and KP's table (img. 85) |
-| [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; the ranking verse's reading open (question 1); sha 'khon's variants traced (question 8) |
+| [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; the ranking counted from sel ba, its 18 and རང་སྐྱེས unexplained in any source (question 1); sha 'khon's variants traced (question 8) |
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, no syllable left unread (date 25's སྒབ read but not identified); illness and remedy lines summarized only; all four *bla gnas* systems written out |
 | [weekdays.md](weekdays.md) | The seven planets as weekdays, and the closing verse | T2 | From two OCR readings, every disagreement settled on the scan; the words left out of the app's lists named |
@@ -27,7 +27,7 @@ our own words). What is still to be found, and how, is in
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions: all but 1 answered; 1 narrowed |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions, all answered; of 1, the 18th and the line with རང་སྐྱེས have no reading in any source found |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -59,6 +59,7 @@ in `wb/` (gitignored; see `wb/README.md`).
 | **Rabten** | Edition Rabten, *Tibetan Calendar 2026* | — | already cited by `personalDay` |
 | **BS** | Blo bzang sbyin pa (b. 1918), *Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog* | in his *Gsung 'bum*, Kan su'u mi rigs dpe skrun khang, Lan kru'u 2003, vol. 3 (second group, pp. 9–102); again in *Gangs ljongs rig bcu'i snying bcud chen mo*, *Bzo rtsis zlos gar* vol. 2, Mi rigs dpe skrun khang, Pe cin | BDRC MW25151_4E0A69 and MW1PD95727_O1PD95727_X9IUCSSDTMOC; etext search only; scans lending-only (archive.org `bdrc-W25151`) |
 | **MK** | a text on Chinese reckoning in *Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng*, vol. 10 | Bod ljongs dpe rnying dpe skrun khang, Lha sa 2012 | BDRC MW1PD152297, etext volume VEIE0OPI8D89959A_I2PD18783 (the passage at character 445 758); search only; scans lending-only |
+| **KD** | *Bod kyi rtsis rig kun 'dus chen mo*, a collection of rtsis texts; cited for two readers of WB: Tshul khrims rgyal mtshan, abbot of Nalendra, *Bod kyi lo tho'i 'phel rim dang nang don ngo sprod mdor bsdus* (vol. 1, the weighing at pp. 498–499), and Mkhyen rab nor bu's digest of WB's fifth section (vol. 3, pp. 730 ff.) | Si khron mi rigs dpe skrun khang, Chengdu 1998 | BDRC MW28845; etext IE0OPI2F246A26 (vol. 1 VEIE0OPI2F246A26_I4715, printed page = etext page − 16 at p. 498; vol. 3 VEIE0OPI2F246A26_I4717, etext page − 20); scans lending-only (archive.org) |
 
 ## Numbering
 

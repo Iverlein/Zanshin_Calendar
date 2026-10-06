@@ -64,11 +64,20 @@ It ends with how much they weigh:
 
 > འདིར་ནི་བཟང་གསུམ་གསོ་ཐུབ་གསུམ། །ངན་གསུམ་ཐ་ཆད་གཅིག་དང་བཅུས། །བྱ་བ་ཀུན་ལ་བཟང་ངན་བྱེད། །དེ་ཕྱིར་འཕྲོད་འདི་གཟུང་བར་བྱོས། །གཟའ་སྐར་སོ་སོར་བཟང་ན་ཡང་། །འཕྲོད་ངན་དེ་ཡི་འབྲས་བུར་འགྱུར། །གཟའ་སྐར་དེ་ལས་ལྡོག་པའི་ཚེ། །འཕྲོད་བཟང་གྱུར་ན་དེ་འབྲས་འགྲུབ།།
 
-Three good, three that can be restored, three bad and one worst: these ten
-make every work good or bad, so hold to the combination. Even when the
+Three good, three that sustain (*gso thub*), three bad and one worst: these
+ten make every work good or bad, so hold to the combination. Even when the
 planet and the mansion are each good, a bad combination becomes its result;
 when it is the other way round, a good combination brings its result. This
 puts the combination above the weekday and the mansion (SPEC §5.12).
+
+**The grades, by the verse's order** (checked 2026-10-06 against BDRC's
+etext IE0OPI51524892, which has the pairs in the same order): good,
+*dngos grub*, *bdud rtsi*, *lang tsho*; sustaining, *'phel 'gyur* (food and
+clothes found), *phun tshogs* (wishes quickly accomplished), *stobs ldan*
+(good omens); bad, *mi 'phrod*, *mi mthun*, *sreg pa*; worst, *'chi ba*.
+*Gso* is to nourish, to raise; the three sustaining verses name only good
+results, so the app counts them lucky with the good three (`PairGrade`),
+and each pair's reading names its grade.
 
 ## The special days
 

@@ -6,17 +6,22 @@ the rules for quoting are in [README.md](README.md).
 These are for a reader of the rtsis tradition; each is a question about
 the text, not about the app.
 
-1. *Narrowed 2026-10-05 ([yogas.md](yogas.md), "The ranking, searched"):
-   the verse is in a third text, *Rtsis rig shes bya kun gsal* (Sera,
-   1998), word for word and without commentary, and nowhere else in
-   BDRC's search. Counted from sel ba, four of the five bad numbers are
-   WB's own bad yogas (6 rab stongs, 9 gzer, 10 'bras, 13 rma chen) and
-   five of the good (2, 3, 5, 7, 8) its good ones; 18 (dpa' bo) in the bad
-   list and 6 in the good stay unexplained, and so does རང་སྐྱེས. 2026-10-06: Mkhyen rab nor bu's digest of WB
-   replaces the verse with the nine yogas of WB's avoidance verse, the
-   other eighteen good, which keeps 6, 9, 10 and 13 counted from sel ba
-   and makes dpa' bo good; it does not gloss 18 or རང་སྐྱེས ([yogas.md](yogas.md),
-   "A reader's restatement").* WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
+1. ~~WB p. 349, the yoga ranking: how is it counted, and how is
+   «རང་སྐྱེས» read?~~ *Answered as far as the sources go, 2026-10-06
+   ([yogas.md](yogas.md), "The count, settled" and "What is left of the
+   question"): counted from sel ba as the 1st. Blo bzang tshul khrims
+   (1740–1810), *Grub rtsis lugs kyi lnga bsdus kyi rnam bshad* (MW23151,
+   vol. 7, img. 93, on the scan), numbers the yogas so and names nine bad
+   ones with their ordinals: 1, 6, 9, 10, 13, 15, 17, 19, 27. WB's 6, 9,
+   10 and 13 are four of them. No witness counts the 18th bad, and its
+   neighbours 17 and 19 are bad in all of them, so WB's བཅོ་བརྒྱད, which every
+   print has, stands alone. «རང་སྐྱེས» is no number word in 64 dictionaries;
+   in WB it always names one's own birth factor, so the good line reads
+   "one's birth yoga, and the 3rd, 5th, 7th, 2nd, 8th and 6th". No text
+   counts yogas from a birth yoga or glosses the line: the readers who
+   take it up copy it whole (Shes rab nyi ma, Nor brang o rgyan) or drop
+   it (Mkhyen rab nor bu). The app does not use the ranking.* The question
+   as it stood: WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
    print): does "དྲུག་དགུ་བཅུ་དང་བཅུ་གསུམ་དང་། །བཅོ་བརྒྱད་
    ངན" count the yogas from Viṣkambha (making the 18th, dpa' bo, bad,
    against its good short reading), or from somewhere else? And how is
@@ -127,3 +132,47 @@ the text, not about the app.
     1 on that day: is the count anchored on the solstice itself, or, as in
     the Chinese day stars, on the wood-mouse day nearest it
     ([earth-lords.md](earth-lords.md))?
+12. ~~KP's tie-break: a sum by the weights, or the strongest factor?~~
+    *Answered 2026-10-06 ([weighing.md](weighing.md), "The source"):
+    the strongest. KP's passage digests the verse that closes WB's
+    chapter 33 (vol. 2, p. 376, img. 384; read on the Zhol print, WBZ
+    img. 1130–1131), which gives the weights as "the view of the great
+    paṇḍita of Kashmir" and goes on «གསུངས་ཀྱང་ཕུག་པའི་ལུགས་ཇི་བཞིན། །མ་ཉམས་བླང་ཚུལ་འདི་ལྟར་བྱ། །རིམ་སྟོབས་གོང་དུ་བརྗོད་པ་ལྟར།»:
+    "so he said, but as the Phug tradition has it, take it up thus, by the
+    order of strength stated above". The tie line is «མང་ཉུང་སྟོབས་ཀྱི་ཁྱད་པར་བརྩི»,
+    followed by the seven in order; KP and Tshul khrims rgyal mtshan both
+    render it as strength alone.* The question as it stood: KP img. 13,
+    rule 3: «བཟང་ངན་གང་ཡང་མ་མཚུངས་པར་གྱུར་ན། ནུས་སྟོབས་ཀྱི་ཁྱད་པར་བརྩིས་ནས་ནུས་སྟོབས་ཆེ་བ་ཉིད་གཅེས».
+    Does "having counted the difference in strength" call back the
+    passage's opening, «ནུས་སྟོབས་ཆེ་ཆུང་གི་ཁྱད་པར་བརྩི་ལུགས», whose weights are
+    the date 1, the planet 4 and the mansion 8, so that a tie is broken by
+    a sum by those weights? Or does it mean the ranking of the seven that
+    follows in the same sentence, so that the strongest single factor
+    decides? The app reads the second (SPEC §5.12); on 2000–2049 a weighted
+    sum, applied wherever the two combinations disagree, would change 2,805
+    of those 8,591 days.
+13. ~~KP's *dmigs bsal*: the combination period, or a special day?~~
+    *Answered 2026-10-06 ([weighing.md](weighing.md), "*Dmigs bsal* and
+    *phyogs sdebs*"): neither; it is the particular case, against the
+    general. WB's verse (vol. 2, p. 376), which KP digests, has a line KP
+    left out, «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ། །དམིགས་བསལ་མེད་ན་ཕྱོགས་སྡེབས་གཙོ།»
+    (where a *dmigs bsal* occurs it leads, where none the *phyogs sdebs*),
+    and gives the *dmigs bsal*, the concord and the combination period
+    three separate reasons («དམིགས་བསལ་གཙོ་བའི་རྒྱུ་མཚན་ཡང་། །དཔེར་ན་བཟོ་བོའི་ཆ་ལག་འདྲ། …»):
+    KP's prose ran the first two together. WB uses *dmigs bsal* for the
+    works a reading names one by one against classes of work (the mansion
+    verses' «དམིགས་བསལ་མ་གཏོགས», ch. 34's 61 works «དམིགས་བསལ་གྲགས་ཆེ་བའི», the
+    minor ones under the four classes), and *phyogs sdebs* for a grouping
+    by kind (the classes of mansions, p. 328). Mkhyen rab nor bu's digest
+    of WB calls the general good-and-bad grouping of the yogas «བཟང་ངན་ཕྱོགས་བསྡེབས»
+    against each one's particular do's and don'ts; Tshul khrims rgyal
+    mtshan, restating KP's rules, glosses them «སྤྱི་ལ་གང་ལྟར་ཡང་བྱེ་བྲག་རང་ལ་དམིགས་བསལ་རྩི་དགོས་པ་རྣམས་གཙོ་བོར་གཟུང་བ་གལ་ཆེ»,
+    with a person's own weekdays and mansions as examples. So *phyogs sdebs*
+    is not a count of sides either.* The question as it stood: KP img. 13,
+    rule 3: «…འཕྲོད་ཉིད་གཙོ་བ་དང་། དམིགས་བསལ་མེད་ན་ཕྱོགས་སྡེབས་གཙོ».
+    Is this *dmigs bsal* the combination period, as the same passage calls
+    it a few lines later («…ཏཏྐཱལ་དུས་སྦྱོར་གཅིག་ལ་ཚང་བའི་དམིགས་བསལ་གཙོ»), or
+    a special day of weekday and mansion (WB pp. 335–337)? The app reads
+    the first and lets the special days stand in their own rank (SPEC
+    §5.12); until 2026-10-06 it read the second, which decided the tone on
+    a fifth of all days.

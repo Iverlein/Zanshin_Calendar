@@ -130,7 +130,8 @@ where the classical list and the verse above have kun brdungs (17).
 And "རང་སྐྱེས … བརྒྱད་དྲུག" reads either as counting from one's birth yoga
 (rang skyes) or as a list ending in 8 and 6, but 6 is already bad. The
 1996 print and its scan agree on every syllable, so the question is one of
-reading, for someone who reads the rtsis tradition.
+reading, for someone who reads the rtsis tradition. (2026-10-06: the count is settled, the two points are not;
+see "The count, settled" below.)
 
 **The ranking, searched (2026-10-05).** BDRC's full-text search finds the
 verse in WB's printings and in one other book, *Rtsis rig shes bya kun
@@ -173,9 +174,74 @@ and no line with རང་སྐྱེས. The nine are the nine of WB's avoidan
 and the digest reads dpa' bo (its mchog can, 18) as good, «མཆོག་ཅན་དགྲ་ལས་
 རྒྱལ་བ་ཡིན». So one later reader counted from sel ba and did
 not keep the 18th bad; he replaced the numbered verse rather than glossing
-it, so his text does not say how he read 18 or རང་སྐྱེས.
+it, so his text does not say how he read 18 or རང་སྐྱེས. His wording
+passed into Blo yangs rgyal and Sha bo tshe ring, *Bod kyi skar rtsis rig
+pa'i rnam bzhag* (Lanzhou 1997, MW1KG21760, OCR only), whose editors put
+the numbers in brackets after the names: «…ཀུན་འཇོམས(13) རྡོ་རྗེ(15) …ཤིན་ཏུ་
+ལྟུང(17) …ཡོངས་འཇོམས(19)…», a count from sel ba. The digest is printed again
+in the *Dung dkar chos rje'i gces nyar dpe tshogs* (found by the same
+search, not read).
 
-The app still does not use the ranking.
+**The count, settled (2026-10-06).** Cha har dge bshes Blo bzang tshul
+khrims (1740–1810; BDRC P4797, a Dge lugs scholar of Chahar), in his
+*Grub rtsis lugs kyi lnga bsdus kyi rnam bshad bkra shis char 'bebs*
+(«གྲུབ་རྩིས་ལུགས་ཀྱི་ལྔ་བསྡུས་ཀྱི་རྣམ་བཤད་བཀྲ་ཤིས་ཆར་འབེབས»; *Gsung 'bum*, New Delhi
+1971–1974, BDRC MW23151, vol. 7, I1KG8801, img. 93, read on the scan),
+writes from the other school, the *grub rtsis* (Siddhānta) and not the
+Phugpa. He numbers the 27 yogas one by one, from «དང་པོ་སེལ་བ» to
+«ཉེར་བདུན་པ་ཁོན་འཛིན», with «…བཅུ་གསུམ་པ་ཀུན་འཇོམས། …བཅུ་བདུན་པ་ཤིན་ལྟུང་། བཅོ་བརྒྱད་པ་
+མཆོག བཅུ་དགུ་པ་ཡོངས་འཇོམས།…», and then:
+
+> །འདི་ལ་སྦྱོར་བ་ངན་པ་དགུ་ཡོད་པ་ལས་སྤང་བྱ་སྤྱོད་པའི་ཡུན་རིང་ཐུང་གི་ཁྱད་པར་ནི། …དང་པོ་སེལ་བ་ལ་ཆུ་ཚོད་གསུམ་གྱི་བར་དང་། དྲུག་པ་ཤིན་སྐྲངས་ལ་ཆུ་ཚོད་དྲུག་གི་བར་དང་། དགུ་པ་ཟུག་རྔུ་ལ་ཆུ་ཚོད་ལྔའི་བར་དང་། བཅུ་པ་སྐྲངས་པ་ལ་ཆུ་ཚོད་དྲུག་གི་བར་དང་། བཅུ་གསུམ་པ་ཀུན་འཇོམས་ལ་ཆུ་ཚོད་དགུའི་བར་དང་། བཅོ་ལྔ་པ་རྡོ་རྗེ་ལ་ཆུ་ཚོད་[དགུའི]་བར་དང་། བཅུ་བདུན་པ་ཤིན་ལྟུང་། བཅུ་དགུ་པ་ཡོངས་འཇོམས། ཉེར་བདུན་པ་ཁོན་འཛིན་ཏེ་གསུམ་པོ་ལ་ཆུ་ཚོད་ཀྱི་གྲངས་ཡོངས་རྫོགས་ཀྱི་བར…
+
+"Among these are nine bad yogas; how long each is to be avoided: the
+1st, sel ba, for 3 chu tshod; the 6th, shin skrangs, 6; the 9th, zug
+rngu, 5; the 10th, skrangs pa, 6; the 13th, kun 'joms, 9; the 15th, rdo
+rje, [9] (the figure is squeezed at the line's end; the OCR reads
+དགུའི); the 17th, shin ltung, the 19th, yongs 'joms, and the 27th, khon
+'dzin, for the whole of their chu tshod." These are WB's avoidance verse,
+figure for figure, now with ordinals. So the tradition numbers the yogas
+from sel ba as the 1st, and in that numbering WB's 6, 9, 10 and 13 are
+four of the nine bad yogas by name. The 18th is «བཅོ་བརྒྱད་པ་མཆོག», named
+without blame.
+
+**What is left of the question, and why it stays.** Searched on BDRC,
+2026-10-06, and found nowhere: the verse with a gloss (its lines occur only
+in WB's prints, the Sera copy and the *Chos rnam kun btus* of Nor brang o
+rgyan, Beijing, MW1KG2733, section 27, which quotes it whole and closes
+with «ཞེས་སོ»); any count of yogas from one's birth yoga («རང་སྐྱེས་ཀྱི་སྦྱོར་བ»,
+«སྐྱེས་དུས་ཀྱི་སྦྱོར་བ», no hits); a list of nine bad yogas in other words
+(«ངན་པའི་སྦྱོར་བ་དགུ», none). The Zhol print reads the verse as the 1996
+edition does, syllable for syllable (WBZ img. 1103, lines 2–3, on the
+scan), so it is WB's text and not a misprint of one edition.
+
+- **18.** No witness counts the 18th bad. WB's own short reading makes
+  dpa' bo a victory over enemies, Mkhyen rab nor bu makes it good, and
+  Blo bzang tshul khrims leaves it out of the nine. Its neighbours, the
+  17th (kun brdungs) and the 19th (yongs 'joms), are in every list of the
+  bad, WB's avoidance verse included, and their short readings are bad
+  (bad for going abroad; death in prison). Every print has བཅོ་བརྒྱད, so
+  if it is a slip it is older than the blocks; the texts give no way to
+  tell whether 17 or 19 was meant, or whether WB meant 18.
+- **རང་སྐྱེས.** In WB the word always names the native's own birth
+  factor: «རང་རང་སྐྱེས་སྐར», «རང་སྐྱེས་སྤར་ཁ», «རང་སྐྱེས་སྨེ་བ», «རང་སྐྱེས་ཉི་མ», «རང་སྐྱེས་
+  གཟའ་སྐར» (etext of the 1996 edition). None of the 64 dictionaries of
+  Christian Steinert's collection gives it as a number word; they give
+  "self-born" and, from the *Amarakośa*, Viṣṇu (*svabhū*). So the line
+  most likely means "one's birth yoga, and the 3rd, 5th, 7th, 2nd, 8th
+  and 6th", the numbers counted either from sel ba or from the birth
+  yoga. From sel ba, 2, 3, 5, 7 and 8 are good in WB's readings and outside
+  the nine, but 6 is one of the nine. From the birth yoga, the clash with
+  the bad line goes, but no text describes such a count for yogas, and
+  WB nowhere counts places from a birth factor in this way.
+
+So the count is answered: from sel ba as the 1st. The two remaining
+points have no reading in any published source found: 18 stands against
+every other witness, and the good line is not explained or repeated by
+any reader, who either copy it or drop it. The app has no use for the
+ranking. Its yoga tones (`Texts.YOGA_TONE`) already mark all nine of the
+avoidance verse, which every witness shares: the six avoided whole or
+with a harmful reading as bad, sel ba, rma chen and rdo rje as mixed.
 
 ## A second witness: NM and SY
 
