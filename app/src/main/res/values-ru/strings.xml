@@ -312,6 +312,7 @@
     <string name="glyph_gibbous_moon">луна после первой четверти</string>
     <string name="brief_good">хорошо</string>
     <string name="brief_avoid">избегать</string>
+    <string name="brief_row_spoken">. Лучше всего: %1$s; прежде всего избегать: %2$s</string>
     <string name="section_stars">九星 · Девять звёзд</string>
     <string name="row_day_star">Звезда дня</string>
     <string name="desc_day_arc">Удачное и неудачное время дня, с утра до вечера</string>
@@ -329,6 +330,15 @@
     <string name="pair_grid_axes">Строки — день недели · столбцы — созвездие</string>
     <string name="haircut_days">Тридцать лунных дней</string>
     <string name="haircut_day">День %1$d: %2$s</string>
+    <string name="desc_combination_table">28 именных сочетаний дня недели и созвездия, отмечено сегодняшнее</string>
+    <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Aśvinī</string>
+    <string name="desc_nectar_dial">Часы дня, полночь вверху, с периодами нектара</string>
+    <string name="desc_lunar_dates">Тридцать лунных дат по пяти классам</string>
+    <string name="lunar_date_cell">День %1$d: %2$s (%3$s) · %4$s</string>
+    <string name="desc_karana_ring">Одиннадцать каран, отмечена %1$s</string>
+    <string name="karana_moving">подвижная, 8 раз в месяц</string>
+    <string name="karana_fixed">неподвижная, раз в месяц</string>
+    <string name="desc_yoga_ring">27 йог, отмечена %1$s</string>
     <string name="desc_sme_ba">Девять чисел в квадрате, отмечено %1$d</string>
     <string name="desc_moved_sme_ba">Квадрат девяти с %1$d в середине, «семь красное» обведено</string>
 </resources>

@@ -31,7 +31,11 @@ class CueGlyph(val path: String, val dots: List<Offset> = emptyList())
 /**
  * The glyphs of the visual cues (SPEC §10.4), drawn for this project and
  * licensed with it (MPL-2.0): one per activity family, the twelve animals as
- * heads, the five elements and the Indian wind.
+ * heads, the five elements and the Indian wind. The four actions are drawn as
+ * the hearths of their fire offerings: round for pacifying, square for
+ * increasing, semicircular for power, triangular for fierce rites (Gyurme
+ * Dorje, *Tibetan Elemental Divination Paintings*, 2001, glossary: burnt
+ * offerings).
  */
 object CueGlyphs {
     val FAMILY: Map<ActivityFamily, CueGlyph> = mapOf(
@@ -45,20 +49,31 @@ object CueGlyphs {
         ActivityFamily.EARTH to CueGlyph("M 3 19 H 21 M 7 19 A 5 4 0 0 1 17 19 M 6 6 L 10 14 M 8 15 L 12 13 L 12 18 Z M 5 6.5 L 7 5.5 M 5 6.5 Q 4.5 3 7 5.5"),
         ActivityFamily.WELL to CueGlyph("M8 5v14M16 5v14M5 8h14M5 16h14M9.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M9.5 12q2.5-3 5 0"),
         ActivityFamily.FIELD to CueGlyph("M4.5 20.5h15M12 20.5V11c0-3.6 2.2-6 5-6c1.9 0 3 1.4 3 3.2M9.5 20.5c-.4-3.6-1.8-6.5-4.5-8.6M14.5 20.5c.3-2.5 1.2-4.6 2.8-6.3", dots = listOf(Offset(13.2f, 7.0f), Offset(15.1f, 4.3f), Offset(17.8f, 3.6f), Offset(20.3f, 4.6f), Offset(21.2f, 6.6f))),
+        ActivityFamily.LIVESTOCK to CueGlyph("M8.5 20.5H6C3 15 4 3.5 12 3.5S21 15 18 20.5H15.5L15 19C17 14.5 16 7.5 12 7.5S7 14.5 9 19Z", dots = listOf(Offset(6.4f, 10.0f), Offset(6.2f, 14.5f), Offset(17.6f, 10.0f), Offset(17.8f, 14.5f))),
         ActivityFamily.TRADE to CueGlyph("M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0M9 9h6v6h-6z"),
         ActivityFamily.AGREEMENT to CueGlyph("M5 4h14v16H5zM8 8h8M8 12h8M13 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"),
+        ActivityFamily.DISPUTE to CueGlyph("M2.5 12H9.5M6.5 9L9.5 12L6.5 15M21.5 12H14.5M17.5 9L14.5 12L17.5 15M12 4.5V7.5M12 16.5V19.5"),
+        ActivityFamily.AUTHORITY to CueGlyph("M7 13V5.5Q12 2 17 5.5V13M5 13H19M6 13V20M18 13V20M6 16.5H18M3.5 20.5H20.5"),
         ActivityFamily.BEGINNING to CueGlyph("M6 4v16M18 4v16M6 4h12M6 5l8 2v10l-8 2"),
         ActivityFamily.LEARNING to CueGlyph("M12 5Q7 3 4 7v11Q7 16 12 18M12 5Q17 3 20 7v11Q17 16 12 18M12 5v13"),
         ActivityFamily.MEDICINE to CueGlyph("M10 4h4M10 4C9 4 7 7 9 10c1 2-4 3-4 7c0 3 4 4 7 4M14 4c1 0 3 3 1 6c-1 2 4 3 4 7c0 3-4 4-7 4M8 10.5h8"),
         ActivityFamily.FUNERAL to CueGlyph("M7 18h10M5 20h14M9 18V6q3-2 6 0v12M12 18v-4M12 13q2-2 0-4"),
         ActivityFamily.SHRINE to CueGlyph("M3 5q9 2 18 0M4 9h16M6 20l1-14M18 20l-1-14M12 6v3"),
         ActivityFamily.PRAYER to CueGlyph("M 12 16 L 10.5 20.5 M 12 16 L 13.5 20.5", dots = listOf(Offset(12f, 3f), Offset(15.5f, 4.1f), Offset(17.7f, 7.1f), Offset(17.7f, 10.9f), Offset(15.5f, 13.9f), Offset(12f, 15f), Offset(8.5f, 13.9f), Offset(6.3f, 10.9f), Offset(6.3f, 7.1f), Offset(8.5f, 4.1f))),
+        ActivityFamily.VOWS to CueGlyph("M4 11H20M4.5 11C4.5 16.5 8 19.5 12 19.5C16 19.5 19.5 16.5 19.5 11M6.5 11C6.5 7.5 17.5 7.5 17.5 11M12 7.8V5.5M9.5 19.2L9 21H15L14.5 19.2"),
+        ActivityFamily.OFFERING to CueGlyph("M5.5 10H18.5Q18 15 12 15Q6 15 5.5 10ZM12 15V18.5M8 20.5Q12 17.5 16 20.5ZM12 8C10.4 6.6 10.6 4.8 12 2.5C13.4 4.8 13.6 6.6 12 8Z"),
         ActivityFamily.SACRED to CueGlyph("M7 18h10v3H7zM8 18c0-8 8-8 8 0M12 12V4M10 10h4M10 8h4M10 6h4"),
-        ActivityFamily.RITE to CueGlyph("M 12 10 A 2 2 0 0 0 12 14 A 2 2 0 0 0 12 10 M 14 12 L 21 12 M 14 12 Q 17.5 6 21 12 M 14 12 Q 17.5 18 21 12 M 10 12 L 3 12 M 10 12 Q 6.5 6 3 12 M 10 12 Q 6.5 18 3 12"),
+        ActivityFamily.RITE to CueGlyph("M10.5 12a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0M9 9.5H15M9 14.5H15M12 9.5V3M9.5 9.5C7.5 7.5 9 4.5 12 3M14.5 9.5C16.5 7.5 15 4.5 12 3M12 14.5V21M9.5 14.5C7.5 16.5 9 19.5 12 21M14.5 14.5C16.5 16.5 15 19.5 12 21"),
+        ActivityFamily.PACIFYING to CueGlyph("M4 13a8 8 0 1 0 16 0a8 8 0 1 0 -16 0M12 17c-1.6-1.5-1.6-3.6 0-6c1.6 2.4 1.6 4.5 0 6z"),
+        ActivityFamily.INCREASING to CueGlyph("M4.5 5.5h15v15h-15zM12 17c-1.6-1.5-1.6-3.6 0-6c1.6 2.4 1.6 4.5 0 6z"),
+        ActivityFamily.CONTROLLING to CueGlyph("M3.5 19.5A8.5 8.5 0 0 1 20.5 19.5ZM12 18c-1.6-1.5-1.6-3.6 0-6c1.6 2.4 1.6 4.5 0 6z"),
+        ActivityFamily.DESTROYING to CueGlyph("M12 3.5L21 19.5H3ZM12 18c-1.4-1.3-1.4-3.2 0-5.3c1.4 2.1 1.4 4 0 5.3z"),
         ActivityFamily.CLOTHES to CueGlyph("M12 21H6v-11H3V5l7-2M12 21h6v-11h3V5l-7-2M14 3L8 10M10 3l1.5 1.8M6 13h12M6 16h12"),
         ActivityFamily.HAIRCUT to CueGlyph("M7 4l7 11M13 17a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M17 4l-7 11M6 17a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0", dots = listOf(Offset(12f, 11.3f))),
+        ActivityFamily.BATHING to CueGlyph("M9.5 9C6 11 6 18 9 20H15C18 18 18 11 14.5 9ZM10 9L10.5 5H13.5L14 9M9.5 5H14.5M7.5 12.5L3.5 8.5M16.5 11.5C20 11.5 20 16.5 17 17", dots = listOf(Offset(3.5f, 11.5f), Offset(4.5f, 14.5f))),
         ActivityFamily.NAME to CueGlyph("M8 6h8v14H8zM12 6V3M10 10h4M10 14h4"),
         ActivityFamily.HOUSEHOLD to CueGlyph("M12 3v10M12 13q4 3 4 8H8q0-5 4-8M10 17v4M14 17v4"),
+        ActivityFamily.KIN to CueGlyph("M5.5 6a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M3.5 20.5V14C3.5 11 5.5 9.5 8 9.5S12.5 11 12.5 14V20.5M14.5 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0M13.5 20.5V16.5C13.5 14.8 14.8 14 16.5 14S19.5 14.8 19.5 16.5V20.5M2.5 20.5H21.5"),
         ActivityFamily.BLADE to CueGlyph("M5 19l2 2l4-4l-2-2zM8 14l4 4M10 16L19 7M9 15Q13 9 19 7"),
         ActivityFamily.FIRE to CueGlyph("M7 19l10-4M7 15l10 4M12 15q-3-6 0-12q3 6 0 12M8 16q-3-4 0-8q2 4 0 8M16 16q3-4 0-8q-2 4 0 8"),
         ActivityFamily.CONDUCT to CueGlyph("M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0M12 7v9M12 8l-5 5l5 2l5-2l-5-5M6 17q6-2 12 0q-6 4-12 0"),

@@ -280,6 +280,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = greatCombinationSubtitle,
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to greatScript),
+                    diagram = { CombinationTable(day.weekday, day.mansion) },
                 ),
             )
             val pair = day.elementPair
@@ -321,6 +322,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 Annotation(
                     nectarTitle, nectarSubtitle, Tone.GOOD, Texts.NECTAR_PERIODS, titleIsKanji = false,
                     details = listOf(nectarTitle to "${Ewts.toTibetan("bdud rtsi thun mtshams")} (bdud rtsi thun mtshams)"),
+                    glyphs = { NectarDial(nectarHours(day.weekday), 24.dp, small = true) },
+                    diagram = { NectarDial(nectarHours(day.weekday), 240.dp) },
                 ),
             )
             add(
@@ -384,6 +387,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.LUNAR_DATE[day.day - 1],
                     subtitle = lunarDateSubtitle,
                     titleIsKanji = false,
+                    glyphs = { LunarDateStrip(day.day) },
+                    diagram = { LunarDateGrid(day.day) },
                 ),
             )
             add(
@@ -395,6 +400,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = karanaSubtitle,
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
+                    glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
+                    diagram = { KaranaRing(day.karana, 280.dp) },
                 ),
             )
             add(
@@ -406,6 +413,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = yogaSubtitle,
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
+                    glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
+                    diagram = { YogaRing(day.yoga, 280.dp) },
                 ),
             )
             val haircut = Texts.HAIRCUT[day.day - 1]

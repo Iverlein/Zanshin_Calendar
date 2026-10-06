@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -28,6 +29,7 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -51,10 +53,12 @@ import zanshin.core.texts.family
 private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 15.sp)
 
 /**
- * The day's summary line (SPEC §10.4): the glyphs of the activity families
- * the annotations name good and to avoid, a family in the mixed colour when
- * one of its activities is named both ways; opens [DaySummarySheet]. Screen
- * readers get the counts.
+ * The day's summary line (SPEC §10.4, §10.7). On the 旧暦 page the glyphs of
+ * the activity families the annotations name good and to avoid, a family in
+ * the mixed colour when one of its activities is named both ways; on the
+ * Tibetan page one row, the families of the heaviest works good and to avoid
+ * ([DaySummary.row]). Opens [DaySummarySheet]. Screen readers get the counts,
+ * and on the Tibetan page the works the row stands for.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -64,9 +68,15 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val dayLabel = summary.verdict?.let {
         stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) + " · " + stringResource(byShort(it.by))
     }
+    val row = remember(summary) { summary.row() }
     val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
         stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
-        if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else ""
+        (if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "") +
+        if (summary.verdict != null && row.first.size + row.second.size > 0) {
+            stringResource(R.string.brief_row_spoken, row.first.joinToString { it.activity.english }, row.second.joinToString { it.activity.english })
+        } else {
+            ""
+        }
     Row(
         Modifier
             .fillMaxWidth()
@@ -84,8 +94,12 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
                     Text(dayLabel!!, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
             }
-            FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
-            FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
+            if (summary.verdict != null) {
+                WeighedLine(summary)
+            } else {
+                FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
+                FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
+            }
         }
         Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp))
     }
@@ -99,6 +113,24 @@ private fun FamilyLine(label: String, families: List<ActivityFamily>, disputed: 
         Text(label, style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = color), modifier = Modifier.width(62.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(9.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             for (f in families) CueIcon(CueGlyphs.FAMILY.getValue(f), if (f in disputed) Palette.mixed else color, 22.dp)
+        }
+    }
+}
+
+/**
+ * The Tibetan line: one row, however many works the day names (SPEC §10.7). As
+ * many places as fit, eight at most; the heaviest good works' families, a rule,
+ * then the heaviest to avoid.
+ */
+@Composable
+private fun WeighedLine(summary: DaySummary) {
+    BoxWithConstraints {
+        val fit = ((maxWidth - 1.dp) / (22.dp + 9.dp)).toInt()
+        val (good, avoid) = remember(summary, fit) { summary.row(minOf(DaySummary.ROW_SLOTS, fit)) }
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(9.dp)) {
+            for (n in good) CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), Palette.good, 22.dp)
+            if (good.isNotEmpty() && avoid.isNotEmpty()) Box(Modifier.width(1.dp).height(16.dp).background(Palette.faint))
+            for (n in avoid) CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), Palette.bad, 22.dp)
         }
     }
 }

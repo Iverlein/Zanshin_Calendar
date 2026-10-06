@@ -25,6 +25,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -65,9 +66,14 @@ import zanshin.core.texts.DayTime
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.IndianElement
+import zanshin.core.tibetan.Karana
+import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.Trigram
+import zanshin.core.tibetan.Weekday
+import zanshin.core.tibetan.Yoga
 import kotlin.math.PI
 import kotlin.math.atan2
 import kotlin.math.cos
@@ -703,6 +709,266 @@ fun HaircutGrid(today: Int) {
             }
         }
         Caption(stringResource(R.string.haircut_day, selected, Catalog.text(Texts.HAIRCUT[selected - 1].arg!!)))
+    }
+}
+
+/** The weekdays from Sunday, as the White Beryl counts the named combinations. */
+private val WEEK = listOf(Weekday.SUNDAY, Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY, Weekday.SATURDAY)
+
+/**
+ * The named combinations of weekday and mansion as a table, weekday down
+ * from Sunday, the 27 mansions across from Aśvinī, each cell in its
+ * combination's tone; today's marked. Tapping a cell names it below.
+ */
+@Composable
+fun CombinationTable(weekday: Weekday, mansion: Mansion) {
+    var selected by remember(weekday, mansion) { mutableStateOf(weekday to mansion) }
+    val description = stringResource(R.string.desc_combination_table)
+    val measurer = rememberTextMeasurer()
+    val names = WEEK.map { it.english.take(2) }
+    Column {
+        Canvas(
+            Modifier
+                .fillMaxWidth()
+                .aspectRatio(2.1f)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val left = this.size.width * 0.08f
+                        val top = this.size.height * 0.12f
+                        val col = ((p.x - left) / ((this.size.width - left) / 27f)).toInt()
+                        val row = ((p.y - top) / ((this.size.height - top) / 7f)).toInt()
+                        if (col in 0 until 27 && row in 0 until 7) selected = WEEK[row] to Mansion.entries[col]
+                    }
+                },
+        ) {
+            val left = size.width * 0.08f
+            val top = size.height * 0.12f
+            val cw = (size.width - left) / 27f
+            val ch = (size.height - top) / 7f
+            val pad = 0.9.dp.toPx()
+            val numberStyle = body.copy(fontSize = 9.sp, color = Palette.faint)
+            for (m in listOf(1, 7, 14, 21, 27)) label(measurer, "$m", Offset(left + (m - 0.5f) * cw, top / 2), numberStyle)
+            WEEK.forEachIndexed { r, w ->
+                label(measurer, names[r], Offset(left / 2, top + (r + 0.5f) * ch), body.copy(fontSize = 10.sp, color = if (w == weekday) Palette.text else Palette.muted))
+                Mansion.entries.forEachIndexed { c, m ->
+                    val g = GreatCombination.of(w, m)
+                    val on = w == weekday && m == mansion
+                    val tl = Offset(left + c * cw + pad, top + r * ch + pad)
+                    val sz = Size(cw - 2 * pad, ch - 2 * pad)
+                    val alpha = if (on || (w to m) == selected) 1f else if (w == weekday || m == mansion) 0.6f else 0.35f
+                    drawRect((if (g.lucky) Palette.good else Palette.bad).copy(alpha = alpha), tl, sz)
+                    if (on) drawRect(Palette.saffron, Offset(tl.x - pad, tl.y - pad), Size(sz.width + 2 * pad, sz.height + 2 * pad), style = Stroke(1.6.dp.toPx()))
+                }
+            }
+        }
+        Text(stringResource(R.string.combination_table_axes), style = body.copy(fontSize = 11.sp, color = Palette.faint), modifier = Modifier.padding(top = 4.dp))
+        val (w, m) = selected
+        val g = GreatCombination.of(w, m)
+        Caption("${w.english} · ${m.sanskrit}: ${g.english} (${g.wylie}) · ${toneLabel(if (g.lucky) Tone.GOOD else Tone.BAD)}")
+    }
+}
+
+/**
+ * The day's 24 hours as a ring, midnight at the top and running clockwise as
+ * on the hours panel (SPEC §10.3), with the nectar [hours] (`nectarHours`,
+ * counted from 05:00) as arcs. The small one is a mark for the almanac row.
+ */
+@Composable
+fun NectarDial(hours: List<Int>, size: Dp, small: Boolean = false) {
+    val description = stringResource(R.string.desc_nectar_dial)
+    val measurer = rememberTextMeasurer()
+    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+        val c = center
+        val stroke = this.size.minDimension * if (small) 0.16f else 0.08f
+        val r = this.size.minDimension / 2 - stroke / 2 - (if (small) 0.5f else 22f).dp.toPx()
+        fun bearing(clock: Int) = clock * 15f
+        arcStroke(c, r, 0f, 360f, Palette.off, stroke)
+        for (h in hours) {
+            val clock = (5 + h) % 24
+            arcStroke(c, r, bearing(clock) + 0.6f, bearing(clock + 1) - 0.6f, Palette.saffron, stroke)
+        }
+        if (!small) {
+            for (clock in 0 until 24) {
+                val outer = polar(c, r + stroke / 2 + 3.dp.toPx(), bearing(clock))
+                val inner = polar(c, r + stroke / 2 + (if (clock % 6 == 0) 9 else 6).dp.toPx(), bearing(clock))
+                drawLine(Palette.lineStrong, outer, inner, 1.dp.toPx())
+            }
+            for (clock in listOf(0, 6, 12, 18)) {
+                label(measurer, "%02d".format(clock), polar(c, r - stroke / 2 - 14.dp.toPx(), bearing(clock)), body.copy(fontSize = 12.sp, color = Palette.muted))
+            }
+        }
+    }
+}
+
+/**
+ * The lunar date's class: five marks for Nandā … Pūrṇā, today's filled in
+ * its tone. A mark for the almanac row.
+ */
+@Composable
+fun LunarDateStrip(date: Int) {
+    val today = LunarDayClass.of(date)
+    Canvas(Modifier.size(40.dp, 12.dp)) {
+        val w = (size.width - 4 * 2.dp.toPx()) / 5f
+        LunarDayClass.entries.forEachIndexed { i, k ->
+            val tl = Offset(i * (w + 2.dp.toPx()), size.height * 0.2f)
+            val sz = Size(w, size.height * 0.6f)
+            if (k == today) {
+                drawRect(toneColor(Texts.lunarDateTone(date)), Offset(tl.x, 0f), Size(w, size.height))
+            } else {
+                drawRect(Palette.off, tl, sz)
+            }
+        }
+    }
+}
+
+/**
+ * The thirty lunar dates in the columns of their five classes, each with
+ * its tone, [today] marked; tapping a date names it below.
+ */
+@Composable
+fun LunarDateGrid(today: Int) {
+    var selected by remember(today) { mutableIntStateOf(today) }
+    Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
+        Text(stringResource(R.string.desc_lunar_dates), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+        Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+            LunarDayClass.entries.forEach { k ->
+                Text(
+                    k.sanskrit,
+                    style = body.copy(fontSize = 12.sp, color = if (k == LunarDayClass.of(today)) Palette.text else Palette.muted, textAlign = TextAlign.Center),
+                    modifier = Modifier.weight(1f),
+                )
+            }
+        }
+        for (row in 0 until 6) {
+            Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                for (col in 0 until 5) {
+                    val d = row * 5 + col + 1
+                    val on = d == today
+                    Column(
+                        Modifier
+                            .weight(1f)
+                            .height(40.dp)
+                            .background(if (d == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
+                            .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                            .clickable(role = Role.Button) { selected = d },
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center,
+                    ) {
+                        Text("$d", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
+                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(toneColor(Texts.lunarDateTone(d)), CircleShape))
+                    }
+                }
+            }
+        }
+        val k = LunarDayClass.of(selected)
+        Caption(stringResource(R.string.lunar_date_cell, selected, k.sanskrit, k.english, toneLabel(Texts.lunarDateTone(selected))))
+    }
+}
+
+/** The karaṇas in the order of a month's half-days: Kiṃstughna first, the seven moving ones, the last three fixed. */
+private val KARANA_RING = listOf(Karana.KIMSTUGHNA) + Karana.entries.take(7) + listOf(Karana.SHAKUNI, Karana.CATUSHPADA, Karana.NAGA)
+
+/**
+ * A ring of [n] cells from the top, [today] marked, each with a tone dot;
+ * the large one names the cell tapped in its centre through [centre], the
+ * small one is a mark for a row. [arc] draws a line inside the cells it spans.
+ * The centre's note may take two lines.
+ */
+@Composable
+private fun CellRing(
+    n: Int,
+    today: Int,
+    size: Dp,
+    small: Boolean,
+    description: String,
+    tone: (Int) -> Tone,
+    arc: IntRange? = null,
+    centre: @Composable (Int) -> Triple<String, String?, String>,
+) {
+    var selected by remember(today) { mutableIntStateOf(today) }
+    val measurer = rememberTextMeasurer()
+    val step = 360f / n
+    val (name, wylie, note) = centre(selected)
+    val script = remember(wylie) { wylie?.let { Ewts.toTibetan(it) } }
+    Canvas(
+        Modifier
+            .size(size)
+            .semantics { contentDescription = description }
+            .then(
+                if (small) {
+                    Modifier
+                } else {
+                    Modifier.pointerInput(n) {
+                        detectTapGestures { p ->
+                            val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                            if (hypot(p.x - c.x, p.y - c.y) > this.size.width * 0.3f) selected = (bearingOf(c, p) / step).toInt() % n
+                        }
+                    }
+                },
+            ),
+    ) {
+        val c = center
+        val r1 = this.size.minDimension / 2 - (if (small) 0.5f else 2f).dp.toPx()
+        val r0 = if (small) r1 * 0.55f else r1 * 0.8f
+        val gap = if (small) 1.5f else 0.7f
+        for (i in 0 until n) {
+            val on = i == today
+            val path = sector(c, r0, r1, i * step + gap, (i + 1) * step - gap)
+            if (small) {
+                if (on) drawPath(sector(c, r0 * 0.7f, r1, i * step - 2f, (i + 1) * step + 2f), Palette.saffron) else drawPath(path, Palette.off)
+            } else {
+                drawPath(path, if (i == selected) Palette.raised else Palette.surface)
+                drawPath(path, if (on) Palette.saffron else Palette.lineStrong, style = Stroke((if (on) 1.6f else 0.8f).dp.toPx()))
+                label(measurer, "${i + 1}", polar(c, r0 + (r1 - r0) * 0.38f, (i + 0.5f) * step), body.copy(fontSize = 10.sp, fontWeight = FontWeight.SemiBold, color = if (on) Palette.saffron else Palette.faint))
+                drawCircle(toneColor(tone(i)), 2.4.dp.toPx(), polar(c, r0 + (r1 - r0) * 0.75f, (i + 0.5f) * step))
+            }
+        }
+        if (!small) {
+            arc?.let { arcStroke(c, r0 - 5.dp.toPx(), it.first * step + 2f, (it.last + 1) * step - 2f, Palette.lineStrong, 1.5.dp.toPx(), StrokeCap.Round) }
+            label(measurer, name, Offset(c.x, c.y - r1 * 0.22f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
+            label(measurer, script ?: wylie.orEmpty(), c, if (script != null) tibetanStyle(18.sp) else body.copy(fontSize = 16.sp))
+            label(measurer, note, Offset(c.x, c.y + r1 * 0.28f), body.copy(fontSize = 12.sp, lineHeight = 15.sp, color = Palette.faint, textAlign = TextAlign.Center))
+        }
+    }
+}
+
+/**
+ * The eleven karaṇas in the order a month runs through them: Kiṃstughna on
+ * the first half-day, the seven moving ones eight times over (the line inside
+ * them), the last three fixed; [today] marked.
+ */
+@Composable
+fun KaranaRing(today: Karana, size: Dp, small: Boolean = false) {
+    val moving = stringResource(R.string.karana_moving)
+    val fixed = stringResource(R.string.karana_fixed)
+    CellRing(
+        n = 11,
+        today = KARANA_RING.indexOf(today),
+        size = size,
+        small = small,
+        description = stringResource(R.string.desc_karana_ring, today.sanskrit),
+        tone = { Texts.KARANA_TONE.getValue(KARANA_RING[it]) },
+        arc = 1..7,
+    ) { i ->
+        val k = KARANA_RING[i]
+        Triple(k.sanskrit, k.wylie, "${k.english}\n${if (i in 1..7) moving else fixed}")
+    }
+}
+
+/** The 27 yogas as a ring from Viṣkambha at the top, each with its tone, [today] marked. */
+@Composable
+fun YogaRing(today: Yoga, size: Dp, small: Boolean = false) {
+    CellRing(
+        n = 27,
+        today = today.ordinal,
+        size = size,
+        small = small,
+        description = stringResource(R.string.desc_yoga_ring, today.sanskrit),
+        tone = { Texts.YOGA_TONE.getValue(Yoga.entries[it]) },
+    ) { i ->
+        val y = Yoga.entries[i]
+        Triple(y.sanskrit, y.wylie, "${y.english} · ${toneLabel(Texts.YOGA_TONE.getValue(y))}")
     }
 }
 

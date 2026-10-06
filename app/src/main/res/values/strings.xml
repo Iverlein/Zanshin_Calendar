@@ -374,6 +374,8 @@
     <string name="brief_good">good</string>
     <!-- label before the glyphs of what to avoid -->
     <string name="brief_avoid">avoid</string>
+    <!-- spoken after the counts on the Tibetan summary line: the works its glyphs stand for, heaviest first -->
+    <string name="brief_row_spoken">. Most of all good for %1$s; first to avoid %2$s</string>
     <string name="section_stars">九星 · Nine stars</string>
     <string name="row_day_star">Day star</string>
     <!-- describes the rokuyō day arc for screen readers -->
@@ -403,6 +405,17 @@
     <string name="haircut_days">The thirty lunar days</string>
     <!-- a lunar day and what cutting hair on it brings -->
     <string name="haircut_day">Day %1$d: %2$s</string>
+    <!-- V3 diagrams of the Tibetan rows (SPEC §10.7) -->
+    <string name="desc_combination_table">The 28 named combinations of weekday and mansion, today\'s marked</string>
+    <string name="combination_table_axes">Rows: the weekday · columns: the mansion, Aśvinī first</string>
+    <string name="desc_nectar_dial">The day\'s hours, midnight at the top, with the nectar periods</string>
+    <string name="desc_lunar_dates">The thirty lunar dates in their five classes</string>
+    <!-- a lunar date in the sheet's grid: the date, its class in Sanskrit and English, its tone -->
+    <string name="lunar_date_cell">Day %1$d: %2$s (%3$s) · %4$s</string>
+    <string name="desc_karana_ring">The eleven karaṇas, %1$s marked</string>
+    <string name="karana_moving">moving, eight times a month</string>
+    <string name="karana_fixed">fixed, once a month</string>
+    <string name="desc_yoga_ring">The 27 yogas, %1$s marked</string>
     <!-- describes the square of the nine numbers for screen readers -->
     <string name="desc_sme_ba">The nine numbers in their square, %1$d marked</string>
     <string name="desc_moved_sme_ba">The square of nine with %1$d in the middle, the seven-red outlined</string>
