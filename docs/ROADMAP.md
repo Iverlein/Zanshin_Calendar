@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it contradicts itself (the haircut row against the brief on half of all days), shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below | Owner's decisions on T2.1, T2.7 and T2.8; for T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it contradicts itself (the haircut row against the brief on half of all days), shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -44,20 +44,22 @@ Each item is done when its code has tests, SPEC is changed with it, both
 pages and the sheets it touches are checked on the emulator in English and
 Russian, and the release build is checked before the next tag (SPEC §12).
 
-#### T2.1 The haircut row and the brief — S, owner's decision
+#### T2.1 The haircut row, weighed — S
 
 - **Gap.** The Almanac's Haircut row shows FPMT's day for the date, with
   its dot; the brief weighs haircuts by the strongest factor that names
   them. KP box 52a names all seven weekdays for cutting hair and nails, so
   the weekday decides haircuts on every day (all 18,263) and the date's
-  lists, FPMT's among them, never do. The row and the brief disagree on 9,217 days
-  (50.5 %).
+  lists, FPMT's among them, never do. The row and the brief disagree on
+  9,217 days (50.5 %).
+- **Decided** (owner, 2026-10-06): the row is weighed as the White Beryl
+  says, by the rule the brief already follows (SPEC §5.12; WB vol. 2,
+  p. 333 for the combination, p. 376 for the order of strength).
 - **Work.** The row takes its dot and its subtitle from the weighed
-  haircut ("good, by Tuesday"); its sheet keeps FPMT's reading and the
-  thirty-day grid as the date's own list, marked outweighed on the days it
-  is. Alternative: the row stays FPMT's, without a dot, titled as the
-  date's list. A test that the row and the brief agree on every day.
-- **Decision.** Which of the two (recommended: the weighed row).
+  haircut ("good, by Tuesday"), and names the factor that decided it; its
+  sheet keeps FPMT's reading and the thirty-day grid as the date's own
+  list, marked outweighed on the days it is. SPEC §10.3 changed with it. A test that the row
+  and the brief agree on every day of 2000–2049.
 
 #### T2.2 Rāhu's compass — S
 
@@ -182,7 +184,7 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 
 #### Order
 
-1. T2.1 and T2.2 (small, visible every day).
+1. T2.1 and T2.2 (small, visible every day; T2.1 decided).
 2. T2.3 and T2.4, the display halves (small, close the brief's silence).
 3. T2.7 and T2.8, after the owner's decisions.
 4. T2.5, then T2.6 (the reading; each ends with a build).
