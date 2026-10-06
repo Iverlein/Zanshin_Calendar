@@ -944,9 +944,10 @@ canvas "Zanshin Calendar — basic design".
   yoga (§5.11); then the haircut, weighed as §5.12 weighs every work: its
   dot is the side the brief gives haircuts and its subtitle names the
   factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
-  so on every day of 2000–2049 it is the weekday). Its sheet says so and
-  shows FPMT's day for the date as one of the date's lists, with the thirty
-  days, marked outweighed on the days it is (decided by the owner,
+  so on every day of 2000–2049 it is the weekday). Its sheet says so,
+  shows the days of the Tibetan month with the side the weighing gives
+  haircuts on each, and gives FPMT's day for the date as one of the date's
+  lists, marked outweighed on the days it is (decided by the owner,
   2026-10-06); then the five components
   (weekday, mansion, karaṇa, yoga) and the lunar-day cycles as tappable
   terms, the date's animal (*nyi ma*) opening its earth lords and the
@@ -1153,7 +1154,10 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
 - **Tibetan page.** Element pair: the two elements on its row, and in its
   sheet the table of the ten pairs, weekday down, mansion across. Lunar
   mansion: a small ring of 27 on its row, the full ring in its sheet. Haircut:
-  scissors on its row, the thirty lunar days with FPMT's tones in its sheet.
+  scissors on its row; in its sheet the days of the Tibetan month, one cell
+  per civil day (a doubled date twice, a skipped one not at all), each dot
+  the weighed side for haircuts, the caption naming the day's civil date
+  and deciding factor.
   Trigram: drawn as its three lines. Named combination: in its sheet the
   table of the 28, weekday down from Sunday, the 27 mansions across, each
   cell in its tone, today's marked. Nectar periods: the 24 hours as a ring,
