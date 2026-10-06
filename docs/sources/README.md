@@ -9,7 +9,7 @@ be read, and why, in the work plan of [ROADMAP.md](../ROADMAP.md) (T2).
 
 | File | Topic | Roadmap | State |
 | --- | --- | --- | --- |
-| [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings | T3 | Settled: read on the scan, checked against two other texts, Rabten and KP's table (img. 85) |
+| [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings; the mansions and weekdays by element (p. 330, tables pp. 345–346) and the works on one's own days (pp. 337–338) | T3, T2.3 | Settled: read on the scan, checked against two other texts, Rabten and KP's table (img. 85); by element and the works read on the scan 2026-10-06, not built (open question 14) |
 | [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; the ranking counted from sel ba, its 18 and རང་སྐྱེས unexplained in any source (question 1); sha 'khon's variants traced (question 8) |
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, no syllable left unread (date 25's སྒབ read but not identified); illness and remedy lines summarized only; all four *bla gnas* systems written out |
@@ -27,7 +27,7 @@ be read, and why, in the work plan of [ROADMAP.md](../ROADMAP.md) (T2).
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Thirteen questions, all answered; of 1, the 18th and the line with རང་སྐྱེས have no reading in any source found |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Fourteen questions; 1–13 answered, of 1 the 18th and the line with རང་སྐྱེས have no reading in any source found; 14 (a person's own weekdays and mansions by element) open |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).

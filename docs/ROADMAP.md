@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below, T2.1 and T2.2 built | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below, T2.1–T2.3 built | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -31,8 +31,8 @@ with the one that gives it a use. "Later" is not ranked.
 ### T2. The Tibetan page's gaps: work plan
 
 The page's readings are built (SPEC §5.8–5.13, the texts in
-[sources/](sources/README.md)) and the thirteen questions for a reader are
-answered ([open-questions.md](sources/open-questions.md)). Reviewed on
+[sources/](sources/README.md)) and thirteen of the fourteen questions for
+a reader are answered ([open-questions.md](sources/open-questions.md)). Reviewed on
 2026-10-06, what is left are places where the page contradicts itself,
 shows a factor it does not weigh, or rests on a thin or machine-read
 source. Numbers are over 2000–2049 (18,263 days) on the code of that day.
@@ -48,23 +48,13 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 
 #### T2.2 Rāhu's compass — built 2026-10-06 (SPEC §10.7)
 
-#### T2.3 The person's own days — S, then M
+#### T2.3 The person's own days — built 2026-10-06 (SPEC §5.12, §10.3)
 
-- **Gap.** The Almanac shows the person's luck, life and anti days (by
-  weekday) and the six personal mansions with their tones; the brief leaves them
-  out. WB's verse on weighing says a particular case (*dmigs bsal*) leads,
-  and Tshul khrims rgyal mtshan names a person's own weekdays and mansions
-  as one (KD vol. 1, pp. 498–499); no text found places them against the
-  combination of weekday and mansion (SPEC §5.12).
-- **Work, S.** The Tibetan brief gets a "For you" block, as the 旧暦 brief
-  has: the day's personal days and mansions with their tones, said to be
-  shown, not weighed.
-- **Work, M (reading).** WB pp. 337–338 (img. 345–346): the personal
-  weekdays (*srog gza'*, *bla gza'*) and what to do on them; pp. 345–346
-  (img. 353–354): the *bla skar*, *dur skar* and *srog skar* by element,
-  against p. 330. Written into [personal-mansions.md](sources/personal-mansions.md).
-- **Build only if** a text ranks them among the day's factors; otherwise
-  the block stays as it is.
+The brief's "For you" block, shown and not weighed; WB pp. 337–338 and
+345–346 read into [personal-mansions.md](sources/personal-mansions.md). WB
+calls a person's own days "of particular importance" but ranks them
+against nothing, so the weighing stays as it is. The reckoning by element
+and the birth weekday and mansion wait for open question 14.
 
 #### T2.4 The hours above the day — S, then M
 
@@ -160,11 +150,11 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 
 #### Order
 
-1. T2.1 and T2.2 are built.
-2. T2.3 and T2.4, the display halves (small, close the brief's silence).
+1. T2.1, T2.2 and T2.3 are built.
+2. T2.4, the display half (small, closes the brief's silence on the hours).
 3. T2.7 and T2.8, after the owner's decisions.
 4. T2.5, then T2.6 (the reading; each ends with a build).
-5. The reading halves of T2.3 and T2.4, and T2.9, as the scans allow.
+5. The reading half of T2.4, and T2.9, as the scans allow.
 
 #### Not planned
 

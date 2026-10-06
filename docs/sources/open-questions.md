@@ -176,3 +176,20 @@ the text, not about the app.
     the first and lets the special days stand in their own rank (SPEC
     §5.12); until 2026-10-06 it read the second, which decided the tone on
     a fifth of all days.
+14. **A person's own weekdays and mansions by element (WB pp. 330,
+    337–338, 345–346).** The verse at the head of p. 330 and the tables of
+    pp. 345–346 give the bla, mother, friend, child and enemy mansions and
+    weekdays by a person's element, the tables naming the elements by the
+    five tones (ཀེག་ཤིང, ཇི་མེ, ཀུངས་ས, ཤང་ལྕགས, འུ་ཆུ, «…ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན»).
+    Which of a person's elements is that «ཁམས»: the life force (*srog*),
+    the body (*lus*), or one known from something other than the birth
+    date? The verse goes on «དེ་ལྟར་སྲོག་ལ་བརྩི་ཡང་འདྲེ།»: is འདྲེ to be read
+    འདྲ, "reckoned by the life force it is the same", or as printed?
+    And p. 338, «སྐྱེས་གཟའ་རང་གཟའ་བླ་ཡི་གཟར།»: are the birth weekday, own
+    weekday and bla weekday three weekdays or one, and is the birth
+    mansion («སྐྱེས་པའི་སྐར་མ») the moon's mansion on the day of birth? The
+    passage calls them «ཁྱད་པར་གཅེས་པ», of particular importance, and gives
+    no rule against the combination of weekday and mansion; the app lists
+    the bla gza' and the six mansions by animal apart from the weighing
+    (SPEC §5.12) ([personal-mansions.md](personal-mansions.md), "By
+    element" and "Works on one's own days").

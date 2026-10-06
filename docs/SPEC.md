@@ -530,7 +530,11 @@ voices, so that the tone and the lists cannot go separate ways.
   their do's and don'ts "matter somewhat", "the individual results of
   planet and mansion are the main thing"). The person's own weekdays and
   mansions, which a later reader counts as a *dmigs bsal* above the rest,
-  are not weighed: the texts do not place them against the combination.
+  are not weighed: the White Beryl calls them "of particular importance"
+  (*khyad par gces pa*, vol. 2, p. 338), and neither it nor any other text
+  found places them against the combination
+  ([sources/personal-mansions.md](sources/personal-mansions.md), open
+  question 14). The day in brief lists them apart, under "For you".
 - **The day in brief** names the tone and what decided it (the
   combination or the strongest factor), lists the voices that took
   that side, and gives each work with the voices that carry it, in rank
@@ -934,7 +938,11 @@ canvas "Zanshin Calendar — basic design".
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination"); it opens the tone with its
   reason, the voices of that tone and each activity with the voices that
-  carry it; nothing outweighed is shown.
+  carry it; nothing outweighed is shown. With a birth date set, a "For
+  you" block lists the day's personal day and personal mansions (§5.8)
+  with their dots, each over the factor it is ("Luck day" over "Sunday,
+  for your birth year"), and one sentence that they are shown, not weighed
+  (§5.12).
 - **Almanac:** monthly observance, personal day, personal mansion (§5.8,
   on the days the mansion is one of one's six); the festival is the
   headline and opens its reading from there, so the Almanac does not

@@ -219,3 +219,119 @@ Nothing in it is new to the app's readings.
 | Pig | 1 bra nye | 7 rgyal | 10 gre | 25 khrums smad | 2 smin drug | 11 dbo | Wed | Tue | Sat |
 
 Berzin's "btub skar" is the bdud skar of all three texts.
+
+## By element: WB p. 330, with its tables pp. 345–346
+
+The verse before the table by animal (p. 330, img. 338, read on the scan
+on 2026-10-06) gives a second reckoning, by the person's element:
+
+> ད་ནི་བླ་སྐར་ཞེས་བྱ་བ། །ཀེག་ནི་བླ་སྐར་ཤར་སྐར་དྲུག །ཁྱད་པར་བ་ནི་མགོ(༤)ལག(༥)གཉིས། །དེ་བཞིན་མེ་ཁམས་ལྷོ་སྐར་དྲུག །ཁྱད་པར(༡༡)དབོ་དང་མེ(༡༢)བཞིའོ། །ལྕགས་ཁམས་ནུབ་སྐར་དྲུག་ཡིན་ཏེ། །ཁྱད་པར་ཆུ་སྟོད(༡༩)ཆུ་སྨད(༢༠)གཉིས། །ཆུ་ཁམས་བྱང་སྐར་དྲུག་ཡིན་ཏེ། །ཁྱད་པར་བ་ནི་ཁྲུམས་སྟོད(༢༤)སྨད(༢༥)།། ས་ཁམས་མཚམས་སྐར་བཞི་ཡིན་ཏེ། །ཁྱད་པར་བ་ནི་ས་གའོ(༡༥)། །གཞན་ཡང་ཤིང་ཁམས་དཔེར་བརྗོད་ན། །བྱང་སྐར་མ་དང་མཚམས་སྐར་གྲོགས། །ནུབ་སྐར་དགྲ་ལ་ལྷོ་སྐར་བུ། །དེ་ལ་རང་རང་ཁྱད་པར་བརྩི། །དུར་སྐར་ས་ག་ཆེ་བ་སྟེ། །ཆུང་བ་བྲ་ཉེ་བཞིན་དུ་ཤེས། །དེ་ལྟར་སྲོག་ལ་བརྩི་ཡང་འདྲེ། །བླ་གཟའ་མ་གྲོགས་བུ་དགྲ་རྣམས། །སྐར་མ་བཞིན་དུ་ཤེས་པར་བྱ། །ཀླུང་རྟའི་ཁམས་ཀྱི་དར་གཟའ་ཡང་། །ཤིང་ལ་མིག་དམར་དེ་བཞིན་ཤེས། །
+
+In English: for wood (*keg*) the bla skar are the six eastern mansions,
+above all mgo (4) and lag (5); for fire the six southern, above all dbo
+(11) and me bzhi (12); for iron the six western, above all chu stod (19)
+and chu smad (20); for water the six northern, above all khrums stod
+(24) and smad (25); for earth the four mansions between, above all sa ga
+(15). Taking wood as the example, the northern mansions are its mother,
+those between its friend, the western its enemy and the southern its
+child; each element is counted so. The great grave mansion (*dur skar*)
+is sa ga, the small bra nye. Reckoned by the life force (*srog*) it is
+«འདྲེ» (as printed; open question 14). The bla, mother, friend, child and
+enemy weekdays are known as the mansions are, and the strong weekday of
+the wind horse's element, for wood, is Tuesday.
+
+The tables follow on pp. 345–346 (img. 353–354), read cell by cell on the
+scan at three times the size. Their headings name the five elements by
+the Chinese five tones: ཀེག་ཤིང (wood), ཇི་མེ (fire), ཀུངས་ས (earth),
+ཤང་ལྕགས (iron), འུ་ཆུ (water), each «…ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན», and the
+columns are «རང་ངམ་དབང་སྐར་རམ་བླ་སྐར» (own, power or bla mansion), མ་སྐར,
+གྲོགས་སྐར, བུ་སྐར, དགྲ་སྐར, དུར་སྐར་ཆེ་བ and དུར་སྐར་ཆུང་བ. Mansions by number:
+
+| Element | own (bla) | mother | friend | child | enemy | dur, great | dur, small |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| wood | 2–7 | 22–26, 0 | 1, 8, 15, 21 | 9–14 | 16–21 | 15 | 1 |
+| fire | 9–14 | 2–7 | 16–21 | 1, 8, 15, 21 | 22–26, 0 | 21 | 8 |
+| earth | 1, 8, 15, 21 | 9–14 | 22–26, 0 | 16–21 | 2–7 | 8 | 21 |
+| iron | 16–21 | 1, 8, 15, 21 | 2–7 | 22–26, 0 | 9–14 | 1 | 15 |
+| water | 22–26, 0 | 16–21 | 9–14 | 2–7 | 1, 8, 15, 21 | 8 | 21 |
+
+Every row is the verse's rule with the usual relations of the elements
+(mother: water → wood → fire → earth → iron → water; friend, the element
+one overcomes; enemy, the one that overcomes it). The western six are
+printed 16–21, so 21 (gro bzhin) stands both there and among the four of
+earth, in every table where both appear. Only wood's grave mansions are in
+the verse; the others are the tables'.
+
+The weekday table (p. 346, «གཟའི་བླ་གཟའ་སོགས་ངོས་འཛིན», weekdays from
+Saturday = 0):
+
+| Element | bla, power or own | mother | friend | child | enemy |
+| --- | --- | --- | --- | --- | --- |
+| wood | 5 Thu | 2, 4 Mon, Wed | 0 Sat | 1, 3 Sun, Tue | 6 Fri |
+| fire | 1, 3 Sun, Tue | 5 Thu | 6 Fri | 0 Sat | 2, 4 Mon, Wed |
+| earth | 0 Sat | 1, 3 Sun, Tue | 2, 4 Mon, Wed | 6 Fri | 5 Thu |
+| iron | 6 Fri | 0 Sat | 5 Thu | 2, 4 Mon, Wed | 1, 3 Sun, Tue |
+| water | 2, 4 Mon, Wed | 6 Fri | 1, 3 Sun, Tue | 5 Thu | 0 Sat |
+
+These are the weekdays' own elements in the nag rtsis (vol. 1, p. 257,
+above), counted by the same relations. A last row, «ཀླུང་གི་དར་གཟའ», has
+four cells set across the columns: 3 (Tue), 5 (Thu), 0 (Sat), 2 (Mon);
+the first is wood's Tuesday of the verse, the others are read in the order
+printed.
+
+**Against the table by animal.** The two reckonings are different things:
+the one by animal names six single mansions and three weekdays, the one
+by element a quarter of the sky and a weekday per relation. The app has
+the first. It cannot calculate the second until it is known which of a
+person's elements the tables' «ཁམས» is (open question 14): the verse says
+only that reckoning by the life force is «འདྲེ».
+
+## Works on one's own days: WB pp. 337–338
+
+At the end of the special days, after the lines on their weight («…རྣམས་ཀྱི་
+འབྲས་བུ་ཅུང་ཟད་གཅེས། །དེ་ཡང་གཟའ་སྐར་སོ་སོ་ཡི། །སྒེར་གྱི་འབྲས་བུ་གཙོ་བས་ཞིབ།», p. 337,
+[combinations.md](combinations.md)), the verse goes on (p. 337, last line,
+img. 345, and p. 338, img. 346; read with Yigdzin-1, MITRA and BDRC's
+etext as witnesses, and on the scan):
+
+> …གཟའ་ཚེས་སྐར་མ་བཟང་བ་ལ། །འབྲས་བུ་བཟང་འཛོམ་གཞན་འབྱུང་སྲིད། །དཀར་གོང་དང་ནི་ལྕགས་བཟང་ལས། །ཚ་ཞིང་བསྲེག་པའི་མེ་སྟག་འཕྲོ། །ཁྱད་པར་གཅེས་པ་གང་ཟག་རེར། །གཟའ་སྐར་མི་འདྲ་རེ་གསུངས་ཏེ། །སྐྱེས་གཟའ་རང་གཟའ་བླ་ཡི་གཟར། །ཞི་དྲག་སྤྱི་དང་ཁྱད་པར་དུ། །གཡུལ་གཤོམ་རྩལ་སྤྲོད་གཤགས་འདེབས་ཚོང་། །སྟོབས་འགྱེད་ཤོ་རྒྱན་རྟ་རྒྱུག་པ། །འཕོངས་འཁྲུག་བསྐྱེད་པའི་ལས་རྣམས་བཟང་། །མ་གྲོགས་བཟང་ཡང་ཕྱོགས་མཚུངས་དགེ། །ཁམས་ཀྱི་དགྲ་གཟར་ལས་ཀུན་སྤང་། །སྐྱེས་པའི་སྐར་མ་ཤར་བའི་ཚེ། །ཞི་དྲག་ལས་སྤྱི་ཁྱད་པར་དུ། །ལྷ་མཆོད་བླ་མར་བསྙེན་བཀུར་བ། །སྦྱིན་གཏོང་དགེ་ལས་རྒྱན་གོས་གྱོན། །ཁྱིམ་གསར་འཛིན་དང་སྐྱེ་ཤིང་འཛུགས། །ཁང་པའི་ལས་རྣམས་བྱ་བར་ཤིས། །མངལ་འཇུག་སྐར་མས་གཞི་བཟུང་དང་། །གཡོ་དང་ཕ་རོལ་དབྱུང་བ་བཟང་། །འཆི་བའི་སྐར་མར་གང་ཡང་ངན། །དེ་དག་གཟའ་སྐར་ངོས་འཛིན་དང་། །སྤྲོས་ཤིང་ཞིབ་པར་དབྱེ་བ་སོགས། །དབྱངས་འཆར་རྒྱུད་དང་གཙུག་ལག་ནས། །བཤད་པའི་ལེགས་བཤད་འགའ་མཆིས་ཀྱང་། །འདི་ན་ཀུན་སྤེལ་དེ་ཙམ་མོ། །
+
+MITRA differs from Yigdzin-1 in five places (འཇོམ, འདྲའི, བྱུག, འབྲུག, ཤེས);
+the scan has Yigdzin-1's འཛོམ, འདྲ་རེ, རྒྱུག, འཁྲུག and ཤིས each time, and
+Yigdzin-1's མངལ, གཤོམ and སྤེལ, checked at four times the size. The etext
+breaks off in the middle of three lines and reads སྤྱིལ for སྤེལ and དུག for
+དག (p. 337).
+In English:
+
+- Where weekday, date and mansion are good, good results gather, yet
+  something else can arise: from white bronze and good iron fly hot,
+  burning sparks.
+- **Of particular importance** (*khyad par gces pa*): for each person
+  different weekdays and mansions are taught. On one's birth weekday, own
+  weekday and bla weekday, peaceful and fierce works in general, and in
+  particular battle array, contests of skill, pleading a case, trade,
+  trials of strength, dice, horse races, archery and works that stir up
+  strife, are good. The mother's and the friend's weekdays are good, and
+  those on the same side virtuous; on the enemy weekday of one's element
+  every work is to be avoided.
+- When one's birth mansion rises: peaceful and fierce works in general,
+  and in particular offerings to the deities, serving the lama, giving,
+  virtuous works, putting on ornaments and clothes, taking a new house,
+  planting trees and the works of a house, are auspicious. The mansion of
+  conception (*mngal 'jug skar ma*) is good for laying a foundation, for
+  moving and for driving out an opponent; on the death mansion anything
+  is bad.
+- More on identifying these weekdays and mansions, and finer divisions,
+  is in the *dbyangs 'char* tantra and the *gtsug lag*; here this much is
+  collected.
+
+**What it says about weighing.** It sets a person's own weekdays and
+mansions apart as "of particular importance", right after placing the
+special days below the planet's and mansion's own results. It does not
+say what happens when one's own day and the combination of weekday and
+mansion disagree, and it names no rank among the day's factors. So the
+day in brief lists them under "For you" with their tones, apart from the
+weighing (SPEC §5.12), and the brief's note says so. Whether the birth,
+own and bla weekdays are one weekday or three, and which mansion is the
+birth mansion, the verse does not say (open question 14); the app has the
+bla gza' (Rabten's luck day) and the six mansions by animal only.
