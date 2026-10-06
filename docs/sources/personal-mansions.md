@@ -235,10 +235,11 @@ and chu smad (20); for water the six northern, above all khrums stod
 (15). Taking wood as the example, the northern mansions are its mother,
 those between its friend, the western its enemy and the southern its
 child; each element is counted so. The great grave mansion (*dur skar*)
-is sa ga, the small bra nye. Reckoned by the life force (*srog*) it is
-«འདྲེ» (as printed; open question 14). The bla, mother, friend, child and
-enemy weekdays are known as the mansions are, and the strong weekday of
-the wind horse's element, for wood, is Tuesday.
+is sa ga, the small bra nye. Reckoning by the life force (*srog*) is to
+be applied in the same way (the 1996 edition prints «འདྲེ», the Lhasa
+blocks «འགྲེ»; below). The bla, mother, friend, child and enemy weekdays
+are known as the mansions are, and the strong weekday of the wind
+horse's element, for wood, is Tuesday.
 
 The tables follow on pp. 345–346 (img. 353–354), read cell by cell on the
 scan at three times the size. Their headings name the five elements by
@@ -258,12 +259,16 @@ columns are «རང་ངམ་དབང་སྐར་རམ་བླ་སྐ
 Every row is the verse's rule with the usual relations of the elements
 (mother: water → wood → fire → earth → iron → water; friend, the element
 one overcomes; enemy, the one that overcomes it). The western six are
-printed 16–21, so 21 (gro bzhin) stands both there and among the four of
-earth, in every table where both appear. Only wood's grave mansions are in
-the verse; the others are the tables'.
+printed 16–21, so 21 stands both there and among the four of earth, in
+every table where both appear. WB vol. 1, p. 232 (below) names the two:
+the western six end with gro bzhin (21), and the four between are «བྲ་ཉེ་
+སྐག་ས་ག །བྱི་བཞིན་མཚམས་སྐར་བཞི», so the 21 among earth's four stands for
+byi bzhin (Abhijit), which has no number of its own among the 27. Only
+wood's grave mansions are in the verse; the others are the tables'.
 
 The weekday table (p. 346, «གཟའི་བླ་གཟའ་སོགས་ངོས་འཛིན», weekdays from
-Saturday = 0):
+Saturday = 0). Its first row is headed «བླ་གཟའ་འམ་ / དབང་གཟའ་ / རང་གཟའ་»
+(read on the scan, img. 354): one weekday under three names.
 
 | Element | bla, power or own | mother | friend | child | enemy |
 | --- | --- | --- | --- | --- | --- |
@@ -282,9 +287,105 @@ printed.
 **Against the table by animal.** The two reckonings are different things:
 the one by animal names six single mansions and three weekdays, the one
 by element a quarter of the sky and a weekday per relation. The app has
-the first. It cannot calculate the second until it is known which of a
-person's elements the tables' «ཁམས» is (open question 14): the verse says
-only that reckoning by the life force is «འདྲེ».
+the first; the second belongs to the clan (next section).
+
+### Whose element: the clan, or counted the same way the life force (open question 14, answered 2026-10-06)
+
+The tables' «ཁམས», named by the five tones, is the element of the
+person's great clan (*rus chen*), not one reckoned from the birth date.
+Four passages in three works say so, each read on a scan:
+
+- **WB vol. 1, p. 232** (img. 242), the nag rtsis's account of the
+  turtle: each quarter of the turtle gives an element, its six mansions
+  (four for earth) and a great clan named by its tone, with that clan's
+  power year, weekday and mansion. Fire: «…དེ་ལ་རུས་ཆེན་ཇི་མེ་ཁམས། །དབང་ལོ་
+  དབང་གཟའ་དབང་སྐར་དང་།»; water: «…ནམ་གྲུ་ཐ་སྐར་ཆུ་ཁམས་དྲུག །དེ་ལས་རུས་ཆེན་འུ་ཆུ་
+  ཁམས།»; wood: «ཤིང་ཁམས་སྐར་མ་དྲུག་དང་ནི། །དེ་ལས་རུས་ཆེན་ཀེག་ཤིང་ཁམས།»; iron:
+  «ལྕགས་ཁམས་སྐར་མ་དྲུག་ཏུ་འདོད། །དེ་ལས་རུས་ཆེན་ཤིང་ལྕགས་ཁམས།» (this page prints
+  ཤིང for the tables' ཤང); earth: «…བྱི་བཞིན་མཚམས་སྐར་བཞི་ཡིན་ཏེ། །དེ་ལས་རུས་
+  ཆེན་ཀུངས་ས་ཁམས།». The six mansions of each quarter are those of the
+  tables, and the clan's «དབང་སྐར» and «དབང་གཟའ» are the tables' first
+  column, «རང་ངམ་དབང་སྐར་རམ་བླ་སྐར» and «བླ་གཟའ་འམ་དབང་གཟའ་རང་གཟའ». (KD vol. 1,
+  etext pp. 633–634, the essay *Nag rtsis kyi lo rgyus 'Jam mgon dgongs
+  bcud*, retells the verse in prose.)
+- **Smin gling lo chen Dharmaśrī (1654–1718), *'Byung rtsis man ngag zla
+  ba'i 'od zer*,** a contemporary of the Sde srid writing in the Smin gling
+  line, not a reader of WB.
+  Read on the scan of his collected works (BDRC MW9140, vol. 5, I2533,
+  img. 5–64, 4800 px; the same text, with the same colophon, in KD vol. 3,
+  etext pp. 506–536). Listing the nine means of reckoning, he begins (img.
+  10): «དང་པོ་ཁམས་ནི་ཀེག་ཤིང་དང་། །ཇི་མེ་ཀུངས་ས་གཤང་ལྕགས་ཏེ། །འུ་ཆུ་རུས་ཆེན་ལྔ་རུ་
+  གྲགས།»: the element is the five great clans. Each is known by the
+  voice: a catch in the throat, keg wood; sound between the teeth, ji
+  fire; breath drawn from the navel, kungs earth; mouth open, tongue out,
+  breath through the nose, gshang iron; lips drawn in, 'u water. For the
+  wood clan as the example (img. 11): Tiger and Hare are its power years,
+  Mouse and Pig its mother, Horse and Snake its child, Dog and Dragon its
+  friend, Bird and Monkey its enemy, «…དབང་གཟའ་ཕུར་བུ་དབང་སྐར་ནི། །ཤར་སྐར་
+  དྲུག་ཡིན་ཀུན་ལ་འགྲེ།»: its power weekday Thursday, its power mansions the
+  eastern six, "apply it to all". These are wood's row of WB's tables.
+- **The *Nag rtsis brjed byang snying po gsal ba*,** a digest of the
+  difficult points of WB's Chinese reckoning bound at the end of the 1996
+  vol. 2 (pp. 474–545, img. 482–553; its colophon calls it the essentials
+  of WB's supplementary texts, carved at the expense of the steward Bkra
+  shis tshe 'phel, and names no author). Listing what is to be
+  identified for a day in the reckoning for the dead (p. 512, img. 520):
+  «གཟའ་དེ་རུས་ཀྱི་བླ་མ་བུ་སོགས་ལྔ་གང་ཡིན། རོ་བདག་གི་ལོའི་བླ་སྲོག་གཤེད་གསུམ་གང་ཡིན།»
+  and «རུས་ཀྱི་བླ་སྐར་སོགས་ཡིན་མིན་ལྔ། ལོའི་བླ་སྲོག་དབང་གེགས་བདུད་གཤེད་དུར་སྐར་ཆེ་ཆུང་
+  བཅས་བདུན།»: the five relations (bla, mother, child, friend, enemy)
+  belong to the clan, the three weekdays and six mansions of p. 330 to
+  the birth year.
+- The same digest's opening (p. 474, img. 482): «དུས་ཁམས་ནི་ངོས་ཟིན་ན་དེ་དང་།
+  མིན་ན་བླ་རྟགས་གཡག་སོགས་གང་ཡིན་ངག་རྒྱུན་དང་རྨི་ལམ་སོགས་ལས་བརྟག་པ་དང་། མི་གཤིས་
+  སོགས་ཀྱིས་རུས་ཆེན་ལྔ་གང་ཡིན་ངོས་ཟིན་པར་བྱའོ།» (དུས་ཁམས as printed, for
+  རུས་ཁམས: the sentence is about the five great clans): if the clan's
+  element is known, use it; if not, find the clan's token animal (the yak
+  and the others) from family tradition and dreams, and which of the five
+  great clans by temperament. Neither text derives it from the birth
+  date.
+
+**The life force, "applied the same way".** The verse of p. 330, after
+wood's example, says: «དེ་ལྟར་སྲོག་ལ་བརྩི་ཡང་འགྲེ», "reckoning by the life force,
+apply it the same way". The reading was settled on four prints:
+
+| Print | Reading | How read |
+| --- | --- | --- |
+| 1996 edition, vol. 2, img. 338 | «འདྲེ» | typeset, a clear ད |
+| Lhasa print reproduced at Taikhang, New Delhi 1972 (MW30116, vol. 2, img. 468, 8280 px) | «འགྲེ» | a ག with ra-btags and greng bu |
+| Zhol print (WBZ, img. 1086, 3752 px) | «འགྲེ» | the stack has the shape of the གྲ of «གྲོགས» and «དགྲ» in the same line, not of a ད |
+| Derge print (WB2, img. 472) | — | 1208 px wide; the letters are a few pixels high |
+
+The 1996 setting misreads the blockprint's ག as ད. «འགྲེ» is WB's verb for
+"and so on, likewise" (e.g. «…ལོ་བ་སྐྱེ་སོགས་འགྲེ», vol. 2, p. 482), and
+Dharmaśrī ends wood's power weekday and mansions with the same word. The
+rule behind it is general: Dharmaśrī (img. 38) «བརྩི་བྱ་སྐྱེས་བུའི་སྲོག་ལུས་དང་།
+།དབང་ཐང་ཀླུང་རྟ་རུས་ཁམས་ལྔ། །རང་མ་བུ་གྲོགས་དགྲ་ལྔར་ཕྱེ།», a person's life force,
+body, power, wind horse and clan element are each divided into own,
+mother, child, friend and enemy; WB's funeral reckoning counts «གཤིན་པོའི་
+རུས་ཁམས་རང་མ་བུ། །དགྲ་གྲོགས་འབྱུང་བ་ལྔ་པོ་དང་། །གནམ་ལོའི་སྲོག་གི་རང་སོགས་ལྔ།» (vol.
+2, p. 90, etext only); and among the aspects of the birth date WB says
+the new system takes the life force as principal: «རྩིས་པ་གསར་མ་ལུགས་ཀྱིས་ནི། །
+སྲོག་ཉིད་གཙོ་བོར་འདོན་པ་དང་། །རྙིང་མ་ལུགས་ནི་དབང་གཙོར་འདོན།» (vol. 1, p. 261,
+etext; the Zhol etext, img. 325, has the same lines).
+
+**The grave mansions** (*dur skar*, the tables' last two columns) are by
+element only: WB names them in the element verse (p. 330, wood: sa ga
+great, bra nye small) and gives them in the element tables; no source,
+WB's verse by animal, NM, SY or KP, gives grave mansions by birth
+animal. The digest's «…གཤེད་དུར་སྐར་ཆེ་ཆུང་བཅས་བདུན» joins them with «བཅས»,
+"together with", after the year's six; it does not make them the year's.
+They have no day reading in WB ch. 33; the digest uses them for funerals.
+
+**What the app can do with this.** The tables by the clan's element need
+the person's clan, which the app does not ask and which the texts find by
+family tradition, dreams, voice or temperament; that is not something to
+compute (as with the day by the clan's element, earth-lords.md). Counted
+by the life force, which WB says "applies the same way", they follow from
+the birth date: for a Mouse (water) the northern six mansions (22–26, 0)
+are its own, the western six its mother, and so on, and Monday and
+Wednesday its own weekdays. What each relation means for a day is in the
+readings above (p. 330: the mother's and friend's good, the child's
+middling) and on pp. 337–338 (below).
 
 ## Works on one's own days: WB pp. 337–338
 
@@ -331,7 +432,67 @@ special days below the planet's and mansion's own results. It does not
 say what happens when one's own day and the combination of weekday and
 mansion disagree, and it names no rank among the day's factors. So the
 day in brief lists them under "For you" with their tones, apart from the
-weighing (SPEC §5.12), and the brief's note says so. Whether the birth,
-own and bla weekdays are one weekday or three, and which mansion is the
-birth mansion, the verse does not say (open question 14); the app has the
+weighing (SPEC §5.12), and the brief's note says so. The app has the
 bla gza' (Rabten's luck day) and the six mansions by animal only.
+
+**Which weekdays and mansion (open question 14, answered 2026-10-06).**
+
+- **Two weekdays, not three.** The own weekday and the bla weekday are one:
+  the element table heads its first row «བླ་གཟའ་འམ་དབང་གཟའ་རང་གཟའ» (p. 346,
+  above), and WB's weekday section has the same works for it alone,
+  «།རང་གཟའ་བླ་གཟའ་ཤར་བ་ལ། །གཤགས་འདེབས་རྩལ་སྤྲོད་སྟོབས་འགྱེད་དང་། །རྟ་རྒྱུག་ཤོ་རྒྱན་ཚོང་
+  བྱ་བ། །གཡུལ་འགྱེད་འཁྲུག་སོགས་ལས་ཀུན་བཟང་།» (p. 312, img. 320, read on the
+  scan). SY's prose of p. 338 joins the two and sets the birth weekday
+  apart: «ཁྱད་པར་གང་ཟག་རང་གི་སྐྱེས་གཟའ་དང་རང་གཟའ་བླ་གཟའ་ཤར་དུས་ཞི་དྲག་ལས་ཀུན་བཟང་།
+  མ་གྲོགས་གཟའ་ཡང་ཕྱོགས་མཚངས་བཟང༌། དགྲ་གཟར་ལས་ཀུན་སྤང་།» (p. 370, etext p. 398);
+  Kun bzang blo gros, in his supplement to Dharmaśrī (*Lhan thabs rgyu
+  skar phreng ba*, KD vol. 3, etext p. 661, on sending a bride, after WB
+  vol. 1, p. 373), names the power weekday and the birth weekday side by
+  side: «དབང་གཟའ་མ་གཟའ་ཤིས་པར་བྱེད། … དགྲ་གཟའ་སྐྱེས་གཟའ་འཛེམ་པར་བྱ།». As p. 338
+  goes on with the mother, friend and enemy weekdays «of the element»
+  («ཁམས་ཀྱི་དགྲ་གཟར»), its bla weekday is the element's power weekday (the
+  clan's, or the life force's; above), not the birth animal's bla gza'
+  of p. 330, though both are called bla gza'.
+- **The birth weekday** is the weekday of the day of birth: WB's births
+  by weekday, «དེ་ནས་རེས་གཟའི་སྐྱེས་འབྲས་ནི། །ཉི་མ(༡)ལ་སྐྱེས…» (p. 379, img.
+  387, read on the scan).
+- **The birth mansion** is the mansion the moon is passing through on the
+  lunar date of birth. Phug pa Lhun grub rgya mtsho, the founder of the
+  Phugpa school, in his commentary on the *dbyangs 'char* tantra (*Dpal
+  g.yul las rnam par rgyal ba … dbyangs 'char ba'i rgya cher 'grel pa …
+  mchog tu dga' ba'i sgra dbyangs*), ch. 3, section 7, «སྐྱེས་སྐར་ངོས་འཛིན་གྱི་
+  རྩིས», works it out from the month and date of birth with examples: born
+  on the 5th of the waxing half of khrums, «ཚེས་དེ་ལ་སྤྱོད་བཞིན་པའི་སྐར་མ་ནི་ནམ་
+  གྲུ་ཡིན་པས་ཚེས་དེ་ལ་སྐྱེས་པའི་སྐར་མ་ནམ་གྲུ་ལ་འཛིན་དགོས་པ་ཡིན་ཏེ།»; on the 5th of
+  the waning half, sa ri. It corrects for skipped and doubled dates, and
+  calls this the coarse reckoning, for those who know the month and day
+  but not the mansion; in India, it says, the parents note the hour of
+  birth for the finer one. Read on the scan of the National Library of
+  Mongolia print (MW1NLM5184, img. 312–316; the line above on img. 313);
+  KD vol. 3, etext pp. 218–221, has the same text. WB's births by mansion
+  follow its births by weekday, «ད་ནི་སྐྱེས་པའི་སྐར་མ་ལ། །དབྱུག་པ(༠)ལ་སྐྱེས…»
+  (p. 380, img. 388, read on the scan), and the digest counts it "coarsely,
+  which of the 28 mansions; finely, its four quarters"
+  («སྐྱེས་ས་རགས་པ་སྐར་མ་ཉེར་བརྒྱད་གང་ཡིན། ཞིབ་པར་དེ་རེ་རེར་དེའི་རྐང་པ་བཞི་སྦྱར།», p.
+  512, img. 520). With a birth date and no hour, the birth mansion is the
+  almanac's mansion of that day.
+- **The mansion of conception** («མངལ་འཇུག་སྐར་མ») is not defined in any
+  source found. BDRC's full-text search (2026-10-06) finds the term only
+  in WB p. 338, SY's prose of it and a Rebkong anthology that copies SY.
+  The *dbyangs 'char* counts a person's mansions from the birth mansion:
+  1st birth, 10th work, 16th separation, 18th "sealed", 23rd *vaināśika*,
+  25th mind (Phug pa, KD vol. 3, etext pp. 276–279; WB vol. 1, p. 98,
+  etext p. 108), and a 19th it calls «ཨནྟ་ན» (WB «ཨ་ནནྡ»), and a Nepalese
+  verse Phug pa quotes names a «འཁྲིག་སྐར», a union mansion. That the 19th
+  is the mansion of conception rests on the order of that list and on the
+  Sanskrit name, not on a Tibetan text that says so; it is not built.
+- **The death mansion** of p. 338 is, by WB's own words on p. 330, the
+  gshed skar («གཤེད་སྐར་དང་ནི་འཆི་སྐར་གཅིག»), which the app already lists
+  (bad for anything). The *dbyangs 'char*'s 23rd from the birth mansion
+  is a different count, which WB names *vaināśika*, not death mansion.
+
+The birth weekday, the birth mansion and the element's own, mother,
+friend, child and enemy weekdays and mansions by the life force all
+follow from the birth date the app already keeps (SPEC §10.5). None of
+the texts places a person's own days against the combination of weekday
+and mansion, so they stay outside the weighing (SPEC §5.12).

@@ -176,20 +176,29 @@ the text, not about the app.
     the first and lets the special days stand in their own rank (SPEC
     §5.12); until 2026-10-06 it read the second, which decided the tone on
     a fifth of all days.
-14. **A person's own weekdays and mansions by element (WB pp. 330,
-    337–338, 345–346).** The verse at the head of p. 330 and the tables of
-    pp. 345–346 give the bla, mother, friend, child and enemy mansions and
-    weekdays by a person's element, the tables naming the elements by the
-    five tones (ཀེག་ཤིང, ཇི་མེ, ཀུངས་ས, ཤང་ལྕགས, འུ་ཆུ, «…ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན»).
-    Which of a person's elements is that «ཁམས»: the life force (*srog*),
-    the body (*lus*), or one known from something other than the birth
-    date? The verse goes on «དེ་ལྟར་སྲོག་ལ་བརྩི་ཡང་འདྲེ།»: is འདྲེ to be read
-    འདྲ, "reckoned by the life force it is the same", or as printed?
-    And p. 338, «སྐྱེས་གཟའ་རང་གཟའ་བླ་ཡི་གཟར།»: are the birth weekday, own
-    weekday and bla weekday three weekdays or one, and is the birth
-    mansion («སྐྱེས་པའི་སྐར་མ») the moon's mansion on the day of birth? The
-    passage calls them «ཁྱད་པར་གཅེས་པ», of particular importance, and gives
-    no rule against the combination of weekday and mansion; the app lists
-    the bla gza' and the six mansions by animal apart from the weighing
-    (SPEC §5.12) ([personal-mansions.md](personal-mansions.md), "By
-    element" and "Works on one's own days").
+14. ~~A person's own weekdays and mansions by element (WB pp. 330,
+    337–338, 345–346): which element, «འདྲེ», and the birth weekday and
+    mansion.~~ *Answered 2026-10-06 ([personal-mansions.md](personal-mansions.md),
+    "Whose element" and "Which weekdays and mansion"), each point on a
+    scan:* the tables' «ཁམས», named by the five tones, is the person's great
+    clan (*rus chen*): WB vol. 1, p. 232; Dharmaśrī's *'Byung rtsis man ngag
+    zla ba'i 'od zer* («…འུ་ཆུ་རུས་ཆེན་ལྔ་རུ་གྲགས», with the wood clan's power
+    weekday Thursday and mansions the eastern six, "applied to all"); the
+    *Nag rtsis brjed byang* bound with the 1996 vol. 2 (clan's five
+    relations against the year's bla, srog and gshed, p. 512; the clan
+    found by family tradition, dreams and temperament, p. 474). The line on
+    the life force reads «འགྲེ» in both Lhasa impressions (Taikhang, Zhol),
+    the 1996 «འདྲེ» misreading ག as ད: the tables may be counted the same
+    way by the birth year's life-force element, which Dharmaśrī's rule
+    (life force, body, power, wind horse and clan each split into the five
+    relations) and WB's funeral reckoning bear out. The own weekday and the
+    bla weekday are one (table heading p. 346; p. 312; SY; Kun bzang blo
+    gros), so p. 338 names two: the birth weekday and the element's own.
+    The birth weekday is the weekday of birth (WB p. 379); the birth
+    mansion is the mansion the moon passes through on the date of birth,
+    as Phug pa Lhun grub rgya mtsho works it out in his *dbyangs 'char*
+    commentary (the coarse reckoning; the hour gives the finer). Not
+    defined in any source found: the mansion of conception; the death
+    mansion is the gshed skar (WB p. 330). None of this places one's own
+    days against the combination, so the weighing stays as it is (SPEC
+    §5.12).

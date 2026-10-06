@@ -534,7 +534,9 @@ voices, so that the tone and the lists cannot go separate ways.
   (*khyad par gces pa*, vol. 2, p. 338), and neither it nor any other text
   found places them against the combination
   ([sources/personal-mansions.md](sources/personal-mansions.md), open
-  question 14). The day in brief lists them apart, under "For you".
+  question 14, answered: the texts' own days are by the clan's element
+  or the life force's, and the birth weekday and mansion). The day in
+  brief lists them apart, under "For you".
 - **The day in brief** names the tone and what decided it (the
   combination or the strongest factor), lists the voices that took
   that side, and gives each work with the voices that carry it, in rank

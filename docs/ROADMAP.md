@@ -31,7 +31,7 @@ with the one that gives it a use. "Later" is not ranked.
 ### T2. The Tibetan page's gaps: work plan
 
 The page's readings are built (SPEC §5.8–5.13, the texts in
-[sources/](sources/README.md)) and thirteen of the fourteen questions for
+[sources/](sources/README.md)) and all fourteen questions for
 a reader are answered ([open-questions.md](sources/open-questions.md)). Reviewed on
 2026-10-06, what is left are places where the page contradicts itself,
 shows a factor it does not weigh, or rests on a thin or machine-read
@@ -53,8 +53,15 @@ Russian, and the release build is checked before the next tag (SPEC §12).
 The brief's "For you" block, shown and not weighed; WB pp. 337–338 and
 345–346 read into [personal-mansions.md](sources/personal-mansions.md). WB
 calls a person's own days "of particular importance" but ranks them
-against nothing, so the weighing stays as it is. The reckoning by element
-and the birth weekday and mansion wait for open question 14.
+against nothing, so the weighing stays as it is. Open question 14,
+answered the same evening and checked on the scans of four works: WB's
+tables by element are by the clan's element, which the app does not
+have, or, "applied the same way", by the birth year's life force, which
+it has; the birth weekday is the weekday of birth, and the birth mansion
+the mansion the moon passes through on the date of birth (Phug pa Lhun
+grub rgya mtsho). All three follow from the birth date. The mansion of
+conception has no definition in any source found and is not to be built.
+Showing the rest in "For you" is the owner's decision.
 
 #### T2.4 The hours above the day — S, then M
 

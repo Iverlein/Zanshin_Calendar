@@ -147,7 +147,17 @@ lists the volume manifests; each canvas has a service `@id`, and
 `<@id>/full/max/0/default.jpg` is the image. Open-access volumes answer
 200; restricted ones list only about twenty preview images and answer 401
 for the rest. Native sizes are small (WB 703×1018, KP 2550×677), so crop
-a line or a box and enlarge it 3–6× before reading it.
+a line or a box and enlarge it 3–6× before reading it. The image server
+answers 502 now and then; retry after a few seconds.
+
+**Checking the 1996 typesetting.** The 1996 edition is typeset from a
+blockprint and has misreadings (ག set as ད in «འགྲེ», p. 330). The
+sharpest witness is the Taikhang reproduction of a Lhasa print (MW30116,
+8280 px, no etext). To find a page there, read a few of its images at
+3000 px with `hf_read.py yigdzin` and look the lines up in the 1996
+etext: on 2026-10-06 its vol. 2 img. 350, 390, 430 and 470 held the 1996
+vol. 2 pp. 244, 272, 297–300 and 331–332 (etext page − 8), and p. 330
+was on img. 468.
 
 **OCR of woodblock prints:** BDRC's own pipeline,
 github.com/buda-base/tibetan-ocr-app (MIT), with its Woodblock model.
@@ -186,6 +196,15 @@ Searched and found wanting, so not to be repeated:
   sits in its 414 images is not known.
 - **NM page images**: stream-only on archive.org; the etext is all there is.
 - **Tesseract `bod`**: useless on woodblock prints.
+- **The mansion of conception** («མངལ་འཇུག་སྐར་མ», WB p. 338): BDRC's
+  full-text search and the etexts of WB, KD, NM and SY (2026-10-06) find
+  no definition; the term occurs only in WB, SY's prose of it and a
+  Rebkong anthology copying SY.
+- **The Derge print of WB for one letter** (WB2, 1208 px): too small;
+  for the 1996 edition's slips use the Taikhang and Zhol prints.
+- **KD's scans** are lent on archive.org only; for a KD text, look for
+  the same work as an open BDRC print (Dharmaśrī: MW9140; Phug pa:
+  MW1NLM5184) and read the passage there.
 - **BDRC Woodblock-Stacks on WB vol. 2** (2026-10-04): the scans are only
   703 px wide; read as served it gives noise (8% of syllables agree), at
   3× upscaled 76%, its flags almost all its own (dropped vowel signs, ལྷ
