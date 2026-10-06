@@ -23,8 +23,9 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 Tibetan readings | M | Mansions, the activity lists (doubled mansions read on the print), lunar dates, weekdays, yogas, karaṇas, the trigram, the combinations of weekday and mansion, the special days, Rāhu's course and the earth lords are built, and the day is weighed by the texts' rank; the print's other activity boxes are read and built (50 lists); the *bla mkhyen* of WB ch. 31 is built on the sme ba count of two later texts ([sources/](sources/README.md)) | Answers to the open questions (a reader of the tradition) |
-| 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
-| 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
+| 5 | V Rāhu's compass | S | The last cue of the visual-cue audit ([audit-visual-cues.md](audit-visual-cues.md)): Rāhu's row is the only Tibetan row left without a graphic | Rāhu's direction as data, read from its readings with a vector test |
+| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
 ## Tibetan page
 
@@ -98,6 +99,15 @@ calendars and the nine-star reading need the birth date; the progressions of T4 
   for these two only. While it is not set, the readings that need it are
   hidden rather than guessed.
 - Both stay on the device only, as the birth date does now (SPEC §10.5).
+
+### V. Rāhu's compass
+
+The rest of the visual cues for the wider activity lists were built on
+2026-10-06 (SPEC §10.7; the audit in [audit-visual-cues.md](audit-visual-cues.md)).
+Left: a compass on Rāhu's row with the direction it moves in, as the
+almanac's other compasses. The direction is in the readings' prose only
+(SPEC §5.13), so it first needs to be data, read from the White Beryl's
+course with a vector test.
 
 ### M1. Meditation Timer and Periodic Bell
 

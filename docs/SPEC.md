@@ -534,7 +534,14 @@ voices, so that the tone and the lists cannot go separate ways.
 - **The day in brief** names the tone and what decided it (the
   combination or the strongest factor), lists the voices that took
   that side, and gives each work with the voices that carry it, in rank
-  order; works on which more voices agree come first. Outweighed voices,
+  order; works on which more voices agree come first. Its summary line is
+  one row (§10.7): a work's weight there is the sum of the weights of the
+  voices standing on its side, ten for the combination down to one for the
+  trigram, in the rank above. The weights are the app's, to order the line
+  by the Phugpa order of strength; they change no side. The texts' only
+  numbers, the date one, the planet four, the mansion eight, are the
+  Kashmiri paṇḍita's, which the White Beryl sets aside for that order (vol.
+  2, p. 376), so the app does not use them. Outweighed voices,
   and works that only outweighed voices name, are not shown: they have no
   power on the day, and their own readings still say what they say. On a festival or monthly observance the brief
   says that the tone is the day's for its works and does not weigh the
@@ -914,9 +921,9 @@ canvas "Zanshin Calendar — basic design".
 - **Day line:** one short line — weekday, planet, day element and animal, e.g.
   "Monday · Moon · Iron Horse". Tapping it opens a balloon with the full
   details: weekday with its Tibetan name, planet, element, animal, gender.
-- **In brief:** under the day line, as on the 旧暦 page, the glyphs of the
-  activities the day's factors name good and to avoid, weighed as §5.12
-  says (§10.7), with the day's tone and, in a few words, what decided it
+- **In brief:** under the day line, one row of glyphs, however many works
+  the day names: the families of the heaviest works good and of the
+  heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination"); it opens the tone with its
   reason, the voices of that tone and each activity with the voices that
   carry it; nothing outweighed is shown.
@@ -1082,12 +1089,32 @@ Glyphs and diagrams are drawn for this app (`ui/CueGlyphs.kt`,
 kanji drawn inside one are explained by its caption, which names the cell
 last tapped, today's at first (§10.1: every kanji shows its English on tap).
 
-- **Activity families.** Each `Activity` has an `ActivityFamily` (27, from
+- **Activity families.** Each `Activity` has an `ActivityFamily` (38, from
   everything, weddings and journeys to rites, haircuts and conduct), one glyph
-  each; a test fails on a family no activity uses, and the `when` that maps
-  them is exhaustive. The In brief line shows the families named good and to
-  avoid, in the order the enum declares; the breakdown puts each activity's
-  family glyph before it.
+  each; a test fails on a family no activity uses, another on a family
+  without a glyph, and the `when` that maps them is exhaustive. Regrouped on
+  2026-10-06 after the Tibetan lists had grown from 112 activities to 180
+  ([audit-visual-cues.md](audit-visual-cues.md)): livestock (a horseshoe),
+  disputes (facing arrows), office and the great (a throne), vows and
+  ordination (an alms bowl), offerings (a butter lamp), bathing (a ewer),
+  family and friends (two figures), and the four actions apart, each as the
+  hearth of its fire offering: round for pacifying, square for increasing,
+  semicircular for power, triangular for fierce rites (Gyurme Dorje,
+  *Tibetan Elemental Divination Paintings*, 2001, glossary, *burnt
+  offerings*, after Klong chen pa and Beyer, *The Cult of Tārā*, pp.
+  264–275). The rites' vajra is drawn upright, as it read as a chain of rings
+  at 22 dp. The breakdown puts each activity's family glyph before it.
+- **In brief line.** On the 旧暦 page the families named good and to avoid,
+  in the order the enum declares, on two lines. On the Tibetan page one row
+  (`DaySummary.row`): the families of the heaviest works named good, a rule,
+  then those of the heaviest to avoid (§5.12 gives the weights); four places
+  each, a side with fewer families leaving its places to the other, eight
+  at most and as many as fit the width. A family appears once: where it
+  would stand on both sides, it keeps the side of its heavier work and the
+  next family takes the other place. Equal weights keep the breakdown's
+  order. Screen readers hear the counts and the works the row stands for.
+  Measured over 2000–2049: four and four on 92 % of days, about six of the
+  eight glyphs change from one day to the next.
 - **Animals and elements.** The twelve animals are drawn as heads (whole
   bodies were indistinguishable at 20 dp), shared by the 干支 rows and the
   Tibetan year, day and lunar-day animal; the five elements (Tibetan iron
@@ -1113,7 +1140,18 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   sheet the table of the ten pairs, weekday down, mansion across. Lunar
   mansion: a small ring of 27 on its row, the full ring in its sheet. Haircut:
   scissors on its row, the thirty lunar days with their tones in its sheet.
-  Trigram: drawn as its three lines.
+  Trigram: drawn as its three lines. Named combination: in its sheet the
+  table of the 28, weekday down from Sunday, the 27 mansions across, each
+  cell in its tone, today's marked. Nectar periods: the 24 hours as a ring,
+  midnight at the top as on the hours panel (§10.3), the periods as arcs,
+  small on the row and with the hours in the sheet. Lunar date: five marks
+  for its class on the row; in the sheet the thirty dates in the columns
+  of their five classes with their tones. Karaṇa: a ring of the eleven in
+  the order a month runs through them, Kiṃstughna first, the seven moving
+  ones under a line, the three fixed last; yoga: a ring of the 27; both
+  small on the row and full in the sheet, each cell with its tone. The
+  five components rows carry no second ring. Rāhu's direction is in its
+  readings' prose only, so it has no compass yet.
 - **Reading sheets** carry a band in the reading's tone across their top.
 - **Font.** `tools/subset_fonts.py` takes the characters of the Kotlin
   sources, the catalogs and the string resources; a rebuild after new kanji
