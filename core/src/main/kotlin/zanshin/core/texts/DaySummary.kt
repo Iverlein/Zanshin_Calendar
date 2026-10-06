@@ -43,14 +43,16 @@ data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, 
 
 /**
  * An activity and the annotations that name it good or to be avoided; on the 旧暦 page both sides
- * are kept. On the Tibetan page one side is, and [outweighed] holds the factors that named it the
- * other way (SPEC §5.12).
+ * are kept. On the Tibetan page one side is, [outweighed] holds the factors that named it the
+ * other way (SPEC §5.12), and [weight] is the sum of the weights of the voices standing on its side
+ * ([DaySummary.row]); it orders the summary line and decides nothing.
  */
 data class ActivityNote(
     val activity: Activity,
     val good: List<SummaryEntry>,
     val avoid: List<SummaryEntry>,
     val outweighed: List<SummaryEntry> = emptyList(),
+    val weight: Int = 0,
 ) {
     val disputed: Boolean get() = good.isNotEmpty() && avoid.isNotEmpty()
 }
@@ -128,7 +130,46 @@ data class DaySummary(
     /** Families holding an activity named both good and to avoid. */
     val disputedFamilies: Set<ActivityFamily> get() = activities.filter { it.disputed }.map { it.activity.family }.toSet()
 
+    /**
+     * The Tibetan summary line (SPEC §10.7): one row of at most [slots] families, those of the
+     * heaviest works named good, then those of the heaviest named to avoid, half the places each and
+     * a side's spare places to the other. Each family is drawn by its heaviest work on that side, and
+     * appears once: where it would stand on both, it keeps the side where its work is heavier and the
+     * next family takes the other place. Equal weights keep the breakdown's order (more voices first,
+     * then the stronger). The weights pick the glyphs only and change no side.
+     */
+    fun row(slots: Int = ROW_SLOTS): Pair<List<ActivityNote>, List<ActivityNote>> {
+        val place = activities.withIndex().associate { it.value.activity to it.index }
+        val order = compareByDescending<ActivityNote> { it.weight }.thenBy { place.getValue(it.activity) }
+        fun heaviest(notes: List<ActivityNote>) =
+            notes.groupBy { it.activity.family }.values.map { it.sortedWith(order).first() }.sortedWith(order).toMutableList()
+        val good = heaviest(this.good)
+        val avoid = heaviest(this.avoid)
+        while (true) {
+            val g = minOf(good.size, maxOf(slots / 2, slots - avoid.size))
+            val shownGood = good.take(g)
+            val shownAvoid = avoid.take(minOf(avoid.size, slots - g))
+            val twice = shownGood.filter { n -> shownAvoid.any { it.activity.family == n.activity.family } }
+            if (twice.isEmpty()) return shownGood to shownAvoid
+            for (n in twice) {
+                val other = shownAvoid.first { it.activity.family == n.activity.family }
+                if (order.compare(n, other) <= 0) avoid -= other else good -= n
+            }
+        }
+    }
+
     companion object {
+        /** The places of the Tibetan summary line: eight glyphs fit a phone's width at 22 dp. */
+        const val ROW_SLOTS = 8
+
+        /**
+         * A voice's weight in [row]: ten for the combination down to one for the trigram, by the rank
+         * of SPEC §5.12. An app convention that orders the line by the Phugpa order of strength; the
+         * only numbers in the texts (the date one, the planet four, the mansion eight) are the
+         * Kashmiri paṇḍita's, which the White Beryl sets aside for that order (vol. 2, p. 376).
+         */
+        fun weight(rank: Int): Int = 10 - rank
+
         private val PERSONAL = setOf(Senjitsu.TAIKA, Senjitsu.ROSHAKU, Senjitsu.METSUMON)
 
         fun of(day: KyurekiDay, rk: RekichuDay, birthStar: KyuSei? = null): DaySummary {
@@ -238,7 +279,10 @@ data class DaySummary(
                 mark = null,
                 byTone = mapOf(verdict.tone to dayDecision.standing.flatMap { v -> v.members.map { it.entry } }),
                 activities = decided.map { (a, d) ->
-                    note(a, d, d.standing).copy(outweighed = d.outweighed.flatMap { v -> v.members.map { it.entry } })
+                    note(a, d, d.standing).copy(
+                        outweighed = d.outweighed.flatMap { v -> v.members.map { it.entry } },
+                        weight = d.standing.sumOf { weight(it.voice.rank) },
+                    )
                 },
                 personal = emptyList(),
                 affinity = null,

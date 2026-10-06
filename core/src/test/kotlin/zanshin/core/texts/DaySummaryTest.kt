@@ -53,7 +53,8 @@ class DaySummaryTest {
     fun `the summary line shows the families of 23 October 2026`() {
         val date = LocalDate.of(2026, 10, 23)
         val s = DaySummary.of(Kyureki.of(date), Rekichu.of(date))
-        // 先負, 成, 牛宿, 一粒万倍日, 大明日, 母倉日, 三隣亡, 大犯土: 11 named good, 12 to avoid, building both ways.
+        // 先負, 成, 牛宿, 一粒万倍日, 大明日, 母倉日, 三隣亡, 大犯土: 11 named good, 12 to avoid, building both ways;
+        // the disputes 牛宿 avoids are drawn apart from agreements.
         assertEquals(11, s.good.size)
         assertEquals(12, s.avoid.size)
         assertEquals(
@@ -62,7 +63,7 @@ class DaySummaryTest {
             s.goodFamilies,
         )
         assertEquals(
-            listOf(ActivityFamily.BUILDING, ActivityFamily.EARTH, ActivityFamily.WELL, ActivityFamily.FIELD, ActivityFamily.AGREEMENT, ActivityFamily.CONDUCT),
+            listOf(ActivityFamily.BUILDING, ActivityFamily.EARTH, ActivityFamily.WELL, ActivityFamily.FIELD, ActivityFamily.DISPUTE, ActivityFamily.CONDUCT),
             s.avoidFamilies,
         )
         assertEquals(setOf(ActivityFamily.BUILDING), s.disputedFamilies)
@@ -160,6 +161,48 @@ class DaySummaryTest {
                 if (n.activity in Activities.of(pair.goodKeys)) {
                     assertTrue(n.good.any { it.english == DayFactor.ELEMENT_PAIR.english }, "$date ${n.activity}: the pair names it")
                 }
+            }
+            date = date.plusDays(1)
+        }
+    }
+
+    @Test
+    fun `the Tibetan line of 1 November 2026 shows the heaviest works`() {
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
+        val (good, avoid) = s.row()
+        // Destroying: the element pair (10), Rāhu (9), Ārdrā (7), the 22nd (5) and Viṣṭi (4).
+        assertEquals(35, good.first().weight)
+        assertEquals(
+            listOf(ActivityFamily.DESTROYING, ActivityFamily.LEARNING, ActivityFamily.BUILDING, ActivityFamily.EARTH),
+            good.map { it.activity.family },
+        )
+        assertEquals(
+            listOf(ActivityFamily.WEDDING, ActivityFamily.SACRED, ActivityFamily.DISPUTE, ActivityFamily.LIVESTOCK),
+            avoid.map { it.activity.family },
+        )
+    }
+
+    @Test
+    fun `the Tibetan line shows each family once, heaviest first`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val (good, avoid) = s.row()
+            val families = (good + avoid).map { it.activity.family }
+            assertEquals(families.distinct(), families, "$date: a family twice")
+            assertTrue(families.size <= DaySummary.ROW_SLOTS, "$date")
+            assertTrue(good.all { it.good.isNotEmpty() } && avoid.all { it.avoid.isNotEmpty() }, "$date: a work on the wrong side")
+            for (side in listOf(good, avoid)) assertEquals(side.sortedByDescending { it.weight }, side, "$date: heaviest first")
+            // Half the places each, unless a side has fewer families to show.
+            val goodFamilies = s.good.map { it.activity.family }.toSet()
+            val avoidFamilies = s.avoid.map { it.activity.family }.toSet()
+            if (goodFamilies.size >= 8 && avoidFamilies.size >= 8) assertEquals(4 to 4, good.size to avoid.size, "$date")
+            // A family left out of a side weighs no more there than the lightest shown on it.
+            for ((side, notes) in listOf(good to s.good, avoid to s.avoid)) {
+                if (side.size < 4) continue
+                val shown = families.toSet()
+                val left = notes.filter { it.activity.family !in shown }.maxOfOrNull { it.weight } ?: continue
+                assertTrue(left <= side.last().weight, "$date: ${side.last().activity} shown before a heavier work")
             }
             date = date.plusDays(1)
         }
