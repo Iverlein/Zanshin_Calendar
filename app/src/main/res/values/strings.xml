@@ -405,6 +405,13 @@
     <string name="haircut_days">The thirty lunar days</string>
     <!-- a lunar day and what cutting hair on it brings -->
     <string name="haircut_day">Day %1$d: %2$s</string>
+    <!-- the Haircut row, weighed (SPEC §10.3): "good · by Tuesday"; %1$s is brief_good or brief_avoid, %2$s the factor that decides -->
+    <string name="haircut_by">%1$s · by %2$s</string>
+    <!-- the Haircut sheet's note; %1$s lists the factors standing on the decided side, strongest first -->
+    <string name="haircut_note">Weighed as the White Beryl says: the strongest factor that names haircuts decides, here %1$s.</string>
+    <string name="haircut_date_agrees">the date\'s own day (FPMT), in agreement</string>
+    <!-- %1$s is the factor that outweighs it -->
+    <string name="haircut_date_outweighed">the date\'s own day (FPMT), outweighed by %1$s</string>
     <!-- V3 diagrams of the Tibetan rows (SPEC §10.7) -->
     <string name="desc_combination_table">The 28 named combinations of weekday and mansion, today\'s marked</string>
     <string name="combination_table_axes">Rows: the weekday · columns: the mansion, Aśvinī first</string>

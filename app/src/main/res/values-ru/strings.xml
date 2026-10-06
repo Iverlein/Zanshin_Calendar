@@ -330,6 +330,10 @@
     <string name="pair_grid_axes">Строки — день недели · столбцы — созвездие</string>
     <string name="haircut_days">Тридцать лунных дней</string>
     <string name="haircut_day">День %1$d: %2$s</string>
+    <string name="haircut_by">%1$s · решает: %2$s</string>
+    <string name="haircut_note">Взвешено по «Белому бериллу»: решает сильнейший фактор, называющий стрижку; сегодня: %1$s.</string>
+    <string name="haircut_date_agrees">собственный день даты (FPMT), совпадает</string>
+    <string name="haircut_date_outweighed">собственный день даты (FPMT), перевешен: %1$s</string>
     <string name="desc_combination_table">28 именных сочетаний дня недели и созвездия, отмечено сегодняшнее</string>
     <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Aśvinī</string>
     <string name="desc_nectar_dial">Часы дня, полночь вверху, с периодами нектара</string>

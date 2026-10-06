@@ -47,6 +47,7 @@ import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DaySummary
@@ -212,6 +213,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val forBirthYear = stringResource(R.string.tib_for_birth_year)
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
+        // The haircut as the brief weighs it (SPEC §5.12): the side, and the factors standing on it, strongest first.
+        val haircutNote = summary.activities.firstOrNull { it.activity == Activity.HAIRCUTS }
+        val haircutTone = haircutNote?.let { if (it.good.isNotEmpty()) Tone.GOOD else Tone.BAD }
+        val haircutStanding = haircutNote?.let { it.good + it.avoid }.orEmpty()
+        val haircutBy = haircutStanding.firstOrNull()?.let { by ->
+            stringResource(R.string.haircut_by, stringResource(if (haircutTone == Tone.GOOD) R.string.brief_good else R.string.brief_avoid), by.kanji)
+        }
+        val haircutWhy = stringResource(R.string.haircut_note, haircutStanding.joinToString(" · ") { it.kanji })
+        val haircutDateTone = if (day.day in Texts.HAIRCUT_GOOD) Tone.GOOD else Tone.BAD
+        val haircutDateTitle = stringResource(R.string.haircut_day, day.day, Catalog.text(Texts.HAIRCUT[day.day - 1].arg!!))
+        val haircutDateNote = when {
+            haircutTone == null || haircutTone == haircutDateTone -> stringResource(R.string.haircut_date_agrees)
+            else -> stringResource(R.string.haircut_date_outweighed, haircutStanding.first().kanji)
+        }
         val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
         val yogaSubtitle = stringResource(R.string.tib_yoga_subtitle, day.yoga.english)
         val personalMansionSubtitle = stringResource(R.string.tib_personal_mansion_subtitle, day.mansion.sanskrit)
@@ -417,17 +432,33 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { YogaRing(day.yoga, 280.dp) },
                 ),
             )
+            // The row is the haircut weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the
+            // date is one of the date's lists, shown in the sheet as such, outweighed where it is.
             val haircut = Texts.HAIRCUT[day.day - 1]
+            val dateDay = Annotation(
+                haircutDateTitle,
+                haircutDateNote,
+                haircutDateTone,
+                haircut,
+                titleIsKanji = false,
+                diagram = { HaircutGrid(day.day) },
+            )
             add(
-                Annotation(
-                    haircutTitle,
-                    Catalog.text(haircut.arg!!),
-                    if (day.day in Texts.HAIRCUT_GOOD) Tone.GOOD else Tone.BAD,
-                    haircut,
-                    titleIsKanji = false,
-                    glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
-                    diagram = { HaircutGrid(day.day) },
-                ),
+                if (haircutTone == null || haircutBy == null) {
+                    dateDay.copy(title = haircutTitle, english = Catalog.text(haircut.arg!!), glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) })
+                } else {
+                    Annotation(
+                        haircutTitle,
+                        haircutWhy,
+                        haircutTone,
+                        null,
+                        subtitle = haircutBy,
+                        titleIsKanji = false,
+                        lead = { Box(Modifier.size(8.dp).background(toneColor(haircutTone), CircleShape)) },
+                        glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
+                        parts = listOf(dateDay),
+                    )
+                },
             )
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
