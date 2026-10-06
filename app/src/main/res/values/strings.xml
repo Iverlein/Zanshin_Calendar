@@ -307,6 +307,15 @@
     <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
     <string name="tib_rahu_month_subtitle">its course in %1$s: good for fierce work</string>
     <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
+    <!-- Rāhu's compass (SPEC §10.7): the caption under it in the sheet; %1$d is the lunar date, %2$s and %3$s directions -->
+    <string name="rahu_course_detailed">Date %1$d, the detailed course: %2$s → %3$s</string>
+    <string name="rahu_course_general">Date %1$d, the general course: %2$s → %3$s</string>
+    <string name="rahu_course_lake">Date %1$d, the general course: from the sky into the lake</string>
+    <string name="rahu_course_everywhere">Date %1$d, the general course: through above, below and every direction</string>
+    <!-- %1$s is one of the captions above -->
+    <string name="desc_rahu_compass">Rāhu\'s course, north at the top. %1$s</string>
+    <!-- the compass's four cardinal letters, north, east, south, west, separated by spaces -->
+    <string name="compass_letters">N E S W</string>
     <string name="brief_also_avoid">also named to avoid</string>
     <string name="brief_also_good">also named good</string>
     <string name="tone_lucky">lucky</string>

@@ -271,6 +271,12 @@
     <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
     <string name="tib_rahu_month_subtitle">его путь в месяц «%1$s»: хорош для грозных дел</string>
     <string name="tib_rahu_general_subtitle">%1$d-е число: куда движется Раху</string>
+    <string name="rahu_course_detailed">%1$d-е число, подробный путь: %2$s → %3$s</string>
+    <string name="rahu_course_general">%1$d-е число, общий путь: %2$s → %3$s</string>
+    <string name="rahu_course_lake">%1$d-е число, общий путь: с неба в озеро</string>
+    <string name="rahu_course_everywhere">%1$d-е число, общий путь: вверх, вниз и во все стороны</string>
+    <string name="desc_rahu_compass">Путь Раху, север вверху. %1$s</string>
+    <string name="compass_letters">С В Ю З</string>
     <string name="brief_also_avoid">названо и среди «избегать»</string>
     <string name="brief_also_good">названо и среди «хорошо»</string>
     <string name="tone_lucky">благоприятно</string>

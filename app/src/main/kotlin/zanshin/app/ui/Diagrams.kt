@@ -64,6 +64,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DayTime
 import zanshin.core.texts.Texts
+import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.GreatCombination
@@ -71,6 +72,7 @@ import zanshin.core.tibetan.IndianElement
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
+import zanshin.core.tibetan.RahuMove
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
@@ -261,6 +263,77 @@ fun Compass(bearing: Int, size: Dp, description: String) {
         drawPath(needle, Palette.vermilion.copy(alpha = 0.18f))
         drawPath(needle, Palette.vermilion, style = Stroke(1.4.dp.toPx()))
         drawCircle(Palette.text, 1.8.dp.toPx(), c)
+    }
+}
+
+// ---------------------------------------------------------------- Rāhu
+
+/** The bearing of one of the eight directions, clockwise from north. */
+private fun bearingOf(d: Direction): Float = d.ordinal * 45f
+
+/**
+ * Rāhu's course on a date ([move], `RahuCourse.of`) as a compass, north at
+ * the top as the 恵方's: an arrow from the direction it comes from to the one
+ * it goes to; on the 14th arrows into the middle (from the sky into the
+ * lake), on the 30th out to every direction. [caption] says which course
+ * and where; the large one shows it below and adds the eight directions'
+ * ticks and the four cardinal letters, the small one is a mark for the
+ * almanac row.
+ */
+@Composable
+fun RahuCompass(move: RahuMove, size: Dp, caption: String, small: Boolean = false) {
+    val measurer = rememberTextMeasurer()
+    val letters = stringResource(R.string.compass_letters).split(' ')
+    val description = stringResource(R.string.desc_rahu_compass, caption)
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+            val c = center
+            val r = this.size.minDimension / 2 - (if (small) 0.75f else 2f).dp.toPx()
+            val stroke = (if (small) 1.4f else 2f).dp.toPx()
+            val head = (if (small) 3.5f else 9f).dp.toPx()
+            drawCircle(Palette.lineStrong, r, c, style = Stroke(1.dp.toPx()))
+            if (!small) {
+                for (k in 0 until 8) {
+                    drawLine(
+                        if (k % 2 == 0) Palette.muted else Palette.faint,
+                        polar(c, r - (if (k % 2 == 0) r * 0.08f else r * 0.05f), k * 45f),
+                        polar(c, r, k * 45f),
+                        (if (k % 2 == 0) 1.4f else 1f).dp.toPx(),
+                        StrokeCap.Round,
+                    )
+                }
+                letters.take(4).forEachIndexed { i, l ->
+                    label(measurer, l, polar(c, r * 0.8f, i * 90f), body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.muted))
+                }
+            }
+            val reach = if (small) r * 0.72f else r * 0.62f
+            fun arrow(from: Offset, to: Offset) {
+                drawLine(Palette.vermilion, from, to, stroke, StrokeCap.Round)
+                val back = bearingOf(to, from)
+                val tip = Path().apply {
+                    val l = polar(to, head, back - 28f)
+                    val rr = polar(to, head, back + 28f)
+                    moveTo(to.x, to.y); lineTo(l.x, l.y); lineTo(rr.x, rr.y); close()
+                }
+                drawPath(tip, Palette.vermilion)
+            }
+            when (move) {
+                is RahuMove.Across -> {
+                    val from = polar(c, reach, bearingOf(move.from))
+                    arrow(from, polar(c, reach, bearingOf(move.to)))
+                    drawCircle(Palette.vermilion, stroke * 1.4f, from)
+                }
+                RahuMove.IntoTheLake -> {
+                    for (k in 0 until 8 step 2) arrow(polar(c, reach, k * 45f), polar(c, reach * 0.4f, k * 45f))
+                    drawCircle(Palette.vermilion.copy(alpha = 0.25f), reach * 0.28f, c)
+                }
+                RahuMove.Everywhere -> {
+                    for (k in 0 until 8) arrow(polar(c, reach * 0.2f, k * 45f), polar(c, reach, k * 45f))
+                }
+            }
+            if (!small && move is RahuMove.Across) drawCircle(Palette.text, 1.8.dp.toPx(), c)
+        }
+        if (!small) Caption(caption)
     }
 }
 

@@ -63,6 +63,8 @@ import java.time.ZoneId
 import zanshin.core.tibetan.ForceContrast
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PersonalDay
+import zanshin.core.tibetan.RahuCourse
+import zanshin.core.tibetan.RahuMove
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.Sign
@@ -239,6 +241,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
         val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.season)
+        // Rāhu's compass: the course its date's reading gives, the detailed where it names one (SPEC §10.7).
+        val rahuMove = RahuCourse.of(day.day)
+        val rahuCaption = when (rahuMove) {
+            is RahuMove.Across -> stringResource(
+                if (RahuCourse.isGeneral(day.day)) R.string.rahu_course_general else R.string.rahu_course_detailed,
+                day.day,
+                rahuMove.from.english,
+                rahuMove.to.english,
+            )
+            RahuMove.IntoTheLake -> stringResource(R.string.rahu_course_lake, day.day)
+            RahuMove.Everywhere -> stringResource(R.string.rahu_course_everywhere, day.day)
+        }
+        val rahuMark: @Composable () -> Unit = { RahuCompass(rahuMove, 24.dp, rahuCaption, small = true) }
+        val rahuDiagram: @Composable () -> Unit = { RahuCompass(rahuMove, 200.dp, rahuCaption) }
         val daySmeBa = remember(info.date) { DaySmeBa.of(info.date) }
         val blaMkhyenTitle = stringResource(R.string.tib_bla_mkhyen_title)
         val blaMkhyenSubtitle = stringResource(R.string.tib_bla_mkhyen_subtitle, daySmeBa.sevenRed.english, daySmeBa.number)
@@ -317,14 +333,14 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             )
             // Rāhu's courses by date and by month, one row: the White Beryl's one Rāhu (SPEC §5.13).
             val rahu = listOfNotNull(
-                Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false) },
-                Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, it, subtitle = rahuGeneralSubtitle, titleIsKanji = false) },
+                Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
+                Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, it, subtitle = rahuGeneralSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_MONTH[day.month to day.day]?.let { Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, it, subtitle = rahuMonthSubtitle, titleIsKanji = false) },
             )
             if (rahu.size == 1) {
                 add(rahu.single().copy(subtitle = null))
             } else if (rahu.size > 1) {
-                add(Annotation(rahuTitle, rahuCourses, Tone.NEUTRAL, null, subtitle = rahu.joinToString(" · ") { it.english }, titleIsKanji = false, parts = rahu))
+                add(Annotation(rahuTitle, rahuCourses, Tone.NEUTRAL, null, subtitle = rahu.joinToString(" · ") { it.english }, titleIsKanji = false, glyphs = rahuMark, parts = rahu))
             }
             add(
                 Annotation(
