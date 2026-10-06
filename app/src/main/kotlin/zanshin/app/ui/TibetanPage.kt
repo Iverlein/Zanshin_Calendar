@@ -88,7 +88,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
-    val summary = remember(day.jd, labels.locale) { DaySummary.of(day) }
+    val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions) { DaySummary.of(day, info.personalDay, info.personalMansions) }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }

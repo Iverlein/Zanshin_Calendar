@@ -272,6 +272,9 @@
     <string name="brief_by_tone">By tone</string>
     <string name="brief_for_you">For you</string>
     <string name="brief_birth_star">birth star and day star: %1$s</string>
+    <!-- the Tibetan brief's For you block: which of the day's factors is one's own, the weekday or the mansion: "Wednesday, for your birth year" -->
+    <string name="brief_personal_of">%1$s, for your birth year</string>
+    <string name="brief_personal_not_weighed">Shown, not weighed. The White Beryl calls a person\'s own weekdays and mansions of particular importance, but neither it nor any other text found places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
     <string name="brief_note">Listed as the sources give them. No published rule ranks one kind of annotation above another, so the kinds are not weighed; where they disagree, both are shown. Only the lower band\'s own rules set some notes aside.</string>
     <string name="brief_set_aside">Set aside</string>
     <string name="brief_set_aside_alone">stands alone in the lower band; these do not count today</string>

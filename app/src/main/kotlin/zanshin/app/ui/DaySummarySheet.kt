@@ -226,7 +226,21 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onDismiss: () -> U
 
             if (s.personal.isNotEmpty() || s.affinity != null) {
                 Block(stringResource(R.string.brief_for_you)) {
-                    if (s.personal.isNotEmpty()) Terms(s.personal)
+                    if (s.verdict != null) {
+                        // The Tibetan day's own weekday and mansions: shown with their tones, not weighed (SPEC §5.12).
+                        for (e in s.personal) {
+                            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                                Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(e.tone), CircleShape))
+                                Column {
+                                    Text(e.kanji, style = body.copy(fontSize = 16.sp))
+                                    Text(stringResource(R.string.brief_personal_of, e.english), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                                }
+                            }
+                        }
+                        Text(stringResource(R.string.brief_personal_not_weighed), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                    } else if (s.personal.isNotEmpty()) {
+                        Terms(s.personal)
+                    }
                     s.affinity?.let { a ->
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             Box(Modifier.size(8.dp).background(toneColor(a.relation.tone), CircleShape))
