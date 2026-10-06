@@ -12,7 +12,11 @@ the text, not about the app.
    BDRC's search. Counted from sel ba, four of the five bad numbers are
    WB's own bad yogas (6 rab stongs, 9 gzer, 10 'bras, 13 rma chen) and
    five of the good (2, 3, 5, 7, 8) its good ones; 18 (dpa' bo) in the bad
-   list and 6 in the good stay unexplained, and so does རང་སྐྱེས.* WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
+   list and 6 in the good stay unexplained, and so does རང་སྐྱེས. 2026-10-06: Mkhyen rab nor bu's digest of WB
+   replaces the verse with the nine yogas of WB's avoidance verse, the
+   other eighteen good, which keeps 6, 9, 10 and 13 counted from sel ba
+   and makes dpa' bo good; it does not gloss 18 or རང་སྐྱེས ([yogas.md](yogas.md),
+   "A reader's restatement").* WB p. 349, the yoga ranking (the same words in WB2, the Sakya Centre
    print): does "དྲུག་དགུ་བཅུ་དང་བཅུ་གསུམ་དང་། །བཅོ་བརྒྱད་
    ངན" count the yogas from Viṣkambha (making the 18th, dpa' bo, bad,
    against its good short reading), or from somewhere else? And how is
@@ -22,14 +26,21 @@ the text, not about the app.
    number words, 3 and 5, and the line's last syllable is རོ, 6: the
    chu tshod to avoid at the start of sel ba, zug rngu and the two
    skrangs pa, as in the Indian rule.
-3. KP: in each table, which abbreviation stands for chu smad
-   (Uttarāṣāḍhā) and which for khrums smad (Uttarabhādrapadā)?
-4. WB p. 330, gshed skar: the 1996 edition prints 23 for nag pa (Tiger's
-   skeg) and for she sa (Horse's gshed), where NM and SY have 13 and 26.
-   Is there a reason to keep the 1996 numbers? *(2026-10-03: the numbers
-   are the 1996 editors' additions; the names they stand beside, ནག =
-   nag pa (13) and ཤེ་ས = nam gru (26), already agree with NM and SY. The
-   woodblock print WB2 has no numbers; its page was not found yet.)*
+3. ~~KP: in each table, which abbreviation stands for chu smad
+   (Uttarāṣāḍhā) and which for khrums smad (Uttarabhādrapadā)?~~
+   *Answered 2026-10-03 ([mansions.md](mansions.md), "The
+   abbreviations"; [kp-activities.md](kp-activities.md)): ཆུཾད is chu
+   smad, ཁྲུཾད (once ཁྲིད) khrums smad; where the two are confused, WB's
+   verses or the box's other half settle which is meant.*
+4. ~~WB p. 330: the 1996 edition prints 23 for nag pa (Tiger's skeg) and
+   for she sa (Horse's gshed), where NM and SY have 13 and 26. Is there a
+   reason to keep the 1996 numbers?~~ *Answered 2026-10-06
+   ([personal-mansions.md](personal-mansions.md), "Where the 1996 numbers
+   come from"): no. The numbers are carved above the names in the Zhol
+   print of the Lhasa blocks (WBZ, img. 1086–1087). There ཤེ་ས has ༢༦, so
+   the 1996 edition's 23 is its own misprint; ནག has ༢༣, but the same
+   blocks number the same ནག ༡༣ one verse earlier, and NM, SY and KP have
+   13, so the blocks' ༢ is a slip for ༡ that the 1996 edition copied.*
 5. ~~The Mouse's gshed gza'.~~ *Answered 2026-10-05
    ([personal-mansions.md](personal-mansions.md)): SY's ཟླ་བ is a slip.
    Each animal's gshed gza' is the weekday of the element that destroys
@@ -57,15 +68,17 @@ the text, not about the app.
    items 1–4 are on img. 8; box 1 is the opening prose, box 4 the robe
    chart, box 52 is on img. 55; boxes 50 and 51 are missing from the
    Mtho las dgon print but present in a second print (KP2, img. 276–277).
-8. *Narrowed 2026-10-05 ([yogas.md](yogas.md)): the tradition has three
-   readings. ཕྲད (meeting) in WB's prints, *Gdan dus thun mong gi rtsis
-   gzhi* and the *Rtsis kyi lag len nyer mkho'i bum bzang* of Si tu dbon
-   Karma nges legs bstan 'dzin and Mi pham dge legs rnam rgyal, which adds
-   on the scan «བྲལ་ཞེས་ཀྱང་སྣང་», "'parting' is also found"; འགྲས (falling
-   out) in KP, *Dkar rtsis dang nag rtsis kyi gzhung* (Thimphu 1981) and
-   *Rtsis rig shes bya kun gsal*; འབྲལ (parting) in two modern books. The
-   two negative readings fit the name and WB's own long reading and
-   avoidance; WB's own words are ཕྲད.* KP's short reading of the yoga sha 'khon (img. 70) is "falling out with
+8. ~~KP's sha 'khon: did KP's compiler correct WB, or slip?~~ *Answered
+   2026-10-06 ([yogas.md](yogas.md), "Sha 'khon's short reading in other
+   books"): corrected. WB reads ཕྲད in every print, the Zhol blocks
+   included (WBZ img. 1103, and a second impression of the same blocks,
+   MW4CZ74207 img. 1113), and no older text has the verse. The negative
+   verb was put in more than once and in two words: འགྲས in KP and two
+   later books, འབྲལ in Mkhyen rab nor bu's digest of WB (*Bod kyi rtsis
+   rig kun 'dus chen mo*, vol. 3), in the *Bum bzang*'s note and in modern
+   books. Neither comes easily from ཕྲད by a slip; both fit the name, WB's long
+   reading and its avoidance of the yoga whole.* The question as it stood:
+   KP's short reading of the yoga sha 'khon (img. 70) is "falling out with
    a woman friend" (མཛའ་དང་འགྲས), WB p. 349 "meeting a woman friend" (མཛའ་དང་ཕྲད).
    Sha 'khon is avoided entirely in WB's own list. *(2026-10-03: WB2, the
    Sakya Centre print, reads ཕྲད too, so the difference is KP's; did KP's

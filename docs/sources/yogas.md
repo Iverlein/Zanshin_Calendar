@@ -157,6 +157,24 @@ words allow, read against WB's own short readings above:
   places of that count, not good; or an epithet of one yoga (Brahmā is
   "self-born", and tshangs pa, 25, is good), which no text confirms.
 
+**A reader's restatement (2026-10-06).** Mkhyen rab nor bu's digest of
+WB (*Bod kyi rtsis rig kun 'dus chen mo*, vol. 3, p. 732, etext only; see
+"Sha 'khon's short reading in other books" below) does not repeat the
+numbered verse. In its place, under the almanacs' names:
+
+> །སེལ་བ་ཤིན་ཏུ་སྐྲངས་ཟུག་རྔུ། །སྐྲངས་དང་ཀུན་འཇོམས་རྡོ་རྗེ་དང་། །ཤིན་ཏུ་ལྟུང་དང་ཡོངས་འཇོམས་དང༌། ཁོན་འཛིན་དགུ་པོ་ངན་པ་སྟེ། །དེ་ལྷག་བཅོ་བརྒྱད་བཟང་པོར་བཤད། །བཟང་བ་རྣམས་ལ་དགེ་ལས་དང་། །ངན་པ་རྣམས་ལ་སྡིག་ལས་ཤིས། །
+
+"Sel ba, shin tu skrangs (6, WB's rab stongs), zug rngu (9, gzer), skrangs
+(10, 'bras), kun 'joms (13, rma chen), rdo rje (15), shin tu ltung (17,
+kun brdungs), yongs 'joms (19) and khon 'dzin (27, sha 'khon): these nine
+are bad; the other eighteen are called good." There is no middling class
+and no line with རང་སྐྱེས. The nine are the nine of WB's avoidance verse
+(above). WB's 6, 9, 10 and 13 are four of them when counted from sel ba,
+and the digest reads dpa' bo (its mchog can, 18) as good, «མཆོག་ཅན་དགྲ་ལས་
+རྒྱལ་བ་ཡིན». So one later reader counted from sel ba and did
+not keep the 18th bad; he replaced the numbered verse rather than glossing
+it, so his text does not say how he read 18 or རང་སྐྱེས.
+
 The app still does not use the ranking.
 
 ## A second witness: NM and SY
@@ -207,8 +225,9 @@ WB2, the Sakya Centre print (below), also has ཕྲད, so the change is KP's.
 ## A second print of WB: the Sakya Centre edition
 
 WB2 (Sakya Centre, Dehradun, BDRC MW1KG12714, vol. 2 scans I1KG12740,
-"reproduced from a set of prints"), img. 486–487, read 2026-10-03 on the
-scan; the scans are 1224 pixels wide, so the OCR of these pages is
+"reproduced from a set of prints"), img. 488–489 (cited as 486–487 until
+2026-10-06, from copies saved two places off BDRC's labels), read
+2026-10-03 on the scan; the scans are 1224 pixels wide, so the OCR of these pages is
 unreliable (it reported variants the scan does not bear out) and the lines
 below were read on enlarged crops:
 
@@ -222,14 +241,15 @@ prints carry the same words.
 
 ## Sha 'khon's short reading in other books (question 8)
 
-BDRC's full-text search, 2026-10-05, finds the line in nine places, with
-three verbs:
+BDRC's full-text search, 2026-10-05, found the line in nine places; a
+search on «བུད་མེད་མཛའ་དང» alone (2026-10-06), which survives the OCR's
+misreadings of the yoga's name, finds eleven, with three verbs:
 
 | Reading | Where |
 | --- | --- |
-| ཕྲད, meeting | WB (1996 and the Ser thang print MW3CN5026; the transcription MW2PD17386_D19206); *Gdan dus thun mong gi rtsis gzhi* («…'ja' dang 'phrad», MW3CN2232_28865D); *Rtsis kyi lag len nyer mkho'i bum bzang* (below) |
+| ཕྲད, meeting | WB (1996 and the Ser thang print MW3CN5026; the transcription MW2PD17386_D19206); WB2 and both Zhol impressions (below, read on the scans); *Gdan dus thun mong gi rtsis gzhi* («…'ja' dang 'phrad», MW3CN2232_28865D); *Rtsis kyi lag len nyer mkho'i bum bzang* (below) |
 | འགྲས, falling out | KP box 4; *Dkar rtsis dang nag rtsis kyi gzhung* (Kunsang Topgyal, Thimphu 1981, MW26041, «sha 'ben» in its OCR); *Rtsis rig shes bya kun gsal* (Sera 1998, MW1KG4867) |
-| འབྲལ, parting | *Nying bcud rig gnas sdom bshad* (Lanzhou 2010, MW1PD137853), «…zhes gsungs so», quoting; the Northwest Nationalities University journal (MW1PD45099) |
+| འབྲལ, parting | Mkhyen rab nor bu's digest of WB (below); *Nying bcud rig gnas sdom bshad* (Lanzhou 2010, MW1PD137853), «…zhes gsungs so», quoting; the Northwest Nationalities University journal (MW1PD45099), the same words; Blo yangs rgyal and Sha bo tshe ring, *Bod kyi skar rtsis rig pa'i rnam bzhag* (Lanzhou 1997, MW1KG21760), «…zhes gsungs so»; 'Bro'i sbyin pa, *'Bras rtsis bar gsal li dwangs ma'i me long* (Lanzhou 2006, MW1KG21827), «…mdza' dang bral (phrad zhes pa'ang yod)», "'meeting' is also found" |
 
 The *Bum bzang* (by Si tu dbon Karma nges legs bstan 'dzin and Mi pham dge
 legs rnam rgyal, New Delhi 1977, BDRC MW1GS88389, vol. I1GS88391, img. 323,
@@ -241,10 +261,51 @@ f. 315, line 5, read on the scan) names the yoga with the almanacs'
 "'khon 'dzin: meeting a woman friend; 'parting' is also found." So the
 variant is older than the modern books (which of the book's two authors
 wrote the line, and when, the 1977 reprint does not say), and the book that
-records it keeps ཕྲད in its line. WB's own words are ཕྲད in both prints. The two
-negative verbs fit the name (*sha 'khon*, a blood feud), WB's long reading
-of the yoga (the retinue declines, deeds end badly) and its avoidance of
-the yoga whole; ཕྲད fits none of these, but it is the text.
+records it keeps ཕྲད in its line.
+
+**The Zhol print (2026-10-06).** WBZ (the Lhasa blocks, MW1KG1617,
+I1KG1710), img. 1103, line 2, read on the scan at 5× and 8×:
+
+> །ཤ་འཁོན་བུད་མེད་མཛའ་དང་ཕྲད།
+
+The last syllable is ཕ with a subscript ར and a final ད, with nothing of a
+ག or a final ས. MW4CZ74207 (I4CZ74285) is another impression of the same
+blocks: its img. 1113 matches WBZ's img. 1103 line for line, illustrations
+included, and it reads ཕྲད at the same place. So WB has ཕྲད in the Derge
+line (WB2), the Lhasa blocks and the 1996 edition. No text older than WB
+has the verse: searches on two of its other lines («ཀུན་བརྡུངས་བྱེས་སུ་འགྲོ»,
+the sha 'khon line) find only WB, its copies and later books.
+
+**Mkhyen rab nor bu's digest.** *Bod kyi rtsis rig kun 'dus chen mo*
+(Si khron mi rigs dpe skrun khang, Chengdu 1998, BDRC MW28845), vol. 3,
+from p. 730 to the end of the volume, prints a digest of WB's fifth section, «ལྔ་པ་འཕྲོད་དང་སྦྱོར་བྱེད་
+རྟེན་འབྲེལ་ཉི་མ་སྤར་སྨེ་ཚེས་ཀྱི་ས་བདག་…བཅས་ཀྱི་འབྲས་བུ་གསལ་བར་བཏུས་པ», signed «མཁྱེན་
+རབ་ནོར་བུས་མཛད», with the running head «བཻ་དཀར་ལས་འཕྲོད་སྦྱོར་སོགས་ཀྱི་འབྲས་བུ་ཟུར་དུ་
+བཀོལ་བ», "the results of the combinations, yogas and so on, taken out of
+the *Vaidūrya dkar po*". BDRC's P227 is Rtsed thang mkhyen rab nor bu
+(1883–1962), master of the Lhasa Sman rtsis khang; the volume gives no
+dates or place for its author. From the etext only (pp. 732–733;
+the scans are lending-only on archive.org, and BDRC serves 41 preview
+images). It gives the yogas the almanacs' names, and ends the short
+readings with
+
+> །ཁོན་འཛིན་བུད་མེད་མཛའ་དང་འབྲལ། །
+
+So the negative reading comes in two forms, from three separate lines of
+transmission: འགྲས in KP (an A mdo print) and the two books that share
+its wording, འབྲལ in Mkhyen rab nor bu's digest of WB, in the Karma Kamtshang *Bum
+bzang*'s note and in modern books printed in Lanzhou. Neither verb comes
+easily from ཕྲད by a slip of the eye or the knife: འགྲས shares only the
+subscript ར with it, and འབྲལ, whose བྲ is near ཕྲ, would need a prefix
+added and ད turned into ལ. Both are deliberate
+words that fit what WB says of the yoga elsewhere: the name (*sha 'khon*,
+a blood feud), the long reading (the retinue declines, deeds end badly)
+and the avoidance of the yoga whole. Two books print one verb and record
+the other beside it (the *Bum bzang*, 'Bro'i sbyin pa).
+
+So KP's compiler corrected WB here, and did not slip. Others corrected it
+too, in another word, against a text that reads ཕྲད in
+every print. The app gives WB's reading, "meeting a woman friend".
 
 ## Long readings, in brief
 

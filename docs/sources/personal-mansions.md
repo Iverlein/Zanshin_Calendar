@@ -82,13 +82,39 @@ agree:
 | --- | --- | --- | --- | --- |
 | srog, Ox | ནག་པ(༡༣) | ༣ | ནག་པ | 13; NM's OCR lost a digit |
 | srog, Tiger, Hare, Dog | ཤེ་ས(༢༦), ནམ་གྲུ(༢༦), ཤེ(༢༦) | 26 | ནམ་གྲུ | 26; ཤེ་ས and ཤེ are verse names for nam gru |
-| skeg, Tiger | ནག(༢༣) | 13 | ནག་པ | 13; WB's editors misprint 23 |
-| gshed, Horse | ཤེ་ས(༢༣) | 26 | ནམ་གྲུ | 26; WB's editors misprint 23 |
+| skeg, Tiger | ནག(༢༣) | 13 | ནག་པ | 13; the Lhasa blocks' own slip, copied by the 1996 edition (below) |
+| gshed, Horse | ཤེ་ས(༢༣) | 26 | ནམ་གྲུ | 26; the Lhasa blocks have ༢༦, the 1996 edition misprints 23 (below) |
 | gshed, Sheep | ནམ་གྲུ(༢༦) | ༦ | ནམ་གྲུ | 26; NM's OCR lost a digit |
 
 The verse's other synonyms: ཁྲ = dbo (11), དབྱུག = tha skar (0), ཝ = skag
 (8), ལག་སོར = lha mtshams (16), བྲེ = chu stod (19); the editors' numbers
 and SY's names agree on each.
+
+### Where the 1996 numbers come from
+
+The numbers are not the 1996 editors' own. The Zhol print of the Lhasa
+blocks (**WBZ**, BDRC MW1KG1617, img. 1086–1087, read on the scan on
+2026-10-06) carries them as small numerals carved above the names, and
+the Derge redaction (WB2, img. 472–473) has marks in the same places,
+too small at 1212 px to read. The 1996 edition prints them in brackets.
+In WBZ ༡ is the hooked "7", ༢ the curled "2", ༣ the "3" with two bows,
+༦ the round bowl with a curl; the readings are checked against the
+neighbouring numerals of known value (༡༡ over དབོ and ཁྲ, ༥ over ཕུར, ༨
+over སྐག, ༠ over སྤེན).
+
+- **Tiger's skeg.** WBZ has «ཁྲུམས་སྨད(༢༥) བྲ་ཉེ(༡) ནག(༢༣) ཁྲུམས་སྨད(༢༥)»
+  (img. 1086, last line), so 23 is in the blocks. The same blocks put ༡༣
+  over the same ནག one verse earlier, «ནག(༡༣) སྐག(༨) བྲ་ཉེ(༡)» (bla skar,
+  img. 1086), and the verse spells mon gru, 23, out as མོན་གྲུ. NM and SY,
+  which do not depend on WB, have nag pa, 13, and so does KP, WB's chapter
+  carved as tables. The ༢ is a one-stroke slip for ༡ in the blocks'
+  numerals, which the 1996 edition copies; the name ནག stands, and it is
+  13.
+- **Horse's gshed.** WBZ has «ལྷག(༤) ཤེ་ས(༢༦)» (img. 1087, first line): 26,
+  as NM and SY, and as the 1996 edition itself numbers ཤེ་ས in the srog
+  verse. The 23 is the 1996 edition's misprint.
+
+The app's 13 and 26 stand (open question 4).
 
 **The weekdays** check the whole passage: all 36 (srog, bla and gshed gza')
 match Rabten's table in `personalDay`, whose "luck" day is the bla gza',

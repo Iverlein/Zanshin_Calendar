@@ -10,7 +10,7 @@ our own words). What is still to be found, and how, is in
 | File | Topic | Roadmap | State |
 | --- | --- | --- | --- |
 | [personal-mansions.md](personal-mansions.md) | Six personal mansions and three weekdays per birth animal, with their readings | T3 | Settled: read on the scan, checked against two other texts, Rabten and KP's table (img. 85) |
-| [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; two readings of the ranking verse open |
+| [yogas.md](yogas.md) | The 27 yogas: names, short and long readings, those to avoid, the ranking | T2 | Short readings, avoidance and ranking read on the scan; long readings from two OCR readings; KP as a third witness; the ranking verse's reading open (question 1); sha 'khon's variants traced (question 8) |
 | [karanas.md](karanas.md) | The 11 karaṇas: names and readings | T2 | Settled: read on the scan |
 | [lunar-dates.md](lunar-dates.md) | The 30 lunar dates, the four perilous dates, the five-fold cycle, the *bla gnas* | T2 | Activities read on the scan, no syllable left unread (date 25's སྒབ read but not identified); illness and remedy lines summarized only; all four *bla gnas* systems written out |
 | [weekdays.md](weekdays.md) | The seven planets as weekdays, and the closing verse | T2 | From two OCR readings, every disagreement settled on the scan; the words left out of the app's lists named |
@@ -27,7 +27,7 @@ our own words). What is still to be found, and how, is in
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions: 2, 5, 6, 7, 9, 10 and 11 answered; 1, 4 and 8 narrowed |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions: all but 1 answered; 1 narrowed |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).
@@ -51,7 +51,8 @@ in `wb/` (gitignored; see `wb/README.md`).
 | Siglum | Work | Edition | Access |
 | --- | --- | --- | --- |
 | **WB** | Sde srid Sangs rgyas rgya mtsho, *Phug lugs rtsis kyi legs bshad mkhas pa'i mgul rgyan bai DUr dkar po'i do shal* (*White Beryl*, 1685) | Krung go'i bod kyi shes rig dpe skrun khang, Pe cin 1996/1997, 2 vols | BDRC MW2CZ8040; etext IE0OPI51524892; scans of vol. 2 I1KG12907, open. In vol. 2 the printed page is the image number minus 8. |
-| **WB2** | the same work, Sakya Centre edition | Dehradun, 2 vols, "reproduced from a set of prints" | BDRC MW1KG12714; etext IE0OPI0BA3A0E0 (etext page = image number + 2); scans I1KG12739–40, open but only 1224 px wide |
+| **WB2** | the same work, Sakya Centre edition | Dehradun 1978, 2 vols, "reproduced from a set of prints from the 18th century Sde-dge blocks" (its preface) | BDRC MW1KG12714; etext IE0OPI0BA3A0E0 (etext page = image number, checked 2026-10-06; the earlier "+2" held only for files saved by canvas place); scans I1KG12739–40, open but only about 1210 px wide, too small for the interlinear numerals |
+| **WBZ** | the same work, Zhol print (Lhasa blocks) | Zhol par khang, Lhasa, 633 ff., folio numbers in Tibetan and Chinese | BDRC MW1KG1617; etext IE0OPI7850CC9C (etext page = image number); scans I1KG1710, open, 3752 px wide: the interlinear numerals above the mansion names are legible. Another impression of the same blocks, open: MW4CZ74207 (scans I4CZ74285, 2000 px; etext IE0OPI410D1808; its img. 1113 is WBZ's img. 1103 line for line, checked 2026-10-06). One more print, not yet read, open: the Taikhang reproduction of a Lhasa print, New Delhi 1972, MW30116 (scans I5877–I5878, 8280 px) |
 | **NM** | *'Bras rtsis rab gsal nor bu'i me long* (Sakya) | in *Dpal ldan sa skya pa'i gsung rab*, vol. 7, *rtsis gzhung stod cha*, Mi rigs dpe skrun khang, Pe cin 2004 | BDRC MW29978_8B19DD; etext IE0OPI8BBA1CDB; scans stream-only |
 | **SY** | Nam mkha' seng ge, *Skar yig blo gsal dga' bskyed blang dor gsal ba'i me long*, chapter *skar khra 'bras bshad* | in *Nam mkha' seng ge'i sman rtsis*, pp. 289–393 | BDRC MW2DB13644_565451; etext IE0OPI0000249F |
 | **KP** | *'Bras rtsis bai dkar dgongs don dri med kun phan me long* | Mtho las dgon print, A mdo, 120 images | BDRC MW4CZ65561 (scans I4CZ65599, open; no etext). A second dbu can print (**KP2**) in MW3CN12069_4F9795, vol. 4 (scans I3CN12074, img. 218–345, open); one in W21970 (restricted). |

@@ -58,18 +58,25 @@ says where to look and with which tool.
    readings in the mansion verses and the […] in
    [lunar-dates.md](lunar-dates.md) were settled on the scan on
    2026-10-04.)
-4. **WB2's personal-mansion verse** (question 4): not among WB2
-   img. 468–473. On 2026-10-04: img. 474 (folio side 462) is still the
-   mansion verses, and the etext has the weekday-and-mansion combinations
-   by p. 478–481 (img. 476–479), so the verse is on img. 475 or 476. Those
-   folios are served only at 1224 px (a larger `--width` returns no image),
-   too small to read the verse with confidence. The app does not wait on
-   it: the names NM, SY and WB print already agree (question 4).
+4. **WB2's personal-mansion verse** (question 4): **done** 2026-10-06. The
+   verse is on WB2 img. 472–473 (folio 461), found through the etext,
+   whose page is the image number; the earlier search went two images
+   astray (copies saved by canvas place) and the local OCR breaks down on
+   these folios. WB2 has small numerals over the names, too small at
+   ~1210 px. The Zhol print of the Lhasa blocks (WBZ, MW1KG1617, 3752 px)
+   has them legible on img. 1086–1087 and settles the question
+   ([personal-mansions.md](personal-mansions.md), "Where the 1996 numbers
+   come from"): the 1996 numbers are the blocks' interlinear numerals,
+   ཤེ་ས is ༢༦ there, and the ༢༣ over ནག is the blocks' own slip. Nothing
+   changes in the app.
 5. **Questions for a reader** ([open-questions.md](open-questions.md)):
-   1 (ranking) and 8 (sha 'khon's verb) remain, both narrowed on
-   2026-10-05 with BDRC's full-text search: the ranking verse has one more
-   witness and no gloss; sha 'khon has three readings in nine books, and
-   an older manual already notes the variant. Questions 5, 6 and 10 were
+   1 (ranking) remains, narrowed on 2026-10-05 with BDRC's full-text
+   search (one more witness, no gloss) and on 2026-10-06 (Mkhyen rab nor
+   bu's digest of WB replaces the verse with the avoidance verse's nine
+   bad yogas). 8 (sha 'khon's verb) was answered on 2026-10-06: every
+   print of WB has ཕྲད, the Zhol blocks included; KP's འགྲས and the
+   later books' འབྲལ are corrections, made separately, not slips
+   ([yogas.md](yogas.md)). Questions 5, 6 and 10 were
    answered the same day from WB itself (the weekdays' elements, the
    mansion verses, WB's own *gri* deaths and the rite *bu gri bkar*).
    Question 2 was answered on 2026-10-04 (number words: the yogas'
