@@ -213,13 +213,16 @@ class DaySummaryTest {
         // The Almanac's Haircut row shows this side and the factor that decides it (ROADMAP T2.1).
         var date = LocalDate.of(2000, 1, 1)
         while (date.year < 2050) {
-            val n = DaySummary.of(TibetanCalendar.of(date)).activities.singleOrNull { it.activity == Activity.HAIRCUTS }
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val n = s.activities.singleOrNull { it.activity == Activity.HAIRCUTS }
             assertTrue(n != null && (n.good.isEmpty() != n.avoid.isEmpty()), "$date: haircuts not weighed")
+            assertEquals(if (n!!.good.isNotEmpty()) Tone.GOOD to n.good else Tone.BAD to n.avoid, s.sideOf(Activity.HAIRCUTS), "$date")
             date = date.plusDays(1)
         }
         // 1 January 2026, the 13th, a Thursday: FPMT's day is good, Thursday's lists avoid haircuts and decide.
-        val n = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 1))).activities.single { it.activity == Activity.HAIRCUTS }
-        assertEquals("Thursday", n.avoid.first().kanji)
+        val (tone, standing) = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 1))).sideOf(Activity.HAIRCUTS)!!
+        assertEquals(Tone.BAD, tone)
+        assertEquals("Thursday", standing.first().kanji)
         assertTrue(13 in Texts.HAIRCUT_GOOD)
     }
 

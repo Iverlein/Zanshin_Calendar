@@ -118,6 +118,13 @@ data class DaySummary(
     /** The 旧暦 annotations the almanac does not count today, with the one that sets them aside (SPEC §7.5). */
     val setAside: Map<SummaryEntry, List<SummaryEntry>> = emptyMap(),
 ) {
+    /**
+     * The side the weighing gives [activity] on the day, GOOD or BAD, with the
+     * voices standing on it, strongest first; null when no voice names it.
+     */
+    fun sideOf(activity: Activity): Pair<Tone, List<SummaryEntry>>? =
+        activities.firstOrNull { it.activity == activity }?.let { if (it.good.isNotEmpty()) Tone.GOOD to it.good else Tone.BAD to it.avoid }
+
     val good: List<ActivityNote> get() = activities.filter { it.good.isNotEmpty() }
     val avoid: List<ActivityNote> get() = activities.filter { it.avoid.isNotEmpty() }
 

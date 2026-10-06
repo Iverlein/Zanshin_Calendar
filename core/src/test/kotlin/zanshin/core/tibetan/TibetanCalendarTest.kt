@@ -111,4 +111,28 @@ class TibetanCalendarTest {
         assertEquals(2451545L, LocalDate.of(2000, 1, 1).julianDayNumber())
         assertEquals(Triple(Element.EARTH, Gender.MALE, Animal.HORSE), Triple(day.dayElement, day.dayGender, day.dayAnimal))
     }
+
+    @Test
+    fun `a month's days run from its first civil day to its last, doubled dates twice, skipped ones not at all`() {
+        var jd = LocalDate.of(2000, 1, 1).julianDayNumber()
+        val end = LocalDate.of(2050, 1, 1).julianDayNumber()
+        while (jd < end) {
+            val month = TibetanCalendar.monthOf(TibetanCalendar.of(jd))
+            val first = month.first()
+            assertTrue(month.all { it.year == first.year && it.month == first.month && it.leapMonth == first.leapMonth }, "$jd")
+            assertEquals((first.jd..month.last().jd).toList(), month.map { it.jd }, "$jd: consecutive days")
+            assertEquals(month, TibetanCalendar.monthOf(month.last()), "$jd: the same month from its last day")
+            for ((a, b) in month.zipWithNext()) {
+                when (b.day - a.day) {
+                    0 -> assertTrue(a.repetition == Repetition.FIRST_OF_TWO && b.repetition == Repetition.SECOND_OF_TWO, "${b.jd}")
+                    1 -> {}
+                    2 -> assertEquals(a.day + 1, b.omittedBefore, "${b.jd}")
+                    else -> throw AssertionError("${b.jd}: date ${a.day} then ${b.day}")
+                }
+            }
+            assertTrue(first.day <= 2 && month.last().day >= 29, "$jd: from ${first.day} to ${month.last().day}")
+            if (jd != LocalDate.of(2000, 1, 1).julianDayNumber()) assertEquals(jd, first.jd, "$jd: months follow each other")
+            jd = month.last().jd + 1
+        }
+    }
 }

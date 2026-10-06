@@ -104,6 +104,19 @@ object TibetanCalendar {
         MonthNames(12, "rgyal", "Pauṣa", Animal.RABBIT),
     )
 
+    /**
+     * The days of [day]'s month in order, one per civil day: a doubled date
+     * appears twice and a skipped one not at all.
+     */
+    fun monthOf(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): List<TibetanDay> {
+        fun same(d: TibetanDay) = d.year == day.year && d.month == day.month && d.leapMonth == day.leapMonth
+        var first = day.jd
+        while (same(of(first - 1, a2))) first--
+        var last = day.jd
+        while (same(of(last + 1, a2))) last++
+        return (first..last).map { of(it, a2) }
+    }
+
     /** Names of Tibetan month [month], 1–12. */
     fun monthNames(month: Int): MonthNames = MONTH_NAMES[month - 1]
 
