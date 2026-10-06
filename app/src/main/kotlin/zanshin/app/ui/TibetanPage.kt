@@ -216,9 +216,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
         // The haircut as the brief weighs it (SPEC §5.12): the side, and the factors standing on it, strongest first.
-        val haircutNote = summary.activities.firstOrNull { it.activity == Activity.HAIRCUTS }
-        val haircutTone = haircutNote?.let { if (it.good.isNotEmpty()) Tone.GOOD else Tone.BAD }
-        val haircutStanding = haircutNote?.let { it.good + it.avoid }.orEmpty()
+        val haircutSide = summary.sideOf(Activity.HAIRCUTS)
+        val haircutTone = haircutSide?.first
+        val haircutStanding = haircutSide?.second.orEmpty()
         val haircutBy = haircutStanding.firstOrNull()?.let { by ->
             stringResource(R.string.haircut_by, stringResource(if (haircutTone == Tone.GOOD) R.string.brief_good else R.string.brief_avoid), by.kanji)
         }
@@ -457,11 +457,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 haircutDateTone,
                 haircut,
                 titleIsKanji = false,
-                diagram = { HaircutGrid(day.day) },
             )
+            val haircutGrid: @Composable () -> Unit = { HaircutGrid(day, info.date) }
             add(
                 if (haircutTone == null || haircutBy == null) {
-                    dateDay.copy(title = haircutTitle, english = Catalog.text(haircut.arg!!), glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) })
+                    dateDay.copy(title = haircutTitle, english = Catalog.text(haircut.arg!!), glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) }, diagram = haircutGrid)
                 } else {
                     Annotation(
                         haircutTitle,
@@ -472,6 +472,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         titleIsKanji = false,
                         lead = { Box(Modifier.size(8.dp).background(toneColor(haircutTone), CircleShape)) },
                         glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
+                        diagram = haircutGrid,
                         parts = listOf(dateDay),
                     )
                 },

@@ -224,6 +224,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             } else {
                 Text(a.title, style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(a.english, style = body.copy(color = Palette.muted))
+                a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
                     Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
                     ReadingBody(part, large = false)

@@ -334,7 +334,8 @@
     <string name="desc_mansion_ring">27 лунных созвездий, отмечено %1$s</string>
     <string name="desc_pair_grid">Десять сочетаний стихий дня недели и созвездия</string>
     <string name="pair_grid_axes">Строки — день недели · столбцы — созвездие</string>
-    <string name="haircut_days">Тридцать лунных дней</string>
+    <string name="haircut_days">Дни этого месяца, взвешенные</string>
+    <string name="haircut_cell">%1$d-е число, %2$s: %3$s</string>
     <string name="haircut_day">День %1$d: %2$s</string>
     <string name="haircut_by">%1$s · решает: %2$s</string>
     <string name="haircut_note">Взвешено по «Белому бериллу»: решает сильнейший фактор, называющий стрижку; сегодня: %1$s.</string>

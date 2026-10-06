@@ -55,13 +55,16 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
+import zanshin.app.LocalLabels
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Activity
 import zanshin.core.texts.Catalog
+import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayTime
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.Direction
@@ -73,6 +76,8 @@ import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.RahuMove
+import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
@@ -81,6 +86,7 @@ import kotlin.math.atan2
 import kotlin.math.cos
 import kotlin.math.hypot
 import kotlin.math.sin
+import java.time.LocalDate
 
 // Diagrams of the visual cues (SPEC §10.4). Bearings are degrees clockwise
 // from the top. Kanji drawn inside a diagram are explained by its caption,
@@ -754,34 +760,54 @@ fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
     }
 }
 
-/** The thirty lunar days with their hair-cutting tone, [today] marked; tapping a day gives its reading below. */
+/**
+ * The days of [today]'s Tibetan month, one cell per civil day (a doubled date
+ * twice, a skipped one not at all), each with the side the weighing gives
+ * haircuts on it (SPEC §5.12), [today] marked; tapping a day names its civil
+ * date, side and deciding factor below. [date] is [today]'s civil date.
+ */
 @Composable
-fun HaircutGrid(today: Int) {
-    var selected by remember(today) { mutableIntStateOf(today) }
+fun HaircutGrid(today: TibetanDay, date: LocalDate) {
+    val labels = LocalLabels.current
+    val days = remember(today.jd, labels.locale) {
+        TibetanCalendar.monthOf(today).map { it to DaySummary.of(it).sideOf(Activity.HAIRCUTS) }
+    }
+    var selected by remember(today.jd) { mutableIntStateOf(days.indexOfFirst { it.first.jd == today.jd }) }
+    val good = stringResource(R.string.brief_good)
+    val avoid = stringResource(R.string.brief_avoid)
     Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
         Text(stringResource(R.string.haircut_days), style = body.copy(fontSize = 13.sp, color = Palette.muted))
-        for (row in 0 until 5) {
+        for (row in days.indices.chunked(6)) {
             Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                for (col in 0 until 6) {
-                    val d = row * 6 + col + 1
-                    val on = d == today
+                for (i in 0 until 6) {
+                    val k = row.getOrNull(i)
+                    if (k == null) {
+                        Box(Modifier.weight(1f))
+                        continue
+                    }
+                    val (d, side) = days[k]
+                    val on = d.jd == today.jd
                     Column(
                         Modifier
                             .weight(1f)
                             .aspectRatio(1.1f)
-                            .background(if (d == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
+                            .background(if (k == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
                             .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
-                            .clickable(role = Role.Button) { selected = d },
+                            .clickable(role = Role.Button) { selected = k },
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center,
                     ) {
-                        Text("$d", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
-                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(if (d in Texts.HAIRCUT_GOOD) Palette.good else Palette.bad, CircleShape))
+                        Text("${d.day}", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
+                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(toneColor(side?.first ?: Tone.NEUTRAL), CircleShape))
                     }
                 }
             }
         }
-        Caption(stringResource(R.string.haircut_day, selected, Catalog.text(Texts.HAIRCUT[selected - 1].arg!!)))
+        val (d, side) = days[selected]
+        val verdict = side?.let { (tone, standing) ->
+            stringResource(R.string.haircut_by, if (tone == Tone.GOOD) good else avoid, standing.first().kanji)
+        } ?: toneLabel(Tone.NEUTRAL)
+        Caption(stringResource(R.string.haircut_cell, d.day, date.plusDays(d.jd - today.jd).format(labels.shortDate), verdict))
     }
 }
 

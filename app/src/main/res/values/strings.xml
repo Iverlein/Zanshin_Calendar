@@ -411,7 +411,9 @@
     <!-- describes the element-pair table for screen readers -->
     <string name="desc_pair_grid">The ten pairs of the weekday\'s and the mansion\'s elements</string>
     <string name="pair_grid_axes">Rows: the weekday · columns: the mansion</string>
-    <string name="haircut_days">The thirty lunar days</string>
+    <string name="haircut_days">This month\'s days, weighed</string>
+    <!-- a day of the haircut grid: %1$d the lunar date, %2$s its civil date, %3$s haircut_by ("avoid · by Thursday") -->
+    <string name="haircut_cell">Day %1$d, %2$s: %3$s</string>
     <!-- a lunar day and what cutting hair on it brings -->
     <string name="haircut_day">Day %1$d: %2$s</string>
     <!-- the Haircut row, weighed (SPEC §10.3): "good · by Tuesday"; %1$s is brief_good or brief_avoid, %2$s the factor that decides -->
