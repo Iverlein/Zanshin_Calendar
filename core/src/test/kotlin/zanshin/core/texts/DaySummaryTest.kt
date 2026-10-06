@@ -80,53 +80,87 @@ class DaySummaryTest {
 
     @Test
     fun `the Tibetan day of 1 November 2026, weighed`() {
-        // Sunday with Ārdrā: no special day; the raven and fire with water, both unlucky, decide (SPEC §5.12).
+        // Sunday with Ārdrā: the raven and fire with water, both unlucky, are the day's result (WB p. 333, SPEC §5.12).
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         assertEquals(DayVerdict(Tone.BAD, VerdictBy.COMBINATION), s.verdict)
-        assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi", "Khon"), s.byTone.getValue(Tone.BAD).map { it.kanji })
+        // The trigram has no tone of its own and is not among the factors of the day's tone.
+        assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         assertEquals(setOf(Tone.BAD), s.byTone.keys)
-        // Funerals: no combination names them, so Sunday decides, and the weaker factors that agree stand beside it.
-        // The day animal is the lunar date's (open question 9), which the funeral list does not name.
+        // Funerals: every factor that names them avoids them; the trigram's list stands beside them.
         assertEquals(listOf("Sunday", "Ārdrā", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
-        // Destroying: the element pair, the death combination, names it first; Rāhu's autumn course
-        // (the 22nd of the 9th month: fierce work good, WB p. 239) stands beside it in its own tier.
+        // Destroying: the element pair, the death combination, names it good itself; Rāhu's autumn course
+        // (the 22nd of the 9th month: fierce work good, WB p. 239) and the others that agree stand beside it.
         assertEquals(listOf("Fire – Water", "Rāhu", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
+        // The bad combination makes the day unlucky, but does not decide works it does not name: bathing, which
+        // Sunday, Ārdrā and the 22nd name good, stays good.
+        assertEquals(listOf("Sunday", "Ārdrā", "day 22"), s.activities.single { it.activity == Activity.BATHING }.good.map { it.kanji })
+        // Study: Rāhu, Sunday and Ārdrā name it good, the pig to avoid; Rāhu, the strongest, decides. The 22nd names
+        // it both ways (learning writing, astrology and crafts good; study to avoid) and says nothing.
+        val study = s.activities.single { it.activity == Activity.STUDY }
+        assertEquals(listOf("Rāhu", "Sunday", "Ārdrā"), study.good.map { it.kanji })
+        assertEquals(listOf("Pig"), study.outweighed.map { it.kanji })
     }
 
     @Test
-    fun `where the combinations disagree, the special days decide`() {
-        // 28 January 2026: Wednesday with Kṛttikā is grub (lucky) but fire with water (unlucky);
-        // the demon king and a day of accomplishment, both lucky, settle it (SPEC §5.12).
+    fun `where the combinations disagree, the strongest factor decides`() {
+        // 28 January 2026: Wednesday with Kṛttikā is grub (lucky) but fire with water (unlucky). Wednesday, the special
+        // days (the demon king and a day of accomplishment, one voice), Gara and Śubha are lucky; the 10th is not.
+        // Wednesday, the strongest with a tone, decides (WB vol. 2, p. 376: by strength, not by number).
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
-        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.COMBINATION_DAY), s.verdict)
-        assertEquals(listOf("Accomplishment", "Wednesday", "Demon king", "Day of accomplishment"), s.byTone.getValue(Tone.GOOD).take(4).map { it.kanji })
+        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.STRONGEST), s.verdict)
+        assertEquals(listOf("Wednesday", "Demon king", "Day of accomplishment", "Gara", "Śubha"), s.byTone.getValue(Tone.GOOD).map { it.kanji })
+        // An activity goes the same way: building, which Wednesday names good, is avoided by Kṛttikā, the 10th and the
+        // snake; three weaker factors do not outweigh the planet.
+        val building = s.activities.single { it.activity == Activity.BUILDING }
+        assertEquals(listOf("Wednesday"), building.good.map { it.kanji })
+        assertEquals(listOf("Kṛttikā", "day 10", "Snake"), building.outweighed.map { it.kanji })
     }
 
     @Test
-    fun `where the special days disagree too, the sides decide`() {
+    fun `special days that disagree say nothing`() {
         // 18 January 2026: Sunday with Mūla, grub but fire with water; the demon king and a day of accomplishment
-        // are lucky, and the Rdo rje gtsug lag makes it a day of discord as well, so the lucky factors' count decides.
+        // are lucky, the Rdo rje gtsug lag makes it a day of discord too, so the special days take no side.
+        // Sunday is mixed and the 30th unlucky; Catuṣpada and Dhruva are lucky, but the date is stronger than both.
         val day = TibetanCalendar.of(LocalDate.of(2026, 1, 18))
         assertEquals(listOf(CombinationDay.MI_MTHUN_NYI), day.gtsugLagDays)
         val s = DaySummary.of(day)
-        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.SIDES), s.verdict)
-        assertEquals(listOf("Accomplishment", "Demon king", "Day of accomplishment"), s.byTone.getValue(Tone.GOOD).take(3).map { it.kanji })
+        assertEquals(DayVerdict(Tone.BAD, VerdictBy.STRONGEST), s.verdict)
+        assertEquals(listOf("day 30"), s.byTone.getValue(Tone.BAD).map { it.kanji })
     }
 
     @Test
-    fun `every Tibetan activity is decided by the strongest factor that names it`() {
+    fun `as many on each side, the strongest still decides`() {
+        // 19 May 2026: Tuesday with Rohiṇī, rtag myos (lucky) but earth with fire (unlucky). Tuesday and Atigaṇḍa are
+        // unlucky, the 3rd and Taitila lucky: Tuesday, the strongest of them, decides.
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 5, 19)))
+        assertEquals(DayVerdict(Tone.BAD, VerdictBy.STRONGEST), s.verdict)
+        assertEquals(listOf("Tuesday", "Atigaṇḍa"), s.byTone.getValue(Tone.BAD).map { it.kanji })
+        // Two that disagree on a work: the planet leads the mansion (the kun phan me long's rule 2).
+        val pillars = s.activities.single { it.activity == Activity.CONSECRATION }
+        assertEquals(listOf("Tuesday"), pillars.avoid.map { it.kanji })
+        assertEquals(listOf("Rohiṇī"), pillars.outweighed.map { it.kanji })
+    }
+
+    @Test
+    fun `every Tibetan activity is weighed as the day is`() {
         val rank = DayFactor.entries.map { it.english }
         var date = LocalDate.of(2026, 1, 1)
         while (date.year == 2026) {
-            val s = DaySummary.of(TibetanCalendar.of(date))
+            val day = TibetanCalendar.of(date)
+            val s = DaySummary.of(day)
+            val verdict = s.verdict!!
             assertTrue(s.disputedFamilies.isEmpty(), "$date")
+            assertEquals(setOf(verdict.tone), s.byTone.keys, "$date: only the day's tone is listed")
+            val pair = Texts.ELEMENT_PAIR.getValue(day.elementPair)
             for (n in s.activities) {
                 val side = n.good + n.avoid
                 assertTrue(n.good.isEmpty() || n.avoid.isEmpty(), "$date ${n.activity}")
                 assertEquals(side.sortedBy { rank.indexOf(it.english) }, side, "$date ${n.activity}: rank order")
+                // A work the element pair names goes its way, whatever the others say.
+                if (n.activity in Activities.of(pair.goodKeys)) {
+                    assertTrue(n.good.any { it.english == DayFactor.ELEMENT_PAIR.english }, "$date ${n.activity}: the pair names it")
+                }
             }
-            val verdict = s.verdict!!
-            assertTrue(s.byTone.keys.all { it == verdict.tone }, "$date: only the day's tone is listed")
             date = date.plusDays(1)
         }
     }

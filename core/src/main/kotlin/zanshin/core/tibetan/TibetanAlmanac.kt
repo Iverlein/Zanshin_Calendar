@@ -136,20 +136,32 @@ enum class Karana(val wylie: String, val sanskrit: String, val whiteBeryl: Strin
 }
 
 /**
- * The ten combinations of the weekday's and the mansion's element
- * (khams kyi sbyor ba, 'byung 'phrod), named after Henning's list.
+ * The White Beryl's grades of the ten element pairs (vol. 2, p. 333), in the
+ * order of its verse on them: «བཟང་གསུམ་གསོ་ཐུབ་གསུམ། །ངན་གསུམ་ཐ་ཆད་གཅིག», three
+ * good, three that sustain (*gso thub*), three bad and one worst. The verses of
+ * the three that sustain promise food and clothes, quick success and good
+ * omens, so they are lucky with the good ones (docs/sources/combinations.md).
  */
-enum class ElementPair(val a: IndianElement, val b: IndianElement, val wylie: String, val sanskrit: String, val auspicious: Boolean) {
-    EARTH_EARTH(IndianElement.EARTH, IndianElement.EARTH, "dngos grub", "siddhi", true),
-    WATER_WATER(IndianElement.WATER, IndianElement.WATER, "bdud rtsi", "amṛta", true),
-    EARTH_WATER(IndianElement.EARTH, IndianElement.WATER, "lang tsho", "yauvana", true),
-    FIRE_FIRE(IndianElement.FIRE, IndianElement.FIRE, "'phel 'gyur", "pragati", true),
-    WIND_WIND(IndianElement.WIND, IndianElement.WIND, "phun tshogs", "saṃpanna", true),
-    FIRE_WIND(IndianElement.FIRE, IndianElement.WIND, "stobs ldan", "balayukta", true),
-    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi 'phrod", "alābha", false),
-    WATER_WIND(IndianElement.WATER, IndianElement.WIND, "mi mthun", "pratikūla", false),
-    EARTH_FIRE(IndianElement.EARTH, IndianElement.FIRE, "sreg pa", "dahana", false),
-    FIRE_WATER(IndianElement.FIRE, IndianElement.WATER, "'chi ba", "maraṇa", false);
+enum class PairGrade(val lucky: Boolean) { GOOD(true), SUSTAINING(true), BAD(false), WORST(false) }
+
+/**
+ * The ten combinations of the weekday's and the mansion's element
+ * (khams kyi sbyor ba, 'byung 'phrod), named after Henning's list, in the
+ * order of the White Beryl's verse, with its [grade].
+ */
+enum class ElementPair(val a: IndianElement, val b: IndianElement, val wylie: String, val sanskrit: String, val grade: PairGrade) {
+    EARTH_EARTH(IndianElement.EARTH, IndianElement.EARTH, "dngos grub", "siddhi", PairGrade.GOOD),
+    WATER_WATER(IndianElement.WATER, IndianElement.WATER, "bdud rtsi", "amṛta", PairGrade.GOOD),
+    EARTH_WATER(IndianElement.EARTH, IndianElement.WATER, "lang tsho", "yauvana", PairGrade.GOOD),
+    FIRE_FIRE(IndianElement.FIRE, IndianElement.FIRE, "'phel 'gyur", "pragati", PairGrade.SUSTAINING),
+    WIND_WIND(IndianElement.WIND, IndianElement.WIND, "phun tshogs", "saṃpanna", PairGrade.SUSTAINING),
+    FIRE_WIND(IndianElement.FIRE, IndianElement.WIND, "stobs ldan", "balayukta", PairGrade.SUSTAINING),
+    EARTH_WIND(IndianElement.EARTH, IndianElement.WIND, "mi 'phrod", "alābha", PairGrade.BAD),
+    WATER_WIND(IndianElement.WATER, IndianElement.WIND, "mi mthun", "pratikūla", PairGrade.BAD),
+    EARTH_FIRE(IndianElement.EARTH, IndianElement.FIRE, "sreg pa", "dahana", PairGrade.BAD),
+    FIRE_WATER(IndianElement.FIRE, IndianElement.WATER, "'chi ba", "maraṇa", PairGrade.WORST);
+
+    val auspicious: Boolean get() = grade.lucky
 
     val english: String get() = gloss(this)
 

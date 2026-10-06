@@ -341,6 +341,16 @@ object Texts {
     val HAIRCUT: List<Reading> = (1..30).map { Reading(key = "reading.Haircut", arg = "reading.Haircut.$it", source = Sources.FPMT_HAIR) }
 
     /**
+     * The same verdict as a list of the date, good or to avoid, so that the day in brief weighs it
+     * with the date's other lists and the hair-cutting row and the brief do not go separate ways
+     * (SPEC §5.12).
+     */
+    val HAIRCUT_LIST: List<Reading> = (1..30).map {
+        if (it in HAIRCUT_GOOD) Reading(goodKeys = listOf("haircuts"), source = Sources.FPMT_HAIR)
+        else Reading(avoidKeys = listOf("haircuts"), source = Sources.FPMT_HAIR)
+    }
+
+    /**
      * The lunar mansion: its kind of work, nature, planet and foods, and what the
      * list of mansions and the activity lists name it good or bad for (SPEC §5.10).
      */
@@ -365,8 +375,9 @@ object Texts {
      * The yoga's dot: unlucky for the three the White Beryl says to avoid
      * whole and the three whose short reading names a harm, mixed for the
      * others it says to avoid in their first chu tshod (3, 5, 6 or 9) and the two it
-     * calls middling, lucky for the rest. Its ranking verse is not used: how
-     * to read it is an open question (docs/sources/open-questions.md 1).
+     * calls middling, lucky for the rest. Its ranking verse is not used: it
+     * counts from sel ba, but its 18th and its good line have no reading in
+     * any source found (docs/sources/yogas.md, "Ranking").
      */
     val YOGA_TONE: Map<Yoga, Tone> = Yoga.entries.associateWith {
         when (it) {
@@ -692,8 +703,8 @@ object Texts {
     /**
      * The special days of weekday and mansion (vol. 2, pp. 335–337, with the
      * table p. 341; docs/sources/combinations.md), with what each names good
-     * and to avoid. They are the special cases (dmigs bsal) of the weighing,
-     * above the combinations (SPEC §5.12).
+     * and to avoid. In the weighing they speak as one, below the weekday and
+     * the mansion, whose own results "are the main thing" (p. 337; SPEC §5.12).
      */
     val COMBINATION_DAY: Map<CombinationDay, Reading> = keyed(
         CombinationDay.GRUB_SBYOR to wbDay(good = listOf("everything")),

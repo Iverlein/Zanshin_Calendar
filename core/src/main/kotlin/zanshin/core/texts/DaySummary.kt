@@ -41,8 +41,17 @@ fun toneOf(r: Reading?): Tone = when {
 /** One annotation of the day as the summary lists it; [latin] when its name is not kanji (the Tibetan day's factors). */
 data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, val reading: Reading?, val latin: Boolean = false)
 
-/** An activity and the annotations that name it good or to be avoided; both sides are kept. */
-data class ActivityNote(val activity: Activity, val good: List<SummaryEntry>, val avoid: List<SummaryEntry>) {
+/**
+ * An activity and the annotations that name it good or to be avoided; on the 旧暦 page both sides
+ * are kept. On the Tibetan page one side is, and [outweighed] holds the factors that named it the
+ * other way (SPEC §5.12).
+ */
+data class ActivityNote(
+    val activity: Activity,
+    val good: List<SummaryEntry>,
+    val avoid: List<SummaryEntry>,
+    val outweighed: List<SummaryEntry> = emptyList(),
+) {
     val disputed: Boolean get() = good.isNotEmpty() && avoid.isNotEmpty()
 }
 
@@ -73,18 +82,15 @@ enum class DayFactor {
     val english: String get() = gloss(this)
 }
 
-/** What decided the Tibetan day's tone (SPEC §5.12). */
+/** What decided the Tibetan day's tone, or an activity's side (SPEC §5.12). */
 enum class VerdictBy {
-    /** The two combinations of weekday and mansion, which agree. */
+    /** The two combinations of weekday and mansion agree: they outweigh every factor of the day (WB p. 333). */
     COMBINATION,
 
-    /** The combinations disagree: the special days, which agree (the text's special case). */
-    COMBINATION_DAY,
-
-    /** The combinations disagree and no special day settles it: the side more factors take. */
-    SIDES,
-
-    /** As many factors on each side: the strongest of them. */
+    /**
+     * The combinations disagree: the strongest factor that takes a side. The White Beryl (vol. 2,
+     * p. 376) weighs mixed factors by their order of strength, not by their number.
+     */
     STRONGEST,
 }
 
@@ -147,101 +153,149 @@ data class DaySummary(
         }
 
         /**
-         * The Tibetan day in brief, weighed as SPEC §5.12 says: each activity
-         * decided by the strongest tier of factors that names it with one voice,
-         * the day's tone by the combinations where they agree, else by the
-         * special days, else by the side with more factors, else by the
-         * strongest; outweighed factors are left out.
+         * The Tibetan day in brief, weighed as SPEC §5.12 says. One weighing answers both
+         * questions, what the day is and what each work is on it: the combination of weekday and
+         * mansion is the result where it speaks, on the day where its two parts agree and on a work
+         * where its element pair names it, and the factors that say otherwise are outweighed (WB
+         * p. 333); elsewhere the strongest factor that takes a side, the factors whose lists name
+         * a work deciding it and those with a tone of their own the day (the White Beryl, vol. 2,
+         * p. 376, which the *kun phan me long*'s rules 2–4 digest).
          */
         fun of(day: TibetanDay): DaySummary {
             fun entry(name: String, factor: DayFactor, tone: Tone, reading: Reading?) =
                 SummaryEntry(name, factor.english, tone, reading, latin = true)
             fun lucky(b: Boolean) = if (b) Tone.GOOD else Tone.BAD
+            fun one(rank: Int, e: SummaryEntry, vararg readings: Reading?) =
+                Voice(rank, listOf(Member(e, readings.filterNotNull())))
             val pair = day.elementPair
             val mansion = Texts.MANSION.getValue(day.mansion)
             val animal = Texts.ELECTIONAL_ANIMAL.getValue(day.lunarDayAnimal)
             val trigram = Texts.ELECTIONAL_TRIGRAM.getValue(day.trigram)
-            val great = Ranked(
-                entry(day.greatCombination.english.replaceFirstChar(Char::uppercase), DayFactor.GREAT_COMBINATION, lucky(day.greatCombination.lucky), Texts.GREAT_COMBINATION[day.greatCombination]),
-                listOfNotNull(Texts.GREAT_COMBINATION[day.greatCombination]), tier = 0,
-            )
-            val elements = Ranked(
-                entry("${day.weekday.element.english} – ${day.mansion.element.english}", DayFactor.ELEMENT_PAIR, lucky(pair.auspicious), Texts.ELEMENT_PAIR[pair]),
-                listOfNotNull(Texts.ELEMENT_PAIR[pair]), tier = 0,
-            )
-            val special = day.combinationDays.map {
-                Ranked(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.COMBINATION_DAY[it]), listOfNotNull(Texts.COMBINATION_DAY[it]), tier = 4)
-            } + day.gtsugLagDays.map {
-                Ranked(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.GTSUG_LAG_DAY[it]), listOfNotNull(Texts.GTSUG_LAG_DAY[it]), tier = 4)
-            }
-            val planetAndMansion = listOf(
-                Ranked(
-                    entry(day.weekday.english, DayFactor.WEEKDAY, Texts.weekdayTone(day.weekday), Texts.WEEKDAY[day.weekday]),
-                    listOfNotNull(Texts.WEEKDAY[day.weekday], Texts.ELECTIONAL_WEEKDAY.getValue(day.weekday)), tier = 2,
-                ),
-                Ranked(entry(day.mansion.sanskrit, DayFactor.MANSION, toneOf(mansion), mansion), listOf(mansion), tier = 3),
-            )
-            val single = listOf(
-                Ranked(
-                    entry(Catalog.format("ElectionalFactor.LUNAR_DATE.title", day.day.toString()), DayFactor.LUNAR_DATE, Texts.lunarDateTone(day.day), Texts.LUNAR_DATE[day.day - 1]),
-                    listOf(Texts.LUNAR_DATE[day.day - 1], Texts.ELECTIONAL_DATE.getValue(day.day)), tier = 5,
-                ),
-                Ranked(entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), listOfNotNull(Texts.KARANA[day.karana]), tier = 6),
-                Ranked(entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), listOfNotNull(Texts.YOGA[day.yoga]), tier = 7),
-                Ranked(entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, toneOf(animal), animal), listOf(animal), tier = 8),
-                Ranked(entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, toneOf(trigram), trigram), listOf(trigram), tier = 9),
-            )
-            // Rāhu is reckoned by direction; it decides activities but takes no side on the day's tone.
-            val rahu = listOfNotNull(Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day]).map {
-                Ranked(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it), tier = 1)
-            }
-            val ranked = listOf(great, elements) + rahu + planetAndMansion + special + single
 
-            fun toned(fs: List<Ranked>) = fs.map { it.entry.tone }.filter { it == Tone.GOOD || it == Tone.BAD }
-            val specialTones = toned(special).distinct()
-            val combinationTones = toned(listOf(great, elements)).distinct()
-            val verdict = when {
-                combinationTones.size == 1 -> DayVerdict(combinationTones.single(), VerdictBy.COMBINATION)
-                specialTones.size == 1 -> DayVerdict(specialTones.single(), VerdictBy.COMBINATION_DAY)
-                else -> {
-                    val sides = toned(ranked)
-                    val good = sides.count { it == Tone.GOOD }
-                    val bad = sides.count { it == Tone.BAD }
-                    when {
-                        good > bad -> DayVerdict(Tone.GOOD, VerdictBy.SIDES)
-                        bad > good -> DayVerdict(Tone.BAD, VerdictBy.SIDES)
-                        else -> DayVerdict(ranked.first { it.entry.tone == Tone.GOOD || it.entry.tone == Tone.BAD }.entry.tone, VerdictBy.STRONGEST)
-                    }
-                }
-            }
+            // The named combination and the element pair speak as one: the combination ('phrod) of weekday and mansion.
+            val combination = Voice(
+                COMBINATION_RANK,
+                listOf(
+                    Member(
+                        entry(day.greatCombination.english.replaceFirstChar(Char::uppercase), DayFactor.GREAT_COMBINATION, lucky(day.greatCombination.lucky), Texts.GREAT_COMBINATION[day.greatCombination]),
+                        listOfNotNull(Texts.GREAT_COMBINATION[day.greatCombination]),
+                    ),
+                    Member(
+                        entry("${day.weekday.element.english} – ${day.mansion.element.english}", DayFactor.ELEMENT_PAIR, lucky(pair.auspicious), Texts.ELEMENT_PAIR[pair]),
+                        listOfNotNull(Texts.ELEMENT_PAIR[pair]),
+                    ),
+                ),
+            )
+            // Rāhu is reckoned by direction: it names works but takes no side on the day as a whole.
+            val rahu = Voice(
+                1,
+                listOfNotNull(Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day]).map {
+                    Member(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it))
+                },
+            )
+            // The special days speak as one, and only when they agree.
+            val special = Voice(
+                4,
+                day.combinationDays.map {
+                    Member(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.COMBINATION_DAY[it]), listOfNotNull(Texts.COMBINATION_DAY[it]))
+                } + day.gtsugLagDays.map {
+                    Member(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.GTSUG_LAG_DAY[it]), listOfNotNull(Texts.GTSUG_LAG_DAY[it]))
+                },
+            )
+            val voices = listOf(
+                combination,
+                rahu,
+                one(2, entry(day.weekday.english, DayFactor.WEEKDAY, Texts.weekdayTone(day.weekday), Texts.WEEKDAY[day.weekday]), Texts.WEEKDAY[day.weekday], Texts.ELECTIONAL_WEEKDAY.getValue(day.weekday)),
+                // The mansion and the nyi ma have no tone of their own: their lists name works both ways.
+                one(3, entry(day.mansion.sanskrit, DayFactor.MANSION, Tone.NEUTRAL, mansion), mansion),
+                special,
+                one(
+                    5,
+                    entry(Catalog.format("ElectionalFactor.LUNAR_DATE.title", day.day.toString()), DayFactor.LUNAR_DATE, Texts.lunarDateTone(day.day), Texts.LUNAR_DATE[day.day - 1]),
+                    Texts.LUNAR_DATE[day.day - 1], Texts.ELECTIONAL_DATE.getValue(day.day), Texts.HAIRCUT_LIST[day.day - 1],
+                ),
+                one(6, entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), Texts.KARANA[day.karana]),
+                one(7, entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), Texts.YOGA[day.yoga]),
+                one(8, entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, Tone.NEUTRAL, animal), animal),
+                // Not among the kun phan me long's seven, so the weakest: its lists decide only what no other factor names.
+                one(9, entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, Tone.NEUTRAL, trigram), trigram),
+            ).filter { it.members.isNotEmpty() }
+
+            val dayDecision = weigh(voices.mapNotNull { v -> v.tone?.let { Vote(v, v.members, it) } }, combination.tone)!!
+            val verdict = DayVerdict(dayDecision.tone, dayDecision.by)
 
             val order = LinkedHashSet<Activity>()
-            ranked.forEach { order += it.good + it.avoid }
-            val activities = order.mapNotNull { a ->
-                // The strongest tier that names the activity with one voice decides; a split tier is passed over.
-                val deciding = ranked.groupBy { it.tier }.toSortedMap().values.firstOrNull { tier ->
-                    val named = tier.filter { a in it.good || a in it.avoid }
-                    named.isNotEmpty() && (named.all { a in it.good } || named.all { a in it.avoid })
-                } ?: return@mapNotNull null
-                val good = deciding.any { a in it.good }
-                val side = ranked.filter { it.tier >= deciding.first().tier && if (good) a in it.good else a in it.avoid }.map { it.entry }
-                ActivityNote(a, good = if (good) side else emptyList(), avoid = if (good) emptyList() else side)
+            voices.forEach { v -> v.members.forEach { order += it.good + it.avoid } }
+            // Works on which more of the day's voices agree come first, then those a stronger one decides.
+            val decided = order.mapNotNull { a ->
+                weigh(voices.mapNotNull { it.vote(a) })?.let { a to it }
+            }.sortedWith(compareBy({ -it.second.standing.size }, { it.second.standing.first().voice.rank }))
+            fun note(a: Activity, d: Decision, named: List<Vote>): ActivityNote {
+                val entries = named.flatMap { v -> v.members.map { it.entry } }
+                return ActivityNote(a, good = if (d.tone == Tone.GOOD) entries else emptyList(), avoid = if (d.tone == Tone.BAD) entries else emptyList())
             }
             return DaySummary(
                 mark = null,
-                byTone = ranked.map { it.entry }.filter { it.tone == verdict.tone }.groupBy { it.tone },
-                activities = activities,
+                byTone = mapOf(verdict.tone to dayDecision.standing.flatMap { v -> v.members.map { it.entry } }),
+                activities = decided.map { (a, d) ->
+                    note(a, d, d.standing).copy(outweighed = d.outweighed.flatMap { v -> v.members.map { it.entry } })
+                },
                 personal = emptyList(),
                 affinity = null,
                 verdict = verdict,
             )
         }
 
-        /** A factor in its tier (0 strongest) with the activities its lists name good and to avoid; those it names both ways it is silent on. */
-        private class Ranked(val entry: SummaryEntry, readings: List<Reading>, val tier: Int) {
+        private const val COMBINATION_RANK = 0
+
+        /** A factor's readings, with the activities they name good and to avoid; those they name both ways it is silent on. */
+        private class Member(val entry: SummaryEntry, readings: List<Reading>) {
             private val named = Activities.of(readings.flatMap { it.goodKeys }) to Activities.of(readings.flatMap { it.avoidKeys })
             val good: Set<Activity> = named.first - named.second
             val avoid: Set<Activity> = named.second - named.first
+        }
+
+        /**
+         * One voice in the weighing, [rank] 0 strongest: a factor, or a group that speaks as one (the
+         * two combinations; the special days; Rāhu's courses).
+         */
+        private class Voice(val rank: Int, val members: List<Member>) {
+            /** Its tone on the day as a whole, where all its members have the same, lucky or unlucky. */
+            val tone: Tone? = members.map { it.entry.tone }.distinct().singleOrNull()?.takeIf { it == Tone.GOOD || it == Tone.BAD }
+
+            /** Its side on [a], with the members that name it so; none where its members name it both ways. */
+            fun vote(a: Activity): Vote? {
+                val good = members.filter { a in it.good }
+                val avoid = members.filter { a in it.avoid }
+                return when {
+                    good.isNotEmpty() && avoid.isEmpty() -> Vote(this, good, Tone.GOOD)
+                    avoid.isNotEmpty() && good.isEmpty() -> Vote(this, avoid, Tone.BAD)
+                    else -> null
+                }
+            }
+        }
+
+        private class Vote(val voice: Voice, val members: List<Member>, val side: Tone)
+
+        /** The side taken, how, the votes that stand on it and those outweighed. */
+        private class Decision(val tone: Tone, val by: VerdictBy, val standing: List<Vote>, val outweighed: List<Vote>)
+
+        /**
+         * The weighing of SPEC §5.12, for the day or for one activity. Where the combination speaks, its
+         * side is the result, as WB p. 333 says even of a good planet and mansion, and the other side is
+         * outweighed: on a work when its element pair names it, on the day when its two parts agree
+         * ([dayResult]). Its tone on the day does not decide a work it does not name: a lucky day does
+         * not lift the date's or the weekday's prohibitions. Otherwise the strongest vote's side: the
+         * White Beryl's «མང་ཉུང་སྟོབས་ཀྱི་ཁྱད་པར་བརྩི» weighs by strength, and its *phyogs sdebs* is a
+         * factor's general good or bad, not a count of sides (docs/sources/weighing.md).
+         */
+        private fun weigh(votes: List<Vote>, dayResult: Tone? = null): Decision? {
+            if (votes.isEmpty()) return null
+            val (side, by) = votes.firstOrNull { it.voice.rank == COMBINATION_RANK }?.let { it.side to VerdictBy.COMBINATION }
+                ?: dayResult?.let { it to VerdictBy.COMBINATION }
+                ?: (votes.minBy { it.voice.rank }.side to VerdictBy.STRONGEST)
+            val (standing, outweighed) = votes.sortedBy { it.voice.rank }.partition { it.side == side }
+            return Decision(side, by, standing, outweighed)
         }
 
         /** Activities with the entries that name them, in order of first mention, so the list follows the almanac's own order. */

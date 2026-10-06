@@ -145,6 +145,7 @@ enum class Activity {
 
     // The White Beryl's karaṇas and lunar dates (SPEC §5.11)
     LAWSUITS,
+    JUDGING_CASES,
     OATHS,
     STATECRAFT,
     WAR,
@@ -154,6 +155,7 @@ enum class Activity {
     BUYING_LIVESTOCK,
     TRADING,
     GIVING_OUT,
+    DOWRY,
     MOVING_GOODS,
     TAMING_ANIMALS,
     CATTLE_WORK,
@@ -260,7 +262,7 @@ val Activity.family: ActivityFamily
     get() = when (this) {
         EVERYTHING -> ActivityFamily.EVERYTHING
         CELEBRATION -> ActivityFamily.CELEBRATION
-        WEDDING, BETROTHAL, MARRIAGE_TALKS -> ActivityFamily.WEDDING
+        WEDDING, BETROTHAL, MARRIAGE_TALKS, DOWRY -> ActivityFamily.WEDDING
         JOURNEY, COMING_HOME -> ActivityFamily.JOURNEY
         SEA_TRAVEL -> ActivityFamily.SEA
         MOVING_HOUSE, BRANCH_FAMILY, RETIRING, BUYING_HOME -> ActivityFamily.MOVING_HOUSE
@@ -287,7 +289,7 @@ val Activity.family: ActivityFamily
         BLADES, BLOODSHED, HUNTING, MAKING_WEAPONS -> ActivityFamily.BLADE
         FIRE -> ActivityFamily.FIRE
         CALM, HASTE, CARELESS_WORDS, HEAVY_EATING, HELPING_OTHERS -> ActivityFamily.CONDUCT
-        LAWSUITS, OATHS, STATECRAFT -> ActivityFamily.AGREEMENT
+        LAWSUITS, JUDGING_CASES, OATHS, STATECRAFT -> ActivityFamily.AGREEMENT
         WAR, KILLING, ROBBERY, POISON -> ActivityFamily.BLADE
         BUYING_LIVESTOCK, TRADING, GIVING_OUT, MOVING_GOODS -> ActivityFamily.TRADE
         TAMING_ANIMALS, CATTLE_WORK, FIELD_WORK -> ActivityFamily.FIELD
@@ -509,13 +511,14 @@ object Activities {
         "bloodletting_and_moxibustion" to of(BLOODLETTING),
         "bloodletting" to of(BLOODLETTING),
         "leading_an_army" to of(WAR),
-        "war_not_east" to of(WAR),
-        "war_not_south" to of(WAR),
-        "war_not_south_or_west" to of(WAR),
-        "war_south_or_west" to of(WAR),
+        // Qualified by a direction: they count for neither side (SPEC §5.10); the date's reading keeps them.
+        "war_not_east" to of(),
+        "war_not_south" to of(),
+        "war_not_south_or_west" to of(),
+        "war_south_or_west" to of(),
         "attacking_enemies" to of(WAR),
         "subduing_enemies" to of(WAR),
-        "judging_disputes" to of(DISPUTES),
+        "judging_disputes" to of(JUDGING_CASES),
         "quarrels" to of(DISPUTES),
         "oaths" to of(OATHS),
         "making_images" to of(SACRED_SUPPORTS),
@@ -535,7 +538,7 @@ object Activities {
         "robbery" to of(ROBBERY),
         "hanging_doors" to of(BUILDING_GATES),
         "virtuous_work" to of(VIRTUE),
-        "learning_writing_astrology_and_crafts" to of(LEARNING_ASTROLOGY, LEARNING_ARTS),
+        "learning_writing_astrology_and_crafts" to of(STUDY, LEARNING_ASTROLOGY, MAKING_THINGS),
         "work_with_rock" to of(BUILDING),
         "council" to of(CONSULTATIONS),
         "brewing_beer" to of(BREWING),
@@ -672,7 +675,7 @@ object Activities {
         "planting_trees_and_flowers" to of(PLANTING),
         "virtuous_acts_for_the_living" to of(VIRTUE),
         "manuring_and_breaking_in_oxen" to of(FIELD_WORK, TAMING_ANIMALS),
-        "giving_gifts_and_dowries" to of(GIVING_OUT),
+        "giving_gifts_and_dowries" to of(DOWRY),
         "feeding_up_horses" to of(HORSES),
         "treating_horses_mules_and_donkeys" to of(HORSES),
         "calling_prosperity_and_bon_rites" to of(PROSPERITY_RITES),
