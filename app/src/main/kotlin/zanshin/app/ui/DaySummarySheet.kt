@@ -61,7 +61,9 @@ private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWe
 fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
     val disputed = summary.activities.count { it.disputed }
-    val dayLabel = summary.verdict?.let { stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) }
+    val dayLabel = summary.verdict?.let {
+        stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) + " · " + stringResource(byShort(it.by))
+    }
     val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
         stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
         if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else ""
@@ -104,7 +106,7 @@ private fun FamilyLine(label: String, families: List<ActivityFamily>, disputed: 
 /** The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed day on the Tibetan one (SPEC §5.12). */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
+fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onDismiss: () -> Unit) {
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
@@ -144,9 +146,7 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                         Text(
                             stringResource(
                                 when (v.by) {
-                                    VerdictBy.COMBINATION_DAY -> R.string.brief_day_special
                                     VerdictBy.COMBINATION -> R.string.brief_day_combination
-                                    VerdictBy.SIDES -> R.string.brief_day_sides
                                     VerdictBy.STRONGEST -> R.string.brief_day_strongest
                                 },
                             ),
@@ -154,6 +154,10 @@ fun DaySummarySheet(s: DaySummary, onDismiss: () -> Unit) {
                         )
                     }
                 }
+            }
+
+            if (s.verdict != null && festival) {
+                Text(stringResource(R.string.brief_festival_note), style = body.copy(fontSize = 14.sp, color = Palette.muted))
             }
 
             ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
@@ -244,6 +248,12 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
             }
         }
     }
+}
+
+/** What decided the Tibetan day's tone, in a few words for the summary line. */
+private fun byShort(by: VerdictBy): Int = when (by) {
+    VerdictBy.COMBINATION -> R.string.brief_by_combination
+    VerdictBy.STRONGEST -> R.string.brief_by_strongest
 }
 
 /** Annotation names, each translated on tap. */

@@ -51,7 +51,6 @@ import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
-import zanshin.core.texts.toneOf
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
@@ -197,7 +196,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_weekday), "${day.weekday.english} · gza’ ${day.weekday.wylie}"),
                     BalloonRow(stringResource(R.string.row_planet), day.weekday.planet),
                     BalloonRow(stringResource(R.string.row_element), gloss(day.dayElement)),
-                    BalloonRow(stringResource(R.string.row_animal), gloss(day.dayAnimal)),
+                    BalloonRow(stringResource(R.string.row_day_sign), gloss(day.dayAnimal)),
                     BalloonRow(stringResource(R.string.row_gender), gloss(day.dayGender, "inText")),
                 ),
             )
@@ -245,8 +244,12 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val gtsugLagDaySubtitle = stringResource(R.string.tib_gtsug_lag_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
+        val specialDaysTitle = stringResource(R.string.tib_special_days_title)
+        val specialDaysNote = stringResource(R.string.tib_special_days_note)
+        val rahuCourses = stringResource(R.string.tib_rahu_courses)
         val annotations = buildList {
-            holidayAnnotation?.let { add(it) }
+            // The festival is the headline, which opens its reading; the Almanac does not repeat it.
+            if (holiday == null || holidayAnnotation == null) holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
             info.personalDay?.let {
                 add(Annotation(it.english, forBirthYear, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false))
@@ -296,14 +299,16 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { ElementPairGrid(day.weekday.element, day.mansion.element) },
                 ),
             )
-            Texts.RAHU[day.day]?.let { r ->
-                add(Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
-            }
-            Texts.RAHU_GENERAL[day.day]?.let { r ->
-                add(Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
-            }
-            Texts.RAHU_MONTH[day.month to day.day]?.let { r ->
-                add(Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, r, titleIsKanji = false))
+            // Rāhu's courses by date and by month, one row: the White Beryl's one Rāhu (SPEC §5.13).
+            val rahu = listOfNotNull(
+                Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false) },
+                Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, it, subtitle = rahuGeneralSubtitle, titleIsKanji = false) },
+                Texts.RAHU_MONTH[day.month to day.day]?.let { Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, it, subtitle = rahuMonthSubtitle, titleIsKanji = false) },
+            )
+            if (rahu.size == 1) {
+                add(rahu.single().copy(subtitle = null))
+            } else if (rahu.size > 1) {
+                add(Annotation(rahuTitle, rahuCourses, Tone.NEUTRAL, null, subtitle = rahu.joinToString(" · ") { it.english }, titleIsKanji = false, parts = rahu))
             }
             add(
                 Annotation(
@@ -334,7 +339,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 Annotation(
                     day.mansion.sanskrit,
                     day.mansion.english,
-                    toneOf(mansionReading),
+                    // The mansion has no tone of its own: its lists name works both ways (SPEC §5.12).
+                    Tone.NEUTRAL,
                     mansionReading,
                     subtitle = mansionSubtitle,
                     titleIsKanji = false,
@@ -342,17 +348,31 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
             )
-            day.combinationDays.map { it to false }.plus(day.gtsugLagDays.map { it to true }).forEach { (c, gtsugLag) ->
+            val specials = day.combinationDays.map { it to false }.plus(day.gtsugLagDays.map { it to true }).map { (c, gtsugLag) ->
                 val cScript = "${Ewts.toTibetan(c.wylie)} (${c.wylie})"
+                Annotation(
+                    c.english.replaceFirstChar(Char::uppercase),
+                    cScript,
+                    if (c.lucky) Tone.GOOD else Tone.BAD,
+                    if (gtsugLag) Texts.GTSUG_LAG_DAY[c] else Texts.COMBINATION_DAY[c],
+                    subtitle = if (gtsugLag) gtsugLagDaySubtitle else combinationDaySubtitle,
+                    titleIsKanji = false,
+                    details = listOf(whiteBerylLabel to cScript),
+                )
+            }
+            // Several special days are one row, as they are one voice in the weighing (SPEC §5.12).
+            if (specials.size == 1) {
+                add(specials.single())
+            } else if (specials.size > 1) {
                 add(
                     Annotation(
-                        c.english.replaceFirstChar(Char::uppercase),
-                        cScript,
-                        if (c.lucky) Tone.GOOD else Tone.BAD,
-                        if (gtsugLag) Texts.GTSUG_LAG_DAY[c] else Texts.COMBINATION_DAY[c],
-                        subtitle = if (gtsugLag) gtsugLagDaySubtitle else combinationDaySubtitle,
+                        specialDaysTitle,
+                        specialDaysNote,
+                        specials.map { it.tone }.distinct().singleOrNull() ?: Tone.MIXED,
+                        null,
+                        subtitle = specials.joinToString(" · ") { it.title },
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to cScript),
+                        parts = specials,
                     ),
                 )
             }
@@ -447,7 +467,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 titleIsKanji = false,
             )
             FactRow(
-                stringResource(R.string.row_animal),
+                stringResource(R.string.row_date_animal),
                 gloss(day.lunarDayAnimal),
                 gloss(day.lunarDayAnimal),
                 tibetan = false,
@@ -473,7 +493,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             val colour = SME_BA_COLOURS[day.smeBa - 1]
             val number = "${day.smeBa} · ${Catalog.text("Colour.$colour")}"
             FactRow(
-                stringResource(R.string.row_number),
+                stringResource(R.string.row_date_sme_ba),
                 "${day.smeBa}",
                 number,
                 tibetan = false,
@@ -482,7 +502,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         }
     }
 
-    if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
+    if (summaryOpen) DaySummarySheet(summary, festival = day.holiday != null || day.specialDay != null) { summaryOpen = false }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, onOpen = { sheet = it }) { hoursOpen = false }
     sheet?.let { ReadingSheet(it) { sheet = null } }
 }

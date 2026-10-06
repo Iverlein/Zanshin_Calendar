@@ -147,6 +147,11 @@ data class Annotation(
     val glyphs: (@Composable () -> Unit)? = null,
     /** A diagram in the reading sheet, under the gloss (SPEC §10.4). */
     val diagram: (@Composable () -> Unit)? = null,
+    /**
+     * Entries shown as one row (the day's special days, Rāhu's courses): the row draws their dots
+     * side by side and the sheet gives each reading in turn, under [english] as a note.
+     */
+    val parts: List<Annotation> = emptyList(),
 )
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -166,6 +171,11 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
         val lead = a.lead
         if (lead != null) {
             Box(Modifier.semantics { contentDescription = toneText }) { lead() }
+        } else if (a.parts.isNotEmpty()) {
+            val spoken = a.parts.map { toneLabel(it.tone) }.joinToString()
+            Row(Modifier.semantics { contentDescription = spoken }, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
+                a.parts.forEach { Box(Modifier.size(8.dp).background(toneColor(it.tone), CircleShape)) }
+            }
         } else {
             Box(
                 Modifier
@@ -209,17 +219,36 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
                 .padding(start = 24.dp, end = 24.dp, bottom = 32.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
+            if (a.parts.isEmpty()) {
+                ReadingBody(a, large = true)
+            } else {
+                Text(a.title, style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
+                Text(a.english, style = body.copy(color = Palette.muted))
+                for (part in a.parts) {
+                    Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
+                    ReadingBody(part, large = false)
+                }
+            }
+        }
+    }
+}
+
+/** One annotation's term, gloss, diagram, reading, workings and sources, in a reading sheet. */
+@Composable
+private fun ReadingBody(a: Annotation, large: Boolean) {
+    Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Box(Modifier.size(10.dp).background(toneColor(a.tone), CircleShape))
                 Text(
                     a.title,
-                    style = if (a.titleIsKanji) {
-                        body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 28.sp)
-                    } else {
-                        body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold)
+                    style = when {
+                        a.titleIsKanji -> body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = if (large) 28.sp else 22.sp)
+                        large -> body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold)
+                        else -> body.copy(fontSize = 18.sp, fontWeight = FontWeight.SemiBold)
                     },
                 )
             }
+            if (!large) a.subtitle?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.faint)) }
             Text(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone)), style = body.copy(color = Palette.muted))
             a.diagram?.let { Centered(it) }
             val r = a.reading
@@ -242,7 +271,6 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
                     Text(r.license.label, style = body.copy(fontSize = 12.sp, color = Palette.faint))
                 }
             }
-        }
     }
 }
 
