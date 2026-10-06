@@ -13,6 +13,8 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.StarAffinity
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.PersonalDay
+import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.element
 
@@ -208,8 +210,13 @@ data class DaySummary(
          * p. 333); elsewhere the strongest factor that takes a side, the factors whose lists name
          * a work deciding it and those with a tone of their own the day (the White Beryl, vol. 2,
          * p. 376, which the *kun phan me long*'s rules 2–4 digest).
+         *
+         * [personalDay] and [personalMansions], the birth year's own weekday and mansions on the day,
+         * are listed as [personal] and not weighed: WB calls them "of particular importance" (vol. 2,
+         * p. 338), and a later reader counts them as a particular case (*dmigs bsal*), but no text
+         * found places them against the combination (SPEC §5.12).
          */
-        fun of(day: TibetanDay): DaySummary {
+        fun of(day: TibetanDay, personalDay: PersonalDay? = null, personalMansions: List<PersonalMansion> = emptyList()): DaySummary {
             fun entry(name: String, factor: DayFactor, tone: Tone, reading: Reading?) =
                 SummaryEntry(name, factor.english, tone, reading, latin = true)
             fun lucky(b: Boolean) = if (b) Tone.GOOD else Tone.BAD
@@ -291,7 +298,13 @@ data class DaySummary(
                         weight = d.standing.sumOf { weight(it.voice.rank) },
                     )
                 },
-                personal = emptyList(),
+                personal = listOfNotNull(
+                    personalDay?.let {
+                        SummaryEntry(it.english, day.weekday.english, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], latin = true)
+                    },
+                ) + personalMansions.map {
+                    SummaryEntry(it.english, day.mansion.sanskrit, Texts.personalMansionTone(it), Texts.PERSONAL_MANSION[it], latin = true)
+                },
                 affinity = null,
                 verdict = verdict,
             )

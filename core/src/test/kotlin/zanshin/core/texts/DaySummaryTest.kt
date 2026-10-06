@@ -12,8 +12,11 @@ import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.personalDay
+import zanshin.core.tibetan.personalMansions
 import java.time.LocalDate
 
 /** ROADMAP R3: the summary lists only what the readings state, and keeps both sides of a disagreement. */
@@ -224,6 +227,32 @@ class DaySummaryTest {
         assertEquals(Tone.BAD, tone)
         assertEquals("Thursday", standing.first().kanji)
         assertTrue(13 in Texts.HAIRCUT_GOOD)
+    }
+
+    @Test
+    fun `the person's own days are listed and not weighed`() {
+        // 1 November 2026, Sunday with Ārdrā: for a Snake year Ārdrā is both the power and the slayer mansion (WB p. 330).
+        val day = TibetanCalendar.of(LocalDate.of(2026, 11, 1))
+        val own = DaySummary.of(day, personalDay(Animal.SNAKE, day.weekday), personalMansions(Animal.SNAKE, day.mansion))
+        assertEquals(listOf("Power mansion" to Tone.GOOD, "Slayer mansion" to Tone.BAD), own.personal.map { it.kanji to it.tone })
+        assertEquals(listOf("Ārdrā", "Ārdrā"), own.personal.map { it.english })
+        // A Dragon's luck day is Sunday (Rabten's table).
+        assertEquals(listOf("Luck day" to "Sunday"), DaySummary.of(day, personalDay(Animal.DRAGON, day.weekday)).personal.map { it.kanji to it.english })
+        // For every birth year, on every day of 2026, the tone and the works are those of the day without a birth date.
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val d = TibetanCalendar.of(date)
+            val plain = DaySummary.of(d)
+            assertTrue(plain.personal.isEmpty())
+            for (animal in Animal.entries) {
+                val s = DaySummary.of(d, personalDay(animal, d.weekday), personalMansions(animal, d.mansion))
+                assertEquals(plain.verdict, s.verdict, "$date $animal")
+                assertEquals(plain.byTone, s.byTone, "$date $animal")
+                assertEquals(plain.activities, s.activities, "$date $animal")
+                assertEquals(personalMansions(animal, d.mansion).size + (if (personalDay(animal, d.weekday) != null) 1 else 0), s.personal.size)
+            }
+            date = date.plusDays(1)
+        }
     }
 
     @Test
