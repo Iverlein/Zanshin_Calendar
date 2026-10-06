@@ -2,8 +2,8 @@
 
 The texts behind the roadmap's T2 and T3 items, one topic per file, with the
 Tibetan as printed and its content restated in English (SPEC §8: facts in
-our own words). What is still to be found, and how, is in
-[PLAN.md](PLAN.md).
+our own words). How to read them is in [PLAN.md](PLAN.md); what is still to
+be read, and why, in the work plan of [ROADMAP.md](../ROADMAP.md) (T2).
 
 ## Files
 
@@ -27,7 +27,7 @@ our own words). What is still to be found, and how, is in
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
-| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Eleven questions, all answered; of 1, the 18th and the line with རང་སྐྱེས have no reading in any source found |
+| [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Thirteen questions, all answered; of 1, the 18th and the line with རང་སྐྱེས have no reading in any source found |
 
 Machine transcriptions of WB, used as working copies only, are kept locally
 in `wb/` (gitignored; see `wb/README.md`).

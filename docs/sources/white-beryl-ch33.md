@@ -12,22 +12,22 @@ already written out have their file named.
 | 305 (313) | End of the *bla gnas*; the "fruit of vowels and consonants" (*dbyangs gsal 'bras bu*): the five stages child, youth, adult, old, dead of the name syllable on a day | no | needs the person's name: not a day reading |
 | 306–307 (314–315) | Remedies when a planet harms (*gza' gnod pa*): rites, offerings and recitations per planet, and per name vowel | no | readings only, nothing to calculate |
 | 308–312 (316–320) | The seven planets as weekdays: for each, its caste, whose *bla gza'* it is, element, the activities good and bad on it, a birth on it, illness and remedy, rain, portents (Sunday, img. 316 … Saturday, img. 320) | [weekdays.md](weekdays.md) | T2, the weekday's reading (built) |
-| 313–328 (321–336) | The 28 mansion verses | [mansions.md](mansions.md) (one of 28; the rest in progress) | T2, the mansion reading (now from Henning) |
-| 329 (337) | End of the last verses; the mansions' strength (*dar gud*) | no | not yet clear |
+| 313–328 (321–336) | The 28 mansion verses | [mansion-verses.md](mansion-verses.md) (all 28, by machine; not read by eye) | the mansion's lists are still Henning's; WB's to be read by eye and built (ROADMAP T2) |
+| 329 (337) | End of the last verses; the mansions' strength (*dar gud*) | no | to be read: whether it changes the mansion's voice (ROADMAP T2) |
 | 330 (338) | The personal mansions and weekdays per birth animal | [personal-mansions.md](personal-mansions.md) | T3 |
 | 331–333 (339–341) | The 28 named combinations of weekday and mansion (*kun dga'*, *dus kyi dbyug pa*, *dul ba*, *skye dgu*, *gnon* …, *bdud rtsi*, *gtun*), a long reading of each (img. 339–340) and a short one (*mdor bsdus*, img. 341) | [combinations.md](combinations.md) | built (SPEC §5.12), the rule from WB's table vol. 1, pp. 148–149 |
 | 333–334 (341–342) | The element pairs of weekday and mansion with what each is good for (p. 333), Chinese and Indian elements (p. 334) | [combinations.md](combinations.md) | built: the element pair's reading and lists (SPEC §5.12) |
 | 335–337 (343–345) | Special days: *'grub sbyor*, *zung sbyor*, … *'chi sbyor*, the demon days, *gtan spang*; their table p. 341 | [combinations.md](combinations.md) | built (SPEC §5.12) |
-| 337–338 (345–346) | Days of destruction (*'jig pa'i nyi ma*), *srog sbyor*; the personal weekdays (*srog gza'*, *bla gza'*) and what to do on them | no | T3: the personal weekday, partly in the app already |
+| 337–338 (345–346) | Days of destruction (*'jig pa'i nyi ma*), *srog sbyor*; the personal weekdays (*srog gza'*, *bla gza'*) and what to do on them | no | the personal weekdays and what to do on them: to be read for the brief (ROADMAP T2); the *Rdo rje gtsug lag*'s days of destruction (table p. 342) are built |
 | 339–342 (347–350) | Tables: the elements; per birth animal the *srog gza'*, *keg skar*, *gshed gza'* …; p. 342 (img. 350): the *Rdo rje gtsug lag*'s days of accomplishment, demon, discord (*mi mthun*), destruction and incompatibility | the p. 342 table in [combinations.md](combinations.md) | p. 342 built (SPEC §5.12); the rest tables for the sections above |
 | 343–344 (351–352) | The karaṇas over the 60 half-days of the month | [karanas.md](karanas.md) | T2, karaṇas |
-| 345–346 (353–354) | The *bla skar*, *dur skar* (great and small), *srog skar* … by element | no | T3, personal mansions by element; to compare with p. 330 |
+| 345–346 (353–354) | The *bla skar*, *dur skar* (great and small), *srog skar* … by element | no | personal mansions by element; to compare with p. 330 (ROADMAP T2) |
 | 347–349 (355–357) | The 27 yogas: long and short readings, those to avoid, a ranking | [yogas.md](yogas.md) | T2, yogas |
 | 349–351 (357–359) | The 11 karaṇas with woodcuts | [karanas.md](karanas.md) | T2, karaṇas |
 
-The weekday's reading (pp. 308–312) is written out in
-[weekdays.md](weekdays.md) and built. The next new day reading is the
-weekday-and-mansion combination's (pp. 331–333): it depends only on what
-the app already calculates, and it is verse in WB, so it is to be written
-out from the scans in the way of [mansions.md](mansions.md) before any
-English is drafted.
+Built from this chapter: the lunar dates, the weekdays, the personal
+mansions and weekdays (p. 330), the named combinations, the element pairs,
+the special days, the karaṇas and the yogas. What is still to be read is in
+the work plan (ROADMAP T2). Chapter 34, which follows, gives the results
+of the important works one by one (img. 386 ff.) and is not yet
+inventoried.

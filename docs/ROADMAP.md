@@ -22,42 +22,183 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 Tibetan readings | M | Mansions, the activity lists (doubled mansions read on the print), lunar dates, weekdays, yogas, karaṇas, the trigram, the combinations of weekday and mansion, the special days, Rāhu's course and the earth lords are built, and the day is weighed by the texts' rank; the print's other activity boxes are read and built (50 lists); the *bla mkhyen* of WB ch. 31 is built on the sme ba count of two later texts ([sources/](sources/README.md)) | Answers to the open questions (a reader of the tradition) |
-| 5 | V Rāhu's compass | S | The last cue of the visual-cue audit ([audit-visual-cues.md](audit-visual-cues.md)): Rāhu's row is the only Tibetan row left without a graphic | Rāhu's direction as data, read from its readings with a vector test |
-| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
-| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it contradicts itself (the haircut row against the brief on half of all days), shows a factor it does not weigh (the person's own days, the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below | Owner's decisions on T2.1, T2.7 and T2.8; for T2.9, books only lent on archive.org |
+| 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
 ## Tibetan page
 
-### T2. Meaning of the components and day details
+### T2. The Tibetan page's gaps: work plan
 
-Built: the lunar mansion's reading and Henning's thirteen activity lists
-(SPEC §5.10), with his doubled mansions read on the *kun phan me long*
-print; the White Beryl's readings of the lunar date, the weekday, the
-yoga, the karaṇa and the trigram (the eight goddesses of the date, SPEC
-§5.11); the Tibetan day weighed as the *kun phan me long* says (SPEC §5.12),
-the page in its rank, the day in brief deciding each activity by the
-strongest factor and the day's tone by the combinations of weekday and
-mansion (the 28 named ones and the element pairs), then the special days,
-then the side with more factors, the *Rdo rje gtsug lag*'s special days
-(WB p. 337) among them; Rāhu's course by date, by month and over the hours of a day;
-Jupiter's nectar periods (KP §10); the combination period, the sign rising
-in each hour, on the hours panel (KP §9, WB pp. 371–376); the personal
-mansions (SPEC §5.8); the *kun phan me long*'s other activity boxes
-([kp-activities.md](sources/kp-activities.md)); WB ch. 31's earth lords of the lunar date's animal
-(SPEC §5.11). The texts are in
-[sources/](sources/README.md), with a plan for what is still to be read
-([sources/PLAN.md](sources/PLAN.md)). Left:
+The page's readings are built (SPEC §5.8–5.13, the texts in
+[sources/](sources/README.md)) and the thirteen questions for a reader are
+answered ([open-questions.md](sources/open-questions.md)). Reviewed on
+2026-10-06, what is left are places where the page contradicts itself,
+shows a factor it does not weigh, or rests on a thin or machine-read
+source. Numbers are over 2000–2049 (18,263 days) on the code of that day.
+How to read the sources is in [sources/PLAN.md](sources/PLAN.md); every
+reading task here ends with its facts in a topic file, with edition, page
+and image number.
 
-- **The rest of WB ch. 31** ([earth-lords.md](sources/earth-lords.md)): the
-  *bla mkhyen* of the day is built (2026-10-05, SPEC §5.11). The day by the clan's element (*rus chen*, p. 225) is not planned: it
-  needs a Tibetan patrilineal clan, which the app's readers do not have, and
-  WB itself confines it to reckoning for the dead.
-- **Open readings** for a reader of the tradition
-  ([open-questions.md](sources/open-questions.md)): the yoga ranking (1),
-  SY's Mouse *gshed gza'* (5), the offerings box's khrums smad (6), sha
-  'khon's short reading (8), 'Od 'bar ma's *chu gri bkar* (10) and the
-  direction of the day's sme ba (11).
+Each item is done when its code has tests, SPEC is changed with it, both
+pages and the sheets it touches are checked on the emulator in English and
+Russian, and the release build is checked before the next tag (SPEC §12).
+
+#### T2.1 The haircut row and the brief — S, owner's decision
+
+- **Gap.** The Almanac's Haircut row shows FPMT's day for the date, with
+  its dot; the brief weighs haircuts by the strongest factor that names
+  them. KP box 52a names all seven weekdays for cutting hair and nails, so
+  the weekday decides haircuts on every day (all 18,263) and the date's
+  lists, FPMT's among them, never do. The row and the brief disagree on 9,217 days
+  (50.5 %).
+- **Work.** The row takes its dot and its subtitle from the weighed
+  haircut ("good, by Tuesday"); its sheet keeps FPMT's reading and the
+  thirty-day grid as the date's own list, marked outweighed on the days it
+  is. Alternative: the row stays FPMT's, without a dot, titled as the
+  date's list. A test that the row and the brief agree on every day.
+- **Decision.** Which of the two (recommended: the weighed row).
+
+#### T2.2 Rāhu's compass — S
+
+- **Gap.** Rāhu's row is the only Tibetan row without a graphic; its
+  direction is in the readings' prose only.
+- **Work.** The general course by date, from-direction and to-direction
+  for all thirty dates, as data in core, with a vector file from the table
+  in [rahu.md](sources/rahu.md) (WB vol. 2, pp. 236–238; KP's chart, img.
+  78, agrees date by date) and a test against it. A compass on the row and
+  in the sheet with the arrow from one direction to the other, north at
+  the top as the other compasses (SPEC §10.7).
+
+#### T2.3 The person's own days — S, then M
+
+- **Gap.** The Almanac shows the person's luck, life and anti days (by
+  weekday) and the six personal mansions with their tones; the brief leaves them
+  out. WB's verse on weighing says a particular case (*dmigs bsal*) leads,
+  and Tshul khrims rgyal mtshan names a person's own weekdays and mansions
+  as one (KD vol. 1, pp. 498–499); no text found places them against the
+  combination of weekday and mansion (SPEC §5.12).
+- **Work, S.** The Tibetan brief gets a "For you" block, as the 旧暦 brief
+  has: the day's personal days and mansions with their tones, said to be
+  shown, not weighed.
+- **Work, M (reading).** WB pp. 337–338 (img. 345–346): the personal
+  weekdays (*srog gza'*, *bla gza'*) and what to do on them; pp. 345–346
+  (img. 353–354): the *bla skar*, *dur skar* and *srog skar* by element,
+  against p. 330. Written into [personal-mansions.md](sources/personal-mansions.md).
+- **Build only if** a text ranks them among the day's factors; otherwise
+  the block stays as it is.
+
+#### T2.4 The hours above the day — S, then M
+
+- **Gap.** The texts hold the combination period above every factor of
+  the day (KP rule 5, WB vol. 2, p. 376), and KP's rule 2 puts the hour
+  (*dus tshod*), "a sharp weapon", above the day's animal sign. The hours
+  panel shows the combination period and the nectar periods, but the
+  brief, which gives the day's verdict on each work, does not say that an
+  hour can overrule it. The hour of rule 2 is not built (SPEC §5.13).
+- **Work, S.** The brief gets a "By the hour" block: today's hours whose
+  combination period is to be accomplished or avoided, and the nectar
+  hours, each opening the hours panel, with one sentence that within its
+  hour the combination period outweighs the day's weighing.
+- **Work, M (reading).** What makes an hour good or bad against the *nyi
+  ma* in rule 2: KP img. 13–14 with WB p. 376 ([weighing.md](sources/weighing.md)),
+  then the table it refers to. Built on the hours panel if it is
+  calculable.
+
+#### T2.5 The mansion's own lists — L
+
+- **Gap.** The mansion is the third-strongest factor but speaks with
+  Henning's list and KP's boxes only. WB's 28 mansion verses (pp. 313–328,
+  img. 321–336), with long good and avoid lists, are transcribed by machine
+  in [mansion-verses.md](sources/mansion-verses.md) and not read by eye.
+- **Work.**
+  1. Read each verse's lists on the scan, WBZ as the second print; mark
+     each verse read in mansion-verses.md.
+  2. Map their wordings to activities (new entries where an act is new,
+     each in one of the 38 families); settle `installing_a_deity` (*rab
+     gnas*, then CONSECRATION?) and `taking_elixirs` (*bcud len*, not the
+     Japanese TAKING_MEDICINE) against the verses.
+  3. Build the lists into the mansion's reading beside Henning's, citing
+     both (SPEC §5.10); `TextsTest` and `CatalogTest` keep every wording
+     mapped and translated.
+  4. Read the mansions' strength (*dar gud*, p. 329, img. 337) and say in
+     SPEC §5.12 whether it changes the mansion's voice.
+  5. Measure again: day tones, work sides, the In brief row; vectors in
+     `DaySummaryTest` for two days the new lists change.
+
+#### T2.6 WB chapter 34, the works one by one — M, then build
+
+- **Gap.** WB's verse on weighing makes a particular case lead, and
+  chapter 34 («བྱ་བ་གལ་ཆེའི་རིགས་སོ་སོ་སྒོས་སུ་འབྲས་བུ», img. 386 ff., about
+  65 works) is where it gives the important works their days one by one.
+  It is not inventoried, so it is not known whether KP's activity boxes,
+  which the app has, are its digest.
+- **Work.**
+  1. Inventory from the OCR, one line per work: pages, images, the
+     factors it names (as [white-beryl-ch33.md](sources/white-beryl-ch33.md)).
+  2. Compare each work with KP's box for it
+     ([kp-activities.md](sources/kp-activities.md)): the same lists, more,
+     or other.
+  3. Where chapter 34 says more, read it on the scan and build it as that
+     work's lists; SPEC §5.12 says where it stands in the rank, from what
+     the chapter itself says.
+
+#### T2.7 The day's tone against its lists — S, owner's decision
+
+- **Gap.** On 2,087 days (11 %) a lucky day names more than twice as many
+  works to avoid as to do, or an unlucky day the other way. The sources
+  allow it: the tone is the combination's, and it does not decide the works
+  it does not name (SPEC §5.12). The summary line names what decided the
+  tone, but its four-and-four row cannot show the proportion.
+- **Work.** One of: the counts beside the row ("good 34 · avoid 50"), or a
+  sentence under the tone in the sheet on those days.
+- **Decision.** Which, or neither.
+
+#### T2.8 Rows that repeat — M, owner's decision
+
+- **Gap.** The weekday and its planet are on the day line, on their
+  Almanac row and in the five components; the mansion, the karaṇa and the
+  yoga on their Almanac rows and in the five components (SPEC §10.3 asks
+  for both).
+- **Work.** Each term's Tibetan (script, tap for Wylie and phonetics) moves
+  into its Almanac row's details, and the five components section goes;
+  the day line keeps its facts. SPEC §10.3 changed with it.
+- **Decision.** These values change daily, so the rule that nothing repeats
+  unless it changes with the day does not settle it: keep the five
+  components, or fold them in (recommended: fold them in).
+
+#### T2.9 Answers that rest on unseen scans — owner
+
+- **Gap.** Question 11 (the day's sme ba runs up from the first wood-mouse
+  day after the winter solstice) rests on BS and MK, and the reading of
+  *dmigs bsal* in part on KD; all three were read in BDRC's etext only,
+  their scans being lent on archive.org (`bdrc-W25151` and others,
+  [sources/README.md](sources/README.md)). Of question 1, WB's 18th bad
+  yoga and its line with «རང་སྐྱེས» have no reading in any source found; the
+  app does not use the ranking.
+- **Work.** Borrowed with the owner's archive.org account: check the BS
+  and MK passages and KD vol. 1, pp. 498–499 on the page, and record them
+  as read. Question 1's remainder waits for a reader of the tradition.
+
+#### Order
+
+1. T2.1 and T2.2 (small, visible every day).
+2. T2.3 and T2.4, the display halves (small, close the brief's silence).
+3. T2.7 and T2.8, after the owner's decisions.
+4. T2.5, then T2.6 (the reading; each ends with a build).
+5. The reading halves of T2.3 and T2.4, and T2.9, as the scans allow.
+
+#### Not planned
+
+- The day by the clan's element (*rus chen*, WB ch. 31, p. 225): it needs
+  a Tibetan patrilineal clan, which the app's readers do not have, and WB
+  confines it to reckoning for the dead.
+- KP box 47 (averting rites, every entry a kind of rite) and KP's charts
+  (SPEC §5.10).
+- Rāhu's course by the hour on the hours panel: the text names times of
+  day, not clock hours (SPEC §5.13).
+- WB's yoga ranking verse (question 1): the yoga's dot comes from its
+  other verses (SPEC §5.11).
 
 ### T3. Element colours
 
@@ -99,15 +240,6 @@ calendars and the nine-star reading need the birth date; the progressions of T4 
   for these two only. While it is not set, the readings that need it are
   hidden rather than guessed.
 - Both stay on the device only, as the birth date does now (SPEC §10.5).
-
-### V. Rāhu's compass
-
-The rest of the visual cues for the wider activity lists were built on
-2026-10-06 (SPEC §10.7; the audit in [audit-visual-cues.md](audit-visual-cues.md)).
-Left: a compass on Rāhu's row with the direction it moves in, as the
-almanac's other compasses. The direction is in the readings' prose only
-(SPEC §5.13), so it first needs to be data, read from the White Beryl's
-course with a vector test.
 
 ### M1. Meditation Timer and Periodic Bell
 

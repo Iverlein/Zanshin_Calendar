@@ -1093,8 +1093,8 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   everything, weddings and journeys to rites, haircuts and conduct), one glyph
   each; a test fails on a family no activity uses, another on a family
   without a glyph, and the `when` that maps them is exhaustive. Regrouped on
-  2026-10-06 after the Tibetan lists had grown from 112 activities to 180
-  ([audit-visual-cues.md](audit-visual-cues.md)): livestock (a horseshoe),
+  2026-10-06 after the Tibetan lists had grown from 112 activities to 180,
+  when 21 of 27 families stood on nearly every day: livestock (a horseshoe),
   disputes (facing arrows), office and the great (a throne), vows and
   ordination (an alms bowl), offerings (a butter lamp), bathing (a ewer),
   family and friends (two figures), and the four actions apart, each as the

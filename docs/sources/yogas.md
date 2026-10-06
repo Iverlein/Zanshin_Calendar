@@ -245,7 +245,7 @@ with a harmful reading as bad, sel ba, rma chen and rdo rje as mixed.
 
 ## A second witness: NM and SY
 
-Searched 2026-10-03 for task 4 of [PLAN.md](PLAN.md). NM (etext) gives the
+Searched 2026-10-03 for a second witness to the ranking. NM (etext) gives the
 27 yogas three times, as bare name lists without readings ("know the result
 from the name", མིང་གིས་འབྲས་བུ་ཡོངས་ཤེས་བྱ), in its *ma ṇi* and *lnga bsdus*
 sections, printed pp. 251–252, 278–279 and 287–288:

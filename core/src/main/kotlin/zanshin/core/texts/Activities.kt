@@ -294,7 +294,7 @@ val Activity.family: ActivityFamily
         OFFERINGS, SMOKE_OFFERINGS -> ActivityFamily.OFFERING
         SACRED_SUPPORTS -> ActivityFamily.SACRED
         HEALTH_AND_WEALTH -> ActivityFamily.RITE
-        // The four actions apart: a day names one good where it avoids another (docs/audit-visual-cues.md, V2).
+        // The four actions apart: a day names one good where it avoids another (SPEC §10.7).
         PACIFYING -> ActivityFamily.PACIFYING
         INCREASING -> ActivityFamily.INCREASING
         CONTROLLING -> ActivityFamily.CONTROLLING

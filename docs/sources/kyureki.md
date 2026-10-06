@@ -1,6 +1,7 @@
 # The kyūreki gaps
 
-The three 旧暦 questions of [PLAN.md](PLAN.md) task 7, with what was found on
+The three 旧暦 questions set on 2026-10-03 (the 2033 leap month, the
+personal 三箇の悪日, the Gregorian-dated festivals), with what was found on
 2026-10-03. Facts only, in our own words (SPEC §8); the Japanese is quoted
 where the finding rests on its wording.
 
