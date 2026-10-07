@@ -16,7 +16,10 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.TibetanDay
+import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.element
+import zanshin.core.tibetan.nectarHours
+import zanshin.core.tibetan.risingSign
 
 /** The app's lucky/unlucky dot for the rokuyō: an app convention, not a traditional mark. */
 fun rokuyoTone(r: Rokuyo): Tone = when (r) {
@@ -98,6 +101,39 @@ enum class VerdictBy {
     STRONGEST,
 }
 
+/**
+ * Consecutive hours of the Tibetan day whose combination periods (SPEC §5.13) share the White
+ * Beryl's verdict, GOOD to be accomplished and BAD to be avoided: [count] two-hour periods from
+ * [first], counted from the hare hour at 05:00, with the signs rising in them. A run never crosses
+ * the day's end at 05:00 the next morning.
+ */
+data class PeriodRun(val first: Int, val count: Int, val tone: Tone, val signs: List<ZodiacSign>)
+
+/**
+ * The hours above the Tibetan day (SPEC §5.13): its combination periods in [periods], which the
+ * texts hold above every factor of the day (WB vol. 2, p. 376), and Jupiter's nectar periods in
+ * [nectar], clock hours from 05:00 as [nectarHours] gives them. Neither is weighed into the day: they
+ * are times within it.
+ */
+data class DayHours(val periods: List<PeriodRun>, val nectar: List<Int>) {
+    companion object {
+        fun of(day: TibetanDay): DayHours {
+            val runs = mutableListOf<PeriodRun>()
+            for (hour in 0 until 12) {
+                val sign = risingSign(day.month, hour)
+                val tone = Texts.DUS_SBYOR.getValue(sign).first
+                val last = runs.lastOrNull()
+                if (last?.tone == tone) {
+                    runs[runs.lastIndex] = last.copy(count = last.count + 1, signs = last.signs + sign)
+                } else {
+                    runs += PeriodRun(hour, 1, tone, listOf(sign))
+                }
+            }
+            return DayHours(runs, nectarHours(day.weekday))
+        }
+    }
+}
+
 /** The Tibetan day's tone (SPEC §5.12) and what decided it. */
 data class DayVerdict(val tone: Tone, val by: VerdictBy)
 
@@ -119,6 +155,8 @@ data class DaySummary(
     val verdict: DayVerdict? = null,
     /** The 旧暦 annotations the almanac does not count today, with the one that sets them aside (SPEC §7.5). */
     val setAside: Map<SummaryEntry, List<SummaryEntry>> = emptyMap(),
+    /** The Tibetan day's combination periods and nectar periods, shown and not weighed (SPEC §5.13). */
+    val hours: DayHours? = null,
 ) {
     /**
      * The side the weighing gives [activity] on the day, GOOD or BAD, with the
@@ -307,6 +345,7 @@ data class DaySummary(
                 },
                 affinity = null,
                 verdict = verdict,
+                hours = DayHours.of(day),
             )
         }
 

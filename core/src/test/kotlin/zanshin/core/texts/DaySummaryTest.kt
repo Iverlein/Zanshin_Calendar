@@ -15,6 +15,9 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.ZodiacSign
+import zanshin.core.tibetan.nectarHours
+import zanshin.core.tibetan.risingSign
 import zanshin.core.tibetan.personalDay
 import zanshin.core.tibetan.personalMansions
 import java.time.LocalDate
@@ -253,6 +256,52 @@ class DaySummaryTest {
             }
             date = date.plusDays(1)
         }
+    }
+
+    @Test
+    fun `the hours above the Tibetan day of 1 November 2026`() {
+        // The 9th month, a Sunday: Libra rises at daybreak (KP §9), and Jupiter rules the 6th half by day and the 2nd and 9th by night
+        // (KP §10, nectar-periods.md): 10:00–11:00, 18:00–19:00 and 01:00–02:00.
+        val hours = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1))).hours!!
+        assertEquals(
+            listOf(
+                PeriodRun(0, 2, Tone.BAD, listOf(ZodiacSign.LIBRA, ZodiacSign.SCORPIO)),
+                PeriodRun(2, 1, Tone.GOOD, listOf(ZodiacSign.SAGITTARIUS)),
+                PeriodRun(3, 1, Tone.BAD, listOf(ZodiacSign.CAPRICORN)),
+                PeriodRun(4, 2, Tone.GOOD, listOf(ZodiacSign.AQUARIUS, ZodiacSign.PISCES)),
+                PeriodRun(6, 1, Tone.BAD, listOf(ZodiacSign.ARIES)),
+                PeriodRun(7, 2, Tone.GOOD, listOf(ZodiacSign.TAURUS, ZodiacSign.GEMINI)),
+                PeriodRun(9, 1, Tone.BAD, listOf(ZodiacSign.CANCER)),
+                PeriodRun(10, 2, Tone.GOOD, listOf(ZodiacSign.LEO, ZodiacSign.VIRGO)),
+            ),
+            hours.periods,
+        )
+        assertEquals(listOf(5, 13, 20), hours.nectar)
+    }
+
+    @Test
+    fun `the hours cover the day once and are not weighed`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val d = TibetanCalendar.of(date)
+            val hours = DaySummary.of(d).hours!!
+            // Twelve hours in order, each in one run with its own sign and WB's verdict on it; neighbouring runs differ.
+            assertEquals((0 until 12).toList(), hours.periods.flatMap { r -> (r.first until r.first + r.count).toList() }, "$date")
+            for (r in hours.periods) {
+                assertEquals(r.count, r.signs.size, "$date")
+                r.signs.forEachIndexed { i, sign ->
+                    assertEquals(risingSign(d.month, r.first + i), sign, "$date")
+                    assertEquals(r.tone, Texts.DUS_SBYOR.getValue(sign).first, "$date $sign")
+                }
+            }
+            hours.periods.zipWithNext().forEach { (a, b) -> assertTrue(a.tone != b.tone, "$date") }
+            // All twelve signs rise in a day: seven hours to accomplish, five to avoid.
+            assertEquals(7, hours.periods.filter { it.tone == Tone.GOOD }.sumOf { it.count }, "$date")
+            assertEquals(nectarHours(d.weekday), hours.nectar, "$date")
+            date = date.plusDays(1)
+        }
+        // The 旧暦 day has none.
+        assertEquals(null, DaySummary.of(Kyureki.of(LocalDate.of(2026, 11, 1)), Rekichu.of(LocalDate.of(2026, 11, 1))).hours)
     }
 
     @Test
