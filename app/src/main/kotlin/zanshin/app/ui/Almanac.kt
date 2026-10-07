@@ -141,6 +141,8 @@ data class Annotation(
     val spokenTitle: String? = null,
     /** How the entry was worked out, as label and value, shown under the reading. */
     val details: List<Pair<String, String>> = emptyList(),
+    /** The term's Tibetan name as Wylie and English, shown in script under the gloss; tapping it gives the Wylie and phonetics. */
+    val tibetan: Pair<String, String>? = null,
     /** Drawn in place of the tone dot (the 恵方 compass). */
     val lead: (@Composable () -> Unit)? = null,
     /** Glyphs after the title in the row (the element pair, the haircut's scissors). */
@@ -251,6 +253,16 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
             }
             if (!large) a.subtitle?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.faint)) }
             Text(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone)), style = body.copy(color = Palette.muted))
+            a.tibetan?.let { (wylie, english) ->
+                Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(
+                        stringResource(R.string.row_tibetan),
+                        style = body.copy(fontSize = 13.sp, color = Palette.muted),
+                        modifier = Modifier.width(112.dp).alignByBaseline(),
+                    )
+                    TibetanTerm(wylie, english, size = 18.sp, modifier = Modifier.alignByBaseline())
+                }
+            }
             a.diagram?.let { Centered(it) }
             val r = a.reading
             if (r == null) {

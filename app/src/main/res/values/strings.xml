@@ -124,10 +124,6 @@
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
     <string name="detail_counted_hour">The hour\'s element follows from the lunar date\'s (%1$s) by the hour\'s animal: hare, monkey and ox hours take its son; dragon, bird and tiger its friend; snake and dog its enemy; horse and pig its mother; sheep and mouse the same element.</string>
     <string name="detail_its_hour">The hour\'s %1$s</string>
-    <string name="section_five_components">Five components</string>
-    <string name="row_lunar_mansion">Lunar mansion</string>
-    <string name="row_yoga">Yoga</string>
-    <string name="row_karana">Karaṇa</string>
     <string name="section_lunar_day">Lunar day</string>
     <string name="row_trigram">Trigram</string>
     <string name="row_date_sme_ba">Date\'s sme ba</string>

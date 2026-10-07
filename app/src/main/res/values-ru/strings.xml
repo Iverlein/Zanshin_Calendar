@@ -96,10 +96,6 @@
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
     <string name="detail_counted_hour">Стихия часа выводится из стихии лунного числа (%1$s) по животному часа: часы Зайца, Обезьяны и Быка берут её ребёнка; Дракона, Птицы и Тигра — её друга; Змеи и Собаки — её врага; Лошади и Свиньи — её мать; Овцы и Мыши — ту же стихию.</string>
     <string name="detail_its_hour">%1$s часа</string>
-    <string name="section_five_components">Пять составляющих</string>
-    <string name="row_lunar_mansion">Лунное созвездие</string>
-    <string name="row_yoga">Йога</string>
-    <string name="row_karana">Карана</string>
     <string name="section_lunar_day">Лунный день</string>
     <string name="row_trigram">Триграмма</string>
     <string name="row_date_sme_ba">Число (sme ba) лунной даты</string>

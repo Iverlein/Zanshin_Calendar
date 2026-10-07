@@ -368,6 +368,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = weekdaySubtitle,
                     titleIsKanji = false,
                     glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
+                    tibetan = "gza’ ${day.weekday.wylie}" to day.weekday.english,
                 ),
             )
             val mansionReading = Texts.MANSION.getValue(day.mansion)
@@ -380,6 +381,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     mansionReading,
                     subtitle = mansionSubtitle,
                     titleIsKanji = false,
+                    tibetan = day.mansion.wylie to "${day.mansion.sanskrit} — ${day.mansion.english}",
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
@@ -432,6 +434,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.KARANA[day.karana],
                     subtitle = karanaSubtitle,
                     titleIsKanji = false,
+                    tibetan = day.karana.wylie to "${day.karana.sanskrit} — ${day.karana.english}",
                     details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
                     diagram = { KaranaRing(day.karana, 280.dp) },
@@ -445,6 +448,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.YOGA[day.yoga],
                     subtitle = yogaSubtitle,
                     titleIsKanji = false,
+                    tibetan = day.yoga.wylie to "${day.yoga.sanskrit} — ${day.yoga.english}",
                     details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
                     diagram = { YogaRing(day.yoga, 280.dp) },
@@ -496,24 +500,6 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels)) { a -> sheet = a }
                 }
             }
-        }
-
-        SectionTitle(stringResource(R.string.section_five_components))
-        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            FactRow(
-                stringResource(R.string.row_weekday),
-                "gza’ ${day.weekday.wylie}",
-                "${day.weekday.english} · ${day.weekday.planet} · ${day.weekday.element.english}",
-                lead = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 20.dp) },
-            )
-            FactRow(
-                stringResource(R.string.row_lunar_mansion),
-                day.mansion.wylie,
-                "${day.mansion.sanskrit} — ${day.mansion.english} · ${day.mansion.element.english}",
-                lead = { CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 20.dp) },
-            )
-            FactRow(stringResource(R.string.row_karana), day.karana.wylie, "${day.karana.sanskrit} — ${day.karana.english}")
-            FactRow(stringResource(R.string.row_yoga), day.yoga.wylie, "${day.yoga.sanskrit} — ${day.yoga.english}")
         }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
