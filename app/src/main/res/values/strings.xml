@@ -391,6 +391,9 @@
     <string name="brief_good">good</string>
     <!-- label before the glyphs of what to avoid -->
     <string name="brief_avoid">avoid</string>
+    <!-- the Tibetan In brief row's counts after its glyphs (SPEC §10.3, ROADMAP T2.7): how many works the day names good and to avoid -->
+    <string name="brief_row_good">good %1$d</string>
+    <string name="brief_row_avoid">avoid %1$d</string>
     <!-- spoken after the counts on the Tibetan summary line: the works its glyphs stand for, heaviest first -->
     <string name="brief_row_spoken">. Most of all good for %1$s; first to avoid %2$s</string>
     <string name="section_stars">九星 · Nine stars</string>

@@ -324,6 +324,8 @@
     <string name="glyph_gibbous_moon">луна после первой четверти</string>
     <string name="brief_good">хорошо</string>
     <string name="brief_avoid">избегать</string>
+    <string name="brief_row_good">хорошо %1$d</string>
+    <string name="brief_row_avoid">избегать %1$d</string>
     <string name="brief_row_spoken">. Лучше всего: %1$s; прежде всего избегать: %2$s</string>
     <string name="section_stars">九星 · Девять звёзд</string>
     <string name="row_day_star">Звезда дня</string>

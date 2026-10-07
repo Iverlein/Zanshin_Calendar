@@ -58,8 +58,10 @@ private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWe
  * the activity families the annotations name good and to avoid, a family in
  * the mixed colour when one of its activities is named both ways; on the
  * Tibetan page one row, the families of the heaviest works good and to avoid
- * ([DaySummary.row]). Opens [DaySummarySheet]. Screen readers get the counts,
- * and on the Tibetan page the works the row stands for.
+ * ([DaySummary.row]), followed by how many works the day names good and to
+ * avoid, since the row cannot show the proportion. Opens [DaySummarySheet].
+ * Screen readers get the counts, and on the Tibetan page the works the row
+ * stands for.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -96,7 +98,16 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
                 }
             }
             if (summary.verdict != null) {
-                WeighedLine(summary)
+                // The glyphs show the heaviest works only; the counts say how the day's lists divide (ROADMAP T2.7).
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Box(Modifier.weight(1f)) { WeighedLine(summary) }
+                    // One above the other, so that they take half the width and leave it to the glyphs.
+                    Column(horizontalAlignment = Alignment.End) {
+                        val small = body.copy(fontSize = 12.sp, lineHeight = 14.sp)
+                        Text(stringResource(R.string.brief_row_good, summary.good.size), style = small.copy(color = Palette.good), maxLines = 1)
+                        Text(stringResource(R.string.brief_row_avoid, summary.avoid.size), style = small.copy(color = Palette.bad), maxLines = 1)
+                    }
+                }
             } else {
                 FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
                 FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
