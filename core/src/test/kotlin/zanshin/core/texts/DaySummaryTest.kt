@@ -14,6 +14,7 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.nectarHours
@@ -176,7 +177,7 @@ class DaySummaryTest {
     fun `the counts beside the Tibetan line`() {
         // The row's counts (ROADMAP T2.7): every work on one side, so they add up to the day's works.
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(53 to 36, s.good.size to s.avoid.size)
+        assertEquals(55 to 35, s.good.size to s.avoid.size)
         // Days whose lists run against their tone, more than twice as many works on the other side (SPEC §5.12).
         var date = LocalDate.of(2000, 1, 1)
         var against = 0
@@ -191,7 +192,7 @@ class DaySummaryTest {
             if (other > 2 * with) against++
             date = date.plusDays(1)
         }
-        assertEquals(2087, against)
+        assertEquals(2140, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -201,14 +202,32 @@ class DaySummaryTest {
         val (good, avoid) = s.row()
         // Destroying: the element pair (10), Rāhu (9), Ārdrā (7), the 22nd (5) and Viṣṭi (4).
         assertEquals(35, good.first().weight)
+        // Then crafts, astrology, and killing, which Ārdrā's verse names good with the pair and Viṣṭi.
         assertEquals(
-            listOf(ActivityFamily.DESTROYING, ActivityFamily.LEARNING, ActivityFamily.BUILDING, ActivityFamily.EARTH),
+            listOf(ActivityFamily.DESTROYING, ActivityFamily.BUILDING, ActivityFamily.LEARNING, ActivityFamily.BLADE),
             good.map { it.activity.family },
         )
         assertEquals(
             listOf(ActivityFamily.WEDDING, ActivityFamily.SACRED, ActivityFamily.DISPUTE, ActivityFamily.LIVESTOCK),
             avoid.map { it.activity.family },
         )
+    }
+
+    @Test
+    fun `the mansion speaks with the White Beryl's verse`() {
+        // 1 November 2026, Ārdrā: its verse names killing and cutting good (WB vol. 2, p. 316), with the element pair and Viṣṭi.
+        val ardra = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
+        assertEquals(listOf("Fire – Water", "Ārdrā", "Viṣṭi"), ardra.activities.single { it.activity == Activity.KILLING }.good.map { it.kanji })
+        // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday and the Zon trigram agree,
+        // the demon king, weaker than both, is outweighed.
+        val krittika = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
+        val war = krittika.activities.single { it.activity == Activity.WAR }
+        assertEquals(listOf("Wednesday", "Kṛttikā", "Zon"), war.avoid.map { it.kanji })
+        assertEquals(listOf("Demon king"), war.outweighed.map { it.kanji })
+        assertEquals(listOf("Wednesday", "Kṛttikā"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
+        // The Zhol print reads «དྲ་གྱོན», new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
+        val verse = Texts.MANSION.getValue(Mansion.KRITTIKA)
+        assertTrue("new_clothes" in verse.avoidKeys && "disputes" !in verse.avoidKeys)
     }
 
     @Test

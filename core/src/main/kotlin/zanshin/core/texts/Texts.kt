@@ -137,6 +137,7 @@ object Sources {
     val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
+    val WHITE_BERYL_MANSION_VERSES = whiteBeryl("pp. 313–328")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's bla mkhyen p. 180 and the day's sme ba p. 192")
@@ -352,14 +353,16 @@ object Texts {
 
     /**
      * The lunar mansion: its kind of work, nature, planet and foods, and what the
-     * list of mansions and the activity lists name it good or bad for (SPEC §5.10).
+     * White Beryl's verse on it, the list of mansions and the activity lists name
+     * it good or bad for, the verse first (SPEC §5.10).
      */
     val MANSION: Map<Mansion, Reading> = Mansion.entries.associateWith { m ->
+        val (verseGood, verseAvoid) = MansionVerses.LISTS.getValue(m)
         Reading(
-            goodKeys = (Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
-            avoidKeys = Electional.bad { m in it.mansions },
+            goodKeys = (verseGood + Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
+            avoidKeys = (verseAvoid + Electional.bad { m in it.mansions }).distinct(),
             source = Sources.HENNING_ELECTIONAL,
-            also = listOf(Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_MANSION_CLASSES),
+            also = listOf(Sources.WHITE_BERYL_MANSION_VERSES, Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_MANSION_CLASSES),
             key = "reading.Mansion",
             arg = "reading.${glossKey(m)}",
         )
