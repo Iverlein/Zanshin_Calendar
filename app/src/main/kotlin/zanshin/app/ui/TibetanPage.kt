@@ -88,6 +88,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
+    // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
+    var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
     val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions) { DaySummary.of(day, info.personalDay, info.personalMansions) }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
@@ -480,7 +482,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_almanac)) }
-            IconButton(onClick = { hoursOpen = true }) {
+            IconButton(onClick = { hoursFrom = null; hoursOpen = true }) {
                 Icon(Icons.Clock, contentDescription = stringResource(R.string.hours_open), tint = Palette.muted)
             }
         }
@@ -559,8 +561,14 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         }
     }
 
-    if (summaryOpen) DaySummarySheet(summary, festival = day.holiday != null || day.specialDay != null) { summaryOpen = false }
-    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, onOpen = { sheet = it }) { hoursOpen = false }
+    if (summaryOpen) {
+        DaySummarySheet(
+            summary,
+            festival = day.holiday != null || day.specialDay != null,
+            onHour = { hoursFrom = it; hoursOpen = true },
+        ) { summaryOpen = false }
+    }
+    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
     sheet?.let { ReadingSheet(it) { sheet = null } }
 }
 
@@ -642,9 +650,12 @@ internal fun pebbleTone(p: Pebbles): Tone = when {
 internal fun hourName(h: HourSign, labels: Labels): String = labels.string(R.string.hour_name, gloss(h.sign.animal))
 
 /** "17:00–19:00", clock time. */
-internal fun hourSpan(h: HourSign): String {
+internal fun hourSpan(h: HourSign): String = clockSpan(h.startMinute, 120)
+
+/** "21:00–01:00": [minutes] from [start], clock time, past midnight as the clock reads it. */
+internal fun clockSpan(start: Int, minutes: Int): String {
     fun hhmm(m: Int) = "%02d:%02d".format((m / 60) % 24, m % 60)
-    return "${hhmm(h.startMinute)}–${hhmm(h.startMinute + 120)}"
+    return "${hhmm(start)}–${hhmm(start + minutes)}"
 }
 
 /** Tibetan script in the bundled font, sized to sit level with Latin text of [size]. */

@@ -77,11 +77,12 @@ import kotlin.math.sin
  * §5.13), coloured by the White Beryl's verdict on it, with dots on the
  * nectar periods. With a birth date, two outer rings are coloured by the
  * pebbles of the hour's vitality and body against the birth year's. Tapping
- * an hour shows its rows, which open their readings through [onOpen].
+ * an hour shows its rows, which open their readings through [onOpen]. It opens
+ * at [initial], a two-hour period from 05:00, or else at the present hour.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, zone: ZoneId, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
+fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, zone: ZoneId, initial: Int? = null, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
     val labels = LocalLabels.current
     val hours = remember(signs.date) { Forces.hours(signs.date) }
     val periods = remember(day.month) { (0 until 12).map { risingSign(day.month, it) } }
@@ -97,7 +98,7 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
     }
     val sinceStart = Duration.between(dayStart, now).toMinutes()
     val current = if (sinceStart in 0 until 24 * 60) (sinceStart / 120).toInt() else null
-    var selected by remember(date) { mutableIntStateOf(current ?: 0) }
+    var selected by remember(date) { mutableIntStateOf(initial ?: current ?: 0) }
     val nowMinute = if (current != null) now.hour * 60 + now.minute else null
 
     fun tone(i: Int, force: Force) = pebbleTone(ForceContrast(force, birth!!.forces[force], hours[i].sign.forces[force]).pebbles)

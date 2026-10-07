@@ -45,6 +45,7 @@ import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.ActivityNote
+import zanshin.core.texts.DayHours
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
@@ -135,10 +136,14 @@ private fun WeighedLine(summary: DaySummary) {
     }
 }
 
-/** The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed day on the Tibetan one (SPEC §5.12). */
+/**
+ * The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed
+ * day on the Tibetan one (SPEC §5.12), with the hours above it; a time there calls [onHour] with its
+ * two-hour period, counted from 05:00.
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onDismiss: () -> Unit) {
+fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> Unit = {}, onDismiss: () -> Unit) {
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
@@ -194,6 +199,8 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onDismiss: () -> U
 
             ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
             ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+
+            s.hours?.let { HoursBlock(it, onHour) }
 
             Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {
@@ -293,6 +300,49 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                 }
             }
         }
+    }
+}
+
+/**
+ * The Tibetan day's hours (SPEC §10.3, §5.13): the clock times of its combination periods to be
+ * accomplished and to be avoided, and its nectar periods, each time opening its hour; then why
+ * they stand above the day's weighing.
+ */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
+    // A list of clock times under a dot and a label; each time opens the two-hour period it starts in.
+    @Composable
+    fun Times(dot: Color, label: String, times: List<Pair<String, Int>>) {
+        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Box(Modifier.padding(top = 7.dp).size(8.dp).background(dot, CircleShape))
+            Column {
+                Text(label, style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    val open = stringResource(R.string.hours_open)
+                    for ((time, hour) in times) {
+                        Text(
+                            time,
+                            style = body.copy(fontSize = 16.sp),
+                            modifier = Modifier
+                                .clickable(role = Role.Button, onClickLabel = open) { onHour(hour) }
+                                .padding(vertical = 6.dp),
+                        )
+                    }
+                }
+            }
+        }
+    }
+    Block(stringResource(R.string.brief_by_hour)) {
+        for (tone in listOf(Tone.GOOD, Tone.BAD)) {
+            Times(
+                toneColor(tone),
+                stringResource(if (tone == Tone.GOOD) R.string.brief_hours_good else R.string.brief_hours_bad),
+                hours.periods.filter { it.tone == tone }.map { clockSpan(5 * 60 + it.first * 120, it.count * 120) to it.first },
+            )
+        }
+        Times(Palette.saffron, stringResource(R.string.tib_nectar_title), hours.nectar.map { clockSpan(5 * 60 + it * 60, 60) to it / 2 })
+        Text(stringResource(R.string.brief_hours_note), style = body.copy(fontSize = 14.sp, color = Palette.muted))
     }
 }
 

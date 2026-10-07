@@ -275,6 +275,11 @@
     <!-- the Tibetan brief's For you block: which of the day's factors is one's own, the weekday or the mansion: "Wednesday, for your birth year" -->
     <string name="brief_personal_of">%1$s, for your birth year</string>
     <string name="brief_personal_not_weighed">Shown, not weighed. The White Beryl calls a person\'s own weekdays and mansions of particular importance, but neither it nor any other text found places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
+    <!-- the Tibetan brief's By the hour block (SPEC §10.3): the day's combination periods by verdict and the nectar periods, each time opening the hours -->
+    <string name="brief_by_hour">By the hour</string>
+    <string name="brief_hours_good">Combination period, to be accomplished</string>
+    <string name="brief_hours_bad">Combination period, to be avoided</string>
+    <string name="brief_hours_note">Within its hour the combination period, the sign then rising, outweighs every factor of the day: the White Beryl holds the work of planet, mansion, karaṇa and yoga complete in its house (vol. 2, p. 376). What its reading names good or to avoid stands above the day\'s lists while the hour lasts. The nectar periods are shown, not weighed. Tap a time to open its hour.</string>
     <string name="brief_note">Listed as the sources give them. No published rule ranks one kind of annotation above another, so the kinds are not weighed; where they disagree, both are shown. Only the lower band\'s own rules set some notes aside.</string>
     <string name="brief_set_aside">Set aside</string>
     <string name="brief_set_aside_alone">stands alone in the lower band; these do not count today</string>
