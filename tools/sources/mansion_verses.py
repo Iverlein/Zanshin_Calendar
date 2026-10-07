@@ -92,6 +92,9 @@ def main(argv):
         if k < 0:
             print('cut not found, whole verse quoted:', i, file=sys.stderr)
         parts.append('\n' + en.read_text().replace('@@TIB@@', '> ' + quote).rstrip() + '\n')
+    tail = w / 'en/99-tail.md'
+    if tail.exists():
+        parts.append('\n' + tail.read_text().rstrip() + '\n')
     out.write_text(''.join(parts))
     print(f'{len(verses)} verses, {len(parts) - 1} written -> {out}')
 

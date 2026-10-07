@@ -10,7 +10,9 @@ of activities to do and a shorter one to avoid, what a birth and an
 illness on it mean, portents, rain, its minor star (*skar chung*) and a
 remedy. The app's mansion readings already come from Henning, who follows
 this chapter; what is new here is the Tibetan of one verse, read by eye.
-All 28 verses, from two OCR readings, are in [mansion-verses.md](mansion-verses.md).
+All 28 verses, from two OCR readings with their lists read by eye
+(2026-10-07), are in [mansion-verses.md](mansion-verses.md); since then
+the app's mansion readings carry each verse's own lists too (SPEC §5.10).
 
 ## Uttarāṣāḍhā (chu smad)
 

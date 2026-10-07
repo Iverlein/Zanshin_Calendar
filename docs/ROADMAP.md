@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the hours), or rests on thin or machine-read sources (the mansion's lists, WB ch. 34): a work plan of nine items below, T2.1–T2.3 and T2.4's display half built | Owner's decisions on T2.7 and T2.8; for T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left are places where it shows a factor it does not weigh (the hours), or rests on a machine-read source (WB ch. 34): a work plan of nine items below, T2.1–T2.3, T2.5, T2.7, T2.8 and T2.4's display half built | For T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -80,26 +80,28 @@ Showing the rest in "For you" is the owner's decision.
   then the table it refers to. Built on the hours panel if it is
   calculable.
 
-#### T2.5 The mansion's own lists — L
+#### T2.5 The mansion's own lists — built 2026-10-07 (SPEC §5.10, §5.12)
 
-- **Gap.** The mansion is the third-strongest factor but speaks with
-  Henning's list and KP's boxes only. WB's 28 mansion verses (pp. 313–328,
-  img. 321–336), with long good and avoid lists, are transcribed by machine
-  in [mansion-verses.md](sources/mansion-verses.md) and not read by eye.
-- **Work.**
-  1. Read each verse's lists on the scan, WBZ as the second print; mark
-     each verse read in mansion-verses.md.
-  2. Map their wordings to activities (new entries where an act is new,
-     each in one of the 38 families); settle `installing_a_deity` (*rab
-     gnas*, then CONSECRATION?) and `taking_elixirs` (*bcud len*, not the
-     Japanese TAKING_MEDICINE) against the verses.
-  3. Build the lists into the mansion's reading beside Henning's, citing
-     both (SPEC §5.10); `TextsTest` and `CatalogTest` keep every wording
-     mapped and translated.
-  4. Read the mansions' strength (*dar gud*, p. 329, img. 337) and say in
-     SPEC §5.12 whether it changes the mansion's voice.
-  5. Measure again: day tones, work sides, the In brief row; vectors in
-     `DaySummaryTest` for two days the new lists change.
+WB's 28 mansion verses (pp. 313–328) are read: every good and avoid list
+on the scan, Kṛttikā's «དྲ་གྱོན» (new clothes, where the 1996 print sets
+«དྲ་གྱོད») from the Zhol print ([mansion-verses.md](sources/mansion-verses.md)).
+Each day mansion's reading now joins its verse's lists, first, to
+Henning's list and KP's boxes: 313 new wordings and two new activities
+(Bon rites, pitching tents). Henning's "installing a deity" is *rab
+gnas*, consecration: his nine mansions for it are all ones whose verse
+names consecration good, none whose verse avoids it, while the verses'
+temples and images go their own way (Hasta avoids them). *Bcud len*,
+which no verse names, is its own act, taking elixirs, no longer the
+Japanese pages' taking medicine. The *dar gud* (pp.
+329–330) is read and not built: WB says that reckoning lacks a
+scriptural source. Measured again on 2000–2049: the tones do not change
+(the mansion has none); the days' works grow from 1,530,335 to
+1,627,039 (101,811 added; 5,107 gone, silent where a verse contradicts
+the mansion's other lists or moved with "installing a deity"), 11,245
+change side, and the mansion decides 288,365
+instead of 172,008; days against their tone 2,087 to 2,140.
+`DaySummaryTest` keeps 1 November 2026 (Ārdrā: killing good) and 28
+January 2026 (Kṛttikā: war and raids to avoid).
 
 #### T2.6 WB chapter 34, the works one by one — M, then build
 
@@ -118,29 +120,19 @@ Showing the rest in "For you" is the owner's decision.
      work's lists; SPEC §5.12 says where it stands in the rank, from what
      the chapter itself says.
 
-#### T2.7 The day's tone against its lists — S, owner's decision
+#### T2.7 The day's tone against its lists — built 2026-10-07 (SPEC §5.12, §10.3, §10.7)
 
-- **Gap.** On 2,087 days (11 %) a lucky day names more than twice as many
-  works to avoid as to do, or an unlucky day the other way. The sources
-  allow it: the tone is the combination's, and it does not decide the works
-  it does not name (SPEC §5.12). The summary line names what decided the
-  tone, but its four-and-four row cannot show the proportion.
-- **Work.** One of: the counts beside the row ("good 34 · avoid 50"), or a
-  sentence under the tone in the sheet on those days.
-- **Decision.** Which, or neither.
+The owner chose the counts beside the In brief row ("good 61", "avoid 21",
+one above the other). Measured again on the code of that day: 2,087 days
+of 18,263 in 2000–2049 run against their tone, and the combination
+decides the tone on 9,672; `DaySummaryTest` keeps both.
 
-#### T2.8 Rows that repeat — M, owner's decision
+#### T2.8 Rows that repeat — built 2026-10-07 (SPEC §10.3)
 
-- **Gap.** The weekday and its planet are on the day line, on their
-  Almanac row and in the five components; the mansion, the karaṇa and the
-  yoga on their Almanac rows and in the five components (SPEC §10.3 asks
-  for both).
-- **Work.** Each term's Tibetan (script, tap for Wylie and phonetics) moves
-  into its Almanac row's details, and the five components section goes;
-  the day line keeps its facts. SPEC §10.3 changed with it.
-- **Decision.** These values change daily, so the rule that nothing repeats
-  unless it changes with the day does not settle it: keep the five
-  components, or fold them in (recommended: fold them in).
+The owner chose to fold the five components into the Almanac rows: the
+weekday's, mansion's, karaṇa's and yoga's sheets give the Tibetan name in
+script (tap for Wylie and phonetics), the section is gone, and the day
+line keeps its facts.
 
 #### T2.9 Answers that rest on unseen scans — owner
 
@@ -159,8 +151,8 @@ Showing the rest in "For you" is the owner's decision.
 
 1. T2.1, T2.2 and T2.3 are built.
 2. T2.4, the display half: built 2026-10-07.
-3. T2.7 and T2.8, after the owner's decisions.
-4. T2.5, then T2.6 (the reading; each ends with a build).
+3. T2.7 and T2.8 built 2026-10-07.
+4. T2.5 built 2026-10-07; next T2.6 (the reading, then a build).
 5. The reading half of T2.4, and T2.9, as the scans allow.
 
 #### Not planned

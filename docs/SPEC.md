@@ -308,6 +308,22 @@ Edward Henning, *Horary and electional astrology of the five components*
   For each, the good and bad weekdays, lunar dates, mansions, day animals
   (the lunar date's, §5.8, as WB's notes count the *nyi ma*: open question 9,
   answered 2026-10-04) and trigrams. What a list does not name is neutral.
+- **The White Beryl's mansion verses** (vol. 2, pp. 313–328,
+  [sources/mansion-verses.md](sources/mansion-verses.md), the lists read
+  on the scans of the 1996 edition): what each day mansion's verse names
+  good and to avoid, as wording keys in the verse's order
+  (`MansionVerses.kt`). Kṛttikā's «དྲ་གྱོད» is read «དྲ་གྱོན», new clothes,
+  with the Zhol print. Left out: words the reading leaves in doubt, what
+  a verse calls middling or acceptable, omens that are no act (a birth, a
+  death), and Abhijit. A work qualified by a direction or a kind of person
+  is shown and weighs for neither side; "for the most part" and "but for
+  the special cases" are the verse's general rule and count. Two acts the
+  other lists did not have are new: Bon rites, and pitching tents, which
+  is not building. Henning's "installing a deity" is *rab gnas*,
+  consecration: his nine mansions for it are all ones whose verse names
+  consecration good and none whose verse avoids it, while the verses'
+  temples and images go their own way. *Bcud len* in the weekday verses
+  is taking elixirs, an act of its own.
 - **The print's other boxes**, read on its scans in the same way
   ([sources/kp-activities.md](sources/kp-activities.md)): 50 more
   lists, from naming and new clothes to building, sowing, trade, medicine,
@@ -352,10 +368,12 @@ follows the Indian classes for Revatī; the White Beryl's own seven classes
 Śatabhiṣaj among the very stable, Uttarabhādrapadā among the quick and
 good, Revatī among the unstable and changing, and those three readings add
 WB's class after Henning's line.
-A mansion's reading joins what the list of mansions names it good for with
-the activity lists' good and bad, and cites the print beside Henning; where they disagree (Rohiṇī is good for
-marriage in the first, bad in the second) both stay, as elsewhere in the
-app. The day in brief (§10.3) weighs the factors as §5.12 says.
+A mansion's reading joins its White Beryl verse's lists, first, with what
+the list of mansions names it good for and the activity lists' good and
+bad, and cites the White Beryl and the print beside Henning; where they
+disagree (Rohiṇī is good for marriage in Henning's list, to avoid in its
+verse and the print) both stay, as elsewhere in the app, and the mansion
+says nothing on that work. The day in brief (§10.3) weighs the factors as §5.12 says.
 
 ### 5.11 The White Beryl's readings: lunar date, weekday, yoga, karaṇa, trigram
 
@@ -494,7 +512,12 @@ voices, so that the tone and the lists cannot go separate ways.
   and the day animal have none: Rāhu is reckoned by direction, and every
   mansion and animal has lists on both sides (the White Beryl's seven
   classes of mansions, vol. 2, pp. 328–329, are kinds of work, not good and
-  bad).
+  bad). Nor does the mansions' rise and decline (*dar gud*, pp. 329–330)
+  give one: a mansion rises when the full moon falls on it, by its
+  quarter, or by its element against the moon's life force, rising good
+  and declining bad, but the White Beryl closes the passage saying that
+  this reckoning lacks a scriptural source of force
+  ([sources/mansion-verses.md](sources/mansion-verses.md)).
 - **A voice's side** on a work: what its lists name (the element pair's
   (§5.11), the weekday's verse with Henning's weekday list, the mansion's
   reading (§5.10), each special day's, the date's verse with Henning's date
@@ -568,12 +591,14 @@ days rank among the single factors is the app's reading of WB p. 337; the
 texts do not place them against the date, karaṇa and yoga.
 
 On 2000–2049 (18,263 days) the rule decides the tone by the combination on
-53 % of days, by the count on 40 % and by the strongest on 7 %. The days
-whose lists run against their tone (more than twice as many works on the
-other side) are 2,243, against 3,892 under the earlier rule, which let the
-special days decide and each work go to its strongest voice: a day's tone
+9,672 days (53 %) and by the strongest factor on the rest. The days whose
+lists run against their tone (more than twice as many works on the other
+side) are 2,140 (12 %; 2,087 before the mansions' verses were built,
+T2.5); 3,892 were under an earlier rule, which let the
+special days decide and each work go to its strongest voice. A day's tone
 and its prohibitions are separate questions, and a lucky day may still
-have much to avoid.
+have much to avoid, so the In brief row gives the two counts beside its
+glyphs (§10.3). `DaySummaryTest` keeps these numbers.
 
 ### 5.13 Rāhu, the hours and the combination period
 
@@ -939,7 +964,10 @@ canvas "Zanshin Calendar — basic design".
 - **In brief:** under the day line, one row of glyphs, however many works
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
-  ("a lucky day · by the combination"); it opens the tone with its
+  ("a lucky day · by the combination"); after the glyphs, how many works
+  the day names good and to avoid ("good 53", "avoid 36"), since the row
+  cannot show the proportion and on 11 % of days the lists run against
+  the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
   reason, the voices of that tone and each activity with the voices that
   carry it; nothing outweighed is shown. With a birth date set, a "For
   you" block lists the day's personal day and personal mansions (§5.8)
@@ -965,9 +993,13 @@ canvas "Zanshin Calendar — basic design".
   shows the days of the Tibetan month with the side the weighing gives
   haircuts on each, and gives FPMT's day for the date as one of the date's
   lists, marked outweighed on the days it is (decided by the owner,
-  2026-10-06); then the five components
-  (weekday, mansion, karaṇa, yoga) and the lunar-day cycles as tappable
-  terms, the date's animal (*nyi ma*) opening its earth lords and the
+  2026-10-06). The weekday, mansion, karaṇa and yoga rows carry their
+  Tibetan names in their sheets, under the gloss ("Tibetan" with the term
+  in script, tapping it for the Wylie and phonetics), so that no section
+  repeats them (decided by the owner, 2026-10-07: the five components
+  section, which gave the same four terms again, was folded in). After the
+  Almanac and Your day, the lunar-day cycles as tappable terms, the date's
+  animal (*nyi ma*) opening its earth lords and the
   trigram its goddess's reading (§5.11). Several special days are one row,
   their dots side by side, as they are one voice in the weighing; its
   sheet gives each reading in turn. Rāhu's courses by date and by month
@@ -1144,7 +1176,10 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   at most and as many as fit the width. A family appears once: where it
   would stand on both sides, it keeps the side of its heavier work and the
   next family takes the other place. Equal weights keep the breakdown's
-  order. Screen readers hear the counts and the works the row stands for.
+  order. At the row's end the two counts, how many works the day names
+  good and to avoid, one above the other in their colours, so that they
+  leave the glyphs their eight places on a 411 dp screen in English and
+  Russian. Screen readers hear the counts and the works the row stands for.
   Measured over 2000–2049: four and four on 92 % of days, about six of the
   eight glyphs change from one day to the next.
 - **Animals and elements.** The twelve animals are drawn as heads (whole
@@ -1184,8 +1219,7 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   of their five classes with their tones. Karaṇa: a ring of the eleven in
   the order a month runs through them, Kiṃstughna first, the seven moving
   ones under a line, the three fixed last; yoga: a ring of the 27; both
-  small on the row and full in the sheet, each cell with its tone. The
-  five components rows carry no second ring. Rāhu: a compass, north at the
+  small on the row and full in the sheet, each cell with its tone. Rāhu: a compass, north at the
   top as the 恵方's, small on the row and in the sheet with the eight
   directions and a caption naming the course and its directions; an arrow
   from the direction it comes from to the one it goes to, as the date's
