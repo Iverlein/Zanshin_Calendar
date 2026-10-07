@@ -621,7 +621,8 @@ have much to avoid.
   sign more each hour (the 3rd month Aries … the 2nd Pisces); WB (vol. 2,
   pp. 371–376) gives for each sign what is good and bad while it rises and
   whether the period is to be accomplished or avoided. It is shown on the
-  hours panel (§10.3), not weighed into the day.
+  hours panel (§10.3) and in the day in brief's "By the hour" block, not
+  weighed into the day: a day reading has no hours.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ## 6. Astronomy library
@@ -944,7 +945,13 @@ canvas "Zanshin Calendar — basic design".
   you" block lists the day's personal day and personal mansions (§5.8)
   with their dots, each over the factor it is ("Luck day" over "Sunday,
   for your birth year"), and one sentence that they are shown, not weighed
-  (§5.12).
+  (§5.12). After the works, a "By the hour" block (§5.13) gives the clock
+  times of the combination periods to be accomplished and to be avoided,
+  consecutive hours of one verdict joined ("09:00–13:00"), and the nectar
+  periods, each time opening the hours panel at its hour, with one
+  sentence that within its hour the combination period outweighs every
+  factor of the day (WB vol. 2, p. 376) and that the nectar periods are not
+  weighed (`DayHours`).
 - **Almanac:** monthly observance, personal day, personal mansion (§5.8,
   on the days the mansion is one of one's six); the festival is the
   headline and opens its reading from there, so the Almanac does not
