@@ -173,6 +173,29 @@ class DaySummaryTest {
     }
 
     @Test
+    fun `the counts beside the Tibetan line`() {
+        // The row's counts (ROADMAP T2.7): every work on one side, so they add up to the day's works.
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
+        assertEquals(53 to 36, s.good.size to s.avoid.size)
+        // Days whose lists run against their tone, more than twice as many works on the other side (SPEC §5.12).
+        var date = LocalDate.of(2000, 1, 1)
+        var against = 0
+        var byCombination = 0
+        var days = 0
+        while (date.year < 2050) {
+            val d = DaySummary.of(TibetanCalendar.of(date))
+            days++
+            if (d.verdict!!.by == VerdictBy.COMBINATION) byCombination++
+            val (with, other) = if (d.verdict!!.tone == Tone.GOOD) d.good.size to d.avoid.size else d.avoid.size to d.good.size
+            assertEquals(d.activities.size, with + other, "$date")
+            if (other > 2 * with) against++
+            date = date.plusDays(1)
+        }
+        assertEquals(2087, against)
+        assertEquals(18263 to 9672, days to byCombination)
+    }
+
+    @Test
     fun `the Tibetan line of 1 November 2026 shows the heaviest works`() {
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         val (good, avoid) = s.row()
