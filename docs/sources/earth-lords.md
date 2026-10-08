@@ -170,6 +170,44 @@ whole: the learned of Tibet (Mi pham dge legs and others) apply it to the
 reckoning for the dead only (འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་), and it must not
 be mixed with baseless inventions.
 
+**The remedy's texts, read 2026-10-08** (from the etext, IE0OPI51524892,
+vol. 2 etext pp. 188 and 197; not yet checked on the scans). The year's
+section (p. 180) names what is avoided towards the *bla mkhyen*, whom it
+harms and the remedy:
+
+> ཀོ་ལོང་རྩིས་མཁན་དོ་བདག་དང༌། །རྡོ་རྗེ་སློབ་དཔོན་དག་ལ་སྡོམ། །ཉམས་ན་གཙུག་ཏོར་སྣང་བརྒྱད་དང་། །མཚན་བརྗོད་གཟུངས་བསྡུས་ཏོག་གཟུངས་འདོན། །གཏོར་མ་ཕྱོགས་དེར་བཏང་ལ་བཅོས། །
+
+"It takes offence at astrologers, the head of the household and vajra
+masters; if it is harmed, recite the *gtsug tor*, *snang brgyad*, *mtshan
+brjod*, *gzungs bsdus* and *tog gzungs*; the remedy is a torma sent in its
+direction." The five are short titles. Nine pages on (p. 189), in a remedy
+by the four directions, WB names three in full:
+
+> ལྷོ་རུ་འཇམ་དཔལ་མཚན་བརྗོད་གསུང་། །ནུབ་ཏུ་གཙུག་ཏོར་གདུགས་དཀར་མོ། །བྱང་དུ་གནམ་ས་སྣང་བརྒྱད་སྒྲོག
+
+so *gtsug tor* is the White Parasol of the Uṣṇīṣa (*gtsug tor gdugs dkar
+mo*; WB also writes *gtsug tor gdugs dkar* and *gtsug tor dkar nag*,
+vol. 1, etext pp. 374 and 406), *snang brgyad* the Eight Appearances of Heaven and
+Earth (*gnam sa snang brgyad*) and *mtshan brjod* Reciting the Names of
+Mañjuśrī (*'jam dpal mtshan brjod*). *Tog gzungs* is BDRC's own short
+title of the Ratnaketu Dhāraṇī (MW1NLM327 and others: "tog gzungs … sde
+dge number: 138"), and *gzungs bsdus* a collection of dhāraṇīs. One such
+collection holds all five: the *Gzungs bsdus* printed by Dkon mchog lha
+bris, Delhi 1994 (BDRC MW1KG5988, open scans and etext), whose outline
+(O1KG5988) has *'Phags pa 'jam dpal gyi mtshan yang dag par brjod pa*
+(part ka), *'Phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs
+dkar po can gzhan gyis mi thub pa phyir zlog pa chen mo mchog tu grub pa*
+(ca; 84000 Toh 591), *tog gzungs bsdus pa* (nya) and *gnam snang brgyad*
+(po; MW1KG5988_508E3D), beside the other *gtsug tor* texts (the black
+parasol, Uṣṇīṣavijayā, the blazing uṣṇīṣa). The Eight Appearances is not
+in the Derge Kangyur; BDRC lists many prints of *'Phags pa gnam sa snang
+brgyad ces bya ba theg pa chen po'i mdo*, most in the National Library of
+Mongolia. 84000's titles: Toh 360 *Reciting the Names of Mañjuśrī*, Toh
+138 *The Ratnaketu Dhāraṇī*, Toh 591 *The Supreme Accomplishment of
+Invincible Averting, Sitātapatrā Born from the Uṣṇīṣa of the Tathāgata*.
+Dead ends: the Rangjung Yeshe wiki (behind Cloudflare, no page for *tog
+gzungs*) and the Leipzig Kanjur-catalogue record (host unreachable).
+
 ## Where the earth lord sits in the house
 
 p. 224 (img. 232). "Its seat inside: called the earth lord *khar bu*, or

@@ -858,6 +858,29 @@ me long* among them ([sources/README.md](sources/README.md), SN), is never
 an annotation's `Source`, and nothing that only it states is shown. No Bon
 text is a source of the app.
 
+**A text is named so that it can be found** (owner, 2026-10-08): its
+English name first, then its title in Tibetan script and in Wylie in
+brackets, "Reciting the Names of Mañjuśrī (མཚན་བརྗོད, mtshan brjod)".
+This holds in readings, notes and source lines alike. A reading gives the
+short title a text is known by, as its source gives it; the source line
+gives the full title, with the Wylie as BDRC catalogues it, and, for a
+canonical text, its Tohoku number and 84000 page. Each reading that names
+the White Beryl gives its title once: the short *bai DUr dkar po* in
+readings and notes, the full *Phug lugs rtsis kyi legs bshad mkhas pa'i
+mgul rgyan bai DUr dkar po'i do shal* in source lines. Several texts in one
+bracket stand apart by semicolons. A Japanese book gets its English name,
+then its kanji and Hepburn reading. A text named only by an abbreviation
+is identified from the source itself where it gives the full title, else
+from a catalogue that uses the same abbreviation (BDRC, 84000), and the
+source line holding all of them links where they can be read.
+`CatalogTest` fails on Tibetan script outside such a bracket, on a bracket
+without a name before it, on a reading naming the White Beryl without its
+title, and on a known title left in Wylie alone (*kun phan me long*,
+*dbyangs 'char*, *gtsug lag* and the like); `TranslationsTest` checks the
+interface strings and the store listing, changelogs included, the same
+way, the detail label "In the White Beryl" excepted, whose sheet's source
+line gives the title. The app sets the Tibetan runs in its Tibetan font (`withTibetan`).
+
 ### 8.2 Catalog
 
 `core/.../texts/Texts.kt` holds every reading's structure as Kotlin data: a
