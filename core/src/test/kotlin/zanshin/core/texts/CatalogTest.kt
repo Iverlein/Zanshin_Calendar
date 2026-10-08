@@ -64,7 +64,7 @@ class CatalogTest {
         TibetanFestival.entries.forEach { present(glossKey(it, "title")) }
         (0..9).forEach { present("Stem.$it") }
         (0..11).forEach { present("Branch.$it") }
-        (1..12).forEach { present("KyurekiMonth.$it"); present("TibetanMonth.$it.season") }
+        (1..12).forEach { present("KyurekiMonth.$it"); present("Season.$it") }
         SME_BA_COLOURS.forEach { present("Colour.$it") }
         Texts.JAPANESE_FESTIVAL.keys.forEach { present("Festival.$it") }
         listOf("Kanshi", "StarAffinity.feeds", "StarAffinity.overcomes", "StarAffinity.same").forEach(::present)

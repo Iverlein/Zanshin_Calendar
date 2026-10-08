@@ -33,10 +33,34 @@ enum class Weekday(val wylie: String) {
     val planet: String get() = gloss(this, "planet")
 }
 
+/**
+ * The two ways the White Beryl gives each Hor month its season, side by side in its model
+ * almanac (vol. 1, pp. 154–171; docs/sources/tibetastromed.md): the Kālacakra reckoning makes
+ * the 1st month early spring, the Chinese (*rgya rtsis*) the 11th, the tiger month, so that the
+ * 1st, the dragon, is late spring. WB's chapters on the elemental reckoning (20–32, the earth
+ * lords and Rāhu by month among them) count by the Chinese one.
+ */
+enum class SeasonReckoning(private val firstMonth: Int) {
+    KALACAKRA(1),
+    CHINESE(11);
+
+    /** The Hor month that is [season] of this reckoning, 0 early spring … 11 late winter. */
+    fun month(season: Int): Int = (firstMonth - 1 + season) % 12 + 1
+
+    /** The season of Hor month [month], 0 early spring … 11 late winter. */
+    fun season(month: Int): Int = (month - firstMonth + 12) % 12
+
+    /** The season's name, e.g. "early spring", from the catalog. */
+    fun name(month: Int): String = Catalog.text("Season.${season(month) + 1}")
+}
+
 /** Month names, Phugpa system, Janson Table 4. */
 data class MonthNames(val number: Int, val wylie: String, val sanskrit: String, val animal: Animal) {
-    /** Seasonal name, e.g. "early spring", from the catalog. */
-    val season: String get() = Catalog.text("TibetanMonth.$number.season")
+    /** The season by the Kālacakra reckoning, e.g. "early spring" for the 1st month. */
+    val season: String get() = SeasonReckoning.KALACAKRA.name(number)
+
+    /** The season by the Chinese reckoning, e.g. "late spring" for the 1st month. */
+    val chineseSeason: String get() = SeasonReckoning.CHINESE.name(number)
 }
 
 enum class Repetition { NONE, FIRST_OF_TWO, SECOND_OF_TWO }

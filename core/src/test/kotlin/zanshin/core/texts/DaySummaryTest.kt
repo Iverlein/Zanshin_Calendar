@@ -97,9 +97,10 @@ class DaySummaryTest {
         // Funerals: every factor that names them avoids them, the 22nd with the White Beryl's chapter 34 (p. 414);
         // the trigram's list stands beside them.
         assertEquals(listOf("Sunday", "Ārdrā", "day 22", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
-        // Destroying: the element pair, the death combination, names it good itself; Rāhu's autumn course
-        // (the 22nd of the 9th month: fierce work good, WB p. 239) and the others that agree stand beside it.
-        assertEquals(listOf("Fire – Water", "Rāhu", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
+        // Destroying: the element pair, the death combination, names it good itself, and the others that agree
+        // stand beside it. Rāhu's autumn course (fierce work good on the 22nd, WB p. 239) is not among them: its
+        // chapter counts the Chinese seasons, in which the 9th month is mid-winter.
+        assertEquals(listOf("Fire – Water", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
         // The bad combination makes the day unlucky, but does not decide works it does not name: bathing, which
         // Sunday, Ārdrā and the 22nd name good, stays good.
         assertEquals(listOf("Sunday", "Ārdrā", "day 22"), s.activities.single { it.activity == Activity.BATHING }.good.map { it.kanji })
@@ -202,11 +203,11 @@ class DaySummaryTest {
     fun `the Tibetan line of 1 November 2026 shows the heaviest works`() {
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         val (good, avoid) = s.row()
-        // Destroying: the element pair (10), Rāhu (9), Ārdrā (7), the 22nd (5) and Viṣṭi (4).
-        assertEquals(35, good.first().weight)
-        // Then crafts, astrology, and killing, which Ārdrā's verse names good with the pair and Viṣṭi.
+        // Crafts and astrology first; then destroying: the element pair (10), Ārdrā (7), the 22nd (5) and
+        // Viṣṭi (4); and killing, which Ārdrā's verse names good with the pair and Viṣṭi.
+        assertEquals(listOf(29, 29, 26), good.take(3).map { it.weight })
         assertEquals(
-            listOf(ActivityFamily.DESTROYING, ActivityFamily.BUILDING, ActivityFamily.LEARNING, ActivityFamily.BLADE),
+            listOf(ActivityFamily.BUILDING, ActivityFamily.LEARNING, ActivityFamily.DESTROYING, ActivityFamily.BLADE),
             good.map { it.activity.family },
         )
         assertEquals(

@@ -24,6 +24,7 @@ import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.SpecialDay
+import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.Direction
@@ -669,12 +670,18 @@ object Texts {
      * messenger turning its head" through the parts of its body on given
      * dates, and in the three months of autumn it takes seven forms on given
      * dates, times and directions; on all of them fierce work is good. Keyed
-     * by Tibetan month and date. Summer and winter are not given.
+     * by Tibetan month and date. Summer and winter are not given. The passage
+     * is in WB's chapter 31, which counts its seasons by the Chinese reckoning
+     * ([SeasonReckoning.CHINESE]: its p. 206 goes through the tiger to sheep
+     * months and then "the three of autumn", and the bad days of p. 228 by
+     * animal month are those of its "other way" by season-month): spring is
+     * the 11th, 12th and 1st months, autumn the 5th to the 7th.
      */
     val RAHU_MONTH: Map<Pair<Int, Int>, Reading> = buildMap {
-        for (date in listOf(6, 9, 11, 13)) put(1 to date, rahuMonth("1.$date"))
-        for (date in listOf(16, 9, 11, 13, 19)) put(2 to date, rahuMonth("2.$date"))
-        for (month in 7..9) for (date in listOf(15, 11, 8, 4, 22, 25, 29)) put(month to date, rahuMonth("autumn.$date"))
+        val chinese = SeasonReckoning.CHINESE
+        for (date in listOf(6, 9, 11, 13)) put(chinese.month(0) to date, rahuMonth("earlySpring.$date"))
+        for (date in listOf(16, 9, 11, 13, 19)) put(chinese.month(1) to date, rahuMonth("midSpring.$date"))
+        for (season in 6..8) for (date in listOf(15, 11, 8, 4, 22, 25, 29)) put(chinese.month(season) to date, rahuMonth("autumn.$date"))
     }
 
     private fun rahuMonth(arg: String) =
