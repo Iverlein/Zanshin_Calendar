@@ -106,6 +106,19 @@ class CatalogTest {
         }
     }
 
+    /** The White Beryl (vol. 2, pp. 303–304) places the la on every date for people and for horses and other livestock. */
+    @Test
+    fun `every lunar date gives the la's place in a person and in livestock`() {
+        val livestock = mapOf("" to "in horses and other livestock", "_ru" to "у лошадей и другого скота")
+        for ((suffix, words) in livestock) {
+            val t = Catalog.entries(suffix)
+            for (date in 1..30) {
+                val reading = t.getValue("reading.LunarDate.$date")
+                assertTrue("(bla)" in reading && words in reading, "texts$suffix reading.LunarDate.$date")
+            }
+        }
+    }
+
     @Test
     fun `a language without a catalog falls back to English`() {
         assertEquals(english.getValue("Rokuyo.TAIAN"), Catalog.text("Rokuyo.TAIAN", Locale.forLanguageTag("xx")))

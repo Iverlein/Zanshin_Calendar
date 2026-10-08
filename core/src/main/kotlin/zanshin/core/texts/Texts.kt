@@ -422,7 +422,7 @@ object Texts {
     /**
      * The lunar date, 1–30: the White Beryl's good and bad activities, with its
      * place in the five-fold cycle, a birth and a death on it, the four
-     * perilous dates and where the soul (bla gnas) sits (docs/sources/lunar-dates.md).
+     * perilous dates and where the la, the life-spirit, sits in a person and in a horse (bla gnas) (docs/sources/lunar-dates.md).
      */
     val LUNAR_DATE: List<Reading> = listOf(
         Reading(goodKeys = listOf("setting_out", "lawsuits", "breaking_ground", "pacifying_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("teaching_dharma", "washing_the_hair", "funeral_rites", "marriage", "giving_anything_out", "worship_of_deities", "averting_rites", "suppressing_sri", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.1"),
