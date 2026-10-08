@@ -26,7 +26,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
-| 8 | U The Tibetan page's UX | M | Five small items: the combination as one row, the deciding factor named, the page in weighed / yours / also-today sections, the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
+| 8 | U The Tibetan page's UX | M | Five small items, the deciding factor named built (U2); left: the combination as one row, the page in weighed / yours / also-today sections, the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
 
 ## Tibetan page
 
@@ -434,7 +434,7 @@ an unweighed personal row opens the list, one voice is two rows with
 opposite dots, and nothing names the factor that decided the day. The
 brief's lists run long and say the same voices on line after line. No
 item changes a side or a tone; each changes SPEC §5.12 (*Order on the
-page*) and §10.3 with the code. U1–U3 ship together; then U4 and U5.
+page*) and §10.3 with the code. U2 is built; U1 and U3 ship together; then U4 and U5.
 
 #### U1 One row for the combination — S
 
@@ -449,15 +449,23 @@ page*) and §10.3 with the code. U1–U3 ship together; then U4 and U5.
   the combination table and the element grid, as the special days' sheet
   does.
 
-#### U2 The deciding factor named — S
+#### U2 The deciding factor named — built 2026-10-08 (SPEC §5.12, §10.3)
 
-- **Gap.** The brief's tone says "the strongest factor that takes a side
+- **Gap.** The brief's tone said "the strongest factor that takes a side
   decides" without naming it (Thursday on 8 October 2026), while the
-  haircut row names its own ("avoid · by Thursday"). Nothing in the
-  Almanac links a row to the brief's verdict.
-- **Work.** The tone line names what decided it ("a lucky day · by
-  Thursday", "by the combination"); that row in the Almanac carries a
-  small "decides" mark.
+  haircut row named its own ("avoid · by Thursday"). Nothing in the
+  Almanac linked a row to the brief's verdict.
+- **Built.** The weighing keeps its deciding voice (`DayVerdict.factor`,
+  `.deciding`). The In brief row says "a lucky day · by Thursday" («решает:
+  Четверг»), or "by the combination"; the brief's sheet names it with its
+  kind ("Thursday (weekday)"); that row in the Almanac, both rows where
+  the combination decides, carries a "decides" mark outlined in its tone,
+  and its sheet says so under the gloss. Over 2000–2049: the combination
+  9,672 days, the weekday 7,708, the special days 568, the date 292, the
+  karaṇa 23, the yoga none (`DaySummaryTest`). Checked on the emulator
+  in English and Russian on a day of each kind, lucky and unlucky, with
+  and without a birth date. U1 will put the mark on its one combination
+  row.
 
 #### U3 Three sections: weighed, yours, also today — S
 

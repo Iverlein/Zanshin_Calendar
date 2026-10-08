@@ -592,8 +592,15 @@ voices, so that the tone and the lists cannot go separate ways.
   question 14, answered: the texts' own days are by the clan's element
   or the life force's, and the birth weekday and mansion). The day in
   brief lists them apart, under "For you".
-- **The day in brief** names the tone and what decided it (the
-  combination or the strongest factor), lists the voices that took
+- **The day in brief** names the tone and what decided it: the
+  combination, or the strongest factor that takes a side, by name
+  ("by Thursday"; `DayVerdict.factor` and `.deciding`, the special days
+  named together where they spoke as one). That factor's row in the
+  Almanac carries a "decides" mark, and its sheet says so under the
+  gloss. Over 2000–2049 the day is decided by the combination on 9,672
+  days, the weekday on 7,708, the special days on 568, the date on 292
+  and the karaṇa on 23; the yoga never decides, since the date or the
+  karaṇa before it always has a tone (`DaySummaryTest`). The brief lists the voices that took
   that side, and gives each work with the voices that carry it, in rank
   order; works on which more voices agree come first. Its summary line is
   one row (§10.7): a work's weight there is the sum of the weights of the
@@ -1013,7 +1020,8 @@ canvas "Zanshin Calendar — basic design".
 - **In brief:** under the day line, one row of glyphs, however many works
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
-  ("a lucky day · by the combination"); after the glyphs, how many works
+  ("a lucky day · by the combination", "an unlucky day · by Tuesday",
+  the factor named as the weighing found it, §5.12); after the glyphs, how many works
   the day names good and to avoid ("good 53", "avoid 36"), since the row
   cannot show the proportion and on 11 % of days the lists run against
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
@@ -1035,7 +1043,9 @@ canvas "Zanshin Calendar — basic design".
   repeat it. Then the day's readings in the rank of §5.12: named
   combination, element pair, Rāhu, weekday (§5.11), lunar mansion (§5.10,
   no dot: it has no tone of its own), special days, lunar date, karaṇa and
-  yoga (§5.11); then the haircut, weighed as §5.12 weighs every work: its
+  yoga (§5.11), the one that decided the day's tone with a small
+  "decides" mark outlined in its tone (both rows of the combination where
+  it decides); then the haircut, weighed as §5.12 weighs every work: its
   dot is the side the brief gives haircuts and its subtitle names the
   factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
   so on every day of 2000–2049 it is the weekday). Its sheet says so,
