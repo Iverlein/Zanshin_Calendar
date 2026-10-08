@@ -225,6 +225,7 @@ day by day against Henning's computed calendars (§9):
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
+| Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The element's mansions (p. 330, tables p. 345) and the mansion of conception (no source defines it) are not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
 
 ### 5.9 Four aspects and the pebbles
 
@@ -591,7 +592,10 @@ voices, so that the tone and the lists cannot go separate ways.
   ([sources/personal-mansions.md](sources/personal-mansions.md), open
   question 14, answered: the texts' own days are by the clan's element
   or the life force's, and the birth weekday and mansion). The day in
-  brief lists them apart, under "For you".
+  brief lists them apart, under "For you", the roles of the day's
+  weekday as one entry, lucky or unlucky where those that take a side
+  agree and mixed where they do not (`sharedTone`; the child's weekday,
+  middling, takes none).
 - **The day in brief** names the tone and what decided it: the
   combination, or the strongest factor that takes a side, by name
   ("by Thursday"; `DayVerdict.factor` and `.deciding`, the special days
@@ -927,6 +931,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
+| Own days by the birth date | The White Beryl, vol. 2, pp. 312, 330, 337–338 and 345–346 (BDRC MW2CZ8040); the birth mansion after Phug pa Lhun grub rgya mtsho's commentary on the *dbyangs 'char*, ch. 3 (BDRC MW1NLM5184) |
 | Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329, and its chapter 34, the works one by one, pp. 378–428 (BDRC MW2CZ8040) |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
@@ -1041,18 +1046,24 @@ canvas "Zanshin Calendar — basic design".
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
   reason, the voices of that tone and each activity with the voices that
   carry it; nothing outweighed is shown. With a birth date set, a "For
-  you" block lists the day's personal day and personal mansions (§5.8)
-  with their dots, each over the factor it is ("Luck day" over "Sunday,
-  for your birth year"), and one sentence that they are shown, not weighed
-  (§5.12). After the works, a "By the hour" block (§5.13) gives the clock
+  you" block lists the day's personal day, own days by the birth date and
+  personal mansions (§5.8) with their dots, each over the factor it is
+  ("Luck day · Mother weekday" over "Sunday", "Birth mansion" over
+  "Ārdrā"), the roles of the weekday as one line, and one sentence that
+  they are shown, not weighed (§5.12). After the works, a "By the hour" block (§5.13) gives the clock
   times of the combination periods to be accomplished and to be avoided,
   consecutive hours of one verdict joined ("09:00–13:00"), and the nectar
   periods, each time opening the hours panel at its hour, with one
   sentence that within its hour the combination period outweighs every
   factor of the day (WB vol. 2, p. 376) and that the nectar periods are not
   weighed (`DayHours`).
-- **Almanac:** monthly observance, personal day, personal mansion (§5.8,
-  on the days the mansion is one of one's six); the festival is the
+- **Almanac:** monthly observance; the weekday's roles for the person
+  (§5.8: the personal day of the birth animal, "for your birth year"; the
+  birth weekday, "for your birth date"; the element's weekday, "for the
+  life force of your birth year, earth"), one row with each one's dot
+  where there are two or more, titled "Your weekday" with their names
+  under it, its sheet giving each reading in turn; the personal mansions
+  (on the days the mansion is one of one's six) and the birth mansion; the festival is the
   headline and opens its reading from there, so the Almanac does not
   repeat it. Then the day's readings in the rank of §5.12: named
   combination, element pair, Rāhu, weekday (§5.11), lunar mansion (§5.10,
@@ -1196,7 +1207,8 @@ canvas "Zanshin Calendar — basic design".
     (§2).
 - The location drives the local sky line only; neither calendar depends on it.
 - **Birth date**, optional and stored on the device: enables the personal days
-  (Tibetan luck/life/anti, Japanese 三箇の悪日) and the Tibetan pebbles.
+  (Tibetan luck/life/anti, the own days of §5.8 and the personal mansions,
+  Japanese 三箇の悪日) and the Tibetan pebbles.
 - **Language**: the phone's language or one the app is translated into
   (English, Russian), each listed by its own name. Android 13 and later keep
   the choice themselves as the per-app language (`LocaleManager`, with

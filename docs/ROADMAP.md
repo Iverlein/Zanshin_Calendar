@@ -331,7 +331,7 @@ of 25 works, ranked. The app weighs every work on every day already
 voices still to come (T2.11, T2.13) change its results without changing
 it. The plan is item E below.
 
-#### T2.19 The birth weekday, the birth mansion and the element's weekdays — M
+#### T2.19 The birth weekday, the birth mansion and the element's weekdays — built 2026-10-08 (SPEC §5.8, §5.12, §10.3)
 
 - **Gap.** WB p. 338 names the birth weekday, one's own weekday (the *bla*
   weekday, one with it: p. 346, p. 312) and the mother's, friend's and
@@ -352,6 +352,29 @@ it. The plan is item E below.
   the hour against the day*).
 - **Done when.** Vectors for the test birth date (1976-06-01);
   `CatalogTest`; SPEC §5.8, §10.3; Russian.
+- **Built.** `ownDays` (core `tibetan/`): the birth weekday, the
+  weekday's place among the five of the life force's element
+  (`elementWeekday`, the weekdays' elements of the *nag rtsis*, vol. 1,
+  p. 257) and the birth mansion; readings `Texts.OWN_DAY` with p. 338's
+  works, the mother's and friend's "anything" (p. 330), the child's
+  middling (no dot), the enemy's "every work" to avoid. Every weekday
+  holds one of the five, so with a birth date every day has a row. The
+  roles of the weekday, with the birth animal's personal day, are one
+  Almanac row, "Your weekday" with each one's dot, its sheet giving each
+  reading in turn, and one entry in the brief's "For you" (`sharedTone`);
+  the birth mansion its own row. `OwnDayTest` checks the table of p. 346
+  cell by cell, that each animal's anti day (*gshed gza'*, p. 330) is an
+  enemy weekday of its life force, and the test birth date (a Tuesday,
+  Fire Dragon, life force earth, birth mansion Ārdrā, 12 returns in
+  2026); `DaySummaryTest`, that nothing is weighed and one weekday is one
+  entry. Checked on the emulator in English (8 October 2026: "Anti day ·
+  Enemy weekday") and Russian (1 November 2026: «День удачи · День недели
+  матери» and the birth mansion), and with no birth date (no row).
+- **Left.** The element's mansions by the life force (p. 330, tables
+  p. 345: own, mother, friend, child, enemy quarters and the grave
+  mansions), which would put a second row on every day; the mansion of
+  conception (no source defines it); E6's exception for the enemy weekday
+  and the death mansion.
 
 #### Order
 
@@ -363,6 +386,7 @@ it. The plan is item E below.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (it may add items), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15,
    then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13.
+7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
 #### Not planned
 
@@ -712,7 +736,7 @@ listing and the website name the election only once it is released.
   unlucky row among others, though WB avoids every work on them (p. 338;
   *The person's days and the hour against the day*, above). The death
   mansion is already among the six personal mansions; the enemy weekday
-  by element is T2.19.
+  by element is T2.19's (built 2026-10-08, `OwnDay.ENEMY_WEEKDAY`).
 - **D3 — settled 2026-10-08: it needs a birth date and follows WB.** With
   no birth date set, nothing changes: the day's tone and lists are the
   weighing's (§5.12), the same for every reader. With a birth date set,
