@@ -404,14 +404,17 @@ English (§8.1), each reading citing its pages:
   the good and bad activities of each of the thirty dates, a birth and a
   death on it, its place in the five-fold cycle (dga' ba, bzang po, rgyal
   ba virtuous; stong pa, rdzogs pa not, with their remedies), the four
-  perilous dates (8, 15, 22, 30) and where the soul (bla gnas) sits, after
-  the Phugpa list for people. Two acts were identified from the
-  dictionaries and WB's own usage: shwa rags (22nd and 27th), a dike
-  against flash floods, counted with dams; thag ser (29th), read as thog
-  ser, casting lightning and hail, counted with fierce rites; both
-  readings name the print's word. The dot: lucky on a virtuous day,
-  unlucky on the other two, mixed on the 8th and the 22nd, virtuous but
-  perilous.
+  perilous dates (8, 15, 22, 30) and where the la, the life-spirit, sits
+  (bla gnas), after the Phugpa list for people and for horses and other
+  livestock, without a side (WB's man's left and woman's right belong to
+  its Kālacakra list). *bla* is "the la (bla), the life-spirit", «ла
+  (bla), жизненный дух», after Berzin's glossary; never "soul". Two acts
+  were identified from the dictionaries and WB's own usage: shwa rags
+  (22nd and 27th), a dike against flash floods, counted with dams; thag
+  ser (29th), read as thog ser, casting lightning and hail, counted with
+  fierce rites; both readings name the print's word. The dot: lucky on a
+  virtuous day, unlucky on the other two, mixed on the 8th and the 22nd,
+  virtuous but perilous.
 - **Weekday** (pp. 308–312, [weekdays.md](sources/weekdays.md)): the
   verse on the day's planet: whose *bla gza'* it is, its caste, nature and
   element, the activities good and bad on it, when it is strong, setting

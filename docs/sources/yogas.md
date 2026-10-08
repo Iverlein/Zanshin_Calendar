@@ -395,7 +395,7 @@ eye:
 | 7 | las bzang | good for aspiration and setting out; friends, clothes, travel; defeating enemy forces, protection |
 | 8 | 'dzin pa | removes afflictions; war, women, taking land and forts; raising treasure; fierce and powerful work |
 | 9 | gzer | bad for children, teachers, ornaments, clothes; war, thieves; the sick die; trouble from talk |
-| 10 | 'bras | life and soul lost; seats of power lost to enemies |
+| 10 | 'bras | the la and the span of life lost (བླ་ཚེ་ཤོར); seats of power lost to enemies |
 | 11 | 'phel ba | enemies subdued; protecting what is good; work with friends succeeds |
 | 12 | nges pa | a treasury of intelligence; beauty, long life, a fine voice; all wishes succeed |
 | 13 | rma chen | bad for birth and death; bad for land, forts and goods; study fails; quarrels and wounds |

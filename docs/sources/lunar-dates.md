@@ -107,13 +107,26 @@ p. 302–303 (img. 310–311), read from the scans:
 | stong pa (Riktā; 4, 9, 14 …) | not virtuous: any work is called bad. Remedy: raise an empty vase into the air as the rite prescribes, recite the *nor rgyun* and bind the wealth-pledge (*nor gta'*) |
 | rdzogs pa (Pūrṇā; 5, 10, 15 …) | in general bad for work, but good for building a fort and hiding treasure. Remedy: rites that raise glory, recite the *Bkra shis brtsegs pa* |
 
-## Where the soul resides (bla gnas)
+## Where the la resides (bla gnas)
 
-pp. 303–304 (img. 311–312). The bla gnas is where the life-soul sits in
-the body on each lunar date; at that spot bloodletting, moxibustion and
-other treatment of a person or an animal are avoided:
+pp. 303–304 (img. 311–312). The *bla gnas* is where the *la* (*bla*), the
+life-spirit, sits in the body on each lunar date; at that spot bloodletting,
+moxibustion and other treatment of a person or an animal are avoided:
 
 > མི་ཕྱུགས་ལུས་ཀྱི་བླ་གནས་སར། །གཏར་བསྲེག་ལ་སོགས་བཅོས་བརྡེག་སྤང་། །
+
+**The name.** *bla* is "life-spirit" in Berzin's glossary, Russian «жизненный
+дух» (Study Buddhism, glossary entry *Life-spirit*, read 2026-10-08), with
+the synonym "life-spirit energy", «энергия жизненного духа»; his third
+sense is this very course, a drop that passes to a different spot of the
+body each day of the month. The app writes "the la (bla), the
+life-spirit", «ла (bla), жизненный дух»: *la* is the word's pronunciation
+(THL), the name the owner asked for (2026-10-08), and Berzin's term
+explains it. "Soul" was dropped: *bla* is not the consciousness (*rnam
+shes*) that is reborn. *srog*, which the app calls "vitality" among the
+four aspects, is Berzin's "life-force", a different thing. WB's yoga
+*'bras* (Gaṇḍa) loses «བླ་ཚེ» (p. 347), the la and the span of life, and
+the personal *bla skar* (p. 330) is the la mansion.
 
 WB gives several systems: the Kālacakra one, with a syllable for each
 date (1st the foot, ཨ; 15th the forehead, ལ), where the junctions of the
@@ -122,30 +135,64 @@ especially perilous because the bodhicitta then pervades the whole body
 (སྤྱི་བོར་ཨོཾ་གྱི་གཟུགས་ … །བྱང་ཆུབ་སེམས་ཀྱིས་མགོ་ལུས་ཀུན། །ཁྱབ་ཕྱིར་ཤིན་ཏུ་གཉན་པ་སྟེ།); the Phugpa "uncle and nephew"
 system (*phug pa khu dbon bzhed pa'i tshul*) for people and for horses, a
 system from the *lho gter* with the hour as well as the place, and one by
-weekday (Sunday head, Monday breasts and liver …). The Phugpa list for
-people, from the scans:
+weekday (Sunday head, Monday breasts and liver …).
 
-| Date | Person | Date | Person |
-| --- | --- | --- | --- |
-| 1 | big toe (མཐེ་བོང) | 16 | nape and jaw (ལྟག་ཟ་འགྲམ) |
-| 2 | ankle joint (བོལ་ཚིགས) | 17 | neck (སྐེ་མཇིང) |
-| 3 | calf (བྱིན་པའི་ཤ) | 18 | palm (ལག་མཐིལ) |
-| 4 | waist (རྐེད་པ), as printed: it breaks the climb from calf to knee | 19 | forearm (ལག་ངར) |
-| 5 | hollow of the knee (སྒྱིད་ཁུང) | 20 | shoulder blade (དཔུང་སོག) |
-| 6 | groove of the thigh (བརླ་ཡི་སུལ) | 21 | flank of the ribs (རྩིབ་ལོགས) |
-| 7 | hip joint (དཔྱི་མིག་ཚིགས) | 22 | above the kidneys (མཁལ་མའི་སྟེང) |
-| 8 | above the kidneys (མཁལ་སྟེང) | 23 | hip joint (དཔྱི་མིག་ཚིགས) |
-| 9 | flank of the ribs (རྩིབ་ལོགས) | 24 | groove of the thigh (བརླ་སུལ) |
-| 10 | top of the shoulder (དཔུང་སྟེང) | 25 | hollow of the knee (སྒྱིད་ཁུང) |
-| 11 | forearm (ལག་ངར) | 26 | above the knee (པུས་མོའི་སྟེང) |
-| 12 | palm (ལག་པའི་མཐིལ) | 27 | calf (བྱིན་ཤ) |
-| 13 | neck (སྐེ་མགུལ) | 28 | ankle joint (ལོང་བུའི་ཚིགས) |
-| 14 | behind the ear and the jaw (རྣ་ལྟག་དང་ཟ་འགྲམ) | 29 | shin (ངར་གདོང) |
-| 15 | shoulder blade (སོག་པ) | 30 | the whole body (ལུས་པོ་བྱིངས) |
+**The sides** (read on the scan of p. 303, img. 311, 2026-10-08). WB names
+a side once, at the head of the Kālacakra list:
+«ཡར་ངོ་སྔོན་འགྲོའི་དབང་བྱས་ནས། །སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡས།», "taking the
+waxing half as the lead, a man's left and a woman's right". The rule
+belongs to that list, which it opens; the Kālacakra list ends with «གསོ་བ་རིག་པ་དང་ཡང་མཐུན།»
+("it agrees with medicine too"), and the Phugpa list that follows names no
+side, only places that are one (neck, forehead) or both (WB's «གཉིས» is in
+the *lho gter* list, not the Phugpa one). WB says nothing of the waning
+half; the reversal that the Russian calendar shows
+([tibetastromed.md](tibetastromed.md)) is not in WB. So the app gives the
+Phugpa place without a side.
 
-The soul climbs from the foot to the head in the waxing half and comes
-down again in the waning half. The horse's places run in parallel (1 sole,
-2 fat, … 30 the whole body).
+**People and horses.** The Phugpa list gives each date's place for a
+person and «རྟ་ལ་སོགས་པ», "horses and the like", i.e. livestock. Both columns
+were read on the scans (img. 311–312, 2026-10-08), the two OCR readings
+agreeing on every place word; dictionary glosses from Steinert's
+collection (Dag tshig gsar bsgrigs, Tshig mdzod chen mo, Rangjung Yeshe,
+Ives Waldo, Jim Valby):
+
+| Date | Person | Horses and livestock |
+| --- | --- | --- |
+| 1 | big toe (མཐེ་བོང) | sole (མཐིལ) |
+| 2 | ankle joint (བོལ་ཚིགས) | fat (ཚིལ) |
+| 3 | calf (བྱིན་པའི་ཉ) | དར་གདོང, not in any dictionary; perhaps ངར་གདོང, the shin |
+| 4 | waist (རྐེད་པ), as printed: it breaks the climb from calf to knee | hock (སྲེ་ལོང: in animals the bone above the leg's second joint, Dag tshig) |
+| 5 | hollow of the knee (སྒྱིད་ཁུང) | སེ་ར་རུས, not identified (*se ra* is hail, or a pack load) |
+| 6 | groove of the thigh (བརླ་ཡི་སུལ) | hip socket (དཔྱི་མིག) |
+| 7 | hip joint (དཔྱི་མིག་ཚིགས) | point of the elbow (གྲུ་མགོ) |
+| 8 | above the kidneys (མཁལ་སྟེང) | hollow of the kidneys (མཁལ་ཁུང) |
+| 9 | flank of the ribs (རྩིབ་ལོགས) | "palm" of the foreleg (ལག་མཐིལ) |
+| 10 | top of the shoulder (དཔུང་སྟེང) | nape (ལྟག་སྒོར) |
+| 11 | forearm (ལག་ངར) | fat (ཚིལ) |
+| 12 | palm (ལག་པའི་མཐིལ) | forearm (ལག་ངར) |
+| 13 | neck (སྐེ་མགུལ) | white channels, the nerves (རྩ་དཀར) |
+| 14 | behind the ear and the jaw (རྣ་ལྟག་དང་ཟ་འགྲམ) | shoulder (དཔུང) |
+| 15 | shoulder blade (སོག་པ) | whole body (ལུས་པོ་བྱིངས) |
+| 16 | nape and jaw (ལྟག་ཟ་འགྲམ) | neck (སྐེ་མཇིང) |
+| 17 | neck (སྐེ་མཇིང) | likewise (དེ་ལྟར) |
+| 18 | palm (ལག་མཐིལ) | mane (ཟེ་བ) |
+| 19 | forearm (ལག་ངར) | nape (ལྟག་སྒོར) |
+| 20 | top of the shoulder blade (མི་རྟའི་དཔུང་སོག་སྟེང, people and horses alike) | the same |
+| 21 | flank of the ribs (རྩིབ་ལོགས) | teeth (སོ) |
+| 22 | above the kidneys (མཁལ་མའི་སྟེང) | upper and lower palate (ཡས་མས་རྐན) |
+| 23 | hip joint (དཔྱི་མིག་ཚིགས) | tongue (ལྕེ) |
+| 24 | groove of the thigh (བརླ་སུལ) | forehead (དཔྲལ་བ) |
+| 25 | hollow of the knee (སྒྱིད་ཁུང) | chest and neck (བྲང་སྐེ) |
+| 26 | above the knee (པུས་མོའི་སྟེང) | hollow of the throat (ཨོལ་སྟོང) |
+| 27 | calf (བྱིན་ཉ) | genitals (མཚན་མ) |
+| 28 | ankle joint (ལོང་བུའི་ཚིགས) | scrotum (སྒྲོ་བ, Dag tshig sense 2) |
+| 29 | shin (ངར་གདོང) | passages of the nostrils (སྣ་ཁུང་གཞུང) |
+| 30 | the whole body (མི་རྟའི་ལུས་པོ་བྱིངས, people and horses alike) | the same |
+
+In a person the la climbs from the foot to the head in the waxing half
+and comes down again in the waning half; the livestock column keeps no
+such order. The app gives both places in the lunar
+date's reading (T2.16, 2026-10-08).
 
 ### By the hour, the *lho gter* list and the weekday
 

@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading; E5 on the owner (D2) |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
@@ -166,7 +166,7 @@ The Bon *snang srid me long* (SN in [sources/README.md](sources/README.md)),
 where the calendar takes most of what WB lacks, is a **witness to WB
 only** (the owner, 2026-10-08): its etext is searchable, so each item reads
 it beside WB (the burning dates for T2.12, the nāgas and eight classes for
-T2.13, the hair-washing results for T2.15, the people's and horses' soul
+T2.13, the hair-washing results for T2.15, the people's and horses' la
 places for T2.16) to confirm a reading or raise a question, but nothing
 that only SN gives is built or cited, and no Bon text is a `Source`.
 
@@ -273,16 +273,21 @@ answer.
   date's reading.
 - **Done when.** The sheet and the reading follow; SPEC §10.3.
 
-#### T2.16 The soul's place: the sides and the animals — S
+#### T2.16 The la's place: the sides and the animals — built 2026-10-08 (SPEC §5.11)
 
 - **Gap.** WB gives the left and right of men and women for the Kālacakra
   list (p. 303), and beside each Phugpa date the place of "horses and the
-  like" (pp. 303–304). The app gives the person's place only, without a
-  side.
-- **Work.** Read pp. 303–304 on the scan: whether the sides hold for the
-  Phugpa list; add the animals' place to the lunar date's reading.
-- **Done when.** The thirty readings carry what WB gives; `CatalogTest`
-  passes; Russian added.
+  like" (pp. 303–304). The app gave the person's place only, and called
+  the *bla* "the soul".
+- **Built.** Read on the scans ([lunar-dates.md](sources/lunar-dates.md),
+  *Where the la resides*): the sides open the Kālacakra list and the
+  Phugpa list names none, so the app keeps the place without a side; the
+  thirty readings give the place in horses and other livestock beside the
+  person's, two of its words (dates 3 and 5) marked unidentified. *bla* is
+  now "the la (bla), the life-spirit", «ла (bla), жизненный дух», after
+  Berzin's glossary, in the readings, the la mansion (*bla skar*) and
+  Gaṇḍa's long reading (WB's «བླ་ཚེ»). `CatalogTest` checks every date in
+  both languages.
 
 #### T2.17 Russian terms by WB's words — S
 
@@ -316,7 +321,7 @@ it. The plan is item E below.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
-   T2.11 (it may add items), then the small ones T2.16, T2.17 and T2.15,
+   T2.11 (it may add items), then the small ones T2.16 (built 2026-10-08), T2.17 and T2.15,
    then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13.
 
 #### Not planned

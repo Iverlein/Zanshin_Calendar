@@ -24,7 +24,7 @@ gives every reading in what it calls descending order of importance:
 festivals, the element pair ("main combination"), the named combination
 ("great"), the special days, the mansion, the weekday, the lunar date
 (with hair washing, haircut, setting out and the house god), the date's
-animal, trigram, sme ba, the soul's place, and the courses of the
+animal, trigram, sme ba, the la's place (*bla gnas*), and the courses of the
 "protectors of the teaching", the nāgas, the eight classes, Rāhu
 ("the dragon") and "the black demoness of the earth, Rāhu's sister". It
 gives no yoga and no karaṇa. Years 2005–2026 only.
@@ -44,7 +44,7 @@ gives no yoga and no karaṇa. Years 2005–2026 only.
 - Rāhu by date: WB's general course (pp. 236–237), times included. The app
   shows the detailed course on the dates it names (the 12th and the 18th
   differ), which WB calls the more exact.
-- The soul's place by date: WB's Phugpa list (pp. 303–304), except the
+- The la's place by date: WB's Phugpa list (pp. 303–304), except the
   29th (site: ankle; WB ངར་གདོང, the shin, as the app has it).
 - Election (October 2026): haircuts on all 7 days the site names, weddings
   on 11 of 12, setting out on 11 of 14. The site ranks two Mondays best
@@ -89,7 +89,7 @@ Each of the site's rules below held on every day compared.
 | Haircut results by date | its own list | WB has no list of haircut results by date (no སྐྲ་བྲེག, སྐྲ་གཅོད): haircuts are named in the weekday and mansion verses and ch. 34 work 50 |
 | Hair-washing results by date | its own list, close to FPMT's *haircut* list on several dates | WB ch. 34 work 34, "bathing and washing the hair, with the dates' results" (p. 404) |
 | 11/6, "nine bad omens converge" (Нгенпа гу дзом) | a festival note | WB vol. 2, p. 226: «དཔྱིད་རའི་ཚེས་བདུན་ … འདི་ལ་ངན་པ་དགུ་འཛོམ་ཞེས» — the 7th of the first spring month, in a list of bad days by month after Rāhu's sisters. "Ten good omens" (བཟང་པོ་བཅུ) is nowhere in WB. The app's 11/6 is Rabten's "Ten Good Omens" |
-| Soul's place, left and right | men left, women right in the waxing half, the reverse in the waning | WB states the sides for the Kālacakra list (p. 303: «སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡོས», the etext's གཡོས presumably གཡས); whether they hold for the Phugpa list is to be read. WB gives the places of "horses and the like" beside each date, which the site shows as "animals" |
+| The la's place, left and right | men left, women right in the waxing half, the reverse in the waning | WB states the sides for the Kālacakra list (p. 303: «སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡོས», the etext's གཡོས presumably གཡས); read on the scan (2026-10-08), the sides open the Kālacakra list only and the Phugpa list names none ([lunar-dates.md](lunar-dates.md)). WB gives the places of "horses and the like" beside each date, which the site shows as "animals"; built in the app (T2.16) |
 
 ## The site's other named sources
 
@@ -104,7 +104,7 @@ BDRC's catalogue on 2026-10-08:
   mkhan chen 22 Nyi ma bstan 'dzin's *gtsug lag rtsis kyi rig pa snang srid
   me long las nag rtsis kyi rab tu byed pa* (MW1KG89128, scans only,
   unread). SN is where most of what the site shows beyond WB comes from:
-  its list of contents (etext p. 223) has the people's and horses' soul
+  its list of contents (etext p. 223) has the people's and horses' la
   places, a six-day cycle for setting out (the site's six travel results),
   the dates' results for washing the hair, the nāgas' strikes and
   turnings, the eight classes by date (p. 243, the site's date-only rule),
