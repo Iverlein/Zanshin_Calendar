@@ -100,6 +100,8 @@ data class TibetanDay(
     val combinationDays: List<CombinationDay>,
     /** The special days the *Rdo rje gtsug lag* makes of it and WB's own table does not (SPEC §5.12), mostly none. */
     val gtsugLagDays: List<CombinationDay>,
+    /** A burning date, the weekday meeting one of its two dates ([BurningDate]). */
+    val burningDate: Boolean,
     val yoga: Yoga,
     /** Karaṇa in effect at daybreak. */
     val karana: Karana,
@@ -200,6 +202,7 @@ object TibetanCalendar {
             greatCombination = GreatCombination.of(weekday, mansion),
             combinationDays = CombinationDay.of(weekday, mansion),
             gtsugLagDays = CombinationDay.ofGtsugLag(weekday, mansion),
+            burningDate = BurningDate.of(weekday, day),
             yoga = Yoga.entries[((moon + sun).frac() * 27).floor().toInt()],
             karana = Karana.ofHalfDay(((moon - sun).frac() * 60).floor().toInt() + 1),
             lunarDayAnimal = Animal.entries[amod(day + 6 * month.number + 8, 12) - 1],

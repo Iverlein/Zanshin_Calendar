@@ -68,9 +68,9 @@ data class ActivityNote(
  * weekday and mansion, which outweigh both (WB p. 333); Rāhu's course on
  * the dates it enters or turns, first of the *kun phan me long*'s seven; the weekday and the
  * mansion, whose own results come first (WB p. 337); the special days of
- * weekday and mansion, which "matter somewhat"; then the date, karaṇa, yoga
- * and day animal (the lunar date's, the *nyi ma* of WB's notes, vol. 2,
- * p. 493) as the *kun phan me long* ranks them. The trigram is not
+ * weekday and mansion, which "matter somewhat", with the burning date;
+ * then the date, karaṇa, yoga and day animal (the lunar date's, the *nyi
+ * ma* of WB's notes, vol. 2, p. 493) as the *kun phan me long* ranks them. The trigram is not
  * among them and counts last.
  */
 enum class DayFactor {
@@ -286,14 +286,19 @@ data class DaySummary(
                     Member(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it))
                 },
             )
-            // The special days speak as one, and only when they agree.
+            // The special days speak as one, and only when they agree; the burning date stands with them,
+            // as in WB's almanac (vol. 1, p. 177).
             val special = Voice(
                 4,
                 day.combinationDays.map {
                     Member(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.COMBINATION_DAY[it]), listOfNotNull(Texts.COMBINATION_DAY[it]))
                 } + day.gtsugLagDays.map {
                     Member(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.GTSUG_LAG_DAY[it]), listOfNotNull(Texts.GTSUG_LAG_DAY[it]))
-                },
+                } + listOfNotNull(
+                    Texts.BURNING_DATE.takeIf { day.burningDate }?.let {
+                        Member(entry(Catalog.text("BurningDate").replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, Tone.BAD, it), listOf(it))
+                    },
+                ),
             )
             val voices = listOf(
                 combination,

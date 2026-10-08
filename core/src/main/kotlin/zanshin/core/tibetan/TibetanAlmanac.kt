@@ -271,6 +271,26 @@ enum class CombinationDay(
 private const val ABHIJIT = -1
 
 /**
+ * The burning dates (*bsreg tshes*): a weekday meeting one of its two dates, one in each half of the
+ * month, Sunday the 12th and 27th … Saturday the 7th and 22nd (the White Beryl, vol. 1, p. 177, and
+ * again in number words, vol. 2, p. 351; docs/sources/burning-dates.md). The day's own date counts,
+ * with each day's own weekday: a doubled date, on two weekdays, burns on one of its days at most.
+ * WB also writes one, marked, where the burning date begins before nightfall on the weekday (vol. 1,
+ * p. 177); that needs its length of daylight (vol. 1, ch. 8) and is not counted.
+ */
+object BurningDate {
+    private val FIRST = mapOf(
+        Weekday.SUNDAY to 12, Weekday.MONDAY to 11, Weekday.TUESDAY to 10, Weekday.WEDNESDAY to 3,
+        Weekday.THURSDAY to 6, Weekday.FRIDAY to 2, Weekday.SATURDAY to 7,
+    )
+
+    /** The two dates that burn on [w]. */
+    fun dates(w: Weekday): Set<Int> = FIRST.getValue(w).let { setOf(it, it + 15) }
+
+    fun of(w: Weekday, date: Int): Boolean = date in dates(w)
+}
+
+/**
  * The eight trigrams (spar kha) in Janson's Table 15 order. [goddess] is the
  * one of the White Beryl's eight goddesses (lha mo brgyad, vol. 1,
  * pp. 449–450) whose day the date is: its "deeper" count by date and month

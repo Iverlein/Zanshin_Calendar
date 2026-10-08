@@ -195,7 +195,7 @@ class DaySummaryTest {
             if (other > 2 * with) against++
             date = date.plusDays(1)
         }
-        assertEquals(2085, against)
+        assertEquals(2082, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 

@@ -160,6 +160,7 @@ object Sources {
     val WHITE_BERYL_DUS_SBYOR = whiteBeryl("pp. 371–376")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
     val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
+    val WHITE_BERYL_BURNING_DATES = whiteBeryl("p. 351 and chapter 34, pp. 404, 414 and 426, with the dates in vol. 1, p. 177")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
     val NOR_BU_ME_LONG = Source(
         "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
@@ -756,6 +757,21 @@ object Texts {
                     key = "reading.GtsugLagDay.${c.name}", arg = "reading.CombinationDay.${c.name}",
                 )
             }
+
+    /**
+     * The burning date (*bsreg tshes*, [zanshin.core.tibetan.BurningDate]): its reading after the
+     * karaṇas (vol. 2, p. 351), where bloodletting, moxibustion and virtuous work fail, cremation is
+     * bad and fierce work favoured; chapter 34 names it among the times to avoid for bloodletting and
+     * moxa, funerals, supports and temples, and life and wealth (pp. 404, 414, 426;
+     * docs/sources/burning-dates.md). It stands with the special days, as in WB's almanac (vol. 1,
+     * p. 177; SPEC §5.12).
+     */
+    val BURNING_DATE = Reading(
+        goodKeys = listOf("fierce_rites"),
+        avoidKeys = listOf("bloodletting_and_moxibustion", "virtuous_work", "cremation", "funerals", "setting_up_supports", "health_and_wealth"),
+        source = Sources.WHITE_BERYL_BURNING_DATES,
+        key = "reading.BurningDate",
+    )
 
     /**
      * The 28 named combinations of weekday and mansion, the great combination
