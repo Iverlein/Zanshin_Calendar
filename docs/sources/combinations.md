@@ -33,7 +33,11 @@ The headings of the table, in its order: ཀུན་དགའ། དུས་�
 བྱ་རོག རྒྱལ་མཚན། དཔལ་བེའུ། རྡོ་རྗེ། ཐོ་བ། གདུགས། གྲོགས། ཡིད། འདོད། མགལ་མེ།
 རྩ་བཏོན། འཆི་བདག མདའ། གྲུབ། མདུང་། བདུད་རྩི། གཏུན་ཤིང་། གླང་པོ། རྟག་མྱོས།
 ཟད་པ། གཡོ། བརྟན། འཕེལ།. The 24th is རྟག་མྱོས in WB's readings and table, where
-Henning has *stag mo*.
+Henning has *stag mo*. Checked again on 2026-10-08 (ROADMAP T2.17), the
+heading enlarged on p. 149 (img. 159): its first stack has the same ར on
+top as «བརྟན» in the same row, not the སྟ of *stag*, "tiger", which
+Henning's *stag mo* has and the Russian calendar compared in
+[tibetastromed.md](tibetastromed.md) reads (ROADMAP T2.17).
 
 **The readings**, vol. 2, pp. 331–333 (img. 339–341): a verse on each
 (p. 331–332), then the short readings (p. 333, *mdor bsdus*):

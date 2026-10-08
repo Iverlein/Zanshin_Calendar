@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
@@ -290,21 +290,35 @@ answer.
   Gaṇḍa's long reading (WB's «བླ་ཚེ»). `CatalogTest` checks every date in
   both languages.
 
-#### T2.17 Russian terms by WB's words — S
+#### T2.17 Russian terms by WB's words — built 2026-10-08 (SPEC §8.2)
 
-- **Gap.** The catalog gives one Russian word to different WB terms:
+- **Gap.** The catalog gave one Russian word to different WB terms:
   «свершение» for the yoga Siddhi, the element pair *dngos grub* and the
-  named combination *grub* (and in two special days' names), «нектар» and
-  «юность» each twice, and «жжение» (the element pair *sreg pa*) beside
-  «сочетание жжения» (*gtan spang*'s other name, *bsreg sbyor*, p. 337),
-  which T2.12's burning dates would make a third. The calendar reads
-  *rtag myos* as a tiger (*stag*).
-- **Work.** Distinct Russian words where WB's terms differ, and one word
-  for "burning" across *sreg pa*, *bsreg sbyor* and *bsreg tshes* only if
-  WB means the same by it; check *rtag myos* on WB's table (vol. 1,
-  pp. 148–149).
-- **Done when.** `CatalogTest` and `TranslationsTest` pass; the Russian
-  read-through (L3) sees the new words.
+  named combination *grub*, «юность» for *lang tsho* and *gzhon*; and
+  several to one: *'phel* was «рост», «возрастание», «приумножение» and
+  «продвижение», the burning «жжение», «сочетание жжения» and «сжигающая
+  дата», *mi 'phrod* «недостаток» beside «несовместимость». The calendar
+  reads *rtag myos* as a tiger (*stag*).
+- **Built.** *dngos grub* достижение (yoga and pair), *grub* свершение;
+  *lang tsho* юность, *gzhon* юноша; *'phel* and the pair's *'phel 'gyur*
+  возрастание, приумножение left to the increasing rites (*rgyas*); *mi
+  'phrod* несовместимость. WB spells the burning *sreg* and *bsreg* alike
+  (p. 177 «སྲེག་སྦྱོར», ch. 34 «སྲེག་ཚེས», [burning-dates.md](sources/burning-dates.md)) and
+  names both the earth–fire pair and *gtan spang* a burning combination,
+  so all three are сожжение: «сожжение», «сочетание сожжения», «дата
+  сожжения». «нектар», «ваджра» and «радость» each stand for one WB word
+  (*bdud rtsi*, *rdo rje*, *dga' ba*) in two reckonings and stay. *rtag
+  myos* is WB's on the table's heading (vol. 1, p. 149, img. 159, its ར
+  beside «བརྟན»'s) and in its short reading (vol. 2, p. 333): «вечно
+  ликующий» stays ([combinations.md](sources/combinations.md)).
+  `CatalogTest` fails when two WB terms share a Russian name or one WB
+  word loses its Russian one.
+- **Left.** English has the same two collisions (*dngos grub* and *grub*
+  both "accomplishment", *lang tsho* and *gzhon* both "youth"), and its
+  pair names follow the Sanskrit ("progress", "excellence", "deficiency")
+  while their readings name the Tibetan ("increase", "perfection",
+  "incompatibility"): the owner's choice whether English follows WB too.
+  The Russian read-through (L3) sees the new words.
 
 #### T2.18 Election by activity — planned as E
 
@@ -344,7 +358,7 @@ it. The plan is item E below.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
-   T2.11 (it may add items), then the small ones T2.16 (built 2026-10-08), T2.17 and T2.15,
+   T2.11 (it may add items), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15,
    then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13.
 
 #### Not planned
