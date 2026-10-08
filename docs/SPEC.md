@@ -647,7 +647,12 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   for its course by month (pp. 238–239: the first and middle month of
   spring, the three months of autumn) a second Rāhu row names the form it
   takes and fierce rites good, weighed in Rāhu's tier like the detailed
-  course.
+  course. Its seasons are the Chinese reckoning's (`SeasonReckoning`),
+  as everywhere in WB's chapters on the elemental reckoning (20–32): the
+  first month of spring is the 11th, the tiger month, the middle the
+  12th, and autumn the 5th to the 7th
+  ([sources/tibetastromed.md](sources/tibetastromed.md), *WB's months and
+  seasons*).
 - **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
   the *kun phan me long* §10: each double hour is halved, each half ruled
   by a planet, counted from the weekday's own planet six on by day (from
@@ -964,7 +969,10 @@ canvas "Zanshin Calendar — basic design".
   holiday's name and glyph take the headline and the date moves under it.
 - **Month:** number plus Tibetan name — "4th month · sa ga". Tapping it opens
   a balloon with the other names: Sanskrit lunar mansion, animal name
-  (Janson Table 4), seasonal name; then the month's element and its
+  (Janson Table 4), and its two seasons, each labelled, as WB's model
+  almanac gives them (vol. 1, pp. 154–171): the Kālacakra one (the 1st
+  month early spring) and the Chinese reckoning's (the 11th early spring,
+  the 1st late spring); then the month's element and its
   vitality and body (§5.9), with a birth date set each with its pebbles
   and relation to yours, as in the year's balloon.
 - **Repeated day:** each of the two days carries a small tag, "first of two" /

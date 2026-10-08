@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons, its almanac page, the burning dates, the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org; T2.13 and T2.14 wait on T2.10 |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates, the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -161,38 +161,29 @@ moves the app's arithmetic: its dates, month animals, trigram, sme ba and
 mansions are WB's and Henning's, and the calendar's mansions are wrong on
 38 days of 2026.
 
-#### T2.10 WB's months and seasons — S reading, then S code; first
+#### T2.10 WB's months and seasons — built 2026-10-08 (SPEC §5.13, §10.3)
 
-- **Gap.** WB's model almanac (vol. 1, pp. 156–173) gives each Hor month
-  two seasons: the Chinese reckoning's (the 11th month the first of
-  spring and the tiger, the 1st the last of spring and the dragon) and the
-  Kālacakra one (the 4th early summer). The app's month animals are WB's.
-  Its season names (`TibetanMonth.N.season`, the 1st "early spring") are
-  the Kālacakra ones, and `Texts.RAHU_MONTH` takes WB's "first month of
-  spring" for month 1 and its autumn for months 7–9, while the passage
-  (vol. 2, p. 238) sits in the chapter of the Chinese reckoning, where
-  spring would be months 11, 12 and 1 and autumn 5–7. Every season-keyed
-  passage below (T2.13, T2.14) waits on the same answer.
-- **Work.** Read the twelve month lines of pp. 156–173 on the scan into a
-  months section of tibetastromed.md (or a `months.md`); for each
-  season-keyed WB passage the app uses or will use, settle which system it
-  counts by, from its own words and context (a named animal, the chapter).
-  Move `RAHU_MONTH` if WB's seasons say so; give the month balloon both
-  season names, each labelled.
-- **Done when.** The months are read with page and image; `RAHU_MONTH` is
-  keyed by WB's season with a test pinning one month of each season; SPEC
-  §5.13 and §10.3 say which season system each reading uses.
+WB's model almanac gives each Hor month a Kālacakra season and a Chinese
+one (vol. 1, pp. 154–171, read on the scan:
+[tibetastromed.md](sources/tibetastromed.md), *WB's months and
+seasons*). Its chapter 31, where every season-keyed passage the app uses
+or plans stands, counts by the Chinese reckoning, as two of its own
+passages show (pp. 206, 228): spring is months 11, 12 and 1, autumn 5–7.
+`Texts.RAHU_MONTH` moved from months 1, 2 and 7–9 to 11, 12 and 5–7
+(`SeasonReckoning`, `SeasonReckoningTest`); the month balloon shows both
+seasons, each labelled. T2.13 and T2.14 take their months from the same
+answer.
 
 #### T2.11 WB's almanac page — S reading
 
-- **Gap.** WB vol. 1, pp. 173–180 says what a Phugpa almanac writes for
+- **Gap.** WB vol. 1, pp. 171–178 (img. 181–188) says what a Phugpa almanac writes for
   each day, in order (tibetastromed.md, *WB's almanac page*). The app has
   never been checked against WB's own list: some entries are built (the
   combinations, special days, yoga, Viṣṭi, trigram, sme ba, earth lords),
   some are not (the burning dates, the twelve links, the dates' stages,
   the strikes of the nāgas and the eight classes, the sky doors, *gnyan
   pa*, *snag tsha*).
-- **Work.** Read pp. 173–180 on the scan; inventory every entry with its
+- **Work.** Read pp. 171–178 on the scan; inventory every entry with its
   rule's page (as white-beryl-ch33.md does for chapter 33), marking each
   built, planned below or not planned with the reason. Cross-check the
   special-day table (p. 341) against the verse of p. 179, a second WB
@@ -230,10 +221,11 @@ mansions are WB's and Henning's, and the calendar's mansions are wrong on
   rain-making good, on a turning not; p. 364). None is built. The
   calendar's own eight classes and "protectors" are not WB's and are not
   to be copied.
-- **Work.** After T2.10: read pp. 226–235 on the scan into a topic file,
-  section by section; build the eight classes' and the nāgas' courses as
-  dated rows like Rāhu's (strike or turning, the hour and direction, the
-  works WB names for each), weighed in the tier WB's words give them;
+- **Work.** With T2.10's months (spring 11, 12, 1; autumn 5–7): read
+  pp. 226–235 on the scan into a topic file, section by section; build
+  the eight classes' and the nāgas' courses as dated rows like Rāhu's
+  (strike or turning, the hour and direction, the works WB names for
+  each), weighed in the tier WB's words give them;
   list the other sections as built or not planned.
 - **Done when.** Each course has a test vector from the text; SPEC §5.13;
   checked on the emulator in both languages.
@@ -244,8 +236,8 @@ mansions are WB's and Henning's, and the calendar's mansions are wrong on
   Rabten. WB has no ten good omens; it names «ངན་པ་དགུ་འཛོམ», nine bad
   things meeting, on the 7th of the first spring month (vol. 2, p. 226), in
   a list of bad days by month after Rāhu's sisters; the calendar gives the
-  nine bad on 11/6. If T2.10 finds the first spring month to be the 11th,
-  WB's day is 11/7.
+  nine bad on 11/6. T2.10 found ch. 31's first spring month to be the
+  11th, so WB's day is 11/7.
 - **Work.** Read p. 226 and the list that follows on the scan; with T2.10's
   month, give the WB day and its list. Then the owner decides (a choice
   for AskUserQuestion): WB's nine bad on its day, Rabten's festival
@@ -309,7 +301,7 @@ deciding after the WB voices above are in, since they change the sides.
 3. T2.7 and T2.8 built 2026-10-07.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
 5. The reading half of T2.4, and T2.9, as the scans allow.
-6. WB above all: T2.10 first (the season-keyed items wait on it), then
+6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (it may add items), then the small ones T2.16, T2.17 and T2.15,
    then T2.12, T2.14 (the owner's decision after its reading) and T2.13.
 
@@ -330,7 +322,7 @@ deciding after the WB voices above are in, since they change the sides.
   "protectors of the teaching" (no such course in WB), the house god's
   10-day cycle (WB's *khyim lha* moves by season, p. 204), the sky
   medicine by the day's trigram (WB's *gnam sman* is by one's own year,
-  vol. 1, p. 403: T4 material), its weekday groups by birth year, and one
+  vol. 1, p. 401: T4 material), its weekday groups by birth year, and one
   column only of the special days' table (WB gives both).
 
 ### T3. Element colours

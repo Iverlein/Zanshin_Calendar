@@ -141,8 +141,12 @@ by month:
 
 Summer and winter are not given, and no course by year was found. The app
 builds the dated parts as `Texts.RAHU_MONTH`, a second Rāhu row on those
-days (months 1, 2, 7, 8, 9 of Janson's seasons), naming fierce rites good
-and weighed in Rāhu's tier (SPEC §5.12).
+days, naming fierce rites good and weighed in Rāhu's tier (SPEC §5.12).
+Its months are the Chinese reckoning's, which WB's ch. 31 counts by
+(read on the scan 2026-10-08, [tibetastromed.md](tibetastromed.md), *WB's
+months and seasons*): the first and middle months of spring are Hor
+months 11 and 12, the three of autumn 5, 6 and 7. Until 2026-10-08 the
+app took the Kālacakra seasons, months 1, 2 and 7–9.
 
 ## The course over one day
 

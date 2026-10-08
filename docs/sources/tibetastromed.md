@@ -12,8 +12,10 @@ Henning's computed calendar (`henning-phugpa.tsv`).
 **The rule for what follows (the owner, 2026-10-08): WB counts above all.**
 The site is a witness to what a WB calendar can show, not a source; where
 it and WB part, WB decides. The WB passages below were found in BDRC's
-etext of the 1996 edition (etext page − 8 = printed page); **none is yet
-read on the scan**, so each is a reading task in ROADMAP T2.10–T2.18.
+etext of the 1996 edition (in vol. 2 the printed page is the etext page
+− 8, in vol. 1 − 10); **except the months and seasons (read 2026-10-08),
+none is yet read on the scan**, so each is a reading task in ROADMAP
+T2.11–T2.18.
 
 ## How the site works
 
@@ -82,7 +84,7 @@ Each of the site's rules below held on every day compared.
 | "Protectors of the teaching" | an 8-day cycle by date, in four groups of months | no such course found (བསྟན་སྲུང, ཆོས་སྐྱོང) |
 | "Black demoness of the earth", Rāhu's sister | a time of day by date | WB names Rāhu's sisters and the *sa'i 'phung byed nag mo* (vol. 2, pp. 226, 401); KP §6 gives the *nag mo*'s times with the karaṇas; the WB passage not found yet |
 | House god (Домовой, ཁྱིམ་ལྷ) | a 10-day cycle of places in the house | WB's *khyim lha* moves by season (vol. 2, p. 204); the hearth god of the date's animal (p. 224) is built |
-| "Sky medicine" (Небесное Лекарство) | a direction by the day's trigram | WB's *gnam sman* is a direction of the trigram of one's own year (vol. 1, p. 403): a reading for T4, not for the day |
+| "Sky medicine" (Небесное Лекарство) | a direction by the day's trigram | WB's *gnam sman* is a direction of the trigram of one's own year (vol. 1, p. 401): a reading for T4, not for the day |
 | Weekday "prosperity / decline" for birth years | the weekday's element against the birth animal's, in groupings no table has | not WB |
 | Haircut results by date | its own list | WB has no list of haircut results by date (no སྐྲ་བྲེག, སྐྲ་གཅོད): haircuts are named in the weekday and mansion verses and ch. 34 work 50 |
 | Hair-washing results by date | its own list, close to FPMT's *haircut* list on several dates | WB ch. 34 work 34, "bathing and washing the hair, with the dates' results" (p. 404) |
@@ -91,27 +93,74 @@ Each of the site's rules below held on every day compared.
 
 ## WB's months and seasons
 
-WB's model almanac (vol. 1, pp. 156–173, one line per month) gives each
-Hor month the Chinese reckoning's season and animal: «ཧོར་ཟླ་བཅུ་གཅིག་པ་རྒྱ་རྩིས་དཔྱིད་ར … སྟག»,
-the 11th month the first spring month, the tiger; «ཧོར་ཟླ་དང་པོ་རྒྱ་རྩིས་དཔྱིད་ཐ … འབྲུག»,
-the 1st the last spring month, the dragon; then the 2nd early summer
-(snake) … the 10th late winter (ox) (etext). Beside it the Kālacakra
-seasons (the 4th month «དུས་འཁོར་བའི་དབྱར་ར», early summer).
+**Read on the scan** (2026-10-08). WB's model almanac (vol. 1, ch. 13,
+pp. 154–171, img. 164–181; in vol. 1 the etext page is the image number
+and the printed page ten less) opens each Hor month with one line giving
+its Kālacakra season, its Kālacakra month name and sign, and then the Hor
+month with the Chinese reckoning's season and the month's animal, e.g.
+p. 154 (img. 164): «དུས་འཁོར་བའི་དགུན་འབྲིང་ … གཞུའི་ཁྱིམ། … ཧོར་ཟླ་བཅུ་གཅིག་པ་རྒྱ་རྩིས་དཔྱིད་ར་ཁམས་ལྟོས། སྟག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ།»,
+Kālacakra's mid-winter, Sagittarius; Hor month 11, by the Chinese
+reckoning the first month of spring; the tiger month. The twelve lines:
+
+| Hor month | page (img.) | Kālacakra («དུས་འཁོར་བའི») | Chinese («རྒྱ་རྩིས») | animal |
+| --- | --- | --- | --- | --- |
+| 11 | 154 (164) | དགུན་འབྲིང, mid-winter | དཔྱིད་ར, early spring | སྟག, tiger |
+| 12 | 155 (165) | དགུན་ཐ, late winter | དཔྱིད་འབྲིང, mid spring | ཡོས, hare |
+| 1 | 157 (167) | དཔྱིད་ར, early spring | དཔྱིད་ཐ, late spring | འབྲུག, dragon |
+| 2 | 158 (168) | དཔྱིད་འབྲིང, mid spring | དབྱར་ཟླ་ར་བ, early summer | སྦྲུལ, snake |
+| 3 | 160 (170) | དཔྱིད་ཐ, late spring | དབྱར་འབྲིང, mid summer | རྟ, horse |
+| 4 | 162 (172) | དབྱར་ར, early summer | དབྱར་ཐ, late summer | ལུག, sheep |
+| 5 | 163 (173) | དབྱར་འབྲིང, mid summer | སྟོན་ར, early autumn | སྤྲེལ, monkey |
+| 6 | 165 (175) | དབྱར་ཐ, late summer | སྟོན་འབྲིང, mid autumn | བྱ, bird |
+| 7 | 166 (176) | སྟོན་ར, early autumn | སྟོན་ཐ, late autumn | ཁྱི, dog |
+| 8 | 168 (178) | སྟོན་འབྲིང, mid autumn | དགུན་ར, early winter | ཕག, pig |
+| 9 | 170 (180) | སྟོན་ཐ, late autumn | དགུན་འབྲིང, mid winter | བྱི་བ, mouse |
+| 10 | 171 (181) | དགུན་ར, early winter | དགུན་ཐ, late winter | གླང, ox |
+
+The scan of p. 155 has «ཧོར་ཟླ་བཅུ་གཉིས་པ» where the etext dropped the
+ཧོ. The lines also say whose year begins in which month (p. 154: Hor
+month 11 the year start of the Khyung and Phugpa *nag rtsis*; p. 157:
+month 1 that of the Hor system and some *nag rtsis*).
 
 - The app's month animals (`monthAnimal`, Janson) are WB's: the 1st month
   the dragon. The site's "old style" is not.
-- The app's season names (the catalog's `TibetanMonth.N.season`: the 1st
-  early spring) follow the Kālacakra seasons. WB's Chinese-reckoning
-  seasons put spring in the 11th, 12th and 1st months and autumn in the
-  5th, 6th and 7th.
-- Several WB passages are keyed by season-month («དཔྱིད་ར», «སྟོན་ར»): Rāhu
-  by month (p. 238, built as months 1, 2 and 7–9), the eight classes
-  (p. 232), the nāgas (p. 234), the bad days by month (p. 226). Which
-  season system each uses decides its Hor months.
+- The app showed only the Kālacakra season (the 1st month early spring).
+  Since 2026-10-08 the month balloon shows both, each labelled
+  (`SeasonReckoning`, `SeasonReckoningTest` pins the twelve lines).
+
+**Which reckoning a season-keyed passage counts by.** WB's elemental
+reckoning runs from ch. 20 («ལེའུ་ཉི་ཤུ་པ། འབྱུང་རྩིས་ཀྱི་ཁོག་འབུབས་…», vol. 1,
+p. 218, img. 228) to ch. 32; ch. 31 («ལོ་ཟླ་ཚེས་གྲངས་དུས་ཚོད་ལ་རྒྱུ་བའི་ས་བདག་སྐོར»,
+vol. 2, p. 174, img. 182) holds every season-keyed passage the app uses
+or plans. The chapter itself shows that its seasons are the Chinese
+reckoning's, in two places read on the scan:
+
+- p. 206 (img. 214), the earth lord *'Phar ba mgo dgu* (26): «སྟག་འབྲུག་རྟ་ཡི་ཟླ་གསུམ་སྤྲེལ། །ཡོས་ཟླར་སྦྲུལ་ལ་སྦྲུལ་ཟླར་སྟག །ལུག་ཟླར་ཕག་གི་སྟེང་དུ་གནས། །སྟོན་གསུམ་རིམ་བཞིན་ཡོས་ལུག་ཁྱི། །དགུན་གསུམ་རིམ་བཞིན་སྤྲེལ་འབྲུག་བྱ།»:
+  six months named by animal, tiger to sheep, then "the three of autumn"
+  and "the three of winter". Autumn follows the sheep month only in the
+  Chinese reckoning.
+- p. 228 (img. 236), a course by animal month («སྟག་ཡོས་ཟླ་བའི་ཚེས་བརྒྱད་ལ། །འབྲུག་དགུ་སྦྲུལ་གསུམ་རྟ་ཉེར་གསུམ། །ལུག་དགུ་སྤྲེལ་བདུན་བྱ་བཅུ་བདུན། །ཁྱི་བརྒྱད་ཕག་གཅིག་བྱི་བཅུ་དྲུག །གླང་གི་ཟླ་བ་ཚེས་དགུར་རྒྱུ།།»)
+  and "another way" by season-month («དཔྱིད་ཟླ་གསུམ་ལ་རིམ་པ་ལྟར། །བཅོ་བརྒྱད་ཚེས་བརྒྱད་ཚེས་པ་དགུ། །དབྱར་གསུམ་གསུམ་དང་བཅུ་གསུམ་དགུ། །སྟོན་གསུམ་ཚེས་བདུན་བཅུ་བདུན་དང་། །ཉི་ཤུ་བརྒྱད་རྒྱུ་དགུན་གསུམ་ལ། །གཅིག་དང་བཅུ་དྲུག་ཚེས་པ་དགུ།»).
+  With spring the tiger, hare and dragon months, nine of the twelve
+  dates agree (the hare's 8, the dragon's 9, the snake's 3, the sheep's 9,
+  the monkey's 7, the bird's 17, the pig's 1, the mouse's 16, the ox's 9);
+  the three that differ, differ by ten or twenty days. With the Kālacakra
+  seasons (spring the dragon, snake and horse months) none agrees.
+
+So in ch. 31 the first month of spring is Hor month 11, the middle 12,
+the last 1; summer 2–4; autumn 5–7; winter 8–10. This settles:
+
+- **Rāhu by month** (p. 238, rahu.md): its first and middle months of
+  spring are months 11 and 12, its autumn months 5–7 (until 2026-10-08 the
+  app had 1, 2 and 7–9). `Texts.RAHU_MONTH`.
+- **The nine bad meeting** (p. 226, «དཔྱིད་རའི་ཚེས་བདུན»): the 7th of month 11
+  (ROADMAP T2.14), not yet read on the scan.
+- **The strikes of the eight classes and the nāgas** (pp. 232, 234), keyed
+  by season-month: by the same months (T2.13).
 
 ## WB's almanac page
 
-WB vol. 1, pp. 173–180 (etext) sets out what a Phugpa almanac writes for
+WB vol. 1, pp. 171–178 (img. 181–188; etext) sets out what a Phugpa almanac writes for
 each day, in order: the date with its Kālacakra and *dbyangs 'char*
 correspondences, the five-fold cycle and the dates' stages (child, youth,
 adult, old, ripe); weekday, mansion and their combinations; the yoga; the
