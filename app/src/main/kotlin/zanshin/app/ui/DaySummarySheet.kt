@@ -254,7 +254,7 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
                                 }
                             }
                         }
-                        Text(stringResource(R.string.brief_personal_not_weighed), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                        Text(withTibetan(stringResource(R.string.brief_personal_not_weighed)), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
                     } else if (s.personal.isNotEmpty()) {
                         Terms(s.personal)
                     }
@@ -269,7 +269,7 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
             }
 
             Text(
-                stringResource(if (s.verdict != null) R.string.brief_note_tibetan else R.string.brief_note),
+                withTibetan(stringResource(if (s.verdict != null) R.string.brief_note_tibetan else R.string.brief_note)),
                 style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp),
             )
         }
@@ -352,7 +352,7 @@ private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
             )
         }
         Times(Palette.saffron, stringResource(R.string.tib_nectar_title), hours.nectar.map { clockSpan(5 * 60 + it * 60, 60) to it / 2 })
-        Text(stringResource(R.string.brief_hours_note), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+        Text(withTibetan(stringResource(R.string.brief_hours_note)), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
     }
 }
 

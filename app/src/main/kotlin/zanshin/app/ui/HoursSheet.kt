@@ -257,7 +257,7 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                     }
                 }
             }
-            Text(stringResource(if (birth != null) R.string.hours_note else R.string.hours_note_period), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
+            Text(withTibetan(stringResource(if (birth != null) R.string.hours_note else R.string.hours_note_period)), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
         }
     }
 }

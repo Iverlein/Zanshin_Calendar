@@ -8,11 +8,16 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.ExperimentalTextApi
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.em
 import io.github.iverlein.zanshin.R
 
 /** The palette of the basic design (SPEC §10), dark only. */
@@ -53,6 +58,23 @@ val Figtree = FontFamily(
 
 /** Tibetan script: Noto Serif Tibetan, one weight, the Tibetan block (tools/subset_fonts.py). */
 val TibetanSerif = FontFamily(Font(R.font.noto_serif_tibetan, FontWeight.Medium))
+
+private val TIBETAN_RUN = Regex("[\\u0F00-\\u0FFF]+")
+
+/**
+ * [text] with its runs of Tibetan script set in [TibetanSerif], a little
+ * larger as [tibetanStyle] sets it: the titles that readings, notes and
+ * sources give as "English (Tibetan, Wylie)" (SPEC §8).
+ */
+fun withTibetan(text: String): AnnotatedString = buildAnnotatedString {
+    var from = 0
+    for (m in TIBETAN_RUN.findAll(text)) {
+        append(text.substring(from, m.range.first))
+        withStyle(SpanStyle(fontFamily = TibetanSerif, fontSize = 1.15.em)) { append(m.value) }
+        from = m.range.last + 1
+    }
+    append(text.substring(from))
+}
 
 /** Large numerals and every kanji: a subset of Shippori Mincho (tools/subset_fonts.py). */
 val Mincho = FontFamily(

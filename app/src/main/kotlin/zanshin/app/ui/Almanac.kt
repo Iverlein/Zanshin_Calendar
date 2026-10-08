@@ -203,7 +203,7 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
                 a.glyphs?.invoke()
                 if (a.decides) DecidesMark(a.tone)
             }
-            Text(a.subtitle ?: a.english, style = body.copy(fontSize = 13.sp, color = Palette.muted))
+            Text(withTibetan(a.subtitle ?: a.english), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
         }
     }
 }
@@ -272,8 +272,8 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
                     },
                 )
             }
-            if (!large) a.subtitle?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.faint)) }
-            Text(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone)), style = body.copy(color = Palette.muted))
+            if (!large) a.subtitle?.let { Text(withTibetan(it), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.faint)) }
+            Text(withTibetan(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone))), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
             DecidesNote(a)
             a.tibetan?.let { (wylie, english) ->
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -291,7 +291,7 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
                 Text(stringResource(R.string.sheet_no_reading), style = body.copy(color = Palette.faint))
                 return@Column
             }
-            if (r.summary.isNotBlank()) Text(r.summary, style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
+            if (r.summary.isNotBlank()) Text(withTibetan(r.summary), style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
             if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.good, Palette.good)
             if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoid, Palette.bad)
             if (a.details.isNotEmpty()) DetailsBlock(a.details)
@@ -300,7 +300,7 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
                 Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
                     Text(stringResource(if (r.also.isEmpty()) R.string.source else R.string.sources), style = body.copy(fontSize = 12.sp, color = Palette.faint))
                     for (s in listOf(r.source) + r.also) {
-                        Text("${s.title} — ${s.publisher}", style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                        Text(withTibetan("${s.title} — ${s.publisher}"), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
                         Text(s.url, style = body.copy(fontSize = 12.sp, color = Palette.faint))
                     }
                     Text(r.license.label, style = body.copy(fontSize = 12.sp, color = Palette.faint))
@@ -316,7 +316,7 @@ private fun DetailsBlock(rows: List<Pair<String, String>>) {
         for ((label, value) in rows) {
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.width(112.dp))
-                Text(value, style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f))
+                Text(withTibetan(value), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f))
             }
         }
     }

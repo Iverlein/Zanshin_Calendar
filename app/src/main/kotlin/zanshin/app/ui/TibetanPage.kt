@@ -120,7 +120,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 40.sp, color = accent).tight(1.1f),
                     modifier = Modifier.clickable(role = Role.Button) { sheet = holidayAnnotation },
                 )
-                Text(holiday.festival.english, style = body.copy(color = Palette.muted))
+                Text(withTibetan(holiday.festival.english), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
                 holiday.movedFromDay?.let {
                     Text(stringResource(R.string.tib_moved_from_day, it), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }

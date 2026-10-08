@@ -93,7 +93,44 @@ class TranslationsTest {
         }
     }
 
+    /**
+     * SPEC §8.1: the interface and the store listing name a text by its
+     * English name, then its Tibetan script and Wylie in brackets, as the
+     * catalog does (core's CatalogTest). The detail label "In the White
+     * Beryl" is the one exception: a label column, its sheet's source line
+     * gives the title in full.
+     */
+    @Test
+    fun `texts are named in English with their Tibetan and Wylie`() {
+        val tibetan = Regex("[\\u0F00-\\u0FFF]")
+        val bracket = Regex("\\(([^()]*)\\)")
+        val pair = Regex("[\\u0F00-\\u0FFF]+, [^\\u0F00-\\u0FFF]+")
+        val texts = mutableMapOf<String, String>()
+        for (file in listOf(File(res, "values/strings.xml")) + translations) {
+            val nodes = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file).getElementsByTagName("string")
+            for (i in 0 until nodes.length) {
+                val e = nodes.item(i) as Element
+                if (e.getAttribute("name") != "detail_white_beryl") texts["${file.parentFile.name} ${e.getAttribute("name")}"] = e.textContent.replace("\\'", "'")
+            }
+        }
+        File("../fastlane/metadata/android").walkTopDown().filter { it.isFile && it.extension == "txt" }.forEach { texts[it.path] = it.readText() }
+        assertTrue(texts.keys.any { "changelogs" in it })
+        for ((where, text) in texts) {
+            val inBrackets = bracket.findAll(text).filter { tibetan.containsMatchIn(it.value) }.toList()
+            for (b in inBrackets) {
+                for (part in b.groupValues[1].split("; ")) assertTrue(pair.matches(part), "$where: «$part» is not «Tibetan, Wylie»")
+            }
+            val outside = inBrackets.fold(text) { t, b -> t.replace(b.value, "") }
+            assertTrue(!tibetan.containsMatchIn(outside), "$where: Tibetan script outside a bracket")
+            if (Regex("White Beryl|берилл").containsMatchIn(text)) assertTrue("bai DUr dkar po" in text, "$where: the White Beryl without its Tibetan title")
+            for (wylie in WYLIE_TITLES) assertTrue(wylie !in outside, "$where: «$wylie» without its Tibetan")
+        }
+    }
+
     private companion object {
+        /** Texts the interface names, whose Wylie must stand beside their Tibetan. */
+        val WYLIE_TITLES = listOf("kun phan me long", "dbyangs 'char", "gtsug lag", "zla ba'i 'od zer", "bai DUr")
+
         val PLACEHOLDER = Regex("%(\\d+\\$)?[-.\\d]*[sdf]")
     }
 }

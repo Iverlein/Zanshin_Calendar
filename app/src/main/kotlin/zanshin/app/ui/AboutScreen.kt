@@ -62,7 +62,7 @@ fun AboutScreen(onBack: () -> Unit) {
                 val title = stringResource(titleId)
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(title, style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, fontFamily = if (title == "旧暦") Mincho else Figtree))
-                    Text(stringResource(textId), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
+                    Text(withTibetan(stringResource(textId)), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
                 }
             }
         }

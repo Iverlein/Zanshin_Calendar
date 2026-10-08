@@ -45,7 +45,12 @@ android {
     }
 
     testOptions {
-        unitTests.all { it.useJUnitPlatform() }
+        unitTests.all {
+            it.useJUnitPlatform()
+            // TranslationsTest reads the catalog and the store listing from outside the module.
+            it.inputs.dir(rootProject.file("core/src/main/resources/texts"))
+            it.inputs.dir(rootProject.file("fastlane/metadata/android"))
+        }
     }
 }
 
