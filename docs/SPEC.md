@@ -883,21 +883,24 @@ project from the English summaries and checked against the cited sources.
 The terms of the elemental divination follow the Russian edition of Berzin's
 *Details of Tibetan Astrology* on Study Buddhism: жизненная сила, тело,
 могущество, конь ветра for the four aspects, мать, ребёнок, друг, враг and
-совпадение for the relations, камни for the pebbles. The names of the
-weekday-and-mansion reckonings (yogas, karaṇas, the element pairs, the named
-combinations, the special days and the burning date) follow the White
-Beryl's own words (§8.1), not the English: two terms WB writes differently
-never share a Russian name (*dngos grub* достижение, *grub* свершение;
-*lang tsho* юность, *gzhon* юноша), and one word of WB's keeps one Russian
-word wherever it stands (*'phel* and *'phel 'gyur* возрастание, so
-приумножение stays the increasing rites'; *sreg pa*, *bsreg sbyor* and
-*bsreg tshes* сожжение, which WB spells with and without its *b*; *mi
-'phrod* несовместимость). One WB word in two reckonings stays one name
-(*bdud rtsi* нектар, *rdo rje* ваджра, *dga' ba* радость). `CatalogTest`
-checks both. A translated reading
+совпадение for the relations, камни for the pebbles. A translated reading
 keeps its source and licence; its licence label says it is a translation
 (MPL-2.0 for the app's own summaries, CC BY-SA 4.0 with attribution for
 wording adapted from Japanese Wikipedia).
+
+In every language the names of the weekday-and-mansion reckonings (yogas,
+karaṇas, the element pairs, the named combinations, the special days and
+the burning date) follow the White Beryl's own words (§8.1), not the
+Sanskrit behind them: two terms WB writes differently never share a name
+(*dngos grub* attainment, достижение; *grub* accomplishment, свершение;
+*lang tsho* youth, юность; *gzhon* young one, юноша; *'khon 'dzin*
+enmity, раздор; *mi mthun* discord, разлад), and one word of WB's keeps
+one name wherever it stands (*'phel* and the fire pair's *'phel 'gyur*
+growth, возрастание, so "increasing" and приумножение stay the increasing
+rites'; *sreg pa*, *bsreg sbyor* and *bsreg tshes* burning, сожжение,
+which WB spells with and without its *b*; *mi 'phrod* incompatibility,
+несовместимость; *dga' ba* joy, радость; *bdud rtsi* nectar, нектар).
+`CatalogTest` checks both rules in each language.
 
 The "good for" and "avoid" lists keep the source's wording. `Activities.kt`
 maps every wording key to the act it names (`Activity`: "weddings", "marriage"

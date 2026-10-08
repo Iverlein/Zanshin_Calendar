@@ -313,12 +313,15 @@ answer.
   ликующий» stays ([combinations.md](sources/combinations.md)).
   `CatalogTest` fails when two WB terms share a Russian name or one WB
   word loses its Russian one.
-- **Left.** English has the same two collisions (*dngos grub* and *grub*
-  both "accomplishment", *lang tsho* and *gzhon* both "youth"), and its
-  pair names follow the Sanskrit ("progress", "excellence", "deficiency")
-  while their readings name the Tibetan ("increase", "perfection",
-  "incompatibility"): the owner's choice whether English follows WB too.
-  The Russian read-through (L3) sees the new words.
+- **English, the same rule** (the owner, 2026-10-08: follow WB). English
+  had the same two collisions, *'khon 'dzin* and *mi mthun* both
+  "discord", and its pair names followed the Sanskrit while their
+  readings named the Tibetan. Now *dngos grub* attainment, *gzhon* young
+  one, *'khon 'dzin* (Vaidhṛti) enmity; *'phel* and *'phel 'gyur* growth
+  ("increasing" stays the increasing rites'); *phun tshogs* perfection,
+  *mi 'phrod* incompatibility, *mi mthun* discord in the reading too,
+  *dga' ba* joy for the yoga Harṣaṇa as for Nandā. `CatalogTest` checks
+  both languages. The Russian read-through (L3) sees the new words.
 
 #### T2.18 Election by activity — planned as E
 
