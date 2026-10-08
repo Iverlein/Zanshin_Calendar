@@ -50,6 +50,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Catalog
+import zanshin.core.texts.DayFactor
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
@@ -282,6 +283,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val specialDaysNote = stringResource(R.string.tib_special_days_note)
         val burningDateSubtitle = stringResource(R.string.tib_burning_date_subtitle, "${day.weekday.english} + $lunarDateTitle")
         val rahuCourses = stringResource(R.string.tib_rahu_courses)
+        // The row of the factor that decided the day's tone carries a mark (ROADMAP U2).
+        fun decides(factor: DayFactor) = summary.verdict?.factor == factor
         val annotations = buildList {
             // The festival is the headline, which opens its reading; the Almanac does not repeat it.
             if (holiday == null || holidayAnnotation == null) holidayAnnotation?.let { add(it) }
@@ -316,6 +319,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to greatScript),
                     diagram = { CombinationTable(day.weekday, day.mansion) },
+                    decides = decides(DayFactor.GREAT_COMBINATION),
                 ),
             )
             val pair = day.elementPair
@@ -333,6 +337,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 18.dp)
                     },
                     diagram = { ElementPairGrid(day.weekday.element, day.mansion.element) },
+                    decides = decides(DayFactor.GREAT_COMBINATION),
                 ),
             )
             // Rāhu's courses by date and by month, one row: the White Beryl's one Rāhu (SPEC §5.13).
@@ -371,6 +376,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
                     tibetan = "gza’ ${day.weekday.wylie}" to day.weekday.english,
+                    decides = decides(DayFactor.WEEKDAY),
                 ),
             )
             val mansionReading = Texts.MANSION.getValue(day.mansion)
@@ -418,7 +424,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             )
             // Several special days are one row, as they are one voice in the weighing (SPEC §5.12).
             if (specials.size == 1) {
-                add(specials.single())
+                add(specials.single().copy(decides = decides(DayFactor.COMBINATION_DAY)))
             } else if (specials.size > 1) {
                 add(
                     Annotation(
@@ -429,6 +435,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         subtitle = specials.joinToString(" · ") { it.title },
                         titleIsKanji = false,
                         parts = specials,
+                        decides = decides(DayFactor.COMBINATION_DAY),
                     ),
                 )
             }
@@ -442,6 +449,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     glyphs = { LunarDateStrip(day.day) },
                     diagram = { LunarDateGrid(day.day) },
+                    decides = decides(DayFactor.LUNAR_DATE),
                 ),
             )
             add(
@@ -456,6 +464,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
                     diagram = { KaranaRing(day.karana, 280.dp) },
+                    decides = decides(DayFactor.KARANA),
                 ),
             )
             add(
@@ -470,6 +479,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
                     diagram = { YogaRing(day.yoga, 280.dp) },
+                    decides = decides(DayFactor.YOGA),
                 ),
             )
             // The row is the haircut weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the

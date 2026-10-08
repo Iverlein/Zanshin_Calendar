@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.BottomSheetDefaults
@@ -154,6 +155,8 @@ data class Annotation(
      * side by side and the sheet gives each reading in turn, under [english] as a note.
      */
     val parts: List<Annotation> = emptyList(),
+    /** The factor that decides the Tibetan day's tone in the brief (ROADMAP U2): a mark in the row, a note in the sheet. */
+    val decides: Boolean = false,
 )
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -198,10 +201,27 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
                 modifier = a.spokenTitle?.let { spoken -> Modifier.semantics { contentDescription = spoken } } ?: Modifier,
             )
                 a.glyphs?.invoke()
+                if (a.decides) DecidesMark(a.tone)
             }
             Text(a.subtitle ?: a.english, style = body.copy(fontSize = 13.sp, color = Palette.muted))
         }
     }
+}
+
+/** The "decides" mark of the factor that decided the day's tone, outlined in that tone. */
+@Composable
+private fun DecidesMark(tone: Tone) {
+    Text(
+        stringResource(R.string.brief_decides),
+        style = body.copy(fontSize = 11.sp, lineHeight = 13.sp, color = toneColor(tone)),
+        modifier = Modifier.border(1.dp, toneColor(tone), RoundedCornerShape(50)).padding(horizontal = 6.dp, vertical = 1.dp),
+    )
+}
+
+/** Under the gloss of the factor that decided the day's tone, that it did. */
+@Composable
+private fun DecidesNote(a: Annotation) {
+    if (a.decides) Text(stringResource(R.string.brief_decides_note), style = body.copy(fontSize = 14.sp, color = toneColor(a.tone)))
 }
 
 /** The reading of an annotation, as a bottom sheet with its source and licence. */
@@ -226,6 +246,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             } else {
                 Text(a.title, style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(a.english, style = body.copy(color = Palette.muted))
+                DecidesNote(a)
                 a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
                     Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
@@ -253,6 +274,7 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
             }
             if (!large) a.subtitle?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.faint)) }
             Text(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone)), style = body.copy(color = Palette.muted))
+            DecidesNote(a)
             a.tibetan?.let { (wylie, english) ->
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(

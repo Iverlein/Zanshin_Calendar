@@ -288,9 +288,11 @@
     <string name="brief_day_good">a lucky day</string>
     <string name="brief_day_bad">an unlucky day</string>
     <string name="brief_day_combination">the combination of weekday and mansion is the day\'s result: its named combination and its element pair agree, and outweigh every other factor</string>
-    <string name="brief_day_strongest">the two parts of the combination disagree; the strongest factor that takes a side decides</string>
+    <string name="brief_day_strongest">the two parts of the combination disagree; the strongest factor that takes a side decides: %1$s</string>
     <string name="brief_by_combination">by the combination</string>
-    <string name="brief_by_strongest">by the strongest factor</string>
+    <string name="brief_by_factor">by %1$s</string>
+    <string name="brief_decides">decides</string>
+    <string name="brief_decides_note">Decides the day\'s tone in the brief today.</string>
     <string name="brief_festival_note">The tone is the day\'s for its works; it does not weigh the merit of the festival or observance.</string>
     <string name="brief_note_tibetan">Weighed as the White Beryl and the kun phan me long say, by one rule for the day and for each work. Where the named combination of weekday and mansion and the element pair agree, the combination is the day\'s result, and what any other factor says against it is outweighed, even where the weekday and the mansion agree; it decides a work only where the element pair names it, so a lucky day keeps the date\'s and the weekday\'s prohibitions. Where the two disagree, and for every other work, the strongest factor that takes a side decides, in this order: Rāhu, the weekday, the mansion, the special days of weekday and mansion (one voice, and none when they disagree), the date, the karaṇa, the yoga and the day animal. The White Beryl weighs mixed factors by their strength, not by their number. Rāhu, the mansion and the day animal have no tone of their own and decide only the works they name; the trigram decides only works no other factor names. Outweighed factors are not shown.</string>
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>

@@ -47,6 +47,7 @@ import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DayHours
 import zanshin.core.texts.DaySummary
+import zanshin.core.texts.DayVerdict
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
 import zanshin.core.texts.family
@@ -69,7 +70,7 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
     val disputed = summary.activities.count { it.disputed }
     val dayLabel = summary.verdict?.let {
-        stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) + " · " + stringResource(byShort(it.by))
+        stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) + " · " + byShort(it)
     }
     val row = remember(summary) { summary.row() }
     val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
@@ -192,12 +193,10 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
                             style = body.copy(fontSize = 18.sp),
                         )
                         Text(
-                            stringResource(
-                                when (v.by) {
-                                    VerdictBy.COMBINATION -> R.string.brief_day_combination
-                                    VerdictBy.STRONGEST -> R.string.brief_day_strongest
-                                },
-                            ),
+                            when (v.by) {
+                                VerdictBy.COMBINATION -> stringResource(R.string.brief_day_combination)
+                                VerdictBy.STRONGEST -> stringResource(R.string.brief_day_strongest, "${v.deciding.joinToString { it.kanji }} (${v.factor.english})")
+                            },
                             style = body.copy(fontSize = 14.sp, color = Palette.muted),
                         )
                     }
@@ -357,10 +356,11 @@ private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
     }
 }
 
-/** What decided the Tibetan day's tone, in a few words for the summary line. */
-private fun byShort(by: VerdictBy): Int = when (by) {
-    VerdictBy.COMBINATION -> R.string.brief_by_combination
-    VerdictBy.STRONGEST -> R.string.brief_by_strongest
+/** What decided the Tibetan day's tone, in a few words for the summary line: the combination, or the factor by name (ROADMAP U2). */
+@Composable
+private fun byShort(v: DayVerdict): String = when (v.by) {
+    VerdictBy.COMBINATION -> stringResource(R.string.brief_by_combination)
+    VerdictBy.STRONGEST -> stringResource(R.string.brief_by_factor, v.deciding.joinToString { it.kanji })
 }
 
 /** Annotation names, each translated on tap. */
