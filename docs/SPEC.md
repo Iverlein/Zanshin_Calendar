@@ -331,9 +331,25 @@ Edward Henning, *Horary and electional astrology of the five components*
   "otherwise as box N" takes N's lists in the kinds it names nothing in; a
   box that joins two activities (crafts and haircuts, military training and
   games) is split, an entry qualified for one half counting for that half;
-  boxes 50–51 come from the second print, KP2. Averting rites, whose
-  entries all name a kind of rite, and the charts are not built. The lists' readings cite the
-  print first and Henning beside it.
+  boxes 50–51 come from the second print, KP2. The box for averting rites,
+  whose entries all name a kind of rite, and the charts are not built. The lists' readings cite the
+  print first, the White Beryl and Henning beside it.
+- **The White Beryl's chapter 34**, the important works one by one (vol. 2,
+  pp. 378–428, [sources/white-beryl-ch34.md](sources/white-beryl-ch34.md),
+  every list the app uses read on the scans), which the print's boxes
+  digest in the same order (`WhiteBerylWorks.kt`). It is joined to each
+  box: what it names plainly good is added to the box's good and taken
+  from its bad, and the other way round; what the box names and the
+  chapter does not keeps the box's reading. So the chapter settles the
+  doubled khrums of the offerings box (Pūrvabhādrapadā good,
+  Uttarabhādrapadā bad), puts back what the box's abbreviations and
+  numerals lost (khrums stod and smad, ༤ for ༦), and reverses the day
+  animals of war and dice, which the box gives the other way. Its works
+  that have no box are lists of their own: shows, hunting and theft,
+  taming horses, averting rites (which it gives plainly) and sorcery.
+  Forecasts (a birth, a prisoner, the sick, a death) are not works and
+  are not built, nor the wheels counted from the Sun's or the Moon's
+  mansion, which are moments.
 
 The lists are taken as printed, with these rules for what is doubtful:
 
@@ -351,8 +367,9 @@ The lists are taken as printed, with these rules for what is doubtful:
   where Henning left a mansion out (Citrā bad for offerings; Śatabhiṣaj good
   for journeys; Pūrvaphalgunī and Śatabhiṣaj good for controlling
   activity). A mansion the print still names in two places for one activity
-  (Uttarabhādrapadā in both halves of the offerings box; Mṛgaśiras as
-  acceptable and bad for controlling activity) is left out.
+  (Mṛgaśiras as acceptable and bad for controlling activity) is left out,
+  unless the White Beryl's chapter 34 decides it (Uttarabhādrapadā, in both
+  halves of the offerings box, is bad there).
 - Rising signs are left out, since the page shows a day and not a moment;
   Abhijit, which the Phugpa calendar does not count among the day's
   mansions; "black" years, months and days, earth-lords and the demons,
@@ -593,7 +610,8 @@ texts do not place them against the date, karaṇa and yoga.
 On 2000–2049 (18,263 days) the rule decides the tone by the combination on
 9,672 days (53 %) and by the strongest factor on the rest. The days whose
 lists run against their tone (more than twice as many works on the other
-side) are 2,140 (12 %; 2,087 before the mansions' verses were built,
+side) are 2,085 (11 %; 2,140 before the White Beryl's chapter 34 was built,
+T2.6, which changes no day's tone; 2,087 before the mansions' verses,
 T2.5); 3,892 were under an earlier rule, which let the
 special days decide and each work go to its strongest voice. A day's tone
 and its prohibitions are separate questions, and a lucky day may still
@@ -860,7 +878,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
-| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329 |
+| Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329, and its chapter 34, the works one by one, pp. 378–428 (BDRC MW2CZ8040) |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
 | Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337, 341 and 342 (the *Rdo rje gtsug lag*'s special days), with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |

@@ -29,5 +29,5 @@ Built from this chapter: the lunar dates, the weekdays, the personal
 mansions and weekdays (p. 330), the named combinations, the element pairs,
 the special days, the karaṇas and the yogas. What is still to be read is in
 the work plan (ROADMAP T2). Chapter 34, which follows, gives the results
-of the important works one by one (img. 386 ff.) and is not yet
-inventoried.
+of the important works one by one (img. 386–436): inventoried and built
+in [white-beryl-ch34.md](white-beryl-ch34.md).

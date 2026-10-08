@@ -62,7 +62,10 @@ the text, not about the app.
    good under khrums stod (24, p. 327) and to be avoided under khrums smad
    (25, pp. 327–328). So the bad ཁྲུཾད is right and the good one stands
    for ཁྲོད, khrums stod, which the box otherwise lacks; the same two
-   abbreviations are confused elsewhere in both prints.* The question as
+   abbreviations are confused elsewhere in both prints. Chapter 34's own
+   list for offerings (p. 386, read on the scan 2026-10-08) says the same:
+   «ཁྲུམས་སྟོད(༢༤) དབྱུག(༠)» good, «ཁྲུམས་སྨད(༢༥)» bad, and the app
+   follows it ([white-beryl-ch34.md](white-beryl-ch34.md)).* The question as
    it stood: KP box 6 (offerings to deities, img. 23): khrums smad (ཁྲུཾད) is
    listed among the good mansions and again among the bad. The second
    print (KP2, img. 242, [kun-phan-me-long.md](kun-phan-me-long.md)) has
