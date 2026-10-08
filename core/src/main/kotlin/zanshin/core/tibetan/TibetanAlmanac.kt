@@ -433,6 +433,64 @@ fun personalDay(birthAnimal: Animal, weekday: Weekday): PersonalDay? {
 }
 
 /**
+ * Weekday elements of the Chinese reckoning (*nag rtsis*), the White Beryl vol. 1, p. 257: Sun and
+ * Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth. Not [element], the
+ * Indian four of the combinations.
+ */
+val Weekday.fiveElement: Element
+    get() = when (this) {
+        Weekday.SUNDAY, Weekday.TUESDAY -> Element.FIRE
+        Weekday.MONDAY, Weekday.WEDNESDAY -> Element.WATER
+        Weekday.THURSDAY -> Element.WOOD
+        Weekday.FRIDAY -> Element.IRON
+        Weekday.SATURDAY -> Element.EARTH
+    }
+
+/**
+ * A person's own weekdays and mansion of the White Beryl, vol. 2, p. 338, that the birth date gives
+ * (docs/sources/personal-mansions.md, question 14): the weekday of birth (p. 379); the weekdays
+ * of one's element by the birth year's life force, which p. 330 says is reckoned as the clan's
+ * element is, own, mother, friend, child and enemy by the tables of p. 346; and the mansion of the
+ * birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning). The own weekday is WB's *rang
+ * gza'*, *bla gza'* and *dbang gza'* in one, not the birth animal's *bla gza'* of p. 330
+ * ([PersonalDay.LUCK]).
+ */
+enum class OwnDay(val wylie: String) {
+    BIRTH_WEEKDAY("skyes gza'"),
+    OWN_WEEKDAY("rang gza'"),
+    MOTHER_WEEKDAY("ma gza'"),
+    FRIEND_WEEKDAY("grogs gza'"),
+    CHILD_WEEKDAY("bu gza'"),
+    ENEMY_WEEKDAY("dgra gza'"),
+    BIRTH_MANSION("skyes skar");
+
+    val english: String get() = gloss(this)
+    val isWeekday: Boolean get() = this != BIRTH_MANSION
+}
+
+/** The element of one's own weekdays: the life force (*srog*) of the birth year (WB p. 330, «དེ་ལྟར་སྲོག་ལ་བརྩི་ཡང་འགྲེ»). */
+fun ownElement(birth: TibetanDay): Element = Forces.of(birth.yearElement, birth.yearAnimal).vitality
+
+/** What [weekday] is to [element] by the relations of the elements, as the table of WB p. 346 gives it: every weekday is one of the five. */
+fun elementWeekday(element: Element, weekday: Weekday): OwnDay = when (Forces.kinship(element, weekday.fiveElement)) {
+    Kinship.IDENTITY -> OwnDay.OWN_WEEKDAY
+    Kinship.MOTHER -> OwnDay.MOTHER_WEEKDAY
+    Kinship.FRIEND -> OwnDay.FRIEND_WEEKDAY
+    Kinship.SON -> OwnDay.CHILD_WEEKDAY
+    Kinship.ENEMY -> OwnDay.ENEMY_WEEKDAY
+}
+
+/**
+ * Which of one's own days [day] is, for someone born on [birth]: the birth weekday, the weekday's
+ * place among the element's five, and the birth mansion; weekdays first.
+ */
+fun ownDays(birth: TibetanDay, day: TibetanDay): List<OwnDay> = listOfNotNull(
+    OwnDay.BIRTH_WEEKDAY.takeIf { day.weekday == birth.weekday },
+    elementWeekday(ownElement(birth), day.weekday),
+    OwnDay.BIRTH_MANSION.takeIf { day.mansion == birth.mansion },
+)
+
+/**
  * Jupiter's nectar periods (*bdud rtsi thun mtshams*), the *kun phan me long*
  * §10 (img. 81–82; docs/sources/nectar-periods.md). Each of the twelve double
  * hours from dawn is halved and each half has a ruling planet: by day the

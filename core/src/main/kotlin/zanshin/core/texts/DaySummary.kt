@@ -13,6 +13,7 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.StarAffinity
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
 import zanshin.core.tibetan.TibetanDay
@@ -41,6 +42,15 @@ fun toneOf(r: Reading?): Tone = when {
     r.avoid.isEmpty() && r.good.isNotEmpty() -> Tone.GOOD
     r.good.isEmpty() && r.avoid.isNotEmpty() -> Tone.BAD
     else -> Tone.MIXED
+}
+
+/**
+ * The tone of several readings shown as one row (a person's roles of one weekday): theirs where
+ * those that take a side agree, mixed where they disagree, none where none takes a side.
+ */
+fun sharedTone(tones: List<Tone>): Tone {
+    val sides = tones.filter { it != Tone.NEUTRAL }.distinct()
+    return sides.singleOrNull() ?: if (sides.isEmpty()) Tone.NEUTRAL else Tone.MIXED
 }
 
 /** One annotation of the day as the summary lists it; [latin] when its name is not kanji (the Tibetan day's factors). */
@@ -254,11 +264,17 @@ data class DaySummary(
          * p. 376, which the *kun phan me long*'s rules 2–4 digest).
          *
          * [personalDay] and [personalMansions], the birth year's own weekday and mansions on the day,
-         * are listed as [personal] and not weighed: WB calls them "of particular importance" (vol. 2,
-         * p. 338), and a later reader counts them as a particular case (*dmigs bsal*), but no text
-         * found places them against the combination (SPEC §5.12).
+         * and [ownDays], the birth date's, are listed as [personal] and not weighed: WB calls them "of
+         * particular importance" (vol. 2, p. 338), and a later reader counts them as a particular case
+         * (*dmigs bsal*), but no text found places them against the combination (SPEC §5.12). The
+         * roles the day's weekday holds for the person are one entry (ROADMAP T2.19).
          */
-        fun of(day: TibetanDay, personalDay: PersonalDay? = null, personalMansions: List<PersonalMansion> = emptyList()): DaySummary {
+        fun of(
+            day: TibetanDay,
+            personalDay: PersonalDay? = null,
+            personalMansions: List<PersonalMansion> = emptyList(),
+            ownDays: List<OwnDay> = emptyList(),
+        ): DaySummary {
             fun entry(name: String, factor: DayFactor, tone: Tone, reading: Reading?) =
                 SummaryEntry(name, factor.english, tone, reading, latin = true)
             fun lucky(b: Boolean) = if (b) Tone.GOOD else Tone.BAD
@@ -351,12 +367,10 @@ data class DaySummary(
                         weight = d.standing.sumOf { weight(it.voice.rank) },
                     )
                 },
-                personal = listOfNotNull(
-                    personalDay?.let {
-                        SummaryEntry(it.english, day.weekday.english, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], latin = true)
-                    },
-                ) + personalMansions.map {
+                personal = personalWeekday(day, personalDay, ownDays) + personalMansions.map {
                     SummaryEntry(it.english, day.mansion.sanskrit, Texts.personalMansionTone(it), Texts.PERSONAL_MANSION[it], latin = true)
+                } + ownDays.filter { !it.isWeekday }.map {
+                    SummaryEntry(it.english, day.mansion.sanskrit, Texts.ownDayTone(it), Texts.OWN_DAY[it], latin = true)
                 },
                 affinity = null,
                 verdict = verdict,
@@ -365,6 +379,15 @@ data class DaySummary(
         }
 
         private const val COMBINATION_RANK = 0
+
+        /** The roles the day's weekday holds for the person, by the birth year (p. 330) and the birth date (p. 338), as one entry. */
+        private fun personalWeekday(day: TibetanDay, personalDay: PersonalDay?, ownDays: List<OwnDay>): List<SummaryEntry> {
+            val roles = listOfNotNull(
+                personalDay?.let { SummaryEntry(it.english, day.weekday.english, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], latin = true) },
+            ) + ownDays.filter { it.isWeekday }.map { SummaryEntry(it.english, day.weekday.english, Texts.ownDayTone(it), Texts.OWN_DAY[it], latin = true) }
+            return if (roles.size < 2) roles
+            else listOf(SummaryEntry(roles.joinToString(" · ") { it.kanji }, day.weekday.english, sharedTone(roles.map { it.tone }), null, latin = true))
+        }
 
         /** A factor's readings, with the activities they name good and to avoid; those they name both ways it is silent on. */
         private class Member(val entry: SummaryEntry, readings: List<Reading>) {

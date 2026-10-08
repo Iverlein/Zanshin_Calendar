@@ -23,6 +23,7 @@ import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
+import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.TibetanFestival
@@ -137,6 +138,8 @@ object Sources {
     val WHITE_BERYL_KARANAS = whiteBeryl("pp. 349–351")
     val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
+    /** A person's own weekdays and mansions: the works p. 338, the own weekday's p. 312, the element's weekdays p. 330 with the table p. 346. */
+    val WHITE_BERYL_OWN_DAYS = whiteBeryl("pp. 337–338, with p. 312 and the tables pp. 345–346")
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
     val WHITE_BERYL_MANSION_VERSES = whiteBeryl("pp. 313–328")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
@@ -162,6 +165,12 @@ object Sources {
     val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
     val WHITE_BERYL_BURNING_DATES = whiteBeryl("p. 351 and chapter 34, pp. 404, 414 and 426, with the dates in vol. 1, p. 177")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
+    /** The birth mansion as the mansion of the birth date: ch. 3, section 7, «སྐྱེས་སྐར་ངོས་འཛིན་གྱི་རྩིས». */
+    val PHUG_PA_DBYANGS_CHAR = Source(
+        "Phug pa Lhun grub rgya mtsho, Dpal g.yul las rnam par rgyal ba dbyangs 'char ba'i rgya cher 'grel pa mchog tu dga' ba'i sgra dbyangs, ch. 3",
+        "BDRC MW1NLM5184",
+        "https://library.bdrc.io/show/bdr:MW1NLM5184",
+    )
     val NOR_BU_ME_LONG = Source(
         "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
         "BDRC MW29978_8B19DD",
@@ -831,6 +840,40 @@ object Texts {
             it to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = listOf(Sources.NOR_BU_ME_LONG))
         }.toTypedArray(),
     )
+
+    /** The works WB p. 338 names good on one's birth weekday and own weekday, as p. 312 does on the own weekday alone. */
+    private val OWN_WEEKDAY_WORKS = listOf(
+        "arraying_for_battle", "contests_of_skill", "pleading_a_case", "trade", "trials_of_strength", "dice", "horse_racing", "archery", "stirring_up_strife",
+    )
+
+    /**
+     * One's own weekdays and mansion by the birth date (WB vol. 2, pp. 337–338): the birth and own
+     * weekday's works, the mother's and friend's anything (p. 330), the child's middling, the enemy's
+     * every work avoided, the birth mansion's works.
+     */
+    val OWN_DAY: Map<OwnDay, Reading> = keyed(
+        OwnDay.BIRTH_WEEKDAY to Reading(goodKeys = OWN_WEEKDAY_WORKS, source = Sources.WHITE_BERYL_OWN_DAYS),
+        OwnDay.OWN_WEEKDAY to Reading(goodKeys = OWN_WEEKDAY_WORKS, source = Sources.WHITE_BERYL_OWN_DAYS, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
+        OwnDay.MOTHER_WEEKDAY to Reading(goodKeys = listOf("anything"), source = Sources.WHITE_BERYL_OWN_DAYS, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
+        OwnDay.FRIEND_WEEKDAY to Reading(goodKeys = listOf("anything"), source = Sources.WHITE_BERYL_OWN_DAYS, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
+        OwnDay.CHILD_WEEKDAY to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = listOf(Sources.WHITE_BERYL_OWN_DAYS)),
+        OwnDay.ENEMY_WEEKDAY to Reading(avoidKeys = listOf("every_work"), source = Sources.WHITE_BERYL_OWN_DAYS),
+        OwnDay.BIRTH_MANSION to Reading(
+            goodKeys = listOf(
+                "offerings_to_deities", "serving_the_lama", "generosity", "virtuous_works", "putting_on_ornaments_and_clothes",
+                "taking_a_new_house", "planting_trees", "the_works_of_a_house",
+            ),
+            source = Sources.WHITE_BERYL_OWN_DAYS,
+            also = listOf(Sources.PHUG_PA_DBYANGS_CHAR),
+        ),
+    )
+
+    /** Lucky for the birth, own, mother and friend weekdays and the birth mansion; unlucky for the enemy weekday; none for the child's, which is middling. */
+    fun ownDayTone(d: OwnDay): Tone = when (d) {
+        OwnDay.ENEMY_WEEKDAY -> Tone.BAD
+        OwnDay.CHILD_WEEKDAY -> Tone.NEUTRAL
+        else -> Tone.GOOD
+    }
 
     /** Lucky for the bla, srog and dbang skar, which both texts call good for anything; unlucky for the other three, which they call bad. */
     fun personalMansionTone(m: PersonalMansion): Tone = when (m) {

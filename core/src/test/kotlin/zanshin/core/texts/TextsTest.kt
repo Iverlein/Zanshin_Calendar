@@ -21,6 +21,7 @@ import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
+import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.Weekday
@@ -33,6 +34,7 @@ class TextsTest {
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
+        Texts.OWN_DAY,
     ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE
 
     @Test
@@ -57,6 +59,7 @@ class TextsTest {
         assertEquals(Yoga.entries.toSet(), Texts.YOGA_TONE.keys)
         complete(Karana.entries, Texts.KARANA)
         complete(PersonalMansion.entries, Texts.PERSONAL_MANSION)
+        complete(OwnDay.entries, Texts.OWN_DAY)
         complete(Weekday.entries, Texts.WEEKDAY)
         assertEquals(30, Texts.LUNAR_DATE.size)
         assertEquals(30, Texts.HAIRCUT.size)

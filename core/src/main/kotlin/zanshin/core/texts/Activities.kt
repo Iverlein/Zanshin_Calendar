@@ -1023,6 +1023,20 @@ object Activities {
         "giving_a_daughter_away" to of(GIVING_A_CHILD),
         "expelling" to of(WAR),
         "lawsuits_at_home" to of(),
+        // A person's own weekdays and birth mansion, WB pp. 330 and 338
+        "contests_of_skill" to of(GAMES),
+        "pleading_a_case" to of(LAWSUITS),
+        "trials_of_strength" to of(GAMES),
+        "dice" to of(GAMES),
+        "archery" to of(GAMES),
+        "stirring_up_strife" to of(DISPUTES),
+        "anything" to of(EVERYTHING),
+        "every_work" to of(EVERYTHING),
+        "serving_the_lama" to of(SERVING_TEACHER),
+        "generosity" to of(GIVING_OUT),
+        "virtuous_works" to of(VIRTUE),
+        "putting_on_ornaments_and_clothes" to of(ORNAMENTS, NEW_CLOTHES),
+        "the_works_of_a_house" to of(BUILDING, HOUSE_REPAIRS),
     )
 
     /** The rokuyō's hours, by wording key. */

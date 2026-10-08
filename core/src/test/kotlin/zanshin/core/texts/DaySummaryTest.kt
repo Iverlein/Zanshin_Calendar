@@ -19,6 +19,7 @@ import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.risingSign
+import zanshin.core.tibetan.ownDays
 import zanshin.core.tibetan.personalDay
 import zanshin.core.tibetan.personalMansions
 import java.time.LocalDate
@@ -306,6 +307,29 @@ class DaySummaryTest {
         assertTrue(13 in Texts.HAIRCUT_GOOD)
     }
 
+    /** The test birth date, 1 June 1976, a Tuesday of the Fire Dragon year: its life force is earth (ROADMAP T2.19). */
+    @Test
+    fun `the roles of one weekday are one entry`() {
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        fun weekday(date: LocalDate): Pair<String, Tone> {
+            val d = TibetanCalendar.of(date)
+            val s = DaySummary.of(d, personalDay(born.yearAnimal, d.weekday), personalMansions(born.yearAnimal, d.mansion), ownDays(born, d))
+            return s.personal.first().let { it.kanji to it.tone }
+        }
+        // Sunday: the Dragon's luck day (p. 330) and fire, the mother of earth.
+        assertEquals("Luck day · Mother weekday" to Tone.GOOD, weekday(LocalDate.of(2026, 10, 4)))
+        // Monday: water, which earth overcomes.
+        assertEquals("Friend weekday" to Tone.GOOD, weekday(LocalDate.of(2026, 10, 5)))
+        // Tuesday: the weekday of birth, and fire again.
+        assertEquals("Birth weekday · Mother weekday" to Tone.GOOD, weekday(LocalDate.of(2026, 10, 6)))
+        // Thursday: the Dragon's anti day and wood, which overcomes earth: every work avoided (p. 338).
+        assertEquals("Anti day · Enemy weekday" to Tone.BAD, weekday(LocalDate.of(2026, 10, 8)))
+        // Friday: iron, the child of earth, middling, and no side.
+        assertEquals("Child weekday" to Tone.NEUTRAL, weekday(LocalDate.of(2026, 10, 9)))
+        assertEquals(Tone.MIXED, sharedTone(listOf(Tone.GOOD, Tone.NEUTRAL, Tone.BAD)))
+        assertEquals(Tone.GOOD, sharedTone(listOf(Tone.GOOD, Tone.NEUTRAL)))
+    }
+
     @Test
     fun `the person's own days are listed and not weighed`() {
         // 1 November 2026, Sunday with Ārdrā: for a Snake year Ārdrā is both the power and the slayer mansion (WB p. 330).
@@ -316,6 +340,7 @@ class DaySummaryTest {
         // A Dragon's luck day is Sunday (Rabten's table).
         assertEquals(listOf("Luck day" to "Sunday"), DaySummary.of(day, personalDay(Animal.DRAGON, day.weekday)).personal.map { it.kanji to it.english })
         // For every birth year, on every day of 2026, the tone and the works are those of the day without a birth date.
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
         var date = LocalDate.of(2026, 1, 1)
         while (date.year == 2026) {
             val d = TibetanCalendar.of(date)
@@ -328,6 +353,13 @@ class DaySummaryTest {
                 assertEquals(plain.activities, s.activities, "$date $animal")
                 assertEquals(personalMansions(animal, d.mansion).size + (if (personalDay(animal, d.weekday) != null) 1 else 0), s.personal.size)
             }
+            // The birth date's own days (T2.19) weigh nothing either; the weekday's roles are one entry.
+            val own = ownDays(born, d)
+            val s = DaySummary.of(d, personalDay(born.yearAnimal, d.weekday), personalMansions(born.yearAnimal, d.mansion), own)
+            assertEquals(plain.verdict, s.verdict, "$date born")
+            assertEquals(plain.byTone, s.byTone, "$date born")
+            assertEquals(plain.activities, s.activities, "$date born")
+            assertEquals(1 + personalMansions(born.yearAnimal, d.mansion).size + own.count { !it.isWeekday }, s.personal.size, "$date born")
             date = date.plusDays(1)
         }
     }
