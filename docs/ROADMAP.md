@@ -23,7 +23,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms | For T2.9, books only lent on archive.org |
-| 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading; E5 on the owner (D2) |
+| 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -512,7 +512,7 @@ day's place (D1).
   twelve links (not calculated) and *sme ba* (calculated, §5.11, but
   given no rank by the texts) stay out.
 
-#### E5 The 旧暦 page — S, after D2
+#### E5 The 旧暦 page — S
 
 - **Gap.** No source ranks one kind of 暦注 above another (SPEC §7.5,
   [kyureki.md](sources/kyureki.md)); the page lists both sides unweighed,
@@ -524,21 +524,22 @@ day's place (D1).
   協紀辨方書's six grades (kyureki.md) stay out: nothing ties them to the
   Japanese almanac.
 
-#### Owner decisions
+#### Owner decisions — settled 2026-10-08
 
-- **D1 An hour against the day.** KP rule 5 holds the combination period
-  above everything, so by the letter a day to avoid becomes good in an
-  hour whose sign names the work good. But every day of a month has every
-  sign (E3), so offering such days would offer every day the
-  combination's verdict forbids. Recommended: the day's place is the
-  day's weighing, and the hours say when within it; a day to avoid is
-  not offered. Otherwise: such days listed apart, "only at these hours".
-- **D2 The 旧暦 election.** Recommended: E5, unranked, as the page
-  itself is. Otherwise: the Tibetan page only.
+- **D1 An hour against the day: no.** KP rule 5 holds the combination
+  period above everything, so by the letter a day to avoid becomes good
+  in an hour whose sign names the work good. But every day of a month
+  has every sign (E3), so offering such days would offer every day the
+  combination's verdict forbids. The owner decided: the day's place is
+  the day's weighing, and the hours say when within it; a day to avoid
+  is not offered, not even "only at these hours".
+- **D2 The 旧暦 election: yes.** E5 goes ahead, unranked, as the page
+  itself is.
 
 #### The election's order
 
-E1, E2 and E3 ship together; E4 after its reading; E5 after D2. Each is
+E1, E2 and E3 ship together; E4 after its reading; E5 after E2, on its
+screen. Each is
 done when its code has tests, SPEC has it (a new §5.14 for the election,
 §10 for its screen), it is checked on the emulator in English and
 Russian, and the release build is checked before the tag (R8: the picker
