@@ -119,6 +119,42 @@ class CatalogTest {
         }
     }
 
+    /**
+     * Russian names the White Beryl's terms by its words (ROADMAP T2.17): terms it writes
+     * differently never share a name, and one word of its keeps one Russian word across
+     * the weekday-and-mansion reckonings that use it. Trigrams are left out: they are
+     * named by their image, as in English (li, fire), not by a Tibetan word.
+     */
+    @Test
+    fun `Russian names follow the White Beryl's words`() {
+        val ru = Catalog.entries("_ru")
+        val terms: List<Pair<Enum<*>, String>> = Weekday.entries.map { it to it.wylie } +
+            IndianElement.entries.map { it to it.wylie } + Mansion.entries.map { it to it.wylie } +
+            Yoga.entries.map { it to it.wylie } + Karana.entries.map { it to it.wylie } +
+            ElementPair.entries.map { it to it.wylie } + GreatCombination.entries.map { it to it.wylie } +
+            CombinationDay.entries.map { it to it.wylie } + LunarDayClass.entries.map { it to it.wylie } +
+            PersonalMansion.entries.map { it to it.wylie } + Force.entries.map { it to it.wylie }
+        // The fire pair's 'phel 'gyur is 'phel, "increase", with 'gyur, "becoming": one word.
+        val word = mapOf("'phel 'gyur" to "'phel")
+        terms.groupBy { (e, _) -> ru.getValue(glossKey(e)).lowercase() }.forEach { (name, same) ->
+            assertEquals(1, same.map { word[it.second] ?: it.second }.toSet().size, "«$name» names ${same.map { "${glossKey(it.first)} (${it.second})" }}")
+        }
+        val oneWord = mapOf(
+            "dngos grub" to ("достижени" to listOf("Yoga.SIDDHI", "ElementPair.EARTH_EARTH")),
+            "grub" to ("свершени" to listOf("GreatCombination.GRUB", "CombinationDay.GRUB_NYI", "CombinationDay.GRUB_SBYOR")),
+            "'phel" to ("возрастани" to listOf("Yoga.VRIDDHI", "ElementPair.FIRE_FIRE", "GreatCombination.PHEL", "CombinationDay.PHEL_NYI")),
+            "sreg" to ("сожжени" to listOf("ElementPair.EARTH_FIRE", "BurningDate", "reading.CombinationDay.GTAN_SPANG")),
+            "mi 'phrod" to ("несовместимост" to listOf("ElementPair.EARTH_WIND", "CombinationDay.MI_PHROD_NYI")),
+            "mi mthun" to ("разлад" to listOf("ElementPair.WATER_WIND", "CombinationDay.MI_MTHUN_NYI")),
+            "bdud rtsi" to ("нектар" to listOf("ElementPair.WATER_WATER", "GreatCombination.BDUD_RTSI")),
+            "'chi" to ("смерт" to listOf("ElementPair.FIRE_WATER", "CombinationDay.CHI_SBYOR", "GreatCombination.CHI_BDAG")),
+        )
+        for ((wylie, word) in oneWord) {
+            val (stem, keys) = word
+            keys.forEach { assertTrue(stem in ru.getValue(it).lowercase(), "$wylie: $it lacks «$stem»") }
+        }
+    }
+
     @Test
     fun `a language without a catalog falls back to English`() {
         assertEquals(english.getValue("Rokuyo.TAIAN"), Catalog.text("Rokuyo.TAIAN", Locale.forLanguageTag("xx")))
