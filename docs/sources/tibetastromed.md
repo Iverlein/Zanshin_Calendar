@@ -76,7 +76,7 @@ Each of the site's rules below held on every day compared.
 
 | Site | Its rule | WB |
 | --- | --- | --- |
-| "Burning day" (Сжигающий день: all undertakings fail) | weekday and date: Sun 12/27, Mon 11/26, Tue 10/25, Wed 3/18, Thu 6/21, Fri 2/17, Sat 7/22 | **WB's *bsreg tshes***, vol. 1, p. 179: «ཚེས་བྱུང་གཟའ་འཛོམ་བསྲེག་ཚེས་ནི། །ཉི་མ་བཅུ་གཉིས་ཉི་ཤུ་བདུན། །ཟླ་བ་བཅུ་གཅིག་ཉི་ཤུ་དྲུག …» (etext); named among what to avoid on p. 351 and in ch. 34 (pp. 404, 414, 426, 428) |
+| "Burning day" (Сжигающий день: all undertakings fail) | weekday and date: Sun 12/27, Mon 11/26, Tue 10/25, Wed 3/18, Thu 6/21, Fri 2/17, Sat 7/22 | **WB's *bsreg tshes***, vol. 1, p. 177 (img. 187), the same pairs; its reading vol. 2, p. 351, and ch. 34 pp. 404, 414, 426: read on the scan and built 2026-10-08 ([burning-dates.md](burning-dates.md)). WB's results are narrower than the site's |
 | "Lucky day" (Счастливый день) | weekday and date: Sun 10/25, Mon 15/30, Tue 7/22, Wed 8/23, Thu 14/29, Fri 5/20, Sat 3/18 | not found yet |
 | "Day of good" / "day of evil" | month and the date's animal (good: month N, the Nth animal from the mouse) | not found yet |
 | Eight classes (Восемь классов) | a direction by date only | **WB vol. 2, p. 232** (section 28): strikes and turnings by season-month and date, with the hour, direction and class (*bstan ma*, *bdud*, *ma bdud*, *gza'*, *klu*, *ma mo*, *lha*, *gnod sbyin*, *gshin rje*); fierce work good on a strike, avoided on a turning. The site's rule is not WB's |

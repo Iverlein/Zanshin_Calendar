@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates, the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org |
 | 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
@@ -201,22 +201,26 @@ answer.
 - **Done when.** The inventory is in a topic file, each entry settled;
   any new reading task is an item here.
 
-#### T2.12 The burning dates (*bsreg tshes*) — M
+#### T2.12 The burning dates (*bsreg tshes*) — built 2026-10-08 (SPEC §5.11, §5.12)
 
 - **Gap.** WB's burning dates, a weekday meeting one of two dates (vol. 1,
-  p. 179: Sunday the 12th and 27th, Monday the 11th and 26th … Saturday the
-  7th and 22nd), are named among the things to avoid on the karaṇa pages
-  (p. 351: bloodletting, moxibustion and virtuous work do not succeed) and
-  in chapter 34 (pp. 404, 414, 426, 428). The app does not have them.
-- **Work.** Read p. 179, p. 351 and the chapter 34 lines on the scan; build
-  `BurningDate` (weekday, date) with its reading and lists; place it in
-  the weighing where WB's words put it (with the special days, unless the
-  reading says otherwise, SPEC §5.12); a doubled or skipped date follows
-  the lunar date.
-- **Done when.** A vector from WB's verse (and the calendar's 2026 days as
-  a cross-check) passes; the row, its sheet and the brief show it in
-  English and Russian; SPEC §5.11–5.12; days against their tone measured
-  on 2000–2049.
+  p. 177, img. 187: Sunday the 12th and 27th, Monday the 11th and 26th …
+  Saturday the 7th and 22nd), are named among the things to avoid after
+  the karaṇas (vol. 2, p. 351: bloodletting, moxibustion and virtuous work
+  do not succeed) and in chapter 34 (pp. 404, 414, 426). The app did not
+  have them.
+- **Built.** Read on the scans into [burning-dates.md](sources/burning-dates.md);
+  `BurningDate` by the day's weekday and its own date, with WB's reading,
+  lists and remedy, a member of the special days' voice (WB's almanac
+  writes it with them, p. 177), in the special-days row and its sheet in
+  English and Russian; `BurningDateTest` against WB's verse (the vector)
+  and its number words. Over 2000–2049: 1,226 burning days, the day's tone
+  changed on 11, days whose lists run against their tone 2,082 (2,085
+  without). The calendar's 2026 days have the same pairs.
+- **Left.** WB's marked case, the burning date that begins before nightfall
+  on the day before (p. 177), needs WB's length of daylight by the Sun's
+  sign (vol. 1, ch. 8): not built; worth it only with that reckoning for
+  other uses. *rgyun sreg* (p. 351) is unidentified.
 
 #### T2.13 The strikes of the eight classes and the nāgas — L
 
@@ -311,7 +315,7 @@ deciding after the WB voices above are in, since they change the sides.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (it may add items), then the small ones T2.16, T2.17 and T2.15,
-   then T2.12, T2.14 (the owner's decision after its reading) and T2.13.
+   then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13.
 
 #### Not planned
 
@@ -332,15 +336,15 @@ deciding after the WB voices above are in, since they change the sides.
   medicine by the day's trigram (WB's *gnam sman* is by one's own year,
   vol. 1, p. 401: T4 material), its weekday groups by birth year, and one
   column only of the special days' table (WB gives both).
-
-### T3. Element colours
-
-The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
 - Anything resting on Bon texts alone (the owner, 2026-10-08): SN's six-day
   cycle for setting out, its eight classes by date, its six gods and six
   black days (*gdags kyi lha drug dang nag drug*), Bon festivals, and
   Khyung sprul's *dpyad gsum dag rtsis*, a reformed calendar arithmetic of
   its own (the calendar's «Че сум так ци»).
+
+### T3. Element colours
+
+The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
 with the pebbles of the year, month, day and hours are built (SPEC §5.9),
 and so are the personal mansions (SPEC §5.8). What is left waits on design:
 

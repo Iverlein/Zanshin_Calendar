@@ -473,6 +473,17 @@ English (§8.1), each reading citing its pages:
   with the day's sme ba, the wood-mouse day it counts from and the moved
   square; no tone, not weighed (§5.12), as it holds for a direction, not
   for the day.
+- **The burning date** (*bsreg tshes*, vol. 1, p. 177, its reading vol. 2,
+  p. 351; [burning-dates.md](sources/burning-dates.md)): the weekday
+  meeting one of its two dates, Sunday the 12th and 27th, Monday the 11th
+  and 26th, Tuesday the 10th and 25th, Wednesday the 3rd and 18th,
+  Thursday the 6th and 21st, Friday the 2nd and 17th, Saturday the 7th and
+  22nd, by the day's own weekday and date (`BurningDate`). Bloodletting,
+  moxibustion and virtuous work fail, cremation is bad, fierce work
+  favoured, with a remedy; chapter 34 adds funerals, supports and temples,
+  and life and wealth (pp. 404, 414, 426). Its tone is bad. WB's marked
+  case, a burning date that begins before nightfall on the day before
+  (p. 177), needs its length of daylight and is not counted.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -512,8 +523,9 @@ voices, so that the tone and the lists cannot go separate ways.
   (*'phrod*: the named combination, *'phrod chen*, and the element pair,
   §5.8, one voice); Rāhu, on the dates its detailed course or its course by
   month names (§5.13), the first of the *kun phan me long*'s seven; the
-  weekday; the mansion; the special days of weekday and mansion, one
-  voice; the lunar date; the karaṇa; the yoga; the day animal (the lunar
+  weekday; the mansion; the special days of weekday and mansion with the
+  burning date (§5.11), which WB's almanac writes with them (vol. 1,
+  p. 177), one voice; the lunar date; the karaṇa; the yoga; the day animal (the lunar
   date's, as §5.10's lists). The trigram is not among the seven; it ranks
   last, so its lists (§5.10) decide only a work no other voice names.
 - **A voice's tone** on the day: the named combination's is its short
@@ -537,7 +549,7 @@ voices, so that the tone and the lists cannot go separate ways.
   ([sources/mansion-verses.md](sources/mansion-verses.md)).
 - **A voice's side** on a work: what its lists name (the element pair's
   (§5.11), the weekday's verse with Henning's weekday list, the mansion's
-  reading (§5.10), each special day's, the date's verse with Henning's date
+  reading (§5.10), each special day's and the burning date's, the date's verse with Henning's date
   list and FPMT's hair-cutting day, the karaṇa's verse, the day animal's
   and the trigram's lists; Rāhu's courses; the named combination and the
   yoga carry none). A factor whose own lists name a work both ways, and a
@@ -823,6 +835,14 @@ copied:
 No text under a non-commercial or no-derivatives licence: F-Droid labels an
 app containing one with the *Non-Free Assets* anti-feature.
 
+**The White Beryl counts above every other source** (decided by the owner,
+2026-10-08): where another source disagrees with it, WB decides; where WB
+is silent, the other may stand, named as its own. **Witnesses are not
+sources:** a text read only to check a reading of WB, the Bon *snang srid
+me long* among them ([sources/README.md](sources/README.md), SN), is never
+an annotation's `Source`, and nothing that only it states is shown. No Bon
+text is a source of the app.
+
 ### 8.2 Catalog
 
 `core/.../texts/Texts.kt` holds every reading's structure as Kotlin data: a
@@ -835,14 +855,6 @@ The text itself is in a catalog per language, `core/src/main/resources/texts/`:
 `texts_<language>.properties` (`_ru`, `_zh_Hant`), UTF-8, read by `Catalog.kt`.
 Keys: `<Enum>.<NAME>` for the English name of a term (`Choku.TATSU`), with
 `.<field>` for a second one (`Weekday.SUNDAY.planet`, `Element.FIRE.inText`
-**The White Beryl counts above every other source** (decided by the owner,
-2026-10-08): where another source disagrees with it, WB decides; where WB
-is silent, the other may stand, named as its own. **Witnesses are not
-sources:** a text read only to check a reading of WB, the Bon *snang srid
-me long* among them ([sources/README.md](sources/README.md), SN), is never
-an annotation's `Source`, and nothing that only it states is shown. No Bon
-text is a source of the app.
-
 for running text); `reading.<Enum>.<NAME>` for a reading's summary;
 `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
@@ -1035,8 +1047,9 @@ canvas "Zanshin Calendar — basic design".
   Almanac and Your day, the lunar-day cycles as tappable terms, the date's
   animal (*nyi ma*) opening its earth lords and the
   trigram its goddess's reading (§5.11). Several special days are one row,
-  their dots side by side, as they are one voice in the weighing; its
-  sheet gives each reading in turn. Rāhu's courses by date and by month
+  "Special days", their dots side by side, as they are one voice in the
+  weighing; its sheet gives each reading in turn. The burning date is one
+  of them, its subtitle naming the weekday and the date that make it. Rāhu's courses by date and by month
   are one row in the same way. The day line's balloon names the 60-day
   cycle's animal the "day sign", the Lunar day section the date's animal
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is

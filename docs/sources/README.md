@@ -27,6 +27,7 @@ be read, and why, in the work plan of [ROADMAP.md](../ROADMAP.md) (T2).
 | [kun-phan-me-long.md](kun-phan-me-long.md) | The activity tables Henning translated | T2 | Every box placed and named from the OCR of the whole book, its two lists of contents and a second print (KP2), which has boxes 50–51 |
 | [white-beryl-ch33.md](white-beryl-ch33.md) | What WB chapter 33 holds, section by section | T2, T3 | Inventory from the OCR |
 | [white-beryl-ch34.md](white-beryl-ch34.md) | WB chapter 34, the 65 works one by one: inventory, compared with KP's boxes, and what it adds or decides | T2.6 | Inventory from the etext; every list the app uses read on the scan (2026-10-08); built (SPEC §5.10) |
+| [burning-dates.md](burning-dates.md) | The burning dates (*bsreg tshes*): WB's rule (vol. 1, p. 177), its reading and remedy (vol. 2, p. 351), the four works of chapter 34 that avoid them | T2.12 | Read on the scan (2026-10-08); built (SPEC §5.11, §5.12) but for WB's marked case of a date that begins before nightfall, which needs its length of daylight |
 | [tibetastromed.md](tibetastromed.md) | A Russian WB-based daily calendar compared with the app over 2026: what agrees, its errors, what it shows that the app does not, and where WB stands on each; WB's months and seasons, and which reckoning ch. 31 counts by; WB's almanac page (vol. 1, pp. 171–178) | T2.10–T2.18 | Compared on 2026-10-08; the twelve month lines and ch. 31's season passages read on the scan (2026-10-08), the other WB passages found in the etext only |
 | [kyureki.md](kyureki.md) | The 2033 leap month, the personal 三箇の悪日, Gregorian-dated festivals, 歳下食, weighing the annotations | §7 | 2033 settled; 三箇の悪日 sourced to the 簠簋内伝, checked in three printings (1632, 1800, 1919); O-Bon and the sekku's Gregorian days sourced; the lower band's own rules (受死日, 十死日, 歳下食) built; all in the app |
 | [open-questions.md](open-questions.md) | Questions about the texts for a reader of the rtsis tradition | — | Fourteen questions, all answered; of 1 the 18th and the line with རང་སྐྱེས have no reading in any source found |
@@ -65,7 +66,6 @@ in `wb/` (gitignored; see `wb/README.md`).
 | **DZ** | Smin gling lo chen Dharmaśrī (1654–1718), *'Byung rtsis man ngag zla ba'i 'od zer* (the five great clans, the five relations of each aspect) | in his *Gsung 'bum*, vol. 5 (ca), 30 ff. | BDRC MW9140 (vol. 5 = I2533, the text img. 5–64, 4800 px, open; work MW9140_5BD26B); also KD vol. 3, etext pp. 506–536, with Kun bzang blo gros's supplement *Lhan thabs rgyu skar phreng ba* from p. 537 (etext only); another print MW29569 |
 | **PL** | Phug pa Lhun grub rgya mtsho, *Dpal g.yul las rnam par rgyal ba … dbyangs 'char ba'i rgya cher 'grel pa legs par bshad pa'i 'jug ngogs mchog tu dga' ba'i sgra dbyangs* (the birth mansion, ch. 3; a person's six mansions, ch. 5) | dbu can print, 341 ff., National Library of Mongolia | BDRC MW1NLM5184 (I1NLM5184_001, 2450 px, open; KD vol. 3 pp. 218–221 = img. 312–316); also KD vol. 3, etext pp. 21–505 |
 
-## Numbering
 | **SN** | Mkhas grub Lung rtogs rgya mtsho, *Gtsug lag rtsis kyi rig pa nag rtsis snang srid me long dang 'bras rtsis bden don snying po* (Bon: the Chinese reckoning and its results, 45 works one by one). **A witness to WB only** (below) | G.yung drung bon gyi bshad sgrub 'dus sde, Khotla-Panjola (H.P.), 21 + 277 pp. | BDRC MW1KG13780 (work WA1KG13780; scans W1KG13780, open; etext IE0OPI0BF3377F, good). Nyi ma bstan 'dzin's *snang srid me long* (MW1KG89128, scans only) is unread |
 
 **SN is a witness, never a source** (the owner, 2026-10-08). It may confirm
@@ -76,6 +76,7 @@ cites WB. The same holds for any other Bon text, among them Khyung sprul's
 *dpyad gsum dag rtsis*, a reformed calendar arithmetic not used at all
 ([tibetastromed.md](tibetastromed.md)).
 
+## Numbering
 
 Mansions are numbered as in the app's `Mansion` enum and in WB's brackets:
 0 tha skar (Aśvinī) … 26 nam gru (Revatī). Weekdays as in WB's brackets:
