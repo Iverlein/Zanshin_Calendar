@@ -26,6 +26,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
+| 8 | U The Tibetan page's UX | M | Five small items: the combination as one row, the deciding factor named, the page in weighed / yours / also-today sections, the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
 
 ## Tibetan page
 
@@ -313,6 +314,28 @@ of 25 works, ranked. The app weighs every work on every day already
 voices still to come (T2.11, T2.13) change its results without changing
 it. The plan is item E below.
 
+#### T2.19 The birth weekday, the birth mansion and the element's weekdays — M
+
+- **Gap.** WB p. 338 names the birth weekday, one's own weekday (the *bla*
+  weekday, one with it: p. 346, p. 312) and the mother's, friend's and
+  enemy weekdays of one's element, and the birth mansion; the app builds
+  p. 330's days by the birth animal only. Open question 14 settled what
+  each is: the element is the birth year's life force ("applied the same
+  way", the tables pp. 345–346), the birth weekday the weekday of birth
+  (p. 379), the birth mansion the mansion of the birth date (Phug pa Lhun
+  grub rgya mtsho). The mansion of conception stays unbuilt (no source
+  defines it).
+- **Work.** Compute them from the birth date; show each in "For you" with
+  p. 338's works (the birth and own weekday: contests, trade, pleading a
+  case, races, archery; the mother's and friend's good; the enemy's every
+  work avoided, E6; the birth mansion: offerings, serving the lama,
+  giving, a new house, planting trees). Where one of them and a p. 330
+  day fall on the same weekday, one row. Not weighed (T2.3; what WB says
+  of a person's days against the day is under E, *The person's days and
+  the hour against the day*).
+- **Done when.** Vectors for the test birth date (1976-06-01);
+  `CatalogTest`; SPEC §5.8, §10.3; Russian.
+
 #### Order
 
 1. T2.1, T2.2 and T2.3 are built.
@@ -399,6 +422,86 @@ Porting the core functionality of the open-source MindBell app into Zanshin Cale
 - **Audio**: Needs a bundled bell sound (e.g., OGG/MP3) with an F-Droid compatible free license (such as Apache 2.0 or CC0).
 - **Implementation**: Avoids the deprecated MindBell background service patterns. Uses modern `AlarmManager.setExactAndAllowWhileIdle()` (or equivalent WorkManager scheduling) with a `BroadcastReceiver` to handle audio playback efficiently. Must maintain the strict `No INTERNET` policy.
 
+## UX
+
+### U. The Tibetan day page: weight made visible
+
+A review of the page against SPEC §5.12 (2026-10-08; the emulator, Kyoto,
+8 October 2026, the test birth date). The weighed readings stand in the
+Phugpa order of strength, as §5.12 sets it, but the page does not show
+what weighs what: rows that are not weighed stand inside the weighed run,
+an unweighed personal row opens the list, one voice is two rows with
+opposite dots, and nothing names the factor that decided the day. The
+brief's lists run long and say the same voices on line after line. No
+item changes a side or a tone; each changes SPEC §5.12 (*Order on the
+page*) and §10.3 with the code. U1–U3 ship together; then U4 and U5.
+
+#### U1 One row for the combination — S
+
+- **Gap.** The named combination (*'phrod chen*) and the element pair are
+  one voice (§5.12), yet two rows with their own dots: on 8 October 2026
+  *Pest* is red and Wind–Fire green, so the combination has no tone, and
+  the page does not say so. Rāhu's courses and the special days, each one
+  voice, are already one row each.
+- **Work.** One "Combination" row: both parts' dots side by side, the
+  subtitle naming both and whether they agree ("Pest · Wind–Fire: the
+  parts disagree, no tone"); its sheet gives each reading in turn, with
+  the combination table and the element grid, as the special days' sheet
+  does.
+
+#### U2 The deciding factor named — S
+
+- **Gap.** The brief's tone says "the strongest factor that takes a side
+  decides" without naming it (Thursday on 8 October 2026), while the
+  haircut row names its own ("avoid · by Thursday"). Nothing in the
+  Almanac links a row to the brief's verdict.
+- **Work.** The tone line names what decided it ("a lucky day · by
+  Thursday", "by the combination"); that row in the Almanac carries a
+  small "decides" mark.
+
+#### U3 Three sections: weighed, yours, also today — S
+
+- **Gap.** The *bla mkhyen* and the nectar periods stand between Rāhu and
+  the weekday, inside the run of weighed voices, though neither is
+  weighed. The personal day and personal mansions open the Almanac, so an
+  unweighed row is the first verdict on the page (8 October 2026: "Hostile
+  day" in red above a lucky day), while vitality and body sit apart in
+  "Your day". The nectar periods are shown three times: this row, the
+  brief's "By the hour" and the dots on the hours dial.
+- **Work.** **Almanac**: the monthly observance, then the weighed voices
+  in rank (the combination, Rāhu, weekday, mansion, special days, date,
+  karaṇa, yoga), then the haircut. **Your day**: the personal day and
+  mansions with vitality and body (and T2.19's days, E6's every-work days).
+  **Also today**: the *bla mkhyen*. The nectar row goes; the brief and
+  the dial keep the nectar periods. "Lunar day" stays as it is.
+
+#### U4 The brief grouped by the voices that carry each work — S
+
+- **Gap.** On 8 October 2026 the brief lists 65 good works, one per line,
+  and from the 25th on the same "Thursday" or "Thursday · Maghā" repeats
+  on each.
+- **Work.** Works grouped by the set of voices standing on their side,
+  each group headed by that set, its works as one wrapped run of glyphs
+  and names; groups in the order of their weight (§5.12), as the works
+  are now. Nothing outweighed is shown, as now; a work still opens its
+  workings.
+
+#### U5 The hours on the In brief row — S
+
+- **Gap.** The combination period is the one factor a text puts above the
+  day (WB p. 376, T2.4; under E, *The person's days and the hour against
+  the day*), but the In brief row gives only the day's tone; its hours
+  are one tap away, in the sheet's "By the hour". On an unlucky day the
+  hours to be accomplished are what a reader can use.
+- **Work.** The row carries the hours that run against the day's tone:
+  on an unlucky day those to be accomplished ("unlucky day ·
+  09:00–13:00 good"), on a lucky day those to be avoided; a tap on them
+  opens the hours panel at that hour. Nothing is weighed anew.
+
+Each is done when SPEC has it, `TranslationsTest` passes, and screenshots
+on the emulator of a lucky and an unlucky day, with and without a birth
+date, in English and Russian, show it.
+
 ## Election
 
 ### E. The best day for a work
@@ -439,7 +542,38 @@ fine". Not used: KP's weights of one, four and eight (the Kashmiri
 paṇḍita's, which WB p. 376 sets aside), a count of voices (open questions
 12–13), and outweighed voices, which are neither shown nor counted (§5.12). The person's own days (T2.3) are marked on the
 days they fall on and not weighed, as in the brief: no text places them
-against the combination.
+against the combination. The two WB avoids every work on take the day
+away from the person who has a birth date set (E6, D3).
+
+#### The person's days and the hour against the day
+
+What WB says on whether a person's own days or an hour outweigh the day
+(asked by the owner 2026-10-08; [personal-mansions.md](sources/personal-mansions.md),
+*Works on one's own days*; [weighing.md](sources/weighing.md)):
+
+- **A person's bad days are absolute.** On the enemy weekday of one's
+  element "every work is to be avoided" (*las kun spang*); on the death
+  mansion, the *gshed skar* (p. 330), "anything is bad" (p. 338). The
+  line before them: where weekday, date and mansion are good, "something
+  else can arise: from white bronze and good iron fly hot, burning
+  sparks"; by its place, a good day can still go wrong for one person
+  (the verse does not draw the link).
+- **A person's good days only name works.** The birth and own weekday are
+  good for contests, trade, pleading a case, races; the birth mansion for
+  offerings, giving, a new house. Nothing says one lifts a bad day.
+- **WB ranks a person's days against nothing**, neither the combination
+  nor any single factor (open question 14). Tshul khrims rgyal mtshan's
+  gloss, that they lead as the *dmigs bsal* over the general ("over a
+  treatise's general rule the particular is strong"), is not WB's and is
+  not built.
+- **The hour:** only the combination period is placed above the day: the
+  powers of all the factors are complete in it, "held highest of all"
+  (p. 376). KP's rule 2, the hour above the *nyi ma*, sets the hour
+  against the weakest of the seven only, not the day. D1 keeps both out
+  of the day's place.
+
+So a person's bad day takes the day away from that person (E6, D3); a
+person's good day and a good hour add nothing to a day's place.
 
 #### E1 The engine — M
 
@@ -545,6 +679,35 @@ done when its code has tests, SPEC has it (a new §5.14 for the election,
 Russian, and the release build is checked before the tag (R8: the picker
 names works through the catalog by their enum's class name). The store
 listing and the website name the election only once it is released.
+
+#### E6 The days WB avoids every work on, for you — S
+
+- **Gap.** "For you" lists the person's days with their dots and weighs
+  none (T2.3), so the enemy weekday and the death mansion read as one
+  unlucky row among others, though WB avoids every work on them (p. 338;
+  *The person's days and the hour against the day*, above). The death
+  mansion is already among the six personal mansions; the enemy weekday
+  by element is T2.19.
+- **D3 — settled 2026-10-08: it needs a birth date and follows WB.** With
+  no birth date set, nothing changes: the day's tone and lists are the
+  weighing's (§5.12), the same for every reader. With a birth date set,
+  on the person's enemy weekday and death mansion WB's words hold for
+  that person: every work is to be avoided (p. 338).
+- **Work.** On those days, with a birth date: "For you" says so in WB's
+  words, naming the day (enemy weekday of one's element, death mansion);
+  the In brief row says "every work to avoid, for you" beside the day's
+  tone; the brief shows no good list, which has no power for the person
+  (as outweighed voices are not shown, §5.12), and its avoid list stays;
+  the election (E1–E2) does not offer the day for any work and says why
+  on tap. The combination period is not placed against a person's days
+  by any text, so "By the hour" stays as it is (the good list hidden and
+  the hours kept: both agreed by the owner, 2026-10-08). SPEC §5.12
+  states the exception: the person's days stay unweighed except these
+  two, which WB makes absolute.
+- **Done when.** A vector of such days for the test birth date
+  (1976-06-01); `DaySummaryTest` unchanged with no birth date; the reading
+  cites p. 338; SPEC §5.12, §10.3, §5.14; Russian. The "For you" and brief
+  half needs no election; the election half ships with E1–E2.
 
 ## Localisation
 
