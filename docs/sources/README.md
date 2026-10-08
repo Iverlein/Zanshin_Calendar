@@ -66,6 +66,16 @@ in `wb/` (gitignored; see `wb/README.md`).
 | **PL** | Phug pa Lhun grub rgya mtsho, *Dpal g.yul las rnam par rgyal ba … dbyangs 'char ba'i rgya cher 'grel pa legs par bshad pa'i 'jug ngogs mchog tu dga' ba'i sgra dbyangs* (the birth mansion, ch. 3; a person's six mansions, ch. 5) | dbu can print, 341 ff., National Library of Mongolia | BDRC MW1NLM5184 (I1NLM5184_001, 2450 px, open; KD vol. 3 pp. 218–221 = img. 312–316); also KD vol. 3, etext pp. 21–505 |
 
 ## Numbering
+| **SN** | Mkhas grub Lung rtogs rgya mtsho, *Gtsug lag rtsis kyi rig pa nag rtsis snang srid me long dang 'bras rtsis bden don snying po* (Bon: the Chinese reckoning and its results, 45 works one by one). **A witness to WB only** (below) | G.yung drung bon gyi bshad sgrub 'dus sde, Khotla-Panjola (H.P.), 21 + 277 pp. | BDRC MW1KG13780 (work WA1KG13780; scans W1KG13780, open; etext IE0OPI0BF3377F, good). Nyi ma bstan 'dzin's *snang srid me long* (MW1KG89128, scans only) is unread |
+
+**SN is a witness, never a source** (the owner, 2026-10-08). It may confirm
+a reading of WB or raise a question about one, and a topic file may quote
+it for that. Nothing that only SN gives (a reading, a list, a date, a rule
+WB does not state) enters the app, its catalog or its `Sources`; the app
+cites WB. The same holds for any other Bon text, among them Khyung sprul's
+*dpyad gsum dag rtsis*, a reformed calendar arithmetic not used at all
+([tibetastromed.md](tibetastromed.md)).
+
 
 Mansions are numbered as in the app's `Mansion` enum and in WB's brackets:
 0 tha skar (Aśvinī) … 26 nam gru (Revatī). Weekdays as in WB's brackets:

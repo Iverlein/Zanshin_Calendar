@@ -70,6 +70,10 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   (SPEC §7.1).
 - **No text under a non-commercial licence** (CC BY-NC and the like): F-Droid
   would label the app *Non-Free Assets*.
+- **The White Beryl counts above every other source, and no Bon text is a
+  source** (SPEC §8.1). The Bon *snang srid me long* (`docs/sources/README.md`,
+  SN) is a witness to WB only: read it to check WB, never build or cite
+  what only it gives.
 - **No personal data in the repository**: it is public. Examples and tests use
   Kyoto or Lhasa, never the owner's location.
 - **Check a release build before tagging.** R8 renames classes; the catalog

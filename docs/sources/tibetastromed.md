@@ -91,6 +91,42 @@ Each of the site's rules below held on every day compared.
 | 11/6, "nine bad omens converge" (Нгенпа гу дзом) | a festival note | WB vol. 2, p. 226: «དཔྱིད་རའི་ཚེས་བདུན་ … འདི་ལ་ངན་པ་དགུ་འཛོམ་ཞེས» — the 7th of the first spring month, in a list of bad days by month after Rāhu's sisters. "Ten good omens" (བཟང་པོ་བཅུ) is nowhere in WB. The app's 11/6 is Rabten's "Ten Good Omens" |
 | Soul's place, left and right | men left, women right in the waxing half, the reverse in the waning | WB states the sides for the Kālacakra list (p. 303: «སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡོས», the etext's གཡོས presumably གཡས); whether they hold for the Phugpa list is to be read. WB gives the places of "horses and the like" beside each date, which the site shows as "animals" |
 
+## The site's other named sources
+
+Besides WB the site names «Нагцинан сыт мелонг» ("Зеркало Бытия") and
+«Че сум так ци» ("Три метода исследования"). Both are Bon, identified in
+BDRC's catalogue on 2026-10-08:
+
+- **«Нагцинан сыт мелонг»** is the *nag rtsis snang srid me long*, a Bon
+  compendium of the Chinese reckoning and its results. BDRC has two:
+  Mkhas grub Lung rtogs rgya mtsho's, with the *'bras rtsis bden don
+  snying po* (SN in [README.md](README.md), etext searched), and Sman ri
+  mkhan chen 22 Nyi ma bstan 'dzin's *gtsug lag rtsis kyi rig pa snang srid
+  me long las nag rtsis kyi rab tu byed pa* (MW1KG89128, scans only,
+  unread). SN is where most of what the site shows beyond WB comes from:
+  its list of contents (etext p. 223) has the people's and horses' soul
+  places, a six-day cycle for setting out (the site's six travel results),
+  the dates' results for washing the hair, the nāgas' strikes and
+  turnings, the eight classes by date (p. 243, the site's date-only rule),
+  *gnam sman* with the combination periods, and the *sa yi phung byed nag
+  mo* beside a chart of Rāhu by date (p. 244); its sme ba results match
+  the site's wording (p. 228); it has 45 works one by one, like WB's
+  chapter 34, and names the burning dates among what to avoid (pp. 238,
+  257, 261). Its etext names neither WB nor the Phugpa school; its rule
+  that the combination period outweighs every factor (p. 221) is WB's
+  (vol. 2, p. 376).
+- **«Че сум так ци»** is the *dpyad gsum dag rtsis*, "the reckoning made
+  correct by the threefold analysis" (not "three methods of
+  investigation"): some thirty tables by Khyung sprul 'Jigs med nam mkha'i
+  rdo rje (20th c.), a reformed Bon calendar arithmetic of his own, not a
+  book of readings.
+
+**How they are used here (the owner, 2026-10-08):** SN is a witness to WB
+and nothing more. It may confirm a reading of WB or raise a question
+about one; nothing that only SN gives (a reading, a list, a date, a rule)
+enters the app, and the app never cites it. The *dpyad gsum dag rtsis* is
+not used: its arithmetic is not Phugpa's.
+
 ## WB's months and seasons
 
 **Read on the scan** (2026-10-08). WB's model almanac (vol. 1, ch. 13,

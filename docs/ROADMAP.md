@@ -161,6 +161,14 @@ moves the app's arithmetic: its dates, month animals, trigram, sme ba and
 mansions are WB's and Henning's, and the calendar's mansions are wrong on
 38 days of 2026.
 
+The Bon *snang srid me long* (SN in [sources/README.md](sources/README.md)),
+where the calendar takes most of what WB lacks, is a **witness to WB
+only** (the owner, 2026-10-08): its etext is searchable, so each item reads
+it beside WB (the burning dates for T2.12, the nāgas and eight classes for
+T2.13, the hair-washing results for T2.15, the people's and horses' soul
+places for T2.16) to confirm a reading or raise a question, but nothing
+that only SN gives is built or cited, and no Bon text is a `Source`.
+
 #### T2.10 WB's months and seasons — built 2026-10-08 (SPEC §5.13, §10.3)
 
 WB's model almanac gives each Hor month a Kālacakra season and a Chinese
@@ -328,6 +336,11 @@ deciding after the WB voices above are in, since they change the sides.
 ### T3. Element colours
 
 The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
+- Anything resting on Bon texts alone (the owner, 2026-10-08): SN's six-day
+  cycle for setting out, its eight classes by date, its six gods and six
+  black days (*gdags kyi lha drug dang nag drug*), Bon festivals, and
+  Khyung sprul's *dpyad gsum dag rtsis*, a reformed calendar arithmetic of
+  its own (the calendar's «Че сум так ци»).
 with the pebbles of the year, month, day and hours are built (SPEC §5.9),
 and so are the personal mansions (SPEC §5.8). What is left waits on design:
 

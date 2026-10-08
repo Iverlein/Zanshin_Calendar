@@ -835,6 +835,14 @@ The text itself is in a catalog per language, `core/src/main/resources/texts/`:
 `texts_<language>.properties` (`_ru`, `_zh_Hant`), UTF-8, read by `Catalog.kt`.
 Keys: `<Enum>.<NAME>` for the English name of a term (`Choku.TATSU`), with
 `.<field>` for a second one (`Weekday.SUNDAY.planet`, `Element.FIRE.inText`
+**The White Beryl counts above every other source** (decided by the owner,
+2026-10-08): where another source disagrees with it, WB decides; where WB
+is silent, the other may stand, named as its own. **Witnesses are not
+sources:** a text read only to check a reading of WB, the Bon *snang srid
+me long* among them ([sources/README.md](sources/README.md), SN), is never
+an annotation's `Source`, and nothing that only it states is shown. No Bon
+text is a source of the app.
+
 for running text); `reading.<Enum>.<NAME>` for a reading's summary;
 `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
