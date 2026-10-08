@@ -55,6 +55,11 @@
     <string name="tib_mansion_subtitle">лунное созвездие: %1$s</string>
     <string name="tib_haircut">Стрижка</string>
     <string name="tib_personal_mansion_subtitle">%1$s, для вашего года рождения</string>
+    <string name="tib_for_birth_date">для вашей даты рождения</string>
+    <string name="tib_for_life_force">для жизненной силы вашего года рождения, %1$s</string>
+    <string name="tib_birth_mansion_subtitle">%1$s, созвездие дня вашего рождения</string>
+    <string name="tib_your_weekday_title">Ваш день недели</string>
+    <string name="tib_your_weekday_note">Чем этот день недели является для вас — по животному года рождения, по его жизненной силе и по дате рождения. У каждого своё толкование; ни один найденный текст не взвешивает их ни друг против друга, ни против дня.</string>
     <string name="tib_yoga_subtitle">йога: %1$s</string>
     <string name="tib_weekday_subtitle">планета: %1$s</string>
     <string name="tib_trigram_subtitle">богиня дня %1$s</string>
@@ -233,7 +238,6 @@
     <string name="brief_by_tone">По характеру</string>
     <string name="brief_for_you">Для вас</string>
     <string name="brief_birth_star">звезда рождения и звезда дня: %1$s</string>
-    <string name="brief_personal_of">%1$s, для вашего года рождения</string>
     <string name="brief_personal_not_weighed">Показано, но не взвешено. «Белый берилл» называет собственные дни недели и созвездия человека особенно важными, но ни он, ни другой найденный текст не сопоставляет их с сочетанием дня недели и созвездия; тон дня и его списки остаются такими, как взвешено выше.</string>
     <string name="brief_by_hour">По часам</string>
     <string name="brief_hours_good">Период сочетания: его используют</string>

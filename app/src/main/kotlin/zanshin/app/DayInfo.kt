@@ -16,7 +16,11 @@ import zanshin.core.kyureki.KyurekiDay
 import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.tibetan.DaySigns
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
+import zanshin.core.tibetan.OwnDay
+import zanshin.core.tibetan.ownDays
+import zanshin.core.tibetan.ownElement
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.PersonalMansion
@@ -44,6 +48,10 @@ class DayInfo private constructor(
     val personalDay: PersonalDay?,
     /** Which of the owner's personal mansions the day's mansion is, if a birth date is set: none, one, or two. */
     val personalMansions: List<PersonalMansion>,
+    /** Which of the owner's own days by the birth date this is (WB p. 338), if a birth date is set: the weekday's roles, then the birth mansion. */
+    val ownDays: List<OwnDay>,
+    /** The element of the owner's own weekdays, the birth year's life force, if a birth date is set. */
+    val ownElement: Element?,
     /** The sign of the birth year, if a birth date is set: its aspects are set against the day's, month's and year's. */
     val birthSign: Sign?,
     /** The year, month and lunar-date signs of the elemental divination for this day. */
@@ -63,6 +71,8 @@ class DayInfo private constructor(
                 rekichu = Rekichu.of(date, birth),
                 personalDay = born?.let { personalDay(it.yearAnimal, tibetan.weekday) },
                 personalMansions = born?.let { personalMansions(it.yearAnimal, tibetan.mansion) }.orEmpty(),
+                ownDays = born?.let { ownDays(it, tibetan) }.orEmpty(),
+                ownElement = born?.let { ownElement(it) },
                 birthSign = born?.let { Sign(it.yearElement, it.yearAnimal) },
                 signs = Forces.signs(tibetan),
             )

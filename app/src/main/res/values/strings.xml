@@ -72,6 +72,11 @@
     <string name="tib_haircut">Haircut</string>
     <!-- a personal mansion's row: the day's mansion, by its Sanskrit name: "Mṛgaśiras, for your birth year" -->
     <string name="tib_personal_mansion_subtitle">%1$s, for your birth year</string>
+    <string name="tib_for_birth_date">for your birth date</string>
+    <string name="tib_for_life_force">for the life force of your birth year, %1$s</string>
+    <string name="tib_birth_mansion_subtitle">%1$s, the mansion of your birth date</string>
+    <string name="tib_your_weekday_title">Your weekday</string>
+    <string name="tib_your_weekday_note">What this weekday is for you, by the animal of your birth year, by its life force and by your birth date. Each has its own reading; no text found weighs them against each other or against the day.</string>
     <!-- the yoga's English name: "yoga: support" -->
     <string name="tib_yoga_subtitle">yoga: %1$s</string>
     <!-- the weekday's reading row, by its planet: "planet: Saturn" -->
@@ -270,7 +275,6 @@
     <string name="brief_for_you">For you</string>
     <string name="brief_birth_star">birth star and day star: %1$s</string>
     <!-- the Tibetan brief's For you block: which of the day's factors is one's own, the weekday or the mansion: "Wednesday, for your birth year" -->
-    <string name="brief_personal_of">%1$s, for your birth year</string>
     <string name="brief_personal_not_weighed">Shown, not weighed. The White Beryl calls a person\'s own weekdays and mansions of particular importance, but neither it nor any other text found places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
     <!-- the Tibetan brief's By the hour block (SPEC §10.3): the day's combination periods by verdict and the nectar periods, each time opening the hours -->
     <string name="brief_by_hour">By the hour</string>

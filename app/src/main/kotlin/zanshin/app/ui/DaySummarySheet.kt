@@ -250,7 +250,7 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
                                 Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(e.tone), CircleShape))
                                 Column {
                                     Text(e.kanji, style = body.copy(fontSize = 16.sp))
-                                    Text(stringResource(R.string.brief_personal_of, e.english), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                                    Text(e.english, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                                 }
                             }
                         }

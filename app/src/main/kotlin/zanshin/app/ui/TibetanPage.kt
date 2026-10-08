@@ -54,6 +54,7 @@ import zanshin.core.texts.DayFactor
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.texts.sharedTone
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
@@ -63,6 +64,7 @@ import zanshin.core.tibetan.HourSign
 import java.time.ZoneId
 import zanshin.core.tibetan.ForceContrast
 import zanshin.core.tibetan.Forces
+import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.RahuCourse
 import zanshin.core.tibetan.RahuMove
@@ -91,7 +93,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
     // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
     var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
-    val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions) { DaySummary.of(day, info.personalDay, info.personalMansions) }
+    val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions, info.ownDays) {
+        DaySummary.of(day, info.personalDay, info.personalMansions, info.ownDays)
+    }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }
@@ -236,6 +240,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
         val yogaSubtitle = stringResource(R.string.tib_yoga_subtitle, day.yoga.english)
         val personalMansionSubtitle = stringResource(R.string.tib_personal_mansion_subtitle, day.mansion.sanskrit)
+        val forBirthDate = stringResource(R.string.tib_for_birth_date)
+        val forLifeForce = info.ownElement?.let { stringResource(R.string.tib_for_life_force, gloss(it, "inText")) }.orEmpty()
+        val birthMansionSubtitle = stringResource(R.string.tib_birth_mansion_subtitle, day.mansion.sanskrit)
+        val yourWeekdayTitle = stringResource(R.string.tib_your_weekday_title)
+        val yourWeekdayNote = stringResource(R.string.tib_your_weekday_note)
         val karanaSubtitle = stringResource(R.string.tib_karana_subtitle, day.karana.english)
         val weekdaySubtitle = stringResource(R.string.tib_weekday_subtitle, day.weekday.planet)
         val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
@@ -289,8 +298,36 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             // The festival is the headline, which opens its reading; the Almanac does not repeat it.
             if (holiday == null || holidayAnnotation == null) holidayAnnotation?.let { add(it) }
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
-            info.personalDay?.let {
-                add(Annotation(it.english, forBirthYear, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false))
+            // The roles the weekday holds for the person, by the birth year's animal (p. 330), the weekday
+            // of birth and the life force's element (p. 338): one row (ROADMAP T2.19).
+            val weekdayRoles = listOfNotNull(
+                info.personalDay?.let {
+                    Annotation(it.english, forBirthYear, if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD, Texts.PERSONAL_DAY[it], titleIsKanji = false)
+                },
+            ) + info.ownDays.filter { it.isWeekday }.map {
+                Annotation(
+                    it.english,
+                    if (it == OwnDay.BIRTH_WEEKDAY) forBirthDate else forLifeForce,
+                    Texts.ownDayTone(it),
+                    Texts.OWN_DAY[it],
+                    titleIsKanji = false,
+                    details = listOf(whiteBerylLabel to "${Ewts.toTibetan(it.wylie)} (${it.wylie})"),
+                )
+            }
+            when (weekdayRoles.size) {
+                0 -> {}
+                1 -> add(weekdayRoles.single())
+                else -> add(
+                    Annotation(
+                        yourWeekdayTitle,
+                        yourWeekdayNote,
+                        sharedTone(weekdayRoles.map { it.tone }),
+                        null,
+                        subtitle = weekdayRoles.joinToString(" · ") { it.title },
+                        titleIsKanji = false,
+                        parts = weekdayRoles,
+                    ),
+                )
             }
             info.personalMansions.forEach {
                 add(
@@ -302,6 +339,19 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         subtitle = personalMansionSubtitle,
                         titleIsKanji = false,
                         details = listOf(whiteBerylLabel to it.wylie),
+                    ),
+                )
+            }
+            info.ownDays.filter { !it.isWeekday }.forEach {
+                add(
+                    Annotation(
+                        it.english,
+                        forBirthDate,
+                        Texts.ownDayTone(it),
+                        Texts.OWN_DAY[it],
+                        subtitle = birthMansionSubtitle,
+                        titleIsKanji = false,
+                        details = listOf(whiteBerylLabel to "${Ewts.toTibetan(it.wylie)} (${it.wylie})"),
                     ),
                 )
             }
