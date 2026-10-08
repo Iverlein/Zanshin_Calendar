@@ -163,6 +163,44 @@ class CatalogTest {
         }
     }
 
+    /**
+     * SPEC §8: a text is named by its English name first, then its Tibetan
+     * script and Wylie in brackets, so that a reader can find it; several in
+     * one bracket stand apart by semicolons. Every reading that names the
+     * White Beryl gives its Tibetan title once.
+     */
+    @Test
+    fun `texts are named in English with their Tibetan and Wylie`() {
+        val tibetan = Regex("[\\u0F00-\\u0FFF]")
+        val bracket = Regex("\\(([^()]*)\\)")
+        val pair = Regex("[\\u0F00-\\u0FFF]+, [^\\u0F00-\\u0FFF]+")
+        fun check(where: String, text: String) {
+            val inBrackets = bracket.findAll(text).filter { tibetan.containsMatchIn(it.value) }.toList()
+            for (b in inBrackets) {
+                for (part in b.groupValues[1].split("; ")) assertTrue(pair.matches(part), "$where: «$part» is not «Tibetan, Wylie»")
+                assertTrue(b.range.first >= 2 && text[b.range.first - 1] == ' ' && !tibetan.matches(text[b.range.first - 2].toString()), "$where: no name before ${b.value}")
+            }
+            val outside = inBrackets.fold(text) { t, b -> t.replace(b.value, "") }
+            assertTrue(!tibetan.containsMatchIn(outside), "$where: Tibetan script outside a bracket")
+            for (wylie in listOf("kun phan me long", "dbyangs 'char", "gtsug lag", "zla ba'i 'od zer", "bai DUr", "snang brgyad", "mtshan brjod", "gzungs bsdus", "tog gzungs")) {
+                assertTrue(wylie !in outside, "$where: «$wylie» without its Tibetan")
+            }
+        }
+        val dir = File("src/main/resources/texts")
+        val suffixes = listOf("") + dir.listFiles().orEmpty().mapNotNull { Regex("texts(_.+)\\.properties").matchEntire(it.name)?.groupValues?.get(1) }
+        for (suffix in suffixes) {
+            for ((k, v) in Catalog.entries(suffix)) {
+                check("texts$suffix $k", v)
+                if (Regex("White Beryl|берилл").containsMatchIn(v)) assertTrue("bai DUr dkar po" in v, "texts$suffix $k: the White Beryl without its Tibetan title")
+            }
+        }
+        val sources = Sources::class.java.declaredMethods
+            .filter { it.returnType == Source::class.java && it.parameterCount == 0 }
+            .map { it.isAccessible = true; it.invoke(Sources) as Source }
+        assertTrue(sources.size > 30)
+        for (s in sources) check("source ${s.publisher}", s.title)
+    }
+
     @Test
     fun `a language without a catalog falls back to English`() {
         assertEquals(english.getValue("Rokuyo.TAIAN"), Catalog.text("Rokuyo.TAIAN", Locale.forLanguageTag("xx")))

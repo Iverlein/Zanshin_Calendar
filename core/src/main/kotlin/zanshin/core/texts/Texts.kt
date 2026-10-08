@@ -78,7 +78,14 @@ data class Reading(
 private fun <E : Enum<E>> keyed(vararg entries: Pair<E, Reading>): Map<E, Reading> =
     entries.associate { (e, r) -> e to r.copy(key = "reading.${glossKey(e)}") }
 
+/**
+ * Sources name a text by its English name first, then its title in Tibetan
+ * script and in Wylie, in brackets (SPEC §8): the Wylie as BDRC catalogues
+ * it, so that the text can be found there.
+ */
 object Sources {
+    private const val WHITE_BERYL = "The White Beryl (ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻཌཱུར་དཀར་པོའི་དོ་ཤལ, Phug lugs rtsis kyi legs bshad mkhas pa'i mgul rgyan bai DUr dkar po'i do shal)"
+    private const val KUN_PHAN_ME_LONG_TITLE = "The Stainless All-Benefiting Mirror (འབྲས་རྩིས་བཻ་དཀར་དགོངས་དོན་དྲི་མེད་ཀུན་ཕན་མེ་ལོང, 'Bras rtsis bai dkar dgongs don dri med kun phan me long)"
     val TODAN_ROKUYO = Source("こよみ博物館「六曜」", "株式会社トーダン (Todan)", "https://www.todan.co.jp/koyomi_museum/basic/rekichu/6.html")
     val TODAN_CHOKU = Source("こよみ博物館「十二直」", "株式会社トーダン (Todan)", "https://www.todan.co.jp/koyomi_museum/basic/rekichu/12.html")
     val TODAN_SHUKU = Source("こよみ博物館「二十八宿」", "株式会社トーダン (Todan)", "https://www.todan.co.jp/koyomi_museum/basic/rekichu/28.html")
@@ -98,20 +105,20 @@ object Sources {
     val WP_OBON = Source("お盆", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/お盆")
     /** The 三箇の悪日 by birth year: the classical text, read on the NDL scan, and koyomi8's table of it. */
     val FUKI_NAIDEN = Source(
-        "『三國相傳陰陽輨轄簠簋内傳金烏玉兎集』巻上「三箇悪日」, 田中太右衛門, 1919",
+        "The Hoki Naiden, Collection of the Golden Crow and the Jade Hare (三國相傳陰陽輨轄簠簋内傳金烏玉兎集, Sangoku sōden on'yō kankatsu hoki naiden kin'u gyokuto shū), vol. 1,「三箇悪日」, 田中太右衛門, 1919",
         "国立国会図書館デジタルコレクション (NDL)",
         "https://dl.ndl.go.jp/pid/1911335/1/20",
     )
     /** 歳下食 by the year's branch, a second witness to Wikipedia's table, read on the NDL scan. */
     val DOKUSEN_EKIGAKU = Source(
-        "開運館 編『独占易学全書』「歳下食日」, 又間精華堂, 大阪 1901, p. 54",
+        "The Complete Book of Divination (独占易学全書, Dokusen ekigaku zensho), ed. 開運館,「歳下食日」, 又間精華堂, Osaka 1901, p. 54",
         "国立国会図書館デジタルコレクション (NDL)",
         "https://dl.ndl.go.jp/pid/760758/1/29",
     )
     val KOYOMI8_GEDAN = Source("暦注の説明（その３）・下段について", "こよみのページ (koyomi8.com)", "https://koyomi8.com/sub/rekicyuu_doc03.html")
-    val KB_TORA = Source("「寅の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/寅の日")
-    val KB_MI = Source("「巳の日」 精選版 日本国語大辞典", "Kotobank", "https://kotobank.jp/word/巳の日")
-    val KB_KINOENE = Source("「甲子」 日本大百科全書・世界大百科事典", "Kotobank", "https://kotobank.jp/word/甲子")
+    val KB_TORA = Source("「寅の日」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典, Seisenban Nihon kokugo daijiten)", "Kotobank", "https://kotobank.jp/word/寅の日")
+    val KB_MI = Source("「巳の日」, in the Great Dictionary of the Japanese Language, Selected Edition (精選版 日本国語大辞典, Seisenban Nihon kokugo daijiten)", "Kotobank", "https://kotobank.jp/word/巳の日")
+    val KB_KINOENE = Source("「甲子」, in the Encyclopedia Nipponica (日本大百科全書, Nihon daihyakka zensho) and the World Encyclopedia (世界大百科事典, Sekai daihyakka jiten)", "Kotobank", "https://kotobank.jp/word/甲子")
     val NAOJ_SEKKU = Source("暦Wiki「節句」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C0E1B6E7.html")
     val NAOJ_JUSANYA = Source("暦Wiki「中秋の名月とは/十三夜」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C3E6BDA9A4CECCBEB7EEA4C8A4CF2FBDBDBBB0CCEB.html")
     val NAOJ_ZASSETSU = Source("暦Wiki「雑節とは？」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html")
@@ -122,14 +129,15 @@ object Sources {
     )
     val RABTEN = Source("Tibetan Calendar 2026, Fire-Horse Year 2153", "Edition Rabten", "https://www.rabten.eu/downloads/calendarEN.pdf")
     val WHITE_BERYL_PEBBLES = Source(
-        "Vaiḍūrya dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, ff. 248b–254a and 295b–299a, with Lo chen " +
-            "Dharmaśrī's Moonbeams, ff. 28a/b and 31b–32a; the four aspects ff. 156a/b, 158a",
+        "$WHITE_BERYL, Sde srid Sangs rgyas rgya mtsho, ff. 248b–254a and 295b–299a, with Lo chen Dharmaśrī's " +
+            "Moonbeams (འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར, 'Byung rtsis man ngag zla ba'i 'od zer), ff. 28a/b and 31b–32a; " +
+            "the four aspects ff. 156a/b, 158a",
         "BDRC W1KG12714",
         "https://library.bdrc.io/show/bdr:MW1KG12714",
     )
     /** The White Beryl, 1996 edition; [pages] names the section, the pages are the printed ones (chapter 33 in vol. 2). */
     private fun whiteBeryl(pages: String, volume: Int = 2) = Source(
-        "Phug lugs rtsis kyi legs bshad bai DUr dkar po (the White Beryl), Sde srid Sangs rgyas rgya mtsho, 1685; " +
+        "$WHITE_BERYL, Sde srid Sangs rgyas rgya mtsho, 1685; " +
             "Krung go'i bod kyi shes rig dpe skrun khang, Beijing 1996, vol. $volume, $pages",
         "BDRC MW2CZ8040",
         "https://library.bdrc.io/show/bdr:MW2CZ8040",
@@ -146,15 +154,52 @@ object Sources {
     /** Chapter 34, the important works one by one, whose lists the kun phan me long's boxes digest (SPEC §5.10). */
     val WHITE_BERYL_WORKS = whiteBeryl("pp. 378–428")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
-    val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's bla mkhyen p. 180 and the day's sme ba p. 192")
+    val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's bla mkhyen p. 180, the remedy's texts in full p. 189 and the day's sme ba p. 192")
+    /** The five texts the bla mkhyen's remedy names (WB vol. 2, p. 180), in one print of the Collected Dhāraṇīs. */
+    val GZUNGS_BSDUS = Source(
+        "The Collected Dhāraṇīs (གཟུངས་བསྡུས, gzungs bsdus), also titled A Garland of Wish-Fulfilling Jewels, the Cherished Essence of the Ocean of Sūtra and Tantra " +
+            "(མདོ་རྒྱུད་གསུང་རབ་རྒྱ་མཚོའི་སྙིང་པོ་གཅེས་པར་བཏུས་པ་འདོད་འབྱུང་ནོར་བུའི་ཕྲེང་བ, Mdo rgyud gsung rab rgya mtsho'i snying po gces par btus pa 'dod 'byung nor bu'i phreng ba), " +
+            "Dkon mchog lha bris, Delhi 1994: with Reciting the Names of Mañjuśrī (part ka), the White Parasol (ca), the Ratnaketu Dhāraṇī (nya) " +
+            "and the Eight Appearances of Heaven and Earth (po)",
+        "BDRC MW1KG5988",
+        "https://library.bdrc.io/show/bdr:MW1KG5988",
+    )
+    val SNANG_BRGYAD = Source(
+        "The Sūtra of the Eight Appearances of Heaven and Earth (འཕགས་པ་གནམ་ས་སྣང་བརྒྱད་ཅེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ, " +
+            "'Phags pa gnam sa snang brgyad ces bya ba theg pa chen po'i mdo), in the Collected Dhāraṇīs, Delhi 1994, part po",
+        "BDRC MW1KG5988_508E3D",
+        "https://library.bdrc.io/show/bdr:MW1KG5988_508E3D",
+    )
+    val GDUGS_DKAR = Source(
+        "The Supreme Accomplishment of Invincible Averting, Sitātapatrā Born from the Uṣṇīṣa of the Tathāgata " +
+            "(འཕགས་པ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནས་བྱུང་བའི་གདུགས་དཀར་པོ་ཅན་གཞན་གྱིས་མི་ཐུབ་པ་ཕྱིར་ཟློག་པ་ཆེན་མོ་མཆོག་ཏུ་གྲུབ་པ, " +
+            "'Phags pa de bzhin gshegs pa'i gtsug tor nas byung ba'i gdugs dkar po can gzhan gyis mi thub pa phyir zlog pa chen mo mchog tu grub pa), Toh 591",
+        "84000",
+        "https://84000.co/translation/toh591",
+    )
+    val MTSHAN_BRJOD = Source(
+        "Reciting the Names of Mañjuśrī (འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པ, 'Phags pa 'jam dpal gyi mtshan yang dag par brjod pa), Toh 360",
+        "84000",
+        "https://84000.co/translation/toh360",
+    )
+    val TOG_GZUNGS = Source(
+        "The Ratnaketu Dhāraṇī (འཕགས་པ་འདུས་པ་ཆེན་པོ་རིན་པོ་ཆེ་ཏོག་གི་གཟུངས་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ, " +
+            "'Phags pa 'dus pa chen po rin po che tog gi gzungs zhes bya ba theg pa chen po'i mdo), Toh 138",
+        "84000",
+        "https://84000.co/translation/toh138",
+    )
     /** Blo bzang sbyin pa's account of the day's sme ba, which way it counts and from which wood-mouse day (docs/sources/earth-lords.md). */
     val BLO_BZANG_SBYIN_PA_DAY_SME_BA = Source(
-        "Blo bzang sbyin pa, Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog, in his Gsung 'bum, Kan su'u mi rigs dpe skrun khang, Lanzhou 2003, vol. 3",
+        "Blo bzang sbyin pa, A Flower Offered to Mañjughoṣa, an Entry to the Chinese Reckoning " +
+            "(ཙི་ནའི་རྩིས་ལ་འཇུག་པའི་ཡི་གེ་འཇམ་དབྱངས་མཆོད་པའི་མེ་ཏོག, Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog), " +
+            "in his Collected Works (གསུང་འབུམ, gsung 'bum), Kan su'u mi rigs dpe skrun khang, Lanzhou 2003, vol. 3",
         "BDRC MW25151_4E0A69",
         "https://library.bdrc.io/show/bdr:MW25151_4E0A69",
     )
     val MDO_KHAMS_STOD_DAY_SME_BA = Source(
-        "Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng, vol. 10, Bod ljongs dpe rnying dpe skrun khang, Lhasa 2012",
+        "A Garland of Nectar Drops, the Essence of the Words of the Learned and Accomplished of Upper Dokham " +
+            "(ཡུལ་མདོ་ཁམས་སྟོད་ཀྱི་མཁས་གྲུབ་རྣམ་པའི་གསུང་བཅུད་བདུད་རྩིའི་ཐིགས་ཕྲེང, Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng), " +
+            "vol. 10, Bod ljongs dpe rnying dpe skrun khang, Lhasa 2012",
         "BDRC MW1PD152297",
         "https://library.bdrc.io/show/bdr:MW1PD152297",
     )
@@ -167,12 +212,16 @@ object Sources {
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
     /** The birth mansion as the mansion of the birth date: ch. 3, section 7, «སྐྱེས་སྐར་ངོས་འཛིན་གྱི་རྩིས». */
     val PHUG_PA_DBYANGS_CHAR = Source(
-        "Phug pa Lhun grub rgya mtsho, Dpal g.yul las rnam par rgyal ba dbyangs 'char ba'i rgya cher 'grel pa mchog tu dga' ba'i sgra dbyangs, ch. 3",
+        "Phug pa Lhun grub rgya mtsho, The Sound of Supreme Joy, an Extensive Commentary on the Glorious Svarodaya, Victorious in Battle " +
+            "(དཔལ་གཡུལ་ལས་རྣམ་པར་རྒྱལ་བ་དབྱངས་འཆར་བའི་རྒྱ་ཆེར་འགྲེལ་པ་མཆོག་ཏུ་དགའ་བའི་སྒྲ་དབྱངས, " +
+            "Dpal g.yul las rnam par rgyal ba dbyangs 'char ba'i rgya cher 'grel pa mchog tu dga' ba'i sgra dbyangs), ch. 3",
         "BDRC MW1NLM5184",
         "https://library.bdrc.io/show/bdr:MW1NLM5184",
     )
     val NOR_BU_ME_LONG = Source(
-        "'Bras rtsis rab gsal nor bu'i me long, in Dpal ldan sa skya pa'i gsung rab, vol. 7, Mi rigs dpe skrun khang, Beijing 2004, p. 64",
+        "The Jewel Mirror That Makes Elemental Divination Clear (འབྲས་རྩིས་རབ་གསལ་ནོར་བུའི་མེ་ལོང, 'Bras rtsis rab gsal nor bu'i me long), " +
+            "in The Scriptures of the Glorious Sakyapas (དཔལ་ལྡན་ས་སྐྱ་པའི་གསུང་རབ, Dpal ldan sa skya pa'i gsung rab), vol. 7, " +
+            "Mi rigs dpe skrun khang, Beijing 2004, p. 64",
         "BDRC MW29978_8B19DD",
         "https://library.bdrc.io/show/bdr:MW29978_8B19DD",
     )
@@ -182,34 +231,35 @@ object Sources {
     val HENNING_ELECTIONAL = Source("Horary and electional astrology of the five components", "Edward Henning", "http://www.kalacakra.org/calendar/tibast03.htm")
     /** The print Henning translated the activity lists from; his doubled mansions are read on it (SPEC §5.10). */
     val KUN_PHAN_ME_LONG = Source(
-        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the activity tables (img. 21–65)",
+        "$KUN_PHAN_ME_LONG_TITLE, Mtho las dgon print, the activity tables (img. 21–65)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     /** The same print's chart of Rāhu's general course by date, the White Beryl's grouped by direction (§7, img. 78). */
     val KUN_PHAN_ME_LONG_DUS_SBYOR = Source(
-        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the sign rising in each hour by month (img. 79–80)",
+        "$KUN_PHAN_ME_LONG_TITLE, Mtho las dgon print, the sign rising in each hour by month (img. 79–80)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     val KUN_PHAN_ME_LONG_NECTAR = Source(
-        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Jupiter's nectar periods by day and by night (img. 81–82)",
+        "$KUN_PHAN_ME_LONG_TITLE, Mtho las dgon print, Jupiter's nectar periods by day and by night (img. 81–82)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     val KUN_PHAN_ME_LONG_RAHU = Source(
-        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, Rāhu's course by date (img. 78)",
+        "$KUN_PHAN_ME_LONG_TITLE, Mtho las dgon print, Rāhu's course by date (img. 78)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     /** The same print's chart of the day's earth lords: where each sits, the hearth god, the witnessing earth lord (§16, img. 103). */
     val KUN_PHAN_ME_LONG_EARTH_LORDS = Source(
-        "'Bras rtsis bai dkar dgongs don dri med kun phan me long, Mtho las dgon print, the earth lords of the day (img. 103)",
+        "$KUN_PHAN_ME_LONG_TITLE, Mtho las dgon print, the earth lords of the day (img. 103)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
     val LOTSAWA_TENTH = Source(
-        "A Prayer Invoking the Benefits of the Festival of the Tenth Day, by Rigdzin Jigme Lingpa, tr. Rigpa Translations, 2013",
+        "A Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu'i phan yon gsol 'debs), " +
+            "by Rigdzin Jigme Lingpa, tr. Rigpa Translations, 2013",
         "Lotsawa House",
         "https://www.lotsawahouse.org/tibetan-masters/jigme-lingpa/benefits-of-the-tenth-day",
     )
@@ -589,7 +639,10 @@ object Texts {
                 "funeral_rites", "taking_in_a_dog", "setting_up_a_gate", "building_a_hearth", "war", "robbery",
             ),
             source = Sources.WHITE_BERYL_BLA_MKHYEN,
-            also = listOf(Sources.BLO_BZANG_SBYIN_PA_DAY_SME_BA, Sources.MDO_KHAMS_STOD_DAY_SME_BA),
+            also = listOf(
+                Sources.GZUNGS_BSDUS, Sources.GDUGS_DKAR, Sources.SNANG_BRGYAD, Sources.MTSHAN_BRJOD, Sources.TOG_GZUNGS,
+                Sources.BLO_BZANG_SBYIN_PA_DAY_SME_BA, Sources.MDO_KHAMS_STOD_DAY_SME_BA,
+            ),
             key = "reading.BlaMkhyen", arg = glossKey(d),
         )
     }
