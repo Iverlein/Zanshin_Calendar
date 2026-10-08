@@ -179,11 +179,13 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                             ),
                         )
                     }
-                    // The nectar periods: a dot inside the combination ring at the middle of each clock hour.
+                    // The nectar periods: a dot on the combination ring at the middle of each clock hour,
+                    // on the band itself, so that none covers the selected hour's time in the middle.
                     for (h in nectar) {
                         val a = Math.toRadians((startAngle((5 * 60 + h * 60 + 30) % 1440)).toDouble())
-                        val r = periodRadius - outerWidth / 2f - gap * 2.5f
-                        drawCircle(Palette.saffron, radius = gap * 1.6f, center = Offset(center.x + (r * cos(a)).toFloat(), center.y + (r * sin(a)).toFloat()))
+                        val dot = Offset(center.x + (periodRadius * cos(a)).toFloat(), center.y + (periodRadius * sin(a)).toFloat())
+                        drawCircle(Palette.surface, radius = gap * 2.3f, center = dot)
+                        drawCircle(Palette.saffron, radius = gap * 1.6f, center = dot)
                     }
                     // The present moment, on today's page.
                     nowMinute?.let { m ->
