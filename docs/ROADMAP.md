@@ -23,8 +23,9 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the soul's sides, Russian terms | For T2.9, books only lent on archive.org |
-| 5 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
-| 6 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
+| 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading; E5 on the owner (D2) |
+| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 
 ## Tibetan page
 
@@ -299,12 +300,13 @@ answer.
 - **Done when.** `CatalogTest` and `TranslationsTest` pass; the Russian
   read-through (L3) sees the new words.
 
-#### T2.18 Election by activity — not planned until T2.10–T2.13
+#### T2.18 Election by activity — planned as E
 
 The calendar's "choice of time" lists a month's good and bad days for one
 of 25 works, ranked. The app weighs every work on every day already
-(SPEC §5.12); a month view for one work is a display of that, worth
-deciding after the WB voices above are in, since they change the sides.
+(SPEC §5.12); the election reads that weighing across days, so the WB
+voices still to come (T2.11, T2.13) change its results without changing
+it. The plan is item E below.
 
 #### Order
 
@@ -391,6 +393,152 @@ Porting the core functionality of the open-source MindBell app into Zanshin Cale
 - **Periodically Sounding Bell**: A background chime that rings at either fixed intervals or randomized intervals (matching MindBell's original functions, ringing within an active daytime window).
 - **Audio**: Needs a bundled bell sound (e.g., OGG/MP3) with an F-Droid compatible free license (such as Apache 2.0 or CC0).
 - **Implementation**: Avoids the deprecated MindBell background service patterns. Uses modern `AlarmManager.setExactAndAllowWhileIdle()` (or equivalent WorkManager scheduling) with a `BroadcastReceiver` to handle audio playback efficiently. Must maintain the strict `No INTERNET` policy.
+
+## Election
+
+### E. The best day for a work
+
+The user picks a work (a wedding, a haircut, setting out) and a span of
+days; the app lists the days the weighing makes good for it, best first,
+each with the factor that decides it, and the hours within it. No rule of
+weighing is new: each day is weighed exactly as its page weighs it (SPEC
+§5.12), and the election only orders the days. What the day page says of
+a work and what the election says of it can therefore never differ, and
+every voice built later (T2.11, T2.13) reaches the election by itself.
+
+**The order, and what in it is sourced.** The side a work takes on a day
+is the texts' (§5.12). The good days are ordered by the order of strength
+the texts give, as far as it goes, and by the app's convention only where
+it stops:
+
+1. Days on which the combination of weekday and mansion names the work
+   good (its element pair's list): the combination is the result, "even
+   when the planet and the mansion are each good" (WB vol. 2, p. 333).
+2. Then by the strongest voice that names it good, in the Phugpa order of
+   strength (KP rules 2–4, WB vol. 2, p. 376): Rāhu, the weekday, the
+   mansion, the special days, the date, the karaṇa, the yoga, the day
+   animal, the trigram. A work the weekday makes good ranks above one
+   only the date makes good.
+3. Within one rank, a day whose combination is lucky before one whose
+   combination is unlucky or has no tone. The combination's tone decides
+   no work it does not name (§5.12; the owner, 2026-10-06), but WB p. 333
+   makes it the result of the day, so it may order days that already
+   stand on one side.
+4. Within that, the sum of the standing voices' weights, ten for the
+   combination down to one for the trigram: the app's convention, the
+   one the In brief row already uses (§5.12), and the screen says so.
+5. Then the earlier day.
+
+Days on which no voice names the work are blank, never "neutral, so
+fine". Not used: KP's weights of one, four and eight (the Kashmiri
+paṇḍita's, which WB p. 376 sets aside), a count of voices (open questions
+12–13), and outweighed voices, which are neither shown nor counted (§5.12). The person's own days (T2.3) are marked on the
+days they fall on and not weighed, as in the brief: no text places them
+against the combination.
+
+#### E1 The engine — M
+
+- **Work.** `Election` in `core/.../texts/` beside `DaySummary`: for a
+  work and a span, one `DaySummary.of(day)` per Tibetan day (a doubled
+  date twice, a skipped one not at all, as `TibetanCalendar.monthOf`), the
+  side from `sideOf`, the key above; each result keeps the day, its side,
+  what decided it (combination or the strongest voice and its rank), the
+  combination's tone, the weight and the standing voices. A span runs
+  from the shown day up to twelve months, within the date picker's
+  1900–2100. The works offered are those some list names, grouped by
+  `ActivityFamily`.
+- **Tests.** On 2000–2049, for every work, the election's side equals
+  `DaySummary.sideOf` day by day; the key's order holds (no day decided
+  by a weaker voice before one decided by a stronger); a ranked vector
+  for October 2026 for haircuts, weddings and setting out.
+- **Witness.** The same three works against the calendar's October 2026
+  election ([tibetastromed.md](sources/tibetastromed.md): haircuts on all
+  7 of its days, weddings 11 of 12, setting out 11 of 14), each
+  difference named by the WB reading behind it, in tibetastromed.md. The
+  calendar is a witness, not a source; nothing is copied from it.
+- **Cost.** A year is about 380 day summaries: measured on the emulator,
+  computed off the main thread and kept per work and span.
+
+#### E2 The screen — M
+
+- **Entry.** A menu item under the two calendars ("Choose a day"); and
+  each work in the day in brief and in a reading's lists opens the
+  election for that work from the shown day.
+- **Picking a work.** The families with their glyphs (§10.7), each
+  opening its works; a search over the works' names in the app's
+  language.
+- **The result.** The span (this month, three months, twelve months);
+  the days as a grid, the haircut sheet's (`HaircutGrid`, generalised to
+  any work, so one grid serves both): green, red, blank; under it the
+  best days, each with its civil and Tibetan date, what decides it ("by
+  the combination", "by Wednesday"), the voices standing and the "For
+  you" mark. A day opens its workings, as a work's row in the brief
+  does, and from there its day page. The days to avoid are red in the
+  grid and say why on tap; they get no list of their own.
+- **Done when.** English and Russian strings, `TranslationsTest` and
+  `CatalogTest` pass; the haircut sheet unchanged to the eye.
+
+#### E3 The hours of the chosen days — S
+
+The combination period (§5.13) follows the month and the hour only (KP
+§9: the month's sign at daybreak, one sign on each hour): every day of a
+Tibetan month has the same periods at the same clock hours. It chooses
+the hour, never the day. The screen gives the work's hours once per
+Tibetan month in the span, not per day: the periods whose sign's reading
+(WB vol. 2, pp. 371–376, `Texts.DUS_SBYOR`) names the work good, and
+those that name it to avoid; and per listed day the nectar periods (by
+weekday, §5.13) where their reading names the work. Hours do not move a
+day's place (D1).
+
+#### E4 The works' own rising signs — M reading, then S
+
+- **Gap.** WB's chapter 34 gives most works their rising signs (naming,
+  clothes, the new home, the hearth, shows, sewing, storehouses,
+  banners …: [white-beryl-ch34.md](sources/white-beryl-ch34.md),
+  *Inventory*), and KP's boxes carry them; [kp-activities.md](sources/kp-activities.md)
+  lists them as not calculated. Since the combination period was built
+  the app has the sign rising in each hour, so they are calculable.
+- **Work.** Read each work's rising signs on the scans (I1KG12907, img.
+  386–436), KP's boxes as witness, into white-beryl-ch34.md; build them as
+  the work's own hours, which stand above the sign's general reading for
+  that work as its particular case (WB p. 376: «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»).
+  E3 and the hours panel show them.
+- **Done when.** A vector from the text; SPEC §5.13. The same lists'
+  twelve links (not calculated) and *sme ba* (calculated, §5.11, but
+  given no rank by the texts) stay out.
+
+#### E5 The 旧暦 page — S, after D2
+
+- **Gap.** No source ranks one kind of 暦注 above another (SPEC §7.5,
+  [kyureki.md](sources/kyureki.md)); the page lists both sides unweighed,
+  only the lower band's own rules setting some aside.
+- **Work.** The same screen on the 旧暦 page: the days on which some
+  annotation names the work good and none, after the lower band's rules,
+  names it to avoid, and the disputed days apart, in date order, with no
+  "best" and a sentence that the almanac gives no order. The Qing
+  協紀辨方書's six grades (kyureki.md) stay out: nothing ties them to the
+  Japanese almanac.
+
+#### Owner decisions
+
+- **D1 An hour against the day.** KP rule 5 holds the combination period
+  above everything, so by the letter a day to avoid becomes good in an
+  hour whose sign names the work good. But every day of a month has every
+  sign (E3), so offering such days would offer every day the
+  combination's verdict forbids. Recommended: the day's place is the
+  day's weighing, and the hours say when within it; a day to avoid is
+  not offered. Otherwise: such days listed apart, "only at these hours".
+- **D2 The 旧暦 election.** Recommended: E5, unranked, as the page
+  itself is. Otherwise: the Tibetan page only.
+
+#### The election's order
+
+E1, E2 and E3 ship together; E4 after its reading; E5 after D2. Each is
+done when its code has tests, SPEC has it (a new §5.14 for the election,
+§10 for its screen), it is checked on the emulator in English and
+Russian, and the release build is checked before the tag (R8: the picker
+names works through the catalog by their enum's class name). The store
+listing and the website name the election only once it is released.
 
 ## Localisation
 
