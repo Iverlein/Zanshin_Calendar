@@ -280,6 +280,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val gtsugLagDaySubtitle = stringResource(R.string.tib_gtsug_lag_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val specialDaysTitle = stringResource(R.string.tib_special_days_title)
         val specialDaysNote = stringResource(R.string.tib_special_days_note)
+        val burningDateSubtitle = stringResource(R.string.tib_burning_date_subtitle, "${day.weekday.english} + $lunarDateTitle")
         val rahuCourses = stringResource(R.string.tib_rahu_courses)
         val annotations = buildList {
             // The festival is the headline, which opens its reading; the Almanac does not repeat it.
@@ -398,7 +399,23 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to cScript),
                 )
-            }
+            } + listOfNotNull(
+                // The burning date stands with them, as in the White Beryl's almanac (SPEC §5.12).
+                if (day.burningDate) {
+                    val bScript = "${Ewts.toTibetan("bsreg tshes")} (bsreg tshes)"
+                    Annotation(
+                        Catalog.text("BurningDate").replaceFirstChar(Char::uppercase),
+                        bScript,
+                        Tone.BAD,
+                        Texts.BURNING_DATE,
+                        subtitle = burningDateSubtitle,
+                        titleIsKanji = false,
+                        details = listOf(whiteBerylLabel to bScript),
+                    )
+                } else {
+                    null
+                },
+            )
             // Several special days are one row, as they are one voice in the weighing (SPEC §5.12).
             if (specials.size == 1) {
                 add(specials.single())

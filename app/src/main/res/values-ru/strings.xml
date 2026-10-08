@@ -258,8 +258,9 @@
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
     <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по rdo rje gtsug lag: %1$s</string>
-    <string name="tib_special_days_title">Особые дни дня недели и созвездия</string>
-    <string name="tib_special_days_note">При взвешивании это один голос, а когда они расходятся — никакого; «Белый берилл» ставит их ниже дня недели и созвездия, чьи собственные плоды — главное.</string>
+    <string name="tib_special_days_title">Особые дни</string>
+    <string name="tib_special_days_note">При взвешивании это один голос, а когда они расходятся — никакого; «Белый берилл» ставит особые дни дня недели и созвездия ниже дня недели и созвездия, чьи собственные плоды — главное, а его альманах записывает рядом с ними сжигающую дату.</string>
+    <string name="tib_burning_date_subtitle">сжигающая дата дня недели и числа: %1$s</string>
     <string name="tib_rahu_courses">его ход по числу и ход в этом месяце</string>
     <string name="tib_bla_mkhyen_title">Дух-астролог (bla mkhyen)</string>
     <string name="tib_bla_mkhyen_subtitle">сторона: %1$s · число дня %2$d, от солнцестояния</string>

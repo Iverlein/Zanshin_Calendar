@@ -296,8 +296,9 @@
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
     <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the rdo rje gtsug lag: %1$s</string>
-    <string name="tib_special_days_title">Special days of weekday and mansion</string>
-    <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the White Beryl puts them below the weekday and the mansion, whose own results are the main thing.</string>
+    <string name="tib_special_days_title">Special days</string>
+    <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the White Beryl puts the special days of weekday and mansion below the weekday and the mansion, whose own results are the main thing, and its almanac writes the burning date with them.</string>
+    <string name="tib_burning_date_subtitle">burning date of weekday and date: %1$s</string>
     <string name="tib_rahu_courses">its course by date and its course in the month</string>
     <string name="tib_bla_mkhyen_title">The astrologer spirit (bla mkhyen)</string>
     <string name="tib_bla_mkhyen_subtitle">in the %1$s · the day\'s sme ba %2$d, counted from the solstice</string>
