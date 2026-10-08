@@ -45,7 +45,8 @@
     <string name="row_english">English</string>
     <string name="row_sanskrit">Sanskrit</string>
     <string name="row_animal">Animal</string>
-    <string name="row_season">Season</string>
+    <string name="row_season_kalacakra">Season, Kālacakra</string>
+    <string name="row_season_chinese">Season, Chinese reckoning</string>
     <!-- the animal named in the month, e.g. "Dragon month" -->
     <string name="tib_animal_month">%1$s month</string>
     <!-- an element and an animal as one name: "Iron Horse" -->

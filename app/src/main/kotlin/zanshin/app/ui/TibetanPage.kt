@@ -167,7 +167,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     monthSaid?.let { BalloonRow(stringResource(R.string.row_say), it) },
                     BalloonRow(stringResource(R.string.row_sanskrit), day.monthNames.sanskrit),
                     BalloonRow(stringResource(R.string.row_animal), stringResource(R.string.tib_animal_month, gloss(day.monthNames.animal))),
-                    BalloonRow(stringResource(R.string.row_season), day.monthNames.season),
+                    BalloonRow(stringResource(R.string.row_season_kalacakra), day.monthNames.season),
+                    BalloonRow(stringResource(R.string.row_season_chinese), day.monthNames.chineseSeason),
                     BalloonRow(stringResource(R.string.row_element), gloss(info.signs.month.element)),
                 ) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
             )
@@ -242,7 +243,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
-        val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.season)
+        val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.chineseSeason)
         // Rāhu's compass: the course its date's reading gives, the detailed where it names one (SPEC §10.7).
         val rahuMove = RahuCourse.of(day.day)
         val rahuCaption = when (rahuMove) {

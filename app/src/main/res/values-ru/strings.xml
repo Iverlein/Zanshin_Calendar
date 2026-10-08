@@ -35,7 +35,8 @@
     <string name="row_english">По-русски</string>
     <string name="row_sanskrit">Санскрит</string>
     <string name="row_animal">Животное</string>
-    <string name="row_season">Сезон</string>
+    <string name="row_season_kalacakra">Сезон по Калачакре</string>
+    <string name="row_season_chinese">Сезон по китайскому счёту</string>
     <string name="tib_animal_month">месяц: %1$s</string>
     <string name="element_animal">%1$s-%2$s</string>
     <string name="tib_year_line">год: %1$s-%2$s</string>
