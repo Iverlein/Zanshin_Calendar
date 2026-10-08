@@ -14,7 +14,7 @@ The items below, easiest first. Sizes: **S** a sitting, one or two files;
 most screens or needing a generator in `tools/`; **XL** several weeks,
 mostly research or design before any code. The rank counts the work of
 building an item, not its prerequisites; "Needs" gives those, so the build
-order can differ from the rank. An item with no use on its own is ranked
+order can differ from the rank: it is under *Blocks*. An item with no use on its own is ranked
 with the one that gives it a use. "Later" is not ranked.
 
 | # | Item | Size | Why | Needs |
@@ -27,6 +27,34 @@ with the one that gives it a use. "Later" is not ranked.
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 | 8 | U The Tibetan page's UX | M | Five small items, the deciding factor named built (U2); left: the combination as one row, the page in weighed / yours / also-today sections, the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
+
+## Blocks
+
+The build order, by what each item waits on rather than by its size. A
+block is built in one go and is done when each of its items meets its own
+"Done when" below. **"Build the next block"** means the lowest-numbered
+block not marked built; a built block keeps its number, marked built with
+its date, so each prompt stays valid. A block blocked from outside (14)
+moves up as soon as it is unblocked.
+
+| # | Block | Waits on | Prompt |
+| --- | --- | --- | --- |
+| 1 | U1 + U3 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
+| 2 | E6, the "For you" half | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
+| 3 | U4 + U5 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
+| 4 | T3 Element colours | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
+| 5 | T2.11 WB's almanac page | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
+| 6 | T2.15 Hair by date | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
+| 7 | T2.14 The 11th month's 6th | 5; then the owner's decision | Build block 7: T2.14, read WB p. 226's nine bad days, then ask me to decide against Rabten's festival. |
+| 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
+| 9 | E1 + E2 + E3, with E6's election half | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
+| 10 | E5 The 旧暦 election | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
+| 11 | E4 The works' own rising signs | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
+| 12 | M1 Meditation timer and bell | — | Build block 12: M1, the meditation timer and the periodic bell. |
+| 13 | T4 + T5 Element calculation and gender | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
+| 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
+| 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 
 ## Tibetan page
 
