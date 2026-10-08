@@ -473,10 +473,11 @@ English (§8.1), each reading citing its pages:
   270°, 330°, 30°, 90°, 150°, 210° (the mid-month terms, dated in Lhasa
   mean solar time, UT + 6:04:24), 1, 7, 4 counting up and 9, 3, 6
   counting down, and every other day counts on from the last wood-mouse
-  day (`DaySmeBa`). It is an Almanac row after Rāhu's, opening the reading
-  with the day's sme ba, the wood-mouse day it counts from and the moved
-  square; no tone, not weighed (§5.12), as it holds for a direction, not
-  for the day.
+  day (`DaySmeBa`). It is an Almanac row after Rāhu's, its sheet opening
+  with the direction's compass and the moved square that finds it (§10.7),
+  and the details giving the day's sme ba, the wood-mouse day it counts
+  from and the seven-red's place; no tone, not weighed (§5.12), as it holds
+  for a direction, not for the day.
 - **The burning date** (*bsreg tshes*, vol. 1, p. 177, its reading vol. 2,
   p. 351; [burning-dates.md](sources/burning-dates.md)): the weekday
   meeting one of its two dates, Sunday the 12th and 27th, Monday the 11th
@@ -1312,7 +1313,14 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   reading gives it (`RahuCourse.of`, §5.13); on the 14th four arrows into
   a pool in the middle (from the sky into the lake), on the 30th eight
   outward (every direction). Rāhu's course by month has none: the row's
-  compass is the date's.
+  compass is the date's. *Bla mkhyen*: the same compass, small on the row
+  and in the sheet, with one saffron arrow from the middle to the day's
+  seven-red, or a ring in the middle when the day's sme ba is the 7 itself;
+  under it the board moved so that the day's sme ba (of the sixty-day
+  count, §5.11) stands in the middle, the 7's box outlined and a short
+  arrow into it from the middle, captioned as the working. The date's sme
+  ba row keeps its own small board, the date's number marked: the two
+  counts differ, so the spirit is never marked on it.
 - **Reading sheets** carry a band in the reading's tone across their top.
 - **Font.** `tools/subset_fonts.py` takes the characters of the Kotlin
   sources, the catalogs and the string resources; a rebuild after new kanji
