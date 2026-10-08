@@ -294,35 +294,11 @@ fun RahuCompass(move: RahuMove, size: Dp, caption: String, small: Boolean = fals
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Canvas(Modifier.size(size).semantics { contentDescription = description }) {
             val c = center
-            val r = this.size.minDimension / 2 - (if (small) 0.75f else 2f).dp.toPx()
+            val r = compassFrame(measurer, letters, small)
             val stroke = (if (small) 1.4f else 2f).dp.toPx()
             val head = (if (small) 3.5f else 9f).dp.toPx()
-            drawCircle(Palette.lineStrong, r, c, style = Stroke(1.dp.toPx()))
-            if (!small) {
-                for (k in 0 until 8) {
-                    drawLine(
-                        if (k % 2 == 0) Palette.muted else Palette.faint,
-                        polar(c, r - (if (k % 2 == 0) r * 0.08f else r * 0.05f), k * 45f),
-                        polar(c, r, k * 45f),
-                        (if (k % 2 == 0) 1.4f else 1f).dp.toPx(),
-                        StrokeCap.Round,
-                    )
-                }
-                letters.take(4).forEachIndexed { i, l ->
-                    label(measurer, l, polar(c, r * 0.8f, i * 90f), body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.muted))
-                }
-            }
             val reach = if (small) r * 0.72f else r * 0.62f
-            fun arrow(from: Offset, to: Offset) {
-                drawLine(Palette.vermilion, from, to, stroke, StrokeCap.Round)
-                val back = bearingOf(to, from)
-                val tip = Path().apply {
-                    val l = polar(to, head, back - 28f)
-                    val rr = polar(to, head, back + 28f)
-                    moveTo(to.x, to.y); lineTo(l.x, l.y); lineTo(rr.x, rr.y); close()
-                }
-                drawPath(tip, Palette.vermilion)
-            }
+            fun arrow(from: Offset, to: Offset) = arrow(Palette.vermilion, from, to, stroke, head)
             when (move) {
                 is RahuMove.Across -> {
                     val from = polar(c, reach, bearingOf(move.from))
@@ -341,6 +317,70 @@ fun RahuCompass(move: RahuMove, size: Dp, caption: String, small: Boolean = fals
         }
         if (!small) Caption(caption)
     }
+}
+
+/**
+ * Where the *bla mkhyen* dwells today ([direction], the day's seven-red), as
+ * a compass like Rāhu's, north at the top: an arrow from the middle out to
+ * its direction, in saffron to keep it apart from Rāhu's, or a ring in the
+ * middle when the day's sme ba is the 7 itself (SPEC §5.11).
+ */
+@Composable
+fun BlaMkhyenCompass(direction: Direction, size: Dp, caption: String, small: Boolean = false) {
+    val measurer = rememberTextMeasurer()
+    val letters = stringResource(R.string.compass_letters).split(' ')
+    val description = stringResource(R.string.desc_bla_mkhyen_compass, caption)
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+            val c = center
+            val r = compassFrame(measurer, letters, small)
+            val stroke = (if (small) 1.4f else 2f).dp.toPx()
+            val head = (if (small) 3.5f else 9f).dp.toPx()
+            val reach = if (small) r * 0.72f else r * 0.62f
+            if (direction == Direction.CENTRE) {
+                drawCircle(Palette.saffron.copy(alpha = 0.25f), reach * 0.3f, c)
+                drawCircle(Palette.saffron, reach * 0.3f, c, style = Stroke(stroke))
+            } else {
+                arrow(Palette.saffron, polar(c, if (small) 0f else r * 0.08f, bearingOf(direction)), polar(c, reach, bearingOf(direction)), stroke, head)
+                drawCircle(if (small) Palette.saffron else Palette.text, (if (small) 1.4f else 1.8f).dp.toPx(), c)
+            }
+        }
+        if (!small) Caption(caption)
+    }
+}
+
+/** The compass's ring, with the eight directions' ticks and the four letters when large; returns its radius. */
+private fun DrawScope.compassFrame(measurer: TextMeasurer, letters: List<String>, small: Boolean): Float {
+    val c = center
+    val r = size.minDimension / 2 - (if (small) 0.75f else 2f).dp.toPx()
+    drawCircle(Palette.lineStrong, r, c, style = Stroke(1.dp.toPx()))
+    if (!small) {
+        for (k in 0 until 8) {
+            drawLine(
+                if (k % 2 == 0) Palette.muted else Palette.faint,
+                polar(c, r - (if (k % 2 == 0) r * 0.08f else r * 0.05f), k * 45f),
+                polar(c, r, k * 45f),
+                (if (k % 2 == 0) 1.4f else 1f).dp.toPx(),
+                StrokeCap.Round,
+            )
+        }
+        letters.take(4).forEachIndexed { i, l ->
+            label(measurer, l, polar(c, r * 0.8f, i * 90f), body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.muted))
+        }
+    }
+    return r
+}
+
+/** A line from [from] to [to] with a filled head at [to]. */
+private fun DrawScope.arrow(colour: Color, from: Offset, to: Offset, stroke: Float, head: Float) {
+    drawLine(colour, from, to, stroke, StrokeCap.Round)
+    val back = bearingOf(to, from)
+    val tip = Path().apply {
+        val l = polar(to, head, back - 28f)
+        val rr = polar(to, head, back + 28f)
+        moveTo(to.x, to.y); lineTo(l.x, l.y); lineTo(rr.x, rr.y); close()
+    }
+    drawPath(tip, colour)
 }
 
 // ---------------------------------------------------------------- boards of nine
@@ -535,35 +575,53 @@ fun SmeBaSquare(today: Int, size: Dp, description: String) {
 
 /**
  * The square moved so that [centre] stands in the middle, south at the top,
- * with the place of [mark] outlined and the four directions round it: the
- * day's sme ba and its seven-red, the *bla mkhyen*'s place (SPEC §5.11).
+ * with the place of [mark] outlined, an arrow from the middle into it, and
+ * the four directions round it: the day's sme ba and its seven-red, the working
+ * behind the *bla mkhyen*'s compass (SPEC §5.11).
  */
 @Composable
-fun MovedSmeBaSquare(centre: Int, mark: Int, size: Dp, description: String) {
+fun MovedSmeBaSquare(centre: Int, mark: Int, size: Dp, description: String, caption: String? = null) {
     val measurer = rememberTextMeasurer()
     val names = listOf(R.string.dir_south, R.string.dir_east, R.string.dir_west, R.string.dir_north).map { stringResource(it) }
-    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
-        val margin = 18.dp.toPx()
-        val cell = (this.size.width - 2 * margin) / 3
-        LO_SHU.forEachIndexed { i, base ->
-            val n = (base + centre - 5 + 9 - 1) % 9 + 1
-            val x = margin + (i % 3) * cell
-            val y = margin + (i / 3) * cell
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+            val margin = 18.dp.toPx()
+            val cell = (this.size.width - 2 * margin) / 3
+            LO_SHU.forEachIndexed { i, base ->
+                val n = (base + centre - 5 + 9 - 1) % 9 + 1
+                val x = margin + (i % 3) * cell
+                val y = margin + (i / 3) * cell
+                val inset = 1.dp.toPx()
+                drawRect(Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
+                val s = cell * 0.34f
+                drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s))
+                if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s), style = Stroke(0.6.dp.toPx()))
+                label(measurer, "$n", Offset(x + cell / 2, y + cell * 0.74f), TextStyle().copy(fontSize = 13.sp, color = Palette.text))
+                if (i == 4) drawRect(Palette.lineStrong, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.dp.toPx()))
+            }
+            // [mark]'s cell outlined, and a short arrow across the border from
+            // the middle into it, clear of the swatches and the numbers; when
+            // [mark] is the middle, the middle is outlined alone.
+            val to = LO_SHU.indices.first { (LO_SHU[it] + centre - 5 + 9 - 1) % 9 + 1 == mark }
             val inset = 1.dp.toPx()
-            drawRect(Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
-            val s = cell * 0.34f
-            drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s))
-            if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s), style = Stroke(0.6.dp.toPx()))
-            label(measurer, "$n", Offset(x + cell / 2, y + cell * 0.74f), TextStyle().copy(fontSize = 13.sp, color = Palette.text))
-            if (n == mark) drawRect(Palette.saffron, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(2.dp.toPx()))
-            if (i == 4) drawRect(Palette.lineStrong, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.dp.toPx()))
+            drawRect(Palette.saffron, Offset(margin + (to % 3) * cell + inset, margin + (to / 3) * cell + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(2.dp.toPx()))
+            if (to != 4) {
+                val dx = (to % 3 - 1).toFloat()
+                val dy = (to / 3 - 1).toFloat()
+                val border = Offset(margin + (1.5f + dx / 2) * cell, margin + (1.5f + dy / 2) * cell)
+                val unit = Offset(dx, dy) * (cell / kotlin.math.hypot(dx, dy))
+                // A corner leaves more room than an edge.
+                val (back, ahead) = if (dx != 0f && dy != 0f) 0.24f to 0.08f else 0.12f to 0.03f
+                arrow(Palette.saffron, border - unit * back, border + unit * ahead, 2.dp.toPx(), 6.dp.toPx())
+            }
+            val mid = this.size.width / 2
+            val style = TextStyle().copy(fontSize = 10.sp, color = Palette.muted)
+            label(measurer, names[0], Offset(mid, margin / 2), style)
+            label(measurer, names[3], Offset(mid, this.size.height - margin / 2), style)
+            label(measurer, names[1].take(1).uppercase(), Offset(margin / 2, mid), style)
+            label(measurer, names[2].take(1).uppercase(), Offset(this.size.width - margin / 2, mid), style)
         }
-        val mid = this.size.width / 2
-        val style = TextStyle().copy(fontSize = 10.sp, color = Palette.muted)
-        label(measurer, names[0], Offset(mid, margin / 2), style)
-        label(measurer, names[3], Offset(mid, this.size.height - margin / 2), style)
-        label(measurer, names[1].take(1).uppercase(), Offset(margin / 2, mid), style)
-        label(measurer, names[2].take(1).uppercase(), Offset(this.size.width - margin / 2, mid), style)
+        caption?.let { Caption(it) }
     }
 }
 

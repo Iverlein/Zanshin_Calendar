@@ -275,6 +275,9 @@
     <string name="sme_ba_count_up">дня дерева-мыши %1$s (%2$d), вперёд: после зимнего солнцестояния</string>
     <string name="sme_ba_count_down">дня дерева-мыши %1$s (%2$d), назад: после летнего солнцестояния</string>
     <string name="detail_seven_red">«Семь красное», его место</string>
+    <string name="bla_mkhyen_compass_caption">Сегодня: %1$s, «семь красное» дня</string>
+    <string name="bla_mkhyen_square_caption">Как она находится: число дня %1$d в середине квадрата девяти, юг вверху; 7 обведено, стрелка указывает на него из середины.</string>
+    <string name="desc_bla_mkhyen_compass">Сторона духа-астролога, север вверху. %1$s</string>
     <string name="tib_nectar_title">Периоды нектара</string>
     <string name="tib_nectar_subtitle">часы Юпитера сегодня: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
@@ -362,6 +365,6 @@
     <string name="karana_moving">подвижная, 8 раз в месяц</string>
     <string name="karana_fixed">неподвижная, раз в месяц</string>
     <string name="desc_yoga_ring">27 йог, отмечена %1$s</string>
-    <string name="desc_sme_ba">Девять чисел в квадрате, отмечено %1$d</string>
-    <string name="desc_moved_sme_ba">Квадрат девяти с %1$d в середине, «семь красное» обведено</string>
+    <string name="desc_sme_ba">Девять чисел в квадрате, отмечено число даты %1$d</string>
+    <string name="desc_moved_sme_ba">Квадрат девяти с числом дня %1$d в середине, «семь красное» обведено</string>
 </resources>

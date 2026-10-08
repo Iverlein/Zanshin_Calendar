@@ -271,6 +271,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val daySmeBa = remember(info.date) { DaySmeBa.of(info.date) }
         val blaMkhyenTitle = stringResource(R.string.tib_bla_mkhyen_title)
         val blaMkhyenSubtitle = stringResource(R.string.tib_bla_mkhyen_subtitle, daySmeBa.sevenRed.english, daySmeBa.number)
+        val blaMkhyenCaption = stringResource(R.string.bla_mkhyen_compass_caption, daySmeBa.sevenRed.english)
         val blaMkhyenDetails = listOf(
             stringResource(R.string.detail_day_sme_ba) to "${daySmeBa.number} · ${Catalog.text("Colour.${SME_BA_COLOURS[daySmeBa.number - 1]}")}",
             stringResource(R.string.detail_sme_ba_count) to stringResource(
@@ -405,7 +406,18 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 Annotation(
                     blaMkhyenTitle, blaMkhyenSubtitle, Tone.NEUTRAL, Texts.BLA_MKHYEN[daySmeBa.sevenRed], titleIsKanji = false,
                     details = blaMkhyenDetails,
-                    diagram = { MovedSmeBaSquare(daySmeBa.number, 7, 200.dp, stringResource(R.string.desc_moved_sme_ba, daySmeBa.number)) },
+                    glyphs = { BlaMkhyenCompass(daySmeBa.sevenRed, 24.dp, blaMkhyenCaption, small = true) },
+                    diagram = {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            BlaMkhyenCompass(daySmeBa.sevenRed, 200.dp, blaMkhyenCaption)
+                            Spacer(Modifier.height(20.dp))
+                            MovedSmeBaSquare(
+                                daySmeBa.number, 7, 200.dp,
+                                stringResource(R.string.desc_moved_sme_ba, daySmeBa.number),
+                                caption = stringResource(R.string.bla_mkhyen_square_caption, daySmeBa.number),
+                            )
+                        }
+                    },
                 ),
             )
             add(
