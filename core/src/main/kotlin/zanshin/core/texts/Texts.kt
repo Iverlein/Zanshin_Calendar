@@ -139,6 +139,8 @@ object Sources {
     val WHITE_BERYL_WEEKDAYS = whiteBeryl("pp. 308–312")
     val WHITE_BERYL_MANSION_VERSES = whiteBeryl("pp. 313–328")
     val WHITE_BERYL_MANSION_CLASSES = whiteBeryl("pp. 328–329")
+    /** Chapter 34, the important works one by one, whose lists the kun phan me long's boxes digest (SPEC §5.10). */
+    val WHITE_BERYL_WORKS = whiteBeryl("pp. 378–428")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's bla mkhyen p. 180 and the day's sme ba p. 192")
     /** Blo bzang sbyin pa's account of the day's sme ba, which way it counts and from which wood-mouse day (docs/sources/earth-lords.md). */
@@ -362,7 +364,7 @@ object Texts {
             goodKeys = (verseGood + Electional.MANSION_ACTIVITIES.getValue(m) + Electional.good { m in it.mansions }).distinct(),
             avoidKeys = (verseAvoid + Electional.bad { m in it.mansions }).distinct(),
             source = Sources.HENNING_ELECTIONAL,
-            also = listOf(Sources.WHITE_BERYL_MANSION_VERSES, Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_MANSION_CLASSES),
+            also = listOf(Sources.WHITE_BERYL_MANSION_VERSES, Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_WORKS, Sources.WHITE_BERYL_MANSION_CLASSES),
             key = "reading.Mansion",
             arg = "reading.${glossKey(m)}",
         )
@@ -533,7 +535,7 @@ object Texts {
 
     private fun electional(arg: String, good: List<String>, bad: List<String>) =
         Reading(
-            goodKeys = good, avoidKeys = bad, source = Sources.KUN_PHAN_ME_LONG, also = listOf(Sources.HENNING_ELECTIONAL),
+            goodKeys = good, avoidKeys = bad, source = Sources.KUN_PHAN_ME_LONG, also = listOf(Sources.WHITE_BERYL_WORKS, Sources.HENNING_ELECTIONAL),
             key = "reading.Electional", arg = "reading.Electional.$arg",
         )
 

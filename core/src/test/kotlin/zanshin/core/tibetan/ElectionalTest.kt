@@ -17,27 +17,29 @@ class ElectionalTest {
     private fun list(wording: String) = Electional.ACTIVITIES.single { it.wording == wording }
 
     @Test
-    fun `Henning's thirteen and the print's 50 other activities, each without duplicates or overlap`() {
-        assertEquals(63, Electional.ACTIVITIES.size)
-        assertEquals(63, Electional.ACTIVITIES.map { it.wording }.distinct().size)
+    fun `Henning's thirteen, the print's 50 other activities and the White Beryl's five, each without duplicates or overlap`() {
+        assertEquals(63, Electional.PRINT.size)
+        assertEquals(68, Electional.ACTIVITIES.size)
+        assertEquals(68, Electional.ACTIVITIES.map { it.wording }.distinct().size)
         for (a in Electional.ACTIVITIES) {
             assertEquals(a.good.mansions.distinct(), a.good.mansions, a.wording)
             assertTrue(a.good.mansions.intersect(a.bad.mansions.toSet()).isEmpty(), a.wording)
             assertTrue(a.good.weekdays.intersect(a.bad.weekdays).isEmpty(), a.wording)
             assertTrue(a.good.dates.intersect(a.bad.dates).isEmpty(), a.wording)
             assertTrue(a.good.animals.intersect(a.bad.animals).isEmpty(), a.wording)
+            assertTrue(a.good.trigrams.intersect(a.bad.trigrams).isEmpty(), a.wording)
         }
         assertEquals(Mansion.entries.toSet(), Electional.MANSION_ACTIVITIES.keys)
     }
 
     @Test
     fun `a mansion named in two places for one activity is left out`() {
-        // Marriage: Svātī good only in parentheses.
-        val marriage = list("marriage")
+        // Marriage: Svātī good only in parentheses in the print.
+        val marriage = Electional.PRINT.single { it.wording == "marriage" }
         assertFalse(Mansion.SVATI in marriage.good.mansions)
         assertTrue(Mansion.PUSHYA in marriage.good.mansions)
         // Offerings: Uttarabhādrapadā stands in the good and the bad half of the print.
-        val offerings = list("offerings_to_deities")
+        val offerings = Electional.PRINT.single { it.wording == "offerings_to_deities" }
         assertFalse(Mansion.UTTARABHADRAPADA in offerings.good.mansions || Mansion.UTTARABHADRAPADA in offerings.bad.mansions)
         assertTrue(Mansion.MRIGASHIRAS in offerings.good.mansions)
         // Controlling: Mṛgaśiras is both "merely acceptable" and bad.
@@ -99,21 +101,55 @@ class ElectionalTest {
     @Test
     fun `the print's other boxes, read on the scans`() {
         // Box 22, sowing (img. 36): the 28th stands in both halves, so it counts for neither.
+        val printed = Electional.PRINT.single { it.wording == "sowing" }
+        assertEquals(setOf(4, 8, 14, 29), printed.bad.dates)
+        assertFalse(28 in printed.good.dates || 28 in printed.bad.dates)
         val sowing = list("sowing")
         assertEquals(setOf(Weekday.SATURDAY, Weekday.MONDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY), sowing.good.weekdays)
-        assertEquals(setOf(4, 8, 14, 29), sowing.bad.dates)
-        assertFalse(28 in sowing.good.dates || 28 in sowing.bad.dates)
         assertTrue(Animal.PIG in sowing.bad.animals)
         // Box 11, food and brewing: "otherwise as the feasts", but it names something in every kind, so its own lists stand.
         assertEquals(listOf(Mansion.UTTARABHADRAPADA), list("preparing_food_and_brewing").good.mansions)
         // Box 30, saddling: "the rest as feeding up horses", whose day animals it takes.
         assertEquals(list("feeding_up_horses").bad.animals, list("saddling").bad.animals)
         // Box 49, consecration: the 9th in both halves is left out.
-        assertFalse(9 in list("consecration").good.dates || 9 in list("consecration").bad.dates)
+        val consecration = Electional.PRINT.single { it.wording == "consecration" }
+        assertFalse(9 in consecration.good.dates || 9 in consecration.bad.dates)
         // Box 52 split: the hair half keeps the weekdays the crafts half qualifies by material.
         assertEquals(setOf(Weekday.FRIDAY, Weekday.MONDAY, Weekday.WEDNESDAY), list("cutting_hair_and_nails").good.weekdays)
-        assertEquals(setOf(Weekday.FRIDAY), list("crafts").good.weekdays)
+        assertEquals(setOf(Weekday.FRIDAY), Electional.PRINT.single { it.wording == "crafts" }.good.weekdays)
         // Box 16 split: what is good for taking in wealth is bad for giving it away.
         assertTrue(Weekday.SUNDAY in list("receiving_wealth").good.weekdays && Weekday.SUNDAY in list("sending_out_wealth").bad.weekdays)
+    }
+
+    /** The White Beryl's chapter 34, read on the scans (docs/sources/white-beryl-ch34.md), joined to the print's boxes. */
+    @Test
+    fun `the White Beryl's works decide what the print digests`() {
+        fun good(w: String) = list(w).good
+        fun bad(w: String) = list(w).bad
+        // Every work it adds to is a box; its five own works are new lists.
+        assertEquals(listOf("spectacles", "hunting_and_theft", "breaking_in_horses", "averting_rites", "sorcery"), WhiteBerylWorks.OWN.map { it.wording })
+        // Open question 6: the print names khrums twice for offerings; the chapter, khrums stod good and khrums smad bad (p. 386).
+        assertTrue(Mansion.PURVABHADRAPADA in good("offerings_to_deities").mansions && Mansion.ASHVINI in good("offerings_to_deities").mansions)
+        assertTrue(Mansion.UTTARABHADRAPADA in bad("offerings_to_deities").mansions)
+        // What the print names on the other side, the chapter decides: the sowing 28th bad (p. 400), the 4th good and
+        // the 14th bad for servants (p. 406), Svātī good for marriage (p. 412), the waxing 9th good for consecration (p. 419).
+        assertTrue(28 in bad("sowing").dates && 28 !in good("sowing").dates)
+        assertTrue(4 in good("taking_servants").dates && 14 in bad("taking_servants").dates)
+        assertTrue(Mansion.SVATI in good("marriage").mansions)
+        assertTrue(9 in good("consecration").dates && 2 in good("consecration").dates && 2 !in bad("consecration").dates)
+        // War and dice: the tiger and dragon good, the print's box reversed (p. 421).
+        for (w in listOf("martial_skills", "games")) {
+            assertTrue(Animal.TIGER in good(w).animals && Animal.SNAKE in bad(w).animals, w)
+        }
+        // Rain: the watery mansions good, Maghā, Jyeṣṭhā, Mūla and Revatī bad (p. 423).
+        assertTrue(listOf(Mansion.MAGHA, Mansion.JYESHTHA, Mansion.MULA, Mansion.REVATI).all { it in bad("bringing_rain").mansions })
+        // Cutting hair: khrums smad good for crafts, bad for the hair (p. 420).
+        assertTrue(Mansion.UTTARABHADRAPADA in good("crafts").mansions && Mansion.UTTARABHADRAPADA in bad("cutting_hair_and_nails").mansions)
+        assertEquals(setOf(Weekday.FRIDAY, Weekday.WEDNESDAY), good("crafts").weekdays)
+        // What the print names and the chapter does not keeps the print's reading.
+        assertTrue(12 in good("taking_a_new_home").dates && 13 in good("taking_a_new_home").dates)
+        // Taming horses takes the racing box's dates and day animals, as the chapter says («ཁྱིམ་ཉི་རྒྱུག་དང་མཚུངས»).
+        assertEquals(list("feeding_up_horses").bad.dates, bad("breaking_in_horses").dates)
+        assertEquals(list("feeding_up_horses").bad.animals, bad("breaking_in_horses").animals)
     }
 }

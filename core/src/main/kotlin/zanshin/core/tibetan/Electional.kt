@@ -104,15 +104,19 @@ class ActivityList(val wording: String, good: Factors, bad: Factors, named: List
  * W4CZ65561, read box by box in docs/sources/mansions.md): its abbreviations
  * of khrums stod and khrums smad had been read as chu smad. Rising signs are
  * left out, since the app shows a day, not a moment, and so is Abhijit, which
- * the Phugpa calendar does not count among the day's mansions.
+ * the Phugpa calendar does not count among the day's mansions. The White
+ * Beryl's chapter 34, which the boxes digest, is joined to them
+ * ([WhiteBerylWorks]).
  */
 object Electional {
     private fun m(vararg x: Mansion) = x.toList()
 
-    val ACTIVITIES: List<ActivityList> = listOf(
+    /** The print's boxes as read, Henning's thirteen first; [ACTIVITIES] joins the White Beryl to them. */
+    internal val PRINT: List<ActivityList> = listOf(
         // 6. Offerings to deities. For the protectors and in general alike. Uttarāṣāḍhā
         // stands in both lists of the print, Uttarabhādrapadā in the good and the bad
-        // half (open question 6), so it is left out.
+        // half (open question 6), so it is left out here; the White Beryl's chapter 34
+        // names it bad (WhiteBerylWorks).
         ActivityList(
             "offerings_to_deities",
             good = Factors(
@@ -1082,6 +1086,13 @@ object Electional {
             ),
         ),
     )
+
+    /**
+     * The activity lists the app weighs: the print's boxes with the White
+     * Beryl's chapter 34, which they digest, joined to each, and the chapter's
+     * works the print has no box for (SPEC §5.10).
+     */
+    val ACTIVITIES: List<ActivityList> = WhiteBerylWorks.join(PRINT)
 
     /**
      * What the list of lunar mansions names each one good for, after the kind

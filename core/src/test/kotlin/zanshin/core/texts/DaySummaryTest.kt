@@ -94,8 +94,9 @@ class DaySummaryTest {
         // The trigram has no tone of its own and is not among the factors of the day's tone.
         assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         assertEquals(setOf(Tone.BAD), s.byTone.keys)
-        // Funerals: every factor that names them avoids them; the trigram's list stands beside them.
-        assertEquals(listOf("Sunday", "Ārdrā", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
+        // Funerals: every factor that names them avoids them, the 22nd with the White Beryl's chapter 34 (p. 414);
+        // the trigram's list stands beside them.
+        assertEquals(listOf("Sunday", "Ārdrā", "day 22", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
         // Destroying: the element pair, the death combination, names it good itself; Rāhu's autumn course
         // (the 22nd of the 9th month: fierce work good, WB p. 239) and the others that agree stand beside it.
         assertEquals(listOf("Fire – Water", "Rāhu", "Ārdrā", "day 22", "Viṣṭi"), s.activities.single { it.activity == Activity.DESTROYING }.good.map { it.kanji })
@@ -145,8 +146,9 @@ class DaySummaryTest {
         assertEquals(listOf("Tuesday", "Atigaṇḍa"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         // Two that disagree on a work: the planet leads the mansion (the kun phan me long's rule 2).
         val pillars = s.activities.single { it.activity == Activity.CONSECRATION }
+        // The 3rd, a waxing date, is good for consecration in the White Beryl's chapter 34 (p. 419), and outweighed too.
         assertEquals(listOf("Tuesday"), pillars.avoid.map { it.kanji })
-        assertEquals(listOf("Rohiṇī"), pillars.outweighed.map { it.kanji })
+        assertEquals(listOf("Rohiṇī", "day 3"), pillars.outweighed.map { it.kanji })
     }
 
     @Test
@@ -177,7 +179,7 @@ class DaySummaryTest {
     fun `the counts beside the Tibetan line`() {
         // The row's counts (ROADMAP T2.7): every work on one side, so they add up to the day's works.
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(55 to 35, s.good.size to s.avoid.size)
+        assertEquals(55 to 36, s.good.size to s.avoid.size)
         // Days whose lists run against their tone, more than twice as many works on the other side (SPEC §5.12).
         var date = LocalDate.of(2000, 1, 1)
         var against = 0
@@ -192,7 +194,7 @@ class DaySummaryTest {
             if (other > 2 * with) against++
             date = date.plusDays(1)
         }
-        assertEquals(2140, against)
+        assertEquals(2085, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -208,7 +210,7 @@ class DaySummaryTest {
             good.map { it.activity.family },
         )
         assertEquals(
-            listOf(ActivityFamily.WEDDING, ActivityFamily.SACRED, ActivityFamily.DISPUTE, ActivityFamily.LIVESTOCK),
+            listOf(ActivityFamily.WEDDING, ActivityFamily.FUNERAL, ActivityFamily.SACRED, ActivityFamily.DISPUTE),
             avoid.map { it.activity.family },
         )
     }
@@ -218,13 +220,13 @@ class DaySummaryTest {
         // 1 November 2026, Ārdrā: its verse names killing and cutting good (WB vol. 2, p. 316), with the element pair and Viṣṭi.
         val ardra = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         assertEquals(listOf("Fire – Water", "Ārdrā", "Viṣṭi"), ardra.activities.single { it.activity == Activity.KILLING }.good.map { it.kanji })
-        // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday and the Zon trigram agree,
-        // the demon king, weaker than both, is outweighed.
+        // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday, the snake (chapter 34, p. 421)
+        // and the Zon trigram agree, the demon king, weaker than both, is outweighed.
         val krittika = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
         val war = krittika.activities.single { it.activity == Activity.WAR }
-        assertEquals(listOf("Wednesday", "Kṛttikā", "Zon"), war.avoid.map { it.kanji })
+        assertEquals(listOf("Wednesday", "Kṛttikā", "Snake", "Zon"), war.avoid.map { it.kanji })
         assertEquals(listOf("Demon king"), war.outweighed.map { it.kanji })
-        assertEquals(listOf("Wednesday", "Kṛttikā"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
+        assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
         // The Zhol print reads «དྲ་གྱོན», new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
         val verse = Texts.MANSION.getValue(Mansion.KRITTIKA)
         assertTrue("new_clothes" in verse.avoidKeys && "disputes" !in verse.avoidKeys)
