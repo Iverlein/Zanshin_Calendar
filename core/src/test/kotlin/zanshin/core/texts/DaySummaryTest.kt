@@ -90,7 +90,7 @@ class DaySummaryTest {
     fun `the Tibetan day of 1 November 2026, weighed`() {
         // Sunday with Ārdrā: the raven and fire with water, both unlucky, are the day's result (WB p. 333, SPEC §5.12).
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(DayVerdict(Tone.BAD, VerdictBy.COMBINATION), s.verdict)
+        assertVerdict(s, Tone.BAD, VerdictBy.COMBINATION, DayFactor.GREAT_COMBINATION, "Raven", "Fire – Water")
         // The trigram has no tone of its own and is not among the factors of the day's tone.
         assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         assertEquals(setOf(Tone.BAD), s.byTone.keys)
@@ -117,7 +117,7 @@ class DaySummaryTest {
         // days (the demon king and a day of accomplishment, one voice), Gara and Śubha are lucky; the 10th is not.
         // Wednesday, the strongest with a tone, decides (WB vol. 2, p. 376: by strength, not by number).
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
-        assertEquals(DayVerdict(Tone.GOOD, VerdictBy.STRONGEST), s.verdict)
+        assertVerdict(s, Tone.GOOD, VerdictBy.STRONGEST, DayFactor.WEEKDAY, "Wednesday")
         assertEquals(listOf("Wednesday", "Demon king", "Day of accomplishment", "Gara", "Śubha"), s.byTone.getValue(Tone.GOOD).map { it.kanji })
         // An activity goes the same way: building, which Wednesday names good, is avoided by Kṛttikā, the 10th and the
         // snake; three weaker factors do not outweigh the planet.
@@ -134,7 +134,7 @@ class DaySummaryTest {
         val day = TibetanCalendar.of(LocalDate.of(2026, 1, 18))
         assertEquals(listOf(CombinationDay.MI_MTHUN_NYI), day.gtsugLagDays)
         val s = DaySummary.of(day)
-        assertEquals(DayVerdict(Tone.BAD, VerdictBy.STRONGEST), s.verdict)
+        assertVerdict(s, Tone.BAD, VerdictBy.STRONGEST, DayFactor.LUNAR_DATE, "day 30")
         assertEquals(listOf("day 30"), s.byTone.getValue(Tone.BAD).map { it.kanji })
     }
 
@@ -143,7 +143,7 @@ class DaySummaryTest {
         // 19 May 2026: Tuesday with Rohiṇī, rtag myos (lucky) but earth with fire (unlucky). Tuesday and Atigaṇḍa are
         // unlucky, the 3rd and Taitila lucky: Tuesday, the strongest of them, decides.
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 5, 19)))
-        assertEquals(DayVerdict(Tone.BAD, VerdictBy.STRONGEST), s.verdict)
+        assertVerdict(s, Tone.BAD, VerdictBy.STRONGEST, DayFactor.WEEKDAY, "Tuesday")
         assertEquals(listOf("Tuesday", "Atigaṇḍa"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         // Two that disagree on a work: the planet leads the mansion (the kun phan me long's rule 2).
         val pillars = s.activities.single { it.activity == Activity.CONSECRATION }
@@ -174,6 +174,35 @@ class DaySummaryTest {
             }
             date = date.plusDays(1)
         }
+    }
+
+    @Test
+    fun `the deciding factor is the strongest on the day's side`() {
+        // ROADMAP U2: the voice named as deciding leads the voices on the day's side, and none stronger takes the
+        // other side; where the combination decides, its two parts agree.
+        val counts = sortedMapOf<DayFactor, Int>()
+        var date = LocalDate.of(2000, 1, 1)
+        while (date.year < 2050) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val v = s.verdict!!
+            assertEquals(v.deciding, s.byTone.getValue(v.tone).take(v.deciding.size), "$date")
+            assertTrue(v.deciding.all { it.tone == v.tone }, "$date")
+            assertEquals(v.by == VerdictBy.COMBINATION, v.factor == DayFactor.GREAT_COMBINATION, "$date")
+            if (v.factor == DayFactor.GREAT_COMBINATION) assertEquals(2, v.deciding.size, "$date")
+            counts.merge(v.factor, 1, Int::plus)
+            date = date.plusDays(1)
+        }
+        // The yoga never decides in these years: the date or the karaṇa before it always has a tone.
+        assertEquals(
+            mapOf(
+                DayFactor.GREAT_COMBINATION to 9672,
+                DayFactor.WEEKDAY to 7708,
+                DayFactor.COMBINATION_DAY to 568,
+                DayFactor.LUNAR_DATE to 292,
+                DayFactor.KARANA to 23,
+            ),
+            counts,
+        )
     }
 
     @Test
@@ -355,5 +384,12 @@ class DaySummaryTest {
         assertEquals(setOf(DayTime.MORNING, DayTime.EVENING) to setOf(DayTime.NOON), rokuyoTimes(Rokuyo.TOMOBIKI))
         assertEquals(setOf(DayTime.NOON) to emptySet<DayTime>(), rokuyoTimes(Rokuyo.SHAKKO))
         assertEquals(emptySet<DayTime>() to emptySet<DayTime>(), rokuyoTimes(Rokuyo.TAIAN))
+    }
+
+    /** The Tibetan day's tone, how it was decided, and the deciding voice with its members' names. */
+    private fun assertVerdict(s: DaySummary, tone: Tone, by: VerdictBy, factor: DayFactor, vararg deciding: String) {
+        val v = s.verdict!!
+        assertEquals(Triple(tone, by, factor), Triple(v.tone, v.by, v.factor))
+        assertEquals(deciding.toList(), v.deciding.map { it.kanji })
     }
 }
