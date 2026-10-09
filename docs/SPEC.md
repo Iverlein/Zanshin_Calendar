@@ -603,9 +603,10 @@ voices, so that the tone and the lists cannot go separate ways.
   avoided", and on the death mansion, the slayer mansion (*gshed skar*)
   of p. 330, "anything is bad". On them, for the person with a birth date
   set, the brief has no good list (`DaySummary.avoidAll`, whose `good`
-  is then empty); the day's tone, its avoid list, `sideOf`, the Almanac
-  rows and the hours stay the weighing's, the same for every reader
-  (ROADMAP E6). For the test birth date, 1 June 1976 (earth, Dragon),
+  is then empty), and the election does not offer the day for any work
+  (§5.14); the day's tone, its avoid list, `sideOf`, the Almanac rows and
+  the hours stay the weighing's, the same for every reader (ROADMAP E6).
+  For the test birth date, 1 June 1976 (earth, Dragon),
   October 2026 has five Thursdays and one Pūrvaphalgunī, the 9th
   (`DaySummaryTest`).
 - **The day in brief** names the tone and what decided it: the
@@ -720,6 +721,93 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   hours panel (§10.3) and in the day in brief's "By the hour" block, not
   weighed into the day: a day reading has no hours.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
+
+### 5.14 The election: the best day for a work
+
+The user picks a work and a span; the app gives the days the weighing
+makes good for it, best first, and the hours within them
+(`Election`, `ElectionSpan` in `core/.../texts/Election.kt`; ROADMAP E).
+No rule of weighing is new: each day is weighed exactly as its page
+weighs it (§5.12), one `DaySummary.of` per Tibetan day, so what the day
+page and the election say of a work can never differ, and every voice
+built later reaches the election by itself.
+
+- **The works offered** are those some list of the day's voices names
+  (§5.12: the element pairs, Rāhu's courses, the weekday's, mansion's,
+  special days', burning date's, date's, karaṇa's, day animal's and
+  trigram's lists), grouped by family (§10.7) in the summary line's
+  order: 137 works in 35 families. "Everything" is left out, a list's
+  word for the whole day and not a work one chooses.
+- **The span** runs from the shown day to the end of the first, third or
+  twelfth Tibetan month, counting the shown day's own as the first, one
+  day per civil day (a doubled date twice, a skipped one not at all), and
+  never past the end of 2100, the date picker's range. A span is weighed
+  once, with the person's days where a birth date is set, and every
+  work's election reads it.
+- **A day's side** for the work is `DaySummary.sideOf`: good, to avoid,
+  or blank where no voice names the work, never "neutral, so fine". What
+  decided it is the voice that decided the work in the weighing
+  (`ActivityNote.decider`): the combination where its element pair names
+  the work, otherwise the strongest voice naming it.
+- **The order of the good days**, the texts' as far as it goes and the
+  app's only where it stops (`Election.ORDER`):
+  1. the days on which the combination names the work good: it is the
+     result, "even when the planet and the mansion are each good" (WB
+     vol. 2, p. 333);
+  2. then by the strongest voice naming the work good, in the Phugpa
+     order of strength (KP rules 2–4, WB vol. 2, p. 376): Rāhu, the
+     weekday, the mansion, the special days, the date, the karaṇa, the
+     yoga, the day animal, the trigram;
+  3. within one rank, a day whose combination is lucky before one whose
+     combination is unlucky or has no tone (its two parts disagree):
+     p. 333 makes it the day's result, so it may order days that already
+     stand on one side, though it decides no work it does not name;
+  4. then the sum of the standing voices' weights, ten for the
+     combination down to one for the trigram, the app's convention of the
+     In brief row (§5.12), which the screen says is the app's;
+  5. then the earlier day.
+
+  Not used: KP's weights of one, four and eight (the paṇḍita of
+  Kashmir's, which WB p. 376 sets aside), a count of voices, and
+  outweighed voices, which are neither shown nor counted. The days to
+  avoid are red in the grid and given no list of their own.
+- **The person's days** (§5.12) are marked on the days they fall on and
+  not weighed. The two WB makes absolute (vol. 2, p. 338), the enemy
+  weekday of one's element and the death mansion, take the day away from
+  the person with a birth date set: it is not offered for any work, and
+  says why on tap; its side stays the weighing's, the same for every
+  reader (ROADMAP E6). For 1 June 1976, October 2026 loses the
+  Thursdays 1, 8, 15, 22 and 29 and the 9th (`ElectionTest`).
+- **The hours** (ROADMAP E3): the combination period (§5.13) follows the
+  month and the hour only, so every day of a Tibetan month has the same
+  periods at the same clock hours; the election gives them once per
+  Tibetan month of the span: the periods that name the work good, and
+  those that name it to avoid, a sign naming it both ways saying nothing
+  (`Election.hours`): the work's own signs first (WB's chapter 34, the
+  works' own hours of §5.13, its particular case), then the sign's reading
+  (WB vol. 2, pp. 371–376) without what they decide the other way.
+  Journeys, for one, are good while Capricorn, Virgo, Sagittarius or
+  Pisces rises and bad in the other eight hours (p. 393, `ElectionTest`). On each
+  good day it gives the nectar periods (§5.13) where their reading names
+  the work. The hours choose the hour, never the day: a day to avoid is
+  not offered "only at these hours", since every day of a month has every
+  sign (ROADMAP E, D1).
+- **Cost:** a twelve-month span is about 380 day summaries, weighed off
+  the main thread and kept per start, length and birth date (`Spans` in
+  `ElectionScreen.kt`); a work's election reads the kept span. On the
+  `zanshin-test` emulator a twelve-month span was on screen within 4.3 s
+  of the tap, uiautomator's polling included, with no frame skipped
+  (2026-10-09).
+- **Witness:** for October 2026 the election agrees with the
+  tibetastromed.ru calendar's on haircuts on all 7 of the days it names,
+  weddings on 11 of 12 and setting out on 11 of 14; each difference is a
+  WB reading the site does not follow ([sources/tibetastromed.md](sources/tibetastromed.md),
+  *The election, October 2026*). The calendar is a witness, not a
+  source. `ElectionTest` checks on 2000–2049 that every work's side is the
+  day page's and that the order holds, and keeps October 2026 ranked for
+  haircuts, weddings and setting out.
+- **Not built:** the works' own rising signs of WB's chapter 34 (ROADMAP
+  E4) and the 旧暦 election (E5).
 
 ## 6. Astronomy library
 
@@ -1036,6 +1124,7 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | *(in `ForcesTest`)* | Table 2.5, the destiny elements of the twelve months for each yearly element (p. 91); chart 8.1, the month, day and hour pebbles of the health divination (p. 296); Table 2.7, the hours' destiny elements (p. 91) | Gyurme Dorje (2001) |
 | *(in `ForcesTest`)* | Chart 6.2: the four aspects of a fire dragon, an earth tiger and an iron mouse year, and all 20 elemental cells of the obstacle-year chart | Gyurme Dorje (2001), p. 228 |
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
+| *(in `ElectionTest`)* | October 2026, the good days ranked for haircuts, weddings and setting out, and the days to avoid that the site names; the days of 1 June 1976's enemy weekday and death mansion not offered | The app's own weighing (§5.14), witnessed by the tibetastromed.ru election (sources/tibetastromed.md) |
 
 ## 10. User interface
 
@@ -1125,8 +1214,9 @@ canvas "Zanshin Calendar — basic design".
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
   reason, the voices of that tone and the works grouped by the voices
   that carry them (§5.12), a work opening a balloon with its side and
-  each voice with its kind ("weekday · Sunday"); nothing outweighed is
-  shown. With a birth date set, a "For
+  each voice with its kind ("weekday · Sunday") and "Choose a day for it",
+  which opens the election for that work from the shown day (§10.8);
+  nothing outweighed is shown. With a birth date set, a "For
   you" block lists the day's personal day, own days by the birth date and
   personal mansions (§5.8) with their dots, each over the factor it is
   ("Luck day · Mother weekday" over "Sunday", "Birth mansion" over
@@ -1333,6 +1423,8 @@ canvas "Zanshin Calendar — basic design".
   it off.
 - **Local sky line:** sunrise, sunset, true solar noon (the sun's transit, not
   12:00) and the sun's altitude then. Facts only.
+- **Choose a day**, under the two calendars: the election (§10.8) from the
+  shown day, its work not yet picked.
 
 ### 10.6 Deferred until the basic design is set
 
@@ -1430,6 +1522,48 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
 - **Font.** `tools/subset_fonts.py` takes the characters of the Kotlin
   sources, the catalogs and the string resources; a rebuild after new kanji
   in any of them.
+
+### 10.8 The election screen
+
+The best days for a work (§5.14, ROADMAP E2), a full screen with a back
+arrow, in the Tibetan calendar only (the 旧暦's is E5, not built).
+
+- **Entry:** "Choose a day" in the menu (§10.5), from the shown day with
+  no work picked; on the Tibetan page, a work's balloon in the brief
+  ("Choose a day for it") and any wording of a reading's lists, which opens
+  a balloon of the works it names, one "Choose a day: …" line each; both
+  from the shown day with that work picked.
+- **Picking a work:** the families with their glyphs (§10.7) in the
+  summary line's order, each with its count of works and opening them;
+  a search over the works' names in the app's language. "Change" beside
+  the picked work returns here.
+- **The span:** three chips, "This month", "Three months", "Twelve
+  months" (§5.14); the shown day's month at first.
+- **The months:** for each Tibetan month of the span its name, its days
+  as a grid of six to a row (`WorkGrid`, the haircut sheet's grid
+  generalised, §10.3), each cell the lunar date over the dot of the work's
+  side, green, red or without colour where no voice names it, the shown day
+  outlined; with a birth date set, the person's enemy weekday and death
+  mansion drawn as a red ring. Tapping a cell names its civil date, lunar
+  date and side with what decided it ("good · by the combination",
+  "avoid · by Monday"), or that every work is to be avoided for the
+  person, naming the day. Under the grid the work's hours in that month
+  (§5.14): the combination periods good for it and those to avoid it,
+  clock times joined into runs.
+- **The best days:** "Best days, strongest first", each with its civil
+  date as the header gives it, weekday and year ("Mon 19 Oct 2026", since
+  a span runs into the next year), and its Tibetan date, what decides it ("by the combination", "by Wednesday")
+  with the dot of the combination's tone where it has one, the voices
+  standing, the person's own days on it with their dots under "For
+  you", and its nectar periods where their reading names the work. A day
+  opens a balloon with the work, each voice with its kind, and "Open the
+  day", which shows its Tibetan page. The days to avoid have no list.
+- **Notes:** the order's sentence (the texts' order of strength, then the
+  app's sum of weights, saying which is which), the hours' sentence (the
+  same each day of a month; they say when, never which day), and with a
+  birth date set the ring's sentence (WB vol. 2, p. 338).
+- Weighed off the main thread; "Weighing the days…" until the span is
+  ready.
 
 ## 11. Milestones and done criteria
 

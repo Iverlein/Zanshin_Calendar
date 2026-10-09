@@ -11,7 +11,7 @@ in step with the code.
 | --- | --- |
 | `core/` | Pure Kotlin/JVM engines: `tibetan/` (Janson's arithmetic), `kyureki/` (Tenpō rules), `astro/` (Meeus, VSOP87, ΔT), `rational/`, `time/`. No Android, no dependencies. |
 | `core/src/test/resources/vectors/` | Test vectors, tab-separated, source cited in each header. Third-party tables: gitignored, kept only locally; tests that need a missing file are skipped (`vectors()` in `Vectors.kt`). |
-| `cli/` | Desktop tool to print a day, a kyūreki sui or a Tibetan year. |
+| `cli/` | Desktop tool to print a day, a kyūreki sui, a Tibetan year or the election for a work. |
 | `core/src/main/resources/texts/` | The catalog: English names of the terms, reading summaries and list wordings, one `texts_<language>.properties` per translation (SPEC §8.2). |
 | `app/` | Compose UI. Package `zanshin.app`, application id and `R` namespace `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations in `res/values-<lang>/` (Weblate, [docs/weblate.md](docs/weblate.md)), checked by `src/test/.../TranslationsTest.kt`. |
 | `fastlane/metadata/android/en-US/` | F-Droid store listing: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
@@ -29,6 +29,7 @@ in step with the code.
 ./gradlew :app:testDebugUnitTest                       # translations: keys, placeholders, offered languages complete
 ./gradlew :cli:run --args="2026-09-28"                 # one day, as text
 ./gradlew :cli:run --args="--sui 2033"                 # kyūreki months from month 11
+./gradlew :cli:run --args="--elect WEDDING 2026-10-01 --months 2 --all"  # the best days for a work
 ./gradlew :app:assembleDebug                           # APK in app/build/outputs/apk/debug/
 adb -s <serial> install -r app/build/outputs/apk/debug/app-debug.apk
 (cd website && hugo server)                            # the website at localhost:1313

@@ -206,3 +206,45 @@ give as an entry, *snag tsha*, is the ink the strikes, sky doors and
 *gnyan pa* are written in. The verse on the special days agrees with the
 table of p. 341 on all seven kinds it names, Tuesday's *bdud nyi*
 Āśleṣā, as the app has it.
+
+## The election, October 2026
+
+The site's election by activity (`elek.php?tg=2026&m10=10&vd=<n>&type=new`,
+25 activities) was read in a browser on 2026-10-09 for the three works
+of ROADMAP E1 and set against the app's election (`ElectionSpan`, SPEC
+§5.14; `ElectionTest`, "October 2026, ranked"). The site lists good days
+and days to avoid, each "in descending order of strength"; the app's own
+order is SPEC §5.14's.
+
+| Work (site's `vd`) | Site: good, strongest first | Site: avoid | Agree |
+| --- | --- | --- | --- |
+| Haircuts (14, «Стричься, бриться, делать причёску») | 12, 26, 14, 30 | 20, 17, 10 | 7 of 7 |
+| Weddings (12, «Жениться, выходить замуж») | 5, 30 | 18, 4, 11, 25, 28, 7, 27, 17, 31, 24 | 11 of 12 |
+| Setting out (9, «Отправляться в дорогу») | 5, 19, 21, 15, 22, 23 | 4, 11, 18, 3, 31, 10, 17, 24 | 11 of 14 |
+
+The site names fewer days than the app: it leaves out days the app
+weighs good or to avoid. Where it names a day, the app's side differs
+on four, each by a reading of WB's:
+
+- **Weddings, 7 October** (8th month, 27th; Wednesday, water–water): the
+  site avoids it; the app has it good by the combination. WB's verse of
+  the element pairs (vol. 2, p. 333) names taking a bride good for
+  water–water, and the combination is the result "even when the planet
+  and the mansion are each good" (SPEC §5.12).
+- **Setting out, 5 and 19 October** (Mondays; the 8th month's 25th, the
+  9th month's 9th): the site ranks them its two best; the app avoids
+  both by the weekday. WB's Monday verse (vol. 2, pp. 308–309,
+  [weekdays.md](weekdays.md)) names setting out among what to avoid. On
+  the 19th the demon day (བདུད་ཉི, bdud nyi) of WB's table (p. 341) says
+  the same, and so does Henning's list for the day animal, the dog.
+- **Setting out, 11 October** (Sunday, the 9th month's 1st): the site
+  avoids it; the app has it good by the lunar date alone. WB's verse of
+  the 1st (vol. 2, pp. 297–304, [lunar-dates.md](lunar-dates.md)) names
+  setting out good, and no stronger voice names it that day. The site
+  gives no reason; its six results for setting out by date are SN's
+  six-day cycle, not WB's (above).
+
+The site's strongest-first order puts the 12th first for haircuts and
+the 5th for weddings, where the app's are the 26th (Monday's verse, the
+combination lucky) and the 26th again (by the combination); the site
+does not say how it ranks, so the orders are not compared further.
