@@ -325,6 +325,43 @@ object EarthLordCourses {
     fun hourSaRgyal(hourAnimal: Animal): Animal = Animal.entries[(hourAnimal.ordinal + 3) % 12]
 
     /**
+     * The hour's *sa rgyal* the other way (vol. 2, p. 236, «ཡང་ནི་འདི་ལྟར་བཤད་ཀྱང་ཡོད»), the course of *pi ling
+     * 'phar ma*: one hour and one place for each season-month of the Chinese reckoning, from the snake hour
+     * on the upper south in the first of spring to the dragon hour on the bird's place in the last of
+     * winter. The places are given as the animal whose place WB names (vol. 1, p. 254). The late summer's
+     * dog hour reads «ཁྱི» in the Zhol print where the 1996 edition's scan is unclear.
+     */
+    val SA_RGYAL_OTHER: List<Pair<Animal, Animal>> = listOf(
+        SNAKE to SNAKE, HORSE to MONKEY, SHEEP to PIG,
+        MONKEY to SNAKE, BIRD to PIG, DOG to PIG,
+        PIG to DRAGON, MOUSE to SHEEP, OX to DOG,
+        TIGER to RABBIT, RABBIT to HORSE, DRAGON to BIRD,
+    )
+
+    /** The place of the hour's *sa rgyal* the other way in [season] (0 the first of spring), if [hourAnimal] is its hour. */
+    fun hourSaRgyalOther(season: Int, hourAnimal: Animal): Animal? =
+        SA_RGYAL_OTHER[season].takeIf { it.first == hourAnimal }?.second
+
+    /**
+     * The hidden earth lords (*gab pa'i sa bdag*, vol. 2, p. 221), one to each animal, which sit on that
+     * animal's place in its year, month, day and hour («བྱི་བའི་ལོ་ཟླ་ཞག་དུས་ལ། །བྱི་བའི་སྟེང་ན་ས་བདག་ནི། །གཉན་ཁྲ་གནས»), the hour's
+     * "as the month's" (p. 236): their Wylie names, by the animal.
+     */
+    val HIDDEN_LORDS: Map<Animal, String> = mapOf(
+        MOUSE to "gnyan khra", OX to "gnyan ljang", TIGER to "bya khyung", RABBIT to "rus sbal ser po",
+        DRAGON to "ba dan ser po", SNAKE to "tsang kun", HORSE to "byi lam", SHEEP to "be sna lag chen",
+        MONKEY to "gzig mjug", BIRD to "he thon", DOG to "byi dur", PIG to "phyug po",
+    )
+
+    /**
+     * The black sky dog of the hour (vol. 2, p. 236, «དུས་ཚོད་གནམ་ཁྱི་ལོར་བཤད»), as the year's by the new Chinese
+     * reckoning (p. 197), which holds for year, month, day and hour alike: its head on the time's own
+     * animal, its tail on the seventh, the twelve parts of its body in order round the places. The part
+     * that lies on [place] in the hour of [hourAnimal], 1 the head … 12 the neck.
+     */
+    fun gnamKhyiPart(hourAnimal: Animal, place: Animal): Int = Math.floorMod(place.ordinal - hourAnimal.ordinal, 12) + 1
+
+    /**
      * The Paṇchen Mön'drowa's black days by year (p. 235), another view: the season-month and date
      * of each year's black day. The year is the Chinese reckoning's, which begins with the 11th month
      * (the model almanac, vol. 1, p. 154: «ནག་རྩིས་ལོ་འགོ … ཧོར་ཟླ་བཅུ་གཅིག་པ»).

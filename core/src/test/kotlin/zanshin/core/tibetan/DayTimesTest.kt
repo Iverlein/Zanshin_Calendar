@@ -167,10 +167,9 @@ class DayTimesTest {
 
     /**
      * WB p. 182 worked on Henning's 2026 figures: the sun ends the 1st month's 1st date at 21;54,15
-     * (Henning) and the 2nd at 21;58,49, beyond the 1st month's dbugs thob at 21;58 by 0;0,49; the
-     * date ran from 20;10 on 18 February to 19;22 on the 19th, 59;12, so the term falls
-     * 49/274 of it before the 2nd's end: 8.78 chu tshod after daybreak on the 19th, 08:31; from the
-     * unrounded figures 8.72, 08:29.
+     * (Henning) and the 2nd at 21;58,49, beyond the 1st month's dbugs thob at 21;58 by 0;0,49; that
+     * excess over a day's course of 4;26,6 is 0.184 of a day, 11;03 chu tshod, taken from the 2nd's end
+     * at 19;22 on 19 February: 8;19 after daybreak, 08:20 by hand; 08:19 from the unrounded figures.
      */
     @Test
     fun `a dbugs thob worked by hand`() {
@@ -178,9 +177,9 @@ class DayTimesTest {
         val term = DayTimes.sunTerms(t, Phugpa.A2_HENNING).single()
         assertEquals(DayTimes.SunTermKind.DBUGS_THOB, term.what.kind)
         assertEquals(1, term.what.month)
-        val expected = (19 + 22.0 / 60) - 49.0 / 274 * (60 - (20 + 10.0 / 60) + 19 + 22.0 / 60)
+        val expected = (19 + 22.0 / 60) - (49.0 / 60) / (4 + 26 / 60.0 + 6 / 3600.0) * 60
         assertTrue(abs(term.at - expected) < 0.1, "${term.at} vs $expected")
-        assertEquals(8 * 60 + 29, DayTimes.clockMinute(term.at))
+        assertEquals(8 * 60 + 19, DayTimes.clockMinute(term.at), "${term.at}")
     }
 
     @Test
@@ -222,5 +221,32 @@ class DayTimesTest {
     fun `every animal has its place`() {
         for (a in Animal.entries) assertTrue(zanshin.core.texts.gloss(a, "place").isNotBlank())
         assertEquals("upper east", zanshin.core.texts.gloss(Animal.TIGER, "place"))
+    }
+
+    /** WB vol. 2, p. 236: the other way, Piling Parma's hours, one a month from the snake. */
+    @Test
+    fun `the earth king's other way runs one hour a month`() {
+        val hours = EarthLordCourses.SA_RGYAL_OTHER.map { it.first }
+        assertEquals((0 until 12).map { Animal.entries[(Animal.SNAKE.ordinal + it) % 12] }, hours)
+        assertEquals(Animal.SNAKE, EarthLordCourses.hourSaRgyalOther(0, Animal.SNAKE))
+        assertEquals(null, EarthLordCourses.hourSaRgyalOther(0, Animal.HORSE))
+        assertEquals(Animal.PIG, EarthLordCourses.hourSaRgyalOther(5, Animal.DOG))
+    }
+
+    /** WB vol. 2, p. 197: the sky dog's head on the hour's animal, its tail on the seventh. */
+    @Test
+    fun `the hour's sky dog lies head on its own animal`() {
+        for (h in Animal.entries) {
+            assertEquals(1, EarthLordCourses.gnamKhyiPart(h, h))
+            assertEquals(7, EarthLordCourses.gnamKhyiPart(h, Animal.entries[(h.ordinal + 6) % 12]))
+            assertEquals((1..12).toSet(), Animal.entries.map { EarthLordCourses.gnamKhyiPart(h, it) }.toSet())
+        }
+        assertEquals(12, EarthLordCourses.HIDDEN_LORDS.size)
+    }
+
+    /** Open question 15: the divisor is the sun's mean course in a day by the same arithmetic, 4;26,6. */
+    @Test
+    fun `the divisor is a day of the sun's course`() {
+        assertTrue(abs(DayTimes.DAILY_COURSE - (4 + 26 / 60.0 + 6 / 3600.0)) < 1.0 / 3600, "${DayTimes.DAILY_COURSE}")
     }
 }

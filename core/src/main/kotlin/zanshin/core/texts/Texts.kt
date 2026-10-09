@@ -185,6 +185,10 @@ object Sources {
     val WHITE_BERYL_HOUR_EARTH_LORDS = whiteBeryl("pp. 235–236")
     /** The triads' klung rta and the twelve animals' places (vol. 1, p. 254), and the four-slayers counted up and down (p. 235). */
     val WHITE_BERYL_KLUNG_RTA = whiteBeryl("pp. 235 and 254", volume = 1)
+    /** The twelve hidden earth lords by year, month, day and hour (vol. 2, p. 221), the hour's by the month's (p. 236). */
+    val WHITE_BERYL_HIDDEN_LORDS = whiteBeryl("pp. 221 and 236")
+    /** The black sky dog's body over the twelve places, for year, month, day and hour (vol. 2, p. 197), the hour's by the year's (p. 236). */
+    val WHITE_BERYL_GNAM_KHYI = whiteBeryl("pp. 196–197 and 236")
     /** The model almanac, whose day boxes write the courses (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_MODEL_ALMANAC = whiteBeryl("the model almanac, pp. 154–171", volume = 1)
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's astrologer spirit (བླ་མཁྱེན, bla mkhyen) p. 180, the remedy's texts in full p. 189 and the day's mewa (སྨེ་བ, sme ba) p. 192")
@@ -1028,6 +1032,29 @@ object Texts {
         avoidKeys = listOf("spectacles", "funeral_rites", "building_forts"),
         source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
         key = "reading.HourSaRgyal",
+    )
+
+    /** The hour's *sa rgyal* the other way, *pi ling 'phar ma*'s hours (WB vol. 2, p. 236): its avoidances the earth king's. */
+    val HOUR_SA_RGYAL_OTHER = Reading(
+        avoidKeys = HOUR_SA_RGYAL.avoidKeys,
+        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
+        key = "reading.HourSaRgyalOther",
+    )
+
+    /** The hidden earth lord of each hour's animal, on its place (WB vol. 2, pp. 221 and 236); the lord's name fills the summary. */
+    val HOUR_HIDDEN: Map<Animal, Reading> = Animal.entries.associateWith {
+        Reading(
+            avoidKeys = listOf("carrying_out_the_dead"),
+            source = Sources.WHITE_BERYL_HIDDEN_LORDS,
+            key = "reading.HourHidden", arg = "reading.HourHidden.${it.name}",
+        )
+    }
+
+    /** The black sky dog of the hour (WB vol. 2, pp. 197 and 236): its body over the twelve places and what each part forbids. */
+    val HOUR_GNAM_KHYI = Reading(
+        avoidKeys = listOf("building_forts", "funeral_rites", "taking_a_bride", "war", "building_temples_and_stupas"),
+        source = Sources.WHITE_BERYL_GNAM_KHYI, also = listOf(Sources.GDUGS_DKAR),
+        key = "reading.HourGnamKhyi",
     )
 
     /**

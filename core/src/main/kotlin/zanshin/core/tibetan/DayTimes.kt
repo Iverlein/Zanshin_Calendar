@@ -149,26 +149,32 @@ object DayTimes {
     )
 
     /**
-     * The sun's terms that fall in [day] (p. 182): a term falls in the lunar
-     * date at whose end the true sun has reached its measure; if the sun
-     * stands exactly on it, at the date's end, and if beyond, as much
-     * earlier as the sun took to cover the excess («ཚད་བཞིན་མ་ཤར་མང་བ་ཡི། …ཚེས་ཀྱི་ཆུ་ཚོད་ཕྲི་བ་དེའི། །ལྷག་མ་ཟད་ཚེ་འཕོ»),
-     * which can carry it into the day before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»).
-     * The sun's motion is its own across that date: WB's divisor
-     * («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས») is not identified (open question 15).
+     * The sun's course in a day, in chu tshod of its 27 × 60: WB's divisor in the rule for the terms
+     * («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས», p. 182; open question 15), taken as the step requires, the true sun's
+     * excess turned into time by a day of the sun's course («ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས»), its mean by
+     * the same arithmetic: 13/4824 of the round each lunar date, of 11135/11312 of a day, 4;26,6.
+     * The words' legible digits, *chu* 4 and *ro* 6, agree with 4;26.
+     */
+    val DAILY_COURSE: Double = 13.0 / 4824 * 1620 / (11135.0 / 11312)
+
+    /**
+     * The sun's terms that fall in [day] (p. 182): a term falls in the lunar date at whose end the true
+     * sun has reached its measure; if the sun stands exactly on it, at the date's end, and if beyond,
+     * the excess divided by the sun's course in a day ([DAILY_COURSE]) is taken from the date's end
+     * («ཚད་བཞིན་མ་ཤར་མང་བ་ཡི། …ཚེས་ཀྱི་ཆུ་ཚོད་ཕྲི་བ་དེའི། །ལྷག་མ་ཟད་ཚེ་འཕོ»), which can carry it into the day
+     * before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»).
      */
     fun sunTerms(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): List<Change<SunTerm>> = buildList {
         for (n in day.monthCount - 1..day.monthCount + 1) for (d in 1..30) {
             val t1 = end(n, d, a2)
             if (t1 < day.jd || t1 >= day.jd + 3) continue
-            val t0 = end(n, d - 1, a2)
             val s0 = sun(n, d - 1) * 1620
             var s1 = sun(n, d) * 1620
             if (s1 < s0) s1 += 1620
             for (term in SUN_TERMS) {
                 val m = if (term.arc <= s0) term.arc + 1620.0 else term.arc.toDouble()
                 if (m > s1) continue
-                val at = t1 - (s1 - m) / (s1 - s0) * (t1 - t0)
+                val at = t1 - (s1 - m) / DAILY_COURSE
                 if (floor(at).toLong() == day.jd) add(Change(term, (at - day.jd) * 60))
             }
         }
