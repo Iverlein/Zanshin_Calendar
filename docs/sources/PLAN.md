@@ -45,6 +45,16 @@ scratch directory, not in the repository:
 - `agy_read.py DIR IMG…` — transcription by agy, for single hard crops
   (see *Reading with agy* below).
 - `ndl.py WORDS` — NDL catalogue search, for printed Japanese sources.
+- `archive_lend.py login | borrow | pages | view | giveback` — BDRC's
+  restricted scans lent on archive.org (BS, MK, KD and others), under the
+  owner's login from the keyring (`secret-run`, never printed): a
+  one-hour browse loan, and each wanted leaf screenshot from
+  archive.org's own reader in a headed Chromium. The loan's images are
+  obfuscated and are not to be decrypted; the reader's page is what is
+  read. Find a passage's leaf by the BDRC etext's character offset (the
+  search result's `startChar`), then the printed number on the page;
+  `hf_read.py` on the screenshots finds a phrase in a run of leaves.
+  Return the loan and delete the cookie file afterwards.
 - `hf_read.py yigdzin|mitra OUT IMG…` — **the main reader**: BDRC's
   Yigdzin-1 OCR model on the local GPU (`hf_read.py setup VENV` makes its
   environment); MITRA, the runner-up, as witness.
@@ -202,9 +212,9 @@ Searched and found wanting, so not to be repeated:
   Rebkong anthology copying SY.
 - **The Derge print of WB for one letter** (WB2, 1208 px): too small;
   for the 1996 edition's slips use the Taikhang and Zhol prints.
-- **KD's scans** are lent on archive.org only; for a KD text, look for
-  the same work as an open BDRC print (Dharmaśrī: MW9140; Phug pa:
-  MW1NLM5184) and read the passage there.
+- **KD's scans** are lent on archive.org only: read them with
+  `archive_lend.py` (above), or look for the same work as an open BDRC
+  print (Dharmaśrī: MW9140; Phug pa: MW1NLM5184).
 - **BDRC Woodblock-Stacks on WB vol. 2** (2026-10-04): the scans are only
   703 px wide; read as served it gives noise (8% of syllables agree), at
   3× upscaled 76%, its flags almost all its own (dropped vowel signs, ལྷ
