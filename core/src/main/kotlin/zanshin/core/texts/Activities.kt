@@ -1039,6 +1039,19 @@ object Activities {
         "virtuous_works" to of(VIRTUE),
         "putting_on_ornaments_and_clothes" to of(ORNAMENTS, NEW_CLOTHES),
         "the_works_of_a_house" to of(BUILDING, HOUSE_REPAIRS),
+
+        // The White Beryl's earth lords that move by date (vol. 2, pp. 226–235); a child's first outing names no act the lists compare.
+        "sending_hail" to of(DESTROYING),
+        "making_tsatsas" to of(SACRED_SUPPORTS),
+        "seeking_a_grave_site" to of(BUILDING_GRAVES),
+        "seeking_ones_aims" to of(NEW_VENTURES),
+        "taking_a_child_out" to of(),
+        "a_new_couple_joining" to of(WEDDING),
+        "giving_and_taking_dogs" to of(RAISING_DOGS),
+        "a_small_childs_birth_feast_and_first_outing" to of(),
+        "offerings_to_the_gnyan" to of(OFFERINGS),
+        "naga_tormas_and_offerings" to of(OFFERINGS),
+        "remedies_for_the_earth_lords" to of(AVERTING_RITES),
     )
 
     /** The rokuyō's hours, by wording key. */

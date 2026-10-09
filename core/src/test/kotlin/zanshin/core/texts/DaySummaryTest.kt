@@ -225,7 +225,8 @@ class DaySummaryTest {
             if (other > 2 * with) against++
             date = date.plusDays(1)
         }
-        assertEquals(2082, against)
+        // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier.
+        assertEquals(2080, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 

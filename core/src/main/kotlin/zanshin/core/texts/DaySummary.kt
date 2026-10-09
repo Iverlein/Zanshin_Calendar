@@ -16,6 +16,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
+import zanshin.core.tibetan.RahuBySeason
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.element
@@ -344,7 +345,10 @@ data class DaySummary(
             // Rāhu is reckoned by direction: it names works but takes no side on the day as a whole.
             val rahu = Voice(
                 DayFactor.RAHU,
-                listOfNotNull(Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day]).map {
+                listOfNotNull(
+                    Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day],
+                    RahuBySeason.of(day.month, day.day)?.let { Texts.RAHU_SEASON[it] },
+                ).map {
                     Member(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it))
                 },
             )

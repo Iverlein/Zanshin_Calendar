@@ -29,6 +29,9 @@ import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.Direction
+import zanshin.core.tibetan.CourseDay
+import zanshin.core.tibetan.CourseEvent
+import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
@@ -156,6 +159,10 @@ object Sources {
     /** Chapter 34, the important works one by one, whose lists the kun phan me long's boxes digest (SPEC §5.10). */
     val WHITE_BERYL_WORKS = whiteBeryl("pp. 378–428")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
+    /** The earth lords that move by date (ch. 31), with their results in ch. 33 (the strikes p. 364, the sky doors pp. 368–369). */
+    val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
+    /** The model almanac, whose day boxes write the courses (docs/sources/earth-lord-courses.md). */
+    val WHITE_BERYL_MODEL_ALMANAC = whiteBeryl("the model almanac, pp. 154–171", volume = 1)
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's astrologer spirit (བླ་མཁྱེན, bla mkhyen) p. 180, the remedy's texts in full p. 189 and the day's mewa (སྨེ་བ, sme ba) p. 192")
     /** The five texts the bla mkhyen's remedy names (WB vol. 2, p. 180), in one print of the Collected Dhāraṇīs. */
     val GZUNGS_BSDUS = Source(
@@ -795,6 +802,142 @@ object Texts {
 
     private fun rahuMonth(arg: String) =
         Reading(goodKeys = listOf("fierce_rites"), source = Sources.WHITE_BERYL_RAHU, key = "reading.RahuMonth", arg = "reading.RahuMonth.$arg")
+
+    /**
+     * Rāhu among the earth lords that move by date ([RahuBySeason], WB vol. 2, p. 232, section 27): the
+     * dates of each season-month he seeks food on, when works great and small for the living and the
+     * dead are avoided and hurling zor and fierce work are auspicious. Keyed by season-month, 0–10; the
+     * last month of winter has none.
+     */
+    val RAHU_SEASON: Map<Int, Reading> = (0..10).associateWith {
+        Reading(
+            goodKeys = listOf("hurling_zor", "fierce_rites"), avoidKeys = listOf("works_for_the_dead_and_the_living"),
+            source = Sources.WHITE_BERYL_EARTH_LORD_COURSES, key = "reading.RahuSeason", arg = "reading.RahuSeason.$it",
+        )
+    }
+
+    /**
+     * The earth lords that move by date ([EarthLordCourses], WB vol. 2, pp. 226–235;
+     * docs/sources/earth-lord-courses.md): each course's reading, the whole course as WB gives it
+     * under `reading.EarthLord.<COURSE>`, with the lists of what it names good and to avoid. A strike
+     * names good what its turning names to avoid (p. 232: «ཐེབས་ལ་ … བཟང་། །བཟློག་ལ་དེ་དག་སྤང་བར་བྱ།»; p. 234 the
+     * nāgas'); the *gnyan*'s strikes are judged "by the reasoning above" and carry no lists of their own.
+     * Shown, not weighed: WB's order of strength (vol. 2, p. 376) does not rank the earth lords (SPEC §5.12).
+     */
+    fun earthLord(day: CourseDay): Reading {
+        val c = day.course
+        val key = "reading.EarthLord.${c.name}"
+        fun r(good: List<String> = emptyList(), avoid: List<String> = emptyList(), arg: String? = null) = Reading(
+            goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_EARTH_LORD_COURSES,
+            also = listOf(Sources.WHITE_BERYL_MODEL_ALMANAC), key = key, arg = arg,
+        )
+        val strike = day.event == CourseEvent.STRIKES
+        fun struck(works: List<String>) =
+            if (strike) r(good = works, arg = "$key.STRIKES") else r(avoid = works, arg = "$key.TURNS_BACK")
+        val base = when (c) {
+            EarthLordCourse.NAG_CHUNG -> r(avoid = listOf("death_rites", "taking_a_bride", "consecration", "feasts", "funeral_rites", "sending_out_wealth"))
+            EarthLordCourse.PI_LING -> r(
+                good = listOf("suppressing_and_gtad", "sending_hail", "hurling_zor", "throwing_mdos_and_torma", "attacking", "fierce_rites"),
+                avoid = listOf(
+                    "everything", "taking_a_bride", "moving_house", "building", "building_walls", "consecration", "building_temples_and_stupas",
+                    "death_rites", "enthronement", "burial", "funeral_rites", "spectacles", "feasts", "drawing_mandalas", "raising_banners", "digging",
+                ),
+            )
+            EarthLordCourse.ZIN_PHUNG -> r(
+                avoid = when (day.variant) {
+                    "middle" -> listOf("everything")
+                    "0" -> listOf("building", "making_tsatsas", "drawing_mandalas", "filling_holes", "roofing", "seeking_a_grave_site")
+                    "1" -> listOf("earthworks", "work_with_water", "digging_ponds_and_canals", "sowing", "grain_work", "wells")
+                    "2" -> listOf("earthworks", "building_walls")
+                    else -> listOf("earthworks", "building_temples_and_stupas", "laying_foundations")
+                } + listOf("council", "taking_a_bride", "spectacles", "feasts", "building", "carrying_out_a_corpse", "funeral_rites", "war_and_raids").let {
+                    if (day.variant == "middle") emptyList() else it
+                }.distinct(),
+                arg = "$key.${day.variant}",
+            )
+            EarthLordCourse.PHUNG_ZOR -> r(
+                good = listOf("black_rites"),
+                avoid = listOf(
+                    "seeking_ones_aims", "moving_house", "feasts", "retreat_practice", "empowerment", "teaching", "giving_vows", "council",
+                    "sending_messages", "taking_a_child_out", "carrying_out_a_corpse", "taking_a_bride", "burial", "war_and_raids", "spectacles",
+                    "funeral_rites", "works_for_the_dead_and_the_living", "paying_debts", "virtuous_work", "building",
+                ),
+            )
+            EarthLordCourse.KI_KANG -> r(
+                good = listOf("fierce_and_harsh_work"),
+                avoid = listOf("works_for_the_dead_and_the_living", "war", "spectacles", "paying_debts", "pacifying_rites", "virtuous_work"),
+            )
+            EarthLordCourse.HAL_KHYI -> r(
+                good = listOf("directing_magic", "bad_work"),
+                avoid = listOf(
+                    "taking_a_bride", "building", "spectacles", "feasts", "funeral_rites", "war", "carrying_out_a_corpse", "giving_and_taking_dogs",
+                    "moving_house", "counsel", "virtuous_work",
+                ),
+            )
+            EarthLordCourse.GNAM_KHYI -> r(avoid = listOf("works_for_the_dead_and_the_living", "taking_a_bride", "building", "carrying_out_a_corpse"))
+            EarthLordCourse.GNAM_SBYOR -> r(avoid = listOf("a_new_couple_joining", "taking_a_bride", "carrying_out_a_corpse"))
+            EarthLordCourse.GZA_RGOD -> r(good = listOf("throwing_mdos_and_torma", "fierce_rites"), avoid = listOf("giving_and_taking_a_bride", "carrying_out_a_corpse"))
+            EarthLordCourse.DBUL_PO -> r(
+                avoid = listOf(
+                    "feasts", "giving_wealth", "building", "taking_a_bride", "naming_a_child", "teaching", "consecration", "spectacles", "roofing",
+                    "raising_banners", "carrying_out_a_corpse", "planting_fields", "opening_storehouses", "works_for_the_dead_and_the_living",
+                ),
+            )
+            EarthLordCourse.GZA_BDUN -> r(
+                good = listOf("black_rites"),
+                avoid = listOf("white_work", "carrying_out_a_corpse", "funeral_rites", "building", "taking_a_bride", "taking_a_child_out"),
+            )
+            EarthLordCourse.NGAM_SHING -> r(
+                good = listOf("honouring_a_spiritual_friend", "enthronement", "teaching", "inviting_a_teacher", "honouring_and_service"),
+                avoid = listOf("taking_a_bride"),
+            )
+            EarthLordCourse.BAR_KHYI -> r(
+                avoid = listOf(
+                    "taking_a_bride", "cremation", "roofing", "consecration", "building", "spectacles", "feasts", "raising_banners", "seeking_ones_aims",
+                ),
+            )
+            EarthLordCourse.KA_KHYUNG -> r(good = listOf("fierce_rites"), avoid = listOf("everything"))
+            EarthLordCourse.DRA_CHEN -> r(avoid = listOf("feasts", "taking_a_bride", "carrying_out_a_corpse", "war", "works_for_the_dead_and_the_living"))
+            EarthLordCourse.SDE_BRGYAD -> struck(
+                listOf("hurling_zor", "throwing_mdos_and_torma", "suppressing_and_gtad", "sending_hail", "war_and_raids", "attacking", "fierce_rites"),
+            )
+            EarthLordCourse.SA_BDAG_BZLOG -> r(
+                avoid = listOf("leading_an_army", "suppressing_and_gtad", "sending_hail", "bringing_rain", "breaking_ground", "naga_tormas_and_offerings"),
+            )
+            EarthLordCourse.SPUG_STON -> when (day.variant) {
+                "grub" -> r(good = listOf("remedies_for_the_earth_lords"), arg = "$key.grub")
+                "yal" -> r(avoid = listOf("remedies_for_the_earth_lords"), arg = "$key.yal")
+                else -> r(avoid = listOf("sending_out_wealth", "sending_out_livestock"), arg = "$key.nor")
+            }
+            EarthLordCourse.GNYAN -> when (day.event) {
+                CourseEvent.MOVES -> r(good = listOf("offerings_to_the_gnyan"), avoid = listOf("everything"), arg = "$key.MOVES")
+                else -> r(arg = "$key.${day.event.name}")
+            }
+            EarthLordCourse.KLU -> struck(listOf("naga_tormas_and_offerings", "bringing_rain", "suppressing_and_gtad"))
+            EarthLordCourse.CLASS_TIMES -> r(arg = "$key.${day.variant!!.replace(' ', '_')}")
+            EarthLordCourse.GNAM_SGO -> r(
+                avoid = when (day.variant) {
+                    "mgron po" -> listOf("seeking_ones_aims", "receiving_guests")
+                    "tshong" -> listOf("trade")
+                    "bu chung" -> listOf("a_small_childs_birth_feast_and_first_outing")
+                    "dmag" -> listOf("leading_an_army")
+                    "gnyen" -> listOf("marriage_alliances", "feasts")
+                    "mkhar" -> listOf("building_forts")
+                    "bag ma" -> listOf("taking_a_bride")
+                    "dur" -> listOf("burial")
+                    "shid" -> listOf("funeral_rites")
+                    else -> listOf("everything")
+                },
+                arg = "$key.${day.variant!!.replace(' ', '_')}",
+            )
+        }
+        // A date of another view WB reports, or of what "some say": its own text, the course's lists.
+        return when {
+            !day.otherView -> base
+            c == EarthLordCourse.SDE_BRGYAD || c == EarthLordCourse.KLU -> base.copy(arg = "$key.STRIKES_other")
+            else -> base.copy(key = "$key.${day.variant}", arg = null)
+        }
+    }
 
     /**
      * Jupiter's nectar periods ([zanshin.core.tibetan.nectarHours]): the rule,
