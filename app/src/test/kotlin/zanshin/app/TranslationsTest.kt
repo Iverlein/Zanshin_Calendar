@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import org.w3c.dom.Element
+import zanshin.core.texts.TibetanNaming
 import java.io.File
 import java.util.Properties
 import javax.xml.parsers.DocumentBuilderFactory
@@ -94,42 +95,52 @@ class TranslationsTest {
     }
 
     /**
-     * SPEC §8.1: the interface and the store listing name a text by its
-     * English name, then its Tibetan script and Wylie in brackets, as the
-     * catalog does (core's CatalogTest). The detail label "In the White
-     * Beryl" is the one exception: a label column, its sheet's source line
-     * gives the title in full.
+     * SPEC §8.1: the interface and the store listing name every Tibetan word
+     * by its English name, then its Tibetan script and Wylie in brackets, as
+     * the catalog does (core's CatalogTest), and a translation names the same
+     * words as English. The detail label "In the White Beryl" is the one
+     * exception: a label column, its sheet's source line gives the title in
+     * full.
      */
     @Test
-    fun `texts are named in English with their Tibetan and Wylie`() {
-        val tibetan = Regex("[\\u0F00-\\u0FFF]")
-        val bracket = Regex("\\(([^()]*)\\)")
-        val pair = Regex("[\\u0F00-\\u0FFF]+, [^\\u0F00-\\u0FFF]+")
+    fun `Tibetan words are named in English with their Tibetan and Wylie`() {
         val texts = mutableMapOf<String, String>()
+        val counterpart = mutableMapOf<String, String>()
         for (file in listOf(File(res, "values/strings.xml")) + translations) {
             val nodes = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file).getElementsByTagName("string")
             for (i in 0 until nodes.length) {
                 val e = nodes.item(i) as Element
-                if (e.getAttribute("name") != "detail_white_beryl") texts["${file.parentFile.name} ${e.getAttribute("name")}"] = e.textContent.replace("\\'", "'")
+                val name = e.getAttribute("name")
+                if (name == "detail_white_beryl") continue
+                val where = "${file.parentFile.name} $name"
+                texts[where] = e.textContent.replace("\\'", "'")
+                if (file.parentFile.name != "values") counterpart[where] = "values $name"
             }
         }
-        File("../fastlane/metadata/android").walkTopDown().filter { it.isFile && it.extension == "txt" }.forEach { texts[it.path] = it.readText() }
+        val listing = File("../fastlane/metadata/android")
+        listing.walkTopDown().filter { it.isFile && it.extension == "txt" }.forEach { f ->
+            texts[f.path] = f.readText().replace(Regex("<[^>]+>"), " ")
+            val english = File(listing, "en-US/" + f.relativeTo(listing).path.substringAfter('/'))
+            if (!f.path.contains("/en-US/") && english.exists()) counterpart[f.path] = english.path
+        }
         assertTrue(texts.keys.any { "changelogs" in it })
-        for ((where, text) in texts) {
-            val inBrackets = bracket.findAll(text).filter { tibetan.containsMatchIn(it.value) }.toList()
-            for (b in inBrackets) {
-                for (part in b.groupValues[1].split("; ")) assertTrue(pair.matches(part), "$where: «$part» is not «Tibetan, Wylie»")
-            }
-            val outside = inBrackets.fold(text) { t, b -> t.replace(b.value, "") }
-            assertTrue(!tibetan.containsMatchIn(outside), "$where: Tibetan script outside a bracket")
-            if (Regex("White Beryl|берилл").containsMatchIn(text)) assertTrue("bai DUr dkar po" in text, "$where: the White Beryl without its Tibetan title")
-            for (wylie in WYLIE_TITLES) assertTrue(wylie !in outside, "$where: «$wylie» without its Tibetan")
+        val catalogs = listOf("", "_ru").map { catalog(it) }
+        val known = TibetanNaming.engineWylie +
+            (texts.values + catalogs.flatMap { it.values }).flatMap { TibetanNaming.pairs(it).map { p -> p.second } } - ALSO_ENGLISH
+        val wrong = mutableListOf<String>()
+        for ((where, text) in texts.toSortedMap()) {
+            TibetanNaming.problems(text, known).forEach { wrong += "$where: $it" }
+            if (Regex("White Beryl|берилл").containsMatchIn(text) && "bai DUr dkar po" !in text) wrong += "$where: the White Beryl without its Tibetan title"
+            val english = counterpart[where]?.let { texts[it] } ?: continue
+            val (en, here) = TibetanNaming.pairs(english).toSet() to TibetanNaming.pairs(text).toSet()
+            if (en != here) wrong += "$where: names ${here - en}, English ${en - here}"
         }
+        assertEquals("", wrong.joinToString("\n"))
     }
 
     private companion object {
-        /** Texts the interface names, whose Wylie must stand beside their Tibetan. */
-        val WYLIE_TITLES = listOf("kun phan me long", "dbyangs 'char", "gtsug lag", "zla ba'i 'od zer", "bai DUr")
+        /** Wylie that is also an English word, left out of the check: the fire element's *me*. */
+        val ALSO_ENGLISH = setOf("me")
 
         val PLACEHOLDER = Regex("%(\\d+\\$)?[-.\\d]*[sdf]")
     }

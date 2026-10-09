@@ -57,7 +57,7 @@
     <!-- element, gender and animal, e.g. "Fire male Horse" -->
     <string name="tib_year_full">%1$s %2$s %3$s</string>
     <string name="row_royal_year">Royal year</string>
-    <string name="row_rabjung">Rabjung</string>
+    <string name="row_rabjung">Rabjung (རབ་བྱུང, rab byung)</string>
     <!-- e.g. "17th cycle, year 40" -->
     <string name="tib_rabjung">%1$s cycle, year %2$d</string>
     <string name="row_weekday">Weekday</string>
@@ -133,9 +133,9 @@
     <string name="detail_its_hour">The hour\'s %1$s</string>
     <string name="section_lunar_day">Lunar day</string>
     <string name="row_trigram">Trigram</string>
-    <string name="row_date_sme_ba">Date\'s sme ba</string>
+    <string name="row_date_sme_ba">Date\'s mewa (སྨེ་བ, sme ba)</string>
     <string name="row_day_sign">Day sign</string>
-    <string name="row_date_animal">Date\'s animal (nyi ma)</string>
+    <string name="row_date_animal">Date\'s animal (ཉི་མ, nyi ma)</string>
     <!-- for screen readers -->
     <string name="pebbles_mixed">%1$d white and %2$d black pebbles</string>
     <!-- for screen readers -->
@@ -203,7 +203,7 @@
     <string name="change_location">Change location</string>
     <string name="menu_close">Close menu</string>
     <string name="menu_calendar">CALENDAR</string>
-    <string name="menu_tibetan_subtitle">Phugpa</string>
+    <string name="menu_tibetan_subtitle">Phugpa (ཕུག་པ, phug pa)</string>
     <string name="menu_kyureki">旧暦 Kyūreki</string>
     <string name="menu_kyureki_subtitle">Tenpō rules, rokuyō</string>
     <string name="menu_settings">SETTINGS</string>
@@ -223,7 +223,7 @@
     <string name="back">Back</string>
     <string name="about_title">About &amp; sources</string>
     <string name="about_tibetan_title">Tibetan calendar</string>
-    <string name="about_tibetan">Phugpa version, computed with the arithmetic of Svante Janson, “Tibetan Calendar Mathematics” (2007, revised 2014 and 2022), epoch 806, with the moon\'s daily anomaly of 1/28 used by the Men-Tsee-Khang almanac. Lunar mansion, yoga, karaṇa and the lunar-day cycles follow Janson §10 and Appendix E. Checked against Janson\'s table of Losar dates for 1927–2046 and, day by day, against Edward Henning\'s computed Phugpa calendars (kalacakra.org).</string>
+    <string name="about_tibetan">Phugpa (ཕུག་པ, phug pa) version, computed with the arithmetic of Svante Janson, “Tibetan Calendar Mathematics” (2007, revised 2014 and 2022), epoch 806, with the moon\'s daily anomaly of 1/28 used by the Men-Tsee-Khang (སྨན་རྩིས་ཁང, sman rtsis khang) almanac. Lunar mansion, yoga, karaṇa and the lunar-day cycles follow Janson §10 and Appendix E. Checked against Janson\'s table of Losar (ལོ་གསར, lo gsar) dates for 1927–2046 and, day by day, against Edward Henning\'s computed Phugpa calendars (kalacakra.org).</string>
     <string name="about_kyureki_title">旧暦</string>
     <string name="about_kyureki">Tenpō rules in Japan Standard Time: months begin on the day of new moon and are numbered by the major solar term they contain. For 2033 the leap month is 閏11月, the recommended resolution of the 2033 problem. Solar terms, new moons and 雑節 are checked against the National Astronomical Observatory of Japan (暦要項).</string>
     <string name="about_rekichu_title">暦注</string>
@@ -231,9 +231,9 @@
     <string name="about_astronomy_title">Sun and moon</string>
     <string name="about_astronomy">Jean Meeus, “Astronomical Algorithms” (2nd ed., 1998): new moons from chapter 49, the sun from the VSOP87D series of Bretagnon and Francou, ΔT from the polynomials of Espenak and Meeus (NASA). Everything is computed on this phone; the app has no internet access.</string>
     <string name="about_readings_title">Readings</string>
-    <string name="about_readings">Every reading names its source. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, 十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: Lama Zopa Rinpoche\'s translation of the hair-cutting days (FPMT, 2008); Edition Rabten\'s Tibetan calendar; Edward Henning\'s symbolic details of the calendar and his electional astrology of the five components (the lunar mansions and the activity lists); and Jigme Lingpa\'s Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu\'i phan yon gsol \'debs) from Lotsawa House; the colours and arrangement of the nine numbers from Alexander Berzin\'s Details of Tibetan Astrology (Study Buddhism); the four aspects and the pebbles of the day, month and year from the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso with Lochen Dharmashri\'s Moonbeams (ཟླ་བའི་འོད་ཟེར, zla ba\'i \'od zer). Readings not adapted from Wikipedia are the app\'s own English summaries of the cited sources, under the app\'s licence.</string>
+    <string name="about_readings">Every reading names its source. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, 十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: the translation of the hair-cutting days by Lama Zopa Rinpoche (བླ་མ་བཟོད་པ་རིན་པོ་ཆེ, bla ma bzod pa rin po che), FPMT, 2008; Edition Rabten\'s Tibetan calendar; Edward Henning\'s symbolic details of the calendar and his electional astrology of the five components (the lunar mansions and the activity lists); and the Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu\'i phan yon gsol \'debs) by Jigme Lingpa (འཇིགས་མེད་གླིང་པ, \'jigs med gling pa) from Lotsawa House; the colours and arrangement of the nine numbers from Alexander Berzin\'s Details of Tibetan Astrology (Study Buddhism); the four aspects and the pebbles of the day, month and year from the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho) with the Moonbeams (ཟླ་བའི་འོད་ཟེར, zla ba\'i \'od zer) of Lochen Dharmashri (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI). Readings not adapted from Wikipedia are the app\'s own English summaries of the cited sources, under the app\'s licence.</string>
     <string name="about_tibetan_script_title">Tibetan</string>
-    <string name="about_tibetan_script">Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso; their pronunciation follows the THL Simplified Phonetic Transcription of Standard Tibetan (David Germano and Nicolas Tournadre, 2003).</string>
+    <string name="about_tibetan_script">Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho); their pronunciation follows the THL Simplified Phonetic Transcription of Standard Tibetan (David Germano and Nicolas Tournadre, 2003).</string>
     <string name="about_glyphs_title">Glyphs</string>
     <string name="about_glyphs">Festival glyphs are drawn for this app and share its licence.</string>
     <string name="about_cities_title">Cities</string>
@@ -313,9 +313,9 @@
     <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) puts the special days of weekday and mansion below the weekday and the mansion, whose own results are the main thing, and its almanac writes the burning date with them.</string>
     <string name="tib_burning_date_subtitle">burning date of weekday and date: %1$s</string>
     <string name="tib_rahu_courses">its course by date and its course in the month</string>
-    <string name="tib_bla_mkhyen_title">The astrologer spirit (bla mkhyen)</string>
-    <string name="tib_bla_mkhyen_subtitle">%1$s · the day\'s sme ba %2$d, counted from the solstice</string>
-    <string name="detail_day_sme_ba">The day\'s sme ba</string>
+    <string name="tib_bla_mkhyen_title">The astrologer spirit (བླ་མཁྱེན, bla mkhyen)</string>
+    <string name="tib_bla_mkhyen_subtitle">%1$s · the day\'s mewa (སྨེ་བ, sme ba) %2$d, counted from the solstice</string>
+    <string name="detail_day_sme_ba">The day\'s mewa (སྨེ་བ, sme ba)</string>
     <string name="detail_sme_ba_count">Counted from</string>
     <string name="sme_ba_count_up">the wood-mouse day %1$s (%2$d), upwards: after the winter solstice</string>
     <string name="sme_ba_count_down">the wood-mouse day %1$s (%2$d), downwards: after the summer solstice</string>
@@ -323,7 +323,7 @@
     <!-- the bla mkhyen's compass (SPEC §5.11): the caption under it, %1$s a direction -->
     <string name="bla_mkhyen_compass_caption">Today: %1$s, the day\'s seven-red</string>
     <!-- under the square that finds it; %1$d is the day's sme ba -->
-    <string name="bla_mkhyen_square_caption">How it is found: the day\'s sme ba %1$d in the middle of the square of nine, south at the top; the 7 is outlined, the arrow points to it from the middle.</string>
+    <string name="bla_mkhyen_square_caption">How it is found: the day\'s mewa (སྨེ་བ, sme ba) %1$d in the middle of the square of nine, south at the top; the 7 is outlined, the arrow points to it from the middle.</string>
     <!-- %1$s is the compass caption above -->
     <string name="desc_bla_mkhyen_compass">The astrologer spirit\'s direction, north at the top. %1$s</string>
     <string name="tib_nectar_title">Nectar periods</string>

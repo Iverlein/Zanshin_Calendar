@@ -40,6 +40,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
@@ -93,10 +94,23 @@ fun GlossText(
     reading: String? = null,
     preferAbove: Boolean = false,
     modifier: Modifier = Modifier,
-    /** Replaces the reading and English rows, for terms with more to say (Tibetan: Wylie, phonetics, English). */
+    /** Replaces the reading and English rows, for terms with more to say. */
     rows: List<BalloonRow>? = null,
     /** What a screen reader says for [text]. */
     spoken: String = text,
+) = GlossText(AnnotatedString(text), english, style, reading, preferAbove, modifier, rows, spoken)
+
+/** As above, for a term that mixes scripts: a Tibetan term as its name, script and Wylie (SPEC §8.1). */
+@Composable
+fun GlossText(
+    text: AnnotatedString,
+    english: String,
+    style: TextStyle,
+    reading: String? = null,
+    preferAbove: Boolean = false,
+    modifier: Modifier = Modifier,
+    rows: List<BalloonRow>? = null,
+    spoken: String = text.text,
 ) {
     var open by remember { mutableStateOf(false) }
     val actionLabel = stringResource(R.string.action_english)
@@ -142,7 +156,7 @@ data class Annotation(
     val spokenTitle: String? = null,
     /** How the entry was worked out, as label and value, shown under the reading. */
     val details: List<Pair<String, String>> = emptyList(),
-    /** The term's Tibetan name as Wylie and English, shown in script under the gloss; tapping it gives the Wylie and phonetics. */
+    /** The term's Tibetan name as Wylie and English, shown under the gloss as SPEC §8.1 names it; tapping it gives the phonetics. */
     val tibetan: Pair<String, String>? = null,
     /** Drawn in place of the tone dot (the 恵方 compass). */
     val lead: (@Composable () -> Unit)? = null,
@@ -192,7 +206,7 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
         Column(Modifier.weight(1f)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(
-                a.title,
+                withTibetan(a.title),
                 style = if (a.titleIsKanji) {
                     body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 17.sp)
                 } else {
@@ -244,8 +258,8 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             if (a.parts.isEmpty()) {
                 ReadingBody(a, large = true)
             } else {
-                Text(a.title, style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
-                Text(a.english, style = body.copy(color = Palette.muted))
+                Text(withTibetan(a.title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
+                Text(withTibetan(a.english), style = body.copy(color = Palette.muted))
                 DecidesNote(a)
                 a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
@@ -264,7 +278,7 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Box(Modifier.size(10.dp).background(toneColor(a.tone), CircleShape))
                 Text(
-                    a.title,
+                    withTibetan(a.title),
                     style = when {
                         a.titleIsKanji -> body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = if (large) 28.sp else 22.sp)
                         large -> body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold)

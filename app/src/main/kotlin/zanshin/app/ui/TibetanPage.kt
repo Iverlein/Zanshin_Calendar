@@ -33,6 +33,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -101,7 +102,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
 
     val holiday = day.holiday
     val holidayAnnotation = holiday?.let {
-        Annotation(it.festival.title, it.festival.english, Tone.GOOD, Texts.TIBETAN_FESTIVAL[it.festival], titleIsKanji = false)
+        Annotation(it.festival.namedTitle, it.festival.english, Tone.GOOD, Texts.TIBETAN_FESTIVAL[it.festival], titleIsKanji = false)
     }
 
     Column(
@@ -119,6 +120,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 40.sp, color = accent).tight(1.1f),
                     modifier = Modifier.clickable(role = Role.Button) { sheet = holidayAnnotation },
                 )
+                // A title in phonetics carries its Tibetan (SPEC §8.1), on its own line under the headline.
+                holiday.festival.wylie?.let { w ->
+                    Text(withTibetan(Ewts.named(holiday.name, w).removePrefix(holiday.name).trim()), style = body.copy(fontSize = 16.sp, color = Palette.muted))
+                }
                 Text(withTibetan(holiday.festival.english), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
                 holiday.movedFromDay?.let {
                     Text(stringResource(R.string.tib_moved_from_day, it), style = body.copy(fontSize = 14.sp, color = Palette.muted))
@@ -152,13 +157,14 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         }
 
         Column {
+            // The month by its Sanskrit name, as English writes it, with its Tibetan (SPEC §8.1).
             val monthWylie = day.monthNames.wylie
-            val monthScript = remember(monthWylie) { Ewts.toTibetan(monthWylie) }
             val monthSaid = remember(monthWylie) { Thl.toPhonetic(monthWylie) }
+            val monthBracket = SpanStyle(fontSize = 16.sp, fontWeight = FontWeight.Normal, color = Palette.muted)
             BalloonText(
                 text = buildAnnotatedString {
                     append("${labels.month(day.month, day.leapMonth)} · ")
-                    if (monthScript != null) withStyle(SpanStyle(fontFamily = TibetanSerif)) { append(monthScript) } else append(monthWylie)
+                    append(namedTerm(day.monthNames.sanskrit, monthWylie, monthBracket))
                 },
                 style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.Medium),
                 open = balloon == TibetanBalloon.MONTH,
@@ -166,10 +172,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 underline = false,
                 description = "${labels.month(day.month, day.leapMonth)}, ${monthSaid ?: monthWylie}",
                 rows = listOfNotNull(
-                    monthScript?.let { BalloonRow(stringResource(R.string.row_tibetan), it, tibetanStyle(16.sp)) },
-                    BalloonRow(stringResource(R.string.row_wylie), monthWylie),
                     monthSaid?.let { BalloonRow(stringResource(R.string.row_say), it) },
-                    BalloonRow(stringResource(R.string.row_sanskrit), day.monthNames.sanskrit),
                     BalloonRow(stringResource(R.string.row_animal), stringResource(R.string.tib_animal_month, gloss(day.monthNames.animal))),
                     BalloonRow(stringResource(R.string.row_season_kalacakra), day.monthNames.season),
                     BalloonRow(stringResource(R.string.row_season_chinese), day.monthNames.chineseSeason),
@@ -203,7 +206,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 open = balloon == TibetanBalloon.DAY,
                 onToggle = { toggle(TibetanBalloon.DAY) },
                 rows = listOf(
-                    BalloonRow(stringResource(R.string.row_weekday), "${day.weekday.english} · gza’ ${day.weekday.wylie}"),
+                    BalloonRow(stringResource(R.string.row_weekday), Ewts.named(day.weekday.english, "gza' ${day.weekday.wylie}")),
                     BalloonRow(stringResource(R.string.row_planet), day.weekday.planet),
                     BalloonRow(stringResource(R.string.row_element), gloss(day.dayElement)),
                     BalloonRow(stringResource(R.string.row_day_sign), gloss(day.dayAnimal)),
@@ -317,7 +320,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.ownDayTone(it),
                     Texts.OWN_DAY[it],
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to "${Ewts.toTibetan(it.wylie)} (${it.wylie})"),
+                    details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
                 )
             }
             when (weekdayRoles.size) {
@@ -344,7 +347,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         Texts.PERSONAL_MANSION[it],
                         subtitle = personalMansionSubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to it.wylie),
+                        details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
                     ),
                 )
             }
@@ -357,7 +360,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                         Texts.OWN_DAY[it],
                         subtitle = birthMansionSubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to "${Ewts.toTibetan(it.wylie)} (${it.wylie})"),
+                        details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
                     ),
                 )
             }
@@ -369,7 +372,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             // The day's readings in the rank of the White Beryl and the kun phan me long (SPEC §5.12):
             // the combination, Rāhu, the weekday and the mansion, the special days, the date, karaṇa and yoga.
             val great = day.greatCombination
-            val greatScript = "${Ewts.toTibetan(great.wylie)} (${great.wylie})"
+            val greatScript = Ewts.named(great.english, great.wylie)
             val pair = day.elementPair
             val pairElements: @Composable () -> Unit = {
                 CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp)
@@ -391,7 +394,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 ),
                 Annotation(
                     "${day.weekday.element.english} – ${day.mansion.element.english}",
-                    "${pair.english} (${pair.wylie})",
+                    Ewts.named(pair.english, pair.wylie),
                     if (pair.auspicious) Tone.GOOD else Tone.BAD,
                     Texts.ELEMENT_PAIR[pair],
                     subtitle = pairSubtitle,
@@ -433,7 +436,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     subtitle = weekdaySubtitle,
                     titleIsKanji = false,
                     glyphs = { CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp) },
-                    tibetan = "gza’ ${day.weekday.wylie}" to day.weekday.english,
+                    tibetan = "gza' ${day.weekday.wylie}" to day.weekday.english,
                     decides = decides(DayFactor.WEEKDAY),
                 ),
             )
@@ -447,13 +450,13 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     mansionReading,
                     subtitle = mansionSubtitle,
                     titleIsKanji = false,
-                    tibetan = day.mansion.wylie to "${day.mansion.sanskrit} — ${day.mansion.english}",
+                    tibetan = day.mansion.wylie to day.mansion.english,
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
             )
             val specials = day.combinationDays.map { it to false }.plus(day.gtsugLagDays.map { it to true }).map { (c, gtsugLag) ->
-                val cScript = "${Ewts.toTibetan(c.wylie)} (${c.wylie})"
+                val cScript = Ewts.named(c.english, c.wylie)
                 Annotation(
                     c.english.replaceFirstChar(Char::uppercase),
                     cScript,
@@ -466,7 +469,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             } + listOfNotNull(
                 // The burning date stands with them, as in the White Beryl's almanac (SPEC §5.12).
                 if (day.burningDate) {
-                    val bScript = "${Ewts.toTibetan("bsreg tshes")} (bsreg tshes)"
+                    val bScript = Ewts.named(Catalog.text("BurningDate"), "bsreg tshes")
                     Annotation(
                         Catalog.text("BurningDate").replaceFirstChar(Char::uppercase),
                         bScript,
@@ -518,8 +521,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.KARANA[day.karana],
                     subtitle = karanaSubtitle,
                     titleIsKanji = false,
-                    tibetan = day.karana.wylie to "${day.karana.sanskrit} — ${day.karana.english}",
-                    details = listOf(whiteBerylLabel to day.karana.whiteBeryl),
+                    tibetan = day.karana.wylie to day.karana.english,
+                    details = listOf(whiteBerylLabel to Ewts.named(day.karana.english, day.karana.whiteBeryl)),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
                     diagram = { KaranaRing(day.karana, 280.dp) },
                     decides = decides(DayFactor.KARANA),
@@ -533,8 +536,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.YOGA[day.yoga],
                     subtitle = yogaSubtitle,
                     titleIsKanji = false,
-                    tibetan = day.yoga.wylie to "${day.yoga.sanskrit} — ${day.yoga.english}",
-                    details = listOf(whiteBerylLabel to day.yoga.whiteBeryl),
+                    tibetan = day.yoga.wylie to day.yoga.english,
+                    details = listOf(whiteBerylLabel to Ewts.named(day.yoga.english, day.yoga.whiteBeryl)),
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
                     diagram = { YogaRing(day.yoga, 280.dp) },
                     decides = decides(DayFactor.YOGA),
@@ -629,10 +632,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 lead = { CueIcon(CueGlyphs.ANIMAL.getValue(day.lunarDayAnimal), Palette.text, 22.dp) },
                 onClick = { sheet = animalAnnotation },
             )
-            val goddessScript = "${Ewts.toTibetan(day.trigram.goddess)} (${day.trigram.goddess})"
+            val goddessScript = Ewts.named(day.trigram.goddessName, day.trigram.goddess)
             val trigramAnnotation = Annotation(
                 goddessScript,
-                stringResource(R.string.tib_trigram_subtitle, day.trigram.wylie),
+                stringResource(R.string.tib_trigram_subtitle, day.trigram.english),
                 Tone.NEUTRAL,
                 Texts.TRIGRAM[day.trigram],
                 titleIsKanji = false,
@@ -641,7 +644,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             FactRow(
                 stringResource(R.string.row_trigram),
                 day.trigram.wylie,
-                "${day.trigram.chinese} — ${day.trigram.english}",
+                day.trigram.english,
+                gloss = "${day.trigram.chinese} — ${day.trigram.english}",
                 lead = { TrigramBars(day.trigram, 22.dp) },
                 onClick = { sheet = trigramAnnotation },
             )
@@ -758,40 +762,41 @@ internal fun clockSpan(start: Int, minutes: Int): String {
 fun tibetanStyle(size: TextUnit): TextStyle = body.copy(fontFamily = TibetanSerif, fontSize = size * 1.15f)
 
 /**
- * A Tibetan term in Tibetan script, or in Wylie when the spelling is not one
- * the converter reads. Tapping it shows the Wylie, how it is said (THL
- * phonetics) and the English (SPEC §10.1); screen readers get the phonetics.
+ * A Tibetan term as SPEC §8.1 names it: its English [name], then its script
+ * and Wylie in brackets. Tapping it shows how it is said (THL phonetics) and
+ * the [gloss] (SPEC §10.1); screen readers get the name and the phonetics.
  */
 @Composable
-fun TibetanTerm(wylie: String, english: String, size: TextUnit = 16.sp, preferAbove: Boolean = false, modifier: Modifier = Modifier) {
-    val script = remember(wylie) { Ewts.toTibetan(wylie) }
+fun TibetanTerm(wylie: String, name: String, size: TextUnit = 16.sp, preferAbove: Boolean = false, modifier: Modifier = Modifier, gloss: String = name) {
+    val text = remember(name, wylie) { namedTerm(name, wylie) }
     val said = remember(wylie) { Thl.toPhonetic(wylie) }
     GlossText(
-        text = script ?: wylie,
-        english = english,
-        style = if (script != null) tibetanStyle(size) else body.copy(fontSize = size),
+        text = text,
+        english = gloss,
+        style = body.copy(fontSize = size),
         preferAbove = preferAbove,
         modifier = modifier,
         rows = listOfNotNull(
-            BalloonRow(stringResource(R.string.row_wylie), wylie),
             said?.let { BalloonRow(stringResource(R.string.row_say), it) },
-            BalloonRow(stringResource(R.string.row_english), english),
+            BalloonRow(stringResource(R.string.row_english), gloss),
         ),
-        spoken = said ?: wylie,
+        spoken = "$name, ${said ?: wylie}",
     )
 }
 
 /**
- * A labelled fact whose value is a term: tapping the term shows its English.
- * [swatch] draws its colour before it. A Tibetan term sits on the label's
- * baseline: its script hangs from a head line, so centring the boxes would
- * lift it above the label.
+ * A labelled fact whose value is a term: tapping the term shows its English;
+ * a Tibetan [term] is its Wylie, shown with its [english] name (SPEC §8.1) and
+ * its [gloss] on tap. [swatch] draws its colour before it. A Tibetan term
+ * sits on the label's baseline: its script hangs from a head line, so
+ * centring the boxes would lift it above the label.
  */
 @Composable
 fun FactRow(
     label: String,
     term: String,
     english: String,
+    gloss: String = english,
     tibetan: Boolean = true,
     kanji: Boolean = false,
     swatch: Color? = null,
@@ -804,8 +809,10 @@ fun FactRow(
         Modifier.fillMaxWidth().heightIn(min = 40.dp).let { if (onClick != null) it.clickable(onClick = onClick) else it },
         verticalAlignment = if (tibetan && lead == null) Alignment.Top else Alignment.CenterVertically,
     ) {
+        // A label naming a Tibetan word keeps its bracket whole on a line of its own (SPEC §8.1).
+        val bracket = label.indexOf(" (").takeIf { it > 0 && label.substring(it).any { c -> c in '\u0F00'..'\u0FFF' } }
         Text(
-            label,
+            if (bracket == null) AnnotatedString(label) else withTibetan(label.substring(0, bracket) + "\n" + label.substring(bracket + 1)),
             style = body.copy(fontSize = 14.sp, color = Palette.muted),
             modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (tibetan && lead == null) it.alignByBaseline() else it },
         )
@@ -822,7 +829,7 @@ fun FactRow(
             )
         }
         if (tibetan) {
-            TibetanTerm(term, english, preferAbove = true, modifier = if (lead == null) Modifier.alignByBaseline() else Modifier)
+            TibetanTerm(term, english, preferAbove = true, modifier = if (lead == null) Modifier.alignByBaseline() else Modifier.weight(1f), gloss = gloss)
         } else if (kanji) {
             GlossText(
                 term,

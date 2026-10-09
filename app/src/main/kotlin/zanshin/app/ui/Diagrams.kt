@@ -43,6 +43,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.drawText
@@ -51,6 +52,7 @@ import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.Hyphens
 import androidx.compose.ui.text.style.LineBreak
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -120,8 +122,12 @@ private fun DrawScope.arcStroke(c: Offset, r: Float, a0: Float, a1: Float, color
     drawArc(color, a0 - 90f, a1 - a0, false, topLeft = Offset(c.x - r, c.y - r), size = Size(2 * r, 2 * r), style = Stroke(width, cap = cap))
 }
 
-private fun DrawScope.label(measurer: TextMeasurer, text: String, at: Offset, style: TextStyle) {
-    val layout = measurer.measure(text, style)
+private fun DrawScope.label(measurer: TextMeasurer, text: String, at: Offset, style: TextStyle) =
+    label(measurer, AnnotatedString(text), at, style)
+
+/** A label centred on [at], wrapped within [maxWidth] px when given (a named Tibetan term in a ring's centre). */
+private fun DrawScope.label(measurer: TextMeasurer, text: AnnotatedString, at: Offset, style: TextStyle, maxWidth: Int? = null) {
+    val layout = measurer.measure(text, style, constraints = maxWidth?.let { Constraints(maxWidth = it) } ?: Constraints())
     drawText(layout, topLeft = Offset(at.x - layout.size.width / 2f, at.y - layout.size.height / 2f))
 }
 
@@ -130,7 +136,7 @@ private val captionStyle get() = body.copy(fontSize = 14.sp, color = Palette.mut
 
 @Composable
 private fun Caption(text: String) {
-    Text(text, style = captionStyle, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
+    Text(withTibetan(text), style = captionStyle, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
 }
 
 // ---------------------------------------------------------------- 六曜
@@ -724,7 +730,7 @@ fun MansionRing(today: Mansion, size: Dp, small: Boolean = false) {
     val measurer = rememberTextMeasurer()
     val step = 360f / 27f
     val sel = Mansion.entries[selected]
-    val script = remember(sel) { Ewts.toTibetan(sel.wylie) }
+    val named = remember(sel) { namedTerm(sel.english, sel.wylie) }
     Canvas(
         Modifier
             .size(size)
@@ -757,9 +763,9 @@ fun MansionRing(today: Mansion, size: Dp, small: Boolean = false) {
             }
         }
         if (!small) {
-            label(measurer, sel.sanskrit, Offset(c.x, c.y - r1 * 0.22f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
-            label(measurer, script ?: sel.wylie, c, if (script != null) tibetanStyle(18.sp) else body.copy(fontSize = 16.sp))
-            label(measurer, "${sel.english} · ${sel.element.english}", Offset(c.x, c.y + r1 * 0.24f), body.copy(fontSize = 12.sp, color = Palette.faint))
+            label(measurer, sel.sanskrit, Offset(c.x, c.y - r1 * 0.3f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
+            label(measurer, named, c, body.copy(fontSize = 13.sp, lineHeight = 17.sp, textAlign = TextAlign.Center), maxWidth = (r0 * 1.5f).toInt())
+            label(measurer, sel.element.english, Offset(c.x, c.y + r1 * 0.3f), body.copy(fontSize = 12.sp, color = Palette.faint))
         }
     }
 }
@@ -922,7 +928,7 @@ fun CombinationTable(weekday: Weekday, mansion: Mansion) {
         Text(stringResource(R.string.combination_table_axes), style = body.copy(fontSize = 11.sp, color = Palette.faint), modifier = Modifier.padding(top = 4.dp))
         val (w, m) = selected
         val g = GreatCombination.of(w, m)
-        Caption("${w.english} · ${m.sanskrit}: ${g.english} (${g.wylie}) · ${toneLabel(if (g.lucky) Tone.GOOD else Tone.BAD)}")
+        Caption("${w.english} · ${m.sanskrit}: ${Ewts.named(g.english, g.wylie)} · ${toneLabel(if (g.lucky) Tone.GOOD else Tone.BAD)}")
     }
 }
 
@@ -1009,13 +1015,12 @@ private fun CellRing(
     description: String,
     tone: (Int) -> Tone,
     arc: IntRange? = null,
-    centre: @Composable (Int) -> Triple<String, String?, String>,
+    centre: @Composable (Int) -> Triple<String, AnnotatedString, String>,
 ) {
     var selected by remember(today) { mutableIntStateOf(today) }
     val measurer = rememberTextMeasurer()
     val step = 360f / n
-    val (name, wylie, note) = centre(selected)
-    val script = remember(wylie) { wylie?.let { Ewts.toTibetan(it) } }
+    val (name, named, note) = centre(selected)
     Canvas(
         Modifier
             .size(size)
@@ -1051,9 +1056,9 @@ private fun CellRing(
         }
         if (!small) {
             arc?.let { arcStroke(c, r0 - 5.dp.toPx(), it.first * step + 2f, (it.last + 1) * step - 2f, Palette.lineStrong, 1.5.dp.toPx(), StrokeCap.Round) }
-            label(measurer, name, Offset(c.x, c.y - r1 * 0.22f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
-            label(measurer, script ?: wylie.orEmpty(), c, if (script != null) tibetanStyle(18.sp) else body.copy(fontSize = 16.sp))
-            label(measurer, note, Offset(c.x, c.y + r1 * 0.28f), body.copy(fontSize = 12.sp, lineHeight = 15.sp, color = Palette.faint, textAlign = TextAlign.Center))
+            label(measurer, name, Offset(c.x, c.y - r1 * 0.3f), body.copy(fontSize = 19.sp, fontWeight = FontWeight.SemiBold))
+            label(measurer, named, c, body.copy(fontSize = 13.sp, lineHeight = 17.sp, textAlign = TextAlign.Center), maxWidth = (r0 * 1.5f).toInt())
+            label(measurer, note, Offset(c.x, c.y + r1 * 0.32f), body.copy(fontSize = 12.sp, lineHeight = 15.sp, color = Palette.faint, textAlign = TextAlign.Center))
         }
     }
 }
@@ -1077,7 +1082,7 @@ fun KaranaRing(today: Karana, size: Dp, small: Boolean = false) {
         arc = 1..7,
     ) { i ->
         val k = KARANA_RING[i]
-        Triple(k.sanskrit, k.wylie, "${k.english}\n${if (i in 1..7) moving else fixed}")
+        Triple(k.sanskrit, namedTerm(k.english, k.wylie), if (i in 1..7) moving else fixed)
     }
 }
 
@@ -1093,7 +1098,7 @@ fun YogaRing(today: Yoga, size: Dp, small: Boolean = false) {
         tone = { Texts.YOGA_TONE.getValue(Yoga.entries[it]) },
     ) { i ->
         val y = Yoga.entries[i]
-        Triple(y.sanskrit, y.wylie, "${y.english} · ${toneLabel(Texts.YOGA_TONE.getValue(y))}")
+        Triple(y.sanskrit, namedTerm(y.english, y.wylie), toneLabel(Texts.YOGA_TONE.getValue(y)))
     }
 }
 

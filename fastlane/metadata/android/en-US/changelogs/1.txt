@@ -1,1 +1,1 @@
-First release: the Tibetan (Phugpa) and old Japanese calendars with almanac readings and their sources, sunrise and sunset, offline city search and personal days from your birth date.
+First release: the Tibetan calendar of the Phugpa (ཕུག་པ, phug pa) and the old Japanese calendar with almanac readings and their sources, sunrise and sunset, offline city search and personal days from your birth date.

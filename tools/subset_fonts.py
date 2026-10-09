@@ -14,7 +14,11 @@ Noto Serif Tibetan (SIL OFL 1.1) is a variable font of about 2 MB. Its
 Tibetan is generated at run time from Wylie (core/.../tibetan/Ewts.kt), so it
 never appears in the sources: the subset keeps the whole Tibetan block, with
 every layout feature, since stacked letters need shaping. The weight axis is
-pinned to one instance.
+pinned to one instance. Its line metrics (hhea and OS/2) are set to Figtree's:
+the app sets Tibetan inside Latin lines, in titles, rows and labels (SPEC
+§8.1), and Noto's own, sized for the tallest stacks, made every such line
+three times as tall and pushed its Latin baseline down. The glyphs are not
+touched; their ink may pass the line box, which Compose does not clip.
 
 Source fonts: https://github.com/google/fonts/tree/main/ofl/shipporimincho
 and https://github.com/google/fonts/tree/main/ofl/notoseriftibetan
@@ -65,6 +69,19 @@ def subset_to(font, text, target):
     print(f"{target}: {(OUT / target).stat().st_size} bytes, {len(text)} characters")
 
 
+def figtree_line_metrics(font):
+    """Give [font] the vertical line metrics of the bundled Figtree, scaled to its em."""
+    ref = TTFont(OUT / "figtree.ttf")
+    scale = font["head"].unitsPerEm / ref["head"].unitsPerEm
+    ascent = round(ref["hhea"].ascent * scale)
+    descent = round(ref["hhea"].descent * scale)
+    font["hhea"].ascent, font["hhea"].descent, font["hhea"].lineGap = ascent, descent, 0
+    os2 = font["OS/2"]
+    os2.sTypoAscender, os2.sTypoDescender, os2.sTypoLineGap = ascent, descent, 0
+    os2.usWinAscent = round(ref["OS/2"].usWinAscent * scale)
+    os2.usWinDescent = round(ref["OS/2"].usWinDescent * scale)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("mincho", nargs="*", help="Shippori Mincho Medium and Bold")
@@ -76,6 +93,7 @@ def main():
             subset_to(TTFont(source), text, target)
     if args.tibetan:
         font = instancer.instantiateVariableFont(TTFont(args.tibetan), {"wght": TIBETAN_WEIGHT})
+        figtree_line_metrics(font)
         subset_to(font, " " + TIBETAN_BLOCK, "noto_serif_tibetan.ttf")
 
 

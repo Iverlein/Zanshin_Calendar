@@ -19,6 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.em
 import io.github.iverlein.zanshin.R
+import zanshin.core.tibetan.Ewts
 
 /** The palette of the basic design (SPEC §10), dark only. */
 object Palette {
@@ -74,6 +75,17 @@ fun withTibetan(text: String): AnnotatedString = buildAnnotatedString {
         from = m.range.last + 1
     }
     append(text.substring(from))
+}
+
+/**
+ * A Tibetan term as SPEC §8.1 names it: [name], then its script and Wylie in
+ * brackets, the brackets in [bracket] where the name is set large (a festival
+ * headline, the month).
+ */
+fun namedTerm(name: String, wylie: String, bracket: SpanStyle? = null): AnnotatedString = buildAnnotatedString {
+    append(name)
+    val rest = withTibetan(Ewts.named(name, wylie).removePrefix(name))
+    if (bracket == null) append(rest) else withStyle(bracket) { append(rest) }
 }
 
 /** Large numerals and every kanji: a subset of Shippori Mincho (tools/subset_fonts.py). */

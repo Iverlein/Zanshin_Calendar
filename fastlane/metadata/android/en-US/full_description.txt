@@ -1,12 +1,12 @@
 Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place.
 
-<b>Tibetan calendar (Phugpa)</b>
+<b>Tibetan calendar, Phugpa (ཕུག་པ, phug pa)</b>
 <ul>
 <li>Lunar day, month and year, with skipped and doubled days and leap months</li>
-<li>Festivals: Losar, Chötrul Düchen, Saga Dawa Düchen, Chökhor Düchen, Lhabab Düchen and others</li>
+<li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others</li>
 <li>Monthly observances on the 8th, 10th, 15th, 25th and 30th</li>
 <li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
-<li>The readings of the lunar mansion, date, weekday, yoga, karaṇa and trigram, the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (bla mkhyen)</li>
+<li>The readings of the lunar mansion, date, weekday, yoga, karaṇa and trigram, the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (བླ་མཁྱེན, bla mkhyen)</li>
 <li>A day in brief, weighed as the texts rank their factors: what the activity lists name good or to avoid, and the day's tone</li>
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
 <li>A round dial of the hours: the combination period of each hour and Jupiter's nectar periods</li>
@@ -21,7 +21,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Seasonal markers (雑節), festivals, the day and year signs (干支) and the lucky direction of the year (恵方)</li>
 </ul>
 
-Tap any Tibetan term or kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid, with the published source it comes from.
+Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid, with the published source it comes from.
 
 Glyphs show at a glance what the day's almanac favours and warns against; dials, rings and boards in the readings show where each term stands in its cycle.
 

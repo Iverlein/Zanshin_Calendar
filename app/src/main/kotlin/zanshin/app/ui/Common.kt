@@ -143,7 +143,7 @@ fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, onDismiss: () 
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
                     Text(row.label, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                     Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) {
-                        Text(row.value, style = row.valueStyle ?: body.copy(fontSize = 14.sp))
+                        Text(withTibetan(row.value), style = row.valueStyle ?: body.copy(fontSize = 14.sp))
                     }
                 }
             }
