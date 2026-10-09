@@ -221,7 +221,8 @@ day by day against Henning's computed calendars (§9):
 | Yoga | ⌊27 × (moon at daybreak + true sun)⌋ (10.4)–(10.5); Tibetan names as printed in Phugpa almanacs |
 | Karaṇa | the half lunar day in effect at daybreak: H = ⌊60 × (moon − sun)⌋ + 1, fixed for H = 1, 58, 59, 60 |
 | Lunar-day animal, trigram, number | Janson (E.9)–(E.11); the first date's trigram by the month's animal and its sme ba by the season (1 white, 4 green, 7 in the first, middle and last months of the Chinese reckoning's seasons) as the White Beryl's almanac verse gives them, vol. 1, p. 178 (`AlmanacPageTest`, [sources/almanac-page.md](sources/almanac-page.md)) |
-| Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008) |
+| Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008); FPMT's list, not the White Beryl's, which gives no haircut results by date (ROADMAP T2.15) |
+| Washing the hair | the White Beryl's thirty hair dates (vol. 2, p. 404): what washing the hair on each date brings, a detail of the lunar date's reading; the good and bad dates that follow them are the list of KP box 37, whose worn bad line they fill (the 27th on neither side; `ElectionalTest`, [sources/hair-dates.md](sources/hair-dates.md)) |
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
@@ -996,6 +997,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | 雑節, 節句, 十三夜 | NAOJ 暦Wiki |
 | O-Bon by the Gregorian date | Japanese Wikipedia お盆 |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
+| Washing the hair by date | The White Beryl, vol. 2, p. 404 (BDRC MW2CZ8040) |
 | Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
 | Own days by the birth date | The White Beryl, vol. 2, pp. 312, 330, 337–338 and 345–346 (BDRC MW2CZ8040); the birth mansion after Phug pa Lhun grub rgya mtsho's commentary on the *dbyangs 'char*, ch. 3 (BDRC MW1NLM5184) |
@@ -1161,7 +1163,10 @@ canvas "Zanshin Calendar — basic design".
   shows the days of the Tibetan month with the side the weighing gives
   haircuts on each, and gives FPMT's day for the date as one of the date's
   lists, marked outweighed on the days it is (decided by the owner,
-  2026-10-06). The weekday, mansion, karaṇa and yoga rows carry their
+  2026-10-06), and marked as not the White Beryl's: WB has no haircut
+  results by date, and its thirty hair dates (p. 404) are for washing the
+  hair, shown in the lunar date's sheet as a "Washing the hair" detail
+  (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). The weekday, mansion, karaṇa and yoga rows carry their
   Tibetan names in their sheets, under the gloss ("Tibetan" with the term
   named as §8.1 writes it, tapping it for the phonetics), so that no section
   repeats them (decided by the owner, 2026-10-07: the five components

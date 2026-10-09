@@ -339,10 +339,10 @@ KP img. 41, KP2 img. 262.
 KP img. 46, KP2 img. 267.
 
 - **Good:** Mon Wed Thu Fri; dates 3, 4, 5, 6, 8, 10, 11, 13, 15, 16, 18, 19, 22, 23, 26; smin drug, snar ma, mgo, lag, tha skar, chu stod, sa ri, chu smad, khrums smad, nam gru, nag pa, mon gre
-- **Bad:** Tue Sat; dates 1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 27, 28, 29, 30; rgyal, mchu, sa ga, khrums stod, gre, bra nye
+- **Bad:** Tue Sat; dates 1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 28, 29, 30; rgyal, mchu, sa ga, khrums stod, gre, bra nye
 - **Neither side:** the Sun (good for bathing, bad for washing the hair); gro bzhin (good for shaving the head); rgyal on the 25th of the Horse month and mgo on the 8th (named for particular merits)
 - **Not calculated:** Abhijit (good); the twelve links; rising signs
-- The two halves divide the thirty dates between them; the bad half's second line is worn, and the complement of the good dates is taken. A table below gives what bathing on each date brings, after another tradition.
+- The two halves divide the thirty dates between them; the bad half's second line is worn. The complement of the good dates was taken for it until WB's p. 404 was read (2026-10-09, [hair-dates.md](hair-dates.md)): the good half is WB's good list date for date, and WB's bad list names the 27th on neither side, so the box's bad dates are WB's, without the 27th. A table below gives what bathing on each date brings, after another tradition.
 
 ### 39. Enthronement — རྒྱལ་སར་འཇུག་པ་ལ་བཟང་བ
 

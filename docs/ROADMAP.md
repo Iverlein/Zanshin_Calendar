@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
@@ -44,7 +44,7 @@ moves up as soon as it is unblocked.
 | 3 | U4 + U5 — built 2026-10-09 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
 | 4 | T3 Element colours — built 2026-10-09 | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
 | 5 | T2.11 WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
-| 6 | T2.15 Hair by date | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
+| 6 | T2.15 Hair by date — built 2026-10-09 | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
 | 7 | T2.14 The 11th month's 6th | 5; then the owner's decision | Build block 7: T2.14, read WB p. 226's nine bad days, then ask me to decide against Rabten's festival. |
 | 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
 | 9 | E1 + E2 + E3, with E6's election half | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
@@ -298,20 +298,21 @@ good and evil" are not in WB's etext and are not built.
 - **Done when.** The festival table and its sheet follow the decision;
   SPEC §5.7.
 
-#### T2.15 Hair: cutting and washing by date — S reading, then S
+#### T2.15 Hair: cutting and washing by date — built 2026-10-09 (SPEC §5.8, §10.3)
 
-- **Gap.** WB has no list of haircut results by date: haircuts are named in
-  the weekday and mansion verses and chapter 34's work 50, which the app
-  already weighs. The haircut sheet shows FPMT's results by date. WB's
-  chapter 34 work 34 gives "bathing and washing the hair, with the dates'
-  results" (p. 404), and the calendar's washing list matches FPMT's
-  *haircut* list on several dates (20, 22, 24–25, 29, 30).
-- **Work.** Read p. 404's dates' results on the scan and set them against
-  FPMT's list. If FPMT's is WB's washing list, the sheet says so and the
-  results move to washing the hair; if not, the sheet keeps FPMT's list
-  marked as FPMT's and not WB's, and WB's washing results join the lunar
-  date's reading.
-- **Done when.** The sheet and the reading follow; SPEC §10.3.
+- **Gap.** The haircut sheet showed FPMT's results by date; WB has no
+  list of haircut results by date, and its chapter 34 work 34 gives
+  "bathing and washing the hair, with the dates' results" (p. 404), which
+  a WB-based calendar shows close to FPMT's haircut list.
+- **Built.** Read on the scan ([hair-dates.md](sources/hair-dates.md)):
+  WB's thirty hair dates are for washing the hair, "differing a little"
+  from chapter 33's date readings. FPMT's list is of the same family (the
+  same result on 17 dates, the same side on 25) but not WB's. The lunar
+  date's sheet gains a "Washing the hair" detail with WB's result
+  (`Texts.HAIR_DATE`, English and Russian); the haircut sheet keeps
+  FPMT's day, weighed as before, marked as not WB's. KP box 37's worn bad
+  line takes WB's bad dates, which leave the 27th on neither side
+  (`ElectionalTest`). SN's table agrees and is witness only.
 
 #### T2.16 The la's place: the sides and the animals — built 2026-10-08 (SPEC §5.11)
 
@@ -513,7 +514,7 @@ it. The plan is item E below.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
-   T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15,
+   T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
    then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13;
    then T2.20, T2.21 and T2.22 (after T2.20's *sgang*); T2.23 last, the largest.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.

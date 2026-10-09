@@ -178,7 +178,9 @@ entry.
   །གནམ་གང་རྣམས་ངན་བཅུ་གཅིག་དང་། །བཅོ་བརྒྱད་ལ་ནི་བཟང» — Uttarabhādrapadā
   and the 4th bad, the 11th good.
 - **34 Bathing** (p. 404): Anurādhā (༡༦) good; «ཁྱི་སྟག་ཉི་མ་སྤང» — the
-  Dog and Tiger days bad.
+  Dog and Tiger days bad. The thirty hair dates' results and the good and
+  bad dates after them, read 2026-10-09: [hair-dates.md](hair-dates.md); the
+  good dates are the box's, its bad dates WB's, without the 27th.
 - **36 Enthronement** (p. 405): «ཚེས་གྲངས་གཅིག་གཉིས་བརྒྱད་དགུ་བཅུ། །བཅུ་གཅིག་བཅུ་གཉིས་བཅུ་གསུམ་དང་།
   །བཅོ་ལྔ་བཅོ་བརྒྱད་རྣམས་ལ་བཟང། … རྒྱ་ནག་རྩིས་འབྲས་ལྟར་བརྗོད་ན། །བདུན་བརྒྱད་དགུ་བཅུ་བཀག་པ་ཡོད།
   །དྲུག་གསུམ་བཅུ་དགུ་ཉི་ཤུ་དང་། །ཉེར་གཅིག་ནས་བཟུང་གནམ་གང་བར། །ངན»
