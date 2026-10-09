@@ -6,13 +6,14 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Festivals: Losar (ལོ་གསར, lo gsar), Chötrul Düchen (ཆོ་འཕྲུལ་དུས་ཆེན, cho 'phrul dus chen), Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), Chökhor Düchen (ཆོས་འཁོར་དུས་ཆེན, chos 'khor dus chen), Lhabab Düchen (ལྷ་བབས་དུས་ཆེན, lha babs dus chen) and others</li>
 <li>Monthly observances on the 8th, 10th, 15th, 25th and 30th</li>
 <li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
+<li>What changes within the day, as the almanac of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) writes it: a second mansion, a skipped yoga, the span of Viṣṭi and the sun's terms, each with its time</li>
 <li>The readings of the lunar mansion, date, weekday, yoga, karaṇa and trigram, the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (བླ་མཁྱེན, bla mkhyen)</li>
 <li>A day in brief, weighed as the texts rank their factors: what the activity lists name good or to avoid, and the day's tone</li>
 <li>Choose a day: the best days for a work over one to twelve months, ranked as the texts weigh them, with its good hours in each month</li>
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
-<li>A round dial of the hours: the combination period of each hour and Jupiter's nectar periods</li>
+<li>A round dial of the hours: the combination period of each hour, Jupiter's nectar periods, the earth lords of the hour and the black hours</li>
 <li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the personal mansions and the white and black pebbles of the year, month, day and each hour</li>
-<li>Your year of age by the elemental divination of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po): the mewa (སྨེ་བ, sme ba), trigram (སྤར་ཁ, spar kha) and progressed sign (ལོག་མེན, log men) of the year, its twenty-four pebbles with their predictions, growth and decline, and the obstacle years, each with its reading</li>
+<li>Your year of age by the elemental divination of the White Beryl: the mewa (སྨེ་བ, sme ba), trigram (སྤར་ཁ, spar kha) and progressed sign (ལོག་མེན, log men) of the year, its twenty-four pebbles with their predictions, growth and decline, and the obstacle years, each with its reading</li>
 </ul>
 
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
