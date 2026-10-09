@@ -28,6 +28,7 @@ import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.CourseEvent
@@ -178,6 +179,10 @@ object Sources {
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     /** The earth lords that move by date (ch. 31), with their results in ch. 33 (the strikes p. 364, the sky doors pp. 368–369). */
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
+    /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */
+    val WHITE_BERYL_TIMES = whiteBeryl("pp. 177–178, and chapter 15, pp. 180–182", volume = 1)
+    /** The earth lords of the hour, after those that move by date (docs/sources/earth-lord-courses.md). */
+    val WHITE_BERYL_HOUR_EARTH_LORDS = whiteBeryl("pp. 235–236")
     /** The model almanac, whose day boxes write the courses (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_MODEL_ALMANAC = whiteBeryl("the model almanac, pp. 154–171", volume = 1)
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's astrologer spirit (བླ་མཁྱེན, bla mkhyen) p. 180, the remedy's texts in full p. 189 and the day's mewa (སྨེ་བ, sme ba) p. 192")
@@ -980,6 +985,39 @@ object Texts {
         goodKeys = listOf("auspicious_work", "reconciliation", "raising_banners", "preparing_medicine", "consecration", "bringing_rain", "council"),
         source = Sources.KUN_PHAN_ME_LONG_NECTAR, also = listOf(Sources.KUN_PHAN_ME_LONG),
         key = "reading.NectarPeriods",
+    )
+
+    /**
+     * The sun's terms (WB vol. 1, ch. 15, [zanshin.core.tibetan.DayTimes.sunTerms]): what each kind is
+     * and how the almanac dates it. No lists: WB names no works for them.
+     */
+    val SUN_TERM: Map<DayTimes.SunTermKind, Reading> = DayTimes.SunTermKind.entries.associateWith {
+        Reading(source = Sources.WHITE_BERYL_TIMES, key = "reading.SunTerm", arg = "reading.SunTerm.${it.name}")
+    }
+
+    /**
+     * The earth lords of the hour (WB vol. 2, p. 235): *g.yu mdzod sngon mo*, the god of the hours, and
+     * the earth lords *khang brtsegs* and *mtsho sngon*, each on the place of the hour that it is, as the
+     * day's earth lord on its day's («དུས་ཚོད་གང་ཡིན་སྟེང་ན་གནས», «དུས་ཚོད་རང་རང་ཐོག་ན་གནས»); what WB names bad
+     * there. The hour's *bla mkhyen* and *sa rgyal* are not built (docs/sources/earth-lord-courses.md).
+     */
+    val HOUR_EARTH_LORDS = Reading(
+        avoidKeys = listOf("giving_and_taking_a_bride", "funeral_rites", "building_a_hearth", "burial", "building_forts", "moving_house"),
+        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.SNANG_BRGYAD, Sources.GDUGS_DKAR, Sources.TOG_GZUNGS, Sources.GZUNGS_BSDUS),
+        key = "reading.HourEarthLords",
+    )
+
+    /**
+     * The black hours ([zanshin.core.tibetan.EarthLordCourses.blackHour], WB vol. 2, p. 236): the
+     * important works bad, fierce work meeting the hour strikes home.
+     */
+    val BLACK_HOUR = Reading(
+        goodKeys = listOf("fierce_rites"),
+        avoidKeys = listOf(
+            "seeking_a_grave_site", "building_forts", "feasts", "consecration", "enthronement", "teaching_dharma", "taking_a_new_land",
+            "taking_a_bride", "important_works",
+        ),
+        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, key = "reading.BlackHour",
     )
 
     /**

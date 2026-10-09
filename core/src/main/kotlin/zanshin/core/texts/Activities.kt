@@ -349,6 +349,7 @@ object Activities {
     /** Every wording of the "good for" and "avoid" lists, by its catalog key, with the act it names. */
     val BY_WORDING: Map<String, Set<Activity>> = mapOf(
         "everything" to of(EVERYTHING),
+        "important_works" to of(EVERYTHING),
         "celebrations" to of(CELEBRATION),
 
         "weddings" to of(WEDDING),

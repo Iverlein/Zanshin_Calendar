@@ -111,6 +111,12 @@ data class TibetanDay(
     val smeBa: Int,
     /** Monthly observance on this lunar day, if any; none in leap months' days are excluded. */
     val specialDay: SpecialDay?,
+    /** The true month count n of the day's month (Janson (5.2)–(5.9)). */
+    val monthCount: Long,
+    /** The moon at daybreak in revolutions, whose mansion is [mansion]: the almanac's figure of the day. */
+    val moon: Rational,
+    /** The true sun at the end of the day's lunar date in revolutions (Janson (7.23)), with [moon] the yoga's sum. */
+    val sun: Rational,
 )
 
 object TibetanCalendar {
@@ -209,6 +215,9 @@ object TibetanCalendar {
             trigram = Trigram.entries[amod(day + 6 * monthAnimal + 6, 8) - 1],
             smeBa = amod(day + 3 * monthAnimal, 9),
             specialDay = SpecialDay.entries.firstOrNull { it.day == day },
+            monthCount = n,
+            moon = moon,
+            sun = sun,
         )
     }
 

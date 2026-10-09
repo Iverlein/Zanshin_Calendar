@@ -291,6 +291,14 @@ object EarthLordCourses {
     }
 
     /**
+     * The black hours (p. 236), "known together with the above": as the black days meet the month with
+     * the date, they meet the date with the hour, «བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་དུས་ཚོད་ནག»: on a day of the mouse or
+     * the horse, the bird and hare hours are black. The day is the date's animal.
+     */
+    fun blackHour(dateAnimal: Animal, hourAnimal: Animal): Boolean =
+        hourAnimal.ordinal == (dateAnimal.ordinal + 3) % 12 || hourAnimal.ordinal == (dateAnimal.ordinal + 9) % 12
+
+    /**
      * The Paṇchen Mön'drowa's black days by year (p. 235), another view: the season-month and date
      * of each year's black day. The year is the Chinese reckoning's, which begins with the 11th month
      * (the model almanac, vol. 1, p. 154: «ནག་རྩིས་ལོ་འགོ … ཧོར་ཟླ་བཅུ་གཅིག་པ»).
