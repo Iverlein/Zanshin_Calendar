@@ -93,6 +93,21 @@ object DayTimes {
         return if (d in VISTI_LATER) mid to stop else start to mid
     }
 
+    /** When [day]'s own lunar date ends, in chu tshod after daybreak; none on the first of two equal dates, which no date ends. */
+    fun dateEnd(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): Double? =
+        if (day.repetition == Repetition.FIRST_OF_TWO) null else (end(day.monthCount, day.day, a2) - day.jd) * 60
+
+    /**
+     * The burning date that begins in daylight (vol. 1, p. 177, entry 11, «དེ་ཡང་དཔེར་ན་ཚེས་བཅུ་ལ། །རེས་གཟའ་ཟླ་བའི་ཚེས་ལོངས་དེ། །ཉིན་ཚད་མ་ལོངས་ཉུང་བ་ན། །བཅུ་གཅིག་ཚང་བའི་བརྡ་ཆད་དུ། །ཐ་མར་ཞབས་ཀྱུ་ལྡན་པར་འདྲི»):
+     * on a Monday the 10th whose date ends before nightfall, the 11th, Monday's burning date, comes in the
+     * day, and WB writes it with a hook. On a day whose weekday burns on the date after its own, the time
+     * that date begins, when it is before [nightfall] (chu tshod after daybreak); otherwise none.
+     */
+    fun burningFrom(day: TibetanDay, nightfall: Double, a2: Rational = Phugpa.A2_ALMANAC): Double? {
+        if (day.burningDate || !BurningDate.of(day.weekday, day.day % 30 + 1)) return null
+        return dateEnd(day, a2)?.takeIf { it < nightfall }
+    }
+
     /** The end of lunar date [d] of month count [n] on the dawn-based day scale; date 0 is the month before's 30th. */
     private fun end(n: Long, d: Int, a2: Rational = Phugpa.A2_ALMANAC): Double =
         (if (d == 0) Phugpa.trueDate(n - 1, 30, a2) else Phugpa.trueDate(n, d, a2)).toDouble()

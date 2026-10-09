@@ -249,4 +249,20 @@ class DayTimesTest {
     fun `the divisor is a day of the sun's course`() {
         assertTrue(abs(DayTimes.DAILY_COURSE - (4 + 26 / 60.0 + 6 / 3600.0)) < 1.0 / 3600, "${DayTimes.DAILY_COURSE}")
     }
+
+    /** WB vol. 1, p. 177, entry 11: the date before a burning date, ending in daylight, marks it. */
+    @Test
+    fun `a burning date can begin in daylight`() {
+        val start = LocalDate.of(2000, 1, 1).julianDayNumber()
+        var marked = 0
+        for (jd in start until start + 50 * 365) {
+            val t = TibetanCalendar.of(jd)
+            val from = DayTimes.burningFrom(t, 30.0) ?: continue
+            marked++
+            assertTrue(BurningDate.of(t.weekday, t.day % 30 + 1) && !t.burningDate, "on $jd")
+            assertTrue(from in 0.0..30.0 && abs(from - DayTimes.dateEnd(t)!!) < 1e-9)
+            assertEquals(null, DayTimes.burningFrom(t, from - 0.01), "not after nightfall")
+        }
+        assertTrue(marked > 100, "$marked marked burning dates")
+    }
 }
