@@ -642,7 +642,11 @@ English (§8.1), each reading citing its pages:
   favoured, with a remedy; chapter 34 adds funerals, supports and temples,
   and life and wealth (pp. 404, 414, 426). Its tone is bad. WB's marked
   case, a burning date that begins before nightfall on the day before
-  (p. 177), needs its length of daylight and is not counted.
+  (p. 177): where the date before a weekday's burning date ends before
+  nightfall (the place's sunset, 17:00 with no place), the burning date
+  is a part of the special days' row on that day, with the time it
+  begins and WB's hook (`DayTimes.burningFrom`, §5.8); shown and not
+  weighed, as the weighing knows no place.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -1583,7 +1587,8 @@ canvas "Zanshin Calendar — basic design".
   the karaṇa row Viṣṭi's span ("Viṣṭi 08:33–21:16", the span alone when
   the day's karaṇa is Viṣṭi), each with a detail in the sheet. A time
   before the day's daybreak at 05:00 reads "the day before", one from the
-  next daybreak on "the next day".
+  next daybreak on "the next day". A burning date that begins in
+  daylight joins the special days' row (§5.11).
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written as §8.1 names it, its English name, then its
   Tibetan script, converted at run time from the Wylie of the sources

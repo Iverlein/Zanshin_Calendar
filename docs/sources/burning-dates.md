@@ -32,12 +32,17 @@ the 11th begins while it is still day, the almanac writes it too, with a
 
 **Built and not built.** The app counts the day's own date with the day's
 own weekday (a doubled date, falling on two weekdays, burns on one of them
-at most; no date burns on two weekdays). The marked case is not counted:
-it needs WB's length of daylight, given by the Sun's sign in its chapter on
-the combination periods (vol. 1, ch. 8, etext p. 61 ff., OCR with numerals
-lost), a reckoning of its own that the app does not have. That would add a
-day where the date before a burning date ends before nightfall, including
-every day on which the burning date is skipped.
+at most; no date burns on two weekdays). The marked case is built since
+2026-10-09 with the times within the day (ROADMAP T2.20,
+`DayTimes.burningFrom`): where the date before a weekday's burning date
+ends before nightfall, that burning date begins in daylight and is shown
+on the day with its time and the hook. Nightfall is the place's sunset,
+or 17:00 with no place set, as for the second mansion; WB's own length
+of daylight by the Sun's sign (vol. 1, ch. 8, etext p. 61 ff., OCR with
+numerals lost) is not reckoned, the app giving day and night by the
+place (SPEC §6). Shown, not weighed: the weighing knows no place. Over
+2000–2049, with 17:00, it marks 609 days; 21 September 2026, a
+Monday the 10th whose date ends at 14:50, is WB's own example.
 
 ## The reading: WB vol. 2, p. 351 (img. 359)
 

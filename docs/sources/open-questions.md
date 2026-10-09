@@ -217,5 +217,13 @@ the text, not about the app.
     and *ro* (6) agree with 4;26, read as the figure is written, *srang*
     the chu srang it is counted in. No other text gives the line (BDRC's
     full-text search finds only WB's prints and the *Kun 'dus* reprint),
-    and the 1996 print has no numeral there; «ཡིད་བསྒྱུར», the turning of the
-    chu tshod into chu srang, is not glossed anywhere found.
+    and the 1996 print has no numeral there. «ཡིད» is a number word for
+    14: the *Tshig mdzod chen mo* gives it as such («ཡིད་ཅན་ནམ་སེམས་ཅན་གྱི་སྲིད་པ་བཅུ་བཞི་ཡོད་པས་གྲངས་བཅུ་བཞི་མཚོན»,
+    Steinert's dictionary data, searched 2026-10-09), so the step
+    multiplies the excess's chu tshod by 14 (*bsgyur*) and divides by
+    «ཆུ་སྲང་རོ», which must then be about 1;2 chu tshod, 62 chu srang, for the
+    day's course to be 4;26 (14 × 60 / 62 gives 4;25,43, within 0.2 %
+    of WB's mean 4;26,6, a few minutes at most in a term's time). *chu
+    srang* names the divisor's unit; «རོ» is not 62 in number words, and the
+    phrase is glossed nowhere found, so the app keeps WB's mean course,
+    which the multiplier 14 bears out.
