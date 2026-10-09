@@ -627,7 +627,7 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   the year's balloon. Checked on the emulator in both languages (a man of
   1976, a woman of 1990 in her own-animal 37th year, a person without a
   gender) and in a release build.
-- **Left, with why** (each in the sources file):
+- **Left, with why** (each in the sources file; the owner accepted these as outside block 13 on 2026-10-09, and chose not to ask for the mother's birth year):
   - the natal trigram (*skyes spar*): the mother's trigram in the year of
     the birth, which needs the mother's birth year, a further personal
     datum for the owner to decide on; with it the secret obstacle (*gsang
