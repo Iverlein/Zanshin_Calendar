@@ -20,7 +20,7 @@ in step with the code.
 | `docs/fdroid/` | A copy of the fdroiddata recipe; the app is on F-Droid since 2026-10-02, and recipe changes go through an fdroiddata MR (SPEC §12). |
 | `tools/` | Python generators: VSOP87 table, city list, font subsets (the app's, and the website's Cyrillic in `subset_web_fonts.py`), Henning and Gyurme Dorje vector extraction. Their outputs are committed, except the vectors. `release_apks.py` keeps a GitHub release per tag with F-Droid's APK attached (SPEC §12). |
 | `tools/sources/` | Reading the written sources (docs/sources/): `bdrc.py` (BDRC etexts and scans), `scans.py` (crops, rows and stacks for reading by eye), `hf_read.py` (the main reader: BDRC's Yigdzin-1 OCR model on the GPU, MITRA as witness), `ocr_bench.py` (readers scored against the BDRC benchmark), `agy_choose.py` (agy picks between two readings at each flag), `mansion_verses.py` (builds docs/sources/mansion-verses.md), `gpu.py` (checks no model is left on the GPU), `agy_read.py` (agy, for single hard crops), `bdrc_ocr.py` (BDRC's local OCR), `disagree.py` (where two readings differ, with the scan lines to check), `score_reading.py` (a reader's error rate against a scan reading), `local_read.py` (general vision models via `llm-serve`; none reads Tibetan well), `ndl.py` (NDL catalogue). Downloads stay in a scratch directory. |
-| `tools/emulator/` | Driving the app on the `zanshin-test` emulator: `emu.py` (preferences, language, taps by on-screen text, screenshots with their text), `tour.py` (a fixed tour to compare two builds), `russian_tour.py` (the language switch and a Russian read-through), `store_shots.py` (the five store screenshots in one language). |
+| `tools/emulator/` | Driving the app on the `zanshin-test` emulator: `emu.py` (preferences, language, taps by on-screen text, screenshots with their text), `tour.py` (a fixed tour to compare two builds), `russian_tour.py` (the language switch and a Russian read-through), `store_shots.py` (the six store screenshots in one language). |
 
 ## Commands
 
@@ -67,7 +67,8 @@ each other's builds. So every session, from its first edit:
    The vectors are gitignored third-party tables: without the copy their
    tests are skipped, not run. Every build, test and edit happens in `$W`.
 2. **Commits its work without asking** once it is verified (the tests, and
-   the emulator, phone and release checks below where they apply): in the
+   the emulator, phone and release checks below where they apply) and,
+   for a feature, its docs are current (*Docs on every feature merge*): in the
    repository's style, separate `core:` / `app:` / `docs:` commits with
    substantive bodies, no assistant signature.
 3. **Checks for conflicts and merges**: `git rebase main` in `$W`; a
@@ -84,6 +85,40 @@ each other's builds. So every session, from its first edit:
 Pushing still waits for the owner's word. The emulator is one for all:
 sessions queue for `emulator-5554` by message, and each restores the
 snapshot's preferences and language when it is done.
+
+## Docs on every feature merge
+
+A feature is not merged until every place that describes the app says
+what it now does; this is part of step 2 above, not a release chore.
+On every merge of a feature, in the same branch:
+
+1. **`docs/SPEC.md`**: the behaviour, in its section, and the menu or
+   scope where they change.
+2. **`docs/ROADMAP.md`**: the item and its block marked built, with
+   what was checked.
+3. **`README.md`**: the feature list, and the screenshots' alt text.
+4. **`AGENTS.md`**: the layout table, for a new package, tool or
+   script; these rules, for a new check.
+5. **The F-Droid listing**, both languages,
+   `fastlane/metadata/android/{en-US,ru-RU}/`: `full_description.txt`
+   (each part a `<b>` block; a block with a list becomes a card on the
+   website) and `short_description.txt` (80 characters at most). F-Droid
+   shows them from the next release's build, the website at once.
+6. **Screenshots**, both languages: retake them with
+   `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
+   show has changed, review every PNG, then copy them into
+   `images/phoneScreenshots/`; a new screen gets a shot of its own in the
+   script. Captions and alt text in `website/data/screenshots.toml`.
+7. **The website** (`website/`): build it with `hugo`, and change the
+   layout or CSS where the listing's new text does not fit; look at both
+   languages, wide and at phone width, in a real browser. It deploys on
+   the push.
+8. **The GitHub description and topics**, through the API with the
+   keyring's `Zanshin_Calendar_PAT`, never printed:
+   `secret-run http T=title:Zanshin_Calendar_PAT -H 'Authorization: Bearer {T}' -X PATCH --data @about.json https://api.github.com/repos/Iverlein/Zanshin_Calendar`
+   (topics: `PUT …/topics` with `{"names": […]}`).
+
+Only the changelog waits for the release (*Releases* below).
 
 ## Rules that are easy to break
 
@@ -135,7 +170,7 @@ snapshot's preferences and language when it is done.
   at both pages and a sheet on the emulator for raw keys such as `lh1.SENBU`.
 - **Releases** (SPEC §12): bump `versionCode` and `versionName` in
   `app/build.gradle.kts`, add `changelogs/<versionCode>.txt`, commit, tag
-  `v<versionName>`, push the tag (GitHub releases and their APKs follow by themselves, SPEC §12). The store description must not name unbuilt features.
+  `v<versionName>`, push the tag (GitHub releases and their APKs follow by themselves, SPEC §12). The store description is kept current on every feature merge (*Docs on every feature merge*) and must not name unbuilt features.
 - Commit verified work without asking, from the session's own worktree
   (*One worktree per session*); push only when the owner says; no
   assistant signature in commits.

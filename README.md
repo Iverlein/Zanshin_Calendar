@@ -7,6 +7,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="220" alt="Tibetan day: Saga Dawa Düchen">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="220" alt="Japanese day: 十三夜">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="220" alt="Meditation timer: a zazen of 20, 10 and 30 minutes">
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
   leap months; festivals and monthly observances; lunar mansion, yoga,
