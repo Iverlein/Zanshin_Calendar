@@ -318,9 +318,47 @@ hours (p. 236: a grave site, building, feasts, consecration, enthronement,
 teaching, a new land, a bride and all important works bad; fierce work
 strikes; a swastika and the sun and moon at the door).
 
-## After p. 235
+## After p. 235: the earth lords of the hour
 
-The earth lords of the hour (*dus kyi lha*, *g.yu mdzod sngon mo*, *dus
-tshod bla mkhyen*, *sa bdag khang brtsegs*, *dus tshod sa rgyal* and the
-black hours) follow and belong to the times within the day (ROADMAP T2.20);
-Rāhu's own reckoning (pp. 236–239) is [rahu.md](rahu.md).
+Read 2026-10-09 for ROADMAP T2.20 on the scans (img. 243–244), the lines
+beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
+(pp. 236–239) follows them: [rahu.md](rahu.md).
+
+- ***g.yu mdzod sngon mo*, the god of the hours** (p. 235): «གཡུ་མཛོད་སྔོན་མོ་དུས་ཀྱི་ལྷ། །མི་ལུས་སྟག་གི་མགོ་བོ་ཅན། …ཕྱི་རུ་གནས་ཏེ་གཡོན་དུ་འཁོར། །དུས་ཚོད་གང་ཡིན་སྟེང་ན་གནས། །ཐོ་རེངས་སྟག་ལ་ཤར་སྟོད་སྟག །ལ་སོགས་རིམ་པ་བཞིན་དུ་གནས། །འདི་ལ་བག་མ་གཏོང་ལེན་དང་། །རོ་ཤིད་ཟན་གཏོད་དམར་ལས་ཐབ། །དུར་འདེབས་མཁར་ལས་སྐྱས་སོགས་ངན། །ཀོ་ལོང་སྐྱེས་དར་བྱིས་པ་དང་། །རོ་བདག་རོ་ཁུར་ལས་བྱེད་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་སྒྲོག …སྒྲིབ་ན་འབྲུ་སྣའི་དར་མི་ལྔར། །དར་སྔོན་བ་དན་བཙུགས་པ་དང་། །ཟངས་ཀྱི་རྐོ་མ་བཙུགས་པས་སྒྲིབ།»
+  Man-bodied and tiger-headed; it stays outside, turns to the left and
+  sits on whatever hour it is: at dawn, the tiger hour, on the tiger's
+  place, the upper east, and so on in order. Sending or receiving a bride,
+  corpse rites, *zan gtod*, *dmar las*, the hearth, burial, building a
+  fort, moving house and the like are bad. **Built** (`Texts.HOUR_EARTH_LORDS`,
+  on the hours panel), the place named by the hour's animal; *zan gtod*
+  and *dmar las* are left out of the lists, their sense here not
+  settled, as are the remedies the reading does not name (*gser sdud*,
+  *dong tse rgya bzhi*).
+- **The hour's *bla mkhyen*** (p. 235): «དུས་ཚོད་བླ་མཁྱེན་དུས་ལོ་ཡི། །མཐུན་གསུམ་ཀླུང་རྟའི་སྟེང་ན་གནས། །འཛེམ་བཅོས་ལོ་ལྟར་ཤེས་པར་བྱ།»
+  On the *klung rta* of the hour's triad, its avoidances and remedies as
+  the year's. **Not built:** WB names the *klung rta*'s animal for one
+  triad only, the tiger, horse and dog's iron monkey (vol. 2, notes,
+  p. 487: «སྟག་རྟ་ཁྱི་གསུམ་གྱི་ཀླུང་རྟ་ལྕགས་སྤྲེལ»); the others' animals were
+  not found in either volume's etext (searched for «ཀླུང་རྟ» with the
+  triads and the element-animals), and the app's *klung rta* is an
+  element (§5.9), which does not give a place.
+- ***khang brtsegs* and *mtsho sngon*** (p. 236): «ས་བདག་ཁང་བརྩེགས་བྱ་བ་དང་། །མཚོ་སྔོན་ཞེས་བྱ་རྣམ་པ་གཉིས། །དུས་ཚོད་རང་རང་ཐོག་ན་གནས། །ལས་ཐབས་ཁང་བརྩེགས་གྲལ་གདན་འཛེམ། །མཚོ་སྔོན་བག་མ་རོ་ལས་ངན། །ཀོ་ལོང་དོ་བདག་ཕ་ཚན་སྡོམ། །ཉམས་ན་ཏོག་གཟུངས་སྣང་བརྒྱད་དང་། །གཟུངས་བསྡུས་སྤང་སྐོང་སྒྲོག་པར་བྱ། །སྒྲིབ་ཐབས་སྤྱི་ལྟར་སྦྱོར་བ་ཡིན།»
+  Each sits on its hour's own place, as the day's earth lord on its day's
+  («དེས་འགྲེ་རང་རང་ཞག་གི་ཐོག», p. 223). With *khang brtsegs* rites,
+  storeyed houses and rows of seats are avoided; with *mtsho sngon* a
+  bride and corpse work are bad. **Built** with *g.yu mdzod sngon mo*, in
+  one reading; the storeys and seats stay out of the lists, which have no
+  wording for them.
+- **The hour's *sa rgyal*** (p. 236): «དུས་ཚོད་ས་རྒྱལ་མདུན་གྱི་ནི། །བཞི་གཤེད་སྟེང་དུ་གནས་པར་འདོད། །ལྟད་སྟོན་རོ་ཤིད་མཁར་ལས་འཛེམ།», then
+  another way («ཡང་ནི་འདི་ལྟར་བཤད་ཀྱང་ཡོད»): an hour and a place for each
+  season-month, the course of *pi ling 'phar ma*. **Not built:** which
+  four-slayer is "the one in front" is not settled (the black days take
+  both, three either side), and the app builds the second way only where
+  the first is (§5.13). The 1996 edition's notes 5–15 on the line were not
+  found in its notes.
+- **The black hours** (p. 236): «དུས་ཚོད་ནག་པོའི་རྩིས་ལ་ཡང་། །གོང་དང་སྦྱར་ཏེ་ཤེས་པར་བྱ། །དེ་ཡང་བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་དུས་ཚོད་ནག …ཁག་ཆེན་བྱ་བ་ཐམས་ཅད་ངན། །དྲག་ལས་དུས་དང་སྤྲད་ན་ཐེབས། །བཅོས་ཐབས་སྤར་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས།»
+  As the black days, the date's animal against the hour's: on a mouse or
+  horse day the bird and hare hours. **Built** (`EarthLordCourses.blackHour`,
+  `Texts.BLACK_HOUR`, on the hours panel). The hour's *gnam khyi* "as told
+  for the year" and the hidden one "as for the month", in the next line,
+  are not built.

@@ -205,3 +205,12 @@ the text, not about the app.
     mansion is the gshed skar (WB p. 330). None of this places one's own
     days against the combination, so the weighing stays as it is (SPEC
     §5.12).
+
+15. WB vol. 1, p. 182 (img. 192): in the rule that dates the sun's
+    terms, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», what
+    are «ཡིད» and «ཆུ་སྲང་རོས»? The step turns the sun's excess over a
+    term's measure into time before the date's end, so the divisor should
+    be the sun's course in a day (about 4 chu tshod 26 chu srang); neither
+    word carries the number dots, and the 1996 print has no interlinear
+    numeral there. The app uses the sun's own course over the date
+    ([almanac-page.md](almanac-page.md), *The times within the day*).

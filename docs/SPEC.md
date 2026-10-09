@@ -232,6 +232,38 @@ day by day against Henning's computed calendars (§9):
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
 | Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The element's mansions (p. 330, tables p. 345) and the mansion of conception (no source defines it) are not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
 
+**The times within the day** (`DayTimes`; the White Beryl, vol. 1,
+pp. 177–178 and ch. 15, pp. 180–182; [sources/almanac-page.md](sources/almanac-page.md),
+*The times within the day*), reckoned as WB's almanac reckons them, roughly,
+from its own figures, not from the sky, in chu tshod of 24 minutes from
+daybreak at 05:00 (§10.3); shown and not weighed, as WB only says to write
+them (ROADMAP T2.20, the owner's rule of 2026-10-09):
+
+- **Second mansion:** the moon's motion is the difference of the moon at
+  daybreak on the day and on the next; the moon enters a mansion where
+  that motion's share of the day brings it to the mansion's start. WB
+  writes a second mansion when it comes in daytime: before the place's
+  sunset, or 17:00 with no place set. A fast moon can enter two.
+- **Skipped yoga:** the same on the yoga's sum (moon at daybreak with the
+  true sun); a yoga that begins and ends between two daybreaks is written
+  with the day's own, with both times.
+- **Viṣṭi's span:** the later half of the 4th, 11th, 18th and 25th, the
+  earlier half of the 8th, 15th, 22nd and 29th, half the date's length
+  between the ends of the date before and its own (Janson (7.22)), shown on
+  every calendar day it touches; the earlier half often falls wholly in
+  the day before.
+- **The sun's terms:** the twelve sign entries (*khyim 'pho*), each Hor
+  month's breath term (*dbugs thob*) and middle term (*sgang*), at the
+  measures WB lists in mansions and chu tshod of the true sun (the signs
+  from Aries at 0;0, the 3rd month's *sgang* at 0;36 and *dbugs thob* at
+  26;28, each kind stepping by 2;15). A term falls where the true sun at
+  the ends of two dates brackets its measure, as much before the later
+  end as the sun took to cover the excess (p. 182); the sun's course over
+  that date stands for WB's divisor, whose number words are not read
+  (open question 15). It is written on the calendar day it falls in, one
+  before daybreak on the day before, as WB writes it in the date before.
+  The day's sme ba keeps its own count (§5.11).
+
 ### 5.9 Four aspects and the pebbles
 
 Each year of the sexagenary cycle has four elemental aspects (White Beryl
@@ -893,6 +925,19 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   ordination and teaching), and the works the chapter names for the sign
   are a row of their own (`Texts.WORKS_SIGN`). Like the period they are
   times within the day and are not weighed into it (`WorksSignTest`).
+- **The earth lords of the hour** (WB vol. 2, pp. 235–236,
+  [sources/earth-lord-courses.md](sources/earth-lord-courses.md)): *g.yu
+  mdzod sngon mo*, the god of the hours, and the earth lords *khang brtsegs*
+  and *mtsho sngon*, each on the place of the hour that it is (in the tiger
+  hour the tiger's, the upper east, and so on in order), with what WB names
+  bad there and its remedies, one reading for the three; and the black
+  hours, the date's animal against the hour's as the black days set the
+  month's against the date's (on a mouse or horse day the bird and hare
+  hours; `EarthLordCourses.blackHour`), every important work bad and fierce
+  work striking home. On the hours panel (§10.3), not weighed. The hour's
+  *bla mkhyen* (on the *klung rta* of the hour's triad, whose animal WB
+  names for one triad only) and its *sa rgyal* (on the four-slayer "in
+  front", not settled) are not built.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ### 5.14 The election: the best day for a work
@@ -1331,7 +1376,7 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | `tibetan-losar.tsv` | Losar dates 1927–2046 and year names (120 years) | Janson Table 1 |
 | *(in `TibetanCalendarTest`)* | 2007-12-31 = day 23, month 11, Fire–Pig; 2014-01-08 = Wednesday, day 8, month 11, Water–Snake; 2022-02-13 = Sunday, day 12, month 12, Iron–Ox; the epoch dates of Remark 16. Janson's title page calls 2007-12-31 a Sunday, but it was a Monday and his (9.1) gives Monday, so that weekday is not a vector | Janson, title page and §7 |
 | *(in `TibetanCalendarTest`)* | The three dates of §5.5 | Janson Remark 14 |
-| `henning-phugpa.tsv` | Every day of 2000, 2013, 2024–2027 (2,245 days): date, repetition, weekday, mansion, element pair, yoga, karaṇa, lunar-day cycles, Chinese mansion, festivals | Henning's Phugpa archive, extracted by `tools/extract_henning.py`; compared with a₂ = 3781/105840, which Henning uses |
+| `henning-phugpa.tsv` | Every day of 2000, 2013, 2024–2027 (2,245 days): date, repetition, weekday, mansion, element pair, yoga, karaṇa, lunar-day cycles, Chinese mansion, festivals, and the day's figures: the true weekday (the date's end), the moon at daybreak, the true sun and the yoga's sum, to the chu srang; `DayTimesTest` works WB's rules for the times within the day (§5.8) on them | Henning's Phugpa archive, extracted by `tools/extract_henning.py`; compared with a₂ = 3781/105840, which Henning uses |
 | `naoj-2026-2027.tsv` | Solar terms, new moons and 雑節 with JST times, 2026–2027 | NAOJ 暦要項 |
 | `koyomi8-2026-2027.tsv` | Every day of 2026–2027: 干支, 十二直, 二十八宿, 旧暦 date, 六曜, 九星, 選日 | こよみのページ (koyomi8.com), an independent computation |
 | `crosscheck-new-moons.tsv`, `crosscheck-solar-terms.tsv` | New moons and 15° solar terms 1900–2100, UTC | Computed with PyEphem 4.2.1 — a cross-check, not a published table. Worst differences: 34 s and 36 s |
@@ -1511,7 +1556,17 @@ canvas "Zanshin Calendar — basic design".
   cycle's animal the "day sign", and the date's animal
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
-  are not taken for one.
+  are not taken for one. On the day a sun's term falls, a last row
+  names it with its time ("Middle term of month 8 · 01:44", "Sun enters
+  Libra · 21:37"), its sheet the term's reading, its Tibetan name and its
+  measure (§5.8).
+- **Times within the day** (§5.8): the mansion row's subtitle adds a
+  second mansion that comes by daylight ("then Uttaraphalgunī from
+  16:30"), the yoga row a skipped yoga ("and Vajra 09:01–04:06, skipped"),
+  the karaṇa row Viṣṭi's span ("Viṣṭi 08:33–21:16", the span alone when
+  the day's karaṇa is Viṣṭi), each with a detail in the sheet. A time
+  before the day's daybreak at 05:00 reads "the day before", one from the
+  next daybreak on "the next day".
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
   weekday, trigram) is written as §8.1 names it, its English name, then its
   Tibetan script, converted at run time from the Wylie of the sources
@@ -1576,9 +1631,11 @@ canvas "Zanshin Calendar — basic design".
   works its sign's own hours decide the other way, the works' own hours
   ("The works' own hours", the works WB's chapter 34 names good or to
   avoid while the sign rises, §5.13) where the chapter names any, a
-  nectar period if one falls in it, and with a birth date vitality and
-  body; each opens its reading as the day's rows do. The ring keeps the
-  period's verdict.
+  nectar period if one falls in it, Viṣṭi while its span lasts, the
+  black hour on its hours, the earth lords of the hour on the hour's
+  animal's place (§5.13), and with a birth date vitality and body; each
+  opens its reading as the day's rows do. The ring keeps the period's
+  verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
 - **Sme ba in its colour:** the lunar day's number carries the square of the
   nine numbers, each box in the colour it is printed in and today's marked
   (Berzin, *Details of Tibetan Astrology 4*: colours, and the arrangement with
