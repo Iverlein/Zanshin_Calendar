@@ -43,7 +43,7 @@ def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, 
     Write the app's preferences; the app is stopped first. birth=None leaves it
     unset; it is written as the single birth date of before the saved people,
     which the app reads as one unnamed person, chosen. people, a list of
-    (name, epoch day), replaces it: the saved people, person the index chosen
+    (name, epoch day) or (name, epoch day, "m" or "f"), replaces it: the saved people, person the index chosen
     (-1 for no one). strings: more string preferences by key, such as the
     timer's plan and presets (app/.../bell/BellSettings.kt).
     """
@@ -53,7 +53,7 @@ def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, 
     )
     birth_line = f'<long name="birth" value="{birth}" />' if birth is not None else ""
     if people is not None:
-        lines = "&#10;".join(f"{day}&#9;{html.escape(name)}" for name, day in people)
+        lines = "&#10;".join(f"{p[1]}&#9;{html.escape(p[0])}" + (f"&#9;{p[2]}" if len(p) > 2 else "") for p in people)
         birth_line = f'<string name="people">{lines}</string>\n    <int name="person" value="{person}" />'
     xml = f"""<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>

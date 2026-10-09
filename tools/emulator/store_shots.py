@@ -2,7 +2,7 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The six store screenshots, in one language, on the emulator.
+"""The seven store screenshots, in one language, on the emulator.
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
@@ -10,8 +10,10 @@
 4. The 旧暦 almanac bands, from 中段 down
 5. The menu over the 旧暦 page
 6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset
+7. The year of age of a man born 1976-06-01 (a fire dragon year, chart 6.2's
+   subject) in 2026, opened from the year's balloon on 2026-10-23 in Lhasa
 
-No birth date is set, so no personal rows appear. The status bar is put in demo
+Shots 1 to 6 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
 "hide notifications", and every clock change posts a "Clock change"
 notification, so the shade is cleared after each change. Demo mode is left
@@ -29,11 +31,13 @@ import sys
 import time
 from pathlib import Path
 
-from emu import KYOTO, LHASA, adb, nodes, prefs, language, restore, sh, start, up
+from emu import BIRTH_1976_06_01, KYOTO, LHASA, adb, nodes, prefs, language, restore, sh, start, up
 
 LABELS = {
-    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$"},
-    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$"},
+    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$",
+           "year": r"^Fire Horse year$", "year_of_age": r"year of age", "person": "Tenzin"},
+    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$",
+           "year": r"Огонь-Лошадь$", "year_of_age": r"год жизни", "person": "Тензин"},
 }
 
 # The timer's presets for shot 6, named in the listing's language; the zazen is the plan set.
@@ -98,8 +102,8 @@ def demo_bar():
     demo("status", location="hide", alarm="hide", sync="hide", bluetooth="hide", volume="hide", mute="hide", zen="hide")
 
 
-def day(mmddhhmm, year, calendar, place, strings=None):
-    prefs(calendar, birth=None, kigaku=False, place=place, strings=strings)
+def day(mmddhhmm, year, calendar, place, strings=None, people=None):
+    prefs(calendar, birth=None, kigaku=False, place=place, strings=strings, people=people, person=0)
     sh(f"date {mmddhhmm}{year}.00")
     clean_status_bar()
     start(7)
@@ -139,6 +143,11 @@ try:
     tap_at(find(labels["menu"], desc=True))
     tap_at(find(labels["meditation"]))
     shot(6)
+
+    day("10230900", 2026, "TIBETAN", LHASA, people=[(labels["person"], BIRTH_1976_06_01, "m")])
+    tap_at(find(labels["year"]))
+    tap_at(find(labels["year_of_age"]))
+    shot(7)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")
