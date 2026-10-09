@@ -279,12 +279,11 @@ it), enemy (it overcomes yours). Two readings use it:
 three white, friend two white, identity one white for earth or water and one
 black for wood, fire or iron, son one white and one black, enemy two black
 (White Beryl ff. 248b–249a; Moonbeams f. 28a/b). The app shows them as the
-schematic charts write them, ○ for white and × for black. Only this part of
-the divination of obstacle years is calculated: the log-men year, trigram,
-numeric square, sectors of growth and decline and the hour add pebbles of
-their own, not shown. The life-spirit (bla, the element that feeds the
-vitality) is not one of the four aspects the charts compare, so it is not
-shown.
+schematic charts write them, ○ for white and × for black. The year's
+balloon shows these four; the full reckoning of the year, with the other
+basic signs, is the year of age below. The life-spirit (bla, the element
+that feeds the vitality) is not one of the four aspects the charts
+compare, so it is not shown.
 
 The rules and the direction were read in Gyurme Dorje's edition, *Tibetan
 Elemental Divination Paintings* (2001), used as a reading copy: pp. 64, 68,
@@ -293,6 +292,77 @@ subject born in a fire dragon year read in an earth tiger year (§9). Chart
 8.1's day, the 15th of the 3rd month of 1998, comes out of the calendar
 engine as the wood dragon it prints. The app cites the White Beryl and the
 Moonbeams.
+
+#### 5.9.1 The year of age
+
+For a person with a birth date, the elemental divination of the year of
+age (`YearOfLife.kt`, `YearReckoning`; [sources/year-of-life.md](sources/year-of-life.md)),
+by the White Beryl, Beijing 1996, vol. 1: chapter 21 (pp. 255–258) for the
+signs, chapter 24 (pp. 380–411) for the obstacle years, with Lochen
+Dharmaśrī's *Moonbeams* (KD vol. 3, pp. 493, 496, 507) where WB does not
+say. Tested against Gyurme Dorje's Table 2.11 and every cell of chart 6.2
+(`YearOfLifeTest`).
+
+| Sign | Rule |
+| --- | --- |
+| Age | the Tibetan count: 1 in the year of birth, one more at each Losar |
+| Natal mewa | the year's sme ba, one less each year round the nine; "the present rabjung's fire hare" (1687) has the 7 red (p. 255): the 九星 year star of the Tibetan year |
+| Mewa of the year of age (*babs sme*) | the natal one in the middle of the square, then east, one place a year, on to the north-east in a male birth year, to the south-east in a female one, "whether the person is male or female" (p. 256) |
+| Trigram of the year of age (*babs spar*) | "a man from li towards khon, a woman from kham towards khen; one trigram for each year" (p. 257); the Moonbeams' leap at each ten is not WB's |
+| Progressed sign (*log men*) | a man from the tiger of the element his birth year's element feeds, forward through the sixty; a woman from the monkey of the element that feeds hers, backward (p. 387) |
+| Sectors of growth and decline | for each aspect's element, the twelve sectors from the breath-taking (earth and water at the snake, fire the pig, iron the tiger, wood the monkey) to the tomb; the present year's animal gives the sector (p. 258); six good, six bad |
+| Elements | a mewa's: the whites iron, black and blue water, green wood, the reds fire, yellow earth (p. 255); a trigram's: li fire, khon earth, dwa iron, kham water, zin wood, and khen, gin and zon, "also made earth" (the Moonbeams, p. 493) |
+
+The gender (§10.5) decides the trigram and the progressed sign; without it
+they and their pebbles are left out, and the predictive pebbles with them.
+
+**The twenty-four decisive pebbles** (p. 380): each of the four aspects of
+the birth year against six basic signs, in WB's order: the present year,
+the progressed sign (aspect against the same aspect), the trigram and the
+mewa of the year of age (their one element against each aspect), the
+aspect's sector (its pebbles by rank: flourishing and working three white,
+bathing and dressing two, body complete and birth one; breath-taking and
+the womb one of each, decline and illness one black, death and the tomb
+two black, the Moonbeams, pp. 496 and 507), and the hour of reckoning, the
+present two-hour period (§5.9, its sign against each aspect). For each
+aspect the white and black are counted, "not the threes and twos but
+those that are there", and the predictive pebble goes on whichever are
+more (p. 381); even, none. Gyurme Dorje's chart 6.2 lays its predictive
+pebbles otherwise; WB's rule is followed.
+
+**Readings.** Each pebble cell reads WB's prediction for that many white or
+black on that aspect (pp. 380–384); each predictive pebble, white or black,
+its own, and all four alike theirs (pp. 384–385). The sectors read p. 258;
+the progressed sign its animal's place, the sky and earth doors (a man's
+dog and pig, a woman's dragon and snake), the five ruins (ox, sheep),
+separations (bird, monkey), lineage-cuttings (mouse, horse) and gains
+(tiger, hare), and what its element governs (p. 387); the trigram of the
+year of age its passage (pp. 391–396); the mewa of the year of age WB's
+reading by the natal mewa (pp. 405–408; a few pairs have none).
+
+**The year's obstacles** (pp. 387–391, 408–411), each with its reading:
+the year of one's own animal from the 13th, read by the relation of the
+year's element to the birth year's (13 son, 25 friend, 37 enemy, 49
+mother, 61 own); the seventh (7 enemy, 19 mother, 31 own, 43 son, 55
+friend); the two others of one's triad; the fourth animal counted up
+(backward, illness) and down (forward, death); the progressed sign on
+one's birth sign, on its seventh, or its element the enemy of one's
+vitality; the nine-multiples, the 9th to the 81st, a man's counted up
+from the mouse, a woman's from the bird; and the mewa's four small
+obstacles: on the present year's mewa (house), on the natal (bed), on the
+two-black (land), and the enemy of the natal or fire against iron (royal
+gate). Tones: the predictive pebbles and sectors by their colour, the
+obstacles unlucky (the own year and the seventh at their mother year
+mixed, as WB reads them good), the progressed sign's gains lucky and its
+doors and fives unlucky; mewa and trigram no tone.
+
+**Not calculated**, for want of data the app does not ask for or of a
+clear rule ([sources/year-of-life.md](sources/year-of-life.md)): the natal
+trigram, which is the mother's trigram in the year of the birth, and the
+secret obstacle that needs it; the obstacles of spouses, parents and the
+dead; the four counted signs of the progressed sign (lifeline, peg, sky
+and earth extension); the other nine-multiples and the tomb signs; the
+mewa's sky and earth doors; the household readings.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -1199,6 +1269,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
 | Four aspects, the pebbles of the day, month and year | The White Beryl (ff. 156a/b, 158a, 248b–254a, 295b–299a) with Lo chen Dharmaśrī's *Moonbeams* (ff. 5b–6b, 28a/b, 31b–32a), read in Gyurme Dorje's edition (2001) |
+| The year of age: its signs, pebbles, sectors, obstacles and readings | The White Beryl, Beijing 1996, vol. 1, pp. 255–258 and 380–411 (BDRC MW2CZ8040), with the *Moonbeams* in the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 3, pp. 493, 496 and 507 (BDRC MW28845); Gyurme Dorje's Table 2.11 and chart 6.2 as test vectors |
 | Tibetan pronunciation | THL Simplified Phonetic Transcription of Standard Tibetan, Germano and Tournadre, 2003 (thlib.org; archived by the Wayback Machine at `thlib.org/global/php/essay_reader.php?url=/thl/phonetics/s/b1`–`b12`) |
 | Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
@@ -1245,6 +1316,7 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | `gyurme-dorje-forces.tsv` | Vitality, body, destiny and luck of all 60 years, and the relationship of destiny to vitality (kha-yan, khong-nong, …) | Gyurme Dorje (2001), charts to Plates 3–8, pp. 70–85, extracted from the archive.org OCR by `tools/extract_gyurme_dorje.py`. One body and three relationship rows are lost in the OCR; year 57 prints destiny wood where its own relationship row and every other year give the year's element, iron |
 | *(in `ForcesTest`)* | Table 2.5, the destiny elements of the twelve months for each yearly element (p. 91); chart 8.1, the month, day and hour pebbles of the health divination (p. 296); Table 2.7, the hours' destiny elements (p. 91) | Gyurme Dorje (2001) |
 | *(in `ForcesTest`)* | Chart 6.2: the four aspects of a fire dragon, an earth tiger and an iron mouse year, and all 20 elemental cells of the obstacle-year chart | Gyurme Dorje (2001), p. 228 |
+| *(in `YearOfLifeTest`)* | The natal mewa of the captions to the 180-year charts; Table 2.11, the mewa of each age 1–90 for every natal mewa, male and female years (p. 103); chart 6.2, the 23rd year of a man born in a fire dragon year: progressed sign iron mouse, trigram zin, mewa 7 and all 24 decisive pebbles, the sectors and the hour included (p. 229) | Gyurme Dorje (2001); WB vol. 1, p. 255 (1687's mewa) |
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
 | *(in `KyurekiElectionTest`)* | Weddings, 1–10 October 2026 (旧暦 8/21–8/30): the days named good, the disputed days and their annotations | The rules of §7.5 (天赦日, 不成就日, the rokuyō), each checked in `RekichuTest` |
 | *(in `ElectionTest`)* | October 2026, the good days ranked for haircuts, weddings and setting out, and the days to avoid that the site names; the days of 1 June 1976's enemy weekday and death mansion not offered | The app's own weighing (§5.14), witnessed by the tibetastromed.ru election (sources/tibetastromed.md) |
@@ -1316,7 +1388,19 @@ canvas "Zanshin Calendar — basic design".
   omitted". A holiday moved back by a skipped date says "moved from day N".
 - **Leap month:** "Leap 2nd month".
 - **Year:** element and animal, "Fire Horse"; the royal year (2153)
-  and rabjung cycle ("17th cycle, year 40") in the year's balloon.
+  and rabjung cycle ("17th cycle, year 40") in the year's balloon. With a
+  person chosen, the balloon ends in "Your 51st year of age →", which opens
+  the **year sheet** (§5.9.1): the person's age and signs; the signs of
+  the year (the mewa of the year of age with the natal one, and with a
+  gender the trigram and the progressed sign with its place); the pebbles
+  as a grid, a row for each basic sign and a column for each aspect as
+  chart 6.2 lays them, the white and black counted under it, then each
+  aspect's predictive pebble (and all four alike); the hour of reckoning
+  named; the four sectors of growth and decline; and the year's
+  obstacles, or a line saying there are none. Every row and cell opens
+  its reading with its workings. Without a gender a note asks for it in
+  People. The sheet changes once a year, so it stays behind the tap
+  (the owner's rule that the page repeats nothing).
 - **Midnight to dawn:** "today" is the civil date, as §4 says; the
   date carries a small "from dawn".
 - **No day line** (decided by the owner, 2026-10-09; ROADMAP T3): the
@@ -1544,19 +1628,24 @@ canvas "Zanshin Calendar — basic design".
   - No map: a map needs network tiles, and the app has no `INTERNET` permission
     (§2).
 - The location drives the local sky line only; neither calendar depends on it.
-- **People**, optional and stored on the device: up to ten, each a name and
-  a birth date. The birth date of the person chosen enables the personal
+- **People**, optional and stored on the device: up to ten, each a name, a
+  birth date and a gender (not set, male or female; the tradition defines
+  the progressions for these two only, and while it is not set the
+  readings that need it are hidden, §5.9.1). The birth date of the person chosen enables the personal
   days (Tibetan luck/life/anti, the own days of §5.8 and the personal
   mansions, Japanese 三箇の悪日), the Tibetan pebbles, the nine-star reading
   and the election's "For you"; with no one chosen ("No one") the pages
   read as without a birth date. The menu row names the person chosen and
   opens the list: a tap on a person chooses them, a pencil changes or
   deletes them, and "Add a person" (while fewer than ten are saved) asks for
-  a name and a birth date, both needed, and chooses the new person. With
+  a name and a birth date, both needed, and the gender, which may stay not
+  set, and chooses the new person. With
   no one saved the row goes straight to adding. A birth date saved before
   there were people reads as one person without a name, listed by the
   date, chosen. Stored as the `people` preference, one person per line
-  (epoch day, tab, name), and `person`, the index chosen or -1.
+  (epoch day, tab, name, and with a gender a tab and `m` or `f`; a line
+  saved before has none and reads as not set), and `person`, the index
+  chosen or -1.
 - **Language**: the phone's language or one the app is translated into
   (English, Russian), each listed by its own name. Android 13 and later keep
   the choice themselves as the per-app language (`LocaleManager`, with

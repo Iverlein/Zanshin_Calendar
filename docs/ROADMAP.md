@@ -24,7 +24,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
-| 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
+| 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 
@@ -51,7 +51,7 @@ moves up as soon as it is unblocked.
 | 10 | E5 The 旧暦 election — built 2026-10-09 | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
 | 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
 | 12 | M1 Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
-| 13 | T4 + T5 Element calculation and gender | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
+| 13 | T4 + T5 Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
 | 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
@@ -607,37 +607,54 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   the day sign's glyph is coloured; the year line and the combination's
   element glyphs stay muted.
 
-### T4. Divination
+### T4. Divination — built 2026-10-09 (SPEC §5.9.1, §10.3)
 
-- **Element calculation ('byung rtsis)** is arithmetic: birth animal and
-  element, sme ba and spar kha of year and day (the day's already computed,
-  Janson E.9–E.11), progressed animal, element and sme ba for each year of
-  age (Berzin 3, 4; they differ for men and women, so they need a gender
-  setting, see T5), obstacle years (keg). The yearly sme ba appears to follow the
-  same count as the 九星 year star (1 at a wood-rat year, counting down), so
-  it can share code with the 九星 year star (SPEC §7.5) once a vector confirms it. The readings of each
-  result need sources; the calculated positions do not.
+- **Built: the element calculation (*'byung rtsis*) of the year of age**,
+  from WB vol. 1, chapter 21 (pp. 255–258) and chapter 24 (pp. 380–411),
+  read with Yigdzin-1 and MITRA and the rules on the scan, with the
+  *Moonbeams* (KD vol. 3) where WB is silent
+  ([sources/year-of-life.md](sources/year-of-life.md)): age in the Tibetan
+  count; the natal mewa (the 九星 year count, confirmed by WB's 1687 and
+  Gyurme Dorje's 180-year captions); the mewa of the year of age (WB's
+  circuit by the birth year's gender, every cell of Dorje's Table 2.11);
+  the trigram of the year of age and the progressed sign by the person's
+  gender; the 24 decisive pebbles of the six basic signs, the hour of
+  reckoning being the present one, with the predictive pebble of each
+  aspect by WB's count (chart 6.2's 24 cells as the vector); the twelve
+  sectors of growth and decline with their pebble ranks; the harsh years,
+  the nine-multiples and the mewa's four small obstacles; every result
+  with WB's reading, in English and Russian. Shown in a year sheet from
+  the year's balloon. Checked on the emulator in both languages (a man of
+  1976, a woman of 1990 in her own-animal 37th year, a person without a
+  gender) and in a release build.
+- **Left, with why** (each in the sources file):
+  - the natal trigram (*skyes spar*): the mother's trigram in the year of
+    the birth, which needs the mother's birth year, a further personal
+    datum for the owner to decide on; with it the secret obstacle (*gsang
+    keg*) and the natal trigram readings (WB ff. 180b–182a) would follow;
+  - the obstacles of spouses (*bza' shug*), of the parents' and ancestors'
+    deaths (*dur keg*), and the household readings: they need the other
+    people's signs;
+  - the progressed sign's four counted signs (lifeline, peg, sky and earth
+    extension, p. 387): WB does not say which aspect of the counted sign
+    meets the subject's, and Dorje's chart 6.3 reads otherwise;
+  - the other four kinds of nine-multiple and the tomb signs (*dur mig*,
+    pp. 409–425), the mewa's sky and earth doors (p. 409), the aspects in
+    decline (p. 409) and the coloured pebbles (pp. 386–387): not yet read
+    to the end.
 - **Mo** (Mipham's dice: two throws of the ARAPACANA die, 36 outcomes; other
   systems use three dice or a mala) has no calculation beyond a random draw.
   Every reading is a text, and the English ones are copyrighted
   translations (Goldberg, *Mo*, Snow Lion 1990). Berzin notes it is done in
   a meditational context after a retreat. Not planned.
 
-### T5. Personal settings
+### T5. Personal settings — built 2026-10-09 (SPEC §10.5)
 
-Built together with T4: nothing else reads the gender.
-
-The people and the gender sit together in one "Personal" section of the menu,
-since every personal reading needs one or both: the personal days of both
-calendars and the nine-star reading need the birth date; the progressions of T4 need both.
-
-- Gender: not set, male or female; the tradition defines the progressions
-  for these two only. While it is not set, the readings that need it are
-  hidden rather than guessed.
-- The gender belongs to a person, beside the name and birth date of the
-  saved people (SPEC §10.5), asked for in the same dialog; a person saved
-  before T5 has it not set.
-- Both stay on the device only, as the people do now (SPEC §10.5).
+The gender (not set, male or female) belongs to each saved person, asked
+for in the person's dialog under the birth date and stored with them on
+the device; a person saved before reads as not set, and while it is not
+set the readings that need it are hidden, with a note that says so. Only
+the year of age reads it (its trigram and progressed sign).
 
 ### M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 

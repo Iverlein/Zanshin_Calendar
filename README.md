@@ -14,7 +14,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
   karaṇa, element pair, lunar-day animal, trigram and number, each with its
   reading from the White Beryl and the *kun phan me long*; the day in brief
   weighed by those texts' rank; hair-cutting days, personal days and
-  mansions for a birth year.
+  mansions for a birth year; and for each person the year of age by the
+  White Beryl's elemental divination: mewa, trigram and progressed sign,
+  the pebbles with their predictions, growth and decline, and the year's
+  obstacles.
 - **旧暦:** month and day, 六曜, the current solar term, moon phase, 十二直,
   二十八宿, 九星, 選日 and 暦注下段 (with the lower band's own rules), 雑節,
   干支 and 恵方.
