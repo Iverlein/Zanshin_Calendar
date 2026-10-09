@@ -320,7 +320,7 @@
     <string name="tib_special_days_title">Special days</string>
     <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) puts the special days of weekday and mansion below the weekday and the mansion, whose own results are the main thing, and its almanac writes the burning date with them.</string>
     <string name="tib_burning_date_subtitle">burning date of weekday and date: %1$s</string>
-    <string name="tib_rahu_courses">its course by date and its course in the month</string>
+    <string name="tib_rahu_courses">its courses by date and by month</string>
     <string name="tib_bla_mkhyen_title">The astrologer spirit (བླ་མཁྱེན, bla mkhyen)</string>
     <string name="tib_bla_mkhyen_subtitle">%1$s · the day\'s mewa (སྨེ་བ, sme ba) %2$d, counted from the solstice</string>
     <string name="tib_black_day_title">The great black day (ཉི་མ་ནག་ཆེན, nyi ma nag chen)</string>
@@ -343,6 +343,9 @@
     <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
     <string name="tib_rahu_month_subtitle">its course in %1$s: good for fierce work</string>
     <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
+    <string name="tib_rahu_season_subtitle">seeking food among the earth lords (ས་བདག, sa bdag) in %1$s: good for fierce work</string>
+    <string name="tib_earth_lords_title">The earth lords\' courses</string>
+    <string name="tib_earth_lords_note">The earth lords (ས་བདག, sa bdag) that the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) moves by date, as its almanac writes them on the day: shown and not weighed, since its order of strength does not rank them.</string>
     <!-- Rāhu's compass (SPEC §10.7): the caption under it in the sheet; %1$d is the lunar date, %2$s and %3$s directions -->
     <string name="rahu_course_detailed">Date %1$d, the detailed course: %2$s → %3$s</string>
     <string name="rahu_course_general">Date %1$d, the general course: %2$s → %3$s</string>

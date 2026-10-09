@@ -55,6 +55,7 @@ import zanshin.core.texts.DayFactor
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.texts.toneOf
 import zanshin.core.texts.sharedTone
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
@@ -76,6 +77,9 @@ import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearForces
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.RahuBySeason
+import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
@@ -242,6 +246,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
         val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.chineseSeason)
+        val rahuSeasonSubtitle = stringResource(R.string.tib_rahu_season_subtitle, day.monthNames.chineseSeason)
         // Rāhu's compass: the course its date's reading gives, the detailed where it names one (SPEC §10.7).
         val rahuMove = RahuCourse.of(day.day)
         val rahuCaption = when (rahuMove) {
@@ -407,6 +412,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
                 Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, it, subtitle = rahuGeneralSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_MONTH[day.month to day.day]?.let { Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, it, subtitle = rahuMonthSubtitle, titleIsKanji = false) },
+                RahuBySeason.of(day.month, day.day)?.let { Texts.RAHU_SEASON[it] }?.let { Annotation(rahuTitle, rahuSeasonSubtitle, Tone.NEUTRAL, it, subtitle = rahuSeasonSubtitle, titleIsKanji = false) },
             )
             if (rahu.size == 1) {
                 add(rahu.single().copy(subtitle = null))
@@ -617,6 +623,34 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
                 ),
             ) { a -> sheet = a }
         }
+        // The earth lords that move by date (ROADMAP T2.13, SPEC §5.13): the day's courses as WB's almanac writes them, one row,
+        // shown and not weighed, since WB's order of strength does not rank them; the sky door falls on every date.
+        val courses = EarthLordCourses.of(day).map { c ->
+            val name = gloss(c.course)
+            Annotation(
+                name,
+                when {
+                    c.course == EarthLordCourse.GNAM_SGO -> Catalog.text("SkyDoor.${c.variant!!.replace(' ', '_')}")
+                    c.otherView -> "${gloss(c.event)}, ${Catalog.text("CourseDay.otherView")}"
+                    else -> gloss(c.event)
+                },
+                toneOf(Texts.earthLord(c)),
+                Texts.earthLord(c),
+                titleIsKanji = false,
+                details = listOf(whiteBerylLabel to Ewts.named(name, c.course.wylie)),
+            )
+        }
+        AnnotationRow(
+            Annotation(
+                stringResource(R.string.tib_earth_lords_title),
+                stringResource(R.string.tib_earth_lords_note),
+                Tone.NEUTRAL,
+                null,
+                subtitle = courses.joinToString(" · ") { "${it.title}: ${it.english}" },
+                titleIsKanji = false,
+                parts = courses,
+            ),
+        ) { a -> sheet = a }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
