@@ -211,6 +211,7 @@ object Sources {
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
     val WHITE_BERYL_GTSUG_LAG_DAYS = whiteBeryl("p. 337, with the table p. 342")
     val WHITE_BERYL_BURNING_DATES = whiteBeryl("p. 351 and chapter 34, pp. 404, 414 and 426, with the dates in vol. 1, p. 177")
+    val WHITE_BERYL_GREAT_BLACK_DAY = whiteBeryl("p. 226")
     val WHITE_BERYL_COMBINATIONS = whiteBeryl("pp. 331–333, with the table in vol. 1, pp. 148–149")
     /** The birth mansion as the mansion of the birth date: ch. 3, section 7, «སྐྱེས་སྐར་ངོས་འཛིན་གྱི་རྩིས». */
     val PHUG_PA_DBYANGS_CHAR = Source(
@@ -850,6 +851,25 @@ object Texts {
     )
 
     /**
+     * The great black day ([zanshin.core.tibetan.GreatBlackDay]) by season-month, 0 early spring … 11 late winter:
+     * what happens on its date, then WB's results for all twelve (vol. 2, p. 226; docs/sources/great-black-day.md):
+     * works for the dead and the living bad, above all sending out wealth, empowerment and consecration, a bride,
+     * building, burial and trade; no virtuous work; harmful means go along with it. An earth lord of chapter 31,
+     * shown with the *bla mkhyen* and not weighed: the texts that weigh the day do not place the earth lords.
+     */
+    val GREAT_BLACK_DAY: Map<Int, Reading> = (0..11).associateWith {
+        Reading(
+            goodKeys = listOf("black_rites"),
+            avoidKeys = listOf(
+                "works_for_the_dead_and_the_living", "sending_out_wealth", "empowerment", "consecration", "taking_a_bride",
+                "building", "building_graves", "trade", "virtuous_work",
+            ),
+            source = Sources.WHITE_BERYL_GREAT_BLACK_DAY,
+            key = "reading.GreatBlackDay", arg = "reading.GreatBlackDay.$it",
+        )
+    }
+
+    /**
      * The 28 named combinations of weekday and mansion, the great combination
      * ('phrod chen): the White Beryl's short reading of each with the gist of
      * its verse (vol. 2, pp. 331–333; docs/sources/combinations.md). No lists:
@@ -878,7 +898,6 @@ object Texts {
         TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE),
         TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN),
         TibetanFestival.GADEN_NGAMCHO to Reading(source = Sources.RABTEN),
-        TibetanFestival.SANGPO_CHUZOM to Reading(source = Sources.RABTEN),
         TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN),
     )
 

@@ -291,6 +291,26 @@ object BurningDate {
 }
 
 /**
+ * The great black day (*nyi ma nag chen*), the first of the earth lords that move by date (the White Beryl,
+ * vol. 2, p. 226; docs/sources/great-black-day.md): Rāhu meets his sister on the 7th of the first month of
+ * spring, the meeting of the nine bad (*ngan pa dgu 'dzom*), and the course goes on with one date in every
+ * month. Its seasons are the Chinese reckoning's ([SeasonReckoning.CHINESE]), as everywhere in WB's chapter 31:
+ * the first month of spring is the 11th, so the meeting falls on 11/7. Keyed by the date as it stands, like
+ * Rāhu's course by month: a skipped date has none, a doubled one has it on both days, and a leap month has
+ * it as its month does, since WB's almanac writes the earth lords for both (vol. 1, p. 178).
+ */
+object GreatBlackDay {
+    /** The date in each season-month, early spring to late winter, as WB lists them. */
+    val DATES = listOf(7, 14, 21, 8, 16, 24, 9, 18, 27, 10, 20, 30)
+
+    /** The season-month (0 early spring … 11 late winter) whose great black day is [date] of Hor month [month], or null. */
+    fun of(month: Int, date: Int): Int? = SeasonReckoning.CHINESE.season(month).takeIf { DATES[it] == date }
+
+    /** The meeting of the nine bad: the first month of spring. */
+    const val NINE_BAD = 0
+}
+
+/**
  * The eight trigrams (spar kha) in Janson's Table 15 order. [goddess] is the
  * one of the White Beryl's eight goddesses (lha mo brgyad, vol. 1,
  * pp. 449–450) whose day the date is: its "deeper" count by date and month
@@ -341,8 +361,10 @@ enum class SpecialDay(val day: Int) {
 
 /**
  * Festivals on fixed Tibetan dates. Dates from Henning's Phugpa archive and
- * Rabten's calendars (Zamling Chisang, Gaden Ngamchö, the Ten Good Omens,
- * Thanksgiving to the Protectors); not held in leap months except Losar.
+ * Rabten's calendars (Zamling Chisang, Gaden Ngamchö, Thanksgiving to the
+ * Protectors); not held in leap months except Losar. Rabten's Ten Good Omens
+ * on 11/6 is not kept: the White Beryl has none, and names the 7th of that
+ * month the meeting of the nine bad ([GreatBlackDay], SPEC §5.7).
  */
 /** The festivals of the year (SPEC §5.7); [wylie] is the Tibetan of a title written in phonetics, named with it (§8.1). */
 enum class TibetanFestival(val month: Int, val day: Int, val wylie: String? = null) {
@@ -356,7 +378,6 @@ enum class TibetanFestival(val month: Int, val day: Int, val wylie: String? = nu
     ENTRY_INTO_WOMB(6, 15),
     LHABAB_DUCHEN(9, 22, "lha babs dus chen"),
     GADEN_NGAMCHO(10, 25, "dga' ldan lnga mchod"),
-    SANGPO_CHUZOM(11, 6, "bzang po bcu 'dzom"),
     PROTECTORS(12, 29);
 
     val title: String get() = gloss(this, "title")

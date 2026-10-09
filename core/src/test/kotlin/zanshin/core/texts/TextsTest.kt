@@ -34,7 +34,7 @@ class TextsTest {
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
-        Texts.OWN_DAY,
+        Texts.OWN_DAY, Texts.GREAT_BLACK_DAY,
     ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE
 
     @Test

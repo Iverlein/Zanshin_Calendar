@@ -979,6 +979,8 @@ object Activities {
         "treating_horses_donkeys_and_mules" to of(HORSES),
         "power_pacifying_and_increasing_rites_in_general" to of(CONTROLLING, PACIFYING, INCREASING),
         "everything_for_the_living" to of(HEALTH_AND_WEALTH),
+        // The great black day's «ཤི་གསོན་བྱ་ལས», works for the dead and for the living (WB vol. 2, p. 226).
+        "works_for_the_dead_and_the_living" to of(FUNERALS, HEALTH_AND_WEALTH),
         "slaughtering_livestock" to of(KILLING),
         "giving_butter_away" to of(GIVING_OUT),
         "making_tombs_and_hiding_places" to of(BUILDING_GRAVES),
