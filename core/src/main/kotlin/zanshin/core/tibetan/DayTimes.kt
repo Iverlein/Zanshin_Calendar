@@ -33,8 +33,7 @@ object DayTimes {
      * the day's motion is the one figure taken from the next, and the moon
      * enters a mansion when the motion's share of the day brings it to the
      * mansion's start. WB writes a second mansion only when it comes in
-     * daytime («ཉིན་མོ་སྐར་མ་གཉིས། །འདུག་ན་གཉིས་ཀ་འདྲི», p. 177); the caller
-     * knows the place's nightfall.
+     * daytime («ཉིན་མོ་སྐར་མ་གཉིས། །འདུག་ན་གཉིས་ཀ་འདྲི», p. 177), within WB's day length ([dayLength]).
      */
     fun mansions(day: TibetanDay, next: TibetanDay): List<Change<Mansion>> =
         crossings(day.moon, next.moon).map { (k, t) -> Change(Mansion.entries[k], t) }
@@ -164,18 +163,38 @@ object DayTimes {
     )
 
     /**
-     * The sun's course in a day, in chu tshod of its 27 × 60: WB's divisor in the rule for the terms
-     * («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས», p. 182; open question 15), taken as the step requires, the true sun's
-     * excess turned into time by a day of the sun's course («ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས»), its mean by
-     * the same arithmetic: 13/4824 of the round each lunar date, of 11135/11312 of a day, 4;26,6.
-     * The words' legible digits, *chu* 4 and *ro* 6, agree with 4;26.
+     * The multiplier of WB's rule for the terms (p. 182, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན»): the
+     * chu tshod of the sun's excess over a measure, multiplied (*bsgyur*) by *yid*, the number word for
+     * 14 (*Tshig mdzod chen mo*), the chu srang carried up into chu tshod, are the chu tshod of time
+     * taken from the date's end. A day of the sun's course is so 60/14 = 4;17,8 chu tshod (open
+     * question 15).
      */
-    val DAILY_COURSE: Double = 13.0 / 4824 * 1620 / (11135.0 / 11312)
+    const val MULTIPLIER: Double = 14.0
+
+    /**
+     * WB's length of the day (*nyin tshad*) in chu tshod when the true sun stands at [sunArc] chu tshod
+     * of its course (27 × 60 to the round): 30 at the middle terms of the 2nd and 8th months, the
+     * equinoxes, longer or shorter by 1;10 each sign-month (vol. 1, p. 182, «ཁྱིམ་ཟླ་རེར། །ཆུ་ཚོད་རེ་དང་ཆུ་སྲང་ཕྱོགས། །འཕེལ་འགྲིབ»)
+     * to 33;30 at the 5th month's, the summer solstice, and 26;30 at the 11th's; the day lengths ch. 15
+     * lists at each middle term (31;10 at the 3rd month's … 27;40 at the 12th's, 28;50 at the 1st's).
+     */
+    fun dayLength(sunArc: Double): Double {
+        val x = Math.floorMod((sunArc - (25 * 60 + 21)).let { Math.round(it * 1000) }, 1620L * 1000) / 1000.0
+        val t = when {
+            x <= 405 -> x / 405
+            x <= 1215 -> (810 - x) / 405
+            else -> (x - 1620) / 405
+        }
+        return 30 + 3.5 * t
+    }
+
+    /** WB's daytime of [day]: its length by the true sun at the end of the day's date. */
+    fun dayLength(day: TibetanDay): Double = dayLength(day.sun.toDouble() * 1620)
 
     /**
      * The sun's terms that fall in [day] (p. 182): a term falls in the lunar date at whose end the true
      * sun has reached its measure; if the sun stands exactly on it, at the date's end, and if beyond,
-     * the excess divided by the sun's course in a day ([DAILY_COURSE]) is taken from the date's end
+     * the excess times [MULTIPLIER] is taken, in chu tshod of time, from the date's end
      * («ཚད་བཞིན་མ་ཤར་མང་བ་ཡི། …ཚེས་ཀྱི་ཆུ་ཚོད་ཕྲི་བ་དེའི། །ལྷག་མ་ཟད་ཚེ་འཕོ»), which can carry it into the day
      * before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»).
      */
@@ -189,7 +208,7 @@ object DayTimes {
             for (term in SUN_TERMS) {
                 val m = if (term.arc <= s0) term.arc + 1620.0 else term.arc.toDouble()
                 if (m > s1) continue
-                val at = t1 - (s1 - m) / DAILY_COURSE
+                val at = t1 - (s1 - m) * MULTIPLIER / 60
                 if (floor(at).toLong() == day.jd) add(Change(term, (at - day.jd) * 60))
             }
         }

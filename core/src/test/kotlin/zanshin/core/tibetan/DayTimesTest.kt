@@ -168,8 +168,8 @@ class DayTimesTest {
     /**
      * WB p. 182 worked on Henning's 2026 figures: the sun ends the 1st month's 1st date at 21;54,15
      * (Henning) and the 2nd at 21;58,49, beyond the 1st month's dbugs thob at 21;58 by 0;0,49; that
-     * excess over a day's course of 4;26,6 is 0.184 of a day, 11;03 chu tshod, taken from the 2nd's end
-     * at 19;22 on 19 February: 8;19 after daybreak, 08:20 by hand; 08:19 from the unrounded figures.
+     * excess times 14 is 11;26 chu tshod, taken from the 2nd's end at 19;22 on 19 February: 7;56 after
+     * daybreak, 08:10 by hand; 08:09 from the unrounded figures.
      */
     @Test
     fun `a dbugs thob worked by hand`() {
@@ -177,9 +177,9 @@ class DayTimesTest {
         val term = DayTimes.sunTerms(t, Phugpa.A2_HENNING).single()
         assertEquals(DayTimes.SunTermKind.DBUGS_THOB, term.what.kind)
         assertEquals(1, term.what.month)
-        val expected = (19 + 22.0 / 60) - (49.0 / 60) / (4 + 26 / 60.0 + 6 / 3600.0) * 60
+        val expected = (19 + 22.0 / 60) - (49.0 / 60) * 14
         assertTrue(abs(term.at - expected) < 0.1, "${term.at} vs $expected")
-        assertEquals(8 * 60 + 19, DayTimes.clockMinute(term.at), "${term.at}")
+        assertEquals(8 * 60 + 9, DayTimes.clockMinute(term.at), "${term.at}")
     }
 
     @Test
@@ -244,10 +244,13 @@ class DayTimesTest {
         assertEquals(12, EarthLordCourses.HIDDEN_LORDS.size)
     }
 
-    /** Open question 15: the divisor is the sun's mean course in a day by the same arithmetic, 4;26,6. */
+    /** WB ch. 15's day lengths at the middle terms, and p. 182's 1;10 a sign-month. */
     @Test
-    fun `the divisor is a day of the sun's course`() {
-        assertTrue(abs(DayTimes.DAILY_COURSE - (4 + 26 / 60.0 + 6 / 3600.0)) < 1.0 / 3600, "${DayTimes.DAILY_COURSE}")
+    fun `WB's day length at the middle terms`() {
+        fun at(month: Int) = DayTimes.dayLength(DayTimes.SUN_TERMS.single { it.kind == DayTimes.SunTermKind.SGANG && it.month == month }.arc.toDouble())
+        val expected = mapOf(2 to 30.0, 3 to 31 + 10 / 60.0, 4 to 32 + 20 / 60.0, 5 to 33.5, 8 to 30.0, 11 to 26.5, 12 to 27 + 40 / 60.0, 1 to 28 + 50 / 60.0)
+        for ((m, d) in expected) assertTrue(abs(at(m) - d) < 1e-9, "month $m: ${at(m)}")
+        assertEquals(14.0, DayTimes.MULTIPLIER)
     }
 
     /** WB vol. 1, p. 177, entry 11: the date before a burning date, ending in daylight, marks it. */
@@ -257,10 +260,10 @@ class DayTimesTest {
         var marked = 0
         for (jd in start until start + 50 * 365) {
             val t = TibetanCalendar.of(jd)
-            val from = DayTimes.burningFrom(t, 30.0) ?: continue
+            val from = DayTimes.burningFrom(t, DayTimes.dayLength(t)) ?: continue
             marked++
             assertTrue(BurningDate.of(t.weekday, t.day % 30 + 1) && !t.burningDate, "on $jd")
-            assertTrue(from in 0.0..30.0 && abs(from - DayTimes.dateEnd(t)!!) < 1e-9)
+            assertTrue(from in 0.0..DayTimes.dayLength(t) && abs(from - DayTimes.dateEnd(t)!!) < 1e-9)
             assertEquals(null, DayTimes.burningFrom(t, from - 0.01), "not after nightfall")
         }
         assertTrue(marked > 100, "$marked marked burning dates")
