@@ -945,8 +945,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   pig, sheep and hare's the snake, the mouse, dragon and monkey's the
   tiger, the bird, ox and snake's the pig), with the year's avoidances and
   remedies (§5.11); and the hour's *sa rgyal*, on the four-slayer in front
-  of the hour, read as the upward one, three animals on (vol. 1, p. 235
-  counts them up and down), spectacles, corpse rites and forts avoided
+  of the hour, the upward one, three animals on (vol. 1, p. 235 counts
+  them up and down; the *'Bras rtsis rab gsal nor bu'i me long* puts it
+  on the hare in the mouse hour), spectacles, corpse rites and forts avoided
   (`EarthLordCourses.hourBlaMkhyen`, `hourSaRgyal`). Each names its place
   by the animal and WB's direction for it (vol. 1, p. 254: tiger upper
   east … ox north-east). The *sa rgyal* the other way WB gives, *pi ling
@@ -958,8 +959,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   the hour's own animal (*gnyan khra* the mouse's … *phyug po* the pig's),
   a corpse not led their way. The black sky dog (p. 197, for year, month,
   day and hour by the new Chinese reckoning): its head on the hour's
-  animal, its tail on the seventh, its twelve parts counted on round the
-  places, each with what it forbids and what it does to a bride
+  animal, its tail on the seventh, its twelve parts clockwise (*chos
+  skor*) on through the animals, as a Gyalrong rtsis collection lays them
+  out, each with what it forbids and what it does to a bride
   (`gnamKhyiPart`). On the hours panel (§10.3), not weighed.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 

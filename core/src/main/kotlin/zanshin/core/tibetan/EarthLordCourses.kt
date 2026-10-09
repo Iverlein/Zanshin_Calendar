@@ -320,7 +320,8 @@ object EarthLordCourses {
      * The hour's *sa rgyal* (vol. 2, p. 236): on the four-slayer in front of the hour
      * («དུས་ཚོད་ས་རྒྱལ་མདུན་གྱི་ནི། །བཞི་གཤེད་སྟེང་དུ་གནས»), the one ahead in the hours' own course: WB counts an
      * animal's four-slayers up and down (vol. 1, p. 235: the mouse's upward one the hare, «ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ», its
-     * downward one the bird), and the one in front is the upward, three animals on.
+     * downward one the bird), and the one in front is the upward, three animals on, as the *'Bras rtsis rab
+     * gsal nor bu'i me long* works it: «བྱི་དུས་ཡོས་ཐོག», in the mouse hour on the hare (Sa skya *gsung rab* vol. 7, p. 52).
      */
     fun hourSaRgyal(hourAnimal: Animal): Animal = Animal.entries[(hourAnimal.ordinal + 3) % 12]
 
@@ -356,7 +357,9 @@ object EarthLordCourses {
     /**
      * The black sky dog of the hour (vol. 2, p. 236, «དུས་ཚོད་གནམ་ཁྱི་ལོར་བཤད»), as the year's by the new Chinese
      * reckoning (p. 197), which holds for year, month, day and hour alike: its head on the time's own
-     * animal, its tail on the seventh, the twelve parts of its body in order round the places. The part
+     * animal, its tail on the seventh, the twelve parts of its body in order clockwise («རིམ་པར་ཆོས་སྐོར»), on through
+     * the animals, as a Gyalrong rtsis collection lays the old reckoning's out (head on the monkey, mouth on
+     * the bird, «ནམ» on the dog …; BDRC MW1KG16672). The part
      * that lies on [place] in the hour of [hourAnimal], 1 the head … 12 the neck.
      */
     fun gnamKhyiPart(hourAnimal: Animal, place: Animal): Int = Math.floorMod(place.ordinal - hourAnimal.ordinal, 12) + 1

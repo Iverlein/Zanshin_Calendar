@@ -362,7 +362,13 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   (vol. 1, p. 235, img. 245, both readers: the mouse's upward
   four-slayer the hare, its downward the bird), and the one in front of
   the hour is the one ahead in the hours' own course, three animals on
-  (in the hare hour the horse). The text names no remedy; it says
+  (in the hare hour the horse). The *'Bras rtsis rab gsal nor bu'i me
+  long* works the mouse hour so (Sa skya *gsung rab* vol. 7, *rtsis
+  gzhung*, p. 52; BDRC MW29978_8B19DD, etext VEIE0OPI8BBA1CDB_I5721,
+  p. 80): «དཔེར་ན་ནམ་ཕྱེད་བྱི་བའི་དུས་ལ་གཡུ་མཛོད་དུས་ཐམས་ཅད་ལ་ཡོད་སྟེ། བྱུང་སྨད་གཉན་ཁྲའང་དེར་གནས་ས་རྒྱལ་མདུན་གྱི་བཞི་གཤེད་སྟེང་སྟེ། བྱི་དུས་ཡོས་ཐོག བླ་མཁྱེན་ཤར་སྟོད་སྟག་ཐོག་ཏུ་གནས་པ་ཡིན»,
+  the *sa rgyal* on the hare, the hidden *gnyan khra* on the lower north
+  and the *bla mkhyen* on the tiger, upper east, each as the app has
+  them. The text names no remedy; it says
   empowerment, the generation and completion stages and a great gathering
   of offerings are done. **Built** (`EarthLordCourses.hourSaRgyal`,
   `Texts.HOUR_SA_RGYAL`, on the hours panel). The other way, read on the
@@ -397,7 +403,11 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   husband dies; … the neck: forts, stupas, houses and weaving bad, a bride
   bad for both families), and the remedies (a thread-cross of the sky
   dog, the *gtsug tor*, a pig-and-crow figure, a black yak tail, letters
-  on the bride's fingers). **Built** for the hour (`gnamKhyiPart`,
-  `Texts.HOUR_GNAM_KHYI`), the parts counted on from the head as the
-  hours run; the year's own sky dog, which needs a bride's year (p. 196,
+  on the bride's fingers). «རིམ་པར་ཆོས་སྐོར» is the direction, clockwise, on
+  through the animals: a Gyalrong rtsis collection lays the old
+  reckoning's dog out so (BDRC MW1KG16672, etext VEIE0OPI0BF3377F_I1KG15279,
+  p. 143): «བདུན་ཟུར་སྟེང་དུ་གནམ་ཁྱིའི་མགོ། །དེ་ནས་རིམ་བཞིན་ཆོས་སྐོར་དུ། །བྱ་ལ་ཁ་དང་ཁྱི་ལ་ནམ། །ཕག་ལ་སྦོ་དང་བྱི་བར་མཇེ། །གླང་ལ་རྐུབ་དང་སྟག་ལ་མཇུག …ལུག་ལ་གཉའ་བ་གཏད་པ་ཡིན»,
+  the head on the monkey, then the bird, dog, pig and on; the Bon *snang
+  srid me long* has the same lines (a witness only). **Built** for the
+  hour (`gnamKhyiPart`, `Texts.HOUR_GNAM_KHYI`); the year's own sky dog, which needs a bride's year (p. 196,
   the trigram *khen*), is not the hour's.
