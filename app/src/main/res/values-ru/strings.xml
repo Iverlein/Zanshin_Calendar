@@ -177,6 +177,22 @@
     <string name="not_set">Не задано</string>
     <string name="menu_birth_date">Дата рождения</string>
     <string name="menu_birth_not_set">Не задана — для личных дней</string>
+    <string name="menu_people">Люди</string>
+    <string name="menu_person_value">%1$s · %2$s</string>
+    <string name="menu_no_one_chosen">Никто не выбран</string>
+    <string name="people_no_one">Никто</string>
+    <string name="people_no_one_subtitle">День без личных дней</string>
+    <string name="people_add">Добавить человека</string>
+    <string name="people_full">Сохранено %1$d человек, больше список не вмещает: удалите кого-нибудь, чтобы добавить.</string>
+    <string name="people_close">Закрыть</string>
+    <string name="person_edit">Изменить: %1$s</string>
+    <string name="person_edit_title">Изменить данные</string>
+    <string name="person_name">Имя</string>
+    <string name="person_choose_date">Выбрать дату</string>
+    <string name="person_delete">Удалить</string>
+    <string name="person_note">Хранится только на этом устройстве. Личные дни обоих календарей читаются для выбранного человека.</string>
+    <string name="person_chip">Личные дни для: %1$s; сменить человека</string>
+    <string name="person_chip_none">Никто не выбран для личных дней; сменить человека</string>
     <string name="menu_kigaku">Чтение девяти звёзд</string>
     <string name="menu_kigaku_subtitle">Ваша звезда рождения и звезда дня</string>
     <string name="menu_language">Язык</string>
@@ -323,7 +339,6 @@
     <string name="sources">Источники</string>
     <string name="text_pending_source">текст ждёт источника</string>
     <string name="birth_save">Сохранить</string>
-    <string name="birth_clear">Очистить</string>
     <string name="birth_cancel">Отмена</string>
 
     <!-- Glyphs: descriptions for screen readers -->

@@ -52,12 +52,23 @@ class Settings(context: Context) {
             }.apply()
         }
 
-    /** Birth date, for the personal days of both calendars; kept on the device only. */
-    var birthDate: LocalDate?
-        get() = if (prefs.contains(KEY_BIRTH)) LocalDate.ofEpochDay(prefs.getLong(KEY_BIRTH, 0)) else null
-        set(value) = prefs.edit().apply {
-            if (value == null) remove(KEY_BIRTH) else putLong(KEY_BIRTH, value.toEpochDay())
-        }.apply()
+    /**
+     * The saved people and the one chosen, for the personal days of both
+     * calendars; kept on the device only. A single birth date saved before
+     * there were people reads as one unnamed person, chosen.
+     */
+    var people: People
+        get() {
+            val saved = prefs.getString(KEY_PEOPLE, null)
+            if (saved != null) return People.of(People.decode(saved), prefs.getInt(KEY_PERSON, -1).takeIf { it >= 0 })
+            if (!prefs.contains(KEY_BIRTH)) return People()
+            return People(listOf(Person("", LocalDate.ofEpochDay(prefs.getLong(KEY_BIRTH, 0)))), 0)
+        }
+        set(value) = prefs.edit()
+            .putString(KEY_PEOPLE, People.encode(value.list))
+            .putInt(KEY_PERSON, value.active ?: -1)
+            .remove(KEY_BIRTH)
+            .apply()
 
     /** The personal 九星気学 row of the 旧暦 view (ROADMAP R2); off by default. */
     var kigaku: Boolean
@@ -75,6 +86,8 @@ class Settings(context: Context) {
     private companion object {
         const val KEY_LANGUAGE = "language"
         const val KEY_BIRTH = "birth"
+        const val KEY_PEOPLE = "people"
+        const val KEY_PERSON = "person"
         const val KEY_KIGAKU = "kigaku"
         const val KEY_CALENDAR = "calendar"
         const val KEY_LAT = "lat"

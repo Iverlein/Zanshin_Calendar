@@ -38,10 +38,19 @@ def sh(command):
     return adb("shell", command, capture=True).decode(errors="replace")
 
 
-def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO):
-    """Write the app's preferences; the app is stopped first. birth=None leaves it unset."""
+def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, people=None, person=0):
+    """
+    Write the app's preferences; the app is stopped first. birth=None leaves it
+    unset; it is written as the single birth date of before the saved people,
+    which the app reads as one unnamed person, chosen. people, a list of
+    (name, epoch day), replaces it: the saved people, person the index chosen
+    (-1 for no one).
+    """
     zone, lat, lon, label = place
     birth_line = f'<long name="birth" value="{birth}" />' if birth is not None else ""
+    if people is not None:
+        lines = "&#10;".join(f"{day}&#9;{html.escape(name)}" for name, day in people)
+        birth_line = f'<string name="people">{lines}</string>\n    <int name="person" value="{person}" />'
     xml = f"""<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <map>
     <string name="calendar">{calendar}</string>

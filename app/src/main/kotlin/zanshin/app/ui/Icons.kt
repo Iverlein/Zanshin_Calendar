@@ -41,6 +41,11 @@ object Icons {
     /** The 3×3 board of the nine stars. */
     val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
 
+    /** A head and shoulders, for the saved people. */
+    val Person = stroke("M12 4a4 4 0 1 0 0 8a4 4 0 1 0 0-8M4.5 20c.6-3.6 3.6-6 7.5-6s6.9 2.4 7.5 6", 1.7f)
+    val Pencil = stroke("M4 20h4L19 9l-4-4L4 16v4zM13 7l4 4", 1.7f)
+    val Plus = stroke("M12 5v14M5 12h14", 2f)
+
     private fun stroke(path: String, width: Float = 1.8f): ImageVector =
         ImageVector.Builder(defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 24f, viewportHeight = 24f)
             .addPath(

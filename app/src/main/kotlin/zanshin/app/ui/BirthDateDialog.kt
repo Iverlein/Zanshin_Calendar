@@ -12,7 +12,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -22,12 +21,12 @@ import java.time.LocalDate
 import java.time.ZoneOffset
 
 /**
- * Birth date for the personal days: Luck, Life and Anti days in the Tibetan
- * view, the three bad days of one's birth year in the 旧暦 view.
+ * A person's birth date, for the personal days: Luck, Life and Anti days in
+ * the Tibetan view, the three bad days of one's birth year in the 旧暦 view.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate?) -> Unit, onDismiss: () -> Unit) {
+fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate) -> Unit, onDismiss: () -> Unit) {
     val state = rememberDatePickerState(
         initialSelectedDateMillis = initial?.atStartOfDay(ZoneOffset.UTC)?.toInstant()?.toEpochMilli(),
         yearRange = 1900..LocalDate.now().year,
@@ -38,14 +37,11 @@ fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate?) -> Unit, onDismiss
         colors = colors,
         confirmButton = {
             TextButton(onClick = {
-                onSave(state.selectedDateMillis?.let { Instant.ofEpochMilli(it).atZone(ZoneOffset.UTC).toLocalDate() })
+                state.selectedDateMillis?.let { onSave(Instant.ofEpochMilli(it).atZone(ZoneOffset.UTC).toLocalDate()) }
             }) { Text(stringResource(R.string.birth_save), color = Palette.saffron) }
         },
         dismissButton = {
-            Row {
-                if (initial != null) TextButton(onClick = { onSave(null) }) { Text(stringResource(R.string.birth_clear), color = Palette.muted) }
-                TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
-            }
+            TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
         },
     ) {
         DatePicker(state = state, colors = colors, title = { Text(stringResource(R.string.menu_birth_date), modifier = androidx.compose.ui.Modifier.padding(start = 24.dp, top = 16.dp)) })

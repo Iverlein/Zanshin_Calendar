@@ -213,6 +213,25 @@
     <string name="not_set">Not set</string>
     <string name="menu_birth_date">Birth date</string>
     <string name="menu_birth_not_set">Not set — for personal days</string>
+    <string name="menu_people">People</string>
+    <!-- the menu's People row when someone is chosen: their name, then their birth date -->
+    <string name="menu_person_value">%1$s · %2$s</string>
+    <string name="menu_no_one_chosen">No one chosen</string>
+    <string name="people_no_one">No one</string>
+    <string name="people_no_one_subtitle">The day without personal days</string>
+    <string name="people_add">Add a person</string>
+    <string name="people_full">%1$d people saved, as many as the list keeps: delete one to add another.</string>
+    <string name="people_close">Close</string>
+    <!-- the pencil beside a saved person, for screen readers: "Change Tenzin" -->
+    <string name="person_edit">Change %1$s</string>
+    <string name="person_edit_title">Change a person</string>
+    <string name="person_name">Name</string>
+    <string name="person_choose_date">Choose a date</string>
+    <string name="person_delete">Delete</string>
+    <string name="person_note">Kept on this device only. The personal days of both calendars are read for the person chosen.</string>
+    <!-- the header's person switcher, for screen readers: "Personal days for Tenzin; change the person" -->
+    <string name="person_chip">Personal days for %1$s; change the person</string>
+    <string name="person_chip_none">No one chosen for personal days; change the person</string>
     <string name="menu_kigaku">Nine-star reading</string>
     <string name="menu_kigaku_subtitle">Your birth star against the day star</string>
     <string name="menu_language">Language</string>
@@ -373,7 +392,6 @@
     <string name="sources">Sources</string>
     <string name="text_pending_source">text pending source</string>
     <string name="birth_save">Save</string>
-    <string name="birth_clear">Clear</string>
     <string name="birth_cancel">Cancel</string>
 
     <!-- Glyphs -->

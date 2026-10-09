@@ -66,6 +66,8 @@ import zanshin.app.DayInfo
 import zanshin.app.Days
 import zanshin.app.LocalLabels
 import io.github.iverlein.zanshin.R
+import zanshin.app.People
+import zanshin.app.Person
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
 import zanshin.core.astro.SunTimes
@@ -79,13 +81,16 @@ private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION }
 fun ZanshinApp(settings: Settings, cities: Cities) {
     var calendar by remember { mutableStateOf(settings.calendar) }
     var place by remember { mutableStateOf(settings.place) }
-    var birth by remember { mutableStateOf(settings.birthDate) }
-    var birthDialog by remember { mutableStateOf(false) }
+    var people by remember { mutableStateOf(settings.people) }
+    val birth = people.current?.birth
+    var peopleDialog by remember { mutableStateOf(false) }
+    // The person being changed in PersonDialog: an index, or -1 for a new one; null while it is closed.
+    var editing by remember { mutableStateOf<Int?>(null) }
     var kigaku by remember { mutableStateOf(settings.kigaku) }
     val activity = LocalContext.current as Activity
     val language = remember { AppLanguage.current(activity) }
     var languageDialog by remember { mutableStateOf(false) }
-    // Set while the birth-date dialog was opened by switching 九星気学 on.
+    // Set while the people dialogs were opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
     var pickerOpen by remember { mutableStateOf(false) }
@@ -105,6 +110,21 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     fun chooseCalendar(kind: CalendarKind) {
         calendar = kind
         settings.calendar = kind
+    }
+
+    fun savePeople(p: People) {
+        people = p
+        settings.people = p
+        if (kigakuPending && p.current != null) {
+            kigaku = true
+            settings.kigaku = true
+            kigakuPending = false
+        }
+    }
+
+    // Choosing the person from the menu or the header: with no one saved yet, straight to adding one.
+    fun openPeople() {
+        if (people.list.isEmpty()) editing = -1 else peopleDialog = true
     }
 
     fun savePlace(p: SavedPlace) {
@@ -150,17 +170,19 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             SideMenu(
                 calendar = calendar,
                 placeLabel = place?.label,
-                birthLabel = birth?.format(LocalLabels.current.headerDate),
-                onBirth = {
+                personLabel = people.current?.let { p ->
+                    if (p.name.isBlank()) personLabel(p) else stringResource(R.string.menu_person_value, p.name, p.birth.format(LocalLabels.current.headerDate))
+                } ?: stringResource(if (people.list.isEmpty()) R.string.menu_birth_not_set else R.string.menu_no_one_chosen),
+                onPeople = {
                     scope.launch { drawer.close() }
-                    birthDialog = true
+                    openPeople()
                 },
                 kigaku = kigaku,
                 onKigaku = { on ->
                     if (on && birth == null) {
                         scope.launch { drawer.close() }
                         kigakuPending = true
-                        birthDialog = true
+                        openPeople()
                     } else {
                         kigaku = on
                         settings.kigaku = on
@@ -214,6 +236,9 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                 onDate = { pickerOpen = true },
                 onToday = { scope.launch { pager.animateScrollToPage(Days.pageOf(today)) } },
                 onSwitch = { chooseCalendar(if (calendar == CalendarKind.TIBETAN) CalendarKind.KYUREKI else CalendarKind.TIBETAN) },
+                person = people.current,
+                showPerson = people.list.size >= 2,
+                onPerson = { peopleDialog = true },
             )
             HorizontalPager(
                 state = pager,
@@ -240,22 +265,42 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             SkyLine(date = date, place = place, onLocation = { screen = Screen.LOCATION })
         }
 
-        if (birthDialog) {
-            BirthDateDialog(
-                initial = birth,
-                onSave = {
-                    birth = it
-                    settings.birthDate = it
-                    birthDialog = false
-                    if (kigakuPending && it != null) {
-                        kigaku = true
-                        settings.kigaku = true
-                    }
+        if (peopleDialog && editing == null) {
+            PeopleDialog(
+                people = people,
+                onChoose = {
+                    savePeople(people.choose(it))
+                    peopleDialog = false
                     kigakuPending = false
                 },
+                onEdit = { editing = it ?: -1 },
                 onDismiss = {
-                    birthDialog = false
+                    peopleDialog = false
                     kigakuPending = false
+                },
+            )
+        }
+
+        editing?.let { index ->
+            val initial = people.list.getOrNull(index)
+            PersonDialog(
+                initial = initial,
+                onSave = {
+                    // A new person is chosen at once; a changed one keeps whoever was chosen.
+                    savePeople(if (initial == null) people.add(it) else people.replace(index, it))
+                    editing = null
+                    if (initial == null) peopleDialog = false
+                },
+                onDelete = if (initial == null) null else {
+                    {
+                        savePeople(people.remove(index))
+                        editing = null
+                        if (people.list.isEmpty()) peopleDialog = false
+                    }
+                },
+                onDismiss = {
+                    editing = null
+                    if (!peopleDialog) kigakuPending = false
                 },
             )
         }
@@ -296,6 +341,9 @@ private fun Header(
     onDate: () -> Unit,
     onToday: () -> Unit,
     onSwitch: () -> Unit,
+    person: Person?,
+    showPerson: Boolean,
+    onPerson: () -> Unit,
 ) {
     val accent = if (calendar == CalendarKind.TIBETAN) Palette.saffron else Palette.vermilion
     Row(
@@ -331,6 +379,7 @@ private fun Header(
                     .padding(horizontal = 8.dp, vertical = 12.dp),
             )
         }
+        if (showPerson) PersonChip(person, onPerson)
         Row(
             modifier = Modifier
                 .height(44.dp)
@@ -418,8 +467,8 @@ private fun Modifier.drawTopLine(): Modifier = drawBehind {
 private fun SideMenu(
     calendar: CalendarKind,
     placeLabel: String?,
-    birthLabel: String?,
-    onBirth: () -> Unit,
+    personLabel: String,
+    onPeople: () -> Unit,
     kigaku: Boolean,
     onKigaku: (Boolean) -> Unit,
     onCalendar: (CalendarKind) -> Unit,
@@ -471,7 +520,7 @@ private fun SideMenu(
             Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
             SectionLabel(stringResource(R.string.menu_settings))
             MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
-            MenuRow(Icons.Sun, stringResource(R.string.menu_birth_date), birthLabel ?: stringResource(R.string.menu_birth_not_set), onBirth)
+            MenuRow(Icons.Person, stringResource(R.string.menu_people), personLabel, onPeople)
             SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
             MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
