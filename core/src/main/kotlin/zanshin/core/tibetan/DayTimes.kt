@@ -164,12 +164,26 @@ object DayTimes {
 
     /**
      * The multiplier of WB's rule for the terms (p. 182, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན»): the
-     * chu tshod of the sun's excess over a measure, multiplied (*bsgyur*) by *yid*, the number word for
-     * 14 (*Tshig mdzod chen mo*), carried into chu tshod, are the chu tshod of time
-     * taken from the date's end. Whether «ཆུ་སྲང་རོས» then divides (by 62, a day's course of 4;25,43)
-     * or only carries (60/14 = 4;17) is open (question 15).
+     * chu tshod of the sun's excess over a measure are multiplied (*bsgyur*) by *yid*, the number word
+     * for 14 (*Tshig mdzod chen mo*), and its chu srang divided by *ro*, six ([DIVISOR]); the quotient
+     * goes up into the chu tshod. Ngag dbang bzang po says it so with *dus*, six, for *ro* («སྦྱངས་ལྷག་ཆུ་ཚོད་ཡིད་ཀྱིས་བསྒྱུར། །ཆུ་སྲང་དུས་ཀྱིས་བགོས་ནོར་དེ། །ཆུ་ཚོད་ལ་བསྲེས»,
+     * *Kun 'dus chen mo* vol. 2, p. 223).
      */
-    const val MULTIPLIER: Double = 14.0
+    const val MULTIPLIER: Int = 14
+
+    /** The divisor of the excess's chu srang in the same rule, *ro*: see [MULTIPLIER]. */
+    const val DIVISOR: Int = 6
+
+    /**
+     * The chu tshod of time WB's rule takes from the date's end for the sun's [excess] over a measure,
+     * in chu tshod of its course: its whole chu tshod times [MULTIPLIER], with its chu srang over
+     * [DIVISOR].
+     */
+    fun termStep(excess: Double): Int {
+        val chuTshod = floor(excess + 1e-9)
+        val chuSrang = (excess - chuTshod) * 60
+        return chuTshod.toInt() * MULTIPLIER + floor(chuSrang / DIVISOR + 1e-9).toInt()
+    }
 
     /**
      * WB's length of the day (*nyin tshad*) in chu tshod when the true sun stands at [sunArc] chu tshod
@@ -194,9 +208,10 @@ object DayTimes {
     /**
      * The sun's terms that fall in [day] (p. 182): a term falls in the lunar date at whose end the true
      * sun has reached its measure; if the sun stands exactly on it, at the date's end, and if beyond,
-     * the excess times [MULTIPLIER] is taken, in chu tshod of time, from the date's end
+     * the excess's [termStep] is taken, in chu tshod of time, from the date's end
      * («ཚད་བཞིན་མ་ཤར་མང་བ་ཡི། …ཚེས་ཀྱི་ཆུ་ཚོད་ཕྲི་བ་དེའི། །ལྷག་མ་ཟད་ཚེ་འཕོ»), which can carry it into the day
-     * before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»).
+     * before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»). The time is in whole chu tshod, half a one counted as one
+     * («གཟའ་ཡི་ཆུ་ཚོད་ཕྱེད་ལོངས་ན། །གཅིག་སྟེར»; Ngag dbang bzang po: «གཟའ་ཡི་ཆུ་སྲང་མཁའ་མེས་དོར», 30 chu srang).
      */
     fun sunTerms(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): List<Change<SunTerm>> = buildList {
         for (n in day.monthCount - 1..day.monthCount + 1) for (d in 1..30) {
@@ -208,7 +223,7 @@ object DayTimes {
             for (term in SUN_TERMS) {
                 val m = if (term.arc <= s0) term.arc + 1620.0 else term.arc.toDouble()
                 if (m > s1) continue
-                val at = t1 - (s1 - m) * MULTIPLIER / 60
+                val at = (floor(t1 * 60 + 0.5 + 1e-9) - termStep(s1 - m)) / 60
                 if (floor(at).toLong() == day.jd) add(Change(term, (at - day.jd) * 60))
             }
         }

@@ -167,9 +167,9 @@ class DayTimesTest {
 
     /**
      * WB p. 182 worked on Henning's 2026 figures: the sun ends the 1st month's 1st date at 21;54,15
-     * (Henning) and the 2nd at 21;58,49, beyond the 1st month's dbugs thob at 21;58 by 0;0,49; that
-     * excess times 14 is 11;26 chu tshod, taken from the 2nd's end at 19;22 on 19 February: 7;56 after
-     * daybreak, 08:10 by hand; 08:09 from the unrounded figures.
+     * (Henning) and the 2nd at 21;58,49, beyond the 1st month's dbugs thob at 21;58 by 0;0,49; no
+     * chu tshod times 14, and 49 chu srang over 6, give 8 chu tshod, taken from the 2nd's end at
+     * 19;22 on 19 February, 19 in whole chu tshod: 11 after daybreak, 09:24.
      */
     @Test
     fun `a dbugs thob worked by hand`() {
@@ -177,9 +177,18 @@ class DayTimesTest {
         val term = DayTimes.sunTerms(t, Phugpa.A2_HENNING).single()
         assertEquals(DayTimes.SunTermKind.DBUGS_THOB, term.what.kind)
         assertEquals(1, term.what.month)
-        val expected = (19 + 22.0 / 60) - (49.0 / 60) * 14
-        assertTrue(abs(term.at - expected) < 0.1, "${term.at} vs $expected")
-        assertEquals(8 * 60 + 9, DayTimes.clockMinute(term.at), "${term.at}")
+        assertEquals(11.0, term.at, 1e-6)
+        assertEquals(9 * 60 + 24, DayTimes.clockMinute(term.at))
+    }
+
+    /** WB p. 182, read with Ngag dbang bzang po: the chu tshod times 14, the chu srang over 6. */
+    @Test
+    fun `the step for the sun's terms`() {
+        assertEquals(8, DayTimes.termStep(49 / 60.0))
+        assertEquals(9, DayTimes.termStep(59 / 60.0))
+        assertEquals(14, DayTimes.termStep(1.0))
+        assertEquals(61, DayTimes.termStep(4.5))
+        assertEquals(0, DayTimes.termStep(5 / 60.0))
     }
 
     @Test
@@ -250,7 +259,6 @@ class DayTimesTest {
         fun at(month: Int) = DayTimes.dayLength(DayTimes.SUN_TERMS.single { it.kind == DayTimes.SunTermKind.SGANG && it.month == month }.arc.toDouble())
         val expected = mapOf(2 to 30.0, 3 to 31 + 10 / 60.0, 4 to 32 + 20 / 60.0, 5 to 33.5, 8 to 30.0, 11 to 26.5, 12 to 27 + 40 / 60.0, 1 to 28 + 50 / 60.0)
         for ((m, d) in expected) assertTrue(abs(at(m) - d) < 1e-9, "month $m: ${at(m)}")
-        assertEquals(14.0, DayTimes.MULTIPLIER)
     }
 
     /** WB vol. 1, p. 177, entry 11: the date before a burning date, ending in daylight, marks it. */
