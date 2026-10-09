@@ -228,6 +228,11 @@
     <string name="person_name">Name</string>
     <string name="person_choose_date">Choose a date</string>
     <string name="person_delete">Delete</string>
+    <string name="person_gender">Gender</string>
+    <string name="person_gender_none">Not set</string>
+    <string name="person_gender_male">Male</string>
+    <string name="person_gender_female">Female</string>
+    <string name="person_gender_note">The year\'s progressions count differently for men and women; while it is not set they are not shown.</string>
     <string name="person_note">Kept on this device only. The personal days of both calendars are read for the person chosen.</string>
     <!-- the header's person switcher, for screen readers: "Personal days for Tenzin; change the person" -->
     <string name="person_chip">Personal days for %1$s; change the person</string>
@@ -612,4 +617,40 @@
     <string name="sound_volume">Volume</string>
     <string name="sound_listen">Listen</string>
     <string name="sound_note">The bells ring at the phone\'s alarm volume.</string>
+    <!-- The year of life (SPEC §5.9, §10.3): the year balloon's action and its sheet -->
+    <string name="year_action">Your %1$s year of age</string>
+    <string name="year_title">Year of age</string>
+    <!-- "Tenzin · 51st year of age · Fire Horse year, born in the Fire Dragon year" -->
+    <string name="year_subtitle">%1$s · %2$s year of age · %3$s year, born in the %4$s year</string>
+    <string name="year_section_signs">Signs of the year</string>
+    <string name="year_gender_needed">The trigram (སྤར་ཁ, spar kha) and the progressed sign (ལོག་མེན, log men) count differently for men and women: set the gender in People to see them and the full pebbles.</string>
+    <string name="year_mewa_title">Mewa (སྨེ་བ, sme ba) %1$d %2$s</string>
+    <string name="year_mewa_subtitle">Born under %1$d %2$s</string>
+    <string name="year_detail_natal_mewa">Natal mewa</string>
+    <string name="year_detail_year_mewa">The year\'s own mewa</string>
+    <string name="year_detail_birth_year">Birth year</string>
+    <string name="year_detail_pebbles">Pebbles</string>
+    <string name="year_trigram_title">Trigram: %1$s</string>
+    <string name="year_trigram_subtitle">Counted as %1$s against your aspects</string>
+    <string name="year_log_men_title">Progressed sign (ལོག་མེན, log men): %1$s</string>
+    <string name="year_section_pebbles">The pebbles</string>
+    <string name="year_tally">White · black</string>
+    <string name="year_tally_value">%1$d · %2$d</string>
+    <string name="year_cell_subtitle">Your %2$s against the %1$s</string>
+    <string name="year_detail_yours">%1$s, your %2$s</string>
+    <string name="year_predictive_title">%1$s: %2$s</string>
+    <string name="year_predictive_white">predictive pebble white</string>
+    <string name="year_predictive_black">predictive pebble black</string>
+    <string name="year_predictive_even">even, no predictive pebble</string>
+    <string name="year_predictive_incomplete">not all six pebbles are reckoned</string>
+    <string name="year_all_white">All four predictive pebbles white</string>
+    <string name="year_all_black">All four predictive pebbles black</string>
+    <string name="year_hour_note">The hour of reckoning is the present one, the %1$s (%2$s), a %3$s.</string>
+    <string name="year_section_sectors">Growth and decline</string>
+    <string name="year_sector_title">%1$s: %2$s</string>
+    <string name="year_sector_subtitle">%1$s takes breath at the %2$s; the year is a %3$s year</string>
+    <string name="year_section_obstacles">Obstacles of the year</string>
+    <string name="year_no_obstacles">None of the harsh years, nine-multiples or small obstacles of the mewa (སྨེ་བ, sme ba) falls this year.</string>
+    <string name="year_harsh_subtitle">The year\'s element is the %1$s of yours</string>
+    <string name="year_nine_title">Nine-multiple (དགུ་མིག, dgu mig): the %1$s year</string>
 </resources>

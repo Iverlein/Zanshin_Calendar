@@ -76,6 +76,9 @@ import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearForces
+import zanshin.core.tibetan.YearOfLife
+import zanshin.core.tibetan.TibetanCalendar
+import zanshin.app.Person
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.RahuBySeason
 import zanshin.core.tibetan.EarthLordCourses
@@ -88,7 +91,7 @@ private enum class TibetanBalloon { MONTH, YEAR }
 
 /** The Tibetan view of one day (SPEC §10.3); a work in its brief or a reading's lists opens its election through [onElect]. */
 @Composable
-fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onElect: (Activity) -> Unit = {}) {
+fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, person: Person? = null, onElect: (Activity) -> Unit = {}) {
     val day = info.tibetan
     val labels = LocalLabels.current
     val accent = Palette.saffron
@@ -96,6 +99,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
+    var yearOpen by remember(day.jd) { mutableStateOf(false) }
     // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
     var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
     val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions, info.ownDays) {
@@ -200,6 +204,12 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
                     BalloonRow(stringResource(R.string.row_royal_year), "${day.royalYear}"),
                     BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
                 ) + aspectRows(Forces.of(day.yearElement, day.yearAnimal), info.birthSign?.forces, Force.entries),
+                actions = listOfNotNull(
+                    person?.let { p ->
+                        val age = YearOfLife.age(TibetanCalendar.of(p.birth).year, day.year)
+                        if (age >= 1) BalloonAction(stringResource(R.string.year_action, labels.ordinal(age))) { yearOpen = true } else null
+                    },
+                ),
             )
             }
         }
@@ -725,6 +735,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
         ) { summaryOpen = false }
     }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
+    if (yearOpen && person != null) YearSheet(person, day, zone, onOpen = { sheet = it }) { yearOpen = false }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
 }
 

@@ -4,10 +4,15 @@
 
 package zanshin.app
 
+import zanshin.core.tibetan.Gender
 import java.time.LocalDate
 
-/** One person whose personal days the pages read: a name and a birth date (SPEC §10.5). */
-data class Person(val name: String, val birth: LocalDate)
+/**
+ * One person whose personal days the pages read: a name, a birth date and,
+ * for the progressions of the elemental divination, a gender, null while it
+ * is not set (SPEC §10.5).
+ */
+data class Person(val name: String, val birth: LocalDate, val gender: Gender? = null)
 
 /**
  * The saved people, at most [MAX], and which of them the pages read for:
@@ -46,15 +51,33 @@ data class People(val list: List<Person> = emptyList(), val active: Int? = null)
 
         fun clean(name: String): String = name.replace(Regex("[\\t\\r\\n]+"), " ").trim().take(NAME_MAX).trim()
 
-        /** One line per person: the birth date's epoch day, a tab, the name. */
-        fun encode(list: List<Person>): String = list.joinToString("\n") { "${it.birth.toEpochDay()}\t${clean(it.name)}" }
+        /**
+         * One line per person: the birth date's epoch day, a tab, the name and,
+         * when the gender is set, a tab and "m" or "f".
+         */
+        fun encode(list: List<Person>): String = list.joinToString("\n") { p ->
+            "${p.birth.toEpochDay()}\t${clean(p.name)}" + when (p.gender) {
+                Gender.MALE -> "\tm"
+                Gender.FEMALE -> "\tf"
+                null -> ""
+            }
+        }
 
-        /** Reads [encode]'s lines; a malformed line is skipped, and no more than [MAX] are kept. */
+        /**
+         * Reads [encode]'s lines; a malformed line is skipped, and no more than
+         * [MAX] are kept. A line saved before the gender was has no third field
+         * and reads as not set.
+         */
         fun decode(text: String): List<Person> = text.lineSequence().mapNotNull { line ->
-            val tab = line.indexOf('\t')
-            if (tab < 0) return@mapNotNull null
-            val day = line.substring(0, tab).toLongOrNull() ?: return@mapNotNull null
-            runCatching { Person(line.substring(tab + 1), LocalDate.ofEpochDay(day)) }.getOrNull()
+            val fields = line.split('\t')
+            if (fields.size < 2) return@mapNotNull null
+            val day = fields[0].toLongOrNull() ?: return@mapNotNull null
+            val gender = when (fields.getOrNull(2)) {
+                "m" -> Gender.MALE
+                "f" -> Gender.FEMALE
+                else -> null
+            }
+            runCatching { Person(fields[1], LocalDate.ofEpochDay(day), gender) }.getOrNull()
         }.take(MAX).toList()
 
         /** [list] with [active] dropped if it is out of range. */

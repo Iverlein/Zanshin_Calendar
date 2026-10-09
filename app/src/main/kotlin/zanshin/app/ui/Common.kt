@@ -178,7 +178,8 @@ fun BalloonText(
     preferAbove: Boolean = false,
     description: String? = null,
     underline: Boolean = true,
-) = BalloonText(AnnotatedString(text), style, open, onToggle, rows, preferAbove, description, underline)
+    actions: List<BalloonAction> = emptyList(),
+) = BalloonText(AnnotatedString(text), style, open, onToggle, rows, preferAbove, description, underline, actions)
 
 /** As above, for a line that mixes scripts (a Tibetan month name after its number). */
 @Composable
@@ -192,6 +193,7 @@ fun BalloonText(
     description: String? = null,
     /** Lines that are terms (Tibetan or kanji) carry no underline: every term is tappable. */
     underline: Boolean = true,
+    actions: List<BalloonAction> = emptyList(),
 ) {
     Box {
         Text(
@@ -204,7 +206,7 @@ fun BalloonText(
                 .let { if (underline) it.dottedUnderline() else it }
                 .let { m -> if (description != null) m.semantics { contentDescription = description } else m },
         )
-        if (open) Balloon(rows, preferAbove, onDismiss = onToggle)
+        if (open) Balloon(rows, preferAbove, actions, onDismiss = onToggle)
     }
 }
 

@@ -39,6 +39,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
@@ -46,6 +47,7 @@ import zanshin.app.LocalLabels
 import zanshin.app.People
 import zanshin.app.Person
 import zanshin.app.initials
+import zanshin.core.tibetan.Gender
 import java.time.LocalDate
 
 /** How a person is listed: the name, or the birth date while the name is blank (a birth date saved before names were). */
@@ -146,12 +148,14 @@ private fun PersonRow(
 
 /**
  * Adds a person ([initial] null) or changes one: a name and a birth date,
- * both needed to save. [onDelete] is offered for a saved person.
+ * both needed to save, and the gender, which may stay not set. [onDelete]
+ * is offered for a saved person.
  */
 @Composable
 fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Unit)?, onDismiss: () -> Unit) {
     var name by remember { mutableStateOf(initial?.name ?: "") }
     var birth by remember { mutableStateOf<LocalDate?>(initial?.birth) }
+    var gender by remember { mutableStateOf(initial?.gender) }
     var picking by remember { mutableStateOf(false) }
     val cleaned = People.clean(name)
     AlertDialog(
@@ -164,7 +168,7 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
             )
         },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(16.dp)) {
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(stringResource(R.string.person_name), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                     val nameDescription = stringResource(R.string.person_name)
@@ -194,12 +198,36 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
                             .padding(horizontal = 12.dp, vertical = 12.dp),
                     )
                 }
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(stringResource(R.string.person_gender), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        listOf(null to R.string.person_gender_none, Gender.MALE to R.string.person_gender_male, Gender.FEMALE to R.string.person_gender_female)
+                            .forEach { (value, label) ->
+                                val chosen = gender == value
+                                Text(
+                                    stringResource(label),
+                                    style = body.copy(
+                                        fontSize = 15.sp,
+                                        color = if (chosen) Palette.saffron else Palette.text,
+                                        fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
+                                        textAlign = TextAlign.Center,
+                                    ),
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .border(1.dp, if (chosen) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                                        .clickable(role = Role.RadioButton) { gender = value }
+                                        .padding(horizontal = 8.dp, vertical = 12.dp),
+                                )
+                            }
+                    }
+                    Text(stringResource(R.string.person_gender_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
+                }
                 Text(stringResource(R.string.person_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
             }
         },
         confirmButton = {
             val ready = cleaned.isNotEmpty() && birth != null
-            TextButton(onClick = { onSave(Person(cleaned, birth!!)) }, enabled = ready) {
+            TextButton(onClick = { onSave(Person(cleaned, birth!!, gender)) }, enabled = ready) {
                 Text(stringResource(R.string.birth_save), color = if (ready) Palette.saffron else Palette.faint)
             }
         },

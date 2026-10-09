@@ -261,7 +261,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             ) { page ->
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
-                    CalendarKind.TIBETAN -> TibetanPage(info, zone) { work ->
+                    CalendarKind.TIBETAN -> TibetanPage(info, zone, person = people.current) { work ->
                         electionWork = work
                         electionFrom = info.date
                         electionKyureki = false

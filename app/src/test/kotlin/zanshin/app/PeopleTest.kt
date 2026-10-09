@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Assertions.assertSame
 import org.junit.jupiter.api.Test
+import zanshin.core.tibetan.Gender
 import java.time.LocalDate
 
 /** The saved people (SPEC §10.5): their storage, the limit of ten and which one stays chosen. */
@@ -20,6 +21,14 @@ class PeopleTest {
     fun `names and dates survive the round trip`() {
         val list = listOf(kyoto, lhasa, Person("", LocalDate.of(1900, 1, 1)), Person("Ана · 天 ཀ", LocalDate.of(2026, 10, 9)))
         assertEquals(list, People.decode(People.encode(list)))
+    }
+
+    @Test
+    fun `the gender survives the round trip, and a line saved before it reads as not set`() {
+        val list = listOf(kyoto.copy(gender = Gender.MALE), lhasa.copy(gender = Gender.FEMALE), third)
+        assertEquals(list, People.decode(People.encode(list)))
+        assertEquals(listOf(Person("Old", LocalDate.ofEpochDay(100))), People.decode("100\tOld"))
+        assertEquals(listOf(Person("Odd", LocalDate.ofEpochDay(100))), People.decode("100\tOdd\tx"))
     }
 
     @Test
