@@ -645,12 +645,15 @@
     <string name="year_predictive_incomplete">not all six pebbles are reckoned</string>
     <string name="year_all_white">All four predictive pebbles white</string>
     <string name="year_all_black">All four predictive pebbles black</string>
-    <string name="year_hour_note">The hour of reckoning is the present one, the %1$s (%2$s), a %3$s.</string>
+    <string name="year_hour_note">The hour of reckoning is the present one, the %1$s (%2$s), its sign the %3$s.</string>
     <string name="year_section_sectors">Growth and decline</string>
     <string name="year_sector_title">%1$s: %2$s</string>
-    <string name="year_sector_subtitle">%1$s takes breath at the %2$s; the year is a %3$s year</string>
+    <string name="year_sector_subtitle">%1$s takes breath at the %2$s; this is a year of the %3$s</string>
     <string name="year_section_obstacles">Obstacles of the year</string>
     <string name="year_no_obstacles">None of the harsh years, nine-multiples or small obstacles of the mewa (སྨེ་བ, sme ba) falls this year.</string>
-    <string name="year_harsh_subtitle">The year\'s element is the %1$s of yours</string>
+    <string name="year_harsh_subtitle">The year\'s element to yours: %1$s</string>
     <string name="year_nine_title">Nine-multiple (དགུ་མིག, dgu mig): the %1$s year</string>
+    <!-- the combined nine-multiple's subtitle: "earth and water · 4th" -->
+    <string name="year_combined_subtitle">%1$s · %2$s</string>
+    <string name="year_earth_and_water">earth and water</string>
 </resources>

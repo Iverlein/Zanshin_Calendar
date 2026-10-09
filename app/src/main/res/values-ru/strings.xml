@@ -535,6 +535,8 @@
     <string name="year_sector_subtitle">%1$s: вдох — %2$s; год — %3$s</string>
     <string name="year_section_obstacles">Препятствия года</string>
     <string name="year_no_obstacles">В этом году нет ни суровых лет, ни девяток, ни малых препятствий мева (སྨེ་བ, sme ba).</string>
-    <string name="year_harsh_subtitle">Стихия года — %1$s вашей</string>
+    <string name="year_harsh_subtitle">Стихия года к вашей: %1$s</string>
     <string name="year_nine_title">Девятка (དགུ་མིག, dgu mig): %1$s-й год</string>
+    <string name="year_combined_subtitle">%1$s · %2$s-я</string>
+    <string name="year_earth_and_water">земля и вода</string>
 </resources>

@@ -41,6 +41,7 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BasicSign
 import zanshin.core.tibetan.DecisivePebble
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Forces
@@ -137,7 +138,7 @@ fun YearSheet(person: Person, day: TibetanDay, zone: ZoneId, onOpen: (Annotation
                         title = labels.string(R.string.year_sector_title, s.force.english.replaceFirstChar(Char::uppercase), s.sector.english),
                         english = "",
                         tone = if (s.sector.good) Tone.GOOD else Tone.BAD,
-                        reading = Texts.yearSector(s.sector),
+                        reading = Texts.yearSector(s.sector, s.force),
                         subtitle = labels.string(R.string.year_sector_subtitle, gloss(s.element), gloss(YearOfLife.breathTaking(s.element)), gloss(r.present.animal)),
                         titleIsKanji = false,
                         tibetan = s.sector.wylie to s.sector.english,
@@ -337,14 +338,24 @@ private fun logMenAnnotation(r: YearReckoning, labels: Labels): Annotation {
 
 private fun obstacleAnnotations(r: YearReckoning, labels: Labels): List<Annotation> = buildList {
     r.harsh.forEach { h ->
-        val good = h.kinship == Kinship.MOTHER && h.year in setOf(HarshYear.OWN_YEAR, HarshYear.SEVENTH)
+        // WB reads the own year and the seventh good at their mother year, and the progressed sign on a tomb "slightly bad".
+        val mixed = (h.kinship == Kinship.MOTHER && h.year in setOf(HarshYear.OWN_YEAR, HarshYear.SEVENTH)) || h.year == HarshYear.LOG_MEN_TOMB
         add(
             Annotation(
                 title = h.year.english.replaceFirstChar(Char::uppercase),
                 english = "",
-                tone = if (good) Tone.MIXED else Tone.BAD,
+                tone = if (mixed) Tone.MIXED else Tone.BAD,
                 reading = Texts.harsh(h),
-                subtitle = h.kinship?.let { labels.string(R.string.year_harsh_subtitle, it.english) },
+                subtitle = when (val kin = h.kinship) {
+                    null -> h.element?.let { e ->
+                        labels.string(
+                            R.string.year_combined_subtitle,
+                            if (e == Element.EARTH) labels.string(R.string.year_earth_and_water) else gloss(e, "inText"),
+                            labels.ordinal(h.nth!!),
+                        )
+                    }
+                    else -> labels.string(R.string.year_harsh_subtitle, kin.english)
+                },
                 titleIsKanji = false,
             ),
         )
