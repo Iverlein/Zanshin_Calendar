@@ -260,9 +260,11 @@ them (ROADMAP T2.20, the owner's rule of 2026-10-09):
   measures WB lists in mansions and chu tshod of the true sun (the signs
   from Aries at 0;0, the 3rd month's *sgang* at 0;36 and *dbugs thob* at
   26;28, each kind stepping by 2;15). A term falls where the true sun at
-  the ends of two dates brackets its measure, the excess's chu tshod times
-  14 (*yid*) taken in chu tshod from the later end (p. 182, open question
-  15). It is written on the calendar day it falls in, one
+  the ends of two dates brackets its measure: the excess's chu tshod times
+  14 (*yid*), with its chu srang divided by 6 (*ro*), are taken in chu
+  tshod from the later end, the time given in whole chu tshod, half a
+  one counted as one (p. 182, read with Ngag dbang bzang po,
+  question 15). It is written on the calendar day it falls in, one
   before daybreak on the day before, as WB writes it in the date before.
   The day's sme ba keeps its own count (§5.11).
 

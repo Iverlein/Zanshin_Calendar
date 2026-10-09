@@ -159,15 +159,16 @@ step («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང
 print, read by eye, the Zhol etext and the BDRC etexts of the Gser thang
 reprint and of the *Kun 'dus chen mo*, searched 2026-10-09) multiplies
 (*bsgyur*) the excess's chu tshod by *yid*, the number word for 14 (*Tshig
-mdzod chen mo*); what «ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན» does with the product,
-a divisor (62 would give WB's mean course) or the carry of chu srang
-into chu tshod, is open (question 15). The app multiplies and carries:
-the product is the chu tshod of
-time taken from the date's end. A day of the sun's course is so 60/14 =
-4;17 chu tshod of it, WB's round figure beside its arithmetic's mean of
-4;26. The app follows the words (`DayTimes.MULTIPLIER`). Worked by hand
-on Henning's 2026 figures, the rule gives the 1st month's *dbugs thob* at
-08:10 on 19 February, the app 08:09 from the unrounded figures
+mdzod chen mo*) and divides its chu srang by *ro*, six, the quotient
+going up into the chu tshod (*steng byin*): so Ngag dbang bzang po
+restates it, with *dus*, six, for *ro*, «སྦྱངས་ལྷག་ཆུ་ཚོད་ཡིད་ཀྱིས་བསྒྱུར། །ཆུ་སྲང་དུས་ཀྱིས་བགོས་ནོར་དེ། །ཆུ་ཚོད་ལ་བསྲེས»
+(KD vol. 2, p. 223; question 15). The time is given in whole chu tshod,
+half a one counted as one («གཟའ་ཡི་ཆུ་ཚོད་ཕྱེད་ལོངས་ན། །གཅིག་སྟེར»; his «གཟའ་ཡི་ཆུ་སྲང་མཁའ་མེས་དོར»,
+p. 224). The app follows the rule so (`DayTimes.termStep`). Worked by
+hand on Henning's 2026 figures, the 1st month's *dbugs thob*: the sun
+passes its measure 21;58 by 0;0,49 at the end of the 2nd date, 19;22 on
+19 February; no chu tshod and 49 chu srang give 0 × 14 + 8, taken from
+19 in whole chu tshod: 11 after daybreak, 09:24, as the app gives it
 (`DayTimesTest`). The almanac writes the
 term on the date it falls in, one that falls before daybreak on the
 date before (p. 177).
