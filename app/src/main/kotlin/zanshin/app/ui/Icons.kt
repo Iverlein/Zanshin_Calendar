@@ -38,6 +38,9 @@ object Icons {
     /** A clock face, for the hours of the day. */
     val Clock = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M12 7v5l3.5 2", 1.7f)
 
+    /** A singing bowl and its striker, for the meditation timer. */
+    val Bowl = stroke("M3 9.5h18M3 9.5c0 4.7 4 8.5 9 8.5s9-3.8 9-8.5M8.5 20.5h7M15.5 3.5l3 4", 1.7f)
+
     /** The 3×3 board of the nine stars. */
     val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
 

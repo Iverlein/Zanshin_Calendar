@@ -27,6 +27,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.Icon
@@ -75,10 +77,11 @@ import zanshin.core.kyureki.Kigaku
 import java.time.LocalDate
 import java.time.ZoneId
 
-private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION }
+private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION }
 
+/** The app; [meditationRequests] counts the timer notification's taps, each showing the meditation screen. */
 @Composable
-fun ZanshinApp(settings: Settings, cities: Cities) {
+fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) {
     var calendar by remember { mutableStateOf(settings.calendar) }
     var place by remember { mutableStateOf(settings.place) }
     var people by remember { mutableStateOf(settings.people) }
@@ -93,6 +96,7 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     // Set while the people dialogs were opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
+    LaunchedEffect(meditationRequests) { if (meditationRequests > 0) screen = Screen.MEDITATION }
     var pickerOpen by remember { mutableStateOf(false) }
     // The election's work and the day it runs from (ROADMAP E2); a day it opens is shown when the pager is back.
     var electionWork by remember { mutableStateOf<zanshin.core.texts.Activity?>(null) }
@@ -142,6 +146,11 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
         Screen.ABOUT -> {
             BackHandler { screen = Screen.DAYS }
             AboutScreen(onBack = { screen = Screen.DAYS })
+            return
+        }
+        Screen.MEDITATION -> {
+            BackHandler { screen = Screen.DAYS }
+            MeditationScreen(onBack = { screen = Screen.DAYS })
             return
         }
         Screen.ELECTION -> {
@@ -198,6 +207,10 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     electionFrom = Days.dateOf(pager.currentPage)
                     electionKyureki = calendar == CalendarKind.KYUREKI
                     screen = Screen.ELECTION
+                },
+                onMeditation = {
+                    scope.launch { drawer.close() }
+                    screen = Screen.MEDITATION
                 },
                 onLocation = {
                     scope.launch { drawer.close() }
@@ -473,6 +486,7 @@ private fun SideMenu(
     onKigaku: (Boolean) -> Unit,
     onCalendar: (CalendarKind) -> Unit,
     onElection: () -> Unit,
+    onMeditation: () -> Unit,
     onLocation: () -> Unit,
     onAbout: () -> Unit,
     languageLabel: String,
@@ -487,6 +501,7 @@ private fun SideMenu(
         Column(
             Modifier
                 .fillMaxHeight()
+                .verticalScroll(rememberScrollState())
                 .windowInsetsPadding(WindowInsets.safeDrawing)
                 .padding(vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(4.dp),
@@ -517,15 +532,26 @@ private fun SideMenu(
             // The election, under the two calendars, for the one shown: the Tibetan day's weighing read across
             // days (ROADMAP E2), or the 旧暦 annotations listed across days (E5).
             MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
-            Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
+            MenuSeparator()
+            // Practice: the meditation timer and the mindfulness bell, a screen of their own (SPEC §10.9).
+            SectionLabel(stringResource(R.string.menu_practice))
+            MenuRow(Icons.Bowl, stringResource(R.string.menu_meditation), stringResource(R.string.menu_meditation_subtitle), onMeditation)
+            MenuSeparator()
             SectionLabel(stringResource(R.string.menu_settings))
             MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
             MenuRow(Icons.Person, stringResource(R.string.menu_people), personLabel, onPeople)
             SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
             MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
+            MenuSeparator()
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
         }
     }
+}
+
+/** The line between two groups of the menu. */
+@Composable
+private fun MenuSeparator() {
+    Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
 }
 
 @Composable

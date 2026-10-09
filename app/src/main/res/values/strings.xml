@@ -552,4 +552,48 @@
     <string name="election_kyu_note">The almanac gives no order. No published rule ranks one kind of annotation above another, the lower band over the middle band or the lunar lodge over the twelve stations, so no day is called best: first come the days some annotation names good for the work and none names to avoid, then, apart, those named both ways, each in date order with both sides shown. An annotation that names everything, good or to avoid, names the work too. Only the lower band\'s own rules set some annotations aside, as on the day\'s page. A day no annotation names is blank, not neutral.</string>
     <!-- describes a 旧暦 month's grid for screen readers: %1$s the month, %2$s the work -->
     <string name="desc_election_kyu_grid">The days of the %1$s for %2$s: green named good, red named to avoid, the mixed colour named both ways, a dot without colour where no annotation names it</string>
+    <!-- The meditation timer and the mindfulness bell (SPEC §10.9) -->
+    <string name="menu_practice">PRACTICE</string>
+    <string name="menu_meditation">Meditation</string>
+    <string name="menu_meditation_subtitle">Timer and mindfulness bell</string>
+    <string name="meditation_title">Meditation</string>
+    <!-- the notification channel of a running sitting, as Android's settings list it -->
+    <string name="meditation_channel">Meditation timer</string>
+    <string name="meditation_ready">Ready</string>
+    <string name="meditation_preparing">Preparing</string>
+    <string name="meditation_sitting">Sitting</string>
+    <string name="meditation_ended">The last bell</string>
+    <string name="meditation_begin">Begin</string>
+    <string name="meditation_stop">Stop</string>
+    <string name="meditation_length">Length</string>
+    <string name="meditation_prepare">Silence before the first bell</string>
+    <string name="meditation_interval">A bell within the sitting, every</string>
+    <string name="meditation_end">At the end</string>
+    <string name="meditation_end_one">One strike</string>
+    <string name="meditation_end_three">Three strikes</string>
+    <string name="minutes">%1$d min</string>
+    <string name="seconds">%1$d s</string>
+    <string name="none">None</string>
+    <string name="bell_section">THROUGH THE DAY</string>
+    <string name="bell_title">Mindfulness bell</string>
+    <string name="bell_off">Rings through the day, at the hours you set</string>
+    <string name="bell_none">No bell on the days chosen</string>
+    <string name="bell_next_today">Next bell at %1$s</string>
+    <!-- %1$s the weekday, %2$s the time -->
+    <string name="bell_next_day">Next bell on %1$s at %2$s</string>
+    <string name="bell_every">Every</string>
+    <string name="bell_random">At random times</string>
+    <string name="bell_random_subtitle">Up to half the interval earlier or later</string>
+    <string name="bell_from">From</string>
+    <string name="bell_to">Until</string>
+    <string name="bell_days">Days</string>
+    <string name="bell_mute">Quiet with the phone</string>
+    <string name="bell_mute_subtitle">Silent, vibrate or do not disturb keep the bell quiet</string>
+    <string name="sound_section">SOUND</string>
+    <string name="sound_bowl">Large bowl</string>
+    <string name="sound_small_bowl">Small bowl</string>
+    <string name="sound_bell">Bell</string>
+    <string name="sound_volume">Volume</string>
+    <string name="sound_listen">Listen</string>
+    <string name="sound_note">The bells ring at the phone\'s alarm volume.</string>
 </resources>
