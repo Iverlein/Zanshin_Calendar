@@ -92,6 +92,8 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     // The election's work and the day it runs from (ROADMAP E2); a day it opens is shown when the pager is back.
     var electionWork by remember { mutableStateOf<zanshin.core.texts.Activity?>(null) }
     var electionFrom by remember { mutableStateOf(LocalDate.now()) }
+    // Which calendar's election: the Tibetan weighing (E1–E3) or the 旧暦 listing (E5).
+    var electionKyureki by remember { mutableStateOf(false) }
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
     var today by remember { mutableStateOf(LocalDate.now()) }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { today = LocalDate.now() }
@@ -127,10 +129,11 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             ElectionScreen(
                 from = electionFrom,
                 birth = birth,
+                kyureki = electionKyureki,
                 work = electionWork,
                 onWork = { electionWork = it },
                 onOpenDay = {
-                    chooseCalendar(CalendarKind.TIBETAN)
+                    chooseCalendar(if (electionKyureki) CalendarKind.KYUREKI else CalendarKind.TIBETAN)
                     openDay = it
                     screen = Screen.DAYS
                 },
@@ -171,6 +174,7 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     scope.launch { drawer.close() }
                     electionWork = null
                     electionFrom = Days.dateOf(pager.currentPage)
+                    electionKyureki = calendar == CalendarKind.KYUREKI
                     screen = Screen.ELECTION
                 },
                 onLocation = {
@@ -222,9 +226,15 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     CalendarKind.TIBETAN -> TibetanPage(info, zone) { work ->
                         electionWork = work
                         electionFrom = info.date
+                        electionKyureki = false
                         screen = Screen.ELECTION
                     }
-                    CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null)
+                    CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null) { work ->
+                        electionWork = work
+                        electionFrom = info.date
+                        electionKyureki = true
+                        screen = Screen.ELECTION
+                    }
                 }
             }
             SkyLine(date = date, place = place, onLocation = { screen = Screen.LOCATION })
@@ -455,7 +465,8 @@ private fun SideMenu(
             ) {
                 onCalendar(CalendarKind.KYUREKI)
             }
-            // The election, under the two calendars (ROADMAP E2): the Tibetan day's weighing read across days.
+            // The election, under the two calendars, for the one shown: the Tibetan day's weighing read across
+            // days (ROADMAP E2), or the 旧暦 annotations listed across days (E5).
             MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
             Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
             SectionLabel(stringResource(R.string.menu_settings))

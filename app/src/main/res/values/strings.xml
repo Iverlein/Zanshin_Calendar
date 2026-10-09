@@ -488,7 +488,7 @@
 
     <!-- The election: the best days for a work (SPEC §10.5, ROADMAP E2) -->
     <string name="menu_election">Choose a day</string>
-    <string name="menu_election_subtitle">The best days for a work</string>
+    <string name="menu_election_subtitle">The good days for a work</string>
     <string name="election_title">Choose a day</string>
     <string name="election_pick">What is the day for?</string>
     <string name="election_search">Search the works</string>
@@ -522,4 +522,16 @@
     <string name="election_for_you_note">A ring marks your enemy weekday or your death mansion: on them the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) avoids every work (vol. 2, p. 338), so they are not offered. Your other days are marked and not weighed.</string>
     <!-- describes a month's grid for screen readers: %1$s the month, %2$s the work -->
     <string name="desc_election_grid">The days of the %1$s for %2$s: green good, red to avoid, a dot without colour where no factor names it</string>
+
+    <!-- The 旧暦 election: the days the annotations name good for a work, unranked (SPEC §7.6, ROADMAP E5) -->
+    <string name="election_reading">Reading the days…</string>
+    <string name="election_kyu_blank">no annotation names it</string>
+    <string name="election_kyu_good">Named good, in date order</string>
+    <string name="election_kyu_none">No day of this span is named good for it without another annotation naming it to avoid.</string>
+    <string name="election_kyu_disputed">Named both good and to avoid</string>
+    <!-- the label of the work in a day's balloon -->
+    <string name="election_work">Work</string>
+    <string name="election_kyu_note">The almanac gives no order. No published rule ranks one kind of annotation above another, the lower band over the middle band or the lunar lodge over the twelve stations, so no day is called best: first come the days some annotation names good for the work and none names to avoid, then, apart, those named both ways, each in date order with both sides shown. An annotation that names everything, good or to avoid, names the work too. Only the lower band\'s own rules set some annotations aside, as on the day\'s page. A day no annotation names is blank, not neutral.</string>
+    <!-- describes a 旧暦 month's grid for screen readers: %1$s the month, %2$s the work -->
+    <string name="desc_election_kyu_grid">The days of the %1$s for %2$s: green named good, red named to avoid, the mixed colour named both ways, a dot without colour where no annotation names it</string>
 </resources>

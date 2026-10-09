@@ -878,9 +878,17 @@ data class WorkCell(val date: Int, val tone: Tone, val marked: Boolean = false, 
  * Days as a grid of six to a row, each with the dot of the side the weighing gives one work on it
  * (SPEC §5.12): the haircut sheet's month and the election's (SPEC §10.3, ROADMAP E2). Tapping a day
  * selects it and shows [caption] of it below; [key] resets the selection to [initial] (none for -1).
+ * The shown day is outlined in [accent], the calendar's colour.
  */
 @Composable
-fun WorkGrid(heading: String?, cells: List<WorkCell>, key: Any, initial: Int, caption: @Composable (Int) -> String) {
+fun WorkGrid(
+    heading: String?,
+    cells: List<WorkCell>,
+    key: Any,
+    initial: Int,
+    accent: Color = Palette.saffron,
+    caption: @Composable (Int) -> String,
+) {
     var selected by remember(key) { mutableIntStateOf(initial) }
     Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
         heading?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.muted)) }
@@ -898,7 +906,7 @@ fun WorkGrid(heading: String?, cells: List<WorkCell>, key: Any, initial: Int, ca
                             .weight(1f)
                             .aspectRatio(1.1f)
                             .background(if (k == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
-                            .border(if (c.marked) 1.6.dp else 1.dp, if (c.marked) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                            .border(if (c.marked) 1.6.dp else 1.dp, if (c.marked) accent else Palette.lineStrong, RoundedCornerShape(8.dp))
                             .clickable(role = Role.Button) { selected = k },
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center,

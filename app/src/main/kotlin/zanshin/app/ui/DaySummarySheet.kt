@@ -54,6 +54,7 @@ import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DayHours
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayVerdict
+import zanshin.core.texts.KyurekiElection
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
 import zanshin.core.texts.Texts
@@ -192,8 +193,8 @@ private fun WeighedLine(summary: DaySummary) {
 /**
  * The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed
  * day on the Tibetan one (SPEC §5.12), with the hours above it; a time there calls [onHour] with its
- * two-hour period, counted from 05:00. On the Tibetan page a work's workings offer its election
- * through [onElect] (ROADMAP E2).
+ * two-hour period, counted from 05:00. A work's workings offer its election through [onElect], the
+ * Tibetan one on the Tibetan page (ROADMAP E2), the 旧暦's on the 旧暦 page (E5).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -269,8 +270,8 @@ fun DaySummarySheet(
                 VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
                 VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
             } else {
-                ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
-                ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+                ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
+                ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
             }
 
             s.hours?.let { HoursBlock(it, onHour) }
@@ -357,8 +358,14 @@ private fun Block(title: String, content: @Composable () -> Unit) {
     }
 }
 
+/**
+ * The 旧暦 day's works on one side, each with the annotations naming it; a work the 旧暦 election is
+ * offered for opens a balloon with them and "Choose a day for it" through [onElect] (ROADMAP E5).
+ */
 @Composable
-private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean) {
+private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, onElect: ((Activity) -> Unit)?) {
+    val side = stringResource(if (good) R.string.good_for else R.string.avoid)
+    val choose = stringResource(R.string.election_choose)
     if (notes.isEmpty()) return
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
@@ -370,8 +377,18 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                 val labelMax = maxWidth * 0.55f
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
-                    Column(Modifier.widthIn(max = labelMax)) {
+                    val elect = onElect?.takeIf { n.activity in KyurekiElection.OFFERED }
+                    var open by remember { mutableStateOf(false) }
+                    Column(Modifier.widthIn(max = labelMax).then(if (elect != null) Modifier.clickable(role = Role.Button) { open = !open } else Modifier)) {
                         Text(n.activity.english, style = body.copy(fontSize = 16.sp))
+                        if (open && elect != null) {
+                            Balloon(
+                                listOf(BalloonRow(side, n.activity.english)) + (if (good) n.good else n.avoid).map { BalloonRow(it.english, it.kanji) },
+                                preferAbove = true,
+                                actions = listOf(BalloonAction(choose) { elect(n.activity) }),
+                                onDismiss = { open = false },
+                            )
+                        }
                         if (n.disputed) {
                             Text(
                                 stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
@@ -493,7 +510,7 @@ private fun byShort(v: DayVerdict): String = when (v.by) {
 /** Annotation names, each translated on tap. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Terms(entries: List<SummaryEntry>, small: Boolean = false, modifier: Modifier = Modifier, end: Boolean = false) {
+internal fun Terms(entries: List<SummaryEntry>, small: Boolean = false, modifier: Modifier = Modifier, end: Boolean = false) {
     FlowRow(
         modifier,
         horizontalArrangement = if (end) Arrangement.spacedBy(12.dp, Alignment.End) else Arrangement.spacedBy(12.dp),

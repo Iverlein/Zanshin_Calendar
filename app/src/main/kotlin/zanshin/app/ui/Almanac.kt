@@ -244,12 +244,18 @@ private fun DecidesNote(a: Annotation) {
 }
 
 /**
- * The reading of an annotation, as a bottom sheet with its source and licence. With [onElect] (the
- * Tibetan page) each wording of its lists opens its works, each choosing a day for it (ROADMAP E2).
+ * The reading of an annotation, as a bottom sheet with its source and licence. With [onElect] each
+ * wording of its lists opens its works among [offered], each choosing a day for it (ROADMAP E2, E5):
+ * the Tibetan election's works by default, the 旧暦's on the 旧暦 page.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ReadingSheet(a: Annotation, onElect: ((Activity) -> Unit)? = null, onDismiss: () -> Unit) {
+fun ReadingSheet(
+    a: Annotation,
+    onElect: ((Activity) -> Unit)? = null,
+    offered: Set<Activity> = Election.OFFERED,
+    onDismiss: () -> Unit,
+) {
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
@@ -264,7 +270,7 @@ fun ReadingSheet(a: Annotation, onElect: ((Activity) -> Unit)? = null, onDismiss
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (a.parts.isEmpty()) {
-                ReadingBody(a, large = true, onElect)
+                ReadingBody(a, large = true, onElect, offered)
             } else {
                 Text(withTibetan(a.title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(withTibetan(a.english), style = body.copy(color = Palette.muted))
@@ -272,7 +278,7 @@ fun ReadingSheet(a: Annotation, onElect: ((Activity) -> Unit)? = null, onDismiss
                 a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
                     Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
-                    ReadingBody(part, large = false, onElect)
+                    ReadingBody(part, large = false, onElect, offered)
                 }
             }
         }
@@ -281,7 +287,7 @@ fun ReadingSheet(a: Annotation, onElect: ((Activity) -> Unit)? = null, onDismiss
 
 /** One annotation's term, gloss, diagram, reading, workings and sources, in a reading sheet. */
 @Composable
-private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?) {
+private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?, offered: Set<Activity>) {
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Box(Modifier.size(10.dp).background(toneColor(a.tone), CircleShape))
@@ -314,8 +320,8 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
                 return@Column
             }
             if (r.summary.isNotBlank()) Text(withTibetan(r.summary), style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
-            if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.goodKeys, r.good, Palette.good, onElect)
-            if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoidKeys, r.avoid, Palette.bad, onElect)
+            if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.goodKeys, r.good, Palette.good, onElect, offered)
+            if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoidKeys, r.avoid, Palette.bad, onElect, offered)
             if (a.details.isNotEmpty()) DetailsBlock(a.details)
             Spacer(Modifier.heightIn(min = 4.dp))
             SelectionContainer {
@@ -346,18 +352,17 @@ private fun DetailsBlock(rows: List<Pair<String, String>>) {
 
 /**
  * A reading's list, its wordings [items] under their catalog [keys]. With [onElect], a wording that
- * names works an election is offered for opens a balloon of them, each choosing a day for it.
+ * names works among [offered] opens a balloon of them, each choosing a day for it.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ListBlock(title: String, keys: List<String>, items: List<String>, color: Color, onElect: ((Activity) -> Unit)?) {
+private fun ListBlock(title: String, keys: List<String>, items: List<String>, color: Color, onElect: ((Activity) -> Unit)?, offered: Set<Activity>) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         if (onElect == null) {
             Text(items.joinToString(" · "), style = body.copy(lineHeight = 21.sp))
             return@Column
         }
-        val offered = remember { Election.WORKS.values.flatten().toSet() }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
             items.forEachIndexed { i, item ->
                 val works = Activities.of(listOf(keys[i])).filter { it in offered }

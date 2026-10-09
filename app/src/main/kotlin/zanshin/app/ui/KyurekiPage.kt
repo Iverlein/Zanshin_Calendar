@@ -57,14 +57,17 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.rokuyoTone
 import zanshin.core.texts.rokuyoTimes
 import zanshin.core.tibetan.Animal
+import zanshin.core.texts.Activity
+import zanshin.core.texts.KyurekiElection
 import zanshin.core.texts.toneOf
 
 /**
  * The 旧暦 view of one day with its almanac annotations (SPEC §10.4). [birthStar]
- * adds the personal 九星気学 row when the owner has switched it on.
+ * adds the personal 九星気学 row when the owner has switched it on. A work in the
+ * breakdown or a reading's lists opens its 旧暦 election through [onElect] (ROADMAP E5).
  */
 @Composable
-fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = Modifier) {
+fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = Modifier, onElect: (Activity) -> Unit = {}) {
     val day = info.kyureki
     val rk = info.rekichu
     val accent = Palette.vermilion
@@ -276,8 +279,8 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
         ) { sheet = it }
     }
 
-    sheet?.let { ReadingSheet(it) { sheet = null } }
-    if (summaryOpen) DaySummarySheet(summary) { summaryOpen = false }
+    sheet?.let { ReadingSheet(it, onElect = onElect, offered = KyurekiElection.OFFERED) { sheet = null } }
+    if (summaryOpen) DaySummarySheet(summary, onElect = onElect) { summaryOpen = false }
 }
 
 private fun chokuAnnotation(c: Choku, labels: Labels) =
