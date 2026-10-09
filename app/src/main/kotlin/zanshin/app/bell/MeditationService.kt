@@ -47,13 +47,7 @@ class MeditationService : Service() {
         }
         if (MeditationSession.state.value != null) return START_NOT_STICKY
         settings = BellSettings(this)
-        val sitting = Sitting(
-            startedAt = SystemClock.elapsedRealtime(),
-            prepareMillis = settings.prepareSeconds * 1000L,
-            sitMillis = settings.sitMinutes * 60_000L,
-            intervalMillis = settings.sitIntervalMinutes * 60_000L,
-            endStrikes = settings.endStrikes,
-        )
+        val sitting = Sitting(SystemClock.elapsedRealtime(), settings.session)
         channel()
         ServiceCompat.startForeground(
             this,
@@ -61,13 +55,14 @@ class MeditationService : Service() {
             notification(sitting),
             if (Build.VERSION.SDK_INT >= 34) ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE else 0,
         )
-        val total = sitting.prepareMillis + sitting.sitMillis + BellSound.STRIKE_GAP.toLong() * 1000 * sitting.endStrikes + 30_000
+        val total = sitting.endsAt - sitting.startedAt + (settings.sound.seconds(sitting.plan.endStrikes) * 1000).toLong() + 30_000
         wakeLock = getSystemService(PowerManager::class.java)
             .newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "zanshin:sitting")
             .apply { acquire(total) }
         MeditationSession.state.value = sitting
         BellPlayer.prepare(settings.sound)
-        BellPlayer.prepare(settings.sound, sitting.endStrikes)
+        BellPlayer.prepare(sitting.plan.between, sitting.plan.betweenStrikes)
+        BellPlayer.prepare(settings.sound, sitting.plan.endStrikes)
         val bells = sitting.bells
         for ((i, bell) in bells.withIndex()) {
             val last = i == bells.lastIndex
@@ -80,10 +75,11 @@ class MeditationService : Service() {
     private fun uptimeAt(elapsed: Long): Long = SystemClock.uptimeMillis() + (elapsed - SystemClock.elapsedRealtime())
 
     private fun ring(sitting: Sitting, bell: Sitting.Bell, last: Boolean) {
-        BellPlayer.ring(this, settings.sound, bell.strikes, settings.volume) { if (last) finish() }
-        if (bell.offset == sitting.prepareMillis || last) {
-            getSystemService(NotificationManager::class.java).notify(NOTIFICATION_ID, notification(sitting))
-        }
+        val sound = if (bell.between) sitting.plan.between else settings.sound
+        BellPlayer.ring(this, sound, bell.strikes, settings.volume) { if (last) finish() }
+        // Each bell begins a period or ends the sitting: the countdown moves on to it.
+        val at = maxOf(SystemClock.elapsedRealtime(), sitting.startedAt + bell.offset)
+        getSystemService(NotificationManager::class.java).notify(NOTIFICATION_ID, notification(sitting, at))
     }
 
     private fun finish() {
@@ -108,8 +104,8 @@ class MeditationService : Service() {
         getSystemService(NotificationManager::class.java).createNotificationChannel(channel)
     }
 
-    private fun notification(sitting: Sitting): Notification {
-        val now = SystemClock.elapsedRealtime()
+    /** The notification as it stands at [now], an elapsed-realtime instant. */
+    private fun notification(sitting: Sitting, now: Long = SystemClock.elapsedRealtime()): Notification {
         val phase = sitting.phase(now)
         val open = PendingIntent.getActivity(
             this,
@@ -125,15 +121,17 @@ class MeditationService : Service() {
             Intent(this, MeditationService::class.java).setAction(ACTION_STOP),
             PendingIntent.FLAG_IMMUTABLE,
         )
-        val text = when (phase) {
-            Sitting.Phase.PREPARING -> R.string.meditation_preparing
-            Sitting.Phase.SITTING -> R.string.meditation_sitting
-            Sitting.Phase.ENDED -> R.string.meditation_ended
+        val periods = sitting.plan.periods.size
+        val text = when {
+            phase == Sitting.Phase.WARM_UP -> getString(R.string.meditation_warm_up)
+            phase == Sitting.Phase.ENDED -> getString(R.string.meditation_ended)
+            periods > 1 -> getString(R.string.meditation_period_of, sitting.period(now) + 1, periods)
+            else -> getString(R.string.meditation_sitting)
         }
         return NotificationCompat.Builder(this, CHANNEL)
             .setSmallIcon(R.drawable.ic_bell)
             .setContentTitle(getString(R.string.meditation_title))
-            .setContentText(getString(text))
+            .setContentText(text)
             .setContentIntent(open)
             .addAction(0, getString(R.string.meditation_stop), stop)
             .setOngoing(true)

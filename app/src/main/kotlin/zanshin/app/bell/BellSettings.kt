@@ -21,22 +21,21 @@ class BellSettings(context: Context) {
         get() = prefs.getFloat(KEY_VOLUME, 0.7f)
         set(value) = prefs.edit().putFloat(KEY_VOLUME, value.coerceIn(0f, 1f)).apply()
 
-    var sitMinutes: Int
-        get() = prefs.getInt(KEY_SIT, 20)
-        set(value) = prefs.edit().putInt(KEY_SIT, value).apply()
+    /** The timer's plan as last set; before plans, from the length, preparation and end strikes kept apart. */
+    var session: SessionPlan
+        get() = prefs.getString(KEY_SESSION, null)?.let(SessionPlan::decode) ?: runCatching {
+            SessionPlan(
+                warmUpSeconds = prefs.getInt(KEY_PREPARE, 10),
+                periods = listOf(prefs.getInt(KEY_SIT, 20) * 60),
+                endStrikes = prefs.getInt(KEY_END_STRIKES, 3),
+            )
+        }.getOrElse { SessionPlan() }
+        set(value) = prefs.edit().putString(KEY_SESSION, value.encode()).apply()
 
-    var prepareSeconds: Int
-        get() = prefs.getInt(KEY_PREPARE, 10)
-        set(value) = prefs.edit().putInt(KEY_PREPARE, value).apply()
-
-    /** Minutes between the bells within a sitting; 0: none. */
-    var sitIntervalMinutes: Int
-        get() = prefs.getInt(KEY_SIT_INTERVAL, 0)
-        set(value) = prefs.edit().putInt(KEY_SIT_INTERVAL, value).apply()
-
-    var endStrikes: Int
-        get() = prefs.getInt(KEY_END_STRIKES, 3)
-        set(value) = prefs.edit().putInt(KEY_END_STRIKES, value).apply()
+    /** The plans saved under a name, in the order saved. */
+    var presets: List<Preset>
+        get() = Preset.decodeAll(prefs.getString(KEY_PRESETS, null))
+        set(value) = prefs.edit().putString(KEY_PRESETS, Preset.encodeAll(value)).apply()
 
     var periodic: Boolean
         get() = prefs.getBoolean(KEY_PERIODIC, false)
@@ -79,7 +78,8 @@ class BellSettings(context: Context) {
         const val KEY_VOLUME = "bell_volume"
         const val KEY_SIT = "sit_minutes"
         const val KEY_PREPARE = "sit_prepare"
-        const val KEY_SIT_INTERVAL = "sit_interval"
+        const val KEY_SESSION = "sit_plan"
+        const val KEY_PRESETS = "sit_presets"
         const val KEY_END_STRIKES = "sit_end_strikes"
         const val KEY_PERIODIC = "bell_periodic"
         const val KEY_PERIODIC_MINUTES = "bell_minutes"

@@ -77,6 +77,8 @@ import zanshin.app.bell.BellSound
 import zanshin.app.bell.MeditationService
 import zanshin.app.bell.MeditationSession
 import zanshin.app.bell.MindfulnessBell
+import zanshin.app.bell.Preset
+import zanshin.app.bell.SessionPlan
 import zanshin.app.bell.Sitting
 import java.time.DayOfWeek
 import java.time.Instant
@@ -87,12 +89,12 @@ import java.time.format.TextStyle
 import java.time.temporal.WeekFields
 import java.util.Locale
 
-/** The lengths of a sitting offered, in minutes. */
-private val SIT_MINUTES = listOf(1, 2, 3, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 75, 90, 120)
-private val PREPARE_SECONDS = listOf(0, 5, 10, 15, 30, 60)
-private val SIT_INTERVALS = listOf(0, 5, 10, 15, 20, 30)
+private val STRIKES = listOf(1 to R.string.strike_one, 2 to R.string.strike_two, 3 to R.string.strike_three)
 private val BELL_INTERVALS = listOf(15, 20, 30, 45, 60, 90, 120)
 private val SOUNDS = listOf(BellSound.BOWL to R.string.sound_bowl, BellSound.SMALL_BOWL to R.string.sound_small_bowl, BellSound.BELL to R.string.sound_bell)
+
+/** The sounds offered for the turn between periods: the wood block first, apart from the session's bell. */
+private val BETWEEN_SOUNDS = listOf(BellSound.WOOD to R.string.sound_wood) + SOUNDS
 
 /** The active hours move by half an hour. */
 private const val HOUR_STEP = 30L
@@ -148,7 +150,7 @@ fun MeditationScreen(onBack: () -> Unit) {
     }
 }
 
-/** The dial of a sitting under way, counting down its phase, and the Stop button. */
+/** The dial of a sitting under way, counting down the warm-up or the period, the session's time left, and Stop. */
 @Composable
 private fun Running(sitting: Sitting, onStop: () -> Unit) {
     var now by remember { mutableLongStateOf(SystemClock.elapsedRealtime()) }
@@ -159,57 +161,204 @@ private fun Running(sitting: Sitting, onStop: () -> Unit) {
         }
     }
     val phase = sitting.phase(now)
-    val (whole, label) = when (phase) {
-        Sitting.Phase.PREPARING -> sitting.prepareMillis to R.string.meditation_preparing
-        Sitting.Phase.SITTING -> sitting.sitMillis to R.string.meditation_sitting
-        Sitting.Phase.ENDED -> sitting.sitMillis to R.string.meditation_ended
+    val periods = sitting.plan.periods.size
+    val label = when {
+        phase == Sitting.Phase.WARM_UP -> stringResource(R.string.meditation_warm_up)
+        phase == Sitting.Phase.ENDED -> stringResource(R.string.meditation_ended)
+        periods > 1 -> stringResource(R.string.meditation_period_of, sitting.period(now) + 1, periods)
+        else -> stringResource(R.string.meditation_sitting)
     }
     val remaining = sitting.remaining(now)
-    Column(Modifier.fillMaxWidth().padding(top = 24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(28.dp)) {
+    val whole = sitting.length(now)
+    Column(Modifier.fillMaxWidth().padding(top = 24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(20.dp)) {
         Dial(
             fraction = if (whole > 0) remaining.toFloat() / whole else 0f,
             time = clock(remaining),
-            label = stringResource(label),
+            label = label,
             faint = phase != Sitting.Phase.SITTING,
         )
+        if (periods > 1 && phase != Sitting.Phase.ENDED) {
+            Text(
+                stringResource(R.string.meditation_session_left, clock(sitting.endsAt - now)),
+                style = body.copy(fontSize = 14.sp, color = Palette.muted, fontFeatureSettings = "tnum"),
+            )
+        }
         Pill(stringResource(R.string.meditation_stop), Palette.vermilion, onStop)
     }
 }
 
-/** The timer's settings under its dial, which shows the sitting's length, and the Begin button. */
+/**
+ * The timer at rest: the dial showing the session's length, Begin, the
+ * presets, and the plan's settings, each length of any value.
+ */
 @Composable
 private fun Timer(settings: BellSettings, onBegin: () -> Unit) {
-    var minutes by remember { mutableIntStateOf(settings.sitMinutes) }
-    var prepare by remember { mutableIntStateOf(settings.prepareSeconds) }
-    var interval by remember { mutableIntStateOf(settings.sitIntervalMinutes) }
-    var strikes by remember { mutableIntStateOf(settings.endStrikes) }
+    val context = LocalContext.current
+    var plan by remember { mutableStateOf(settings.session) }
+    var presets by remember { mutableStateOf(settings.presets) }
+    var editing by remember { mutableStateOf<Int?>(null) } // -1 the warm-up, else a period's index
+    var saving by remember { mutableStateOf(false) }
+    fun set(p: SessionPlan) {
+        plan = p
+        settings.session = p
+    }
+    val periods = plan.periods.size
     Column(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(24.dp)) {
-        Dial(fraction = 1f, time = clock(minutes * 60_000L), label = stringResource(R.string.meditation_ready), faint = true)
+        Dial(
+            fraction = 1f,
+            time = clock(plan.totalSeconds * 1000L),
+            label = if (periods > 1) stringResource(R.string.meditation_periods_count, periods) else stringResource(R.string.meditation_ready),
+            faint = true,
+        )
         Pill(stringResource(R.string.meditation_begin), Palette.saffron, onBegin)
     }
-    Column(Modifier.padding(horizontal = 24.dp, vertical = 16.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
-        val i = SIT_MINUTES.indexOf(minutes).takeIf { it >= 0 } ?: SIT_MINUTES.indexOf(20)
-        Stepper(
-            stringResource(R.string.meditation_length),
-            stringResource(R.string.minutes, minutes),
-            onMinus = if (i > 0) ({ minutes = SIT_MINUTES[i - 1]; settings.sitMinutes = minutes }) else null,
-            onPlus = if (i < SIT_MINUTES.lastIndex) ({ minutes = SIT_MINUTES[i + 1]; settings.sitMinutes = minutes }) else null,
+
+    SectionLabel(stringResource(R.string.presets_section))
+    for (preset in presets) {
+        PresetRow(
+            preset,
+            chosen = preset.plan == plan,
+            onChoose = { set(preset.plan) },
+            onDelete = {
+                presets = presets - preset
+                settings.presets = presets
+            },
         )
-        Choice(
-            stringResource(R.string.meditation_prepare),
-            PREPARE_SECONDS.map { it to if (it == 0) stringResource(R.string.none) else seconds(it) },
-            prepare,
-        ) { prepare = it; settings.prepareSeconds = it }
-        Choice(
-            stringResource(R.string.meditation_interval),
-            SIT_INTERVALS.map { it to if (it == 0) stringResource(R.string.none) else stringResource(R.string.minutes, it) },
-            interval,
-        ) { interval = it; settings.sitIntervalMinutes = it }
-        Choice(
-            stringResource(R.string.meditation_end),
-            listOf(1 to stringResource(R.string.meditation_end_one), 3 to stringResource(R.string.meditation_end_three)),
-            strikes,
-        ) { strikes = it; settings.endStrikes = it }
+    }
+    Box(Modifier.padding(horizontal = 24.dp, vertical = 8.dp)) {
+        Pill(stringResource(R.string.preset_save), Palette.saffron) { saving = true }
+    }
+
+    SectionLabel(stringResource(R.string.meditation_session))
+    Column(Modifier.padding(horizontal = 24.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        LengthRow(stringResource(R.string.meditation_warm_up), length(plan.warmUpSeconds, none = true)) { editing = -1 }
+        for ((k, seconds) in plan.periods.withIndex()) {
+            LengthRow(
+                stringResource(R.string.meditation_period, k + 1),
+                length(seconds),
+                onRemove = if (periods > 1) ({ set(plan.copy(periods = plan.periods.filterIndexed { i, _ -> i != k })) }) else null,
+                removeDescription = stringResource(R.string.desc_remove_period, k + 1),
+            ) { editing = k }
+        }
+        if (periods < SessionPlan.MAX_PERIODS) {
+            Text(
+                "+ " + stringResource(R.string.meditation_add_period),
+                style = body.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = Palette.saffron),
+                modifier = Modifier
+                    .heightIn(min = 44.dp)
+                    .clickable(role = Role.Button) { set(plan.copy(periods = plan.periods + plan.periods.last())) }
+                    .padding(vertical = 12.dp),
+            )
+        }
+        if (periods > 1) {
+            Choice(
+                stringResource(R.string.meditation_between),
+                BETWEEN_SOUNDS.map { (s, name) -> s to stringResource(name) },
+                plan.between,
+            ) {
+                set(plan.copy(between = it))
+                BellPlayer.ring(context, it, plan.betweenStrikes, settings.volume)
+            }
+            Choice(null, STRIKES.map { (n, name) -> n to stringResource(name) }, plan.betweenStrikes) { set(plan.copy(betweenStrikes = it)) }
+        }
+        Choice(stringResource(R.string.meditation_end), STRIKES.map { (n, name) -> n to stringResource(name) }, plan.endStrikes) {
+            set(plan.copy(endStrikes = it))
+        }
+    }
+
+    editing?.let { k ->
+        val warmUp = k < 0
+        LengthDialog(
+            title = if (warmUp) stringResource(R.string.meditation_warm_up) else stringResource(R.string.meditation_period, k + 1),
+            seconds = if (warmUp) plan.warmUpSeconds else plan.periods[k],
+            allowZero = warmUp,
+            onSave = {
+                set(if (warmUp) plan.copy(warmUpSeconds = it) else plan.copy(periods = plan.periods.toMutableList().also { l -> l[k] = it }))
+                editing = null
+            },
+            onDismiss = { editing = null },
+        )
+    }
+    if (saving) {
+        PresetDialog(
+            taken = presets.map { it.name }.toSet(),
+            onSave = { name ->
+                presets = Preset.put(presets, Preset(name, plan))
+                settings.presets = presets
+                saving = false
+            },
+            onDismiss = { saving = false },
+        )
+    }
+}
+
+/** A saved plan: its name and lengths, a check when it is the plan set; a tap sets it, the cross deletes it. */
+@Composable
+private fun PresetRow(preset: Preset, chosen: Boolean, onChoose: () -> Unit, onDelete: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .padding(horizontal = 12.dp)
+            .fillMaxWidth()
+            .heightIn(min = 56.dp)
+            .background(if (chosen) Palette.selected else Palette.ink, RoundedCornerShape(12.dp))
+            .clickable(role = Role.RadioButton, onClick = onChoose)
+            .padding(start = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f).padding(vertical = 8.dp)) {
+            Text(preset.name, style = body.copy(fontSize = 16.sp, fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal))
+            Text(summary(preset.plan), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+        }
+        if (chosen) Icon(Icons.Check, contentDescription = stringResource(R.string.selected), tint = Palette.saffron, modifier = Modifier.size(20.dp))
+        IconButton(onClick = onDelete) {
+            Icon(Icons.Close, contentDescription = stringResource(R.string.desc_delete_preset, preset.name), tint = Palette.faint, modifier = Modifier.size(18.dp))
+        }
+    }
+}
+
+/** A length with its title; a tap on the value edits it, the cross (when given) removes the row. */
+@Composable
+private fun LengthRow(title: String, value: String, onRemove: (() -> Unit)? = null, removeDescription: String? = null, onEdit: () -> Unit) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Text(title, style = label, modifier = Modifier.weight(1f))
+        Text(
+            value,
+            style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, fontFeatureSettings = "tnum"),
+            modifier = Modifier
+                .heightIn(min = 44.dp)
+                .border(1.dp, Palette.lineStrong, RoundedCornerShape(10.dp))
+                .clickable(role = Role.Button, onClick = onEdit)
+                .padding(horizontal = 16.dp, vertical = 11.dp),
+        )
+        Box(Modifier.size(44.dp), contentAlignment = Alignment.Center) {
+            if (onRemove != null) {
+                IconButton(onClick = onRemove) {
+                    Icon(Icons.Close, contentDescription = removeDescription, tint = Palette.faint, modifier = Modifier.size(18.dp))
+                }
+            }
+        }
+    }
+}
+
+/** A plan in a few words: its periods' lengths, joined by plus signs. */
+@Composable
+private fun summary(plan: SessionPlan): String =
+    if (plan.periods.all { it % 60 == 0 }) {
+        stringResource(R.string.minutes_text, plan.periods.joinToString(" + ") { (it / 60).toString() })
+    } else {
+        plan.periods.map { length(it) }.joinToString(" + ")
+    }
+
+/** Seconds as minutes and seconds, as short as they go; zero as None where [none]. */
+@Composable
+private fun length(seconds: Int, none: Boolean = false): String {
+    val m = seconds / 60
+    val s = seconds % 60
+    return when {
+        seconds == 0 && none -> stringResource(R.string.none)
+        s == 0 -> stringResource(R.string.minutes, m)
+        m == 0 -> stringResource(R.string.seconds, s)
+        else -> stringResource(R.string.minutes_seconds, m, s)
     }
 }
 
@@ -493,9 +642,6 @@ private fun SectionLabel(text: String) {
 private fun Separator() {
     Box(Modifier.padding(horizontal = 24.dp, vertical = 16.dp).fillMaxWidth().height(1.dp).background(Palette.line))
 }
-
-@Composable
-private fun seconds(n: Int): String = if (n % 60 == 0) stringResource(R.string.minutes, n / 60) else stringResource(R.string.seconds, n)
 
 /** Milliseconds as m:ss, or h:mm:ss from an hour, rounded up so that the dial reads 0:00 only at the end. */
 private fun clock(millis: Long): String {

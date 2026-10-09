@@ -15,7 +15,8 @@ import kotlin.math.sin
  * The bells, synthesised on the device rather than recorded (SPEC §10.9):
  * no sound file whose licence F-Droid would have to check. Each strike is
  * a sum of inharmonic partials, each split in two close modes whose beating
- * gives the bowl its waver, decaying exponentially after a short attack.
+ * gives the bowl its waver, decaying exponentially after a short attack;
+ * the wood block's are short, over a click of noise.
  */
 enum class BellSound(
     /** The fundamental, Hz. */
@@ -24,6 +25,12 @@ enum class BellSound(
     val partials: List<Triple<Double, Double, Double>>,
     /** Hz between the two modes of a partial. */
     val beat: Double,
+    /** A strike's length, kept under the ten seconds a broadcast may take (the periodic bell rings from one). */
+    val strikeSeconds: Double = 8.0,
+    /** Seconds from one strike to the next when struck more than once. */
+    val strikeGap: Double = 5.0,
+    /** The click of noise at the strike, relative to the first partial. */
+    val click: Double = 0.0,
 ) {
     /** A large bowl: low, long, wavering. */
     BOWL(
@@ -48,27 +55,34 @@ enum class BellSound(
         ),
         0.7,
     ),
+
+    /** A wood block: a dry knock, for the turn from one period of a sitting to the next. */
+    WOOD(
+        820.0,
+        listOf(Triple(1.0, 1.0, 0.07), Triple(1.83, 0.45, 0.04), Triple(2.96, 0.3, 0.025), Triple(4.4, 0.15, 0.015)),
+        0.0,
+        strikeSeconds = 0.6,
+        strikeGap = 0.9,
+        click = 0.6,
+    ),
     ;
 
     companion object {
         const val SAMPLE_RATE = 44100
-
-        /** Seconds from one strike to the next when a bell is struck more than once. */
-        const val STRIKE_GAP = 5.0
-
-        /** A strike's length, kept under the ten seconds a broadcast may take (the periodic bell rings from one). */
-        const val STRIKE_SECONDS = 8.0
     }
 
+    /** Seconds from the first strike of [strikes] to the end of the last. */
+    fun seconds(strikes: Int): Double = strikeGap * (strikes - 1) + strikeSeconds
+
     /**
-     * [strikes] strikes [STRIKE_GAP] apart, as 16-bit mono samples at
+     * [strikes] strikes [strikeGap] apart, as 16-bit mono samples at
      * [SAMPLE_RATE], peaking at nine tenths of full scale and fading to
      * silence at the end.
      */
     fun render(strikes: Int = 1): ShortArray {
         require(strikes >= 1)
-        val strikeFrames = (STRIKE_SECONDS * SAMPLE_RATE).toInt()
-        val gapFrames = (STRIKE_GAP * SAMPLE_RATE).toInt()
+        val strikeFrames = (strikeSeconds * SAMPLE_RATE).toInt()
+        val gapFrames = (strikeGap * SAMPLE_RATE).toInt()
         val total = gapFrames * (strikes - 1) + strikeFrames
         val mix = DoubleArray(total)
         val one = strike(strikeFrames)
@@ -83,8 +97,14 @@ enum class BellSound(
 
     private fun strike(frames: Int): DoubleArray {
         val out = DoubleArray(frames)
-        val attack = 0.004 * SAMPLE_RATE
-        val fade = 0.6 * SAMPLE_RATE
+        val attack = (if (click > 0) 0.0008 else 0.004) * SAMPLE_RATE
+        val fade = minOf(0.6, strikeSeconds / 2) * SAMPLE_RATE
+        if (click > 0) {
+            // A few milliseconds of noise, the same each time: the stick on the wood.
+            val noise = java.util.Random(1)
+            val length = (0.006 * SAMPLE_RATE).toInt()
+            for (i in 0 until length) out[i] += click * (noise.nextDouble() * 2 - 1) * (1 - i.toDouble() / length)
+        }
         for ((ratio, amplitude, decay) in partials) {
             val f = pitch * ratio
             // The two modes of a partial, the beat apart; higher partials beat faster.
