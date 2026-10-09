@@ -1239,11 +1239,22 @@ and adds no rule: the almanac gives no order, and the election gives none.
 ### 8.1 Policy
 
 Every text the app shows, other than names and numbers computed in §5–§7,
-has a published source; a test fails if any annotation lacks one. The
-reading sheets do not show it (owner, 2026-10-09: the source lines took
-too much of the sheet): About & sources (§10.5) lists the sources of all
-readings with their licences, and each reading's `Source` (§8.2) names
-its own in the repository, where `docs/sources/` gives the passages. F-Droid
+has a published source; a test fails if any annotation lacks one. **The
+app names no source in its readings** (owner, 2026-10-09: the reader of
+the day needs its readings, not their sources): no sheet ends in source
+lines, and no reading, note, list wording, detail or interface string
+names a source's title, author, publisher, edition, chapter or page, or
+says what "the text" says. A reading states what its source says as
+fact ("Of the ten, it is among the three good"); a view other than the
+main one is "another view", named only where the view is itself what
+the row shows (Pukton's dates, the Vajra Treatise's days, the Paṇchen
+Mön'drowa's black day). About & sources (§10.5) lists the sources of all
+readings with their licences, and its Documentation section points to
+the repository, where each reading's `Source` (§8.2) names its own, down
+to the page, and `docs/sources/` gives the passages; comments in the
+catalog keep the pages too. `CatalogTest` fails on a reading that names
+a source, `TranslationsTest` on an interface string other than About's.
+F-Droid
 requires every asset to be legally licensed, so copyrighted wording is never
 copied:
 
@@ -1280,33 +1291,33 @@ writers give it, a loan English has taken (lama, torma, tsampa) or else
 its pronunciation in THL phonetics (Pehar, Ömbarma, tsen); a month goes
 by its Sanskrit name (Bhādrapada), as English writes it. In Russian the
 name is Russian, a proper name in Russian transcription. Within one text
-(a reading, a note, a string, a source line) the bracket follows the
+(a reading, a note, a string, a `Source`) the bracket follows the
 first mention of a word, and later mentions give the name alone. A term
 the app gives only in English (the earth lord, the thread-cross) shows
 no Tibetan and needs no bracket; nor do Sanskrit words (nāga, karaṇa),
 places English spells as its own (Tibet, Lhasa), the city list
 (GeoNames) and organisations (Lotsawa House). For a text, a reading gives the
-short title a text is known by, as its source gives it; the source line
+short title a text is known by, as its source gives it; the `Source`
 gives the full title, with the Wylie as BDRC catalogues it, and, for a
-canonical text, its Tohoku number and 84000 page. Each reading that names
-the White Beryl gives its title once: the short *bai DUr dkar po* in
-readings and notes, the full *Phug lugs rtsis kyi legs bshad mkhas pa'i
-mgul rgyan bai DUr dkar po'i do shal* in source lines. Several texts in one
+canonical text, its Tohoku number and 84000 page; About & sources names
+the White Beryl by its short title, *bai DUr dkar po*, and the `Source`
+by its full one, *Phug lugs rtsis kyi legs bshad mkhas pa'i mgul rgyan
+bai DUr dkar po'i do shal*. Several texts in one
 bracket stand apart by semicolons. A Japanese book gets its English name,
 then its kanji and Hepburn reading. A text named only by an abbreviation
 is identified from the source itself where it gives the full title, else
 from a catalogue that uses the same abbreviation (BDRC, 84000), and the
-source line holding all of them links where they can be read.
+`Source` holding all of them links where they can be read.
 `CatalogTest` fails on Tibetan script outside such a bracket, on a bracket
 without a name before it, on a Wylie whose script is not the one the
-converter makes of it, on a reading naming the White Beryl without its
-title, on a translation whose brackets are not English's, and on a known
+converter makes of it, on a translation whose brackets are not English's, and on a known
 Tibetan word left in Wylie alone (every Wylie of the engines' terms, and
 every Wylie any bracket of the catalog, the interface or the store listing
 gives); `TranslationsTest` checks the interface strings and the store
-listing, changelogs included, the same way; the detail label "In the
-White Beryl" carries the title in its own bracket, since no source line
-on the sheet gives it. The
+listing, changelogs included, the same way. Where the White Beryl's
+name for a yoga or karaṇa differs from the almanacs', the sheet gives it
+as "Also called"; other sheets give the term's Tibetan name as
+"Tibetan". The
 code writes a term as `Ewts.named(english, wylie)`, and the app sets the
 Tibetan runs in its Tibetan font (`withTibetan`).
 
@@ -1578,7 +1589,7 @@ canvas "Zanshin Calendar — basic design".
   shows the days of the Tibetan month with the side the weighing gives
   haircuts on each, and gives FPMT's day for the date as one of the date's
   lists, marked outweighed on the days it is (decided by the owner,
-  2026-10-06), and marked as not the White Beryl's: WB has no haircut
+  2026-10-06). It is FPMT's, not the White Beryl's: WB has no haircut
   results by date, and its thirty hair dates (p. 404) are for washing the
   hair, shown in the lunar date's sheet as a "Washing the hair" detail
   (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). Until
@@ -1766,7 +1777,10 @@ canvas "Zanshin Calendar — basic design".
   small capital labels, a line between groups: **Calendar** (the two
   calendars and Choose a day), **Practice** (Meditation, §10.9),
   **Settings** (location, people, nine-star reading, language), and
-  About & sources alone at the foot.
+  About & sources alone at the foot. About & sources lists the
+  calendars' methods, the readings' sources and licences, and, under
+  Documentation, says that the sheets name no source and links the
+  repository, where each reading's is kept (§8.1).
 - **Location**, stored only on the device:
   - **"Use my location"**: one reading from the device's location service
     (`ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION`, asked for when

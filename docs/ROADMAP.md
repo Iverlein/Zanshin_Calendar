@@ -902,23 +902,35 @@ Each is done when SPEC has it, `TranslationsTest` passes, and screenshots
 on the emulator of a lucky and an unlucky day, with and without a birth
 date, in English and Russian, show it.
 
-### U7. Reading sheets without source lines — built 2026-10-09 (SPEC §8.1, §11)
+### U7. Readings without their sources — built 2026-10-09 (SPEC §8.1, §10.5, §11)
 
 - **Gap** (the owner, 2026-10-09): every reading sheet, on both pages,
   ended in its sources' titles, publishers, URLs and licence, four to
-  ten lines on a phone, repeating what About & sources already lists
-  and what each reading's `Source` names in the repository.
+  ten lines on a phone, and the readings themselves were full of them:
+  "Of the ten, the White Beryl (…) counts it among the three good", "an
+  earth lord of the White Beryl", "vol. 2, p. 338", a detail row "In the
+  White Beryl" on some twenty sheets. The reader of the day needs its
+  readings; whoever needs the attributions finds them in the repository.
 - **Built.** The sheets end with the reading, its lists and its
-  workings. The sources stay in the catalog (`Texts.kt`, `TextsTest`)
-  and in About & sources, whose readings paragraph now says that the
-  repository names each one's source; the Wikipedia adaptations keep
-  their CC BY-SA 4.0 credit there. The detail label "In the White Beryl"
-  carries the title in its own bracket, since no source line on the
-  sheet gives it any more (`TranslationsTest` lost its exception). Store
-  shot 3 retaken in both languages, its caption no longer about sources.
+  workings. No reading, note, wording or interface string names a
+  source, a page or what "the text" says (about 130 catalog entries and
+  20 interface strings rewritten in English and Russian): the reading
+  states the fact, and a view other than the main one is "another
+  view", named only where the view is the row itself (Pukton, the Vajra
+  Treatise, the Paṇchen Mön'drowa). The detail row gives the term's
+  Tibetan name as "Tibetan", and the White Beryl's own name for a yoga or
+  karaṇa as "Also called" where it differs from the almanacs'; the
+  haircut sheet's "not in the White Beryl" row is gone; Catuṣpada's
+  edition note is dropped. The sources stay in the catalog (`Texts.kt`,
+  its comments, `TextsTest`) and in About & sources, which gains a
+  Documentation section pointing to the repository, with a link.
+  `CatalogTest` and `TranslationsTest` fail on a citation outside About.
+  Store shot 3 retaken in both languages, its caption no longer about
+  sources.
 
-Checked on the emulator: the Saga Dawa Düchen sheet in English and
-Russian (store shot 3), and the karaṇa sheet with its White Beryl label.
+Checked on the emulator in English and Russian: the Saga Dawa Düchen
+sheet (store shot 3), the karaṇa and yoga sheets, an earth lord's, the
+hours sheet and About & sources.
 
 ## Election
 
