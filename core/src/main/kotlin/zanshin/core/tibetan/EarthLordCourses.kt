@@ -52,6 +52,7 @@ enum class EarthLordCourse(val wylie: String) {
     KLU("klu"),
     CLASS_TIMES("thebs dus"),
     GNAM_SGO("gnam sgo"),
+    ZHAG_NAG("zhag nag"),
 }
 
 /**
@@ -277,10 +278,35 @@ object EarthLordCourses {
     /** The sky door of [date]. */
     fun skyDoor(date: Int): String = GNAM_SGO[(date - 1) % 10]
 
+    /**
+     * The black days (p. 235): "as the black months", which are the four-slayer of the animal that
+     * rises (vol. 1, p. 183: «བྱི་རྟ་གནམ་ཤར་བྱ་ཡོས་ནག། གླང་ལུག་ཤར་ཚེ་ཁྱི་འབྲུག་ནག། སྟག་སྤྲེལ་ཤར་ན་ཕག་སྦྲུལ་ནག།», the
+     * animals three either side), here meeting the month with the day: in the mouse and horse months
+     * the bird and hare days are black. The day is the date's animal; the month's animal counts from
+     * the tiger, the 11th month.
+     */
+    fun blackDay(season: Int, dayAnimal: Animal): Boolean {
+        val month = (TIGER.ordinal + season) % 12
+        return dayAnimal.ordinal == (month + 3) % 12 || dayAnimal.ordinal == (month + 9) % 12
+    }
+
+    /**
+     * The Paṇchen Mön'drowa's black days by year (p. 235), another view: the season-month and date
+     * of each year's black day. The year is the Chinese reckoning's, which begins with the 11th month
+     * (the model almanac, vol. 1, p. 154: «ནག་རྩིས་ལོ་འགོ … ཧོར་ཟླ་བཅུ་གཅིག་པ»).
+     */
+    val ZHAG_NAG_BY_YEAR: Map<Animal, Pair<Int, Int>> = mapOf(
+        MOUSE to (1 to 7), OX to (2 to 5), TIGER to (3 to 7), RABBIT to (10 to 7), DRAGON to (11 to 26), SNAKE to (6 to 9),
+        HORSE to (7 to 19), SHEEP to (8 to 7), MONKEY to (9 to 16), BIRD to (1 to 10), DOG to (5 to 21), PIG to (0 to 8),
+    )
+
     private fun in3(map: Map<Set<Int>, Set<Int>>, season: Int, date: Int) = map.any { (m, d) -> season in m && date in d }
 
-    /** The courses on [date] of Hor month [month], whose date's animal is [dayAnimal], in WB's order. */
-    fun of(month: Int, date: Int, dayAnimal: Animal): List<CourseDay> {
+    /**
+     * The courses on [date] of Hor month [month], whose date's animal is [dayAnimal], in WB's order;
+     * [chineseYear], the animal of the Chinese reckoning's year, for the Paṇchen's black days.
+     */
+    fun of(month: Int, date: Int, dayAnimal: Animal, chineseYear: Animal? = null): List<CourseDay> {
         val s = SeasonReckoning.CHINESE.season(month)
         return buildList {
             fun moves(course: EarthLordCourse, on: Boolean, variant: String? = null) {
@@ -326,10 +352,15 @@ object EarthLordCourses {
             moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "gza")
             moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "srin po")
             add(CourseDay(EarthLordCourse.GNAM_SGO, CourseEvent.MOVES, s, skyDoor(date)))
+            moves(EarthLordCourse.ZHAG_NAG, blackDay(s, dayAnimal))
+            moves(EarthLordCourse.ZHAG_NAG, chineseYear != null && ZHAG_NAG_BY_YEAR[chineseYear] == (s to date), OTHER)
         }
     }
 
-    fun of(day: TibetanDay): List<CourseDay> = of(day.month, day.day, day.lunarDayAnimal)
+    /** The Chinese reckoning's year of [day]: the Tibetan year's animal, the next from the 11th month on. */
+    fun chineseYear(day: TibetanDay): Animal = if (day.month >= 11) Animal.entries[(day.yearAnimal.ordinal + 1) % 12] else day.yearAnimal
+
+    fun of(day: TibetanDay): List<CourseDay> = of(day.month, day.day, day.lunarDayAnimal, chineseYear(day))
 }
 
 /**

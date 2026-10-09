@@ -921,6 +921,13 @@ object Texts {
                 CourseEvent.MOVES -> r(good = listOf("offerings_to_the_gnyan"), avoid = listOf("everything"), arg = "$key.MOVES")
                 else -> r(arg = "$key.${day.event.name}")
             }
+            EarthLordCourse.ZHAG_NAG -> r(
+                good = listOf("fierce_rites"),
+                avoid = listOf(
+                    "seeking_a_grave_site", "building", "feasts", "consecration", "enthronement", "teaching_dharma", "a_new_land",
+                    "taking_a_bride", "everything",
+                ),
+            )
             EarthLordCourse.KLU -> struck(listOf("naga_tormas_and_offerings", "bringing_rain", "suppressing_and_gtad"))
             EarthLordCourse.CLASS_TIMES -> r(arg = "$key.${day.variant!!.replace(' ', '_')}")
             EarthLordCourse.GNAM_SGO -> r(

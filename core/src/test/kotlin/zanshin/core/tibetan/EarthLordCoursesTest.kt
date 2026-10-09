@@ -149,6 +149,21 @@ class EarthLordCoursesTest {
     }
 
     @Test
+    fun `the black days`() {
+        // WB's example: in the mouse and horse months (Hor 9 and 3) the bird and hare days are black.
+        for (month in listOf(9, 3)) for (animal in Animal.entries) {
+            val black = EarthLordCourses.of(month, 5, animal).any { it.course == EarthLordCourse.ZHAG_NAG && !it.otherView }
+            assertEquals(animal == Animal.BIRD || animal == Animal.RABBIT, black, "$animal day in month $month")
+        }
+        // The tiger month (the 11th): pig and snake days, as the black months' rule has it for the tiger.
+        assertTrue(EarthLordCourses.of(11, 5, Animal.PIG).any { it.course == EarthLordCourse.ZHAG_NAG })
+        // The Paṇchen's by year: the pig year's 8th of the first month of spring, the mouse year's 7th of the middle.
+        assertTrue(EarthLordCourses.of(11, 8, Animal.OX, Animal.PIG).any { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
+        assertTrue(EarthLordCourses.of(12, 7, Animal.OX, Animal.MOUSE).any { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
+        assertTrue(EarthLordCourses.of(12, 7, Animal.OX, Animal.OX).none { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
+    }
+
+    @Test
     fun `rahu by season`() {
         assertEquals(0, RahuBySeason.of(11, 11)); assertEquals(0, RahuBySeason.of(11, 28))
         assertEquals(4, RahuBySeason.of(3, 13)); assertNull(RahuBySeason.of(10, 2))
