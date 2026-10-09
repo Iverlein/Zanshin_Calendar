@@ -562,4 +562,9 @@
     <string name="hours_earth_lords_subtitle">на месте животного: %1$s, %2$s</string>
     <string name="hours_bla_mkhyen_title">Дух-астролог часа</string>
     <string name="hours_sa_rgyal_title">Царь земли часа</string>
+    <string name="hours_sa_rgyal_other_title">Царь земли часа, другой способ</string>
+    <string name="hours_hidden_title">Скрытый владыка земли часа</string>
+    <string name="hours_hidden_subtitle">%1$s, %2$s</string>
+    <string name="hours_gnam_khyi_title">Небесный пёс часа</string>
+    <string name="hours_gnam_khyi_subtitle">голова на месте животного: %1$s, хвост — %2$s</string>
 </resources>

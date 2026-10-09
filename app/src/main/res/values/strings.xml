@@ -683,4 +683,10 @@
     <string name="hours_earth_lords_subtitle">on the %1$s\'s place, the %2$s</string>
     <string name="hours_bla_mkhyen_title">The hour\'s astrologer spirit</string>
     <string name="hours_sa_rgyal_title">The hour\'s earth king</string>
+    <string name="hours_sa_rgyal_other_title">The hour\'s earth king, the other way</string>
+    <string name="hours_hidden_title">The hour\'s hidden earth lord</string>
+    <!-- "Nyentra, on the Mouse's place, the lower north" -->
+    <string name="hours_hidden_subtitle">%1$s, %2$s</string>
+    <string name="hours_gnam_khyi_title">The hour\'s sky dog</string>
+    <string name="hours_gnam_khyi_subtitle">head on the %1$s\'s place, tail on the %2$s\'s</string>
 </resources>

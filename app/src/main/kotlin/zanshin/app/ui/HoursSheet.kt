@@ -60,6 +60,8 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.toneOf
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.DayTimes
+import zanshin.core.texts.Catalog
+import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Karana
@@ -368,6 +370,47 @@ fun HoursSheet(
                         Texts.HOUR_SA_RGYAL,
                         titleIsKanji = false,
                         details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(saRgyalTitle, "dus tshod sa rgyal")),
+                    ),
+                    onOpen,
+                )
+                // The earth king the other way, Piling Parma's hour of the season-month (WB vol. 2, p. 236).
+                EarthLordCourses.hourSaRgyalOther(SeasonReckoning.CHINESE.season(day.month), hourAnimal)?.let { place ->
+                    val otherTitle = stringResource(R.string.hours_sa_rgyal_other_title)
+                    AnnotationRow(
+                        Annotation(
+                            otherTitle,
+                            onPlace(place),
+                            Tone.NEUTRAL,
+                            Texts.HOUR_SA_RGYAL_OTHER,
+                            titleIsKanji = false,
+                            details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(stringResource(R.string.hours_sa_rgyal_title), "dus tshod sa rgyal")),
+                        ),
+                        onOpen,
+                    )
+                }
+                // The hidden earth lord of the hour's animal on its place, and the sky dog over the places (WB vol. 2, pp. 221, 197, 236).
+                val hiddenName = Catalog.text("reading.HourHidden.${hourAnimal.name}")
+                AnnotationRow(
+                    Annotation(
+                        stringResource(R.string.hours_hidden_title),
+                        labels.string(R.string.hours_hidden_subtitle, hiddenName, onPlace(hourAnimal)),
+                        Tone.NEUTRAL,
+                        Texts.HOUR_HIDDEN.getValue(hourAnimal),
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(hiddenName, EarthLordCourses.HIDDEN_LORDS.getValue(hourAnimal))),
+                    ),
+                    onOpen,
+                )
+                val tail = Animal.entries[(hourAnimal.ordinal + 6) % 12]
+                val dogTitle = stringResource(R.string.hours_gnam_khyi_title)
+                AnnotationRow(
+                    Annotation(
+                        dogTitle,
+                        labels.string(R.string.hours_gnam_khyi_subtitle, gloss(hourAnimal), gloss(tail)),
+                        Tone.NEUTRAL,
+                        Texts.HOUR_GNAM_KHYI,
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(dogTitle, "dus tshod gnam khyi")),
                     ),
                     onOpen,
                 )
