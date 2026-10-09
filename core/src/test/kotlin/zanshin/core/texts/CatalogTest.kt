@@ -210,8 +210,7 @@ class CatalogTest {
      * SPEC §8.1: every Tibetan word is named in English, then its Tibetan
      * script and Wylie in brackets, so that a reader can find it; several in
      * one bracket stand apart by semicolons, and a translation names the same
-     * words as English. Every reading that names the White Beryl gives its
-     * Tibetan title once.
+     * words as English.
      */
     @Test
     fun `Tibetan words are named in English with their Tibetan and Wylie`() {
@@ -229,7 +228,6 @@ class CatalogTest {
         for ((suffix, t) in catalogs) {
             for ((k, v) in t.toSortedMap()) {
                 TibetanNaming.problems(v, known).forEach { wrong += "texts$suffix $k: $it" }
-                if (Regex("White Beryl|берилл").containsMatchIn(v) && "bai DUr dkar po" !in v) wrong += "texts$suffix $k: the White Beryl without its Tibetan title"
                 if (suffix != "") {
                     val (en, here) = TibetanNaming.pairs(english.getValue(k)).toSet() to TibetanNaming.pairs(v).toSet()
                     if (en != here) wrong += "texts$suffix $k: names ${here - en}, English ${en - here}"
@@ -240,6 +238,24 @@ class CatalogTest {
         assertEquals("", wrong.joinToString("\n"))
     }
 
+    /**
+     * SPEC §8.1: a reading names no source, no title, author, publisher,
+     * page or chapter (owner, 2026-10-09); each reading's [Source] and the
+     * repository's documentation keep them. The licence labels are the
+     * catalog's record and are not shown.
+     */
+    @Test
+    fun `readings name no source`() {
+        val wrong = mutableListOf<String>()
+        for (suffix in listOf("", "_ru")) {
+            for ((k, v) in Catalog.entries(suffix).toSortedMap()) {
+                if (k.startsWith("License.")) continue
+                CITATION.find(v)?.let { wrong += "texts$suffix $k: ${it.value}" }
+            }
+        }
+        assertEquals("", wrong.joinToString("\n"))
+    }
+
     @Test
     fun `a language without a catalog falls back to English`() {
         assertEquals(english.getValue("Rokuyo.TAIAN"), Catalog.text("Rokuyo.TAIAN", Locale.forLanguageTag("xx")))
@@ -247,6 +263,13 @@ class CatalogTest {
     }
 
     private companion object {
+        /** What a citation looks like, in English and Russian: a source's name, a page or volume, the text speaking. */
+        val CITATION = Regex(
+            "White Beryl|All-Benefiting Mirror|Moonbeams|Henning|Berzin|Janson|FPMT|Hoki|Wikipedia|Kotobank|" +
+                "(?<!\\p{L})(?:vol|pp?)\\. \\d|the text (?:says|names|adds|calls|gives)|in the text's|" +
+                "[Бб]ерилл|[Зз]ерцал|Хоки|Википеди|(?<!\\p{L})(?:т|сс?)\\. \\d|[Тт]екст (?:говорит|называет|добавляет|даёт)|словами текста",
+        )
+
         /** Wylie that is also an English word, left out of the check: the fire element's *me*. */
         val ALSO_ENGLISH = setOf("me")
     }
