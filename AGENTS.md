@@ -76,8 +76,10 @@ each other's builds. So every session, from its first edit:
    other blocks also changed, the tests run again in `$W`. Then, from the
    main checkout, `git merge --ff-only work/<name>`; if it refuses, main
    moved again: rebase and test once more.
-4. **Cleans up**: `git worktree remove $W` and `git branch -d work/<name>`
-   (Gradle's build output goes with the worktree).
+4. **Cleans up** once main holds its commits: `git worktree remove --force $W`
+   (forced because of the copied, untracked `local.properties` and vectors;
+   Gradle's build output goes with it) and `git branch -d work/<name>`,
+   which refuses a branch that is not merged.
 
 Pushing still waits for the owner's word. The emulator is one for all:
 sessions queue for `emulator-5554` by message, and each restores the
