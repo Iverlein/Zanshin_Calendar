@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work | L | E1–E3 and E6 built 2026-10-09 (SPEC §5.14, §10.8): the day's weighing read across days for one work, best first, with the hours of each month; left: E4, a reading of WB ch. 34's rising signs for the hours, and E5, the 旧暦 election | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
@@ -45,7 +45,7 @@ moves up as soon as it is unblocked.
 | 4 | T3 Element colours — built 2026-10-09 | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
 | 5 | T2.11 WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
 | 6 | T2.15 Hair by date — built 2026-10-09 | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
-| 7 | T2.14 The 11th month's 6th | 5; then the owner's decision | Build block 7: T2.14, read WB p. 226's nine bad days, then ask me to decide against Rabten's festival. |
+| 7 | T2.14 The 11th month's 6th — built 2026-10-09 | 5 | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
 | 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
 | 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
 | 10 | E5 The 旧暦 election | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
@@ -263,7 +263,8 @@ good and evil" are not in WB's etext and are not built.
 #### T2.13 The strikes of the eight classes and the nāgas — L
 
 - **Gap.** WB vol. 2, pp. 226–235 run through dated courses beside the
-  earth lords and Rāhu: the bad days by month, *dra chen*, Rāhu's days by
+  earth lords and Rāhu: the bad days by month (the great black day built
+  by T2.14; the small black day, *nyi ma nag chung*, after it on p. 226), *dra chen*, Rāhu's days by
   month, the earth lords' turning, *gnyan*, and, named in WB's almanac
   list, the strikes (*thebs*) and turnings (*bzlog*) of the eight classes
   (p. 232, section 28: season-month, date, hour, direction and class) and
@@ -283,20 +284,27 @@ good and evil" are not in WB's etext and are not built.
 - **Done when.** Each course has a test vector from the text; SPEC §5.13;
   checked on the emulator in both languages.
 
-#### T2.14 The 11th month's 6th: Ten Good Omens or nine bad — owner
+#### T2.14 The 11th month's 6th: the nine bad — built 2026-10-09 (SPEC §5.7, §5.11)
 
-- **Gap.** The app shows 11/6 as Sangpo Chuzom, the Ten Good Omens, after
-  Rabten. WB has no ten good omens; it names «ངན་པ་དགུ་འཛོམ», nine bad
-  things meeting, on the 7th of the first spring month (vol. 2, p. 226), in
-  a list of bad days by month after Rāhu's sisters; the calendar gives the
-  nine bad on 11/6. T2.10 found ch. 31's first spring month to be the
-  11th, so WB's day is 11/7.
-- **Work.** Read p. 226 and the list that follows on the scan; with T2.10's
-  month, give the WB day and its list. Then the owner decides (a choice
-  for AskUserQuestion): WB's nine bad on its day, Rabten's festival
-  removed (recommended: WB above all), or both, Rabten's marked as his.
-- **Done when.** The festival table and its sheet follow the decision;
-  SPEC §5.7.
+- **Gap.** The app showed 11/6 as Sangpo Chuzom, the Ten Good Omens, after
+  Rabten. WB has no ten good omens; it names «ངན་པ་དགུ་འཛོམ», the meeting of
+  the nine bad, on the 7th of the first spring month (vol. 2, p. 226),
+  which by T2.10's months is 11/7.
+- **Decision.** The owner decided on 2026-10-09: WB's nine bad on its
+  day, Rabten's festival removed (WB above all).
+- **Built.** Read on the scan into [great-black-day.md](sources/great-black-day.md):
+  the nine bad is the first date of the great black day (*nyi ma nag
+  chen*), the first of chapter 31's earth lords that move by date, with
+  one date in every month (7, 14, 21 / 8, 16, 24 / 9, 18, 27 / 10, 20, 30
+  by season-month). `GreatBlackDay` with WB's results and remedies, a row
+  in "Also today" (titled the meeting of the nine bad on 11/7), unlucky
+  and not weighed, like the *bla mkhyen*; English and Russian;
+  `GreatBlackDayTest`. Rabten's festival, its reading, glyph and strings
+  removed. Checked on the emulator in both languages on 11/7 (2026-12-16), 11/6 and 12/14 (2027-01-21).
+- **Left.** WB's "one person's tradition" (the 24th in three last
+  months, the 9th in the first of winter) is not built; «དགེ་བཤེས་ཆེ་འདོན»
+  in the list of works is not identified. The small black day, the next
+  verses on p. 226, is T2.13's.
 
 #### T2.15 Hair: cutting and washing by date — built 2026-10-09 (SPEC §5.8, §10.3)
 
@@ -515,7 +523,7 @@ it. It is item E below, built 2026-10-09 but for E4 and E5.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
-   then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13;
+   then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13;
    then T2.20, T2.21 and T2.22 (after T2.20's *sgang*); T2.23 last, the largest.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 

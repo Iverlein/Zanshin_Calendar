@@ -90,7 +90,7 @@ Each of the site's rules below held on every day compared.
 | Weekday "prosperity / decline" for birth years | the weekday's element against the birth animal's, in groupings no table has | not WB |
 | Haircut results by date | its own list | WB has no list of haircut results by date (no སྐྲ་བྲེག, སྐྲ་གཅོད): haircuts are named in the weekday and mansion verses and ch. 34 work 50 |
 | Hair-washing results by date | its own list, close to FPMT's *haircut* list on several dates | WB ch. 34 work 34, "bathing and washing the hair, with the dates' results" (p. 404): thirty hair dates for washing, read on the scan 2026-10-09 and built with the lunar date; FPMT's haircut list is of the same family but not WB's ([hair-dates.md](hair-dates.md), T2.15) |
-| 11/6, "nine bad omens converge" (Нгенпа гу дзом) | a festival note | WB vol. 2, p. 226: «དཔྱིད་རའི་ཚེས་བདུན་ … འདི་ལ་ངན་པ་དགུ་འཛོམ་ཞེས» — the 7th of the first spring month, in a list of bad days by month after Rāhu's sisters. "Ten good omens" (བཟང་པོ་བཅུ) is nowhere in WB. The app's 11/6 is Rabten's "Ten Good Omens" |
+| 11/6, "nine bad omens converge" (Нгенпа гу дзом) | a festival note | WB vol. 2, p. 226: «དཔྱིད་རའི་ཚེས་བདུན་ … འདི་ལ་ངན་པ་དགུ་འཛོམ་ཞེས» — the 7th of the first spring month, 11/7, the first date of the great black day; read on the scan and built 2026-10-09 ([great-black-day.md](great-black-day.md)). "Ten good omens" (བཟང་པོ་བཅུ) is nowhere in WB; Rabten's 11/6 festival is removed from the app |
 | The la's place, left and right | men left, women right in the waxing half, the reverse in the waning | WB states the sides for the Kālacakra list (p. 303: «སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡོས», the etext's གཡོས presumably གཡས); read on the scan (2026-10-08), the sides open the Kālacakra list only and the Phugpa list names none ([lunar-dates.md](lunar-dates.md)). WB gives the places of "horses and the like" beside each date, which the site shows as "animals"; built in the app (T2.16) |
 
 ## The site's other named sources
@@ -192,7 +192,8 @@ the last 1; summer 2–4; autumn 5–7; winter 8–10. This settles:
   spring are months 11 and 12, its autumn months 5–7 (until 2026-10-08 the
   app had 1, 2 and 7–9). `Texts.RAHU_MONTH`.
 - **The nine bad meeting** (p. 226, «དཔྱིད་རའི་ཚེས་བདུན»): the 7th of month 11
-  (ROADMAP T2.14), not yet read on the scan.
+  (ROADMAP T2.14), read on the scan and built 2026-10-09 with the rest of
+  the great black day ([great-black-day.md](great-black-day.md)).
 - **The strikes of the eight classes and the nāgas** (pp. 232, 234), keyed
   by season-month: by the same months (T2.13).
 

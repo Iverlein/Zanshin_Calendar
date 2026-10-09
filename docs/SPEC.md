@@ -205,9 +205,12 @@ leap months, except Losar. Dates from Henning's Phugpa archive and Edition
 Rabten's calendars: Losar (1/1), Chötrul Düchen (1/15), Kālacakra (3/15), Birth
 of the Buddha (4/7), Saga Dawa Düchen (4/15), Zamling Chisang (5/15), Chökhor
 Düchen (6/4), Entry into the womb (6/15), Lhabab Düchen (9/22), Gaden Ngamchö
-(10/25), Sangpo Chuzom — the Ten Good Omens (11/6, checked on three occasions in
-Rabten's 2025–26 calendars), Thanksgiving to the Protectors (12/29). Henning
-also marks festivals inside leap months; this app does not.
+(10/25), Thanksgiving to the Protectors (12/29). Henning
+also marks festivals inside leap months; this app does not. Rabten's Sangpo
+Chuzom, the Ten Good Omens on 11/6, is not kept: the White Beryl has no ten
+good omens, and names the 7th of that month, the first of spring by its
+chapter 31, the meeting of the nine bad, the first date of the great black
+day (§5.11; owner's decision, 2026-10-09: the White Beryl above all).
 
 ### 5.8 Almanac entries (Janson §10, Appendix E)
 
@@ -480,6 +483,28 @@ English (§8.1), each reading citing its pages:
   and the details giving the day's sme ba, the wood-mouse day it counts
   from and the seven-red's place; no tone, not weighed (§5.12), as it holds
   for a direction, not for the day.
+- **The great black day** (*nyi ma nag chen*, vol. 2, p. 226;
+  [great-black-day.md](sources/great-black-day.md)): the first of the
+  earth lords that move by date, one date in each month by the season-month
+  of the Chinese reckoning, as chapter 31 counts (§5.13): the 7th, 14th and
+  21st of the 11th, 12th and 1st months, the 8th, 16th and 24th of the 2nd
+  to 4th, the 9th, 18th and 27th of the 5th to 7th, the 10th, 20th and 30th
+  of the 8th to 10th (`GreatBlackDay`, `GreatBlackDayTest`). On 11/7 Rāhu
+  meets his sister: the meeting of the nine bad (*ngan pa dgu 'dzom*),
+  "the worst of the bad"; the other dates name the sisters defiled and the
+  bellies of blood, iron and water arising and bursting. On all twelve
+  works for the dead and the living are bad, above all sending wealth out,
+  empowerment and consecration, a bride, building, burial and trade, and no
+  virtuous work is done; harmful means go along with it, so black rites are
+  its good list. Keyed by the date as it stands, like Rāhu's course by month
+  (a skipped date has none, a doubled one has it on both days, a leap month
+  as its month: WB's almanac writes the earth lords for both, vol. 1,
+  p. 178). A row in "Also today" after the *bla mkhyen*, titled the meeting
+  of the nine bad on 11/7, with the date's event, WB's results and its
+  remedies in the sheet; unlucky, and not weighed (§5.12): it is one of
+  chapter 31's earth lords, which the verse that ranks the day's factors
+  (vol. 2, p. 376) does not place. WB's other tradition (the 24th in three
+  last months, the 9th in the first of winter) is not built.
 - **The burning date** (*bsreg tshes*, vol. 1, p. 177, its reading vol. 2,
   p. 351; [burning-dates.md](sources/burning-dates.md)): the weekday
   meeting one of its two dates, Sunday the 12th and 27th, Monday the 11th
@@ -643,7 +668,7 @@ voices, so that the tone and the lists cannot go separate ways.
   "Combination" row with both dots, as the special days and Rāhu's
   courses are. What is shown but not weighed stands apart: the person's
   own days and mansions in "Your day", with vitality and body; the
-  *bla mkhyen* in "Also today". The nectar periods, times within the day
+  *bla mkhyen* and the great black day in "Also today". The nectar periods, times within the day
   (§5.13), are in the brief's "By the hour" and on the hours panel, not
   in the Almanac.
 
@@ -1095,6 +1120,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337, 341 and 342 (the *Rdo rje gtsug lag*'s special days), with the table in vol. 1, pp. 148–149, and the almanac verse of vol. 1, p. 177, a second witness to seven kinds of special day (BDRC MW2CZ8040) |
 | Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040); the *kun phan me long*'s chart of the general course, img. 78 (BDRC MW4CZ65561) |
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
+| The great black day, the meeting of the nine bad | The White Beryl, Beijing 1996, vol. 2, p. 226 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
@@ -1323,7 +1349,9 @@ canvas "Zanshin Calendar — basic design".
   The tone dot is lucky for white pebbles only, unlucky for black only,
   mixed for both.
 - **Also today:** after Your day, what the day holds that the weighing
-  does not count: the *bla mkhyen*'s direction (§5.11), with its compass.
+  does not count: the *bla mkhyen*'s direction (§5.11), with its compass,
+  and on its dates the great black day (§5.11), its title the meeting of
+  the nine bad on 11/7.
   The nectar periods have no row on the page: the brief's "By the hour"
   and the hours panel give them (§5.13).
 - **Hours of the day:** a clock icon on the Almanac header opens the
