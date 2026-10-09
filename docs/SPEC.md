@@ -220,7 +220,7 @@ day by day against Henning's computed calendars (§9):
 | Element pair | the weekday's element (Table 5) with the mansion's (Indian system, Henning's list): ten pairs, four inauspicious |
 | Yoga | ⌊27 × (moon at daybreak + true sun)⌋ (10.4)–(10.5); Tibetan names as printed in Phugpa almanacs |
 | Karaṇa | the half lunar day in effect at daybreak: H = ⌊60 × (moon − sun)⌋ + 1, fixed for H = 1, 58, 59, 60 |
-| Lunar-day animal, trigram, number | Janson (E.9)–(E.11) |
+| Lunar-day animal, trigram, number | Janson (E.9)–(E.11); the first date's trigram by the month's animal and its sme ba by the season (1 white, 4 green, 7 in the first, middle and last months of the Chinese reckoning's seasons) as the White Beryl's almanac verse gives them, vol. 1, p. 178 (`AlmanacPageTest`, [sources/almanac-page.md](sources/almanac-page.md)) |
 | Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008) |
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
@@ -1002,7 +1002,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329, and its chapter 34, the works one by one, pp. 378–428 (BDRC MW2CZ8040) |
 | Lunar dates, weekdays, yogas, karaṇas | The White Beryl, ch. 33, Beijing 1996, vol. 2, pp. 297–304, 308–312 and 347–351 (BDRC MW2CZ8040) |
 | Trigram (the eight goddesses of the date) | The White Beryl, ch. 25, Beijing 1996, vol. 1, pp. 449–450 (BDRC MW2CZ8040) |
-| Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337, 341 and 342 (the *Rdo rje gtsug lag*'s special days), with the table in vol. 1, pp. 148–149 (BDRC MW2CZ8040) |
+| Combinations of weekday and mansion, special days | The White Beryl, Beijing 1996, vol. 2, pp. 331–337, 341 and 342 (the *Rdo rje gtsug lag*'s special days), with the table in vol. 1, pp. 148–149, and the almanac verse of vol. 1, p. 177, a second witness to seven kinds of special day (BDRC MW2CZ8040) |
 | Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040); the *kun phan me long*'s chart of the general course, img. 78 (BDRC MW4CZ65561) |
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |

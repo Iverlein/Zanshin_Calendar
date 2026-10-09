@@ -63,7 +63,9 @@ gives no yoga and no karaṇa. Years 2005–2026 only.
   site keeps the second for *grub nyi*, *sbyor nyi* and *mi 'phrod*, the
   first for *bkra shis*, *'phel*, *mi mthun* and *'jig pa'i nyi ma*; the
   app counts both, as WB gives both. Its Tuesday *bdud nyi* is Maghā (9),
-  WB's table Āśleṣā (8). The *Rdo rje gtsug lag* days are not shown.
+  WB's table Āśleṣā (8), as is WB's almanac verse (vol. 1, p. 177,
+  [almanac-page.md](almanac-page.md)). The *Rdo rje gtsug lag* days are
+  not shown.
 - **The order of importance** puts the element pair first and Rāhu near
   the end; KP (weighing.md) puts Rāhu first and the planet over the
   mansion.
@@ -77,8 +79,8 @@ Each of the site's rules below held on every day compared.
 | Site | Its rule | WB |
 | --- | --- | --- |
 | "Burning day" (Сжигающий день: all undertakings fail) | weekday and date: Sun 12/27, Mon 11/26, Tue 10/25, Wed 3/18, Thu 6/21, Fri 2/17, Sat 7/22 | **WB's *bsreg tshes***, vol. 1, p. 177 (img. 187), the same pairs; its reading vol. 2, p. 351, and ch. 34 pp. 404, 414, 426: read on the scan and built 2026-10-08 ([burning-dates.md](burning-dates.md)). WB's results are narrower than the site's |
-| "Lucky day" (Счастливый день) | weekday and date: Sun 10/25, Mon 15/30, Tue 7/22, Wed 8/23, Thu 14/29, Fri 5/20, Sat 3/18 | not found yet |
-| "Day of good" / "day of evil" | month and the date's animal (good: month N, the Nth animal from the mouse) | not found yet |
+| "Lucky day" (Счастливый день) | weekday and date: Sun 10/25, Mon 15/30, Tue 7/22, Wed 8/23, Thu 14/29, Fri 5/20, Sat 3/18 | not in WB's etext, nor in its list of a day's entries (searched 2026-10-09, [almanac-page.md](almanac-page.md)): not built |
+| "Day of good" / "day of evil" | month and the date's animal (good: month N, the Nth animal from the mouse) | not in WB's etext, nor in its list of a day's entries (searched 2026-10-09, [almanac-page.md](almanac-page.md)): not built |
 | Eight classes (Восемь классов) | a direction by date only | **WB vol. 2, p. 232** (section 28): strikes and turnings by season-month and date, with the hour, direction and class (*bstan ma*, *bdud*, *ma bdud*, *gza'*, *klu*, *ma mo*, *lha*, *gnod sbyin*, *gshin rje*); fierce work good on a strike, avoided on a turning. The site's rule is not WB's |
 | Nāgas (Наги) | out and back on given dates of each month | **WB vol. 2, p. 234** (section 31): the nāgas' strikes and turnings by season-month and date; on a strike nāga offerings and rain-making good, on a turning not (and p. 364) |
 | "Protectors of the teaching" | an 8-day cycle by date, in four groups of months | no such course found (བསྟན་སྲུང, ཆོས་སྐྱོང) |
@@ -196,15 +198,11 @@ the last 1; summer 2–4; autumn 5–7; winter 8–10. This settles:
 
 ## WB's almanac page
 
-WB vol. 1, pp. 171–178 (img. 181–188; etext) sets out what a Phugpa almanac writes for
-each day, in order: the date with its Kālacakra and *dbyangs 'char*
-correspondences, the five-fold cycle and the dates' stages (child, youth,
-adult, old, ripe); weekday, mansion and their combinations; the yoga; the
-times of Viṣṭi; the special days of weekday and mansion (given there in
-verse: «ཉི་མ་མེ་བཞི་ … འགྲུབ་སྦྱོར་འཆི་སྦྱོར་སྲེག་སྦྱོར་དང་། །བདུད་ཉི་བདུད་རྒྱལ་འཇིག་པའི་ཉི། །མི་མཐུན་ཉི་མ»);
-the burning dates; the twelve links; the date's animal, trigram and sme ba
-(«སྟག་རྟ་ཁྱི་གསུམ་ལི་ཡིས་ཚེས», «སྨེ་བ་ར་བཞིར་གཅིག་དཀར»: the first of a month
-by its animal, which the app's formula gives); the strikes and turnings of
-the nāgas and the eight classes; the sky doors, *gnyan pa*, *snag tsha*
-and the earth lords of the Chinese reckoning. Its verse on the special
-days is a second witness to the table of p. 341.
+Read on the scan on 2026-10-09 and inventoried against the app in
+[almanac-page.md](almanac-page.md) (ROADMAP T2.11): the list is in vol. 1,
+ch. 14, pp. 177–178 (img. 187–188), the month's heading p. 176, the same
+list in short at the close of ch. 13, p. 173. What the etext seemed to
+give as an entry, *snag tsha*, is the ink the strikes, sky doors and
+*gnyan pa* are written in. The verse on the special days agrees with the
+table of p. 341 on all seven kinds it names, Tuesday's *bdud nyi*
+Āśleṣā, as the app has it.

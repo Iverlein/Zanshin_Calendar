@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
@@ -43,7 +43,7 @@ moves up as soon as it is unblocked.
 | 2 | E6, the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
 | 3 | U4 + U5 — built 2026-10-09 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
 | 4 | T3 Element colours — built 2026-10-09 | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
-| 5 | T2.11 WB's almanac page | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
+| 5 | T2.11 WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
 | 6 | T2.15 Hair by date | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
 | 7 | T2.14 The 11th month's 6th | 5; then the owner's decision | Build block 7: T2.14, read WB p. 226's nine bad days, then ask me to decide against Rabten's festival. |
 | 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
@@ -55,6 +55,10 @@ moves up as soon as it is unblocked.
 | 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
 | 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
+| 17 | T2.20 The times within the day | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
+| 18 | T2.21 The month's own entries | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
+| 19 | T2.22 The *dbyangs 'char* entries and the twelve links | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
+| 20 | T2.23 The five planets and the *byed rtsis* | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
 
 ## Tibetan page
 
@@ -212,24 +216,28 @@ passages show (pp. 206, 228): spring is months 11, 12 and 1, autumn 5–7.
 seasons, each labelled. T2.13 and T2.14 take their months from the same
 answer.
 
-#### T2.11 WB's almanac page — S reading
+#### T2.11 WB's almanac page — built 2026-10-09 (SPEC §5.8, §8.3)
 
-- **Gap.** WB vol. 1, pp. 171–178 (img. 181–188) says what a Phugpa almanac writes for
-  each day, in order (tibetastromed.md, *WB's almanac page*). The app has
-  never been checked against WB's own list: some entries are built (the
-  combinations, special days, yoga, Viṣṭi, trigram, sme ba, earth lords),
-  some are not (the burning dates, the twelve links, the dates' stages,
-  the strikes of the nāgas and the eight classes, the sky doors, *gnyan
-  pa*, *snag tsha*).
-- **Work.** Read pp. 171–178 on the scan; inventory every entry with its
-  rule's page (as white-beryl-ch33.md does for chapter 33), marking each
-  built, planned below or not planned with the reason. Cross-check the
-  special-day table (p. 341) against the verse of p. 179, a second WB
-  witness, and re-read the Tuesday *bdud nyi* (the table's Āśleṣā; the
-  calendar has Maghā). Search for the calendar's "lucky days" and "days of
-  good and evil" (tibetastromed.md); build them only if WB has them.
-- **Done when.** The inventory is in a topic file, each entry settled;
-  any new reading task is an item here.
+WB's list of what an almanac writes for each day is in chapter 14 (vol. 1,
+pp. 177–178, img. 187–188; the month's heading p. 176; the same list in
+short at the close of chapter 13, p. 173), read on the scan into
+[almanac-page.md](sources/almanac-page.md), each entry against the app.
+Built already: the date, the five-fold cycle, the weekday, the mansion,
+the element pair, Rāhu, the named combination, the yoga, the karaṇa, the
+special days, the burning dates, the date's animal, trigram and sme ba,
+the date animal's earth lords. Planned: the strikes and turnings, the sky
+doors (*gnam sgo*) and *gnyan pa* (T2.13: the sky doors are dated on
+p. 235, in its pages), the times within the day (T2.20), the month's own
+entries (T2.21), the five planets and the *byed rtsis* (T2.23), the *dbyangs 'char*'s vowels, stages and "hundred feet"
+and the twelve links (T2.22: WB writes them on the day line though it
+reads them only against a name or a birth). *snag tsha* is no
+entry: it is the ink the entries are written in (p. 178). The special
+days' verse (p. 177) names seven kinds on every weekday as the table of
+p. 341 does, Tuesday's *bdud nyi* Āśleṣā and the *sreg sbyor* the table's
+*gtan spang*; the first date's trigram and sme ba (p. 178) are the app's
+on every first date of 2000–2049, with the Chinese reckoning's seasons.
+`AlmanacPageTest` checks both. The calendar's "lucky days" and "days of
+good and evil" are not in WB's etext and are not built.
 
 #### T2.12 The burning dates (*bsreg tshes*) — built 2026-10-08 (SPEC §5.11, §5.12)
 
@@ -260,7 +268,10 @@ answer.
   list, the strikes (*thebs*) and turnings (*bzlog*) of the eight classes
   (p. 232, section 28: season-month, date, hour, direction and class) and
   of the nāgas (p. 234, section 31: on a strike nāga offerings and
-  rain-making good, on a turning not; p. 364). None is built. The
+  rain-making good, on a turning not; p. 364), and the sky doors
+  (*gnam sgo*, p. 235: dates on which war, alliances, a castle, a bride,
+  burial, funeral rites or all works are avoided), which WB's almanac
+  writes with the strikes and *gnyan pa* (T2.11). None is built. The
   calendar's own eight classes and "protectors" are not WB's and are not
   to be copied.
 - **Work.** With T2.10's months (spring 11, 12, 1; autumn 5–7): read
@@ -404,6 +415,96 @@ it. The plan is item E below.
   conception (no source defines it); E6's exception for the enemy weekday
   and the death mansion.
 
+#### T2.20 The times within the day — M
+
+- **Gap.** WB's almanac writes what changes within a day (vol. 1, p. 177,
+  [almanac-page.md](sources/almanac-page.md), entries 5, 7–9, 18): the
+  second mansion when the moon enters one in daytime, the mansion's change
+  "rough, in *chu tshod*"; a skipped yoga with the one before; where Viṣṭi
+  begins and ends (the later half of the 4th, 11th, 18th and 25th, the
+  earlier half of the 8th, 15th, 22nd and 29th); the sun's terms (*dbugs
+  thob*, *khyim 'pho*, *sgang*) in the date they fall in. The app gives the
+  mansion, yoga and karaṇa at daybreak only (SPEC §5.8) and shows no sun's
+  term.
+- **Rule (the owner, 2026-10-09).** Everything as the sources give it, WB
+  first: where WB gives a rule it is built, where it gives no weight none
+  is invented. So the second mansion and the skipped yoga are written
+  beside the daybreak ones, not weighed (WB only says to write both), and
+  the sun's terms are reckoned as WB's almanac reckons them, not by the
+  astronomical sun (the day's sme ba keeps its own sourced count, SPEC
+  §5.11).
+- **Work.** Read WB ch. 15 (vol. 1, p. 180 ff., img. 190 ff.) on the scan
+  for how *dbugs thob* and *khyim 'pho* are reckoned: its opening weighs
+  the present custom against an earlier one and seems to leave both
+  standing (etext, «…ད་ལྟའི་ཕྱག་རྒྱུན་དང་། །སྔོན་མ་གཉིས་པོ་གང་བདེ་ཡིན»); write what it
+  settles into almanac-page.md. Then, from Janson's arithmetic (the moon,
+  the true sun, the end of each lunar day): the end of the day's mansion
+  and yoga, the half lunar days' bounds, and the sun's terms by WB's rule.
+  Rows: a second mansion and a skipped yoga each beside the daybreak one,
+  with its time; Viṣṭi's span on the karaṇa row and the hours panel; the
+  sun's term in the Lunar day section.
+- **Done when.** Vectors against Henning's calendars where they give the
+  times, and against WB's rule for the sun's terms; SPEC §5.8, §10.3;
+  checked on the emulator in both languages.
+
+#### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
+
+- **Gap.** WB's almanac writes on each day the vowels and consonants of
+  the Kālacakra and the *dbyangs 'char* with their elements and sense
+  objects, the date's stage (child, youth, adult, old, ripe), the
+  "hundred feet" table over each mansion, and the twelve links counted
+  from the month's *sgang* (vol. 1, pp. 177–178, entries 3, 4, 12, 17 of
+  [almanac-page.md](sources/almanac-page.md)). None is built. WB attaches
+  no reading of the day to them here: the stages are read against a
+  person's name (vol. 2, p. 305), a link as a birth sign (vol. 2, p. 384).
+- **Rule.** As T2.20: written as WB writes them, with no reading or weight
+  it does not give.
+- **Work.** Read their rules on the scan: the *dbyangs 'char*'s in WB's
+  second preliminary chapter, to which p. 177 refers («སྔོན་འགྲོ་ལེའུ་གཉིས་པ»),
+  and the *gtan le* of ch. 13; the twelve links' rule (vol. 1, p. 19,
+  etext) with p. 177's table for months of 28 to 32 days from *sgang* to
+  *sgang* (it needs T2.20's *sgang*). Build what is calculable as rows of
+  the Lunar day section, each balloon saying what WB says of it.
+- **Done when.** Vectors from WB's model almanac (vol. 1, pp. 154–171,
+  whose day rows carry these entries); SPEC §5.8, §10.3; both languages.
+
+#### T2.21 The month's own entries — M reading, then S each
+
+- **Gap.** WB's month heading (vol. 1, p. 176) writes the black months
+  (*zla nag*), whether the month is long or short, the weekday that rises in the month (*gza' dar gud*:
+  roughly Saturday in the tiger, horse and dog months, Mars in the mouse,
+  dragon and monkey, the Moon in the pig, sheep and hare, Jupiter in the
+  bird, ox and snake; finely by the element of the month's first
+  weekday), eclipses, and seasonal signs (the Ṛṣi's seven days, the
+  poisoned waters, a comet). None is built.
+- **Work.** Read on the scan: the black months (vol. 2, p. 212, *ki kang
+  zla nag*, and vol. 1, pp. 340, 343), the weekday's rise against its
+  works (vol. 2, p. 312: «ཕྱུགས་གཟའ་དར་ཡང་ཕྱུགས་མི་སྐྱེལ»), WB's eclipse
+  reckoning (vol. 1, p. 62 ff.), and where the seasonal signs are dated.
+  Build each that is calculable in the month balloon; the weekday's rise,
+  if it changes a weekday's works, as part of the weekday's voice.
+- **Done when.** Each entry built with its vector or written off with the
+  reason in [almanac-page.md](sources/almanac-page.md); SPEC §5.11 and
+  §10.3.
+
+#### T2.23 The five planets and the *byed rtsis* — XL
+
+- **Gap.** WB's full almanac writes, at each month's head, the five
+  planets' slow and fast motion and their meetings, and the omitted and
+  doubled days of both reckonings, the *byed rtsis* beside the *grub
+  rtsis* (vol. 1, p. 176, [almanac-page.md](sources/almanac-page.md)); the
+  middle almanac may write the *grub rtsis* alone (p. 178). The app
+  reckons the sun and the moon by the *grub rtsis* only (SPEC §5).
+- **Rule.** As T2.20: what WB's full almanac writes is built, with no
+  weight WB does not give.
+- **Work.** The planets by Janson's arithmetic (*Tibetan Calendar
+  Mathematics*, the planets' chapters), checked against Henning's
+  calendars; the *byed rtsis* from WB's own rules (vol. 1, the chapters
+  on it, to be found and read on the scan). Then the month balloon gives
+  what the full almanac's heading gives.
+- **Done when.** Vectors against Henning for the planets and against WB's
+  worked examples for the *byed rtsis*; SPEC §5; both languages.
+
 #### Order
 
 1. T2.1, T2.2 and T2.3 are built.
@@ -412,8 +513,9 @@ it. The plan is item E below.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
-   T2.11 (it may add items), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15,
-   then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13.
+   T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15,
+   then T2.12 (built 2026-10-08), T2.14 (the owner's decision after its reading) and T2.13;
+   then T2.20, T2.21 and T2.22 (after T2.20's *sgang*); T2.23 last, the largest.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
 #### Not planned
