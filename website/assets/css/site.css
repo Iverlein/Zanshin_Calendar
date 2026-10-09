@@ -161,7 +161,7 @@ a:hover { color: var(--text); }
 }
 @media (min-width: 600px) { .strip { scroll-padding-inline: 32px; } }
 @media (min-width: 960px) {
-  .strip { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; overflow: visible; }
+  .strip { grid-auto-flow: row; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; overflow: visible; }
 }
 .strip figure { margin: 0; scroll-snap-align: start; }
 .strip .phone { border-radius: 20px; box-shadow: none; }

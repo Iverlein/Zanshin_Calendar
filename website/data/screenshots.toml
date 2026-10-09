@@ -53,3 +53,12 @@ alt = "The meditation timer: a zazen of 20, 10 and 30 minutes, an hour in three 
 [shot.ru]
 caption = "Таймер медитации"
 alt = "Таймер медитации: дзадзэн по 20, 10 и 30 минут, час в трёх периодах, выбранный из пресета, ниже — подготовка и длина каждого периода"
+
+[[shot]]
+file = "7.png"
+[shot.en]
+caption = "Your year of age"
+alt = "The year of age of a man born in a Fire Dragon year, in his 51st: the mewa (སྨེ་བ, sme ba) 8 white, the lake trigram (དྭ, dwa) and the progressed sign (ལོག་མེན, log men) Earth Dragon, then the pebbles of the six basic signs for vitality, body, destiny and luck, counted white and black"
+[shot.ru]
+caption = "Ваш год жизни"
+alt = "Год жизни мужчины, рождённого в год Огня-Дракона, в его 51-й год: мева (སྨེ་བ, sme ba) 8 белый, триграмма озера (དྭ, dwa) и смещённый знак (ལོག་མེན, log men) Земля-Дракон, затем камни шести основных знаков для жизненной силы, тела, могущества и коня ветра, с подсчётом белых и чёрных"

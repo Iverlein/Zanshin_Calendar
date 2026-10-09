@@ -12,6 +12,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
 <li>A round dial of the hours: the combination period of each hour and Jupiter's nectar periods</li>
 <li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the personal mansions and the white and black pebbles of the year, month, day and each hour</li>
+<li>Your year of age by the elemental divination of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po): the mewa (སྨེ་བ, sme ba), trigram (སྤར་ཁ, spar kha) and progressed sign (ལོག་མེན, log men) of the year, its twenty-four pebbles with their predictions, growth and decline, and the obstacle years, each with its reading</li>
 </ul>
 
 <b>Old Japanese calendar (旧暦, Tenpō rules)</b>
