@@ -364,6 +364,47 @@ class DaySummaryTest {
         }
     }
 
+    /**
+     * WB vol. 2, p. 338: on the enemy weekday of one's element "every work is to be avoided", on the
+     * death mansion "anything is bad" (ROADMAP E6). For the test birth date, 1 June 1976, earth by the
+     * life force and a Dragon, that is Thursday (wood) and the Dragon's slayer mansion, Pūrvaphalgunī
+     * (p. 330).
+     */
+    @Test
+    fun `the days the White Beryl avoids every work on, for the test birth date`() {
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        fun summary(date: LocalDate): DaySummary {
+            val d = TibetanCalendar.of(date)
+            return DaySummary.of(d, personalDay(born.yearAnimal, d.weekday), personalMansions(born.yearAnimal, d.mansion), ownDays(born, d))
+        }
+        val october = (1..31).map { LocalDate.of(2026, 10, it) }
+        val days = october.associateWith { summary(it) }.filterValues { it.avoidAll.isNotEmpty() }
+        assertEquals(
+            mapOf(
+                1 to listOf("Enemy weekday" to "Thursday"),
+                8 to listOf("Enemy weekday" to "Thursday"),
+                // Friday, day 29 of the 8th month: gre in Henning's list too.
+                9 to listOf("Slayer mansion" to "Pūrvaphalgunī"),
+                15 to listOf("Enemy weekday" to "Thursday"),
+                22 to listOf("Enemy weekday" to "Thursday"),
+                29 to listOf("Enemy weekday" to "Thursday"),
+            ),
+            days.entries.associate { (date, s) -> date.dayOfMonth to s.avoidAll.map { it.kanji to it.english } },
+        )
+        for ((date, s) in days) {
+            val plain = DaySummary.of(TibetanCalendar.of(date))
+            // No good list for the person; the day's tone, avoid list and weighing stay everyone's.
+            assertTrue(s.good.isEmpty(), "$date")
+            assertTrue(s.row().first.isEmpty(), "$date")
+            assertEquals(plain.avoid, s.avoid, "$date")
+            assertEquals(plain.verdict, s.verdict, "$date")
+            assertEquals(plain.activities, s.activities, "$date")
+            assertTrue(plain.good.isNotEmpty(), "$date")
+        }
+        // Without a birth date nothing is avoided for anyone.
+        october.forEach { assertTrue(DaySummary.of(TibetanCalendar.of(it)).avoidAll.isEmpty()) }
+    }
+
     @Test
     fun `the hours above the Tibetan day of 1 November 2026`() {
         // The 9th month, a Sunday: Libra rises at daybreak (KP §9), and Jupiter rules the 6th half by day and the 2nd and 9th by night
@@ -408,6 +449,54 @@ class DaySummaryTest {
         }
         // The 旧暦 day has none.
         assertEquals(null, DaySummary.of(Kyureki.of(LocalDate.of(2026, 11, 1)), Rekichu.of(LocalDate.of(2026, 11, 1))).hours)
+    }
+
+    @Test
+    fun `the brief groups the works by the voices that carry them`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            for ((good, notes) in listOf(true to s.good, false to s.avoid)) {
+                val groups = notes.byVoices(good)
+                // Every work once, in its old order within its group; one group to each set of voices.
+                assertEquals(notes, groups.flatMap { it.second }.sortedBy { notes.indexOf(it) }, "$date")
+                assertEquals(groups.size, groups.map { it.first }.distinct().size, "$date")
+                for ((voices, works) in groups) {
+                    works.forEach { assertEquals(voices, if (good) it.good else it.avoid, "$date ${it.activity}") }
+                    assertEquals(works, works.sortedBy { notes.indexOf(it) }, "$date")
+                }
+                // Groups in the works' order: more voices first, then the stronger.
+                assertEquals(groups.map { notes.indexOf(it.second.first()) }.sorted(), groups.map { notes.indexOf(it.second.first()) }, "$date")
+            }
+            date = date.plusDays(1)
+        }
+        // 1 November 2026: bathing is one of the works Sunday, Ārdrā and the 22nd carry together.
+        val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
+        val bathing = s.good.byVoices(true).single { (_, works) -> works.any { it.activity == Activity.BATHING } }
+        assertEquals(listOf("Sunday", "Ārdrā", "day 22"), bathing.first.map { it.kanji })
+    }
+
+    @Test
+    fun `the In brief row gives the hours against the day's tone`() {
+        // 1 November 2026, unlucky: the hours to be accomplished.
+        val unlucky = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
+        assertEquals(listOf(2 to 1, 4 to 2, 7 to 2, 10 to 2), unlucky.hoursAgainst.map { it.first to it.count })
+        assertTrue(unlucky.hoursAgainst.all { it.tone == Tone.GOOD })
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val against = if (s.verdict!!.tone == Tone.GOOD) Tone.BAD else Tone.GOOD
+            assertEquals(s.hours!!.periods.filter { it.tone == against }, s.hoursAgainst, "$date")
+            date = date.plusDays(1)
+        }
+        // On the person's enemy weekday every work is to be avoided, and no hour is placed above it.
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        val d = TibetanCalendar.of(LocalDate.of(2026, 10, 8))
+        val enemy = DaySummary.of(d, personalDay(born.yearAnimal, d.weekday), personalMansions(born.yearAnimal, d.mansion), ownDays(born, d))
+        assertTrue(enemy.avoidAll.isNotEmpty())
+        assertTrue(enemy.hoursAgainst.isEmpty())
+        // The 旧暦 day has no hours.
+        assertTrue(DaySummary.of(Kyureki.of(LocalDate.of(2026, 11, 1)), Rekichu.of(LocalDate.of(2026, 11, 1))).hoursAgainst.isEmpty())
     }
 
     @Test

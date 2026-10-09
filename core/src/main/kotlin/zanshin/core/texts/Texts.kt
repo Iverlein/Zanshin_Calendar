@@ -890,7 +890,9 @@ object Texts {
     /** One's personal mansions (the White Beryl, p. 330, with the Sakya manual's prose beside its table). */
     val PERSONAL_MANSION: Map<PersonalMansion, Reading> = keyed(
         *PersonalMansion.entries.map {
-            it to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = listOf(Sources.NOR_BU_ME_LONG))
+            // The slayer mansion is the death mansion, on which p. 338 calls anything bad.
+            val also = if (it == PersonalMansion.GSHED) listOf(Sources.WHITE_BERYL_OWN_DAYS) else emptyList()
+            it to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = also + Sources.NOR_BU_ME_LONG)
         }.toTypedArray(),
     )
 

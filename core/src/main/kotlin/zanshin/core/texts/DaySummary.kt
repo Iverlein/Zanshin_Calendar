@@ -73,6 +73,14 @@ data class ActivityNote(
 }
 
 /**
+ * Works grouped by the voices standing on their side (ROADMAP U4), [good] or to avoid: each group the
+ * entries that carry it and its works, in the order the works come, so that the groups stand in the
+ * order of their weight (SPEC §5.12) and each work keeps its place within its group.
+ */
+fun List<ActivityNote>.byVoices(good: Boolean): List<Pair<List<SummaryEntry>, List<ActivityNote>>> =
+    groupBy { if (good) it.good else it.avoid }.toList()
+
+/**
  * The factors of a Tibetan day in the rank of the White Beryl and the *kun
  * phan me long* (SPEC §5.12), strongest first: the two combinations of
  * weekday and mansion, which outweigh both (WB p. 333); Rāhu's course on
@@ -171,6 +179,13 @@ data class DaySummary(
     val setAside: Map<SummaryEntry, List<SummaryEntry>> = emptyMap(),
     /** The Tibetan day's combination periods and nectar periods, shown and not weighed (SPEC §5.13). */
     val hours: DayHours? = null,
+    /**
+     * The person's days among [personal] on which the White Beryl avoids every work (vol. 2,
+     * p. 338): the enemy weekday of one's element and the death mansion, the slayer mansion of
+     * p. 330. Where there is one, the day's good list has no power for that person and [good] is
+     * empty; the day's weighing, its tone, its avoid list and [sideOf], is everyone's (SPEC §5.12).
+     */
+    val avoidAll: List<SummaryEntry> = emptyList(),
 ) {
     /**
      * The side the weighing gives [activity] on the day, GOOD or BAD, with the
@@ -179,7 +194,17 @@ data class DaySummary(
     fun sideOf(activity: Activity): Pair<Tone, List<SummaryEntry>>? =
         activities.firstOrNull { it.activity == activity }?.let { if (it.good.isNotEmpty()) Tone.GOOD to it.good else Tone.BAD to it.avoid }
 
-    val good: List<ActivityNote> get() = activities.filter { it.good.isNotEmpty() }
+    /**
+     * The combination periods that run against the day's tone, for the In brief row (ROADMAP U5): on
+     * an unlucky day those to be accomplished, on a lucky day those to be avoided; [hours]'s runs,
+     * weighed no further. None on a day of [avoidAll]: WB places no hour above the person's day
+     * (ROADMAP E, *The person's days and the hour against the day*).
+     */
+    val hoursAgainst: List<PeriodRun>
+        get() = if (avoidAll.isNotEmpty()) emptyList() else verdict?.let { v -> hours?.periods?.filter { it.tone != v.tone } }.orEmpty()
+
+    /** The works named good, for the reader: none on a day of [avoidAll]. */
+    val good: List<ActivityNote> get() = if (avoidAll.isNotEmpty()) emptyList() else activities.filter { it.good.isNotEmpty() }
     val avoid: List<ActivityNote> get() = activities.filter { it.avoid.isNotEmpty() }
 
     /** The families of the activities named good, in family order (the summary line's glyphs). */
@@ -267,7 +292,9 @@ data class DaySummary(
          * and [ownDays], the birth date's, are listed as [personal] and not weighed: WB calls them "of
          * particular importance" (vol. 2, p. 338), and a later reader counts them as a particular case
          * (*dmigs bsal*), but no text found places them against the combination (SPEC §5.12). The
-         * roles the day's weekday holds for the person are one entry (ROADMAP T2.19).
+         * roles the day's weekday holds for the person are one entry (ROADMAP T2.19). Two of them WB
+         * makes absolute, the enemy weekday of the element and the death mansion: on them "every
+         * work is to be avoided" and "anything is bad" (p. 338), so they are [avoidAll] (ROADMAP E6).
          */
         fun of(
             day: TibetanDay,
@@ -375,6 +402,14 @@ data class DaySummary(
                 affinity = null,
                 verdict = verdict,
                 hours = DayHours.of(day),
+                avoidAll = listOfNotNull(
+                    OwnDay.ENEMY_WEEKDAY.takeIf { it in ownDays }?.let {
+                        SummaryEntry(it.english, day.weekday.english, Tone.BAD, Texts.OWN_DAY[it], latin = true)
+                    },
+                    PersonalMansion.GSHED.takeIf { it in personalMansions }?.let {
+                        SummaryEntry(it.english, day.mansion.sanskrit, Tone.BAD, Texts.PERSONAL_MANSION[it], latin = true)
+                    },
+                ),
             )
         }
 
