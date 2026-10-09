@@ -235,6 +235,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
         val lunarDateSubtitle = stringResource(R.string.tib_lunar_date_subtitle, LunarDayClass.of(day.day).english)
         val whiteBerylLabel = stringResource(R.string.detail_white_beryl)
+        val hairWashingLabel = stringResource(R.string.detail_hair_washing)
+        val haircutNotWhiteBeryl = stringResource(R.string.haircut_not_white_beryl)
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
@@ -491,6 +493,8 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.LUNAR_DATE[day.day - 1],
                     subtitle = lunarDateSubtitle,
                     titleIsKanji = false,
+                    // WB's own result of washing the hair on the date (p. 404, ROADMAP T2.15).
+                    details = listOf(hairWashingLabel to Catalog.text(Texts.HAIR_DATE[day.day - 1].arg!!)),
                     glyphs = { LunarDateStrip(day.day) },
                     diagram = { LunarDateGrid(day.day) },
                     decides = decides(DayFactor.LUNAR_DATE),
@@ -527,7 +531,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 ),
             )
             // The row is the haircut weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the
-            // date is one of the date's lists, shown in the sheet as such, outweighed where it is.
+            // date is one of the date's lists, shown in the sheet as such, outweighed where it is, and marked as not WB's (T2.15).
             val haircut = Texts.HAIRCUT[day.day - 1]
             val dateDay = Annotation(
                 haircutDateTitle,
@@ -535,6 +539,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                 haircutDateTone,
                 haircut,
                 titleIsKanji = false,
+                details = listOf(whiteBerylLabel to haircutNotWhiteBeryl),
             )
             val haircutGrid: @Composable () -> Unit = { HaircutGrid(day, info.date) }
             add(
