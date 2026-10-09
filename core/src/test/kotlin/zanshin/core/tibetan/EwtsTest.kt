@@ -31,6 +31,9 @@ class EwtsTest {
             "lha mtshams" to "ལྷ་མཚམས",
             "rlung" to "རླུང",
             "biSh+Ti" to "བིཥྚི", // a Sanskrit loan, stacked explicitly, as the White Beryl prints Viṣṭi
+            "sa ga zla ba'i dus chen" to "ས་ག་ཟླ་བའི་དུས་ཆེན", // a genitive run into its syllable
+            "krung go'i" to "ཀྲུང་གོའི",
+            "kan su'u" to "ཀན་སུའུ",
         )
         for ((w, t) in cases) assertEquals(t, Ewts.toTibetan(w), w)
     }
@@ -49,5 +52,11 @@ class EwtsTest {
             Trigram.entries.map { it.wylie } + IndianElement.entries.map { it.wylie } +
             (1..12).map { TibetanCalendar.monthNames(it).wylie }
         for (w in terms) assertNotNull(Ewts.toTibetan(w), w)
+    }
+
+    @Test
+    fun `a term is named in English, then its script and Wylie`() {
+        assertEquals("the la, the life-spirit (བླ, bla)", Ewts.named("the la, the life-spirit", "bla"))
+        assertEquals("Sunday (གཟའ་ཉི་མ, gza' nyi ma)", Ewts.named("Sunday", "gza’ nyi ma"))
     }
 }

@@ -301,6 +301,9 @@ enum class Trigram(val wylie: String, val chinese: String, val goddess: String) 
     KHAM("kham", "坎", "char 'bebs ma"), GIN("gin", "艮", "g.yo med ma"), ZIN("zin", "震", "'od 'chang ma"), ZON("zon", "巽", "skyob byed ma");
 
     val english: String get() = gloss(this)
+
+    /** The goddess's name as English writes it, in THL phonetics (Ömbarma; SPEC §8.1). */
+    val goddessName: String get() = gloss(this, "goddess")
 }
 
 /**
@@ -341,22 +344,26 @@ enum class SpecialDay(val day: Int) {
  * Rabten's calendars (Zamling Chisang, Gaden Ngamchö, the Ten Good Omens,
  * Thanksgiving to the Protectors); not held in leap months except Losar.
  */
-enum class TibetanFestival(val month: Int, val day: Int) {
-    LOSAR(1, 1),
-    CHOTRUL_DUCHEN(1, 15),
+/** The festivals of the year (SPEC §5.7); [wylie] is the Tibetan of a title written in phonetics, named with it (§8.1). */
+enum class TibetanFestival(val month: Int, val day: Int, val wylie: String? = null) {
+    LOSAR(1, 1, "lo gsar"),
+    CHOTRUL_DUCHEN(1, 15, "cho 'phrul dus chen"),
     KALACAKRA(3, 15),
     BIRTH(4, 7),
-    SAGA_DAWA_DUCHEN(4, 15),
-    ZAMLING_CHISANG(5, 15),
-    CHOKHOR_DUCHEN(6, 4),
+    SAGA_DAWA_DUCHEN(4, 15, "sa ga zla ba'i dus chen"),
+    ZAMLING_CHISANG(5, 15, "'dzam gling spyi bsang"),
+    CHOKHOR_DUCHEN(6, 4, "chos 'khor dus chen"),
     ENTRY_INTO_WOMB(6, 15),
-    LHABAB_DUCHEN(9, 22),
-    GADEN_NGAMCHO(10, 25),
-    SANGPO_CHUZOM(11, 6),
+    LHABAB_DUCHEN(9, 22, "lha babs dus chen"),
+    GADEN_NGAMCHO(10, 25, "dga' ldan lnga mchod"),
+    SANGPO_CHUZOM(11, 6, "bzang po bcu 'dzom"),
     PROTECTORS(12, 29);
 
     val title: String get() = gloss(this, "title")
     val english: String get() = gloss(this)
+
+    /** The title with its Tibetan, "Losar (ལོ་གསར, lo gsar)". */
+    val namedTitle: String get() = wylie?.let { Ewts.named(title, it) } ?: title
 }
 
 enum class PersonalDay {

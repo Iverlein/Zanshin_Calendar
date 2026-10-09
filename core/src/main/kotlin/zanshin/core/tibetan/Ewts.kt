@@ -62,9 +62,28 @@ object Ewts {
 
     fun toTibetan(wylie: String): String? = runCatching {
         wylie.trim().replace('’', '\'').split(Regex("\\s+")).joinToString(TSHEG.toString()) {
-            if ('+' in it) stacked(it) else render(syllable(it))
+            val contracted = CONTRACTION.matchEntire(it)
+            when {
+                '+' in it -> stacked(it)
+                // A particle run into the syllable before it (ba'i, བའི), as titles and names write the genitive.
+                contracted != null -> render(syllable(contracted.groupValues[1])) + "འ" + VOWELS.getValue(contracted.groupValues[2])
+                else -> render(syllable(it))
+            }
         }
     }.getOrNull()
+
+    /** A syllable ending in a vowel with 'i, 'u or 'o run into it ("zla ba'i", "su'u"). */
+    private val CONTRACTION = Regex("(.*[aeiou])'([iuo])")
+
+    /**
+     * A Tibetan word as the app names it (SPEC §8.1): its [name] in the
+     * reader's language, then its script and Wylie in brackets, "the la, the
+     * life-spirit (བླ, bla)". Every term of the engines converts (EwtsTest).
+     */
+    fun named(name: String, wylie: String): String {
+        val w = wylie.trim().replace('’', '\'')
+        return toTibetan(w)?.let { "$name ($it, $w)" } ?: "$name ($w)"
+    }
 
     /** A word written with explicit stacks ("biSh+Ti"): each stack, then its vowel, with no tsheg between. */
     private fun stacked(word: String): String {
