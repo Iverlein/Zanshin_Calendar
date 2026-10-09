@@ -280,6 +280,10 @@
     <string name="tib_rahu_courses">его ход по числу и ход в этом месяце</string>
     <string name="tib_bla_mkhyen_title">Дух-астролог (བླ་མཁྱེན, bla mkhyen)</string>
     <string name="tib_bla_mkhyen_subtitle">сторона: %1$s · мева (སྨེ་བ, sme ba) дня %2$d, от солнцестояния</string>
+    <string name="tib_black_day_title">Великий чёрный день (ཉི་མ་ནག་ཆེན, nyi ma nag chen)</string>
+    <string name="tib_black_day_subtitle">владыка земли (ས་བདག, sa bdag) месяца «%1$s»: дурен для умерших и живых</string>
+    <string name="tib_nine_bad_title">Встреча девяти дурных (ངན་པ་དགུ་འཛོམ, ngan pa dgu \'dzom)</string>
+    <string name="tib_nine_bad_subtitle">великий чёрный день (ཉི་མ་ནག་ཆེན, nyi ma nag chen) ранней весны: худшее из дурного</string>
     <string name="detail_day_sme_ba">Мева (སྨེ་བ, sme ba) дня</string>
     <string name="detail_sme_ba_count">Отсчёт от</string>
     <string name="sme_ba_count_up">дня дерева-мыши %1$s (%2$d), вперёд: после зимнего солнцестояния</string>
@@ -328,7 +332,6 @@
     <string name="glyph_seed_within_a_circle">семя в круге</string>
     <string name="glyph_triple_ladder">тройная лестница</string>
     <string name="glyph_butter_lamps">масляные лампады</string>
-    <string name="glyph_ten_dots">десять точек</string>
     <string name="glyph_flame">пламя</string>
     <string name="glyph_kadomatsu">кадомацу</string>
     <string name="glyph_herb_sprig">веточка трав</string>

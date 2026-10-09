@@ -59,6 +59,7 @@ import zanshin.core.texts.sharedTone
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
+import zanshin.core.tibetan.GreatBlackDay
 import androidx.compose.material3.IconButton
 import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.HourSign
@@ -602,6 +603,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onEl
                 },
             ),
         ) { a -> sheet = a }
+        // The great black day, an earth lord of the date like the bla mkhyen: shown, not weighed (ROADMAP T2.14);
+        // on 11/7 it is the meeting of the nine bad, which stands in the title.
+        GreatBlackDay.of(day.month, day.day)?.let { season ->
+            val nineBad = season == GreatBlackDay.NINE_BAD
+            AnnotationRow(
+                Annotation(
+                    stringResource(if (nineBad) R.string.tib_nine_bad_title else R.string.tib_black_day_title),
+                    if (nineBad) stringResource(R.string.tib_nine_bad_subtitle) else stringResource(R.string.tib_black_day_subtitle, day.monthNames.chineseSeason),
+                    Tone.BAD,
+                    Texts.GREAT_BLACK_DAY[season],
+                    titleIsKanji = false,
+                ),
+            ) { a -> sheet = a }
+        }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {

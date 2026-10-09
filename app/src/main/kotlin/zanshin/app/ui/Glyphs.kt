@@ -67,14 +67,6 @@ private val GLYPHS: Map<String, Glyph> = mapOf(
             "M4.5 11h7c0 2-1.6 3.4-3.5 3.4S4.5 13 4.5 11zM12.5 11h7c0 2-1.6 3.4-3.5 3.4S12.5 13 12.5 11zM8 14.4v3.6M16 14.4v3.6M5 20h14",
         description = R.string.glyph_butter_lamps,
     ),
-    "SANGPO_CHUZOM" to Glyph(
-        "",
-        dots = listOf(
-            Offset(12f, 5f), Offset(9.5f, 9f), Offset(14.5f, 9f), Offset(7f, 13f), Offset(12f, 13f), Offset(17f, 13f),
-            Offset(4.5f, 17f), Offset(9.5f, 17f), Offset(14.5f, 17f), Offset(19.5f, 17f),
-        ),
-        description = R.string.glyph_ten_dots,
-    ),
     "PROTECTORS" to Glyph("M12 3c3 4 6 6 6 10a6 6 0 0 1-12 0c0-2 1-3.5 2-4.5c0 2 1 3 2 3c-1-3 0-6 2-8.5z", description = R.string.glyph_flame),
 
     "旧正月" to Glyph("M8 20V9l2-2v13M11 20V6l2-2v16M14 20V8l2-2v14M6 20h12M7 16h10", description = R.string.glyph_kadomatsu),

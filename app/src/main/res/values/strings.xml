@@ -321,6 +321,10 @@
     <string name="tib_rahu_courses">its course by date and its course in the month</string>
     <string name="tib_bla_mkhyen_title">The astrologer spirit (བླ་མཁྱེན, bla mkhyen)</string>
     <string name="tib_bla_mkhyen_subtitle">%1$s · the day\'s mewa (སྨེ་བ, sme ba) %2$d, counted from the solstice</string>
+    <string name="tib_black_day_title">The great black day (ཉི་མ་ནག་ཆེན, nyi ma nag chen)</string>
+    <string name="tib_black_day_subtitle">an earth lord (ས་བདག, sa bdag) of %1$s: bad for the dead and the living</string>
+    <string name="tib_nine_bad_title">The meeting of the nine bad (ངན་པ་དགུ་འཛོམ, ngan pa dgu \'dzom)</string>
+    <string name="tib_nine_bad_subtitle">the great black day (ཉི་མ་ནག་ཆེན, nyi ma nag chen) of early spring: the worst of the bad</string>
     <string name="detail_day_sme_ba">The day\'s mewa (སྨེ་བ, sme ba)</string>
     <string name="detail_sme_ba_count">Counted from</string>
     <string name="sme_ba_count_up">the wood-mouse day %1$s (%2$d), upwards: after the winter solstice</string>
@@ -389,7 +393,6 @@
     <!-- describes a festival glyph for screen readers -->
     <string name="glyph_butter_lamps">butter lamps</string>
     <!-- describes a festival glyph for screen readers -->
-    <string name="glyph_ten_dots">ten dots</string>
     <!-- describes a festival glyph for screen readers -->
     <string name="glyph_flame">flame</string>
     <!-- describes a festival glyph for screen readers -->
