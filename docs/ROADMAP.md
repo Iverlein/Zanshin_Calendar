@@ -300,8 +300,9 @@ good and evil" are not in WB's etext and are not built.
 - **Read last:** Spug ston's direction for each month (*yas lam*) is the way
   for the ransom offering, as WB uses *yas* elsewhere, and is in the
   reading; *zin phung*'s two autumn works, confirmed on the Zhol print, are
-  given word for word. Nothing of pp. 226–235 is left unbuilt but the black
-  days, which go with the black months (T2.21). The sky doors' remedies (pp. 368–369) are summarised in
+  given word for word. The black days of p. 235 are built too, by the black
+  months' rule of vol. 1, p. 183 (the four-slayer), with the Paṇchen's list
+  by year as another view. Nothing of pp. 226–235 is left unbuilt. The sky doors' remedies (pp. 368–369) are summarised in
   each door's reading; *zin phung*'s spring days in the middle are their own
   event ("in the middle"). The black days
   (p. 235) go with the black months (T2.21); the earth lords of the hour
@@ -515,8 +516,8 @@ it. It is item E below, built 2026-10-09 but for E4 and E5.
   weekday), eclipses, and seasonal signs (the Ṛṣi's seven days, the
   poisoned waters, a comet). None is built.
 - **Work.** Read on the scan: the black months (vol. 2, p. 212, *ki kang
-  zla nag*, and vol. 1, pp. 340, 343) with the black days that follow their rule (vol. 2,
-  p. 235, «ཞག་ནག … གོང་དུ་ཟླ་ནག་བཤད་པ་ལྟར», found by T2.13), the weekday's rise against its
+  zla nag*, and vol. 1, pp. 183, 340, 343; the black days that follow their rule,
+  vol. 2, p. 235, are built by T2.13), the weekday's rise against its
   works (vol. 2, p. 312: «ཕྱུགས་གཟའ་དར་ཡང་ཕྱུགས་མི་སྐྱེལ»), WB's eclipse
   reckoning (vol. 1, p. 62 ff.), and where the seasonal signs are dated.
   Build each that is calculable in the month balloon; the weekday's rise,

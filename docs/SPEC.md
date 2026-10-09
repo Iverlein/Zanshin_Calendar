@@ -754,7 +754,10 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   *gnyan*, the only ones WB gives; the classes' own times; and the sky door
   of every date by the last figure of its number (the 1st, 11th and 21st
   the guests', … the 10th, 20th and 30th the general one), each door's own
-  work avoided (pp. 368–369). Keyed by the Chinese reckoning's season-month,
+  work avoided (pp. 368–369). Last, the black day (p. 235): the date's animal
+  the four-slayer of the month's, three either side, as WB reckons the
+  black months (vol. 1, p. 183), with the Paṇchen's black day by year as
+  another view. Keyed by the Chinese reckoning's season-month,
   which is also the animal month from the tiger (the 11th), by the date and,
   for *zin phung* and *gnam khyi*, by the date's animal; a skipped date has
   none, a doubled one both days, a leap month as its month

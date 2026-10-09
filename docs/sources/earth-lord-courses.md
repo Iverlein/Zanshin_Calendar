@@ -305,10 +305,18 @@ pp. 368–369 (from the etext: «མགྲོན་གྱི་གནམ་ས�
 > ད་ནི་ཞག་ནག་བཤད་པར་བྱ། །གོང་དུ་ཟླ་ནག་བཤད་པ་ལྟར། །འདི་ནི་ཟླ་བ་ཉི་མ་སྤྲད། །དཔེར་ན་བྱི་རྟའི་ཟླ་བ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་ཉི་མ་ནག
 
 The black days meet the month with the day as the black months meet the
-year with the month: their rule is the black months', which is planned
-with them (ROADMAP T2.21). The Paṇchen Mön'drowa's list by year that
-follows (mouse year, the 7th of the middle month of spring …) is another
-view. Not built here.
+year with the month. The black months' rule is WB's vol. 1, p. 183
+(etext): «གཞན་ཡང་ཟླ་བ་ནག་པོ་ནི། །གང་ཤར་ཟླ་བའི་བཞི་གཤེད་ནག། བྱི་རྟ་གནམ་ཤར་བྱ་ཡོས་ནག། གླང་ལུག་ཤར་ཚེ་ཁྱི་འབྲུག་ནག། སྟག་སྤྲེལ་ཤར་ན་ཕག་སྦྲུལ་ནག།», the
+four-slayer of the animal that rises, the animals three either side of it,
+which gives p. 235's own example (mouse and horse months, bird and hare
+days). **Built** (`ZHAG_NAG`): the date's animal against the month's, the
+tiger month the 11th. The Paṇchen Mön'drowa's list by year that follows
+(«བྱི་ལོ་དཔྱིད་འབྲིང་ཚེས་བདུན་ནག། གླང་ལོ་དཔྱིད་ཐའི་ཚེས་ལྔ་ནག། …», read on the scan) is
+built as another view, the year the Chinese reckoning's, which the model
+almanac begins with the 11th month. The results are those of the black
+hours (p. 236: a grave site, building, feasts, consecration, enthronement,
+teaching, a new land, a bride and all important works bad; fierce work
+strikes; a swastika and the sun and moon at the door).
 
 ## After p. 235
 
