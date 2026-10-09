@@ -124,6 +124,8 @@
     <string name="hours_period_good">to be accomplished</string>
     <string name="hours_period_bad">to be avoided</string>
     <string name="hours_period_sign">Rising sign</string>
+    <string name="hours_works_title">The works\' own hours</string>
+    <string name="hours_works_subtitle">%1$s rising, work by work</string>
     <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour after the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="pebble_subtitle_hour">%1$s: the hour\'s %2$s to your %3$s</string>

@@ -57,6 +57,7 @@ import zanshin.core.tibetan.TibetanDay
 import zanshin.core.texts.gloss
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
+import zanshin.core.texts.toneOf
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.risingSign
@@ -225,8 +226,10 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
 
             Column {
                 val sign = periods[selected]
-                val (periodTone, periodReading) = Texts.DUS_SBYOR.getValue(sign)
+                // The period's general reading, without the works whose own hours put them on the other side (SPEC §5.13).
+                val (periodTone, periodReading) = Texts.period(sign)
                 val title = stringResource(R.string.hours_period_title, sign.english)
+                val signDetail = stringResource(R.string.hours_period_sign) to Ewts.named(sign.english, sign.wylie)
                 AnnotationRow(
                     Annotation(
                         title,
@@ -234,10 +237,25 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                         periodTone,
                         periodReading,
                         titleIsKanji = false,
-                        details = listOf(stringResource(R.string.hours_period_sign) to Ewts.named(sign.english, sign.wylie)),
+                        details = listOf(signDetail),
                     ),
                     onOpen,
                 )
+                // The works' own hours: what WB's chapter 34 names for this sign, each work's particular case.
+                val works = Texts.WORKS_SIGN.getValue(sign)
+                if (works.goodKeys.isNotEmpty() || works.avoidKeys.isNotEmpty()) {
+                    AnnotationRow(
+                        Annotation(
+                            stringResource(R.string.hours_works_title),
+                            stringResource(R.string.hours_works_subtitle, sign.english),
+                            toneOf(works),
+                            works,
+                            titleIsKanji = false,
+                            details = listOf(signDetail),
+                        ),
+                        onOpen,
+                    )
+                }
                 // A nectar period falls in the first or second clock hour of a two-hour period.
                 nectar.filter { it / 2 == selected }.forEach { h ->
                     val nectarTitle = stringResource(R.string.tib_nectar_title)
