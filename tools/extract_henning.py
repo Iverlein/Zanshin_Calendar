@@ -13,8 +13,12 @@ Usage: tools/extract_henning.py pl_2000.txt pl_2026.txt ... > core/src/test/reso
 
 One row per calendar day: Gregorian date, Tibetan year, month, leap flag,
 lunar day, weekday, lunar mansion, element pair, yoga, karana, day animal,
-trigram, number, Chinese mansion of the solar day, festival text. Omitted
-lunar days produce no row; a repeated day produces two rows.
+trigram, number, Chinese mansion of the solar day, festival text, then four of
+the day's figures as Henning prints them (day;chu tshod,chu srang): the true
+weekday, whose chu tshod is the end of the lunar date (60,0 on the first of
+two equal dates, which no date ends), the moon at daybreak and the true sun,
+both in mansions, and the yoga's sum. Omitted lunar days produce no row; a
+repeated day produces two rows.
 """
 
 import re
@@ -26,6 +30,7 @@ MONTH = re.compile(r"^Tibetan Lunar Month: (\d+)(?: \((Intercalary|Delayed)\))? 
 YEAR = re.compile(r"^New Year: (\d+),")
 SECOND = re.compile(r"^\s+([^,]+), ([^,]+), (\w+), (\w+) (\d)$")
 SOLAR = re.compile(r"^\s+Solar: [\w-]+\. (\w+) \d$")
+FIGURES = re.compile(r"^\s+(\d+;\d+,\d+) (\d+;\d+,\d+) (\d+;\d+,\d+) (\d+;\d+,\d+) \d+;\d+,\d+$")
 
 rows = []
 for path in sys.argv[1:]:
@@ -40,10 +45,12 @@ for path in sys.argv[1:]:
         elif m := DAY.match(line):
             date = datetime.strptime(m.group(5), "%d %b %Y").date().isoformat()
             current = [date, year, month, int(leap), int(m.group(1)), m.group(2), m.group(3), m.group(4)]
-            current += ["", "", "", "", "", "", ""]
+            current += ["", "", "", "", "", "", "", "", "", "", ""]
             rows.append(current)
         elif current and (m := SECOND.match(line)) and current[8] == "":
             current[8:13] = [m.group(1), m.group(2), m.group(3), m.group(4), m.group(5)]
+        elif current and (m := FIGURES.match(line)):
+            current[15:19] = list(m.groups())
         elif current and (m := SOLAR.match(line)):
             current[13] = m.group(1)
         elif current and line.startswith("  ") and line.strip()[:1].isalpha() and not line.strip().startswith("Solar:"):
@@ -51,6 +58,6 @@ for path in sys.argv[1:]:
 
 print("# Phugpa calendar days computed by Edward Henning, Traditional Tibetan calendar archive,")
 print("# http://www.kalacakra.org/calendar/tiblist.htm — extracted by tools/extract_henning.py.")
-print("# date\tyear\tmonth\tleap\tday\tweekday\tmansion\telements\tyoga\tkarana\tanimal\ttrigram\tnumber\tchinese_mansion\tfestival")
+print("# date\tyear\tmonth\tleap\tday\tweekday\tmansion\telements\tyoga\tkarana\tanimal\ttrigram\tnumber\tchinese_mansion\tfestival\tweekday_figure\tmoon\tsun\tyoga_figure")
 for r in sorted(rows, key=lambda r: r[0]):
     print("\t".join(str(x) for x in r))
