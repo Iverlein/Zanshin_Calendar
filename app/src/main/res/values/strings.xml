@@ -90,8 +90,8 @@
     <string name="tib_lunar_date_subtitle">five-fold cycle: %1$s</string>
     <!-- a detail row of the lunar date's reading: what washing the hair on the date brings (the White Beryl, p. 404) -->
     <string name="detail_hair_washing">Washing the hair</string>
-    <!-- a detail row of a yoga's reading: the name the White Beryl gives it, in Wylie -->
-    <string name="detail_white_beryl">In the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po)</string>
+    <!-- a detail row of a yoga's or karaṇa's reading: the name the White Beryl gives it, where it differs from the almanacs' -->
+    <string name="detail_also_called">Also called</string>
     <string name="section_almanac">Almanac</string>
     <!-- The works' verdicts (ROADMAP U6): the haircut's row, above the Almanac -->
     <string name="section_works">Works</string>
@@ -128,8 +128,8 @@
     <string name="hours_period_sign">Rising sign</string>
     <string name="hours_works_title">The works\' own hours</string>
     <string name="hours_works_subtitle">%1$s rising, work by work</string>
-    <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour after the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
-    <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
+    <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour, coloured lucky where its reading says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
+    <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where its reading says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="pebble_subtitle_hour">%1$s: the hour\'s %2$s to your %3$s</string>
     <string name="detail_hour">Hour</string>
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
@@ -259,7 +259,9 @@
     <string name="about_astronomy_title">Sun and moon</string>
     <string name="about_astronomy">Jean Meeus, “Astronomical Algorithms” (2nd ed., 1998): new moons from chapter 49, the sun from the VSOP87D series of Bretagnon and Francou, ΔT from the polynomials of Espenak and Meeus (NASA). Everything is computed on this phone; the app has no internet access.</string>
     <string name="about_readings_title">Readings</string>
-    <string name="about_readings">The readings come from these sources; the repository names the source of each one. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, 十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: the translation of the hair-cutting days by Lama Zopa Rinpoche (བླ་མ་བཟོད་པ་རིན་པོ་ཆེ, bla ma bzod pa rin po che), FPMT, 2008; Edition Rabten\'s Tibetan calendar; Edward Henning\'s symbolic details of the calendar and his electional astrology of the five components (the lunar mansions and the activity lists); and the Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu\'i phan yon gsol \'debs) by Jigme Lingpa (འཇིགས་མེད་གླིང་པ, \'jigs med gling pa) from Lotsawa House; the colours and arrangement of the nine numbers from Alexander Berzin\'s Details of Tibetan Astrology (Study Buddhism); the four aspects and the pebbles of the day, month and year from the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho) with the Moonbeams (ཟླ་བའི་འོད་ཟེར, zla ba\'i \'od zer) of Lochen Dharmashri (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI). Readings not adapted from Wikipedia are the app\'s own English summaries of the cited sources, under the app\'s licence.</string>
+    <string name="about_readings">The readings come from these sources; the project\'s documentation, below, names the source of each one. Japanese: こよみ博物館 of the almanac publisher Todan (六曜, 十二直, 二十八宿); Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待), whose adapted text is licensed CC BY-SA 4.0; NAOJ 暦Wiki (雑節, 節句, 十三夜); the dictionaries on Kotobank. Tibetan: the translation of the hair-cutting days by Lama Zopa Rinpoche (བླ་མ་བཟོད་པ་རིན་པོ་ཆེ, bla ma bzod pa rin po che), FPMT, 2008; Edition Rabten\'s Tibetan calendar; Edward Henning\'s symbolic details of the calendar and his electional astrology of the five components (the lunar mansions and the activity lists); and the Prayer Invoking the Benefits of the Festival of the Tenth Day (ཚེས་བཅུའི་ཕན་ཡོན་གསོལ་འདེབས, tshes bcu\'i phan yon gsol \'debs) by Jigme Lingpa (འཇིགས་མེད་གླིང་པ, \'jigs med gling pa) from Lotsawa House; the colours and arrangement of the nine numbers from Alexander Berzin\'s Details of Tibetan Astrology (Study Buddhism); the four aspects and the pebbles of the day, month and year from the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho) with the Moonbeams (ཟླ་བའི་འོད་ཟེར, zla ba\'i \'od zer) of Lochen Dharmashri (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI). Readings not adapted from Wikipedia are the app\'s own English summaries of the cited sources, under the app\'s licence.</string>
+    <string name="about_docs_title">Documentation</string>
+    <string name="about_docs">The day pages and the reading sheets give the readings, not their sources. Each reading\'s source, with its pages, and the passages it rests on are in the project\'s repository: the source of every reading in the catalog (core/src/main/kotlin/zanshin/core/texts/Texts.kt), the Tibetan texts as read in docs/sources/, and the rules in docs/SPEC.md.</string>
     <string name="about_tibetan_script_title">Tibetan</string>
     <string name="about_tibetan_script">Tibetan terms are written in Tibetan script from their Wylie spelling, checked against the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) of Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho); their pronunciation follows the THL Simplified Phonetic Transcription of Standard Tibetan (David Germano and Nicolas Tournadre, 2003).</string>
     <string name="about_glyphs_title">Glyphs</string>
@@ -304,19 +306,19 @@
     <string name="brief_for_you">For you</string>
     <string name="brief_birth_star">birth star and day star: %1$s</string>
     <!-- the Tibetan brief's For you block: which of the day's factors is one's own, the weekday or the mansion: "Wednesday, for your birth year" -->
-    <string name="brief_personal_not_weighed">Shown, not weighed. The White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) calls a person\'s own weekdays and mansions of particular importance, but neither it nor any other text found places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
+    <string name="brief_personal_not_weighed">Shown, not weighed. A person\'s own weekdays and mansions are of particular importance, but no rule places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
     <!-- E6 (SPEC §5.12): on the person's enemy weekday and death mansion the White Beryl avoids every work; shown beside the day's tone, and in For you -->
     <string name="brief_avoid_all">every work to avoid, for you</string>
     <string name="brief_avoid_all_title">Every work to avoid, for you</string>
-    <string name="brief_avoid_all_enemy">“On the enemy weekday (དགྲ་གཟའ, dgra gza\') of one\'s element every work is to be avoided”: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, p. 338.</string>
-    <string name="brief_avoid_all_death">“On the death mansion (འཆི་བའི་སྐར་མ, \'chi ba\'i skar ma) anything is bad”: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, p. 338. Your slayer mansion (གཤེད་སྐར, gshed skar) is the death mansion.</string>
-    <string name="brief_avoid_all_note">The White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes the enemy weekday and the death mansion absolute for you, so the brief gives you no list of good works today; the day\'s tone, its works to avoid and its hours stand as weighed above. Your other days are shown, not weighed: no text found places them against the combination of weekday and mansion.</string>
+    <string name="brief_avoid_all_enemy">On the enemy weekday (དགྲ་གཟའ, dgra gza\') of one\'s element every work is to be avoided.</string>
+    <string name="brief_avoid_all_death">On the death mansion (འཆི་བའི་སྐར་མ, \'chi ba\'i skar ma) anything is bad. Your slayer mansion (གཤེད་སྐར, gshed skar) is the death mansion.</string>
+    <string name="brief_avoid_all_note">The enemy weekday and the death mansion are absolute for you, so the brief gives you no list of good works today; the day\'s tone, its works to avoid and its hours stand as weighed above. Your other days are shown, not weighed: no rule places them against the combination of weekday and mansion.</string>
     <!-- the Tibetan brief's By the hour block (SPEC §10.3): the day's combination periods by verdict and the nectar periods, each time opening the hours -->
     <string name="brief_by_hour">By the hour</string>
     <string name="brief_hours_good">Combination period, to be accomplished</string>
     <string name="brief_hours_bad">Combination period, to be avoided</string>
-    <string name="brief_hours_note">Within its hour the combination period, the sign then rising, outweighs every factor of the day: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) holds the work of planet, mansion, karaṇa and yoga complete in its house (vol. 2, p. 376). What its reading names good or to avoid stands above the day\'s lists while the hour lasts. The nectar periods are shown, not weighed. Tap a time to open its hour.</string>
-    <string name="brief_note">Listed as the sources give them. No published rule ranks one kind of annotation above another, so the kinds are not weighed; where they disagree, both are shown. Only the lower band\'s own rules set some notes aside.</string>
+    <string name="brief_hours_note">Within its hour the combination period, the sign then rising, outweighs every factor of the day: the work of planet, mansion, karaṇa and yoga is complete in its house. What its reading names good or to avoid stands above the day\'s lists while the hour lasts. The nectar periods are shown, not weighed. Tap a time to open its hour.</string>
+    <string name="brief_note">No published rule ranks one kind of annotation above another, so the kinds are not weighed; where they disagree, both are shown. Only the lower band\'s own rules set some notes aside.</string>
     <string name="brief_set_aside">Set aside</string>
     <string name="brief_set_aside_alone">stands alone in the lower band; these do not count today</string>
     <string name="brief_set_aside_lifted">names the day good, so this light bad day need not be kept</string>
@@ -350,18 +352,18 @@
     <string name="hours_row_now">now · %1$s %2$s · %3$s rises · %4$s</string>
     <string name="hours_strip_description">The twelve hours from 05:00, each coloured by its combination period</string>
     <string name="brief_festival_note">The tone is the day\'s for its works; it does not weigh the merit of the festival or observance.</string>
-    <string name="brief_note_tibetan">Weighed as the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) and the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long) say, by one rule for the day and for each work. Where the named combination of weekday and mansion and the element pair agree, the combination is the day\'s result, and what any other factor says against it is outweighed, even where the weekday and the mansion agree; it decides a work only where the element pair names it, so a lucky day keeps the date\'s and the weekday\'s prohibitions. Where the two disagree, and for every other work, the strongest factor that takes a side decides, in this order: Rāhu, the weekday, the mansion, the special days of weekday and mansion (one voice, and none when they disagree), the date, the karaṇa, the yoga and the day animal. The White Beryl weighs mixed factors by their strength, not by their number. Rāhu, the mansion and the day animal have no tone of their own and decide only the works they name; the trigram decides only works no other factor names. Outweighed factors are not shown.</string>
+    <string name="brief_note_tibetan">Weighed by one rule for the day and for each work. Where the named combination of weekday and mansion and the element pair agree, the combination is the day\'s result, and what any other factor says against it is outweighed, even where the weekday and the mansion agree; it decides a work only where the element pair names it, so a lucky day keeps the date\'s and the weekday\'s prohibitions. Where the two disagree, and for every other work, the strongest factor that takes a side decides, in this order: Rāhu, the weekday, the mansion, the special days of weekday and mansion (one voice, and none when they disagree), the date, the karaṇa, the yoga and the day animal. Mixed factors are weighed by their strength, not by their number. Rāhu, the mansion and the day animal have no tone of their own and decide only the works they name; the trigram decides only works no other factor names. Outweighed factors are not shown.</string>
     <!-- the combination's one row (ROADMAP U1): its two parts, the named combination and the element pair, and whether they agree -->
     <string name="tib_combination_title">Combination</string>
     <string name="tib_combination_both_lucky">%1$s · %2$s: both lucky</string>
     <string name="tib_combination_both_unlucky">%1$s · %2$s: both unlucky</string>
     <string name="tib_combination_disagree">%1$s · %2$s: the parts disagree, no tone</string>
-    <string name="tib_combination_note">One voice in the weighing: the named combination of weekday and mansion and its element pair. Where the two agree, the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes the combination the day\'s result, outweighing every other factor, even a good weekday and mansion (vol. 2, p. 333); where they disagree it has no tone, and the strongest factor that takes a side decides the day.</string>
+    <string name="tib_combination_note">One voice in the weighing: the named combination of weekday and mansion and its element pair. Where the two agree, the combination is the day\'s result, outweighing every other factor, even a good weekday and mansion; where they disagree it has no tone, and the strongest factor that takes a side decides the day.</string>
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
     <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the Vajra Treatise (རྡོ་རྗེ་གཙུག་ལག, rdo rje gtsug lag): %1$s</string>
     <string name="tib_special_days_title">Special days</string>
-    <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) puts the special days of weekday and mansion below the weekday and the mansion, whose own results are the main thing, and its almanac writes the burning date with them.</string>
+    <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the special days of weekday and mansion stand below the weekday and the mansion, whose own results are the main thing, and the almanac writes the burning date with them.</string>
     <string name="tib_burning_date_subtitle">burning date of weekday and date: %1$s</string>
     <string name="tib_rahu_courses">its courses by date and by month</string>
     <string name="tib_bla_mkhyen_title">The astrologer spirit (བླ་མཁྱེན, bla mkhyen)</string>
@@ -388,7 +390,7 @@
     <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
     <string name="tib_rahu_season_subtitle">seeking food among the earth lords (ས་བདག, sa bdag) in %1$s: good for fierce work</string>
     <string name="tib_earth_lords_title">The earth lords\' courses</string>
-    <string name="tib_earth_lords_note">The earth lords (ས་བདག, sa bdag) that the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) moves by date, as its almanac writes them on the day: shown and not weighed, since its order of strength does not rank them.</string>
+    <string name="tib_earth_lords_note">The earth lords (ས་བདག, sa bdag) that move by date, as the almanac writes them on the day: shown and not weighed, since the order of strength does not rank them.</string>
     <!-- Rāhu's compass (SPEC §10.7): the caption under it in the sheet; %1$d is the lunar date, %2$s and %3$s directions -->
     <string name="rahu_course_detailed">Date %1$d, the detailed course: %2$s → %3$s</string>
     <string name="rahu_course_general">Date %1$d, the general course: %2$s → %3$s</string>
@@ -506,12 +508,10 @@
     <!-- the Haircut row, weighed (SPEC §10.3): "good · by Tuesday"; %1$s is brief_good or brief_avoid, %2$s the factor that decides -->
     <string name="haircut_by">%1$s · by %2$s</string>
     <!-- the Haircut sheet's note; %1$s lists the factors standing on the decided side, strongest first -->
-    <string name="haircut_note">Weighed as the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says: the strongest factor that names haircuts decides, here %1$s.</string>
-    <string name="haircut_date_agrees">the date\'s own day (FPMT), in agreement</string>
+    <string name="haircut_note">Weighed by one rule: the strongest factor that names haircuts decides, here %1$s.</string>
+    <string name="haircut_date_agrees">the date\'s own day, in agreement</string>
     <!-- %1$s is the factor that outweighs it -->
-    <string name="haircut_date_outweighed">the date\'s own day (FPMT), outweighed by %1$s</string>
-    <!-- a detail row of the date's own day in the Haircut sheet, under detail_white_beryl (ROADMAP T2.15) -->
-    <string name="haircut_not_white_beryl">No haircut results by date. Its thirty hair dates are for washing the hair (p. 404), and stand with the lunar date.</string>
+    <string name="haircut_date_outweighed">the date\'s own day, outweighed by %1$s</string>
     <!-- V3 diagrams of the Tibetan rows (SPEC §10.7) -->
     <string name="desc_combination_table">The 28 named combinations of weekday and mansion, today\'s marked</string>
     <string name="combination_table_axes">Rows: the weekday · columns: the mansion, Aśvinī first</string>
@@ -557,9 +557,9 @@
     <string name="election_choose_work">Choose a day: %1$s</string>
     <!-- %1$s: the clock hours of the nectar periods -->
     <string name="election_nectar">Nectar periods %1$s</string>
-    <string name="election_order_note">The days are ordered by the strength the texts give. First those on which the combination of weekday and mansion makes the work good: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes it the result even where the planet and the mansion are each good (vol. 2, p. 333). Then by the strongest factor naming the work good, in the order of vol. 2, p. 376: Rāhu, the weekday, the mansion, the special days, the lunar date, the karaṇa, the yoga, the day animal, the trigram; within one rank a day whose combination is lucky comes first. Past that the order is the app\'s own: the sum of the weights of the factors on the work\'s side, ten for the combination down to one for the trigram, then the earlier day. Each day is weighed as its own page weighs it; a day no factor names is blank, not neutral.</string>
-    <string name="election_hours_note">The combination period follows the month and the hour only, so every day of a Tibetan month has the same hours (the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), §9); the reading of the sign then rising names the work good or to avoid (the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, pp. 371–376), and where the White Beryl\'s chapter on the works names the work\'s own signs, they come first, as its particular case (pp. 385–428). The hours say when within a day, never which day: a day to avoid is not offered for its good hours.</string>
-    <string name="election_for_you_note">A ring marks your enemy weekday or your death mansion: on them the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) avoids every work (vol. 2, p. 338), so they are not offered. Your other days are marked and not weighed.</string>
+    <string name="election_order_note">The days are ordered by strength. First those on which the combination of weekday and mansion makes the work good: it is the result even where the planet and the mansion are each good. Then by the strongest factor naming the work good, in this order: Rāhu, the weekday, the mansion, the special days, the lunar date, the karaṇa, the yoga, the day animal, the trigram; within one rank a day whose combination is lucky comes first. Past that the order is the app\'s own: the sum of the weights of the factors on the work\'s side, ten for the combination down to one for the trigram, then the earlier day. Each day is weighed as its own page weighs it; a day no factor names is blank, not neutral.</string>
+    <string name="election_hours_note">The combination period follows the month and the hour only, so every day of a Tibetan month has the same hours; the reading of the sign then rising names the work good or to avoid, and where the work has rising signs of its own, they come first, as its particular case. The hours say when within a day, never which day: a day to avoid is not offered for its good hours.</string>
+    <string name="election_for_you_note">A ring marks your enemy weekday or your death mansion: on them every work is avoided, so they are not offered. Your other days are marked and not weighed.</string>
     <!-- describes a month's grid for screen readers: %1$s the month, %2$s the work -->
     <string name="desc_election_grid">The days of the %1$s for %2$s: green good, red to avoid, a dot without colour where no factor names it</string>
 

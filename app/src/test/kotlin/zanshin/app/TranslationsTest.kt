@@ -135,7 +135,32 @@ class TranslationsTest {
         assertEquals("", wrong.joinToString("\n"))
     }
 
+    /**
+     * SPEC §8.1: the interface names no source either, no title, author,
+     * page or chapter; About & sources (the `about_` strings) lists them.
+     */
+    @Test
+    fun `the interface names no source`() {
+        val wrong = mutableListOf<String>()
+        for (file in listOf(File(res, "values/strings.xml")) + translations) {
+            val nodes = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(file).getElementsByTagName("string")
+            for (i in 0 until nodes.length) {
+                val e = nodes.item(i) as Element
+                val name = e.getAttribute("name")
+                if (name.startsWith("about_")) continue
+                CITATION.find(e.textContent)?.let { wrong += "${file.parentFile.name} $name: ${it.value}" }
+            }
+        }
+        assertEquals("", wrong.joinToString("\n"))
+    }
+
     private companion object {
+        /** What a citation looks like, in English and Russian: a source's name, a page or volume. */
+        val CITATION = Regex(
+            "White Beryl|All-Benefiting Mirror|Moonbeams|Henning|Berzin|Janson|FPMT|Hoki|Wikipedia|Kotobank|(?<!\\p{L})(?:vol|pp?)\\. \\d|" +
+                "[Бб]ерилл|[Зз]ерцал|Хоки|Википеди|(?<!\\p{L})(?:т|сс?)\\. \\d",
+        )
+
         /** Wylie that is also an English word, left out of the check: the fire element's *me*. */
         val ALSO_ENGLISH = setOf("me")
 

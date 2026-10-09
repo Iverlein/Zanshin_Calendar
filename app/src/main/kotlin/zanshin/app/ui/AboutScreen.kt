@@ -24,7 +24,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.LinkAnnotation
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextLinkStyles
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withLink
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
@@ -35,12 +40,16 @@ private val SECTIONS = listOf(
     R.string.about_rekichu_title to R.string.about_rekichu,
     R.string.about_astronomy_title to R.string.about_astronomy,
     R.string.about_readings_title to R.string.about_readings,
+    R.string.about_docs_title to R.string.about_docs,
     R.string.about_tibetan_script_title to R.string.about_tibetan_script,
     R.string.about_glyphs_title to R.string.about_glyphs,
     R.string.about_cities_title to R.string.about_cities,
     R.string.about_fonts_title to R.string.about_fonts,
     R.string.about_licence_title to R.string.about_licence,
 )
+
+/** Where each reading's source is kept, since the sheets name none (SPEC §8.1); a link opens the browser. */
+private const val REPOSITORY = "https://github.com/Iverlein/Zanshin_Calendar"
 
 @Composable
 fun AboutScreen(onBack: () -> Unit) {
@@ -63,6 +72,14 @@ fun AboutScreen(onBack: () -> Unit) {
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(title, style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, fontFamily = if (title == "旧暦") Mincho else Figtree))
                     Text(withTibetan(stringResource(textId)), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
+                    if (textId == R.string.about_docs) {
+                        Text(
+                            buildAnnotatedString {
+                                withLink(LinkAnnotation.Url(REPOSITORY, TextLinkStyles(SpanStyle(color = Palette.saffron)))) { append(REPOSITORY) }
+                            },
+                            style = body.copy(lineHeight = 22.sp),
+                        )
+                    }
                 }
             }
         }

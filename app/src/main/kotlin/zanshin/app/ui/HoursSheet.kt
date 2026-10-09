@@ -323,7 +323,7 @@ fun HoursSheet(
                             Texts.KARANA_TONE.getValue(Karana.VISHTI),
                             Texts.KARANA[Karana.VISHTI],
                             titleIsKanji = false,
-                            details = listOf(stringResource(R.string.detail_white_beryl) to vScript),
+                            details = listOf(stringResource(R.string.row_tibetan) to vScript),
                         ),
                         onOpen,
                     )
@@ -338,7 +338,7 @@ fun HoursSheet(
                             Tone.BAD,
                             Texts.BLACK_HOUR,
                             titleIsKanji = false,
-                            details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(stringResource(R.string.hours_black_title), "dus tshod nag")),
+                            details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_black_title), "dus tshod nag")),
                         ),
                         onOpen,
                     )
@@ -352,7 +352,7 @@ fun HoursSheet(
                         Texts.HOUR_EARTH_LORDS,
                         titleIsKanji = false,
                         details = listOf(
-                            stringResource(R.string.detail_white_beryl) to listOf(
+                            stringResource(R.string.row_tibetan) to listOf(
                                 "Yudzö Ngönmo" to "g.yu mdzod sngon mo", "Khangtsek" to "khang brtsegs", "Tsongön" to "mtsho sngon",
                             ).joinToString(" · ") { (n, w) -> Ewts.named(n, w) },
                         ),
@@ -367,7 +367,7 @@ fun HoursSheet(
                         Tone.NEUTRAL,
                         Texts.HOUR_BLA_MKHYEN,
                         titleIsKanji = false,
-                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(blaMkhyenTitle, "dus tshod bla mkhyen")),
+                        details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(blaMkhyenTitle, "dus tshod bla mkhyen")),
                     ),
                     onOpen,
                 )
@@ -379,7 +379,7 @@ fun HoursSheet(
                         Tone.NEUTRAL,
                         Texts.HOUR_SA_RGYAL,
                         titleIsKanji = false,
-                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(saRgyalTitle, "dus tshod sa rgyal")),
+                        details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(saRgyalTitle, "dus tshod sa rgyal")),
                     ),
                     onOpen,
                 )
@@ -393,7 +393,7 @@ fun HoursSheet(
                             Tone.NEUTRAL,
                             Texts.HOUR_SA_RGYAL_OTHER,
                             titleIsKanji = false,
-                            details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(stringResource(R.string.hours_sa_rgyal_title), "dus tshod sa rgyal")),
+                            details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_sa_rgyal_title), "dus tshod sa rgyal")),
                         ),
                         onOpen,
                     )
@@ -407,7 +407,7 @@ fun HoursSheet(
                         Tone.NEUTRAL,
                         Texts.HOUR_HIDDEN.getValue(hourAnimal),
                         titleIsKanji = false,
-                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(hiddenName, EarthLordCourses.HIDDEN_LORDS.getValue(hourAnimal))),
+                        details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(hiddenName, EarthLordCourses.HIDDEN_LORDS.getValue(hourAnimal))),
                     ),
                     onOpen,
                 )
@@ -420,7 +420,7 @@ fun HoursSheet(
                         Tone.NEUTRAL,
                         Texts.HOUR_GNAM_KHYI,
                         titleIsKanji = false,
-                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(dogTitle, "dus tshod gnam khyi")),
+                        details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(dogTitle, "dus tshod gnam khyi")),
                     ),
                     onOpen,
                 )

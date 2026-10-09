@@ -281,9 +281,9 @@ fun TibetanPage(
         val weekdaySubtitle = stringResource(R.string.tib_weekday_subtitle, day.weekday.planet)
         val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
         val lunarDateSubtitle = stringResource(R.string.tib_lunar_date_subtitle, LunarDayClass.of(day.day).english)
-        val whiteBerylLabel = stringResource(R.string.detail_white_beryl)
+        val tibetanLabel = stringResource(R.string.row_tibetan)
+        val alsoCalledLabel = stringResource(R.string.detail_also_called)
         val hairWashingLabel = stringResource(R.string.detail_hair_washing)
-        val haircutNotWhiteBeryl = stringResource(R.string.haircut_not_white_beryl)
         val rahuTitle = stringResource(R.string.tib_rahu_title)
         val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
         val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
@@ -353,7 +353,7 @@ fun TibetanPage(
                     Texts.ownDayTone(it),
                     Texts.OWN_DAY[it],
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
+                    details = listOf(tibetanLabel to Ewts.named(it.english, it.wylie)),
                 )
             }
             when (weekdayRoles.size) {
@@ -380,7 +380,7 @@ fun TibetanPage(
                         Texts.PERSONAL_MANSION[it],
                         subtitle = personalMansionSubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
+                        details = listOf(tibetanLabel to Ewts.named(it.english, it.wylie)),
                     ),
                 )
             }
@@ -393,7 +393,7 @@ fun TibetanPage(
                         Texts.OWN_DAY[it],
                         subtitle = birthMansionSubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to Ewts.named(it.english, it.wylie)),
+                        details = listOf(tibetanLabel to Ewts.named(it.english, it.wylie)),
                     ),
                 )
             }
@@ -422,7 +422,7 @@ fun TibetanPage(
                     Texts.GREAT_COMBINATION[great],
                     subtitle = greatCombinationSubtitle,
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to greatScript),
+                    details = listOf(tibetanLabel to greatScript),
                     diagram = { CombinationTable(day.weekday, day.mansion) },
                 ),
                 Annotation(
@@ -499,7 +499,7 @@ fun TibetanPage(
                     if (gtsugLag) Texts.GTSUG_LAG_DAY[c] else Texts.COMBINATION_DAY[c],
                     subtitle = if (gtsugLag) gtsugLagDaySubtitle else combinationDaySubtitle,
                     titleIsKanji = false,
-                    details = listOf(whiteBerylLabel to cScript),
+                    details = listOf(tibetanLabel to cScript),
                 )
             } + listOfNotNull(
                 // The burning date stands with them, as in the White Beryl's almanac (SPEC §5.12).
@@ -512,7 +512,7 @@ fun TibetanPage(
                         Texts.BURNING_DATE,
                         subtitle = burningDateSubtitle,
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to bScript),
+                        details = listOf(tibetanLabel to bScript),
                     )
                 } else {
                     null
@@ -527,7 +527,7 @@ fun TibetanPage(
                         Texts.BURNING_DATE,
                         subtitle = labels.string(R.string.tib_burning_from_subtitle, labels.ordinal(day.day % 30 + 1), clockOf(from, labels)),
                         titleIsKanji = false,
-                        details = listOf(whiteBerylLabel to bScript, stringResource(R.string.detail_burning_hook) to stringResource(R.string.burning_hook)),
+                        details = listOf(tibetanLabel to bScript, stringResource(R.string.detail_burning_hook) to stringResource(R.string.burning_hook)),
                     )
                 },
             )
@@ -572,7 +572,7 @@ fun TibetanPage(
                     subtitle = (listOf(karanaSubtitle) + listOfNotNull(visti?.let { if (day.karana == Karana.VISHTI) spanOf(timeOf(it.start), timeOf(it.end)) else vistiSpan(timeOf(it.start), timeOf(it.end)) })).joinToString(" · "),
                     titleIsKanji = false,
                     tibetan = day.karana.wylie to day.karana.english,
-                    details = listOf(whiteBerylLabel to Ewts.named(day.karana.english, day.karana.whiteBeryl)) +
+                    details = listOfNotNull(day.karana.takeIf { it.whiteBeryl != it.wylie }?.let { alsoCalledLabel to Ewts.named(it.english, it.whiteBeryl) }) +
                         listOfNotNull(visti?.let { vistiLabel to detailSpan(Ewts.named(Karana.VISHTI.english, Karana.VISHTI.whiteBeryl), timeOf(it.start), timeOf(it.end)) }),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
                     diagram = { KaranaRing(day.karana, 280.dp) },
@@ -588,7 +588,7 @@ fun TibetanPage(
                     subtitle = (listOf(yogaSubtitle) + skippedYogas.map { yogaSkipped(it.what.sanskrit, timeOf(it.at), timeOf(it.until!!)) }).joinToString(" · "),
                     titleIsKanji = false,
                     tibetan = day.yoga.wylie to day.yoga.english,
-                    details = listOf(whiteBerylLabel to Ewts.named(day.yoga.english, day.yoga.whiteBeryl)) +
+                    details = listOfNotNull(day.yoga.takeIf { it.whiteBeryl != it.wylie }?.let { alsoCalledLabel to Ewts.named(it.english, it.whiteBeryl) }) +
                         skippedYogas.map { skippedYogaLabel to detailSpan(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at), timeOf(it.until!!)) },
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
                     diagram = { YogaRing(day.yoga, 280.dp) },
@@ -598,7 +598,7 @@ fun TibetanPage(
         }
         // Works (ROADMAP U6): a work's verdict, not a voice, so apart from the Almanac and before it. The haircut
         // weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the date is one of the date's
-        // lists, shown in the sheet as such, outweighed where it is, and marked as not WB's (T2.15).
+        // lists, shown in the sheet as such, outweighed where it is (T2.15).
         val haircut = Texts.HAIRCUT[day.day - 1]
         val dateDay = Annotation(
             haircutDateTitle,
@@ -606,7 +606,6 @@ fun TibetanPage(
             haircutDateTone,
             haircut,
             titleIsKanji = false,
-            details = listOf(whiteBerylLabel to haircutNotWhiteBeryl),
         )
         val haircutGrid: @Composable () -> Unit = { HaircutGrid(day, info.date) }
         val haircutRow = if (haircutTone == null || haircutBy == null) {
@@ -697,7 +696,7 @@ fun TibetanPage(
                 toneOf(Texts.earthLord(c)),
                 Texts.earthLord(c),
                 titleIsKanji = false,
-                details = listOf(whiteBerylLabel to Ewts.named(name, c.course.wylie)),
+                details = listOf(tibetanLabel to Ewts.named(name, c.course.wylie)),
             )
         }
         AnnotationRow(
@@ -754,7 +753,7 @@ fun TibetanPage(
                 Tone.NEUTRAL,
                 Texts.TRIGRAM[day.trigram],
                 titleIsKanji = false,
-                details = listOf(whiteBerylLabel to goddessScript),
+                details = listOf(tibetanLabel to goddessScript),
             )
             FactRow(
                 stringResource(R.string.row_trigram),
