@@ -87,9 +87,6 @@ import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Karana
-import java.time.Duration
-import java.time.LocalTime
-import java.time.ZonedDateTime
 import zanshin.core.tibetan.element
 
 private enum class TibetanBalloon { MONTH, YEAR }
@@ -101,7 +98,6 @@ fun TibetanPage(
     zone: ZoneId,
     modifier: Modifier = Modifier,
     person: Person? = null,
-    sunset: ZonedDateTime? = null,
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -120,10 +116,10 @@ fun TibetanPage(
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }
-    // The times within the day (SPEC §5.8): WB writes a second mansion that comes in daytime, before the
-    // place's sunset or, with no place set, before the six day hours end at 17:00.
+    // The times within the day (SPEC §5.8): WB writes a second mansion that comes in daytime, and marks a burning
+    // date begun in it, the day's length its own by the sun (vol. 1, p. 182).
     val next = remember(day.jd) { TibetanCalendar.of(day.jd + 1) }
-    val nightfall = sunset?.let { Duration.between(info.date.atTime(LocalTime.of(5, 0)).atZone(zone), it).toMinutes() / 24.0 } ?: 30.0
+    val nightfall = remember(day.jd) { DayTimes.dayLength(day) }
     val secondMansions = remember(day.jd, nightfall) { DayTimes.mansions(day, next).filter { it.at < nightfall } }
     val skippedYogas = remember(day.jd) { DayTimes.skippedYogas(day, next) }
     val visti = remember(day.jd) { DayTimes.visti(day) }
