@@ -336,12 +336,18 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   *dong tse rgya bzhi*).
 - **The hour's *bla mkhyen*** (p. 235): «དུས་ཚོད་བླ་མཁྱེན་དུས་ལོ་ཡི། །མཐུན་གསུམ་ཀླུང་རྟའི་སྟེང་ན་གནས། །འཛེམ་བཅོས་ལོ་ལྟར་ཤེས་པར་བྱ།»
   On the *klung rta* of the hour's triad, its avoidances and remedies as
-  the year's. **Not built:** WB names the *klung rta*'s animal for one
-  triad only, the tiger, horse and dog's iron monkey (vol. 2, notes,
-  p. 487: «སྟག་རྟ་ཁྱི་གསུམ་གྱི་ཀླུང་རྟ་ལྕགས་སྤྲེལ»); the others' animals were
-  not found in either volume's etext (searched for «ཀླུང་རྟ» with the
-  triads and the element-animals), and the app's *klung rta* is an
-  element (§5.9), which does not give a place.
+  the year's. WB names each triad's *klung rta* in vol. 1, p. 254 (img. 264,
+  read with both readers, who agree): «ཀླུང་རྟ་ངོས་འཛིན་བསྟན་བྱ་བ། །སྟག་རྟ་ཁྱི་གསུམ་ཀླུང་སྤྲེལ་ལྕགས། །ཕག་ལུག་ཡོས་གསུམ་ཀླུང་སྦྲུལ་མེ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཀླུང་སྟག་ཤིང་། །བྱ་གླང་སྦྲུལ་གསུམ་ཀླུང་ཕག་ཆུ། །དེ་དག་ཕྱོགས་ལ་གནས་པའི་ཚུལ། །ཤར་སྟོད་སྟག་ལ་ཤར་སྨད་ཡོས། །ཤར་ལྷོ་འབྲུག་ལ་ལྷོ་སྟོད་སྦྲུལ། །ལྷོ་སྨད་རྟ་ལ་ལྷོ་ནུབ་ལུག །ནུབ་སྟོད་སྤྲེའུ་ནུབ་སྨད་བྱ། །ནུབ་བྱང་ཁྱི་ལ་བྱང་སྟོད་ཕག །བྱང་སྨད་བྱི་བ་བྱང་ཤར་གླང་།»:
+  the tiger, horse and dog's the iron monkey, the pig, sheep and hare's the
+  fire snake, the mouse, dragon and monkey's the wood tiger, the bird, ox
+  and snake's the water pig (the notes, vol. 2, p. 487, repeat the first),
+  and the twelve animals' places, tiger upper east, hare lower east,
+  dragon south-east, snake upper south, horse lower south, sheep
+  south-west, monkey upper west, bird lower west, dog north-west, pig upper
+  north, mouse lower north, ox north-east. **Built** (`EarthLordCourses.hourBlaMkhyen`,
+  `Texts.HOUR_BLA_MKHYEN`, on the hours panel), the year's avoidances and
+  remedies as `BLA_MKHYEN` has them (p. 180); the places name every hour
+  row's animal.
 - ***khang brtsegs* and *mtsho sngon*** (p. 236): «ས་བདག་ཁང་བརྩེགས་བྱ་བ་དང་། །མཚོ་སྔོན་ཞེས་བྱ་རྣམ་པ་གཉིས། །དུས་ཚོད་རང་རང་ཐོག་ན་གནས། །ལས་ཐབས་ཁང་བརྩེགས་གྲལ་གདན་འཛེམ། །མཚོ་སྔོན་བག་མ་རོ་ལས་ངན། །ཀོ་ལོང་དོ་བདག་ཕ་ཚན་སྡོམ། །ཉམས་ན་ཏོག་གཟུངས་སྣང་བརྒྱད་དང་། །གཟུངས་བསྡུས་སྤང་སྐོང་སྒྲོག་པར་བྱ། །སྒྲིབ་ཐབས་སྤྱི་ལྟར་སྦྱོར་བ་ཡིན།»
   Each sits on its hour's own place, as the day's earth lord on its day's
   («དེས་འགྲེ་རང་རང་ཞག་གི་ཐོག», p. 223). With *khang brtsegs* rites,
@@ -351,11 +357,17 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   wording for them.
 - **The hour's *sa rgyal*** (p. 236): «དུས་ཚོད་ས་རྒྱལ་མདུན་གྱི་ནི། །བཞི་གཤེད་སྟེང་དུ་གནས་པར་འདོད། །ལྟད་སྟོན་རོ་ཤིད་མཁར་ལས་འཛེམ།», then
   another way («ཡང་ནི་འདི་ལྟར་བཤད་ཀྱང་ཡོད»): an hour and a place for each
-  season-month, the course of *pi ling 'phar ma*. **Not built:** which
-  four-slayer is "the one in front" is not settled (the black days take
-  both, three either side), and the app builds the second way only where
-  the first is (§5.13). The 1996 edition's notes 5–15 on the line were not
-  found in its notes.
+  season-month, the course of *pi ling 'phar ma*. "In front" is read as
+  the upward count: WB counts an animal's four-slayers up and down, «ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ་དེ། …མར་གྱི་བཞི་གཤེད་བྱ་དེ་ནི»
+  (vol. 1, p. 235, img. 245, both readers: the mouse's upward
+  four-slayer the hare, its downward the bird), and the one in front of
+  the hour is the one ahead in the hours' own course, three animals on
+  (in the hare hour the horse). The text names no remedy; it says
+  empowerment, the generation and completion stages and a great gathering
+  of offerings are done. **Built** (`EarthLordCourses.hourSaRgyal`,
+  `Texts.HOUR_SA_RGYAL`, on the hours panel); the other way is not, as
+  the app builds the first of WB's courses (§5.13). The 1996 edition's
+  notes 5–15 on the line were not found in its notes.
 - **The black hours** (p. 236): «དུས་ཚོད་ནག་པོའི་རྩིས་ལ་ཡང་། །གོང་དང་སྦྱར་ཏེ་ཤེས་པར་བྱ། །དེ་ཡང་བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་དུས་ཚོད་ནག …ཁག་ཆེན་བྱ་བ་ཐམས་ཅད་ངན། །དྲག་ལས་དུས་དང་སྤྲད་ན་ཐེབས། །བཅོས་ཐབས་སྤར་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས།»
   As the black days, the date's animal against the hour's: on a mouse or
   horse day the bird and hare hours. **Built** (`EarthLordCourses.blackHour`,

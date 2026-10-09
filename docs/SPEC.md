@@ -934,10 +934,16 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   hours, the date's animal against the hour's as the black days set the
   month's against the date's (on a mouse or horse day the bird and hare
   hours; `EarthLordCourses.blackHour`), every important work bad and fierce
-  work striking home. On the hours panel (§10.3), not weighed. The hour's
-  *bla mkhyen* (on the *klung rta* of the hour's triad, whose animal WB
-  names for one triad only) and its *sa rgyal* (on the four-slayer "in
-  front", not settled) are not built.
+  work striking home. The hour's *bla mkhyen*, on the *klung rta* of the
+  hour's triad (vol. 1, p. 254: the tiger, horse and dog's the monkey, the
+  pig, sheep and hare's the snake, the mouse, dragon and monkey's the
+  tiger, the bird, ox and snake's the pig), with the year's avoidances and
+  remedies (§5.11); and the hour's *sa rgyal*, on the four-slayer in front
+  of the hour, read as the upward one, three animals on (vol. 1, p. 235
+  counts them up and down), spectacles, corpse rites and forts avoided
+  (`EarthLordCourses.hourBlaMkhyen`, `hourSaRgyal`). Each names its place
+  by the animal and WB's direction for it (vol. 1, p. 254: tiger upper
+  east … ox north-east). On the hours panel (§10.3), not weighed.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ### 5.14 The election: the best day for a work
@@ -1633,7 +1639,7 @@ canvas "Zanshin Calendar — basic design".
   avoid while the sign rises, §5.13) where the chapter names any, a
   nectar period if one falls in it, Viṣṭi while its span lasts, the
   black hour on its hours, the earth lords of the hour on the hour's
-  animal's place (§5.13), and with a birth date vitality and body; each
+  animal's place, the hour's *bla mkhyen* and *sa rgyal* on theirs (§5.13), and with a birth date vitality and body; each
   opens its reading as the day's rows do. The ring keeps the period's
   verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
 - **Sme ba in its colour:** the lunar day's number carries the square of the

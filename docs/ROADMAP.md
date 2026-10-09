@@ -500,9 +500,15 @@ it. It is item E below, built 2026-10-09.
   and 27 October 2026 (the 8th month's *sgang* at 01:44, Uttaraphalgunī
   from 16:30, Viṣṭi 08:33–21:16, the skipped Vajra 09:01–04:06) and the
   hours panel (the black hare hour of a mouse date, the earth lords, the
-  Viṣṭi arc). **Left:** WB's divisor in the rule for the sun's terms (open
-  question 15); the hour's *bla mkhyen* and *sa rgyal* (not settled in the
-  text, earth-lord-courses.md); the hour's *gnam khyi*; the burning date
+  Viṣṭi arc). Then the hour's *bla mkhyen* on its triad's *klung rta* and
+  the hour's *sa rgyal* on the four-slayer in front, by WB vol. 1,
+  pp. 254 and 235 (the triads' *klung rta* and the animals' places, the
+  four-slayers counted up and down); checked in `DayTimesTest` (each
+  *klung rta*'s element is the year's luck of §5.9) and on the emulator in
+  both languages (the hare hour: the snake's upper south, the horse's
+  lower south; the ox hour: the pig's upper north, the dragon's
+  south-east). **Left:** WB's divisor in the rule for the sun's terms (open
+  question 15); the hour's *gnam khyi*; the burning date
   begun in daylight (entry 11) still uncounted.
 
 #### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
