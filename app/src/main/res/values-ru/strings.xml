@@ -559,5 +559,7 @@
     <string name="hours_black_title">Чёрный час</string>
     <string name="hours_black_subtitle">животное даты: %1$s</string>
     <string name="hours_earth_lords_title">Хозяева земли часа</string>
-    <string name="hours_earth_lords_subtitle">на месте животного: %1$s</string>
+    <string name="hours_earth_lords_subtitle">на месте животного: %1$s, %2$s</string>
+    <string name="hours_bla_mkhyen_title">Дух-астролог часа</string>
+    <string name="hours_sa_rgyal_title">Царь земли часа</string>
 </resources>

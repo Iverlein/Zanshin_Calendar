@@ -60,6 +60,7 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.toneOf
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.DayTimes
+import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.nectarHours
@@ -330,10 +331,11 @@ fun HoursSheet(
                         onOpen,
                     )
                 }
+                fun onPlace(a: Animal) = labels.string(R.string.hours_earth_lords_subtitle, gloss(a), gloss(a, "place"))
                 AnnotationRow(
                     Annotation(
                         stringResource(R.string.hours_earth_lords_title),
-                        stringResource(R.string.hours_earth_lords_subtitle, gloss(hourAnimal)),
+                        onPlace(hourAnimal),
                         Tone.NEUTRAL,
                         Texts.HOUR_EARTH_LORDS,
                         titleIsKanji = false,
@@ -342,6 +344,30 @@ fun HoursSheet(
                                 "Yudzö Ngönmo" to "g.yu mdzod sngon mo", "Khangtsek" to "khang brtsegs", "Tsongön" to "mtsho sngon",
                             ).joinToString(" · ") { (n, w) -> Ewts.named(n, w) },
                         ),
+                    ),
+                    onOpen,
+                )
+                val blaMkhyenTitle = stringResource(R.string.hours_bla_mkhyen_title)
+                AnnotationRow(
+                    Annotation(
+                        blaMkhyenTitle,
+                        onPlace(EarthLordCourses.hourBlaMkhyen(hourAnimal)),
+                        Tone.NEUTRAL,
+                        Texts.HOUR_BLA_MKHYEN,
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(blaMkhyenTitle, "dus tshod bla mkhyen")),
+                    ),
+                    onOpen,
+                )
+                val saRgyalTitle = stringResource(R.string.hours_sa_rgyal_title)
+                AnnotationRow(
+                    Annotation(
+                        saRgyalTitle,
+                        onPlace(EarthLordCourses.hourSaRgyal(hourAnimal)),
+                        Tone.NEUTRAL,
+                        Texts.HOUR_SA_RGYAL,
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(saRgyalTitle, "dus tshod sa rgyal")),
                     ),
                     onOpen,
                 )

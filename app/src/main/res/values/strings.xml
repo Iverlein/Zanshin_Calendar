@@ -680,5 +680,7 @@
     <string name="hours_black_title">Black hour</string>
     <string name="hours_black_subtitle">the date\'s animal: %1$s</string>
     <string name="hours_earth_lords_title">Earth lords of the hour</string>
-    <string name="hours_earth_lords_subtitle">on the place of the %1$s</string>
+    <string name="hours_earth_lords_subtitle">on the %1$s\'s place, the %2$s</string>
+    <string name="hours_bla_mkhyen_title">The hour\'s astrologer spirit</string>
+    <string name="hours_sa_rgyal_title">The hour\'s earth king</string>
 </resources>
