@@ -59,6 +59,9 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.toneOf
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.DayTimes
+import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.risingSign
 import java.time.Duration
@@ -77,13 +80,24 @@ import kotlin.math.sin
  * inner ring is the combination period, the sign rising in each hour (SPEC
  * §5.13), coloured by the White Beryl's verdict on it, with dots on the
  * nectar periods. With a birth date, two outer rings are coloured by the
- * pebbles of the hour's vitality and body against the birth year's. Tapping
+ * pebbles of the hour's vitality and body against the birth year's; an arc
+ * inside the rings marks Viṣṭi's span ([visti], SPEC §5.8). Tapping
  * an hour shows its rows, which open their readings through [onOpen]. It opens
  * at [initial], a two-hour period from 05:00, or else at the present hour.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, zone: ZoneId, initial: Int? = null, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
+fun HoursSheet(
+    date: LocalDate,
+    day: TibetanDay,
+    birth: Sign?,
+    signs: DaySigns,
+    zone: ZoneId,
+    visti: DayTimes.Span? = null,
+    initial: Int? = null,
+    onOpen: (Annotation) -> Unit,
+    onDismiss: () -> Unit,
+) {
     val labels = LocalLabels.current
     val hours = remember(signs.date) { Forces.hours(signs.date) }
     val periods = remember(day.month) { (0 until 12).map { risingSign(day.month, it) } }
@@ -188,6 +202,21 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                         drawCircle(Palette.surface, radius = gap * 2.3f, center = dot)
                         drawCircle(Palette.saffron, radius = gap * 1.6f, center = dot)
                     }
+                    // Viṣṭi's span within the day, an unlucky arc inside the rings (WB vol. 1, p. 177).
+                    visti?.let { v ->
+                        val from = v.start.coerceAtLeast(0.0) * 24
+                        val to = v.end.coerceAtMost(60.0) * 24
+                        val radius = periodRadius - outerWidth / 2f - gap * 2.5f
+                        drawArc(
+                            color = toneColor(Tone.BAD),
+                            startAngle = startAngle(5 * 60 + from.toInt()),
+                            sweepAngle = ((to - from) / 1440 * 360).toFloat(),
+                            useCenter = false,
+                            topLeft = Offset(center.x - radius, center.y - radius),
+                            size = Size(radius * 2, radius * 2),
+                            style = Stroke(width = gap * 1.4f),
+                        )
+                    }
                     // The present moment, on today's page.
                     nowMinute?.let { m ->
                         val a = Math.toRadians(startAngle(m).toDouble())
@@ -271,6 +300,51 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                         onOpen,
                     )
                 }
+                // Viṣṭi in this hour, with its span (SPEC §5.8).
+                visti?.takeIf { it.end * 24 > selected * 120 && it.start * 24 < selected * 120 + 120 }?.let { v ->
+                    val vScript = Ewts.named(Karana.VISHTI.english, Karana.VISHTI.whiteBeryl)
+                    AnnotationRow(
+                        Annotation(
+                            Karana.VISHTI.sanskrit,
+                            labels.string(R.string.hours_visti_subtitle, clockOf(v.start, labels), clockOf(v.end, labels)),
+                            Texts.KARANA_TONE.getValue(Karana.VISHTI),
+                            Texts.KARANA[Karana.VISHTI],
+                            titleIsKanji = false,
+                            details = listOf(stringResource(R.string.detail_white_beryl) to vScript),
+                        ),
+                        onOpen,
+                    )
+                }
+                // The earth lords of the hour on the hour's own place, and a black hour (WB vol. 2, pp. 235–236).
+                val hourAnimal = hours[selected].sign.animal
+                if (EarthLordCourses.blackHour(day.lunarDayAnimal, hourAnimal)) {
+                    AnnotationRow(
+                        Annotation(
+                            stringResource(R.string.hours_black_title),
+                            stringResource(R.string.hours_black_subtitle, gloss(day.lunarDayAnimal)),
+                            Tone.BAD,
+                            Texts.BLACK_HOUR,
+                            titleIsKanji = false,
+                            details = listOf(stringResource(R.string.detail_white_beryl) to Ewts.named(stringResource(R.string.hours_black_title), "dus tshod nag")),
+                        ),
+                        onOpen,
+                    )
+                }
+                AnnotationRow(
+                    Annotation(
+                        stringResource(R.string.hours_earth_lords_title),
+                        stringResource(R.string.hours_earth_lords_subtitle, gloss(hourAnimal)),
+                        Tone.NEUTRAL,
+                        Texts.HOUR_EARTH_LORDS,
+                        titleIsKanji = false,
+                        details = listOf(
+                            stringResource(R.string.detail_white_beryl) to listOf(
+                                "Yudzö Ngönmo" to "g.yu mdzod sngon mo", "Khangtsek" to "khang brtsegs", "Tsongön" to "mtsho sngon",
+                            ).joinToString(" · ") { (n, w) -> Ewts.named(n, w) },
+                        ),
+                    ),
+                    onOpen,
+                )
                 if (birth != null) {
                     for (force in listOf(Force.VITALITY, Force.BODY)) {
                         AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels, hours[selected]), onOpen)

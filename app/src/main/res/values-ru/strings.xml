@@ -97,8 +97,8 @@
     <string name="hours_period_sign">Восходящий знак</string>
     <string name="hours_works_title">Собственные часы дел</string>
     <string name="hours_works_subtitle">восходит %1$s: для каждого дела</string>
-    <string name="hours_note_period">Кольцо показывает период сочетания — знак, восходящий в каждый час по «Всеблагому зерцалу» (ཀུན་ཕན་མེ་ལོང, kun phan me long), окрашенный благоприятным там, где «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) велит его использовать; точки — периоды нектара Юпитера. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
-    <string name="hours_note">Внутреннее кольцо — период сочетания, знак, восходящий в каждый час, окрашенный благоприятным там, где «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) велит его использовать; точки — периоды нектара Юпитера. Внешние кольца — жизненная сила и тело, цвет — по их камням. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
+    <string name="hours_note_period">Кольцо показывает период сочетания — знак, восходящий в каждый час по «Всеблагому зерцалу» (ཀུན་ཕན་མེ་ལོང, kun phan me long), окрашенный благоприятным там, где «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Viṣṭi. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
+    <string name="hours_note">Внутреннее кольцо — период сочетания, знак, восходящий в каждый час, окрашенный благоприятным там, где «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Viṣṭi. Внешние кольца — жизненная сила и тело, цвет — по их камням. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
     <string name="pebble_subtitle_hour">%1$s: у часа — %2$s, у вас — %3$s</string>
     <string name="detail_hour">Час</string>
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
@@ -539,4 +539,25 @@
     <string name="year_nine_title">Девятка (དགུ་མིག, dgu mig): %1$s-й год</string>
     <string name="year_combined_subtitle">%1$s · %2$s-я</string>
     <string name="year_earth_and_water">земля и вода</string>
+    <string name="time_before_daybreak">%1$s накануне</string>
+    <string name="time_next_morning">%1$s на следующий день</string>
+    <string name="tib_mansion_then">затем %1$s с %2$s</string>
+    <string name="tib_yoga_skipped">и %1$s %2$s–%3$s, пропущенная</string>
+    <string name="tib_visti_span">Viṣṭi %1$s–%2$s</string>
+    <string name="detail_second_mansion">Второе созвездие днём</string>
+    <string name="detail_skipped_yoga">Пропущенная йога</string>
+    <string name="detail_visti">Viṣṭi</string>
+    <string name="detail_from">%1$s, с %2$s</string>
+    <string name="detail_span">%1$s, %2$s–%3$s</string>
+    <string name="row_sun_term">Срок солнца</string>
+    <string name="sun_term_month">%1$s %2$d-го месяца</string>
+    <string name="sun_term_sign">Солнце входит в знак: %1$s</string>
+    <string name="detail_sun_term">Срок</string>
+    <string name="detail_sun_measure">Мера солнца</string>
+    <string name="sun_measure">%1$d;%2$d — стоянки и чуцо (ཆུ་ཚོད, chu tshod) от начала Ашвини</string>
+    <string name="hours_visti_subtitle">%1$s–%2$s</string>
+    <string name="hours_black_title">Чёрный час</string>
+    <string name="hours_black_subtitle">животное даты: %1$s</string>
+    <string name="hours_earth_lords_title">Хозяева земли часа</string>
+    <string name="hours_earth_lords_subtitle">на месте животного: %1$s</string>
 </resources>

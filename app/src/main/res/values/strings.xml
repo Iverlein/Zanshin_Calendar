@@ -126,8 +126,8 @@
     <string name="hours_period_sign">Rising sign</string>
     <string name="hours_works_title">The works\' own hours</string>
     <string name="hours_works_subtitle">%1$s rising, work by work</string>
-    <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour after the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
-    <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
+    <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour after the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
+    <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="pebble_subtitle_hour">%1$s: the hour\'s %2$s to your %3$s</string>
     <string name="detail_hour">Hour</string>
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
@@ -656,4 +656,29 @@
     <!-- the combined nine-multiple's subtitle: "earth and water · 4th" -->
     <string name="year_combined_subtitle">%1$s · %2$s</string>
     <string name="year_earth_and_water">earth and water</string>
+    <!-- The times within the day (ROADMAP T2.20, SPEC §5.8): a clock time before the Tibetan day's daybreak at 05:00, or from the next daybreak on. -->
+    <string name="time_before_daybreak">%1$s the day before</string>
+    <string name="time_next_morning">%1$s the next day</string>
+    <!-- appended to the mansion row's subtitle: "then Bharaṇī from 14:32" -->
+    <string name="tib_mansion_then">then %1$s from %2$s</string>
+    <!-- appended to the yoga row's subtitle: a yoga that begins and ends within the day -->
+    <string name="tib_yoga_skipped">and %1$s %2$s–%3$s, skipped</string>
+    <string name="tib_visti_span">Viṣṭi %1$s–%2$s</string>
+    <string name="detail_second_mansion">Second mansion by day</string>
+    <string name="detail_skipped_yoga">Skipped yoga</string>
+    <string name="detail_visti">Viṣṭi</string>
+    <string name="detail_from">%1$s, from %2$s</string>
+    <string name="detail_span">%1$s, %2$s–%3$s</string>
+    <string name="row_sun_term">Sun\'s term</string>
+    <!-- "Breath term of month 1" -->
+    <string name="sun_term_month">%1$s of month %2$d</string>
+    <string name="sun_term_sign">Sun enters %1$s</string>
+    <string name="detail_sun_term">The term</string>
+    <string name="detail_sun_measure">The sun\'s measure</string>
+    <string name="sun_measure">%1$d mansions %2$d chutsö (ཆུ་ཚོད, chu tshod) past the start of Aśvinī</string>
+    <string name="hours_visti_subtitle">%1$s–%2$s</string>
+    <string name="hours_black_title">Black hour</string>
+    <string name="hours_black_subtitle">the date\'s animal: %1$s</string>
+    <string name="hours_earth_lords_title">Earth lords of the hour</string>
+    <string name="hours_earth_lords_subtitle">on the place of the %1$s</string>
 </resources>

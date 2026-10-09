@@ -85,13 +85,25 @@ import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
+import zanshin.core.tibetan.DayTimes
+import zanshin.core.tibetan.Karana
+import java.time.Duration
+import java.time.LocalTime
+import java.time.ZonedDateTime
 import zanshin.core.tibetan.element
 
 private enum class TibetanBalloon { MONTH, YEAR }
 
 /** The Tibetan view of one day (SPEC §10.3); a work in its brief or a reading's lists opens its election through [onElect]. */
 @Composable
-fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, person: Person? = null, onElect: (Activity) -> Unit = {}) {
+fun TibetanPage(
+    info: DayInfo,
+    zone: ZoneId,
+    modifier: Modifier = Modifier,
+    person: Person? = null,
+    sunset: ZonedDateTime? = null,
+    onElect: (Activity) -> Unit = {},
+) {
     val day = info.tibetan
     val labels = LocalLabels.current
     val accent = Palette.saffron
@@ -108,6 +120,14 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }
+    // The times within the day (SPEC §5.8): WB writes a second mansion that comes in daytime, before the
+    // place's sunset or, with no place set, before the six day hours end at 17:00.
+    val next = remember(day.jd) { TibetanCalendar.of(day.jd + 1) }
+    val nightfall = sunset?.let { Duration.between(info.date.atTime(LocalTime.of(5, 0)).atZone(zone), it).toMinutes() / 24.0 } ?: 30.0
+    val secondMansions = remember(day.jd, nightfall) { DayTimes.mansions(day, next).filter { it.at < nightfall } }
+    val skippedYogas = remember(day.jd) { DayTimes.skippedYogas(day, next) }
+    val visti = remember(day.jd) { DayTimes.visti(day) }
+    val sunTerms = remember(day.jd) { DayTimes.sunTerms(day) }
 
     val holiday = day.holiday
     val holidayAnnotation = holiday?.let {
@@ -246,6 +266,16 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
         val yourWeekdayTitle = stringResource(R.string.tib_your_weekday_title)
         val yourWeekdayNote = stringResource(R.string.tib_your_weekday_note)
         val karanaSubtitle = stringResource(R.string.tib_karana_subtitle, day.karana.english)
+        val secondMansionLabel = stringResource(R.string.detail_second_mansion)
+        val skippedYogaLabel = stringResource(R.string.detail_skipped_yoga)
+        val vistiLabel = stringResource(R.string.detail_visti)
+        fun timeOf(chuTshod: Double) = clockOf(chuTshod, labels)
+        fun mansionThen(name: String, time: String) = labels.string(R.string.tib_mansion_then, name, time)
+        fun yogaSkipped(name: String, from: String, to: String) = labels.string(R.string.tib_yoga_skipped, name, from, to)
+        fun vistiSpan(from: String, to: String) = labels.string(R.string.tib_visti_span, from, to)
+        fun spanOf(from: String, to: String) = labels.string(R.string.hours_visti_subtitle, from, to)
+        fun detailFrom(name: String, time: String) = labels.string(R.string.detail_from, name, time)
+        fun detailSpan(name: String, from: String, to: String) = labels.string(R.string.detail_span, name, from, to)
         val weekdaySubtitle = stringResource(R.string.tib_weekday_subtitle, day.weekday.planet)
         val lunarDateTitle = stringResource(R.string.tib_lunar_date_title, day.day)
         val lunarDateSubtitle = stringResource(R.string.tib_lunar_date_subtitle, LunarDayClass.of(day.day).english)
@@ -450,9 +480,10 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
                     // The mansion has no tone of its own: its lists name works both ways (SPEC §5.12).
                     Tone.NEUTRAL,
                     mansionReading,
-                    subtitle = mansionSubtitle,
+                    subtitle = (listOf(mansionSubtitle) + secondMansions.map { mansionThen(it.what.sanskrit, timeOf(it.at)) }).joinToString(" · "),
                     titleIsKanji = false,
                     tibetan = day.mansion.wylie to day.mansion.english,
+                    details = secondMansions.map { secondMansionLabel to detailFrom(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at)) },
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
                     diagram = { MansionRing(day.mansion, 280.dp) },
                 ),
@@ -523,10 +554,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
                     day.karana.english,
                     Texts.KARANA_TONE.getValue(day.karana),
                     Texts.KARANA[day.karana],
-                    subtitle = karanaSubtitle,
+                    subtitle = (listOf(karanaSubtitle) + listOfNotNull(visti?.let { if (day.karana == Karana.VISHTI) spanOf(timeOf(it.start), timeOf(it.end)) else vistiSpan(timeOf(it.start), timeOf(it.end)) })).joinToString(" · "),
                     titleIsKanji = false,
                     tibetan = day.karana.wylie to day.karana.english,
-                    details = listOf(whiteBerylLabel to Ewts.named(day.karana.english, day.karana.whiteBeryl)),
+                    details = listOf(whiteBerylLabel to Ewts.named(day.karana.english, day.karana.whiteBeryl)) +
+                        listOfNotNull(visti?.let { vistiLabel to detailSpan(Ewts.named(Karana.VISHTI.english, Karana.VISHTI.whiteBeryl), timeOf(it.start), timeOf(it.end)) }),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
                     diagram = { KaranaRing(day.karana, 280.dp) },
                     decides = decides(DayFactor.KARANA),
@@ -538,10 +570,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
                     day.yoga.english,
                     Texts.YOGA_TONE.getValue(day.yoga),
                     Texts.YOGA[day.yoga],
-                    subtitle = yogaSubtitle,
+                    subtitle = (listOf(yogaSubtitle) + skippedYogas.map { yogaSkipped(it.what.sanskrit, timeOf(it.at), timeOf(it.until!!)) }).joinToString(" · "),
                     titleIsKanji = false,
                     tibetan = day.yoga.wylie to day.yoga.english,
-                    details = listOf(whiteBerylLabel to Ewts.named(day.yoga.english, day.yoga.whiteBeryl)),
+                    details = listOf(whiteBerylLabel to Ewts.named(day.yoga.english, day.yoga.whiteBeryl)) +
+                        skippedYogas.map { skippedYogaLabel to detailSpan(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at), timeOf(it.until!!)) },
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
                     diagram = { YogaRing(day.yoga, 280.dp) },
                     decides = decides(DayFactor.YOGA),
@@ -723,6 +756,30 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
                 tibetan = false,
                 lead = { SmeBaSquare(day.smeBa, 30.dp, stringResource(R.string.desc_sme_ba, day.smeBa)) },
             )
+            // The sun's terms that fall in the day (WB vol. 1, ch. 15; SPEC §5.8).
+            for (term in sunTerms) {
+                val t = term.what
+                val name = sunTermName(t, labels)
+                val at = clockOf(term.at, labels)
+                val annotation = Annotation(
+                    name,
+                    at,
+                    Tone.NEUTRAL,
+                    Texts.SUN_TERM.getValue(t.kind),
+                    titleIsKanji = false,
+                    details = listOf(
+                        stringResource(R.string.detail_sun_term) to Ewts.named(gloss(t.kind), t.kind.wylie),
+                        stringResource(R.string.detail_sun_measure) to stringResource(R.string.sun_measure, t.mansion, t.chuTshod),
+                    ),
+                )
+                FactRow(
+                    stringResource(R.string.row_sun_term),
+                    "$name · $at",
+                    "$name · $at",
+                    tibetan = false,
+                    onClick = { sheet = annotation },
+                )
+            }
         }
     }
 
@@ -734,7 +791,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, pers
             onElect = onElect,
         ) { summaryOpen = false }
     }
-    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
+    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
     if (yearOpen && person != null) YearSheet(person, day, zone, onOpen = { sheet = it }) { yearOpen = false }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
 }
@@ -820,6 +877,23 @@ internal fun hourName(h: HourSign, labels: Labels): String = labels.string(R.str
 internal fun hourSpan(h: HourSign): String = clockSpan(h.startMinute, 120)
 
 /** "21:00–01:00": [minutes] from [start], clock time, past midnight as the clock reads it. */
+/** A time [chuTshod] after the day's daybreak at 05:00 on the clock, marked when it lies before daybreak or in the next morning. */
+internal fun clockOf(chuTshod: Double, labels: Labels): String {
+    val m = DayTimes.clockMinute(chuTshod)
+    val hhmm = "%02d:%02d".format(m / 60, m % 60)
+    return when {
+        chuTshod < 0 -> labels.string(R.string.time_before_daybreak, hhmm)
+        chuTshod >= 60 -> labels.string(R.string.time_next_morning, hhmm)
+        else -> hhmm
+    }
+}
+
+/** The sun's term as a row names it: the month's breath or middle term, or the sign entered. */
+internal fun sunTermName(t: DayTimes.SunTerm, labels: Labels): String = when (t.kind) {
+    DayTimes.SunTermKind.KHYIM_PHO -> labels.string(R.string.sun_term_sign, t.sign!!.english)
+    else -> labels.string(R.string.sun_term_month, gloss(t.kind).replaceFirstChar(Char::uppercase), t.month!!)
+}
+
 internal fun clockSpan(start: Int, minutes: Int): String {
     fun hhmm(m: Int) = "%02d:%02d".format((m / 60) % 24, m % 60)
     return "${hhmm(start)}–${hhmm(start + minutes)}"
