@@ -115,8 +115,9 @@ agree with the box as built; the additions are in the next section.
 qualifier (a kind of the work, a direction, a person), on both sides, as
 middling or acceptable, or in a way the print leaves in doubt, counts for
 neither; "otherwise as work N" takes N's lists in the kinds it names
-nothing in; rising signs, links, *sme ba*, Abhijit and the Chinese
-almanac's days are not calculated. Then:
+nothing in; links, *sme ba*, Abhijit and the Chinese almanac's days are
+not calculated, and the rising signs are the works' own hours (*Rising
+signs* below), not factors of the day. Then:
 
 - what the chapter names good is added to the box's good and taken from
   its bad, and the other way round;
@@ -279,6 +280,94 @@ entry.
   མཆོག །ཉི(༡) སྤེན(༠) འབྲིང་ལ་ལྷག(༤) སངས(༦) ངན»; Anurādhā and Jyeṣṭhā best,
   fifteen mansions «རུང», acceptable, and «གཞན་རྣམས་སྤང» — the nine left are
   bad; «སྟག་འབྲུག་བཟང་ལ་སྦྲུལ་ཡོས་ངན».
+
+## Rising signs
+
+Read 2026-10-09 (ROADMAP E4), every list on the scans (I1KG12907,
+img. 393–436, enlarged 2.3–6×), with BDRC's etext to find them and
+Yigdzin-1 as witness on img. 386–405. Most works close their
+weekdays and mansions with a verse on the signs rising, often opened by
+«དུས་སྦྱོར», the combination period ([combination-period.md](combination-period.md)):
+the hours of the day, not a factor of it. The rules are the lists' own:
+what a verse calls middling (འབྲིང) or acceptable (རུང་བ་ཙམ), names for a
+kind of the work only, or names on both sides counts for neither; "the
+others bad" (གཞན་རྣམས་ངན) is applied as stated, "the others neutral" or
+"uncertain" leaves them out. Signs are named by their short forms: གླང
+Taurus, སེང Leo, ཀར, ཀཊ or ཀརྐ་ཊ Cancer, ཆུ (marriage) Capricorn.
+G = good, B = bad.
+
+| # | Work | Page (img.) | The verse | G | B |
+| --- | --- | --- | --- | --- | --- |
+| 2 | Naming | 385 (393) | «འཁྲིག་གཞུ་བུམ་ཉ་བཟང་། །སྲང་དང་སྡིག་པ་གཉིས་ལ་ངན།།» | Gem Sag Aqu Pis | Lib Sco |
+| 3 | Cutting clothes | 385 (393) | «དུས་སྦྱོར་གླང་འཁྲིག་སེང་གེ་དང་། །བུ་མོ་ཉ་བཟང་ཀར་སྡིག་པ། །ཆུ་སྲིན་ངན་ལ་གཞན་བཏང་སྙོམས།།» | Tau Gem Leo Vir Pis | Can Sco Cap |
+| 4 | Putting on clothes | 386 (394) | «དུས་སྦྱོར་གླང་འཁྲིག་སེང་གེ་དང་། །བུ་མོ་གཞུ་རྣམས་བཟང་བ་ཡིན། །ཀརྐ་ཊ་དང་སྡིག་པ་ངན།» | Tau Gem Leo Vir Sag | Can Sco |
+| 5 | Offerings | 386 (394) | «དུས་སྦྱོར་གླང་འཁྲིག་སེང་གེ་བཟང་། །ལུག་གཞུ་ཆུ་སྲིན་ཀར་སྡིག་ངན།།» | Tau Gem Leo | Ari Sag Cap Can Sco |
+| 6 | Building | 388 (396) | «དུས་སྦྱོར་གླང་སེང་གཞུ་བུམ་པ། །བུ་མོ་རྣམས་ལ་བཟང་བ་ཡིན། །ལུག་དང་སྡིག་པ་ཀརྐ་ཊ། །ཆུ་སྲིན་སྲང་རྣམས་ངན་པ་ཡིན། །འཁྲིག་པ་མཁར་ངན་ལྷ་ཁང་བཟང་། །ཉ་ལ་མཁར་བཟང་ལྷ་ཁང་ངན།» | Tau Leo Sag Aqu Vir | Ari Sco Can Cap Lib (Gemini and Pisces by kind of building: neither) |
+| 7 | A new home | 389 (397) | «དུས་སྦྱོར་བུམ་གླང་བཟང་བ་དང་།» | Aqu Tau | — |
+| 8 | The hearth | 390 (398) | «དུས་སྦྱོར་སེང་གེ་བུམ་ཉ་བཟང་།།» | Leo Aqu Pis | — |
+| 9 | Opening the soil | 390 (398) | «དུས་སྦྱོར་སྲང་གཞུ་བུམ་ཉ་བཟང་།» (ra under sa, read at 6×; the etext's སྲོང) | Lib Sag Aqu Pis | — |
+| 10 | Shows | 390 (398) | «གླང་འཁྲིག་ཉ་གཞུ་སེང་གེ་བཟང་།» | Tau Gem Pis Sag Leo | — |
+| 12 | Journeys | 393 (401) | «དུས་སྦྱོར་ཆུ་སྲིན་བུ་མོ་གཞུ། །ཉ་བཟང་གཞན་རྣམས་ངན་པ་ཡིན།» | Cap Vir Sag Pis | the other eight |
+| 13 | Trade | 394 (402) | «སྲང་སྡིག་བུ་མོ་གླང་དང་འཁྲིག །སེང་གེ་བཟང་ལ་ལུག་ལ་སྤང་།» | Lib Sco Vir Tau Gem Leo | Ari |
+| 15 | Planting | 396 (404) | «གླང་འཁྲིག་ཆུ་སྲིན་བུམ་ཉ་བཟང་། །ལུག་སེང་སྲང་སྡིག་བུ་མོ་ངན།» | Tau Gem Cap Aqu Pis | Ari Leo Lib Sco Vir |
+| 16 | Making peace | 396 (404) | «ལུག་སེང་བུ་མོ་ཉ་རྣམས་བཟང་། །ཀར་སྡིག་ཆུ་སྲིན་ངན་པ་ཡིན།» | Ari Leo Vir Pis | Can Sco Cap |
+| 17 | Tents | 396 (404) | «སེང་གེ་གཞུ་བུམ་ཉ་གླང་བཟང་། །ཆུ་སྲིན་སྡིག་པ་ངན་པ་ཡིན།» | Leo Sag Aqu Pis Tau | Cap Sco |
+| 18 | Storehouses | 396–397 (404–405) | «གླང་དང་བུམ་པ་ཉ་གསུམ་བཟང་། །ཀར་སྡིག་གཉིས་པོ་ངན་པ་ཡིན།» | Tau Aqu Pis | Can Sco |
+| 19 | Banners | 397 (405) | «གླང་དང་འཁྲིག་སེང་གཞུ་རྣམས་བཟང་། །ཆུ་སྲིན་སྡིག་སྲང་ཀཊ་དང་། །ཉི་ནག་…སའི་ཕུང་བྱེད། །འཛེམ» | Tau Gem Leo Sag | Cap Sco Lib Can |
+| 20 | Hunting and theft | 398 (406) | «ལུག་གཞུ་ཆུ་སྲིན་ཀཊ་བུམ། །བཟང་ལ་སྲང་སྡིག་གཉིས་པོ་ངན།», then, closing the section, «ལུག་གཞུ་ཆུ་སྲིན་བུམ་པ་བཟང་། །བུ་མོ་ཉ་ངན་གཞན་ངེས་མེད།།» | Ari Sag Cap Aqu | Vir Pis (Cancer, Libra, Scorpio, named by the first and left uncertain by the second: neither) |
+| 22 | Springs, wells, canals | 399 (407) | «…ཁྲུམས་སྟོད(༢༤) རྣམས། །ངན་ལ་འཁྲིག་བུམ་ཆུ་སྲིན་གཞུ། །གླང་དང་ཀཊ་བཟང་བ་ལ། །ལུག་སེང་ངན་ལ་གཞན་བཏང་སྙོམས།» | Gem Aqu Cap Sag Tau Can | Ari Leo |
+| 23 | Sowing | 400 (408) | «ཉ་བུམ་སྲང་གླང་ཆུ་སྲིན་བཟང་། །ལུག་དང་ཀར་སྡིག་ངན་པ་ཡིན།» | Pis Aqu Lib Tau Cap | Ari Can Sco |
+| 25 | Horse racing | 401 (409) | «དུས་སྦྱོར་གླང་སེང་གཞུ་གསུམ་བཟང་། །ཀར་བུམ་གཉིས་པོ་ངན་པ་ཡིན།» | Tau Leo Sag | Can Aqu |
+| 26–28 | Treating, saddling, taming horses | 401 (409) | «ཁྱིམ་ཉི་ལ་སོགས་རྒྱུག་དང་མཚུངས།», the houses (signs), days and the rest as racing | as 25 | as 25 |
+| 31 | Writing, astrology, crafts | 402 (410) | «ཉ་བུམ་གླང་སེང་སྲང་བུ་མོ། །གཞུ་རྣམས་བཟང་ལ་འཁྲིག་པ་སྟེ། །སྒྱུ་རྩལ་བསླབ་ལ་བཟང་བ་ཡིན། །སྡིག་པ་ངན་ལ་གཞན་བཏང་སྙོམས།» | Pis Aqu Tau Leo Lib Vir Sag (Gemini for the arts only: neither) | Sco |
+| 32 | Medicine | 403 (411) | «དུས་སྦྱོར་བུ་མོ་མཆོག་ཡིན་ལ། །འཁྲིག་གཞུ་ཉ་གསུམ་བཟང་བ་ཡིན། །ཆུ་སྲིན་སྡིག་པ་ཀཎྜ་ངན།» | Vir Gem Sag Pis | Cap Sco Can |
+| 33 | Bloodletting, moxa | 404 (412) | «གླང་འཁྲིག་བུ་མོ་ཉ་བཟང་སྟེ། །ཀཎྜ་སྲང་སེང་གཞུ་རྣམས་འབྲིང་། །ལུག་སྡིག་ཆུ་སྲིན་བུམ་པ་ངན།» | Tau Gem Vir Pis | Ari Sco Cap Aqu |
+| 34 | Bathing, washing the hair | 404 (412) | «…གཞན་རྣམས་བཏང་སྙོམས་ཉ་བུམ་དང་། །ཆུ་སྲིན་བུ་མོ་བཟང་བ་ཡིན། །སྲང་དང་ཀརྐ་ཊ་གཉིས་ངན།» | Pis Aqu Cap Vir | Lib Can |
+| 35 | Divination | 405 (413) | «གཞུ་ཉ་སེང་གེ་མཆོག་ཡིན་ཏེ། །གླང་དང་བུ་མོ་སྲང་ཡང་བཟང་། །གཞན་མ་རྣམས་ལ་ཞི་དྲག་བསྟན།» (སྲང read at 6×, with Yigdzin-1) | Sag Pis Leo, best; Tau Vir Lib, also good (the rest by kind of rite: neither) | — |
+| 36 | Enthronement | 405 (413) | «སེང་གེའི་དུས་སྦྱོར་བཟང་བ་སྟེ། །གཞུ་ཉ་བུམ་པ་རུང་བ་ཙམ། །ཆུ་སྲིན་སྡིག་པ་སྤང་བ་ཡིན།» | Leo | Cap Sco |
+| 37 | Weapons | 405 (413) | «སྡིག་པ་ལུག་གླང་སེང་ཉ་བཟང་། །སྲང་དང་ཆུ་སྲིན་ཀཎྜར་ངན། །བུམ་གཞུ་བུ་མོ་འབྲིང་པོར་བསྟན།» | Sco Ari Tau Leo Pis | Lib Cap Can |
+| 38 | Servants | 406 (414) | «ལུག་གཞུ་སེང་གེ་ཆུ་སྲིན་གླང་། །བཟང་ལ་ཀར་སྲང་ངན་པ་ཡིན།» | Ari Sag Leo Cap Tau | Can Lib |
+| 39 | Marriage | 412 (420) | «གླང་འཁྲིག་སེང་གེ་གཞུ་བུ་མོ། །ཉ་བཟང་ལུག་སྲང་སྡིག་ཆུ་ངན།» | Tau Gem Leo Sag Vir Pis | Ari Lib Sco Cap |
+| 40 | Ornaments | 413 (421) | «དུས་སྦྱོར་གླང་དང་འཁྲིག་བུ་མོ། །གཞུ་ཉ་སེང་གེ་རྣམས་ནི་བཟང་།» | Tau Gem Vir Sag Pis Leo | — |
+| 42 | Supports, temples | 414 (422) | «གླང་འཁྲིག་བུ་མོ་བུམ་པ་གཞུ། །སེང་གེ་རྣམས་ལ་བཟང་བ་ཡིན། །ལུག་སྲང་ཀཊ་སྡིག་པ་དང་། །ཆུ་སྲིན་ཉ་རྣམས་ངན་པས་སྤང་།» | Tau Gem Vir Aqu Sag Leo | Ari Lib Can Sco Cap Pis |
+| 44 | Averting rites | 417 (425) | «འཁྲིག་སེང་གླང་གཞུ་ཞི་བ་བཟང་། །དྲག་པོ་བཏུབ་ཅིང་ཀར་སྡིག་པར། །དྲག་པོ་མཆོག་ཡིན་ཞི་བ་ངན།» | every sign by kind of rite: none | — |
+| 45 | Fire offerings | 418 (426) | «…ངན་ལ་འདིར་མ་གསལ་བ་རྣམས། །བཏང་སྙོམས་གླང་ལུག་སེང་གེ་བཟང་། །ཆུ་སྲིན་ཉ་ངན་གཞན་ངེས་མེད།» | Tau Ari Leo | Cap Pis |
+| 46 | Suppressing *sri* | 418 (426) | «སེང་གེ་གླང་གཞུ་ཀཊ་དང་། །སྡིག་པ་ཆུ་སྲིན་བཟང་བ་སྟེ། །གཞན་མ་རྣམས་ནི་བཏང་སྙོམས་ཡིན།» | Leo Tau Sag Can Sco Cap | — |
+| 47 | Ordination, teaching | 418 (426) | «ལུག་གླང་ཆུ་སྲིན་སེང་གེ་དང་། །བུམ་པ་ཉ་དྲུག་བཟང་བ་ཡིན། །འཁྲིག་པ་བུ་མོ་གཞུ་རྣམས་ངན།» | Ari Tau Cap Leo Aqu Pis | Gem Vir Sag |
+| 48 | Consecration | 419 (427) | «…བྲ་ཉེ(༡)རྣམས་ངན་སེང་གེ་འཁྲིག །སྡིག་པ་བུམ་པ་བཟང་བ་ཡིན། །གླང་དང་བུ་མོ་ཉ་རྣམས་འབྲིང་། །ལུག་སྲང་ཀཊ་ཆུ་སྲིན་ངན།» (the etext's ཀ་པ) | Leo Gem Sco Aqu | Ari Lib Can Cap |
+| 49 | Dikes | 420 (428) | «ཀཊ་ལུག་སྲང་བུ་མོ་སེང་། །ཆུ་བོ་བསྲུང་བའི་ལས་ལ་བཟང་། །བུམ་གཞུ་ཉ་གསུམ་ངན་པ་ཡིན།», "for the work of guarding against rivers", the work itself | Can Ari Lib Vir Leo | Aqu Sag Pis |
+| 50 | Crafts; hair and nails | 420 (428) | «ལུག་གླང་འཁྲིག་པ་སེང་གེ་དང་། །བུ་མོ་ཉ་རྣམས་བཟང་བ་ཡིན། །བུམ་གཞུ་འབྲིང་ལ་སྡིག་པ་སྲང་། །ཆུ་སྲིན་ཀཊ་ངན་པ་ཡིན།», for both halves | Ari Tau Gem Leo Vir Pis | Sco Lib Cap Can |
+| 51 | War, contests, dice | 421 (429) | «གཞུ་དང་ཀཊ་ལུག་སེང་བཟང་། །བུ་མོ་ཉ་སྡིག་བུམ་པ་ངན།», for both halves | Sag Can Ari Leo | Vir Pis Sco Aqu |
+| 52 | Poetics, grammar | 421 (429) | «ཉ་ལ་མཆོག་ཡིན་གླང་འཁྲིག་པ། །སེང་གེ་བཟང་ལ་གཞན་བཏང་སྙོམས།» | Pis Tau Gem Leo | — |
+| 53 | Thread-cross, torma | 422 (430) | «དུས་སྦྱོར་སྡིག་པ་ཆུ་སྲིན་ལུག །སེང་གེ་ཀཊ་ཉ་རྣམས་བཟང་། །གླང་སྲང་གཉིས་པོ་འབྲིང་ཙམ་མོ།» | Sco Cap Ari Leo Can Pis | — |
+| 54 | Sorcery | 422 (430) | «སེང་གེ་སྡིག་པ་གཞུ་ལུག་གླང་། །ཆུ་སྲིན་བཟང་ལ་སྲང་ཀར་འབྲིང་།» | Leo Sco Sag Ari Tau Cap | — |
+| 55 | Rain | 423 (431) | «དུས་སྦྱོར་ཀར་བུམ་ཉ་ཆུ་སྲིན། །བཟང་ལ་སྡིག་ལུག་སྲང་རྣམས་ངན།» | Can Aqu Pis Cap | Sco Ari Lib |
+| 57 | Councils | 425 (433) | «དུས་སྦྱོར་གླང་སེང་བུ་མོ་གཞུ། །བུམ་པ་བཟང་ལ་ལུག་ཀཊ། །སྲང་སྡིག་ཆུ་སྲིན་ངན་པ་ཡིན། །འཁྲིག་ཉ་འབྲིང་དུ་ཤེས་པར་བྱ།» (the etext's སྲང་མིག) | Tau Leo Vir Sag Aqu | Ari Can Lib Sco Cap |
+| 59 | Lasting works for the living | 425–426 (433–434) | «སེང་གེ་གླང་བུམ་བུ་མོ་གཞུ། །བཟང་ལ་སྲང་སྡིག་ཆུ་སྲིན་ལུག །ངན་ལ་འཁྲིག་ཉ་བཏང་སྙོམས་ཡིན།», then «བུ་མོ་བུམ་པ་བཟང་བ་ལ། །སྲང་སྡིག་ཆུ་སྲིན་བརྟན་ལས་བཟང་།» | Leo Tau Aqu Vir Sag | Ari (Libra, Scorpio, Capricorn, bad and good for steady works: neither) |
+| 60 | Auspicious works | 426 (434) | «གླང་སེང་གཞུ་བུམ་བུ་མོ་བཟང་། །ཀར་སྡིག་ཆུ་སྲིན་སྲང་ལུག་ངན།» | Tau Leo Sag Aqu Vir | Can Sco Cap Lib Ari |
+| 61 | Life and wealth | 426 (434) | «དུས་སྦྱོར་འཁྲིག་གླང་བཟང་བ་ལ། །ལུག་ཀར་ཆུ་སྲིན་སྡིག་པ་ངན།» | Gem Tau | Ari Can Cap Sco |
+| 62 | Controlling | 427 (435) | «དུས་སྦྱོར་གླང་སྲང་སེང་གེ་བཟང་། །གཞུ་ཉ་བུ་མོ་བུམ་པ་རྣམས། །འབྲིང་ལ་གཞན་རྣམས་སྤང་བ་ཡིན།» | Tau Lib Leo | Ari Gem Can Sco Cap |
+| 63 | Destructive | 427 (435) | «དུས་སྦྱོར་སེང་གེ་སྡིག་པ་དང་། །གླང་དང་ཆུ་སྲིན་གཞུ་ལུག་བཟང་། །སྲང་དང་ཀཊ་གཉིས་ནི་འབྲིང་།» | Leo Sco Tau Cap Sag Ari | — |
+| 64 | Pacifying | 427 (435) | «དུས་སྦྱོར་བུམ་པ་སེང་གེ་དང་། །གཞུ་ཉ་བུ་མོ་རྣམས་བཟང་ལ། །གླང་དང་འཁྲིག་པ་འབྲིང་པོ་ཡིན།» | Aqu Leo Sag Pis Vir | — |
+| 65 | Increasing | 428 (436) | «དུས་སྦྱོར་འཁྲིག་པ་བུ་མོ་དང་། །གཞུ་དང་ཀཊ་བུམ་པ་བཟང་། །སེང་གླང་འབྲིང་ཡིན་གཞན་རྣམས་ངན།» | Gem Vir Sag Can Aqu | Ari Lib Sco Cap Pis |
+
+Feasts (11), giving and taking goods (14), gifts (24), calling prosperity
+(29), dogs (30, "the rest as taking wealth", 14) and funerals (41) name no
+sign; disputes (58) names Virgo, Taurus, Leo and Scorpio for its sub-acts
+only and stays out with the work; the couple's birth signs in marriage
+(p. 407) are a person's, not the hour's. The rising signs in KP's boxes
+were not read box by box; the two kp-activities.md had noted agree (box 34
+medicine, Virgo "best"; box 35 bloodletting, Cancer and Libra in brackets,
+middling here).
+
+Against the period readings of pp. 371–376 the lists agree almost
+throughout: on the twelve signs, the one act a period names on the other
+side is Gemini's empowerment, practice and study (p. 372), which the
+chapter names bad under Gemini for ordination and teaching (47). Built in
+`WhiteBerylWorks.SIGNS`, `Texts.WORKS_SIGN` and `Texts.period`, shown on
+the hours panel and taken first by the election's hours
+(`Election.hours`), tested in `WorksSignTest` and `ElectionTest`
+(SPEC §5.13, §5.14).
 
 ## Left out, and why
 

@@ -375,7 +375,9 @@ The lists are taken as printed, with these rules for what is doubtful:
   (Mṛgaśiras as acceptable and bad for controlling activity) is left out,
   unless the White Beryl's chapter 34 decides it (Uttarabhādrapadā, in both
   halves of the offerings box, is bad there).
-- Rising signs are left out, since the page shows a day and not a moment;
+- Rising signs are not factors of the day, since a day has no rising
+  sign: the White Beryl's chapter 34 gives them as the works' own hours
+  (§5.13), and the print's boxes are not read for them; left out are
   Abhijit, which the Phugpa calendar does not count among the day's
   mansions; "black" years, months and days, earth-lords and the demons,
   which the app does not calculate.
@@ -745,6 +747,20 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   whether the period is to be accomplished or avoided. It is shown on the
   hours panel (§10.3) and in the day in brief's "By the hour" block, not
   weighed into the day: a day reading has no hours.
+- **The works' own hours** (ROADMAP E4,
+  [sources/white-beryl-ch34.md](sources/white-beryl-ch34.md), *Rising
+  signs*): WB's chapter 34 names, for 55 of the app's works, the signs
+  rising good and bad for each, read on the scans with the lists' own
+  rules (middling, acceptable, qualified or doubled: neither; "the others
+  bad" as stated), in `WhiteBerylWorks.SIGNS` (`Factors.signs`). They are
+  the work's particular case, which stands above the period's general
+  reading for it (WB vol. 2, p. 376: «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»): an
+  hour's period reading drops the wordings whose act (`Activities`) the
+  chapter names on the other side under that sign (`Texts.period`; on
+  the twelve signs, Gemini's empowerment, practice and study, against
+  ordination and teaching), and the works the chapter names for the sign
+  are a row of their own (`Texts.WORKS_SIGN`). Like the period they are
+  times within the day and are not weighed into it (`WorksSignTest`).
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ### 5.14 The election: the best day for a work
@@ -1362,9 +1378,13 @@ canvas "Zanshin Calendar — basic design".
   rings show the pebbles of the hour's vitality and body against the birth
   year's (§5.9). On today's page a hand marks the present moment and the
   current hour is selected. Tapping an hour, or stepping with the arrows
-  beside its sign, shows its rows: the combination period, a nectar period
-  if one falls in it, and with a birth date vitality and body; each opens
-  its reading as the day's rows do.
+  beside its sign, shows its rows: the combination period, without the
+  works its sign's own hours decide the other way, the works' own hours
+  ("The works' own hours", the works WB's chapter 34 names good or to
+  avoid while the sign rises, §5.13) where the chapter names any, a
+  nectar period if one falls in it, and with a birth date vitality and
+  body; each opens its reading as the day's rows do. The ring keeps the
+  period's verdict.
 - **Sme ba in its colour:** the lunar day's number carries the square of the
   nine numbers, each box in the colour it is printed in and today's marked
   (Berzin, *Details of Tibetan Astrology 4*: colours, and the arrangement with

@@ -49,7 +49,7 @@ moves up as soon as it is unblocked.
 | 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
 | 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
 | 10 | E5 The 旧暦 election | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
-| 11 | E4 The works' own rising signs | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
+| 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
 | 12 | M1 Meditation timer and bell | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | 13 | T4 + T5 Element calculation and gender | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
@@ -826,6 +826,15 @@ place (D1).
 - **Done when.** A vector from the text; SPEC §5.13. The same lists'
   twelve links (not calculated) and *sme ba* (calculated, §5.11, but
   given no rank by the texts) stay out.
+- **Built 2026-10-09.** All the
+  chapter's lists read on the scans (white-beryl-ch34.md, *Rising
+  signs*: 55 works; Yigdzin-1 as witness, KP's boxes not read box by box);
+  `WhiteBerylWorks.SIGNS` into `Factors.signs`; `Texts.WORKS_SIGN` (the
+  works of each sign) and `Texts.period` (the period's reading without
+  what the works' own hours decide the other way); the hours panel's
+  row "The works' own hours"; `WorksSignTest`; SPEC §5.10, §5.13, §10.3.
+  E3's hours (`Election.hours`) take the work's own signs first, then
+  `Texts.period`; `ElectionTest` checks journeys against p. 393.
 
 #### E5 The 旧暦 page — S
 

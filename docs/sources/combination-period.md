@@ -74,3 +74,12 @@ combination period, each hour coloured by its verdict, with dots on the
 nectar periods; tapping an hour shows its sign's reading with the lists.
 The day in brief does not weigh it: it is a time within the day, as the
 text itself says, and the day's verdict stays the day's.
+
+WB's chapter 34 gives most works their own signs rising
+([white-beryl-ch34.md](white-beryl-ch34.md), *Rising signs*, read
+2026-10-09): each the work's particular case, which p. 376 sets above the
+general reading («དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»). The hour shows them as a row of
+their own, and its period reading leaves out what they decide the other
+way; on the twelve signs that is only Gemini's empowerment, practice and
+study (p. 372), which the chapter names bad under Gemini for ordination
+and teaching.
