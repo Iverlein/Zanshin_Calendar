@@ -61,7 +61,6 @@ import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.GreatBlackDay
-import androidx.compose.material3.IconButton
 import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.HourSign
 import java.time.ZoneId
@@ -231,7 +230,13 @@ fun TibetanPage(
             }
         }
 
-        BriefRow(summary, onHour = { hoursFrom = it; hoursOpen = true }) { summaryOpen = true }
+        // The hours above the day (ROADMAP U6): the combination period, which outweighs every factor of the
+        // day while it lasts (SPEC §5.12), stands before the day in brief.
+        val (currentHour, nowMinute) = rememberCurrentHour(info.date, zone)
+        val hourSigns = remember(info.signs.date) { Forces.hours(info.signs.date) }
+        HoursRow(summary, day, hourSigns, currentHour, nowMinute) { hoursFrom = it; hoursOpen = true }
+
+        BriefRow(summary) { summaryOpen = true }
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
@@ -590,44 +595,46 @@ fun TibetanPage(
                     decides = decides(DayFactor.YOGA),
                 ),
             )
-            // The row is the haircut weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the
-            // date is one of the date's lists, shown in the sheet as such, outweighed where it is, and marked as not WB's (T2.15).
-            val haircut = Texts.HAIRCUT[day.day - 1]
-            val dateDay = Annotation(
-                haircutDateTitle,
-                haircutDateNote,
-                haircutDateTone,
-                haircut,
+        }
+        // Works (ROADMAP U6): a work's verdict, not a voice, so apart from the Almanac and before it. The haircut
+        // weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the date is one of the date's
+        // lists, shown in the sheet as such, outweighed where it is, and marked as not WB's (T2.15).
+        val haircut = Texts.HAIRCUT[day.day - 1]
+        val dateDay = Annotation(
+            haircutDateTitle,
+            haircutDateNote,
+            haircutDateTone,
+            haircut,
+            titleIsKanji = false,
+            details = listOf(whiteBerylLabel to haircutNotWhiteBeryl),
+        )
+        val haircutGrid: @Composable () -> Unit = { HaircutGrid(day, info.date) }
+        val haircutRow = if (haircutTone == null || haircutBy == null) {
+            dateDay.copy(title = haircutTitle, english = Catalog.text(haircut.arg!!), glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) }, diagram = haircutGrid)
+        } else {
+            Annotation(
+                haircutTitle,
+                haircutWhy,
+                haircutTone,
+                null,
+                subtitle = haircutBy,
                 titleIsKanji = false,
-                details = listOf(whiteBerylLabel to haircutNotWhiteBeryl),
-            )
-            val haircutGrid: @Composable () -> Unit = { HaircutGrid(day, info.date) }
-            add(
-                if (haircutTone == null || haircutBy == null) {
-                    dateDay.copy(title = haircutTitle, english = Catalog.text(haircut.arg!!), glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) }, diagram = haircutGrid)
-                } else {
-                    Annotation(
-                        haircutTitle,
-                        haircutWhy,
-                        haircutTone,
-                        null,
-                        subtitle = haircutBy,
-                        titleIsKanji = false,
-                        lead = { Box(Modifier.size(8.dp).background(toneColor(haircutTone), CircleShape)) },
-                        glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
-                        diagram = haircutGrid,
-                        parts = listOf(dateDay),
-                    )
-                },
+                lead = { ToneDot(haircutTone) },
+                glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
+                diagram = haircutGrid,
+                parts = listOf(dateDay),
             )
         }
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_almanac)) }
-            IconButton(onClick = { hoursFrom = null; hoursOpen = true }) {
-                Icon(Icons.Clock, contentDescription = stringResource(R.string.hours_open), tint = Palette.muted)
-            }
+        SectionTitle(stringResource(R.string.section_works))
+        AnnotationRow(haircutRow) { a -> sheet = a }
+
+        // The Almanac's heading names what decides the day; among its rows only that voice's dot is solid,
+        // the others' outlines (ROADMAP U6), so that the dots read as the voices' own tones, not as a count.
+        Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            SectionTitle(stringResource(R.string.section_almanac))
+            summary.verdict?.let { Text(byShort(it), style = body.copy(fontSize = 12.sp, color = Palette.faint)) }
         }
-        Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
+        Column { annotations.forEach { AnnotationRow(it.copy(outline = !it.decides)) { a -> sheet = a } } }
 
         val birth = info.birthSign
         if (yours.isNotEmpty() || birth != null) {

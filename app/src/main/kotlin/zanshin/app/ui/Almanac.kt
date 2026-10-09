@@ -176,13 +176,25 @@ data class Annotation(
     val parts: List<Annotation> = emptyList(),
     /** The factor that decides the Tibetan day's tone in the brief (ROADMAP U2): a mark in the row, a note in the sheet. */
     val decides: Boolean = false,
+    /**
+     * A voice whose tone is shown but does not decide the day (ROADMAP U6): its dot is an outline, and
+     * its sheet says its lists still decide the works they name; only the deciding voice's dot is solid.
+     */
+    val outline: Boolean = false,
 )
+
+/** A tone's dot: solid, or an outline where the tone is shown but does not decide the day (ROADMAP U6). */
+@Composable
+fun ToneDot(tone: Tone, outline: Boolean = false, size: Dp = 8.dp, modifier: Modifier = Modifier) {
+    val m = modifier.size(size)
+    Box(if (outline) m.border(1.5.dp, toneColor(tone), CircleShape) else m.background(toneColor(tone), CircleShape))
+}
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
 @Composable
 fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
     val actionLabel = stringResource(R.string.action_meaning)
-    val toneText = toneLabel(a.tone)
+    val toneText = toneLabel(a.tone).let { if (a.outline) stringResource(R.string.dot_not_deciding, it) else it }
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -196,17 +208,12 @@ fun AnnotationRow(a: Annotation, onOpen: (Annotation) -> Unit) {
         if (lead != null) {
             Box(Modifier.semantics { contentDescription = toneText }) { lead() }
         } else if (a.parts.isNotEmpty()) {
-            val spoken = a.parts.map { toneLabel(it.tone) }.joinToString()
+            val spoken = a.parts.map { toneLabel(it.tone) }.joinToString().let { if (a.outline) stringResource(R.string.dot_not_deciding, it) else it }
             Row(Modifier.semantics { contentDescription = spoken }, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
-                a.parts.forEach { Box(Modifier.size(8.dp).background(toneColor(it.tone), CircleShape)) }
+                a.parts.forEach { ToneDot(it.tone, a.outline) }
             }
         } else {
-            Box(
-                Modifier
-                    .size(8.dp)
-                    .background(toneColor(a.tone), CircleShape)
-                    .semantics { contentDescription = toneText },
-            )
+            ToneDot(a.tone, a.outline, modifier = Modifier.semantics { contentDescription = toneText })
         }
         Column(Modifier.weight(1f)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -237,10 +244,17 @@ private fun DecidesMark(tone: Tone) {
     )
 }
 
-/** Under the gloss of the factor that decided the day's tone, that it did. */
+/**
+ * Under the gloss of the factor that decided the day's tone, that it did; under a voice with a tone
+ * that did not (ROADMAP U6), that its lists still decide the works they name.
+ */
 @Composable
 private fun DecidesNote(a: Annotation) {
-    if (a.decides) Text(stringResource(R.string.brief_decides_note), style = body.copy(fontSize = 14.sp, color = toneColor(a.tone)))
+    if (a.decides) {
+        Text(stringResource(R.string.brief_decides_note), style = body.copy(fontSize = 14.sp, color = toneColor(a.tone)))
+    } else if (a.outline && a.tone != Tone.NEUTRAL) {
+        Text(stringResource(R.string.brief_outweighed_note), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
+    }
 }
 
 /**

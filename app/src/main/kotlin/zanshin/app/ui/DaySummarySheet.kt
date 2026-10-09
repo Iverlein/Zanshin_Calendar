@@ -36,12 +36,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.CustomAccessibilityAction
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.customActions
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -78,7 +77,7 @@ private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWe
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun BriefRow(summary: DaySummary, onHour: (Int) -> Unit = {}, onOpen: () -> Unit) {
+fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
     val disputed = summary.activities.count { it.disputed }
     val dayLabel = summary.verdict?.let {
@@ -86,11 +85,7 @@ fun BriefRow(summary: DaySummary, onHour: (Int) -> Unit = {}, onOpen: () -> Unit
     }
     val row = remember(summary) { summary.row() }
     val avoidAll = if (summary.avoidAll.isNotEmpty()) stringResource(R.string.brief_avoid_all) else null
-    val hours = summary.hoursAgainst.map { clockSpan(5 * 60 + it.first * 120, it.count * 120) to it.first }
-    val hoursLabel = summary.verdict?.let { stringResource(if (it.tone == Tone.GOOD) R.string.brief_row_hours_bad else R.string.brief_row_hours_good) }
-    val openHour = stringResource(R.string.hours_open)
-    val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
-        (if (hours.isNotEmpty()) "$hoursLabel ${hours.joinToString { it.first }}, " else "") + (avoidAll?.let { "$it, " } ?: "") +
+    val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") + (avoidAll?.let { "$it, " } ?: "") +
         (if (avoidAll != null) stringResource(R.string.brief_row_avoid, summary.avoid.size) else stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size)) +
         (if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "") +
         when {
@@ -103,10 +98,7 @@ fun BriefRow(summary: DaySummary, onHour: (Int) -> Unit = {}, onOpen: () -> Unit
             .fillMaxWidth()
             .heightIn(min = 44.dp)
             .clickable(role = Role.Button, onClickLabel = briefLabel, onClick = onOpen)
-            .clearAndSetSemantics {
-                contentDescription = spoken
-                customActions = hours.map { (time, hour) -> CustomAccessibilityAction("$openHour, $time") { onHour(hour); true } }
-            },
+            .clearAndSetSemantics { contentDescription = spoken },
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
@@ -116,24 +108,6 @@ fun BriefRow(summary: DaySummary, onHour: (Int) -> Unit = {}, onOpen: () -> Unit
                 summary.verdict?.let { v ->
                     Box(Modifier.size(8.dp).background(toneColor(v.tone), CircleShape))
                     Text(dayLabel!!, style = body.copy(fontSize = 14.sp, color = Palette.muted))
-                }
-            }
-            // The hours against the day's tone: on an unlucky day those to be accomplished, on a lucky day those to avoid.
-            if (hours.isNotEmpty()) {
-                val against = if (summary.verdict!!.tone == Tone.GOOD) Tone.BAD else Tone.GOOD
-                FlowRow(
-                    verticalArrangement = Arrangement.Center,
-                    itemVerticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    Text(hoursLabel!!, style = body.copy(fontSize = 13.sp, color = toneColor(against)))
-                    for ((time, hour) in hours) {
-                        Text(
-                            time,
-                            style = body.copy(fontSize = 14.sp),
-                            modifier = Modifier.clickable(role = Role.Button, onClickLabel = openHour) { onHour(hour) }.padding(vertical = 4.dp),
-                        )
-                    }
                 }
             }
             // The person's enemy weekday or death mansion: every work to avoid, beside the day's tone (ROADMAP E6).
@@ -248,6 +222,17 @@ fun DaySummarySheet(
                             },
                             style = body.copy(fontSize = 14.sp, color = Palette.muted),
                         )
+                        // The rule in a sentence (ROADMAP U6): a work goes to the strongest factor naming it, and the hour
+                        // outweighs the day; on the person's enemy weekday or death mansion neither holds (SPEC §5.12).
+                        if (s.avoidAll.isEmpty()) {
+                            val against = if (v.tone == Tone.GOOD) s.avoid.size else s.good.size
+                            val rule = if (v.tone == Tone.GOOD) R.plurals.brief_rule_lucky else R.plurals.brief_rule_unlucky
+                            Text(
+                                (if (against > 0) pluralStringResource(rule, against, against) + " " else "") + stringResource(R.string.brief_rule_hour),
+                                style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted),
+                                modifier = Modifier.padding(top = 6.dp),
+                            )
+                        }
                     }
                 }
             }
@@ -266,6 +251,9 @@ fun DaySummarySheet(
                 Text(stringResource(R.string.brief_festival_note), style = body.copy(fontSize = 14.sp, color = Palette.muted))
             }
 
+            // The hours before the works (ROADMAP U6): the one factor the texts put above the day.
+            s.hours?.let { HoursBlock(it, onHour) }
+
             if (s.verdict != null) {
                 VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
                 VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
@@ -273,8 +261,6 @@ fun DaySummarySheet(
                 ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
                 ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
             }
-
-            s.hours?.let { HoursBlock(it, onHour) }
 
             Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {
@@ -500,9 +486,9 @@ private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
     }
 }
 
-/** What decided the Tibetan day's tone, in a few words for the summary line: the combination, or the factor by name (ROADMAP U2). */
+/** What decided the Tibetan day's tone, in a few words for the summary line and the Almanac's heading: the combination, or the factor by name (ROADMAP U2, U6). */
 @Composable
-private fun byShort(v: DayVerdict): String = when (v.by) {
+internal fun byShort(v: DayVerdict): String = when (v.by) {
     VerdictBy.COMBINATION -> stringResource(R.string.brief_by_combination)
     VerdictBy.STRONGEST -> stringResource(R.string.brief_by_factor, v.deciding.joinToString { it.kanji })
 }

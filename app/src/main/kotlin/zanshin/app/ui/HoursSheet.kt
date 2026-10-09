@@ -88,6 +88,27 @@ import kotlin.math.sin
  * an hour shows its rows, which open their readings through [onOpen]. It opens
  * at [initial], a two-hour period from 05:00, or else at the present hour.
  */
+/**
+ * The present hour of the Tibetan day on [date] at [zone]: the two-hour period from 05:00 it falls
+ * in, 0 to 11, and the minute of the clock day, both null when that day is not running now; kept
+ * fresh every half minute while shown. The Tibetan day runs from 05:00 on its date to 05:00 the next
+ * morning.
+ */
+@Composable
+fun rememberCurrentHour(date: LocalDate, zone: ZoneId): Pair<Int?, Int?> {
+    val dayStart = remember(date, zone) { date.atTime(LocalTime.of(5, 0)).atZone(zone) }
+    var now by remember { mutableStateOf(ZonedDateTime.now(zone)) }
+    LaunchedEffect(zone) {
+        while (true) {
+            delay(30_000)
+            now = ZonedDateTime.now(zone)
+        }
+    }
+    val sinceStart = Duration.between(dayStart, now).toMinutes()
+    val current = if (sinceStart in 0 until 24 * 60) (sinceStart / 120).toInt() else null
+    return current to (if (current != null) now.hour * 60 + now.minute else null)
+}
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HoursSheet(
@@ -105,19 +126,8 @@ fun HoursSheet(
     val hours = remember(signs.date) { Forces.hours(signs.date) }
     val periods = remember(day.month) { (0 until 12).map { risingSign(day.month, it) } }
     val nectar = remember(day.weekday) { nectarHours(day.weekday) }
-    // The Tibetan day of this page runs from 05:00 on its date to 05:00 the next morning.
-    val dayStart = remember(date, zone) { date.atTime(LocalTime.of(5, 0)).atZone(zone) }
-    var now by remember { mutableStateOf(ZonedDateTime.now(zone)) }
-    LaunchedEffect(zone) {
-        while (true) {
-            delay(30_000)
-            now = ZonedDateTime.now(zone)
-        }
-    }
-    val sinceStart = Duration.between(dayStart, now).toMinutes()
-    val current = if (sinceStart in 0 until 24 * 60) (sinceStart / 120).toInt() else null
+    val (current, nowMinute) = rememberCurrentHour(date, zone)
     var selected by remember(date) { mutableIntStateOf(initial ?: current ?: 0) }
-    val nowMinute = if (current != null) now.hour * 60 + now.minute else null
 
     fun tone(i: Int, force: Force) = pebbleTone(ForceContrast(force, birth!!.forces[force], hours[i].sign.forces[force]).pebbles)
 

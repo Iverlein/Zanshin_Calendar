@@ -93,6 +93,8 @@
     <!-- a detail row of a yoga's reading: the name the White Beryl gives it, in Wylie -->
     <string name="detail_white_beryl">In the White Beryl</string>
     <string name="section_almanac">Almanac</string>
+    <!-- The works' verdicts (ROADMAP U6): the haircut's row, above the Almanac -->
+    <string name="section_works">Works</string>
     <string name="section_your_day">Your day</string>
     <string name="section_also_today">Also today</string>
     <!-- "Vitality  ○○": the aspect, then the pebbles -->
@@ -330,6 +332,23 @@
     <string name="brief_by_factor">by %1$s</string>
     <string name="brief_decides">decides</string>
     <string name="brief_decides_note">Decides the day\'s tone in the brief today.</string>
+    <!-- The Almanac's other voices (ROADMAP U6): an outlined dot, and why in the sheet -->
+    <string name="dot_not_deciding">%1$s, not deciding today</string>
+    <string name="brief_outweighed_note">Its tone does not decide the day today: a stronger factor does. Its lists still decide the works they name that no stronger factor names.</string>
+    <!-- The brief's headline (ROADMAP U6): the rule in a sentence, the counts of the day -->
+    <plurals name="brief_rule_unlucky">
+        <item quantity="one">Each work goes to the strongest factor that names it, so %1$d work is still good today.</item>
+        <item quantity="other">Each work goes to the strongest factor that names it, so %1$d works are still good today.</item>
+    </plurals>
+    <plurals name="brief_rule_lucky">
+        <item quantity="one">Each work goes to the strongest factor that names it, so %1$d work is still to avoid today.</item>
+        <item quantity="other">Each work goes to the strongest factor that names it, so %1$d works are still to avoid today.</item>
+    </plurals>
+    <string name="brief_rule_hour">Within its hour the combination period outweighs the day.</string>
+    <!-- The hours row above the day (ROADMAP U6): "Hours", a strip of the twelve, then the present hour -->
+    <string name="hours_row_label">Hours</string>
+    <string name="hours_row_now">now · %1$s %2$s · %3$s rises · %4$s</string>
+    <string name="hours_strip_description">The twelve hours from 05:00, each coloured by its combination period</string>
     <string name="brief_festival_note">The tone is the day\'s for its works; it does not weigh the merit of the festival or observance.</string>
     <string name="brief_note_tibetan">Weighed as the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) and the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long) say, by one rule for the day and for each work. Where the named combination of weekday and mansion and the element pair agree, the combination is the day\'s result, and what any other factor says against it is outweighed, even where the weekday and the mansion agree; it decides a work only where the element pair names it, so a lucky day keeps the date\'s and the weekday\'s prohibitions. Where the two disagree, and for every other work, the strongest factor that takes a side decides, in this order: Rāhu, the weekday, the mansion, the special days of weekday and mansion (one voice, and none when they disagree), the date, the karaṇa, the yoga and the day animal. The White Beryl weighs mixed factors by their strength, not by their number. Rāhu, the mansion and the day animal have no tone of their own and decide only the works they name; the trigram decides only works no other factor names. Outweighed factors are not shown.</string>
     <!-- the combination's one row (ROADMAP U1): its two parts, the named combination and the element pair, and whether they agree -->
