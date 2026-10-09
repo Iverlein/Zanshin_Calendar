@@ -183,6 +183,8 @@ object Sources {
     val WHITE_BERYL_TIMES = whiteBeryl("pp. 177–178, and chapter 15, pp. 180–182", volume = 1)
     /** The earth lords of the hour, after those that move by date (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_HOUR_EARTH_LORDS = whiteBeryl("pp. 235–236")
+    /** The triads' klung rta and the twelve animals' places (vol. 1, p. 254), and the four-slayers counted up and down (p. 235). */
+    val WHITE_BERYL_KLUNG_RTA = whiteBeryl("pp. 235 and 254", volume = 1)
     /** The model almanac, whose day boxes write the courses (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_MODEL_ALMANAC = whiteBeryl("the model almanac, pp. 154–171", volume = 1)
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's astrologer spirit (བླ་མཁྱེན, bla mkhyen) p. 180, the remedy's texts in full p. 189 and the day's mewa (སྨེ་བ, sme ba) p. 192")
@@ -999,12 +1001,33 @@ object Texts {
      * The earth lords of the hour (WB vol. 2, p. 235): *g.yu mdzod sngon mo*, the god of the hours, and
      * the earth lords *khang brtsegs* and *mtsho sngon*, each on the place of the hour that it is, as the
      * day's earth lord on its day's («དུས་ཚོད་གང་ཡིན་སྟེང་ན་གནས», «དུས་ཚོད་རང་རང་ཐོག་ན་གནས»); what WB names bad
-     * there. The hour's *bla mkhyen* and *sa rgyal* are not built (docs/sources/earth-lord-courses.md).
+     * there. The hour's *bla mkhyen* and *sa rgyal* have readings of their own below.
      */
     val HOUR_EARTH_LORDS = Reading(
         avoidKeys = listOf("giving_and_taking_a_bride", "funeral_rites", "building_a_hearth", "burial", "building_forts", "moving_house"),
         source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.SNANG_BRGYAD, Sources.GDUGS_DKAR, Sources.TOG_GZUNGS, Sources.GZUNGS_BSDUS),
         key = "reading.HourEarthLords",
+    )
+
+    /**
+     * The hour's *bla mkhyen* ([zanshin.core.tibetan.EarthLordCourses.hourBlaMkhyen], WB vol. 2, p. 235): on the
+     * *klung rta* of the hour's triad, its avoidances and remedies the year's (p. 180), as [BLA_MKHYEN] gives them.
+     */
+    val HOUR_BLA_MKHYEN = Reading(
+        avoidKeys = BLA_MKHYEN.getValue(Direction.NORTH).avoidKeys,
+        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS,
+        also = listOf(Sources.WHITE_BERYL_KLUNG_RTA, Sources.WHITE_BERYL_BLA_MKHYEN) + BLA_MKHYEN.getValue(Direction.NORTH).also.take(5),
+        key = "reading.HourBlaMkhyen",
+    )
+
+    /**
+     * The hour's *sa rgyal* ([zanshin.core.tibetan.EarthLordCourses.hourSaRgyal], WB vol. 2, p. 236): on the
+     * four-slayer in front of the hour; spectacles, corpse rites and building a fort avoided.
+     */
+    val HOUR_SA_RGYAL = Reading(
+        avoidKeys = listOf("spectacles", "funeral_rites", "building_forts"),
+        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
+        key = "reading.HourSaRgyal",
     )
 
     /**

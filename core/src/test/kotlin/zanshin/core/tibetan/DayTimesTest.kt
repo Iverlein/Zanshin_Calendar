@@ -191,4 +191,36 @@ class DayTimesTest {
         assertFalse(EarthLordCourses.blackHour(Animal.MOUSE, Animal.MOUSE))
         for (a in Animal.entries) assertEquals(2, Forces.HOUR_ANIMALS.count { EarthLordCourses.blackHour(a, it) })
     }
+
+    /** WB vol. 1, p. 254: each triad's klung rta; vol. 2, p. 235: the hour's bla mkhyen on its triad's. */
+    @Test
+    fun `the hour's bla mkhyen sits on its triad's klung rta`() {
+        val triads = listOf(
+            listOf(Animal.TIGER, Animal.HORSE, Animal.DOG) to Animal.MONKEY,
+            listOf(Animal.PIG, Animal.SHEEP, Animal.RABBIT) to Animal.SNAKE,
+            listOf(Animal.MOUSE, Animal.DRAGON, Animal.MONKEY) to Animal.TIGER,
+            listOf(Animal.BIRD, Animal.OX, Animal.SNAKE) to Animal.PIG,
+        )
+        for ((triad, klung) in triads) for (a in triad) assertEquals(klung, EarthLordCourses.hourBlaMkhyen(a), "$a")
+        // The klung rta's element is the luck of the year's four aspects (SPEC §5.9), its animal the element's first.
+        for (a in Animal.entries) {
+            val luck = Forces.of(Element.WOOD, a).luck
+            assertEquals(luck, Forces.of(Element.WOOD, EarthLordCourses.klungRta(a)).vitality, "$a")
+        }
+    }
+
+    /** WB vol. 2, p. 236, with the upward four-slayer of vol. 1, p. 235 (the mouse's the hare). */
+    @Test
+    fun `the hour's sa rgyal sits on the four-slayer in front`() {
+        assertEquals(Animal.RABBIT, EarthLordCourses.hourSaRgyal(Animal.MOUSE))
+        assertEquals(Animal.HORSE, EarthLordCourses.hourSaRgyal(Animal.RABBIT))
+        assertEquals(Animal.MOUSE, EarthLordCourses.hourSaRgyal(Animal.BIRD))
+        for (a in Animal.entries) assertTrue(EarthLordCourses.blackHour(a, EarthLordCourses.hourSaRgyal(a)), "a four-slayer of $a")
+    }
+
+    @Test
+    fun `every animal has its place`() {
+        for (a in Animal.entries) assertTrue(zanshin.core.texts.gloss(a, "place").isNotBlank())
+        assertEquals("upper east", zanshin.core.texts.gloss(Animal.TIGER, "place"))
+    }
 }

@@ -299,6 +299,32 @@ object EarthLordCourses {
         hourAnimal.ordinal == (dateAnimal.ordinal + 3) % 12 || hourAnimal.ordinal == (dateAnimal.ordinal + 9) % 12
 
     /**
+     * The *klung rta* of each animal's triad, as WB names it (vol. 1, p. 254: «སྟག་རྟ་ཁྱི་གསུམ་ཀླུང་སྤྲེལ་ལྕགས། །ཕག་ལུག་ཡོས་གསུམ་ཀླུང་སྦྲུལ་མེ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཀླུང་སྟག་ཤིང་། །བྱ་གླང་སྦྲུལ་གསུམ་ཀླུང་ཕག་ཆུ»):
+     * the tiger, horse and dog's the iron monkey, the pig, sheep and hare's the fire snake, the mouse,
+     * dragon and monkey's the wood tiger, the bird, ox and snake's the water pig.
+     */
+    fun klungRta(animal: Animal): Animal = when (animal) {
+        TIGER, HORSE, DOG -> MONKEY
+        PIG, SHEEP, RABBIT -> SNAKE
+        MOUSE, DRAGON, MONKEY -> TIGER
+        BIRD, OX, SNAKE -> PIG
+    }
+
+    /**
+     * The hour's *bla mkhyen* (vol. 2, p. 235): on the *klung rta* of the hour's triad, as the year's on
+     * the year's («དུས་ཚོད་བླ་མཁྱེན་དུས་ལོ་ཡི། །མཐུན་གསུམ་ཀླུང་རྟའི་སྟེང་ན་གནས»).
+     */
+    fun hourBlaMkhyen(hourAnimal: Animal): Animal = klungRta(hourAnimal)
+
+    /**
+     * The hour's *sa rgyal* (vol. 2, p. 236): on the four-slayer in front of the hour
+     * («དུས་ཚོད་ས་རྒྱལ་མདུན་གྱི་ནི། །བཞི་གཤེད་སྟེང་དུ་གནས»), the one ahead in the hours' own course: WB counts an
+     * animal's four-slayers up and down (vol. 1, p. 235: the mouse's upward one the hare, «ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ», its
+     * downward one the bird), and the one in front is the upward, three animals on.
+     */
+    fun hourSaRgyal(hourAnimal: Animal): Animal = Animal.entries[(hourAnimal.ordinal + 3) % 12]
+
+    /**
      * The Paṇchen Mön'drowa's black days by year (p. 235), another view: the season-month and date
      * of each year's black day. The year is the Chinese reckoning's, which begins with the 11th month
      * (the model almanac, vol. 1, p. 154: «ནག་རྩིས་ལོ་འགོ … ཧོར་ཟླ་བཅུ་གཅིག་པ»).
