@@ -555,8 +555,8 @@ voices, so that the tone and the lists cannot go separate ways.
 
 - **The voices**, strongest first: the combination of weekday and mansion
   (*'phrod*: the named combination, *'phrod chen*, and the element pair,
-  §5.8, one voice); Rāhu, on the dates its detailed course or its course by
-  month names (§5.13), the first of the *kun phan me long*'s seven; the
+  §5.8, one voice); Rāhu, on the dates its detailed course, its course by
+  month or its course among the earth lords names (§5.13), the first of the *kun phan me long*'s seven; the
   weekday; the mansion; the special days of weekday and mansion with the
   burning date (§5.11), which WB's almanac writes with them (vol. 1,
   p. 177), one voice; the lunar date; the karaṇa; the yoga; the day animal (the lunar
@@ -670,7 +670,7 @@ voices, so that the tone and the lists cannot go separate ways.
   "Combination" row with both dots, as the special days and Rāhu's
   courses are. What is shown but not weighed stands apart: the person's
   own days and mansions in "Your day", with vitality and body; the
-  *bla mkhyen* and the great black day in "Also today". The nectar periods, times within the day
+  *bla mkhyen*, the great black day and the earth lords' courses (§5.13) in "Also today". The nectar periods, times within the day
   (§5.13), are in the brief's "By the hour" and on the hours panel, not
   in the Almanac.
 
@@ -686,7 +686,9 @@ texts do not place them against the date, karaṇa and yoga.
 On 2000–2049 (18,263 days) the rule decides the tone by the combination on
 9,672 days (53 %) and by the strongest factor on the rest. The days whose
 lists run against their tone (more than twice as many works on the other
-side) are 2,085 (11 %; 2,140 before the White Beryl's chapter 34 was built,
+side) are 2,080 (11 %; 2,082 before Rāhu's course among the earth lords,
+T2.13, put its lists in his tier; 2,085 before the burning date, T2.12;
+2,140 before the White Beryl's chapter 34 was built,
 T2.6, which changes no day's tone; 2,087 before the mansions' verses,
 T2.5); 3,892 were under an earlier rule, which let the
 special days decide and each work go to its strongest voice. A day's tone
@@ -729,6 +731,39 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   12th, and autumn the 5th to the 7th
   ([sources/tibetastromed.md](sources/tibetastromed.md), *WB's months and
   seasons*).
+- **Rāhu among the earth lords** (vol. 2, p. 232, section 27 of the
+  earth lords that move by date, [sources/earth-lord-courses.md](sources/earth-lord-courses.md)):
+  the dates of each season-month on which Rāhu seeks food, two in the first
+  month of spring (the 11th and 28th) down to none in the last of winter
+  (`RahuBySeason`); works great and small for the living and the dead are
+  avoided, hurling *zor* and fierce work auspicious. A third reading in the
+  Rāhu row, weighed in his tier like the course by month; it moves two days
+  of 2000–2049 into the count of days whose lists run against their tone
+  (§5.12).
+- **The earth lords that move by date** (WB vol. 2, pp. 226–235,
+  [sources/earth-lord-courses.md](sources/earth-lord-courses.md)), which
+  WB's almanac writes on the day (vol. 1, pp. 173, 178): after the great
+  black day (§5.11), the small black day, *pi ling 'phar ma*, *zin phung*,
+  *phung po zor thogs*, *ki kang*, *hal khyi*, *gnam khyi*, *gnam sbyor*,
+  *gza' rgod*, *dbul po*, *gza' bdun*, *ngam shing*, *bar khyi*, *ka khyung
+  ki kang* and *dra chen* on their dates; the eight classes' and the nāgas'
+  strikes and turnings, a strike naming good the works its turning names
+  to avoid (p. 232; p. 234; again p. 364); the earth lords' turning; the
+  *gnyan*'s moving times, with Spug ston's strikes and turnings of the
+  *gnyan*, the only ones WB gives; the classes' own times; and the sky door
+  of every date by the last figure of its number (the 1st, 11th and 21st
+  the guests', … the 10th, 20th and 30th the general one), each door's own
+  work avoided (pp. 368–369). Keyed by the Chinese reckoning's season-month,
+  which is also the animal month from the tiger (the 11th), by the date and,
+  for *zin phung* and *gnam khyi*, by the date's animal; a skipped date has
+  none, a doubled one both days, a leap month as its month
+  (`EarthLordCourses`). Where WB gives a course and then another way, or
+  what "some say", the first is built; WB's model almanac (vol. 1,
+  pp. 154–171), whose day boxes write the courses, settles the readings it
+  can check and is the test's witness (`EarthLordCoursesTest`). Shown and
+  not weighed: WB's order of strength (vol. 2, p. 376) ranks the seven
+  factors and the combination period and gives the earth lords no place
+  (§5.12). One row in "Also today" (§10.3).
 - **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
   the *kun phan me long* §10: each double hour is halved, each half ruled
   by a planet, counted from the weekday's own planet six on by day (from
@@ -1137,6 +1172,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040); the *kun phan me long*'s chart of the general course, img. 78 (BDRC MW4CZ65561) |
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | The great black day, the meeting of the nine bad | The White Beryl, Beijing 1996, vol. 2, p. 226 (BDRC MW2CZ8040) |
+| The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
@@ -1367,7 +1403,10 @@ canvas "Zanshin Calendar — basic design".
 - **Also today:** after Your day, what the day holds that the weighing
   does not count: the *bla mkhyen*'s direction (§5.11), with its compass,
   and on its dates the great black day (§5.11), its title the meeting of
-  the nine bad on 11/7.
+  the nine bad on 11/7; then the earth lords' courses (§5.13), one row
+  whose subtitle names each course on the day with its event ("The nāgas:
+  turning", "The sky door: war's door"), the sheet giving each course's
+  reading in turn.
   The nectar periods have no row on the page: the brief's "By the hour"
   and the hours panel give them (§5.13).
 - **Hours of the day:** a clock icon on the Almanac header opens the

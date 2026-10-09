@@ -46,7 +46,7 @@ moves up as soon as it is unblocked.
 | 5 | T2.11 WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
 | 6 | T2.15 Hair by date — built 2026-10-09 | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
 | 7 | T2.14 The 11th month's 6th — built 2026-10-09 | 5 | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
-| 8 | T2.13 The eight classes and the nāgas | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
+| 8 | T2.13 The eight classes and the nāgas — built 2026-10-09 | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
 | 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
 | 10 | E5 The 旧暦 election | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
 | 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
@@ -260,29 +260,47 @@ good and evil" are not in WB's etext and are not built.
   sign (vol. 1, ch. 8): not built; worth it only with that reckoning for
   other uses. *rgyun sreg* (p. 351) is unidentified.
 
-#### T2.13 The strikes of the eight classes and the nāgas — L
+#### T2.13 The earth lords that move by date — built 2026-10-09 (SPEC §5.13)
 
-- **Gap.** WB vol. 2, pp. 226–235 run through dated courses beside the
-  earth lords and Rāhu: the bad days by month (the great black day built
-  by T2.14; the small black day, *nyi ma nag chung*, after it on p. 226), *dra chen*, Rāhu's days by
-  month, the earth lords' turning, *gnyan*, and, named in WB's almanac
-  list, the strikes (*thebs*) and turnings (*bzlog*) of the eight classes
-  (p. 232, section 28: season-month, date, hour, direction and class) and
-  of the nāgas (p. 234, section 31: on a strike nāga offerings and
-  rain-making good, on a turning not; p. 364), and the sky doors
-  (*gnam sgo*, p. 235: dates on which war, alliances, a castle, a bride,
-  burial, funeral rites or all works are avoided), which WB's almanac
-  writes with the strikes and *gnyan pa* (T2.11). None is built. The
-  calendar's own eight classes and "protectors" are not WB's and are not
-  to be copied.
-- **Work.** With T2.10's months (spring 11, 12, 1; autumn 5–7): read
-  pp. 226–235 on the scan into a topic file, section by section; build
-  the eight classes' and the nāgas' courses as dated rows like Rāhu's
-  (strike or turning, the hour and direction, the works WB names for
-  each), weighed in the tier WB's words give them;
-  list the other sections as built or not planned.
-- **Done when.** Each course has a test vector from the text; SPEC §5.13;
-  checked on the emulator in both languages.
+- **Gap.** WB vol. 2, pp. 226–235 run through the earth lords that move by
+  date, which WB's almanac writes on the day (vol. 1, pp. 173, 178): the
+  strikes (*thebs*) and turnings (*bzlog*) of the eight classes and the
+  nāgas, the sky doors (*gnam sgo*), *gnyan pa*, and the earth lords of the
+  Chinese reckoning. None was built but the great black day (T2.14).
+- **Built.** Read on the scan into
+  [earth-lord-courses.md](sources/earth-lord-courses.md), section by
+  section, with Yigdzin-1, MITRA and the etext, and checked against the day
+  boxes of WB's model almanac (vol. 1, pp. 154–171: Hor months 11, 12 and 9),
+  which settle «X གསུམ» as the Xth, X+10th and X+20th and show the almanac
+  writing the sky doors by the general reckoning. `EarthLordCourses`: the
+  small black day, *pi ling 'phar ma*, *zin phung*, *phung po zor thogs*,
+  *ki kang*, *hal khyi*, *gnam khyi*, *gnam sbyor*, *gza' rgod*, *dbul po*,
+  *gza' bdun*, *ngam shing*, *bar khyi*, *ka khyung ki kang*, *dra chen*,
+  the eight classes' and the nāgas' strikes and turnings, the earth lords'
+  turning, the *gnyan*'s moving times with their strikes and turnings, the
+  classes' own times and the sky doors, each with WB's results (p. 364 and
+  pp. 368–369 for the strikes and the doors) in English and Russian;
+  `EarthLordCoursesTest`. One row, "The earth lords' courses", in "Also
+  today" after the great black day, shown and not weighed: WB's order of
+  strength (p. 376) does not rank the earth lords, and no weight is
+  invented. The exception is section 27, a course of Rāhu: `RahuBySeason`,
+  a third reading in the Rāhu row, weighed in Rāhu's tier (two days of
+  2000–2049 change in `DaySummaryTest`'s count).
+- **Other views.** The second and third courses WB reports after its own
+  (*ki kang*'s, *gnam khyi*'s, *phung po zor thogs*'s by season, *gza'
+  bdun*'s reversed, *dbul po*'s and *nag chung*'s variants), what "some say"
+  of the eight classes' and the nāgas' strikes, and Spug ston's view of the
+  earth lords (dates of success, vanishing and keeping wealth) are built too,
+  each marked as another view.
+- **Left,** for want of a reading: Spug ston's last-summer success and
+  vanishing dates (they do not read) and his direction for each month
+  (*yas lam*, not identified); *zin phung*'s twelve hours (one time name,
+  «རྡེལ་འགོ་དྲོས», not identified); the planets' and *srin po*'s times on the
+  festival *biddhi*, which WB does not date. The sky doors' remedies (pp. 368–369) are summarised in
+  each door's reading; *zin phung*'s spring days in the middle are their own
+  event ("in the middle"). The black days
+  (p. 235) go with the black months (T2.21); the earth lords of the hour
+  that follow (pp. 235–236) with the times within the day (T2.20).
 
 #### T2.14 The 11th month's 6th: the nine bad — built 2026-10-09 (SPEC §5.7, §5.11)
 
@@ -452,6 +470,11 @@ it. It is item E below, built 2026-10-09 but for E4 and E5.
   Rows: a second mansion and a skipped yoga each beside the daybreak one,
   with its time; Viṣṭi's span on the karaṇa row and the hours panel; the
   sun's term in the Lunar day section.
+  The earth lords of the hour (WB vol. 2, pp. 235–236: *g.yu mdzod sngon
+  mo*, the hour's *bla mkhyen*, *sa bdag khang brtsegs*, *dus tshod sa
+  rgyal* with *pi ling 'phar ma*'s hours, the black hours), found by T2.13
+  ([earth-lord-courses.md](sources/earth-lord-courses.md)), are times within
+  the day too: read and build them on the hours panel.
 - **Done when.** Vectors against Henning's calendars where they give the
   times, and against WB's rule for the sun's terms; SPEC §5.8, §10.3;
   checked on the emulator in both languages.
@@ -487,7 +510,8 @@ it. It is item E below, built 2026-10-09 but for E4 and E5.
   weekday), eclipses, and seasonal signs (the Ṛṣi's seven days, the
   poisoned waters, a comet). None is built.
 - **Work.** Read on the scan: the black months (vol. 2, p. 212, *ki kang
-  zla nag*, and vol. 1, pp. 340, 343), the weekday's rise against its
+  zla nag*, and vol. 1, pp. 340, 343) with the black days that follow their rule (vol. 2,
+  p. 235, «ཞག་ནག … གོང་དུ་ཟླ་ནག་བཤད་པ་ལྟར», found by T2.13), the weekday's rise against its
   works (vol. 2, p. 312: «ཕྱུགས་གཟའ་དར་ཡང་ཕྱུགས་མི་སྐྱེལ»), WB's eclipse
   reckoning (vol. 1, p. 62 ff.), and where the seasonal signs are dated.
   Build each that is calculable in the month balloon; the weekday's rise,
@@ -523,7 +547,7 @@ it. It is item E below, built 2026-10-09 but for E4 and E5.
 5. The reading half of T2.4, and T2.9, as the scans allow.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
-   then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13;
+   then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);
    then T2.20, T2.21 and T2.22 (after T2.20's *sgang*); T2.23 last, the largest.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
