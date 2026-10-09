@@ -68,7 +68,8 @@ Rāhu's family, the meeting of the nine bad on the 7th of the first month of
 spring, and the sisters' dates through the year. **Built by ROADMAP T2.14**
 (block 7) as `GreatBlackDay`: [great-black-day.md](great-black-day.md). Its
 "one person's view" (the 24th of the last months of spring, autumn and
-winter, the 9th of the first of winter) is not built.
+winter, the 9th of the first of winter) is built here as another view
+(`NAG_CHEN`), with the course's results.
 
 ### 2. *Nyi ma nag chung*, Jama Gunggyal's course (p. 226)
 
@@ -113,7 +114,9 @@ horse, bird and hare days it sits in the middle and nothing is done. Each
 season's avoidances (spring: building, *sa tstsha*, maṇḍalas, blocking
 holes, roofing, seeking a grave; summer: earth and water work, ponds,
 sowing, threshing, wells; autumn: earth work, «སྐྱེད་འཛུགས», walls, «གཡག་ཤིང་དགོག»
-(the last two not identified, not built); winter: earth work, stupas,
+(the last two confirmed on the Zhol print, WBZ img. 945–946, but of no
+settled sense: given word for word, "setting up growth" and "pulling down
+the yak wood", in the reading and the avoid list); winter: earth work, stupas,
 foundations) and the general ones (a birth turns back, council, a bride,
 spectacles, building, a corpse, war); never face it. **Built** (`ZIN_PHUNG`).
 
@@ -242,10 +245,13 @@ scan; **built** (`SPUG_STON`). The last month of summer reads «གསུམ་�
 in the 1996 edition and «གསུམ་དྲུག་ཉེར་ཡལ» in the Zhol print (WBZ img. 954,
 read on the scan): taken as the autumn lines are written, success,
 vanishing and wealth in turn without the words, the 3rd, the 26th
-(«དྲུག་ཉེར», inverted for the metre) and the 28th. Not built: the *yas lam*
-of each month and the *yas thags* laid toward it, which are not identified
-in any dictionary or text consulted, and a direction cannot be named
-without them.
+(«དྲུག་ཉེར», inverted for the metre) and the 28th. Each month's *yas lam*,
+the way for the ransom offering, is in the reading: WB uses *yas* for the
+ransom sent to the spirits (vol. 1: «གཉན་རྣམས་ཡས་ཀྱིས་བཀར», the *gnyan* appeased
+with *yas*; «ཡས་ཀྱིས་བསྒྱུར་བ་ལུག་ར་ཁྱི», a sheep, goat and dog sent as *yas*;
+«ཡས་ཀྱི་འཇུ་ཐག», the *yas* cord), so the *yas thags* laid toward it is the
+ransom cord: south-west, north-west, north-east; south-east, north-west,
+west; north-east, south-east, north-west; south, east, north-east.
 
 ### 30. The *gnyan*'s moving times, and their strikes and turnings (pp. 233–234)
 

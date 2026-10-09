@@ -297,8 +297,11 @@ good and evil" are not in WB's etext and are not built.
   summer («གསུམ་དྲུག་ཉེར་ཡལ»: the 3rd, 26th and 28th), and «བིདྡྷི» is Viṣṭi (WB's
   karaṇa table, p. 343), so the planets' and *srin po*'s times are Viṣṭi's
   eight dates; all three built.
-- **Left,** for want of a reading: the direction Spug ston gives each month
-  (*yas lam*), not identified. The sky doors' remedies (pp. 368–369) are summarised in
+- **Read last:** Spug ston's direction for each month (*yas lam*) is the way
+  for the ransom offering, as WB uses *yas* elsewhere, and is in the
+  reading; *zin phung*'s two autumn works, confirmed on the Zhol print, are
+  given word for word. Nothing of pp. 226–235 is left unbuilt but the black
+  days, which go with the black months (T2.21). The sky doors' remedies (pp. 368–369) are summarised in
   each door's reading; *zin phung*'s spring days in the middle are their own
   event ("in the middle"). The black days
   (p. 235) go with the black months (T2.21); the earth lords of the hour
