@@ -224,6 +224,8 @@ the text, not about the app.
     62/14 = 4;25,43 chu tshod, all but WB's mean of 4;26; reading the
     six as the dbugs of a chu srang, a carry, gives 60/14 = 4;17. No
     commentary on the line is found (BDRC's full-text search gives only
-    WB's prints and the *Kun 'dus* reprint). The app multiplies by 14 and
+    WB's prints and the *Kun 'dus* reprint), and the Zhol blocks read the
+    same, «…བསྒྱུར་ཆུ་སྲང་རོས», with no interlinear numeral (WBZ img. 210,
+    line 5, by eye at 4×). The app multiplies by 14 and
     carries (`DayTimes.MULTIPLIER`); the two readings put a term at most
     about three per cent of the excess's time apart.
