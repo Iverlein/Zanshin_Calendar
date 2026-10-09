@@ -6,7 +6,7 @@
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
-3. The Saga Dawa Düchen reading sheet, with its source, opened from the heading
+3. The Saga Dawa Düchen reading sheet, opened from the heading
 4. The 旧暦 almanac bands, from 中段 down
 5. The menu over the 旧暦 page
 6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset

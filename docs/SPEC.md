@@ -1239,7 +1239,11 @@ and adds no rule: the almanac gives no order, and the election gives none.
 ### 8.1 Policy
 
 Every text the app shows, other than names and numbers computed in §5–§7,
-names a published source; a test fails if any annotation lacks one. F-Droid
+has a published source; a test fails if any annotation lacks one. The
+reading sheets do not show it (owner, 2026-10-09: the source lines took
+too much of the sheet): About & sources (§10.5) lists the sources of all
+readings with their licences, and each reading's `Source` (§8.2) names
+its own in the repository, where `docs/sources/` gives the passages. F-Droid
 requires every asset to be legally licensed, so copyrighted wording is never
 copied:
 
@@ -1300,8 +1304,9 @@ title, on a translation whose brackets are not English's, and on a known
 Tibetan word left in Wylie alone (every Wylie of the engines' terms, and
 every Wylie any bracket of the catalog, the interface or the store listing
 gives); `TranslationsTest` checks the interface strings and the store
-listing, changelogs included, the same way, the detail label "In the
-White Beryl" excepted, whose sheet's source line gives the title. The
+listing, changelogs included, the same way; the detail label "In the
+White Beryl" carries the title in its own bracket, since no source line
+on the sheet gives it. The
 code writes a term as `Ewts.named(english, wylie)`, and the app sets the
 Tibetan runs in its Tibetan font (`withTibetan`).
 
@@ -1444,8 +1449,8 @@ canvas "Zanshin Calendar — basic design".
   labels as in running text; tapping it opens a balloon with how it is
   said, and screen readers read the pronunciation (§10.3).
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
-  mark; tapping one opens a sheet with its reading, "good for" and "avoid",
-  source and licence.
+  mark; tapping one opens a sheet with its reading, "good for" and "avoid";
+  the sources are listed in About & sources, not on the sheet (§8.1).
 - **Text out of the code.** Interface text is in `res/values/strings.xml`, the
   engines' and readings' text in the catalog (§8.2). Dates, ordinals and
   numbers follow the language the app's resources resolved to, named by the

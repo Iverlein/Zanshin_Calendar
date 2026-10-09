@@ -34,7 +34,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>A large bowl, a small bowl, a bell and the wood block, sounded on the phone itself</li>
 </ul>
 
-Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid, with the published source it comes from.
+Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid; every reading comes from a published source, listed in About & sources.
 
 Glyphs show at a glance what the day's almanac favours and warns against; dials, rings and boards in the readings show where each term stands in its cycle.
 

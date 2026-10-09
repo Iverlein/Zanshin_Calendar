@@ -21,11 +21,11 @@ alt = "Японский день: 十三夜, 13-й день 9-го месяца,
 [[shot]]
 file = "3.png"
 [shot.en]
-caption = "Every reading has its source"
-alt = "A reading opened: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen) explained, with the published source it comes from"
+caption = "Every reading explained"
+alt = "A reading opened: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), the full moon of the fourth month, explained"
 [shot.ru]
-caption = "У каждого толкования есть источник"
-alt = "Открытое толкование: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen) и опубликованный источник, из которого оно взято"
+caption = "Толкование каждой строки"
+alt = "Открытое толкование: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), полнолуние четвёртого месяца"
 
 [[shot]]
 file = "4.png"

@@ -31,8 +31,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   presets, ringing with the screen off; and a mindfulness bell through the
   day, at fixed or random times within set hours. The bells are
   synthesised on the phone, so no sound file is bundled.
-- Every Tibetan term and kanji shows its English on tap; every reading names
-  its published source.
+- Every Tibetan term and kanji shows its English on tap; every reading comes
+  from a published source, listed in About & sources.
 - Dates from 1900 to 2100. No internet permission: everything is computed on
   the phone.
 
@@ -68,5 +68,6 @@ Zanshin Calendar is free software under the [Mozilla Public License 2.0](LICENSE
 - Fonts: Figtree and Shippori Mincho, SIL Open Font License 1.1
   ([app/src/main/assets/licenses/](app/src/main/assets/licenses/)).
 - City list: [GeoNames](https://www.geonames.org/), CC BY 4.0.
-- Readings adapted from Japanese Wikipedia: CC BY-SA 4.0, marked in the app.
+- Readings adapted from Japanese Wikipedia: CC BY-SA 4.0, credited in About &
+  sources.
   All other readings are the project's own summaries of the cited sources.

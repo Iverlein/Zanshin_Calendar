@@ -902,6 +902,24 @@ Each is done when SPEC has it, `TranslationsTest` passes, and screenshots
 on the emulator of a lucky and an unlucky day, with and without a birth
 date, in English and Russian, show it.
 
+### U7. Reading sheets without source lines — built 2026-10-09 (SPEC §8.1, §11)
+
+- **Gap** (the owner, 2026-10-09): every reading sheet, on both pages,
+  ended in its sources' titles, publishers, URLs and licence, four to
+  ten lines on a phone, repeating what About & sources already lists
+  and what each reading's `Source` names in the repository.
+- **Built.** The sheets end with the reading, its lists and its
+  workings. The sources stay in the catalog (`Texts.kt`, `TextsTest`)
+  and in About & sources, whose readings paragraph now says that the
+  repository names each one's source; the Wikipedia adaptations keep
+  their CC BY-SA 4.0 credit there. The detail label "In the White Beryl"
+  carries the title in its own bracket, since no source line on the
+  sheet gives it any more (`TranslationsTest` lost its exception). Store
+  shot 3 retaken in both languages, its caption no longer about sources.
+
+Checked on the emulator: the Saga Dawa Düchen sheet in English and
+Russian (store shot 3), and the karaṇa sheet with its White Beryl label.
+
 ## Election
 
 ### E. The best day for a work
