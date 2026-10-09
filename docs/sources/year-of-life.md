@@ -9,7 +9,7 @@ decline, and the year's obstacles, each with its reading.
 **printed page = image − 10**, the etext's `[pN]` = image N): chapter 21,
 *nag rtsis kyi skor 'go dang sgang sgril* (pp. 252–258, img. 262–268), and
 chapter 24, *keg rtsis dang rgya nag rdel skor* (pp. 380–452, img.
-390–462, read to p. 411). The *Moonbeams* (DZ) in KD vol. 3 (etext
+390–462, the obstacle years to p. 416). The *Moonbeams* (DZ) in KD vol. 3 (etext
 VEIE0OPI2F246A26_I4717; printed page = etext − 20): pp. 493, 496 and 507.
 
 **How read (2026-10-09).** Every page with Yigdzin-1 (`hf_read.py
@@ -179,11 +179,68 @@ kham, 18 dragon khen … 81 ox kham), each age with its reading, and the
 "great disgrace" ages (men 9, 36, 63; women 18, 45, 54). The other four
 kinds and the tomb signs (pp. 411–425) are not built.
 
+## The rest of the obstacle years (pp. 409–416, img. 419–426)
+
+Read 2026-10-09 with Yigdzin-1 and MITRA (img. 422–425 compared; every
+flag MITRA's), built the same day.
+
+**Aspects in decline** (p. 409): «སྲོག་གུད་དོ་ཤི་དོ་ཆད་འོང་། … ལུས་གུད་མྱ་ངན་རྨ་དང་
+ནི། … དབང་གུད་ནོར་གོད་འོག་རྟ་འཆི། … ཀླུང་གུད་མ་ཉེས་ཁ་ཡོགས་འོང་།»: each aspect "in
+decline", read here as in one of the six bad sectors, with its harm and
+remedy. **The mewa's doors** (p. 409): «སྨེ་བའི་ས་སྒོ་གནམ་སྒོ་ནི། །གཉིས་ནག་ས་སྒོ་
+དྲུག་དཀར་གནམ། །སྤྱི་དང་ཁྱད་པར་ཕོ་ཡི་ཡིན། །མོ་གནམ་གཅིག་དཀར་ས་སྒོ་ནི། །སྨེ་བ་བཞི་ལྡང་
+བབས་ན་ཡིན།»; WB gives the doors' readings with the progressed sign (p. 387),
+which the app quotes for them.
+
+**The nine-multiples** (pp. 409–415): of five kinds, the single (built in
+block 13), the combined, the trigram's, the mewa's and the clan's. The
+meeting of a nine-multiple with the tomb (p. 410): «ཕོ་ཡི་བྱ་སྤྲེལ་ང་བཞི་གིན། །
+གཤེད་བཞི་ཕྱི་ཕག་དོན་གཉིས་ཟོན། །སྟག་ཡོས་བཅོ་བརྒྱད་ཁོན་ལ་བབས། །རྟ་སྦྲུལ་སོ་དྲུག་ཁེན་ལ་
+བབས། །མོ་ཡི་རྟ་སྦྲུལ་བཅོ་བརྒྱད་ཁེན། །སྟག་ཡོས་སོ་དྲུག་ཁོན་ལ་བབས། །གཤེད་བཞི་ཕྱི་ཕག་ང་བཞི་
+ཟོན། །བྱ་སྤྲེལ་དོན་གཉིས་གིན་ལ་བབས། །དེ་རྣམས་དུར་དང་དགུ་མིག་འདོམ།» (Dorje, p. 115, the
+same). The combined (p. 412): «ས་ཆུ་ཤིང་ཕོ་བྱི་བ་ནས། །ཤིང་རྣམས་མེ་མོ་ཡོས་བུ་དང་། །
+མེ་རྣམས་ལྕགས་ཕོ་རྟ་ནས་བརྩི། །ལྕགས་རྣམས་ཆུ་མོ་བྱ་ཐོག་ནས། །གྱེན་ལ་བརྩི་བྱའི་ལོ་གྲངས་
+བགྲངས། །དུར་ཐོག་ཕྱིན་ན་སྦྲགས་མར་ཚུད། །ལོ་དགུ་ཉེར་གཅིག་སོ་གསུམ་དང་། །ཞེ་ལྔ་ང་བདུན་རེ་
+དགུ་དང་། །གྱ་གཅིག་སླེབ་དེའི་འབྱུང་བ་རྣམས། །ཡོད་ཚད་དུར་ཚུད་དགུ་མིག་འབབ།», for each of
+vitality, body, destiny, luck, la and clan; the app reads the four
+aspects. Each key, counted up nine, does reach its element's tomb
+(`YearOfLifeTest`). Its readings by element and by first to fifth, the
+sixth and seventh like the first and second (pp. 414–415: «སྦྲགས་མ་བྱི་ཕག་
+གཤེད་བཞི་ཡི། །དགུ་མིག་དང་པོ་བདུད་ཀྱིས་འདེབས།» … «དྲུག་བདུན་དང་པོ་གཉིས་པར་མཚུངས།», then
+wood, fire and iron). The trigram's (p. 413): «ཕོ་ལི་མོ་ཁམ་སྟེང་ཕྱིན་ཡིན»; the
+mewa's: «སྐྱེས་སྨེ་དབུས་ཚུད་སྟེང་། །བབས་པའི་ཕོ་མོ་གཉིས་ལའོ།», its readings by kind of
+person given as «ཞེས་པར་འདོད་པ་འགའ་ཞིག་ཡོད», what some hold: not built. The
+clan's needs a clan: not built. The general remedies (p. 414): lamps,
+food offerings, clay votive images, the Uṣṇīṣa and water tormas, nine of
+each, an arrow for a man and a spindle for a woman, nine stones and nine
+prostrations.
+
+**The tombs** (p. 412): of the eighty tomb houses, «དབང་ཐང་གཅིག་པ་རང་དུར་དང་། །
+དབང་ཐང་དགྲ་ནི་གཤེད་དུར་འདོད། །དེ་ཡང་རང་གཤེད་དུར་ལོ་ཆེ། །དེ་ཡི་བདུན་ཟུར་ཆུང་དུར་འདོད། །
+ཕྱི་གཟར་བབས་ཀྱང་ཅུང་ཟད་ངན། … དཔེར་ན་དབང་ཐང་ཤིང་། །སྟག་ཡོས་རང་དུར་ཆེ་བ་ལུག །ཆུང་བ་
+ཤིང་གླང་གཤེད་ཀྱི་དུར། །ཆེ་བ་ལྕགས་ལུག་ཆུང་ལྕགས་གླང་།»: the tomb year of one's own
+destiny element and of its slayer, great on the tomb animal and small on
+its seventh; the progressed sign (*phyi gza'*, p. 387) on one "slightly
+bad". «དུར་མི་བཞི་ནི་ཆུ་འབྲུག་དང་། །ཤིང་ལུག་མེ་ཁྱི་ལྕགས་གླང་ཡིན། །དེ་དག་རང་ཁམས་དུར་ཤར་
+ངན།»: the four black undertakers. Dorje (p. 117) has the tomb years at fixed
+ages (21, 51, 45, 15) from twenty starting points; WB's own example is the
+destiny's element and its slayer, which the app follows. The tomb days
+(«ཕོ་ཚེས་དྲུག་དང་བཅོ་བརྒྱད་དང་། །སྟོང་ལ་ལུག་འོང་», the 6th, 18th and 30th) and the
+great-disgrace tombs of the first, middle and last months have no reading
+and are days, not years: not built.
+
+**The tomb sign** (p. 415): «དུར་མིག་སྲོག་དང་བབས་སྤར་སྤྲད། །སྲོག་ཤིང་ཁོན་དང་མེ་སྲོག་
+ཁེན། །ལྕགས་པོ་གིན་ལ་ས་ཆུ་ཟོན། །སྐོར་སྤར་བབས་ན་དུར་མིག་ཚུད།», with its remedies.
+
+**What ends the chapter** (p. 416, img. 426): the obstacle years close
+with WB's colophon line; then the Chinese pebble divination (*rgya nag
+rdel*, pp. 416–452), a casting of pebbles, not a reckoning.
+
 ## Open
 
 - The natal trigram needs the mother's birth year: whether the app should
   ask for it is the owner's call.
 - The four counted signs of the progressed sign: which of the counted
   sign's aspects WB means.
-- Chapter 24 after p. 411 (the tomb signs, the Chinese divination) is not
-  read.
+- The Chinese pebble divination (pp. 416–452) is read only far enough to
+  see that it is a casting.

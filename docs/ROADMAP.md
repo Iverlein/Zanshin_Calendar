@@ -610,7 +610,7 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
 ### T4. Divination — built 2026-10-09 (SPEC §5.9.1, §10.3)
 
 - **Built: the element calculation (*'byung rtsis*) of the year of age**,
-  from WB vol. 1, chapter 21 (pp. 255–258) and chapter 24 (pp. 380–411),
+  from WB vol. 1, chapter 21 (pp. 255–258) and chapter 24 (pp. 380–416),
   read with Yigdzin-1 and MITRA and the rules on the scan, with the
   *Moonbeams* (KD vol. 3) where WB is silent
   ([sources/year-of-life.md](sources/year-of-life.md)): age in the Tibetan
@@ -638,10 +638,19 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   - the progressed sign's four counted signs (lifeline, peg, sky and earth
     extension, p. 387): WB does not say which aspect of the counted sign
     meets the subject's, and Dorje's chart 6.3 reads otherwise;
-  - the other four kinds of nine-multiple and the tomb signs (*dur mig*,
-    pp. 409–425), the mewa's sky and earth doors (p. 409), the aspects in
-    decline (p. 409) and the coloured pebbles (pp. 386–387): not yet read
-    to the end.
+  - built since (2026-10-09, the owner's word): the rest of chapter 24's
+    obstacle years, pp. 409–416: the combined nine-multiple, the
+    nine-multiple meeting the tomb, the trigram's and the mewa's
+    nine-multiples, the four tomb years and the black undertakers, the
+    progressed sign on a tomb, the tomb sign, the mewa's doors and the
+    aspects in decline, each with its reading; checked on the emulator
+    (a woman of 1990 in 2021, her own great tomb and a black undertaker; a
+    man of 1976 in 2020, his 45th, the fourth combined nine-multiple);
+  - not built, with why: the clan's nine-multiple (no clan); the mewa's
+    nine-multiple readings by kind of person, which WB gives as what
+    "some hold"; the month's tomb days, which are days with no reading;
+    the coloured and household pebbles (pp. 385–387, 408); the Chinese
+    pebble divination after p. 416, a casting, not a reckoning.
 - **Mo** (Mipham's dice: two throws of the ARAPACANA die, 36 outcomes; other
   systems use three dice or a mala) has no calculation beyond a random draw.
   Every reading is a text, and the English ones are copyrighted

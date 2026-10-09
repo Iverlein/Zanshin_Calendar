@@ -298,7 +298,7 @@ Moonbeams.
 For a person with a birth date, the elemental divination of the year of
 age (`YearOfLife.kt`, `YearReckoning`; [sources/year-of-life.md](sources/year-of-life.md)),
 by the White Beryl, Beijing 1996, vol. 1: chapter 21 (pp. 255–258) for the
-signs, chapter 24 (pp. 380–411) for the obstacle years, with Lochen
+signs, chapter 24 (pp. 380–416) for the obstacle years, with Lochen
 Dharmaśrī's *Moonbeams* (KD vol. 3, pp. 493, 496, 507) where WB does not
 say. Tested against Gyurme Dorje's Table 2.11 and every cell of chart 6.2
 (`YearOfLifeTest`).
@@ -348,12 +348,30 @@ friend); the two others of one's triad; the fourth animal counted up
 (backward, illness) and down (forward, death); the progressed sign on
 one's birth sign, on its seventh, or its element the enemy of one's
 vitality; the nine-multiples, the 9th to the 81st, a man's counted up
-from the mouse, a woman's from the bird; and the mewa's four small
-obstacles: on the present year's mewa (house), on the natal (bed), on the
-two-black (land), and the enemy of the natal or fire against iron (royal
-gate). Tones: the predictive pebbles and sectors by their colour, the
+from the mouse, a woman's from the bird; the combined nine-multiple, the
+9th, 21st … 81st, when every aspect reaches its tomb counting up from its
+element's key (earth and water the wood mouse, wood the fire hare, fire
+the iron horse, iron the water bird), read by element and by which of the
+seven it is (pp. 412, 414–415); the nine-multiple that meets the tomb, by
+gender and birth animal (p. 410); the trigram's nine-multiple (a man's
+trigram back on li, a woman's on kham) and the mewa's (back in the
+middle), with the general remedies (pp. 413–414); the four tomb years of
+the birth year's element, the great on its tomb animal and the small on
+the seventh, of its own element and of the element that slays it (wood:
+wood sheep and wood ox, iron sheep and iron ox), the own great tomb as one
+of the four black undertakers (water dragon, wood sheep, fire dog, iron
+ox), and the progressed sign on a tomb year, "slightly bad" (p. 412); the
+tomb sign, the trigram of the year on the tomb trigram of the vitality
+(wood khon, fire khen, iron gin, earth and water zon; p. 415); and the
+mewa's small obstacles: on the present year's mewa (house), on the natal
+(bed), on the two-black (land), the enemy of the natal or fire against
+iron (royal gate), and on the mewa's sky door (a man's six-white, a
+woman's one-white) or earth door (two-black, four-green; p. 409), read as
+the doors of p. 387. An aspect in one of the bad sectors also reads its
+decline (p. 409). Tones: the predictive pebbles and sectors by their colour, the
 obstacles unlucky (the own year and the seventh at their mother year
-mixed, as WB reads them good), the progressed sign's gains lucky and its
+mixed, as WB reads them good, and the progressed sign on a tomb mixed,
+"slightly bad"), the progressed sign's gains lucky and its
 doors and fives unlucky; mewa and trigram no tone.
 
 **Not calculated**, for want of data the app does not ask for or of a
@@ -361,8 +379,12 @@ clear rule ([sources/year-of-life.md](sources/year-of-life.md)): the natal
 trigram, which is the mother's trigram in the year of the birth, and the
 secret obstacle that needs it; the obstacles of spouses, parents and the
 dead; the four counted signs of the progressed sign (lifeline, peg, sky
-and earth extension); the other nine-multiples and the tomb signs; the
-mewa's sky and earth doors; the household readings.
+and earth extension); the clan's nine-multiple (no clan is asked); the
+readings of the mewa's nine-multiple by kind of person, which WB gives as
+what "some hold"; the tomb days of the month (the 6th, 18th and 30th),
+which are days, not years, and have no reading; the household readings;
+and the Chinese pebble divination that ends the chapter (pp. 416–452),
+a casting, not a reckoning.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -1269,7 +1291,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
 | Four aspects, the pebbles of the day, month and year | The White Beryl (ff. 156a/b, 158a, 248b–254a, 295b–299a) with Lo chen Dharmaśrī's *Moonbeams* (ff. 5b–6b, 28a/b, 31b–32a), read in Gyurme Dorje's edition (2001) |
-| The year of age: its signs, pebbles, sectors, obstacles and readings | The White Beryl, Beijing 1996, vol. 1, pp. 255–258 and 380–411 (BDRC MW2CZ8040), with the *Moonbeams* in the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 3, pp. 493, 496 and 507 (BDRC MW28845); Gyurme Dorje's Table 2.11 and chart 6.2 as test vectors |
+| The year of age: its signs, pebbles, sectors, obstacles and readings | The White Beryl, Beijing 1996, vol. 1, pp. 255–258 and 380–416 (BDRC MW2CZ8040), with the *Moonbeams* in the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 3, pp. 493, 496 and 507 (BDRC MW28845); Gyurme Dorje's Table 2.11 and chart 6.2 as test vectors |
 | Tibetan pronunciation | THL Simplified Phonetic Transcription of Standard Tibetan, Germano and Tournadre, 2003 (thlib.org; archived by the Wayback Machine at `thlib.org/global/php/essay_reader.php?url=/thl/phonetics/s/b1`–`b12`) |
 | Tibetan spellings | The White Beryl, Sde srid Sangs rgyas rgya mtsho, Derge blocks reprinted Dehra Dun 1978 (BDRC W1KG12714) |
 | Band names: 中段, 暦注下段, 選日 | Japanese Wikipedia 十二直, 暦注, 暦注下段, 選日; koyomi8.com 暦注の説明; こよみ博物館「暦注」 |
