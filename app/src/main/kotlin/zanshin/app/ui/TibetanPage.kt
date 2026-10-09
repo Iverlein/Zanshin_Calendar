@@ -81,9 +81,9 @@ import zanshin.core.tibetan.element
 
 private enum class TibetanBalloon { MONTH, YEAR }
 
-/** The Tibetan view of one day (SPEC §10.3). */
+/** The Tibetan view of one day (SPEC §10.3); a work in its brief or a reading's lists opens its election through [onElect]. */
 @Composable
-fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
+fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier, onElect: (Activity) -> Unit = {}) {
     val day = info.tibetan
     val labels = LocalLabels.current
     val accent = Palette.saffron
@@ -672,10 +672,11 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             summary,
             festival = day.holiday != null || day.specialDay != null,
             onHour = { hoursFrom = it; hoursOpen = true },
+            onElect = onElect,
         ) { summaryOpen = false }
     }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
-    sheet?.let { ReadingSheet(it) { sheet = null } }
+    sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
 }
 
 /**

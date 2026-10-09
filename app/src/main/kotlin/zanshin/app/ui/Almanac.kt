@@ -9,6 +9,8 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -49,6 +51,9 @@ import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Activities
+import zanshin.core.texts.Activity
+import zanshin.core.texts.Election
 import zanshin.core.texts.Reading
 
 fun toneColor(tone: Tone): Color = when (tone) {
@@ -238,10 +243,13 @@ private fun DecidesNote(a: Annotation) {
     if (a.decides) Text(stringResource(R.string.brief_decides_note), style = body.copy(fontSize = 14.sp, color = toneColor(a.tone)))
 }
 
-/** The reading of an annotation, as a bottom sheet with its source and licence. */
+/**
+ * The reading of an annotation, as a bottom sheet with its source and licence. With [onElect] (the
+ * Tibetan page) each wording of its lists opens its works, each choosing a day for it (ROADMAP E2).
+ */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
+fun ReadingSheet(a: Annotation, onElect: ((Activity) -> Unit)? = null, onDismiss: () -> Unit) {
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
@@ -256,7 +264,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (a.parts.isEmpty()) {
-                ReadingBody(a, large = true)
+                ReadingBody(a, large = true, onElect)
             } else {
                 Text(withTibetan(a.title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(withTibetan(a.english), style = body.copy(color = Palette.muted))
@@ -264,7 +272,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
                 a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
                     Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
-                    ReadingBody(part, large = false)
+                    ReadingBody(part, large = false, onElect)
                 }
             }
         }
@@ -273,7 +281,7 @@ fun ReadingSheet(a: Annotation, onDismiss: () -> Unit) {
 
 /** One annotation's term, gloss, diagram, reading, workings and sources, in a reading sheet. */
 @Composable
-private fun ReadingBody(a: Annotation, large: Boolean) {
+private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?) {
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Box(Modifier.size(10.dp).background(toneColor(a.tone), CircleShape))
@@ -306,8 +314,8 @@ private fun ReadingBody(a: Annotation, large: Boolean) {
                 return@Column
             }
             if (r.summary.isNotBlank()) Text(withTibetan(r.summary), style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
-            if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.good, Palette.good)
-            if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoid, Palette.bad)
+            if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.goodKeys, r.good, Palette.good, onElect)
+            if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoidKeys, r.avoid, Palette.bad, onElect)
             if (a.details.isNotEmpty()) DetailsBlock(a.details)
             Spacer(Modifier.heightIn(min = 4.dp))
             SelectionContainer {
@@ -336,11 +344,43 @@ private fun DetailsBlock(rows: List<Pair<String, String>>) {
     }
 }
 
+/**
+ * A reading's list, its wordings [items] under their catalog [keys]. With [onElect], a wording that
+ * names works an election is offered for opens a balloon of them, each choosing a day for it.
+ */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ListBlock(title: String, items: List<String>, color: Color) {
+private fun ListBlock(title: String, keys: List<String>, items: List<String>, color: Color, onElect: ((Activity) -> Unit)?) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
-        Text(items.joinToString(" · "), style = body.copy(lineHeight = 21.sp))
+        if (onElect == null) {
+            Text(items.joinToString(" · "), style = body.copy(lineHeight = 21.sp))
+            return@Column
+        }
+        val offered = remember { Election.WORKS.values.flatten().toSet() }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+            items.forEachIndexed { i, item ->
+                val works = Activities.of(listOf(keys[i])).filter { it in offered }
+                var open by remember { mutableStateOf(false) }
+                // The separator stays with its word, so that no line starts with one.
+                Box {
+                    Text(
+                        if (i < items.lastIndex) "$item ·" else item,
+                        style = body.copy(lineHeight = 21.sp),
+                        modifier = if (works.isEmpty()) Modifier.padding(vertical = 4.dp) else Modifier
+                            .clickable(role = Role.Button) { open = !open }
+                            .padding(vertical = 4.dp),
+                    )
+                    if (open) {
+                        Balloon(
+                            listOf(BalloonRow(title, item)),
+                            actions = works.map { w -> BalloonAction(stringResource(R.string.election_choose_work, w.english)) { onElect(w) } },
+                            onDismiss = { open = false },
+                        )
+                    }
+                }
+            }
+        }
     }
 }
 

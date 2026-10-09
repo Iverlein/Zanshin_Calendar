@@ -379,4 +379,34 @@
     <string name="desc_yoga_ring">27 йог, отмечена %1$s</string>
     <string name="desc_sme_ba">Девять чисел в квадрате, отмечено число даты %1$d</string>
     <string name="desc_moved_sme_ba">Квадрат девяти с числом дня %1$d в середине, «семь красное» обведено</string>
+
+    <!-- The election: the best days for a work (SPEC §10.5, ROADMAP E2) -->
+    <string name="menu_election">Выбрать день</string>
+    <string name="menu_election_subtitle">Лучшие дни для дела</string>
+    <string name="election_title">Выбрать день</string>
+    <string name="election_pick">Для какого дела день?</string>
+    <string name="election_search">Искать дело</string>
+    <string name="election_no_match">Дела с таким названием нет</string>
+    <string name="election_change">Сменить</string>
+    <string name="election_span_1">Этот месяц</string>
+    <string name="election_span_3">Три месяца</string>
+    <string name="election_span_12">Двенадцать месяцев</string>
+    <string name="election_weighing">Взвешиваем дни…</string>
+    <string name="election_tibetan_date">%1$s, %2$d-е число</string>
+    <string name="election_cell">%1$s, %2$d-е число: %3$s</string>
+    <string name="election_cell_for_you">для вас — избегать любого дела (%1$s)</string>
+    <string name="election_side_by">%1$s · %2$s</string>
+    <string name="election_blank">ни один фактор его не называет</string>
+    <string name="election_hours_good">Часы, хорошие для него, в каждый день месяца</string>
+    <string name="election_hours_avoid">Часы, когда его избегают</string>
+    <string name="election_best">Лучшие дни, сильнейшие первыми</string>
+    <string name="election_none">Ни один день этого срока для него не хорош.</string>
+    <string name="election_open_day">Открыть день</string>
+    <string name="election_choose">Выбрать для него день</string>
+    <string name="election_choose_work">Выбрать день: %1$s</string>
+    <string name="election_nectar">Периоды нектара %1$s</string>
+    <string name="election_order_note">Дни упорядочены по силе, которую дают тексты. Сначала те, где сочетание дня недели и созвездия делает дело благоприятным: «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) делает его итогом, даже если планета и созвездие каждое хороши (т. 2, с. 333). Затем по сильнейшему фактору, называющему дело благоприятным, в порядке т. 2, с. 376: Раху, день недели, созвездие, особые дни, лунное число, карана, йога, животное дня, триграмма; внутри одного ранга сначала день с благоприятным сочетанием. Дальше порядок — собственное правило приложения: сумма весов факторов на стороне дела, от десяти у сочетания до одного у триграммы, затем более ранний день. Каждый день взвешен так же, как на его собственной странице; день, который не называет ни один фактор, остаётся пустым, а не нейтральным.</string>
+    <string name="election_hours_note">Период сочетания зависит только от месяца и часа, поэтому у всех дней тибетского месяца одни и те же часы («Всеблагое зерцало» (ཀུན་ཕན་མེ་ལོང, kun phan me long), § 9); чтение знака, восходящего в этот час, называет дело благоприятным или велит его избегать («Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), т. 2, с. 371–376), а где глава «Белого берилла» о делах называет собственные знаки дела, они идут первыми как его частный случай (с. 385–428). Часы говорят, когда внутри дня, но никогда — какой день: день, которого следует избегать, не предлагается ради его хороших часов.</string>
+    <string name="election_for_you_note">Кольцом отмечены ваш день недели врага и ваше созвездие смерти: в них «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) велит избегать любого дела (т. 2, с. 338), поэтому они не предлагаются. Остальные ваши дни отмечены, но не взвешены.</string>
+    <string name="desc_election_grid">Дни месяца %1$s для дела «%2$s»: зелёный — хорошо, красный — избегать, точка без цвета — ни один фактор его не называет</string>
 </resources>

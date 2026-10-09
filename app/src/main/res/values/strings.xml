@@ -477,4 +477,41 @@
     <!-- describes the square of the nine numbers for screen readers -->
     <string name="desc_sme_ba">The nine numbers in their square, the date\'s %1$d marked</string>
     <string name="desc_moved_sme_ba">The square of nine with the day\'s %1$d in the middle, the seven-red outlined</string>
+
+    <!-- The election: the best days for a work (SPEC §10.5, ROADMAP E2) -->
+    <string name="menu_election">Choose a day</string>
+    <string name="menu_election_subtitle">The best days for a work</string>
+    <string name="election_title">Choose a day</string>
+    <string name="election_pick">What is the day for?</string>
+    <string name="election_search">Search the works</string>
+    <string name="election_no_match">No work by that name</string>
+    <string name="election_change">Change</string>
+    <string name="election_span_1">This month</string>
+    <string name="election_span_3">Three months</string>
+    <string name="election_span_12">Twelve months</string>
+    <string name="election_weighing">Weighing the days…</string>
+    <!-- a Tibetan date in the election: %1$s is the month ("9th month"), %2$d the lunar date -->
+    <string name="election_tibetan_date">%1$s, day %2$d</string>
+    <!-- a day of the election's grid: %1$s its civil date, %2$d its lunar date, %3$s the verdict ("good · by Monday") -->
+    <string name="election_cell">%1$s, day %2$d: %3$s</string>
+    <!-- %1$s names the person's days: "Enemy weekday" -->
+    <string name="election_cell_for_you">every work to avoid, for you (%1$s)</string>
+    <!-- a day's side for a work and what decided it: %1$s brief_good or brief_avoid, %2$s brief_by_combination or brief_by_factor -->
+    <string name="election_side_by">%1$s · %2$s</string>
+    <string name="election_blank">no factor names it</string>
+    <string name="election_hours_good">Hours good for it, every day of the month</string>
+    <string name="election_hours_avoid">Hours to avoid for it</string>
+    <string name="election_best">Best days, strongest first</string>
+    <string name="election_none">No day of this span is good for it.</string>
+    <string name="election_open_day">Open the day</string>
+    <string name="election_choose">Choose a day for it</string>
+    <!-- a work in a reading's list: %1$s is the work -->
+    <string name="election_choose_work">Choose a day: %1$s</string>
+    <!-- %1$s: the clock hours of the nectar periods -->
+    <string name="election_nectar">Nectar periods %1$s</string>
+    <string name="election_order_note">The days are ordered by the strength the texts give. First those on which the combination of weekday and mansion makes the work good: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes it the result even where the planet and the mansion are each good (vol. 2, p. 333). Then by the strongest factor naming the work good, in the order of vol. 2, p. 376: Rāhu, the weekday, the mansion, the special days, the lunar date, the karaṇa, the yoga, the day animal, the trigram; within one rank a day whose combination is lucky comes first. Past that the order is the app\'s own: the sum of the weights of the factors on the work\'s side, ten for the combination down to one for the trigram, then the earlier day. Each day is weighed as its own page weighs it; a day no factor names is blank, not neutral.</string>
+    <string name="election_hours_note">The combination period follows the month and the hour only, so every day of a Tibetan month has the same hours (the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long), §9); the reading of the sign then rising names the work good or to avoid (the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, pp. 371–376), and where the White Beryl\'s chapter on the works names the work\'s own signs, they come first, as its particular case (pp. 385–428). The hours say when within a day, never which day: a day to avoid is not offered for its good hours.</string>
+    <string name="election_for_you_note">A ring marks your enemy weekday or your death mansion: on them the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) avoids every work (vol. 2, p. 338), so they are not offered. Your other days are marked and not weighed.</string>
+    <!-- describes a month's grid for screen readers: %1$s the month, %2$s the work -->
+    <string name="desc_election_grid">The days of the %1$s for %2$s: green good, red to avoid, a dot without colour where no factor names it</string>
 </resources>

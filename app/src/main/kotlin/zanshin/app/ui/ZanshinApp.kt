@@ -38,6 +38,7 @@ import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -72,7 +73,7 @@ import zanshin.core.kyureki.Kigaku
 import java.time.LocalDate
 import java.time.ZoneId
 
-private enum class Screen { DAYS, LOCATION, ABOUT }
+private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION }
 
 @Composable
 fun ZanshinApp(settings: Settings, cities: Cities) {
@@ -88,6 +89,10 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
     var pickerOpen by remember { mutableStateOf(false) }
+    // The election's work and the day it runs from (ROADMAP E2); a day it opens is shown when the pager is back.
+    var electionWork by remember { mutableStateOf<zanshin.core.texts.Activity?>(null) }
+    var electionFrom by remember { mutableStateOf(LocalDate.now()) }
+    var openDay by remember { mutableStateOf<LocalDate?>(null) }
     var today by remember { mutableStateOf(LocalDate.now()) }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { today = LocalDate.now() }
 
@@ -115,6 +120,22 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
         Screen.ABOUT -> {
             BackHandler { screen = Screen.DAYS }
             AboutScreen(onBack = { screen = Screen.DAYS })
+            return
+        }
+        Screen.ELECTION -> {
+            BackHandler { screen = Screen.DAYS }
+            ElectionScreen(
+                from = electionFrom,
+                birth = birth,
+                work = electionWork,
+                onWork = { electionWork = it },
+                onOpenDay = {
+                    chooseCalendar(CalendarKind.TIBETAN)
+                    openDay = it
+                    screen = Screen.DAYS
+                },
+                onBack = { screen = Screen.DAYS },
+            )
             return
         }
         Screen.DAYS -> Unit
@@ -146,6 +167,12 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
                     chooseCalendar(it)
                     scope.launch { drawer.close() }
                 },
+                onElection = {
+                    scope.launch { drawer.close() }
+                    electionWork = null
+                    electionFrom = Days.dateOf(pager.currentPage)
+                    screen = Screen.ELECTION
+                },
                 onLocation = {
                     scope.launch { drawer.close() }
                     screen = Screen.LOCATION
@@ -165,6 +192,10 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
     ) {
         val date = Days.dateOf(pager.currentPage)
         val zone = place?.place?.zone ?: ZoneId.systemDefault()
+        LaunchedEffect(openDay) {
+            openDay?.let { pager.scrollToPage(Days.pageOf(it)) }
+            openDay = null
+        }
         Column(
             Modifier
                 .fillMaxSize()
@@ -188,7 +219,11 @@ fun ZanshinApp(settings: Settings, cities: Cities) {
             ) { page ->
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
-                    CalendarKind.TIBETAN -> TibetanPage(info, zone)
+                    CalendarKind.TIBETAN -> TibetanPage(info, zone) { work ->
+                        electionWork = work
+                        electionFrom = info.date
+                        screen = Screen.ELECTION
+                    }
                     CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null)
                 }
             }
@@ -378,6 +413,7 @@ private fun SideMenu(
     kigaku: Boolean,
     onKigaku: (Boolean) -> Unit,
     onCalendar: (CalendarKind) -> Unit,
+    onElection: () -> Unit,
     onLocation: () -> Unit,
     onAbout: () -> Unit,
     languageLabel: String,
@@ -419,6 +455,8 @@ private fun SideMenu(
             ) {
                 onCalendar(CalendarKind.KYUREKI)
             }
+            // The election, under the two calendars (ROADMAP E2): the Tibetan day's weighing read across days.
+            MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
             Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
             SectionLabel(stringResource(R.string.menu_settings))
             MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)

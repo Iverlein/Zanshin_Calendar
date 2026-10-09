@@ -850,12 +850,41 @@ fun HaircutGrid(today: TibetanDay, date: LocalDate) {
     val days = remember(today.jd, labels.locale) {
         TibetanCalendar.monthOf(today).map { it to DaySummary.of(it).sideOf(Activity.HAIRCUTS) }
     }
-    var selected by remember(today.jd) { mutableIntStateOf(days.indexOfFirst { it.first.jd == today.jd }) }
     val good = stringResource(R.string.brief_good)
     val avoid = stringResource(R.string.brief_avoid)
+    val neutral = toneLabel(Tone.NEUTRAL)
+    WorkGrid(
+        heading = stringResource(R.string.haircut_days),
+        cells = days.map { (d, side) -> WorkCell(d.day, side?.first ?: Tone.NEUTRAL, marked = d.jd == today.jd) },
+        key = today.jd,
+        initial = days.indexOfFirst { it.first.jd == today.jd },
+    ) { k ->
+        val (d, side) = days[k]
+        val verdict = side?.let { (tone, standing) ->
+            stringResource(R.string.haircut_by, if (tone == Tone.GOOD) good else avoid, standing.first().kanji)
+        } ?: neutral
+        stringResource(R.string.haircut_cell, d.day, date.plusDays(d.jd - today.jd).format(labels.shortDate), verdict)
+    }
+}
+
+/**
+ * One day in a [WorkGrid]: its lunar [date], the [tone] the weighing gives the work on it (NEUTRAL
+ * where no factor names it, blank), [marked] for the shown day, and [forYou] where the person's own
+ * day takes it away for every work (ROADMAP E6), drawn as a ring.
+ */
+data class WorkCell(val date: Int, val tone: Tone, val marked: Boolean = false, val forYou: Boolean = false)
+
+/**
+ * Days as a grid of six to a row, each with the dot of the side the weighing gives one work on it
+ * (SPEC §5.12): the haircut sheet's month and the election's (SPEC §10.3, ROADMAP E2). Tapping a day
+ * selects it and shows [caption] of it below; [key] resets the selection to [initial] (none for -1).
+ */
+@Composable
+fun WorkGrid(heading: String?, cells: List<WorkCell>, key: Any, initial: Int, caption: @Composable (Int) -> String) {
+    var selected by remember(key) { mutableIntStateOf(initial) }
     Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
-        Text(stringResource(R.string.haircut_days), style = body.copy(fontSize = 13.sp, color = Palette.muted))
-        for (row in days.indices.chunked(6)) {
+        heading?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.muted)) }
+        for (row in cells.indices.chunked(6)) {
             Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
                 for (i in 0 until 6) {
                     val k = row.getOrNull(i)
@@ -863,29 +892,29 @@ fun HaircutGrid(today: TibetanDay, date: LocalDate) {
                         Box(Modifier.weight(1f))
                         continue
                     }
-                    val (d, side) = days[k]
-                    val on = d.jd == today.jd
+                    val c = cells[k]
                     Column(
                         Modifier
                             .weight(1f)
                             .aspectRatio(1.1f)
                             .background(if (k == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
-                            .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                            .border(if (c.marked) 1.6.dp else 1.dp, if (c.marked) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
                             .clickable(role = Role.Button) { selected = k },
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center,
                     ) {
-                        Text("${d.day}", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
-                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(toneColor(side?.first ?: Tone.NEUTRAL), CircleShape))
+                        Text("${c.date}", style = body.copy(fontSize = 14.sp, color = if (c.marked) Palette.text else Palette.muted))
+                        val dot = Modifier.padding(top = 3.dp).size(6.dp)
+                        if (c.forYou) {
+                            Box(dot.border(1.4.dp, Palette.bad, CircleShape))
+                        } else {
+                            Box(dot.background(toneColor(c.tone), CircleShape))
+                        }
                     }
                 }
             }
         }
-        val (d, side) = days[selected]
-        val verdict = side?.let { (tone, standing) ->
-            stringResource(R.string.haircut_by, if (tone == Tone.GOOD) good else avoid, standing.first().kanji)
-        } ?: toneLabel(Tone.NEUTRAL)
-        Caption(stringResource(R.string.haircut_cell, d.day, date.plusDays(d.jd - today.jd).format(labels.shortDate), verdict))
+        if (selected in cells.indices) Caption(caption(selected))
     }
 }
 

@@ -48,6 +48,7 @@ import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DayHours
@@ -191,11 +192,18 @@ private fun WeighedLine(summary: DaySummary) {
 /**
  * The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed
  * day on the Tibetan one (SPEC §5.12), with the hours above it; a time there calls [onHour] with its
- * two-hour period, counted from 05:00.
+ * two-hour period, counted from 05:00. On the Tibetan page a work's workings offer its election
+ * through [onElect] (ROADMAP E2).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> Unit = {}, onDismiss: () -> Unit) {
+fun DaySummarySheet(
+    s: DaySummary,
+    festival: Boolean = false,
+    onHour: (Int) -> Unit = {},
+    onElect: ((Activity) -> Unit)? = null,
+    onDismiss: () -> Unit,
+) {
     ModalBottomSheet(
         onDismissRequest = onDismiss,
         sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
@@ -258,8 +266,8 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
             }
 
             if (s.verdict != null) {
-                VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
-                VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+                VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
+                VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
             } else {
                 ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
                 ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
@@ -381,14 +389,16 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
 /**
  * The Tibetan day's works on one side, grouped by the voices standing on it (ROADMAP U4): each group
  * headed by its voices, each tapped for its kind, and its works as one wrapped run of glyphs and
- * names; a work opens its workings, the voices that carry it with their kinds.
+ * names; a work opens its workings, the voices that carry it with their kinds, and from there its
+ * election through [onElect].
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun VoiceBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean) {
+private fun VoiceBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, onElect: ((Activity) -> Unit)?) {
     if (notes.isEmpty()) return
     val groups = remember(notes, good) { notes.byVoices(good) }
     val side = stringResource(if (good) R.string.good_for else R.string.avoid)
+    val choose = stringResource(R.string.election_choose)
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         for ((voices, works) in groups) {
@@ -418,6 +428,7 @@ private fun VoiceBlock(title: String, notes: List<ActivityNote>, color: Color, g
                                 Balloon(
                                     listOf(BalloonRow(side, n.activity.english)) + voices.map { BalloonRow(it.english, it.kanji) },
                                     preferAbove = true,
+                                    actions = listOfNotNull(onElect?.let { elect -> BalloonAction(choose) { elect(n.activity) } }),
                                     onDismiss = { open = false },
                                 )
                             }

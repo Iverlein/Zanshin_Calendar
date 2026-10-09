@@ -125,8 +125,11 @@ private class BalloonPosition(private val gapPx: Int, private val gutterPx: Int,
 /** One label–value pair in a balloon. */
 data class BalloonRow(val label: String, val value: String, val valueStyle: TextStyle? = null)
 
+/** A tappable line at the foot of a balloon, [label] with an arrow: it closes the balloon and calls [onClick]. */
+data class BalloonAction(val label: String, val onClick: () -> Unit)
+
 @Composable
-fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, onDismiss: () -> Unit) {
+fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, actions: List<BalloonAction> = emptyList(), onDismiss: () -> Unit) {
     val density = androidx.compose.ui.platform.LocalDensity.current
     val provider = with(density) { BalloonPosition(10.dp.roundToPx(), 16.dp.roundToPx(), preferAbove) }
     Popup(popupPositionProvider = provider, onDismissRequest = onDismiss, properties = PopupProperties(focusable = true)) {
@@ -146,6 +149,19 @@ fun Balloon(rows: List<BalloonRow>, preferAbove: Boolean = false, onDismiss: () 
                         Text(withTibetan(row.value), style = row.valueStyle ?: body.copy(fontSize = 14.sp))
                     }
                 }
+            }
+            for (a in actions) {
+                Text(
+                    "${a.label} →",
+                    style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = Palette.saffron),
+                    modifier = Modifier
+                        .heightIn(min = 44.dp)
+                        .clickable(role = Role.Button) {
+                            onDismiss()
+                            a.onClick()
+                        }
+                        .padding(vertical = 12.dp),
+                )
             }
         }
     }
