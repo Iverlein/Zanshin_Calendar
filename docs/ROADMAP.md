@@ -23,7 +23,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
-| 5 | E Election: the best day for a work | L | E1–E4 and E6 built 2026-10-09 (SPEC §5.13, §5.14, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; left: E5, the 旧暦 election | — |
+| 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
@@ -48,7 +48,7 @@ moves up as soon as it is unblocked.
 | 7 | T2.14 The 11th month's 6th — built 2026-10-09 | 5 | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
 | 8 | T2.13 The eight classes and the nāgas — built 2026-10-09 | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
 | 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
-| 10 | E5 The 旧暦 election | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
+| 10 | E5 The 旧暦 election — built 2026-10-09 | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
 | 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
 | 12 | M1 Meditation timer and bell | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | 13 | T4 + T5 Element calculation and gender | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
@@ -401,7 +401,7 @@ The calendar's "choice of time" lists a month's good and bad days for one
 of 25 works, ranked. The app weighs every work on every day already
 (SPEC §5.12); the election reads that weighing across days, so the WB
 voices still to come (T2.11, T2.13) change its results without changing
-it. It is item E below, built 2026-10-09 but for E5.
+it. It is item E below, built 2026-10-09.
 
 #### T2.19 The birth weekday, the birth mansion and the element's weekdays — built 2026-10-08 (SPEC §5.8, §5.12, §10.3)
 
@@ -776,11 +776,11 @@ date, in English and Russian, show it.
 
 The user picks a work and a span; the app lists the days the weighing
 makes good for it, best first, each with the factor that decides it, and
-the hours within them. E1–E4 are built (2026-10-09): the design, the
+the hours within them. E1–E6 are built (2026-10-09): the design, the
 order of the good days and what in it is sourced are SPEC §5.14, the
 screen §10.8. Each day is weighed exactly as its page weighs it (§5.12),
 so every voice built later (T2.13, T2.20–T2.23) reaches the election by
-itself. Left: E5 (the 旧暦 election).
+itself. The 旧暦 page has its own, unranked (E5, SPEC §7.6).
 
 #### The person's days and the hour against the day
 
@@ -866,7 +866,7 @@ place (D1).
   E3's hours (`Election.hours`) take the work's own signs first, then
   `Texts.period`; `ElectionTest` checks journeys against p. 393.
 
-#### E5 The 旧暦 page — S
+#### E5 The 旧暦 page — built 2026-10-09 (SPEC §7.6, §10.8)
 
 - **Gap.** No source ranks one kind of 暦注 above another (SPEC §7.5,
   [kyureki.md](sources/kyureki.md)); the page lists both sides unweighed,
@@ -877,6 +877,15 @@ place (D1).
   "best" and a sentence that the almanac gives no order. The Qing
   協紀辨方書's six grades (kyureki.md) stay out: nothing ties them to the
   Japanese almanac.
+- **Built 2026-10-09.** `KyurekiElection`, `KyurekiSpan` and
+  `KyurekiElectionDay` in `core/.../texts/KyurekiElection.kt`, reading each
+  day's `DaySummary` of the 旧暦 page; an annotation naming everything names
+  the work. The election screen takes the calendar shown, and the 旧暦
+  page's breakdown and readings open it. `KyurekiElectionTest`: October
+  2026's weddings as the vector, 2020–2039 against each day's breakdown,
+  the 三箇の悪日 for 1 June 1976. The CLI prints one
+  (`--elect WORK [date] --kyureki`). Checked on the emulator in English and
+  Russian.
 
 #### Owner decisions — settled 2026-10-08
 
@@ -893,7 +902,7 @@ place (D1).
 #### The election's order
 
 E1, E2 and E3 built together (2026-10-09); E4 after its reading, the
-same day; E5, on E2's screen, is left. Each is done when its code has tests, SPEC has it (§5.14,
+same day; E5, on E2's screen, the same day. Each is done when its code has tests, SPEC has it (§5.14,
 §10.8), it is checked on the emulator in English and Russian, and the
 release build is checked before the tag (R8: the picker names works
 through the catalog by their enum's class name). The store listing and

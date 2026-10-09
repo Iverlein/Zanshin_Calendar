@@ -886,7 +886,7 @@ built later reaches the election by itself.
   source. `ElectionTest` checks on 2000–2049 that every work's side is the
   day page's and that the order holds, and keeps October 2026 ranked for
   haircuts, weddings and setting out.
-- **Not built:** the 旧暦 election (ROADMAP E5).
+- **The 旧暦's** is §7.6, unranked (ROADMAP E5).
 
 ## 6. Astronomy library
 
@@ -1020,6 +1020,46 @@ annotation above another; within the lower band three rules act:
 Left out, because their full rules cannot be recovered or need more than a date:
 神吉日 (almanacs apply undocumented exclusions), 凶会日 (conflicting tables),
 五墓日 (needs the 納音 of the birth year) and the hourly 時下食.
+
+### 7.6 The 旧暦 election: the days for a work
+
+The user picks a work and a span; the app gives the days the 旧暦
+annotations name good for it (`KyurekiElection`, `KyurekiSpan` in
+`core/.../texts/KyurekiElection.kt`; ROADMAP E5). It reads each day's
+brief (§10.4) as the day's breakdown lists it, so the two never differ,
+and adds no rule: the almanac gives no order, and the election gives none.
+
+- **The works offered** are those some list of the brief names: the
+  rokuyō's, the 十二直's, the 二十八宿's, and those of the 暦注下段, the 選日
+  and the 縁日, the personal 三箇の悪日 among them, grouped by family (§10.7)
+  in the summary line's order. "Everything" is left out, as in the Tibetan
+  election (§5.14).
+- **The span** runs from the shown day to the end of the first, third or
+  twelfth 旧暦 month, counting the shown day's own as the first, and never
+  past the end of 2100. With a birth date set the person's 三箇の悪日 are
+  among the day's annotations, as on the page.
+- **A day's side** for the work: the annotations whose lists name it good,
+  and those that name it to avoid, after the lower band's own rules have
+  set some aside (§7.5). An annotation that names everything names the work
+  too: 天赦日's 万よし, 十死日's and the 三箇の悪日's "everything to avoid".
+  Named only good, the day is good; only to avoid, to avoid; both ways,
+  disputed, with both sides shown; by none, blank, not neutral.
+- **The days given:** those named good, then apart those disputed, each in
+  date order, with the annotations on each side; the days to avoid have no
+  list. No day is "best": no published rule ranks one kind of annotation
+  above another (§7.5), and the Qing 協紀辨方書's six grades are not used,
+  since nothing ties them to the Japanese almanac ([sources/kyureki.md](sources/kyureki.md)).
+- **No hours:** the rokuyō's times of day name no work, and the hourly
+  時下食 is left out (§7.5).
+- **Vector:** weddings from 1 October 2026 to the end of the 8th month,
+  each annotation by the rules of §7.5: good on 8/22, 8/23, 8/28 and 8/29;
+  disputed on 8/21 (天赦日 against 仏滅), 8/24, 8/26 (不成就日 among the
+  avoid side) and 8/30 (`KyurekiElectionTest`). On 2020–2039 every day's
+  sides are its breakdown's, and with a 子-year birth date every work
+  offered is named on some day. For a 辰-year birth, 大禍日 falls on the 辰
+  month's 丑 days, which are its 十死日, so the lower band always sets it
+  aside; the other two 三箇の悪日 make the day to avoid or disputed for
+  every work.
 
 ## 8. Texts
 
@@ -1205,6 +1245,7 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | *(in `ForcesTest`)* | Table 2.5, the destiny elements of the twelve months for each yearly element (p. 91); chart 8.1, the month, day and hour pebbles of the health divination (p. 296); Table 2.7, the hours' destiny elements (p. 91) | Gyurme Dorje (2001) |
 | *(in `ForcesTest`)* | Chart 6.2: the four aspects of a fire dragon, an earth tiger and an iron mouse year, and all 20 elemental cells of the obstacle-year chart | Gyurme Dorje (2001), p. 228 |
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
+| *(in `KyurekiElectionTest`)* | Weddings, 1–10 October 2026 (旧暦 8/21–8/30): the days named good, the disputed days and their annotations | The rules of §7.5 (天赦日, 不成就日, the rokuyō), each checked in `RekichuTest` |
 | *(in `ElectionTest`)* | October 2026, the good days ranked for haircuts, weddings and setting out, and the days to avoid that the site names; the days of 1 June 1976's enemy weekday and death mansion not offered | The app's own weighing (§5.14), witnessed by the tibetastromed.ru election (sources/tibetastromed.md) |
 
 ## 10. User interface
@@ -1513,8 +1554,8 @@ canvas "Zanshin Calendar — basic design".
   it off.
 - **Local sky line:** sunrise, sunset, true solar noon (the sun's transit, not
   12:00) and the sun's altitude then. Facts only.
-- **Choose a day**, under the two calendars: the election (§10.8) from the
-  shown day, its work not yet picked.
+- **Choose a day**, under the two calendars: the election (§10.8) of the
+  calendar shown, from the shown day, its work not yet picked.
 
 ### 10.6 Deferred until the basic design is set
 
@@ -1616,7 +1657,9 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
 ### 10.8 The election screen
 
 The best days for a work (§5.14, ROADMAP E2), a full screen with a back
-arrow, in the Tibetan calendar only (the 旧暦's is E5, not built).
+arrow, in the calendar shown: the Tibetan election (§5.14), or on the
+旧暦 page the 旧暦's (§7.6, ROADMAP E5), in the 旧暦's colour, whose
+differences close this section.
 
 - **Entry:** "Choose a day" in the menu (§10.5), from the shown day with
   no work picked; on the Tibetan page, a work's balloon in the brief
@@ -1654,6 +1697,18 @@ arrow, in the Tibetan calendar only (the 旧暦's is E5, not built).
   birth date set the ring's sentence (WB vol. 2, p. 338).
 - Weighed off the main thread; "Weighing the days…" until the span is
   ready.
+- **The 旧暦 election** (§7.6): entered from the menu on the 旧暦 page, from
+  a work in the day's breakdown ("Choose a day for it" in its balloon) and
+  from a reading's lists, as on the Tibetan page. The picker offers the
+  旧暦's works; the months are 旧暦 months, each cell's dot green where the
+  work is named good only, red to avoid only, the mixed colour both ways;
+  a tap names the annotations on each side, each kanji with its English.
+  Under the grids "Named good, in date order" and "Named both good and to
+  avoid", each day with its civil and 旧暦 dates and its annotations, each
+  kanji glossed on tap; a day opens a balloon with "Open the day", its
+  旧暦 page. No hours. The note says that the almanac gives no order and
+  why, and that an annotation naming everything names the work.
+  "Reading the days…" until the span is ready.
 
 ## 11. Milestones and done criteria
 
