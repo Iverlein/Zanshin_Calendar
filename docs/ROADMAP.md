@@ -26,7 +26,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
-| 8 | U The Tibetan page's UX | M | Five small items, three built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3); left: the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
+| 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 
 ## Blocks
 
@@ -40,8 +40,8 @@ moves up as soon as it is unblocked.
 | # | Block | Waits on | Prompt |
 | --- | --- | --- | --- |
 | 1 | U1 + U3 — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
-| 2 | E6, the "For you" half | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
-| 3 | U4 + U5 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
+| 2 | E6, the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
+| 3 | U4 + U5 — built 2026-10-09 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
 | 4 | T3 Element colours | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
 | 5 | T2.11 WB's almanac page | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
 | 6 | T2.15 Hair by date | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
@@ -503,7 +503,7 @@ an unweighed personal row opens the list, one voice is two rows with
 opposite dots, and nothing names the factor that decided the day. The
 brief's lists run long and say the same voices on line after line. No
 item changes a side or a tone; each changes SPEC §5.12 (*Order on the
-page*) and §10.3 with the code. U2 is built, U1 and U3 built together (block 1); then U4 and U5.
+page*) and §10.3 with the code. U2 is built, U1 and U3 built together (block 1), U4 and U5 (block 3).
 
 #### U1 One row for the combination — built 2026-10-09 (SPEC §5.12, §10.3)
 
@@ -565,7 +565,7 @@ disagreeing (8 October), unlucky by the combination (1 November), the
 monthly observance first (10 and 18 October), personal mansions in Your
 day (4, 6, 7 October), each with and without a birth date.
 
-#### U4 The brief grouped by the voices that carry each work — S
+#### U4 The brief grouped by the voices that carry each work — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** On 8 October 2026 the brief lists 65 good works, one per line,
   and from the 25th on the same "Thursday" or "Thursday · Maghā" repeats
@@ -575,8 +575,16 @@ day (4, 6, 7 October), each with and without a birth date.
   and names; groups in the order of their weight (§5.12), as the works
   are now. Nothing outweighed is shown, as now; a work still opens its
   workings.
+- **Built.** `byVoices` groups the good and the avoid list by their
+  standing entries, in the works' order, so groups stand by weight and
+  each work keeps its place (`DaySummaryTest`, every day of 2026). The
+  sheet heads each group with its voices, each tapped for its kind, and
+  runs its works as glyph and name; a work's balloon gives its side and
+  each voice with its kind. On 2 October 2026 "Friday · Rohiṇī" carries
+  fourteen of the 79 good works as one run. The 旧暦
+  brief keeps one row per work, with both sides.
 
-#### U5 The hours on the In brief row — S
+#### U5 The hours on the In brief row — built 2026-10-09 (SPEC §10.3)
 
 - **Gap.** The combination period is the one factor a text puts above the
   day (WB p. 376, T2.4; under E, *The person's days and the hour against
@@ -587,6 +595,22 @@ day (4, 6, 7 October), each with and without a birth date.
   on an unlucky day those to be accomplished ("unlucky day ·
   09:00–13:00 good"), on a lucky day those to be avoided; a tap on them
   opens the hours panel at that hour. Nothing is weighed anew.
+- **Built.** `DaySummary.hoursAgainst`: the runs of `DayHours` against
+  the verdict, none on the person's enemy weekday or death mansion (WB
+  places no hour above it; E, *The person's days and the hour against
+  the day*). The row's second line: "good hours" («благоприятные часы»)
+  or "hours to avoid" («неблагоприятные часы») in the side's colour, then
+  the times, each opening the hours panel at its hour; screen readers
+  get the times in the row's text and an action for each.
+
+U4 and U5 were checked on the emulator (Kyoto) in English and Russian:
+lucky by the combination (2 October 2026: hours to avoid 07:00–11:00,
+13:00–15:00, 19:00–21:00, 01:00–03:00), unlucky by the combination
+(1 November: good hours 09:00–11:00, 13:00–17:00, 19:00–23:00,
+01:00–05:00), each with and without a birth date; the enemy weekday
+(8 October, with the test birth date) shows no hours. A time on the row
+opened the panel at its hour (07:00 the Dragon hour, 13:00 the Sheep
+hour).
 
 Each is done when SPEC has it, `TranslationsTest` passes, and screenshots
 on the emulator of a lucky and an unlucky day, with and without a birth
@@ -770,7 +794,7 @@ Russian, and the release build is checked before the tag (R8: the picker
 names works through the catalog by their enum's class name). The store
 listing and the website name the election only once it is released.
 
-#### E6 The days WB avoids every work on, for you — S
+#### E6 The days WB avoids every work on, for you — S; the "For you" half built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** "For you" lists the person's days with their dots and weighs
   none (T2.3), so the enemy weekday and the death mansion read as one
@@ -798,6 +822,16 @@ listing and the website name the election only once it is released.
   (1976-06-01); `DaySummaryTest` unchanged with no birth date; the reading
   cites p. 338; SPEC §5.12, §10.3, §5.14; Russian. The "For you" and brief
   half needs no election; the election half ships with E1–E2.
+- **Built, the "For you" half (2026-10-09).** `DaySummary.avoidAll` holds
+  the enemy weekday and the slayer mansion (the death mansion) as entries;
+  `good` is empty on them, `sideOf` and the activities stay the weighing's,
+  so the Almanac's haircut row and the hours do not change. The In brief
+  row says "every work to avoid, for you" and gives only the avoid count;
+  the sheet names the day under the tone and quotes p. 338 in "For you";
+  both readings cite p. 338 (EN, RU). Vector: October 2026 for 1 June 1976
+  = Thursdays 1, 8, 15, 22, 29 and Pūrvaphalgunī on the 9th (gre in
+  Henning's list too). Left for the election: E1–E2 do not offer the day
+  and say why on tap; SPEC §5.14 then.
 
 ## Localisation
 

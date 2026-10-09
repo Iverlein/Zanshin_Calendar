@@ -597,7 +597,16 @@ voices, so that the tone and the lists cannot go separate ways.
   brief lists them apart, under "For you", the roles of the day's
   weekday as one entry, lucky or unlucky where those that take a side
   agree and mixed where they do not (`sharedTone`; the child's weekday,
-  middling, takes none).
+  middling, takes none). Two are the exception, which WB makes absolute
+  (p. 338): on the enemy weekday of one's element "every work is to be
+  avoided", and on the death mansion, the slayer mansion (*gshed skar*)
+  of p. 330, "anything is bad". On them, for the person with a birth date
+  set, the brief has no good list (`DaySummary.avoidAll`, whose `good`
+  is then empty); the day's tone, its avoid list, `sideOf`, the Almanac
+  rows and the hours stay the weighing's, the same for every reader
+  (ROADMAP E6). For the test birth date, 1 June 1976 (earth, Dragon),
+  October 2026 has five Thursdays and one Pūrvaphalgunī, the 9th
+  (`DaySummaryTest`).
 - **The day in brief** names the tone and what decided it: the
   combination, or the strongest factor that takes a side, by name
   ("by Thursday"; `DayVerdict.factor` and `.deciding`, the special days
@@ -607,8 +616,11 @@ voices, so that the tone and the lists cannot go separate ways.
   days, the weekday on 7,708, the special days on 568, the date on 292
   and the karaṇa on 23; the yoga never decides, since the date or the
   karaṇa before it always has a tone (`DaySummaryTest`). The brief lists the voices that took
-  that side, and gives each work with the voices that carry it, in rank
-  order; works on which more voices agree come first. Its summary line is
+  that side, and gives the works grouped by the voices that carry them
+  (ROADMAP U4, built 2026-10-09; `byVoices`): each group headed by its
+  voices in rank order, its works one wrapped run of glyphs and names,
+  each opening its workings; the groups in the works' order, those more
+  voices agree on first, then those a stronger voice decides. Its summary line is
   one row (§10.7): a work's weight there is the sum of the weights of the
   voices standing on its side, ten for the combination down to one for the
   trigram, in the rank above. The weights are the app's, to order the line
@@ -1096,17 +1108,31 @@ canvas "Zanshin Calendar — basic design".
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination", "an unlucky day · by Tuesday",
-  the factor named as the weighing found it, §5.12); after the glyphs, how many works
+  the factor named as the weighing found it, §5.12); under it the
+  combination periods that run against that tone (ROADMAP U5, built
+  2026-10-09; `DaySummary.hoursAgainst`): on an unlucky day those to be
+  accomplished ("good hours 09:00–11:00 13:00–17:00 …"), on a lucky day
+  those to be avoided, consecutive hours joined, each time opening the
+  hours panel at its hour; nothing is weighed anew, and on the person's
+  enemy weekday or death mansion there are none, since WB places no hour
+  above the person's day (§5.12); after the glyphs, how many works
   the day names good and to avoid ("good 53", "avoid 36"), since the row
   cannot show the proportion and on 11 % of days the lists run against
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
-  reason, the voices of that tone and each activity with the voices that
-  carry it; nothing outweighed is shown. With a birth date set, a "For
+  reason, the voices of that tone and the works grouped by the voices
+  that carry them (§5.12), a work opening a balloon with its side and
+  each voice with its kind ("weekday · Sunday"); nothing outweighed is
+  shown. With a birth date set, a "For
   you" block lists the day's personal day, own days by the birth date and
   personal mansions (§5.8) with their dots, each over the factor it is
   ("Luck day · Mother weekday" over "Sunday", "Birth mansion" over
   "Ārdrā"), the roles of the weekday as one line, and one sentence that
-  they are shown, not weighed (§5.12). After the works, a "By the hour" block (§5.13) gives the clock
+  they are shown, not weighed (§5.12). On the person's enemy weekday or
+  death mansion (§5.12) the row says "every work to avoid, for you" under
+  the day's tone and gives only the count to avoid; the sheet says it
+  under the tone, naming the day ("Enemy weekday, Thursday"), lists no
+  good works, and its "For you" block gives WB's words for each (vol. 2,
+  p. 338) and why the good list is gone. After the works, a "By the hour" block (§5.13) gives the clock
   times of the combination periods to be accomplished and to be avoided,
   consecutive hours of one verdict joined ("09:00–13:00"), and the nectar
   periods, each time opening the hours panel at its hour, with one
