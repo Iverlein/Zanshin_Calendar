@@ -2,13 +2,14 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The five store screenshots, in one language, on the emulator.
+"""The six store screenshots, in one language, on the emulator.
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
-3. The Saga Dawa Düchen reading sheet, with its source
+3. The Saga Dawa Düchen reading sheet, with its source, opened from the heading
 4. The 旧暦 almanac bands, from 中段 down
 5. The menu over the 旧暦 page
+6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset
 
 No birth date is set, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
@@ -31,8 +32,15 @@ from pathlib import Path
 from emu import KYOTO, LHASA, adb, nodes, prefs, language, restore, sh, start, up
 
 LABELS = {
-    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu"},
-    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню"},
+    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$"},
+    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$"},
+}
+
+# The timer's presets for shot 6, named in the listing's language; the zazen is the plan set.
+ZAZEN = "10;1200,600,1800;WOOD;2;3"
+PRESETS = {
+    "en": f"Zazen\t{ZAZEN}\nMorning\t30;1500;WOOD;2;1",
+    "ru": f"Дзадзэн\t{ZAZEN}\nУтро\t30;1500;WOOD;2;1",
 }
 
 lang, out = sys.argv[1], Path(sys.argv[2])
@@ -90,8 +98,8 @@ def demo_bar():
     demo("status", location="hide", alarm="hide", sync="hide", bluetooth="hide", volume="hide", mute="hide", zen="hide")
 
 
-def day(mmddhhmm, year, calendar, place):
-    prefs(calendar, birth=None, kigaku=False, place=place)
+def day(mmddhhmm, year, calendar, place, strings=None):
+    prefs(calendar, birth=None, kigaku=False, place=place, strings=strings)
     sh(f"date {mmddhhmm}{year}.00")
     clean_status_bar()
     start(7)
@@ -107,9 +115,8 @@ language(lang)
 try:
     day("06180900", 2027, "TIBETAN", LHASA)
     shot(1)
-    up()
-    # The almanac row, not the page heading of the same name.
-    tap_at(find(labels["festival"], last=True))
+    # The festival's heading opens its reading.
+    tap_at(find(labels["festival"]))
     shot(3)
 
     day("10230900", 2026, "KYUREKI", KYOTO)
@@ -127,6 +134,11 @@ try:
     adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
     tap_at(find(labels["menu"], desc=True))
     shot(5)
+
+    day("10230900", 2026, "KYUREKI", KYOTO, strings={"sit_plan": ZAZEN, "sit_presets": PRESETS[lang]})
+    tap_at(find(labels["menu"], desc=True))
+    tap_at(find(labels["meditation"]))
+    shot(6)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")
