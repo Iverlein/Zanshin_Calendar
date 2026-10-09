@@ -220,7 +220,14 @@ the text, not about the app.
     chu tshod, beside the 4;26 of WB's mean arithmetic, and the excess
     being at most about a day's course («ཚད་ལས་ལྷག་ན་ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས་མ་ལོངས་ཙམ»),
     the rule is WB's rough one. The app follows it (`DayTimes.MULTIPLIER`).
-    No other text gives the line (BDRC's full-text search finds only
-    WB's prints and the *Kun 'dus* reprint), and the 1996 print has no
-    numeral there; «རོས», the carry's divisor, needs no figure of its own
-    in the step.
+    «རོ» is the six of the reckoner's units, the *dbugs* in a chu srang, as
+    sixty (*mkha' ro*) is the chu srang in a chu tshod: Pema Karpo's rtsis
+    verse turns its remainders so, «ལྷག་མ་མཁའ་རོ་རོ་རྣམས་ཀྱིས། །རིམ་བསྒྱུར་རིམ་པར་བགོས་པའི་ནོར། །དབྱུག་མིག་སྲང་མེ་མིག་དབུགས་མེ»,
+    its result in *dbyug*, *srang* and *dbugs* (*Gsung 'bum* of Pad+ma dkar
+    po, BDRC MW10736, vol. 1, etext VE10736_001 from character 684875;
+    the same verse in the *Rtsis gzhung gdan dus thun mong gi nges pa*,
+    MW3CN2232_A52E6B), so «ཆུ་སྲང་རོས་བགོས་པ་སྟེང་བྱིན» divides the lower
+    columns by their six (and sixty) and carries the quotients up into the
+    chu tshod: the product of the excess and 14, put into chu tshod, chu
+    srang and dbugs. No other text gives WB's line itself (BDRC's
+    full-text search finds only WB's prints and the *Kun 'dus* reprint).

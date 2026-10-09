@@ -511,7 +511,9 @@ it. It is item E below, built 2026-10-09.
   year's rule (p. 197), and the *sa rgyal* the other way, *pi ling 'phar
   ma*'s hour of each season-month (p. 236, the late summer's dog hour
   from the Zhol print), as another view; and the sun's terms by WB's step
-  as written, the excess times 14 (*yid*, open question 15 answered),
+  as written, the excess times 14 (*yid*), its columns carried by six
+  and sixty (*ro*, as Pema Karpo's rtsis verse counts the units; open
+  question 15 answered),
   which puts the 8th month's *sgang* of 2026 at 00:29 on 8 October. Checked in
   `DayTimesTest` and on the emulator in both languages (the tiger hour of
   9 October 2026: the earth king the other way on the hare's place, the

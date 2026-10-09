@@ -159,8 +159,10 @@ step («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང
 print, read by eye, the Zhol etext and the BDRC etexts of the Gser thang
 reprint and of the *Kun 'dus chen mo*, searched 2026-10-09) multiplies
 (*bsgyur*) the excess's chu tshod by *yid*, the number word for 14 (*Tshig
-mdzod chen mo*, open question 15), the chu srang divided and carried up
-into chu tshod (*bgos pa steng byin*): the product is the chu tshod of
+mdzod chen mo*, open question 15), its lower columns divided by their
+six (*ro*, the dbugs in a chu srang, as Pema Karpo's rtsis verse counts
+the units) and sixty and carried up into chu tshod (*bgos pa steng
+byin*): the product is the chu tshod of
 time taken from the date's end. A day of the sun's course is so 60/14 =
 4;17 chu tshod of it, WB's round figure beside its arithmetic's mean of
 4;26. The app follows the words (`DayTimes.MULTIPLIER`). Worked by hand
