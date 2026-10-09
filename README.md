@@ -17,6 +17,11 @@ readings of that day and sunrise, solar noon and sunset for your place.
 - **旧暦:** month and day, 六曜, the current solar term, moon phase, 十二直,
   二十八宿, 九星, 選日 and 暦注下段 (with the lower band's own rules), 雑節,
   干支 and 恵方.
+- **Meditation:** a timer of a warm-up and periods of any length, a wood
+  block between periods (as a zazen of 20, 10 and 30 minutes), saved as
+  presets, ringing with the screen off; and a mindfulness bell through the
+  day, at fixed or random times within set hours. The bells are
+  synthesised on the phone, so no sound file is bundled.
 - Every Tibetan term and kanji shows its English on tap; every reading names
   its published source.
 - Dates from 1900 to 2100. No internet permission: everything is computed on
