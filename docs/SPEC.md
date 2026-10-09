@@ -1101,10 +1101,12 @@ canvas "Zanshin Calendar — basic design".
   and rabjung cycle ("17th cycle, year 40") in the year's balloon.
 - **Midnight to dawn:** "today" is the civil date, as §4 says; the
   date carries a small "from dawn".
-- **Day line:** one short line — weekday, planet, day element and animal, e.g.
-  "Monday · Moon · Iron Horse". Tapping it opens a balloon with the full
-  details: weekday with its Tibetan name, planet, element, animal, gender.
-- **In brief:** under the day line, one row of glyphs, however many works
+- **No day line** (decided by the owner, 2026-10-09; ROADMAP T3): the
+  weekday and planet are the Almanac's weekday row, which carries the
+  Tibetan name in its sheet, and the 60-day cycle's element and animal,
+  weighed nowhere (§5.12), are the "Day sign" row of the Lunar day
+  section.
+- **In brief:** under the year line, one row of glyphs, however many works
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination", "an unlucky day · by Tuesday",
@@ -1164,14 +1166,21 @@ canvas "Zanshin Calendar — basic design".
   named as §8.1 writes it, tapping it for the phonetics), so that no section
   repeats them (decided by the owner, 2026-10-07: the five components
   section, which gave the same four terms again, was folded in). After the
-  Almanac, Your day and Also today, the lunar-day cycles as tappable terms, the date's
+  Almanac, Your day and Also today, the Lunar day section: first the
+  day sign, the 60-day cycle's element and animal ("Earth Bird"), the
+  element's glyph in its colour (ROADMAP T3: the hues of the sme ba
+  boxes that stand for it, Berzin 4, iron white, water black or blue,
+  wood green, earth yellow, fire red; water drawn blue and the green
+  and red lightened, so that a thin glyph reads on the dark page), its
+  balloon giving element, animal and gender; then the lunar-day cycles
+  as tappable terms, the date's
   animal (*nyi ma*) opening its earth lords and the
   trigram its goddess's reading (§5.11). Several special days are one row,
   "Special days", their dots side by side, as they are one voice in the
   weighing; its sheet gives each reading in turn. The burning date is one
   of them, its subtitle naming the weekday and the date that make it. Rāhu's courses by date and by month
-  are one row in the same way. The day line's balloon names the 60-day
-  cycle's animal the "day sign", the Lunar day section the date's animal
+  are one row in the same way. The Lunar day section names the 60-day
+  cycle's animal the "day sign", and the date's animal
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one.

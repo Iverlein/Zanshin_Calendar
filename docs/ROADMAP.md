@@ -19,7 +19,7 @@ with the one that gives it a use. "Later" is not ranked.
 
 | # | Item | Size | Why | Needs |
 | --- | --- | --- | --- | --- |
-| 1 | T3 Element colours | S | A colour per element, once it has a place | A place for the day's element on the page (sourced: Berzin 3) |
+| 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page, the burning dates (built), the eight classes' and nāgas' strikes, 11/6, hair by date, the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
@@ -42,7 +42,7 @@ moves up as soon as it is unblocked.
 | 1 | U1 + U3 — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
 | 2 | E6, the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
 | 3 | U4 + U5 — built 2026-10-09 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
-| 4 | T3 Element colours | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
+| 4 | T3 Element colours — built 2026-10-09 | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
 | 5 | T2.11 WB's almanac page | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
 | 6 | T2.15 Hair by date | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
 | 7 | T2.14 The 11th month's 6th | 5; then the owner's decision | Build block 7: T2.14, read WB p. 226's nine bad days, then ask me to decide against Rabten's festival. |
@@ -441,17 +441,30 @@ it. The plan is item E below.
   Khyung sprul's *dpyad gsum dag rtsis*, a reformed calendar arithmetic of
   its own (the calendar's «Че сум так ци»).
 
-### T3. Element colours
+### T3. Element colours — built 2026-10-09 (SPEC §10.3)
 
 The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
 with the pebbles of the year, month, day and hours are built (SPEC §5.9),
 and so are the personal mansions (SPEC §5.8). What is left waits on design:
 
 - **Element colours:** wood green, fire red, earth yellow, iron white, water
-  black or blue (Berzin 3). The day's element appears only inside the day
+  black or blue (Berzin 4; first cited here as Berzin 3). The day's element appears only inside the day
   line, so it first needs a place of its own on the page.
 - Whole days stay uncoloured, as on the 旧暦 page (SPEC §10.4). The element
   pair already marks four of its ten pairs as inauspicious.
+- **Built.** The day's element is weighed nowhere: the element pair is
+  the weekday's and the mansion's, vitality and body count the lunar
+  date's element. The owner chose (2026-10-09) to move the whole day line
+  down: weekday and planet were already the Almanac's weekday row, and
+  the day sign ("Earth Bird") is now the first row of the Lunar day
+  section, its element glyph in colour, its balloon giving element,
+  animal and gender. The colours are not Berzin 3's, which names none,
+  but Berzin 4's: the sme ba numbers' colours with their elements (iron
+  white, water black, "black is equivalent to blue", wood green, earth
+  yellow, fire red). Water is drawn blue, and wood and fire lighter than
+  the printed boxes, so that a thin glyph reads on the dark page. Only
+  the day sign's glyph is coloured; the year line and the combination's
+  element glyphs stay muted.
 
 ### T4. Divination
 
