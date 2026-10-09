@@ -35,7 +35,7 @@ class TextsTest {
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
         Texts.OWN_DAY,
-    ).flatMap { it.values } + Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE
+    ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE
 
     @Test
     fun `every annotation has a sourced reading`() {
@@ -63,6 +63,7 @@ class TextsTest {
         complete(Weekday.entries, Texts.WEEKDAY)
         assertEquals(30, Texts.LUNAR_DATE.size)
         assertEquals(30, Texts.HAIRCUT.size)
+        assertEquals(30, Texts.HAIR_DATE.size)
 
         for (r in all) {
             for (s in listOf(r.source) + r.also) assertTrue(s.url.startsWith("http"), "source of \"${r.summary}\"")

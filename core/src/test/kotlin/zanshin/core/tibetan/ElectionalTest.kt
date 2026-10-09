@@ -152,4 +152,17 @@ class ElectionalTest {
         assertEquals(list("feeding_up_horses").bad.dates, bad("breaking_in_horses").dates)
         assertEquals(list("feeding_up_horses").bad.animals, bad("breaking_in_horses").animals)
     }
+
+    /** ROADMAP T2.15: the good and bad dates for washing the hair, read on the scan of WB vol. 2, p. 404 (docs/sources/hair-dates.md). */
+    @Test
+    fun `washing the hair takes the White Beryl's dates, the 27th on neither side`() {
+        // «གསུམ་བཞི་ལྔ་དྲུག་བརྒྱད་དང་བཅུ། །བཅུ་གཅིག་བཅུ་གསུམ་བཅོ་ལྔ་དང་། །བཅུ་དྲུག་བཅོ་བརྒྱད་བཅུ་དགུ་དང་། །ཉེར་གཉིས་ཉེར་གསུམ་ཉེར་དྲུག་བཟང»
+        val good = setOf(3, 4, 5, 6, 8, 10, 11, 13, 15, 16, 18, 19, 22, 23, 26)
+        // «གཅིག་གཉིས་བདུན་དགུ་བཅུ་གཉིས་དང་། །བཅུ་བཞི་བཅུ་བདུན་ཚེས་ཉི་ཤུ། །ཉེར་གཅིག་ཉེར་བཞི་ཉེར་ལྔ་བརྒྱད། །ཉེར་དགུ་གནམ་གང་ངན་པར་བརྗོད»
+        val bad = setOf(1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 28, 29, 30)
+        val washing = list("bathing_and_washing_the_hair")
+        assertEquals(good, washing.good.dates)
+        assertEquals(bad, washing.bad.dates)
+        assertFalse(27 in good || 27 in bad)
+    }
 }

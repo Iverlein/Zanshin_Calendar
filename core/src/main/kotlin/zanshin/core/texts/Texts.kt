@@ -145,6 +145,8 @@ object Sources {
     val WHITE_BERYL_YOGAS = whiteBeryl("pp. 347–349")
     val WHITE_BERYL_KARANAS = whiteBeryl("pp. 349–351")
     val WHITE_BERYL_LUNAR_DATES = whiteBeryl("pp. 297–304")
+    /** Chapter 34's work 34, bathing and washing the hair: the thirty hair dates' results. */
+    val WHITE_BERYL_HAIR_DATES = whiteBeryl("p. 404")
     val WHITE_BERYL_PERSONAL_MANSIONS = whiteBeryl("p. 330")
     /** A person's own weekdays and mansions: the works p. 338, the own weekday's p. 312, the element's weekdays p. 330 with the table p. 346. */
     val WHITE_BERYL_OWN_DAYS = whiteBeryl("pp. 337–338, with p. 312 and the tables pp. 345–346")
@@ -398,7 +400,11 @@ object Texts {
         Reading(key = "reading.Ehou", source = Sources.WP_TOSHITOKU, license = License.CC_BY_SA)
     }
 
-    /** Lunar days on which cutting one's hair brings a good result, per the same source. */
+    /**
+     * Lunar days on which cutting one's hair brings a good result, per the same source. FPMT's list, not the
+     * White Beryl's: WB gives no haircut results by date, and its thirty hair dates, for washing the hair (p. 404,
+     * [HAIR_DATE]), share FPMT's result on 17 dates and its good or bad on 25 (docs/sources/hair-dates.md).
+     */
     val HAIRCUT_GOOD: Set<Int> = setOf(3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 18, 19, 22, 23, 26, 27)
 
     /** Result of cutting one's hair on each lunar day, 1–30: the result alone under `reading.Haircut.<day>`. */
@@ -481,7 +487,8 @@ object Texts {
     /**
      * The lunar date, 1–30: the White Beryl's good and bad activities, with its
      * place in the five-fold cycle, a birth and a death on it, the four
-     * perilous dates and where the la, the life-spirit, sits in a person and in a horse (bla gnas) (docs/sources/lunar-dates.md).
+     * perilous dates and where the la, the life-spirit, sits in a person and in a horse (bla gnas) (docs/sources/lunar-dates.md);
+     * the date's result for washing the hair ([HAIR_DATE]) is cited with it.
      */
     val LUNAR_DATE: List<Reading> = listOf(
         Reading(goodKeys = listOf("setting_out", "lawsuits", "breaking_ground", "pacifying_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("teaching_dharma", "washing_the_hair", "funeral_rites", "marriage", "giving_anything_out", "worship_of_deities", "averting_rites", "suppressing_sri", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.1"),
@@ -514,7 +521,14 @@ object Texts {
         Reading(goodKeys = listOf("fire_offerings", "building_dams", "power_rites"), avoidKeys = listOf("washing_the_hair", "setting_out", "funeral_rites", "taking_servants", "digging_ponds_and_canals", "marriage", "enthronement", "consecration", "sowing", "buying_goods", "buying_livestock", "war_south_or_west"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.28"),
         Reading(goodKeys = listOf("teaching_dharma", "subduing_enemies", "setting_out", "suppressing_sri", "fierce_rites"), avoidKeys = listOf("sowing", "taking_servants", "breaking_in_livestock", "brewing_beer", "washing_the_hair", "consecration", "funeral_rites", "enthronement", "bloodletting_and_moxibustion", "making_images", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.29"),
         Reading(goodKeys = listOf("power_rites", "sowing"), avoidKeys = listOf("consecration", "enthronement", "washing_the_hair", "setting_out", "bloodletting_and_moxibustion", "funeral_rites", "marriage", "buying_servants_and_goods", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.30"),
-    )
+    ).map { it.copy(also = listOf(Sources.WHITE_BERYL_HAIR_DATES)) }
+
+    /**
+     * What washing the hair on each date brings, 1–30: the White Beryl's "hair dates", which it says differ a
+     * little from its date readings (vol. 2, p. 404), the result alone under `reading.HairDate.<day>`. Shown
+     * with the lunar date; the good and bad dates that follow them are the list of box 37 (docs/sources/hair-dates.md).
+     */
+    val HAIR_DATE: List<Reading> = (1..30).map { Reading(key = "reading.HairDate", arg = "reading.HairDate.$it", source = Sources.WHITE_BERYL_HAIR_DATES) }
 
     /** The four perilous dates of every month (the White Beryl, p. 302). */
     val PERILOUS_DATES: Set<Int> = setOf(8, 15, 22, 30)

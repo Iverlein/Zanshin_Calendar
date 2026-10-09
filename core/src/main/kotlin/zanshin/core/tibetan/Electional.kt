@@ -790,7 +790,8 @@ object Electional {
                 animals = setOf(DRAGON, SNAKE, SHEEP),
             ),
         ),
-        // 37. Bathing and washing the hair (img. 46, KP2 img. 267).
+        // 37. Bathing and washing the hair (img. 46, KP2 img. 267). The bad half's second line is worn; its dates are the
+        // White Beryl's (vol. 2, p. 404), which the good half follows date for date and which names the 27th on neither side.
         ActivityList(
             "bathing_and_washing_the_hair",
             good = Factors(
@@ -800,7 +801,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(TUESDAY, SATURDAY),
-                dates = setOf(1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 27, 28, 29, 30),
+                dates = setOf(1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 28, 29, 30),
                 mansions = m(PUSHYA, MAGHA, VISHAKHA, PURVABHADRAPADA, PURVAPHALGUNI, BHARANI),
             ),
         ),
