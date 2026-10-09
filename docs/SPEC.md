@@ -1529,7 +1529,7 @@ canvas "Zanshin Calendar — basic design".
   as a full-height column, scrolling when it does not fit, in groups under
   small capital labels, a line between groups: **Calendar** (the two
   calendars and Choose a day), **Practice** (Meditation, §10.9),
-  **Settings** (location, birth date, nine-star reading, language), and
+  **Settings** (location, people, nine-star reading, language), and
   About & sources alone at the foot.
 - **Location**, stored only on the device:
   - **"Use my location"**: one reading from the device's location service
