@@ -23,7 +23,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
-| 5 | E Election: the best day for a work | L | E1–E3 and E6 built 2026-10-09 (SPEC §5.14, §10.8): the day's weighing read across days for one work, best first, with the hours of each month; left: E4, a reading of WB ch. 34's rising signs for the hours, and E5, the 旧暦 election | E4 waits on a reading |
+| 5 | E Election: the best day for a work | L | E1–E4 and E6 built 2026-10-09 (SPEC §5.13, §5.14, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; left: E5, the 旧暦 election | — |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
@@ -401,7 +401,7 @@ The calendar's "choice of time" lists a month's good and bad days for one
 of 25 works, ranked. The app weighs every work on every day already
 (SPEC §5.12); the election reads that weighing across days, so the WB
 voices still to come (T2.11, T2.13) change its results without changing
-it. It is item E below, built 2026-10-09 but for E4 and E5.
+it. It is item E below, built 2026-10-09 but for E5.
 
 #### T2.19 The birth weekday, the birth mansion and the element's weekdays — built 2026-10-08 (SPEC §5.8, §5.12, §10.3)
 
@@ -776,11 +776,11 @@ date, in English and Russian, show it.
 
 The user picks a work and a span; the app lists the days the weighing
 makes good for it, best first, each with the factor that decides it, and
-the hours within them. E1–E3 are built (2026-10-09): the design, the
+the hours within them. E1–E4 are built (2026-10-09): the design, the
 order of the good days and what in it is sourced are SPEC §5.14, the
 screen §10.8. Each day is weighed exactly as its page weighs it (§5.12),
 so every voice built later (T2.13, T2.20–T2.23) reaches the election by
-itself. Left: E4 (the works' own rising signs) and E5 (the 旧暦 election).
+itself. Left: E5 (the 旧暦 election).
 
 #### The person's days and the hour against the day
 
@@ -840,7 +840,7 @@ per Tibetan month (`Election.hours`), and on each good day its nectar
 periods where their reading names the work. Hours do not move a day's
 place (D1).
 
-#### E4 The works' own rising signs — M reading, then S
+#### E4 The works' own rising signs — built 2026-10-09 (SPEC §5.10, §5.13, §5.14, §10.3)
 
 - **Gap.** WB's chapter 34 gives most works their rising signs (naming,
   clothes, the new home, the hearth, shows, sewing, storehouses,
@@ -892,8 +892,8 @@ place (D1).
 
 #### The election's order
 
-E1, E2 and E3 built together (2026-10-09); E4 after its reading; E5 on
-E2's screen. Each is done when its code has tests, SPEC has it (§5.14,
+E1, E2 and E3 built together (2026-10-09); E4 after its reading, the
+same day; E5, on E2's screen, is left. Each is done when its code has tests, SPEC has it (§5.14,
 §10.8), it is checked on the emulator in English and Russian, and the
 release build is checked before the tag (R8: the picker names works
 through the catalog by their enum's class name). The store listing and

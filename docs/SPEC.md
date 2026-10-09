@@ -886,8 +886,7 @@ built later reaches the election by itself.
   source. `ElectionTest` checks on 2000–2049 that every work's side is the
   day page's and that the order holds, and keeps October 2026 ranked for
   haircuts, weddings and setting out.
-- **Not built:** the works' own rising signs of WB's chapter 34 (ROADMAP
-  E4) and the 旧暦 election (E5).
+- **Not built:** the 旧暦 election (ROADMAP E5).
 
 ## 6. Astronomy library
 
