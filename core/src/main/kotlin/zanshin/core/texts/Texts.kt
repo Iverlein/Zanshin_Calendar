@@ -36,6 +36,13 @@ import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
+import zanshin.core.tibetan.Force
+import zanshin.core.tibetan.Gender
+import zanshin.core.tibetan.Harsh
+import zanshin.core.tibetan.LogMenPlace
+import zanshin.core.tibetan.Pebbles
+import zanshin.core.tibetan.Sector
+import zanshin.core.tibetan.SmeBaObstacle
 
 /*
  * Readings shown on demand (SPEC §8). Each has a published source and a
@@ -144,6 +151,16 @@ object Sources {
             "(ཀྲུང་གོའི་བོད་ཀྱི་ཤེས་རིག་དཔེ་སྐྲུན་ཁང, krung go'i bod kyi shes rig dpe skrun khang), Beijing 1996, vol. $volume, $pages",
         "BDRC MW2CZ8040",
         "https://library.bdrc.io/show/bdr:MW2CZ8040",
+    )
+    /** Vol. 1, chapter 21's signs of the years of life and chapter 24, the obstacle years (SPEC §5.9, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–411", volume = 1)
+    /** The sectors' ranks and pebbles, the trigrams' elements (docs/sources/year-of-life.md). */
+    val MOONBEAMS = Source(
+        "The Moonbeams (འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར, 'Byung rtsis man ngag zla ba'i 'od zer) of Lochen Dharmaśrī (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI), " +
+            "in the Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 3, pp. 493, 496 and 507, " +
+            "Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང, si khron mi rigs dpe skrun khang), Chengdu 1998",
+        "BDRC MW28845",
+        "https://library.bdrc.io/show/bdr:MW28845",
     )
     val WHITE_BERYL_YOGAS = whiteBeryl("pp. 347–349")
     val WHITE_BERYL_KARANAS = whiteBeryl("pp. 349–351")
@@ -1166,5 +1183,59 @@ object Texts {
      */
     val PEBBLES: Map<Kinship, Reading> = Kinship.entries.associateWith {
         Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES, also = listOf(Sources.BERZIN_ASTROLOGY_1))
+    }
+
+    /** A reading of the year of life (SPEC §5.9): the section's text with the item's in its {0}. */
+    private fun yearOfLife(key: String, item: String) =
+        Reading(key = "reading.$key", arg = "reading.$key.$item", source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS))
+
+    /** The catalog's name of a pebble group: three, two or one white, two or one black, or one of each. */
+    fun pebbleGroup(p: Pebbles): String = when (p) {
+        Pebbles(3, 0) -> "W3"
+        Pebbles(2, 0) -> "W2"
+        Pebbles(1, 0) -> "W1"
+        Pebbles(0, 2) -> "B2"
+        Pebbles(0, 1) -> "B1"
+        else -> "WB"
+    }
+
+    /** What the pebbles of [force] foretell (WB vol. 1, pp. 380–384). */
+    fun yearPebble(force: Force, p: Pebbles): Reading = yearOfLife("YearPebble", "${force.name}.${pebbleGroup(p)}")
+
+    /** The predictive pebble of [force], white or black; with [force] null, all four alike (pp. 384–385). */
+    fun yearPredictive(force: Force?, white: Boolean): Reading =
+        yearOfLife("YearPredictive", if (force == null) (if (white) "ALL_WHITE" else "ALL_BLACK") else "${force.name}.${if (white) "WHITE" else "BLACK"}")
+
+    fun yearSector(s: Sector): Reading = yearOfLife("YearSector", s.name)
+
+    /** The progressed sign, with where its animal stands among the doors and the fives, if anywhere (p. 387). */
+    fun logMen(place: LogMenPlace?): Reading = yearOfLife("LogMen", place?.name ?: "NONE")
+
+    /** A harsh year; the own year and the seventh are read by the relation of the year's element to the birth year's (pp. 387–390). */
+    fun harsh(h: Harsh): Reading = yearOfLife("Harsh", h.kinship?.let { "${h.year.name}.${it.name}" } ?: h.year.name)
+
+    /** A year of the nine-multiples, by gender and age (pp. 410–411). */
+    fun nineMultiple(gender: Gender, age: Int): Reading = yearOfLife("NineMultiple", "${gender.name}.$age")
+
+    fun mewaObstacle(o: SmeBaObstacle): Reading = yearOfLife("MewaObstacle", o.name)
+
+    fun yearTrigram(t: Trigram): Reading = yearOfLife("YearTrigram", t.name)
+
+    /** The mewa of each natal group and the year's mewa its readings name (pp. 405–408); a natal mewa of the three whites is "W". */
+    val YEAR_MEWA: Map<String, List<String>> = mapOf(
+        "2" to listOf("3", "4", "5", "7", "6", "18", "9"),
+        "3" to listOf("2", "4", "5", "7", "68", "19"),
+        "4" to listOf("2", "3", "4", "5", "7", "18", "69"),
+        "5" to listOf("2", "3", "4", "5", "7", "1689"),
+        "7" to listOf("2", "3", "4", "5", "7", "1689"),
+        "W" to listOf("2", "3", "4", "5", "7", "168", "9"),
+        "9" to listOf("2", "3", "4", "5", "7", "168", "9"),
+    )
+
+    /** WB's reading of the year's mewa [current] for one born under [natal]; null where it gives none (the natal mewa itself, mostly). */
+    fun yearMewa(natal: Int, current: Int): Reading? {
+        val group = if (natal in setOf(1, 6, 8)) "W" else "$natal"
+        val c = YEAR_MEWA.getValue(group).firstOrNull { "$current" in it } ?: return null
+        return yearOfLife("YearMewa", "N$group.C$c")
     }
 }

@@ -41,6 +41,13 @@ import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
+import zanshin.core.tibetan.BasicSign
+import zanshin.core.tibetan.HarshYear
+import zanshin.core.tibetan.LogMenPlace
+import zanshin.core.tibetan.Sector
+import zanshin.core.tibetan.SmeBaObstacle
+import zanshin.core.tibetan.YearOfLife
+import zanshin.core.tibetan.YearReckoning
 import java.io.File
 import java.util.Locale
 
@@ -58,6 +65,7 @@ class CatalogTest {
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
             StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries,
+            BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }
@@ -84,7 +92,8 @@ class CatalogTest {
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
         ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
             // The earth lords that move by date: a reading for every course on every day it can fall.
-            (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct()
+            (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +
+            yearOfLifeReadings()
         (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values + Texts.TRIGRAM.values + Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.COMBINATION_DAY.values + Texts.RAHU.values).forEach { present(it.key) }
         for (r in readings) {
             assertTrue(r.key.startsWith("reading."), "reading without a key from ${r.source.title}")
@@ -98,6 +107,35 @@ class CatalogTest {
      * it may lack some, which then show in English. A language offered in the
      * app's menu must have them all, which the app's TranslationsTest checks.
      */
+    /** Every reading a year of life can show: each birth sign over sixty years of age, for no gender, men and women. */
+    private fun yearOfLifeReadings(): List<Reading> {
+        val out = mutableSetOf<Reading>()
+        for (n in 0 until 60) for (age in 1..100) for (gender in listOf(null, Gender.MALE, Gender.FEMALE)) {
+            val birthYear = 1924 + n
+            val year = birthYear + age - 1
+            val r = YearReckoning(YearOfLife.signOf(n + 1924 - 1984), birthYear, YearOfLife.yearSign(year), year, gender, null)
+            r.pebbles.forEach { out += Texts.yearPebble(it.force, it.pebbles) }
+            r.sectors.forEach { out += Texts.yearSector(it.sector) }
+            r.harsh.forEach { out += Texts.harsh(it) }
+            r.smeBaObstacles.forEach { out += Texts.mewaObstacle(it) }
+            r.trigram?.let { out += Texts.yearTrigram(it) }
+            if (r.logMen != null) out += Texts.logMen(r.logMenPlace)
+            if (r.nineMultiple) out += Texts.nineMultiple(gender!!, r.age)
+            Texts.yearMewa(r.natalSmeBa, r.currentSmeBa)?.let { out += it }
+        }
+        for (f in Force.entries + listOf(null)) for (w in listOf(true, false)) out += Texts.yearPredictive(f, w)
+        return out.toList()
+    }
+
+    /** No text of the year of life is left that no reckoning shows. */
+    @Test
+    fun `every text of the year of life is shown`() {
+        val shown = yearOfLifeReadings().flatMap { listOfNotNull(it.key, it.arg) }.toSet()
+        val families = listOf("YearPebble", "YearPredictive", "YearSector", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa")
+        val written = english.keys.filter { k -> families.any { k == "reading.$it" || k.startsWith("reading.$it.") } }
+        assertEquals(emptyList<String>(), written.filter { it !in shown }.sorted())
+    }
+
     @Test
     fun `every language has English keys and placeholders`() {
         val dir = File("src/main/resources/texts")
