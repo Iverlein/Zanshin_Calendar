@@ -1286,6 +1286,10 @@ canvas "Zanshin Calendar — basic design".
 - **Swipe left/right** moves one day.
 - **Switching calendars:** two entries at the top of the side menu, and a tap
   on the calendar's name in the header switches directly.
+- **Switching people:** once two or more people are saved (§10.5), the
+  header holds a ring with the chosen person's initials (the person glyph
+  for a name left blank or for no one), between the date and the calendar's
+  name; a tap opens the list of people, and a tap there switches.
 - **Tapping the Gregorian date** in the header opens the date picker, limited
   to 1900–2100. Under each day it shows the day number in the calendar being
   viewed, a dot on holidays and festivals and, in the 旧暦 view, the day marks
@@ -1535,9 +1539,19 @@ canvas "Zanshin Calendar — basic design".
   - No map: a map needs network tiles, and the app has no `INTERNET` permission
     (§2).
 - The location drives the local sky line only; neither calendar depends on it.
-- **Birth date**, optional and stored on the device: enables the personal days
-  (Tibetan luck/life/anti, the own days of §5.8 and the personal mansions,
-  Japanese 三箇の悪日) and the Tibetan pebbles.
+- **People**, optional and stored on the device: up to ten, each a name and
+  a birth date. The birth date of the person chosen enables the personal
+  days (Tibetan luck/life/anti, the own days of §5.8 and the personal
+  mansions, Japanese 三箇の悪日), the Tibetan pebbles, the nine-star reading
+  and the election's "For you"; with no one chosen ("No one") the pages
+  read as without a birth date. The menu row names the person chosen and
+  opens the list: a tap on a person chooses them, a pencil changes or
+  deletes them, and "Add a person" (while fewer than ten are saved) asks for
+  a name and a birth date, both needed, and chooses the new person. With
+  no one saved the row goes straight to adding. A birth date saved before
+  there were people reads as one person without a name, listed by the
+  date, chosen. Stored as the `people` preference, one person per line
+  (epoch day, tab, name), and `person`, the index chosen or -1.
 - **Language**: the phone's language or one the app is translated into
   (English, Russian), each listed by its own name. Android 13 and later keep
   the choice themselves as the per-app language (`LocaleManager`, with
@@ -1550,8 +1564,8 @@ canvas "Zanshin Calendar — basic design".
   and has been read through on a phone; a partial one still shows, string
   by string, on a phone set to it.
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
-  §10.4. Switching it on without a birth date asks for one; cancelling leaves
-  it off.
+  §10.4. Switching it on with no one chosen asks for a person (the list, or
+  adding one when none is saved); cancelling leaves it off.
 - **Local sky line:** sunrise, sunset, true solar noon (the sun's transit, not
   12:00) and the sun's altitude then. Facts only.
 - **Choose a day**, under the two calendars: the election (§10.8) of the

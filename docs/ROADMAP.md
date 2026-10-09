@@ -627,14 +627,17 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
 
 Built together with T4: nothing else reads the gender.
 
-Birth date and gender sit together in one "Personal" section of the menu,
+The people and the gender sit together in one "Personal" section of the menu,
 since every personal reading needs one or both: the personal days of both
 calendars and the nine-star reading need the birth date; the progressions of T4 need both.
 
 - Gender: not set, male or female; the tradition defines the progressions
   for these two only. While it is not set, the readings that need it are
   hidden rather than guessed.
-- Both stay on the device only, as the birth date does now (SPEC §10.5).
+- The gender belongs to a person, beside the name and birth date of the
+  saved people (SPEC §10.5), asked for in the same dialog; a person saved
+  before T5 has it not set.
+- Both stay on the device only, as the people do now (SPEC §10.5).
 
 ### M1. Meditation Timer and Periodic Bell
 
