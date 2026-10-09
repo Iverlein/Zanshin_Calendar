@@ -29,14 +29,19 @@ import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.CustomAccessibilityAction
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.customActions
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -50,7 +55,10 @@ import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayVerdict
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
+import zanshin.core.texts.Texts
+import zanshin.core.texts.byVoices
 import zanshin.core.texts.family
+import zanshin.core.tibetan.OwnDay
 
 private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 15.sp)
 
@@ -60,33 +68,43 @@ private val termStyle get() = body.copy(fontFamily = Mincho, fontWeight = FontWe
  * the mixed colour when one of its activities is named both ways; on the
  * Tibetan page one row, the families of the heaviest works good and to avoid
  * ([DaySummary.row]), followed by how many works the day names good and to
- * avoid, since the row cannot show the proportion. Opens [DaySummarySheet].
- * Screen readers get the counts, and on the Tibetan page the works the row
- * stands for.
+ * avoid, since the row cannot show the proportion. Under the Tibetan day's
+ * tone, the combination periods that run against it ([DaySummary.hoursAgainst],
+ * ROADMAP U5), each time calling [onHour] with its two-hour period. Opens
+ * [DaySummarySheet]. Screen readers get the counts, the hours, with an action
+ * for each, and on the Tibetan page the works the row stands for.
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
+fun BriefRow(summary: DaySummary, onHour: (Int) -> Unit = {}, onOpen: () -> Unit) {
     val briefLabel = stringResource(R.string.kyu_day_in_brief)
     val disputed = summary.activities.count { it.disputed }
     val dayLabel = summary.verdict?.let {
         stringResource(if (it.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad) + " · " + byShort(it)
     }
     val row = remember(summary) { summary.row() }
+    val avoidAll = if (summary.avoidAll.isNotEmpty()) stringResource(R.string.brief_avoid_all) else null
+    val hours = summary.hoursAgainst.map { clockSpan(5 * 60 + it.first * 120, it.count * 120) to it.first }
+    val hoursLabel = summary.verdict?.let { stringResource(if (it.tone == Tone.GOOD) R.string.brief_row_hours_bad else R.string.brief_row_hours_good) }
+    val openHour = stringResource(R.string.hours_open)
     val spoken = stringResource(R.string.kyu_in_brief) + ": " + (dayLabel?.let { "$it, " } ?: "") +
-        stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size) +
+        (if (hours.isNotEmpty()) "$hoursLabel ${hours.joinToString { it.first }}, " else "") + (avoidAll?.let { "$it, " } ?: "") +
+        (if (avoidAll != null) stringResource(R.string.brief_row_avoid, summary.avoid.size) else stringResource(R.string.kyu_brief_counts, summary.good.size, summary.avoid.size)) +
         (if (disputed > 0) stringResource(R.string.kyu_brief_disputed, disputed) else "") +
-        if (summary.verdict != null && row.first.size + row.second.size > 0) {
-            stringResource(R.string.brief_row_spoken, row.first.joinToString { it.activity.english }, row.second.joinToString { it.activity.english })
-        } else {
-            ""
+        when {
+            summary.verdict == null || row.first.size + row.second.size == 0 -> ""
+            avoidAll != null -> stringResource(R.string.brief_row_spoken_avoid, row.second.joinToString { it.activity.english })
+            else -> stringResource(R.string.brief_row_spoken, row.first.joinToString { it.activity.english }, row.second.joinToString { it.activity.english })
         }
     Row(
         Modifier
             .fillMaxWidth()
             .heightIn(min = 44.dp)
             .clickable(role = Role.Button, onClickLabel = briefLabel, onClick = onOpen)
-            .clearAndSetSemantics { contentDescription = spoken },
+            .clearAndSetSemantics {
+                contentDescription = spoken
+                customActions = hours.map { (time, hour) -> CustomAccessibilityAction("$openHour, $time") { onHour(hour); true } }
+            },
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
@@ -98,6 +116,26 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
                     Text(dayLabel!!, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
             }
+            // The hours against the day's tone: on an unlucky day those to be accomplished, on a lucky day those to avoid.
+            if (hours.isNotEmpty()) {
+                val against = if (summary.verdict!!.tone == Tone.GOOD) Tone.BAD else Tone.GOOD
+                FlowRow(
+                    verticalArrangement = Arrangement.Center,
+                    itemVerticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                ) {
+                    Text(hoursLabel!!, style = body.copy(fontSize = 13.sp, color = toneColor(against)))
+                    for ((time, hour) in hours) {
+                        Text(
+                            time,
+                            style = body.copy(fontSize = 14.sp),
+                            modifier = Modifier.clickable(role = Role.Button, onClickLabel = openHour) { onHour(hour) }.padding(vertical = 4.dp),
+                        )
+                    }
+                }
+            }
+            // The person's enemy weekday or death mansion: every work to avoid, beside the day's tone (ROADMAP E6).
+            avoidAll?.let { Text(it, style = body.copy(fontSize = 14.sp, color = Palette.bad)) }
             if (summary.verdict != null) {
                 // The glyphs show the heaviest works only; the counts say how the day's lists divide (ROADMAP T2.7).
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -105,7 +143,9 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
                     // One above the other, so that they take half the width and leave it to the glyphs.
                     Column(horizontalAlignment = Alignment.End) {
                         val small = body.copy(fontSize = 12.sp, lineHeight = 14.sp)
-                        Text(stringResource(R.string.brief_row_good, summary.good.size), style = small.copy(color = Palette.good), maxLines = 1)
+                        if (avoidAll == null) {
+                            Text(stringResource(R.string.brief_row_good, summary.good.size), style = small.copy(color = Palette.good), maxLines = 1)
+                        }
                         Text(stringResource(R.string.brief_row_avoid, summary.avoid.size), style = small.copy(color = Palette.bad), maxLines = 1)
                     }
                 }
@@ -203,12 +243,27 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
                 }
             }
 
+            if (s.avoidAll.isNotEmpty()) {
+                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Box(Modifier.padding(top = 8.dp).size(10.dp).background(Palette.bad, CircleShape))
+                    Column {
+                        Text(stringResource(R.string.brief_avoid_all_title), style = body.copy(fontSize = 18.sp))
+                        Text(s.avoidAll.joinToString(" · ") { "${it.kanji}, ${it.english}" }, style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                    }
+                }
+            }
+
             if (s.verdict != null && festival) {
                 Text(stringResource(R.string.brief_festival_note), style = body.copy(fontSize = 14.sp, color = Palette.muted))
             }
 
-            ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
-            ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+            if (s.verdict != null) {
+                VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
+                VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+            } else {
+                ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true)
+                ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false)
+            }
 
             s.hours?.let { HoursBlock(it, onHour) }
 
@@ -254,7 +309,17 @@ fun DaySummarySheet(s: DaySummary, festival: Boolean = false, onHour: (Int) -> U
                                 }
                             }
                         }
-                        Text(withTibetan(stringResource(R.string.brief_personal_not_weighed)), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
+                        val note = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted)
+                        if (s.avoidAll.isNotEmpty()) {
+                            // WB's words on the two days it makes absolute (vol. 2, p. 338), then why the good list is gone.
+                            for (e in s.avoidAll) {
+                                val words = if (e.reading == Texts.OWN_DAY[OwnDay.ENEMY_WEEKDAY]) R.string.brief_avoid_all_enemy else R.string.brief_avoid_all_death
+                                Text(withTibetan(stringResource(words)), style = note.copy(color = Palette.text))
+                            }
+                            Text(withTibetan(stringResource(R.string.brief_avoid_all_note)), style = note)
+                        } else {
+                            Text(withTibetan(stringResource(R.string.brief_personal_not_weighed)), style = note)
+                        }
                     } else if (s.personal.isNotEmpty()) {
                         Terms(s.personal)
                     }
@@ -307,6 +372,57 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                         }
                     }
                     Terms(if (good) n.good else n.avoid, small = true, modifier = Modifier.weight(1f), end = true)
+                }
+            }
+        }
+    }
+}
+
+/**
+ * The Tibetan day's works on one side, grouped by the voices standing on it (ROADMAP U4): each group
+ * headed by its voices, each tapped for its kind, and its works as one wrapped run of glyphs and
+ * names; a work opens its workings, the voices that carry it with their kinds.
+ */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun VoiceBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean) {
+    if (notes.isEmpty()) return
+    val groups = remember(notes, good) { notes.byVoices(good) }
+    val side = stringResource(if (good) R.string.good_for else R.string.avoid)
+    Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
+        for ((voices, works) in groups) {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    voices.forEachIndexed { i, e ->
+                        GlossText(e.kanji, e.english, body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold), preferAbove = true)
+                        if (i < voices.lastIndex) Text("·", style = body.copy(fontSize = 14.sp, color = Palette.faint))
+                    }
+                }
+                // Centred on each line: a name with Tibetan script stands taller than its neighbours.
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(14.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+                    for (n in works) {
+                        var open by remember { mutableStateOf(false) }
+                        Box {
+                            Row(
+                                Modifier
+                                    .clickable(role = Role.Button) { open = !open }
+                                    .padding(vertical = 5.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(6.dp),
+                            ) {
+                                CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), color, 18.dp)
+                                Text(n.activity.english, style = body.copy(fontSize = 15.sp))
+                            }
+                            if (open) {
+                                Balloon(
+                                    listOf(BalloonRow(side, n.activity.english)) + voices.map { BalloonRow(it.english, it.kanji) },
+                                    preferAbove = true,
+                                    onDismiss = { open = false },
+                                )
+                            }
+                        }
+                    }
                 }
             }
         }

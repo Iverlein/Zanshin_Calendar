@@ -277,6 +277,12 @@
     <string name="brief_birth_star">birth star and day star: %1$s</string>
     <!-- the Tibetan brief's For you block: which of the day's factors is one's own, the weekday or the mansion: "Wednesday, for your birth year" -->
     <string name="brief_personal_not_weighed">Shown, not weighed. The White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) calls a person\'s own weekdays and mansions of particular importance, but neither it nor any other text found places them against the combination of weekday and mansion; the day\'s tone and its lists stand as weighed above.</string>
+    <!-- E6 (SPEC §5.12): on the person's enemy weekday and death mansion the White Beryl avoids every work; shown beside the day's tone, and in For you -->
+    <string name="brief_avoid_all">every work to avoid, for you</string>
+    <string name="brief_avoid_all_title">Every work to avoid, for you</string>
+    <string name="brief_avoid_all_enemy">“On the enemy weekday (དགྲ་གཟའ, dgra gza\') of one\'s element every work is to be avoided”: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, p. 338.</string>
+    <string name="brief_avoid_all_death">“On the death mansion (འཆི་བའི་སྐར་མ, \'chi ba\'i skar ma) anything is bad”: the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), vol. 2, p. 338. Your slayer mansion (གཤེད་སྐར, gshed skar) is the death mansion.</string>
+    <string name="brief_avoid_all_note">The White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes the enemy weekday and the death mansion absolute for you, so the brief gives you no list of good works today; the day\'s tone, its works to avoid and its hours stand as weighed above. Your other days are shown, not weighed: no text found places them against the combination of weekday and mansion.</string>
     <!-- the Tibetan brief's By the hour block (SPEC §10.3): the day's combination periods by verdict and the nectar periods, each time opening the hours -->
     <string name="brief_by_hour">By the hour</string>
     <string name="brief_hours_good">Combination period, to be accomplished</string>
@@ -410,8 +416,14 @@
     <!-- the Tibetan In brief row's counts after its glyphs (SPEC §10.3, ROADMAP T2.7): how many works the day names good and to avoid -->
     <string name="brief_row_good">good %1$d</string>
     <string name="brief_row_avoid">avoid %1$d</string>
+    <!-- the In brief row's combination periods against the day's tone: on an unlucky day those to be accomplished -->
+    <string name="brief_row_hours_good">good hours</string>
+    <!-- on a lucky day, the combination periods to be avoided -->
+    <string name="brief_row_hours_bad">hours to avoid</string>
     <!-- spoken after the counts on the Tibetan summary line: the works its glyphs stand for, heaviest first -->
     <string name="brief_row_spoken">. Most of all good for %1$s; first to avoid %2$s</string>
+    <!-- brief_row_spoken on the person's enemy weekday or death mansion, when the row has no good works -->
+    <string name="brief_row_spoken_avoid">. First to avoid %1$s</string>
     <string name="section_stars">九星 · Nine stars</string>
     <string name="row_day_star">Day star</string>
     <!-- describes the rokuyō day arc for screen readers -->

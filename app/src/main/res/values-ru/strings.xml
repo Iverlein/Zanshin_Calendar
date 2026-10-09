@@ -240,6 +240,11 @@
     <string name="brief_for_you">Для вас</string>
     <string name="brief_birth_star">звезда рождения и звезда дня: %1$s</string>
     <string name="brief_personal_not_weighed">Показано, но не взвешено. «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) называет собственные дни недели и созвездия человека особенно важными, но ни он, ни другой найденный текст не сопоставляет их с сочетанием дня недели и созвездия; тон дня и его списки остаются такими, как взвешено выше.</string>
+    <string name="brief_avoid_all">для вас — избегать любого дела</string>
+    <string name="brief_avoid_all_title">Для вас — избегать любого дела</string>
+    <string name="brief_avoid_all_enemy">«В день недели врага (དགྲ་གཟའ, dgra gza\') своей стихии следует избегать любого дела»: «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), т. 2, с. 338.</string>
+    <string name="brief_avoid_all_death">«В созвездии смерти (འཆི་བའི་སྐར་མ, \'chi ba\'i skar ma) всё дурно»: «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po), т. 2, с. 338. Ваше созвездие губителя (གཤེད་སྐར, gshed skar) и есть созвездие смерти.</string>
+    <string name="brief_avoid_all_note">«Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) делает день недели врага и созвездие смерти для вас безусловными, поэтому «День вкратце» не даёт вам сегодня списка хороших дел; тон дня, то, чего следует избегать, и часы остаются такими, как взвешено выше. Остальные ваши дни показаны, но не взвешены: ни один найденный текст не сопоставляет их с сочетанием дня недели и созвездия.</string>
     <string name="brief_by_hour">По часам</string>
     <string name="brief_hours_good">Период сочетания: его используют</string>
     <string name="brief_hours_bad">Период сочетания: его избегают</string>
@@ -338,7 +343,10 @@
     <string name="brief_avoid">избегать</string>
     <string name="brief_row_good">хорошо %1$d</string>
     <string name="brief_row_avoid">избегать %1$d</string>
+    <string name="brief_row_hours_good">благоприятные часы</string>
+    <string name="brief_row_hours_bad">неблагоприятные часы</string>
     <string name="brief_row_spoken">. Лучше всего: %1$s; прежде всего избегать: %2$s</string>
+    <string name="brief_row_spoken_avoid">. Прежде всего избегать: %1$s</string>
     <string name="section_stars">九星 · Девять звёзд</string>
     <string name="row_day_star">Звезда дня</string>
     <string name="desc_day_arc">Удачное и неудачное время дня, с утра до вечера</string>

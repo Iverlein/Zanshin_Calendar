@@ -216,7 +216,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             }
         }
 
-        BriefRow(summary) { summaryOpen = true }
+        BriefRow(summary, onHour = { hoursFrom = it; hoursOpen = true }) { summaryOpen = true }
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
