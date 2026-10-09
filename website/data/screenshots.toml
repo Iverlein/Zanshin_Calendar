@@ -4,10 +4,10 @@
 file = "1.png"
 [shot.en]
 caption = "A Tibetan day"
-alt = "Tibetan day: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), the 15th of the 4th month, a lucky day in brief, with the sun's times in Lhasa"
+alt = "Tibetan day: Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), the 15th of the 4th month, the hours above the day and a lucky day in brief, with the sun's times in Lhasa"
 [shot.ru]
 caption = "Тибетский день"
-alt = "Тибетский день: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), 15-е число 4-го месяца, вкратце благоприятный день, со временем солнца в Лхасе"
+alt = "Тибетский день: Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), 15-е число 4-го месяца, часы над днём и вкратце благоприятный день, со временем солнца в Лхасе"
 
 [[shot]]
 file = "2.png"

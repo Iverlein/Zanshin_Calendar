@@ -16,8 +16,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   within the day as the White Beryl's almanac writes it: a second mansion,
   a skipped yoga, Viṣṭi's span and the sun's terms, with their times; the
   hours with the combination period, the earth lords of the hour and the
-  black hours; the day in brief
-  weighed by those texts' rank; hair-cutting days, personal days and
+  black hours; the page in those texts' order of strength: the hours
+  above the day, the day in brief with the works it allows and forbids
+  and the one factor that decides, then the readings; hair-cutting days, personal days and
   mansions for a birth year; and for each person the year of age by the
   White Beryl's elemental divination: mewa, trigram and progressed sign,
   the pebbles with their predictions, growth and decline, and the year's

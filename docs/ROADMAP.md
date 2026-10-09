@@ -59,6 +59,7 @@ moves up as soon as it is unblocked.
 | 18 | T2.21 The month's own entries | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
 | 19 | T2.22 The *dbyangs 'char* entries and the twelve links | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
 | 20 | T2.23 The five planets and the *byed rtsis* | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
+| 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 
 ## Tibetan page
 
@@ -853,6 +854,49 @@ lucky by the combination (2 October 2026: hours to avoid 07:00–11:00,
 (8 October, with the test birth date) shows no hours. A time on the row
 opened the panel at its hour (07:00 the Dragon hour, 13:00 the Sheep
 hour).
+
+#### U6 The page in the order of strength — built 2026-10-09 (SPEC §5.12, §10.3)
+
+- **Gap** (the owner, 2026-10-09: neither the page nor the sheets gave a
+  determined impression of what is allowed and what is prohibited, and
+  the reading felt "adaptive and soft", guided by the line of dots). On
+  3 October 2026 the Almanac read as a scoreboard: nine rows, nine
+  coloured dots, two red, red, grey, red, yellow, green, green, red, with
+  a "decides" chip on the first and nothing to say the other eight did
+  not count for the day's tone. The haircut, the one row whose dot is a
+  verdict on a work, stood last among rows whose dots are the voices'
+  tones. The hour, which outranks everything (WB vol. 2, p. 376), was a
+  clock icon on the Almanac's heading and a line of times under In brief,
+  and the brief's "By the hour" came after 93 works. The brief's headline
+  explained the mechanism ("its named combination and its element pair
+  agree, and outweigh every other factor") and then listed 42 good works
+  on an unlucky day without a word that this is genuine.
+- **Built.** The page in the order of strength: a **Hours** row above the
+  brief, a strip of the twelve periods coloured by their verdict with the
+  present moment marked, the present hour with its sign and verdict, and
+  U5's hours against the tone, each opening the panel (`HoursRow`,
+  `rememberCurrentHour` shared with the panel); the In brief row keeps
+  the tone, glyphs and counts; a **Works** section with the haircut row
+  between the brief and the Almanac; the Almanac's heading names what
+  decides ("by the combination"), and only that voice's dot is solid,
+  the others' outlines, "not deciding today" to a screen reader, with a
+  note in their sheets that their lists still decide the works they name
+  that no stronger factor names (`Annotation.outline`, `ToneDot`); the
+  brief's headline adds the rule in a sentence ("Each work goes to the
+  strongest factor that names it, so 42 works are still good today.
+  Within its hour the combination period outweighs the day.", plurals in
+  both languages, nothing on the person's enemy weekday or death
+  mansion), and "By the hour" moves before the works. The clock icon on
+  the Almanac's heading is gone. No side or tone changes. Pinned works in
+  the Works section, each with its deciding factor, are a later item: a
+  chooser and a preference.
+
+U6 was checked on the emulator (Kyoto, clock set so the Bird hour is the
+present one) in English and Russian: unlucky by the combination
+(3 October 2026, with the yoga's and the haircut's sheets), lucky by
+Friday on the death mansion with the test birth date (9 October: no hours
+against the tone, no rule sentence), lucky by Monday with the monthly
+observance (5 October, Russian).
 
 Each is done when SPEC has it, `TranslationsTest` passes, and screenshots
 on the emulator of a lucky and an unlucky day, with and without a birth

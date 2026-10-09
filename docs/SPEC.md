@@ -793,13 +793,21 @@ voices, so that the tone and the lists cannot go separate ways.
   says that the tone is the day's for its works and does not weigh the
   festival's merit: the texts give no rule placing a festival in the
   weighing.
-- **Order on the page** (ROADMAP U1 and U3, built 2026-10-09): the
-  Almanac section holds what is weighed, after the monthly observance and
-  before the haircut: the voices in rank order (the combination, Rāhu,
-  weekday, mansion, special days, lunar date, karaṇa, yoga), each voice
-  one row, so that the named combination and the element pair are one
-  "Combination" row with both dots, as the special days and Rāhu's
-  courses are. What is shown but not weighed stands apart: the person's
+- **Order on the page** (ROADMAP U1 and U3, built 2026-10-09; U6, built
+  2026-10-09): the page runs in the order of strength. First the hours
+  (§5.13), the one factor the texts put above every factor of the day, as
+  a "Hours" row above the brief; then the day in brief; then "Works", the
+  verdicts on single works (the haircut), which are results of the
+  weighing and not voices in it; then the Almanac section, which holds
+  what is weighed, after the monthly observance: the voices in rank order
+  (the combination, Rāhu, weekday, mansion, special days, lunar date,
+  karaṇa, yoga), each voice one row, so that the named combination and
+  the element pair are one "Combination" row with both dots, as the
+  special days and Rāhu's courses are. The Almanac's heading names what
+  decides the day ("by the combination", "by Tuesday"), and only that
+  voice's dot is solid: the other rows' dots are outlines, so that the
+  column of dots reads as each voice's own tone and not as a count of
+  sides, which the White Beryl does not make (above). What is shown but not weighed stands apart: the person's
   own days and mansions in "Your day", with vitality and body; the
   *bla mkhyen*, the great black day and the earth lords' courses (§5.13) in "Also today". The nectar periods, times within the day
   (§5.13), are in the brief's "By the hour" and on the hours panel, not
@@ -1500,22 +1508,39 @@ canvas "Zanshin Calendar — basic design".
   Tibetan name in its sheet, and the 60-day cycle's element and animal,
   weighed nowhere (§5.12), are the "Day sign" row of the Lunar day
   section.
-- **In brief:** under the year line, one row of glyphs, however many works
+- **Hours** (ROADMAP U6, built 2026-10-09): under the year line and above
+  the brief, since the combination period outweighs every factor of the
+  day while it lasts (§5.12, §5.13): a strip of the twelve two-hour
+  periods from 05:00, each coloured by the White Beryl's verdict on the
+  sign rising in it, the clock hour under every third and, on today's
+  page, the present moment as a mark; under it, today, the present hour
+  with its sign and verdict ("now · Horse hour 11:00–13:00 · Sagittarius
+  rises · to be accomplished"), and the combination periods that run
+  against the day's tone (ROADMAP U5, built 2026-10-09;
+  `DaySummary.hoursAgainst`): on an unlucky day those to be accomplished
+  ("good hours 09:00–11:00 13:00–17:00 …"), on a lucky day those to be
+  avoided, consecutive hours joined; nothing is weighed anew, and on the
+  person's enemy weekday or death mansion there are none, since WB places
+  no hour above the person's day (§5.12). A tap on the strip or on a time
+  opens the hours panel at that hour, a tap on the row at the present one;
+  screen readers get the present hour and every run's times, with an
+  action for each (`HoursRow`). Until U6 the hours against the tone stood
+  on the In brief row, and the panel opened from a clock icon on the
+  Almanac's heading.
+- **In brief:** under the hours, one row of glyphs, however many works
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination", "an unlucky day · by Tuesday",
-  the factor named as the weighing found it, §5.12); under it the
-  combination periods that run against that tone (ROADMAP U5, built
-  2026-10-09; `DaySummary.hoursAgainst`): on an unlucky day those to be
-  accomplished ("good hours 09:00–11:00 13:00–17:00 …"), on a lucky day
-  those to be avoided, consecutive hours joined, each time opening the
-  hours panel at its hour; nothing is weighed anew, and on the person's
-  enemy weekday or death mansion there are none, since WB places no hour
-  above the person's day (§5.12); after the glyphs, how many works
+  the factor named as the weighing found it, §5.12); after the glyphs, how many works
   the day names good and to avoid ("good 53", "avoid 36"), since the row
   cannot show the proportion and on 11 % of days the lists run against
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
-  reason, the voices of that tone and the works grouped by the voices
+  reason and, under it, the rule in a sentence (ROADMAP U6): that each
+  work goes to the strongest factor that names it, with how many works
+  still stand against the tone ("so 42 works are still good today"), and
+  that within its hour the combination period outweighs the day, neither
+  said on the person's enemy weekday or death mansion; then the "By the
+  hour" block (below), before the works, and the works grouped by the voices
   that carry them (§5.12), a work opening a balloon with its side and
   each voice with its kind ("weekday · Sunday") and "Choose a day for it",
   which opens the election for that work from the shown day (§10.8);
@@ -1529,13 +1554,29 @@ canvas "Zanshin Calendar — basic design".
   the day's tone and gives only the count to avoid; the sheet says it
   under the tone, naming the day ("Enemy weekday, Thursday"), lists no
   good works, and its "For you" block gives WB's words for each (vol. 2,
-  p. 338) and why the good list is gone. After the works, a "By the hour" block (§5.13) gives the clock
+  p. 338) and why the good list is gone. Before the works (ROADMAP U6;
+  after them until then), a "By the hour" block (§5.13) gives the clock
   times of the combination periods to be accomplished and to be avoided,
   consecutive hours of one verdict joined ("09:00–13:00"), and the nectar
   periods, each time opening the hours panel at its hour, with one
   sentence that within its hour the combination period outweighs every
   factor of the day (WB vol. 2, p. 376) and that the nectar periods are not
   weighed (`DayHours`).
+- **Works** (ROADMAP U6, built 2026-10-09): between the brief and the
+  Almanac, the verdicts on single works, which are results of the
+  weighing and not voices in it: the haircut, weighed as §5.12 weighs every work: its
+  dot is the side the brief gives haircuts and its subtitle names the
+  factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
+  so on every day of 2000–2049 it is the weekday). Its sheet says so,
+  shows the days of the Tibetan month with the side the weighing gives
+  haircuts on each, and gives FPMT's day for the date as one of the date's
+  lists, marked outweighed on the days it is (decided by the owner,
+  2026-10-06), and marked as not the White Beryl's: WB has no haircut
+  results by date, and its thirty hair dates (p. 404) are for washing the
+  hair, shown in the lunar date's sheet as a "Washing the hair" detail
+  (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). Until
+  U6 the haircut was the Almanac's last row, the one row whose dot was a
+  verdict among rows whose dots are the voices' tones.
 - **Almanac:** what is weighed (§5.12, *Order on the page*). The monthly
   observance; the festival is the headline and opens its reading from
   there, so the Almanac does not repeat it. Then the day's voices in the
@@ -1549,17 +1590,14 @@ canvas "Zanshin Calendar — basic design".
   Wind–Fire: the parts disagree, no tone", "Friend · Earth–Earth: both
   lucky"); its sheet says it is one voice and when it decides, then gives
   each reading in turn, the named combination with the table of the 28
-  and the element pair with the grid of the ten. Then the haircut, weighed as §5.12 weighs every work: its
-  dot is the side the brief gives haircuts and its subtitle names the
-  factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
-  so on every day of 2000–2049 it is the weekday). Its sheet says so,
-  shows the days of the Tibetan month with the side the weighing gives
-  haircuts on each, and gives FPMT's day for the date as one of the date's
-  lists, marked outweighed on the days it is (decided by the owner,
-  2026-10-06), and marked as not the White Beryl's: WB has no haircut
-  results by date, and its thirty hair dates (p. 404) are for washing the
-  hair, shown in the lunar date's sheet as a "Washing the hair" detail
-  (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). The weekday, mansion, karaṇa and yoga rows carry their
+  and the element pair with the grid of the ten. The section's heading
+  names what decides the day ("Almanac · by the combination", "by
+  Tuesday"; ROADMAP U6), and only the deciding voice's dot is solid: every
+  other row's dot is an outline, "not deciding today" to a screen reader,
+  and its sheet says under the gloss that its tone does not decide the
+  day and that its lists still decide the works they name that no
+  stronger factor names (`Annotation.outline`), so that the column of
+  dots reads as the voices' own tones and not as a count of sides. The weekday, mansion, karaṇa and yoga rows carry their
   Tibetan names in their sheets, under the gloss ("Tibetan" with the term
   named as §8.1 writes it, tapping it for the phonetics), so that no section
   repeats them (decided by the owner, 2026-10-07: the five components
