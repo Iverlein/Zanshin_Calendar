@@ -654,6 +654,14 @@ Java of the Google Code era, and its one sound file names no source.
   quiet during a sitting, a call and, by default, a silenced phone.
 - **Sound:** three bells synthesised on the device (`BellSound`), no
   sound file to licence; alarm stream, other sound ducked.
+- **Sessions and presets** (2026-10-09, owner's request): a warm-up and
+  periods of any length, minutes and seconds, the wood block (also
+  synthesised) between periods, in place of the fixed choices and the
+  bell within a sitting; plans saved as named presets. On the emulator a
+  7 s warm-up and periods of 20 s and 15 s rang the bowl at 7 s, the
+  wood block twice at 27 s and the bowl three times at 42 s, the
+  notification following the periods; a preset replaced by name and
+  set again by a tap.
 - Checked on the emulator in English and Russian: a one-minute sitting
   rang on time with the screen off and stopped its service; the bell rang
   at 14:15:00 exact and set 14:30, rang from a cold process, stayed

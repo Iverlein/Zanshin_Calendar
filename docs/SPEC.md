@@ -1739,14 +1739,23 @@ names no source, which §8 does not allow, and the bells here are
 synthesised on the device (`app/.../bell/BellSound.kt`), so the app
 carries no sound file.
 
-- **Timer:** a dial of the sitting's length that empties as a phase
-  runs, its time left in Mincho numerals, Begin and Stop. Settings under
-  it, kept on the device: the length (1 to 120 minutes, − and +), the
-  silence before the first bell (none to 1 minute), a bell within the
-  sitting every 5 to 30 minutes or none, and one or three strikes at the
-  end, 5 s apart. A sitting is one strike to begin, the interval
-  strikes, the end's strikes; the timer stops once they have faded.
-  While it runs only the dial and Stop show.
+- **Timer:** a dial of the session's length that empties as the
+  warm-up or a period runs, its time left in Mincho numerals, Begin and
+  Stop. A session (`SessionPlan`) is a silent warm-up of any length,
+  none included, then one to twelve periods of any length one after the
+  other (as a zazen of 20, 10 and 30 minutes), each length up to 24
+  hours, typed as minutes and seconds in a dialog. The session's bell
+  strikes once when the warm-up ends; where one period gives way to the
+  next a different sound, the wood block by default (or one of the
+  bells), strikes one to three times; the bell strikes one to three
+  times at the end, 5 s apart (the wood block's 0.9 s). The timer stops
+  once the last strikes have faded. While it runs only the dial, "Period
+  2 of 3" under its time, the session's time left and Stop show.
+- **Presets:** the session set can be saved under a name, listed above
+  the session's settings with its periods ("20 + 10 + 30 min"); a tap
+  sets it, marked by a check while the settings match it, a cross
+  deletes it, and a name already saved replaces that preset, the dialog
+  saying so. Kept on the device with the settings.
 - **Running with the screen off:** a foreground service (type
   `specialUse`) holds a partial wake lock for the sitting and rings its
   bells by the elapsed-realtime clock; its silent notification counts
@@ -1763,8 +1772,9 @@ carries no sound file.
   a sitting and a call, and, unless switched off, while the phone is on
   silent, vibrate or do not disturb; a bell more than ten minutes late is
   skipped. The switch's subtitle names the next bell.
-- **Sound:** a large bowl, a small bowl or a bell, one choice for both;
-  a volume and Listen. Bells ring on the alarm stream, so a sitting is
+- **Sound:** a large bowl, a small bowl or a bell, one choice for the
+  session's bell and the mindfulness bell (the wood block only between
+  periods); a volume and Listen. Bells ring on the alarm stream, so a sitting is
   heard with the ringer silenced, and duck other sound while they ring.
 - No network: the §2 rule holds; the permissions added are the
   foreground service's, the wake lock, notifications, exact alarms and
