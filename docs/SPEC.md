@@ -42,6 +42,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 | Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食; 七十二候 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | Moon rise and set |
 | Screen with date navigation, home-screen widget, location setting | Notifications |
+| Meditation timer and mindfulness bell, a screen of their own (§10.9) | |
 | Texts from published sources only (§8) | Translations beyond English |
 
 Planned work, with its open questions, is in [ROADMAP.md](ROADMAP.md).
@@ -1525,7 +1526,11 @@ canvas "Zanshin Calendar — basic design".
 ### 10.5 Menu, settings, location
 
 - A **burger button, top left**, opens a menu that slides out from the left
-  as a full-height column: the two calendars at the top, settings below.
+  as a full-height column, scrolling when it does not fit, in groups under
+  small capital labels, a line between groups: **Calendar** (the two
+  calendars and Choose a day), **Practice** (Meditation, §10.9),
+  **Settings** (location, birth date, nine-star reading, language), and
+  About & sources alone at the foot.
 - **Location**, stored only on the device:
   - **"Use my location"**: one reading from the device's location service
     (`ACCESS_COARSE_LOCATION` and `ACCESS_FINE_LOCATION`, asked for when
@@ -1723,6 +1728,47 @@ differences close this section.
   旧暦 page. No hours. The note says that the almanac gives no order and
   why, and that an annotation naming everything names the work.
   "Reading the days…" until the span is ready.
+
+### 10.9 Meditation timer and mindfulness bell
+
+A screen of its own, apart from both calendars (ROADMAP M1), opened by
+"Meditation" in the menu's Practice group and by a tap on the timer's
+notification; a back arrow returns to the day. Mind Bell (Apache-2.0)
+was the model for what it does, not its code: Mind Bell's one sound
+names no source, which §8 does not allow, and the bells here are
+synthesised on the device (`app/.../bell/BellSound.kt`), so the app
+carries no sound file.
+
+- **Timer:** a dial of the sitting's length that empties as a phase
+  runs, its time left in Mincho numerals, Begin and Stop. Settings under
+  it, kept on the device: the length (1 to 120 minutes, − and +), the
+  silence before the first bell (none to 1 minute), a bell within the
+  sitting every 5 to 30 minutes or none, and one or three strikes at the
+  end, 5 s apart. A sitting is one strike to begin, the interval
+  strikes, the end's strikes; the timer stops once they have faded.
+  While it runs only the dial and Stop show.
+- **Running with the screen off:** a foreground service (type
+  `specialUse`) holds a partial wake lock for the sitting and rings its
+  bells by the elapsed-realtime clock; its silent notification counts
+  down and carries Stop. Notification permission is asked for at the
+  first Begin on Android 13 and later; the timer runs without it.
+- **Mindfulness bell:** off by default. Every 15 to 120 minutes within
+  active hours (from and until, by half hours, both ends ringing) on the
+  chosen weekdays; fixed bells fall on the interval counted from the
+  start of the hours, random ones half to one and a half intervals after
+  the last, the first of a day within one interval of the start
+  (`BellPlan`). One exact alarm at a time (`USE_EXACT_ALARM`, before
+  Android 13 `SCHEDULE_EXACT_ALARM`), set again after each ring, a
+  reboot, an update and a change of clock or zone. It keeps quiet during
+  a sitting and a call, and, unless switched off, while the phone is on
+  silent, vibrate or do not disturb; a bell more than ten minutes late is
+  skipped. The switch's subtitle names the next bell.
+- **Sound:** a large bowl, a small bowl or a bell, one choice for both;
+  a volume and Listen. Bells ring on the alarm stream, so a sitting is
+  heard with the ringer silenced, and duck other sound while they ring.
+- No network: the §2 rule holds; the permissions added are the
+  foreground service's, the wake lock, notifications, exact alarms and
+  boot.
 
 ## 11. Milestones and done criteria
 

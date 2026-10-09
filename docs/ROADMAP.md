@@ -25,7 +25,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day, T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
-| 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
+| 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 
 ## Blocks
@@ -50,7 +50,7 @@ moves up as soon as it is unblocked.
 | 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
 | 10 | E5 The 旧暦 election — built 2026-10-09 | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
 | 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
-| 12 | M1 Meditation timer and bell | — | Build block 12: M1, the meditation timer and the periodic bell. |
+| 12 | M1 Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | 13 | T4 + T5 Element calculation and gender | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
 | 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
@@ -639,14 +639,25 @@ calendars and the nine-star reading need the birth date; the progressions of T4 
   before T5 has it not set.
 - Both stay on the device only, as the people do now (SPEC §10.5).
 
-### M1. Meditation Timer and Periodic Bell
+### M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 
-Porting the core functionality of the open-source MindBell app into Zanshin Calendar using modern Android architecture (idiomatic Kotlin, Jetpack Compose).
+Mind Bell's functions on a screen of its own, opened from the menu's new
+Practice group, written for this app rather than forked: Mind Bell is
+Java of the Google Code era, and its one sound file names no source.
 
-- **Meditation Timer**: A countdown UI built in Compose. Will use a Foreground Service with a persistent notification to ensure the timer finishes reliably without being killed by modern Android battery optimization.
-- **Periodically Sounding Bell**: A background chime that rings at either fixed intervals or randomized intervals (matching MindBell's original functions, ringing within an active daytime window).
-- **Audio**: Needs a bundled bell sound (e.g., OGG/MP3) with an F-Droid compatible free license (such as Apache 2.0 or CC0).
-- **Implementation**: Avoids the deprecated MindBell background service patterns. Uses modern `AlarmManager.setExactAndAllowWhileIdle()` (or equivalent WorkManager scheduling) with a `BroadcastReceiver` to handle audio playback efficiently. Must maintain the strict `No INTERNET` policy.
+- **Timer:** a foreground service (`specialUse`) with a partial wake
+  lock rings a sitting's bells by the elapsed-realtime clock, with the
+  screen off; its notification counts down and carries Stop.
+- **Mindfulness bell:** fixed or random intervals within active hours on
+  chosen weekdays (`BellPlan`, `BellTest`), one exact alarm at a time set
+  again after each ring, a reboot, an update and a clock or zone change;
+  quiet during a sitting, a call and, by default, a silenced phone.
+- **Sound:** three bells synthesised on the device (`BellSound`), no
+  sound file to licence; alarm stream, other sound ducked.
+- Checked on the emulator in English and Russian: a one-minute sitting
+  rang on time with the screen off and stopped its service; the bell rang
+  at 14:15:00 exact and set 14:30, rang from a cold process, stayed
+  quiet on silent, and switching it off cleared the alarm.
 
 ## UX
 
