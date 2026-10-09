@@ -140,7 +140,10 @@ class EarthLordCoursesTest {
         // Spug ston: the first month of spring succeeds on the 5th and 30th, vanishes on the 8th, gives no wealth on the 1st and 6th.
         fun spug(month: Int, date: Int) = on(month, date).filter { it.course == EarthLordCourse.SPUG_STON }.map { it.variant }
         assertEquals(listOf("grub"), spug(11, 5)); assertEquals(listOf("yal"), spug(11, 8)); assertEquals(listOf("nor"), spug(11, 6))
-        assertEquals(listOf("nor"), spug(4, 28)); assertTrue(spug(4, 3).isEmpty())
+        // The last month of summer (the 4th), read on the Zhol print: success on the 3rd, vanishing on the 26th, no wealth on the 28th.
+        assertEquals(listOf("nor"), spug(4, 28)); assertEquals(listOf("grub"), spug(4, 3)); assertEquals(listOf("yal"), spug(4, 26))
+        // The planets and the srin po on Viṣṭi's dates, every month.
+        for (date in listOf(4, 8, 11, 15, 18, 22, 25, 29)) assertEquals(setOf("gza", "srin po"), on(7, date).filter { it.course == EarthLordCourse.CLASS_TIMES && it.variant in setOf("gza", "srin po") }.map { it.variant }.toSet())
     }
 
     @Test

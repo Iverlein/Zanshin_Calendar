@@ -205,9 +205,12 @@ object EarthLordCourses {
      * The classes' own times (sections 32–37): in the first months of the four seasons the nāgas
      * on the three 7s, the *rgyal po* on the three 8s and the *lam mo* on the 22nd; in the middle
      * months the *btsan* on the three 6s and the *gnod sbyin* on the three 9s; in the last months the
-     * *bdud* on the 29th and the *gshin rje* on the 13th. The planets' and *srin po*'s (38–39), "on
-     * the dates of the great festival *biddhi*", are not reckoned.
+     * *bdud* on the 29th and the *gshin rje* on the 13th; the planets and the *srin po* (38–39) "on
+     * the dates of the great time *biddhi*", Viṣṭi's (WB's karaṇa table, p. 343, writes «བིདྡྷི» in its
+     * place), the eight dates whose half it holds (vol. 1, p. 177): the 4th, 8th, 11th, 15th, 18th,
+     * 22nd, 25th and 29th of every month ([VISHTI_DATES]).
      */
+    val VISHTI_DATES: Set<Int> = setOf(4, 8, 11, 15, 18, 22, 25, 29)
     val CLASS_TIMES: List<Map<String, Set<Int>>> = listOf(
         mapOf("klu" to setOf(7, 17, 27), "rgyal po" to setOf(8, 18, 28), "lam mo" to setOf(22)),
         mapOf("btsan" to setOf(6, 16, 26), "gnod sbyin" to setOf(9, 19, 29)),
@@ -244,8 +247,9 @@ object EarthLordCourses {
     /**
      * Spug ston's view of the earth lords (p. 233), by season-month: the dates of success (*grub*,
      * when the earth lords' remedies help), of vanishing (*yal*, when they turn back on oneself) and of
-     * not giving out wealth. The last month of summer's success and vanishing dates do not read
-     * («གསུམ་དྲུག་ཉར་ཡལ»), and the direction of each month («ཡས་ལམ») is not identified: neither is built.
+     * not giving out wealth. The last month of summer's «གསུམ་དྲུག་ཉེར་ཡལ» (the Zhol print; the 1996 edition
+     * has ཉར) is read as the autumn lines are, success, vanishing and wealth in turn: the 3rd, and the
+     * 26th inverted for the metre. The direction of each month («ཡས་ལམ») is not identified, not built.
      */
     val SPUG_STON: List<Map<String, Set<Int>>> = listOf(
         mapOf("grub" to setOf(5, 30), "yal" to setOf(8), "nor" to setOf(1, 6)),
@@ -253,7 +257,7 @@ object EarthLordCourses {
         mapOf("grub" to setOf(18), "yal" to setOf(6), "nor" to setOf(8)),
         mapOf("grub" to setOf(1), "yal" to setOf(6), "nor" to setOf(8)),
         mapOf("grub" to setOf(19), "yal" to setOf(26), "nor" to setOf(16)),
-        mapOf("nor" to setOf(28)),
+        mapOf("grub" to setOf(3), "yal" to setOf(26), "nor" to setOf(28)),
         mapOf("grub" to setOf(19), "yal" to setOf(29), "nor" to setOf(9)),
         mapOf("grub" to setOf(9), "yal" to setOf(12), "nor" to setOf(10)),
         mapOf("grub" to setOf(7), "yal" to setOf(4), "nor" to setOf(27)),
@@ -313,6 +317,8 @@ object EarthLordCourses {
             strikes(EarthLordCourse.KLU, KLU_STRIKES, KLU_TURNINGS)
             if (date in KLU_STRIKES_OTHER[s].orEmpty()) add(CourseDay(EarthLordCourse.KLU, CourseEvent.STRIKES, s, OTHER))
             CLASS_TIMES[s % 3].forEach { (cls, dates) -> moves(EarthLordCourse.CLASS_TIMES, date in dates, cls) }
+            moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "gza")
+            moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "srin po")
             add(CourseDay(EarthLordCourse.GNAM_SGO, CourseEvent.MOVES, s, skyDoor(date)))
         }
     }

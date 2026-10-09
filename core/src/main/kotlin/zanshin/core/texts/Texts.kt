@@ -806,12 +806,13 @@ object Texts {
     /**
      * Rāhu among the earth lords that move by date ([RahuBySeason], WB vol. 2, p. 232, section 27): the
      * dates of each season-month he seeks food on, when works great and small for the living and the
-     * dead are avoided and hurling zor and fierce work are auspicious. Keyed by season-month, 0–10; the
+     * dead are avoided, above all work with earth and with mud («ཁྱད་པར་ས་ལས་འདམ་ལས་ངན», as the Zhol print
+     * has it), and hurling zor and fierce work are auspicious. Keyed by season-month, 0–10; the
      * last month of winter has none.
      */
     val RAHU_SEASON: Map<Int, Reading> = (0..10).associateWith {
         Reading(
-            goodKeys = listOf("hurling_zor", "fierce_rites"), avoidKeys = listOf("works_for_the_dead_and_the_living"),
+            goodKeys = listOf("hurling_zor", "fierce_rites"), avoidKeys = listOf("works_for_the_dead_and_the_living", "earthworks", "work_with_mud"),
             source = Sources.WHITE_BERYL_EARTH_LORD_COURSES, key = "reading.RahuSeason", arg = "reading.RahuSeason.$it",
         )
     }

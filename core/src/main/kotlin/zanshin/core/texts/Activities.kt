@@ -1052,6 +1052,7 @@ object Activities {
         "offerings_to_the_gnyan" to of(OFFERINGS),
         "naga_tormas_and_offerings" to of(OFFERINGS),
         "remedies_for_the_earth_lords" to of(AVERTING_RITES),
+        "work_with_mud" to of(MOVING_EARTH),
     )
 
     /** The rokuyō's hours, by wording key. */
