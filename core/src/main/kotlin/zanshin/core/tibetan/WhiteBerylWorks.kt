@@ -8,6 +8,7 @@ import zanshin.core.tibetan.Animal.*
 import zanshin.core.tibetan.Mansion.*
 import zanshin.core.tibetan.Trigram.*
 import zanshin.core.tibetan.Weekday.*
+import zanshin.core.tibetan.ZodiacSign.*
 
 /**
  * The White Beryl's chapter 34, "the results of the important works one by
@@ -269,11 +270,131 @@ object WhiteBerylWorks {
         ),
     )
 
-    /** The print's boxes with the chapter joined to each, then the chapter's own works. */
+    private fun z(vararg x: ZodiacSign) = x.toSet()
+    private fun others(vararg x: ZodiacSign) = ZodiacSign.entries.toSet() - x.toSet()
+
+    /**
+     * Each work's own rising signs, good and bad, by its wording, read on the scans
+     * (docs/sources/white-beryl-ch34.md, *Rising signs*): the times of the day, counted from the
+     * combination period's table, that the chapter names for the work. A sign it calls middling or
+     * acceptable, names for a kind of the work only, or names on both sides is in neither; "the
+     * others bad" is applied as stated. The print's boxes name signs too and are not read for them.
+     */
+    val SIGNS: Map<String, Pair<Set<ZodiacSign>, Set<ZodiacSign>>> = mapOf(
+        // 2, p. 385: «འཁྲིག་གཞུ་བུམ་ཉ་བཟང་། །སྲང་དང་སྡིག་པ་གཉིས་ལ་ངན།།»
+        "naming" to (z(GEMINI, SAGITTARIUS, AQUARIUS, PISCES) to z(LIBRA, SCORPIO)),
+        // 3, p. 385: «…བུ་མོ་ཉ་བཟང་ཀར་སྡིག་པ། །ཆུ་སྲིན་ངན་ལ་གཞན་བཏང་སྙོམས།།»
+        "new_clothes" to (z(TAURUS, GEMINI, LEO, VIRGO, PISCES) to z(CANCER, SCORPIO, CAPRICORN)),
+        // 4, p. 386.
+        "first_wearing_of_new_clothes" to (z(TAURUS, GEMINI, LEO, VIRGO, SAGITTARIUS) to z(CANCER, SCORPIO)),
+        // 5, p. 386: «དུས་སྦྱོར་གླང་འཁྲིག་སེང་གེ་བཟང་། །ལུག་གཞུ་ཆུ་སྲིན་ཀར་སྡིག་ངན།།»
+        "offerings_to_deities" to (z(TAURUS, GEMINI, LEO) to z(ARIES, SAGITTARIUS, CAPRICORN, CANCER, SCORPIO)),
+        // 6, p. 388: Gemini bad for forts and good for temples, Pisces the other way: neither.
+        "building_walls" to (z(TAURUS, LEO, SAGITTARIUS, AQUARIUS, VIRGO) to z(ARIES, SCORPIO, CANCER, CAPRICORN, LIBRA)),
+        // 7, p. 389: «དུས་སྦྱོར་བུམ་གླང་བཟང་བ་དང་།»
+        "taking_a_new_home" to (z(AQUARIUS, TAURUS) to z()),
+        // 8, p. 390.
+        "setting_up_hearth_and_pillars" to (z(LEO, AQUARIUS, PISCES) to z()),
+        // 9, p. 390: «དུས་སྦྱོར་སྲང་གཞུ་བུམ་ཉ་བཟང་།»
+        "manuring_and_breaking_in_oxen" to (z(LIBRA, SAGITTARIUS, AQUARIUS, PISCES) to z()),
+        // 10, p. 390.
+        "spectacles" to (z(TAURUS, GEMINI, PISCES, SAGITTARIUS, LEO) to z()),
+        // 12, p. 393: «…ཉ་བཟང་གཞན་རྣམས་ངན་པ་ཡིན།»
+        "setting_out_on_journeys" to (z(CAPRICORN, VIRGO, SAGITTARIUS, PISCES) to others(CAPRICORN, VIRGO, SAGITTARIUS, PISCES)),
+        // 13, p. 394: «སྲང་སྡིག་བུ་མོ་གླང་དང་འཁྲིག །སེང་གེ་བཟང་ལ་ལུག་ལ་སྤང་།»
+        "trade" to (z(LIBRA, SCORPIO, VIRGO, TAURUS, GEMINI, LEO) to z(ARIES)),
+        // 15, p. 396.
+        "planting_trees_and_flowers" to (z(TAURUS, GEMINI, CAPRICORN, AQUARIUS, PISCES) to z(ARIES, LEO, LIBRA, SCORPIO, VIRGO)),
+        // 16, p. 396.
+        "reconciliation" to (z(ARIES, LEO, VIRGO, PISCES) to z(CANCER, SCORPIO, CAPRICORN)),
+        // 17, p. 396.
+        "sewing_tents" to (z(LEO, SAGITTARIUS, AQUARIUS, PISCES, TAURUS) to z(CAPRICORN, SCORPIO)),
+        // 18, pp. 396–397.
+        "building_storehouses" to (z(TAURUS, AQUARIUS, PISCES) to z(CANCER, SCORPIO)),
+        // 19, p. 397: the bad ones avoided with the black day and the like.
+        "raising_banners" to (z(TAURUS, GEMINI, LEO, SAGITTARIUS) to z(CAPRICORN, SCORPIO, LIBRA, CANCER)),
+        // 20, p. 398: two lists; what the second leaves uncertain and the first names (Cancer, Libra, Scorpio) is in neither.
+        "hunting_and_theft" to (z(ARIES, SAGITTARIUS, CAPRICORN, AQUARIUS) to z(VIRGO, PISCES)),
+        // 22, p. 399.
+        "digging_ponds_canals_and_wells" to (z(GEMINI, AQUARIUS, CAPRICORN, SAGITTARIUS, TAURUS, CANCER) to z(ARIES, LEO)),
+        // 23, p. 400.
+        "sowing" to (z(PISCES, AQUARIUS, LIBRA, TAURUS, CAPRICORN) to z(ARIES, CANCER, SCORPIO)),
+        // 25, p. 401; 26–28 take its signs: «ཁྱིམ་ཉི་ལ་སོགས་རྒྱུག་དང་མཚུངས།»
+        "feeding_up_horses" to (z(TAURUS, LEO, SAGITTARIUS) to z(CANCER, AQUARIUS)),
+        "treating_horses_mules_and_donkeys" to (z(TAURUS, LEO, SAGITTARIUS) to z(CANCER, AQUARIUS)),
+        "saddling" to (z(TAURUS, LEO, SAGITTARIUS) to z(CANCER, AQUARIUS)),
+        "breaking_in_horses" to (z(TAURUS, LEO, SAGITTARIUS) to z(CANCER, AQUARIUS)),
+        // 31, p. 402: Gemini good for learning the arts only.
+        "learning_writing_and_astrology" to (z(PISCES, AQUARIUS, TAURUS, LEO, LIBRA, VIRGO, SAGITTARIUS) to z(SCORPIO)),
+        // 32, p. 403: «དུས་སྦྱོར་བུ་མོ་མཆོག་ཡིན་ལ།»
+        "preparing_medicine" to (z(VIRGO, GEMINI, SAGITTARIUS, PISCES) to z(CAPRICORN, SCORPIO, CANCER)),
+        // 33, p. 404.
+        "bloodletting_and_moxibustion" to (z(TAURUS, GEMINI, VIRGO, PISCES) to z(ARIES, SCORPIO, CAPRICORN, AQUARIUS)),
+        // 34, p. 404.
+        "bathing_and_washing_the_hair" to (z(PISCES, AQUARIUS, CAPRICORN, VIRGO) to z(LIBRA, CANCER)),
+        // 35, p. 405: «གཞུ་ཉ་སེང་གེ་མཆོག་ཡིན་ཏེ། །གླང་དང་བུ་མོ་སྲང་ཡང་བཟང་།» — the best, then "also good".
+        "astrology_and_divination" to (z(SAGITTARIUS, PISCES, LEO, TAURUS, VIRGO, LIBRA) to z()),
+        // 36, p. 405: Sagittarius, Pisces and Aquarius only acceptable.
+        "enthronement" to (z(LEO) to z(CAPRICORN, SCORPIO)),
+        // 37, p. 405.
+        "making_weapons" to (z(SCORPIO, ARIES, TAURUS, LEO, PISCES) to z(LIBRA, CAPRICORN, CANCER)),
+        // 38, p. 406.
+        "taking_servants" to (z(ARIES, SAGITTARIUS, LEO, CAPRICORN, TAURUS) to z(CANCER, LIBRA)),
+        // 39, p. 412: «…ཉ་བཟང་ལུག་སྲང་སྡིག་ཆུ་ངན།», chu for chu srin.
+        "marriage" to (z(TAURUS, GEMINI, LEO, SAGITTARIUS, VIRGO, PISCES) to z(ARIES, LIBRA, SCORPIO, CAPRICORN)),
+        // 40, p. 413.
+        "putting_on_ornaments" to (z(TAURUS, GEMINI, VIRGO, SAGITTARIUS, PISCES, LEO) to z()),
+        // 42, p. 414.
+        "setting_up_supports" to (z(TAURUS, GEMINI, VIRGO, AQUARIUS, SAGITTARIUS, LEO) to z(ARIES, LIBRA, CANCER, SCORPIO, CAPRICORN, PISCES)),
+        // 45, p. 418.
+        "fire_offerings" to (z(TAURUS, ARIES, LEO) to z(CAPRICORN, PISCES)),
+        // 46, p. 418.
+        "suppressing_sri" to (z(LEO, TAURUS, SAGITTARIUS, CANCER, SCORPIO, CAPRICORN) to z()),
+        // 47, p. 418.
+        "ordination_teaching_and_empowerment" to (z(ARIES, TAURUS, CAPRICORN, LEO, AQUARIUS, PISCES) to z(GEMINI, VIRGO, SAGITTARIUS)),
+        // 48, p. 419.
+        "consecration" to (z(LEO, GEMINI, SCORPIO, AQUARIUS) to z(ARIES, LIBRA, CANCER, CAPRICORN)),
+        // 49, p. 420: «…ཆུ་བོ་བསྲུང་བའི་ལས་ལ་བཟང་།», the work itself.
+        "building_flood_dikes" to (z(CANCER, ARIES, LIBRA, VIRGO, LEO) to z(AQUARIUS, SAGITTARIUS, PISCES)),
+        // 50, p. 420, for both halves.
+        "crafts" to (z(ARIES, TAURUS, GEMINI, LEO, VIRGO, PISCES) to z(SCORPIO, LIBRA, CAPRICORN, CANCER)),
+        "cutting_hair_and_nails" to (z(ARIES, TAURUS, GEMINI, LEO, VIRGO, PISCES) to z(SCORPIO, LIBRA, CAPRICORN, CANCER)),
+        // 51, p. 421, for both halves.
+        "martial_skills" to (z(SAGITTARIUS, CANCER, ARIES, LEO) to z(VIRGO, PISCES, SCORPIO, AQUARIUS)),
+        "games" to (z(SAGITTARIUS, CANCER, ARIES, LEO) to z(VIRGO, PISCES, SCORPIO, AQUARIUS)),
+        // 52, p. 421.
+        "composing_treatises_and_learning_poetics" to (z(PISCES, TAURUS, GEMINI, LEO) to z()),
+        // 53, p. 422.
+        "thread_cross_and_torma_rites" to (z(SCORPIO, CAPRICORN, ARIES, LEO, CANCER, PISCES) to z()),
+        // 54, p. 422: Libra and Cancer middling.
+        "sorcery" to (z(LEO, SCORPIO, SAGITTARIUS, ARIES, TAURUS, CAPRICORN) to z()),
+        // 55, p. 423.
+        "bringing_rain" to (z(CANCER, AQUARIUS, PISCES, CAPRICORN) to z(SCORPIO, ARIES, LIBRA)),
+        // 57, p. 425.
+        "council" to (z(TAURUS, LEO, VIRGO, SAGITTARIUS, AQUARIUS) to z(ARIES, CANCER, LIBRA, SCORPIO, CAPRICORN)),
+        // 59, pp. 425–426: Libra, Scorpio and Capricorn bad, and good for lasting works: neither.
+        "virtuous_acts_for_the_living" to (z(LEO, TAURUS, AQUARIUS, VIRGO, SAGITTARIUS) to z(ARIES)),
+        // 60, p. 426.
+        "auspicious_work" to (z(TAURUS, LEO, SAGITTARIUS, AQUARIUS, VIRGO) to z(CANCER, SCORPIO, CAPRICORN, LIBRA, ARIES)),
+        // 61, p. 426.
+        "health_and_wealth" to (z(GEMINI, TAURUS) to z(ARIES, CANCER, CAPRICORN, SCORPIO)),
+        // 62, p. 427: «…འབྲིང་ལ་གཞན་རྣམས་སྤང་བ་ཡིན།»
+        "controlling_activity" to (z(TAURUS, LIBRA, LEO) to z(ARIES, GEMINI, CANCER, SCORPIO, CAPRICORN)),
+        // 63, p. 427.
+        "destructive_activity" to (z(LEO, SCORPIO, TAURUS, CAPRICORN, SAGITTARIUS, ARIES) to z()),
+        // 64, p. 427.
+        "pacifying_activity" to (z(AQUARIUS, LEO, SAGITTARIUS, PISCES, VIRGO) to z()),
+        // 65, p. 428: «…སེང་གླང་འབྲིང་ཡིན་གཞན་རྣམས་ངན།»
+        "increasing_activity" to (z(GEMINI, VIRGO, SAGITTARIUS, CANCER, AQUARIUS) to others(GEMINI, VIRGO, SAGITTARIUS, CANCER, AQUARIUS, LEO, TAURUS)),
+    )
+
+    /** The print's boxes with the chapter joined to each, then the chapter's own works, each with its rising signs. */
     fun join(boxes: List<ActivityList>): List<ActivityList> {
         val byWording = TO_BOXES.associateBy { it.wording }
         require(byWording.keys.all { w -> boxes.any { it.wording == w } }) { "a work joined to no box" }
-        return boxes.map { box -> byWording[box.wording]?.let { box.joined(it) } ?: box } + OWN
+        val joined = boxes.map { box -> byWording[box.wording]?.let { box.joined(it) } ?: box } + OWN
+        require(SIGNS.keys.all { w -> joined.any { it.wording == w } }) { "rising signs for no work" }
+        return joined.map { a -> SIGNS[a.wording]?.let { (g, b) -> ActivityList(a.wording, a.good.copy(signs = g), a.bad.copy(signs = b)) } ?: a }
     }
 
     private fun ActivityList.joined(wb: ActivityList) =

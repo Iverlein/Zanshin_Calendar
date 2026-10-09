@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.risingSign
 import java.time.LocalDate
@@ -106,15 +107,24 @@ class ElectionTest {
             val good = Election.hours(month, work, Tone.GOOD)
             val avoid = Election.hours(month, work, Tone.BAD)
             for (hour in 0 until 12) {
-                val reading = Texts.DUS_SBYOR.getValue(risingSign(month, hour)).second
-                val g = work in Activities.of(reading.goodKeys) && work !in Activities.of(reading.avoidKeys)
-                val a = work in Activities.of(reading.avoidKeys) && work !in Activities.of(reading.goodKeys)
+                val sign = risingSign(month, hour)
+                val reading = Texts.period(sign).second
+                val own = Texts.WORKS_SIGN.getValue(sign)
+                val named = Activities.of(reading.goodKeys + own.goodKeys)
+                val shunned = Activities.of(reading.avoidKeys + own.avoidKeys)
+                val g = work in named && work !in shunned
+                val a = work in shunned && work !in named
                 assertEquals(g, good.any { hour in it.first until it.first + it.count }, "$work $hour")
                 assertEquals(a, avoid.any { hour in it.first until it.first + it.count }, "$work $hour")
             }
             // Runs are separate: two runs on one side never touch.
             for (runs in listOf(good, avoid)) runs.zipWithNext().forEach { (x, y) -> assertTrue(x.first + x.count < y.first) }
         }
+        // The work's own hours (WB vol. 2, p. 393): «དུས་སྦྱོར་ཆུ་སྲིན་བུ་མོ་གཞུ། །ཉ་བཟང་གཞན་རྣམས་ངན་པ་ཡིན།» — journeys
+        // good while Capricorn, Virgo, Sagittarius or Pisces rises, bad in the other eight hours.
+        val ownGood = setOf(ZodiacSign.CAPRICORN, ZodiacSign.VIRGO, ZodiacSign.SAGITTARIUS, ZodiacSign.PISCES)
+        assertEquals(ownGood, Election.hours(month, Activity.JOURNEY, Tone.GOOD).flatMap { it.signs }.toSet())
+        assertEquals(ZodiacSign.entries.toSet() - ownGood, Election.hours(month, Activity.JOURNEY, Tone.BAD).flatMap { it.signs }.toSet())
         // Every day of a month has the same hours: they are given once per month.
         val election = ElectionSpan.of(LocalDate.of(2026, 10, 1), 2).election(Activity.HAIRCUTS)
         assertEquals(2, election.months.size)

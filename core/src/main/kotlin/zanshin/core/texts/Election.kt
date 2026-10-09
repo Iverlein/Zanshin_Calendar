@@ -121,16 +121,19 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
                 Texts.KARANA.values + Texts.YOGA.values + Texts.ELECTIONAL_ANIMAL.values + Texts.ELECTIONAL_TRIGRAM.values
 
         /**
-         * The combination periods of Tibetan month [month] whose sign's reading names [work] on
-         * [side], as runs of consecutive two-hour periods counted from the hare hour at 05:00.
+         * The combination periods of Tibetan month [month] that name [work] on [side], as runs of
+         * consecutive two-hour periods counted from the hare hour at 05:00: the work's own hours
+         * first ([Texts.WORKS_SIGN], WB's chapter 34), its particular case, then the sign's general
+         * reading without what they decide the other way ([Texts.period]) (SPEC §5.13, ROADMAP E4).
          */
         fun hours(month: Int, work: Activity, side: Tone): List<PeriodRun> {
             val runs = mutableListOf<PeriodRun>()
             for (hour in 0 until 12) {
                 val sign = risingSign(month, hour)
-                val reading = Texts.DUS_SBYOR.getValue(sign).second
-                val good = work in Activities.of(reading.goodKeys)
-                val avoid = work in Activities.of(reading.avoidKeys)
+                val reading = Texts.period(sign).second
+                val own = Texts.WORKS_SIGN.getValue(sign)
+                val good = work in Activities.of(reading.goodKeys + own.goodKeys)
+                val avoid = work in Activities.of(reading.avoidKeys + own.avoidKeys)
                 // A sign whose reading names the work both ways says nothing on it, as a voice's lists do (SPEC §5.12).
                 val named = if (side == Tone.GOOD) good && !avoid else avoid && !good
                 if (!named) continue

@@ -70,13 +70,18 @@ enum class ElectionalFactor {
     val english: String get() = gloss(this)
 }
 
-/** Weekdays, lunar dates, mansions, day animals and trigrams named for an activity. */
+/**
+ * Weekdays, lunar dates, mansions, day animals and trigrams named for an activity, and the rising
+ * signs, which are times within a day and not factors of it: [signs] are the work's own hours
+ * (SPEC §5.13), not weighed into the day.
+ */
 data class Factors(
     val weekdays: Set<Weekday> = emptySet(),
     val dates: Set<Int> = emptySet(),
     val mansions: List<Mansion> = emptyList(),
     val animals: Set<Animal> = emptySet(),
     val trigrams: Set<Trigram> = emptySet(),
+    val signs: Set<ZodiacSign> = emptySet(),
 )
 
 /**
@@ -102,8 +107,9 @@ class ActivityList(val wording: String, good: Factors, bad: Factors, named: List
  * rules: a qualified entry counts for neither side. Where his lists name a
  * mansion twice, the mansions follow the print he translated (BDRC
  * W4CZ65561, read box by box in docs/sources/mansions.md): its abbreviations
- * of khrums stod and khrums smad had been read as chu smad. Rising signs are
- * left out, since the app shows a day, not a moment, and so is Abhijit, which
+ * of khrums stod and khrums smad had been read as chu smad. The print's rising
+ * signs are left out, since a day has no rising sign (the White Beryl's are the
+ * works' own hours, [WhiteBerylWorks.SIGNS]), and so is Abhijit, which
  * the Phugpa calendar does not count among the day's mansions. The White
  * Beryl's chapter 34, which the boxes digest, is joined to them
  * ([WhiteBerylWorks]).

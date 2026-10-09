@@ -743,6 +743,37 @@ object Texts {
     )
 
     /**
+     * The works' own hours (SPEC §5.13): for each sign, the works the White Beryl's chapter 34 names
+     * good or to avoid while it rises ([zanshin.core.tibetan.WhiteBerylWorks.SIGNS]), in the order of
+     * the lists. Each is that work's particular case, which stands above the period's general
+     * reading for it (WB vol. 2, p. 376: «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»); none where the chapter names none.
+     */
+    val WORKS_SIGN: Map<ZodiacSign, Reading> = ZodiacSign.entries.associateWith { sign ->
+        Reading(
+            goodKeys = Electional.ACTIVITIES.filter { sign in it.good.signs }.map { it.wording },
+            avoidKeys = Electional.ACTIVITIES.filter { sign in it.bad.signs }.map { it.wording },
+            source = Sources.WHITE_BERYL_WORKS, key = "reading.WorksSign",
+        )
+    }
+
+    /**
+     * The combination period of [sign] as the hours show it: [DUS_SBYOR]'s reading without the
+     * wordings that name an act ([Activities.of]) whose own hours ([WORKS_SIGN]) put it on the other
+     * side, the particular case standing above the general one.
+     */
+    fun period(sign: ZodiacSign): Pair<Tone, Reading> {
+        val (tone, reading) = DUS_SBYOR.getValue(sign)
+        val own = WORKS_SIGN.getValue(sign)
+        val ownGood = Activities.of(own.goodKeys)
+        val ownAvoid = Activities.of(own.avoidKeys)
+        fun against(key: String, other: Set<Activity>) = Activities.of(listOf(key)).any { it in other }
+        return tone to reading.copy(
+            goodKeys = reading.goodKeys.filterNot { against(it, ownAvoid) },
+            avoidKeys = reading.avoidKeys.filterNot { against(it, ownGood) },
+        )
+    }
+
+    /**
      * Rāhu's course by month (the White Beryl, vol. 2, pp. 238–239;
      * docs/sources/rahu.md): in the first two months of spring it moves "like a
      * messenger turning its head" through the parts of its body on given
