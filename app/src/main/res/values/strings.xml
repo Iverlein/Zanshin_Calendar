@@ -94,6 +94,7 @@
     <string name="detail_white_beryl">In the White Beryl</string>
     <string name="section_almanac">Almanac</string>
     <string name="section_your_day">Your day</string>
+    <string name="section_also_today">Also today</string>
     <!-- "Vitality  ○○": the aspect, then the pebbles -->
     <string name="pebble_row_title">%1$s  %2$s</string>
     <!-- kinship, then the two elements in running text -->
@@ -299,6 +300,12 @@
     <string name="brief_decides_note">Decides the day\'s tone in the brief today.</string>
     <string name="brief_festival_note">The tone is the day\'s for its works; it does not weigh the merit of the festival or observance.</string>
     <string name="brief_note_tibetan">Weighed as the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) and the All-Benefiting Mirror (ཀུན་ཕན་མེ་ལོང, kun phan me long) say, by one rule for the day and for each work. Where the named combination of weekday and mansion and the element pair agree, the combination is the day\'s result, and what any other factor says against it is outweighed, even where the weekday and the mansion agree; it decides a work only where the element pair names it, so a lucky day keeps the date\'s and the weekday\'s prohibitions. Where the two disagree, and for every other work, the strongest factor that takes a side decides, in this order: Rāhu, the weekday, the mansion, the special days of weekday and mansion (one voice, and none when they disagree), the date, the karaṇa, the yoga and the day animal. The White Beryl weighs mixed factors by their strength, not by their number. Rāhu, the mansion and the day animal have no tone of their own and decide only the works they name; the trigram decides only works no other factor names. Outweighed factors are not shown.</string>
+    <!-- the combination's one row (ROADMAP U1): its two parts, the named combination and the element pair, and whether they agree -->
+    <string name="tib_combination_title">Combination</string>
+    <string name="tib_combination_both_lucky">%1$s · %2$s: both lucky</string>
+    <string name="tib_combination_both_unlucky">%1$s · %2$s: both unlucky</string>
+    <string name="tib_combination_disagree">%1$s · %2$s: the parts disagree, no tone</string>
+    <string name="tib_combination_note">One voice in the weighing: the named combination of weekday and mansion and its element pair. Where the two agree, the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) makes the combination the day\'s result, outweighing every other factor, even a good weekday and mansion (vol. 2, p. 333); where they disagree it has no tone, and the strongest factor that takes a side decides the day.</string>
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
     <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the Vajra Treatise (རྡོ་རྗེ་གཙུག་ལག, rdo rje gtsug lag): %1$s</string>
@@ -320,7 +327,6 @@
     <!-- %1$s is the compass caption above -->
     <string name="desc_bla_mkhyen_compass">The astrologer spirit\'s direction, north at the top. %1$s</string>
     <string name="tib_nectar_title">Nectar periods</string>
-    <string name="tib_nectar_subtitle">Jupiter\'s hours today: %1$s</string>
     <string name="tib_rahu_title">Rāhu\'s course</string>
     <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
     <string name="tib_rahu_month_subtitle">its course in %1$s: good for fierce work</string>
@@ -447,7 +453,6 @@
     <!-- V3 diagrams of the Tibetan rows (SPEC §10.7) -->
     <string name="desc_combination_table">The 28 named combinations of weekday and mansion, today\'s marked</string>
     <string name="combination_table_axes">Rows: the weekday · columns: the mansion, Aśvinī first</string>
-    <string name="desc_nectar_dial">The day\'s hours, midnight at the top, with the nectar periods</string>
     <string name="desc_lunar_dates">The thirty lunar dates in their five classes</string>
     <!-- a lunar date in the sheet's grid: the date, its class in Sanskrit and English, its tone -->
     <string name="lunar_date_cell">Day %1$d: %2$s (%3$s) · %4$s</string>

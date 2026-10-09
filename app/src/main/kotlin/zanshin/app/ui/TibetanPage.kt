@@ -74,7 +74,6 @@ import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearForces
 import zanshin.core.tibetan.Ewts
-import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
@@ -281,10 +280,17 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             ),
             stringResource(R.string.detail_seven_red) to daySmeBa.sevenRed.english,
         )
-        val nectarTitle = stringResource(R.string.tib_nectar_title)
-        val nectarSubtitle = stringResource(
-            R.string.tib_nectar_subtitle,
-            nectarHours(day.weekday).joinToString(" · ") { h -> "%02d:00–%02d:00".format((5 + h) % 24, (6 + h) % 24) },
+        val combinationTitle = stringResource(R.string.tib_combination_title)
+        val combinationNote = stringResource(R.string.tib_combination_note)
+        // The combination's row names both parts and whether they agree (ROADMAP U1, SPEC §5.12).
+        val combinationSubtitle = stringResource(
+            when {
+                day.greatCombination.lucky != day.elementPair.auspicious -> R.string.tib_combination_disagree
+                day.greatCombination.lucky -> R.string.tib_combination_both_lucky
+                else -> R.string.tib_combination_both_unlucky
+            },
+            day.greatCombination.english.replaceFirstChar(Char::uppercase),
+            "${day.weekday.element.english}–${day.mansion.element.english}",
         )
         val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
         val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
@@ -295,10 +301,9 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         val rahuCourses = stringResource(R.string.tib_rahu_courses)
         // The row of the factor that decided the day's tone carries a mark (ROADMAP U2).
         fun decides(factor: DayFactor) = summary.verdict?.factor == factor
-        val annotations = buildList {
-            // The festival is the headline, which opens its reading; the Almanac does not repeat it.
-            if (holiday == null || holidayAnnotation == null) holidayAnnotation?.let { add(it) }
-            day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
+        // Your day (ROADMAP U3): the person's own days and mansions, which the weighing shows but does not
+        // weigh (SPEC §5.12), above the vitality and body of the date against the birth year.
+        val yours = buildList {
             // The roles the weekday holds for the person, by the birth year's animal (p. 330), the weekday
             // of birth and the life force's element (p. 338): one row (ROADMAP T2.19).
             val weekdayRoles = listOfNotNull(
@@ -356,11 +361,24 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     ),
                 )
             }
+        }
+        // The Almanac (ROADMAP U3): the monthly observance, the weighed voices in rank, then the haircut.
+        val annotations = buildList {
+            // The festival is the headline, which opens its reading; the Almanac does not repeat it.
+            day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
             // The day's readings in the rank of the White Beryl and the kun phan me long (SPEC §5.12):
-            // the combinations, the weekday and the mansion, the special days, the date, karaṇa and yoga.
+            // the combination, Rāhu, the weekday and the mansion, the special days, the date, karaṇa and yoga.
             val great = day.greatCombination
             val greatScript = "${Ewts.toTibetan(great.wylie)} (${great.wylie})"
-            add(
+            val pair = day.elementPair
+            val pairElements: @Composable () -> Unit = {
+                CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp)
+                Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(12.dp))
+                CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 18.dp)
+            }
+            // The named combination and the element pair are one voice, so one row (ROADMAP U1): their dots side
+            // by side, a tone only where they agree, and the sheet gives each reading in turn.
+            val combination = listOf(
                 Annotation(
                     great.english.replaceFirstChar(Char::uppercase),
                     greatScript,
@@ -370,11 +388,7 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     titleIsKanji = false,
                     details = listOf(whiteBerylLabel to greatScript),
                     diagram = { CombinationTable(day.weekday, day.mansion) },
-                    decides = decides(DayFactor.GREAT_COMBINATION),
                 ),
-            )
-            val pair = day.elementPair
-            add(
                 Annotation(
                     "${day.weekday.element.english} – ${day.mansion.element.english}",
                     "${pair.english} (${pair.wylie})",
@@ -382,12 +396,20 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     Texts.ELEMENT_PAIR[pair],
                     subtitle = pairSubtitle,
                     titleIsKanji = false,
-                    glyphs = {
-                        CueIcon(CueGlyphs.of(day.weekday.element), Palette.muted, 18.dp)
-                        Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(12.dp))
-                        CueIcon(CueGlyphs.of(day.mansion.element), Palette.muted, 18.dp)
-                    },
+                    glyphs = pairElements,
                     diagram = { ElementPairGrid(day.weekday.element, day.mansion.element) },
+                ),
+            )
+            add(
+                Annotation(
+                    combinationTitle,
+                    combinationNote,
+                    combination.map { it.tone }.distinct().singleOrNull() ?: Tone.MIXED,
+                    null,
+                    subtitle = combinationSubtitle,
+                    titleIsKanji = false,
+                    glyphs = pairElements,
+                    parts = combination,
                     decides = decides(DayFactor.GREAT_COMBINATION),
                 ),
             )
@@ -402,32 +424,6 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
             } else if (rahu.size > 1) {
                 add(Annotation(rahuTitle, rahuCourses, Tone.NEUTRAL, null, subtitle = rahu.joinToString(" · ") { it.english }, titleIsKanji = false, glyphs = rahuMark, parts = rahu))
             }
-            add(
-                Annotation(
-                    blaMkhyenTitle, blaMkhyenSubtitle, Tone.NEUTRAL, Texts.BLA_MKHYEN[daySmeBa.sevenRed], titleIsKanji = false,
-                    details = blaMkhyenDetails,
-                    glyphs = { BlaMkhyenCompass(daySmeBa.sevenRed, 24.dp, blaMkhyenCaption, small = true) },
-                    diagram = {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            BlaMkhyenCompass(daySmeBa.sevenRed, 200.dp, blaMkhyenCaption)
-                            Spacer(Modifier.height(20.dp))
-                            MovedSmeBaSquare(
-                                daySmeBa.number, 7, 200.dp,
-                                stringResource(R.string.desc_moved_sme_ba, daySmeBa.number),
-                                caption = stringResource(R.string.bla_mkhyen_square_caption, daySmeBa.number),
-                            )
-                        }
-                    },
-                ),
-            )
-            add(
-                Annotation(
-                    nectarTitle, nectarSubtitle, Tone.GOOD, Texts.NECTAR_PERIODS, titleIsKanji = false,
-                    details = listOf(nectarTitle to "${Ewts.toTibetan("bdud rtsi thun mtshams")} (bdud rtsi thun mtshams)"),
-                    glyphs = { NectarDial(nectarHours(day.weekday), 24.dp, small = true) },
-                    diagram = { NectarDial(nectarHours(day.weekday), 240.dp) },
-                ),
-            )
             add(
                 Annotation(
                     day.weekday.english,
@@ -582,15 +578,39 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
         }
         Column { annotations.forEach { AnnotationRow(it) { a -> sheet = a } } }
 
-        info.birthSign?.let { birth ->
-            val signs = info.signs
+        val birth = info.birthSign
+        if (yours.isNotEmpty() || birth != null) {
             SectionTitle(stringResource(R.string.section_your_day))
             Column {
-                for (force in listOf(Force.VITALITY, Force.BODY)) {
-                    AnnotationRow(pebbleAnnotation(force, birth, signs, day, labels)) { a -> sheet = a }
+                yours.forEach { AnnotationRow(it) { a -> sheet = a } }
+                if (birth != null) {
+                    for (force in listOf(Force.VITALITY, Force.BODY)) {
+                        AnnotationRow(pebbleAnnotation(force, birth, info.signs, day, labels)) { a -> sheet = a }
+                    }
                 }
             }
         }
+
+        // Also today (ROADMAP U3): what the day holds that the weighing does not count.
+        SectionTitle(stringResource(R.string.section_also_today))
+        AnnotationRow(
+            Annotation(
+                blaMkhyenTitle, blaMkhyenSubtitle, Tone.NEUTRAL, Texts.BLA_MKHYEN[daySmeBa.sevenRed], titleIsKanji = false,
+                details = blaMkhyenDetails,
+                glyphs = { BlaMkhyenCompass(daySmeBa.sevenRed, 24.dp, blaMkhyenCaption, small = true) },
+                diagram = {
+                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        BlaMkhyenCompass(daySmeBa.sevenRed, 200.dp, blaMkhyenCaption)
+                        Spacer(Modifier.height(20.dp))
+                        MovedSmeBaSquare(
+                            daySmeBa.number, 7, 200.dp,
+                            stringResource(R.string.desc_moved_sme_ba, daySmeBa.number),
+                            caption = stringResource(R.string.bla_mkhyen_square_caption, daySmeBa.number),
+                        )
+                    }
+                },
+            ),
+        ) { a -> sheet = a }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {

@@ -240,13 +240,15 @@ fun HoursSheet(date: LocalDate, day: TibetanDay, birth: Sign?, signs: DaySigns, 
                 )
                 // A nectar period falls in the first or second clock hour of a two-hour period.
                 nectar.filter { it / 2 == selected }.forEach { h ->
+                    val nectarTitle = stringResource(R.string.tib_nectar_title)
                     AnnotationRow(
                         Annotation(
-                            stringResource(R.string.tib_nectar_title),
+                            nectarTitle,
                             "%02d:00–%02d:00".format((5 + h) % 24, (6 + h) % 24),
                             Tone.GOOD,
                             Texts.NECTAR_PERIODS,
                             titleIsKanji = false,
+                            details = listOf(nectarTitle to "${Ewts.toTibetan("bdud rtsi thun mtshams")} (bdud rtsi thun mtshams)"),
                         ),
                         onOpen,
                     )

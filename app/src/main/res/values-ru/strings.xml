@@ -70,6 +70,7 @@
     <string name="detail_white_beryl">В «Белом берилле»</string>
     <string name="section_almanac">Альманах</string>
     <string name="section_your_day">Ваш день</string>
+    <string name="section_also_today">Также сегодня</string>
     <string name="pebble_row_title">%1$s  %2$s</string>
     <string name="pebble_subtitle">%1$s: у дня — %2$s, у вас — %3$s</string>
     <string name="aspect_for_you">%1$s · %2$s %3$s</string>
@@ -261,6 +262,11 @@
     <string name="brief_decides_note">Сегодня этот фактор решает тон дня во «Вкратце».</string>
     <string name="brief_festival_note">Тон дня относится к его делам; заслугу праздника или памятного дня он не взвешивает.</string>
     <string name="brief_note_tibetan">Взвешено так, как велят «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) и «Всеблагое зерцало» (ཀུན་ཕན་མེ་ལོང, kun phan me long), одним правилом для дня и для каждого дела. Где именное сочетание дня недели и созвездия и пара стихий согласны, сочетание — итог дня, и всё, что против него говорят прочие факторы, перевешено, даже если день недели и созвездие согласны между собой; дело оно решает, лишь если его называет пара стихий, так что в удачный день запреты числа и дня недели остаются в силе. Где они расходятся, и для всех прочих дел, решает сильнейший фактор, который занимает сторону, в таком порядке: Раху, день недели, созвездие, особые дни дня недели и созвездия (один голос, и никакого, если они расходятся), число, карана, йога и животное дня. «Белый берилл» взвешивает разные факторы по силе, а не по числу. У Раху, созвездия и животного дня нет своего тона, они решают лишь дела, которые называют; триграмма решает только дела, которых не называет ни один другой фактор. Перевешенные факторы не показываются.</string>
+    <string name="tib_combination_title">Сочетание</string>
+    <string name="tib_combination_both_lucky">%1$s · %2$s: обе части благоприятны</string>
+    <string name="tib_combination_both_unlucky">%1$s · %2$s: обе части неблагоприятны</string>
+    <string name="tib_combination_disagree">%1$s · %2$s: части расходятся, тона нет</string>
+    <string name="tib_combination_note">Один голос при взвешивании: именное сочетание дня недели и созвездия и его пара стихий. Где обе части согласны, «Белый берилл» (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) делает сочетание итогом дня, перевешивающим все прочие факторы, даже благоприятные день недели и созвездие (т. 2, с. 333); где они расходятся, тона у него нет, и день решает сильнейший фактор, который занимает сторону.</string>
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
     <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
     <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по «Ваджрному трактату» (རྡོ་རྗེ་གཙུག་ལག, rdo rje gtsug lag): %1$s</string>
@@ -279,7 +285,6 @@
     <string name="bla_mkhyen_square_caption">Как она находится: число дня %1$d в середине квадрата девяти, юг вверху; 7 обведено, стрелка указывает на него из середины.</string>
     <string name="desc_bla_mkhyen_compass">Сторона духа-астролога, север вверху. %1$s</string>
     <string name="tib_nectar_title">Периоды нектара</string>
-    <string name="tib_nectar_subtitle">часы Юпитера сегодня: %1$s</string>
     <string name="tib_rahu_title">Путь Раху</string>
     <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
     <string name="tib_rahu_month_subtitle">его путь в месяц «%1$s»: хорош для грозных дел</string>
@@ -358,7 +363,6 @@
     <string name="haircut_date_outweighed">собственный день даты (FPMT), перевешен: %1$s</string>
     <string name="desc_combination_table">28 именных сочетаний дня недели и созвездия, отмечено сегодняшнее</string>
     <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Aśvinī</string>
-    <string name="desc_nectar_dial">Часы дня, полночь вверху, с периодами нектара</string>
     <string name="desc_lunar_dates">Тридцать лунных дат по пяти классам</string>
     <string name="lunar_date_cell">День %1$d: %2$s (%3$s) · %4$s</string>
     <string name="desc_karana_ring">Одиннадцать каран, отмечена %1$s</string>

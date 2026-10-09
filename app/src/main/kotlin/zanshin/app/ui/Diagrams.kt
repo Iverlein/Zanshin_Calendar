@@ -927,38 +927,6 @@ fun CombinationTable(weekday: Weekday, mansion: Mansion) {
 }
 
 /**
- * The day's 24 hours as a ring, midnight at the top and running clockwise as
- * on the hours panel (SPEC §10.3), with the nectar [hours] (`nectarHours`,
- * counted from 05:00) as arcs. The small one is a mark for the almanac row.
- */
-@Composable
-fun NectarDial(hours: List<Int>, size: Dp, small: Boolean = false) {
-    val description = stringResource(R.string.desc_nectar_dial)
-    val measurer = rememberTextMeasurer()
-    Canvas(Modifier.size(size).semantics { contentDescription = description }) {
-        val c = center
-        val stroke = this.size.minDimension * if (small) 0.16f else 0.08f
-        val r = this.size.minDimension / 2 - stroke / 2 - (if (small) 0.5f else 22f).dp.toPx()
-        fun bearing(clock: Int) = clock * 15f
-        arcStroke(c, r, 0f, 360f, Palette.off, stroke)
-        for (h in hours) {
-            val clock = (5 + h) % 24
-            arcStroke(c, r, bearing(clock) + 0.6f, bearing(clock + 1) - 0.6f, Palette.saffron, stroke)
-        }
-        if (!small) {
-            for (clock in 0 until 24) {
-                val outer = polar(c, r + stroke / 2 + 3.dp.toPx(), bearing(clock))
-                val inner = polar(c, r + stroke / 2 + (if (clock % 6 == 0) 9 else 6).dp.toPx(), bearing(clock))
-                drawLine(Palette.lineStrong, outer, inner, 1.dp.toPx())
-            }
-            for (clock in listOf(0, 6, 12, 18)) {
-                label(measurer, "%02d".format(clock), polar(c, r - stroke / 2 - 14.dp.toPx(), bearing(clock)), body.copy(fontSize = 12.sp, color = Palette.muted))
-            }
-        }
-    }
-}
-
-/**
  * The lunar date's class: five marks for Nandā … Pūrṇā, today's filled in
  * its tone. A mark for the almanac row.
  */
