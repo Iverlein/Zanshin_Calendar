@@ -79,7 +79,7 @@ import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.element
 
-private enum class TibetanBalloon { MONTH, YEAR, DAY }
+private enum class TibetanBalloon { MONTH, YEAR }
 
 /** The Tibetan view of one day (SPEC §10.3). */
 @Composable
@@ -195,23 +195,6 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
                     BalloonRow(stringResource(R.string.row_royal_year), "${day.royalYear}"),
                     BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
                 ) + aspectRows(Forces.of(day.yearElement, day.yearAnimal), info.birthSign?.forces, Force.entries),
-            )
-            }
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-            CueIcon(CueGlyphs.of(day.dayElement), Palette.muted, 20.dp)
-            CueIcon(CueGlyphs.ANIMAL.getValue(day.dayAnimal), Palette.muted, 20.dp, modifier = Modifier.padding(end = 6.dp))
-            BalloonText(
-                text = "${day.weekday.english} · ${day.weekday.planet} · ${stringResource(R.string.element_animal, gloss(day.dayElement), gloss(day.dayAnimal))}",
-                style = body.copy(color = Palette.muted),
-                open = balloon == TibetanBalloon.DAY,
-                onToggle = { toggle(TibetanBalloon.DAY) },
-                rows = listOf(
-                    BalloonRow(stringResource(R.string.row_weekday), Ewts.named(day.weekday.english, "gza' ${day.weekday.wylie}")),
-                    BalloonRow(stringResource(R.string.row_planet), day.weekday.planet),
-                    BalloonRow(stringResource(R.string.row_element), gloss(day.dayElement)),
-                    BalloonRow(stringResource(R.string.row_day_sign), gloss(day.dayAnimal)),
-                    BalloonRow(stringResource(R.string.row_gender), gloss(day.dayGender, "inText")),
-                ),
             )
             }
         }
@@ -617,6 +600,24 @@ fun TibetanPage(info: DayInfo, zone: ZoneId, modifier: Modifier = Modifier) {
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            // The 60-day cycle's element and animal: weighed nowhere, so here rather than at the top, where the
+            // weekday and planet it once stood with are the Almanac's weekday row (ROADMAP T3).
+            val daySign = stringResource(R.string.element_animal, gloss(day.dayElement), gloss(day.dayAnimal))
+            FactRow(
+                stringResource(R.string.row_day_sign),
+                daySign,
+                daySign,
+                tibetan = false,
+                lead = {
+                    CueIcon(CueGlyphs.of(day.dayElement), elementColour(day.dayElement), 22.dp)
+                    CueIcon(CueGlyphs.ANIMAL.getValue(day.dayAnimal), Palette.text, 22.dp)
+                },
+                balloon = listOf(
+                    BalloonRow(stringResource(R.string.row_element), gloss(day.dayElement), body.copy(fontSize = 14.sp, color = elementColour(day.dayElement))),
+                    BalloonRow(stringResource(R.string.row_animal), gloss(day.dayAnimal)),
+                    BalloonRow(stringResource(R.string.row_gender), gloss(day.dayGender, "inText")),
+                ),
+            )
             val animalAnnotation = Annotation(
                 gloss(day.lunarDayAnimal),
                 stringResource(R.string.tib_animal_subtitle),
@@ -804,6 +805,8 @@ fun FactRow(
     lead: (@Composable () -> Unit)? = null,
     /** Opens the term's reading, for the few facts that have one. */
     onClick: (() -> Unit)? = null,
+    /** A balloon for a plain term, with more to say than its English. */
+    balloon: List<BalloonRow>? = null,
 ) {
     Row(
         Modifier.fillMaxWidth().heightIn(min = 40.dp).let { if (onClick != null) it.clickable(onClick = onClick) else it },
@@ -837,6 +840,9 @@ fun FactRow(
                 style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 17.sp),
                 preferAbove = true,
             )
+        } else if (balloon != null) {
+            // A screen reader gets the balloon's rows after the term, not the term twice.
+            GlossText(english, balloon.joinToString { "${it.label} ${it.value}" }, body.copy(fontSize = 16.sp), preferAbove = true, rows = balloon)
         } else {
             Text(english, style = body.copy(fontSize = 16.sp))
         }

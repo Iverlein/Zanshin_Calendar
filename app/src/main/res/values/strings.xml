@@ -60,8 +60,6 @@
     <string name="row_rabjung">Rabjung (རབ་བྱུང, rab byung)</string>
     <!-- e.g. "17th cycle, year 40" -->
     <string name="tib_rabjung">%1$s cycle, year %2$d</string>
-    <string name="row_weekday">Weekday</string>
-    <string name="row_planet">Planet</string>
     <string name="row_element">Element</string>
     <string name="row_gender">Gender</string>
     <string name="tib_monthly_observance">monthly observance</string>

@@ -45,8 +45,6 @@
     <string name="row_royal_year">Царский год</string>
     <string name="row_rabjung">Рабджунг (རབ་བྱུང, rab byung)</string>
     <string name="tib_rabjung">%1$s-й цикл, год %2$d</string>
-    <string name="row_weekday">День недели</string>
-    <string name="row_planet">Планета</string>
     <string name="row_element">Стихия</string>
     <string name="row_gender">Род</string>
     <string name="tib_monthly_observance">ежемесячная практика</string>

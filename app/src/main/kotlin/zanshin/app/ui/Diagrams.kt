@@ -70,6 +70,7 @@ import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayTime
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.Direction
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.GreatCombination
@@ -558,6 +559,19 @@ fun smeBaColour(n: Int): Color = when (n) {
     4 -> Color(0xFF3F8A4E)
     5 -> Color(0xFFE1B93A)
     else -> Color(0xFFB3322A)
+}
+
+/**
+ * An element's colour (ROADMAP T3): the hues of the sme ba boxes that stand for it (Berzin 4: iron
+ * white, water black or blue, wood green, earth yellow, fire red), lightened where a thin glyph in
+ * the printed shade would vanish on the dark page; water takes the blue, as black would.
+ */
+fun elementColour(e: Element): Color = when (e) {
+    Element.WOOD -> Color(0xFF5FAE6C)
+    Element.FIRE -> Color(0xFFD9553F)
+    Element.EARTH -> smeBaColour(5)
+    Element.IRON -> smeBaColour(1)
+    Element.WATER -> Color(0xFF6A8FE0)
 }
 
 /** The nine numbers (sme ba) in the square, each in its printed colour, [today] marked. */
