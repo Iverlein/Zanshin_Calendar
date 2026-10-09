@@ -866,10 +866,29 @@ me long* among them ([sources/README.md](sources/README.md), SN), is never
 an annotation's `Source`, and nothing that only it states is shown. No Bon
 text is a source of the app.
 
-**A text is named so that it can be found** (owner, 2026-10-08): its
-English name first, then its title in Tibetan script and in Wylie in
-brackets, "Reciting the Names of Mañjuśrī (མཚན་བརྗོད, mtshan brjod)".
-This holds in readings, notes and source lines alike. A reading gives the
+**Every Tibetan word is named so that it can be found** (owner,
+2026-10-08 for titles, 2026-10-09 for every word): its English name
+first, then its Tibetan script and its Wylie in brackets, "the la, the
+life-spirit (བླ, bla)", "Reciting the Names of Mañjuśrī (མཚན་བརྗོད,
+mtshan brjod)". This holds for every Tibetan word the app shows, a
+term or the name of a deity, spirit, person, print, publisher or text,
+and wherever it shows it: in readings, notes, list wordings and source
+lines, in the interface's rows, labels, balloons, sheets and diagrams,
+and in the store listing. Neither the script nor the Wylie ever stands
+without the other or without the name, and a Tibetan word written in
+phonetics (Losar, tsok) is a Tibetan word too. The English name is the
+word's meaning ("feast offering (ཚོགས, tshogs)"); a proper name, and a
+class of spirits English has no word for, keeps the form English
+writers give it, a loan English has taken (lama, torma, tsampa) or else
+its pronunciation in THL phonetics (Pehar, Ömbarma, tsen); a month goes
+by its Sanskrit name (Bhādrapada), as English writes it. In Russian the
+name is Russian, a proper name in Russian transcription. Within one text
+(a reading, a note, a string, a source line) the bracket follows the
+first mention of a word, and later mentions give the name alone. A term
+the app gives only in English (the earth lord, the thread-cross) shows
+no Tibetan and needs no bracket; nor do Sanskrit words (nāga, karaṇa),
+places English spells as its own (Tibet, Lhasa), the city list
+(GeoNames) and organisations (Lotsawa House). For a text, a reading gives the
 short title a text is known by, as its source gives it; the source line
 gives the full title, with the Wylie as BDRC catalogues it, and, for a
 canonical text, its Tohoku number and 84000 page. Each reading that names
@@ -882,12 +901,16 @@ is identified from the source itself where it gives the full title, else
 from a catalogue that uses the same abbreviation (BDRC, 84000), and the
 source line holding all of them links where they can be read.
 `CatalogTest` fails on Tibetan script outside such a bracket, on a bracket
-without a name before it, on a reading naming the White Beryl without its
-title, and on a known title left in Wylie alone (*kun phan me long*,
-*dbyangs 'char*, *gtsug lag* and the like); `TranslationsTest` checks the
-interface strings and the store listing, changelogs included, the same
-way, the detail label "In the White Beryl" excepted, whose sheet's source
-line gives the title. The app sets the Tibetan runs in its Tibetan font (`withTibetan`).
+without a name before it, on a Wylie whose script is not the one the
+converter makes of it, on a reading naming the White Beryl without its
+title, on a translation whose brackets are not English's, and on a known
+Tibetan word left in Wylie alone (every Wylie of the engines' terms, and
+every Wylie any bracket of the catalog, the interface or the store listing
+gives); `TranslationsTest` checks the interface strings and the store
+listing, changelogs included, the same way, the detail label "In the
+White Beryl" excepted, whose sheet's source line gives the title. The
+code writes a term as `Ewts.named(english, wylie)`, and the app sets the
+Tibetan runs in its Tibetan font (`withTibetan`).
 
 ### 8.2 Catalog
 
@@ -1015,10 +1038,11 @@ canvas "Zanshin Calendar — basic design".
   view, never both.
 - **Details in balloons.** Secondary facts open in a balloon (popover) when the
   element they belong to is tapped, and close on tapping outside it.
-- **Every term is translated on tap.** Each Tibetan word and each kanji opens
-  a balloon with its English (and reading); these carry no dotted underline.
-  A Tibetan term shows in Tibetan script; its balloon gives the Wylie, how it
-  is said and the English, and screen readers read the pronunciation (§10.3).
+- **Every term is translated.** Each kanji opens a balloon with its English
+  and reading; these carry no dotted underline. A Tibetan term shows as its
+  English name with its script and Wylie in brackets (§8.1), in rows and
+  labels as in running text; tapping it opens a balloon with how it is
+  said, and screen readers read the pronunciation (§10.3).
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
   mark; tapping one opens a sheet with its reading, "good for" and "avoid",
   source and licence.
@@ -1111,7 +1135,7 @@ canvas "Zanshin Calendar — basic design".
   lists, marked outweighed on the days it is (decided by the owner,
   2026-10-06). The weekday, mansion, karaṇa and yoga rows carry their
   Tibetan names in their sheets, under the gloss ("Tibetan" with the term
-  in script, tapping it for the Wylie and phonetics), so that no section
+  named as §8.1 writes it, tapping it for the phonetics), so that no section
   repeats them (decided by the owner, 2026-10-07: the five components
   section, which gave the same four terms again, was folded in). After the
   Almanac, Your day and Also today, the lunar-day cycles as tappable terms, the date's
@@ -1126,9 +1150,10 @@ canvas "Zanshin Calendar — basic design".
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one.
 - **Tibetan script:** every Tibetan term (month, mansion, yoga, karaṇa,
-  weekday, trigram) is written in Tibetan script, converted at run time from
-  the Wylie of the sources (`Ewts.kt`), and sits on the baseline of its
-  label. Its balloon adds the Wylie and the pronunciation in the THL
+  weekday, trigram) is written as §8.1 names it, its English name, then its
+  Tibetan script, converted at run time from the Wylie of the sources
+  (`Ewts.kt`), and the Wylie, and sits on the baseline of its label. Its
+  balloon adds the pronunciation in the THL
   Simplified Phonetic Transcription of Standard Tibetan (Germano and
   Tournadre, 2003; `Thl.kt`: the general principle, special rules 1–13, the
   exceptions and the word boundaries, tested on the document's own 86
@@ -1167,6 +1192,10 @@ canvas "Zanshin Calendar — basic design".
   counted, the day's element, yours and the relation.
   The tone dot is lucky for white pebbles only, unlucky for black only,
   mixed for both.
+- **Also today:** after Your day, what the day holds that the weighing
+  does not count: the *bla mkhyen*'s direction (§5.11), with its compass.
+  The nectar periods have no row on the page: the brief's "By the hour"
+  and the hours panel give them (§5.13).
 - **Hours of the day:** a clock icon on the Almanac header opens the
   hours: a 24-hour dial, midnight at the top, with the twelve two-hour
   periods named by their animals. Its inner ring is the combination period
@@ -1188,10 +1217,6 @@ canvas "Zanshin Calendar — basic design".
 - **Date:** in English — the day number as the headline, "8th month" under it
   ("8th month, day 18" for screen readers). Tapping the month opens a balloon
   with its traditional name (葉月 Hazuki).
-- **Also today:** after Your day, what the day holds that the weighing
-  does not count: the *bla mkhyen*'s direction (§5.11), with its compass.
-  The nectar periods have no row on the page: the brief's "By the hour"
-  and the hours panel give them (§5.13).
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".

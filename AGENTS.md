@@ -54,13 +54,19 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   annotation lacks a source, `CatalogTest` if a text lacks its catalog entry. Never write a reading from memory, and never
   copy copyrighted wording: state its facts in your own English (F-Droid needs
   every asset licensed).
-- **Name a text so that it can be found** (SPEC §8.1): English name
-  first, then its Tibetan script and Wylie in brackets, in readings,
-  notes and source lines; `CatalogTest` checks the catalog and the
-  sources. Identify an abbreviated title from the source or a catalogue
-  (BDRC, 84000), never from memory.
-- **Every Tibetan term and kanji must show its English on tap** (`GlossText`),
-  without a dotted underline.
+- **Name every Tibetan word so that it can be found** (SPEC §8.1):
+  English name first, then its Tibetan script and Wylie in brackets,
+  "the la, the life-spirit (བླ, bla)". Every word, not only titles:
+  terms, spirits, deities, persons, publishers, words written in
+  phonetics (Losar, tsok); everywhere: readings, notes, list wordings,
+  source lines, rows, labels, balloons, diagrams, the store listing.
+  Never script or Wylie alone; the bracket at the first mention in each
+  text, the name alone after it; in code `Ewts.named(english, wylie)`.
+  `CatalogTest` and `TranslationsTest` check it. Identify an abbreviated
+  title from the source or a catalogue (BDRC, 84000), never from memory.
+- **Every kanji must show its English on tap** (`GlossText`), without a
+  dotted underline; a Tibetan term shows its English inline and its
+  pronunciation on tap.
 - **New kanji need a font rebuild.** Shippori Mincho is subset to the
   characters in the Kotlin sources, the text catalogs and the string
   resources: run `tools/subset_fonts.py` with the full fonts from
