@@ -473,7 +473,8 @@ English (§8.1), each reading citing its pages:
   270°, 330°, 30°, 90°, 150°, 210° (the mid-month terms, dated in Lhasa
   mean solar time, UT + 6:04:24), 1, 7, 4 counting up and 9, 3, 6
   counting down, and every other day counts on from the last wood-mouse
-  day (`DaySmeBa`). It is an Almanac row after Rāhu's, its sheet opening
+  day (`DaySmeBa`). It is the row of the "Also today" section, after the
+  Almanac and Your day (§10.3), its sheet opening
   with the direction's compass and the moved square that finds it (§10.7),
   and the details giving the day's sme ba, the wood-mouse day it counts
   from and the seven-red's place; no tone, not weighed (§5.12), as it holds
@@ -602,7 +603,7 @@ voices, so that the tone and the lists cannot go separate ways.
   ("by Thursday"; `DayVerdict.factor` and `.deciding`, the special days
   named together where they spoke as one). That factor's row in the
   Almanac carries a "decides" mark, and its sheet says so under the
-  gloss. Over 2000–2049 the day is decided by the combination on 9,672
+  gloss; where the combination decides, its one row carries it. Over 2000–2049 the day is decided by the combination on 9,672
   days, the weekday on 7,708, the special days on 568, the date on 292
   and the karaṇa on 23; the yoga never decides, since the date or the
   karaṇa before it always has a tone (`DaySummaryTest`). The brief lists the voices that took
@@ -620,10 +621,17 @@ voices, so that the tone and the lists cannot go separate ways.
   says that the tone is the day's for its works and does not weigh the
   festival's merit: the texts give no rule placing a festival in the
   weighing.
-- **Order on the page**: the Almanac section lists the day's readings in
-  rank order (named combination, element pair, Rāhu, weekday, mansion,
-  special days, lunar date, karaṇa, yoga), after the monthly observance and
-  personal rows and before the hair-cutting day.
+- **Order on the page** (ROADMAP U1 and U3, built 2026-10-09): the
+  Almanac section holds what is weighed, after the monthly observance and
+  before the haircut: the voices in rank order (the combination, Rāhu,
+  weekday, mansion, special days, lunar date, karaṇa, yoga), each voice
+  one row, so that the named combination and the element pair are one
+  "Combination" row with both dots, as the special days and Rāhu's
+  courses are. What is shown but not weighed stands apart: the person's
+  own days and mansions in "Your day", with vitality and body; the
+  *bla mkhyen* in "Also today". The nectar periods, times within the day
+  (§5.13), are in the brief's "By the hour" and on the hours panel, not
+  in the Almanac.
 
 The weights the *kun phan me long* gives first (the date once, the planet
 fourfold, the mansion eightfold) put the mansion above the planet, against
@@ -685,10 +693,10 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   by a planet, counted from the weekday's own planet six on by day (from
   dawn) and five on by night (from sunset); Jupiter's halves are the
   nectar periods. On the twelve hours from the hare hour at 05:00 (§10.3)
-  each half is a clock hour, and the Almanac section has a row with the
-  day's nectar hours, whose reading lists what the activity tables name
-  them good for. It takes no part in the weighing: it is a time within the
-  day.
+  each half is a clock hour, shown as dots on the hours panel's dial and in
+  the day in brief's "By the hour"; the hour's nectar row on the panel
+  opens the reading, which lists what the activity tables name them good
+  for. It takes no part in the weighing: it is a time within the day.
 - **The combination period** (*tatkāla dus sbyor*,
   [sources/combination-period.md](sources/combination-period.md)), which the
   texts hold above every factor of the day: the sign rising in each hour.
@@ -1081,20 +1089,20 @@ canvas "Zanshin Calendar — basic design".
   sentence that within its hour the combination period outweighs every
   factor of the day (WB vol. 2, p. 376) and that the nectar periods are not
   weighed (`DayHours`).
-- **Almanac:** monthly observance; the weekday's roles for the person
-  (§5.8: the personal day of the birth animal, "for your birth year"; the
-  birth weekday, "for your birth date"; the element's weekday, "for the
-  life force of your birth year, earth"), one row with each one's dot
-  where there are two or more, titled "Your weekday" with their names
-  under it, its sheet giving each reading in turn; the personal mansions
-  (on the days the mansion is one of one's six) and the birth mansion; the festival is the
-  headline and opens its reading from there, so the Almanac does not
-  repeat it. Then the day's readings in the rank of §5.12: named
-  combination, element pair, Rāhu, weekday (§5.11), lunar mansion (§5.10,
-  no dot: it has no tone of its own), special days, lunar date, karaṇa and
-  yoga (§5.11), the one that decided the day's tone with a small
-  "decides" mark outlined in its tone (both rows of the combination where
-  it decides); then the haircut, weighed as §5.12 weighs every work: its
+- **Almanac:** what is weighed (§5.12, *Order on the page*). The monthly
+  observance; the festival is the headline and opens its reading from
+  there, so the Almanac does not repeat it. Then the day's voices in the
+  rank of §5.12, one row each: the combination, Rāhu, weekday (§5.11),
+  lunar mansion (§5.10, no dot: it has no tone of its own), special days,
+  lunar date, karaṇa and yoga (§5.11), the one that decided the day's tone
+  with a small "decides" mark outlined in its tone. The combination is
+  one row, "Combination" (ROADMAP U1): the dots of the named combination
+  and the element pair side by side, the two elements' glyphs, and a
+  subtitle naming both parts and whether they agree ("Pestle ·
+  Wind–Fire: the parts disagree, no tone", "Friend · Earth–Earth: both
+  lucky"); its sheet says it is one voice and when it decides, then gives
+  each reading in turn, the named combination with the table of the 28
+  and the element pair with the grid of the ten. Then the haircut, weighed as §5.12 weighs every work: its
   dot is the side the brief gives haircuts and its subtitle names the
   factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
   so on every day of 2000–2049 it is the weekday). Its sheet says so,
@@ -1106,7 +1114,7 @@ canvas "Zanshin Calendar — basic design".
   in script, tapping it for the Wylie and phonetics), so that no section
   repeats them (decided by the owner, 2026-10-07: the five components
   section, which gave the same four terms again, was folded in). After the
-  Almanac and Your day, the lunar-day cycles as tappable terms, the date's
+  Almanac, Your day and Also today, the lunar-day cycles as tappable terms, the date's
   animal (*nyi ma*) opening its earth lords and the
   trigram its goddess's reading (§5.11). Several special days are one row,
   "Special days", their dots side by side, as they are one voice in the
@@ -1143,9 +1151,16 @@ canvas "Zanshin Calendar — basic design".
   contrast lives there rather than on the page, where it would repeat for
   a whole year; the month's lives in the month's balloon for the same
   reason.
-- **Your day:** with a birth date set, a section after the almanac sets the
-  vitality and body of the birth year against those of the lunar date
-  (§5.9), one row each: the aspect, its pebbles, the relation and both
+- **Your day:** with a birth date set, a section after the Almanac holds
+  what the day is for the person, shown and not weighed (§5.12; ROADMAP
+  U3). First the weekday's roles for the person (§5.8: the personal day of
+  the birth animal, "for your birth year"; the birth weekday, "for your
+  birth date"; the element's weekday, "for the life force of your birth
+  year, earth"), one row with each one's dot where there are two or more,
+  titled "Your weekday" with their names under it, its sheet giving each
+  reading in turn; the personal mansions (on the days the mansion is one
+  of one's six) and the birth mansion. Then the vitality and body of the
+  birth year against those of the lunar date (§5.9), one row each: the aspect, its pebbles, the relation and both
   elements ("Body ××, enemy: the day's water to your fire"). A row opens
   the relation's reading, then how it was worked out: the lunar date's and
   month's signs, the year's, how the month's and date's elements are
@@ -1173,6 +1188,10 @@ canvas "Zanshin Calendar — basic design".
 - **Date:** in English — the day number as the headline, "8th month" under it
   ("8th month, day 18" for screen readers). Tapping the month opens a balloon
   with its traditional name (葉月 Hazuki).
+- **Also today:** after Your day, what the day holds that the weighing
+  does not count: the *bla mkhyen*'s direction (§5.11), with its compass.
+  The nectar periods have no row on the page: the brief's "By the hour"
+  and the hours panel give them (§5.13).
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
@@ -1313,7 +1332,7 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   Wikipedia 九星) and the sme ba as Berzin prints it; the trigram of each box
   is the same in both. North-up elsewhere (compass, rings): only the boards
   follow the board convention.
-- **Tibetan page.** Element pair: the two elements on its row, and in its
+- **Tibetan page.** Element pair: the two elements on the combination's row, and in its
   sheet the table of the ten pairs, weekday down, mansion across. Lunar
   mansion: a small ring of 27 on its row, the full ring in its sheet. Haircut:
   scissors on its row; in its sheet the days of the Tibetan month, one cell
@@ -1322,9 +1341,7 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   and deciding factor.
   Trigram: drawn as its three lines. Named combination: in its sheet the
   table of the 28, weekday down from Sunday, the 27 mansions across, each
-  cell in its tone, today's marked. Nectar periods: the 24 hours as a ring,
-  midnight at the top as on the hours panel (§10.3), the periods as arcs,
-  small on the row and with the hours in the sheet. Lunar date: five marks
+  cell in its tone, today's marked. Lunar date: five marks
   for its class on the row; in the sheet the thirty dates in the columns
   of their five classes with their tones. Karaṇa: a ring of the eleven in
   the order a month runs through them, Kiṃstughna first, the seven moving

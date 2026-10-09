@@ -26,7 +26,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 5 | E Election: the best day for a work | L | The day's weighing (SPEC §5.12) read across days for one work, best first, with the hours of each day; the order of strength the texts give, nothing added to it; a reading of WB ch. 34's rising signs for the hours | E4 waits on a reading |
 | 6 | T4 Element calculation, with the T5 settings | XL | Progressions that differ by gender, obstacle years and yearly sme ba, each needing a vector; the readings of every result need sources. Mo is not planned. The gender setting is small but nothing reads it before T4, so it ships with it | — |
 | 7 | M1 Meditation Timer and Bell | M | Requested feature: meditation timer and randomized periodic bell (MindBell functionality) | Port audio/alarm logic from MindBell, build Compose UI |
-| 8 | U The Tibetan page's UX | M | Five small items, the deciding factor named built (U2); left: the combination as one row, the page in weighed / yours / also-today sections, the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
+| 8 | U The Tibetan page's UX | M | Five small items, three built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3); left: the brief grouped by voices, the hours on the In brief row; no side or tone changes | — |
 
 ## Blocks
 
@@ -39,7 +39,7 @@ moves up as soon as it is unblocked.
 
 | # | Block | Waits on | Prompt |
 | --- | --- | --- | --- |
-| 1 | U1 + U3 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
+| 1 | U1 + U3 — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
 | 2 | E6, the "For you" half | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
 | 3 | U4 + U5 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
 | 4 | T3 Element colours | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
@@ -503,20 +503,23 @@ an unweighed personal row opens the list, one voice is two rows with
 opposite dots, and nothing names the factor that decided the day. The
 brief's lists run long and say the same voices on line after line. No
 item changes a side or a tone; each changes SPEC §5.12 (*Order on the
-page*) and §10.3 with the code. U2 is built; U1 and U3 ship together; then U4 and U5.
+page*) and §10.3 with the code. U2 is built, U1 and U3 built together (block 1); then U4 and U5.
 
-#### U1 One row for the combination — S
+#### U1 One row for the combination — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** The named combination (*'phrod chen*) and the element pair are
   one voice (§5.12), yet two rows with their own dots: on 8 October 2026
-  *Pest* is red and Wind–Fire green, so the combination has no tone, and
-  the page does not say so. Rāhu's courses and the special days, each one
-  voice, are already one row each.
-- **Work.** One "Combination" row: both parts' dots side by side, the
-  subtitle naming both and whether they agree ("Pest · Wind–Fire: the
-  parts disagree, no tone"); its sheet gives each reading in turn, with
-  the combination table and the element grid, as the special days' sheet
-  does.
+  *Pestle* is red and Wind–Fire green, so the combination has no tone, and
+  the page did not say so. Rāhu's courses and the special days, each one
+  voice, were already one row each.
+- **Built.** One "Combination" row («Сочетание»): both parts' dots side by
+  side, the two elements' glyphs, the subtitle naming both and whether
+  they agree ("Pestle · Wind–Fire: the parts disagree, no tone", "Friend ·
+  Earth–Earth: both lucky", "Raven · Fire–Water: both unlucky"), the
+  "decides" mark once, on this row. Its sheet says it is one voice and
+  when it decides (WB vol. 2, p. 333), then gives each reading in turn
+  with the combination table and the element grid, as the special days'
+  sheet does.
 
 #### U2 The deciding factor named — built 2026-10-08 (SPEC §5.12, §10.3)
 
@@ -536,21 +539,31 @@ page*) and §10.3 with the code. U2 is built; U1 and U3 ship together; then U4 a
   and without a birth date. U1 will put the mark on its one combination
   row.
 
-#### U3 Three sections: weighed, yours, also today — S
+#### U3 Three sections: weighed, yours, also today — built 2026-10-09 (SPEC §5.12, §10.3)
 
-- **Gap.** The *bla mkhyen* and the nectar periods stand between Rāhu and
+- **Gap.** The *bla mkhyen* and the nectar periods stood between Rāhu and
   the weekday, inside the run of weighed voices, though neither is
-  weighed. The personal day and personal mansions open the Almanac, so an
-  unweighed row is the first verdict on the page (8 October 2026: "Hostile
-  day" in red above a lucky day), while vitality and body sit apart in
-  "Your day". The nectar periods are shown three times: this row, the
-  brief's "By the hour" and the dots on the hours dial.
-- **Work.** **Almanac**: the monthly observance, then the weighed voices
-  in rank (the combination, Rāhu, weekday, mansion, special days, date,
-  karaṇa, yoga), then the haircut. **Your day**: the personal day and
-  mansions with vitality and body (and T2.19's days, E6's every-work days).
-  **Also today**: the *bla mkhyen*. The nectar row goes; the brief and
-  the dial keep the nectar periods. "Lunar day" stays as it is.
+  weighed. The personal day and personal mansions opened the Almanac, so
+  an unweighed row was the first verdict on the page (8 October 2026:
+  "Hostile day" in red above a lucky day), while vitality and body sat
+  apart in "Your day". The nectar periods were shown three times: a row,
+  the brief's "By the hour" and the dots on the hours dial.
+- **Built.** **Almanac**: the monthly observance, the weighed voices in
+  rank (the combination, Rāhu, weekday, mansion, special days, date,
+  karaṇa, yoga), the haircut. **Your day** (with a birth date): "Your
+  weekday" (T2.19's roles), the personal and birth mansions, then
+  vitality and body; E6's every-work days will join it. **Also today**
+  («Также сегодня»): the *bla mkhyen*. The nectar row is gone, and with
+  it the small nectar dial; the brief and the hours dial keep the
+  periods, and the hours panel's nectar row now gives the Tibetan term
+  (*bdud rtsi thun mtshams*) the Almanac row held. "Lunar day" is as it
+  was.
+
+U1 and U3 were checked on the emulator (Kyoto) in English and Russian:
+lucky by the combination (2 October 2026), lucky with the parts
+disagreeing (8 October), unlucky by the combination (1 November), the
+monthly observance first (10 and 18 October), personal mansions in Your
+day (4, 6, 7 October), each with and without a birth date.
 
 #### U4 The brief grouped by the voices that carry each work — S
 
