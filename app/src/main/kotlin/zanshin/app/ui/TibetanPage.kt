@@ -128,6 +128,7 @@ fun TibetanPage(
     val skippedYogas = remember(day.jd) { DayTimes.skippedYogas(day, next) }
     val visti = remember(day.jd) { DayTimes.visti(day) }
     val sunTerms = remember(day.jd) { DayTimes.sunTerms(day) }
+    val burningFrom = remember(day.jd, nightfall) { DayTimes.burningFrom(day, nightfall) }
 
     val holiday = day.holiday
     val holidayAnnotation = holiday?.let {
@@ -514,6 +515,19 @@ fun TibetanPage(
                     )
                 } else {
                     null
+                },
+                // The burning date of the day after, begun in daylight (WB vol. 1, p. 177, entry 11).
+                burningFrom?.let { from ->
+                    val bScript = Ewts.named(Catalog.text("BurningDate"), "bsreg tshes")
+                    Annotation(
+                        Catalog.text("BurningDate").replaceFirstChar(Char::uppercase),
+                        bScript,
+                        Tone.BAD,
+                        Texts.BURNING_DATE,
+                        subtitle = labels.string(R.string.tib_burning_from_subtitle, labels.ordinal(day.day % 30 + 1), clockOf(from, labels)),
+                        titleIsKanji = false,
+                        details = listOf(whiteBerylLabel to bScript, stringResource(R.string.detail_burning_hook) to stringResource(R.string.burning_hook)),
+                    )
                 },
             )
             // Several special days are one row, as they are one voice in the weighing (SPEC §5.12).

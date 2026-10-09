@@ -689,4 +689,8 @@
     <string name="hours_hidden_subtitle">%1$s, %2$s</string>
     <string name="hours_gnam_khyi_title">The hour\'s sky dog</string>
     <string name="hours_gnam_khyi_subtitle">head on the %1$s\'s place, tail on the %2$s\'s</string>
+    <!-- the burning date of the next date, begun before nightfall (WB entry 11): "the 11th begins in daylight, at 15:20" -->
+    <string name="tib_burning_from_subtitle">the %1$s begins in daylight, at %2$s</string>
+    <string name="detail_burning_hook">In the almanac</string>
+    <string name="burning_hook">written with a hook (ཞབས་ཀྱུ, zhabs kyu), the sign that the burning date has come in the day</string>
 </resources>

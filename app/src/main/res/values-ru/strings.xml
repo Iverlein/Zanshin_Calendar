@@ -567,4 +567,7 @@
     <string name="hours_hidden_subtitle">%1$s, %2$s</string>
     <string name="hours_gnam_khyi_title">Небесный пёс часа</string>
     <string name="hours_gnam_khyi_subtitle">голова на месте животного: %1$s, хвост — %2$s</string>
+    <string name="tib_burning_from_subtitle">%1$s-е число наступает днём, в %2$s</string>
+    <string name="detail_burning_hook">В альманахе</string>
+    <string name="burning_hook">пишется с крючком (ཞབས་ཀྱུ, zhabs kyu) — знаком того, что дата сожжения наступила днём</string>
 </resources>
