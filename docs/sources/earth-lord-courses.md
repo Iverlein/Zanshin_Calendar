@@ -366,8 +366,9 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   empowerment, the generation and completion stages and a great gathering
   of offerings are done. **Built** (`EarthLordCourses.hourSaRgyal`,
   `Texts.HOUR_SA_RGYAL`, on the hours panel). The other way, read on the
-  scan with the Zhol print (WBZ img. 957, where the late summer's hour
-  reads «ཁྱི», the dog, which the 1996 scan does not settle): «དཔྱིད་ར་སྦྲུལ་དུས་ལྷོ་སྟོད་དུ། །འབྲིང་པོ་རྟ་དུས་སྤྲེའུའི་ཐོག །ཐ་ཆུང་ལུག་དུས་ཕག་གི་སྟེང་། །དབྱར་ར་སྤྲེལ་དུས་སྦྲུལ་ཐོག་ཏུ། །འབྲིང་པོ་བྱ་དུས་ཕག་གི་སྟེང་། །ཐ་ཆུང་ཁྱི་དུས་བྱང་གི་སྟོད། །སྟོན་ར་ཕག་དུས་འབྲུག་ཐོག་ཏུ། །འབྲིང་པོ་བྱི་དུས་ལྷོ་ནུབ་ཕྱོགས། །ཐ་ཆུང་གླང་དུས་ཁྱི་ཡི་སྟེང་། །དགུན་ར་སྟག་དུས་ཤར་སྨད་དུ། །འབྲིང་པོ་ཡོས་དུས་ལྷོ་སྨད་ཕྱོགས། །ཐ་ཆུང་འབྲུག་དུས་བྱ་ཐོག་ཏུ། །རང་རང་རྒྱུ་ཆོས་ཉིན་མོ་འཆོག །རྒྱུ་ཆོས་པི་ལིང་འཕར་མ་ཡིན།»
+  scan with the Zhol print (WBZ img. 957, line 4, read by eye at 4×: the
+  late summer's hour is «ཁྱི», the dog, its head ཁ's rounded hook, not
+  བ's square one, which the 1996 scan does not settle): «དཔྱིད་ར་སྦྲུལ་དུས་ལྷོ་སྟོད་དུ། །འབྲིང་པོ་རྟ་དུས་སྤྲེའུའི་ཐོག །ཐ་ཆུང་ལུག་དུས་ཕག་གི་སྟེང་། །དབྱར་ར་སྤྲེལ་དུས་སྦྲུལ་ཐོག་ཏུ། །འབྲིང་པོ་བྱ་དུས་ཕག་གི་སྟེང་། །ཐ་ཆུང་ཁྱི་དུས་བྱང་གི་སྟོད། །སྟོན་ར་ཕག་དུས་འབྲུག་ཐོག་ཏུ། །འབྲིང་པོ་བྱི་དུས་ལྷོ་ནུབ་ཕྱོགས། །ཐ་ཆུང་གླང་དུས་ཁྱི་ཡི་སྟེང་། །དགུན་ར་སྟག་དུས་ཤར་སྨད་དུ། །འབྲིང་པོ་ཡོས་དུས་ལྷོ་སྨད་ཕྱོགས། །ཐ་ཆུང་འབྲུག་དུས་བྱ་ཐོག་ཏུ། །རང་རང་རྒྱུ་ཆོས་ཉིན་མོ་འཆོག །རྒྱུ་ཆོས་པི་ལིང་འཕར་མ་ཡིན།»
   one hour a month from the snake, each with a place, the directions
   being the places of p. 254's animals; **built as another view**
   (`EarthLordCourses.SA_RGYAL_OTHER`, `Texts.HOUR_SA_RGYAL_OTHER`), shown

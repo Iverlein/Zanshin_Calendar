@@ -222,9 +222,12 @@ the text, not about the app.
     the rule is WB's rough one. The app follows it (`DayTimes.MULTIPLIER`).
     «རོ» is the six of the reckoner's units, the *dbugs* in a chu srang, as
     sixty (*mkha' ro*) is the chu srang in a chu tshod: Pema Karpo's rtsis
-    verse turns its remainders so, «ལྷག་མ་མཁའ་རོ་རོ་རྣམས་ཀྱིས། །རིམ་བསྒྱུར་རིམ་པར་བགོས་པའི་ནོར། །དབྱུག་མིག་སྲང་མེ་མིག་དབུགས་མེ»,
-    its result in *dbyug*, *srang* and *dbugs* (*Gsung 'bum* of Pad+ma dkar
-    po, BDRC MW10736, vol. 1, etext VE10736_001 from character 684875;
+    verse, read in full (etext pp. 27–28), turns its remainders so, «ལྷག་མ་མཁའ་རོ་རོ་རྣམས་ཀྱིས། །རིམ་བསྒྱུར་རིམ་པར་བགོས་པའི་ནོར། །དབྱུག་མིག་སྲང་མེ་མིག་དབུགས་མེ»,
+    its results in *dbyug*, *srang* and *dbugs*; and it writes one of them
+    «དབྱུག་མཁའ་སྲང་ཡིད་དབུགས་ནམ་མཁའ», 0 chu tshod, 14 (*yid*) chu srang, 0
+    dbugs, the same number word for 14 inside a reckoned value (*Gsung
+    'bum* of Pad+ma dkar po, BDRC MW10736, vol. 1, etext VE10736_001 from
+    character 684875;
     the same verse in the *Rtsis gzhung gdan dus thun mong gi nges pa*,
     MW3CN2232_A52E6B), so «ཆུ་སྲང་རོས་བགོས་པ་སྟེང་བྱིན» divides the lower
     columns by their six (and sixty) and carries the quotients up into the
