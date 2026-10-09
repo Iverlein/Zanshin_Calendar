@@ -186,6 +186,10 @@ a:hover { color: var(--text); }
 }
 .card.saffron li::before { background: var(--saffron); }
 .card.vermilion li::before { background: var(--vermilion); }
+/* The meditation timer: under both calendars, in neither's colour. */
+.card.practice { grid-column: 1 / -1; }
+.card.practice h2 { color: var(--text); }
+.card.practice li::before { background: var(--muted); }
 
 .paragraphs { padding-top: 24px; padding-bottom: 24px; }
 .paragraphs p { margin: 0 0 12px; max-width: 46em; color: var(--muted); }

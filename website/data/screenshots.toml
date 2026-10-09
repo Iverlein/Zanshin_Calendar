@@ -39,8 +39,17 @@ alt = "Альманах 旧暦: 中段, 二十八宿, 暦注下段 и 選日, у
 [[shot]]
 file = "5.png"
 [shot.en]
-caption = "Calendar, place and birth date"
-alt = "The menu: Tibetan or 旧暦, location, birth date, and about and sources"
+caption = "Calendars, practice and settings"
+alt = "The menu in groups: Tibetan or 旧暦 and Choose a day; Meditation; location, people, nine-star reading and language; about and sources"
 [shot.ru]
-caption = "Календарь, место и дата рождения"
-alt = "Меню: тибетский календарь или 旧暦, место, дата рождения, о приложении и источниках"
+caption = "Календари, практика и настройки"
+alt = "Меню по группам: тибетский календарь или 旧暦 и выбор дня; медитация; место, люди, чтение девяти звёзд и язык; о приложении и источниках"
+
+[[shot]]
+file = "6.png"
+[shot.en]
+caption = "A meditation timer"
+alt = "The meditation timer: a zazen of 20, 10 and 30 minutes, an hour in three periods, set from its preset, with the warm-up and each period's length below"
+[shot.ru]
+caption = "Таймер медитации"
+alt = "Таймер медитации: дзадзэн по 20, 10 и 30 минут, час в трёх периодах, выбранный из пресета, ниже — подготовка и длина каждого периода"

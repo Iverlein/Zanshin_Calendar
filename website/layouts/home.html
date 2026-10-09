@@ -23,8 +23,9 @@
 </section>
 
 <section id="calendars" class="calendars wrap">
+  {{- /* The two calendars side by side in their colours, then the meditation timer across both. */}}
   {{- range $i, $c := $l.calendars }}
-  <article class="card {{ if $i }}vermilion{{ else }}saffron{{ end }}">
+  <article class="card {{ cond (eq $i 0) "saffron" (cond (eq $i 1) "vermilion" "practice") }}">
     <h2>{{ $c.title | safeHTML }}</h2>
     {{ $c.body | safeHTML }}
   </article>

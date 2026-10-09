@@ -1,5 +1,5 @@
 {{- /* The F-Droid listing, parsed once: title, short description, the lead
-   paragraph, the two calendars (blocks with a list), the principles (other
+   paragraph, the two calendars and the meditation timer (blocks with a list), the principles (other
    titled blocks), plain paragraphs, and the version with its changelog. */ -}}
 {{- $dir := printf "listing/%s/" site.Params.listing -}}
 {{- $full := (resources.Get (print $dir "full_description.txt")).Content | strings.TrimSpace -}}
