@@ -98,9 +98,7 @@ class TranslationsTest {
      * SPEC §8.1: the interface and the store listing name every Tibetan word
      * by its English name, then its Tibetan script and Wylie in brackets, as
      * the catalog does (core's CatalogTest), and a translation names the same
-     * words as English. The detail label "In the White Beryl" is the one
-     * exception: a label column, its sheet's source line gives the title in
-     * full.
+     * words as English.
      */
     @Test
     fun `Tibetan words are named in English with their Tibetan and Wylie`() {
@@ -111,7 +109,6 @@ class TranslationsTest {
             for (i in 0 until nodes.length) {
                 val e = nodes.item(i) as Element
                 val name = e.getAttribute("name")
-                if (name == "detail_white_beryl") continue
                 val where = "${file.parentFile.name} $name"
                 texts[where] = e.textContent.replace("\\'", "'")
                 if (file.parentFile.name != "values") counterpart[where] = "values $name"

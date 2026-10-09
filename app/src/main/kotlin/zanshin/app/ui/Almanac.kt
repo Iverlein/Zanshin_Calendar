@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -23,7 +22,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -258,9 +256,10 @@ private fun DecidesNote(a: Annotation) {
 }
 
 /**
- * The reading of an annotation, as a bottom sheet with its source and licence. With [onElect] each
- * wording of its lists opens its works among [offered], each choosing a day for it (ROADMAP E2, E5):
- * the Tibetan election's works by default, the 旧暦's on the 旧暦 page.
+ * The reading of an annotation, as a bottom sheet; its sources are in About & sources, not on the
+ * sheet (SPEC §8.1). With [onElect] each wording of its lists opens its works among [offered], each
+ * choosing a day for it (ROADMAP E2, E5): the Tibetan election's works by default, the 旧暦's on the
+ * 旧暦 page.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -299,7 +298,7 @@ fun ReadingSheet(
     }
 }
 
-/** One annotation's term, gloss, diagram, reading, workings and sources, in a reading sheet. */
+/** One annotation's term, gloss, diagram, reading and workings, in a reading sheet. */
 @Composable
 private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?, offered: Set<Activity>) {
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -337,17 +336,6 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
             if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.goodKeys, r.good, Palette.good, onElect, offered)
             if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoidKeys, r.avoid, Palette.bad, onElect, offered)
             if (a.details.isNotEmpty()) DetailsBlock(a.details)
-            Spacer(Modifier.heightIn(min = 4.dp))
-            SelectionContainer {
-                Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                    Text(stringResource(if (r.also.isEmpty()) R.string.source else R.string.sources), style = body.copy(fontSize = 12.sp, color = Palette.faint))
-                    for (s in listOf(r.source) + r.also) {
-                        Text(withTibetan("${s.title} — ${s.publisher}"), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
-                        Text(s.url, style = body.copy(fontSize = 12.sp, color = Palette.faint))
-                    }
-                    Text(r.license.label, style = body.copy(fontSize = 12.sp, color = Palette.faint))
-                }
-            }
     }
 }
 
