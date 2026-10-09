@@ -836,6 +836,13 @@ object Texts {
         fun struck(works: List<String>) =
             if (strike) r(good = works, arg = "$key.STRIKES") else r(avoid = works, arg = "$key.TURNS_BACK")
         val base = when (c) {
+            EarthLordCourse.NAG_CHEN -> r(
+                good = listOf("black_rites"),
+                avoid = listOf(
+                    "works_for_the_dead_and_the_living", "sending_out_wealth", "empowerment", "consecration", "taking_a_bride",
+                    "building", "building_graves", "trade", "virtuous_work",
+                ),
+            )
             EarthLordCourse.NAG_CHUNG -> r(avoid = listOf("death_rites", "taking_a_bride", "consecration", "feasts", "funeral_rites", "sending_out_wealth"))
             EarthLordCourse.PI_LING -> r(
                 good = listOf("suppressing_and_gtad", "sending_hail", "hurling_zor", "throwing_mdos_and_torma", "attacking", "fierce_rites"),
@@ -849,7 +856,7 @@ object Texts {
                     "middle" -> listOf("everything")
                     "0" -> listOf("building", "making_tsatsas", "drawing_mandalas", "filling_holes", "roofing", "seeking_a_grave_site")
                     "1" -> listOf("earthworks", "work_with_water", "digging_ponds_and_canals", "sowing", "grain_work", "wells")
-                    "2" -> listOf("earthworks", "building_walls")
+                    "2" -> listOf("earthworks", "setting_up_growth", "building_walls", "pulling_down_the_yak_wood")
                     else -> listOf("earthworks", "building_temples_and_stupas", "laying_foundations")
                 } + listOf("council", "taking_a_bride", "spectacles", "feasts", "building", "carrying_out_a_corpse", "funeral_rites", "war_and_raids").let {
                     if (day.variant == "middle") emptyList() else it

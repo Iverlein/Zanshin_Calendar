@@ -28,6 +28,8 @@ import zanshin.core.tibetan.Animal.TIGER
  * Rāhu among them (section 27) is [RahuBySeason], weighed with Rāhu's other courses.
  */
 enum class EarthLordCourse(val wylie: String) {
+    /** Only the "one person's view" of the great black day, whose own course is [GreatBlackDay]. */
+    NAG_CHEN("nyi ma nag chen"),
     NAG_CHUNG("nyi ma nag chung"),
     PI_LING("pi ling 'phar ma"),
     ZIN_PHUNG("zin phung"),
@@ -222,6 +224,8 @@ object EarthLordCourses {
      * what "some say" (docs/sources/earth-lord-courses.md): shown beside the course as such, by
      * season-month. *Dbul po*'s view differs from WB's own in four months only, the others "the same".
      */
+    /** The great black day in one person's view (p. 226): the 24th of the last months of spring, autumn and winter, the 9th of the first of winter. */
+    val NAG_CHEN_OTHER: Map<Int, Set<Int>> = mapOf(2 to setOf(24), 8 to setOf(24), 11 to setOf(24), 9 to setOf(9))
     val NAG_CHUNG_OTHER: List<Set<Int>> = List(9) { emptySet<Int>() } + threes(9).let { listOf(it[0], it[1], it[2]) }
     val PHUNG_ZOR_OTHER: List<Set<Int>> = bySeason(18, 8, 9, 3, 13, 9, 7, 17, 28, 1, 16, 9)
     val KI_KANG_OTHER: Map<Set<Int>, Set<Int>> = mapOf(
@@ -249,7 +253,8 @@ object EarthLordCourses {
      * when the earth lords' remedies help), of vanishing (*yal*, when they turn back on oneself) and of
      * not giving out wealth. The last month of summer's «གསུམ་དྲུག་ཉེར་ཡལ» (the Zhol print; the 1996 edition
      * has ཉར) is read as the autumn lines are, success, vanishing and wealth in turn: the 3rd, and the
-     * 26th inverted for the metre. The direction of each month («ཡས་ལམ») is not identified, not built.
+     * 26th inverted for the metre. Each month's direction for sending the ransom offering («ཡས་ལམ»; WB
+     * uses *yas* for the ransom sent to the spirits, «གཉན་རྣམས་ཡས་ཀྱིས་བཀར») is in the reading.
      */
     val SPUG_STON: List<Map<String, Set<Int>>> = listOf(
         mapOf("grub" to setOf(5, 30), "yal" to setOf(8), "nor" to setOf(1, 6)),
@@ -285,6 +290,7 @@ object EarthLordCourses {
                 if (date in strikes[s]) add(CourseDay(course, CourseEvent.STRIKES, s))
                 if (date in turnings[s]) add(CourseDay(course, CourseEvent.TURNS_BACK, s))
             }
+            moves(EarthLordCourse.NAG_CHEN, date in NAG_CHEN_OTHER[s].orEmpty(), OTHER)
             moves(EarthLordCourse.NAG_CHUNG, date in NAG_CHUNG[s])
             moves(EarthLordCourse.NAG_CHUNG, date in NAG_CHUNG_OTHER[s], OTHER)
             moves(EarthLordCourse.PI_LING, date in PI_LING[s])

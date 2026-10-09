@@ -137,6 +137,8 @@ class EarthLordCoursesTest {
         // What some say: the eight classes from the 8th to the 30th of the last autumn month (the 7th), the nāgas on the 15th of the last of summer (the 4th).
         assertEquals(listOf(EarthLordCourses.OTHER), other(7, 12, SDE_BRGYAD)); assertTrue(other(7, 28, SDE_BRGYAD).isEmpty())
         assertEquals(listOf(EarthLordCourses.OTHER), other(4, 15, KLU))
+        // The great black day's other view: the last month of spring (the 1st) on the 24th, the first of winter (the 8th) on the 9th.
+        assertEquals(listOf(EarthLordCourses.OTHER), other(1, 24, EarthLordCourse.NAG_CHEN)); assertEquals(listOf(EarthLordCourses.OTHER), other(8, 9, EarthLordCourse.NAG_CHEN))
         // Spug ston: the first month of spring succeeds on the 5th and 30th, vanishes on the 8th, gives no wealth on the 1st and 6th.
         fun spug(month: Int, date: Int) = on(month, date).filter { it.course == EarthLordCourse.SPUG_STON }.map { it.variant }
         assertEquals(listOf("grub"), spug(11, 5)); assertEquals(listOf("yal"), spug(11, 8)); assertEquals(listOf("nor"), spug(11, 6))

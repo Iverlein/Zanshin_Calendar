@@ -1053,6 +1053,9 @@ object Activities {
         "naga_tormas_and_offerings" to of(OFFERINGS),
         "remedies_for_the_earth_lords" to of(AVERTING_RITES),
         "work_with_mud" to of(MOVING_EARTH),
+        // Zin phung's autumn works, rendered word for word: neither names an act the lists can compare.
+        "setting_up_growth" to of(),
+        "pulling_down_the_yak_wood" to of(),
     )
 
     /** The rokuyō's hours, by wording key. */
