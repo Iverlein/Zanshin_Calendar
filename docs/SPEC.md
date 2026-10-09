@@ -1622,8 +1622,8 @@ canvas "Zanshin Calendar — basic design".
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one. On the day a sun's term falls, a last row
-  names it with its time ("Middle term of month 8 · 00:29", "Sun enters
-  Libra · 21:37"), its sheet the term's reading, its Tibetan name and its
+  names it with its time ("Middle term of month 8 · 01:00", "Sun enters
+  Libra · 19:24"), its sheet the term's reading, its Tibetan name and its
   measure (§5.8).
 - **Times within the day** (§5.8): the mansion row's subtitle adds a
   second mansion that comes by daylight ("then Uttaraphalgunī from
