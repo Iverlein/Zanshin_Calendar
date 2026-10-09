@@ -115,7 +115,7 @@ class CatalogTest {
             val year = birthYear + age - 1
             val r = YearReckoning(YearOfLife.signOf(n + 1924 - 1984), birthYear, YearOfLife.yearSign(year), year, gender, null)
             r.pebbles.forEach { out += Texts.yearPebble(it.force, it.pebbles) }
-            r.sectors.forEach { out += Texts.yearSector(it.sector) }
+            r.sectors.forEach { out += Texts.yearSector(it.sector, it.force) }
             r.harsh.forEach { out += Texts.harsh(it) }
             r.smeBaObstacles.forEach { out += Texts.mewaObstacle(it) }
             r.trigram?.let { out += Texts.yearTrigram(it) }
@@ -131,7 +131,7 @@ class CatalogTest {
     @Test
     fun `every text of the year of life is shown`() {
         val shown = yearOfLifeReadings().flatMap { listOfNotNull(it.key, it.arg) }.toSet()
-        val families = listOf("YearPebble", "YearPredictive", "YearSector", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa")
+        val families = listOf("YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa")
         val written = english.keys.filter { k -> families.any { k == "reading.$it" || k.startsWith("reading.$it.") } }
         assertEquals(emptyList<String>(), written.filter { it !in shown }.sorted())
     }

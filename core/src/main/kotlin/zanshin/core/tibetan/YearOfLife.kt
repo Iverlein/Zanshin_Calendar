@@ -195,6 +195,64 @@ object YearOfLife {
         Animal.TIGER, Animal.RABBIT -> LogMenPlace.GAIN
     }
 
+    /** An element's tomb animal: wood the sheep, fire the dog, iron the ox, earth and water the dragon (p. 258). */
+    fun tomb(e: Element): Animal = Animal.entries[Math.floorMod(breathTaking(e).ordinal + 11, 12)]
+
+    /**
+     * The four tomb years of a birth year's element (p. 412): of its own
+     * element, the great on the tomb animal and the small on its seventh;
+     * of the element that slays it, the same two ("destiny wood: the great
+     * own tomb the sheep, the small the wood ox; the slayer's great the iron
+     * sheep, small the iron ox").
+     */
+    fun tombYears(e: Element): Map<HarshYear, Sign> {
+        val t = tomb(e)
+        val seventh = Animal.entries[(t.ordinal + 6) % 12]
+        val slayer = Element.entries.first { it.overcomes == e }
+        return mapOf(
+            HarshYear.TOMB_OWN_GREAT to Sign(e, t), HarshYear.TOMB_OWN_SMALL to Sign(e, seventh),
+            HarshYear.TOMB_SLAYER_GREAT to Sign(slayer, t), HarshYear.TOMB_SLAYER_SMALL to Sign(slayer, seventh),
+        )
+    }
+
+    /** The combined nine-multiple's key for an element: earth and water count from the mouse, so they share one (p. 412). */
+    fun tombKey(e: Element): Element = if (e == Element.WATER) Element.EARTH else e
+
+    /**
+     * Which of the combined nine-multiples the year of [age] is, 1 to 7, or
+     * null: counted up from each element's key (earth and water from the wood
+     * mouse, wood from the fire hare, fire from the iron horse, iron from the
+     * water bird), every aspect reaches its tomb in the 9th, 21st, 33rd, 45th,
+     * 57th, 69th and 81st years (p. 412).
+     */
+    fun combinedNine(age: Int): Int? = if (age in 9..81 && (age - 9) % 12 == 0) (age - 9) / 12 + 1 else null
+
+    /**
+     * The nine-multiple that meets the tomb (p. 410): for a man born in a bird
+     * or monkey year the 54th, a tiger or hare year the 18th, a horse or snake
+     * year the 36th, the others the 72nd; for a woman a horse or snake year
+     * the 18th, a tiger or hare year the 36th, a bird or monkey year the 72nd,
+     * the others the 54th.
+     */
+    fun nineMeetsTomb(birth: Animal, gender: Gender, age: Int): Boolean {
+        val male = gender == Gender.MALE
+        val at = when (birth) {
+            Animal.BIRD, Animal.MONKEY -> if (male) 54 else 72
+            Animal.TIGER, Animal.RABBIT -> if (male) 18 else 36
+            Animal.HORSE, Animal.SNAKE -> if (male) 36 else 18
+            else -> if (male) 72 else 54
+        }
+        return age == at
+    }
+
+    /** The tomb trigram of a vitality element (p. 415): wood the earth trigram, fire the sky, iron the mountain, earth and water the wind. */
+    fun tombTrigram(e: Element): Trigram = when (e) {
+        Element.WOOD -> Trigram.KHON
+        Element.FIRE -> Trigram.KHEN
+        Element.IRON -> Trigram.GIN
+        Element.EARTH, Element.WATER -> Trigram.ZON
+    }
+
     /** Each of the four aspects of the birth year in its sector for the year of [yearAnimal]: "where it reaches the year is the year's" (p. 258). */
     fun sectors(birth: YearForces, yearAnimal: Animal): List<AspectSector> =
         Force.entries.map { AspectSector(it, birth[it], sector(birth[it], yearAnimal)) }
@@ -237,13 +295,39 @@ enum class HarshYear {
     /** The progressed sign on the seventh from one's own birth sign. */
     LOG_MEN_SEVENTH,
     /** The progressed sign's element the enemy of one's vitality (*bdud gcod*). */
-    LOG_MEN_ENEMY;
+    LOG_MEN_ENEMY,
+    /** The progressed sign on one of the four tomb years: "slightly bad" (p. 412). */
+    LOG_MEN_TOMB,
+    /** The combined nine-multiple (*sbrags ma*), the 9th, 21st … 81st: each aspect reaches its tomb (p. 412). */
+    COMBINED_NINE,
+    /** A nine-multiple that meets the tomb (*dgu dur gnyis 'dzom*), by gender and birth animal (p. 410). */
+    NINE_TOMB,
+    /** The trigram's nine-multiple: a man's trigram back on the fire trigram, a woman's on water (p. 413). */
+    TRIGRAM_NINE,
+    /** The mewa's nine-multiple: the mewa of the year back in the middle, on the natal one (p. 413). */
+    MEWA_NINE,
+    /** The year the great tomb of one's own element (p. 412). */
+    TOMB_OWN_GREAT,
+    /** Its seventh, the small tomb of one's own element. */
+    TOMB_OWN_SMALL,
+    /** The great tomb of the element that slays one's own. */
+    TOMB_SLAYER_GREAT,
+    /** Its seventh, the small slayer's tomb. */
+    TOMB_SLAYER_SMALL,
+    /** One's own great tomb rising when it is one of the four black undertakers (p. 412). */
+    BLACK_UNDERTAKER,
+    /** The tomb sign (*dur mig*): the trigram of the year on the tomb trigram of one's vitality (p. 415). */
+    TOMB_SIGN;
 
     val english: String get() = gloss(this)
 }
 
-/** A harsh year that holds, with how the present year's element stands to the birth year's where the reading goes by it. */
-data class Harsh(val year: HarshYear, val kinship: Kinship? = null)
+/**
+ * A harsh year that holds, with how the present year's element stands to the
+ * birth year's where the reading goes by it, and for the combined
+ * nine-multiple the aspects' element and which of the seven it is.
+ */
+data class Harsh(val year: HarshYear, val kinship: Kinship? = null, val element: Element? = null, val nth: Int? = null)
 
 /**
  * What the progressed sign's animal brings (WB vol. 1, p. 387): the sky door
@@ -270,7 +354,11 @@ enum class SmeBaObstacle(val wylie: String) {
     /** It falls on the two-black. */
     LAND("yul keg"),
     /** It is the enemy of the natal sme ba, or the two are fire and iron. */
-    ROYAL_GATE("rgyal sgo 'gags pa");
+    ROYAL_GATE("rgyal sgo 'gags pa"),
+    /** The mewa's sky door: the six-white for a man, the one-white for a woman (p. 409). */
+    SKY_DOOR("gnam sgo"),
+    /** The mewa's earth door: the two-black for a man, the four-green for a woman. */
+    EARTH_DOOR("sa sgo");
 
     val english: String get() = gloss(this)
 }
@@ -350,7 +438,17 @@ data class YearReckoning(
             if (lm == birth) add(Harsh(HarshYear.LOG_MEN_OWN))
             if (Math.floorMod(lm.animal.ordinal - birth.animal.ordinal, 12) == 6) add(Harsh(HarshYear.LOG_MEN_SEVENTH))
             if (Forces.kinship(forces.vitality, lm.element) == Kinship.ENEMY) add(Harsh(HarshYear.LOG_MEN_ENEMY))
+            if (lm in YearOfLife.tombYears(birth.element).values) add(Harsh(HarshYear.LOG_MEN_TOMB))
         }
+        YearOfLife.combinedNine(age)?.let { n ->
+            Force.entries.map { YearOfLife.tombKey(forces[it]) }.distinct().forEach { add(Harsh(HarshYear.COMBINED_NINE, element = it, nth = n)) }
+        }
+        if (gender != null && YearOfLife.nineMeetsTomb(birth.animal, gender, age)) add(Harsh(HarshYear.NINE_TOMB))
+        if (age >= 9 && trigram == (if (gender == Gender.MALE) Trigram.LI else Trigram.KHAM)) add(Harsh(HarshYear.TRIGRAM_NINE))
+        if (age >= 10 && currentSmeBa == natalSmeBa) add(Harsh(HarshYear.MEWA_NINE))
+        YearOfLife.tombYears(birth.element).forEach { (kind, sign) -> if (sign == present) add(Harsh(kind)) }
+        if (present == YearOfLife.tombYears(birth.element)[HarshYear.TOMB_OWN_GREAT] && birth.element != Element.EARTH) add(Harsh(HarshYear.BLACK_UNDERTAKER))
+        if (trigram != null && trigram == YearOfLife.tombTrigram(forces.vitality)) add(Harsh(HarshYear.TOMB_SIGN))
     }
 
     /** Where the progressed sign's animal stands among the doors and the fives; null for a man's dragon or snake, a woman's dog or pig. */
@@ -366,5 +464,10 @@ data class YearReckoning(
         if (currentSmeBa == 2) add(SmeBaObstacle.LAND)
         val (c, n) = smeBaElement(currentSmeBa) to smeBaElement(natalSmeBa)
         if (c.overcomes == n || setOf(c, n) == setOf(Element.FIRE, Element.IRON)) add(SmeBaObstacle.ROYAL_GATE)
+        if (gender != null) {
+            val (sky, earth) = if (gender == Gender.MALE) 6 to 2 else 1 to 4
+            if (currentSmeBa == sky) add(SmeBaObstacle.SKY_DOOR)
+            if (currentSmeBa == earth) add(SmeBaObstacle.EARTH_DOOR)
+        }
     }
 }

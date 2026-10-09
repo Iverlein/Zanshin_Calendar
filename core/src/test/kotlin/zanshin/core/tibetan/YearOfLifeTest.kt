@@ -122,13 +122,15 @@ class YearOfLifeTest {
         fun at(year: Int) = YearReckoning(birth, 1976, YearOfLife.yearSign(year), year, null, null).harsh.map { it.year to it.kinship }
         // The 13th year, 1988, an earth dragon: one's own animal, its element the son of fire (WB vol. 1, p. 388).
         assertEquals(listOf(HarshYear.OWN_YEAR to Kinship.SON), at(1988))
-        // The 7th, 1982, a water dog: the seventh, water the enemy of fire.
-        assertEquals(listOf(HarshYear.SEVENTH to Kinship.ENEMY), at(1982))
+        // The 7th, 1982, a water dog: the seventh, water the enemy of fire; and the great tomb of water, which slays fire.
+        assertEquals(listOf(HarshYear.SEVENTH to Kinship.ENEMY, HarshYear.TOMB_SLAYER_GREAT to null), at(1982))
         assertEquals(listOf(HarshYear.TRIAD to null), at(1980))
-        assertEquals(listOf(HarshYear.FOURTH_UP to null), at(1985))
+        // 1985, his 10th: the fourth up, and the mewa back in the middle (its nine-multiple).
+        assertEquals(listOf(HarshYear.FOURTH_UP to null, HarshYear.MEWA_NINE to null), at(1985))
         assertEquals(listOf(HarshYear.FOURTH_DOWN to null), at(1979))
-        // The year of birth is one's own animal, but the harsh own year starts at the 13th.
-        assertEquals(emptyList<Pair<HarshYear, Kinship?>>(), at(1976))
+        // The year of birth is one's own animal, but the harsh own year starts at the 13th; a fire dragon year is
+        // itself the small tomb of fire, the seventh from the fire dog.
+        assertEquals(listOf(HarshYear.TOMB_OWN_SMALL to null), at(1976))
     }
 
     @Test
@@ -143,5 +145,36 @@ class YearOfLifeTest {
         val next = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(1986), 1986, null, null)
         assertEquals(4, next.currentSmeBa)
         assertEquals(emptyList<SmeBaObstacle>(), next.smeBaObstacles)
+    }
+
+    @Test
+    fun `the tomb years, the combined nine-multiples and the tomb sign`() {
+        // WB vol. 1, p. 412: "destiny wood: the great own tomb the sheep, the small the wood ox; the slayer's great the iron sheep, small the iron ox".
+        assertEquals(
+            mapOf(
+                HarshYear.TOMB_OWN_GREAT to Sign(Element.WOOD, Animal.SHEEP), HarshYear.TOMB_OWN_SMALL to Sign(Element.WOOD, Animal.OX),
+                HarshYear.TOMB_SLAYER_GREAT to Sign(Element.IRON, Animal.SHEEP), HarshYear.TOMB_SLAYER_SMALL to Sign(Element.IRON, Animal.OX),
+            ),
+            YearOfLife.tombYears(Element.WOOD),
+        )
+        assertEquals(listOf(Animal.SHEEP, Animal.DOG, Animal.DRAGON, Animal.OX, Animal.DRAGON), Element.entries.map(YearOfLife::tomb))
+        // Each key, counted up nine, reaches its element's tomb (p. 412): from the wood mouse the dragon, the fire hare the sheep,
+        // the iron horse the dog, the water bird the ox.
+        for ((key, element) in listOf(Sign(Element.WOOD, Animal.MOUSE) to Element.EARTH, Sign(Element.FIRE, Animal.RABBIT) to Element.WOOD,
+            Sign(Element.IRON, Animal.HORSE) to Element.FIRE, Sign(Element.WATER, Animal.BIRD) to Element.IRON)) {
+            assertEquals(YearOfLife.tomb(element), YearOfLife.signOf(YearOfLife.sexagenary(key) - 8).animal, "$element")
+        }
+        assertEquals(listOf(9, 21, 33, 45, 57, 69, 81), (1..100).filter { YearOfLife.combinedNine(it) != null })
+        // p. 410: a man of a tiger or hare year meets the tomb in his 18th, a woman in her 36th.
+        assertEquals(true, YearOfLife.nineMeetsTomb(Animal.TIGER, Gender.MALE, 18))
+        assertEquals(true, YearOfLife.nineMeetsTomb(Animal.TIGER, Gender.FEMALE, 36))
+        assertEquals(true, YearOfLife.nineMeetsTomb(Animal.DRAGON, Gender.MALE, 72))
+        // The fire dragon man of chart 6.2: destiny fire, so the dog years of fire and water are his tombs; 2006 (fire dog,
+        // his 31st) the great own tomb and one of the four black undertakers.
+        val r = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(2006), 2006, Gender.MALE, null)
+        assertEquals(listOf(HarshYear.SEVENTH, HarshYear.TOMB_OWN_GREAT, HarshYear.BLACK_UNDERTAKER), r.harsh.map { it.year })
+        // His 45th, 2020 (iron mouse): the fourth combined nine-multiple, for the elements of his four aspects (earth, earth, fire, wood).
+        val c = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(2020), 2020, Gender.MALE, null)
+        assertEquals(listOf(Element.EARTH to 4, Element.FIRE to 4, Element.WOOD to 4), c.harsh.filter { it.year == HarshYear.COMBINED_NINE }.map { it.element to it.nth })
     }
 }

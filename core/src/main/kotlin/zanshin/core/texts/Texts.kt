@@ -153,7 +153,7 @@ object Sources {
         "https://library.bdrc.io/show/bdr:MW2CZ8040",
     )
     /** Vol. 1, chapter 21's signs of the years of life and chapter 24, the obstacle years (SPEC §5.9, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–411", volume = 1)
+    val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–416", volume = 1)
     /** The sectors' ranks and pebbles, the trigrams' elements (docs/sources/year-of-life.md). */
     val MOONBEAMS = Source(
         "The Moonbeams (འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར, 'Byung rtsis man ngag zla ba'i 'od zer) of Lochen Dharmaśrī (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI), " +
@@ -1206,13 +1206,24 @@ object Texts {
     fun yearPredictive(force: Force?, white: Boolean): Reading =
         yearOfLife("YearPredictive", if (force == null) (if (white) "ALL_WHITE" else "ALL_BLACK") else "${force.name}.${if (white) "WHITE" else "BLACK"}")
 
-    fun yearSector(s: Sector): Reading = yearOfLife("YearSector", s.name)
+    /** A sector; an aspect in one of the six bad sectors also reads its decline (WB vol. 1, p. 409). */
+    fun yearSector(s: Sector, force: Force? = null): Reading =
+        if (s.good || force == null) yearOfLife("YearSector", s.name)
+        else Reading(key = "reading.YearDecline.${force.name}", arg = "reading.YearSector.${s.name}", source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS))
 
     /** The progressed sign, with where its animal stands among the doors and the fives, if anywhere (p. 387). */
     fun logMen(place: LogMenPlace?): Reading = yearOfLife("LogMen", place?.name ?: "NONE")
 
     /** A harsh year; the own year and the seventh are read by the relation of the year's element to the birth year's (pp. 387–390). */
-    fun harsh(h: Harsh): Reading = yearOfLife("Harsh", h.kinship?.let { "${h.year.name}.${it.name}" } ?: h.year.name)
+    fun harsh(h: Harsh): Reading = yearOfLife(
+        "Harsh",
+        when {
+            h.kinship != null -> "${h.year.name}.${h.kinship.name}"
+            // The 6th and 7th combined nine-multiples read as the 1st and 2nd (p. 415).
+            h.element != null -> "${h.year.name}.${h.element.name}.${(h.nth!! - 1) % 5 + 1}"
+            else -> h.year.name
+        },
+    )
 
     /** A year of the nine-multiples, by gender and age (pp. 410–411). */
     fun nineMultiple(gender: Gender, age: Int): Reading = yearOfLife("NineMultiple", "${gender.name}.$age")
