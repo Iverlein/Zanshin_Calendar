@@ -210,20 +210,17 @@ the text, not about the app.
     terms, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», what
     are «ཡིད» and «ཆུ་སྲང་རོས»?~~ *Answered as far as the rule goes,
     2026-10-09 ([almanac-page.md](almanac-page.md), *The times within the
-    day*):* the step turns the sun's excess over a measure into time by a
-    day of the sun's course, which the verse names in its next lines
-    («ཚད་ལས་ལྷག་ན་ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས་མ་ལོངས་ཙམ»), so the divisor is the sun's
-    course in a day, by WB's own arithmetic 4;26,6 chu tshod; *chu* (4)
-    and *ro* (6) agree with 4;26, read as the figure is written, *srang*
-    the chu srang it is counted in. No other text gives the line (BDRC's
-    full-text search finds only WB's prints and the *Kun 'dus* reprint),
-    and the 1996 print has no numeral there. «ཡིད» is a number word for
-    14: the *Tshig mdzod chen mo* gives it as such («ཡིད་ཅན་ནམ་སེམས་ཅན་གྱི་སྲིད་པ་བཅུ་བཞི་ཡོད་པས་གྲངས་བཅུ་བཞི་མཚོན»,
-    Steinert's dictionary data, searched 2026-10-09), so the step
-    multiplies the excess's chu tshod by 14 (*bsgyur*) and divides by
-    «ཆུ་སྲང་རོ», which must then be about 1;2 chu tshod, 62 chu srang, for the
-    day's course to be 4;26 (14 × 60 / 62 gives 4;25,43, within 0.2 %
-    of WB's mean 4;26,6, a few minutes at most in a term's time). *chu
-    srang* names the divisor's unit; «རོ» is not 62 in number words, and the
-    phrase is glossed nowhere found, so the app keeps WB's mean course,
-    which the multiplier 14 bears out.
+    day*):* «ཡིད» is the number word for 14: the *Tshig mdzod chen mo*
+    gives it as such («ཡིད་ཅན་ནམ་སེམས་ཅན་གྱི་སྲིད་པ་བཅུ་བཞི་ཡོད་པས་གྲངས་བཅུ་བཞི་མཚོན», Steinert's
+    dictionary data, searched 2026-10-09). «ཆུ་ཚོད་ཡིད་བསྒྱུར» multiplies the
+    chu tshod of the sun's excess by 14; «ཆུ་སྲང་…བགོས་པ་སྟེང་བྱིན» divides
+    the chu srang and carries the quotient up into the chu tshod, as the
+    reckoner's columns are carried. The product is the time taken from
+    the date's end: a day of the sun's course is so taken as 60/14, 4;17
+    chu tshod, beside the 4;26 of WB's mean arithmetic, and the excess
+    being at most about a day's course («ཚད་ལས་ལྷག་ན་ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས་མ་ལོངས་ཙམ»),
+    the rule is WB's rough one. The app follows it (`DayTimes.MULTIPLIER`).
+    No other text gives the line (BDRC's full-text search finds only
+    WB's prints and the *Kun 'dus* reprint), and the 1996 print has no
+    numeral there; «རོས», the carry's divisor, needs no figure of its own
+    in the step.

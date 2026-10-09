@@ -99,8 +99,8 @@ proportion to the earlier figure, the moon changes mansion when the sum
 fills the mansion. Exact while the mansion holds, rough "in chu tshod and
 below" once it changes. The figure is the moon at daybreak, which is
 Henning's second figure (henning-phugpa.tsv). Entry 5 writes the second
-mansion when it comes in daytime; the app takes daytime to the place's
-sunset, or 17:00, the end of the six day hours, with no place set. A fast
+mansion when it comes in daytime; the app takes daytime by WB's own day
+length (ch. 15, below), counted from daybreak. A fast
 moon can enter two mansions in one day (1 November 2026).
 
 **The skipped yoga** (entry 8) is reckoned the same way on the yoga's sum
@@ -155,24 +155,31 @@ divided, is taken from the date's chu tshod, and the term falls when the
 rest is used up; if it cannot be taken, borrow from the weekday and count
 from the daybreak of the day before. The excess is at most about a day of
 the sun's course; *sgang* and *dbugs thob* are found the same way. The
-divisor («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས», the same in the 1996 print, read
-by eye, the Zhol etext and the BDRC etexts of the Gser thang reprint and
-of the *Kun 'dus chen mo*, searched 2026-10-09) is what turns the excess,
-a stretch of the sun's course, into time, by a day of that course ("the
-excess is at most about a day of the sun's"): the sun's course in a day.
-The app takes its mean by the same arithmetic, 13/4824 of the round a
-lunar date over 11135/11312 of a day, 4;26,6 chu tshod; the words' legible
-digits, *chu* 4 and *ro* 6, agree with 4;26, and *srang* is the chu
-srang (open question 15). Dividing instead by the sun's own course over
-each date, as the app first did, moves a term by up to three and a half
-hours, so the divisor matters. Worked by hand on Henning's 2026 figures,
-the rule gives the 1st month's *dbugs thob* at 08:20 on 19 February, the
-app 08:19 from the unrounded figures (`DayTimesTest`). The almanac writes the
+step («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», the same in the 1996
+print, read by eye, the Zhol etext and the BDRC etexts of the Gser thang
+reprint and of the *Kun 'dus chen mo*, searched 2026-10-09) multiplies
+(*bsgyur*) the excess's chu tshod by *yid*, the number word for 14 (*Tshig
+mdzod chen mo*, open question 15), the chu srang divided and carried up
+into chu tshod (*bgos pa steng byin*): the product is the chu tshod of
+time taken from the date's end. A day of the sun's course is so 60/14 =
+4;17 chu tshod of it, WB's round figure beside its arithmetic's mean of
+4;26. The app follows the words (`DayTimes.MULTIPLIER`). Worked by hand
+on Henning's 2026 figures, the rule gives the 1st month's *dbugs thob* at
+08:10 on 19 February, the app 08:09 from the unrounded figures
+(`DayTimesTest`). The almanac writes the
 term on the date it falls in, one that falls before daybreak on the
 date before (p. 177).
 
-Not built from ch. 15: the day and night lengths (the app gives the
-place's own sunrise and sunset), the seasons' signs, the year's lord by
+The day lengths ch. 15 lists at each month's *sgang* (31;10 at the 3rd,
+32;20 at the 4th, 33;30 at the 5th, the summer solstice, 30 at the 2nd
+and 8th, 26;30 at the 11th, 27;40 at the 12th, 28;50 at the 1st) follow
+p. 182's rule, 1;10 longer or shorter each sign-month («ཁྱིམ་ཟླ་རེར། །ཆུ་ཚོད་རེ་དང་ཆུ་སྲང་ཕྱོགས། །འཕེལ་འགྲིབ»):
+the app reckons the day's length so, by the true sun
+(`DayTimes.dayLength`, tested against each listed value), as the daytime
+of entries 5 and 11; the sky line keeps the place's own sunrise and
+sunset (SPEC §6).
+
+Not built from ch. 15: the seasons' signs, the year's lord by
 the sun's entry into Aries and the results of the sun in each sign
 (p. 182), the black months and the doubled months (p. 183: T2.21).
 

@@ -257,7 +257,7 @@ good and evil" are not in WB's etext and are not built.
   without). The calendar's 2026 days have the same pairs.
 - **Left.** *rgyun sreg* (p. 351) is unidentified. WB's marked case, the
   burning date that begins before nightfall on the day before (p. 177),
-  is built with T2.20 (2026-10-09), nightfall by the place.
+  is built with T2.20 (2026-10-09), nightfall by WB's day length.
 
 #### T2.13 The earth lords that move by date — built 2026-10-09 (SPEC §5.13)
 
@@ -510,17 +510,18 @@ it. It is item E below, built 2026-10-09.
   (vol. 2, p. 221), the hour's sky dog over the twelve places by the
   year's rule (p. 197), and the *sa rgyal* the other way, *pi ling 'phar
   ma*'s hour of each season-month (p. 236, the late summer's dog hour
-  from the Zhol print), as another view; and the sun's terms divided by
-  WB's daily course, 4;26,6 (open question 15 answered), which moves the
-  8th month's *sgang* of 2026 to 01:07 on 8 October. Checked in
+  from the Zhol print), as another view; and the sun's terms by WB's step
+  as written, the excess times 14 (*yid*, open question 15 answered),
+  which puts the 8th month's *sgang* of 2026 at 00:29 on 8 October. Checked in
   `DayTimesTest` and on the emulator in both languages (the tiger hour of
   9 October 2026: the earth king the other way on the hare's place, the
   garuda, the sky dog's head on the tiger's place). And the burning date
   begun in daylight (entry 11), which the dates' ends now give: shown on
-  the day before with its time and WB's hook, nightfall by the place
-  (1 October 2026, the 21st from 12:22, checked in both languages);
-  open question 15's «ཡིད» found as the number word for 14 (*Tshig mdzod
-  chen mo*). Nothing of T2.20 is left.
+  the day before with its time and WB's hook (1 October 2026, the 21st
+  from 12:22, checked in both languages). Daytime, for it and the second
+  mansion, is WB's own day length by the true sun (ch. 15's values at
+  each *sgang*, p. 182's 1;10 a sign-month), not the place's sunset.
+  Nothing of T2.20 is left.
 
 #### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
 

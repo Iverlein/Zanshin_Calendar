@@ -36,12 +36,11 @@ at most; no date burns on two weekdays). The marked case is built since
 2026-10-09 with the times within the day (ROADMAP T2.20,
 `DayTimes.burningFrom`): where the date before a weekday's burning date
 ends before nightfall, that burning date begins in daylight and is shown
-on the day with its time and the hook. Nightfall is the place's sunset,
-or 17:00 with no place set, as for the second mansion; WB's own length
-of daylight by the Sun's sign (vol. 1, ch. 8, etext p. 61 ff., OCR with
-numerals lost) is not reckoned, the app giving day and night by the
-place (SPEC §6). Shown, not weighed: the weighing knows no place. Over
-2000–2049, with 17:00, it marks 609 days; 21 September 2026, a
+on the day with its time and the hook. Nightfall is WB's own day length,
+30 chu tshod at the equinoxes and 1;10 more or less each sign-month
+(vol. 1, ch. 15, pp. 180–182; almanac-page.md), counted from daybreak,
+as for the second mansion. Shown, not weighed. Over 2000–2049 it marks
+603 days; 21 September 2026, a
 Monday the 10th whose date ends at 14:50, is WB's own example.
 
 ## The reading: WB vol. 2, p. 351 (img. 359)

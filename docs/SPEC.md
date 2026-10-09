@@ -242,8 +242,11 @@ them (ROADMAP T2.20, the owner's rule of 2026-10-09):
 - **Second mansion:** the moon's motion is the difference of the moon at
   daybreak on the day and on the next; the moon enters a mansion where
   that motion's share of the day brings it to the mansion's start. WB
-  writes a second mansion when it comes in daytime: before the place's
-  sunset, or 17:00 with no place set. A fast moon can enter two.
+  writes a second mansion when it comes in daytime, within WB's day
+  length from daybreak: 30 chu tshod at the equinoctial middle terms,
+  1;10 more or less each sign-month, 33;30 at the summer solstice and
+  26;30 at the winter (vol. 1, pp. 180–182; `dayLength`, by the true
+  sun). A fast moon can enter two.
 - **Skipped yoga:** the same on the yoga's sum (moon at daybreak with the
   true sun); a yoga that begins and ends between two daybreaks is written
   with the day's own, with both times.
@@ -257,10 +260,9 @@ them (ROADMAP T2.20, the owner's rule of 2026-10-09):
   measures WB lists in mansions and chu tshod of the true sun (the signs
   from Aries at 0;0, the 3rd month's *sgang* at 0;36 and *dbugs thob* at
   26;28, each kind stepping by 2;15). A term falls where the true sun at
-  the ends of two dates brackets its measure, the excess divided by the
-  sun's course in a day taken from the later end (p. 182); that course is
-  WB's divisor, by its own arithmetic 4;26,6 chu tshod a day (open
-  question 15). It is written on the calendar day it falls in, one
+  the ends of two dates brackets its measure, the excess's chu tshod times
+  14 (*yid*) taken in chu tshod from the later end (p. 182, open question
+  15). It is written on the calendar day it falls in, one
   before daybreak on the day before, as WB writes it in the date before.
   The day's sme ba keeps its own count (§5.11).
 
@@ -643,10 +645,10 @@ English (§8.1), each reading citing its pages:
   and life and wealth (pp. 404, 414, 426). Its tone is bad. WB's marked
   case, a burning date that begins before nightfall on the day before
   (p. 177): where the date before a weekday's burning date ends before
-  nightfall (the place's sunset, 17:00 with no place), the burning date
+  nightfall (WB's day length, §5.8), the burning date
   is a part of the special days' row on that day, with the time it
   begins and WB's hook (`DayTimes.burningFrom`, §5.8); shown and not
-  weighed, as the weighing knows no place.
+  weighed, as WB names no weight for the hook.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -1578,7 +1580,7 @@ canvas "Zanshin Calendar — basic design".
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one. On the day a sun's term falls, a last row
-  names it with its time ("Middle term of month 8 · 01:07", "Sun enters
+  names it with its time ("Middle term of month 8 · 00:29", "Sun enters
   Libra · 21:37"), its sheet the term's reading, its Tibetan name and its
   measure (§5.8).
 - **Times within the day** (§5.8): the mansion row's subtitle adds a
