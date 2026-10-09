@@ -116,7 +116,7 @@ and lists «བྱེ་བྲག་དམིགས་བསལ་སྤང་�
 
 **Tshul khrims rgyal mtshan**, abbot of Nalendra, *Bod kyi lo tho'i 'phel
 rim dang nang don ngo sprod mdor bsdus* (*Bod kyi rtsis rig kun 'dus chen
-mo*, vol. 1, pp. 498–499, etext; again in his collected works,
+mo*, vol. 1, pp. 498–499, read on the scan 2026-10-09; again in his collected works,
 MW1KG10375), restates KP's rules in prose and then glosses them:
 
 > …ཞེས་དང་། བླ་སྲོག་དབང་སྐར་ཅི་ཡང་བཟང་། །ཀེག་བདུད་གཤེད་ཀྱི་སྐར་མར་ངན། །ཞེས་པས་མཚོན་སྤྱི་ལ་གང་ལྟར་ཡང་བྱེ་བྲག་རང་ལ་དམིགས་བསལ་རྩི་དགོས་པ་རྣམས་གཙོ་བོར་གཟུང་བ་གལ་ཆེ་སྟེ། ཇི་སྐད་དུ། སྤྱིར་བཏང་བསྟན་བཅོས་ངེས་པ་ལ། །བྱེ་བྲག་སྟོབས་དང་ལྡན་པར་འགྱུར། །ཞེས་གསུངས་པས་སོ།

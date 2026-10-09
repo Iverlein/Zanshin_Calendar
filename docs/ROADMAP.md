@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | For T2.9, books only lent on archive.org |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built; what is left is the hour of KP's rule 2 and answers that rest on unseen scans: a work plan of nine items below, T2.1–T2.3, T2.5–T2.8 and T2.4's display half built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
@@ -52,7 +52,7 @@ moves up as soon as it is unblocked.
 | 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
 | 12 | M1 Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | 13 | T4 + T5 Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
-| 14 | T2.4's reading half + T2.9 | The scans lent on archive.org (the owner's account) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
+| 14 | T2.4's reading half + T2.9 — T2.9 built 2026-10-09 | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
 | 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 | 17 | T2.20 The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
@@ -169,7 +169,7 @@ weekday's, mansion's, karaṇa's and yoga's sheets give the Tibetan name in
 script (tap for Wylie and phonetics), the section is gone, and the day
 line keeps its facts.
 
-#### T2.9 Answers that rest on unseen scans — owner
+#### T2.9 Answers that rest on unseen scans — built 2026-10-09
 
 - **Gap.** Question 11 (the day's sme ba runs up from the first wood-mouse
   day after the winter solstice) rests on BS and MK, and the reading of
@@ -181,6 +181,15 @@ line keeps its facts.
 - **Work.** Borrowed with the owner's archive.org account: check the BS
   and MK passages and KD vol. 1, pp. 498–499 on the page, and record them
   as read. Question 1's remainder waits for a reader of the tradition.
+- **Built 2026-10-09.** Read on the scans lent on archive.org under the
+  owner's login (`tools/sources/archive_lend.py`): BS vol. 3, pp. 49–50,
+  and MK vol. 10, p. 306, as quoted, BS adding the hours' sme ba and that
+  the count comes from Chinese writings ([earth-lords.md](sources/earth-lords.md));
+  KD vol. 1, pp. 498–499, syllable for syllable as quoted
+  ([weighing.md](sources/weighing.md)). On the way, KD vol. 2, pp. 223–224
+  and 315, question 15's witnesses, show the figures above their number
+  words: 14 over *yid*, 6 over *dus* and *ro*, 30 over *mkha' me*. Nothing
+  in the app changes.
 
 #### WB above all: T2.10–T2.18
 
@@ -591,7 +600,7 @@ it. It is item E below, built 2026-10-09.
 2. T2.4, the display half: built 2026-10-07.
 3. T2.7 and T2.8 built 2026-10-07.
 4. T2.5 built 2026-10-07; T2.6 built 2026-10-08.
-5. The reading half of T2.4, and T2.9, as the scans allow.
+5. The reading half of T2.4; T2.9 built 2026-10-09.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
    then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);

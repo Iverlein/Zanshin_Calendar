@@ -125,8 +125,8 @@ gives a wood-mouse day a fixed sme ba; under the date count a wood-mouse
 day can have any of the nine.
 
 **Question 11 answered, 2026-10-05**, by two later rtsis texts that state
-the count, both found with BDRC's full-text search and both read from the
-OCR only (their scans are lending-only on archive.org):
+the count, both found with BDRC's full-text search, first read from the
+OCR and on 2026-10-09 on the scans lent on archive.org (below):
 
 - **BS** (Blo bzang sbyin pa, b. 1918, *Tsi na'i rtsis la 'jug pa'i yi
   ge*), the same words in two printings: «འགའ་ཞིག་ཞག་གི་སྨེ་བ་ནི། །དགུན་ཉི་ལྡོག་ནས་དང་པོའི་སྒང་། །བར་དུ་ཤིང་བྱི་ནམ་བྱུང་ཚེ། །ཉིན་དེར་སྨེ་བ་གཅིག་དཀར་ཡིན། །དང་པོའི་སྒང་ནས་གསུམ་སྒང་བར། །ཤིང་བྱིའི་ཉི་མར་བདུན་དམར་འོང་། །གསུམ་པའི་སྒང་ནས་དབྱར་ཉི་ལྡོག །བར་དེའི་ཤིང་བྱི་བཞི་ལྗང་འགྲོགས། །དེ་ནས་ཤིང་གླང་ལྔ་སེར་སོགས། །སྨེ་བ་ལུགས་འབྱུང་ཟླ་དྲུག་ལ། །ལྔ་བའི་སྒང་ནས་བདུན་སྒང་བར། །ཤིང་བྱི་བྱུང་ཉིན་དགུ་དམར་ཏེ། །བདུན་སྒང་ནས་བཟུང་དགུ་བའི་སྒང་། །བར་གྱི་ཤིང་བྱིར་གསུམ་མཐིང་སྦྱོར། །དེ་ནས་དགུན་ཉི་ལྡོག་ཉིན་བར། །ཤིང་བྱིའི་ཉིན་མོར་དྲུག་དཀར་དང་། །ཤིང་གླང་ལྔ་སེར་ཉིན་སྨེ་རྣམས། །ཟླ་དྲུག…»
@@ -160,6 +160,22 @@ solstice", names the turning point, and BS and MK say on which day of it
 the count takes hold. Each wood-mouse day takes its sme ba from the
 stretch it falls in (1, 7, 4 in the forward half; 9, 3, 6 in the
 backward), and every other day counts on from the last wood-mouse day.
+
+**On the scans (2026-10-09).** BS stands in his *Gsung 'bum*, vol. 3,
+pp. 49–50 (archive.org `bdrc-W25151-2`, leaves 56–57), as quoted, this
+printing reading «དེ་བར་ཤིང་བྱི» where the other has «བར་དུ». It goes on with
+the hours' sme ba by the same count (from the winter solstice for six
+months the mouse hour of the wood-mouse, wood-ox, earth-bird and
+earth-hare days has the one-white, and so on; from the summer solstice
+the nine-red, backward), and ends «ཞག་དུས་སྨེ་བའི་ངོས་འཛིན་འདི། །རྒྱ་ནག་ཡི་གེར་འབྱུང་ཞེས་ཟེར།»,
+"this placing of the day's and hour's sme ba is said to come from the
+Chinese writings". The doubt he raises next («འོན་ཀྱང་…བརྟག་པར་རིགས་པ་འགའ་ཞིག་སྣང་») is
+about the almanac's luck elements (*klung*), not the sme ba. MK is the
+*Rtsis rig rnam gsal 'od kyi thig le*, ch. 10, on the new Chinese
+reckoning, vol. 10, p. 306 (`bdrc-W1PD152297-9`, leaf 325), as quoted; the
+words the quotation leaves out are «ཤིང་བྱི་ནས་བརྩམས་ཉི་མ་ཡི། །ཅོང་ཐད་དབུགས་སྒང་གང་ཡིན་པ། །ཁ་བྱང་ཐད་ཀྱི་སྨེ་བ་སྟེ།»,
+"beginning from the wood-mouse day, the sme ba under the heading of
+whichever term (*dbugs*, *sgang*) stands at the day's centre".
 This is the Chinese count of day stars with one difference: the Japanese
 rule the 旧暦 page uses (SPEC §7.5) takes the 甲子 *nearest* the solstice,
 which can come before it; BS takes the first *after* it. BS gives it as

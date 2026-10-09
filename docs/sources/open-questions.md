@@ -127,7 +127,9 @@ the text, not about the app.
     collection, count it up from the first wood-mouse day after the
     winter solstice and down from the first after the summer solstice;
     that wood-mouse day is WB's "first wood-mouse day" with the
-    one-white. Neither was read on a scan (lending-only).* The question
+    one-white. Both read on the scans on 2026-10-09 (BS vol. 3, pp. 49–50;
+    MK, the *Rtsis rig rnam gsal 'od kyi thig le*, ch. 10, vol. 10, p. 306;
+    [earth-lords.md](earth-lords.md)).* The question
     as it stood: WB vol. 2, p. 192: the day's sme ba is «one-white on the day of the
     winter solstice, then one sme ba each day». Does the count run up
     (1, 2, 3 …) or down (1, 9, 8 …)? And p. 224's example, the *bla
@@ -222,7 +224,10 @@ the text, not about the app.
     [README.md](README.md)), and again in his manual for composing the
     almanac, «…མང་བའི་ཉི་དག་སྦྱངས་པའི་ལྷག །ཡིད་བསྒྱུར་ཆུ་སྲང་རོས་བགོས་པའི། །ནོར་སྟེང་བྱིན་པའི་ཚོགས་དེ་ཡིས། །གཟའ་ཚེས་ཆུ་ཚོད་ལ་ཕྲི»
     (*Lo tho rgyas 'bring bsdus gsum sdeb lugs*, vol. 2, p. 315, etext
-    p. 335). «དུས» is six in the same volume: the shortest day is «དུས་མིག་ཆུ་སྲང་མཁའ་མེ»,
+    p. 335). Read on the scans (2026-10-09, archive.org `bdrc-W28845-1`,
+    leaves 242–243 and 334), both print the figures above the number
+    words, which the etext drops: ༡༤ over «ཡིད», ༦ over «དུས» (p. 223) and over
+    «རོ» (p. 315), ༣༠ over «མཁའ་མེ» (pp. 224, 315). «དུས» is six in the same volume: the shortest day is «དུས་མིག་ཆུ་སྲང་མཁའ་མེ»,
     26;30, WB's own (vol. 2, etext p. 97). Bsod nams dpal ldan quotes WB's
     lines unchanged (vol. 2, p. 267, etext p. 287). Both of Ngag dbang
     bzang po's texts then give the term in whole chu tshod, 30 chu srang

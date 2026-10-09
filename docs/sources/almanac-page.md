@@ -162,7 +162,8 @@ reprint and of the *Kun 'dus chen mo*, searched 2026-10-09) multiplies
 mdzod chen mo*) and divides its chu srang by *ro*, six, the quotient
 going up into the chu tshod (*steng byin*): so Ngag dbang bzang po
 restates it, with *dus*, six, for *ro*, «སྦྱངས་ལྷག་ཆུ་ཚོད་ཡིད་ཀྱིས་བསྒྱུར། །ཆུ་སྲང་དུས་ཀྱིས་བགོས་ནོར་དེ། །ཆུ་ཚོད་ལ་བསྲེས»
-(KD vol. 2, p. 223; question 15). The time is given in whole chu tshod,
+(KD vol. 2, p. 223, with ༡༤ printed over *yid* and ༦ over *dus*; his
+almanac manual, p. 315, has WB's own words with ༦ over *ro*; question 15). The time is given in whole chu tshod,
 half a one counted as one («གཟའ་ཡི་ཆུ་ཚོད་ཕྱེད་ལོངས་ན། །གཅིག་སྟེར»; his «གཟའ་ཡི་ཆུ་སྲང་མཁའ་མེས་དོར»,
 p. 224). The app follows the rule so (`DayTimes.termStep`). Worked by
 hand on Henning's 2026 figures, the 1st month's *dbugs thob*: the sun
