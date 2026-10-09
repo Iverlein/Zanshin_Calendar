@@ -65,8 +65,8 @@ moves up as soon as it is unblocked.
 ### T2. The Tibetan page's gaps: work plan
 
 The page's readings are built (SPEC §5.8–5.13, the texts in
-[sources/](sources/README.md)) and all fifteen questions for
-a reader are answered (15, from T2.20, as far as the rule goes) ([open-questions.md](sources/open-questions.md)). Reviewed on
+[sources/](sources/README.md)) and fourteen of the fifteen questions for
+a reader are answered (15, from T2.20, half: «ཆུ་སྲང་རོས» is open) ([open-questions.md](sources/open-questions.md)). Reviewed on
 2026-10-06, what is left are places where the page contradicts itself,
 shows a factor it does not weigh, or rests on a thin or machine-read
 source. Numbers are over 2000–2049 (18,263 days) on the code of that day.
@@ -511,9 +511,9 @@ it. It is item E below, built 2026-10-09.
   year's rule (p. 197), and the *sa rgyal* the other way, *pi ling 'phar
   ma*'s hour of each season-month (p. 236, the late summer's dog hour
   from the Zhol print), as another view; and the sun's terms by WB's step
-  as written, the excess times 14 (*yid*), its columns carried by six
-  and sixty (*ro*, as Pema Karpo's rtsis verse counts the units; open
-  question 15 answered),
+  as far as it is read, the excess times 14 (*yid*), carried into chu
+  tshod (open question 15: whether «ཆུ་སྲང་རོས» is a divisor, perhaps 62, or
+  the carry, is open),
   which puts the 8th month's *sgang* of 2026 at 00:29 on 8 October. Checked in
   `DayTimesTest` and on the emulator in both languages (the tiger hour of
   9 October 2026: the earth king the other way on the hare's place, the
@@ -523,7 +523,7 @@ it. It is item E below, built 2026-10-09.
   from 12:22, checked in both languages). Daytime, for it and the second
   mansion, is WB's own day length by the true sun (ch. 15's values at
   each *sgang*, p. 182's 1;10 a sign-month), not the place's sunset.
-  Nothing of T2.20 is left.
+  Built in full; what is left is question 15's last words, for a reader.
 
 #### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
 

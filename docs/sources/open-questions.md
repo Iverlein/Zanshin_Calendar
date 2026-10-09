@@ -206,31 +206,24 @@ the text, not about the app.
     days against the combination, so the weighing stays as it is (SPEC
     §5.12).
 
-15. ~~WB vol. 1, p. 182 (img. 192): in the rule that dates the sun's
-    terms, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», what
-    are «ཡིད» and «ཆུ་སྲང་རོས»?~~ *Answered as far as the rule goes,
-    2026-10-09 ([almanac-page.md](almanac-page.md), *The times within the
-    day*):* «ཡིད» is the number word for 14: the *Tshig mdzod chen mo*
-    gives it as such («ཡིད་ཅན་ནམ་སེམས་ཅན་གྱི་སྲིད་པ་བཅུ་བཞི་ཡོད་པས་གྲངས་བཅུ་བཞི་མཚོན», Steinert's
-    dictionary data, searched 2026-10-09). «ཆུ་ཚོད་ཡིད་བསྒྱུར» multiplies the
-    chu tshod of the sun's excess by 14; «ཆུ་སྲང་…བགོས་པ་སྟེང་བྱིན» divides
-    the chu srang and carries the quotient up into the chu tshod, as the
-    reckoner's columns are carried. The product is the time taken from
-    the date's end: a day of the sun's course is so taken as 60/14, 4;17
-    chu tshod, beside the 4;26 of WB's mean arithmetic, and the excess
-    being at most about a day's course («ཚད་ལས་ལྷག་ན་ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས་མ་ལོངས་ཙམ»),
-    the rule is WB's rough one. The app follows it (`DayTimes.MULTIPLIER`).
-    «རོ» is the six of the reckoner's units, the *dbugs* in a chu srang, as
-    sixty (*mkha' ro*) is the chu srang in a chu tshod: Pema Karpo's rtsis
-    verse, read in full (etext pp. 27–28), turns its remainders so, «ལྷག་མ་མཁའ་རོ་རོ་རྣམས་ཀྱིས། །རིམ་བསྒྱུར་རིམ་པར་བགོས་པའི་ནོར། །དབྱུག་མིག་སྲང་མེ་མིག་དབུགས་མེ»,
-    its results in *dbyug*, *srang* and *dbugs*; and it writes one of them
-    «དབྱུག་མཁའ་སྲང་ཡིད་དབུགས་ནམ་མཁའ», 0 chu tshod, 14 (*yid*) chu srang, 0
-    dbugs, the same number word for 14 inside a reckoned value (*Gsung
-    'bum* of Pad+ma dkar po, BDRC MW10736, vol. 1, etext VE10736_001 from
-    character 684875;
-    the same verse in the *Rtsis gzhung gdan dus thun mong gi nges pa*,
-    MW3CN2232_A52E6B), so «ཆུ་སྲང་རོས་བགོས་པ་སྟེང་བྱིན» divides the lower
-    columns by their six (and sixty) and carries the quotients up into the
-    chu tshod: the product of the excess and 14, put into chu tshod, chu
-    srang and dbugs. No other text gives WB's line itself (BDRC's
-    full-text search finds only WB's prints and the *Kun 'dus* reprint).
+15. WB vol. 1, p. 182 (img. 192): in the rule that dates the sun's
+    terms, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», what is
+    «ཆུ་སྲང་རོས»? *Half answered, 2026-10-09.* «ཡིད» is the number word for
+    14: the *Tshig mdzod chen mo* gives it so, and Pema Karpo's rtsis
+    verse writes a reckoned value «དབྱུག་མཁའ་སྲང་ཡིད་དབུགས་ནམ་མཁའ», 14 chu srang
+    (*Gsung 'bum* of Pad+ma dkar po, BDRC MW10736, vol. 1, etext pp. 27–28).
+    So the chu tshod of the sun's excess are multiplied by 14. What
+    follows is open. In rtsis verse «X རོས་བགོས» is mostly a divisor written
+    in number words, lowest figure first, «རོ» its six of tens: «མཁའ་རོས་བགོས»
+    divides by 60, «མདའ་རོས» by 65 (Sa skya *bka' 'bum*, MW00EGS1017151;
+    Pema Karpo; Rang byung rdo rje, MW30541; Co ne Grags pa bshad sgrub,
+    MW1PD90129). «ཆུ་སྲང་རོས» would then be a divisor whose other figures are
+    «ཆུ» (4) and «སྲང», which is no number word found. Dividing the product
+    by 62 would give the quotient in days (*steng byin*, to the upper
+    column, as the next lines borrow from the weekday), a day's course of
+    62/14 = 4;25,43 chu tshod, all but WB's mean of 4;26; reading the
+    six as the dbugs of a chu srang, a carry, gives 60/14 = 4;17. No
+    commentary on the line is found (BDRC's full-text search gives only
+    WB's prints and the *Kun 'dus* reprint). The app multiplies by 14 and
+    carries (`DayTimes.MULTIPLIER`); the two readings put a term at most
+    about three per cent of the excess's time apart.

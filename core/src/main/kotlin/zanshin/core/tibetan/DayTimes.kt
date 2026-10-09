@@ -165,10 +165,9 @@ object DayTimes {
     /**
      * The multiplier of WB's rule for the terms (p. 182, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན»): the
      * chu tshod of the sun's excess over a measure, multiplied (*bsgyur*) by *yid*, the number word for
-     * 14 (*Tshig mdzod chen mo*), the lower columns divided by *ro*, the six dbugs of a chu srang (as
-     * Pema Karpo's rtsis verse counts the units), and sixty, carried up, are the chu tshod of time
-     * taken from the date's end. A day of the sun's course is so 60/14 = 4;17,8 chu tshod (open
-     * question 15).
+     * 14 (*Tshig mdzod chen mo*), carried into chu tshod, are the chu tshod of time
+     * taken from the date's end. Whether «ཆུ་སྲང་རོས» then divides (by 62, a day's course of 4;25,43)
+     * or only carries (60/14 = 4;17) is open (question 15).
      */
     const val MULTIPLIER: Double = 14.0
 
