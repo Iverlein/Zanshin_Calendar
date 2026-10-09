@@ -59,8 +59,10 @@ data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, 
 /**
  * An activity and the annotations that name it good or to be avoided; on the 旧暦 page both sides
  * are kept. On the Tibetan page one side is, [outweighed] holds the factors that named it the
- * other way (SPEC §5.12), and [weight] is the sum of the weights of the voices standing on its side
- * ([DaySummary.row]); it orders the summary line and decides nothing.
+ * other way (SPEC §5.12), [weight] is the sum of the weights of the voices standing on its side
+ * ([DaySummary.row]), which orders the summary line and decides nothing, and [decider] is the voice
+ * that decided its side: the combination where its element pair names the work, otherwise the
+ * strongest that does.
  */
 data class ActivityNote(
     val activity: Activity,
@@ -68,8 +70,12 @@ data class ActivityNote(
     val avoid: List<SummaryEntry>,
     val outweighed: List<SummaryEntry> = emptyList(),
     val weight: Int = 0,
+    val decider: DayFactor? = null,
 ) {
     val disputed: Boolean get() = good.isNotEmpty() && avoid.isNotEmpty()
+
+    /** How the Tibetan weighing decided the work: by the combination, or by the strongest voice naming it. */
+    val by: VerdictBy? get() = decider?.let { if (it.rank == 0) VerdictBy.COMBINATION else VerdictBy.STRONGEST }
 }
 
 /**
@@ -91,18 +97,21 @@ fun List<ActivityNote>.byVoices(good: Boolean): List<Pair<List<SummaryEntry>, Li
  * ma* of WB's notes, vol. 2, p. 493) as the *kun phan me long* ranks them. The trigram is not
  * among them and counts last.
  */
-enum class DayFactor {
-    GREAT_COMBINATION,
-    ELEMENT_PAIR,
-    RAHU,
-    WEEKDAY,
-    MANSION,
-    COMBINATION_DAY,
-    LUNAR_DATE,
-    KARANA,
-    YOGA,
-    DAY_ANIMAL,
-    TRIGRAM;
+enum class DayFactor(
+    /** Its voice's place in the weighing, 0 the strongest: the combination's two parts share one voice, as the special days do. */
+    val rank: Int,
+) {
+    GREAT_COMBINATION(0),
+    ELEMENT_PAIR(0),
+    RAHU(1),
+    WEEKDAY(2),
+    MANSION(3),
+    COMBINATION_DAY(4),
+    LUNAR_DATE(5),
+    KARANA(6),
+    YOGA(7),
+    DAY_ANIMAL(8),
+    TRIGRAM(9);
 
     val english: String get() = gloss(this)
 }
@@ -202,6 +211,12 @@ data class DaySummary(
      */
     val hoursAgainst: List<PeriodRun>
         get() = if (avoidAll.isNotEmpty()) emptyList() else verdict?.let { v -> hours?.periods?.filter { it.tone != v.tone } }.orEmpty()
+
+    /**
+     * The tone of the Tibetan day's combination of weekday and mansion, where its two parts agree
+     * and so decide the day (WB p. 333); null where they disagree.
+     */
+    val combinationTone: Tone? get() = verdict?.takeIf { it.by == VerdictBy.COMBINATION }?.tone
 
     /** The works named good, for the reader: none on a day of [avoidAll]. */
     val good: List<ActivityNote> get() = if (avoidAll.isNotEmpty()) emptyList() else activities.filter { it.good.isNotEmpty() }
@@ -305,8 +320,8 @@ data class DaySummary(
             fun entry(name: String, factor: DayFactor, tone: Tone, reading: Reading?) =
                 SummaryEntry(name, factor.english, tone, reading, latin = true)
             fun lucky(b: Boolean) = if (b) Tone.GOOD else Tone.BAD
-            fun one(rank: Int, factor: DayFactor, e: SummaryEntry, vararg readings: Reading?) =
-                Voice(rank, factor, listOf(Member(e, readings.filterNotNull())))
+            fun one(factor: DayFactor, e: SummaryEntry, vararg readings: Reading?) =
+                Voice(factor, listOf(Member(e, readings.filterNotNull())))
             val pair = day.elementPair
             val mansion = Texts.MANSION.getValue(day.mansion)
             val animal = Texts.ELECTIONAL_ANIMAL.getValue(day.lunarDayAnimal)
@@ -314,7 +329,6 @@ data class DaySummary(
 
             // The named combination and the element pair speak as one: the combination ('phrod) of weekday and mansion.
             val combination = Voice(
-                COMBINATION_RANK,
                 DayFactor.GREAT_COMBINATION,
                 listOf(
                     Member(
@@ -329,7 +343,6 @@ data class DaySummary(
             )
             // Rāhu is reckoned by direction: it names works but takes no side on the day as a whole.
             val rahu = Voice(
-                1,
                 DayFactor.RAHU,
                 listOfNotNull(Texts.RAHU[day.day], Texts.RAHU_MONTH[day.month to day.day]).map {
                     Member(entry(Catalog.text("DayFactor.RAHU"), DayFactor.RAHU, Tone.NEUTRAL, it), listOf(it))
@@ -338,7 +351,6 @@ data class DaySummary(
             // The special days speak as one, and only when they agree; the burning date stands with them,
             // as in WB's almanac (vol. 1, p. 177).
             val special = Voice(
-                4,
                 DayFactor.COMBINATION_DAY,
                 day.combinationDays.map {
                     Member(entry(it.english.replaceFirstChar(Char::uppercase), DayFactor.COMBINATION_DAY, lucky(it.lucky), Texts.COMBINATION_DAY[it]), listOfNotNull(Texts.COMBINATION_DAY[it]))
@@ -353,21 +365,20 @@ data class DaySummary(
             val voices = listOf(
                 combination,
                 rahu,
-                one(2, DayFactor.WEEKDAY, entry(day.weekday.english, DayFactor.WEEKDAY, Texts.weekdayTone(day.weekday), Texts.WEEKDAY[day.weekday]), Texts.WEEKDAY[day.weekday], Texts.ELECTIONAL_WEEKDAY.getValue(day.weekday)),
+                one(DayFactor.WEEKDAY, entry(day.weekday.english, DayFactor.WEEKDAY, Texts.weekdayTone(day.weekday), Texts.WEEKDAY[day.weekday]), Texts.WEEKDAY[day.weekday], Texts.ELECTIONAL_WEEKDAY.getValue(day.weekday)),
                 // The mansion and the nyi ma have no tone of their own: their lists name works both ways.
-                one(3, DayFactor.MANSION, entry(day.mansion.sanskrit, DayFactor.MANSION, Tone.NEUTRAL, mansion), mansion),
+                one(DayFactor.MANSION, entry(day.mansion.sanskrit, DayFactor.MANSION, Tone.NEUTRAL, mansion), mansion),
                 special,
                 one(
-                    5,
                     DayFactor.LUNAR_DATE,
                     entry(Catalog.format("ElectionalFactor.LUNAR_DATE.title", day.day.toString()), DayFactor.LUNAR_DATE, Texts.lunarDateTone(day.day), Texts.LUNAR_DATE[day.day - 1]),
                     Texts.LUNAR_DATE[day.day - 1], Texts.ELECTIONAL_DATE.getValue(day.day), Texts.HAIRCUT_LIST[day.day - 1],
                 ),
-                one(6, DayFactor.KARANA, entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), Texts.KARANA[day.karana]),
-                one(7, DayFactor.YOGA, entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), Texts.YOGA[day.yoga]),
-                one(8, DayFactor.DAY_ANIMAL, entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, Tone.NEUTRAL, animal), animal),
+                one(DayFactor.KARANA, entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), Texts.KARANA[day.karana]),
+                one(DayFactor.YOGA, entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), Texts.YOGA[day.yoga]),
+                one(DayFactor.DAY_ANIMAL, entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, Tone.NEUTRAL, animal), animal),
                 // Not among the kun phan me long's seven, so the weakest: its lists decide only what no other factor names.
-                one(9, DayFactor.TRIGRAM, entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, Tone.NEUTRAL, trigram), trigram),
+                one(DayFactor.TRIGRAM, entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, Tone.NEUTRAL, trigram), trigram),
             ).filter { it.members.isNotEmpty() }
 
             val dayDecision = weigh(voices.mapNotNull { v -> v.tone?.let { Vote(v, v.members, it) } }, combination.tone)!!
@@ -383,7 +394,12 @@ data class DaySummary(
             }.sortedWith(compareBy({ -it.second.standing.size }, { it.second.standing.first().voice.rank }))
             fun note(a: Activity, d: Decision, named: List<Vote>): ActivityNote {
                 val entries = named.flatMap { v -> v.members.map { it.entry } }
-                return ActivityNote(a, good = if (d.tone == Tone.GOOD) entries else emptyList(), avoid = if (d.tone == Tone.BAD) entries else emptyList())
+                return ActivityNote(
+                    a,
+                    good = if (d.tone == Tone.GOOD) entries else emptyList(),
+                    avoid = if (d.tone == Tone.BAD) entries else emptyList(),
+                    decider = d.standing.first().voice.factor,
+                )
             }
             return DaySummary(
                 mark = null,
@@ -413,7 +429,7 @@ data class DaySummary(
             )
         }
 
-        private const val COMBINATION_RANK = 0
+        private val COMBINATION_RANK = DayFactor.GREAT_COMBINATION.rank
 
         /** The roles the day's weekday holds for the person, by the birth year (p. 330) and the birth date (p. 338), as one entry. */
         private fun personalWeekday(day: TibetanDay, personalDay: PersonalDay?, ownDays: List<OwnDay>): List<SummaryEntry> {
@@ -432,10 +448,12 @@ data class DaySummary(
         }
 
         /**
-         * One voice in the weighing, [rank] 0 strongest: a factor, or a group that speaks as one (the
-         * two combinations; the special days; Rāhu's courses), named by its [factor].
+         * One voice in the weighing, its factor's rank 0 strongest: a factor, or a group that speaks as
+         * one (the two combinations; the special days; Rāhu's courses), named by its [factor].
          */
-        private class Voice(val rank: Int, val factor: DayFactor, val members: List<Member>) {
+        private class Voice(val factor: DayFactor, val members: List<Member>) {
+            val rank: Int get() = factor.rank
+
             /** Its tone on the day as a whole, where all its members have the same, lucky or unlucky. */
             val tone: Tone? = members.map { it.entry.tone }.distinct().singleOrNull()?.takeIf { it == Tone.GOOD || it == Tone.BAD }
 

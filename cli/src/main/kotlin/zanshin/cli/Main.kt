@@ -8,6 +8,10 @@ import zanshin.core.astro.Astro
 import zanshin.core.astro.Place
 import zanshin.core.astro.SunTimes
 import zanshin.core.kyureki.Kyureki
+import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Activity
+import zanshin.core.texts.ElectionSpan
+import zanshin.core.texts.VerdictBy
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.TibetanCalendar
 import java.time.LocalDate
@@ -22,6 +26,9 @@ private const val USAGE = """usage:
   zanshin [YYYY-MM-DD] [--lat L --lon L --tz ZONE]   one day in both calendars
   zanshin --sui YEAR                                 kyūreki months from month 11 of YEAR
   zanshin --tibetan-year YEAR                        Tibetan months of YEAR
+  zanshin --elect WORK [YYYY-MM-DD] [--months N]     the best days for a work (an Activity name,
+          [--birth YYYY-MM-DD] [--all]                 e.g. HAIRCUTS), from the date for N Tibetan months;
+                                                     --all gives every day with its deciding voice
 The place defaults to Kyoto."""
 
 fun main(args: Array<String>) {
@@ -30,6 +37,7 @@ fun main(args: Array<String>) {
         "--help" in options || "-h" in options -> println(USAGE)
         "--sui" in options -> printSui(options.valueAfter("--sui")!!.toInt())
         "--tibetan-year" in options -> printTibetanYear(options.valueAfter("--tibetan-year")!!.toInt())
+        "--elect" in options -> printElection(options)
         else -> printDay(options)
     }
 }
@@ -78,6 +86,44 @@ private fun printDay(options: List<String>) {
     println("Sky at ${place.latitude}, ${place.longitude} (${place.zone})")
     println("  sunrise ${sun.sunrise?.format(HOURS) ?: "—"} · noon ${sun.transit.format(HOURS)} " +
         "(${"%.1f".format(sun.altitudeAtTransitDeg)}°) · sunset ${sun.sunset?.format(HOURS) ?: "—"}")
+}
+
+private fun printElection(options: List<String>) {
+    val work = Activity.valueOf(options.valueAfter("--elect")!!)
+    val from = options.firstOrNull { it.matches(Regex("""\d{4}-\d{2}-\d{2}""")) && it != options.valueAfter("--birth") }
+        ?.let(LocalDate::parse) ?: LocalDate.now()
+    val span = ElectionSpan.of(from, options.valueAfter("--months")?.toInt() ?: 1, options.valueAfter("--birth")?.let(LocalDate::parse))
+    val election = span.election(work)
+    fun clock(hour: Int, count: Int) = "%02d:00–%02d:00".format((5 + 2 * hour) % 24, (5 + 2 * (hour + count)) % 24)
+    println("${work.english}, ${span.days.first().date} – ${span.days.last().date}")
+    for (m in election.months) {
+        val d = m.first
+        println()
+        println("${if (d.leapMonth) "leap " else ""}${ordinal(d.month)} month")
+        println("  days: " + m.days.joinToString(" ") { e ->
+            "${e.day.day}${when { e.avoidAll.isNotEmpty() -> "x"; e.side == Tone.GOOD -> "+"; e.side == Tone.BAD -> "-"; else -> "." }}"
+        })
+        if (m.good.isNotEmpty()) println("  hours good: " + m.good.joinToString { clock(it.first, it.count) })
+        if (m.avoid.isNotEmpty()) println("  hours to avoid: " + m.avoid.joinToString { clock(it.first, it.count) })
+    }
+    if ("--all" in options) {
+        println()
+        println("Every day")
+        for (e in election.days) {
+            val side = when (e.side) { Tone.GOOD -> "good"; Tone.BAD -> "avoid"; else -> "—" }
+            println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  ${e.day.weekday.english}  $side" +
+                (e.decider?.let { " by ${it.english}: " + e.standing.joinToString { s -> "${s.kanji} (${s.english})" } } ?: "") +
+                (if (e.avoidAll.isNotEmpty()) " · every work to avoid, for you: " + e.avoidAll.joinToString { it.kanji } else ""))
+        }
+    }
+    println()
+    println("Best first")
+    for (e in election.best) {
+        val by = if (e.by == VerdictBy.COMBINATION) "by the combination" else "by ${e.standing.first().kanji} (${e.decider!!.english})"
+        val combination = e.summary.combinationTone?.let { if (it == Tone.GOOD) "lucky" else "unlucky" } ?: "no tone"
+        println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  $by · combination $combination · weight ${e.weight}" +
+            (if (e.nectar.isNotEmpty()) " · nectar ${e.nectar.joinToString { "%02d:00".format((5 + it) % 24) }}" else ""))
+    }
 }
 
 private fun printSui(year: Int) {
