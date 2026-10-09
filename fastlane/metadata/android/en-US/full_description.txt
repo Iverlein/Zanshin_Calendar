@@ -1,4 +1,4 @@
-Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place.
+Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place. A meditation timer and a mindfulness bell come with it.
 
 <b>Tibetan calendar, Phugpa (ཕུག་པ, phug pa)</b>
 <ul>
@@ -21,6 +21,15 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Lucky and unlucky days of the lower band (暦注下段) and the selected days (選日), such as 天赦日, 一粒万倍日, 不成就日 and 三隣亡</li>
 <li>Seasonal markers (雑節), festivals, the day and year signs (干支) and the lucky direction of the year (恵方)</li>
 <li>Choose a day: the days the annotations name good for a work, in date order, with the disputed days apart</li>
+</ul>
+
+<b>Meditation</b>
+<ul>
+<li>A meditation timer: a warm-up and periods of any length in one session, as a zazen of 20, 10 and 30 minutes, the bowl at the start and end and a wood block between periods</li>
+<li>Sessions saved as presets, set again with one tap</li>
+<li>Keeps time with the screen off; the countdown and a Stop button in the notification</li>
+<li>A mindfulness bell through the day, every 15 minutes to 2 hours, at fixed or random times, within the hours and on the days you choose, quiet while the phone is silenced</li>
+<li>A large bowl, a small bowl, a bell and the wood block, sounded on the phone itself</li>
 </ul>
 
 Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours and what to avoid, with the published source it comes from.
