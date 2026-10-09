@@ -11,6 +11,7 @@ import zanshin.core.kyureki.Kyureki
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
 import zanshin.core.texts.ElectionSpan
+import zanshin.core.texts.KyurekiSpan
 import zanshin.core.texts.VerdictBy
 import zanshin.core.tibetan.Repetition
 import zanshin.core.tibetan.TibetanCalendar
@@ -28,7 +29,8 @@ private const val USAGE = """usage:
   zanshin --tibetan-year YEAR                        Tibetan months of YEAR
   zanshin --elect WORK [YYYY-MM-DD] [--months N]     the best days for a work (an Activity name,
           [--birth YYYY-MM-DD] [--all]                 e.g. HAIRCUTS), from the date for N Tibetan months;
-                                                     --all gives every day with its deciding voice
+                                                     --all gives every day with its deciding voice;
+                                                     --kyureki: the 旧暦 election, N 旧暦 months, unranked
 The place defaults to Kyoto."""
 
 fun main(args: Array<String>) {
@@ -92,6 +94,7 @@ private fun printElection(options: List<String>) {
     val work = Activity.valueOf(options.valueAfter("--elect")!!)
     val from = options.firstOrNull { it.matches(Regex("""\d{4}-\d{2}-\d{2}""")) && it != options.valueAfter("--birth") }
         ?.let(LocalDate::parse) ?: LocalDate.now()
+    if ("--kyureki" in options) return printKyurekiElection(work, from, options)
     val span = ElectionSpan.of(from, options.valueAfter("--months")?.toInt() ?: 1, options.valueAfter("--birth")?.let(LocalDate::parse))
     val election = span.election(work)
     fun clock(hour: Int, count: Int) = "%02d:00–%02d:00".format((5 + 2 * hour) % 24, (5 + 2 * (hour + count)) % 24)
@@ -124,6 +127,36 @@ private fun printElection(options: List<String>) {
         println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  $by · combination $combination · weight ${e.weight}" +
             (if (e.nectar.isNotEmpty()) " · nectar ${e.nectar.joinToString { "%02d:00".format((5 + it) % 24) }}" else ""))
     }
+}
+
+/** The 旧暦 election (ROADMAP E5): each day's annotations naming the work, the good days in date order, the disputed apart. */
+private fun printKyurekiElection(work: Activity, from: LocalDate, options: List<String>) {
+    val span = KyurekiSpan.of(from, options.valueAfter("--months")?.toInt() ?: 1, options.valueAfter("--birth")?.let(LocalDate::parse))
+    val election = span.election(work)
+    fun names(e: List<zanshin.core.texts.SummaryEntry>) = e.joinToString(" ") { it.kanji }
+    println("${work.english}, ${span.days.first().first.date} – ${span.days.last().first.date} (旧暦)")
+    for (m in election.months) {
+        val d = m.first
+        println()
+        println("${if (d.leapMonth) "leap " else ""}${ordinal(d.month)} month")
+        println("  days: " + m.days.joinToString(" ") { e ->
+            "${e.day.day}${when (e.side) { Tone.GOOD -> "+"; Tone.BAD -> "-"; Tone.MIXED -> "±"; else -> "." }}"
+        })
+    }
+    if ("--all" in options) {
+        println()
+        println("Every day")
+        for (e in election.days) {
+            println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  ${e.day.rokuyo.kanji}" +
+                (if (e.good.isNotEmpty()) "  good: ${names(e.good)}" else "") + (if (e.avoid.isNotEmpty()) "  avoid: ${names(e.avoid)}" else ""))
+        }
+    }
+    println()
+    println("Named good, in date order")
+    for (e in election.good) println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  ${names(e.good)}")
+    println()
+    println("Disputed")
+    for (e in election.disputed) println("  ${e.date}  ${ordinal(e.day.month)}/${e.day.day}  good: ${names(e.good)} · avoid: ${names(e.avoid)}")
 }
 
 private fun printSui(year: Int) {

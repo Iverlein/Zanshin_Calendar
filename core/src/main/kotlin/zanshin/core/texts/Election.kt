@@ -112,6 +112,9 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
             Activity.entries.filter { it in named }.groupBy { it.family }.toSortedMap().toMap()
         }
 
+        /** The works of [WORKS], whatever their family. */
+        val OFFERED: Set<Activity> by lazy { WORKS.values.flatten().toSet() }
+
         /** Every reading whose lists the Tibetan day's voices weigh, as [DaySummary.of] builds them. */
         internal fun tibetanLists(): List<Reading> =
             Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.RAHU.values + Texts.RAHU_MONTH.values +
