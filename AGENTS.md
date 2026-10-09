@@ -45,6 +45,44 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
   devices`), after each update, without being asked, so it always runs the
   latest build.
 
+## One worktree per session
+
+Several sessions often build at once, and a shared checkout mixes their
+work: one git index (a plain `git commit` took another block's staged
+files on 2026-10-09), one Gradle build directory, half-finished files in
+each other's builds. So every session, from its first edit:
+
+1. **Works in its own worktree**, never in the main checkout
+   (`~/Documents/Git/Zanshin_Calendar`), which stays on `main` with no
+   uncommitted changes:
+
+   ```bash
+   cd ~/Documents/Git/Zanshin_Calendar
+   W=../Zanshin_Calendar-wt/<name>          # <name>: the block or task, e.g. block-10
+   git worktree add -b work/<name> $W main
+   cp local.properties $W/                  # gitignored: the SDK path
+   mkdir -p $W/core/src/test/resources && cp -r core/src/test/resources/vectors $W/core/src/test/resources/
+   ```
+
+   The vectors are gitignored third-party tables: without the copy their
+   tests are skipped, not run. Every build, test and edit happens in `$W`.
+2. **Commits its work without asking** once it is verified (the tests, and
+   the emulator, phone and release checks below where they apply): in the
+   repository's style, separate `core:` / `app:` / `docs:` commits with
+   substantive bodies, no assistant signature.
+3. **Checks for conflicts and merges**: `git rebase main` in `$W`; a
+   conflict is resolved keeping both sides' work (another block's changes
+   are never dropped or reverted), and after any rebase that touched files
+   other blocks also changed, the tests run again in `$W`. Then, from the
+   main checkout, `git merge --ff-only work/<name>`; if it refuses, main
+   moved again: rebase and test once more.
+4. **Cleans up**: `git worktree remove $W` and `git branch -d work/<name>`
+   (Gradle's build output goes with the worktree).
+
+Pushing still waits for the owner's word. The emulator is one for all:
+sessions queue for `emulator-5554` by message, and each restores the
+snapshot's preferences and language when it is done.
+
 ## Rules that are easy to break
 
 - **No `INTERNET` permission, ever** (SPEC §2). Check the merged manifest after
@@ -96,4 +134,6 @@ The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
 - **Releases** (SPEC §12): bump `versionCode` and `versionName` in
   `app/build.gradle.kts`, add `changelogs/<versionCode>.txt`, commit, tag
   `v<versionName>`, push the tag (GitHub releases and their APKs follow by themselves, SPEC §12). The store description must not name unbuilt features.
-- Commit only when the owner asks; no assistant signature in commits.
+- Commit verified work without asking, from the session's own worktree
+  (*One worktree per session*); push only when the owner says; no
+  assistant signature in commits.
