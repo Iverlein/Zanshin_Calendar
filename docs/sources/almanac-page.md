@@ -156,11 +156,18 @@ rest is used up; if it cannot be taken, borrow from the weekday and count
 from the daybreak of the day before. The excess is at most about a day of
 the sun's course; *sgang* and *dbugs thob* are found the same way. The
 divisor («ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས», the same in the 1996 print, read
-by eye, and the Zhol etext) is not identified as a number: open question
-15. The app divides by the sun's own course over that date, which is
-what the step does, and worked by hand on Henning's 2026 figures it
-gives the 1st month's *dbugs thob* at 08:31 on 19 February, the app 08:29
-from the unrounded figures (`DayTimesTest`). The almanac writes the
+by eye, the Zhol etext and the BDRC etexts of the Gser thang reprint and
+of the *Kun 'dus chen mo*, searched 2026-10-09) is what turns the excess,
+a stretch of the sun's course, into time, by a day of that course ("the
+excess is at most about a day of the sun's"): the sun's course in a day.
+The app takes its mean by the same arithmetic, 13/4824 of the round a
+lunar date over 11135/11312 of a day, 4;26,6 chu tshod; the words' legible
+digits, *chu* 4 and *ro* 6, agree with 4;26, and *srang* is the chu
+srang (open question 15). Dividing instead by the sun's own course over
+each date, as the app first did, moves a term by up to three and a half
+hours, so the divisor matters. Worked by hand on Henning's 2026 figures,
+the rule gives the 1st month's *dbugs thob* at 08:20 on 19 February, the
+app 08:19 from the unrounded figures (`DayTimesTest`). The almanac writes the
 term on the date it falls in, one that falls before daybreak on the
 date before (p. 177).
 

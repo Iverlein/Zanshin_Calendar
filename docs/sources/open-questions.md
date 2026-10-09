@@ -206,11 +206,16 @@ the text, not about the app.
     days against the combination, so the weighing stays as it is (SPEC
     §5.12).
 
-15. WB vol. 1, p. 182 (img. 192): in the rule that dates the sun's
+15. ~~WB vol. 1, p. 182 (img. 192): in the rule that dates the sun's
     terms, «གང་མང་བའི། །ཆུ་ཚོད་ཡིད་བསྒྱུར་ཆུ་སྲང་རོས། །བགོས་པ་སྟེང་བྱིན», what
-    are «ཡིད» and «ཆུ་སྲང་རོས»? The step turns the sun's excess over a
-    term's measure into time before the date's end, so the divisor should
-    be the sun's course in a day (about 4 chu tshod 26 chu srang); neither
-    word carries the number dots, and the 1996 print has no interlinear
-    numeral there. The app uses the sun's own course over the date
-    ([almanac-page.md](almanac-page.md), *The times within the day*).
+    are «ཡིད» and «ཆུ་སྲང་རོས»?~~ *Answered as far as the rule goes,
+    2026-10-09 ([almanac-page.md](almanac-page.md), *The times within the
+    day*):* the step turns the sun's excess over a measure into time by a
+    day of the sun's course, which the verse names in its next lines
+    («ཚད་ལས་ལྷག་ན་ཉི་མ་ཡི། །ཞག་གཅིག་རྟག་ལོངས་མ་ལོངས་ཙམ»), so the divisor is the sun's
+    course in a day, by WB's own arithmetic 4;26,6 chu tshod; *chu* (4)
+    and *ro* (6) agree with 4;26, read as the figure is written, *srang*
+    the chu srang it is counted in. No other text gives the line (BDRC's
+    full-text search finds only WB's prints and the *Kun 'dus* reprint),
+    and the 1996 print has no numeral there; «ཡིད་བསྒྱུར», the turning of the
+    chu tshod into chu srang, is not glossed anywhere found.

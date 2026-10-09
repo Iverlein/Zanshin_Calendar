@@ -65,8 +65,8 @@ moves up as soon as it is unblocked.
 ### T2. The Tibetan page's gaps: work plan
 
 The page's readings are built (SPEC §5.8–5.13, the texts in
-[sources/](sources/README.md)) and fourteen of the fifteen questions for
-a reader are answered (15, from T2.20, is open) ([open-questions.md](sources/open-questions.md)). Reviewed on
+[sources/](sources/README.md)) and all fifteen questions for
+a reader are answered (15, from T2.20, as far as the rule goes) ([open-questions.md](sources/open-questions.md)). Reviewed on
 2026-10-06, what is left are places where the page contradicts itself,
 shows a factor it does not weigh, or rests on a thin or machine-read
 source. Numbers are over 2000–2049 (18,263 days) on the code of that day.
@@ -497,7 +497,7 @@ it. It is item E below, built 2026-10-09.
   srang on all 2,245 days; the mansion changes, skipped yogas and over 400
   Viṣṭi spans worked by WB's rules on Henning's printed figures; a *dbugs
   thob* worked by hand); on the emulator in English and Russian, 7, 9, 14
-  and 27 October 2026 (the 8th month's *sgang* at 01:44, Uttaraphalgunī
+  and 27 October 2026 (the 8th month's *sgang* then at 01:44, Uttaraphalgunī
   from 16:30, Viṣṭi 08:33–21:16, the skipped Vajra 09:01–04:06) and the
   hours panel (the black hare hour of a mouse date, the earth lords, the
   Viṣṭi arc). Then the hour's *bla mkhyen* on its triad's *klung rta* and
@@ -507,9 +507,18 @@ it. It is item E below, built 2026-10-09.
   *klung rta*'s element is the year's luck of §5.9) and on the emulator in
   both languages (the hare hour: the snake's upper south, the horse's
   lower south; the ox hour: the pig's upper north, the dragon's
-  south-east). **Left:** WB's divisor in the rule for the sun's terms (open
-  question 15); the hour's *gnam khyi*; the burning date
-  begun in daylight (entry 11) still uncounted.
+  south-east). Last, the hour's hidden earth lord on its animal's place
+  (vol. 2, p. 221), the hour's sky dog over the twelve places by the
+  year's rule (p. 197), and the *sa rgyal* the other way, *pi ling 'phar
+  ma*'s hour of each season-month (p. 236, the late summer's dog hour
+  from the Zhol print), as another view; and the sun's terms divided by
+  WB's daily course, 4;26,6 (open question 15 answered), which moves the
+  8th month's *sgang* of 2026 to 01:07 on 8 October. Checked in
+  `DayTimesTest` and on the emulator in both languages (the tiger hour of
+  9 October 2026: the earth king the other way on the hare's place, the
+  garuda, the sky dog's head on the tiger's place). **Left:** the burning
+  date begun in daylight (entry 11), which is T2.21's with the day's
+  length, uncounted.
 
 #### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
 

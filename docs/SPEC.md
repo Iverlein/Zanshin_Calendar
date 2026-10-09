@@ -257,10 +257,10 @@ them (ROADMAP T2.20, the owner's rule of 2026-10-09):
   measures WB lists in mansions and chu tshod of the true sun (the signs
   from Aries at 0;0, the 3rd month's *sgang* at 0;36 and *dbugs thob* at
   26;28, each kind stepping by 2;15). A term falls where the true sun at
-  the ends of two dates brackets its measure, as much before the later
-  end as the sun took to cover the excess (p. 182); the sun's course over
-  that date stands for WB's divisor, whose number words are not read
-  (open question 15). It is written on the calendar day it falls in, one
+  the ends of two dates brackets its measure, the excess divided by the
+  sun's course in a day taken from the later end (p. 182); that course is
+  WB's divisor, by its own arithmetic 4;26,6 chu tshod a day (open
+  question 15). It is written on the calendar day it falls in, one
   before daybreak on the day before, as WB writes it in the date before.
   The day's sme ba keeps its own count (§5.11).
 
@@ -943,7 +943,18 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   counts them up and down), spectacles, corpse rites and forts avoided
   (`EarthLordCourses.hourBlaMkhyen`, `hourSaRgyal`). Each names its place
   by the animal and WB's direction for it (vol. 1, p. 254: tiger upper
-  east … ox north-east). On the hours panel (§10.3), not weighed.
+  east … ox north-east). The *sa rgyal* the other way WB gives, *pi ling
+  'phar ma*'s course, one hour and place in each season-month of the
+  Chinese reckoning (the snake hour on the upper south in the first of
+  spring … the dragon hour on the bird's place in the last of winter), as
+  another view, in its hour only (`hourSaRgyalOther`). The hidden earth
+  lords (*gab pa'i sa bdag*, p. 221), one to each animal, on the place of
+  the hour's own animal (*gnyan khra* the mouse's … *phyug po* the pig's),
+  a corpse not led their way. The black sky dog (p. 197, for year, month,
+  day and hour by the new Chinese reckoning): its head on the hour's
+  animal, its tail on the seventh, its twelve parts counted on round the
+  places, each with what it forbids and what it does to a bride
+  (`gnamKhyiPart`). On the hours panel (§10.3), not weighed.
 - **Not built**: the hour against the day's animal sign (KP's rule 2).
 
 ### 5.14 The election: the best day for a work
@@ -1563,7 +1574,7 @@ canvas "Zanshin Calendar — basic design".
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one. On the day a sun's term falls, a last row
-  names it with its time ("Middle term of month 8 · 01:44", "Sun enters
+  names it with its time ("Middle term of month 8 · 01:07", "Sun enters
   Libra · 21:37"), its sheet the term's reading, its Tibetan name and its
   measure (§5.8).
 - **Times within the day** (§5.8): the mansion row's subtitle adds a
@@ -1639,7 +1650,9 @@ canvas "Zanshin Calendar — basic design".
   avoid while the sign rises, §5.13) where the chapter names any, a
   nectar period if one falls in it, Viṣṭi while its span lasts, the
   black hour on its hours, the earth lords of the hour on the hour's
-  animal's place, the hour's *bla mkhyen* and *sa rgyal* on theirs (§5.13), and with a birth date vitality and body; each
+  animal's place, the hour's *bla mkhyen* and *sa rgyal* on theirs, the
+  *sa rgyal* the other way in its hour, the hidden earth lord and the sky
+  dog (§5.13), and with a birth date vitality and body; each
   opens its reading as the day's rows do. The ring keeps the period's
   verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
 - **Sme ba in its colour:** the lunar day's number carries the square of the

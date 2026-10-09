@@ -365,12 +365,38 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   (in the hare hour the horse). The text names no remedy; it says
   empowerment, the generation and completion stages and a great gathering
   of offerings are done. **Built** (`EarthLordCourses.hourSaRgyal`,
-  `Texts.HOUR_SA_RGYAL`, on the hours panel); the other way is not, as
-  the app builds the first of WB's courses (§5.13). The 1996 edition's
-  notes 5–15 on the line were not found in its notes.
+  `Texts.HOUR_SA_RGYAL`, on the hours panel). The other way, read on the
+  scan with the Zhol print (WBZ img. 957, where the late summer's hour
+  reads «ཁྱི», the dog, which the 1996 scan does not settle): «དཔྱིད་ར་སྦྲུལ་དུས་ལྷོ་སྟོད་དུ། །འབྲིང་པོ་རྟ་དུས་སྤྲེའུའི་ཐོག །ཐ་ཆུང་ལུག་དུས་ཕག་གི་སྟེང་། །དབྱར་ར་སྤྲེལ་དུས་སྦྲུལ་ཐོག་ཏུ། །འབྲིང་པོ་བྱ་དུས་ཕག་གི་སྟེང་། །ཐ་ཆུང་ཁྱི་དུས་བྱང་གི་སྟོད། །སྟོན་ར་ཕག་དུས་འབྲུག་ཐོག་ཏུ། །འབྲིང་པོ་བྱི་དུས་ལྷོ་ནུབ་ཕྱོགས། །ཐ་ཆུང་གླང་དུས་ཁྱི་ཡི་སྟེང་། །དགུན་ར་སྟག་དུས་ཤར་སྨད་དུ། །འབྲིང་པོ་ཡོས་དུས་ལྷོ་སྨད་ཕྱོགས། །ཐ་ཆུང་འབྲུག་དུས་བྱ་ཐོག་ཏུ། །རང་རང་རྒྱུ་ཆོས་ཉིན་མོ་འཆོག །རྒྱུ་ཆོས་པི་ལིང་འཕར་མ་ཡིན།»
+  one hour a month from the snake, each with a place, the directions
+  being the places of p. 254's animals; **built as another view**
+  (`EarthLordCourses.SA_RGYAL_OTHER`, `Texts.HOUR_SA_RGYAL_OTHER`), shown
+  in its hour only. The 1996 edition's notes 5–15 on the line were not
+  found in its notes.
 - **The black hours** (p. 236): «དུས་ཚོད་ནག་པོའི་རྩིས་ལ་ཡང་། །གོང་དང་སྦྱར་ཏེ་ཤེས་པར་བྱ། །དེ་ཡང་བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་དུས་ཚོད་ནག …ཁག་ཆེན་བྱ་བ་ཐམས་ཅད་ངན། །དྲག་ལས་དུས་དང་སྤྲད་ན་ཐེབས། །བཅོས་ཐབས་སྤར་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས།»
   As the black days, the date's animal against the hour's: on a mouse or
   horse day the bird and hare hours. **Built** (`EarthLordCourses.blackHour`,
-  `Texts.BLACK_HOUR`, on the hours panel). The hour's *gnam khyi* "as told
-  for the year" and the hidden one "as for the month", in the next line,
-  are not built.
+  `Texts.BLACK_HOUR`, on the hours panel). The next line, «དུས་ཚོད་གནམ་ཁྱི་ལོར་བཤད་དང་། །གབ་པ་ཟླ་བའི་དུས་བཞིན་བརྟག»,
+  sends the hour's sky dog to the year's rule and the hidden one to the
+  month's:
+- **The hour's hidden earth lord** (p. 221, img. 229, both readers): «གབ་པའི་ས་བདག་བཅུ་གཉིས་བཤད། །བྱི་བའི་ལོ་ཟླ་ཞག་དུས་ལ། །བྱི་བའི་སྟེང་ན་ས་བདག་ནི། །གཉན་ཁྲ་གནས་ཤིང་དེ་བཞིན་དུ། །གླང་གི་ལོ་ཟླ་ཞག་དུས་ལ། །གླང་ཐོག་གཉན་ལྗང་གནས་པ་ཡིན། །སྟག་ལ་བྱ་ཁྱུང་ག་རུ་གནས། …ཕྱུག་པོ་ཞེས་བྱ་ཕག་ལ་གནས། །འདི་དག་གཉན་པས་རོ་འདྲེན་སྤང་། །ཉམས་ན་སྤྱི་ལྟར་བཅོས་པར་བྱ།»
+  In the year, month, day and hour of each animal its hidden lord sits on
+  its place: *gnyan khra*, *gnyan ljang*, *bya khyung* (the garuda), *rus
+  sbal ser po*, *ba dan ser po*, *tsang kun*, *byi lam*, *be sna lag
+  chen*, *gzig mjug*, *he thon*, *byi dur*, *phyug po*; they are fierce,
+  a corpse is not led their way. The day's witnesses (p. 225) are their
+  day course under partly other names. **Built** (`HIDDEN_LORDS`,
+  `Texts.HOUR_HIDDEN`).
+- **The hour's sky dog** (p. 197, img. 205, both readers): «ཡང་ནི་གནམ་ཁྱི་ནག་པོ་འདིར། །རྒྱ་རྩིས་གསར་རྙིང་རྣམ་པ་གཉིས། །རྙིང་མ་ཟླ་བ་ཟླ་བར་དཔེར་མཚོན་ན། །གང་ཤར་མཇུག་བདུན་ཟུར་ཁ་རུ་མགོ་བོ་ཡང་། །གསར་མ་དེ་ལས་ལྡོག་པ་སྟེ། །ལོ་ཟླ་ཞག་དུས་བཞི་ག་ཡི། །རང་ཐོག་མགོ་ལ་བདུན་ཟུར་མཇུག །རིམ་པར་ཆོས་སྐོར་མགོ་དང་ཁ། །གྲེ་བ་ནམ་འཛོང་གཉིས་སྟོད་སྨད། །སྤྲོ་སྟོད་དེ་ནས་ལྟོ་བ་མཚན། …སྤང་ཁུང་མཇུག་མ་འཕོངས་སྒང་སྨད། །ཤུལ་པ་སོག་པའམ་སྒང་སྟོད་དང་། །གཉའ་མཇིང་རིམ་པར་གནས་པར་འདོད།»
+  By the new Chinese reckoning, for year, month, day and hour alike, the
+  head lies on the time's own animal and the tail on the seventh, the
+  parts in order, numbered 1–12 by the print's interlinear numerals; the
+  old reckoning reverses head and tail. Then each part's works and what
+  it does to a bride (the head: no corpse, fort or army, a bride's
+  husband dies; … the neck: forts, stupas, houses and weaving bad, a bride
+  bad for both families), and the remedies (a thread-cross of the sky
+  dog, the *gtsug tor*, a pig-and-crow figure, a black yak tail, letters
+  on the bride's fingers). **Built** for the hour (`gnamKhyiPart`,
+  `Texts.HOUR_GNAM_KHYI`), the parts counted on from the head as the
+  hours run; the year's own sky dog, which needs a bride's year (p. 196,
+  the trigram *khen*), is not the hour's.
