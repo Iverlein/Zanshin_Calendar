@@ -686,7 +686,7 @@ texts do not place them against the date, karaṇa and yoga.
 On 2000–2049 (18,263 days) the rule decides the tone by the combination on
 9,672 days (53 %) and by the strongest factor on the rest. The days whose
 lists run against their tone (more than twice as many works on the other
-side) are 2,080 (11 %; 2,082 before Rāhu's course among the earth lords,
+side) are 2,067 (11 %; 2,082 before Rāhu's course among the earth lords,
 T2.13, put its lists in his tier; 2,085 before the burning date, T2.12;
 2,140 before the White Beryl's chapter 34 was built,
 T2.6, which changes no day's tone; 2,087 before the mansions' verses,
@@ -736,10 +736,11 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   the dates of each season-month on which Rāhu seeks food, two in the first
   month of spring (the 11th and 28th) down to none in the last of winter
   (`RahuBySeason`); works great and small for the living and the dead are
-  avoided, hurling *zor* and fierce work auspicious. A third reading in the
-  Rāhu row, weighed in his tier like the course by month; it moves two days
-  of 2000–2049 into the count of days whose lists run against their tone
-  (§5.12).
+  avoided, above all work with earth and with mud (the Zhol print's
+  «ཁྱད་པར་ས་ལས་འདམ་ལས་ངན», which the 1996 edition misprints), hurling *zor* and
+  fierce work auspicious. A third reading in the Rāhu row, weighed in his
+  tier like the course by month; it takes the count of days whose lists run
+  against their tone from 2,082 to 2,067 (§5.12).
 - **The earth lords that move by date** (WB vol. 2, pp. 226–235,
   [sources/earth-lord-courses.md](sources/earth-lord-courses.md)), which
   WB's almanac writes on the day (vol. 1, pp. 173, 178): after the great

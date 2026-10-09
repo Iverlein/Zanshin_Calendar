@@ -101,10 +101,14 @@ is the *pi ling 'phar ma*") belong to the earth lords of the hour (T2.20).
 Father the ogre *bdud nyi*, mother the ogress *'jig nyi*, son the minister
 *tshang kun*. By the day's animal in each season, with direction; an hour
 for each month from spring («བྱ་ཉལ་ནམ་ཕྱེད་ཐོ་རེངས་དང་། །སྨྱུར་སྨད་ཉི་རྩེར་རྡེལ་འགོ་དྲོས། །ས་སྲོས་རྩེ་ཤར་སྔ་དྲོ་དང་། །ཉི་ཕྱེད་མཚན་ཕྱེད་སྲོད་ལ་རྒྱུ། །མར་བཞིའི་དུས་དེར་ལྡོག་པར་བྱེད།»,
-read on the scan: bird-sleep, midnight, dawn, late afternoon, the sun on the
-peaks, «རྡེལ་འགོ་དྲོས», dusk, sunrise, morning, noon, midnight, evening; not
-built: «རྡེལ་འགོ་དྲོས» and the "four below" at which it turns back are not
-identified, and a time cannot be named without them); in spring on mouse,
+read on the scan, with the Zhol print (WBZ etext, p. 946), which has
+«ཉི་རྩེའི་རྡོལ་འགོ» where the 1996 edition prints «ཉི་རྩེར་རྡེལ་འགོ»: when the birds
+go to roost, midnight, dawn, late afternoon, the first breaking of the sun
+on the peaks, the warmth of the morning (དྲོས), nightfall, sunrise, morning,
+noon, midnight, evening, twelve times for the twelve months; it turns back
+at «དུས་ཚོད་མར་གྱི་བཞི་གཤེད», the four-slayer counted downward, the count by
+which the black days give the bird and the hare to the mouse and horse
+months (p. 235). In the reading); in spring on mouse,
 horse, bird and hare days it sits in the middle and nothing is done. Each
 season's avoidances (spring: building, *sa tstsha*, maṇḍalas, blocking
 holes, roofing, seeking a grave; summer: earth and water work, ponds,
@@ -208,7 +212,9 @@ given for it; yet avoid all but fierce work" — that verdict is the list.
 
 > རཱ་ཧུ(༢༧)དཔྱིད་རའི་བཅུ་གཅིག་དང་། །ཉེར་བརྒྱད་འབྲིང་པོའི་ཚེས་གཉིས་ལ། །ཐ་ཆུང་བཅོ་བརྒྱད་དབྱར་ར་ཡི། །བཅུ་དྲུག་ཉེར་གཉིས་འབྲིང་པོ་ཡི། །གཅིག་དང་བཅུ་གསུམ་ཐ་ཆུང་གི །ཚེས་གཉིས་སྟོན་རའི་ཉེར་བརྒྱད་ལ། །འབྲིང་པོའི་བཅུ་དྲུག་ཐ་ཆུང་གི །ཚེས་གཅིག་དགུན་རའི་ཚེས་གཉིས་ལ། །འབྲིང་པོའི་བཅོ་བརྒྱད་ཐ་ཆུང་གི །ཚེས་ལ་ཟས་ཁ་འཚོལ་བ་མེད། །གསོན་གཤིན་བྱ་བ་ཆེ་ཆུང་འཛེམ། …ཟོར་འཕེན་དྲག་པོའི་ལས་ལ་ཤིས།
 
-The last month of winter has no date. One phrase of the results, «ཁྱད་པ་རས་ལས་འདམས་ལས་ངན», is not settled and not built. **Built** as
+The last month of winter has no date. The 1996 edition's «ཁྱད་པ་རས་ལས་འདམས་ལས་ངན» is
+«ཁྱད་པར་ས་ལས་འདམ་ལས་ངན» in the Zhol print (WBZ etext): above all, work with earth
+and with mud is bad; built into the avoid list. **Built** as
 `RahuBySeason` with `Texts.RAHU_SEASON`, a third reading in the Rāhu row,
 weighed in Rāhu's tier like his course by month ([rahu.md](rahu.md)).
 
@@ -232,9 +238,14 @@ on a turning to avoid. **Built** (`SDE_BRGYAD`).
 pa'i lugs*): for each month the dates of success (*grub*, when the earth
 lords' remedies help), of vanishing (*yal*, when they turn back on oneself),
 of not giving out wealth, and the direction of the *yas lam*. Read on the
-scan; **built** (`SPUG_STON`) but for the last month of summer's success and
-vanishing dates («གསུམ་དྲུག་ཉར་ཡལ», which do not read; its no-wealth 28th is
-built) and the *yas lam* and *yas thags*, which are not identified.
+scan; **built** (`SPUG_STON`). The last month of summer reads «གསུམ་དྲུག་ཉར་ཡལ»
+in the 1996 edition and «གསུམ་དྲུག་ཉེར་ཡལ» in the Zhol print (WBZ img. 954,
+read on the scan): taken as the autumn lines are written, success,
+vanishing and wealth in turn without the words, the 3rd, the 26th
+(«དྲུག་ཉེར», inverted for the metre) and the 28th. Not built: the *yas lam*
+of each month and the *yas thags* laid toward it, which are not identified
+in any dictionary or text consulted, and a direction cannot be named
+without them.
 
 ### 30. The *gnyan*'s moving times, and their strikes and turnings (pp. 233–234)
 
@@ -263,8 +274,11 @@ results again on p. 364. **Built** (`KLU`).
 
 > ཁྱད་པར་ཕྱེ་བའི་ཐེབས་དུས་ནི། །ཀླུ་ནི་ར་བཞིའི་བདུན་གསུམ་གྱི། །ཉི་ཤར་ཟེར་རྒྱུ་ཐ་ཆུང་བཞིའི། །ཉེར་དགུའི་སྲོད་ལ་བདུད་རྒྱུའོ(༣༢)། །འབྲིང་བཞིའི་དྲུག་གསུམ་ཉི་ཤར་ཟེར། །བཙན་རྒྱུ(༣༣)ར་བཞིའི་བརྒྱད་གསུམ་གྱི། །སྐྱ་རེངས་ཤར་དུས་རྒྱལ་པོ་རྒྱུ། །འབྲིང་བཞིའི་དགུ་གསུམ་ཉིན་ནམ་ཕྱེད། །གནོད་སྦྱིན་རྒྱུ(༣༥)ལ་ར་བ་བཞིའི། །ཉེར་གཉིས་སྲོད་ལ་ལམ་མོ(༣༦)རྒྱུ། །ཐ་ཆུང་བཅུ་གསུམ་ཉི་སྨྱུར་ཁར། །གཤིན་རྗེ་རྒྱུ(༣༧)ལ་གཟའ(༣༨)སྲིན་པོ(༣༩)། །དུས་ཆེན་བིདྡྷིའི་ཚེས་ལ་རྒྱུ། །དེ་དུས་རང་རང་མཐུན་ལས་ཤིས།
 
-**Built** (`CLASS_TIMES`) but for the planets and *srin po*, "on the dates
-of the great festival *biddhi*", which the text does not date: not built.
+**Built** (`CLASS_TIMES`), the planets and *srin po* too: «བིདྡྷི» is Viṣṭi,
+whose place it takes in WB's table of the karaṇas (vol. 2, p. 343, etext:
+«…ཁྱིམ་སྐྱེས་ཚོང་པ་བིདྡྷི་གདབ་པ…»), so their dates are the eight on which Viṣṭi
+falls, the 4th, 8th, 11th, 15th, 18th, 22nd, 25th and 29th (vol. 1, p. 177,
+[almanac-page.md](almanac-page.md), entry 9).
 Then the key to all strikes and turnings: work done as it approaches
 («འགྱུ་གདོང») flourishes, ahead of it declines, after it has passed neither
 helps nor harms; in the reading.

@@ -284,19 +284,21 @@ good and evil" are not in WB's etext and are not built.
   today" after the great black day, shown and not weighed: WB's order of
   strength (p. 376) does not rank the earth lords, and no weight is
   invented. The exception is section 27, a course of Rāhu: `RahuBySeason`,
-  a third reading in the Rāhu row, weighed in Rāhu's tier (two days of
-  2000–2049 change in `DaySummaryTest`'s count).
+  a third reading in the Rāhu row, weighed in Rāhu's tier (15 days of
+  2000–2049 change in `DaySummaryTest`'s count, 2,082 to 2,067).
 - **Other views.** The second and third courses WB reports after its own
   (*ki kang*'s, *gnam khyi*'s, *phung po zor thogs*'s by season, *gza'
   bdun*'s reversed, *dbul po*'s and *nag chung*'s variants), what "some say"
   of the eight classes' and the nāgas' strikes, and Spug ston's view of the
   earth lords (dates of success, vanishing and keeping wealth) are built too,
   each marked as another view.
-- **Left,** for want of a reading: Spug ston's last-summer success and
-  vanishing dates (they do not read) and his direction for each month
-  (*yas lam*, not identified); *zin phung*'s twelve hours (one time name,
-  «རྡེལ་འགོ་དྲོས», not identified); the planets' and *srin po*'s times on the
-  festival *biddhi*, which WB does not date. The sky doors' remedies (pp. 368–369) are summarised in
+- **Read again 2026-10-09:** the Zhol print settles *zin phung*'s twelve
+  hours («ཉི་རྩེའི་རྡོལ་འགོ», where the 1996 edition has རྡེལ) and Spug ston's last
+  summer («གསུམ་དྲུག་ཉེར་ཡལ»: the 3rd, 26th and 28th), and «བིདྡྷི» is Viṣṭi (WB's
+  karaṇa table, p. 343), so the planets' and *srin po*'s times are Viṣṭi's
+  eight dates; all three built.
+- **Left,** for want of a reading: the direction Spug ston gives each month
+  (*yas lam*), not identified. The sky doors' remedies (pp. 368–369) are summarised in
   each door's reading; *zin phung*'s spring days in the middle are their own
   event ("in the middle"). The black days
   (p. 235) go with the black months (T2.21); the earth lords of the hour
