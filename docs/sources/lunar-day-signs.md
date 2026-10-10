@@ -12,7 +12,8 @@ how it is treated (`Texts.TRIGRAM`). For the date's sme ba and animal,
 neither WB nor KP gives a reading of their own: their readings are of the
 person's progressed trigram and sme ba, of a sme ba counted from the
 solstice; the date's animal is the *nyi ma* (open question 9, answered
-2026-10-04), whose readings are KP's activity lists and, for funerals,
+2026-10-04), whose readings are WB's results of the twelve day animals
+([day-animals.md](day-animals.md)) with KP's activity lists and, for funerals,
 WB's earth lords of each animal day (below); KP ranks it last of the seven
 factors of a day.
 

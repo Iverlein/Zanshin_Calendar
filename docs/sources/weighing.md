@@ -158,9 +158,9 @@ manual's scans are open but were not looked up).
   readings (these, and the black hour of p. 236) name them the other
   way. The earth lords of the hour are not among them: they sit on
   places, and what they forbid is forbidden their way.
-- Not built: WB's own results of the twelve day animals (pp. 356–359),
-  which the app's day animal does not use (its lists are KP's); ROADMAP
-  T2.24.
+- WB's own results of the twelve day animals (pp. 356–359) are read in
+  [day-animals.md](day-animals.md) and joined first to the day animal's
+  lists (ROADMAP T2.24, built 2026-10-10).
 
 ## *Dmigs bsal* and *phyogs sdebs*
 

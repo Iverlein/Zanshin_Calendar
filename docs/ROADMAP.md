@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis* (built: the eclipses; the rest left out by the owner's rule)), WB's day animals (T2.24), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis* (built: the eclipses; the rest left out by the owner's rule)), WB's day animals (T2.24, built 2026-10-10), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
@@ -60,7 +60,7 @@ moves up as soon as it is unblocked.
 | 19 | T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
 | 20 | T2.23 The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
 | 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
-| 22 | T2.24 The day animals by WB | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
+| 22 | T2.24 The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 
 ## Tibetan page
 
@@ -703,7 +703,7 @@ it. It is item E below, built 2026-10-09.
   day of the crooked motion), which the sky contradicts as read (open
   question 18). Checked on the emulator in English and Russian.
 
-#### T2.24 The day animals by WB — M reading, then S
+#### T2.24 The day animals by WB — built 2026-10-10 (SPEC §5.10)
 
 - **Gap.** The day animal (the *nyi ma*, the lunar date's animal) weighs
   by KP's lists only (SPEC §5.10). WB gives the twelve day animals'
@@ -718,6 +718,31 @@ it. It is item E below, built 2026-10-09.
   voice; measure the change on 2000–2049 as T2.5 did.
 - **Done when.** `DaySummaryTest` keeps a day each list decides; SPEC
   §5.10; both languages.
+- **Built** ([day-animals.md](sources/day-animals.md); `DayAnimalVerses`).
+  Read on the 1996 scans (img. 364–367) with Yigdzin-1 and MITRA and the
+  etext as third witness, every list word and every disagreement by eye:
+  Yigdzin-1 dropped the dragon's line beside its woodcut, MITRA the whole
+  monkey verse; the pig's «དགའ་སྟོན», celebrations, read at 5×. Each verse
+  names works to avoid and good, lawsuits by direction, then the earth
+  lord's seat and remedy, which are ch. 31's twelve seats (already built)
+  and are not built again; five of the six opposed pairs join both
+  animals' avoid lists, the bird's and hare's «གཏད་སྟོན» is left in doubt
+  with some twenty words of the verses. The verse's lists join the day
+  animal's first; WB above all, so the activity lists lose each entry
+  that names a work the other way from the verse (a hare day's marriage,
+  a pig day's suppressing the *sri*; a joined entry goes whole, the
+  dragon's and dog's "hunting and theft"). 32 new wordings, in both
+  languages. Measured on 2000–2049: tones unchanged, the days' works from
+  1,650,091 to 1,681,946 (31,983 added, 128 gone, 518 changing side), the
+  day animal deciding 49,784 instead of 17,797, days against their tone
+  2,067 to 2,018. `DaySummaryTest` keeps 4 October 2026 (seeking friends,
+  by the horse's verse alone), 3 October (felling trees avoided on a snake
+  day), 7 October (feasts on a dog day, by the lists alone) and 6 December
+  2026 (suppressing the *sri*, good by the pig's verse against the lists);
+  the October election's wedding order, the hare's and horse's hours and
+  1 November's counts moved with it. The day animal's sheet now says its
+  lists are the day's in general, not only for the dead. Checked on the
+  emulator in English and Russian; store shot 1 retaken (its count).
 
 #### Order
 
@@ -729,7 +754,7 @@ it. It is item E below, built 2026-10-09.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
    then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);
-   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found 2026-10-10); T2.23 built 2026-10-10.
+   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
 #### Not planned

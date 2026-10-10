@@ -460,6 +460,19 @@ Edward Henning, *Horary and electional astrology of the five components*
   consecration good and none whose verse avoids it, while the verses'
   temples and images go their own way. *Bcud len* in the weekday verses
   is taking elixirs, an act of its own.
+- **The White Beryl's twelve day animals** (vol. 2, pp. 356–359,
+  [sources/day-animals.md](sources/day-animals.md), the lists read on the
+  scans): what each *nyi ma*'s verse names good and to avoid, with the
+  avoidances of the six opposed pairs after them (tiger and monkey
+  councils and gatherings, dog and dragon war and raids, pig and snake
+  wood and digging, mouse and horse horse racing and slaughter, ox and
+  sheep building a throne and raising silk flags), as wording keys in the
+  verse's order (`DayAnimalVerses.kt`). Left out as with the mansion
+  verses: words the reading leaves in doubt (the bird's and hare's pair
+  among them), what a verse calls middling or only acceptable; a work
+  qualified by a direction is shown and weighs for neither side. The
+  earth lord's seat and remedy that close each verse are chapter 31's
+  (§5.11) and are not built twice.
 - **The print's other boxes**, read on its scans in the same way
   ([sources/kp-activities.md](sources/kp-activities.md)): 50 more
   lists, from naming and new clothes to building, sowing, trade, medicine,
@@ -529,6 +542,15 @@ bad, and cites the White Beryl and the print beside Henning; where they
 disagree (Rohiṇī is good for marriage in Henning's list, to avoid in its
 verse and the print) both stay, as elsewhere in the app, and the mansion
 says nothing on that work. The day in brief (§10.3) weighs the factors as §5.12 says.
+The day animal's reading joins its White Beryl verse's lists first, then
+the activity lists without each entry that names any of its works the
+other way from the verse, since the White Beryl counts above the print
+and Henning: so a hare day no longer favours marriage, nor a pig day
+avoid suppressing the *sri*, and an entry joining two works goes whole
+(the dragon's and dog's "hunting and theft", where the verse avoids
+raids). Where the verse itself names a work both ways under two words
+(the hare's works for the dead and its funerals) the day animal says
+nothing on it.
 
 ### 5.11 The White Beryl's readings: lunar date, weekday, yoga, karaṇa, trigram
 
@@ -587,7 +609,8 @@ English (§8.1), each reading citing its pages:
   White Beryl or the *kun phan me long*: the readings found are of the
   person's progressed trigram and sme ba (T4) or of a sme ba counted from
   the solstice, so its row opens none. The date's animal is the *nyi ma*
-  (open question 9): it carries the activity lists of §5.10 and, in WB's
+  (open question 9): it carries WB's results of the twelve day animals
+  with the activity lists (§5.10) and, in WB's
   chapter 31 (vol. 2, pp. 223–226, [earth-lords.md](sources/earth-lords.md),
   with the *kun phan me long*'s chart, img. 103, as second witness), the
   earth lords of each animal day for the reckoning of the dead: where the
@@ -1134,7 +1157,7 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   they stand on places, and what they forbid is forbidden their way. The
   hour outweighs the *nyi ma* only, the weakest of the seven; the day's
   weighing and its lists do not change. On 5 January 2026 (a horse day)
-  consultations, good by the day animal alone, are to be avoided in the
+  consultations and seeking friends, good by the day animal alone, are to be avoided in the
   rough times and the black hours; on 29 November 2026 fierce rites, which
   it avoids, are good in the ox and tiger hours (`ChineseHoursTest`).
   On the hours panel (§10.3).
