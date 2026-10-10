@@ -273,7 +273,7 @@
     <string name="brief_by_hour">По часам</string>
     <string name="brief_hours_good">Период сочетания: его используют</string>
     <string name="brief_hours_bad">Период сочетания: его избегают</string>
-    <string name="brief_hours_note">В свой час период сочетания — знак, восходящий в это время, — перевешивает все факторы дня: дело планеты, созвездия, караны и йоги совершается в его доме. Что его чтение называет благоприятным или велит избегать, пока длится час, стоит выше списков дня. Периоды нектара показаны, но не взвешены. Нажмите на время, чтобы открыть его час.</string>
+    <string name="brief_hours_note">В свой час период сочетания — знак, восходящий в это время, — перевешивает все факторы дня: дело планеты, созвездия, караны и йоги совершается в его доме. Что его чтение называет благоприятным или велит избегать, пока длится час, стоит выше списков дня. Собственные чтения часа перевешивают лишь животное дня (ཉི་མ, nyi ma), слабейший из его факторов; часы называют дела, которые они меняют. Периоды нектара показаны, но не взвешены. Нажмите на время, чтобы открыть его час.</string>
     <string name="brief_note">Ни одно опубликованное правило не ставит один род пометок выше другого, поэтому роды не взвешиваются; где они расходятся, показаны обе стороны. Лишь собственные правила нижней полосы откладывают некоторые пометки.</string>
     <string name="brief_set_aside">Не учитываются</string>
     <string name="brief_set_aside_alone">стоит в нижней полосе один; эти сегодня не учитываются</string>
@@ -585,6 +585,17 @@
     <string name="hours_hidden_subtitle">%1$s, %2$s</string>
     <string name="hours_gnam_khyi_title">Небесный пёс часа</string>
     <string name="hours_gnam_khyi_subtitle">голова на месте животного: %1$s, хвост — %2$s</string>
+    <string name="hours_works_hour_title">Для чего этот час</string>
+    <string name="hours_works_hour_subtitle">часы китайского счёта</string>
+    <string name="hours_rough_title">Суровое время</string>
+    <string name="hours_rough_subtitle">%1$s, %2$s</string>
+    <string name="hours_own_year_title">Час вашего года</string>
+    <string name="hours_own_year_subtitle">животное года рождения: %1$s</string>
+    <string name="hours_over_day_title">Против животного дня</string>
+    <string name="hours_over_day_good">Благоприятно в этот час</string>
+    <string name="hours_over_day_bad">Избегать в этот час</string>
+    <string name="hours_over_day_sign_name">животное дня</string>
+    <string name="hours_over_day_sign">%1$s: %2$s</string>
     <string name="tib_burning_from_subtitle">%1$s-е число наступает днём, в %2$s</string>
     <string name="detail_burning_hook">В альманахе</string>
     <string name="burning_hook">пишется с крючком (ཞབས་ཀྱུ, zhabs kyu) — знаком того, что дата сожжения наступила днём</string>

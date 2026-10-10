@@ -64,6 +64,9 @@ import zanshin.core.texts.Catalog
 import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.ChineseHours
+import zanshin.core.astro.Place
+import zanshin.core.texts.DaySummary
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.risingSign
@@ -85,8 +88,10 @@ import kotlin.math.sin
  * nectar periods. With a birth date, two outer rings are coloured by the
  * pebbles of the hour's vitality and body against the birth year's; an arc
  * inside the rings marks Viṣṭi's span ([visti], SPEC §5.8). Tapping
- * an hour shows its rows, which open their readings through [onOpen]. It opens
- * at [initial], a two-hour period from 05:00, or else at the present hour.
+ * an hour shows its rows, which open their readings through [onOpen]: among them the
+ * hour's own readings (SPEC §5.13), with the rough times at [place] and the works they
+ * turn against [summary]'s day animal. It opens at [initial], a two-hour period from
+ * 05:00, or else at the present hour.
  */
 /**
  * The present hour of the Tibetan day on [date] at [zone]: the two-hour period from 05:00 it falls
@@ -117,6 +122,8 @@ fun HoursSheet(
     birth: Sign?,
     signs: DaySigns,
     zone: ZoneId,
+    summary: DaySummary,
+    place: Place? = null,
     visti: DayTimes.Span? = null,
     initial: Int? = null,
     onOpen: (Annotation) -> Unit,
@@ -126,6 +133,7 @@ fun HoursSheet(
     val hours = remember(signs.date) { Forces.hours(signs.date) }
     val periods = remember(day.month) { (0 until 12).map { risingSign(day.month, it) } }
     val nectar = remember(day.weekday) { nectarHours(day.weekday) }
+    val rough = remember(date, place) { place?.let { ChineseHours.roughTimes(date, it) }.orEmpty() }
     val (current, nowMinute) = rememberCurrentHour(date, zone)
     var selected by remember(date) { mutableIntStateOf(initial ?: current ?: 0) }
 
@@ -330,7 +338,8 @@ fun HoursSheet(
                 }
                 // The earth lords of the hour on the hour's own place, and a black hour (WB vol. 2, pp. 235–236).
                 val hourAnimal = hours[selected].sign.animal
-                if (EarthLordCourses.blackHour(day.lunarDayAnimal, hourAnimal)) {
+                val black = EarthLordCourses.blackHour(day.lunarDayAnimal, hourAnimal)
+                if (black) {
                     AnnotationRow(
                         Annotation(
                             stringResource(R.string.hours_black_title),
@@ -339,6 +348,80 @@ fun HoursSheet(
                             Texts.BLACK_HOUR,
                             titleIsKanji = false,
                             details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_black_title), "dus tshod nag")),
+                        ),
+                        onOpen,
+                    )
+                }
+                // The hour's own readings (WB vol. 2, p. 359): what it is for, a rough time in it, one's own year's hour.
+                val worksTitle = stringResource(R.string.hours_works_hour_title)
+                AnnotationRow(
+                    Annotation(
+                        worksTitle,
+                        stringResource(R.string.hours_works_hour_subtitle),
+                        Tone.GOOD,
+                        Texts.HOUR_WORKS.getValue(hourAnimal),
+                        titleIsKanji = false,
+                        details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_works_hour_subtitle), "rgya rtsis dus tshod bcu gnyis")),
+                    ),
+                    onOpen,
+                )
+                val roughHere = rough.filter { ChineseHours.hourOf(date, it.at) == selected }
+                for (m in roughHere) {
+                    AnnotationRow(
+                        Annotation(
+                            stringResource(R.string.hours_rough_title),
+                            labels.string(R.string.hours_rough_subtitle, gloss(m.kind), m.at.format(labels.clock)),
+                            Tone.BAD,
+                            Texts.ROUGH_TIME,
+                            titleIsKanji = false,
+                            details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(gloss(m.kind), m.kind.wylie)),
+                        ),
+                        onOpen,
+                    )
+                }
+                val ownYear = birth != null && ChineseHours.ownYearHour(birth.animal, hourAnimal)
+                if (ownYear) {
+                    val ownTitle = stringResource(R.string.hours_own_year_title)
+                    AnnotationRow(
+                        Annotation(
+                            ownTitle,
+                            stringResource(R.string.hours_own_year_subtitle, gloss(birth!!.animal)),
+                            Tone.BAD,
+                            Texts.OWN_YEAR_HOUR,
+                            titleIsKanji = false,
+                            details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(ownTitle, "rang nyid lo yi dus")),
+                        ),
+                        onOpen,
+                    )
+                }
+                // KP's rule 2: the hour's own readings above the day's animal sign; the earth lords on their places stay out.
+                val hourReadings = listOfNotNull(
+                    Texts.HOUR_WORKS.getValue(hourAnimal),
+                    Texts.BLACK_HOUR.takeIf { black },
+                    Texts.ROUGH_TIME.takeIf { roughHere.isNotEmpty() },
+                    Texts.OWN_YEAR_HOUR.takeIf { ownYear },
+                )
+                val turned = summary.overruledInHour(hourReadings)
+                if (turned.isNotEmpty()) {
+                    val good = turned.filter { it.second == Tone.GOOD }.map { it.first.activity.english }
+                    val bad = turned.filter { it.second == Tone.BAD }.map { it.first.activity.english }
+                    val goodLabel = stringResource(R.string.hours_over_day_good)
+                    val badLabel = stringResource(R.string.hours_over_day_bad)
+                    AnnotationRow(
+                        Annotation(
+                            stringResource(R.string.hours_over_day_title),
+                            listOfNotNull(
+                                good.takeIf { it.isNotEmpty() }?.let { "$goodLabel: ${it.joinToString()}" },
+                                bad.takeIf { it.isNotEmpty() }?.let { "$badLabel: ${it.joinToString()}" },
+                            ).joinToString(" · "),
+                            if (bad.isEmpty()) Tone.GOOD else if (good.isEmpty()) Tone.BAD else Tone.NEUTRAL,
+                            Texts.HOUR_OVER_DAY,
+                            titleIsKanji = false,
+                            details = listOfNotNull(
+                                good.takeIf { it.isNotEmpty() }?.let { goodLabel to it.joinToString() },
+                                bad.takeIf { it.isNotEmpty() }?.let { badLabel to it.joinToString() },
+                                stringResource(R.string.row_tibetan) to labels.string(R.string.hours_over_day_sign, Ewts.named(stringResource(R.string.hours_over_day_sign_name), "nyi ma"), gloss(day.lunarDayAnimal)),
+                            ),
                         ),
                         onOpen,
                     )

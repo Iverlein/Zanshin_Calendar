@@ -57,6 +57,7 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.texts.toneOf
 import zanshin.core.texts.sharedTone
+import zanshin.core.astro.Place
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
@@ -97,6 +98,8 @@ fun TibetanPage(
     zone: ZoneId,
     modifier: Modifier = Modifier,
     person: Person? = null,
+    /** The place whose sun gives the hours' rough times; none when no place is set. */
+    place: Place? = null,
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -807,7 +810,7 @@ fun TibetanPage(
             onElect = onElect,
         ) { summaryOpen = false }
     }
-    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
+    if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, summary, place, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
     if (yearOpen && person != null) YearSheet(person, day, zone, onOpen = { sheet = it }) { yearOpen = false }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
 }
