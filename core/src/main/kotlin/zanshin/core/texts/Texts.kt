@@ -194,6 +194,11 @@ object Sources {
      * table (pp. 150–153), the hundred feet on ch. 12's wheel (p. 97), and the almanac's day entries (pp. 173, 177–178).
      */
     val WHITE_BERYL_LETTERS = whiteBeryl("pp. 16–19, 97, 150–153, 173 and 177–178", volume = 1)
+    /**
+     * The eclipses of chapter 9: whether Rāhu seizes the moon or the sun (pp. 59 and 65) by the karaṇa reckoning
+     * of chapter 4 (pp. 31–32), and the virtue multiplied (p. 62) (docs/sources/month-entries.md).
+     */
+    val WHITE_BERYL_ECLIPSES = whiteBeryl("chapter 4, pp. 31–32, and chapter 9, pp. 59, 62 and 65", volume = 1)
     /** The *Kun 'dus chen mo*'s restatement of WB's comet count, which reckons the years from the rab byung's start (docs/sources/month-entries.md). */
     val KUN_DUS_COMET = Source(
         "The Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 2, p. 145, " +
@@ -1084,6 +1089,8 @@ object Texts {
     val SVARODAYA_LETTERS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.SvarodayaLetters")
     val TWELVE_LINKS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.TwelveLinks")
     val HUNDRED_FEET = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet")
+    val LUNAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.MOON")
+    val SOLAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.SUN")
 
     /**
      * The earth lords of the hour (WB vol. 2, p. 235): *g.yu mdzod sngon mo*, the god of the hours, and

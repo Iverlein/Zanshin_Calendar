@@ -84,6 +84,9 @@ object Phugpa {
         return meanDate + moonEqu / 60 - sunEqu / 60
     }
 
+    /** The mean date (7.4) at the end of lunar day [d]: the *gza' bar pa*, in days on the JD scale from daybreak. */
+    fun meanDate(n: Long, d: Int): Rational = M1 * n + M2 * d.toLong() + M0
+
     /** Mean longitude of the sun at the end of lunar day [d], in revolutions, from (7.6)–(7.8): the *nyi ma bar pa*. */
     fun meanSun(n: Long, d: Int): Rational = (S1 * n + S2 * d.toLong() + S0).frac()
 
