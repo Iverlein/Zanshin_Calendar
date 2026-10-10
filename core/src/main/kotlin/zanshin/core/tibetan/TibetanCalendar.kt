@@ -55,7 +55,10 @@ enum class SeasonReckoning(private val firstMonth: Int) {
 }
 
 /** Month names, Phugpa system, Janson Table 4. */
-data class MonthNames(val number: Int, val wylie: String, val sanskrit: String, val animal: Animal) {
+data class MonthNames(val number: Int, val wylie: String, val iast: String, val animal: Animal) {
+    /** The Sanskrit name in the current language: the IAST [iast] in English, a transcription in Russian (SPEC §8.1). */
+    val sanskrit: String get() = Catalog.text("MonthNames.$number.sanskrit")
+
     /** The season by the Kālacakra reckoning, e.g. "early spring" for the 1st month. */
     val season: String get() = SeasonReckoning.KALACAKRA.name(number)
 

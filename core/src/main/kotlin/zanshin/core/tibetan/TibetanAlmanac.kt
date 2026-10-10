@@ -31,7 +31,7 @@ val Weekday.element: IndianElement
     }
 
 /** The 27 lunar mansions (rgyu skar), numbered from 0 as in Janson (10.3). */
-enum class Mansion(val wylie: String, val sanskrit: String, val element: IndianElement) {
+enum class Mansion(val wylie: String, val iast: String, val element: IndianElement) {
     ASHVINI("tha skar", "Aśvinī", IndianElement.WIND),
     BHARANI("bra nye", "Bharaṇī", IndianElement.FIRE),
     KRITTIKA("smin drug", "Kṛttikā", IndianElement.FIRE),
@@ -61,6 +61,9 @@ enum class Mansion(val wylie: String, val sanskrit: String, val element: IndianE
     REVATI("nam gru", "Revatī", IndianElement.WATER);
 
     val english: String get() = gloss(this)
+
+    /** The Sanskrit name in the current language: the IAST [iast] in English, a transcription in Russian (SPEC §8.1). */
+    val sanskrit: String get() = gloss(this, "sanskrit")
 }
 
 /**
@@ -69,7 +72,7 @@ enum class Mansion(val wylie: String, val sanskrit: String, val element: IndianE
  * (vol. 2, pp. 347–349 of the 1996 edition), which differs for most of them
  * (docs/sources/yogas.md).
  */
-enum class Yoga(val wylie: String, val sanskrit: String, val whiteBeryl: String) {
+enum class Yoga(val wylie: String, val iast: String, val whiteBeryl: String) {
     VISHKAMBHA("rnam sel", "Viṣkambha", "sel ba"),
     PRITI("mdza' bo", "Prīti", "mdza' bo"),
     AYUSHMAN("tshe dang ldan pa", "Āyuṣmān", "tshe ldan"),
@@ -99,6 +102,9 @@ enum class Yoga(val wylie: String, val sanskrit: String, val whiteBeryl: String)
     VAIDHRITI("'khon 'dzin", "Vaidhṛti", "sha 'khon");
 
     val english: String get() = gloss(this)
+
+    /** The Sanskrit name in the current language: the IAST [iast] in English, a transcription in Russian (SPEC §8.1). */
+    val sanskrit: String get() = gloss(this, "sanskrit")
 }
 
 /**
@@ -108,7 +114,7 @@ enum class Yoga(val wylie: String, val sanskrit: String, val whiteBeryl: String)
  * Beryl gives it (vol. 2, pp. 349–351), where it differs from the almanacs'
  * for Bālava, Kaulava, Vaṇija and Catuṣpada; Viṣṭi is spelled as it prints it.
  */
-enum class Karana(val wylie: String, val sanskrit: String, val whiteBeryl: String) {
+enum class Karana(val wylie: String, val iast: String, val whiteBeryl: String) {
     VAVA("gdab pa", "Vava", "gdab pa"),
     BALAVA("byis pa", "Bālava", "byis pa can"),
     KAULAVA("rigs can", "Kaulava", "dge ba"),
@@ -123,6 +129,8 @@ enum class Karana(val wylie: String, val sanskrit: String, val whiteBeryl: Strin
 
     val english: String get() = gloss(this)
 
+    /** The Sanskrit name in the current language: the IAST [iast] in English, a transcription in Russian (SPEC §8.1). */
+    val sanskrit: String get() = gloss(this, "sanskrit")
 
     companion object {
         fun ofHalfDay(h: Int): Karana = when (h) {
@@ -331,7 +339,7 @@ enum class Trigram(val wylie: String, val chinese: String, val goddess: String) 
  * ba on the 1st, 6th, 11th …, then bzang po, rgyal ba, stong pa and rdzogs pa.
  * The first three are virtuous, the last two not.
  */
-enum class LunarDayClass(val wylie: String, val sanskrit: String, val virtuous: Boolean) {
+enum class LunarDayClass(val wylie: String, val iast: String, val virtuous: Boolean) {
     NANDA("dga' ba", "Nandā", true),
     BHADRA("bzang po", "Bhadrā", true),
     JAYA("rgyal ba", "Jayā", true),
@@ -339,6 +347,9 @@ enum class LunarDayClass(val wylie: String, val sanskrit: String, val virtuous: 
     PURNA("rdzogs pa", "Pūrṇā", false);
 
     val english: String get() = gloss(this)
+
+    /** The Sanskrit name in the current language: the IAST [iast] in English, a transcription in Russian (SPEC §8.1). */
+    val sanskrit: String get() = gloss(this, "sanskrit")
 
     companion object {
         fun of(date: Int): LunarDayClass = entries[(date - 1) % 5]
