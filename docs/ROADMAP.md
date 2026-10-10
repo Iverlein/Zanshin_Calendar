@@ -53,7 +53,7 @@ moves up as soon as it is unblocked.
 | 12 | M1 Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | 13 | T4 + T5 Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | 14 | T2.4's reading half + T2.9 — built 2026-10-10 (T2.9 2026-10-09) | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
-| 15 | L3 Russian read-through | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| 15 | L3 Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 | 17 | T2.20 The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
 | 18 | T2.21 The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
@@ -1290,6 +1290,22 @@ the language switch in the menu (SPEC §8.2, §10.5).
 
 - Done when the owner has read the app in Russian on the phone and the
   fixes that brings are in.
+- **The project's read-through, built 2026-10-10** (the owner asked for
+  it ahead of their own): every string of `values-ru/strings.xml` and
+  `texts_ru.properties` read against the English, and every row and sheet
+  of both pages, the hours, the year of life, the menu's screens and the
+  date picker walked in Russian on the emulator. Fixed: the Sanskrit names
+  of the months, mansions, yogas, karaṇas and lunar-date classes showed in
+  IAST on Russian screens (SPEC §8.1 wants a Russian transcription): they
+  now come from the catalog (`.sanskrit`, SPEC §8.2), Бхадрапада,
+  Уттарапхалгуни, Чатушпада, Шукла; one Russian word per term (лунное
+  созвездие on the Tibetan side, владыки земли, Вишти, «семь красных»,
+  мытьё головы); the plural "так что 1 дела … стоит избегать"; "Ваше
+  «жизненная сила»" in the year's pebbles; accusatives after a nominative
+  in the black hour's list; infinitives in noun lists; capitals after
+  semicolons; «то же стихия»; Всходы пинеллии for 半夏生; the 旧暦 election note's «Пометка, называющая всё, хорошим…». In both
+  languages "setting up a sel" named Wylie alone: now "a clearing rite
+  (སེལ, sel)". What is left is the owner's own read on the phone.
 
 ### L4. Hosted Weblate
 

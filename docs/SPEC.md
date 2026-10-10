@@ -1521,7 +1521,10 @@ The text itself is in a catalog per language, `core/src/main/resources/texts/`:
 `texts_<language>.properties` (`_ru`, `_zh_Hant`), UTF-8, read by `Catalog.kt`.
 Keys: `<Enum>.<NAME>` for the English name of a term (`Choku.TATSU`), with
 `.<field>` for a second one (`Weekday.SUNDAY.planet`, `Element.FIRE.inText`
-for running text); `reading.<Enum>.<NAME>` for a reading's summary;
+for running text, `Mansion.ASHVINI.sanskrit` and `MonthNames.8.sanskrit`
+for the Sanskrit name of a month, mansion, yoga, karaṇa or lunar-date
+class: its IAST in English, its Russian transcription in Russian, §8.1;
+the engines keep the IAST as `iast`); `reading.<Enum>.<NAME>` for a reading's summary;
 `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
 `reading.Haircut`). A translation may be partial, since Weblate commits
@@ -1539,7 +1542,12 @@ project from the English summaries and checked against the cited sources.
 The terms of the elemental divination follow the Russian edition of Berzin's
 *Details of Tibetan Astrology* on Study Buddhism: жизненная сила, тело,
 могущество, конь ветра for the four aspects, мать, ребёнок, друг, враг and
-совпадение for the relations, камни for the pebbles. A translated reading
+совпадение for the relations, камни for the pebbles. One Russian word
+stands for one term throughout (the read-through of 2026-10-10): лунное
+созвездие for a Tibetan mansion and лунная стоянка only for the 旧暦's
+宿, владыки земли for *sa bdag*, мева for *sme ba* with its numbers
+named as in the year of life («семь красных»), Вишти for the karaṇa,
+мытьё головы for washing the hair. A translated reading
 keeps its source and licence; its licence label says it is a translation
 (MPL-2.0 for the app's own summaries, CC BY-SA 4.0 with attribution for
 wording adapted from Japanese Wikipedia).
