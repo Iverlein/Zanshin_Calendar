@@ -410,4 +410,29 @@ object DayLetters {
 
     /** The sun's mansion on [day]: the almanac's true sun at the end of the day's date. */
     fun sunMansion(day: TibetanDay): Mansion = Mansion.entries[(day.sun.toDouble() * 27).toInt().coerceIn(0, 26)]
+
+    /** The eight bodies whose fangs ch. 12 reckons (p. 97), each by its weekday's planet, Rāhu without one. */
+    enum class Body(val weekday: Weekday?) {
+        MOON(Weekday.MONDAY), SUN(Weekday.SUNDAY), MARS(Weekday.TUESDAY), MERCURY(Weekday.WEDNESDAY),
+        JUPITER(Weekday.THURSDAY), VENUS(Weekday.FRIDAY), SATURN(Weekday.SATURDAY), RAHU(null),
+    }
+
+    /**
+     * The mansion of each body on [day], over which the almanac writes its fangs (p. 178): the moon at
+     * daybreak, the sun at the date's end, the five planets' apparent places and Rāhu's head on the
+     * day's date by the true reckoning ([Planets]).
+     */
+    fun bodies(day: TibetanDay): List<Pair<Body, Mansion>> {
+        val planets = Planets.places(day.jd)
+        return listOf(
+            Body.MOON to day.mansion,
+            Body.SUN to sunMansion(day),
+            Body.MARS to Mansion.entries[planets.getValue(Planet.MARS)],
+            Body.MERCURY to Mansion.entries[planets.getValue(Planet.MERCURY)],
+            Body.JUPITER to Mansion.entries[planets.getValue(Planet.JUPITER)],
+            Body.VENUS to Mansion.entries[planets.getValue(Planet.VENUS)],
+            Body.SATURN to Mansion.entries[planets.getValue(Planet.SATURN)],
+            Body.RAHU to Mansion.entries[Planets.rahu(day.monthCount, day.day)],
+        )
+    }
 }

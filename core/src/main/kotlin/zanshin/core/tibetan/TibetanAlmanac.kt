@@ -539,7 +539,7 @@ fun nectarHours(weekday: Weekday): List<Int> {
 
 /** The twelve signs (*khyim*), Aries first, as the White Beryl and the *kun phan me long* name them. */
 enum class ZodiacSign(val wylie: String) {
-    ARIES("lug"), TAURUS("glang"), GEMINI("'khrig pa"), CANCER("karka Ta"), LEO("seng ge"), VIRGO("bu mo"),
+    ARIES("lug"), TAURUS("glang"), GEMINI("'khrig pa"), CANCER("kar+ka Ta"), LEO("seng ge"), VIRGO("bu mo"),
     LIBRA("srang"), SCORPIO("sdig pa"), SAGITTARIUS("gzhu"), CAPRICORN("chu srin"), AQUARIUS("bum pa"), PISCES("nya");
 
     val english: String get() = gloss(this)

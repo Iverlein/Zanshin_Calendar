@@ -182,5 +182,14 @@ class DayLettersTest {
         assertEquals("MAGHA", name(a.faceOn))
         // The sun's mansion is the almanac's true sun: on 18 February 2026, the 1st of the 1st month, Henning prints 21;54,15, mansion 21, Śravaṇa.
         assertEquals(Mansion.SHRAVANA, DayLetters.sunMansion(TibetanCalendar.of(LocalDate.of(2026, 2, 18), Phugpa.A2_HENNING)))
+        // All eight on 10 October 2026: the moon in Uttaraphalgunī, the sun in Hasta, the planets as Henning's software places them.
+        val bodies = DayLetters.bodies(TibetanCalendar.of(LocalDate.of(2026, 10, 10))).toMap()
+        assertEquals(Mansion.PUSHYA, bodies[DayLetters.Body.MARS])
+        assertEquals(Mansion.MAGHA, bodies[DayLetters.Body.JUPITER])
+        assertEquals(Mansion.UTTARABHADRAPADA, bodies[DayLetters.Body.SATURN])
+        assertEquals(8, bodies.size)
+        // Every sign names its script, Cancer in WB's «ཀརྐ་ཊ» too.
+        for (sign in ZodiacSign.entries) assertTrue(Ewts.toTibetan(sign.wylie) != null, "$sign")
+        assertEquals("ཀརྐ་ཊ", Ewts.toTibetan(ZodiacSign.CANCER.wylie))
     }
 }
