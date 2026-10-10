@@ -239,3 +239,16 @@ the text, not about the app.
     and KD's reprint), the Zhol blocks (the same words, no interlinear
     numeral; WBZ img. 210, line 5), and Henning's yearly Phugpa files,
     which list no sun's terms.
+
+16. **WB vol. 1, p. 34 (img. 44): from which epoch does Rāhu's reckoning
+    count, and what is its constant?** «རབ་བྱུང་ཉི་མའི(༡༧)ཐོག་མ་ཡི། །ཟླ་བ་རྣམ་པར་དག་པ་ལ། །བུ་ག་ནམ་མཁའ་འཁྲིག་པ(༢༠༩)བྱིན»:
+    the number word *nyi ma* is 12 (the rab byung of 1687, WB's own), the
+    1996 editors' bracket 17 (1987). With 1687, 209 carried forward to
+    1987 is 10; the *Kun 'dus chen mo*'s restatements from the fire hare of
+    the 17th rab byung add *drag po*, 11 (vol. 2, etext p. 324), *sor mo*
+    (vol. 4, etext p. 375) and *rtsa* (vol. 2, etext p. 458). Is the
+    corrected month count of these restatements counted from another
+    month, or does WB's 209 belong to another epoch? A worked eclipse in
+    a rtsis manual, or a printed almanac's Rāhu for a known month, would
+    settle it. Until then the eclipses are not built
+    ([month-entries.md](month-entries.md)).

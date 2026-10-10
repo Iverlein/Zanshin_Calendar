@@ -651,6 +651,35 @@ English (§8.1), each reading citing its pages:
   is a part of the special days' row on that day, with the time it
   begins and WB's hook (`DayTimes.burningFrom`, §5.8); shown and not
   weighed, as WB names no weight for the hook.
+- **The month's own entries** (WB's month heading, vol. 1, p. 176, with
+  ch. 15–16 and vol. 2, pp. 212, 312, 359;
+  [month-entries.md](sources/month-entries.md); `MonthEntries`, checked by
+  `MonthEntriesTest`): the month is long when its days reach thirty,
+  short with fewer, however many dates are omitted or doubled. The
+  weekday that rises in it, roughly by the month's animal after the
+  *Gtsug lag spor thang* (Saturn in the tiger, horse and dog months, Mars
+  in the mouse, dragon and monkey, the Moon in the pig, sheep and hare,
+  Jupiter in the bird, ox and snake) and finely from the element of the
+  true weekday of its 1st, the lord: the planets of the lord's element and
+  of its son rise, its mother's wane, its enemy's decline, its friend's
+  move, as the model almanac's month lines print them; p. 312 lifts no
+  avoidance for a rising planet, so the rise changes no weighing. The
+  year's black months and the black third of this one (§5.13). The
+  seasonal signs of ch. 16, by the mean sun of the true reckoning
+  (Janson's (7.6)–(7.8)): the sage's seven days (*drang srong ri ti*),
+  when the waters gain the eight qualities, from the date in which it
+  reaches 10 mansions 43;30, and the pig's (*phag zhag*), when the rain
+  turns to poison, from the date in which it reaches 5;46,30, their days
+  counted from the calendar day of that date; the engine's dates are
+  those of WB's 65-year table (pp. 188–189) or the date after, as its rule
+  allows, for every year from 1990 to 2100. The comet WB's count marks
+  (p. 186): the years since the rab byung began (1027, as the *Kun 'dus
+  chen mo* restates it) times twelve with the months since the 3rd, the
+  corrected month count (twice it with 31, over 65, added) with 3 added
+  leaving nothing over 75. All shown and not weighed: WB gives them no
+  weight. The eclipses (WB ch. 9) are not built: Rāhu's epoch is in doubt
+  (sources/open-questions.md, 16) and the solar rule needs the *byed
+  rtsis* (ROADMAP T2.23).
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -884,7 +913,19 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   against their tone from 2,082 to 2,067 (§5.12).
 - **The earth lords that move by date** (WB vol. 2, pp. 226–235,
   [sources/earth-lord-courses.md](sources/earth-lord-courses.md)), which
-  WB's almanac writes on the day (vol. 1, pp. 173, 178): after the great
+  WB's almanac writes on the day (vol. 1, pp. 173, 178): first the black
+  month (*zla nag*, p. 212, the pure Phugpa view; vol. 1, p. 183): the
+  months whose animals are the four-slayers of the year's, three either
+  side of it, the year the Chinese reckoning's from the 11th month; of a
+  first month of a season the upper third is black (the 1st–10th), of a
+  middle month the middle (11th–20th, WB's notes, vol. 2, p. 484), of a
+  last the lower (21st–30th), and the course falls on the days of that
+  third, with p. 212's and p. 359's works and remedies. Then Kikang's
+  black month (*ki kang zla nag*, p. 212): in each year one date in two
+  season-months, with a time of day for some, and one work spoiled (a
+  tiger year's 8th of the first months of summer and winter at dawn,
+  funeral rites … an ox year's 22nd of the last months of autumn and
+  spring at dusk, sending wealth out). After them the great
   black day (§5.11), the small black day, *pi ling 'phar ma*, *zin phung*,
   *phung po zor thogs*, *ki kang*, *hal khyi*, *gnam khyi*, *gnam sbyor*,
   *gza' rgod*, *dbul po*, *gza' bdun*, *ngam shing*, *bar khyi*, *ka khyung
@@ -1445,6 +1486,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Rāhu's course | The White Beryl, Beijing 1996, vol. 2, pp. 236–238 (BDRC MW2CZ8040); the *kun phan me long*'s chart of the general course, img. 78 (BDRC MW4CZ65561) |
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | The great black day, the meeting of the nine bad | The White Beryl, Beijing 1996, vol. 2, p. 226 (BDRC MW2CZ8040) |
+| The month heading's entries: long or short, the weekday's rise, the black months, the seasonal signs, the comet | The White Beryl, Beijing 1996, vol. 1, pp. 176, 183 and 186–189, and vol. 2, pp. 212, 312 and 359 (BDRC MW2CZ8040); the comet's years after the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 2, p. 145 (BDRC MW28845) |
 | The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
@@ -1537,8 +1579,14 @@ canvas "Zanshin Calendar — basic design".
   (Janson Table 4), and its two seasons, each labelled, as WB's model
   almanac gives them (vol. 1, pp. 154–171): the Kālacakra one (the 1st
   month early spring) and the Chinese reckoning's (the 11th early spring,
-  the 1st late spring); then the month's element and its
-  vitality and body (§5.9), with a birth date set each with its pebbles
+  the 1st late spring); then the month heading's own entries
+  (§5.11, ROADMAP T2.21): its days, long or short; the planet rising
+  roughly, and finely what rises, wanes, declines and moves; the year's
+  two black months by animal, with this one's black dates when it is one;
+  Kikang's black month when it falls in this month, with its date, time
+  and work; the sage's and the pig's seven days from their dates when they
+  begin in it; a comet when the count marks the month; then the month's
+  element and its vitality and body (§5.9), with a birth date set each with its pebbles
   and relation to yours, as in the year's balloon.
 - **Repeated day:** each of the two days carries a small tag, "first of two" /
   "second of two".
@@ -1739,7 +1787,10 @@ canvas "Zanshin Calendar — basic design".
   the nine bad on 11/7; then the earth lords' courses (§5.13), one row
   whose subtitle names each course on the day with its event ("The nāgas:
   turning", "The sky door: war's door"), the sheet giving each course's
-  reading in turn.
+  reading in turn; the black month and Kikang's among them, the black
+  month's subtitle its black dates, Kikang's its work. Then, on their seven
+  days, the sage's and the pig's seven days (§5.11), "day 3 of 7", the
+  pig's unlucky.
   The nectar periods have no row on the page: the brief's "By the hour"
   and the hours panel give them (§5.13).
 - **Hours of the day:** a clock icon on the Almanac header opens the

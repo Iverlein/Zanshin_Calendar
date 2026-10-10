@@ -14,7 +14,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   karaṇa, element pair, lunar-day animal, trigram and number, each with its
   reading from the White Beryl and the *kun phan me long*; what changes
   within the day as the White Beryl's almanac writes it: a second mansion,
-  a skipped yoga, Viṣṭi's span and the sun's terms, with their times; the
+  a skipped yoga, Viṣṭi's span and the sun's terms, with their times; what
+  its month heading writes: long or short, the planet that rises, the
+  black months, the sage's and the pig's seven days and the comet; the
   hours with the combination period, the earth lords of the hour, the
   black hours, what each hour is good for, the four rough times at
   sunrise, noon, sunset and midnight, and the works an hour turns

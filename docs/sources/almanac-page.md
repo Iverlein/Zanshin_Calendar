@@ -73,13 +73,13 @@ p. 176 (img. 186), written at the head of each month of the full almanac.
 | Entry | WB's words | In the app |
 | --- | --- | --- |
 | The month's Kālacakra season (early, middle, late) and the sun's sign; its Chinese season, the 11th month the first of spring, from the tiger | «ཟླ་བཤད་དུས་འཁོར་དུས་བཞི་ཡི། །ར་འབྲིང་ཐ་དང་ཉི་ཁྱིམ་མིང་། །བཅུ་གཅིག་དཔྱིད་ར་སྟག་ནས་བརྩམས» | built (T2.10, the month balloon) |
-| Long or short month, by the days it has | «ཆེ་ཆུང་དབྱེ་བ» | not shown: **T2.21** (it follows from the month's days, omitted and doubled dates included, SPEC §5.4) |
+| Long or short month, by the days it has | «ཆེ་ཆུང་དབྱེ་བ» | built (T2.21, [month-entries.md](month-entries.md)): thirty days long, fewer short, in the month balloon |
 | The sun's terms, the full moon's mansion, the length of day and night | «དབུགས་ཐོབ་དང་། །སྒང་ཚད་ཁྱིམ་འཕོ་བཅོ་ལྔ་ལ། །རྒྱུ་སྐར་འདི་ཉ་ཉིན་མཚན་ཚད» | the sun's terms built on their dates (T2.20, below); day and night: the app gives the place's own sunrise and sunset (SPEC §6) |
 | The festivals of the Buddha's deeds: conception, birth, the turning of the wheel, the miracles, the passing | «ཐུབ་དབང་ལྷུམས་ཞུགས་བལྟམས་པ་དང་། །ཆོས་འཁོར་ཆོ་འཕྲུལ་མྱ་ངན་འདས» | built (SPEC §5.7: 6/15, 4/7, 6/4, 1/15, 4/15) |
-| The black months (*zla nag*) counted from the year, their upper and lower halves | «གནམ་ལོ་ནས་བགྲངས་བཞི་གཤེད་ཀྱི། །ཟླ་ནག་ར་སྒང་ཐ་ཆུང་གི། །སྟོད་སྨད་འབྱུང་ཚུལ» | not built: **T2.21** |
-| The weekday's rise and decline in the month (*gza' dar gud*): roughly, Saturday rises in the tiger, horse and dog months, Mars in the mouse, dragon and monkey, the moon in the pig, sheep and hare, Jupiter in the bird, ox and snake (after the *Gtsug lag spor thang*); finely, by the element of the weekday of the month's first date: rise, the son rising too, decline, enemy, friend | «སྟག་རྟ་ཁྱི་གསུམ་སྤེན་དར་ཚེས། །བྱི་འབྲུག་སྤྲེལ་གསུམ་མིག་དར་ཚེས། །ཕག་ལུག་ཡོས་གསུམ་ཟླ་དར་ཚེས། །བྱ་གླང་སྦྲུལ་གསུམ་པུར་དར་ཚེས» | not built: **T2.21**. WB reads a weekday's rise against its works in chapter 33 (vol. 2, p. 312, etext: «ཕྱུགས་གཟའ་དར་ཡང་ཕྱུགས་མི་སྐྱེལ། །སྤེན་པ་ས་གཟའ་དར་ཡང་ནོར་མི་གཏོང»), so this may change the weighing |
-| Eclipses: their times, length and readings | «ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན» | not built: **T2.21** |
-| The seasonal signs: the Ṛṣi's seven days when the waters gain their eight qualities, the "pig climbing the tree", the seven days of poisoned water, a comet | «རི་ཥི་ཞག་བདུན་ཆུ་ཀླུང་རྣམས། །ཡན་ལག་བརྒྱད་ལྡན་འགྱུར་བ་དང་། །དུར་ཕག་ཤིང་ལ་འཛེགས་པའི་འབྲས། །ཞག་བདུན་ཆུ་རྣམས་དུག་འགྱུར་ཚུལ། །དུ་བ་མཇུག་རིང» | not built: **T2.21** (their dates are not on these pages) |
+| The black months (*zla nag*) counted from the year, their upper and lower halves | «གནམ་ལོ་ནས་བགྲངས་བཞི་གཤེད་ཀྱི། །ཟླ་ནག་ར་སྒང་ཐ་ཆུང་གི། །སྟོད་སྨད་འབྱུང་ཚུལ» | built (T2.21, [month-entries.md](month-entries.md)): the year's two months and their black third in the month balloon, the black days of the third, and Kikang's black month of vol. 2, p. 212, among the earth lords |
+| The weekday's rise and decline in the month (*gza' dar gud*): roughly, Saturday rises in the tiger, horse and dog months, Mars in the mouse, dragon and monkey, the moon in the pig, sheep and hare, Jupiter in the bird, ox and snake (after the *Gtsug lag spor thang*); finely, by the element of the weekday of the month's first date: rise, the son rising too, decline, enemy, friend | «སྟག་རྟ་ཁྱི་གསུམ་སྤེན་དར་ཚེས། །བྱི་འབྲུག་སྤྲེལ་གསུམ་མིག་དར་ཚེས། །ཕག་ལུག་ཡོས་གསུམ་ཟླ་དར་ཚེས། །བྱ་གླང་སྦྲུལ་གསུམ་པུར་དར་ཚེས» | built (T2.21, [month-entries.md](month-entries.md)): both in the month balloon, the fine one checked against the model almanac's month lines; p. 312's "even when it rises" lifts no avoidance, so the weighing is unchanged |
+| Eclipses: their times, length and readings | «ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན» | not built, moved to **T2.23** ([month-entries.md](month-entries.md)): Rāhu's epoch is in doubt (open question 16) and the solar rule needs the *byed rtsis* |
+| The seasonal signs: the Ṛṣi's seven days when the waters gain their eight qualities, the "pig climbing the tree", the seven days of poisoned water, a comet | «རི་ཥི་ཞག་བདུན་ཆུ་ཀླུང་རྣམས། །ཡན་ལག་བརྒྱད་ལྡན་འགྱུར་བ་དང་། །དུར་ཕག་ཤིང་ལ་འཛེགས་པའི་འབྲས། །ཞག་བདུན་ཆུ་རྣམས་དུག་འགྱུར་ཚུལ། །དུ་བ་མཇུག་རིང» | built (T2.21, [month-entries.md](month-entries.md)): the sage's and the pig's seven days by ch. 16's mean sun, checked against its 65-year table, on their days and in the month balloon; the comet by p. 186's count, in the month balloon |
 | The five planets' slow and fast motion, the omitted and doubled days of both reckonings, the planets' meetings | «ཉ་སྟོང་གཟའ་ལྔའི་དལ་མྱུར་དང་། …བྱེད་གྲུབ་གཉིས་ཀའི་ཆད་ལྷག་དང་། །དབང་ཕྱུག་མཇལ་ཕྲད» | not built: **T2.23**. The app reckons the sun and the moon only, by the *grub rtsis* (SPEC §5); the full almanac writes both reckonings' omitted and doubled days (p. 176) |
 
 ## The times within the day (T2.20)
@@ -185,7 +185,7 @@ sunset (SPEC §6).
 
 Not built from ch. 15: the seasons' signs, the year's lord by
 the sun's entry into Aries and the results of the sun in each sign
-(p. 182), the black months and the doubled months (p. 183: T2.21).
+(p. 182), and the doubled months (p. 183); the black months of p. 183 are built (T2.21, [month-entries.md](month-entries.md)).
 
 ## The special days in the verse, against the table
 

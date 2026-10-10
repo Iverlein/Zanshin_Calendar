@@ -1,0 +1,269 @@
+# White Beryl: the month's own entries
+
+Sigla, numbering and quoting rules are in [README.md](README.md). Read on
+2026-10-10 for ROADMAP T2.21 (block 18): WB vol. 1 pp. 176, 183, 186–189
+and the model almanac's month headings (img. 164–181), vol. 2 pp. 212, 312
+and 359, with Yigdzin-1 on the scans and BDRC's etext as witness, every
+line quoted below read on the scan at 2–6×; the eclipse chapter (vol. 1,
+ch. 9, pp. 56–70, img. 66–82) and Rāhu's reckoning (pp. 34–35) with
+Yigdzin-1 and the etext, the rules' lines by eye. In vol. 1 the printed
+page is the image number − 10, in vol. 2 − 8. Built as `MonthEntries` and
+two courses of `EarthLordCourses` (SPEC §5.11, §5.13, §10.3);
+`MonthEntriesTest` checks each entry against what the texts print.
+
+The month heading (p. 176, [almanac-page.md](almanac-page.md)) names five
+entries the app did not have: whether the month is long or short, the
+black months, the weekday's rise, the eclipses and the seasonal signs.
+Four are built; the eclipses are not (below).
+
+## Long or short
+
+p. 176 (img. 186): «ཆད་ལྷག་ཇི་ཙམ་ཡོད་ཀྱང་རུང་། །ཚེས་ཞག་མཁའ་མེ་ལོངས་པ་ན། །ཆེ་དང་དེ་ཚུན་ཆུང་བ་སྟེ། །ཆེ་ཆུང་དབྱེ་བ»
+However many dates are omitted or doubled, a month whose days (*tshes
+zhag*) reach thirty (*mkha' me*) is long, one with fewer is short. A
+Phugpa month has 29 or 30 days. The model almanac's headings leave it as
+a blank to fill: «སྟག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ» (img. 164), «ལུག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ» (img. 172).
+**Built** (`MonthEntries.days`, `isLong`), checked against every whole
+month of Henning's calendars in henning-phugpa.tsv.
+
+## The weekday's rise (*gza' dar gud*)
+
+p. 176 (img. 186), read on the scan:
+
+> ཁྱིམ་རྣམས་ཐོག་མར་སླེབས་དེ་ཡི། །གྲུབ་པའི་རེས་གཟའ་ཟླ་བ་དེའི། །བདག་ཡིན་དར་གུད་རགས་པ་ནི། །གཙུག་ལག་སྤོར་ཐང་དགོངས་དོན་ལྟར། །སྟག་རྟ་ཁྱི་གསུམ་སྤེན་དར་ཚེས། །བྱི་འབྲུག་སྤྲེལ་གསུམ་མིག་དར་ཚེས། །ཕག་ལུག་ཡོས་གསུམ་ཟླ་དར་ཚེས། །བྱ་གླང་སྦྲུལ་གསུམ་ཕུར་དར་ཚེས། །ཞེས་དང་ཞིབ་པར་ཟླ་བའི་བདག །རྣམ་དག་གྲུབ་པའི་ཚེས་གཅིག་གི། །རེས་གཟའི་ཁམས་ནས་བརྩི་བ་ལ། །གང་ཆེ་དེ་དར་བུ་ཡང་དར། །མ་ཞུད་དགྲ་གུད་གྲོགས་སྐྱོད་པར། །སྤྱིར་བཏང་རགས་པར་བཞེད་པ་ལྟར། །མ་ནོར་གཉིས་ཀ་སོ་སོར་བཀོད།
+
+- **Roughly**, "as the *Gtsug lag spor thang* means it": Saturn rises in
+  the months of the tiger, horse and dog, Mars in the mouse, dragon and
+  monkey, the Moon in the pig, sheep and hare, Jupiter in the bird, ox
+  and snake. The month's animal is the app's (the 11th month the tiger,
+  as the trigram verse of p. 178 has it).
+- **Finely**, the month's lord is the weekday of the true reckoning's
+  1st; counted from the lord's element, the planets of its element rise
+  and its son's rise too, its mother's wane (*zhud*), its enemy's decline
+  (*gud*) and its friend's move (*skyod*). The etext reads the last
+  «གྲོགས་ཀྱང་གུད»; the scan has «གྲོགས་སྐྱོད་པར», and the model almanac
+  writes *skyod* too. The elements are those of the Chinese reckoning
+  (vol. 1, p. 257, `Weekday.fiveElement`), the relations those of the
+  elemental divination (`Forces.kinship`).
+- WB says to write both.
+
+**The model almanac's month lines** (vol. 1, the headings of the 11th,
+2nd and 4th months, img. 164, 169, 172), each word with the weekday
+numbers (0 Saturday, 1 Sunday … 6 Friday) under an arc, read at 5–7×:
+
+| Month | Printed | Lord it fits |
+| --- | --- | --- |
+| 11th (img. 164) | «དར། ༠༦ སྐྱོད། ༢༤ ཞུད། ༡༣ གུད། ༥» | Saturday (earth): earth and its son iron rise, its friend water moves, its mother fire wanes, its enemy wood declines |
+| 2nd (img. 168–169) | «དར། ༡༣ གུད། ༦ སྐྱོད། ༠ ཞུད། ༢༤» | Thursday (wood): fire, the son, rises; iron declines, earth moves, water wanes; Jupiter's own ༥ is not printed with the rising |
+| 4th (img. 172) | «དར། ༢༤༥ གུད། ༠ སྐྱོད། ༡༣ ཞུད། ༦» | Monday or Wednesday (water) |
+
+Each line fits exactly one element of the lord, which checks the rule as
+read; the lords match no single year near WB's (1657 and 1701 give the
+11th, 2nd and 4th months these lords, 1684 does not), so the model
+almanac reads as a pattern, not a dated year. `MonthEntriesTest`.
+
+**Against the works.** WB's closing verse of the weekdays (vol. 2,
+p. 312, [weekdays.md](weekdays.md)) says what each planet forbids "even
+when it rises" (*dar yang*): the rise lifts none of a weekday's
+avoidances, and WB gives no weight to it. So the rise is written in the
+month balloon and changes no weighing.
+
+## The black months (*zla nag*)
+
+**The rule**, vol. 1, p. 183 (img. 193), at the close of ch. 15:
+«གཞན་ཡང་ཟླ་བ་ནག་པོ་ནི། །གང་ཤར་ཟླ་བའི་བཞི་གཤེད་ནག །བྱི་རྟ་གནམ་ཤར་བྱ་ཡོས་ནག །གླང་ལུག་ཤར་ཚེ་ཁྱི་འབྲུག་ནག །སྟག་སྤྲེལ་ཤར་ན་ཕག་སྦྲུལ་ནག །དེ་ལྟར་འགྲེ་ལ་ཤེས་པར་བྱ། །ར་བཞིའི་སྟོད་ནག་བྲིང་བཞིའི་སྒང་། །ཐ་བཞིའི་སྨད་ནག་ཤེས་པར་བྱ།»
+and the month heading p. 176: «གནམ་ལོ་ནས་བགྲངས་བཞི་གཤེད་ཀྱི། །ཟླ་ནག་ར་སྒང་ཐ་ཆུང་གི། །སྟོད་སྨད་འབྱུང་ཚུལ་བཅས་པ་བཀོད།»
+
+**With the works**, vol. 2, p. 212 (img. 220), in ch. 31 among the earth
+lords, read on the scan:
+
+> ཟླ་ནག་འདོད་པ་མང་ན་ཡང་། །རྣམ་དག་ཕུག་པ་གོང་མའི་ལུགས། །གནམ་ལོ་རྒྱལ་པོ་དབུས་བཞག་པའི། །ཡར་མར་བཞི་གཤེད་ཟླ་བ་ནག །དེ་ཡང་ར་བ་བཞི་ཡི་སྟོད། །འབྲིང་སྒང་ཐ་ཆུང་ཟླ་སྨད་ནག །གསོན་གཤིན་བྱ་བ་ཐམས་ཅད་དང་། །ཁྱད་པར་ཤིད་མཁར་དགེ་བའི་ལས། །ཚོང་དུར་ས་ལས་ནོར་ཕྱིར་གཏོང་། །བག་སྟོན་རབ་བྱུང་རབ་ཏུ་གནས། །ཆེ་འདོན་ལ་སོགས་འཛེམ་པ་དང་། །མཐུ་གཏད་མནན་བསྲེག་དགྲ་ལིང་འདྲི། །དྲག་ལས་དབྱེ་སེལ་སྦྱོར་བཤིག་བཟང་། །བཅོས་ཐབས་མར་གྱི་ཟླ་བ་གསུམ། །སྒྲ་ཁྱིམ་ཁང་པའི་གོང་ཆུར་བཞག །བདེན་པ་བདར་ཞིང་འདི་ལྟར་བརྗོད། །ཟླ་ནག་མ་ཡིན་དཀར་པ་ཡིན། །ལས་དང་བྱ་བ་ཤིས་པར་ཤོག །ཅེས་བརྗོད་ཟན་གྱི་ཟླ་ནག་གསུམ། །མི་ཁའི་རྫས་བཅས་ལམ་མདོར་བསྐྱལ། །ཟླ་ནག་ལོག་པར་བལྟ་བ་དང་། །མི་མཐུན་ཕྱོགས་རིགས་ངན་དགུའི་ཚོགས། །བསྟན་གནོད་དགྲ་བགེགས་སྟེང་དུ་བསྒྱུར། །ཞེས་དང་འོད་ཟེར་ཅན་མ་སྒྲོག
+
+Of the many views, the pure Phugpa one: with the year's king in the
+middle, the months of its four-slayers up and down are black. Of the four
+first months the upper part, of the middle the middle (*sgang*), of the
+last the lower. All works for the living and the dead are avoided, above
+all funeral rites, forts, virtuous work, trade, burial, earthworks,
+sending wealth out, weddings, ordination, consecration, *che 'don*;
+curses, pressing down, burning, drawing the enemy's *ling ga*, fierce
+work, separating and breaking up unions are good. Remedies: three dough
+black months carried to a crossroads with the substances against gossip
+after the words "this is no black month but a white one", and Mārīcī's
+prayer.
+
+**The results** in ch. 33's earth lords of the date, vol. 2, p. 359
+(img. 367), read on the scan: «ཟླ་ནག་མཁར་ལས་ཐོག་བརྩེགས་འབུབས། །རབ་གནས་རབ་བྱུང་རྟེན་བཞེངས་དང་། །བག་མ་ནོར་གཏོང་གསོན་གཤིན་འཛེམ། །མཐུ་གཏད་མནན་སེལ་དགྲ་ལིང་བྲི། །དྲག་ལས་བཟང་ཞིང་སྒྲིབ་པ་ན། །ཁ་ཚར་མ་ཉམས་དར་རས་དཀར། །འཕྱུར་ཞིང་མར་གསུར་གཏོང་བ་དང་། །ཕྱོགས་བཞིར་ས་དམར་གཏོར་ལ་ནི། །གཡག་ལུག་མགོ་བོ་དཀར་པོ་ལ། །དར་དཀར་བརྒྱན་པས་ཟླ་ནག་སྒྲིབ། །ཆུ་གཏོར་མང་གཏོང་གཟུངས་འདུས་ཀྱི། །གསུང་སྒྲོག་དེ་ཡི་ཉེས་པ་ཞི།»
+adds building storeys and roofing, raising images, and a remedy of white
+silk, a white *gsur*, red earth, a white-headed yak or sheep and the
+*gzungs 'dus*.
+
+**The month's thirds.** WB's notes count the month's *sgang* from the
+11th to the 20th (vol. 2, p. 484, etext: «ཟླ་བའི་སྒང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར་རོ»), so the upper
+third is the 1st to the 10th and the lower the 21st to the 30th.
+
+**Which year and which seasons.** WB counts the black months among the
+earth lords (vol. 2, pp. 174, 199: «རྣམ་གྲངས་རེ་བཞི་ཟླ་ནག་དང་། །བུམ་སྟོང་…»), and ch. 31
+counts its seasons and the black days by the Chinese reckoning, the
+year beginning with the 11th month, the tiger month the first of spring
+([earth-lord-courses.md](earth-lord-courses.md), *The black days*); the
+notes say «ཟླ་ནག་ནི་གནམ་ལོ་ལ་ལྟོས་པ་སྤྱི་ལྟར» (p. 486). A year's two black months are six
+apart, so they always share their third.
+
+**Built** as the course `ZLA_NAG` of the earth lords' row, on the days
+of the black third, shown and not weighed as the other earth lords
+(SPEC §5.13), with the year's two months and this one's third in the
+month balloon. `MonthEntriesTest` checks p. 183's three pairs.
+
+### Kikang's black month (*ki kang zla nag*)
+
+The same page goes on, read on the scan:
+
+> ར་བཞིའི་སྟོད་དང་འབྲིང་བཞིའི་སྒང་། །ཐ་ཆུང་བཞི་ཡི་ཟླ་སྨད་ནག །ཁྱད་པར་ཞག་དུས་སྤང་བྱ་བ། །སྟག་ལོའི་དབྱར་དགུན་ར་བ་ཡི། །ཚེས་བརྒྱད་ཐོ་རེངས་ཤིད་བྱས་ན། །རོ་བདག་ཤི་ཁ་བྱེ་བས་འཛེམ། །ཡོས་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་ཤར་ཤིད་བྱས་འཕུང་། །འབྲུག་ལོའི་དབྱར་དགུན་ཐ་ཆུང་གི །ཉ་ལ་ཤིད་ཀྱི་བྱ་བ་འཛེམ། །སྦྲུལ་ལོའི་སྟོན་དཔྱིད་ར་བ་ཡི། །གནམ་གང་ལ་ནི་ཤིད་ངན་ནོ། །རྟ་ལོའི་སྟོན་དཔྱིད་འབྲིང་པོའི་ཉར། །མཁར་ལས་རྩིས་མཁན་དགེ་བཤེས་དང་། །ཁྱིམ་བདག་ལ་ནི་ངན་པའོ། །ལུག་ལོའི་སྟོན་དཔྱིད་ཐ་ཆུང་གི །ཉི་ཤུ་གཉིས་ཀྱི་བྱ་ཉལ་ལ། །ཚོང་བྱས་ནོར་ལ་གོད་ཁ་འོང་། །སྤྲེལ་ལོའི་དབྱར་དགུན་ར་བའི་བརྒྱད། །ཐོ་རེངས་དུར་བཏབ་མི་ཚང་འཕུང་། །བྱ་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་ཤར་དགེ་ལས་ངན། །ཁྱི་ལོའི་དབྱར་དགུན་ཐ་ཆུང་གི །བརྒྱད་ལ་ས་རྡོ་འདམ་ལས་ངན། །ཕག་ལོའི་སྟོན་དཔྱིད་ར་བ་ཡི། །གནམ་གང་ཤིང་དང་རོ་འདོན་ངན། །བྱི་ལོའི་སྟོན་དཔྱིད་འབྲིང་པོའི་ཉར། །ཤིད་ཀྱི་བྱ་བ་ངན་པའོ། །གླང་ལོའི་སྟོན་དཔྱིད་ཐ་ཆུང་གི །ཉེར་གཉིས་བྱ་ཉལ་ཙམ་ལ་ནི། །དུས་དེར་ནོར་ཕྱིར་མི་བཏང་ངོ་། །བཏང་ན་གཡང་ཉམས་དབུལ་པོར་འགྲོ། །འདི་ལ་ཀི་ཀང་ཟླ་ནག་ཅེས། །ཤིན་ཏུ་གཉན་པས་གཟབ་གལ་ཆེ། །སྒྲིབ་ཐབས་ཉི་ནག་སྐབས་སུའང་འཆད།
+
+| Year | Months | Date, time | Bad |
+| --- | --- | --- | --- |
+| tiger | first of summer and winter | 8th, dawn | funeral rites |
+| hare | middle of summer and winter | 18th, sunrise | funeral rites |
+| dragon | last of summer and winter | full moon | funeral rites |
+| snake | first of autumn and spring | 30th | funeral rites |
+| horse | middle of autumn and spring | full moon | building a fort |
+| sheep | last of autumn and spring | 22nd, *bya nyal* (dusk) | trade |
+| monkey | first of summer and winter | 8th («བརྒྱད»; the etext's «བརྒྱུད» is a misprint), dawn | burial |
+| bird | middle of summer and winter | 18th, sunrise | virtuous work |
+| dog | last of summer and winter | 8th | earth, stone and mud work |
+| pig | first of autumn and spring | 30th | wood, carrying out a corpse |
+| mouse | middle of autumn and spring | full moon | funeral rites |
+| ox | last of autumn and spring | 22nd, *bya nyal* | sending wealth out |
+
+The hare's and bird's «ཉི་ཤར» (sunrise) is on the scan; the etext has
+«ཉི་མྱུར». The remedy is "told under the black days" (vol. 2, p. 235).
+**Built** as the course `KI_KANG_ZLA_NAG`, the year and seasons the
+Chinese reckoning's, on its date, with the date, time and work in the
+month balloon when it falls in the month.
+
+## The seasonal signs
+
+p. 176's list, read on the scan: «རི་ཥི་ཞག་བདུན་ཆུ་ཀླུང་རྣམས། །ཡན་ལག་བརྒྱད་ལྡན་འགྱུར་བ་དང་། །དུར་ཕག་ཤིང་ལ་འཛེགས་པའི་འབྲས། །ཞག་བདུན་ཆུ་རྣམས་དུག་འགྱུར་ཚུལ། །དུ་བ་མཇུག་རིང་འཆར་བ་ན། །འདི་ལ་འཆར་ཞེས་ཚེས་ལ་སོགས།»
+the Ṛṣi's seven days when the rivers gain their eight qualities; the
+fruit of the charnel ground's pig climbing the tree, seven days when the
+waters turn to poison; and when a long-tailed comet rises, "it rises on
+this date". The pig climbing the tree and the poisoned waters are one
+sign. WB dates all three in ch. 16 (vol. 1, pp. 184–189, img. 194–199).
+
+### The Ṛṣi's and the pig's seven days
+
+pp. 187–188 (img. 197–198), read on the scan:
+
+> …ཡན་ལག་བརྒྱད་ལྡན་ཞག་བདུན་ལ། །འགྱུར་བར་སོམ་ཉིའི་དྲ་བ་བཅད། །རྣམ་དག་གྲུབ་པའི་ཉི་བར་གྱི། །སྐར་ཕྱོགས་མེ་མཚོ་མཁའ་མེ་སྲང་། །ཤར་ཚེ་རི་ཏིའི་དུས་འབྱུང་ངོ་། །ཕག་ཞག་རྒྱུ་མཚན་མཛངས་བླུན་ལས། །རི་རབ་ཤར་དུ་དཔག་བསམ་ཤིང་། …ཞེས་དང་དུར་ཕག་བཟའ་མི་གཉིས། །འཛེག་ལ་ཡར་མར་གསུམ་གསུམ་དང་། །རྩེ་ལ་ཞག་གཅིག་བདུན་གྱི་བར། །ཆར་བབ་དུག་ཆར་འབྲུ་བཅུད་ཉམས། །བཞོན་མར་ཕྱིར་གཏོང་ཆུ་ལས་དང་། །སྨན་དཔྱད་འཛེམ་པ་ལ་སོགས་པར། །མཁས་པ་ཕལ་ཆེར་ཚད་བཟུང་བ། །བྱེད་པར་མ་གཏོགས་གྲུབ་པ་ལ། །ཚད་ཀྱི་སྐར་མ་མེད་པའི་གཤིས། …འཁྲུལ་བྲལ་རྣམ་དག་གྲུབ་རྩིས་དང་། །བསྟུན་ནས་འཕྱུགས་མེད་ཉི་བར་ལ། །མདའ་དང་དུས་མཚོ་མཁའ་མེ་སྲང་། །ཤར་ཚེ་ཕག་གི་ཞག་པོ་བདུན།
+
+The sage's star (*drang srong ri ti*) rises six months by night and six
+by day; its first rising at dawn, hard to fix by the eye, brings seven
+days in which the waters gain the eight qualities. Phug pa Lhun grub rgya
+mtsho fixed it in the *byed rtsis*; WB fixes it in the true reckoning:
+when the mean sun (*nyi bar*) reaches 10 mansions, 43 chu tshod, 30 chu
+srang (*skar phyogs*, *me mtsho*, *mkha' me*). The pig's seven days come
+from the story in the *Mdzangs blun* of the trees around Meru: the
+charnel ground's pig and its fellow climb three days up, a day at the
+top and three down; for seven days the rain is poison and the grain's
+essence fails; sending out milk and butter, work with water and medical
+treatment are avoided. Most scholars fixed it in the *byed rtsis* only;
+WB in the true reckoning, when the mean sun reaches 5;46,30 (*mda'*,
+*dus mtsho*, *mkha' me*).
+
+**The table** (pp. 188–189, img. 198–199): for each of 65 years
+(*bya ra ba* 1–65) each sign's date with its "desired part" (*'dod cha*,
+in thirteenths) and fifth part (*lnga cha*, 1 for the sage, 4 for the
+pig). The rule after it (p. 189, read on the scan): «རབ་བྱུང་འདས་ལོར་དུས་མིག་བྱིན། །མདའ་རོས་བགོས་པའི་ལྷག་མ་ཡིས། །བྱ་རའི་རེའུ་མིག་བཟུང་བ་ལ། …དེ་ལྟར་བཟུང་བའི་ཚེས་གྲངས་དེའི། །རྣམ་དག་གྲུབ་པའི་ཉི་བར་ལ། །འདོད་ཆ་ལྔ་ཆ་གྲངས་མཐུན་བྱིན། །སོ་སོའི་ཚད་དེ་འཕྱུགས་མེད་འཆར། །འདོད་ཆ་ལྔ་ཆ་གང་ཤར་ལྟར། །སྔ་ཕྱིའི་ཚེས་གྲངས་གང་ཟིན་བརྟག»:
+the column is the rab byung's elapsed years plus 26 over 65; then the
+date, or the one before or after it, by the parts. The parts grow by one
+a year and the date by 11, by 12 when the part comes round to nought, so
+the table is its first column and that step: the sage 27 with 5, the
+pig 19 with 4. Read on the scan: the first block's dates (sage 27, 8, 19,
+30, 11, 22, 3, 14, 26, 7, 18, 29, 10, 21, 2; pig 19, 30, 11, 22, 3, 14,
+25, 6, 17, 29, 10, 21, 2, 13, 24) and parts, and the blocks' first and
+last cells (columns 16, 34, 35, 52). The Yigdzin-1 reading of the table
+is noise.
+
+**Built** (`MonthEntries.signDate`, `signDay`): the sign falls on the
+date at whose end the mean sun of Janson's arithmetic (the *grub rtsis*
+mean sun) has reached the measure, and its seven days are counted from
+the calendar day of that date. Against WB's table: for every year from
+1990 to 2100 the engine's date is the table's, or the next one where the
+part is 12, which is p. 189's "the date before or after" (the engine's
+crossing lies 0.908 of a date before the table's date and parts, the
+same in every column); column 1 is 2014, since the true reckoning
+repeats in 65 years (804 months). 2026: the pig's days from the 2nd of
+the 6th month (16 July), the sage's from the 10th of the 8th
+(21 September). The column rule's "elapsed years plus 26" gives
+column 13 for 2026 from no epoch tried (1027, 1687, 1987); it is not
+needed, since the engine reckons the measure directly. Not used: KD's
+rougher dating, the sage from the 8th month's *dbugs thob* (vol. 2,
+p. 223, etext p. 243).
+
+### The comet
+
+p. 186 (img. 196), read on the scan:
+
+> རབ་བྱུང་ལ་སོགས་འདས་པའི་ལོ། །ཉི་མས་བསྒྱུར་ལ་ནག་པ་སོགས། །འདས་ཟླ་བསྲེས་ལ་གནས་གཉིས་བཞག །འོག་མ་མིག་བསྒྱུར་གཟུགས་མེས་བརྒྱན། །དབང་རོས་བགོས་ཐོབ་ཟླ་བ་དག །ཟླ་བ་དག་པར་རྩེ་མོ་བྱིན། །དབང་རིས་བགོས་ལྷག་ཐིག་ཤར་ན། །མཇུག་རིང་དུ་ཕོད་བཅས་པ་མཐོང་། །ཐོབ་ནོར་མ་བྱུང་ནམ་སྨད་དང་། །ཆ་བྱུང་ནམ་སྟོད་མཐོང་བར་བཤད། །སྐབས་འགར་རི་མོར་མ་ཤར་ཡང་། །ངན་ལྟས་ཡིན་གྱིས་མཐོང་བར་སྲིད། …ཐོག་མའི་ཟླ་བ་སྐར་མ་དང་། །བར་དུ་དུ་ཕོད་རྗེས་སྐར་མ། །ཟླ་གསུམ་རྫོགས་ནས་མི་ཡལ་བ། །མི་སྲིད
+
+The elapsed years ×12 (*nyi ma*) with the months elapsed since *nag pa*,
+in two places; the lower ×2 (*mig*) + 31 (*gzugs me*), over 65 (*dbang
+ro*), the quotient added: the corrected month count; +3 (*rtse mo*), over
+75 (*dbang ris*): no remainder, a comet with its smoky tail is seen,
+before dawn or in the evening by the quotient (not built: which quotient
+is meant is not clear). It may also show as an omen when the count does
+not mark it, first as a star, then with its tail, then as a star, and
+does not fade before three months are out.
+
+**The epoch.** "The years elapsed of the rab byung and the like" could be
+those of the present 60-year cycle or those since the rab byung began.
+KD restates WB's count among other comet counts (Bu ston's, Rga lo's and
+Rngog's on the corrected months with *bzang po* added; WB's with *yon
+tan*, 3), and words the years «རབ་རྒྱུན་ནས་བཟུང་འདས་པའི་ལོ» (vol. 2, p. 145, etext
+p. 165): **since the rab byung began, 1027**. Its months count from *nag
+pa*, the Kālacakra's 3rd month, so the 1st and 2nd months close the
+year before. **Built** (`MonthEntries.cometMonth`), in the month
+balloon; 2000–2049 it marks the 3rd month of 2003 and 2009, the 4th of
+2015, the 5th of 2021, the 6th of 2027 and 2033, the 7th of 2039 and the
+8th of 2045. A count, not the sky: it marks no month of the comets of
+1680 or 1682.
+
+## The eclipses: not built
+
+p. 176: «ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན་ལ་སོགས་སྙིང་པོ་འདྲི།» WB's
+reckoning is ch. 9 (vol. 1, pp. 56–70, img. 66–80), in ten sections:
+whether the moon or sun is seized, the time, the side it is seized from,
+the size, the length, the side left, the colour, the side it is released
+from, the merit multiplied, and the results by month, weekday and
+mansion (p. 63). It rests on Rāhu's head (*gdong*) and tail (*dus me*) by
+the true reckoning, ch. 5, p. 34 (img. 44), read on the scan:
+«རབ་བྱུང་ཉི་མའི(༡༧)ཐོག་མ་ཡི། །ཟླ་བ་རྣམ་པར་དག་པ་ལ། །བུ་ག་ནམ་མཁའ་འཁྲིག་པ(༢༠༩)བྱིན། །མཁའ་མེས(༣༠)བསྒྱུར་ལ་གང་བརྩི་ཡི། །ཚེས་གྲངས་བསྲེས་ལ…»:
+the corrected month count from the start of the rab byung *nyi ma*, plus
+209, ×30, with the date, over Rāhu's 230 months; his course subtracted
+from 27 mansions is the head, half a circle on the tail. The lunar rule
+(p. 59, img. 69): the moon of the full moon is the true sun plus 13;30;
+taken from Rāhu's nearer end, the moon is seized within 57 chu tshod after
+the head, 50 before the head or the tail, 45 after the tail; a head
+eclipse beyond 58 or a tail one beyond 55 is not seen.
+
+Not built, for three reasons:
+
+1. **The epoch is in doubt.** *Nyi ma* is the number word for 12: the
+   12th rab byung begins in 1687, WB's own time; the 1996 editors'
+   bracket reads 17 (1987). With 1987 Rāhu is four mansions from any
+   real eclipse. With 1687, WB's 209 carried to 1987 is 10, while KD's
+   restatements from the 17th rab byung's fire hare add *drag po*, 11
+   (vol. 2, etext p. 324), and *sor mo* (vol. 4, etext p. 375) to the
+   corrected months, and *rtsa* in another (vol. 2, etext p. 458): a
+   month apart from WB's, or counting the months otherwise. No worked
+   eclipse in WB or KD has been found to settle it (open question 16).
+2. **The solar rule needs the *byed rtsis*** (pp. 65–67, img. 75–77: the
+   *byed rtsis* governs where the two reckonings part, and the sun in the
+   east's seven mansions), which T2.23 builds.
+3. **Checked against the sky**, the lunar rule as read with the 1687
+   epoch finds 13 of the 23 lunar eclipses of 2015–2030 and marks 14 full
+   moons with none (2025's two total eclipses fall 62 and 59 chu tshod
+   from Rāhu's ends; 2028's come a month late); 80 in 2000–2049. Built
+   now, it would put eclipses on nights without one.
+
+The eclipses move to T2.23 with the *byed rtsis* (ROADMAP).
