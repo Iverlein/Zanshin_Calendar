@@ -11,7 +11,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>A day in brief, weighed as the texts rank their factors: the hours above the day, what the activity lists name good or to avoid, the day's tone and the one factor that decides it</li>
 <li>Choose a day: the best days for a work over one to twelve months, ranked as the texts weigh them, with its good hours in each month</li>
 <li>Good and bad days for cutting hair, and personal days for your birth year</li>
-<li>A round dial of the hours: the combination period of each hour, Jupiter's nectar periods, the earth lords of the hour and the black hours</li>
+<li>A round dial of the hours: the combination period of each hour, Jupiter's nectar periods, the earth lords of the hour, the black hours, what each hour is good for, the four rough times of the sun and the works an hour turns against the day</li>
 <li>The four aspects of the year (vitality, body, destiny, luck) and, for your birth year, the personal mansions and the white and black pebbles of the year, month, day and each hour</li>
 <li>Your year of age by the elemental divination of the White Beryl: the mewa (སྨེ་བ, sme ba), trigram (སྤར་ཁ, spar kha) and progressed sign (ལོག་མེན, log men) of the year, its twenty-four pebbles with their predictions, growth and decline, and the obstacle years, each with its reading</li>
 </ul>

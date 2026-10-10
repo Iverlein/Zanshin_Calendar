@@ -74,6 +74,94 @@ agreeing. This is the «རིམ་སྟོབས་གོང་དུ་བ�
   alone, with no count of sides. *Mang nyung* stands where KP's opening has
   *che chung* («ནུས་སྟོབས་ཆེ་ཆུང་གི་ཁྱད་པར»).
 
+## The hour of rule 2: WB vol. 2, p. 359
+
+Found and read 2026-10-10 for ROADMAP T2.4: the line of rule 2,
+«ཉི་མ་དུས་ཚོད་མི་འདྲ་ན། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བས་གཙོ», takes its "sharp weapon" from the
+close of WB's passage on the hours, which follows the results of the
+twelve day animals (*nyi ma bcu gnyis*, pp. 356–359, img. 364–367; the
+twelve links' days, pp. 351–356, come before them). Yigdzin-1 and MITRA
+on img. 367, with BDRC's etext as third witness; every place where they
+differ read by eye on the scan at 3–6×: «ཞོ་ཆང» (Yigdzin-1 ནོ, MITRA ཞོ),
+«ཕྱྭ་གཡང» (MITRA སྣ), «སྨྱོ་བ» (Yigdzin-1 and MITRA སྤྱོ), «ཉི་རྒས» (the etext
+ཞི་རྒྱས), «ལོ་ཡི» (MITRA ཁོ), «བྲུབ་ཁུང» (Yigdzin-1 བྲུས), «རྩུབ་མོ» (MITRA ཆུབ). The
+etext drops the line «བྱ་བ་གང་ཡང་ཤིས་མི་འགྱུར», which both readers have and the
+scan shows. The day animals' pairs before it are given for the frame
+(«ཁྱི་འབྲུག», as the etext; Yigdzin-1's བྱི is not on the scan):
+
+> …སྟག་སྤྲེལ་གཉིས་ལ་འདུན་ཁྲོམ་སྤང་། །བྱ་ཡོས་གཉིས་ལ་གཏད་སྟོན་སྤང་། །ཁྱི་འབྲུག་གཉིས་ལ་དམག་ཇག་སྤང་། །ཕག་སྦྲུལ་ཤིང་དང་ས་བརྐོ་སྤང་། །བྱི་རྟ་རྟ་རྒྱུག་དམར་བཤས་སྤང་། །གླང་ལུག་ཁྲི་བརྩིག་དར་འཕྱར་སྤང་། །ཉི་མའི་བཅོས་སྒྲིབ་རིམ་པ་རྣམས། །ལས་དམིགས་གཙོ་བོར་ཤེས་པ་དགོས། །རྒྱ་རྩིས་དུས་ཚོད་བཅུ་གཉིས་ལ། །བྱ་བ་འདི་དག་བསྒྲུབ་པ་བཟང་། །ཡོས་དུས་ཞོ་ཆང་བསྲུང་བ་དང་། །འགོང་པོའི་ཁ་ཆིངས་བྱ་བ་བཟང་། །ཉི་ཤར་འབྲུག་དུས་ཕྱྭ་གཡང་བསླན། །ཉི་དྲོས་སྦྲུལ་གྱི་དུས་དག་ཏུ། །ས་བདག་འདུལ་བའི་སྔགས་བགྲང་བཟང་། །ཉི་ཕྱེད་རྟ་ཡི་དུས་དག་ཏུ། །ཕྱིར་བཟློག་དྲག་པོའི་བཟླས་པ་ཤིས། །ཕྱེད་ཡོལ་ལུག་དུས་སྨྱོ་བ་དང་། །འབོག་པ་འདུལ་བའི་ལས་ཤིས་འགྱུར། །མྱུར་སྨད་སྤྲེའུའི་དུས་ཀྱི་ཚེ། །འགལ་བ་བསྐྲད་པའི་ལས་དག་ཤིས། །ཉི་རྒས་བྱ་དུས་སྲུང་མ་དག །བསྐང་ཞིང་མཆོད་པའི་ལས་ལ་བཟང་། །ས་སྲོད་ཁྱི་ཡི་དུས་བབ་ཚེ། །བསེ་རགས་ཁ་བཅིང་ལས་ལ་ཤིས། །སྲོད་འཁོར་ཕག་གི་དུས་དག་ལ། །གྲེ་མོ་འདུལ་བའི་ལས་དག་ཤིས། །ནམ་ཕྱེད་བྱི་བ་ཤར་བའི་དུས། །ཕྱྭ་གཡང་འགུགས་པའི་སྔགས་བགྲང་བཟང་། །ཕྱེད་ཡོལ་གླང་དུས་དྲག་སྔགས་འགྲུབ། །སྟག་དུས་དགྲ་བསད་སྔགས་འདྲེན་བཟང་། །རང་ཉིད་ལོ་ཡི་དུས་ཤར་ཚེ། །དྲག་ཅིང་རྩུབ་པའི་ལས་དག་དང་། །འདུ་ལོང་ཕོག་ཐུག་རྔམ་ཆེན་འཛེམ། །གཞན་ཡང་དུས་ཚོད་བྲུབ་ཁུང་ངམ། །བདུད་བཞི་འགྱུ་བའི་དུས་རྩུབ་མོ། །ཕྱེད་གཉིས་ཟེར་གཉིས་བཞི་པོ་ལ། །བཟློག་བསད་དྲག་པོའི་ལས་མ་གཏོགས། །བྱ་བ་གང་ཡང་ཤིས་མི་འགྱུར། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བ་ཡིན། །
+
+"The remedies and screens of the day animals are to be known with the
+work aimed at first. In the twelve hours of the Chinese reckoning these
+works are good to accomplish": in the hare hour guarding curd and beer
+and binding the mouths of the *'gong po*; at sunrise, the dragon hour,
+raising fortune and prosperity (*phywa g.yang*); when the sun is warm,
+the snake hour, reciting the mantras that tame the earth lords; at noon,
+the horse hour, fierce recitation that turns harm back; as the sun
+declines, the sheep hour, work that tames madness and fainting
+(*smyo ba*, *'bog pa*); late in the afternoon, the monkey hour, driving out
+adversity; as the sun grows old, the bird hour, fulfilment and offerings
+to the protectors; at dusk, the dog hour, binding the mouths of the *bse
+rags*; as night comes on, the pig hour, taming the *gre mo*; at midnight,
+when the mouse rises, the mantras that summon fortune; past midnight, the
+ox hour, fierce mantras succeed; in the tiger hour, mantras to slay
+enemies. "When the hour of one's own year rises, avoid fierce and harsh
+work, gatherings, confrontations and great displays (*rngam chen*).
+Moreover, in the hours' pits (*brub khung*), the rough times when the four
+māras move, the four, the two *phyed* and the two *zer*, no act at all
+turns out well but averting, killing and fierce work: the hour is a sharp
+weapon." The hours' names are KP's from daybreak ([combination-period.md](combination-period.md)),
+with *myur smad* for its *nyi myur* and *nyi rgas* for its *nyi nub*. The
+spirits as [lunar-day-signs.md](lunar-day-signs.md) found them: *bse rag*
+the ghost that eats the essence of food and wealth, *gre mo* a female
+*gdon* (*gre bo* the male); *'bog* with *smyo* is fainting, as in that
+file's «སྨྱོ་འབོག».
+
+**The four rough times.** WB does not name them. «ཕྱེད་གཉིས་ཟེར་གཉིས» comes once
+more in WB, in an invocation of the gods of the times (vol. 2, p. 134,
+img. 142, etext): «ཉི་མ་བཅུ་གཉིས་དུས་ཚོད་ལྷ། །ཕྱེད་གཉིས་ཟེར་གཉིས་རྒྱུ་བ་ཡི། །དར་ཅིག་ཡུད་ཙམ་རྒྱུ་བ་དང་»,
+times shorter than an hour; and the 1996 editors' notes (vol. 2, p. 531,
+etext p. 539) send a bride's hours to «བདུད་སྒོ་ཞེས་གུང་གཉིས་ཟེར་གཉིས་སོགས་གཞན་ནས་བཤད་པའི་དུས», the
+times called demon doors, the two *gung* and two *zer*, explained
+elsewhere. NM (p. 117, etext) lists them for a bride: «དུས་ནག་དང་ཟེར་གཉིས་གུང་གཉིས་ཏེ་དུས་ཀྱི་གྲུབ་ཁུང»,
+the black hours and the two *zer* and two *gung*, the hours' pits. BDRC's
+full-text search (2026-10-10, «ཟེར་གཉིས», «ཕྱེད་གཉིས་ཟེར་གཉིས», «གུང་གཉིས་ཟེར་གཉིས»,
+«ཟེར་གཉིས་ཏེ») finds the pair glossed in one place, a ritual manual of the
+*Rin chen gter mdzod* (Shechen 2007–2008, vol. 54, text 21, *Byang bdag
+gsung king kang dmar chung gi lag len dmigs skor gnad dril* by Blo gsal
+rgya mtsho; BDRC MW1KG14, etext VE1KG14_054, character 204 528), a fierce
+rite whose four sessions they are:
+
+> ཐུན་བཞི་ནི་གུང་གཉིས་དང་ཟེར་གཉིས་ཏེ་མཱ་ར་ཡ་ཛའི་འགྱུར་དུས་བཞི་ཟེར་བའི་ནམ་གུང་དང་ཉིན་གུང་ཞོགས་ཉི་མ་འཆར་ཀའི་ཟེར་དང་དགོང་ཉི་མ་སྡུད་པའི་ཟེར་གཉིས་ཏེ་བཞི་ལ་ཐུན་གྱི་ངོ་བོ་འགུགས་གཟིར་གསོད་སོགས་འོང་བ་བྱ
+
+"The four sessions are the two *gung* and the two *zer*, called the four
+times of Māra rāja's change: midnight and noon, the rays of the sun
+rising in the morning and the rays of the sun gathering in the evening;
+in these four the session's summoning, pressing and killing are done."
+Its four times of Māra are WB's "times when the four māras move", and its
+work in them is WB's only work that succeeds in them. A *Sgrub thabs kun
+btus* rite sets «ཟེར་གཉིས་དང་གུང་གཉིས» between its four daily sessions, and the
+*Gdams ngag mdzod* glosses «འཆར་ནུབ་ཀྱི་ཟེར་གཉིས», the rays of rising and
+setting (search snippets): the same four. Read from the etext only (the
+manual's scans are open but were not looked up).
+
+**Notes for the app** (built 2026-10-10, SPEC §5.13, §10.3):
+
+- The twelve hours' works, the own year's hour and the rough times are
+  readings of the hour, shown on the hours panel and not weighed into the
+  day. The rough times are moments, so the app takes the sun's at the
+  user's place and shows each in the hour it falls in; in Kyoto noon
+  falls in the horse hour, which the hours' names call noon, but in Lhasa
+  on Beijing's clock in the sheep hour.
+- Rule 2 sets the hour above the *nyi ma* only. The app turns, within an
+  hour, the works the day animal alone decided where the hour's own
+  readings (these, and the black hour of p. 236) name them the other
+  way. The earth lords of the hour are not among them: they sit on
+  places, and what they forbid is forbidden their way.
+- Not built: WB's own results of the twelve day animals (pp. 356–359),
+  which the app's day animal does not use (its lists are KP's); ROADMAP
+  T2.24.
+
 ## *Dmigs bsal* and *phyogs sdebs*
 
 *Dmigs bsal* is the particular case, set against the general (*spyi*,
@@ -159,9 +247,10 @@ above.
 ## Notes for the app
 
 - The *dus sbyor* is a period within the day, computed from the hours by
-  sign (KP's second part §9, img. 78–80), and so is the hour of rule 2:
-  neither is a factor of the whole day. A day reading has no hours; the
-  rules that remain are 2 (without the hour), 3 and 4.
+  sign (KP's second part §9, img. 78–80), and so is the hour of rule 2
+  (WB p. 359, above): neither is a factor of the whole day. A day reading
+  has no hours; the rules that remain for the day are 2 (without the
+  hour), 3 and 4, and the hour of rule 2 is built on the hours panel.
 - Rāhu's course by date and time is KP §7–8 (img. 76–77). The app weighs
   the White Beryl's detailed course on the sixteen dates it names, first
   of the seven ([rahu.md](rahu.md), SPEC §5.13); the course by the hour is

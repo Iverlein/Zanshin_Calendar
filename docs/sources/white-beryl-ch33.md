@@ -2,7 +2,7 @@
 
 Sigla, numbering and quoting rules are in [README.md](README.md). WB vol. 2,
 1996 Beijing edition; printed page = image number − 8. One line per
-section, from the BDRC OCR of each page (img. 305–358, 2026-10-03): enough
+section, from the BDRC OCR of each page (img. 305–358, 2026-10-03; img. 359–384, the etext, 2026-10-10): enough
 to say what a section is and where it starts, not to quote it. Sections
 already written out have their file named.
 
@@ -24,6 +24,11 @@ already written out have their file named.
 | 345–346 (353–354) | The *bla skar*, mother, friend, child and enemy mansions and the *dur skar* (great and small) by element, named by the five tones; the weekdays likewise | [personal-mansions.md](personal-mansions.md), "By element" | read 2026-10-06; the element is the great clan's (vol. 1, p. 232), or counted the same way the life force's (open question 14, answered) |
 | 347–349 (355–357) | The 27 yogas: long and short readings, those to avoid, a ranking | [yogas.md](yogas.md) | T2, yogas |
 | 349–351 (357–359) | The 11 karaṇas with woodcuts | [karanas.md](karanas.md) | T2, karaṇas |
+| 351–356 (359–364) | The days of the twelve links (*rten 'brel*), from ignorance (*ma rig pa'i nyi ma*): works, births, losses, illness, remedies; p. 356 sets the links on the hours (*ma rig* midnight …) | no | ROADMAP T2.22 |
+| 356–359 (364–367) | The twelve day animals (*nyi ma bcu gnyis*), from the tiger: works good and bad, remedies; the opposed pairs (p. 359) | no | not built: the app's day animal takes KP's lists (ROADMAP T2.24) |
+| 359 (367) | The twelve hours of the Chinese reckoning, the hour of one's own year, the four rough times; «དུས་ཚོད་མཚོན་ཆ་རྣོ་བ་ཡིན» | [weighing.md](weighing.md), *The hour of rule 2* | read 2026-10-10; built (SPEC §5.13) |
+| 359–370 (367–378) | The results of the earth lords by date: black months and days, the earth lords that move by date (strikes p. 364, sky doors pp. 368–369) | [earth-lord-courses.md](earth-lord-courses.md) | built with T2.13 |
+| 371–376 (379–384) | The combination period, sign by sign; the weighing verse (p. 376) | [combination-period.md](combination-period.md), [weighing.md](weighing.md) | built (SPEC §5.12, §5.13) |
 
 Built from this chapter: the lunar dates, the weekdays, the personal
 mansions and weekdays (p. 330), the named combinations, the element pairs,

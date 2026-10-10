@@ -973,7 +973,47 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   skor*) on through the animals, as a Gyalrong rtsis collection lays them
   out, each with what it forbids and what it does to a bride
   (`gnamKhyiPart`). On the hours panel (§10.3), not weighed.
-- **Not built**: the hour against the day's animal sign (KP's rule 2).
+- **The hours of the Chinese reckoning** (WB vol. 2, p. 359, read on the
+  scan; [sources/weighing.md](sources/weighing.md), *The hour of rule 2*):
+  after the twelve day animals' results WB names what each of the twelve
+  hours is good for, from the hare hour: guarding curd and beer and binding
+  the *'gong po*'s mouths; raising fortune and prosperity (*phywa g.yang*);
+  the mantras that tame the earth lords; fierce averting recitation; taming
+  madness and fainting fits; driving out adversity; fulfilment and
+  offerings to the protectors; binding the *bse rag*'s mouths; taming the
+  *gre mo*; the mantras that summon fortune; fierce mantras; mantras to
+  slay enemies (`Texts.HOUR_WORKS`). The hour of one's own year, the birth
+  year's animal's: fierce and harsh work, gatherings, confrontations and
+  great displays avoided (`ChineseHours.ownYearHour`, `Texts.OWN_YEAR_HOUR`).
+  The four rough times when the four māras move, «ཕྱེད་གཉིས་ཟེར་གཉིས»: in them
+  nothing turns out well but averting, killing and fierce work
+  (`Texts.ROUGH_TIME`). WB does not say which they are; a ritual manual of
+  the *Rin chen gter mdzod* (vol. 54) glosses the same pair, «གུང་གཉིས་དང་ཟེར་གཉིས»,
+  as midnight and noon and the rays of the sun rising in the morning and
+  gathering in the evening, and the *'Bras rtsis rab gsal nor bu'i me long*
+  counts them, with the black hours, among the hours to avoid for a
+  bride. They are moments: the app takes the sun's at the user's place,
+  sunrise, the transit, sunset and the transit twelve hours on, those
+  that fall within the Tibetan day from 05:00 to 05:00, and shows each in
+  the hour it falls in (`ChineseHours.roughTimes`); without a place they
+  are not shown. WB closes, «དུས་ཚོད་མཚོན་ཆ་རྣོ་བ་ཡིན», the hour is a sharp weapon.
+- **The hour above the day's animal sign** (the *kun phan me long*'s rule
+  2 from WB p. 376, «ཉི་མ་དུས་ཚོད་མི་འདྲ་ན། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བས་གཙོ»): where the day's
+  animal sign (*nyi ma*) and the hour differ, the hour leads. Within an
+  hour, a work whose side the day animal decided (§5.12, its decider the
+  day animal: no stronger voice names it) takes the side the hour's own
+  readings give it: that hour's works, its black hour, a rough time
+  falling in it and, with a birth date, one's own year's hour. A reading
+  that avoids everything turns every such good work it does not name
+  good; readings that name a work both ways turn nothing
+  (`DaySummary.overruledInHour`). The earth lords of the hour are left out:
+  they stand on places, and what they forbid is forbidden their way. The
+  hour outweighs the *nyi ma* only, the weakest of the seven; the day's
+  weighing and its lists do not change. On 5 January 2026 (a horse day)
+  consultations, good by the day animal alone, are to be avoided in the
+  rough times and the black hours; on 29 November 2026 fierce rites, which
+  it avoids, are good in the ox and tiger hours (`ChineseHoursTest`).
+  On the hours panel (§10.3).
 
 ### 5.14 The election: the best day for a work
 
@@ -1578,8 +1618,9 @@ canvas "Zanshin Calendar — basic design".
   consecutive hours of one verdict joined ("09:00–13:00"), and the nectar
   periods, each time opening the hours panel at its hour, with one
   sentence that within its hour the combination period outweighs every
-  factor of the day (WB vol. 2, p. 376) and that the nectar periods are not
-  weighed (`DayHours`).
+  factor of the day (WB vol. 2, p. 376), that an hour's own readings
+  outweigh only the day's animal sign, whose works the hours panel names
+  (§5.13), and that the nectar periods are not weighed (`DayHours`).
 - **Works** (ROADMAP U6, built 2026-10-09): between the brief and the
   Almanac, the verdicts on single works, which are results of the
   weighing and not voices in it: the haircut, weighed as §5.12 weighs every work: its
@@ -1717,7 +1758,13 @@ canvas "Zanshin Calendar — basic design".
   black hour on its hours, the earth lords of the hour on the hour's
   animal's place, the hour's *bla mkhyen* and *sa rgyal* on theirs, the
   *sa rgyal* the other way in its hour, the hidden earth lord and the sky
-  dog (§5.13), and with a birth date vitality and body; each
+  dog (§5.13), and with a birth date vitality and body. Among them the
+  hour's own readings (§5.13): "What the hour is for", a rough time with
+  its moment ("the sun's rays gathering, 16:59") where one falls in the
+  hour, "Your own year's hour" with a birth date, and "Against the day's
+  animal sign" where the hour turns works the day animal alone decided
+  ("To avoid in this hour: consultations"), its details giving the works
+  on each side. Each
   opens its reading as the day's rows do. The ring keeps the period's
   verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
 - **Sme ba in its colour:** the lunar day's number carries the square of the
