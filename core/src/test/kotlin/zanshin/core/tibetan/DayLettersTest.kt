@@ -151,4 +151,34 @@ class DayLettersTest {
         }
         assertTrue(seen.size > 100, "${seen.size} of the 108 feet")
     }
+
+    @Test
+    fun `the wheel of the hundred feet is WB's, and Krittika's fangs are p 98's`() {
+        val w = DayLetters.WHEEL
+        fun name(c: DayLetters.Cell) = when (c) {
+            is DayLetters.Cell.Star -> c.mansion?.name ?: "ABHIJIT"
+            is DayLetters.Cell.Sound -> c.letter.iast
+            is DayLetters.Cell.Sign -> c.sign.name
+            is DayLetters.Cell.DateClass -> c.dateClass.name
+        }
+        // p. 96's drawing: a in the north-east corner, i in the south-west; u, a, va, ka in the second row;
+        // Aśvinī, la, ḷ, Taurus in the third; Revatī, ca, Aries, o, dga' ba in the fourth.
+        assertEquals("a", name(w[0][0]))
+        assertEquals("i", name(w[8][8]))
+        assertEquals(listOf("BHARANI", "u", "a", "va", "ka"), w[1].take(5).map(::name))
+        assertEquals(listOf("ASHVINI", "la", "ḷ", "TAURUS"), w[2].take(4).map(::name))
+        assertEquals(listOf("REVATI", "ca", "ARIES", "o", "NANDA"), w[3].take(5).map(::name))
+        assertEquals("PURNA", name(w[4][4]))
+        assertEquals(28, w.flatten().count { it is DayLetters.Cell.Star })
+        // p. 98: a planet in Kṛttikā, right Bharaṇī, left a, Taurus, dga' and bzang, Libra and ta, Viśākhā face-on.
+        val k = DayLetters.fangs(Mansion.KRITTIKA)
+        assertEquals(listOf("BHARANI"), k.right.map(::name))
+        assertEquals(listOf("a", "TAURUS", "NANDA", "BHADRA", "LIBRA", "ta"), k.left.map(::name))
+        assertEquals("VISHAKHA", name(k.faceOn))
+        // Āśleṣā, the east side's last: its right fang runs back across the wheel to Dhaniṣṭhā, its left meets Maghā at once.
+        val a = DayLetters.fangs(Mansion.ASHLESHA)
+        assertEquals(listOf("ḍa", "CANCER", "NANDA", "RIKTA", "AQUARIUS", "ga", "DHANISHTHA"), a.right.map(::name))
+        assertEquals(emptyList<String>(), a.left.map(::name))
+        assertEquals("MAGHA", name(a.faceOn))
+    }
 }

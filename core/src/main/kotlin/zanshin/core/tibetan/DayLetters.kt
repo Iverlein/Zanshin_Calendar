@@ -308,4 +308,99 @@ object DayLetters {
         val (iast, ewts) = FEET.getValue(day.mansion)[quarter - 1]
         return Foot(day.mansion, quarter, Letter(iast, Ewts.toTibetan(ewts)!!))
     }
+
+    // The wheel of the hundred feet (ch. 12, pp. 96–97) and its fangs (p. 98).
+
+    /** A cell of the wheel: a mansion (null for Abhijit, which no day has), a letter, a sign or a class of date. */
+    sealed interface Cell {
+        data class Star(val mansion: Mansion?) : Cell
+        data class Sound(val letter: Letter) : Cell
+        data class Sign(val sign: ZodiacSign) : Cell
+        data class DateClass(val dateClass: LunarDayClass) : Cell
+    }
+
+    /**
+     * The wheel of the hundred feet (*rkang pa brgya pa*, p. 96, drawn there, its rings p. 97): eighty-one
+     * cells, nine to a side, east at the top. The vowels stand in the corners, ring by ring from the
+     * outside, north-east, south-east, south-west, north-west (p. 96, «རིམ་པར་བྱང་ཤར་ཤར་ལྷོ་དང་། །ལྷོ་ནུབ་ནུབ་བྱང་ཕྱི་རིམ་བཞིན། །ཨ་ཨཱ་ཨི་ཨཱི་ཨུ་ཨཱུ་དང་། །རྀ་རཱྀ་ལྀ་ལཱྀ་ཨེ་ཨཻ་སྟེ། །ཨོ་ཨཽ་ཨཾ་ཨཿ»);
+     * the mansions round the outer ring, seven to a side from Kṛttikā in the east, WB's twenty-eight with
+     * Abhijit after Śravaṇa; the second ring the consonants, east a va ka ha ḍa, south ma ṭa pa ra ta,
+     * west na ya bha ja kha, north ga sa da ca la; the third the signs, east Taurus to Cancer and so
+     * round to Aries in the north; at the centre the five classes, *dga' ba* east, *bzang po* south,
+     * *rgyal ba* west, *stong pa* north, *rdzogs pa* in the middle (p. 97). Each side is listed in the
+     * order the mansions go round, east left to right, south top to bottom, west right to left, north
+     * bottom to top.
+     */
+    val WHEEL: List<List<Cell>> by lazy {
+        val grid = Array(9) { arrayOfNulls<Cell>(9) }
+        fun side(ring: Int, cells: List<Cell>) {
+            val n = 8 - 2 * ring - 1
+            val q = cells.chunked(n)
+            for (i in 0 until n) {
+                grid[ring][ring + 1 + i] = q[0][i]
+                grid[ring + 1 + i][8 - ring] = q[1][i]
+                grid[8 - ring][8 - ring - 1 - i] = q[2][i]
+                grid[8 - ring - 1 - i][ring] = q[3][i]
+            }
+        }
+        val stars = listOf(
+            Mansion.KRITTIKA, Mansion.ROHINI, Mansion.MRIGASHIRAS, Mansion.ARDRA, Mansion.PUNARVASU, Mansion.PUSHYA, Mansion.ASHLESHA,
+            Mansion.MAGHA, Mansion.PURVAPHALGUNI, Mansion.UTTARAPHALGUNI, Mansion.HASTA, Mansion.CITRA, Mansion.SVATI, Mansion.VISHAKHA,
+            Mansion.ANURADHA, Mansion.JYESHTHA, Mansion.MULA, Mansion.PURVASHADHA, Mansion.UTTARASHADHA, Mansion.SHRAVANA, null,
+            Mansion.DHANISHTHA, Mansion.SHATABHISHAJ, Mansion.PURVABHADRAPADA, Mansion.UTTARABHADRAPADA, Mansion.REVATI, Mansion.ASHVINI, Mansion.BHARANI,
+        )
+        side(0, stars.map { Cell.Star(it) })
+        val consonants = listOf(
+            "a" to "a", "va" to "wa", "ka" to "ka", "ha" to "ha", "ḍa" to "Da",
+            "ma" to "ma", "ṭa" to "Ta", "pa" to "pa", "ra" to "ra", "ta" to "ta",
+            "na" to "na", "ya" to "ya", "bha" to "bha", "ja" to "dza", "kha" to "kha",
+            "ga" to "ga", "sa" to "sa", "da" to "da", "ca" to "tsa", "la" to "la",
+        )
+        side(1, consonants.map { (i, e) -> Cell.Sound(Letter(i, Ewts.toTibetan(e)!!)) })
+        side(2, (1..12).map { Cell.Sign(ZodiacSign.entries[it % 12]) })
+        grid[3][4] = Cell.DateClass(LunarDayClass.NANDA)
+        grid[4][5] = Cell.DateClass(LunarDayClass.BHADRA)
+        grid[5][4] = Cell.DateClass(LunarDayClass.JAYA)
+        grid[4][3] = Cell.DateClass(LunarDayClass.RIKTA)
+        grid[4][4] = Cell.DateClass(LunarDayClass.PURNA)
+        val vowels = listOf(
+            "a" to "ཨ", "ā" to "ཨཱ", "i" to "ཨི", "ī" to "ཨཱི", "u" to "ཨུ", "ū" to "ཨཱུ", "ṛ" to "རྀ", "ṝ" to "རཱྀ",
+            "ḷ" to "ལྀ", "ḹ" to "ལཱྀ", "e" to "ཨེ", "ai" to "ཨཻ", "o" to "ཨོ", "au" to "ཨཽ", "aṃ" to "ཨཾ", "aḥ" to "ཨཿ",
+        ).map { (i, t) -> Cell.Sound(Letter(i, t)) }
+        for (ring in 0..3) {
+            grid[ring][ring] = vowels[4 * ring]
+            grid[ring][8 - ring] = vowels[4 * ring + 1]
+            grid[8 - ring][8 - ring] = vowels[4 * ring + 2]
+            grid[8 - ring][ring] = vowels[4 * ring + 3]
+        }
+        grid.map { row -> row.map { it!! } }
+    }
+
+    /**
+     * The face-on and the two fangs from a mansion, along the wheel's two diagonals (p. 98, a planet in
+     * Kṛttikā: «གཟའ་གནས་གཡས་པ་བྲ་ཉེ་དང་། །གཡོན་པ་ཨ་ཡིག་གླང་ཁྱིམ་དང་། །དགའ་བཟང་སྲང་ཁྱིམ་ཏ་ཡིག་དང་། །ས་ག་མདུན་གྱི་བྱ་སྤོ་ལ། །གདོང་ཚུགས»): the right
+     * fang the diagonal toward the mansions before, the left the one toward those after, each cell it
+     * crosses; where the left reaches the outer ring again is the face-on, as Viśākhā is Kṛttikā's.
+     */
+    data class Fangs(val right: List<Cell>, val left: List<Cell>, val faceOn: Cell)
+
+    /** The fangs from [mansion] ([Fangs]), the moon's on the day its mansion is (p. 178, «ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ་འགོད»). */
+    fun fangs(mansion: Mansion): Fangs {
+        val wheel = WHEEL
+        val (r, c) = (0..8).flatMap { i -> (0..8).map { j -> i to j } }
+            .first { (i, j) -> wheel[i][j] == Cell.Star(mansion) }
+        // Toward the mansions before and after, as the side runs round (east left to right, …).
+        val (right, left) = when {
+            r == 0 -> (1 to -1) to (1 to 1)
+            c == 8 -> (-1 to -1) to (1 to -1)
+            r == 8 -> (-1 to 1) to (-1 to -1)
+            else -> (1 to 1) to (-1 to 1)
+        }
+        fun line(d: Pair<Int, Int>): List<Cell> = generateSequence(r + d.first to c + d.second) { (i, j) -> i + d.first to j + d.second }
+            .takeWhile { (i, j) -> i in 0..8 && j in 0..8 }
+            .map { (i, j) -> wheel[i][j] }
+            .toList()
+        val l = line(left)
+        return Fangs(line(right), l.dropLast(1), l.last())
+    }
 }
