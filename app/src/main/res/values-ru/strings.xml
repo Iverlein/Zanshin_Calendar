@@ -88,7 +88,7 @@
     <string name="tib_karana_subtitle">карана: %1$s</string>
     <string name="tib_lunar_date_title">Лунное число %1$d</string>
     <string name="tib_lunar_date_subtitle">пятеричный цикл: %1$s</string>
-    <string name="detail_hair_washing">Мытьё волос</string>
+    <string name="detail_hair_washing">Мытьё головы</string>
     <string name="detail_also_called">Также называется</string>
     <string name="section_almanac">Альманах</string>
     <string name="section_works">Дела</string>
@@ -121,8 +121,8 @@
     <string name="hours_period_sign">Восходящий знак</string>
     <string name="hours_works_title">Собственные часы дел</string>
     <string name="hours_works_subtitle">восходит %1$s: для каждого дела</string>
-    <string name="hours_note_period">Кольцо показывает период сочетания — знак, восходящий в каждый час, окрашенный благоприятным там, где его чтение велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Viṣṭi. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
-    <string name="hours_note">Внутреннее кольцо — период сочетания, знак, восходящий в каждый час, окрашенный благоприятным там, где его чтение велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Viṣṭi. Внешние кольца — жизненная сила и тело, цвет — по их камням. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
+    <string name="hours_note_period">Кольцо показывает период сочетания — знак, восходящий в каждый час, окрашенный благоприятным там, где его чтение велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Вишти. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
+    <string name="hours_note">Внутреннее кольцо — период сочетания, знак, восходящий в каждый час, окрашенный благоприятным там, где его чтение велит его использовать; точки — периоды нектара Юпитера, дуга внутри колец — отрезок Вишти. Внешние кольца — жизненная сила и тело, цвет — по их камням. Время по часам вашего места: часы идут от часа Зайца в 05:00 до часа Тигра, который кончается в 05:00 следующего утра.</string>
     <string name="pebble_subtitle_hour">%1$s: у часа — %2$s, у вас — %3$s</string>
     <string name="detail_hour">Час</string>
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
@@ -322,10 +322,10 @@
         <item quantity="other">Каждое дело решает сильнейший фактор, который его называет, так что %1$d дел сегодня всё же благоприятны.</item>
     </plurals>
     <plurals name="brief_rule_lucky">
-        <item quantity="one">Каждое дело решает сильнейший фактор, который его называет, так что %1$d дела сегодня всё же стоит избегать.</item>
-        <item quantity="few">Каждое дело решает сильнейший фактор, который его называет, так что %1$d дел сегодня всё же стоит избегать.</item>
-        <item quantity="many">Каждое дело решает сильнейший фактор, который его называет, так что %1$d дел сегодня всё же стоит избегать.</item>
-        <item quantity="other">Каждое дело решает сильнейший фактор, который его называет, так что %1$d дел сегодня всё же стоит избегать.</item>
+        <item quantity="one">Каждое дело решает сильнейший фактор, который его называет, так что сегодня всё же стоит избегать %1$d дела.</item>
+        <item quantity="few">Каждое дело решает сильнейший фактор, который его называет, так что сегодня всё же стоит избегать %1$d дел.</item>
+        <item quantity="many">Каждое дело решает сильнейший фактор, который его называет, так что сегодня всё же стоит избегать %1$d дел.</item>
+        <item quantity="other">Каждое дело решает сильнейший фактор, который его называет, так что сегодня всё же стоит избегать %1$d дел.</item>
     </plurals>
     <string name="brief_rule_hour">В свой час период сочетания перевешивает день.</string>
     <string name="hours_row_label">Часы</string>
@@ -355,9 +355,9 @@
     <string name="detail_sme_ba_count">Отсчёт от</string>
     <string name="sme_ba_count_up">дня дерева-мыши %1$s (%2$d), вперёд: после зимнего солнцестояния</string>
     <string name="sme_ba_count_down">дня дерева-мыши %1$s (%2$d), назад: после летнего солнцестояния</string>
-    <string name="detail_seven_red">«Семь красное», его место</string>
-    <string name="bla_mkhyen_compass_caption">Сегодня: %1$s, «семь красное» дня</string>
-    <string name="bla_mkhyen_square_caption">Как она находится: мева (སྨེ་བ, sme ba) дня %1$d в середине квадрата девяти, юг вверху; 7 обведено, стрелка указывает на него из середины.</string>
+    <string name="detail_seven_red">Место «семи красных»</string>
+    <string name="bla_mkhyen_compass_caption">Сегодня: %1$s, «семь красных» дня</string>
+    <string name="bla_mkhyen_square_caption">Как это находят: мева (སྨེ་བ, sme ba) дня %1$d в середине квадрата девяти, юг вверху; 7 обведено, стрелка указывает на него из середины.</string>
     <string name="desc_bla_mkhyen_compass">Сторона духа-астролога, север вверху. %1$s</string>
     <string name="tib_nectar_title">Периоды нектара</string>
     <string name="tib_rahu_title">Путь Раху</string>
@@ -439,7 +439,7 @@
     <string name="haircut_date_agrees">собственный день даты, совпадает</string>
     <string name="haircut_date_outweighed">собственный день даты, перевешен: %1$s</string>
     <string name="desc_combination_table">28 именных сочетаний дня недели и созвездия, отмечено сегодняшнее</string>
-    <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Aśvinī</string>
+    <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Ашвини</string>
     <string name="desc_lunar_dates">Тридцать лунных дат по пяти классам</string>
     <string name="lunar_date_cell">День %1$d: %2$s (%3$s) · %4$s</string>
     <string name="desc_karana_ring">Одиннадцать каран, отмечена %1$s</string>
@@ -447,7 +447,7 @@
     <string name="karana_fixed">неподвижная, раз в месяц</string>
     <string name="desc_yoga_ring">27 йог, отмечена %1$s</string>
     <string name="desc_sme_ba">Девять чисел в квадрате, отмечено число даты %1$d</string>
-    <string name="desc_moved_sme_ba">Квадрат девяти с числом дня %1$d в середине, «семь красное» обведено</string>
+    <string name="desc_moved_sme_ba">Квадрат девяти с числом дня %1$d в середине, число 7 обведено</string>
 
     <!-- The election: the best days for a work (SPEC §10.5, ROADMAP E2) -->
     <string name="menu_election">Выбрать день</string>
@@ -484,7 +484,7 @@
     <string name="election_kyu_none">Ни один день этого срока не назван для него хорошим так, чтобы другая пометка не велела его избегать.</string>
     <string name="election_kyu_disputed">Названы и хорошими, и днями, когда его избегают</string>
     <string name="election_work">Дело</string>
-    <string name="election_kyu_note">Альманах не даёт порядка. Ни одно опубликованное правило не ставит один род пометок выше другого — нижнюю полосу выше средней или лунную стоянку выше двенадцати станций, — поэтому ни один день не назван лучшим: сначала дни, которые какая-то пометка называет хорошими для дела и ни одна не велит его избегать, затем отдельно дни, названные и так и так, — каждые по порядку дат, с обеими сторонами. Пометка, называющая всё, хорошим или тем, чего следует избегать, называет и это дело. Лишь собственные правила нижней полосы откладывают некоторые пометки, как на странице дня. День, который не называет ни одна пометка, остаётся пустым, а не нейтральным.</string>
+    <string name="election_kyu_note">Альманах не даёт порядка. Ни одно опубликованное правило не ставит один род пометок выше другого — нижнюю полосу выше средней или лунную стоянку выше двенадцати станций, — поэтому ни один день не назван лучшим: сначала дни, которые какая-то пометка называет хорошими для дела и ни одна не велит его избегать, затем отдельно дни, названные и так и так, — каждые по порядку дат, с обеими сторонами. Пометка, которая называет хорошим всё или велит избегать всего, называет и это дело. Лишь собственные правила нижней полосы откладывают некоторые пометки, как на странице дня. День, который не называет ни одна пометка, остаётся пустым, а не нейтральным.</string>
     <string name="desc_election_kyu_grid">%1$s, дни для дела «%2$s»: зелёный — названы хорошими, красный — избегать, смешанный цвет — и то и другое, точка без цвета — ни одна пометка его не называет</string>
     <string name="menu_practice">ПРАКТИКА</string>
     <string name="menu_meditation">Медитация</string>
@@ -561,8 +561,8 @@
     <string name="year_section_pebbles">Камни</string>
     <string name="year_tally">Белые · чёрные</string>
     <string name="year_tally_value">%1$d · %2$d</string>
-    <string name="year_cell_subtitle">Ваше «%2$s» против «%1$s»</string>
-    <string name="year_detail_yours">%1$s, ваше «%2$s»</string>
+    <string name="year_cell_subtitle">Ваш аспект «%2$s» против знака «%1$s»</string>
+    <string name="year_detail_yours">%1$s, ваш аспект «%2$s»</string>
     <string name="year_predictive_title">%1$s: %2$s</string>
     <string name="year_predictive_white">предсказательный камень белый</string>
     <string name="year_predictive_black">предсказательный камень чёрный</string>
@@ -584,10 +584,10 @@
     <string name="time_next_morning">%1$s на следующий день</string>
     <string name="tib_mansion_then">затем %1$s с %2$s</string>
     <string name="tib_yoga_skipped">и %1$s %2$s–%3$s, пропущенная</string>
-    <string name="tib_visti_span">Viṣṭi %1$s–%2$s</string>
+    <string name="tib_visti_span">Вишти %1$s–%2$s</string>
     <string name="detail_second_mansion">Второе созвездие днём</string>
     <string name="detail_skipped_yoga">Пропущенная йога</string>
-    <string name="detail_visti">Viṣṭi</string>
+    <string name="detail_visti">Вишти</string>
     <string name="detail_from">%1$s, с %2$s</string>
     <string name="detail_span">%1$s, %2$s–%3$s</string>
     <string name="row_kalacakra">Калачакра (དུས་འཁོར, dus \'khor)</string>
@@ -620,7 +620,7 @@
     <string name="sun_term_sign">Солнце входит в знак: %1$s</string>
     <string name="detail_sun_term">Срок</string>
     <string name="detail_sun_measure">Мера солнца</string>
-    <string name="sun_measure">%1$d;%2$d — стоянки и чуцо (ཆུ་ཚོད, chu tshod) от начала Ашвини</string>
+    <string name="sun_measure">созвездий: %1$d, чуцо (ཆུ་ཚོད, chu tshod): %2$d, от начала Ашвини</string>
     <!-- An eclipse on its day (WB vol. 1, ch. 9; ROADMAP T2.23). -->
     <string name="tib_lunar_eclipse">Лунное затмение (ཟླ་འཛིན, zla \'dzin)</string>
     <string name="tib_solar_eclipse">Солнечное затмение (ཉི་འཛིན, nyi \'dzin)</string>
@@ -629,7 +629,7 @@
     <string name="hours_visti_subtitle">%1$s–%2$s</string>
     <string name="hours_black_title">Чёрный час</string>
     <string name="hours_black_subtitle">животное даты: %1$s</string>
-    <string name="hours_earth_lords_title">Хозяева земли часа</string>
+    <string name="hours_earth_lords_title">Владыки земли часа</string>
     <string name="hours_earth_lords_subtitle">на месте животного: %1$s, %2$s</string>
     <string name="hours_bla_mkhyen_title">Дух-астролог часа</string>
     <string name="hours_sa_rgyal_title">Царь земли часа</string>
