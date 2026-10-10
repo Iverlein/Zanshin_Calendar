@@ -1661,7 +1661,8 @@ canvas "Zanshin Calendar — basic design".
 - **Every term is translated.** Each kanji opens a balloon with its English
   and reading; these carry no dotted underline. A Tibetan term shows as its
   English name with its script and Wylie in brackets (§8.1), in rows and
-  labels as in running text; tapping it opens a balloon with how it is
+  labels as in running text (the Lunar day section's row labels excepted,
+  §10.3: short names, their brackets in what the row opens); tapping it opens a balloon with how it is
   said, and screen readers read the pronunciation (§10.3).
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
   mark; tapping one opens a sheet with its reading, "good for" and "avoid";
@@ -1850,12 +1851,19 @@ canvas "Zanshin Calendar — basic design".
   cycle's animal the "day sign", and the date's animal
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
-  are not taken for one. After the date's sme ba come the letters of the
+  are not taken for one. The section's labels are short names on one line,
+  with no Tibetan bracket ("Date's animal", "Date's mewa", "Kālacakra",
+  "Vowel rising", "Twelve links", "Hundred feet"; decided by the owner,
+  2026-10-10): each word is named as §8.1 writes it where its row leads,
+  the date's animal in its sheet's "Tibetan" line, the sme ba in its
+  row's balloon, and the letters in their readings' first sentence, so
+  that the label column holds no long terms. A plain value sits on its
+  label's baseline. After the date's sme ba come the letters of the
   day (§5.11), each row opening its reading with how it is worked out:
   "Kālacakra" with the date's syllable and its element and sense object
   ("nā (ནཱ) · space, sound"), its sheet the vowel, the syllable, the
   element and object named as §8.1 writes them, the half (arising or
-  gathered back) and the month's sign; "Rising of the vowels" with the
+  gathered back) and the month's sign; "Vowel rising" with the
   vowel and consonant, element, object and stage ("o da (ཨོ ད) · space,
   sound · ripe"); "Twelve links" with the day's link as a Tibetan term, its
   sheet counting the day from the middle term ("day 4 of 31 from the
