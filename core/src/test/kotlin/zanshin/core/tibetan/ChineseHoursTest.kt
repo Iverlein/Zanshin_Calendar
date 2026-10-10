@@ -81,14 +81,15 @@ class ChineseHoursTest {
 
     @Test
     fun `the hour turns what the day's animal sign alone decided`() {
-        // 5 January 2026, a horse day: consultations are good by the day's animal sign only; in a rough
-        // time and in the day's black hours (the bird and the hare) nothing but fierce work turns out well.
+        // 5 January 2026, a horse day: consultations, and seeking friends (the horse's results, WB vol. 2,
+        // p. 357), are good by the day's animal sign only; in a rough time and in the day's black hours (the
+        // bird and the hare) nothing but fierce work turns out well.
         val horseDay = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 5)))
         val consult = horseDay.activities.single { it.activity == Activity.CONSULTATIONS }
         assertEquals(DayFactor.DAY_ANIMAL, consult.decider)
         assertEquals(Tone.GOOD, horseDay.sideOf(Activity.CONSULTATIONS)!!.first)
         for (hour in listOf(Texts.ROUGH_TIME, Texts.BLACK_HOUR)) {
-            assertEquals(listOf(Activity.CONSULTATIONS to Tone.BAD), horseDay.overruledInHour(listOf(hour)).map { it.first.activity to it.second })
+            assertEquals(listOf(Activity.CONSULTATIONS to Tone.BAD, Activity.FRIENDSHIP to Tone.BAD), horseDay.overruledInHour(listOf(hour)).map { it.first.activity to it.second })
         }
         // 29 November 2026: fierce rites, which the day's animal sign avoids, are good in the hours named for fierce mantras.
         val day = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 29)))

@@ -178,6 +178,8 @@ object Sources {
     /** Chapter 34, the important works one by one, whose lists the kun phan me long's boxes digest (SPEC §5.10). */
     val WHITE_BERYL_WORKS = whiteBeryl("pp. 378–428")
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
+    /** The results of the twelve day animals, the *nyi ma*, and the six opposed pairs (docs/sources/day-animals.md). */
+    val WHITE_BERYL_DAY_ANIMALS = whiteBeryl("pp. 356–359")
     /** The earth lords that move by date (ch. 31), with their results in ch. 33 (the strikes p. 364, the sky doors pp. 368–369). */
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
     /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */
@@ -693,8 +695,24 @@ object Texts {
     val ELECTIONAL_DATE: Map<Int, Reading> = (1..30).associateWith { d ->
         electional("date", Electional.good { d in it.dates }, Electional.bad { d in it.dates })
     }
+    /**
+     * The day animal's lists: the White Beryl's results of the twelve day animals first ([DayAnimalVerses]),
+     * then the activity lists without the works the White Beryl names the other way, since it counts above
+     * them (SPEC §5.10).
+     */
     val ELECTIONAL_ANIMAL: Map<Animal, Reading> = Animal.entries.associateWith { a ->
-        electional("animal", Electional.good { a in it.animals }, Electional.bad { a in it.animals })
+        val (verseGood, verseAvoid) = DayAnimalVerses.LISTS.getValue(a)
+        fun against(side: List<String>): (String) -> Boolean {
+            val named = Activities.of(side)
+            return { key -> Activities.of(listOf(key)).any { it in named } }
+        }
+        Reading(
+            goodKeys = (verseGood + Electional.good { a in it.animals }.filterNot(against(verseAvoid))).distinct(),
+            avoidKeys = (verseAvoid + Electional.bad { a in it.animals }.filterNot(against(verseGood))).distinct(),
+            source = Sources.WHITE_BERYL_DAY_ANIMALS,
+            also = listOf(Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_WORKS, Sources.HENNING_ELECTIONAL),
+            key = "reading.Electional", arg = "reading.Electional.animal",
+        )
     }
     /**
      * The lunar date's animal, the *nyi ma* (open question 9): where the earth
@@ -702,13 +720,13 @@ object Texts {
      * house, where the hearth god is, and the earth lord who witnesses it,
      * all for the reckoning of the dead (WB vol. 2, pp. 223–226, and the *kun
      * phan me long*'s chart, img. 103; docs/sources/earth-lords.md), with
-     * the activity lists' good and bad for a day of that animal.
+     * the day animal's lists ([ELECTIONAL_ANIMAL]): the White Beryl's results of the day animals and the activity lists.
      */
     val EARTH_LORD: Map<Animal, Reading> = Animal.entries.associateWith { a ->
         val lists = ELECTIONAL_ANIMAL.getValue(a)
         Reading(
             goodKeys = lists.goodKeys, avoidKeys = lists.avoidKeys, source = Sources.WHITE_BERYL_EARTH_LORDS,
-            also = listOf(Sources.KUN_PHAN_ME_LONG_EARTH_LORDS, Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
+            also = listOf(Sources.KUN_PHAN_ME_LONG_EARTH_LORDS, Sources.WHITE_BERYL_DAY_ANIMALS, Sources.HENNING_ELECTIONAL, Sources.KUN_PHAN_ME_LONG),
             key = "reading.EarthLord", arg = "reading.EarthLord.${a.name}",
         )
     }

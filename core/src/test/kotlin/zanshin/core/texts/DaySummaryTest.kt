@@ -14,6 +14,7 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.CombinationDay
+import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.ZodiacSign
@@ -96,8 +97,8 @@ class DaySummaryTest {
         assertEquals(listOf("Raven", "Fire – Water", "Viṣṭi"), s.byTone.getValue(Tone.BAD).map { it.kanji })
         assertEquals(setOf(Tone.BAD), s.byTone.keys)
         // Funerals: every factor that names them avoids them, the 22nd with the White Beryl's chapter 34 (p. 414);
-        // the trigram's list stands beside them.
-        assertEquals(listOf("Sunday", "Ārdrā", "day 22", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
+        // the trigram's list stands beside them, and the pig's results in the White Beryl (vol. 2, p. 358).
+        assertEquals(listOf("Sunday", "Ārdrā", "day 22", "Pig", "Khon"), s.activities.single { it.activity == Activity.FUNERALS }.avoid.map { it.kanji })
         // Destroying: the element pair, the death combination, names it good itself, and the others that agree
         // stand beside it. Rāhu's autumn course (fierce work good on the 22nd, WB p. 239) is not among them: its
         // chapter counts the Chinese seasons, in which the 9th month is mid-winter.
@@ -210,7 +211,7 @@ class DaySummaryTest {
     fun `the counts beside the Tibetan line`() {
         // The row's counts (ROADMAP T2.7): every work on one side, so they add up to the day's works.
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(55 to 36, s.good.size to s.avoid.size)
+        assertEquals(57 to 38, s.good.size to s.avoid.size)
         // Days whose lists run against their tone, more than twice as many works on the other side (SPEC §5.12).
         var date = LocalDate.of(2000, 1, 1)
         var against = 0
@@ -225,8 +226,9 @@ class DaySummaryTest {
             if (other > 2 * with) against++
             date = date.plusDays(1)
         }
-        // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier.
-        assertEquals(2067, against)
+        // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier, 2067 before
+        // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24).
+        assertEquals(2018, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -245,6 +247,26 @@ class DaySummaryTest {
             listOf(ActivityFamily.WEDDING, ActivityFamily.FUNERAL, ActivityFamily.SACRED, ActivityFamily.DISPUTE),
             avoid.map { it.activity.family },
         )
+    }
+
+    @Test
+    fun `the day animal speaks with the White Beryl's results`() {
+        fun decided(date: LocalDate, work: Activity): Pair<Tone, List<String>> {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val n = s.activities.single { it.activity == work }
+            assertEquals(DayFactor.DAY_ANIMAL, n.decider, "$date $work")
+            return s.sideOf(work)!!.first to (n.good + n.avoid).map { it.kanji }
+        }
+        // 4 October 2026, a horse day: its results name seeking friends good (WB vol. 2, p. 357), which no list does.
+        assertEquals(Tone.GOOD to listOf("Horse"), decided(LocalDate.of(2026, 10, 4), Activity.FRIENDSHIP))
+        // 3 October 2026, a snake day: cutting forests is to be avoided (p. 357).
+        assertEquals(Tone.BAD to listOf("Snake"), decided(LocalDate.of(2026, 10, 3), Activity.FELLING_TREES))
+        // 7 October 2026, a dog day: feasts are good by the activity lists, of which the dog's results say nothing.
+        assertEquals(Tone.GOOD to listOf("Dog"), decided(LocalDate.of(2026, 10, 7), Activity.FEASTS))
+        // 6 December 2026, a pig day: the lists avoid suppressing the sri, the pig's results name it good (p. 358),
+        // and the White Beryl, above them, decides.
+        assertTrue("suppressing_sri" in Electional.bad { Animal.PIG in it.animals })
+        assertEquals(Tone.GOOD to listOf("Pig", "Gin"), decided(LocalDate.of(2026, 12, 6), Activity.SUPPRESSING_SRI))
     }
 
     @Test

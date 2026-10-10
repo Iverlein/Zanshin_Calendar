@@ -87,7 +87,7 @@ class ElectionTest {
         fun best(work: Activity) = span.election(work).best.filter { it.date.monthValue == 10 }.map { it.date.dayOfMonth }
         fun avoid(work: Activity) = span.election(work).days.filter { it.date.monthValue == 10 && it.side == Tone.BAD }.map { it.date.dayOfMonth }
         assertEquals(listOf(26, 2, 16, 23, 30, 14, 12, 7, 19, 21, 28, 5, 9), best(Activity.HAIRCUTS))
-        assertEquals(listOf(26, 19, 7, 14, 16, 2, 23, 30, 1, 5, 12, 29, 8, 9, 15, 22), best(Activity.WEDDING))
+        assertEquals(listOf(26, 19, 7, 14, 16, 2, 23, 30, 5, 29, 1, 8, 9, 12, 15, 22), best(Activity.WEDDING))
         assertEquals(listOf(28, 23, 2, 30, 16, 15, 22, 21, 7, 9, 29, 1, 8, 14, 25, 11), best(Activity.JOURNEY))
         // The site's days to avoid are ours, but for the wedding on the 7th (its element pair) and setting out on the 11th.
         assertTrue(avoid(Activity.HAIRCUTS).containsAll(listOf(10, 17, 20)))
