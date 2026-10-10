@@ -59,6 +59,7 @@ import zanshin.core.texts.toneOf
 import zanshin.core.texts.sharedTone
 import zanshin.core.astro.Place
 import zanshin.core.tibetan.DaySigns
+import zanshin.core.tibetan.Eclipses
 import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.GreatBlackDay
@@ -412,6 +413,19 @@ fun TibetanPage(
         val annotations = buildList {
             // The festival is the headline, which opens its reading; the Almanac does not repeat it.
             day.specialDay?.let { add(Annotation(it.english, observance, Tone.GOOD, Texts.SPECIAL_DAY[it], titleIsKanji = false)) }
+            // An eclipse by WB's reckoning (vol. 1, ch. 9): a day of multiplied virtue, naming no works, so shown and not weighed.
+            Eclipses.of(day)?.let { eclipse ->
+                val moon = eclipse.body == Eclipses.Body.MOON
+                add(
+                    Annotation(
+                        stringResource(if (moon) R.string.tib_lunar_eclipse else R.string.tib_solar_eclipse),
+                        stringResource(if (moon) R.string.tib_lunar_eclipse_subtitle else R.string.tib_solar_eclipse_subtitle),
+                        Tone.NEUTRAL,
+                        if (moon) Texts.LUNAR_ECLIPSE else Texts.SOLAR_ECLIPSE,
+                        titleIsKanji = false,
+                    ),
+                )
+            }
             // The day's readings in the rank of the White Beryl and the kun phan me long (SPEC §5.12):
             // the combination, Rāhu, the weekday and the mansion, the special days, the date, karaṇa and yoga.
             val great = day.greatCombination

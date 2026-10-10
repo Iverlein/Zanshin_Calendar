@@ -621,6 +621,11 @@
     <string name="detail_sun_term">Срок</string>
     <string name="detail_sun_measure">Мера солнца</string>
     <string name="sun_measure">%1$d;%2$d — стоянки и чуцо (ཆུ་ཚོད, chu tshod) от начала Ашвини</string>
+    <!-- An eclipse on its day (WB vol. 1, ch. 9; ROADMAP T2.23). -->
+    <string name="tib_lunar_eclipse">Лунное затмение (ཟླ་འཛིན, zla \'dzin)</string>
+    <string name="tib_solar_eclipse">Солнечное затмение (ཉི་འཛིན, nyi \'dzin)</string>
+    <string name="tib_lunar_eclipse_subtitle">все дела умножаются в семьдесят миллионов раз</string>
+    <string name="tib_solar_eclipse_subtitle">все дела умножаются в миллион миллионов раз</string>
     <string name="hours_visti_subtitle">%1$s–%2$s</string>
     <string name="hours_black_title">Чёрный час</string>
     <string name="hours_black_subtitle">животное даты: %1$s</string>

@@ -741,6 +741,11 @@
     <string name="detail_sun_term">The term</string>
     <string name="detail_sun_measure">The sun\'s measure</string>
     <string name="sun_measure">%1$d mansions %2$d chutsö (ཆུ་ཚོད, chu tshod) past the start of Aśvinī</string>
+    <!-- An eclipse on its day (WB vol. 1, ch. 9; ROADMAP T2.23). -->
+    <string name="tib_lunar_eclipse">Lunar eclipse (ཟླ་འཛིན, zla \'dzin)</string>
+    <string name="tib_solar_eclipse">Solar eclipse (ཉི་འཛིན, nyi \'dzin)</string>
+    <string name="tib_lunar_eclipse_subtitle">all deeds multiplied seventy million times</string>
+    <string name="tib_solar_eclipse_subtitle">all deeds multiplied a million million times</string>
     <string name="hours_visti_subtitle">%1$s–%2$s</string>
     <string name="hours_black_title">Black hour</string>
     <string name="hours_black_subtitle">the date\'s animal: %1$s</string>
