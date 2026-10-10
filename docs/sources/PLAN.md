@@ -150,7 +150,15 @@ are in the README.
 **BDRC full-text search** is a single-page app, so read it in a browser:
 `https://library.bdrc.io/osearch/search?q="<Tibetan>"&uilang=en`. It
 searches the OCR of thousands of works, rtsis manuals and almanacs
-included, and is how NM and SY were found.
+included, and is how NM and SY were found. Many searches in a row run
+from one open search page, each in an `<iframe>` of the same origin,
+read after about nine seconds (2026-10-10). A hit's own etext may be
+**search only** (OS, MK, BS): `etextchunks` answers 403 and the viewer
+shows a snippet of about 300 characters. Read the snippet, search its
+last words for the next one, and read the page itself on the lent scan:
+the viewer's "Page N" of a hit is the leaf, not the printed page (OS:
+"Page 1358" = leaf 1358 = p. 1303). The verse quoted in a snippet is
+often the running head, not the text (OS's «རྩིས་རིག་འོད་ཕྲེང་སོ་གཅིག་པ། རིགས་ལྡན་མཆོད་པའི་འོད་སྣང»).
 
 **Page images** (IIIF): `https://iiifpres.bdrc.io/collection/wio:bdr:<MW id>`
 lists the volume manifests; each canvas has a service `@id`, and
@@ -219,6 +227,13 @@ Searched and found wanting, so not to be repeated:
   703 px wide; read as served it gives noise (8% of syllables agree), at
   3× upscaled 76%, its flags almost all its own (dropped vowel signs, ལྷ
   for ཉ). BDRC's etext is the third witness to use.
+- **WB's eclipse exceptions in other manuals** (p. 64, open question 18,
+  2026-10-10): CN's eclipse section has none; KD vol. 2, etext
+  pp. 106–108, reprints WB's chapter; the Kālacakra commentaries at hand
+  (Phyogs las rnam rgyal's *mchan 'grel*, the Jo nang *rtsis* volume)
+  say nothing of Mercury or Venus at an eclipse. JL and OS restate the
+  lines; no text found names the places the Mercury and Venus clause
+  compares.
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.

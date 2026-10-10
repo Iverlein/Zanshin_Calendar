@@ -318,7 +318,21 @@ moon less the tail). The T2.21 trial used the true reckoning's sun.
 **The solar rule** (p. 65, img. 75): «གདོང་གིས་ཉི་སྦྱངས་སྐར་གནས་སྟོངས། །གོ་མ་ལོག་པའི་རི་མོ་སྟེ། །ཆུ་ཚོད་མིག་དབང་བར་དུ་འཛིན། །ཉི་མས་གདོང་སྦྱངས་གདོང་པ་ཐུང་། །གོ་ལྡོག་ཅེས་གྲགས་ཆུ་ཚོད་མདའ། །ལྷག་ན་འཛིན་པ་མ་ཡིན་ནོ། །དུས་མེས་ཉི་སྦྱངས་མཇུག་མ་རིང་། །དེ་ཡང་གོ་ལྡོག་ཅེས་གྲགས་པས། །སྐར་ཐིག་ཆུ་ཚོད་རི་ཙམ་འཛིན། །ཉི་མས་དུས་མེ་སྦྱངས་པ་ན། །མ་ལྡོག་མཁའ་ཆུའི་ནང་ཚུན་འཛིན»:
 the sun past the head by 52, before it by 5, past the tail by 0;7, before
 it by 40; and «བྱེད་གྲུབ་ཁྱད་རྣམས་གོང་སྨྲས་ཀྱི། །ཁྱད་པར་ཙམ་ལས་བྱེད་རང་གཙོ», the *byed rtsis* is the
-principal. p. 64's two exceptions are open question 18.
+principal.
+
+**p. 64's two exceptions** (img. 74; open question 18, answered as far
+as the sources go): «ཉི་མ་ལྷོ་བགྲོད་ཀརྐ་ཊའི་ཁྱིམ། །འཁྱོག་འགྲོས་དང་པོའི་ཉིན་ཞག་ནི། །གནམ་སྟོང་འགྲིག་ན་མི་འཛིན་བཞེད། །གཞན་ཡང་ལྷག་པ་པ་སངས་གཉིས། །གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད».
+The crooked motion is the sun's (OS pp. 1302–1303, JL; README), counted
+on the sun's own equation (p. 32): its first day is the mean sun's
+entry into 20;15, Capricorn, as the sun turns north, while Cancer is
+where it turns south; the line names the two turnings. Both readers
+make these days hard to seize (JL «འཛིན་པ་དཀའ»; OS «གཞི་ནས་མི་འཛིན་ངེས་བཅད་དཀའ»), not
+days with none, WB's own word being «བཞེད», "is held". Which places of
+Mercury and Venus the second compares, and why 135 chu tshod, no source
+found says. Applied, each reading removes real eclipses: the crooked
+motion's first day 2010-01-15; the sun in Cancer 2008-08-01,
+2009-07-22, 2026-08-12, 2027-08-02, 2045-08-12; Mercury or Venus by the
+true reckoning nearly all. The app applies neither.
 
 **Against the sky**, 2000–2049 (Meeus, ch. 54; `EclipsesTest`): every one
 of the 79 full moons the lunar rule marks has a lunar eclipse (65 of the

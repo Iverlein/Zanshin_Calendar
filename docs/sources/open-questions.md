@@ -279,16 +279,75 @@ the text, not about the app.
     reckoning. A printed almanac in WB's tradition, or a manual's gloss on
     the line, would settle it ([day-letters.md](day-letters.md)).
 
-18. **WB vol. 1, p. 64 (img. 74): what do the solar eclipse's two
-    exceptions mean?** «ཉི་མ་ལྷོ་བགྲོད་ཀརྐ་ཊའི་ཁྱིམ། །འཁྱོག་འགྲོས་དང་པོའི་ཉིན་ཞག་ནི། །གནམ་སྟོང་འགྲིག་ན་མི་འཛིན་བཞེད། །གཞན་ཡང་ལྷག་པ་པ་སངས་གཉིས། །གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད»:
+18. **Answered as far as the sources go, 2026-10-10. WB vol. 1, p. 64
+    (img. 74): what do the solar eclipse's two exceptions mean?** The
+    crooked motion is the sun's, and the first day of it is the mean
+    sun's entry into Capricorn; both readers who restate the lines make
+    them days on which the sun is hard to seize, not days on which it is
+    never seized; which places of Mercury and Venus the second compares
+    no source found says. The app keeps applying neither
+    ([month-entries.md](month-entries.md), "p. 64's two exceptions").
+
+    - **The sun's.** OS (pp. 1302–1303, archive.org `bdrc-W1PD95727-1`,
+      leaves 1357–1358, read on the scan): «ཉི་མའི་འཁྱོག་འགྲོས་ཐོག་མའི་ཉིན། །སྟོང་ལ་མ་ཕོག་དགོས་པས་དེ། །འཁོར་ཕྱེད་དོར་ན་རིམ་མིན་དང་། །མ་དོར་རིམ་པར་ཤེས་པར་བྱ། །རིམ་པའི་སྔ་རྐང་མྱུར་འགྲོས་ཤར། །ཕྱི་རྐང་དལ་བའི་འགྲོས་ཏེ་ལྷོ། །རིམ་མིན་སྔ་རྐང་འཁྱོག་འགྲོས་ནུབ། །ཕྱི་རྐང་འབྱུང་འགྲོས་བྱང་ཞེས་བྱ།»:
+      the first day of the sun's crooked motion must not fall on the new
+      moon; it is known by the half circle, dropped "out of order", kept
+      "in order", the first steps out of order being the crooked motion.
+      A page earlier OS gives the moon's four motions apart, by WB
+      p. 59's fourteens («རྙེད་མཉམ་སྔ་རྐང་མྱུར་འགྲོས་ཤར། …ཟླ་བའི་འགྲོས་བཞིའང་བརྩི་བ་གནད»), so the
+      two are not confused. JL puts the four motions on the sun in the
+      same place of its list: «དེ་ལ་སྒྲ་གཅན་མཐོ་དམའ་མེད། །རྟ་བདུན་ལ་ནི་འགྲོས་བཞི་དང་། …ལྷོ་བགྲོད་ཀཊའི་ཁྱིམ་ནང་དུ། །འཁྱོག་འགྲོས་དང་པོའི་ཉིན་ཞག་དང་། །ལྡོག་གཉིས་ཕྱོགས་ལ་ཉེ་བ་དང་། །ཚེས་གྲངས་ལྷག་ཆད་གཏུགས་པ་དང་། །ཞི་གཟའ་གཉིས་དང་ལྷན་ཅིག་ཚོགས། …འཛིན་པ་དཀའ»
+      (etext of MW20559, p. 92; «རྟ་བདུན», the seven-horsed sun, read on
+      the open print's scan, I1KG10198 img. 437, line 2, at 3×, where the
+      first etext has «རྟ་བ་ན» and the second «རྟ་བདུན་ལ་ནི་ས་འགོས་བ»).
+      WB p. 13 says every body runs the four motions («ཀུན་ཀྱང་འགྲོས་བཞི་བགྲོད་རྒྱུ»).
+    - **When.** The half circle dropped is the sun's own equation's
+      (p. 32, «ཉི་བར་གཅིག་ལ་སྐར་དྲུག་དང་། །ཞེ་ལྔས་སྦྱངས་ལ་མ་ལྡངས་ན། །འཁོར་ལོ་བསྣན་ལ་འཁོར་ཕྱེད་དོར»): the mean sun
+      less 6;45, the half dropped from 13;30 on. In order, then, the fast
+      motion runs from the mean sun's 6;45 (Cancer) and the slow from
+      13;30 (Libra); out of order the crooked motion from 20;15
+      (Capricorn) and the emerging from 0;0 (Aries). The crooked motion
+      never falls in Cancer: read as one condition, WB's two lines could
+      never meet. Read as two, they are the two turnings, the sun in
+      Cancer as it turns south and the first day of its crooked motion as
+      it turns north, as OS's next lines say of the solstices
+      («དབྱར་དགུན་ཉི་ལྡོག་དང་ཉེ་ཡང་། །མི་འཛིན་གསུངས་མོད་») and JL's «ལྡོག་གཉིས་ཕྱོགས་ལ་ཉེ་བ».
+    - **Not "never".** WB says «བཞེད», "is held". JL's verdict on the whole
+      list is «འཛིན་པ་དཀའ», hard to seize. OS's: «འདི་འདྲའི་སྐབས། །ཆ་ལ་གནོད་པ་སྲིད་ན་ཡང་། །གཞི་ནས་མི་འཛིན་ངེས་བཅད་དཀའ»,
+      the part seized may suffer, but that it is not seized at all is
+      hard to decide.
+    - **Against the sky** (the app's 33 solar eclipses of 2000–2049, all
+      real): the mean sun reaches 20;15 on the new moon of 2010-01-15,
+      an annular eclipse; the *byed rtsis* sun is in Cancer on 2008-08-01,
+      2009-07-22, 2026-08-12, 2027-08-02 and 2045-08-12. Read as the
+      moon's motion (the 14th of its 28 steps beginning on the 30th, with
+      the sun in Cancer), the line strikes 2009-07-22. Every reading that
+      strikes, strikes a real eclipse.
+    - **Mercury and Venus, still open.** Read as the true reckoning's
+      places, the second exception strikes real eclipses: Mercury is in
+      the sun's mansion on 2001-12-14, 2005-10-03, 2016-09-01,
+      2024-04-08, 2028-01-26 and 2042-04-20, Venus on 2034-03-20 and
+      2038-01-05, and one of the two is within 135 chu tshod of the sun
+      at 31 of the 33. 135 chu tshod is more than two mansions, so the
+      number and "one mansion" do not sit together. JL has only «ཞི་གཟའ་གཉིས་དང་ལྷན་ཅིག་ཚོགས», OS only
+      «ཉི་མ་འཁྲུག[འཁྲིག]་གཞུའི་ཁྱིམ་ཏཏྐཱ་ལ། །ལྷག་སངས་མ་འཛོམས་དགོས་པར་གྲགས»
+      (p. 1302, on the scan), neither which places nor the 135.
+    - **Searched and found wanting** (2026-10-10): CN's eclipse
+      section (no exception); Phyogs las rnam rgyal's *Dus 'khor mchan
+      'grel* (MW1PD95814), the Jo nang *Dus 'khor rtsis* volume
+      (VEIE0OPIC27C544C_I1KG9046), Blo bzang tshul khrims's works
+      (MW23151) and the *'Khrul 'joms* (MW1KG9015) for the planets' and
+      the sun's motions near an eclipse; BDRC's full-text search for
+      «ཉི་མའི་འཁྱོག་འགྲོས» (OS only), «འཁྱོག་འགྲོས་དང་པོ», «ཞི་གཟའ་གཉིས་དང་ལྷན་ཅིག»
+      (JL only), «བཟུང་མི་སྲིད», «མི་འཛིན་བཞེད» (WB's prints and reprints only),
+      «ལྷག་པ་པ་སངས་གང་རུང», «ལྷག་སངས་གང་རུང», «ཉི་འཛིན་མི་སྲིད», «ཉི་མའི་འགྲོས་བཞི»
+      (none). KD vol. 2, etext pp. 106–108, reprints WB's chapter with a
+      few glosses, none on these lines.
+
+    The question as first put: «ཉི་མ་ལྷོ་བགྲོད་ཀརྐ་ཊའི་ཁྱིམ། །འཁྱོག་འགྲོས་དང་པོའི་ཉིན་ཞག་ནི། །གནམ་སྟོང་འགྲིག་ན་མི་འཛིན་བཞེད། །གཞན་ཡང་ལྷག་པ་པ་སངས་གཉིས། །གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད»:
     with the sun in Cancer on its southward course, a new moon on the
     first day of the crooked motion is held not to be seized; and none
     is when Mercury or Venus is with the sun in one mansion within 135
-    chu tshod. Read as the planets' places of the true reckoning, the
-    second strikes real eclipses: Mercury is in the sun's mansion on
-    2001-12-14, 2016-09-01 and 2024-04-08, and within 135 chu tshod of
-    the sun on nearly every new moon. Whose crooked motion, the moon's
-    (p. 59's four motions by its anomaly) or a planet's, and which
-    places the second compares are not said. Until a manual's gloss or
-    a worked eclipse settles them, the app applies neither
-    ([month-entries.md](month-entries.md)).
+    chu tshod. Whose crooked motion, the moon's (p. 59's four motions by
+    its anomaly) or a planet's, and which places the second compares are
+    not said.

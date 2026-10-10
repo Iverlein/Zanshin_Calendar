@@ -729,7 +729,10 @@ English (§8.1), each reading citing its pages:
   lunar eclipse, a million million times at a solar one. It names no
   works, so it is shown and not weighed. Not built: the eclipse's time,
   size, length and results (sections 2–8 and 10), which name no works
-  either, and p. 64's two exceptions for the sun (open question 18).
+  either, and p. 64's two exceptions for the sun, the two turnings and
+  Mercury or Venus with it, which WB's readers make days on which the
+  sun is hard to seize, not days without an eclipse, and which would
+  remove real eclipses (open question 18).
 - **What WB's month heading writes and the app leaves out** (the owner,
   2026-10-10: what can neither be used nor change the weights or the
   verdict is not shown): the *byed rtsis*'s own omitted and doubled dates

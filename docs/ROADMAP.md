@@ -699,9 +699,12 @@ it. It is item E below, built 2026-10-09.
   full and new moon, Rāhu's figure, the Kar myang Lord's meeting.
   **Not built:** the eclipse's time, size, length and results (ch. 9,
   sections 2–8 and 10), which name no works, and p. 64's two exceptions
-  for the sun (Mercury or Venus with it; the sun in Cancer on the first
-  day of the crooked motion), which the sky contradicts as read (open
-  question 18). Checked on the emulator in English and Russian.
+  for the sun (Mercury or Venus with it; the sun in Cancer, and the
+  first day of the sun's crooked motion, its entry into Capricorn),
+  which WB's readers make "hard to seize" rather than "not seized" and
+  the sky contradicts as read (open question 18, answered 2026-10-10
+  as far as the sources go). Checked on the emulator in English and
+  Russian.
 
 #### T2.24 The day animals by WB — built 2026-10-10 (SPEC §5.10)
 
