@@ -384,7 +384,11 @@ object DayLetters {
      */
     data class Fangs(val right: List<Cell>, val left: List<Cell>, val faceOn: Cell)
 
-    /** The fangs from [mansion] ([Fangs]), the moon's on the day its mansion is (p. 178, «ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ་འགོད»). */
+    /**
+     * The fangs from [mansion] ([Fangs]). Over each mansion the almanac writes those of the bodies in it
+     * (p. 178, «ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས», the five planets, Rāhu and the sun, and «ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ»,
+     * the moon's), the eight bodies whose strikes ch. 12 reckons (p. 97); the app has the moon's and the sun's.
+     */
     fun fangs(mansion: Mansion): Fangs {
         val wheel = WHEEL
         val (r, c) = (0..8).flatMap { i -> (0..8).map { j -> i to j } }
@@ -403,4 +407,7 @@ object DayLetters {
         val l = line(left)
         return Fangs(line(right), l.dropLast(1), l.last())
     }
+
+    /** The sun's mansion on [day]: the almanac's true sun at the end of the day's date. */
+    fun sunMansion(day: TibetanDay): Mansion = Mansion.entries[(day.sun.toDouble() * 27).toInt().coerceIn(0, 26)]
 }

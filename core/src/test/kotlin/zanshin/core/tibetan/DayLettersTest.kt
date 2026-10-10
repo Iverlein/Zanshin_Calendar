@@ -180,5 +180,7 @@ class DayLettersTest {
         assertEquals(listOf("ḍa", "CANCER", "NANDA", "RIKTA", "AQUARIUS", "ga", "DHANISHTHA"), a.right.map(::name))
         assertEquals(emptyList<String>(), a.left.map(::name))
         assertEquals("MAGHA", name(a.faceOn))
+        // The sun's mansion is the almanac's true sun: on 18 February 2026, the 1st of the 1st month, Henning prints 21;54,15, mansion 21, Śravaṇa.
+        assertEquals(Mansion.SHRAVANA, DayLetters.sunMansion(TibetanCalendar.of(LocalDate.of(2026, 2, 18), Phugpa.A2_HENNING)))
     }
 }
