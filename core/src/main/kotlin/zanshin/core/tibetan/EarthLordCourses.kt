@@ -28,6 +28,9 @@ import zanshin.core.tibetan.Animal.TIGER
  * Rāhu among them (section 27) is [RahuBySeason], weighed with Rāhu's other courses.
  */
 enum class EarthLordCourse(val wylie: String) {
+    /** The black months, before the courses (p. 212), and that year's *ki kang* black month: [MonthEntries]. */
+    ZLA_NAG("zla nag"),
+    KI_KANG_ZLA_NAG("ki kang zla nag"),
     /** Only the "one person's view" of the great black day, whose own course is [GreatBlackDay]. */
     NAG_CHEN("nyi ma nag chen"),
     NAG_CHUNG("nyi ma nag chung"),
@@ -385,6 +388,13 @@ object EarthLordCourses {
         return buildList {
             fun moves(course: EarthLordCourse, on: Boolean, variant: String? = null) {
                 if (on) add(CourseDay(course, CourseEvent.MOVES, s, variant))
+            }
+            if (chineseYear != null) {
+                val monthAnimal = TibetanCalendar.monthNames(month).animal
+                val part = MonthEntries.blackPart(monthAnimal)
+                moves(EarthLordCourse.ZLA_NAG, monthAnimal in MonthEntries.blackMonths(chineseYear) && date in part.dates, part.name)
+                val kiKang = MonthEntries.KI_KANG.getValue(chineseYear)
+                moves(EarthLordCourse.KI_KANG_ZLA_NAG, s in kiKang.seasons && date == kiKang.date, chineseYear.name)
             }
             fun strikes(course: EarthLordCourse, strikes: List<Set<Int>>, turnings: List<Set<Int>>) {
                 if (date in strikes[s]) add(CourseDay(course, CourseEvent.STRIKES, s))

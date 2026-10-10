@@ -84,6 +84,9 @@ object Phugpa {
         return meanDate + moonEqu / 60 - sunEqu / 60
     }
 
+    /** Mean longitude of the sun at the end of lunar day [d], in revolutions, from (7.6)–(7.8): the *nyi ma bar pa*. */
+    fun meanSun(n: Long, d: Int): Rational = (S1 * n + S2 * d.toLong() + S0).frac()
+
     /** True longitude of the sun at the end of lunar day [d], in revolutions (7.23). */
     fun trueSun(n: Long, d: Int): Rational {
         val meanSun = S1 * n + S2 * d.toLong() + S0

@@ -33,6 +33,7 @@ import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourse
+import zanshin.core.tibetan.MonthEntries
 import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.Weekday
@@ -181,6 +182,19 @@ object Sources {
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
     /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */
     val WHITE_BERYL_TIMES = whiteBeryl("pp. 177–178, and chapter 15, pp. 180–182", volume = 1)
+    /** The black months and the *ki kang* black months (p. 212), with the black month's results (p. 359) (docs/sources/month-entries.md). */
+    val WHITE_BERYL_BLACK_MONTHS = whiteBeryl("p. 212, with the results p. 359")
+    /** The black months' rule in the chapter on the sun's terms (vol. 1, p. 183) and the month heading that writes them (p. 176). */
+    val WHITE_BERYL_MONTH_HEADING = whiteBeryl("pp. 176 and 183", volume = 1)
+    /** The seasonal signs of chapter 16: the Ṛṣi's and the pig's seven days (pp. 187–189), the comet (p. 186). */
+    val WHITE_BERYL_SEASON_SIGNS = whiteBeryl("chapter 16, pp. 186–189", volume = 1)
+    /** The *Kun 'dus chen mo*'s restatement of WB's comet count, which reckons the years from the rab byung's start (docs/sources/month-entries.md). */
+    val KUN_DUS_COMET = Source(
+        "The Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 2, p. 145, " +
+            "Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང, si khron mi rigs dpe skrun khang), Chengdu 1998",
+        "BDRC MW28845",
+        "https://library.bdrc.io/show/bdr:MW28845",
+    )
     /** The earth lords of the hour, after those that move by date (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_HOUR_EARTH_LORDS = whiteBeryl("pp. 235–236")
     /** The triads' klung rta and the twelve animals' places (vol. 1, p. 254), and the four-slayers counted up and down (p. 235). */
@@ -871,10 +885,38 @@ object Texts {
             goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_EARTH_LORD_COURSES,
             also = listOf(Sources.WHITE_BERYL_MODEL_ALMANAC), key = key, arg = arg,
         )
+        fun black(good: List<String> = emptyList(), avoid: List<String>, arg: String) = Reading(
+            goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_BLACK_MONTHS,
+            also = listOf(Sources.WHITE_BERYL_MONTH_HEADING), key = key, arg = arg,
+        )
         val strike = day.event == CourseEvent.STRIKES
         fun struck(works: List<String>) =
             if (strike) r(good = works, arg = "$key.STRIKES") else r(avoid = works, arg = "$key.TURNS_BACK")
         val base = when (c) {
+            // p. 212, with p. 359's list: «གསོན་གཤིན་བྱ་བ་ཐམས་ཅད་དང་། །ཁྱད་པར་ཤིད་མཁར་དགེ་བའི་ལས། …མཐུ་གཏད་མནན་བསྲེག་དགྲ་ལིང་འདྲི། །དྲག་ལས་དབྱེ་སེལ་སྦྱོར་བཤིག་བཟང»
+            EarthLordCourse.ZLA_NAG -> black(
+                good = listOf("directing_magic", "suppressing", "drawing_the_effigy", "fierce_rites", "separating_and_breaking_unions"),
+                avoid = listOf(
+                    "works_for_the_dead_and_the_living", "funeral_rites", "building_forts", "virtuous_work", "trade", "burial", "earthworks",
+                    "sending_out_wealth", "weddings", "ordination", "consecration", "enthronement", "adding_storeys", "roofing", "making_images",
+                    "taking_a_bride",
+                ),
+                arg = "$key.${day.variant}",
+            )
+            // p. 212: one work for each year, «ཚེས་བརྒྱད་ཐོ་རེངས་ཤིད་བྱས་ན། …ཉེར་གཉིས་བྱ་ཉལ་ཙམ་ལ་ནི། །དུས་དེར་ནོར་ཕྱིར་མི་བཏང་ངོ»
+            EarthLordCourse.KI_KANG_ZLA_NAG -> black(
+                avoid = when (Animal.valueOf(day.variant!!)) {
+                    Animal.TIGER, Animal.RABBIT, Animal.DRAGON, Animal.SNAKE, Animal.MOUSE -> listOf("funeral_rites")
+                    Animal.HORSE -> listOf("building_forts")
+                    Animal.SHEEP -> listOf("trade")
+                    Animal.MONKEY -> listOf("burial")
+                    Animal.BIRD -> listOf("virtuous_work")
+                    Animal.DOG -> listOf("earthworks")
+                    Animal.PIG -> listOf("work_with_wood", "carrying_out_the_dead")
+                    Animal.OX -> listOf("sending_out_wealth")
+                },
+                arg = "$key.${day.variant}",
+            )
             EarthLordCourse.NAG_CHEN -> r(
                 good = listOf("black_rites"),
                 avoid = listOf(
@@ -1003,6 +1045,22 @@ object Texts {
         source = Sources.KUN_PHAN_ME_LONG_NECTAR, also = listOf(Sources.KUN_PHAN_ME_LONG),
         key = "reading.NectarPeriods",
     )
+
+    /**
+     * The seasonal signs of WB's ch. 16 ([zanshin.core.tibetan.MonthEntries.SeasonSign]): the Ṛṣi's seven days,
+     * when the waters gain their eight qualities, with no works; the pig's, when the rain turns to poison, with
+     * what is shunned in them (vol. 1, p. 187, «བཞོན་མར་ཕྱིར་གཏོང་ཆུ་ལས་དང་། །སྨན་དཔྱད་འཛེམ་པ»). Shown, not weighed.
+     */
+    val SEASON_SIGN: Map<MonthEntries.SeasonSign, Reading> = mapOf(
+        MonthEntries.SeasonSign.RISHI to Reading(source = Sources.WHITE_BERYL_SEASON_SIGNS, key = "reading.SeasonSign.RISHI"),
+        MonthEntries.SeasonSign.PIG to Reading(
+            avoidKeys = listOf("sending_out_milk_and_butter", "work_with_water", "medical_treatment"),
+            source = Sources.WHITE_BERYL_SEASON_SIGNS, key = "reading.SeasonSign.PIG",
+        ),
+    )
+
+    /** The comet WB's count marks for a month ([zanshin.core.tibetan.MonthEntries.cometMonth]): a portent, no works. */
+    val COMET = Reading(source = Sources.WHITE_BERYL_SEASON_SIGNS, also = listOf(Sources.KUN_DUS_COMET), key = "reading.Comet")
 
     /**
      * The sun's terms (WB vol. 1, ch. 15, [zanshin.core.tibetan.DayTimes.sunTerms]): what each kind is
