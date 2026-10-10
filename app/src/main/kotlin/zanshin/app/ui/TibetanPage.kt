@@ -89,6 +89,8 @@ import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.LunarDayClass
+import zanshin.core.tibetan.DayLetters
+import zanshin.core.tibetan.Letter
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Karana
@@ -799,6 +801,99 @@ fun TibetanPage(
                 tibetan = false,
                 lead = { SmeBaSquare(day.smeBa, 30.dp, stringResource(R.string.desc_sme_ba, day.smeBa)) },
             )
+            // The letters of the day (WB vol. 1, pp. 16–19, 97, 150–153, 177–178; SPEC §5.11): written, not weighed.
+            val kalacakra = DayLetters.kalacakra(day.month, day.day)
+            val kalacakraValue = stringResource(
+                R.string.letters_value, letter(kalacakra.syllable), kalacakra.element.english, kalacakra.sense.english,
+            )
+            val kalacakraAnnotation = Annotation(
+                stringResource(R.string.row_kalacakra),
+                kalacakraValue,
+                Tone.NEUTRAL,
+                Texts.KALACAKRA_LETTERS,
+                titleIsKanji = false,
+                details = listOf(
+                    stringResource(R.string.detail_vowel) to letter(kalacakra.vowel),
+                    stringResource(R.string.detail_syllable) to letter(kalacakra.syllable),
+                    stringResource(R.string.detail_element) to Ewts.named(kalacakra.element.english, kalacakra.element.wylie),
+                    stringResource(R.string.detail_sense) to Ewts.named(kalacakra.sense.english, kalacakra.sense.wylie),
+                    stringResource(R.string.detail_half) to stringResource(if (kalacakra.arising) R.string.half_arising else R.string.half_gathered),
+                    stringResource(R.string.detail_sign_month) to Ewts.named(DayLetters.sign(day.month).english, DayLetters.sign(day.month).wylie),
+                ),
+            )
+            FactRow(
+                stringResource(R.string.row_kalacakra),
+                kalacakraValue,
+                kalacakraValue,
+                tibetan = false,
+                onClick = { sheet = kalacakraAnnotation },
+            )
+            val svara = DayLetters.svarodaya(day.day)
+            val stage = DayLetters.stage(day.day)
+            val svaraValue = stringResource(
+                R.string.letters_stage_value,
+                "${svara.vowel.iast} ${svara.consonant.iast} (${svara.vowel.tibetan} ${svara.consonant.tibetan})",
+                svara.element.english, svara.sense.english, stage.english,
+            )
+            val svaraAnnotation = Annotation(
+                stringResource(R.string.row_svarodaya),
+                svaraValue,
+                Tone.NEUTRAL,
+                Texts.SVARODAYA_LETTERS,
+                titleIsKanji = false,
+                details = listOf(
+                    stringResource(R.string.detail_vowel) to letter(svara.vowel),
+                    stringResource(R.string.detail_consonant) to letter(svara.consonant),
+                    stringResource(R.string.detail_element) to Ewts.named(svara.element.english, svara.element.wylie),
+                    stringResource(R.string.detail_sense) to Ewts.named(svara.sense.english, svara.sense.wylie),
+                    stringResource(R.string.detail_stage) to Ewts.named(stage.english, stage.wylie),
+                ),
+            )
+            FactRow(
+                stringResource(R.string.row_svarodaya),
+                svaraValue,
+                svaraValue,
+                tibetan = false,
+                onClick = { sheet = svaraAnnotation },
+            )
+            remember(day.jd) { DayLetters.link(day) }?.let { linkDay ->
+                val link = linkDay.link
+                val count = stringResource(R.string.link_count, linkDay.day, linkDay.days, linkDay.month)
+                val linkAnnotation = Annotation(
+                    Ewts.named(link.english, link.wylie),
+                    count,
+                    Tone.NEUTRAL,
+                    Texts.TWELVE_LINKS,
+                    titleIsKanji = false,
+                )
+                FactRow(
+                    stringResource(R.string.row_twelve_links),
+                    link.wylie,
+                    link.english,
+                    onClick = { sheet = linkAnnotation },
+                )
+            }
+            val foot = DayLetters.foot(day)
+            val footValue = stringResource(R.string.foot_value, foot.quarter, letter(foot.syllable))
+            val footAnnotation = Annotation(
+                stringResource(R.string.row_hundred_feet),
+                footValue,
+                Tone.NEUTRAL,
+                Texts.HUNDRED_FEET,
+                titleIsKanji = false,
+                details = listOf(
+                    stringResource(R.string.detail_mansion) to Ewts.named(foot.mansion.english, foot.mansion.wylie),
+                    stringResource(R.string.detail_quarter) to "${foot.quarter}",
+                    stringResource(R.string.detail_syllable) to letter(foot.syllable),
+                ),
+            )
+            FactRow(
+                stringResource(R.string.row_hundred_feet),
+                footValue,
+                footValue,
+                tibetan = false,
+                onClick = { sheet = footAnnotation },
+            )
             // The sun's terms that fall in the day (WB vol. 1, ch. 15; SPEC §5.8).
             for (term in sunTerms) {
                 val t = term.what
@@ -990,6 +1085,9 @@ internal fun clockOf(chuTshod: Double, labels: Labels): String {
 }
 
 /** The sun's term as a row names it: the month's breath or middle term, or the sign entered. */
+/** A letter of the day as the app shows it: its transliteration, then its script in brackets. */
+internal fun letter(l: Letter): String = "${l.iast} (${l.tibetan})"
+
 internal fun sunTermName(t: DayTimes.SunTerm, labels: Labels): String = when (t.kind) {
     DayTimes.SunTermKind.KHYIM_PHO -> labels.string(R.string.sun_term_sign, t.sign!!.english)
     else -> labels.string(R.string.sun_term_month, gloss(t.kind).replaceFirstChar(Char::uppercase), t.month!!)

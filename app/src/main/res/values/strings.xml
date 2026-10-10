@@ -709,6 +709,26 @@
     <string name="detail_visti">Viṣṭi</string>
     <string name="detail_from">%1$s, from %2$s</string>
     <string name="detail_span">%1$s, %2$s–%3$s</string>
+    <string name="row_kalacakra">Kālacakra (དུས་འཁོར, dus \'khor)</string>
+    <string name="row_svarodaya">Rising of the vowels (དབྱངས་འཆར, dbyangs \'char)</string>
+    <string name="row_twelve_links">Twelve links (རྟེན་འབྲེལ, rten \'brel)</string>
+    <string name="row_hundred_feet">Hundred feet (རྐང་བརྒྱ, rkang brgya)</string>
+    <string name="letters_value">%1$s · %2$s, %3$s</string>
+    <string name="letters_stage_value">%1$s · %2$s, %3$s · %4$s</string>
+    <string name="link_count">day %1$d of %2$d from the middle term of month %3$d</string>
+    <string name="foot_value">quarter %1$d · %2$s</string>
+    <string name="detail_vowel">Vowel</string>
+    <string name="detail_syllable">Syllable</string>
+    <string name="detail_consonant">Consonant</string>
+    <string name="detail_element">Element</string>
+    <string name="detail_sense">Object of the senses</string>
+    <string name="detail_half">Half of the month</string>
+    <string name="half_arising">waxing: the elements arise, from space to earth</string>
+    <string name="half_gathered">waning: the elements are gathered back, from earth to space</string>
+    <string name="detail_sign_month">Sign of the month</string>
+    <string name="detail_stage">Stage (དར་གུད, dar gud)</string>
+    <string name="detail_mansion">Mansion</string>
+    <string name="detail_quarter">Quarter</string>
     <string name="row_sun_term">Sun\'s term</string>
     <!-- "Breath term of month 1" -->
     <string name="sun_term_month">%1$s of month %2$d</string>
