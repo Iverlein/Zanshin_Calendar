@@ -189,6 +189,17 @@ object Sources {
     val WHITE_BERYL_HIDDEN_LORDS = whiteBeryl("pp. 221 and 236")
     /** The black sky dog's body over the twelve places, for year, month, day and hour (vol. 2, p. 197), the hour's by the year's (p. 236). */
     val WHITE_BERYL_GNAM_KHYI = whiteBeryl("pp. 196–197 and 236")
+    /** The twelve hours of the Chinese reckoning after the day animals' results (p. 359), and the hour above the day's animal sign (p. 376). */
+    val WHITE_BERYL_HOURS = whiteBeryl("p. 359, with the weighing p. 376")
+    /** The ritual manual that glosses the four rough times, «གུང་གཉིས་དང་ཟེར་གཉིས» (docs/sources/weighing.md, *The hour of rule 2*). */
+    val KING_KANG = Source(
+        "The Practice of the Small Red Kingkang Taught by the Northern Lord, Its Visualisations Condensed to Their Key Points " +
+            "(བྱང་བདག་གསུང་ཀིང་ཀང་དམར་ཆུང་གི་ལག་ལེན་དམིགས་སྐོར་གནད་དྲིལ, Byang bdag gsung king kang dmar chung gi lag len dmigs skor gnad dril), " +
+            "by Lobsal Gyatso (བློ་གསལ་རྒྱ་མཚོ, blo gsal rgya mtsho), in the Treasury of Precious Revelations (རིན་ཆེན་གཏེར་མཛོད་ཆེན་མོ, rin chen gter mdzod chen mo), " +
+            "Shechen Publications, New Delhi 2007–2008, vol. 54",
+        "BDRC MW1KG14",
+        "https://library.bdrc.io/show/bdr:MW1KG14",
+    )
     /** The model almanac, whose day boxes write the courses (docs/sources/earth-lord-courses.md). */
     val WHITE_BERYL_MODEL_ALMANAC = whiteBeryl("the model almanac, pp. 154–171", volume = 1)
     val WHITE_BERYL_BLA_MKHYEN = whiteBeryl("p. 224, with the year's astrologer spirit (བླ་མཁྱེན, bla mkhyen) p. 180, the remedy's texts in full p. 189 and the day's mewa (སྨེ་བ, sme ba) p. 192")
@@ -1069,6 +1080,51 @@ object Texts {
         ),
         source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, key = "reading.BlackHour",
     )
+
+    /**
+     * What each of the twelve hours of the Chinese reckoning is good for ([zanshin.core.tibetan.ChineseHours],
+     * WB vol. 2, p. 359), from the hare hour at daybreak; the hour's own words fill the summary.
+     */
+    val HOUR_WORKS: Map<Animal, Reading> = mapOf(
+        Animal.RABBIT to listOf("guarding_curd_and_beer", "binding_the_gongpo"),
+        Animal.DRAGON to listOf("raising_fortune_and_prosperity"),
+        Animal.SNAKE to listOf("mantras_taming_the_earth_lords"),
+        Animal.HORSE to listOf("fierce_averting_recitation"),
+        Animal.SHEEP to listOf("taming_madness_and_fainting"),
+        Animal.MONKEY to listOf("expelling_adversity"),
+        Animal.BIRD to listOf("fulfilling_the_protectors"),
+        Animal.DOG to listOf("binding_the_serak"),
+        Animal.PIG to listOf("taming_the_gremo"),
+        Animal.MOUSE to listOf("mantras_summoning_fortune_and_prosperity"),
+        Animal.OX to listOf("fierce_mantras"),
+        Animal.TIGER to listOf("mantras_slaying_enemies"),
+    ).mapValues { (animal, good) ->
+        Reading(goodKeys = good, source = Sources.WHITE_BERYL_HOURS, key = "reading.HourWorks", arg = "reading.HourWorks.${animal.name}")
+    }
+
+    /**
+     * The four rough times ([zanshin.core.tibetan.ChineseHours.RoughTime], WB vol. 2, p. 359): only
+     * averting, killing and fierce work succeeds in them, nothing else turns out well.
+     */
+    val ROUGH_TIME = Reading(
+        goodKeys = listOf("averting_killing_and_fierce_work"),
+        avoidKeys = listOf("everything"),
+        source = Sources.WHITE_BERYL_HOURS, also = listOf(Sources.KING_KANG),
+        key = "reading.RoughTime",
+    )
+
+    /** The hour of one's own year ([zanshin.core.tibetan.ChineseHours.ownYearHour], WB vol. 2, p. 359). */
+    val OWN_YEAR_HOUR = Reading(
+        avoidKeys = listOf("fierce_and_harsh_work", "gatherings", "confrontations", "great_displays"),
+        source = Sources.WHITE_BERYL_HOURS, key = "reading.OwnYearHour",
+    )
+
+    /**
+     * The *kun phan me long*'s rule 2 from WB vol. 2, p. 376, «ཉི་མ་དུས་ཚོད་མི་འདྲ་ན། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བས་གཙོ»:
+     * where the day's animal sign and the hour differ, the hour leads ([DaySummary.overruledInHour]). No lists:
+     * the hours sheet names the works the hour turns.
+     */
+    val HOUR_OVER_DAY = Reading(source = Sources.WHITE_BERYL_HOURS, also = listOf(Sources.KUN_PHAN_ME_LONG), key = "reading.HourOverDay")
 
     /**
      * Rāhu's general course (the White Beryl, vol. 2, pp. 236–237, with the

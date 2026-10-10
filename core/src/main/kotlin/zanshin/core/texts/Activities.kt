@@ -1057,6 +1057,24 @@ object Activities {
         // Zin phung's autumn works, rendered word for word: neither names an act the lists can compare.
         "setting_up_growth" to of(),
         "pulling_down_the_yak_wood" to of(),
+
+        // The White Beryl's twelve hours, the hour of one's own year and the four rough times (vol. 2, p. 359).
+        "guarding_curd_and_beer" to of(DAIRY, BREWING),
+        "binding_the_gongpo" to of(DESTROYING),
+        "raising_fortune_and_prosperity" to of(PROSPERITY_RITES),
+        "mantras_taming_the_earth_lords" to of(MANTRAS),
+        "fierce_averting_recitation" to of(AVERTING_RITES),
+        "taming_madness_and_fainting" to of(),
+        "expelling_adversity" to of(AVERTING_RITES),
+        "fulfilling_the_protectors" to of(OFFERINGS),
+        "binding_the_serak" to of(DESTROYING),
+        "taming_the_gremo" to of(DESTROYING),
+        "mantras_summoning_fortune_and_prosperity" to of(PROSPERITY_RITES),
+        "fierce_mantras" to of(DESTROYING),
+        "mantras_slaying_enemies" to of(DESTROYING),
+        "averting_killing_and_fierce_work" to of(AVERTING_RITES, KILLING, DESTROYING),
+        "confrontations" to of(DISPUTES),
+        "great_displays" to of(),
     )
 
     /** The rokuyō's hours, by wording key. */

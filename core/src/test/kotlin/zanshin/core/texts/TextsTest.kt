@@ -39,6 +39,7 @@ class TextsTest {
         Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
     ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.SUN_TERM.values + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
+        Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
         // The earth lords that move by date: a reading for every course on every day it can fall.
         (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct()
 

@@ -205,6 +205,27 @@ data class DaySummary(
         activities.firstOrNull { it.activity == activity }?.let { if (it.good.isNotEmpty()) Tone.GOOD to it.good else Tone.BAD to it.avoid }
 
     /**
+     * The *kun phan me long*'s rule 2 from WB vol. 2, p. 376 (SPEC §5.13): within an hour, the works
+     * whose side the day's animal sign (*nyi ma*) decided and which the hour's own readings [hour] name
+     * the other way, each with the side the hour gives it. The hour outranks the *nyi ma* only, the
+     * weakest of the seven, so a work a stronger voice decided keeps its side; a reading that avoids
+     * everything turns every such work it does not name good, and readings that name a work both ways
+     * turn nothing.
+     */
+    fun overruledInHour(hour: List<Reading>): List<Pair<ActivityNote, Tone>> {
+        val good = hour.flatMap { Activities.of(it.goodKeys) }.toSet()
+        val avoid = hour.flatMap { Activities.of(it.avoidKeys) }.toSet()
+        val avoidAll = Activity.EVERYTHING in avoid
+        return activities.filter { it.decider == DayFactor.DAY_ANIMAL }.mapNotNull { n ->
+            when {
+                n.good.isNotEmpty() && n.activity !in good && (avoidAll || n.activity in avoid) -> n to Tone.BAD
+                n.avoid.isNotEmpty() && n.activity in good && n.activity !in avoid -> n to Tone.GOOD
+                else -> null
+            }
+        }
+    }
+
+    /**
      * The combination periods that run against the day's tone, for the In brief row (ROADMAP U5): on
      * an unlucky day those to be accomplished, on a lucky day those to be avoided; [hours]'s runs,
      * weighed no further. None on a day of [avoidAll]: WB places no hour above the person's day
