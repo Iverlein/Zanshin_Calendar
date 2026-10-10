@@ -406,5 +406,7 @@ object WhiteBerylWorks {
         mansions = (mansions - take.mansions.toSet() + add.mansions).distinct(),
         animals = animals - take.animals + add.animals,
         trigrams = trigrams - take.trigrams + add.trigrams,
+        smeBa = smeBa - take.smeBa + add.smeBa,
+        links = links - take.links + add.links,
     )
 }

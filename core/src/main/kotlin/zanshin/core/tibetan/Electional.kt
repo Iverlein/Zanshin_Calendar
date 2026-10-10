@@ -82,6 +82,10 @@ data class Factors(
     val animals: Set<Animal> = emptySet(),
     val trigrams: Set<Trigram> = emptySet(),
     val signs: Set<ZodiacSign> = emptySet(),
+    /** The date's sme ba, 1–9, as the boxes name them (SPEC §5.11). */
+    val smeBa: Set<Int> = emptySet(),
+    /** The day's link of the twelve, counted from the month's *sgang* ([DayLetters.link]). */
+    val links: Set<Link> = emptySet(),
 )
 
 /**
@@ -180,6 +184,7 @@ object Electional {
         ActivityList(
             "astrology_and_divination",
             good = Factors(
+                links = setOf(Link.BECOMING, Link.CONSCIOUSNESS, Link.FEELING),
                 weekdays = setOf(THURSDAY, FRIDAY, SATURDAY, WEDNESDAY),
                 mansions = m(
                     KRITTIKA, PURVAPHALGUNI, PUNARVASU, PUSHYA, MAGHA, UTTARAPHALGUNI, HASTA, UTTARASHADHA, MULA,
@@ -188,6 +193,7 @@ object Electional {
                 animals = setOf(TIGER, SNAKE, DRAGON, MONKEY),
             ),
             bad = Factors(
+                links = setOf(Link.IGNORANCE),
                 weekdays = setOf(TUESDAY),
                 dates = setOf(9, 19, 29, 15, 30, 8),
                 mansions = m(BHARANI, ASHLESHA, CITRA, JYESHTHA, VISHAKHA),
@@ -239,6 +245,7 @@ object Electional {
                 animals = setOf(TIGER, MONKEY, DOG),
             ),
             bad = Factors(
+                smeBa = setOf(3, 5, 9),
                 weekdays = setOf(SUNDAY, SATURDAY, TUESDAY, MONDAY),
                 dates = setOf(10, 29, 20, 19, 1, 5, 23, 9, 28, 30),
                 mansions = m(
@@ -254,6 +261,8 @@ object Electional {
         ActivityList(
             "setting_up_supports",
             good = Factors(
+                smeBa = setOf(5),
+                links = setOf(Link.FORMATION, Link.SOURCES, Link.NAME_AND_FORM, Link.CONSCIOUSNESS),
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY, MONDAY),
                 dates = setOf(1, 8, 10, 12, 13, 15, 18),
                 mansions = m(
@@ -388,10 +397,12 @@ object Electional {
         ActivityList(
             "first_wearing_of_new_clothes",
             good = Factors(
+                links = setOf(Link.CONSCIOUSNESS, Link.BECOMING, Link.CRAVING),
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY),
                 mansions = m(HASTA, ROHINI, PUNARVASU, PUSHYA, SVATI, CITRA, VISHAKHA, SHRAVANA, ANURADHA, UTTARASHADHA, DHANISHTHA, UTTARABHADRAPADA, REVATI, ASHVINI),
             ),
             bad = Factors(
+                links = setOf(Link.IGNORANCE, Link.FORMATION, Link.NAME_AND_FORM, Link.CONTACT, Link.FEELING, Link.GRASPING),
                 weekdays = setOf(SUNDAY, TUESDAY, SATURDAY),
                 dates = setOf(8),
                 mansions = m(BHARANI, KRITTIKA, MRIGASHIRAS, ARDRA, ASHLESHA, MAGHA, PURVAPHALGUNI, JYESHTHA, MULA, PURVASHADHA, UTTARAPHALGUNI, PURVABHADRAPADA, SHATABHISHAJ),
@@ -402,6 +413,7 @@ object Electional {
         ActivityList(
             "building_walls",
             good = Factors(
+                links = setOf(Link.FORMATION, Link.IGNORANCE),
                 weekdays = setOf(WEDNESDAY, FRIDAY),
                 dates = setOf(3, 7, 11, 13, 15, 17, 14, 23, 25),
                 mansions = m(PURVASHADHA, PUNARVASU, MRIGASHIRAS, UTTARAPHALGUNI, PURVAPHALGUNI, PURVABHADRAPADA, UTTARASHADHA, DHANISHTHA, REVATI, ROHINI),
@@ -409,6 +421,7 @@ object Electional {
                 trigrams = setOf(GIN, ZIN),
             ),
             bad = Factors(
+                smeBa = setOf(9),
                 weekdays = setOf(TUESDAY),
                 dates = setOf(10, 20, 30, 18, 22, 6, 16, 26),
                 mansions = m(BHARANI, ASHLESHA, UTTARABHADRAPADA, ANURADHA, KRITTIKA, MAGHA, SHRAVANA, SHATABHISHAJ, VISHAKHA, JYESHTHA, ASHVINI, CITRA),
@@ -433,6 +446,7 @@ object Electional {
         ActivityList(
             "feasts",
             good = Factors(
+                links = setOf(Link.IGNORANCE, Link.CONSCIOUSNESS, Link.FEELING, Link.CRAVING),
                 weekdays = setOf(FRIDAY, THURSDAY, SUNDAY),
                 mansions = m(UTTARAPHALGUNI, MULA, REVATI, PUNARVASU, DHANISHTHA, SVATI, HASTA, MRIGASHIRAS),
                 animals = setOf(DOG),
@@ -448,6 +462,7 @@ object Electional {
         ActivityList(
             "preparing_food_and_brewing",
             good = Factors(
+                links = setOf(Link.IGNORANCE, Link.CONSCIOUSNESS, Link.FEELING, Link.CRAVING),
                 weekdays = setOf(MONDAY, THURSDAY, FRIDAY),
                 dates = setOf(4),
                 mansions = m(UTTARABHADRAPADA),
@@ -467,6 +482,7 @@ object Electional {
                 animals = setOf(BIRD, MOUSE),
             ),
             bad = Factors(
+                smeBa = setOf(9),
                 weekdays = setOf(TUESDAY, SATURDAY),
                 dates = setOf(4, 5, 6, 7, 8, 9, 10, 11),
                 mansions = m(HASTA, PUSHYA, DHANISHTHA, VISHAKHA, ARDRA),
@@ -491,6 +507,8 @@ object Electional {
         ActivityList(
             "receiving_wealth",
             good = Factors(
+                smeBa = setOf(9),
+                links = setOf(Link.IGNORANCE, Link.BECOMING, Link.FEELING),
                 weekdays = setOf(SUNDAY, SATURDAY, TUESDAY, WEDNESDAY),
                 dates = setOf(3, 4, 5, 15, 21, 25),
                 mansions = m(ROHINI, PUSHYA, MAGHA, PURVAPHALGUNI, MULA, PURVASHADHA, MRIGASHIRAS, SHATABHISHAJ, UTTARABHADRAPADA, REVATI, KRITTIKA, PUNARVASU, JYESHTHA, PURVABHADRAPADA, BHARANI),
@@ -519,6 +537,8 @@ object Electional {
         ActivityList(
             "auspicious_work",
             good = Factors(
+                smeBa = setOf(8),
+                links = setOf(Link.NAME_AND_FORM),
                 weekdays = setOf(SUNDAY, MONDAY, WEDNESDAY, FRIDAY, THURSDAY),
                 mansions = m(ASHVINI, KRITTIKA, MRIGASHIRAS, UTTARAPHALGUNI, HASTA, CITRA, SVATI, JYESHTHA, PURVASHADHA, SHRAVANA, REVATI, UTTARASHADHA, SHATABHISHAJ),
             ),
@@ -561,6 +581,7 @@ object Electional {
         ActivityList(
             "virtuous_acts_for_the_living",
             good = Factors(
+                links = setOf(Link.IGNORANCE, Link.CONSCIOUSNESS, Link.FEELING, Link.BECOMING, Link.CRAVING),
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY),
                 dates = setOf(1, 18),
                 mansions = m(ROHINI, MRIGASHIRAS, PUNARVASU, PUSHYA, SHATABHISHAJ, UTTARAPHALGUNI, ARDRA, HASTA, CITRA, SVATI, JYESHTHA, DHANISHTHA, PURVABHADRAPADA, PURVAPHALGUNI, REVATI, ANURADHA, MULA, MAGHA),
@@ -568,6 +589,7 @@ object Electional {
                 trigrams = setOf(KHEN),
             ),
             bad = Factors(
+                links = setOf(Link.AGEING_AND_DEATH),
                 weekdays = setOf(TUESDAY, SATURDAY),
                 mansions = m(BHARANI, ASHLESHA, UTTARABHADRAPADA, SHRAVANA),
                 animals = setOf(BIRD),
@@ -593,6 +615,7 @@ object Electional {
         ActivityList(
             "sowing",
             good = Factors(
+                links = setOf(Link.FEELING),
                 weekdays = setOf(SATURDAY, MONDAY, WEDNESDAY, THURSDAY, FRIDAY),
                 dates = setOf(2, 10, 12, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 30),
                 mansions = m(ROHINI, PUNARVASU, REVATI, MRIGASHIRAS, MAGHA, HASTA, CITRA, JYESHTHA, DHANISHTHA, SHATABHISHAJ, SVATI, ARDRA, SHRAVANA, MULA, PURVASHADHA, UTTARASHADHA, ANURADHA),
@@ -609,6 +632,7 @@ object Electional {
         ActivityList(
             "giving_gifts_and_dowries",
             good = Factors(
+                smeBa = setOf(6),
                 weekdays = setOf(WEDNESDAY, THURSDAY),
                 mansions = m(PURVABHADRAPADA, REVATI, UTTARAPHALGUNI, MULA, UTTARASHADHA),
             ),
@@ -669,6 +693,7 @@ object Electional {
                 animals = setOf(SHEEP),
             ),
             bad = Factors(
+                smeBa = setOf(3),
                 weekdays = setOf(SUNDAY, TUESDAY),
                 dates = setOf(3, 13, 18, 23, 28, 8),
                 mansions = m(KRITTIKA, MAGHA, PURVAPHALGUNI, HASTA, CITRA, SHATABHISHAJ, PURVABHADRAPADA),
@@ -726,11 +751,13 @@ object Electional {
         ActivityList(
             "raising_dogs",
             good = Factors(
+                links = setOf(Link.IGNORANCE, Link.BECOMING, Link.FEELING),
                 weekdays = setOf(SATURDAY, TUESDAY),
                 dates = setOf(3, 4, 5, 15, 21, 25),
                 mansions = m(ASHLESHA, MAGHA, ASHVINI),
             ),
             bad = Factors(
+                smeBa = setOf(5),
                 dates = setOf(1, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 20, 26),
                 animals = setOf(DOG),
                 trigrams = setOf(KHEN),
@@ -740,6 +767,7 @@ object Electional {
         ActivityList(
             "calling_prosperity_and_bon_rites",
             good = Factors(
+                smeBa = setOf(6, 9),
                 weekdays = setOf(SUNDAY, MONDAY, WEDNESDAY, SATURDAY),
                 dates = setOf(15),
                 mansions = m(ROHINI, PUNARVASU, KRITTIKA, PUSHYA, MRIGASHIRAS, UTTARAPHALGUNI, SVATI, SHATABHISHAJ, DHANISHTHA, JYESHTHA, MULA, PURVASHADHA, REVATI, UTTARASHADHA, PURVAPHALGUNI, CITRA, HASTA, ANURADHA, ASHVINI),
@@ -771,6 +799,8 @@ object Electional {
         ActivityList(
             "preparing_medicine",
             good = Factors(
+                smeBa = setOf(9),
+                links = setOf(Link.NAME_AND_FORM, Link.CONSCIOUSNESS, Link.GRASPING),
                 weekdays = setOf(MONDAY, SUNDAY, THURSDAY, FRIDAY),
                 mansions = m(KRITTIKA, MRIGASHIRAS, PUSHYA, HASTA, ROHINI, SVATI, SHRAVANA, DHANISHTHA, SHATABHISHAJ, PURVABHADRAPADA, UTTARABHADRAPADA, REVATI, UTTARASHADHA, CITRA, PUNARVASU, ANURADHA),
                 animals = setOf(BIRD, DOG),
@@ -791,6 +821,7 @@ object Electional {
                 animals = setOf(BIRD, DOG),
             ),
             bad = Factors(
+                smeBa = setOf(2, 7),
                 dates = setOf(9, 8, 29, 30),
                 mansions = m(ARDRA, PURVAPHALGUNI, ASHVINI, BHARANI),
                 animals = setOf(DRAGON, SNAKE, SHEEP),
@@ -801,11 +832,14 @@ object Electional {
         ActivityList(
             "bathing_and_washing_the_hair",
             good = Factors(
+                links = setOf(Link.SOURCES, Link.BECOMING, Link.FORMATION, Link.BIRTH, Link.IGNORANCE, Link.CONSCIOUSNESS),
                 weekdays = setOf(MONDAY, WEDNESDAY, THURSDAY, FRIDAY),
                 dates = setOf(3, 4, 5, 6, 8, 10, 11, 13, 15, 16, 18, 19, 22, 23, 26),
                 mansions = m(KRITTIKA, ROHINI, MRIGASHIRAS, ARDRA, ASHVINI, PURVASHADHA, SVATI, UTTARASHADHA, UTTARABHADRAPADA, REVATI, CITRA, DHANISHTHA),
             ),
             bad = Factors(
+                smeBa = setOf(1, 6),
+                links = setOf(Link.NAME_AND_FORM, Link.FEELING, Link.CRAVING),
                 weekdays = setOf(TUESDAY, SATURDAY),
                 dates = setOf(1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 28, 29, 30),
                 mansions = m(PUSHYA, MAGHA, VISHAKHA, PURVABHADRAPADA, PURVAPHALGUNI, BHARANI),
@@ -815,12 +849,14 @@ object Electional {
         ActivityList(
             "enthronement",
             good = Factors(
+                links = setOf(Link.CONSCIOUSNESS, Link.SOURCES, Link.BIRTH),
                 weekdays = setOf(SUNDAY, TUESDAY, THURSDAY),
                 mansions = m(ROHINI, MRIGASHIRAS, PUSHYA, ANURADHA, JYESHTHA, UTTARASHADHA, PUNARVASU, PURVASHADHA, SHATABHISHAJ, UTTARAPHALGUNI, UTTARABHADRAPADA, REVATI, KRITTIKA, SVATI, HASTA),
                 animals = setOf(HORSE, DRAGON, TIGER, RABBIT),
                 trigrams = setOf(KHEN),
             ),
             bad = Factors(
+                links = setOf(Link.AGEING_AND_DEATH, Link.IGNORANCE),
                 weekdays = setOf(SATURDAY),
                 mansions = m(BHARANI, ARDRA, ASHLESHA, MAGHA, CITRA, SHRAVANA, MULA, VISHAKHA, DHANISHTHA),
                 animals = setOf(SNAKE, MONKEY),
@@ -847,6 +883,7 @@ object Electional {
         ActivityList(
             "putting_on_ornaments",
             good = Factors(
+                links = setOf(Link.FORMATION),
                 weekdays = setOf(MONDAY, FRIDAY, WEDNESDAY, THURSDAY, SUNDAY),
                 mansions = m(KRITTIKA, MRIGASHIRAS, SHRAVANA, PUSHYA, PUNARVASU, MAGHA, PURVAPHALGUNI, PURVASHADHA, UTTARASHADHA, JYESHTHA, MULA, ARDRA, HASTA, DHANISHTHA, ANURADHA, UTTARABHADRAPADA, UTTARAPHALGUNI, CITRA),
                 animals = setOf(HORSE, MONKEY),
@@ -861,6 +898,7 @@ object Electional {
         ActivityList(
             "suppressing_sri",
             good = Factors(
+                smeBa = setOf(3),
                 weekdays = setOf(TUESDAY, SATURDAY, SUNDAY, THURSDAY),
                 mansions = m(MRIGASHIRAS, ARDRA, ASHLESHA, JYESHTHA, MULA, VISHAKHA, SVATI, UTTARABHADRAPADA, HASTA, ASHVINI, MAGHA),
                 animals = setOf(TIGER, DRAGON, MONKEY),
@@ -899,6 +937,8 @@ object Electional {
                 animals = setOf(TIGER, DRAGON),
             ),
             bad = Factors(
+                smeBa = setOf(6),
+                links = setOf(Link.SOURCES),
                 weekdays = setOf(SUNDAY, TUESDAY, SATURDAY),
                 dates = setOf(2, 3, 5, 6, 7, 8, 14, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30),
                 mansions = m(CITRA, ASHLESHA, MAGHA, PURVAPHALGUNI, SHRAVANA, BHARANI),
@@ -908,6 +948,8 @@ object Electional {
         ActivityList(
             "composing_treatises_and_learning_poetics",
             good = Factors(
+                smeBa = setOf(5),
+                links = setOf(Link.FORMATION),
                 weekdays = setOf(THURSDAY, WEDNESDAY, SUNDAY, MONDAY),
                 dates = setOf(2, 3, 5, 10, 11, 23),
                 mansions = m(KRITTIKA, ROHINI, PUSHYA, ANURADHA, HASTA, SVATI, SHATABHISHAJ, UTTARAPHALGUNI, PURVABHADRAPADA, UTTARABHADRAPADA, ASHVINI, PUNARVASU, REVATI, PURVASHADHA, MULA, ARDRA, MRIGASHIRAS),
@@ -960,6 +1002,7 @@ object Electional {
                 trigrams = setOf(KHEN),
             ),
             bad = Factors(
+                links = setOf(Link.BIRTH, Link.BECOMING, Link.IGNORANCE, Link.NAME_AND_FORM),
                 weekdays = setOf(SATURDAY, TUESDAY),
                 dates = setOf(4, 8, 9, 28),
                 mansions = m(UTTARASHADHA, PURVABHADRAPADA, VISHAKHA),
@@ -973,6 +1016,7 @@ object Electional {
                 mansions = m(ASHVINI, UTTARASHADHA, PUNARVASU, SHATABHISHAJ, REVATI, MRIGASHIRAS, MAGHA),
             ),
             bad = Factors(
+                links = setOf(Link.BECOMING, Link.AGEING_AND_DEATH, Link.IGNORANCE, Link.NAME_AND_FORM),
                 weekdays = setOf(SATURDAY, SUNDAY, MONDAY, THURSDAY, WEDNESDAY),
                 dates = setOf(4, 8, 9, 28),
                 mansions = m(SVATI, ARDRA, PUSHYA, ASHLESHA, JYESHTHA, ANURADHA, MULA, CITRA),
@@ -983,11 +1027,13 @@ object Electional {
         ActivityList(
             "judging_disputes",
             good = Factors(
+                links = setOf(Link.CONTACT, Link.BIRTH),
                 weekdays = setOf(FRIDAY, SUNDAY, TUESDAY),
                 mansions = m(ASHVINI, PUNARVASU, SHATABHISHAJ, REVATI, SVATI, ARDRA, PUSHYA, UTTARASHADHA),
                 animals = setOf(OX, DOG),
             ),
             bad = Factors(
+                links = setOf(Link.IGNORANCE, Link.NAME_AND_FORM),
                 weekdays = setOf(SATURDAY, MONDAY, WEDNESDAY),
                 dates = setOf(4, 8, 9, 18),
                 mansions = m(MRIGASHIRAS, ASHLESHA, CITRA, JYESHTHA, PURVABHADRAPADA, MULA),
@@ -1046,6 +1092,7 @@ object Electional {
                 mansions = m(KRITTIKA, MRIGASHIRAS, CITRA, MAGHA, VISHAKHA, ANURADHA, UTTARABHADRAPADA, ASHVINI, ARDRA, HASTA, REVATI),
             ),
             bad = Factors(
+                links = setOf(Link.CONTACT, Link.AGEING_AND_DEATH),
                 weekdays = setOf(SUNDAY, TUESDAY, THURSDAY, SATURDAY),
                 mansions = m(ROHINI, JYESHTHA, UTTARASHADHA, UTTARAPHALGUNI, SHATABHISHAJ, BHARANI),
                 animals = setOf(MONKEY, DRAGON),
@@ -1055,12 +1102,14 @@ object Electional {
         ActivityList(
             "crafts",
             good = Factors(
+                links = setOf(Link.NAME_AND_FORM, Link.GRASPING, Link.IGNORANCE),
                 weekdays = setOf(FRIDAY),
                 mansions = m(KRITTIKA, MRIGASHIRAS, CITRA, MAGHA, VISHAKHA, ANURADHA, UTTARABHADRAPADA),
                 animals = setOf(DOG, OX),
                 trigrams = setOf(KHAM, LI),
             ),
             bad = Factors(
+                links = setOf(Link.CONTACT, Link.AGEING_AND_DEATH),
                 mansions = m(ROHINI, JYESHTHA, UTTARASHADHA, UTTARAPHALGUNI, SHATABHISHAJ, BHARANI),
                 animals = setOf(MONKEY, DRAGON),
             ),

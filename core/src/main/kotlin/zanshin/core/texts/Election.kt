@@ -121,7 +121,8 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
                 Texts.WEEKDAY.values + Texts.ELECTIONAL_WEEKDAY.values + Texts.MANSION.values +
                 Texts.COMBINATION_DAY.values + Texts.GTSUG_LAG_DAY.values + Texts.BURNING_DATE +
                 Texts.LUNAR_DATE + Texts.ELECTIONAL_DATE.values + Texts.HAIRCUT_LIST +
-                Texts.KARANA.values + Texts.YOGA.values + Texts.ELECTIONAL_ANIMAL.values + Texts.ELECTIONAL_TRIGRAM.values
+                Texts.KARANA.values + Texts.YOGA.values + Texts.ELECTIONAL_ANIMAL.values + Texts.ELECTIONAL_TRIGRAM.values +
+                Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values
 
         /**
          * The combination periods of Tibetan month [month] that name [work] on [side], as runs of

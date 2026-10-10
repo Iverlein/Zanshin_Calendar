@@ -150,7 +150,8 @@ class DaySummaryTest {
         // Two that disagree on a work: the planet leads the mansion (the kun phan me long's rule 2).
         val pillars = s.activities.single { it.activity == Activity.CONSECRATION }
         // The 3rd, a waxing date, is good for consecration in the White Beryl's chapter 34 (p. 419), and outweighed too.
-        assertEquals(listOf("Tuesday"), pillars.avoid.map { it.kanji })
+        // The day's link, the sense sources, is bad for consecration in the lists (box 49) and stands with Tuesday.
+        assertEquals(listOf("Tuesday", "Sense sources"), pillars.avoid.map { it.kanji })
         assertEquals(listOf("Rohiṇī", "day 3"), pillars.outweighed.map { it.kanji })
     }
 
@@ -227,8 +228,9 @@ class DaySummaryTest {
             date = date.plusDays(1)
         }
         // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier, 2067 before
-        // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24).
-        assertEquals(2018, against)
+        // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24), 2018 before the mewa and
+        // the link joined the trigram's voice (T2.25).
+        assertEquals(2006, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -244,7 +246,7 @@ class DaySummaryTest {
             good.map { it.activity.family },
         )
         assertEquals(
-            listOf(ActivityFamily.WEDDING, ActivityFamily.FUNERAL, ActivityFamily.SACRED, ActivityFamily.DISPUTE),
+            listOf(ActivityFamily.WEDDING, ActivityFamily.FUNERAL, ActivityFamily.DISPUTE, ActivityFamily.SACRED),
             avoid.map { it.activity.family },
         )
     }

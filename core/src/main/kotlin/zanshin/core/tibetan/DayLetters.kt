@@ -46,7 +46,8 @@ data class Letter(val iast: String, val tibetan: String)
  * Kālacakra and of the *dbyangs 'char* with their elements and sense objects, the date's stage, the
  * twelve links counted from the month's *sgang*, and the moon's foot of the "hundred feet". WB writes
  * them so that the reckoner sees the fine and the rough (p. 173); it reads none of them against the
- * day, so the app weighs none.
+ * day. The app weighs the link by the activity lists that name it ([Factors.links]) and reads the
+ * fangs against the birth mansion and the moon's ([HundredFeet]); the letters are not shown.
  */
 object DayLetters {
 

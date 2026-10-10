@@ -13,6 +13,7 @@ import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.StarAffinity
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.DayLetters
 import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.PersonalMansion
@@ -95,8 +96,8 @@ fun List<ActivityNote>.byVoices(good: Boolean): List<Pair<List<SummaryEntry>, Li
  * mansion, whose own results come first (WB p. 337); the special days of
  * weekday and mansion, which "matter somewhat", with the burning date;
  * then the date, karaṇa, yoga and day animal (the lunar date's, the *nyi
- * ma* of WB's notes, vol. 2, p. 493) as the *kun phan me long* ranks them. The trigram is not
- * among them and counts last.
+ * ma* of WB's notes, vol. 2, p. 493) as the *kun phan me long* ranks them. The trigram, the date's
+ * sme ba and the day's link are not among them: they count last, as one voice, since no text orders them.
  */
 enum class DayFactor(
     /** Its voice's place in the weighing, 0 the strongest: the combination's two parts share one voice, as the special days do. */
@@ -112,7 +113,9 @@ enum class DayFactor(
     KARANA(6),
     YOGA(7),
     DAY_ANIMAL(8),
-    TRIGRAM(9);
+    TRIGRAM(9),
+    SME_BA(9),
+    LINK(9);
 
     val english: String get() = gloss(this)
 }
@@ -348,6 +351,7 @@ data class DaySummary(
             val mansion = Texts.MANSION.getValue(day.mansion)
             val animal = Texts.ELECTIONAL_ANIMAL.getValue(day.lunarDayAnimal)
             val trigram = Texts.ELECTIONAL_TRIGRAM.getValue(day.trigram)
+            val link = DayLetters.link(day)?.link
 
             // The named combination and the element pair speak as one: the combination ('phrod) of weekday and mansion.
             val combination = Voice(
@@ -402,8 +406,21 @@ data class DaySummary(
                 one(DayFactor.KARANA, entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), Texts.KARANA[day.karana]),
                 one(DayFactor.YOGA, entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), Texts.YOGA[day.yoga]),
                 one(DayFactor.DAY_ANIMAL, entry(gloss(day.lunarDayAnimal), DayFactor.DAY_ANIMAL, Tone.NEUTRAL, animal), animal),
-                // Not among the kun phan me long's seven, so the weakest: its lists decide only what no other factor names.
-                one(DayFactor.TRIGRAM, entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, Tone.NEUTRAL, trigram), trigram),
+                // Not among the kun phan me long's seven, so the weakest; no text orders the three, so they speak as one
+                // voice, as the special days do: their lists decide only what no other factor names, and where they
+                // disagree on a work they are silent on it.
+                Voice(
+                    DayFactor.TRIGRAM,
+                    listOfNotNull(
+                        Member(entry(day.trigram.wylie.replaceFirstChar(Char::uppercase), DayFactor.TRIGRAM, Tone.NEUTRAL, trigram), listOf(trigram)),
+                        Texts.DATE_SME_BA.getValue(day.smeBa).let {
+                            Member(entry(Catalog.format("DayFactor.SME_BA.title", day.smeBa.toString()), DayFactor.SME_BA, Tone.NEUTRAL, it), listOf(it))
+                        },
+                        link?.let { l ->
+                            Texts.TWELVE_LINK.getValue(l).let { Member(entry(l.english.replaceFirstChar(Char::uppercase), DayFactor.LINK, Tone.NEUTRAL, it), listOf(it)) }
+                        },
+                    ),
+                ),
             ).filter { it.members.isNotEmpty() }
 
             val dayDecision = weigh(voices.mapNotNull { v -> v.tone?.let { Vote(v, v.members, it) } }, combination.tone)!!

@@ -16,6 +16,8 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Electional
+import zanshin.core.tibetan.HundredFeet
+import zanshin.core.tibetan.Link
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
@@ -28,7 +30,6 @@ import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.SeasonReckoning
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
-import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.CourseEvent
@@ -1092,21 +1093,39 @@ object Texts {
     val COMET = Reading(source = Sources.WHITE_BERYL_SEASON_SIGNS, also = listOf(Sources.KUN_DUS_COMET), key = "reading.Comet")
 
     /**
-     * The sun's terms (WB vol. 1, ch. 15, [zanshin.core.tibetan.DayTimes.sunTerms]): what each kind is
-     * and how the almanac dates it. No lists: WB names no works for them.
+     * The date's sme ba ([zanshin.core.tibetan.TibetanDay.smeBa]): how the almanac counts it (WB vol. 1, p. 178),
+     * and what the activity lists name each of the nine good or bad for (the *kun phan me long*'s boxes,
+     * docs/sources/kp-activities.md). Weighed with the trigram and the link, below the seven factors (SPEC §5.12).
      */
-    val SUN_TERM: Map<DayTimes.SunTermKind, Reading> = DayTimes.SunTermKind.entries.associateWith {
-        Reading(source = Sources.WHITE_BERYL_TIMES, key = "reading.SunTerm", arg = "reading.SunTerm.${it.name}")
+    val DATE_SME_BA: Map<Int, Reading> = (1..9).associateWith { n ->
+        Reading(
+            goodKeys = Electional.good { n in it.smeBa }, avoidKeys = Electional.bad { n in it.smeBa },
+            source = Sources.KUN_PHAN_ME_LONG, also = listOf(Sources.WHITE_BERYL_LETTERS), key = "reading.DateSmeBa",
+        )
     }
 
     /**
-     * The letters of the day ([zanshin.core.tibetan.DayLetters], WB vol. 1, pp. 16–19, 97, 150–153, 177–178):
-     * how each is reckoned. No lists: WB reads them against a name or a birth, not against the day.
+     * The day's link of the twelve ([zanshin.core.tibetan.DayLetters.link], WB vol. 1, pp. 19, 150–153, 177): how it
+     * is counted, and what the activity lists name each link good or bad for. Weighed as [DATE_SME_BA] is.
      */
-    val KALACAKRA_LETTERS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.KalacakraLetters")
-    val SVARODAYA_LETTERS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.SvarodayaLetters")
-    val TWELVE_LINKS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.TwelveLinks")
-    val HUNDRED_FEET = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet")
+    val TWELVE_LINK: Map<Link, Reading> = Link.entries.associateWith { l ->
+        Reading(
+            goodKeys = Electional.good { l in it.links }, avoidKeys = Electional.bad { l in it.links },
+            source = Sources.WHITE_BERYL_LETTERS, also = listOf(Sources.KUN_PHAN_ME_LONG), key = "reading.TwelveLinks",
+        )
+    }
+
+    /**
+     * The fangs of the hundred feet on a person's birth mansion ([HundredFeet.of], WB vol. 1, pp. 97–98): the wheel,
+     * the fangs, and what they bring there and on the six holders, the day's result in {0}. Shown, not weighed.
+     */
+    val HUNDRED_FEET: Map<HundredFeet.Result, Reading> = HundredFeet.Result.entries.associateWith {
+        Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet", arg = "reading.HundredFeet.${it.name}")
+    }
+
+    /** The spear and the great spear ([HundredFeet.spear], WB vol. 1, pp. 98–99): every work avoided, a bride above all. */
+    val SPEAR = Reading(avoidKeys = listOf("every_work", "giving_and_taking_a_bride"), source = Sources.WHITE_BERYL_LETTERS, key = "reading.Spear")
+    val GREAT_SPEAR = Reading(avoidKeys = listOf("every_work", "giving_and_taking_a_bride"), source = Sources.WHITE_BERYL_LETTERS, key = "reading.GreatSpear")
     val LUNAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.MOON")
     val SOLAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.SUN")
 

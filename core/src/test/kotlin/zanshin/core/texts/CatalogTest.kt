@@ -18,6 +18,7 @@ import zanshin.core.kyureki.Shuku
 import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
+import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Element
@@ -67,7 +68,7 @@ class CatalogTest {
             IndianElement.entries, Weekday.entries, Mansion.entries, Yoga.entries, Karana.entries, ElementPair.entries,
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
-            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, GreatCombination.entries, CombinationDay.entries,
+            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries, LetterElement.entries, SenseObject.entries, LifeStage.entries, Link.entries,
             BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries,
         ).flatten()
@@ -95,7 +96,7 @@ class CatalogTest {
             Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
         ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
-        Texts.SUN_TERM.values + Texts.KALACAKRA_LETTERS + Texts.SVARODAYA_LETTERS + Texts.TWELVE_LINKS + Texts.HUNDRED_FEET + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
+        Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
             (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +

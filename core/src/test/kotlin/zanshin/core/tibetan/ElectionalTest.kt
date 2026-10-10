@@ -28,6 +28,8 @@ class ElectionalTest {
             assertTrue(a.good.dates.intersect(a.bad.dates).isEmpty(), a.wording)
             assertTrue(a.good.animals.intersect(a.bad.animals).isEmpty(), a.wording)
             assertTrue(a.good.trigrams.intersect(a.bad.trigrams).isEmpty(), a.wording)
+            assertTrue(a.good.smeBa.intersect(a.bad.smeBa).isEmpty(), a.wording)
+            assertTrue(a.good.links.intersect(a.bad.links).isEmpty(), a.wording)
         }
         assertEquals(Mansion.entries.toSet(), Electional.MANSION_ACTIVITIES.keys)
     }
@@ -165,5 +167,41 @@ class ElectionalTest {
         assertEquals(good, washing.good.dates)
         assertEquals(bad, washing.bad.dates)
         assertFalse(27 in good || 27 in bad)
+    }
+
+    @Test
+    fun `the boxes' sme ba and links, as read on the scans`() {
+        // docs/sources/kp-activities.md, read 2026-10-10 on KP and KP2: the number or the link and the half it stands in.
+        val sme = Electional.ACTIVITIES.filter { it.good.smeBa.isNotEmpty() || it.bad.smeBa.isNotEmpty() }
+            .associate { it.wording to (it.good.smeBa to it.bad.smeBa) }
+        assertEquals(
+            mapOf(
+                "funerals" to (setOf<Int>() to setOf(3, 5, 9)),
+                "setting_up_supports" to (setOf(5) to setOf()),
+                "building_walls" to (setOf<Int>() to setOf(9)),
+                "trade" to (setOf<Int>() to setOf(9)),
+                "receiving_wealth" to (setOf(9) to setOf()),
+                "auspicious_work" to (setOf(8) to setOf()),
+                "giving_gifts_and_dowries" to (setOf(6) to setOf()),
+                "digging_ponds_canals_and_wells" to (setOf<Int>() to setOf(3)),
+                "raising_dogs" to (setOf<Int>() to setOf(5)),
+                "calling_prosperity_and_bon_rites" to (setOf(6, 9) to setOf()),
+                "preparing_medicine" to (setOf(9) to setOf()),
+                "bloodletting_and_moxibustion" to (setOf<Int>() to setOf(2, 7)),
+                "bathing_and_washing_the_hair" to (setOf<Int>() to setOf(1, 6)),
+                "suppressing_sri" to (setOf(3) to setOf()),
+                "consecration" to (setOf<Int>() to setOf(6)),
+                "composing_treatises_and_learning_poetics" to (setOf(5) to setOf()),
+            ),
+            sme,
+        )
+        val links = Electional.ACTIVITIES.count { it.good.links.isNotEmpty() || it.bad.links.isNotEmpty() }
+        assertEquals(22, links)
+        with(list("bathing_and_washing_the_hair")) {
+            assertEquals(setOf(Link.SOURCES, Link.BECOMING, Link.FORMATION, Link.BIRTH, Link.IGNORANCE, Link.CONSCIOUSNESS), good.links)
+            assertEquals(setOf(Link.NAME_AND_FORM, Link.FEELING, Link.CRAVING), bad.links)
+        }
+        // "skye" alone could be birth or the sense sources: left out where the box writes no more (boxes 5 and 7).
+        assertFalse(Link.BIRTH in list("building_walls").good.links)
     }
 }
