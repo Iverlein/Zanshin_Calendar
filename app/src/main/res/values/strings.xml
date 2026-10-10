@@ -47,6 +47,29 @@
     <string name="row_animal">Animal</string>
     <string name="row_season_kalacakra">Season, Kālacakra</string>
     <string name="row_season_chinese">Season, Chinese reckoning</string>
+    <string name="row_month_days">Days</string>
+    <string name="month_long">%1$d · long</string>
+    <string name="month_short">%1$d · short</string>
+    <string name="row_rise_rough">Rising, roughly</string>
+    <string name="row_rise_fine">Rise and fall, finely</string>
+    <string name="rise_fine">rise: %1$s · wane: %2$s · decline: %3$s · move: %4$s</string>
+    <string name="row_black_months">Black months</string>
+    <string name="black_dates">dates %1$d–%2$d</string>
+    <string name="black_months">the %1$s and %2$s months</string>
+    <string name="black_months_this">the %1$s and %2$s months · this one, dates %3$d–%4$d</string>
+    <string name="row_kikang_month">Kikang (ཀི་ཀང, ki kang)</string>
+    <string name="tib_rishi_title">The sage\'s seven days (དྲང་སྲོང་རི་ཏི, drang srong ri ti)</string>
+    <string name="tib_pig_title">The pig\'s seven days (ཕག་ཞག, phag zhag)</string>
+    <string name="kikang_month">black month, date %1$d%2$s: %3$s</string>
+    <string name="kikang_dawn">, at dawn</string>
+    <string name="kikang_sunrise">, at sunrise</string>
+    <string name="kikang_dusk">, at dusk</string>
+    <string name="row_rishi_days">The sage\'s seven days</string>
+    <string name="row_pig_days">The pig\'s seven days</string>
+    <string name="sign_from">from date %1$d</string>
+    <string name="row_comet">Comet</string>
+    <string name="comet_month">a long-tailed comet is marked this month</string>
+    <string name="sign_day">day %1$d of 7</string>
     <!-- the animal named in the month, e.g. "Dragon month" -->
     <string name="tib_animal_month">%1$s month</string>
     <!-- an element and an animal as one name: "Iron Horse" -->

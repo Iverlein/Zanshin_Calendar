@@ -82,6 +82,11 @@ import zanshin.app.Person
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.RahuBySeason
 import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.MonthEntries
+import zanshin.core.tibetan.Weekday
+import zanshin.core.tibetan.SeasonReckoning
+import zanshin.core.tibetan.CourseEvent
+import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Thl
@@ -205,7 +210,7 @@ fun TibetanPage(
                     BalloonRow(stringResource(R.string.row_season_kalacakra), day.monthNames.season),
                     BalloonRow(stringResource(R.string.row_season_chinese), day.monthNames.chineseSeason),
                     BalloonRow(stringResource(R.string.row_element), gloss(info.signs.month.element)),
-                ) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
+                ) + monthEntryRows(day, labels) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
             )
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             CueIcon(CueGlyphs.of(day.yearElement), Palette.muted, 20.dp)
@@ -693,6 +698,10 @@ fun TibetanPage(
                 name,
                 when {
                     c.course == EarthLordCourse.GNAM_SGO -> Catalog.text("SkyDoor.${c.variant!!.replace(' ', '_')}")
+                    c.course == EarthLordCourse.ZLA_NAG -> MonthEntries.MonthPart.valueOf(c.variant!!).dates.let {
+                        labels.string(R.string.black_dates, it.first, it.last)
+                    }
+                    c.course == EarthLordCourse.KI_KANG_ZLA_NAG -> Texts.earthLord(c).avoid.joinToString(", ")
                     c.otherView -> "${gloss(c.event)}, ${Catalog.text("CourseDay.otherView")}"
                     else -> gloss(c.event)
                 },
@@ -713,6 +722,21 @@ fun TibetanPage(
                 parts = courses,
             ),
         ) { a -> sheet = a }
+
+        // The seasonal signs of the month heading that last seven days (ROADMAP T2.21): shown, not weighed.
+        for (sign in MonthEntries.SeasonSign.entries) {
+            MonthEntries.signDay(day, sign)?.let { k ->
+                AnnotationRow(
+                    Annotation(
+                        stringResource(if (sign == MonthEntries.SeasonSign.RISHI) R.string.tib_rishi_title else R.string.tib_pig_title),
+                        stringResource(R.string.sign_day, k),
+                        if (sign == MonthEntries.SeasonSign.PIG) Tone.BAD else Tone.NEUTRAL,
+                        Texts.SEASON_SIGN.getValue(sign),
+                        titleIsKanji = false,
+                    ),
+                ) { a -> sheet = a }
+            }
+        }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -821,6 +845,64 @@ fun TibetanPage(
  * year ("Fire · ○○○ mother"). The month and the year hold these rather than
  * the page, where they would repeat for weeks.
  */
+/**
+ * What WB's month heading writes that the app reckons (ROADMAP T2.21, SPEC §5.11): the month's days, long
+ * or short; the weekday that rises, roughly by the month's animal and finely by its first date's weekday;
+ * the year's black months, and this one's black third; the year's Kikang black month when it falls in
+ * this month; the dated seasonal signs; the comet the count marks.
+ */
+private fun monthEntryRows(day: TibetanDay, labels: Labels): List<BalloonRow> = buildList {
+    val days = MonthEntries.days(day.monthCount)
+    add(BalloonRow(labels.string(R.string.row_month_days), labels.string(if (MonthEntries.isLong(days)) R.string.month_long else R.string.month_short, days)))
+    add(BalloonRow(labels.string(R.string.row_rise_rough), MonthEntries.roughRise(day.monthNames.animal).planet))
+    val lord = MonthEntries.lord(day.monthCount)
+    val order = Weekday.entries.drop(1) + Weekday.SATURDAY
+    fun planets(rise: MonthEntries.Rise) = order.filter { MonthEntries.rise(lord, it) == rise }.joinToString(", ") { it.planet }
+    add(
+        BalloonRow(
+            labels.string(R.string.row_rise_fine),
+            labels.string(
+                R.string.rise_fine,
+                planets(MonthEntries.Rise.RISES), planets(MonthEntries.Rise.WANES), planets(MonthEntries.Rise.DECLINES), planets(MonthEntries.Rise.MOVES),
+            ),
+        ),
+    )
+    val year = EarthLordCourses.chineseYear(day)
+    val (first, second) = MonthEntries.blackMonths(year).sortedBy { a -> (1..12).first { TibetanCalendar.monthNames(it).animal == a } }
+    val black = MonthEntries.blackMonth(day)
+    add(
+        BalloonRow(
+            labels.string(R.string.row_black_months),
+            if (black == null) {
+                labels.string(R.string.black_months, gloss(first), gloss(second))
+            } else {
+                labels.string(R.string.black_months_this, gloss(first), gloss(second), black.dates.first, black.dates.last)
+            },
+        ),
+    )
+    MonthEntries.kiKang(day)?.let { k ->
+        val time = when (k.time) {
+            MonthEntries.DayTime.DAWN -> labels.string(R.string.kikang_dawn)
+            MonthEntries.DayTime.SUNRISE -> labels.string(R.string.kikang_sunrise)
+            MonthEntries.DayTime.DUSK -> labels.string(R.string.kikang_dusk)
+            null -> ""
+        }
+        val works = Texts.earthLord(
+            CourseDay(EarthLordCourse.KI_KANG_ZLA_NAG, CourseEvent.MOVES, SeasonReckoning.CHINESE.season(day.month), year.name),
+        ).avoid.joinToString(", ")
+        add(BalloonRow(labels.string(R.string.row_kikang_month), labels.string(R.string.kikang_month, k.date, time, works)))
+    }
+    for (sign in MonthEntries.SeasonSign.entries) {
+        MonthEntries.signDate(day.monthCount, sign)?.let { d ->
+            val label = if (sign == MonthEntries.SeasonSign.RISHI) R.string.row_rishi_days else R.string.row_pig_days
+            add(BalloonRow(labels.string(label), labels.string(R.string.sign_from, d)))
+        }
+    }
+    if (MonthEntries.cometMonth(day.year, day.month, day.leapMonth)) {
+        add(BalloonRow(labels.string(R.string.row_comet), labels.string(R.string.comet_month)))
+    }
+}
+
 @Composable
 private fun aspectRows(its: YearForces, own: YearForces?, forces: List<Force>): List<BalloonRow> = forces.map { force ->
     val value = if (own == null) {
