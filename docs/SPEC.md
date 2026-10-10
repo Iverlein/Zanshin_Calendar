@@ -680,6 +680,40 @@ English (§8.1), each reading citing its pages:
   weight. The eclipses (WB ch. 9) are not built: Rāhu's epoch is in doubt
   (sources/open-questions.md, 16) and the solar rule needs the *byed
   rtsis* (ROADMAP T2.23).
+- **The letters of the day** (WB vol. 1, p. 177, entries 3, 4, 12 and 17,
+  with ch. 2, pp. 16–19, ch. 12, p. 97, and ch. 13's table, pp. 150–153;
+  [day-letters.md](sources/day-letters.md); `DayLetters`, checked by
+  `DayLettersTest` against the model almanac's day boxes and the table
+  cell by cell). The Kālacakra's vowel of each date, the same every month
+  (a i ṛ u ḷ, a e ar o al, ha ya ra va la, then the long ones back: lā vā
+  rā yā hā, āl au ār ai ā, ḹ ū ṝ ī ā), joined to the consonant of the
+  month's sign, five to a group and six rounds a month (the *ka* group in
+  Capricorn and back in Aquarius, *ca* in Pisces and Aries, *ṭa* in Taurus
+  and Gemini, *pa* in Cancer and Leo, *ta* in Virgo and Libra, sa ha ṣa
+  śa kṣa in Scorpio and Sagittarius; Hor month *m* the sign *m* − 3 from
+  Aries, a leap month its number's), with its element and sense object,
+  space to earth with sound to smell in the waxing half, back in the
+  waning. The *dbyangs 'char*'s, the same every month, its halves
+  reversed: a i u e o with dha to ha on the 1st to 15th, ā ī ū e o with
+  ka to da (without ṅa ña ṇa) on the 16th to 30th, earth to space with
+  smell, taste, form, touch, sound. The date's stage with the five-fold
+  cycle: child, youth, prime, old, ripe. The twelve links, counted in days
+  from the day of each month's *sgang* (§5.8) to the day before the next,
+  by WB's table: the row of the *sgang*'s month starts from its link (the
+  5th month feeling, each later month the next, the 11th ignorance), runs
+  forward twelve days and repeats the 3rd to 5th, then back over the
+  second fifteen in the same way, the 31st column its link less seven, the
+  32nd less five, and the 10th month's 28th column *rga shi* as both
+  prints have it; with 28 days the 15th and 30th columns drop, with 29 the
+  30th, with 31 and 32 the extra columns come in. A stretch of 33 days
+  (once in 2000–2049, from 4 July 2009) has no link. The hundred feet: the
+  quarter of its mansion the moon walks in at daybreak, with its syllable
+  on ch. 12's wheel (Kṛttikā a i u e … Bharaṇī li lu le lo; Śravaṇa ju je
+  jo kha, Abhijit's khi khu khe kho never the moon's). Not built: the
+  face-on and the fangs written with the foot, a planet's strikes across
+  the wheel (T2.23), and «ལྔ་སྒྲ་ཉི་མ» (question 17). All shown and not
+  weighed: WB reads them against a name, a birth or the planets, never
+  against the day.
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -1487,6 +1521,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | The great black day, the meeting of the nine bad | The White Beryl, Beijing 1996, vol. 2, p. 226 (BDRC MW2CZ8040) |
 | The month heading's entries: long or short, the weekday's rise, the black months, the seasonal signs, the comet | The White Beryl, Beijing 1996, vol. 1, pp. 176, 183 and 186–189, and vol. 2, pp. 212, 312 and 359 (BDRC MW2CZ8040); the comet's years after the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 2, p. 145 (BDRC MW28845) |
+| The letters of the day: the Kālacakra's and the *dbyangs 'char*'s vowels and consonants, the stage, the twelve links, the hundred feet | The White Beryl, Beijing 1996, vol. 1, pp. 16–19, 97–98, 150–153 and 173–178, with the Zhol print (BDRC MW1KG1617) for the table and the model almanac (BDRC MW2CZ8040) |
 | The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
@@ -1726,7 +1761,20 @@ canvas "Zanshin Calendar — basic design".
   cycle's animal the "day sign", and the date's animal
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
-  are not taken for one. On the day a sun's term falls, a last row
+  are not taken for one. After the date's sme ba come the letters of the
+  day (§5.11), each row opening its reading with how it is worked out:
+  "Kālacakra" with the date's syllable and its element and sense object
+  ("nā (ནཱ) · space, sound"), its sheet the vowel, the syllable, the
+  element and object named as §8.1 writes them, the half (arising or
+  gathered back) and the month's sign; "Rising of the vowels" with the
+  vowel and consonant, element, object and stage ("o da (ཨོ ད) · space,
+  sound · ripe"); "Twelve links" with the day's link as a Tibetan term, its
+  sheet counting the day from the middle term ("day 4 of 31 from the
+  middle term of month 8"), no row on a day beyond the table; "Hundred
+  feet" with the moon's quarter and its syllable ("quarter 3 · pa (པ)"),
+  its sheet naming the mansion. Letters are written in transliteration
+  with their script in brackets: they are no words, so they carry no
+  Wylie. On the day a sun's term falls, a last row
   names it with its time ("Middle term of month 8 · 01:00", "Sun enters
   Libra · 19:24"), its sheet the term's reading, its Tibetan name and its
   measure (§5.8).

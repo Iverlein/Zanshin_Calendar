@@ -17,6 +17,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
   a skipped yoga, Viṣṭi's span and the sun's terms, with their times; what
   its month heading writes: long or short, the planet that rises, the
   black months, the sage's and the pig's seven days and the comet; the
+  letters it writes for each date: the Kālacakra's and the *dbyangs
+  'char*'s vowels and consonants with their elements and sense objects,
+  the date's stage, the twelve links counted from the month's middle term
+  and the moon's foot of the hundred feet; the
   hours with the combination period, the earth lords of the hour, the
   black hours, what each hour is good for, the four rough times at
   sunrise, noon, sunset and midnight, and the works an hour turns

@@ -7,6 +7,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Monthly observances on the 8th, 10th, 15th, 25th and 30th</li>
 <li>Lunar mansion, yoga and karaṇa, the element pair of weekday and mansion, the lunar-day animal, trigram and number</li>
 <li>What changes within the day, as the almanac of the White Beryl (བཻཌཱུར་དཀར་པོ, bai DUr dkar po) writes it: a second mansion, a skipped yoga, the span of Viṣṭi and the sun's terms, each with its time</li>
+<li>The letters the almanac writes for each date: the vowels and consonants of the Kālacakra (དུས་འཁོར, dus 'khor) and of the rising of the vowels (དབྱངས་འཆར, dbyangs 'char) with their elements and sense objects, the date's stage, the twelve links (རྟེན་འབྲེལ, rten 'brel) counted from the month's middle term, and the moon's quarter of the hundred feet (རྐང་བརྒྱ, rkang brgya)</li>
 <li>What the almanac writes at the head of each month: whether it is long or short, the planet that rises, the black months, the seven days of the sage (དྲང་སྲོང, drang srong) and of the pig, and the comet its count marks</li>
 <li>The readings of the lunar mansion, date, weekday, yoga, karaṇa and trigram, the special days, Rāhu's course, the earth lords and the direction of the astrologer spirit (བླ་མཁྱེན, bla mkhyen)</li>
 <li>A day in brief, weighed as the texts rank their factors: the hours above the day, what the activity lists name good or to avoid, the day's tone and the one factor that decides it</li>

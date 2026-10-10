@@ -252,3 +252,14 @@ the text, not about the app.
     a rtsis manual, or a printed almanac's Rāhu for a known month, would
     settle it. Until then the eclipses are not built
     ([month-entries.md](month-entries.md)).
+
+17. **WB vol. 1, p. 178 (img. 188): what are the «ལྔ་སྒྲ་ཉི་མ» written over each
+    mansion with the hundred feet?** «རང་རང་སྐར་མའི་མགོ་ཐོག་ཏུ། །ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས། །རྐང་བརྒྱའི་རེའུ་མིག་ཇི་བཞིན་བཀོད།»
+    The feet are the mansions' quarters on ch. 12's wheel (p. 97), the
+    face-on and the fangs a planet's strikes across it (p. 98). The "five
+    sounds" may be the wheel's five vowels or the five classes at its
+    centre, and *nyi ma* the sun's mansion or the date; no passage read
+    says, and the model almanac, which writes only the fixed entries of
+    each date, has no mansions to show it. A printed almanac in WB's
+    tradition, or a manual's gloss on the line, would settle it. Until
+    then only the moon's foot is built ([day-letters.md](day-letters.md)).

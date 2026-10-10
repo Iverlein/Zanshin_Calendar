@@ -22,7 +22,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
 | 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
-| 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links, T2.23 the five planets and the *byed rtsis*), WB's day animals (T2.24), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
+| 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis*), WB's day animals (T2.24), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
@@ -57,7 +57,7 @@ moves up as soon as it is unblocked.
 | 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 | 17 | T2.20 The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
 | 18 | T2.21 The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
-| 19 | T2.22 The *dbyangs 'char* entries and the twelve links | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
+| 19 | T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
 | 20 | T2.23 The five planets and the *byed rtsis* | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
 | 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | 22 | T2.24 The day animals by WB | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
@@ -553,7 +553,7 @@ it. It is item E below, built 2026-10-09.
   each *sgang*, p. 182's 1;10 a sign-month), not the place's sunset.
   Built in full.
 
-#### T2.22 The *dbyangs 'char* entries and the twelve links — M reading, then M
+#### T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 (SPEC §5.11, §10.3)
 
 - **Gap.** WB's almanac writes on each day the vowels and consonants of
   the Kālacakra and the *dbyangs 'char* with their elements and sense
@@ -573,6 +573,24 @@ it. It is item E below, built 2026-10-09.
   the Lunar day section, each balloon saying what WB says of it.
 - **Done when.** Vectors from WB's model almanac (vol. 1, pp. 154–171,
   whose day rows carry these entries); SPEC §5.8, §10.3; both languages.
+- **Built** ([day-letters.md](sources/day-letters.md); `DayLetters`,
+  `DayLettersTest`). Read on the scans: ch. 2's rules (pp. 16–19), the
+  wheel of the mansions (ch. 12, p. 97), the links' table (pp. 150–153,
+  with WBZ img. 171–172) and the model almanac's day boxes, which are
+  WB's *gtan le*, the fixed entries of each date. The Kālacakra's vowel,
+  syllable, element and sense object; the *dbyangs 'char*'s, its halves
+  reversed (the long vowels and ka–da on the 16th–30th); the stage with
+  the five-fold cycle; all checked against 27 boxes of the 11th month and
+  the 12th's. The twelve links by the table from the day of each *sgang*,
+  all twelve rows read cell by cell, three in the test, the 10th month's one odd cell kept as
+  both prints have it, with 28–32 days by p. 177's rule; one stretch of
+  33 days in 2000–2049 (2009) has no link. The hundred feet: the moon's
+  quarter and its syllable. Four rows of the Lunar day section, each
+  opening its reading. Checked on the emulator in English and Russian
+  (10 October 2026: nā, o da, ripe, ignorance on day 4 of 31,
+  Uttaraphalgunī's 3rd quarter pa). **Not built:** the face-on and the
+  fangs over the mansion, the planets' strikes across the wheel, moved to
+  T2.23; WB's «ལྔ་སྒྲ་ཉི་མ» over the mansion, open question 17.
 
 #### T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
 
@@ -641,6 +659,14 @@ it. It is item E below, built 2026-10-09.
   open question 16 (Rāhu's epoch and constant: a worked eclipse or a
   printed almanac's Rāhu would settle it) and on the *byed rtsis*, which
   the solar rule uses. Done when a worked example or almanac agrees.
+- **And the fangs** (moved from T2.22, 2026-10-10;
+  [day-letters.md](sources/day-letters.md)): over the day's mansion WB's
+  almanac writes the face-on (*gdong tshugs*) and the right and left fangs
+  of the hundred feet's wheel (vol. 1, p. 178), which ch. 12 reckons for
+  the planets in their mansions (pp. 97–98, a planet in Kṛttikā: right
+  Bharaṇī, left a, Taurus, dga' and bzang, Libra, ta, Viśākhā face-on).
+  With the planets' places they can be built from the wheel ch. 12 sets
+  out; its corner cells are not named in the passage read.
 
 #### T2.24 The day animals by WB — M reading, then S
 
@@ -668,7 +694,7 @@ it. It is item E below, built 2026-10-09.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
    then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);
-   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (after T2.20's *sgang*), T2.24 (found 2026-10-10); T2.23 last, the largest.
+   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found 2026-10-10); T2.23 last, the largest.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
 #### Not planned
