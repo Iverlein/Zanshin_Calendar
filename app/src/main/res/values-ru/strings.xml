@@ -614,6 +614,9 @@
     <string name="detail_left_fang">Левый клык</string>
     <string name="detail_face_on">Лицом к лицу (གདོང་ཚུགས, gdong tshugs)</string>
     <string name="abhijit">Абхиджит</string>
+    <string name="body_moon">луна</string>
+    <string name="body_sun">солнце</string>
+    <string name="detail_sun_mansion">Созвездие солнца</string>
     <string name="row_sun_term">Срок солнца</string>
     <string name="sun_term_month">%1$s %2$d-го месяца</string>
     <string name="sun_term_sign">Солнце входит в знак: %1$s</string>

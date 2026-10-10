@@ -733,6 +733,9 @@
     <string name="detail_left_fang">Left fang</string>
     <string name="detail_face_on">Face-on (གདོང་ཚུགས, gdong tshugs)</string>
     <string name="abhijit">Abhijit</string>
+    <string name="body_moon">moon</string>
+    <string name="body_sun">sun</string>
+    <string name="detail_sun_mansion">The sun\'s mansion</string>
     <string name="row_sun_term">Sun\'s term</string>
     <!-- "Breath term of month 1" -->
     <string name="sun_term_month">%1$s of month %2$d</string>
