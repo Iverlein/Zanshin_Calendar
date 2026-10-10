@@ -38,14 +38,16 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 
 | In v1 | Later |
 | --- | --- |
-| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9); the lunar mansion's reading and the activity lists (§5.10) | Tsurphu version; Rishi-star bathing week |
-| Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食; 七十二候 |
-| Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | Moon rise and set |
+| Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9); the lunar mansion's reading and the activity lists (§5.10) | Tsurphu version |
+| Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食 |
+| Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | |
 | Screen with date navigation, home-screen widget, location setting | Notifications |
 | Meditation timer and mindfulness bell, a screen of their own (§10.9) | |
 | Texts from published sources only (§8) | Translations beyond English |
 
 Planned work, with its open questions, is in [ROADMAP.md](ROADMAP.md).
+Nothing is planned that can neither be used nor change a weight or a
+verdict (the owner, 2026-10-10).
 
 ## 4. Architecture
 

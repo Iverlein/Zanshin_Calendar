@@ -58,7 +58,7 @@ moves up as soon as it is unblocked.
 | 17 | T2.20 The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
 | 18 | T2.21 The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
 | 19 | T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
-| 20 | T2.23 The five planets and the *byed rtsis* — built 2026-10-10 | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
+| 20 | T2.23 The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
 | 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | 22 | T2.24 The day animals by WB | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 
@@ -1301,7 +1301,13 @@ Weblate and GitHub, with the owner's accounts:
   and day boards, lucky directions and the 五黄殺, 暗剣殺, 本命殺 and 的殺
   directions. All of these can be calculated from the boards; the readings need
   sources. Only calculated positions, never free interpretation.
-- Kyūreki: 神吉日, 凶会日, 五墓日, 時下食; 七十二候 (SPEC §3).
-- Tibetan: Tsurphu version; Rishi-star bathing week (SPEC §3).
-- Moon rise and set; notifications (SPEC §3).
+- Kyūreki: 神吉日, 凶会日, 五墓日, 時下食 (SPEC §3).
+- Tibetan: Tsurphu version (SPEC §3).
+- Notifications (SPEC §3).
 - The widget: sizes and content (SPEC §10.6).
+
+**Dropped (the owner, 2026-10-10)**: what can neither be used nor change a
+weight or a verdict is not planned (T2.23). So 七十二候, seasonal names
+naming no works, and the moon's rise and set, which nothing weighs; the
+Rishi-star bathing week was a stale entry, built as the sage's seven days
+(T2.21).
