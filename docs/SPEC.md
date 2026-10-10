@@ -786,9 +786,36 @@ English (§8.1), each reading citing its pages:
   digit-for-digit port of TCG 1.06's t3.c and t2.c, MIT licence; the
   general day is the Julian day number less 1,355,847, Henning's true
   month count the app's plus 22,338; `PlanetsTest` against his program on
-  every day of 2000–2047). All shown and not
-  weighed: WB reads them against a name, a birth or the planets, never
-  against the day.
+  every day of 2000–2047). What the app does with them (ROADMAP T2.25,
+  built 2026-10-10; the owner's rule that nothing is shown that can
+  neither be used nor change a weight or verdict): the Kālacakra's and
+  the *dbyangs 'char*'s letters and the date's stage are not shown, as WB
+  reads them against the syllable of a person's name (vol. 2, p. 305),
+  which the app does not ask for. The day's link is weighed with the
+  trigram and the date's sme ba (§5.12) by what the *kun phan me long*'s
+  activity boxes name each link good or bad for, 22 boxes read on the
+  scans ([kp-activities.md](sources/kp-activities.md)); the date's sme ba
+  the same way, sixteen boxes naming its numbers. The hundred feet are
+  read as ch. 12 reads them (pp. 97–99, on the Zhol print, WBZ img.
+  133–136; `HundredFeet`): from each body's mansion the right fang ends
+  on one mansion, which it strikes; the sun, Mars, Saturn and Rāhu are the
+  four malefics (*drag gza' bzhi*, p. 95; the sun «སྡིག་གཟའ», p. 97). On a
+  person's birth mansion one malefic's fang makes aims fail, two bring
+  illness, three death; one or two benefics' (the moon's, Mercury's,
+  Jupiter's, Venus's) leave food and drink short, three bring epidemics
+  and loss of wealth. The six holders counted from it round the wheel's
+  28 (the 10th place of work, the 16th, 18th, 19th, 23rd and 25th) have
+  their results, and malefics on the birth mansion, the place of work and
+  the 23rd at once bring death. A body's face-on on the moon's mansion
+  of the day is the spear (*mdung sbyor*) for a benefic, the great spear
+  (*mdung chen*) for a malefic: every work avoided, a bride above all.
+  Shown and not weighed, as p. 376 does not rank them. Not built: p. 98's
+  rule that a malefic's fang or face-on on the date, sign, consonants and
+  vowels is avoided when one acts, sets out or stays, which on the date's
+  class and the moon's sign alone falls on 64% of days in 2000–2049 and
+  does not say whose letters; and the five harms of p. 97 (*sol ba*,
+  *'khyud pa*, *du ba*, face-on, sight), read and recorded in
+  [day-letters.md](sources/day-letters.md).
 
 The lists' wordings map to activities like every other reading's (§8.2).
 The day in brief (§10.3) weighs them with the lists of §5.10 as §5.12 says.
@@ -882,7 +909,9 @@ voices, so that the tone and the lists cannot go separate ways.
   sides ([sources/weighing.md](sources/weighing.md), open questions 12–13,
   answered 2026-10-06; until then the app took the side more voices took,
   which on 2000–2049 gave 1,533 days the other tone). The trigram, ranked
-  last, decides only a work no other voice names. The special days
+  last, decides only a work no other voice names; the date's sme ba and
+  the day's link stand with it as one voice (ROADMAP T2.25), since no
+  text orders the three, silent on a work they name both ways. The special days
   stand in their own rank, below the weekday and the mansion (WB p. 337:
   their do's and don'ts "matter somewhat", "the individual results of
   planet and mansion are the main thing"). The person's own weekdays and
@@ -1750,8 +1779,10 @@ canvas "Zanshin Calendar — basic design".
   ("good hours 09:00–11:00 13:00–17:00 …"), on a lucky day those to be
   avoided, consecutive hours joined; nothing is weighed anew, and on the
   person's enemy weekday or death mansion there are none, since WB places
-  no hour above the person's day (§5.12). A tap on the strip or on a time
-  opens the hours panel at that hour, a tap on the row at the present one;
+  no hour above the person's day (§5.12). A tap on a time opens the hours
+  panel at that hour, a tap anywhere else on the row, the strip included,
+  at the present one (2.4.1: a tap on the strip had opened the hour under
+  the finger, which read as a random hour);
   screen readers get the present hour and every run's times, with an
   action for each (`HoursRow`). Until U6 the hours against the tone stood
   on the In brief row, and the panel opened from a clock icon on the
@@ -1852,31 +1883,37 @@ canvas "Zanshin Calendar — basic design".
   and the date's sme ba, and the *bla mkhyen* row says its sme ba is
   counted from the solstice, so that the two animals and the two sme ba
   are not taken for one. The section's labels are short names on one line,
-  with no Tibetan bracket ("Date's animal", "Date's mewa", "Kālacakra",
-  "Vowel rising", "Twelve links", "Hundred feet"; decided by the owner,
-  2026-10-10): each word is named as §8.1 writes it where its row leads,
-  the date's animal in its sheet's "Tibetan" line, the sme ba in its
-  row's balloon, and the letters in their readings' first sentence, so
-  that the label column holds no long terms. A plain value sits on its
-  label's baseline. After the date's sme ba come the letters of the
-  day (§5.11), each row opening its reading with how it is worked out:
-  "Kālacakra" with the date's syllable and its element and sense object
-  ("nā (ནཱ) · space, sound"), its sheet the vowel, the syllable, the
-  element and object named as §8.1 writes them, the half (arising or
-  gathered back) and the month's sign; "Vowel rising" with the
-  vowel and consonant, element, object and stage ("o da (ཨོ ད) · space,
-  sound · ripe"); "Twelve links" with the day's link as a Tibetan term, its
-  sheet counting the day from the middle term ("day 4 of 31 from the
-  middle term of month 8"), no row on a day beyond the table; "Hundred
-  feet" with the moon's quarter and its syllable ("quarter 3 · pa (པ)"),
-  its sheet naming the mansion, then one row for each of the eight bodies,
-  "Mars: the nourisher (རྒྱལ, rgyal)" with its right fang, left fang (left
-  out when empty) and face-on, every cell named. Letters are written in transliteration
-  with their script in brackets: they are no words, so they carry no
-  Wylie. On the day a sun's term falls, a last row
-  names it with its time ("Middle term of month 8 · 01:00", "Sun enters
-  Libra · 19:24"), its sheet the term's reading, its Tibetan name and its
-  measure (§5.8).
+  with no Tibetan bracket ("Date's animal", "Date's mewa", "Twelve
+  links"; decided by the owner, 2026-10-10): each word is named as §8.1
+  writes it where its row leads, the date's animal in its sheet's
+  "Tibetan" line, the sme ba in its sheet's title, the link as its
+  value, so that the label column holds no long terms. A plain value sits
+  on its label's baseline. The date's sme ba opens its reading, how the
+  almanac counts it, with what the activity lists name its number good
+  or bad for; "Twelve links" the day's link as a Tibetan term, its sheet
+  counting the day from the middle term ("day 4 of 31 from the middle
+  term of month 8") with the link's lists, no row on a day beyond the
+  table (§5.11). Not shown (ROADMAP T2.25, the owner's rule that nothing
+  is shown that can neither be used nor change a weight or verdict): the
+  Kālacakra's and the *dbyangs 'char*'s letters, the moon's foot and the
+  wheel's cells, and the sun's terms, which the links and the
+  solstice-counted sme ba still count from.
+- **The hundred feet** (§5.11, ROADMAP T2.25): in "Your day", with a
+  birth date set, a row "Hundred feet (རྐང་བརྒྱ, rkang brgya)" on the
+  days a fang is on the birth mansion or malefics hold it, the place of
+  work and the 23rd at once; its second line names the bodies ("Sun"),
+  its sheet the day's result, the reading, the birth mansion, the fangs
+  on it and the holders struck, each with the bodies. The holders alone
+  raise no row: they are struck on 68% of days in 2020–2029, for two
+  weeks at a time. In "Also today", the spear or great spear on its day,
+  unlucky, its second line the bodies, its sheet the reading with every
+  work and a bride to avoid, the face-on's bodies and the moon's mansion.
+  Both shown, not weighed.
+- **Short rows** (the owner, 2026-10-10: "do not bloat the screen"): a
+  row's second line says only what it is; the rest is in its sheet. The
+  *bla mkhyen* row gives the direction alone (its sme ba in the sheet),
+  the earth lords' courses row the courses' names ("Namkyi Nakpo · The
+  sky door"), what each does today in the sheet.
 - **Times within the day** (§5.8): the mansion row's subtitle adds a
   second mansion that comes by daylight ("then Uttaraphalgunī from
   16:30"), the yoga row a skipped yoga ("and Vajra 09:01–04:06, skipped"),

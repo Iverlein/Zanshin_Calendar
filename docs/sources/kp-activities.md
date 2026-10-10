@@ -22,8 +22,8 @@ sections below from it).
   roofing", "middling", "bad for funeral feasts"), or in brackets, counts
   for neither side. So does one named in both halves. Emphasis alone
   ("best", "very bad") does not qualify.
-- What the app does not calculate is left out: rising signs, the twelve
-  links, the sme ba, the yogas and *dus sbyor*, the nectar periods, the
+- What the app does not calculate is left out: rising signs, the yogas
+  and *dus sbyor*, the nectar periods, the
   Chinese almanac's days (*pi ling*, *ki kang*, *se byi* …), Rāhu, the earth
   lords, Abhijit.
 - Where a box says "otherwise as box N", it takes box N's lists in the kinds
@@ -550,3 +550,52 @@ the scans the same way:
   training with dice and games. Each is split into two lists: an entry the
   box qualifies for one half ("good for silver work and cutting hair",
   "good for games") counts for that half, and the plain entries for both.
+
+## The sme ba and the links (read 2026-10-10)
+
+The boxes' sme ba numbers and links, left out on 2026-10-04 as "not
+calculated", were read again on KP (2550 px) and, where KP is unclear,
+KP2, for the date's sme ba and the day's link (SPEC §5.11, ROADMAP
+T2.25). The digits were told apart by the dates printed in the same
+boxes (box 16's bad 6, 7, 8, 9, 10; box 41's 28, 29, 30): 8 is the open
+angle, 9 the rounded hook. The half a number or link stands in gives its
+side; a box's "otherwise as box N" carries the links like any other kind
+(11 as 10, 31 as 16a).
+
+| Box | Good | Bad |
+| --- | --- | --- |
+| 5 putting on new clothes | links rnam shes, srid pa, sred pa | links ma rig, 'du byed, ming, reg pa, tshor ba, len pa |
+| 7 walls and forts | links 'du byed, ma rig | sme ba 9 |
+| 10 feasts, 11 food and brewing | links ma rig, rnam shes, tshor ba, sred pa | |
+| 15 trade | | sme ba 9 |
+| 16a receiving wealth, 31 dogs | links ma rig, srid pa, tshor ba ("good for taking in"); 16a sme ba 9 | 31 sme ba 5 |
+| 17 auspicious work | link ming, sme ba 8 | |
+| 20 virtuous acts for the living | links ma rig, rnam shes, tshor ba, srid pa, sred pa | link rga shi |
+| 22 sowing | link tshor ba | |
+| 23 gifts and dowries | sme ba 6 | |
+| 27 springs, wells, canals | | sme ba 3 |
+| 32 prosperity, Bon rites | sme ba 6, 9 | |
+| 34 medicine | links ming, rnam shes, len pa; sme ba 9 | |
+| 35 bloodletting | | sme ba 2, 7 |
+| 37 bathing | links skye mched, srid pa, 'du byed, skye ba, ma rig, rnam shes | links ming, tshor ba, sred pa; sme ba 1, 6 |
+| 38 divination | links srid pa, rnam shes, tshor ba | link ma rig |
+| 39 enthronement | links rnam shes, skye mched, skye ba | links rga shi, ma rig |
+| 43 ornaments | link 'du byed | |
+| 44 suppressing *sri* | sme ba 3 | |
+| 45 funerals | | sme ba 3, 5, 9 |
+| 46 supports, temples | links 'du byed, skye mched, ming, rnam shes; sme ba 5 | |
+| 49 consecration | | link skye mched, sme ba 6 |
+| 52a hair and nails | | links reg pa, rga shi |
+| 52b crafts | links ming, len pa, ma rig (with ironwork) | links reg pa, rga shi |
+| 54 composing, poetics | link 'du byed, sme ba 5 | |
+| 57 honouring | | links skye ba, srid pa, ma rig, ming |
+| 58 lawsuits | | links srid pa, rga shi, ma rig, ming |
+| 59 judging | links reg pa, skye ba | links ma rig, ming |
+
+Left out: "skye" alone, which may be birth or the sense sources (boxes 5
+and 7, and box 20's first good link); box 46's ma rig, «good for building
+stupas», a qualifier; box 55's numbers (KP and KP2 unclear); box 53's
+links, whose half the scan does not settle; box 50 (KP2 only); box 48 and
+60 name the links or sme ba without saying which. Boxes 2, 3, 6, 8, 9, 12,
+18, 19, 24–26, 33, 40–42, 61–65 name none. `ElectionalTest` holds the
+table.

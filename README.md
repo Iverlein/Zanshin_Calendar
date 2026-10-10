@@ -14,16 +14,14 @@ readings of that day and sunrise, solar noon and sunset for your place.
   karaṇa, element pair, lunar-day animal, trigram and number, each with its
   reading from the White Beryl and the *kun phan me long*; what changes
   within the day as the White Beryl's almanac writes it: a second mansion,
-  a skipped yoga, Viṣṭi's span and the sun's terms, with their times; what
+  a skipped yoga and Viṣṭi's span, with their times; what
   its month heading writes: long or short, the planet that rises, the
   black months, the sage's and the pig's seven days and the comet; the
   lunar and solar eclipses as its reckoning finds them, on their day, with
-  the merit they multiply; the
-  letters it writes for each date: the Kālacakra's and the *dbyangs
-  'char*'s vowels and consonants with their elements and sense objects,
-  the date's stage, the twelve links counted from the month's middle term
-  and the moon's foot with the fangs of the moon, the sun, the five
-  planets and Rāhu on the wheel of the hundred feet; the
+  the merit they multiply; the date's mewa and the twelve links counted
+  from the month's middle term, with what the activity lists name them
+  for; the fangs of the hundred feet on the birth mansion, and the spear
+  and great spear on the moon's mansion; the
   hours with the combination period, the earth lords of the hour, the
   black hours, what each hour is good for, the four rough times at
   sunrise, noon, sunset and midnight, and the works an hour turns

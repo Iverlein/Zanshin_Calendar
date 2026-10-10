@@ -61,6 +61,7 @@ moves up as soon as it is unblocked.
 | 20 | T2.23 The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
 | 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | 22 | T2.24 The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
+| 23 | T2.25 The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
 
 ## Tibetan page
 
@@ -747,6 +748,35 @@ it. It is item E below, built 2026-10-09.
   lists are the day's in general, not only for the dead. Checked on the
   emulator in English and Russian; store shot 1 retaken (its count).
 
+#### T2.25 The Lunar day section by use — built 2026-10-10 (SPEC §5.11, §5.12, §10.3)
+
+The owner asked which Lunar day rows serve a reader; by the rule that
+nothing is shown that can neither be used nor change a weight or
+verdict, and the owner's decisions of 2026-10-10:
+
+- **The date's mewa** opens a reading, and the *kun phan me long*'s boxes
+  that name its numbers (left out in 2026-10 as "not calculated") were
+  read on KP and KP2: sixteen works. **The twelve links** likewise, 22
+  works; "skye" alone (birth or the sense sources) left out, boxes 50, 53
+  and 55 not settled on the scans. Both weighed with the trigram as one
+  voice, last ([kp-activities.md](sources/kp-activities.md)).
+- **The hundred feet** moved to Your day: the fangs on the birth mansion
+  and the six holders by WB vol. 1, pp. 97–98, read on the Zhol print;
+  the spear and great spear (p. 99) in Also today; shown, not weighed
+  (no rank in p. 376, the owner's choice). p. 98's rule for the day's
+  date, sign and letters is not built: 64% of days, and it does not say
+  whose letters. The five harms of p. 97 are read and not built.
+- **Out:** the Kālacakra's and *dbyangs 'char*'s letters (WB reads them
+  against a name; building p. 305 with a name vowel declined by the
+  owner), the moon's foot and wheel cells, and the sun's terms row.
+- **Short rows** (the owner: "do not bloat the screen"): the *bla mkhyen*
+  row gives the direction alone, the earth lords' row the courses' names.
+- **Checked:** `ElectionalTest` pins every sme ba and link entry to the
+  scan reading; `HundredFeetTest` the holders' count with Abhijit and
+  2000–2049's strikes on the test birth mansion (Ārdrā) and spears;
+  `DaySummaryTest`'s days against their tone 2,018 to 2,006. Emulator in
+  English and Russian (10 and 19 October 2026).
+
 #### Order
 
 1. T2.1, T2.2 and T2.3 are built.
@@ -757,7 +787,7 @@ it. It is item E below, built 2026-10-09.
 6. WB above all: T2.10 built 2026-10-08; then
    T2.11 (built 2026-10-09; it added T2.20 and T2.21), then the small ones T2.16 (built 2026-10-08), T2.17 (built 2026-10-08) and T2.15 (built 2026-10-09),
    then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);
-   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10.
+   then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10; T2.25 built 2026-10-10.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 
 #### Not planned

@@ -277,9 +277,45 @@ question 16, answered). «བིདྡྷི» in the line after is Viṣṭi, a
 vol. 2, p. 351: the line says where Viṣṭi is written beside the day's
 vowel, already built (T2.20).
 
-## Weight
+## Weight and use (2026-10-10)
 
-None. WB writes these entries without a reading of the day; the stages
-and the letters are read against a name, a link as a birth sign
-(vol. 2, p. 384), the fangs against the planets. So they stand in the
-Lunar day section, each with what WB says of it, and change no weighing.
+None of the letters is read against the day. The stages and the letters
+are read against a person's name: p. 305 (vol. 2) gives the stage of the
+name's vowel on a day (child somewhat good, youth better, prime best,
+old bad, dead: begin no work) and five death combinations of date class,
+weekday, mansion and vowel; the app does not ask for a name, and the
+owner declined to (2026-10-10), so neither is built. A link is a birth
+sign in WB (vol. 2, p. 384), but the *kun phan me long*'s boxes name links
+for works ([kp-activities.md](kp-activities.md)), which the app now weighs.
+
+**The hundred feet**, ch. 12, read on the Zhol print (WBZ img. 133–136,
+3770 px, with Yigdzin-1; 1996 vol. 1 pp. 96–99, etext page − 10):
+
+- The person's birth mansion is the one to take, else the mansion of the
+  name's first syllable («སྐྱེས་བུའི་སྐྱེས་སྐར་མཆོག་ཡིན་ཏེ། །དེ་མིན་མིང་སྐར་འཚོལ་བ་སྟེ», p. 97), with the
+  merging of letters (gha ṅa cha as ka, ṣa ṇa ṭha as pa, tha jha ña as
+  da, dha pha ḍha as bha).
+- The five harms of a planet on it, *sol ba*, *'khyud pa*, *du ba*,
+  face-on and sight (p. 97): death, illness, plans failing, fear, the
+  sun's sight spending wealth. Read, not built.
+- The fangs on it (p. 98): «སྐྱེས་མིང་སྐར་མར་དྲག་གཟའི་མཆེ། །གཅིག་ཟུག་དོན་ཉམས་གཉིས་ཀྱིས་ནད། །འབྱུང་ལ་གསུམ་གྱིས་འཆི་བ་དང་། །ཞི་གཟའ་གཅིག་གཉིས་ཟས་སྐོམ་མེད། །གསུམ་བྱུང་རིམས་དང་ནོར་རྣམས་ཉམས།» Built.
+- «བྱ་བྱེད་འགྲོ་འདུག་བྱེད་པའི་དུས། །ཚེས་ཁྱིམ་གསལ་བྱེད་དབྱངས་རྣམས་ལ། །དྲག་གཟའི་མཆེ་གདོང་ངེས་པར་སྤང་།» (p. 98): not
+  built; on the date's class and the moon's sign alone a malefic's fang
+  or face-on falls on 64% of days in 2000–2049, and it does not say
+  whose letters.
+- The six holders from the birth mansion, counted round the wheel
+  («གཡས་སྐོར»): the 10th place of work, 16th *rnam dgyes*, 18th *rgya can*,
+  19th *a na Na*, 23rd *bi na sha ga*, 25th *yid can*, each with its
+  result; malefics on the birth mansion, the place of work and the 23rd
+  at once kill. Built.
+- The spear and great spear (pp. 98–99): a benefic's or a malefic's
+  face-on on the moon's mansion; every work avoided, a bride above all,
+  her fate by the planet. Built.
+- The four malefics, *drag gza' bzhi* (p. 95): the sun («སྡིག་གཟའ་ཉི་མ», p. 97),
+  Mars, Saturn and Rāhu, whose face-on p. 98 names with Mars's as the
+  worst.
+
+None of these is ranked by the verse of vol. 2, p. 376, so they are shown
+and not weighed (the owner's choice, 2026-10-10). WB's notes (vol. 2,
+p. 512) count the fangs again in the funeral reckoning, against the
+deceased's name, and ch. 34 (p. 406) for weddings.
