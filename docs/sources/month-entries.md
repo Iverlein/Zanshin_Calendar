@@ -248,7 +248,9 @@ eclipse beyond 58 or a tail one beyond 55 is not seen.
 
 Not built, for three reasons:
 
-1. **The epoch is in doubt.** *Nyi ma* is the number word for 12: the
+1. **The epoch was in doubt; settled 2026-10-10** (open question 16):
+   Henning's Phugpa Rāhu puts the 3rd month of 1687 at WB's 209, so the
+   number word stands. *Nyi ma* is the number word for 12: the
    12th rab byung begins in 1687, WB's own time; the 1996 editors'
    bracket reads 17 (1987). With 1987 Rāhu is four mansions from any
    real eclipse. With 1687, WB's 209 carried to 1987 is 10, while KD's
@@ -256,7 +258,8 @@ Not built, for three reasons:
    (vol. 2, etext p. 324), and *sor mo* (vol. 4, etext p. 375) to the
    corrected months, and *rtsa* in another (vol. 2, etext p. 458): a
    month apart from WB's, or counting the months otherwise. No worked
-   eclipse in WB or KD has been found to settle it (open question 16).
+   eclipse in WB or KD has been found; Henning's reckoning settled it
+   (open question 16, answered). The app's Rāhu (`Planets`) is that one.
 2. **The solar rule needs the *byed rtsis*** (pp. 65–67, img. 75–77: the
    *byed rtsis* governs where the two reckonings part, and the sun in the
    east's seven mansions), which T2.23 builds.

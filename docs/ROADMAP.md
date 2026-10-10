@@ -593,12 +593,13 @@ it. It is item E below, built 2026-10-09.
   which WB draws and names cell by cell (vol. 1, pp. 96–97), reckoned as
   p. 98's worked fang of Kṛttikā lays them out (on 10 October 2026,
   Uttaraphalgunī: right ma, ḍa, Punarvasu; left pa, Libra, Scorpio, bha;
-  Uttarāṣāḍhā face-on), and the sun's over its mansion. WB's
-  «ལྔ་སྒྲ་ཉི་མ» read: the five planets, Rāhu and the sun, the bodies whose
-  fangs stand over their mansions (open question 17, answered). The five
-  planets' and Rāhu's fangs need their places, which are T2.23's own
-  work (the planets by Janson, Rāhu's epoch question 16); with them they
-  follow from the same wheel. Built in full otherwise.
+  Uttarāṣāḍhā face-on), and the fangs of the sun, the five planets and
+  Rāhu over their mansions: WB's «ལྔ་སྒྲ་ཉི་མ», the five planets, Rāhu and the
+  sun (open question 17, answered). The planets' and Rāhu's places by
+  Edward Henning's software for the generalised Phugpa epoch, ported to
+  `Planets` digit by digit and checked against his program on every day
+  of 2000–2047 and 1,000 months of Rāhu ([day-letters.md](sources/day-letters.md)).
+  Built in full.
 
 #### T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
 
@@ -639,7 +640,8 @@ it. It is item E below, built 2026-10-09.
   "Also today" too. **Written off: the eclipses** (WB ch. 9), moved to
   T2.23: Rāhu's epoch reads 1687 by the number word and 1987 by the
   editors' bracket, and KD's later constants stand a month from WB's
-  (open question 16); the solar rule needs the *byed rtsis*; and as read
+  (open question 16, since answered: 1687, by Henning's reckoning); the
+  solar rule needs the *byed rtsis*; and as read
   the lunar rule finds 13 of 23 real lunar eclipses of 2015–2030 with 14
   false ones. Checked on the emulator in English and Russian.
 
@@ -663,15 +665,15 @@ it. It is item E below, built 2026-10-09.
 - **And the eclipses** (moved from T2.21, 2026-10-10;
   [month-entries.md](sources/month-entries.md)): WB ch. 9 (vol. 1,
   pp. 56–70), on Rāhu's head and tail by p. 34, its ten sections from
-  whether the moon or sun is seized to the results by month. They wait on
-  open question 16 (Rāhu's epoch and constant: a worked eclipse or a
-  printed almanac's Rāhu would settle it) and on the *byed rtsis*, which
-  the solar rule uses. Done when a worked example or almanac agrees.
-- **And the planets' fangs** ([day-letters.md](sources/day-letters.md)):
-  the wheel and the moon's and the sun's fangs are built (T2.22,
-  `DayLetters.fangs`); with the five planets' places, and Rāhu's when
-  question 16 is settled, each one's fangs and face-on over its mansion
-  follow from the same wheel (vol. 1, pp. 98, 178).
+  whether the moon or sun is seized to the results by month. Rāhu's
+  epoch and constant are settled (open question 16, answered 2026-10-10:
+  1687 and 209, Henning's reckoning, built in `Planets`); they wait on
+  the *byed rtsis*, which the solar rule uses, and on the lunar rule's
+  misses against the sky. Done when a worked example or almanac agrees.
+- **The planets' places are built** (T2.22, `Planets`, after Henning's
+  software, checked against it to the last unit): what is left here is
+  the heading's slow and fast motion and the meetings, the *byed rtsis*
+  and the eclipses. Rāhu's place is built, and is WB's own (question 16).
 
 #### T2.24 The day animals by WB — M reading, then S
 

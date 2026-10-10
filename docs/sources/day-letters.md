@@ -243,13 +243,37 @@ only other «ལྔ་སྒྲ» of vol. 1, p. 224 («གཟའ་ཉི་ཆ�
 planets' reckoning in the same sense, the planets, the sun, the five
 and Rāhu.
 
-**Built:** the foot the moon walks in at daybreak, with its syllable;
-the moon's mansion's and the sun's mansion's right and left fangs and
-face-on on the wheel, the sun's mansion by the almanac's true sun
-(`DayTimes`, §5.8). `DayLettersTest` checks the drawing's cells, p. 98's
-Kṛttikā and the sun's mansion against Henning's figure. **Waiting:** the
-fangs of the five planets and Rāhu, whose places are reckoned in T2.23
-(the planets by Janson, Rāhu's epoch open question 16). «བིདྡྷི» in the line after is Viṣṭi, as WB spells the karaṇa in
+**The bodies' places.** The moon is the almanac's at daybreak, the sun
+the almanac's true sun at the date's end (§5.8). The five planets and
+Rāhu are reckoned as Edward Henning's Tibetan calendar software reckons
+them for its generalised Phugpa epoch (TCG 1.06, 2013, MIT licence,
+kalacakra.org/calendar/os_tib.htm; t3.c and t2.c, which cite his
+*Kalacakra and the Tibetan Calendar*, pp. 57–96, and check each table
+against the planetary tables of Dbyangs can grub pa'i rdo rje). The
+planets go by the general day (*spyi zhag*), the day's Julian number less
+1,355,847: each planet's day in its cycle (*sgos zhag*: Mars 687, Jupiter
+4,332, Saturn 10,766 days; Mercury and Venus a hundredth and a tenth of a
+day's steps in 8,797 and 2,247), its mean place (*dal bar*), the slow
+equation to *dal dag*, then the mean sun of the planets' reckoning (*drag
+po'i rkang 'dzin*, the general day times 18,382 with 6,663,418 over
+6,714,405) and the fast equation's tables of fourteen to the apparent
+place (*myur dag*). Rāhu's head goes back 0;0,14,0,12 a lunar date, round
+the mansions in 230 months, from the true month count (Henning's count is
+the app's plus 22,338; his 37,239 is the leap 11th month of 2010), with
+93 added. `Planets` keeps every digit as the texts work them;
+`PlanetsTest` holds it to Henning's program, its source compiled
+unchanged (`tools/tcg_vectors.py`): every place of every day from 2000 to
+2047 and Rāhu's on the 15th and 30th of 1,000 months, all to the last
+unit. On 10 October 2026 Mars is in Puṣya, Jupiter in Maghā, Saturn in
+Uttarabhādrapadā, Mercury in Svātī, Venus in Citrā, Rāhu in Dhaniṣṭhā.
+
+**Built:** the foot the moon walks in at daybreak, with its syllable,
+and the right and left fangs and face-on of all eight bodies over their
+mansions. `DayLettersTest` checks the drawing's cells, p. 98's Kṛttikā
+and the bodies' mansions on 10 October 2026. Henning's Rāhu is WB's
+own: it puts the 3rd month of 1687 at the 209th of the 230, WB's
+constant from the start of the 12th rab byung (vol. 1, p. 34; open
+question 16, answered). «བིདྡྷི» in the line after is Viṣṭi, as WB spells the karaṇa in
 vol. 2, p. 351: the line says where Viṣṭi is written beside the day's
 vowel, already built (T2.20).
 

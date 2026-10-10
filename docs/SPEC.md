@@ -677,9 +677,9 @@ English (§8.1), each reading citing its pages:
   chen mo* restates it) times twelve with the months since the 3rd, the
   corrected month count (twice it with 31, over 65, added) with 3 added
   leaving nothing over 75. All shown and not weighed: WB gives them no
-  weight. The eclipses (WB ch. 9) are not built: Rāhu's epoch is in doubt
-  (sources/open-questions.md, 16) and the solar rule needs the *byed
-  rtsis* (ROADMAP T2.23).
+  weight. The eclipses (WB ch. 9) are not built: the solar rule needs the
+  *byed rtsis* (ROADMAP T2.23); Rāhu's epoch is settled, 1687 with WB's
+  209 (sources/open-questions.md, 16), and his place is built (`Planets`).
 - **The letters of the day** (WB vol. 1, p. 177, entries 3, 4, 12 and 17,
   with ch. 2, pp. 16–19, ch. 12, p. 97, and ch. 13's table, pp. 150–153;
   [day-letters.md](sources/day-letters.md); `DayLetters`, checked by
@@ -716,10 +716,15 @@ English (§8.1), each reading citing its pages:
   the diagonal toward the mansions before, the left toward those after,
   each with every cell it crosses, the face-on where the left meets the
   outer ring, as p. 98's Kṛttikā has them (right Bharaṇī; left a, Taurus,
-  dga', bzang, Libra, ta; Viśākhā face-on); the sun's in the same way over
-  its mansion, the almanac's true sun's (p. 178's «ལྔ་སྒྲ་ཉི་མ», the five
-  planets, Rāhu and the sun, question 17). Not built: the five planets'
-  and Rāhu's fangs, whose places are T2.23's. All shown and not
+  dga', bzang, Libra, ta; Viśākhā face-on); and the same over the mansions
+  of the sun, the five planets and Rāhu (p. 178's «ལྔ་སྒྲ་ཉི་མ», question 17):
+  the sun the almanac's true sun at the date's end, the planets' apparent
+  places (*myur dag*) and Rāhu's head on the day's date as Edward Henning's
+  software reckons them for the generalised Phugpa epoch (`Planets`, a
+  digit-for-digit port of TCG 1.06's t3.c and t2.c, MIT licence; the
+  general day is the Julian day number less 1,355,847, Henning's true
+  month count the app's plus 22,338; `PlanetsTest` against his program on
+  every day of 2000–2047). All shown and not
   weighed: WB reads them against a name, a birth or the planets, never
   against the day.
 
@@ -1384,6 +1389,7 @@ copied:
 | Licence | Used for |
 | --- | --- |
 | Own English summary of the cited source, MPL-2.0 | copyrighted sources — Todan's こよみ博物館, NAOJ, Kotobank dictionaries, FPMT, Edition Rabten, Henning, Lotsawa House. Written as statements of fact and "good for / avoid" lists, not translations |
+| MIT, Edward Henning's Tibetan calendar software (TCG 1.06), notice kept in `Planets.kt` and named in About | the five planets' and Rāhu's arithmetic, ported from his t2.c and t3.c (§5.11) |
 | CC BY-SA 4.0 | wording adapted from Japanese Wikipedia (選日, 暦注下段, 九星, 九星気学, 歳徳神, 庚申待) |
 
 No text under a non-commercial or no-derivatives licence: F-Droid labels an
@@ -1780,9 +1786,9 @@ canvas "Zanshin Calendar — basic design".
   sheet counting the day from the middle term ("day 4 of 31 from the
   middle term of month 8"), no row on a day beyond the table; "Hundred
   feet" with the moon's quarter and its syllable ("quarter 3 · pa (པ)"),
-  its sheet naming the mansion, the moon's right and left fangs (the left
-  left out when it is empty) and face-on, then the sun's mansion with its
-  own, every cell named. Letters are written in transliteration
+  its sheet naming the mansion, then one row for each of the eight bodies,
+  "Mars: the nourisher (རྒྱལ, rgyal)" with its right fang, left fang (left
+  out when empty) and face-on, every cell named. Letters are written in transliteration
   with their script in brackets: they are no words, so they carry no
   Wylie. On the day a sun's term falls, a last row
   names it with its time ("Middle term of month 8 · 01:00", "Sun enters

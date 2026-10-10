@@ -240,8 +240,17 @@ the text, not about the app.
     numeral; WBZ img. 210, line 5), and Henning's yearly Phugpa files,
     which list no sun's terms.
 
-16. **WB vol. 1, p. 34 (img. 44): from which epoch does Rāhu's reckoning
-    count, and what is its constant?** «རབ་བྱུང་ཉི་མའི(༡༧)ཐོག་མ་ཡི། །ཟླ་བ་རྣམ་པར་དག་པ་ལ། །བུ་ག་ནམ་མཁའ་འཁྲིག་པ(༢༠༩)བྱིན»:
+16. **Answered 2026-10-10. WB vol. 1, p. 34 (img. 44): from which epoch does Rāhu's reckoning
+    count, and what is its constant?** From the 3rd month of 1687, the
+    start of the 12th rab byung, as the number word *nyi ma* says: Edward
+    Henning's Phugpa reckoning of Rāhu (his software, TCG 1.06, checked
+    against the texts; [day-letters.md](day-letters.md)), an independent
+    count from an epoch of −1000, puts the 3rd month of 1687 at exactly
+    the 209th of Rāhu's 230 months, WB's 209, and the 3rd month of 1987 at
+    the 10th; the 1996 editors' bracket (17, 1987) is a slip. KD's
+    restatements, adding 11 from the fire hare of 1987, stand one month
+    later than both: they count the months from the next month, or from 1.
+    `PlanetsTest` holds the two figures. The question as first put: «རབ་བྱུང་ཉི་མའི(༡༧)ཐོག་མ་ཡི། །ཟླ་བ་རྣམ་པར་དག་པ་ལ། །བུ་ག་ནམ་མཁའ་འཁྲིག་པ(༢༠༩)བྱིན»:
     the number word *nyi ma* is 12 (the rab byung of 1687, WB's own), the
     1996 editors' bracket 17 (1987). With 1687, 209 carried forward to
     1987 is 10; the *Kun 'dus chen mo*'s restatements from the fire hare of
