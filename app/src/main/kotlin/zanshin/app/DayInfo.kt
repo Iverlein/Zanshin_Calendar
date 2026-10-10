@@ -18,6 +18,7 @@ import zanshin.core.kyureki.RekichuDay
 import zanshin.core.tibetan.DaySigns
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
+import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.OwnDay
 import zanshin.core.tibetan.ownDays
 import zanshin.core.tibetan.ownElement
@@ -54,6 +55,8 @@ class DayInfo private constructor(
     val ownElement: Element?,
     /** The sign of the birth year, if a birth date is set: its aspects are set against the day's, month's and year's. */
     val birthSign: Sign?,
+    /** The birth date's mansion, if a birth date is set: the fangs of the hundred feet are read against it. */
+    val birthMansion: Mansion?,
     /** The year, month and lunar-date signs of the elemental divination for this day. */
     val signs: DaySigns,
 ) {
@@ -74,6 +77,7 @@ class DayInfo private constructor(
                 ownDays = born?.let { ownDays(it, tibetan) }.orEmpty(),
                 ownElement = born?.let { ownElement(it) },
                 birthSign = born?.let { Sign(it.yearElement, it.yearAnimal) },
+                birthMansion = born?.mansion,
                 signs = Forces.signs(tibetan),
             )
         }.also { cache.put(date to birth, it) }

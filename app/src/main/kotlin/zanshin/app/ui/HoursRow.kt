@@ -6,7 +6,6 @@ package zanshin.app.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -26,7 +25,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.CustomAccessibilityAction
 import androidx.compose.ui.semantics.Role
@@ -100,7 +98,7 @@ fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, cu
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                 Text(label, style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
-                HourStrip(tones, nowMinute, Modifier.weight(1f), onHour)
+                HourStrip(tones, nowMinute, Modifier.weight(1f))
             }
             nowText?.let {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -133,20 +131,18 @@ fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, cu
 
 /**
  * The twelve two-hour periods from 05:00 as a strip, each coloured by its combination period's tone,
- * the clock hour under every third, and the present minute as a mark; a tap opens that hour.
+ * the clock hour under every third, and the present minute as a mark. A tap on it is the row's, which
+ * opens the panel at the present hour: a tap by period opened whatever hour the finger fell on.
  */
 @Composable
-private fun HourStrip(tones: List<Tone>, nowMinute: Int?, modifier: Modifier = Modifier, onHour: (Int?) -> Unit) {
+private fun HourStrip(tones: List<Tone>, nowMinute: Int?, modifier: Modifier = Modifier) {
     val measurer = rememberTextMeasurer()
     val labelStyle = TextStyle(fontFamily = Figtree, fontSize = 10.sp, color = Palette.faint)
     val description = stringResource(R.string.hours_strip_description)
     Canvas(
         modifier
             .height(26.dp)
-            .clearAndSetSemantics { contentDescription = description }
-            .pointerInput(tones) {
-                detectTapGestures { tap -> onHour((tap.x / size.width * 12).toInt().coerceIn(0, 11)) }
-            },
+            .clearAndSetSemantics { contentDescription = description },
     ) {
         val gap = 2.dp.toPx()
         val bar = 10.dp.toPx()

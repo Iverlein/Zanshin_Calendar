@@ -91,7 +91,7 @@ import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.DayLetters
-import zanshin.core.tibetan.Letter
+import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Karana
@@ -133,7 +133,6 @@ fun TibetanPage(
     val secondMansions = remember(day.jd, nightfall) { DayTimes.mansions(day, next).filter { it.at < nightfall } }
     val skippedYogas = remember(day.jd) { DayTimes.skippedYogas(day, next) }
     val visti = remember(day.jd) { DayTimes.visti(day) }
-    val sunTerms = remember(day.jd) { DayTimes.sunTerms(day) }
     val burningFrom = remember(day.jd, nightfall) { DayTimes.burningFrom(day, nightfall) }
 
     val holiday = day.holiday
@@ -316,7 +315,8 @@ fun TibetanPage(
         val rahuDiagram: @Composable () -> Unit = { RahuCompass(rahuMove, 200.dp, rahuCaption) }
         val daySmeBa = remember(info.date) { DaySmeBa.of(info.date) }
         val blaMkhyenTitle = stringResource(R.string.tib_bla_mkhyen_title)
-        val blaMkhyenSubtitle = stringResource(R.string.tib_bla_mkhyen_subtitle, daySmeBa.sevenRed.english, daySmeBa.number)
+        // The row says only where it is; the day's mewa that finds it is in the sheet.
+        val blaMkhyenSubtitle = daySmeBa.sevenRed.english
         val blaMkhyenCaption = stringResource(R.string.bla_mkhyen_compass_caption, daySmeBa.sevenRed.english)
         val blaMkhyenDetails = listOf(
             stringResource(R.string.detail_day_sme_ba) to "${daySmeBa.number} · ${Catalog.text("Colour.${SME_BA_COLOURS[daySmeBa.number - 1]}")}",
@@ -350,6 +350,9 @@ fun TibetanPage(
         fun decides(factor: DayFactor) = summary.verdict?.factor == factor
         // Your day (ROADMAP U3): the person's own days and mansions, which the weighing shows but does not
         // weigh (SPEC §5.12), above the vitality and body of the date against the birth year.
+        val hundredFeet = remember(day.jd, info.birthMansion) { info.birthMansion?.let { HundredFeet.of(day, it) } }
+        val rahuName = stringResource(R.string.body_rahu)
+        fun bodyName(b: DayLetters.Body) = b.weekday?.planet ?: rahuName
         val yours = buildList {
             // The roles the weekday holds for the person, by the birth year's animal (p. 330), the weekday
             // of birth and the life force's element (p. 338): one row (ROADMAP T2.19).
@@ -405,6 +408,28 @@ fun TibetanPage(
                         subtitle = birthMansionSubtitle,
                         titleIsKanji = false,
                         details = listOf(tibetanLabel to Ewts.named(it.english, it.wylie)),
+                    ),
+                )
+            }
+            // The fangs of the hundred feet on the birth mansion (ROADMAP T2.25): shown, not weighed, since WB's order of
+            // strength does not place them; the six holders, struck on most days and for weeks, stand in its sheet.
+            hundredFeet?.let { f ->
+                val onBirth = (f.malefics + f.benefics).joinToString(", ") { bodyName(it) }
+                add(
+                    Annotation(
+                        stringResource(R.string.tib_hundred_feet_title),
+                        onBirth,
+                        Tone.BAD,
+                        Texts.HUNDRED_FEET.getValue(f.result!!),
+                        titleIsKanji = false,
+                        details = listOf(
+                            stringResource(R.string.detail_birth_mansion) to Ewts.named(f.birth.sanskrit, f.birth.wylie),
+                            stringResource(R.string.detail_fangs_on_it) to onBirth,
+                        ) + f.holders.map { (h, bodies) ->
+                            val m = HundredFeet.holder(f.birth, h)!!
+                            stringResource(R.string.holder_label, Ewts.named(h.english, h.wylie), Ewts.named(m.sanskrit, m.wylie)) to
+                                bodies.joinToString(", ") { bodyName(it) }
+                        },
                     ),
                 )
             }
@@ -706,6 +731,23 @@ fun TibetanPage(
                 ),
             ) { a -> sheet = a }
         }
+        // The spear and the great spear of the hundred feet (ROADMAP T2.25): a face-on on the moon's mansion, every work
+        // avoided; shown, not weighed, as WB's order of strength does not place them.
+        remember(day.jd) { HundredFeet.spear(day) }?.let { sp ->
+            AnnotationRow(
+                Annotation(
+                    stringResource(if (sp.great) R.string.tib_great_spear_title else R.string.tib_spear_title),
+                    sp.bodies.joinToString(", ") { bodyName(it) },
+                    Tone.BAD,
+                    if (sp.great) Texts.GREAT_SPEAR else Texts.SPEAR,
+                    titleIsKanji = false,
+                    details = listOf(
+                        stringResource(R.string.detail_face_on) to sp.bodies.joinToString(", ") { bodyName(it) },
+                        stringResource(R.string.detail_moon_mansion) to Ewts.named(day.mansion.sanskrit, day.mansion.wylie),
+                    ),
+                ),
+            ) { a -> sheet = a }
+        }
         // The earth lords that move by date (ROADMAP T2.13, SPEC §5.13): the day's courses as WB's almanac writes them, one row,
         // shown and not weighed, since WB's order of strength does not rank them; the sky door falls on every date.
         val courses = EarthLordCourses.of(day).map { c ->
@@ -733,7 +775,8 @@ fun TibetanPage(
                 stringResource(R.string.tib_earth_lords_note),
                 Tone.NEUTRAL,
                 null,
-                subtitle = courses.joinToString(" · ") { "${it.title}: ${it.english}" },
+                // The row names the courses; what each does today is in the sheet.
+                subtitle = courses.map { it.title }.distinct().joinToString(" · "),
                 titleIsKanji = false,
                 parts = courses,
             ),
@@ -810,68 +853,21 @@ fun TibetanPage(
             )
             val colour = SME_BA_COLOURS[day.smeBa - 1]
             val number = "${day.smeBa} · ${Catalog.text("Colour.$colour")}"
+            // The date's mewa opens what the activity lists name its number for (ROADMAP T2.25).
+            val smeBaAnnotation = Annotation(
+                Ewts.named(stringResource(R.string.row_date_sme_ba), "sme ba"),
+                number,
+                Tone.NEUTRAL,
+                Texts.DATE_SME_BA.getValue(day.smeBa),
+                titleIsKanji = false,
+            )
             FactRow(
                 stringResource(R.string.row_date_sme_ba),
                 "${day.smeBa}",
                 number,
                 tibetan = false,
                 lead = { SmeBaSquare(day.smeBa, 30.dp, stringResource(R.string.desc_sme_ba, day.smeBa)) },
-                balloon = listOf(BalloonRow(tibetanLabel, Ewts.named(stringResource(R.string.row_date_sme_ba), "sme ba"))),
-            )
-            // The letters of the day (WB vol. 1, pp. 16–19, 97, 150–153, 177–178; SPEC §5.11): written, not weighed.
-            val kalacakra = DayLetters.kalacakra(day.month, day.day)
-            val kalacakraValue = stringResource(
-                R.string.letters_value, letter(kalacakra.syllable), kalacakra.element.english, kalacakra.sense.english,
-            )
-            val kalacakraAnnotation = Annotation(
-                stringResource(R.string.row_kalacakra),
-                kalacakraValue,
-                Tone.NEUTRAL,
-                Texts.KALACAKRA_LETTERS,
-                titleIsKanji = false,
-                details = listOf(
-                    stringResource(R.string.detail_vowel) to letter(kalacakra.vowel),
-                    stringResource(R.string.detail_syllable) to letter(kalacakra.syllable),
-                    stringResource(R.string.detail_element) to Ewts.named(kalacakra.element.english, kalacakra.element.wylie),
-                    stringResource(R.string.detail_sense) to Ewts.named(kalacakra.sense.english, kalacakra.sense.wylie),
-                    stringResource(R.string.detail_half) to stringResource(if (kalacakra.arising) R.string.half_arising else R.string.half_gathered),
-                    stringResource(R.string.detail_sign_month) to Ewts.named(DayLetters.sign(day.month).english, DayLetters.sign(day.month).wylie),
-                ),
-            )
-            FactRow(
-                stringResource(R.string.row_kalacakra),
-                kalacakraValue,
-                kalacakraValue,
-                tibetan = false,
-                onClick = { sheet = kalacakraAnnotation },
-            )
-            val svara = DayLetters.svarodaya(day.day)
-            val stage = DayLetters.stage(day.day)
-            val svaraValue = stringResource(
-                R.string.letters_stage_value,
-                "${svara.vowel.iast} ${svara.consonant.iast} (${svara.vowel.tibetan} ${svara.consonant.tibetan})",
-                svara.element.english, svara.sense.english, stage.english,
-            )
-            val svaraAnnotation = Annotation(
-                stringResource(R.string.row_svarodaya),
-                svaraValue,
-                Tone.NEUTRAL,
-                Texts.SVARODAYA_LETTERS,
-                titleIsKanji = false,
-                details = listOf(
-                    stringResource(R.string.detail_vowel) to letter(svara.vowel),
-                    stringResource(R.string.detail_consonant) to letter(svara.consonant),
-                    stringResource(R.string.detail_element) to Ewts.named(svara.element.english, svara.element.wylie),
-                    stringResource(R.string.detail_sense) to Ewts.named(svara.sense.english, svara.sense.wylie),
-                    stringResource(R.string.detail_stage) to Ewts.named(stage.english, stage.wylie),
-                ),
-            )
-            FactRow(
-                stringResource(R.string.row_svarodaya),
-                svaraValue,
-                svaraValue,
-                tibetan = false,
-                onClick = { sheet = svaraAnnotation },
+                onClick = { sheet = smeBaAnnotation },
             )
             remember(day.jd) { DayLetters.link(day) }?.let { linkDay ->
                 val link = linkDay.link
@@ -880,7 +876,7 @@ fun TibetanPage(
                     Ewts.named(link.english, link.wylie),
                     count,
                     Tone.NEUTRAL,
-                    Texts.TWELVE_LINKS,
+                    Texts.TWELVE_LINK.getValue(link),
                     titleIsKanji = false,
                 )
                 FactRow(
@@ -888,63 +884,6 @@ fun TibetanPage(
                     link.wylie,
                     link.english,
                     onClick = { sheet = linkAnnotation },
-                )
-            }
-            val foot = DayLetters.foot(day)
-            val footValue = stringResource(R.string.foot_value, foot.quarter, letter(foot.syllable))
-            val footAnnotation = Annotation(
-                stringResource(R.string.row_hundred_feet),
-                footValue,
-                Tone.NEUTRAL,
-                Texts.HUNDRED_FEET,
-                titleIsKanji = false,
-                details = listOf(
-                    stringResource(R.string.detail_mansion) to Ewts.named(foot.mansion.english, foot.mansion.wylie),
-                    stringResource(R.string.detail_quarter) to "${foot.quarter}",
-                    stringResource(R.string.detail_syllable) to letter(foot.syllable),
-                ) + run {
-                    val abhijit = stringResource(R.string.abhijit)
-                    val rahu = stringResource(R.string.body_rahu)
-                    fun names(cells: List<DayLetters.Cell>) = cells.joinToString(", ") { wheelCell(it, abhijit) }
-                    val fangsOf = remember(day.jd) { DayLetters.bodies(day) }
-                    fangsOf.map { (body, mansion) ->
-                        val f = DayLetters.fangs(mansion)
-                        val bodyName = body.weekday?.planet ?: rahu
-                        stringResource(R.string.body_in, bodyName, Ewts.named(mansion.english, mansion.wylie)) to
-                            if (f.left.isEmpty()) stringResource(R.string.fangs_no_left, names(f.right), wheelCell(f.faceOn, abhijit))
-                            else stringResource(R.string.fangs_value, names(f.right), names(f.left), wheelCell(f.faceOn, abhijit))
-                    }
-                },
-            )
-            FactRow(
-                stringResource(R.string.row_hundred_feet),
-                footValue,
-                footValue,
-                tibetan = false,
-                onClick = { sheet = footAnnotation },
-            )
-            // The sun's terms that fall in the day (WB vol. 1, ch. 15; SPEC §5.8).
-            for (term in sunTerms) {
-                val t = term.what
-                val name = sunTermName(t, labels)
-                val at = clockOf(term.at, labels)
-                val annotation = Annotation(
-                    name,
-                    at,
-                    Tone.NEUTRAL,
-                    Texts.SUN_TERM.getValue(t.kind),
-                    titleIsKanji = false,
-                    details = listOf(
-                        stringResource(R.string.detail_sun_term) to Ewts.named(gloss(t.kind), t.kind.wylie),
-                        stringResource(R.string.detail_sun_measure) to stringResource(R.string.sun_measure, t.mansion, t.chuTshod),
-                    ),
-                )
-                FactRow(
-                    stringResource(R.string.row_sun_term),
-                    "$name · $at",
-                    "$name · $at",
-                    tibetan = false,
-                    onClick = { sheet = annotation },
                 )
             }
         }
@@ -1114,22 +1053,6 @@ internal fun clockOf(chuTshod: Double, labels: Labels): String {
 }
 
 /** The sun's term as a row names it: the month's breath or middle term, or the sign entered. */
-/** A letter of the day as the app shows it: its transliteration, then its script in brackets. */
-internal fun letter(l: Letter): String = "${l.iast} (${l.tibetan})"
-
-/** A cell of the hundred feet's wheel, named as §8.1 names it: a mansion, letter, sign or class of date. */
-internal fun wheelCell(c: DayLetters.Cell, abhijit: String): String = when (c) {
-    is DayLetters.Cell.Star -> c.mansion?.let { Ewts.named(it.english, it.wylie) } ?: Ewts.named(abhijit, "byi bzhin")
-    is DayLetters.Cell.Sound -> letter(c.letter)
-    is DayLetters.Cell.Sign -> Ewts.named(c.sign.english, c.sign.wylie)
-    is DayLetters.Cell.DateClass -> Ewts.named(c.dateClass.english, c.dateClass.wylie)
-}
-
-internal fun sunTermName(t: DayTimes.SunTerm, labels: Labels): String = when (t.kind) {
-    DayTimes.SunTermKind.KHYIM_PHO -> labels.string(R.string.sun_term_sign, t.sign!!.english)
-    else -> labels.string(R.string.sun_term_month, gloss(t.kind).replaceFirstChar(Char::uppercase), t.month!!)
-}
-
 internal fun clockSpan(start: Int, minutes: Int): String {
     fun hhmm(m: Int) = "%02d:%02d".format((m / 60) % 24, m % 60)
     return "${hhmm(start)}–${hhmm(start + minutes)}"
