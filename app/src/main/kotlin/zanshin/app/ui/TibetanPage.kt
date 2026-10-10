@@ -885,7 +885,15 @@ fun TibetanPage(
                     stringResource(R.string.detail_mansion) to Ewts.named(foot.mansion.english, foot.mansion.wylie),
                     stringResource(R.string.detail_quarter) to "${foot.quarter}",
                     stringResource(R.string.detail_syllable) to letter(foot.syllable),
-                ),
+                ) + DayLetters.fangs(foot.mansion).let { f ->
+                    val abhijit = stringResource(R.string.abhijit)
+                    fun names(cells: List<DayLetters.Cell>) = cells.joinToString(", ") { wheelCell(it, abhijit) }
+                    listOfNotNull(
+                        stringResource(R.string.detail_right_fang) to names(f.right),
+                        f.left.takeIf { it.isNotEmpty() }?.let { stringResource(R.string.detail_left_fang) to names(it) },
+                        stringResource(R.string.detail_face_on) to wheelCell(f.faceOn, abhijit),
+                    )
+                },
             )
             FactRow(
                 stringResource(R.string.row_hundred_feet),
@@ -1087,6 +1095,14 @@ internal fun clockOf(chuTshod: Double, labels: Labels): String {
 /** The sun's term as a row names it: the month's breath or middle term, or the sign entered. */
 /** A letter of the day as the app shows it: its transliteration, then its script in brackets. */
 internal fun letter(l: Letter): String = "${l.iast} (${l.tibetan})"
+
+/** A cell of the hundred feet's wheel, named as §8.1 names it: a mansion, letter, sign or class of date. */
+internal fun wheelCell(c: DayLetters.Cell, abhijit: String): String = when (c) {
+    is DayLetters.Cell.Star -> c.mansion?.let { Ewts.named(it.english, it.wylie) } ?: Ewts.named(abhijit, "byi bzhin")
+    is DayLetters.Cell.Sound -> letter(c.letter)
+    is DayLetters.Cell.Sign -> Ewts.named(c.sign.english, c.sign.wylie)
+    is DayLetters.Cell.DateClass -> Ewts.named(c.dateClass.english, c.dateClass.wylie)
+}
 
 internal fun sunTermName(t: DayTimes.SunTerm, labels: Labels): String = when (t.kind) {
     DayTimes.SunTermKind.KHYIM_PHO -> labels.string(R.string.sun_term_sign, t.sign!!.english)

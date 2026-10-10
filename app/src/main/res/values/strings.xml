@@ -729,6 +729,10 @@
     <string name="detail_stage">Stage (དར་གུད, dar gud)</string>
     <string name="detail_mansion">Mansion</string>
     <string name="detail_quarter">Quarter</string>
+    <string name="detail_right_fang">Right fang (མཆེ་བ, mche ba)</string>
+    <string name="detail_left_fang">Left fang</string>
+    <string name="detail_face_on">Face-on (གདོང་ཚུགས, gdong tshugs)</string>
+    <string name="abhijit">Abhijit</string>
     <string name="row_sun_term">Sun\'s term</string>
     <!-- "Breath term of month 1" -->
     <string name="sun_term_month">%1$s of month %2$d</string>
