@@ -254,7 +254,7 @@
     <string name="about_fonts_title">Шрифты</string>
     <string name="about_fonts">Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho Project Authors; Noto Serif Tibetan, © 2022 The Noto Project Authors; все под лицензией SIL Open Font License 1.1.</string>
     <string name="about_licence_title">Лицензия</string>
-    <string name="about_licence">Zanshin Calendar — свободная программа под лицензией Mozilla Public License 2.0.</string>
+    <string name="about_licence">Zanshin Calendar — свободная программа под лицензией Mozilla Public License 2.0. Места пяти планет и Раху рассчитываются так, как их рассчитывает тибетская календарная программа Эдварда Хеннинга, перенесённая из неё: © 2009–2013 Edward Henning, по лицензии MIT, уведомление которой сохранено в исходном коде.</string>
 
     <!-- Location -->
     <string name="loc_my_location_label">Моё место · %1$s</string>
@@ -610,13 +610,11 @@
     <string name="detail_stage">Возраст (དར་གུད, dar gud)</string>
     <string name="detail_mansion">Созвездие</string>
     <string name="detail_quarter">Четверть</string>
-    <string name="detail_right_fang">Правый клык (མཆེ་བ, mche ba)</string>
-    <string name="detail_left_fang">Левый клык</string>
-    <string name="detail_face_on">Лицом к лицу (གདོང་ཚུགས, gdong tshugs)</string>
     <string name="abhijit">Абхиджит</string>
-    <string name="body_moon">луна</string>
-    <string name="body_sun">солнце</string>
-    <string name="detail_sun_mansion">Созвездие солнца</string>
+    <string name="body_rahu">Раху (སྒྲ་གཅན, sgra gcan)</string>
+    <string name="body_in">%1$s: %2$s</string>
+    <string name="fangs_value">правый клык (མཆེ་བ, mche ba): %1$s · левый клык: %2$s · лицом к лицу (གདོང་ཚུགས, gdong tshugs): %3$s</string>
+    <string name="fangs_no_left">правый клык (མཆེ་བ, mche ba): %1$s · лицом к лицу (གདོང་ཚུགས, gdong tshugs): %2$s</string>
     <string name="row_sun_term">Срок солнца</string>
     <string name="sun_term_month">%1$s %2$d-го месяца</string>
     <string name="sun_term_sign">Солнце входит в знак: %1$s</string>

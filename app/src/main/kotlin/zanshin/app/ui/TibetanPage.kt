@@ -887,21 +887,16 @@ fun TibetanPage(
                     stringResource(R.string.detail_syllable) to letter(foot.syllable),
                 ) + run {
                     val abhijit = stringResource(R.string.abhijit)
-                    val moon = stringResource(R.string.body_moon)
-                    val sun = stringResource(R.string.body_sun)
-                    val sunMansion = DayLetters.sunMansion(day)
-                    val rightLabel = stringResource(R.string.detail_right_fang)
-                    val leftLabel = stringResource(R.string.detail_left_fang)
-                    val faceLabel = stringResource(R.string.detail_face_on)
+                    val rahu = stringResource(R.string.body_rahu)
                     fun names(cells: List<DayLetters.Cell>) = cells.joinToString(", ") { wheelCell(it, abhijit) }
-                    fun rows(body: String, f: DayLetters.Fangs) = listOfNotNull(
-                        "$rightLabel · $body" to names(f.right),
-                        f.left.takeIf { it.isNotEmpty() }?.let { "$leftLabel · $body" to names(it) },
-                        "$faceLabel · $body" to wheelCell(f.faceOn, abhijit),
-                    )
-                    rows(moon, DayLetters.fangs(foot.mansion)) +
-                        (stringResource(R.string.detail_sun_mansion) to Ewts.named(sunMansion.english, sunMansion.wylie)) +
-                        rows(sun, DayLetters.fangs(sunMansion))
+                    val fangsOf = remember(day.jd) { DayLetters.bodies(day) }
+                    fangsOf.map { (body, mansion) ->
+                        val f = DayLetters.fangs(mansion)
+                        val bodyName = body.weekday?.planet ?: rahu
+                        stringResource(R.string.body_in, bodyName, Ewts.named(mansion.english, mansion.wylie)) to
+                            if (f.left.isEmpty()) stringResource(R.string.fangs_no_left, names(f.right), wheelCell(f.faceOn, abhijit))
+                            else stringResource(R.string.fangs_value, names(f.right), names(f.left), wheelCell(f.faceOn, abhijit))
+                    }
                 },
             )
             FactRow(

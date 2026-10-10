@@ -294,7 +294,7 @@
     <string name="about_fonts_title">Fonts</string>
     <string name="about_fonts">Figtree, © 2022 The Figtree Project Authors; Shippori Mincho, © 2021 The Shippori Mincho Project Authors; and Noto Serif Tibetan, © 2022 The Noto Project Authors; all under the SIL Open Font License 1.1.</string>
     <string name="about_licence_title">Licence</string>
-    <string name="about_licence">Zanshin Calendar is free software under the Mozilla Public License 2.0.</string>
+    <string name="about_licence">Zanshin Calendar is free software under the Mozilla Public License 2.0. The places of the five planets and Rāhu are reckoned as Edward Henning\'s Tibetan calendar software reckons them, ported from it: copyright 2009–2013 Edward Henning, under the MIT licence, whose notice the source keeps.</string>
 
     <!-- Location -->
     <!-- saved as the place's name -->
@@ -729,13 +729,11 @@
     <string name="detail_stage">Stage (དར་གུད, dar gud)</string>
     <string name="detail_mansion">Mansion</string>
     <string name="detail_quarter">Quarter</string>
-    <string name="detail_right_fang">Right fang (མཆེ་བ, mche ba)</string>
-    <string name="detail_left_fang">Left fang</string>
-    <string name="detail_face_on">Face-on (གདོང་ཚུགས, gdong tshugs)</string>
     <string name="abhijit">Abhijit</string>
-    <string name="body_moon">moon</string>
-    <string name="body_sun">sun</string>
-    <string name="detail_sun_mansion">The sun\'s mansion</string>
+    <string name="body_rahu">Rāhu (སྒྲ་གཅན, sgra gcan)</string>
+    <string name="body_in">%1$s: %2$s</string>
+    <string name="fangs_value">right fang (མཆེ་བ, mche ba): %1$s · left fang: %2$s · face-on (གདོང་ཚུགས, gdong tshugs): %3$s</string>
+    <string name="fangs_no_left">right fang (མཆེ་བ, mche ba): %1$s · face-on (གདོང་ཚུགས, gdong tshugs): %2$s</string>
     <string name="row_sun_term">Sun\'s term</string>
     <!-- "Breath term of month 1" -->
     <string name="sun_term_month">%1$s of month %2$d</string>
