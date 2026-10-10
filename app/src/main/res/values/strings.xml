@@ -160,9 +160,9 @@
     <string name="detail_its_hour">The hour\'s %1$s</string>
     <string name="section_lunar_day">Lunar day</string>
     <string name="row_trigram">Trigram</string>
-    <string name="row_date_sme_ba">Date\'s mewa (སྨེ་བ, sme ba)</string>
+    <string name="row_date_sme_ba">Date\'s mewa</string>
     <string name="row_day_sign">Day sign</string>
-    <string name="row_date_animal">Date\'s animal (ཉི་མ, nyi ma)</string>
+    <string name="row_date_animal">Date\'s animal</string>
     <!-- for screen readers -->
     <string name="pebbles_mixed">%1$d white and %2$d black pebbles</string>
     <!-- for screen readers -->
@@ -709,10 +709,10 @@
     <string name="detail_visti">Viṣṭi</string>
     <string name="detail_from">%1$s, from %2$s</string>
     <string name="detail_span">%1$s, %2$s–%3$s</string>
-    <string name="row_kalacakra">Kālacakra (དུས་འཁོར, dus \'khor)</string>
-    <string name="row_svarodaya">Rising of the vowels (དབྱངས་འཆར, dbyangs \'char)</string>
-    <string name="row_twelve_links">Twelve links (རྟེན་འབྲེལ, rten \'brel)</string>
-    <string name="row_hundred_feet">Hundred feet (རྐང་བརྒྱ, rkang brgya)</string>
+    <string name="row_kalacakra">Kālacakra</string>
+    <string name="row_svarodaya">Vowel rising</string>
+    <string name="row_twelve_links">Twelve links</string>
+    <string name="row_hundred_feet">Hundred feet</string>
     <string name="letters_value">%1$s · %2$s, %3$s</string>
     <string name="letters_stage_value">%1$s · %2$s, %3$s · %4$s</string>
     <string name="link_count">day %1$d of %2$d from the middle term of month %3$d</string>

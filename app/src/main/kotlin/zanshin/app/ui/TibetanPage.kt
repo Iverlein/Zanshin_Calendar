@@ -756,6 +756,7 @@ fun TibetanPage(
 
         SectionTitle(stringResource(R.string.section_lunar_day))
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            // The labels are short English names on one line; a label's Tibetan is in the sheet or balloon its row opens.
             // The 60-day cycle's element and animal: weighed nowhere, so here rather than at the top, where the
             // weekday and planet it once stood with are the Almanac's weekday row (ROADMAP T3).
             val daySign = stringResource(R.string.element_animal, gloss(day.dayElement), gloss(day.dayAnimal))
@@ -780,6 +781,7 @@ fun TibetanPage(
                 Tone.NEUTRAL,
                 Texts.EARTH_LORD[day.lunarDayAnimal],
                 titleIsKanji = false,
+                tibetan = "nyi ma" to stringResource(R.string.row_date_animal),
             )
             FactRow(
                 stringResource(R.string.row_date_animal),
@@ -814,6 +816,7 @@ fun TibetanPage(
                 number,
                 tibetan = false,
                 lead = { SmeBaSquare(day.smeBa, 30.dp, stringResource(R.string.desc_sme_ba, day.smeBa)) },
+                balloon = listOf(BalloonRow(tibetanLabel, Ewts.named(stringResource(R.string.row_date_sme_ba), "sme ba"))),
             )
             // The letters of the day (WB vol. 1, pp. 16–19, 97, 150–153, 177–178; SPEC §5.11): written, not weighed.
             val kalacakra = DayLetters.kalacakra(day.month, day.day)
@@ -1181,16 +1184,20 @@ fun FactRow(
     /** A balloon for a plain term, with more to say than its English. */
     balloon: List<BalloonRow>? = null,
 ) {
+    // A bare term, or plain text that may hold Tibetan script, sits on the label's baseline: the script's tall line
+    // would push a centred label below the text.
+    val plain = !tibetan && !kanji && balloon == null
+    val onBaseline = lead == null && (tibetan || plain && swatch == null)
     Row(
         Modifier.fillMaxWidth().heightIn(min = 40.dp).let { if (onClick != null) it.clickable(onClick = onClick) else it },
-        verticalAlignment = if (tibetan && lead == null) Alignment.Top else Alignment.CenterVertically,
+        verticalAlignment = if (onBaseline) Alignment.Top else Alignment.CenterVertically,
     ) {
         // A label naming a Tibetan word keeps its bracket whole on a line of its own (SPEC §8.1).
         val bracket = label.indexOf(" (").takeIf { it > 0 && label.substring(it).any { c -> c in '\u0F00'..'\u0FFF' } }
         Text(
             if (bracket == null) AnnotatedString(label) else withTibetan(label.substring(0, bracket) + "\n" + label.substring(bracket + 1)),
             style = body.copy(fontSize = 14.sp, color = Palette.muted),
-            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (tibetan && lead == null) it.alignByBaseline() else it },
+            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (onBaseline) it.alignByBaseline() else it },
         )
         if (lead != null) {
             Row(Modifier.padding(end = 10.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) { lead() }
@@ -1217,7 +1224,7 @@ fun FactRow(
             // A screen reader gets the balloon's rows after the term, not the term twice.
             GlossText(english, balloon.joinToString { "${it.label} ${it.value}" }, body.copy(fontSize = 16.sp), preferAbove = true, rows = balloon)
         } else {
-            Text(english, style = body.copy(fontSize = 16.sp))
+            Text(english, style = body.copy(fontSize = 16.sp), modifier = if (onBaseline) Modifier.alignByBaseline() else Modifier)
         }
     }
 }
