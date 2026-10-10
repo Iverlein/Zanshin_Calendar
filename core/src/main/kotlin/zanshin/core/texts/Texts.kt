@@ -188,6 +188,12 @@ object Sources {
     val WHITE_BERYL_MONTH_HEADING = whiteBeryl("pp. 176 and 183", volume = 1)
     /** The seasonal signs of chapter 16: the Ṛṣi's and the pig's seven days (pp. 187–189), the comet (p. 186). */
     val WHITE_BERYL_SEASON_SIGNS = whiteBeryl("chapter 16, pp. 186–189", volume = 1)
+    /**
+     * The letters of the day (docs/sources/day-letters.md): the Kālacakra's and the *dbyangs 'char*'s vowels
+     * and consonants in the preliminary chapter (vol. 1, pp. 16–17), the twelve links' months (p. 16) and their
+     * table (pp. 150–153), the hundred feet on ch. 12's wheel (p. 97), and the almanac's day entries (pp. 173, 177–178).
+     */
+    val WHITE_BERYL_LETTERS = whiteBeryl("pp. 16–19, 97, 150–153, 173 and 177–178", volume = 1)
     /** The *Kun 'dus chen mo*'s restatement of WB's comet count, which reckons the years from the rab byung's start (docs/sources/month-entries.md). */
     val KUN_DUS_COMET = Source(
         "The Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 2, p. 145, " +
@@ -1069,6 +1075,15 @@ object Texts {
     val SUN_TERM: Map<DayTimes.SunTermKind, Reading> = DayTimes.SunTermKind.entries.associateWith {
         Reading(source = Sources.WHITE_BERYL_TIMES, key = "reading.SunTerm", arg = "reading.SunTerm.${it.name}")
     }
+
+    /**
+     * The letters of the day ([zanshin.core.tibetan.DayLetters], WB vol. 1, pp. 16–19, 97, 150–153, 177–178):
+     * how each is reckoned. No lists: WB reads them against a name or a birth, not against the day.
+     */
+    val KALACAKRA_LETTERS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.KalacakraLetters")
+    val SVARODAYA_LETTERS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.SvarodayaLetters")
+    val TWELVE_LINKS = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.TwelveLinks")
+    val HUNDRED_FEET = Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet")
 
     /**
      * The earth lords of the hour (WB vol. 2, p. 235): *g.yu mdzod sngon mo*, the god of the hours, and

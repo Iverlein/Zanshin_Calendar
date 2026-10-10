@@ -213,21 +213,40 @@ object DayTimes {
      * before («གོང་མའི་ཞག་གི་ནམ་ལངས་ནས»). The time is in whole chu tshod, half a one counted as one
      * («གཟའ་ཡི་ཆུ་ཚོད་ཕྱེད་ལོངས་ན། །གཅིག་སྟེར»; Ngag dbang bzang po: «གཟའ་ཡི་ཆུ་སྲང་མཁའ་མེས་དོར», 30 chu srang).
      */
-    fun sunTerms(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): List<Change<SunTerm>> = buildList {
-        for (n in day.monthCount - 1..day.monthCount + 1) for (d in 1..30) {
+    fun sunTerms(day: TibetanDay, a2: Rational = Phugpa.A2_ALMANAC): List<Change<SunTerm>> =
+        termTimes(day.monthCount - 1..day.monthCount + 1, a2) { t1 -> t1 >= day.jd && t1 < day.jd + 3 }
+            .filter { (_, at) -> floor(at).toLong() == day.jd }
+            .map { (term, at) -> Change(term, (at - day.jd) * 60) }
+            .sortedBy { it.at }
+
+    /**
+     * The days in which the *sgang* of the lunar months [counts] fall, each with the Hor month whose
+     * *sgang* it is, in order: the days from which the twelve links are counted (p. 177, [DayLetters.link]).
+     */
+    fun sgangDays(counts: LongRange, a2: Rational = Phugpa.A2_ALMANAC): List<Pair<Long, Int>> =
+        termTimes(counts, a2) { true }
+            .filter { (term, _) -> term.kind == SunTermKind.SGANG }
+            .map { (term, at) -> floor(at).toLong() to term.month!! }
+            .sortedBy { it.first }
+
+    /**
+     * The terms the true sun reaches at the end of the lunar dates of the months [counts] whose end
+     * passes [near], each with its time on the dawn-based day scale by the rule of [sunTerms].
+     */
+    private fun termTimes(counts: LongRange, a2: Rational, near: (Double) -> Boolean): List<Pair<SunTerm, Double>> = buildList {
+        for (n in counts) for (d in 1..30) {
             val t1 = end(n, d, a2)
-            if (t1 < day.jd || t1 >= day.jd + 3) continue
+            if (!near(t1)) continue
             val s0 = sun(n, d - 1) * 1620
             var s1 = sun(n, d) * 1620
             if (s1 < s0) s1 += 1620
             for (term in SUN_TERMS) {
                 val m = if (term.arc <= s0) term.arc + 1620.0 else term.arc.toDouble()
                 if (m > s1) continue
-                val at = (floor(t1 * 60 + 0.5 + 1e-9) - termStep(s1 - m)) / 60
-                if (floor(at).toLong() == day.jd) add(Change(term, (at - day.jd) * 60))
+                add(term to (floor(t1 * 60 + 0.5 + 1e-9) - termStep(s1 - m)) / 60)
             }
         }
-    }.sortedBy { it.at }
+    }
 
     /** The clock minute of the day, 0–1439, of a time [chuTshod] after daybreak at 05:00. */
     fun clockMinute(chuTshod: Double): Int = Math.floorMod((5 * 60 + chuTshod * 24).roundToInt(), 24 * 60)
