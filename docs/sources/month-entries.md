@@ -228,7 +228,7 @@ balloon; 2000–2049 it marks the 3rd month of 2003 and 2009, the 4th of
 8th of 2045. A count, not the sky: it marks no month of the comets of
 1680 or 1682.
 
-## The eclipses: not built
+## The eclipses: built by the *byed rtsis* (T2.23)
 
 p. 176: «ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན་ལ་སོགས་སྙིང་པོ་འདྲི།» WB's
 reckoning is ch. 9 (vol. 1, pp. 56–70, img. 66–80), in ten sections:
@@ -246,7 +246,7 @@ taken from Rāhu's nearer end, the moon is seized within 57 chu tshod after
 the head, 50 before the head or the tail, 45 after the tail; a head
 eclipse beyond 58 or a tail one beyond 55 is not seen.
 
-Not built, for three reasons:
+T2.21 left them unbuilt, for three reasons; T2.23 answered them (below):
 
 1. **The epoch was in doubt; settled 2026-10-10** (open question 16):
    Henning's Phugpa Rāhu puts the 3rd month of 1687 at WB's 209, so the
@@ -269,4 +269,86 @@ Not built, for three reasons:
    from Rāhu's ends; 2028's come a month late); 80 in 2000–2049. Built
    now, it would put eclipses on nights without one.
 
-The eclipses move to T2.23 with the *byed rtsis* (ROADMAP).
+The eclipses moved to T2.23 with the *byed rtsis* (ROADMAP).
+
+### T2.23: the heading's last entries, read 2026-10-10
+
+Vol. 1 img. 39–80 and 186–187 read with Yigdzin-1 (`hf_read.py`), every
+line quoted here and every number word read on the scan at 3×; the
+bracketed numerals of the 1996 edition, and the reader's copies of them,
+are often wrong (༢༡ for *zla me*, 31), so the words decide.
+
+**p. 176 (img. 186)**, the heading's rest: «བྱེད་གྲུབ་གཉིས་ཀའི་ཆད་ལྷག་དང་། །དབང་ཕྱུག་མཇལ་ཕྲད་རི་མོ་རྣམས། །བཞེངས་བཞུགས་ཁ་བྱང་འབྲས་བུ་འདྲི། །ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན་ལ་སོགས་སྙིང་པོ་འདྲི།
+…དེ་ནས་ཞག་གསུམ་གང་ཡིན་ཀྱང་། །ཉ་སྟོང་གཟའ་ལྔའི་དལ་མྱུར་དང་། །ཟླ་བ་དེ་ཡི་སྒེར་དྷུ་ཝ། །ཡོད་ན་བཀོད་པར་བྱ་བ་དང་། །བྱེད་གྲུབ་སོ་སོའི་དྷུ་ཝ་དང་། །ཉ་སྟོང་སྒྲ་གཅན་རི་མོ་བཀོད། །དེ་ནས་སོ་སོའི་ཚེས་ཁོངས་ལ། །རྣམ་པར་དག་པའི་གྲུབ་རྩིས་དང་། །བྱེད་རྩིས་གཉིས་ཀ་གནས་ལྔའམ། །མ་འགྲུབ་གནས་གསུམ་མི་ནོར་བའི། །མཚན་མ་དང་བཅས་བཀོད་པ་དང་»:
+both reckonings' omitted and doubled dates; the Lord's meeting drawn,
+standing or sitting, with its label and result; at the full and new moon
+the eclipse, its time, part and length and its good or ill; the five
+planets' slow and fast at the full and new moon; the month's own figures
+(*dhru ba*) and each reckoning's; Rāhu's figure at the full and new moon;
+and in each date both reckonings in five places, or three.
+
+**The *byed rtsis*** (ch. 4, p. 31, img. 41): «བསྡུས་པའི་རྒྱུད་ཀྱི་རྗེས་འབྲངས་པའི། །བྱེད་པའི་རྩིས་ནི་བསྟན་པ་ལ། །རབ་བྱུང་ཉི་མའི་ཐོག་མ་ཡི། །མེ་ཡོས་ལ་སོགས་འདས་པའི་ལོ། །ཉི་མས་བསྒྱུར་ལ་ནག་པ་སོགས། །འདས་ཟླ་བསྲེས་ལ་གནས་གཉིས་བཞག །འོག་མ་མིག་བསྒྱུར་བུག་གཟུགས་བསྣན། །མདའ་རོས་ཐོབ་པ་ཟླ་དག་གོ»:
+the years since the fire hare of 1687 times twelve with the months since
+*nag pa*; the lower copy doubled with 19, over 65, added: the corrected
+month. «བསེ་རུ་ཟླ་མེ་མཁའ་འབྱུང་བསྒྱུར། །སྟེང་ནས་ནམ་མཁའ་ཆུ་ཚོད་མིག །ཕྱོགས་ཀྱིས་ཕྲི་ལ་མཁའ་རོ་གཉིས། །ཐུབ་པས་དོར་ལྷག་གཟའ་དྷྲུའོ»:
+the weekday 1;31,50 a month, 0;2,10 taken off. «ཟླ་དག་གནས་གཉིས་སྟེང་མ་མིག །འོག་མ་གཟུགས་ཀྱིས་བསྒྱུར་བ་ལ། །རིལ་བུག་ཆ་ཤས་རྩ་རི་ཕྲི། །དུས་ཁྱིམ་ཀླུ་ལག་དོར་བའི་ལྷག»:
+the anomaly 2;1, 9;79 taken off, by 126 and 28. «ཟླ་དག་གནས་ལྔ་སྟེང་རིམ་བཞིན། །མིག་ཕྱོགས་ཀླུ་དབང་ལག་ཕྱོགས་བསྒྱུར། །སྐར་གནས་དུས་མིག་ཆུ་ཚོད་དུ། །མཚོ་དབང་ཆུ་མིག་ཆུ་སྲང་ཡིན། །དབུགས་མེ་ཆ་ཤས་བུ་གས་ཕྲི། །འདོད་རོ་མཁའ་རོ་ཐིག་རོ་དང་། །འཁོར་ལོས་དོར་ལྷག་ཉི་དྷྲུའོ»:
+the sun 2;10,58,2,10, 26;54,24,3,9 taken off, by 13, 6, 60, 60 and 27.
+Each date «གཟའ་དྷྲུར་ཆུ་ཚོད་རྩ་དབང་དང་། །སྲང་ཡོན་དབུགས་ཆུ་ཆ་ཐིག་དང་། །ཉི་དྷྲུར་དབྱུག་མཚོ་ཟླ་མིག་སྲང་། །དབུགས་དབང་ཆ་ཤས་བུ་ག»: 0;59,3,4,0
+and 0;4,21,5,9. The moon's steps 5, 5, 5, 4, 3, 2, 1 over fourteen of
+126 («ལྔ་གསུམ་བཞི་དང་གསུམ་གཉིས་གཅིག། །ལྡོག་པ་དང་བཅས་བཅུ་བཞིའི་གནས»), the odd fourteens subtracting; the sun
+less 6;45, steps 6, 4, 1 over six of 135 (p. 32). These are the true
+reckoning's equations, so the two differ only in their mean motions.
+The *grub rtsis* of the same chapter (p. 29) doubles with 15: Janson's
+intercalation index carried from 806 to 1687 is 15, so both count from
+the same month, the true reckoning's 10 898th. WB adds the *Zhal lung*'s
+correction (p. 32, «གཟའ་གནས་དུས་དང་ཆུ་ཚོད་དུ། །རོ་མཚོ་སྲང་ལ་དུས་རྒྱ་མཚོ། །དབུགས་འཁྲིག»: 6;46,46,2 off
+the weekday, 0;28,46,2,4 off the sun) and keeps the plain way, since the
+error grows (p. 32); the weekday's correction, 0;13,13,4 forward, is the
+true reckoning's lead at the epoch to a tenth of a chu tshod
+(`ByedRtsisTest`); the sun's (28.8 chu tshod) does not meet its lead
+(35.8). No worked example is in the chapter.
+
+**The lunar rule** (ch. 9, p. 59, img. 69): «དང་པོ་འཛིན་དང་མི་འཛིན་ནི། །བསྡུས་པའི་རྒྱུད་ཀྱི་ཉི་དག་ལ། །འདོད་པ་མཁའ་མེ་བྱིན་པ་དེ། །ཚེས་འཁྱུད་ཟླ་སྐར་ཞེས་གྲགས»: the true
+sun *of the abridged tantra*, the *byed rtsis*, with 13;30. Then «ཟླ་བར་གདོང་སྦྱངས་ལྷག་མ་རུ། །རི་དབང་མན་ཆད་འཛིན་པ་དེ། །གདོང་ལ་ཟླ་བས་སྦྱངས་པ་དང་། །དུས་མེ་ཟླ་བས་སྦྱངས་པ་ལ། །མཁའ་འབྱུང་མན་ཤར་འཛིན་པར་ངེས། །ཟླ་བ་དུས་མེས་སྦྱངས་པའི་ཚེ། །འབྱུང་མཚོ་མན་ཆད་འཛིན་པ་ཡིན»:
+the moon past the head by 57 or less, before the head or the tail by
+50, past the tail by 45 (the instrumental is the subtrahend: «ཟླ་བ་དུས་མེས་སྦྱངས» is the
+moon less the tail). The T2.21 trial used the true reckoning's sun.
+
+**The solar rule** (p. 65, img. 75): «གདོང་གིས་ཉི་སྦྱངས་སྐར་གནས་སྟོངས། །གོ་མ་ལོག་པའི་རི་མོ་སྟེ། །ཆུ་ཚོད་མིག་དབང་བར་དུ་འཛིན། །ཉི་མས་གདོང་སྦྱངས་གདོང་པ་ཐུང་། །གོ་ལྡོག་ཅེས་གྲགས་ཆུ་ཚོད་མདའ། །ལྷག་ན་འཛིན་པ་མ་ཡིན་ནོ། །དུས་མེས་ཉི་སྦྱངས་མཇུག་མ་རིང་། །དེ་ཡང་གོ་ལྡོག་ཅེས་གྲགས་པས། །སྐར་ཐིག་ཆུ་ཚོད་རི་ཙམ་འཛིན། །ཉི་མས་དུས་མེ་སྦྱངས་པ་ན། །མ་ལྡོག་མཁའ་ཆུའི་ནང་ཚུན་འཛིན»:
+the sun past the head by 52, before it by 5, past the tail by 0;7, before
+it by 40; and «བྱེད་གྲུབ་ཁྱད་རྣམས་གོང་སྨྲས་ཀྱི། །ཁྱད་པར་ཙམ་ལས་བྱེད་རང་གཙོ», the *byed rtsis* is the
+principal. p. 64's two exceptions are open question 18.
+
+**Against the sky**, 2000–2049 (Meeus, ch. 54; `EclipsesTest`): every one
+of the 79 full moons the lunar rule marks has a lunar eclipse (65 of the
+72 umbral ones, 14 penumbral); it misses five of umbral magnitude under
+0.1, 2001-07-05 (0.49) and 2019-07-17 (0.65). Every one of the 33 new
+moons the solar rule marks has a solar eclipse; those it misses on the
+northern side are partial ones of gamma near 1. The 2025 eclipses fall
+5 and 11 chu tshod from Rāhu's ends.
+
+**The merit** (p. 62, img. 72): «དགུ་པ་དགེ་བའི་འགྱུར་ཁྱད་ནི། །དུས་བཟང་དཀྱུས་རྣམས་བརྒྱ་འགྱུར་ལ། །ཟླ་འཛིན་བྱེ་བ་བདུན་འགྱུར་དང་། །ཉི་འཛིན་བྱེ་བ་འབུམ་འགྱུར་དུ»: a
+hundredfold on the ordinary good occasions, seven *bye ba* (seventy
+million) at a lunar eclipse, a hundred thousand *bye ba* (a million
+million) at a solar one. Elsewhere WB names eclipses as an omen in
+divination (vol. 2, p. 29) and in a birth (p. 484); no work list names
+them.
+
+**Read and left out** (the owner, 2026-10-10: what neither serves nor
+changes the weights or the verdict is not shown):
+
+- The planets' motions (ch. 6, p. 40, img. 50): «ལུགས་ལྡོག་ལུགས་འབྱུང་རི་མོ་འཆར། །རིམ་པའི་སྔ་རྐང་མྱུར་འགྲོས་ཤར། །ཕྱི་རྐང་དལ་འགྲོས་ལྷོ་རུ་བྱེད། །རིམ་མིན་སྔ་རྐང་འཁྱོག་འགྲོས་ནུབ། །ཕྱི་རྐང་འབྱུང་བའི་འགྲོས་ཏེ་བྱང»: by the
+  fast equation's table, read in its order the first seven steps are
+  the fast motion (east) and the rest the slow (south); reversed, the
+  crooked (west) and the emerging (north). Reckoned with Henning's
+  routine (the first step is his 14th), each planet runs through the
+  four in turn; the crooked follows the opposition.
+- The Lord's meeting (ch. 5, p. 36, img. 46): «ཀར་མྱང་རྩིས་ལ་བུག་མཁའ་དང་། །མི་བདག་ལོ་ལ་རབ་ཉི་ནས། །གང་བརྩིའི་བར་གྱི་འདས་ལོ་བསྲེས། །དེ་ནི་ཤཱ་ཀའི་ལོ་ཞེས་གྲགས» (1609 with the years since 1687,
+  the Śaka year), «ཡང་ནི་ཤཱ་ཀའི་འདས་ལོ་དེ། །དབང་ཕྱུག་སྦྱངས་ལ་ལྷག་མ་དེ། །མཚོ་ཡིས་དོར་ལྷག་གཟུགས་ཤར་ན། །རྫིང་བུར་འཇུག་ཅེས་ཐན་པ་ཆེ། །གཉིས་པ་ཡན་ལག་འཇུག་ཅེས་པ། …མེ་ཤར་ཀུན་འཇུག་ཅེས་ཟེར་ཏེ། …ཐིག་ལ་ཞོད་ཅེས་ཆུ་བོ་རྒྱས། །དབང་ཕྱུག་མཇལ་ཕྲད་ཅེས་བགྱི་བ»: the Śaka year
+  less 11, by four, gives the year's rain. *zhod* in *la zhod* is not in
+  the dictionaries searched.
+- The two reckonings' month figures and omitted and doubled dates, and
+  each date's five places, as above; Rāhu's figure.
+- The eclipse's time, part, length, side and results (ch. 9, sections
+  2–8 and 10, pp. 59–69): no works.

@@ -278,3 +278,17 @@ the text, not about the app.
     other «ལྔ་སྒྲ» in vol. 1, p. 224 («གཟའ་ཉི་ཆ་རིལ་ལྔ་སྒྲ་བཅས»), is in the year's
     reckoning. A printed almanac in WB's tradition, or a manual's gloss on
     the line, would settle it ([day-letters.md](day-letters.md)).
+
+18. **WB vol. 1, p. 64 (img. 74): what do the solar eclipse's two
+    exceptions mean?** «ཉི་མ་ལྷོ་བགྲོད་ཀརྐ་ཊའི་ཁྱིམ། །འཁྱོག་འགྲོས་དང་པོའི་ཉིན་ཞག་ནི། །གནམ་སྟོང་འགྲིག་ན་མི་འཛིན་བཞེད། །གཞན་ཡང་ལྷག་པ་པ་སངས་གཉིས། །གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད»:
+    with the sun in Cancer on its southward course, a new moon on the
+    first day of the crooked motion is held not to be seized; and none
+    is when Mercury or Venus is with the sun in one mansion within 135
+    chu tshod. Read as the planets' places of the true reckoning, the
+    second strikes real eclipses: Mercury is in the sun's mansion on
+    2001-12-14, 2016-09-01 and 2024-04-08, and within 135 chu tshod of
+    the sun on nearly every new moon. Whose crooked motion, the moon's
+    (p. 59's four motions by its anomaly) or a planet's, and which
+    places the second compares are not said. Until a manual's gloss or
+    a worked eclipse settles them, the app applies neither
+    ([month-entries.md](month-entries.md)).

@@ -677,9 +677,43 @@ English (§8.1), each reading citing its pages:
   chen mo* restates it) times twelve with the months since the 3rd, the
   corrected month count (twice it with 31, over 65, added) with 3 added
   leaving nothing over 75. All shown and not weighed: WB gives them no
-  weight. The eclipses (WB ch. 9) are not built: the solar rule needs the
-  *byed rtsis* (ROADMAP T2.23); Rāhu's epoch is settled, 1687 with WB's
-  209 (sources/open-questions.md, 16), and his place is built (`Planets`).
+  weight.
+- **The eclipses** (WB vol. 1, ch. 9, pp. 59, 62 and 65, with ch. 4's
+  *byed rtsis*, pp. 31–32; [month-entries.md](sources/month-entries.md);
+  `Eclipses` and `ByedRtsis`, checked by `EclipsesTest` and
+  `ByedRtsisTest`). The sun is the abridged tantra's, the *byed rtsis*,
+  as ch. 9 says: its months from *nag pa* of 1687, the corrected month
+  with twice the months and 19 over 65 added; the month's weekday 1;31,50
+  from 0;2,10 back, its anomaly 2;1 from 9;79 back, its sun
+  2;10,58,2,10 from 26;54,24,3,9 back; each date 0;59,3,4,0 and
+  0;4,21,5,9; the true reckoning's equations. A month's moon is the same
+  in both reckonings: the *byed rtsis*'s month is the app's count less
+  10 898. Rāhu's head is `Planets.rahu`'s, WB's own (question 16). The
+  moon of the full moon is that sun at the end of the 15th with half a
+  circle added; Rāhu seizes it within 57 chu tshod past the head, 50
+  before the head or the tail, 45 past the tail. The sun at the end of
+  the 30th is seized within 52 past the head or 5 before it, 7 past the
+  tail or 40 before it. Against Meeus's eclipses of 2000–2049
+  (`tools/eclipse_vectors.py`) every full moon it marks (79) has a lunar
+  eclipse and every new moon (33) a solar one; it misses five umbral
+  eclipses of magnitude under 0.1, those of July 2001 and July 2019, and
+  faint penumbral ones. With the true reckoning's sun it would find 27
+  of the 72 umbral eclipses and mark 31 full moons with none. The day
+  of the 15th's or 30th's end shows the eclipse in the Almanac, neutral,
+  with WB's merit (p. 62): deeds multiplied seventy million times at a
+  lunar eclipse, a million million times at a solar one. It names no
+  works, so it is shown and not weighed. Not built: the eclipse's time,
+  size, length and results (sections 2–8 and 10), which name no works
+  either, and p. 64's two exceptions for the sun (open question 18).
+- **What WB's month heading writes and the app leaves out** (the owner,
+  2026-10-10: what can neither be used nor change the weights or the
+  verdict is not shown): the *byed rtsis*'s own omitted and doubled dates
+  and its five places of each date, both reckonings' month figures
+  (*dhru ba*), the five planets' slow and fast motion at the full and new
+  moon (p. 40's four motions), Rāhu's figure, and the Kar myang
+  reckoning's Lord's meeting (*dbang phyug mjal phrad*, p. 36). Each was
+  read and could be reckoned ([month-entries.md](sources/month-entries.md));
+  none feeds any weighing.
 - **The letters of the day** (WB vol. 1, p. 177, entries 3, 4, 12 and 17,
   with ch. 2, pp. 16–19, ch. 12, p. 97, and ch. 13's table, pp. 150–153;
   [day-letters.md](sources/day-letters.md); `DayLetters`, checked by
@@ -1535,6 +1569,7 @@ fails on a wording with no entry and on an entry no wording uses.
 | Earth lords of the date's animal | The White Beryl, Beijing 1996, vol. 2, pp. 224–226 (BDRC MW2CZ8040) |
 | The great black day, the meeting of the nine bad | The White Beryl, Beijing 1996, vol. 2, p. 226 (BDRC MW2CZ8040) |
 | The month heading's entries: long or short, the weekday's rise, the black months, the seasonal signs, the comet | The White Beryl, Beijing 1996, vol. 1, pp. 176, 183 and 186–189, and vol. 2, pp. 212, 312 and 359 (BDRC MW2CZ8040); the comet's years after the *Bod kyi rtsis rig kun 'dus chen mo*, vol. 2, p. 145 (BDRC MW28845) |
+| The eclipses, by the *byed rtsis* | The White Beryl, Beijing 1996, vol. 1, ch. 4, pp. 31–32, and ch. 9, pp. 59, 62 and 65 (BDRC MW2CZ8040); checked against Jean Meeus, *Astronomical Algorithms*, 2nd ed., ch. 54 |
 | The letters of the day: the Kālacakra's and the *dbyangs 'char*'s vowels and consonants, the stage, the twelve links, the hundred feet | The White Beryl, Beijing 1996, vol. 1, pp. 16–19, 97–98, 150–153 and 173–178, with the Zhol print (BDRC MW1KG1617) for the table and the model almanac (BDRC MW2CZ8040) |
 | The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
@@ -1569,6 +1604,8 @@ missing is skipped, not failed, so a fresh clone still builds and passes.
 | *(in `RekichuTest`)* | The 九星 leap positions 1905–2100; the 二十八宿 table for every day of 1900–2100 | Japanese Wikipedia 九星, 二十八宿 |
 | *(in `KyurekiElectionTest`)* | Weddings, 1–10 October 2026 (旧暦 8/21–8/30): the days named good, the disputed days and their annotations | The rules of §7.5 (天赦日, 不成就日, the rokuyō), each checked in `RekichuTest` |
 | *(in `ElectionTest`)* | October 2026, the good days ranked for haircuts, weddings and setting out, and the days to avoid that the site names; the days of 1 June 1976's enemy weekday and death mansion not offered | The app's own weighing (§5.14), witnessed by the tibetastromed.ru election (sources/tibetastromed.md) |
+| `meeus-eclipses.tsv` | Every lunar (penumbral or deeper) and solar eclipse of 2000–2049, the UT date of greatest eclipse, the umbral magnitude or gamma; `EclipsesTest` holds WB's eclipses to it | Meeus, *Astronomical Algorithms*, ch. 54, computed by `tools/eclipse_vectors.py` |
+| *(in `ByedRtsisTest`)* | The *byed rtsis*'s month figures at its epoch and their monthly motions; its lag behind the true reckoning at the epoch, 0;13,13 of the weekday, the correction WB gives from the *Zhal lung* (vol. 1, p. 32) | WB vol. 1, ch. 4 |
 
 ## 10. User interface
 
@@ -1735,7 +1772,9 @@ canvas "Zanshin Calendar — basic design".
   verdict among rows whose dots are the voices' tones.
 - **Almanac:** what is weighed (§5.12, *Order on the page*). The monthly
   observance; the festival is the headline and opens its reading from
-  there, so the Almanac does not repeat it. Then the day's voices in the
+  there, so the Almanac does not repeat it. On the day of an eclipse
+  (§5.11) a "Lunar eclipse" or "Solar eclipse" row follows, neutral, its
+  subtitle WB's multiplied merit, opening its reading. Then the day's voices in the
   rank of §5.12, one row each: the combination, Rāhu, weekday (§5.11),
   lunar mansion (§5.10, no dot: it has no tone of its own), special days,
   lunar date, karaṇa and yoga (§5.11), the one that decided the day's tone
