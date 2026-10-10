@@ -232,12 +232,24 @@ a malefic planet's fangs and face-on avoided on the date, sign,
 consonants and vowels when one acts, sets out or stays; p. 178 writes the
 moon's with its foot («ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ»).
 
-**Built:** the foot the moon walks in at daybreak, with its syllable,
-and the moon's mansion's right and left fangs and face-on on the wheel
-(`DayLettersTest` checks the drawing's cells and p. 98's Kṛttikā).
-**Not built:** the other planets' fangs, which need their places
-(T2.23), and «ལྔ་སྒྲ་ཉི་མ», which no passage read explains (open question
-17). «བིདྡྷི» in the line after is Viṣṭi, as WB spells the karaṇa in
+**Whose fangs** (open question 17). p. 178's «ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས»
+names the bodies whose face-on and fangs stand over each mansion: *lnga*
+the five planets (*gza' lnga*, as ch. 6 and 7 name them), *sgra* Rāhu
+(*sgra gcan*), *nyi ma* the sun; the next lines add the moon's («ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ»).
+These are the eight bodies ch. 12 reckons the strikes for, p. 97, read on
+the scan: «མཐོང་བ་དྲག་གཟའ་གཡས་ཕྱོགས་དང་། །ཞི་གཟའ་གཡོན་དུ་བརྩི་བ་སྟེ། །ཉི་མ་རང་གནས་བཅུ་གཉིས་པ། …དེ་བཞིན་མིག་དམར་གསུམ་པ་དང་། །སྤེན་པ་བརྒྱད་དུ་འདོད་པ་ཡིན། །ཞི་གཟའ་སྒྲ་གཅན་གཡོན་སྐོར་ཏེ། །སྨིན་དྲུག་རྐང་དང་ཟླ་བ་གནས། …ལྷག་པའི་བདུན་པ་དང་། །ཕུར་བུ་དྲུག་དང་པ་སངས་ལྔ། །སྐྲ་གཅན་དགུ་རུ»,
+the sun, Mars, Saturn, Rāhu, the moon, Mercury, Jupiter and Venus. The
+only other «ལྔ་སྒྲ» of vol. 1, p. 224 («གཟའ་ཉི་ཆ་རིལ་ལྔ་སྒྲ་བཅས»), stands in the
+planets' reckoning in the same sense, the planets, the sun, the five
+and Rāhu.
+
+**Built:** the foot the moon walks in at daybreak, with its syllable;
+the moon's mansion's and the sun's mansion's right and left fangs and
+face-on on the wheel, the sun's mansion by the almanac's true sun
+(`DayTimes`, §5.8). `DayLettersTest` checks the drawing's cells, p. 98's
+Kṛttikā and the sun's mansion against Henning's figure. **Waiting:** the
+fangs of the five planets and Rāhu, whose places are reckoned in T2.23
+(the planets by Janson, Rāhu's epoch open question 16). «བིདྡྷི» in the line after is Viṣṭi, as WB spells the karaṇa in
 vol. 2, p. 351: the line says where Viṣṭi is written beside the day's
 vowel, already built (T2.20).
 

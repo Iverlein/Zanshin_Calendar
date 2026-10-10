@@ -593,9 +593,12 @@ it. It is item E below, built 2026-10-09.
   which WB draws and names cell by cell (vol. 1, pp. 96–97), reckoned as
   p. 98's worked fang of Kṛttikā lays them out (on 10 October 2026,
   Uttaraphalgunī: right ma, ḍa, Punarvasu; left pa, Libra, Scorpio, bha;
-  Uttarāṣāḍhā face-on). **Not built:** the other planets' fangs, which
-  need their places (T2.23); WB's «ལྔ་སྒྲ་ཉི་མ» over the mansion, open
-  question 17.
+  Uttarāṣāḍhā face-on), and the sun's over its mansion. WB's
+  «ལྔ་སྒྲ་ཉི་མ» read: the five planets, Rāhu and the sun, the bodies whose
+  fangs stand over their mansions (open question 17, answered). The five
+  planets' and Rāhu's fangs need their places, which are T2.23's own
+  work (the planets by Janson, Rāhu's epoch question 16); with them they
+  follow from the same wheel. Built in full otherwise.
 
 #### T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
 
@@ -665,9 +668,10 @@ it. It is item E below, built 2026-10-09.
   printed almanac's Rāhu would settle it) and on the *byed rtsis*, which
   the solar rule uses. Done when a worked example or almanac agrees.
 - **And the planets' fangs** ([day-letters.md](sources/day-letters.md)):
-  the wheel and the moon's mansion's fangs are built (T2.22,
-  `DayLetters.fangs`); with the planets' places each planet's fangs and
-  face-on follow from the same wheel (vol. 1, p. 98).
+  the wheel and the moon's and the sun's fangs are built (T2.22,
+  `DayLetters.fangs`); with the five planets' places, and Rāhu's when
+  question 16 is settled, each one's fangs and face-on over its mansion
+  follow from the same wheel (vol. 1, pp. 98, 178).
 
 #### T2.24 The day animals by WB — M reading, then S
 

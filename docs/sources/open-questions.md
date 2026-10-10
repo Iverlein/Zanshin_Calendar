@@ -253,8 +253,13 @@ the text, not about the app.
     settle it. Until then the eclipses are not built
     ([month-entries.md](month-entries.md)).
 
-17. **WB vol. 1, p. 178 (img. 188): what are the «ལྔ་སྒྲ་ཉི་མ» written over each
-    mansion with the hundred feet?** «རང་རང་སྐར་མའི་མགོ་ཐོག་ཏུ། །ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས། །རྐང་བརྒྱའི་རེའུ་མིག་ཇི་བཞིན་བཀོད།»
+17. **Answered 2026-10-10. WB vol. 1, p. 178 (img. 188): what are the «ལྔ་སྒྲ་ཉི་མ» written over each
+    mansion with the hundred feet?** The five planets, Rāhu (*sgra gcan*)
+    and the sun, whose fangs over their mansions the almanac writes, with
+    the moon's in the next line: the eight bodies ch. 12 reckons the
+    strikes for (p. 97, read on the scan), and p. 224's «ལྔ་སྒྲ» in the
+    planets' reckoning in the same sense ([day-letters.md](day-letters.md)).
+    The question as first put: «རང་རང་སྐར་མའི་མགོ་ཐོག་ཏུ། །ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས། །རྐང་བརྒྱའི་རེའུ་མིག་ཇི་བཞིན་བཀོད།»
     The feet are the mansions' quarters on ch. 12's wheel (pp. 96–97), the
     face-on and the fangs the lines across it (p. 98), both built for the
     moon's mansion. The "five sounds" may be the wheel's five vowels or
