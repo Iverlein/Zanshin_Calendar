@@ -27,8 +27,9 @@ tested by `DayLettersTest`.
   (p. 16), the elements and sense objects and the *dbyangs 'char* (p. 17),
   the links' rule by the chart (p. 19).
 - **Ch. 12** (pp. 91–103, img. 101–113), drops from the *Gyul rgyal*: the
-  wheel of the mansions with their four syllables each (p. 97, img. 107)
-  and the planets' fangs (pp. 97–98).
+  wheel of the hundred feet, drawn (p. 96, img. 106) and set out in words
+  with the mansions' four syllables each (pp. 96–97, img. 106–107), and
+  the planets' fangs (pp. 97–98).
 - **Ch. 13**, the *gtan le*: the twelve links' table (pp. 150–153,
   img. 160–163; WBZ img. 171–172) and the model almanac (pp. 154–171,
   img. 164–181; WBZ img. 173–197), whose day boxes write the fixed
@@ -199,21 +200,46 @@ of ch. 12 (p. 97, img. 107, read on the scan): «སྨིན་དྲུག་�
 WB's order puts Abhijit after Śravaṇa, as its other lists do
 ([almanac-page.md](almanac-page.md)), so Śravaṇa's feet are ju je jo kha
 and Abhijit's khi khu khe kho; the moon's twenty-seven mansions never
-reach Abhijit's four. The wheel's second ring holds a va ka ha ḍa (east),
-ma ṭa pa ra ta (south), na ya bha ja kha (west), ga sa da ca la (north),
-its third the signs, its centre the five classes (dga' east, bzang
-south, rgyal west, stong north, rdzogs in the middle). The fang of a
-planet in Kṛttikā, p. 98: «གཟའ་གནས་གཡས་པ་བྲ་ཉེ་དང་། །གཡོན་པ་ཨ་ཡིག་གླང་ཁྱིམ་དང་། །དགའ་བཟང་སྲང་ཁྱིམ་ཏ་ཡིག་དང་། །ས་ག་མདུན་གྱི་བྱ་སྤོ་ལ། །གདོང་ཚུགས»
-— the right Bharaṇī, the left the a, Taurus, dga' and bzang, Libra and
-ta, Viśākhā in front the face-on.
+reach Abhijit's four.
 
-**Built:** the foot the moon walks in at daybreak, the quarter of its
-mansion that the day's figure of the moon has reached, with its syllable.
-**Not built:** the face-on and the fangs, which ch. 12 reckons for the
-planets («དྲག་གཟའི་མཆེ་གདོང་ངེས་པར་སྤང», the malefic planets' fangs to be
-avoided on the doer's date, sign, consonants and vowels) and so wait on
-the five planets (T2.23); and «ལྔ་སྒྲ་ཉི་མ», which no passage read explains
-(open question 17).
+**The wheel** (*rkang pa brgya pa*), p. 96 (img. 106), drawn on the page
+and described under it: «རྐང་པ་བརྒྱ་པ་བརྒྱད་ཅུ་གཅིག …གྱེན་འཕྲེད་ཐིག་བཅུས་བཅད་པ་ཡི། །ཕྱོགས་རེར་གང་བརྩིས་གླིང་དགུ་རུ། །གྲུབ་པའི་རེའུ་མིག་བརྒྱད་ཅུ་གཅིག །དེ་ཡི་ཟུར་དུ་དབྱངས་ཡིག་རྣམས། །འགོད་པའི་ཚུལ་ནི་འདི་བཞིན་ཏེ། །རིམ་པར་བྱང་ཤར་ཤར་ལྷོ་དང་། །ལྷོ་ནུབ་ནུབ་བྱང་ཕྱི་རིམ་བཞིན། །ཨ་ཨཱ་ཨི་ཨཱི་ཨུ་ཨཱུ་དང་། །རྀ་རཱྀ་ལྀ་ལཱྀ་ཨེ་ཨཻ་སྟེ། །ཨོ་ཨཽ་ཨཾ་ཨཿ་བཅས་པ་དང་།»
+— eighty-one cells, cut by ten lines each way, nine to a side; the
+vowels in the corners, ring by ring from the outside, north-east,
+south-east, south-west, north-west: a ā i ī, u ū ṛ ṝ, ḷ ḹ e ai, o au aṃ
+aḥ. p. 97 then sets the rings (read on the scan): the mansions seven to
+a side from Kṛttikā in the east; the second ring «ཨ་ཝ་ཀ་ཧ་ཌ་དང་ལྷོར། །མ་ཊ་པ་ར་ཏ་ནུབ་ཕྱོགས། །ན་ཡ་བྷ་ཛ་ཁ་བྱང་ཕྱོགས། །ག་ས་ད་ཙ་ལ»,
+a va ka ha ḍa east, ma ṭa pa ra ta south, na ya bha ja kha west, ga sa
+da ca la north (the OCR's «ཡེ» is «ཡ»); the third the signs, Taurus,
+Gemini, Cancer east, Leo, Virgo, Libra south, Scorpio, Sagittarius,
+Capricorn west, Aquarius, Pisces, Aries north; the fourth the classes,
+dga' east, bzang south, rgyal west, stong north, rdzogs in the middle.
+East is at the top of the drawing, and each side runs as the mansions
+go round; the drawing has a in the north-east corner, u, a, va, ka in the
+second row, Aśvinī, la, ḷ, Taurus in the third, Revatī, ca, Aries, o and
+dga' in the fourth, i in the south-west corner.
+
+**The fangs**, p. 98 (img. 108), a planet in Kṛttikā: «མཆེ་བའི་རྩི་ཚུལ་སྨིན་དྲུག་ལ། །གཟའ་གནས་གཡས་པ་བྲ་ཉེ་དང་། །གཡོན་པ་ཨ་ཡིག་གླང་ཁྱིམ་དང་། །དགའ་བཟང་སྲང་ཁྱིམ་ཏ་ཡིག་དང་། །ས་ག་མདུན་གྱི་བྱ་སྤོ་ལ། །གདོང་ཚུགས་ཞེས་སུ་གྲགས་པ་ཡིན།»
+— the right fang Bharaṇī, the left the a, Taurus, dga' and bzang, Libra
+and ta, and Viśākhā in front is called the face-on. On the wheel these
+are exactly the two diagonals from Kṛttikā's cell, the short one to the
+mansions before it, the long one to those after, ending on Viśākhā. The
+app reckons every mansion's so: the right fang the diagonal toward the
+mansions before, the left toward those after, each with every cell it
+crosses, and the face-on where the left meets the outer ring again.
+What they are for, p. 98: «བྱ་བྱེད་འགྲོ་འདུག་བྱེད་པའི་དུས། །ཚེས་ཁྱིམ་གསལ་བྱེད་དབྱངས་རྣམས་ལ། །དྲག་གཟའི་མཆེ་གདོང་ངེས་པར་སྤང»,
+a malefic planet's fangs and face-on avoided on the date, sign,
+consonants and vowels when one acts, sets out or stays; p. 178 writes the
+moon's with its foot («ཟླ་སྐར་སྤྱོད་ཚད་རྐང་བརྒྱའི་མཆེ། །གཡས་པ་བཅས་པ»).
+
+**Built:** the foot the moon walks in at daybreak, with its syllable,
+and the moon's mansion's right and left fangs and face-on on the wheel
+(`DayLettersTest` checks the drawing's cells and p. 98's Kṛttikā).
+**Not built:** the other planets' fangs, which need their places
+(T2.23), and «ལྔ་སྒྲ་ཉི་མ», which no passage read explains (open question
+17). «བིདྡྷི» in the line after is Viṣṭi, as WB spells the karaṇa in
+vol. 2, p. 351: the line says where Viṣṭi is written beside the day's
+vowel, already built (T2.20).
 
 ## Weight
 

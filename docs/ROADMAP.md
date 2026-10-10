@@ -588,9 +588,14 @@ it. It is item E below, built 2026-10-09.
   quarter and its syllable. Four rows of the Lunar day section, each
   opening its reading. Checked on the emulator in English and Russian
   (10 October 2026: nā, o da, ripe, ignorance on day 4 of 31,
-  Uttaraphalgunī's 3rd quarter pa). **Not built:** the face-on and the
-  fangs over the mansion, the planets' strikes across the wheel, moved to
-  T2.23; WB's «ལྔ་སྒྲ་ཉི་མ» over the mansion, open question 17.
+  Uttaraphalgunī's 3rd quarter pa). With the foot, the moon's mansion's
+  face-on and right and left fangs across the wheel of the hundred feet,
+  which WB draws and names cell by cell (vol. 1, pp. 96–97), reckoned as
+  p. 98's worked fang of Kṛttikā lays them out (on 10 October 2026,
+  Uttaraphalgunī: right ma, ḍa, Punarvasu; left pa, Libra, Scorpio, bha;
+  Uttarāṣāḍhā face-on). **Not built:** the other planets' fangs, which
+  need their places (T2.23); WB's «ལྔ་སྒྲ་ཉི་མ» over the mansion, open
+  question 17.
 
 #### T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
 
@@ -659,14 +664,10 @@ it. It is item E below, built 2026-10-09.
   open question 16 (Rāhu's epoch and constant: a worked eclipse or a
   printed almanac's Rāhu would settle it) and on the *byed rtsis*, which
   the solar rule uses. Done when a worked example or almanac agrees.
-- **And the fangs** (moved from T2.22, 2026-10-10;
-  [day-letters.md](sources/day-letters.md)): over the day's mansion WB's
-  almanac writes the face-on (*gdong tshugs*) and the right and left fangs
-  of the hundred feet's wheel (vol. 1, p. 178), which ch. 12 reckons for
-  the planets in their mansions (pp. 97–98, a planet in Kṛttikā: right
-  Bharaṇī, left a, Taurus, dga' and bzang, Libra, ta, Viśākhā face-on).
-  With the planets' places they can be built from the wheel ch. 12 sets
-  out; its corner cells are not named in the passage read.
+- **And the planets' fangs** ([day-letters.md](sources/day-letters.md)):
+  the wheel and the moon's mansion's fangs are built (T2.22,
+  `DayLetters.fangs`); with the planets' places each planet's fangs and
+  face-on follow from the same wheel (vol. 1, p. 98).
 
 #### T2.24 The day animals by WB — M reading, then S
 

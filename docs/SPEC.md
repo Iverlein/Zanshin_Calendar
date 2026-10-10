@@ -709,9 +709,15 @@ English (§8.1), each reading citing its pages:
   (once in 2000–2049, from 4 July 2009) has no link. The hundred feet: the
   quarter of its mansion the moon walks in at daybreak, with its syllable
   on ch. 12's wheel (Kṛttikā a i u e … Bharaṇī li lu le lo; Śravaṇa ju je
-  jo kha, Abhijit's khi khu khe kho never the moon's). Not built: the
-  face-on and the fangs written with the foot, a planet's strikes across
-  the wheel (T2.23), and «ལྔ་སྒྲ་ཉི་མ» (question 17). All shown and not
+  jo kha, Abhijit's khi khu khe kho never the moon's), and the moon's
+  mansion's fangs on the wheel of the hundred feet (pp. 96–97: 81 cells,
+  the mansions round the outer ring, the consonants, the signs and the
+  five classes within, the sixteen vowels in the corners): the right fang
+  the diagonal toward the mansions before, the left toward those after,
+  each with every cell it crosses, the face-on where the left meets the
+  outer ring, as p. 98's Kṛttikā has them (right Bharaṇī; left a, Taurus,
+  dga', bzang, Libra, ta; Viśākhā face-on). Not built: the other planets'
+  fangs (T2.23) and «ལྔ་སྒྲ་ཉི་མ» (question 17). All shown and not
   weighed: WB reads them against a name, a birth or the planets, never
   against the day.
 
@@ -1772,7 +1778,8 @@ canvas "Zanshin Calendar — basic design".
   sheet counting the day from the middle term ("day 4 of 31 from the
   middle term of month 8"), no row on a day beyond the table; "Hundred
   feet" with the moon's quarter and its syllable ("quarter 3 · pa (པ)"),
-  its sheet naming the mansion. Letters are written in transliteration
+  its sheet naming the mansion, the right and left fangs (the left left
+  out when it is empty) and the face-on, every cell named. Letters are written in transliteration
   with their script in brackets: they are no words, so they carry no
   Wylie. On the day a sun's term falls, a last row
   names it with its time ("Middle term of month 8 · 01:00", "Sun enters
