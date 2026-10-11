@@ -537,6 +537,10 @@
     <string name="bell_mute_subtitle">Без звука, вибрация или «Не беспокоить» — колокол молчит</string>
     <string name="bell_mute_playback">Тихо во время звонков и воспроизведения</string>
     <string name="bell_mute_playback_subtitle">Звонок, музыка, видео или любой звук другого приложения — колокол молчит</string>
+    <string name="bell_message">Сообщение</string>
+    <string name="bell_message_subtitle">Видно, пока звучит колокол</string>
+    <string name="bell_message_hint">Видно, пока звучит колокол, и исчезает вместе с ним; пусто — только название колокола.</string>
+    <string name="bell_message_default">По умолчанию</string>
     <string name="sound_section">ЗВУК</string>
     <string name="sound_bowl">Большая чаша</string>
     <string name="sound_small_bowl">Малая чаша</string>

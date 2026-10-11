@@ -32,6 +32,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
+import zanshin.app.bell.BellSettings
 import zanshin.app.bell.Preset
 import zanshin.app.bell.SessionPlan
 
@@ -119,6 +120,46 @@ fun PresetDialog(taken: Set<String>, onSave: (String) -> Unit, onDismiss: () -> 
             TextButton(onClick = { onSave(clean) }, enabled = clean.isNotEmpty()) {
                 Text(stringResource(R.string.birth_save), color = if (clean.isNotEmpty()) Palette.saffron else Palette.off)
             }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
+        },
+    )
+}
+
+/** The mindfulness bell's message: any line, empty for the bell's name alone, Default for the mantra. */
+@Composable
+fun MessageDialog(message: String, onSave: (String) -> Unit, onDismiss: () -> Unit) {
+    var text by remember { mutableStateOf(message) }
+    val description = stringResource(R.string.bell_message)
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = Palette.surface,
+        title = { Text(description, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(stringResource(R.string.bell_message_hint), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                BasicTextField(
+                    value = text,
+                    onValueChange = { if (it.length <= BellSettings.MESSAGE_MAX) text = it.replace('\n', ' ') },
+                    textStyle = body.copy(fontSize = 16.sp),
+                    cursorBrush = SolidColor(Palette.text),
+                    keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .border(1.dp, Palette.lineStrong, RoundedCornerShape(8.dp))
+                        .padding(horizontal = 12.dp, vertical = 12.dp)
+                        .semantics { contentDescription = description },
+                )
+                if (text != BellSettings.MANTRA) {
+                    TextButton(onClick = { text = BellSettings.MANTRA }) {
+                        Text(stringResource(R.string.bell_message_default), color = Palette.saffron)
+                    }
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = { onSave(text) }) { Text(stringResource(R.string.birth_save), color = Palette.saffron) }
         },
         dismissButton = {
             TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }

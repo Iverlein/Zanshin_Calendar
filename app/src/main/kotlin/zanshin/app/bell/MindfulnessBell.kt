@@ -92,7 +92,9 @@ object MindfulnessBell {
             val due = settings.periodic && at > 0 && now - at < STALE_MILLIS &&
                 settings.plan.isActive(ZonedDateTime.ofInstant(Instant.ofEpochMilli(at), ZoneId.systemDefault()))
             if (!due || quiet(context, settings)) return
-            // The alarm's wake lock holds until finish(); a strike is shorter than a broadcast may take.
+            // An exact alarm may start a foreground service from the background; should Android refuse,
+            // the bell rings from the broadcast, whose wake lock holds until finish().
+            if (BellRingService.start(context)) return
             val result = goAsync()
             BellPlayer.ring(context, settings.sound, 1, settings.volume) { result.finish() }
         }

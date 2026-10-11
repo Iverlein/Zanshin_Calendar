@@ -6,7 +6,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <!-- The meditation timer (SPEC §10.9): a foreground service that keeps the CPU awake for one sitting. -->
+    <!-- The meditation timer (SPEC §10.9): a foreground service that keeps the CPU awake for one sitting;
+         the mindfulness bell rings in one too, for as long as a strike sounds. -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -42,6 +43,15 @@
             <property
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="Meditation timer: rings its bells at set times with the screen off" />
+        </service>
+
+        <service
+            android:name="zanshin.app.bell.BellRingService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Mindfulness bell: one strike at a time the user set, with a notice for as long as it sounds" />
         </service>
 
         <receiver

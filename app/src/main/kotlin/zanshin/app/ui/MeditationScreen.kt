@@ -374,6 +374,10 @@ private fun PeriodicBell(settings: BellSettings) {
     var days by remember { mutableStateOf(settings.days) }
     var mute by remember { mutableStateOf(settings.muteWithPhone) }
     var mutePlayback by remember { mutableStateOf(settings.muteWithPlayback) }
+    var message by remember { mutableStateOf(settings.message) }
+    var editingMessage by remember { mutableStateOf(false) }
+    // The bell's message lives in its notification; the bell rings without it too.
+    val notifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
     var next by remember { mutableLongStateOf(settings.nextBell) }
 
     fun reschedule() {
@@ -401,6 +405,11 @@ private fun PeriodicBell(settings: BellSettings) {
         on = it
         settings.periodic = it
         reschedule()
+        if (it && Build.VERSION.SDK_INT >= 33 &&
+            ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+        ) {
+            notifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+        }
     }
     if (!on) return
     Column(Modifier.padding(horizontal = 24.dp, vertical = 12.dp)) {
@@ -433,6 +442,7 @@ private fun PeriodicBell(settings: BellSettings) {
             settings.days = it
             reschedule()
         }
+        MessageRow(message) { editingMessage = true }
     }
     Toggle(stringResource(R.string.bell_mute), stringResource(R.string.bell_mute_subtitle), mute) {
         mute = it
@@ -441,6 +451,36 @@ private fun PeriodicBell(settings: BellSettings) {
     Toggle(stringResource(R.string.bell_mute_playback), stringResource(R.string.bell_mute_playback_subtitle), mutePlayback) {
         mutePlayback = it
         settings.muteWithPlayback = it
+    }
+    if (editingMessage) {
+        MessageDialog(
+            message,
+            onSave = {
+                settings.message = it
+                message = settings.message
+                editingMessage = false
+            },
+            onDismiss = { editingMessage = false },
+        )
+    }
+}
+
+/** The bell's message under its title, the bell's name greyed when there is none; a tap edits it. */
+@Composable
+private fun MessageRow(message: String, onEdit: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(stringResource(R.string.bell_message), style = label)
+        Text(
+            message.ifEmpty { stringResource(R.string.bell_title) },
+            style = body.copy(fontSize = 16.sp, color = if (message.isEmpty()) Palette.faint else Palette.text),
+            modifier = Modifier
+                .fillMaxWidth()
+                .heightIn(min = 44.dp)
+                .border(1.dp, Palette.lineStrong, RoundedCornerShape(10.dp))
+                .clickable(role = Role.Button, onClick = onEdit)
+                .padding(horizontal = 16.dp, vertical = 11.dp),
+        )
+        Text(stringResource(R.string.bell_message_subtitle), style = body.copy(fontSize = 13.sp, color = Palette.muted))
     }
 }
 

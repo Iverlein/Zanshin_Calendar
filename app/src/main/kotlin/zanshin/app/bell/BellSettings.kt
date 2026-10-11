@@ -71,6 +71,11 @@ class BellSettings(context: Context) {
         get() = prefs.getBoolean(KEY_MUTE_PLAYBACK, true)
         set(value) = prefs.edit().putBoolean(KEY_MUTE_PLAYBACK, value).apply()
 
+    /** The mindfulness bell's own line, shown while it rings: the mantra until changed, empty for the bell's name alone. */
+    var message: String
+        get() = prefs.getString(KEY_MESSAGE, null) ?: MANTRA
+        set(value) = prefs.edit().putString(KEY_MESSAGE, cleanMessage(value)).apply()
+
     /** The next periodic bell, epoch milliseconds, as last scheduled; 0 when none. */
     var nextBell: Long
         get() = prefs.getLong(KEY_NEXT, 0)
@@ -78,22 +83,31 @@ class BellSettings(context: Context) {
 
     val plan: BellPlan get() = BellPlan(periodicMinutes, periodicRandom, from, to, days)
 
-    private companion object {
-        const val KEY_SOUND = "bell_sound"
-        const val KEY_VOLUME = "bell_volume"
-        const val KEY_SIT = "sit_minutes"
-        const val KEY_PREPARE = "sit_prepare"
-        const val KEY_SESSION = "sit_plan"
-        const val KEY_PRESETS = "sit_presets"
-        const val KEY_END_STRIKES = "sit_end_strikes"
-        const val KEY_PERIODIC = "bell_periodic"
-        const val KEY_PERIODIC_MINUTES = "bell_minutes"
-        const val KEY_PERIODIC_RANDOM = "bell_random"
-        const val KEY_FROM = "bell_from"
-        const val KEY_TO = "bell_to"
-        const val KEY_DAYS = "bell_days"
-        const val KEY_MUTE = "bell_mute"
-        const val KEY_MUTE_PLAYBACK = "bell_mute_playback"
-        const val KEY_NEXT = "bell_next"
+    companion object {
+        const val MESSAGE_MAX = 120
+
+        /** The default message, Om mani padme hum (oM ma Ni pad+me hU~M), in its script alone by the owner's choice (SPEC §10.9). */
+        const val MANTRA = "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ"
+
+        /** A message as it is kept: one line, trimmed, at most [MESSAGE_MAX] characters. */
+        fun cleanMessage(text: String): String = text.replace(Regex("\\s+"), " ").trim().take(MESSAGE_MAX)
+
+        private const val KEY_SOUND = "bell_sound"
+        private const val KEY_VOLUME = "bell_volume"
+        private const val KEY_SIT = "sit_minutes"
+        private const val KEY_PREPARE = "sit_prepare"
+        private const val KEY_SESSION = "sit_plan"
+        private const val KEY_PRESETS = "sit_presets"
+        private const val KEY_END_STRIKES = "sit_end_strikes"
+        private const val KEY_PERIODIC = "bell_periodic"
+        private const val KEY_PERIODIC_MINUTES = "bell_minutes"
+        private const val KEY_PERIODIC_RANDOM = "bell_random"
+        private const val KEY_FROM = "bell_from"
+        private const val KEY_TO = "bell_to"
+        private const val KEY_DAYS = "bell_days"
+        private const val KEY_MUTE = "bell_mute"
+        private const val KEY_MUTE_PLAYBACK = "bell_mute_playback"
+        private const val KEY_MESSAGE = "bell_message"
+        private const val KEY_NEXT = "bell_next"
     }
 }
