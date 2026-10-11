@@ -373,6 +373,7 @@ private fun PeriodicBell(settings: BellSettings) {
     var to by remember { mutableStateOf(settings.to) }
     var days by remember { mutableStateOf(settings.days) }
     var mute by remember { mutableStateOf(settings.muteWithPhone) }
+    var mutePlayback by remember { mutableStateOf(settings.muteWithPlayback) }
     var next by remember { mutableLongStateOf(settings.nextBell) }
 
     fun reschedule() {
@@ -436,6 +437,10 @@ private fun PeriodicBell(settings: BellSettings) {
     Toggle(stringResource(R.string.bell_mute), stringResource(R.string.bell_mute_subtitle), mute) {
         mute = it
         settings.muteWithPhone = it
+    }
+    Toggle(stringResource(R.string.bell_mute_playback), stringResource(R.string.bell_mute_playback_subtitle), mutePlayback) {
+        mutePlayback = it
+        settings.muteWithPlayback = it
     }
 }
 

@@ -649,6 +649,8 @@
     <string name="bell_days">Days</string>
     <string name="bell_mute">Quiet with the phone</string>
     <string name="bell_mute_subtitle">Silent, vibrate or do not disturb keep the bell quiet</string>
+    <string name="bell_mute_playback">Quiet during calls and playback</string>
+    <string name="bell_mute_playback_subtitle">A call, music, a video or any other app\'s sound keeps the bell quiet</string>
     <string name="sound_section">SOUND</string>
     <string name="sound_bowl">Large bowl</string>
     <string name="sound_small_bowl">Small bowl</string>

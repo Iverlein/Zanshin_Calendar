@@ -10,6 +10,7 @@ import android.app.PendingIntent
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.media.AudioAttributes
 import android.media.AudioManager
 import android.os.Build
 import java.time.Instant
@@ -50,16 +51,36 @@ object MindfulnessBell {
         return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
     }
 
-    /** Why the bell keeps quiet now, if it does: a sitting, a call, or a silenced phone. */
+    /** Why the bell keeps quiet now, if it does: a sitting, a call or another app's sound, or a silenced phone. */
     private fun quiet(context: Context, settings: BellSettings): Boolean {
         if (MeditationSession.state.value != null) return true
         val audio = context.getSystemService(AudioManager::class.java)
-        if (audio.mode == AudioManager.MODE_IN_CALL || audio.mode == AudioManager.MODE_IN_COMMUNICATION) return true
+        if (settings.muteWithPlayback && playing(audio)) return true
         if (!settings.muteWithPhone) return false
         val filter = context.getSystemService(NotificationManager::class.java).currentInterruptionFilter
         return audio.ringerMode != AudioManager.RINGER_MODE_NORMAL ||
             (filter != NotificationManager.INTERRUPTION_FILTER_ALL && filter != NotificationManager.INTERRUPTION_FILTER_UNKNOWN)
     }
+
+    /** A call, or something playing longer than a notification: music, a video, a game, directions, a voice chat, an alarm. */
+    private fun playing(audio: AudioManager): Boolean =
+        audio.mode in CALL_MODES || audio.isMusicActive ||
+            audio.activePlaybackConfigurations.any { it.audioAttributes.usage !in BRIEF_USAGES }
+
+    /** A call ringing, answered, or held by a calling app. */
+    private val CALL_MODES = setOf(AudioManager.MODE_RINGTONE, AudioManager.MODE_IN_CALL, AudioManager.MODE_IN_COMMUNICATION)
+
+    /** Sounds too short to keep the bell quiet: notifications, key clicks and the screen reader. */
+    @Suppress("DEPRECATION")
+    private val BRIEF_USAGES = setOf(
+        AudioAttributes.USAGE_NOTIFICATION,
+        AudioAttributes.USAGE_NOTIFICATION_EVENT,
+        AudioAttributes.USAGE_NOTIFICATION_COMMUNICATION_INSTANT,
+        AudioAttributes.USAGE_NOTIFICATION_COMMUNICATION_DELAYED,
+        AudioAttributes.USAGE_NOTIFICATION_COMMUNICATION_REQUEST,
+        AudioAttributes.USAGE_ASSISTANCE_SONIFICATION,
+        AudioAttributes.USAGE_ASSISTANCE_ACCESSIBILITY,
+    )
 
     /** Rings the bell the alarm was set for, then sets the next. */
     class RingReceiver : BroadcastReceiver() {

@@ -66,6 +66,11 @@ class BellSettings(context: Context) {
         get() = prefs.getBoolean(KEY_MUTE, true)
         set(value) = prefs.edit().putBoolean(KEY_MUTE, value).apply()
 
+    /** Whether the bell keeps quiet during a call and while another app plays sound. */
+    var muteWithPlayback: Boolean
+        get() = prefs.getBoolean(KEY_MUTE_PLAYBACK, true)
+        set(value) = prefs.edit().putBoolean(KEY_MUTE_PLAYBACK, value).apply()
+
     /** The next periodic bell, epoch milliseconds, as last scheduled; 0 when none. */
     var nextBell: Long
         get() = prefs.getLong(KEY_NEXT, 0)
@@ -88,6 +93,7 @@ class BellSettings(context: Context) {
         const val KEY_TO = "bell_to"
         const val KEY_DAYS = "bell_days"
         const val KEY_MUTE = "bell_mute"
+        const val KEY_MUTE_PLAYBACK = "bell_mute_playback"
         const val KEY_NEXT = "bell_next"
     }
 }
