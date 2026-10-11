@@ -9,7 +9,8 @@ in English and Russian can be chosen (the owner, 2026-10-08: "vampire" is
 the wrong word). It is knowledge about the spirits, not calendar logic, so
 sources beyond WB stand here (the owner, 2026-10-08); WB's passages below
 are from BDRC's etext of the 1996 edition (vol. 1 printed page = etext
-page − 10, vol. 2 − 8) and **not yet read on the scan**.
+page − 10, vol. 2 − 8) and **not yet read on the scan**, except the
+household reckoning, pp. 305–306 (O6, 2026-10-11).
 
 ## The word
 
@@ -74,13 +75,24 @@ page − 10, vol. 2 − 8) and **not yet read on the scan**.
 | *dus sri* | the "*sri* of time": deaths of related young or middle-aged men a few years apart | Ramble, Kag 2010 |
 | *gdon sri* | a *sri* that rises when *gdon* harm | Tshig mdzod chen mo |
 
-WB's household reckoning (vol. 1, pp. 305–306, etext) seats one in "the
-row" (*gral na*) of each of the house's gods: *byur sri* with the mother
-god, *zhing sri* with the uncle god, *dgra sri* with the war god, *pho
-sri* with the male god, *thab sri* with the hearth god, *sgo sri* with the
-door god, *god sri* with the wealth god. Its remedy closes the passage:
+WB's household reckoning (vol. 1, pp. 305–306, read on the scan, img.
+315–316, O6, 2026-10-11) seats one in "the row" (*gral na*) of each of
+the house's gods: the *byur sri* of mother and son with the mother god
+(«གྲལ་ན་མ་བུའི་བྱུར་སྲི་འདུག»), a black-nosed *byur sri* with the glory god
+(«གྲལ་ན་བྱུར་སྲི་སྣ་ནག་འདུག»; the etext «བྱཱར་སི»), the *'phung sri* with the
+god of existence (*srid lha*; the etext «འཕུང་སི»), the flesh-eating
+*zhang sri* with the uncle god («གྲལ་ན་ཞང་སྲི་ཤ་ཟན་འདུག»; the etext
+«གྲུལ་ན་ཞིང་སྲི»), the *dgra sri* with the war god («དགྲ་སྲི་རལ་ཆེན»; the
+etext «རེལ»), the *pho sri* with the male god, the *thab sri* with the
+hearth god («ཐབ་སྲི་ལྡན་དམར»), the *sgo sri* with the door god
+(«སྒོ་སྲི་ཁྲ་མོ»), the *god sri* with the wealth god («གོད་སྲི་ཁ་དམར»). Its
+remedy closes the passage, the scan as the etext:
 «འདྲེ་ལ་གྲངས་གདབ་སྲི་མནན་བྱ། … སྲི་རུ་ཐོད་དགུ་རུ་བཅུ་གནོན།», for the
 demons a ransom, the *sri* pressed down, under nine skulls and ten horns.
+Between them the scan has «འདྲེ་རུ་ལྷ་སྲིན་སྡེ་བརྒྱད་ཆེ», the eight classes of
+gods and demons great, where the etext has «སྡེ་བརྒྱུད་ཚེ»; the etext writes
+«ཚེ» for «ཆེ» elsewhere on the page too («མ་མོ་ཆེ»). Not settled on the
+scan: the *'phung sri*'s epithet (the etext «རྔ་ཞོན»).
 
 ## The rites that avert them
 

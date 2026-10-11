@@ -301,6 +301,12 @@ Searched and found wanting, so not to be repeated:
 - **«ཉི་མའི་གླང»**, no. 19's entry (RD3, 2026-10-11): in neither volume's
   etext, whose OCR of vol. 2, p. 186 garbles the line itself; BDRC's
   full-text search not tried.
+- **`bdrc.py scans` on 2026-10-11** failed with 502 from the IIIF
+  manifest (`iiifpres.bdrc.io/vo:…/manifest`) while the image list
+  (`iiifpres.bdrc.io/il/v:bdr:<I…>`) and the images answered: fetch
+  `https://iiif.bdrc.io/bdr:<I…>::<filename>/full/max/0/default.jpg`
+  directly, the filename from the image list (`I1KG129060316.jpg` for
+  vol. 1 img. 316).
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.
