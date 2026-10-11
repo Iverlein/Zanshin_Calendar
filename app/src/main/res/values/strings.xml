@@ -321,6 +321,10 @@
     <!-- Date picker -->
     <string name="picker_previous_month">Previous month</string>
     <string name="picker_next_month">Next month</string>
+    <string name="picker_previous_year">Previous year</string>
+    <string name="picker_next_year">Next year</string>
+    <string name="picker_choose_year">Choose a year</string>
+    <string name="picker_show_days">Show the days</string>
     <string name="picker_small_figures_tibetan">Small figures: Tibetan day</string>
     <string name="picker_small_figures_kyureki">Small figures: 旧暦 day</string>
 
@@ -650,6 +654,10 @@
     <string name="bell_random_subtitle">Up to half the interval earlier or later</string>
     <string name="bell_from">From</string>
     <string name="bell_to">Until</string>
+    <string name="bell_from_title">The bell rings from</string>
+    <string name="bell_to_title">The bell rings until</string>
+    <string name="bell_time_rounds">Set to the nearest half hour</string>
+    <string name="bell_time_choose">Choose a time</string>
     <string name="bell_days">Days</string>
     <string name="bell_mute">Quiet with the phone</string>
     <string name="bell_mute_subtitle">Silent, vibrate or do not disturb keep the bell quiet</string>

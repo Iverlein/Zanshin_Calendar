@@ -14,14 +14,20 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TimePicker
+import androidx.compose.material3.TimePickerDefaults
+import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
@@ -35,6 +41,7 @@ import io.github.iverlein.zanshin.R
 import zanshin.app.bell.BellSettings
 import zanshin.app.bell.Preset
 import zanshin.app.bell.SessionPlan
+import java.time.LocalTime
 
 /**
  * A length of any value, typed as minutes and seconds (SPEC §10.9): the
@@ -160,6 +167,55 @@ fun MessageDialog(message: String, onSave: (String) -> Unit, onDismiss: () -> Un
         },
         confirmButton = {
             TextButton(onClick = { onSave(text) }) { Text(stringResource(R.string.birth_save), color = Palette.saffron) }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
+        },
+    )
+}
+
+/**
+ * A time for one end of the mindfulness bell's hours (ROADMAP U17): the
+ * Material clock in the app's colours, 24-hour as the app's clock; the
+ * screen rounds the time set to the half hour (`BellHours`).
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun BellTimeDialog(title: String, time: LocalTime, onSet: (LocalTime) -> Unit, onDismiss: () -> Unit) {
+    val is24Hour = stringResource(R.string.pattern_clock).contains('H')
+    val state = rememberTimePickerState(initialHour = time.hour, initialMinute = time.minute, is24Hour = is24Hour)
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = Palette.surface,
+        title = { Text(title, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold)) },
+        text = {
+            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                TimePicker(
+                    state = state,
+                    colors = TimePickerDefaults.colors(
+                        containerColor = Palette.surface,
+                        clockDialColor = Palette.raised,
+                        clockDialSelectedContentColor = Palette.ink,
+                        clockDialUnselectedContentColor = Palette.text,
+                        selectorColor = Palette.saffron,
+                        periodSelectorBorderColor = Palette.lineStrong,
+                        periodSelectorSelectedContainerColor = Palette.saffron.copy(alpha = 0.22f),
+                        periodSelectorUnselectedContainerColor = Color.Transparent,
+                        periodSelectorSelectedContentColor = Palette.saffron,
+                        periodSelectorUnselectedContentColor = Palette.muted,
+                        timeSelectorSelectedContainerColor = Palette.saffron.copy(alpha = 0.22f),
+                        timeSelectorUnselectedContainerColor = Palette.raised,
+                        timeSelectorSelectedContentColor = Palette.saffron,
+                        timeSelectorUnselectedContentColor = Palette.text,
+                    ),
+                )
+                Text(stringResource(R.string.bell_time_rounds), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = { onSet(LocalTime.of(state.hour, state.minute)) }) {
+                Text(stringResource(R.string.birth_save), color = Palette.saffron)
+            }
         },
         dismissButton = {
             TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }

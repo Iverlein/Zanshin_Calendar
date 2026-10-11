@@ -280,6 +280,10 @@
     <!-- Date picker -->
     <string name="picker_previous_month">Предыдущий месяц</string>
     <string name="picker_next_month">Следующий месяц</string>
+    <string name="picker_previous_year">Предыдущий год</string>
+    <string name="picker_next_year">Следующий год</string>
+    <string name="picker_choose_year">Выбрать год</string>
+    <string name="picker_show_days">Показать дни</string>
     <string name="picker_small_figures_tibetan">Мелкие цифры: тибетский день</string>
     <string name="picker_small_figures_kyureki">Мелкие цифры: день 旧暦</string>
 
@@ -535,6 +539,10 @@
     <string name="bell_random_subtitle">До половины интервала раньше или позже</string>
     <string name="bell_from">С</string>
     <string name="bell_to">До</string>
+    <string name="bell_from_title">Колокол звучит с</string>
+    <string name="bell_to_title">Колокол звучит до</string>
+    <string name="bell_time_rounds">Округляется до ближайшего получаса</string>
+    <string name="bell_time_choose">Выбрать время</string>
     <string name="bell_days">Дни</string>
     <string name="bell_mute">Тихо вместе с телефоном</string>
     <string name="bell_mute_subtitle">Без звука, вибрация или «Не беспокоить» — колокол молчит</string>

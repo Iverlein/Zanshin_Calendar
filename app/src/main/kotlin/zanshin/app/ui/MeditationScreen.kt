@@ -71,6 +71,7 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import io.github.iverlein.zanshin.R
 import kotlinx.coroutines.delay
 import zanshin.app.LocalLabels
+import zanshin.app.bell.BellHours
 import zanshin.app.bell.BellPlayer
 import zanshin.app.bell.BellSettings
 import zanshin.app.bell.BellSound
@@ -97,7 +98,7 @@ private val SOUNDS = listOf(BellSound.BOWL to R.string.sound_bowl, BellSound.SMA
 private val BETWEEN_SOUNDS = listOf(BellSound.WOOD to R.string.sound_wood) + SOUNDS
 
 /** The active hours move by half an hour. */
-private const val HOUR_STEP = 30L
+private const val HOUR_STEP = BellHours.STEP_MINUTES
 
 /**
  * The meditation timer and the mindfulness bell (SPEC §10.9), a screen of
@@ -384,6 +385,27 @@ private fun PeriodicBell(settings: BellSettings) {
         MindfulnessBell.schedule(context)
         next = settings.nextBell
     }
+    fun setHours(newFrom: LocalTime, newTo: LocalTime) {
+        from = newFrom
+        to = newTo
+        settings.from = newFrom
+        settings.to = newTo
+        reschedule()
+    }
+    // The end of the hours whose time picker is open, if one is.
+    var picking by remember { mutableStateOf<PickedEnd?>(null) }
+    picking?.let { end ->
+        BellTimeDialog(
+            title = stringResource(if (end == PickedEnd.FROM) R.string.bell_from_title else R.string.bell_to_title),
+            time = if (end == PickedEnd.FROM) from else to,
+            onSet = { picked ->
+                picking = null
+                val (f, t) = if (end == PickedEnd.FROM) BellHours.withFrom(picked, to) else BellHours.withTo(from, picked)
+                setHours(f, t)
+            },
+            onDismiss = { picking = null },
+        )
+    }
     // A ring sets the next bell while the screen is away.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { next = settings.nextBell }
 
@@ -392,12 +414,16 @@ private fun PeriodicBell(settings: BellSettings) {
         !on -> stringResource(R.string.bell_off)
         next == 0L -> stringResource(R.string.bell_none)
         else -> {
-            val at = Instant.ofEpochMilli(next).atZone(ZoneId.systemDefault())
-            if (at.toLocalDate() == LocalDate.now()) {
-                stringResource(R.string.bell_next_today, at.format(labels.clock))
-            } else {
-                stringResource(R.string.bell_next_day, at.dayOfWeek.getDisplayName(TextStyle.FULL_STANDALONE, labels.locale), at.format(labels.clock))
-            }
+            val todayLine = stringResource(R.string.bell_next_today)
+            val dayLine = stringResource(R.string.bell_next_day)
+            BellHours.nextLine(
+                Instant.ofEpochMilli(next).atZone(ZoneId.systemDefault()),
+                LocalDate.now(),
+                labels.clock,
+                labels.locale,
+                { time -> todayLine.format(time) },
+                { weekday, time -> dayLine.format(weekday, time) },
+            )
         }
     }
     SectionLabel(stringResource(R.string.bell_section))
@@ -428,14 +454,16 @@ private fun PeriodicBell(settings: BellSettings) {
         Stepper(
             stringResource(R.string.bell_from),
             from.format(labels.clock),
-            onMinus = if (from >= LocalTime.of(0, HOUR_STEP.toInt())) ({ from = from.minusMinutes(HOUR_STEP); settings.from = from; reschedule() }) else null,
-            onPlus = if (from.plusMinutes(HOUR_STEP) < to) ({ from = from.plusMinutes(HOUR_STEP); settings.from = from; reschedule() }) else null,
+            onMinus = if (from > BellHours.FIRST) ({ setHours(from.minusMinutes(HOUR_STEP), to) }) else null,
+            onPlus = if (from.plusMinutes(HOUR_STEP) < to) ({ setHours(from.plusMinutes(HOUR_STEP), to) }) else null,
+            onValue = { picking = PickedEnd.FROM },
         )
         Stepper(
             stringResource(R.string.bell_to),
             to.format(labels.clock),
-            onMinus = if (to.minusMinutes(HOUR_STEP) > from) ({ to = to.minusMinutes(HOUR_STEP); settings.to = to; reschedule() }) else null,
-            onPlus = if (to < LocalTime.of(23, 30)) ({ to = to.plusMinutes(HOUR_STEP); settings.to = to; reschedule() }) else null,
+            onMinus = if (to.minusMinutes(HOUR_STEP) > from) ({ setHours(from, to.minusMinutes(HOUR_STEP)) }) else null,
+            onPlus = if (to < BellHours.LAST) ({ setHours(from, to.plusMinutes(HOUR_STEP)) }) else null,
+            onValue = { picking = PickedEnd.TO },
         )
         Days(days) {
             days = it
@@ -561,17 +589,33 @@ private fun Pill(text: String, accent: androidx.compose.ui.graphics.Color, onCli
 
 private val label get() = body.copy(fontSize = 14.sp, color = Palette.muted)
 
-/** A value between − and + buttons; a null action greys its button out. */
+/** Which end of the bell's hours the time picker sets. */
+private enum class PickedEnd { FROM, TO }
+
+/**
+ * A value between − and + buttons; a null action greys its button out.
+ * With [onValue] the value itself is a button, outlined, that opens a picker.
+ */
 @Composable
-private fun Stepper(title: String, value: String, onMinus: (() -> Unit)?, onPlus: (() -> Unit)?) {
+private fun Stepper(title: String, value: String, onMinus: (() -> Unit)?, onPlus: (() -> Unit)?, onValue: (() -> Unit)? = null) {
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         Text(title, style = label, modifier = Modifier.weight(1f))
         StepButton("−", onMinus)
-        Text(
-            value,
-            style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, fontFeatureSettings = "tnum"),
-            modifier = Modifier.padding(horizontal = 14.dp),
-        )
+        val style = body.copy(fontSize = 17.sp, fontWeight = FontWeight.SemiBold, fontFeatureSettings = "tnum")
+        if (onValue == null) {
+            Text(value, style = style, modifier = Modifier.padding(horizontal = 14.dp))
+        } else {
+            Text(
+                value,
+                style = style,
+                modifier = Modifier
+                    .padding(horizontal = 6.dp)
+                    .heightIn(min = 44.dp)
+                    .border(1.dp, Palette.lineStrong, RoundedCornerShape(22.dp))
+                    .clickable(role = Role.Button, onClickLabel = stringResource(R.string.bell_time_choose), onClick = onValue)
+                    .padding(horizontal = 12.dp, vertical = 10.dp),
+            )
+        }
         StepButton("+", onPlus)
     }
 }

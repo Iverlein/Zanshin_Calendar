@@ -13,6 +13,8 @@ import java.time.LocalDateTime
 import java.time.LocalTime
 import java.time.ZoneId
 import java.time.ZonedDateTime
+import java.time.format.DateTimeFormatter
+import java.util.Locale
 import kotlin.math.abs
 import kotlin.random.Random
 
@@ -83,6 +85,53 @@ class BellTest {
         val next = p.next(before)!!
         assertEquals(LocalDateTime.of(2026, 3, 29, 3, 0), next.toLocalDateTime())
         assertTrue(next.isAfter(before))
+    }
+
+    @Test
+    fun `a time from the picker rounds to the nearest half hour`() {
+        assertEquals(LocalTime.of(5, 0), BellHours.round(LocalTime.of(5, 14)))
+        assertEquals(LocalTime.of(5, 30), BellHours.round(LocalTime.of(5, 15)))
+        assertEquals(LocalTime.of(5, 30), BellHours.round(LocalTime.of(5, 44)))
+        assertEquals(LocalTime.of(6, 0), BellHours.round(LocalTime.of(5, 45)))
+        assertEquals(LocalTime.of(0, 0), BellHours.round(LocalTime.of(0, 7)))
+        assertEquals(LocalTime.of(23, 30), BellHours.round(LocalTime.of(23, 50)), "past the day's last half hour")
+    }
+
+    @Test
+    fun `a picked end that passes the other moves it half an hour away`() {
+        val nine = LocalTime.of(9, 0)
+        val twentyOne = LocalTime.of(21, 0)
+        assertEquals(LocalTime.of(5, 0) to twentyOne, BellHours.withFrom(LocalTime.of(5, 10), twentyOne))
+        assertEquals(LocalTime.of(22, 0) to LocalTime.of(22, 30), BellHours.withFrom(LocalTime.of(21, 50), twentyOne))
+        assertEquals(LocalTime.of(23, 0) to LocalTime.of(23, 30), BellHours.withFrom(LocalTime.of(23, 55), twentyOne))
+        assertEquals(nine to LocalTime.of(17, 30), BellHours.withTo(nine, LocalTime.of(17, 20)))
+        assertEquals(LocalTime.of(7, 30) to LocalTime.of(8, 0), BellHours.withTo(nine, LocalTime.of(8, 5)))
+        assertEquals(LocalTime.of(0, 0) to LocalTime.of(0, 30), BellHours.withTo(nine, LocalTime.of(0, 5)))
+        // Every pair makes a plan: From before Until, within the day.
+        for (h in 0..23) for (m in listOf(0, 14, 15, 29, 44, 45, 59)) {
+            val t = LocalTime.of(h, m)
+            val (f1, t1) = BellHours.withFrom(t, twentyOne)
+            val (f2, t2) = BellHours.withTo(nine, t)
+            BellPlan(30, false, f1, t1, weekdays)
+            BellPlan(30, false, f2, t2, weekdays)
+            assertTrue(f1.minute % 30 == 0 && t1.minute % 30 == 0 && f2.minute % 30 == 0 && t2.minute % 30 == 0, "$t")
+        }
+    }
+
+    @Test
+    fun `the switch's subtitle names the next bell from a picked From`() {
+        val clock = DateTimeFormatter.ofPattern("HH:mm")
+        val (from, to) = BellHours.withFrom(LocalTime.of(5, 10), LocalTime.of(21, 0))
+        val p = plan.copy(from = from, to = to)
+        fun line(after: ZonedDateTime, locale: Locale = Locale.ENGLISH) = BellHours.nextLine(
+            p.next(after)!!, after.toLocalDate(), clock, locale,
+            { time -> "Next bell at $time" },
+            { day, time -> "Next bell on $day at $time" },
+        )
+        assertEquals("Next bell at 05:00", line(at(9, 4, 0)))
+        assertEquals("Next bell at 05:30", line(at(9, 5, 0)))
+        assertEquals("Next bell on Monday at 05:00", line(at(9, 21, 0)))
+        assertEquals("Next bell on понедельник at 05:00", line(at(10, 8, 0), Locale.forLanguageTag("ru")))
     }
 
     @Test
