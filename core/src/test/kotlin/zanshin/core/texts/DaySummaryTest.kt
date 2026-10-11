@@ -79,6 +79,28 @@ class DaySummaryTest {
     }
 
     @Test
+    fun `the 旧暦 line takes four families a side, a side's spare places to the other`() {
+        val busy = LocalDate.of(2026, 10, 23).let { DaySummary.of(Kyureki.of(it), Rekichu.of(it)) }
+        // Eight good and six to avoid: four each, in family order, building on both sides as the breakdown has it.
+        assertEquals(
+            listOf(ActivityFamily.EVERYTHING, ActivityFamily.WEDDING, ActivityFamily.JOURNEY, ActivityFamily.MOVING_HOUSE) to
+                listOf(ActivityFamily.BUILDING, ActivityFamily.EARTH, ActivityFamily.WELL, ActivityFamily.FIELD),
+            busy.familyRow(),
+        )
+        // Over a year: no place left empty while a side has more, each side the first of its families.
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(Kyureki.of(date), Rekichu.of(date))
+            val (good, avoid) = s.familyRow()
+            assertTrue(good.size + avoid.size <= DaySummary.ROW_SLOTS, "$date")
+            assertEquals(minOf(DaySummary.ROW_SLOTS, s.goodFamilies.size + s.avoidFamilies.size), good.size + avoid.size, "$date: a place left empty")
+            assertEquals(s.goodFamilies.take(good.size), good, "$date")
+            assertEquals(s.avoidFamilies.take(avoid.size), avoid, "$date")
+            date = date.plusDays(1)
+        }
+    }
+
+    @Test
     fun `the black day of 5 February 2026 counts no other lower-band note`() {
         val date = LocalDate.of(2026, 2, 5)
         val s = DaySummary.of(Kyureki.of(date), Rekichu.of(date))

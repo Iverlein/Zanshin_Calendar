@@ -284,6 +284,19 @@ data class DaySummary(
         }
     }
 
+    /**
+     * The 旧暦 summary line (SPEC §10.7, ROADMAP U16): the families named good and to avoid, capped as [row] caps
+     * the Tibetan line, half the places each and a side's spare places to the other. A count, not a rank: the
+     * first families in family order, since no weight enters the 旧暦 (SPEC §10.4); a family named both ways may
+     * stand on both sides, as the breakdown lists it.
+     */
+    fun familyRow(slots: Int = ROW_SLOTS): Pair<List<ActivityFamily>, List<ActivityFamily>> {
+        val good = goodFamilies
+        val avoid = avoidFamilies
+        val g = minOf(good.size, maxOf(slots / 2, slots - avoid.size))
+        return good.take(g) to avoid.take(minOf(avoid.size, slots - g))
+    }
+
     companion object {
         /** The places of the Tibetan summary line: eight glyphs fit a phone's width at 22 dp. */
         const val ROW_SLOTS = 8
