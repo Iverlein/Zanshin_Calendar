@@ -242,6 +242,7 @@ website/.hugo_build.lock
 # Local assistant settings; the skills are the project's and are kept
 .claude/*
 !.claude/skills/
+!.claude/rules
 
 # Machine transcriptions of the White Beryl, kept locally (docs/sources/wb/README.md)
 docs/sources/wb/
