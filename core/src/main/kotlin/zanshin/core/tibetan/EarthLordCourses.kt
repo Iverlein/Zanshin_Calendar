@@ -71,8 +71,6 @@ enum class CourseEvent { MOVES, STRIKES, TURNS_BACK, SITS }
  * time it is); [date], the lunar date it fell on, as it stands ([EarthLordCourses.of] sets it).
  */
 data class CourseDay(val course: EarthLordCourse, val event: CourseEvent, val season: Int, val variant: String? = null, val date: Int? = null) {
-    /** A date of "another view" that WB reports after its own course, or of what "some say" ([EarthLordCourses.OTHER]). */
-    val otherView: Boolean get() = variant == EarthLordCourses.OTHER || variant == EarthLordCourses.THIRD
 }
 
 /**
@@ -101,10 +99,6 @@ data class CourseFall(val season: Int, val date: Int, val dates: List<Int>) {
  * course is built and the others are in the topic file.
  */
 object EarthLordCourses {
-    /** The variant of a date that only another view of a course gives, the second and the third. */
-    const val OTHER = "other"
-    const val THIRD = "third"
-
     /** The season-months of each animal month from the tiger: tiger 0, hare 1 … ox 11. */
     private fun months(vararg animals: Animal): Set<Int> = animals.map { (it.ordinal - TIGER.ordinal + 12) % 12 }.toSet()
 
@@ -238,35 +232,6 @@ object EarthLordCourses {
     )
 
     /**
-     * The other views WB reports after a course, "another way" (*lugs gcig*), "one person's view" or
-     * what "some say" (docs/sources/earth-lord-courses.md): shown beside the course as such, by
-     * season-month. *Dbul po*'s view differs from WB's own in four months only, the others "the same".
-     */
-    /** The great black day in one person's view (p. 226): the 24th of the last months of spring, autumn and winter, the 9th of the first of winter. */
-    val NAG_CHEN_OTHER: Map<Int, Set<Int>> = mapOf(2 to setOf(24), 8 to setOf(24), 11 to setOf(24), 9 to setOf(9))
-    val NAG_CHUNG_OTHER: List<Set<Int>> = List(9) { emptySet<Int>() } + threes(9).let { listOf(it[0], it[1], it[2]) }
-    val PHUNG_ZOR_OTHER: List<Set<Int>> = bySeason(18, 8, 9, 3, 13, 9, 7, 17, 28, 1, 16, 9)
-    val KI_KANG_OTHER: Map<Set<Int>, Set<Int>> = mapOf(
-        months(TIGER, HORSE, DOG) to setOf(17, 28),
-        months(PIG, SHEEP, RABBIT) to setOf(2, 24),
-        months(MOUSE, DRAGON, MONKEY) to setOf(8, 28),
-        months(BIRD, OX, SNAKE) to setOf(16, 26),
-    )
-    /** *Ki kang*'s third course, "a discordant view", given for two groups of months only. */
-    val KI_KANG_THIRD: Map<Set<Int>, Set<Int>> = mapOf(months(TIGER, HORSE, DOG) to setOf(17, 27), months(PIG, SHEEP, RABBIT) to setOf(2, 22))
-    val GNAM_KHYI_OTHER: List<Set<Animal>> = listOf(
-        setOf(SHEEP), setOf(SNAKE, MONKEY), setOf(TIGER, BIRD),
-        setOf(RABBIT, MONKEY), setOf(SHEEP, PIG), setOf(BIRD, MONKEY, HORSE),
-        setOf(SNAKE, SHEEP), setOf(DRAGON, HORSE, PIG), setOf(RABBIT, MONKEY),
-        setOf(DOG, OX, DRAGON, TIGER), setOf(OX, TIGER, DOG, SNAKE), setOf(TIGER, RABBIT, PIG, MOUSE),
-    )
-    val GZA_BDUN_OTHER: List<Set<Int>> = bySeason(28, 18, 8, 27, 17, 7, 21, 11, 1, 29, 19, 9)
-    val DBUL_PO_OTHER: Map<Int, Set<Int>> = mapOf(0 to setOf(6, 16), 8 to setOf(9, 21), 9 to setOf(19), 10 to setOf(10))
-    /** What "some say" of the eight classes' and the nāgas' strikes: dates the text adds to a month's own. */
-    val SDE_BRGYAD_STRIKES_OTHER: Map<Int, Set<Int>> = mapOf(8 to (8..30).toSet() - setOf(8, 28, 30))
-    val KLU_STRIKES_OTHER: Map<Int, Set<Int>> = mapOf(5 to setOf(15), 7 to setOf(5), 8 to setOf(23), 9 to setOf(15), 10 to setOf(15, 21))
-
-    /**
      * Spug ston's view of the earth lords (p. 233), by season-month: the dates of success (*grub*,
      * when the earth lords' remedies help), of vanishing (*yal*, when they turn back on oneself) and of
      * not giving out wealth. The last month of summer's «གསུམ་དྲུག་ཉེར་ཡལ» (the Zhol print; the 1996 edition
@@ -381,28 +346,17 @@ object EarthLordCourses {
      */
     fun gnamKhyiPart(hourAnimal: Animal, place: Animal): Int = Math.floorMod(place.ordinal - hourAnimal.ordinal, 12) + 1
 
-    /**
-     * The Paṇchen Mön'drowa's black days by year (p. 235), another view: the season-month and date
-     * of each year's black day. The year is the Chinese reckoning's, which begins with the 11th month
-     * (the model almanac, vol. 1, p. 154: «ནག་རྩིས་ལོ་འགོ … ཧོར་ཟླ་བཅུ་གཅིག་པ»).
-     */
-    val ZHAG_NAG_BY_YEAR: Map<Animal, Pair<Int, Int>> = mapOf(
-        MOUSE to (1 to 7), OX to (2 to 5), TIGER to (3 to 7), RABBIT to (10 to 7), DRAGON to (11 to 26), SNAKE to (6 to 9),
-        HORSE to (7 to 19), SHEEP to (8 to 7), MONKEY to (9 to 16), BIRD to (1 to 10), DOG to (5 to 21), PIG to (0 to 8),
-    )
-
     private fun in3(map: Map<Set<Int>, Set<Int>>, season: Int, date: Int) = map.any { (m, d) -> season in m && date in d }
 
     /**
      * The line [day] fell on, for a course that gives one date to each season-month: the season's
-     * three dates in turn and the one that fell, the course's own or, on a date of another view
-     * only, the view's. Null for the courses whose *How it falls* row is not built yet (ROADMAP X7)
+     * three dates in turn and the one that fell. Null for the courses whose *How it falls* row is not built yet (ROADMAP X7)
      * and for a [CourseDay] made without its date.
      */
     fun fall(day: CourseDay): CourseFall? {
         val date = day.date ?: return null
         val table = when (day.course) {
-            EarthLordCourse.NAG_CHUNG -> if (day.otherView) NAG_CHUNG_OTHER else NAG_CHUNG
+            EarthLordCourse.NAG_CHUNG -> NAG_CHUNG
             else -> return null
         }
         if (date !in table[day.season]) return null
@@ -412,11 +366,11 @@ object EarthLordCourses {
 
     /**
      * The courses on [date] of Hor month [month], whose date's animal is [dayAnimal], in WB's order;
-     * [chineseYear], the animal of the Chinese reckoning's year, for the Paṇchen's black days. Another
-     * view is listed only on a date its course does not give, whatever the course does on it (the nāgas'
-     * turning stands over another view's strike): WB's own course stands, and the view (*lugs gcig*, p. 229
-     * for *gnam khyi*) adds the dates it alone has; where two views give a date the course does not, the
-     * second is listed, once.
+     * [chineseYear], the animal of the Chinese reckoning's year, for the black months and ki kang's. Only
+     * WB's own course of each earth lord: what it reports after a course as "another way" (*lugs gcig*),
+     * "one person's view" or what "some say" stays in the topic file and is not shown (the owner,
+     * 2026-10-11). A course may do several things on one date (the *gnyan* move and strike, several
+     * classes have their time): the page shows them in one entry ([zanshin.core.texts.Texts.earthLord]).
      */
     fun of(month: Int, date: Int, dayAnimal: Animal, chineseYear: Animal? = null): List<CourseDay> {
         val s = SeasonReckoning.CHINESE.season(month)
@@ -435,51 +389,34 @@ object EarthLordCourses {
                 if (date in strikes[s]) add(CourseDay(course, CourseEvent.STRIKES, s))
                 if (date in turnings[s]) add(CourseDay(course, CourseEvent.TURNS_BACK, s))
             }
-            moves(EarthLordCourse.NAG_CHEN, date in NAG_CHEN_OTHER[s].orEmpty(), OTHER)
             moves(EarthLordCourse.NAG_CHUNG, date in NAG_CHUNG[s])
-            moves(EarthLordCourse.NAG_CHUNG, date in NAG_CHUNG_OTHER[s], OTHER)
             moves(EarthLordCourse.PI_LING, date in PI_LING[s])
             moves(EarthLordCourse.ZIN_PHUNG, dayAnimal in ZIN_PHUNG_DAYS[s / 3], "${s / 3}")
             if (s / 3 == 0 && dayAnimal in ZIN_PHUNG_MIDDLE) add(CourseDay(EarthLordCourse.ZIN_PHUNG, CourseEvent.SITS, s, "middle"))
             moves(EarthLordCourse.PHUNG_ZOR, date in PHUNG_ZOR[s])
-            moves(EarthLordCourse.PHUNG_ZOR, date in PHUNG_ZOR_OTHER[s], OTHER)
             moves(EarthLordCourse.KI_KANG, in3(KI_KANG, s, date))
-            moves(EarthLordCourse.KI_KANG, in3(KI_KANG_OTHER, s, date), OTHER)
-            moves(EarthLordCourse.KI_KANG, in3(KI_KANG_THIRD, s, date), THIRD)
             moves(EarthLordCourse.HAL_KHYI, date in HAL_KHYI[s])
             moves(EarthLordCourse.GNAM_KHYI, dayAnimal in GNAM_KHYI[s])
-            moves(EarthLordCourse.GNAM_KHYI, dayAnimal in GNAM_KHYI_OTHER[s], OTHER)
             moves(EarthLordCourse.GNAM_SBYOR, date in GNAM_SBYOR[s])
             moves(EarthLordCourse.GZA_RGOD, in3(GZA_RGOD, s, date))
             moves(EarthLordCourse.DBUL_PO, date in DBUL_PO[s])
-            moves(EarthLordCourse.DBUL_PO, date in DBUL_PO_OTHER[s].orEmpty(), OTHER)
             moves(EarthLordCourse.GZA_BDUN, date in GZA_BDUN[s])
-            moves(EarthLordCourse.GZA_BDUN, date in GZA_BDUN_OTHER[s], OTHER)
             moves(EarthLordCourse.NGAM_SHING, NGAM_SHING[s] == date)
             moves(EarthLordCourse.BAR_KHYI, date in GZA_BDUN[s])
             moves(EarthLordCourse.KA_KHYUNG, in3(KA_KHYUNG, s, date))
             moves(EarthLordCourse.DRA_CHEN, in3(DRA_CHEN, s, date))
             strikes(EarthLordCourse.SDE_BRGYAD, SDE_BRGYAD_STRIKES, SDE_BRGYAD_TURNINGS)
-            if (date in SDE_BRGYAD_STRIKES_OTHER[s].orEmpty()) add(CourseDay(EarthLordCourse.SDE_BRGYAD, CourseEvent.STRIKES, s, OTHER))
             if (date in SA_BDAG_BZLOG[s]) add(CourseDay(EarthLordCourse.SA_BDAG_BZLOG, CourseEvent.TURNS_BACK, s))
             SPUG_STON[s].forEach { (kind, dates) -> moves(EarthLordCourse.SPUG_STON, date in dates, kind) }
             moves(EarthLordCourse.GNYAN, date in GNYAN_MOVES[s])
             strikes(EarthLordCourse.GNYAN, GNYAN_STRIKES, GNYAN_TURNINGS)
             strikes(EarthLordCourse.KLU, KLU_STRIKES, KLU_TURNINGS)
-            if (date in KLU_STRIKES_OTHER[s].orEmpty()) add(CourseDay(EarthLordCourse.KLU, CourseEvent.STRIKES, s, OTHER))
             CLASS_TIMES[s % 3].forEach { (cls, dates) -> moves(EarthLordCourse.CLASS_TIMES, date in dates, cls) }
             moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "gza")
             moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "srin po")
             add(CourseDay(EarthLordCourse.GNAM_SGO, CourseEvent.MOVES, s, skyDoor(date)))
             moves(EarthLordCourse.ZHAG_NAG, blackDay(s, dayAnimal))
-            moves(EarthLordCourse.ZHAG_NAG, chineseYear != null && ZHAG_NAG_BY_YEAR[chineseYear] == (s to date), OTHER)
-        }.let { all ->
-            // A date the course itself gives, whatever it does on it, is not another view's: its reading says it is not
-            // in the first course. Of two views on one date (ki kang's second and third), the second stands, once.
-            all.filterNot { c ->
-                c.otherView && all.any { it.course == c.course && (!it.otherView || (c.variant == THIRD && it.variant == OTHER)) }
-            }.map { it.copy(date = date) }
-        }
+        }.map { it.copy(date = date) }
     }
 
     /** The Chinese reckoning's year of [day]: the Tibetan year's animal, the next from the 11th month on. */

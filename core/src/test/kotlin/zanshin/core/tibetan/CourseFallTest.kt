@@ -18,11 +18,11 @@ import java.util.Locale
 /**
  * The *How it falls* line of a course by season-month (SPEC §8.1, rule 4; ROADMAP X7): the lesser
  * black day (*nyi ma nag chung*, WB vol. 2, p. 226; docs/sources/earth-lord-courses.md) names the
- * date and the season-month it fell on, its own course's or the other view's.
+ * date and the season-month it fell on.
  */
 class CourseFallTest {
-    private fun nagChung(month: Int, date: Int, other: Boolean = false): CourseDay? =
-        EarthLordCourses.of(month, date, Animal.MOUSE).singleOrNull { it.course == EarthLordCourse.NAG_CHUNG && it.otherView == other }
+    private fun nagChung(month: Int, date: Int): CourseDay? =
+        EarthLordCourses.of(month, date, Animal.MOUSE).singleOrNull { it.course == EarthLordCourse.NAG_CHUNG }
 
     private fun <T> inLocale(locale: Locale, block: () -> T): T {
         val before = Catalog.locale
@@ -63,33 +63,18 @@ class CourseFallTest {
     }
 
     @Test
-    fun `the other view's 9th, 19th and 29th in winter`() {
-        assertEquals(CourseFall(9, 9, listOf(9, 19, 29)), EarthLordCourses.fall(nagChung(8, 9, other = true)!!))
-        assertEquals("the 9th, 19th and 29th of the winter months; today the 9th of the first month of winter", line(nagChung(8, 9, other = true)))
-        assertEquals("the 9th, 19th and 29th of the winter months; today the 19th of the middle month of winter", line(nagChung(9, 19, other = true)))
-        assertEquals("the 9th, 19th and 29th of the winter months; today the 29th of the last month of winter", line(nagChung(10, 29, other = true)))
-        assertEquals(
-            "9-е, 19-е и 29-е зимних месяцев; сегодня 29-е последнего месяца зимы",
-            line(nagChung(10, 29, other = true), Locale.forLanguageTag("ru")),
-        )
-        // No other view outside winter, and none on a date of the course's own.
-        assertTrue((1..30).none { nagChung(11, it, other = true) != null })
+    fun `no other view`() {
+        // The winter 9th, 19th and 29th of another view are not shown: only the course's own 4th, 18th and 16th.
+        assertNull(nagChung(8, 9)); assertNull(nagChung(9, 19)); assertNull(nagChung(10, 29))
     }
 
     @Test
     fun `the readings' rows`() {
         inLocale(Locale.ENGLISH) {
             val own = Texts.earthLord(nagChung(11, 8)!!)
-            assertEquals(listOf(ReadingRow.REMEDY, ReadingRow.FALLS, ReadingRow.OTHER_VIEW), own.rows.map { it.first })
+            assertEquals(listOf(ReadingRow.REMEDY, ReadingRow.FALLS), own.rows.map { it.first })
             assertEquals("the 8th, 18th and 28th of the spring months; today the 8th of the first month of spring", own.rows[1].second)
-            assertEquals("in winter the 9th, 19th and 29th", own.rows[2].second)
             assertTrue(own.summary.startsWith("The lesser black day, Nyima Nakchung"), own.summary)
-            val other = Texts.earthLord(nagChung(9, 19, other = true)!!)
-            assertEquals("reading.EarthLord.NAG_CHUNG.other", other.key)
-            assertEquals(
-                listOf(ReadingRow.FALLS to "the 9th, 19th and 29th of the winter months; today the 19th of the middle month of winter"),
-                other.rows,
-            )
         }
         // A course day made without its date, as the page's black month makes one, has no line.
         assertNull(EarthLordCourses.fall(CourseDay(EarthLordCourse.NAG_CHUNG, CourseEvent.MOVES, 0)))
@@ -104,16 +89,16 @@ class CourseFallTest {
             val day = TibetanCalendar.of(date)
             val season = SeasonReckoning.CHINESE.season(day.month)
             val courseDate = EarthLordCourses.NAG_CHUNG[season].single()
-            val fall = EarthLordCourses.of(day).singleOrNull { it.course == EarthLordCourse.NAG_CHUNG && !it.otherView }?.let { EarthLordCourses.fall(it) }
+            val fall = EarthLordCourses.of(day).singleOrNull { it.course == EarthLordCourse.NAG_CHUNG }?.let { EarthLordCourses.fall(it) }
             assertEquals(day.day == courseDate, fall != null, "$date")
             if (fall != null) assertEquals(CourseFall(season, courseDate, EarthLordCourses.NAG_CHUNG.slice(season / 3 * 3..season / 3 * 3 + 2).map { it.single() }), fall)
             if (fall != null && day.repetition == Repetition.SECOND_OF_TWO) {
                 val first = TibetanCalendar.of(date.minusDays(1))
-                assertEquals(fall, EarthLordCourses.of(first).single { it.course == EarthLordCourse.NAG_CHUNG && !it.otherView }.let { EarthLordCourses.fall(it) })
+                assertEquals(fall, EarthLordCourses.of(first).single { it.course == EarthLordCourse.NAG_CHUNG }.let { EarthLordCourses.fall(it) })
                 doubled++
             }
             if (day.omittedBefore == courseDate) {
-                assertTrue(TibetanCalendar.monthOf(day).none { d -> EarthLordCourses.of(d).any { it.course == EarthLordCourse.NAG_CHUNG && !it.otherView } }, "$date")
+                assertTrue(TibetanCalendar.monthOf(day).none { d -> EarthLordCourses.of(d).any { it.course == EarthLordCourse.NAG_CHUNG } }, "$date")
                 skipped++
             }
             date = date.plusDays(1)

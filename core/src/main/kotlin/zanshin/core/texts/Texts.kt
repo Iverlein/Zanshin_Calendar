@@ -110,6 +110,8 @@ data class Reading(
     val key: String = "",
     /** Catalog key of the text that fills the summary's {0}. */
     val arg: String? = null,
+    /** Further texts for {0}, after [arg]'s: one earth lord doing several things on a day, in one entry. */
+    val moreArgs: List<String> = emptyList(),
     /** How a course by date fell on the shown day: its line fills the rows' {0} in place of [arg]'s text (SPEC §8.1, rule 4). */
     val today: CourseFall? = null,
 ) {
@@ -130,7 +132,7 @@ data class Reading(
             Catalog.textOrNull("$rowKey.${row.key}")?.let { row to (today?.let { t -> Catalog.fill(it, fallLine(t)) } ?: fill(it)) }
         }
 
-    private fun fill(text: String): String = arg?.let { Catalog.fill(text, Catalog.text(it)) } ?: text
+    private fun fill(text: String): String = arg?.let { a -> Catalog.fill(text, (listOf(a) + moreArgs).joinToString(" ") { Catalog.text(it) }) } ?: text
 
     val good: List<String> get() = goodKeys.map { Catalog.text("wording.$it") }
     val avoid: List<String> get() = avoidKeys.map { Catalog.text("wording.$it") }
@@ -985,6 +987,16 @@ object Texts {
      * nāgas'); the *gnyan*'s strikes are judged "by the reasoning above" and carry no lists of their own.
      * Shown, not weighed: WB's order of strength (vol. 2, p. 376) does not rank the earth lords (SPEC §5.12).
      */
+    fun earthLord(days: List<CourseDay>): Reading {
+        val readings = days.map(::earthLord)
+        return readings.singleOrNull() ?: readings.first().copy(
+            goodKeys = readings.flatMap { it.goodKeys }.distinct(),
+            avoidKeys = readings.flatMap { it.avoidKeys }.distinct(),
+            moreArgs = readings.drop(1).mapNotNull { it.arg },
+        )
+    }
+
+    /** One course's reading on one day, the course's own (SPEC §5.13). */
     fun earthLord(day: CourseDay): Reading {
         val c = day.course
         val key = "reading.EarthLord.${c.name}"
@@ -1134,12 +1146,7 @@ object Texts {
                 arg = "$key.${day.variant!!.replace(' ', '_')}",
             )
         }
-        // A date of another view WB reports, or of what "some say": its own text, the course's lists.
-        return when {
-            !day.otherView -> base
-            c == EarthLordCourse.SDE_BRGYAD || c == EarthLordCourse.KLU -> base.copy(arg = "$key.STRIKES_other")
-            else -> base.copy(key = "$key.${day.variant}", arg = null)
-        }.copy(today = EarthLordCourses.fall(day))
+        return base.copy(today = EarthLordCourses.fall(day))
     }
 
     /**

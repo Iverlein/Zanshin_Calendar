@@ -123,37 +123,27 @@ class EarthLordCoursesTest {
     }
 
     @Test
-    fun `the other views WB reports, and Spug ston's`() {
-        fun other(month: Int, date: Int, course: EarthLordCourse, animal: Animal = Animal.MOUSE) =
-            EarthLordCourses.of(month, date, animal).filter { it.course == course && it.otherView }.map { it.variant }
-        // Gza' bdun reversed: the first month of spring the 28th; dbul po's view: its 6th and 16th.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(11, 28, GZA_BDUN)); assertTrue(other(11, 8, GZA_BDUN).isEmpty())
-        assertEquals(listOf(EarthLordCourses.OTHER), other(11, 16, DBUL_PO)); assertTrue(other(12, 16, DBUL_PO).isEmpty())
-        // Ki kang's second (the tiger month's 17th, which the third also gives: the second, once) and third (the hare month's
-        // 22nd); nag chung's winter 9s.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(11, 17, KI_KANG)); assertEquals(listOf(EarthLordCourses.THIRD), other(12, 22, KI_KANG))
-        assertEquals(listOf(EarthLordCourses.OTHER), other(9, 19, NAG_CHUNG)); assertEquals(listOf(EarthLordCourses.OTHER), other(8, 9, NAG_CHUNG))
-        // Phung po zor thogs by season: the middle month of summer (the 3rd) on the 13th; gnam khyi's other: late spring tiger days.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(3, 13, PHUNG_ZOR)); assertEquals(listOf(EarthLordCourses.OTHER), other(1, 5, GNAM_KHYI, Animal.TIGER))
-        // A day both give is the course's own, once: phung po zor thogs on the middle autumn 17th, early spring sheep days, and
-        // every gnam khyi day of the middle month of spring.
-        assertEquals(listOf<String?>(null), on(6, 17).filter { it.course == PHUNG_ZOR }.map { it.variant })
-        assertEquals(listOf(null), on(11, 5, Animal.SHEEP).filter { it.course == GNAM_KHYI }.map { it.variant })
-        assertTrue(Animal.entries.all { a -> on(12, 5, a).none { it.course == GNAM_KHYI && it.otherView } })
-        // Whatever the course does on a date, its own entry stands alone: the nāgas turn back on the last summer 15th, and
-        // what some say of their strike that day is not shown. No earth lord is listed twice on any date as another view.
-        assertEquals(listOf(CourseEvent.TURNS_BACK), on(4, 15).filter { it.course == KLU }.map { it.event })
+    fun `WB's own course only, and Spug ston's`() {
+        fun course(month: Int, date: Int, course: EarthLordCourse, animal: Animal = Animal.MOUSE) =
+            EarthLordCourses.of(month, date, animal).filter { it.course == course }
+        // What WB reports after a course as another way, one person's view or what some say is not shown (the owner,
+        // 2026-10-11): gza' bdun reversed (the first month of spring's 28th), dbul po's 16th, ki kang's second and third
+        // (the tiger month's 17th, the hare month's 22nd), nag chung's winter 9s, phung po zor thogs by season (the
+        // middle month of summer's 13th), gnam khyi's late spring tiger days, the eight classes from the 8th to the 30th
+        // of the last autumn month, the nāgas' strike on the middle autumn 5th, the great black day's 24th.
+        assertTrue(course(11, 28, GZA_BDUN).isEmpty()); assertTrue(course(11, 16, DBUL_PO).isEmpty())
+        assertTrue(course(11, 17, KI_KANG).isEmpty()); assertTrue(course(12, 22, KI_KANG).isEmpty())
+        assertTrue(course(9, 19, NAG_CHUNG).isEmpty()); assertTrue(course(3, 13, PHUNG_ZOR).isEmpty())
+        assertTrue(course(1, 5, GNAM_KHYI, Animal.TIGER).isEmpty()); assertTrue(course(7, 12, SDE_BRGYAD).isEmpty())
+        assertTrue(course(6, 5, KLU).isEmpty()); assertTrue(course(1, 24, EarthLordCourse.NAG_CHEN).isEmpty())
+        // The course itself stands: phung po zor thogs on the middle autumn 17th, gnam khyi on early spring sheep days,
+        // the nāgas turning back on the last summer 15th.
+        assertEquals(1, course(6, 17, PHUNG_ZOR).size); assertEquals(1, course(11, 5, GNAM_KHYI, Animal.SHEEP).size)
+        assertEquals(listOf(CourseEvent.TURNS_BACK), course(4, 15, KLU).map { it.event })
+        // The great black day stands in its own row, never among the courses.
         for (m in 1..12) for (d in 1..30) for (a in Animal.entries) for (y in Animal.entries) {
-            EarthLordCourses.of(m, d, a, y).groupBy { it.course }.forEach { (course, days) ->
-                assertTrue(days.size == 1 || days.none { it.otherView }, "$course twice on $m/$d ($a, $y): $days")
-            }
+            assertTrue(EarthLordCourses.of(m, d, a, y).none { it.course == EarthLordCourse.NAG_CHEN }, "nag chen on $m/$d")
         }
-        // What some say: the eight classes from the 8th to the 30th of the last autumn month (the 7th), the nāgas striking on
-        // the 5th of the middle month of autumn (the 6th); their 15th of the last of summer (the 4th) is the course's turning.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(7, 12, SDE_BRGYAD)); assertTrue(other(7, 28, SDE_BRGYAD).isEmpty())
-        assertEquals(listOf(EarthLordCourses.OTHER), other(6, 5, KLU)); assertTrue(other(4, 15, KLU).isEmpty())
-        // The great black day's other view: the last month of spring (the 1st) on the 24th, the first of winter (the 8th) on the 9th.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(1, 24, EarthLordCourse.NAG_CHEN)); assertEquals(listOf(EarthLordCourses.OTHER), other(8, 9, EarthLordCourse.NAG_CHEN))
         // Spug ston: the first month of spring succeeds on the 5th and 30th, vanishes on the 8th, gives no wealth on the 1st and 6th.
         fun spug(month: Int, date: Int) = on(month, date).filter { it.course == EarthLordCourse.SPUG_STON }.map { it.variant }
         assertEquals(listOf("grub"), spug(11, 5)); assertEquals(listOf("yal"), spug(11, 8)); assertEquals(listOf("nor"), spug(11, 6))
@@ -164,18 +154,35 @@ class EarthLordCoursesTest {
     }
 
     @Test
+    fun `an earth lord doing several things on a day is one reading`() {
+        // The gnyan moving and striking, or several classes having their time: one reading, its lines joined, its lists merged.
+        val before = Catalog.locale
+        Catalog.locale = java.util.Locale.ENGLISH
+        try {
+            val days = (1..12).flatMap { m -> (1..30).map { d -> on(m, d).filter { it.course == GNYAN } } }.first { it.size > 1 }
+            val r = Texts.earthLord(days)
+            for (d in days) assertTrue(Catalog.text("reading.EarthLord.GNYAN.${d.event.name}") in r.summary, "${d.event} in ${r.summary}")
+            assertEquals(days.flatMap { Texts.earthLord(it).avoidKeys }.distinct(), r.avoidKeys)
+            val classes = on(7, 8).filter { it.course == EarthLordCourse.CLASS_TIMES }
+            assertTrue(classes.size > 1)
+            val c = Texts.earthLord(classes).summary
+            assertTrue(Catalog.text("reading.EarthLord.CLASS_TIMES.gza") in c && Catalog.text("reading.EarthLord.CLASS_TIMES.srin_po") in c, c)
+        } finally {
+            Catalog.locale = before
+        }
+    }
+
+    @Test
     fun `the black days`() {
         // WB's example: in the mouse and horse months (Hor 9 and 3) the bird and hare days are black.
         for (month in listOf(9, 3)) for (animal in Animal.entries) {
-            val black = EarthLordCourses.of(month, 5, animal).any { it.course == EarthLordCourse.ZHAG_NAG && !it.otherView }
+            val black = EarthLordCourses.of(month, 5, animal).any { it.course == EarthLordCourse.ZHAG_NAG }
             assertEquals(animal == Animal.BIRD || animal == Animal.RABBIT, black, "$animal day in month $month")
         }
         // The tiger month (the 11th): pig and snake days, as the black months' rule has it for the tiger.
         assertTrue(EarthLordCourses.of(11, 5, Animal.PIG).any { it.course == EarthLordCourse.ZHAG_NAG })
-        // The Paṇchen's by year: the pig year's 8th of the first month of spring, the mouse year's 7th of the middle.
-        assertTrue(EarthLordCourses.of(11, 8, Animal.OX, Animal.PIG).any { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
-        assertTrue(EarthLordCourses.of(12, 7, Animal.OX, Animal.MOUSE).any { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
-        assertTrue(EarthLordCourses.of(12, 7, Animal.OX, Animal.OX).none { it.course == EarthLordCourse.ZHAG_NAG && it.otherView })
+        // The Paṇchen's black days by year, another view, are not shown: the pig year's 8th of the first month of spring.
+        assertTrue(EarthLordCourses.of(11, 8, Animal.OX, Animal.PIG).none { it.course == EarthLordCourse.ZHAG_NAG })
     }
 
     @Test
@@ -189,7 +196,7 @@ class EarthLordCoursesTest {
         for (suffix in listOf("", "_ru")) {
             val catalog = Catalog.entries(suffix)
             val keys = EarthLordCourse.entries.map { "EarthLordCourse.${it.name}" } + CourseEvent.entries.map { "CourseEvent.${it.name}" } +
-                EarthLordCourses.GNAM_SGO.map { "SkyDoor.${it.replace(' ', '_')}" } + "CourseDay.otherView"
+                EarthLordCourses.GNAM_SGO.map { "SkyDoor.${it.replace(' ', '_')}" }
             keys.forEach { assertTrue(it in catalog, "$it missing in texts$suffix") }
         }
     }
