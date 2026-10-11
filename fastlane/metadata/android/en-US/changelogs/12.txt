@@ -1,0 +1,1 @@
+Reading sheets no longer jump up and down after an upward swipe, and no longer keep the processor busy while they do; the same fix covers the day summary, hours, year and date sheets.
