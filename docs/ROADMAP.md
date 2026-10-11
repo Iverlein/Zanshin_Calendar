@@ -110,7 +110,7 @@ check them on the scans.
 
 | # | Reading | Source and pages | Needs | For | Topic file | Prompt |
 | --- | --- | --- | --- | --- | --- | --- |
-| <a id="rd1"></a>RD1 | WB's days of the twelve links, and which day they mean | WB vol. 2, pp. 351–356 (img. 359–364); against vol. 1, p. 177's count; p. 356's links on the hours | — | [24](#block-24), [26](#block-26) | day-letters.md | Read RD1: WB vol. 2 pp. 351–356 on the scan, each link's day with its works, directions, birth, loss, illness and remedy, and whether its day is the almanac's link. |
+| <a id="rd1"></a>RD1 | WB's days of the twelve links, and which day they mean — done 2026-10-11 | WB vol. 2, pp. 351–356 (img. 359–364); against vol. 1, p. 177's count; p. 356's links on the hours | — | [24](#block-24), [26](#block-26) | day-letters.md | Read RD1: WB vol. 2 pp. 351–356 on the scan, each link's day with its works, directions, birth, loss, illness and remedy, and whether its day is the almanac's link. |
 | <a id="rd2"></a>RD2 | What the almanac writes of the year's and month's earth lords | WB vol. 1, pp. 174–176 (img. 184–186), the year's front matter and the month's head; the model almanac's month heads, pp. 154–171 (img. 164–181) | — | [25](#block-25) | almanac-page.md, month-entries.md | Read RD2: WB vol. 1 pp. 174–176 and the model almanac's month heads, for how the year's and the month's earth lords are written. |
 | <a id="rd3"></a>RD3 | WB's earth lords of the year | WB vol. 2, ch. 31, pp. 175–198 (img. 183–206): the kings and ministers, the year's *hal khyi* and *sa rgyal*, the black years, *nag mo dgu skor*, the sme ba's gods, the palace gods, the sky dog of brides (p. 198) | — | [25](#block-25), [30](#block-30) | year-month-earth-lords.md (new) | Read RD3: WB vol. 2 pp. 175–198, each earth lord of the year with its course, place, works and remedy. |
 | <a id="rd4"></a>RD4 | WB's earth lords of the month | WB vol. 2, ch. 31, pp. 199–221 (img. 207–229): the bad directions, *bum stong*, the month's *hal khyi*, *lto 'phye*, the month's *nag mo dgu skor*, the scattered earth lords | — | [25](#block-25) | year-month-earth-lords.md (new) | Read RD4: WB vol. 2 pp. 199–221, each earth lord of the month with its course, place, works and remedy. |
@@ -922,19 +922,21 @@ verdict, and the owner's decisions of 2026-10-10:
 - **Gap.** T2.22 counts the day's link by vol. 1's table, and T2.25 weighs
   it by the *kun phan me long*'s boxes. WB's own readings of the links'
   days (vol. 2, pp. 351–356, img. 359–364;
-  [white-beryl-ch33.md](sources/white-beryl-ch33.md)) are not read: for
-  each link's day, from ignorance, the works good and to avoid, the four
-  directions for one's aims, a birth on it, a loss, the course of an
-  illness and a remedy; p. 356 sets the links on the hours.
-  [day-letters.md](sources/day-letters.md)'s "a link is a birth sign in
-  WB (vol. 2, p. 384)" missed them; found in the etext on 2026-10-11.
-- **Work.** Read pp. 351–356 on the scan; check that the day they name is
-  the almanac's link (vol. 1, p. 177) and not another count; join their
-  works to the link's lists as ch. 34 joins the boxes (WB's plain word
-  over the box's, T2.6), so that they weigh where the link weighs; the
-  directions, the birth, the loss and the remedy in the link's sheet, the
-  illness to H1; p. 356's hours read for whether they add to the hours
-  panel.
+  [white-beryl-ch33.md](sources/white-beryl-ch33.md)) are not built: for
+  each link's day, from ignorance, the works good and to avoid, washing
+  and new clothes, the four directions for one's aims, a birth on it, a
+  loss, the course of an illness and a remedy; p. 356 sets the links on
+  the hours. Found in the etext on 2026-10-11 and read on the scan the
+  same day (RD1, [day-letters.md](sources/day-letters.md), *WB's days of
+  the twelve links*): the day is the link the almanac writes by vol. 1's
+  table, so these join the link already counted; p. 356 gives only the
+  hours, no works, and its last line is open question 19.
+- **Work.** Join their works to the link's lists as ch. 34 joins the
+  boxes (WB's plain word over the box's, T2.6), so that they weigh where
+  the link weighs; the directions, the birth, the loss and the remedy in
+  the link's sheet, the illness to H1. p. 356's hours carry no works, so
+  they add at most the hour's link to the hours panel, and only once
+  question 19 settles the last two.
 - **Block.** [24](#block-24); reads [RD1](#rd1), which [26](#block-26) (H1)
   reads too for the links' illness lines.
 - **Done when.** A test pins each link's lists to the scan reading;

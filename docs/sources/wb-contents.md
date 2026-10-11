@@ -104,4 +104,8 @@ none has not been opened for the app.
 - **Ch. 33, the twelve links' days** (vol. 2, pp. 351–356, img. 359–364):
   for each link's day, from ignorance, the works good and to avoid, the
   four directions for one's aims, a birth, a loss, the course of an
-  illness and a remedy. ROADMAP T2.27, RD1.
+  illness and a remedy; p. 356 sets the links on the twelve hours, from
+  ignorance at midnight. Read on the scan 2026-10-11 (RD1,
+  [day-letters.md](day-letters.md)): the day is the link the almanac
+  writes by vol. 1's table. Ch. 34 restates the births (p. 384) and the
+  illnesses (p. 416) by link. ROADMAP T2.27.

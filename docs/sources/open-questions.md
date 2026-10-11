@@ -351,3 +351,16 @@ the text, not about the app.
     chu tshod. Whose crooked motion, the moon's (p. 59's four motions by
     its anomaly) or a planet's, and which places the second compares are
     not said.
+
+19. **WB vol. 2, p. 356 (img. 364): on which hours do birth and aging
+    and death fall, and when do the links run backward?** The verse sets
+    the twelve links on the times of day and night, «རྟེན་འབྲེལ་དུས་དང་སྦྱར་བ་ནི། །མ་རིག་ནམ་ཕྱེད་འདུ་བྱེད་ཡོལ། །རྣམ་ཤེས་ཐོ་རངས་མིང་ནམ་ལངས། །སྐྱེ་མཆེད་ཉི་ཤར་རེག་དྲོས་འཇམ། །ཚོར་བ་ཉི་ཕྱེད་སྲེད་ཕྱེད་ཡོལ། །ལེན་པ་སྨྱུར་སྨད་སྲིད་ཉི་རྒས། །རྒ་ཤི་སྲོད་འཁོར་སྐྱེ་སྲོད་ཡོལ། །དེ་ཉིད་ལུགས་འབྱུང་ལུགས་ལྡོག་བཀོད།།»
+    (read on the scan 2026-10-11, [day-letters.md](day-letters.md)),
+    ignorance at midnight and on, one link to each of the twelve hours
+    p. 359 names, to becoming at «ཉི་རྒས», the bird's hour. The last line
+    gives aging and death «སྲོད་འཁོར», the pig's hour, and birth «སྲོད་ཡོལ», a
+    name p. 359 does not use; in the links' order birth would take the
+    dog's hour, *sa srod*. Is «སྲོད་ཡོལ» the dog's hour, the pair set in
+    reverse for the metre? And «ལུགས་འབྱུང་ལུགས་ལྡོག»: the links run forward and
+    backward on the hours, but by what, the month's halves (as vol. 1's
+    table runs them, pp. 150–153), day and night, or the person?

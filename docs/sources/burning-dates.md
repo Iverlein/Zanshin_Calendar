@@ -48,7 +48,7 @@ Monday the 10th whose date ends at 14:50, is WB's own example.
 After the eleven karaṇas, before the twelve links, the dates again in
 number words, then the reading (read on the scan):
 
-> «ཉི་མའི་ཚེས་ལ་ཉི་མ་ནུབ། །ཟླ་བས་དྲག་པོའི་གཙུག་རྒྱན་ཕྲོགས། །མིག་དམར་སྡང་མིག་ཕྱོགས་བཅུར་བལྟ། །མེ་ཡིས་གཟའ་ཡི་ལག་པ་བསྲེག །རོ་བྲོ་ཕུར་བུས་བརྐུས་ནས་ཟོས། །འཁྲིག་པ་པ་སངས་ཀྱིས་སྤྱད། །རི་ལ་སྤེན་པ་ངན་པ་སྐྱེས། །ཕྱོགས་གཉིས་མཚུངས་ཏེ་བསྲེག་ཚེས་ཡིན། །གཏར་སྲེག་དང་ནི་དགེ་བའི་ལས། །མི་འགྲུབ་མྱུར་དུ་སྤང་བར་བྱ། །རོ་བསྲེག་རྒྱུན་སྲེག་བྱ་བ་ངན། །འོན་ཀྱང་དྲག་པོའི་ལས་ལ་ཤིས། །དེ་དུས་གང་བྱས་འབྲས་བུ་མེད། །དཔེར་ན་དར་བསྲེགས་ཐལ་བ་བཞིན། །སྐྱོབ་ན་རེས་གཟའི་ཁ་དོག་དང་། །མཐུན་པའི་དར་ཆེན་འཕྱུར་བ་དང་། །མར་དཀར་གསུར་བཏང་དེ་ཡིས་ཐུབ།»
+> «ཉི་མའི་ཚེས་ལ་ཉི་མ་ནུབ། །ཟླ་བས་དྲག་པོའི་གཙུག་རྒྱན་ཕྲོགས། །མིག་དམར་སྡང་མིག་ཕྱོགས་བཅུར་བལྟ། །མེ་ཡིས་གཟའ་ཡི་ལག་པ་བསྲེག །རོ་བྲོ་ཕུར་བུས་བརྐུས་ནས་ཟོས། །འཁྲིག་པ་པ་སངས་ཀྱིས་སྤྱད། །རི་ལ་སྤེན་པ་ངན་པ་སྐྱེས། །ཕྱོགས་གཉིས་མཚུངས་ཏེ་བསྲེག་ཚེས་ཡིན། །གཏར་སྲེག་དང་ནི་དགེ་བའི་ལས། །མི་འགྲུབ་མྱུར་དུ་སྤང་བར་བྱ། །རོ་བསྲེག་རྒྱུན་སྲེག་བྱ་བ་ངན། །འོན་ཀྱང་དྲག་པོའི་ལས་ལ་ཤིས། །དེ་དུས་གང་བྱས་འབྲས་བུ་མེད། །དཔེར་ན་དར་བསྲེགས་ཐལ་བ་བཞིན། །སྒྲིབ་ན་རེས་གཟའི་ཁ་དོག་དང་། །མཐུན་པའི་དར་ཆེན་འཕྱུར་བ་དང་། །མར་དཀར་གསུར་བཏང་དེ་ཡིས་ཐུབ།»
 
 - **The dates in number words**, a second witness to p. 177: the Sun's
   date «ཉི་མ» (12), the Moon's «དྲག་པོ» (Rudra, 11), Mars's «ཕྱོགས་བཅུ» (the ten
@@ -62,7 +62,9 @@ number words, then the reading (read on the scan):
   and «རྒྱུན་སྲེག» are bad (the second, literally "continuous burning", is
   not identified and not in the app's lists); fierce work is auspicious.
   Whatever is done bears no fruit, like burnt silk turned to ash.
-- **The remedy**: hoisting a large flag in the colour of the day's planet
+- **The remedy** («སྒྲིབ་ན», "if it obscures", as each of the twelve links'
+  remedies begins, [day-letters.md](day-letters.md); read again on the
+  scan 2026-10-11, where this file had «སྐྱོབ་ན»): hoisting a large flag in the colour of the day's planet
   and a burnt offering (*gsur*) of white butter overcome it.
 
 ## Chapter 34 (read on the scans)

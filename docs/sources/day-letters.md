@@ -8,7 +8,9 @@ with Yigdzin-1 (`hf_read.py`) against the BDRC etext, every line quoted
 below by eye on the scan; the tables and the day boxes by eye, cell by
 cell, at 3–5×. ROADMAP T2.22; entries 3, 4, 12 and 17 of
 [almanac-page.md](almanac-page.md). Built as `DayLetters` (SPEC §5.11),
-tested by `DayLettersTest`.
+tested by `DayLettersTest`. WB's own readings of each link's day (vol. 2,
+pp. 351–356) were read on 2026-10-11 for ROADMAP RD1, in *WB's days of
+the twelve links (RD1)* below; not yet built (T2.27).
 
 ## Where WB sets them out
 
@@ -168,6 +170,401 @@ the next *sgang*. Over 2000–2049 the stretches are 29 to 32 days, and once
 early on 6 August, the almanac's sun slowest in the summer signs. WB's
 table has no column for it, and the app writes no link on those days.
 
+## WB's days of the twelve links (RD1)
+
+WB vol. 2, ch. 33, pp. 351–356 (img. 359–364; scans I1KG12907, printed
+page = image number − 8), headed «རྟེན་འབྲེལ་བཅུ་གཉིས་འབྲས་རྩིས་བཤད» after the burning
+dates ([burning-dates.md](burning-dates.md)) and before the twelve day
+animals ([day-animals.md](day-animals.md)). Read on 2026-10-11: Yigdzin-1
+and MITRA (`hf_read.py`) and the BDRC etext (its page markers here are
+the image numbers: etext p. 359 = printed p. 351) as three witnesses,
+then every line below by eye on the scan at 2.4–7×. Yigdzin-1 dropped
+the lines set beside the woodcuts (name and form's first five, p. 352),
+and MITRA misread ལ as ལྟ throughout; the lines are the scan's. Each link
+has a woodcut of its figure in the wheel of life (the blind old woman,
+the potter, the monkey, the boat, the empty house, the embracing couple,
+the arrow in the eye, the drinker, the fruit-picker, the couple, the
+woman in childbirth, the old man), and each passage runs in one order:
+the works good and bad on the day, washing the head and the body and
+putting on new clothes, the four directions for one's aims (*don gnyer*),
+a child born on it, a loss and its thief, an illness that comes on, and
+the remedy, introduced by «སྒྲིབ་ན», "if it obscures".
+
+**Which day.** «X་གྱི་ཉི་མ», "the day of X", is the link the almanac
+writes on the day by vol. 1's table and p. 177's rule (*The twelve links*
+above). Three things say so. Ch. 33 reads the almanac's entries in the
+almanac's order, dates, the name's vowels, weekdays, mansions,
+combinations, yogas, karaṇas, the burning dates, then the links, the day
+animals, the hours and the earth lords ([white-beryl-ch33.md](white-beryl-ch33.md)),
+and the links come where p. 177 writes them, after the letters and the
+stage. Its closing verse (p. 376, [weighing.md](weighing.md)) names what
+the chapter has read, «ཚེས་དབྱངས་གཟའ་སྐར་མ། །འཕྲོད་སྦྱོར་བྱེད་པ་རྟེན་འབྲེལ་ཉི། །ས་བདག་དུས་སྦྱོར་ལ་སོགས་པའི། །སོ་སོའི་འབྲས་བུ་བཟང་ངན་བཅོས།», the links
+among the day's entries. And WB has no other count of links by day: vol. 1
+gives only p. 19's and p. 177's rule with the table, and the only other
+setting of the links is p. 356's on the hours (below). The births agree:
+each link's child dies on the next link's day, and aging and death's on
+ignorance's, a round of twelve in the order the table's first twelve
+columns run.
+
+### 1. Ignorance (མ་རིག་པ, ma rig pa), p. 351 (img. 359)
+
+> «མ་རིག་པ་ཡི་ཉི་མ་ལ། །མཆོད་རྟེན་མཁར་རྩིག་མཆོད་སྦྱིན་དང་། །ཞིང་ཁང་ས་བཙལ་མགོ་ལུས་བཀྲུ། །གོས་བཟོ་དོན་གཉེར་འདུ་ལོང་བཟང་། །མི་ཆེན་མཇལ་ཕྲད་མོ་འདེབས་དང་། །གོས་གསར་གྱོན་པ་ངན་པས་སྤང་། །དོན་གཉེར་ཤར་དུ་བཀྲ་ཤིས་ལ། །ལྷོ་རུ་རྩོད་ཕྲད་དོན་མི་འགྲུབ། །ནུབ་ཏུ་སྙིང་མི་དགའ་བའི་གཏམ། །ཐོས་ཤིང་དོན་མི་འགྲུབ་པ་དང་། །བྱང་གི་ཕྱོགས་ཕྱིན་གཏམ་སྙན་ཐོས། །བུ་བཙས་ལོ་ཟླ་ཞག་དགུ་ལ། །མ་ཤི་ནོར་དང་སྨྲ་བ་མང་། །ཉེ་བ་དང་འཐབ་རྩོད་པ་ལྡང་། །སེམས་སྡུག་འཁྲིག་ལ་སྲེད་པ་དང་། །ཡིག་རྩིས་གཙུག་ལག་ཤེས་པ་འབྱུང་། །ལོ་ནི་བརྒྱད་ཅུ་རྩ་གཅིག་འཚོ། །ཐ་མ་འདུ་བྱེད་ཉི་མར་འཆི། །བོར་སྟོར་བྱུང་ན་བྱང་ནས་འོངས། །མི་ནི་སྐྲ་ངན་འཆམས་ལ་དགའ། །དེ་འདྲས་ཤར་ཕྱོགས་ཐག་རིང་ཁྱེར། །ཞག་དགུ་ཚུན་ལ་རྙེད་པར་འགྱུར། །ནད་བཏབ་ཟླ་བ་ཕྱེད་ཚུན་ལ། །མ་ཤི་དེ་ནས་ཞག་གསུམ་ན། །སོས་པར་འགྱུར་བས་གཟབ་པར་གཅེས། །སྒྲིབ་ན་འབྲུ་ལྔར་རྒན་མོའི་གཟུགས། །ལོང་བའི་རྒྱབ་ཏུ་ཤོག་བུ་ལ། །མ་རིག་པ་ཡི་གནོད་པ་དང་། །ཆགས་ཆེ་ཉམ་ང་དག་ལ་བསྒྱུར། །བྱ་བ་བྲིས་ལ་བསྐུར་བྱ་ཞིང་། །དཀར་གཏོར་མདའ་དར་དཀར་པོ་དང་། །འབྲུ་སྣ་བཅས་པ་ཤར་དུ་འཛུགས།།»
+
+- **Good:** stupas, building walls and castles (*mkhar rtsig*), offerings
+  and gifts, seeking ground for fields and houses, washing the head and
+  the body, making clothes, pursuing one's aims, gatherings (*'du long*).
+- **Bad:** meeting great persons, divination, putting on new clothes.
+- **Directions:** east auspicious; south, disputes, the aim fails; west,
+  unwelcome talk, the aim fails; north, pleasant news.
+- **Birth:** if the child survives its ninth year, month and day, it has
+  wealth and many words, quarrels with its kin, is unhappy and lustful,
+  learns writing, reckoning and the sciences, lives 81 years and dies on
+  formation's day.
+- **Loss:** the thief came from the north, a person with poor hair who
+  likes dancing; he took it far to the east; found within nine days.
+- **Illness:** if not fatal within half a month, recovery three days
+  after; take great care.
+- **Remedy:** an old woman's figure of the five grains; on paper on the
+  back of the blind one, write that the harm of ignorance, great
+  attachment and the dangers be turned onto it, and send it off; set up
+  a white torma, a white arrow with silk and the grains, to the east.
+
+### 2. Formation (འདུ་བྱེད, 'du byed), p. 352 (img. 360)
+
+> «འདུ་བྱེད་ཀྱི་ནི་ཉི་མ་ལ། །རིག་པ་ཡིག་བསླབ་རྒྱན་སྤྲོད་པ། །བག་མ་དགེ་ལས་ཁྲུས་བྱ་བ། །ཁང་པ་བརྩིག་དང་ལུས་བཀྲུ་བ། །དགྲ་བོ་ཚར་གཅོད་ལས་རྣམས་བཟང་། །མགོ་བཀྲུས་གོས་གསར་གྱོན་པ་ན། །ནད་དང་གློ་བུར་ཡེ་འདྲོག་འོང་། །དོན་གཉེར་ཤར་ཕྱིན་ནོར་རྙེད་ཅིང་། །བདེ་བར་ལྡོག་ལ་ལྷོར་ཕྱིན་ན། །མྱ་ངན་སངས་ཤིང་ཉེས་མེད་ལྡོག །ནུབ་ཏུ་བཙལ་སྟོན་ཟས་རྙེད་ཅིང་། །བྱང་དུ་བསམས་པའི་དོན་འགྲུབ་འགྱུར། །བཙས་ན་ལོ་ཟླ་ཞག་བརྒྱད་ལ། །གློ་བུར་མ་ཤི་ཕྱུག་པོར་འགྱུར། །སྤུན་གཉིས་ནད་དཀོན་ཚེ་རིང་ཞིང་། །གྲོགས་མང་གྱུར་ཀྱང་ཚངས་པར་སྤྱད། །མཁས་པ་བཟོ་རིགས་ཤེས་པ་དང་། །ཚེ་ལོ་བརྒྱད་ཅུ་རྩ་གཅིག་འཚོ། །ཐ་མ་རྣམ་ཤེས་ཉི་མར་འཆི། །ནོར་སྟོར་རྐུན་མ་མདོག་སེར་སྐྱ། །གོས་དུག་གྱོན་པ་ཞིག་གིས་ཁྱེར། །རྟག་ཏུ་རྐུར་དགའ་ཤར་ཕྱོགས་སོང་། །ནོར་དེ་རང་དང་མི་འབྲལ་ལོ། །ནད་ཐེབས་ཉིན་བདུན་མ་ཤི་ན། །དེ་ནས་ཞག་པོ་གསུམ་ན་འཚོ། །སྒྲིབ་ན་བག་ཕྱེར་རྫ་མཁན་གཟུགས། །དར་འབྲུ་སྣ་དང་མདའ་དར་སེར། །སྟེང་ཕྱར་ཕྱེ་མར་གསུར་བཏང་ཐུབ།།»
+
+- **Good:** learning, studying letters, giving ornaments, a bride,
+  virtuous work, ablutions, building houses, washing the body, cutting
+  enemies down.
+- **Bad:** washing the head and putting on new clothes bring illness and
+  sudden fright.
+- **Directions:** east, wealth found and a happy return; south, sorrow
+  cleared, back unharmed; west, food found; north, the aim achieved.
+- **Birth:** if it survives the eighth year, month and day, it grows
+  rich; two siblings; seldom ill, long-lived, with many friends yet
+  chaste; learned, knowing the crafts; lives 81 years, dies on
+  consciousness's day.
+- **Loss:** a sallow thief in «གོས་དུག» clothes (as printed; the word is not
+  identified) who always likes stealing took it east; the wealth does not
+  part from its owner.
+- **Illness:** if not fatal in seven days, life three days after.
+- **Remedy:** a potter's figure of dough, silk, the grains and a yellow
+  arrow with silk raised up, a burnt offering (*gsur*) of flour and
+  butter.
+
+### 3. Consciousness (རྣམ་ཤེས, rnam shes), p. 352 (img. 360)
+
+> «རྣམ་ཤེས་ཉི་མར་རྟེན་བཞེངས་པ། །དབང་བསྐུར་སྒྲུབ་མཆོད་བྱ་བ་དང་། །སྨན་དཔྱད་མཆོད་སྦྱིན་དགྲ་འདུལ་མོ། །གྲོང་ཁྱེར་གཞོམ་དང་གོས་གསར་གྱོན། །འདུ་ལོང་བག་མ་རྒྱལ་སར་བསྐོ། །མགོ་བཀྲུས་ཡིད་དུ་འོང་ལ་བཟང་། །ལུས་བཀྲུས་དངངས་པ་འབྱུང་བས་ངན། །དོན་གཉེར་ཤར་དུ་ཉོན་མོངས་ཤིང་། །ལྷོ་རུ་ཉེས་མེད་ནུབ་རྩོད་དང་། །བྱང་དུ་ཕྱི་ནང་ནོར་རྙེད་འགྱུར། །བཙས་ན་ལོ་ཟླ་ཞག་ལྔ་ལ། །གློ་བུར་མ་ཤི་སྤྲོ་རིང་ཞིང་། །མཁས་ཤིང་ང་རྒྱལ་ཆེ་བ་དང་། །སྡིག་དགའ་ཚིག་རྩུབ་དཔའ་ཞིང་དབུལ། །བྱང་སེམས་ཆུང་བར་འབྱུང་བ་ཡིན། །དྲུག་ཅུ་རྩ་གཉིས་འཚོ་བ་དང་། །མཚོན་གྱིས་མིང་གཟུགས་ཉི་མར་འཆི། །སྟོར་ན་རྐུན་མ་རང་ཁྱིམ་མི། །སེར་སྐྱ་བོངས་ཆུང་ཞིག་གིས་ཁྱེར། །གཞན་ལ་ཁས་མི་ལེན་པས་རྙེད། །འདི་ལ་ནད་ཀྱིས་བཏབ་པ་ན། །ཉི་མ་གསུམ་ལྔར་མ་ཤི་ན། །དེ་ནས་ཞག་བདུན་བརྒྱད་ལ་འཚོ། །སྒྲིབ་ན་རྫ་ལ་སྤྲེལ་གཟུགས་བཟོས། །ཁོང་དུ་བཟློག་སྔགས་བརྫངས་བྱས་ལ། །སྨན་འབྲུ་སྣ་བཅས་ལམ་སུམ་མདོར། །བསྐྱལ་ལ་དར་དམར་གནམ་ལ་འཕྱར།།»
+
+- **Good:** setting up supports (*rten bzhengs*), empowerments, practice
+  and offerings, medicine and examining the sick, offerings and gifts,
+  subduing enemies, divination, overthrowing a town, putting on new
+  clothes, gatherings, a bride, enthroning; washing the head is
+  pleasing.
+- **Bad:** washing the body brings fright.
+- **Directions:** east, affliction; south, unharmed; west, dispute;
+  north, wealth found within and without.
+- **Birth:** if it survives the fifth year, month and day and no sudden
+  death, long cheer; learned and very proud, fond of wrongdoing, harsh of
+  speech, brave and poor, small in the mind of awakening (*byang sems*);
+  lives 62 years, dies by a weapon on name and form's day.
+- **Loss:** the thief is of one's own household, a short sallow one; it
+  is found, for he will not own to it before others.
+- **Illness:** if not fatal on the third or fifth day, life on the
+  seventh or eighth.
+- **Remedy:** a monkey's figure of clay with the turning-back mantra
+  (*bzlog sngags*) put inside, sent with medicines and the grains to a
+  meeting of three roads; red silk raised to the sky.
+
+### 4. Name and form (མིང་གཟུགས, ming gzugs), pp. 352–353 (img. 360–361)
+
+> «མིང་གཟུགས་ཀྱི་ནི་ཉི་མ་ལ། །བཀྲ་ཤིས་བརྗོད་དང་སྐྲ་སེན་འབྲེག །དཀར་ཆོས་འཇལ་ལེན་བླ་མ་མཇལ།། འཇིགས་ལ་ཁྲོས་པ་སྨན་སྦྱོར་བཟང་། །མགོ་བཀྲུས་སྐྲ་དཀར་ལུས་བཀྲུས་ན། །གཉེན་སྐྲག་གོས་གྱོན་མྱུར་འཛད་ན། །དོན་གཉེར་ཤར་དཔལ་ལྷོར་བསམ་འགྲུབ། །ནུབ་ཏུ་མི་རྙེད་བྱང་སྟོར་རྨོངས། །བཙས་ན་ལོ་ནི་བཅུ་གཉིས་དང་། །ཟླ་ཞག་དྲུག་ལ་མ་ཤི་ན། །ནད་ཉུང་འཚོ་དཀོན་སྡང་བ་མང་། །བུ་ཡིན་མི་འཚོ་རྟག་འཇིགས་མང་། །གཏུམ་ཞིང་ང་རྒྱལ་ཚེ་སྨད་ཕྱུག །ཆུང་མ་གསུམ་ཡོད་ཚོང་གིས་འཚོ། །ཚེ་ལོ་བརྒྱད་ཅུ་རྩ་གཅིག་ཐུབ། །གཅོང་གིས་སྐྱེ་མཆེད་ཉི་མར་འཆི། །ནོར་སྟོར་རྐུན་མ་སྤུན་གཉིས་ཡོད། །གཅིག་ནི་བཞིན་མི་སྡུག་པ་དང་། །བཀྲག་ནག་ལག་པ་བཟོ་བ་ཡོད། །ཞག་པོ་ཉི་ཤུ་གཅིག་ན་རྙེད། །ནད་ཐེབས་ཉི་མ་གསུམ་མམ་ལྔར། །མ་ཤི་དེ་ནས་བདུན་ནས་གྲོལ། །བརྒྱད་བར་ཐལ་ནས་སོས་མི་འགྱུར། །སྒྲིབ་ན་བག་ཕྱེར་མཉན་པ་དང་། །ལྷ་བཟོའི་གཟུགས་བཅོས་དར་སྨན་འབྲུའི། །སྣ་དང་དཀར་གསུམ་མདའ་དར་སྔོ། །ལྷོར་བསྟན་སྤོས་དཀར་དུད་པས་ཐུབ།།»
+
+The first five lines stand in a narrow column beside the woodcut, with
+«།།» after «མཇལ» as printed; «འཇལ་ལེན» (both ཇ on the scan at 7×; the etext
+agrees) and «འཇིགས་ལ་ཁྲོས་པ» are not identified. The etext's «སྨིན་སྦྱོར» is
+«སྨན་སྦྱོར» on the scan, and its «སྣང་བ» is «སྡང་བ».
+
+- **Good:** words of good fortune, cutting the hair and nails, virtuous
+  work («དཀར་ཆོས», then «འཇལ་ལེན», unidentified), meeting the lama,
+  compounding medicine.
+- **Bad:** washing the head greys the hair, washing the body frightens
+  one's kin, new clothes wear out soon.
+- **Directions:** east, glory; south, wishes fulfilled; west, nothing
+  found; north, loss and confusion.
+- **Birth:** if it survives the twelfth year, month and sixth day,
+  seldom ill but hard put to live, with much hatred; «བུ་ཡིན་མི་འཚོ», "a son
+  does not live"; ever fearful; fierce and proud, rich late in life, three
+  wives, living by trade; lives 81 years, dies of a wasting illness
+  (*gcong*) on the six sense fields' day.
+- **Loss:** two siblings are the thieves, one ugly of face, one dark,
+  with skilled hands; found in 21 days.
+- **Illness:** if not fatal on the third or fifth day, freed after the
+  seventh; past the eighth, no recovery.
+- **Remedy:** a boatman of dough and a figure from an image-maker, silk,
+  medicines, the grains, the three whites and a blue arrow with silk,
+  set toward the south, with the smoke of white incense.
+
+### 5. The six sense fields (སྐྱེ་མཆེད, skye mched), p. 353 (img. 361)
+
+> «སྐྱེ་མཆེད་རྒྱལ་ས་བྱ་བ་དང་། །བག་མ་བཟློག་རིམ་རྟེན་བཞེངས་པ། །རྒྱལ་པོ་ཁྲུས་བྱེད་གྲོང་ཁྱེར་བཟུང་། །དགེ་ལས་གཏེར་སྦེད་མགོ་བཀྲུས་ན། །གཟི་བརྗིད་གོས་གྱོན་མཛེས་འགྱུར་བཟང་། །ཁྱིམ་དུ་ཞུགས་ནས་སླར་འབྱུང་དང་། །གཞན་ལ་ཕྱག་བྱ་སྡིག་པའི་ལས། །ལུས་བཀྲུས་ཕ་མ་སྐྲག་པས་ངན། །དོན་གཉེར་ཤར་དུ་དོན་མེད་ཅིང་། །ལྷོ་རུ་དཔལ་ཕྲད་ཡིད་དགའ་ལ། །ནུབ་དང་བྱང་དུ་རེ་བ་རྫོགས། །བཙས་ན་ལོ་བརྒྱད་ཡང་ན་བཅུ། །ཟླ་གསུམ་ཉིན་ལྔར་མ་ཤི་ན། །སེར་སྣ་ཆེ་ཞིང་ནད་མོད་ལ། །དཔའ་ཞིང་ཕོངས་ལ་སྲེད་པ་ཆེ། །ལྟོར་འདུ་དྲུག་ཅུ་རྩ་བཞི་འཚོ། །རང་ཁྱིམ་རེག་པའི་ཉི་མར་འཆི། །ནོར་སྟོར་ཁྱིམ་མཚེས་མདོག་སེར་སྐྱ། །གསུས་པ་དང་ནི་མིག་ཆེ་བས། །ཆུ་འགྲམ་གྲོང་ཡོད་ས་རུ་ཁྱེར། །དེ་སར་ཉིན་གཉིས་ཚུན་ཆད་དུ། །མ་གཏུགས་ཕྱིས་སུ་རྙེད་མི་འགྱུར། །ནད་ཕོག་ཉི་མ་གསུམ་བཞི་ལ། །མ་ཤི་ཉི་མ་བཅུ་ན་འཚོ། །སྒྲིབ་ན་ཕྱེ་ནག་མཁར་གཟུགས་བཟོས། །དར་སྨན་འབྲུ་སྣ་དར་ལྗང་རྣམས། །གནམ་འཕྱར་མདའ་ཆག་ལམ་དུ་བསྐྱུར།།»
+
+- **Good:** the works of a royal seat (*rgyal sa*), a bride, turning-back
+  rites (*bzlog rim*), setting up supports, a king's ablution, taking a
+  town, virtuous work, hiding treasure; washing the head brings
+  splendour, new clothes beauty.
+- **Bad:** entering a house and coming out again, prostrating to others,
+  sinful work; washing the body frightens the parents.
+- **Directions:** east, futile; south, glory met and joy; west and
+  north, hopes fulfilled.
+- **Birth:** if it survives the eighth or tenth year, the third month
+  and the fifth day, very miserly, «ནད་མོད», brave, poor and very
+  craving; lives 64 years («ལྟོར་འདུ», as printed), dies at home on contact's
+  day.
+- **Loss:** a sallow neighbour with a belly and big eyes took it to a
+  place with a village by water; if not reached within two days, it is
+  not found later.
+- **Illness:** struck on the third or fourth day, if not fatal, life on
+  the tenth.
+- **Remedy:** a castle's figure of black flour, silk, medicines, the
+  grains and green silk raised to the sky, a broken arrow thrown on the
+  road.
+
+### 6. Contact (རེག་པ, reg pa), pp. 353–354 (img. 361–362)
+
+> «རེག་པའི་ཉི་མ་ཤར་བ་ན། །རྐུ་འཕྲོག་སྲོག་གཅོད་ཆད་པ་གཅོད། །མནན་བསྲེག་དྲག་རྩུབ་ལས་རྣམས་དང་། །མགོ་བཀྲུས་རྩོད་པ་ཉུང་བས་བཟང་།། བཟོ་བྱེད་ལུས་བཀྲུས་ཕ་མ་སྐྲག །གོས་གྱོན་མཛའ་བོས་འཚེ་བས་ངན། །གལ་ཏེ་གྱོན་ན་དགེ་སློང་གི །མདུན་དུ་ཕྱག་བྱས་གྱོན་ན་འཇམ། །ཤར་སོང་ནད་ཐེབས་ལྷོ་རུ་མཛེས། །ནུབ་ཏུ་ཅ་ཅོ་དངངས་སྐྲག་འོང་། །བྱང་དུ་རྙེད་ཀྱང་ཡུན་རིང་འགོར། །བཙས་ན་ལོ་དགུ་ཞག་ལྔ་དང་། །ཟླ་བ་དགུ་ལྔ་གསུམ་གྲངས་ལ། །མ་ཤི་རྟག་ཏུ་ནད་ཀྱིས་འཛིན། །བཤེས་གཉེན་ཆེ་ལ་སྨྲ་བ་མཁས། །བློ་གྲོས་ལྡན་ཞིང་ང་རྒྱལ་ཆེ། །ལག་རྐུ་ཆོས་དགའ་ཕྲག་དོག་ཆེ། །ཕྱུག་ཅིང་འཁྲིག་ལ་སྲེད་པ་དང་། །ལོ་ནི་དྲུག་ཅུ་རྩ་གསུམ་འཚོ། །ཆད་པས་ཚོར་བའི་ཉི་མར་འཆི། །ནོར་སྟོར་རང་གི་ཁྱིམ་མཚེས་པ། །སྐྲ་ནག་ཉམས་ཆོ་ཀླག་ཅོར་ཆེ། །ངོ་བསྟོད་རྟག་ཏུ་དེར་གནས་པ། །ཡིན་ཏེ་དེར་བཙུགས་ཤིན་ཏུ་བསྙོན། །བསྡོངས་ཟླ་བཞི་ཡོད་གྲོང་གཞན་དུ། །ནོར་ལ་འཐབ་རྩོད་བྱེད་པ་འབྱུང་། །ཡུན་རིང་སོང་ན་ཁུངས་ཙམ་ཆོད། །ནད་ཐེབས་ཉིན་གསུམ་མ་ཤི་ན། །བརྒྱད་ནས་འཚོ་ལ་ཚེ་རིང་འགྱུར།། སྒྲིབ་ན་བག་ཕྱེར་ཤ་བ་དང་། །ཤ་ཁྱི་སྔོན་པོའི་གཟུགས་བཟོས་ལ། །དར་སྨན་འབྲུ་སྣ་མི་ཁ་ཡི། །རྫས་བཅས་ཕྱིར་བསྐྱུར་དར་སྨན་དང་། །རིན་ཆེན་ལྕགས་ཚལ་རྣམས་གཏུམས་ལ། །རྟེན་གྱི་ཞབས་ཀྱི་འོག་ཏུ་འཇུག །སྤང་སྐྱུར་དུད་པ་བཏང་བས་ཐུབ།།»
+
+«ཉམས་ཆོ» as on the scan at 5× (the etext «ཚོ»); «ཉུང» at 6× (Yigdzin-1 right);
+«སྤང་སྐྱུར» at 5×.
+
+- **Good:** stealing and robbing, killing, punishing, suppressing and
+  burning, the fierce and rough works; washing the head, for fewer
+  disputes.
+- **Bad:** crafts; washing the body frightens the parents; new clothes,
+  for a friend does harm; if they must be worn, prostrate before a monk
+  first and the harm is softened.
+- **Directions:** east, illness; south, beauty; west, clamour and
+  fright; north, found but late.
+- **Birth:** if it survives its ninth year, fifth day and the ninth,
+  fifth or third month, always held by illness; many friends,
+  eloquent, intelligent and very proud, light-fingered, fond of the
+  dharma, very jealous, rich and lustful; lives 63 years, dies by
+  punishment on feeling's day.
+- **Loss:** one's own neighbour, black-haired, swaggering and loud, who
+  is always about with flattery, put it away there and denies it hard;
+  in four months a quarrel over the wealth in another village; after
+  long only its trace is settled.
+- **Illness:** if not fatal in three days, life from the eighth, and long.
+- **Remedy:** a deer and a blue hound of dough with silk, medicines,
+  the grains and the things against evil talk (*mi kha*) thrown out;
+  silk, medicines, jewels and iron filings wrapped and put under a
+  support's base; the smoke of *spang skyur*.
+
+### 7. Feeling (ཚོར་བ, tshor ba), p. 354 (img. 362)
+
+> «ཚོར་བ་ཞེས་བྱའི་ཉི་མ་ལ། །མཛའ་བོ་ཕྲད་དང་ཆས་བྱེད་པ། །ཚོང་དང་ཆུ་བརྒལ་ཞི་བའི་ལས། །འཁོར་འདུ་དབང་མོ་དཀྱིལ་འཁོར་བཞེངས། །ཟས་ནོར་བསྡུ་དང་དགེ་ལས་བཟང་། །མགོ་བཀྲུས་སྐྲ་བྱི་ལུས་བཀྲུས་ན། །ཡིད་མི་བདེ་ཞིང་གོས་གྱོན་ན། །དངངས་ཇོ་ཡོད་པས་ངན་པར་བཤད། །ཤར་ཕྱིན་མྱ་ངན་སངས་ཤིང་མགུ། །ལྷོ་རུ་ཕྱིན་ན་ནད་ཀྱིས་འདེབས། །ནུབ་ཕྱིན་ཤི་ཆད་གཏམ་ངན་ཐོས། །བྱང་དུ་གཏམ་སྙན་ཡིད་བདེ་འབྱུང་། །བཙས་ན་ལོ་བརྒྱད་ཟླ་བ་བརྒྱད། །ཡང་ན་ཟླ་གཉིས་ཞག་བཅུ་གཉིས། །མ་ཤི་གཞན་གྱིས་བསྙེན་བཀུར་དང་། །མཆོད་པའི་གནས་འགྱུར་གཡོ་སྡིག་དགའ། །ནད་ལྡང་འབྲུ་ནོར་ཕྱུག་པ་དང་། །བཟོ་མཁས་ཆུང་མ་གཉིས་དང་ལྡན། །ཚེ་ལོ་དྲུག་ཅུ་ཐམ་པ་འཚོ། །ཚད་པས་སྲེད་པའི་ཉི་མར་འཆི། །སྟོར་ན་རྐུན་མ་ལམ་རིང་འོངས། །བྱི་ནི་རྐང་ལག་ནག་པོ་ལ། །ལུས་ཁྲ་ཕྱི་ནས་འབྲངས་པས་ཁྱེར། །ཞག་པོ་ཉེར་གཅིག་ལ་རྙེད་འགྱུར། །ནད་ཕོག་ཉིན་ལྔ་མ་ཤི་ན། །དགུར་ལྡང་བཅུ་ལ་སོས་པར་འགྱུར། །སྒྲིབ་ན་ཟན་ལ་མདའ་མཁན་གྱི། །གཟུགས་བཟོས་འབྲུ་སྣ་གྲི་ཆུང་དང་། །མདའ་དར་ལྷན་ཅིག་སྟེང་དུ་འཕྱར། །གུ་གུལ་དུད་པ་བཏང་བས་ཐུབ།།»
+
+«དངངས་ཇོ» as the scan shows it at 5× (MITRA; Yigdzin-1 «ངོ»), not
+identified; the sense, fright, is plain. «ཚད་པས་སྲེད་པའི་ཉི་མར་འཆི» on the scan:
+Yigdzin-1's «འཚོ» is wrong.
+
+- **Good:** meeting friends, making ready to set out, trade, crossing
+  water, peaceful works, gathering a retinue, building a maṇḍala,
+  gathering food and wealth, virtuous work.
+- **Bad:** washing the head, shaving and washing the body bring
+  unhappiness; new clothes, fright.
+- **Directions:** east, sorrow cleared and content; south, illness;
+  west, ill news of a death; north, pleasant news and ease.
+- **Birth:** if it survives the eighth year and eighth month, or the
+  second month and twelfth day, honoured and served by others, a place
+  of offering; fond of guile and wrongdoing; «ནད་ལྡང»; rich in grain,
+  skilled in crafts, two wives; lives 60 years, dies of fever on
+  craving's day.
+- **Loss:** a thief from a long road, with black hands and feet and a
+  mottled body, followed behind and took it; found in 21 days.
+- **Illness:** if not fatal in five days, up on the ninth, recovered on
+  the tenth.
+- **Remedy:** an arrow-maker of dough with the grains, a small knife
+  and an arrow with silk raised up together, the smoke of guggul.
+
+### 8. Craving (སྲེད་པ, sred pa), p. 354 (img. 362)
+
+> «སྲེད་པའི་ཉི་མར་བག་མ་དང་། །ནོར་རྫས་བསྡུ་དང་ནོར་སྤུས་བསྒྱུར། །ཚོང་བྱེད་འདུ་ལོང་དགེ་བའི་ལས། །མོ་འདེབས་སྨྱུར་སྤང་ལས་རྣམས་བཟང་། །གོས་གྱོན་རྟག་ཏུ་འགྲུབ་ན་ཡང་། །དེ་ཉིན་བགོ་བར་མི་བྱ་ཞིང་། །མགོ་བཀྲུས་སྐྲ་འབྱི་ལུས་བཀྲུས་ན། །འཇིགས་པ་ཆེ་ཞིང་ཤར་ཕྱིན་ན། །དགོས་པ་བསྐྱེད་ཅིང་ལྷོ་རུ་ཕྱིན། །ནོར་རྙེད་མྱ་ངན་ཕྲན་ཚེགས་འབྱུང་། །ནུབ་ཏུ་ཤི་ཆད་གཏམ་ཐོས་ཤིང་། །བྱང་དུ་ཕྱིན་ན་ཡིད་མི་བདེ། །བྱིས་པ་ལོ་དགུ་ཟླ་བ་ལྔ། །ཞག་པོ་གསུམ་དང་བཅུར་མ་ཤི། །གྲོང་ཁྱེར་གྱི་ནི་དཔོན་དུ་འགྱུར། །བུ་ཚ་མང་ལ་ལོངས་སྤྱོད་ཆེ། །ནད་དཀོན་གཟུགས་བཟང་དགྲ་གྲོགས་མང་། །ལོ་ནི་བརྒྱད་ཅུ་རྩ་བཞི་འཚོ། །དུག་གིས་ལེན་པའི་ཉི་མར་འཆི། །བོར་སྟོར་རྐུན་མ་ནུབ་ཕྱོགས་ཡོངས། །གཟུགས་བཟང་འཕོངས་པའི་མི་ཞིག་སྟེ། །རྐང་ལག་ནག་པའི་ཁྱི་ཡི་བདག །དེར་བབས་དེར་འཐབས་རྙེད་པར་འགྱུར། །ནད་ཐེབས་བརྒྱད་ལ་མ་ཤི་ན། །བཅུར་འཚོ་དེ་ལ་མ་སོས་འཆི། །སྒྲིབ་ན་ཤོག་བུར་འདོད་སྤྱོད་བྲིས། །དེ་ནི་འཇག་མའི་མགལ་པར་བཅུག །འབྲུ་དར་སྣ་དང་མཉམ་བྱས་ལ། །ལམ་གྱི་བཞི་མདོར་བསྐྱལ་བ་དང་། །དར་དམར་གནམ་འཕྱར་ཚིལ་དུད་བཏང་།།»
+
+«སྨྱུར་སྤང» as the scan shows it at 5× (Yigdzin-1 «མྱུར»), not identified;
+«ཡོངས» as printed, for «ཡོང».
+
+- **Good:** a bride, gathering wealth and goods and bettering them,
+  trade, gatherings, virtuous work, divination and «སྨྱུར་སྤང».
+- **Bad:** new clothes, though they always turn out well, are not to be
+  put on that day; washing the head, shaving and washing the body, great
+  fear.
+- **Directions:** east, a need arises; south, wealth found with small
+  sorrows; west, news of a death; north, unease.
+- **Birth:** a child that survives the ninth year, fifth month and the
+  third or tenth day becomes a town's chief, with many children and much
+  wealth, seldom ill, handsome, with many enemies and friends; lives 84
+  years, dies of poison on grasping's day.
+- **Loss:** the thief came from the west, a handsome poor man, owner of
+  a dog with black legs; found where it fell, by a fight there.
+- **Illness:** if not fatal on the eighth day, life on the tenth; if not
+  recovered then, death.
+- **Remedy:** the objects of desire written on paper and put into a
+  brand of straw (*'jag ma'i mgal pa*), with the grains and silk, sent
+  to a crossroads; red silk raised to the sky and the smoke of fat.
+
+### 9. Grasping (ལེན་པ, len pa), pp. 354–355 (img. 362–363)
+
+> «ལེན་པ་ཡི་ནི་ཉི་མ་ལ། །སྨན་སྦྱོར་དགྲ་བྱེད་ཕོ་ཉ་བཏང་། །གཞན་གྱི་བུད་མེད་ལ་བགྲོད་དང་། །ཁ་སྤུ་འབྲེག་དང་མི་སྨྲ་བཟང་། །མགོ་བཀྲུས་སྐལ་བ་བཟང་བ་དང་། །ལུས་བཀྲུས་ནོར་རྙེད་བཟང་བ་ཡིན། །གཞན་མ་གང་བརྩམས་འབྲས་བུ་མེད། །གོས་གྱོན་ཚེ་ཐུང་ཕན་མི་ཐོགས། །ཤར་སོང་འཇིགས་ཤིང་ལྷོ་རུ་མཛེས། །ནུབ་ཏུ་ཅུང་འཇིགས་བྱང་བསམ་འགྲུབ། །བཙས་ན་ཞག་དགུ་ཟླ་བ་གཉིས། །ལོ་བརྒྱད་དགུ་ལ་མ་ཤི་ན། །ལྟ་བར་མི་སྡུག་སེམས་ཆུང་ཞིང་། །གཏིང་རིང་མཛའ་བོའི་གཟུགས་ཀྱི་ནི། །གཡོ་བྱེད་ལ་དགའ་འདོད་ཆགས་ཆེ། །ཚུལ་ཁྲིམས་འཆལ་ཞིང་ལོ་དྲུག་ཅུ། །རྩ་བཞིར་འཚོ་ཞིང་ཐ་མ་རུ། །སྲིད་པའི་ཉི་མར་ཆུ་འམ་མཛེས། །རང་གི་ཡུལ་དུ་འཆི་བར་འགྱུར། །ནོར་སྟོར་ཤར་འོངས་མི་གཉིས་ཡོད། །ནོར་ཕྱིར་གཉིས་པོ་ནུབ་ཕྱོགས་འཐབ། །ངེས་པར་རྙེད་པར་འགྱུར་བ་ཡིན། །ནད་ཕོག་ཉིན་བརྒྱད་མ་ཤི་ན། །བཅུར་སོས་དེར་ཡང་ཅུང་ཟད་ལ། །མ་ཤི་བ་ན་འཚོ་བ་ཡིན། །སྒྲིབ་ན་སྣམ་སྟེང་ཆོས་ཤིག་བཞག །ནས་དཀར་བྲེ་གང་སྟེང་དུ་ནི། །མར་མེ་མདུན་དུ་སྤོས་སྤར་ཐུབ།།»
+
+«རྩ་བཞིར་འཚོ» on the scan (Yigdzin-1 «འཚེ»).
+
+- **Good:** compounding medicine, acting against enemies, sending
+  envoys, going to another's woman, cutting the beard, keeping silent;
+  washing the head, good fortune; washing the body, wealth found.
+- **Bad:** whatever else is begun bears no fruit; new clothes, a short
+  life and no benefit.
+- **Directions:** east, fear; south, beauty; west, some fear; north,
+  wishes fulfilled.
+- **Birth:** if it survives the ninth day, the second month and the
+  eighth or ninth year, ugly and faint-hearted, deep, of a friend's
+  looks, fond of guile, very lustful, breaking its vows; lives 64 years
+  and at last, on becoming's day, dies by water or leprosy in its own
+  land.
+- **Loss:** two people came from the east; the two fight over it in the
+  west; it is surely found.
+- **Illness:** if not fatal in eight days, recovered on the tenth; if
+  then not dead soon after, life.
+- **Remedy:** a book of the dharma laid on a woollen cloth, a *bre* of
+  white barley on it, a butter lamp in front, incense burnt.
+
+### 10. Becoming (སྲིད་པ, srid pa), p. 355 (img. 363)
+
+> «སྲིད་པའི་ཉི་མ་ཤར་བ་ན། །བུད་མེད་མཛའ་བོ་བསུ་བ་དང་། །གཞན་ཡང་ལས་ཀུན་འགྲུབ་འགྱུར་ཞིང་། །མགོ་བཀྲུས་བཟའ་དང་བཅའ་བ་རྙེད། །ལུས་བཀྲུས་ཡིད་འོང་མཛེས་པར་འགྱུར། །གོས་གྱོན་མཛེས་ཀྱང་བགོ་མི་བྱ། །འཐབ་རྩོད་བྱ་བ་འདི་ལ་སྤང་། །ཤར་སོང་དོན་མེད་འཇིགས་དང་ཕྲད། །ལྷོ་རུ་ཅི་བསམ་ཐམས་ཅད་འགྲུབ། །ནུབ་ཏུ་འཇིགས་ཆེ་བྱང་ནོར་རྙེད། །བཙས་ན་ཉིན་དགུ་ཟླ་གཉིས་སམ། །གསུམ་དང་ལོ་དགུར་མ་ཤི་ན། །གཞན་གྱི་ཆུང་མར་འཁྲིག་པ་སྲེད། །གཉིད་ཆུང་གཙོ་བོ་དམག་དཔོན་འགྱུར། །བཙན་ཕྱུག་བཟོ་ཡི་གནས་ལ་མཁས། །ཆུང་མ་གཉིས་ལྡན་དྲུག་ཅུ་འཚོ། །ཐ་མ་སྐྱེ་བའི་ཉི་མ་ལ། །མཚོན་གྱིས་གཞན་ཡུལ་དག་ཏུ་འཆི། །འདི་ལ་ནོར་སྟོར་ཤར་ནས་འོངས། །གཡེང་བག་ཆེ་ཞིང་སྦྱང་བ་ཡི། །བཤེས་གཉེན་ཆེ་བ་ཞིག་ཡིན་ཏེ། །དེ་ཉིད་སུ་ལ་བློ་མི་གཏོད། །རིང་མོར་སོང་ནས་ནང་ཉམས་རྙེད། །ནད་ཕོག་ཉི་མ་གསུམ་དགུ་ལ། །མ་ཤི་བ་ན་སོས་པར་འགྱུར། །སྒྲིབ་ན་ཟན་ལ་ཆང་འཐུང་མི། །གཟུགས་བཟོས་སྤང་མ་འབྲུ་སྣ་དང་། །དར་དང་རིན་ཅེན་གོས་ནག་ཁ། །གད་དང་ཤུག་ཤིང་འཕྱར་བས་ཐུབ།།»
+
+- **Good:** welcoming women and friends, and every other work succeeds;
+  washing the head, food and provisions found; washing the body,
+  pleasing and fair.
+- **Bad:** new clothes, fair but not to be worn; quarrels.
+- **Directions:** east, futile, fear met; south, every wish achieved;
+  west, great fear; north, wealth found.
+- **Birth:** if it survives the ninth day, the second or third month and
+  the ninth year, it lusts after others' wives, sleeps little, becomes a
+  chief and a general, powerful and rich, skilled in the crafts, with
+  two wives; lives 60 years, dies at last by a weapon in a foreign land
+  on birth's day.
+- **Loss:** from the east, a great acquaintance, much distracted and
+  trained; trust nobody with it; gone long, it is found within.
+- **Illness:** if not fatal on the third or ninth day, recovery.
+- **Remedy:** a beer-drinker of dough, *spang ma*, the grains, silk,
+  jewels and black cloth, «ཁ། །གད» (as printed, across the shad) and
+  juniper raised.
+
+### 11. Birth (སྐྱེ་བ, skye ba), pp. 355–356 (img. 363–364)
+
+> «སྐྱེ་པ་ཡི་ནི་ཉི་མ་ལ། །བཟློག་རིམ་ཁྱིམ་བཅོས་ཁང་འཛིན་སོགས། །ཁྱིམ་བདག་གི་ནི་ལས་རྣམས་དང་། །རྒྱལ་དང་བློན་པོའི་ལས་རྣམས་བཟང་། །མགོ་བཀྲུས་བཀུར་སྟི་རིམ་གྲོ་རྙེད། །ལུས་པོ་བཀྲུས་ན་མཛའ་བོ་རྙེད། །གོས་གྱོན་རིང་དུ་མི་གནས་པས། །བགོ་བར་མི་བྱ་ཤར་དུ་ཕྱིན། །ནོར་རྙེད་མོད་ཀྱིས་བརླག་པར་འགྱུར། །ལྷོ་རུ་གཏམ་སྙན་ནུབ་ཉེས་མེད། །བྱང་དུ་ནོར་རྙེད་བཙས་པ་ན། །ཉིན་དགུ་ཟླ་དགུ་ལོ་བཅུ་ལ། །མ་ཤི་རྟག་པར་ནད་བུ་ཅན། །ཕྱུགས་དང་ཡུལ་འཁོར་མི་སྐྱོང་ལ། །གཞན་གྱིས་མཆོད་པའི་གནས་སུ་འགྱུར། །དྲུག་ཅུ་འཚོ་ཞིང་རྒ་ཤི་ལ། །ཆུ་ཡི་གནོད་པས་འཆི་བར་འགྱུར། །ནོར་སྟོར་རྐུན་མ་མི་གསུམ་གྱི། །གཉིས་ནི་ཕྱི་མི་གཅིག་ནང་མི། །ཁུངས་ཕྱིན་དལ་བུས་ཤེར་བ་ན། །ཡུན་རིང་ཞིག་ན་རྙེད་པར་འགྱུར། །ནད་ཕོག་ཉིན་ལྔར་མ་ཤི་ན། །བརྒྱད་ལ་སོས་པར་འགྱུར་བ་ཡིན། །སྒྲིབ་ན་འཇིམ་པར་བྱིས་བཙས་ཀྱི། །གཟུགས་བྱས་དར་འབྲུ་སྨན་གྱི་སྣ། །བལ་ཚོན་བསྒྲིལ་ལ་མདའ་དར་ལྔ། །མཉམ་དུ་སྟེང་ནས་འཕྱར་བ་དང་། །བུ་རམ་གསུར་ནི་བཏང་བས་ཐུབ།།»
+
+«སྐྱེ་པ» as printed, for «སྐྱེ་བ».
+
+- **Good:** turning-back rites, mending and taking a house, the
+  householder's works, a king's and a minister's works; washing the
+  head, honour and service; washing the body, friends found.
+- **Bad:** new clothes, for they do not last.
+- **Directions:** east, wealth found but soon lost; south, pleasant
+  news; west, unharmed; north, wealth found.
+- **Birth:** if it survives the ninth day, the ninth month and the tenth
+  year, always sickly, keeping neither herds nor estate, a place of
+  offering for others; lives 60 years, dies by water on aging and death's
+  day.
+- **Loss:** three thieves, two from outside and one within; followed to
+  the source slowly, it is found after long.
+- **Illness:** if not fatal in five days, recovery on the eighth.
+- **Remedy:** a woman in childbirth of clay, silk, the grains and
+  medicines, coloured wool twisted, five arrows with silk raised together
+  from above, a burnt offering of molasses.
+
+### 12. Aging and death (རྒ་ཤི, rga shi), p. 356 (img. 364)
+
+> «རྒ་ཤི་ཡི་ནི་ཉི་མ་ལ། །ཕྱུག་པོའི་ནོར་བརྐུ་ཚུར་བླང་རིགས། །མགོ་བཀྲུས་གོས་དང་བཟའ་བཏུང་རྙེད། །དེ་དག་བཟང་ཞིང་མཆོད་སྦྱིན་གཏང་། །བཟོ་བྱེད་མོ་འདེབས་ལ་སོགས་དང་། །རྩོད་པའི་རིགས་རྣམས་སྤང་བར་བྱ། །ལུས་བཀྲུས་གོད་མང་གོས་གསར་པ། །གྱོན་ན་གནས་པར་མི་འགྱུར་རོ། །ཤར་དུ་སོང་ན་མྱུར་དུ་ལྡོག །ལྷོ་རུ་གྲོགས་དང་གཏམ་སྙན་འོང་། །ནུབ་ཏུ་དངངས་སྐྲག་བྱང་དུ་བདེ། །བཙས་པ་ཉིན་གཉིས་ཟླ་བ་གཅིག །ལོ་དགུར་མ་ཤི་བྱིས་པའི་དུས། །ནད་མང་ཆེར་སྐྱེས་ནད་བྱང་ཞིང་། །ཡིད་གཞུངས་གཉེན་འདུན་བྱམས་པ་དང་། །དགྲ་མང་དྲུག་ཅུ་རྩ་བཞི་འཚོ། །མཚོན་གྱིས་མ་རིག་ཉི་མར་འཆི། །རྐུན་མ་བྱང་འོངས་སྐད་འཛེར་བ། །སྐེ་ལུས་རིང་ཞིང་མཆུ་ཡང་དམར། །མགོ་སྐྱ་སོ་ཆག་ཞིག་གིས་ཁྱེར། །ཞག་ནི་ཉི་ཤུ་ལྔ་ནས་རྙེད། །ནད་ཐེབས་ཉི་མ་གསུམ་བདུན་ལ། །མ་ཤི་བཙོས་ཀྱིས་ནད་ལས་གྲོལ། །སྒྲིབ་ན་ཟན་ལ་དགྲ་གཟུགས་བྱས། །དེ་ཁོང་རྒ་ཤི་ཞེས་པ་བཅུག །རེ་ནག་གཏུམས་ལ་རིན་ཆ་ལྔས། །བཅིངས་ལ་རང་འཐག་འོག་ཏུ་མནན། །དར་སེར་ནམ་མཁར་འཕྱར་བ་དང་། །སྟོབས་ཆེན་གཟུངས་སྔགས་བཀླགས་པས་ཐུབ།།»
+
+- **Good:** stealing a rich man's wealth, taking in; washing the head,
+  clothes, food and drink found; giving offerings.
+- **Bad:** crafts, divination and the like, every kind of dispute;
+  washing the body, much loss; new clothes do not last.
+- **Directions:** east, a quick return; south, friends and pleasant
+  news; west, fright; north, ease.
+- **Birth:** if it survives the second day, the first month and the
+  ninth year, much ill in childhood, the illness cleared as it grows;
+  upright, loving its kin, with many enemies; lives 64 years, dies by a
+  weapon on ignorance's day.
+- **Loss:** the thief came from the north, stammering, long of neck and
+  body, red-lipped, grey-headed, with a broken tooth; found after 25
+  days.
+- **Illness:** if not fatal on the third or seventh day, freed of it by
+  a decoction (*btsos*).
+- **Remedy:** a figure of the enemy in dough with "aging and death"
+  written and put inside, wrapped in black cloth, bound with the five
+  precious things and pressed under the hand-mill (*rang 'thag*);
+  yellow silk raised to the sky and the great dhāraṇīs of power read.
+
+### The links on the hours, p. 356 (img. 364)
+
+> «རྟེན་འབྲེལ་དུས་དང་སྦྱར་བ་ནི། །མ་རིག་ནམ་ཕྱེད་འདུ་བྱེད་ཡོལ། །རྣམ་ཤེས་ཐོ་རངས་མིང་ནམ་ལངས། །སྐྱེ་མཆེད་ཉི་ཤར་རེག་དྲོས་འཇམ། །ཚོར་བ་ཉི་ཕྱེད་སྲེད་ཕྱེད་ཡོལ། །ལེན་པ་སྨྱུར་སྨད་སྲིད་ཉི་རྒས། །རྒ་ཤི་སྲོད་འཁོར་སྐྱེ་སྲོད་ཡོལ། །དེ་ཉིད་ལུགས་འབྱུང་ལུགས་ལྡོག་བཀོད།།»
+
+Read at 5× («སྨྱུར་སྨད», «བཀོད»: Yigdzin-1 «མྱུར», «བཀེན»). The links joined to the
+times of the day and night, one to each of the twelve hours that WB names
+for the Chinese reckoning on p. 359 ([weighing.md](weighing.md), *The
+hour of rule 2*: *nam phyed* the mouse, *phyed yol* the ox, *tho rangs*
+the tiger, *nam langs* the hare, *nyi shar* the dragon, *nyi dros* the
+snake, *nyi phyed* the horse, *phyed yol* the sheep, *myur smad* the
+monkey, *nyi rgas* the bird, *sa srod* the dog, *srod 'khor* the pig):
+
+| Link | Time as printed | Hour |
+| --- | --- | --- |
+| ignorance | ནམ་ཕྱེད, midnight | mouse |
+| formation | ཡོལ, (midnight's) decline | ox |
+| consciousness | ཐོ་རངས, dawn | tiger |
+| name and form | ནམ་ལངས, daybreak | hare |
+| six sense fields | ཉི་ཤར, sunrise | dragon |
+| contact | དྲོས་འཇམ, the warming | snake |
+| feeling | ཉི་ཕྱེད, noon | horse |
+| craving | ཕྱེད་ཡོལ, noon's decline | sheep |
+| grasping | སྨྱུར་སྨད, late afternoon | monkey |
+| becoming | ཉི་རྒས, the sun's old age | bird |
+| aging and death | སྲོད་འཁོར, as printed | pig |
+| birth | སྲོད་ཡོལ, as printed | dog? |
+
+The last line puts aging and death on *srod 'khor*, the pig's hour, and
+birth on «སྲོད་ཡོལ», a name p. 359 does not have; in the links' order birth
+comes before aging and death and would take *sa srod*, the dog's hour, so
+the line may set the pair in reverse for the metre (open question 19).
+«ལུགས་འབྱུང་ལུགས་ལྡོག»: the links set out in their forward and their reverse
+order, which the verse does not tie to a half of the month or to day and
+night. No work or reading is given for a link's hour; the passage names
+only the times.
+
+### Witnesses and finds
+
+- **Ch. 34 restates the births and the illnesses** (etext only, not read
+  on the scan): work 1, the birth (p. 384, img. 392), «རྟེན་འབྲེལ་བཅུ་གཉིས་སྐྱེས་པའི་རྩིས།
+  །མ་རིག་ལ་སྐྱེས་ཉི་མ་དགུ། །ཟླ་དགུ་ལོ་དགུར་མ་ཤི་ན། …», each link's child with
+  ch. 33's ages, character, years and the day of death, nearly word for
+  word («འདུ་བྱེད་ཉིན་མོ་འཆི་བར་འགྱུར» for ignorance's), so the ages read
+  "ninth day, ninth month, ninth year"; and work 43, examining the sick (p. 416,
+  img. 424), «མ་རིག་(རྟེན་འབྲེལ)པ་ལ་ན་བ་ན། །ཟླ་བ་ཕྱེད་ཚུན་མ་ཤི་ན། །གཟབ་པར་བྱའོ་རིང་ནས་འཚོ། …»,
+  the links' illness lines again before the dates'. Ch. 34's works also
+  name good and bad links among their factors, as KP's boxes do
+  ([white-beryl-ch34.md](white-beryl-ch34.md), [kp-activities.md](kp-activities.md)).
+- **The days of death** close the round: ignorance's child dies on
+  formation's day, formation's on consciousness's, and so on to aging
+  and death's on ignorance's. The lifespans: 81, 81, 62, 81, 64, 63, 60,
+  84, 64, 60, 60, 64 years.
+- **What the readings give for the app** (ROADMAP T2.27): works good and
+  bad, which join the link's lists; washing the head and the body and new
+  clothes, which ch. 34's works for putting on clothes (4) and
+  washing (34) also weigh; the four directions for one's aims; the birth, the loss,
+  the illness (H1) and the remedy for the link's sheet.
+
 ## The hundred feet (*rkang brgya*)
 
 p. 178 (img. 188): «རང་རང་སྐར་མའི་མགོ་ཐོག་ཏུ། །ལྔ་སྒྲ་ཉི་མ་བཅས་པ་ཡི། །གདོང་ཚུགས་གཡས་གཡོན་མཆེ་བ་བཅས། །རྐང་བརྒྱའི་རེའུ་མིག་ཇི་བཞིན་བཀོད།»
@@ -284,9 +681,11 @@ are read against a person's name: p. 305 (vol. 2) gives the stage of the
 name's vowel on a day (child somewhat good, youth better, prime best,
 old bad, dead: begin no work) and five death combinations of date class,
 weekday, mansion and vowel; the app does not ask for a name, and the
-owner declined to (2026-10-10), so neither is built. A link is a birth
-sign in WB (vol. 2, p. 384), but the *kun phan me long*'s boxes name links
-for works ([kp-activities.md](kp-activities.md)), which the app now weighs.
+owner declined to (2026-10-10), so neither is built. The links are read
+against the day: WB reads each link's day (vol. 2, pp. 351–356, *WB's
+days of the twelve links (RD1)* above; not yet built, ROADMAP T2.27), and
+the *kun phan me long*'s boxes name links for works
+([kp-activities.md](kp-activities.md)), which the app now weighs.
 
 **The hundred feet**, ch. 12, read on the Zhol print (WBZ img. 133–136,
 3770 px, with Yigdzin-1; 1996 vol. 1 pp. 96–99, etext page − 10):
