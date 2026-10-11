@@ -21,22 +21,23 @@ with the one that gives it a use. "Later" is not ranked.
 | --- | --- | --- | --- | --- |
 | 1 | T3 Element colours — built 2026-10-09 | S | The day sign moved to the Lunar day section, its element in colour | — |
 | 2 | L4 Hosted Weblate | S | The repository is ready (docs/weblate.md); the project, its three components and the review rules are set up on Weblate with the owner's account; the translating itself is outside the code and open-ended | Not before 2026-12-28 (three months of development, for the Libre plan) |
-| 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | — |
+| 3 | L3 Russian | S | Translated and passing `CatalogTest`, with the store listing and the language switch; what is left is the owner's read-through on the phone and the fixes it brings | X1–X10, which reword every reading, so the owner reads them once |
 | 4 | T2 The Tibetan page's gaps | L | The page's readings are built, the hour of KP's rule 2 too (T2.4, built 2026-10-10): a work plan of nine items below, T2.1–T2.9 built; then WB above all (T2.10–T2.18): WB's seasons (built), its almanac page (built; it added T2.20 the times within the day (built), T2.21 the month's own entries (built), T2.22 the *dbyangs 'char* entries and twelve links (built), T2.23 the five planets and the *byed rtsis* (built: the eclipses; the rest left out by the owner's rule)), WB's day animals (T2.24, built 2026-10-10), the burning dates (built), the eight classes' and nāgas' strikes, 11/6 (built), hair by date (built), the la's place (built), Russian terms (built) | — |
 | 5 | E Election: the best day for a work — built 2026-10-09 | L | E1–E6 built (SPEC §5.13, §5.14, §7.6, §10.8): the day's weighing read across days for one work, best first, with the hours of each month, the works' own rising signs of WB ch. 34 first; on the 旧暦 page the annotations' days for it, unranked (E5) | — |
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
-| 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 first, so the screenshots are retaken once |
+| 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line | — |
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
-| 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18, so the rows it measures are final |
+| 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape; 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 
 ## Blocks
 
@@ -65,7 +66,7 @@ moves up as soon as it is unblocked.
 | <a id="block-12"></a>12 | [M1](#m1) Meditation timer and bell — built 2026-10-09 | — | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | <a id="block-13"></a>13 | [T4](#t4) + [T5](#t5) Element calculation and gender — built 2026-10-09 | — | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | <a id="block-14"></a>14 | [T2.4](#t2-4)'s reading half + [T2.9](#t2-9) — built 2026-10-10 ([T2.9](#t2-9) 2026-10-09) | — | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
-| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | — | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | — | The blocks before it that change wording, [42](#block-42)–[49](#block-49) above all | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | <a id="block-16"></a>16 | [L4](#l4) Hosted Weblate | — | [15](#block-15); not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 | <a id="block-17"></a>17 | [T2.20](#t2-20) The times within the day — built 2026-10-09 | — | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
 | <a id="block-18"></a>18 | [T2.21](#t2-21) The month's own entries — built 2026-10-10 | — | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
@@ -74,24 +75,32 @@ moves up as soon as it is unblocked.
 | <a id="block-21"></a>21 | [U6](#u6) The page in the order of strength — built 2026-10-09 | — | [3](#block-3) | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
-| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | [RD1](#rd1) | — | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
-| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | — ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
-| <a id="block-26"></a>26 | [H1](#h1) The health screen | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | — | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions. |
+| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
+| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
-| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
+| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
-| <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
+| <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
+| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
+| <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
+| <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
+| <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
+| <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
+| <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
+| <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
+| <a id="block-49"></a>49 | [X10](#x10) The rest, and the year sheet | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links, the mewa and the year sheet in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. |
 
 ## Readings
 
@@ -910,7 +919,7 @@ verdict, and the owner's decisions of 2026-10-10:
   *bla mkhyen*'s, each opening its reading and works; the month balloon's
   long entries move into its tab where the owner says. The day page shows
   the year's and month's earth lords through the works they decide.
-- **Block.** [25](#block-25); reads [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6); waits on D4.
+- **Block.** [25](#block-25); reads [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6); waits on D4, and on [42](#block-42) for the shape its readings are written in ([X1](#x1)).
   [30](#block-30) (P3) waits on it.
 - **Done when.** Vectors from the model almanac's month heads (vol. 1,
   pp. 154–171) where it draws them; `DaySummaryTest`'s counts updated;
@@ -938,7 +947,8 @@ verdict, and the owner's decisions of 2026-10-10:
   they add at most the hour's link to the hours panel, and only once
   question 19 settles the last two.
 - **Block.** [24](#block-24); reads [RD1](#rd1), which [26](#block-26) (H1)
-  reads too for the links' illness lines.
+  reads too for the links' illness lines; builds on [42](#block-42) for
+  the shape its readings are written in ([X1](#x1)).
 - **Done when.** A test pins each link's lists to the scan reading;
   `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
 
@@ -1502,6 +1512,315 @@ W1 build on them (below).
   times on each page and not a fourth, and not after a tap on it; both
   languages; `TranslationsTest`; SPEC §10.2.
 
+### <a id="x"></a>X1–X10. The readings' wording — planned 2026-10-11
+
+An analysis of every reading the Tibetan page's sheets open (the build of
+25ec842: 459 readings of the catalog's Tibetan families, the year sheet's
+beside them). Sound in substance, weak in shape. Each reading is one
+paragraph in its source's order, so the sentence the reader opened the
+sheet for comes in the middle or at the end: a lunar date gives three
+names before any meaning, a weekday opens with caste, colour and element,
+the astrologer spirit's reading explains its mechanism twice around its
+"Today". Facts the day cannot use stand in the main text at full length:
+the la's seat in the body and in livestock closes all 30 lunar dates in
+the same 30 words, the hearth god's sentence stands in all 12 earth-lord
+days, the mansions end in "Planet: Sun. Foods: meat and honey", and the
+earth lords' date tables are written out as prose, the eight classes' in
+529 words, the sky dog's in 435, the nāgas' in 391. The weight is upside
+down: the combination, the strongest voice, gets fourteen words of verse
+tag ("Fear of illness."), the unweighed earth lords the longest texts.
+Yoga readings open with the verse's headword as if it were the ruling
+("Death in prison.", "Meeting a woman friend."). The ruling words vary
+(good, auspicious, succeed, turn out well, virtuous; bad, avoided,
+shunned, given up at once). The app's own mechanics sit inside the
+source's text ("so with a birth date set the day in brief gives you no
+list of good works on it", "the works below"). Prose and lists disagree
+without a word of explanation (date 1 says "good for pacifying rites,
+crafts, games and all white work", its Good-for list says setting out,
+lawsuits, breaking ground, war not east). Editor's notes stand as text
+("not identified", "the two rendered word for word", "which the print
+spells 'yellow rope'"). And lists of named spirits with their brackets
+cannot be scanned in a sentence, though the same words read well in a
+row. Counts: 54 readings over 100 words, 9 over 200; "spring counted
+from the 11th month" 23 times; the la's sentence 30 times.
+
+**The shape** every reading takes, set as a rule once ([X1](#x1)),
+carried by the catalog and the sheet ([X2](#x2)), then applied family by
+family ([X3](#x3)–[X10](#x10)), the heaviest voices and the longest
+texts first:
+
+1. **The ruling first.** The paragraph says what this is today and which
+   way it cuts, in one to three sentences of 20 to 60 words, and never
+   repeats a list the sheet shows under it.
+2. **Facts as rows.** Everything else is a labelled row in one fixed
+   order, so a reader who wants the ruling stops after the paragraph and
+   a reader who wants the rest finds each thing in its place.
+3. **How it falls, today only.** The row gives the line that applies to
+   the shown day; the full table stays in `docs/sources/`, which About
+   points to.
+4. **Boilerplate once.** A sentence that is the same in every reading of
+   a family is a row's label or the family's note, not a sentence in
+   each.
+5. **One vocabulary.** The lists' words in prose too; a verse's headword
+   marked as an image, never as the opening ruling.
+6. **Effort by weight.** The combination's readings grow to the shape,
+   the earth lords' shrink to it.
+
+**Decisions (the owner, 2026-10-11):**
+
+- **D6 — the omens stay.** Births, deaths, livestock, the planet's caste
+  and colour, the mansion's foods: the source's content, kept, as the
+  last rows of the sheet and never in the paragraph.
+- **D7 — the title does not count.** SPEC §8.1's bracket rule stays:
+  a word is bracketed at its first mention in each text, and the
+  reading, each row and the sheet's title are each a text of their own,
+  so "earth lord (ས་བདག, sa bdag)" stays in a reading whose title carries
+  it. Uniform where possible: the same word is bracketed the same way
+  everywhere, one English name and one Wylie per word across the catalog
+  and the interface, the few words the texts themselves name two ways
+  (the la weekday, *bla gza'*, which is both the birth animal's luck day
+  and the element's own weekday) listed as the exceptions.
+
+**No reading:** nothing below reads a source anew; every fact stays the
+fact the catalog has, moved and reworded, so no item stands in the
+Readings table. A sentence a rewrite cannot place (an editor's note, an
+unidentified word) goes to its topic file in `docs/sources/`, and to the
+*Left open* table if it is a question.
+
+**Russian follows each item:** the catalog's keys are the same in both
+languages (SPEC §8.2), so each family's rewrite carries its Russian,
+checked against the source as the project's read-through did, and
+[L3](#l3)'s read-through on the phone ([15](#block-15)) waits on all of
+X, so that the owner reads the wording once. The blocks are
+[42](#block-42) to [49](#block-49); [24](#block-24), [25](#block-25) and
+[26](#block-26) write their new readings in the shape from the start;
+[33](#block-33) and [40](#block-40) build on the sheet's new rows.
+
+#### <a id="x1"></a>X1 The shape rule
+
+- **Gap.** SPEC §8.1 says what a reading may not contain, a source or an
+  unnamed Tibetan word, and nothing about its order, its length or its
+  words; 459 readings in as many shapes.
+- **Work.** SPEC §8.1 gains *The shape of a reading*, the six points
+  above in full: the paragraph's content and bounds; the rows and their
+  order, with these labels: *Also called* · *Strong when* · *Setting out*
+  · *Remedy* · *Spirits that harm* · *Illness* · *Rites* · *La today* ·
+  *A birth today* · *A death today* · *Livestock* · *How it falls* ·
+  *Another view*, the Good-for and Avoid lists between the paragraph and
+  the rows as now, the engine's workings rows (how it was counted) last;
+  the vocabulary, "goes well" and "goes badly" for a work in prose,
+  "Good for" and "Avoid" the lists, "Remedy:" in the imperative, "its
+  image is …" for a verse's headword; nothing about the app in a
+  reading, the app's rules being notes in `strings.xml`
+  (`brief_outweighed_note`, `brief_avoid_all_note`) under the gloss;
+  boilerplate once, as a family note (`reading.<Family>` filled with
+  {0}) or a row's label. D6 and D7 above as the rule's words. SPEC §10.3
+  describes the sheet in the new order. Three readings rewritten to the
+  rule stand in the spec as its examples: lunar date 1, Sunday and the
+  lesser black day.
+- **Block.** [42](#block-42); no reading; waits on no build.
+- **Done when.** SPEC §8.1 and §10.3 say it, the examples included, and
+  the owner has read them.
+
+#### <a id="x2"></a>X2 Rows in the catalog and on the sheet
+
+- **Gap.** `Reading` holds one summary key and two lists; the sheet's
+  rows (`Annotation.details`, `DetailsBlock`) are built in the UI from
+  engine values and carry no text from the catalog, so every fact of a
+  reading has to be a sentence of its paragraph.
+- **Work.** `Reading` gains rows: `reading.<key>.<row>` in the catalog,
+  `<row>` one of X1's labels' keys (`also_called`, `strong`,
+  `setting_out`, `remedy`, `spirits`, `illness`, `rites`, `la`, `birth`,
+  `death`, `livestock`, `falls`, `other_view`), the label a catalog term
+  of its own so that it translates; a row takes {0} as the summary does,
+  for the today-line of *How it falls*. `ReadingBody` shows them after
+  the lists in X1's order, the workings rows last, each row's label in
+  the details block's column. `CatalogTest` holds the shape: every row
+  key one of the list; the Russian has every row the English has; no
+  paragraph over 60 words; no reading containing "the lists", "below",
+  "the day in brief", "not identified", "word for word" or "the print";
+  and D7's uniformity, one script-and-Wylie bracket per English name
+  and one English name per Wylie across the catalog, the interface and
+  the listing, with the listed exceptions. SPEC §8.2.
+- **Block.** [42](#block-42) with X1; no reading; waits on no build.
+- **Done when.** A reading with rows on the emulator in both languages
+  at font scale 1.0 and 1.3, the label column holding the longest label
+  in each; the tests above, which fail on the catalog as it stands and
+  pass family by family as X3–X10 are built, so each item's "Done when"
+  is its family removed from the test's allowance.
+
+#### <a id="x3"></a>X3 The lunar dates
+
+- **Gap.** Thirty readings of 60 to 90 words: the class's three names
+  first, the ruling after the colon, then births, deaths, livestock,
+  and the la's 30-word sentence; the empty days' remedy inside the
+  ruling; "Also to avoid: flood dikes" repeating the Avoid list; the
+  29th's print note.
+- **Work.** Paragraph: the class with its ruling ("A virtuous day, the
+  day of joy (དགའ་བ, dga' ba): pacifying rites, crafts, games and all
+  white work go well"), the perilous-day sentence kept in it since it
+  changes the ruling. Rows: *Also called* (Nandā), *Remedy* (the empty
+  and full days'), *La today* (the seat in the body and in livestock,
+  with the treatment line), *A birth today*, *A death today*,
+  *Livestock*; the flood dikes left to the list; the print note to
+  [lunar-dates.md](sources/lunar-dates.md). The hair date and the
+  washing result stay the details they are.
+- **Block.** [43](#block-43); no reading; builds on [42](#block-42).
+- **Done when.** The 30 readings and their Russian; dates 1, 4, 8 and
+  15 on the emulator in both languages; `CatalogTest` without the
+  family's allowance.
+
+#### <a id="x4"></a>X4 The weekdays and the goddesses' days
+
+- **Gap.** A weekday's 100 words open with the planet's caste, colour
+  and element and end with births and deaths; the one prohibition that
+  rules the day ("hold no funeral on it: it is the door of heaven")
+  stands sixth. A trigram's day packs the spirits and their brackets,
+  the illness and the rites into one sentence each.
+- **Work.** Weekday: paragraph the planet, setting out, the planet's own
+  prohibition with its reason, and the closing verse's days of no
+  virtuous work; rows *Strong when*, the planet's line as *Also called*
+  ("the la weekday (བླ་གཟའ, bla gza') of kings; royal caste; peaceful;
+  pale red; fire"), *A birth today*, *A death today*. Goddess's day:
+  paragraph the goddess and what an illness that comes on it is traced
+  to; rows *Spirits that harm*, *Illness*, *Rites*.
+- **Block.** [43](#block-43) with X3; builds on [42](#block-42).
+- **Done when.** The 7 and the 8 with their Russian; Sunday and the
+  fire trigram's day on the emulator in both languages; `CatalogTest`
+  without the family's allowance.
+
+#### <a id="x5"></a>X5 The combination and the special days
+
+- **Gap.** The strongest voice has the thinnest text: the 28 named
+  combinations are verse tags of 10 to 20 words ("Fear of illness.",
+  "Understand it as pounding: … heads are broken"), the element pairs
+  close with "Of the ten, it is among the three that sustain (གསོ་ཐུབ, gso
+  thub), which come after the three good" nine times over, the paired
+  and the avoid-entirely combinations each describe the other in a
+  sentence that cannot be followed, the burning date's reading is the
+  table of all seven weekdays' dates, and the Vajra Treatise's days
+  repeat their preamble five times.
+- **Work.** Named combination: the paragraph says what the day brings
+  and which way it cuts, the tag's image marked as an image where it is
+  one. Element pair: the rank as a row ("*Rank* · one of the three
+  good"). Special days: the cross-reference between the paired and the
+  avoid-entirely combinations said once, plainly, in each; the demon
+  days' seven works as a row. Burning date: the paragraph the ruling,
+  *How it falls* today's pair ("Sunday and the 12th") and *Remedy* its
+  own. Vajra Treatise: the preamble as the family note. The five special
+  dates and the eleven festivals checked for the shape, their length
+  already right.
+- **Block.** [44](#block-44); no reading; builds on [42](#block-42).
+- **Done when.** The 28, 10, 15, 5 and 11 and the burning date with
+  their Russian; the combination sheet on a day where the parts agree
+  and one where they disagree, on the emulator in both languages;
+  `CatalogTest` without the families' allowance.
+
+#### <a id="x6"></a>X6 The yogas, the karaṇa and the mansions
+
+- **Gap.** A yoga opens with its verse's headword as the ruling ("Death
+  in prison.", "Middling: leprosy breaks out.") and ends with the hours
+  to avoid at its start in a sentence; a mansion's paragraph lists the
+  verse's works the lists repeat, then its nature, planet and foods, and
+  three mansions carry a note on the list of classes.
+- **Work.** Yoga: the ruling first ("Avoid it for its whole length: …"),
+  the headword as "its image is death in prison" after; the avoided
+  start as a row (*Avoid its start* · "the first three chutsö (ཆུ་ཚོད, chu
+  tshod), 1 h 12 min"). Mansion: the paragraph its nature and what it
+  suits; rows *Planet*, *Foods*, and the class note as *Another view*;
+  the family's note on verse and lists kept as the one place that
+  explains the two lists. The karaṇa's one reading checked.
+- **Block.** [45](#block-45); no reading; builds on [42](#block-42).
+- **Done when.** The 27, 28 and 1 with their Russian; Parigha and Hasta
+  on the emulator in both languages; `CatalogTest` without the
+  families' allowance.
+
+#### <a id="x7"></a>X7 The earth lords, Rāhu and the month's entries
+
+- **Gap.** The longest texts of the page, unweighed: 98 earth-lord
+  readings of up to 529 words, each a calendar in prose ("in spring the
+  8th, 7th and 4th of the three months in turn, in summer the 7th, 7th
+  and 26th …"), "spring counted from the 11th month" 23 times, the
+  hearth god's sentence in all 12 animal days; Rāhu's hourly course in
+  two readings; the great black day's table before its ruling; the
+  black month's 263 words; the eclipses' arithmetic inside the reading.
+- **Work.** Paragraph: the earth lord and its ruling on the shown day
+  ("Avoid works for the dead, a bride, consecration, feasts and funeral
+  rites, and above all sending wealth out of the house"). Rows: *How it
+  falls* with today's line only ("the 8th, 18th and 28th of the spring
+  months; today the 8th of the first month of spring"), which needs the
+  engine to hand each course the date and season it matched
+  (`EarthLordCourse`, `MonthEntries`; most readings take {0} already);
+  *Remedy*; *Another view* for the other courses, each a line, the
+  tables to [earth-lords.md](sources/earth-lords.md); the animal days'
+  hearth god and Serdzö Serpo as one row; Rāhu's hourly course once, in
+  the family note; the eclipses' limits as a row. The great black day,
+  the black month, Kikang's, the sage's and the pig's days and the comet
+  the same.
+- **Block.** [46](#block-46); no reading; builds on [42](#block-42).
+- **Done when.** The 98, 61 and the month's entries with their Russian;
+  no reading over 60 words; the lesser black day, the eight classes and
+  the sky door on the emulator in both languages, each *How it falls*
+  row naming the shown day's line; `EarthLordCoursesTest` unchanged;
+  `CatalogTest` without the families' allowance.
+
+#### <a id="x8"></a>X8 Your day
+
+- **Gap.** "One of your six personal mansions, by the animal of your
+  birth year" opens all six; two readings end in the app's mechanics
+  ("so with a birth date set the day in brief gives you no list of good
+  works on it"); the hundred feet's 229 words explain the wheel before
+  the day's result; the kinship note describes the app's screens.
+- **Work.** The family sentence as the family note; the app's
+  mechanics left to `brief_avoid_all_note`; the hundred feet's paragraph
+  the day's result, the wheel and the six places as rows; the own days'
+  and the kinship's app sentences out. The personal days, the own days,
+  the personal mansions, the kinship, the hundred feet, the spear and
+  the great spear.
+- **Block.** [47](#block-47); no reading; builds on [42](#block-42).
+- **Done when.** The 29 with their Russian; Your day on the enemy
+  weekday and on a hundred-feet day on the emulator in both languages;
+  `CatalogTest` without the families' allowance.
+
+#### <a id="x9"></a>X9 The hours panel
+
+- **Gap.** The sky dog of the hour is 435 words, its twelve places and
+  what each forbids; the earth lords of the hour 221; the astrologer
+  spirit's five texts in both its day's and its hour's reading; the
+  earth king's other way a reading of its own; the combination period's
+  thirteen readings already in shape.
+- **Work.** The sky dog: the paragraph this hour's place and its ruling,
+  the twelve places a row each or the table in
+  [earth-lords.md](sources/earth-lords.md); the earth lords of the hour
+  the same; the five texts once, in the day's reading, the hour's
+  pointing to it in a sentence; the black hour, the rough times, the own
+  year's hour, the hidden earth lords and the nectar periods to the
+  shape.
+- **Block.** [48](#block-48); no reading; builds on [42](#block-42).
+- **Done when.** The panel's readings with their Russian; an hour with
+  the sky dog, the black hour and a nectar period on the emulator in
+  both languages; `CatalogTest` without the families' allowance.
+
+#### <a id="x10"></a>X10 The rest, and the year sheet
+
+- **Gap.** The astrologer spirit's day reading (190 words) explains its
+  count before and after its "Today"; the twelve links (175) and the
+  date's mewa give the table's rule before the day's link; the year
+  sheet's readings are verses (the pebbles, the nine-multiples, the
+  harsh years, the sectors) with their remedies inside them.
+- **Work.** The astrologer spirit, the links and the mewa to the shape,
+  the count as *How it falls*; the year sheet's verses stay verses (D6),
+  each with its ruling line first and its remedy as a row, uniform where
+  possible, with the hours' and the day's readings. The festivals and
+  the special dates were checked in X5.
+- **Block.** [49](#block-49); no reading; builds on [42](#block-42) and
+  comes last, as the lightest.
+- **Done when.** The readings with their Russian; the astrologer spirit's
+  row, the link's and the year sheet on the emulator in both languages;
+  `CatalogTest` with no allowance left; store shot 3 retaken in both
+  languages, since it shows a reading opened; the listing's "every
+  reading explained" line read against a sheet.
+
 ## Election
 
 ### E. The best day for a work
@@ -1747,8 +2066,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   the grey dot where WB does not reckon it. Your day links to the screen.
   Whether the enemy and grave mansions are absolute as the enemy weekday
   is (E6) is settled from the text: p. 338 names the weekday only.
-- **Block.** [26](#block-26); reads [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10); waits on no
-  build.
+- **Block.** [26](#block-26); reads [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10); builds on
+  [42](#block-42) for the shape its readings are written in ([X1](#x1)).
 - **Done when.** Vectors for the test birth date (1976-06-01, life force
   earth); `CatalogTest`; SPEC §5.8, §8.3, §10.3, §10.5; both languages
   on the emulator; one line on the screen that its readings are the
@@ -1966,8 +2285,9 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   and not taken: System for new installs, an install told apart by a
   stored calendar preference, Ink for updates.
 - **Block.** [33](#block-33) for System, Ink, Paper and Night, building
-  on [34](#block-34); [38](#block-38) for Maroon and Sepia, building on
-  33; no reading.
+  on [34](#block-34) and on [42](#block-42) (the sheet's rows, [X2](#x2),
+  which store shot 3 shows); [38](#block-38) for Maroon and Sepia,
+  building on 33; no reading.
 - **Done when** (each block, for its themes). `PaletteTest` holds every
   theme to its contrast: text and muted at 4.5:1 at least on ink,
   surface and raised, faint and the mark tones at 3:1, the tones
@@ -1999,8 +2319,9 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   capped width centred; diagrams that scale with the sheet's width up to
   360 dp; the dial and the boards keep their tap targets. SPEC §10.1
   gains a line on scale and width.
-- **Block.** [40](#block-40); no reading; builds on [34](#block-34) and
-  [36](#block-36), so that the rows it measures are final.
+- **Block.** [40](#block-40); no reading; builds on [34](#block-34),
+  [36](#block-36) and [42](#block-42) (the sheets' label column,
+  [X2](#x2)), so that the rows it measures are final.
 - **Done when.** The emulator at font scale 1.0, 1.3, 1.5 and 2.0 and in
   landscape, and a tablet AVD at 800 dp: both pages, the brief, the hours
   panel, the election and meditation screens, no clipping or overlap, in
@@ -2080,7 +2401,8 @@ Built: the interface strings, the catalog and the ru-RU store listing, with
 the language switch in the menu (SPEC §8.2, §10.5).
 
 - Done when the owner has read the app in Russian on the phone and the
-  fixes that brings are in.
+  fixes that brings are in; after [X1](#x1)–[X10](#x10) ([42](#block-42)–[49](#block-49)),
+  which reword every reading, so that the wording is read once.
 - **The project's read-through, built 2026-10-10** (the owner asked for
   it ahead of their own): every string of `values-ru/strings.xml` and
   `texts_ru.properties` read against the English, and every row and sheet
