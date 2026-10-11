@@ -10,7 +10,7 @@ the wrong word). It is knowledge about the spirits, not calendar logic, so
 sources beyond WB stand here (the owner, 2026-10-08); WB's passages below
 are from BDRC's etext of the 1996 edition (vol. 1 printed page = etext
 page − 10, vol. 2 − 8) and **not yet read on the scan**, except the
-household reckoning, pp. 305–306 (O6, 2026-10-11).
+household reckoning, pp. 305–306, and p. 301 (O6, 2026-10-11).
 
 ## The word
 
@@ -65,7 +65,8 @@ household reckoning, pp. 305–306 (O6, 2026-10-11).
 | --- | --- | --- |
 | *chung sri* | small children: "the *gdon* or *sri* that makes children die young" | Tshig mdzod chen mo; WB vol. 1, pp. 244, 458–462 ("rises", *ldang*) |
 | *dar sri* | people in their prime: "the *sri* of those who die in their prime" | Tshig mdzod chen mo; WB vol. 1, p. 301, vol. 2, pp. 3, 8 |
-| *rgan sri* | the old | Jim Valby; WB vol. 1, p. 301 |
+| *rgan sri* | the old | Jim Valby; WB vol. 1, p. 301 (on the scan) |
+| *mo sri* | — (one of WB's eight roots of demons) | WB vol. 1, p. 301 (on the scan) |
 | *dgra sri* | an enemy who comes again "at the time of year an enemy came before" | Tshig mdzod chen mo; WB in many works (*dgra sri mnan*) |
 | *'phung sri* (*phung sri*) | ruin of a household, "recurrent calamity"; it "rises" over goods and wealth | Rangjung Yeshe, Tshig mdzod chen mo; WB vol. 1, pp. 382, 387 |
 | *god sri* | losses of livestock and goods | WB vol. 1, pp. 306, 387, vol. 2, pp. 9–12 |
@@ -93,6 +94,14 @@ Between them the scan has «འདྲེ་རུ་ལྷ་སྲིན་ས�
 gods and demons great, where the etext has «སྡེ་བརྒྱུད་ཚེ»; the etext writes
 «ཚེ» for «ཆེ» elsewhere on the page too («མ་མོ་ཆེ»). Not settled on the
 scan: the *'phung sri*'s epithet (the etext «རྔ་ཞོན»).
+
+WB vol. 1, p. 301 (img. 311, read on the scan, O6, 2026-10-11) presses
+down the *rgan sri* («གཡོ་འཁྲུག་གུང་ཕུར་རྒན་སྲི་མནན») and, "to recognise the
+faults of the debt" («རྒྱ་མའི་ལན་སྐྱོན་ངོས་བཟུང་ཕྱིར»; the etext «རྒྱུ་མའི»),
+counts eight roots of the demons of existence (*srid pa'i 'dre rtsa
+brgyad*): first the widow god's *chung sri* («ཡུགས་མ་ལྷ་ཡི་ཆུང་སྲིས་གཅིག»),
+seventh a *mo sri*, the female *sri* («མོ་སྲི་ཡུགས་བདུན»), eighth the widow
+god's *chung sri* again («བརྒྱད་དོ་ཡུགས་མ་ལྷའི་ཆུང་སྲི»).
 
 ## The rites that avert them
 

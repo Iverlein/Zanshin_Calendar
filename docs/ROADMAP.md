@@ -150,7 +150,7 @@ written down as a dead end (sources/PLAN.md).
 | <a id="o3"></a>O3 | The hair dates' 9th, «མོད་འགྱུར» | [hair-dates.md](sources/hair-dates.md) | [T2.15](#t2-15) |
 | <a id="o4"></a>O4 | Open question 18: the places WB's Mercury and Venus clause compares at an eclipse (vol. 1, p. 64); searched without result 2026-10-10 | [open-questions.md](sources/open-questions.md) | [T2.23](#t2-23) |
 | <a id="o5"></a>O5 | Open question 1: the yoga ranking's «རང་སྐྱེས» line; no reading found; not planned | [open-questions.md](sources/open-questions.md) | — |
-| <a id="o6"></a>O6 | WB's passages on the *sri*, from the etext only (the household reckoning, vol. 1 pp. 305–306, read on the scan 2026-10-11; pp. 244, 301, 382, 387, 418, 425–427, 458–462 and vol. 2 left) | [sri.md](sources/sri.md) | the *sri*'s name |
+| <a id="o6"></a>O6 | WB's passages on the *sri*, from the etext only (the household reckoning, vol. 1 pp. 305–306, and p. 301's *rgan sri*, read on the scan 2026-10-11; p. 301's *dar sri*, pp. 244, 382, 387, 418, 425–427, 458–462 and vol. 2 left) | [sri.md](sources/sri.md) | the *sri*'s name |
 | <a id="o7"></a>O7 | The weekdays' verses, by machine with corrections, not by eye syllable by syllable (the lists were settled on the scan) | [weekdays.md](sources/weekdays.md) | T2 |
 | <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable | [earth-lords.md](sources/earth-lords.md) | T2 |
 | <a id="o9"></a>O9 | The four times of Māra's manual, from the etext only (its scans are open) | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
