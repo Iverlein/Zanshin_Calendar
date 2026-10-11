@@ -1,0 +1,107 @@
+# White Beryl: its chapters, and what the app has read of each
+
+Sigla, numbering and quoting rules are in [README.md](README.md). WB, the
+1996 Beijing edition (BDRC MW2CZ8040), two volumes: vol. 1 (*stod cha*,
+scans I1KG12906), printed page = image number − 10; vol. 2 (*smad cha*,
+scans I1KG12907), printed page = image number − 8.
+
+**How this was made** (2026-10-11): the chapter list and first pages are
+the two volumes' contents pages (vol. 1, img. 11; vol. 2, img. 9) in
+BDRC's etext (IE0OPI51524892), and for chapters 19–26, whose contents page
+the OCR lost, the chapter headings in the etext. **Not read on the
+scan**; the titles are given in brief English with their key words, not
+quoted. The last column names the topic files that cite pages of the
+chapter (a search of the repository for "vol. N, p. X"); a chapter with
+none has not been opened for the app.
+
+## Vol. 1
+
+| Ch. | Pages (img.) | What it holds, by its title | Read for the app |
+| --- | --- | --- | --- |
+| 1 | 3–13 (13–23) | Mount Meru, the forming of the world and its beings (*lhun po snod bcud chags tshul*) | — |
+| 2 | 14–21 (24–31) | Preliminaries: the essentials of the star reckoning, the Chinese reckoning and the *dbyangs 'char* | [day-letters.md](day-letters.md) (pp. 16–19: the letters, the months as the twelve links) |
+| 3 | 22–28 (32–38) | The chronology of the doctrine (*bstan rtsis*) | — |
+| 4 | 29–33 (39–43) | The five limbs of the *byed rtsis* and *grub rtsis* | SPEC §8.3 (pp. 31–32, the *byed rtsis* for the eclipses, T2.23) |
+| 5 | 34–36 (44–46) | Rāhu, the *byed* year, the Kar myang reckoning | [day-letters.md](day-letters.md); the Lord's meeting (p. 36) read and left out (T2.23) |
+| 6 | 37–41 (47–51) | The five planets, the days of the planets | the four motions (p. 40) read and left out (T2.23) |
+| 7 | 42–50 (52–60) | The five planets reckoned exactly (*tshes spyod*) | — (the app's planets are Henning's TCG, T2.23) |
+| 8 | 51–55 (61–65) | The *dus sbyor* | — |
+| 9 | 56–69 (66–79) | How Rāhu seizes the sun and moon: eclipses | [month-entries.md](month-entries.md), [open-questions.md](open-questions.md) 18 (pp. 62, 64) |
+| 10 | 70–78 (80–88) | Making new tables and keeping the old | — |
+| 11 | 79–90 (89–100) | Quick reckoning of the tables | — |
+| 12 | 91–103 (101–113) | A drop of the *g.yul rgyal* tantra's sea, for the *dbyangs 'char* | [day-letters.md](day-letters.md) (pp. 96–99: the hundred feet), [personal-mansions.md](personal-mansions.md) |
+| 13 | 104–173 (114–183) | The almanac's fixed matter (*gtan le*): the cycles, years, months and dates, the earth lords' places, the sme ba, the elements, the twelve links; the model almanac (pp. 154–171) | [combinations.md](combinations.md) (pp. 148–149), [day-letters.md](day-letters.md) (pp. 150–153), [tibetastromed.md](tibetastromed.md) (the model almanac), [almanac-page.md](almanac-page.md) (p. 173) |
+| 14 | 174–179 (184–189) | Making the full, middle and short almanacs | [almanac-page.md](almanac-page.md); the year's front matter (pp. 174–176) not inventoried (ROADMAP RD2) |
+| 15 | 180–183 (190–193) | The sign entries, breath terms, leap months: joining the Indian and Chinese reckonings | [almanac-page.md](almanac-page.md), *The times within the day* |
+| 16 | 184–189 (194–199) | The solstice wheel and the like | [month-entries.md](month-entries.md) (the sage's and pig's seven days, the comet) |
+| 17 | 190–197 (200–207) | The three kinds of day (*zhag gsum*) | [earth-lords.md](earth-lords.md) (pp. 190–192, the *sgang* numbered by month) |
+| 18 | 198–212 (208–222) | The sixty years' results, from the *Dus bstan me long* and others | — |
+| 19 | 213–217 (223–227) | Carrying the reckoning forward, and the wheel of the three days | — |
+| 20 | 218–251 (228–261) | The framework of the element reckoning (*'byung rtsis*), as the sūtras and tantras give it | [personal-mansions.md](personal-mansions.md) (p. 232, the turtle and the clans), [sri.md](sri.md); the rest ROADMAP RD10, RD11 |
+| 21 | 252–258 (262–268) | The start of the Chinese reckoning, the *sgang sgril* and the like | [year-of-life.md](year-of-life.md) (pp. 255–258), [personal-mansions.md](personal-mansions.md) (p. 257) |
+| 22 | 259–350 (269–360) | The reckoning of lives and karma (*tshe rabs las rtsis*): the birth | ROADMAP RD13 |
+| 23 | 351–379 (361–389) | The marriage reckoning and the road reckoning (*bag rtsis*, *lam rtsis*) | ROADMAP RD15; outline below |
+| 24 | 380–416 (390–426) | The obstacle reckoning and the Chinese pebbles (*keg rtsis*) | [year-of-life.md](year-of-life.md) (T4); the rest ROADMAP RD14 |
+| 25 | 417–452 (427–462) | The illness reckoning (*nad rtsis*) | [lunar-day-signs.md](lunar-day-signs.md) (pp. 449–450, the trigram's goddesses); the rest ROADMAP RD12 |
+| 26 | 453–473 (463–483) | The thirty Chinese and Tibetan starting points, their pebbles and commentary | ROADMAP RD17 |
+
+## Vol. 2
+
+| Ch. | Pages (img.) | What it holds, by its title | Read for the app |
+| --- | --- | --- | --- |
+| 27 | 3–25 (11–33) | The thirteen Chinese *dpyad lding* or *bal mo'i lding*, and small reckonings | [sri.md](sri.md); the rest ROADMAP RD17 |
+| 28 | 26–43 (34–51) | Various small signs (*rtags phran*) | [month-entries.md](month-entries.md) (p. 29, eclipses as an omen); the rest RD17 |
+| 29 | 44–143 (52–151) | *Zangs kyam* and the like | [earth-lords.md](earth-lords.md), [sri.md](sri.md), [weighing.md](weighing.md); the rest RD17 |
+| 30 | 144–173 (152–181) | The reckoning of the moment (*dus tshod rtsis*), small examinations of the ground and of pebbles | — (the vol. 2, p. 145 in SPEC and month-entries.md is KD's); RD17; outline below |
+| 31 | 174–240 (182–248) | The earth lords that move by year, month, date and hour | [earth-lords.md](earth-lords.md), [earth-lord-courses.md](earth-lord-courses.md), [month-entries.md](month-entries.md); the year's and month's ROADMAP RD3, RD4; outline below |
+| 32 | 241–296 (249–304) | Geomancy, outer and inner, with small remedies (*sa dpyad*) | [open-questions.md](open-questions.md) |
+| 33 | 297–377 (305–385) | The results of the planets, mansions, yogas, karaṇas and the rest | [white-beryl-ch33.md](white-beryl-ch33.md), section by section |
+| 34 | 378–428 (386–436) | The important works one by one | [white-beryl-ch34.md](white-beryl-ch34.md) |
+| 35 | 429–454 (437–462) | The five sciences and the like | — |
+| — | 455–473 (463–481) | The colophon (*mjug byang*) | — |
+| — | 474–541 (482–549) | The notes: *Nag rtsis brjed byang snying po gsal ba*, the difficult points of WB's Chinese reckoning | [personal-mansions.md](personal-mansions.md) (pp. 474, 512), [month-entries.md](month-entries.md) (pp. 484, 486), [lunar-day-signs.md](lunar-day-signs.md) (p. 493), [earth-lords.md](earth-lords.md), [weighing.md](weighing.md) |
+| — | 542– (550–) | An index of the work for easy use (*dkar chag thor bu*) | — |
+
+## Found in passing (2026-10-11, the etext, not read on the scan)
+
+- **Ch. 14, the month's heading** (vol. 1, p. 176, img. 186): it opens
+  with the month's wheel and the charts of the scattered earth lords
+  (*sil ma'i sa bdag*); the row is in [almanac-page.md](almanac-page.md).
+  The year's front matter (pp. 174–176) writes the year's earth lords'
+  charts, the sme ba wheels of this year and the next with the directions
+  to avoid, and Rāhu's and the eight classes' wheels.
+- **Ch. 23** (vol. 1, pp. 351–379): three parts, named at its start
+  (p. 351): whether two people match, the reckoning for setting out on
+  the road (*lam du 'jug pa'i rtsis*, from p. 365, img. 375), and the
+  remedies. The second lists seventeen parts, among them *kham yu*
+  (counted for the man from Kṛttikā down, for the woman from
+  Pūrvaphalgunī, *gre*, up, each by their own years), *byur thog*, the
+  trigram, the sme ba, *'dom sbrags*, the year, the month, the date's
+  animal, the hour, the weekday, the mansion, the earth lords, the
+  direction, the sky dog's own reckoning and receiving the bride (*sna
+  len*). ROADMAP P3, RD15.
+- **Ch. 25** (vol. 1, pp. 417–452): the reckoning is for the sick, from
+  fifteen starting points; pp. 438–439 give each element's illness, the
+  organ and the door where it enters and its signs. ROADMAP H2, RD12.
+- **Ch. 24, bloodletting and moxa** (vol. 1, pp. 403–405, img. 413–415):
+  named among the readings of the year of age's mewa. ROADMAP RD10.
+- **Ch. 30** (vol. 2, pp. 144–173): not the hours of the day but a
+  divination by the moment of asking: dreams first (p. 144), then the
+  caller's signs and words (p. 145). ROADMAP RD17.
+- **Ch. 31** (vol. 2, pp. 174–175, img. 182–183): its own count of the
+  earth lords it names: 102 that stay in their places, whatever the year,
+  month, day or hour (72 abiding, 21 that never move, nine of the nine
+  levels under the earth); then 231 of the year, 124 of the month, 29
+  that move by date with the two black days and the sky doors, and 37 of
+  the hour with Rāhu: the gods of the year, month, day and hour 474 in
+  all («བཞི་བརྒྱ་དོན་བཞི», as the etext reads). The year's from p. 175 (img. 183),
+  the nine black ones (*nag mo dgu skor*) p. 191, the sme ba's nine gods
+  p. 192, the forty-five palace gods p. 195, the sky dog of brides p. 198;
+  the month's from p. 199 (img. 207) to p. 221; the date animal's from
+  p. 222 ([earth-lords.md](earth-lords.md)); the date's courses pp. 226–235
+  ([earth-lord-courses.md](earth-lord-courses.md)); the hour's after.
+  ROADMAP T2.26, RD3, RD4.
+- **Ch. 33, the twelve links' days** (vol. 2, pp. 351–356, img. 359–364):
+  for each link's day, from ignorance, the works good and to avoid, the
+  four directions for one's aims, a birth, a loss, the course of an
+  illness and a remedy. ROADMAP T2.27, RD1.

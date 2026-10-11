@@ -29,9 +29,43 @@ every model they start, even when killed.
 - A negative result is a result: write down what was searched and found
   absent (see *Dead ends* below), so that nobody searches it again.
 - New questions about the texts go into [open-questions.md](open-questions.md),
-  numbered on from the last one; new reading tasks into the work plan
-  (ROADMAP T2).
-- Nothing here is committed without the owner's word (AGENTS.md).
+  numbered on from the last one; new reading tasks into the roadmap's
+  *Readings* (RD…, or O… for what is left open in built work).
+- A reading session commits its topic files without asking, as every
+  session commits its verified work (AGENTS.md); pushing waits for the
+  owner.
+
+## The knowledge pool
+
+A reading session fills `docs/sources/`; nothing it learns is left in the
+conversation or in a scratch directory (the owner, 2026-10-11).
+
+- **The text itself, in Tibetan.** Every passage read for the app goes
+  into its topic file in Tibetan script as it reads on the scan, with
+  edition, page and image number, the English beside it, not instead of
+  it: the whole passage the facts come from, not only the line used, so
+  that the next reader starts from checked text. Where the scan was not
+  read, the machine reading may stand, marked as such (README.md, *How
+  the files quote*). A work under copyright (a modern author's, Dr.
+  Chenagtsang's, KD's essays) is quoted no further than its facts need;
+  the public-domain texts (WB, KP, the classical works) are given in
+  full.
+- **Everything else learned.** A chapter's place and outline, what a
+  passage turns out to be, a count, a cross-reference, a page that proves
+  another text's source: into the topic file it concerns, or
+  [wb-contents.md](wb-contents.md) for WB's structure, the same session,
+  marked etext-only or machine-read where it is. A search with no result
+  goes under *Dead ends*.
+- **Marking a reading done.** In the roadmap's Readings table, "— done
+  YYYY-MM-DD" after its name, only once its topic file holds it, names it
+  ("RD7") and carries the Tibetan it read. `SourcesTest` (core) fails if
+  a done reading's topic file is missing, does not name it or holds no
+  Tibetan, or if a topic file is missing from [README.md](README.md)'s
+  index.
+- **What stays out.** Scans, etexts and downloads stay in the scratch
+  directory, and the unchecked machine transcriptions in `wb/`
+  (gitignored): the repository keeps what was checked, and says where
+  the rest can be fetched again.
 
 ## Tools
 
