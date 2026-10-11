@@ -381,7 +381,9 @@ object EarthLordCourses {
 
     /**
      * The courses on [date] of Hor month [month], whose date's animal is [dayAnimal], in WB's order;
-     * [chineseYear], the animal of the Chinese reckoning's year, for the Paṇchen's black days.
+     * [chineseYear], the animal of the Chinese reckoning's year, for the Paṇchen's black days. Another
+     * view is listed only on a date its course does not give: WB's own course stands, and the view
+     * (*lugs gcig*, p. 229 for *gnam khyi*) adds the dates it alone has.
      */
     fun of(month: Int, date: Int, dayAnimal: Animal, chineseYear: Animal? = null): List<CourseDay> {
         val s = SeasonReckoning.CHINESE.season(month)
@@ -438,6 +440,9 @@ object EarthLordCourses {
             add(CourseDay(EarthLordCourse.GNAM_SGO, CourseEvent.MOVES, s, skyDoor(date)))
             moves(EarthLordCourse.ZHAG_NAG, blackDay(s, dayAnimal))
             moves(EarthLordCourse.ZHAG_NAG, chineseYear != null && ZHAG_NAG_BY_YEAR[chineseYear] == (s to date), OTHER)
+        }.let { all ->
+            // A date the course itself gives is not another view's: its reading says it is not in the first course.
+            all.filterNot { c -> c.otherView && all.any { !it.otherView && it.course == c.course && it.event == c.event } }
         }
     }
 

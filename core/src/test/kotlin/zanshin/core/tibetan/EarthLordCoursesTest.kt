@@ -132,8 +132,13 @@ class EarthLordCoursesTest {
         // Ki kang's second (the tiger month's 17th) and third (the hare month's 22nd); nag chung's winter 9s.
         assertEquals(listOf(EarthLordCourses.OTHER, EarthLordCourses.THIRD), other(11, 17, KI_KANG)); assertEquals(listOf(EarthLordCourses.THIRD), other(12, 22, KI_KANG))
         assertEquals(listOf(EarthLordCourses.OTHER), other(9, 19, NAG_CHUNG)); assertEquals(listOf(EarthLordCourses.OTHER), other(8, 9, NAG_CHUNG))
-        // Phung po zor thogs by season: the middle month of autumn (the 6th) on the 17th; gnam khyi's other: early spring sheep days.
-        assertEquals(listOf(EarthLordCourses.OTHER), other(6, 17, PHUNG_ZOR)); assertEquals(listOf(EarthLordCourses.OTHER), other(11, 5, GNAM_KHYI, Animal.SHEEP))
+        // Phung po zor thogs by season: the middle month of summer (the 3rd) on the 13th; gnam khyi's other: late spring tiger days.
+        assertEquals(listOf(EarthLordCourses.OTHER), other(3, 13, PHUNG_ZOR)); assertEquals(listOf(EarthLordCourses.OTHER), other(1, 5, GNAM_KHYI, Animal.TIGER))
+        // A day both give is the course's own, once: phung po zor thogs on the middle autumn 17th, early spring sheep days, and
+        // every gnam khyi day of the middle month of spring.
+        assertEquals(listOf<String?>(null), on(6, 17).filter { it.course == PHUNG_ZOR }.map { it.variant })
+        assertEquals(listOf(null), on(11, 5, Animal.SHEEP).filter { it.course == GNAM_KHYI }.map { it.variant })
+        assertTrue(Animal.entries.all { a -> on(12, 5, a).none { it.course == GNAM_KHYI && it.otherView } })
         // What some say: the eight classes from the 8th to the 30th of the last autumn month (the 7th), the nāgas on the 15th of the last of summer (the 4th).
         assertEquals(listOf(EarthLordCourses.OTHER), other(7, 12, SDE_BRGYAD)); assertTrue(other(7, 28, SDE_BRGYAD).isEmpty())
         assertEquals(listOf(EarthLordCourses.OTHER), other(4, 15, KLU))
