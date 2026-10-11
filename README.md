@@ -47,7 +47,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   synthesised on the phone, so no sound file is bundled.
 - Every Tibetan term and kanji shows its English on tap; every reading comes
   from a published source, listed in About & sources.
-- Dates from 1900 to 2100. No internet permission: everything is computed on
+- Dates from 1900 to 2100, any month three taps away in the date picker's
+  years and months. No internet permission: everything is computed on
   the phone.
 
 ## Install

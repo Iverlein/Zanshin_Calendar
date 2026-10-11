@@ -33,7 +33,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 12 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
-| 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; the day page's six (block 34) built 2026-10-11 | — |
+| 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
@@ -86,7 +86,7 @@ moves up as soon as it is unblocked.
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
-| <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
+| <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates — built 2026-10-11 | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
@@ -1369,7 +1369,7 @@ W1 build on them (below).
   Checked on the emulator in English and Russian at font scale 1.0 and
   1.3 (11 October 2026, Kyoto); store shots retaken.
 
-#### <a id="u9"></a>U9 The date picker's jump
+#### <a id="u9"></a>U9 The date picker's jump — built 2026-10-11 (SPEC §10.2)
 
 - **Gap.** The picker moves one month per tap of a chevron; 2030 from
   2026 is 48 taps, and the range runs 1900–2100 (SPEC §10.2).
@@ -1381,6 +1381,17 @@ W1 build on them (below).
 - **Done when.** 1900 and 2100 reached in three taps each on the
   emulator; the small figures (Tibetan day, 旧暦 day) and the day marks
   right after a jump; both languages; SPEC §10.2.
+- **Built** 2026-10-11 as planned: the title carries a small chevron; the
+  years run in four columns, opened with the year shown in the third row,
+  the shown year filled in the calendar's accent and this year outlined;
+  the months three to a row, marked the same way; in the months the
+  chevrons move a year, in the years they are hidden and the title goes
+  back to the days. Checked on the emulator in English and Russian, on
+  both pages: January 1900, December 2100, March 2030 and August 1955
+  each reached in three taps (title, year, month) with a scroll of the
+  years between, and every day's small figure and 受死日/天赦日 mark of
+  those four months equal to the engines' (`TibetanCalendar`, `Kyureki`,
+  `Rekichu`) for the same dates, 496 cells in all.
 
 #### <a id="u10"></a>U10 The brief's work rows in the 旧暦 brief's form — built 2026-10-11 (SPEC §10.3)
 
@@ -1567,7 +1578,7 @@ W1 build on them (below).
   cap is `DaySummary.familyRow`, tested over 2026. Checked on both pages
   in English and Russian at 1.0 and 1.3.
 
-#### <a id="u17"></a>U17 The bell's time picker
+#### <a id="u17"></a>U17 The bell's time picker — built 2026-10-11 (SPEC §10.9)
 
 - **Gap.** The bell's From and Until move by half hours on − and +; from
   09:00 to 05:00 is eight taps (SPEC §10.9).
@@ -1578,6 +1589,18 @@ W1 build on them (below).
 - **Done when.** The two pickers on the emulator in English and Russian;
   a time set by the picker rounds to the half hour and the switch's
   subtitle names the next bell from it; `BellTest`; SPEC §10.9.
+- **Built** 2026-10-11: the time between − and + is an outlined button
+  that opens the Material clock in a dialog ("The bell rings from",
+  "The bell rings until"), 24-hour as the app's clock, with the line "Set
+  to the nearest half hour"; a quarter past or to rounds up, from 23:45
+  it stays 23:30, and an end set past the other moves that one half an
+  hour away (`app/.../bell/BellHours.kt`). `BellTest` covers the rounding,
+  the pushed ends (every pair still a valid `BellPlan`) and the subtitle
+  from a picked From, today's and another day's wording. Checked on the
+  emulator in English and Russian: From 05:10 → 05:00, Until 23:50 →
+  23:30, From 23:55 → 23:00 with Until 23:30, Until 00:05 → 00:00–00:30
+  and the subtitle "Next bell at 23:00", "Следующий удар: понедельник,
+  00:00" as each set it.
 
 #### <a id="u18"></a>U18 A first-run line — built 2026-10-11 (SPEC §10.2)
 

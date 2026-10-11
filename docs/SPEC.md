@@ -1898,6 +1898,16 @@ canvas "Zanshin Calendar — basic design".
   to 1900–2100. Under each day it shows the day number in the calendar being
   viewed, a dot on holidays and festivals and, in the 旧暦 view, the day marks
   of §10.4, with a legend whose kanji translate on tap.
+  **The jump** (ROADMAP U9, built 2026-10-11): the month's title, with a
+  small chevron after it, opens the years 1900–2100 as a grid of four
+  columns that scrolls, opened with the year shown in its third row; the
+  year shown is filled in the calendar's accent and this year outlined in
+  it. A year opens its twelve months, three to a row, marked the same way
+  (this month outlined), and a month opens its days. In the months the
+  chevrons move a year, in the days a month as before; in the years they
+  are hidden, and a tap on the title there goes back to the days. Any
+  month of the range is three taps from the days (title, year, month),
+  with a scroll of the years between.
 - Festivals and holidays carry a line glyph drawn for this app.
 - **Local sky line** at the bottom of both calendars (§10.5).
 - **First-run line** (ROADMAP U18, built 2026-10-11): under the In brief
@@ -2558,7 +2568,13 @@ carries no sound file.
   first Begin on Android 13 and later; the timer runs without it.
 - **Mindfulness bell:** off by default. Every 15 to 120 minutes within
   active hours (from and until, by half hours, both ends ringing) on the
-  chosen weekdays; fixed bells fall on the interval counted from the
+  chosen weekdays; From and Until each move a half hour on − and +, and
+  a tap on the time between them opens the Material time picker in the
+  app's colours (ROADMAP U17, built 2026-10-11), 24-hour as the app's
+  clock, its time rounded to the nearest half hour (a quarter past or to
+  rounds up, from 23:45 it stays 23:30); a From set at or after Until
+  moves Until half an hour after it, and an Until at or before From moves
+  From half an hour before it (`BellHours`); fixed bells fall on the interval counted from the
   start of the hours, random ones half to one and a half intervals after
   the last, the first of a day within one interval of the start
   (`BellPlan`). One exact alarm at a time (`USE_EXACT_ALARM`, before
