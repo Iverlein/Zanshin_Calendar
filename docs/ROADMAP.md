@@ -28,7 +28,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
-| 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each | D5, the set and the default |
+| 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each | — (D5 settled 2026-10-11) |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
@@ -79,7 +79,7 @@ moves up as soon as it is unblocked.
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
-| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes | — | — ([D5](#a1), the owner's choice of the set and the default) | Build block 33: A1, the palette as a theme chosen in Settings, with the light theme and the themes D5 settles. |
+| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes | — | — | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper, Night, Maroon and Sepia. |
 
 ## Readings
 
@@ -1694,7 +1694,7 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
     meet a page of their own lightness; the element colours of T3, now
     lightened for the dark page, get a darker set for the light themes,
     each element told apart from the others and from the tones.
-  - **The themes** (D5 below): **System**, Ink or Paper by the phone's
+  - **The themes** (D5, settled): **System**, Ink or Paper by the phone's
     dark setting; **Ink**, today's palette; **Paper**, the light theme,
     a warm off-white page with dark ink; and the pre-built
     alternatives, two dark and one light: **Night**, black for OLED
@@ -1713,10 +1713,9 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   - **Not planned:** Material You's colours taken from the wallpaper:
     the tones and printed colours are chosen against a known page, and
     a wallpaper's page can undo their contrast.
-- **D5 — the owner's choice:** the set of themes and their names (the
-  list above is the proposal), and the default: Ink kept for every
-  install, so that no one's app changes colour on the update
-  (recommended), or System for new installs.
+- **D5 — settled 2026-10-11 (the owner):** the six themes above, by
+  those names, and Ink the default for every install, so that no one's
+  app changes colour on the update.
 - **Block.** [33](#block-33); no reading; waits on no build.
 - **Done when.** `PaletteTest` holds every theme to its contrast: text
   and muted at 4.5:1 at least on ink, surface and raised, faint and the
