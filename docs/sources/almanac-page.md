@@ -27,7 +27,9 @@ The year's front matter (verses of homage, the year's names in Indian,
 Tibetan and Chinese, its element, sme ba and planets, the wheels of the
 *dbyangs 'char*, the year's results from the *Mdo sde gsang ba* to the
 *Kar myang* reckoning, the earth lords' charts) and the middle and short
-almanacs are not day entries and are not inventoried here.
+almanacs are not day entries and are not inventoried here. The year's
+earth lords among them, which name works and directions, are planned with
+the month's (ROADMAP T2.26; WB vol. 2, ch. 31, pp. 175–198).
 
 ## The day's entries, in WB's order
 
@@ -72,6 +74,7 @@ p. 176 (img. 186), written at the head of each month of the full almanac.
 
 | Entry | WB's words | In the app |
 | --- | --- | --- |
+| First, the month's wheel and the charts of the scattered earth lords (*sil ma'i sa bdag*): the month's earth lords of ch. 31 (vol. 2, pp. 199–221), each in its direction with the works to avoid there | «…ཟླ་བའི་འགོར། །ཟླ་བའི་འཁོར་ལོ་དེ་ཡང་ནི། །སིལ་མའི་ས་བདག་ཁྲ་མ་རྣམས། །མི་ནོར་མཚན་མས་འདྲི་བའམ།» (the etext; not yet read on the scan) | planned (**T2.26**): of the month's earth lords only the black months and Kikang's are built ([month-entries.md](month-entries.md)); left out of this table until 2026-10-11 |
 | The month's Kālacakra season (early, middle, late) and the sun's sign; its Chinese season, the 11th month the first of spring, from the tiger | «ཟླ་བཤད་དུས་འཁོར་དུས་བཞི་ཡི། །ར་འབྲིང་ཐ་དང་ཉི་ཁྱིམ་མིང་། །བཅུ་གཅིག་དཔྱིད་ར་སྟག་ནས་བརྩམས» | built (T2.10, the month balloon) |
 | Long or short month, by the days it has | «ཆེ་ཆུང་དབྱེ་བ» | built (T2.21, [month-entries.md](month-entries.md)): thirty days long, fewer short, in the month balloon |
 | The sun's terms, the full moon's mansion, the length of day and night | «དབུགས་ཐོབ་དང་། །སྒང་ཚད་ཁྱིམ་འཕོ་བཅོ་ལྔ་ལ། །རྒྱུ་སྐར་འདི་ཉ་ཉིན་མཚན་ཚད» | the sun's terms built on their dates (T2.20, below); day and night: the app gives the place's own sunrise and sunset (SPEC §6) |

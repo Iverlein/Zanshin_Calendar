@@ -27,6 +27,11 @@ with the one that gives it a use. "Later" is not ranked.
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
+| 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
+| 10 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
+| 11 | H1 The health section | L | The element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings and WB's illness reckoning in one section | — |
+| 12 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
+| 13 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
 
 ## Blocks
 
@@ -62,6 +67,14 @@ moves up as soon as it is unblocked.
 | 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | 22 | T2.24 The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 | 23 | T2.25 The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
+| 24 | T2.27 WB's days of the twelve links | — | Build block 24: T2.27, read WB vol. 2 pp. 351–356 on the scan and join the links' readings to the day's link. |
+| 25 | T2.26 The year's and the month's earth lords | D4, the owner's choice of how they are counted | Build block 25: T2.26, read WB ch. 31's earth lords of the year and the month and build the Year and Month tabs, their works counted. |
+| 26 | H1 The health section | — | Build block 26: H1, read WB on the la, the life force and illness, then build the health section with the element's mansions. |
+| 27 | P1 Relatives | — | Build block 27: P1, the relatives of each saved person. |
+| 28 | R1 The Reckonings section | — | Build block 28: R1, inventory WB's reckonings and open the Reckonings section with the year of age moved into it. |
+| 29 | P2 The natal trigram and the obstacles | 27, 28 | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
+| 30 | P3 The bride's departure | 25, 27 | Build block 30: P3, read WB ch. 23 and build the bride's departure for a couple. |
+| 31 | R2… The reckonings one by one | 28; 27 for those that need relatives | Build block 31: the next reckoning of R1's list. |
 
 ## Tibetan page
 
@@ -472,7 +485,8 @@ it. It is item E below, built 2026-10-09.
   матери» and the birth mansion), and with no birth date (no row).
 - **Left.** The element's mansions by the life force (p. 330, tables
   p. 345: own, mother, friend, child, enemy quarters and the grave
-  mansions), which would put a second row on every day; the mansion of
+  mansions), which would put a second row on every day: planned in the
+  health section (H1, 2026-10-11); the mansion of
   conception (no source defines it); E6's exception for the enemy weekday
   and the death mansion.
 
@@ -777,6 +791,78 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s days against their tone 2,018 to 2,006. Emulator in
   English and Russian (10 and 19 October 2026).
 
+#### T2.26 The year's and the month's earth lords — planned 2026-10-11
+
+- **Gap.** WB's almanac writes, at the head of each month, the month's
+  wheel and the charts of its scattered earth lords (vol. 1, p. 176,
+  img. 186; [almanac-page.md](sources/almanac-page.md), *The month's
+  heading*), and the year's earth lords' charts in the year's front
+  matter (p. 176). Chapter 31 counts 231 earth lords of the year and 124
+  of the month (vol. 2, p. 174, img. 182): the year's from p. 175 (the
+  kings and ministers, the year's *hal khyi* and *sa rgyal*, the black
+  years, the nine black ones, *nag mo dgu skor*, p. 191, the sme ba's
+  nine gods, p. 192, the forty-five palace gods, p. 195, the sky dog male
+  and female); the month's from p. 199 (img. 207: sixty-four bad
+  directions, the black months, *bum stong*, the month's *hal khyi*,
+  *lto 'phye*, the month's *nag mo dgu skor*, the scattered earth lords,
+  *ba dan khra bo*, *snang sel*, *'gram 'phye*, *'gog ku*, the hidden
+  twelve, *lag rdum* …) to the date animal's earth lords (p. 222). Most
+  stay in a direction for the year or the month, with the works to avoid
+  there (a bride, funerals, building, digging) and their remedies. Built
+  so far: the black months and Kikang's (T2.21) and the *bla mkhyen*'s
+  yearly avoidances (vol. 2, p. 180). The list above is the etext's; none
+  of it is read on the scan.
+- **KP names some of them.** The *kun phan me long*'s boxes name works
+  for *se byi*, *hang phan*, *zla klung*, *se shar*, the *se*, *pi ling*,
+  *tsang kun*, *dbul*, *nyi nag* and *gnam stong*, left out as "not
+  calculated" ([kp-activities.md](sources/kp-activities.md)); once they
+  are calculated those entries join the boxes' lists.
+- **Counted** (the owner, 2026-10-11): the works an earth lord names are
+  counted in the weighing, not only shown. **D4**, the owner's choice
+  before the build, since WB's order of strength (vol. 2, p. 376) places
+  no earth lord: their rank (last, with the trigram, the date's mewa and
+  the link, as the boxes' entries are, SPEC §5.12 and T2.25, or another);
+  whether the date's earth lords already built (T2.13's courses, the
+  great black day, the black months and Kikang's, shown and not weighed
+  today) are counted by the same rule; and how a work avoided in one
+  direction counts, as a work qualified by a direction weighs for neither
+  side today (SPEC §5.10).
+- **Work.** Read ch. 31, pp. 175–221, on the scans (PLAN.md) into a topic
+  file: each earth lord with its course (by the year's or month's animal,
+  the season or the year's mewa), its place, works and remedy, and what
+  reckons it; build what is calculable. A sheet with two tabs, **Year**
+  and **Month**, opened from the year's and the month's balloon at its
+  own tab, since the balloons are too small for these: each tab the
+  earth lords of the shown year or month on a compass, as Rāhu's and the
+  *bla mkhyen*'s, each opening its reading and works; the month balloon's
+  long entries move into its tab where the owner says. The day page shows
+  the year's and month's earth lords through the works they decide.
+- **Done when.** Vectors from the model almanac's month heads (vol. 1,
+  pp. 154–171) where it draws them; `DaySummaryTest`'s counts updated;
+  `CatalogTest`; SPEC §5.12, §5.13, §10.3; both tabs and the page checked
+  on the emulator in English and Russian; the release build checked.
+
+#### T2.27 WB's days of the twelve links — planned 2026-10-11
+
+- **Gap.** T2.22 counts the day's link by vol. 1's table, and T2.25 weighs
+  it by the *kun phan me long*'s boxes. WB's own readings of the links'
+  days (vol. 2, pp. 351–356, img. 359–364;
+  [white-beryl-ch33.md](sources/white-beryl-ch33.md)) are not read: for
+  each link's day, from ignorance, the works good and to avoid, the four
+  directions for one's aims, a birth on it, a loss, the course of an
+  illness and a remedy; p. 356 sets the links on the hours.
+  [day-letters.md](sources/day-letters.md)'s "a link is a birth sign in
+  WB (vol. 2, p. 384)" missed them; found in the etext on 2026-10-11.
+- **Work.** Read pp. 351–356 on the scan; check that the day they name is
+  the almanac's link (vol. 1, p. 177) and not another count; join their
+  works to the link's lists as ch. 34 joins the boxes (WB's plain word
+  over the box's, T2.6), so that they weigh where the link weighs; the
+  directions, the birth, the loss and the remedy in the link's sheet, the
+  illness to H1; p. 356's hours read for whether they add to the hours
+  panel.
+- **Done when.** A test pins each link's lists to the scan reading;
+  `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
+
 #### Order
 
 1. T2.1, T2.2 and T2.3 are built.
@@ -789,6 +875,8 @@ verdict, and the owner's decisions of 2026-10-10:
    then T2.12 (built 2026-10-08), T2.14 (built 2026-10-09) and T2.13 (built 2026-10-09);
    then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10; T2.25 built 2026-10-10.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
+8. Found 2026-10-11, checking the page against WB's own almanac and
+   chapters: T2.27, then T2.26 once D4 is settled.
 
 #### Not planned
 
@@ -868,6 +956,9 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   - the obstacles of spouses (*bza' shug*), of the parents' and ancestors'
     deaths (*dur keg*), and the household readings: they need the other
     people's signs;
+  - planned since 2026-10-11, the two above on relatives added to each
+    saved person (P1, P2), and the year of age moved to the Reckonings
+    section (R1);
   - the progressed sign's four counted signs (lifeline, peg, sky and earth
     extension, p. 387): WB does not say which aspect of the counted sign
     meets the subject's, and Dorje's chart 6.3 reads otherwise;
@@ -1304,6 +1395,155 @@ the website name the election only once it is released.
   the grid draws them as a red ring and a tap says "every work to avoid,
   for you", naming the day; their side stays the weighing's. Vector: the
   same six October days (`ElectionTest`).
+
+## Health
+
+### H1. The health section — planned 2026-10-11
+
+- **Why.** The owner (2026-10-11): what WB says of the life force, the
+  la and health on a day belongs in a section of its own, the element's
+  mansions (left by T2.19) among them.
+- **What WB has.** Read on the scan where marked; the rest found in the
+  etext:
+  - the element's mansions by the life force (vol. 2, p. 330, tables
+    pp. 345–346, read: [personal-mansions.md](sources/personal-mansions.md),
+    *By element*): the own, mother, friend, child and enemy quarters and
+    the great and small grave mansions; the same table's weekdays are
+    built (T2.19);
+  - the la's place in the body by date (vol. 2, pp. 303–305, read and
+    built, T2.16, in the lunar date's sheet), and the hair dates (p. 404,
+    built, T2.15);
+  - the vitality and body of the date and the hour against the birth
+    year, the divination of health (built, SPEC §5.9: Your day and the
+    hours panel);
+  - the illness parts of the date's, weekday's, link's and day animal's
+    readings (vol. 2, pp. 297–312, 351–359), and the trigram's goddesses
+    (vol. 1, pp. 449–450, built);
+  - the illness reckoning (*nad rtsis*, vol. 1, ch. 25, pp. 417–452,
+    img. 427–462): its fifteen starting points, and the elements'
+    illnesses, where each enters the body and its signs (pp. 438–439);
+    its pebbles are counted as R's are;
+  - bloodletting and moxa in the readings of the year of age's mewa
+    (vol. 1, pp. 403–405), to be checked against the year sheet (T4);
+  - the medical works the weighing already decides (taking and starting
+    medicine, treatment, surgery, bloodletting, making medicine:
+    `Activities.kt`).
+- **Work.** First a reading pass over vol. 1, ch. 20, 21 and 25 and vol. 2,
+  ch. 33 for every passage on the la, the life force (*srog*) and illness
+  by date, month, hour and age, into `docs/sources/health.md`, with what
+  is calculable. Then a Health section on the Tibetan page after Your day
+  (or a screen of its own: the owner's choice when built): with a birth
+  date the day's mansion as one of the element's quarters for the life
+  force, with p. 330's reading, vitality and body (moved from Your day)
+  and the la's place; for everyone the day's illness readings and the
+  medical works' sides as the weighing gives them. Whether the enemy and
+  grave mansions are absolute as the enemy weekday is (E6) is settled from
+  the text: p. 338 names the weekday only.
+- **Done when.** Vectors for the test birth date (1976-06-01, life force
+  earth); `CatalogTest`; SPEC §5.8, §10.3; both languages; one line in the
+  section that its readings are the almanac's, not medical advice.
+
+## People
+
+### P1. Relatives of a saved person — planned 2026-10-11
+
+- **Gap.** Several of WB's readings need other people's dates: the natal
+  trigram the mother's year, the spouses' and the dead's obstacles their
+  signs (T4, left), the bride's departure both partners' years (P3), the
+  marriage and the dead's reckonings (R). People (SPEC §10.5) holds up to
+  ten unrelated persons, each a name, a birth date and a gender.
+- **Work.** For each saved person, the relatives the reckonings ask for
+  (the owner, 2026-10-11): mother and father, spouse, and the dead whose
+  obstacles WB reckons (parents, ancestors), each one of the saved people
+  or added for this person alone, with what the readings need, settled
+  from P2's, P3's and R's reading (a birth year at least, a birth date and
+  gender where asked, the year of death for the dead). Stored on the
+  device only; the `people` preference grows a relatives field, an older
+  line reading as none. Whether relatives count toward the ten is the
+  owner's choice.
+- **Done when.** A test of the stored format, older lines included; the
+  dialogs checked on the emulator in both languages; SPEC §10.5.
+
+### P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11
+
+- **Gap.** Left by T4 (block 13) for want of other people's signs
+  ([year-of-life.md](sources/year-of-life.md)): the natal trigram (*skyes
+  spar*), the mother's trigram in the year of the birth (Dorje p. 108,
+  from the *Moonbeams* f. 12a; WB's ch. 22, vol. 1, pp. 259–350, unread),
+  with the secret obstacle (*gsang keg*) and the natal trigram's readings;
+  the spouses' shared trigram and their obstacles (*bza' shug*); the
+  ancestors' tombs and the parents' and ancestors' deaths (*dur keg*);
+  the household readings (p. 408) and pebbles (pp. 385–387).
+- **Work.** Read ch. 22's natal trigram and ch. 24's passages on the
+  scans; build each in the year of age (R1's section), from P1's
+  relatives.
+- **Needs.** P1, R1.
+- **Done when.** Vectors from Dorje's charts where they give them;
+  `CatalogTest`; SPEC §5.9.1; both languages.
+
+### P3. The bride's departure — planned 2026-10-11
+
+- **Gap.** WB's chapter 23 (vol. 1, pp. 351–379, img. 361–389, the
+  marriage and road reckonings) has three parts: whether two people
+  match, the reckoning for setting out on the road (*lam du 'jug pa'i
+  rtsis*, from p. 365, img. 375), and the remedies. The second has
+  seventeen parts by the etext: *kham yu* (counted for the man from
+  Kṛttikā down, for the woman from Pūrvaphalgunī up, each by their own
+  years), *byur thog*, the trigram, the sme ba, *'dom sbrags*, the year,
+  the month, the date's animal, the hour, the weekday, the mansion, the
+  earth lords, the direction, the sky dog's own reckoning and receiving
+  the bride (*sna len*), among others. Not read on the scan. The app's
+  election for a wedding (E1) weighs the day alone.
+- **Work.** Read the second part on the scans, with the first, which
+  frames it, into a topic file; with a spouse set (P1), the departure's
+  verdict for the couple on the day page and in the election for the
+  bride's works ("Choose a day", E2), its works counted as D4 settles
+  for the earth lords (T2.26). The first part, the match, is a reckoning
+  for R.
+- **Needs.** P1; T2.26, for its earth lords and the sky dog.
+- **Done when.** A vector of a couple's good and bad days for the
+  departure; `ElectionTest`; SPEC §5.14, §10.8; both languages.
+
+## Reckonings
+
+### R. The pebble divinations, a section of their own — planned 2026-10-11
+
+- **Why.** The owner (2026-10-11): WB's element reckoning (*'byung
+  rtsis*) is a large body of its own and gets its own group in the menu,
+  as Meditation has (SPEC §10.5, §10.9).
+- **What WB holds** (chapters by the 1996 contents, printed pages): vol. 1,
+  ch. 20, the framework of the element reckoning (pp. 218–251); ch. 21,
+  the opening of the Chinese reckoning (pp. 252–258); ch. 22, the
+  reckoning of lives, the birth (*tshe rabs las rtsis*, pp. 259–350);
+  ch. 23, marriage and the road (pp. 351–379; the road is P3); ch. 24,
+  obstacles (*keg rtsis*) and the Chinese pebbles (pp. 380–416; the year
+  of age built, T4); ch. 25, illness (pp. 417–452; H1); ch. 26, the thirty
+  starting points with their pebbles (from p. 453 to the volume's end);
+  vol. 2, ch. 27, the thirteen Chinese *dpyad lding* and small reckonings
+  (pp. 3–25); ch. 28, minor signs (pp. 26–43); ch. 29, *zangs kyam* and
+  others (pp. 44–143); ch. 30, the reckoning of the moment, from dreams
+  and the caller's signs, with small earth and pebble examinations
+  (pp. 144–173); the reckoning for the dead (*gshin rtsis*, in ch. 31 and
+  the notes, pp. 474–545).
+- **R1 The section and the inventory.** Read each chapter's outline on the
+  scans (each opens with its starting points and its count of pebbles)
+  into `docs/sources/reckonings.md`: what each reckons, from whose dates
+  (the person's, a relative's, the moment's), what is a casting (a throw
+  of chance, not built, as Mo is not, T4), and its size; the items after
+  R1 are cut from it. A "Reckonings" group in the menu with one screen
+  listing, for the person chosen, the reckonings built; the year of age
+  moves into it from the year's balloon, which keeps a link to it (T2.26's
+  Year tab holds the year's earth lords). Pebbles drawn as the charts
+  draw them (○ ×).
+- **R2… One item per reckoning**, in R1's order, likely: the birth
+  (ch. 22, with P2), the marriage match (ch. 23's first part, with P1),
+  the reckoning for the dead (with P1), the thirty starting points
+  (ch. 26), the *dpyad lding* (ch. 27), the moment (ch. 30, from the clock
+  time of the question, if R1 finds it calculable). The illness reckoning
+  (ch. 25) is built with H1 and listed here too.
+- **Done when** (each item): its readings in the catalog with WB as their
+  source; vectors from Dorje's charts where they exist; `CatalogTest`;
+  SPEC; both languages on the emulator; the release build checked.
 
 ## Localisation
 
