@@ -89,6 +89,7 @@ import kotlin.math.atan2
 import kotlin.math.cos
 import kotlin.math.hypot
 import kotlin.math.sin
+import java.time.DayOfWeek
 import java.time.LocalDate
 
 // Diagrams of the visual cues (SPEC §10.4). Bearings are degrees clockwise
@@ -940,7 +941,9 @@ fun CombinationTable(weekday: Weekday, mansion: Mansion) {
     var selected by remember(weekday, mansion) { mutableStateOf(weekday to mansion) }
     val description = stringResource(R.string.desc_combination_table)
     val measurer = rememberTextMeasurer()
-    val names = WEEK.map { it.english.take(2) }
+    val locale = LocalLabels.current.locale
+    // The locale's own short names (Пн … Вс, Su … Sa): cutting the full ones makes Че and Пя.
+    val names = WEEK.map { w -> DayOfWeek.valueOf(w.name).getDisplayName(java.time.format.TextStyle.SHORT_STANDALONE, locale).take(2).replaceFirstChar { it.titlecase(locale) } }
     Column {
         Canvas(
             Modifier
