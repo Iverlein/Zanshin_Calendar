@@ -1,5 +1,10 @@
 # The earth lords that move by date
 
+**Shown in the app (the owner, 2026-10-11):** WB's own course of each earth
+lord only, one entry each. Every other view recorded below (another way,
+one person's view, what "some say", the Paṇchen's black days by year) is
+kept here as read and is not built or shown.
+
 Sigla, numbering and quoting rules are in [README.md](README.md). WB vol. 2,
 1996 edition, ch. 31, pp. 226–235 (scans I1KG12907, img. 234–243: in vol. 2
 the printed page is the image number − 8), the section «ཚེས་ལ་རྒྱུ་བའི་ས་བདག»,
@@ -68,8 +73,7 @@ Rāhu's family, the meeting of the nine bad on the 7th of the first month of
 spring, and the sisters' dates through the year. **Built by ROADMAP T2.14**
 (block 7) as `GreatBlackDay`: [great-black-day.md](great-black-day.md). Its
 "one person's view" (the 24th of the last months of spring, autumn and
-winter, the 9th of the first of winter) is built here as another view
-(`NAG_CHEN`), with the course's results.
+winter, the 9th of the first of winter) is recorded here, not shown.
 
 ### 2. *Nyi ma nag chung*, Jama Gunggyal's course (p. 226)
 
@@ -79,7 +83,7 @@ Spring 8, 18, 28; summer 5, 15, 25; autumn 1, 11, 21; winter 4, 18, 16 (one
 person's view: winter 9, 19, 29). Works for the dead, a bride,
 consecration, feasts and funeral rites bad, above all sending wealth out.
 Remedies: dough animals to the four sides, white butter, white and red
-earth. **Built** (`NAG_CHUNG`), the one person's view as another view.
+earth. **Built** (`NAG_CHUNG`); the one person's view recorded, not shown.
 
 ### Pi ling 'phar ma (p. 227)
 
@@ -125,8 +129,8 @@ spectacles, building, a corpse, war); never face it. **Built** (`ZIN_PHUNG`).
 > སྟག་ཡོས་ཟླ་བའི་ཚེས་བརྒྱད་ལ། །འབྲུག་དགུ་སྦྲུལ་གསུམ་རྟ་ཉེར་གསུམ། །ལུག་དགུ་སྤྲེལ་བདུན་བྱ་བཅུ་བདུན། །ཁྱི་བརྒྱད་ཕག་གཅིག་བྱི་བཅུ་དྲུག །གླང་གི་ཟླ་བ་ཚེས་དགུར་རྒྱུ།
 
 By animal month. "Another way" by season-month (spring 18, 8, 9 …), which
-[tibetastromed.md](tibetastromed.md) used to settle the reckoning, is built
-as another view. Avoid list and remedies as in the app's reading. **Built** (`PHUNG_ZOR`).
+[tibetastromed.md](tibetastromed.md) used to settle the reckoning, is recorded,
+not shown. Avoid list and remedies as in the app's reading. **Built** (`PHUNG_ZOR`).
 
 ### 16. *Ki kang* (p. 228)
 
@@ -136,10 +140,9 @@ as another view. Avoid list and remedies as in the app's reading. **Built** (`PH
 in the hare month. Two other courses follow («ཡང་ཅིག་རྒྱུ་ཚུལ་མི་འདྲ་གཉིས»), the
 second called "a discordant view"; the results after them (p. 229: white
 work brings a king down, a bride, building, a feast, a birth; fierce and
-harsh work good) are the app's reading. **Built** (`KI_KANG`), the second and third courses as other views (the
+harsh work good) are the app's reading. **Built** (`KI_KANG`); the second and third courses recorded, not shown (the
 third, for two groups of months only: tiger, horse and dog 17 and 27; pig,
-sheep and hare 2 and 22). The tiger, horse and dog months' 17th is in both
-the second and the third: shown once, as the second.
+sheep and hare 2 and 22).
 
 ### 17. *Hal khyi nag po* (p. 229)
 
@@ -156,9 +159,9 @@ kind of the Chinese system, to be known as told in the reckoning of brides;
 the second opens «ཡང་ནི་ལུགས་གཅིག་འདི་ལྟར་སྨྲ།», "again, one tradition says
 this" (spring sheep days at dawn, «ནམ(ཐོ་རེངས་ཀྱང་)ལངས་ལ» …; read on the scan,
 img. 237–238), and the results after it, avoid as for *hal khyi*, hold for
-both. So the first is WB's own and the second a *lugs gcig*, built as
-another view. The two share most of their days (the middle month of spring
-all of them), and a day in both is the first course's, shown once.
+both. So the first is WB's own and the second a *lugs gcig*, recorded, not
+shown. The two share most of their days (the middle month of spring
+all of them).
 **Built** (`GNAM_KHYI`).
 
 ### 19. *Gnam sbyor* (p. 230)
@@ -180,14 +183,14 @@ spectacles, taking a child out) is in the reading, not in the lists.
 > སྟག་གི་ཟླ་བའི་གཅིག་བཅུ་གཅིག །ཡོས་ཟླའི་གཉིས་དང་ཉི་ཤུ་གཅིག །འབྲུག་གི་ཟླ་བའི་གསུམ་དང་བརྒྱད། །སྦྲུལ་གྱི་ཟླ་བའི་བཞི་དང་བརྒྱད། །རྟ་ཡི་ཟླ་བའི་ལྔ་བཅུ་གཅིག །ལུག་ཟླའི་དྲུག་དང་ཉི་ཤུ་གཉིས། །སྤྲེའུ་ཟླ་བའི་བདུན་བཅུ་དགུ། །བྱ་ཡི་ཟླ་བའི་བརྒྱད་དང་བཅུ། །ཁྱི་ཟླའི་ཉི་ཤུ་གཉིས་དང་དགུ། །ཕག་ཟླའི་ཚེས་གཅིག་བྱི་ཟླ་ཡི། །གཅིག་དང་བཅུ་དྲུག་གླང་ཟླ་བའི། །དགུ་དང་ཉེར་དགུ་དག་ལ་རྒྱུ།
 
 One person's variant for four months (spring first 6 and 16, autumn last 9
-and 21, winter first 19, middle 10) built as another view. **Built** (`DBUL_PO`).
+and 21, winter first 19, middle 10) recorded, not shown. **Built** (`DBUL_PO`).
 
 ### 22. *Gza' bdun* (p. 231)
 
 > གཟའ་བདུན(༢༢)ཟས་འཚོལ་ཕོ་ཉ་འགྱེད། །དཔྱིད་གསུམ་བརྒྱད་གསུམ་དག་ལ་རྒྱུ། །དབྱར་གསུམ་ལྔ་གསུམ་དག་ལ་རྒྱུ། །སྟོན་གསུམ་གཅིག་གསུམ་དགུན་དགུ་གསུམ། །རིམ་པ་བཞིན་དུ་རྒྱུ་བ་ཡིན།
 
-The second way gives the same dates in reverse order (28, 18, 8 …), built
-as another view. "Its results are the same as *ki kang*'s." **Built** (`GZA_BDUN`).
+The second way gives the same dates in reverse order (28, 18, 8 …), recorded,
+not shown. "Its results are the same as *ki kang*'s." **Built** (`GZA_BDUN`).
 
 ### 23. *Ngam shing* (p. 231)
 
@@ -234,7 +237,7 @@ weighed in Rāhu's tier like his course by month ([rahu.md](rahu.md)).
 
 Month by month, with the class, hour and direction (the app's reading gives
 all twelve). Where the text adds "some say" (the last month of autumn, from
-the 8th to the 30th) the added dates are built as another view. The mid-winter strike
+the 8th to the 30th) the added dates are recorded, not shown. The mid-winter strike
 «བཅུ་བདུན་ཉེར་གཉིས་ནས། །སྟོང་བར» is read as the 17th and the 22nd to the 30th,
 the 20th, between them, being its turning. Results: p. 232 and again
 p. 364 («སྡེ་བརྒྱད་ཐེབས་དུས་མདོས་གཏོར་དང་། །མཐུ་གཏད་ཐོག་སེར་མནན་སྲེག་ཟོར། །དམག་ཇག་ཕར་རྒོལ་བྱ་བ་བཟང༌། །བཟློག་དུས་དེ་རྣམས་སྤང་བར་བྱ།», from the etext): on a strike good,
@@ -278,10 +281,9 @@ Month by month (the reading gives them). Where the text adds what "some
 teachings" or "the authoritative texts" say (the 15th of the last month of
 summer, the 5th of the middle of autumn, the 23rd of the last, the 15th of
 the first of winter, the 15th and 21st of the middle), the added dates are
-built as another view. The first of them, the last summer 15th, is a
-turning in WB's own course as built (`KLU_TURNINGS`: the 11th, 13th and
-15th of that month): the course stands, so on that date the nāgas turn
-back and the strike some teach is not shown. The middle of winter's
+recorded, not shown; the first of them, the last summer 15th, is a
+turning in WB's own course (`KLU_TURNINGS`: the 11th, 13th and 15th of
+that month). The middle of winter's
 «གཉིས་དང་དྲུག་གསུམ་ཉི་ཤུར་བཟློག» is the 2nd, the three 6s and the 20th, as the
 model almanac writes it. In the last month of winter they sleep. The
 results again on p. 364. **Built** (`KLU`).
@@ -322,7 +324,7 @@ which gives p. 235's own example (mouse and horse months, bird and hare
 days). **Built** (`ZHAG_NAG`): the date's animal against the month's, the
 tiger month the 11th. The Paṇchen Mön'drowa's list by year that follows
 («བྱི་ལོ་དཔྱིད་འབྲིང་ཚེས་བདུན་ནག། གླང་ལོ་དཔྱིད་ཐའི་ཚེས་ལྔ་ནག། …», read on the scan) is
-built as another view, the year the Chinese reckoning's, which the model
+recorded, not shown, the year the Chinese reckoning's, which the model
 almanac begins with the 11th month. The results are those of the black
 hours (p. 236: a grave site, building, feasts, consecration, enthronement,
 teaching, a new land, a bride and all important works bad; fierce work

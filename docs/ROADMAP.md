@@ -412,7 +412,13 @@ good and evil" are not in WB's etext and are not built.
   bdun*'s reversed, *dbul po*'s and *nag chung*'s variants), what "some say"
   of the eight classes' and the nāgas' strikes, and Spug ston's view of the
   earth lords (dates of success, vanishing and keeping wealth) are built too,
-  each marked as another view.
+  each marked as another view. **Removed 2026-10-11** (the owner: the earth
+  lords show one entry each and no other view at all): the other views are
+  no longer built or shown, in the courses or in the readings, and stay in
+  `docs/sources/earth-lord-courses.md`; an earth lord that does several
+  things on a date (the *gnyan* move and strike, several classes' times) is
+  one entry with one reading. Spug ston's view is a course of its own and
+  stays.
 - **Read again 2026-10-09:** the Zhol print settles *zin phung*'s twelve
   hours («ཉི་རྩེའི་རྡོལ་འགོ», where the 1996 edition has རྡེལ) and Spug ston's last
   summer («གསུམ་དྲུག་ཉེར་ཡལ»: the 3rd, 26th and 28th), and «བིདྡྷི» is Viṣṭi (WB's
@@ -423,7 +429,7 @@ good and evil" are not in WB's etext and are not built.
   reading; *zin phung*'s two autumn works, confirmed on the Zhol print, are
   given word for word. The black days of p. 235 are built too, by the black
   months' rule of vol. 1, p. 183 (the four-slayer), with the Paṇchen's list
-  by year as another view. Nothing of pp. 226–235 is left unbuilt. The sky doors' remedies (pp. 368–369) are summarised in
+  by year as another view (removed 2026-10-11, above). Nothing of pp. 226–235 is left unbuilt. The sky doors' remedies (pp. 368–369) are summarised in
   each door's reading; *zin phung*'s spring days in the middle are their own
   event ("in the middle"). The black days
   (p. 235) go with the black months (T2.21); the earth lords of the hour
@@ -1942,7 +1948,8 @@ X, so that the owner reads the wording once. The blocks are
   months; today the 8th of the first month of spring"), which needs the
   engine to hand each course the date and season it matched
   (`EarthLordCourse`, `MonthEntries`; most readings take {0} already);
-  *Remedy*; *Another view* for the other courses, each a line, the
+  *Remedy*; no *Another view* (the other courses are not shown since
+  2026-10-11, SPEC §5.13); the
   tables to [earth-lords.md](sources/earth-lords.md); the animal days'
   hearth god and Serdzö Serpo as one row; Rāhu's hourly course once, in
   the family note; the eclipses' limits as a row. The great black day,
@@ -1951,19 +1958,19 @@ X, so that the owner reads the wording once. The blocks are
 - **Block.** [46](#block-46); no reading; builds on [42](#block-42).
 - **Started** 2026-10-11 (block 42's review): the lesser black day, SPEC
   §8.1's third example, stands in the shape in English and Russian, its
-  ruling paragraph, *Remedy*, *How it falls* and *Another view* (the
-  winter's 9th, 19th and 29th), and the reading of a date only the other
-  view gives (`.other`) the same with its paragraph and its own *How it
-  falls*. The engine names the line: `CourseDay.date`, the date that fell,
+  ruling paragraph, *Remedy* and *How it falls* (its *Another view* row
+  and the other view's reading `.other` removed the same day with every
+  earth lord's other view, SPEC §5.13). The engine names the line: `CourseDay.date`, the date that fell,
   and `EarthLordCourses.fall`, a `CourseFall` (the season-month, the date,
   the season's three dates in turn), which `Reading.today` carries into
   the rows' {0}, written from the catalog's `CourseFall.*` and
   `DateOrdinal.*`; the other courses that give a date to each
   season-month can take it as they are brought to the shape.
-  `CourseFallTest`: each season, the winter's 4th, 18th and 16th, the
-  other view's 9th, 19th and 29th, the rows of both readings, and
+  `CourseFallTest`: each season, the winter's 4th, 18th and 16th, no
+  other view's 9th, 19th or 29th, the reading's rows, and
   2000–2049 day by day (a skipped date has no course, a doubled one the
-  same line on both days). Allowance 109 → 107. Checked on the emulator on
+  same line on both days). Allowance 109 → 107, then 92 with the other views' texts
+  removed. Checked on the emulator on
   28 October 2026 (the 18th of Hor month 9, the course's) and 29 October
   (the 19th, the other view's) in English and Russian at font scale 1.0
   and 1.3, and in the release build for raw keys.

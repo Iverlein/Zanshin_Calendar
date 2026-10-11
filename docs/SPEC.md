@@ -1076,19 +1076,20 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   the guests', … the 10th, 20th and 30th the general one), each door's own
   work avoided (pp. 368–369). Last, the black day (p. 235): the date's animal
   the four-slayer of the month's, three either side, as WB reckons the
-  black months (vol. 1, p. 183), with the Paṇchen's black day by year as
-  another view. Keyed by the Chinese reckoning's season-month,
+  black months (vol. 1, p. 183). Keyed by the Chinese reckoning's season-month,
   which is also the animal month from the tiger (the 11th), by the date and,
   for *zin phung* and *gnam khyi*, by the date's animal; a skipped date has
   none, a doubled one both days, a leap month as its month
-  (`EarthLordCourses`). Where WB gives a course and then another way, or
-  what "some say", the first is built and the other shown as another view
-  on the dates it alone gives: a date in both is the course's own, once,
-  whatever the course does on it (the sky dog's two ways share most of
-  their days; the nāgas' turning on the last summer 15th stands over what
-  some say of a strike that day), and where two views give a date the
-  course does not, the second is shown, once (*ki kang*'s second and third
-  on the tiger, horse and dog months' 17th); WB's model almanac (vol. 1,
+  (`EarthLordCourses`). Only WB's own course of each earth lord is shown,
+  one entry for each (the owner, 2026-10-11): where WB gives a course and
+  then another way, one person's view or what "some say" (*ki kang*'s
+  second and third courses, the great black day's and *nag chung*'s
+  variants, the Paṇchen's black day by year, the eight classes' and the
+  nāgas' added strikes, …), the others stay in
+  `docs/sources/earth-lord-courses.md` and are not shown, in the courses
+  or in the readings; an earth lord that does several things on a date
+  (the *gnyan* move and strike, several classes have their time) is one
+  entry, its lines in one reading and its lists merged. WB's model almanac (vol. 1,
   pp. 154–171), whose day boxes write the courses, settles the readings it
   can check and is the test's witness (`EarthLordCoursesTest`). Shown and
   not weighed: WB's order of strength (vol. 2, p. 376) ranks the seven
@@ -1599,7 +1600,8 @@ the same way.
    "avoided for its whole length"; a day is lucky, unlucky, mixed or
    neutral, as the tone labels say; a remedy is "Remedy:" in the
    imperative ("hoist white silk and burn white butter"); an alternative
-   tradition is "another view", in its row. The source's classes of work
+   tradition is "another view", in its row, except an earth lord's, which
+   is not shown at all (§5.13). The source's classes of work
    keep their names, since they are terms and not verdicts: white work,
    virtuous work, fierce rites, harsh work. Not used for a ruling:
    auspicious, succeeds, turns out well, shunned, given up, prosper.
@@ -1670,9 +1672,8 @@ The three examples below are the rule applied to readings as they stood;
 the facts are the same, moved. All three stand in the catalog in this
 shape since 2026-10-11, their Russian with them: the lesser black day's
 *How it falls* row is the line the engine names for the shown day, the
-season's three dates and the one that fell (§8.2), and on a date only its
-other view gives (the winter's 9th, 19th and 29th) the reading says so in
-its paragraph and its *How it falls* row gives that view's line.
+season's three dates and the one that fell (§8.2). It has no *Another
+view* row: the earth lords show none (§5.13).
 
 *Lunar date 1*, before: "A day of joy (དགའ་བ, dga' ba), Nandā, one of the
 virtuous days: good for pacifying rites, crafts, games and all white
@@ -1713,7 +1714,7 @@ the 8th, 18th and 28th of the spring months; today the 8th of the first
 month of spring. *Remedy* · set dough figures of a tiger, a horse, a
 sheep and a dog to the south, west, north and east with offerings; or
 burn white butter, scatter white earth on the roof and red earth to the
-four sides. *Another view* · in winter the 9th, 19th and 29th.
+four sides.
 
 ### 8.2 Catalog
 
