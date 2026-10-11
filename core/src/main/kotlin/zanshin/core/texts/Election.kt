@@ -34,6 +34,15 @@ class ElectionDay(val date: LocalDate, val day: TibetanDay, val summary: DaySumm
     val decider: DayFactor? get() = note?.decider
     val by: VerdictBy? get() = note?.by
 
+    /**
+     * The voices standing beside the deciding one (ROADMAP U14): [standing] without what "by the
+     * combination" or "by Friday" already names, the combination's entries where it decided,
+     * otherwise the first. The best-days list shows them under the decider only where there are
+     * some, so a day decided by one voice alone never names it twice.
+     */
+    val beside: List<SummaryEntry>
+        get() = if (by == VerdictBy.COMBINATION) standing.filter { e -> COMBINATION.none { it.english == e.english } } else standing.drop(1)
+
     /** The sum of the standing voices' weights ([DaySummary.weight]): the app's convention, the last order but the date's. */
     val weight: Int get() = note?.weight ?: 0
 
@@ -57,6 +66,9 @@ class ElectionDay(val date: LocalDate, val day: TibetanDay, val summary: DaySumm
 
     private companion object {
         val NECTAR_WORKS: Set<Activity> = Activities.of(Texts.NECTAR_PERIODS.goodKeys)
+
+        /** The combination's two parts, one voice (SPEC §5.12). */
+        val COMBINATION: List<DayFactor> = DayFactor.entries.filter { it.rank == 0 }
     }
 }
 

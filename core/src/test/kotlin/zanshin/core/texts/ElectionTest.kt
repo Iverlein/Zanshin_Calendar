@@ -101,6 +101,36 @@ class ElectionTest {
     }
 
     @Test
+    fun `the voices beside the deciding one never repeat it`() {
+        // ROADMAP U14: marriage talks from 11 October 2026. Friday the 16th stands by its weekday alone, so
+        // the list says "by Friday" and nothing under it; Wednesday the 28th has two special days beside.
+        val talks = ElectionSpan.of(LocalDate.of(2026, 10, 11), 1).election(Activity.MARRIAGE_TALKS)
+        fun day(d: Int) = talks.days.first { it.date == LocalDate.of(2026, 10, d) }
+        assertEquals("Friday", day(16).standing.single().kanji)
+        assertEquals(emptyList<SummaryEntry>(), day(16).beside)
+        assertEquals(listOf("Wednesday"), day(28).standing.take(1).map { it.kanji })
+        assertEquals(day(28).standing.drop(1), day(28).beside)
+        assertEquals(2, day(28).beside.size)
+        // Over a year of every work: what "by …" names is never among the voices beside it.
+        val combination = DayFactor.entries.filter { it.rank == 0 }.map { it.english }
+        val span = ElectionSpan.of(LocalDate.of(2026, 1, 1), Election.MAX_MONTHS)
+        var combined = 0
+        for (work in Election.WORKS.values.flatten()) for (e in span.election(work).days) {
+            if (e.side == null) continue
+            assertTrue(e.standing.containsAll(e.beside), "${e.date} $work")
+            if (e.by == VerdictBy.COMBINATION) {
+                combined++
+                assertTrue(e.beside.none { it.english in combination }, "${e.date} $work")
+                assertEquals(e.standing.count { it.english !in combination }, e.beside.size, "${e.date} $work")
+            } else {
+                assertEquals(e.standing.size - 1, e.beside.size, "${e.date} $work")
+                assertTrue(e.standing.first() !in e.beside, "${e.date} $work")
+            }
+        }
+        assertTrue(combined > 0)
+    }
+
+    @Test
     fun `the hours are the month's, by the sign's reading of the work`() {
         val month = TibetanCalendar.of(LocalDate.of(2026, 10, 20)).month
         for (work in listOf(Activity.HAIRCUTS, Activity.WEDDING, Activity.JOURNEY)) {
