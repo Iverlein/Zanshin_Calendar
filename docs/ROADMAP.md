@@ -1068,6 +1068,13 @@ Java of the Google Code era, and its one sound file names no source.
   (2026-10-11, owner's request: its own switch, checked on the emulator
   with YouTube Music playing and a call ringing and answered) and a
   silenced phone.
+- **Bell notice** (2026-10-11, owner's request): each bell rings in a
+  short foreground service, as Android 17's AudioHardening muted the
+  alarm-fired bell in the background; its heads-up notification shows
+  the bell's message (by default ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ, the owner's choice)
+  and goes with the strike. Checked on the emulator by the real exact
+  alarm: playback no longer muted, the notice up over the home screen
+  and removed 8.3 s later; the message cleared and set again by Default.
 - **Sound:** three bells synthesised on the device (`BellSound`), no
   sound file to licence; alarm stream, other sound ducked.
 - **Sessions and presets** (2026-10-09, owner's request): a warm-up and

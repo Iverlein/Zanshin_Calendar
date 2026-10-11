@@ -2313,6 +2313,18 @@ carries no sound file.
   video, a game, directions, a voice chat, an alarm); and, unless switched
   off apart, while the phone is on silent, vibrate or do not disturb; a
   bell more than ten minutes late is skipped. The switch's subtitle names the next bell.
+  Each bell rings in a short foreground service (`BellRingService`, type
+  `specialUse`), started by the exact alarm: Android mutes an app's
+  sound in the background (AudioHardening, seen on Android 17), and the
+  service keeps the strike heard. Its notification is the bell's visual
+  cue: it shows over the screen with the bell's message, without sound or
+  vibration of its own, and is removed when the strike has faded (about
+  8 s). The message is the user's own line, set under the days, by
+  default Om mani padme hum in its Tibetan script alone,
+  ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ (the owner's choice, 2026-10-11: the user's own text,
+  so §8.1's naming does not apply to it); Default sets it again, and an
+  empty message shows the bell's name. Notification permission is asked
+  for when the bell is switched on; without it the bell rings unseen.
 - **Sound:** a large bowl, a small bowl or a bell, one choice for the
   session's bell and the mindfulness bell (the wood block only between
   periods); a volume and Listen. Bells ring on the alarm stream, so a sitting is
