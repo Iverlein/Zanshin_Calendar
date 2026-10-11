@@ -232,16 +232,6 @@ class DayTimesTest {
         assertEquals("upper east", zanshin.core.texts.gloss(Animal.TIGER, "place"))
     }
 
-    /** WB vol. 2, p. 236: the other way, Piling Parma's hours, one a month from the snake. */
-    @Test
-    fun `the earth king's other way runs one hour a month`() {
-        val hours = EarthLordCourses.SA_RGYAL_OTHER.map { it.first }
-        assertEquals((0 until 12).map { Animal.entries[(Animal.SNAKE.ordinal + it) % 12] }, hours)
-        assertEquals(Animal.SNAKE, EarthLordCourses.hourSaRgyalOther(0, Animal.SNAKE))
-        assertEquals(null, EarthLordCourses.hourSaRgyalOther(0, Animal.HORSE))
-        assertEquals(Animal.PIG, EarthLordCourses.hourSaRgyalOther(5, Animal.DOG))
-    }
-
     /** WB vol. 2, p. 197: the sky dog's head on the hour's animal, its tail on the seventh. */
     @Test
     fun `the hour's sky dog lies head on its own animal`() {

@@ -1246,13 +1246,6 @@ object Texts {
         key = "reading.HourSaRgyal",
     )
 
-    /** The hour's *sa rgyal* the other way, *pi ling 'phar ma*'s hours (WB vol. 2, p. 236): its avoidances the earth king's. */
-    val HOUR_SA_RGYAL_OTHER = Reading(
-        avoidKeys = HOUR_SA_RGYAL.avoidKeys,
-        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
-        key = "reading.HourSaRgyalOther",
-    )
-
     /** The hidden earth lord of each hour's animal, on its place (WB vol. 2, pp. 221 and 236); the lord's name fills the summary. */
     val HOUR_HIDDEN: Map<Animal, Reading> = Animal.entries.associateWith {
         Reading(

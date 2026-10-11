@@ -100,7 +100,7 @@ class CatalogTest {
             Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
         ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
-        Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
+        Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
             (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +
@@ -282,7 +282,7 @@ class CatalogTest {
             Texts.HOUR_WORKS,
         ).flatMap { it.values } + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
             Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS +
-            Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI +
+            Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI +
             Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY + Texts.NECTAR_PERIODS + Texts.COMET +
             Texts.LUNAR_ECLIPSE + Texts.SOLAR_ECLIPSE +
             // Every course on every day it can fall, in every year (the black day's other view goes by the year).
@@ -444,7 +444,7 @@ class CatalogTest {
             "X8" to listOf("PersonalDay", "OwnDay", "PersonalMansion", "Kinship", "HundredFeet", "Spear", "GreatSpear"),
             "X9" to listOf(
                 "DusSbyor", "WorksSign", "HourWorks", "HourHidden", "HourEarthLords", "HourGnamKhyi", "HourBlaMkhyen", "HourSaRgyal",
-                "HourSaRgyalOther", "BlackHour", "RoughTime", "OwnYearHour", "NectarPeriods", "HourOverDay",
+                "BlackHour", "RoughTime", "OwnYearHour", "NectarPeriods", "HourOverDay",
             ),
             "X10" to listOf(
                 "BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut", "YearPebble", "YearPredictive", "YearSector", "YearDecline",
@@ -469,7 +469,7 @@ class CatalogTest {
             "X6" to 40, // the yogas, the karaṇa and the mansions (block 45); 34 under 20 words
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
-            "X9" to 24, // the hours panel (block 48)
+            "X9" to 22, // the hours panel (block 48)
             "X10" to 180, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words
         )
     }
