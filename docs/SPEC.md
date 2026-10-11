@@ -1083,8 +1083,12 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   none, a doubled one both days, a leap month as its month
   (`EarthLordCourses`). Where WB gives a course and then another way, or
   what "some say", the first is built and the other shown as another view
-  on the dates it alone gives: a date in both is the course's own, once
-  (the sky dog's two ways share most of their days); WB's model almanac (vol. 1,
+  on the dates it alone gives: a date in both is the course's own, once,
+  whatever the course does on it (the sky dog's two ways share most of
+  their days; the nāgas' turning on the last summer 15th stands over what
+  some say of a strike that day), and where two views give a date the
+  course does not, the second is shown, once (*ki kang*'s second and third
+  on the tiger, horse and dog months' 17th); WB's model almanac (vol. 1,
   pp. 154–171), whose day boxes write the courses, settles the readings it
   can check and is the test's witness (`EarthLordCoursesTest`). Shown and
   not weighed: WB's order of strength (vol. 2, p. 376) ranks the seven

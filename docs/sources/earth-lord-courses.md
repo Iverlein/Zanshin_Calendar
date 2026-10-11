@@ -138,7 +138,8 @@ second called "a discordant view"; the results after them (p. 229: white
 work brings a king down, a bride, building, a feast, a birth; fierce and
 harsh work good) are the app's reading. **Built** (`KI_KANG`), the second and third courses as other views (the
 third, for two groups of months only: tiger, horse and dog 17 and 27; pig,
-sheep and hare 2 and 22).
+sheep and hare 2 and 22). The tiger, horse and dog months' 17th is in both
+the second and the third: shown once, as the second.
 
 ### 17. *Hal khyi nag po* (p. 229)
 
@@ -277,7 +278,10 @@ Month by month (the reading gives them). Where the text adds what "some
 teachings" or "the authoritative texts" say (the 15th of the last month of
 summer, the 5th of the middle of autumn, the 23rd of the last, the 15th of
 the first of winter, the 15th and 21st of the middle), the added dates are
-built as another view. The middle of winter's
+built as another view. The first of them, the last summer 15th, is a
+turning in WB's own course as built (`KLU_TURNINGS`: the 11th, 13th and
+15th of that month): the course stands, so on that date the nāgas turn
+back and the strike some teach is not shown. The middle of winter's
 «གཉིས་དང་དྲུག་གསུམ་ཉི་ཤུར་བཟློག» is the 2nd, the three 6s and the 20th, as the
 model almanac writes it. In the last month of winter they sleep. The
 results again on p. 364. **Built** (`KLU`).
