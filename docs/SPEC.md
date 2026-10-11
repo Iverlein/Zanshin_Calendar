@@ -2426,11 +2426,16 @@ differences close this section.
   the picked work returns here.
 - **The span:** three chips, "This month", "Three months", "Twelve
   months" (§5.14); the shown day's month at first.
-- **The months:** for each Tibetan month of the span its name, its days
+- **The months:** for each Tibetan month of the span its name and the
+  civil span its days cover, "9th month · 11 Oct – 9 Nov" (the span's own
+  days, so the first month starts on the shown day; the year at the end
+  only where the span leaves the shown day's, "8 Jan – 6 Feb 2027"), its days
   as a grid of six to a row (`WorkGrid`, the haircut sheet's grid
-  generalised, §10.3), each cell the lunar date over the dot of the work's
-  side, green, red or without colour where no voice names it, the shown day
-  outlined; with a birth date set, the person's enemy weekday and death
+  generalised, §10.3), each cell the lunar date with the civil day of the
+  month small under it, the date picker's figures reversed (a doubled
+  date's two cells each with their own civil day, a skipped date no cell),
+  over the dot of the work's side, green, red or without colour where no
+  voice names it, the shown day outlined; with a birth date set, the person's enemy weekday and death
   mansion drawn as a red ring. Tapping a cell names its civil date, lunar
   date and side with what decided it ("good · by the combination",
   "avoid · by Monday"), or that every work is to be avoided for the
@@ -2441,7 +2446,9 @@ differences close this section.
   date as the header gives it, weekday and year ("Mon 19 Oct 2026", since
   a span runs into the next year), and its Tibetan date, what decides it ("by the combination", "by Wednesday")
   with the dot of the combination's tone where it has one, the voices
-  standing, the person's own days on it with their dots under "For
+  standing beside the deciding one on a line of their own only where
+  there are some (`ElectionDay.beside`: never "by Friday" and "Friday"
+  again under it), the person's own days on it with their dots under "For
   you", and its nectar periods where their reading names the work. A day
   opens a balloon with the work, each voice with its kind, and "Open the
   day", which shows its Tibetan page. The days to avoid have no list.
@@ -2454,7 +2461,8 @@ differences close this section.
 - **The 旧暦 election** (§7.6): entered from the menu on the 旧暦 page, from
   a work in the day's breakdown ("Choose a day for it" in its balloon) and
   from a reading's lists, as on the Tibetan page. The picker offers the
-  旧暦's works; the months are 旧暦 months, each cell's dot green where the
+  旧暦's works; the months are 旧暦 months, headed and celled as the Tibetan
+  grid is, with the civil span and each cell's civil day, each cell's dot green where the
   work is named good only, red to avoid only, the mixed colour both ways;
   a tap names the annotations on each side, each kanji with its English.
   Under the grids "Named good, in date order" and "Named both good and to

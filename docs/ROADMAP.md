@@ -88,7 +88,7 @@ moves up as soon as it is unblocked.
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
-| <a id="block-37"></a>37 | [U14](#u14) The election's civil dates | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
+| <a id="block-37"></a>37 | [U14](#u14) The election's civil dates — built 2026-10-11 | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
@@ -1488,7 +1488,7 @@ W1 build on them (below).
   the commit lists them before and after. Every other row's second line,
   on both pages, is a kind and gloss or a fact and stays.
 
-#### <a id="u14"></a>U14 The election's civil dates and voices line
+#### <a id="u14"></a>U14 The election's civil dates and voices line — built 2026-10-11 (SPEC §10.8)
 
 - **Gap.** The election's grid shows the lunar date in each cell and the
   civil date only on a tap, while a day is chosen in civil terms; the
@@ -1505,6 +1505,21 @@ W1 build on them (below).
   this month and twelve months, and the 旧暦 election, on the emulator in
   English and Russian; a doubled and a skipped date checked in the grid;
   SPEC §10.8.
+- **Built** 2026-10-11. `WorkCell.civil` puts the civil day under the
+  lunar date in the election's grids only (the haircut sheet's keeps its
+  own); the heading's span is `civilSpan`, the year at the end only where
+  the span leaves the shown day's ("12th month · 8 Jan – 6 Feb 2027");
+  the voices line is `ElectionDay.beside`, what stands beside the deciding
+  voice, the combination's entries left out where it decided. Checked:
+  `ElectionTest` (the 16th by Friday alone, the 28th with two special days
+  beside, a year of every work never repeating the decider) and
+  `CivilSpanTest` (both languages' patterns); on the emulator, marriage
+  talks from 11 October 2026 over this month and twelve months, Tibetan
+  and 旧暦, in English and Russian: the 9th month's doubled 9 on the 19th
+  and 20th, its skipped 17 between the 27th and the 28th, each cell's tap
+  naming its own civil date; the twelfth month's doubled 24 (31 Jan,
+  1 Feb 2027) and skipped 21; "by Friday" with nothing under it, the 28th
+  with "Day of harmony · Day of union"; the grid at font scale 1.3.
 
 #### <a id="u15"></a>U15 The calendar toggle in the header — built 2026-10-11 (SPEC §10.2)
 
