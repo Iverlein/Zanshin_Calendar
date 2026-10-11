@@ -388,9 +388,9 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   late summer's hour is «ཁྱི», the dog, its head ཁ's rounded hook, not
   བ's square one, which the 1996 scan does not settle): «དཔྱིད་ར་སྦྲུལ་དུས་ལྷོ་སྟོད་དུ། །འབྲིང་པོ་རྟ་དུས་སྤྲེའུའི་ཐོག །ཐ་ཆུང་ལུག་དུས་ཕག་གི་སྟེང་། །དབྱར་ར་སྤྲེལ་དུས་སྦྲུལ་ཐོག་ཏུ། །འབྲིང་པོ་བྱ་དུས་ཕག་གི་སྟེང་། །ཐ་ཆུང་ཁྱི་དུས་བྱང་གི་སྟོད། །སྟོན་ར་ཕག་དུས་འབྲུག་ཐོག་ཏུ། །འབྲིང་པོ་བྱི་དུས་ལྷོ་ནུབ་ཕྱོགས། །ཐ་ཆུང་གླང་དུས་ཁྱི་ཡི་སྟེང་། །དགུན་ར་སྟག་དུས་ཤར་སྨད་དུ། །འབྲིང་པོ་ཡོས་དུས་ལྷོ་སྨད་ཕྱོགས། །ཐ་ཆུང་འབྲུག་དུས་བྱ་ཐོག་ཏུ། །རང་རང་རྒྱུ་ཆོས་ཉིན་མོ་འཆོག །རྒྱུ་ཆོས་པི་ལིང་འཕར་མ་ཡིན།»
   one hour a month from the snake, each with a place, the directions
-  being the places of p. 254's animals; **built as another view**
-  (`EarthLordCourses.SA_RGYAL_OTHER`, `Texts.HOUR_SA_RGYAL_OTHER`), shown
-  in its hour only. The 1996 edition's notes 5–15 on the line were not
+  being the places of p. 254's animals; recorded, not shown (built as
+  another view until 2026-10-11, removed with every earth lord's other
+  view). The 1996 edition's notes 5–15 on the line were not
   found in its notes.
 - **The black hours** (p. 236): «དུས་ཚོད་ནག་པོའི་རྩིས་ལ་ཡང་། །གོང་དང་སྦྱར་ཏེ་ཤེས་པར་བྱ། །དེ་ཡང་བྱི་རྟའི་ཉི་མ་ལ། །བྱ་ཡོས་གཉིས་ཀྱི་དུས་ཚོད་ནག …ཁག་ཆེན་བྱ་བ་ཐམས་ཅད་ངན། །དྲག་ལས་དུས་དང་སྤྲད་ན་ཐེབས། །བཅོས་ཐབས་སྤར་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས།»
   As the black days, the date's animal against the hour's: on a mouse or

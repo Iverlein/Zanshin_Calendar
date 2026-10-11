@@ -1147,10 +1147,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   (`EarthLordCourses.hourBlaMkhyen`, `hourSaRgyal`). Each names its place
   by the animal and WB's direction for it (vol. 1, p. 254: tiger upper
   east … ox north-east). The *sa rgyal* the other way WB gives, *pi ling
-  'phar ma*'s course, one hour and place in each season-month of the
-  Chinese reckoning (the snake hour on the upper south in the first of
-  spring … the dragon hour on the bird's place in the last of winter), as
-  another view, in its hour only (`hourSaRgyalOther`). The hidden earth
+  'phar ma*'s course by season-month, is not shown, nor named in the
+  reading (the owner, 2026-10-11: no other view of an earth lord, §5.13).
+  The hidden earth
   lords (*gab pa'i sa bdag*, p. 221), one to each animal, on the place of
   the hour's own animal (*gnyan khra* the mouse's … *phyug po* the pig's),
   a corpse not led their way. The black sky dog (p. 197, for year, month,
@@ -2231,7 +2230,7 @@ canvas "Zanshin Calendar — basic design".
   nectar period if one falls in it, Viṣṭi while its span lasts, the
   black hour on its hours, the earth lords of the hour on the hour's
   animal's place, the hour's *bla mkhyen* and *sa rgyal* on theirs, the
-  *sa rgyal* the other way in its hour, the hidden earth lord and the sky
+  hidden earth lord and the sky
   dog (§5.13), and with a birth date vitality and body. Among them the
   hour's own readings (§5.13): "What the hour is for", a rough time with
   its moment ("the sun's rays gathering, 16:59") where one falls in the

@@ -639,7 +639,8 @@ it. It is item E below, built 2026-10-09.
   (vol. 2, p. 221), the hour's sky dog over the twelve places by the
   year's rule (p. 197), and the *sa rgyal* the other way, *pi ling 'phar
   ma*'s hour of each season-month (p. 236, the late summer's dog hour
-  from the Zhol print), as another view; and the sun's terms by WB's step,
+  from the Zhol print), as another view (removed 2026-10-11 with every
+  earth lord's other view, SPEC §5.13); and the sun's terms by WB's step,
   the excess's chu tshod times 14 (*yid*) and its chu srang divided by 6
   (*ro*), in whole chu tshod (open question 15, answered from Ngag dbang
   bzang po's two restatements of the line in the *Kun 'dus chen mo*),
@@ -2003,7 +2004,7 @@ X, so that the owner reads the wording once. The blocks are
 - **Gap.** The sky dog of the hour is 435 words, its twelve places and
   what each forbids; the earth lords of the hour 221; the astrologer
   spirit's five texts in both its day's and its hour's reading; the
-  earth king's other way a reading of its own; the combination period's
+  earth king's other way a reading of its own (removed 2026-10-11); the combination period's
   thirteen readings already in shape.
 - **Work.** The sky dog: the paragraph this hour's place and its ruling,
   the twelve places a row each or the table in
