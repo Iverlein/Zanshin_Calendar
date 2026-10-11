@@ -57,7 +57,6 @@ import zanshin.core.texts.KyurekiElection
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
 import zanshin.core.texts.Texts
-import zanshin.core.texts.byVoices
 import zanshin.core.texts.family
 import zanshin.core.tibetan.OwnDay
 
@@ -259,13 +258,8 @@ fun DaySummarySheet(
             // The hours before the works (ROADMAP U6): the one factor the texts put above the day.
             s.hours?.let { HoursBlock(it, onHour) }
 
-            if (s.verdict != null) {
-                VoiceBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
-                VoiceBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
-            } else {
-                ActivityBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, onElect)
-                ActivityBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, onElect)
-            }
+            WorkBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, tibetan = s.verdict != null, onElect)
+            WorkBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, tibetan = s.verdict != null, onElect)
 
             Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {
@@ -350,17 +344,23 @@ private fun Block(title: String, content: @Composable () -> Unit) {
 }
 
 /**
- * The 旧暦 day's works on one side, each with the annotations naming it; a work the 旧暦 election is
- * offered for opens a balloon with them and "Choose a day for it" through [onElect] (ROADMAP E5).
+ * The day's works on one side, one row each (SPEC §10.3, §10.4): the family's glyph, the work, and the
+ * annotations naming it right-aligned and muted, each tapped for its English or, on the Tibetan page,
+ * for its kind ("weekday"). The Tibetan brief takes the 旧暦's row (ROADMAP U10): the work first, its
+ * voices after it; until then each group of works stood under its voices, which took the eye. A work
+ * opens a balloon with its side and its annotations and "Choose a day for it" through [onElect]:
+ * every Tibetan work opens it, its election from the Tibetan page (ROADMAP E2); a 旧暦 work only when
+ * the 旧暦 election is offered for it (E5).
  */
 @Composable
-private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, onElect: ((Activity) -> Unit)?) {
+private fun WorkBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, tibetan: Boolean, onElect: ((Activity) -> Unit)?) {
     val side = stringResource(if (good) R.string.good_for else R.string.avoid)
     val choose = stringResource(R.string.election_choose)
     if (notes.isEmpty()) return
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         for (n in notes) {
+            val voices = if (good) n.good else n.avoid
             BoxWithConstraints {
                 // The label takes its own width up to 55% of the row and wraps by words past
                 // that; the annotations fill the rest, right-aligned. Without the cap a wide
@@ -368,15 +368,16 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                 val labelMax = maxWidth * 0.55f
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
-                    val elect = onElect?.takeIf { n.activity in KyurekiElection.OFFERED }
+                    val elect = if (tibetan) onElect else onElect?.takeIf { n.activity in KyurekiElection.OFFERED }
+                    val opens = tibetan || elect != null
                     var open by remember { mutableStateOf(false) }
-                    Column(Modifier.widthIn(max = labelMax).then(if (elect != null) Modifier.clickable(role = Role.Button) { open = !open } else Modifier)) {
+                    Column(Modifier.widthIn(max = labelMax).then(if (opens) Modifier.clickable(role = Role.Button) { open = !open } else Modifier)) {
                         Text(n.activity.english, style = body.copy(fontSize = 16.sp))
-                        if (open && elect != null) {
+                        if (open && opens) {
                             Balloon(
-                                listOf(BalloonRow(side, n.activity.english)) + (if (good) n.good else n.avoid).map { BalloonRow(it.english, it.kanji) },
+                                listOf(BalloonRow(side, n.activity.english)) + voices.map { BalloonRow(it.english, it.kanji) },
                                 preferAbove = true,
-                                actions = listOf(BalloonAction(choose) { elect(n.activity) }),
+                                actions = listOfNotNull(elect?.let { BalloonAction(choose) { it(n.activity) } }),
                                 onDismiss = { open = false },
                             )
                         }
@@ -387,61 +388,7 @@ private fun ActivityBlock(title: String, notes: List<ActivityNote>, color: Color
                             )
                         }
                     }
-                    Terms(if (good) n.good else n.avoid, small = true, modifier = Modifier.weight(1f), end = true)
-                }
-            }
-        }
-    }
-}
-
-/**
- * The Tibetan day's works on one side, grouped by the voices standing on it (ROADMAP U4): each group
- * headed by its voices, each tapped for its kind, and its works as one wrapped run of glyphs and
- * names; a work opens its workings, the voices that carry it with their kinds, and from there its
- * election through [onElect].
- */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun VoiceBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, onElect: ((Activity) -> Unit)?) {
-    if (notes.isEmpty()) return
-    val groups = remember(notes, good) { notes.byVoices(good) }
-    val side = stringResource(if (good) R.string.good_for else R.string.avoid)
-    val choose = stringResource(R.string.election_choose)
-    Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
-        Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
-        for ((voices, works) in groups) {
-            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    voices.forEachIndexed { i, e ->
-                        GlossText(e.kanji, e.english, body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold), preferAbove = true)
-                        if (i < voices.lastIndex) Text("·", style = body.copy(fontSize = 14.sp, color = Palette.faint))
-                    }
-                }
-                // Centred on each line: a name with Tibetan script stands taller than its neighbours.
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(14.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-                    for (n in works) {
-                        var open by remember { mutableStateOf(false) }
-                        Box {
-                            Row(
-                                Modifier
-                                    .clickable(role = Role.Button) { open = !open }
-                                    .padding(vertical = 5.dp),
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                            ) {
-                                CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), color, 18.dp)
-                                Text(n.activity.english, style = body.copy(fontSize = 15.sp))
-                            }
-                            if (open) {
-                                Balloon(
-                                    listOf(BalloonRow(side, n.activity.english)) + voices.map { BalloonRow(it.english, it.kanji) },
-                                    preferAbove = true,
-                                    actions = listOfNotNull(onElect?.let { elect -> BalloonAction(choose) { elect(n.activity) } }),
-                                    onDismiss = { open = false },
-                                )
-                            }
-                        }
-                    }
+                    Terms(voices, small = true, modifier = Modifier.weight(1f), end = true)
                 }
             }
         }

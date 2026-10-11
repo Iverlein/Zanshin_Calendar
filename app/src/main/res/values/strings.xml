@@ -488,7 +488,7 @@
     <!-- the Tibetan In brief row's counts after its glyphs (SPEC §10.3, ROADMAP T2.7): how many works the day names good and to avoid -->
     <string name="brief_row_good">good %1$d</string>
     <string name="brief_row_avoid">avoid %1$d</string>
-    <!-- the In brief row's combination periods against the day's tone: on an unlucky day those to be accomplished -->
+    <!-- the combination periods against the day's tone, before their times in short form ("09–11 · 13–17"), where no "Hours" heading stands over them (ROADMAP N1, the morning notice; the hours row says "good" and "avoid"): on an unlucky day those to be accomplished -->
     <string name="brief_row_hours_good">good hours</string>
     <!-- on a lucky day, the combination periods to be avoided -->
     <string name="brief_row_hours_bad">hours to avoid</string>

@@ -7,15 +7,16 @@ package zanshin.app.ui
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,6 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.CustomAccessibilityAction
 import androidx.compose.ui.semantics.Role
@@ -41,6 +44,7 @@ import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.DaySummary
+import zanshin.core.texts.HoursShortForm
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.HourSign
 import zanshin.core.tibetan.TibetanDay
@@ -52,11 +56,11 @@ import zanshin.core.tibetan.risingSign
  * strip of the twelve two-hour periods from 05:00, each coloured by the White Beryl's verdict on the
  * sign rising in it, with the present moment marked on today's page; under it, today, the present
  * hour with its sign and verdict, and the periods that run against the day's tone
- * ([DaySummary.hoursAgainst]), each time opening its hour. A tap on the strip opens the hours panel
- * at that hour through [onHour], a tap elsewhere at the present one. Nothing is weighed anew. Screen
- * readers get the present hour and every run's times, with an action for each.
+ * ([DaySummary.hoursAgainst]) on one line in short form ([HoursShortForm], ROADMAP U11), "hours to
+ * avoid 05–09 · 11–13". A tap on a run opens the hours panel at its hour through [onHour], a tap
+ * elsewhere on the row, the strip included, at the present one. Nothing is weighed anew. Screen
+ * readers get the present hour and every run's full times, with an action for each.
  */
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, current: Int?, nowMinute: Int?, onHour: (Int?) -> Unit) {
     val hours = summary.hours ?: return
@@ -75,8 +79,7 @@ fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, cu
             stringResource(if (tones[i] == Tone.GOOD) R.string.hours_period_good else R.string.hours_period_bad),
         )
     }
-    val against = summary.hoursAgainst.map { clockSpan(5 * 60 + it.first * 120, it.count * 120) to it.first }
-    val againstLabel = summary.verdict?.let { stringResource(if (it.tone == Tone.GOOD) R.string.brief_row_hours_bad else R.string.brief_row_hours_good) }
+    val against = summary.hoursAgainst.map { HoursShortForm.span(it) to it.first }
     // Every run's times for screen readers, each with an action that opens its hour.
     val runs = hours.periods.map { clockSpan(5 * 60 + it.first * 120, it.count * 120) to it }
     val runLabels = mapOf(Tone.GOOD to stringResource(R.string.brief_hours_good), Tone.BAD to stringResource(R.string.brief_hours_bad))
@@ -106,26 +109,54 @@ fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, cu
                     Text(it, style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
                 }
             }
-            // The hours against the day's tone: on an unlucky day those to be accomplished, on a lucky day those to avoid.
+            // The hours against the day's tone in short form (ROADMAP U11), one line: on an unlucky day those to be
+            // accomplished, on a lucky day those to avoid, under the In brief line's words. The full times are in the
+            // brief's "By the hour" and in what a screen reader hears.
             if (against.isNotEmpty()) {
                 val tone = if (summary.verdict!!.tone == Tone.GOOD) Tone.BAD else Tone.GOOD
-                FlowRow(
-                    verticalArrangement = Arrangement.Center,
-                    itemVerticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    Text(againstLabel!!, style = body.copy(fontSize = 13.sp, color = toneColor(tone)))
-                    for ((time, hour) in against) {
-                        Text(
-                            time,
-                            style = body.copy(fontSize = 14.sp),
-                            modifier = Modifier.clickable(role = Role.Button, onClickLabel = openHour) { onHour(hour) }.padding(vertical = 4.dp),
-                        )
-                    }
-                }
+                ShortHours(stringResource(if (tone == Tone.BAD) R.string.brief_avoid else R.string.brief_good), toneColor(tone), against, openHour, onHour)
             }
         }
         Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp))
+    }
+}
+
+/**
+ * The runs of [against], each its short span and the period it begins, after [label] in [colour], on one line
+ * (ROADMAP U11): "avoid 05–09 · 11–13 · 17–19 · 23–01", each span a tap that opens its hour. Four runs fit at
+ * font scale 1.3 in English and Russian; a day with five, which some months have, is set smaller rather than
+ * broken over two lines.
+ */
+@Composable
+private fun ShortHours(label: String, colour: Color, against: List<Pair<String, Int>>, openHour: String, onHour: (Int?) -> Unit) {
+    val measurer = rememberTextMeasurer()
+    val labelStyle = body.copy(fontSize = 13.sp, color = colour)
+    val spanStyle = body.copy(fontSize = 14.sp)
+    val sepStyle = body.copy(fontSize = 13.sp, color = Palette.faint)
+    val gap = 8.dp
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        val density = LocalDensity.current
+        val natural = remember(label, against, density) {
+            fun w(text: String, style: TextStyle) = measurer.measure(text, style, maxLines = 1, softWrap = false).size.width
+            w(label, labelStyle) + with(density) { gap.toPx() } +
+                against.sumOf { w(it.first, spanStyle) } + (against.size - 1) * w(HoursShortForm.SEPARATOR, sepStyle)
+        }
+        val available = with(density) { maxWidth.toPx() }
+        val k = if (natural > available) available / natural * 0.98f else 1f
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(label, style = labelStyle.copy(fontSize = labelStyle.fontSize * k), maxLines = 1, softWrap = false)
+            Spacer(Modifier.width(gap * k))
+            against.forEachIndexed { i, (span, hour) ->
+                if (i > 0) Text(HoursShortForm.SEPARATOR, style = sepStyle.copy(fontSize = sepStyle.fontSize * k), maxLines = 1, softWrap = false)
+                Text(
+                    span,
+                    style = spanStyle.copy(fontSize = spanStyle.fontSize * k),
+                    maxLines = 1,
+                    softWrap = false,
+                    modifier = Modifier.clickable(role = Role.Button, onClickLabel = openHour) { onHour(hour) }.padding(vertical = 4.dp),
+                )
+            }
+        }
     }
 }
 
