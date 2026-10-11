@@ -36,6 +36,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -43,6 +45,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -53,6 +56,7 @@ import zanshin.core.texts.Activities
 import zanshin.core.texts.Activity
 import zanshin.core.texts.Election
 import zanshin.core.texts.Reading
+import zanshin.core.texts.ReadingRow
 
 fun toneColor(tone: Tone): Color = when (tone) {
     Tone.GOOD -> Palette.good
@@ -302,9 +306,14 @@ fun ReadingSheet(
     }
 }
 
-/** One annotation's term, gloss, diagram, reading and workings, in a reading sheet. */
+/**
+ * One annotation's term, gloss, diagram, reading and workings, in a reading sheet, in the reader's
+ * order (SPEC §8.1, §10.3): the paragraph, the "good for" and "avoid" lists, the reading's rows in
+ * [ReadingRow]'s order, then the workings rows, how the entry was counted, in one label column.
+ */
 @Composable
 private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?, offered: Set<Activity>) {
+    val labelWidth = rowLabelWidth()
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 ToneDot(a.tone)
@@ -324,8 +333,8 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(
                         stringResource(R.string.row_tibetan),
-                        style = body.copy(fontSize = 13.sp, color = Palette.muted),
-                        modifier = Modifier.width(112.dp).alignByBaseline(),
+                        style = rowLabelStyle,
+                        modifier = Modifier.width(labelWidth).alignByBaseline(),
                     )
                     TibetanTerm(wylie, english, size = 18.sp, modifier = Modifier.alignByBaseline())
                 }
@@ -339,17 +348,36 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
             if (r.summary.isNotBlank()) Text(withTibetan(r.summary), style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))
             if (r.good.isNotEmpty()) ListBlock(stringResource(R.string.good_for), r.goodKeys, r.good, Palette.good, onElect, offered)
             if (r.avoid.isNotEmpty()) ListBlock(stringResource(R.string.avoid), r.avoidKeys, r.avoid, Palette.bad, onElect, offered)
-            if (a.details.isNotEmpty()) DetailsBlock(a.details)
+            val rows = r.rows.map { (row, text) -> row.label to text } + a.details
+            if (rows.isNotEmpty()) DetailsBlock(rows, labelWidth)
     }
 }
 
-/** Label and value rows under a reading: how its entry was worked out. */
+private val rowLabelStyle: TextStyle get() = body.copy(fontSize = 13.sp, color = Palette.muted)
+
+/**
+ * The label column of a sheet's rows (ROADMAP X2): as wide as the longest of the reading rows'
+ * labels in the shown language, on one line at the phone's font scale, so that "Spirits that harm"
+ * and "Рождение сегодня" never break; never under 112 dp, and at most half the sheet, where
+ * a longer label wraps. Every sheet in a language has the same column.
+ */
 @Composable
-private fun DetailsBlock(rows: List<Pair<String, String>>) {
+private fun rowLabelWidth(): Dp {
+    val measurer = rememberTextMeasurer()
+    val density = LocalDensity.current
+    val labels = ReadingRow.entries.map { it.label }
+    val widest = remember(labels, density) { labels.maxOf { measurer.measure(it, rowLabelStyle).size.width } }
+    val sheet = minOf(LocalConfiguration.current.screenWidthDp.dp, 640.dp) - 48.dp
+    return with(density) { widest.toDp() }.coerceIn(112.dp, maxOf(112.dp, sheet * 0.5f))
+}
+
+/** Label and value rows under a reading: its rows, then how its entry was worked out. */
+@Composable
+private fun DetailsBlock(rows: List<Pair<String, String>>, labelWidth: Dp) {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         for ((label, value) in rows) {
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted), modifier = Modifier.width(112.dp))
+                Text(label, style = rowLabelStyle, modifier = Modifier.width(labelWidth))
                 Text(withTibetan(value), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f))
             }
         }
