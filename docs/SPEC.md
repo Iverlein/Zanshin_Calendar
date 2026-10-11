@@ -1082,7 +1082,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   for *zin phung* and *gnam khyi*, by the date's animal; a skipped date has
   none, a doubled one both days, a leap month as its month
   (`EarthLordCourses`). Where WB gives a course and then another way, or
-  what "some say", the first is built; WB's model almanac (vol. 1,
+  what "some say", the first is built and the other shown as another view
+  on the dates it alone gives: a date in both is the course's own, once
+  (the sky dog's two ways share most of their days); WB's model almanac (vol. 1,
   pp. 154–171), whose day boxes write the courses, settles the readings it
   can check and is the test's witness (`EarthLordCoursesTest`). Shown and
   not weighed: WB's order of strength (vol. 2, p. 376) ranks the seven

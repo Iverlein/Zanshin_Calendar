@@ -150,8 +150,14 @@ date's day." **Built** (`HAL_KHYI`).
 ### 18. *Gnam khyi nag po* (p. 229)
 
 By season-month, the day's animals and a time of day (the reading names
-them). "One way, as told in the reckoning of brides"; a second way follows
-(spring sheep days at dawn …), built as another view. Avoid as for *hal khyi*.
+them). The first way ends «རྒྱ་ལུགས་རིགས་གཅིག་བག་རྩིས་ཀྱི། །སྐབས་སུ་བཤད་ལྟར་ཤེས་པར་བྱ།», one
+kind of the Chinese system, to be known as told in the reckoning of brides;
+the second opens «ཡང་ནི་ལུགས་གཅིག་འདི་ལྟར་སྨྲ།», "again, one tradition says
+this" (spring sheep days at dawn, «ནམ(ཐོ་རེངས་ཀྱང་)ལངས་ལ» …; read on the scan,
+img. 237–238), and the results after it, avoid as for *hal khyi*, hold for
+both. So the first is WB's own and the second a *lugs gcig*, built as
+another view. The two share most of their days (the middle month of spring
+all of them), and a day in both is the first course's, shown once.
 **Built** (`GNAM_KHYI`).
 
 ### 19. *Gnam sbyor* (p. 230)
