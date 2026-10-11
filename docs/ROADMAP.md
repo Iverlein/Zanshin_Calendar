@@ -39,45 +39,96 @@ The build order, by what each item waits on rather than by its size. A
 block is built in one go and is done when each of its items meets its own
 "Done when" below. **"Build the next block"** means the lowest-numbered
 block not marked built; a built block keeps its number, marked built with
-its date, so each prompt stays valid. Each block links to its items, and
-"Waits on" to the blocks it needs; a new item names its block the same
-way. A block blocked from outside (14)
+its date, so each prompt stays valid. Each block links to its items;
+"Readings" names the readings it waits on (below) and "Builds" the blocks
+it needs; a new item names its block the same way. A block blocked from outside (14)
 moves up as soon as it is unblocked.
 
-| # | Block | Waits on | Prompt |
+| # | Block | Readings | Builds | Prompt |
+| --- | --- | --- | --- | --- |
+| <a id="block-1"></a>1 | [U1](#u1) + [U3](#u3) — built 2026-10-09 | — | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
+| <a id="block-2"></a>2 | [E6](#e6), the "For you" half — built 2026-10-09 | — | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
+| <a id="block-3"></a>3 | [U4](#u4) + [U5](#u5) — built 2026-10-09 | — | [1](#block-1) | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
+| <a id="block-4"></a>4 | [T3](#t3) Element colours — built 2026-10-09 | — | [1](#block-1); the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
+| <a id="block-5"></a>5 | [T2.11](#t2-11) WB's almanac page — built 2026-10-09 | — | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
+| <a id="block-6"></a>6 | [T2.15](#t2-15) Hair by date — built 2026-10-09 | — | [5](#block-5) | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
+| <a id="block-7"></a>7 | [T2.14](#t2-14) The 11th month's 6th — built 2026-10-09 | — | [5](#block-5) | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
+| <a id="block-8"></a>8 | [T2.13](#t2-13) The eight classes and the nāgas — built 2026-10-09 | — | [5](#block-5) | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
+| <a id="block-9"></a>9 | [E1](#e1) + [E2](#e2) + [E3](#e3), with [E6](#e6)'s election half — built 2026-10-09 | — | [2](#block-2) | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
+| <a id="block-10"></a>10 | [E5](#e5) The 旧暦 election — built 2026-10-09 | — | [9](#block-9) | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
+| <a id="block-11"></a>11 | [E4](#e4) The works' own rising signs — built 2026-10-09 | — | [9](#block-9) | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
+| <a id="block-12"></a>12 | [M1](#m1) Meditation timer and bell — built 2026-10-09 | — | — | Build block 12: M1, the meditation timer and the periodic bell. |
+| <a id="block-13"></a>13 | [T4](#t4) + [T5](#t5) Element calculation and gender — built 2026-10-09 | — | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
+| <a id="block-14"></a>14 | [T2.4](#t2-4)'s reading half + [T2.9](#t2-9) — built 2026-10-10 ([T2.9](#t2-9) 2026-10-09) | — | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
+| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | — | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| <a id="block-16"></a>16 | [L4](#l4) Hosted Weblate | — | [15](#block-15); not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
+| <a id="block-17"></a>17 | [T2.20](#t2-20) The times within the day — built 2026-10-09 | — | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
+| <a id="block-18"></a>18 | [T2.21](#t2-21) The month's own entries — built 2026-10-10 | — | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
+| <a id="block-19"></a>19 | [T2.22](#t2-22) The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | — | [17](#block-17) | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
+| <a id="block-20"></a>20 | [T2.23](#t2-23) The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
+| <a id="block-21"></a>21 | [U6](#u6) The page in the order of strength — built 2026-10-09 | — | [3](#block-3) | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
+| <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
+| <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
+| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | [RD1](#rd1) | — | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
+| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | — ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | — | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions. |
+| <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
+| <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
+| <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
+| <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
+| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
+| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
+
+## Readings
+
+Reading the sources is apart from building (the owner, 2026-10-11): a
+reading needs no code, no emulator and no build before it, only the
+readings in its "Needs", so readings run ahead of the blocks, in any
+session. A reading is done when its facts are in its topic file, read on
+the scan with edition, page and image number, as
+[sources/PLAN.md](sources/PLAN.md) says; it is marked done here with its
+date and keeps its number. **"Do the next reading"** means the
+lowest-numbered reading not done whose needs are done. Page references
+are the 1996 edition's, from BDRC's etext (IE0OPI51524892); the readings
+check them on the scans.
+
+| # | Reading | Source and pages | Needs | For | Topic file | Prompt |
+| --- | --- | --- | --- | --- | --- | --- |
+| <a id="rd1"></a>RD1 | WB's days of the twelve links, and which day they mean | WB vol. 2, pp. 351–356 (img. 359–364); against vol. 1, p. 177's count; p. 356's links on the hours | — | [24](#block-24), [26](#block-26) | day-letters.md | Read RD1: WB vol. 2 pp. 351–356 on the scan, each link's day with its works, directions, birth, loss, illness and remedy, and whether its day is the almanac's link. |
+| <a id="rd2"></a>RD2 | What the almanac writes of the year's and month's earth lords | WB vol. 1, pp. 174–176 (img. 184–186), the year's front matter and the month's head; the model almanac's month heads, pp. 154–171 (img. 164–181) | — | [25](#block-25) | almanac-page.md, month-entries.md | Read RD2: WB vol. 1 pp. 174–176 and the model almanac's month heads, for how the year's and the month's earth lords are written. |
+| <a id="rd3"></a>RD3 | WB's earth lords of the year | WB vol. 2, ch. 31, pp. 175–198 (img. 183–206): the kings and ministers, the year's *hal khyi* and *sa rgyal*, the black years, *nag mo dgu skor*, the sme ba's gods, the palace gods, the sky dog of brides (p. 198) | — | [25](#block-25), [30](#block-30) | year-month-earth-lords.md (new) | Read RD3: WB vol. 2 pp. 175–198, each earth lord of the year with its course, place, works and remedy. |
+| <a id="rd4"></a>RD4 | WB's earth lords of the month | WB vol. 2, ch. 31, pp. 199–221 (img. 207–229): the bad directions, *bum stong*, the month's *hal khyi*, *lto 'phye*, the month's *nag mo dgu skor*, the scattered earth lords | — | [25](#block-25) | year-month-earth-lords.md | Read RD4: WB vol. 2 pp. 199–221, each earth lord of the month with its course, place, works and remedy. |
+| <a id="rd5"></a>RD5 | KP's boxes on the Chinese almanac's days | KP and KP2, every box naming *se byi*, *hang phan*, *zla klung*, *se shar*, the *se*, *pi ling*, *tsang kun*, *dbul*, *nyi nag*, *gnam stong* ([kp-activities.md](sources/kp-activities.md), "not calculated") | [RD3](#rd3), [RD4](#rd4) | [25](#block-25) | kp-activities.md | Read RD5: KP's boxes for the earth lords RD3 and RD4 identify, their works on the scan. |
+| <a id="rd6"></a>RD6 | Any weight the texts give the earth lords | WB's notes (vol. 2, pp. 474–545), KD's readers of WB, KP's prose (img. 13–14): the earth lords against the day's factors | [RD3](#rd3), [RD4](#rd4) | [25](#block-25) ([D4](#t2-26)) | weighing.md | Read RD6: search WB's notes and its readers for a rank of the earth lords, for the owner's D4. |
+| <a id="rd7"></a>RD7 | Dr. Nida Chenagtsang's works | Catalogues (library and publishers' records): titles, editions, his name in Tibetan as printed; the books themselves | — | [26](#block-26), [32](#block-32) | health.md (new) | Read RD7: identify Dr. Nida Chenagtsang's published works from catalogues and list them with what each covers. |
+| <a id="rd8"></a>RD8 | What his works cite | His works (RD7), for the classical passages they rest on: the la, the life force, health and illness by date, month, hour and age | [RD7](#rd7) | [26](#block-26), [32](#block-32) | health.md | Read RD8: list every classical passage Dr. Chenagtsang's works cite for the la, the life force and illness by time. |
+| <a id="rd9"></a>RD9 | The classical texts he cites | The *rgyud bzhi*, its commentaries and the calendar-and-medicine texts RD8 names, on their scans (BDRC) | [RD8](#rd8) | [26](#block-26) | health.md | Read RD9: the passages RD8 lists, on their scans. |
+| <a id="rd10"></a>RD10 | WB on health | WB vol. 1, ch. 20 (pp. 218–251) and 21 (pp. 252–258) on the la and the life force; vol. 2, ch. 33's illness lines (dates pp. 297–304, weekdays pp. 308–312, day animals pp. 356–359); vol. 1, pp. 403–405 (bloodletting and moxa by the year of age's mewa); pp. 330, 338 on the enemy and grave mansions | [RD1](#rd1) | [26](#block-26) | health.md | Read RD10: WB's passages on the la, the life force and illness, on the scan. |
+| <a id="rd11"></a>RD11 | The reckonings' inventory | WB vol. 1, ch. 20–26 (pp. 218 to the volume's end); vol. 2, ch. 27–30 (pp. 3–173); the reckoning for the dead (ch. 31, the notes pp. 474–545): each chapter's outline and count of pebbles | — | [27](#block-27), [28](#block-28) and every reckoning | reckonings.md (new) | Read RD11: the outline of each reckoning chapter, what it reckons, from whose dates, what is a casting, and its size. |
+| <a id="rd12"></a>RD12 | WB's illness reckoning | WB vol. 1, ch. 25, pp. 417–452 (img. 427–462): fifteen starting points; the elements' illnesses, pp. 438–439 | [RD11](#rd11); [RD8](#rd8) beside | [32](#block-32) | health.md | Read RD12: WB ch. 25 on the scan. |
+| <a id="rd13"></a>RD13 | The birth reckoning and the natal trigram | WB vol. 1, ch. 22, pp. 259–350 (img. 269–360): the natal trigram from the mother's age first, the *Moonbeams* f. 12a (KD vol. 3, lent scans) beside; then the rest | [RD11](#rd11) | [27](#block-27), [29](#block-29), [31](#block-31) | year-of-life.md | Read RD13: WB ch. 22, the natal trigram first. |
+| <a id="rd14"></a>RD14 | The obstacles that need other people | WB vol. 1, ch. 24: the secret obstacle, the spouses' shared trigram and obstacles, the ancestors' tombs and *dur keg*, the household readings (p. 408) and pebbles (pp. 385–387); the natal trigram's readings (WB ff. 180b–182a, found in the 1996 edition) | [RD11](#rd11) | [27](#block-27), [29](#block-29) | year-of-life.md | Read RD14: WB ch. 24's obstacles that need the mother, spouse or the dead, on the scan. |
+| <a id="rd15"></a>RD15 | The marriage chapter | WB vol. 1, ch. 23, pp. 351–379 (img. 361–389): the match, the departure (from p. 365, seventeen parts), the remedies | [RD11](#rd11); [RD3](#rd3) for the sky dog of brides | [27](#block-27), [30](#block-30), [31](#block-31) | marriage.md (new) | Read RD15: WB ch. 23 on the scan, the departure first. |
+| <a id="rd16"></a>RD16 | The reckoning for the dead | WB's *gshin rtsis* (vol. 2, ch. 31's passages and the notes, pp. 474–545): what it needs of the dead and the living | [RD11](#rd11) | [27](#block-27), [31](#block-31) | reckonings.md | Read RD16: WB's reckoning for the dead, what it asks and what it gives. |
+| <a id="rd17"></a>RD17 | The other reckonings | WB vol. 1, ch. 26 (from p. 453); vol. 2, ch. 27 (pp. 3–25), 28 (pp. 26–43), 29 (pp. 44–143), 30 (pp. 144–173), each in full | [RD11](#rd11) | [31](#block-31) | reckonings.md | Read RD17: the next reckoning chapter RD11 sorts as calculable. |
+
+### Left open in built work
+
+Readings that no block waits on: each would settle or confirm a reading
+already built, and is done when it is, or when the search for it is
+written down as a dead end (sources/PLAN.md).
+
+| # | What is open | Where | Built in |
 | --- | --- | --- | --- |
-| <a id="block-1"></a>1 | [U1](#u1) + [U3](#u3) — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
-| <a id="block-2"></a>2 | [E6](#e6), the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
-| <a id="block-3"></a>3 | [U4](#u4) + [U5](#u5) — built 2026-10-09 | [1](#block-1) | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
-| <a id="block-4"></a>4 | [T3](#t3) Element colours — built 2026-10-09 | [1](#block-1); the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
-| <a id="block-5"></a>5 | [T2.11](#t2-11) WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
-| <a id="block-6"></a>6 | [T2.15](#t2-15) Hair by date — built 2026-10-09 | [5](#block-5) | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
-| <a id="block-7"></a>7 | [T2.14](#t2-14) The 11th month's 6th — built 2026-10-09 | [5](#block-5) | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
-| <a id="block-8"></a>8 | [T2.13](#t2-13) The eight classes and the nāgas — built 2026-10-09 | [5](#block-5) | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
-| <a id="block-9"></a>9 | [E1](#e1) + [E2](#e2) + [E3](#e3), with [E6](#e6)'s election half — built 2026-10-09 | [2](#block-2) | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
-| <a id="block-10"></a>10 | [E5](#e5) The 旧暦 election — built 2026-10-09 | [9](#block-9) | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
-| <a id="block-11"></a>11 | [E4](#e4) The works' own rising signs — built 2026-10-09 | [9](#block-9) | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
-| <a id="block-12"></a>12 | [M1](#m1) Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
-| <a id="block-13"></a>13 | [T4](#t4) + [T5](#t5) Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
-| <a id="block-14"></a>14 | [T2.4](#t2-4)'s reading half + [T2.9](#t2-9) — built 2026-10-10 ([T2.9](#t2-9) 2026-10-09) | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
-| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
-| <a id="block-16"></a>16 | [L4](#l4) Hosted Weblate | [15](#block-15); not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
-| <a id="block-17"></a>17 | [T2.20](#t2-20) The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
-| <a id="block-18"></a>18 | [T2.21](#t2-21) The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
-| <a id="block-19"></a>19 | [T2.22](#t2-22) The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | [17](#block-17) | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
-| <a id="block-20"></a>20 | [T2.23](#t2-23) The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
-| <a id="block-21"></a>21 | [U6](#u6) The page in the order of strength — built 2026-10-09 | [3](#block-3) | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
-| <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
-| <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
-| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | — | Build block 24: T2.27, read WB vol. 2 pp. 351–356 on the scan and join the links' readings to the day's link. |
-| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [D4](#t2-26), the owner's choice of how they are counted | Build block 25: T2.26, read WB ch. 31's earth lords of the year and the month and build the Year and Month tabs, their works counted. |
-| <a id="block-26"></a>26 | [H1](#h1) The health screen | [24](#block-24) | Build block 26: H1, read WB and Dr. Nida Chenagtsang on the la, the life force and illness, then build the Health screen with the element's mansions. |
-| <a id="block-27"></a>27 | [P1](#p1) Relatives | — | Build block 27: P1, the relatives of each saved person. |
-| <a id="block-28"></a>28 | [R1](#r) The Reckonings section | — | Build block 28: R1, inventory WB's reckonings and open the Reckonings section with the year of age moved into it. |
-| <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
-| <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [25](#block-25), [27](#block-27) | Build block 30: P3, read WB ch. 23 and build the bride's departure for a couple. |
-| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
-| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [26](#block-26), [28](#block-28) | Build block 32: H2, read WB ch. 25 and build the illness reckoning on the Health screen. |
+| <a id="o1"></a>O1 | KP's links left out: box 53's (which half), box 55's numbers, box 50 (KP2 only), "skye" alone (boxes 5, 7, 20), boxes 48 and 60 | [kp-activities.md](sources/kp-activities.md) | [T2.25](#t2-25) |
+| <a id="o2"></a>O2 | Ch. 34: three entries whose verse reads two ways; whether «བཅོ་བརྒྱད་དགུ» names the 9th for marriage; which mansion «བྱ་གཞུག» is | [white-beryl-ch34.md](sources/white-beryl-ch34.md), *Left out* | T2.6 |
+| <a id="o3"></a>O3 | The hair dates' 9th, «མོད་འགྱུར» | [hair-dates.md](sources/hair-dates.md) | [T2.15](#t2-15) |
+| <a id="o4"></a>O4 | Open question 18: the places WB's Mercury and Venus clause compares at an eclipse (vol. 1, p. 64); searched without result 2026-10-10 | [open-questions.md](sources/open-questions.md) | [T2.23](#t2-23) |
+| <a id="o5"></a>O5 | Open question 1: the yoga ranking's «རང་སྐྱེས» line; no reading found; not planned | [open-questions.md](sources/open-questions.md) | — |
+| <a id="o6"></a>O6 | WB's passages on the *sri*, from the etext only | [sri.md](sources/sri.md) | the *sri*'s name |
+| <a id="o7"></a>O7 | The weekdays' verses, by machine with corrections, not by eye syllable by syllable (the lists were settled on the scan) | [weekdays.md](sources/weekdays.md) | T2 |
+| <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable | [earth-lords.md](sources/earth-lords.md) | T2 |
+| <a id="o9"></a>O9 | The four times of Māra's manual, from the etext only (its scans are open) | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
 
 ## Tibetan page
 
@@ -842,8 +893,8 @@ verdict, and the owner's decisions of 2026-10-10:
   *bla mkhyen*'s, each opening its reading and works; the month balloon's
   long entries move into its tab where the owner says. The day page shows
   the year's and month's earth lords through the works they decide.
-- **Block.** [25](#block-25); waits on D4. [30](#block-30) (P3) waits on
-  it.
+- **Block.** [25](#block-25); reads [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6); waits on D4.
+  [30](#block-30) (P3) waits on it.
 - **Done when.** Vectors from the model almanac's month heads (vol. 1,
   pp. 154–171) where it draws them; `DaySummaryTest`'s counts updated;
   `CatalogTest`; SPEC §5.12, §5.13, §10.3; both tabs and the page checked
@@ -867,8 +918,8 @@ verdict, and the owner's decisions of 2026-10-10:
   directions, the birth, the loss and the remedy in the link's sheet, the
   illness to H1; p. 356's hours read for whether they add to the hours
   panel.
-- **Block.** [24](#block-24); waits on nothing. [26](#block-26) (H1)
-  waits on it for the links' illness readings.
+- **Block.** [24](#block-24); reads [RD1](#rd1), which [26](#block-26) (H1)
+  reads too for the links' illness lines.
 - **Done when.** A test pins each link's lists to the scan reading;
   `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
 
@@ -1469,8 +1520,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   the grey dot where WB does not reckon it. Your day links to the screen.
   Whether the enemy and grave mansions are absolute as the enemy weekday
   is (E6) is settled from the text: p. 338 names the weekday only.
-- **Block.** [26](#block-26); waits on [24](#block-24), whose links'
-  illness readings it shows.
+- **Block.** [26](#block-26); reads [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10); waits on no
+  build.
 - **Done when.** Vectors for the test birth date (1976-06-01, life force
   earth); `CatalogTest`; SPEC §5.8, §8.3, §10.3, §10.5; both languages
   on the emulator; one line on the screen that its readings are the
@@ -1485,8 +1536,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
 - **Work.** Read it on the scans with R1's inventory; build its pebbles
   with R's, on a tab of the Health screen, listed in the Reckonings
   section too; Dr. Chenagtsang's works read beside it.
-- **Block.** [32](#block-32); waits on [26](#block-26) (the screen) and
-  [28](#block-28) (R1's pebbles).
+- **Block.** [32](#block-32); reads [RD12](#rd12), [RD8](#rd8) beside; waits on
+  [26](#block-26) (the screen) and [28](#block-28) (R1's pebbles).
 - **Done when.** Vectors where Dorje or WB give a worked example;
   `CatalogTest`; SPEC; both languages.
 
@@ -1508,7 +1559,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   device only; the `people` preference grows a relatives field, an older
   line reading as none. Whether relatives count toward the ten is the
   owner's choice.
-- **Block.** [27](#block-27); waits on nothing. [29](#block-29) (P2),
+- **Block.** [27](#block-27); reads [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) for what each
+  asks of the relatives; waits on no build. [29](#block-29) (P2),
   [30](#block-30) (P3) and [31](#block-31) (R2…) wait on it.
 - **Done when.** A test of the stored format, older lines included; the
   dialogs checked on the emulator in both languages; SPEC §10.5.
@@ -1526,8 +1578,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
 - **Work.** Read ch. 22's natal trigram and ch. 24's passages on the
   scans; build each in the year of age (R1's section), from P1's
   relatives.
-- **Block.** [29](#block-29); waits on [27](#block-27) (P1) and
-  [28](#block-28) (R1).
+- **Block.** [29](#block-29); reads [RD13](#rd13), [RD14](#rd14); waits on [27](#block-27)
+  (P1) and [28](#block-28) (R1).
 - **Done when.** Vectors from Dorje's charts where they give them;
   `CatalogTest`; SPEC §5.9.1; both languages.
 
@@ -1550,8 +1602,9 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   bride's works ("Choose a day", E2), its works counted as D4 settles
   for the earth lords (T2.26). The first part, the match, is a reckoning
   for R.
-- **Block.** [30](#block-30); waits on [27](#block-27) (P1) and
-  [25](#block-25) (T2.26, for its earth lords and the sky dog).
+- **Block.** [30](#block-30); reads [RD15](#rd15), with [RD3](#rd3)'s sky dog of
+  brides; waits on [27](#block-27) (P1) and [25](#block-25) (T2.26, for
+  its earth lords and the sky dog).
 - **Done when.** A vector of a couple's good and bad days for the
   departure; `ElectionTest`; SPEC §5.14, §10.8; both languages.
 
@@ -1592,9 +1645,10 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   (ch. 26), the *dpyad lding* (ch. 27), the moment (ch. 30, from the clock
   time of the question, if R1 finds it calculable). The illness reckoning
   (ch. 25) is built with H2 and listed here too.
-- **Blocks.** R1 is [28](#block-28), waiting on nothing; R2… is
-  [31](#block-31), waiting on 28 and, for what needs relatives, on
-  [27](#block-27) (P1). [29](#block-29) (P2) and [32](#block-32) (H2) wait
+- **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
+  build; R2… is [31](#block-31), each reckoning reading its own
+  ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
+  relatives, on [27](#block-27) (P1). [29](#block-29) (P2) and [32](#block-32) (H2) wait
   on R1.
 - **Done when** (each item): its readings in the catalog with WB as their
   source; vectors from Dorje's charts where they exist; `CatalogTest`;

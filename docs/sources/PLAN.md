@@ -2,9 +2,10 @@
 
 For whoever continues the source work. The settled findings are in the
 topic files listed in [README.md](README.md). What is still to be read, and
-why the app needs it, is in the work plan for the Tibetan page's gaps
-([ROADMAP.md](../ROADMAP.md), T2), each reading task with its source,
-pages and done-when. This file says how to read: the rules, the tools, the
+why the app needs it, is in the roadmap's *Readings*
+([ROADMAP.md](../ROADMAP.md#rd1)), each reading with its source, pages,
+the readings it needs, the blocks that wait on it and its topic file;
+what is left open in built work is listed under it. This file says how to read: the rules, the tools, the
 services and the dead ends.
 
 **Tools and their limits** (all in `tools/sources/`, see *Tools* below):
