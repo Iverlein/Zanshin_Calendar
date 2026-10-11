@@ -37,29 +37,29 @@ none has not been opened for the app.
 | 17 | 190–197 (200–207) | The three kinds of day (*zhag gsum*) | [earth-lords.md](earth-lords.md) (pp. 190–192, the *sgang* numbered by month) |
 | 18 | 198–212 (208–222) | The sixty years' results, from the *Dus bstan me long* and others | — |
 | 19 | 213–217 (223–227) | Carrying the reckoning forward, and the wheel of the three days | — |
-| 20 | 218–251 (228–261) | The framework of the element reckoning (*'byung rtsis*), as the sūtras and tantras give it | [personal-mansions.md](personal-mansions.md) (p. 232, the turtle and the clans), [sri.md](sri.md); the rest ROADMAP RD10, RD11 |
-| 21 | 252–258 (262–268) | The start of the Chinese reckoning, the *sgang sgril* and the like | [year-of-life.md](year-of-life.md) (pp. 255–258), [personal-mansions.md](personal-mansions.md) (p. 257) |
-| 22 | 259–350 (269–360) | The reckoning of lives and karma (*tshe rabs las rtsis*): the birth | ROADMAP RD13 |
-| 23 | 351–379 (361–389) | The marriage reckoning and the road reckoning (*bag rtsis*, *lam rtsis*) | ROADMAP RD15; outline below |
-| 24 | 380–416 (390–426) | The obstacle reckoning and the Chinese pebbles (*keg rtsis*) | [year-of-life.md](year-of-life.md) (T4); the rest ROADMAP RD14 |
-| 25 | 417–452 (427–462) | The illness reckoning (*nad rtsis*) | [lunar-day-signs.md](lunar-day-signs.md) (pp. 449–450, the trigram's goddesses); the rest ROADMAP RD12 |
-| 26 | 453–473 (463–483) | The thirty Chinese and Tibetan starting points, their pebbles and commentary | ROADMAP RD17 |
+| 20 | 218–251 (228–261) | The framework of the element reckoning (*'byung rtsis*), as the sūtras and tantras give it | [personal-mansions.md](personal-mansions.md) (p. 232, the turtle and the clans), [sri.md](sri.md); [reckonings.md](reckonings.md) (RD11: the outline, an older system's counts of pebbles, p. 249, on the scan); the rest ROADMAP RD10 |
+| 21 | 252–258 (262–268) | The start of the Chinese reckoning, the *sgang sgril* and the like | [year-of-life.md](year-of-life.md) (pp. 255–258), [personal-mansions.md](personal-mansions.md) (p. 257); [reckonings.md](reckonings.md) (RD11: the nine means of reckoning, p. 253, on the scan; the outline) |
+| 22 | 259–350 (269–360) | The reckoning of lives and karma (*tshe rabs las rtsis*): the birth | [reckonings.md](reckonings.md) (RD11: outline, inputs, 3,773 pebbles, p. 262 on the scan); the rest ROADMAP RD13 |
+| 23 | 351–379 (361–389) | The marriage reckoning and the road reckoning (*bag rtsis*, *lam rtsis*) | [reckonings.md](reckonings.md) (RD11: the fifteen points of the match and 5,801 pebbles, p. 351 on the scan); the rest ROADMAP RD15; outline below |
+| 24 | 380–416 (390–426) | The obstacle reckoning and the Chinese pebbles (*keg rtsis*) | [year-of-life.md](year-of-life.md) (T4); [reckonings.md](reckonings.md) (RD11: outline, 888 pebbles, p. 380, Yigdzin-1); the rest ROADMAP RD14 |
+| 25 | 417–452 (427–462) | The illness reckoning (*nad rtsis*) | [lunar-day-signs.md](lunar-day-signs.md) (pp. 449–450, the trigram's goddesses); [reckonings.md](reckonings.md) (RD11: the pebbles' rule of colour and 1,347 pebbles, p. 417 on the scan); the rest ROADMAP RD12 |
+| 26 | 453–473 (463–483) | The thirty Chinese and Tibetan starting points, their pebbles and commentary | [reckonings.md](reckonings.md) (RD11: outline, 630 pebbles, p. 453, Yigdzin-1); the rest ROADMAP RD17 |
 
 ## Vol. 2
 
 | Ch. | Pages (img.) | What it holds, by its title | Read for the app |
 | --- | --- | --- | --- |
-| 27 | 3–25 (11–33) | The thirteen Chinese *dpyad lding* or *bal mo'i lding*, and small reckonings | [sri.md](sri.md); the rest ROADMAP RD17 |
-| 28 | 26–43 (34–51) | Various small signs (*rtags phran*) | [month-entries.md](month-entries.md) (p. 29, eclipses as an omen); the rest RD17 |
-| 29 | 44–143 (52–151) | *Zangs kyam* and the like | [earth-lords.md](earth-lords.md), [sri.md](sri.md), [weighing.md](weighing.md); the rest RD17 |
-| 30 | 144–173 (152–181) | The reckoning of the moment (*dus tshod rtsis*), small examinations of the ground and of pebbles | — (the vol. 2, p. 145 in SPEC and month-entries.md is KD's); RD17; outline below |
+| 27 | 3–25 (11–33) | The thirteen Chinese *dpyad lding* or *bal mo'i lding*, and small reckonings | [sri.md](sri.md); [reckonings.md](reckonings.md) (RD11: outline, 802 pebbles, p. 3 on the scan); the rest ROADMAP RD17 |
+| 28 | 26–43 (34–51) | Various small signs (*rtags phran*) | [month-entries.md](month-entries.md) (p. 29, eclipses as an omen); [reckonings.md](reckonings.md) (RD11: observed omens, 1,166 pebbles, p. 26 on the scan); the rest RD17 |
+| 29 | 44–143 (52–151) | *Zangs kyam* and the like: WB's reckoning for the dead (*gshin rtsis*, by its colophon, p. 142), a preliminary and fifteen examinations | [earth-lords.md](earth-lords.md), [sri.md](sri.md), [weighing.md](weighing.md); [reckonings.md](reckonings.md) (RD11: outline, 10,371 pebbles, p. 44 on the scan); the rest RD16 |
+| 30 | 144–173 (152–181) | The reckoning of the moment (*dus tshod rtsis*), small examinations of the ground and of pebbles | — (the vol. 2, p. 145 in SPEC and month-entries.md is KD's); [reckonings.md](reckonings.md) (RD11: outline, 1,554 pebbles, p. 144 on the scan); RD17; outline below |
 | 31 | 174–240 (182–248) | The earth lords that move by year, month, date and hour | [earth-lords.md](earth-lords.md), [earth-lord-courses.md](earth-lord-courses.md), [month-entries.md](month-entries.md); the year's and month's ROADMAP RD3, RD4; outline below |
 | 32 | 241–296 (249–304) | Geomancy, outer and inner, with small remedies (*sa dpyad*) | [open-questions.md](open-questions.md) |
 | 33 | 297–377 (305–385) | The results of the planets, mansions, yogas, karaṇas and the rest | [white-beryl-ch33.md](white-beryl-ch33.md), section by section |
 | 34 | 378–428 (386–436) | The important works one by one | [white-beryl-ch34.md](white-beryl-ch34.md) |
 | 35 | 429–454 (437–462) | The five sciences and the like | — |
 | — | 455–473 (463–481) | The colophon (*mjug byang*) | — |
-| — | 474–541 (482–549) | The notes: *Nag rtsis brjed byang snying po gsal ba*, the difficult points of WB's Chinese reckoning | [personal-mansions.md](personal-mansions.md) (pp. 474, 512), [month-entries.md](month-entries.md) (pp. 484, 486), [lunar-day-signs.md](lunar-day-signs.md) (p. 493), [earth-lords.md](earth-lords.md), [weighing.md](weighing.md) |
+| — | 474–541 (482–549) | The notes: *Nag rtsis brjed byang snying po gsal ba*, the difficult points of WB's Chinese reckoning | [personal-mansions.md](personal-mansions.md) (pp. 474, 512), [month-entries.md](month-entries.md) (pp. 484, 486), [lunar-day-signs.md](lunar-day-signs.md) (p. 493), [earth-lords.md](earth-lords.md), [weighing.md](weighing.md); [reckonings.md](reckonings.md) (RD11: its eight sections, p. 474 on the scan, and the chapters each explains) |
 | — | 542– (550–) | An index of the work for easy use (*dkar chag thor bu*) | — |
 
 ## Found in passing (2026-10-11, the etext, not read on the scan)
