@@ -1851,8 +1851,13 @@ canvas "Zanshin Calendar — basic design".
 
 - Opens on today, in the **calendar last viewed**.
 - **Swipe left/right** moves one day.
-- **Switching calendars:** two entries at the top of the side menu, and a tap
-  on the calendar's name in the header switches directly.
+- **Switching calendars:** two entries at the top of the side menu, and in
+  the header a toggle of two segments, "Tibetan | 旧暦" (ROADMAP U15, built
+  2026-10-11): the calendar shown filled in its accent, saffron or
+  vermilion, the other outlined in its own; a tap on the other switches.
+  Screen readers get the two as tabs, the shown one selected. Until U15 the
+  header held a pill naming the calendar shown with a swap icon, which read
+  either as "this is Tibetan" or as "go to Tibetan".
 - **Switching people:** once two or more people are saved (§10.5), the
   header holds a ring with the chosen person's initials (the person glyph
   for a name left blank or for no one), between the date and the calendar's
@@ -1863,6 +1868,15 @@ canvas "Zanshin Calendar — basic design".
   of §10.4, with a legend whose kanji translate on tap.
 - Festivals and holidays carry a line glyph drawn for this app.
 - **Local sky line** at the bottom of both calendars (§10.5).
+- **First-run line** (ROADMAP U18, built 2026-10-11): under the In brief
+  row, on the first three opens of each page, one line that can be put
+  away: on the Tibetan page "Tap any row for its reading; the solid dot
+  decides the day", on the 旧暦 page "Tap any row for its reading; every
+  kanji shows its English on tap". An open is counted once a launch, when
+  the page is first shown (turning the phone is not another); the line is
+  gone after the third open or a tap on it, a counter per page
+  (`first_run_tibetan`, `first_run_kyureki`). Interface text, not a
+  reading (§8 does not apply).
 
 ### 10.3 Tibetan view
 
@@ -1933,8 +1947,8 @@ canvas "Zanshin Calendar — basic design".
   the day names: the families of the heaviest works good and of the
   heaviest to avoid, weighed as §5.12 says (§10.7), with the day's tone and, in a few words, what decided it
   ("a lucky day · by the combination", "an unlucky day · by Tuesday",
-  the factor named as the weighing found it, §5.12); after the glyphs, how many works
-  the day names good and to avoid ("good 53", "avoid 36"), since the row
+  the factor named as the weighing found it, §5.12); over each side's glyphs, how many works
+  the day names good and to avoid ("good 53", "avoid 36"; §10.7), since the row
   cannot show the proportion and on 11 % of days the lists run against
   the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
   reason and, under it, the rule in a sentence (ROADMAP U6): that each
@@ -1998,7 +2012,9 @@ canvas "Zanshin Calendar — basic design".
   and the element pair with the grid of the ten. The section's heading
   names what decides the day ("Almanac · by the combination", "by
   Tuesday"; ROADMAP U6), and only the deciding voice's dot is solid: every
-  other row's dot is an outline, "not deciding today" to a screen reader,
+  other row's dot is an outline (10 dp with a 2 dp ring, ROADMAP U12, built
+  2026-10-11; 8 dp with a 1.5 dp ring until then, which hardly showed on
+  the ink page), "not deciding today" to a screen reader,
   and its sheet says under the gloss that its tone does not decide the
   day and that its lists still decide the works they name that no
   stronger factor names (`Annotation.outline`), so that the column of
@@ -2055,7 +2071,19 @@ canvas "Zanshin Calendar — basic design".
   row's second line says only what it is; the rest is in its sheet. The
   *bla mkhyen* row gives the direction alone (its sme ba in the sheet),
   the earth lords' courses row the courses' names ("Namkyi Nakpo · The
-  sky door"), what each does today in the sheet.
+  sky door"), what each does today in the sheet. A second line states the
+  fact, never what its sheet holds (ROADMAP U13, built 2026-10-11): Rāhu's
+  course by date gives the course as its compass draws it ("south-west →
+  north-east", on the 14th "from the sky into the lake", on the 30th
+  "every direction"; whether the course is the detailed or the general is
+  in the compass's caption), a special day what makes it ("Sunday +
+  Hasta", the Vajra Treatise's days too, whose reckoning their reading
+  names), the burning date its weekday and date ("Tuesday + Lunar date
+  3"). Until U13 they read "date 1: where Rāhu moves, and what the day is
+  good for", "special day of weekday and mansion: Sunday + Hasta" and
+  "burning date of weekday and date: …". The kind-and-gloss lines stay
+  ("lunar mansion: the hand", "karaṇa: unpleasant"; on the 旧暦 page
+  "naru — completion · twelve stations"): the gloss is the fact.
 - **Times within the day** (§5.8): the mansion row's subtitle adds a
   second mansion that comes by daylight ("then Uttaraphalgunī from
   16:30"), the yoga row a skipped yoga ("and Vajra 09:01–04:06, skipped"),
@@ -2171,7 +2199,9 @@ canvas "Zanshin Calendar — basic design".
 - **In brief:** a line under the rokuyō (and under the day mark) shows the
   glyphs of the activity families the day's annotations name good and to
   avoid (§10.7), a family in the mixed colour when one of its activities is
-  named both ways; screen readers hear the counts. It opens the breakdown. The breakdown lists each activity
+  named both ways, each side under its word and count as on the Tibetan
+  page ("good 10", "avoid 17"), eight glyphs at most (ROADMAP U16, built
+  2026-10-11); screen readers hear the counts. It opens the breakdown. The breakdown lists each activity
   with the annotations that name it, the annotations by tone, the day mark, and
   for the owner the 三箇の悪日 and the 九星気学 relation, and the annotations
   set aside by the lower band's rules (§7.5) under the one that sets them
@@ -2250,8 +2280,14 @@ canvas "Zanshin Calendar — basic design".
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on with no one chosen asks for a person (the list, or
   adding one when none is saved); cancelling leaves it off.
-- **Local sky line:** sunrise, sunset, true solar noon (the sun's transit, not
-  12:00) and the sun's altitude then. Facts only.
+- **Local sky line:** sunrise, true solar noon (the sun's transit, not
+  12:00) with the sun's altitude then, and sunset, each with its icon, on
+  one line of 44 dp pinned under the page (ROADMAP U8, built 2026-10-11).
+  Facts only, read once a day, so the line keeps to a twentieth of the
+  screen: the place is not on it but in the balloon a tap on the line
+  opens, with "Change location" as its action. With no place set the line
+  says "Set a location for sunrise and sunset" and opens the location
+  screen. Until U8 the place stood on a second line, the two about 110 dp.
 - **Choose a day**, under the two calendars: the election (§10.8) of the
   calendar shown, from the shown day, its work not yet picked.
 
@@ -2283,20 +2319,28 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   offerings*, after Klong chen pa and Beyer, *The Cult of Tārā*, pp.
   264–275). The rites' vajra is drawn upright, as it read as a chain of rings
   at 22 dp. The breakdown puts each activity's family glyph before it.
-- **In brief line.** On the 旧暦 page the families named good and to avoid,
-  in the order the enum declares, on two lines. On the Tibetan page one row
-  (`DaySummary.row`): the families of the heaviest works named good, a rule,
-  then those of the heaviest to avoid (§5.12 gives the weights); four places
-  each, a side with fewer families leaving its places to the other, eight
-  at most and as many as fit the width. A family appears once: where it
-  would stand on both sides, it keeps the side of its heavier work and the
-  next family takes the other place. Equal weights keep the breakdown's
-  order. At the row's end the two counts, how many works the day names
-  good and to avoid, one above the other in their colours, so that they
-  leave the glyphs their eight places on a 411 dp screen in English and
-  Russian. Screen readers hear the counts and the works the row stands for.
+- **In brief line.** Both pages alike (ROADMAP U16, built 2026-10-11): one
+  row of glyphs, the families named good, then those to avoid, each side
+  under its word and its count in its tone ("good 53", "avoid 36"; on the
+  person's enemy weekday or death mansion the avoid side alone); four
+  places a side, a side with fewer families leaving its places to the
+  other, eight at most and as many as fit the width. The words and counts
+  stand over their sides rather than before them, so that the eight
+  glyphs keep the width at font scale 1.3 in Russian ("избегать 35").
+  On the Tibetan page (`DaySummary.row`) the families of the heaviest
+  works (§5.12 gives the weights); a family appears once: where it would
+  stand on both sides, it keeps the side of its heavier work and the next
+  family takes the other place; equal weights keep the breakdown's order.
   Measured over 2000–2049: four and four on 92 % of days, about six of the
-  eight glyphs change from one day to the next.
+  eight glyphs change from one day to the next. On the 旧暦 page
+  (`DaySummary.familyRow`) the first families in the order the enum
+  declares: a count, not a rank, since no weight enters the 旧暦 (§10.4);
+  a family named both ways stands on both sides in the mixed colour, and
+  the breakdown keeps every family. Until U16 the 旧暦 line gave every
+  family on two lines with "good" and "avoid" before them, and the
+  Tibetan row no word, a rule between its sides and the counts at its
+  end. Screen readers hear the counts and, on the Tibetan page, the works
+  the row stands for.
 - **Animals and elements.** The twelve animals are drawn as heads (whole
   bodies were indistinguishable at 20 dp), shared by the 干支 rows and the
   Tibetan year, day and lunar-day animal; the five elements (Tibetan iron

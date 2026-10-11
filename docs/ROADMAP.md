@@ -33,7 +33,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 12 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
-| 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line | — |
+| 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; the day page's six (block 34) built 2026-10-11 | — |
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
@@ -85,7 +85,7 @@ moves up as soon as it is unblocked.
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
-| <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
+| <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
@@ -1346,7 +1346,7 @@ first-run line and a notice are interface text (SPEC §8 does not apply).
 The blocks are [34](#block-34) to [37](#block-37), by screen; A2, N1 and
 W1 build on them (below).
 
-#### <a id="u8"></a>U8 The sky line as one line
+#### <a id="u8"></a>U8 The sky line as one line — built 2026-10-11 (SPEC §10.2, §10.5)
 
 - **Gap.** The sky line is pinned under both pages at every scroll
   position: three times with their icons on one line, the place on a
@@ -1364,6 +1364,10 @@ W1 build on them (below).
   font scale 1.0 and 1.3 show one line; the balloon's action opens the
   location screen; SPEC §10.2 and §10.5; store shots 1, 2 and 4 retaken
   in both languages.
+- **Built** 2026-10-11 as planned, the line 44 dp; its balloon gives the
+  place alone, with "Change location →", which opens the location screen.
+  Checked on the emulator in English and Russian at font scale 1.0 and
+  1.3 (11 October 2026, Kyoto); store shots retaken.
 
 #### <a id="u9"></a>U9 The date picker's jump
 
@@ -1412,7 +1416,7 @@ W1 build on them (below).
   a tap on a run opens the panel at its hour; `HoursRow`'s description
   gives the full times; SPEC §10.3.
 
-#### <a id="u12"></a>U12 Dots that read
+#### <a id="u12"></a>U12 Dots that read — built 2026-10-11 (SPEC §10.3)
 
 - **Gap.** The Almanac's outline dots (U6) are 8 dp with a 1.5 dp ring;
   on the ink page the mixed outline beside "Sunday" hardly shows, so the
@@ -1428,8 +1432,15 @@ W1 build on them (below).
   on the emulator in English and Russian, the ring told from the solid
   dot at a glance; the Russian labels still fit beside the wider dots;
   SPEC §10.3.
+- **Built** 2026-10-11: `ToneDot` 10 dp, its ring a fifth of its size,
+  drawn wherever a tone is: the Almanac, Your day, the brief's sheet, the
+  hours panel's rows, the election's list and grid (8 dp in the grid's
+  cells, the person's days to avoid as rings) and the lunar dates' grid.
+  `PaletteTest` holds every tone 3:1 on ink, surface and raised (the
+  neutral faint, the weakest, 3.98:1 on raised). Checked on 11 October
+  2026 and the election for marriage talks, English and Russian.
 
-#### <a id="u13"></a>U13 Second lines that state the fact
+#### <a id="u13"></a>U13 Second lines that state the fact — built 2026-10-11 (SPEC §10.3)
 
 - **Gap.** Some rows' second lines describe their sheet rather than state
   the fact: Rāhu's course says "date 1: where Rāhu moves, and what the
@@ -1448,6 +1459,11 @@ W1 build on them (below).
 - **Done when.** The rows of both pages listed with their second lines
   before and after, in the commit; SPEC §10.3's wording; `CatalogTest`
   and `TranslationsTest`; both languages on the emulator.
+- **Built** 2026-10-11. The pass found four rows that named their sheet,
+  all on the Tibetan page: Rāhu's course by date (detailed and general),
+  the special day, the Vajra Treatise's special day and the burning date;
+  the commit lists them before and after. Every other row's second line,
+  on both pages, is a kind and gloss or a fact and stays.
 
 #### <a id="u14"></a>U14 The election's civil dates and voices line
 
@@ -1467,7 +1483,7 @@ W1 build on them (below).
   English and Russian; a doubled and a skipped date checked in the grid;
   SPEC §10.8.
 
-#### <a id="u15"></a>U15 The calendar toggle in the header
+#### <a id="u15"></a>U15 The calendar toggle in the header — built 2026-10-11 (SPEC §10.2)
 
 - **Gap.** The header's pill names the calendar shown, "Tibetan", with a
   swap icon; read as a button it says either "this is Tibetan" or "go to
@@ -1480,8 +1496,14 @@ W1 build on them (below).
 - **Block.** [34](#block-34); no reading; waits on no build.
 - **Done when.** Both languages on the emulator; store shots 1–7 retaken
   in both languages (every one shows the header); SPEC §10.2.
+- **Built** 2026-10-11, each segment 44 dp high to the touch and drawn
+  36 dp, its padding cut to 7 dp so that the toggle is the pill's width,
+  117 dp in Russian at font scale 1.0. In Russian with "Сегодня" and the
+  person ring shown the date beside it wraps to two lines at 1.0 and
+  clips at 1.3, as it all but did beside the pill: A2's short date
+  pattern is for that.
 
-#### <a id="u16"></a>U16 The two briefs alike
+#### <a id="u16"></a>U16 The two briefs alike — built 2026-10-11 (SPEC §10.4, §10.7)
 
 - **Gap.** The 旧暦's In brief row writes "good" and "avoid" beside its
   glyphs and shows every family, up to three lines on a busy day; the
@@ -1498,6 +1520,14 @@ W1 build on them (below).
 - **Done when.** Both rows on the emulator in English and Russian at font
   scale 1.0 and 1.3, the labels and eight glyphs within 411 dp; store
   shots 1 and 2 retaken; SPEC §10.4 and §10.7.
+- **Built** 2026-10-11 with one change to the plan: the word and count
+  stand over each side's glyphs ("good 62" over the good side, "avoid 35"
+  over the other) rather than before the glyphs with the counts at the
+  row's end, since words before the glyphs and counts after them leave
+  fewer than eight places at font scale 1.3 in Russian ("избегать 35");
+  the rule between the sides went, the words parting them. The 旧暦's
+  cap is `DaySummary.familyRow`, tested over 2026. Checked on both pages
+  in English and Russian at 1.0 and 1.3.
 
 #### <a id="u17"></a>U17 The bell's time picker
 
@@ -1511,7 +1541,7 @@ W1 build on them (below).
   a time set by the picker rounds to the half hour and the switch's
   subtitle names the next bell from it; `BellTest`; SPEC §10.9.
 
-#### <a id="u18"></a>U18 A first-run line
+#### <a id="u18"></a>U18 A first-run line — built 2026-10-11 (SPEC §10.2)
 
 - **Gap.** Nothing introduces the page: a first-run reader meets
   "Kiṃstughna", outline dots and "decides" without a word; the dots and
@@ -1526,6 +1556,12 @@ W1 build on them (below).
 - **Done when.** A fresh install on the emulator shows the line three
   times on each page and not a fourth, and not after a tap on it; both
   languages; `TranslationsTest`; SPEC §10.2.
+- **Built** 2026-10-11: an open is counted once a launch when the page is
+  first shown, kept across turning the phone; `first_run_tibetan` and
+  `first_run_kyureki` in the preferences, and `tools/emulator/emu.py`
+  writes them as 3 so that tours and store shots do not show the line.
+  Checked from a fresh counter: three opens of each page show it, the
+  fourth not, a tap puts it away; English and Russian.
 
 ### <a id="x"></a>X1–X10. The readings' wording — planned 2026-10-11
 
@@ -2329,7 +2365,8 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   phone. At 1.3 it holds (the review of 2026-10-11): the month heading
   and the hours list wrap, nothing clips. But the strip's hour labels
   are 10 sp, the Lunar day label column is a fixed 120 dp, the header's
-  date meets the calendar pill at larger scales, and nothing has been
+  date meets the calendar toggle at larger scales (in Russian with
+  "Сегодня" and the person ring it clips at 1.3, found building U15), and nothing has been
   looked at at 1.5 or 2.0, in landscape or on a tablet, where the pager's
   page is 800 dp wide and the sheets' diagrams stay 280 dp.
 - **Work.** Labels at 12 sp at least; label columns by the widest label
