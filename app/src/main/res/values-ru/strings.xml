@@ -9,6 +9,7 @@
     <string name="locale_tag">ru</string>
     <string name="pattern_header_date">EEE d MMM yyyy</string>
     <string name="pattern_short_date">d MMM</string>
+    <string name="pattern_short_date_year">d MMM yyyy</string>
     <!-- LLLL: the month's standalone name, «октябрь 2026», not «октября» -->
     <string name="pattern_month_title">LLLL yyyy</string>
     <string name="pattern_clock">HH:mm</string>
@@ -461,6 +462,7 @@
     <string name="election_span_3">Три месяца</string>
     <string name="election_span_12">Двенадцать месяцев</string>
     <string name="election_weighing">Взвешиваем дни…</string>
+    <string name="election_month_span">%1$s · %2$s – %3$s</string>
     <string name="election_tibetan_date">%1$s, %2$d-е число</string>
     <string name="election_cell">%1$s, %2$d-е число: %3$s</string>
     <string name="election_cell_for_you">для вас — избегать любого дела (%1$s)</string>

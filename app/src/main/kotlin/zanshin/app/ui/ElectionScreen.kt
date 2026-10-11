@@ -52,6 +52,7 @@ import io.github.iverlein.zanshin.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import zanshin.app.LocalLabels
+import zanshin.app.civilSpan
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
@@ -325,11 +326,11 @@ private fun KyurekiMonthBlock(m: KyurekiElectionMonth, from: LocalDate) {
     val blank = stringResource(R.string.election_kyu_blank)
     fun names(entries: List<SummaryEntry>) = entries.joinToString { "${it.kanji} ${it.english}" }
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text(month.replaceFirstChar { it.uppercase() }, style = body.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold))
+        MonthHeading(month, m.days.first().date, m.days.last().date, from)
         Box(Modifier.semantics { contentDescription = description }) {
             WorkGrid(
                 heading = null,
-                cells = m.days.map { WorkCell(it.day.day, it.side ?: Tone.NEUTRAL, marked = it.date == from) },
+                cells = m.days.map { WorkCell(it.day.day, it.side ?: Tone.NEUTRAL, marked = it.date == from, civil = it.date.dayOfMonth) },
                 key = first.date,
                 initial = -1,
                 accent = Palette.vermilion,
@@ -397,6 +398,20 @@ private fun Side(label: String, color: androidx.compose.ui.graphics.Color, entri
 
 private val note get() = body.copy(fontSize = 13.sp, lineHeight = 19.sp, color = Palette.faint)
 
+/**
+ * A lunar month's heading with the civil span its grid covers, "9th month · 11 Oct – 9 Nov"
+ * (ROADMAP U14): the span's own days, so the first month starts at [from], the shown day.
+ */
+@Composable
+private fun MonthHeading(month: String, first: LocalDate, last: LocalDate, from: LocalDate) {
+    val labels = LocalLabels.current
+    val (start, end) = civilSpan(first, last, from.year, labels.shortDate, labels.shortDateYear)
+    Text(
+        stringResource(R.string.election_month_span, month.replaceFirstChar { it.uppercase() }, start, end),
+        style = body.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
+    )
+}
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun SpanChips(months: Int, accent: androidx.compose.ui.graphics.Color, onMonths: (Int) -> Unit) {
@@ -427,11 +442,13 @@ private fun MonthBlock(m: ElectionMonth, from: LocalDate) {
     val avoid = stringResource(R.string.brief_avoid)
     val blank = stringResource(R.string.election_blank)
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text(month.replaceFirstChar { it.uppercase() }, style = body.copy(fontSize = 15.sp, fontWeight = FontWeight.SemiBold))
+        MonthHeading(month, m.days.first().date, m.days.last().date, from)
         Box(Modifier.semantics { contentDescription = description }) {
             WorkGrid(
                 heading = null,
-                cells = m.days.map { WorkCell(it.day.day, it.side ?: Tone.NEUTRAL, marked = it.date == from, forYou = it.avoidAll.isNotEmpty()) },
+                cells = m.days.map {
+                    WorkCell(it.day.day, it.side ?: Tone.NEUTRAL, marked = it.date == from, forYou = it.avoidAll.isNotEmpty(), civil = it.date.dayOfMonth)
+                },
                 key = first.jd,
                 initial = -1,
             ) { k ->
@@ -504,7 +521,10 @@ private fun BestDay(d: ElectionDay, onOpenDay: (LocalDate) -> Unit) {
                     // The combination's tone orders days of one rank (ROADMAP E, the order's third step).
                     combination?.let { ToneDot(it, size = 8.dp) }
                 }
-                Text(withTibetan(d.standing.joinToString(" · ") { it.kanji }), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                // The voices beside the deciding one, only where there are some (ROADMAP U14): never "by Friday", then "Friday".
+                if (d.beside.isNotEmpty()) {
+                    Text(withTibetan(d.beside.joinToString(" · ") { it.kanji }), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                }
                 if (d.personal.isNotEmpty()) {
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
                         Text(stringResource(R.string.brief_for_you), style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.saffron))

@@ -16,6 +16,8 @@
     <string name="pattern_header_date">EEE d MMM yyyy</string>
     <!-- DateTimeFormatter pattern: "23 Oct" -->
     <string name="pattern_short_date">d MMM</string>
+    <!-- DateTimeFormatter pattern: "8 Jan 2027", the end of an election month in another year -->
+    <string name="pattern_short_date_year">d MMM yyyy</string>
     <!-- DateTimeFormatter pattern of the date picker's month: "October 2026" -->
     <string name="pattern_month_title">MMMM yyyy</string>
     <!-- DateTimeFormatter pattern of sunrise and sunset times -->
@@ -560,6 +562,8 @@
     <string name="election_span_3">Three months</string>
     <string name="election_span_12">Twelve months</string>
     <string name="election_weighing">Weighing the days…</string>
+    <!-- an election month's heading: %1$s the month ("9th month"), %2$s and %3$s its first and last civil days ("11 Oct", "9 Nov") -->
+    <string name="election_month_span">%1$s · %2$s – %3$s</string>
     <!-- a Tibetan date in the election: %1$s is the month ("9th month"), %2$d the lunar date -->
     <string name="election_tibetan_date">%1$s, day %2$d</string>
     <!-- a day of the election's grid: %1$s its civil date, %2$d its lunar date, %3$s the verdict ("good · by Monday") -->

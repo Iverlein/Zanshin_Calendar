@@ -104,6 +104,7 @@ class Labels(private val res: Resources) {
     val locale: Locale = Locale.forLanguageTag(res.getString(R.string.locale_tag))
     val headerDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_header_date), locale)
     val shortDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_short_date), locale)
+    val shortDateYear: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_short_date_year), locale)
     val monthTitle: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_month_title), locale)
     val clock: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_clock), locale)
     private val ordinals = MessageFormat("{0,ordinal}", ULocale.forLocale(locale))

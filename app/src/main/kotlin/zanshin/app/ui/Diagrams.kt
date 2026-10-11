@@ -870,9 +870,10 @@ fun HaircutGrid(today: TibetanDay, date: LocalDate) {
 /**
  * One day in a [WorkGrid]: its lunar [date], the [tone] the weighing gives the work on it (NEUTRAL
  * where no factor names it, blank), [marked] for the shown day, and [forYou] where the person's own
- * day takes it away for every work (ROADMAP E6), drawn as a ring.
+ * day takes it away for every work (ROADMAP E6), drawn as a ring. [civil], the civil day of the
+ * month, small under the lunar date where given (the election's grid, ROADMAP U14).
  */
-data class WorkCell(val date: Int, val tone: Tone, val marked: Boolean = false, val forYou: Boolean = false)
+data class WorkCell(val date: Int, val tone: Tone, val marked: Boolean = false, val forYou: Boolean = false, val civil: Int? = null)
 
 /**
  * Days as a grid of six to a row, each with the dot of the side the weighing gives one work on it
@@ -890,6 +891,8 @@ fun WorkGrid(
     caption: @Composable (Int) -> String,
 ) {
     var selected by remember(key) { mutableIntStateOf(initial) }
+    // A cell with its civil day under the lunar date stands taller, room for the second figure.
+    val ratio = if (cells.any { it.civil != null }) 0.92f else 1.1f
     Column(verticalArrangement = Arrangement.spacedBy(5.dp)) {
         heading?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.muted)) }
         for (row in cells.indices.chunked(6)) {
@@ -904,14 +907,16 @@ fun WorkGrid(
                     Column(
                         Modifier
                             .weight(1f)
-                            .aspectRatio(1.1f)
+                            .aspectRatio(ratio)
                             .background(if (k == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
                             .border(if (c.marked) 1.6.dp else 1.dp, if (c.marked) accent else Palette.lineStrong, RoundedCornerShape(8.dp))
                             .clickable(role = Role.Button) { selected = k },
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.Center,
                     ) {
-                        Text("${c.date}", style = body.copy(fontSize = 14.sp, color = if (c.marked) Palette.text else Palette.muted))
+                        Text("${c.date}", style = body.copy(fontSize = 14.sp, lineHeight = 17.sp, color = if (c.marked) Palette.text else Palette.muted))
+                        // The date picker's figures reversed: the lunar date large, the civil day small under it.
+                        c.civil?.let { Text("$it", style = body.copy(fontSize = 11.sp, lineHeight = 13.sp, color = Palette.faint)) }
                         // The person's own days to avoid as an outline, the weighed side solid (ROADMAP U12).
                         ToneDot(if (c.forYou) Tone.BAD else c.tone, outline = c.forYou, size = 8.dp, modifier = Modifier.padding(top = 3.dp))
                     }
