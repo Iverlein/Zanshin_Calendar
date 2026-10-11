@@ -1064,7 +1064,10 @@ Java of the Google Code era, and its one sound file names no source.
 - **Mindfulness bell:** fixed or random intervals within active hours on
   chosen weekdays (`BellPlan`, `BellTest`), one exact alarm at a time set
   again after each ring, a reboot, an update and a clock or zone change;
-  quiet during a sitting, a call and, by default, a silenced phone.
+  quiet during a sitting and, by default, a call, another app's playback
+  (2026-10-11, owner's request: its own switch, checked on the emulator
+  with YouTube Music playing and a call ringing and answered) and a
+  silenced phone.
 - **Sound:** three bells synthesised on the device (`BellSound`), no
   sound file to licence; alarm stream, other sound ducked.
 - **Sessions and presets** (2026-10-09, owner's request): a warm-up and

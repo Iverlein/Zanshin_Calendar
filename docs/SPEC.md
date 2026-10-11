@@ -2308,9 +2308,11 @@ carries no sound file.
   (`BellPlan`). One exact alarm at a time (`USE_EXACT_ALARM`, before
   Android 13 `SCHEDULE_EXACT_ALARM`), set again after each ring, a
   reboot, an update and a change of clock or zone. It keeps quiet during
-  a sitting and a call, and, unless switched off, while the phone is on
-  silent, vibrate or do not disturb; a bell more than ten minutes late is
-  skipped. The switch's subtitle names the next bell.
+  a sitting; unless switched off, during a call (ringing or answered) and
+  while another app plays sound longer than a notification's (music, a
+  video, a game, directions, a voice chat, an alarm); and, unless switched
+  off apart, while the phone is on silent, vibrate or do not disturb; a
+  bell more than ten minutes late is skipped. The switch's subtitle names the next bell.
 - **Sound:** a large bowl, a small bowl or a bell, one choice for the
   session's bell and the mindfulness bell (the wood block only between
   periods); a volume and Listen. Bells ring on the alarm stream, so a sitting is
