@@ -29,7 +29,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
-| 11 | H1 The health section | L | The element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings and WB's illness reckoning in one section | — |
+| 11 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
 | 12 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 13 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
 
@@ -39,42 +39,45 @@ The build order, by what each item waits on rather than by its size. A
 block is built in one go and is done when each of its items meets its own
 "Done when" below. **"Build the next block"** means the lowest-numbered
 block not marked built; a built block keeps its number, marked built with
-its date, so each prompt stays valid. A block blocked from outside (14)
+its date, so each prompt stays valid. Each block links to its items, and
+"Waits on" to the blocks it needs; a new item names its block the same
+way. A block blocked from outside (14)
 moves up as soon as it is unblocked.
 
 | # | Block | Waits on | Prompt |
 | --- | --- | --- | --- |
-| 1 | U1 + U3 — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
-| 2 | E6, the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
-| 3 | U4 + U5 — built 2026-10-09 | 1 | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
-| 4 | T3 Element colours — built 2026-10-09 | 1; the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
-| 5 | T2.11 WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
-| 6 | T2.15 Hair by date — built 2026-10-09 | 5 | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
-| 7 | T2.14 The 11th month's 6th — built 2026-10-09 | 5 | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
-| 8 | T2.13 The eight classes and the nāgas — built 2026-10-09 | 5 | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
-| 9 | E1 + E2 + E3, with E6's election half — built 2026-10-09 | 2 | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
-| 10 | E5 The 旧暦 election — built 2026-10-09 | 9 | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
-| 11 | E4 The works' own rising signs — built 2026-10-09 | 9 | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
-| 12 | M1 Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
-| 13 | T4 + T5 Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
-| 14 | T2.4's reading half + T2.9 — built 2026-10-10 (T2.9 2026-10-09) | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
-| 15 | L3 Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
-| 16 | L4 Hosted Weblate | 15; not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
-| 17 | T2.20 The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
-| 18 | T2.21 The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
-| 19 | T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | 17 | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
-| 20 | T2.23 The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
-| 21 | U6 The page in the order of strength — built 2026-10-09 | 3 | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
-| 22 | T2.24 The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
-| 23 | T2.25 The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
-| 24 | T2.27 WB's days of the twelve links | — | Build block 24: T2.27, read WB vol. 2 pp. 351–356 on the scan and join the links' readings to the day's link. |
-| 25 | T2.26 The year's and the month's earth lords | D4, the owner's choice of how they are counted | Build block 25: T2.26, read WB ch. 31's earth lords of the year and the month and build the Year and Month tabs, their works counted. |
-| 26 | H1 The health section | — | Build block 26: H1, read WB on the la, the life force and illness, then build the health section with the element's mansions. |
-| 27 | P1 Relatives | — | Build block 27: P1, the relatives of each saved person. |
-| 28 | R1 The Reckonings section | — | Build block 28: R1, inventory WB's reckonings and open the Reckonings section with the year of age moved into it. |
-| 29 | P2 The natal trigram and the obstacles | 27, 28 | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
-| 30 | P3 The bride's departure | 25, 27 | Build block 30: P3, read WB ch. 23 and build the bride's departure for a couple. |
-| 31 | R2… The reckonings one by one | 28; 27 for those that need relatives | Build block 31: the next reckoning of R1's list. |
+| <a id="block-1"></a>1 | [U1](#u1) + [U3](#u3) — built 2026-10-09 | — | Build block 1: U1 and U3, one combination row and the Almanac in weighed, yours and also-today sections. |
+| <a id="block-2"></a>2 | [E6](#e6), the "For you" half — built 2026-10-09 | — | Build block 2: E6's "For you" half, every work to avoid on the person's enemy weekday and death mansion. |
+| <a id="block-3"></a>3 | [U4](#u4) + [U5](#u5) — built 2026-10-09 | [1](#block-1) | Build block 3: U4 and U5, the brief grouped by voices and the hours on the In brief row. |
+| <a id="block-4"></a>4 | [T3](#t3) Element colours — built 2026-10-09 | [1](#block-1); the day element's place is the owner's choice | Build block 4: T3, a place for the day's element on the page and its colour. |
+| <a id="block-5"></a>5 | [T2.11](#t2-11) WB's almanac page — built 2026-10-09 | — | Build block 5: T2.11, read WB pp. 171–178 on the scan and inventory every entry against the app. |
+| <a id="block-6"></a>6 | [T2.15](#t2-15) Hair by date — built 2026-10-09 | [5](#block-5) | Build block 6: T2.15, read WB p. 404's washing results and settle the haircut sheet against FPMT. |
+| <a id="block-7"></a>7 | [T2.14](#t2-14) The 11th month's 6th — built 2026-10-09 | [5](#block-5) | Build block 7: T2.14, read WB p. 226's nine bad days, put them on WB's day and remove Rabten's festival. |
+| <a id="block-8"></a>8 | [T2.13](#t2-13) The eight classes and the nāgas — built 2026-10-09 | [5](#block-5) | Build block 8: T2.13, read WB pp. 226–235 and build the eight classes' and nāgas' strikes and turnings. |
+| <a id="block-9"></a>9 | [E1](#e1) + [E2](#e2) + [E3](#e3), with [E6](#e6)'s election half — built 2026-10-09 | [2](#block-2) | Build block 9: the election, E1 engine, E2 screen and E3 hours, with E6's election half. |
+| <a id="block-10"></a>10 | [E5](#e5) The 旧暦 election — built 2026-10-09 | [9](#block-9) | Build block 10: E5, the 旧暦 election on E2's screen, unranked. |
+| <a id="block-11"></a>11 | [E4](#e4) The works' own rising signs — built 2026-10-09 | [9](#block-9) | Build block 11: E4, read WB ch. 34's rising signs for each work and build them as the work's own hours. |
+| <a id="block-12"></a>12 | [M1](#m1) Meditation timer and bell — built 2026-10-09 | — | Build block 12: M1, the meditation timer and the periodic bell. |
+| <a id="block-13"></a>13 | [T4](#t4) + [T5](#t5) Element calculation and gender — built 2026-10-09 | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
+| <a id="block-14"></a>14 | [T2.4](#t2-4)'s reading half + [T2.9](#t2-9) — built 2026-10-10 ([T2.9](#t2-9) 2026-10-09) | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
+| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | The blocks before it that change wording | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| <a id="block-16"></a>16 | [L4](#l4) Hosted Weblate | [15](#block-15); not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
+| <a id="block-17"></a>17 | [T2.20](#t2-20) The times within the day — built 2026-10-09 | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
+| <a id="block-18"></a>18 | [T2.21](#t2-21) The month's own entries — built 2026-10-10 | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
+| <a id="block-19"></a>19 | [T2.22](#t2-22) The *dbyangs 'char* entries and the twelve links — built 2026-10-10 | [17](#block-17) | Build block 19: T2.22, read the *dbyangs 'char*'s rules and the twelve links' and write them on the day as WB's almanac does. |
+| <a id="block-20"></a>20 | [T2.23](#t2-23) The five planets and the *byed rtsis* — built 2026-10-10, re-scoped by the owner's rule and accepted | — | Build block 20: T2.23, the five planets by Janson and the *byed rtsis* by WB, in the month's heading. |
+| <a id="block-21"></a>21 | [U6](#u6) The page in the order of strength — built 2026-10-09 | [3](#block-3) | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
+| <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
+| <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
+| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | — | Build block 24: T2.27, read WB vol. 2 pp. 351–356 on the scan and join the links' readings to the day's link. |
+| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [D4](#t2-26), the owner's choice of how they are counted | Build block 25: T2.26, read WB ch. 31's earth lords of the year and the month and build the Year and Month tabs, their works counted. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen | [24](#block-24) | Build block 26: H1, read WB and Dr. Nida Chenagtsang on the la, the life force and illness, then build the Health screen with the element's mansions. |
+| <a id="block-27"></a>27 | [P1](#p1) Relatives | — | Build block 27: P1, the relatives of each saved person. |
+| <a id="block-28"></a>28 | [R1](#r) The Reckonings section | — | Build block 28: R1, inventory WB's reckonings and open the Reckonings section with the year of age moved into it. |
+| <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
+| <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [25](#block-25), [27](#block-27) | Build block 30: P3, read WB ch. 23 and build the bride's departure for a couple. |
+| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
+| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [26](#block-26), [28](#block-28) | Build block 32: H2, read WB ch. 25 and build the illness reckoning on the Health screen. |
 
 ## Tibetan page
 
@@ -113,7 +116,7 @@ grub rgya mtsho). All three follow from the birth date. The mansion of
 conception has no definition in any source found and is not to be built.
 Showing the rest in "For you" is the owner's decision.
 
-#### T2.4 The hours above the day — S built 2026-10-07 (SPEC §10.3), then M, built 2026-10-10
+#### <a id="t2-4"></a>T2.4 The hours above the day — S built 2026-10-07 (SPEC §10.3), then M, built 2026-10-10
 
 - **Gap.** The texts hold the combination period above every factor of
   the day (KP rule 5, WB vol. 2, p. 376), and KP's rule 2 puts the hour
@@ -201,7 +204,7 @@ weekday's, mansion's, karaṇa's and yoga's sheets give the Tibetan name in
 script (tap for Wylie and phonetics), the section is gone, and the day
 line keeps its facts.
 
-#### T2.9 Answers that rest on unseen scans — built 2026-10-09
+#### <a id="t2-9"></a>T2.9 Answers that rest on unseen scans — built 2026-10-09
 
 - **Gap.** Question 11 (the day's sme ba runs up from the first wood-mouse
   day after the winter solstice) rests on BS and MK, and the reading of
@@ -258,7 +261,7 @@ passages show (pp. 206, 228): spring is months 11, 12 and 1, autumn 5–7.
 seasons, each labelled. T2.13 and T2.14 take their months from the same
 answer.
 
-#### T2.11 WB's almanac page — built 2026-10-09 (SPEC §5.8, §8.3)
+#### <a id="t2-11"></a>T2.11 WB's almanac page — built 2026-10-09 (SPEC §5.8, §8.3)
 
 WB's list of what an almanac writes for each day is in chapter 14 (vol. 1,
 pp. 177–178, img. 187–188; the month's heading p. 176; the same list in
@@ -301,7 +304,7 @@ good and evil" are not in WB's etext and are not built.
   burning date that begins before nightfall on the day before (p. 177),
   is built with T2.20 (2026-10-09), nightfall by WB's day length.
 
-#### T2.13 The earth lords that move by date — built 2026-10-09 (SPEC §5.13)
+#### <a id="t2-13"></a>T2.13 The earth lords that move by date — built 2026-10-09 (SPEC §5.13)
 
 - **Gap.** WB vol. 2, pp. 226–235 run through the earth lords that move by
   date, which WB's almanac writes on the day (vol. 1, pp. 173, 178): the
@@ -349,7 +352,7 @@ good and evil" are not in WB's etext and are not built.
   (p. 235) go with the black months (T2.21); the earth lords of the hour
   that follow (pp. 235–236) with the times within the day (T2.20).
 
-#### T2.14 The 11th month's 6th: the nine bad — built 2026-10-09 (SPEC §5.7, §5.11)
+#### <a id="t2-14"></a>T2.14 The 11th month's 6th: the nine bad — built 2026-10-09 (SPEC §5.7, §5.11)
 
 - **Gap.** The app showed 11/6 as Sangpo Chuzom, the Ten Good Omens, after
   Rabten. WB has no ten good omens; it names «ངན་པ་དགུ་འཛོམ», the meeting of
@@ -371,7 +374,7 @@ good and evil" are not in WB's etext and are not built.
   in the list of works is not identified. The small black day, the next
   verses on p. 226, is T2.13's.
 
-#### T2.15 Hair: cutting and washing by date — built 2026-10-09 (SPEC §5.8, §10.3)
+#### <a id="t2-15"></a>T2.15 Hair: cutting and washing by date — built 2026-10-09 (SPEC §5.8, §10.3)
 
 - **Gap.** The haircut sheet showed FPMT's results by date; WB has no
   list of haircut results by date, and its chapter 34 work 34 gives
@@ -485,12 +488,12 @@ it. It is item E below, built 2026-10-09.
   матери» and the birth mansion), and with no birth date (no row).
 - **Left.** The element's mansions by the life force (p. 330, tables
   p. 345: own, mother, friend, child, enemy quarters and the grave
-  mansions), which would put a second row on every day: planned in the
-  health section (H1, 2026-10-11); the mansion of
+  mansions), which would put a second row on every day: planned on the
+  Health screen (H1, 2026-10-11); the mansion of
   conception (no source defines it); E6's exception for the enemy weekday
   and the death mansion.
 
-#### T2.20 The times within the day — M, built 2026-10-09
+#### <a id="t2-20"></a>T2.20 The times within the day — M, built 2026-10-09
 
 - **Gap.** WB's almanac writes what changes within a day (vol. 1, p. 177,
   [almanac-page.md](sources/almanac-page.md), entries 5, 7–9, 18): the
@@ -568,7 +571,7 @@ it. It is item E below, built 2026-10-09.
   each *sgang*, p. 182's 1;10 a sign-month), not the place's sunset.
   Built in full.
 
-#### T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 (SPEC §5.11, §10.3)
+#### <a id="t2-22"></a>T2.22 The *dbyangs 'char* entries and the twelve links — built 2026-10-10 (SPEC §5.11, §10.3)
 
 - **Gap.** WB's almanac writes on each day the vowels and consonants of
   the Kālacakra and the *dbyangs 'char* with their elements and sense
@@ -616,7 +619,7 @@ it. It is item E below, built 2026-10-09.
   of 2000–2047 and 1,000 months of Rāhu ([day-letters.md](sources/day-letters.md)).
   Built in full.
 
-#### T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
+#### <a id="t2-21"></a>T2.21 The month's own entries — built 2026-10-10 (SPEC §5.11, §5.13, §10.3)
 
 - **Gap.** WB's month heading (vol. 1, p. 176) writes the black months
   (*zla nag*), whether the month is long or short, the weekday that rises in the month (*gza' dar gud*:
@@ -660,7 +663,7 @@ it. It is item E below, built 2026-10-09.
   the lunar rule finds 13 of 23 real lunar eclipses of 2015–2030 with 14
   false ones. Checked on the emulator in English and Russian.
 
-#### T2.23 The five planets and the *byed rtsis* — built 2026-10-10 (SPEC §5.11, §10.3)
+#### <a id="t2-23"></a>T2.23 The five planets and the *byed rtsis* — built 2026-10-10 (SPEC §5.11, §10.3)
 
 - **Gap.** WB's full almanac writes, at each month's head, the five
   planets' slow and fast motion and their meetings, and the omitted and
@@ -721,7 +724,7 @@ it. It is item E below, built 2026-10-09.
   as far as the sources go). Checked on the emulator in English and
   Russian.
 
-#### T2.24 The day animals by WB — built 2026-10-10 (SPEC §5.10)
+#### <a id="t2-24"></a>T2.24 The day animals by WB — built 2026-10-10 (SPEC §5.10)
 
 - **Gap.** The day animal (the *nyi ma*, the lunar date's animal) weighs
   by KP's lists only (SPEC §5.10). WB gives the twelve day animals'
@@ -762,7 +765,7 @@ it. It is item E below, built 2026-10-09.
   lists are the day's in general, not only for the dead. Checked on the
   emulator in English and Russian; store shot 1 retaken (its count).
 
-#### T2.25 The Lunar day section by use — built 2026-10-10 (SPEC §5.11, §5.12, §10.3)
+#### <a id="t2-25"></a>T2.25 The Lunar day section by use — built 2026-10-10 (SPEC §5.11, §5.12, §10.3)
 
 The owner asked which Lunar day rows serve a reader; by the rule that
 nothing is shown that can neither be used nor change a weight or
@@ -791,7 +794,7 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s days against their tone 2,018 to 2,006. Emulator in
   English and Russian (10 and 19 October 2026).
 
-#### T2.26 The year's and the month's earth lords — planned 2026-10-11
+#### <a id="t2-26"></a>T2.26 The year's and the month's earth lords — planned 2026-10-11
 
 - **Gap.** WB's almanac writes, at the head of each month, the month's
   wheel and the charts of its scattered earth lords (vol. 1, p. 176,
@@ -818,7 +821,9 @@ verdict, and the owner's decisions of 2026-10-10:
   calculated" ([kp-activities.md](sources/kp-activities.md)); once they
   are calculated those entries join the boxes' lists.
 - **Counted** (the owner, 2026-10-11): the works an earth lord names are
-  counted in the weighing, not only shown. **D4**, the owner's choice
+  counted in the weighing, not only shown. One that names no works, or
+  whose works WB gives no weight, is shown on its tab with a grey dot: it
+  has some influence, and WB's weighing does not count it. **D4**, the owner's choice
   before the build, since WB's order of strength (vol. 2, p. 376) places
   no earth lord: their rank (last, with the trigram, the date's mewa and
   the link, as the boxes' entries are, SPEC §5.12 and T2.25, or another);
@@ -837,12 +842,14 @@ verdict, and the owner's decisions of 2026-10-10:
   *bla mkhyen*'s, each opening its reading and works; the month balloon's
   long entries move into its tab where the owner says. The day page shows
   the year's and month's earth lords through the works they decide.
+- **Block.** [25](#block-25); waits on D4. [30](#block-30) (P3) waits on
+  it.
 - **Done when.** Vectors from the model almanac's month heads (vol. 1,
   pp. 154–171) where it draws them; `DaySummaryTest`'s counts updated;
   `CatalogTest`; SPEC §5.12, §5.13, §10.3; both tabs and the page checked
   on the emulator in English and Russian; the release build checked.
 
-#### T2.27 WB's days of the twelve links — planned 2026-10-11
+#### <a id="t2-27"></a>T2.27 WB's days of the twelve links — planned 2026-10-11
 
 - **Gap.** T2.22 counts the day's link by vol. 1's table, and T2.25 weighs
   it by the *kun phan me long*'s boxes. WB's own readings of the links'
@@ -860,6 +867,8 @@ verdict, and the owner's decisions of 2026-10-10:
   directions, the birth, the loss and the remedy in the link's sheet, the
   illness to H1; p. 356's hours read for whether they add to the hours
   panel.
+- **Block.** [24](#block-24); waits on nothing. [26](#block-26) (H1)
+  waits on it for the links' illness readings.
 - **Done when.** A test pins each link's lists to the scan reading;
   `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
 
@@ -903,7 +912,7 @@ verdict, and the owner's decisions of 2026-10-10:
   Khyung sprul's *dpyad gsum dag rtsis*, a reformed calendar arithmetic of
   its own (the calendar's «Че сум так ци»).
 
-### T3. Element colours — built 2026-10-09 (SPEC §10.3)
+### <a id="t3"></a>T3. Element colours — built 2026-10-09 (SPEC §10.3)
 
 The sme ba shows in the colour of its box (SPEC §10.3), the four aspects
 with the pebbles of the year, month, day and hours are built (SPEC §5.9),
@@ -928,7 +937,7 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   the day sign's glyph is coloured; the year line and the combination's
   element glyphs stay muted.
 
-### T4. Divination — built 2026-10-09 (SPEC §5.9.1, §10.3)
+### <a id="t4"></a>T4. Divination — built 2026-10-09 (SPEC §5.9.1, §10.3)
 
 - **Built: the element calculation (*'byung rtsis*) of the year of age**,
   from WB vol. 1, chapter 21 (pp. 255–258) and chapter 24 (pp. 380–416),
@@ -981,7 +990,7 @@ and so are the personal mansions (SPEC §5.8). What is left waits on design:
   translations (Goldberg, *Mo*, Snow Lion 1990). Berzin notes it is done in
   a meditational context after a retreat. Not planned.
 
-### T5. Personal settings — built 2026-10-09 (SPEC §10.5)
+### <a id="t5"></a>T5. Personal settings — built 2026-10-09 (SPEC §10.5)
 
 The gender (not set, male or female) belongs to each saved person, asked
 for in the person's dialog under the birth date and stored with them on
@@ -989,7 +998,7 @@ the device; a person saved before reads as not set, and while it is not
 set the readings that need it are hidden, with a note that says so. Only
 the year of age reads it (its trigram and progressed sign).
 
-### M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
+### <a id="m1"></a>M1. Meditation timer and periodic bell — built 2026-10-09 (SPEC §10.5, §10.9)
 
 Mind Bell's functions on a screen of its own, opened from the menu's new
 Practice group, written for this app rather than forked: Mind Bell is
@@ -1031,7 +1040,7 @@ brief's lists run long and say the same voices on line after line. No
 item changes a side or a tone; each changes SPEC §5.12 (*Order on the
 page*) and §10.3 with the code. U2 is built, U1 and U3 built together (block 1), U4 and U5 (block 3).
 
-#### U1 One row for the combination — built 2026-10-09 (SPEC §5.12, §10.3)
+#### <a id="u1"></a>U1 One row for the combination — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** The named combination (*'phrod chen*) and the element pair are
   one voice (§5.12), yet two rows with their own dots: on 8 October 2026
@@ -1065,7 +1074,7 @@ page*) and §10.3 with the code. U2 is built, U1 and U3 built together (block 1)
   and without a birth date. U1 will put the mark on its one combination
   row.
 
-#### U3 Three sections: weighed, yours, also today — built 2026-10-09 (SPEC §5.12, §10.3)
+#### <a id="u3"></a>U3 Three sections: weighed, yours, also today — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** The *bla mkhyen* and the nectar periods stood between Rāhu and
   the weekday, inside the run of weighed voices, though neither is
@@ -1091,7 +1100,7 @@ disagreeing (8 October), unlucky by the combination (1 November), the
 monthly observance first (10 and 18 October), personal mansions in Your
 day (4, 6, 7 October), each with and without a birth date.
 
-#### U4 The brief grouped by the voices that carry each work — built 2026-10-09 (SPEC §5.12, §10.3)
+#### <a id="u4"></a>U4 The brief grouped by the voices that carry each work — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap.** On 8 October 2026 the brief lists 65 good works, one per line,
   and from the 25th on the same "Thursday" or "Thursday · Maghā" repeats
@@ -1110,7 +1119,7 @@ day (4, 6, 7 October), each with and without a birth date.
   fourteen of the 79 good works as one run. The 旧暦
   brief keeps one row per work, with both sides.
 
-#### U5 The hours on the In brief row — built 2026-10-09 (SPEC §10.3)
+#### <a id="u5"></a>U5 The hours on the In brief row — built 2026-10-09 (SPEC §10.3)
 
 - **Gap.** The combination period is the one factor a text puts above the
   day (WB p. 376, T2.4; under E, *The person's days and the hour against
@@ -1138,7 +1147,7 @@ lucky by the combination (2 October 2026: hours to avoid 07:00–11:00,
 opened the panel at its hour (07:00 the Dragon hour, 13:00 the Sheep
 hour).
 
-#### U6 The page in the order of strength — built 2026-10-09 (SPEC §5.12, §10.3)
+#### <a id="u6"></a>U6 The page in the order of strength — built 2026-10-09 (SPEC §5.12, §10.3)
 
 - **Gap** (the owner, 2026-10-09: neither the page nor the sheets gave a
   determined impression of what is allowed and what is prohibited, and
@@ -1257,7 +1266,7 @@ What WB says on whether a person's own days or an hour outweigh the day
 So a person's bad day takes the day away from that person (E6, D3); a
 person's good day and a good hour add nothing to a day's place.
 
-#### E1 The engine — built 2026-10-09 (SPEC §5.14)
+#### <a id="e1"></a>E1 The engine — built 2026-10-09 (SPEC §5.14)
 
 `Election`, `ElectionSpan` and `ElectionDay` in `core/.../texts/Election.kt`;
 `ActivityNote.decider` names the voice that decided each work, and
@@ -1270,7 +1279,7 @@ weddings 11 of 12, setting out 11 of 14, each difference a WB reading
 ([tibetastromed.md](sources/tibetastromed.md), *The election, October
 2026*). The CLI prints one (`--elect WORK [date] --months N --all`).
 
-#### E2 The screen — built 2026-10-09 (SPEC §10.8)
+#### <a id="e2"></a>E2 The screen — built 2026-10-09 (SPEC §10.8)
 
 "Choose a day" in the menu, "Choose a day for it" in a work's balloon in
 the brief, and a reading's wordings opening their works; the families or
@@ -1278,14 +1287,14 @@ a search; the three spans; a grid per Tibetan month (`WorkGrid`, which
 the haircut sheet now uses too) and the best days, each opening its
 workings and its day page.
 
-#### E3 The hours of the chosen days — built 2026-10-09 (SPEC §5.14)
+#### <a id="e3"></a>E3 The hours of the chosen days — built 2026-10-09 (SPEC §5.14)
 
 The combination periods good for the work and those to avoid it, once
 per Tibetan month (`Election.hours`), and on each good day its nectar
 periods where their reading names the work. Hours do not move a day's
 place (D1).
 
-#### E4 The works' own rising signs — built 2026-10-09 (SPEC §5.10, §5.13, §5.14, §10.3)
+#### <a id="e4"></a>E4 The works' own rising signs — built 2026-10-09 (SPEC §5.10, §5.13, §5.14, §10.3)
 
 - **Gap.** WB's chapter 34 gives most works their rising signs (naming,
   clothes, the new home, the hearth, shows, sewing, storehouses,
@@ -1311,7 +1320,7 @@ place (D1).
   E3's hours (`Election.hours`) take the work's own signs first, then
   `Texts.period`; `ElectionTest` checks journeys against p. 393.
 
-#### E5 The 旧暦 page — built 2026-10-09 (SPEC §7.6, §10.8)
+#### <a id="e5"></a>E5 The 旧暦 page — built 2026-10-09 (SPEC §7.6, §10.8)
 
 - **Gap.** No source ranks one kind of 暦注 above another (SPEC §7.5,
   [kyureki.md](sources/kyureki.md)); the page lists both sides unweighed,
@@ -1353,7 +1362,7 @@ release build is checked before the tag (R8: the picker names works
 through the catalog by their enum's class name). The store listing and
 the website name the election only once it is released.
 
-#### E6 The days WB avoids every work on, for you — built 2026-10-09 (SPEC §5.12, §5.14, §10.3, §10.8)
+#### <a id="e6"></a>E6 The days WB avoids every work on, for you — built 2026-10-09 (SPEC §5.12, §5.14, §10.3, §10.8)
 
 - **Gap.** "For you" lists the person's days with their dots and weighs
   none (T2.3), so the enemy weekday and the death mansion read as one
@@ -1398,11 +1407,22 @@ the website name the election only once it is released.
 
 ## Health
 
-### H1. The health section — planned 2026-10-11
+Health gets a screen of its own, opened from the menu, since it may draw
+on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
 
-- **Why.** The owner (2026-10-11): what WB says of the life force, the
-  la and health on a day belongs in a section of its own, the element's
-  mansions (left by T2.19) among them.
+- **Sources.** The owner trusts Dr. Nida Chenagtsang's teaching strongly
+  (2026-10-11): his published works are sources for this screen, beside
+  WB. They are identified from a catalogue when the block starts (titles,
+  editions, his name as the books print it in Tibetan), never from
+  memory, and their facts are stated in our own words, as they are under
+  copyright (SPEC §8.1). Where he and WB differ on one point, both go
+  into the sources file and the owner decides.
+- **The grey dot** (the owner, 2026-10-11): what a source gives and WB
+  does not reckon, no works or no weight, is shown on its tab with a
+  grey dot: it has some influence, and WB's weighing does not count it.
+
+### <a id="h1"></a>H1. The health screen — planned 2026-10-11
+
 - **What WB has.** Read on the scan where marked; the rest found in the
   etext:
   - the element's mansions by the life force (vol. 2, p. 330, tables
@@ -1417,35 +1437,51 @@ the website name the election only once it is released.
     year, the divination of health (built, SPEC §5.9: Your day and the
     hours panel);
   - the illness parts of the date's, weekday's, link's and day animal's
-    readings (vol. 2, pp. 297–312, 351–359), and the trigram's goddesses
-    (vol. 1, pp. 449–450, built);
-  - the illness reckoning (*nad rtsis*, vol. 1, ch. 25, pp. 417–452,
-    img. 427–462): its fifteen starting points, and the elements'
-    illnesses, where each enters the body and its signs (pp. 438–439);
-    its pebbles are counted as R's are;
+    readings (vol. 2, pp. 297–312, 351–359; the links' with
+    [T2.27](#t2-27)), and the trigram's goddesses (vol. 1, pp. 449–450,
+    built);
   - bloodletting and moxa in the readings of the year of age's mewa
     (vol. 1, pp. 403–405), to be checked against the year sheet (T4);
   - the medical works the weighing already decides (taking and starting
     medicine, treatment, surgery, bloodletting, making medicine:
     `Activities.kt`).
-- **Work.** First a reading pass over vol. 1, ch. 20, 21 and 25 and vol. 2,
-  ch. 33 for every passage on the la, the life force (*srog*) and illness
-  by date, month, hour and age, into `docs/sources/health.md`, with what
-  is calculable. Then a Health section on the Tibetan page after Your day
-  (or a screen of its own: the owner's choice when built): with a birth
-  date the day's mansion as one of the element's quarters for the life
-  force, with p. 330's reading, vitality and body (moved from Your day)
-  and the la's place; for everyone the day's illness readings and the
-  medical works' sides as the weighing gives them. Whether the enemy and
-  grave mansions are absolute as the enemy weekday is (E6) is settled from
-  the text: p. 338 names the weekday only.
+- **Work.** First a reading pass, WB (vol. 1, ch. 20, 21 and 25; vol. 2,
+  ch. 33) and Dr. Chenagtsang's works, for the movements of the la and
+  the life force (*srog*) through the body and for health and illness by
+  date, month, hour and age, into `docs/sources/health.md`, with what is
+  calculable and whose it is. Then the Health screen from the menu, in
+  tabs by subject as the reading sorts them: with a birth date, the day's
+  mansion as one of the element's quarters for the life force with
+  p. 330's reading, vitality and body (moved from Your day) and the la's
+  place; for everyone, the day's illness readings and the medical works'
+  sides as the weighing gives them; what the medical sources add, with
+  the grey dot where WB does not reckon it. Your day links to the screen.
+  Whether the enemy and grave mansions are absolute as the enemy weekday
+  is (E6) is settled from the text: p. 338 names the weekday only.
+- **Block.** [26](#block-26); waits on [24](#block-24), whose links'
+  illness readings it shows.
 - **Done when.** Vectors for the test birth date (1976-06-01, life force
-  earth); `CatalogTest`; SPEC §5.8, §10.3; both languages; one line in the
-  section that its readings are the almanac's, not medical advice.
+  earth); `CatalogTest`; SPEC §5.8, §8.3, §10.3, §10.5; both languages
+  on the emulator; one line on the screen that its readings are the
+  tradition's, not medical advice.
+
+### <a id="h2"></a>H2. The illness reckoning — planned 2026-10-11
+
+- **Gap.** WB's illness reckoning (*nad rtsis*, vol. 1, ch. 25,
+  pp. 417–452, img. 427–462): its fifteen starting points, and the
+  elements' illnesses, where each enters the body and its signs
+  (pp. 438–439). A pebble reckoning for the sick, unread.
+- **Work.** Read it on the scans with R1's inventory; build its pebbles
+  with R's, on a tab of the Health screen, listed in the Reckonings
+  section too; Dr. Chenagtsang's works read beside it.
+- **Block.** [32](#block-32); waits on [26](#block-26) (the screen) and
+  [28](#block-28) (R1's pebbles).
+- **Done when.** Vectors where Dorje or WB give a worked example;
+  `CatalogTest`; SPEC; both languages.
 
 ## People
 
-### P1. Relatives of a saved person — planned 2026-10-11
+### <a id="p1"></a>P1. Relatives of a saved person — planned 2026-10-11
 
 - **Gap.** Several of WB's readings need other people's dates: the natal
   trigram the mother's year, the spouses' and the dead's obstacles their
@@ -1461,10 +1497,12 @@ the website name the election only once it is released.
   device only; the `people` preference grows a relatives field, an older
   line reading as none. Whether relatives count toward the ten is the
   owner's choice.
+- **Block.** [27](#block-27); waits on nothing. [29](#block-29) (P2),
+  [30](#block-30) (P3) and [31](#block-31) (R2…) wait on it.
 - **Done when.** A test of the stored format, older lines included; the
   dialogs checked on the emulator in both languages; SPEC §10.5.
 
-### P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11
+### <a id="p2"></a>P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11
 
 - **Gap.** Left by T4 (block 13) for want of other people's signs
   ([year-of-life.md](sources/year-of-life.md)): the natal trigram (*skyes
@@ -1477,11 +1515,12 @@ the website name the election only once it is released.
 - **Work.** Read ch. 22's natal trigram and ch. 24's passages on the
   scans; build each in the year of age (R1's section), from P1's
   relatives.
-- **Needs.** P1, R1.
+- **Block.** [29](#block-29); waits on [27](#block-27) (P1) and
+  [28](#block-28) (R1).
 - **Done when.** Vectors from Dorje's charts where they give them;
   `CatalogTest`; SPEC §5.9.1; both languages.
 
-### P3. The bride's departure — planned 2026-10-11
+### <a id="p3"></a>P3. The bride's departure — planned 2026-10-11
 
 - **Gap.** WB's chapter 23 (vol. 1, pp. 351–379, img. 361–389, the
   marriage and road reckonings) has three parts: whether two people
@@ -1500,13 +1539,14 @@ the website name the election only once it is released.
   bride's works ("Choose a day", E2), its works counted as D4 settles
   for the earth lords (T2.26). The first part, the match, is a reckoning
   for R.
-- **Needs.** P1; T2.26, for its earth lords and the sky dog.
+- **Block.** [30](#block-30); waits on [27](#block-27) (P1) and
+  [25](#block-25) (T2.26, for its earth lords and the sky dog).
 - **Done when.** A vector of a couple's good and bad days for the
   departure; `ElectionTest`; SPEC §5.14, §10.8; both languages.
 
 ## Reckonings
 
-### R. The pebble divinations, a section of their own — planned 2026-10-11
+### <a id="r"></a>R. The pebble divinations, a section of their own — planned 2026-10-11
 
 - **Why.** The owner (2026-10-11): WB's element reckoning (*'byung
   rtsis*) is a large body of its own and gets its own group in the menu,
@@ -1517,7 +1557,7 @@ the website name the election only once it is released.
   reckoning of lives, the birth (*tshe rabs las rtsis*, pp. 259–350);
   ch. 23, marriage and the road (pp. 351–379; the road is P3); ch. 24,
   obstacles (*keg rtsis*) and the Chinese pebbles (pp. 380–416; the year
-  of age built, T4); ch. 25, illness (pp. 417–452; H1); ch. 26, the thirty
+  of age built, T4); ch. 25, illness (pp. 417–452; H2); ch. 26, the thirty
   starting points with their pebbles (from p. 453 to the volume's end);
   vol. 2, ch. 27, the thirteen Chinese *dpyad lding* and small reckonings
   (pp. 3–25); ch. 28, minor signs (pp. 26–43); ch. 29, *zangs kyam* and
@@ -1540,7 +1580,11 @@ the website name the election only once it is released.
   the reckoning for the dead (with P1), the thirty starting points
   (ch. 26), the *dpyad lding* (ch. 27), the moment (ch. 30, from the clock
   time of the question, if R1 finds it calculable). The illness reckoning
-  (ch. 25) is built with H1 and listed here too.
+  (ch. 25) is built with H2 and listed here too.
+- **Blocks.** R1 is [28](#block-28), waiting on nothing; R2… is
+  [31](#block-31), waiting on 28 and, for what needs relatives, on
+  [27](#block-27) (P1). [29](#block-29) (P2) and [32](#block-32) (H2) wait
+  on R1.
 - **Done when** (each item): its readings in the catalog with WB as their
   source; vectors from Dorje's charts where they exist; `CatalogTest`;
   SPEC; both languages on the emulator; the release build checked.
@@ -1556,7 +1600,7 @@ The text is out of the code: interface text in `strings.xml`, the engines'
 and readings' text in the catalog, dates and ordinals by the app's language
 (SPEC §8.2, §10.1). A language is added as files, not code.
 
-### L3. Russian, by the project
+### <a id="l3"></a>L3. Russian, by the project
 
 Built: the interface strings, the catalog and the ru-RU store listing, with
 the language switch in the menu (SPEC §8.2, §10.5).
@@ -1580,7 +1624,7 @@ the language switch in the menu (SPEC §8.2, §10.5).
   languages "setting up a sel" named Wylie alone: now "a clearing rite
   (སེལ, sel)". What is left is the owner's own read on the phone.
 
-### L4. Hosted Weblate
+### <a id="l4"></a>L4. Hosted Weblate
 
 For Japanese first, then German, French, Spanish, Portuguese, Simplified
 Chinese and Traditional Chinese.
