@@ -325,7 +325,7 @@ class CatalogTest {
     }
 
     /**
-     * SPEC §8.1, *The shape of a reading* (ROADMAP X2): no paragraph over 60 words (rule 2), none of
+     * SPEC §8.1, *The shape of a reading* (ROADMAP X2): no paragraph under 20 words or over 60 (rule 2), none of
      * the app's or an editor's words (rules 8 and 9), and every Tibetan word with one English name and
      * one bracket across the catalog, the interface and the store listing (rule 11, D7), in both
      * languages. The families not yet brought to the shape are allowed their breaks, item by item
@@ -361,12 +361,30 @@ class CatalogTest {
                 if (!isRow(k)) ReadingShape.words(v).let { if (it > 60) out += where to "paragraph of $it words" }
                 ReadingShape.APP_OR_EDITOR.getValue(suffix).find(v)?.let { out += where to "«${it.value}»" }
             }
+            out += shortParagraphs(suffix)
             val russian = suffix == "_ru"
             val namings = namedTexts(russian).flatMap { (where, text) -> ReadingShape.namings(where, text, russian) }
             ReadingShape.odd(namings, plain = { !it.contains(":reading.") }, exceptions = NAMED_TWO_WAYS, oneBracket = !russian)
                 .forEach { (n, what) -> out += n.where to what }
         }
         return out
+    }
+
+    /**
+     * Rule 2's lower bound: every paragraph a reading shows of 20 words at least, measured as the sheet
+     * shows it, a family's note filled with the entry's own text; a reading with no text of its own (the
+     * source gives only its lists) has no paragraph. The break stands at the entry's own text.
+     */
+    private fun shortParagraphs(suffix: String): List<Pair<String, String>> {
+        val t = Catalog.entries(suffix)
+        fun text(key: String) = t[key] ?: english[key]
+        return allReadings.mapNotNull { r ->
+            val where = "texts$suffix:${r.rowKey}"
+            if (family(where) in KYUREKI) return@mapNotNull null
+            val paragraph = text(r.key) ?: return@mapNotNull null
+            val n = ReadingShape.words(r.arg?.let { Catalog.fill(paragraph, text(it) ?: it) } ?: paragraph)
+            if (n < 20) where to "paragraph of $n words" else null
+        }.distinctBy { it.first }
     }
 
     /** The catalog's texts, the interface strings and the store listing in one language; changelogs are past releases' and stay as written. */
@@ -435,22 +453,24 @@ class CatalogTest {
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
         /**
-         * The breaks of the shape each ROADMAP item's families still hold (ROADMAP X2): paragraphs over
-         * 60 words, the app's or an editor's words, a Tibetan word named or bracketed two ways, counted
-         * in English and Russian together. The block that builds an item deletes its line, one line,
-         * and the test then holds its families to the shape. A count may only fall: the test fails on a
-         * break beyond it and asks for a lower count when breaks are mended, so nothing new enters the
-         * allowance. With every line gone (block 49) no reading is allowed a break.
+         * The breaks of the shape each ROADMAP item's families still hold (ROADMAP X2): paragraphs under
+         * 20 words or over 60, the app's or an editor's words, a Tibetan word named or bracketed two ways,
+         * counted in English and Russian together. The block that builds an item deletes its line, one
+         * line, and the test then holds its families to the shape. A count may only fall: the test fails
+         * on a break beyond it and asks for a lower count when breaks are mended, so nothing new enters
+         * the allowance. The 20-word floor joined the checks on 2026-10-11 with the paragraphs already
+         * under it counted in, the only time the counts rose. With every line gone (block 49) no reading
+         * is allowed a break.
          */
         val ALLOWANCE: Map<String, Int> = mapOf(
-            "X3" to 36, // the lunar dates (block 43)
+            "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
             "X4" to 28, // the weekdays and the goddesses' days (block 43)
-            "X5" to 4, // the combination and the special days (block 44)
-            "X6" to 6, // the yogas, the karaṇa and the mansions (block 45)
-            "X7" to 107, // the earth lords, Rāhu and the month's entries (block 46)
-            "X8" to 15, // your day (block 47)
+            "X5" to 95, // the combination and the special days (block 44); 91 under 20 words
+            "X6" to 40, // the yogas, the karaṇa and the mansions (block 45); 34 under 20 words
+            "X7" to 107, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape
+            "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 25, // the hours panel (block 48)
-            "X10" to 120, // the rest, and the year sheet (block 49)
+            "X10" to 180, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words
         )
     }
 }
