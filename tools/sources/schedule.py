@@ -267,6 +267,19 @@ def cmd_prompts(args):
         print(f"{out / (r.id.lower() + '.txt')}")
 
 
+def index_row(text, row):
+    """The index with the row added at the end of its table, the first
+    table whose rows link a topic file."""
+    lines = text.splitlines(keepends=True)
+    first = next((i for i, l in enumerate(lines) if l.startswith("| [")), None)
+    if first is None:
+        return text.rstrip("\n") + "\n" + row
+    end = first
+    while end < len(lines) and lines[end].startswith("|"):
+        end += 1
+    return "".join(lines[:end] + [row] + lines[end:])
+
+
 def cmd_stubs(args):
     m, launch, _, _, _ = plan(args)
     sections = sections_for(launch)
@@ -283,7 +296,7 @@ def cmd_stubs(args):
             path.write_text(f"# {title}\n\nSigla, numbering and quoting rules are in [README.md](README.md).\n")
             ids = ", ".join(rid for rid, _ in heads)
             row = f"| [{f}]({f}) | {title}: the sections below, one per reading | {ids} | Stub: nothing read yet |\n"
-            index_text = index_text.rstrip("\n") + "\n" + row
+            index_text = index_row(index_text, row)
             print(f"made {path}")
         text = path.read_text()
         for rid, h in heads:
