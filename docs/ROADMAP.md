@@ -1425,8 +1425,9 @@ W1 build on them (below).
 - **Gap.** The hours row paints the hours to avoid on the strip and lists
   them again as text under the present hour, "05:00–09:00 11:00–13:00
   17:00–19:00 23:00–01:00", two or three lines, four at font scale 1.3.
-- **Work.** One line in short form, "hours to avoid 05–09 · 11–13 · 17–19
-  · 23–01", the full times kept in the brief sheet's "By the hour"; the
+- **Work.** One line in short form, "avoid 05–09 · 11–13 · 17–19 · 23–01"
+  ("good …" on an unlucky day; the label the In brief line's word, under
+  the row's "Hours" heading), the full times kept in the brief sheet's "By the hour"; the
   runs stay taps that open the panel at their hour; screen readers keep
   the full times. The same short form serves the morning notice
   ([N1](#n1)) and the widget ([W1](#w1)). SPEC §10.3.
@@ -1449,8 +1450,8 @@ W1 build on them (below).
   line); a tap on 11–13 opened the panel at the Horse hour; the row's
   description keeps every run's full times. Store shot 1, the Tibetan
   day, shows the row.
-- **The Work's wording not met** (checked again 2026-10-11, block 42's
-  review): the Work's "hours to avoid" / "good hours" (Russian
+- **The wording settled** (the owner, 2026-10-11: "avoid" stays, and the
+  Work above says it): the first wording, "hours to avoid" / "good hours" (Russian
   «неблагоприятные часы» / «благоприятные часы») cannot keep the "Done
   when"'s one line at a readable size, so the row keeps "avoid" / "good".
   With the literal labels and the row's shrink-to-fit, measured on the
