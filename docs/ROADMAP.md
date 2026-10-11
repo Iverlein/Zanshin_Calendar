@@ -93,7 +93,7 @@ moves up as soon as it is unblocked.
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
-| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor (X1's reading by the owner open) | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
+| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
@@ -1732,7 +1732,7 @@ X, so that the owner reads the wording once. The blocks are
 [26](#block-26) write their new readings in the shape from the start;
 [33](#block-33) and [40](#block-40) build on the sheet's new rows.
 
-#### <a id="x1"></a>X1 The shape rule — the rule written 2026-10-11, the sheet built 2026-10-11 (SPEC §8.1, §10.3)
+#### <a id="x1"></a>X1 The shape rule — built 2026-10-11, the examples read by the owner the same day (SPEC §8.1, §10.3)
 
 - **Gap.** SPEC §8.1 says what a reading may not contain, a source or an
   unnamed Tibetan word, and nothing about its order, its length or its
@@ -1768,15 +1768,16 @@ X, so that the owner reads the wording once. The blocks are
   The la row names the la in its value, "the la, the life-spirit (བླ,
   bla), sits in the big toe; in horses and other livestock, …", as rule 11
   asks of each row, and keeps the source's horses; the example in SPEC
-  §8.1 says so. Open: **the owner's reading of the three examples**,
-  which this item waits on; and, for that reading, two points the build
-  met (a third, the lunar date's paragraph of 17 words under rule 2's 20,
+  §8.1 says so. **Read and accepted by the owner 2026-10-11**, the
+  lesser black day's Remedy row put in the imperative ("set dough figures
+  …; or burn white butter …", the Russian in the infinitive); the points
+  shown for that reading (a third, the lunar date's paragraph of 17 words under rule 2's 20,
   mended the same day: "The 1st of the month is a virtuous day, …", 23
   words, the Russian 20): the row labels are short names with no bracket, as the Lunar day
   section's are ("La today"); and [X6](#x6) names rows (*Planet*,
   *Foods*, *Avoid its start*) that X1's fourteen do not have.
 - **Done when.** SPEC §10.3 says it, with X2 (done), and the owner has
-  read the examples (open).
+  read the examples (done 2026-10-11).
 
 #### <a id="x2"></a>X2 Rows in the catalog and on the sheet — built 2026-10-11 (SPEC §8.1, §8.2, §10.3)
 

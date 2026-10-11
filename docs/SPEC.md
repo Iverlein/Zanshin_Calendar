@@ -1710,10 +1710,10 @@ nag chung), the course of Jama Gunggyal (བྱ་མ་གུང་རྒྱལ
 Avoid works for the dead, a bride, consecration, feasts and funeral
 rites, and above all sending wealth out of the house." *How it falls* ·
 the 8th, 18th and 28th of the spring months; today the 8th of the first
-month of spring. *Remedy* · dough figures of a tiger, a horse, a sheep
-and a dog set to the south, west, north and east with offerings; or
-white butter burnt, white earth on the roof and red earth to the four
-sides. *Another view* · in winter the 9th, 19th and 29th.
+month of spring. *Remedy* · set dough figures of a tiger, a horse, a
+sheep and a dog to the south, west, north and east with offerings; or
+burn white butter, scatter white earth on the roof and red earth to the
+four sides. *Another view* · in winter the 9th, 19th and 29th.
 
 ### 8.2 Catalog
 
