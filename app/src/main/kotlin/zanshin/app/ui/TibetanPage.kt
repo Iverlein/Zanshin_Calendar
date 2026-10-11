@@ -757,23 +757,25 @@ fun TibetanPage(
         }
         // The earth lords that move by date (ROADMAP T2.13, SPEC §5.13): the day's courses as WB's almanac writes them, one row,
         // shown and not weighed, since WB's order of strength does not rank them; the sky door falls on every date.
-        val courses = EarthLordCourses.of(day).map { c ->
-            val name = gloss(c.course)
+        val courses = EarthLordCourses.of(day).groupBy { it.course }.map { (course, days) ->
+            // One entry for each earth lord: WB's own course only (no other view), what it does today in one reading.
+            val c = days.first()
+            val name = gloss(course)
+            val reading = Texts.earthLord(days)
             Annotation(
                 name,
-                when {
-                    c.course == EarthLordCourse.GNAM_SGO -> Catalog.text("SkyDoor.${c.variant!!.replace(' ', '_')}")
-                    c.course == EarthLordCourse.ZLA_NAG -> MonthEntries.MonthPart.valueOf(c.variant!!).dates.let {
+                when (course) {
+                    EarthLordCourse.GNAM_SGO -> Catalog.text("SkyDoor.${c.variant!!.replace(' ', '_')}")
+                    EarthLordCourse.ZLA_NAG -> MonthEntries.MonthPart.valueOf(c.variant!!).dates.let {
                         labels.string(R.string.black_dates, it.first, it.last)
                     }
-                    c.course == EarthLordCourse.KI_KANG_ZLA_NAG -> Texts.earthLord(c).avoid.joinToString(", ")
-                    c.otherView -> "${gloss(c.event)}, ${Catalog.text("CourseDay.otherView")}"
-                    else -> gloss(c.event)
+                    EarthLordCourse.KI_KANG_ZLA_NAG -> reading.avoid.joinToString(", ")
+                    else -> days.map { gloss(it.event) }.distinct().joinToString(", ")
                 },
-                toneOf(Texts.earthLord(c)),
-                Texts.earthLord(c),
+                toneOf(reading),
+                reading,
                 titleIsKanji = false,
-                details = listOf(tibetanLabel to Ewts.named(name, c.course.wylie)),
+                details = listOf(tibetanLabel to Ewts.named(name, course.wylie)),
             )
         }
         AnnotationRow(
@@ -783,7 +785,7 @@ fun TibetanPage(
                 Tone.NEUTRAL,
                 null,
                 // The row names the courses; what each does today is in the sheet.
-                subtitle = courses.map { it.title }.distinct().joinToString(" · "),
+                subtitle = courses.joinToString(" · ") { it.title },
                 titleIsKanji = false,
                 parts = courses,
             ),
