@@ -1543,6 +1543,146 @@ as "Also called"; other sheets give the term's Tibetan name as
 code writes a term as `Ewts.named(english, wylie)`, and the app sets the
 Tibetan runs in its Tibetan font (`withTibetan`).
 
+**The shape of a reading** (the owner, 2026-10-11; ROADMAP X1). Every
+reading written from 2026-10-11 on follows the rules below; the readings
+built before them are brought to the same shape family by family (ROADMAP
+X3–X10). The rules came from a reading of all 459 of the Tibetan page's
+readings: each was one paragraph in its source's order, so the ruling
+came last, facts the day cannot use stood in the main text, the strongest
+voice had the thinnest text, and no two families said "good" or "avoid"
+the same way.
+
+1. **The reader's order, not the source's.** A sheet runs: the title and
+   gloss (the app's), the paragraph, the Good-for and Avoid lists, the
+   rows, then the app's workings (how the entry was counted). A reading
+   gives its facts in that order whatever order its source gives them in.
+2. **The paragraph is the ruling.** One to three sentences, 20 to 60
+   words. The first sentence says what this is on the shown day and which
+   way it cuts: "A virtuous day, the day of joy (དགའ་བ, dga' ba): pacifying
+   rites, crafts, games and all white work go well." The sentences after
+   it carry only what changes the ruling: the one prohibition the source
+   ties to the entry itself ("Hold no funeral on it, even when the Sun is
+   strong: it is the door of heaven"), a perilous day's warning, a
+   condition ("except on Thursday"). The paragraph never lists works that
+   the sheet's lists repeat under it, and never explains a mechanism.
+3. **Every other fact is a row**, a label and a value, in this order and
+   with these labels and no others: *Also called* · *Strong when* ·
+   *Setting out* · *Rank* · *Remedy* · *Spirits that harm* · *Illness* ·
+   *Rites* · *La today* · *A birth today* · *A death today* · *Livestock*
+   · *How it falls* · *Another view*. A row is a phrase or one sentence;
+   it holds names and brackets well, where a sentence does not. The
+   omens (*A birth today*, *A death today*, *Livestock*, the planet's
+   caste and colour under *Also called*, a mansion's planet and foods)
+   stay: they are the source's content, kept as the last rows and never
+   in the paragraph (D6). Until the catalog carries rows (ROADMAP X2), a
+   new reading writes each row as a sentence after the paragraph, in the
+   row order, opening with the label's word ("Remedy: …", "A birth today:
+   …"), so that it lifts into its row unchanged.
+4. ***How it falls* gives today's line only.** "The 8th, 18th and 28th
+   of the spring months; today the 8th of the first month of spring."
+   The whole table, every month's dates, the twelve places of the sky
+   dog, the seven weekdays' burning dates, lives in the entry's topic
+   file in `docs/sources/`, which About points to; a reading never
+   writes a table out as prose.
+5. **Boilerplate once.** A sentence that would be the same in every
+   reading of a family is the family's note (`reading.<Family>`, filled
+   with {0}) or a row's label, never a sentence repeated in each reading:
+   the la's seat is a *La today* row, not thirty sentences; Rāhu's course
+   through the hours stands once in Rāhu's note.
+6. **One vocabulary.** A work in prose "goes well" or "goes badly"; the
+   lists say "Good for" and "Avoid"; a whole entry is "to be avoided" or
+   "avoided for its whole length"; a day is lucky, unlucky, mixed or
+   neutral, as the tone labels say; a remedy is "Remedy:" in the
+   imperative ("hoist white silk and burn white butter"); an alternative
+   tradition is "another view", in its row. The source's classes of work
+   keep their names, since they are terms and not verdicts: white work,
+   virtuous work, fierce rites, harsh work. Not used for a ruling:
+   auspicious, succeeds, turns out well, shunned, given up, prosper.
+7. **A verse's image is marked as an image and never opens.** The
+   headword of a verse, "death in prison", "meeting a woman friend",
+   "understand it as pounding", goes after the ruling as "its image is
+   death in prison"; a phrase whose meaning the source does not give
+   ("the mute one bursts") is dropped to the topic file, not shown bare.
+   The year sheet's pebble verses are omens and stay verses, each with
+   its ruling line first and its remedy as a row.
+8. **Nothing about the app in a reading.** No "the works below", "the
+   lists", "the day in brief", "shown and not weighed", "with a birth date
+   set". A reading states what its source says; what the app does with it
+   is a note in `strings.xml` under the gloss (`brief_outweighed_note`,
+   `brief_avoid_all_note`, `tib_earth_lords_note`).
+9. **No editor's notes.** "Not identified", "the print spells", "the two
+   rendered word for word", "some say" go to the topic file in
+   `docs/sources/`, with the Tibetan, and to ROADMAP's *Left open* table
+   if they are questions; a reading shows only what is settled, and a
+   recorded alternative only as *Another view*.
+10. **Plain sentences.** One fact per sentence, 25 words at most, present
+    tense, the day, the spirit or the work as the subject, a verb in
+    every sentence: "Setting out goes badly, above all to the south" and
+    not "Setting out is bad in general, above all to the south, the
+    north and the intermediate directions". No chain of clauses on
+    semicolons; a list of three or more things is a row.
+11. **Names as §8.1 says, uniform.** Each word named at its first mention
+    in each text, the paragraph, each row and the title being texts of
+    their own, so the title's bracket does not spare the paragraph's
+    (D7); and the same word bracketed the same way everywhere, one English
+    name and one Wylie per word across the catalog, the interface and the
+    listing. The words the sources themselves name two ways are listed
+    with the test (the la weekday, *bla gza'*, both the birth animal's
+    luck day and the element's own weekday).
+12. **A family reads as one.** Before writing a reading, read its
+    family's readings and the comment above them in the catalog, and
+    match the first sentence's pattern and the rows present; a family
+    whose source gives a fact for every member gives that row in every
+    member. The effort goes where the weight is: the combination's
+    readings are as full as the earth lords', not thinner.
+13. **The Russian is the same shape.** Each key translated keeps the
+    paragraph's bound and the rows' order; the row labels and the
+    vocabulary of rule 6 have one Russian each, kept in the comment at
+    the head of `texts_ru.properties`.
+
+Until ROADMAP X2 builds the checks into `CatalogTest` (row keys from the
+list, the Russian complete, no paragraph over 60 words, rule 8's and 9's
+phrases absent, rule 11's uniformity), the writer checks them by hand.
+The three examples below are the rule applied to readings as they stood;
+the facts are the same, moved.
+
+*Lunar date 1*, before: "A day of joy (དགའ་བ, dga' ba), Nandā, one of the
+virtuous days: good for pacifying rites, crafts, games and all white
+work. A child born today: children follow one another, and wide
+learning. A death today is bad. Livestock bought today increases a
+thousandfold. The la, the life-spirit (བླ, bla), sits in the big toe
+today, and in horses and other livestock in the sole of the foot: no
+bloodletting, moxibustion or other treatment there." After: "A virtuous
+day, the day of joy (དགའ་བ, dga' ba): pacifying rites, crafts, games and
+all white work go well." *Also called* · Nandā. *La today* · in the big
+toe; in livestock, in the sole of the foot; no bloodletting, moxibustion
+or treatment there. *A birth today* · children follow one another, and
+wide learning. *A death today* · bad. *Livestock* · bought today,
+increases a thousandfold.
+
+*Sunday*, before: 105 words opening "The Sun: the la weekday (བླ་གཟའ, bla
+gza') of kings, of the royal caste; peaceful, pale red, of fire." After:
+"The Sun's day. Setting out goes badly, above all to the south, the north
+and the directions between. Hold no funeral on it, even when the Sun is
+strong: it is the door of heaven. With Tuesday and Saturday it is a day
+on which virtuous work is avoided." *Strong when* · in the waning half of
+the month, by day, and in Leo. *Also called* · the la weekday (བླ་གཟའ, bla
+gza') of kings; royal caste; peaceful; pale red; fire. *A birth today* · a
+boy who lives through seven days and seven months lives long and is
+loved by the great; a girl will be rich, but more girls follow her, so
+some hold her birth bad. *A death today* · repeated nine or seven times.
+
+*The lesser black day*, before: 150 words, 90 of them the dates of every
+season. After: "The lesser black day, Nyima Nakchung (ཉི་མ་ནག་ཆུང, nyi ma
+nag chung), the course of Jama Gunggyal (བྱ་མ་གུང་རྒྱལ, bya ma gung rgyal).
+Avoid works for the dead, a bride, consecration, feasts and funeral
+rites, and above all sending wealth out of the house." *How it falls* ·
+the 8th, 18th and 28th of the spring months; today the 8th of the first
+month of spring. *Remedy* · dough figures of a tiger, a horse, a sheep
+and a dog set to the south, west, north and east with offerings; or
+white butter burnt, white earth on the roof and red earth to the four
+sides. *Another view* · in winter the 9th, 19th and 29th.
+
 ### 8.2 Catalog
 
 `core/.../texts/Texts.kt` holds every reading's structure as Kotlin data: a

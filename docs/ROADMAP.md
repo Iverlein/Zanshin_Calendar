@@ -1596,7 +1596,7 @@ X, so that the owner reads the wording once. The blocks are
 [26](#block-26) write their new readings in the shape from the start;
 [33](#block-33) and [40](#block-40) build on the sheet's new rows.
 
-#### <a id="x1"></a>X1 The shape rule
+#### <a id="x1"></a>X1 The shape rule — the rule written 2026-10-11 (SPEC §8.1)
 
 - **Gap.** SPEC §8.1 says what a reading may not contain, a source or an
   unnamed Tibetan word, and nothing about its order, its length or its
@@ -1604,7 +1604,7 @@ X, so that the owner reads the wording once. The blocks are
 - **Work.** SPEC §8.1 gains *The shape of a reading*, the six points
   above in full: the paragraph's content and bounds; the rows and their
   order, with these labels: *Also called* · *Strong when* · *Setting out*
-  · *Remedy* · *Spirits that harm* · *Illness* · *Rites* · *La today* ·
+  · *Rank* · *Remedy* · *Spirits that harm* · *Illness* · *Rites* · *La today* ·
   *A birth today* · *A death today* · *Livestock* · *How it falls* ·
   *Another view*, the Good-for and Avoid lists between the paragraph and
   the rows as now, the engine's workings rows (how it was counted) last;
@@ -1619,8 +1619,13 @@ X, so that the owner reads the wording once. The blocks are
   rule stand in the spec as its examples: lunar date 1, Sunday and the
   lesser black day.
 - **Block.** [42](#block-42); no reading; waits on no build.
-- **Done when.** SPEC §8.1 and §10.3 say it, the examples included, and
-  the owner has read them.
+- **Written 2026-10-11:** SPEC §8.1, *The shape of a reading*, thirteen
+  rules with the three examples, and the interim form for new readings
+  until X2 (each row a sentence after the paragraph, opening with its
+  label); AGENTS.md's bullet and the catalog's header point to it. Left
+  for block 42: SPEC §10.3's sheet in the new order, with X2.
+- **Done when.** SPEC §10.3 says it, with X2, and the owner has read the
+  examples.
 
 #### <a id="x2"></a>X2 Rows in the catalog and on the sheet
 
@@ -1630,7 +1635,7 @@ X, so that the owner reads the wording once. The blocks are
   reading has to be a sentence of its paragraph.
 - **Work.** `Reading` gains rows: `reading.<key>.<row>` in the catalog,
   `<row>` one of X1's labels' keys (`also_called`, `strong`,
-  `setting_out`, `remedy`, `spirits`, `illness`, `rites`, `la`, `birth`,
+  `setting_out`, `rank`, `remedy`, `spirits`, `illness`, `rites`, `la`, `birth`,
   `death`, `livestock`, `falls`, `other_view`), the label a catalog term
   of its own so that it translates; a row takes {0} as the summary does,
   for the today-line of *How it falls*. `ReadingBody` shows them after

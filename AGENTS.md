@@ -140,6 +140,15 @@ Only the changelog waits for the release (*Releases* below).
   text, the name alone after it; in code `Ewts.named(english, wylie)`.
   `CatalogTest` and `TranslationsTest` check it. Identify an abbreviated
   title from the source or a catalogue (BDRC, 84000), never from memory.
+- **Every reading in the shape of SPEC §8.1** (*The shape of a reading*,
+  13 rules): the ruling first in a paragraph of 20–60 words, every other
+  fact a row in the fixed order and labels, *How it falls* today's line
+  only, boilerplate once per family, one vocabulary (goes well, goes
+  badly, Good for, Avoid, Remedy:), a verse's image marked as an image,
+  nothing about the app and no editor's note in a reading, plain
+  sentences, names uniform, the family's pattern matched, the Russian
+  the same shape. Read the rule and its three examples before writing
+  any reading; the old readings are brought to it by ROADMAP X3–X10.
 - **Every kanji must show its English on tap** (`GlossText`), without a
   dotted underline; a Tibetan term shows its English inline and its
   pronunciation on tap.
