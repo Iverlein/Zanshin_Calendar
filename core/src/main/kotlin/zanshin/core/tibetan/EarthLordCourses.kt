@@ -68,11 +68,25 @@ enum class CourseEvent { MOVES, STRIKES, TURNS_BACK, SITS }
  * One course on one day: [season] is the Chinese reckoning's season-month, 0 the first month of
  * spring (Hor month 11, the tiger month) to 11 the last of winter; [variant] says which of a course's
  * readings holds, where it has several (the sky door's kind, *zin phung*'s quarter, the class whose
- * time it is).
+ * time it is); [date], the lunar date it fell on, as it stands ([EarthLordCourses.of] sets it).
  */
-data class CourseDay(val course: EarthLordCourse, val event: CourseEvent, val season: Int, val variant: String? = null) {
+data class CourseDay(val course: EarthLordCourse, val event: CourseEvent, val season: Int, val variant: String? = null, val date: Int? = null) {
     /** A date of "another view" that WB reports after its own course, or of what "some say" ([EarthLordCourses.OTHER]). */
     val otherView: Boolean get() = variant == EarthLordCourses.OTHER || variant == EarthLordCourses.THIRD
+}
+
+/**
+ * How a course by season-month fell on a day, the line of its reading's *How it falls* row (SPEC
+ * §8.1, rule 4): [season] the season-month it matched, 0 the first month of spring to 11 the last
+ * of winter; [date] the date that fell; [dates] the dates of the season's three months in turn, of
+ * which [date] is the one of [season].
+ */
+data class CourseFall(val season: Int, val date: Int, val dates: List<Int>) {
+    /** The season, 0 spring to 3 winter. */
+    val quarter: Int get() = season / 3
+
+    /** The month within the season, 0 the first, 1 the middle, 2 the last. */
+    val monthOfSeason: Int get() = season % 3
 }
 
 /**
@@ -380,6 +394,23 @@ object EarthLordCourses {
     private fun in3(map: Map<Set<Int>, Set<Int>>, season: Int, date: Int) = map.any { (m, d) -> season in m && date in d }
 
     /**
+     * The line [day] fell on, for a course that gives one date to each season-month: the season's
+     * three dates in turn and the one that fell, the course's own or, on a date of another view
+     * only, the view's. Null for the courses whose *How it falls* row is not built yet (ROADMAP X7)
+     * and for a [CourseDay] made without its date.
+     */
+    fun fall(day: CourseDay): CourseFall? {
+        val date = day.date ?: return null
+        val table = when (day.course) {
+            EarthLordCourse.NAG_CHUNG -> if (day.otherView) NAG_CHUNG_OTHER else NAG_CHUNG
+            else -> return null
+        }
+        if (date !in table[day.season]) return null
+        val first = day.season / 3 * 3
+        return CourseFall(day.season, date, (first..first + 2).map { table[it].single() })
+    }
+
+    /**
      * The courses on [date] of Hor month [month], whose date's animal is [dayAnimal], in WB's order;
      * [chineseYear], the animal of the Chinese reckoning's year, for the Paṇchen's black days. Another
      * view is listed only on a date its course does not give, whatever the course does on it (the nāgas'
@@ -447,7 +478,7 @@ object EarthLordCourses {
             // in the first course. Of two views on one date (ki kang's second and third), the second stands, once.
             all.filterNot { c ->
                 c.otherView && all.any { it.course == c.course && (!it.otherView || (c.variant == THIRD && it.variant == OTHER)) }
-            }
+            }.map { it.copy(date = date) }
         }
     }
 

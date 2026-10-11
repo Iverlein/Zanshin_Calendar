@@ -85,6 +85,9 @@ class CatalogTest {
         SME_BA_COLOURS.forEach { present("Colour.$it") }
         Texts.JAPANESE_FESTIVAL.keys.forEach { present("Festival.$it") }
         listOf("Kanshi", "StarAffinity.feeds", "StarAffinity.overcomes", "StarAffinity.same").forEach(::present)
+        (listOf("one", "two", "few", "other").map { "DateOrdinal.$it" } + listOf("CourseFall.line", "CourseFall.dates")).forEach(::present)
+        (0..3).forEach { present("CourseFall.season.$it") }
+        (0..11).forEach { present("CourseFall.month.$it") }
     }
 
     @Test
@@ -444,7 +447,7 @@ class CatalogTest {
             "X4" to 28, // the weekdays and the goddesses' days (block 43)
             "X5" to 4, // the combination and the special days (block 44)
             "X6" to 6, // the yogas, the karaṇa and the mansions (block 45)
-            "X7" to 109, // the earth lords, Rāhu and the month's entries (block 46)
+            "X7" to 107, // the earth lords, Rāhu and the month's entries (block 46)
             "X8" to 15, // your day (block 47)
             "X9" to 25, // the hours panel (block 48)
             "X10" to 120, // the rest, and the year sheet (block 49)

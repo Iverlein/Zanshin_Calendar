@@ -32,8 +32,10 @@ import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.CourseDay
+import zanshin.core.tibetan.CourseFall
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourse
+import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.MonthEntries
 import zanshin.core.tibetan.GreatCombination
 import zanshin.core.tibetan.Trigram
@@ -108,6 +110,8 @@ data class Reading(
     val key: String = "",
     /** Catalog key of the text that fills the summary's {0}. */
     val arg: String? = null,
+    /** How a course by date fell on the shown day: its line fills the rows' {0} in place of [arg]'s text (SPEC §8.1, rule 4). */
+    val today: CourseFall? = null,
 ) {
     val summary: String
         get() = Catalog.textOrNull(key)?.let { fill(it) } ?: ""
@@ -120,15 +124,45 @@ data class Reading(
     val rowKey: String
         get() = arg?.takeIf { it.startsWith("reading.") && key.count { c -> c == '.' } == 1 } ?: key
 
-    /** The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text. */
+    /** The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text, or [today]'s line. */
     val rows: List<Pair<ReadingRow, String>>
-        get() = ReadingRow.entries.mapNotNull { row -> Catalog.textOrNull("$rowKey.${row.key}")?.let { row to fill(it) } }
+        get() = ReadingRow.entries.mapNotNull { row ->
+            Catalog.textOrNull("$rowKey.${row.key}")?.let { row to (today?.let { t -> Catalog.fill(it, fallLine(t)) } ?: fill(it)) }
+        }
 
     private fun fill(text: String): String = arg?.let { Catalog.fill(text, Catalog.text(it)) } ?: text
 
     val good: List<String> get() = goodKeys.map { Catalog.text("wording.$it") }
     val avoid: List<String> get() = avoidKeys.map { Catalog.text("wording.$it") }
 }
+
+/**
+ * A date as an ordinal, "8th", «8-е»: the catalog's `DateOrdinal.<category>` with the number, the
+ * category English's (one: 1st, 21st; two: 2nd, 22nd; few: 3rd, 23rd; other), so that a language
+ * whose ordinals do not change by the number gives all four the same.
+ */
+fun dateOrdinal(n: Int): String {
+    val category = when {
+        n % 100 in 11..13 -> "other"
+        n % 10 == 1 -> "one"
+        n % 10 == 2 -> "two"
+        n % 10 == 3 -> "few"
+        else -> "other"
+    }
+    return Catalog.format("DateOrdinal.$category", n.toString())
+}
+
+/**
+ * The *How it falls* line of a course by season-month (SPEC §8.1, rule 4): "the 8th, 18th and 28th
+ * of the spring months; today the 8th of the first month of spring".
+ */
+fun fallLine(f: CourseFall): String = Catalog.format(
+    "CourseFall.line",
+    Catalog.format("CourseFall.dates", *f.dates.map(::dateOrdinal).toTypedArray()),
+    Catalog.text("CourseFall.season.${f.quarter}"),
+    dateOrdinal(f.date),
+    Catalog.text("CourseFall.month.${f.season}"),
+)
 
 /** Readings keyed by term, each summary under `reading.<Enum>.<NAME>`. */
 private fun <E : Enum<E>> keyed(vararg entries: Pair<E, Reading>): Map<E, Reading> =
@@ -1105,7 +1139,7 @@ object Texts {
             !day.otherView -> base
             c == EarthLordCourse.SDE_BRGYAD || c == EarthLordCourse.KLU -> base.copy(arg = "$key.STRIKES_other")
             else -> base.copy(key = "$key.${day.variant}", arg = null)
-        }
+        }.copy(today = EarthLordCourses.fall(day))
     }
 
     /**
