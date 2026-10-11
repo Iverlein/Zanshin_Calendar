@@ -6,7 +6,9 @@ why the app needs it, is in the roadmap's *Readings*
 ([ROADMAP.md](../ROADMAP.md#rd1)), each reading with its source, pages,
 the readings it needs, the blocks that wait on it and its topic file;
 what is left open in built work is listed under it. This file says how to read: the rules, the tools, the
-services and the dead ends.
+services and the dead ends. Running several readings at once, three
+subagents to a unit with a launcher that merges and keeps the shared
+files, is [PROTOCOL.md](PROTOCOL.md).
 
 **Tools and their limits** (all in `tools/sources/`, see *Tools* below):
 Yigdzin-1 is the main reader but **drops lines beside woodcuts** (WB
