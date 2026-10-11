@@ -23,12 +23,9 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -74,7 +71,6 @@ private enum class PickerView { DAYS, YEARS, MONTHS }
  * the month's title opens the years, then the twelve months of the chosen
  * year, then the days, Material's pattern (ROADMAP U9); the chevrons stay.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DatePickerSheet(
     selected: LocalDate,
@@ -93,12 +89,7 @@ fun DatePickerSheet(
     val firstMonth = YearMonth.from(SUPPORTED_RANGE.start)
     val lastMonth = YearMonth.from(SUPPORTED_RANGE.endInclusive)
 
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.surface,
-        scrimColor = Palette.scrim,
-    ) {
+    Sheet(onDismiss) {
         Column(
             Modifier.padding(start = 16.dp, end = 16.dp, bottom = 24.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),

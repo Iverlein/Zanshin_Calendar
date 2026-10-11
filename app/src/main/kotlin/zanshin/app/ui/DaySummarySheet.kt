@@ -23,11 +23,8 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -174,7 +171,6 @@ private val SIDE_GAP = 20.dp
  * two-hour period, counted from 05:00. A work's workings offer its election through [onElect], the
  * Tibetan one on the Tibetan page (ROADMAP E2), the 旧暦's on the 旧暦 page (E5).
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DaySummarySheet(
     s: DaySummary,
@@ -183,12 +179,7 @@ fun DaySummarySheet(
     onElect: ((Activity) -> Unit)? = null,
     onDismiss: () -> Unit,
 ) {
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.surface,
-        scrimColor = Palette.scrim,
-    ) {
+    Sheet(onDismiss) {
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())

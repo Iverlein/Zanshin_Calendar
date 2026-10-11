@@ -14,10 +14,7 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -68,7 +65,6 @@ import java.time.ZonedDateTime
  * year's obstacles. The hour of reckoning is the present two-hour period at
  * [zone]. Each row opens its reading through [onOpen].
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun YearSheet(person: Person, day: TibetanDay, zone: ZoneId, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
     val labels = LocalLabels.current
@@ -78,12 +74,7 @@ fun YearSheet(person: Person, day: TibetanDay, zone: ZoneId, onOpen: (Annotation
     }
     fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
 
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.surface,
-        scrimColor = Palette.scrim,
-    ) {
+    Sheet(onDismiss) {
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())

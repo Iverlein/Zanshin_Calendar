@@ -25,9 +25,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -269,7 +267,6 @@ private fun DecidesNote(a: Annotation) {
  * choosing a day for it (ROADMAP E2, E5): the Tibetan election's works by default, the 旧暦's on the
  * 旧暦 page.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReadingSheet(
     a: Annotation,
@@ -277,13 +274,7 @@ fun ReadingSheet(
     offered: Set<Activity> = Election.OFFERED,
     onDismiss: () -> Unit,
 ) {
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.surface,
-        scrimColor = Palette.scrim,
-        dragHandle = { ToneBand(a.tone) },
-    ) {
+    Sheet(onDismiss, dragHandle = { ToneBand(a.tone) }) {
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())

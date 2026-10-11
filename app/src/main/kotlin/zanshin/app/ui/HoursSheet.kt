@@ -16,12 +16,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Text
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -114,7 +111,6 @@ fun rememberCurrentHour(date: LocalDate, zone: ZoneId): Pair<Int?, Int?> {
     return current to (if (current != null) now.hour * 60 + now.minute else null)
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HoursSheet(
     date: LocalDate,
@@ -139,12 +135,7 @@ fun HoursSheet(
 
     fun tone(i: Int, force: Force) = pebbleTone(ForceContrast(force, birth!!.forces[force], hours[i].sign.forces[force]).pebbles)
 
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-        containerColor = Palette.surface,
-        scrimColor = Palette.scrim,
-    ) {
+    Sheet(onDismiss) {
         Column(
             Modifier
                 .verticalScroll(rememberScrollState())
