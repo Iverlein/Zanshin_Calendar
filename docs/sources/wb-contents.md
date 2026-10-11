@@ -53,7 +53,7 @@ none has not been opened for the app.
 | 28 | 26–43 (34–51) | Various small signs (*rtags phran*) | [month-entries.md](month-entries.md) (p. 29, eclipses as an omen); [reckonings.md](reckonings.md) (RD11: observed omens, 1,166 pebbles, p. 26 on the scan); the rest RD17 |
 | 29 | 44–143 (52–151) | *Zangs kyam* and the like: WB's reckoning for the dead (*gshin rtsis*, by its colophon, p. 142), a preliminary and fifteen examinations | [earth-lords.md](earth-lords.md), [sri.md](sri.md), [weighing.md](weighing.md); [reckonings.md](reckonings.md) (RD11: outline, 10,371 pebbles, p. 44 on the scan); the rest RD16 |
 | 30 | 144–173 (152–181) | The reckoning of the moment (*dus tshod rtsis*), small examinations of the ground and of pebbles | — (the vol. 2, p. 145 in SPEC and month-entries.md is KD's); [reckonings.md](reckonings.md) (RD11: outline, 1,554 pebbles, p. 144 on the scan); RD17; outline below |
-| 31 | 174–240 (182–248) | The earth lords that move by year, month, date and hour | [earth-lords.md](earth-lords.md), [earth-lord-courses.md](earth-lord-courses.md), [month-entries.md](month-entries.md); the year's and month's ROADMAP RD3, RD4; outline below |
+| 31 | 174–240 (182–248) | The earth lords that move by year, month, date and hour | [earth-lords.md](earth-lords.md), [earth-lord-courses.md](earth-lord-courses.md), [month-entries.md](month-entries.md), [year-month-earth-lords.md](year-month-earth-lords.md) (the month's, pp. 199–223, read on the scan for RD4, 2026-10-11); the year's ROADMAP RD3; outline below |
 | 32 | 241–296 (249–304) | Geomancy, outer and inner, with small remedies (*sa dpyad*) | [open-questions.md](open-questions.md) |
 | 33 | 297–377 (305–385) | The results of the planets, mansions, yogas, karaṇas and the rest | [white-beryl-ch33.md](white-beryl-ch33.md), section by section |
 | 34 | 378–428 (386–436) | The important works one by one | [white-beryl-ch34.md](white-beryl-ch34.md) |
@@ -97,8 +97,15 @@ none has not been opened for the app.
   all («བཞི་བརྒྱ་དོན་བཞི», as the etext reads). The year's from p. 175 (img. 183),
   the nine black ones (*nag mo dgu skor*) p. 191, the sme ba's nine gods
   p. 192, the forty-five palace gods p. 195, the sky dog of brides p. 198;
-  the month's from p. 199 (img. 207) to p. 221; the date animal's from
-  p. 222 ([earth-lords.md](earth-lords.md)); the date's courses pp. 226–235
+  the month's from p. 199 (img. 207) to the top of p. 223 (img. 231),
+  read on the scan for RD4 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+  the bad directions, the sixty-four of essence numbered 1–64 by the
+  editors (the five and the nine gods 51–64, p. 211), the black months, the
+  empty vase, the month's hal dog and the belly-crawler (pp. 212–215), the
+  month's nine black ones (p. 215), the thirty-four scattered ones
+  (pp. 216–221), the hidden twelve (p. 221) and the five further ones
+  (pp. 221–223); the date's earth lords from p. 223 (img. 231,
+  «ཞག་གི་ས་བདག»), the date animal's on pp. 224–226 ([earth-lords.md](earth-lords.md)); the date's courses pp. 226–235
   ([earth-lord-courses.md](earth-lord-courses.md)); the hour's after.
   Of the month's, the five gods (*lha lnga*) and the nine (*lha dgu*)
   are on p. 211 (img. 219, under a woodcut of the five) and *bum stong*
