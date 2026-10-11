@@ -457,3 +457,55 @@ the text, not about the app.
     belly-crawler's directions, pp. 214–215), which does the model
     almanac or a later Phugpa manual follow (2026-10-11, RD4,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+33. **WB vol. 2, pp. 177–192: what does the turning add?** The year's
+    courses turn left or right (གཡོན་སྐོར, g.yon skor; གཡས་སྐོར, g.yas skor),
+    yet each place is fixed by the year animal. Does the turning say only
+    which way the place moves from year to year, or something more, a
+    lord whose place does not follow the year animal's order, as the sky
+    dog's head and tail (2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+34. **WB vol. 2, pp. 177–192: do the year's earth lords change place at
+    the winter solstice?** Each entry day is counted from «ཉི་ལྡོག», the
+    turning of the sun, and p. 192 names the winter solstice for the sme
+    ba's gods (read on the scan 2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md)). Do all the
+    year's earth lords move then, rather than at Losar, the new year
+    (ལོ་གསར, lo gsar)?
+
+35. **WB vol. 2, p. 186 (img. 194): «ཉི་མའི་གླང་དང་ལྷན་ཅིག».** Langging the red,
+    of war (no. 19), enters "with the sun's ox": is that the solstice, the
+    sun in the ox month (the 11th Hor month), or another day (read on
+    the scan 2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+36. **WB vol. 2, p. 185 (img. 193): the hal khyi's mothers and sons.**
+    The black hal khyi (no. 16) sits "on the wind-horse of the previous
+    year", with five mothers and five sons moving two by two over a
+    hundred and ten days. Does each pair hold the place for twenty-two
+    days in turn, and where do the mothers and sons sit (2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+37. **WB vol. 2, p. 196 (img. 204): the sky dog's «ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས».**
+    The male sky dog holds the trigram *khen* "on 18, 26 and so on", the
+    female *zon*. Are these the bride's trigrams of the year of age (WB
+    vol. 1, p. 257, the women's circuit, which puts 18 on *khen*, in
+    [year-of-life.md](year-of-life.md)), so that every eighth age from 18
+    is held, and *zon*'s ages likewise (read on the scan 2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+38. **WB vol. 2, p. 198 (img. 206): «སྨེ་བདུན་ལྷག་གིས».** The black sky dog
+    of the hours rises at dusk "with the seventh sme ba remaining": what
+    is counted (2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+39. **WB vol. 2, pp. 195–196 (img. 203–204): «ལས་ལ་ཟློད་པ».** What does
+    ཟློད་པ mean in the palace gods' heading (read on the scan 2026-10-11,
+    RD3, [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+40. **WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
+    mean the two-black in the centre of the year's sme ba wheel, as the
+    front matter draws it (vol. 1, pp. 174–176, RD2), and is the lesser
+    black year three-blue in the centre (2026-10-11, RD3,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?

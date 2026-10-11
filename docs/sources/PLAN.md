@@ -292,6 +292,15 @@ Searched and found wanting, so not to be repeated:
   «ཀླུང་རྟ» and «ཀླུངས་རྟ» in the etext of both volumes of WB give only the
   person's river-horse (vol. 2, pp. 12–25, etext pp. 20–33) and the column
   «ཟླ་ཀླུང» of ch. 13's tables (vol. 1, etext p. 115).
+- **The wind-horse of each triad, and a wind-horse's tomb** (RD3,
+  2026-10-11), needed for the courses of the year's nos. 4, 9, 16 and the
+  nine black ones 2, 5, 8: the etexts of both volumes searched for «ཀླུང་རྟ»
+  beside the triads give only the tiger, horse and dog's iron monkey
+  (vol. 2, p. 479, img. 487, etext only). Not yet searched: vol. 1,
+  ch. 20–21 read on the scan.
+- **«ཉི་མའི་གླང»**, no. 19's entry (RD3, 2026-10-11): in neither volume's
+  etext, whose OCR of vol. 2, p. 186 garbles the line itself; BDRC's
+  full-text search not tried.
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.

@@ -988,7 +988,12 @@ snake's tail, the pig's mane of ignorance; black, the sun before him and
 the moon behind; a man's head, a coiled tail, a body of seven sme ba, fire
 blazing on his head, a horse of nine joints. «ལོ་ཡི་གནམ་ཁྱི་སྤར་ཁ་ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས་སྟེང»: the
 year's sky dog is the trigram *khen* (ཁེན), on [the ages] 18, 26 and so on;
-the male sky dog holds it: a bride taken when [her year] falls there has
+the male sky dog holds it (the trigrams' natures are WB's of vol. 1,
+p. 256, in [year-of-life.md](year-of-life.md): *khen* (ཁེན) the sky, *zon*
+(ཟོན) the wind, *li* (ལི) fire, *khon* (ཁོན) earth; WB's women's circuit there
+puts age 18 on *khen*, and with eight trigrams *khen* comes again at 26,
+so "18, 26 and so on" read as a bride's ages whose trigram is *khen*;
+question 37): a bride taken when [her year] falls there has
 many daughters and her sons are hard to raise, and she is seized by
 illness; then the male sky dog is remedied.
 
@@ -1024,7 +1029,9 @@ and the tail on the seventh. In order from the head: head (1), mouth (2);
 *gri ba* and *nam 'dzong* (3), its upper and lower; *spro
 stod* (4); then belly and privates (5), or belly and *spro smad*; *spang
 khung* (6); tail (7); hips (8); lower back (9); *shul pa* (10); the ribs or
-upper back (11); the neck (12). What each part means:
+upper back (11); the neck (12). *Gri ba*, *nam 'dzong*, *spro stod*, *spro
+smad*, *spang khung* and *shul pa* are parts of the body whose sense is not
+settled. What each part means:
 
 | Part | Works | A bride taken then |
 | --- | --- | --- |
@@ -1129,32 +1136,13 @@ avoided. Remedy as for the year and month.
 
 ### Open
 
-- Question: The courses turn "left" or "right" (*g.yon skor*, *g.yas
-  skor*), yet each is fixed by the year animal. Does the turning say only
-  which way the place moves from year to year, or something more (a
-  lord whose place does not follow the year animal's order, as the sky
-  dog's head and tail)?
-- Question: The entry day counts from «ཉི་ལྡོག», the turning of the sun; p. 192
-  names the winter solstice for the sme ba gods. Do all the year's earth
-  lords change place at the winter solstice, rather than at Losar, the new
-  year (ལོ་གསར, lo gsar)?
-- Question: Langging the red of war (no. 19) enters «ཉི་མའི་གླང་དང་ལྷན་ཅིག», "with the
-  sun's ox": is that the solstice (the sun in the ox month, the 11th Hor
-  month), or another day?
-- Question: The hal khyi (no. 16) "on the wind-horse of the previous
-  year", with five mothers and five sons moving two by two over a hundred
-  and ten days: does each pair hold the place for twenty-two days in turn,
-  and where do the mothers and sons sit?
-- Question: The sky dog "is *khen*, on 18, 26 and so on" (male) and "*zon*"
-  (female): are these the bride's age-trigrams (*spar kha*, ch. 24's
-  progressed trigram), so that a bride whose year falls on *khen* or *zon*
-  is held, and what are the "and so on" ages?
-- Question: The sky dog of the hours rises «སྨེ་བདུན་ལྷག་གིས»: what is counted?
-- Question: The palace gods' heading «ལས་ལ་ཟློད་པ» (read so on the scan): what
-  does ཟློད་པ mean here?
-- Question: The black year (p. 189): does WB mean the two-black in the
-  centre of the year's sme ba wheel, as the front matter draws it, and is
-  the lesser black year three-blue in the centre?
+- Open questions 33–40 ([open-questions.md](open-questions.md)): 33, what
+  the turning left or right adds to a course; 34, whether the year's earth
+  lords change place at the winter solstice rather than at Losar, the new
+  year (ལོ་གསར, lo gsar); 35, «ཉི་མའི་གླང», no. 19's entry; 36, the hal khyi's five
+  mothers and five sons; 37, the sky dog's *khen* «བཅོ་བརྒྱད་ཉེར་དྲུག»; 38, «སྨེ་བདུན་ལྷག»
+  of the sky dog of the hours; 39, the palace gods' «ཟློད་པ»; 40, the black
+  year's sme ba.
 
 
 ## WB's earth lords of the month (RD4)
