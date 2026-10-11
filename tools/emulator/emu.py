@@ -38,14 +38,16 @@ def sh(command):
     return adb("shell", command, capture=True).decode(errors="replace")
 
 
-def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, people=None, person=0, strings=None):
+def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, people=None, person=0, strings=None, first_run=3):
     """
     Write the app's preferences; the app is stopped first. birth=None leaves it
     unset; it is written as the single birth date of before the saved people,
     which the app reads as one unnamed person, chosen. people, a list of
     (name, epoch day) or (name, epoch day, "m" or "f"), replaces it: the saved people, person the index chosen
     (-1 for no one). strings: more string preferences by key, such as the
-    timer's plan and presets (app/.../bell/BellSettings.kt).
+    timer's plan and presets (app/.../bell/BellSettings.kt). first_run: the opens each page has had of its
+    first-run line (app/.../Settings.kt); 3, the default, has it gone, so that tours and store shots do not show
+    it, and 0 is a fresh install's.
     """
     zone, lat, lon, label = place
     extra = "\n    ".join(
@@ -64,6 +66,8 @@ def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, 
     <string name="label">{label}</string>
     <boolean name="kigaku" value="{'true' if kigaku else 'false'}" />
     <long name="lat" value="{lat}" />
+    <int name="first_run_tibetan" value="{first_run}" />
+    <int name="first_run_kyureki" value="{first_run}" />
     {extra}
 </map>
 """
