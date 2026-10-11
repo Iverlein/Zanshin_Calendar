@@ -1411,12 +1411,23 @@ Health gets a screen of its own, opened from the menu, since it may draw
 on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
 
 - **Sources.** The owner trusts Dr. Nida Chenagtsang's teaching strongly
-  (2026-10-11): his published works are sources for this screen, beside
-  WB. They are identified from a catalogue when the block starts (titles,
-  editions, his name as the books print it in Tibetan), never from
-  memory, and their facts are stated in our own words, as they are under
-  copyright (SPEC §8.1). Where he and WB differ on one point, both go
-  into the sources file and the owner decides.
+  (2026-10-11), and his works are the guide to the sources, not the
+  source (the owner, 2026-10-11): they are identified from a catalogue
+  when the block starts (titles, editions, his name as the books print it
+  in Tibetan), never from memory, and read for the classical texts they
+  rest on and cite (the *rgyud bzhi* and its commentaries, the
+  calendar-and-medicine texts). Those texts are read on their scans, as
+  WB is (sources/PLAN.md), and the app's readings and `Source`s are
+  theirs: public domain, so the app's texts stay free of any licence
+  (SPEC §8.1). Where a text he names cannot be found or read, the gap is
+  written into the sources file, not filled from his wording. Where he
+  and WB differ on one point, both go into the sources file and the owner
+  decides.
+- **Asking him.** If the reading goes deep and a question stays open, the
+  owner may write to Dr. Chenagtsang personally to ask for help (he is
+  open to such requests, the owner, 2026-10-11): such questions are
+  collected in the sources file, each with what was read and where it
+  stops, ready for that letter. Nothing is sent without the owner.
 - **The grey dot** (the owner, 2026-10-11): what a source gives and WB
   does not reckon, no works or no weight, is shown on its tab with a
   grey dot: it has some influence, and WB's weighing does not count it.
