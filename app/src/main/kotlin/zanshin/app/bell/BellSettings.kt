@@ -37,6 +37,11 @@ class BellSettings(context: Context) {
         get() = Preset.decodeAll(prefs.getString(KEY_PRESETS, null))
         set(value) = prefs.edit().putString(KEY_PRESETS, Preset.encodeAll(value)).apply()
 
+    /** Whether a sitting keeps the screen on, from Begin until the meditation screen is left. */
+    var keepScreenOn: Boolean
+        get() = prefs.getBoolean(KEY_KEEP_SCREEN_ON, false)
+        set(value) = prefs.edit().putBoolean(KEY_KEEP_SCREEN_ON, value).apply()
+
     var periodic: Boolean
         get() = prefs.getBoolean(KEY_PERIODIC, false)
         set(value) = prefs.edit().putBoolean(KEY_PERIODIC, value).apply()
@@ -99,6 +104,7 @@ class BellSettings(context: Context) {
         private const val KEY_SESSION = "sit_plan"
         private const val KEY_PRESETS = "sit_presets"
         private const val KEY_END_STRIKES = "sit_end_strikes"
+        private const val KEY_KEEP_SCREEN_ON = "sit_keep_screen_on"
         private const val KEY_PERIODIC = "bell_periodic"
         private const val KEY_PERIODIC_MINUTES = "bell_minutes"
         private const val KEY_PERIODIC_RANDOM = "bell_random"

@@ -512,6 +512,8 @@
     <string name="meditation_add_period">Добавить период</string>
     <string name="desc_remove_period">Удалить период %1$d</string>
     <string name="meditation_between">Между периодами</string>
+    <string name="meditation_keep_screen_on">Не гасить экран</string>
+    <string name="meditation_keep_screen_on_subtitle">С начала сессии до выхода с этого экрана</string>
     <string name="strike_one">Один удар</string>
     <string name="strike_two">Два удара</string>
     <string name="strike_three">Три удара</string>

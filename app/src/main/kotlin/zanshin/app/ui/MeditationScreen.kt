@@ -42,6 +42,7 @@ import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -50,6 +51,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -58,6 +60,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -121,6 +124,15 @@ fun MeditationScreen(onBack: () -> Unit) {
         } else {
             MeditationService.start(context)
         }
+    }
+
+    // A sitting begun with the screen kept on holds it past the last bell and Stop, until this screen is left.
+    var awake by rememberSaveable { mutableStateOf(false) }
+    LaunchedEffect(sitting) { if (sitting != null && settings.keepScreenOn) awake = true }
+    val view = LocalView.current
+    DisposableEffect(view, awake) {
+        view.keepScreenOn = awake
+        onDispose { view.keepScreenOn = false }
     }
 
     Column(
@@ -199,6 +211,7 @@ private fun Timer(settings: BellSettings, onBegin: () -> Unit) {
     var presets by remember { mutableStateOf(settings.presets) }
     var editing by remember { mutableStateOf<Int?>(null) } // -1 the warm-up, else a period's index
     var saving by remember { mutableStateOf(false) }
+    var keepScreenOn by remember { mutableStateOf(settings.keepScreenOn) }
     fun set(p: SessionPlan) {
         plan = p
         settings.session = p
@@ -265,6 +278,10 @@ private fun Timer(settings: BellSettings, onBegin: () -> Unit) {
         Choice(stringResource(R.string.meditation_end), STRIKES.map { (n, name) -> n to stringResource(name) }, plan.endStrikes) {
             set(plan.copy(endStrikes = it))
         }
+    }
+    Toggle(stringResource(R.string.meditation_keep_screen_on), stringResource(R.string.meditation_keep_screen_on_subtitle), keepScreenOn) {
+        keepScreenOn = it
+        settings.keepScreenOn = it
     }
 
     editing?.let { k ->

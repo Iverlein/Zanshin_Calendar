@@ -626,6 +626,8 @@
     <string name="meditation_add_period">Add a period</string>
     <string name="desc_remove_period">Remove period %1$d</string>
     <string name="meditation_between">Between periods</string>
+    <string name="meditation_keep_screen_on">Keep the screen on</string>
+    <string name="meditation_keep_screen_on_subtitle">From Begin until you leave this screen</string>
     <string name="strike_one">One strike</string>
     <string name="strike_two">Two strikes</string>
     <string name="strike_three">Three strikes</string>
