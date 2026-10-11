@@ -30,7 +30,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
-| 12 | H1–H2 The health screen | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning | T2.27; R1 for H2 |
+| 12 | H1–H3 The health screen, and the menu's groups collapsible | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
@@ -77,7 +77,7 @@ moves up as soon as it is unblocked.
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
 | <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
-| <a id="block-26"></a>26 | [H1](#h1) The health screen | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
@@ -2161,6 +2161,9 @@ the website name the election only once it is released.
 
 Health gets a screen of its own, opened from the menu, since it may draw
 on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
+It is the first of several screens that lengthen the menu (Reckonings,
+R1, and the people's relatives, P1, follow), so its block also makes the
+menu's groups collapsible (H3).
 
 - **Sources.** The owner trusts Dr. Nida Chenagtsang's teaching strongly
   (2026-10-11), and his works are the guide to the sources, not the
@@ -2241,6 +2244,40 @@ on Tibetan medicine (*gso ba rig pa*) beside WB (the owner, 2026-10-11).
   [26](#block-26) (the screen) and [28](#block-28) (R1's pebbles).
 - **Done when.** Vectors where Dorje or WB give a worked example;
   `CatalogTest`; SPEC; both languages.
+
+### <a id="h3"></a>H3. The menu's groups collapsible — planned 2026-10-11
+
+- **Gap.** The menu (SPEC §10.5) is one column in three groups, Calendar,
+  Practice and Settings, with About & sources at the foot, and today it
+  fits a phone screen. The Health screen (H1) adds a row, Reckonings (R1)
+  a group with a screen for each reckoning built, the themes (A1) a
+  settings row: the column scrolls, and the row wanted is below the fold.
+  The owner (2026-10-11): the groups collapsible, collapsed by default,
+  each remembering the state it was last left in.
+- **Work.** Each group's small-capital label becomes a header row that
+  opens and closes its group, with a chevron that turns to show the
+  state; the rows fold with an animation of the height; About & sources
+  stays alone at the foot, always shown, outside any group. On a fresh
+  install every group is closed; the state is kept per group in the
+  preferences (`Settings.kt`, one key per group, as the first-run
+  counters are), so a group opened stays open across the menu's closing
+  and the app's restart, and one closed stays closed, each apart from the
+  others. A new group (R1) starts closed as well. The page's calendar
+  toggle (U15) switches the calendar, so a closed Calendar group hides
+  nothing needed daily. Screen readers get each header as a button with
+  its expanded state. No reading: the headers are the groups' present
+  labels, the only new interface text the headers' descriptions.
+  SPEC §10.5.
+- **Block.** [26](#block-26), with H1, the first item that lengthens the
+  menu; no reading; waits on no build.
+- **Done when.** A fresh install on the emulator opens the menu with every
+  group closed and About & sources shown; a group opened stays open
+  across the menu's closing and a restart, one closed stays closed, each
+  apart from the others; TalkBack reads each header with its state; both
+  languages; `TranslationsTest`; SPEC §10.5; store shot 5 (the menu)
+  retaken in both languages, its caption in `screenshots.toml` saying
+  the groups fold, and `tools/emulator/store_shots.py` opening the
+  groups the shot shows.
 
 ## People
 
