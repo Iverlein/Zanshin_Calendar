@@ -466,21 +466,6 @@ fun HoursSheet(
                     ),
                     onOpen,
                 )
-                // The earth king the other way, Piling Parma's hour of the season-month (WB vol. 2, p. 236).
-                EarthLordCourses.hourSaRgyalOther(SeasonReckoning.CHINESE.season(day.month), hourAnimal)?.let { place ->
-                    val otherTitle = stringResource(R.string.hours_sa_rgyal_other_title)
-                    AnnotationRow(
-                        Annotation(
-                            otherTitle,
-                            onPlace(place),
-                            Tone.NEUTRAL,
-                            Texts.HOUR_SA_RGYAL_OTHER,
-                            titleIsKanji = false,
-                            details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_sa_rgyal_title), "dus tshod sa rgyal")),
-                        ),
-                        onOpen,
-                    )
-                }
                 // The hidden earth lord of the hour's animal on its place, and the sky dog over the places (WB vol. 2, pp. 221, 197, 236).
                 val hiddenName = Catalog.text("reading.HourHidden.${hourAnimal.name}")
                 AnnotationRow(
