@@ -64,10 +64,38 @@ enum class License {
 data class Source(val title: String, val publisher: String, val url: String)
 
 /**
+ * The rows of a reading (SPEC §8.1, *The shape of a reading*, rule 3; ROADMAP X2), in the order a
+ * sheet shows them, after the "good for" and "avoid" lists and before the app's workings. Each row is
+ * a catalog entry `<reading>.<key>` beside the reading's own text ([Reading.rowKey]); its label is
+ * the catalog term `ReadingRow.<NAME>`, so that it translates. No other rows: `CatalogTest` fails on
+ * a row key that is not one of these.
+ */
+enum class ReadingRow(val key: String) {
+    ALSO_CALLED("also_called"),
+    STRONG("strong"),
+    SETTING_OUT("setting_out"),
+    RANK("rank"),
+    REMEDY("remedy"),
+    SPIRITS("spirits"),
+    ILLNESS("illness"),
+    RITES("rites"),
+    LA("la"),
+    BIRTH("birth"),
+    DEATH("death"),
+    LIVESTOCK("livestock"),
+    FALLS("falls"),
+    OTHER_VIEW("other_view"),
+    ;
+
+    val label: String get() = gloss(this)
+}
+
+/**
  * A sourced reading. Its text lives in the catalog (SPEC §8.2): the summary
- * under [key], and the wordings of the "good for" and "avoid" lists under
- * `wording.<key>`. The lists keep the source's wording, one catalog entry per
- * wording, so `Activities` can tell which act each one names.
+ * under [key], its rows beside the entry's own text ([rowKey]), and the
+ * wordings of the "good for" and "avoid" lists under `wording.<key>`. The
+ * lists keep the source's wording, one catalog entry per wording, so
+ * `Activities` can tell which act each one names.
  */
 data class Reading(
     val goodKeys: List<String> = emptyList(),
@@ -82,7 +110,22 @@ data class Reading(
     val arg: String? = null,
 ) {
     val summary: String
-        get() = Catalog.textOrNull(key)?.let { s -> arg?.let { Catalog.fill(s, Catalog.text(it)) } ?: s } ?: ""
+        get() = Catalog.textOrNull(key)?.let { fill(it) } ?: ""
+
+    /**
+     * The catalog key the reading's rows stand beside: under a family's note (`reading.<Family>`,
+     * filled with {0}), the entry's own text that [arg] names; else [key], the entry itself, whose
+     * [arg] is a part of the day (an earth lord's strike, today's line).
+     */
+    val rowKey: String
+        get() = arg?.takeIf { it.startsWith("reading.") && key.count { c -> c == '.' } == 1 } ?: key
+
+    /** The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text. */
+    val rows: List<Pair<ReadingRow, String>>
+        get() = ReadingRow.entries.mapNotNull { row -> Catalog.textOrNull("$rowKey.${row.key}")?.let { row to fill(it) } }
+
+    private fun fill(text: String): String = arg?.let { Catalog.fill(text, Catalog.text(it)) } ?: text
+
     val good: List<String> get() = goodKeys.map { Catalog.text("wording.$it") }
     val avoid: List<String> get() = avoidKeys.map { Catalog.text("wording.$it") }
 }

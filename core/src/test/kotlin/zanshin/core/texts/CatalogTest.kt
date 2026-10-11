@@ -55,6 +55,7 @@ import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.YearReckoning
 import java.io.File
 import java.util.Locale
+import javax.xml.parsers.DocumentBuilderFactory
 
 /** SPEC §8.2: every text the engines show comes from the catalog, and a translation matches it. */
 class CatalogTest {
@@ -70,7 +71,7 @@ class CatalogTest {
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
             StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries, LetterElement.entries, SenseObject.entries, LifeStage.entries, Link.entries,
-            BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries,
+            BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries, ReadingRow.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }
@@ -157,14 +158,17 @@ class CatalogTest {
         }
     }
 
-    /** The White Beryl (vol. 2, pp. 303–304) places the la on every date for people and for horses and other livestock. */
+    /**
+     * The White Beryl (vol. 2, pp. 303–304) places the la on every date for people and for horses and other
+     * livestock: in the reading, or in its *La today* row once the date has its rows (ROADMAP X3).
+     */
     @Test
     fun `every lunar date gives the la's place in a person and in livestock`() {
         val livestock = mapOf("" to "in horses and other livestock", "_ru" to "у лошадей и другого скота")
         for ((suffix, words) in livestock) {
             val t = Catalog.entries(suffix)
             for (date in 1..30) {
-                val reading = t.getValue("reading.LunarDate.$date")
+                val reading = t.getValue("reading.LunarDate.$date") + " " + t["reading.LunarDate.$date.${ReadingRow.LA.key}"].orEmpty()
                 assertTrue("(བླ, bla)" in reading && words in reading, "texts$suffix reading.LunarDate.$date")
             }
         }
@@ -262,6 +266,127 @@ class CatalogTest {
         assertEquals("", wrong.joinToString("\n"))
     }
 
+    /** Every reading the engines can show, for the shape's checks: the readings above and those shown only by the page. */
+    private val allReadings: List<Reading> by lazy {
+        listOf(
+            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU,
+            Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
+            Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
+            Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY,
+            Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL,
+            Texts.EARTH_LORD, Texts.BLA_MKHYEN, Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.RAHU_MONTH,
+            Texts.WORKS_SIGN, Texts.SEASON_SIGN, Texts.DATE_SME_BA, Texts.TWELVE_LINK, Texts.HUNDRED_FEET, Texts.HOUR_HIDDEN,
+            Texts.HOUR_WORKS,
+        ).flatMap { it.values } + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
+            Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS +
+            Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_SA_RGYAL_OTHER + Texts.HOUR_GNAM_KHYI +
+            Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY + Texts.NECTAR_PERIODS + Texts.COMET +
+            Texts.LUNAR_ECLIPSE + Texts.SOLAR_ECLIPSE +
+            // Every course on every day it can fall, in every year (the black day's other view goes by the year).
+            (1..12).flatMap { m ->
+                (1..30).flatMap { d -> Animal.entries.flatMap { a -> (Animal.entries + null).flatMap { y -> EarthLordCourses.of(m, d, a, y).map(Texts::earthLord) } } }
+            }.distinct() +
+            yearOfLifeReadings()
+    }
+
+    private val rowKeys = ReadingRow.entries.map { it.key }.toSet()
+
+    private fun isRow(key: String) = key.startsWith("reading.") && key.substringAfterLast('.') in rowKeys
+
+    /**
+     * ROADMAP X2: a reading's rows are `<reading>.<row>` beside its own text, `<row>` one of
+     * [ReadingRow]'s; a key in that place under another name is a row the sheet would not show. Its
+     * variants (an earth lord's "other" view, a class's time) are texts a reading names and stay.
+     */
+    @Test
+    fun `a reading's rows are the shape's rows`() {
+        val named = allReadings.flatMap { listOfNotNull(it.key, it.arg) }.toSet()
+        val entries = allReadings.map { it.rowKey }.toSet()
+        val wrong = english.keys.filter { k ->
+            k !in named && k.substringBeforeLast('.') in entries && k.substringAfterLast('.').matches(Regex("[a-z_]+")) && !isRow(k)
+        }
+        assertEquals(emptyList<String>(), wrong.sorted(), "rows other than ${rowKeys.sorted()}")
+        val orphans = english.keys.filter { isRow(it) && it.substringBeforeLast('.') !in entries }
+        assertEquals(emptyList<String>(), orphans.sorted(), "rows of no reading")
+        assertEquals(
+            listOf(ReadingRow.ALSO_CALLED, ReadingRow.LA, ReadingRow.BIRTH, ReadingRow.DEATH, ReadingRow.LIVESTOCK),
+            Texts.LUNAR_DATE.first().rows.map { it.first },
+        )
+    }
+
+    /** SPEC §8.1 rule 13: the Russian is the same shape, every row the English has. */
+    @Test
+    fun `the Russian has every row the English has`() {
+        val russian = Catalog.entries("_ru")
+        assertEquals(emptyList<String>(), english.keys.filter { isRow(it) && it !in russian }.sorted())
+    }
+
+    /**
+     * SPEC §8.1, *The shape of a reading* (ROADMAP X2): no paragraph over 60 words (rule 2), none of
+     * the app's or an editor's words (rules 8 and 9), and every Tibetan word with one English name and
+     * one bracket across the catalog, the interface and the store listing (rule 11, D7), in both
+     * languages. The families not yet brought to the shape are allowed their breaks, item by item
+     * ([ALLOWANCE]); every other family, and every text that is not a reading, holds the shape now.
+     */
+    @Test
+    fun `readings keep the shape`() {
+        val breaks = shapeBreaks()
+        val families = breaks.mapNotNull { (where, _) -> family(where) }.toSet() +
+            english.keys.filter { it.startsWith("reading.") }.map { it.split('.')[1] }
+        assertEquals(emptySet<String>(), families - FAMILIES.keys - KYUREKI, "families no X item names (ROADMAP X3–X10)")
+        val byItem = breaks.groupBy { (where, _) -> family(where)?.let { FAMILIES[it] } }
+        val wrong = mutableListOf<String>()
+        for ((item, found) in byItem) {
+            val allowed = ALLOWANCE[item] ?: 0
+            if (found.size > allowed) wrong += "${item ?: "not a reading"}: ${found.size} breaks, allowed $allowed\n" +
+                found.joinToString("\n") { (where, what) -> "  $where: $what" }
+        }
+        for ((item, allowed) in ALLOWANCE) {
+            val found = byItem[item].orEmpty().size
+            if (found < allowed) wrong += "$item: $found breaks left, lower its allowance from $allowed to $found"
+        }
+        assertEquals("", wrong.joinToString("\n"))
+    }
+
+    /** Each break of the shape: where (`texts_ru:reading.LunarDate.3`, `strings:row_rabjung`) and what. */
+    private fun shapeBreaks(): List<Pair<String, String>> {
+        val out = mutableListOf<Pair<String, String>>()
+        for (suffix in listOf("", "_ru")) {
+            for ((k, v) in Catalog.entries(suffix).toSortedMap()) {
+                if (!k.startsWith("reading.") || family("texts:$k") in KYUREKI) continue
+                val where = "texts$suffix:$k"
+                if (!isRow(k)) ReadingShape.words(v).let { if (it > 60) out += where to "paragraph of $it words" }
+                ReadingShape.APP_OR_EDITOR.getValue(suffix).find(v)?.let { out += where to "«${it.value}»" }
+            }
+            val russian = suffix == "_ru"
+            val namings = namedTexts(russian).flatMap { (where, text) -> ReadingShape.namings(where, text, russian) }
+            ReadingShape.odd(namings, plain = { !it.contains(":reading.") }, exceptions = NAMED_TWO_WAYS, oneBracket = !russian)
+                .forEach { (n, what) -> out += n.where to what }
+        }
+        return out
+    }
+
+    /** The catalog's texts, the interface strings and the store listing in one language; changelogs are past releases' and stay as written. */
+    private fun namedTexts(russian: Boolean): Map<String, String> {
+        val suffix = if (russian) "_ru" else ""
+        val out = Catalog.entries(suffix).mapKeys { "texts$suffix:${it.key}" }.toMutableMap()
+        val strings = File(if (russian) "../app/src/main/res/values-ru/strings.xml" else "../app/src/main/res/values/strings.xml")
+        val nodes = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(strings).getElementsByTagName("string")
+        for (i in 0 until nodes.length) {
+            val e = nodes.item(i) as org.w3c.dom.Element
+            out["strings$suffix:${e.getAttribute("name")}"] = e.textContent.replace("\\'", "'")
+        }
+        val listing = File("../fastlane/metadata/android/" + if (russian) "ru-RU" else "en-US")
+        for (name in listOf("title.txt", "short_description.txt", "full_description.txt")) {
+            File(listing, name).takeIf { it.exists() }?.let { out["listing$suffix:$name"] = it.readText().replace(Regex("<[^>]+>"), " ") }
+        }
+        return out
+    }
+
+    /** The reading family a break stands in: `reading.<Family>.…` of the catalog; none for a term, a wording, a string or the listing. */
+    private fun family(where: String): String? =
+        where.substringAfter(':').takeIf { where.startsWith("texts") && it.startsWith("reading.") }?.split('.')?.get(1)
+
     @Test
     fun `a language without a catalog falls back to English`() {
         assertEquals(english.getValue("Rokuyo.TAIAN"), Catalog.text("Rokuyo.TAIAN", Locale.forLanguageTag("xx")))
@@ -278,5 +403,51 @@ class CatalogTest {
 
         /** Wylie that is also an English word, left out of the check: the fire element's *me*. */
         val ALSO_ENGLISH = setOf("me")
+
+        /**
+         * D7's exceptions, the words the sources themselves name two ways: the la weekday, *bla gza'*,
+         * both the birth animal's luck day and the element's own weekday.
+         */
+        val NAMED_TWO_WAYS = setOf("bla gza'")
+
+        /** The 旧暦 page's readings, from other sources and not in ROADMAP X's review: outside the shape's checks. */
+        val KYUREKI = setOf("Rokuyo", "Choku", "Shuku", "Senjitsu", "Zassetsu", "KyuSei", "StarRelation", "Ehou", "Festival")
+
+        /** The Tibetan page's and the year sheet's reading families, by the ROADMAP item that brings each to the shape. */
+        val FAMILIES: Map<String, String> = mapOf(
+            "X3" to listOf("LunarDate", "HairDate"),
+            "X4" to listOf("Weekday", "Trigram"),
+            "X5" to listOf("GreatCombination", "ElementPair", "CombinationDay", "SpecialDay", "GtsugLagDay", "BurningDate", "TibetanFestival"),
+            "X6" to listOf("Yoga", "Mansion", "Karana", "Electional"),
+            "X7" to listOf("EarthLord", "Rahu", "RahuGeneral", "RahuMonth", "RahuSeason", "GreatBlackDay", "Eclipse", "SeasonSign", "Comet"),
+            "X8" to listOf("PersonalDay", "OwnDay", "PersonalMansion", "Kinship", "HundredFeet", "Spear", "GreatSpear"),
+            "X9" to listOf(
+                "DusSbyor", "WorksSign", "HourWorks", "HourHidden", "HourEarthLords", "HourGnamKhyi", "HourBlaMkhyen", "HourSaRgyal",
+                "HourSaRgyalOther", "BlackHour", "RoughTime", "OwnYearHour", "NectarPeriods", "HourOverDay",
+            ),
+            "X10" to listOf(
+                "BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut", "YearPebble", "YearPredictive", "YearSector", "YearDecline",
+                "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
+            ),
+        ).flatMap { (item, families) -> families.map { it to item } }.toMap()
+
+        /**
+         * The breaks of the shape each ROADMAP item's families still hold (ROADMAP X2): paragraphs over
+         * 60 words, the app's or an editor's words, a Tibetan word named or bracketed two ways, counted
+         * in English and Russian together. The block that builds an item deletes its line, one line,
+         * and the test then holds its families to the shape. A count may only fall: the test fails on a
+         * break beyond it and asks for a lower count when breaks are mended, so nothing new enters the
+         * allowance. With every line gone (block 49) no reading is allowed a break.
+         */
+        val ALLOWANCE: Map<String, Int> = mapOf(
+            "X3" to 36, // the lunar dates (block 43)
+            "X4" to 28, // the weekdays and the goddesses' days (block 43)
+            "X5" to 4, // the combination and the special days (block 44)
+            "X6" to 6, // the yogas, the karaṇa and the mansions (block 45)
+            "X7" to 109, // the earth lords, Rāhu and the month's entries (block 46)
+            "X8" to 15, // your day (block 47)
+            "X9" to 25, // the hours panel (block 48)
+            "X10" to 120, // the rest, and the year sheet (block 49)
+        )
     }
 }
