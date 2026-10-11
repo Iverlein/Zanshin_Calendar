@@ -410,3 +410,50 @@ the text, not about the app.
     loses (2026-10-11, RD11, [reckonings.md](reckonings.md)). Is it the
     reckoning of dates, planets and mansions for works, as the section's
     close (p. 535) suggests?
+
+26. **WB vol. 2, pp. 200 and 213 (img. 208, 221): which direction is
+    the month's river?** The month's *klung* earth lord sits on the
+    month's river (ཟླ་ཀླུང, zla klung), and the month's hal dog on the past
+    month's; ch. 31 does not say where it is. Ch. 13's tables of the
+    years (vol. 1, p. 105, etext) have a column of that name (2026-10-11,
+    RD4, [year-month-earth-lords.md](year-month-earth-lords.md)). Is that
+    column the direction meant?
+
+27. **WB vol. 2, p. 215 (img. 223): in the month's nine black ones,
+    does «དང» join a name to the next direction named or to the one
+    before?** Read the first way, every month places all nine, as the
+    table in [year-month-earth-lords.md](year-month-earth-lords.md) has it
+    (read on the scan 2026-10-11, RD4).
+
+28. **WB vol. 2, p. 219 (img. 227): where is the «དུར»?** In the first
+    months of the seasons the light-clearer (སྣང་སེལ, snang sel) sits on
+    the «དུར» (the grave?), beside "the downward neighbour" and "the upward
+    slayer" of the middle and last months (read on the scan 2026-10-11,
+    RD4, [year-month-earth-lords.md](year-month-earth-lords.md)). Which
+    direction is it?
+
+29. **WB vol. 2, p. 210 (img. 218): Wangkhyi's «གླང་གི་ཉི་མ་དུས་ཚོད་ལ».** Does
+    Wangkhyi (ཝང་ཁྱི, wang khyi) face its direction at the ox's hour of
+    every day of the month, or at an hour of the ox's days (2026-10-11,
+    RD4, [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+30. **WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
+    ling*'s course by the *Index* names winter 2 twice (p. 207); the
+    calf-headed one's leaves out the horse month (p. 209); the
+    nāga-planet turns "on all but the 25th" of spring 3 (p. 222); Dza
+    zor's autumn reads "ox, sheep, sheep" (p. 206); the sound god's course
+    has the dragon twice (p. 202) (read on the scan 2026-10-11, RD4,
+    [year-month-earth-lords.md](year-month-earth-lords.md)). Does the Zhol
+    print read the same?
+
+31. **WB vol. 2, pp. 208–209 (img. 216–217): the guard dog's
+    «འབྲིང་པོ་བཞི་ཡི་སྟེང».** Are these the four middle months of the seasons or
+    the four intermediate quarters, for the guard dog (སྡོམ་ཁྱི, sdom khyi)
+    (2026-10-11, RD4, [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+32. **WB vol. 2, ch. 31: which view do the almanacs follow?** Where WB
+    gives a course and then other views without saying which is the main
+    one (the old couple, p. 203; the blue mouse road, pp. 205–206; the
+    belly-crawler's directions, pp. 214–215), which does the model
+    almanac or a later Phugpa manual follow (2026-10-11, RD4,
+    [year-month-earth-lords.md](year-month-earth-lords.md))?

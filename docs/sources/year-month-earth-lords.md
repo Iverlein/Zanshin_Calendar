@@ -92,7 +92,7 @@ that way brings more corpses:
 | winter 3 | 10 | due west | lawsuits and gossip without end |
 
 Avoided that way: works in general, hiding a corpse, digging, setting up
-the *se* (སེ, se; a spirits' object, sense not settled) (སེ་འཛུགས, se 'dzugs; sense not settled). It takes offence at the
+the *se* (སེ་འཛུགས, se 'dzugs; sense not settled). It takes offence at the
 head of the household and the physician. Remedy: a man of grains with silk
 strands and the Eight Appearances. To send a corpse that way after all:
 build a storeroom wall (བང་བ, bang ba) without digging, or hide it in the
@@ -622,7 +622,7 @@ fat, then as one likes. Remedy: the collected dhāraṇīs, coins (དོང་�
  gives no screen, the *Hidden Tantra of the Naked One* (in full, of the naked stump-hand) one (Rāhu drawn
 on an elephant's head, the belly-crawler's life-heart in a skull, set in its
 place). The *Index, Mother and Son*: head on the month, tail on the seventh. The
-the *Gathering of Jewels*: spring head north, tail south, belly east, back west;
+*Gathering of Jewels*: spring head north, tail south, belly east, back west;
 summer head west, tail east, belly north, back south; autumn head south,
 tail north, belly west, back east; winter head east, tail west, back north,
 belly south; dig facing the back. Other views (the tiger, monkey, pig and
@@ -948,31 +948,12 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 
 ### Open
 
-- Question: Which direction is the month's river (ཟླ་ཀླུང, zla klung) on
-  which the month's *klung* earth lord sits (WB vol. 2, p. 200), and the past
-  month's, on which the month's hal dog sits (p. 213)? Ch. 31 does not say;
-  ch. 13's tables (vol. 1, p. 105) have a column of that name.
-- Question: In the month's nine black ones (WB vol. 2, p. 215), does «དང»
-  after a name join it to the next direction named (as the table above reads
-  it, so that each month places all nine), or to the one before?
-- Question: Where is the «དུར» (grave?) on which the light-clearer (སྣང་སེལ, snang
-  sel) sits in the first months of the seasons (WB vol. 2, p. 219), beside
-  "the downward neighbour" and "the upward slayer" of the middle and last?
-- Question: Wangkhyi (WB vol. 2, p. 210) faces its direction «གླང་གི་ཉི་མ་དུས་ཚོད་ལ»:
-  at the ox's hour of every day of the month, or at an hour of the ox's
-  days?
-- Question: Are these misprints of the 1996 edition, to be checked on the
-  Zhol print: *pi ling*'s course by the *Index* naming winter 2 twice (p.
-  207); the calf-headed one's leaving out the horse month (p. 209); the
-  nāga-planet's turning "on all but the 25th" of spring 3 (p. 222); Dza zor's
-  "ox, sheep, sheep" in autumn (p. 206); the sound god's dragon twice (p.
-  202)?
-- Question: The guard dog (སྡོམ་ཁྱི, sdom khyi, p. 208–209): what is «འབྲིང་པོ་བཞི་ཡི་སྟེང»,
-  the four middle months or the four intermediate quarters?
-- Question: Where WB gives a course and then other views without saying
-  which is the main one (the old couple, the blue mouse road, the
-  belly-crawler's directions), which does the model almanac or a later
-  Phugpa manual follow?
+- Open questions 26–32 ([open-questions.md](open-questions.md)): 26, the
+  direction of the month's river (pp. 200, 213); 27, which direction «དང»
+  joins a name to in the nine black ones (p. 215); 28, the light-clearer's
+  «དུར» (p. 219); 29, Wangkhyi's «གླང་གི་ཉི་མ» (p. 210); 30, five courses that
+  may be misprints (pp. 202, 206, 207, 209, 222); 31, the guard dog's
+  «འབྲིང་པོ་བཞི» (pp. 208–209); 32, which of WB's views the almanacs follow.
 
 ### Searched and not found
 
