@@ -1574,10 +1574,10 @@ the same way.
    omens (*A birth today*, *A death today*, *Livestock*, the planet's
    caste and colour under *Also called*, a mansion's planet and foods)
    stay: they are the source's content, kept as the last rows and never
-   in the paragraph (D6). Until the catalog carries rows (ROADMAP X2), a
-   new reading writes each row as a sentence after the paragraph, in the
-   row order, opening with the label's word ("Remedy: …", "A birth today:
-   …"), so that it lifts into its row unchanged.
+   in the paragraph (D6). Each row is a catalog entry of its own,
+   `<reading>.<row>` (§8.2), shown in the sheet's label column (§10.3);
+   its value starts in lower case, as a phrase does, and carries no full
+   stop.
 4. ***How it falls* gives today's line only.** "The 8th, 18th and 28th
    of the spring months; today the 8th of the first month of spring."
    The whole table, every month's dates, the twelve places of the sky
@@ -1640,11 +1640,31 @@ the same way.
     vocabulary of rule 6 have one Russian each, kept in the comment at
     the head of `texts_ru.properties`.
 
-Until ROADMAP X2 builds the checks into `CatalogTest` (row keys from the
-list, the Russian complete, no paragraph over 60 words, rule 8's and 9's
-phrases absent, rule 11's uniformity), the writer checks them by hand.
+`CatalogTest` holds what of the rules a test can see (ROADMAP X2, built
+2026-10-11): every row key one of the fourteen; the Russian with every
+row the English has; no paragraph over 60 words (a Tibetan bracket adds
+none, a {0} counts one); none of rule 8's and 9's words in a reading
+("the lists", "the day in brief", "the works below", "not identified",
+"word for word", "the print", and their Russian); and rule 11's
+uniformity across the catalog, the interface strings and the store
+listing (its changelogs, records of past releases, aside): a word whose
+namings end in different words is named two ways, the namings that
+differ from the most frequent being the odd ones; two words with one
+name, or a word named by another word's longer name ("water tormas" for
+the torma, where the water torma has its own word), are bracketed two
+ways, a check run on English only, since a Russian genitive puts the
+head before the name. *bla gza'* is the listed exception. The families
+not yet in the shape are allowed their breaks by the ROADMAP item that
+brings them to it (X3–X10), a count per item that may only fall, and
+every other text holds the shape now; the 旧暦 page's readings, not in
+X's review, are outside the checks. The rest of the rules (the ruling
+first, one vocabulary, an image marked as one, plain sentences, a family
+read as one) the writer checks by hand.
 The three examples below are the rule applied to readings as they stood;
-the facts are the same, moved.
+the facts are the same, moved. Lunar date 1 and Sunday stand in the
+catalog in this shape since 2026-10-11, their Russian with them; the
+lesser black day waits for ROADMAP X7, since its *How it falls* row needs
+the engine to name the date and season it matched.
 
 *Lunar date 1*, before: "A day of joy (དགའ་བ, dga' ba), Nandā, one of the
 virtuous days: good for pacifying rites, crafts, games and all white
@@ -1654,11 +1674,14 @@ thousandfold. The la, the life-spirit (བླ, bla), sits in the big toe
 today, and in horses and other livestock in the sole of the foot: no
 bloodletting, moxibustion or other treatment there." After: "A virtuous
 day, the day of joy (དགའ་བ, dga' ba): pacifying rites, crafts, games and
-all white work go well." *Also called* · Nandā. *La today* · in the big
-toe; in livestock, in the sole of the foot; no bloodletting, moxibustion
-or treatment there. *A birth today* · children follow one another, and
-wide learning. *A death today* · bad. *Livestock* · bought today,
-increases a thousandfold.
+all white work go well." *Also called* · Nandā. *La today* · the la,
+the life-spirit (བླ, bla), sits in the big toe; in horses and other
+livestock, in the sole of the foot; no bloodletting, moxibustion or other
+treatment there (the row names the la, as rule 11 asks of each row; the
+label is a short name, as the Lunar day section's labels are, §10.3).
+*A birth today* · children follow one another, and wide learning. *A
+death today* · bad. *Livestock* · bought today, increases a
+thousandfold.
 
 *Sunday*, before: 105 words opening "The Sun: the la weekday (བླ་གཟའ, bla
 gza') of kings, of the royal caste; peaceful, pale red, of fire." After:
@@ -1699,7 +1722,15 @@ for running text, `Mansion.ASHVINI.sanskrit` and `MonthNames.8.sanskrit`
 for the Sanskrit name of a month, mansion, yoga, karaṇa or lunar-date
 class: its IAST in English, its Russian transcription in Russian, §8.1;
 the engines keep the IAST as `iast`); `reading.<Enum>.<NAME>` for a reading's summary;
-`wording.<key>` for each wording of the lists. Readings that share a sentence
+`<reading>.<row>` for each of its rows (§8.1, rule 3; ROADMAP X2), beside
+the entry's own text (`reading.LunarDate.1.la`, `reading.Weekday.SUNDAY.strong`;
+under a family's note, beside the entry the note's {0} takes,
+`reading.Mansion.HASTA.other_view`), `<row>` one of `also_called`,
+`strong`, `setting_out`, `rank`, `remedy`, `spirits`, `illness`, `rites`,
+`la`, `birth`, `death`, `livestock`, `falls`, `other_view`, each label a
+term of its own (`ReadingRow.LA`, "La today"), and a row filled as its
+summary is, {0} taking the same text, so that *How it falls* can name
+today's line; `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
 `reading.Haircut`). A translation may be partial, since Weblate commits
 only reviewed strings ([weblate.md](weblate.md)): a key it lacks, or leaves
@@ -1836,8 +1867,9 @@ canvas "Zanshin Calendar — basic design".
   §10.3: short names, their brackets in what the row opens); tapping it opens a balloon with how it is
   said, and screen readers read the pronunciation (§10.3).
 - **Readings on demand.** Annotations are listed as rows with a lucky/unlucky
-  mark; tapping one opens a sheet with its reading, "good for" and "avoid";
-  the sources are listed in About & sources, not on the sheet (§8.1).
+  mark; tapping one opens a sheet with its reading, "good for" and "avoid",
+  its rows and its workings (§10.3, *The sheet*); the sources are listed in
+  About & sources, not on the sheet (§8.1).
 - **Text out of the code.** Interface text is in `res/values/strings.xml`, the
   engines' and readings' text in the catalog (§8.2). Dates, ordinals and
   numbers follow the language the app's resources resolved to, named by the
@@ -2184,6 +2216,26 @@ canvas "Zanshin Calendar — basic design".
   on each side. Each
   opens its reading as the day's rows do. The ring keeps the period's
   verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
+- **The sheet** (SPEC §8.1, *The shape of a reading*; ROADMAP X1, X2,
+  built 2026-10-11): a row opens its reading in a bottom sheet, a band in
+  its tone at the top, and the sheet runs in the reader's order: the title
+  and the gloss with the tone, under them the decides note or the
+  outweighed note (`brief_outweighed_note`) and the "Tibetan" line, a
+  diagram where the entry has one; then the paragraph, the ruling; the
+  "Good for" and "Avoid" lists; the reading's rows in their fixed order,
+  *Also called* · *Strong when* · *Setting out* · *Rank* · *Remedy* ·
+  *Spirits that harm* · *Illness* · *Rites* · *La today* · *A birth today*
+  · *A death today* · *Livestock* · *How it falls* · *Another view*, each
+  shown only where the catalog has it; and last the app's workings rows,
+  how the entry was counted (the hair date, Viṣṭi's span, the pebbles'
+  count). Rows and workings share one label column, as wide as the
+  longest of the fourteen labels in the shown language on one line at the
+  phone's font scale, never under 112 dp and at most half the
+  sheet, where a longer workings label wraps; the "Tibetan" line keeps the
+  same column. A sheet of several parts (the combination, the special
+  days, Your weekday) gives each part's reading in this order in turn.
+  Until X2 the workings were the only rows, in a column of 112 dp, and a
+  reading's facts stood in its paragraph.
 - **Sme ba in its colour:** the lunar day's number carries the square of the
   nine numbers, each box in the colour it is printed in and today's marked
   (Berzin, *Details of Tibetan Astrology 4*: colours, and the arrangement with

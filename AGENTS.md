@@ -149,6 +149,16 @@ Only the changelog waits for the release (*Releases* below).
   sentences, names uniform, the family's pattern matched, the Russian
   the same shape. Read the rule and its three examples before writing
   any reading; the old readings are brought to it by ROADMAP X3–X10.
+  A row is a catalog entry `<reading>.<row>` (SPEC §8.2), never a
+  sentence of the paragraph. `CatalogTest` holds the shape: rows only
+  of the fourteen (`ReadingRow`), the Russian with every row, no
+  paragraph over 60 words, none of rule 8's and 9's words, and D7's
+  one name and one bracket per Tibetan word across the catalog, the
+  interface and the listing (`ReadingShape.kt`). Families not yet in
+  the shape are allowed their breaks in its `ALLOWANCE`, one line per
+  ROADMAP item with a count: a block of X3–X10 deletes its item's line
+  once its families pass, a count may only fall, and nothing new is
+  ever added to it; a new family is mapped to its item in `FAMILIES`.
 - **Every kanji must show its English on tap** (`GlossText`), without a
   dotted underline; a Tibetan term shows its English inline and its
   pronunciation on tap.

@@ -37,7 +37,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
-| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape; 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 
 ## Blocks
 
@@ -93,7 +93,7 @@ moves up as soon as it is unblocked.
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
-| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
+| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11 (X1's reading by the owner open) | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
@@ -1685,7 +1685,7 @@ X, so that the owner reads the wording once. The blocks are
 [26](#block-26) write their new readings in the shape from the start;
 [33](#block-33) and [40](#block-40) build on the sheet's new rows.
 
-#### <a id="x1"></a>X1 The shape rule — the rule written 2026-10-11 (SPEC §8.1)
+#### <a id="x1"></a>X1 The shape rule — the rule written 2026-10-11, the sheet built 2026-10-11 (SPEC §8.1, §10.3)
 
 - **Gap.** SPEC §8.1 says what a reading may not contain, a source or an
   unnamed Tibetan word, and nothing about its order, its length or its
@@ -1713,10 +1713,24 @@ X, so that the owner reads the wording once. The blocks are
   until X2 (each row a sentence after the paragraph, opening with its
   label); AGENTS.md's bullet and the catalog's header point to it. Left
   for block 42: SPEC §10.3's sheet in the new order, with X2.
-- **Done when.** SPEC §10.3 says it, with X2, and the owner has read the
-  examples.
+- **Built** 2026-10-11 with X2: SPEC §10.3's *The sheet* gives the new
+  order; the interim form gave way to real rows. Lunar date 1 and Sunday
+  stand in the catalog in the examples' shape, English and Russian, the
+  facts moved and no reading added; the lesser black day waits for
+  [X7](#x7), since its *How it falls* row needs the engine's matched date.
+  The la row names the la in its value, "the la, the life-spirit (བླ,
+  bla), sits in the big toe; in horses and other livestock, …", as rule 11
+  asks of each row, and keeps the source's horses; the example in SPEC
+  §8.1 says so. Open: **the owner's reading of the three examples**,
+  which this item waits on; and, for that reading, three points the build
+  met: the lunar date's example paragraph is 17 words, under rule 2's 20;
+  the row labels are short names with no bracket, as the Lunar day
+  section's are ("La today"); and [X6](#x6) names rows (*Planet*,
+  *Foods*, *Avoid its start*) that X1's fourteen do not have.
+- **Done when.** SPEC §10.3 says it, with X2 (done), and the owner has
+  read the examples (open).
 
-#### <a id="x2"></a>X2 Rows in the catalog and on the sheet
+#### <a id="x2"></a>X2 Rows in the catalog and on the sheet — built 2026-10-11 (SPEC §8.1, §8.2, §10.3)
 
 - **Gap.** `Reading` holds one summary key and two lists; the sheet's
   rows (`Annotation.details`, `DetailsBlock`) are built in the UI from
@@ -1742,6 +1756,30 @@ X, so that the owner reads the wording once. The blocks are
   in each; the tests above, which fail on the catalog as it stands and
   pass family by family as X3–X10 are built, so each item's "Done when"
   is its family removed from the test's allowance.
+- **Built** 2026-10-11: `ReadingRow`, the fourteen rows in X1's order,
+  each label the catalog term `ReadingRow.<NAME>` in English and Russian;
+  `Reading.rows`, read from `<reading>.<row>` beside the entry's own text
+  (`Reading.rowKey`: under a family's note, the entry its {0} takes) and
+  filled as the summary is. `ReadingBody` shows them after the lists and
+  before the workings in one label column, measured to hold the longest
+  of the fourteen labels on one line in the shown language and font scale
+  (at least 112 dp, at most half the sheet). `CatalogTest`: *a
+  reading's rows are the shape's rows*, *the Russian has every row the
+  English has*, and *readings keep the shape* (no paragraph over 60
+  words, rule 8's and 9's words in English and Russian, D7's uniformity
+  across the catalog, the interface and the listing, *bla gza'* the
+  exception); the 旧暦 page's readings, not in this review, stay outside
+  it. The allowance, by item, counted in both languages together on the
+  catalog of 2026-10-11: [X3](#x3) 36, [X4](#x4) 28, [X5](#x5) 4,
+  [X6](#x6) 6, [X7](#x7) 109, [X8](#x8) 15, [X9](#x9) 25, [X10](#x10)
+  120; each block deletes its item's line, and a count can only fall.
+  Four list wordings mended for D7 on the way, no reading touched: the
+  thread-cross's and the ransom's brackets moved before "rites", the
+  *hom* named fire offerings as the weekdays name it, and the Russian
+  flood dikes one word (заслоны от паводков). Checked: the tests, which
+  fail with every line at 0; lunar date 1 and Sunday on 11 October 2026
+  (a Sunday and the 1st) on the emulator in English and Russian at font
+  scale 1.0 and 1.3; the release build for raw keys.
 
 #### <a id="x3"></a>X3 The lunar dates
 
