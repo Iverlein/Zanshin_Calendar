@@ -87,7 +87,7 @@ moves up as soon as it is unblocked.
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
-| <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
+| <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
@@ -1382,7 +1382,7 @@ W1 build on them (below).
   emulator; the small figures (Tibetan day, 旧暦 day) and the day marks
   right after a jump; both languages; SPEC §10.2.
 
-#### <a id="u10"></a>U10 The brief's work rows in the 旧暦 brief's form
+#### <a id="u10"></a>U10 The brief's work rows in the 旧暦 brief's form — built 2026-10-11 (SPEC §10.3)
 
 - **Gap.** In the Tibetan brief sheet each work stands under its voices,
   the voices in 16 sp semi-bold white and the work in regular: the eye
@@ -1399,8 +1399,17 @@ W1 build on them (below).
 - **Done when.** The brief sheet on a lucky and an unlucky day, with and
   without a birth date, in English and Russian; the enemy-weekday sheet
   unchanged; SPEC §10.3.
+- **Built** 2026-10-11 as planned: both briefs draw their works with one
+  row (`WorkBlock`), the 旧暦's as before, the Tibetan's with every work
+  opening its balloon. Checked on the emulator (Kyoto) on 11 October 2026,
+  lucky, and 28 March 2026, unlucky, with and without the test person
+  born 1976-06-01, in English and Russian: the rows, a work's balloon
+  with its voices' kinds and "Choose a day for it", a voice's kind on a
+  tap, "By the hour" and "For you" as they were; on 8 October 2026, the
+  person's enemy weekday, the sheet keeps its line, no good list and
+  WB's words. No store shot shows the brief sheet.
 
-#### <a id="u11"></a>U11 The hours in short form
+#### <a id="u11"></a>U11 The hours in short form — built 2026-10-11 (SPEC §10.3)
 
 - **Gap.** The hours row paints the hours to avoid on the strip and lists
   them again as text under the present hour, "05:00–09:00 11:00–13:00
@@ -1415,6 +1424,20 @@ W1 build on them (below).
   Kyoto) at font scale 1.0 and 1.3 is one line in English and Russian;
   a tap on a run opens the panel at its hour; `HoursRow`'s description
   gives the full times; SPEC §10.3.
+- **Built** 2026-10-11, the label the In brief line's word ("avoid
+  05–09 · 11–13 · 17–19 · 23–01", "good …" on an unlucky day): "hours to
+  avoid", and the Russian «неблагоприятные часы» still more, did not fit
+  at 1.3 beside four runs, and the row already stands under "Hours". The
+  formatter is `HoursShortForm` in `core/texts`, tested with runs across
+  midnight and the two days of the review (`HoursShortFormTest`); the
+  "hours to avoid" and "good hours" strings stay for N1's notice, which
+  has no heading over it. A day with five runs (2026–2027 have them, e.g.
+  28 March 2026) is set smaller to keep one line. Checked on the emulator
+  on 11 October 2026 in Kyoto at font scale 1.0 and 1.3, English and
+  Russian, one line each, and 28 March 2026 at 1.3 (five runs, one
+  line); a tap on 11–13 opened the panel at the Horse hour; the row's
+  description keeps every run's full times. Store shot 1, the Tibetan
+  day, shows the row.
 
 #### <a id="u12"></a>U12 Dots that read — built 2026-10-11 (SPEC §10.3)
 

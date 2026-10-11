@@ -1931,15 +1931,23 @@ canvas "Zanshin Calendar — basic design".
   with its sign and verdict ("now · Horse hour 11:00–13:00 · Sagittarius
   rises · to be accomplished"), and the combination periods that run
   against the day's tone (ROADMAP U5, built 2026-10-09;
-  `DaySummary.hoursAgainst`): on an unlucky day those to be accomplished
-  ("good hours 09:00–11:00 13:00–17:00 …"), on a lucky day those to be
-  avoided, consecutive hours joined; nothing is weighed anew, and on the
+  `DaySummary.hoursAgainst`): on an unlucky day those to be accomplished,
+  on a lucky day those to be avoided, consecutive hours joined, on one
+  line in short form, the clock hours alone under the In brief line's
+  words ("avoid 05–09 · 11–13 · 17–19 · 23–01", "good 09–11 · 13–17 …";
+  ROADMAP U11, built 2026-10-11; `HoursShortForm`, which the morning
+  notice and the widget are to share): every period begins on the hour,
+  so nothing is lost, and the full times stand in the brief's "By the
+  hour". Four runs fit at font scale 1.3 in both languages; the five some
+  months give are set smaller rather than broken. Until U11 the full
+  times were listed under a longer label ("hours to avoid 05:00–09:00
+  11:00–13:00 …"), two to four lines. Nothing is weighed anew, and on the
   person's enemy weekday or death mansion there are none, since WB places
   no hour above the person's day (§5.12). A tap on a time opens the hours
   panel at that hour, a tap anywhere else on the row, the strip included,
   at the present one (2.4.1: a tap on the strip had opened the hour under
   the finger, which read as a random hour);
-  screen readers get the present hour and every run's times, with an
+  screen readers get the present hour and every run's full times, with an
   action for each (`HoursRow`). Until U6 the hours against the tone stood
   on the In brief row, and the panel opened from a clock icon on the
   Almanac's heading.
@@ -1956,11 +1964,15 @@ canvas "Zanshin Calendar — basic design".
   still stand against the tone ("so 42 works are still good today"), and
   that within its hour the combination period outweighs the day, neither
   said on the person's enemy weekday or death mansion; then the "By the
-  hour" block (below), before the works, and the works grouped by the voices
-  that carry them (§5.12), a work opening a balloon with its side and
-  each voice with its kind ("weekday · Sunday") and "Choose a day for it",
-  which opens the election for that work from the shown day (§10.8);
-  nothing outweighed is shown. With a birth date set, a "For
+  hour" block (below), before the works, and the works in the 旧暦
+  brief's row (ROADMAP U10, built 2026-10-11): one row each, the family's
+  glyph, the work, and after it, right-aligned in muted 13 sp, the voices
+  that carry it (§5.12), each tapped for its kind ("weekday"); a work
+  opens a balloon with its side and each voice with its kind ("weekday ·
+  Sunday") and "Choose a day for it", which opens the election for that
+  work from the shown day (§10.8); nothing outweighed is shown. Until
+  U10 the works stood in groups under their voices, the voices in
+  semi-bold, which took the eye from the works. With a birth date set, a "For
   you" block lists the day's personal day, own days by the birth date and
   personal mansions (§5.8) with their dots, each over the factor it is
   ("Luck day · Mother weekday" over "Sunday", "Birth mansion" over
