@@ -27,9 +27,10 @@ The year's front matter (verses of homage, the year's names in Indian,
 Tibetan and Chinese, its element, sme ba and planets, the wheels of the
 *dbyangs 'char*, the year's results from the *Mdo sde gsang ba* to the
 *Kar myang* reckoning, the earth lords' charts) and the middle and short
-almanacs are not day entries and are not inventoried here. The year's
-earth lords among them, which name works and directions, are planned with
-the month's (ROADMAP T2.26; WB vol. 2, ch. 31, pp. 175–198).
+almanacs are not day entries and are not inventoried here, but for the
+year's earth lords, which name works and directions: read for RD2 below,
+*The year's earth lords in the front matter*, and planned with the
+month's (ROADMAP T2.26; WB vol. 2, ch. 31, pp. 175–198).
 
 ## The day's entries, in WB's order
 
@@ -74,7 +75,7 @@ p. 176 (img. 186), written at the head of each month of the full almanac.
 
 | Entry | WB's words | In the app |
 | --- | --- | --- |
-| First, the month's wheel and the charts of the scattered earth lords (*sil ma'i sa bdag*): the month's earth lords of ch. 31 (vol. 2, pp. 199–221), each in its direction with the works to avoid there | «…ཟླ་བའི་འགོར། །ཟླ་བའི་འཁོར་ལོ་དེ་ཡང་ནི། །སིལ་མའི་ས་བདག་ཁྲ་མ་རྣམས། །མི་ནོར་མཚན་མས་འདྲི་བའམ།» (the etext; not yet read on the scan) | planned (**T2.26**): of the month's earth lords only the black months and Kikang's are built ([month-entries.md](month-entries.md)); left out of this table until 2026-10-11 |
+| First, the month's wheel and the charts of the scattered earth lords (*sil ma'i sa bdag*): the month's earth lords of ch. 31 (vol. 2, pp. 199–221), each in its direction with the works to avoid there, drawn or, «མ་ཕྱུར», cut down; the model almanac draws none and names *bum stong*, *lha lnga* and *lha dgu* with their directions in each head (RD2) | «དེ་ནས་རང་རང་ཟླ་བའི་འགོར། །ཟླ་བའི་འཁོར་ལོ་དེ་ཡང་ནི། །སིལ་མའི་ས་བདག་ཁྲ་མ་རྣམས། །མི་ནོར་མཚན་མས་འདྲི་བའམ། །མ་ཕྱུར་རུང་ཙམ»; read on the scan 2026-10-11 | planned (**T2.26**): of the month's earth lords only the black months and Kikang's are built; the model almanac's twelve heads as vectors in [month-entries.md](month-entries.md), *The month's earth lords as the almanac writes them* |
 | The month's Kālacakra season (early, middle, late) and the sun's sign; its Chinese season, the 11th month the first of spring, from the tiger | «ཟླ་བཤད་དུས་འཁོར་དུས་བཞི་ཡི། །ར་འབྲིང་ཐ་དང་ཉི་ཁྱིམ་མིང་། །བཅུ་གཅིག་དཔྱིད་ར་སྟག་ནས་བརྩམས» | built (T2.10, the month balloon) |
 | Long or short month, by the days it has | «ཆེ་ཆུང་དབྱེ་བ» | built (T2.21, [month-entries.md](month-entries.md)): thirty days long, fewer short, in the month balloon |
 | The sun's terms, the full moon's mansion, the length of day and night | «དབུགས་ཐོབ་དང་། །སྒང་ཚད་ཁྱིམ་འཕོ་བཅོ་ལྔ་ལ། །རྒྱུ་སྐར་འདི་ཉ་ཉིན་མཚན་ཚད» | the sun's terms built on their dates (T2.20, below); day and night: the app gives the place's own sunrise and sunset (SPEC §6) |
@@ -84,6 +85,67 @@ p. 176 (img. 186), written at the head of each month of the full almanac.
 | Eclipses: their times, length and readings | «ཉ་སྟོང་ཟླ་ཉི་སྒྲ་གཅན་གྱིས། །སྒྲིབ་ཚེ་དུས་ཚོད་ཆ་ཡུན་དང་། །བཟང་ངན» | built (**T2.23**, [month-entries.md](month-entries.md)): whether Rāhu seizes the moon or the sun, by the *byed rtsis*'s sun as ch. 9 says, every eclipse it marks in 2000–2049 a real one; shown on its day with the merit multiplied (p. 62); the time, length and results not built, naming no works (the owner's rule, 2026-10-10) |
 | The seasonal signs: the Ṛṣi's seven days when the waters gain their eight qualities, the "pig climbing the tree", the seven days of poisoned water, a comet | «རི་ཥི་ཞག་བདུན་ཆུ་ཀླུང་རྣམས། །ཡན་ལག་བརྒྱད་ལྡན་འགྱུར་བ་དང་། །དུར་ཕག་ཤིང་ལ་འཛེགས་པའི་འབྲས། །ཞག་བདུན་ཆུ་རྣམས་དུག་འགྱུར་ཚུལ། །དུ་བ་མཇུག་རིང» | built (T2.21, [month-entries.md](month-entries.md)): the sage's and the pig's seven days by ch. 16's mean sun, checked against its 65-year table, on their days and in the month balloon; the comet by p. 186's count, in the month balloon |
 | The five planets' slow and fast motion, the omitted and doubled days of both reckonings, the planets' meetings | «ཉ་སྟོང་གཟའ་ལྔའི་དལ་མྱུར་དང་། …བྱེད་གྲུབ་གཉིས་ཀའི་ཆད་ལྷག་དང་། །དབང་ཕྱུག་མཇལ་ཕྲད» | read and left out (**T2.23**, [month-entries.md](month-entries.md)): the planets' four motions (p. 40), both reckonings' omitted and doubled dates and month figures can be reckoned, but none serves or changes a weight or verdict (the owner, 2026-10-10) |
+
+## The year's earth lords in the front matter (RD2)
+
+Read 2026-10-11 for ROADMAP RD2: vol. 1, pp. 174–176 (img. 184–186),
+with Yigdzin-1 and MITRA as witness (`disagree.py`) and every line
+quoted here read on the scan at 3×; the etext of these pages is broken
+into fragments. The month's side is in [month-entries.md](month-entries.md),
+*The month's earth lords as the almanac writes them*.
+
+The full almanac's front matter, in WB's order: verses of homage to
+one's root lama or the Buddha and to the masters of the reckoning
+(p. 174); the years since the great events (p. 175); the year's names,
+element and colour, sme ba and planets in verse; the year's results,
+first from the *Dus bstan me long*, then the *dbyangs 'char*'s wheels
+(the turtle, the lion seat, the umbrella wheel, the hundred feet, the
+nine planets' wheel), the rain of the 4th to 7th months and the
+*Mdo sde gsang ba*'s sixty years. The earth lords come after, p. 175
+(img. 185):
+
+> དེ་རྗེས་བཅུ་གཉིས་ལོའི་འབྲས་བུ། །རྒྱ་ནག་སྟག་ཆུང་སྨེ་བ་དགུ། །དབུས་སུ་གང་ཞུགས་དེ་ཡི་འབྲས། །ད་ལྟའི་ལོ་དང་རྗེས་མའི་ལོའི། །འཁོར་ལོ་སྨེ་བ་བཅས་པ་ཡི། །ཕྱོགས་སུ་སྤང་བྱ་གཙང་བའི་ཕྱོགས། །མ་ནོར་འབྲས་བུར་བཅས་པ་བཀོད།
+
+Then the twelve years' results, those of the Chinese *stag chung*, and
+of whichever of the nine sme ba is in the centre; the wheel of the
+present year and of the next, with the sme ba, its directions to be
+avoided and its clean directions, written with their results. After the
+results of the Nepalese masters' and the *Kar myang* reckoning, verses
+that turn bad results back, the dedication and the verses of
+auspiciousness, the intercalated month if any, p. 175–176 (img.
+185–186):
+
+> དེ་རྗེས་ངོ་ཐོག་ལོ་དེ་དང་། །རྗེས་མའི་ལོ་འཁོར་སྨེ་བ་འདྲི། །དེ་ཡང་ནག་མོ་དགུ་སྐོར་རྣམས། །མི་ནོར་མཚན་མས་འདྲི་བའམ། །མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད། །རྩ་བའི་སྒྲ་གཅན་འཁོར་ལོ་དང་། །དུས་འཁོར་དབྱངས་འཆར་སོ་སོ་ཡི། །ཐུན་ཕྱེད་རཱ་ཧུའི་ཐེབས་རྒྱུ་ཚུལ། །དུས་འཁོར་དབྱངས་འཆར་སོ་སོ་ཡི། །རྣམ་འབྱོར་བིཥྚིའི་འཁོར་ལོ་དང་། །སྒྲ་གཅན་ནུ་རུ་ལུགས་རྒྱུ་བ། །དུས་ཚོད་རྒྱུ་བའི་ཁྲ་མ་དང་། །དུས་མཚན་འཁོར་ལོ་སྡེ་བརྒྱད་ཀྱི། །ཚེས་ཐེབས་བུམ་སྟོང་འཁོར་ལོ་བཀོད།
+
+The wheel and sme ba of the year itself (*ngo thog*) and the next, and
+in it the rounds of the nine black ones (*nag mo dgu skor*), drawn with
+their marks without error, or, «མ་ཕྱུར་», it is no fault; then Rāhu's root
+wheel, the half-watches of the Kālacakra and the *dbyangs 'char* with
+Rāhu's strikes on them, their yoginīs' and Viṣṭi's wheels, Rāhu's course
+after the *nu ru* way, the chart of what moves by the hour, the wheel of
+day and night, the eight classes' strikes by date and *bum stong*'s
+wheel. Both readers have «བིཥྚིའི»; the etext's «བིབྷིའི» is its own. Yigdzin-1's
+second «དབྱངས་འཆང» is «དབྱངས་འཆར» on the scan, and its «ཁུ་མ» is «ཁྲ་མ».
+
+What this means for the app:
+
+- **What the front matter writes of the year's earth lords** is a
+  wheel of the year with its sme ba, the directions to avoid and the
+  clean directions and what each brings, for this year and the next; the
+  nine black ones; the earth lords that move by date and hour and
+  *bum stong*, each drawn as its chart. No list of the year's earth lords
+  by name is asked for: they stand in the charts. Of these, the date's
+  and hour's earth lords, the eight classes' strikes and Rāhu are built
+  (T2.13, T2.20, SPEC §5.13); the year's wheel and the nine black ones
+  are not (RD3, T2.26).
+- **The charts are drawn in ch. 13** («ཤོག་ཁྲ་ཇི་བཞིན་བཀོད», p. 178; p. 173:
+  «བཅུ་གཉིས་ལོ་དང་ཟླ་བ་ཡི། །ས་བདག་ཁྲ་མ་ཐུན་ཕྱེད་དང་། …ཟླ་འཁོར་ཚེས་ཀྱི་ས་བདག་གི །ཁྲ་མའི་རིགས་རྣམས་བརྗོད་པ་སྟེ།», the charts of the earth lords of the
+  twelve years and the months, the half-watches, … the month's wheel
+  and the date's earth lords). Where each set stands is in
+  [wb-contents.md](wb-contents.md), ch. 13; the charts' cells are for
+  RD3 and RD4, as vectors.
+- The model almanac (pp. 154–171) begins with the 11th month: it has no
+  front matter, so it gives no vector for the year's earth lords.
 
 ## The times within the day (T2.20)
 

@@ -269,6 +269,14 @@ Searched and found wanting, so not to be repeated:
   say nothing of Mercury or Venus at an eclipse. JL and OS restate the
   lines; no text found names the places the Mercury and Venus clause
   compares.
+- **The rule behind the model almanac's dated month entries** (WB vol. 1,
+  pp. 154–171: the water demons' king on the 1st month's 21st and the
+  9th's 20th, the earth lords' king on the 8th month's 10th, the castes
+  rising and lying, the mantrin's months; RD2, 2026-10-11): the etext
+  of both volumes has none of «ཆུ་བདུད་རྒྱལ་པོ», «དགྲར་ལྡང», «རྗེ་རིགས», «ཁ་རུལ», «ཟོར་འཕེན་ཟླ»,
+  «ཁྱི་གསར་མི་གསོ» in such a rule outside the model almanac. Not yet searched:
+  BDRC's full text, and the *Gtsug lag spor thang* and other works the
+  heads may follow.
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.

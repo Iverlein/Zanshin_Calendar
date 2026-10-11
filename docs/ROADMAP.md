@@ -120,7 +120,7 @@ check them on the scans.
 | # | Reading | Source and pages | Needs | For | Topic file | Prompt |
 | --- | --- | --- | --- | --- | --- | --- |
 | <a id="rd1"></a>RD1 | WB's days of the twelve links, and which day they mean — done 2026-10-11 | WB vol. 2, pp. 351–356 (img. 359–364); against vol. 1, p. 177's count; p. 356's links on the hours | — | [24](#block-24), [26](#block-26) | day-letters.md | Read RD1: WB vol. 2 pp. 351–356 on the scan, each link's day with its works, directions, birth, loss, illness and remedy, and whether its day is the almanac's link. |
-| <a id="rd2"></a>RD2 | What the almanac writes of the year's and month's earth lords | WB vol. 1, pp. 174–176 (img. 184–186), the year's front matter and the month's head; the model almanac's month heads, pp. 154–171 (img. 164–181) | — | [25](#block-25) | almanac-page.md, month-entries.md | Read RD2: WB vol. 1 pp. 174–176 and the model almanac's month heads, for how the year's and the month's earth lords are written. |
+| <a id="rd2"></a>RD2 | What the almanac writes of the year's and month's earth lords — done 2026-10-11 | WB vol. 1, pp. 174–176 (img. 184–186), the year's front matter and the month's head; the model almanac's month heads, pp. 154–171 (img. 164–181) | — | [25](#block-25) | almanac-page.md, month-entries.md | Read RD2: WB vol. 1 pp. 174–176 and the model almanac's month heads, for how the year's and the month's earth lords are written. |
 | <a id="rd3"></a>RD3 | WB's earth lords of the year | WB vol. 2, ch. 31, pp. 175–198 (img. 183–206): the kings and ministers, the year's *hal khyi* and *sa rgyal*, the black years, *nag mo dgu skor*, the sme ba's gods, the palace gods, the sky dog of brides (p. 198) | — | [25](#block-25), [30](#block-30) | year-month-earth-lords.md (new) | Read RD3: WB vol. 2 pp. 175–198, each earth lord of the year with its course, place, works and remedy. |
 | <a id="rd4"></a>RD4 | WB's earth lords of the month | WB vol. 2, ch. 31, pp. 199–221 (img. 207–229): the bad directions, *bum stong*, the month's *hal khyi*, *lto 'phye*, the month's *nag mo dgu skor*, the scattered earth lords | — | [25](#block-25) | year-month-earth-lords.md (new) | Read RD4: WB vol. 2 pp. 199–221, each earth lord of the month with its course, place, works and remedy. |
 | <a id="rd5"></a>RD5 | KP's boxes on the Chinese almanac's days | KP and KP2, every box naming *se byi*, *hang phan*, *zla klung*, *se shar*, the *se*, *pi ling*, *tsang kun*, *dbul*, *nyi nag*, *gnam stong* ([kp-activities.md](sources/kp-activities.md), "not calculated") | [RD3](#rd3), [RD4](#rd4) | [25](#block-25) | kp-activities.md | Read RD5: KP's boxes for the earth lords RD3 and RD4 identify, their works on the scan. |
@@ -891,7 +891,22 @@ verdict, and the owner's decisions of 2026-10-10:
   there (a bride, funerals, building, digging) and their remedies. Built
   so far: the black months and Kikang's (T2.21) and the *bla mkhyen*'s
   yearly avoidances (vol. 2, p. 180). The list above is the etext's; none
-  of it is read on the scan.
+  of it is read on the scan. **How the almanac writes them** (RD2,
+  2026-10-11): the year's front matter draws a wheel of the year and
+  the next with the sme ba, the directions to avoid and the clean ones,
+  the nine black ones and the date's and hour's charts
+  ([almanac-page.md](sources/almanac-page.md)); the month head the
+  month's wheel and the scattered earth lords' charts, or fewer. All
+  the charts are drawn in vol. 1, ch. 13 (pp. 116–147,
+  [wb-contents.md](sources/wb-contents.md)). The model almanac draws
+  none: each month head names *bum stong*, the five gods (*lha lnga*)
+  and the nine (*lha dgu*) with their directions, twelve months that
+  vol. 2, pp. 211–213 and vol. 1, p. 135 confirm, the vectors for this
+  block, and a dated entry or two with works (the water demons' king,
+  the earth lords' king), whose rule is not found
+  ([month-entries.md](sources/month-entries.md)). *bum stong* by the
+  month's animal and by the sun's sign part within the month; which
+  the app follows is to settle in the build.
 - **KP names some of them.** The *kun phan me long*'s boxes name works
   for *se byi*, *hang phan*, *zla klung*, *se shar*, the *se*, *pi ling*,
   *tsang kun*, *dbul*, *nyi nag* and *gnam stong*, left out as "not

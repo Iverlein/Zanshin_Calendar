@@ -366,3 +366,130 @@ changes the weights or the verdict is not shown):
   each date's five places, as above; Rāhu's figure.
 - The eclipse's time, part, length, side and results (ch. 9, sections
   2–8 and 10, pp. 59–69): no works.
+
+## The month's earth lords as the almanac writes them (RD2)
+
+Read 2026-10-11 for ROADMAP RD2: vol. 1, p. 176 (img. 186), and the
+twelve month heads of the model almanac (pp. 154–171, img. 164–181),
+with Yigdzin-1 on 3× crops of each head and every line quoted here read
+on the scan; the courses on vol. 1, p. 135 (img. 145), and vol. 2,
+pp. 211–213 (img. 219–221), read the same way, Yigdzin-1 on a 3× crop
+below the woodcut of img. 219, where it reads nothing on the whole page.
+The year's front matter is in [almanac-page.md](almanac-page.md), *The
+year's earth lords in the front matter*.
+
+**What p. 176 asks.** «དེ་ནས་རང་རང་ཟླ་བའི་འགོར། །ཟླ་བའི་འཁོར་ལོ་དེ་ཡང་ནི། །སིལ་མའི་ས་བདག་ཁྲ་མ་རྣམས། །མི་ནོར་མཚན་མས་འདྲི་བའམ། །མ་ཕྱུར་རུང་ཙམ་དེ་རྗེས་སུ། །ཟླ་བཤད་…»
+At the head of each month, the month's wheel and the charts of the
+scattered earth lords (*sil ma'i sa bdag*), drawn without error with
+their marks, «འམ», or «མ་ཕྱུར་རུང་ཙམ», and then the month's description.
+*phyur* is not settled; the year's front matter has the same turn, «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད», "even
+if *ma phyur*, no fault", so the charts may be left out or cut down, and
+the model almanac draws none.
+
+**What the model almanac writes.** No chart: each month head names the
+month's earth lords in its run of entries, after the sun's sign and the
+work the month favours, always in the same order, «ཟླ་བདག་ལྟོས། བུམ་སྟོང་…» and,
+near the end, *lha lnga* and *lha dgu* with their directions. All
+twelve, on the scan:
+
+| Hor month (animal) | img. | the head's sign | month's lord | *bum stong* | *lha lnga*, *lha dgu* |
+| --- | --- | --- | --- | --- | --- |
+| 11 (tiger) | 164 | གཞུ, Sagittarius | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ཤར», east | «ལྷ་ལྔ་ཤར། དགུ་ནུབ», five east, nine west |
+| 12 (hare) | 165 | ཆུ་སྲིན, Capricorn | «ཟླ་བདག་བལྟ» | «བུམ་སྟོང་ལྷོ», south | «ལྔ་དགུ་ལྷོ», both south |
+| 1 (dragon) | 167 | བུམ་པ, Aquarius | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ནུབ», west | «ལྔ་ནུབ། དགུ་ཤར» |
+| 2 (snake) | 168 | ཉ, Pisces | «ཟླ་བདག་བལྟ» | «བུམ་སྟོང་བྱང་», north | «ལྔ་དགུ་བྱང་» |
+| 3 (horse) | 170 | ལུག, Aries | «ཟླ་བདག་ལྟོས། འཇམ་རྩུབ་ཀྱི་འབྲས་བུ་བརྗོད» | «བུམ་སྟོང་ཤར» | «ལྔ་ཤར་དགུ་ནུབ» |
+| 4 (sheep) | 172 | གླང, Taurus | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ལྷོ» | «ལྔ་དགུ་ལྷོ» |
+| 5 (monkey) | 173 | འཁྲིག་པ, Gemini | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ནུབ» | «ལྔ་ནུབ། དགུ་ཤར» |
+| 6 (bird) | 175 | ཀརྐ་ཊ, Cancer | «ཟླ་བདག་བལྟ» | «བུམ་སྟོང་བྱང་» | «ལྔ་དགུ་བྱང་» |
+| 7 (dog) | 176–177 | སེང་གེ, Leo | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ཤར» | «ལྔ་ཤར། དགུ་ནུབ» |
+| 8 (pig) | 178 | བུ་མོ, Virgo | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ལྷོ» | «ལྔ་དགུ་ལྷོ» |
+| 9 (mouse) | 180 | སྲང, Libra | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་ནུབ» | «ལྷ་ལྔ་ནུབ། དགུ་ཤར» |
+| 10 (ox) | 181 | སྡིག་པ, Scorpio | «ཟླ་བདག་ལྟོས» | «བུམ་སྟོང་བྱང་» | «ལྔ་དགུ་བྱང་» |
+
+The full form «ལྷ་ལྔ་» stands on img. 164 and 180 (read at 8×); the
+others shorten it to «ལྔ་».
+
+- **The month's lord** («ཟླ་བདག») is no earth lord: it is p. 176's lord of
+  the month, the weekday of the true reckoning's 1st, from which the
+  weekday's rise is counted (*The weekday's rise*, above). The 3rd month
+  adds "tell the results, mild and harsh".
+- ***bum stong***, the empty vase. Vol. 2, p. 212–213 (img. 220–221), by
+  the month's animal, read on the scan:
+  «དེ་ནི་བུམ་སྟོང་ཞེས་བྱ་བ། །གཙུག་ལག་འབྱུང་བའི་རྩིས་ལུགས་ལས། །སྟག་རྟ་ཁྱི་གསུམ་བུམ་སྟོང་ཤར། །ཕག་ལུག་ཡོས་ལ་ལྷོ་ཡི་ཕྱོགས། །བྱི་འབྲུག་སྤྲེལ་ཟླར་ནུབ་ཀྱི་ཕྱོགས། །བྱ་གླང་སྦྲུལ་ཟླར་བྱང་ཕྱོགས་གནས། །དེ་ཡང་བུམ་སྟོང་རྒྱུ་མཚན་ནི། །བུམ་པ་དེ་ལ་ལྷ་ལྔ་གནས། …ལས་དང་བྱ་བ་ཕལ་ཆེར་ངན། །སྒྲིབ་ན་འཇམ་དཔལ་སྐུ་བསྟན་ཅིང་། །སྣང་བརྒྱད་བཏོན་པས་ཉེས་པ་ཞི།»
+  In the months of the tiger, horse and dog it is in the east, of the
+  pig, sheep and hare in the south, of the mouse, dragon and monkey in
+  the west, of the bird, ox and snake in the north; the vase holds the
+  five gods; most works are bad (in its direction); the remedy is
+  Mañjuśrī's image shown and the *snang brgyad* recited. Vol. 1, p. 135
+  (img. 145), in ch. 13's charts, by the sun's sign:
+  «ཤར་ནས་རིམ་པར་ཁྱིམ་བཅུ་གཉིས། །བུམ་པ་བཞི་ལ་རིམ་པ་རུ། །བཀོད་པས་ཉི་མ་གང་གནས་པ། །བུམ་སྟོང་གནས་པའི་ས་ཕྱོགས་ཡིན། །ཚེས་གྲངས་སོ་སོའི་ཨངྒི་དག །བཀོད་པའི་ཕྱོགས་ལ་སྡེ་བརྒྱད་ཐེབས།»:
+  the twelve signs set in turn on four vases from the east (Aries east,
+  Taurus south, Gemini west, Cancer north, Leo east …); the direction
+  where the sun is, is *bum stong*'s; and on the direction where each
+  date's number is set, the eight classes strike (built, T2.13). Vol. 2
+  gives the same second way on p. 213, «ལེགས་ལྡན་གཙུག་ན་ཟླ་བའི་ལུགས», Aries, Leo and
+  Sagittarius in the east. With the head's sign, both ways give the
+  same twelve directions, and the model almanac's twelve fit both. They
+  part within a month: the sun enters the head's sign during it (ch. 15,
+  [almanac-page.md](almanac-page.md), *The sun's terms*: the 11th month's
+  sign entry falls between its *dbugs thob* and its *sgang*), so by
+  p. 135 *bum stong* would move at the sign entry, where the model
+  almanac writes one direction for the month. Which the app follows is
+  for T2.26.
+- ***lha lnga* and *lha dgu***, the five gods and the nine. Vol. 2,
+  p. 211 (img. 219), read on the scan (the editors' bracketed numbers
+  left out):
+  «རིན་ཆེན་གསལ་བའི་སྒྲོན་མེ་ལས། །ཟླ་འཁོར་ས་བདག་ཆེན་པོ་དང་། །གྲོལ་བུའི་ལྷ་ལྔ་ཞེས་བྱ་བ། །ཤར་ཕྱོགས་རྩེ་ལུང་འབྲུག་སྔོན་མགོ །ལྷོ་ཕྱོགས་ཆུ་ཚགས་བྱ་དམར་མགོ །ནུབ་ཕྱོགས་འབེ་འུ་སྟག་དཀར་མགོ །བྱང་ཕྱོགས་ཧན་བུ་སྦལ་ནག་མགོ །དབུས་མཚམས་ས་བདག་སྦལ་མགོ་སེར། …གཡོན་སྐོར་སྟག་རྟ་ཁྱི་ཟླ་ལ། །ཤར་འཚོག་ཕག་ལུག་ཡོས་ཟླ་ལྷོར། །བྱི་འབྲུག་སྤྲེལ་ནུབ་བྱ་གླང་སྦྲུལ། །བྱང་གི་ཕྱོགས་སུ་ལྷ་ལྔ་འཚོག །…མཁར་ལས་ཁྲོམ་ཤིད་ལ་སོགས་པ། །ཕྱི་ནང་བྱ་བ་ལྟད་སྟོན་འཇལ། །དམག་ཇག་མཚོན་སྟོན་སྐྱས་བག་འཛེམ། …»
+  and «ཡང་ནི་ལྷ་དགུ་ཞེས་བྱ་བ། །ཞག་ལྷ་དུས་ལྷ་ཁྱིམ་ནང་ལྷ། །ཐབ་ལྷ་ཤིད་ལྷ་སེ་ཡི་ལྷ། །རོ་ལས་ལྷ་དང་སྤྱི་ཡི་ལྷ། །གཏད་ལྷ་དགུ་པོ་འཚོག་པ་ནི། །སྟག་རྟ་ཁྱི་ཡི་ཟླ་བར་ནུབ། །ཕག་ལུག་ཡོས་ཀྱི་ཟླ་བར་ལྷོ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཟླ་བར་ཤར། །བྱ་གླང་སྦྲུལ་ཟླར་བྱང་གི་ཕྱོགས། །འཚོག་སར་རོ་གཏོང་དུར་འདེབས་དང་། །མཁར་ལས་ཁྲོམ་ཤིད་ལ་སོགས་པ། །ཕྱི་ནང་བྱ་བ་ལྟད་སྟོན་འཇལ། །དམག་སོགས་ལས་ཀུན་འཛེམ་པར་བྱ།»
+  From the *Rin chen gsal ba'i sgron me*: the great earth lord of the
+  month's wheel, called the five gods of *grol bu*, each with an
+  animal's head (blue
+  dragon east, red bird south, white tiger west, black frog north,
+  yellow frog in the centre), gather, counted to the left, in the east in
+  the months of the tiger, horse and dog, the south in those of the pig,
+  sheep and hare, the west in those of the mouse, dragon and monkey, the
+  north in those of the bird, ox and snake. The nine gods (of the day,
+  the time, the house, the hearth, funeral rites, the *se*, corpses, the
+  general and the *gtad*) gather in the west, south, east and north for
+  the same groups: opposite the five on the east–west line, with them on
+  the north–south. Where they gather, building, markets, funeral rites,
+  visits, shows and gatherings, and, for the five, war, theft, weapons,
+  moving house and a bride; for the nine, sending out a corpse, burial
+  and all works, war first, are avoided. The remedy for both, «ལྔ་དགུ་གཉིས་ཀ་སྒྲིབ་འདོད་ན། །སྤྱང་ཀིའི་ཐོད་པ་ཕྱོགས་དེར་བསྟན།» (a wolf's
+  skull shown in that direction, a ransom with a dough figure, pp. 211–212),
+  is for RD4. The model almanac's twelve months are the rule's: the
+  heads write "five and nine south" or "north" where the two meet, and
+  the two directions apart where they do not.
+
+So the model almanac gives a vector for each course, twelve months each,
+that two rules of WB confirm. The month's other earth lords of ch. 31
+(the 64 bad directions, the month's *hal khyi*, *lto 'phye*, the
+month's *nag mo dgu skor*, the scattered ones) are not in the heads;
+the charts p. 176 asks for are drawn in ch. 13 ([wb-contents.md](wb-contents.md), ch. 13).
+
+**The heads' dated entries.** Each head also gives a date of the month
+with works to avoid, in the same run, read on the scan. None is built.
+Their rule is not in the head, and the etext of both volumes has none of
+these phrases outside the model almanac (searched 2026-10-11:
+«ཆུ་བདུད་རྒྱལ་པོ», «དགྲར་ལྡང», «རྗེ་རིགས», «ཁ་རུལ», «ཟོར་འཕེན་ཟླ», «ཁྱི་གསར་མི་གསོ»):
+
+| Hor month | img. | Printed | Read |
+| --- | --- | --- | --- |
+| 11 | 164 | «བདུན་ལ་དུས་ཚོད་ངན་པ་དགུ་འཛོམ། ཁ་སྨྲས་གླེང་གཞིའི་ཟས་མི་ཟ། རྒྱལ་བའི་བཀའ་གསུང་མི་སྒྲོག» | on the 7th nine bad times meet: no feasting that gives rise to talk, no proclaiming the Victor's word |
+| 12 | 165 | «བཅུ་བཞི་ལ་དམག་མི་དྲང་། ཡུལ་དང་ས་ཞིང་མི་འཚོང་།» | on the 14th no leading an army, no selling land or fields |
+| 1 | 167 | «ཉེར་གཅིག་ལ་ཆུ་བདུད་རྒྱལ་པོ་དགྲར་ལྡང་། འབྱུང་བ་ཆུའི་ལས་མི་བྱེད། ཉེར་ལྔར་ཀླུ་ཐེབས། གཉིས་དང་བརྒྱད་མ་གཏོགས་ཟླ་བ་རིལ་པོར་ཀླུ་བཟློག» | on the 21st the king of the water demons rises as an enemy: no work with water; the nāgas strike on the 25th and are turned the whole month but the 2nd and 8th |
+| 2 | 168 | «བརྒྱད་ལ་མེ་ལྷ་ཨགྣི་གདན་འདིང་བའི་དུས། རོ་བསྲེག་པ་དང་ནད་པའི་སེལ་སྒོ་འབྱེད་སར་མི་འགྲོ། བརྒྱད་ལ་རྗེ་རིགས། བཅོ་ལྔ་ལ་རྒྱལ་རིགས་དང་དམངས་རིགས་ལྡང་།» | the 8th is when Agni's seat is spread: no going to a cremation or where a sick person's purification is opened; the lords' caste rises on the 8th, the royal and common castes on the 15th |
+| 3 | 170 | «བཅུ་དྲུག་ལ་བྱང་དུ་རྟ་མི་རྒྱུག །ལྷོར་བཀའ་མི་སྒྲོག ཤར་དུ་དོན་མི་གཉེར། ནུབ་ཏུ་གཡུ་མི་ཉོ།» | on the 16th no racing horses to the north, no proclaiming orders to the south, no business to the east, no buying turquoise to the west |
+| 4 | 172 | «ཉེར་བཞི་ལ་རིན་པོ་ཆེའི་ལས་མི་བྱེད། བྱང་དུ་རྟ་མི་རྒྱུག །དགུ་མ་གཏོགས་ཟླ་བ་རིལ་པོར་སྡེ་བརྒྱད་བཟློག་པའི་ཐེབས་མེད་པས་སྔགས་པ་ཁ་རུལ་གྱི་ཟླ་བའང་ཟེར།» | on the 24th no work with jewels, no racing horses to the north; the whole month but the 9th has no strike for turning the eight classes back, so it is called the mantrin's rotten-mouthed month |
+| 5 | 173 | «དགུ་ལ་དམག་མི་དྲང་། ཡུལ་དང་ས་ཞིང་མི་འཚོང་།» | on the 9th as the 12th month's 14th |
+| 6 | 175 | «བཅོ་བརྒྱད་ལ་གཤིན་ལས་ཀྱི་ཡོས་མི་བརྗོད། རྟ་བཤའ་བ་དང་། བཤན་པ་བོན་པོའི་ཁྱིམ་དུ་མི་འགྲོ།» | on the 18th the funeral rites' *yos* is not spoken (sense not settled); no slaughtering horses, no going to a butcher's or a Bonpo's house |
+| 7 | 176–177 | «ཉེར་བདུན་ལ་ཁྱི་གསར་མི་གསོ། ཡོ་ལང་མི་བྱེད།» | on the 27th no taking in a new dog, no *yo lang* |
+| 8 | 178 | «བཅུ་ལ་ས་བདག་རྒྱལ་པོ་དགྲར་ལྡང་། རྒྱལ་པོ་ལ་བསྙེན་བཀུར་མི་བྱ། གདན་མི་འདྲེན། བརྒྱད་ལ་དམངས་རིགས། བཅོ་བརྒྱད་ལ་རྒྱལ་རིགས། ཉེར་བརྒྱད་ལ་རྗེ་རིགས་རྣམས་ཉལ།» | on the 10th the king of the earth lords rises as an enemy: no serving a king, no inviting a guest; the common caste lies down on the 8th, the royal on the 18th, the lords' on the 28th |
+| 9 | 180 | «ཉི་ཤུ་ལ་ཆུ་བདུད་རྒྱལ་པོ་དགྲར་ལྡང་། འབྱུང་བ་ཆུའི་ལས་མི་བྱེད། ཆུ་ཆེན་མི་བརྒལ། ནོར་ཕྱུགས་ཕྱིར་མི་གཏོང་།» | on the 20th the king of the water demons rises as an enemy: no work with water, no crossing a great river, no sending out wealth or livestock |
+| 10 | 181 | «གནམ་གང་ལ་དགའ་གཞས་རྩེད་མོ་མི་བྱེད། ཉེར་བདུན་ལ་སྡེ་བརྒྱད་བཟློག་པ་ལས་ཟླ་བ་རིལ་པོར་ཐེབས་ཆེ་བས་སྔགས་པ་ཟོར་འཕེན་ཟླ་བ་ཟེར།» | on the 30th no songs of joy or games; turning the eight classes back on the 27th, the strike is great the whole month, so it is called the mantrin's month of casting the *zor* |
+
+The 11th head also has, at the winter solstice, «ས་བདག་སྐྱས་བྱེད་བོད་ན་དགུ་ཡང་འདྲེན»
+(read at 3×; the etext's «སྐྱེས» is a misprint): the earth lords move
+house, and "in Tibet the nine too are drawn"; which nine is open
+question 20.

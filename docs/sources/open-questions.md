@@ -364,3 +364,14 @@ the text, not about the app.
     reverse for the metre? And «ལུགས་འབྱུང་ལུགས་ལྡོག»: the links run forward and
     backward on the hours, but by what, the month's halves (as vol. 1's
     table runs them, pp. 150–153), day and night, or the person?
+
+20. **WB vol. 1, p. 154 (img. 164): which "nine" are drawn in at the
+    winter solstice?** The model almanac's 11th month head writes, after
+    «དགུན་ཉི་ལྡོག་པ་རགས་ཞིབ་སྔ་ཕྱི་དུས་ཚོད་བལྟས་ནས་འགོད།», «ས་བདག་སྐྱས་བྱེད་བོད་ན་དགུ་ཡང་འདྲེན།» (read on the
+    scan 2026-10-11, RD2, [month-entries.md](month-entries.md)): the
+    earth lords move house, and "in Tibet the nine too are drawn (or
+    led)". Are the nine the nine gods (*lha dgu*, vol. 2, p. 211) the same
+    head sets in the west, the nine black ones, or a count of nine-day
+    spans from the solstice? And what is *phyur* in p. 176's two lines on
+    drawing the earth lords' charts, the month's «མ་ཕྱུར་རུང་ཙམ» and the year's
+    «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད»: "if not drawn in full"?

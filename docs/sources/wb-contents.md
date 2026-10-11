@@ -30,8 +30,8 @@ none has not been opened for the app.
 | 10 | 70–78 (80–88) | Making new tables and keeping the old | — |
 | 11 | 79–90 (89–100) | Quick reckoning of the tables | — |
 | 12 | 91–103 (101–113) | A drop of the *g.yul rgyal* tantra's sea, for the *dbyangs 'char* | [day-letters.md](day-letters.md) (pp. 96–99: the hundred feet), [personal-mansions.md](personal-mansions.md) |
-| 13 | 104–173 (114–183) | The almanac's fixed matter (*gtan le*): the cycles, years, months and dates, the earth lords' places, the sme ba, the elements, the twelve links; the model almanac (pp. 154–171) | [combinations.md](combinations.md) (pp. 148–149), [day-letters.md](day-letters.md) (pp. 150–153), [tibetastromed.md](tibetastromed.md) (the model almanac), [almanac-page.md](almanac-page.md) (p. 173) |
-| 14 | 174–179 (184–189) | Making the full, middle and short almanacs | [almanac-page.md](almanac-page.md); the year's front matter (pp. 174–176) not inventoried (ROADMAP RD2) |
+| 13 | 104–173 (114–183) | The almanac's fixed matter (*gtan le*): the cycles, years, months and dates, the earth lords' places, the sme ba, the elements, the twelve links; the model almanac (pp. 154–171). The earth lords' charts that ch. 14 has the almanac copy (RD2, 2026-10-11; laid out from the scans, names machine-read on one chart of each set, the cells not read): pp. 116–121 (img. 126–131), twelve charts, two a page, the year animal's woodcut in the middle and the year's earth lords round it (*bya ra ba*, *hal khyi*, *bu mo*, *se ba bla mkhyen*, *se lo sa 'phyag*, *the se rgyal po*, *hang ne*, *se byi*, *dmag dpon*, *blon po tsang kun*, *sa rgyal bcu gcig* …: RD3); pp. 122–125 (img. 132–135), twelve charts with an animal strip, each setting the nine (*sme ba bla mkhyen*, *ka la ro zan*, *gshed po*, *byis pa rta bdud*, *gshin rje*, *rgyal po mtshon thogs*, *stag gzig*, *nag mo*, *nang bdud*), the *nag mo dgu skor* of p. 175 (RD3); pp. 126–133 (img. 136–143), wheels: sme ba wheels (pp. 126, 128), the turtle (p. 127), star wheels (pp. 130–132), not identified one by one; pp. 134–135 (img. 144–145), prose: the eight yoginīs and Viṣṭi by date and direction, the day-and-night wheel, the half-watches, *bum stong* by the sun's sign and the eight classes' strikes by date (p. 135, read); pp. 136–141 (img. 146–151), twelve charts round a human figure, naming *lto 'phye*'s head and mouth, *nang lha*, *'brug lha*, *the se*, *gnyan*, *sa rgyal bcu gcig*, *tsang kun* among others, by p. 176 the months' wheels (RD4, unconfirmed); pp. 142–147 (img. 152–157), twelve charts with an animal strip, the date's earth lords with their times of day (*sa'i phung byed nag mo*, *nang bdud*, *thab lha*, *bus bdud*, *snang sel*, *'gog ku*, *gcer bu* …; p. 173's «ཚེས་ཀྱི་ས་བདག»), not checked against [earth-lords.md](earth-lords.md) | [combinations.md](combinations.md) (pp. 148–149), [day-letters.md](day-letters.md) (pp. 150–153), [tibetastromed.md](tibetastromed.md) (the model almanac), [almanac-page.md](almanac-page.md) (p. 173), [month-entries.md](month-entries.md) (the month heads' earth lords, p. 135's *bum stong*) |
+| 14 | 174–179 (184–189) | Making the full, middle and short almanacs | [almanac-page.md](almanac-page.md); the year's front matter (pp. 174–176) read for its earth lords (RD2, 2026-10-11), the rest summarised there |
 | 15 | 180–183 (190–193) | The sign entries, breath terms, leap months: joining the Indian and Chinese reckonings | [almanac-page.md](almanac-page.md), *The times within the day* |
 | 16 | 184–189 (194–199) | The solstice wheel and the like | [month-entries.md](month-entries.md) (the sage's and pig's seven days, the comet) |
 | 17 | 190–197 (200–207) | The three kinds of day (*zhag gsum*) | [earth-lords.md](earth-lords.md) (pp. 190–192, the *sgang* numbered by month) |
@@ -100,7 +100,11 @@ none has not been opened for the app.
   the month's from p. 199 (img. 207) to p. 221; the date animal's from
   p. 222 ([earth-lords.md](earth-lords.md)); the date's courses pp. 226–235
   ([earth-lord-courses.md](earth-lord-courses.md)); the hour's after.
-  ROADMAP T2.26, RD3, RD4.
+  Of the month's, the five gods (*lha lnga*) and the nine (*lha dgu*)
+  are on p. 211 (img. 219, under a woodcut of the five) and *bum stong*
+  on pp. 212–213 (img. 220–221), read on the scan for RD2
+  ([month-entries.md](month-entries.md)): the model almanac's month heads
+  write all three. ROADMAP T2.26, RD3, RD4.
 - **Ch. 33, the twelve links' days** (vol. 2, pp. 351–356, img. 359–364):
   for each link's day, from ignorance, the works good and to avoid, the
   four directions for one's aims, a birth, a loss, the course of an
