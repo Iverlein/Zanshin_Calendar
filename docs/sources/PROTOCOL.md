@@ -1,86 +1,114 @@
 # Reading in parallel: the protocol
 
-How a bunch of readings from the roadmap's *Readings* table
-([ROADMAP.md](../ROADMAP.md#rd1)) is run three at a time. One **unit** is
-three readings, each read by its own subagent, all three at once; units
-run one after another. The session that starts them is the **launcher**.
-It does the bookkeeping that three hands cannot share; the subagents do
-the reading. The rules of reading themselves are in [PLAN.md](PLAN.md)
-and are not repeated here; this file says who does what, in what order,
-and what is checked at each step.
+How the open readings of the roadmap's *Readings* table
+([ROADMAP.md](../ROADMAP.md#rd1)) are run several at a time, as many as
+the machine bears. One session, the **launcher**, picks the readings
+that can start, gives each to a subagent of its own, and does the
+bookkeeping that many hands cannot share; the subagents read. The rules
+of reading are [PLAN.md](PLAN.md)'s and are not repeated here. The
+arithmetic of this file is `tools/sources/schedule.py`; the launcher's
+steps are also the `/readings` skill (`.claude/skills/readings/`).
 
-## Why three, and why these three
+## What bounds the number
 
-The machine, not the texts, sets the size of a unit:
+Readings are independent of the build, so the only bounds are the
+machine's, each with a margin, and a few things that exist once:
 
-- **The GPU holds two readers.** The card has 8 GB, the desktop keeps
-  about 1.7 GB of it, Yigdzin-1 takes about 2 GB with its activations and
-  MITRA more. The readers neither queue nor lock the card: a third model
-  fails to load or starves the other two. So a unit has **two GPU
-  slots** and one reading that needs no scans, or that can read the
-  etext first and take a slot when one frees.
-- **One archive.org loan at a time**, under the owner's login
-  (`archive_lend.py`): one subagent per unit may hold it.
-- **agy's quota is one session's worth**: one subagent per unit has the
-  agy turn, for single crops the readers and the eye leave unsettled.
-- **Shared files.** Every reading touches `docs/ROADMAP.md`,
-  `open-questions.md`, PLAN.md's *Dead ends* and [README.md](README.md)'s
-  index; several readings write one topic file. Three subagents appending
-  to the same place of one file make three conflicts, so those edits are
-  the launcher's, and a shared topic file is given its sections before
-  the unit starts (*Before a unit*, step 3).
+| Resource | Cost of one reader, measured 2026-10-11 | Margin kept free | Bound |
+| --- | --- | --- | --- |
+| The card (RTX 4060 Laptop, 8 GB; the desktop holds about 2 GB) | Yigdzin-1 2.0 GB, MITRA 2.3 GB | 1 GB | GPU slots = (free − margin) ÷ 2.3 GB, at most 4 |
+| RAM (31 GB) | a reader 2.5–2.8 GB; a subagent's Gradle test run about 2 GB | 4 GB | slots again, and one more subagent per 2 GB left |
+| The archive.org loan (BDRC's lent scans, the owner's login) | — | — | one subagent at a time |
+| agy's quota | — | — | one subagent at a time, for single crops |
+| The launcher's own context | each report a few thousand tokens | — | the subagent cap, `--agents N`, when the machine's number is more than the launcher can merge in a sitting |
 
-**Choosing a unit.** Take the lowest-numbered readings not done whose
-needs are done (the table's *Needs* column; "Do the next reading" in
-ROADMAP.md), with these constraints: no reading in a unit needs another
-of the same unit; at most two need the scans; at most one needs the
-loan. A reading that gates many others (RD11 gates RD12–RD17) goes in
-the first unit it fits.
+A reader shares the card's compute with the others, so two readers do
+not read twice as fast; the gain of parallel slots is that one
+subagent's reading by eye and writing overlap another's model runs. A
+slot is held only while a model runs, never for a whole session.
 
-**The units as the table stands on 2026-10-11** (RD1 and RD2 done):
+`schedule.py machine` prints the live numbers and what they give. On
+2026-10-11, with 12.7 GB of RAM free, that was 2 slots and 3 subagents;
+with the memory hogs closed it is 2 slots and more subagents.
 
-| Unit | GPU slot A | GPU slot B | Third, no GPU at first | Shared topic file |
-| --- | --- | --- | --- | --- |
-| 1 | RD3 (WB vol. 2, pp. 175–198) | RD11 (the reckonings' outlines: from the etext, the scan for the counts) | RD7 (catalogues) | — |
-| 2 | RD4 (WB vol. 2, pp. 199–221) | RD10 (WB on health) | RD8 (Dr. Chenagtsang's works) | health.md: RD10, RD8 |
-| 3 | RD5 (KP's boxes, crops) | RD13 (WB ch. 22; the loan for KD vol. 3) | RD6 (WB's notes, KD, KP: etext search first) | — |
-| 4 | RD12 (WB ch. 25) | RD14 (WB ch. 24) | RD15 (WB ch. 23; etext first, a slot when one frees) | — |
-| 5 | RD9 (the classical texts) | RD16 (the dead) | RD17 (the other reckonings) | reckonings.md: RD16, RD17 |
+## Which readings, in what order
 
-The table is recomputed before each unit from the roadmap as it then
-stands: a reading that turned out larger than planned, or a new reading
-(O…, RD…) the last unit added, changes it.
+`schedule.py plan` reads the table and sorts:
 
-## Before a unit: the launcher
+1. **Available**: not done, every need before the first ";" of its
+   *Needs* cell done. Needs after the ";" ("RD3 for the sky dog of
+   brides", "RD8 beside") are *best after*: the reading starts, and its
+   prompt names them, so the subagent reads what they produced if it is
+   there and marks what it could not use.
+2. **Priority**: the reading that gates the most undone readings first
+   (RD11 gates six), then the lowest number. O rows (*Left open in built
+   work*) are fillers, launched last, when subagents remain.
+3. **Resources**: a reading needs the card if its source cell names
+   images, scans, crops or boxes, and the loan if it names lent scans;
+   `--gpu` and `--no-gpu` overrule the guess, and the plan prints what
+   it assumed. The slots are filled first with card readings, then the
+   remaining subagents with etext and catalogue readings, then more card
+   readings, which queue on the slot locks (they read the etext and the
+   pages already machine-read while they wait). The loan goes to the
+   highest-priority reading that needs it; the agy turn to the first
+   launched.
+4. **Held**: the rest, each with its reason (the cap, the loan).
 
-1. **The checkout.** The main checkout is on `main`, clean; `git worktree
-   list` shows which other sessions are at work, so their branches are
-   not touched. The launcher's own edits go into a worktree of its own,
-   `work/unit-<n>`, made as AGENTS.md says (*One worktree per session*).
-2. **The unit.** Pick the three readings by the rule above. Check each
-   one's *Needs* is marked done, and read each one's roadmap row and the
-   item sections it is *For*, to give the subagent the right pages.
-3. **The stubs.** For every topic file of the unit marked *(new)*, and
-   for every existing topic file two readings of the unit share: create
-   it or open it, and give each reading of the unit a section of its
-   own, in the table's order, each a heading `## <subject> (RDn)` with
-   one line saying what will stand there and a blank line after it, so
-   that no two sections are within three lines of each other. A new file
-   gets its row in README.md's index (*Roadmap* column the reading ids,
-   *State* "stub"). Commit this in the launcher's worktree, `docs: topic
-   file stubs for unit <n>`, merge it into `main` fast-forward, and start
-   the subagents from that `main`. A subagent then writes inside its own
-   section and nowhere else in that file.
-4. **The machine.** `python3 tools/sources/gpu.py` lists no model.
-   `~/ai/tibetan-ocr/venv` exists (RUNBOOK §7). The scans already on the
-   machine are listed in `docs/sources/wb/README.md` (*Images done*) so
-   that the subagents are told which pages need no fetch.
-5. **The turns.** Assign slot A, slot B and "none" for the GPU, the loan
-   to at most one, the agy turn to one. Write them into each prompt.
-6. **Launch** the three subagents in the background, each with the
-   prompt below filled in, and wait for all three reports. Nothing else
-   is built meanwhile from this session, so the emulator and the build
-   stay free for other sessions.
+The plan is recomputed each time a subagent reports, from the table as
+it then stands: a reading that finished frees the ones it gated, and the
+next report launches them. So the process is a pool, not fixed waves.
+
+## The launcher's loop
+
+1. **The checkout.** The main checkout is on `main`, clean; `git
+   worktree list` shows the other sessions' worktrees, which are not
+   touched. The launcher's own edits go into its worktree,
+   `work/readings`, made as AGENTS.md says (*One worktree per session*).
+2. **The plan.** In its worktree, rebased on `main`: `python3
+   tools/sources/schedule.py plan`, and look at what it assumed for the
+   card and the loan; rerun with `--gpu`/`--no-gpu`/`--agents` if the
+   table's words misled it. The plan writes the slot count to
+   `$XDG_RUNTIME_DIR/zanshin-gpu-slots`, which `schedule.py slot` reads.
+3. **The stubs.** `schedule.py stubs` gives every new topic file of the
+   plan, and every existing file two launched readings share, a section
+   per reading, `## <reading> (RDn)`, far enough apart that two
+   subagents' writing never meets in one hunk, and a new file its row in
+   README.md's index. Correct a new file's title if the file name made a
+   poor one. Commit, `docs: topic file stubs for <RDa, RDb, …>`, merge
+   fast-forward into `main`.
+4. **The prompts.** `schedule.py prompts DIR` writes one prompt per
+   launched reading, from the row's *Prompt* cell, its pages, its topic
+   file and section, the `main` it starts from and its resources. Read
+   each once: a prompt that needs a detail the row lacks (an image
+   group id, a page that moved) gets it added by hand.
+5. **Launch** every planned reading as a background subagent with its
+   prompt. Then wait; nothing is built from this session meanwhile, so
+   the emulator and the build stay free for other sessions.
+6. **On each report**, in the order they arrive:
+   - **Merge**: from the main checkout, `git merge --ff-only work/rd<n>`.
+     A refusal means `main` moved: rebase in that subagent's worktree
+     keeping both sides, run `SourcesTest` there, merge again.
+   - **Bookkeep**, in `work/readings` rebased on the new `main`: the
+     reading's row marked "— done YYYY-MM-DD" after its name only if its
+     topic file now holds its text (the subagent's checks of step 5 are
+     read, not trusted); a reading not finished keeps its row with a
+     note of what is left, or a new O… row; its questions numbered on
+     from the last one into `open-questions.md`, each with its topic
+     file linked, and the "Question:" lines in the topic file replaced
+     by the numbers; its dead ends appended to PLAN.md's *Dead ends*
+     with the date; `docs/sources/wb/README.md`'s *Images done* extended
+     (local, not committed). `./gradlew :core:test` in full; commit
+     `docs: RD<n> done, <what it settled>`; merge fast-forward.
+   - **Clean**: `git worktree remove --force` and `git branch -d` for
+     that subagent; its scratch directory deleted, the shared scan cache
+     and the transcriptions under `docs/sources/wb/` kept.
+   - **Replan**: `schedule.py plan` again; what became available, within
+     the subagents now free, is stubbed, prompted and launched as above.
+7. **The end**, when the plan launches nothing and no subagent runs:
+   `gpu.py` clean, no browser left running, the loan returned, and the
+   report to the owner: the readings done with their commits, what
+   stays open, what waits on what. Pushing waits for the owner's word;
+   a push carries every session's commits.
 
 ## The subagent's sequence
 
@@ -99,8 +127,7 @@ mkdir -p ~/ai/tibetan-ocr/scratch/rd<n>
 ```
 
 No vectors are needed: a reading runs `SourcesTest` only. **Check:**
-`git -C $W log -1` shows the launcher's stub commit (or the `main` the
-launcher named).
+`git -C $W log -1` shows the `main` the prompt names (the stub commit).
 
 ### 1. The rules and the row
 
@@ -122,28 +149,26 @@ open on them.
 - The etext of the volume, for searching: `bdrc.py etext $S/etext <IE
   id>` (the ids in README.md). The outline of a chapter, a count of
   pebbles, a search for a term: from the etext first, the scan after.
-- The scans of the pages, into the shared cache so that the next unit
+- The scans of the pages, into the shared cache so that the next reading
   finds them: `bdrc.py scans ~/ai/tibetan-ocr/scans/<image group>
   <image group> FIRST-LAST`; pages already there are not fetched again.
   KP and other works the same way, by their group. Lent scans (KD, BS,
   MK): only the subagent with the loan, by PLAN.md's *Tools*; the loan
   is returned and the cookie file deleted in the same step.
-- The third subagent, with no GPU slot, does all of its etext and
-  catalogue work here and asks the launcher for a slot (a message) only
-  if a scan turns out to be needed.
+- A reading launched for the etext does all of its etext and catalogue
+  work here; if a scan turns out to be needed after all, it takes a
+  slot in step 3 like any other: the slots are locks, not assignments.
 
 **Check:** every page of the list is on disk, and the first and last
 image carry the printed page numbers expected.
 
 ### 3. The readers (the GPU)
 
-Only the subagents with a slot. Before each run:
-`python3 tools/sources/gpu.py` lists at most one model process (the
-other slot's); if it lists two, wait a minute and look again. Every run
-is capped and stops its own model when killed:
+Every model run goes through the slot lock, which waits for a free slot
+and caps the run's memory at twice a reader's peak:
 
 ```bash
-systemd-run --user --scope -p MemoryMax=16G ~/ai/tibetan-ocr/venv/bin/python \
+python3 tools/sources/schedule.py slot -- ~/ai/tibetan-ocr/venv/bin/python \
   tools/sources/hf_read.py yigdzin OUT IMG...
 ```
 
@@ -152,16 +177,16 @@ systemd-run --user --scope -p MemoryMax=16G ~/ai/tibetan-ocr/venv/bin/python \
    image, as the folder has them) and `docs/sources/wb/vol1/yigdzin/`
    for vol. 1; other works under `$S`. Pages already read are skipped.
 2. **MITRA as witness** over the pages that will be quoted, not over
-   every page: 1.5–2 minutes a WB page. Two MITRA runs do not share the
-   card: take the lock, `flock $XDG_RUNTIME_DIR/zanshin-mitra.lock
-   systemd-run … hf_read.py mitra OUT IMG...`, and release it by ending.
-   OUT is `docs/sources/wb/mitra/` or `wb/vol1/mitra/` likewise.
+   every page: 1.5–2 minutes a WB page, through the same `slot`. OUT is
+   `docs/sources/wb/mitra/` or `wb/vol1/mitra/` likewise.
 3. **Free the card** between the two and at the end: the reader exits by
-   itself; `python3 tools/sources/gpu.py` must not name any process of
-   this subagent's.
+   itself and the slot with it; `python3 tools/sources/gpu.py` must not
+   name any process of this subagent's.
 
-**Check:** a `.txt` per image in both folders for the quoted pages, one
-for Yigdzin-1 for the rest, and `gpu.py` clean.
+A slot that does not come free within twenty minutes is reported to the
+launcher (a message), not worked around. **Check:** a `.txt` per image
+in both folders for the quoted pages, one for Yigdzin-1 for the rest,
+and `gpu.py` clean.
 
 ### 4. The scan
 
@@ -201,13 +226,14 @@ the file is its alone):
 
 Besides the topic file: the chapter's row in `wb-contents.md` (what has
 now been read of it), and the topic file's row in README.md's index
-(*State*: what was read on the scan, with the date). Nothing else:
-not the roadmap, not PLAN.md, not `open-questions.md`, not SPEC or
-code. **Check**, against the list of pages from step 1: every page
-appears with its image number; `grep -c '[ༀ-࿿]'` on the section is not
-zero; no sentence about the app or its code in the section; no
-Tibetan script or Wylie without its English; nothing written from
-memory, nothing under a non-commercial licence, no personal data.
+(*State*: what was read on the scan, with the date; a stub's "nothing
+read yet" replaced). Nothing else: not the roadmap, not PLAN.md, not
+`open-questions.md`, not SPEC or code. **Check**, against the list of
+pages from step 1: every page appears with its image number;
+`grep -c '[ༀ-࿿]'` on the section is not zero; no sentence about the
+app or its code in the section; no Tibetan script or Wylie without its
+English; nothing written from memory, nothing under a non-commercial
+licence, no personal data.
 
 ### 6. The tests and the commit
 
@@ -244,61 +270,34 @@ The final message, for the launcher, in this order:
 4. the questions, verbatim, for numbering;
 5. the dead ends, verbatim;
 6. what the row asked for and was not done, and why (pages missing on
-   BDRC, a restricted volume, time);
+   BDRC, a restricted volume, a *best after* reading not yet there,
+   time);
 7. the scratch directory, and whether the shared scan cache gained
    pages;
 8. `gpu.py`'s last line.
 
 A subagent that is blocked (a loan that will not open, a volume that
-answers 401, two models on the card for more than ten minutes) says so
-in its report rather than working around it with a new tool or a
-reading from memory.
-
-## After a unit: the launcher
-
-1. **Merge in report order.** From the main checkout, `git merge
-   --ff-only work/rd<n>` for each; a refusal means `main` moved: rebase
-   in that subagent's worktree (keeping both sides), run `SourcesTest`
-   there, merge again.
-2. **The bookkeeping commit**, in `work/unit-<n>` rebased on the new
-   `main`: each reading's row in the roadmap marked "— done YYYY-MM-DD"
-   after its name only if its topic file now holds its text (step 5's
-   checks, read, not trusted); a reading not finished keeps its row and
-   gets a note of what is left, or a new O… row; the questions numbered
-   on from the last one in `open-questions.md`, each with its topic file
-   linked, and the "Question:" lines in the topic files replaced by the
-   numbers; the dead ends appended to PLAN.md's *Dead ends* with their
-   dates; `docs/sources/wb/README.md`'s *Images done* extended (local,
-   not committed). Then `./gradlew :core:test` in full, and the commit
-   `docs: unit <n> read (RD<a>, RD<b>, RD<c>)`, merged fast-forward.
-3. **Clean up.** `git worktree remove --force` and `git branch -d` for
-   the three subagent branches and the unit's own; the subagents'
-   scratch directories deleted, the shared scan cache and the machine
-   transcriptions under `docs/sources/wb/` kept; `gpu.py` clean; no
-   browser left running.
-4. **Report to the owner**: the three readings with their commits, what
-   stays open, what the next unit will be. Pushing waits for the
-   owner's word; a push carries every session's commits.
-5. **The next unit** from step 1 of *Before a unit*, with the table
-   recomputed.
+answers 401, no slot for twenty minutes) says so in its report rather
+than working around it with a new tool or a reading from memory.
 
 ## The prompt for a subagent
 
-Filled in by the launcher; `<…>` are the places to fill.
+`schedule.py prompts DIR` writes it; this is its shape, for a prompt
+written by hand:
 
-```
+```text
 Read RD<n> for Zanshin Calendar: <the row's Prompt column, verbatim>.
 
-You are one of three readers working at once; follow
+You are one of several readers working at once; follow
 docs/sources/PROTOCOL.md, "The subagent's sequence", step by step, and
 docs/sources/PLAN.md for how to read. Your worktree is
-../Zanshin_Calendar-wt/rd<n>, branch work/rd<n>, from main at <hash>,
-which holds your topic file's stub (section "<heading>" in <file>).
-Pages: <source>, pp. <a>–<b>, img. <c>–<d>; already machine-read:
-<images or "none">.
-GPU: <slot A | slot B | none: etext and catalogue work; message the
-launcher for a slot if a scan is needed>. The archive.org loan:
-<yours | not yours>. agy: <your turn | not yours: write doubts down>.
+../Zanshin_Calendar-wt/rd<n>, branch work/rd<n>, from main at <hash>.
+Pages: <the row's source cell>.
+Your topic file: <file>; section "<heading>" in <file>.
+Resources: <card | etext>, <loan>, <agy>, <best after RDm>. A model
+runs only through `python3 tools/sources/schedule.py slot -- ...`, which
+waits for a free GPU slot. The archive.org loan is <yours | not yours>;
+agy is <your turn | not your turn: write doubts down as doubts>.
 Do not merge, push, edit the main checkout, number questions, edit
 ROADMAP.md, PLAN.md or open-questions.md, or sign anything. Stop after
 the rebase and report in the shape of step 8.

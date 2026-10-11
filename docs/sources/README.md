@@ -3,7 +3,7 @@
 The texts behind the roadmap's T2 and T3 items, one topic per file, with the
 Tibetan as printed and its content restated in English (SPEC §8: facts in
 our own words). How to read them is in [PLAN.md](PLAN.md), and how several
-are read at once, three subagents to a unit, in [PROTOCOL.md](PROTOCOL.md);
+are read at once, a subagent each, in [PROTOCOL.md](PROTOCOL.md);
 what is still to be read, and why, in the work plan of
 [ROADMAP.md](../ROADMAP.md) (T2).
 
