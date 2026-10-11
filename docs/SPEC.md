@@ -2570,6 +2570,13 @@ carries no sound file.
   times at the end, 5 s apart (the wood block's 0.9 s). The timer stops
   once the last strikes have faded. While it runs only the dial, "Period
   2 of 3" under its time, the session's time left and Stop show.
+- **Keep the screen on:** a switch under the session's settings, off by
+  default. When on, Begin keeps the screen on (the window's
+  keep-screen-on flag, no permission), past the last bell and past Stop,
+  until the meditation screen is left by its back arrow, Back or the
+  menu; opening the screen again at rest does not hold it. A sitting
+  under way when the screen is opened, from its notification, holds it
+  at once.
 - **Presets:** the session set can be saved under a name, listed above
   the session's settings with its periods ("20 + 10 + 30 min"); a tap
   sets it, marked by a check while the settings match it, a cross

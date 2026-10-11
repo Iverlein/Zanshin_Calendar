@@ -1130,6 +1130,14 @@ Java of the Google Code era, and its one sound file names no source.
   rang on time with the screen off and stopped its service; the bell rang
   at 14:15:00 exact and set 14:30, rang from a cold process, stayed
   quiet on silent, and switching it off cleared the alarm.
+- **Keep the screen on** (2026-10-11, owner's request): a switch under
+  the session's settings; from Begin the screen stays on, past the last
+  bell and Stop, until the meditation screen is left. Checked on the
+  emulator by the window's `KEEP_SCREEN_ON` flag in `dumpsys window`:
+  off at rest, on through an 8 s sitting and after its last bell, on
+  after Stop, off once the back arrow left the screen and when it was
+  opened again; never on with the switch off; the switch stored on tap,
+  shown in English and Russian.
 
 ## UX
 

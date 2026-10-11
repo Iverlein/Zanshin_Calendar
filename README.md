@@ -41,7 +41,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   annotations name good, in date order.
 - **Meditation:** a timer of a warm-up and periods of any length, a wood
   block between periods (as a zazen of 20, 10 and 30 minutes), saved as
-  presets, ringing with the screen off; and a mindfulness bell through the
+  presets, ringing with the screen off or, if you choose, keeping it on
+  until you leave the timer; and a mindfulness bell through the
   day, at fixed or random times within set hours, showing a message of
   your own while it rings. The bells are
   synthesised on the phone, so no sound file is bundled.
