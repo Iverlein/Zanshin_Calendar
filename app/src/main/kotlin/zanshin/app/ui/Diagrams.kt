@@ -912,12 +912,8 @@ fun WorkGrid(
                         verticalArrangement = Arrangement.Center,
                     ) {
                         Text("${c.date}", style = body.copy(fontSize = 14.sp, color = if (c.marked) Palette.text else Palette.muted))
-                        val dot = Modifier.padding(top = 3.dp).size(6.dp)
-                        if (c.forYou) {
-                            Box(dot.border(1.4.dp, Palette.bad, CircleShape))
-                        } else {
-                            Box(dot.background(toneColor(c.tone), CircleShape))
-                        }
+                        // The person's own days to avoid as an outline, the weighed side solid (ROADMAP U12).
+                        ToneDot(if (c.forYou) Tone.BAD else c.tone, outline = c.forYou, size = 8.dp, modifier = Modifier.padding(top = 3.dp))
                     }
                 }
             }
@@ -1038,7 +1034,7 @@ fun LunarDateGrid(today: Int) {
                         verticalArrangement = Arrangement.Center,
                     ) {
                         Text("$d", style = body.copy(fontSize = 14.sp, color = if (on) Palette.text else Palette.muted))
-                        Box(Modifier.padding(top = 3.dp).size(6.dp).background(toneColor(Texts.lunarDateTone(d)), CircleShape))
+                        ToneDot(Texts.lunarDateTone(d), size = 8.dp, modifier = Modifier.padding(top = 3.dp))
                     }
                 }
             }

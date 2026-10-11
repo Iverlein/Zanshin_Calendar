@@ -106,63 +106,68 @@ fun BriefRow(summary: DaySummary, onOpen: () -> Unit) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(stringResource(R.string.kyu_in_brief), style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold))
                 summary.verdict?.let { v ->
-                    Box(Modifier.size(8.dp).background(toneColor(v.tone), CircleShape))
+                    ToneDot(v.tone)
                     Text(dayLabel!!, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 }
             }
             // The person's enemy weekday or death mansion: every work to avoid, beside the day's tone (ROADMAP E6).
             avoidAll?.let { Text(it, style = body.copy(fontSize = 14.sp, color = Palette.bad)) }
-            if (summary.verdict != null) {
-                // The glyphs show the heaviest works only; the counts say how the day's lists divide (ROADMAP T2.7).
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Box(Modifier.weight(1f)) { WeighedLine(summary) }
-                    // One above the other, so that they take half the width and leave it to the glyphs.
-                    Column(horizontalAlignment = Alignment.End) {
-                        val small = body.copy(fontSize = 12.sp, lineHeight = 14.sp)
-                        if (avoidAll == null) {
-                            Text(stringResource(R.string.brief_row_good, summary.good.size), style = small.copy(color = Palette.good), maxLines = 1)
-                        }
-                        Text(stringResource(R.string.brief_row_avoid, summary.avoid.size), style = small.copy(color = Palette.bad), maxLines = 1)
-                    }
+            // Both pages alike (ROADMAP U16): each side under its word and count, eight glyphs at most, a side with
+            // fewer leaving its places to the other; the Tibetan line by the works' weights, the 旧暦's by family order.
+            SidesLine(
+                goodCount = if (avoidAll == null) summary.good.size else null,
+                avoidCount = summary.avoid.size,
+            ) { slots ->
+                if (summary.verdict != null) {
+                    val (good, avoid) = summary.row(slots)
+                    good.map { it.activity.family to Palette.good } to avoid.map { it.activity.family to Palette.bad }
+                } else {
+                    val disputed = summary.disputedFamilies
+                    fun colour(f: ActivityFamily, side: Color) = if (f in disputed) Palette.mixed else side
+                    val (good, avoid) = summary.familyRow(slots)
+                    good.map { it to colour(it, Palette.good) } to avoid.map { it to colour(it, Palette.bad) }
                 }
-            } else {
-                FamilyLine(stringResource(R.string.brief_good), summary.goodFamilies, summary.disputedFamilies, Palette.good)
-                FamilyLine(stringResource(R.string.brief_avoid), summary.avoidFamilies, summary.disputedFamilies, Palette.bad)
             }
         }
         Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp))
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
+/**
+ * The In brief line of both pages (SPEC §10.7, ROADMAP U16): the families named good, then those to avoid, each
+ * side under its word and its count in its tone ("good 53", "avoid 36"; no good side on the person's enemy
+ * weekday). [sides] gives each side's glyphs and colours for the places that fit, eight at most.
+ */
 @Composable
-private fun FamilyLine(label: String, families: List<ActivityFamily>, disputed: Set<ActivityFamily>, color: Color) {
-    if (families.isEmpty()) return
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text(label, style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = color), modifier = Modifier.width(62.dp))
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(9.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            for (f in families) CueIcon(CueGlyphs.FAMILY.getValue(f), if (f in disputed) Palette.mixed else color, 22.dp)
+private fun SidesLine(
+    goodCount: Int?,
+    avoidCount: Int,
+    sides: (slots: Int) -> Pair<List<Pair<ActivityFamily, Color>>, List<Pair<ActivityFamily, Color>>>,
+) {
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        val fit = ((maxWidth - SIDE_GAP + GLYPH_GAP) / (GLYPH + GLYPH_GAP)).toInt()
+        val (good, avoid) = sides(minOf(DaySummary.ROW_SLOTS, fit))
+        Row(horizontalArrangement = Arrangement.spacedBy(SIDE_GAP)) {
+            if (goodCount != null && (good.isNotEmpty() || goodCount > 0)) Side(stringResource(R.string.brief_row_good, goodCount), Palette.good, good)
+            if (avoid.isNotEmpty() || avoidCount > 0) Side(stringResource(R.string.brief_row_avoid, avoidCount), Palette.bad, avoid)
         }
     }
 }
 
-/**
- * The Tibetan line: one row, however many works the day names (SPEC §10.7). As
- * many places as fit, eight at most; the heaviest good works' families, a rule,
- * then the heaviest to avoid.
- */
+/** One side of the In brief line: its word and count, its glyphs under them. */
 @Composable
-private fun WeighedLine(summary: DaySummary) {
-    BoxWithConstraints {
-        val fit = ((maxWidth - 1.dp) / (22.dp + 9.dp)).toInt()
-        val (good, avoid) = remember(summary, fit) { summary.row(minOf(DaySummary.ROW_SLOTS, fit)) }
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(9.dp)) {
-            for (n in good) CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), Palette.good, 22.dp)
-            if (good.isNotEmpty() && avoid.isNotEmpty()) Box(Modifier.width(1.dp).height(16.dp).background(Palette.faint))
-            for (n in avoid) CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), Palette.bad, 22.dp)
+private fun Side(label: String, tone: Color, glyphs: List<Pair<ActivityFamily, Color>>) {
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text(label, style = body.copy(fontSize = 12.sp, lineHeight = 14.sp, fontWeight = FontWeight.SemiBold, color = tone), maxLines = 1)
+        Row(horizontalArrangement = Arrangement.spacedBy(GLYPH_GAP)) {
+            for ((family, colour) in glyphs) CueIcon(CueGlyphs.FAMILY.getValue(family), colour, GLYPH)
         }
     }
 }
+
+private val GLYPH = 22.dp
+private val GLYPH_GAP = 9.dp
+private val SIDE_GAP = 20.dp
 
 /**
  * The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed
@@ -209,7 +214,7 @@ fun DaySummarySheet(
 
             s.verdict?.let { v ->
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Box(Modifier.padding(top = 8.dp).size(10.dp).background(toneColor(v.tone), CircleShape))
+                    ToneDot(v.tone, modifier = Modifier.padding(top = 8.dp))
                     Column {
                         Text(
                             stringResource(if (v.tone == Tone.GOOD) R.string.brief_day_good else R.string.brief_day_bad),
@@ -239,7 +244,7 @@ fun DaySummarySheet(
 
             if (s.avoidAll.isNotEmpty()) {
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Box(Modifier.padding(top = 8.dp).size(10.dp).background(Palette.bad, CircleShape))
+                    ToneDot(Tone.BAD, modifier = Modifier.padding(top = 8.dp))
                     Column {
                         Text(stringResource(R.string.brief_avoid_all_title), style = body.copy(fontSize = 18.sp))
                         Text(s.avoidAll.joinToString(" · ") { "${it.kanji}, ${it.english}" }, style = body.copy(fontSize = 14.sp, color = Palette.muted))
@@ -267,7 +272,7 @@ fun DaySummarySheet(
                     val entries = s.byTone[tone].orEmpty()
                     if (entries.isEmpty()) continue
                     Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(tone), CircleShape))
+                        ToneDot(tone, modifier = Modifier.padding(top = 6.dp))
                         Terms(entries)
                     }
                 }
@@ -278,7 +283,7 @@ fun DaySummarySheet(
                     for ((by, entries) in s.setAside) {
                         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                Box(Modifier.size(8.dp).background(toneColor(by.tone), CircleShape))
+                                ToneDot(by.tone)
                                 GlossText(by.kanji, by.english, termStyle)
                             }
                             Text(
@@ -297,7 +302,7 @@ fun DaySummarySheet(
                         // The Tibetan day's own weekday and mansions: shown with their tones, not weighed (SPEC §5.12).
                         for (e in s.personal) {
                             Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                                Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(e.tone), CircleShape))
+                                ToneDot(e.tone, modifier = Modifier.padding(top = 6.dp))
                                 Column {
                                     Text(e.kanji, style = body.copy(fontSize = 16.sp))
                                     Text(e.english, style = body.copy(fontSize = 14.sp, color = Palette.muted))
@@ -320,7 +325,7 @@ fun DaySummarySheet(
                     }
                     s.affinity?.let { a ->
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Box(Modifier.size(8.dp).background(toneColor(a.relation.tone), CircleShape))
+                            ToneDot(a.relation.tone)
                             GlossText(a.relation.kanji, a.relation.english, termStyle, reading = a.relation.reading)
                             Text(stringResource(R.string.brief_birth_star, a.cycleEnglish), style = body.copy(fontSize = 14.sp, color = Palette.muted))
                         }
@@ -455,7 +460,7 @@ private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
     @Composable
     fun Times(dot: Color, label: String, times: List<Pair<String, Int>>) {
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            Box(Modifier.padding(top = 7.dp).size(8.dp).background(dot, CircleShape))
+            Box(Modifier.padding(top = 6.dp).size(10.dp).background(dot, CircleShape))
             Column {
                 Text(label, style = body.copy(fontSize = 14.sp, color = Palette.muted))
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(16.dp)) {

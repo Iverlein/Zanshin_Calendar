@@ -67,7 +67,14 @@ import zanshin.core.texts.toneOf
  * breakdown or a reading's lists opens its 旧暦 election through [onElect] (ROADMAP E5).
  */
 @Composable
-fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = Modifier, onElect: (Activity) -> Unit = {}) {
+fun KyurekiPage(
+    info: DayInfo,
+    birthStar: KyuSei? = null,
+    modifier: Modifier = Modifier,
+    /** Shows the first-run line under the brief (ROADMAP U18); a tap on it calls this. */
+    onFirstRun: (() -> Unit)? = null,
+    onElect: (Activity) -> Unit = {},
+) {
     val day = info.kyureki
     val rk = info.rekichu
     val accent = Palette.vermilion
@@ -173,6 +180,7 @@ fun KyurekiPage(info: DayInfo, birthStar: KyuSei? = null, modifier: Modifier = M
         }
 
         BriefRow(summary) { summaryOpen = true }
+        onFirstRun?.let { FirstRunLine(stringResource(R.string.first_run_kyureki), it) }
 
         Row(
             modifier = Modifier

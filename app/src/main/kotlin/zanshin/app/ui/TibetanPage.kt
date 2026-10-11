@@ -108,6 +108,8 @@ fun TibetanPage(
     person: Person? = null,
     /** The place whose sun gives the hours' rough times; none when no place is set. */
     place: Place? = null,
+    /** Shows the first-run line under the brief (ROADMAP U18); a tap on it calls this. */
+    onFirstRun: (() -> Unit)? = null,
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -247,6 +249,7 @@ fun TibetanPage(
         HoursRow(summary, day, hourSigns, currentHour, nowMinute) { hoursFrom = it; hoursOpen = true }
 
         BriefRow(summary) { summaryOpen = true }
+        onFirstRun?.let { FirstRunLine(stringResource(R.string.first_run_tibetan), it) }
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
 
@@ -295,8 +298,6 @@ fun TibetanPage(
         val alsoCalledLabel = stringResource(R.string.detail_also_called)
         val hairWashingLabel = stringResource(R.string.detail_hair_washing)
         val rahuTitle = stringResource(R.string.tib_rahu_title)
-        val rahuSubtitle = stringResource(R.string.tib_rahu_subtitle, day.day)
-        val rahuGeneralSubtitle = stringResource(R.string.tib_rahu_general_subtitle, day.day)
         val rahuMonthSubtitle = stringResource(R.string.tib_rahu_month_subtitle, day.monthNames.chineseSeason)
         val rahuSeasonSubtitle = stringResource(R.string.tib_rahu_season_subtitle, day.monthNames.chineseSeason)
         // Rāhu's compass: the course its date's reading gives, the detailed where it names one (SPEC §10.7).
@@ -310,6 +311,12 @@ fun TibetanPage(
             )
             RahuMove.IntoTheLake -> stringResource(R.string.rahu_course_lake, day.day)
             RahuMove.Everywhere -> stringResource(R.string.rahu_course_everywhere, day.day)
+        }
+        // The row's second line is the course itself, as the compass draws it (ROADMAP U13); detailed or general is in the caption.
+        val rahuSubtitle = when (rahuMove) {
+            is RahuMove.Across -> "${rahuMove.from.english} → ${rahuMove.to.english}"
+            RahuMove.IntoTheLake -> stringResource(R.string.tib_rahu_lake)
+            RahuMove.Everywhere -> stringResource(R.string.tib_rahu_everywhere)
         }
         val rahuMark: @Composable () -> Unit = { RahuCompass(rahuMove, 24.dp, rahuCaption, small = true) }
         val rahuDiagram: @Composable () -> Unit = { RahuCompass(rahuMove, 200.dp, rahuCaption) }
@@ -340,11 +347,11 @@ fun TibetanPage(
             "${day.weekday.element.english}–${day.mansion.element.english}",
         )
         val greatCombinationSubtitle = stringResource(R.string.tib_great_combination_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
-        val combinationDaySubtitle = stringResource(R.string.tib_combination_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
-        val gtsugLagDaySubtitle = stringResource(R.string.tib_gtsug_lag_day_subtitle, "${day.weekday.english} + ${day.mansion.sanskrit}")
+        // A special day's row names what makes it, its kind and its reckoning in the sheet (ROADMAP U13).
+        val combinationDaySubtitle = "${day.weekday.english} + ${day.mansion.sanskrit}"
         val specialDaysTitle = stringResource(R.string.tib_special_days_title)
         val specialDaysNote = stringResource(R.string.tib_special_days_note)
-        val burningDateSubtitle = stringResource(R.string.tib_burning_date_subtitle, "${day.weekday.english} + $lunarDateTitle")
+        val burningDateSubtitle = "${day.weekday.english} + $lunarDateTitle"
         val rahuCourses = stringResource(R.string.tib_rahu_courses)
         // The row of the factor that decided the day's tone carries a mark (ROADMAP U2).
         fun decides(factor: DayFactor) = summary.verdict?.factor == factor
@@ -501,7 +508,7 @@ fun TibetanPage(
             // Rāhu's courses by date and by month, one row: the White Beryl's one Rāhu (SPEC §5.13).
             val rahu = listOfNotNull(
                 Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
-                Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuGeneralSubtitle, Tone.NEUTRAL, it, subtitle = rahuGeneralSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
+                Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_MONTH[day.month to day.day]?.let { Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, it, subtitle = rahuMonthSubtitle, titleIsKanji = false) },
                 RahuBySeason.of(day.month, day.day)?.let { Texts.RAHU_SEASON[it] }?.let { Annotation(rahuTitle, rahuSeasonSubtitle, Tone.NEUTRAL, it, subtitle = rahuSeasonSubtitle, titleIsKanji = false) },
             )
@@ -546,7 +553,7 @@ fun TibetanPage(
                     cScript,
                     if (c.lucky) Tone.GOOD else Tone.BAD,
                     if (gtsugLag) Texts.GTSUG_LAG_DAY[c] else Texts.COMBINATION_DAY[c],
-                    subtitle = if (gtsugLag) gtsugLagDaySubtitle else combinationDaySubtitle,
+                    subtitle = combinationDaySubtitle,
                     titleIsKanji = false,
                     details = listOf(tibetanLabel to cScript),
                 )

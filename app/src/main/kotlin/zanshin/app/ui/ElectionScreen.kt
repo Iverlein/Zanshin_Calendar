@@ -362,7 +362,7 @@ private fun KyurekiDayRow(d: KyurekiElectionDay, onOpenDay: (LocalDate) -> Unit)
             verticalAlignment = Alignment.Top,
             horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(d.side ?: Tone.NEUTRAL), CircleShape))
+            ToneDot(d.side ?: Tone.NEUTRAL, modifier = Modifier.padding(top = 6.dp))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalAlignment = Alignment.CenterVertically) {
                     Text(d.date.format(labels.headerDate), style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold))
@@ -454,7 +454,7 @@ private fun MonthBlock(m: ElectionMonth, from: LocalDate) {
 private fun Hours(label: String, tone: Tone, runs: List<PeriodRun>) {
     if (runs.isEmpty()) return
     Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        Box(Modifier.padding(top = 7.dp).size(8.dp).background(toneColor(tone), CircleShape))
+        ToneDot(tone, modifier = Modifier.padding(top = 6.dp))
         Column {
             Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -489,7 +489,7 @@ private fun BestDay(d: ElectionDay, onOpenDay: (LocalDate) -> Unit) {
             verticalAlignment = Alignment.Top,
             horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Box(Modifier.padding(top = 7.dp).size(8.dp).background(Palette.good, CircleShape))
+            ToneDot(Tone.GOOD, modifier = Modifier.padding(top = 6.dp))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalAlignment = Alignment.CenterVertically) {
                     // A span runs into the next year: the date with its weekday and year, as the header gives it.
@@ -502,14 +502,14 @@ private fun BestDay(d: ElectionDay, onOpenDay: (LocalDate) -> Unit) {
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
                     Text(by, style = body.copy(fontSize = 14.sp))
                     // The combination's tone orders days of one rank (ROADMAP E, the order's third step).
-                    combination?.let { Box(Modifier.size(6.dp).background(toneColor(it), CircleShape)) }
+                    combination?.let { ToneDot(it, size = 8.dp) }
                 }
                 Text(withTibetan(d.standing.joinToString(" · ") { it.kanji }), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                 if (d.personal.isNotEmpty()) {
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
                         Text(stringResource(R.string.brief_for_you), style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.saffron))
                         for (p in d.personal) {
-                            Box(Modifier.size(6.dp).background(toneColor(p.tone), CircleShape))
+                            ToneDot(p.tone, size = 8.dp)
                             Text(withTibetan(p.kanji), style = body.copy(fontSize = 12.sp, color = Palette.muted))
                         }
                     }

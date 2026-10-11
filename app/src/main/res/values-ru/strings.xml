@@ -157,6 +157,9 @@
     <string name="kyu_pardon_day">день небесного прощения — хорош для всего</string>
     <string name="kyu_day_in_brief">День вкратце</string>
     <string name="kyu_in_brief">Вкратце</string>
+    <string name="first_run_tibetan">Нажмите на любую строку, чтобы открыть её толкование; день решает сплошная точка</string>
+    <string name="first_run_kyureki">Нажмите на любую строку, чтобы открыть её толкование; каждый иероглиф по нажатию показывает перевод</string>
+    <string name="first_run_dismiss">Скрыть</string>
     <string name="kyu_brief_counts">хорошо: %1$d · избегать: %2$d</string>
     <string name="kyu_brief_disputed">\u0020· спорных: %1$d</string>
     <string name="kyu_begins_today">начинается сегодня</string>
@@ -183,7 +186,6 @@
     <string name="menu_open">Открыть меню</string>
     <string name="choose_date">Выбрать дату</string>
     <string name="today">Сегодня</string>
-    <string name="switch_calendar">Сменить календарь</string>
     <string name="calendar_tibetan">Тибетский</string>
     <string name="sky_set_location">Укажите место для восхода и заката</string>
     <string name="sky_sunrise">Восход</string>
@@ -191,6 +193,8 @@
     <string name="sky_sunset">Закат</string>
     <string name="sky_altitude">· %1$.1f°</string>
     <string name="change_location">Сменить место</string>
+    <string name="sky_show_place">Показать место</string>
+    <string name="sky_place">Место</string>
     <string name="menu_close">Закрыть меню</string>
     <string name="menu_calendar">КАЛЕНДАРЬ</string>
     <string name="menu_tibetan_subtitle">Пхугпа (ཕུག་པ, phug pa)</string>
@@ -339,11 +343,8 @@
     <string name="tib_combination_disagree">%1$s · %2$s: части расходятся, тона нет</string>
     <string name="tib_combination_note">Один голос при взвешивании: именное сочетание дня недели и созвездия и его пара стихий. Где обе части согласны, сочетание — итог дня, перевешивающий все прочие факторы, даже благоприятные день недели и созвездие; где они расходятся, тона у него нет, и день решает сильнейший фактор, который занимает сторону.</string>
     <string name="tib_great_combination_subtitle">именное сочетание дня недели и созвездия: %1$s</string>
-    <string name="tib_combination_day_subtitle">особый день дня недели и созвездия: %1$s</string>
-    <string name="tib_gtsug_lag_day_subtitle">особый день дня недели и созвездия по «Ваджрному трактату» (རྡོ་རྗེ་གཙུག་ལག, rdo rje gtsug lag): %1$s</string>
     <string name="tib_special_days_title">Особые дни</string>
     <string name="tib_special_days_note">При взвешивании это один голос, а когда они расходятся — никакого; особые дни дня недели и созвездия стоят ниже дня недели и созвездия, чьи собственные плоды — главное, а альманах записывает рядом с ними дату сожжения.</string>
-    <string name="tib_burning_date_subtitle">дата сожжения по дню недели и числу: %1$s</string>
     <string name="tib_rahu_courses">его пути по числу и по месяцу</string>
     <string name="tib_bla_mkhyen_title">Дух-астролог (བླ་མཁྱེན, bla mkhyen)</string>
     <string name="tib_black_day_title">Великий чёрный день (ཉི་མ་ནག་ཆེན, nyi ma nag chen)</string>
@@ -360,9 +361,9 @@
     <string name="desc_bla_mkhyen_compass">Сторона духа-астролога, север вверху. %1$s</string>
     <string name="tib_nectar_title">Периоды нектара</string>
     <string name="tib_rahu_title">Путь Раху</string>
-    <string name="tib_rahu_subtitle">%1$d-е число: куда движется Раху и для чего хорош день</string>
+    <string name="tib_rahu_lake">с неба в озеро</string>
+    <string name="tib_rahu_everywhere">во все стороны</string>
     <string name="tib_rahu_month_subtitle">его путь в месяц «%1$s»: хорош для грозных дел</string>
-    <string name="tib_rahu_general_subtitle">%1$d-е число: куда движется Раху</string>
     <string name="tib_rahu_season_subtitle">ищет пищу среди владык земли (ས་བདག, sa bdag) в месяц «%1$s»: хорош для грозных дел</string>
     <string name="tib_earth_lords_title">Пути владык земли</string>
     <string name="tib_earth_lords_note">Владыки земли (ས་བདག, sa bdag), которые движутся по датам, так, как альманах записывает их на день: показаны, но не взвешены, потому что порядок силы их не ранжирует.</string>

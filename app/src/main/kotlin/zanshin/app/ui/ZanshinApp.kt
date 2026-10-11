@@ -9,6 +9,8 @@ import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.selection.selectable
+import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -44,6 +46,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -53,6 +56,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -106,6 +111,26 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
     var today by remember { mutableStateOf(LocalDate.now()) }
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { today = LocalDate.now() }
+
+    // The first-run line (ROADMAP U18): each page's first three opens show it, an open counted once a launch when the
+    // page is first shown; a tap puts it away. Saveable, so that turning the phone is not another open.
+    var countedOpens by rememberSaveable { mutableStateOf(listOf<String>()) }
+    var firstRun by rememberSaveable { mutableStateOf(listOf<String>()) }
+    LaunchedEffect(calendar) {
+        if (calendar.name !in countedOpens) {
+            countedOpens = countedOpens + calendar.name
+            val opens = settings.firstRunOpens(calendar)
+            if (opens < Settings.FIRST_RUN_OPENS) {
+                settings.setFirstRunOpens(calendar, opens + 1)
+                firstRun = firstRun + calendar.name
+            }
+        }
+    }
+    val dismissFirstRun = {
+        settings.setFirstRunOpens(calendar, Settings.FIRST_RUN_OPENS)
+        firstRun = firstRun - calendar.name
+    }
+    val onFirstRun = dismissFirstRun.takeIf { calendar.name in firstRun }
 
     val pager = rememberPagerState(initialPage = Days.pageOf(today)) { Days.count }
     val drawer = rememberDrawerState(DrawerValue.Closed)
@@ -248,7 +273,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                 onMenu = { scope.launch { drawer.open() } },
                 onDate = { pickerOpen = true },
                 onToday = { scope.launch { pager.animateScrollToPage(Days.pageOf(today)) } },
-                onSwitch = { chooseCalendar(if (calendar == CalendarKind.TIBETAN) CalendarKind.KYUREKI else CalendarKind.TIBETAN) },
+                onChoose = ::chooseCalendar,
                 person = people.current,
                 showPerson = people.list.size >= 2,
                 onPerson = { peopleDialog = true },
@@ -261,13 +286,13 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             ) { page ->
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
-                    CalendarKind.TIBETAN -> TibetanPage(info, zone, person = people.current, place = place?.place) { work ->
+                    CalendarKind.TIBETAN -> TibetanPage(info, zone, person = people.current, place = place?.place, onFirstRun = onFirstRun) { work ->
                         electionWork = work
                         electionFrom = info.date
                         electionKyureki = false
                         screen = Screen.ELECTION
                     }
-                    CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null) { work ->
+                    CalendarKind.KYUREKI -> KyurekiPage(info, birthStar = if (kigaku) birth?.let(Kigaku::honmeiStar) else null, onFirstRun = onFirstRun) { work ->
                         electionWork = work
                         electionFrom = info.date
                         electionKyureki = true
@@ -353,12 +378,11 @@ private fun Header(
     onMenu: () -> Unit,
     onDate: () -> Unit,
     onToday: () -> Unit,
-    onSwitch: () -> Unit,
+    onChoose: (CalendarKind) -> Unit,
     person: Person?,
     showPerson: Boolean,
     onPerson: () -> Unit,
 ) {
-    val accent = if (calendar == CalendarKind.TIBETAN) Palette.saffron else Palette.vermilion
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -393,54 +417,88 @@ private fun Header(
             )
         }
         if (showPerson) PersonChip(person, onPerson)
-        Row(
-            modifier = Modifier
-                .height(44.dp)
-                .border(1.dp, accent, RoundedCornerShape(22.dp))
-                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.switch_calendar), onClick = onSwitch)
-                .padding(horizontal = 14.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-        ) {
-            val name = if (calendar == CalendarKind.TIBETAN) stringResource(R.string.calendar_tibetan) else "旧暦"
-            Text(
-                name,
-                style = body.copy(
-                    fontSize = 14.sp,
-                    fontWeight = FontWeight.SemiBold,
-                    color = accent,
-                    fontFamily = if (calendar == CalendarKind.TIBETAN) Figtree else Mincho,
-                ),
-            )
-            Icon(Icons.Swap, contentDescription = null, tint = accent, modifier = Modifier.size(16.dp))
+        CalendarToggle(calendar, onChoose)
+    }
+}
+
+/**
+ * The calendars as two segments, "Tibetan | 旧暦" (SPEC §10.2, ROADMAP U15): the one shown filled in its accent,
+ * the other outlined; a tap on the other switches. Screen readers get them as two tabs, the shown one selected.
+ */
+@Composable
+private fun CalendarToggle(calendar: CalendarKind, onChoose: (CalendarKind) -> Unit) {
+    Row(Modifier.height(44.dp).selectableGroup(), verticalAlignment = Alignment.CenterVertically) {
+        for (kind in CalendarKind.entries) {
+            val selected = kind == calendar
+            val tibetan = kind == CalendarKind.TIBETAN
+            val accent = if (tibetan) Palette.saffron else Palette.vermilion
+            val shape = if (tibetan) RoundedCornerShape(topStart = 18.dp, bottomStart = 18.dp) else RoundedCornerShape(topEnd = 18.dp, bottomEnd = 18.dp)
+            val name = if (tibetan) stringResource(R.string.calendar_tibetan) else "旧暦"
+            val spoken = if (tibetan) name else stringResource(R.string.menu_kyureki)
+            // The whole height takes the tap; the segment is drawn 36 dp high within it.
+            Box(
+                Modifier
+                    .fillMaxHeight()
+                    .selectable(selected = selected, role = Role.Tab) { if (!selected) onChoose(kind) }
+                    .semantics { contentDescription = spoken },
+                contentAlignment = Alignment.Center,
+            ) {
+                Box(
+                    Modifier
+                        .height(36.dp)
+                        .then(if (selected) Modifier.background(accent, shape) else Modifier.border(1.dp, accent, shape))
+                        // No wider than the pill it replaced, which the date beside it needs in Russian.
+                        .padding(horizontal = 7.dp),
+                    contentAlignment = Alignment.Center,
+                ) {
+                    Text(
+                        name,
+                        style = body.copy(
+                            fontSize = 13.sp,
+                            fontWeight = FontWeight.SemiBold,
+                            color = if (selected) Palette.ink else accent,
+                            fontFamily = if (tibetan) Figtree else Mincho,
+                        ),
+                        maxLines = 1,
+                    )
+                }
+            }
         }
     }
 }
 
+/**
+ * The sky line under both pages (SPEC §10.2, §10.5; ROADMAP U8): sunrise, noon with its altitude and sunset on
+ * one line of 44 dp, read once a day; the place is in the balloon a tap on the line opens, with "Change location".
+ */
 @Composable
 private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit) {
-    Column(
-        modifier = Modifier
-            .fillMaxWidth()
-            .drawTopLine()
-            .padding(start = 24.dp, end = 24.dp, top = 12.dp, bottom = 8.dp),
-        verticalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        if (place == null) {
+    val line = Modifier
+        .fillMaxWidth()
+        .drawTopLine()
+        .height(44.dp)
+    if (place == null) {
+        Box(line.clickable(role = Role.Button, onClick = onLocation).padding(horizontal = 24.dp), contentAlignment = Alignment.CenterStart) {
             Text(
                 stringResource(R.string.sky_set_location),
                 style = body.copy(fontSize = 14.sp, color = Palette.muted),
-                modifier = Modifier
-                    .heightIn(min = 44.dp)
-                    .clickable(role = Role.Button, onClick = onLocation)
-                    .padding(vertical = 12.dp)
-                    .dottedUnderline(),
+                maxLines = 1,
+                modifier = Modifier.dottedUnderline(),
             )
-            return@Column
         }
-        val sun = remember(date, place) { SunTimes.of(date, place.place) }
-        val labels = LocalLabels.current
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+        return
+    }
+    val sun = remember(date, place) { SunTimes.of(date, place.place) }
+    val labels = LocalLabels.current
+    var open by remember { mutableStateOf(false) }
+    Box {
+        Row(
+            line
+                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.sky_show_place)) { open = !open }
+                .padding(horizontal = 24.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
             SkyItem(Icons.Sunrise, sun.sunrise?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunrise))
             SkyItem(
                 Icons.Sun,
@@ -450,15 +508,13 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
             )
             SkyItem(Icons.Sunset, sun.sunset?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunset))
         }
-        Row(
-            modifier = Modifier
-                .heightIn(min = 36.dp)
-                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.change_location), onClick = onLocation),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-        ) {
-            Icon(Icons.Pin, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(14.dp))
-            Text(place.label, style = body.copy(fontSize = 13.sp, color = Palette.faint))
+        if (open) {
+            Balloon(
+                rows = listOf(BalloonRow(stringResource(R.string.sky_place), place.label)),
+                preferAbove = true,
+                actions = listOf(BalloonAction(stringResource(R.string.change_location), onLocation)),
+                onDismiss = { open = false },
+            )
         }
     }
 }
@@ -467,8 +523,8 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
 private fun SkyItem(icon: ImageVector, time: String, label: String, suffix: String? = null) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
         Icon(icon, contentDescription = label, tint = Palette.muted, modifier = Modifier.size(20.dp))
-        Text(time, style = body.copy(fontFeatureSettings = "tnum"))
-        if (suffix != null) Text(suffix, style = body.copy(color = Palette.muted, fontFeatureSettings = "tnum"))
+        Text(time, style = body.copy(fontFeatureSettings = "tnum"), maxLines = 1)
+        if (suffix != null) Text(suffix, style = body.copy(color = Palette.muted, fontFeatureSettings = "tnum"), maxLines = 1)
     }
 }
 

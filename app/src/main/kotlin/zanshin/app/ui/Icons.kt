@@ -18,7 +18,6 @@ object Icons {
     val ChevronDown = stroke("M6 9l6 6 6-6", 2f)
     val ChevronLeft = stroke("M15 5l-7 7 7 7", 2f)
     val ChevronRight = stroke("M9 5l7 7-7 7", 2f)
-    val Swap = stroke("M7 7h12l-3-3M17 17H5l3 3", 2f)
     val Close = stroke("M6 6l12 12M18 6 6 18")
     val Check = stroke("M5 12l5 5 9-10", 2.2f)
     val Info = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M12 11v6M12 7.5v.5")

@@ -75,6 +75,16 @@ class Settings(context: Context) {
         get() = prefs.getBoolean(KEY_KIGAKU, false)
         set(value) = prefs.edit().putBoolean(KEY_KIGAKU, value).apply()
 
+    /**
+     * How many times each page has been opened with its first-run line (SPEC §10.2, ROADMAP U18): the line shows
+     * while this is under [FIRST_RUN_OPENS]; a tap on the line sets it there at once.
+     */
+    fun firstRunOpens(kind: CalendarKind): Int = prefs.getInt(firstRunKey(kind), 0)
+
+    fun setFirstRunOpens(kind: CalendarKind, opens: Int) = prefs.edit().putInt(firstRunKey(kind), opens).apply()
+
+    private fun firstRunKey(kind: CalendarKind) = "first_run_" + kind.name.lowercase(Locale.ROOT)
+
     /** The app's language before Android 13 (see [AppLanguage]); null follows the phone. */
     var language: String?
         get() = prefs.getString(KEY_LANGUAGE, null)
@@ -83,17 +93,19 @@ class Settings(context: Context) {
             prefs.edit().apply { if (value == null) remove(KEY_LANGUAGE) else putString(KEY_LANGUAGE, value) }.commit()
         }
 
-    private companion object {
-        const val KEY_LANGUAGE = "language"
-        const val KEY_BIRTH = "birth"
-        const val KEY_PEOPLE = "people"
-        const val KEY_PERSON = "person"
-        const val KEY_KIGAKU = "kigaku"
-        const val KEY_CALENDAR = "calendar"
-        const val KEY_LAT = "lat"
-        const val KEY_LON = "lon"
-        const val KEY_ZONE = "zone"
-        const val KEY_LABEL = "label"
+    companion object {
+        /** The opens of each page that show its first-run line. */
+        const val FIRST_RUN_OPENS = 3
+        private const val KEY_LANGUAGE = "language"
+        private const val KEY_BIRTH = "birth"
+        private const val KEY_PEOPLE = "people"
+        private const val KEY_PERSON = "person"
+        private const val KEY_KIGAKU = "kigaku"
+        private const val KEY_CALENDAR = "calendar"
+        private const val KEY_LAT = "lat"
+        private const val KEY_LON = "lon"
+        private const val KEY_ZONE = "zone"
+        private const val KEY_LABEL = "label"
     }
 }
 

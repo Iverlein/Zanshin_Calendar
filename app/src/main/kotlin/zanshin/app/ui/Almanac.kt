@@ -181,11 +181,15 @@ data class Annotation(
     val outline: Boolean = false,
 )
 
-/** A tone's dot: solid, or an outline where the tone is shown but does not decide the day (ROADMAP U6). */
+/**
+ * A tone's dot, the one drawn wherever a tone is (ROADMAP U12): solid, or an outline where the tone is shown but
+ * does not decide the day (U6). 10 dp with a ring of a fifth of its size, 2 dp, so that the outline is told from
+ * the solid dot at a glance; `PaletteTest` holds every tone to 3:1 on the backgrounds it is drawn on.
+ */
 @Composable
-fun ToneDot(tone: Tone, outline: Boolean = false, size: Dp = 8.dp, modifier: Modifier = Modifier) {
+fun ToneDot(tone: Tone, outline: Boolean = false, size: Dp = 10.dp, modifier: Modifier = Modifier) {
     val m = modifier.size(size)
-    Box(if (outline) m.border(1.5.dp, toneColor(tone), CircleShape) else m.background(toneColor(tone), CircleShape))
+    Box(if (outline) m.border(size / 5, toneColor(tone), CircleShape) else m.background(toneColor(tone), CircleShape))
 }
 
 /** One annotation in a list: tone dot, term, English; opens its reading. */
@@ -303,7 +307,7 @@ fun ReadingSheet(
 private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> Unit)?, offered: Set<Activity>) {
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Box(Modifier.size(10.dp).background(toneColor(a.tone), CircleShape))
+                ToneDot(a.tone)
                 Text(
                     withTibetan(a.title),
                     style = when {

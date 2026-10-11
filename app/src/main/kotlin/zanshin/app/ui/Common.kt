@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -292,4 +293,26 @@ fun Chip(text: String) {
             .border(1.dp, Palette.lineStrong, RoundedCornerShape(14.dp))
             .padding(horizontal = 12.dp, vertical = 6.dp),
     )
+}
+
+/**
+ * The first-run line under a page's In brief row (SPEC §10.2, ROADMAP U18): interface text, not a reading; a
+ * tap on it calls [onDismiss], which puts it away for good.
+ */
+@Composable
+fun FirstRunLine(text: String, onDismiss: () -> Unit) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .heightIn(min = 44.dp)
+            .background(Palette.raised, RoundedCornerShape(12.dp))
+            .clickable(role = Role.Button, onClickLabel = stringResource(R.string.first_run_dismiss), onClick = onDismiss)
+            .padding(horizontal = 14.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        Icon(Icons.Info, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(18.dp))
+        Text(text, style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted), modifier = Modifier.weight(1f))
+        Icon(Icons.Close, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(16.dp))
+    }
 }

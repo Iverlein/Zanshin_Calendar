@@ -188,6 +188,9 @@
     <!-- action label for screen readers -->
     <string name="kyu_day_in_brief">Day in brief</string>
     <string name="kyu_in_brief">In brief</string>
+    <string name="first_run_tibetan">Tap any row for its reading; the solid dot decides the day</string>
+    <string name="first_run_kyureki">Tap any row for its reading; every kanji shows its English on tap</string>
+    <string name="first_run_dismiss">Dismiss</string>
     <string name="kyu_brief_counts">good for %1$d · avoid %2$d</string>
     <!-- appended to kyu_brief_counts; keep the leading space -->
     <string name="kyu_brief_disputed">\u0020· %1$d disputed</string>
@@ -217,8 +220,6 @@
     <!-- action label for screen readers -->
     <string name="choose_date">Choose date</string>
     <string name="today">Today</string>
-    <!-- action label for screen readers -->
-    <string name="switch_calendar">Switch calendar</string>
     <string name="calendar_tibetan">Tibetan</string>
     <string name="sky_set_location">Set a location for sunrise and sunset</string>
     <string name="sky_sunrise">Sunrise</string>
@@ -228,6 +229,8 @@
     <string name="sky_altitude">· %1$.1f°</string>
     <!-- action label for screen readers -->
     <string name="change_location">Change location</string>
+    <string name="sky_show_place">Show the place</string>
+    <string name="sky_place">Place</string>
     <string name="menu_close">Close menu</string>
     <string name="menu_calendar">CALENDAR</string>
     <string name="menu_tibetan_subtitle">Phugpa (ཕུག་པ, phug pa)</string>
@@ -383,11 +386,8 @@
     <string name="tib_combination_disagree">%1$s · %2$s: the parts disagree, no tone</string>
     <string name="tib_combination_note">One voice in the weighing: the named combination of weekday and mansion and its element pair. Where the two agree, the combination is the day\'s result, outweighing every other factor, even a good weekday and mansion; where they disagree it has no tone, and the strongest factor that takes a side decides the day.</string>
     <string name="tib_great_combination_subtitle">named combination of weekday and mansion: %1$s</string>
-    <string name="tib_combination_day_subtitle">special day of weekday and mansion: %1$s</string>
-    <string name="tib_gtsug_lag_day_subtitle">special day of weekday and mansion, by the Vajra Treatise (རྡོ་རྗེ་གཙུག་ལག, rdo rje gtsug lag): %1$s</string>
     <string name="tib_special_days_title">Special days</string>
     <string name="tib_special_days_note">In the weighing they are one voice, and none when they disagree; the special days of weekday and mansion stand below the weekday and the mansion, whose own results are the main thing, and the almanac writes the burning date with them.</string>
-    <string name="tib_burning_date_subtitle">burning date of weekday and date: %1$s</string>
     <string name="tib_rahu_courses">its courses by date and by month</string>
     <string name="tib_bla_mkhyen_title">The astrologer spirit (བླ་མཁྱེན, bla mkhyen)</string>
     <string name="tib_black_day_title">The great black day (ཉི་མ་ནག་ཆེན, nyi ma nag chen)</string>
@@ -407,9 +407,9 @@
     <string name="desc_bla_mkhyen_compass">The astrologer spirit\'s direction, north at the top. %1$s</string>
     <string name="tib_nectar_title">Nectar periods</string>
     <string name="tib_rahu_title">Rāhu\'s course</string>
-    <string name="tib_rahu_subtitle">date %1$d: where Rāhu moves, and what the day is good for</string>
+    <string name="tib_rahu_lake">from the sky into the lake</string>
+    <string name="tib_rahu_everywhere">every direction</string>
     <string name="tib_rahu_month_subtitle">its course in %1$s: good for fierce work</string>
-    <string name="tib_rahu_general_subtitle">date %1$d: where Rāhu moves</string>
     <string name="tib_rahu_season_subtitle">seeking food among the earth lords (ས་བདག, sa bdag) in %1$s: good for fierce work</string>
     <string name="tib_earth_lords_title">The earth lords\' courses</string>
     <string name="tib_earth_lords_note">The earth lords (ས་བདག, sa bdag) that move by date, as the almanac writes them on the day: shown and not weighed, since the order of strength does not rank them.</string>
