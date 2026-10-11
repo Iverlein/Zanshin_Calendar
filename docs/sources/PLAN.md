@@ -283,6 +283,11 @@ Searched and found wanting, so not to be repeated:
   «ཁྱི་གསར་མི་གསོ» in such a rule outside the model almanac. Not yet searched:
   BDRC's full text, and the *Gtsug lag spor thang* and other works the
   heads may follow.
+- **A reckoning for the dead in WB ch. 31** (RD11, 2026-10-11, the etext
+  of vol. 2): «གཤིན་རྩིས» occurs in ch. 29 (pp. 142–143), in passing in ch. 31
+  (p. 225), ch. 35 (p. 452), the colophon (p. 457) and the notes
+  (pp. 499–540); ch. 31 holds no reckoning for the dead. It is ch. 29,
+  the copper vessel (*zangs kyam*), with the notes' section 4.
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.

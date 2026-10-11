@@ -128,8 +128,7 @@ dead (གསོན་ཁོང་གཤིན་འདོན, gson khong gshin '
 the life-spirit (བླ་རྡེལ, bla rdel) 12; the burial and the funeral of the
 dead (གཤིན་འདུར་ཤིད, gshin 'dur shid), the two, 215; in all, 440. 136, 47
 and 13 are the root counts WB gives again in ch. 22, 24 and 23, and 19
-that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
-*Open*).
+that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 
 #### Ch. 22, the reckoning of lives and karma: the birth (vol. 1, pp. 259–350, img. 269–360) — RD13
 
@@ -166,7 +165,7 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
   and from the person's character which of the five great clans (རུས་ཆེན,
   rus chen) it is. The print reads «དུས་ཁམས», "the element of the time",
   both times; the five great clans point to «རུས་ཁམས», the clan's element
-  (below, *Open*).
+  (question 23).
 - **Size** (p. 262, img. 272, read on the scan):
   «སྤྲོས་ཏེ་རྡེལ་གྲངས་མང་འདོད་ན། །ཉི་ཁྲི་ཉིས་སྟོང་སུམ་བརྒྱ་དང་། །བརྒྱད་ཅུ་ལ་སོགས་འབྱུང་ན་ཡང་། །ལྷག་པོ་སྤྲོས་པ་མ་ཡིན་པའི། །འབྲས་བུ་དངོས་ཀྱི་རྡེའུ་དང་། །བརྩི་དུས་མི་ལུས་ཁྱད་པར་གྱི། །ངོས་འཛིན་མཚན་མའི་རྡེའུ་རྣམས། །ཡོངས་བསྡོམས་རྡེའུ་སུམ་སྟོང་དང་། །བདུན་བརྒྱ་དོན་གསུམ་གཏན་ཕབ་པར།»
   Expanded, as others want, 22,380 pebbles and more; WB fixes the result
@@ -186,7 +185,7 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
   sixth's first letter by Yigdzin-1):
   «དང་པོ་ལ་ཡང་བཅོ་ལྔ་སྟེ། །བྱི་སྤངས་ལོ་འགྲོས་སྡེབ་ཚུལ(༡)དང་། །ལོ་ངན་མི་རུང་ངོས་འཛིན་ཚུལ(༢)། །རྐྱང་པ་དབང་ཐང་སྒོས་ཀྱི་འབྲས(༣)། །ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་། །སྤུན་གྲངས(༧)ཕ(༨)དང་མ(༩)ཡི་རུས། །སྐྱེས་ཟླ(༡༠)སྤར་ཁ(༡༡)སྨེ་བའི(༡༢)ཀླུང་། །དར་གུད་ཁྲི་སྒོ(༡༣)གཟའ(༡༤)སྐར(༡༥)དང་། །བཅས་ཏེ་བཅོ་ལྔས་གཏན་ལ་དབབ།»
   (1) avoiding kin, and how the years go together; (2) the bad years that
-  will not do; (3) the single power's own result; (4) the hidden and (5) the deeper hidden; (6) «ཎི་ཤ», not identified;
+  will not do; (3) the single power's own result; (4) the hidden and (5) the deeper hidden; (6) «ཎི་ཤ», not identified (question 24);
   (7) the number of siblings; (8) the father's and (9) the mother's clan;
   (10) the birth month, (11) the trigram, (12) the mewa's luck; (13) the
   throne doors of the rise and decline; (14) the planet and (15) the
@@ -200,7 +199,7 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
   The *Lamp that clarifies the elements* (འབྱུང་བ་གསལ་བའི་སྒྲོན་མེ, 'byung ba
   gsal ba'i sgron me) has 13 root pebbles; others expand to about 29,025;
   WB keeps 478 root pebbles and 5,327 sign pebbles, "in all 5,801"; the
-  parts make 5,805 (below, *Open*).
+  parts make 5,805 (question 22).
 - **Calculable** from both partners' dates and their parents' clans; the
   remedies are rites, not reckoned.
 
@@ -305,7 +304,7 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
   the calendar, the rest is observation.
 - **Size** (p. 26, img. 34, read on the scan): «རྡེལ་གྲངས་གཞན་ལྟར་སྤྲོས་ཆེ་ན། །ལྔ་སྟོང་བརྒྱད་བརྒྱ་ཉེར་ལྔ་ཙམ། །འབྱོར་ཀྱང་འབྲས་རྡེལ་བརྒྱ་ཉེར་གསུམ། །བརྩི་དུས་མི་ནོར་མཚན་མའི་རྡེལ། །སྟོང་དང་ཞེ་གཉིས་བཅས་པ་ཡི། །ཆིག་སྟོང་ཆིག་བརྒྱ་རེ་དྲུག་གིས། །མ་ནོར་གཏན་དུ་ཕབ་པ་ལ།»
   Expanded about 5,825; 123 result pebbles and 1,042 sign pebbles,
-  "1,166"; the parts make 1,165 (below, *Open*).
+  "1,166"; the parts make 1,165 (question 22).
 - **Not calculable**: observation. At most the dates on which to look
   could be shown.
 
@@ -409,25 +408,11 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (below,
 
 ### Open
 
-- Question: ch. 20 (vol. 1, p. 249, img. 259) gives the older system's
-  parts as 136, 47, 13, 19, 20, 12 and 215 and their sum as 440; the parts
-  make 462. Is «གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔ» a sum of other groups rather than a
-  count of its own, or does another print (Zhol, Taikhang) have a
-  different number?
-- Question: ch. 23 (vol. 1, p. 351, img. 361) states 478 root and 5,327
-  sign pebbles as 5,801 in all (the parts make 5,805), and ch. 28
-  (vol. 2, p. 26, img. 34) 123 and 1,042 as 1,166 (they make 1,165).
-  Are these slips of the 1996 typesetting or of the blocks?
-- Question: the notes (vol. 2, p. 474, img. 482) twice print «དུས་ཁམས»,
-  "the element of the time", where the five great clans that follow
-  point to the clan's element (རུས་ཁམས, rus khams). Do the Zhol or
-  Taikhang prints read «རུས་ཁམས»?
-- Question: ch. 23's sixth point of the match (vol. 1, p. 351, img. 361)
-  reads «ཎི་ཤ» (Yigdzin-1; the etext «ཎི་ཤ», the scan «ཏི» or «ཎི»). What is it?
-- Question: the notes' seventh section (vol. 2, p. 532, img. 540) names
-  four parts of the general reckoning; the etext loses the fourth's name.
-  Is it the reckoning of dates, planets and mansions for works, as the
-  section's close (p. 535) suggests?
+- Open questions 21–25 ([open-questions.md](open-questions.md)): 21, the
+  older system's sum of 440 against its parts' 462 (p. 249); 22, the sums
+  of ch. 23 (5,801 for 5,805) and ch. 28 (1,166 for 1,165); 23, the
+  notes' «དུས་ཁམས» for the clan's element (p. 474); 24, the match's sixth
+  point «ཎི་ཤ» (p. 351); 25, the general reckoning's fourth part (p. 532).
 - Doubt: ch. 22's breakdown of its 3,773 pebbles (p. 262, img. 272) was
   seen on the scan but not transcribed; RD13 reads it.
 - Doubt: ch. 24's and ch. 26's count lines rest on Yigdzin-1 and the

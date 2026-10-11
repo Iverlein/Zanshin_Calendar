@@ -375,3 +375,38 @@ the text, not about the app.
     spans from the solstice? And what is *phyur* in p. 176's two lines on
     drawing the earth lords' charts, the month's «མ་ཕྱུར་རུང་ཙམ» and the year's
     «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད»: "if not drawn in full"?
+
+21. **WB vol. 1, p. 249 (img. 259): why does the older system's sum
+    come to 440?** Ch. 20 gives the parts of the system ascribed to Khams
+    pa Khra mo as 136, 47, 13, 19, 20, 12 and 215, «གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔའོ། །བསྡོམས་པས་བཞི་བརྒྱ་བཞི་བཅུར་བཞེད།»
+    (read on the scan 2026-10-11, RD11, [reckonings.md](reckonings.md));
+    the parts make 462. Is «གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔ» a sum of other groups
+    rather than a count of its own, or does another print (Zhol, Taikhang)
+    have a different number?
+
+22. **WB vol. 1, p. 351 (img. 361) and vol. 2, p. 26 (img. 34): slips
+    in two sums of pebbles?** Ch. 23 states 478 root and 5,327 sign pebbles
+    as 5,801 in all (the parts make 5,805), and ch. 28 123 and 1,042 as
+    1,166 (they make 1,165) (read on the scan 2026-10-11, RD11,
+    [reckonings.md](reckonings.md)). Are these slips of the 1996
+    typesetting or of the blocks?
+
+23. **WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
+    twice print «དུས་ཁམས», "the element of the time", where the five great
+    clans (རུས་ཆེན, rus chen) that follow point to the clan's element
+    (རུས་ཁམས, rus khams) (read on the scan 2026-10-11, RD11,
+    [reckonings.md](reckonings.md)). Do the Zhol or Taikhang prints read
+    «རུས་ཁམས»?
+
+24. **WB vol. 1, p. 351 (img. 361): what is the sixth point of the
+    match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
+    Yigdzin-1 and the etext have «ཎི་ཤ», the scan's first letter is «ཏི» or
+    «ཎི» (2026-10-11, RD11, [reckonings.md](reckonings.md)). What is it?
+
+25. **WB vol. 2, p. 532 (img. 540): the general reckoning's fourth
+    part.** The notes' seventh section names four parts of the general
+    reckoning (སྤྱི་རྩིས, spyi rtsis): the thirty starting points, the
+    thirteen circles, the earth lords and a fourth whose name the etext
+    loses (2026-10-11, RD11, [reckonings.md](reckonings.md)). Is it the
+    reckoning of dates, planets and mansions for works, as the section's
+    close (p. 535) suggests?

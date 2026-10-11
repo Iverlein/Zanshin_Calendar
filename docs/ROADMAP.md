@@ -129,13 +129,13 @@ check them on the scans.
 | <a id="rd8"></a>RD8 | What his works cite | His works (RD7), for the classical passages they rest on: the la, the life force, health and illness by date, month, hour and age | [RD7](#rd7) | [26](#block-26), [32](#block-32) | health.md (new) | Read RD8: list every classical passage Dr. Chenagtsang's works cite for the la, the life force and illness by time. |
 | <a id="rd9"></a>RD9 | The classical texts he cites | The *rgyud bzhi*, its commentaries and the calendar-and-medicine texts RD8 names, on their scans (BDRC) | [RD8](#rd8) | [26](#block-26) | health.md (new) | Read RD9: the passages RD8 lists, on their scans. |
 | <a id="rd10"></a>RD10 | WB on health | WB vol. 1, ch. 20 (pp. 218–251) and 21 (pp. 252–258) on the la and the life force; vol. 2, ch. 33's illness lines (dates pp. 297–304, weekdays pp. 308–312, day animals pp. 356–359); vol. 1, pp. 403–405 (bloodletting and moxa by the year of age's mewa); pp. 330, 338 on the enemy and grave mansions | [RD1](#rd1) | [26](#block-26) | health.md (new) | Read RD10: WB's passages on the la, the life force and illness, on the scan. |
-| <a id="rd11"></a>RD11 | The reckonings' inventory | WB vol. 1, ch. 20–26 (pp. 218 to the volume's end); vol. 2, ch. 27–30 (pp. 3–173); the reckoning for the dead (ch. 31, the notes pp. 474–545): each chapter's outline and count of pebbles | — | [27](#block-27), [28](#block-28) and every reckoning | reckonings.md (new) | Read RD11: the outline of each reckoning chapter, what it reckons, from whose dates, what is a casting, and its size. |
+| <a id="rd11"></a>RD11 | The reckonings' inventory — done 2026-10-11 | WB vol. 1, ch. 20–26 (pp. 218 to the volume's end); vol. 2, ch. 27–30 (pp. 3–173); the reckoning for the dead (ch. 31, the notes pp. 474–545): each chapter's outline and count of pebbles | — | [27](#block-27), [28](#block-28) and every reckoning | reckonings.md | Read RD11: the outline of each reckoning chapter, what it reckons, from whose dates, what is a casting, and its size. |
 | <a id="rd12"></a>RD12 | WB's illness reckoning | WB vol. 1, ch. 25, pp. 417–452 (img. 427–462): fifteen starting points; the elements' illnesses, pp. 438–439 | [RD11](#rd11); [RD8](#rd8) beside | [32](#block-32) | health.md (new) | Read RD12: WB ch. 25 on the scan. |
 | <a id="rd13"></a>RD13 | The birth reckoning and the natal trigram | WB vol. 1, ch. 22, pp. 259–350 (img. 269–360): the natal trigram from the mother's age first, the *Moonbeams* f. 12a (KD vol. 3, lent scans) beside; then the rest | [RD11](#rd11) | [27](#block-27), [29](#block-29), [31](#block-31) | year-of-life.md | Read RD13: WB ch. 22, the natal trigram first. |
 | <a id="rd14"></a>RD14 | The obstacles that need other people | WB vol. 1, ch. 24: the secret obstacle, the spouses' shared trigram and obstacles, the ancestors' tombs and *dur keg*, the household readings (p. 408) and pebbles (pp. 385–387); the natal trigram's readings (WB ff. 180b–182a, found in the 1996 edition) | [RD11](#rd11) | [27](#block-27), [29](#block-29) | year-of-life.md | Read RD14: WB ch. 24's obstacles that need the mother, spouse or the dead, on the scan. |
 | <a id="rd15"></a>RD15 | The marriage chapter | WB vol. 1, ch. 23, pp. 351–379 (img. 361–389): the match, the departure (from p. 365, seventeen parts), the remedies | [RD11](#rd11); [RD3](#rd3) for the sky dog of brides | [27](#block-27), [30](#block-30), [31](#block-31) | marriage.md (new) | Read RD15: WB ch. 23 on the scan, the departure first. |
-| <a id="rd16"></a>RD16 | The reckoning for the dead | WB's *gshin rtsis* (vol. 2, ch. 31's passages and the notes, pp. 474–545): what it needs of the dead and the living | [RD11](#rd11) | [27](#block-27), [31](#block-31) | reckonings.md (new) | Read RD16: WB's reckoning for the dead, what it asks and what it gives. |
-| <a id="rd17"></a>RD17 | The other reckonings | WB vol. 1, ch. 26 (from p. 453); vol. 2, ch. 27 (pp. 3–25), 28 (pp. 26–43), 29 (pp. 44–143), 30 (pp. 144–173), each in full | [RD11](#rd11) | [31](#block-31) | reckonings.md (new) | Read RD17: the next reckoning chapter RD11 sorts as calculable. |
+| <a id="rd16"></a>RD16 | The reckoning for the dead | WB's *gshin rtsis*, the copper vessel (*zangs kyam*): vol. 2, ch. 29, pp. 44–143 (img. 52–151), the sizes pp. 44–51 first, and the notes' section 4, pp. 499–522 (img. 507–530); ch. 31 holds none (RD11): what it needs of the dead and the living | [RD11](#rd11) | [27](#block-27), [31](#block-31) | reckonings.md | Read RD16: WB's reckoning for the dead, what it asks and what it gives. |
+| <a id="rd17"></a>RD17 | The other reckonings | WB vol. 1, ch. 26 (from p. 453); vol. 2, ch. 27 (pp. 3–25), 28 (pp. 26–43), 30 (pp. 144–173), each in full, with the notes' sections 7 and 8 (pp. 532–541; ch. 29 is RD16's, RD11) | [RD11](#rd11) | [31](#block-31) | reckonings.md | Read RD17: the next reckoning chapter RD11 sorts as calculable. |
 
 ### Left open in built work
 
@@ -2362,11 +2362,13 @@ menu's groups collapsible (H3).
   of age built, T4); ch. 25, illness (pp. 417–452; H2); ch. 26, the thirty
   starting points with their pebbles (from p. 453 to the volume's end);
   vol. 2, ch. 27, the thirteen Chinese *dpyad lding* and small reckonings
-  (pp. 3–25); ch. 28, minor signs (pp. 26–43); ch. 29, *zangs kyam* and
-  others (pp. 44–143); ch. 30, the reckoning of the moment, from dreams
-  and the caller's signs, with small earth and pebble examinations
-  (pp. 144–173); the reckoning for the dead (*gshin rtsis*, in ch. 31 and
-  the notes, pp. 474–545).
+  (pp. 3–25); ch. 28, minor signs (pp. 26–43); ch. 29, *zangs kyam*, the
+  reckoning for the dead (*gshin rtsis*, pp. 44–143, with the notes'
+  section 4, pp. 499–522; not ch. 31, RD11); ch. 30, the reckoning of the
+  moment, from dreams and the caller's signs, with small earth and pebble
+  examinations (pp. 144–173). The notes (vol. 2, pp. 474–541) explain them
+  in eight sections, mapped to the chapters in
+  [reckonings.md](sources/reckonings.md) (RD11).
 - **R1 The section and the inventory.** Read each chapter's outline on the
   scans (each opens with its starting points and its count of pebbles)
   into `docs/sources/reckonings.md`: what each reckons, from whose dates
