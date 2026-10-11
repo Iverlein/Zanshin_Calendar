@@ -1562,8 +1562,9 @@ the same way.
    gives its facts in that order whatever order its source gives them in.
 2. **The paragraph is the ruling.** One to three sentences, 20 to 60
    words. The first sentence says what this is on the shown day and which
-   way it cuts: "A virtuous day, the day of joy (དགའ་བ, dga' ba): pacifying
-   rites, crafts, games and all white work go well." The sentences after
+   way it cuts: "The 1st of the month is a virtuous day, the day of joy
+   (དགའ་བ, dga' ba): pacifying rites, crafts, games and all white work go
+   well." The sentences after
    it carry only what changes the ruling: the one prohibition the source
    ties to the entry itself ("Hold no funeral on it, even when the Sun is
    strong: it is the door of heaven"), a perilous day's warning, a
@@ -1647,7 +1648,8 @@ the same way.
 `CatalogTest` holds what of the rules a test can see (ROADMAP X2, built
 2026-10-11): every row key one of the fourteen; the Russian with every
 row the English has; no paragraph over 60 words (a Tibetan bracket adds
-none, a {0} counts one); none of rule 8's and 9's words in a reading
+none, a {0} counts one) and none under 20, measured as the sheet shows
+it, a family's note filled with the entry's own text; none of rule 8's and 9's words in a reading
 ("the lists", "the day in brief", "the works below", "not identified",
 "word for word", "the print", and their Russian); and rule 11's
 uniformity across the catalog, the interface strings and the store
@@ -1665,10 +1667,12 @@ X's review, are outside the checks. The rest of the rules (the ruling
 first, one vocabulary, an image marked as one, plain sentences, a family
 read as one) the writer checks by hand.
 The three examples below are the rule applied to readings as they stood;
-the facts are the same, moved. Lunar date 1 and Sunday stand in the
-catalog in this shape since 2026-10-11, their Russian with them; the
-lesser black day waits for ROADMAP X7, since its *How it falls* row needs
-the engine to name the date and season it matched.
+the facts are the same, moved. All three stand in the catalog in this
+shape since 2026-10-11, their Russian with them: the lesser black day's
+*How it falls* row is the line the engine names for the shown day, the
+season's three dates and the one that fell (§8.2), and on a date only its
+other view gives (the winter's 9th, 19th and 29th) the reading says so in
+its paragraph and its *How it falls* row gives that view's line.
 
 *Lunar date 1*, before: "A day of joy (དགའ་བ, dga' ba), Nandā, one of the
 virtuous days: good for pacifying rites, crafts, games and all white
@@ -1676,9 +1680,10 @@ work. A child born today: children follow one another, and wide
 learning. A death today is bad. Livestock bought today increases a
 thousandfold. The la, the life-spirit (བླ, bla), sits in the big toe
 today, and in horses and other livestock in the sole of the foot: no
-bloodletting, moxibustion or other treatment there." After: "A virtuous
-day, the day of joy (དགའ་བ, dga' ba): pacifying rites, crafts, games and
-all white work go well." *Also called* · Nandā. *La today* · the la,
+bloodletting, moxibustion or other treatment there." After: "The 1st of
+the month is a virtuous day, the day of joy (དགའ་བ, dga' ba): pacifying
+rites, crafts, games and all white work go well." (23 words, the Russian
+20: «Первое число месяца — благой день, … идут в этот день хорошо».) *Also called* · Nandā. *La today* · the la,
 the life-spirit (བླ, bla), sits in the big toe; in horses and other
 livestock, in the sole of the foot; no bloodletting, moxibustion or other
 treatment there (the row names the la, as rule 11 asks of each row; the
@@ -1733,8 +1738,13 @@ under a family's note, beside the entry the note's {0} takes,
 `strong`, `setting_out`, `rank`, `remedy`, `spirits`, `illness`, `rites`,
 `la`, `birth`, `death`, `livestock`, `falls`, `other_view`, each label a
 term of its own (`ReadingRow.LA`, "La today"), and a row filled as its
-summary is, {0} taking the same text, so that *How it falls* can name
-today's line; `wording.<key>` for each wording of the lists. Readings that share a sentence
+summary is, {0} taking the same text; a course by date's *How it falls*
+row is `{0}` alone, which takes the line the engine names for the shown
+day (`EarthLordCourses.fall`, a `CourseFall`: the season-month and the
+date that fell), written from `CourseFall.line`, `CourseFall.dates`,
+`CourseFall.season.<0–3>`, `CourseFall.month.<0–11>` and
+`DateOrdinal.<one|two|few|other>`, "the 8th, 18th and 28th of the spring
+months; today the 8th of the first month of spring"; `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
 `reading.Haircut`). A translation may be partial, since Weblate commits
 only reviewed strings ([weblate.md](weblate.md)): a key it lacks, or leaves

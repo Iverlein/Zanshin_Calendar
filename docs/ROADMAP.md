@@ -93,7 +93,7 @@ moves up as soon as it is unblocked.
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
-| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11 (X1's reading by the owner open) | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
+| <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor (X1's reading by the owner open) | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
@@ -1449,6 +1449,21 @@ W1 build on them (below).
   line); a tap on 11–13 opened the panel at the Horse hour; the row's
   description keeps every run's full times. Store shot 1, the Tibetan
   day, shows the row.
+- **The Work's wording not met** (checked again 2026-10-11, block 42's
+  review): the Work's "hours to avoid" / "good hours" (Russian
+  «неблагоприятные часы» / «благоприятные часы») cannot keep the "Done
+  when"'s one line at a readable size, so the row keeps "avoid" / "good".
+  With the literal labels and the row's shrink-to-fit, measured on the
+  emulator (1080 px wide, 859 px for the line): 11 October 2026 in Kyoto
+  (a lucky day, "hours to avoid", four runs) fits at full size at font
+  scale 1.0 in English (692 px) and Russian (852 px), but at 1.3 the
+  English needs 917 px (set at 0.92, the label 11.9 sp) and the Russian
+  1129 px (0.75, 9.7 sp); 28 March 2026 (an unlucky day, "good hours",
+  five runs) fits in English at 1.0 (794 px), but the Russian at 1.0
+  needs 960 px (0.88, the label 11.4 sp, under the 12 sp floor at scale
+  1.0), and at 1.3 the English 1055 px (0.80, 10.4 sp) and the Russian
+  1275 px (0.66, 8.6 sp). The first case to fail is 28 March 2026 in
+  Russian at font scale 1.0.
 
 #### <a id="u12"></a>U12 Dots that read — built 2026-10-11 (SPEC §10.3)
 
@@ -1739,15 +1754,16 @@ X, so that the owner reads the wording once. The blocks are
 - **Built** 2026-10-11 with X2: SPEC §10.3's *The sheet* gives the new
   order; the interim form gave way to real rows. Lunar date 1 and Sunday
   stand in the catalog in the examples' shape, English and Russian, the
-  facts moved and no reading added; the lesser black day waits for
-  [X7](#x7), since its *How it falls* row needs the engine's matched date.
+  facts moved and no reading added; the lesser black day followed the same
+  day, with the engine's matched date ([X7](#x7), *Started*).
   The la row names the la in its value, "the la, the life-spirit (བླ,
   bla), sits in the big toe; in horses and other livestock, …", as rule 11
   asks of each row, and keeps the source's horses; the example in SPEC
   §8.1 says so. Open: **the owner's reading of the three examples**,
-  which this item waits on; and, for that reading, three points the build
-  met: the lunar date's example paragraph is 17 words, under rule 2's 20;
-  the row labels are short names with no bracket, as the Lunar day
+  which this item waits on; and, for that reading, two points the build
+  met (a third, the lunar date's paragraph of 17 words under rule 2's 20,
+  mended the same day: "The 1st of the month is a virtuous day, …", 23
+  words, the Russian 20): the row labels are short names with no bracket, as the Lunar day
   section's are ("La today"); and [X6](#x6) names rows (*Planet*,
   *Foods*, *Avoid its start*) that X1's fourteen do not have.
 - **Done when.** SPEC §10.3 says it, with X2 (done), and the owner has
@@ -1796,6 +1812,15 @@ X, so that the owner reads the wording once. The blocks are
   catalog of 2026-10-11: [X3](#x3) 36, [X4](#x4) 28, [X5](#x5) 4,
   [X6](#x6) 6, [X7](#x7) 109, [X8](#x8) 15, [X9](#x9) 25, [X10](#x10)
   120; each block deletes its item's line, and a count can only fall.
+  Later the same day (block 42's review) the test gained rule 2's floor,
+  no paragraph under 20 words, measured as the sheet shows it (a family's
+  note filled with the entry's text), and the paragraphs already under it
+  joined their items' counts, the one time the counts rose: [X3](#x3) 96
+  (the 30 hair dates' one-line results, both languages), [X5](#x5) 95 (the
+  named combinations, four combination days, the special days and the
+  festivals), [X6](#x6) 40 (16 yogas and Viṣṭi), [X8](#x8) 27, [X10](#x10)
+  180 (the 30 haircuts); [X4](#x4) and [X9](#x9) have none under 20. The
+  lesser black day in the shape took [X7](#x7) from 109 to 107.
   Four list wordings mended for D7 on the way, no reading touched: the
   thread-cross's and the ransom's brackets moved before "rites", the
   *hom* named fire offerings as the weekdays name it, and the Russian
@@ -1811,9 +1836,10 @@ X, so that the owner reads the wording once. The blocks are
   and the la's 30-word sentence; the empty days' remedy inside the
   ruling; "Also to avoid: flood dikes" repeating the Avoid list; the
   29th's print note.
-- **Work.** Paragraph: the class with its ruling ("A virtuous day, the
-  day of joy (དགའ་བ, dga' ba): pacifying rites, crafts, games and all
-  white work go well"), the perilous-day sentence kept in it since it
+- **Work.** Paragraph: the date and its class with the ruling ("The 1st
+  of the month is a virtuous day, the day of joy (དགའ་བ, dga' ba):
+  pacifying rites, crafts, games and all white work go well", 20 words at
+  least), the perilous-day sentence kept in it since it
   changes the ruling. Rows: *Also called* (Nandā), *Remedy* (the empty
   and full days'), *La today* (the seat in the body and in livestock,
   with the treatment line), *A birth today*, *A death today*,
@@ -1913,8 +1939,26 @@ X, so that the owner reads the wording once. The blocks are
   the black month, Kikang's, the sage's and the pig's days and the comet
   the same.
 - **Block.** [46](#block-46); no reading; builds on [42](#block-42).
+- **Started** 2026-10-11 (block 42's review): the lesser black day, SPEC
+  §8.1's third example, stands in the shape in English and Russian, its
+  ruling paragraph, *Remedy*, *How it falls* and *Another view* (the
+  winter's 9th, 19th and 29th), and the reading of a date only the other
+  view gives (`.other`) the same with its paragraph and its own *How it
+  falls*. The engine names the line: `CourseDay.date`, the date that fell,
+  and `EarthLordCourses.fall`, a `CourseFall` (the season-month, the date,
+  the season's three dates in turn), which `Reading.today` carries into
+  the rows' {0}, written from the catalog's `CourseFall.*` and
+  `DateOrdinal.*`; the other courses that give a date to each
+  season-month can take it as they are brought to the shape.
+  `CourseFallTest`: each season, the winter's 4th, 18th and 16th, the
+  other view's 9th, 19th and 29th, the rows of both readings, and
+  2000–2049 day by day (a skipped date has no course, a doubled one the
+  same line on both days). Allowance 109 → 107. Checked on the emulator on
+  28 October 2026 (the 18th of Hor month 9, the course's) and 29 October
+  (the 19th, the other view's) in English and Russian at font scale 1.0
+  and 1.3, and in the release build for raw keys.
 - **Done when.** The 98, 61 and the month's entries with their Russian;
-  no reading over 60 words; the lesser black day, the eight classes and
+  no reading over 60 words; the lesser black day (done), the eight classes and
   the sky door on the emulator in both languages, each *How it falls*
   row naming the shown day's line; `EarthLordCoursesTest` unchanged;
   `CatalogTest` without the families' allowance.
