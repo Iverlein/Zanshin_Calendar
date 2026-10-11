@@ -5,7 +5,1156 @@ Sigla, numbering and quoting rules are in [README.md](README.md).
 
 ## WB's earth lords of the year (RD3)
 
-Nothing read yet: RD3's passages, with the English beside them, go here.
+Read 2026-10-11 for ROADMAP RD3: WB vol. 2, ch. 31, pp. 174–198
+(img. 182–206; printed page = image − 8, checked on img. 183 = p. 175 and
+img. 206 = p. 198). Yigdzin-1 over every page, MITRA as witness
+(`disagree.py`), and every line quoted below read on the scan at 3× and
+the doubtful words at 4–6×; the vol. 1 and 2 etexts (IE0OPI51524892) for
+searching. The English states the facts in our own words; the *ko long*
+(ཀོ་ལོང), an earth lord's grudge, is rendered "whom it harms". The titles of
+the recitations in the remedies are given in English as abbreviated in the
+print and are not identified against a catalogue.
+
+### The count (p. 174, img. 182)
+
+> འདིར་བརྗོད་གནས་པ་དོན་གཉིས་དང་། །གཏན་དུ་མི་འཕོ་ཉི་ཤུ་གཅིག །ས་འོག་རིམ་དགུའི་ས་བདག་དགུ། །བཅས་ཏེ་བརྒྱ་དང་གཉིས་པོ་རྣམས། །ལོ་ཟླ་ཞག་དུས་མ་ལྟོས་པར། །གཟེར་བཏབ་ཚུལ་དུ་གནས་པའི་གྲངས། །རྗེ་བློན་ཉེར་དྲུག་མ་བུ་འཁོར། །བཅས་ཏེ་ཞེ་ལྔ་དེ་ཡི་སྟེང་། །ལོ་ནག་ཆེ་ཆུང་རྣམ་པ་གཉིས། །ནག་མོ་དགུ་སྐོར་ཞེས་བྱ་དང་། །སྨེ་བ་རྩ་བའི་ལྷ་དགུ་དང་། །ཕོ་བྲང་ལྷ་ནི་ཞེ་ལྔ་བཅས། །བརྒྱ་དང་བཅུ་ཐམ་སིལ་མ་ཡི། །འགོག་ཀུ(༥)(འགོག་ཀུར་ལྷ་ལྔ་ཡོད་དོ།)གབ་པའི་ལྷ་བཅུ་གཉིས། །གནམ་ཁྱི་ཕོ་མོ་དང་བཅས་པ། །ཁྱོན་བསྡོམས་ཉིས་བརྒྱ་སོ་གཅིག་གོ།
+
+The year's earth lords: the twenty-six kings and ministers with their
+mothers, sons and retinue, forty-five; the two black years, great and
+lesser; the nine black ones; the sme ba's nine root gods; the forty-five
+palace gods: a hundred and ten; the scattered *'gog ku* (five gods), the
+twelve hidden gods and the sky dog male and female: two hundred and
+thirty-one in all. Before them (pp. 175–177, img. 183–185) WB gives the 102 that do
+not move with year, month, day or hour (72 abiding, 21 never moving, nine
+of the nine levels under the earth), with the earth lord Gyuthenpo of the
+earth (གཱིའུ་ཐེན་པོ, gi'u then po) and the four directions' lords Tese, Tsangkun,
+Hangphen and Be'u 'byin; these are not the year's and are only listed
+here (Yigdzin-1, not checked line by line).
+
+### How the courses are counted
+
+- **Place** is an animal of the twelve, so a direction of the compass:
+  the year animal's own, or one counted from it. The seventh (བདུན་ཟུར, *bdun
+  zur*) is the animal opposite. Upward (ཡར, *yar*) counts on from the year
+  animal (mouse → ox), downward (མར, *mar*) back (mouse → pig): vol. 1, p. 235 (img. 245, etext only)
+  gives the mouse's upward four-slayer as the hare and its downward as
+  the bird, so the four-slayer is the fourth counting the start as first.
+  The slayer (གཤེད, *gshed*) is such a counted place. The four groups of
+  years (vol. 1, p. 254, etext only): tiger, monkey, pig, snake the four
+  corner years (ར་བ་བཞི, *ra ba bzhi*); mouse, horse, bird, hare the four
+  middle (འབྲིང་པོ་བཞི, *'bring po bzhi*); ox, sheep, dog, dragon the four last
+  (ཐ་ཆུང་བཞི, *tha chung bzhi*). Of the three in concord (མཐུན་གསུམ, *mthun
+  gsum*: the triads tiger, horse, dog and so on), the last for a tiger, horse or dog is the dog
+  (p. 197, the sky dog of brides). The wind-horse (*klung rta*) of the
+  tiger, horse and dog is the iron monkey (vol. 2, WB's notes, etext
+  p. 479, img. 487, etext only); the wind-horse of the other triads and the tomb
+  (*dur*) of a wind-horse are not defined on these pages.
+- **Entry** is a count of days from the turning of the sun (*nyi ldog*),
+  before (*gong*) or after (*rjes*, *rting*); the sme ba gods' entry
+  names the winter solstice (p. 192). From that day the lord stands in
+  the new year's place.
+- **Turning**, left or right (གཡོན་སྐོར, *g.yon skor*; གཡས་སྐོར, *g.yas skor*),
+  is given for most; how it moves the place is not said beyond the
+  courses themselves.
+- **The remedies' words**: the thread-cross (མདོས, *mdos*), the hurled offering
+  (ཟོར, *zor*), the averting rite (གཏོ, *gto*), the ransom (གླུད, *glud*), clay
+  stamps (སཱཙྪ, *sA tstsha*), the sky-cross (ནམ་རྒྱང, *nam rgyang*), the offering
+  cake (གཏོར་མ, *gtor ma*); the *se* (སེ, se) a stake or support set up for an
+  earth lord; *mdo byang*, *Gsal sgron*, *Rin chen kun 'dus*, *Lung kun
+  'dus* and *Snang gsal* are the earlier works WB's notes compare.
+
+### What the front matter names (RD2)
+
+RD2 found the year's front matter writing no list of names: a wheel of
+the year and of the next with the sme ba, the directions to avoid and the
+clean ones, and the nine black ones (*nag mo dgu skor*) drawn in their
+rounds ([almanac-page.md](almanac-page.md), *The year's earth lords in the
+front matter*). Against ch. 31:
+
+- **The nine black ones** (p. 191): named in the front matter.
+- **The sme ba's nine gods and the palace gods** (pp. 192–196): the front
+  matter's wheel of the year with its sme ba and the directions to avoid;
+  the gods themselves are not named there.
+- **The black years** (p. 189): not named; the front matter writes the
+  results of whichever sme ba is in the centre, which is what makes a
+  black year.
+- **The twenty-six kings and ministers, the hal khyi and the earth
+  kings** (pp. 177–189): not named in the front matter; ch. 13's charts
+  of the year (vol. 1, pp. 116–121, img. 126–131), which the almanac
+  copies, carry names among them that RD2 machine-read (*bya ra ba*, *hal
+  khyi*, *bu mo*, *se ba bla mkhyen*, *se lo sa 'phyag*, *the se rgyal
+  po*, *hang ne*, *se byi*, *dmag dpon*, *blon po tsang kun*, *sa rgyal
+  bcu gcig*): nos. 7, 16, 17, 6, 15, 1, 3, 8, 20, 5 and 26 below. The
+  cells were not read.
+- **The sky dog** (pp. 196–198): not named.
+
+### The kings and ministers, and the earth kings (pp. 177–189, img. 185–197)
+
+«ལོ་འཁོར་རྗེ་བློན་ངོ་བོ་ནི།»: the kings and ministers who go round with the year.
+Each with WB's bracketed number.
+
+#### 1. The king, Tese (ཐེ་སེ་རྒྱལ་པོ, the se rgyal po) — p. 177, img. 185
+
+- **Place.** He rides the year's own animal («གང་ཤར་གནམ་ལོའི་རྟ་ལ་ཞོན»).
+- **Turning and entry.** Left (*g.yon skor*); he moves in together with
+  the turning of the sun («ཉི་མ་ལྡོག་དང་མཉམ་དུ་བསྐྱེད»).
+- **Works avoided there.** Building a palace or a dwelling; promotions,
+  war, raising banners; feasts and the side the head of a row faces;
+  setting up a hearth, a teaching throne; moving into a fort; a bride's
+  moving; bringing out a corpse, the king's affairs, setting out on a road,
+  moving a grave: most works for the living and the dead.
+- **Whom he harms** (his grudge, ཀོ་ལོང, *ko long*): kings and the heads of
+  rows, chiefs, astrologers and young men; whoever does fort work there
+  dies.
+- **Remedy.** Recitations (the *Eight Thousand*, the *Eight Appearances*,
+  the *Heart*, the *Vajravidāraṇā*, a rite of confession and fulfilment);
+  a consecrated image of the Muni with clay stamps of five colours set in
+  his direction with a peaceful offering cake; a sheep's right foreleg
+  with offerings hidden in a precious vessel for three days unseen; a
+  ransom. To screen him: his figure in flour of mixed grains with a red
+  cock's feather, the seven precious things drawn on Chinese paper and a
+  cake of the three whites, three sweets and five precious things; or an
+  octagonal stake of *sher* wood a span high with a garuḍa on top, the
+  year animal below and the eight trigrams' seals on its sides, with the
+  four great kings on white paper, planted in his direction while saying
+  eight times "let the year's maker make nothing; let the sky's messenger
+  not open the family's door; let the strong messenger not cut the
+  children's lives"; in the Bon way thirteen iron arrows. WB's note: the
+  descriptions follow the *mdo byang* and the god-tantras, the *Gsal
+  sgron*'s kept as chanted.
+
+> ༈ ཐེ་སེ་རྒྱལ་པོ(༡)ཞེས་བྱ་བ། །ས་བདག་རྒྱལ་པོའི་ཆ་བྱད་ཅན། །མངོན་རྟོགས་འདི་རྣམས་གྲགས་ཆེ་བའི་མདོ་བྱང་ལྷ་རྒྱུད་སོ་སོ་ནས་བཤད་པ་དང་བསྟུན་པའི་དབང་དུ་བྱས་ཤིང་། གསལ་སྒྲོན་སོར་བཞག་ནི་གྱེར་གཏོ་ལྟར་རོ། །སྐུ་མདོག་དམར་སེར་འོད་དུ་འབར། །མེན་ཏྲི་དམར་པོའི་སློག་པ་གསོལ། །གསེར་གྱི་ཁྲི་སྟེང་འགྱིང་བག་ལྡན། །ཕྱག་ན་ཟངས་ཀྱི་(ལྕགས་ཀྱི་ཡང་།)ཁྱུང་ཆེན་བསྣམས། །གང་ཤར་གནམ་ལོའི་རྟ་ལ་ཞོན། །བསྐོར་བ་གཡོན་དུ་བྱེད་པ་སྟེ། །ཉི་མ་ལྡོག་དང་མཉམ་དུ་བསྐྱེད། །ལས་ནི་ཕོ་བྲང་གནས་གཞི་བརྩིག །ཆེ་འདོན་དམག་ལས་དར་ཕན་འཕྱར། །སྟོན་མོ་ལ་སོགས་གྲལ་དཔོན་ཕྱོགས། །ཐབ་འཆའ་ཆོས་ཁྲི་མཁར་བག་སྐྱས། །རོ་འདོན་རྒྱལ་པོའི་བྱ་ལས་དང་། །ལམ་འཇུག་དུར་སྤོ་ལ་སོགས་པ། །གསོན་གཤིན་བྱ་ལས་ཕལ་ཆེར་འཛེམ། །ཀོ་ལོང་རྒྱལ་པོ་གྲལ་དབུ་དང་། །གཙོ་བོ་རྩིས་མཁན་སྐྱེས་དར་སྡོམ། །མཁར་ལས་བྱས་ན་བྱེད་མཁན་འཆི། །ཉམས་ན་བརྒྱད་སྟོང་སྣང་བརྒྱད་དང་། །ཤེར་སྙིང་རྣམ་འཇོམས་སྤང་སྐོང་འདོན། །རྒྱས་པའི་དབུ་ཡ་དུམ་བུ་དང་། །སཱ་ཙྪ་ཁ་དོག་སྣ་ལྔ་པ། །ཐུབ་པའི་སྐུ་འདྲ་རབ་གནས་ཅན། །གནས་པའི་ཕྱོགས་བཞག་ཞི་གཏོར་གཏོང་། །ལུག་ཤ་རྐང་གཡས་བཤོས་བསང་ཆ། །རིན་ཆེན་སྣོད་བཅུག་མི་གཞན་གྱིས། །མ་ཚོར་ཞག་གསུམ་སྦ་བར་བྱ། །ཡང་ན་འབུམ་དང་གླུད་ཀྱིས་བཅོས། །སྒྲིབ་ན་འབྲུ་སྣའི་ཕྱེ་མ་ལ། །ཐེ་སེ་རྒྱལ་པོའི་གཟུགས་བྱས་མགོར། །བྱ་ཕོ་མཚལ་ལུའི་སྒྲོ་བཙུགས་དང་། །རྒྱ་ཤོག་རིན་ཆེན་སྣ་བདུན་བྲིས། །དཀར་གསུམ་མངར་གསུམ་རིན་ཆེན་ལྔ། །བརྡར་བའི་གཏོར་མ་གནས་ཕྱོགས་བཏང་། །ཡང་ན་ཤེར་ཤིང་མཐོ་གང་བ། །བརྒྱད་གཞོགས་བྱས་པའི་རྩེ་མོར་ཁྱུང་། །དེ་འོག་གནམ་ལོའི་གཟུགས་བརྙན་དང་། །ལོགས་བརྒྱད་སྤར་ཁའི་ཕྱག་རྒྱ་བྲི། །རྒྱ་ཤོག་དཀར་པོར་རྒྱལ་ཆེན་བཞི། །བྲིས་པ་རང་ཕྱོགས་མ་ནོར་གཟུག །ལོ་ཡི་བཟོ་བོས་བཟོ་མ་བྱེད། །དགུང་སྔོན་གནམ་གྱི་ཕོ་ཉ་ཡིས། །རིགས་ཀྱི་སྒོ་མོ་མ་འབྱེད་ཅིག །ཕོ་ཉ་བཙན་པོས་བུ་ཚ་ཡི། །ཚེ་སྲོག་མ་གཅོད་དེ་སྐད་ཅེས། །ལན་བརྒྱད་བརྗོད་ལ་ཕྱོགས་དེར་བཞག །བོན་དུ་ལྕགས་མདའ་བཅུ་གསུམ་བྱ། །
+
+#### 2. The great queen, Tekhyim (ཐེ་ཁྱིམ, the khyim) — p. 178, img. 186
+
+- **Place.** «ལོ་རེ་བར་བཞག་རྒྱལ་ཕྱིར་འབྲང»: she follows the king, one year left
+  between them.
+- **Turning and entry.** Left; five days after the solstice (the *Gra kun
+  snang gsal*: two days after).
+- **Works avoided.** Corpses, fort work, rites for the dead and the
+  sending out and cleansing after them; a bride's moving is not directed
+  her way; a queen's affairs and women's oaths; bad for the corpse of one
+  who died in childbirth and of a widow.
+- **Whom she harms.** Brides, women, elders, young women, sisters, the
+  young and finely dressed, the astrologer's wife; if corpse, *se* or fort
+  work is done where the astrologer marked the ground, he dies.
+- **Remedy.** Recitations (the *Eight Appearances*, the *Twenty
+  Thousand*, the *Vajravidāraṇā*, the *Litany of the Names*, short sūtras,
+  the *Uṣṇīṣa*); a three-knotted cane and four offering cakes; the black
+  *Uṣṇīṣa* three times a hundred paces from home; a white cake on the
+  one-white; or the long-life rite of the *Great Thousand*, or the
+  mother's hundred-and-four. To screen: a sheep's head decked with silks,
+  a queen's figure of wheat, barley and peas with turquoise at the neck
+  set upon it, a water-bird's feather, placed in her direction; a water
+  cake and the *Eight Appearances*.
+
+> ༈ རྒྱལ་ཡུམ་ཆེན་མོ་ཐེ་ཁྱིམ(༢)ནི། །སྨུག་ནག་དར་དཀར་གུ་ཟུ་གསོལ། །གཡས་གཡོན་བུམ་པ་མེ་ལོང་འཛིན། །ལོ་རེ་བར་བཞག་རྒྱལ་ཕྱིར་འབྲང་། །བསྐོར་བ་གཡོན་དུ་བྱེད་པ་སྟེ། །ཉི་ལྡོག(གྲ་ཀུན་སྣང་གསལ་ལས་ཞག་གཉིས་རྗེས།)ཞག་ལྔ་རྗེས་སུ་བསྐྱེད། །རོ་མཁར་གཤིན་ལས་ཕྱི་གཤོར(ཕྱི་ཡང་།)སེལ། །བག་མ་སྐྱས་ཀྱི་ཕྱོགས་མི་སྟོན། །བཙུན་མོའི་ལས་དང་བུད་མེད་མནའ། །ནལ་ཕུག་ཡུགས་སའི་རོ་ལ་ངན། །ཀོ་ལོང་བག་མ་བུད་མེད་ནི། །ཆེ་རྒན་དར་མ་བུ་སྲིང་མོ། །ན་ཆུང་ཆས་བཟང་བྱེ་མོ་དང་། །དཔྱད་རྩིས་ཆུང་མ་ཉིད་ལ་སྡོམ། །རོ་སེ་མཁར་ལས་ས་དམིགས་བསྟན། །རྩིས་མཁན་དེ་ཉིད་འཆི་བར་འགྱུར། །ཉམས་ན་སྣང་བརྒྱད་ཉི་ཁྲི་འམ། །རྣམ་འཇོམས་མཚན་བརྗོད་མདོ་ཕྲན་དང་། །གཙུག་ཏོར་འདོན་ཞིང་ཡེ་དྷར་བཅངས། །སྤ་ལྕག་ཚིགས་གསུམ་འབྲང་རྒྱས་དང་། །དར་སྣས་ཐེ་ཁྱིམ་བཅོས་པར་བྱ། །རང་གི་ཁྱིམ་ནས་གོམ་པའི་གྲངས། །བརྒྱ་བོར་ས་རུ་གཙུག་ཏོར་ནི། །ནག་མོ་ཚར་གསུམ་འདོན་པར་བྱ། །གཅིག་དཀར་ཐོག་ཏུ་དཀར་གཏོར་གཏོང་། །ཡང་ན་ཚེ་ཆོག་སྟོང་ཆེན་འདོན། །ཡང་ན་བརྒྱ་བཞི་ཡུམ་ཆོག་བཅོས། །སྒྲིབ་ན་ལུག་མགོ་དར་སྣས་བརྒྱན། །གྲོ་ནས་སྲན་ལ་བཙུན་མོའི་གཟུགས། །སྐེ་ལ་གཡུ་བཏགས་དེ་ལ་བསྐྱོན། །ཆུ་བྱའི་སྒྲོ་བཙུགས་ཕྱོགས་བཞག་ཐུབ། །ཆུ་གཏོར་དང་ནི་སྣང་བརྒྱད་འདོན། །
+
+#### 3. The king's consort, Harphen or Hangne (ཧར་ཕན, har phan; ཧང་ནེ, hang ne) — p. 178, img. 186
+
+- **Place.** With the king («རྒྱལ་པོ་ཉིད་དང་མཉམ་གནས»), on the year animal.
+- **Turning and entry.** As the king's; some say two days after, which
+  makes no difference.
+- **Works avoided.** Setting up a household hearth and moving; brides,
+  corpses and rites for the dead, above all the corpse of the mistress of
+  the house; shows and contests; building a palace; war and fort work:
+  every work, good or bad.
+- **Whom she harms.** The young and finely dressed: children are hard to
+  raise, ruin and lawsuits come, the daughter-in-law, the astrologer and
+  the wife die.
+- **Remedy.** As for the king; or the *White Parasol* chapter of the
+  *Twenty Thousand*, or the *Eight Thousand*; an image of Tārā, decked
+  with five silks, and four cakes of clean barley kneaded with milk. To
+  screen: a queen's figure of mixed grains with a peacock's or pigeon's
+  feather, or a sheep for the gods decked with silk.
+
+> ༈ རྒྱལ་པོའི་བཙུན་མོ་ཧར་ཕན་ནམ། །ཧང་ནེ(༣)ཞེས་བྱའི་ཆུན་མ་ནི། །སྐུ་མདོག་དཀར་གསལ་གསེར་བུམ་འཛིན། །རྒྱལ་པོ་ཉིད་དང་མཉམ་གནས་ཤིང་། །གདན་སྐོར་སྐྱས་ལ(ཞག་གཉིས་རྟིང་ལ་བསྐྱེད་ཀྱང་།)ཁྱད་པར་མེད། །ཁྱིམ་གྱི་ཐབ་བཅའ་སྐྱ་བ་དང་། །བག་མ་རོ་དང་གཤིན་གྱི་ལས། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ཡི་རོ། །ལྷད་མོ་ཤོན་དང་ཕོ་བྲང་འཆའ། །དམག་དང་མཁར་ལས་ལ་སོགས་པ། །བཟང་ངན་ལས་ཐབས་ཀུན་ལ་སྡང་། །ཀོ་ལོང་ན་ཆུང་ཆས་བཟང་སྡོམ། །བུ་ཚ་གསོ་དཀའ་འཕུང་གྱོད་འོང་། །མནའ་མ་རྩིས་མཁན་ཆུང་མ་འཆི། །རྒྱལ་པོ་ལྟ་བུར་བཅོས་པའམ། །གདུགས་དཀར་ཉི་ཁྲིའི་དབུ་དུམ་འདོན། །ཡང་ན་ཤེས་རབ་བརྒྱད་སྟོང་འདོན། །སྒྲོལ་མའི་སྐུ་དང་འཕུང་ལ་ནི། །དར་སྣ་ལྔ་ཡིས་བརྒྱན་པ་དང་། །ནས་གཙང་བྲེ་གང་གཞོན་ཉིད་ཀྱིས། །མ་འཕོག་ཕྱེ་ལ་འོ་མས་བརྫིས། །དེ་ལ་འབྲང་རྒྱས་བཞི་བཟོས་བཅོས། །སྒྲིབ་ན་འབྲུ་སྣའི་བཙུན་མོའི་གཟུགས། །སྔོན་མོ་རྨ་བྱའི་སྒྲོ་བཙུགས་སམ། །ཡང་ན་ཕུག་རོན་སྒྲོ་བཙུགས་དང་། །ལྷ་ལུག་དར་སྣས་བརྒྱན་པས་སྒྲིབ།།
+
+#### 4. The king's son, Teso (ཏེ་སོ, te so) — p. 179, img. 187
+
+- **Place.** On the wind-horse (ཀླུང་རྟ, *klung rta*) of the year animal
+  («གནམ་ལོ་གང་ཤར་ཀླུང་རྟའི་སྟེང»).
+- **Turning and entry.** Right (*g.yas skor*); four days after the solstice.
+- **Works avoided.** Moving house, the rite of increase, the side of a
+  funeral's pebbles, taking children out of the door and children's
+  affairs; a mantrin does not send off a child's corpse; fort work, feasts
+  and harmful works.
+- **Whom he harms.** Children, the sons of great men, brides, sons-in-law,
+  nephews, above all the astrologer's son.
+- **Remedy.** Recitations (the *Eight Thousand*, the *Uṣṇīṣa*, the *Twenty
+  Thousand*, the *Golden Light*, the *Gaṇḍavyūha*, the *Vajravidāraṇā*,
+  the *Eight Appearances*, the banner dhāraṇī); a great red averting cake;
+  wrathful mantras written on thorny wood and an arrow with silk planted
+  in his direction. To screen: a child's figure in grain flour holding bow
+  and arrow with a sparrow's feather; or a blue ransom figure with
+  turquoise at the neck and five pigeon feathers; or a white bird and a
+  black sheep tied together, placed in his direction.
+
+> རྒྱལ་པོའི་སྲས་པོ་ཏེ་སོ(༤)ནི། །སྐུ་མདོག་དམར་པོ་གཡས་གསེར་སྒྲོམ། །གཡོན་ན་ལྕགས་ཀྱི་སྦ་ལྕག་བསྣམས། །མེན་ཏྲི་དམར་པོའི་སློག་པ་དང་། །དར་དཀར་རྡུལ་གཟན་ཕྲག་ཏུ་བཀལ། །གནམ་ལོ་གང་ཤར་ཀླུང་རྟའི་སྟེང་། །སྐོར་བ་གཡས་སུ་བསྐོར་ནས་ནི། །ཉི་ལྡོག་ཞག་བཞིའི་རྗེས་སུ་བསྐྱེད། །ལས་ཐབས་འཕོ་སྐྱས་ཡས་ཆོག་དང་། །ཤིད་ཀྱི་རྡེའུ་འགྲམ་པའི་ཕྱོགས། །བྱིས་པ་སྒོར་ཁྲིད་བྱིས་པའི་ལས། །སྔགས་པ་བྱིས་པའི་རོ་མི་གཏོང་། །མཁར་ལས་སྟོན་མོ་ངན་ལས་འཛེམ། ཀོ་ལོང་བྱིས་པ་མི་ཆེན་བུ། །བག་མ་མག་པ་ཚེ་ཡུག་དང་། །ཁྱད་པར་རྩིས་མཁན་བུ་ལ་སྡོམ། །ཉམས་ན་བརྒྱད་སྟོང་གཙུག་ཏོར་དང་། །ཉི་ཁྲི་གསེར་འོད་སྡོང་པོ་རྒྱན། །རྣམ་འཇོམས་སྣང་བརྒྱད་ཏོག་གཟུངས་སྒྲོག །དམར་གྱི་གཏོར་བཟློག་ཆེན་པོ་བྱ། །ཚེར་མ་ཅན་གྱི་ཤིང་དག་ལ། །ཁྲོ་བོའི་སྔགས་བྲིས་མདའ་ལ་ནི། །ལེ་བརྒན་དར་བཏགས་ཕྱོགས་དེར་གཟུག །འབྲུ་སྣའི་ཕྱེ་ལ་བྱིས་པའི་གཟུགས། །མདའ་གཞུ་ལག་ཏུ་ཁྱེར་བ་བྱ། །བྱེ་འུ་མཆིལ་པའི་སྒྲོ་བཙུགས་སྒྲིབ། །ཡང་ན་ངར་གླུད་སྔོན་མོ་ཡི། །སྐེ་ལ་གཡུ་བཏགས་ཕུག་རོན་སྒྲོ། །མགོ་ལ་བཙུགས་པ་ལྔ་ཡིས་སྒྲིབ། །ཡང་ན་བྱ་དཀར་ལུག་ནག་པོ། །ཉིས་སྦྲེལ་ཕྱོགས་དེར་བཞག་པས་བཅོས། །
+
+#### 5. The king's minister, Tsangkun (ཙང་ཀུན, tsang kun) — p. 179, img. 187
+
+- **Place.** By the year («སྟག་ཡོས་འབྲུག་ལ་བྱི་བའི་སྟེང། །རྟ་སྦྲུལ་ལུག་ལ་ཡོས་བུར་གནས། །སྤྲེལ་བྱ་ཁྱི་ལ་རྟ་བྲེས་ཉལ། །ཕག་བྱི་གླང་ལ་འདབ་ཆགས་འདེད»):
+  tiger, hare and dragon years on the mouse; horse, snake and sheep years
+  on the hare; monkey, bird and dog years in the horse's stable (the
+  horse); pig, mouse and ox years chasing the bird.
+- **Turning and entry.** Left; twelve days after the solstice.
+- **Works avoided.** Raising banners, councils on a corpse or a bride, a
+  corpse's road, mediating in fights, funerals, fort work, moving house,
+  feasts.
+- **Whom he harms.** Ministers, the chiefs of councils, judges, the
+  learned and spiritual friends; in the year come calamities, quarrels
+  and talk among one's own people.
+- **Remedy.** The *Eight Thousand* and the *Eight Appearances*, long,
+  middling and short; images of the five families, five cakes, a sheep's
+  head and meat, first beer and foods; or the *'Bum*, medicinal essences,
+  nāga cakes and a rite of confession and fulfilment; sun, moon and stars
+  drawn on *stag pa*, *glang ma* or *kham bu*, with a minister's figure of dough
+  on a turtle, a hoopoe's feather and clay stamps, placed in his
+  direction; or an octagonal juniper or sandalwood tablet painted with
+  vermilion and the trigram seals and the great kings, planted there; or
+  five ransoms of wheat and peas with a goose's feather.
+
+> ༈ རྒྱལ་པོའི་བློན་པོ་ཙང་ཀུན(༥)ནི། །རུས་སྦལ་ཁྲ་བོའི་གདན་སྟེང་ན། །ཞང་བློན་ཆ་བྱད་སྐུ་མདོག་ནི། །དཀར་དམར་འོད་དུ་འབར་བ་སྟེ། །དར་དམར་ན་བཟའ་སྐུ་ལ་གསོལ། །གཡས་ན་ཤེལ་གྱི་འཁར་བ་དང་། །གཡོན་ན་རིན་ཆེན་བུམ་པ་བསྣམས། །སྟག་ཡོས་འབྲུག་ལ་བྱི་བའི་སྟེང་། །རྟ་སྦྲུལ་ལུག་ལ་ཡོས་བུར་གནས། །སྤྲེལ་བྱ་ཁྱི་ལ་རྟ་བྲེས་ཉལ། །ཕག་བྱི་གླང་ལ་འདབ་ཆགས་འདེད། །གཡོན་སྐོར་བཅུ་གཉིས་རྗེས་སུ་བསྐྱེད། །ལས་ཐབས་དར་འཕྱར་རོ་བག་གྲོས། །རོ་ལམ་འཐབ་མོའི་བར་མཚམས་ཤིད། །མཁར་ལས་འཕོ་སྐྱས་སྟོན་མོ་འཛེམ། །ཀོ་ལོང་ཞང་བློན་འདུན་གྲོས་གཙོ། །ཞལ་ཆེ་ཡོན་ཏན་ཅན་དང་ནི། །དགེ་བའི་བཤེས་དང་རྩ་བར་སྡོམ། །ལོ་དུས་རྐྱེན་འོང་ཁ་མཆུའི་ངོ། །ནང་མི་འཇབ་ཅིང་ཁ་སྨྲས་འོང་། །ཉམས་ན་བརྒྱད་སྟོང་སྣང་བརྒྱད་དང་། །རྒྱས་འབྲིང་བསྡུས་གསུམ་འདོན་པར་བྱ། །རིགས་ལྔའི་སྐུ་དང་པོ་ཟན་ལྔ། །མགོ་ཤ་ལྷུ་གཅིག་ཆང་ཕུད་དང་། །ཟས་སྣ་བཅས་པ་བཏང་སྟེ་བཅོས། །ཡང་ན་འབུམ་དང་རྩི་སྨན་དང་། །ཀླུ་གཏོར་སྤང་སྐོང་བཏོན་ལ་བཅོས། །སྟག་པ་གླང་མ་ཁམ་བུ་ལ། །ཉི་མ་ཟླ་བ་སྐར་མ་བྲི། །བག་ཟན་བློན་པོའི་གཟུགས་བྱས་པ། །རུས་སྦལ་ལ་བསྐྱོན་པུ་ཤུད་སྒྲོ། །བཙུགས་ཏེ་སཱཙྪ་རྩི་སྣན་བཅས། །གནས་པའི་ཕྱོགས་སུ་བཞག་ལ་སྒྲིབ། །ཡང་ན་གྲོ་སྲན་དར་མི་ལ། །པུ་ཤུད་སྒྲོ་བཙུགས་སྒྲིབ་པའམ། །ཤུག་པ་ཙནྡན་བྱང་བུ་ནི། །ལོགས་བརྒྱད་པ་ལ་མཚལ་གླ་རྩིས། །སྤར་ཁའི་ཕྱག་རྒྱ་རྒྱལ་ཆེན་བྲི། །བློན་པོ་གནས་པའི་ཕྱོགས་དེར་བཙུགས། །ཡང་ན་གྲོ་སྲན་གླུད་ལྔ་ལ། །ངང་པའི་སྒྲོ་བཙུགས་སཱཙྪ་ལྔ། །ཕྱོགས་དེར་བཞག་ལ་སྒྲིབ་པར་བྱ། །
+
+#### 6. The reckoner, the life-spirit knower of the *se* (སེ་བ་བླ་མཁྱེན་རྩིས་མཁན, se ba bla mkhyen rtsis mkhan) — p. 180, img. 188
+
+- **Place.** Three accounts. He walks the year's seventh (བདུན་ཟུར, *bdun
+  zur*, the animal opposite the year's): by the old Chinese reckoning that
+  is his outer place. Inner: on the middle one of the three in concord
+  (*mthun gsum 'bring po*). Secret: in front of the four corner years
+  (*ra bzhi*), behind the four middle years (*'bring bzhi*), and in the
+  four last years (*tha chung bzhi*) following the outer slayer. Another
+  account, also given: outer on the seventh; inner, mouse, horse, bird and
+  hare exchanged; secret, behind the corner and middle years; in the last
+  years following behind the slayer. The four groups are named in vol. 1
+  (p. 254, etext only): tiger, monkey, pig, snake the four corner years;
+  mouse, horse, bird, hare the four middle; ox, sheep, dog, dragon the
+  four last.
+- **Turning and entry.** Left; twelve days before the solstice.
+- **Works avoided.** Markets, fort work, searching for ground, bringing
+  out a corpse, a burial ground, laying a palace's foundation; a funeral
+  is not directed his way and a dog is not taken from there; funerals and
+  the doors of the *se*, setting up a hearth; war and robbery.
+- **Whom he harms.** Astrologers, the masters of rites, vajra masters.
+- **Remedy.** Recitations (the *Uṣṇīṣa*, the *Eight Appearances*, the
+  *Litany of the Names*, the collected dhāraṇīs, the banner dhāraṇī); an
+  offering cake sent his way; his figure in clay of mixed grains decked
+  with silk, gold and turquoise, the heart-mantra of the *Eight
+  Appearances* on its right shoulder and a magpie's feather, set in his
+  place, with an image of Mañjuśrī; or a silk figure with a *gong*
+  feather and clay stamps; or recite his heart-mantra with a turtle's
+  shell tied to the body and holding an arrow with a three-knotted cane
+  and silk; or a stake of *shar* wood made as for the king, planted on his
+  place with the words "let the life-spirit knower of year, month, day and
+  hour make nothing …".
+
+> ༈ སེ་བ་བླ་མཁྱེན་རྩིས་མཁན(༦)ནི། །སྐུ་མདོག་དམར་སེར་བརྗེའི་གཟུགས། །དབུ་ལ་སྲིད་པའི་ཞྭ་མོ་དང་། །ཆུ་དར་སེར་གསོལ་མདའ་དར་དང་། །འཕྲུལ་གྱི་མེ་ལོང་ཕྱག་ན་བསྣམས། །གཡོན་སྐོར་གནམ་ལོའི་བདུན་ཟུར་འགྲིམ། །རྒྱ་རྩིས་རྙིང་མ་ལྟར་བརྗོད་ན། །སྔ་མ་ཕྱི་ཡི་གནས་ལུགས་ཡིན། །ནང་ལྟར་མཐུན་གསུམ་འབྲིང་པོའི་སྟེང་། །གསང་བ་ར་བཞིའི་མདུན་དང་ནི། །འབྲིང་བཞིའི་རྒྱབ་དང་ཐ་ཆུང་བཞིར། །ཕྱི་ཡི་གཤེད་ལ་འབྲང་བའོ། །ཞག་ནི་བཅུ་གཉིས་གོང་ནས་བསྐྱེད། །ཁྲོམ་དང་མཁར་ལས་ས་འཚོལ་དང་། །རོ་འདོན་དུར་ས་ཕོ་བྲང་གདབ། །ཤིད་ཁ་མི་སྟོན་ཁྱི་མི་བླང་། །ཤིད་དང་སེ་སྒོ་མེ་ཐབ་བཅའ། །དམག་དང་ཇག་པ་བྱ་བ་དང་། །ཀོ་ལོང་རྩིས་མཁན་དོ་བདག་དང་། །རྡོ་རྗེ་སློབ་དཔོན་དག་ལ་སྡོམ། །ཉམས་ན་གཙུག་ཏོར་སྣང་བརྒྱད་དང་། །མཚན་བརྗོད་གཟུངས་བསྡུས་ཏོག་གཟུངས་འདོན། །གཏོར་མ་ཕྱོགས་དེར་བཏང་ལ་བཅོས། །ཁམ་ས་འབྲུ་སྣར་བླ་མཁྱེན་གཟུགས། །དར་ཟབ་གསེར་གཡུའི་རྒྱན་གྱིས་སྤྲས། །ཕྲག་གཡས་སྣང་བརྒྱད་སྙིང་པོ་དང་། །སྐྱ་ག་གཟུགས་མོའི་སྒྲོ་བཙུགས་པ། །གནས་པའི་ཕྱོགས་དེར་འཇོག་པ་དང་། །འཇམ་དཔལ་སྐུ་འདྲ་བསྟན་པས་སྒྲིབ། །ཡང་ན་དར་མི་གོང་སྒྲོ་བཙུགས། །སཱཙྪ་དང་བཅས་སྒྲིབ་པར་བྱ། །ཡང་ན་བླ་མཁྱེན་སྙིང་པོ་བརྗོད། །རུས་སྦལ་ཁོག་པ་ལུས་ལ་བཏགས། །སྤ་ལྕག་ཚིགས་གསུམ་ལེ་བརྒན་དར། །བཏགས་པའི་མདའ་བཟུང་ཉེས་པ་ཞི། །ཡང་ན་ཤར་ཤིང་མཐོ་གང་ལ། །ཐེ་སེའི་སྐབས་ལྟར་བཟོས་བྱས་ལ། །ལོ་ཟླ་ཞག་དུས་བླ་མཁྱེན་ཉིད། །བཟོ་མ་བྱེད་ཅིག་གནམ་ཕོ་ཉས། །རིགས་ཀྱི་སྒོ་མོ་མ་འབྱེད་ཅིག །ཕོ་ཉ་བཙན་པོས་བླ་མཁྱེན་གྱི། །སྲོག་མ་གཅོད་ཅེས་རང་ཐོག་གཟུག །མདོ་ཐིག་ཏོག་གཟུངས་སྣང་བརྒྱད་སྒྲོག །དེ་ནི་བཅོ་བའི་ལུགས་ཤིག་ཡིན། །ཕྱི་ཡི་བླ་མཁྱེན་བདུན་ཟུར་སྟེང་། །ནང་ལྟར་བྱི་རྟ་བྱ་ཡོས་བསྣོལ། །གསང་བ་ར་འབྲིང་རྒྱབ་ན་སྡོད། །ཐ་ཆུང་གཤེད་ཀྱི་ཕྱི་ནས་འབྲང་། །ཞེས་པའི་ལུགས་ཀྱང་བཤད་པ་ཡོད།།
+
+#### 7. The watchman, Hangphen the yellow, leader of the hal khyi (ཧང་ཕན་སེར་པོ་བྱ་ར་བ, hang phan ser po bya ra ba; ཧལ་ཁྱིའི་ཁ་ཁྲིད, hal khyi'i kha khrid) — pp. 180–181, img. 188–189
+
+- **Place.** He rules the ox, sheep, dog and dragon: in tiger, horse and
+  dog years on the dog; in pig, sheep and hare years on the sheep; in
+  mouse, dragon and monkey years on the dragon; in bird, ox and snake
+  years on the ox.
+- **Turning and entry.** Right; twenty-four days before the solstice. WB's
+  note: the root commentary has "twenty-two days after", which is only a
+  scribal slip; "twenty-four before" is correct.
+- **Works avoided.** Fort work, taking a dog, feasts, corpses, funerals,
+  the side a sick person's pillow faces, war, robbery, moving; a bride's
+  door and a go-between.
+- **Whom he harms.** Leaders of a move, men, masters of rites, life-spirit
+  knowers, the people of the place; the astrologer goes to ruin; famine,
+  epidemics and losses come; robbers cannot be held off and one is
+  defeated.
+- **Remedy.** Recitations (the *Eight Appearances*, the *Litany of the
+  Names*, the Prajñāpāramitā books, the *Long-life sūtra*, the collected
+  dhāraṇīs, the banner dhāraṇī); cleansing the ground with medicines and
+  precious powders, clay stamps of five colours and an image of Mañjuśrī;
+  his figure in clay with an owl's feather. Or five yellow cairns and five
+  yellow ransoms with a goose's or a vulture's feather and five yellow
+  cakes, with yellow earth scattered. A hostile turning-back rite is also
+  given: when the head of a row is one's enemy, his name and clan written
+  in dog's blood are put in a goat's horn wrapped in black felt and laid
+  under his seat.
+
+> ༈ ཧང་ཕན་སེར་པོ་བྱ་ར་བ(༧)། །ཧལ་ཁྱིའི་ཁ་ཁྲིད་ཅེས་ཀྱང་བྱ། །སྐུ་མདོག་དམར་སེར་འོད་དུ་འབར། །ནད་རྐྱལ་སྒྲོན་མེ་ལག་ན་ཐོགས། །དར་གོས་སྔོན་པོ་སྐུ་ལ་གསོལ། །སྐོར་བ་གཡས་སུ་བསྐོར་བ་སྟེ། །གླང་ལུག་ཁྱི་འབྲུག་བཞི་ལ་དབང་། །སྟག་རྟ་ཁྱི་གསུམ་ཁྱི་ཡི་སྟེང་། །ཕག་ལུག་ཡོས་གསུམ་ལུག་གི་སྟེང་། །བྱི་འབྲུག་སྤྲེལ་གསུམ་འབྲུག་གི་སྟེང་། །བྱ་གླང་སྦྲུལ་གསུམ་གླང་གི་སྟེང་། །ཉི(ཉེར་གཉིས་རྗེས་ཞེས་རྩ་འགྲེལ་ལས་བྱུང་ཡང་འདི་ཡིག་སྐྱོན་ཁོ་ན་སྟེ་ཉེར་བཞིའི་གོང་དག་པ་བྱུང་།)ལྡོག་ཉེར་བཞིའི་གོང་དུ་བསྐྱེད། །མཁར་ལས་ཁྱི་ལེན་སྟོན་རོ་ཤིད། །ནད་པའི་སྔས་སྟོན་དམག་ཇག་སྐྱས། །བག་མ་སྒོ་དང་སྐྱེད་པོ་འཛེམ། །ཀོ་ལོང་སྐྱས་སྣེ་སྐྱེས་པ་དང་། །དོ་བདག་བླ་མཁྱེན་ཡུལ་མིར་སྡོམ། །རྩིས་མཁན་བརྗེ་བང་ཕྱིན་ངན། །བཟའ་འབྲལ་རིམས་ནད་གོད་ཁ་འོང་། །ཇག་རྐུན་མི་ཚུགས་ཚུར་ལ་འཕམ། །ཉམས་ན་སྣང་བརྒྱད་མཚན་བརྗོད་དང་། །ཤེར་ཕྱོགས་ཚེ་མདོ་གཟུངས་བསྡུས་ཏོག །སྒྲོག་ཅིང་ས་གཙང་སྨན་སྣ་དང་། །རིན་ཆེན་ཕྱེ་བཏབ་སཱཙྪ་ནི། །ཁ་དོག་ལྔ་དང་འཇམ་དབྱངས་སྐུ། །ཁམ་སར་བྱ་རའི་གཟུགས་བྱས་ལ། ། འུག་སྒྲོ་བཙུགས་ལ་བསྟན་ཏེ་སྒྲིབ། །ཡང་ན་ཐོ་སེར་ལྔ་དང་ནི། །གླུད་སེར་ལྔ་ལ་ངང་སྒྲོ་འམ། །གོ་བོའི་སྒྲོ་བཙུགས་གཏོར་སེར་ལྔ། །ས་སེར་གཏོར་ལ་སྒྲིབ་པར་བྱ། །ཡང་ན་དོང་ཅེས་བཟློག་པ་ཡིན། །གྲལ་དཔོན་རང་གི་དགྲ་ཡིན་ན། །མིང་རུས་ཁྱི་ཡི་ཁྲག་གིས་བྲིས། །ར་རོག་ཁར་གཞུག་རེ་ནག་གྲིལ། །ཁྲི་ཡི་འོག་ཏུ་བཅུག་པ་ན། །གཏོ་ནག་ཡོན་བདག་ཆགས་ཁ་འབྲི། །ལྷ་འདྲེ་དེ་ལ་བྱོལ་ཏེ་འགྲོ།།
+
+#### 8. The king's treasure guardian, Sebyi (སེ་བྱི, se byi) — p. 181, img. 189
+
+- **Place.** He walks the seventh from Hangphen the yellow (the place
+  opposite the watchman's).
+- **Turning and entry.** Right; eight days after the solstice.
+- **Works avoided.** Lending and repaying wealth, corpses, war, funerals,
+  fort work, feasts, brides, trade, councils, judgements, robbery, the
+  cooking hearth; the side a servant woman's corpse is sent to; giving or
+  taking dogs and cats. Whoever repays wealth from his place: the ritual
+  master dies within seven months.
+- **Whom he harms.** Those who give out wealth, young men, servants and
+  maids, those who take in cats.
+- **Remedy.** Recitations (the banner dhāraṇī, the long-life dhāraṇī,
+  the collected dhāraṇīs, the *Great Thousand*, the *Rab 'joms*); or a
+  nāga rite, an image of Tārā and clay stamps; silks and tiger and leopard
+  skins tied to an arrow and a sheep's heart offered in his direction; his
+  figure in grain flour decked with predators' skins; offering and water
+  cakes sent his way; in the Bon way, turning the demon's face.
+
+> ༈ རྒྱལ་པོའི་ནོར་བསྲུང་སེ་བྱི(༨)ནི། ༑དཀར་པོ་མི་ལུས་སྟག་གི་མགོ། །གཟིག་གི་མཇུག་མ་ཐིག་ལེ་ཅན། །ཕྱག་ན་བྱི་བླའི་རྒྱལ་མཚན་བསྣམས། །ཧང་ཕན་སེར་པོའི་བདུན་ཟུར་འགྲིམ། །གཡས་སྐོར་ཞག་བརྒྱད་རྗེས་སུ་བསྐྱེད། །ལས་ནི་ནོར་འཇལ་རོ་དམག་ཤིད། །མཁར་ལས་སྟོན་མོ་བག་མ་ཚོང་། །གྲོས་འདུན་ཞལ་ཆེ་ཇག་ཐབ་ཁ། །ཁོལ་མོའི་རོ་ཡི་གཏོང་ཕྱོགས་དང་། །ཁྱི་དང་བྱི་བླ་གཏོང་ལེན་སྤང་། །འདི་ཡི་ཐོག་ནས་ནོར་འཇལ་ན། །གཏོ་མཁན་ཟླ་བ་བདུན་ན་འགུམ། །ཀོ་ལོང་ནོར་འགྱེད་མི་དང་ནི། །སྐྱེས་དར་གོ་ཁོལ་བྲན་མོ་དང་། །བྱི་བླ་ལེན་མི་དེ་ལ་སྡོམ། །ཉམས་ན་ཏོག་དང་ཚེ་གཟུངས་དང་། །གཟུངས་བསྡུས་སྟོང་ཆེན་རབ་འཇོམས་འདོན། །ཡང་ན་ཀླུ་བཅོས་བྱ་བ་དང་། །སྒྲོལ་མའི་སྐུ་དང་སཱཙྪ་བསྟན། །མདའ་ལ་དར་སྣ་སྟག་གཟིག་ལྤགས། །བཏགས་ཏེ་ལུག་སྙིང་ཕྱོགས་དེར་དབུལ། །འབྲུ་སྣའི་ཕྱེ་ལ་སེ་བྱིའི་གཟུགས། །གཅན་གཟན་ལྤགས་པས་བརྒྱན་ལ་སྒྲིབ། །གཏོར་མ་ཆབ་གཏོར་ཕྱོགས་དེར་བཏང་། །བོན་དུ་བདུད་ཀྱི་ཞལ་བསྒྱུར་བྱ།།
+
+#### 9. The bodyguard, the man-slayer Seshar (སེ་ཤར, se shar) — pp. 181–182, img. 189–190
+
+- **Place.** On the tomb (དུར, *dur*) of the year's wind-horse
+  («གནམ་ལོའི་ཀླུང་རྟའི་དུར་ལ་གནས»).
+- **Turning and entry.** Right; eight days before the solstice.
+- **Works avoided.** War, robbery, moving, fort work, giving out road
+  provisions, dividing shares, butchering: red works are bad. If one
+  corpse is sent there, three follow; if they are not moved, the move is
+  scattered. Sending a young man's corpse is worst.
+- **Whom he harms.** The astrologer's wife, young men, children, those
+  who set up the *se*, wealth.
+- **Remedy.** Recitations (the *Gaṇḍavyūha*, the *Twenty Thousand*, the
+  *Sky and Earth Eight Appearances*), or the *Uṣṇīṣa*'s thousandfold
+  averting; meat, blood and hearts in a skull left three days in his
+  place; hearts tied to a spear; his figure in clay or ransom-dough with a
+  hawk's or a vulture's feather, armour and clay stamps; or three red
+  cakes with curd and meat in his place and a fire lit at the roadside; in
+  the Bon way thirteen ransoms and the *zor* and *mdos*.
+
+> ༈ སྐུ་བསྲུང་མི་གསོད་སེ་ཤར(༩)ནི། །སྐུ་མདོག་དམར་ནག་རབ་ཏུ་འཇིགས། །ཞུབ་ཅན་རལ་གྲི་ཕུབ་ཐོགས་པ། །བཞོན་པ་ཆུ་གླང་རྒྱུ་བ་སྟེ༑ །གནམ་ལོའི་ཀླུང་རྟའི་དུར་ལ་གནས། །གཡས་སྐོར་ཞག་བརྒྱད་གོང་ནས་བསྐྱེད། །ལས་ནི་དམག་ཇག་འཕོ་སྐྱས་དང་། །མཁར་ལས་ལམ་ཟན་འགྱེད་པ་དང་། །གཤགས་འགྱེད་བཤས་བྱེད་དམར་ལས་ངན། །རོ་གཅིག་བཏང་ན་གསུམ་ཟློས་སྤོ། །མ་སྤོས་ཡ་འདོད་འཕོ་སྐྱས་གཏོར། །ཁྱད་པར་སྐྱེས་དར་རོ་གཏོང་ངན། །ཀོ་ལོང་རྩིས་མཁན་ཆུང་མ་དང་། །སྐྱེས་དར་བྱིས་པ་སེ་འཛུགས་པ། །ནོར་རྫས་དག་ལ་སྡོམ་པའོ། །ཉམས་ན་གྲྭ་ལྔ་སྡོང་རྒྱན་དང་། །ཉི་ཁྲི་གནམ་ས་སྣང་བརྒྱད་སྒྲོག །ཡང་ན་གཙུག་ཏོར་སྟོང་བཟློག་བྱ། །ཐོད་པར་ཤ་ཁྲག་སྙིང་སྣ་བླུགས། །གནས་པའི་ཕྱོགས་དེར་ཞག་གསུམ་བཞག །མདུང་ལ་སྙིང་སྣ་བཏགས་པ་བསྟན། །ཁམ་སའམ་ངར་ཕྱེར་སེ་ཤར་གཟུགས། །ཁྲ་འམ་བྱ་རྒོད་གོང་སྒྲོ་བཙུགས། །གོ་ཁྲབ་ཆས་དང་སཱཙྪས་སྒྲིབ། །ཡང་ན་དམར་གཏོར་གསུམ་གྱི་ནང་། །ཞོ་ཤ་གསུམ་བཅུག་གནས་སར་བཞག །ལམ་ཁར་མེ་གཅིག་སྤར་བས་ཐུབ། །བོན་དུ་གླུད་ནི་བཅུ་གསུམ་ཆ། །ཟོར་མདོས་དག་ཀྱང་བྱ་བའོ།།
+
+#### 10. The king's mount, Seba Rangta (སེ་བ་རང་རྟ, se ba rang rta) — p. 182, img. 190
+
+- **Place.** From the king's place, on the ninth («རྒྱལ་པོ་གནས་པའི་ས་ཕྱོགས་ནས། །དགུ་པའི་སྟེང»);
+  in a tiger year he lies in the dog's nest, and so for every year (from
+  the tiger counting the tiger as first, the ninth is the dog).
+- **Turning and entry.** Left; four days before the solstice (the others:
+  twenty-two days after).
+- **Works avoided.** Buying horses, horse races, brides, building horse
+  pens and stables, horse markets, shows, funerals, feasts, war; corpses,
+  brides, horses' carcasses and the side of slaughtering all meet there.
+- **Whom he harms.** Astrologers, horse owners, sons-in-law, sisters,
+  servants and livestock, the owners of corpses, those who lead horses.
+- **Remedy.** Recitations (the *Recollection of the Buddha*, the *'Bum*,
+  the *Eight Appearances*, *Amitāyus*, the sūtra asked by Ljon pa); or a
+  ransom and a black *gtsug*; buy a horse or an ox and call it back; five
+  clay men and horses laden with silk and a water cake; or a clay horse
+  screened with grains; or a dough man on a clay horse; a horse with a
+  multicoloured feather and dog's bones; an image of Hayagrīva with clay
+  stamps; or a man's body with a horse's head and a hoopoe's feather set
+  in his direction.
+
+> ༈ སེ་བ་རང་རྟ་རྒྱལ་པོའི་ཆིབས(༡༠)། །རྟ་ལུས་མི་ཡི་མགོ་བོ་ཅན། །སྐུ་མདོག་སེར་པོ་འོད་དང་ལྡན། །གསེར་སྐྱོགས་གཡུ་སྐྱོགས་ལག་ན་ཐོགས། །རླུང་གི་བཞོན་པ་དང་འགྲོགས་ཏེ། །གཡོན་སྐོར་ཞག(གཞན་རྣམས་ནས་རྩ་གཉིས་རྟིང་ལ།)བཞིའི་གོང་ནས་བསྐྱེད། །རྒྱལ་པོ་གནས་པའི་ས་ཕྱོགས་ནས། །དགུ་པའི་སྟེང་ན་གནས་པ་སྟེ། །སྟག་གི་ལོ་ལ་ཁྱི་ཚང་ཉལ། །དེ་ཡི་རིག་པས་ཀུན་ལ་འགྲེ། །ལས་ནི་རྟ་ཉོ་རྟ་རྒྱུག་བག །རྟ་ར་རྟ་བྲེས་བརྩིག་པ་དང་། །རྟ་ཁྲོམ་ལྟད་མོ་ཤིད་སྟོན་དམག །རོ་བག་རྟ་རོ་བཤའ་ཕྱོགས་འཛོམ། །ཀོ་ལོང་རྩིས་མཁན་རྟ་བདག །མག་པ་བུ་སྲིང་རྐང་བྲན་ཕྱུགས། །རོ་བདག་རྟ་ཁྲིད་རྣམས་ལ་སྡོམ། །ཉམས་ན་སངས་རྒྱས་རྗེས་དྲན་དང་། །འབུམ་དང་སྣང་བརྒྱད་ཚེ་དཔག་མེད། །ལྗོན་པས་ཞུས་པའི་མདོ་འདོན་ཅིང་། །ཡང་ན་གླུད་དང་གཙུག་ནག་བཅོས། །རྟ་གླང་ཉོས་པ་ཕྱི་ལ་བཀུག །ཁམ་སའི་མི་རྟ་ལྔ་བྱས་ལ། །དར་ཟབ་ཁལ་བཀལ་ཆུ་གཏོར་བཏང་། །ཡང་ན་ཁམ་རྟ་འབྲུ་སྣས་སྒྲིབ། །ཡང་ན་ཁམ་རྟར་ངར་མི་བསྐྱོན། །ཁུག་རྟ་ཁྲ་སྒྲོ་གང་རིས་བཙུགས། །མི་རྟ་ཁྱི་རུས་དང་བཅས་ཏེ། །རྟ་མགྲིན་སྐུ་དང་སཱཙྪས་སྒྲིབ། །ཡང་ན་མི་ལུས་རྟ་མགོ་ཅན། །པུ་ཤུད་སྒྲོ་བཙུགས་ཕྱོགས་དེར་བཞག།
+
+#### 11. The earth lord Se'u who leads the horse (སེ་འུ་རྟ་ཁྲིད, se'u rta khrid) — p. 182, img. 190
+
+- **Place.** As the mount: the ninth from the king; the dog in a tiger year.
+- **Turning and entry.** Left; four days before the solstice.
+- **Works avoided.** Walking horses, sending corpses, the things of a
+  grave, funerals and all horse works.
+- **Whom he harms, and the remedy.** As the mount's.
+
+> ༈ ས་བདག་སེ་འུ་རྟ་ཁྲིད(༡༡)ནི། །རྟ་པ་ཞུབ་ཅན་སྐུ་མདོག་སེར། །གཡོན་སྐོར་ཞག་བཞིའི་གོང་ནས་བསྐྱེད། །རྒྱལ་པོ་གནས་པའི་ས་ཕྱོགས་ནས། །དགུ་པའི་སྟེང་ན་གནས་པ་སྟེ། །སྟག་གི་ལོ་ལ་ཁྱི་ཚང་ཉལ། །དེ་ཡི་རིག་པས་ཀུན་ལ་འགྲེ། །རྟ་འཆག་རོ་གཏོང་དུར་ཡོ་ལོང་། །ཤིད་དང་རྟ་ལས་ཀུན་ལ་འཛེམ། །ཀོ་ལོང་ཉམས་བཅོས་རྟ་དང་འདྲ།།
+
+#### 12. The time-keeper, Sebya (སེ་བྱ, se bya) — pp. 182–183, img. 190–191
+
+- **Place.** On last year's animal («ན་ནིང་གནམ་ལོའི་…སྟེང་ན་གནས»). WB's note: the
+  *mdo byang* and the *Gab pa 'phrul 'khor* put him with the king, which
+  only shows he is close to the king; the *Snang gsal* commentary
+  (ch. 39) has him with the king and its ch. 45 "following the king";
+  the meaning is the year behind the king's.
+- **Turning and entry.** Left (the *Snang gsal*, the *Rin chen kun 'dus*
+  and others: right); one day before the solstice (all the others:
+  twenty-two days after, which may be right, but WB follows the *Gsal
+  sgron*).
+- **Works avoided.** Taking in servants, funerals, fort work, sending
+  corpses; the side one's words go to and the road of an offering cake
+  are not directed his way; casting *zor*, burnt offerings, brides; war,
+  a child's corpse and burial are bad.
+- **Whom he harms.** Astrologers, corpse carriers, mantrins, messengers,
+  those who take in servants, brides, servants and couriers.
+- **Remedy.** Recitations (the *Uṣṇīṣa*, the *Eight Appearances*, the
+  *White Parasol*, the *Vajravidāraṇā*, the *Golden Light*); a silk figure
+  covered with a predator's skin, a red cock's or a mixed feather, cakes
+  and clay stamps sent his way; a white bird decked with silks or a white
+  goat with a black neck, an image of Garuḍa; or his own figure with a
+  leopard-skin sheath, sent his way with the eye-opening.
+
+> ༈ དུས་འཛིན་སེ་བྱ(༡༢)སྐུ་མདོག་ནི། །དམར་སེར་འོད་དུ་འབར་བ་ལ། །མི་ལུས་བྱ་མགོ་ཟངས་ལྕགས་ཀྱི། །གཤོག་ཅན་ཕྱག་ན་འབུད་དུང་དང་། །ཕུར་བུ་འཛིན་ལ་གདུག་པ་ཅན། །ན་ནིང་གནམ་ལོའི(འདི་རྣམ་པར་མདོ་བྱང་གབ་པ་འཕྲུལ་གཅིག་པར་བྱས་འདུག་ཀྱང་། འདི་རྒྱལ་པོ་དང་ཉེ་བའི་དོན་སྟོན་བྱེད་ལོ་འགྱངས་ཆེར་མེད་པ་ཙམ་སྟོན་པ་ཡིན་པ་དང་། དོན་རྒྱལ་པོའི་རྗེས་ལོར་སྡོད་དགོས་པ་རྗེ་བཙུན་འཇམ་པའི་དབྱངས་ཀྱི་གསུང་དྲི་མ་མེད་པ་འགྲེལ་པ་སྣང་གསལ་གྱི་ལེའུ་སོ་དགུ་པ་ལས་ཕེའུ་བྱ་རྒྱལ་པོ་ཉིད་དང་འགྲོགས། ཞེས་བསྟན་ནས་ལེའུ་ཞེ་ལྔ་པར། །ཕེའུ་བྱ་རྗེས་ཀྱི་བྱ་རག་ཙ་གཉིས་རྟིང་ལ་སྐྱ་བར་བརྒྱུད། །ཞེས་རྒྱལ་པོའི་ཕྱི་ལོར་འབྲང་བར་བསྟན་པས་དོན་གྱིས་དགོངས་པ་ཐམས་ཅད་མཐུན་པར་ན་ནིང་གི་ལོ་སྟེང་དག་པ་བྱུང་། དུ་ཧར་ནག་པོས་དོན་འཁྲུགས་གབ་ཐམས་ཅད་བསལ་ནས་གསལ་སྒྲོན་དུ་བསྟན་པར་མཛད་པར་སེམས།)སྟེང་ན་གནས། །གཡོན་སྐོར(འགྲེལ་པ་སྣང་གསལ་རིན་ཆེན་ཀུན་འདུས་སོགས་ནས་གཡས་སྐོར།)ཞག་གཅིག་གོང་ལ་བསྐྱེད། །(གཞན་རྣམས་ཐམས་ཅད་ནས་ཙ་གཉིས་རྟིང་ལ་བྱུང་བ་ཙ་གཉིས་དག་པ་འདྲ་བས་མང་ཤར་ཀྱང་གསལ་སྒྲོན་ལྟར།)བྲན་གཡོག་བྱ་ལེན་ཤིད་མཁར་ལས། །རོ་གཏོང་གཏམ་གྱི་ཁ་ཕྱོགས་དང་། །གཏོར་མའི་ལམ་ཕྱོགས་དེར་མི་སྟོན། །གཏད་ཟོར་ཧོམ་སྤོར་སྦྱིན་སྲེག་བག །དམག་དང་བྱིས་རོ་དུར་འདེབས་ངན། །ཀོ་ལོང་རྩིས་མཁན་རོ་ཁུར་དང་། །སྔགས་པ་གཏམ་གཏོང་བྱ་ལེན་མི། །བག་མ་བྲན་གཡོག་བང་ཆེན་སྡོམ། །ཉམས་ན་གཙུག་ཏོར་སྣང་བརྒྱད་དང་། །གདུགས་དཀར་རྣམ་འཇོམས་གསེར་འོད་སྒྲོག །དར་གཟུགས་གཅན་གཟན་པགས་པས་གཡོགས། །བྱ་ཕོ་མཚའ་ལུའམ་སྒྲོ་སྣ་བཙུགས། །གཏོར་མ་སཱཙྪ་དང་བཅས་པ། །ཕྱོགས་དེར་བཏང་ཞིང་བྱ་དཀར་ལ། །དར་སྣས་བརྒྱན་པའམ་ར་དཀར་པོ། །གཉའ་ནག་ཁྱུང་གི་སྐུ་བསྟན་སྒྲིབ། །ཡང་ན་སེ་བྱའི་གཟུགས་དང་ནི། །སྣ་ཚོགས་གཟུགས་བཅོས་གཟིག་ཤུབས་བཏགས། །སྤྱན་གཟིགས་དང་བཅས་ཕྱོགས་སུ་གཏོང་།།
+
+#### 13. The seat-spreader, Seba (སེ་བ་གདན་འདིང, se ba gdan 'ding) — p. 183, img. 191
+
+- **Place.** «རྒྱལ་པོ་གང་གནས་གདན་ས་གཅིག»: one seat with the king, wherever he is.
+  WB's note: the *Snang gsal* and the *Rin chen kun 'dus* put him on the
+  middle one of the three in concord, the *Lung kun 'dus* "leaving four
+  years, goes in front"; perhaps he has outer, inner and secret seats as
+  the life-spirit knower has, but no clear words were found, and the
+  essence of the *Gsal sgron* (printed «བསལ་སྒྲོན» here) is written here.
+- **Turning and entry.** Left; two days before the solstice.
+- **Works avoided.** The seat of the head of a row, corpses, war, feasts,
+  wood, brides, markets, spreading seats, building thrones, a widow's
+  seat; a seat for dice is bad for the players.
+- **Whom he harms.** Ministers, those who keep the seats, servants and
+  helpers.
+- **Remedy.** Recitations (the *Golden Light*, the *Uṣṇīṣa*, the *Eight
+  Appearances*, the *Gser sdud*, the *Gaṇḍavyūha*); a bundle of silk and
+  grains with a parrot's feather tied to a *se* stake sent his way; or a
+  ransom man on a blue horse with silk and a parrot's feather set there;
+  the eight nāgas and a hundred nāga cakes; or a hen tied in his
+  direction; a white bird, a white goat with a black neck, a blue man of
+  mixed-grain dough with a peacock's feather.
+
+> ༈ ས་བདག་སེ་བ་གདན་འདིང(༡༣)ནི། །ལྗང་སྐྱ་ཕྱག་ན་ཁྲི་ཤིང་བསྣམས། །རྒྱལ་པོ་གང་གནས་གདན་ས(ས་བདག་འདི་གཙོ་བོར་འགྲེལ་པ་སྣང་གསལ་དང་། །རིན་ཆེན་ཀུན་འདུས་གཉིས་སུ་མཐུན་གསུམ་འབྲིང་ལ་གནས་ཞེས་དང་། །ལུང་ཀུན་འདུས་ལས། ལོ་བཞི་བོར་ནས་སྣ་ལ་འགྲོ། སོགས་མི་མཐུན་པ་བྱུང་བ་འདི་ལ་བླ་མཁྱེན་ལྟ་བུའི་ཕྱི་ནང་གསང་གསུམ་གྱི་གདན་གནས་ཡོད་པ་ཞིག་ཏུ་དོགས་ཀྱང་ཚིག་གསལ་མ་བྱུང་བ་དང་བཅས་ད་ལྟ་འདིར་བསལ་སྒྲོན་སྙིང་པོ་གང་ཡིན་ལྟར་བཀོད།)གཅིག །གཡོན་སྐོར་ཞག་གཉིས་གོང་ལ་བསྐྱེད། །ལས་ནི་གྲལ་དཔོན་བཞུགས་ཁྲི་དང་། །རོ་དམག་སྟོན་ཤིང་བག་མ་ཁྲོམ། །གདན་བཤོམ་ཁྲི་བརྩིག་ཡུགས་འདུག་སྤང་། །ཤོ་གདན་བྱས་ན་ཤོ་མིར་ངན། །ཀོ་ལོང་ཞང་བློན་གདན་གཉེར་དང་། །བྲན་གཡོག་ལག་བདེ་བ་ལ་སྡོམ། །ཉམས་ན་གསེར་འོད་གཙུག་ཏོར་དང་། །སྣང་བརྒྱད་གསེར་སྡུད་སྡོང་རྒྱན་སྒྲོག །སེ་བར་དར་དང་འབྲུ་སྣ་ཡི། །ཐུམ་བུ་དང་ནི་སོ་ཏའི་སྒྲོ། །བཏགས་པ་ཕྱོགས་དེར་བཏང་ལ་བཅོས། །ཡང་ན་ངར་མི་རྟ་སྔོན་ཞོན། །དར་ཟབ་བཏགས་པ་སོ་ཏའི་སྒྲོ། །བཙུགས་པ་ཕྱོགས་དེར་བཞག་པས་ཐུབ། །ཀླུ་བརྒྱད་ཀླུ་གཏོར་བརྒྱ་རྩས་བཅོས། །ཡང་ན་ཁྱིམ་བྱ་ཕྱོགས་དེར་བཏགས། །བྱ་དཀར་ར་དཀར་གཉའ་ནག་དང་། །འབྲུ་སྣ་ཚོགས་པའི་ངར་ཕྱེ་ཡས། །མི་སྔོན་རྨ་བྱའི་སྒྲོ་བཙུགས་སྒྲིབ།།
+
+#### 14. The sweeper of the year, Kungnyul the inspector (སེ་ལོ་ས་འཕྱག་ཀུངས་མྱུལ, se lo sa 'phyag kungs myul) — p. 184, img. 192
+
+- **Place.** He walks the king's upward and downward slayer years
+  («རྒྱལ་པོའི་ཡར་མར་གཤེད་ལོ་འགྲིམ»), the right in male years and the left in female
+  («ཕོ་གཡས་མོ་ལོ་གཡོན»). WB's note: the sources name him and the sweeper
+  (no. 15) as two, but the *mdo byang*, the *Lung kun 'dus*, the *Rin chen
+  kun 'dus* and the *Gsal sgron* describe one; the *Lung kun 'dus* puts him
+  on the slayer, the *Rin chen kun 'dus* "on the four-slayer, male years
+  right, female left"; WB thinks the downward four-slayer (*mar gyi bzhi
+  gshed*, the fourth animal counting back from the king's) correct and
+  the split by male and female years an admixture.
+- **Turning and entry.** Left; sixteen days before the solstice (the
+  *Gsal sgron* by its line: twenty-two after).
+- **Works avoided.** Corpses, war, casting *zor*, roads, setting up a
+  hearth, brides, games, dances, contests, horse races, mandalas, fort
+  work, building a palace; in his direction fort work, planting boundary
+  stakes, a general's inspection and shows.
+- **Whom he harms.** Young men, servants, the beloved, musicians,
+  messengers, servants and corpses.
+- **Remedy.** Recitations (the Prajñāpāramitā books, the *Eight
+  Appearances*, the *White Dharma*, the banner dhāraṇī, the nāgas'
+  *'Bum*); water cakes, the three whites, first beer; a hundred and four
+  clay stamps, ransoms, thread-crosses; his figure in five grains with an
+  arrow and silk and a hawk's feather sent his way, with clay stamps and an
+  image of Vajrapāṇi; or his own figure in clay decked with silk and a
+  hawk's feather.
+
+> ༈ སེ་ལོ་ས་འཕྱག་ཀུངས་མྱུལ(༡༤)ནི། །མདོག་དམར་མདུང་དམར་བ་དན་འཛིན། །རྒྱལ་པོའི་ཡར་མར་གཤེད་ལོ་འགྲིམ། །(ས་བདག་འདིར་ཟངས་ཀྱམ་འཕྲུལ་གྱི་མེ་ལོང་སོགས་སུ་གོང་དུ་སེ་ལོ་ས་འཕྱག་དང་འོག་ཏུ་ཀུངས་མྱུལ་ཞེས་སོགས་མིང་གི་རྣམ་གྲངས་ཡོད་པར་བརྟེན་འདི་ས་བདག་གཉིས་སུ་ནོར་བའི་སེ་ལོས་འཕྱག་གད་བདར་བའི་ཆ་བྱད་སྐུ་མདོག་སྔོན་པོ་ཕྱག་ན་ཤེལ་གྱི་ཕྱགས་ཤིང་བསྣམས་ཞེས་ནམ་མཁའ་རྒྱལ་མཚན་ལུགས་སོགས་དང་བཅས་སྣ་ཚོགས་ཀྱང་མདོ་བྱང་མ་བུ་ལུང་ཀུན་འདུས། རིན་ཆེན་ཀུན་འདུས། གསལ་སྒྲོན་སོགས་ཐམས་ཅད་ནས་གཅིག་པར་བཤད་ཅིང་། །གནས་ཡུལ་ལུང་ཀུན་འདུས་ལས་གཤེད་པ་ཞེས་དང་། རིན་ཆེན་ཀུན་འདུས་སུ་སེ་ལོ་ས་འཕྱག་གཤེད་བཞི་ལ་ཕོ་ལོ་གཡས་ལ་མོ་ལོ་གཡོན་ཞེས་སོགས་མི་མཐུན་བརྒྱུད་ཁུངས་ལྷད་མ་ཞུགས་པ་ཚོར་གཤེད་ལ་གནས་ཞེས་པ་ད་ལམ་བཞི་གཤེད་ལ་སྦྱོར་དགོས་པ་དུར་གཤེད་དང་འཁྲུལ། །དེའི་ངོས་འཛིན་ལ་ཕོ་ལོ་མོ་ལོ་དབྱེ་བའི་འཁྲུལ་བའི་ལྷད་ཞུགས་པ་དོགས་ཤིང་། །མདོ་བྱང་ལས་ནང་བློན་ཡིན་པས་རྒྱལ་དང་འགྲོགས་ཞེས་པ་ཡང་ས་འཕྱག་ཕྱོགས་མྱུལ་བའི་ལྷ་ཡིན་པས་ནང་བློན་རྒྱལ་འགྲོགས་ཀྱི་གོ་གཞི་ཆུང་ཞིང་དོན་མར་གྱི་བཞི་གཤེད་དག་པར་སེམས།)དེ་ཡང་ཕོ་གཡས་མོ་ལོ་གཡོན། །གཡོན་སྐོར་བཅུ་དྲུག(ལྟ་རྒྱུད་གསལ་སྒྲོན་ནས་ཙ་གཉིས་རྟིང་།)གོང་ནས་བསྐྱེད། །རོ་དམག་ཟོར་ལམ་ཐབ་འཛུགས་བག །རྩེད་བྲོ་ཤོན་དང་གར་རྟ་རྒྱུག །དཀྱིལ་འཁོར་མཁར་ལས་ཕོ་བྲང་བརྩིག །ཕྱོགས་དེར་མཁར་ལས་སྤོམ་གཏའ་དང་། །དམག་དཔོན་ཀུངས་མྱུལ་ལྟང་སྟོན་སྤང་། །ཀོ་ལོང་སྐྱེས་པ་དར་མ་དང་། །བྲན་གཡོག་སྙིང་རེག་སྒྲ་རོལ་མཁན། །བང་ཕྱིན་གོ་ཁོལ་རོ་ལ་སྡོམ།ཤེས་རབ་ཕྱོགས་དང་སྣང་བརྒྱད་དང་། །དཀར་ཆོས་ཏོག་གཟུངས་ཀླུ་འབུམ་འདོན། །ཆབ་གཏོར་དཀར་གསུམ་ཆང་ཕུད་གཏོར། །སཱཙྪ་བརྒྱ་བཞི་གླུད་དོང་ཙེ། །གཅོད་ཀྱི་རྭ་ཡིས་སྡིག་པ་འམ། འབྲུ་སྣ་ལྔ་ཡི་དར་ཕྱེ་ལ། །ཀུངས་མྱུལ་གཟུགས་བྱས་མདའ་དར་བསྐུར། །ཁྲ་ཡི་སྒྲོ་བཙུགས་ཕྱོགས་དེར་བཏང་། །སཱཙྪ་ཕྱག་རྡོར་སྐུ་ཡང་བསྟན། །ཡང་ན་ཁམ་སར་རང་གཟུགས་བཅོས། །དར་སྣ་ཁྲ་སྒྲོས་བརྒྱན་པས་སྒྲིབ།།
+
+#### 15. The earth lord who sweeps the year (སེ་ལོ་ས་འཕྱག, se lo sa 'phyag) — p. 184, img. 192
+
+- **Place.** The king's downward four-slayer («རྒྱལ་པོའི་མར་གྱི་བཞི་གཤེད་འགྲིམ»).
+- **Turning and entry.** Left; sixteen days before the solstice.
+- **Works avoided.** War, robbery, palaces, corpses, games, dances,
+  contests, horse races, war and fort work and boundary stakes.
+- **Whom he harms.** Young men, messengers, generals and the *gad bdar
+  ba*.
+- **Remedy.** The banner dhāraṇī, a hundred and four offerings, a hundred
+  cakes; his own figure in clay decked with silk, with clay stamps in his
+  direction. WB closes: "so it is written; in truth it is the inspector
+  himself" (no. 14).
+
+> ༈ ས་བདག་སེ་ལོ་ས་འཕྱག(༡༥)ནི། །སྐུ་མདོག་སྔོན་པོ་ཕྱགས་ཤིང་བསྣམས། །རྒྱལ་པོའི་མར་གྱི་བཞི་གཤེད་འགྲིམ། །གཡོན་སྐོར་བཅུ་དྲུག་གོང་ནས་བསྐྱེད། །ལས་ཐབས་དམག་ཇག་ཕོ་བྲང་རོ། །རྩེད་བྲོ་གར་ཤོན་རྟ་རྒྱུག་དང་། །དམག་དང་མཁར་ལས་སྤོམ་གཏའ་འཛོམ། །ཀོ་ལོང་སྐྱེས་དར་བང་ཕྱིན་དང་། །དམག་དཔོན་གད་བདར་བ་ལ་སྡོམ། །ཉམས་ན་ཏོག་གཟུངས་བརྒྱ་བཞི་དང་། །གཏོར་མ་བརྒྱ་རྩ་དག་གིས་བཅོས། །ཁམ་སའི་རང་གཟུགས་དར་སྣས་བརྒྱན། །སཱཙྪ་ཕྱོགས་དེར་བཞག་པས་སྒྲིབ། །ཅེས་ཡོད་དོན་དུ་ཀུངས་མྱུལ་དངོས།།
+
+#### 16. The black hal khyi, the king's dog (ཧལ་ཁྱི་ནག་པོ, hal khyi nag po) — p. 185, img. 193
+
+- **Place.** With five mothers and five sons, on the wind-horse of the
+  previous year («སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང»); he rules the four
+  harmful years. The printed numbers 17–25 stand over the mothers and
+  sons.
+- **Turning and entry.** Twenty-two days each, mother and son moving two
+  by two: a hundred and ten days (WB's note: the *Rin chen kun 'dus*, the
+  *Lung kun 'dus*, the *lha rgyud* and the *Gsal sgron* have a hundred and
+  four, and so the *Stong shes*). With heat, cold and thunder the hal khyi
+  completes his move, turning right.
+- **Works avoided.** Corpses, brides, leading an army, wood, fort work,
+  moving, taking in cats, building the *se* and *chad pa*: every work,
+  great or small. A corpse sent there brings thirteen corpses in a row.
+- **Whom he harms.** Everyone who works there, inside or out; when a
+  corpse or a dog is sent: the corpse carrier, the ritual master, the
+  astrologer, those without heirs, widows. When nine corpses have come in
+  a row, one is sent on him by the rite; otherwise a corpse sent there
+  cannot be mended.
+- **Remedy.** For any other work: recitations (the *Twenty Thousand*, the
+  *Sky and Earth Eight Appearances*, the collected dhāraṇīs, the
+  *Uṣṇīṣa*, the *Eight Thousand*); an image of Vajrapāṇi on a black pig, a
+  silk ransom of mixed grains with a raven's feather, sent his way; or
+  thirteen black men with dog heads in clay holding bows and arrows, with
+  a *srin bya*'s feather, meat, blood and mustard cakes, a golden libation
+  and a smoke offering; or thirteen lions and a black sheep decked with
+  silks; the eight black nāgas with three heads; the averting of the
+  demons and one's own *gto*; black dog, bird, sheep, pig, bear and
+  brown bear, a dog-headed figure in black silk; the dhāraṇī of the Black
+  Protector, smoke of meat and blood, many clay stamps; a dog-headed
+  figure with raven, peacock and *srin bya* feathers; a one-legged *se*
+  stake decked with silk and wool, a stuffed wolf or black sheep, five
+  ransoms in a goat's head; the goat-horn averting; the earth lord's
+  *g.yo bcos*; the Bon rite with a black sheep and a black bird.
+
+> ༈ ཧལ་ཁྱི་ནག་པོ(༡༦)རྒྱལ་པོའི་ཁྱི། །མི་ལུས་ཁྱི་མགོ་སྦྲུལ་མཇུག་ཅན། །ལྕགས་ཀྱི་བྱ་གཤོག་སྐུ་མདོག་ནག །བྱ་སྡེར་རུ་མཚོན་ནག་པོ་ཐོགས། །མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ།(༡༧ ༡༨ ༡༩ ༢༠ ༢༡ ༢༢ ༢༣ ༢༤ ༢༥)།སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང་།།གདུག་པ་ཅན་གྱི་ལོ་བཞི་དབང་། །ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས་ན། །མ་བུ་གཉིས་གཉིས་སྐྱ་བས་ན། །ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར(རིན་ཆེན་ཀུན་འདུས་དང་། ལུང་ཀུན་འདུས་ལྷ་རྒྱུད་གསལ་སྒྲོན་ནས་ཞག་བརྒྱ་དང་ཙ་བཞི། སྟོང་ཤེས་ལས་ཀྱང་དེ་ལྟར་བཤད།)།ཚ་གྲང་འབྲུག་གི་སྒྲ་དང་བཅས། །གཡས་སྐོར་ཧལ་ཁྱིས་སྐྱས་གཞུག་རྫོགས། །ལས་ནི་རོ་བག་དམག་འདྲེན་ཤིང་། །མཁར་ལས་འཕོ་སྐྱས་བྱི་ལེན་བག །སེ་དང་ཆད་པ་བརྩིག་པ་སོགས། །བྱ་བ་ཆེ་ཆུང་ཐམས་ཅད་འཛེམ། །ཁྱད་པར་འདི་སྟེང་རོ་བཏང་ན། །མི་རོ་བཅུ་གསུམ་བསྡུད་མར་འོང་། །ཀོ་ལོང་ཕྱི་ནང་ལས་བྱེད་མིར། །ཁྱད་པར་རོ་དང་ཁྱི་བཏང་ན། །རོ་ཁུར་དོ་བདག་རྩིས་མཁན་དང་། །རབས་ཆད་ཕོ་མོ་ཡུགས་སར་སྡོམ། །མི་རོ་དགུ་བསྟུད་བྱུང་བ་ན། །ཁོ་ཡི་སྟེང་དུ་ཐབས་ཀྱིས་བཏང་། །དེ་མིན་རོ་བཏང་བཅོས་མི་ཐུབ། །གཞན་མ་བྱ་བ་ཅི་བྱེད་ཀྱང་། །ཉི་ཁྲི་གནམ་ས་སྣང་བརྒྱད་དང་། །གཟུངས་བསྡུས་གཙུག་ཏོར་བརྒྱད་སྟོང་སྒྲོག །ཕྱག་རྡོར་སྐུ་བསྟན་ཕག་ནག་ལ། །འབྲུ་སྣའི་དར་གླུད་ཕོ་རོག་སྒྲོ། །བཙུགས་པ་བསྐྱོན་ལ་ཕྱོགས་དེར་བཏང་། །ཡང་ན་ཁམ་ས་དག་ལ་ནི། །མི་ནག་ཁྱི་མགོ་ཅན་བཅུ་གསུམ། །ལག་ན་སྐྱེར་པའི་མདའ་གཞུ་ཅན། །སྲིན་བྱའི་སྒྲོ་བཙུགས་ཤ་ཁྲག་དང་། །མཚེ་ཉུང་གཏོར་མ་བཅས་པ་བཏང་། །གསེར་སྐྱེམས་གཏོར་ཞིང་གསུར་དུད་བཏང་། །ཡང་ན་སེང་གེའི་གཟུགས་བཅུ་གསུམ། །ལུག་ནག་དར་སྣས་བརྒྱན་པ་བཏང་། །ཀླུ་བརྒྱད་ནག་པོ་མགོ་གསུམ་བྱ། །བདུད་བཟློག་བདུད་བཅོས་རང་གཏོ་གཏོང་། །ཡང་ན་ཁྱི་ནག་བྱ་ནག་དང་། །ལུག་ནག་ཕག་ནག་དོམ་དྲེད་ནག །གཟུགས་ལ་མི་ལུས་ཁྱི་མགོ་ཅན། །དར་ནག་བེར་གོན་བསྐྱོན་ལ་བཏང་། །མགོན་པོ་ནག་པོའི་གཟུངས་འདོན་ཅིང་། །ཤ་སྣ་ཁྲག་སྣའི་དུད་པ་བཏང་། །སཱཙྪ་གྲངས་མང་འདེབས་པ་དང་། །སྒྲིབ་ན་ངར་གཟུགས་ཁྱི་མགོ་ཅན། །ཕོ་རོག་རྨ་བྱ་སྲིན་བྱའི་སྒྲོ། །བཙུགས་པ་ཕྱོགས་དེར་བཞག་པས་སྒྲིབ། །ཡང་ན་སེ་བ་རྐང་གཅིག་ལ། །དར་དང་བལ་ཚོན་སྣ་ལྔས་བརྒྱན། །སྤྱང་ཀི་ལུག་ནག་གསོབ་ལ་བཙུགས། །ར་མགོ་ཞིག་གི་ཁར་གླུད་ལྔ། །བཅུག་བྱས་ཁོ་ཡི་ཕྱོགས་དེར་བཞག །ཡང་ན་ར་རོག་བཟློག་པ་བྱ། །ས་བདག་ཡོ་བཅོས་གཡོ་འཁྲུག་གཏོང་། །ལུག་ནག་བྱ་ནག་བོན་ཆོག་གྱེར།།
+
+#### 17. The king's daughter, Karsham (དཀར་ཤམ, dkar sham) — p. 186, img. 194
+
+- **Place.** One seat with the hal khyi («ཧལ་ཁྱི་ཉིད་དང་གདན་ས་གཅིག»).
+- **Turning and entry.** Left; three days after the solstice.
+- **Works avoided.** Brides, corpses, fort work, funerals, marriage
+  councils, digging, feasts.
+- **Whom she harms.** Daughters-in-law, sisters, nephews, young girls.
+- **Remedy.** The *Eight Appearances*, the *Uṣṇīṣa*; a water cake and a
+  ransom decked with silk.
+
+> ༈ རྒྱལ་པོའི་བུ་མོ་དཀར་ཤམ(༢༦)ནི། །སྐུ་མདོག་དཀར་གསལ་ཡིད་འོང་གཟུགས། །ཕྱག་ན་དངུལ་དཀར་མེ་ལོང་བསྣམས། །བྱི་དར་དམར་པོའི་ན་བཟའ་གསོལ། །ཧལ་ཁྱི་ཉིད་དང་གདན་ས་གཅིག །གཡོན་སྐོར་ཞག་གསུམ་རྗེས་སུ་བསྐྱེད། །བག་མ་རོ་དང་མཁར་ལས་ཤིད། །གཉེན་འདུན་ས་བརྐོ་སྟོན་མོ་སྤང་། །ཀོ་ལོང་མནའ་མ་བུ་སྲིང་ཚ། །ན་ཆུང་གཞོན་ལ་སྡོམ་པར་བྱེད། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་འདོན། །ཆུ་གཏོར་འདྲ་གླུད་དར་བརྒྱན་སྒྲིབ།།
+
+#### 18. Her husband, Balte (སྦལ་ཏེ, sbal te) — p. 186, img. 194
+
+- **Place.** One seat with Karsham.
+- **Works and remedy.** As the daughter's; his grudge falls on young men
+  and sons-in-law; he is screened with his own figure decked with silks.
+  Another account: corpses, war and robbery are avoided, and his grudge
+  falls on the owners of corpses and soldiers.
+
+> ༈ དེ་ཡི་མག་པ་སྦལ་ཏེ(༢༧)ནི། །སྐྱེས་གཞོན་དཀར་སེར་འོད་དུ་འབར། །གཡས་ན་གསེར་གྱི་མདའ་ཆུང་བཟུང་། །གཡོན་ན་དངུལ་གྱི་གཞུ་མོ་བདུང་། །སྐུ་ལ་ཆུ་དར་སྔོན་པོ་གསོལ། །དཀར་ཤམ་ཉིད་དང་གདན་སྐྱས་གཅིག །ལས་དང་བཅོས་ཐབས་བུ་མོ་བཞིན། །ཀོ་ལོང་སྐྱེས་དར་མག་ཚར་སྡོམ། །སྒྲིབ་ཤིང་རང་གཟུགས་དར་སྣས་བརྒྱན། །ལས་ཐབས་རོ་དམག་ཇག་ལ་འཛེམ། །ཀོ་ལོང་རོ་བདག་དམག་མི་ལ། །སྡོམ་ཞེས་བཞེད་པའི་ལུགས་ཀྱང་ཡོད། །
+
+#### 19. Langging the red, of war (དམག་གི་ལང་གིང་དམར་པོ, dmag gi lang ging dmar po) — p. 186, img. 194
+
+- **Place.** By the year: mouse year on the tiger, ox year on the sheep,
+  tiger year on the hare, hare year on the mouse, dragon year on the
+  mouse, snake year on the bird, horse year on the monkey, sheep year on
+  the horse, monkey year on the dragon, bird year on the hare, dog year on
+  the ox, pig year on the snake.
+- **Turning and entry.** He moves in together with «ཉི་མའི་གླང», the sun's ox;
+  no turning is named.
+- **Works avoided.** War, robbery, starting disputes, mustering troops,
+  training in skills. At a fort: attacking from his place, one does not
+  take it and gets wounds; defending it, one defeats the enemy. Leading
+  an army facing his place, one loses the battle and is taken prisoner.
+- **Whom he harms.** Generals and judges.
+- **Remedy.** None is given, but war's boundary stakes are planted in his
+  direction.
+
+> ༈ དམག་གི་ལང་གིང་དམར་པོ(༢༨)ནི། །ཞུབ་ཅན་ཕྱག་ན་མདའ་གཞུ་འཛིན། །རྒྱུད་ལ་ཞེ་སྡང་མེ་ལྟར་འབར། །འཁོར་དུ་གཟའ་དང་ས་བདག་བསྐོར། །བྱི་ལོ་སྟག་ལ་གླང་ལོ་ལུག་སྟག་ལོ་ཡོས་ལ་ཡོས་ལོ་བྱི། །འབྲུག་ལོ་བྱི་ལ་སྦྲུལ་ལོ་བྱ། །རྟ་ལོ་སྤྲེལ་ལ་ལུག་ལོ་རྟ། །སྤྲེལ་ལོ་འབྲུག་ལ་བྱ་ལོ་ཡོས། །ཁྱི་ལོ་གླང་ལ་ཕག་ལོ་སྦྲུལ། །ཉི་མའི་གླང་དང་ལྷན་ཅིག་བསྐྱེད། །ལས་ཐབས་དམག་ཇག་རྩོད་པ་འཛུགས། །རུ་བཤེར་བསོ་གདབ་རྩལ་སྤྲོད་སྤང་། །རྫོང་ལ་ལང་གིང་གནས་ཕྱོགས་ནས། །འཚངས་ན་མི་ཐོབ་སྨས་འགྲམ་འབྱུང་། །བསྲུངས་ན་དགྲ་ལས་རྒྱལ་བར་འགྱུར། །གནས་ཕྱོགས་ཁ་བསྟན་དམག་སྣ་དྲངས། །གཡུལ་ཉེས་དགྲ་བོས་བཙོན་དུ་འཆིང་། །ཀོ་ལོང་དམག་དཔོན་ཞལ་ཆེར་སྡོམ། །བཅོས་དང་སྒྲིབ་ཤིང་མ་གསུངས་ཀྱང་། །དམག་གི་སྤོམ་གཏའ་ཕྱོགས་དེར་འཛུགས།།
+
+#### 20. The general, Tsangkun the bird (དམག་དཔོན་ཙང་ཀུན་བྱ་བ, dmag dpon tsang kun bya ba) — pp. 186–187, img. 194–195
+
+- **Place.** Dog, pig and mouse years in the dog's nest; tiger, ox and
+  hare years with the ox; dragon, snake and horse years on the dragon;
+  sheep, monkey and bird years on the sheep.
+- **Turning and entry.** Left; sixteen days after the solstice.
+- **Works avoided.** The works of war; bringing out corpses, thread-cross
+  and cake rites and casting *zor* are bad.
+- **Whom he harms.** Young men and generals.
+- **Remedy.** The white nāgas' *'Bum*; a general's figure in dough with a
+  hawk's and a magpie's feather.
+
+> ༈ དམག་དཔོན་ཙང་ཀུན་བྱ་བ(༢༩)སྟེ། །ཞུབ་ཅན་མདོག་དམར་ཛོག་ཞུ་གསོལ། །ཕྱག་ན་མདུང་དམར་བ་དན་འཛིན། །གཡོན་སྐོར་བཅུ་དྲུག་རྟིང་ལ་བསྐྱེད། །ཁྱི་ཕག་བྱི་གསུམ་ཁྱི་ཚང་ཉལ། །སྟག་གླང་ཡོས་བུར་གླང་དང་འགྲོགས། །འབྲུག་སྦྲུལ་རྟ་གསུམ་འབྲུག་ལ་གནས། །ལུག་སྤྲེལ་བྱ་གསུམ་ལུག་ལ་འཚོག །ལས་ཐབས་དམག་གི་ལས་རྣམས་དང་། །རོ་འདོན་མདོས་གཏོར་ཟོར་འཕེན་ངན། །ཀོ་ལོང་སྐྱེས་དར་དམག་དཔོན་སྡོམ། །ཉམས་ན་ཀླུ་འབུམ་དཀར་མོ་འདོན། །བག་ཟན་དམག་དཔོན་གཟུགས་བྱས་ལ། །ཁྲ་དང་སྐྱ་ཀའི་སྒྲོ་བཙུགས་སྒྲིབ།།
+
+#### 21. Tsangkun the splitter, the dark blue (ཙང་ཀུན་འཕྱེ་བོ, tsang kun 'phye bo) — p. 187, img. 195
+
+- **Place.** Dog, pig and mouse years eating the sheep's flesh (on the
+  sheep); ox, tiger and hare years riding the dog; dragon, snake and horse
+  years leading the ox; sheep, monkey and bird years roaring the dragon's
+  roar (on the dragon).
+- **Turning and entry.** Left; sixteen days after the solstice (WB's note:
+  Nam mkha' rgyal mtshan says twelve after, mistaking him for the mount).
+- **Works avoided.** Brides and secret councils are bad.
+- **Whom he harms.** Elders and those who give counsel.
+- **Remedy.** The *gyang ra* and *gyang sag* and the binding of the
+  *gnyan*; screened with his figure in silk-dough with a magpie's and a
+  hoopoe's feather.
+
+> ༈ ཙང་ཀུན་འཕྱེ་བོ(༣༠)མཐིང་ནག་ནི། །གཡོན་སྐོར་བཅུ་དྲུག(ནམ་མཁའ་རྒྱལ་མཚན་གྱིས་བཅུ་གཉིས་རྗེས་སུ་བསྐྱེད་གསུང་པ། འཕྱེ་བོའི་མིང་ལ་སྐྱས་ཞག་སྐབས།ཕེའུ་རྟ་རྒྱལ་པོའི་ཆིབས་དང་འགྲོགས་ཞེས་པའི་དོན་ནོར།)རྟིང་ལ་བསྐྱེད། །ཁྱི་ཕག་བྱི་བར་ལུག་ཤ་ཟ། །གླང་སྟག་ཡོས་གསུམ་ཁྱི་ལ་ཞོན། །འབྲུག་སྦྲུལ་རྟ་གསུམ་གླང་སྣ་ཁྲིད། །ལུག་སྤྲེལ་བྱ་གསུམ་འབྲུག་སྐད་ལྡིར། །ལས་ཐབས་བག་མ་གསང་གྲོས་ངན། །ཀོ་ལོང་རྒན་རྒོན་གྲོས་བྱེད་སྡོམ། །ཉམས་ན་གྱང་ར་གྱང་སག་དང་། །གཉན་གྱི་བསྡུམ་བྱ་སྒྲིབ་པ་ན། །དར་ཟན་འཕྱེ་བོའི་གཟུགས་བྱས་ལ། །སྐྱ་ཀ་པུ་ཤུད་སྒྲོ་བཙུགས་སྒྲིབ། །
+
+#### 22. Tsangkun the dog-headed (ཙང་ཀུན་ཁྱི་མགོ, tsang kun khyi mgo) — p. 187, img. 195
+
+- **Place.** On the year's upward four-slayer («གནམ་ལོའི་ཡར་གྱི་བཞི་གཤེད་སྟེང»),
+  the fourth animal counting on from the year's.
+- **Turning and entry.** Left; he moves on the day of the solstice.
+- **Works avoided.** Fort work, corpses, moving, rows.
+- **Whom he harms.** Spiritual friends.
+- **Remedy.** The collected dhāraṇīs and the *Eight Appearances*.
+
+> ༈ ཙང་ཀུན་ཁྱི་མགོ(༣༡)མིག་སྨན་མདོག །མི་ལུས་ཁྱི་མགོ་ནོར་བུ་འཛིན། །གནམ་ལོའི་ཡར་གྱི་བཞི་གཤེད་སྟེང་། །གཡོན་སྐོར་ཉི་ལྡོག་ཉིན་མོ་སྐྱ། །མཁར་ལས་རོ་དང་འཕོ་སྐྱས་གྲལ། །ཀོ་ལོང་དགེ་བཤེས་དག་ལ་སྡོམ། །ཉམས་ན་གཟུངས་བསྡུས་སྣང་བརྒྱད་འདོན། །
+
+#### 23. The life-spirit knower, Phe'u (བླ་མཁྱེན་ཕེའུ, bla mkhyen phe'u) — p. 187, img. 195
+
+- **Place.** In the four middle years on the third upward (*yar gsum*);
+  in the four corner years on the third downward (*mar gsum*); in the
+  four last years on the seventh.
+- **Turning and entry.** Right; on the day of the solstice.
+- **Works avoided.** Fort work, corpses, brides.
+- **Whom he harms.** The owners of corpses, paternal kin.
+- **Remedy.** The collected dhāraṇīs and the *Eight Appearances*.
+
+> ༈ བླ་མཁྱེན་ཕེའུ(༣༢)བྱ་བ་དེ། །འབྲིང་བཞིའི་ལོ་ལ་ཡར་གསུམ་སྟེང་། །ར་བ་བཞི་ལ་མར་གསུམ་ཐོག །ཐ་ཆུང་བཞི་ལ་བདུན་ཟུར་སྟེང་། །གཡས་སྐོར་ཉི་ལྡོག་ཉིན་མོ་བསྐྱེད། །ལས་ཐབས་མཁར་ལས་རོ་བག་འཛེམ། །ཀོ་ལོང་རོ་བདག་ཕ་ཚན་ལ། །ཉམས་ན་གཟུངས་བསྡུས་སྣང་བརྒྱད་འདོན།།
+
+#### 24. The earth lord Zinphung the black (ས་བདག་ཟིན་ཕུང་ནག་པོ, sa bdag zin phung nag po) — p. 187, img. 195
+
+- **Place.** On the year's sixth downward («གནམ་ལོའི་མར་གྱི་དྲུག་པའི་སྟེང»).
+- **Turning and entry.** Left; on the day of the solstice.
+- **Works avoided.** Every work great or small; above all brides, fort
+  work and the works of a grave. A corpse gone his way: six years of
+  deaths do not stop.
+- **Whom he harms.** The whole household and its people, the astrologer
+  and all the people of the place; seven generations of the paternal kin
+  are ruined.
+- **Remedy.** The collected dhāraṇīs and the *Eight Appearances*; the
+  earth lords' treasure *mdos*, the *gto* against disturbance, the
+  *gnyan*'s *g.yo bcos*, song cakes; screened with supports of body,
+  speech and mind that carry blessing and a goat's head, or a goat's head
+  pressing down a black scorpion in his direction.
+
+> ༈ ས་བདག་ཟིན་ཕུང་ནག་པོ(༣༣)ནི། །མི་ལུས་སྡིག་མགོ་རལ་གྲི་འཕྱར། །བཞོན་པ་གླང་ལ་བྱས་པ་སྟེ། །འཁོར་ནི་ལྷ་སྲིན་ཡོངས་དང་ནི། །ཁྱད་པར་གཟའ་དང་བསྡོང་བ་ཡིན། །གནམ་ལོའི་མར་གྱི་དྲུག་པའི་སྟེང་། །གཡོན་སྐོར་ཉི་ལྡོག་ཉིན་མོ་སྐྱ། །ལས་ཐབས་ཆེ་ཆུང་ཀུན་ལ་འཛེམ། །ཁྱད་པར་བག་མ་མཁར་ལས་དང་། །དུར་གྱི་ལས་ལ་འཛེམ་པ་གཅེས། །འདི་ཡི་སྟེང་དུ་རོ་སོང་ན། །ལོ་དྲུག་འཆི་འཕྲོ་མི་ཆོད་ཅིང་། །ཀོ་ལོང་ཁྱིམ་གང་མི་དང་ནི། །རྩིས་པ་ཡུལ་མི་ཀུན་ལ་སྡོམ། །ཕ་ཚན་བདུན་བརྒྱུད་ཕུང་བར་བཤད། །ཉམས་ན་གཟུངས་བསྡུས་སྣང་བརྒྱད་འདོན། །ས་བདག་གཏེར་མདོས་འཁྲུགས་གཏོ་དང་། །གཉན་གྱི་ཡོ་བཅོས་གླུ་གཏོར་གཏོང་། །སྒྲིབ་ན་སྐུ་གསུང་ཐུགས་ཀྱི་རྟེན། །བྱིན་རླབས་ཅན་དང་ར་མགོས་སྒྲིབ། །ཡང་ན་སྡིག་པ་ནག་པོའི་སྟེང་། །ར་མགོས་མནན་པ་ཕྱོགས་དེར་བཞག །
+
+#### 25. Pilang, the naked one with cut hands (པི་ལང, pi lang; ས་རྒྱལ་གཅེར་བུ་ལག་དུམ, sa rgyal gcer bu lag dum) — p. 188, img. 196
+
+- **Who.** From the charts of the earlier Phugpa masters: an earth lord
+  also named the earth king, the naked one with cut hands, Piling
+  Phar and other names, with different descriptions and places; a
+  great harmful earth lord. Born, after the *Kun 'byung*, of the sky's
+  bird Ma gung rgyal and the earth's crow Kha tsha: a man's body with a
+  tail, a thumb high, riding a pony the size of a mouse, holding a black
+  silk spear; his ten companions are named (Ma gung rgyal, Kha tsha rog,
+  the black Hal gdong, the black dog, the wolf, Nad bdud mgo gcod, Sbre
+  bla mkhyen, the butcher Rgyal mtshan, Bdud sleb, Gshin rje zas 'phrog).
+- **Place.** «བྱི་བ་ཡར་གྱི་ལྔ་མཐུན་ལ། །གླང་སྟག་རང་གི་བཟའ་མིའི་སྟེང། །ཁྱི་འབྲུག་གླང་ལུག་བཞིར་རིམ་པར། །རྟ་ཕག་བྱ་ཡོས་ལོ་ལ་གནས། །ཁྱི་ལོ་རྟ་ཡི་པགས་པ་མཉེད། །ལུག་ནི་སྟག་ལ་འབྲུག་ནི་བྱ། །སྤྲེའུ་ཡར་གྱི་བཞི་གཤེད་ལ། །སྦྲུལ་ལོ་བདུན་ཟུར་སྟེང་དུ་འཚོག»:
+  in a mouse year on the upward five-concord (*yar gyi lnga mthun*); in ox
+  and tiger years on their own spouse (*bza' mi*); in horse, pig, bird and
+  hare years on the dog, dragon, ox and sheep in that order; in a dog year
+  kneading the horse's skin (on the horse); a sheep year on the tiger, a
+  dragon year on the bird; a monkey year on its upward four-slayer; a snake
+  year on its seventh.
+- **Turning and entry.** Left; together with the solstice.
+- **Works avoided.** He is the watchman of the living and the dead: his
+  grudge falls on every work, above all on wood, corpses, war, fort work
+  and brides; some say he is good for fierce rites.
+- **Whom he harms.** If harmed, the paternal kin as a whole.
+- **Remedy.** Averting the market (*khrom bzlog*), the *ru rgyas*,
+  turning the demon's face, whichever can be done; his figure drawn and
+  hung in his direction; screened by showing gold, turquoise and precious
+  things, or by scattering yellow earth there.
+
+> ༈ཕུག་པ་གོང་མའི་ཤོག་ཁྲ་ལས། །པི་ལང(༣༤)ཞེས་བྱའི་ས་བདག་ནི། །ས་རྒྱལ་གཅེར་བུ་ལག་དུམ་དང་། །པི་ལིང་འཕར་སོགས་མིང་གྲངས་དང་། །མངོན་རྟོགས་གནས་ཡུལ་མི་འདྲའི་ཚུལ། །མཆིས་ལས་འདི་ཉིད་སའི་བདག་པོ། །གདུག་རྩུབ་ཆེ་བའི་རང་བཞིན་གྱིས། །སོ་སོའི་ལུགས་བཞིན་སྤང་བླང་དོན། །ཀུན་འབྱུང་ཨ་ལོ་ལྟར་བརྗོད་པ། །གནམ་གྱི་བྱ་མ་གུང་རྒྱལ་དང་། །ས་ཡི་ཁ་ཚ་བྱ་རོག་གཉིས། །བཤོས་བུ་གཅེར་བུ་ལག་དུམ་ནི། །མི་ཡི་ལུས་ལ་མཇུག་མ་ཅན། །མཐེ་བོང་ཙམ་པ་ཞིག་གིས་ནི། །རྟ་ཆུང་བྱི་བ་ཙམ་པ་ཞོན། །དར་ནག་རུ་མཚོན་ལག་ན་ཐོགས། །ཉེ་བའི་འཁོར་བཅུ་འདི་བཞིན་ཏེ། །བྱ་མ་གུང་རྒྱལ་ཁ་ཚ་རོག །ཧལ་གདོང་ནག་པོ་ཁྱི་ནག་ནི། །ཁམས་འགྱེད་སྤྱང་ཀི་འཁོར་བ་དང་། །ནད་བདུད་མགོ་གཅོད་སྦྲེ་བླ་མཁྱེན། །རྒྱལ་མཚན་བཤན་པ་བདུད་སླེབ་དང་། །གཤིན་རྗེ་ཟས་འཕྲོག་དང་བཅས་ཏེ། །ལེགས་པ་རྒྱལ་དུ་མི་སྟེར་ཞིང་། །སེམས་ཅན་སྲོག་གི་བཤན་པ་བྱེད། །པི་ལིང་གྲགས་པ་གནས་པའི་ཚུལ། །བྱི་བ་ཡར་གྱི་ལྔ་མཐུན་ལ། །གླང་སྟག་རང་གི་བཟའ་མིའི་སྟེང་། །ཁྱི་འབྲུག་གླང་ལུག་བཞིར་རིམ་པར། །རྟ་ཕག་བྱ་ཡོས་ལོ་ལ་གནས། །ཁྱི་ལོ་རྟ་ཡི་པགས་པ་མཉེད། །ལུག་ནི་སྟག་ལ་འབྲུག་ནི་བྱ། །སྤྲེའུ་ཡར་གྱི་བཞི་གཤེད་ལ། །སྦྲུལ་ལོ་བདུན་ཟུར་སྟེང་དུ་འཚོག །གཡོན་སྐོར་ཉི་ལྡོག་མཉམ་དུ་བསྐྱེད། །གསོན་གཤིན་གཉིས་ཀྱི་བྱ་ར་བ། །ལས་རྣམས་ཀུན་ལ་གོ་ལོང་སྡོམ། །ཁྱད་པར་ཤིང་དང་རོ་དམག་དང་། །མཁར་ལས་བག་མ་དག་ལ་སྡོམ། །དྲག་པོའི་ལས་ལ་ཤིས་ཀྱང་ཟེར། །ཉམས་ན་ཕ་སྤུན་སྤྱི་ལ་ངན། །བཅོས་ནི་ཁྲོམ་བཟློག་རུ་རྒྱས་དང་། །བདུད་ཀྱི་ཞལ་བསྒྱུར་གང་འགྲུབ་བྱ། །ས་རྒྱལ་གཟུགས་བྲིས་དེ་ཕྱོགས་གདགས། །སྒྲིབ་ན་གསེར་གཡུ་རིན་ཆེན་བསྟན། །ཡང་ན་ཕྱོགས་དེར་ས་སེར་གཏོར། །
+
+#### 26. The eleven earth kings, king and ministers (ས་རྒྱལ་རྗེ་བློན་བཅུ་གཅིག, sa rgyal rje blon bcu gcig) — pp. 188–189, img. 196–197
+
+- **Who.** The earth king with his retinue, like Piling (the printed
+  numbers 35–45 count the eleven); taken, after Kong tse 'phrul rgyal, as
+  the son of the sky's bird Ma gung rgyal and the earth's crow Kha tsha,
+  mighty in sky and earth, holding a weapon and riding; his retinue the
+  nine sme ba and the eight classes' eight market leaders. He rules the
+  market (*khrom*).
+- **Place.** Mouse year on the mouse, ox year on the hare, tiger year on
+  the sheep, hare year on the bird, dragon year on the pig, snake year on
+  the dog, horse year on the tiger, sheep year on the monkey, monkey year
+  on the ox, bird year on the horse, dog year on the dragon, pig year on
+  the mouse.
+- **Turning and entry.** Left; together with the solstice.
+- **Works avoided, and his names.** A market held in his place is bad for
+  those who hold it; a funeral there leaves the meadow dry, so he is
+  called *spang skam*, "dry meadow"; a show there is ruined at once
+  (*zin phung*); quarrels, plans and schemes go wrong, hands are cut and
+  armour lost, so he is "the naked one with cut hands"; a bride given
+  there becomes a widow or is barren; councils come to nothing; a
+  marriage council goes astray, so he is "the scattered bastard" (*nal
+  phrug 'chol*).
+- **Remedy.** When the work cannot be left: in the east the *Golden Light*
+  and the *Sdud pa*, in the south the *Litany of the Names*, in the west the
+  *Uṣṇīṣa* and the *White Parasol*, in the north the *Sky and Earth Eight
+  Appearances*, a water cake in the centre; grains scattered on the site
+  and swept with a broom of many woods unchewed by moths; or the
+  *Mahāmāyūrī*; screened with a crane's skull and gold and turquoise in
+  his direction.
+
+> ༈ས་རྒྱལ(༣༥)རྗེ་བློན(༣༦)བཅུ(༣༧)(༣༨)གཅིག(༣༩)ནི། །ངོ་བོ(༤༠)འཁོར(༤༡)(༤༢)བཅས་པི་ལིང་མཚུངས(༤༣)(༤༤)(༤༥)། །ཀོང་ཙེ་འཕྲུལ་རྒྱལ་བཞེས་པའི་ཚུལ། །གནམ་གྱི་བྱ་མ་གུང་རྒྱལ་དང་། །ས་ཡི་ཁ་ཚ་རོག་མོའི་བུ། །གནམ་ས་གཉིས་ན་དབང་བཙན་པ། །ལག་ན་མཚོན་ཐོགས་འོག་རྟ་ཞོན། །ཡང་འཁོར་སྨེ་བ་རྣམ་དགུ་དང་། །སྡེ་བརྒྱད་ཁྲོམ་སྣ་བརྒྱད་ཀྱིས་བསྐོར། །ཁྲོམ་ལ་དབང་བྱེད་དེ་ཉིད་ནི། །བྱི་ལོ་བྱི་བ་གླང་ལོ་ཡོས། །སྟག་ལོ་ལུག་ལ་ཡོས་ལོ་བྱ། །འབྲུག་ལོ་ཕག་ལ་སྦྲུལ་ལོ་ཁྱི། །རྟ་ལོ་སྟག་ལ་ལུག་ལོ་སྤྲེལ། །སྤྲེལ་ལོ་གླང་ལ་བྱ་ལོ་རྟ། །ཁྱི་ལོ་འབྲུག་ལ་ཕག་ལོ་བྱི། །གཡོན་སྐོར་ཉི་ལྡོག་ལྷན་དུ་བསྐྱེད། །འདི་ཉིད་གནས་པའི་ས་ཕྱོགས་སུ། །ཁྲོམ་བྱས་བྱེད་མཁན་དག་ལ་ངན། །ཤིད་བྱས་སྤང་མ་སྐམ་ལོང་མེད། །དེས་ན་ས་བདག་སྤང་སྐམ་གྲགས། །ལྷད་མོ་བྱས་ན་ཟིན་འཕྲལ་ཕུང་། །དེས་ན་ས་བདག་ཟིན་ཕུང་ཟེར། །འཁྲུག་པ་རུ་བཤད་ཇུས་ཉེས་ནི། །ལག་ཆད་གོ་ཆ་དང་འབྲལ་བས། །ས་བདག་གཅེར་བུ་ལག་རྡུམ་ཟེར། །བག་མར་བྱིན་ན་ཡུགས་ས་འབབ། །ཡང་ན་ལྡིང་སྐམ་ཕྲུ་གུ་མེད། །སྤྱི་ཡི་འདུན་གྲོས་ལ་སོགས་པ། །འབྲས་མེད་བརླག་པར་འགྱུར་བ་དང་། །བག་འདུན་བྱས་ན་ནལ་དུ་འགྲོ། །འདུན་མ་ཐམས་ཅད་འཆོལ་འགྲོ་བས། །ས་བདག་ནལ་ཕྲུག་འཆོལ་པར་གྲགས། །ཅིས་ཀྱང་མི་བྱེད་ཀ་མེད་ན། །ཤར་དུ་གསེར་འོད་སྡུད་པ་དང་། །ལྷོ་རུ་འཇམ་དཔལ་མཚན་བརྗོད་གསུང་། །ནུབ་ཏུ་གཙུག་ཏོར་གདུགས་དཀར་མོ། །བྱང་དུ་གནམ་ས་སྣང་བརྒྱད་སྒྲོག །དབུས་སུ་ཆུ་གཏོར་གཏང་བར་བྱ། །འབྲུ་སྣ་ལས་ཀྱི་ཤུལ་དུ་གཏོར། །དེ་ཡང་རས་མ་ཟོས་པ་ཡི། །ཤིང་སྣའི་ཕྱགས་མས་ཕྱགས་ན་ཐུབ། །ཡང་ན་རྨ་བྱ་ཆེན་མོ་འདོན། །སྒྲིབ་ན་ཁྲུང་ཁྲུང་ཐོད་པ་དང་། །གསེར་གཡུ་ཕྱོགས་དེར་བཞག་ལ་སྒྲིབ།།
+
+### The black years (pp. 189–191, img. 197–199)
+
+#### The black years (ལོ་ནག, lo nag) — pp. 189–191, img. 197–199
+
+- **When.** The four years tiger, monkey, pig and snake, in turn, when
+  the two-black sme ba falls in the centre: the hal khyi and the sky dog
+  rule that year. It is called the fanged black year, or, after the
+  tantras of the turtle, the earth lord Wangging the black, or the Great
+  Black One. If the year's sme ba comes back every ninth year, the animal
+  it comes back to steps three back each time (tiger, pig, monkey, snake):
+  WB's four.
+- **Works avoided.** Laying a new foundation of a fort, tearing down an
+  old one, raising great supports (images, stūpas), digging channels,
+  cutting trees, splitting rock, levelling hills, giving or taking a bride,
+  war, robbery, gatherings and great shows of force: guard against them
+  in such a year.
+- **The lesser black year.** When three-blue is in the centre the harm is
+  a little less and the results half alike: a lesser black year (ལོ་ནག་ཆུང་ངུ,
+  *lo nag chung ngu*).
+- **Each sme ba in the centre.** Also for each sme ba the unsuitable
+  kinds and marriages are avoided: when one-white is in the centre, for
+  example, a children's marriage, its gatherings and great violent works;
+  the meaning is shown by implication.
+- **Remedy, when a work must be done** in a black year, great or small:
+  on a day of good planet and mansion, the Great Black One (Mahākāla)
+  drawn on paper, one face, two hands, a blood-filled skull in the right
+  and a club in the left, his life syllables at the heart, with the words
+  "bind the Great Black One, bind the black life-demon; bind all who
+  bear a grudge against this work …", wrapped in five-coloured thread,
+  put in a copper or red clay pot sealed with the four continents and the
+  mountain, pressed with black clay stamps and buried in a pit in the
+  centre of the work on medicines, silk, grains and the five precious
+  things, covered and a white cairn built on it; then the words of truth
+  and the first-fruits cake. Besides, the *mdos* of the hal khyi and a
+  particular *gto*: on three tiers of Meru in clay, a golden turtle, a man
+  with a bear's head to the right and a brown bear's head to the left,
+  the twelve years round them, black ransoms, cakes, dog, pig, scorpion
+  and the like, sky-crosses and arrows, all buried in the centre; at the
+  end four cairns, cakes and beer, and the chant of pp. 190–191 to the two
+  great gods, the white sky dog («གནམ་ཁྱི་དཀར», the great demon of the sky)
+  and the black hal khyi («ཧལ་ཁྱི་ནག», the great demon of the earth),
+  asking them to take the ransom and not to harm.
+
+> ༈ །།ད་ནི་ལོ་ནག་ཅེས་གྲགས་པ། །སྟག་སྤྲེལ་ཕག་སྦྲུལ་ལོ་བཞི་ལ། །རེས་སྐོར་འབབ་སྟེ་སྨེ་གཉིས་ནག །དབུས་སུ་གྱུར་པ་དེ་ཉིད་ལ། །ཧལ་ཁྱི་གནམ་ཁྱི་ལོར་དབང་བས། །ལོ་ནག་མཆེ་བ་ཅན་ཞེས་སམ། །རུས་སྦལ་རང་འདྲའི་རྒྱུད་དག་ལས། །ས་བདག་ཝང་གིང་ནག་པོ་ཞེས། །ནག་པོ་ཆེན་པོ་ཞེས་ཀྱང་གྲགས། །ལོ་དར་མཁར་ལས་རྨང་གསར་འདེབས། །མཁར་རྙིང་བཤིག་དང་རྟེན་ཆེན་བཞེངས། །ཆུ་བྲུ་ཤིང་གཅོད་བྲག་གཤགས་པ། །རི་བརྡལ་བག་མ་གཏོང་ལེན་དང་། །དམག་ཇག་འདུ་ལོངས་རྔམ་ཆེན་ལས། །འདི་ཡི་དུས་སུ་བསྲུང་བ་གཅེས། །གསུམ་མཐིང་དབུས་སུ་གྱུར་པའི་ཚེ། །དེ་ལས་ཅུང་ཟད་ཉེས་ཆུང་ཞིང་། །འབྲས་བུ་ཆ་འདྲར་སྟོན་བྱེད་པས། །ལོ་ནག་ཆུང་ངུ་ཞེས་སུ་བརྗོད། །གཞན་ཡང་སྨེ་བ་སོ་སོ་ལ། །མི་རིགས་གཉེན་པའི་སྤང་འཛེམ་ནི། །དཔེར་ན་གཅིག་དཀར་དབུས་གྱུར་ཚེ། །བྱིས་གཉེན་དེ་ཡི་འདུ་ལོང་སོགས། །རྔམ་ཆེན་དྲག་ཤུལ་བྱ་བ་ཡང་། སྤང་བ་དགོངས་དོན་ཤུགས་ཀྱིས་བསྟན། །སྤྱིར་རྩུབ་ལོ་ནག་ཆེ་ཆུང་ངུས། །སྔོན་གྱི་ལས་འཕྲོ་ཡོད་པ་འམ། །དབང་མེད་ཤུགས་ཀྱིས་བྱ་དགོས་ཚེ། །ཟབ་ཆོས་འདི་ལྟར་ཉམས་སུ་ལོང་། །གཟའ་སྐར་འཕྲོད་སྦྱོར་བཟང་པོའི་ཉིན། །ཤོག་བུར་ནག་པོ་ཆེན་པོའི་གཟུགས། །ཞལ་གཅིག་ཕྱག་གཉིས་གཡས་ཐོད་ཁྲག །གཡོན་པ་དབྱུག་ཏོ་འཛིན་པ་དང་། །དོར་སྟབས་དར་གྱི་སྨད་དཀྲིས་ཅན། །འཇིགས་རུང་རཱུ་པའི་སྙིང་ག་རུ། །སྲོག་ཡིག་ཏྲི་དང་ཛ་ཁ་སྤྲོད། །དེ་མཐར་འདི་ལྟར་བྲི་བར་བྱ། །ནག་པོ་ཆེན་པོ་ཆིངས་ཤིག །སྲོག་བདུད་ནག་པོ་ཆིངས་ཤིག །ཅེས་མཇུག་དམོད་ཚིག་བྲི་བ་ནི། །མཁར་ལས་འཕྲུ་ཟློག་ལ་སོགས་པ། །བྱ་བ་འདི་ཞེས་བྱ་བ་ལ། །ཀོ་ལོང་གདུག་རྩུབ་ཕྲག་དོག་ཅིང་། །མི་དགེ་ཉེས་གྱོད་སྣ་འདྲེན་པར། །བྱེད་པ་ཐམས་ཅད་ཆིངས་ཤིག་དང་། །བ་ཌྷ་བ་ཌྷ་ཆིངས་ཤིག་བྲི། །གདུག་རྩུབ་རྡུར་ཁ་ཐམས་ཅད་ཀུན། །སྟམྦྷ་ཡ་ནན་ཞེས་པ་བྲི། །ལེགས་བལྟབ་ཚོན་སྐུད་སྣ་ལྔས་དཀྲི། །ཟངས་སམ་རྫ་དམར་སྣོད་དུ་བཅུག །ཁ་གཅོད་གཡམ་པ་འཇམ་པོ་ལ། །གླིང་བཞི་རི་རབ་བྲིས་པས་བཅད། །དེ་སྟེང་སཱཙྪ་ནག་པོས་མནན། །ལས་བྱེད་དབུས་སུ་དོང་བྲུས་ལ། །སྨན་དར་འབྲུ་སྣ་རིན་ཆེན་ལྔས། །གདན་བྱས་ཁར་བཞག་རས་ནག་གམ། །རེ་ནག་གིས་གཡོགས་ས་ཡིས་བྱིབ། །དེ་སྟེང་ཐོ་དཀར་བརྩིགས་བྱས་ལ། །ཕུད་གཏོར་བདེན་པ་བདར་བ་ནི། །ན་མོ་སྐྱབས་གནས་དཀོན་མཆོག་གསུམ། །ཕྱོགས་དུས་རྒྱལ་སྲས་སློབ་མར་བཅས། །ཞི་དང་ཁྲོ་བོའི་གར་བསྒྱུར་བའི། །ཡི་དམ་ལྷ་ཡི་བདེན་པ་དང་། །ཁྱད་པར་མཁྱེན་ནུས་བརྩེ་བའི་བདག །རིགས་གསུམ་མགོན་པོའི་ལྷ་ཚོགས་དང་། །ཞུ་འཆང་འཕྲུལ་གྱི་མི་ནས་བཟུང་། །རྩ་བའི་བླ་མའི་བར་བྱོན་པའི། །གཙུག་ལག་བརྒྱུད་པའི་བདེན་པ་དང་། །བདག་གི་ལྷ་སྔགས་ཕྱག་རྒྱ་དང་། །གཙུག་ལག་རྒྱུད་དོན་ཉམས་མིན་པར། །དཔྱད་པའི་རྫས་སྔགས་གཏོ་ཐབས་མཐུས། །བྱ་ལས་འདི་ལ་ཕྲག་དོག་པའི། །ནག་པོ་ཆེ་སོགས་ས་བདག་གི། །མཐུ་སྟོབས་ནུས་ངན་ལྡང་མེད་གྱུར། །ཅེས་བརྗོད་ཟིན་ནས་རྟེན་འབྲེལ་འདོན། །གཏང་རག་ཕུད་གཏོར་ཉམས་པ་གསོ། །མ་བཏོན་རང་ལ་རྩུབ་པས་གཟབ། །གཞན་ཡང་ཀ་མེད་དོ་བསྔོ་བའི། །གདམས་པ་ཁྲོམ་རྩིས་སོགས་བཤད་དང་། །ཧལ་ཁྱིའི་མདོས་ཆོག་གཏོང་བ་དང་། །ཁྱད་པར་སྒོས་གཏོ་འདི་ལྟར་གཅེས། །ཁམ་སར་རི་རབ་གསུམ་བརྩེགས་སྟེང་། །མ་ཧཱ་གསེར་གྱི་རུས་སྦལ་ཁར། །གཡས་སུ་མི་ལུས་དོམ་མགོ་ཅན། །གཡོན་དུ་དྲེད་མགོ་མདོག་ནག་བསྒྱུར། །དེ་མཐར་ལོ་འགྲོས་བཅུ་གཉིས་བསྐོར། །བཤོས་ནག་འབྲང་རྒྱས་གླུད་ནག་གཉིས། །ཆངས་ཟན་ནག་པོ་གཉིས་རྣམས་དབུས། །གཏོར་མ་ཆངས་སྒྱུ་གླུད་བཅུ་གཉིས། །ཁྱི་ཕག་སྡོམ་སྡིག་ནག་པོ་དང་། །འཛུལ་དགུས་ཟ་མ་བསྐོར་ལ་བཞག །དབུས་མ་གཉིས་ལ་ནམ་ནག་དང་། །རྒྱང་ནག་ཕན་ནག་མདའ་འཕང་རེ། །ལོ་ལ་རང་མདོག་ནམ་རྒྱང་གཟུགས། །ཤ་སྣ་སྙིང་སྣ་འབྲུ་སྨན་དང་། །རིན་ཆེན་དཀར་མངར་རྣམ་པ་གསུམ། །ཤིང་སྣ་ངར་སྣས་རབ་བརྒྱན་པ། །ལས་ཆེན་དབུས་སུ་དོང་ནང་བཅུག །གཡམ་པས་ཁ་བཅད་ས་ཡིས་བྱིབ། །ས་སེར་གཏོར་ཞིང་ལས་བྱེད་པའི། །ཐ་མར་གཞུ་འདོམ་བདུན་གྱི་སར། །ཕྱོགས་བཞི་ལྷོ་ནུབ་ཐོ་རེ་བརྩིག །ཐོ་སྟེང་ངར་གླུད་གཙང་གླུད་དང་། །གཏོར་མ་ཆང་བུ་རེ་རེ་བཞག །ས་སེར་ཆང་ཕུད་གཏོར་བ་དང་། །གཏོ་མཁན་ཆས་ཞུགས་མདའ་དར་ཐོགས། །ཆ་གསུམ་གཏོར་མ་གཞི་བདག་མཆོད། །ཀོང་ཙེ་མཆོད་དང་ཡས་བྱིན་བརླབ། །གཏོ་གཞུང་སྤྱི་ཁོག་བཞིན་བསྲངས་ནས། །འདི་ལྟར་གྱེར་བར་བྱ་བ་ཡིན། །རང་ཉིད་ཚགས་སུ་མ་ཚུད་ཅིང་། །ཆོ་གའི་འཕྲུལ་སྦྱོར་མི་ཤེས་པར། །ནག་འདེད་བོན་གྱེར་བྱེད་པ་འཁྲུལ། །ཀྱེ།སྔོན་གྱི་བསྐལ་པ་དང་པོ་ལ། །ཕྱོགས་ནི་ཉི་མ་ལྷོ་ནུབ་ན། །གཉིས་ནག་སྟེང་ན་བཞུགས་པ་ནི། །གནམ་བདུད་ཆེ་བ་གནམ་ཁྱི་དཀར། །ས་བདུད་ཆེ་བ་ཧལ་ཁྱི་ནག །གནམ་ས་གཉིས་ན་ཆ་བ་བཞུགས། །འདིར་བྱོན་གཏོ་བཞེས་སྤྲེང་ལ་གསོན། །ངན་བཟློག་གཏོ་བཞིའི་གདན་སྟེངས་སུ། །ལྷ་ཆེན་མཆེད་གཉིས་སྤྱན་འདྲེན་ནོ། །གླུད་དང་གཏོ་ཆེན་མཐུན་རྫས་རྣམས། །ལྷ་ཆེན་མཆེད་གཉིས་འཁོར་བཅས་ལ། །འབུལ་ལོ་ལས་འདི་བྱེད་པ་ལ། །མི་ལ་གནོད་པ་མ་མཛད་ཅིག །བདུད་ཀྱི་འཕུང་གྱོད་བཟློག་ཏུ་གསོལ། །ཀྱེ། གཏོ་མཁན་རྒྱལ་པོ་གཏོ་བགྱིད་ན། །ལྷ་སྲིན་སྡེ་བརྒྱད་གཏོ་ལ་འཚོགས། །གནམ་གྱི་བདུད་གཡོས་བཟློག་ཏུ་གསོལ། །དུར་སྲི་ལངས་པ་བསྒྱུར་དུ་གསོལ། །རྒྱུ་སྦྱོར་ཡོན་བདག་འཁོར་བཅས་ཀྱི། །ཆགས་ཆེ་ཉམ་ང་ཟློག་ཏུ་གསོལ། །མི་ནག་ཤར་ནས་མ་འབོད་ཅིག །བྱ་ནག་སྟེང་ནས་མ་ལྡིང་ཞིག །འཚུབ་ནག་འོག་ནས་མ་ལྡང་ཞིག །དེས་ལེན་དེས་ཉེས་མ་བཏང་ཞིག །ཀྱེ། གཉིས་ནག་ཝང་ཁྱི་གླུད་ལོང་ཞིག །གནམ་ཐེ་དཀར་པོ་གླུད་ལོང་ཞིག །ས་ཐེ་ནག་པོ་གླུད་ལོང་ཞིག །བར་ཐེ་ཁྲ་བོ་གླུད་ལོང་ཞིག །ལྷ་སྲིན་སྡེ་བརྒྱད་གླུད་ལོང་ཞིག །འདིར་བཤམས་མདོས་གླུད་འདི་བཞེས་ལ། །གླུད་དང་མི་གཉིས་བརྗེ་བར་ཞུ། །ལས་འདིར་ཀོ་ལོང་མ་སྡོམས་ཤིག །རང་གི་གནས་དང་རྟེན་ལ་གཤེགས། །གནོད་ཅིང་འཚེ་བ་མ་མཛད་ཞིག །གཉིས་ནག་གནས་ནས་མ་འགུལ་ཞིག །གནམ་ཁྱི་ནག་པོ་མ་འགུལ་ཅིག །ཧལ་ཁྱི་ནག་པོ་མ་འཁྲུག་ཅིག །ཝང་ཁྱི་ནག་པོ་མ་འདུར་ཞིག །གཉིས་ནག་གནོད་པ་མ་བཏང་ཞིག །ཅེས་པ་ཁ་སྦྱར་དང་བཅས་གྱེར། །ཕུད་གཙང་ཕྱོགས་བཅུར་གཏོར་བ་དང་། །ཤིས་པ་བརྗོད་པས་ཐུབ་པར་བཤད།།
+
+### The nine black ones (pp. 191–192, img. 199–200)
+
+#### The nine black ones (ནག་མོ་དགུ་སྐོར, nag mo dgu skor) — p. 191, img. 199
+
+Also called the nine slayer gods round the wheel (*gshed lha 'khor dgu*)
+and the nine secret ones (*gsang ba dgu*). How they go round the year:
+
+> ༈ ད་ནི་ནག་མོ་དགུ་སྐོར་རམ། །གཤེད་ལྷ་འཁོར་དགུར་གྲགས་པ་བཤད། །འདི་ལ་གསང་བ་དགུ་ཡང་ཟེར། །ལོ་ལ་འཁོར་ལུགས་འདི་བཞིན་ཏེ།།
+
+#### 1. The king who holds weapons (རྒྱལ་པོ་མཚོན་ཐོགས, rgyal po mtshon thogs) — p. 191, img. 199
+
+Rides the year animal; left; enters with the solstice. Avoided:
+sharpening the tips of arrows and spears, war, robbery, mustering, violent
+works. His grudge falls on soldiers. Remedy: the Protector's averting of
+war, or the earth lord's *gto* against disturbance.
+
+> ༈ རྒྱལ་པོ་མཚོན་ཐོགས(༡)གནམ་ལོ་ཞོན། །གཡོན་སྐོར་ཉི་ལྡོག་མཉམ་དུ་བསྐྱེད། །མདའ་རྩེ་མདུང་རྩེ་བརྡར་བའི་ལས། །དམག་ཇག་རུ་འདྲེན་དྲག་ཤུལ་འཛེམ། །ཀོ་ལོང་དམག་མི་ཉིད་ལ་སྡོམ། །ཉམས་ན་མགོན་པོ་གཡུལ་བཟློག་གམ། །ས་བདག་གཡོ་འཁྲུག་གཏོ་ཡིས་བཅོས།།
+
+#### 2. Kala the corpse-eater (ཀ་ལ་རོ་ཟན, ka la ro zan) — p. 191, img. 199
+
+On the wind-horse of the previous year; right; enters a hundred and
+twenty-four days after the solstice, or, as others say, eighty after. He
+cuts off the graveyard's sending side: a corpse sent there, its owner soon
+dies. Remedy: the banner dhāraṇī.
+
+> ༈ ཀ་ལ་རོ་ཟན(༢)ཞེས་བྱ་བ། །སྔ་ལོའི་ཀླུང་རྟའི་སྟེང་དུ་གནས། །གཡས་སྐོར་བརྒྱ་དང་ཉེར་བཞིའི་རྗེས། །ཟེར་ཀྱང་བརྒྱད་ཅུའི་རྗེས་ལ་བསྐྱེད། །དུར་གྱི་གཏང་ཁ་གཅོད་ཅེས་ཏེ། །རོ་བཏང་རོ་བདག་མྱུར་དུ་འཆི། །ཉམས་ན་ཏོག་གཟུངས་འདོན་པར་བྱ།།
+
+#### 3. The life-spirit knower of the sme ba (སྨེ་བ་བླ་མཁྱེན, sme ba bla mkhyen) — p. 191, img. 199
+
+Stays on the last of the year's three in concord (*mthun gsum tha chung*);
+right; enters four days before the solstice. Avoided: digging and burial;
+"the surveyor plants the boundary-seal", so his grudge falls on the
+earth-worker. Remedy: the *Mdo thig* and the collected dhāraṇīs.
+
+> ༈ སྨེ་བ(༣)བླ་མཁྱེན་ཞེས་བྱ་བ། །མཐུན་གསུམ་ཐ་ཆུང་སྟེང་དུ་སྡོད། །གཡས་སྐོར་རྩ་བཞི་གོང་ནས་བསྐྱེད། །ལས་ནི་ས་བརྐོ་དུར་འདེབས་འཛེམ། །དཔྱད་མཁན་དམེ་རྒྱས་འདེབས་ཞེས་ཏེ། །ས་མཁན་དེ་ལ་ཀོ་ལོང་སྡོམ། །ཉམས་ན་མདོ་ཐིག་གཟུངས་བསྡུས་འདོན།།
+
+#### 4. The horse demon of children (བྱིས་པ་རྟ་བདུད, byis pa rta bdud) — p. 191, img. 199
+
+Above the three in concord; left; enters four days before the solstice.
+Giving or taking children and horses is avoided; his grudge falls on
+horse owners and children. Remedy: the horse dhāraṇī thirteen times.
+
+> ༈ བྱིས་པ(༤)རྟ་བདུད་མཐུན་གསུམ་གོང་། །གཡོན་སྐོར་ཞག་བཞིའི་གོང་ནས་བསྐྱེད། །བྱིས་པ་རྟ་ཡི་གཏོང་ལེན་སྤང་། །ཀོ་ལོང་རྟ་བདག་བྱིས་པར་སྡོམ། །ཉམས་ན་རྟ་གཟུངས་བཅུ་གསུམ་འདོན།།
+
+#### 5. The slayer who buries (གཤེད་པོ་དུར་འདེབས, gshed po dur 'debs) — p. 191, img. 199
+
+On the wind-horse's tomb; right; enters eight days before the solstice.
+Sending a go-between that way is bad; his grudge falls on the head of the
+house and those close to him. Remedy: a rite of confession and
+fulfilment.
+
+> ༈ གཤེད་པོ་དུར་འདེབས(༥)ཀླུང་རྟའི་དུར། །གཡས་སྐོར་ཞག་བརྒྱད་གོང་ནས་བསྐྱེད། །ཕྱོགས་དེར་སྒྱེད་པོ་འཇུགས་པ་ངན། །ཀོ་ལོང་ཁྱིམ་དཔོན་གང་ཡིན་དང་། །ཉེ་དྲུང་ལ་ནི་སྡོམ་པར་བྱེད། །ཉམས་ན་སྤང་སྐོང་བཏོན་པས་ཐུབ།།
+
+#### 6. The illness demon who cuts heads (ནད་བདུད་མགོ་གཅོད, nad bdud mgo gcod) — p. 191, img. 199
+
+Dog, pig and mouse years eating the sheep's flesh; ox, tiger and hare
+years kneading the dog's skin; dragon, snake and horse years riding the ox;
+sheep, monkey and bird years roaring the dragon's roar (the course of
+Tsangkun the splitter, no. 21); left; enters sixteen days after the
+solstice. Corpses and the sick going his way are avoided; his grudge falls
+on the owner of the corpse and on the sick, "it plants bad illness".
+Remedy: the *Eight Appearances*, a rite of confession and fulfilment, the
+*Rims nad zhi byed*.
+
+> ༈ ནད་བདུད་མགོ་གཅོད(༦)བྱ་བ་ནི། །ཁྱི་ཕག་བྱི་གསུམ་ལུག་ཤ་ཟ། །གླང་སྟག་ཡོས་གསུམ་ཁྱི་ལྤགས་མཉེད། །འབྲུག་སྦྲུལ་རྟ་གསུམ་གླང་ལ་ཞོན། །ལུག་སྤྲེལ་བྱ་གསུམ་འབྲུག་སྐད་ལྡིར། །གཡོན་སྐོར་བཅུ་དྲུག་རྟིང་ན་བསྐྱེད། །རོ་དང་ནད་པ་ཕྱོགས་འགྲོ་འཛེམ། །ཀོ་ལོང་རོ་བདག་ནད་པ་ལ། །ཁྱོལ་ཟློག་ནད་ངན་འདེབས་ཞེས་ངན། །ཉམས་ན་སྣང་བརྒྱད་སྤང་སྐོང་དང་། །རིམས་ནད་ཞི་ཕྱེད་འདོན་པར་བྱ།།
+
+#### 7. The tiger and leopard gathering at the nose (སྟག་གཟིག་སྣ་འདུས, stag gzig sna 'dus) — p. 191, img. 199
+
+On the seventh from the last of the three in concord; right; enters eight
+days after the solstice. A move made toward him casts off the move's
+leader; his grudge falls on servants and workers. Remedy: the small *'Bum*
+of five sections.
+
+> ༈ སྟག་གཟིག་སྣ་འདུས(༧)ཞེས་བྱ་བ། །མཐུན་གསུམ་ཐ་ཆུང་བདུན་ཟུར་སྟེང་། །གཡས་སྐོར་ཞག་བརྒྱད་རྗེས་སུ་བསྐྱེད། །འཕོ་སྐྱས་བྱས་ན་སྐྱས་འགོ་འཕུད། །ཀོ་ལོང་བྲན་གཡོག་ལས་བྱེད་ལ། །ཉམས་ན་འབུམ་ཆུང་སྡེ་ལྔ་འདོན།།
+
+#### 8. The lord of death who steals food (གཤིན་རྗེ་ཟས་འཕྲོག, gshin rje zas 'phrog) — p. 191, img. 199
+
+On the wind-horse; right; moves four days after the solstice. A feast for
+the dead and burial are not to be done; his grudge falls on the head of
+the household. Remedy: calling back prosperity (*g.yang lon*).
+
+> ༈ གཤིན་རྗེ་ཟས་འཕྲོག(༨)ཀླུང་རྟའི་སྟེང་། །གཡས་སྐོར་ཞག་བཞིའི་རྟིང་ལ་སྐྱ། །གཤིན་སྟོན་དུར་འདེབས་བྱར་མི་རུང་། །ཀོ་ལོང་ཁྱིམ་བདག་གཙོ་བོ་ལ། །ཉམས་ན་གཡང་ལོན་བྱ་བ་གཅེས།།
+
+#### 9. The black one without a husband (ནག་མོ་ཁྱོ་མེད, nag mo khyo med) — pp. 191–192, img. 199–200
+
+Takes the third behind («རྗེས་གསུམ»); left; enters two days after the
+solstice. Brides and the works of corpses are avoided there; her grudge
+falls on finely adorned women. Remedy: the *Uṣṇīṣa*. For the nine
+together: the collected dhāraṇīs, a repeated *gto*, many water cakes and
+cakes.
+
+**The *Rin chen kun 'dus*'s other places** (p. 192, img. 200). WB gives
+them apart, since some mixed them with the month's: 1 the king rides the
+year animal, right, moves on the solstice day; 2 Kala the corpse-eater
+faces the leader, left, four days before; 3 the life-spirit knower of the
+sme ba on the downward four-slayer, turning not fixed, twelve days before;
+4 the horse demon of children «མར་དྲུག་འགྲས» (on the downward sixth), right, four
+days before; 5 the slayer who buries «མར་ཐང་ཡག», turning not fixed, twelve
+days before; 6 the illness demon on the tomb, turning not fixed,
+twenty-five days before; 7 the tiger and leopard on the downward
+four-slayer, left, eight days before; 8 the lord of death on the tomb's
+seventh, right, nine days after; 9 the one without a husband one year
+placed behind, turning not fixed, two days after. Works and remedies as
+above. Since the *bka'* and the *gter* agree, WB takes the first as the
+main one.
+
+> ༈ ནག་མོ་ཁྱོ་མེད(༩)རྗེས་གསུམ་ཐོབ། །གཡོན་སྐོར་ཞག་གཉིས་རྗེས་སུ་བསྐྱེད། །ཕྱོགས་དེར་བག་མ་རོ་ལས་འཛེམ། །ཀོ་ལོང་བུད་མེད་རྒྱན་བཟང་ལ། །ཉམས་ན་གཙུག་ཏོར་འདོན་པར་བྱ། །ནག་མོ་དགུ་སྐོར་སྤྱིའི་ཉམས་བཅོས། །གཟུངས་བསྡུས་འདོན་ཅིང་བསྐྱར་གཏོ་བྱ། །ཆབ་གཏོར་གཏོར་མ་མང་དུ་ཐོངས། །འདི་རྣམས་ལོ་ལ་འཁོར་བའི་ཚུལ། །ཡིན་མོད་རིན་ཆེན་ཀུན་འདུས་ལས། །གབ་དཀྲུགས་མི་འདྲའི་གདན་སྐྱས་དག །ཟླ་བར་སྦྱར་ཏེ་བཤད་པའི་དོན། །མ་ཁྲོལ་ཟླ་བར་སྔོན་མ་འགས། །འཆད་དང་འགའ་ཞིག་གདན་སྐྱས་དག །གབ་པ་འཕྲུལ་འཁོར་གཏོང་ཤེས་དང་། །རོ་བཀྲའི་དེ་ཉིད་མ་རྟོགས་པར། །གོང་དང་བསྲེས་ཏེ་འཆད་པ་སོགས། །སྣང་མོད་འདི་རུ་སོ་སོར་འཆད། །རྒྱལ་པོ་མཚོན་ཐོགས་གནམ་ལོ་ཞོན། །གཡས་སྐོར་ཉི་ལྡོག་ཉིན་མོ་སྐྱ། ཀ་ལ་རོ་ཟན་སྣ་ཁྲིད་གདོང་། །གཡོན་སྐོར་ཞག་བཞིའི་གོང་ནས་བསྐྱེད། །སྨེ་བ་བླ་མཁྱེན་མར་བཞི་གཤེད། །སྐོར་བ་ངེས་མེད་བཅུ་གཉིས་གོང་། །བྱིས་པ་རྟ་བདུད་མར་དྲུག་འགྲས། །གཡས་སྐོར་ཞག་བཞིའི་གོང་དུ་བསྐྱེད། །གཤེད་པོ་དུར་འདེབས་མར་ཐང་ཡག །སྐོར་བ་ངེས་མེད་བཅུ་གཉིས་གོང་།། ནད་བདུད་མགོ་གཅོད་དུར་གྱི་ཐོག །སྐོར་བ་ངེས་མེད་ཙ་ལྔའི་གོང་། །སྟག་གཟིག་མར་གྱི་བཞི་གཤེད་ཐོག །གཡོན་སྐོར་ཞག་བརྒྱད་གོང་དུ་བསྐྱེད། །གཤིན་རྗེ་ཟས་འཕྲོག་དུར་བདུན་ཟུར། །གཡས་སྐོར་ཞག་དགུའི་རྗེས་སུ་བསྐྱེད། །ཁྱོ་མེད་ལོ་གཅིག་པར་བཞག་ཕྱི། །ངེས་མེད་ཞག་གཉིས་རྗེས་སུ་བསྐྱེད། །ལས་ཐབས་ཉམས་བཅོས་གོང་དང་མཚུངས། །དེ་ལྟ་ན་ཡང་བཀའ་གཏེར་ཀུན། །མཚུངས་ཕྱིར་གོང་མ་གཙོ་བོར་བཟུང།།
+
+### The sme ba's gods and the palace gods (pp. 192–196, img. 200–204)
+
+#### The nine gods of the sme ba and their entry — p. 192, img. 200
+
+With the forty-five palace gods, each in its own place, what to avoid,
+the remedy and the screen. **Entry:** on the day of the winter solstice
+(«དགུན་ཉི་ལྡོག་པའི་ཉིན») the one-white moves in; then one sme ba each day, and
+in nine days the move is complete. Each god sits on its sme ba's seat
+(«སྨེ་བ་…གདན་སྟེང་ན»), so in the direction where that sme ba stands in the
+year's wheel.
+
+> ༈ དེ་ནས་སྨེ་བའི་ས་བདག་དགུ། །ཕོ་བྲང་ལྷ་ནི་ཞེ་ལྔ་བཅས། །གནས་པ་སོ་སོའི་ས་ཕྱོགས་ལ། །སྤང་དང་ཉམས་བཅོས་སྒྲིབ་ཤིང་བཤད། །སྐྱས་དུས་དགུན་ཉི་ལྡོག་པའི་ཉིན། །སྨེ་བ་གཅིག་དཀར་བསྐྱེད་པར་འགྱུར། །དེ་ནས་ཉིན་རེ་སྨེ་བ་རེ། །བསྐྱས་པས་ཞག་དགུ་སྐྱས་མཇུག་རྫོགས།།
+
+#### 1. On the one-white: the earth goddess Rabtenma (ས་ཡི་ལྷ་མོ་རབ་བརྟན་མ, sa yi lha mo rab brtan ma) — p. 192, img. 200
+
+White, holding Meru and a vase of nectar; a root god. Her messenger the *mde
+thung* queen. Avoided in her direction: the corpses of the young
+and of women, the astrologer sending corpses, brides, offering to the
+gods, raising an army, children's feasts, taking children out of the door.
+Her grudge falls on the young and finely dressed, kings, queens,
+daughters-in-law, rulers. Remedy: a cake of the three whites; screened by
+nine women of mixed-grain flour and a mask on a white silk. A corpse
+going there is led by a white woman who does not eat hot meat; an army
+going there, a white man on a white goat with a black neck, born to one
+born on the same day, throws a sling-stone that way.
+
+> ༈ སྨེ་བ་གཅིག་དཀར་སྟེང་ན་ནི། །སཱ་ཡི་ལྷ་མོ་རབ་བརྟན་མ(༡)། །སྐུ་མདོག་དཀར་མོ་ཤེལ་ལྟར་དྲངས། །གཡས་ན་རི་རབ་འཕྱར་ཞིང་བསྣམས། །གཡོན་ན་བདུད་རྩིའི་བུམ་པ་ཐོགས། །སྐུ་ལ་དར་དཀར་འཇོལ་བེར་གསོལ། །དབུ་ལ་གསེར་གྱི་པྲོག་ཞུ་གསོལ། །རྩ་བའི་ལྷ་ཡིན་ཀོ་ལོང་ལྟར། །མདེ་ཐུང་བཙུན་མོ་ཕོ་ཉར་འགྱེད། །ཕྱོགས་དེར་ཆུང་རོ་བུད་མེད་རོ། །རྩིས་མཁན་རོ་གཏོང་བག་མ་དང་། །ལྷ་གསོལ་བ་དང་དམག་འདེགས་པ། །བྱིས་པའི་སྟོན་མོ་སྒོར་ཁྲིད་སྤང་། །ཀོ་ལོང་ན་ཆུང་ཆས་བཟང་དང་། །རྒྱལ་པོ་རྒྱལ་པོའི་བཙུན་མོ་དང་། །མནའ་མ་སྲིད་འཛིན་དག་ལ་སྡོམ། །ཉམས་ན་དཀར་གསུམ་གཏོར་མས་བཅོས། །སྒྲིབ་ན་འབྲུ་སྣའི་ཕྱེ་ལ་ནི། །བུད་མེད་དགུ་དང་ཚར་པ་ཡི། །ཕོ་གདོང་དར་དཀར་བཏགས་པས་སྒྲིབ། །རོ་འདྲེན་ཤ་མི་ཚ་བ་ཡི། །བུད་མེད་དཀར་མོ་ཞིག་གིས་ནི། །རོ་སྣ་དྲངས་ཤིང་ཚོ་ངེས་འདེབས། །དམག་འདྲེན་ར་དཀར་གཉའ་ནག་ལ། །མི་དཀར་ཞིག་ནི་བསྐྱོན་བྱས་ལ། །གཅིག་སྐྱེས་གཅིག་ལ་བབས་པའི་མིས། །འུ་རྡོར་བཅུག་ལ་དེ་ཕྱོགས་འཕང་། །
+
+#### 2. On the two-black: the king of demons (བདུད་ཀྱི་རྒྱལ་པོ, bdud kyi rgyal po) — p. 193, img. 201
+
+Black, holding a market stick and a lasso; his messenger the black Wang
+dog. Avoided in his direction: every work, funerals, fort work, a
+corpse's road, brides, markets, moving, sounding music. His grudge falls
+on all, above all chiefs, young men and widows. Remedy: the three-headed
+black one casting a blood *zor*, the two-black's *gto*, the black
+*Uṣṇīṣa*; screened by nine dog-headed men of mixed-grain dough, water-wood
+stakes and black felt; or a black dog and a goat; with no other god, a
+smoke of dog dung.
+
+> ༈ སྨེ་བ་གཉིས་ནག་གདན་སྟེང་ན། །བདུད་ཀྱི་རྒྱལ་པོ(༢)ཞེས་བྱ་བ། །སྐུ་མདོག་ནག་པོ་རབ་ཏུ་བརྗིད། །གཡས་གཡོན་ཁྲོམ་ཤིང་ཞགས་པ་བསྣམས། །སྐུ་ལ་དར་བེར་ནག་པོ་གསོལ། །དབུ་ལ་གསེར་གྱི་ཞྭ་ཞུ་གསོལ། །ཝང་ཁྱི་ནག་པོ་ཕོ་ཉར་འགྱེད། །གནས་པའི་ཕྱོགས་སུ་ལས་ཀུན་དང་། །ཤིད་དང་མཁར་ལས་རོ་ལམ་བག །ཁྲོམ་སྐྱས་སྒྲ་འབུབས་ཀུན་ལ་འཛེམ། །ཀོ་ལོང་སྤྱི་དང་ཁྱད་པར་དུ། །གཙོ་བོ་སྐྱེས་དར་ཡུགས་སར་སྡོམ། །ནག་མོ་མགོ་གསུམ་ཁྲག་ཟོར་འཕེན། །གཉིས་ནག་གཏོ་བསྒྱུར་གཏོང་བ་དང་། །གཙུག་ཏོར་ནག་མོ་དག་གིས་བཅོས། །སྒྲིབ་ན་འབྲུ་སྣའི་དར་ཕྱེ་ལ། །མི་ལུས་ཁྱི་ཡི་མགོ་ཅན་དགུ། །ཆུ་ཤིང་ཕུར་པ་དོར་ནག་སྒྲིབ། །ཡང་ན་ཁྱི་ནག་ར་རོག་བཏང་། །ཚིག་མའི་དར་མི་བྱ་རོག་སྒྲོ། །བཙུགས་དང་ལྷ་གཞན་མེད་པ་ན། །ཁྱི་ལུད་གསུར་དུད་བཏང་བས་ཐུབ།།
+
+#### 3. On the three-blue: Sasen the harmer (ས་བསེན་གདུག་བྱེད, sa bsen gdug byed) — p. 193, img. 201
+
+Dark blue, holding a small child and a garland of skulls, a whip and a
+blood-filled skull; his messenger a pig-headed cat. Avoided: bringing
+here one who died there, digging, bringing a corpse, *phru rlog*, moving, fort work, digging ponds and canals, cutting and
+hauling *gnyan* trees. His grudge falls on brides, Bon priests and young
+men. Remedy: nāga offerings, clay stamps, water cakes, the *Uṣṇīṣa*,
+fulfilment and confession, the nāga and *bsen* *mdos*; screened by nine
+bird-headed men of dough and blue wood with a mask and blue cloth, or
+three ransom men with sky-crosses.
+
+> ༈ སྨེ་བ་གསུམ(༣)མཐིང་གདན་སྟེང་ན། །ས་བསེན་གདུག་བྱེད་ཅེས་བྱ་བ། །སྐུ་མདོག་མཐིང་ནག་ནམ་མཁའི་མདོག །གཡས་ན་བུ་ཆུང་ཐོད་ཕྲེང་དང་། །གཡོན་ན་ལྕུག་ཤིག་ཐོད་ཁྲག་བསྣམས། །སྐུ་ལ་དར་ནག་འཇོལ་བེར་གསོལ། །བྱི་ལམ་ཕག་མགོ་ཕོ་ཉར་འགྱེད། །གནས་པའི་ཕྱོགས་ལ་སྤང་བྱ་ནི། །འདི་ལ་ཤི་བ་འདིར་འདྲེན་དང་། །ས་བརྐོ་རོ་འདྲེན་ཕྲུ་རློག་སྐྱས། །མཁར་ལས་རྫིང་དང་ཡུར་བ་འདྲུ། །ཤིང་གཉན་གཅོད་འདྲེན་སྤང་བར་བྱ། །ཀོ་ལོང་ངན་པ་བག་མ་དང་། །བོན་པོ་སྐྱེས་དར་ཀོ་ལོང་སྡོམ། །ཀླུ་མཆོད་སཱཙྪ་ཆུ་གཏོར་གཏོང་། །གཙུག་ཏོར་བསྐང་བཤགས་ནེ་རས་བཅོས། །ཀླུ་བསེན་ཀླུ་ཡི་མདོས་ཆོག་གཏོང་། །སྒྲིབ་ན་འབྲུ་སྣའི་དར་ཕྱེ་ལ། །མི་ལུས་བྱ་མགོ་ཅན་དགུ་དང་། །ཤིང་སྔོན་ཕོ་གདོང་རས་སྔོན་སྒྲིབ། །ཡང་ན་ངར་མི་ནམ་རྒྱང་གསུམ། །བཙུགས་པ་ཕྱོགས་དེར་བསྟན་པས་སྒྲིབ། །
+
+#### 4. On the four-green: the goddess Dalche, or the nāga king Varuṇa (ལྷ་མོ་དལ་བྱེད, lha mo dal byed; ཀླུ་རྒྱལ་ཝ་རུ, klu rgyal wa ru) — p. 193, img. 201
+
+Green, holding a precious vase; her messenger a blue cat. Avoided: the
+corpses of those dead of epidemics and nāga illness, women's corpses,
+brides, digging springs. Her grudge falls on brides, sisters and old
+women. Remedy: nāga *mdos*, the nāgas' *'Bum*, white images and stūpas,
+nāga rites and cakes, fulfilment and confession, a general *mdos*;
+screened by nine snake-headed men and a mask on green silk, or four
+ransoms with sky-crosses.
+
+> ༈ བཞི་ལྗང(༤)ལྷ་མོ་དལ་བྱེད་དམ། །ཀླུ་རྒྱལ་ཝ་རུ་ཞེས་བྱ་བ། །སྐུ་མདོག་ལྗང་གུ་འབར་བའི་འོད། །གཡས་པ་རིན་ཆེན་བུམ་པ་བསྣམས། །སྐུ་ལ་དར་ལྗང་བེར་གསོལ་བ། །དབུ་ལ་གསེར་གྱི་བྲོག་ཞུ་གསོལ། །བྱི་ལམ་སྔོན་མོ་ཕོ་ཉར་འགྱེད། །གནས་པའི་ཕྱོགས་སུ་སྤང་བྱ་ནི། །རིམས་དང་ཀླུ་ནད་ཤི་བའི་རོ། །བུད་མེད་རོ་དང་བག་མ་དང་། །ཆུ་མིག་འདྲུ་སོགས་ཀུན་ལ་འཛེམ། །ཀོ་ལོང་བག་མ་བུ་སྲིང་དང་། །རྒན་མོ་ཉིད་ལ་སྡོམ་པར་བྱེད། །ཉམས་ན་ཀླུ་མདོས་ཀླུ་འབུམ་འདོན། །མཆོད་རྟེན་བདག་མེད་སྐུ་དཀར་གསོལ། །བྱ་སྒྲོ་གཟུར་བར་བྱ་བ་དང་། །ཀླུ་ཆོག་ཀླུ་གཏོར་བསྐང་བཤགས་བཅོས། །ཡང་ན་སྤྱི་མདོས་གཏང་བར་བྱ། །སྒྲིབ་ན་མི་ལུས་སྦྲུལ་མགོ་ཅན། །དགུ་དང་གྲ་མའི་ཤིང་ལ་ནི། །མོ་གདོང་དར་ལྗང་བཏགས་པས་སྒྲིབ། །ཡང་ན་ངར་གླུད་ནམ་རྒྱང་ནི། །བཞི་བཙུགས་བསྟན་ལ་སྒྲིབ་པར་བྱ། །
+
+#### 5. On the five-yellow: the earth lord king, lord of the world (ས་བདག་རྒྱལ་པོ་འཇིག་རྟེན་བདག, sa bdag rgyal po 'jig rten bdag) — p. 194, img. 202
+
+Holding a precious vase and a white conch; his messenger the slanderer
+with a golden cloak. Avoided: building a mandala or a palace, fierce
+burnt offerings, the corpses of those dead of bile disease and of dropsy,
+setting up a door, a monk's corpse; anything else is middling. His grudge
+falls on local rulers, nuns, the ordained and mantrins. Remedy: the
+collected dhāraṇīs; a yellow ransom laid on a leading corpse and pressed
+down with stakes of many woods; or the earth lord's rite; screened by nine
+snake-headed figures and a yellow-silk mask.
+
+> ༈ ལྔ་སེར(༥)གྱི་ནི་གདན་སྟེང་ན། །ས་བདག་རྒྱལ་པོ་འཇིག་རྟེན་བདག །གཡས་ན་རིན་ཆེན་བུམ་པ་འཛིན། །གཡོན་ན་འབུད་དུང་དཀར་པོ་བསྣམས། །སྐུ་ལ་དར་གྱི་གསེར་བེར་གསོལ། །དབུ་ལ་གསེར་གྱི་པྲོག་ཞུ་གསོལ། །ཕྲ་མ་གསེར་སློག་ཕོ་ཉར་འགྱེད། །དེ་ལྟར་གནས་པའི་ས་ཕྱོགས་སུ། །དཀྱིལ་འཁོར་ཕོ་བྲང་བརྩིག་པ་དང་། །སྦྱིན་སྲེག་དྲག་པོ་ཧོམ་སྤར་བ། །མཁྲིས་སྤན་གུམ་དང་དམུ་ཆུའི་རོ། །སྒོ་འཛུགས་པ་དང་བན་རོ་སྤང་། །གཞན་མ་གང་ཡང་འབྲིང་དུ་བཤད། །ཡུལ་དཔོན་དང་ནི་བཙུན་མ་དང་། །རབ་བྱུང་སྔགས་པར་ཀོ་ལོང་སྡོམ། །ཉམས་ན་གཟུངས་བསྡུས་སྒྲོག་པར་བྱ། །རོ་འདྲེན་ངར་གླུད་སེར་པོ་ནི། །རོ་ཡི་སྟེང་བཞག་ཤིང་སྣ་ཡི། །མགལ་པས་སྟེང་ནས་མནན་པར་བྱ། །ཡང་ན་ས་བདག་ཆོ་ག་བྱ། །སྒྲིབ་ན་སྦྲུལ་མགོ་ཅན་དགུ་དང་། །སྐྱེར་བའི་ཕོ་གདོང་དར་སེར་སྒྲིབ། །
+
+#### 6. On the six-white: the king, glory of beings (རྒྱལ་པོ་སྐྱེ་འགྲོའི་དཔལ, rgyal po skye 'gro'i dpal) — p. 194, img. 202
+
+White, holding a vajra staff and a victory banner; his messenger the white
+father lord. Avoided: the corpses of [unclear] and of Bon priests, a body
+burnt after smallpox, leading, and the works of council chiefs and judges;
+everything else is good. His grudge falls on young men and local lords.
+Remedy: the collected dhāraṇīs; at a council, earth from the council
+chief's footprint put in a sheep's horn and thrown toward the six-white;
+a corpse led there: thirteen fort-shaped cakes each with a rice sheep, and
+thirteen white balls each with a cake, shown his way.
+
+> ༈ དྲུག་དཀར་རྒྱལ་པོ་སྐྱེ་འགྲོའི་དཔལ(༦)། །སྐུ་མདོག་དཀར་གསལ་འོད་དུ་འབར། །གཡས་ན་རྡོ་རྗེ་དབྱུག་པ་དང་། །གཡོན་ན་རིན་ཆེན་རྒྱལ་མཚན་བསྣམས། །སྐུ་ལ་དར་དཀར་གོ་ཟུ་གསོལ། །ཡབ་རྗེ་དཀར་པོ་ཕོ་ཉར་འགྱེད། །གནས་པའི་ཕྱོགས་སུ་སྤང་བྱ་ནི། །མཚུན་སྦྲུམ་བོན་པོ་སྐྱེས་པའི་རོ། །འབྲུམ་བུ་ཡིས་ནི་རྐྱེན་པའི་པུར། །འདྲེན་སྡང་འདུན་དཔོན་ཞལ་ཆེའི་ལས། །ངན་ཅིང་གཞན་མ་གང་ཡང་བཟང་། །ཀོ་ལོང་དར་མ་ཡུལ་བདག་སྡོམ། །ཉམས་ན་གཟུངས་བསྡུས་འདོན་པ་དང་། །འདུན་མ་བྱེད་ན་འདུན་དཔོན་གྱི། །རྐང་རྗེས་ས་ནི་ལུག་རུར་བླུགས། །དྲུག་དཀར་ཕྱོགས་སུ་འཕང་བར་བྱ། །དེ་ཡི་ཕྱོགས་སུ་རོ་འདྲེན་ན། །མཁར་སྤེ་བཅུ་གསུམ་དག་གི་སྟེང་། །འབྲང་རྒྱས་འབྲས་ལུག་རེ་རེ་བཞག །དཀར་གོང་སྲིན་མེད་བཅུ་གསུམ་སྟེང་། །འབྲང་རྒྱས་རེ་བཞག་ཕྱོགས་དེར་བསྟན།།
+
+#### 7. On the seven-red: the great red btsan (བཙན་དམར་ཆེན་པོ, btsan dmar chen po) — p. 194, img. 202
+
+Red, a long silk spear and white and black dice; his messenger *seng
+phrom*.
+Avoided: fights, battle, red works, sending the corpse of one killed by a
+blade, contests of skill. His grudge falls on young men, women and the
+pregnant. Remedy: the *Amitāyus sūtra*, red cakes, the *btsan*'s *mdos*
+and *zor*; screened by nine red men on red horses with nine masks and red
+silk, or seven red men on red horses with red spears.
+
+> ༈ བདུན་དམར་བཙན་དམར་ཆེན་པོ(༧)ནི། །སྐུ་མདོག་དམར་པོ་མཚལ་ལྟར་མཛེས། །གཡས་ན་དར་མདུང་རིང་པོ་འཕྱར། །གཡོན་ན་ཤོ་རྡེལ་དཀར་ནག་བསྣམས། །སྐུ་ལ་དར་བེར་དམར་པོ་གསོལ། །དབུ་ལ་གསེར་གྱི་པྲོག་ཞུ་གསོལ། །ལོ་ལ་སེང་ཕྲོམ་ཕོ་ཉར་འགྱེད། །གནས་པའི་ཕྱོགས་སུ་སྤང་བ་ནི། །འཁྲུག་པ་གཡུལ་འགྱེད་དམར་ལས་དང་། །གྲི་རོ་མི་བཏང་རྩལ་མི་འགྲན། །སྐྱེས་དར་བུད་མེད་སྦྲུམ་མར་སྡོམ། །ཉམས་ན་ཚེ་དཔག་མེད་མདོ་འདོན། །དམར་གྱི་གཏོར་མ་བཏང་བ་དང་། །བཙན་མདོས་ཟོར་གྱིས་བཅོས་པར་བྱ། །འབྲུ་སྣ་བཏགས་པའི་དར་ཕྱེ་ལ། །མི་དམར་རྟ་དམར་ཞོན་པ་དགུ། །འོམ་བུའི་ཕོ་གདོང་དགུ་བཙུགས་ཏེ། །དར་དམར་བཏགས་པ་བསྟན་པས་སྒྲིབ། །ཡང་ན་མི་དམར་རྟ་དམར་ཞོན། །མདུང་དམར་ཐོགས་པ་བདུན་གྱིས་སྒྲིབ།།
+
+#### 8. On the eight-white: the great god, the great lord (ལྷ་ཆེན་དབང་ཕྱུག་ཆེ, lha chen dbang phyug che) — p. 195, img. 203
+
+White, a trident and a blood-filled skull; his messenger *ha ti pra
+ma*. Most works for the living and the dead are good there; the *se* is
+not set up for the corpse of a leper or the defiled, and the corpse of a
+widow or an executed criminal is not sent. His grudge falls on local
+rulers, the god-priests, criminals and corpse carriers. Remedy: offering
+to the gods, fulfilment and confession, the god rite, cleansing and
+bathing rites, the *Bkra shis brtsegs pa*; screened by nine white men and
+a mask on white silk; or eight butter rice-sheep sent his way.
+
+> ༈ བརྒྱད་དཀར་ལྷ་ཆེན་དབང་ཕྱུག་ཆེ(༨)།སྐུ་མདོག་དཀར་གསལ་འབར་བ་ལ། །གཡས་ན་ཏྲི་ཤཱུ་རྩེ་གསུམ་བསྣམས། །གཡོན་ན་ཐོད་པ་ཁྲག་གང་བསྣམས། །སྐུ་ལ་དར་དཀར་གོ་ཟུ་དང་། །དབུ་ལ་གསེར་གྱི་པྲོག་ཞུ་གསོལ། །ཧ་ཏི་པྲ་མ་ཕོ་ཉར་འགྱེད། །དེ་ལྟར་གནས་པའི་ས་ཕྱོགས་སུ། །གསོན་གཤིན་བྱ་བ་ཕལ་ཆེར་བཟང་། །མཛེ་རོ་གྲིབ་ཅན་སེ་མི་འཛུགས། །ཡུགས་ས་བཙད་པོའི་རོ་མི་བཏང་། །ཡུལ་དཔོན་དང་ནི་ལྷ་བོན་དང་། །བཙད་པོ་རོ་ཁུར་ཀོ་ལོང་སྡོམ། །ལྷ་གསོལ་བསྐང་བཤགས་ལྷ་ཆོག་དང་། །སེལ་དང་ཁྲུས་ཀྱི་ཆོ་ག་བྱ། །འཕགས་པ་བཀྲ་ཤིས་རྩེགས་པ་འདོན། །མི་དཀར་དགུ་དང་ཚར་པ་ཡི། །ཕོ་གདོང་དར་དཀར་བཏགས་པས་སྒྲིབ། །ཡང་ན་མར་གྱི་འབྲས་ལུག་བརྒྱད། །ཕྱོགས་དེར་གཏང་བར་བྱ་བ་ཡིན། །
+
+#### 9. On the nine-red: the mother goddess Jamunti (མ་མོ་ཛ་མུན་ཏི, ma mo dza mun ti) — p. 195, img. 203
+
+Dark red, holding «ནད་ཀྱི་རྒྱལ་བ» and plucking a weapon's thread; her messenger
+*ta seng* with a leopard's tail. Avoided: lending and
+repaying household wealth, the corpses of the auspicious and of elders
+with prosperity; the side where things are given out is not directed
+there. Her grudge falls on women, the pregnant, horses, kings, prosperity
+and wealth, servants and learned elders. Remedy: barley and butter taken
+from nine rich men, the rite of calling back prosperity and of long life;
+nine figures of mixed-grain flour with a cow's mask and red silk, or
+nine maroon sheep of grain sent there; to break the storehouse of the
+nine-red: grains in a maroon sheep's stomach pressed down there. Each sme
+ba god: its figure, cake, sky-cross and arrow set on its own place. WB:
+the essence of all the root gods' descriptions and avoidances is put
+together here.
+
+> ༈ དགུ་དམར་མ་མོ་ཛ་མུན་ཏི(༩)། །སྐུ་མདོག་དམར་ནག་ཆེན་མོ་སྟེ། །གཡས་ན་ནད་ཀྱི་རྒྱལ་བ་དང་། །གཡོན་དུ་མཚོན་གྱི་དྲུ་གུ་འཐུ། །སྐུ་ལ་བྱི་བེར་དམར་པོ་དང་། །དབུ་ལ་གསེར་གྱི་པྲོག་ཞུ་གསོལ། །ཧ་སེང་གཟིག་མཇུག་ཕོ་ཉར་འགྱེད། །དེ་ལྟར་གནས་པའི་ས་ཕྱོགས་སུ། །ཡོ་ལོང་ནོར་གྱི་འཇལ་ལེན་དང་། །བཀྲ་མཚན་རྒན་རྒོན་གཡང་ཅན་རོ། །འགྱེད་ཀྱི་ཁ་ཡང་དེར་མི་སྟོན། །ཀོ་ལོང་བུད་མེད་སྦྲུམ་མ་རྟ། །རྒྱལ་པོ་གཡང་ནོར་བྲན་འཁོར་དང་། །རྒན་རྒོན་ཡོན་ཏན་ཅན་ལ་སྡོམ། །ཕྱུག་པོ་དགུ་ལ་ནས་མར་བླངས། །གཡང་ལོན་ཚེ་ཡི་ཆོ་གས་བཅོས། །འབྲུ་སྣའི་ཕྱེ་ལ་མི་གཟུགས་དགུ། །གླང་མའི་ཕོ་གདོང་དར་དམར་སྒྲིབ། །ཡང་ན་འབྲུ་སྣའི་ལུག་སྨུག་དགུ། །གནས་པའི་ཕྱོགས་དེར་གཏང་བར་བྱ། །དགུ་དམར་བང་མཛོད་བཤིག་འདོད་ན། །ལུག་སྨུག་གྲོད་པར་འབྲུ་སྣ་ཡི། །ཚོགས་མཆོད་བླུགས་ལ་ཕྱོགས་དེར་མནན། །སྨེ་བ་དེ་རྣམས་རང་རང་གི །གཟུགས་དང་གཏོར་མ་ནམ་རྒྱང་དང་། །མདའ་འཕོང་བཙུགས་ལ་རང་ཐོག་བཞག །སྨེ་བའི་རྩ་བའི་ལྷ་རྣམས་ཀྱི། །མངོན་རྟོགས་འཛེམ་བཅོས་ལ་སོགས་པ། །ཀུན་གྱི་སྙིང་པོ་བསྡུས་ཏེ་བཀོད། །
+
+#### The forty-five palace gods (ཕོ་བྲང་ལྷ, pho brang lha) — pp. 195–196, img. 203–204
+
+«ལས་ལ་ཟློད་པ», the forty-five palace gods: each has its own description,
+too many to give; they sit on the nine sme ba:
+
+| sme ba | gods | what each is bad for, and the remedy |
+| --- | --- | --- |
+| one-white | King Ro 'dod (1) | a criminal's corpse is not brought out, nor sent toward queens and the finely dressed; remedy, the ninefold *chags pa* |
+| two-black | black bear (1), brown bear (2) | the corpses of those without heirs are not sent; remedy, the hal khyi's fulfilment *mdos* |
+| three-blue | black finch (1), black frog (2), grey tiger (3) | bad for sisters; for nephews, sisters and sons-in-law; for young Bon priests; remedy, *mdos* and fulfilment and confession |
+| four-green | four singing women: blue cat (1), turquoise bird (2), song bird (3), defiled one (4) | for young sisters; women of the fort; the elders of the place; young daughters-in-law; remedy, water and song cakes |
+| five-yellow | the king with a golden cloak (1), yellow leopard-tail (2), yellow fish-frog (3), yellow cat's enemy (4), yellow cat (5) | grudge toward the female kin; a spiritual friend's corpse; an exchanged person's corpse; a monk's corpse; monks, Bon priests and women; remedy, averting cakes, fulfilment and confession |
+| six-white | six father gods: Thog pa (1), Dkar po (2), Btsan (3), Phan po (4), Gris (5), Phyug brdal (6) | nothing unclean in their direction |
+| seven-red | seven: red bird (1) the pregnant; red btsan (2) a corpse killed by a blade; red Yam shud (3) a child killed by a blade; epidemic demon (4) horses and the pregnant's corpse; red Sa sgrom (5) a corpse dead by a horse; red Te lo (6) a corpse killed by fire or blade; yellow market god (7) the pregnant and a corpse with a horse |
+| eight-white | eight gods of good fortune: Dge ba, Gzhon nu, Bde ba, Gnyen, Thogs, 'Phags, Btsan, Rong | no grudge, every work auspicious, a little bad for war |
+| nine-red | nine daughters of prosperity: G.yang (1), Gza' smug (2) … Rims 'dre rtsis mkhan (9) | repaying wealth outward, giving food and wealth away, digging, a corpse, paying out grain and wealth, small children, *rtsal klung rta*, the astrologer and women; remedy, a strong calling back of prosperity, a hundred cakes, ransoms, sky-crosses, each in its number and colour, with the *Eight Appearances* in its own direction |
+
+So 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45. For example, for the one-white:
+a white cake and ransom with one white sky-cross sent to that year's
+one-white place.
+
+> ༈ ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི །ལྷ་ནི་ཞེ་ལྔ་གནས་པ་སྟེ། །སོ་སོར་མངོན་རྟོགས་མཆིས་ནའང་། །ཧ་ཅང་མང་པས་འདིར་མ་བཀོད། །གཅིག་དཀར་རྒྱལ་པོ་རོ་འདོད(༡)སྟེང་། །བཙད་པོ་དག་གི་རོ་མི་འདོན། །བཙུན་མོ་ཆས་བཟང་དེར་མི་བཏང་། །ཉམས་ན་ཆགས་པ་དགུ་སྐོར་བྱ། །གཉིས་ན་དོམ་ནག(༡)དྲེད་ནག(༢)གནས། །རབས་ཆད་ཕོ་མོའི་རོ་མི་བཏང་། །ཉམས་ན་ཧལ་ཁྱིའི་བསྐང་མདོས་བྱ། །གསུམ་མཐིང་ཉེའུ་ནག་པོ(༡)ནི། །བུ་སྲིང་ལ་ངན་སྦལ་ནག(༢)ནི། །ཚ་ཡུག་བུ་སྲིང་མག་པར་ངན། །སྟག་སྐྱ(༣)བོན་པོ་གཞོན་ནུར་ངན། །ཉམས་ན་མདོས་དང་བསྐང་བཤགས་བྱེད། །བཞི་ལྗང་གླུ་མོ་རིགས་བཞི་ནི། །བྱི་ལམ་སྔོན་མོ་བུ་སྲིང་གཞོན(༡)། །གཡུ་བྱ་མཁར་གྱི་བུད་མེད་ལ(༢)། །གླུ་བྱ་ཡུལ་གྱི་རྒན་རྒོན་ལ(༣)། །གྲིབ་ཅན་མནའ་མ་གཞོན་ལ་ངན(༤)། །ཉམས་ན་ཆབ་གཏོར་གླུ་གཏོར་བྱ། །ལྔ་སེར་རྒྱལ་པོ་གསེར་སློག་ཅན(༡)། །མོ་ཉེའི་ཕྱོགས་སུ་ཀོ་ལོང་སྡོམ། །སེར་པོ་གཟིག་མཇུག(༢)དགེ་བཤེས་རོ། །ཉ་སྦལ་སེར་པོ(༣)བརྗེའི་རོ། །བྱི་དགྲ་སེར་པོ(༤)བན་རོ་ལ། །སེར་པོ་བྱི་ལམ་བན་བོན་དང་། །བུད་མེད་དག་ལ་ཀོ་ལོང་སྡོམ། །ཉམས་ན་གཏོར་བཟློག་བསྐང་བཤགས་བྱ། །དྲུག་དཀར་ཡབ་ལྷ་བརྡལ་དྲུག་ནི། །ཡབ་ལྷ་ཐོག་པ(༡)བྱ་བ་དང་། །ཡབ་ལྷ་དཀར་པོ(༢)ཡབ་ལྷ་བཙན(༣)། །ཡབ་ལྷ་ཕན་པོ(༤)ཡབ་ལྷ་གྲིས(༥)། །ཡབ་ལྷ་ཕྱུག་བརྡལ(༦)རྣམ་པ་དྲུག །ལས་ཐབས་ཕྱོགས་དེར་མི་གཙང་འཛེམ། །བདུན་དམར་ཡ་བ་རྐྱ་བདུན་ནི། །བྱ་དམར(༡)སྦྲུམ་མར་ཀོ་ལོང་སྡོམ། །བཙན་དམར(༢)གྲི་བོའི་རོ་ལ་སྡོམ། །ཡམ་ཤུད་དམར་པོ(༣)བུ་གྲིའི་རོ། །རིམས་འདྲེ་རྟ་ཕྱུགས(༤)སྦྲུམ་མའི་རོ། །ས་སྒྲོམ་དམར་པོ(༥)རྟ་ཕྱིའི་རོ། །ཏེ་ལོ་དམར་པོ(༦)མེ་གྲིའི་རོ། །སེར་པོ་ཁྲོམ་ལྷ(༧)སྦྲུམ་མ་དང་། །རྟ་སྦྲགས་རོ་ལ་ངན་པ་ཡིན། །བརྒྱད་དཀར་བཀྲ་ཤིས་ལྷ་བརྒྱད་ནི། །དགེ་བ(༡)གཞོན་ནུ(༢)བདེ་བ(༣)གཉེན(༤)། །ཐོགས(༥)འཕགས(༦)བཙན(༧)རོང(༨)བཀྲ་ཤིས་བརྒྱད། །ཀོ་ལོང་མི་སྡོམ་ལས་ཀུན་ཤིས། །དམག་ལ་ཅུང་ཟད་ངན་པར་བཤད། །དགུ་དམར་གཡང་གི་བུ་མོ་དགུ། །གཡང(༡)གཟའ་སྨུག་དགུ་ལུག་ཕྱི་འཇལ། །ཛམ་ལ(༢)ཟས་ནོར་ཕྱིར་གཏོང་བ། །སྐྱོབ་བྱེད(༣)ས་བརྐོ་སྦྱར་བྱེད(༤)ལ། །རོ་གཏོང་འཁྲོན་པ(༥)འབྲུ་ནོར་འཇལ། །རྨུགས་འཛིན་ནོར་རྫས(༦)ཕྱིར་གཏོང་བ། །གཟིག་མཇུག་བྱིས་པ(༧)ཕྲ་མོ་ལ། །རྩལ་ཀླུང་རྟ(༨)ལ་ཀོ་ལོང་སྡོམ། །རིམས་འདྲེ་རྩིས་མཁན(༩)བུད་མེད་ལ། །ཀོ་ལོང་སྡོམ་པའི་བཅོས་ཐབས་ནི། །གཡང་ལོན་དྲག་ཏུ་བྱེད་པ་དང་། །གཏོར་མ་བརྒྱ་རྩ་ངར་གླུད་དག །ནམ་རྒྱང་འཕན་ལ་སོགས་པ་ནི། །གྲངས་མདོག་རང་རང་བཞིན་དུ་བཏང་། །རང་ཕྱོགས་སྣང་བརྒྱད་ཙམ་བྱུང་བཀླག །གཅིག་དཀར་ལྟ་བུ་དཔེར་མཚོན་ན། །གཏོར་མ་ངར་གླུད་དཀར་པོ་ནི། །གནམ་རྒྱང་དཀར་པོ་རེ་བཙུགས་ལ། །ལོ་དེའི་གཅིག་དཀར་གནས་ཕྱོགས་བཏང་། །
+
+#### The month's *'gog ku* and the hidden earth lords — p. 196, img. 204
+
+«གཞན་ཡང་སིལ་མའི་འགོག་ཀུ་དང་། །གབ་པའི་ས་བདག་ཟླ་བའི་སྐབས། །བཤད་པ་ཇི་བཞིན་བརྟག་པར་བྱ།»: the scattered
+*'gog ku* (འགོག་ཀུ) and the hidden (*gab pa*) earth lords of the year
+are examined as told with the month's (RD4).
+
+> ༈གཞན་ཡང་སིལ་མའི་འགོག་ཀུ་དང་། །གབ་པའི་ས་བདག་ཟླ་བའི་སྐབས། །བཤད་པ་ཇི་བཞིན་བརྟག་པར་བྱ།།
+
+### The sky dog, male and female: the sky dog of brides (pp. 196–198, img. 204–206)
+
+#### The black sky dog (གནམ་ཁྱི་ནག་པོ, gnam khyi nag po): the male — p. 196, img. 204
+
+Of the two, male and female, the male: a dog's body, a bird's wings, a
+snake's tail, the pig's mane of ignorance; black, the sun before him and
+the moon behind; a man's head, a coiled tail, a body of seven sme ba, fire
+blazing on his head, a horse of nine joints. «ལོ་ཡི་གནམ་ཁྱི་སྤར་ཁ་ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས་སྟེང»: the
+year's sky dog is the trigram *khen* (ཁེན), on [the ages] 18, 26 and so on;
+the male sky dog holds it: a bride taken when [her year] falls there has
+many daughters and her sons are hard to raise, and she is seized by
+illness; then the male sky dog is remedied.
+
+> ༈གནམ་ཁྱི་ནག་པོ་ཞེས་བྱ་བ། །ཕོ་མོ་གཉིས་ལས་གནམ་ཁྱི་ཕོ། །ཁྱི་ལུས་བྱ་གཤོག་མཇུག་མ་སྦྲུལ། །གཏི་མུག་ཕག་གི་ཟེ་བ་ཅན། །མདོག་ནག་ཉི་མདུན་ཟླ་བ་རྒྱབ། །མི་མགོ་མཇུག་གྲིལ་སྨེ་བདུན་ལུས། །མགོ་ལ་མེ་འབར་དགུ་ཚིགས་རྟ། །ལོ་ཡི་གནམ་ཁྱི་སྤར་ཁ་ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས་སྟེང་། །དེ་ལ་གནམ་ཁྱི་ཕོས་འཛིན་པས། དེར་བབས་བག་མ་བྱས་པ་ན། །བུ་མོ་མང་ཞིང་བུ་གསོ་དཀའ། །མོ་རང་ནད་ཀྱིས་འཛིན་པས་ན། །དེ་ལ་གནམ་ཁྱི་ཕོ་བཅོས་བྱ། །
+
+#### The female sky dog — p. 196, img. 204
+
+Black, a horse's body, a dog's head, a garuḍa's wings, a snake's tail, a
+makara's feet, a body of seven sme ba, fire blazing on the head, riding a
+turtle. The year's sky dog is the trigram *zon* (ཟོན), held by the
+female: a bride taken when [her year] falls there, «འགྲམ་རྩ་བུ་རོས་འགེངས», her
+children die; then the female is remedied.
+
+> ༈མོ་ནི་མདོག་ནག་རྟའི་ལུས་ལ། །ཁྱི་མགོ་ཁྱུང་གཤོག་སྦྲུལ་གྱི་མཇུག །ཆུ་སྲིན་རྐང་ལ་སྨེ་བདུན་ལུས། །མགོ་ལེ་མེ་འབར་རུས་སྦལ་ཞོན། །ལོ་ཡི་གནམ་ཁྱི་ཟོན་ཡིན་ལ། །དེ་ལ་གནམ་ཁྱི་མོ་ཡིས་འཛིན། །དེར་བབས་བག་མ་བྱས་པ་ན། །འགྲམ་རྩ་བུ་རོས་འགེངས་པར་འགྱུར། །མོ་ལ་བབ་ན་མོ་བཅོས་བྱ།།
+
+#### The sky dog in the bride's own year — p. 197, img. 205
+
+Also in the bride's own year the sky dog's lurking (*rngam sdod*), its
+watch (*bya ra*) and its search for food (*zas 'tshol*): for example, a
+bride born in a tiger, horse or dog year: in the dog year the lurking
+stays in the dog month, the watch is on the dog day, and at the dog hour
+the search for food; it falls on the last of her three in concord
+(«མཐུན་གསུམ་ཐ་ཆུང»: for the tiger, horse and dog, the dog).
+
+> ༈ གཞན་ཡང་བག་མ་རང་ལོ་ལ། །གནམ་ཁྱི་རྔམ་སྡོད་བྱ་ར་དང་། །ཟས་འཚོལ་དཔེར་ན་བག་མ་ནི། །སྟག་རྟ་ཁྱི་ཡི་ལོ་མ་ཡིན། །ཁྱི་ལོ་ལ་རྔམ་ཁྱི་ཟླར་སྡོད། །ཁྱི་ཉི་བྱ་ར་ཁྱི་དུས་སུ། །ཟས་འཚོལ་མཐུན་གསུམ་ཐ་ཆུང་འགྲེ། །
+
+#### The sky dog's body, by the old and the new Chinese reckoning — p. 197, img. 205
+
+Two ways. The old: for the month (and the like), the tail on the animal
+now risen and the head at the mouth of the seventh. The new is the
+reverse: for year, month, day and hour alike, the head on its own place
+and the tail on the seventh. In order from the head: head (1), mouth (2);
+*gri ba* and *nam 'dzong* (3), its upper and lower; *spro
+stod* (4); then belly and privates (5), or belly and *spro smad*; *spang
+khung* (6); tail (7); hips (8); lower back (9); *shul pa* (10); the ribs or
+upper back (11); the neck (12). What each part means:
+
+| Part | Works | A bride taken then |
+| --- | --- | --- |
+| in general | fort work, funerals, corpses, above all brides are bad; grudge on all, chiefly corpse carriers | — |
+| head | no corpse, grave or *se*, no fort work, no army led | the husband dies, or bad for both parents |
+| mouth | trade and sowing | she herself dies |
+| *gri ba* | paying out wealth | — |
+| *nam 'dzong* | war, clearing, catching are bad | her wishes come true |
+| *spro stod* | leading an army, preparing poison are bad | many sons, very good |
+| belly | — | bad for the father's name |
+| privates | laying a house's foundation is avoided | the woman lustful, becomes a harlot |
+| *spang khung* | moving a grave, plans of moving are bad | foolish children are born |
+| tail | removing corpses, war, robbery are bad | the line is cut off |
+| hips | stūpas, fort work are bad | quarrels come again and again in the house |
+| lower back | ploughing, roots of virtue are bad | separation, "yet authoritative texts call it good" |
+| *shul pa* | searching for a burial ground, great rites are bad | her parents die, "this too shows good results" |
+| ribs | removing corpses, fort work, seeking one's aims are bad | good |
+| neck | fort work, stūpas, building houses and weaving are bad | bad for clothing and vomiting |
+
+**Remedy.** The sheep-hand Bon rite, the sky dog's *mdos*, the *Uṣṇīṣa*;
+a black man on a pig-crow figure with raven feathers and a black tail.
+Or the bride's five fingers marked in vermilion with the headed letters
+*lha*, *stag*, *seng ge*, *khyung*, *'brug* (god, tiger, lion, garuḍa,
+dragon), a right-turning swastika drawn on her left palm; or a dog's skull
+filled with grains and the five precious powders, a small figure of
+straw on it, carried ahead of her: "no doubt that this succeeds".
+
+> ༈ ཡང་ནི་གནམ་ཁྱི་ནག་པོ་འདིར། །རྒྱ་རྩིས་གསར་རྙིང་རྣམ་པ་གཉིས། །རྙིང་མ་ཟླ་བ(ཟླ་བར་དཔེར་མཚོན་ན།)གང་ཤར་མཇུག །བདུན་ཟུར་ཁ་རུ་མགོ་བོ་ཡང་། །གསར་མ་དེ་ལས་ལྡོག་པ་སྟེ། །ལོ་ཟླ་ཞག་དུས་བཞི་ག་ཡི། །རང་ཐོག་མགོ་ལ་བདུན་ཟུར་མཇུག །རིམ་པར་ཆོས་སྐོར་མགོ(༡)དང་ཁ(༢)། །གྲི་བ་ནམ་འཛོང(༣)གཉིས་སྟོད་སྨད། །སྤྲོ་སྟོད(༤)དེ་ནས་ལྟོ་བ་མཚན(༥)།ཡང་ན་ལྟོ་བ་སྤྲོ་སྨད་ཅེས། །འདི་གཉིས་སྟོད་སྨད་རིམ་པ་གཅིག །སྤང་ཁུང(༦)མཇུག་མ(༧)འཕོངས(༨)སྒང་སྨད(༩)། །ཤུལ་པ(༡༠)སོག་པའམ་སྒང་སྟོད(༡༡)དང་། །གཉའ་མཇིང་རིམ་པར(༡༢)གནས་པར་འདོད། །སྤྱིར་ན་ལས་ཐབས་མཁར་ལས་ཤིད། །རོ་དང་ཁྱད་པར་བག་མ་ངན། །ཀོ་ལོང་ཀུན་དང་སྒོས་སུ་ནི། །རོ་ཁུར་པ་ལ་སྡོམ་པར་བྱེད། །བྱེ་བྲག་མགོ་ལ་རོ་དུར་སེ། །མཁར་ལས་མི་བྱ་དམག་མི་དྲང་། །བག་མ་བླངས་ན་ཁྱོ་བོ་འཆི། །ཡང་ན་ཕ་མ་གཉིས་ལ་ངན། །ཁ་ལ་ཚོང་དང་ས་བོན་འདེབས། །བག་མ་བྱས་ན་མོ་རང་འཆི། །གྲི་བར་ནོར་རྫས་ཕྱིར་འཇལ་དང་། །ནམ་འཛོང་དམག་སེལ་བྱི་བྱེད་ངན། །ནམ་འཛོང་བག་མ་བསམ་པ་འགྲུབ། །སྤྲོ་སྟོད་དམག་འདྲེན་དུག་སྦྱོར་ངན། །བག་མ་བུ་མང་རབ་ཏུ་བཟང་། །ལྟོ་བར་བག་ཕྱིན་ཕ་མིང་ངན། །མཚན་མ་ཁང་རྨང་འདིང་བ་སྤང་། །བག་མ་བུད་མེད་ཆགས་པ་ཆེ། །སྨད་འཚོང་མ་རུ་འགྱུར་ཞེས་བཤད། །སྤང་ཁུང་དུར་སྤོ་སྐྱས་ཇུས་ངན། །བག་མ་བྱིས་པ་གླེན་ཞུགས་སྐྱེ། །མཇུག་མར་རོ་སེལ་དམག་ཇག་ངན། །བག་མ་བླངས་ན་ཐ་རབས་ཆད། །འཕོངས་ལ་མཆོད་རྟེན་མཁར་ལས་ངན། །བག་མ་ཁྱིམ་ཟློས་ཆན་ཆུན་འོང་། །སྒང་སྨད་ཞིང་རྨོ་དགེ་རྩ་ངན། །བག་མ་བྱེ་བྲལ་འོང་ཞེས་ཀྱང་། །ཁུངས་ལྡན་གཞུང་ལས་བཟང་བར་བཤད། །ཤུལ་པ་དུར་ས་འཚོལ་བ་དང་། །རིམ་གྲོ་ཆེན་པོ་བྱེད་ལ་ངན། །བག་མ་ཕ་མ་འཆི་ཞེས་ཀྱང་། །འདི་ཡང་བཟང་བའི་འབྲས་བུ་སྟོན། །སོག་པ་རོ་སེལ་མཁར་ལས་དང་། །དོན་གཉེར་བ་ལ་ངན་པ་ཡིན། །བག་མ་བླངས་ན་བཟང་པོར་འགྱུར། །གཉའ་བ་མཁར་ལས་མཆོད་རྟེན་དང་། །མཁར་ཁང་བརྩིག་དང་རང་འཐག་ངན། །བག་མ་གྱོས་སྐྱུག་གཉིས་ལ་ངན། །ཉམས་ན་ལུག་ལག་བོན་ཆོག་དང་། །གནམ་ཁྱིའི་མདོས་ཆོག་གཙུག་ཏོར་འདོན། །ཕག་རོག་གཟུགས་ལ་མི་ནག་བསྐྱོན། །ཕོ་རོག་དག་གི་སྒྲོ་བཙུགས་དང་། །རྔ་མ་ནག་པོ་དང་བཅས་སྒྲིབ། །ཡང་ནི་གནམ་ཁྱིའི་བཅོས་ཐབས་ལ། །བག་མའི་ལག་སོར་ལྔ་པོ་ལ། །ལྷ་སྟག་སེང་གེ་ཁྱུང་འབྲུག་ཅེས། །མཚལ་གྱིས་ཡི་གེ་དབུ་ཅན་འདྲི། །ལག་མཐིལ་གཡོན་པར་གཡུང་དྲུང་ནི། །གཡས་འཁྱིལ་དག་ཏུ་བྲི་བར་བྱ། །ཡང་ན་ཁྱི་ཐོད་འབྲུ་སྣས་བཀང་། །རིན་ཆེན་ལྔ་ཡི་ཕྱེ་མ་བླུགས། །སྟེང་དུ་འཇག་མའི་མི་ཆུང་བསྐྱོན། །དེ་ཉིད་སྔོན་དུ་ཁྱེར་ནས་འགྲོ། །དེ་ཡིས་ཐུབ་པར་ཐེ་ཚོམ་མེད།།
+
+#### The female sky dog by the seasons (p. 198) — p. 198, img. 206
+
+After the *'Byung kun 'dus* and the *Tshangs pa lha rgyud*: in the three
+spring months her head is east, her mouth stuck to the south, her tail
+west; summer, head south and mouth west; autumn, head west and mouth
+north; winter, head north and mouth east. When in spring she looks south,
+*zon* is her right fang, *li* her mouth, *khon* her left fang. Going from
+south to north the mouth's harm strikes; from south-west to north-east the
+left fang's; from south-east to north-west the right fang's. Corpses,
+brides and moving are avoided. A bride sent into her mouth: bad for the
+children; the fangs harm the bride's life; falling on the feet, daughters
+are born; on the belly, the children are powerful. *Li*, *khen* and *zon*
+are always the three: a bride sent from their mouth is bad, since the sky
+dog is their master.
+
+By the hours: in spring (looking south) from dusk to midnight her mouth
+looks south, from midnight to sunrise west, from sunrise to noon north,
+from noon to sunset east. In summer (looking west) from sunset to midnight
+west, then to sunrise north, to noon east, to sunset south. In autumn
+dusk north, dawn east, morning south, afternoon west. In winter dusk east,
+dawn south, morning west, afternoon north. Where her mouth looks, corpses,
+brides, war, *zor* and offering cakes are bad, every work in fact; these
+are also called the four great *ag* of time. Remedy: the sky dog's *mdos*.
+WB adds that earlier masters' writings lack the split into male and
+female, or have it but mix it with the month's lying dog (*nyal khyi*)
+and quote the *mdo byang* for it; that root of error is pulled out.
+
+> ༈གནམ་ཁྱི་མོ་ཡི་གནས་ཚུལ་འཆད། །དེ་ཡང་གཏོང་ཤེས་འབྱུང་ཀུན་འདུས། །ཚངས་པ་ལྷ་རྒྱུད་ལས་བཤད་པ། །དཔྱིད་གསུམ་མགོ་ཤར་ཁ་ལྷོར་ཟུག །མཇུག་མ་ནུབ་ཀྱི་ཕྱོགས་སུ་བསྟན། །དབྱར་གསུམ་མགོ་ལྷོ་ཁ་ནུབ་ཟུག །སྟོན་གསུམ་མགོ་ནུབ་ཁ་བྱང་ཟུག །དགུན་གསུམ་མགོ་བྱང་ཁ་ཤར་ཟུག །དཔྱིད་གསུམ་ལྷོ་རུ་བལྟས་པའི་ཚེ། །ཟོན་ནི་མཆེ་གཡས་ལི་ལ་ཁ། །ཁོན་ལ་མཆེ་བ་གཡོན་པ་ཟུག །ལྷོ་ནས་བྱང་མཐིལ་ཕྱིན་པ་ན། །དེ་ལ་ཁ་ཡི་ཉེས་པ་འཕོག །ལྷོ་ནུབ་ནས་ནི་བྱང་ཤར་ཕྱིན། །དེ་ལ་མཆེ་གཡོན་ཉེས་པ་འཕོག །ཤར་ལྷོ་ནས་ནི་ནུབ་བྱང་ཕྱིན། །དེ་ལ་མཆེ་བ་གཡས་ནུས་འཕོག །རོ་བག་སྐྱས་སོགས་འཛེམ་པར་བྱ། །བག་མ་ཁར་བརྫོངས་བུ་ཚ་ངན། །མཆེ་བས་བག་མའི་སྲོག་ལ་གནོད། །རྐང་ལ་བབས་ན་བུ་མོ་འབྱུང་། །ལྟོ་བར་བྱིས་པའི་དབང་ཐང་ཆེ། །རྟག་ཏུ་ལི་ཁེན་ཟོན་གསུམ་གནས། །འདི་གསུམ་ཁ་ནས་བག་མ་བརྫོངས། །གནམ་ཁྱིས་བདག་པོ་བྱེད་པས་ངན། །དཔྱིད་གསུམ་ལྷོ་རུ་བ་ལྟ་བའི་ཚེ། །མུན་པ་ཚབ་ཚུབ་ནས་ནམ་གུང་། །བར་དུ་ཁ་ནི་ལྷོ་རུ་བལྟ། །གུང་ནས་ཉི་ཤར་ཚུན་ཆད་ནུབ། །དེ་ནས་ཉིན་གུང་བར་དུ་བྱང་། །དེ་ནས་ཉི་ནུབ་བར་དུ་ཤར། །དེ་བཞིན་དབྱར་གསུམ་ནུབ་བལྟ་ཚེ། །ཉི་ནུབ་ནས་ནི་ནམ་གུང་ནུབ། །དེ་ནས་ཉི་ཤར་བར་དུ་བྱང་། །དེ་ནསཉིན་གུང་བར་དུ་ཤར། །དེ་ནས་ཉི་ནུབ་བར་དུ་ལྷོ། །སྟོན་གསུམ་སྲོད་བྱང་ཐོ་རེངས་ཤར། །སྔ་དྲོ་ལྷོ་ལ་དགོངས་ཁ་ནུབ། །དགུན་གསུམ་སྲོད་ཤར་ཐོ་རེངས་ལྷོ། །སྔ་དྲོ་ནུབ་ལ་དགོངས་ཁ་བྱང་། །འདི་ཡི་ཁ་ཡི་བལྟ་ཕྱོགས་སུ། །རོ་བག་དམག་ཟོར་གཏོར་མ་ངན། །སྤྱིར་ན་ལས་ཐབས་གང་ཡང་ངན། །དུས་ཀྱི་ཨག་ཆེན་བཞི་ཡང་ཟེར། །ཉམས་ན་གནམ་ཁྱི་མདོས་ཀྱིས་བཅོས། །སྔོན་བྱོན་མཁས་པས་མཛད་རྣམས་ལ། །ལ་ལར་ཕོ་མོའི་རྣམ་དབྱེ་དག །མེད་པར་འཁྲུལ་ལ་འགའ་ཞིག་ནི། །ཕོ་མོའི་རྣམ་འབྱེད་དོད་གྱུར་ཀྱང་། །ཟླ་བའི་ཉལ་ཁྱི་དང་འཁྲུལ་པས། །མདོ་བྱང་ལུང་འདྲེན་བྱེད་པ་སོགས། །འཁྲུལ་པའི་རྩ་བ་དྲུངས་ནས་ཕྱུངས། །བློ་ལྡན་དགའ་བ་བསྐྱེད་པར་བྱོས།།
+
+#### The sky dogs' joining by year, month and date — p. 198, img. 206
+
+The male and female join («གནམ་ཁྱི་ཕོ་མོ་སྦྱོར་བ་བྱེད»):
+
+| Year | Month | Date | *Gab pa 'phrul 'khor* |
+| --- | --- | --- | --- |
+| mouse | middle spring | 1 | 7 |
+| ox | last spring | 4 | 4 |
+| tiger | first summer | 7 | 7 |
+| hare | middle summer | 9 | 7 |
+| dragon | last summer | 26 | 26 |
+| snake | first autumn | 9 | 19 |
+| horse | middle autumn | 19 | 19 |
+| sheep | last autumn | 7 | 7 |
+| monkey | first winter | 16 | 16 |
+| bird | middle winter | 19 | 19 |
+| dog | last winter | 24 | 24 |
+| pig | first spring | 8 | 8 |
+
+A bride taken at the joining: «ཞིང་སྐམས་འགྲོ» (the fields go dry; the first
+letter not clear, ལྡིང་ by Yigdzin-1); a corpse's road taken then, the corpse
+carrier dies; any work is avoided at the joining; war made then ruins the
+one who makes it.
+
+> ༈ལོ་ཟླ་ཚེས་ལ་གནམ་སྦྱོར་ཚུལ། །བྱི་ལོའི་དཔྱིད་འབྲིང་ཚེས་པ་གཅིག །གླང་ལོའི་དཔྱིད་ཐའི་ཚེས་བཞི་ལ། །སྟག་ལོ་དབྱར་རའི་ཚེས་བདུན་དང་། །ཡོས་ལོ་དབྱར་འབྲིང་ཚེས་པ་དགུ། །འབྲུག་ལོ་དབྱར་ཐའི་ཉི་ཤུ་དྲུག །སྦྲུལ་ལོ་སྟོན་རའི་ཚེས་དགུ་དང་། །རྟ་ལོ་སྟོན་འབྲིང་བཅུ་དགུ་ལ། །ལུག་ལོ་སྟོན་ཐའི་ཚེས་པ་བདུན། །སྤྲེལ་ལོ་དགུན་རའི་བཅུ་དྲུག་དང་། །བྱ་ལོ་དགུན་འབྲིང་བཅུ་དགུ་ལ། །ཁྱི་ལོ་དགུན་ཐའི་ཉི་ཤུ་བཞི། །ཕག་ལོ་དཔྱིད་རའི་ཚེས་བརྒྱད་ལ། །གནམ་ཁྱི་ཕོ་མོ་སྦྱོར་བ་བྱེད། །འདིར་ཡང་གབ་པ་འཕྲུལ་འཁོར་ནས། །བྱི་ལོ་དཔྱིད་འབྲིང་ཚེས་བདུན་ལ། །གླང་ལོ་དཔྱིད་ཐའི་ཚེས་བཞི་ལ། །སྟག་ལོ་དབྱར་རའི་ཚེས་བདུན་ལ། །ཡོས་ལོ་དབྱར་འབྲིང་ཚེས་བདུན་ལ། །འབྲུག་ལོ་དབྱར་ཐའི་ཉེར་དྲུག་ལ། །སྦྲུལ་ལོ་སྟོན་རའི་ཚེས་བཅུ་དགུ། །རྟ་ལོ་སྟོན་འབྲིང་བཅུ་དགུ་ལ། །ལུག་ལོ་སྟོན་ཐའི་ཚེས་པ་བདུན། །སྤྲེལ་ལོ་དགུན་རའི་བཅུ་དྲུག་ལ། །བྱ་ལོ་དགུན་འབྲིང་བཅུ་དགུ་དང་། །ཁྱི་ལོ་དགུན་ཐའི་ཉི་ཤུ་བཞི། །ཕག་ལོ་དཔྱིད་རའི་ཚེས་བརྒྱད་སྦྱོར། །བག་མ་བླངས་ན་ཞིང་སྐམས་འགྲོ། །རོ་ལམ་དྲངས་ན་རོ་ཁུར་འཆི། །ལས་ཐབས་གང་ཡང་སྦྱོར་དུས་འཛེམ། །དམག་བྱས་བྱེད་མཁན་འཕུང་བར་འགྱུར།།
+
+#### The black sky dog of the hours — p. 198, img. 206
+
+At dusk it rises with the seventh sme ba remaining (?); corpses, brides,
+doors and «སྨྱུག» facing north: where these meet it is very bad and is
+avoided. Remedy as for the year and month.
+
+> ༈དུས་ཚོད་གནམ་ཁྱི་ནག་པོ་ནི། །སྲོད་དུས་སྨེ་བདུན་ལྷག་གིས་ཤར། །རོ་བག་སྒོར་སྨྱུག་ཁ་བྱང་བལྟས། །དེ་འཛོམ་ཤིན་ཏུ་ངན་པས་འཛེམ། །ཉམས་བཅོས་ལོ་ཟླ་བཞིན་དུ་བཅོས།།
+
+### Searched and not found
+
+- The wind-horse (*klung rta*) of each of the four triads and the tomb
+  (*dur*) of a wind-horse, needed for the courses of nos. 4, 9, 16 and the
+  nine black ones 2, 5, 8: the vol. 1 and vol. 2 etexts searched for
+  «ཀླུང་རྟ» beside the triads (2026-10-11) give only the tiger, horse and dog's
+  iron monkey (vol. 2, p. 479, img. 487, etext only). Not yet searched: vol. 1, ch. 20–21
+  read on the scan.
+- «ཉི་མའི་གླང» (no. 19's entry): not found in the etexts of either volume (2026-10-11), whose OCR of p. 186 garbles the line itself; BDRC's full-text search not tried.
+
+### Open
+
+- Question: The courses turn "left" or "right" (*g.yon skor*, *g.yas
+  skor*), yet each is fixed by the year animal. Does the turning say only
+  which way the place moves from year to year, or something more (a
+  lord whose place does not follow the year animal's order, as the sky
+  dog's head and tail)?
+- Question: The entry day counts from «ཉི་ལྡོག», the turning of the sun; p. 192
+  names the winter solstice for the sme ba gods. Do all the year's earth
+  lords change place at the winter solstice, rather than at Losar, the new
+  year (ལོ་གསར, lo gsar)?
+- Question: Langging the red of war (no. 19) enters «ཉི་མའི་གླང་དང་ལྷན་ཅིག», "with the
+  sun's ox": is that the solstice (the sun in the ox month, the 11th Hor
+  month), or another day?
+- Question: The hal khyi (no. 16) "on the wind-horse of the previous
+  year", with five mothers and five sons moving two by two over a hundred
+  and ten days: does each pair hold the place for twenty-two days in turn,
+  and where do the mothers and sons sit?
+- Question: The sky dog "is *khen*, on 18, 26 and so on" (male) and "*zon*"
+  (female): are these the bride's age-trigrams (*spar kha*, ch. 24's
+  progressed trigram), so that a bride whose year falls on *khen* or *zon*
+  is held, and what are the "and so on" ages?
+- Question: The sky dog of the hours rises «སྨེ་བདུན་ལྷག་གིས»: what is counted?
+- Question: The palace gods' heading «ལས་ལ་ཟློད་པ» (read so on the scan): what
+  does ཟློད་པ mean here?
+- Question: The black year (p. 189): does WB mean the two-black in the
+  centre of the year's sme ba wheel, as the front matter draws it, and is
+  the lesser black year three-blue in the centre?
 
 
 ## WB's earth lords of the month (RD4)
