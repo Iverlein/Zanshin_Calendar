@@ -22,6 +22,9 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    // SourcesTest reads the knowledge pool and the roadmap from outside the module.
+    inputs.files(rootProject.fileTree("docs/sources") { exclude("wb/**") })
+    inputs.file(rootProject.file("docs/ROADMAP.md"))
     testLogging {
         events("failed")
         exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
