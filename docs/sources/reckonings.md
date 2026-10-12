@@ -273,6 +273,9 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 
 #### Ch. 26, the thirty Chinese and Tibetan starting points (vol. 1, pp. 453–473, img. 463–483) — RD17
 
+Read in full in [The other reckonings (RD17)](#the-other-reckonings-rd17)
+below, with the notes' sections 7 and 8.
+
 - **What it reckons.** Fifteen Chinese and fifteen Tibetan starting points
   (སྐོར་འགོ, skor 'go), each a pair of year animals in an element relation
   to the person's own (p. 453, Yigdzin-1 and the etext): the Chinese from
@@ -294,6 +297,9 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 - **Calculable** from the person's year and age; the role is asked.
 
 #### Ch. 27, the thirteen circles, and small reckonings (vol. 2, pp. 3–25, img. 11–33) — RD17
+
+Read in full in [The other reckonings (RD17)](#the-other-reckonings-rd17)
+below, with the notes' sections 7 and 8.
 
 - **What it reckons.** Thirteen circles (དཔྱད་ལྡིང, dpyad lding; བལ་མོའི་
   ལྡིང, bal mo'i lding) for kinds of people (p. 3, read on the scan, and the
@@ -317,6 +323,9 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 - **Calculable** from the person's year and age; the role is asked.
 
 #### Ch. 28, various small signs (vol. 2, pp. 26–43, img. 34–51) — RD17
+
+Read in full in [The other reckonings (RD17)](#the-other-reckonings-rd17)
+below, with the notes' sections 7 and 8.
 
 - **What it reckons.** Omens, read from what is seen (p. 26, read on the
   scan, and the etext): the year's fortune from where the moon and the
@@ -374,6 +383,9 @@ below; the sizes there are read on the scan.
   household's dates; the rest needs facts asked.
 
 #### Ch. 30, the reckoning of the moment, small examinations of the ground and of pebbles (vol. 2, pp. 144–173, img. 152–181) — RD17
+
+Read in full in [The other reckonings (RD17)](#the-other-reckonings-rd17)
+below, with the notes' sections 7 and 8.
 
 - **What it reckons.** An answer from the moment of asking (དུས་ཚོད་རྩིས,
   dus tshod rtsis). First the dreams (p. 144, read on the scan) and the
@@ -1179,3 +1191,660 @@ the *bsgrub* grave, the grave's account and «ར་བསེ».
 - **A single verdict or score of the whole reckoning** (pp. 44–51, the
   etext of pp. 51–143 and of the notes pp. 499–522, 2026-10-12): none;
   each examination gives its own readings and rites.
+
+## The other reckonings (RD17)
+
+Read on 2026-10-12 for ROADMAP R2… (block 31): the thirty starting
+points (ch. 26), the thirteen circles and the small reckonings (ch. 27),
+the small signs (ch. 28) and the reckoning of the moment (ch. 30), with
+the notes' sections 7 and 8. For each chapter: its size, what it asks
+and of whom, whether it is calculable from dates, asked or observed,
+what it gives, and its readings. WB vol. 1, I1KG12906 (printed page =
+image − 10, checked on img. 463, p. 453, and img. 482, p. 472); vol. 2,
+I1KG12907 (page = image − 8, checked on img. 11, 34, 51, 152, 181, 540,
+549: pp. 3, 26, 43, 144, 173, 532, 541). Yigdzin-1 over every page (vol. 1 img. 463–482;
+vol. 2 img. 11–51, 152–181, 540–549), MITRA as witness over the pages
+quoted (vol. 1 img. 463, 464, 482; vol. 2 img. 11, 34, 152, 164, 170,
+540, 543), each flag on a quoted line read against the scan; the
+passages marked so read line by line on the scan at 3–6×, the rest
+outlined from Yigdzin-1 and BDRC's etext and marked so. agy was not
+used. The Zhol print (WBZ, I1KG1710) was read for one line (img. 662).
+
+### Ch. 26, the thirty Chinese and Tibetan starting points (vol. 1, pp. 453–472, img. 463–482)
+
+The chapter is the root pebbles (རྡེལ་རྩ, rdel rtsa) of the thirty
+starting points (སྐོར་འགོ, skor 'go) with their commentary; it ends on
+p. 472 (img. 482), and p. 473 (img. 483) is the volume's imprint page.
+Yigdzin-1 over all of it; pp. 453–454 (img. 463–464) and the colophon
+(p. 472) read on the scan at 3–5×.
+
+**The size and the thirty** (p. 453, img. 463, read on the scan):
+
+> །རྒྱ་བོད་སྐོར་འགོ་སུམ་ཅུ་ཡི། །སྐོར་འགོ་རྡེལ་བོར་འབེབས་པའི་ཚུལ། །སྔོན་ཆད་ཤུགས་ཀྱིས་བསྟན་ནའང་། །ཞིབ་ཆ་མེད་པས་རྟོགས་དཀའ་བས། །ཡི་གེ་མང་ཡང་རྡེལ་གྱི་གྲངས། །ཁ་ཅིག་གཞན་ལྟར་སྤྲོས་ཆེ་ན། །སུམ་སྟོང་བརྒྱ་དང་ལྔ་བཅུ་རུ། །འབྱོར་ཀྱང་སྤྲོས་དོར་སྙིང་པོ་ནི། །རྩ་རྡེལ་ཉིས་བརྒྱ་བཞི་བཅུ་དང་། །ཁྱུང་གི་ཞལ་ཤེས་མན་ངག་གི། །རྡེའུ་སུམ་བརྒྱ་དགུ་བཅུ་ཐམ། །བསྡོམས་པས་དྲུག་བརྒྱ་སུམ་ཅུ་རུ། །མ་ནོར་གཏན་ཕབ་དེ་ཡང་ནི།།
+> རྒྱ་ཡི་སྐོར་འགོ་བཅོ་ལྔ་ལ། །དང་པོ་བརྩི་བྱའི་ཁམས་མཐུན་པའི། །བྱི་གླང་གཉིས་ནས་སྦུབ་བཀེན་འདྲེན། །གཉིས་པ་བརྩི་བྱའི་བུ་མཐུན་པའི། །སྟག་ཡོས་ནས་ནི་གོང་བཞིན་དུ། །གསུམ་པ་བརྩི་བྱའི་གྲོགས་ཁམས་ཀྱི། །འབྲུག་སྦྲུལ་ནས་ནི་དེ་བཞིན་བརྩི། །བཞི་པ་དགྲ་ཁམས་རྟ་ལུག་དང་། །ལྔ་པ་མ་ཁམས་བྱ་སྤྲེལ་གཉིས། །དྲུག་པ་མཐུན་པའི་ཁྱི་ཕག་ཟུང་། །བདུན་པ་བུ་ཡི་བྱི་གླང་གཉིས། །བརྒྱད་པ་གྲོགས་ཁམས་སྟག་ཡོས་དང་། །དགུ་པ་དགྲ་ཁམས་འབྲུག་སྦྲུལ་གཉིས། །བཅུ་པ་མ་ཁམས་རྟ་ལུག་གཉིས། །བཅུ་གཅིག་རང་མཐུན་བྱ་སྤྲེལ་གཉིས། །བཅུ་གཉིས་བུ་ཁམས་ཁྱི་ཕག་གཉིས། །བཅུ་གསུམ་གྲོགས་ཁམས་བྱི་གླང་གཉིས། །བཅུ་བཞི་དགྲ་ཁམས་སྟག་ཡོས་གཉིས། །བཅོ་ལྔ་མ་ཁམས་འབྲུག་སྦྲུལ་གཉིས།།
+> བོད་ཀྱི་སྐོར་འགོ་བཅོ་ལྔ་ནི། །དང་པོ་རང་མཐུན་རྟ་ལུག་དང་། །གཉིས་པ་བུ་ཡི་བྱ་སྤྲེལ་སྟེ། །གསུམ་པ་གྲོགས་ཀྱི་ཁྱི་དང་ཕག །བཞི་པ་དགྲ་ཡི་བྱི་གླང་གཉིས། །ལྔ་པ་མ་ཡི་སྟག་ཡོས་གཉིས། །དྲུག་པ་རང་མཐུན་འབྲུག་སྦྲུལ་གཉིས། །བདུན་པ་བུ་ཡི་རྟ་ལུག་གཉིས། །བརྒྱད་པ་གྲོགས་ཀྱི་བྱ་སྤྲེལ་གཉིས། །དགུ་པ་དགྲ་ཡི་ཁྱི་ཕག་གཉིས། །བཅུ་པ་མ་ཡི་བྱི་གླང་གཉིས། །བཅུ་གཅིག་རང་མཐུན་སྟག་ཡོས་གཉིས། །བཅུ་གཉིས་བུ་ཡི་འབྲུག་སྦྲུལ་གཉིས། །བཅུ་གསུམ་གྲོགས་ཀྱི་རྟ་ལུག་གཉིས། །བཅུ་བཞི་དགྲ་ཡི་བྱ་སྤྲེལ་གཉིས། །བཅོ་ལྔ་མ་ཡི་ཁྱི་ཕག་གཉིས། །དེ་ནས་བརྩི་བྱ་ཕོ་ལོ་ཕོའི། །ལོ་ནས་ཐུར་དུ་སྦུབ་བྱ་ཞིང་། །མོ་ལོ་མོ་ནས་གྱེན་བགྲངས་པའི། །གར་བབས་ལོག་མེན་ལྟ་བུ་སྟེ། །དེ་ཡིས་ཡར་བཞིའི་སྲོག་དང་འཐབ། །མར་བཞིའི་ལུས་དང་ཡར་བཅུ་གཅིག །དབང་ཐང་མར་གྱི་བཅུ་གཅིག་ས། །ཀླུང་རྟའི་འཐབ་དགྲ་གཞན་ཡང་ནི། །ཡར་བདུན་སྲོག་དང་མར་བདུན་ལུས། །བརྩི་བྱའི་སོ་སོས་འཐབ་པ་དང་། །ལོག་མེན་དེ་དང་དབང་ཐང་དང་། །ཀླུང་རྟ
+
+And p. 454 (img. 464, read on the scan):
+
+> འཐབས་པའི་རྡེལ་བརྒྱད་དེ། །ཁ་དོག་མ་གྲོགས་ས་ཆུ་གཉིས། །ནང་ཕྲད་དཀར་དང་བུ་དགྲ་དང་། །ཤིང་ལྕགས་མེ་གསུམ་ནང་ཕྲད་ནག །དེ་ལྟར་རྡེལ་གྲངས་ཉིས་བརྒྱ་དང་། །བཞི་བཅུ་རྩ་གཅིག་གཏན་འབེབས་ཡིན། །
+
+The way the pebbles of the thirty Chinese and Tibetan starting points
+are laid was shown before only by implication, without detail, and is
+hard to grasp. Expanded as others do, the pebbles come to 3,150; WB
+keeps 240 root pebbles and 390 pebbles of the oral instruction of Khyung
+(ཁྱུང, khyung), 630. The fifteen Chinese starting points, each a pair of
+year animals of an element related to the element of the one reckoned:
+(1) the rat and ox of the same element, from which one counts down or up
+(«སྦུབ་བཀེན», sbub bken, face down and face up: counted backward or
+forward; so also the notes, p. 532, and the etext; Yigdzin-1 misread it); (2) the tiger and hare of the son element; (3) the dragon and
+snake of the friend element; (4) the horse and sheep of the enemy
+element; (5) the bird and monkey of the mother element; (6) the dog and
+pig of the same; (7) the rat and ox of the son; (8) the tiger and hare of
+the friend; (9) the dragon and snake of the enemy; (10) the horse and
+sheep of the mother; (11) the bird and monkey of one's own; (12) the dog
+and pig of the son; (13) the rat and ox of the friend; (14) the tiger and
+hare of the enemy; (15) the dragon and snake of the mother. The fifteen
+Tibetan: (1) the horse and sheep of one's own element; (2) the bird and
+monkey of the son; (3) the dog and pig of the friend; (4) the rat and ox
+of the enemy; (5) the tiger and hare of the mother; (6) the dragon and
+snake of one's own; (7) horse and sheep, son; (8) bird and monkey,
+friend; (9) dog and pig, enemy; (10) rat and ox, mother; (11) tiger and
+hare, own; (12) dragon and snake, son; (13) horse and sheep, friend;
+(14) bird and monkey, enemy; (15) dog and pig, mother.
+
+Then: for one reckoned whose year is male, count down from the male year
+of the pair; for a female year, up from the female; the year reached is
+like the progressed year (ལོག་མེན, log men). That year fights the life
+force (སྲོག, srog) of the fourth upward, the body (ལུས, lus) of the fourth
+downward, the power (དབང་ཐང, dbang thang) of the eleventh upward, and
+the eleventh downward is the place of the enemy of luck (ཀླུང་རྟ, klung
+rta); further the seventh upward the life force and the seventh downward
+the body, each fought by the reckoned person's own; and the progressed
+year with the power and luck: eight fighting pebbles. Colour: mother,
+friend, and earth and water meeting their own element white; son, enemy,
+and wood, iron and fire meeting their own black. So the pebbles are
+fixed at 241. (On p. 454 the son is black; ch. 25's rule, p. 417, lays
+a white and a black for the son.)
+
+The notes read the count so (p. 532, img. 540, read on the scan):
+
+> དང་པོ་ནི་རྒྱལ་པོ་སོགས་ཀྱི་རྩིས་མགོ་རྣམས་གང་ལ་བརྩི་ཡུལ་དེའི་ལོ་རྟ་དང་ཁམས་མཐུན་པའི་བྱི་གླང་སོགས་ནས་བསྐོར་བ་སྟེ། དེ་ཡང་བརྩི་བྱ་ཕོ་ལོ་ཡིན་ན། བྱི་བ་སོགས་ཕོ་ལོ་ནས་བརྩི་ལོ་གྲངས་དུ་ཡིན་པར་སྦུབ། མོ་ལོ་ཡིན་ན་བཀེན་ནས། དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ་པ་སོགས་གཞུང་བཞིན་བརྟག
+
+The first (the thirty), the starting points of the king and the others,
+are turned from the rat and ox and the rest that agree with the element
+of the year-horse (ལོ་རྟ, lo rta) of whoever is reckoned: if the one
+reckoned is of a male year, count down from the male year, the rat or
+another, as many as the years of the one reckoned; if of a female year,
+count up; and the life force of the fourth upward from there is fought
+by the life force of the one reckoned, and so on, as the text says. The
+next page (p. 533, img. 541, Yigdzin-1 and the etext) adds that the
+direction goes by the sex of the year, "not by whether the person is a
+man or a woman", and that some elsewhere do not progress the year this
+way but go on into the reckoning of karma (ལས་རྩིས, las rtsis).
+
+**Whose dates, and what kind.** The birth year of the one reckoned (its
+element, animal and sex) and the count of years lived: every starting
+point and every pebble follows from them, so the chapter is
+**calculable**. What is asked is the person's role, which picks the
+point that is read (below); for some points the role names whose year is
+reckoned (the notes, p. 532, read on the scan: «བཅུ་པ་འབངས་བརྟེན་ན་དཔོན་གཙོ་བོ་འདྲི་བྱེད་དེའི་ལོ་རྟ། བཅུ་གཅིག་པ་རྟ་བདག་གི་ལོ་རྟ་སོགས་དང་། བུ་བག་ནི་བུ་དང་བག་མའི་ལོ་རྟ། དེ་བཞིན་ཁང་བདག་དང་། ཟངས་ཐེར་…»: for the tenth, if
+it concerns subjects, the year of the lord who asks; for the eleventh,
+the horse owner's year; for the son and bride, the son's and the bride's;
+likewise the house owner and the copper vessel). Nothing is observed.
+
+**What it gives: the thirty readings, eight checks each.** The
+commentary (pp. 454–472) takes the thirty starting points in order, each
+"from the mouth of" (ཁ་ནས, kha nas) an emblem and for one kind of person or
+matter, with eight checks («རྩིས་འགོ་རྣམ་པ་བརྒྱད»): 30 × 8 = 240, the root
+pebbles. Each check is a pebble, white or black, with a reading for each
+and, for black, a remedy rite (གཏོ, gto). The thirty, by their headings
+(Yigdzin-1; the first read on the scan):
+
+| No. | Emblem | For | Page (img.) |
+| --- | --- | --- | --- |
+| 1 | the garuḍa (བྱ་ཁྱུང་ག་རུ་ཌ, bya khyung ga ru Da) | lords, rulers and kings | 454 (464) |
+| 2 | the white snow lioness | spiritual friends (དགེ་བཤེས, dge bshes) | 454 (464) |
+| 3 | the poisonous snake of existence | mantra-holders, vajra-holders | 455 (465) |
+| 4 | the turquoise dragon | the reckoning of the Bon priests (གཤེན་རྒྱལ་བོན, gshen rgyal bon) | 456 (466) |
+| 5 | the elephant of the earth | the chief elders (ཕ་རྒན་གཙོ་བོ, pha rgan gtso bo) | 456 (466) |
+| 6 | the striped Chinese tiger | young men (སྐྱེས་དར, skyes dar) | 457 (467) |
+| 7 | the red copper ogress | wives (ཟ་མ, za ma) | 458 (468) |
+| 8 | the five-pointed golden vajra | small children | 458 (468) |
+| 9 | the ape | girls of low standing | 459 (469) |
+| 10 | the palace of nine continents | subjects, retinue, servants | 459 (469) |
+| 11 | the precious supreme horse | horses, eight horse reckonings | 460 (470) |
+| 12 | the young wild yak of the north, the blue goat | wealth, livestock, goats and sheep | 460 (470) |
+| 13 | the golden vase | husband and wife together (བཟའ་མི་ཟུང, bza' mi zung) | 461 (471) |
+| 14 | the Chinese peacock with crossed necks | the bride's going | 462 (472) |
+| 15 | the temple roof's garuḍa head | house and household | 462 (472) |
+| 16 | the eight golden continents, the ground | merit and the means of work: the ground, the trees, the castle's site | 463 (473) |
+| 17 | the blazing jewel | armour and the copper vessel (གོ་ཁྲབ་ཟངས་ཐེར, go khrab zangs ther) | 463 (473) |
+| 18 | the tree in full leaf | the la-tree (བླ་ཤིང, bla shing), or a child's lot | 464 (474) |
+| 19 | the divine owl (ལྷ་བྱ་གོང་མོ, lha bya gong mo) | which god helps | 465 (475) |
+| 20 | the black grave bird | which harming demon | 465 (475) |
+| 21 | the great deer | the old, the reckoning of the aged (བཀྲ, bkra) | 466 (476) |
+| 22 | the sick lying askew | the sick | 466 (476) |
+| 23 | the red corpse | the dead (first, the death's eye on the living) | 467 (477) |
+| 24 | the pale wooden box | the deciding pebbles for burning or *bsgrub* (བསྲེག་སྒྲུབ, bsreg sgrub) of the remains | 468 (478) |
+| 25 | the nine stacked skulls | the grave site good or bad | 468 (478) |
+| 26 | the three-headed earth lord | white, black and mixed remedy rites | 468 (478) |
+| 27 | the golden crossed vajra | men, at the place of the life force | 469 (479) |
+| 28 | the eight-spoked wheel | small children, at the place of the body | 469 (479) |
+| 29 | the coiled swastika (གཡུང་དྲུང, g.yung drung) | women, at the place of the power | 470 (480) |
+| 30 | the eight-petalled lotus | great men, the skilled, craftsmen, at the place of luck | 470 (480) |
+
+The first, as an example (p. 454, img. 464, read on the scan):
+
+> དེ་ཡི་འགྲེལ་པའི་འབྲས་བུ་ནི། །དང་པོ་བྱ་ཁྱུང་ག་རུ་ཌའི། །སྟེང་ནས་རྗེ་དཔོན་རྒྱལ་པོ་ཡི། །རྩིས་འགོ་རྣམ་པ་བརྒྱད་མཆིས་ཏེ། །དང་པོ་དགུང་སྔོན་རལ་མ་རལ། །གཉིས་པ་ལ་ཐོད་ས་སྟེང་ལ། །ལྷུང་དང་མ་ལྷུང་བརྩི་བ་དང་། །གསུམ་པ་ཕོ་བྲང་གདན་ས་ཉིད། །སྟོངས་སམ་མ་སྟོངས་བརྟག་པ་དང་། །བཞི་པ་ཡུལ་མི་ཁ་མང་གིས། །སྟོང་གླེང་བྱས་སམ་མ་བྱས་དང་། །ལྔ་པ་འབངས་ཀྱིས་རྗེ་དཔོན་ལ། །སྐྱ་འདུས་བྱུང་ངམ་མ་བྱུང་བརྟག །དྲུག་པ་རྐང་རྡེལ་ནམ་མཁའ་ལ། །ཤོར་རམ་མ་ཤོར་བརྩི་བ་དང་། །བདུན་པ་སྟག་གཟིག་གྲ་སྤུ་རྣམས། །ཡལ་ལམ་མ་ཡལ་དཔྱད་པ་དང་། །བརྒྱད་པ་བཞུགས་གདན་གྲུམ་ཙེ་དེ། །སྟོངས་སམ་མ་སྟོངས་བརྟག་པ་བརྒྱད། །ལེགས་པར་གཏན་ཕབ་བརྩི་བ་ནི། །གཅིག་པའི་ས་རུ་དཀར་བ་ན། །ཕ་མེས་བརྒྱད་པར་བཟང་བ་ཡིན། །ནག་གྱུར་དགུང་སྔོན་མཐོངས་ནས་རལ། །ཕ་མེས་ས་རུ་དར་གུད་ཆེ། །གཉིས་དཀར་ཕ་མེས་ས་རུ་བཟང་། །ལ་ཐོད་གསོལ་ཞིང་ལྷ་སྲུང་འགོ། །བསམ་འགྲུབ་བར་ཆོད་མེད་དེ་བཟང་། །ནག་ན་རྒྱལ་པོའི་དབུ་ཐོད་ནི། །སར་ལྷུངས་ཕ་མེས་གྲིར་འཆི་ངན། །ཕ་དང་ཁུ་བོར་ངན་པ་ཡིན། །གསུམ་དཀར་ནད་མེད་དགྲ་དང་བྲལ། །ནག་ན་ཕོ་བྲང་གདན་སྟོངས་སོ། །རང་ཡུལ་འཕོ་འཕྱུགས་འོང་ཉེན་ཆེ། །…། །བཞི་དཀར་མི་ཁ་སྟོང་གླེང་མེད། །ཇི་ལྟར་བསམ་པ་འགྲུབ་པས་བཟང་། །ནག་ན་མི་ཁ་ཁ་མཆུ་ལྡང་། །མི་ཁ་ཁྲོམ་མདོས་ཁྲོམ་བཟློག་བྱ། །ལྔ་དཀར་བྲན་འཁོལ་བཀའ་ཉན་ཅིང་། །སྐྱ་འདུས་མི་འབྱུང་གྲགས་ཐོབ་བཟང་། །ནག་ན་འབངས་ཀྱི་སྐྱ་འདུས་འབྱུང་། །བྲན་འཁོལ་མི་ཉན་དོན་མེད་དང་། །ཉེ་བ་རྣམས་ཀྱང་དགྲ་རུ་ལྡང་། །གཏོ་རུ་ཀླུང་རྟའི་ཤིང་འཛུགས་དང་། །སྲོག་མཁར་སྲོག་གླུད་གཏོང་བར་བྱ།
+
+The commentary's results: first, on the garuḍa, for lords and kings,
+eight checks: (1) whether the blue vault of the sky is torn; (2) whether
+the helmet has fallen to the ground; (3) whether the palace's seat is
+empty; (4) whether the many mouths of the country's people speak of
+emptiness; (5) whether the subjects rise against the lord; (6) whether
+the foot pebble is lost in the sky; (7) whether the tiger's and leopard's
+stripes and fur have faded; (8) whether the throne cushion is empty. For
+the first, white: good for eight generations of the forefathers; black:
+the sky is torn from its height, great rise and fall in the forefathers'
+place. Second, white: good in the forefathers' place, the helmet held,
+the protector gods lead, wishes fulfilled without obstacle; black: the
+king's helmet falls, the forefathers die by the blade, bad for the father
+and the uncles. Third, white: no illness, free of enemies; black: the
+palace seat empty, a great risk of leaving one's own country. Fourth,
+white: no talk of emptiness, wishes fulfilled; black: gossip and
+quarrels, remedy by the crowd *mdos* (ཁྲོམ་མདོས, khrom mdos) and turning back
+the crowd. Fifth, white: servants obey, no revolt, fame; black: revolt
+of the subjects, servants disobey, even the near rise as enemies; as
+remedy plant the luck tree and send the life-fort and life ransom. And
+so through the eighth. Every group of eight is read the same way: a
+place (the forefathers', the father's and uncles', one's own), white
+good, black bad with a rite.
+
+**The colophon** (p. 472, img. 482, read on the scan):
+
+> …རྒྱ་བོད་སྐོར་འགོ་སུམ་ཅུ་རྡེལ་རྩ་དང་འགྲེལ་པ་ཁ་འཐོར་བའི་ཤེས[?]་པ་དཀོན་ཞིང་ཧ་ལམ་བྱེད་པ་རྣམས་ཀྱང་རྡེལ་རྩ་ལ་ཞལ་ཤེས་མེད་གཤིས་སྐོར་འགོ་ཚུལ་བཞིན་མི་རྙེད་པ་མང་བར་ཁྱུང་གིས་མཛད་པའི་རྡེལ་རྩ་ཟུར་བ་དང་། འགྲེལ་པ་འཕྲུལ་གྱི་མིག་ཚགས་སོར་བཞག་ཁྱུང་གི་འགྲེལ་ཆུང་ནས་ཁ་བསྐང་། འགྲེལ་པ་གཞན་ལས་གཙང་སྟོན་ཉི་མ་འོད་ཟེར་གྱི་དེ་རྒྱས་པ་འདུག་པས་དེ་སོགས་གཞན་ནས་ལེགས་ཆ་བསྡུས་ཞལ་ཤེས་ཕྲན་བུས་ཀྱང་བརྒྱན་རང་རིག་གིས་དཔྱད་པར་འོས་པ་འགའ་ཡང་བགྱིས་པའི་ལེའུ་སྟེ་ཉེར་དྲུག་པའོ།།
+
+The root pebbles and commentary of the thirty starting points are
+scattered and rarely known, and even those roughly acquainted with them
+mostly cannot find the starting points properly for want of oral
+instruction on the root pebbles; so Khyung's root pebbles, written apart,
+and the commentary *The Magic Sieve* (འཕྲུལ་གྱི་མིག་ཚགས, 'phrul gyi mig
+tshags) are kept as they are and completed from Khyung's short
+commentary; among other commentaries that of Tsangtön Nyima Özer (གཙང་
+སྟོན་ཉི་མ་འོད་ཟེར, gtsang ston nyi ma 'od zer) is fuller, so the good
+parts of it and others are gathered, adorned with some oral instruction,
+and some points open to one's own judgement are added: chapter twenty-six.
+
+**In short.** A reckoning that needs only the birth year and the age: for
+each of the thirty starting points, the year reached by counting the
+years lived from the pair's male year downward (male year) or the female
+year upward (female year), and the eight pebbles of that year's fourth,
+seventh and eleventh places against the person's life force, body,
+power and luck; the person's role (or the matter asked: a horse, a
+house, a bride, the sick, the dead) chooses which of the thirty is read,
+and the role-bound points use the asker's year instead.
+
+### Ch. 27, the thirteen circles and the small reckonings (vol. 2, pp. 3–25, img. 11–33)
+
+Yigdzin-1 over all of it; p. 3 (img. 11), the size, the rule of colour
+and the first circle's count, read on the scan at 3×.
+
+**The size and the count** (p. 3, img. 11, read on the scan):
+
+> །དེ་ཡང་རྡེལ་གྲངས་སྤྲོས་ཆེ་ན། །ཉིས་སྟོང་དགུ་བརྒྱ་ཉི་ཤུ་ལ། །འབྱོར་ཀྱང་རྩ་བའི་རྡེལ་གྱི་གྲངས། །སུམ་བརྒྱ་དོན་གཅིག་མི་ནོར་བའི། །མཚན་རྡེལ་ལྔ་བརྒྱ་ཉག་གཅིག་སྟེ། །བསྡོམས་པས་བརྒྱད་བརྒྱ་དོན་གཉིས་བསྟན། །དང་པོ་དཔྱད་ལྡིང་བཅུ་གསུམ་མམ། །བལ་མོ་ལྡིང་སྐོར་དུ་གྲགས་པ། །འདི་ཡང་རྡེལ་བོར་མ་གྲོགས་དང་། །ས་ཆུ་ནང་ཕྲད་དཀར་པོ་སྟེ། །བུ་དགྲ་ཤིང་ལྕགས་མེ་གསུམ་པོ། །ནང་ཕྲད་ནག་པོ་དེ་ནང་ནས། །དགྲ་ཕྲད་བཅད་པས་གཉན་པ་དེ། །དང་པོ་བྱ་ཁྱུང་དཀར་པོ་ཡི། །ཁ་ནས་མི་རྗེ་རྒྱལ་པོ་ལ། །སྐོར་འགོ་ལྔ་བསྟན་དེ་ཡང་ནི། །བརྩི་བྱའི་ཁམས་ཀྱི་དགྲ་ཐོག་གི། །བྱ་ནས་གྱེན་བགྲངས་དེ་དང་ནི། །སྲོ་ལུས་དབང་ཀླུང་སྨེ་འཐབས་པའི། །རྩིས་འགོ་རྣམ་པ་ལྔ་བསྟན་ཏེ། །རྒྱལ་རབས་གདན་ས་སྟོངས་མ་སྟོངས། །སྟག་གཟིག་གྲ་འཛུམ་ཡལ་མ་ཡལ། །ཆབ་སྲིད་དར་མདུད་གྲོལ་མ་གྲོལ།
+
+Expanded, 2,920 pebbles; WB's root pebbles 301 and sign pebbles 501,
+802. First, the thirteen circles of examination (དཔྱད་ལྡིང, dpyad lding),
+known as the circles of Balmo (བལ་མོ་ལྡིང་སྐོར, bal mo lding skor). Here
+too the pebbles are laid: mother, friend, and earth and water meeting
+their own white; son, enemy, and wood, iron and fire meeting their own
+black; of these, meeting the enemy, which cuts, is the gravest. The
+first, from the mouth of the white garuḍa, for the lord of men, the
+king: five starting points; counting upward from the bird of the enemy
+of the reckoned person's element, five starting points where the life
+force (printed «སྲོ» for སྲོག), body, power, luck and mewa (སྨེ་བ, sme ba) fight:
+whether the dynasty's seat is empty; whether the tiger's and leopard's
+stripes and smile have faded; whether the silk knot of the rule is
+loosened; and (Yigdzin-1, the next lines) whether the palace is lost to
+others, whether the hat and felt have gone under the dust.
+
+So each circle has five pebbles, one for each of the reckoned person's
+life force, body, power, luck and mewa against those of the year
+reached; each pebble white or black with a reading and, for black, a
+rite (the first circle: life force black, the forefathers' grave spirits of the dead
+and a young man's (དར་སྲི, dar sri; སྲི, sri, the harmful spirits of the dead) have risen, press them down with
+the rites of five or three mantrins or Bon priests (བོན་པོ, bon po) of another clan, ransom
+the life; p. 3, Yigdzin-1). The notes (p. 533, img. 541, Yigdzin-1 and
+the etext): the circles are turned from the enemy of the reckoned
+person's element and the like, all counted upward by the years lived;
+where it lands, its life force, body, power, luck and mewa are fought by
+the person's five; the mewa is counted up from the start of the
+person's mewa sequence. The thirteen, by their headings (Yigdzin-1; the
+first on the scan):
+
+| No. | Emblem | For | Counted from (the person's element's …) | Page (img.) |
+| --- | --- | --- | --- | --- |
+| 1 | the white garuḍa | the lord of men, the king | enemy's bird | 3 (11) |
+| 2 | the white snow lioness | spiritual friends | enemy's hare | 4 (12) |
+| 3 | the yellow snake of existence | mantra-holders | friend's snake | 5 (13) |
+| 4 | the turquoise dragon | the Bon priests | mother's dragon | 6 (14) |
+| 5 | the steadfast elephant | ministers and officials (ཞང་བློན་གྲ་མ, zhang blon gra ma) | friend's ox | 7 (15) |
+| 6 | the striped iron tiger | young men | enemy's tiger | 7 (15) |
+| 7 | the red bird | women: noble ladies and officials' wives | mother's rat | 8 (16) |
+| 8 | the blazing jewel | children | enemy's tiger | 9 (17) |
+| 9 | the blue peacock | young women | mother's dog | 10 (18) |
+| 10 | the golden rat | servants and workers | mother's bird (with variants by the triad) | 10 (18) |
+| 11 | the yellow divine sheep | land, country, treasury | enemy's pig | 11 (19) |
+| 12 | the golden vase | gold, silver, copper, iron, turquoise: stored goods | friend's pig | 12 (20) |
+| 13 | the great wild yak | horses, sheep, livestock | mother's ox | 13 (21) |
+
+**The small reckonings** (pp. 13–25, img. 21–33; Yigdzin-1 and the
+etext, not read on the scan): a reckoning of the month for one who has
+gone abroad (p. 14); from the "sixty cavities" (ཁོག་པ་དྲུག་ཅུ, khog pa
+drug cu) a few elemental reckonings: the heart's secret (ཐུགས་ཀྱི་གབ་ཚེ,
+thugs kyi gab tshe), with the golden four legs and the eight turquoise
+beams, read from the trigrams the old man, the old woman, the son and
+the daughter of a household have fallen to (pp. 14–15); the bones'
+secret reckoning (རུས་པའི་གབ་རྩིས, rus pa'i gab rtsis), counted from the
+place of the moment of reckoning («མོ་འདེབས་དུས་ཚོད་ས་དེ་ནས། །ཡར་ལ་བཅུ་གསུམ་བགྲངས་པའི་སར།», p. 15) and set
+against the person's year; the flesh's secret reckoning (p. 16); a
+reckoning for a great spiritual friend (p. 17); the year of a child's
+birth by the element of the year and the sex (p. 17); the soldiers'
+banner and the young men's war reckoning, the weapons' starting points
+(p. 17); the linked letters (p. 19); the yellow light of *li* (p. 19);
+the peacock with crossed necks (p. 19); the rhinoceros year reckoning
+(p. 19); the head as the planets', the tail as the serpent spirits'
+reckoning and others (p. 20); the three garuḍas, the cow's hair and six
+patterns (p. 20); four-point reckonings for noble ladies, common women
+and children (pp. 24–25). The chapter closes (p. 25, img. 33, Yigdzin-1):
+«རྒྱལ་པོ་གཙོ་བོ་སྔགས་བཙུན་དང་། །ཡོན་ཏན་མཁན་ལ་ཀླུང་རྟ་གཅེས། །སྐྱེས་པ་སྲོག་ལ་བྱིས་པ་ལུས། །བུད་མེད་དབང་ཐང་གཅེས་པའོ། །དེ་སོགས་རྡེའུ་ཀུན་བསྡོམས་ན། །བདུན་ཅུ་དོན་ལྔ་ཡོད་པ་སྟེ། །ཀེག་རྩིས་རྡེའུ་དོན་ལྔར་བརྗོད།» For the king, the chief, mantrins and monks and
+the skilled, luck matters most; for men the life force, for children the
+body, for women the power. These pebbles in all are 75: called the
+obstacle reckoning of 75 pebbles. The colophon (p. 25, Yigdzin-1) names
+the sources: the thirteen Chinese circles set out the Phugpa way, with
+the good parts of other ways; "the reckoning of the la and the minister
+for one gone abroad" (བླ་བློན་རྩིས, bla blon rtsis) and the others from the
+sixty cavities each gathered into its own chapter; the scattered
+remainder, the reckoning of the meadow's ornament leaves (སྤང་རྒྱན་ལོ་མ, spang rgyan lo ma), Sprugtön's (སྤྲུག་སྟོན, sprug
+ston) obstacle reckoning of 75 pebbles, and the reckoning of Balkhyung
+(བལ་ཁྱུང་རྩིས, bal khyung rtsis) of husband and wife or companions.
+
+**Whose dates, and what kind.** The thirteen circles: the reckoned
+person's birth year (element, and the mewa sequence) and the years
+lived; the role chooses the circle; **calculable**. The small reckonings
+need, besides, the moment of reckoning (the bones' and the flesh's
+secret), the trigrams of the household's members (the heart's secret)
+and, for the month reckoning, the day of departure; calculable from
+those dates, none observed.
+
+### Ch. 28, various small signs (vol. 2, pp. 26–43, img. 34–51)
+
+Outlined from Yigdzin-1 and the etext; the count line read on the scan.
+
+**The size** (p. 26, img. 34, read on the scan, and in the Zhol print,
+WBZ img. 662, read on the scan):
+
+> །རྟགས་ཕྲན་སྣ་ཚོགས་འདིར་བརྗོད་པར། །རྡེལ་གྲངས་གཞན་ལྟར་སྤྲོས་ཆེ་ན། །ལྔ་སྟོང་བརྒྱད་བརྒྱ་ཉེར་ལྔ་ཙམ། །འབྱོར་ཀྱང་འབྲས་རྡེལ་བརྒྱ་ཉེར་གསུམ། །བརྩི་དུས་མི་ནོར་མཚན་མའི་རྡེལ། །སྟོང་དང་ཞེ་གཉིས་བཅས་པ་ཡི། །ཆིག་སྟོང་ཆིག་བརྒྱ་རེ་དྲུག་གིས།
+
+123 result pebbles and 1,042 sign pebbles, stated as 1,166 («ཆིག་སྟོང་ཆིག་བརྒྱ་རེ་དྲུག»);
+the parts make 1,165. WBZ (I1KG1710 img. 662, the folio's first line,
+read on the scan at 3.5×) prints «སྟོང་དང་ཞེ་གཉིས» and «ཆིག་སྟོང་ཆིག་བརྒྱ་རེ་དྲུག» the same: the
+sum is the blocks', not a slip of the 1996 typesetting.
+
+**What it holds** (by Yigdzin-1 and the etext): the year's fortune from
+where the moon stands on the finger joints at dawn on set days of the
+spring months (p. 26); the six full moons (pp. 27–28); the winter
+solstice and the month after it, the days counted from the summer and
+winter solstices, the eleventh month's first day (pp. 28–29); rain on
+the eighth of the summer and autumn months, the first of the first
+spring month, the seventh of the first summer month (p. 30); winds,
+clouds and the moon's standing (pp. 31–32); sneezes, and the sound of
+feet, dogs, crows, a burnt garment, a mouse's gnawing and the twitching
+of the eye, ear, throat and leg, each read by the link of the day
+(«ལེན་པའི་ཉི་མ», «སྲིད་ཉི», «སྐྱེ་ཉི», «རྒ་ཤིའི་ཉི་མ», pp. 34–37); a great
+sign of the line (སྐྱ་ཐིག་ཆེན་པོ, skya thig chen po) when planet, mansion,
+month, day and hour agree (p. 37); then the twelve links set on the
+times of the day, each with its reading for works and the sick (pp.
+37–38, Yigdzin-1, not read on the scan):
+
+> མ་རིག་རྒན་མོ་ལོང་བ་འདྲ། །ཉི་མ་རི་མཐོའི་རྩེར་ཤར་དུས། … །འདུ་བྱེད་རྫ་མཁན་འདྲ་བ་སྟེ། །ཉི་མ་རི་ཀླུང་ཤར་བ་ཡི། … །རྣམ་ཤེས་ཁང་སྟོང་སྤྲེའུ་འདྲ། །ཉི་མ་འབལ་དྲོས་དུས་ལ་དབང་། … །མིང་དང་གཟུགས་ནི་གྲུ་རྫིངས་འདྲ། །ཉི་མ་དྲོས་ཆེན་མིང་གཟུགས་སྐབས། … །སྐྱེ་མཆེད་དྲུག་ནི་མཁར་དང་འདྲ། །ཕྱེད་དྲོས་སྐྱེ་མཆེད་དྲུག་གི་དུས། … །རེག་པ་ཕོ་མོ་འོ་བྱེད་འདྲ། །དུས་ནི་སྔ་ཆེན་དུས་སུ་ཡང་། … །ཚོར་བ་མིག་ལ་མདའ་ཕོག་འདྲ། །དུས་ནི་ཉི་མ་ཕྱེད་ཀྱི་དུས། … །སྲེད་པ་ཆང་འཐུང་དག་དང་འདྲ། །ཉི་མ་ཕྱེད་ཡོལ་སྲེད་པའི་དུས། … །ལེན་པ་ཤིང་ཏོག་སྙབ་པ་འདྲ། །གྲིབ་ཆུང་རྒོད་དུས་ལེན་པའི་དུས། … །སྲིད་པ་ཕོ་མོ་འདོད་སྤྱོད་འདྲ། །གྲིབ་ཆེན་ཐང་ཕེབས་སྲིད་པའི་དུས། … །སྐྱེ་བ་བུ་ཆུང་བཙའ་བ་འདྲ། །ཉི་མ་མདུང་གང་སྐྱེ་བའི་དུས། … །རྒ་ཤི་རྒན་མོ་འཁར་ཐོགས་འདྲ། །ཉི་མ་དམར་ཐག་རི་ཐང་མཚམས། །སྒྲོལ་ལ་ཐོན་ཚེ་རྒ་ཤིའི་དུས།
+
+Ignorance, like a blind old woman, when the sun rises on the high peak;
+formation, like a potter, when the sun lights the valleys; consciousness,
+like a monkey in an empty house, when the sun first warms; name and form,
+like a boat, at the great warmth; the six sense fields, like a castle,
+at half-warmth; contact, like a couple kissing, in the great morning;
+feeling, like an arrow in the eye, at noon; craving, like drinking beer,
+as noon passes; grasping, like plucking fruit, when the shadows are
+small and lengthening; becoming, like a couple's lovemaking, when the
+great shadow reaches the plain; birth, like a child's birth, when the
+sun is a spear's length high; aging and death, like an old woman with a
+stick, at the red line between mountain and plain, as dusk comes. This
+is a daytime setting (ignorance at sunrise), not the one of vol. 2,
+p. 356, where ignorance is at midnight (question 19); birth's "a spear's
+length" stands out of order and is a doubt below. Then "the twelve
+guards of the black small feet" (རྐང་ཕྲན་ནག་པ, rkang phran nag pa, pp.
+38–39): a year animal, a season's month, an hour and its link each,
+with the work and the direction to avoid (rat year, middle spring
+month, dawn, ignorance: avoid business to the south and west; ox year,
+last spring month, sun on the peaks, aging and death: a woman's
+business; …); the twelve links' results (pp. 39–43, by the etext); a
+mantra to turn a bad sign (p. 41). The colophon (p. 43, Yigdzin-1):
+for the wise the vowels' rising (དབྱངས་འཆར, dbyangs 'char), astronomy and the
+Chinese reckoning are far stronger, so these are of little need, but
+the slow take them as easy aids; the ways are past counting and hard to
+sort, so the chapter follows the practice held as measure by Mön'drowa
+Paṇchen (སྨོན་འགྲོ་པཎ་ཆེན, smon 'gro paN chen) and others.
+
+**Whose dates, and what kind.** None of a person. Mostly
+**observed**: the sky on given days, sneezes, twitches, the sounds of
+animals. **Calculable** within it: the days on which to look (the
+dates, the solstices, the full moons), and the two settings by the
+calendar and the clock: the twelve links on the times of the day, and
+the twelve "black small feet" by year, month, hour and link.
+
+### Ch. 30, the reckoning of the moment, small examinations of the ground and of pebbles (vol. 2, pp. 144–172, img. 152–180)
+
+The chapter ends on p. 172 (img. 180); p. 173 (img. 181) holds only a
+line of the colophon's close. Yigdzin-1 over all of it; read on the scan
+at 3×: the time of reckoning (p. 146, img. 154), the entry into the
+reckoning of the moment (p. 156, img. 164), the spans of the trigram and
+the mewa (p. 162, img. 170, where Yigdzin-1 garbled the lines beside the
+woodcut). The size line (p. 144) is RD11's, above. The marriage asked of
+the moment (p. 152, img. 160) is quoted in [marriage.md](marriage.md)
+(RD15, *The notes' section 6 and the marriage by the moment*).
+
+**What the chapter does, in order** (by Yigdzin-1 and the etext, page by
+page; the parts marked read on the scan):
+
+- *Before asking* (pp. 144–146): the dreams of the reckoner and the
+  asker, good and bad, the bad cleared by smoke and washing (p. 144);
+  the caller's arrival, what he carries and says, whom he meets on the
+  road, the colour of what he meets (pp. 144–146); the place to reckon
+  in (p. 146).
+- *The time of reckoning* (p. 146, img. 154, read on the scan):
+
+  > དེ་ཡང་བརྩི་བའི་དུས་ཚོད་ནི། །སྤྱིར་ན་ཟླ་བའི་ཡར་གྱི་ངོ་། །དེ་ཡང་སྔ་དྲོ་སྔ་རྟགས་དང་། །ཕྱི་དྲོ་ཕྱི་རྟགས་མ་འོངས་པ། །བར་དུ་ད་ལྟ་འཕྲལ་སྟོན་དང་། །རྩེ་ཤར་ཕྱེད་ཡོལ་དགོངས་སྐྱུར་དུས། །རྣོ་ཞིང་ཐིགས་པར་བཤད་ནའང་། །གཙུག་ལག་འདི་ལ་ཡར་ངོ་ཡི། །ཚེས་གྲངས་ཉ་སྟོང་བརྒྱད་དགུ་གསུམ། །བྱི་ཉི་མ་རིག་རྣམ་ཤེས་སྲིད། །ཚོར་བ་རྒ་ཤི་ཟིན་ཕུང་དང་། །མིག་དམར་བྲ་ཉེ་སྐག་སྣོན་དང་། །ས་ག་ཚེས་གཉན་ལ་སོགས་པའི། །ངན་པའི་རིགས་མེད་གཟའ་སྐར་འཇམ། །སྔ་དྲོ་དགེ་བའི་དུས་ཀྱི་ཆར། །འདྲི་བྱེད་དཔྱད་མཁན་རང་གཉིས་ལས། །གཞན་པའི་འགྲིམ་འགྲུལ་སྤྱི་དང་ནི། །ཁྱད་པར་ཡོ་ག་ཞྭ་གྱོན་དང་། །རྒྱབ་དང་སྒོ་ལ་འགྲུལ་སྤང་བྱ།
+
+  The time of reckoning is in general the waxing half of the month:
+  the morning for the early signs, the afternoon for the later ones
+  still to come, between them the present; sunrise on the peaks, noon's
+  passing and dusk are said to be sharp and to hit. In this science, of
+  the waxing half, the dates (avoid) full moon, new moon, the eighth,
+  ninth and third; the rat's day («བྱི་ཉི», read so), the days of the links
+  ignorance, consciousness, becoming, feeling, aging and death, and the
+  days named *zin phung* (ཟིན་ཕུང), red eye (མིག་དམར, mig dmar), *bra nye*
+  (བྲ་ཉེ), *skag* (སྐག), *snon* (སྣོན), *sa ga* (ས་ག) and *tshes gnyan*
+  (ཚེས་གཉན) and the like: (choose a day) with none of the bad kinds and with
+  gentle planets and mansions, in the morning, a virtuous time; and keep
+  everyone but the asker and the reckoner from walking about, above all
+  behind and at the door. These are almanac entries (the links,
+  [day-letters.md](day-letters.md); red eye, *sa ga*, *skag*,
+  [almanac-page.md](almanac-page.md)); the list chooses the day for the
+  reckoning, as for any work.
+- *The implements and their signs* (pp. 146–150): the seat, the grain,
+  the arrow with its five silks set upright in the grain, the mirror,
+  butter, flour, incense; then what they show: the arrow's feathers,
+  shaft and silks, the taste of the first beer, the butter's shapes, the
+  flour, the smoke's colour and course, the voices heard (pp. 148–150).
+  Observed, as omens of the offering; an arrow's silks "blue, the nāgas
+  lead", "yellow, the earth lords" (p. 149).
+- *The invocation* (pp. 150–151): the reckoner "sharpens" (བདར, bdar) the
+  reckoning by calling on the lamas, the buddhas, Mañjuśrī, the
+  four-faced Brahmā, the goddesses of the elements in the four
+  directions, the gods of the eight trigrams and the nine mewa, the
+  planets and mansions, and "the year as king, the month as minister,
+  the day as soldier and the hour as weapon" (p. 151), to show the
+  moment's answer.
+- *What is asked of the moment* (pp. 152–155): the questions of every
+  reckoning, set as prayers ("show whether …"): the birth (p. 152), the
+  marriage (p. 152, in [marriage.md](marriage.md)), the thirteen circles
+  and the thirty for kings, monks, mantrins, Bon priests, ministers, ladies,
+  common women and children (pp. 153–155), the obstacles (p. 155), the
+  dead (p. 155: the fifteen examinations of ch. 29, from "how the life's
+  impulse ran out" to "the direction and day to send the corpse"),
+  building and the ground (pp. 155–156).
+- *The reckoning of the moment proper* (p. 156, img. 164, read on the
+  scan):
+
+  > །དུས་ཚོད་རྩིས་ལ་འཇུག་པ་ནི། །ནམ་ལངས་ཡོས་ནས་རིམ་བཞིན་དུ། །ཉིན་དྲུག་བུ་འདེད་ཁམས་སྦྱར་ལ། །གཞན་ཡང་སྤར་སྨེའི་དུས་ཚོད་ནི། །ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ[?]་ཡིས་བགོས། །རེ་ལ་སྤར་ཁ་ཚེས་དེ་ལ། །གང་ཤར་ནམ་ལངས་ལ་བཟུང་བའི། །དེ་ནས་རིམ་པར་བརྩི་བ་དང་། །ཡང་ནི་ཉིན་ཚད་དགུ་གས་བགོ། །ཐོབ་པ་དུས་དེར་སྨེ་བ་ནི། །ཚེས་ལ་གང་ཤར་ནམ་ལངས་བརྩི། །འདྲི་མི་ནམ་བྱུང་དུས་དེ་འམ། །སྐོར་འགོ་གང་ཡིན་བརྩི་བའི་དུས།
+
+  To enter the reckoning of the moment: from dawn, the hare, in order,
+  the six (periods) of the day, their elements set by the son
+  following (each the son of the one before); further, the time for
+  trigram and mewa: the day's length in water-hours (ཆུ་ཚོད, chu tshod)
+  divided by eight (the print «བརྒྱུ», read as བརྒྱད by the notes,
+  p. 535, below), each (part) the trigram that rises on that date, taken
+  from dawn and then counted in order; and again the day's length
+  divided in nine, the mewa of each part, counted from the one that
+  rises at dawn on that date. (The moment is) the time the asker came,
+  or the time at which the starting point is reckoned.
+
+  Then the readings by the hour of asking (pp. 156–157): at dawn, "for
+  you the god is the country god leading, the demon the *the'u rang*
+  (ཐེའུ་རང) and earth lords harming", the household, its quarrels and its
+  livestock; at sunrise (ཉི་ཤར, nyi shar) the *btsan* spirits (བཙན, btsan) lead; at the
+  warmth (ཉི་དྲོས, nyi dros) the lords of wealth; at noon the nāgas and
+  *btsan*; in the afternoon (ཉི་མྱུར, as Yigdzin-1 reads it) the nāgas of
+  the mountain spurs; at sunset (ཉི་ནུབ, nyi nub) the rock *btsan*; each
+  with the asker's house, kin, wealth, sick, grave and remedy.
+- *By the hour's element* (pp. 157–161): "at that time the element of
+  the hour's power" (དུས་ཚོད་དབང་ཐང་ཁམས, p. 157): for each of wood, fire,
+  earth, iron and water, what the asker's father and uncles are like,
+  the house's door, the dog and horse, the women, the food, the field
+  and the grave site, the demon and the rite.
+- *By the moment's trigram* (pp. 161–162, img. 169–170): for each of the eight
+  trigrams (ལི li, ཁོན khon, དྭ dwa, ཁེན khen, ཁམ kham, གིན gin, ཟིན zin,
+  ཟོན zon), the door's direction, the
+  horses and livestock, the women, the harm and its remedy. Then
+  (p. 162, img. 170, read on the scan):
+
+  > །སྤར་ཁ་དུས་རྩིས་འགྲེལ་བ་ཡིན། །སྤར་ཁ་ཉིན་བརྒྱད་མཚན་བརྒྱད་ཡོད། །དུས་ཚོད་དུམ་བུ་བཞིར་གསིལ་བའི། །བཞི་ཆ་གསུམ་ནི་སྤར་ཁ་རེའི། །རྒྱུ་བའི་ཡུན་དུ་རགས་པར་བཤད།། སྨེ་བའི་ཤ་རྩིས་བྱ་བ་ལ། །སྨེ་བ་ཉིན་དགུ་མཚན་དགུ་ཡིན། །དུས་ཚོད་དུམ་བུ་གསུམ་གསིལ་བའི། །སུམ་ཆ་གཉིས་ནི་སྨེ་རེའི་རྒྱུན། །སྨེ་བ་གསལ་བའི་མེ་ལོང་ལ། །སྨེ་བ་ཤེས་ལུགས་རྣམ་པ་ལྔ། ༧དང་པོ་མི་རུ་ཤེས་པ་ནི། །གཅིག་དཀར་ཡུལ་ཤོར་མགྲོན་པོ་ཡིན། །གཉིས་ནག་ཡུགས་ས་རབས་ཆད་ཡིན། །གསུམ་མཐིང་བུད་མེད་དར་མ་ཡིན། །བཞི་ལྗང་བརྗེ་ཀླུ་ནད་ཅན།
+
+  That is the trigram's reckoning of the moment explained. There are
+  eight trigrams by day and eight by night: an hour (of the twelve)
+  split in four, three quarters is roughly said to be each trigram's
+  span. For the mewa's flesh reckoning (ཤ་རྩིས, sha rtsis): nine mewa by
+  day and nine by night; an hour split in three, two thirds is each
+  mewa's run. In the mirror that makes the mewa clear, five ways to know
+  a mewa; first as persons: 1 white, one who has left his country, a
+  guest; 2 black, a widow, a line cut off; 3 blue, a young woman; 4
+  green, a sick Bon priest (བརྗེ, the print's spelling) or nāga person; and so
+  on (Yigdzin-1: 5 yellow a king's man, 6 white common folk, 7 red a
+  Bon priest, 8 white a lord's kin, 9 red single men and women); then the
+  mewa as wealth, as demons, as shapes and (by the etext) as places
+  (p. 162). The page's woodcut is the mewa square held by a figure.
+- *Small examinations of pebbles and of the ground* (pp. 163–172, by
+  Yigdzin-1 and the etext): "cutting off" (རྦད་ཆོད, rbad chod) by the
+  mewa (p. 163); the ground examined as above (p. 163); the house site
+  (p. 166); the hour's *byed yor* (བྱེད་ཡོར) against the reckoned person's life
+  force, body, power and luck, "the hour cuts the life force" and the
+  rest (pp. 166–167); the sick, wealth, the direction and the vessel by
+  the hour (pp. 168–170); numbered small reckonings by the moment, among
+  them the minister's mistaken order (2), the fire ox leading (3), the
+  sky (4), the swastika's five rounds (5), the hour's demon-cutting (7),
+  gods and demons trading (8), the thief leading the sheep (9) and the
+  peacock with crossed necks (10) (pp. 170–171); last, sixty-year pairs
+  counted down and up from the male and female year, "the fighting
+  enemies are reckoned taking the time of reckoning as the year of the
+  one reckoned; the life force, body, power and luck fight; count white
+  and black and give the verdict; ch. 27 has the like, but this is the
+  reckoning of the moment's own" (p. 172, Yigdzin-1).
+- *The colophon* (p. 172, Yigdzin-1 and the etext): this Chinese
+  reckoning shows good and bad without fail by each person's year and
+  element, not depending on how the work of the moment is reckoned;
+  though it seems of little need it is the practice of the authorities;
+  "this reckoning of the moment is most precious and strong and must be
+  reckoned for every starting point", so the essence of the rare Chinese
+  documents on the moment and of the learned traditions is gathered.
+
+**Whose dates, and what kind.** The **moment**: the date (for the
+trigram and mewa of the day), the hour of the twelve counted from dawn
+(the hare), with its element, and the day's length, from which the
+moment's trigram (an eighth of the day) and mewa (a ninth) follow: all
+**calculable** from the clock time and the calendar, given sunrise or
+dawn. The **asker's year** (element, animal, sex) for the fighting
+pebbles (p. 172; the notes, p. 537). **Observed**: the dreams, the
+caller's signs and words, the meetings on the road, the implements'
+signs, the voices, the asker's posture, the ground. **Asked**: what the
+question is about (which reckoning's questions are put).
+
+### The notes' sections 7 and 8 (vol. 2, pp. 532–541, img. 540–549)
+
+Yigdzin-1 over all of it; read on the scan: section 7's opening and the
+first part's count (p. 532, img. 540), the close of section 7 and the
+opening of section 8 with the moment's trigram and mewa (p. 535,
+img. 543), the hand reckoning (p. 538, img. 546).
+
+**Section 7, the general reckoning, and its fourth part** (p. 532,
+img. 540, read on the scan):
+
+> སྐབས་བདུན་པ་སྤྱི་རྩིས་ལ། རྒྱ་བོད་སྐོར་མགོ་སུམ་ཅུ། བལ་མོ་ལྡིང་སྐོར། ས་བདག་གི་སྐོར། འབྲས་རྩིས་སྐོར་སྟེ་བཞི་ལས།
+
+Section seven, the general reckoning (སྤྱི་རྩིས, spyi rtsis): of its four,
+the thirty Chinese and Tibetan starting points, the circles of Balmo,
+the earth lords, and the reckoning of results (འབྲས་རྩིས, 'bras rtsis).
+So the fourth part, lost in the etext, is the reckoning of results. Its
+close (p. 535, img. 543, read on the scan):
+
+> བཞི་པ་འབྲས་རྩིས་ནི་ལེའུ་སོ་གསུམ་པ་དང་སོ་བཞི་པ་བཞིན་དུ། ཚེས[?]་གཟའ[?]་སྐར་མ་བྱེད་སྦྱོར་འཕྲོད་ཆེ་ཆུང་དུས་སྦྱོར་ལ་སོགས་པ་ཕྱི་ཡི་བཟང་ངན་དང་། ཁྱད་པར་ལས་སོ་སོ་ལ་བཟང་ངན་དམིགས་སུ་བསལ་བའི་རྩིས་རིགས་རྣམས་ཚུལ་བཞིན་ཁོང་དུ་ཆུད་པར་བྱ་བ་ནི་ཤིན་ཏུ་གལ་ཆེའོ། །སྤྱི་རྩིས་ཀྱི་སྐབས་སོ།།
+
+The fourth, the reckoning of results, is as ch. 33 and ch. 34: the
+general good and bad of the dates, planets, mansions, karaṇas and
+yogas, the great and small combinations, the combination period
+(དུས་སྦྱོར, dus sbyor) and the rest, and in particular the kinds of
+reckoning that single out good and bad for each work: to understand
+these properly is most important. (The first two syllables are
+damaged on the scan; the etext and Yigdzin-1 read them «ཚེས་གཟའ».) This
+answers question 25: the fourth part is the day's results, the
+almanac's own matter (ch. 33–34,
+[white-beryl-ch33.md](white-beryl-ch33.md),
+[white-beryl-ch34.md](white-beryl-ch34.md)).
+
+The section's first two parts are quoted above under ch. 26 and ch. 27;
+the third, the earth lords (pp. 533–535), is RD6's
+([weighing.md](weighing.md)).
+
+**Section 8, the scattered small reckonings** (p. 535, img. 543, read on
+the scan):
+
+> སྐབས་བརྒྱད་པ་རྩིས་ཕྲན་ཐོར་བུའི་སྐོར་ལ། དུས་རྩིས་དུས་ལྟས་གཉིས་དང་། འདིར་མེད་ཀྱང་རྩིས་ཕྲན་སྣ་ཚོགས་ཞར་བྱུང་དུ་བཤད་པའོ།། དང་པོ་དུས་རྩིས་ལ། སྔོན་འགྲོ་རྨི་ལམ་བརྟག་པ། འདྲི་བྱེད་ལ་བརྟག་པ། ལམ་ལྟས་བརྟག་པ། བརྩི་གནས། བརྩི་དུས་ཡོ་བྱད། དམོད་སོགས་བརྟག་པ་གཞུང་ན་གསལ། དེ་ནས་བདར་ཡང་བྱ་བའོ། །དུས་རྩིས་དངོས་ལ་ལོ་སྤར་སྨེ་བའི་དུས་ངོས་བཟུང་ལ་ཁ་དམར་གཞུང་བཞིན་བྱ། དེ་ལ་དུས་ནི་ནམ་ལངས་ཡོས་སོགས་དང་དེའི་དབང་ཐང་ནི་ཞག་དབང་གི་བུ་ནས་ལུགས་འབྱུང་རྐྱང་འདེད་སྤྱི་ལྟར་རོ། །སྤར་ཁ་ནི་སྟག་རྟ་ཁྱི་གསུམ་ཟླ་བ་ལི་ཡིས་ཚེས། དེ་བཞིན་ཕག་ལུག་ཡོས་གསུམ་ཟིན། བྱ་གླང་སྦྲུལ་གསུམ་དྭ། བྱི་འབྲུག་སྤྲེལ་གསུམ་ཁམ་གྱིས་ཚེས་པས་དེ་ནས་བཟུང་ལུགས་འབྱུང་དུ་སྐོར་བའི་ཚེས་དེའི་སྤར་ཁ་དང་པོར་བྱས་ནས་ཉིན་ཚད་བརྒྱད་དུ་བགོས་པའི་ཆ་རེ་རེ་ལ་སྤར་ཁ་རེ·····འཆར་མཚན་ལའང་དེ་བཞིན་ནོ། །སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར་གྱིས་ཚེས་པས། ཞག་གི་སྨེ་བ་གང་ཡིན་དང་པོར་བྱས་ནས་ཉིན་དགུ་མཚན་དགུར་འཆར་བའོ། །སྨེ་བའི་ཤ་རྩིས་ལ་དུས་ཚོད་དུམ་གསུམ་གསིལ་ཞེས་པ་ཉིན་གྱི་དུས་དྲུག་པོ་གསུམ་དུ་གསིལ་བས་དུས་ཀྱི་སུམ་ཆ་གཉིས་རེ་སྨེ་བ་རེའི་ཡུན་ཡིན་ཞེས་སོ། །དོན་ལ་ཉིན་ཚད་མཚན་ཚད་དགུས་བགོས་ཐོབ་སྨེ་བ་རེའི་རྒྱུ་ཡུན་ཡིན་ནོ།
+
+Section eight, the scattered small reckonings: two, the reckoning of
+the moment and the omens of the time, and, though not here, various
+small reckonings told in passing. First, the reckoning of the moment:
+the preliminaries, examining dreams, the asker, the omens of the road,
+the place and time of reckoning, the implements and the oath and so on,
+as the text makes clear; then the "sharpening". In the reckoning of the
+moment proper, identify the year, trigram, mewa and hour, and give the
+verdicts as the text says. The hour is dawn, the hare, and so on;
+its power is the son of the day's power, and on in the order of the
+elements, each the son of the one before (རྐྱང་འདེད, rkyang 'ded), as usual. The trigram: in the tiger, horse and dog months the
+first date begins with *li*, in the pig, sheep and hare months with
+*zin*, in the bird, ox and snake months with *dwa*, in the rat, dragon
+and monkey months with *kham*; from there, turning in the order of the
+elements, the date's trigram is taken as the first, and the day's length
+divided in eight, a trigram rises in each part; the night likewise. The
+mewa: the date's mewa begins 1 white for the four «ར་བཞི» (not
+identified; the sense, a first group of four months), 4 green for the
+middle four, 7 red for the youngest four; with the date's mewa first,
+nine rise by day and nine by night. "For the mewa's flesh reckoning,
+split the hour in three" means: the six hours of the day split in three
+each, two thirds of an hour is each mewa's span; in fact, the day's and
+the night's length each divided by nine is each mewa's run.
+
+The notes then (pp. 535–537, Yigdzin-1 and the etext) work an example:
+the moment's mewa set in the centre of the square and the person's
+kin read in its places (the forefathers' place, the father's and
+uncles', the mother's), each fought by the kin member's life force;
+"the house: the moment's life force cuts the reckoned person's life
+force"; the moment's life force, body, power and luck fight the
+person's in their own kind; "the 'year' in this reckoning is the year
+of the one reckoned, not the actual year" (p. 536); the time takes the
+place of the reckoned person's year (p. 537). Then the omens of the
+time, summing up ch. 28 (from p. 537), the twelve links' results, a
+person's reckoning of 360 starting points (six fighters × sixty years,
+p. 538), the notes' close and the writer's dedication (p. 538), a list
+of the commentaries used (p. 538), and the small reckonings in passing:
+the thirty *'bri wang* (འབྲི་ཝང) or *brda than* (བརྡ་ཐན) (p. 538), the new gold reckoning
+(p. 538), and the hand reckoning (p. 538, img. 546, read on the scan):
+
+> ལག་རྩིས་ལུ་བཞིན་གྱི་མོ་ནི། ཟླ་བ་དང་པོ་དགུ་པ་གཉིས་གླང་གི་སྟེང་ནས་བརྩི་བ་སོགས་གཞུང་གིས་གསལ་ལ། དེ་ཡང་དཔེར་ན་ཟླ་བ་དགུ་པའི་ཚེས་བཅུ་ཉིན་མོ་འདེབས་ཚེ། འདྲི་བྱེད་ཀྱི་ཡིད་ལ་དང་པོར་གང་དྲན་གྱི་ལོ་ཐེ་ཚོམ་མེད་པར་སྨྲས་པ་འབྲུག་ལྟ་བུ་ཡིན་ན་གླང་ནས་ཟླ་གྲངས་དགུ་བར་བསྐོར་བས་བྱ་ལ་བབས། བྱ་ནས་ཚེས་གྲངས་བཅུ་བར་བསྐོར་བས་རྟ་ལ་བབས། རྟ་ནས་བྱི་བ་སོགས་སྨྲས་ལོ་
+
+The hand reckoning, a casting (མོ, mo) like Lu's («ལུ»): the first and ninth months
+are counted from the ox, and so on, as the text makes clear. For
+example, casting the *mo* on the tenth of the ninth month by day: if
+the year that first comes to the asker's mind, said without doubt, is
+the dragon, count from the ox to the month's number, nine, and it falls
+on the bird; from the bird count the date, ten, and it falls on the
+horse; from the horse count (rat and on) to the year said (Yigdzin-1,
+p. 539: to the dragon, the dog; one place back, the pig; then by the
+watch (ཐུན, thun) and the rest to one of the rat, horse, bird or hare,
+whose meeting gives the result). This is the one part of these pages
+that turns on chance, the year the asker happens to think of; the text
+it cites as making it clear («གཞུང་གིས་གསལ») was not found in WB (below).
+The closing pages (pp. 539–541) urge reckoning before every work of the
+living and the dead and rewarding the reckoner, and end in verse.
+
+### What RD17 found, for R1 and R2…
+
+| Ch. | Reckoning | Pebbles (WB) | Inputs | Kind |
+| --- | --- | --- | --- | --- |
+| 26 | the thirty starting points: 30 × 8 checks for kinds of people and matters | 240 root + 390 of Khyung = 630 (laid out, 241) | birth year (element, animal, sex), years lived; the role (asked) picks the point; the asker's year for the role-bound points | calculable |
+| 27 | the thirteen circles: 13 × 5 checks; small reckonings | 301 + 501 = 802; the small reckonings 75 | birth year and mewa sequence, years lived; the role; for the small ones the moment of reckoning and the household's trigrams | calculable |
+| 28 | small signs | 123 + 1,042, stated 1,166 (so also in WBZ) | the sky, sneezes, twitches, sounds; the links on the day's times and the "black small feet" by year, month and hour | observed; the days to look and the two settings calculable |
+| 30 | the moment | 319 + 1,235 = 1,554 | the moment: date, hour from dawn, day length (trigram by eighths, mewa by ninths); the asker's year | moment calculable; the preliminaries and signs observed |
+
+So, from these pages: the thirty starting points and the thirteen
+circles follow from a person's birth year and age alone, once the role
+is known; the moment's hour, element, trigram and mewa follow from the
+clock time, the date and the day's length; none of it needs a throw of
+chance. The notes' hand reckoning is the one casting, and needs the
+asker's spontaneous year.
+
+### Open
+
+- Question: WB vol. 1, p. 453 (img. 463): from where are the fourth,
+  seventh and eleventh places counted? The notes (p. 532) read «དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ»:
+  the life force of the fourth upward from the year reached is fought
+  by the person's life force; is each place's own life force, body,
+  power or luck meant (the fourth upward's life force, the fourth
+  downward's body), or the year reached against the person's at those
+  distances?
+- Question: WB vol. 1, p. 454 (img. 464): the thirty's rule of colour
+  makes the son's meeting black («ནང་ཕྲད་དཀར་དང་བུ་དགྲ་དང་། །ཤིང་ལྕགས་མེ་གསུམ་ནང་ཕྲད་ནག»), where ch. 25
+  (vol. 1, p. 417) lays a white and a black for the son, and ch. 27
+  (vol. 2, p. 3) black again; is the son's pebble black in the
+  starting-point reckonings and mixed in the illness reckoning?
+- Question: WB vol. 2, p. 156 (img. 164): «ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ་ཡིས་བགོས»: is «བརྒྱུ» a misprint for
+  བརྒྱད, eight, as the notes' «ཉིན་ཚད་བརྒྱད་དུ་བགོས» (p. 535) imply?
+- Question: WB vol. 2, p. 535 (img. 543): «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར»: which four
+  months are «ར་བཞི», and does the first date of each group of four
+  begin with 1 white, 4 green and 7 red?
+- Question: WB vol. 2, p. 538 (img. 546): the hand reckoning, «ལག་རྩིས་ལུ་བཞིན་གྱི་མོ»: who
+  or what is «ལུ» (Lü?), and which text does the note mean by «གཞུང་གིས་གསལ»?
+- Question: WB vol. 2, p. 146 (img. 154): which days are «བྱི་ཉི» and «ཟིན་ཕུང» among
+  the days to avoid for reckoning? «བྱི་ཉི» might be the rat as the day's
+  animal, «ཟིན་ཕུང» the trigram *zin* with *phung*, or an almanac name.
+- Doubt: ch. 26's thirty readings (pp. 455–472) beyond the first, and
+  their table of emblems and kinds, are Yigdzin-1's headings, not read on
+  the scan; the emblems' English is ours from the machine reading.
+- Doubt: ch. 27's starting animals for the circles and the small
+  reckonings (pp. 4–25), ch. 28's contents and its links on the day's
+  times (pp. 37–38), ch. 30's readings by the hour, element and trigram
+  (pp. 156–162) and its small reckonings (pp. 163–172), and the notes
+  past p. 535 are Yigdzin-1 and the etext only. Birth's time on p. 38,
+  «ཉི་མ་མདུང་གང» (the sun a spear's length high), sits between becoming at the
+  "great shadow" and aging and death at dusk: a misreading, or an
+  evening sun a spear's length above the horizon?
+- Doubt: the colophon of ch. 26 (p. 472), «ཤེས[?]་པ་དཀོན», the first letter
+  ཤ or ཞ, not settled on the scan.
+
+### Searched and not found
+
+- **The hand reckoning, a casting (མོ, mo) like Lu's, in WB's main text** (RD17,
+  2026-10-12; «ལག་རྩིས», «ཡིད་ལ་དང་པོར་གང་དྲན», «གང་དྲན» in the etext of both
+  volumes): only in the notes, vol. 2, p. 538.
+- **A breakdown of ch. 27's 301 root pebbles** (RD17, 2026-10-12; p. 3 on
+  the scan, the chapter by Yigdzin-1): none; the thirteen circles make
+  65, the small reckonings close with their own 75.
