@@ -164,18 +164,27 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
   dreams and the like which la-sign, a yak or another, is the family's,
   and from the person's character which of the five great clans (རུས་ཆེན,
   rus chen) it is. The print reads «དུས་ཁམས», "the element of the time",
-  both times; the five great clans point to «རུས་ཁམས», the clan's element
-  (question 23).
+  here; its second occurrence on the page, read again on the scan at 8×
+  by RD13, is «རུས་ཁམས» («གཞན་ཡང་རུས་ཁམས་དང་ཕ་མེས་བརྒྱུད་པའི་ལོ»), the clan's
+  element, as the five great clans that follow imply (question 23).
 - **Size** (p. 262, img. 272, read on the scan):
   «སྤྲོས་ཏེ་རྡེལ་གྲངས་མང་འདོད་ན། །ཉི་ཁྲི་ཉིས་སྟོང་སུམ་བརྒྱ་དང་། །བརྒྱད་ཅུ་ལ་སོགས་འབྱུང་ན་ཡང་། །ལྷག་པོ་སྤྲོས་པ་མ་ཡིན་པའི། །འབྲས་བུ་དངོས་ཀྱི་རྡེའུ་དང་། །བརྩི་དུས་མི་ལུས་ཁྱད་པར་གྱི། །ངོས་འཛིན་མཚན་མའི་རྡེའུ་རྣམས། །ཡོངས་བསྡོམས་རྡེའུ་སུམ་སྟོང་དང་། །བདུན་བརྒྱ་དོན་གསུམ་གཏན་ཕབ་པར།»
   Expanded, as others want, 22,380 pebbles and more; WB fixes the result
   pebbles and the identifying pebbles not to be left out at 3,773 in all.
   The page goes on to break the count down (the precious and luck
   pebbles, the 120 of the life force and the rest against the five
-  relations, the four of rise and decline, …); that breakdown was seen on
-  the scan but not transcribed. The root count of the older system is
-  136 (p. 260, etext; p. 249 above).
-- **Calculable** from the dates, with the clan element asked once.
+  relations, the four of rise and decline, …); RD13 transcribed it
+  ([year-of-life.md](year-of-life.md)), and its parts as read make 3,886
+  (question 69). P. 259 (img. 269) fixes another count, 641 root and
+  2,537 identifying pebbles, 3,178, expanded 15,890. The root count of the
+  older system is 136 (p. 260; p. 249 above).
+- **Calculable** from the dates, with the clan element asked once. Read
+  by RD13 (2026-10-12) in [year-of-life.md](year-of-life.md), *The birth
+  reckoning and the natal trigram (RD13)*: the inputs are the child's
+  birth year, month, day, hour and gender, both parents' birth years, the
+  grandfather's and the household's years (the line of births), the clan
+  element (asked) and the moment of reckoning; the natal trigram is the
+  mother's trigram of her year of age in the birth year.
 
 #### Ch. 23, marriage and the road (vol. 1, pp. 351–379, img. 361–389) — RD15
 
@@ -380,7 +389,7 @@ below; the sizes there are read on the scan.
 | Ch. | Reckoning | WB's pebbles (result + sign = all) | Others expand to | Inputs | Kind |
 | --- | --- | --- | --- | --- | --- |
 | 21 | the nine means | — | — | — | the tool of all |
-| 22 | lives and karma, the birth | 3,773 in all | 22,380 | child's birth year, month, day, hour; father's and mother's years; clan element; forefathers' years | calculable; clan asked |
+| 22 | lives and karma, the birth | 3,178 (p. 259) / 3,773 (p. 262); root 136 | 15,890 (p. 259) / 22,380 (p. 262) | child's birth year, month, day, hour; father's and mother's years; clan element; forefathers' years | calculable; clan asked |
 | 23 | marriage, the road | 478 + 5,327 = "5,801" | 29,025 | both partners' dates; their parents' clans; siblings, kinship; the departure's day | calculable; clans, siblings, kinship asked |
 | 24 | obstacles | 137 + 751 = 888 | 4,440 | birth year, current year, the moment of reckoning; mother, spouse, household, the dead for RD14's parts | calculable |
 | 25 | illness | 403 + 944 = 1,347 | 6,735 | sick person's element and age, current year; father or husband | calculable |
@@ -424,8 +433,9 @@ below; the sizes there are read on the scan.
   of ch. 23 (5,801 for 5,805) and ch. 28 (1,166 for 1,165); 23, the
   notes' «དུས་ཁམས» for the clan's element (p. 474); 24, the match's sixth
   point «ཎི་ཤ» (p. 351); 25, the general reckoning's fourth part (p. 532).
-- Doubt: ch. 22's breakdown of its 3,773 pebbles (p. 262, img. 272) was
-  seen on the scan but not transcribed; RD13 reads it.
+- Ch. 22's breakdown of its 3,773 pebbles (p. 262, img. 272) is
+  transcribed in [year-of-life.md](year-of-life.md) (RD13); its parts as
+  read make 3,886 (question 69).
 - Doubt: ch. 24's and ch. 26's count lines rest on Yigdzin-1 and the
   etext agreeing, with sums that check, not on the eye.
 

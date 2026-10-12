@@ -399,6 +399,9 @@ the text, not about the app.
     (རུས་ཁམས, rus khams) (read on the scan 2026-10-11, RD11,
     [reckonings.md](reckonings.md)). Do the Zhol or Taikhang prints read
     «རུས་ཁམས»?
+    On the scan at 8× (2026-10-12, RD13, [year-of-life.md](year-of-life.md))
+    the first is printed «དུས་ཁམས», the second «རུས་ཁམས»; so the question
+    narrows to the first.
 
 24. **WB vol. 1, p. 351 (img. 361): what is the sixth point of the
     match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
@@ -641,3 +644,44 @@ the text, not about the app.
     fifteenth examination, p. 55; the etext «དུར་སྒྲུང»), with the five
     graves' «སྐྲང་སྒོམ» (p. 128; perhaps «སྨྲང»)? And «ར་བསེ», the roots of the
     repetition (p. 48) (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+
+69. **WB vol. 1, pp. 259, 262 (img. 269, 272): the birth reckoning's
+    count.** P. 259 fixes 641 root and 2,537 identifying pebbles, 3,178 in
+    all, and p. 262 3,773, whose parts as read make 553 result and 3,333
+    identifying pebbles, 3,886. Are these two counts of different scopes,
+    or slips (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+70. **WB vol. 1, p. 262 (img. 272): «གཅེས་རྡེལ་མི་འབྱུང་ཀླུང་རྡེལ་དགུ».** The nine
+    are the four precious and five unchanging luck pebbles. Is «མི་འབྱུང» a
+    slip for «མི་འགྱུར» (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+71. **WB vol. 1, pp. 260–261 (img. 270–271): 24 or 20 decisive pebbles?**
+    P. 260 has 24, p. 261 20. Which belongs to WB's reckoning (2026-10-12,
+    RD13, [year-of-life.md](year-of-life.md))?
+
+72. **WB vol. 1, p. 261 (img. 271): «ཚེ་སྨང».** The life force's rise and
+    decline goes to the upper part of life by the year, the month's to
+    «ཚེ་སྨང» (the print, with a mark under it). Is the month the middle of
+    life (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+73. **The mother's trigram at the birth: one a year, or the leap at each
+    ten?** Is her trigram counted one a year (WB ch. 21, p. 257) or with
+    the *Moonbeams*' leap to the corner at each ten (DZ f. 8b–9a)? The
+    natal trigram differs once the mother has passed ten (2026-10-12,
+    RD13, [year-of-life.md](year-of-life.md)).
+
+74. **The father's luck pebble.** WB p. 261 has "whatever the father's
+    luck is", the notes p. 474 the father's year, and the *Moonbeams* (KD
+    vol. 3, p. 501, etext only) the father's progressed sign («ཕ་ཡི་ལོག་མེན་གར་
+    བབས»); it records a view of five unchanging luck pebbles with the
+    mother's trigram twice (p. 502, «ཕ་ཀླུང་མ་ཀླུང་བབས་སྤར་དང༌། །རང་ཀླུང་མ་ཡི་སྤར་ཁ»).
+    Which is WB's (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+75. **WB vol. 1, p. 294 (img. 304): «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང».** Said of the fire
+    horse and snake born on kham, where the parallel lines have «ལྕགས་ལ་མེ་ཡི་
+    བདུད» and «ས་ལ་ཤིང་གི་བདུད». Is «མོ» a slip for «མེ», or does the line hold
+    for a woman only (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+76. **WB vol. 1, p. 326 (img. 336): «སྐྱེད་པོ་བགྲང».** Said of daughters born on
+    certain trigrams: "count husbands", that is, marry more than once
+    (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?

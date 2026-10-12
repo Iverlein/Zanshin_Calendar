@@ -669,38 +669,12 @@ By printed page (image = page + 10); not read on the scan:
 
 ### Open
 
-- Question: The birth reckoning's count: p. 259 (img. 269) fixes 641 root
-  and 2,537 identifying pebbles, 3,178 in all, and p. 262 (img. 272)
-  3,773, whose parts as read make 553 result and 3,333 identifying
-  pebbles, 3,886. Are these two counts of different scopes, or slips?
-- Question: WB p. 262 (img. 272) prints «གཅེས་རྡེལ་མི་འབྱུང་ཀླུང་རྡེལ་དགུ»; the
-  nine are the four precious and five unchanging luck pebbles. Is
-  «མི་འབྱུང» a slip for «མི་འགྱུར»?
-- Question: The decisive pebbles are 24 on p. 260 (img. 270) and 20 on
-  p. 261 (img. 271). Which belongs to WB's reckoning?
-- Question: WB p. 261 (img. 271) gives the life force's rise and decline
-  to the upper part of life by the year, and the month's to «ཚེ་སྨང» (the
-  print, with a mark under it). Is the month the middle of life?
-- Question: The mother's trigram at the birth: is her trigram counted one
-  a year (WB ch. 21, p. 257) or with the *Moonbeams*' leap to the corner
-  at each ten (DZ f. 8b–9a)? The natal trigram differs once the mother
-  has passed ten.
-- Question: The father's luck pebble: WB p. 261 "whatever the father's
-  luck is", the notes p. 474 the father's year, and the *Moonbeams* (KD
-  vol. 3, p. 501, etext only) the father's progressed sign («ཕ་ཡི་ལོག་མེན་གར་
-  བབས»), and it records a view of five unchanging luck pebbles with the
-  mother's trigram twice (p. 502, «ཕ་ཀླུང་མ་ཀླུང་བབས་སྤར་དང༌། །རང་ཀླུང་མ་ཡི་སྤར་ཁ»).
-  Which is WB's?
-- Question: WB p. 294 (img. 304) prints «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང» for the fire
-  horse and snake born on kham, where the parallel lines have «ལྕགས་ལ་མེ་ཡི་
-  བདུད» and «ས་ལ་ཤིང་གི་བདུད». Is «མོ» a slip for «མེ», or does the line hold
-  for a woman only?
-- Question: «སྐྱེད་པོ་བགྲང» (p. 326, img. 336), said of daughters born on
-  certain trigrams: "count husbands", that is, marry more than once?
-- For RD11's open question 23: on the scan of vol. 2, p. 474 (img. 482,
-  read at 8×) the first «དུས་ཁམས» is printed so, but the second reads
-  **«རུས་ཁམས»** («གཞན་ཡང་རུས་ཁམས་དང་ཕ་མེས་བརྒྱུད་པའི་ལོ»): the clan's element, as
-  the five great clans that follow imply.
+Open questions 69–76 ([open-questions.md](open-questions.md)), in order: the
+two counts of pp. 259 and 262; «མི་འབྱུང»; 24 or 20 decisive pebbles; «ཚེ་སྨང»;
+the mother's trigram one a year or with the leap at ten; the father's luck
+pebble; «མོ་ལ་ཆུ་ཡི་བདུད»; «སྐྱེད་པོ་བགྲང». Question 23 narrows: on the scan of
+vol. 2, p. 474 (img. 482, at 8×) the first «དུས་ཁམས» is printed so, the
+second reads «རུས་ཁམས» («གཞན་ཡང་རུས་ཁམས་དང་ཕ་མེས་བརྒྱུད་པའི་ལོ»), the clan's element.
 
 ### Searched and not found
 

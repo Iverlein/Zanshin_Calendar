@@ -356,3 +356,10 @@ Searched and found wanting, so not to be repeated:
   2026-10-12; WB vol. 2, pp. 44–51 on the scan, the etext of pp. 51–143 and
   of the notes pp. 499–522): none; each examination gives its own readings
   and rites.
+- **The natal trigram on the *Moonbeams*' f. 12a** (Dorje, p. 108; RD13,
+  2026-10-12) in Dharmaśrī's *Gsung 'bum* print (I2533, img. 027, read on
+  the scan): that folio holds the five nine-multiples; the natal trigram
+  is on f. 9a (img. 021). Dorje's folio number is of another print.
+- **A worked example of a natal trigram** in WB ch. 22 or the notes'
+  section 1 (RD13, 2026-10-12; etext and Yigdzin-1): none; the
+  *Moonbeams*' rule (f. 9a) is the only count.
