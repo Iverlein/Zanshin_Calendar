@@ -392,3 +392,8 @@ does not change on any day; the days' works grow from 1,627,039 to
 1,649,384 (23,616 added, 1,271 gone where the chapter takes a factor to
 the other side of a work the factor alone named); 9,741 change side; the
 days whose lists run against their tone fall from 2,140 to 2,085.
+
+
+## Ch. 34's entries that read two ways, the 9th for marriage, «བྱ་གཞུག» (O2)
+
+Nothing read yet: O2's passages, with the English beside them, go here.

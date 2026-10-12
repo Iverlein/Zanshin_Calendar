@@ -814,3 +814,8 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
   (box 23) and the verse of box 36 (img. 47; KP2 was not read that far).
 - MITRA on whole KP folios (2550 px woodblock tables): loops on digits, no
   reading.
+
+
+## KP's links left out: boxes 5, 7, 20, 48, 50, 53, 55 and 60 (O1)
+
+Nothing read yet: O1's passages, with the English beside them, go here.

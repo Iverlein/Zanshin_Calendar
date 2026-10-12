@@ -784,3 +784,8 @@ question 60, narrowed; 59 and 61 are answered here, 58 in part.
 - **KL's six moxa dates as a list in WB**: «མེ་བཙའ» in the etext of both volumes (vol. 1, img. 415; vol. 2, img. 316–320, 324, 365–366, 379, 383, 411) gives only the weekdays, a mansion verse, the day animals, two lists of ch. 33 and ch. 34's work 33; none lists 1, 6, 15, 18, 22, 30.
 - **A reading of a person's enemy or grave mansion in ch. 33**: «དགྲ་སྐར» in vol. 2 is, on pp. 313–321 (img. 321, 326, 327, 329), a class of the mansions themselves (Aśvinī «དགྲ་སྐར་མི་བརྟན», an enemy mansion, unstable), not a person's, and elsewhere in the reckoning for the dead (img. 97, 100) and the notes (img. 514–517); «དུར་སྐར» only on p. 330, the tables of pp. 345–346 and the notes (img. 520). No reading of either for a day.
 - **A rule for the eight-day round of the lunar dates' illness in ch. 33**: none; it gives the matches one by one (the round is ch. 25's goddesses').
+
+
+## The classical texts he cites (RD9)
+
+Nothing read yet: RD9's passages, with the English beside them, go here.
