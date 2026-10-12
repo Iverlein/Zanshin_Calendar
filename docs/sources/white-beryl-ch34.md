@@ -393,7 +393,291 @@ does not change on any day; the days' works grow from 1,627,039 to
 the other side of a work the factor alone named); 9,741 change side; the
 days whose lists run against their tone fall from 2,140 to 2,085.
 
-
 ## Ch. 34's entries that read two ways, the 9th for marriage, «བྱ་གཞུག» (O2)
 
-Nothing read yet: O2's passages, with the English beside them, go here.
+Read 2026-10-12 for O2: the four verses left out above (*Left out, and
+why*) on the scan of WB vol. 2 (I1KG12907, img. 390, 398, 409, 410, 421,
+424, 434, enlarged 3–5×), with Yigdzin-1 over all of ch. 34 (img. 386–436)
+and MITRA over the quoted pages as witnesses; the chapter's other lists and
+WB's other uses of the names from BDRC's etext of both volumes, the passages
+used read on the scan (vol. 1, img. 102–103; vol. 2, img. 390, 424); the
+Zhol print (WBZ) from its etext and, for one line, its scan; KP's boxes 9,
+29, 33, 42 and 64 on the scan of KP (I4CZ65599). Every quotation below was
+read on the scan unless marked otherwise.
+
+### 1. The 9th for marriage: «བཅོ་བརྒྱད་དགུ» names the 18th and the 9th
+
+The verse is on **p. 413** (img. 421), the top of the page, not p. 412 as
+the entry above has it:
+
+> …ཉི་མ་སྤྲེལ་ཡོས་ལུག་བཟང་དེ། །སྦྲུལ་རྟ་ཁྱི་བྱི་གླང་ངན་ཀྱང་། །གླང་ལ་ཡུགས་ས་ལེན་པ་བཟང་། །བྱ་ལ་བུ་སྲིང་རྫོང་བ་ངན། །གཅིག་གསུམ་བཞི་ལྔ་དྲུག་བདུན་བརྒྱད། །བཅོ་ལྔ་བཅུ་བདུན་བཅོ་བརྒྱད་དགུ། །བཅུ་དགུ་ཉེར་གཅིག་ཉི་ཤུ་གཉིས། །ཉེར་བདུན་ཉེར་བརྒྱད་གནམ་གང་ངན། །བཅུ་བཞི་བདུན་བཟང་ལུགས་ཀྱང་ཡོད། །འདིར་ནི་དེ་དག་བཀག་པར་བྱ། །ལོ་ཟླ་ཉི་མ་ནག་པོ་དང་། …
+
+The Monkey, Hare and Sheep days are good; the Snake, Horse, Dog, Mouse and
+Ox days bad, though on the Ox day taking a widow (ཡུགས་ས, yugs sa) is good,
+and on the Bird day sending off sons and daughters (བུ་སྲིང, bu sring) is bad. The dates 1, 3,
+4, 5, 6, 7, 8; 15, 17, 18, «དགུ»; 19, 21, 22; 27, 28 and the 30th (གནམ་གང,
+gnam gang) are bad. There is also a system in which the 14th and «བདུན»
+are good; here they are forbidden.
+
+**«དགུ» is the 9th.** Four things decide it:
+
+- *The metre.* The list is in lines of seven syllables, every one of them
+  full. The first line, «གཅིག་གསུམ་བཞི་ལྔ་དྲུག་བདུན་བརྒྱད», holds seven
+  single dates (1, 3–8) and has no room for an eighth; the 9th goes to the
+  next line that has a free syllable, after «བཅོ་བརྒྱད».
+- *The next line.* It opens with «བཅུ་དགུ», the 19th spelt out. Read as
+  19, «དགུ» would name the 19th twice in two lines running. The chapter
+  does carry a decade to a bare unit after a compound (sowing, p. 400:
+  «ཉེར་གཅིག་གཉིས», the 21st and 22nd), but only where the unit is not
+  spelt out beside it.
+- *Ch. 23.* The marriage chapter's own dates (vol. 1, p. 373, img. 383,
+  read on the scan for RD15, [marriage.md](marriage.md)) pair the 8th and
+  9th in one line, «བརྒྱད་དགུ་འོག་རྟའི་སྲོག་འབྲལ་བྱེད», and name 1, 3, 4, 5, 6,
+  8, 9, 18, 19, 21, 22, 28 and 30 bad, with «བདུན་གསུམ», the bride's sky
+  door, and the 27th, 17th or 7th by her triad. With the 9th,
+  ch. 34's list holds every bad date of ch. 23, the triad's three made
+  general, and the 15th; without it, it drops one of them, the one ch. 23
+  sets beside the 8th.
+- *The Zhol print* has the same words (WBZ img. 1180, etext only:
+  «…བཅོ་བརྒྱད་དགུ། …བཅུ་དགུ་…»).
+
+KP's box 42 (img. 49, read on the scan) has neither the 9th nor the 18th and
+22nd: its digest of this line is not a witness to the word.
+
+«བཅུ་བཞི་བདུན», the dates "good in another system", is the 14th and the
+7th, or the 14th and the 17th with the decade carried; both the 7th and
+the 17th are already in the bad list, so the reading changes nothing.
+
+**For the app:** marriage's dates from the chapter are the 9th, 14th, 18th
+and 22nd bad (the 9th added to the three the entry already carries).
+
+### 2. Learning: «ཚེས་གཅིག་དྲུག» is the 1st and the 6th
+
+P. 402 (img. 410), writing, astrology, arts and crafts (31):
+
+> ༣༡ ཡིག་རྩིས་རིག་པ་བཟོ་བསླབ་པ། །ལྷག་པ(༤) ཕུར་བུ(༥) བཟང་བ་སྟེ། །ཉི(༡) སངས(༦) སློབ་གཉེར་སྤྱི་ལ་ཤིས། །སྤེན་པ(༠) མིག་དམར(༣) ངན་པ་སྟེ། …ཉ་བུམ་གླང་སེང་སྲང་བུ་མོ། །གཞུ་རྣམས་བཟང་ལ་འཁྲིག་པ་སྟེ། །སྒྱུ་རྩལ་བསླབ་ལ་བཟང་བ་ཡིན། །སྡིག་པ་ངན་ལ་གཞན་བཏང་སྙོམས། །ཚེས་པ་བཅོ་བརྒྱད་ཉེར་གཉིས་བཟང་། །ཚེས་གཅིག་དྲུག་ལ་ངན་པའོ། །ཁྱི་ཡི་ཉི་མ་འདུ་བྱེད་བཟང་། །ཕག་གླང་ཉི་མ་ངན་པ་ཡིན། །ས་ཡི་ཕུང་བྱེད་ནག་མོར་འཛེམ།།
+
+For learning writing, astrology, arts and crafts, Wednesday and Thursday
+are good, Sunday and Friday auspicious for study in general, Saturday and
+Tuesday bad; … the 18th and 22nd are good, «ཚེས་གཅིག་དྲུག» bad; the Dog day
+and the link *'du byed* good, the Pig and Ox days bad; the earth's
+destroyer, *nag mo*, is avoided.
+
+**The 1st and the 6th**, not the 16th:
+
+- The 16th is «བཅུ་དྲུག»; «གཅིག་དྲུག» is two numbers, as the good dates of
+  the same verse are two («བཅོ་བརྒྱད་ཉེར་གཉིས»).
+- The chapter writes the same three syllables for the 1st and 6th in
+  opening the soil (9, p. 390, quoted above): «ཚེས་གཅིག་དྲུག་དང་བཅུ་གཅིག་དང་།
+  །བཅུ་དྲུག་…», where the 16th follows in its own words.
+- Poetics, grammar and treatises (52, pp. 421–422, quoted above) name the
+  6th bad and the 1st «རིག་བྱེད་སྤྱིའི་དུས་གཉན», a dangerous time for
+  learning of every kind; ch. 33's date verses name the 1st bad for
+  teaching the dharma and the 6th bad for hearing it
+  ([lunar-dates.md](lunar-dates.md)).
+- **KP's box 33** (img. 40, read on the scan at 4×) prints the bad dates as
+  «༡ ༦», two numerals set apart as the box sets its dates apart, where the
+  good «༡༨» beside it is written close: the box has the 1st and 6th too.
+  The box as built reads them as one date, the 16th.
+- The Zhol print: «ཚེས་གཅིག་དྲུག་ལ་ངན་བའོ» (WBZ img. 1167, etext only).
+
+**For the app:** learning writing and astrology has the 1st and 6th bad,
+from the chapter and from the box read again; the box's 16th is the same
+two numerals run together and goes.
+
+### 3. Life and wealth: Friday is middling
+
+P. 426 (img. 434), the works of life and wealth (61), with the line before
+it, auspicious works (60), on the same page:
+
+> ༦༠ བཀྲ་ཤིས་དགེ་ལེགས་བྱེད་པ་ལ། །ཉི(༡) ཟླ(༢) ཕུར་བུ(༥) ལྷག(༤) སངས(༦) བཟང་། །མིག(༣) སྤེན(༠) གཉིས་པོ་ངན་པར་བཤད། …
+>
+> ༦༡ ཚེ་ནོར་བསྒྲུབ་ལ་སྤེན་པ(༠) མཆོག །ལྷག་པ(༤) བཟང་ཞིང་པ་སངས(༦) དང་། །ཕུར་བུ(༥) ཟླ་བ(༢) འབྲིང་པོ་སྟེ། །ཉི་མ(༡) མིག་དམར(༣) ངན་པ་ཡིན། །ནབས་སོ(༦) སྣར(༣) གྲེ(༡༠) དབོ(༡༡) ས་རི(༡༤)། …
+
+For accomplishing life and wealth Saturday is best, Wednesday good, and
+Friday, Thursday and Monday middling; Sunday and Tuesday bad.
+
+**Friday goes with the middling three:**
+
+- *The syntax.* In the chapter's weekday lines the verdict follows the
+  weekdays it covers (60 just above: five weekdays, then «བཟང»; 31:
+  «ལྷག་པ(༤) ཕུར་བུ(༥) བཟང་བ་སྟེ»).
+  «ལྷག་པ་བཟང་ཞིང» closes "Wednesday is good" with its verb; «ཞིང» opens
+  the next clause, and «པ་སངས་དང་» joins Friday to Thursday and Monday,
+  whose verdict is «འབྲིང་པོ». A good Friday would stand before «བཟང»
+  («ལྷག་པ་པ་སངས་བཟང་…»).
+- *The same turn in fire offerings* (45, p. 417, quoted above):
+  «ལྷག་པ(༤) རུང་ལ་པ་སངས(༦) དང་། །ཟླ་བ(༢) ངན», Wednesday acceptable,
+  Friday and Monday bad; KP's box 48 has Friday bad there.
+- **KP's box 64** (img. 62, read on the scan): «གཟའ་སྤེན་ལྷག» in the good
+  half, then «ཟླ་ཕུར་སངས» under the box's curved bracket, its mark for what
+  is middling: Monday, Thursday, Friday.
+- The Zhol print: «ལྷག་བ་བཟང་ཞིང་པ་ཀརིས་དང་། …འབྲིང་པོ་སྟེ» (WBZ img. 1198,
+  etext only; ཀརིས is the OCR's སངས).
+
+**For the app:** Friday counts for neither side of life and wealth, as
+built; nothing changes.
+
+### 4. «བྱ་གཞུག» and «བྱ་མཇུག»: Dhaniṣṭhā
+
+The name, "bird's tail" (བྱ་གཞུག, bya gzhug, also spelt བྱ་མཇུག, bya mjug),
+stands in four places of ch. 34. The two left out:
+
+- **The hearth** (8), pp. 389–390 (img. 397–398):
+
+  > ཐབ་ཀ་བཅའ་བ་ཉི་མ(༡) དང་། །ཟླ་བ(༢) ཕུར་བུ(༥) སངས(༦) སྤེན(༠) བཟང་། །མིག་དམར(༣) ལྷག་པ(༤) གཉིས་པོ་ངན། །སྨིན་དྲུག(༢) མགོ(༤) རྒྱལ(༧) གྲེ(༡༠) མེ་བཞི(༡༢)། །དབོ(༡༡) དང་ཁྲུམས་སྟོད(༢༤) ཐ་སྐར(༠) བཟང་། །ལག(༥) མཆུ(༩) སྣུབས(༡༨) དང་ཆུ་སྟོད(༡༩) སྐག(༨)། །ཁྲུམས་སྨད(༢༥) མོན་དྲེ(༢༢) ནམ་གྲུ(༢༦) དང་། །བྱ་མཇུག(༢༡) ལྷ་མཚམས(༡༦) ངན་པ་ཡིན། །བྲ་ཉེ(༡) ལ་ནི་སྐྱེད་པོ་དང་། །རོ་ཐབ་འཛུགས་ལ་ཤིས་པ་ཡིན། །ནབས་སོ(༦) ཐབ་ངན་སྐྱེད་པོ་བཟང་། །ཆུ་སྨད(༢༠) ཐབ་འབྲིང་སྐྱེད་པོ་བཟང་། …
+
+  Setting up a hearth: … Ārdrā, Maghā, Mūla, Pūrvāṣāḍhā, Āśleṣā,
+  Uttarabhādrapadā, **Dhaniṣṭhā** (མོན་དྲེ, mon dre), Revatī, *bya mjug* and
+  Anurādhā are bad; Bharaṇī is auspicious for the kitchen (སྐྱེད་པོ, skyed
+  po) and for setting up a hearth for the dead; on Punarvasu the hearth is
+  bad and the kitchen good; on Uttarāṣāḍhā the hearth middling and the
+  kitchen good.
+
+- **Treating horses, mules and donkeys** (26), p. 401 (img. 409):
+
+  > ༢༦ བཅོས་བྱེད་ཟླ(༢) ལྷག(༤) བཟང་བ་ལ། །ཉི་མ(༡) སྤེན་པ(༠) ངན་པ་ཡིན། །མིག་དམར(༣) མེ་བཟང་བཅོས་གཞན་ངན། །ནབས་སོ(༦) ཆུ་སྨད(༢༠) མོན་གྲུ(༢༣) དང་། །ས་རི(༡༤) བྱ་གཞུག(༢༡) མགོ(༤) མོན་དྲེ(༢༢)། །བཟང་ལ་སྐག(༨) མཆུ(༩) གྲེ(༡༠) ལྷ་མཚམས(༡༦)། །ངན་ལ་མེ་བཞིར(༡༢) ཟེ་རྔོག་འབྲེག །ནམ་གྲུ(༢༦) སྐག(༨) ལ་བྱ་གཅོད་བཟང་། །བྱ་གཏོང་གྲོ་བཞིན(༢༡) བྱི་བཞིན(༢༡) ངན། །དབོ(༡༡) དང་བྲ་ཉེར(༡) བྲེས་བརྩིག་བཟང་། །ཁྱིམ་ཉི་ལ་སོགས་རྒྱུག་དང་མཚུངས།།
+
+  For treating, Monday and Wednesday are good, Sunday and Saturday bad;
+  Tuesday good for cautery, bad for other treatment. Punarvasu,
+  Uttarāṣāḍhā, Śatabhiṣaj, Svātī, *bya gzhug*, Mṛgaśiras and **Dhaniṣṭhā**
+  are good, Āśleṣā, Maghā, Pūrvaphalgunī and Anurādhā bad; on Hasta,
+  cutting mane and tail; on Revatī and Āśleṣā, «བྱ་གཅོད» (bya gcod, gelding, as KP's
+  box 29 has it) is good; for «བྱ་གཏོང» (bya gtong) Śravaṇa (གྲོ་བཞིན, gro bzhin) and
+  Abhijit (བྱི་བཞིན, byi bzhin) are bad; on Uttaraphalgunī and Bharaṇī,
+  «བྲེས་བརྩིག», building (?) the stalls, is good; signs, days and the rest as racing. (The
+  etext's bracket before «བྱ་གཏོང» is not on the page.)
+
+The 1996 edition numbers the name ༢༡ in both, the number it gives Śravaṇa
+and Abhijit alike. WB's other uses of the name:
+
+- **Birth by mansion** (1), p. 382 (img. 390), where the chapter names the
+  mansions by another set of names (dotted under the syllables), in order:
+
+  > …ཕུལ(༢༠) ལ་སྐྱེས་པ་བརྒྱ་ཕྲག་འཚོ། … །བྱ་ཟེར(༢༡) སྐྱེས་པ་དྲུག་ཅུ་འམ། །དྲུག་ཅུ་རེ་གཉིས་འཚོ་བ་ཡིན། … །བྱ་སྦོ(༢༡) ལ་ནི་སྐྱེས་པའི་མི། །ལོ་ནི་དྲུག་ཅུ་འཚོ་བ་སྟེ། … །བྱ་གཞུག(༢༢) ལ་སྐྱེས་ཉེར་ལྔ་འམ། །དྲུག་ཅུ་ཐམ་པ་འཚོ་བ་ཡིན། … །སྒྲོག(༢༣) ལ་སྐྱེས་པ་མྱུར་དུ་འཆི། … །ཁྲུམས་སྟོད(༢༤) ལ་སྐྱེས་གོ་ལྔ་ཐུབ། …
+
+  Born under *phul* (Uttarāṣāḍhā, 20) one lives a hundred years; under
+  *bya zer* (༢༡) sixty or sixty-two; under *bya sbo* (༢༡) sixty; under
+  *bya gzhug* (༢༢) twenty-five or a full sixty; under *sgrog* (Śatabhiṣaj,
+  23) one dies soon; under Pūrvabhādrapadā (24) ninety-five. Between
+  Uttarāṣāḍhā and Śatabhiṣaj stand three: Abhijit, Śravaṇa and Dhaniṣṭhā,
+  and *bya gzhug* is the third. That *bya sbo* is Śravaṇa the chapter shows
+  in giving and taking goods (14, p. 395, etext): «ལྷ་མཚམས(༡༦) སྣུབས(༡༨)
+  དང་བྱ་སྦོ(༢༡) ངན».
+
+- **Examining the sick** (43), p. 416 (img. 424), the same set of names in
+  no fixed order, each with what brought the illness on and the days to
+  recovery: «…ཕུལ(༢༠) ལ་ཞིང་རྨོས་ས་ཁས་ལན། །ཟླ་བ་གཅིག་ནས་གྲོལ་བར་འགྱུར། །བྱ་གཞུག(༢༢)
+  ལ་ནི་འགྲུལ་འཕྱིས་ལན། … །བྱ་སྦོ(༢༡) འཁོར་མང་ཕྱིན་པས་ལན། …» — under *phul*
+  ploughing and opening the soil, freed after a month; under *bya gzhug*
+  (༢༢) «འགྲུལ་འཕྱིས», a journey (?); under *bya sbo* (༢༡) going among many
+  people. The editors number *bya gzhug* ༢༢ here as on p. 382.
+
+- **Vol. 1, pp. 92–93** (img. 102–103), ch. 12, the wheel of the lion
+  throne (སེང་གདན, seng gdan) for a king's fortune:
+
+  > …ཐ་སྐར་ནས་བཟུང་སྐག་གི་བར། །དགུ་པོ་དབུས་སྐར་མཆུ་ནས་ནི། །སྣྲོན་བར་ལྷོ་ཕྱོགས་སྣུབས་ནས་བཟུང་། །ནམ་གྲུའི་བར་དུ་བྱང་ཕྱོགས་བཞག །… ཆོས་སྐུ་རིམ་པར་སྦྱར། །མགོ་དང་ནག་པ་བྱ་གཞུག་གསུམ། །ཐད་ཀར་སེང་གདན་བྱུང་བ་ན། །རྒྱལ་པོའི་བདེ་སྡུག་སྟོན་པ་སྟེ། །ནག་པར་སྤེན་གནས་ལྷོ་ཕྱོགས་དང་། །མོན་དྲེ་སྤེན་གནས་བྱང་ཕྱོགས་དང་། །མགོ་སྤེན་གནས་ན་དབུས་ཀྱི་ནི། །རྒྱལ་པོ་སྲོག་དང་དབྲལ་བར་བརྗོད། …
+
+  The nine from Aśvinī to Āśleṣā are the centre's, Maghā to Jyeṣṭhā the
+  south's, Mūla to Revatī the north's. Mṛgaśiras, Citrā and *bya gzhug*
+  fall directly on the lion throne; Saturn on Citrā strikes the south's
+  king, on **Dhaniṣṭhā** the north's, on Mṛgaśiras the centre's. The three
+  are the fifth of each nine (4, 13, 22), and the verse restates *bya
+  gzhug* as mon dre. The parasol wheel that follows on the same page, for
+  the kings of the centre, east and west, names the same three outright:
+
+  > དབུས་དང་ཤར་ནུབ་རྒྱལ་པོ་ཡི། །བཟང་ངན་བརྟག་ཕྱིར་གདུགས་འཁོར་བཤད། །རྩ་བཞི་ལྡན་པའི་ལྟོ་འགྲོ་འཁྱོག །གསུམ་ཡོད་འཁྱོག་རེར་གདུགས་རེ་བཙུགས། །ཐ་སྐར་ནས་བཟུང་རྩ་བཞིར་འཁྱོག །མགོ་དང་ནག་པ་མོན་དྲེ་གསུམ། །གདུགས་ཀྱི་ཡུ་བར་རེ་རེ་གནས། …
+
+  A snake (ལྟོ་འགྲོ, lto 'gro) with three bends, a parasol set up on each,
+  the mansions counted along it from Aśvinī: Mṛgaśiras, Citrā and
+  Dhaniṣṭhā stand one on each parasol's shaft. (Yigdzin-1 drops these lines
+  beside the woodcut; MITRA has them; read on the scan.)
+
+- **Dhaniṣṭhā's own verse** (vol. 2, p. 326, img. 334, in
+  [mansion-verses.md](mansion-verses.md)): «མོན་དྲེ་སྐར་བཞི་བྱ་ལྟ་བུ», four
+  stars shaped like a bird; among its works «སྐྲ་འཁྲུ་རྟ་བཅོས་བྱེད་སོགས་བཟང»,
+  washing the hair and treating horses good, and «…ཐབ་འཆའ་གཉེན། །བག་མ་གཏོང་ལེན་ངན་པས་འཛེམ»,
+  setting up a hearth bad. Śravaṇa's verse (p. 325) gives it three stars
+  like a grain measure (བྲེ, bre), Abhijit's (p. 325) three like an ox's
+  head; neither names a hearth, and of horses Śravaṇa's names gelding
+  horses and donkeys among what it avoids, Abhijit's nothing.
+
+**Dhaniṣṭhā.** In WB's own usage the name is Dhaniṣṭhā: the birth list
+places it there in order, the sick list numbers it ༢༢, vol. 1 restates it
+as mon dre and names the same three with mon dre in the next wheel, the name fits Dhaniṣṭhā's bird, and both lists that use it name
+it on the side Dhaniṣṭhā's own verse gives (good for treating horses, bad
+for the hearth). Against it: both of those lists already name mon dre on
+the same side, so Dhaniṣṭhā would stand twice in one list; the 1996 bracket
+there is ༢༡; ch. 23's list by element puts *bya gzhug* under earth, whose
+four mansions include Abhijit and not Dhaniṣṭhā (below, *Open*); and KP's
+box 9 (img. 25, read on the scan) writes «བྱིཞི», Abhijit, where the hearth's
+verse has *bya mjug*, in the same order: «…མོནྡྲེ་ནུཾ་ / བྱིཞི་ལྷཾས་» on the bad
+side.
+
+**For the app:** nothing changes, whichever of the two it is. Read as
+Dhaniṣṭhā, the entry repeats mon dre on the same side (bad for the hearth,
+good for treating horses), which the app already has; read as Abhijit, it
+is not calculated. Only Śravaṇa would add entries, and nothing but the
+editors' ༢༡ supports it: WB names Śravaṇa in these sections as gro bzhin
+(treating horses, a line further on) and in the other set as *bya sbo*.
+
+### Doubts
+
+- The Zhol print's interlinear numeral over *bya mjug* in the hearth (WBZ
+  img. 1151, the last line, enlarged 5×) looks like ༢༢, the numeral over
+  mon dre beside it; at 3,700 px the two digits are a few pixels high, and
+  the reading is not certain. The numerals of the birth list (WBZ img. 1140)
+  are too faint to read.
+- KP's box 42 (img. 49): the bad date after ༨ is a two-digit group read 12
+  in the box as built; at 3× its second digit resembles the ༣ of the same
+  line. Not part of O2's line; noted for whoever reads the box again.
+- KP's box 29 (img. 39, read on the scan at 3×): the dotted line that ties
+  «ནུཾ སྐག» to «བྱ་གཅོད་དམིགས་བསལ་ལེགས» begins after «མགོ», so Mṛgaśiras
+  may belong to the box's good list (WB's lists it good); the box as built
+  has it on neither side. KP's good list (nabs so, chu smad, mon gru, sa ri)
+  lacks both *bya gzhug* and mon dre.
+- «བྱ་གཏོང» (treating horses, p. 401): the act is not identified.
+- BDRC's full-text search (2026-10-12): the collected works of the fourth
+  Drigung Chungtsang, Bstan 'dzin chos kyi rgyal mtshan (MW3JT13322; etext
+  snippet only, no scans), list the mansions' other names: «…ཆུ་སྟོད་གྲོ་ལ་ཆུ་སྨད་ཕུལ། །གྲོ་བཞིན་ལ་ནི་བྱ་ཕོ་དང་། །བྱི་བཞིན་བྱ་གཞུག་མོན་དྲེ་ལ། །སྒྲོག་སྟོད་མོན་གྲུར་སྒྲོག་སྨད་དེ། …».
+  The line can be parsed «བྱི་བཞིན་ / བྱ་གཞུག་མོན་དྲེ་ལ» or «བྱི་བཞིན་བྱ་གཞུག
+  / མོན་དྲེ་ལ [སྒྲོག་སྟོད]»; without the page it decides nothing. A
+  32-volume *Sgo bzhi mdzod lnga'i yang bcud* (MW3PD398, vol. 30, *skar
+  rtsis*; etext snippet) states «ཉེར་གཅིག་གྲོ་བཞིན་བྱ་སྦོ་ཡིན། །ཉེར་གཉིས་མོན་དྲེ་བྱ་གཞུག་གོ»;
+  its school is not established here (its title may be Bon's), so it is
+  not used as a source.
+
+### Open
+
+- Question: WB vol. 1, p. 373 (ch. 23, the bride's mansions by element):
+  «ཤིང་ཁམས་པ་ལ་རྒྱལ་སྨད་དང་། །མེ་ཁམས་དབོ་དང་ས་རི་སྟེ། །ས་ཁམས་ས་ག་བྱ་གཞུག་དང་། །ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད། …»
+  By the turtle's quarters (vol. 1, p. 232; [personal-mansions.md](personal-mansions.md))
+  earth's four mansions are Bharaṇī, Āśleṣā, Viśākhā and Abhijit, so *bya
+  gzhug* under earth would be Abhijit, though WB elsewhere uses the name
+  for Dhaniṣṭhā (p. 382; vol. 1, p. 93). Iron's «ས་ག» falls outside iron's
+  quarter as well. Does this verse count the elements another way, or is
+  it corrupt, and which mansion does its *bya gzhug* name?
+- Question: WB vol. 2, pp. 390 and 401: the hearth and treating horses each
+  name mon dre and *bya gzhug* in one list, on the same side. Is the name
+  there a second mention of Dhaniṣṭhā (two sources joined), or another
+  mansion, as the 1996 bracket ༢༡ and KP's «བྱིཞི» in box 9 take it?
+
+### Searched and not found
+
+- *bya gzhug*, *bya mjug*, *bya zer* and *bya sbo* in WB's list of the
+  mansions' other names (vol. 1, p. 19, etext p. 29, etext only): the list
+  names Śravaṇa «ཐུ་ཝ་ཎ», «འཕྲོག་བྱེད», «བོན་པོ», Dhaniṣṭhā «ནམ་མཐོང་གོང»,
+  «ཐོབ་ལྡན་མ», «…ཥྛ», Śatabhiṣaj «ཆུ་ལྷ་མོ», «སྒྲོག», «ནམ་མཐོང་འོག», and none
+  of the bird names; *phul*, *bre*, *sog ma* and *lde'u* are there.
+- «བྱ་གཞུག» and «བྱ་མཇུག» in the etext of both volumes of WB: only vol. 1,
+  p. 93, and vol. 2, pp. 382, 390, 401, 416; the notes (vol. 2,
+  pp. 474–541) have neither.
+- BDRC's full-text search for «བྱ་གཞུག» (2026-10-12): 200 hits, nearly all
+  «གདུལ་བྱ་གཞུག», "to bring in those to be trained"; «བྱ་ཟེར་བྱ་སྦོ»: none;
+  «བྱ་སྦོ་བྱ་གཞུག»: one, a treasure text's prosperity rite (MW1KG2118_4EBF3C)
+  naming *bya sbo* and *bya gzhug* between *phul* and *sgrog*, with no
+  numbers. No commentary on ch. 34's four lines was found.
+- The three lists in WB's notes (vol. 2, pp. 474–541, etext): «ཚེས་གཅིག་དྲུག»,
+  «བཅོ་བརྒྱད་དགུ», «ཚེ་ནོར» and «ཡིག་རྩིས» do not occur; its «བག་མ» passages
+  (section 6, pp. 525–532) concern the couple's years, clans and
+  ancestors, not ch. 34's dates.
