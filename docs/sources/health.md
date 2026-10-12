@@ -444,7 +444,7 @@ From MW3CN5036's etext and BDRC's search snippets only, for RD9 to read on the s
 
 **The weekdays by birth animal (KL p. 256) are WB's.** All 36 of KL's la, life-force and slayer weekdays (བླ་གཟའ, སྲོག་གཟའ, གཤེད་གཟའ; bla gza', srog gza', gshed gza') agree with WB vol. 2, p. 330, as [personal-mansions.md](personal-mansions.md) gives them read on the scan (*Result*). KL still names no source.
 
-**The monthly course (KL pp. 201–202) is WB's Phugpa list with four places changed.** Against WB vol. 2, pp. 303–304 ([lunar-dates.md](lunar-dates.md), the person's column): 26 dates agree; KL has the knee on the 4th (WB the waist), the shoulder blade on the 10th (WB the top of the shoulder), the crown and whole body on the 15th (WB the shoulder blade), the instep on the 29th (WB the shin), and adds the sole on the 30th. KL's syllables (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ) are not WB's Kālacakra list.
+**The monthly course (KL pp. 201–202) is WB's Phugpa list with four places changed.** Against WB vol. 2, pp. 303–304 ([lunar-dates.md](lunar-dates.md), the person's column): 26 dates agree (RD10 below, reading WB on the scan, counts 25, the 10th and 30th as near; the places are the same in both counts); KL has the knee on the 4th (WB the waist), the shoulder blade on the 10th (WB the top of the shoulder), the crown and whole body on the 15th (WB the shoulder blade), the instep on the 29th (WB the shin), and adds the sole on the 30th. KL's syllables (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ) are not WB's Kālacakra list.
 
 **The same course in older medical books, found by BDRC's full-text search** (snippets; not cited by KL). KL's place words «ལྟག་པ་ཟ་འགྲམ» and «རྣ་ལྟག་ཟ་འགྲམ» are found under the heading «བླ་གནས་འཕོ་ཚུལ། གཙུག་ལག་རིག་བྱེད་ལུགས་ཀྱི», "the la's moving, by the system of the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed)", in Deumar's *Precious Garland* (item 6); in Situ Wön Karma Ngedön's (སི་ཏུ་དབོན་ཀརྨ་ངེས་དོན, si tu dbon karma nges don) *Garland of Deathless Jewels* (འཆི་མེད་ནོར་བུའི་ཕྲེང་བ, 'chi med nor bu'i phreng ba; MW24827), with people and horses side by side («…༡༣ མི་ཡི་སྐེ་མགུལ་སྟེང་ན་གནས། … ༡༤ མི་ཡི་རྣ་ལྟག་ཟ་འགྲམ་ལ། … ༡༥ མི་ཡི་ལུས་ཀུན་ཁྱབ་པར་གནས།»); in a Drigung (འབྲི་གུང, 'bri gung) text on striking the la-dagger (བླ་ཕུར, bla phur) at the la's place (MW3KG218_O3KG218_HNUNIO: «…བཅུ་གསུམ་ལ་སྐེ་མགུལ། བཅུ་བཞི་རྣ་ལྟག་དང་ཟ་འགྲམ། བཅོ་ལྔ་ལུས་ཀུན་ལ་ཁྱབ། བཅུ་དྲུག་ལ་རྣ་ལྟག་ཟ་འགྲམ། བཅུ་བདུན་སྐེ་མཇིང་། བཅོ་བརྒྱད་ལ་ལག་མཐིལ། བཅུ་དགུ་ལ་ལག་ངར། ཉི་ཤུ་ལ་དཔུང་སོག་སྟེང་…»); and in modern textbooks (1997, 2013, 2016, 2019).
 
@@ -476,14 +476,12 @@ RS's viewer search («བླ་གནས», «བླ», «ནད», «སྨན�
 
 ### Open
 
-- Question: Is KL's monthly la course the Tsuglag Rigje column of Deumar's table (*Precious Garland*, Xining 1993, printed pp. 590–592, etext only; its scans are lent on archive.org), and what is the Tsuglag Rigje system, and where did Deumar take it from?
-- Question: Does Mipham's *Treatise on Passion* give a course of the la by date or by hour, or only the anointing that KL p. 3, note 2, bases on it? Its etext in his Collected Works (I1KG8551, from img. 536) is too poor to find the passage.
-- Question: Which edition is KL's «གསོ་རིག་རྒྱུད་བཞི་ལྕགས་པར་མ»? KL also calls a book of the Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང, si khron mi rigs dpe skrun khang) «ལྕགས་པར་མ» (p. 230, note), so the word may mean a typeset edition rather than the Chakpori (ལྕགས་པོ་རི, lcags po ri) blocks that RD7's "Iron-block print" suggests; and its page numbers put the Explanatory Tantra's daily conduct (ch. 13) on p. 78 after its conduct by the season (ch. 14) on p. 50 (KL pp. 98 and 61, notes).
-- Question: KL p. 199 has bile rise «ཉིན་དགོང་མཚན་དགོང», where the Four Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང», midday and midnight: a misprint in KL?
-- Question: KL p. 61's second line «དེ་ཡིས་ལུས་ཟུངས་བྲི་བར་འགྱུར་བས་ཕྱིར» stands where the machine texts of the Explanatory Tantra and of Byangpa's commentary go straight from «…བཀྲེས་འགྱུར་ཏེ» to «ཏིལ་མར་གྱིས་བྱུག…»: KL's own wording, or another edition's?
-- Question: Is KL p. 202's «ལྒང་བ» at daybreak a misprint for WB's «རྐང་གཉིས», both feet (WB vol. 2, p. 304, machine-read), and does the scan of p. 304 confirm WB's line?
-- Question: Which text gives the six moxa dates 1, 6, 15, 18, 22 and 30 that KL p. 255 writes as a verse line and p. 256 calls "in agreement with the Tibetan reckoning"?
-- Question: Does GC name a source for its la course and for its rule that the course starts on a man's left and a woman's right (BDRC p. 224)? Only snippets were seen; the book is restricted.
+Open questions 84–89 ([open-questions.md](open-questions.md)), in order:
+Deumar's Tsuglag Rigje column; Mipham's treatise; «ལྕགས་པར་མ»; «ཉིན་དགོང་མཚན་དགོང»;
+KL p. 61's second line; GC's source for its la course. KL's «ལྒང་བ» is
+question 60 (WB p. 304 read on the scan by RD10: both feet at daybreak),
+its six moxa dates question 79; question 58 is answered further (below,
+*The facts, for RD9*).
 
 ### Searched and not found
 

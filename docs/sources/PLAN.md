@@ -374,3 +374,19 @@ Searched and found wanting, so not to be repeated:
 - **A rule for the eight-day round of the lunar dates' illness in WB ch. 33**
   (RD10, 2026-10-12): none; the matches are given one by one (the round is
   ch. 25's goddesses').
+- **A source named in KL for its la tables or moxa dates** (RD8,
+  2026-10-12; KL's whole etext): none in ch. 10 or ch. 13; only p. 3,
+  note 2, and p. 24 (Mipham) for the anointing.
+- **KL's moxa line and «བླ་རྩ་བསྡམ» in BDRC's full-text search** (RD8,
+  2026-10-12; «ཚེས་གཅིག་དྲུག་དང་བཅོ་ལྔ», «བཅོ་བརྒྱད་ཉེར་གཉིས་སུམ་ཅུ»): KL only;
+  «བླ་རྩ་བསྡམ», no result.
+- **Mipham's *Treatise on Passion* in the etext of his Collected Works**
+  (RD8, 2026-10-12; VEIE0OPI44A9BBFC_I1KG8551, poor OCR): no readable la
+  passage between etext pp. 536 and 575; the scans are to be read instead.
+- **GC's etext** (RD8, 2026-10-12): `etextchunks` answers 403; the viewer's
+  search finds no snippet naming Mipham, Deumar, Rigdzin Gödem or a source
+  for the la course (22 terms searched; the list in health.md).
+- **KL's place words in RS** (RD8, 2026-10-12): none; RS's la courses are
+  other systems.
+- **The Final Tantra's la-pulse passage that GC quotes** (RD8, 2026-10-12):
+  not located in MW3CN5036.

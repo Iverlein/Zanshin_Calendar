@@ -587,7 +587,10 @@ the text, not about the app.
     *Answered in part, 2026-10-12 (RD10, [health.md](health.md), *KL's tables
     in WB*): the course by date is WB's Phugpa list (vol. 2, p. 303) in 25
     of 30 places, the course by hour WB's course within the day (p. 304);
-    what stays open is in questions 77 and 78.*
+    what stays open is in questions 77 and 78. RD8 (2026-10-12, the same
+    file) found the monthly course as the Tsuglag Rigje system of Deumar's
+    *Precious Garland* (question 84), and KL's anointing of the la's places
+    based on Mipham's *Treatise on Passion* (question 85).*
     Dr. Chenagtsang's *Manual of Massage* names none. Do they agree with
     WB's la by date (vol. 2, pp. 303–305) and with the classical medical
     texts? A question to put to Dr. Chenagtsang if the texts do not settle
@@ -716,7 +719,8 @@ the text, not about the app.
     are 1, 6, 15, 18, 22 and 30, given "in agreement with the Tibetan
     reckoning"? WB counts the 18th good for bloodletting and moxa (vol. 2,
     pp. 300, 404) and avoids the 4th, 8th and 29th, which KL does not name
-    (2026-10-12, RD10, [health.md](health.md)).
+    (2026-10-12, RD10, [health.md](health.md)). BDRC's full-text search
+    finds KL's line in KL alone (RD8).
 
 80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
     the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),
@@ -744,3 +748,40 @@ the text, not about the app.
     etext ཇིབ) and «[འདི]་ལོང» (vol. 1, p. 403); on the sheep day, «དབྱུག་དཔྱད»
     (vol. 2, p. 357). What are they (2026-10-12, RD10,
     [health.md](health.md))?
+
+84. **KL's monthly la course and Deumar's Tsuglag Rigje system.** Is KL's
+    course the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed) column of
+    Deumar's table (*Precious Garland*, Xining 1993, printed pp. 590–592,
+    etext only; its scans are lent on archive.org), what is the Tsuglag
+    Rigje system, and where did Deumar take it from (2026-10-12, RD8,
+    [health.md](health.md))?
+
+85. **Mipham's *Treatise on Passion* and the la.** Does it give a course of
+    the la by date or by hour, or only the anointing that KL p. 3, note 2,
+    bases on it? Its etext in his Collected Works (I1KG8551, from
+    img. 536) is too poor to find the passage (2026-10-12, RD8,
+    [health.md](health.md)).
+
+86. **KL's «གསོ་རིག་རྒྱུད་བཞི་ལྕགས་པར་མ».** Which edition is it? KL also calls a
+    book of the Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང,
+    si khron mi rigs dpe skrun khang) «ལྕགས་པར་མ» (p. 230, note), so the word
+    may mean a typeset edition rather than the Chakpori (ལྕགས་པོ་རི, lcags po
+    ri) blocks that RD7's "Iron-block print" suggests; and its page numbers
+    put the Explanatory Tantra's daily conduct (ch. 13) on p. 78 after its
+    conduct by the season (ch. 14) on p. 50 (KL pp. 98 and 61, notes)
+    (2026-10-12, RD8, [health.md](health.md)).
+
+87. **KL p. 199: «ཉིན་དགོང་མཚན་དགོང».** Bile rises so in KL, where the Four
+    Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
+    midday and midnight: a misprint in KL (2026-10-12, RD8,
+    [health.md](health.md))?
+
+88. **KL p. 61: «དེ་ཡིས་ལུས་ཟུངས་བྲི་བར་འགྱུར་བས་ཕྱིར».** This second line stands
+    where the machine texts of the Explanatory Tantra and of Byangpa's
+    commentary go straight from «…བཀྲེས་འགྱུར་ཏེ» to «ཏིལ་མར་གྱིས་བྱུག…»: KL's own
+    wording, or another edition's (2026-10-12, RD8, [health.md](health.md))?
+
+89. **GC's la course.** Does GC name a source for its la course and for
+    its rule that the course starts on a man's left and a woman's right
+    (BDRC p. 224)? Only snippets were seen; the book is restricted
+    (2026-10-12, RD8, [health.md](health.md)).
