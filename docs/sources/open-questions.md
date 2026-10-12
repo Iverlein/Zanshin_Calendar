@@ -584,21 +584,34 @@ the text, not about the app.
     or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?
 
 58. **KL pp. 201–203: the source of the la's courses by date and by hour.**
+    *Answered in part, 2026-10-12 (RD10, [health.md](health.md), *KL's tables
+    in WB*): the course by date is WB's Phugpa list (vol. 2, p. 303) in 25
+    of 30 places, the course by hour WB's course within the day (p. 304);
+    what stays open is in questions 77 and 78.*
     Dr. Chenagtsang's *Manual of Massage* names none. Do they agree with
     WB's la by date (vol. 2, pp. 303–305) and with the classical medical
     texts? A question to put to Dr. Chenagtsang if the texts do not settle
     it (2026-10-12, RD7, [health.md](health.md)).
 
-59. **KL p. 256: the la, life-force and slayer weekdays by birth animal.**
+59. ~~**KL p. 256: the la, life-force and slayer weekdays by birth animal.**~~
+    *Answered 2026-10-12 (RD10, [health.md](health.md)): they are WB vol. 2,
+    p. 330, all thirty-six cells.* The question as it stood:
     Where do they come from, and do they agree with WB's? KL names no
     source (2026-10-12, RD7, [health.md](health.md)).
 
-60. **KL p. 202: «ལྒང་བ» (lgang ba).** Where the la stays at daybreak: if it
+60. **KL p. 202: «ལྒང་བ» (lgang ba).** *Narrowed 2026-10-12 (RD10,
+    [health.md](health.md)): WB's course within the day, which KL follows,
+    has both feet (རྐང་གཉིས) at daybreak (vol. 2, p. 304), and WB writes «ལྒང»
+    for the bladder (vol. 1, p. 252); so the bladder, or «རྐང་པ», foot, by a
+    slip of sound?* Where the la stays at daybreak: if it
     is the bladder (ལྒང་པ, lgang pa), the place sits oddly between the
     night's whole body and the neck at sunrise. What is it (2026-10-12, RD7,
     [health.md](health.md))?
 
-61. **KL p. 256: Friday's first burning date.** The scan reads ༢ (2,
+61. ~~**KL p. 256: Friday's first burning date.**~~ *Answered 2026-10-12
+    (RD10, [health.md](health.md)): WB has the 2nd and 17th (vol. 1, p. 177;
+    vol. 2, p. 351), so KL's scan (༢) is right and BDRC's etext (༣) wrong.*
+    The question as it stood: The scan reads ༢ (2,
     fifteen days before 17, as every other pair), BDRC's etext ༣ (3);
     Sunday's 12 and Saturday's 22 rest on the same small hook. A sharper
     copy or another printing of KL, or the classical list, would settle it
@@ -685,3 +698,49 @@ the text, not about the app.
 76. **WB vol. 1, p. 326 (img. 336): «སྐྱེད་པོ་བགྲང».** Said of daughters born on
     certain trigrams: "count husbands", that is, marry more than once
     (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+
+77. **WB vol. 2, p. 303 (img. 311): three of the Phugpa la places.** The
+    list prints the waist on the 4th, the shoulder blade («སོག་པ») on the
+    15th and the shin on the 29th, where the climb and descent of the rest
+    of the list, and KL (pp. 201–202), have the knee, the crown and the
+    instep. Are these the blocks' words or slips of the 1996 setting, and
+    which places does the tradition follow (2026-10-12, RD10,
+    [health.md](health.md))?
+
+78. **KL pp. 201–202: the syllables of the la's dates.** From which text
+    are KL's syllables (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ), which are in
+    neither of WB's lists by date (vol. 2, p. 303) (2026-10-12, RD10,
+    [health.md](health.md))?
+
+79. **KL p. 256: the six dates to avoid moxa.** From which text or teacher
+    are 1, 6, 15, 18, 22 and 30, given "in agreement with the Tibetan
+    reckoning"? WB counts the 18th good for bloodletting and moxa (vol. 2,
+    pp. 300, 404) and avoids the 4th, 8th and 29th, which KL does not name
+    (2026-10-12, RD10, [health.md](health.md)).
+
+80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
+    the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),
+    the element that gives birth to the life force's; its la weekdays by
+    birth animal (vol. 2, p. 330) mostly carry the life force's own element
+    (the mouse's Wednesday water, the tiger's Thursday wood, the bird's
+    Friday iron), not its mother's. How do the two go together (2026-10-12,
+    RD10, [health.md](health.md))?
+
+81. **WB vol. 1, pp. 403, 405: the seven-red's two readings.** When a
+    person born under the two-black mewa reaches a year on the seven-red,
+    does the reading by the natal mewa (p. 405: moxa good, bloodletting
+    bad) replace the seven-red's own (p. 403: both avoided), or do both
+    stand (2026-10-12, RD10, [health.md](health.md))?
+
+82. **WB vol. 1, pp. 253, 271: the turtle's skull.** Ch. 21 glosses the
+    first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the
+    turtle's skull (p. 253), while ch. 22 has them come from the turtle's
+    hip and thigh (p. 271). Does the gloss belong to that pair, or to the
+    whole list (2026-10-12, RD10, [health.md](health.md))?
+
+83. **Words not settled on the scan (RD10).** In the lunar dates' illness
+    lines, the 2nd's «[སྣོད]་གཞི་དགང» (or སྟོད) and the 3rd's «བྱ་[མྱང]་བྱེད» (MITRA
+    མྱུང) (vol. 2, p. 298); on the seven-red mewa, «ཟླ་[རིབ]» (Yigdzin-1 རྡིབ, the
+    etext ཇིབ) and «[འདི]་ལོང» (vol. 1, p. 403); on the sheep day, «དབྱུག་དཔྱད»
+    (vol. 2, p. 357). What are they (2026-10-12, RD10,
+    [health.md](health.md))?

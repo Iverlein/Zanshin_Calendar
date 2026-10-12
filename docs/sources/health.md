@@ -669,14 +669,10 @@ the life force, body, power and wind-horse of the year, month, day and hour are 
 
 ### Open
 
-- Question: WB's Phugpa list of the la's places (vol. 2, p. 303, img. 311) prints the waist on the 4th, the shoulder blade («སོག་པ») on the 15th and the shin on the 29th, where the climb and descent of the rest of the list, and KL (pp. 201–202), have the knee, the crown and the instep. Are these the blocks' words or slips of the 1996 setting, and which places does the tradition follow?
-- Question: From which text are KL's syllables for the la's dates (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ, pp. 201–202), which are in neither of WB's lists by date (vol. 2, p. 303)?
-- Question: From which text or teacher are KL's six dates to avoid moxa (1, 6, 15, 18, 22, 30, p. 256), given "in agreement with the Tibetan reckoning"? WB counts the 18th good for bloodletting and moxa (vol. 2, pp. 300, 404) and avoids the 4th, 8th and 29th, which KL does not name.
-- Question: Is KL's «ལྒང་བ» at daybreak (p. 202) the bladder, as WB writes «ལྒང» for it (vol. 1, p. 252), or the feet, which WB's course within the day has at daybreak («རྐང་གཉིས», vol. 2, p. 304)?
-- Question: WB calls the la the mother of the life force (vol. 1, p. 253: «བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»), the element that gives birth to the life force's. Its la weekdays by birth animal (vol. 2, p. 330) mostly carry the life force's own element (the mouse's Wednesday water, the tiger's Thursday wood, the bird's Friday iron), not its mother's. How do the two la go together?
-- Question: When a person born under the two-black mewa reaches a year on the seven-red, does WB's reading by the natal mewa (vol. 1, p. 405: moxa good, bloodletting bad) replace the seven-red's own reading (p. 403: both avoided), or do both stand?
-- Question: Ch. 21 glosses the first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the turtle's skull (vol. 1, p. 253), while ch. 22 has them come from the turtle's hip and thigh (p. 271). Does the gloss belong to that pair, or to the whole list?
-- Question: Words not settled on the scan: in the illness lines of the lunar dates, the 2nd's «[སྣོད]་གཞི་དགང» (or སྟོད) and the 3rd's «བྱ་[མྱང]་བྱེད» (MITRA མྱུང) (vol. 2, p. 298); on the seven-red mewa, «ཟླ་[རིབ]» (Yigdzin-1 རྡིབ, the etext ཇིབ) and «[འདི]་ལོང» (vol. 1, p. 403); on the sheep day, «དབྱུག་དཔྱད» (vol. 2, p. 357). What are they?
+Open questions 77–83 ([open-questions.md](open-questions.md)), in order: the
+three Phugpa places; KL's syllables; KL's six moxa dates; the two la; the
+seven-red's two readings; the turtle's skull; words not settled. «ལྒང་བ» is
+question 60, narrowed; 59 and 61 are answered here, 58 in part.
 
 ### Searched and not found
 

@@ -363,3 +363,14 @@ Searched and found wanting, so not to be repeated:
 - **A worked example of a natal trigram** in WB ch. 22 or the notes'
   section 1 (RD13, 2026-10-12; etext and Yigdzin-1): none; the
   *Moonbeams*' rule (f. 9a) is the only count.
+- **A table of the la, the life force or illness by date, month or hour in
+  WB ch. 20–21** (RD10, 2026-10-12; vol. 1, pp. 218–258, every «བླ», «སྲོག»
+  and «ནད» of the etext, img. 228–268): none.
+- **KL's six moxa dates (1, 6, 15, 18, 22, 30) as a list in WB** (RD10,
+  2026-10-12; «མེ་བཙའ» in the etext of both volumes): none.
+- **A reading of a person's enemy or grave mansion in WB ch. 33** (RD10,
+  2026-10-12; «དགྲ་སྐར», «དུར་སྐར» in vol. 2): «དགྲ་སྐར» there is a class of the
+  mansions themselves; no reading of either for a day.
+- **A rule for the eight-day round of the lunar dates' illness in WB ch. 33**
+  (RD10, 2026-10-12): none; the matches are given one by one (the round is
+  ch. 25's goddesses').
