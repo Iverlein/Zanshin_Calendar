@@ -256,3 +256,7 @@ Open questions 46–53 ([open-questions.md](open-questions.md)), in order: the a
 - The year of the sky («གནམ་ལོ») defined as an element and place for the count: not defined in ch. 25; the starting place is called «གནམ་ལོའི་ས», "the sky-year's earth", and not explained here (the notes' section 3, pp. 495–499, not read in this reading).
 - A text that gives the planets' and mansions' lists of p. 438 in the same words elsewhere: not searched beyond the repository's mansion verses (vol. 2, pp. 313–328), which have no recovery or death counts.
 
+
+## Dr. Nida Chenagtsang's works (RD7)
+
+Nothing read yet: RD7's passages, with the English beside them, go here.
