@@ -22,11 +22,11 @@ none has not been opened for the app.
 | 2 | 14–21 (24–31) | Preliminaries: the essentials of the star reckoning, the Chinese reckoning and the *dbyangs 'char* | [day-letters.md](day-letters.md) (pp. 16–19: the letters, the months as the twelve links); [white-beryl-ch34.md](white-beryl-ch34.md) (O2, 2026-10-12: p. 19, the mansions' other names, etext only; none of the bird names *bya zer*, *bya sbo*, *bya gzhug*) |
 | 3 | 22–28 (32–38) | The chronology of the doctrine (*bstan rtsis*) | — |
 | 4 | 29–33 (39–43) | The five limbs of the *byed rtsis* and *grub rtsis* | SPEC §8.3 (pp. 31–32, the *byed rtsis* for the eclipses, T2.23) |
-| 5 | 34–36 (44–46) | Rāhu, the *byed* year, the Kar myang reckoning | [day-letters.md](day-letters.md); the Lord's meeting (p. 36) read and left out (T2.23) |
+| 5 | 34–36 (44–46) | Rāhu, the *byed* year, the Kar myang reckoning | [day-letters.md](day-letters.md); the Lord's meeting (p. 36) read and left out (T2.23); p. 34, a sign is 135 chu tshod, read on the scan (O4, [month-entries.md](month-entries.md)) |
 | 6 | 37–41 (47–51) | The five planets, the days of the planets | the four motions (p. 40) read and left out (T2.23) |
 | 7 | 42–50 (52–60) | The five planets reckoned exactly (*tshes spyod*) | — (the app's planets are Henning's TCG, T2.23) |
 | 8 | 51–55 (61–65) | The *dus sbyor* | — |
-| 9 | 56–69 (66–79) | How Rāhu seizes the sun and moon: eclipses | [month-entries.md](month-entries.md), [open-questions.md](open-questions.md) 18 (pp. 62, 64) |
+| 9 | 56–69 (66–79) | How Rāhu seizes the sun and moon: eclipses | [month-entries.md](month-entries.md), [open-questions.md](open-questions.md) 18 (pp. 62, 64); p. 64's Mercury and Venus clause read on the scan with the editors' (༡༣༥) (O4, 2026-10-12) |
 | 10 | 70–78 (80–88) | Making new tables and keeping the old | — |
 | 11 | 79–90 (89–100) | Quick reckoning of the tables | — |
 | 12 | 91–103 (101–113) | A drop of the *g.yul rgyal* tantra's sea, for the *dbyangs 'char* | [day-letters.md](day-letters.md) (pp. 96–99: the hundred feet), [personal-mansions.md](personal-mansions.md); [white-beryl-ch34.md](white-beryl-ch34.md) (O2, 2026-10-12: pp. 92–93, the lion throne's wheel, read on the scan: *bya gzhug* restated as mon dre, Dhaniṣṭhā) |

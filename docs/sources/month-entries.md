@@ -327,12 +327,138 @@ on the sun's own equation (p. 32): its first day is the mean sun's
 entry into 20;15, Capricorn, as the sun turns north, while Cancer is
 where it turns south; the line names the two turnings. Both readers
 make these days hard to seize (JL «འཛིན་པ་དཀའ»; OS «གཞི་ནས་མི་འཛིན་ངེས་བཅད་དཀའ»), not
-days with none, WB's own word being «བཞེད», "is held". Which places of
-Mercury and Venus the second compares, and why 135 chu tshod, no source
-found says. Applied, each reading removes real eclipses: the crooked
+days with none, WB's own word being «བཞེད», "is held". For the second,
+the *Seven Special Qualities* compares the true sun with Mercury or Venus
+in one mansion and makes the part seized smaller; which place of the
+planet, and why 135 chu tshod, no source found says (O4, below).
+Applied, each reading removes real eclipses: the crooked
 motion's first day 2010-01-15; the sun in Cancer 2008-08-01,
 2009-07-22, 2026-08-12, 2027-08-02, 2045-08-12; Mercury or Venus by the
 true reckoning nearly all. The app applies neither.
+
+### Mercury and Venus at an eclipse (O4)
+
+Read 2026-10-12 for open question 18. WB vol. 1, p. 64 (img. 74) and
+p. 34 (img. 44) with Yigdzin-1 and MITRA as witness, the lines quoted
+below read on the scan at 4–8×; the other texts from BDRC's etexts
+only (KD's and the Sakya volume's scans are lent on archive.org and
+were not read), so their Tibetan is the machine reading.
+
+**WB p. 64 (img. 74)**, lines 26–28, with the 1996 editors' bracket:
+«གཞན་ཡང་ལྷག་པ་པ་སངས་གཉིས། །གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ(༡༣༥)ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད། །དང་པོ་འཛིན་ནམ་མི་འཛིན་ལ། །འདི་ལ་གྲུབ་རྩིས་ལེ་ཚན་དང་། །ཅུང་ཟད་བསྟུན་ཙམ་དགོས་པའི་[ཕྱིར།]».
+"Further, when either of the two, Mercury (ལྷག་པ, lhag pa) or Venus
+(པ་སངས, pa sangs), stays together [with the sun] in one mansion (སྐར་མ,
+skar ma), within 135 sixtieths (ཆུ་ཚོད, chu tshod), it cannot be
+seized. For the first part, whether it is seized or not, the chapter
+on the true reckoning (གྲུབ་རྩིས, grub rtsis) and some agreement with it
+are needed." On the scan the bracket is (༡༣༥), as the number word reads
+(Yigdzin-1 ༡༢༥, MITRA lost it, the 1996 etext lost the word's end and
+the bracket), and «བསྟུན» is printed where KD's reprint and the Gser
+thang (གསེར་ཐང, gser thang) edition's etexts have «བསྟན». The partner
+of Mercury or Venus is not named; the section is the sun's.
+
+**The *Seven Special Qualities* restates it.** Sde gzhung Chos 'phel
+(སྡེ་གཞུང་ཆོས་འཕེལ, sde gzhung chos 'phel), *The Sun's Rays*, a
+practice of reckoning with seven special qualities (ཁྱད་ཆོས་བདུན་ལྡན་གྱི་རྩིས་ཀྱི་ལག་ལེན་ཟབ་དོན་གསལ་བར་བྱེད་པའི་ལེགས་བཤད་ཉི་མའི་འོད་ཟེར, khyad chos bdun ldan gyi rtsis kyi lag len zab don gsal bar byed pa'i legs bshad nyi ma'i 'od zer):
+in the Sakya (ས་སྐྱ, sa skya) volume that holds NM, its epoch the fire ox of the
+16th sixty-year cycle (རབ་བྱུང, rab byung), 1937, printed pp. 166–167 (etext IE0OPI8BBA1CDB, volume I5721,
+pp. 196–197; BDRC MW29978_C79345, the author there the Sde gzhung incarnation of
+Li thang (ལི་ཐང་སྡེ་གཞུང་སྤྲུལ་སྐུ, li thang sde gzhung sprul sku)), and in KD vol. 2 with the epoch moved to the fire hare of
+the 17th (1987) by Kun dga' rig 'dzin (ཀུན་དགའ་རིག་འཛིན, kun dga' rig 'dzin)
+and Phur bu don grub (ཕུར་བུ་དོན་གྲུབ, phur bu don grub), printed p. 441
+(etext p. 461; printed = etext − 20 by the page footers). A modern
+work: quoted no further than the facts. Its solar eclipse opens with
+«སྐྱོན་བྲལ་གྲུབ་པའི་གནམ་སྟོང་གི །ཉི་དག་དང་ནི་གདོང་མཇུག་གཉིས» (KD p. 440), the true sun (ཉི་དག, nyi dag) of
+the faultless true reckoning's new moon against Rāhu's (སྒྲ་གཅན, sgra
+gcan) head and tail, and after the side and the hiding comes
+«ཉི་མ་རིལ་འཛིན་ཤར་ན་ཡང་། །ཟླ་བ་བཞིན་དུ་སྒྲིབ་མི་ནུས། །ཉི་དག་དང་ནི་ལྷག་སངས་གཉིས། །གང་རུང་སྐར་མ་གཅིག་གྱུར་ན། །འཛིན་ཆ་གོང་ལས་ཆུང་བར་འགྱུར།»:
+even when a total seizing of the sun comes out, the sun is not covered
+as the moon is; if the true sun and either Mercury or Venus come into
+one mansion, the part seized is smaller than reckoned above. So:
+
+- the sun's place compared is the true sun, the same that the text's
+  solar rule takes (its opening holds the true reckoning's planets and
+  the abridged reckoning's (བྱེད་རྩིས, byed rtsis) sun the right ones, «གྲུབ་པའི་གཟའ་དང་བྱེད་པ་ཡི། །ཉི་མ་དག་ཅེས་མཁས་རྣམས་བཞེད», KD p. 424,
+  and corrects the true reckoning's sun so that it may serve);
+- the planet's place is not named beyond the planet;
+- the condition is one mansion, and the 135 is gone;
+- the result is a smaller part, not no eclipse, as in JL («འཛིན་པ་དཀའ») and OS
+  (above).
+
+**Not the mean places.** Jo nang lo tsā ba Blo gros dpal (ཇོ་ནང་ལོ་ཙཱ་བ་བློ་གྲོས་དཔལ, jo nang lo tsA ba blo gros dpal),
+*The Intent Made Clear, Gladdening the Learned* (མཁས་པ་རྣམས་དགའ་བར་བྱེད་པའི་དགོངས་པ་རབ་ཏུ་གསལ་བ, mkhas pa rnams dga' bar byed pa'i dgongs pa rab tu gsal ba),
+on the five planets' mean motions (the Jonang series, ཇོ་ནང་དཔེ་ཚོགས, jo nang dpe tshogs, general vol. 16,
+printed p. 197; etext VEIE0OPIA6E6FF51_I1PD95842, p. 223):
+«ཞི་གཟའ་ལྷག་པ་དང་པ་སངས་གཉིས་ཀྱི་རྒྱུ་སྐར་འཁོར་བའི་རྟག་པའི་ལོངས་སྤྱོད་ནི། ཉི་མ་དང་མཚུངས་པ་ཡིན་ཏེ། ཞག་གསུམ་གྱི་དཀྱིལ་འཁོར་ཉི་མ་དང་མཚུངས་པ་ཡིན་པའི་ཕྱིར་ལོགས་སུ་བཤད་མི་དགོས།»:
+the mean motion (རྟག་པའི་ལོངས་སྤྱོད, rtag pa'i longs spyod) of the gentle
+planets (ཞི་གཟའ, zhi gza'), Mercury and Venus, round the mansions is the
+sun's, their cycle of days being the sun's, so it is not given apart.
+Their mean place is the mean sun's at every new moon; a clause that
+compared mean places would hold always. What it compares must be a
+place moved by the planet's own fast equation (མྱུར་བ, myur ba), its true
+place: this step is ours, no text read draws it.
+
+**135 sixtieths is a sign.** WB p. 34 (img. 44), on Rāhu, read on the
+scan: «ཁྱིམ་གནས་ཇི་ལྟར་བལྟ་བའི་ཕྱིར། །སྐར་གནས་མཁའ་རོས(༦༠)བསྒྱུར་བ་ལ། །ཆུ་ཚོད་བསྲེས་ལ་འབྱུང་མེ་ཟླས(༡༣༥)། །ཐོབ་པ་འདས་པའི་ཁྱིམ་ཡིན་ཞིང་།»:
+to see where he stands among the signs (ཁྱིམ, khyim), the mansions times
+60 with the sixtieths, divided by 135, give the signs passed. 135 is one
+sign, two mansions and 15. The annotated *Abridged Kālacakra Tantra*
+(བསྡུས་པའི་རྒྱུད་གོ་སླའི་མཆན, bsdus pa'i rgyud go sla'i mchan; BDRC
+MW1ALS05001I, from the ACIP database, etext VE1ALS05001I p. 23, the
+annotator not named) gives the planets' motion in a month:
+«ཟླ་བ་གཅིག་གི་ལོངས་སྤྱོད་མིག་དམར་གྱི་ཆུ་ཚོད་དགུ་བཅུ། །ལྷག་པ་དང་པ་སངས་གཉིས་ཀྱི་བརྒྱ་སུམ་ཅུ་སོ་ལྔ་རེ་རེ། ཕུར་བུའི་བཅུ་གཅིག །སྤེན་པའི་བཞི»,
+Mars 90 sixtieths, Mercury and Venus 135 each, Jupiter 11, Saturn 4.
+So 135 is one sign and the month's mean motion of Mercury and Venus,
+the sun's. Neither text ties the number to the eclipse, and WB's "one
+mansion" and "within one sign" do not sit together as one condition.
+
+What this leaves: the second exception compares Mercury or Venus with
+the sun, the *Seven Special Qualities* says with the true sun and in one
+mansion, and reads it as a smaller eclipse rather than none, as JL and
+OS read the whole list. Which sun WB means here (its solar rule makes
+the abridged reckoning principal, p. 65) and which place of the planet,
+and what the 135 adds, stay open.
+
+#### Open
+
+- Question: does WB's «གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ» (vol. 1, p. 64) set one condition
+  (in the sun's mansion and within 135 sixtieths of it) or two (in the
+  same mansion, or within 135 sixtieths, one sign, p. 34), and is the
+  135 the sign or the month's mean motion of Mercury and Venus (the
+  annotated *Abridged Kālacakra Tantra*)?
+- Question: which place of Mercury or Venus does the clause set beside
+  the sun, the true place after the fast equation (their mean place
+  being always the sun's, by Blo gros dpal) or another; and which sun,
+  the abridged reckoning's, principal in WB's
+  solar rule (p. 65), or the true reckoning's corrected sun that the
+  *Seven Special Qualities* takes?
+- Question: is the *Seven Special Qualities*' "the part seized is
+  smaller" a reading of WB's «བཟུང་མི་སྲིད», "cannot be seized", as JL's
+  «འཛིན་པ་དཀའ» and OS's are of the whole list, or a rule from another source?
+
+#### Searched and not found
+
+- BDRC full-text search, 2026-10-12: «ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན», «ལྷན་ཅིག་གནས་ཚེ་བཟུང», «ལྷག་པ་པ་སངས་གཉིས»
+  (WB's prints and reprints, KD, the Gser thang edition, a copy in verse
+  in the works of Bstan 'dzin chos kyi rgyal mtshan (བསྟན་འཛིན་ཆོས་ཀྱི་རྒྱལ་མཚན, bstan 'dzin chos kyi rgyal mtshan),
+  BDRC MW3JT13322, search only, «ལྷག་ཅིག» for «ལྷན་ཅིག», no gloss; otherwise
+  Mercury and Venus in other contexts); «ལྷག་སངས་གཉིས་གང་རུང», «ལྷག་པའམ་པ་སངས»,
+  «ལྷག་སངས་དང་ཉི་མ», «ལྷག་སངས་སྐར་མ་གཅིག», «ཞི་གཟའ་ཉི་མ་དང», «སྐར་མ་གཅིག་ཏུ་འཛོམས», «ཉི་མ་དང་སྐར་མ་གཅིག་ཏུ» (none);
+  «ཉི་འཛིན་མི་འབྱུང», «ཉི་མ་དང་ལྷག་སངས», «ཞི་གཟའ་གཉིས་ཉི་མ», «ཞི་གཉིས་ཉི་མ», «ཉི་མ་དང་ལྷག་པ», «ཉི་མ་དང་ལྷན་ཅིག་གནས»,
+  «ཉི་མ་དང་སྐར་མ་གཅིག» (eclipses without the planets, or the planets'
+  reckoning without the eclipse); «སྐར་མ་གཅིག་གྱུར་ན» and «འཛིན་ཆ་གོང་ལས་ཆུང» (the *Seven Special
+  Qualities* only).
+- Etexts searched for Mercury, Venus or the gentle planets beside a
+  solar eclipse: KD's five volumes (IE0OPI2F246A26), the Sakya
+  *rtsis gzhung*'s two volumes (IE0OPI8BBA1CDB), JL (IE0OPI436D66B7),
+  Bu ston (བུ་སྟོན, bu ston), *Making the Learned Glad* (རྩིས་ཀྱི་བསྟན་བཅོས་མཁས་པ་དགའ་བྱེད, rtsis kyi bstan bcos mkhas pa dga' byed;
+  IE0OPID3FD8407), Kongtrul (ཀོང་སྤྲུལ, kong sprul), *The Treasury
+  Pervading All Knowledge* (ཤེས་བྱ་ཀུན་ཁྱབ, shes bya kun khyab), three volumes (IE0OPIAC60CE45), the
+  annotated *Abridged Kālacakra Tantra* (VE1ALS05001I) and Blo gros
+  dpal's volume (VEIE0OPIA6E6FF51_I1PD95842): only the *Seven Special
+  Qualities*.
+- WB's author's *Removing the Tarnish from the Beryl* (བཻ་ཌཱུརྱ་གཡའ་སེལ, bai DUrya g.ya' sel): BDRC's search for «བཻ་ཌཱུརྱ་གཡའ་སེལ» finds only modern
+  essays naming it, no etext of it.
 
 **Against the sky**, 2000–2049 (Meeus, ch. 54; `EclipsesTest`): every one
 of the 79 full moons the lunar rule marks has a lunar eclipse (65 of the
