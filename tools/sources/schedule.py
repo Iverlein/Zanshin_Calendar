@@ -59,6 +59,7 @@ class Reading:
         self.id = re.search(r"(RD|O)\d+", cells[0]).group()
         self.name = re.sub(r"\s*— done .*", "", cells[1]).strip()
         self.done = bool(re.search(r"— done \d{4}-\d{2}-\d{2}", cells[1]))
+        self.unplanned = bool(re.search(r"\bnot planned\b", cells[1], re.I))
         self.filler = self.id.startswith("O")
         if self.filler:
             self.source, needs, self.topic, self.prompt = cells[1], "", cells[2], ""
@@ -68,7 +69,10 @@ class Reading:
         hard, _, soft = needs.partition(";")
         self.needs = re.findall(r"RD\d+", hard)
         self.after = re.findall(r"RD\d+", soft)
-        self.files = [(m.group(1), bool(m.group(2))) for m in re.finditer(r"([\w-]+\.md)( \(new\))?", self.topic)]
+        files = {}                      # a link names its file twice, as text and as target
+        for m in re.finditer(r"([\w-]+\.md)( \(new\))?", self.topic):
+            files[m.group(1)] = files.get(m.group(1), False) or bool(m.group(2))
+        self.files = list(files.items())
         self.gpu = any(w in self.source for w in GPU_WORDS)
         self.loan = any(w in self.source for w in LOAN_WORDS)
         self.gates = 0
@@ -149,7 +153,7 @@ def plan(args):
     done = {r.id for r in all_ if r.done}
     waiting, ready = [], []
     for r in all_:
-        if r.done:
+        if r.done or r.unplanned:
             continue
         missing = [n for n in r.needs if n not in done]
         (waiting if missing else ready).append((r, missing))
@@ -224,7 +228,7 @@ def cmd_plan(args):
                               waiting=[dict(id=r.id, needs=n) for r, n in waiting]), indent=1, ensure_ascii=False))
         return
     print_machine(m)
-    print(f"\ndone: {', '.join(sorted(done, key=lambda s: int(s[2:]))) or 'none'}")
+    print(f"\ndone: {', '.join(sorted(done, key=lambda s: (not s.startswith("RD"), int(re.search(r"\d+", s).group())))) or 'none'}")
     print(f"\nlaunch now ({len(launch)}):")
     for r, role in launch:
         print(f"  {r.id:5} {r.name[:60]:60} gates {r.gates}  [{', '.join(role)}]  -> {', '.join(f for f, _ in r.files)}")
