@@ -686,6 +686,437 @@ second reads «རུས་ཁམས» («གཞན་ཡང་རུས་ཁ�
   section 1 (etext and Yigdzin-1): none; the *Moonbeams*' rule (f. 9a) is
   the only count.
 
+## The obstacles that need other people (RD14)
+
+WB vol. 1, ch. 24, the obstacle reckoning (ཀེག་རྩིས, keg rtsis), the parts
+that ask for someone else's signs: the household, the spouse, the parents,
+the dead; with ch. 22's births on the eight trigrams (pp. 286–288, which
+are the ROADMAP's "ff. 180b–182a"), and the notes' section 2 (vol. 2,
+I1KG12907, pp. 489–495, img. 497–503, image = page + 8). The parts of
+ch. 24 that need only the person are above (*The obstacle years*, *The
+rest of the obstacle years*, read 2026-10-09) and are not repeated here.
+Read 2026-10-12.
+
+**How read.** Yigdzin-1 over img. 391–426 (vol. 1) and 498–503 (vol. 2);
+MITRA as witness over img. 296–298, 390, 395–398, 400, 406, 409–410,
+418–419. The two agree on 93–94% of the syllables of these pages; the flags
+inside the quoted passages were read on the scans at 2.3–5× (img. 296–298,
+390, 395–396, 398, 400, 406, 409–410, 417–419; vol. 2 img. 497–500). Most
+were MITRA's (ལྟ for ལྷ, ནུབ for རྩུབ, བརྒྱད for བརྒྱུད, a looped line); where
+Yigdzin-1 was wrong the quote follows the scan (img. 400: «ཚོར་བ», «ཁ་སྤྲོད»;
+vol. 2 img. 497: «ཁྱི», «གླང»). Passages marked "Yigdzin-1" were not read on the
+scan. BDRC's etext (IE0OPI51524892) was the third witness and the map.
+
+### The secret circle asks for no one's dates (p. 380)
+
+reckonings.md had "for the secret circle the mother's year" from the
+etext's «གསང་སྲོག་མ་ལ་དྲིས». Read whole on the scan (p. 380, img. 390, the
+last eleven lines), the line means the mother *element* of the secret
+year's life force, not the person's mother:
+
+> གཞན་ཡང་ལོ་ཁྱིམ་ཕྱི་སྐོར་ལ། །ཕྱི་ནང་གསང་བ་རྣམ་པ་གསུམ། །གནམ་ལོ་ཟླ་ཞག་དུས་ཚོད་དང་། །བརྩི་བྱ་འཐབ་པ་ཕྱི་སྐོར་དང་། །ལོག་མེན་དང་འཐབ་ནང་གི་སྐོར། །གསང་བའི་སྐོར་འགོ་བརྩི་བ་ནི། །ཕྱི་སྲོག་དགྲར་དྲི་ཕོ་ཡི་ཕོ། །མོ་ཡི་མོ་ལོ་དག་ལ་བཟུང་། །བྱི་ཕག་ཐ་ཆུང་བཞི་འཛིན་དང་། །ཐ་ཆུང་སྟག་ཡོས་འཛིན་པའི་ཚེ། །ཁོ་རང་གང་ཉེའི་ལོ་ལ་དྲིས། །དེ་ཡི་ཕྱི་དབང་དགྲ་དང་མཐུན། །ལུས་ནི་ཕྱི་ལུས་སྐྱོབ་པ་དང་། །དབང་བུ་ཀླུང་གྲོགས་བླ་རྡེལ་ནི། །གསང་སྲོག་མ་ལ་དྲིས་པ་སྟེ། །དེ་བཞིན་རང་གི་ལོ་བཙལ་ལ། །སོ་སོར་འཐབ་པའི་གསང་སྐོར་ཞེས། །སྤྲོས་པ་ཁ་ཅིག་གཞན་གྱི་ལུགས། །སྙིང་རྒྱུད་སྤྲོས་བཤད་འདོད་པ་ན། །ཕྱི་སྐོར་གནམ་ལོ་ནང་སྐོར་ནི། །ལོག་མེན་གསང་བ་རང་ནས་བསྐོར།
+
+Of the year-house (ལོ་ཁྱིམ, lo khyim) there are three circles, outer, inner
+and secret: the outer fights the one reckoned with the year, month, day
+and hour; the inner with the progressed sign (ལོག་མེན, log men); the secret
+starts from a year looked for as the enemy of the outer life force, a
+male year for a male and a female for a female. Where the mouse and pig
+would take the four "smallest" (the earth animals) and these the tiger or
+hare, one asks the year nearest to him. Its power is the enemy; its body
+what protects the outer body; its power the son, its luck the friend, and
+the la pebble (བླ་རྡེལ, bla rdel) is looked for at the mother of the secret
+life force. This, "the secret circle each fought separately", is "the
+elaboration of some, another's way". WB's own: the outer circle from the
+current year, the inner from the progressed sign, the secret from one's
+own year. The notes (vol. 2, p. 489, img. 497, the last two lines, read
+on the scan) give the others' secret year by example:
+
+> སྐབས་གཉིས་པ་ཀེག་རྩིས་ལ། གཞན་བཞེད་ཀྱི་གསང་ལོ་ནི། རྟ་ལོ་པའི་སྲོག་དགྲ་བྱི་བའི་སྲོག་ཆུ་ལྟ་བུ། བྱི་ལོའི་ཁྱི། ཕག་ལོའི་གླང་། ཁྱི་འབྲུག་སྟག གླང་ལུག་ཡོས་སམ། དེའི་དབང་གསང་སྲོག་དགྲ། ལུས་མ། དབང་བུ། ཀླུང་གྲོགས། བླ་སྲོག་གི་མའོ། །
+
+The secret year of the others' view: for one of a horse year (life force
+fire) the mouse, whose life force water is fire's enemy; for a mouse year
+the dog; for a pig year the ox; for the dog and dragon the tiger; for the
+ox and sheep the hare. Its power is the secret life force's enemy, its
+body the mother, power the son, luck the friend, la the life force's
+mother. So the secret circle is reckoned from the person's own year: **no
+relative's date is needed**, and it is a view WB reports, not its own.
+
+### The household's pebbles (pp. 385–387; the notes, pp. 490–491)
+
+**The verse** (p. 385, img. 395, from the 16th line; p. 386, img. 396,
+whole; p. 387, img. 397, l. 1; read on the scan):
+
+> །གཞན་ཡང་ཁྱིམ་གཅིག་བཟའ་མི་གྲངས། །མང་ཚོགས་ཁ་དམར་གཅེས་པ་ཡི། །རྒྱ་ནག་རྡེལ་སྐོར་ཞེས་བྱ་བ། །བཟའ་ཚང་ཁྱིམ་གཅིག་མི་དུ་ཡོད། །སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་གི། །བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ་དང་། །སྨེ་བ་ཁམས་རྡེལ་ལྔ་བོར་ལ། །ཕོ་མོ་རིམ་པ་རྒན་རིམ་བཞིན། །མ་ནོར་རྡེལ་རྣམས་ལེགས་པར་བཀྲམ། །གོང་མའི་ལུས་དང་འོག་མ་ཡི། །ཁམས་ནས་རིམ་པས་བླང་བར་བྱ། །ལྷག་མ་མ་རྫོགས་བར་དུ་ལེན། །རྡེལ་ཀུན་གསེགས་རྡར་རིས་སུ་བླང་། །དེ་ལ་རྐྱང་པའི་རྡེལ་སྐོར་ཟེར། །ལྷ་ས་རབ་འབྲིང་ཐ་གསུམ་མོ།། ལྷ་སར་རྡེལ་ནག་བབས་གྱུར་ན། །འཁོན་དང་མི་གཙང་བ་ལ་འཛེམ། །བསངས་དང་ཁྲུས་ཀྱི་ཆོ་ག་བྱ། །རྡེལ་དམར་བྱུང་བར་གྱུར་པ་ན། །ཐབ་གཞོབ་མི་གཙང་བ་ལ་འཛེམ། །སྔོ་དམར་གཉིས་པོ་བྱུང་གྱུར་ན། །ཀླུ་བཙན་རུ་བསྡུམ་བྱ་བ་ཡིན། །རྡེལ་ལྗང་བྱུང་བར་གྱུར་པ་ན། །འཐབ་དང་འཁོན་ལ་འཛེམ་པར་བྱ། །ཀླུ་བཙན་མཚོ་སྨན་ཆོ་གས་བཅོས། །རྡེལ་སེར་བྱུང་ན་ནད་ཡམས་ངོ། །གཙུག་ཏོར་སྟོང་བཟློག་རྒྱལ་མདོས་བྱ། །རྡེལ་དཀར་བྱུང་བར་གྱུར་པ་ན། །བཟང་ཞིང་བཀྲ་ཤིས་རྡེལ་ཡིན་ནོ། །གཏང་རག་ལྷ་གསོལ་ལྷ་ཆོག་བྱ། །རྡེལ་མཇུག་ལྷ་སར་བོར་བར་བྱ།། དེ་འོག་བར་པ་ཐ་མ་གསུམ། །མི་ས་རབ་འབྲིང་ཐ་གསུམ་ཡིན། །དེ་རུ་རྡེལ་དཀར་བྱུང་བ་ན། །བསམ་འགྲུབ་གཡུང་དྲུང་བདེ་ཞིང་སྐྱིད། །མི་རྣམས་ཀུན་ལ་ཤི་ཆད་མེད། །རྡེལ་ནག་བྱུང་བར་གྱུར་པ་ན། །གློ་བུར་ཡེ་འདྲོག་འོང་བའི་དུས། །ཚེ་གཟུངས་ཆོ་ག་བྱེད་པར་བཤད། །རྡེལ་དེ་སྔོན་པོ་བྱུང་བ་ན། །འབྲས་དང་ཤུ་ཐོར་འོང་བའི་ངོ། །ས་གཉན་རྡོ་གཉན་བརྐོ་མི་ཉན། །ས་བདག་ཀླུ་ཡི་ཆོ་ག་བྱེད། །རྡེལ་དེ་ལྗང་གུ་བྱུང་བ་ན། །ཀླུ་བརྒྱད་ཀླུ་བསེན་དགུ་མདོས་བྱ། །རྡེལ་དམར་བྱུང་བར་གྱུར་པ་ན། །དམར་ངོ་གྲི་ཁ་མཚོན་བསྒྱུར་དང་། །ནག་པོ་མགོ་གསུམ་དགྲ་བྲུབ་གྱིས། །རྡེལ་སེར་བྱུང་ན་རིམས་ནད་ངོ། །བདུད་མདོས་མ་ཊཾ་ཁྲག་མདོས་ཐོང་།། སྔ་མ་གཉིས་ཀྱི་རྡེལ་མཇུག་ལ། །དཀར་པོ་བཟང་རབ་གཏམ་སྙན་ཐོས། །ནག་པོ་ནད་ཡམས་ངོ་ཡང་ཡིན། །སེར་པོ་བྱུང་ན་འགོ་ནད་འོང་། །རྡེལ་སྔོན་བྱུང་བར་གྱུར་པ་ན། །ཀླུ་ཡི་ནད་དང་གཉན་ནད་འོང་། །དམར་བྱུང་གྲི་ངོ་མཚོན་ངོ་ཡོད།། རྡེལ་མཇུག་འགོ་མའི་གོང་མའི་འོག །ཁྱིམ་ས་རབ་འབྲིང་ཐ་གསུམ་ཟེར། །དེ་ལ་རྡེལ་དཀར་བབས་པ་ན། །བཀྲ་ཤིས་རྡེལ་ནི་ཡིན་པས་བཟང་། །ནག་ན་ཁྱིམ་སར་ན་ཆགས་ཆེ། །བདུད་ཀྱི་བླ་ཁྲོམ་འཕྲུལ་གསུམ་བྱ། །ཁྱིམ་ནང་ས་དཀར་ཕྱོགས་བཞིར་གཏོར། །ཁང་པའི་ཕྱོགས་བཞིར་གཡུང་དྲུང་བྲི། །སྐྱེད་པུར་ཁུ་དཀར་གསོལ་བ་དང་། །སྔོ་ལྗང་རྡེལ་དེ་བབས་པ་ན། །ཀླུ་བརྒྱད་ས་བདག་གཏོ་བསྒྱུར་དང་། །ཀླུ་འབུམ་ཀླུ་ཡི་སྤང་སྐོང་འདོན། །རྡེལ་སེར་རིམས་ནད་ངོ་རུ་ཤར། །བློ་བཟློག་མ་མོའི་ཆོ་ག་བྱ། །དམར་པོས་ཐབ་གཞོབ་དམར་གྱི་ངོ། །དམར་གཏོར་ཁྲོ་རོལ་ཟོར་མདོས་བྱ། །ཁྱིམ་སའི་རྡེལ་རོའི་ཁ་དམར་ནི། །དཀར་པོ་གཉིས་ཀྱིས་བཀྲ་ཤིས་ཐོབ། །དཀར་ནག་གཉིས་བྱུང་རྒྱ་འདྲའི་ངོ། །ནག་པོ་གཅིག་བྱུང་ན་ཚའི་ངོ། །ནག་གཉིས་ལ་ནི་ཤི་ཆད་ངོ། །ཕུགས་ནས་རོ་འོང་ངེས་པ་ཡིན། །བཟའ་ཚང་སྤར་ཁའི་རིམ་གྲོ་སོགས། །ལུས་སྲོག་དབང་ཀླུང་བཞི་པོ་ལ། །གསོ་བསྐྱེད་རིམ་གྲོ་འབོགས་པ་ཡིན། །ལོ་འགྲོས་ཆུང་ངུ་ཞིབ་ཏུ་བརྩི། །དཀར་ནག་གསུམ་དུ་བྱུང་བ་ན། །མར་གྱི་དཀྱིལ་ནས་རུས་པ་བྱུང་། །སོ་ཡི་རྒྱལ་པོ་མཆེ་བ་ཆག །སྔོ་དམར་སེར་གསུམ་བྱུང་བ་ན། །ཕུག་མའི་འོག་ནས་ཆུ་དོང་བྱུང་། །སྙིང་དུ་བསམས་པས་གློ་བར་སོང་། །ལྗང་གུ་བྱུང་ན་མི་ཁའི་ངོ། །དེ་རྣམས་རྡེལ་རོའི་ཁ་དམར་ཡིན། །རྡེལ་རོ་བྱུང་ན་ངན་པར་བཤད།། དང་པོ་རྐྱང་པའི་རྡེལ་སྐོར་ནི། །དེ་ལ་ལྷ་ས་ཟེར་བ་ཡིན། །དེ་ནས་གཉིས་པ་བསྐོར་བ་ནི། །དེ་ལ་མི་ས་ཟེར་བ་ཡིན། །དེ་ནས་གསུམ་པ་བསྐོར་བ་ནི། །དེ་ལ་ཁྱིམ་ས་ཟེར་བ་ཡིན། །ནོར་ས་རབ་འབྲིང་ཐ་མ་གསུམ། །ལྷ་ས་མི་སར་རེ་རེ་སྟེ། །ཁྱིམ་ས་དག་ལ་གཉིས་གཉིས་ཏེ། །ཕྱོགས་ནི་བཀྲམ་ནས་བླང་བར་བྱ། །ཁྱིམ་སའི་འོག་མ་དགྲ་ས་ལ། །རྡེལ་དཀར་ཤར་ན་དགྲ་མགོ་མཐོ། །དགྲ་བཟློག་དགྲ་མནན་དགྲ་བྲུབ་བྱ། །ནག་དམར་ལྗང་སེར་སྔོན་པོ་བྱུང་། །དགྲ་མགོ་རེ་བས་ཕུར་ཏེ་བཟང་།། གཞན་ཡང་འབྲས་བུ་འདི་བཞིན་བཤད། །ལྷ་ས་དང་པོར་རྡེལ་དཀར་བྱུང་། །ཁུག་པའི་རྡེལ་གྱི་ལྷག་ཀྱང་དཀར། །ཡང་ཁུག་རྡེལ་ལྷག་རྣམས་དཀར་ན། །ལྷ་ནད་འོང་བའི་ངོ་ཡང་ཡིན། །ཡང་ན་ལྷ་ས་དང་པོ་ནག །ཁུག་རྡེལ་དཀར་ལ་ཡང་ཁུག་ནག །ལྷ་སྲུང་བདུད་བབས་ཤིན་ཏུ་ངན། །རི་མགོར་དར་འཕེན་འཛུགས་པར་བྱ། །ཡུལ་ལྷ་གསོལ་དང་དཔངས་བསྟོད་བྱ།། མི་སར་རྡེལ་དཀར་བྱུང་བ་ན། །ནང་མི་ཁམས་བདེ་ཁྱིམ་ས་ལ། །རྡེལ་དཀར་ཁྱིམ་ལ་གོད་ཁ་མེད། །འབྲུ་ནོར་འཕེལ་ལ་དགྲ་སའི་ཐོག །རྡེལ་དཀར་བྱུང་ན་ཁ་མཆུའི་ངོ།།
+
+Besides the person's own four, the Chinese pebble round (རྒྱ་ནག་རྡེལ་སྐོར,
+rgya nag rdel skor) is reckoned for **all the members of one household**
+(བཟའ་ཚང, bza' tshang; the members, བཟའ་མི, bza' mi), "the precious verdicts
+where many gather". For each member, the decisive red-marked pebble of
+each of his life force, body, power and luck, and five pebbles of the
+mewa's element; laid out men and women in order of age; then taken up in
+turn, the upper one's body with the lower one's element, until all are
+taken, in a zigzag. The first row is the plain round (རྐྱང་པ, rkyang pa):
+the god's place (ལྷ་ས, lha sa), best, middle and last. Then the readings
+by the colour of the pebble that falls there: in the god's place black,
+keep from grudges and impurity, do purifying smoke and washing; red, keep
+the hearth clean; blue and red, a rite to bring the nāgas and *btsan*
+together; green, avoid fights and grudges, rites of the nāgas, *btsan*
+and lake goddesses; yellow, an epidemic, the Uṣṇīṣa and the king's
+ransom; white, good, an auspicious pebble, thanksgiving and offering to
+the gods; the tail pebble is laid in the god's place. Below, middle and
+last, the people's place (མི་ས, mi sa): white, wishes fulfilled, no death
+among them; black, sudden misfortune, longevity rites; blue, swellings
+and dropsy, do not dig earth or stone, rites of the earth lords and
+nāgas; green, the eight nāgas' rites; red, blades and weapons, the black
+three-headed rite against enemies; yellow, epidemics, the māra and blood
+rites. On the tail of the first two: white, best, good news; black,
+sickness; yellow, contagion; blue, nāga and *gnyan* illness; red, blades.
+Below these the house's place (ཁྱིམ་ས, khyim sa): white, auspicious; black,
+much illness in the house, with rites of the māras' la, white earth
+scattered in the four quarters, swastikas drawn on the four sides; blue
+and green, the eight nāgas and the earth lords; yellow, epidemic; red,
+the hearth. The leftover pebble (རྡེལ་རོ, rdel ro) of the house's place: two
+white, good fortune; white and black, mixed; one black, illness; two
+black, a death, "a corpse comes in the end"; then remedies for the
+household's trigrams and for each one's four, the small year's course
+counted closely, and the leftover's further signs by colour. Then the
+names: the first, plain round is the god's place, the second turn the
+people's, the third the house's, with the wealth place (ནོར་ས, nor sa) best,
+middle and last, one each in the god's and people's place and two each
+in the house's; the lowest, under the house's, is the enemy's place
+(དགྲ་ས, dgra sa): white there, the enemy's head high, with rites to turn him
+back; black, red, green, yellow or blue, the enemy's head brought low,
+good. Other results: a white first in the god's place with the folded
+rows' leftovers white, a disease of the gods; the god's place black, the
+folded white and the refolded black, a māra has come down on the
+guardian gods; in the people's place white, the household well.
+
+**The notes** (vol. 2, p. 490, img. 498, l. 7–11, read on the scan; the
+rest of pp. 490–491 Yigdzin-1 and the etext) make it a procedure:
+
+> རྒྱ་ནག་རྡེལ་སྐོར་ནི་བཟའ་ཚང་སྤྱི་ལ་བརྩི་སྟེ་… ཁྱིམ་དེའི་མི་ངོ་དུ་ཡོད་ལ་བརྩི་དགོས། དེ་ཡང་མི་རེ་རེ་བཞིན་གཅོད་འདྲལ་ཉེར་བཞི་བཞག་ནས་བཏང་གཅོད་རྡེའུ་བཞིར་བསྡུས་ལ་དེ་སྟེང་མི་རང་རང་གི་བབ་སྨེའི་… ཐོག་མར་ཕོ་ངོ་དུ་ཡོད་རྒན་རིམ་ནས་ཆུང་ཤོས་བར་… འགོད། དེ་ནས་མོ་དུ་ཡོད་ཀྱང་དེ་ལྟར་བསྒྲིག ལོ་མཉམ་ན་སྐྱེ་སྔ་བ་སྔོན་མ་བྱ། མ་ཤེས་ན་གང་ཆེ་བའམ་རྒན་པ་སྔ་མར་བྱའོ། །
+
+The Chinese pebble round is reckoned for the household as a whole, for
+as many people as the house holds. For each, the twenty-four pebbles of
+cutting and tearing are laid and gathered into four decisive pebbles,
+with each one's mewa of the year above them; men first, eldest to
+youngest, then the women the same; of two of one year the one born first
+goes first, and if that is not known, the bigger or older. The pebbles
+are then taken, the eldest man's body first, then the youngest woman's,
+in a zigzag, into one row (the plain round); folded back under itself
+while the rows are equal (the fold, ཁུག་པ, khug pa), a pebble left over set
+at the side (the leftover); folded again (the refold, ཡང་ཁུག, yang khug);
+the first, middle and last rows are the god's, people's, house's and
+wealth's places, the lowest the enemy's. A worked layout of five people
+follows (p. 490, a table of numbered pebbles). The notes add that some
+reckoners count the people gathered in the house that year, or only the
+year's four fought against the person, and that WB does not; and that the
+leftovers are found by dividing the count by three.
+
+So the household round needs, for every member, the **birth year** (for
+the four aspects and the mewa of the year of age), the **gender**, and the
+**order of birth** where two share a year; it needs no date of death.
+
+### The progressed sign on another's year (p. 388)
+
+(p. 388, img. 398, l. 10–15, read on the scan):
+
+> ལོག་མེན་རང་ལོའི་ཐོག་ཏུ་ཕྱིན། །རང་གི་ལུས་ཀྱིས་རང་མི་ཐེག །མི་ཐེག་པ་ཡི་ཁུར་པོ་འབབ། །ཆུང་མའི་ལོ་ཐོག་ཁྱོ་བོ་ཕྱིན། །ཧོམ་དུ་ཆུད་དེ་ཆུང་མར་ངན། །ཁྱོ་བོའི་ཐོག་ཏུ་ཆུང་མ་ཕྱིན། །བདུད་ཞུ་གོན་ཞེས་ཁྱོ་ལ་ངན། །ཕ་ཡི་ལོ་ཐོག་བུ་ཕྱིན་ན། །དོ་མ་ཁྲིད་དེ་ཕ་ལ་ངན། །བུ་ལོའི་སྟེང་དུ་ཕས་ཕྱིན་ན། །ཕ་བུའི་རོ་འཛིན་བུ་ལ་ངན། །ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན། །ཉེ་བར་མྱ་ངན་འོང་སྟེ་ངན། །བདུན་ཟུར་ཐོག་ཏུ་ཕྱིན་པ་ན། །སྲོག་གཅོད་མདུན་སར་སླེབ་སྟེ་ངན། །ཕ་མ་ཤི་བའི་ལོ་ཐོག་སླེབ། །གཤིན་གྱི་སྲིད་པར་ཕྱིན་ཏེ་ངན།
+
+The progressed sign on one's own year: one's body cannot bear oneself, a
+burden too heavy falls. The **husband's** progressed sign on the
+**wife's** birth year: "gone into the trap", bad for the wife. The wife's
+on the husband's: "wearing the māra's hat", bad for the husband. The
+**son's** on the **father's** year: "leading the ghost", bad for the
+father. The father's on the son's: "father holding son's corpse", bad for
+the son. On the white year (ལོ་དཀར, lo dkar; not identified), sorrow comes
+near. On its seventh, the life-cutter arrives in front. On the year in
+which **father or mother died**: "gone into the existence of the dead",
+bad. No remedy is named here beyond the progressed sign's general ones
+(p. 387, above). Needs: the spouse's and the father's (or son's) birth
+years, and the year of each parent's death.
+
+### The spouses' shared trigram, the ancestors' tombs, the dead and the secret obstacle (p. 390)
+
+(p. 390, img. 400, l. 8 to the end of the page, read on the scan):
+
+> བཟའ་མི་སྤར་ཁ་གཅིག་སྟེང་ཚོགས། །བཟའ་ཤུག་དག་གི་རྩུབ་པ་སྟེ། །སྐྱིད་སྡུག་རྣམ་གཉིས་འབྱུང་དུས་ཡིན། །རིམ་གྲོ་སྤར་སྨེ་བཞིན་དུ་བྱ། །ཆགས་ཅན་བྱེས་སུ་བྲོས་ན་ཕན། །ཕྱི་ནང་བར་གསུམ་རོ་འདོད་ཡིན། །རོ་སྙིང་ཕྱུང་ཞིང་ཁྱི་རོ་འདྲུད། །ཁྱད་པར་རྐྱ་མདའ་དབྱེ་བསྲུང་བྱ། །གཤིན་ཁྲལ་གཞལ་ཞིང་རོ་དབྱུང་གི། །གཏོ་ཆོག་བྱས་ན་ཉེས་པ་ཞི།། ཕ་མེས་ཤི་བའི་སྲི་དུས་ལ། །སྤར་སྨེ་ཕྱི་གཟའ་ལོ་གྲངས་སླེབས། །སྲི་ངན་ཕ་མེས་དུར་ཀེག་སྟེ། །དུར་ན་བརྒྱགས་ཆད་གཤིན་ཀུན་འཐབ། །གཤིན་ལག་གསོན་ལ་གཡབ་མོ་འདེབས། །དུར་མཚུན་གསོལ་ཞིང་དུར་ཁ་ནི། །རྒྱ་ཡིས་བཏབ་སྟེ་ཕ་དུར་དང་། །མ་དུར་རུས་པ་གསར་དུ་འདུར། །ཕལ་ཆེན་བཀླག་ཅིང་དུར་ས་སྤོ། །ཡང་ན་སྤོ་ཚུལ་དུར་སར་ཁྲོམ། །བྲི་ཞིང་སཱཙྪ་ཁང་བུ་ལ། །གསང་བཏོད་མར་མེ་འབུལ་བར་བྱ། །གསོན་ཀེག་གཤིན་ཀེག་འདམ་པས་ན། །གསོན་གཤིན་ལག་སྦྲེལ་བཅད་ན་བཟང་། །སྔར་འདས་གཤིན་པོ་རྟིང་མ་ཡི། །ཤི་བའི་ལོ་ཡི་ཕྱི་ནང་གསང་། །ཤི་ལོར་བྱས་ནས་གསོན་ཀེག་བཞིན། །རྡེལ་བོར་ནག་ན་ཤི་ཆད་དང་། །ནོར་གོད་ཡ་ག་བླ་འཁྱམ་ཞེས། །བརྗོད་པ་འཁྲུལ་ཏེ་རྙིང་རྒྱུད་ལྟར། །སྤྲོས་བཤད་རྒྱུད་མཐུན་བརྩི་འདོད་ན། །བརྩི་བྱ་དེར་ལྟོས་བདུན་བརྒྱུད་ཀྱི། །ཤི་བའི་གནམ་ལོས་གཤིན་ལོ་བྱས། །དོ་གཅིག་གནམ་ལོ་དང་འཐབས་པའི། །རྡེའུ་ནག་དང་ར་འབད་དང་། །དགུ་དུར་རང་ཀེག་བདུན་ཟུར་མང་། །གཤིན་པོ་ཀེག་ཆེ་གསོན་ལ་རྩུབ། །ཞེ་བདུན་སྙིང་པོར་འདི་མི་དགོས། །ཅི་ཕྱིར་ཕ་མེས་ཁུ་ཕོ་བོའི། །སྲི་དུས་དོག་བཤད་གོང་ལྟར་གཉན། །དགོས་དོན་སྙིང་པོ་དག་དོར་ནས། །ཡན་བཤད་ཚིག་སྦྱོར་བྱེད་རྣམས་འཁྲུལ། །རུས་བརྒྱུད་ཕྱི་མ་དུར་སོང་གི། །གནམ་ལོའི་ཕྱི་ནང་གསང་བ་དང་། །གཤིན་པོའི་སྲོག་ལུས་དབང་ཀླུང་བླ། །འཐབས་པའི་རྡེལ་ནག་གང་བབས་ཀྱིས། །ཤི་ཆད་ནད་གོད་ཡ་ག་བླ། །འཁྱམས་པའི་འབྲས་བུ་བརྗོད་པ་སོགས། །སྤྲོས་པ་ལུགས་གཞན་འདོད་པ་ཡོད། །གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི། །བུ་ལ་གསང་ཀེག་མ་སྤར་ཁམ། །བུ་མོར་གསང་ཀེག་ཚོར་བ་དཀའ། །དངངས་སྐྲག་དལ་ཡམས་ནད་སྙིང་ངམ། །བརྔན་གྲོགས་མཐོ་དམོད་ཁ་མཆུ་དང་། །ཉེ་ཁག་ཡ་རབས་ཡིད་ཚང་ཤོར། །མ་རབས་གྱོད་འོང་ངན་པ་ཡི། །ཡས་བདུད་གཡོས་ཤིང་མས་སྲིད་ལྡང་། །བཙན་རྒྱལ་ཆོ་འཕྲུལ་འགྱེད་པའི་དུས། །ཤིན་ཏུ་སྣད་པས་ལུས་ནད་དང་། །སེམས་ནད་གང་རུང་འབྱུང་བར་ངེས། །མུན་སྲོད་སྒོ་སྦུག་དོག་འཛུལ་རྨི། །ཡང་སྲིད་མ་ཡི་མངལ་འཇུག་བརྡ། །ནད་པའི་སྔས་སུ་འགྲིམ་འགྲུལ་དང་། །མྱ་ངན་མི་བྱ་མནའ་བཀར་སྤང་། །ཚེ་དཔག་མེད་མདོ་འབུམ་བཀླག་བྱ། །རུ་ཤན་ཁ་སྤྲོད་བདུད་མདོས་དང་། །མ་ཡོད་མ་མེད་དང་སྦྱར་བའི། །མ་ཀླུངས་གཏོ་ཆོག་རྒྱས་པར་བྱ།
+
+(«རྐྱ་མདའ» as the scan shows it; the etext has «རྒྱ་མདའ»; neither
+identified.)
+
+**The spouses' obstacle** (བཟའ་ཤུག, bza' shug). When members of the
+household have their trigram of the year of age on **one trigram
+together**, it is the harsh year of spouses: a time when both joy and
+sorrow come; the rites as for the trigram and mewa; it helps if the one
+"with attachment" goes away from home; the outer, inner and middle "want
+a corpse": take out a corpse's heart, drag a dog's corpse, guard
+especially the *rkya mda'* (not identified), pay the tax of the dead and
+do the rite of taking out the corpse. The notes (vol. 2, p. 492, img. 500,
+read on the scan): «བཟའ་མི་སྤར་ཁ་གཅིག་ལ་ཚོགས་པ་ནི་ཁྱོ་ཤུགས་ལས་གཞན་རབ་བྱུང་སོགས་ལ་མེད་ཀྱང་། ཁྱིམ་གཅིག་ལ་ཟམ་ཐུག་གི་ཉེས་པ་ཙམ་ཡོད་དོ།»: household members gathered on one
+trigram: though for others than husband and wife (monks and the like)
+there is no *bza' shug*, for those of one house there is the fault of
+the bridge's end (ཟམ་ཐུག, zam thug). So the spouses' obstacle needs **both
+spouses' birth years and genders** (each one's trigram of the year of
+age, ch. 21, p. 257), and the lesser fault the other housemates'.
+
+**The ancestors' tomb obstacle** (དུར་ཀེག, dur keg). At the time of the
+harmful spirits of the dead (སྲི, sri) of the forefathers' death, when the
+trigram, mewa or progressed sign (*phyi gza'*) of the year reaches "that
+number of years", the evil *sri* is the forefathers' tomb obstacle: in the
+tomb provisions are cut, all the dead fight, the hand of the dead
+beckons to the living. Remedies: offer to the tomb, seal the tomb's mouth
+with a seal, rebury the bones of the father's and mother's tombs anew,
+read the *Avataṃsaka* (ཕལ་ཆེན, phal chen), move the tomb site or draw a
+picture of moving it, offer lamps at a *tsha tsha* house. The living
+person's obstacle and the dead's join, so cut the joined hands of the
+living and the dead. The notes (p. 492, img. 500, read on the scan) gloss
+it «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན་ཡིན་ནོ།», "the trigram, mewa and progressed
+sign of the forefathers' time of death". Read so, the obstacle falls
+when one's trigram, mewa or progressed sign of the year is the one of a
+forefather's death year (whose, below). Needs: **the year of death** of
+the father, mother and forefathers, and their birth years if their own
+signs at death are meant.
+
+**The obstacle of the dead** (གཤིན་ཀེག, gshin keg). Some reckon a dead person
+who died earlier like a living one, his death year standing for his
+birth year, with the outer, inner and secret circles, and read black
+pebbles as death, loss and the la wandering: WB calls this an error after
+the old tantras. Those who want the full elaboration take, for seven
+generations back of the one reckoned, each one's death year as the dead
+year, fought against the current year, with black pebbles, the *ra 'bad*
+(not identified), nine-multiples, tombs, own obstacles and sevenths: "the
+dead's obstacle great, harsh for the living". WB: "this is not needed in
+the forty-seven of the heart", for the fathers', forefathers', uncles'
+and elder brothers' *sri* times are already counted dangerous above;
+dropping the point and making up sentences is an error. Another view
+fights the outer, inner and secret circles of the current year against
+the life force, body, power, luck and la of the last of the line who went
+to the tomb: "other ways that elaborate". So **WB's own reckoning does not
+need the death years of seven generations**; it reports that view and
+rejects it.
+
+**The secret obstacle** (གསང་ཀེག, gsang keg), "the thief": when the trigram
+of the year of age reaches **one's own natal trigram**; and, for a son,
+when the **mother's trigram** (མ་སྤར, ma spar) is on li, for a daughter on
+kham. It is hard to notice: fright, sudden epidemics, heart illness;
+disputes with friends and the high; the close and noble lose heart; the
+low bring lawsuits; the māra above stirs, the *srid* below rises; the
+*btsan* and kings show their power: illness of body or mind is certain.
+Dreams of entering a dark door at dusk, signs of entering a mother's
+womb. Do not go to a sick person's pillow, do not mourn, keep from oaths;
+read the *Aparimitāyus* sūtra a hundred thousand times; the *ru shan kha
+sprod* (not identified) and the māra's thread-cross (མདོས, mdos); and do
+the mother's luck rite in full, according to whether the mother is living
+or dead. The notes (p. 492, img. 500, read on the scan):
+
+> གསང་ཀེག་ནི་རང་སྐྱེས་སྤར་སྟེང་སླེབས་པ་དང་། བརྩི་བྱ་ལི་ལ་བབ་དུས་བུ་ལ་གསང་ཀེག་དང་། ཁམ་ལ་བབ་དུས་བུ་མོར་ཀེག་ཡིན་པས། མ་ད་ལྟ་ཡོད་ན་མ་ཀླུང་དང་བསྟུན་པའི་སྤར་སྨེ་སོགས་བཅོས། མ་མེད་ན་མ་ཡི་དགེ་རྩ་དང་མིང་བྱང་ལ་བརྟེན་པའི་ཀླུང་ཆོག་བྱ་ཞེས་སོ། །
+
+The secret obstacle: the year's trigram reaching one's natal trigram;
+and when **the one reckoned** falls on li it is a son's secret obstacle,
+on kham a daughter's. If the mother is alive, the remedy is the trigram
+and mewa rites suited to the mother's luck; if not, a luck rite with
+merit made for her and her name card. The notes read WB's «མ་སྤར་ལི» as the
+person's own trigram of the year on li, not the mother's (question
+below). Either way the secret obstacle needs **the mother's birth year**
+(the natal trigram, RD13 above: her trigram of her year of age in the
+child's birth year) and, for the remedy, **whether the mother is
+living**.
+
+### The household's trigrams piled up (pp. 396–400)
+
+After each trigram's own readings (pp. 391–396, above) come the general
+ones (p. 396, img. 406, l. 11, read on the scan):
+«དྭ་ནི་སྤར་ཁ་སྤྱི་འགྲེལ་ལ། །ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་(༡)སྤུངས་སྤྱི་གང་གནམ་རྡིབ་ཡིན།», now the general
+reading of the trigrams: where one house has many members, (1) piled
+(སྤུངས, spungs) on li, "the sky falls". These are **the household's
+trigrams of the year of age**, many on one trigram, then pairs and sets
+of trigrams; the 1996 editors number the cases ༡–༢༥. From Yigdzin-1, the
+lines named read on the scan:
+
+- piled on each trigram (p. 396, img. 406, the scan; pp. 396–397,
+  img. 406–407): li, the sky falls, bad for a daughter in her prime,
+  epidemics; khon, the earth's centre torn, bad for old women and for
+  cattle and sheep; dwa, the māra's army stirs, bad for a middle son;
+  khen, the ridge torn, bad for old men; kham, the ocean stirred, bad for
+  a small boy; gin, bad for the eldest son; zin, bad for the youngest
+  daughter; zon, bad for the eldest daughter; each with its remedy, and
+  "for all piling, scattering the members is precious";
+- the four māra doors, the four "spear-points" of the corners, east and
+  west three, khen and khon together, li and kham, dwa and zin, li and
+  khen, khon and kham (p. 397, img. 407, Yigdzin-1);
+- by the members' places (gin and zon, khon and zon … to ༢༤): which
+  members are endangered ("the old or the young", "the man in his prime",
+  "a woman near"), with ransoms and rites (p. 398, img. 408, Yigdzin-1);
+  among the remedies «བཟའ་མི་ལོ་མཐུན་བསྡེབས་བྱས་ལ། །སོ་སོར་སྐྱེད་པོ་ཟན་གསུམ་འཛུགས།», "join the members of
+  harmonious years and set up three dough figures each";
+- the "five heart-holds" (p. 399, img. 409, l. 6–11, Yigdzin-1): many of
+  one's own year on one's trigram with a friend's year among them (li,
+  many horse and snake with one or two bird or monkey; zin, tiger and
+  hare with an earth animal; kham, mouse and pig with horse or snake; dwa,
+  bird and monkey with tiger or hare; khon, the earth animals with mouse
+  or pig): mother and son years, middling; enemy and slayer years, a
+  gathering of bad conditions.
+
+**By the members' natal trigrams** (p. 399, img. 409, the last two lines,
+to p. 400, img. 410, l. 3, read on the scan):
+
+> གཞན་ཡང་འདི་ལྟར་བརྗོད་ཀྱང་ཡོད། །བཟའ་མི་ཁོན་ཁམ་སྐྱེས་པ་དེ། །གིན་གྱི་སྟེང་དུ་ཕྱིན་པ་ནི། །ཕོ་དེ་བདུད་ཀྱི་རྒྱ་རུ་ཆུག །བདུན་ཟུར་ལོ་པས་བདུད་བྱས་མིར། །བདུད་ཀྱི་ཞལ་བསྒྱུར་ཉ་རྒྱ་བཤུ། །བདུད་ནག་བཅུ་གསུམ་མདོས་བསྐང་བྱ། །དབང་བསྐུར་ལྷ་གསོལ་རྣམ་གྲངས་འགབ། །དྭ་ཁམ་ཁེན་གསུམ་ཁྲེམས་ཀྱང་ཆུག །མོ་དེ་གཤིན་རྗེའི་ཁྲོམ་ལ་བཏབ། །བཟའ་མི་དྭ་ཁམ་བུད་མེད་ནི། །ཟོན་ཐོག་ལ་ཕྱིན་ཁྲོམ་བཏབ་ཀྱི། །ན་བ་མི་འཆི་མི་ན་འཆི། །ཁྲུས་དང་མིང་བསྒྱུར་ཚེ་དབང་ཞུ།
+
+"Another view: members **born on** khon and kham who come onto gin (with
+the year's trigram): the man has gone into the māra's net; a person of
+his seventh year acts as the māra; the māra's mask, a fish-net, the black
+māra's thirteen thread-crosses, empowerments and offerings to the gods.
+When dwa, kham and khen are in a row (ཁྲེམས, khrems), the woman is cast
+into the Lord of Death's market. A woman member born on dwa or kham who
+comes onto zon is cast into the market: the sick one does not die, the
+one not sick dies; washing, a change of name, a longevity empowerment."
+The notes (p. 492, img. 500, read on the scan):
+«བཟའ་མི་གཉིས་ལས་གཅིག་ཁོན་གཅིག་ཁམ་ལ་སྐྱེས་ཤིང་གཉིས་ཀའི་བབ་སྤར་གིན་ལ་འདོམས་ན་ཞེས་སོགས་སོ།», of two members one born on
+khon and one on kham, both their trigrams of the year meeting on gin; and
+of «ལི་ཟིན་ཟོན་གསུམ་ཁྲོམ», that the first two named are the members' **natal
+trigrams** (སྐྱེས་སྤར, skyes spar). So these readings need **two spouses' or
+housemates' natal trigrams** (each one's mother's birth year, RD13) and
+their trigrams of the year of age. The page goes on (p. 400, img. 410,
+Yigdzin-1, the editors' numbers) with piling that is good: zin eightfold
+good, gin fivefold, khen eightfold; mother-and-son trigrams on the four
+"seats".
+
+### The household's mewa (pp. 407–409)
+
+(p. 407, img. 417, the last eight lines, read on the scan; p. 408,
+img. 418, to l. 17, Yigdzin-1, l. 13–17 read on the scan):
+
+> ད་ནི་སྤྱི་ཡི་ཁ་དམར་ལ། །ཁྱིམ་ནང་གཅིག་དཀར་མང་ཚོགས་ན། །ཤི་འོས་མེད་ཀྱང་རོ་འོང་དུས། …། །ཁྱིམ་ནང་དཀར་གསུམ་མང་ཚོགས་ན། །ཕོ་ལྷ་གནམ་དུ་ཡར་དུས་དེ། …། །ནག་པོ་མང་ཚོགས་ཡ་བདུད་གཡོས། …། །གསུམ་མཐིང་མང་ཚོགས་ས་བདག་འགྲས། …། །ལྔ་སེར་མང་ཚོགས་རྒྱལ་འགོང་གནོད། …། །བདུན་དམར་མང་ཚོགས་དགྲ་སྲི་ལྡང་། …། །དགུ་དམར་མང་ཚོགས་ཚེ་གཡང་ཉམས། …། །ཁྱིམ་ནང་སྲོག་ལ་དགྲ་དར་མང་། …། །ཡང་ཅིག་སོ་སོའི་གཉིས་ནག་བསྟན། །གཅིག་དཀར་བུ་ཆུང་(བྱིས་པའི་)གཉིས་ནག་ཡིན། །གཉིས་ནག་ཀུན་ཡིན་སྐྱེས་དར་གནད། །གསུམ་མཐིང་བྱིས་པ་(ཤར་པོའི་གཉིས་ནག)བཞི་ལྗང་ཡུགས་ས(འི་གཉིས་ནག་ཡིན།)། །ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན། །བདུན་དམར་བུད་མེད་གཉིས་ནག་ལ། །བརྒྱད་དཀར་ཞང་བློན་གྲ་མའི་ཡིན། །དགུ་དམར་བཙད་པོ(རྒན་རྒོན།)ཡིན་ཏེ་གནད། །དེར་བབས་ངན་ཏེ་རིམ་གྲོ་བསྐྱེད།།
+
+The general verdicts on the mewa: when in one house **many members' mewa
+of the year** are the same, by colour: many one white, a corpse comes
+though no one is due to die, gods' illness, epidemics; many of the three
+whites, the male god goes up to the sky; many black, the māra above
+stirs, illness, harm to servants, horses, dogs and cattle, separation;
+many three blue, earth lords offended; many five yellow, kings and *'gong
+po*, bile illness; many seven red, enemies and *sri*; many nine red, life
+and fortune spent; many with the enemy of their life force or power on
+red mewa, bad for livestock; many black with one white, many white with
+one black, each with its image; each one's mewa rite. Then **each kind of
+person's own "two black"** (the mewa that counts as that person's two
+black): one white for small boys (children); two black for all, the crux
+for men in their prime; three blue for children; four green for widows
+(ཡུགས་ས, yugs sa); five yellow and six white (the line not clear, below);
+seven red for women; eight white for ministers and monks; nine red for
+the elders: to fall there is bad. Then the mewa's four small obstacles
+(read above); and (p. 409, img. 419, l. 1–3, read on the scan)
+«བཟའ་མི་གཉིས་ཀ་གཉིས་ནག་ཕྱིན། །རོ་འཛིན་དཔུང་པ་མཆེ་བ་བརྗེས། །གཉིས་ནག་རྒྱབ་འདུག་སྔར་འདས་རྐྱེན། །མདུན་ཡོད་མ་འོང་ལོ་ཚིགས་བོར། །ཕོ་ལ་ལོགས་བབས་མོ་ཟུར་ཉེན།»: when **both spouses'** mewa of the
+year come onto two black, "holding the corpse, shoulder and fang
+exchanged"; two black behind is the cause of a past death, in front of one
+not yet come: years to beware; for the man on the side, for the woman at
+the corner, danger. Needs: **every household member's birth year and
+gender** (the mewa of the year of age, ch. 21, p. 256) and, for the "two
+black" of each kind, his or her **age and station** (child, man in his
+prime, widow, woman, monk or minister, elder).
+
+### The births on the eight trigrams: WB ff. 180b–182a (pp. 286–288)
+
+The ROADMAP's "WB ff. 180b–182a" (from P2, after Dorje) are the Zhol
+print's folios: in WBZ (I1KG1710, one side a scan) img. 363 is marked
+f. 181 in its left margin and img. 365 f. 182 (Tibetan and Chinese, read
+on the scan), so ff. 180b–182a are img. 362–365. Their text, matched in
+both etexts, is ch. 22's **births on each of the eight trigrams**
+(ནང་རུས་སྤར་ཆེན་སྡེ་བརྒྱད, nang rus spar chen sde brgyad), in the 1996 edition
+p. 286, l. 19 to p. 288, l. 4 (img. 296–298); the mewa births follow. RD13
+outlined these pages from the etext ("births on each mewa",
+pp. 286–293) but did not read them; they are not the pages RD13 quoted
+(pp. 271–272, 294, 326, 347). Read here on the scan (img. 296 l. 19 to
+img. 298 l. 4, at 2.5–4.5×):
+
+> ནང་རུས་སྤར་ཆེན་སྡེ་བརྒྱད་ལས། །ལི་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །དཀྱེལ་ཆེ་ཕྲ་མ་དག་ལ་དགའ། །ཕ་དང་གྱོས་པོའི་གདན་ས་འཕྲོག །མ་ཉེས་ཁ་ཡོག་རྟག་ཏུ་འོང་། །མགོ་དང་དབང་པོ་སྐྱོན་ཅན་འོང་། །ཕ་ཡིན་དམར་པོ་ཁྲག་ངོ་ཡོད། །གྲི་དང་ཐབ་གཞོབ་ས་ཡིན་ཏེ། །ཁྱེད་ཀྱི་ཕ་དང་མེས་རང་ནས། །གྲི་ཁ་ཆེན་པོ་བྱེ་གྱུར་ཏེ། །དེ་ཡང་མགོ་གྲི་མང་བ་ཡིན། །མོ་ཡིན་ཟླ་རྡིབ་བྱིས་འཇུར་འོང་། །ཐབ་གཞོབ་འཁོན་གྱིས་རྐྱེན་བྱས་ནས། །ལྷ་ཀླུ་འཕངས་པས་གཉན་ནད་དང་། །བུ་ཚ་སྐྱོན་ཆེན་འོང་ཉེན་ཡོད། །ཕ་མེས་ཤིན་ཏུ་དར་བའི་ཚེ། །བཞི་དང་ལྔར་ནི་གྱེས་པ་སྟེ། །ཡུལ་ལམ་དུར་ས་རྩུབ་མོ་ནི། །ལྷོ་དང་ནུབ་ཏུ་ཁ་བལྟས་ཡོད། །ལྷ་ནི་རྒྱལ་པོ་བཙན་བདུད་འགོ། །དེ་བཞིན་གནོད་བྱེད་འགོང་པོས་བྱེད། །ས་བདག་གནོད་ན་བཟློག་པར་དཀའ། །ཁོན་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །དུར་འདྲེ་དུར་སྐྱོན་ས་ཞེས་བྱ། །ཕ་མེས་དུར་གདབ་ཉེས་པ་ནི། །དེ་ཡི་སྐྱོན་གྱིས་མི་བརྒྱུད་ལ། །གླེན་ལྐུགས་ཀླུ་དང་འགྲས་པ་དང་། །ཞ་འཐེང་འཐིབས་གྲིར་ཤི་བའང་། །ཕ་མེས་ཉིས་བརྒྱུད་གང་སྟོངས་ཆེ། །བློ་བརྟན་གཞན་གྱིས་བཅོས་པར་དཀའ། །དམོད་མོ་སྐྱེན་ཞིང་སྡུག་བཞིན་ནག །རྟག་ཏུ་ཞེ་འཁོན་ན་ཚ་མོད། །བུ་ཚ་གསོ་དཀའ་བྱེ་ཡུགས་བྱེད། །ཁ་འཇམ་གྱོག་ཆེ་ཁྲོ་ཞིང་གཏུམ། །རོ་བག་མི་གཙང་བ་ལ་གཟབ། །ཚེ་སྟོད་ནོར་ཆེ་ཚེ་སྨད་དབུལ། །ཡུལ་དང་དུར་ནི་སེར་སྐྱ་བ། །མདུན་ན་ལམ་གྲོག་གིས་ཚོད་ཡོད། །ལྷ་རུ་ནག་སྨུག་ཀླུ་སྨན་འགོ །གདོན་དུ་ས་བདག་ཀླུ་མོ་གནོད། །དྭ་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །དམེ་གྲི་དྭ་ཡི་ས་ཞེས་བྱ། །ཕ་མེས་དམེ་གྲི་འཁོར་བ་ཡིས། །ངན་ཐབས་བྱས་ནས་བསད་པ་ཡོད། །དཱའུ་གོ་གསོས་བྱས་པ་དང་། །དམེ་ཅན་དང་དུ་བླངས་པའོ། །གཡུ་ཁྲབ་ཕྱི་ནས་འོང་བ་ཡི། །འདྲེ་གནོད་བྱེས་སུ་མི་ཤི་ཡོད། །ཕ་མེས་གསུམ་མམ་བཞི་བརྒྱུད་ཡིན། །ཡུལ་དུར་སེར་རམ་ནག་པ་ནི། །ནུབ་བམ་བྱང་དུ་བལྟ་བ་ཡོད། །ནོར་རྫས་ཅུང་ཞིག་སྲབ་པ་སྟེ། །སེམས་དཀར་སྤྲོ་ཐུང་ཁོང་ཁྲོ་འཕེལ། །གཡོ་སྤོགས་ཆུང་ལ་དྲག་རྩལ་ཆེ། །སྙིང་སྟོབས་ཆེ་ཞིང་ཡོན་ཏན་འཕྲོད། །ཕོ་མོ་འདྲ་བར་ཁྱིམ་སོ་འདྲེན། །ཞང་ཉེའི་ཕྱོགས་སུ་མནའ་ཟ་ལ། །ས་དང་ནོར་ནི་གང་སྟོངས་ཆེ། །ཛ་མ་གྲིར་འཆི་གཟེར་ནད་མོད། །བཙན་འགོ་གྲེ་བོ་གནོད་པ་ཡིན། །ཁེན་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །ཞ་འཐེང་གང་སྟོངས་ས་ཞེས་བྱ། །ཕ་མེས་ཞ་འཐེང་སྒུར་པོ་དང་། །གླེན་ལྐུགས་ཅན་དང་དལ་རྒྱབ་ཡོད། །དགྲ་སྣ་ཅུང་ཟད་འབྱུང་བ་དང་། །ཡུལ་ལ་འཕོ་འཕྱུགས་འོང་བ་དང་། །སྐྱིད་སྡུག་གང་སྟོངས་ཆེ་བ་ཡིན། །ཕ་མེས་གཉིས་སམ་བཞི་བརྒྱུད་དེ། །མི་ཡི་གང་སྟོངས་ཆུང་བ་འོང་། །ཡུལ་དུར་དམར་སེར་ནུབ་བྱང་བལྟ། །ང་རྒྱལ་ཆེ་ལ་ལྷ་འཕང་མཐོ། །འབད་ནས་བྱས་ཀྱང་མགུ་བ་ཉུང་། །ཐབས་མཁས་སྐྱིད་སྡུག་རྐྱེན་ལ་བརྟག །ཕ་དང་ཁུ་པོ་དག་ལ་གཟན། །འགོང་པོ་འགོ་ཞིང་རྒྱལ་པོ་གནོད། །ཁམ་སྟེང་འདི་རུ་གང་སྐྱེས་པས། །བཙོག་མནོལ་སྐྱས་ནག་ས་ཞེས་བྱ། །ཕ་མེས་མི་ལག་པར་ཤོར་རམ། །ཡང་ན་ཚུར་བླངས་ནལ་བྱས་སམ། །བུ་སྲིང་མ་སྤུ་རབས་ཆད་ཀྱི། །རྫས་ནག་སྐྱས་ཀྱིས་སྙད་བྱས་ནས། །ཕ་མིང་དམའ་ལ་བུ་སྲིང་མཐོ། །མནའ་མ་བྱེ་བྲལ་བྱས་འདུས་མང་། །ཕ་མེས་ལྔའམ་བཞི་བརྒྱུད་དེ། །ཕོ་བོ་བརྒྱུད་དར་ཡུལ་དུར་ནི། །དཀར་ནག་བྱང་ངམ་ཤར་བལྟས་ཡོད། །སྡུག་བསྔལ་མོད་ལ་བྱིན་ལ་བྱེད། །ཞེ་ནག་སྣ་ཚོ་མཐུན་པར་དཀའ། །ནང་དུ་ཉོག་ཆེ་ཕྱི་རུ་འཇམ། །མཐོ་སེམས་ཆེ་ལ་རང་ཚགས་དམ། །བུ་ཚ་ནལ་བུའི་ངོ་ཡང་ཡོད། །ལྷ་རུ་ཀླུ་བཙན་དཀར་མ་དང་། །མ་མོ་འགོ་ཞིང་བསེན་མོ་གནོད། །གིན་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །ས་བདག་ཐབ་གཞོབ་ས་ཞེས་བྱ། །ཕ་མེས་མཛེ་ནད་གཉན་ནད་ཀྱིས། །ཤིའམ་གཞན་གྱིས་བཙོག་བྱས་ཤིང་། །ཐབ་གཞོབ་རྐྱེན་གྱིས་གྲིར་ཤི་མང་། །ཡང་ན་བན་བོན་ཡོན་ཏན་ཅན། །འོང་སྟེ་གཉིས་སམ་གསུམ་བརྒྱུད་ཡིན། །ཡུལ་དུར་བྱང་ངམ་ཤར་བལྟས་ཡོད། །བློ་བརྟན་གཞན་གྱིས་བཅོས་པར་དཀའ། །ཤ་ལྕི་ཁ་ཉུང་ཚིག་བརྟན་ལ། །ཕ་གཅིག་བུ་གཅིག་རྨང་པོར་འོང་། །ཕྲ་ལ་ཞིབ་ཅིང་ཆེ་ལ་རྩིང་། །ལྷ་རུ་དགྲ་ལྷ་དྲག་པོ་དང་། །གཤིན་རྗེ་འགོ་སྟེ་ས་བདག་དང་། །ས་ཐེལ་གནོད་པ་ཡིན་ཞེས་བྱ། །ཟིན་སྟེང་འདི་རུ་གང་སྐྱེས་པས། །རབས་ཆད་རྨང་འདྲེའི་ས་ཞེས་བྱ། །ཕ་མེས་རབས་ཆད་སྐྱོན་ཆེན་དང་། །དམེ་དང་དྭ་འུ་གོ་གསོས་དང་། །ཤིང་གཉན་བཅད་པས་འགག་གྲི་འམ། །ཤིང་གྲི་མང་སྟེ་ཆིག་བརྒྱུད་དམ། །ཡང་ན་གསུམ་བརྒྱུད་འོང་བ་ཡིན། །མི་དམངས་དྲག་པོ་འབྱུང་བའི་ས། །ཡུལ་དུར་ལྗང་སྔོན་ཤར་ལྷོར་བལྟ། །མདོག་སྔོ་ཁྲོམ་གལ་ཆེ་བ་ལ། །ཐབས་མཁས་ཟལ་ཆེ་ཡིད་སྣང་སླུ། །བུ་དང་ནོར་གྱི་དབང་ཐང་ཆེ། །ཁ་རྒོད་ལག་འཐོར་ནང་དུ་གྱོང་། །ལྷ་རུ་ཀླུ་བདུད་ཡུལ་བདག་འགོ། །གདོན་དུ་རྨང་འདྲེ་གནོད་པའོ། །ཟོན་སྟེང་འདི་རུ་གང་སྐྱེས་པ། །རྦད་འདྲེ་ཀླུ་གཉན་ས་ཞེས་བྱ། །ཕ་མེས་སློབ་དཔོན་དང་འགྲས་སམ། །ཡང་ན་རྦད་འདྲེ་གཏོང་བ་ཡོད། །ཀླུ་དང་ས་བདག་གནོད་པ་ཡིས། །སྨྱོ་འབོག་ལྕེབ་གྲིར་ཤི་བ་དང་། །མི་འཁྱར་ཡང་ན་བྱེས་ཤི་ཡོད། །ཕ་མེས་གཉིས་སམ་བཞི་ཡིན་ཀྱང་། །ད་ལྟ་ཤིན་ཏུ་རྨང་བ་ཡིན། །ཡུལ་དུར་ཤར་ལྷོའམ་ལྷོ་ཕྱོགས་སུ། །ཕུ་བལྟས་ཡོད་དེ་ཡུལ་ལྷ་དང་། །འཕྱ་འདོད་ཁྲོ་ལ་དགའ་བ་སྟེ། །མཐོ་གནོན་མཉམ་གཉིས་འགྲན་སེམས་ཆེ། །སེམས་ལས་ངོ་སོ་གཉིས་ཀ་ཆེ། །ཐ་མ་གློ་བུར་ནད་ཀྱིས་འཆི། །སྨན་འགོ་རྒྱལ་པོ་འགོང་པོ་གནོད། །དེ་ནི་སྤར་ཁའི་སྐྱེས་ཚད་ཡིན།།
+
+(«གྱོས་པོ», father-in-law, is Yigdzin-1's; the scan's letter is not clear
+at 4.5×.)
+
+Of the eight great trigrams of the inner clan, what each brings to the
+child born on it (the natal trigram, the mother's trigram at the birth,
+RD13): the forefathers' fault and how many generations they were, the
+child's character and lot, the direction the home and the tomb face, the
+god that goes with it and the spirit that harms:
+
+| Born on | Called | The forefathers | The child | Home and tomb | God with; harm from |
+| --- | --- | --- | --- | --- | --- |
+| li | the place of blades and the hearth | flourished greatly, then split into four or five; from the father and grandfather "a great blade", many deaths by the blade | loves gossip and slander; takes the seat of father and father-in-law; blamed without fault; faults of the head and senses; a man has red signs of blood; a woman a fallen moon (miscarriage), a child's death; *gnyan* illness from hearth grudges; great faults in the children | facing south and west | kings, *btsan*, māras; *'gong po*; the earth lords' harm hard to turn back |
+| khon | the place of the tomb spirit and the tomb's fault | a fault in laying a tomb; two generations, great loss | the line foolish and mute, at odds with the nāgas, hunchbacked, lame, dying by the blade; curses come fast; grudges, illness; children hard to raise, separations; soft speech, much pride, angry and fierce; rich early, poor late; careful with corpses and impurity | yellowish | black-brown nāga goddesses; earth lords and nāginīs |
+| dwa | the place of the *dme* blade | a *dme* blade among them: a killing by foul means; an orphan raised, one with *dme* taken in; three or four generations | wealth a little thin; white-minded, short of patience, anger grows; little guile, great vigour, strong courage, gains in learning; man and woman alike keep the house; an oath broken on the mother's brothers' side; land and wealth lost; *dza ma* (not identified) dies by the blade; stabbing pains | yellow or black, facing west or north | *btsan*; the dead of violence (*gre bo*) |
+| khen | the place of the lame and of loss | hunchbacks, the lame, the foolish and mute; two or four generations | a few enemies; moves of home; much loss of joy, little of people; proud, high-placed gods; little satisfied though he strives; clever, takes the conditions; feeds on father and uncle | red-yellow, facing north-west | *'gong po*; kings |
+| kham | the place of impurity, pollution and black gifts | one fell into others' hands, or one was taken in in incest; brother and sister's line cut, black gifts; the father's name low, the brothers' high; brides separated; five or four generations | quick to suffer; black-hearted, hard to agree with; troubled within, smooth without; proud and tight; signs of children of incest | white-black, facing north or east | nāgas, *btsan*, white goddesses, *ma mo*; *bsen mo* |
+| gin | the place of the earth lords and the hearth | died of leprosy or *gnyan* illness, or defiled by others; many deaths by the blade through the hearth; or a learned *ban bon*; two or three generations | stubborn; heavy-bodied, few words, firm in speech; one father, one son, a thin line; fine in small things, coarse in great | facing north or east | the warrior god and the Lord of Death; earth lords and *sa thel* |
+| zin | the place of the line cut and the foundation spirit | a great fault of the line cut; *dme*, orphans raised; a *gnyan* tree felled: deaths by the blade, many by wood; one or three generations | a place of fierce common folk; much needs; skilled and crafty; great power of children and wealth; reckless, mean at home | green-blue, facing south-east | nāgas, māras, local lords; the foundation spirit (རྨང་འདྲེ, rmang 'dre) |
+| zon | the place of the sorcery spirit and the nāga-*gnyan* | at odds with a master, or sent sorcery spirits; through nāgas and earth lords madness, epilepsy, deaths by the blade or in water, wanderers or deaths abroad; two or four generations, now very thin | loves scorn and anger; wants to equal the high, rivalry; at the end sudden illness | south-east or south | the medicine goddess; kings and *'gong po* |
+
+"That is the trigrams' measure of birth." These are **readings by the
+natal trigram**, in the shape of the mewa births that follow, and need
+**the mother's birth year** only.
+
+### The nine-multiples that need the parents (pp. 412–413; the notes, pp. 493–494)
+
+Yigdzin-1 and the etext, **not read on the scan**:
+
+- The drum-sickle nine-multiple of birth luck (རྔ་ཟོར་བཙས་ཀླུང་དགུ་མིག, rnga zor
+  btsas klung dgu mig, p. 412, img. 422, l. 20, to p. 413, img. 423, l. 1):
+  «རྔ་ཟོར་བཙས་ཀླུང་དགུ་མིག་ནི། །གནམ་ལོའི་མདུན་དུ་ལྔ་བགྲངས་པའི། །མཐུན་གསུམ་དེ་ལ་བརྟག་པ་དེ།» … «མདུན་ལྔའི་ཕ་མ་གཉིས་ལ་བརྩི།»:
+  the triad counted five ahead of the current year; for one of a wood
+  clan, a birth in the wood-female tiger, hare … snake year is bad, and so
+  for each element with its years and readings; "the five ahead is
+  counted for both father and mother". The notes (vol. 2, p. 494,
+  img. 502): «རྔ་ཟོར་བཙས་ཀླུང་དགུ་མིག་ནི་རུས་ཤིང་ཁམས་པ་ལ་རང་ཁམས་དང་མཐུན་པའི་ན་ཤི་དུར་ལོ་པའི་བུ་ཚ་བཙས་ན་ངན་ཏེ་… རུས་མིན་ཀྱང་ཕ་མའི་སྲོག་ལའང་བརྩི་བ་ཡོད་འདྲའོ། །མ་ཡི་རུས་ལས་ཀྱང་དེ་ལྟར་བརྩིའོ། །དེ་ཡང་གནམ་ལོའི་མར་ལྔ་མཐུན་གསུམ་མམ་རྔ་ཟོར་དགུ་མིག་ལ་ཕ་མ་གང་རུང་ཚུད་དུས་བུས་པ་སྐྱེས།»:
+  for a wood clan, a child born in the year of illness, death or tomb of
+  the element is bad; it seems to be counted also from the parents' life
+  force, not only the clan; from the mother's clan too; it is when either
+  parent falls in the current year's triad five back, the drum-sickle,
+  that a child is born. Needs: **the parents' birth years and clans** and
+  the child's birth year.
+- The nine-multiple of the "birth disgrace" (སྐྱེས་མཚང, skyes mtshang): the
+  notes (vol. 2, p. 493, img. 501, l. 9)
+  «སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི།», read here as "up to nine fives
+  (45) from the mother's, from nine sixes (54) on from the father's year"
+  (question below); ch. 24's ages of disgrace (p. 410, img. 420) are
+  counted from the person alone, above.
+
+### What the obstacles need, for whom
+
+| Obstacle (WB vol. 1) | Whose dates | What is reckoned from them | Reading and remedy |
+| --- | --- | --- | --- |
+| The secret circle (p. 380) | none: the person's year | a year whose life force is the enemy of the person's | another's view, reported; not WB's forty-seven |
+| The household's pebbles (pp. 385–387; notes pp. 490–491) | every member of the house: birth year, gender, order of birth | each one's four decisive pebbles and mewa of the year, laid in rows | the god's, people's, house's, wealth's and enemy's places by colour, with rites |
+| The progressed sign on another's year (p. 388) | spouse's birth year; father's (or son's) birth year; each parent's year of death | the person's progressed sign of the year against those years | named images, bad for wife, husband, father or son, or "gone into the existence of the dead" |
+| The spouses' obstacle, *bza' shug* (p. 390; notes p. 492) | both spouses' (and housemates') birth years and genders | each one's trigram of the year of age, on one trigram | joy and sorrow both; trigram and mewa rites; "the one with attachment" goes abroad; the corpse rites |
+| The forefathers' tomb obstacle, *dur keg* (p. 390; notes p. 492) | the year of death of father, mother, forefathers (and their birth years, if their own signs at death are meant) | the trigram, mewa and progressed sign of the death, met by the person's of the year | the dead fight and beckon; rebury, seal, move the tomb, the *Avataṃsaka*, lamps |
+| The obstacle of the dead, *gshin keg* (p. 390) | seven generations' years of death | the dead year's circles | a view WB rejects; not needed |
+| The secret obstacle, *gsang keg* (p. 390; notes p. 492) | the mother's birth year; whether she is living | the natal trigram, met by the trigram of the year; the son's li, the daughter's kham | hidden illness of body or mind; the *Aparimitāyus* sūtra; the mother's luck rite by her living or not |
+| The household's trigrams piled (pp. 396–400) | every member's birth year and gender; for the "another view", their mothers' birth years | each one's trigram of the year; natal trigrams | ༡–༢༥: who is endangered, ransoms, rites; the good pilings |
+| The household's mewa (pp. 407–409) | every member's birth year, gender, age and station | each one's mewa of the year | by colour; each kind of person's "two black"; both spouses on two black |
+| The births on the trigrams, ff. 180b–182a (pp. 286–288) | the mother's birth year | the natal trigram | the forefathers' fault and generations, the child's character, home and tomb, god and harm |
+| The drum-sickle of birth luck (pp. 412–413) | both parents' birth years and clans | the parents in the current year's triad five back | a child born then; Yigdzin-1 only |
+
+### Open
+
+- Question: the forefathers' tomb obstacle (WB vol. 1, p. 390): «ཕ་མེས་ཤི་བའི་སྲི་དུས་ལ། །སྤར་སྨེ་ཕྱི་གཟའ་ལོ་གྲངས་སླེབས།». The notes (vol. 2, p. 492) gloss it «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན», "the trigram, mewa and progressed sign of the forefathers' time of death". Are these the forefather's own (his trigram and progressed sign in his year of death, which need his birth year) or those the death year gives the person reckoned, and is "reaching the number of years" the person's trigram, mewa or progressed sign coming onto them?
+- Question: the secret obstacle (WB vol. 1, p. 390): «གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི། །བུ་ལ་གསང་ཀེག་མ་སྤར་ཁམ། །བུ་མོར་གསང་ཀེག». The notes (vol. 2, p. 492) read «བརྩི་བྱ་ལི་ལ་བབ་དུས་བུ་ལ་གསང་ཀེག», the one reckoned on li. Is «མ་སྤར» the mother's trigram (of the current year, or at the birth?) or, as the notes take it, the one reckoned's trigram, and what does «མ» then mean?
+- Question: WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན། །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed sign reaches?
+- Question: WB vol. 1, p. 390: what are «རྐྱ་མདའ» (so on the scan; the etext «རྒྱ་མདའ») to be guarded at the spouses' obstacle, «ར་འབད» among the dead's pebbles, and «རུ་ཤན་ཁ་སྤྲོད» at the secret obstacle?
+- Question: WB vol. 1, p. 408: «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན» in the list of each kind of person's "two black": whose "two black" are the five yellow and the six white («བརྗེ», «བོན»)?
+- Question: the notes, vol. 2, p. 493: «སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི» — is «མ» the mother's year (counted from the mother's year up to 45, from the father's from 54), and is it the parents' age that is counted for the child?
+- Question: the household round (WB vol. 1, p. 385; the notes, vol. 2, p. 490): is the household the people living in the house that year (as "some reckoners" count) or the family wherever it lives, and does a member who died during the year still count?
+- Doubt: «གྱོས་པོ» (p. 286, img. 296) rests on Yigdzin-1; the scan's letter is not clear.
+- Doubt: the drum-sickle of birth luck (pp. 412–413) and the notes' pp. 493–494 rest on Yigdzin-1 and the etext; not read on the scan.
+
+### Searched and not found
+
+- **A worked example of the household pebble round with its readings**
+  beyond the notes' layout of five people (vol. 2, p. 490): none in ch. 24
+  or the notes' section 2 (etext and Yigdzin-1).
+- **The mother's year in the secret circle** (WB vol. 1, p. 380): the
+  «མ་ལ་དྲིས» is the secret life force's mother element (the scan; the notes,
+  vol. 2, p. 489), not the person's mother.
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's
