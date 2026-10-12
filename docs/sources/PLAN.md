@@ -445,3 +445,13 @@ Searched and found wanting, so not to be repeated:
 - **«དུས་སྲི» and «སྲི་བཟློག» in WB** (O6, 2026-10-12; the etext of both
   volumes, IE0OPI51524892): the *dus sri* of Ramble's rite and "turning
   back the sri" are in neither volume.
+- **A gloss on WB's Mercury and Venus clause at a solar eclipse** (O4,
+  2026-10-12; vol. 1, p. 64): BDRC full-text search for «ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན»,
+  «ལྷན་ཅིག་གནས་ཚེ་བཟུང», «ལྷག་པ་པ་སངས་གཉིས» and fourteen variants (listed in
+  month-entries.md, O4's *Searched and not found*) finds WB's prints, KD,
+  the Gser thang edition and a verse copy in Bstan 'dzin chos kyi rgyal
+  mtshan's works (MW3JT13322, no gloss); the etexts of KD, the Sakya *rtsis
+  gzhung*, JL, Bu ston, *Making the Learned Glad*, Kongtrul's *Treasury
+  Pervading All Knowledge*, the annotated *Abridged Kālacakra Tantra* and
+  Blo gros dpal give only the *Seven Special Qualities*' restatement. Sde
+  srid's *Removing the Tarnish from the Beryl* has no etext on BDRC.

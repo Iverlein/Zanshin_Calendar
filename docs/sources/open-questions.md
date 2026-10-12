@@ -285,7 +285,9 @@ the text, not about the app.
     sun's entry into Capricorn; both readers who restate the lines make
     them days on which the sun is hard to seize, not days on which it is
     never seized; which places of Mercury and Venus the second compares
-    no source found says. The app keeps applying neither
+    no source found says (O4, 2026-10-12: the *Seven Special Qualities*
+    restates the clause with the true sun, in one mansion, without the 135,
+    as a smaller eclipse; questions 116–118). The app keeps applying neither
     ([month-entries.md](month-entries.md), "p. 64's two exceptions").
 
     - **The sun's.** OS (pp. 1302–1303, archive.org `bdrc-W1PD95727-1`,
@@ -956,3 +958,22 @@ the text, not about the app.
      kinds of dead infant by age, and are the "three hundred and sixty sri
      texts" (སྲི་གཞུང, sri gzhung) a known body of texts? (2026-10-12, O6,
      [sri.md](sri.md))
+
+116. **One condition or two.** Does WB's «གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ»
+     (vol. 1, p. 64) set one condition (in the sun's mansion and within 135
+     sixtieths of it) or two (in the same mansion, or within 135
+     sixtieths, one sign, p. 34), and is the 135 the sign or the month's
+     mean motion of Mercury and Venus (the annotated *Abridged Kālacakra
+     Tantra*)? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+
+117. **Which places.** Which place of Mercury or Venus does the clause set
+     beside the sun, the true place after the fast equation (their mean
+     place being always the sun's, by Blo gros dpal) or another; and which
+     sun, the abridged reckoning's, principal in WB's solar rule (p. 65),
+     or the true reckoning's corrected sun that the *Seven Special
+     Qualities* takes? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+
+118. **Smaller, or none.** Is the *Seven Special Qualities*' "the part
+     seized is smaller" a reading of WB's «བཟུང་མི་སྲིད», "cannot be seized",
+     as JL's «འཛིན་པ་དཀའ» and OS's are of the whole list, or a rule from
+     another source? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")

@@ -421,21 +421,9 @@ and what the 135 adds, stay open.
 
 #### Open
 
-- Question: does WB's «གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ» (vol. 1, p. 64) set one condition
-  (in the sun's mansion and within 135 sixtieths of it) or two (in the
-  same mansion, or within 135 sixtieths, one sign, p. 34), and is the
-  135 the sign or the month's mean motion of Mercury and Venus (the
-  annotated *Abridged Kālacakra Tantra*)?
-- Question: which place of Mercury or Venus does the clause set beside
-  the sun, the true place after the fast equation (their mean place
-  being always the sun's, by Blo gros dpal) or another; and which sun,
-  the abridged reckoning's, principal in WB's
-  solar rule (p. 65), or the true reckoning's corrected sun that the
-  *Seven Special Qualities* takes?
-- Question: is the *Seven Special Qualities*' "the part seized is
-  smaller" a reading of WB's «བཟུང་མི་སྲིད», "cannot be seized", as JL's
-  «འཛིན་པ་དཀའ» and OS's are of the whole list, or a rule from another source?
-
+- Open question 116 ([open-questions.md](open-questions.md)).
+- Open question 117 ([open-questions.md](open-questions.md)).
+- Open question 118 ([open-questions.md](open-questions.md)).
 #### Searched and not found
 
 - BDRC full-text search, 2026-10-12: «ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན», «ལྷན་ཅིག་གནས་ཚེ་བཟུང», «ལྷག་པ་པ་སངས་གཉིས»
