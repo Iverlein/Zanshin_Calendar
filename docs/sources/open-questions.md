@@ -389,7 +389,9 @@ the text, not about the app.
     as 5,801 in all (the parts make 5,805), and ch. 28 123 and 1,042 as
     1,166 (they make 1,165) (read on the scan 2026-10-11, RD11,
     [reckonings.md](reckonings.md)). Are these slips of the 1996
-    typesetting or of the blocks?
+    typesetting or of the blocks? RD15 read ch. 23's sum again on the scan
+    (2026-10-12, [marriage.md](marriage.md)): still 5,801; does the Zhol
+    print (WBZ) read the same?
 
 23. **WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
     twice print «དུས་ཁམས», "the element of the time", where the five great
@@ -402,6 +404,12 @@ the text, not about the app.
     match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
     Yigdzin-1 and the etext have «ཎི་ཤ», the scan's first letter is «ཏི» or
     «ཎི» (2026-10-11, RD11, [reckonings.md](reckonings.md)). What is it?
+    Its rule is now found (2026-10-12, RD15, [marriage.md](marriage.md)):
+    the chapter (p. 359, img. 369) and the notes (vol. 2, p. 525) want the
+    man of a male year and older, the woman of a female year and younger.
+    The notes and ch. 30 (vol. 2, pp. 525, 152) seem to print «ཊི་ཤ». So
+    the question narrows to the word: a loan (from Sanskrit or Chinese) or
+    a misprint?
 
 25. **WB vol. 2, p. 532 (img. 540): the general reckoning's fourth
     part.** The notes' seventh section names four parts of the general
@@ -550,3 +558,24 @@ the text, not about the app.
 52. **WB vol. 1, pp. 428–429: lost in vol. 1's scan.** pp. 428–429 (lost in vol. 1's scan and etext): does another print of the 1996 edition, or the Taikhang reproduction (MW30116), carry them as pages of the same book, so that the 1996 text is complete, and is the repetition of pp. 430–431 in BDRC's scan a scanning error or a fault of the book? (2026-10-12, RD12, [health.md](health.md))
 
 53. **WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
+
+54. **WB vol. 1, pp. 354, 365–368: «ལྡིང་ནག».** The twenty brides of
+    misfortune open with three «ལྡིང་ནག» brides, and p. 354 has «ལྡིང་ནག་བུ་
+    གསུམ». Is it *lding nag*, the black *lding*, and what is the *lding*
+    here? The scan's letter could be read «ཉིང» (2026-10-12, RD15,
+    [marriage.md](marriage.md)).
+
+55. **WB vol. 1, p. 365 (img. 375): *kham yu*'s two counts.** Is the
+    station reached by counting the years completed from Kṛttikā (the man)
+    or Pūrvaphalgunī (the woman), as the second statement says, or from the
+    own year on the fourteen stations, as the first says? The woman's table
+    starts from Anurādhā, not Pūrvaphalgunī (2026-10-12, RD15,
+    [marriage.md](marriage.md)).
+
+56. **WB vol. 1, p. 372 (img. 382): the bride's months,
+    «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ».** Is the man's count forward and the woman's
+    backward from the birth month, and does "the first" mean her own birth
+    month (2026-10-12, RD15, [marriage.md](marriage.md))?
+
+57. **WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
+    or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?

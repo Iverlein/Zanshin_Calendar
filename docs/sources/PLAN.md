@@ -329,3 +329,10 @@ Searched and found wanting, so not to be repeated:
   2026-10-12): none in ch. 25; the only example is p. 442's twelve stages.
 - **Recovery or death counts for the mansions** (RD12, 2026-10-12): not in
   vol. 2's mansion verses (pp. 313–328); not searched elsewhere.
+- **A weighing among the seventeen parts of the bride's departure** (RD15,
+  2026-10-12): none in WB ch. 23 (pp. 365–378, read on the scan); each bad
+  finding has its own remedy.
+- **The meaning of «ཎི་ཤ»**, the match's sixth point (RD15, 2026-10-12): the
+  etext of both volumes of WB has it on vol. 1, p. 351, in the notes
+  (vol. 2, p. 525) and in ch. 30 (vol. 2, p. 152), and Yigdzin-1 on p. 359;
+  none says what the word is.

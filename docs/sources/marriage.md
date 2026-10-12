@@ -774,25 +774,11 @@ instead of the dates.
 
 ### Open
 
-- Question: what is «ཎི་ཤ», the sixth point's name (p. 351, img. 361)? The
-  chapter (p. 359, img. 369) and the notes (vol. 2, p. 525) now give its
-  rule: the man of a male year and older, the woman of a female year and
-  younger. The notes and ch. 30 (vol. 2, pp. 525, 152) seem to print
-  «ཊི་ཤ». Is the word a loan (from Sanskrit or Chinese) or a misprint?
-- Question: p. 351 still sums 478 and 5,327 as 5,801 (open question 22);
-  does the Zhol print (WBZ) read the same?
-- Question: the twenty brides' «ལྡིང་ནག» (pp. 365–368, and «ལྡིང་ནག་བུ་
-  གསུམ», p. 354): is it *lding nag*, the black *lding*, and what is the
-  *lding* here? The scan's letter could be read «ཉིང».
-- Question: what are *kham yu*'s two counts (p. 365): is the station reached
-  by counting the years completed from Kṛttikā (man) or Pūrvaphalgunī
-  (woman), as the second statement says, or from the own year on the
-  fourteen stations, as the first says? The woman's table starts from
-  Anurādhā, not Pūrvaphalgunī.
-- Question: the month part (p. 372): «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ» — is the
-  man's count forward and the woman's backward from the birth month, and
-  does "the first" mean her own birth month?
-- Question: the date «བདུན་གསུམ» (p. 373): the 7th and 3rd, or the 21st?
+Open questions 22, 24 and 54–57 ([open-questions.md](open-questions.md)):
+22, the sum on p. 351, still 5,801 for 5,805 (WBZ to be compared); 24, the
+word «ཎི་ཤ», its rule now found; 54, «ལྡིང་ནག»; 55, *kham yu*'s two counts;
+56, the bride's months; 57, the date «བདུན་གསུམ».
+
 - Doubt: words read by Yigdzin-1 and not settled on the scan: «ཨེན» (p. 365),
   «གླང་བྲེ» (p. 366), «བྱེ་བྱུགས» (p. 367), «སྣར»
   (p. 368), «གོ་ཁ» (p. 377), «དཱ་སྲི» (p. 370), «དྲིར» (p. 373).
