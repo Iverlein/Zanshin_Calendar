@@ -352,3 +352,7 @@ Searched and found wanting, so not to be repeated:
   only); RS's scans are lent on archive.org.
 - **A list of his books on drnida.com/books** (RD7, 2026-10-12): the page
   holds no list.
+- **A single verdict or score of the whole reckoning for the dead** (RD16,
+  2026-10-12; WB vol. 2, pp. 44–51 on the scan, the etext of pp. 51–143 and
+  of the notes pp. 499–522): none; each examination gives its own readings
+  and rites.

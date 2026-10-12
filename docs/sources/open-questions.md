@@ -616,3 +616,28 @@ the text, not about the app.
 64. **The Russian *Йога звука* (2016).** Is it a translation of *The
     Science of Mantra Healing by Interdependence* (2015)? VIAF gives titles
     only (2026-10-12, RD7, [health.md](health.md)).
+
+65. **WB vol. 2, pp. 44–51 (img. 52–59): the reckoning for the dead's
+    total.** The fifteen examinations and the preliminary, as each states
+    its own counts, come to 993 result and 9,321 identifying pebbles,
+    10,314, against the stated 1,008 and 9,363, 10,371 (p. 44; again in the
+    notes, p. 522). Are the twelve la pebbles with the six lamps (6 + 59,
+    p. 45) and the leftover pebble of the eleventh (1 + 9, p. 49) counted
+    inside the totals, and where are the remaining pebbles (2026-10-12,
+    RD16, [reckonings.md](reckonings.md))?
+
+66. **WB vol. 2, pp. 46–47 (img. 54–55): the fourth examination's 87.** It
+    states 16 + 50 = 66 pebbles and ends «ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག
+    །བསྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།», "rolled together 87"; which pebbles make up
+    the 87 (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+
+67. **WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
+    «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»; what is
+    it (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+
+68. **WB vol. 2, pp. 47–48, 55, 128 (img. 55–56, 63, 136): the *bsgrub*
+    grave, the grave's account and «ར་བསེ».** What are the *bsgrub* grave
+    (བསྒྲུབ, the iron one of the five) and the grave's account (དུར་སྨྲང, the
+    fifteenth examination, p. 55; the etext «དུར་སྒྲུང»), with the five
+    graves' «སྐྲང་སྒོམ» (p. 128; perhaps «སྨྲང»)? And «ར་བསེ», the roots of the
+    repetition (p. 48) (2026-10-12, RD16, [reckonings.md](reckonings.md))?

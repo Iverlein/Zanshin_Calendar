@@ -185,23 +185,31 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
   sixth's first letter by Yigdzin-1):
   «དང་པོ་ལ་ཡང་བཅོ་ལྔ་སྟེ། །བྱི་སྤངས་ལོ་འགྲོས་སྡེབ་ཚུལ(༡)དང་། །ལོ་ངན་མི་རུང་ངོས་འཛིན་ཚུལ(༢)། །རྐྱང་པ་དབང་ཐང་སྒོས་ཀྱི་འབྲས(༣)། །ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་། །སྤུན་གྲངས(༧)ཕ(༨)དང་མ(༩)ཡི་རུས། །སྐྱེས་ཟླ(༡༠)སྤར་ཁ(༡༡)སྨེ་བའི(༡༢)ཀླུང་། །དར་གུད་ཁྲི་སྒོ(༡༣)གཟའ(༡༤)སྐར(༡༥)དང་། །བཅས་ཏེ་བཅོ་ལྔས་གཏན་ལ་དབབ།»
   (1) avoiding kin, and how the years go together; (2) the bad years that
-  will not do; (3) the single power's own result; (4) the hidden and (5) the deeper hidden; (6) «ཎི་ཤ», not identified (question 24);
-  (7) the number of siblings; (8) the father's and (9) the mother's clan;
+  will not do; (3) the single power's own result; (4) the hidden and (5) the deeper hidden; (6) «ཎི་ཤ», whose rule RD15 found
+  (the man of a male year and older, the woman of a female year and
+  younger, p. 359), the word not identified (question 24); (7) the
+  "siblings' number", pebbles counted by element, not a count of real
+  siblings (RD15); (8) the father's and (9) the mother's clan;
   (10) the birth month, (11) the trigram, (12) the mewa's luck; (13) the
   throne doors of the rise and decline; (14) the planet and (15) the
   mansion. The second part's seventeen parts are in
   [wb-contents.md](wb-contents.md) (*Found in passing*).
-- **Whose dates.** Both partners' birth years, months, trigrams, mewa,
-  planets and mansions; their fathers' and mothers' clans, the number of
-  siblings and whether they are kin (asked); for the road, the day and
-  hour of the bride's departure.
+- **Whose dates** (RD15, [marriage.md](marriage.md)). Both partners'
+  birth years, with the sex of the year and their elements, mewa, trigram,
+  progressed sign (log men), birth month, day animal, weekday and mansion;
+  the bride's age; the bride's mother's marriage year; the year the
+  groom's father set up house; the parents' birth mewa; the fathers' and
+  mothers' clans and whether the two are kin (asked); the clan element;
+  for the departure, its year, month, date, weekday, mansion, hour and
+  direction.
 - **Size** (p. 351, read on the scan): «འབྱུང་བ་གསལ་བའི་སྒྲོན་མེ་ནས། །རྡེལ་གྲངས་རྩ་བར་བཅུ་གསུམ་སྟེ། །གཞན་ལྟར་རྒྱས་འགེབས་སྤྲོས་ཆེ་ན། །རྡེའུ་ཉིས་ཁྲི་དགུ་སྟོང་དང་། །ཉེར་ལྔ་ཙམ་དུ་འབྱོར་ནའང་།» … «རྩ་རྡེལ་བཞི་བརྒྱ་དོན་བརྒྱད་དང་།» … «མི་ནོར་མཚན་མའི་རྡེའུ་ནི། །ལྔ་སྟོང་སུམ་བརྒྱ་ཉེར་བདུན་རྣམས། །བསྡོམས་པས་ལྔ་སྟོང་བརྒྱད་བརྒྱ་དང་། །ཉག་མ་གཅིག་གིས་གཏན་ལ་དབབ།»
   The *Lamp that clarifies the elements* (འབྱུང་བ་གསལ་བའི་སྒྲོན་མེ, 'byung ba
   gsal ba'i sgron me) has 13 root pebbles; others expand to about 29,025;
   WB keeps 478 root pebbles and 5,327 sign pebbles, "in all 5,801"; the
   parts make 5,805 (question 22).
 - **Calculable** from both partners' dates and their parents' clans; the
-  remedies are rites, not reckoned.
+  remedies are rites, not reckoned. The whole chapter is read in
+  [marriage.md](marriage.md) (RD15, 2026-10-12).
 
 #### Ch. 24, obstacles and the Chinese pebbles (vol. 1, pp. 380–416, img. 390–426) — RD14
 
@@ -1134,22 +1142,10 @@ of ch. 29 bears the same name (གསོན་ཁོག་གཤིན་དབ�
 
 ### Open
 
-- Question: WB vol. 2, pp. 44–51 (img. 52–59): the fifteen examinations
-  and the preliminary, as each states its own counts, come to 993 result
-  and 9,321 identifying pebbles, 10,314, against the stated 1,008 and
-  9,363, 10,371 (p. 44; again in the notes, p. 522). Are the twelve la
-  pebbles with the six lamps (6 + 59, p. 45) and the leftover pebble of
-  the eleventh (1 + 9, p. 49) counted inside the totals, and where are the
-  remaining pebbles?
-- Question: WB vol. 2, pp. 46–47 (img. 54–55): the fourth examination
-  states 16 + 50 = 66 pebbles and ends «ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག །བསྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།», "rolled together 87"; which pebbles make up the 87?
-- Question: WB vol. 2, p. 50 (img. 58): what is «ཁ་སྨྲང» (read with doubt;
-  MITRA «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»?
-- Question: WB vol. 2, pp. 47–48, 55, 128 (img. 55–56, 63, 136): what are the
-  *bsgrub* grave (བསྒྲུབ, the iron one of the five) and the grave's
-  account (དུར་སྨྲང, the fifteenth, p. 55; the etext «དུར་སྒྲུང»), with the five
-  graves' «སྐྲང་སྒོམ» (p. 128, img. 136; perhaps «སྨྲང»)? And «ར་བསེ», the roots of the
-  repetition (p. 48)?
+Open questions 65–68 ([open-questions.md](open-questions.md)), in order: the
+chapter's total against its parts; the fourth examination's 87; «ཁ་སྨྲང»;
+the *bsgrub* grave, the grave's account and «ར་བསེ».
+
 - Doubt: p. 48 (img. 56), «སྦར» (burial) or «སྤར» (trigram) for the 29 in
   «བསྲེག་པར་བཞི་བཅུ་སྦར་ཉེར་དགུ»; read as burial by the count of the five graves,
   not settled on the scan.
