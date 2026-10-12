@@ -66,7 +66,7 @@ result in other words.
 | 6 | མདངས་ཡལ | the complexion fades | a lawsuit | differs | good | bad |
 | 7 | ཁ་མཆུ། འཕམ | quarrels, and losing them | complexion fades | differs | bad | bad |
 | 8 | ཚེ་རིང | long life | long life | same | good | good |
-| 9 | ན་ཆུང་མོད་འགྱུར | youthfulness | meeting youthful people | same | bad | good |
+| 9 | ན་ཆུང་མོད་འགྱུར | young women become many (O3, below) | meeting youthful people | same | bad | good |
 | 10 | དབང་ཐང་ཆེ | great power | great power | same | good | good |
 | 11 | དབང་རྣོ | sharp faculties | sharp intelligence | same | good | good |
 | 12 | ནད | illness | danger to life | differs | bad | bad |
@@ -91,8 +91,10 @@ result in other words.
 
 The 4th: *mal* is a bed or resting place, a dwelling (Rangjung Yeshe
 dictionary, rywiki.tsadra.org, *mal*, *mal sa*), *'chor* to be lost; SN
-writes «མལ་ས་འཆོར» (below). The 9th's «མོད་འགྱུར» is not settled; the
-rendering keeps only «ན་ཆུང», youth.
+writes «མལ་ས་འཆོར» (below). The 9th, «ན་ཆུང་མོད་འགྱུར», is young women (ན་ཆུང,
+*na chung*) becoming many (མོད་འགྱུར, *mod 'gyur*): settled by O3 (below) from the
+dictionaries, WB's own use of «མོད་འགྱུར» and four other prints of the
+line; the earlier rendering "youthfulness" kept only «ན་ཆུང».
 
 **Result.** The two lists are one family: the same result on 17 dates
 (1, 3, 5, 8–11, 14, 17, 19–22, 26, 28–30), the 24th and 25th swapped, the
@@ -104,6 +106,131 @@ cutting it.
 
 The good and bad dates follow chapter 33 (as WB says) on every date but
 two: chapter 33 names washing the hair good on the 14th and the 27th.
+
+## The 9th's «མོད་འགྱུར» (O3)
+
+Read 2026-10-12. **The 9th's result is "young women become many"**:
+«ན་ཆུང», a young woman, a maiden (ན་ཆུང, *na chung*), with «མོད», many,
+plentiful (མོད, *mod*), and «འགྱུར», to become (འགྱུར, *'gyur*). The
+line is the same in every print that could be read, WB uses «X མོད་འགྱུར»
+elsewhere for "X becomes plentiful", and the witnesses that copy the
+result give meeting or keeping company with young women. The verse says
+nothing more; the date stays on WB's bad side (above).
+
+### The line in the prints
+
+«དགུ་ནི་ན་ཆུང་མོད་འགྱུར་ཞིང་། །» — "on the 9th young women become many, and" —
+read on the scan, enlarged 5–12×, in:
+
+| Print | Where | Reading |
+| --- | --- | --- |
+| WB, 1996 Beijing edition | vol. 2, p. 404, img. 412 of I1KG12907 | «ན་ཆུང་མོད་འགྱུར», clear |
+| the same typesetting reprinted by Gser thang bla rung lnga rig nang bstan slob gling (*Phug lugs rtsis kyi legs bshad bai D+Ur dkar po*, BDRC MW3CN5026) | vol. 2, p. 404, img. 410 of I3CN5029 (image list `iiifpres.bdrc.io/il/v:bdr:I3CN5029`; the work's page reports an error for the images, the image server answers) | «ན་ཆུང་མོད་འགྱུར»; its BDRC etext (IE0OPI3864355D) has «བོད» for «མོད», an OCR slip |
+| WBZ, Zhol print | I1KG1710, img. 1169, line 5 | «ན་ཆུང་མོད་འགྱུར»: the letter after «མོ» has the vertical stroke of ད, unlike the ང of «ཆུང» beside it; Yigdzin-1 reads «མོང», a misreading; BDRC's etext garbles the line («རྣཆུངམདའགྱུར») |
+| the second impression of the Zhol blocks | MW4CZ74207, I4CZ74285, img. 1179 | «ན་ཆུང་མོད་འགྱུར», clear; Yigdzin-1 gave nothing on this image |
+| the Taikhang reproduction of a Lhasa print | MW30116, I5878, img. 551 (read at 3000 px; the hair verse runs to img. 552) | «ན་ཆུང་མོད་འགྱུར»; Yigdzin-1 the same |
+| WB2, the Derge print | I1KG12740, img. 555 (printed 543) | blotted over «དགུ་ནི་ན་ཆུང», and at 1226 px «མོ[…]་འགྱུར» cannot be told from «མོང»; not used |
+
+No print has «མོས», «མོད་པར» or another variant; only the rest of the
+line was compared, not the whole verse.
+
+### What the words mean
+
+- **«མོད»** (Steinert's collection of dictionaries,
+  github.com/christiansteinert/tibetan-dictionary, read 2026-10-12):
+  *Tshig mdzod chen mo*, sense 3: «མང་པོའམ་འབེལ་པོ», many or plentiful (its
+  senses 1 and 2 are "at once" and the concessive particle "although");
+  *Dag tshig gsar bsgrigs*, sense 1: «མོད་པོ་དང་མང་བ། ཕུན་སུམ་ཚོགས་པའི་དོན»,
+  plentiful and many, abundance, with the examples of grain and rain
+  that are plentiful this year; *Bod yig tshig gter rgya mtsho* as the
+  *Tshig mdzod chen mo*; *Sgom sde tshig mdzod chen mo*, sense 3, "many"
+  (with *mod pa* the same); Rangjung Yeshe, sense 3, "plenty"; Ives Waldo,
+  "many, plenty"; Jim Valby, *mod pa*, *mod po*: "many, much, abundant";
+  Bialek: "to be abundant, to abound". *Mod po* is glossed «འབེལ་པོ»,
+  abundant (*Tshig mdzod chen mo*). Jim Valby alone also lists "disease"
+  under *mod*; no other dictionary has it, and WB's own use (below) does
+  not bear it.
+- **«ན་ཆུང»**: *Bod yig tshig gter rgya mtsho*: «ལོ་ཆུང་བུད་མེད་དམ་གཞོན་ནུ་མ», a
+  woman young in years, a young woman; *Tshig mdzod chen mo*, *na chung
+  ma*: «བུད་མེད་ལོ་ཚོད་ཆུང་བ», the same; the Mahāvyutpatti and Lokesh
+  Chandra: Sanskrit *yuvati*, a young woman; Bialek: "girl"; Rangjung
+  Yeshe and Jim Valby: "teenager, early youth", and for *na chung ma*
+  "young girl, damsel, maiden".
+- **WB's own use** of «མོད» for "plentiful", read on the scan:
+
+  > «རབ་ཀླུང་ལུས་རྒྱབ་སྨེ་བ་མང་། །ན་ཚ་མོད་འགྱུར་ལོ་དང་སྨེ། །སྤར་ཁ་གསུམ་གྱིས་ཐུབ་པའི་མི། །ནད་བཏབ་གྱུར་ན་མྱུར་དུ་འཆི།།»
+  > — vol. 1, p. 327, img. 337 (ch. 22, the birth), of a bad river-horse
+  > (ཀླུང, *klung*; «རབ་ཀླུང» is not settled here): many moles on the
+  > back; illness becomes frequent («ན་ཚ་མོད་འགྱུར»); the line goes on with
+  > the year, the mewa (སྨེ, *sme*) and the trigram (སྤར་ཁ, *spar kha*), and a
+  > quick death when illness strikes.
+
+  And for water:
+
+  > «རང་རང་ཕྱོགས་ལ་ཕྱོགས་ཀྱི་ནི། །ཡི་གེ་ཡོད་ན་མོད་གྱུར་ཅིང་། །ཕྱོགས་ལ་མཚམས་ཀྱི་མིང་འདུག་དཀོན། །མཚམས་ལ་ཕྱོགས་ཀྱི་ཡི་གེ་ཡོད། །དེ་ནི་ཤིན་ཏུ་ཆུ་དཀོན་ནོ། །»
+  > — vol. 2, p. 399, img. 407 (ch. 34, work 22, finding water by
+  > letters): when each direction holds its own direction's letter, water
+  > is plentiful; a direction with an intermediate direction's name, it
+  > is scarce; an intermediate direction with a direction's letter, very
+  > scarce. «མོད» stands against «དཀོན», scarce, as in the *Tshig mdzod
+  > chen mo*'s «དཀོན་མོད», scarcity and plenty.
+
+  The etext of both volumes (not read on the scan) has «X མོད» for "X is
+  plentiful" dozens of times besides: «ན་ཚ་མོད», «ནད་མོད», illness frequent
+  (vol. 1, pp. 277–370, and vol. 2), «འབྲུ་རྣམས་མོད», grain plentiful (vol. 1,
+  pp. 202–205), «བཟའ་བཏུང་མོད», food and drink plentiful (vol. 2, p. 14),
+  «ཆར་གྱི་དཀོན་མོད», whether rain is scarce or plentiful (vol. 2, p. 423).
+  WB's «ན་ཆུང» is a young woman: the earth goddess «ན་ཆུང་གཞོན་མའི་གཟུགས་ཅན», in
+  the form of a young maiden (vol. 2, p. 211, etext only), and the land
+  shaped «ན་ཆུང་ནུ་མ་ལྟ་བུ», like a young woman's breasts (vol. 2, p. 266,
+  etext only).
+
+### The witnesses
+
+- **SN**, the table of ch. 20, read on the scan (printed p. 237, img. 265
+  of I1KG15279): «༩༽ ན་ཆུང་དང་འཕྲད།», 9: meeting young women (and «༡༩༽ གྲོགས་དང་འཕྲད།»,
+  19: meeting friends, for WB's «བཟང་གྲོགས»). SN is a witness only (README.md).
+- **A Drigung (འབྲི་གུང, *'bri gung*) medical compendium**, *'Bri lugs kyi
+  gso ba rig pa'i man ngag kun gyi gces bsdus phan bde'i snying po*
+  (BDRC MW2PD17386_917321, in *Bod lugs gso rig rtsa che'i dpe rnying kun
+  btus*; etext not available, only BDRC's search snippet, not read on a
+  scan), in its chapter on the hair (written «སྒྲ་ཡི་ལེའུ» in the OCR):
+  «ཆེས་གུ་ལ་ན་ཆུང་དང་འཕྲད», on the 9th [*tshes dgu*] one meets young women. Its
+  list opens «ཚེས་གཅིག་ཚེ་ཐུང», the 1st short life, as WB's.
+- **The haircut verse of a Drigung divination manual**, *Gtsug lag dkar
+  nag rgyud kyi dgongs don legs nyes brtag dpyad ngo mtshar 'phrul gyi sgo
+  'byed rnam dpyod blo gros spyan stong bkra ba* (BDRC
+  MW3KG218_O3KG218_CG20H2, in *'Bri lugs bang mdzod skor lnga*), section
+  3, «བྱིས་པ་ལ་སོགས་སྐྲ་བྲེག་བརྩི་ཚུལ», reckoning the haircut for children and
+  others; the same verse in *Yul mdo khams stod kyi mkhas grub rnam pa'i
+  gsung bcud bdud rtsi'i thigs phreng* (MW1PD152297, the collection MK
+  comes from; which volume not checked); both from BDRC's search
+  snippets only, not read on a scan: «…བརྒྱད་ཚེ་རིང་། །དགུ་ལ་ན་ཆུང་འགྲོགས་དང་ཚེས་བཅུ་ལ། །དབང་ཐང་ཆེ་ཞིང་བཅུ་གཅིག་དབང་པོ་རྣོ། །བཅུ་གཉིས་སྲོག་ཟིན་…»,
+  the 8th long life, the 9th the company of young women, the 10th great
+  power, the 11th sharp faculties, the 12th the life seized. Found in
+  passing: a Tibetan list for *cutting* the hair whose 12th, the life
+  seized, is FPMT's danger to life where WB's washing list has illness;
+  whether it is the source of FPMT's family needs the whole verse.
+
+### Open
+
+- Question: WB lists the 9th among the bad dates for washing the hair,
+  while its result, young women becoming many, reads as a gain in SN and
+  the haircut lists. Is the result meant as a good (company, a bride) or a
+  warning (distraction, desire), or does the bad date stand only because
+  it follows chapter 33?
+
+### Searched and not found
+
+- «མོད་འགྱུར» in a dictionary as a compound: none of the 64 dictionaries of
+  Steinert's collection has it as a headword (*mod*, *mod pa*, *mod po* only).
+- BDRC's full-text search (2026-10-12): «ན་ཆུང་མོད» and «དགུ་ནི་ན་ཆུང» only in
+  WB (MW2CZ8040, MW3CN5026) and an unrelated modern novel; «ན་ཆུང་མོང» and
+  «ན་ཆུང་མོད་པར» no hit; «ན་ཆུང་མོས» one unrelated poem; «མོད་འགྱུར» 28 hits, of which the
+  first six were read (WB twice, a Kangyur (བཀའ་འགྱུར, *bka' 'gyur*) manuscript,
+  the works of Ngorchen Kunga Zangpo (ངོར་ཆེན་ཀུན་དགའ་བཟང་པོ, *ngor chen kun dga'
+  bzang po*), a treasure text): none another almanac's hair dates.
+  No commentary on the line was found.
 
 ## The witness: SN
 
