@@ -146,7 +146,7 @@ written down as a dead end (sources/PLAN.md).
 
 | # | What is open | Where | Built in |
 | --- | --- | --- | --- |
-| <a id="o1"></a>O1 | KP's links left out: box 53's (which half), box 55's numbers, box 50 (KP2 only), "skye" alone (boxes 5, 7, 20), boxes 48 and 60 | [kp-activities.md](sources/kp-activities.md) | [T2.25](#t2-25) |
+| <a id="o1"></a>O1 | KP's links left out: box 53's (which half), box 55's numbers, box 50 (KP2 only), "skye" alone (boxes 5, 7, 20), boxes 48 and 60 — done 2026-10-12 (read on the scan in KP and KP2; the table's changes, and box 53's Tiger, Dragon and Ox days and *zon* moved to the good, are in kp-activities.md, *What the table should now carry*, for a build; questions 103–105) | [kp-activities.md](sources/kp-activities.md) | [T2.25](#t2-25) |
 | <a id="o2"></a>O2 | Ch. 34: three entries whose verse reads two ways; whether «བཅོ་བརྒྱད་དགུ» names the 9th for marriage; which mansion «བྱ་གཞུག» is | [white-beryl-ch34.md](sources/white-beryl-ch34.md), *Left out* | T2.6 |
 | <a id="o3"></a>O3 | The hair dates' 9th, «མོད་འགྱུར» | [hair-dates.md](sources/hair-dates.md) | [T2.15](#t2-15) |
 | <a id="o4"></a>O4 | Open question 18: the places WB's Mercury and Venus clause compares at an eclipse (vol. 1, p. 64); searched without result 2026-10-10 | [open-questions.md](sources/open-questions.md) | [T2.23](#t2-23) |

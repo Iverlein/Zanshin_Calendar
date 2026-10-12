@@ -877,3 +877,20 @@ the text, not about the app.
     might be the rat as the day's animal, «ཟིན་ཕུང» the trigram *zin* with
     *phung*, or an almanac name. (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
+
+103. **Box 5's bracket.** KP box 5 (img. 25) ends its good links «སྲིད་ ༼[…]
+    སྲེད་༽», and KP2 (img. 244) brackets a single letter there. Is craving
+    (སྲེད་པ, sred pa) set aside by the bracket, or is the bracket a gloss on
+    the word before it, with craving good for putting on new clothes?
+    (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+
+104. **The numerals before the rising signs.** Are the numerals that stand
+    before the rising signs in the bad half of KP box 48 («༥ ༧ ༢ ༤», img. 56)
+    and in both halves of box 55 («༣ ༢ ༤», «༩ ༧», img. 59) the sme ba of the
+    day, as the place of box 7's «༩» suggests, or dates of a second kind?
+    (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+
+105. **The links fitted to a council.** KP box 60 (img. 62) ends «སྦྱོར་བྱེད་
+    རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»: by which rule are the combinations and the links
+    fitted to the matter of a council, and does any text of the tradition
+    give it? (2026-10-12, O1, [kp-activities.md](kp-activities.md))

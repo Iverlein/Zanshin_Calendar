@@ -983,17 +983,9 @@ the good of both halves, not the bad.
 
 ### Open
 
-- Question: in KP box 5 (img. 25) the good links end «སྲིད་ ༼[…] སྲེད་༽»,
-  and KP2 (img. 244) brackets a single letter there. Is craving (སྲེད་པ, sred
-  pa) set aside by the bracket, or is the bracket a gloss on the word before
-  it, with craving good for putting on new clothes?
-- Question: are the numerals that stand before the rising signs in the bad
-  half of box 48 («༥ ༧ ༢ ༤», img. 56) and in both halves of box 55 («༣ ༢ ༤»,
-  «༩ ༧», img. 59) the sme ba of the day, as the place of box 7's «༩» suggests,
-  or dates of a second kind?
-- Question: box 60 (img. 62) ends «སྦྱོར་བྱེད་ རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»:
-  by which rule are the combinations and the links fitted to the matter of a
-  council, and does any text of the tradition give it?
+- Open question 103 ([open-questions.md](open-questions.md)).
+- Open question 104 ([open-questions.md](open-questions.md)).
+- Open question 105 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

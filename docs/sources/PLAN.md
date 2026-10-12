@@ -402,3 +402,10 @@ Searched and found wanting, so not to be repeated:
 - **A breakdown of WB ch. 27's 301 root pebbles** (RD17, 2026-10-12; p. 3
   on the scan, the chapter by Yigdzin-1): none; the thirteen circles make
   65, the small reckonings close with their own 75.
+- **A link or sme ba in KP box 50's bad half or box 60's halves** (O1,
+  2026-10-12; KP2 img. 278, KP img. 62): none, bar box 60's mention of the
+  links as a class.
+- **The word inside KP box 5's bracket** (O1, 2026-10-12; KP img. 25, KP2
+  img. 244): not legible in either print at 6×.
+- **Box 60's last line and box 59's «སྐྱེད» in KP2** (O1, 2026-10-12; img.
+  285): worn, not read.
