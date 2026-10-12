@@ -1311,6 +1311,15 @@ This is the Chinese-derived lunisolar calendar Japan used until 1872. Neither
 it nor rokuyō is Shinto, which is why the original draft's "Shinto" label is
 gone; the screen calls the panel 旧暦.
 
+**What the page is for** (the owner, 2026-10-12): not a reproduction of the
+almanac as it is printed in Japan today, but an almanac on the old rules
+and readings, of use to a present-day practitioner of onmyōdō, Shinto or
+Shingon, ideally to all three — as the Tibetan page is the White Beryl's
+almanac, not a modern calendar's. The old rules and readings are the
+standard; the rules below come from modern digests of them, and which old
+texts rank first among the sources is open (ROADMAP K3; the review of
+2026-10-12 in [sources/kyureki.md](sources/kyureki.md)).
+
 ### 7.1 Rules
 
 All instants in JST (UTC+9) — the civil zone, not a true solar meridian.
@@ -2281,7 +2290,8 @@ canvas "Zanshin Calendar — basic design".
   appear in the date picker. On a day with both, the black day wins, since on
   it no other annotation need be read. The marks are drawn, not set in type.
   No whole day is coloured by luck: none is recorded for the historical
-  almanac, whose red writing (朱書き) in the 具注暦 marks the 二十八宿 and 七曜,
+  almanac, whose red writing (朱書き) in the 具注暦 marks the 二十八宿 and 七曜
+  (queried by the review of 2026-10-12, ROADMAP K4),
   and on modern Japanese calendars a red date means a Sunday or holiday. The
   lucky and unlucky colours of the rows are an app convention.
 - **In brief:** a line under the rokuyō (and under the day mark) shows the

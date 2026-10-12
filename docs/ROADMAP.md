@@ -38,6 +38,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 20 | K1–K5 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2), which old texts set the page's standard (K3, her advice: 暦林問答集 over 簠簋内伝), five claims to settle on the sources (K4), the direction gods (K5); the purpose is settled (SPEC §7) | the owner's word on K2; D8–D10 |
 
 ## Blocks
 
@@ -155,6 +156,145 @@ written down as a dead end (sources/PLAN.md).
 | <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable | [earth-lords.md](sources/earth-lords.md) | T2 |
 | <a id="o9"></a>O9 | The four times of Māra's manual, from the etext only (its scans are open) | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
 | <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file | [sources/README.md](sources/README.md)'s index | all |
+
+## 旧暦 page
+
+### <a id="k"></a>K. The expert's review of 2026-10-12
+
+The Russian dossier of 2026-09-30 on the 旧暦 page (built by `tools/pdf/`,
+gitignored: the page as built and planned, seventeen questions, the whole
+glossary) came back from a Japanologist on 2026-10-12, annotated by hand
+from memory; her answers, notes and counter-questions are in
+[sources/kyureki.md](sources/kyureki.md), *The expert's review*. Two
+things it settled at once: the page's purpose (SPEC §7: an almanac on the
+old rules and readings for a present-day practitioner of onmyōdō, Shinto
+or Shingon, not the modern printed almanac; the owner, 2026-10-12), and
+that the page's refusals stand (no whole-day colour, no weighing, no
+verdict, no free readings: her ticks). Nearly everything else she marked
+"needs checking in the sources", so the items below are mostly readings.
+They are kyūreki readings, kept apart from the *Readings* table above,
+whose test expects Tibetan script in a done reading's topic file; a K
+reading is done when [sources/kyureki.md](sources/kyureki.md) holds it
+with edition, page and image number, as the Tibetan ones are. Nothing in
+the app changes until its item is built.
+
+#### <a id="k1"></a>K1 The Russian terms by the scholarly literature — M, open-ended
+
+- **Gap.** The glossary's Russian renderings were made for the app. She
+  marks as having established translations, or none: the month names
+  («исправить потом») and the 二十四節気 («тоже»), the 二十八宿 (the
+  sinologists' established names), 暦注下段, 選日 and 縁日 and their days
+  (not found in Russian at all, «нужна сверка»), 暦注 itself
+  («календарные примечания», not «пометки альманаха»), 仏滅 («смерть
+  Будды»), and the dossier's band names of question 14 («двенадцать
+  станций», «лунная стоянка», «нижняя полоса», «избранные дни», «дни
+  божеств», «сезонные вехи», «принятие смерти», «нисходящий пожиратель
+  года», «Тэнъити на небесах»), of which «some have established
+  translations», unnamed.
+- **Work.** A reading first: the established Russian names from
+  published Japanology and Sinology (dictionaries and monographs on the
+  Japanese calendar, the Chinese mansions, the 節気), each term with the
+  work it comes from, into a table in kyureki.md; a term with no
+  attested name keeps the app's and says so. Then
+  `texts_ru.properties` (`Festival.*`, the 旧暦 readings' names), the
+  interface strings that name a band (`about_rekichu`), the dossier's
+  glossary (`tools/pdf/`), and the store listing where it names a term.
+  The expert may be asked to name the works (her offer: the terms need
+  checking «в т.ч. по научным работам на русском языке»).
+- **Done when.** The table in kyureki.md; `CatalogTest`; the owner's
+  read-through of the Russian (L3, block 15), which waits on this for the
+  旧暦 page.
+
+#### <a id="k2"></a>K2 The festivals' names — S, waits for the owner's word
+
+- **Her corrections.** 七夕: «Танабата» (the gloss «вечер седьмого дня»
+  struck out); 重陽の節句: «праздник двойной девятки», not «двойного ян»;
+  旧正月: «лунный Новый год»; 彼岸の中日: struck out, the day is simply
+  called 秋分 or 春分. Marked "?" without a proposal: 人日の節句 («праздник
+  дня людей»), 社日 («день божества земли»).
+- **Work.** `Festival.七夕`, `Festival.重陽の節句`, `Festival.旧正月` in
+  `texts_ru.properties`; the 雑節 row 彼岸の中日 either dropped from the
+  page (the 節気 row already shows the equinox that day) or renamed; 人日
+  and 社日 asked back. Each is a user-facing text, so the owner's word
+  first; «лунный» is a usage, not a
+  description (the calendar is lunisolar), to be weighed with K1.
+- **Done when.** `CatalogTest`; both languages on the emulator; the
+  dossier's glossary.
+
+#### <a id="k3"></a>K3 Which old texts set the page's standard — decision, then readings
+
+- **Gap.** The purpose (SPEC §7) wants the old rules and readings; the
+  rules today come from modern digests (Japanese Wikipedia after 岡田・
+  阿久根 1993, koyomi8, Todan's こよみ博物館, the NAOJ), and the one old text
+  read on its scan is the 簠簋内伝 (三箇の悪日). The Tibetan page has the
+  White Beryl above all (SPEC §8.1); the 旧暦 page names no such text.
+  Her advice: the 簠簋内伝 is better not taken as a source, the 暦林問答集
+  can be relied on.
+- **Work.** A reading, K3-R: the 暦林問答集, identified in the NDL catalogue
+  when the reading starts (edition, author, date never from memory) and
+  read on its scan: what it says of each
+  annotation the app shows, its three bad days against the 簠簋内伝's
+  table, and whether it ranks the annotations (none expected: question
+  6). Then the owner decides the order — the 暦林問答集 first, the 簠簋内伝
+  as a witness or a named other view, the modern digests where the old
+  texts are silent — and SPEC §8.1 gets the 旧暦 rule beside WB's. Until
+  then the 簠簋内伝 stays the 三箇の悪日's source, named as its own.
+- **Done when.** The reading in kyureki.md; D8 settled; SPEC §7.5 and §8.1.
+
+#### <a id="k4"></a>K4 Claims to settle on the sources — S each
+
+Each a reading into kyureki.md, each closing when found or written down
+as a dead end (sources/PLAN.md).
+
+- **二十七宿 in Japan.** She: never applied in Japan, the 27 are Indian.
+  The NAOJ's 暦Wiki 二十八宿: the 28 were adopted as 暦注 from the Jōkyō
+  calendar in place of the 27 (quoted in kyureki.md, *Weighing*), so the
+  27 were in the almanac before 1685. Settle which, and whether the page
+  says anything of it (question 4); with it the claim of SPEC §10.4 that
+  the 具注暦's red writing marks the 二十八宿 and 七曜, which she queried.
+- **天一神's course.** The sixteen days in heaven are computed (癸巳–戊申);
+  his directions on the other forty-four days are not. Check the course
+  against a source (question 15); whether the directions are shown is
+  K5's.
+- **本命星 ≠ 九星.** The 九星気学 reading says the 本命星 is the birth year's
+  star (SPEC §7.5). Ask her what she separates (the 本命星 from the 月命星;
+  気学's stars from the almanac's day star) and fix the reading if it
+  conflates them (question 11).
+- **六曜 since the 19th century**, not Shinto: once sourced, the 六曜
+  reading may say so (question 13).
+- **Her "needs searching"**, each a reading when a source turns up:
+  day marks other than 黒日 and 万よし (question 5), 神吉日 and 凶会日
+  tables (question 8), the 社日 tie (question 10), the tones of the
+  間日, 重日, 復日, 庚申 and the 一粒万倍日 caveat (question 16), the year
+  boundary of the year's 干支 (question 3: China counts from 旧正月, as
+  the app does). Question 2 is answered since the dossier (kyureki.md,
+  *The personal reading of 三箇の悪日*), subject to K3's view of the 簠簋内伝.
+
+#### <a id="k5"></a>K5 The direction gods — the owner's decision
+
+- **Her counter-question.** Which direction gods beyond 天一神 and 歳徳神
+  does the app compute or plan? None: 天一天上 and 恵方 are all it has, no
+  八将神 (太歳, 大将軍, 太陰, 歳刑, 歳破, 歳殺, 黄幡, 豹尾), no 金神, no
+  日遊神's course, no 方違え. She notes that the modern almanac reckons
+  them by the year and puts them on its first page.
+- **Work, if wanted.** A year's direction sheet from the 恵方 row: the
+  year's 方位神 by the year's stem and branch, each with its direction and
+  what is avoided towards it, from an old text (K3's) — usable by a
+  practitioner for 方忌み, so within the rule of 2026-10-10 that nothing
+  is built that cannot be used. Daily 方位 (天一神's course, 日遊神) only
+  if K4 finds a source. Not planned until D9.
+
+#### Owner decisions
+
+- **D8 The sources' order for the 旧暦 page** (K3): which text ranks
+  first, and what the 簠簋内伝 is — open, after the 暦林問答集 is read.
+- **D9 The direction gods** (K5): on the page, a year sheet, or not at
+  all — open.
+- **D10 What to ask the expert to work on first**, her question before
+  pricing: the terms (K1, K2), the calendar rules (K4's claims), the rare
+  annotations (question 8) or the direction gods (K5) — open; the answers
+  to her four questions are drafted in kyureki.md, *Her questions, and
+  the answers*.
 
 ## Tibetan page
 

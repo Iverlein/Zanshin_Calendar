@@ -209,3 +209,112 @@ a black day carrying 大明日, 天恩日 and 復日 (`RekichuTest`).
   and it rejects the older rule that any baleful spirit overrides a good one
   («舊本凡吉神遇凶煞皆從忌而不從宜»). It is the Qing system; nothing found
   says the Japanese almanac used it, and the 仮名暦 prints few of its spirits.
+
+## The expert's review of the page (2026-10-12)
+
+The Russian dossier of 2026-09-30 (the 旧暦 page as built, planned and
+questioned, with its seventeen questions and the whole glossary; built by
+`tools/pdf/`, gitignored) went to a Japanologist, a historian of Japan and
+of onmyōdō. Her annotated copy came back on 2026-10-12, red handwriting in
+the margins, written from memory («на коленке») with the caveat that
+nearly every point still needs checking against the sources, and the
+Russian terms against the scholarly literature. What she wrote, question
+by question in the dossier's numbering; the facts are hers and not yet
+checked here. What follows from it is ROADMAP K1–K5.
+
+### The seventeen questions
+
+1. **The 2033 leap month.** Follow the NAOJ; where it has published
+   nothing, the calendar society. Check. — The NAOJ takes no side
+   (above), so the app's 閏11月 is the society's recommendation, as she asks.
+2. **三箇の悪日, personal or general.** "Needs searching." — Found since
+   the dossier (above): the birth-year reading is printed in the 簠簋内伝
+   from 1800 at least, by solar month alone in the 1632 edition. But see
+   6: she would not take the 簠簋内伝 as a source.
+3. **The year boundary of the year's 干支.** Needs checking; in China it
+   is usually given from 旧正月.
+4. **二十八宿, 二十七宿 and the red writing.** The question was not
+   clear to her; «朱書き» has a "?" beside it. The 二十七宿 were never
+   applied in Japan: the twenty-seven mansions are Indian. — This
+   contradicts the NAOJ's 暦Wiki 二十八宿, quoted under *Weighing the
+   annotations* above («暦注としては貞享暦以降二十七宿に代わって採用»: the
+   28 were adopted as 暦注 from the Jōkyō calendar in place of the 27),
+   which has the 27 in the almanac before 1685, as the 宿曜道's. To be
+   settled on the sources (ROADMAP K4).
+5. **Day marks.** Needs searching.
+6. **Precedence among the annotations.** As far as she knows, no such
+   rule existed. The 簠簋内伝 (*Hoki naiden*) is better not taken as a
+   source; the 暦林問答集 (*Rekirin mondōshū*) can be relied on.
+   Needs checking. — The app ranks nothing (SPEC §7.5), as she says; the
+   choice of texts is ROADMAP K3.
+7. **The bands' composition.** To be checked against the sources.
+8. **The omitted annotations** (神吉日, 凶会日, 五墓日, 時下食). Definitely
+   needs searching.
+9. **The day's 九星.** The question was not clear to her.
+10. **社日 at an equal distance.** Needs searching.
+11. **九星気学 and onmyōdō.** «本命星 ≠ 九星! These are somewhat different
+    things.» Needs checking. — The app's reading says the 本命星 is the
+    birth year's star (SPEC §7.5, after Japanese Wikipedia 九星); what she
+    separates is to be asked (ROADMAP K4).
+12. **The month names.** «одной этимологии» underlined: which one?
+    Translations of the month names, the established ones included, are
+    to be found in the scholarly works. To check.
+13. **六曜.** "Not Shinto" marked correct. The six-day cycle has been
+    popular since the 19th century. (A line under it is struck out.)
+14. **The Russian terms.** Some of the terms have established
+    translations. — Which, she did not say; ROADMAP K1.
+15. **天一天上 and the direction gods.** The wording on 日遊神 keeping the
+    house and on 恵方 as 歳徳神's direction marked «верно»; the directions
+    of 天一神 are to be checked. Counter-question: which other direction
+    gods does the app compute? — Answered below.
+16. **The tones** (八専間日, 犯土間日 neutral; 重日, 復日, 庚申 mixed;
+    一粒万倍日 with its caveat). Needs searching.
+17. **庚申待 and kaidan.** The 庚申 reading is correct, but it is not
+    kaidan.
+
+### Marginal notes on the rest
+
+- 節気 (§II): "solar or lunar nodes?" — Solar: the 15° points of solar
+  longitude (SPEC §7.1); the dossier said so, the page should too.
+- 暦注 (§II's heading «Пометки альманаха»): «календарные примечания».
+- 仏滅 («ничего не выйдет»): «смерть Будды».
+- 二十八宿: there are established translations among the sinologists.
+- 暦注下段, and the same for 選日 and 縁日: these terms are not found in
+  Russian; a check is needed («нужна сверка»).
+- 彼岸の中日 struck out: it is usually called simply 秋分 or 春分
+  (*shūbun*, *shunbun*). 社日: "?".
+- 旧正月: «лунный Новый год». 人日の節句: "?". 七夕: «Танабата», the gloss
+  «вечер седьмого дня» struck out. 重陽の節句: «двойной девятки», not
+  «двойного ян».
+- The month names and the 二十四節気: to be corrected later («исправить
+  потом», the second word read with some doubt), by the literature.
+- Ticks of agreement: no whole-day colouring by luck, no weighing and no
+  verdict (§III, *Not done on purpose*); the 九星気学 page «without free
+  readings»; «ого» beside the Japanese interface as a first Weblate
+  language.
+
+### Her questions, and the answers
+
+1. **Which other direction gods are computed or planned?** None: the app
+   computes 天一神's sixteen days in heaven (天一天上) and 歳徳神's direction
+   (恵方), nothing else — no 八将神, no 金神, no 日遊神's course, no
+   方違え. The modern almanac's first page carries the year's 方位神; whether
+   they belong on this page is the owner's (ROADMAP K5).
+2. **Are the 中気 in the rules, since some annotations are counted by
+   them?** Yes: the month takes its number from the 中気 it holds (SPEC
+   §7.1), and the 二十四節気 shown are all 24 points, 節 and 中 alike. No
+   annotation is computed from a 中気 other than through the month
+   number (不成就日 by month and day) or the longitude (入梅, 半夏生, 土用);
+   which annotations she means is to be asked.
+3. **Does the app reproduce the almanac as printed in Japan today, or
+   reconstruct an older one?** The owner (2026-10-12): as with the Tibetan
+   page, not a reproduction of the modern almanac; an almanac on the old
+   rules and readings, useful to a present-day practitioner of onmyōdō,
+   Shinto or Shingon, ideally to all three (SPEC §7). The rules today come
+   from modern digests (Japanese Wikipedia after 岡田・阿久根 1993, koyomi8,
+   Todan), and the one old text read is the 簠簋内伝; which old texts set
+   the standard is ROADMAP K3.
+4. **What to work on first, before pricing?** The owner's choice (ROADMAP
+   K, *Owner decisions*): the dossier mixes term translations, calendar
+   rules, rare annotations and direction gods, and she asks for the
+   emphasis.
