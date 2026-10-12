@@ -521,3 +521,16 @@ the text, not about the app.
     Does it mean the hour's earth lords (the 37) are to be reckoned at the
     time of the work, as the corpse's road does, or only that the work's time
     is to be chosen carefully (2026-10-12, RD6, [weighing.md](weighing.md))?
+
+43. **KP box 16 (BDRC img. 33–34): the numerals under the three «ཟླ་ཚེས».**
+    Each carries two small numerals. Are they the month and date on which
+    the month's river, the *ki kang* and the next stand, and which are they
+    (2026-10-12, RD5, [kp-activities.md](kp-activities.md))?
+
+44. **KP box 10 (BDRC img. 28): «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག».** Are these one
+    name each, and which Chinese-almanac days are they (2026-10-12, RD5,
+    [kp-activities.md](kp-activities.md))?
+
+45. **KP boxes 20, 25, 59, 62: «དབུལ་ལག».** Does it name one day (WB's
+    «དབུལ་ལག་འཆར»), as the boxes print it, and which (2026-10-12, RD5,
+    [kp-activities.md](kp-activities.md))?

@@ -316,3 +316,9 @@ Searched and found wanting, so not to be repeated:
   of KD, not in KP img. 13–14. The notes list the earth lords and the results
   as two heads (pp. 534–535) and join them nowhere. Not searched: BDRC's
   full-text search in other manuals.
+- **An earth lord named in the good half of a KP box** (RD5, 2026-10-12):
+  none in boxes 2–65 bar the *mdos* verse of box 56, which names rites, not
+  lords. *gnam stong* in full is not in any box's list (only «གནམ» in box 23).
+- **MITRA on whole KP folios** (RD5, 2026-10-12): loops on digits over the
+  2550 px woodblock tables; no reading. Use Yigdzin-1 on whole folios and on
+  the left and right 55 % halves enlarged 1.5×.

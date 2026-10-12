@@ -799,13 +799,9 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
 
 ### Open
 
-- Question: the three «ཟླ་ཚེས» of box 16 each carry two small numerals
-  under them. Are they the month and date on which the month's river, the
-  *ki kang* and the next stand, and which are they?
-- Question: «ཀིང་ཟོར་ནག» in box 10 and «གནམ་ཞག་ནག» in the same line: are
-  these one name each, and which Chinese-almanac days are they?
-- Question: does «དབུལ་ལག» name one day (WB's «དབུལ་ལག་འཆར»), as boxes 20,
-  25, 59 and 62 print it, and which?
+- Open question 43 ([open-questions.md](open-questions.md)): the numerals under box 16's three «ཟླ་ཚེས».
+- Open question 44: «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག» in box 10.
+- Open question 45: «དབུལ་ལག» in boxes 20, 25, 59 and 62.
 - Not done: the second part of KP (img. 87–118, the earth lords of the year,
   month, day and hour as charts, and the remedies) is not read; it is the
   place that may say what each lord of these runs does.
