@@ -1098,13 +1098,11 @@ Yigdzin-1 and the etext, **not read on the scan**:
 
 ### Open
 
-- Question: the forefathers' tomb obstacle (WB vol. 1, p. 390): «ཕ་མེས་ཤི་བའི་སྲི་དུས་ལ། །སྤར་སྨེ་ཕྱི་གཟའ་ལོ་གྲངས་སླེབས།». The notes (vol. 2, p. 492) gloss it «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན», "the trigram, mewa and progressed sign of the forefathers' time of death". Are these the forefather's own (his trigram and progressed sign in his year of death, which need his birth year) or those the death year gives the person reckoned, and is "reaching the number of years" the person's trigram, mewa or progressed sign coming onto them?
-- Question: the secret obstacle (WB vol. 1, p. 390): «གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི། །བུ་ལ་གསང་ཀེག་མ་སྤར་ཁམ། །བུ་མོར་གསང་ཀེག». The notes (vol. 2, p. 492) read «བརྩི་བྱ་ལི་ལ་བབ་དུས་བུ་ལ་གསང་ཀེག», the one reckoned on li. Is «མ་སྤར» the mother's trigram (of the current year, or at the birth?) or, as the notes take it, the one reckoned's trigram, and what does «མ» then mean?
-- Question: WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན། །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed sign reaches?
-- Question: WB vol. 1, p. 390: what are «རྐྱ་མདའ» (so on the scan; the etext «རྒྱ་མདའ») to be guarded at the spouses' obstacle, «ར་འབད» among the dead's pebbles, and «རུ་ཤན་ཁ་སྤྲོད» at the secret obstacle?
-- Question: WB vol. 1, p. 408: «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན» in the list of each kind of person's "two black": whose "two black" are the five yellow and the six white («བརྗེ», «བོན»)?
-- Question: the notes, vol. 2, p. 493: «སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི» — is «མ» the mother's year (counted from the mother's year up to 45, from the father's from 54), and is it the parents' age that is counted for the child?
-- Question: the household round (WB vol. 1, p. 385; the notes, vol. 2, p. 490): is the household the people living in the house that year (as "some reckoners" count) or the family wherever it lives, and does a member who died during the year still count?
+Open questions 90–96 ([open-questions.md](open-questions.md)), in order: the
+forefathers' tomb obstacle; the secret obstacle's «མ་སྤར»; the white year;
+«རྐྱ་མདའ», «ར་འབད», «རུ་ཤན་ཁ་སྤྲོད»; «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན»; the notes' «མ» on p. 493;
+who counts as the household.
+
 - Doubt: «གྱོས་པོ» (p. 286, img. 296) rests on Yigdzin-1; the scan's letter is not clear.
 - Doubt: the drum-sickle of birth luck (pp. 412–413) and the notes' pp. 493–494 rest on Yigdzin-1 and the etext; not read on the scan.
 

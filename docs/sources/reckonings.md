@@ -232,8 +232,17 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 - **Whose dates.** The person's birth year and the current year (the
   year of age's trigram, mewa, rise and decline follow); the time of
   reckoning (བརྩི་དུས, brtsi dus) is one of the six unchanging root pebbles
-  («གནམ་ལོ་ལོག་མེན་སྤར་ཁ་དང་། །སྨེ་བ་དར་གུད་བརྩི་དུས་རྡེལ། །མི་འགྱུར་རྩ་བའི་རྡེལ་དྲུག», p. 380, Yigdzin-1 and the etext); for the secret circle the
-  mother's year («གསང་སྲོག་མ་ལ་དྲིས», p. 380, etext).
+  («གནམ་ལོ་ལོག་མེན་སྤར་ཁ་དང་། །སྨེ་བ་དར་གུད་བརྩི་དུས་རྡེལ། །མི་འགྱུར་རྩ་བའི་རྡེལ་དྲུག», p. 380, Yigdzin-1 and the etext). The secret circle
+  needs no relative: «གསང་སྲོག་མ་ལ་དྲིས» is the secret life force's mother
+  element (RD14, on the scan). RD14's parts ([year-of-life.md](year-of-life.md),
+  *The obstacles that need other people (RD14)*) need the household's
+  members (birth year, gender, order of birth, age and station); the
+  spouse (birth year, gender); father and son (birth years); the parents'
+  and forefathers' years of death (the tomb obstacle, the progressed sign
+  on a death year); the mother's birth year and whether she is living
+  (the secret obstacle, the natal trigram); the parents' birth years and
+  clans (the drum-sickle, Yigdzin-1 only). The seven generations of the
+  dead WB rejects as not needed.
 - **Size** (p. 380, Yigdzin-1 and the etext): «རྡེལ་གྲངས་རྩ་བར་ཞེ་བདུན་ལ། །མི་འགྱུར་ཀླུང་གི་རྡེའུ་དྲུག །གཅོད་འདྲལ་ཉེར་བཞི་ཁ་དམར་བཞི། །རྩུབ་རྡེལ་བདུན་དང་སྨེ་ཀེག་བཞི། །དགུ་མིག་དུར་མིག་གཉིས་བཅས་པའི། །ཡོངས་བསྡུས་ཞེ་བདུན་རྡེལ་རྩ་ཡིན། །གཞན་ལྟར་སྤྲོས་ན་བཞི་སྟོང་དང་། །བཞི་བརྒྱ་བཞི་བཅུར་འབྱོར་ནའང་། །འདིར་ནི་དངོས་རྡེལ་བརྒྱ་སོ་བདུན། །བརྩི་དུས་མི་ལུས་ཁྱད་པར་གྱི། །མི་ནོར་མཚན་མའི་རྡེའུ་ནི། །བདུན་བརྒྱ་ང་གཅིག་བཅས་པ་ཡི། །དགོས་མེད་ལྷག་པོ་མ་ཡིན་པའི། །རྡེལ་གྲངས་བརྒྱད་བརྒྱ་གྱ་བརྒྱད་»
   47 root pebbles: 6 unchanging luck pebbles, 24 of cutting and splitting
   (གཅོད་འདྲལ, gcod 'dral), 4 verdicts (ཁ་དམར, kha dmar), 7 rough pebbles, 4

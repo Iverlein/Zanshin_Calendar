@@ -390,3 +390,9 @@ Searched and found wanting, so not to be repeated:
   other systems.
 - **The Final Tantra's la-pulse passage that GC quotes** (RD8, 2026-10-12):
   not located in MW3CN5036.
+- **A worked example of the household pebble round with its readings**
+  (RD14, 2026-10-12): none in WB ch. 24 or the notes' section 2 beyond the
+  notes' layout of five people (vol. 2, p. 490).
+- **The mother's year in WB's secret circle** (RD14, 2026-10-12; vol. 1,
+  p. 380): «མ་ལ་དྲིས» is the secret life force's mother element (the scan;
+  the notes, vol. 2, p. 489), not the person's mother.
