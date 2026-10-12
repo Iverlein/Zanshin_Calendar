@@ -818,4 +818,187 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
 
 ## KP's links left out: boxes 5, 7, 20, 48, 50, 53, 55 and 60 (O1)
 
-Nothing read yet: O1's passages, with the English beside them, go here.
+Read 2026-10-12 for ROADMAP O1: the twelve links of dependent origination
+(རྟེན་འབྲེལ, rten 'brel) and the sme ba, the nine numbers of the magic square
+(སྨེ་བ, sme ba), that the table of 2026-10-10 above left out. **Image numbers
+here are BDRC's own labels, the file names of the scans, as in the RD5
+section; the box sections and the table above count two fewer** (box 5 is
+KP img. 25 here, "23" above). KP is BDRC I4CZ65599 (2550 px), KP2 I3CN12074.
+
+**How it was read.** Yigdzin-1 over the four quarters of each folio (the left
+and right 55 %, the top and bottom 53 %, enlarged 1.5×) of KP img. 25, 26, 36,
+56, 58, 59, 61, 62 and KP2 img. 244, 245, 255, 277–282; then every link and
+numeral below on the scan itself, cropped and enlarged 3× to 6×, in KP and
+again in KP2 (KP2 img. 283–285 fetched for box 60). The numerals were told
+apart by the dates printed in the same print: box 37's «༣ ༤ ༥ ༦ ༨» (KP
+img. 48, the dates 3, 4, 5, 6, 8) and box 48's «༡༨ ༢༨ ༢༩» (img. 56): 8 is the
+open angle, 9 the rounded hook with a curled head, 4 a closed curve with a
+tail, 3 the hook with a second stroke. MITRA was not used (it loops on KP's
+digits, RD5); agy was not used. Where a quotation below is the machine
+reading and not the scan, it says so.
+
+The twelve links, named once: ignorance (མ་རིག་པ, ma rig pa), formation
+(འདུ་བྱེད, 'du byed), consciousness (རྣམ་ཤེས, rnam shes), name and form
+(མིང་གཟུགས, ming gzugs), the six sense sources (སྐྱེ་མཆེད, skye mched), contact
+(རེག་པ, reg pa), feeling (ཚོར་བ, tshor ba), craving (སྲེད་པ, sred pa), grasping
+(ལེན་པ, len pa), becoming (སྲིད་པ, srid pa), birth (སྐྱེ་བ, skye ba), ageing and
+death (རྒ་ཤི, rga shi).
+
+### "skye" and "skyed": birth and the sense sources
+
+The early boxes write each link by its first syllable (ignorance «མ་རིག» or
+«མརིག», naming «མིང», contact «རེག», feeling «ཚོར», grasping «ལེན», becoming
+«སྲིད», craving «སྲེད») and consciousness contracted to «རྣཾས», as the mansions
+are contracted (chu smad «ཆུཾད»: the first syllable and the last letter of the
+second). On the scan the "skye" of 2026-10-10 is two different words:
+
+- **«སྐྱེད», with a final ད**: box 5's good half, box 20's good half, and box
+  59's good half (where the 2026-10-10 table did not count it). By the
+  contraction it is skye + mched, **the six sense sources**; birth, skye ba,
+  has no final letter to add.
+- **«སྐྱེ», bare**: box 5's bad half and box 7's good half: **birth**.
+
+Three things on the page bear this out. Box 5 has both words, «སྐྱེད» in its
+good half and «སྐྱེ» in its bad, and its halves otherwise name every link once
+and none twice (rnam shes, the sense sources, becoming, craving good; ignorance,
+formation, name, contact, feeling, grasping, birth bad; ageing and death not
+named): one box does not set the same link on both sides. Box 5's bad half
+runs in the order of the chain, ignorance, formation, name, contact, feeling,
+grasping and then «སྐྱེ», which is birth's place (eleventh), not the sense
+sources' (fifth). And where the later boxes have room they write both in full
+and keep them apart: box 37 (img. 48) «སྐྱེ་མཆེད་ སྲིད་པ་ … འདུ་བྱེད་ སྐྱེ་བ་ མ་རིག་ རྣམ་ཤེས་»
+and box 39 (img. 49) «རྣམ་ཤེས་ སྐྱེ་མཆེད་ སྐྱེ་», box 59 (img. 62) «རེག་པ་ སྐྱེ་བ་».
+KP2 has the same letters in the same places (img. 244, 245, 255).
+
+### The boxes
+
+- **5 Putting on new clothes** (KP img. 25, KP2 img. 244). Good half, line 3:
+  «ཐརྐ་ རྣཾས་ སྐྱེད་ སྲིད་ ༼[…] སྲེད་༽ དུས་སྦྱོར་ འཁྲིག་ སེངྒེ་ …»
+  — tha skar; consciousness, the sense sources, becoming, then a bracket
+  holding one unread word and craving; the rising signs. Bad half, line 3,
+  after ignorance at the end of line 2 («མྲིག», machine):
+  «འདུ་མིང་རེག་ཚོར་ལེན་སྐྱེ་ ཉི་མ་ སྤྲེལ་ དུས་སྦྱོར་ ཀརྚ་ སྡིག་ འཕུང་བྱེད་»
+  — formation, name, contact, feeling, grasping, birth; the Monkey day; the
+  rising signs; the destroyer (འཕུང་བྱེད, 'phung byed). KP2 the same, «སྐྱེད» and bare
+  «སྐྱེ» seen; its bracket after «སྲིད» holds one letter, read «ག» by machine.
+  The bracket is the print's arch, the one that sets Monday aside in line 1
+  («སངས་ ༼ཟླ༽»): in KP it spans the unread word and «སྲེད», so craving may
+  stand in brackets, which counts for neither side.
+- **7 Walls and forts** (KP img. 26, KP2 img. 245). Good half, end of line 2
+  and line 3: «… སྣར་ འདུ་བྱེད་ / མ་རིག་ སྐྱེ་ ཉི་མ་ སྤྲེལ་ ལྡུམ་ར་བཟང་། …»
+  — formation, ignorance, birth; then the Monkey day, good for gardens. Bad
+  half, line 3: «… ༩ དུས་སྦྱོར་ ཀརྚ་ …», the sme ba 9 already in the table.
+  KP2 the same, bare «སྐྱེ».
+- **20 Virtuous acts for the living** (KP img. 36, KP2 img. 255). Good half,
+  line 3: «སྣྲུབས་ མཆུ་ སྐྱེད་ མ་རིག་ རྣཾས་ ཚོར་ སྲིད་ སྲེད་ ཉི་མ་ འབྲུག་ …»
+  — the mansions snrubs and mchu, then the sense sources, ignorance,
+  consciousness, feeling, becoming, craving; the Dragon day. Bad half,
+  line 3: «རྒ་ཤི་ ཉི་མ་ བྱ་ …» — ageing and death, the Bird day. KP2
+  the same, «སྐྱེད» seen.
+- **48 Fire offerings** (KP img. 56, KP2 img. 277). Good half, lines 3–4:
+  «… ས་ག་ མགོ་ འདྲེ་འདུལ་བ་བཟང་། རེག་ ཉི་མ་ སྟག་ བྱ་ འབྲུག་ འདྲེ་ / འདུལ་བཟང་། …»
+  — sa ga; mgo, good for subduing spirits (འདྲེ་འདུལ, 'dre 'dul); **contact**, the
+  Tiger, Bird and Dragon days: good for subduing spirits. Contact stands in
+  the good half inside a run the box qualifies, so it counts for neither
+  side. (The Tiger, Bird and Dragon days are in the good half too, not the
+  bad as the box section above says; they count for neither side either way.)
+  Bad half, end of line 2 and line 3:
+  «… ཉི་མ་ སྦྲུལ་ ཁམས་ / འདུལ་དང་གཉན་འདུལ་ངན། ༥ ༧ ༢ ༤ དུས་སྦྱོར་ ཆུ་སྲིན་ ཉ་ … / ཟིན་ཕུང་ གཞན་ཡང་ས་བདག་རྒྱུ་དུས་སོགས་ངན།»
+  — the Snake day and kham (printed «ཁམས»), bad for subduing and for
+  subduing the *gnyan* spirits (གཉན, gnyan); then, after the shad, four
+  numerals, **5, 7, 2, 4**, plain; the rising signs; Zinphung the black (ཟིན་ཕུང, zin phung) and the
+  earth lords' (ས་བདག, sa bdag) times, bad. The fourth numeral is box 37's
+  4, not this box's 8 (the open angle of «༡༨», «༢༨»); Yigdzin-1 reads 4 in
+  KP and KP2. The four stand where boxes 7 and 55 put the sme ba, between the
+  day animals and trigrams and the rising signs; the box's dates are in its
+  first line («ཚེས་ ༡༢ ༢༢ ༢ ༡༧ ༢༧»). KP2 the same.
+- **50 Ordination, teaching, maṇḍalas** (KP2 img. 278 only; "276" above).
+  Good half, end of line 5 and line 6:
+  «… དབོ་ འཆད་ཉན་བཟང་། རྣམ་ / ཤེས་ ཚོར་བ་ ཉི་མ་ འབྲུག་ ཕག་ གིན་ ༥ དུས་སྦྱོར་ …»
+  — dbo, good for teaching; then, a new run after the shad, plain:
+  **consciousness, feeling**, the Dragon and Pig days, the trigram gin, the
+  numeral **5**, the rising signs. The bad half (lines 1–5) names no link
+  and no numeral before its rising signs. The whole box is on this one image.
+- **53 Military training and games** (KP img. 58, KP2 img. 281). The box is
+  two columns from top to bottom: the column rule runs through all seven
+  lines in both prints, and each column has its own run of rising signs
+  (line 5 ends «… ཟོན་ དུས་སྦྱོར་» on the left and begins «དུས་སྦྱོར་ བུ་མོ་ …»
+  on the right). The left column is the good half under the heading, the
+  right the bad half under «ངན་པ».
+  Good column, line 5: «འདུ་བྱེད་ རྣམ་ཤེས་ རེག་པ་ ལེན་པ་ ཉི་མ་ སྟག་ འབྲུག་ གླང་ ཟོན་ དུས་སྦྱོར་ / གཞུ་ ཀརྚ་ ལུག་ སེངྒེ་ འདིར་ཞིབ་རྩིས་བྱེད་ན་འཁོར་ལོའི་རྣམ་གྲངས་བརྩི …»
+  — **formation, consciousness, contact, grasping**, the Tiger, Dragon and Ox
+  days, the trigram zon, the rising signs; plain, so good for both halves.
+  Bad column, lines 3–4: «བྲ་ཉེ་ སྨིན་ སྣར་ གྲོ་བཞི་ དགྲ་ལ་རྒོལ་བ་བཟང་བའོ། །སྲེད་པ་ སྲིད་པ་ ཉི་མ་ / སྦྲུལ་ ཡོས་ ལུག་ ཁྱི་ སྤྲེལ་ རྩེད་མོ་བཟང་། ལི་ རྩེད་མོ་བཟང་། …»
+  — the mansions good for attacking an enemy; then **craving, becoming**, the
+  Snake, Hare, Sheep, Dog and Monkey days: good for games; li, good for
+  games. Craving and becoming are in the run the box qualifies for games, as
+  the five day animals are. KP2 the same in both columns.
+  Found in passing: the Tiger, Dragon and Ox days and the trigram zon, which
+  the box section above and the app count as bad for both halves, stand in
+  the good column, plain, in both prints; the bad column names no plain day
+  animal or trigram.
+- **55 Bringing rain** (KP img. 59, KP2 img. 282). Good half, end of line 3:
+  «ཉི་མ་ བྱི་ ཕག་ བྱ་ སྤྲེལ་ ཁམ་ ༣ ༢ ༤ / དུས་སྦྱོར་ ཀརྚ་ བུཾ་ ཉ་ ཆུ་སྲིན་ བདུད་རྩི་ཐུན་མཚམས། …»
+  — the Mouse, Pig, Bird and Monkey days, kham, **3, 2, 4**; the rising signs
+  and the nectar periods (the second line machine). Bad half, line 3:
+  «… ཀླུ་སྨན་འདེབས་པ་བཟང་། ཁྱི་ ལི་ ༩ ༧ དུས་སྦྱོར་ སྡིག་ …» — good for
+  offerings to the nāgas (ཀླུ, klu) and the *sman* goddesses (སྨན, sman) (machine); then the Dog day, li, **9, 7**,
+  the rising signs. KP is the clearer for 9 and 7 (the curled hook and the
+  seven); KP2 is the clearer for 3 and 2 (the second stroke of the 3); both
+  have the same 4. Yigdzin-1 reads 3, 2, 4 and 9, 7 in both prints. These
+  stand in the sme ba's place, as in box 48.
+- **59 Judging cases** (KP img. 62, KP2 img. 285). Good half, end of line 2
+  and line 3: «… ལག་ རྒྱལ་ ཆུཾད་ སྐྱེད་ / རེག་པ་ སྐྱེ་བ་ ཉི་མ་ གླང་ ཁྱི་ དུས་སྦྱོར་ བུ་མོ་ ཞི་མདོ་ …»
+  — after the mansions, **the sense sources**, then contact and birth (in
+  the table), the Ox and Dog days. KP2's «སྐྱེད» is worn: not read.
+- **60 Councils** (KP img. 62, KP2 img. 285). Bad half, last line:
+  «… ཀི་ཀང་ དབུལ་ ལོ་ཟླ་ཞག་ནག་ ཕུང་ཟོར་ སྦྱོར་བྱེད་ རྟེན་འབྲེལ་སོགས་དོན་བསྟུན།»
+  — the almanac's days *ki kang* (ཀི་ཀང, ki kang) and *dbul* (དབུལ, dbul), the
+  black days of year, month and date, *phung zor* (ཕུང་ཟོར, phung zor);
+  "the combinations (སྦྱོར་བྱེད, sbyor byed), the links and the like: according to the
+  matter". Read on KP at 3×, the last four words less surely; KP2's line is
+  not legible. The box names the links only as a class, and no number: there
+  is nothing to place on either side.
+
+### What the table should now carry
+
+| Box | Good | Bad | Neither |
+| --- | --- | --- | --- |
+| 5 | links rnam shes, skye mched, srid pa; sred pa unless the bracket holds it | links ma rig, 'du byed, ming, reg pa, tshor ba, len pa, skye ba | sred pa if bracketed (open) |
+| 7 | links 'du byed, ma rig, skye ba | sme ba 9 (as now) | |
+| 20 | links skye mched, ma rig, rnam shes, tshor ba, srid pa, sred pa | link rga shi (as now) | |
+| 48 | | sme ba 5, 7, 2, 4 | link reg pa (qualified) |
+| 50 | links rnam shes, tshor ba; sme ba 5 | | |
+| 53a military training | links 'du byed, rnam shes, reg pa, len pa | | links sred pa, srid pa (good for games only) |
+| 53b dice and games | links 'du byed, rnam shes, reg pa, len pa, sred pa, srid pa | | |
+| 55 | sme ba 3, 2, 4 | sme ba 9, 7 | |
+| 59 | adds link skye mched to reg pa, skye ba | (as now) | |
+| 60 | | | the links named as a class only |
+
+Box 48's and 55's numerals are the sme ba by their place; box 50's 5 by the
+same place. The 53 split follows the rule of *Split and joined boxes*: an
+entry qualified for one half counts for that half alone. Apart from the
+links: box 53's Tiger, Dragon and Ox days and the trigram zon belong among
+the good of both halves, not the bad.
+
+### Open
+
+- Question: in KP box 5 (img. 25) the good links end «སྲིད་ ༼[…] སྲེད་༽»,
+  and KP2 (img. 244) brackets a single letter there. Is craving (སྲེད་པ, sred
+  pa) set aside by the bracket, or is the bracket a gloss on the word before
+  it, with craving good for putting on new clothes?
+- Question: are the numerals that stand before the rising signs in the bad
+  half of box 48 («༥ ༧ ༢ ༤», img. 56) and in both halves of box 55 («༣ ༢ ༤»,
+  «༩ ༧», img. 59) the sme ba of the day, as the place of box 7's «༩» suggests,
+  or dates of a second kind?
+- Question: box 60 (img. 62) ends «སྦྱོར་བྱེད་ རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»:
+  by which rule are the combinations and the links fitted to the matter of a
+  council, and does any text of the tradition give it?
+
+### Searched and not found
+
+- A link or sme ba in box 50's bad half (KP2 img. 278) or in box 60's halves
+  (KP img. 62): none, bar box 60's mention of the links as a class.
+- The word inside box 5's bracket (KP img. 25, KP2 img. 244): not legible in
+  either print at 6×.
+- Box 60's last line and box 59's «སྐྱེད» in KP2 (img. 285): worn, not read.
