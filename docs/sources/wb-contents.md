@@ -2,7 +2,7 @@
 
 Sigla, numbering and quoting rules are in [README.md](README.md). WB, the
 1996 Beijing edition (BDRC MW2CZ8040), two volumes: vol. 1 (*stod cha*,
-scans I1KG12906), printed page = image number − 10; vol. 2 (*smad cha*,
+scans I1KG12906), printed page = image number − 10 (except img. 438–441, which are pp. 430, 431, 430, 431: see ch. 25); vol. 2 (*smad cha*,
 scans I1KG12907), printed page = image number − 8.
 
 **How this was made** (2026-10-11): the chapter list and first pages are
@@ -42,7 +42,7 @@ none has not been opened for the app.
 | 22 | 259–350 (269–360) | The reckoning of lives and karma (*tshe rabs las rtsis*): the birth | [reckonings.md](reckonings.md) (RD11: outline, inputs, 3,773 pebbles, p. 262 on the scan); the rest ROADMAP RD13 |
 | 23 | 351–379 (361–389) | The marriage reckoning and the road reckoning (*bag rtsis*, *lam rtsis*) | [reckonings.md](reckonings.md) (RD11: the fifteen points of the match and 5,801 pebbles, p. 351 on the scan); the rest ROADMAP RD15; outline below |
 | 24 | 380–416 (390–426) | The obstacle reckoning and the Chinese pebbles (*keg rtsis*) | [year-of-life.md](year-of-life.md) (T4); [reckonings.md](reckonings.md) (RD11: outline, 888 pebbles, p. 380, Yigdzin-1); the rest ROADMAP RD14 |
-| 25 | 417–452 (427–462) | The illness reckoning (*nad rtsis*) | [lunar-day-signs.md](lunar-day-signs.md) (pp. 449–450, the trigram's goddesses); [reckonings.md](reckonings.md) (RD11: the pebbles' rule of colour and 1,347 pebbles, p. 417 on the scan); the rest ROADMAP RD12 |
+| 25 | 417–452 (427–462) | The illness reckoning (*nad rtsis*) | [lunar-day-signs.md](lunar-day-signs.md) (pp. 449–450, the trigram's goddesses); [reckonings.md](reckonings.md) (RD11: the pebbles' rule of colour and 1,347 pebbles, p. 417 on the scan); [health.md](health.md) (RD12, 2026-10-12: the page-by-page outline of the whole chapter, the fifteen starting points and the class tables quoted, the elements' illnesses on pp. 438–439 quoted; machine-read, the points that matter checked on the scan). **BDRC's scan of vol. 1 lacks pp. 428–429 and repeats pp. 430–431** (img. 438–441): the printed page is the image number minus 10 except there; WBZ img. 565–568 holds the lost text |
 | 26 | 453–473 (463–483) | The thirty Chinese and Tibetan starting points, their pebbles and commentary | [reckonings.md](reckonings.md) (RD11: outline, 630 pebbles, p. 453, Yigdzin-1); the rest ROADMAP RD17 |
 
 ## Vol. 2
