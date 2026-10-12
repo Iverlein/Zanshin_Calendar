@@ -409,3 +409,19 @@ Searched and found wanting, so not to be repeated:
   img. 244): not legible in either print at 6×.
 - **Box 60's last line and box 59's «སྐྱེད» in KP2** (O1, 2026-10-12; img.
   285): worn, not read.
+- **The bird names *bya gzhug*, *bya mjug*, *bya zer*, *bya sbo* in WB's
+  list of the mansions' other names** (O2, 2026-10-12; vol. 1, p. 19, etext
+  p. 29, etext only): absent; the list gives Śravaṇa, Dhaniṣṭhā and
+  Śatabhiṣaj other names, none of them birds.
+- **«བྱ་གཞུག» and «བྱ་མཇུག» elsewhere in WB** (O2, 2026-10-12; the etext of
+  both volumes): only vol. 1, p. 93, and vol. 2, pp. 382, 390, 401, 416; the
+  notes (vol. 2, pp. 474–541) have neither.
+- **A commentary on ch. 34's four lines, or *bya gzhug* with a number, on
+  BDRC** (O2, 2026-10-12; full-text search «བྱ་གཞུག», «བྱ་ཟེར་བྱ་སྦོ»,
+  «བྱ་སྦོ་བྱ་གཞུག»): nearly all hits are «གདུལ་བྱ་གཞུག»; one treasure text's
+  prosperity rite (MW1KG2118_4EBF3C) names *bya sbo* and *bya gzhug* between
+  *phul* and *sgrog*, without numbers.
+- **Ch. 34's three verses in WB's notes** (O2, 2026-10-12; vol. 2,
+  pp. 474–541, etext): «ཚེས་གཅིག་དྲུག», «བཅོ་བརྒྱད་དགུ», «ཚེ་ནོར», «ཡིག་རྩིས»
+  do not occur; the «བག་མ» passages (pp. 525–532) concern the couple's years,
+  clans and ancestors.

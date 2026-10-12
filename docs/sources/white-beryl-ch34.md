@@ -649,18 +649,8 @@ editors' ༢༡ supports it: WB names Śravaṇa in these sections as gro bzhin
 
 ### Open
 
-- Question: WB vol. 1, p. 373 (ch. 23, the bride's mansions by element):
-  «ཤིང་ཁམས་པ་ལ་རྒྱལ་སྨད་དང་། །མེ་ཁམས་དབོ་དང་ས་རི་སྟེ། །ས་ཁམས་ས་ག་བྱ་གཞུག་དང་། །ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད། …»
-  By the turtle's quarters (vol. 1, p. 232; [personal-mansions.md](personal-mansions.md))
-  earth's four mansions are Bharaṇī, Āśleṣā, Viśākhā and Abhijit, so *bya
-  gzhug* under earth would be Abhijit, though WB elsewhere uses the name
-  for Dhaniṣṭhā (p. 382; vol. 1, p. 93). Iron's «ས་ག» falls outside iron's
-  quarter as well. Does this verse count the elements another way, or is
-  it corrupt, and which mansion does its *bya gzhug* name?
-- Question: WB vol. 2, pp. 390 and 401: the hearth and treating horses each
-  name mon dre and *bya gzhug* in one list, on the same side. Is the name
-  there a second mention of Dhaniṣṭhā (two sources joined), or another
-  mansion, as the 1996 bracket ༢༡ and KP's «བྱིཞི» in box 9 take it?
+- Open question 106 ([open-questions.md](open-questions.md)).
+- Open question 107 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

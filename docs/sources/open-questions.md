@@ -894,3 +894,20 @@ the text, not about the app.
     རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»: by which rule are the combinations and the links
     fitted to the matter of a council, and does any text of the tradition
     give it? (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+
+106. **The bride's mansions by element.** WB vol. 1, p. 373 (ch. 23):
+    «ཤིང་ཁམས་པ་ལ་རྒྱལ་སྨད་དང་། །མེ་ཁམས་དབོ་དང་ས་རི་སྟེ། །ས་ཁམས་ས་ག་བྱ་གཞུག་དང་། །ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད། …»
+    By the turtle's quarters (vol. 1, p. 232) earth's four mansions are
+    Bharaṇī, Āśleṣā, Viśākhā and Abhijit, so *bya gzhug* under earth would
+    be Abhijit, though WB elsewhere uses the name for Dhaniṣṭhā (vol. 2,
+    p. 382; vol. 1, p. 93); iron's «ས་ག» falls outside iron's quarter as
+    well. Does this verse count the elements another way, or is it corrupt,
+    and which mansion does its *bya gzhug* name? (2026-10-12, O2,
+    [white-beryl-ch34.md](white-beryl-ch34.md))
+
+107. **Mon dre and *bya gzhug* in one list.** WB vol. 2, pp. 390 and 401:
+    the hearth and treating horses each name mon dre and *bya gzhug* in one
+    list, on the same side. Is the name there a second mention of Dhaniṣṭhā
+    (two sources joined), or another mansion, as the 1996 bracket ༢༡ and KP's
+    «བྱིཞི» in box 9 take it? (2026-10-12, O2,
+    [white-beryl-ch34.md](white-beryl-ch34.md))
