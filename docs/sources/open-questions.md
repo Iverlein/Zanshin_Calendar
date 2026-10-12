@@ -579,3 +579,40 @@ the text, not about the app.
 
 57. **WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
     or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?
+
+58. **KL pp. 201–203: the source of the la's courses by date and by hour.**
+    Dr. Chenagtsang's *Manual of Massage* names none. Do they agree with
+    WB's la by date (vol. 2, pp. 303–305) and with the classical medical
+    texts? A question to put to Dr. Chenagtsang if the texts do not settle
+    it (2026-10-12, RD7, [health.md](health.md)).
+
+59. **KL p. 256: the la, life-force and slayer weekdays by birth animal.**
+    Where do they come from, and do they agree with WB's? KL names no
+    source (2026-10-12, RD7, [health.md](health.md)).
+
+60. **KL p. 202: «ལྒང་བ» (lgang ba).** Where the la stays at daybreak: if it
+    is the bladder (ལྒང་པ, lgang pa), the place sits oddly between the
+    night's whole body and the neck at sunrise. What is it (2026-10-12, RD7,
+    [health.md](health.md))?
+
+61. **KL p. 256: Friday's first burning date.** The scan reads ༢ (2,
+    fifteen days before 17, as every other pair), BDRC's etext ༣ (3);
+    Sunday's 12 and Saturday's 22 rest on the same small hook. A sharper
+    copy or another printing of KL, or the classical list, would settle it
+    (2026-10-12, RD7, [health.md](health.md)).
+
+62. **Dr. Chenagtsang's English books.** Does *Tibetan Healing Massage*
+    (SKY Press) carry KL's chapter on the la and its tables, and *The
+    Tibetan Book of Health* any la course or dates to avoid? Neither was
+    seen (2026-10-12, RD7, [health.md](health.md)).
+
+63. **RS and SY.** Is the Rebkong anthology that copies SY, named in
+    [personal-mansions.md](personal-mansions.md) under *The mansion of
+    conception*, the *Collected Star Texts of the Rebkong Ngakmang* (RS)?
+    Its third text, *The Star Text, a Mirror Clarifying What to Adopt and
+    Avoid* by Dgurong Tsokye Lodrö, shares the end of SY's title
+    (2026-10-12, RD7, [health.md](health.md)).
+
+64. **The Russian *Йога звука* (2016).** Is it a translation of *The
+    Science of Mantra Healing by Interdependence* (2015)? VIAF gives titles
+    only (2026-10-12, RD7, [health.md](health.md)).

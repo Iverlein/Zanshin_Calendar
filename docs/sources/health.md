@@ -368,13 +368,10 @@ The rest of KL holds nothing more on dates (etext): «ཚེས» (date) occurs 
 
 ### Open
 
-- Question: which text do KL's la course by date and by hour (pp. 201–203) follow? KL names none. Do they agree with WB's la by date (vol. 2, pp. 303–305) and with the classical medical texts? A question to put to Dr. Chenagtsang if the texts do not settle it.
-- Question: where do KL's la, life-force and slayer weekdays by birth animal (p. 256) come from, and do they agree with WB's? KL names no source for them.
-- Question: what is the «ལྒང་བ» (lgang ba) where the la stays at daybreak (p. 202)? If it is the bladder (ལྒང་པ, lgang pa), the place sits oddly between the night's whole body and the neck at sunrise.
-- Question: Friday's first burning date (p. 256): the scan reads ༢ (2, fifteen days before 17, as every other pair), BDRC's etext ༣ (3). Sunday's 12 and Saturday's 22 rest on the same small hook. A sharper copy or another printing of KL, or the classical list, would settle it.
-- Question: does the English *Tibetan Healing Massage* (SKY Press) carry KL's chapter on the la and its tables, and *The Tibetan Book of Health* any la course or dates to avoid? Neither was seen.
-- Question: is the Rebkong anthology that copies SY, named in [personal-mansions.md](personal-mansions.md) under *The mansion of conception*, this RS? RS's third text, *The Star Text, a Mirror Clarifying What to Adopt and Avoid* by Dgurong Tsokye Lodrö, shares the end of SY's title.
-- Question: is the Russian *Йога звука* (2016) a translation of *The Science of Mantra Healing by Interdependence* (2015)? VIAF gives titles only.
+Open questions 58–64 ([open-questions.md](open-questions.md)), in order: the
+source of KL's la courses; of its weekdays by birth animal; «ལྒང་བ»;
+Friday's burning date; the English books; RS and SY; the Russian *Йога
+звука*.
 
 ### Searched and not found
 

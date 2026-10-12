@@ -336,3 +336,19 @@ Searched and found wanting, so not to be repeated:
   etext of both volumes of WB has it on vol. 1, p. 351, in the notes
   (vol. 2, p. 525) and in ch. 30 (vol. 2, p. 152), and Yigdzin-1 on p. 359;
   none says what the word is.
+- **The Library of Congress catalogue** (catalog.loc.gov, loc.gov/books,
+  id.loc.gov; RD7, 2026-10-12): a Cloudflare check and a 503; its records
+  are read as copied into Open Library and VIAF.
+- **WorldCat** (search.worldcat.org; RD7, 2026-10-12): a fielded search asks
+  to sign in, a plain one to accept the terms first; not used.
+- **84000 for "Chenagtsang"** (RD7, 2026-10-12): no result.
+- **Dr. Chenagtsang's name in Tibetan script in a library's authority
+  record** (RD7, 2026-10-12): none; VIAF's Tibetan heading is Wikidata's.
+  The title pages of KL and GC print it.
+- ***The Science of Mantra Healing by Interdependence* on BDRC** (RD7,
+  2026-10-12): a title search for *rten 'brel sngags* finds only older texts.
+- **The etexts of GC (IE0OPI430023E3), the 1996 poems (IE0OPI85F3D3D1) and
+  RS (IE0OPI126D5130)** (RD7, 2026-10-12): `etextchunks` answers 403 (search
+  only); RS's scans are lent on archive.org.
+- **A list of his books on drnida.com/books** (RD7, 2026-10-12): the page
+  holds no list.
