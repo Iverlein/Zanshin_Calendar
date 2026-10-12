@@ -917,12 +917,12 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
 
 ### Open
 
-- Question: What is the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed) system of la places that Deumar's *Precious Garland* (Xining 1993, pp. 590–593) tabulates beside the Kālacakra's and Zur's, and from which text did he take it? His note (p. 594) names the system and nothing behind it; KL's monthly course is that column.
-- Question: Does the la's course start on the man's left and the woman's right (Deumar's note to his table, p. 594; GC, BDRC p. 224) or on the man's right and the woman's left (Mipham's *Treatise on Passion*, img. 548, «ཐབས་ཀྱི་གཡས་དང་ཤེས་རབ་གཡོན་གཙོ་བར», if it is read so)? Is the side a matter of the system, so that KL's course, built from the Tsuglag Rigje places and Mipham's syllables, has one of its own?
-- Question: In Mipham's course (img. 548, line 5) the third pair's place reads «ནུ་[ལ་ག]» on the scan, and in line 7 the 30th's «སྟོང་ལ[ི]»; what are the place and the word?
-- Question: In the Final Tantra's la-pulse passage (ST p. 505), what do «ཡར་མར་ཆུ་རྒྱུས», «གོད་ཀ་ཁ་ཡོགས» and the line «སྟོང་བརྒྱལ་གོད་འོང་ཐང་འཁྱིག་ཁ་སྨྲས་འོང» mean, and where is the la pulse felt («བླ་རྩ་མར་ཟུར་ཆུ་རྒྱུས་གསེབ་ཏུ་བརྟག», p. 498)?
-- Question: Which work is the «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ» that Deumar names (p. 594) for the la places by the hour, whose notes give both feet at daybreak?
-- Question: Which Four Tantras do KL's «ལྕགས་པར་མ» page numbers follow, when three of six (10, 12, 50) fall on the Serthang edition's pages and the others (22, 78, 95) fit no single book?
+- Open question 84 (narrowed) ([open-questions.md](open-questions.md)).
+- Open question 108 ([open-questions.md](open-questions.md)).
+- Open question 109 ([open-questions.md](open-questions.md)).
+- Open question 110 ([open-questions.md](open-questions.md)).
+- Open question 111 ([open-questions.md](open-questions.md)).
+- Open question 86 (narrowed) ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

@@ -91,7 +91,10 @@ scratch directory, not in the repository:
   read. Find a passage's leaf by the BDRC etext's character offset (the
   search result's `startChar`), then the printed number on the page;
   `hf_read.py` on the screenshots finds a phrase in a run of leaves.
-  Return the loan and delete the cookie file afterwards.
+  Return the loan and delete the cookie file afterwards. For a
+  single-volume item `view`'s FILE argument is "." (an empty one finds no
+  page image), and the playwright it runs must match the cached Chromium
+  (1.62.0 for chromium-1234; RD9, 2026-10-12).
 - `hf_read.py yigdzin|mitra OUT IMG…` — **the main reader**: BDRC's
   Yigdzin-1 OCR model on the local GPU (`hf_read.py setup VENV` makes its
   environment); MITRA, the runner-up, as witness.
@@ -389,7 +392,9 @@ Searched and found wanting, so not to be repeated:
 - **KL's place words in RS** (RD8, 2026-10-12): none; RS's la courses are
   other systems.
 - **The Final Tantra's la-pulse passage that GC quotes** (RD8, 2026-10-12):
-  not located in MW3CN5036.
+  not located in MW3CN5036. Found by RD9 (2026-10-12) through BDRC's full-text
+  search for «ཚེའི་རྟགས་བླ་ཡི་རྩ་ལ་བརྟག་པ»: ST p. 505 (img. 519), the end of
+  the Final Tantra's ch. 1; GT img. 665.
 - **A worked example of the household pebble round with its readings**
   (RD14, 2026-10-12): none in WB ch. 24 or the notes' section 2 beyond the
   notes' layout of five people (vol. 2, p. 490).
@@ -425,3 +430,15 @@ Searched and found wanting, so not to be repeated:
   pp. 474–541, etext): «ཚེས་གཅིག་དྲུག», «བཅོ་བརྒྱད་དགུ», «ཚེ་ནོར», «ཡིག་རྩིས»
   do not occur; the «བག་མ» passages (pp. 525–532) concern the couple's years,
   clans and ancestors.
+- **A second open-access Four Tantras on BDRC** (RD9, 2026-10-12): the
+  Lhasa 1982 print (MW16778, I4839), the Sde dge typeset (MW2DB4628,
+  I1PD28098), the Grathang print (MW29627, I1PD464) and the Final Tantra
+  alone (MW8LS68177) answer 401 beyond their preview images; the Dharamsala
+  2008 Root and Explanatory Tantras (MW1KG2121, I1KG2143) and a Mongolian
+  manuscript of the first two (MW1NLM116) answer; the Drathang woodblock
+  with notes (MW4CZ321183, I4CZ327131) is whole and was used.
+- **The word «བླ» in Mipham's *Treatise on Passion*** (RD9, 2026-10-12;
+  Yigdzin-1 over I1KG8551 img. 536–580): only in other words (བླ་རེ, བླ་མ,
+  བླང); the treatise speaks of the drop of bliss, not the la.
+- **A source Deumar names for the Tsuglag Rigje system** (RD9, 2026-10-12;
+  DM pp. 589–594 on the scan): none.

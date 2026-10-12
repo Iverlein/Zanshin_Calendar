@@ -590,7 +590,7 @@ the text, not about the app.
 57. **WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
     or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?
 
-58. **KL pp. 201–203: the source of the la's courses by date and by hour.**
+58. **KL pp. 201–203: the source of the la's courses by date and by hour.** *Answered for the course by date, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan, KL's monthly places are the Tsuglag Rigje column of Deumar's table in thirty of thirty dates, with Mipham's syllables and his crown and sole on the 15th and 30th; Deumar's course by the hour notes both feet at daybreak.*
     *Answered in part, 2026-10-12 (RD10, [health.md](health.md), *KL's tables
     in WB*): the course by date is WB's Phugpa list (vol. 2, p. 303) in 25
     of 30 places, the course by hour WB's course within the day (p. 304);
@@ -609,7 +609,7 @@ the text, not about the app.
     Where do they come from, and do they agree with WB's? KL names no
     source (2026-10-12, RD7, [health.md](health.md)).
 
-60. **KL p. 202: «ལྒང་བ» (lgang ba).** *Narrowed 2026-10-12 (RD10,
+60. **KL p. 202: «ལྒང་བ» (lgang ba).** *Narrowed further 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): the note to Deumar's course by the hour gives both feet (རྐང་པ་གཉིས) at daybreak, as WB does.* *Narrowed 2026-10-12 (RD10,
     [health.md](health.md)): WB's course within the day, which KL follows,
     has both feet (རྐང་གཉིས) at daybreak (vol. 2, p. 304), and WB writes «ལྒང»
     for the bladder (vol. 1, p. 252); so the bladder, or «རྐང་པ», foot, by a
@@ -756,20 +756,20 @@ the text, not about the app.
     (vol. 2, p. 357). What are they (2026-10-12, RD10,
     [health.md](health.md))?
 
-84. **KL's monthly la course and Deumar's Tsuglag Rigje system.** Is KL's
+84. **KL's monthly la course and Deumar's Tsuglag Rigje system.** *Answered in part, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): yes, on the scan, all thirty dates (DM pp. 590–593); his note (p. 594) names the system and nothing behind it. Open: what the Tsuglag Rigje system is, and from which text Deumar took it.* Is KL's
     course the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed) column of
     Deumar's table (*Precious Garland*, Xining 1993, printed pp. 590–592,
     etext only; its scans are lent on archive.org), what is the Tsuglag
     Rigje system, and where did Deumar take it from (2026-10-12, RD8,
     [health.md](health.md))?
 
-85. **Mipham's *Treatise on Passion* and the la.** Does it give a course of
+85. ~~Mipham's *Treatise on Passion* and the la.~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan (img. 548–549), the treatise never names the la; it gives a monthly course of the drop of great bliss as sixteen vowel syllables, from the big toe to the crown on the 15th and back to the soles on the 30th, and no course by the hour. KL's syllables and its crown and sole come from it.* The question as it stood: Does it give a course of
     the la by date or by hour, or only the anointing that KL p. 3, note 2,
     bases on it? Its etext in his Collected Works (I1KG8551, from
     img. 536) is too poor to find the passage (2026-10-12, RD8,
     [health.md](health.md)).
 
-86. **KL's «གསོ་རིག་རྒྱུད་བཞི་ལྕགས་པར་མ».** Which edition is it? KL also calls a
+86. **KL's «གསོ་རིག་རྒྱུད་བཞི་ལྕགས་པར་མ».** *Narrowed 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): three of KL's six page numbers (10, 12, 50) fall on the Serthang edition's pages (I3CN5038); the other three (22, 78, 95) fit no single book.* Which edition is it? KL also calls a
     book of the Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང,
     si khron mi rigs dpe skrun khang) «ལྕགས་པར་མ» (p. 230, note), so the word
     may mean a typeset edition rather than the Chakpori (ལྕགས་པོ་རི, lcags po
@@ -778,17 +778,17 @@ the text, not about the app.
     conduct by the season (ch. 14) on p. 50 (KL pp. 98 and 61, notes)
     (2026-10-12, RD8, [health.md](health.md)).
 
-87. **KL p. 199: «ཉིན་དགོང་མཚན་དགོང».** Bile rises so in KL, where the Four
+87. ~~KL p. 199: «ཉིན་དགོང་མཚན་དགོང».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): both prints read on the scan have «ཉིན་གུང་མཚན་གུང»; KL p. 199 slips.* The question as it stood: Bile rises so in KL, where the Four
     Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
     midday and midnight: a misprint in KL (2026-10-12, RD8,
     [health.md](health.md))?
 
-88. **KL p. 61: «དེ་ཡིས་ལུས་ཟུངས་བྲི་བར་འགྱུར་བས་ཕྱིར».** This second line stands
+88. ~~KL p. 61: «དེ་ཡིས་ལུས་ཟུངས་བྲི་བར་འགྱུར་བས་ཕྱིར».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): the line is in the root text of both prints on the scan («…འབྲི་བར་འགྱུར་བའི་ཕྱིར»); Byangpa's commentary is the one that leaves it out.* The question as it stood: This second line stands
     where the machine texts of the Explanatory Tantra and of Byangpa's
     commentary go straight from «…བཀྲེས་འགྱུར་ཏེ» to «ཏིལ་མར་གྱིས་བྱུག…»: KL's own
     wording, or another edition's (2026-10-12, RD8, [health.md](health.md))?
 
-89. **GC's la course.** Does GC name a source for its la course and for
+89. **GC's la course.** *Narrowed 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): Deumar's note to his table (p. 594) gives the same rule, the man from the left and the woman from the right; Mipham's verse may read the other way (question 108).* Does GC name a source for its la course and for
     its rule that the course starts on a man's left and a woman's right
     (BDRC p. 224)? Only snippets were seen; the book is restricted
     (2026-10-12, RD8, [health.md](health.md)).
@@ -911,3 +911,26 @@ the text, not about the app.
     (two sources joined), or another mansion, as the 1996 bracket ༢༡ and KP's
     «བྱིཞི» in box 9 take it? (2026-10-12, O2,
     [white-beryl-ch34.md](white-beryl-ch34.md))
+
+108. **The la's starting side.** Does the la's course start on the man's
+    left and the woman's right (Deumar's note to his table, p. 594; GC, BDRC
+    p. 224) or on the man's right and the woman's left (Mipham's *Treatise
+    on Passion*, img. 548, «ཐབས་ཀྱི་གཡས་དང་ཤེས་རབ་གཡོན་གཙོ་བར», if it is read
+    so)? Is the side a matter of the system, so that KL's course, built from
+    the Tsuglag Rigje places and Mipham's syllables, has one of its own?
+    (2026-10-12, RD9, [health.md](health.md))
+
+109. **Two places in Mipham's course.** In Mipham's course (img. 548, line 5)
+    the third pair's place reads «ནུ་[ལ་ག]» on the scan, and in line 7 the
+    30th's «སྟོང་ལ[ི]»; what are the place and the word? (2026-10-12, RD9,
+    [health.md](health.md))
+
+110. **The Final Tantra's la pulse.** In the la-pulse passage (ST p. 505),
+    what do «ཡར་མར་ཆུ་རྒྱུས», «གོད་ཀ་ཁ་ཡོགས» and the line
+    «སྟོང་བརྒྱལ་གོད་འོང་ཐང་འཁྱིག་ཁ་སྨྲས་འོང» mean, and where is the la pulse felt
+    («བླ་རྩ་མར་ཟུར་ཆུ་རྒྱུས་གསེབ་ཏུ་བརྟག», p. 498)? (2026-10-12, RD9,
+    [health.md](health.md))
+
+111. **Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ».** Which work is the one Deumar names
+    (p. 594) for the la places by the hour, whose notes give both feet at
+    daybreak? (2026-10-12, RD9, [health.md](health.md))
