@@ -509,3 +509,15 @@ the text, not about the app.
     front matter draws it (vol. 1, pp. 174–176, RD2), and is the lesser
     black year three-blue in the centre (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+
+41. **WB's notes vol. 2, p. 534–535 (img. 542–543): the earth lords against the results.**
+    Does the tradition weigh an earth lord's prohibition (a work not to be
+    done on a seat, in a direction or on a date) against the results of the
+    date's factors, and where: with the particular case (*dmigs bsal*), or
+    below every factor of the order of strength (2026-10-12, RD6,
+    [weighing.md](weighing.md))?
+
+42. **WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
+    Does it mean the hour's earth lords (the 37) are to be reckoned at the
+    time of the work, as the corpse's road does, or only that the work's time
+    is to be chosen carefully (2026-10-12, RD6, [weighing.md](weighing.md))?

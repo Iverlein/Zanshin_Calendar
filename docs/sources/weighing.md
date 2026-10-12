@@ -424,14 +424,8 @@ bear on the choice, and are inferences, not statements of any text:
 
 ### Open
 
-- Question: does the tradition weigh an earth lord's prohibition (a work
-  not to be done on a seat, in a direction or on a date) against the
-  results of the date's factors, and if so where: with the particular
-  case (*dmigs bsal*), or below every factor of the order of strength?
-- Question: the notes (p. 534) close the earth lords' head with «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».
-  Does it mean the hour's earth lords (the 37) are to be reckoned at the
-  time of the work, as the corpse's road does, or only that the work's
-  time is to be chosen carefully?
+- Open question 41 ([open-questions.md](open-questions.md)): whether an earth lord's prohibition is weighed against the date's results, and where.
+- Open question 42: what «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།» (p. 534) asks of the hour's earth lords.
 
 ### Searched and not found
 

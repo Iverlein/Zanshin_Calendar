@@ -310,3 +310,9 @@ Searched and found wanting, so not to be repeated:
 - **The owner's own Firefox** must never be driven by automation: a
   session on 2026-09-29 left about a hundred test preferences in the
   profile. Use a separate browser profile.
+- **A rank or weight of the earth lords among the day's factors**
+  (RD6, 2026-10-12): not in WB's notes vol. 2 pp. 474–541 (etext: «ས་བདག»
+  with «སྟོབས», «ནུས་པ», «ཆེ་ཆུང», «དམིགས་བསལ», «གཙོ་བོ»), not in the three volumes
+  of KD, not in KP img. 13–14. The notes list the earth lords and the results
+  as two heads (pp. 534–535) and join them nowhere. Not searched: BDRC's
+  full-text search in other manuals.
