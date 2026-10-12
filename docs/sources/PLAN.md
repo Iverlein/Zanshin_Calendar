@@ -455,3 +455,10 @@ Searched and found wanting, so not to be repeated:
   Pervading All Knowledge*, the annotated *Abridged Kālacakra Tantra* and
   Blo gros dpal give only the *Seven Special Qualities*' restatement. Sde
   srid's *Removing the Tarnish from the Beryl* has no etext on BDRC.
+- **«མོད་འགྱུར» as a compound, and a gloss on the 9th hair date** (O3,
+  2026-10-12): no headword in the 64 dictionaries of Steinert's collection
+  (*mod*, *mod pa*, *mod po* only); BDRC full-text search: «ན་ཆུང་མོད» and
+  «དགུ་ནི་ན་ཆུང» only in WB (MW2CZ8040, MW3CN5026) and a modern novel, «ན་ཆུང་མོང» and
+  «ན་ཆུང་མོད་པར» nothing, «ན་ཆུང་མོས» one unrelated poem, «མོད་འགྱུར» 28 hits, the
+  first six read, none another almanac's hair dates. WB2's line (I1KG12740
+  img. 555) is blotted and cannot be read at 1226 px.

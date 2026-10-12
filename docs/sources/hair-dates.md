@@ -214,11 +214,7 @@ line was compared, not the whole verse.
 
 ### Open
 
-- Question: WB lists the 9th among the bad dates for washing the hair,
-  while its result, young women becoming many, reads as a gain in SN and
-  the haircut lists. Is the result meant as a good (company, a bride) or a
-  warning (distraction, desire), or does the bad date stand only because
-  it follows chapter 33?
+- Open question 119 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

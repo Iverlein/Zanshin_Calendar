@@ -977,3 +977,11 @@ the text, not about the app.
      seized is smaller" a reading of WB's «བཟུང་མི་སྲིད», "cannot be seized",
      as JL's «འཛིན་པ་དཀའ» and OS's are of the whole list, or a rule from
      another source? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+
+119. **The 9th hair date, a gain or a warning.** WB lists the 9th among the
+     bad dates for washing the hair (vol. 2, p. 404), while its result,
+     young women becoming many («ན་ཆུང་མོད་འགྱུར»), reads as a gain in SN and the
+     haircut lists. Is the result meant as a good (company, a bride) or a
+     warning (distraction, desire), or does the bad date stand only because
+     it follows chapter 33? (2026-10-12, O3, [hair-dates.md](hair-dates.md),
+     "The 9th's «མོད་འགྱུར» (O3)")
