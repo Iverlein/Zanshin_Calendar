@@ -599,3 +599,222 @@ links, whose half the scan does not settle; box 50 (KP2 only); box 48 and
 60 name the links or sme ba without saying which. Boxes 2, 3, 6, 8, 9, 12,
 18, 19, 24–26, 33, 40–42, 61–65 name none. `ElectionalTest` holds the
 table.
+
+## The earth lords and the almanac's days in the boxes (RD5)
+
+Read 2026-10-12 for ROADMAP RD5: which of the earth lords (*sa bdag*) that
+RD3 and RD4 identify in WB ([year-month-earth-lords.md](year-month-earth-lords.md))
+the *kun phan me long*'s boxes name, and for which works. KP is BDRC I4CZ65599,
+KP2 I3CN12074. **Image numbers in this section are BDRC's own labels, the
+file names of the scans; the sections above count two fewer** (box 2 is on
+KP img. 23, which they call 21; KP2 likewise two more than they say). KP2 is
+the same text in a second print, one folio often a line or two ahead.
+
+**How it was read.** Yigdzin-1 over every folio of KP from img. 23 to 66
+(boxes 2 to 65) and of KP2 from img. 240 to 282; again over the left 55 % and
+the right 55 % of each KP folio that carries a name, enlarged 1.5×, which
+finds lines the whole folio loses (box 39's whole line of names, img. 49, is
+missing from the folio reading and present in the halves and in KP2). The
+names agree in the three readings. On the scan itself, at 2× to 4×, the names
+were seen in boxes 10, 13, 16, 17, 19, 20, 23, 25, 26, 39 (img. 28, 31, 33–36,
+38–40, 49) and, less surely, 42 (img. 51); the running words around them in every box, and every name in
+the other boxes, are the machine reading, marked "(machine)" below. MITRA was
+tried on whole KP folios and looped on digits (2,400 to 4,100 characters of
+«༡༠ ༡༠ …» for a folio of 900), so it is no witness here. agy was not used.
+The small numerals under the three «ཟླ་ཚེས» of box 16 are too small to be
+read at the scan's size and are left out.
+
+### How a box names them
+
+Each box is two halves side by side, the good half first and the bad half
+(printed «ངན་པ», or «ངན» at the end of its first line) second. The earth
+lords and the Chinese almanac's days stand in **the bad half**, in its last
+line or two, as a run of names without a verb, and the box's rule on
+"what is not calculated" (above) is this run. The one box that says
+anything about them in its good half is box 56 (below); box 13 is prose
+without halves, and box 53's closing prose says their reckoning is not given. No box says what an earth lord does, how
+it moves or how it is mended: **the box gives the name and the side, nothing
+more.** What a name means is in WB; the identifications follow.
+
+### Who the names are
+
+| KP | Wylie | In RD3 / RD4 and the other topic files |
+| --- | --- | --- |
+| ཐེ་སེ | the se | the king Tese, the year's no. 1 (p. 177), and Grumbu of the *the se* spirits, the month's no. 2; KP does not say which |
+| ཐེ་ཁྱིམ | the khyim | the great queen Tekhyim, year no. 2 |
+| ཧང་ཕན (ཧང་བན) | hang phan | Hangphen the yellow, the watchman who leads the *hal khyi*, year no. 7 (the consort Harphen or Hangne, no. 3, is another) |
+| ཙང་ཀུན | tsang kun | the minister Tsangkun, year no. 5 (and the three Tsangkun, nos. 20–22; the month's no. 41) |
+| སེ་བྱི | se byi | Sebyi, the treasure guardian, year no. 8 |
+| སེ་ཤར | se shar | Seshar, the bodyguard, year no. 9; the hearth god Seshar of the month (no. 48, scattered no. 6) |
+| སེ་བ་བླ་མཁྱེན | se ba bla mkhyen | the life-spirit knower of the *se*, year no. 6 |
+| རང་རྟ, ཏེ་སོ, ཀུངས་མྱུལ | rang rta, te so, kungs myul | Seba Rangta no. 10, Teso no. 4, Kungnyul no. 14 of the year |
+| པི་ལིང | pi ling | Pilang, year no. 25; Piling the poisonous, month no. 30 (and no. 35) |
+| ཟླ་ཀླུང | zla klung | the month's river (*zla klungs*), month no. 3 |
+| ཟིན་ཕུང | zin phung | Zinphung the black, year no. 24, month no. 31 |
+| ཧལ་ཁྱི | hal khyi | the year's black *hal khyi* (no. 16) and the month's |
+| སེ་བདུད | se bdud | the *se* demon, scattered no. 2 of the month |
+| ཚེས་གཉན | tshes gnyan | the fierce date of nine corpses, scattered no. 1 of the month |
+| འཕུང་བྱེད, ཀླུ་གཟའ་ནག་མོ, གཅེར་བུ | 'phung byed, klu gza' nag mo, gcer bu | the earth's destroyer, the nāga planet and the naked stump-hand, the three of the five further ones of the hidden twelve (RD4) |
+| ས་ཡི་ལྷ་མོ་བསྟན་མ | sa yi lha mo bstan ma | the earth goddess Tenma, month no. 20 |
+| བུམ་སྟོང, བྱི་ལམ | bum stong, byi lam | the empty vase and the mouse road, among the month's circling lords |
+| ཀི་ཀང, ཉི་ནག, གནམ་སྟོང | ki kang, nyi nag, gnam stong | not earth lords of RD3/RD4: *ki kang* is WB's no. 16 of the lords that move by date ([earth-lord-courses.md](earth-lord-courses.md)), *nyi nag* the great black day ([great-black-day.md](great-black-day.md)), *gnam stong* the date of each month so named (same file) |
+| དབུལ་ལག, ཕུང་ཟོར | dbul lag, phung zor | not in RD3/RD4; *dbul lag* is read as one name (see box 25), and WB's own «དབུལ་ལག་འཆར» of the burning dates ([burning-dates.md](burning-dates.md)) holds it |
+
+Of the ten names of the roadmap row, «ཟླ་ཀླུང» is named only in box 16
+(box 53 has «ཟླ་རླུང»), and «གནམ་སྟོང» only in the short form «གནམ» (box 23,
+img. 38; box 10's «གནམ་ཞག་ནག» is another name). The full word is on KP
+img. 47, in the verse of box 36, as the day on which the soles of the feet
+hold the *bla gnas*: not as an earth lord.
+
+### The boxes, one by one
+
+"Bad half" below is the half printed «ངན». The Tibetan is the run of names
+as read, with the neighbouring words that make it a sentence; the English is
+only which names, in the print's order.
+
+- **10 Feasts, vessels** (KP img. 28, KP2 247), names seen on the scan.
+  «ཉི་མ་བྱ་ཡོས་ ཀིང་ཟོར་ནག་ དབུལ་ ཧལ་ཁྱི་ ལོ་ཟླ་… པི་ལིང་ གནམ་ཞག་ནག་ ཐེ་སེ་ ཙང་ཀུན་ ཧང་ཕན་ སེ་བྱི་ སེ་ཤར་ ཀུངས་མྱུལ་ ས་རྒྱལ་ འབྲུག་ལྷ་ ལྷ་ལྔ་ བར་གནམ་ དྲ་ཆེན་ རཱ་ཧུ་རྒྱུ་དུས་ གཟའ་རྒོད་སོགས»
+  Bad half, after the Bird and Hare days: *dbul*, the *hal khyi* of year and
+  month, *pi ling*, *gnam zhag nag*, the se, tsang kun, hang phan, se byi,
+  se shar, kungs myul, the earth king, the dragon god, the five gods, Rāhu's
+  course and the planet Lhagö (*gza' rgod*) and the like. The words before
+  «ཀིང་ཟོར» are machine reading.
+- **12 Setting out** (Henning's; img. 29, KP2 248), names machine.
+  «དུས་སྦྱོར་ ཀརྚ་ སེངྒེ་ སྲང་ བུམ་པ་ སྡིག་ ལུག་ གླང་ འཁྲིག་ འཇིག་ཉི་ ཕུང་ཟོར་ པི་ལིང་ སའི་འཕུང་བྱེད་ ཉི་ནབ། འགྲོ་མིའི་བདུད་གཅོད་སོགས།»
+  *phung zor*, *pi ling* and the earth's destroyer among what the traveller
+  avoids; the rest of the line not settled.
+- **13 A child's first outing** (img. 31, KP2 250), names seen on the scan.
+  «སྤེར་ཁའི་བདུད་གཉན་འདྲེ་ལྔ་བདུད་བཅོད། ཐེ་སེ་ཧང་བུ་སེ་ཞིག་ ལོ་ཟླའི་ས་བདག་ངན་པ་སྤྱི་དང་། ལོ་ཟླ་ཞག་དུས་ལ་ཕྱོགས་སུ་རྒྱུ་བའི་ཧལ་ཁྱི་…གཅིག་དཀར་རཱ་བརྒྱད་གདོང་ཐུག། ཁྱད་པར་ཆུང་སྲི་བུ་ཟན་བཅས་ལ་འཛོམ།»
+  The prose box names the bad earth lords of year and month in general,
+  *the se*, *hang bu* (hang phan), *se zhig*, and the *hal khyi* that goes
+  by direction in year, month, day and hour, and says the child meets them
+  head on, the *sri* and the child-eaters (*bu zan*) above all.
+  The second line's «སྤེར་ཁ» and «འདྲེ་ལྔ» are not identified.
+- **15b/16 Taking and giving wealth** (img. 33, KP2 252), names seen on the
+  scan. Bad half of box 16: «… ཉི་མ་སྤྲུལ་ དབུལ་ པ། ཉི་ནག་ ཀི་ཀང་ སེ་བྱི་ ཧང་ཕན་ ཟླ་ཀླུང་ ཟླ་ཚེས་ ཟླ་ཚེས་ ཟླ་ཚེས་ [small numerals] འདི་…»
+  The Monkey day, *dbul*, *nyi nag*, *ki kang*, se byi, hang phan, the
+  month's river, then three «ཟླ་ཚེས» (month and date) each with its small
+  numerals: the dates of the months on which they stand, not read. The
+  last word is cut by the print's worn edge (not read).
+- **17 Auspicious rites** (img. 34, KP2 253), names seen on the scan.
+  «བིཥྚི་ ཀི་ཀང་ རཱ་ཧུ་ པི་ལིང་ དབུལ་ ཧལ་ཁྱི་ ལོ་ཟླ་ཚེས་ … སོགས་ནག་པའི་དུས་ ཕུང་ཟོར་སོགས།»
+  Viṣṭi, ki kang, Rāhu, pi ling, dbul, the hal khyi, the date of the year
+  and the month, the black times and phung zor.
+- **18 Planting** (img. 35, KP2 254): «སྡིག་ བུ་མོ་ སྲང་ སེ་བདུད་རྒྱུ་དུས་ ཉི་ནག་» the *se* demon's
+  times and *nyi nag*.
+- **19 Peace between enemies** (img. 35, KP2 254), names seen on the scan.
+  «ཉི་མ་རྟ་ དུས་སྦྱོར་ ཀརྚ་ ཆུ་སྲིན་ སྡིག་ བུམ་སྟོང་ སེ་བྱི་» the Horse day,
+  *bum stong*, *se byi*.
+- **20 Virtuous acts for the living** (img. 36, KP2 255), names seen on the
+  scan. «བིཥྚི་ ཀི་ཀང་ པི་ལིང་ ཉི་ནག་ ཕུང་ཟོར་ ཧལ་ཁྱི་ དྲ་[ཆེན] རཱ་ཧུ་ དབུལ་ལག་ ལོ་ཟླ་ཞག་ནག་སོགས།»
+- **21 Manuring, breaking oxen** (img. 36, KP2 255): «… ཕོ་ཉ་ ཟས་འཚོལ་ ཞག་ནག་ ས་ཡི་ལྷ་མོ་བསྟན་མ་གནས་ཕྱོགས། ལམ་སྔོ་ པི་ལིང་ དབུལ་ ཉི་ལུས་ དུར་ཞུགས་དང་ ལྔ་སེར་འཆར་ཕྱོགས།»
+  Tenma's place, the blue mouse road (*lam sngo*, read in KP as «ལམ་ལྡོ»,
+  KP2 «ལམ་སྔོ»), *pi ling*, *dbul*.
+- **22 Sowing** (img. 38, KP2 259): «… ཉི་ནག་ ཐེ་སེ་ཁྱིམ་ … གྲུམ་བུ་ ས་རྒྱལ་ འབྲུག་ལྷ་ འཕུང་བྱེད» *nyi nag*,
+  the se and the khyim, Grumbu, the earth king, the dragon god, the
+  destroyer (machine).
+- **23 Gifts, dowries** (img. 38, KP2 259), names seen on the scan.
+  «ཉི་མ་ཡོས་ཁྱི་ལུག་སྦྲུལ་སྟག་ ཁོན་ སེ་ཤར་ གནམ་ པི་ལིང་ … ཙང་ཀུན་ ཕོ་ཉ་ ཧལ་ཁྱི་ ཉི་ནག་ གཟའ་བདུན་ཟས་འཚོལ་ ལྔ་དགུའི་ཕྱོགས་བཅས།»
+  Hare, Dog, Sheep, Snake, Tiger days and the trigram *khon*, then se shar,
+  *gnam* (short for *gnam stong*), pi ling, tsang kun, the messenger (*pho
+  nya*), the hal khyi, nyi nag, the seven planets' food-seeking and the
+  places of the five and the nine, all in the bad half («ཤིན་ཏུ་ངན» stands
+  in its first line).
+- **25 Storehouses** (img. 39, KP2 260), seen on the scan.
+  «དུ་སྦྱོར་ ཀརྚ་ སྡིག་ དབུལ་ལག་ སོགས་ངན།» *dbul lag* and the like are bad;
+  the two syllables are one name, as in boxes 20, 59 and 62.
+- **26 Banners** (img. 40, KP2 261), seen on the scan.
+  «… སྲང་ ཉི་ནག་ བིཥྚི་ འཕུང་བྱེད་ ནག་མོ་ རྒྱུ་དུས་སོགས་འཛེམ།» *nyi nag*, Viṣṭi,
+  the destroyer, the black one's times: to be avoided.
+- **27 Springs and wells** (img. 40, KP2 261): «ཉི་མ་ཡོས་འབྲུག་སྦྲུལ་ཕག་ དུ་སྦྱོར་ ལུག་ སེངྒེ་ ཉི་ནག་ བྱི་ལམ་…» *nyi nag*, the mouse road.
+- **28 Feeding horses** (img. 41, KP2 262): «ཀརྚ་ བུམ་ ཧལྱི་བ་ ཕུད་བྱེད་ རཱ་ཧུའི་གདོང་ རང་རྟ་ སེ་བ་ བུམ་སྟོང་ སེ་ལོ་» the
+  *hal khyi*, the destroyer, Rāhu's face, *rang rta* (Seba Rangta), *se ba*,
+  *bum stong*, *se lo*.
+- **31 Keeping dogs** (img. 42, KP2 263): «ངན་པ། ཧང་ཕན་ཕྱོགས་ ཧལ་ཁྱི་ ཟས་འཚོལ་དང་ གནས་ཕྱོགས…» hang phan's quarter, the
+  *hal khyi*, the food-seeking and the place (machine).
+- **34 Medicine** (img. 43, KP2 264): «… ཀརྚ་ དབུལ་ བདུད་རྩི་ཐུན་མཚམས་…» *dbul* bad.
+- **39 Enthronement** (img. 49, KP2 270), names seen on the scan.
+  «དུས་སྦྱོར་ ཆུ་སྲིན་ སྡིག་ སེ་བྱི་ པི་ལིང་ ཙང་ཀུན་ ཐེ་སེ་ … སེ་བ་བླ་མཁྱེན་ འཕུད་བྱེད་ ནག་མོ་རྒྱུ་དུས་»
+  se byi, pi ling, tsang kun, the se, the *se ba bla mkhyen*, the destroyer
+  and the black one's times.
+- **42 Giving and taking a bride** (Henning's; img. 51, KP2 272), seen at 2×,
+  the longest run. «… བར་གནམ་ལོ་ཟླ་ ཉི་ནག་ གཡུ་མཛོད་ བིཥྚི་ འཕུང་བྱེད་ ལྷ་ལྔ་དགུ་ པི་ལིང་ ཀི་ཀང་ ས་ཡི་ལྷ་མོ་བསྟན་མ་ གནམ་སྦྱོར་ གཟའ་བདུན་ ཕོ་ཉ་ … ཀླུ་གཟའ་ དབུལ་ སེ་བྱི་ ཧང་ཕན་ ཧང་ཕན་སེར་པོ་ རང་རྟ་ ཏེ་སོ་ ཀུངས་མྱུལ་ … ཐེ་ཁྱིམ་ ཧལ་ཁྱི་ ཝང་ཕན་ སེ་བ་ ཕུང་ཟོར་ བག་མའི་ལོ་ལག་ཙ་ཀྲ་སོགས་ ཀྱི་ ལྷ་དྲུག་གནས་ཕྱོགས།»
+  It names the year and month, the mid-sky, *nyi nag*, the turquoise
+  treasure (*gyu mdzod*), Viṣṭi, the destroyer, the five and the nine,
+  *pi ling*, *ki kang*, Tenma, the nāga planet, *dbul*, se byi, hang phan and
+  Hangphen the yellow, Rangta, Teso, Kungnyul, the khyim, the hal khyi, the
+  *se ba*, *phung zor*, and the six gods' places of «the bride's year, the
+  wheel of the hands» («བག་མའི་ལོ་ལག་ཙ་ཀྲ», machine; KP2 prints the last word differently, not settled), as what the bride's
+  business must mind. The box ends «གལ་ཆེ་ཞིབ་རྩིས་རྟོགས་དཀའི་རིགས་འདིར་མི་གསལ»:
+  the exact reckoning of the important, hard-to-grasp kinds is not given here.
+  This is the passage the bride's departure (ROADMAP P3) needs.
+- **44 Suppressing *sri*** (img. 52, KP2 273): «… ས་འོག་རིམ་དགུའི་ས་བདག་བརྟག།» the earth lords of the nine levels
+  under the earth are to be looked into (RD3's nine).
+- **45 Funerals** (img. 53, KP2 274): «ཉི་མ་སྟག་སྤྲེལ་ཁྱི་ ལོ་ཟླ་ཞག་དུས་ཀྱི་ས་བདག་ རྒྱུ་དུས་ཕལ་ཆེར་འཛེམ།»
+  the earth lords of the year, month, date and hour, and their times of
+  moving, mostly to be avoided.
+- **46 Temples, stupas** (Henning's; img. 54, KP2 275): «བིཥྚི་ བར་ ཧལྱི་ ལོ་ཟླ་ཞག་ནག་སོགས། པི་ལིང་ ཕོ་ཉ་ དབུལ་ འཕུང་བྱེད་ … ཀི་ཀང་»
+- **47 Averting** (img. 55, KP2 276): «… འཇོམས་དང་ གདུག་ཅན་རྣམས་ གནས་ཕྱོགས་དང་ རྒྱུ་དུས་ གདོང་» the harsh
+  earth lords (*sa bdag gdug can*) and the directions and times of the
+  *hal khyi*; the good half names one rite for them.
+- **48 Fire offering** (img. 56, KP2 277): «ཟིན་ཕུང་ གཞན་ཡང་ ས་བདག་ རྒྱུ་དུས་སོགས་ངན།»
+- **49 Consecration** (img. 56, KP2 277): «… ཉི་ནག་ ཀླུ་གཟའ་ནག་མོ་ ཚེས་གཉན་རྒྱུ་སོགས་ བིཥྚི་ འཕུང་བྱེད་ དབྱུལ་པིང་ བར་ག་ནཾ་ ཧལྱི་ གཅེར་བུ།»
+- **52 Crafts, hair** (img. 57, KP2 280): «… སྲང་ ཚེས་གཉན་ རྒྱུ་…»
+- **53 Military training, games** (img. 58, KP2 281), the prose that ends the
+  box, machine: «གནམ་འཕུང་བྱེད་ ཐེ་སེ་ སེ་བདུད་ ཉི་ནག་ ཚེས་གཉན་ … འདིར་ཞིབ་རྩིས་བྱེད་ན་འཁོར་ལོའི་རྣམ་གྲངས་བརྩི་ པི་ལིང་ བུམ་སྟོང་ ཝང་གིང་ བྱི་ལམ་ ཧལྱི་ དུས་མཚན་ཐེབས་ ཕྱོགས་ ཙང་ཀུན་ ལྷ་དགུ་ཚུལ་སོགས་ ཆེས་ཟབ་ ཇི་སྙེད་མཆིས་ཀྱང་ ཀུན་སྤེལ་མ་ཡིན་པས་ འདིར་མི་གསལ། རང་རྟ་ ཟིན་ཕུང་ གདོང་ལ་ ཟླ་རླུང་ སེ་བྱི་ གཉན་ཁྲ་ ཀིང་ སེ་ལོ་ སེ་ཤར་ བདུད་ ཐུན་མཚམས་»
+  A list of the names whose exact reckoning, «the wheel's counts (the
+  circling of the heavens, the numbers of the wheel)», the box says it does
+  not give: it is too deep and not a thing of common use. It contains the
+  month's river as «ཟླ་རླུང» (KP2 «ཟླ་རླུང་», the same; read «ཟླ་ཀླུང» in box
+  16), the only other place the month's river occurs.
+- **54 Composing treatises** (img. 59, KP2 282): «ལོ་ཟླ་ཞག་ནག་ བིཥྚི་ ཐེ་སེ་ སེ་ལོ་ དམས་ཤིང་ ཚེས་གཉན་ … ས་རྒྱལ་ ཕུང་ཟོར་ འཕུང་བྱེད་ སྒྲའི་དུས་གཉན་ལོགས་སུ་གསལ།»
+  and at its foot «ཟིན་ཕུང་ དབུལ་ ཉི་ནག་ ཀླུ་བཟློག་པ» (box 55, rain), the
+  last for the nāga rite's reversal.
+- **56 Thread-cross and torma rites** (img. 60), bad half: «པི་ལིང་ སེ་བྱ་ ཀུངས་མྱུལ་ གནམ་ཟས་འཚོལ་ ཕག་མོ་རྒྱུ་ དམག་དཔོན་ ཙང་ཀུན་ གནས་…»;
+  good half, in a verse of the kinds of *mdos* for the directions and
+  times: «གཟའ་བཙན་དམུ་མདོས་བཟང་ ཟིན་ཕུང་ པིཥྚི་ རཱ་ཧུ་ ཀླུ་གཟའ་ནག་མོ་ ཞི་ལྗང་གནས་ཕྱོགས་འཛེམ།» — a rite
+  for each kind of lord, and *zin phung*, Viṣṭi, Rāhu, the black nāga
+  planet and the place of the green-and-blue peace avoided (machine).
+- **57 to 60 Honouring, lawsuits, judging, councils** (img. 61–62), machine:
+  57 «དབུལ་ཉི་ ཕུང་ཟོར་», 58 «ཉི་མ་རྟ་ ཕུང་ཟོར་ དབུལ་ལག་», 59 «རྟ་ ཕུང་ཟོར་ དབུལ་ལག་ ལ་སོགས་ གདུག་རྩུབ་ཆེ་བའི་ས་བདག་སྤངས།»
+  (the harsh earth lords are left aside), 60 «ཀི་ཀང་ དབུལ་ ལོ་ཟླ་ཞག་ནག་ ཕུང་ཟོར་» with «རཱ་ཧུ་ དྲ་ཆེན་ པི་ལིང་ ཧལ་ཁྱི»
+  before it.
+- **61 to 64** (Henning's, img. 63–64), machine: 61 and 62 name «ཀིང་ ཧལྱི་ … པིང་ … གཟའ་རྒོད་ ཟས་འཚོལ་»
+  and «ས་བདག་ དུག་པ་ཅན་རྣམས་ འཛོམ»; 63 «ཐེ་སེ་ ཟིན་ཕུང་ བིཥྚི་ ཧལྱི་ དབུལ་ པི་ལིང་ ཕར་ ལོ་ཟླ་ཞག་ནག་ འབྲུག་ལྷ་ གནས་ཕྱོགས།»
+
+### What the boxes give, in short
+
+Of the roadmap's ten names the boxes name *se byi* in boxes 10, 16, 19,
+39, 42, 53; *hang phan* in 10, 16, 31, 42; *zla klung* only in 16 (and 53 as
+«ཟླ་རླུང»); *se shar* in 10, 23, 53 (KP's «ས་ཤར» there, KP2's «སེ་ཤར»);
+*the se* in 10, 13, 22, 39, 53, 54; *pi ling* in 10, 12, 17, 20, 21, 23, 39,
+42, 46, 53, 56, 60, 63; *tsang kun* in 10, 23, 39, 53, 56; *dbul* in 10, 16,
+17, 21, 34, 42, 46, 55, 57 to 60 and 63 or 64 (box 25 has «དབུལ་ལག»);
+*nyi nag* in 16, 18, 20, 22, 23, 26, 27, 42, 49, 53, 55; *gnam stong* in 23
+(as «གནམ»). All stand in the bad half, as a name to be avoided, a place or
+a time to be avoided: **never as one work for which a lord is good or
+bad.** The boxes from 56 on are machine reading, and the box a line
+belongs to may be one off. The works are the boxes' own: a lord named in box 10 is bad
+for feasts, in box 39 for an enthronement, in box 42 for the marriage.
+
+### Open
+
+- Question: the three «ཟླ་ཚེས» of box 16 each carry two small numerals
+  under them. Are they the month and date on which the month's river, the
+  *ki kang* and the next stand, and which are they?
+- Question: «ཀིང་ཟོར་ནག» in box 10 and «གནམ་ཞག་ནག» in the same line: are
+  these one name each, and which Chinese-almanac days are they?
+- Question: does «དབུལ་ལག» name one day (WB's «དབུལ་ལག་འཆར»), as boxes 20,
+  25, 59 and 62 print it, and which?
+- Not done: the second part of KP (img. 87–118, the earth lords of the year,
+  month, day and hour as charts, and the remedies) is not read; it is the
+  place that may say what each lord of these runs does.
+
+### Searched and not found
+
+- A box that names a lord in its good half: none of the boxes read, bar the
+  *mdos* verse of box 56, which names the kinds of rite and not the lords.
+- *gnam stong* in full in any box's list of names: only the short «གནམ»
+  (box 23) and the verse of box 36 (img. 47; KP2 was not read that far).
+- MITRA on whole KP folios (2550 px woodblock tables): loops on digits, no
+  reading.
