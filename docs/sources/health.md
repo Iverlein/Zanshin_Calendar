@@ -382,3 +382,8 @@ Friday's burning date; the English books; RS and SY; the Russian *Йога
 - *The Science of Mantra Healing by Interdependence* on BDRC: a title search for *rten 'brel sngags* finds only older texts.
 - The etexts of GC (IE0OPI430023E3), the poems (IE0OPI85F3D3D1) and RS (IE0OPI126D5130): `etextchunks` answers 403 (search only); RS's scans are lent on archive.org, not opened here.
 - A list of his books on his own site (drnida.com/books): the page holds no list.
+
+
+## What his works cite (RD8)
+
+Nothing read yet: RD8's passages, with the English beside them, go here.
