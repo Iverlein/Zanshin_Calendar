@@ -442,3 +442,6 @@ Searched and found wanting, so not to be repeated:
   བླང); the treatise speaks of the drop of bliss, not the la.
 - **A source Deumar names for the Tsuglag Rigje system** (RD9, 2026-10-12;
   DM pp. 589–594 on the scan): none.
+- **«དུས་སྲི» and «སྲི་བཟློག» in WB** (O6, 2026-10-12; the etext of both
+  volumes, IE0OPI51524892): the *dus sri* of Ramble's rite and "turning
+  back the sri" are in neither volume.

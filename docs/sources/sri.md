@@ -797,21 +797,10 @@ with it.
 
 ### Open
 
-- Question: vol. 1, p. 301: does «བརྒྱད་དོ» close the count of the eight
-  roots ("these are eight", the eighth being «འཁོན་མནའ»), so that
-  «ཡུགས་མ་ལྷའི་ཆུང་སྲི» opens the list of their seats on the trigrams, as the
-  notes (vol. 2, p. 477) read it, rather than being an eighth root that
-  repeats the first?
-- Question: vol. 1, p. 425: which spirits go with two, three and four
-  black pebbles, «གཅིག་བྱུང་ཡུལ་བཙན་གཉིས་བྱུང་ན། །རྗེ་བདུད་རྗེ་བཙན་གསུམ་བྱུང་ན། །དཀོར་བདག་དམ་སྲི་བཞི་བྱུང་ན། །མ་མོ…»:
-  is the *dam sri* the reading of three?
-- Question: vol. 2, pp. 319 and 425 (ch. 33 and 34): after the mansions
-  «སྐར་ཆུང» and «གྲུལ་པོ་(༧)» (for «རྒྱལ»?) the etext reads «སྲི་རྟ་རྐང་གཉིས་ཏེ»:
-  is this the sri at all, or a garbled name, and what does it mean?
-- Question: vol. 2, pp. 83–84: are the six kinds set apart
-  («ཤང་དཀར་གྲགས་པ་གྲགས་རྒྱལ་དང༌། །བྱིན་ཤ་ཅུང་ཟན་མོན་ལུག») kinds of dead infant
-  by age, and are the "three hundred and sixty sri texts" (སྲི་གཞུང) a
-  known body of texts?
+- Open question 112 ([open-questions.md](open-questions.md)).
+- Open question 113 ([open-questions.md](open-questions.md)).
+- Open question 114 ([open-questions.md](open-questions.md)).
+- Open question 115 ([open-questions.md](open-questions.md)).
 - Doubt: every line in this section is the etext's and unchecked on the
   scan; the gaps […] are the etext's.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,

@@ -934,3 +934,25 @@ the text, not about the app.
 111. **Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ».** Which work is the one Deumar names
     (p. 594) for the la places by the hour, whose notes give both feet at
     daybreak? (2026-10-12, RD9, [health.md](health.md))
+
+112. **The eight roots of p. 301.** In WB vol. 1, p. 301, does «བརྒྱད་དོ» close
+     the count of the eight roots ("these are eight", the eighth being
+     «འཁོན་མནའ»), so that «ཡུགས་མ་ལྷའི་ཆུང་སྲི» opens the list of their seats on the
+     trigrams, as the notes (vol. 2, p. 477) read it, rather than being an
+     eighth root that repeats the first? (2026-10-12, O6, [sri.md](sri.md))
+
+113. **The black pebbles of p. 425.** In WB vol. 1, p. 425, which spirits
+     go with two, three and four black pebbles,
+     «གཅིག་བྱུང་ཡུལ་བཙན་གཉིས་བྱུང་ན། །རྗེ་བདུད་རྗེ་བཙན་གསུམ་བྱུང་ན། །དཀོར་བདག་དམ་སྲི་བཞི་བྱུང་ན། །མ་མོ…»:
+     is the *dam sri* the reading of three? (2026-10-12, O6, [sri.md](sri.md))
+
+114. **«སྲི་རྟ་རྐང་གཉིས».** In WB vol. 2, pp. 319 and 425 (ch. 33 and 34),
+     after the mansions «སྐར་ཆུང» and «གྲུལ་པོ་(༧)» (for «རྒྱལ»?) the etext
+     reads «སྲི་རྟ་རྐང་གཉིས་ཏེ»: is this the sri at all, or a garbled name, and
+     what does it mean? (2026-10-12, O6, [sri.md](sri.md))
+
+115. **The six kinds and the 360 sri texts.** In WB vol. 2, pp. 83–84, are
+     the six kinds set apart («ཤང་དཀར་གྲགས་པ་གྲགས་རྒྱལ་དང༌། །བྱིན་ཤ་ཅུང་ཟན་མོན་ལུག»)
+     kinds of dead infant by age, and are the "three hundred and sixty sri
+     texts" (སྲི་གཞུང, sri gzhung) a known body of texts? (2026-10-12, O6,
+     [sri.md](sri.md))
