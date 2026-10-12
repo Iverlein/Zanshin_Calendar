@@ -2,17 +2,43 @@
 
 Sigla, numbering and quoting rules are in [README.md](README.md).
 
-WB vol. 2, ch. 31, pp. 224–226 (scans img. 232–234), among the earth
+WB vol. 2, ch. 31, pp. 223–226 (scans img. 231–234), among the earth
 lords (*sa bdag*) and the reckoning for the dead (*gshin rtsis*). The day
 here is the *nyi ma*, the lunar date's animal (open question 9, answered
 from WB's notes, vol. 2, p. 493: [lunar-day-signs.md](lunar-day-signs.md)).
 
-**How it was read** (2026-10-04). Yigdzin-1 (`tools/sources/hf_read.py`)
-on the 1996 scans as the base, MITRA and BDRC's own OCR of the edition as
-witnesses; the places where they part were checked on the scan. Yigdzin-1's
-ལྟག (tiger), ནྟ (horse) and ཤེད་སྒོ་ལྟོ་སྟོད are སྟག, རྟ and ཤིད་སྒོ་ལྷོ་སྟོད on the
-scan. The text in parentheses is the editors' (variant names). Not read by
-eye syllable by syllable.
+**How it was read.** First (2026-10-04) with Yigdzin-1
+(`tools/sources/hf_read.py`) on the 1996 scans as the base, MITRA and
+BDRC's own OCR of the edition as witnesses, the places where they part
+checked on the scan. Then, for O8 (2026-10-12), **every passage below from
+pp. 223–226 read by eye syllable by syllable** on the 1996 scans (img.
+231–234, 703 px wide) enlarged 4× line by line and 6–8× where a stack
+was in doubt, against Yigdzin-1 and MITRA read afresh over the four images
+(`disagree.py`: 7, 43, 35 and 32 flags, every one looked at). Where the
+703-px scan did not settle a letter, two further scans were read:
+
+- **the same typesetting at 1905 px**, the 1996 edition reprinted by
+  Gser thang bla rung lnga rig nang bstan slob gling (BDRC MW3CN5026,
+  vol. 2, I3CN5029, img. 229–232 = pp. 223–226, image = page + 6), which
+  shows the 1996 letters at nearly three times the size;
+- **WBZ**, the Zhol print (I1KG1710, img. 941–943, 3750 px; BDRC's etext
+  of it, IE0OPI7850CC9C, pp. 941–943, for finding the lines), an
+  independent carving.
+
+What the eye reading changed against the machine readings: Yigdzin-1's
+ལྟག (tiger day), ནྟ (horse day), དུ་སྐད (dragon day), ཤེད་སྒོ་ལྟོ་སྟོད (snake
+day), ཤེད (pig day, p. 226), ལྟོ (the pig day's hearth god), བྱེ་བའི (the
+hearth god's mouse day) and བང་བྱིན (the horse day's seat) are སྟག, རྟ, ངུ་སྐད,
+ཤིད་སྒོ་ལྷོ་སྟོད, ཤིད, ལྷོ, བྱི་བའི and བང་ཕྱིན on the scan; the editors'
+numbers it reads ༡་, འ་, ༤་ are «(༡)», «(༢)», «(༤)»; its ༨ before ཐེ་ཁྱིམ is
+the closing bracket of the editors' note. The horse day's witness line,
+left unread in 2026-10-04's reading (Yigdzin-1 ནས, MITRA ཧས), reads
+**རྟས་སྤང**: the letter is the same stack as the རྟ of «རྟ་ཐོག» four
+syllables on, plain in the 1905-px reprint and the same in WBZ (below,
+*The twelve earth lords who witness the day*). Each animal's verse opens
+with an ornament that Yigdzin-1 reads ༧ and MITRA ཀྱཻ; it is left out of the
+quotations. The text in parentheses is the editors' (variant names and
+notes).
 
 **Second witness** (2026-10-04): the *kun phan me long*'s chart of the
 day's earth lords (§16, on the scan img. 103, two images on from its list
@@ -39,19 +65,39 @@ keyed by the day's animal and are used by the app; two are not:
 
 ## The day's earth lord and its part of the house
 
-p. 223 (img. 231), read on the scan:
+p. 223 (img. 231) to the top of p. 224 (img. 232), read by eye on the
+scan (O8, 2026-10-12), the whole passage:
 
-> ཞག་གི་ས་བདག་ངོ་བོ་བཞི། །གཙོ་བོ་གསེར་མཛོད་སེར་པོ(༡)ནི། །སྐུ་མདོག་དཀར་སྔོ་འོད་དང་ལྡན། །མི་ལུས་རི་བོང་མགོ་བོ་ཅན། […] ཞག་ལྷ་སུམ་བརྒྱ་དྲུག་ཅུས་བསྐོར། །ཁྱིམ་ནང་གནས་ཏེ་གཡོན་དུ་འཁོར(འགའ་ཞིག་ལས་བྱི་སྐོར་དུ་བཤད།)། །སྟག་གི་ཞག་ལ་ཤར་སྟོད་གནས། །དེས་འགྲེ་རང་རང་ཞག་གི་ཐོག །ལས་ཐབས་རོ་བག་རང་འཐག་འཛུགས། །མཁར་ལས་སྐས་འཛུགས་བང་པ་འཆའ། །སྐྱས་དང་ནས་འབྲས་སྐམ་ནོར་འཇལ། །དམག་དང་ཁྱིམ་གྱི་བྱ་བ་འཛེམ། །
+> ཞག་གི་ས་བདག་ངོ་བོ་བཞི། །གཙོ་བོ་གསེར་མཛོད་སེར་པོ(༡)ནི། །སྐུ་མདོག་དཀར་སྔོ་འོད་དང་ལྡན། །མི་ལུས་རི་བོང་མགོ་བོ་ཅན། །གཡས་ན་སྲིད་པའི་གཡུང་དྲུང་དང་། །གཡོན་ན་འཕྲུལ་གྱི་མེ་ལོང་འཛིན། །
+> གཞན་ཡང་མི་འདྲ་དུ་མར་སྟོན། །མི་སེར་སྟག་གི་མགོ་བོ་ཅན། །གསེར་གྱི་བྱི་བ་ལ་ཆིབས་ཤིང་། །གཡས་ཟོར་གཡོན་དུ་རྐོ་མ་ཐོགས། །སྐབས་འགར་གསར་སྟག་ཞོན་པ་སོགས། །རྫུ་འཕྲུལ་དུ་མའི་གཟུགས་སྟོན་པ། །ཞག་ལྷ་སུམ་བརྒྱ་དྲུག་ཅུས་བསྐོར། །ཁྱིམ་ནང་གནས་ཏེ་གཡོན་དུ་འཁོར(འགའ་ཞིག་ལས་བྱི་སྐོར་དུ་བཤད།)། །སྟག་གི་ཞག་ལ་ཤར་སྟོད་གནས། །དེས་འགྲེ་རང་རང་ཞག་གི་ཐོག །ལས་ཐབས་རོ་བག་རང་འཐག་འཛུགས། །མཁར་ལས་སྐས་འཛུགས་བང་པ་འཆའ། །སྐྱས་དང་ནས་འབྲས་སྐམ་ནོར་འཇལ། །དམག་དང་ཁྱིམ་གྱི་བྱ་བ་འཛེམ། །ཀོ་ལོང་བཟའ་ཚང་ཀུན་དང་ནི། །ཁྱད་པར་ཁྱིམ་བདག་མོ་ལ་སྡོམ། །ཉམས་ན་སྣང་བརྒྱད་གཙུག་ཏོར་དང་། །སྡོང་པོ་རྒྱན་པ་འདོན་པར་བྱ། །ཀླུ་བརྒྱད་དོང་ཙེ་སྤོམ་གཏའ་དང་། །ཨུར་གནོན་བྱ་ཞིང་སྒྲིབ་པ་ན། །གནའ་བའི་ཐོད་དང་ངར་ཟན་སྔོན། །རྐོ་ཟོར་བཙུགས་པ་ཉི་སྟེང་བཞག །
 
-"Of the day's earth lords the chief is Gser mdzod ser po, white-blue and
-shining, with a man's body and a hare's head […]; with 360 day-gods round
-him he dwells in the house and circles to the left (some say from the
-mouse); on the tiger day he is in the upper east, and so on, each on its
-own day; [then] hearth, corpse, bride, setting up a mill, building, ladders,
-granaries, moving house, paying out barley, rice, dry goods and wealth, war
-and household work are avoided." The seat in the house (next section) is
-"this very one" (འདི་ཉིད་ནང་དཔྱད་ལ་གནས་ཚུལ), so the works avoided are the
-seats' own, and the passage adds no lists of its own.
+"Of the day's earth lords [there are] four in essence. The chief, Gser
+mdzod ser po, is white-blue and shining, with a man's body and a hare's
+head, holding in his right hand the swastika of existence and in his left
+the magic mirror. He also shows many different forms: a yellow man with a
+tiger's head, riding a golden mouse, holding a *zor* (ཟོར, a ritual
+missile) in his right and a hoe in his left; at times riding a new tiger
+(གསར་སྟག, as printed) and so on, showing many magical forms. With 360
+day-gods round him he dwells in the house and circles to the left (some
+say he circles from the mouse); on the tiger day he is in the upper east,
+and so on, each on its own day. Hearth work, a corpse, a bride, setting
+up a mill, building, setting up ladders, granaries, moving house (སྐྱས),
+paying out barley, rice, dry goods and wealth, war and household work
+are avoided. He takes offence at the whole household, above all the
+mistress of the house. If he is harmed, recite the Eight Appearances
+(*snang brgyad*), the Uṣṇīṣa (*gtsug tor*) and the *sdong po rgyan pa*;
+the eight nāgas, the *dong tse* and *spom gta'* and pressing down
+(ཨུར་གནོན) are done; and to screen, an old skull and blue *ngar* dough
+(ངར་ཟན) with a hoe and a *zor* set up are put on the day['s place]."
+
+The second half (from ཀོ་ལོང) was left out of the first reading, which
+said the passage adds no lists of its own; it adds whom the chief takes
+offence at and his remedy. *Sdong po rgyan pa* is not a title found in
+the remedies elsewhere in the file; *dong tse*, *spom gta'* and
+*ngar zan* are read as printed, their sense in this remedy not settled
+(MITRA reads སྦོམ for སྤོམ, a stack blotted in both scans; the reading by
+eye keeps སྤོམ). The seat in the house (below) is "this very one"
+(འདི་ཉིད་ནང་དཔྱད་ལ་གནས་ཚུལ), so the works the seats name are its own.
 
 **Its part of the house** follows the day animals round the house from the
 tiger's upper east. KP's chart sets the twelve boxes in that order round
@@ -65,9 +111,19 @@ north). The app gives the quarter.
 
 ## The hearth god's place
 
-p. 224 (img. 232), read on the scan; KP's boxes have the same twelve:
+p. 224 (img. 232) to the top of p. 225 (img. 233), read by eye on the
+scan (O8, 2026-10-12); KP's boxes have the same twelve:
 
-> ཐབ་ལྷ(༤)སེ་ཤར་དག་གནས་ཚུལ། །མི་དཀར་ལག་ན་དར་དཀར་འཕྱར། །གཡོན་འཁོར་བྱི་བའི་ཉི་མར་སྲང་། །གླང་ལ་ཐབ་འོག་སྟག་ཉིར་ལྷོ། །ཡོས་ཤར་འབྲུག་ནུབ་སྦྲུལ་ཉིར་བྱང་། །རྟ་ཤར་ལུག་ནུབ་སྤྲེལ་ལ་བྱང་། །བྱ་ནུབ་ཁྱི་བྱང་ཕག་ལ་ལྷོ། །བྱ་བ་ཀུན་དང་ཁྱད་པར་དུ། །རོ་ལ་ཀོ་ལོང་གསོལ་བར་བྱེད། །ཉམས་ན་དོ་བདག་ཕ་ཚན་ངན། །
+> ཐབ་ལྷ(༤)སེ་ཤར་དག་གནས་ཚུལ། །མི་དཀར་ལག་ན་དར་དཀར་འཕྱར། །གཡོན་འཁོར་བྱི་བའི་ཉི་མར་སྲང་། །གླང་ལ་ཐབ་འོག་སྟག་ཉིར་ལྷོ། །ཡོས་ཤར་འབྲུག་ནུབ་སྦྲུལ་ཉིར་བྱང་། །རྟ་ཤར་ལུག་ནུབ་སྤྲེལ་ལ་བྱང་། །བྱ་ནུབ་ཁྱི་བྱང་ཕག་ལ་ལྷོ། །བྱ་བ་ཀུན་དང་ཁྱད་པར་དུ། །རོ་ལ་ཀོ་ལོང་གསོལ་བར་བྱེད། །ཉམས་ན་དོ་བདག་ཕ་ཚན་ངན། །གནམ་ས་སྣང་བརྒྱད་གཙུག་ཏོར་དང་། །གཟུངས་བསྡུས་ཏོག་དང་སྤང་སྐོང་འདོན། །སྒྲིབ་ཤིང་སྤྱི་ལྟར་བྱ་བ་གཅེས།།
+
+The pig day's ལྷོ (south) is plain on the scan and in the 1905-px reprint
+(Yigdzin-1 ལྟོ, MITRA ལོ); the mouse day reads བྱི་བའི (Yigdzin-1 བྱེ). The
+last three lines, left out of the first reading, are the hearth god's
+remedy: "recite the Eight Appearances of Heaven and Earth, the Uṣṇīṣa,
+the *gzungs bsdus*, the *tog* [*gzungs*] and the *spang skong*; and it
+matters to screen as in general." The first four are four of the five titles of
+the year's *bla mkhyen* remedy (below); which text the short title *spang
+skong* names is not identified from a source (*Open*, below).
 
 | Day | Mouse | Ox | Tiger | Hare | Dragon | Snake | Horse | Sheep | Monkey | Bird | Dog | Pig |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -81,7 +137,8 @@ it as printed with that sense.
 
 ## The *bla mkhyen* of the day
 
-p. 224 (img. 232), read on the scan:
+p. 224 (img. 232), read by eye on the scan (O8, 2026-10-12; Yigdzin-1
+reads the editors' «(༢)» as འ, MITRA drops it):
 
 > ཞག་གི་བླ་མཁྱེན(༢)གནས་པའི་ཚུལ། །ཞག་དེའི་བདུན་དམར་ཕྱོགས་སུ་གནས། །དཔེར་ན་ཤིང་བྱི་ཐོག་མ་ལ། །ལྷོ་ནུབ་ཕྱོགས་ན་བླ་མཁྱེན་གནས། །འཛེམ་བཅོས་ལོ་ཡི་སྐབས་ལྟར་སྦྱར། །
 
@@ -182,9 +239,23 @@ which can come before it; BS takes the first *after* it. BS gives it as
 one view («འགའ་ཞིག», "some"); no text found gives another.
 
 The passage closes the clan reckoning with a caution that applies to the
-whole: the learned of Tibet (Mi pham dge legs and others) apply it to the
-reckoning for the dead only (འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་), and it must not
-be mixed with baseless inventions.
+whole (p. 225, img. 233, read by eye, O8):
+
+> བོད་མཁས་མི་ཕམ་དགེ་ལེགས་སོགས། །འདི་ཉིད་གཤིན་རྩིས་ཁོ་ན་ལ། །སྦྱོར་ཞིང་ཁུངས་མེད་རྟོག་པ་ཡིས། །བཟོས་བསླད་རྣམས་དང་བསྲེ་མ་བྱེད། །
+
+"The learned of Tibet, Mi pham dge legs and others, apply this to the
+reckoning for the dead only, and do not mix it with things made up and
+corrupted by baseless invention."
+
+Between the hearth god and the clan reckoning, p. 225 (img. 233), read by
+eye (O8), WB sets aside a further claim about the day's earth lords:
+
+> གཞན་ཡང་པི་ལིང་འཁོར་ཆུང་དང་། །བྱི་ལམ་ལ་སོགས་རང་རང་གི། །ཞག་གི་ལོ་སྟེང་གནས་ཞེས་ཀྱང་། །རྣམ་པར་དག་པའི་ཁུངས་ཀྱིས་དབེན།།
+
+"It is also said that Pi ling, 'Khor chung, Byi lam and the others each
+dwell on the *lo* of their day, but this lacks a pure source." *Lo* is
+read as printed (MITRA སྟོང for སྟེང; WBZ's etext has the same «ལོ་སྟེང»); its
+sense here is not settled.
 
 **The remedy's texts, read 2026-10-08** (from the etext, IE0OPI51524892,
 vol. 2 etext pp. 188 and 197; not yet checked on the scans). The year's
@@ -226,8 +297,10 @@ gzungs*) and the Leipzig Kanjur-catalogue record (host unreachable).
 
 ## Where the earth lord sits in the house
 
-p. 224 (img. 232). "Its seat inside: called the earth lord *khar bu*, or
-the twelve harmful ones of the day, or the wheel of the sky; one being":
+p. 224 (img. 232), read by eye on the scan syllable by syllable (O8,
+2026-10-12), the doubtful stacks in the 1905-px reprint. "Its seat
+inside: called the earth lord *khar bu*, or the twelve harmful ones of
+the day, or the wheel of the sky; one being":
 
 > འདི་ཉིད་ནང་དཔྱད་ལ་གནས་ཚུལ། །ས་བདག་ཁར་བུ་ཞེས་བྱའམ། །ཉི་མའི་གདུག་པ་བཅུ་གཉིས་སམ། །གནམ་གྱི་འཁོར་བུ་ཞེས་པ་སོགས། །ངོ་བོ་གཅིག་ཡིན་འདི་ལྟར་རོ། །
 > བྱི་བའི་ཉི་མར་ཆང་རྫར་གནས། །དེ་ལ་གཤིན་གྱི་ཆང་བཙགས་ན། །ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྤང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །
@@ -236,12 +309,31 @@ the twelve harmful ones of the day, or the wheel of the sky; one being":
 > ཡོས་ཉིར་གཡག་ཤིང་དག་ལ་གནས། །རོ་ཁུར་གཡག་ཤིང་ལ་འཇུས་ན། །བུ་ཚ་བུ་མོར་ངན་པ་ཡིན། །རོ་ཁུར་གཡག་ཤིང་མི་རེག་གམ། །ཡང་ན་གཡག་ཤིང་ཕྱུངས་ལ་འདོན། །
 > འབྲུག་ལ་རང་འཐག་ལ་གནས་པས། །གཤིན་རྩམ་རང་འཐག་ལ་བཏགས་ན། །ཕྱེ་མཁན་དང་ནི་ཞང་བློན་འཆི། །རང་འཐག་ཁ་ཕྱེ་ལྟེ་ཕྱེ་གཏོར། །
 > སྦྲུལ་ཉིར་རོ་ཐག་ལ་གནས་པས། །ཐག་པས་རོ་དྲངས་རོ་ཁུར་འཆི། །ཐག་པ་གཞན་གྱིས་དུམ་གསུམ་གཏུབས། །སླར་ཡང་མཐུད་ནས་ཁུར་བ་དང་། །སླར་ཡང་གྲིས་གཏུབས་ལམ་ཁ་རུ། །གཟིངས་ལ་བཞག་པས་ཉེས་པ་ཞི། །
-> རྟ་ཉིར་སྒར་གནས་སྒ་གོང་དུ། །རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་བྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན། །
+> རྟ་ཉིར་སྒར་གནས་སྒ་གོང་དུ། །རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན། །
 > ལུག་ཉིར་གཞོང་པ་ལ་གནས་པས། །གཞོང་པར་ཟན་བརྫིས་ཟན་མར་ངན། །ཟན་མར་ཟངས་སམ་ཕྱར་སྟེང་བརྫི། །ཞག་སར་ཟན་གྱི་མི་གཟུགས་བསྐྱོན། །
 > སྤྲེལ་ཉིར་གྲི་དང་སྟ་རེ་ལ། །དེ་ཡིས་ཤ་གཏུབས་གཏུབ་མཁན་འཆི། །སྟ་རེ་གྲི་རྣམས་མེ་ལ་བསྲེག །
 > བྱ་ཉིར་སྡེར་མ་དག་ལ་གནས། །གཤིན་ཟས་སྡེར་དུ་དྲངས་པ་ན། །གྲེལ་དཔོན་ལ་ངན་ཡང་ན་ནི། །གློ་བུར་ཡེ་འདྲོག་འབྱུང་བས་ན། །སྡེར་མེད་རྡོ་ལེབ་བྱེད་པའམ། །ཡང་ན་སྣམ་སྟེང་སྤར་ཟན་བྱ། །
 > ཁྱི་ཉིར་ཡ་ཐེམ་མ་ཐེམ་གནས། །ཐེམ་པར་རོ་ཐུག་ཕ་ཁུར་ངན། །ཡང་ན་རོ་ཁུར་དེ་ཉིད་འཆི། །ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ། །མྱ་ངན་ཆང་ཡང་མི་འཐུང་སྤང་། །
 > ཕག་གི་ཉི་མར་འཇོར་ལ་གནས། །ཏོག་ཙེས་རོ་ཁུང་ས་བརྐོས་ན། །མ་ཕྱི་ས་ཁ་འབྱེ་མཁན་འཆི། །ས་ཁ་ཤ་རུས་དབྱེ་བར་བྱ། །མཁར་ལས་ས་ཡང་དེ་ལྟར་ཞེས། །
+> དུས་ཚོད་ལ་ཡང་དེ་ལྟར་དུ། །འཛེམ་པར་གཏོང་ཤེས་ལས་བཤད་དོ། །ཉམས་ན་སྣང་བརྒྱད་འདོན་པ་དང་། །སྒྲིབ་ན་བ་ཐོད་འཕྱར་ལ་སྒྲིབ། །ཡང་ན་གསེར་མཛོད་ཇི་བཞིན་ནོ། །ཡང་ན་མི་ཧྲེང་མདུང་ཐོགས་སྒྲིབ།།
+
+**What the eye reading settled here.** The horse day's third line reads
+«བང་ཕྱིན་ཀྱང», as the fourth line's «བང་ཕྱིན་ངན» (Yigdzin-1 བྱིན; MITRA and
+WBZ ཕྱིན; the ཕ's hook plain in the reprint): *bang phyin* is the
+journey with the corpse, so the lines say "even if the corpse is bound
+with flesh-ties (ཤ་ཆིངས, sense not settled) and the journey goes, it is bad
+unless made without a saddle". The mouse day's «ཐེམ་བུར» and «ཡོ་ནས», the
+tiger day's «སྒོ་ཕྱུགས» and the sheep day's «ཞག་སར» stand as printed (MITRA
+སེར for སར). The tiger day's last line, «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or
+the door's *phyugs* is set to the right", was not rendered in the first
+reading; its sense is not settled (*Open*). The seats close (the last
+lines above, left out of the first reading): "the same is said of the
+hours: they are to be avoided, as the *gtong shes* (a text of that short
+title, not identified) teaches. If he is
+harmed, recite the Eight Appearances; to screen, raise a cow's skull
+(བ་ཐོད) and screen; or as for Gser mdzod; or screen with a man
+*hreng* (ཧྲེང, as printed, the same in WBZ; sense not settled) holding a
+spear."
 
 | Day | Seat | What is bad | Remedy |
 | --- | --- | --- | --- |
@@ -260,7 +352,10 @@ the twelve harmful ones of the day, or the wheel of the sky; one being":
 
 ## The twelve earth lords who witness the day
 
-pp. 225–226 (img. 233–234):
+pp. 225–226 (img. 233–234), read by eye on the scan syllable by syllable
+(O8, 2026-10-12), the doubtful stacks in the 1905-px reprint (img.
+231–232) and WBZ (img. 943). The editors' first note: "(these are the
+day-courses of the twelve hidden earth lords)".
 
 > ཡང་ནི་ཉི་མར(འདི་གབ་པའི་ས་བདག་བཅུ་གཉིས་ཀྱི་ཞག་རྒྱུ་ཡིན།)དཔང་བྱེད་པའི། །ས་བདག་བཅུ་གཉིས་བཤད་པར་བྱ། །
 > བྱི་བའི་ཉི་མར་གཉན་ཁྲ་རྒྱུ། །དེ་ལ་མི་ཤི་གསུམ་ལ་ཟློས། །བྱང་སྨད་རོ་བཏང་ཉེས་པ་འབྱུང་། །
@@ -269,16 +364,34 @@ pp. 225–226 (img. 233–234):
 > ཡོས་ཉིར་ས་ཡི་རུས་སྦལ་རྒྱུ། །ཤིད་ལམ་ཤར་སྨད་མི་བསྟན་ནོ། །
 > འབྲུག་ཉིར་གཉན་ཁྲ་བ་དན(བ་དན་སེར་པོ་ཡང་ཟེར།)ཏེ། །མྱ་ངན་ངུ་སྐད་ཀུ་ཅོ་སྤང་། །རོ་ལམ་ལྷོ་ཤར་བཏང་མི་བྱ། །
 > སྦྲུལ་ཉིར་ས་བདག་ཙང་ཀུན་རྒྱུ། །བཤས་སྤང་ཤིད་སྒོ་ལྷོ་སྟོད་འཛེམ། །རོ་ཐོག་ལམ་པོ་ཆེ་ལ་བཟང་། །
-> རྟ་ཉིར་ས་བདག་བྱི་ལམ་བབ། །མི་ཤི་ཟློས་འབྱུང་བང་ཕྱིན་ནི། །[…]་སྤང་ཤིད་སྒོ་རྟ་ཐོག་འཛེམ། །
+> རྟ་ཉིར་ས་བདག་བྱི་ལམ་བབ། །མི་ཤི་ཟློས་འབྱུང་བང་ཕྱིན་ནི། །རྟས་སྤང་ཤིད་སྒོ་རྟ་ཐོག་འཛེམ།།
 > ལུག་ཉིར་ས་བདག་བེ་སྣ(བེ་སྣ་ལག་ཆེན་ཀྱང་ཟེར།)དབང་། །མི་ཤི་ཟློས་འབྱུང་ས་ཁ་ཕྱེ། །བདུན་འཆི་ཤི་དུར་ངན་པ་ཡིན། །རོ་དང་བཤད་སྒོ་ལྷོ་ནུབ་སྤང་། །
 > སྤྲེལ་ཉིར་ས་བདག་གཟིག་མཇུག་རྒྱུ། །ཤིད་ཀྱི་འདུ་ལོང་མི་བྱ་ཞིང་། །ཤིད་ལམ་ནུབ་སྟོད་མི་བསྟན་ནོ། །
 > བྱ་ཉིར་ཧེ་ཐོན་རྒྱལ་པོར་བབ། །ཤིད་སྟོན་བྱས་ན་ནོར་ལ་ངན། །རོ་ཤིད་ནུབ་སྨད་བཏང་མི་བྱ། །
 > ཁྱི་ཉིར(བྱི་དུར་ཡང་ཟེར།)ཐེ་ཁྱིམ་རྒྱུ་བ་སྟེ། །མི་ཤི་བྱེས་ཟློས་རོ་ཤིད་ཀྱི། །ལམ་ནི་ནུབ་བྱང་མི་བསྟན་ནོ། །
 > ཕག་ཉིར་གཉན་བེ(གཉན་ཁྲ་ཕྱུག་པོ་ཡང་ཟེར།)ལ་བབ་སྟེ། །མྱ་ངན་མི་བྱ་རོ་ཤིད་ཀྱི། །ལམ་ནི་བྱང་སྟོད་བསྟན་མི་བྱ། །
 
-The horse day's last line begins with a syllable the readers part on
-(Yigdzin-1 ནས, MITRA ཧས) and the scan at 701 px does not settle; that
-line is not used.
+**The horse day's last line, settled.** Its first syllable, which the
+readers part on (Yigdzin-1 ནས, MITRA ཧས) and the 703-px scan leaves
+unclear, is **རྟས**: in the 1905-px reprint of the same type its stack is
+the stack of «རྟ་ཐོག» in the same line, letter for letter, and WBZ (img.
+943, line 2, at 4×) has the same ར-headed stack before ས (its etext
+garbles the line to «རྟ་སྦང་ཡིད་སྨོན་ཐོག་འཛག»). With «བང་ཕྱིན», the journey
+with the corpse, as in the horse day's seat (above), the two lines read:
+"a death repeats; on the journey [with the corpse] the horse is given up
+(རྟས་སྤང, literally "given up by horse"), and the funeral door and the
+horse's back (རྟ་ཐོག) are avoided". So the horse day's witness, like its
+seat (the saddle), keeps the corpse off the horse. The readings of
+«བང་ཕྱིན» as the corpse's journey and of «རྟ་ཐོག» as the horse's back are
+ours, from the seat's lines; the syllables themselves are settled.
+
+The other doubtful syllables, by eye: the dragon day's «ངུ་སྐད», wailing
+(Yigdzin-1 and WBZ's etext དུ; the scan, the reprint and WBZ's own
+carving ངུ); the snake day's «ཤིད་སྒོ་ལྷོ་སྟོད»; the sheep day's «བཤད་སྒོ», as
+printed (for ཤིད་སྒོ, the funeral door, as the snake and horse days write
+it); the dog day's editors' note «(བྱི་དུར་ཡང་ཟེར།)», then «ཐེ་ཁྱིམ»; the pig
+day's «རོ་ཤིད». The editors' notes and every name stand as in the first
+reading.
 
 | Day | Earth lord | Funeral rules |
 | --- | --- | --- |
@@ -288,7 +401,7 @@ line is not used.
 | Hare | the earth's turtle | the funeral road not to the lower east |
 | Dragon | Gnyan khra ba dan (or "the yellow banner") | no wailing in mourning; the corpse's road not to the south-east |
 | Snake | Tsang kun | slaughter avoided, and a funeral door to the upper south; the corpse is best taken by the main road |
-| Horse | Byi lam | a death repeats |
+| Horse | Byi lam | a death repeats; on the journey with the corpse no horse, and the funeral door and the horse's back avoided (O8) |
 | Sheep | Be sna (or Be sna lag chen) | a death repeats; breaking ground, seven die; bad for the dead and for graves; corpse and funeral door not to the south-west |
 | Monkey | Gzig mjug (Jim Valby: an earth-lord monster) | no funeral gathering; the funeral road not to the upper west |
 | Bird | He thon rgyal po | a funeral feast is bad for wealth; the corpse not to the lower west |
@@ -301,3 +414,42 @@ earth lord's part of the house, the hearth god's place and the witness, with KP'
 lists for a day of that animal. It has no tone and does not enter the day
 in brief: it is funeral reckoning, and the funeral list of the activity
 lists already speaks for the day.
+
+## O8: what the reading by eye changes (2026-10-12)
+
+Every seat, hearth god, witness and remedy that the first reading gave
+stands on the scan; the eye reading changes one word that the day's
+reading uses and adds lines the first reading left out.
+
+**Change for a build: the horse day's witness.** The witness line of the
+horse day, «མི་ཤི་ཟློས་འབྱུང་བང་ཕྱིན་ནི། །རྟས་སྤང་ཤིད་སྒོ་རྟ་ཐོག་འཛེམ།།» (p. 225,
+img. 233), was used only for "a death repeats", its second line being
+unread. Read by eye, it adds: on the journey with the corpse no horse is
+used, and the funeral door and the horse's back are avoided. The horse
+day's witness sentence becomes "Jilam (བྱི་ལམ, byi lam) witnesses the day:
+a death repeats; on the journey with the corpse no horse is used, and the
+funeral door and the horse's back are avoided" (the Russian to match).
+
+**Not changes, for the record.** The pig day's hearth god is in the south
+(ལྷོ), as the table has it, against Yigdzin-1's ལྟོ; the mouse day's
+hearth god is in the lane (སྲང), as before; the horse day's seat reads
+«བང་ཕྱིན» where the earlier quotation had «བང་བྱིན», with no change to the
+remedy (carry the corpse without a saddle). The lines added above, the
+chief earth lord's forms and remedy (pp. 223–224), the seats' closing
+remedy (p. 224) and the hearth god's remedy (p. 225), are not used by the
+day's reading.
+
+### Open
+
+- Question: in the tiger day's seat (WB vol. 2, p. 224), what is «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or the door's *phyugs* is set to the right": is *sgo phyugs* a part of the door, or a misprint (WBZ's etext garbles the line)?
+- Question: in the horse day's lines (p. 224 and p. 225), is *bang phyin* (བང་ཕྱིན) the journey that carries the corpse, and *rta thog* (རྟ་ཐོག) the horse's back, as read here; and what is *sha chings* (ཤ་ཆིངས) in «ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང»?
+- Question: in the chief earth lord's remedy (pp. 223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be recited, and the *dong tse* (དོང་ཙེ), *spom gta'* (སྤོམ་གཏའ, or སྦོམ; blotted) and *ngar zan* (ངར་ཟན) of the screening?
+- Question: in the seats' closing remedy (p. 224), what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and which work is the *gtong shes* (གཏོང་ཤེས) cited for the hours?
+- Question: which text is the *spang skong* (སྤང་སྐོང) of the hearth god's remedy (p. 225)?
+- Question: on p. 225, what is the *lo* (ལོ) of the day on which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam dwell («ཞག་གི་ལོ་སྟེང་གནས»)?
+
+### Searched and not found
+
+- A scan of the 1996 edition sharper than BDRC's 703-px one, for pp. 223–226: found, the Gser thang reprint of the same typesetting (MW3CN5026, I3CN5029, 1905 px; image = page + 6 here); recorded so that the next reading of WB vol. 2 starts there.
+- The Taikhang reproduction (MW30116, I5878) for pp. 223–226: img. 324–326 fetched (8280 px) but not read, the reprint and WBZ having settled the doubtful stacks; where p. 225 falls in it was not established.
+- `bdrc.py scans I1KG1710` on 2026-10-12 failed with 502 on the IIIF manifest, and the image list (`iiifpres.bdrc.io/il/v:bdr:I1KG1710`) answered 502 too; the images answered at `https://iiif.bdrc.io/bdr:I1KG1710::I1KG1710NNNN.jpg/full/max/0/default.jpg` (NNNN the four-digit image number).
