@@ -391,7 +391,10 @@ the text, not about the app.
     [reckonings.md](reckonings.md)). Are these slips of the 1996
     typesetting or of the blocks? RD15 read ch. 23's sum again on the scan
     (2026-10-12, [marriage.md](marriage.md)): still 5,801; does the Zhol
-    print (WBZ) read the same?
+    print (WBZ) read the same? *Ch. 28's half settled 2026-10-12 (RD17,
+    [reckonings.md](reckonings.md)): the Zhol print (I1KG1710 img. 662)
+    prints the same 1,166, so that slip is the blocks'; ch. 23's in WBZ not
+    yet compared.*
 
 23. **WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
     twice print «དུས་ཁམས», "the element of the time", where the five great
@@ -414,8 +417,12 @@ the text, not about the app.
     the question narrows to the word: a loan (from Sanskrit or Chinese) or
     a misprint?
 
-25. **WB vol. 2, p. 532 (img. 540): the general reckoning's fourth
-    part.** The notes' seventh section names four parts of the general
+25. ~~**WB vol. 2, p. 532 (img. 540): the general reckoning's fourth
+    part.**~~ *Answered 2026-10-12 (RD17, [reckonings.md](reckonings.md),
+    *The notes' sections 7 and 8*): read on the scan, the fourth is the
+    reckoning of results (འབྲས་རྩིས, 'bras rtsis), "as ch. 33 and 34": the
+    dates, planets, mansions, karaṇas, yogas, combinations and the
+    combination period.* The question as it stood: The notes' seventh section names four parts of the general
     reckoning (སྤྱི་རྩིས, spyi rtsis): the thirty starting points, the
     thirteen circles, the earth lords and a fourth whose name the etext
     loses (2026-10-11, RD11, [reckonings.md](reckonings.md)). Is it the
@@ -832,3 +839,41 @@ the text, not about the app.
     house that year (as "some reckoners" count) or the family wherever it
     lives, and does a member who died during the year still count?
     (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+
+97. **The thirty's 4th, 7th and 11th places.** WB vol. 1, p. 453 (img. 463):
+    from where are the fourth, seventh and eleventh places counted? The
+    notes (p. 532) read «དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ»: the
+    life force of the fourth upward from the year reached is fought by the
+    person's life force; is each place's own life force, body, power or luck
+    meant (the fourth upward's life force, the fourth downward's body), or
+    the year reached against the person's at those distances? (2026-10-12,
+    RD17, [reckonings.md](reckonings.md))
+
+98. **The son's pebble colour.** WB vol. 1, p. 454 (img. 464): the thirty's
+    rule of colour makes the son's meeting black («ནང་ཕྲད་དཀར་དང་བུ་དགྲ་དང་།
+    །ཤིང་ལྕགས་མེ་གསུམ་ནང་ཕྲད་ནག»), where ch. 25 (vol. 1, p. 417) lays a
+    white and a black for the son, and ch. 27 (vol. 2, p. 3) black again; is
+    the son's pebble black in the starting-point reckonings and mixed in the
+    illness reckoning? (2026-10-12, RD17, [reckonings.md](reckonings.md))
+
+99. **«བརྒྱུ».** WB vol. 2, p. 156 (img. 164):
+    «ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ་ཡིས་བགོས»: is «བརྒྱུ» a misprint for བརྒྱད, eight,
+    as the notes' «ཉིན་ཚད་བརྒྱད་དུ་བགོས» (p. 535) imply? (2026-10-12, RD17,
+    [reckonings.md](reckonings.md))
+
+100. **«ར་བཞི» in the moment's mewa.** WB vol. 2, p. 535 (img. 543):
+    «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར»: which
+    four months are «ར་བཞི», and does the first date of each group of four
+    begin with 1 white, 4 green and 7 red? (2026-10-12, RD17,
+    [reckonings.md](reckonings.md))
+
+101. **The hand reckoning's «ལུ».** WB vol. 2, p. 538 (img. 546): the hand
+    reckoning, «ལག་རྩིས་ལུ་བཞིན་གྱི་མོ»: who or what is «ལུ» (Lü?), and
+    which text does the note mean by «གཞུང་གིས་གསལ»? (2026-10-12, RD17,
+    [reckonings.md](reckonings.md))
+
+102. **«བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
+    «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
+    might be the rat as the day's animal, «ཟིན་ཕུང» the trigram *zin* with
+    *phung*, or an almanac name. (2026-10-12, RD17,
+    [reckonings.md](reckonings.md))

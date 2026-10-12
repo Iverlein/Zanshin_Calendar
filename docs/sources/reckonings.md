@@ -1804,28 +1804,12 @@ asker's spontaneous year.
 
 ### Open
 
-- Question: WB vol. 1, p. 453 (img. 463): from where are the fourth,
-  seventh and eleventh places counted? The notes (p. 532) read «དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ»:
-  the life force of the fourth upward from the year reached is fought
-  by the person's life force; is each place's own life force, body,
-  power or luck meant (the fourth upward's life force, the fourth
-  downward's body), or the year reached against the person's at those
-  distances?
-- Question: WB vol. 1, p. 454 (img. 464): the thirty's rule of colour
-  makes the son's meeting black («ནང་ཕྲད་དཀར་དང་བུ་དགྲ་དང་། །ཤིང་ལྕགས་མེ་གསུམ་ནང་ཕྲད་ནག»), where ch. 25
-  (vol. 1, p. 417) lays a white and a black for the son, and ch. 27
-  (vol. 2, p. 3) black again; is the son's pebble black in the
-  starting-point reckonings and mixed in the illness reckoning?
-- Question: WB vol. 2, p. 156 (img. 164): «ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ་ཡིས་བགོས»: is «བརྒྱུ» a misprint for
-  བརྒྱད, eight, as the notes' «ཉིན་ཚད་བརྒྱད་དུ་བགོས» (p. 535) imply?
-- Question: WB vol. 2, p. 535 (img. 543): «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར»: which four
-  months are «ར་བཞི», and does the first date of each group of four
-  begin with 1 white, 4 green and 7 red?
-- Question: WB vol. 2, p. 538 (img. 546): the hand reckoning, «ལག་རྩིས་ལུ་བཞིན་གྱི་མོ»: who
-  or what is «ལུ» (Lü?), and which text does the note mean by «གཞུང་གིས་གསལ»?
-- Question: WB vol. 2, p. 146 (img. 154): which days are «བྱི་ཉི» and «ཟིན་ཕུང» among
-  the days to avoid for reckoning? «བྱི་ཉི» might be the rat as the day's
-  animal, «ཟིན་ཕུང» the trigram *zin* with *phung*, or an almanac name.
+Open questions 97–102 ([open-questions.md](open-questions.md)), in order:
+the 4th, 7th and 11th places; the son's colour; «བརྒྱུ»; «ར་བཞི» in the
+moment's mewa; the hand reckoning's «ལུ»; «བྱི་ཉི» and «ཟིན་ཕུང». Question 25 is
+answered above; question 22's ch. 28 half is settled (the Zhol print
+prints the same sum).
+
 - Doubt: ch. 26's thirty readings (pp. 455–472) beyond the first, and
   their table of emblems and kinds, are Yigdzin-1's headings, not read on
   the scan; the emblems' English is ours from the machine reading.

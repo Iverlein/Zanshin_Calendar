@@ -396,3 +396,9 @@ Searched and found wanting, so not to be repeated:
 - **The mother's year in WB's secret circle** (RD14, 2026-10-12; vol. 1,
   p. 380): «མ་ལ་དྲིས» is the secret life force's mother element (the scan;
   the notes, vol. 2, p. 489), not the person's mother.
+- **The hand reckoning, a casting (མོ, mo) "like Lu's", in WB's main text**
+  (RD17, 2026-10-12; «ལག་རྩིས», «ཡིད་ལ་དང་པོར་གང་དྲན», «གང་དྲན» in the etext of
+  both volumes): only in the notes, vol. 2, p. 538.
+- **A breakdown of WB ch. 27's 301 root pebbles** (RD17, 2026-10-12; p. 3
+  on the scan, the chapter by Yigdzin-1): none; the thirteen circles make
+  65, the small reckonings close with their own 75.
