@@ -391,4 +391,296 @@ Nothing read yet: RD8's passages, with the English beside them, go here.
 
 ## WB on health (RD10)
 
-Nothing read yet: RD10's passages, with the English beside them, go here.
+What WB says of the la (བླ, bla, the life-spirit), the life force (སྲོག, srog) and illness outside its illness reckoning (ch. 25, RD12 above): in the framework of the element reckoning (vol. 1, ch. 20, pp. 218–251, img. 228–261) and its primer (ch. 21, pp. 252–258, img. 262–268); in the readings of ch. 33 by lunar date, weekday and day animal (vol. 2, pp. 297–304, 308–312, 356–359); in the year of age's mewa (vol. 1, pp. 403–405, img. 413–415); and on the enemy and grave mansions (vol. 2, pp. 330, 338, img. 338, 346). Read 2026-10-12. Sigla: WB, and KL for Dr. Chenagtsang's *Manual of Massage* (RD7's section above).
+
+**A correction to the row.** The enemy and grave mansions are on pp. 330 and 338 of **vol. 2** (img. 338, 346), not vol. 1, as [personal-mansions.md](personal-mansions.md) has them; vol. 1's pp. 330 and 338 are in ch. 22 (RD13).
+
+**In short.**
+
+- **KL's tables are WB's** but for the six moxa dates and the syllables. The la, life-force and slayer weekdays by birth animal (KL p. 256) are WB vol. 2, p. 330, all thirty-six cells. The la's course by date (KL pp. 201–202) is WB's Phugpa list (vol. 2, p. 303) in 25 of 30 places; KL's knee, crown and instep on the 4th, 15th and 29th keep the order where WB prints the waist, the shoulder blade and the shin. The course by hour (KL pp. 202–203) is WB's course within the day (p. 304), in the same order; WB has both feet at daybreak, where KL prints «ལྒང་བ». Friday's burning dates are the 2nd and 17th in WB, as on KL's scan (open questions 58–61).
+- **Illness by lunar date** is eight readings in a round of eight (dates 1–8, the 9th as the 1st, … the 30th as the 6th; vol. 2, pp. 297–302), the same readings as ch. 25's eight goddesses of the date (vol. 1, pp. 449–450); quoted in full below. Falling ill on the 8th, 15th, 22nd and 30th is dangerous.
+- **Bloodletting and moxa** by date, weekday, day animal, burning date, the la's place and the year of age's mewa are gathered in one table below; ch. 34 (vol. 2, pp. 403–404) restates the dates (4, 8, 29, 30 bad; 11, 18 good) and weekdays.
+- **Illness by weekday** (vol. 2, pp. 308–312): each weekday's lines on falling ill, quoted below.
+- **The la** in WB's primer is the mother of the life force (vol. 1, p. 253), the element that gives birth to the life force's element; the life force is the year animal's (tiger and hare wood, …); the four aspects of month, day and hour are found as the year's (p. 255). Ch. 20 (pp. 218–251) has no table of the la or the life force; it gives the body as the five elements (flesh earth, blood water, breath wind, bone iron, sinews wood; the five organs, p. 232), each element's spirits and illnesses (p. 236), the mansions as senders of illness (p. 234), and the twelve stages of a life with the bird for illness (pp. 234–235).
+- **The enemy and grave mansions** (vol. 2, pp. 330, 338) have no reading in WB; "every work avoided" is said of the enemy weekday only, and nothing of illness is said of either mansion.
+- **The year of age's mewa** (vol. 1, pp. 403–405): the seven-red, by its colour alone, avoids bloodletting and moxa (p. 403) and brings them (p. 404); by the natal mewa (p. 405), the two-black on the seven-red makes moxa good and bloodletting bad; pp. 401–404 are not in [year-of-life.md](year-of-life.md).
+
+### How it was read (RD10)
+
+- **The etext** (IE0OPI51524892, page = image) for the outline of ch. 20 and 21, for finding every «བླ», «སྲོག» and «ནད» in them, and as a witness.
+- **Yigdzin-1** over every page of ch. 20–21 not read before (vol. 1 img. 228–268 but 259, 263, already read for RD11) and img. 413–415, into `wb/vol1/yigdzin/`; over vol. 2 img. 313–320, 346 and 364–367 into `wb/yigdzin/`. The earlier readings of vol. 2 img. 305–312 (Yigdzin-1 and MITRA, 2026-10-03) were reused.
+- **MITRA** as witness over the quoted pages that had none, vol. 1 img. 242, 244–247, 252, 262, 263, 265 and 413–415 (into `wb/vol1/mitra/`) and vol. 2 img. 316–320 (into `wb/mitra/`); `disagree.py` over each pair, and every flag that falls in a quoted line read on the scan (MITRA agrees on 88–97% of the syllables of each page; most of its flags here are its own: ལྟ for ལྷ, བཙན for བཙོན, dropped lines).
+- **On the scan**: every passage quoted below was put against the scan line by line, enlarged 1.7–4× (both volumes are scanned about 700 px wide), and the flags of `disagree.py` read there. Doubts are marked […] or named.
+- Already quoted and checked on the scan in other files, and only linked here: the lunar dates' activity lists ([lunar-dates.md](lunar-dates.md)), the la's places ([lunar-dates.md](lunar-dates.md), *Where the la resides*), the weekdays' activity lists ([weekdays.md](weekdays.md)), the day animals' verses ([day-animals.md](day-animals.md)), the personal mansions and weekdays of p. 330 and the works on one's own days of p. 338 ([personal-mansions.md](personal-mansions.md)), the burning dates ([burning-dates.md](burning-dates.md)), the year of age's mewa by the natal mewa ([year-of-life.md](year-of-life.md)).
+
+### KL's tables in WB (open questions 58, 59, 60 and 61, in part)
+
+RD7 found in KL (pp. 201–203, 255–257) the la's course by date and by hour, the la, life-force and slayer weekdays by birth animal, six dates and the burning dates to avoid for moxa, and no source named. WB has all of them but the six dates.
+
+**The la, life-force and slayer weekdays by birth animal (KL p. 256) are WB vol. 2, p. 330 (img. 338), cell for cell.** WB's verse names, from the mouse to the pig, each animal's la weekday (བླ་གཟའ, bla gza'), life-force weekday (སྲོག་གཟའ, srog gza') and, with the slayer mansion, its slayer weekday (གཤེད་གཟའ, gshed gza'); the verse is quoted, read on the scan, in [personal-mansions.md](personal-mansions.md), *Text*:
+
+> ལྷག(༤) སྤེན(༠) ཕུར(༥) གཉིས་ཉི(༡) དམར(༣) གཉིས། །སངས(༦) གསུམ་ཟླ(༢) ལྷག(༤) བླ་གཟའ་རིམ། །དེ་བཞིན་བྱི་བ་ནས་རིམ་པར། །དམར(༣) ལྷག(༤) སྤེན(༠) གཉིས་ལྷག(༤) སངས(༦) གཉིས། །ཟླ་བ(༢) ཕུར(༥) གཉིས་ལྷག(༤) མིག་དམར(༣)། །སོ་སོའི་སྲོག་གཟའ།
+
+and, of the twelve pairs of slayer weekday and slayer mansion, «སྤེན་པ(༠) མོན་གྲེ(༢༢) ཕུར་བུ(༥) མགོ(༤)། །པ་སངས(༦) བྲ་ཉེ(༡) པ་སངས(༦) སྣྲོན(༡༧)། །ཕུར(༥) གྲེ(༡༠) ལྷག(༤) ལག(༥) ལྷག(༤) ཤེ་ས(༢༣)། །ཕུར་བུ(༥) དྲུང་ནི་ནམ་གྲུ(༢༦) དང་། །མིག་དམར(༣) ལྷ་མཚམས(༡༦) དམར(༣) མོན་གྲུ(༢༣)། །ཕུར(༥) དབོ(༡༡) སྤེན(༠) ཁྲ(༡༡) རིམ་པ་བཞིན། །གཤེད་གཟའ་གཤེད་སྐར་ཞེས་བྱ་སྟེ།». Set against KL's table (health.md, RD7's section):
+
+| Birth year | mouse | ox | tiger | hare | dragon | snake | horse | sheep | monkey | bird | dog | pig |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| la weekday, WB p. 330 | Wed | Sat | Thu | Thu | Sun | Tue | Tue | Fri | Fri | Fri | Mon | Wed |
+| la weekday, KL p. 256 | Wed | Sat | Thu | Thu | Sun | Tue | Tue | Fri | Fri | Fri | Mon | Wed |
+| life-force weekday, WB | Tue | Wed | Sat | Sat | Wed | Fri | Fri | Mon | Thu | Thu | Wed | Tue |
+| life-force weekday, KL | Tue | Wed | Sat | Sat | Wed | Fri | Fri | Mon | Thu | Thu | Wed | Tue |
+| slayer weekday, WB | Sat | Thu | Fri | Fri | Thu | Wed | Wed | Thu | Tue | Tue | Thu | Sat |
+| slayer weekday, KL | Sat | Thu | Fri | Fri | Thu | Wed | Wed | Thu | Tue | Tue | Thu | Sat |
+
+All thirty-six agree. KL's names are WB's (བླ་གཟའ, སྲོག་གཟའ, གཤེད་གཟའ); WB's verse goes on to the life-force, power, obstacle and demon mansions, which KL leaves out. What WB says of these days (p. 330: the la weekday at its strong time for activities, the slayer weekday to be avoided; born in the slayer mansion, a short life) is in [personal-mansions.md](personal-mansions.md), *Readings*. KL's use of them, avoiding moxa on the slayer weekday, is not in WB's verse; WB names bloodletting and moxa by weekday only in the weekdays' own lists (below).
+
+**The la's course by date (KL pp. 201–202) is WB's Phugpa list, vol. 2, p. 303 (img. 311),** the list WB calls the view of Phug pa uncle and nephew (ཕུག་པ་ཁུ་དབོན, phug pa khu dbon), people's column; the list is quoted, read on the scan, in [lunar-dates.md](lunar-dates.md), *People and horses*. KL leaves out the livestock column. Place by place:
+
+| Date | WB p. 303 | KL p. 201 | |
+| --- | --- | --- | --- |
+| 1–3, 5–9, 11–14, 16–28 | big toe; ankle joint (བོལ་ཚིགས); calf; hollow of the knee; groove of the thigh; hip joint; above the kidneys; flank of the ribs; forearm; palm; neck (སྐེ་མགུལ); behind the ear and the jaw; nape and jaw; neck (སྐེ་མཇིང); palm; forearm; shoulder blade (དཔུང་སོག་སྟེང); flank of the ribs; above the kidneys; hip joint; groove of the thigh; hollow of the knee; above the knee; calf; ankle joint | the same, in the same words or near them (དཔྱི་མིག་ཚིགས / དཔྱི་ཚིགས, མཁལ་མའི་སྟེང / མཁལ་སྟེང) | agree |
+| 4 | the waist (རྐེད་པ) | the knee (པུས་མོ) | differ |
+| 10 | top of the shoulder (དཔུང་སྟེང) | shoulder blade (དཔུང་སོག) | near |
+| 15 | shoulder blade (སོག་པ) | crown of the head, the whole body (སྤྱི་གཙུག་ལུས་སྤྱི) | differ |
+| 29 | the shin (ངར་གདོང) | the instep (རྐང་བོལ) | differ |
+| 30 | the whole body (མི་རྟའི་ལུས་པོ་བྱིངས) | the sole, the whole body | near |
+
+WB's «བཞི་ལ་མི་ཡི་རྐེད་པ་ལ» and «བཅོ་ལྔ་མི་ཡི་སོག་པ་ལ» were read again on the scan (img. 311): the print has རྐེད་པ and སོག་པ. KL's three differences each restore the climb and descent that the rest of the list keeps (calf, knee, hollow of the knee; the crown at the top on the 15th; instep and sole before the 1st's big toe), where WB's printed words break it. Whether KL corrects WB from another witness or from the order is not said.
+
+**KL's syllables are not WB's.** KL gives a syllable for dates 1–15 and 30 (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ, ཨཾ). WB's Phugpa list has none; WB's other list by date, after the Kālacakra (དུས་འཁོར, dus 'khor), has a syllable for every date and other places, read on the scan (p. 303, img. 311):
+
+> དེ་ལ་ཁྱད་པར་དུས་འཁོར་ལོའི། །དགོངས་པའི་བླ་གནས་འདི་ལྟར་རོ། །ཡར་ངོ་སྔོན་འགྲོའི་དབང་བྱས་ནས། །སྐྱེས་པའི་གཡོན་དང་བུད་མེད་གཡས།། དེ་ཡང་ཚེས་གཅིག་རྐང་པ་ཡི། །སོར་ཚིགས་དང་པོར་ཡི་གེ་ཨཿ། །གཉིས་པར་ཨི་དང་གསུམ་པར་རི། །བཞི་པར་ལོང་བུར་ཨུ་ཡིག་གཟུགས། །ལྔ་པར་པུས་མོར་ལི་ཡིག་གནས། …
+
+The 1st at the first joint of the toe, «ཨཿ»; the 2nd «ཨི» and the 3rd «རི» at the next joints; the 4th at the ankle, «ཨུ»; the 5th at the knee, «ལི» (the scan has རི and ལི, as MITRA reads; Yigdzin-1 has རོ and ལ). By the machine reading, not read on the scan syllable by syllable: the 6th at the hip, then the fingers' joints from the 7th, the elbow (11th), the shoulder (12th), the throat (13th), the forehead (15th), the crown «ཨཾ» at the junction of the 15th and 16th, and down again to the sole «ཨཿ» at the junction of the 30th and the 1st; each date its own syllable. KL's syllables instead go in pairs, one to two dates (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ), and sit on the Phugpa places. So KL joins the Phugpa places to a syllable sequence that is in neither of WB's lists.
+
+**The la's course by hour (KL pp. 202–203) is WB's third list, vol. 2, p. 304 (img. 312), the course "within any day"**, after the *lho gter* list (lunar-dates.md summarises it; read here on the scan):
+
+> ནམ་ལངས་རྐང་གཉིས་ཉི་ཤར་མཇིང་། །དྲོས་ཆུང་ལྟག་ཁུང་དྲོས་ཆེན་མཆུ། །ཉི་ཕྱེད་བྲང་གཞུང་ཕྱེད་ཡོལ་ལྟེ། །མྱུར་ཁ་སྙིང་ག་མྱུར་ཆུང་རྒྱབ། །ཉི་ནུབ་རྐང་པ་གཉིས་ལ་གནས། །ས་སྲོས་ནས་ནི་ནམ་ལངས་བར། །ལྟེ་བ་ཡན་ཆད་ཁྱབ་པར་གནས།
+
+| Time (WB's words) | WB p. 304 | KL p. 202 (its words) |
+| --- | --- | --- |
+| daybreak (ནམ་ལངས) | both feet (རྐང་གཉིས) | «ལྒང་བ» |
+| sunrise (ཉི་ཤར) | the neck (མཇིང) | the neck (མཇིང་བ) |
+| early morning (དྲོས་ཆུང) | the hollow of the nape (ལྟག་ཁུང) | when the sun warms: the lips and the nape |
+| late morning (དྲོས་ཆེན) | the lips (མཆུ) | (the same) |
+| noon (ཉི་ཕྱེད) | the middle of the chest (བྲང་གཞུང) | the ribs of the chest |
+| early afternoon (ཕྱེད་ཡོལ) | the navel (ལྟེ) | the belly (ལྟོ་བ) |
+| late afternoon (མྱུར་ཁ) | the heart (སྙིང་ག) | when the sun is past: the heart |
+| towards evening (མྱུར་ཆུང) | the back (རྒྱབ) | at dusk: the small of the back |
+| sunset (ཉི་ནུབ) | both feet | — |
+| dusk to daybreak (ས་སྲོས་ནས་ནམ་ལངས) | spread above the navel (ལྟེ་བ་ཡན་ཆད་ཁྱབ) | evening to daybreak: the whole body |
+
+The order is the same; KL merges WB's two morning times and leaves out the feet at sunset. At daybreak WB has «རྐང་གཉིས», both feet, where KL prints «ལྒང་བ» (open question 60): read with WB, KL's word stands where the feet stand, and «ལྒང་བ» for «རྐང་པ», foot, would be a slip of sound; WB does not settle which KL meant. WB's other two lists by hour, the first (dawn the lips, sunrise inside the mouth …) and the *lho gter* list (a place and an hour for each date), are not KL's.
+
+**The burning dates (KL p. 256): Friday's are the 2nd and the 17th in WB**, in both of its witnesses, the rule of vol. 1, p. 177 («པ་སངས་གཉིས་དང་བཅུ་བདུན་ཏེ») and the number words of vol. 2, p. 351 («འཁྲིག་པ», the pair), both read on the scan ([burning-dates.md](burning-dates.md)). Every other weekday's pair in KL is WB's too. So the scan of KL, ༢, agrees with WB, and BDRC's etext ༣ does not (open question 61).
+
+**KL's six dates for moxa** («ཚེས། ༡། ༦། ༡༥། ༡༨། ༢༢། ༣༠», p. 256, "in agreement with the Tibetan reckoning") are not a list in WB. WB's lunar dates name bloodletting and moxa (གཏར་སྲེག, gtar sreg) by date as follows ([lunar-dates.md](lunar-dates.md), the table, read on the scan): to be avoided on the 4th («ལམ་འདུམས་གཏར་བསྲེག་དམག་འདྲེན་བག», p. 298), the 29th and the 30th; bloodletting alone (གཏར་ཁ, gtar kha) avoided on the 8th; both good on the 11th («ས་ཁ་གཏར་སྲེག་ལམ་དྲག་བཟང», p. 299) and on the 18th («ཐོག་འབུབས་སྒོ་འཛུགས་ལམ་ཞུགས་པ། །གཏར་སྲེག་གཤིན་ལས་རྒྱལ་ས་བྱ།», p. 300, in the good list). Ch. 34's work of bloodletting, moxa and the rod (vol. 2, pp. 403–404, img. 411–412; [white-beryl-ch34.md](white-beryl-ch34.md), work 33) gathers the same dates, «ཚེས་གྲངས་བཞི་བརྒྱད་ཉེར་དགུ་དང་། །གནམ་གང་རྣམས་ངན་བཅུ་གཅིག་དང་། །བཅོ་བརྒྱད་ལ་ནི་བཟང», the 4th, 8th, 29th and 30th bad, the 11th and 18th good. Only the 30th is in both lists; KL avoids the 18th, which WB counts good twice. Three of KL's six, the 15th, 22nd and 30th, are WB's perilous days (p. 302, with the 8th; [lunar-dates.md](lunar-dates.md), *The four dangerous times*), when falling ill is dangerous; the 1st, 15th and 30th touch the two junctions, of the 30th and 1st and of the 15th and 16th, that WB's Kālacakra list calls most perilous for the la («འདི་དང་ཨཾ་གི་དུས་ཀྱི་ཚེ། །བྱང་ཆུབ་སེམས་ཀྱིས་མགོ་ལུས་ཀུན། །ཁྱབ་ཕྱིར་ཤིན་ཏུ་གཉན་པ་སྟེ།», p. 303). The 6th and 18th have no such place in WB.
+
+### Illness by lunar date (vol. 2, pp. 297–302, img. 305–310)
+
+Each date's verse, after the birth, says what falling ill on it means: the cause the illness "answers" (ལན, lan), the spirits that harm, the signs, and the rite. [lunar-dates.md](lunar-dates.md) summarises these lines; here they are in full, read on the scan (Yigdzin-1 and MITRA agree on 99% of these pages; their flags here, «བཅོས» against «བཙས», «གཅོང» against «གཙང», «མྱང» against «མྱུང», read on the scan). Only dates 1–8 have lines of their own:
+
+| Date | The illness line (p., img.) | In English |
+| --- | --- | --- |
+| 1 | «ནད་ཐེབས་ཐབ་གཞོབ་འཕྲུ་རློག་དང་། །ཤིང་བཅད་སྔ་ཕྱིའི་འགྲུལ་གྱིས་རྐྱེན། །སྟོད་གཟེར་མིག་ནད་ཁོང་སྟོང་དང་། །གྲེ་མོ་ཀླུ་བཙན་གནོད་པ་ཡིན། །བོང་རྟ་བཙན་མདས་ཕྱུགས་སྲི་དགར།» (p. 297, img. 305) | The conditions are a defiled hearth (ཐབ་གཞོབ, thab gzhob), an act not identified (འཕྲུ་རློག, 'phru rlog), felled trees and journeys early and late; pain in the upper body, eye illness and an empty feeling inside; the female spirits (གྲེ་མོ, gre mo) and the nāga-*btsan* (ཀླུ་བཙན, klu btsan), nāgas joined with the fierce *btsan* spirits (བཙན, btsan), harm. The last line names the rites: a donkey and a horse (or goat, as ch. 25 has it, below), the *btsan*'s thread-cross (མདོས, mdos; printed «མདས»), and the livestock's harmful spirits of the dead (སྲི, sri) driven off («དགར», as «བཀར»); read so, not certain. |
+| 2 | «ནད་བཏབ་ན། །འཁོན་དང་གཤིན་ཟས་མི་གཙང་ལན། །ལྷ་གདོན་གྲེ་བཙན་ས་བདག་གནོད། །ཕོ་མཆིན་མི་བདེ་[སྣོད]་གཞི་དགང་། །གཟེར་ནད་སྐྲངས་འབུར་ཤུ་ནད་འོང་། །མ་མོ་མཆོད་ཅིང་བསྐང་བཤགས་བྱ།» (pp. 297–298, img. 305–306) | It answers a grudge, food of the dead and impurity; harm from the gods as harmful spirits (ལྷ་གདོན, lha gdon), the *gre btsan* (གྲེ་བཙན, gre btsan; not identified further) and the earth lords (ས་བདག, sa bdag); stomach and liver uneasy, (the hollow organs?) filled; stabbing pains, swellings, lumps and an illness «ཤུ་ནད» (shu nad; ch. 25's reading of the same day has ཤུ་ཐོར, pustules) come. Worship the *ma mo* goddesses (མ་མོ, ma mo) and make the fulfilment and confession. The syllable before གཞི could be སྟོད (the upper body) on the scan. |
+| 3 | «ནད་བཏབ་ཐབ་གཞོབ་བཅོས་བསྲེག་ལན། །ལྷ་གདོན་རྒྱལ་པོ་གྲེ་བོ་གནོད། །བསངས་ཁྲུས་ཆུ་གཏོར་རྒྱལ་མདོས་གཏོང་། །ཤེད་ཆུང་ཁོང་གཅོང་མཁལ་མ་ན། །རྡུལ་ཡོད་ཁ་སྐམ་བྱ་[མྱང]་བྱེད། །ཤི་བཟང་» (p. 298, img. 306) | It answers the hearth, handled and burnt; harm from the gods as spirits, the king spirits (རྒྱལ་པོ, rgyal po) and the male spirits (གྲེ་བོ, gre bo). Make the smoke offering, the ablution, the water offering and send a *rgyal po* thread-cross (རྒྱལ་མདོས, rgyal mdos). Weakness, a sickness within, pain in the kidneys; dust, a dry mouth (the last words not understood). A death is good. |
+| 4 | «ནད་བཏབ་མནའ་ཡུགས་ཐབ་ཤོར་ལན། །རྒྱལ་འགོང་གཤིན་དང་ས་བདག་གནོད། །རྒྱལ་མདོས་ཀླུ་ཡས་གཟའ་མདོས་གཏོང་།» (p. 298, img. 306) | It answers an oath, a house of mourning and a hearth spoilt; the king-demons (རྒྱལ་འགོང, rgyal 'gong), the dead and the earth lords harm. Send the *rgyal po*'s and the planets' thread-crosses and a nāga offering not identified (ཀླུ་ཡས, klu yas). |
+| 5 | «ནད་བཏབ་ཡུགས་སའི་ཟས་ཀྱིས་ལན། །བྲང་རྒྱབ་ཚ་ཞིང་གྲེ་བ་བསྐམས། །མོ་འདྲེ་ཆགས་འདྲེ་ས་བདག་གནོད། །ཁྲུས་དང་གཉན་མདོས་ས་བདག་གི། །ཤ་རུ་མདོས་སོགས་བཏང་བར་བྱ།» (p. 298, img. 306) | It answers food from a house of mourning; chest and back hot, the throat dry; the female demons, the demons of lust and the earth lords harm. Make an ablution and send the thread-cross of the *gnyan* spirits (གཉན, gnyan) and the earth lords' thread-cross not identified (ཤ་རུ་མདོས, sha ru mdos). |
+| 6 | «ཤི་ངན་སྐྱེས་བསྟུད་ནད་འགྲུལ་ལན། །གྲེ་བཙན་བྱད་ཁ་སྲུང་མ་གནོད། །བཙན་མདོས་ཁྲོམ་མདོས་དགྲ་ལྷ་མཆོད། །གློ་གཟེར་སྨྱོ་འབོག་ཕོ་ལོག་རིམས།» (p. 298, img. 306) | Illness answers a journey; the *gre btsan*, curses (བྱད་ཁ, byad kha) and the protectors harm. Send the *btsan*'s and the crowd's thread-crosses (ཁྲོམ་མདོས, khrom mdos), worship the war god (དགྲ་ལྷ, dgra lha). Stabbing pain in the lungs, madness and fainting, vomiting, fever (རིམས, rims). |
+| 7 | «ནད་བཏབ་ཕྱོགས་ངན་ཤ་མར་ཟས། །ནུ་མཆིན་རྩིབ་གཟེར་ཀླུ་གྲ་གནོད། །སྤྱི་མདོས་ཀླུ་མཆོད་གྲེ་མོ་བརྡུང་། །ཤི་ན་འཆི་རྗེས་བཟང་བ་ཡིན།» (pp. 298–299, img. 306–307) | It answers a bad direction and food of meat and butter; pains in the breasts, the liver and the ribs; the nāgas and a spirit not identified (ཀླུ་གྲ, klu gra) harm. Send the general thread-cross, worship the nāgas, strike the *gre mo*. A death is good for those after. |
+| 8 | «གང་སྐྱེས་གསོ་དཀའ་ནད་བཏབ་ན། །མིག་ནད་མཁལ་རྐེད་སྙིང་རླུང་ལྡང་། །ལྷ་ཁང་སྲུང་མ་རྒྱལ་པོ་གནོད། །རྒྱལ་མདོས་དམ་སྲི་དགར་ཤིང་ན།» (p. 299, img. 307) | Eye illness, the kidneys and the waist, and the heart-wind (སྙིང་རླུང, snying rlung) rises; the temple's protectors and the *rgyal po* harm. A *rgyal po* thread-cross, and the oath-breaking harmful spirits of the dead (དམ་སྲི, dam sri) to be driven out (the last words read so, not understood). |
+
+**Dates 9–30 take one of these eight in turn.** The verses say «X མཚུངས», "the same as X": the 9th as the 1st, the 10th as the 2nd, … the 16th as the 8th, the 17th as the 1st again, the 24th as the 8th, the 25th as the 1st, the 30th as the 6th ([lunar-dates.md](lunar-dates.md), the last column, read on the scan). So date *d* falls ill as date ((*d* − 1) mod 8) + 1, an eight-day round over the month; ch. 33 states the matches one by one and does not name the round.
+
+**The round is the eight goddesses'.** Ch. 25 (vol. 1, pp. 449–450, img. 459–460; quoted, read on the scan, in [lunar-day-signs.md](lunar-day-signs.md)) counts eight goddesses through the month, 'Od 'bar ma on the 1st, 9th, 17th and 25th, Bstan ma on the 2nd, 10th, 18th and 26th, and so round, and gives each her cause, her spirits, her rites and her illness. Ch. 33's eight date lines are the same readings, shorter and in nearly the same words: the 1st's hearth, felled trees and journeys, nāga-*btsan* and *gre mo*, and «བོང་རྟ་བཙན་མདས» where ch. 25 has «བོང་ར་བཙན་མདོས» (a donkey and goat with the *btsan*'s thread-cross: ch. 33's «མདས» looks like a slip for «མདོས»); the 2nd's grudge and impurity, the same spirits, «ཕོ་མཆིན་མི་བདེ» and the stabbing pains and swellings; the 3rd's hearth, kidneys and dust; the 4th's *rgyal 'gong*, the dead and earth lords; the 5th's food of a house of mourning; the 6th's contagion, madness and fainting; the 7th's food from a bad direction, liver and ribs, nāgas and *gre mo*; the 8th's kidneys and waist, eyes and heart-wind, and the *dam sri* driven off («བཀར», ch. 25; ch. 33 prints «དགར»). So WB's illness by lunar date is one reading in two places, ch. 25 counting it as the goddesses' round, ch. 33 by the date.
+
+**The four perilous days** (p. 302, img. 310, [lunar-dates.md](lunar-dates.md)): the 8th, 15th, 22nd and 30th, «འདི་དུས་ནད་ཐེབས་འདུ་ལོང་གི། །བྱ་བ་རྔམ་དྲག་ཆེ་རྣམས་ངན།», falling ill on them is bad, and gatherings and any great or fierce work.
+
+### Illness by weekday (vol. 2, pp. 308–312, img. 316–320)
+
+Each weekday's verse, after the rain and the portents, says what falling ill on it means, then a theft, a remedy and war; [weekdays.md](weekdays.md) summarises these. The illness lines, Yigdzin-1 with MITRA as witness (2026-10-12; 93–95% of each page's syllables agree), every flag in these lines (Sunday's ཆུ, Monday's བཅོས, Tuesday's བཤས, གཞོབ, ཆོག, Wednesday's ཆོག, Saturday's རློག, བཅོས) and every line read on the scan:
+
+| Weekday (p., img.) | The illness line | In English |
+| --- | --- | --- |
+| Sunday (p. 308, img. 316) | «ནད་ཀྱིས་བཏབ་ན་དཀར་གྱི་ཕྱིར། །འབྲངས་པའི་འདུད་བཙན་གྲེ་བོ་གནོད། །བཙན་མདོས་བདུད་མདོས་ཀླུ་བརྒྱད་དང་། །ཆུ་གཏོར་ལོ་གྲངས་བྱིས་སྟོན་བྱ། །ངར་གླུད་དྲི་ཅན་ནང་གོས་དྲིལ། །ས་སྲོས་འདྲེ་ལྔ་ཕྱོགས་སུ་སྐྱེལ།» | Falling ill, the demon-*btsan* (printed «འདུད», for བདུད, bdud, demon) and the male spirits harm, who followed after white (food or goods, not said); the *btsan*'s and the demons' thread-crosses, the eight nāgas, a water offering and a feast for as many children as the sick one's years; a ransom (གླུད, glud) wrapped in a fragrant undergarment, sent at dusk towards the five *'dre* (འདྲེ, 'dre, evil spirits). |
+| Monday (p. 309, img. 317) | «ནད་ཀྱིས་བཏབ་ན་ཡུགས་སའི་ཕྱིར། །འབྲངས་པའི་ཀླུ་སྲན་གཤིན་འདྲེ་གནོད། །ཆུ་གཏོར་མ་མོའི་མདོས་ཀྱིས་བཅོས། །ལུག་གྲོད་ཆུ་ཕོར་ལོ་གྲངས་བླུགས། །ཉ་སྦྲུལ་གཟུགས་དང་གླུད་དྲོ་ཅན། །བླུགས་ལ་ས་སྲོས་ཆུ་འཐབ་བསྐྱལ།» | The nāga-ogres (printed «ཀླུ་སྲན», read as ཀླུ་སྲིན, klu srin, as Thursday's line has it) and the spirits of the dead harm, who followed after a house of mourning; treat with a water offering and the *ma mo*'s thread-cross; in a sheep's stomach and a water bowl pour as many measures as the years, with figures of fish and snakes and a ransom «དྲོ་ཅན» (not understood), and send them at dusk to where waters meet. |
+| Tuesday (p. 309, img. 317) | «ནད་བཏབ་དམར་དང་བཤས་ཀྱིས་ལེན། །ཐབ་གཞོབ་མི་གཙང་ཕྱོགས་ངན་པའི། །དམར་ཕྱིར་བཙན་དང་གྲེ་བོ་གནོད། །གཟུངས་ཆོག་ལྷ་གསོལ་བཙན་ཆོག་བྱ།» | Illness comes from red (flesh and blood) and slaughter; the *btsan* and the male spirits harm, who followed the red of a defiled hearth, impurity and a bad direction; dhāraṇī rites, offerings to the gods and the *btsan*'s rite. |
+| Wednesday (p. 310, img. 318) | «ནད་བཏབ་བན་བོན་བྱད་ཁའམ། །བུ་སྲིང་ཕྱིར་འབྲངས་ཀླུ་གནོད་པས། །གྲིབ་སེལ་ཀླུ་ཆོག་བྱས་ན་བཟང་།» | Illness from the curse of a monk or a Bonpo, or the nāgas who followed after a son or a sister harm; clearing the defilement (གྲིབ, grib) and a nāga rite are good. Born on it, a boy is sickly («ནད་བུ་ཅན»). |
+| Thursday (p. 311, img. 319) | «ནད་བཏབ་མཚན་མོའི་འགྲུལ་གྱི་ཕྱིར། །འབྲངས་པའི་ཀླུ་སྲིན་རྒྱལ་པོ་གནོད། །ཟོར་མདོས་ཀླུ་བརྒྱད་བྱས་ན་ཕན།» | The nāga-ogres and the king spirits harm, who followed after a journey by night; the *zor* thread-cross (ཟོར, zor, a ritual missile) and the eight nāgas help. Falling ill (ནད་ཐེབས) is in its bad list too. |
+| Friday (p. 311, img. 319) | «ནད་བཏབ་ན། །ཚོང་ཕྱིར་འབྲངས་པའི་རྒྱལ་བཙན་གནོད། །ཀློག་འདོན་བསངས་སེལ་བཙན་ཆོག་བྱ།» | The king-*btsan* who followed after trade harm; reading scripture, fumigation and clearing, the *btsan*'s rite. Falling ill is in its bad list; a girl born on it is sickly. |
+| Saturday (p. 312, img. 320) | «ནད་ཀྱིས་བཏབ་ན་གཤིན་རྗེ་དང་། །ས་བདག་ཐེའུ་བྲང་མ་མོ་གནོད། །དུས་ཀྱི་ཆོ་ག་ཆག་པ་དང་། །འཕྲུ་རློག་འཁུར་བ་གསུར་གྱིས་ལན། །གཟུངས་འདོན་ཀླུ་བརྒྱད་ས་བདག་བཅོས།» | The lord of death (གཤིན་རྗེ, gshin rje), the earth lords, the *the'u rang* and the *ma mo* harm; it answers a seasonal rite broken, *'phru rlog*, carrying, and burnt offerings (གསུར, gsur); recite dhāraṇīs, treat the eight nāgas and the earth lords. |
+
+On the scan at 3×, Monday's «ཀླུ་སྲན» and «དྲོ» are as both readers have them; nāga-ogres (ཀླུ་སྲིན) is a reading, not the print.
+
+### The day animals (vol. 2, pp. 356–359, img. 364–367)
+
+The verses are quoted and read on the scan in [day-animals.md](day-animals.md); their lines on health, gathered:
+
+| Day animal (p.) | Health in its verse |
+| --- | --- |
+| tiger (p. 356) | preparing medicine («སྨན་སྦྱོར») and ransom rites (གླུད, glud) avoided |
+| dragon (p. 357) | bloodletting and moxa («གཏར་ག་མེ་བཙའ») avoided |
+| snake (p. 357) | examining or treating with medicine («སྨན་དཔྱད») and bloodletting and moxa («གཏར་སྲེག») avoided; moving the sick to another place («ནད་པ་ཕྱོགས་འདོན») good |
+| sheep (p. 357) | bloodletting and moxa, preparing medicine and «དབྱུག་དཔྱད», perhaps treatment with the stick, avoided; the lines of the day's earth lord, in the trough, name the physician (ལྷ་རྗེ, lha rje), the first portion of the medicine («སྨན་གྱི་ཕུད») and medicine taken out from under the sick («སྨན་ནད་པའི། །འཕོངས་འོག་བཏོན་པས་ཉེས་པ་ཞི།»); how they divide is not clear, and these seat and remedy lines are machine-read only ([day-animals.md](day-animals.md)) |
+| bird (p. 358) | medicine and treatment given to the sick and to small children turn to nectar («ནད་པ་སྲིའུ་ཡི། །སྨན་དཔྱད་བྱས་ན་བདུད་རྩིར་འགྱུར།») |
+| dog (p. 358) | washing the head avoided, for it brings talk and grief; binding the mouths of the *bse rag* spirits (བསེ་རགས, bse rags) and medicine («ཁ་བཅིངས་སྨན») good |
+| mouse (p. 358) | moxa (མེ་བཙའ, me btsa') in the bad list, with words left as doubtful («རྐེད་མན་ཐག་རིངས་དོན»); caring for children («བྱིས་པ་གསོ») good |
+
+### Bloodletting, moxa and medicine by the day, as WB gives them
+
+Gathered from the pages above and their topic files; "avoid" and "good" as the lists have them:
+
+| By | Bloodletting and moxa avoided | Good for them | Medicine |
+| --- | --- | --- | --- |
+| lunar date (pp. 297–302) | 4, 29, 30 (both); 8 (bloodletting) | 11, 18 | — |
+| weekday (pp. 308–312, [weekdays.md](weekdays.md)) | Sunday, Saturday (both); Tuesday (bloodletting) | Monday, Wednesday, Thursday, Friday (both); Tuesday (moxa) | preparing medicine good Sunday, Monday, Thursday; avoided Tuesday, Wednesday, Saturday; visiting the sick avoided Sunday |
+| day animal (pp. 356–358) | dragon, snake, sheep (both); mouse (moxa, doubtful) | — | tiger, sheep: preparing it avoided; snake: treating avoided; bird: medicine to the sick good |
+| ch. 34, work 33 (vol. 2, pp. 403–404, [white-beryl-ch34.md](white-beryl-ch34.md)) | dates 4, 8, 29, 30; Sunday, Saturday; mansions 5, 25, 10, 0, 1; on Tuesday bloodletting and the rod (etext «གཏོར་དབྱུག», machine reading) | dates 11, 18; Monday, Wednesday, Thursday, Friday; on Tuesday moxa; a list of good mansions | — |
+| burning date (vol. 1, p. 177; vol. 2, p. 351) | all fourteen («གཏར་སྲེག་དང་ནི་དགེ་བའི་ལས། །མི་འགྲུབ་མྱུར་དུ་སྤང་བར་བྱ།») | — | — |
+| the la's place (vol. 2, p. 304) | at the place of the day, for people and livestock («མི་ཕྱུགས་ལུས་ཀྱི་བླ་གནས་སར། །གཏར་བསྲེག་ལ་སོགས་བཅོས་བརྡེག་སྤང་།») | — | — |
+| year of age's mewa (vol. 1, pp. 403–405) | the seven-red (below) | born under the two-black, falling on the seven-red: moxa good, bloodletting bad | — |
+
+### The enemy and grave mansions (vol. 2, pp. 330, 338, img. 338, 346)
+
+Both pages are quoted, read on the scan, in [personal-mansions.md](personal-mansions.md) (*By element*; *Works on one's own days*). On health and on whether the enemy and grave mansions count for every work, as the enemy weekday does, they say:
+
+- **The enemy weekday is absolute; the enemy mansion is not said to be.** p. 338: «མ་གྲོགས་བཟང་ཡང་ཕྱོགས་མཚུངས་དགེ། །ཁམས་ཀྱི་དགྲ་གཟར་ལས་ཀུན་སྤང་།», on the enemy weekday of one's element every work is to be avoided. The next lines turn to the birth mansion, the mansion of conception and the death mansion; the enemy mansion is not named there. The verse of p. 330 counts the element's quarters, mother, friend, enemy and child («བྱང་སྐར་མ་དང་མཚམས་སྐར་གྲོགས། །ནུབ་སྐར་དགྲ་ལ་ལྷོ་སྐར་བུ།», for wood) and gives them no reading of their own. So in WB the enemy mansion has no reading, and the rule "every work avoided" is the weekday's.
+- **The grave mansions** («དུར་སྐར་ས་ག་ཆེ་བ་སྟེ། །ཆུང་བ་བྲ་ཉེ་བཞིན་དུ་ཤེས།», p. 330, for wood; the others in the tables of pp. 345–346) have no reading in ch. 33 either, and no word of illness; WB's notes use them for the dead ([personal-mansions.md](personal-mansions.md), *The grave mansions*).
+- **The death mansion** of p. 338 («འཆི་བའི་སྐར་མར་གང་ཡང་ངན») is, by p. 330, the slayer mansion («གཤེད་སྐར་དང་ནི་འཆི་སྐར་གཅིག»), on which anything is bad; born in it, a short life («གཤེད་སྐར་ཕྲད་ན་ཚེ་ཐུང་འགྱུར»); born in the la mansion, a long life («མ་ལ་བཙས་དུས་བླ་སྐར་དང་། །ཕྲད་ན་ཚེ་རིང་འགྱུར་བ་ཡིན།»). These, and the slayer mansion's use for subduing obstructing spirits, are the pages' only words on life and death.
+
+### The year of age: bloodletting and moxa by the mewa (vol. 1, pp. 403–405, img. 413–415)
+
+Ch. 24 reads the mewa (སྨེ་བ, sme ba) that the year of age reaches. pp. 401–404 (img. 411–414) read it by its colour alone, each with the "mirror" it is named after, in two rounds, a full one and a short one; pp. 405–408, by the natal mewa, are read in [year-of-life.md](year-of-life.md); pp. 401–404 are not read there. Bloodletting and moxa are named three times, each time on the seven-red, the *btsan*'s mirror (read on the scan; Yigdzin-1 with MITRA, and the etext as witness):
+
+> བདུན་དམར(བཙན་གྱི་མེ་ལོང་གི།) སྟེང་དུ་བབས་པའི་མི། །བཙན་དང་གྲི་བོ་བསྡོངས་པའམ། །ཀླུ་དང་བཙན་དུ་བསྡོངས་པ་གནོད། །བུད་མེད་ཟླ་[རིབ]་ནད་འོང་གཟར། །བཙན་གཟེར་ཁྲག་ནད་ཕོལ་མིག་དང་། །མཁྲིས་ནད་ཚ་བའི་ནད་ཀྱང་འོང་། །རི་དམར་འཛེག་དང་ལུང་དམར་འགྲིམ། །དམར་བཤས་[འདི]་ལོང་གཏར་སྲེག་འཛེམ། །ར་མདའ་ཁུ་ལོག་གཤགས་བར་དང་། །མནའ་དང་དམར་གྱི་སར་མི་འགྲོ། །སྲོག་གཅོད་མི་བྱེད་ནད་ལ་གཟབ། །ནོར་གོད་དགྲ་དང་ལོ་ཉེས་འོང་། །ཤེས་རབ་ཕྱོགས་འདོན་བཙན་མདོས་བྱ། …
+
+p. 403 (img. 413): for one whose year falls on the seven-red, the *btsan* joined with the male spirits, or the nāgas joined with the *btsan*, harm; a woman's illness of the moon (the word looks like ཟླ་རིབ on the scan; Yigdzin-1 reads ཟླ་རྡིབ, the etext ཟླ་ཇིབ; not identified), the *btsan*'s stabbing pain, blood illness, swellings (ཕོལ་མིག, phol mig), bile illness and fever come. Climbing red mountains and roaming red valleys, slaughter and «[འདི]་ལོང» (not understood), and bloodletting and moxa are avoided; the places of disputes, oaths and red are not to be gone to; take no life and beware of illness. Recite the Prajñāpāramitā, make the *btsan*'s thread-cross.
+
+> བདུན་དམར་ལ་བབས་བཙན་འདྲེ་གནོད། །ནད་དུ་གཟེར་ཐབས་སྤོས་གྲི་དང་། །ལུས་ལ་གཏར་སྲེག་བྱེད་པ་འོང་། །བོན་དུ་རུ་རྒྱས་བཙན་མདོས་བྱ། །ཡང་ན་ཤ་བརྒྱ་ཟན་བརྒྱ་གཏོང་། །ཕྱི་ཡི་ཆོ་ག་རྒྱས་པར་བྱ། །ནལ་བུ་འཁོན་ཟས་དམར་ལ་གཟབ།
+
+p. 404 (img. 414), the short round: falling on the seven-red, the *btsan* demons harm; in illness, stabbing pains and the knife (the words between not understood), and "bloodletting and moxa will be done on the body", that is, the year brings them. For a Bonpo (བོན་པོ, bon po), the *ru rgyas* rite (རུ་རྒྱས, ru rgyas; not identified) and the *btsan*'s thread-cross, or a hundred meats and a hundred doughs given out; beware of an illegitimate child (ནལ་བུ, nal bu), the food of a grudge, and red.
+
+> ནག་སྐྱེས་བདུན་དམར་བབས་པ་ན། །གཅན་གཟན་བཟུང་དང་མཚོན་འཕོག་དང་། །རྨ་ཁྲག་ངོ་སྟེ་དམ་སྲི་གནོད། །ནད་ནི་སྟོད་མི་བདེ་ཞིང་སྐྱུག །མེ་བཙའ་བཟང་ལ་གཏར་ཁ་ངན།
+
+p. 405 (img. 415), by the natal mewa: born under the two-black, falling on the seven-red, beasts of prey, the strike of weapons, wounds and blood, the *dam sri* harm; the upper body uneasy, with vomiting; moxa good, bloodletting bad ([year-of-life.md](year-of-life.md)).
+
+**The three together.** The seven-red by its colour alone avoids both (p. 403) or says the year brings them (p. 404); born under the two-black, the same seven-red makes moxa good and bloodletting bad (p. 405). Of the year of age's mewa, only these lines name bloodletting or moxa; the other colours, and the other natal mewa on the seven-red (pp. 405–408), do not. WB does not say which reading leads when two apply.
+
+### Chapter 20: the framework of the element reckoning (vol. 1, pp. 218–251, img. 228–261)
+
+*The framework of the element reckoning, and what the sūtras and tantras say* («ལེའུ་ཉི་ཤུ་པ། འབྱུང་རྩིས་ཀྱི་ཁོག་འབུབས་དང་མདོ་རྒྱུད་ནས་གསུངས་པའི་སྐོར།», p. 218). It holds no table of the la, the life force or illness by date, month or hour; what it says of them is the body as the five elements, the illnesses and spirits of each element, and the stages of a life. Outline from the etext and Yigdzin-1, page by page:
+
+| Pages (img.) | What it holds | Here |
+| --- | --- | --- |
+| 218–221 (228–231) | Salutation; the world forming in the void from wind, water, earth and fire; the turtle (རུས་སྦལ, rus sbal) as the ground of all; the old father and mother of sky and earth, Khen and Khon, and their children, the trigrams, in a tale of quarrels, curses and deaths (a curse: «ཕོ་ཡི་བླ་ཤོར་སྡུག་བསྔལ་ཤོག», "may the man's la be lost and he suffer", p. 220) | outline |
+| 222 (232) | The eight trigrams and the twelve year animals born of them; the months by animal | outline |
+| 222–227 (232–237) | The world systems after the Abhidharma and the Kālacakra; the ages (*rdzogs ldan* to *rtsod ldan*); the first kings; the peopling of Tibet from the monkey and the rock ogress | outline |
+| 227–231 (237–241) | Mañjuśrī's field, the five-peaked mountain (རི་བོ་རྩེ་ལྔ, ri bo rtse lnga) in China, its temples and springs (one that "cures all illnesses", one whose water "calms illnesses", p. 229); Mañjuśrī's birth from a tree, with its year, month, date, weekday, mansion and hour (pp. 230–231) | outline |
+| 231–232 (241–242) | Why a turtle; the turtle of emanation and of relics; **its body as the five elements, outer, inner and secret**, with the organs, directions, clans, years, weekdays and mansions of each element | quoted below (p. 232) |
+| 233–234 (243–244) | The nine mewa from the turtle's openings, with their gods; the planets from its limbs and teeth; **the 28 mansions from its vertebrae, "sending illness to people"** | quoted below (p. 234) |
+| 234–235 (244–245) | The twelve year animals named; **the twelve stages of a life (*dar gud*) by animal: the bird for illness, the dog for death, the pig for the grave**; the sixty years, the *kha srog*, the months and the hours | quoted below |
+| 235–237 (245–247) | The planets and the seasons; **the turtle's flesh, blood, breath, bone and sinews as the elements; the hidden life force, the body, power and wind-horse from its mind**; the elements' colours, numbers, shapes, castes, kin, **spirits, illnesses**, voices, works and foods; the inner elements in the womb; **the secret elements, the organs** | quoted below (pp. 236–237) |
+| 237–238 (247–248) | The tantras of the reckoning taught by the turtle and by Kong tse 'phrul rgyal (ཀོང་ཙེ་འཕྲུལ་རྒྱལ, kong tse 'phrul rgyal), 360 in all; the word *gab tshe*, which hides "karma and merit, the life force and the body" («ལས་དང་བསོད་ནམས་སྲོག་ལུས་གབ») and counts the span of life (*tshe*) long or short | outline |
+| 238–240 (248–250) | The years from Khen and Khon; the story of Kong tse: a king's son struck by **an illness of the earth lords and nāgas** («ས་བདག་ཀླུ་ཡི་ནད», p. 239) after digging the earth and felling sacred trees; animals killed as his ransom, a dream that this leads to hell, the nāga king's counsel, and Kong tse's birth; the chronology to the Tibetan kings | outline |
+| 241–242 (251–252) | The fifteen starting points (སྐོར་འགོ, skor 'go) of the Chinese reckoning and the fifteen of the Tibetan; **whose life force, body, power and wind-horse matter most** (p. 242) | quoted below |
+| 242–247 (252–257) | The 84,000 doors of reckoning gathered into 360 tantras, five classes and six summaries; the three periods of translation into Tibet and the books of each (among them commentaries on «ལོ་ལ་སྲོག», «དྲུག་ཅུ་ལུས», «དབང་ཐང» and «ཀླུང་རྟ», p. 245) | outline |
+| 247–250 (257–260) | Dhu har nag po and his transmission; the system of Khams pa Khra mo: its tantras, twenty commentaries (among them one on illness and spirits, «ནད་འདྲེའི་འགྲེལ», and one on the la pebbles, «བླ་རྡེལ་འགྲེལ་པ», p. 248), the "eight ends of action" (the first, «བླ་སྲོག་ཡིད་ཀྱི་གའུ», a charm-box of the la, life force and mind, p. 249), the pebble counts (p. 249, [reckonings.md](reckonings.md)) | outline |
+| 250–251 (260–261) | The lineage to WB; the sources WB used; the colophon of the chapter | outline |
+
+#### The body as the five elements (p. 232, img. 242)
+
+After the turtle has been cut open "to show outer, inner and secret", the inner and the secret (read on the scan):
+
+> ནང་ལྟར་རྩ་རྒྱུས་ཤར་ཕྱོགས་ཤིང་། །དབུགས་དྲོད་ལྷོ་ཕྱོགས་འབྱུང་བ་མེ། །རུས་པ་ནུབ་ཕྱོགས་འབྱུང་བ་ལྕགས། །ཁྲག་དང་ཆུ་སེར་བྱང་ཕྱོགས་ཆུ། །ཤ་ལས་མཚམས་བཞི་ས་རུ་སྲིད། །གསང་ལྟར་དོན་སྙིང་རྣམ་པ་ལྔ། །རྩིབ་གཡས་མཆིན་པ་ཤར་དུ་འགྲོ། །ཡང་ཞིང་གཡོ་བ་མཆིན་པ་ཡིན། །དེ་ཕྱིར་ཤར་ཕྱོགས་འབྱུང་བ་ཤིང་། །སྙིང་དང་མགོ་ཀླད་ལྷོ་རུ་བོར། །འབར་ཞིང་དྲོ་བ་དེ་ཡིན་པས། །ལྷོ་ཕྱོགས་མེ་ཡི་ཁམས་སུ་ངེས། །གློ་བ་རྩིབ་གཡོན་ནུབ་ཏུ་བོར། །འདར་ཞིང་གཅོད་པ་དེ་ཡིན་པས། །ནུབ་ཕྱོགས་ལྕགས་ཀྱི་ཁམས་སུ་ངེས། །མཁལ་མ་ཆུ་སོ་བྱང་དུ་བོར། །རླན་ཞིང་གཤེར་བ་དེ་ཡིན་པས། །བྱང་ཕྱོགས་ཆུ་ཡི་ཁམས་སུ་ངེས། །མཆེར་པ་ཡན་ལག་མཚམས་བཞིར་བོར། །སྲ་ཞིང་བརྟན་པ་དེ་དག་སྟེ། །དེས་ན་མཚམས་བཞི་ས་རུ་ངེས།
+
+Inwardly, the channels and sinews (རྩ་རྒྱུས, rtsa rgyus) are wood in the east; breath and warmth fire in the south; bone iron in the west; blood and lymph (ཆུ་སེར, chu ser) water in the north; flesh earth in the four corners. Secretly, the five vital organs: the liver, with the right ribs, went east, and being light and moving it is wood; the heart and the brain went south, blazing and warm, fire; the lungs, with the left ribs, went west, trembling and cutting, iron; the kidneys and the waterways (ཆུ་སོ, chu so) went north, moist and wet, water; the spleen went to the four corners with the limbs, firm and stable, earth. (Outwardly, a line before: the teeth's bone iron, the body hair wood, the steam of the mouth fire, the urine water, the skin and limbs earth.) The page goes on to give each element's trigram, year animals, weekday, mansions and great clan (quoted for the clans in [personal-mansions.md](personal-mansions.md)).
+
+#### The mansions send illness; the stages of a life (pp. 234–235, img. 244–245)
+
+> རུས་སྦལ་སྒལ་ཚིགས་ཉེར་བརྒྱད་ལས། །ཆ་འཛིན་སྐར་མ་ཉེར་བརྒྱད་དེ། །མི་ལ་ནད་གཏོང་ལྷ་འདྲེས་བྱེད། །རེ་མ་ཏཱི་ཡི་སྤྲུལ་པ་སྟེ།
+
+From the turtle's twenty-eight vertebrae come the twenty-eight mansions that hold their parts; they send illness to people, done by gods and demons; they are emanations of Revatī (རེ་མ་ཏཱི, re ma tI). (The second and fourth lines from Yigdzin-1 and the etext; the first and third read on the scan.)
+
+> གཞན་ཡང་དར་གུད་དང་སྦྱར་བའི། །གོ་རིམས་ཚུལ་དུ་འདི་བཞིན་ལ། །ཁུང་དུ་འཛུལ་བ་བྱི་བ་སྟེ། །དབུགས་ལེན་བྱི་བ་དག་དང་སྦྱར། །མངལ་གནས་དུས་ན་ཁྲག་སྟོབས་ཆེ། །དེ་ཕྱིར་གླང་དུ་མངལ་གནས་བརྗོད། །ལུས་རྫོགས་པ་ནི་རྩ་རྒྱུས་བཀྲ། །དེ་ཕྱིར་ལུས་རྫོགས་སྟག་དང་འདྲ། །བཙས་མ་ཐག་ནས་རྐང་པ་ཁྱོལ། །དེ་ཕྱིར་ཡོས་བུ་བཙས་པ་འདྲ། །ངན་པ་བཀྲུ་བ་ཁྲུས་བྱེད་དེ། །དེ་ཕྱིར་ཁྲུས་བྱེད་འབྲུག་དང་འདྲ། །གོས་ལ་ཕུད་གྱོན་བྱེད་པ་སྟེ། །དེ་ཕྱིར་གོས་གྱོན་སྦྲུལ་དང་མཚུངས། །ལས་བྱས་ནས་ནི་ཟས་ཟ་བ། །དེ་ཕྱིར་ལས་བྱེད་རྟ་དང་འདྲ། །དར་བ་ཤ་ཁྲག་ཀུན་དང་ལྡན། །དེ་ཕྱིར་ལུག་དང་དར་བ་མཚུངས། །གུད་པ་དག་ནི་གཉེར་མ་མང་། །དེ་ལྟར་སྤྲེལ་དང་གུད་པ་མཚུངས། །ན་བ་དག་ནི་འཁུན་པ་སྟེ། །དེ་ཕྱིར་ན་བ་ཕུག་རོན་བྱ། །ཤི་བ་ཐང་ལ་བོར་བས་ན། །དེ་ལྟར་ཤི་བ་ཁྱི་དང་མཚུངས། །དུར་དུ་ཞུགས་པ་ས་ཡང་བརྐོ། །དེ་ལྟར་དུར་ཞུགས་ཕག་སྦྱར་བའི། །དར་གུད་ཕྱོགས་ཀྱང་དེ་བཞིན་གནས།
+
+The twelve stages of rise and decline (དར་གུད, dar gud) set beside the animals: the mouse slips into a hole, so taking breath; the ox, strong in blood in the womb, the womb; the tiger, striped with sinews, the body complete; the hare, its legs bent from birth, the birth; the dragon washes away what is bad, the bath; the snake puts on clothes, the dressing; the horse eats after it works, the work; the sheep, full of flesh and blood, the prime; the monkey, many-wrinkled, the decline; **the dove or bird (ཕུག་རོན, phug ron), which moans, the illness**; the dog, a corpse left on the plain, the death; the pig, which digs the earth, the entry into the grave. (Read on the scan; «ཁྲག» so on the scan, with MITRA, where Yigdzin-1 has ཁྱག; «འཁུན» and «ཕུག་རོན» as the print has them; ch. 21, p. 253, gives the bird its place for the same reason: «ཕུག་རོན་བྱ་རུ་འདོད་པ་ཡང་། །ན་འཁུན་མཚོན་པའི་དབང་གིས་བརྗོད།», "that the dove is made the bird is said to show the moaning of the sick".) The stages as a reckoning of the four aspects, with the illness stage among the six bad, are ch. 21's (p. 258), in [year-of-life.md](year-of-life.md), *The sectors of growth and decline*.
+
+#### The aspects from the turtle; the elements' spirits and illnesses (p. 236, img. 246)
+
+> སྤྲུལ་པའི་རུས་སྦལ་ཤ་དག་ལས། །ས་ཁམས་བཅོ་བརྒྱད་ཁྲག་ལས་ཆུ། །དབུགས་ལས་རླུང་དང་རུས་པ་ལྕགས། །རྩ་རྒྱུས་ཤིང་རྣམས་བཅོ་བརྒྱད་སྲིད། །རུས་སྦལ་ཀུན་གཞི་དེ་ལས་ནི། །བག་ཆགས་ལྡན་པ་སྦས་པའི་སྲོག །ཉོན་མོངས་ཡིད་ལས་ལུས་བྱུང་ཞིང་། །ཡིད་ཀྱི་རྣམ་ཤེས་དབང་ཐང་ཡིན། །སྒོ་ལྔའི་རྣམ་ཤེས་ཀླུང་རྟ་ཡིན།
+
+From the turtle of emanation: from its flesh the eighteen of earth, from its blood water, from its breath wind, from its bone iron, from its channels and sinews the eighteen of wood. From the turtle's ground of all (ཀུན་གཞི, kun gzhi) comes the hidden life force (སྲོག, srog), which carries the imprints; from the afflicted mind the body (ལུས, lus); the mental consciousness is the power (དབང་ཐང, dbang thang), the consciousness of the five senses the wind-horse (ཀླུང་རྟ, klung rta).
+
+> འདྲེ་ནི་ཤིང་ལ་གཉན་ཐེའུ་བྲང་། །མེ་ལ་བཙན་དང་གྲེ་བོ་དང་། །ས་ལ་ས་བདག་ཡུལ་གྱི་འདྲེ། །ལྕགས་ལ་རྒྱལ་པོ་དཀོར་བདག་དང་། །ཆུ་ལ་ཀླུ་དང་མ་མོའོ། །ནད་ནི་ཤིང་ནད་རྩ་རྒྱུས་རེངས། །མེ་ལ་ཚ་བ་མགོ་ནད་དང་། །ས་ལ་ལྕི་ཞིང་འཐིབས་པའི་ནད། །ལྕགས་ལ་གཟེར་ཟུག་རུས་པ་ན། །ཆུ་ལ་གྲང་བ་རོ་སྨད་ན།
+
+| Element | Its spirits | Its illness |
+| --- | --- | --- |
+| wood | the *gnyan* and the *the'u rang* (ཐེའུ་བྲང, the'u brang) | the channels and sinews stiff |
+| fire | the *btsan* and the male spirits (གྲེ་བོ, gre bo) | fever (ཚ་བ, tsha ba) and illness of the head |
+| earth | the earth lords and the spirits of the land | illness heavy and dull (ལྕི་ཞིང་འཐིབས་པ) |
+| iron | the king spirits and the lords of offerings (དཀོར་བདག, dkor bdag) | stabbing pains, the bones ache |
+| water | the nāgas and the *ma mo* | cold (གྲང་བ, grang ba), the lower body aches |
+
+Read on the scan, where Yigdzin-1 has three slips: «ལྟ་སྲུང» for the print's «ལྷ་སྲུང» (the kin's line before), «བཙུན» for «བཙན», «འཇིབས» for «འཐིབས». The same page gives each element's colour, number, shape, way of moving, kind of hair, caste, kin, voice, mark on the body, work and food; then the inner elements forming the body in the womb (the mind on the horse of wind enters the womb; wood and wind lay the channels and sinews, water the blood and lymph, iron the bone, earth the flesh, fire the warmth that pervades all; Yigdzin-1, the etext agreeing), and, p. 237 (img. 247, read on the scan), the secret elements:
+
+> གསང་བའི་འབྱུང་བ་དོན་སྣོད་ལ། །གྲུབ་སྟེ་དེ་ཡང་འདི་བཞིན་ཡིན། །སྙིང་ཁམས་མེ་ལ་གློ་བ་ལྕགས། །མཆིན་པ་ཤིང་ལ་མཁལ་མ་ཆུ། །མཆེར་པ་ས་ཁམས་སེམས་ཉིད་མཁའ། །དེ་ནི་གསང་བའི་འབྱུང་བའོ།
+
+The secret elements are in the solid and hollow organs: the heart fire, the lungs iron, the liver wood, the kidneys water, the spleen earth, the mind itself space.
+
+#### Whose aspect matters most (p. 242, img. 252)
+
+> སྐྱེས་པར་རྡོ་རྗེ་རྒྱ་གྲམ་སྲོག །བྱིས་པར་འཁོར་ལོ་རྩིབས་བརྒྱད་ལུས། །བུད་མེད་གཡུང་དྲུང་དབང་ཐང་གཅེས། །མི་ཆེན་པདྨ་འདབ་བརྒྱད་ཀླུང་། །གཅེས་ལ་བརྩི་བར་བཞེད་པ་ཡིན།
+
+After the fifteen starting points of the Tibetan reckoning (read on the scan): for a man the life force, the crossed vajra; for a child the body, the eight-spoked wheel; for a woman the power, the swastika; for a great person the wind-horse, the eight-petalled lotus: each is held the most precious and reckoned. Ch. 25 (p. 420, RD12 above) reports another view, the life force for a man, the body for a woman, the la for a king, the power for a monk.
+
+### Chapter 21: the life force, the body and the la (vol. 1, pp. 252–258, img. 262–268)
+
+*The starting points of the Chinese reckoning, the* sgang sgril *and the rest* («ལེའུ་ཉེར་གཅིག་པ། ནག་རྩིས་ཀྱི་སྐོར་འགོ་དང་སྒང་སྒྲིལ་ལ་སོགས་པའི་སྐོར།», p. 252). The primer the reckonings use ([reckonings.md](reckonings.md), *The nine means of reckoning*; the mewa, trigrams and stages in [year-of-life.md](year-of-life.md)). What it says of the body, the life force and the la:
+
+**The elements in the body** (p. 252, img. 262, read on the scan), as in ch. 20 but with the hollow organs paired:
+
+> ནང་གི་འབྱུང་བའི་དྭངས་མ་སེམས། །དྭངས་མ་རླུང་གི་རྟར་ཞོན་ནས། །མངལ་གྱི་སྒོར་འཇུག་དེ་ལ་ནི། །ཤིང་ཁམས་རྩ་དང་རྒྱུས་པ་ཆགས། །རྩ་ལ་ཁྲག་དང་ཆུ་སེར་ཆགས། །རུས་པ་ལྕགས་ལ་ཤ་ནི་ས། །དྲོད་ནི་མེ་ཡིན་ཀུན་ལ་ཁྱབ། །དེ་ནས་གསང་བའི་འབྱུང་བ་ནི། །ཤིང་ནི་མཆིན་པའི་རྩ་ལ་གནས། །མེ་ནི་སྙིང་ལ་མཆེར་པ་ས། །གློ་བ་ལྕགས་ལ་མཁལ་མ་ཆུ། །མཆིན་པ་མཁྲིས་པ་འབྲེལ་བ་དང་། །སྙིང་དང་རྒྱུ་མ་གློ་བ་ལོང་། །ཕོ་དང་མཆེར་པ་མཁལ་ལྒང་འབྲེལ།
+
+The clear essence of the inner elements is the mind; riding the horse of wind it enters the door of the womb; there wood forms the channels and sinews, on the channels form the blood and the lymph, iron is the bone, earth the flesh, fire the warmth that pervades all. The secret elements: wood dwells in the channels of the liver, fire in the heart, earth in the spleen, iron in the lungs, water in the kidneys; the liver is linked with the gall bladder (མཁྲིས་པ, mkhris pa), the heart with the small intestine (རྒྱུ་མ, rgyu ma), the lungs with the large intestine (ལོང, long), the stomach with the spleen, the kidneys with the bladder (ལྒང, lgang; so the scan at 4× seems to read, MITRA སྒང). WB writes the bladder «ལྒང» here, the word KL prints as the la's place at daybreak (above).
+
+**The life force of the year animals, the body, and the la** (p. 253, img. 263, read on the scan; Yigdzin-1's «ལྕགས་ཁྱི་འབྲུག» corrected to the print's «ལྕགས་ཀྱི་འབྲུག»):
+
+> དེ་རྣམས་སྲོག་གི་ངོས་འཛིན་ནི། །སྟག་ཡོས་སྲོག་ཤིང་རྟ་སྦྲུལ་མེ། །བྱ་སྤྲེལ་ལྕགས་ལ་བྱི་ཕག་ཆུ། །གླང་ལུག་ཁྱི་འབྲུག་བཞི་པོ་ས།། ལུས་ཀྱི་ལྡེ་མིག་བསྟན་པ་ནི། །ཤིང་གི་བྱི་གླང་ཤིང་རྟ་ལུག །ཆུ་ཡི་སྟག་ཡོས་ཆུ་བྱ་སྤྲེལ། །ལྕགས་ཀྱི་འབྲུག་སྦྲུལ་ལྕགས་ཁྱི་ཕག །ལུས་ནི་ལྕགས་ཡིན་ཐེ་ཚོམ་མེད། །འདི་ནི་མ་ནོར་བརྟགས་བྱས་ནས། །མ་ལུས་ཤིང་ལ་བུ་ལུས་ཆུ། །དགྲ་ལུས་ས་ལ་གྲོགས་ལུས་མེ། །བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར། །རབ་ཀླུང་ལུས་བུར་བྱེད་ན་ཡང་། །ཁམས་སམ་སྐྱེས་སྨེར་འཛིན་པ་ནི། །རྣམ་དག་རྒྱུད་ཀྱི་དགོངས་པར་འབྱོར།
+
+- **The life force** (སྲོག, srog) by the year's animal: tiger and hare wood, horse and snake fire, bird and monkey iron, mouse and pig water, ox, sheep, dog and dragon earth.
+- **The body** (ལུས, lus): a key, "the body is iron, no doubt", for the wood mouse and ox and the wood horse and sheep, the water tiger and hare and the water bird and monkey, the iron dragon and snake and the iron dog and pig; from it, "examined without error", the mother's body wood, the son's water, the enemy's earth, the friend's fire. (The other years' bodies follow from the same key; the page does not spell them out.)
+- **The la** (བླ, bla): «བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།», "though the la is commonly reckoned as the mother of the body, as the mother of the life force it accords with the tantras' meaning". So WB's la is the element that gives birth to the life force's element: for a tiger (life force wood) the la is water, for a horse (fire) wood, for a bird (iron) earth, for a mouse (water) iron, for an ox (earth) fire.
+- **The wind-horse** (ཀླུང་རྟ, klung rta): some make it the son of the body; taking it as the element or as the birth mewa accords with the pure tantras.
+
+Then the thirty pairs of years with their sounding element (ཁ་སྲོག, kha srog; «ཁ་སྲོག་སུམ་ཅུ»), each pair with a mewa and an image of its element («ཤིང་བྱི་བཞི་ལྗང་ཁྲོ་ཆུའི་ལྕགས», the wood mouse four-green …; «མེ་སྟག་གཉིས་ནག་རྩུབ་པའི་མེ», the fire tiger two-black …), and a gloss in brackets naming a part of a body: the first «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», "in truth, the turtle's skull"; among the others, read on the scan, «མངལ་གྱི་རྩ» (the womb's channel), «ཁ་ཆུ» (the mouth's water), «ཕོ་མཚན་ཤ» (the flesh of the male organ), «སྙིང་དབུས་རུས་པ» (the bone in the middle of the heart), «ལྕེ་ཆུང་རྩ» (the channel of the uvula), «སྙིང་གི་ཤ» (the heart's flesh), «རུས་ནང་དྲོད» (the warmth within the bones), «གློ་མཆིན་རྩ» (the channel of lungs and liver), «དྲི་ཆུ» (urine) (pp. 253–254, img. 263–264). They close with «ཁ་སྲོག་སུམ་ཅུ་རུས་སྦལ་ལུས་ལས་ཆད་པའི་ཚུལ།» (etext p. 254), "how the thirty *kha srog* came from the turtle's body": the parts are the turtle's, where each pair came from, not places in a person. Ch. 22 takes the thirty up again by the birth (pp. 271–275, read by RD13, [year-of-life.md](year-of-life.md), *Readings by the natal trigram*), each with its part of the turtle and an illness of the one born, and there puts the wood mouse and ox at the turtle's hip and thigh («རུས་སྦལ་དཔྱི་དང་བརླ་ལས་ཆད»), where ch. 21's first gloss has its skull.
+
+**The aspects of the month, the day and the hour** (p. 255, img. 265, read on the scan): after the hours as animals (daybreak the hare, sunrise the dragon … before dawn the tiger) and the power (དབང་ཐང, dbang thang) of the month, day and hour (the year mother to the month, the month mother to the day, the day mother to the hour), WB says of the rest:
+
+> ལོ་ཟླ་ཞག་དུས་དེ་རྣམས་ཀྱི། །སྲོག་ལུས་དབང་ཀླུང་ལོ་དང་མཚུངས།
+
+the life force, body, power and wind-horse of the year, month, day and hour are found as the year's are. And of the mewa of the aspects, after «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་།» (quoted in [year-of-life.md](year-of-life.md)), an image of a body that carries them:
+
+> འདི་ལ་སྐོར་འགོའི་འཕྲུལ་གནད་ནི། །སྲོག་ནི་ཕྲག་པ་གཡས་ལ་གཟར། །དབང་ཐང་རྐང་པ་གཡོན་པས་འདྲུད། །ལུས་དེ་ལྟོ་བར་བཀབ་ནས་འགྲོ། །འདི་ལྟའི་རྒྱུད་དོན་མ་ཤེས་ན། །རྩིས་འབྲས་ལོག་པར་འགྲོ་བ་མང་།
+
+"The key of the starting point: the life force is carried on the right shoulder, the power dragged by the left foot, the body goes covered at the belly; whoever does not know this meaning of the tantras gets many results wrong." The lines give the way the aspects' mewa are counted (up, down, on the birth mewa), not places of the life force in a person's body.
+
+**The stages of rise and decline** (p. 258, img. 268): the twelve stages for the life force, body, power and wind-horse, with the illness stage (ན་བ, na ba) among the six bad, "ruin and disputes" («ན་འཕུང་གྱོད»), are in [year-of-life.md](year-of-life.md); the stages' animals are ch. 20's above.
+
+### Open
+
+- Question: WB's Phugpa list of the la's places (vol. 2, p. 303, img. 311) prints the waist on the 4th, the shoulder blade («སོག་པ») on the 15th and the shin on the 29th, where the climb and descent of the rest of the list, and KL (pp. 201–202), have the knee, the crown and the instep. Are these the blocks' words or slips of the 1996 setting, and which places does the tradition follow?
+- Question: From which text are KL's syllables for the la's dates (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ, pp. 201–202), which are in neither of WB's lists by date (vol. 2, p. 303)?
+- Question: From which text or teacher are KL's six dates to avoid moxa (1, 6, 15, 18, 22, 30, p. 256), given "in agreement with the Tibetan reckoning"? WB counts the 18th good for bloodletting and moxa (vol. 2, pp. 300, 404) and avoids the 4th, 8th and 29th, which KL does not name.
+- Question: Is KL's «ལྒང་བ» at daybreak (p. 202) the bladder, as WB writes «ལྒང» for it (vol. 1, p. 252), or the feet, which WB's course within the day has at daybreak («རྐང་གཉིས», vol. 2, p. 304)?
+- Question: WB calls the la the mother of the life force (vol. 1, p. 253: «བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»), the element that gives birth to the life force's. Its la weekdays by birth animal (vol. 2, p. 330) mostly carry the life force's own element (the mouse's Wednesday water, the tiger's Thursday wood, the bird's Friday iron), not its mother's. How do the two la go together?
+- Question: When a person born under the two-black mewa reaches a year on the seven-red, does WB's reading by the natal mewa (vol. 1, p. 405: moxa good, bloodletting bad) replace the seven-red's own reading (p. 403: both avoided), or do both stand?
+- Question: Ch. 21 glosses the first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the turtle's skull (vol. 1, p. 253), while ch. 22 has them come from the turtle's hip and thigh (p. 271). Does the gloss belong to that pair, or to the whole list?
+- Question: Words not settled on the scan: in the illness lines of the lunar dates, the 2nd's «[སྣོད]་གཞི་དགང» (or སྟོད) and the 3rd's «བྱ་[མྱང]་བྱེད» (MITRA མྱུང) (vol. 2, p. 298); on the seven-red mewa, «ཟླ་[རིབ]» (Yigdzin-1 རྡིབ, the etext ཇིབ) and «[འདི]་ལོང» (vol. 1, p. 403); on the sheep day, «དབྱུག་དཔྱད» (vol. 2, p. 357). What are they?
+
+### Searched and not found
+
+- **A table of the la, the life force or illness by date, month or hour in ch. 20–21** (vol. 1, pp. 218–258): every «བླ», «སྲོག» and «ནད» in the etext of img. 228–268 was looked at; none is in such a table. The la appears in a curse of the turtle tale (p. 220), in book titles (pp. 248–249) and as the mother of the life force (p. 253); illness as the elements' illnesses (p. 236), the mansions that send it (p. 234), the illness stage of a life (pp. 235, 253, 258) and the illness in the tale of Kong tse (p. 239).
+- **KL's six moxa dates as a list in WB**: «མེ་བཙའ» in the etext of both volumes (vol. 1, img. 415; vol. 2, img. 316–320, 324, 365–366, 379, 383, 411) gives only the weekdays, a mansion verse, the day animals, two lists of ch. 33 and ch. 34's work 33; none lists 1, 6, 15, 18, 22, 30.
+- **A reading of a person's enemy or grave mansion in ch. 33**: «དགྲ་སྐར» in vol. 2 is, on pp. 313–321 (img. 321, 326, 327, 329), a class of the mansions themselves (Aśvinī «དགྲ་སྐར་མི་བརྟན», an enemy mansion, unstable), not a person's, and elsewhere in the reckoning for the dead (img. 97, 100) and the notes (img. 514–517); «དུར་སྐར» only on p. 330, the tables of pp. 345–346 and the notes (img. 520). No reading of either for a day.
+- **A rule for the eight-day round of the lunar dates' illness in ch. 33**: none; it gives the matches one by one (the round is ch. 25's goddesses').
