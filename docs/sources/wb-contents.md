@@ -59,7 +59,7 @@ none has not been opened for the app.
 | 34 | 378–428 (386–436) | The important works one by one | [white-beryl-ch34.md](white-beryl-ch34.md) |
 | 35 | 429–454 (437–462) | The five sciences and the like | — |
 | — | 455–473 (463–481) | The colophon (*mjug byang*) | — |
-| — | 474–541 (482–549) | The notes: *Nag rtsis brjed byang snying po gsal ba*, the difficult points of WB's Chinese reckoning | [personal-mansions.md](personal-mansions.md) (pp. 474, 512), [month-entries.md](month-entries.md) (pp. 484, 486), [lunar-day-signs.md](lunar-day-signs.md) (p. 493), [earth-lords.md](earth-lords.md), [weighing.md](weighing.md); [reckonings.md](reckonings.md) (RD11: its eight sections, p. 474 on the scan, and the chapters each explains) |
+| — | 474–541 (482–549) | The notes: *Nag rtsis brjed byang snying po gsal ba*, the difficult points of WB's Chinese reckoning | [personal-mansions.md](personal-mansions.md) (pp. 474, 512), [month-entries.md](month-entries.md) (pp. 484, 486), [lunar-day-signs.md](lunar-day-signs.md) (p. 493), [earth-lords.md](earth-lords.md), [weighing.md](weighing.md) (pp. 534–535 on the scan: the earth lords and the results as separate heads; RD6); [reckonings.md](reckonings.md) (RD11: its eight sections, p. 474 on the scan, and the chapters each explains) |
 | — | 542– (550–) | An index of the work for easy use (*dkar chag thor bu*) | — |
 
 ## Found in passing (2026-10-11, the etext, not read on the scan)

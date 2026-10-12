@@ -292,3 +292,155 @@ above.
   and the app counts them as one voice in that rank.
 - The *nyi ma* is the day's animal sign, the lunar date's animal (open question 9, answered 2026-10-04).
   The trigram and the sme ba are not among the seven.
+
+## Is there a rank of the earth lords? (RD6, 2026-10-12)
+
+Read for the owner's D4 (ROADMAP T2.26): does any text place the earth
+lords (*sa bdag*, ས་བདག) among the factors of a day, or give them a
+weight? **None found.** Searched: WB's notes (vol. 2, pp. 474–541, the
+etext, every place of «ས་བདག», «སྟོབས», «ནུས་པ», «ཆེ་ཆུང», «དམིགས་བསལ»,
+«གཙོ་བོ»), the three readers of WB in KD (vol. 1, 2 and 3, the etext), and KP's
+prose (img. 13–14, the passage above, read on the scan 2026-10-04 and
+2026-10-06: it does not contain «ས་བདག»). What the texts do say is
+below, and none of it is a rank.
+
+### WB's notes: the earth lords are a section of their own, beside the results
+
+The notes close the general reckoning (*spyi rtsis*) with a list of what
+is needed whatever the work. Vol. 2, pp. 534–535 (img. 542, last
+paragraph, and img. 543, ll. 1–8). Yigdzin-1's reading of the 1996
+edition; the paragraph divisions, the heads «གསུམ་པ», «བཞི་པ» and the
+last two lines of each paragraph read on the scan at 2.5–3.5×, the line
+on the "proud chiefs" at 3.5×; BDRC's etext agrees apart from OCR
+slips (མཁོ་མི་འཕོ་བ for the print's མཁོ་བ་ … མི་འཕོ་བ).
+
+> གསུམ་པ་གང་ལའང་མཁོ་བ་ས་བདག་གི་སྐོར་ལ། གནས་པ་དོན་གཉིས་གཏན་དུ་མི་འཕོ་བ་ཉེར་གཅིག་ས་འོག་རིམ་དགུའི་ས་བདག་དགུ་བཅས་ཁྱོན་བསྡོམ་བརྒྱ་དང་ཉེར་གཉིས་པོ་རྣམས་ལོ་ཟླ་སོགས་ལ་མི་ལྟོས་པར་རྟག་ཏུ་དེར་གནས་པ་ཡིན་ལ། སོ་སོའི་ཀོ་ལོང་སྡོམ་པའི་ལས་དེར་བྱ་དགོས་ན་སྒྲིབ་བཅོས་དང་ཉམས་བཅོས་ཅི་རིགས་བྱ། ལོ་ལ་འཁོར་བ་རྗེ་བློན་བཅུ་བདུན་སོགས་ཁྱོན་ཉིས་བརྒྱ་སོ་གཅིག ཟླ་བར་བརྒྱ་ཉེར་བཞི། ཞག་ལྷ་གྱ་གཅིག དུས་ལྷ་སུམ་ཅུ་རྩ་བདུན། གཙོ་བོ་རཱ་ཧུའི་རྩིས་བཅས། སྤྱིར་བཞི་བརྒྱ་དོན་བཞི་ཙམ་དུ་བསྟན་པ་དྲེགས་པའི་གཙོ་བོ་མི་རྩིར་མི་རུང་བ་རྣམས་ཏེ་སྤྱིར་འཇིག་རྟེན་གྱི་ལྷ་འདྲེའི་རྒྱུ་བ་བརྩིར་ཡོད་པ་ལའང་གཞན་དུ་མ་ཡོད་དོ། །དེ་ཡང་གནས་པ་དོན་གཉིས་ནི་ཤར་སྟོད་སྟག་སྡེ་ལྔ། ཤར་སྨད་ཡོས་སྡེ་ལྔ། དེ་གཉིས་ཀྱི་བར་ཤར་དབུས་སུ་ཤིང་གི་ཆ་སྟོང་པ་ཆ་གཉིས། དེ་བཞིན་ཕྱོགས་བཞིར་དབུས་ཆ་གཉིས། མཚམས་བཞིའི་དབུས་དྲང་པོར་ས་ཡི་ཆ་རེ་རེ་སྟེ་ཁྱོན་དོན་གཉིས་སུ་བཤད། གཞན་མི་འཕོ་བ་སོགས་དང་ལོ་འཁོར་སོགས་ནི་ཕྱོགས་གང་ལ་གནས། ཀོ་ལོང་ཅི་ལ་སྡོམ། ཉམས་ན་སྒྲིབ་ཐབས་དང་། བཅོས་ཇི་ལྟར་བྱ་བ་རྣམས་བཻ་ཌཱུར་ལེའུ་སོ་གཅིག་པ་ལས་ཞིབ་ཏུ་ཤེས་པར་བྱ་ཞིང་། ཁྲ་མ་ལས་ཀྱང་རྟོགས་པར་བྱས་ལ། བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།།
+>
+> བཞི་པ་འབྲས་རྩིས་ནི་ལེའུ་སོ་གསུམ་པ་དང་སོ་བཞི་པ་བཞིན་ཏུ། ཚེས་གཟའ་སྐར་མ་བྱེད་སྦྱོར་འཕྲོད་ཆེ་ཆུང་དུས་སྦྱོར་ལ་སོགས་པ་སྤྱི་ཡི་བཟང་ངན་དང་། ཁྱད་པར་ལས་སོ་སོ་ལ་བཟང་ངན་དམིགས་སུ་བསལ་བའི་རྩིས་རིགས་རྣམས་ཚུལ་བཞིན་ཁོང་དུ་ཆུབ་པར་བྱ་བ་ནི་སྤྱི་ལ་གལ་ཆེའོ། །སྤྱི་རྩིས་ཀྱི་སྐབས་སོ།།
+
+"Third, what is needed for anything: the earth lords. Of their two
+kinds of seat (*gnas pa don gnyis*), twenty-one never move and nine are
+the earth lords of the nine tiers under the ground; these 122 stay always
+in their places whatever the year or month, and if a work that would
+press them down (*ko long sdom pa*) has to be done there, the screening
+and mending rites are done as fits. Those that circle in the year, the
+seventeen kings and ministers and the rest, number 231; in the month 124;
+the day's gods 61; the hour's 37; with the reckoning of their chief,
+Rāhu. In all some four hundred and four are taught, the proud chiefs who
+must not be left out of the reckoning; apart from them nothing else of
+the world's gods and spirits that go about is reckoned. [Then the two
+kinds of seat, east and so on, in the house.] Where the fixed ones and the
+year's circling ones stay, what is pressed down on them, the screens and
+the mending, are to be learnt in detail from the *Beryl*'s ch. 31 and
+understood from the charts too; it matters to reckon closely at which
+time a work is done.
+
+"Fourth, the reckoning of results, as in ch. 33 and 34: the date, the
+weekday, the mansion, the karaṇa, the yoga, the concord great and small,
+the combination period and the rest, the good and bad in general, and in
+particular the reckonings that single out the good and bad of each work
+(*dmigs su bsal ba*), are to be understood properly; this matters for the
+general [reckoning]. This is the place of the general reckoning."
+
+What it shows: the notes' summary of what a reader needs for any work
+counts the earth lords (section 3, ch. 31) and the results (section 4,
+ch. 33–34) as **two separate heads**, each to be reckoned for the work;
+it orders neither above the other and gives no way to join them. Within
+section 3 the only instruction is where the lords stand, what a work
+presses on them, and the remedy; the closing «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ» sends
+the reader to the time of the work. The 231 and 124 are the counts RD3
+and RD4 found in ch. 31 itself (p. 174); the 61 and 37 were not checked
+against the chapter.
+
+**Inside the earth lords' own reckonings the notes do rank**, and only
+there. Machine-read (Yigdzin-1 on the scan images, BDRC's etext agrees),
+not checked by eye:
+
+- the sky dog (*gnam khyi*), vol. 2, p. 532 (img. 540): where the year's,
+  month's, day's and hour's dogs are reckoned alike, «ཟླ་བ་གཙོ་བོར་བཟུང་ཞེས་བཤད།»,
+  "it is said to take the month as the chief";
+- the road of a corpse, p. 513 (img. 521): «ལོ་ཟླ་ཞག་དུས་ཀྱི་ས་བདག་གནས་རྒྱུ་བརྩིས་ལ་རོ་ལམ་དུས་བདག་གདུག་པ་དང་མ་ཐུག་པར་བྱ།»,
+  "reckon where the year's, month's, day's and hour's earth lords stay and
+  go, and see that the corpse's road does not meet the lords of the time
+  who are fierce"; and p. 516 (img. 524): «ས་བདག་གདུག་པ་རྒྱུ་བའི་ཚེས་གྲངས་རྣམས་སྤངས། ཉིན་དགེ་མཚན་ངན་བཅས་སོ།»,
+  the dates when fierce earth lords go about are avoided, "the day good,
+  the night bad". These are the funeral's own rules (RD16).
+
+### WB's verse of p. 376 names the earth lords and then leaves them out of the order
+
+The verse that opens the weighing (above, «ཚེས་དབྱངས་གཟའ་སྐར་མ། །འཕྲོད་སྦྱོར་བྱེད་པ་རྟེན་འབྲེལ་ཉི། །ས་བདག་དུས་སྦྱོར་ལ་སོགས་པའི། །སོ་སོའི་འབྲས་བུ་བཟང་ངན་བཅོས། །མ་འདྲེས་གསལ་བར་བཀོད་པ་སྟེ།») names «ས་བདག»
+between the *nyi ma* and the combination period among the results "set
+out unmixed". The seven of the order of strength (p. 371 and p. 376) do
+not include it. The notes' two heads above (section 3 and section 4) are
+the same division seen from the other side: the weighing is a weighing of
+the results of ch. 33–34.
+
+### KD's readers of WB
+
+- Tshul khrims rgyal mtshan (vol. 1, pp. 498–499, above): the particular
+  case reckoned for the person leads over the general result; his examples
+  are a person's own weekdays and mansions. No earth lord.
+- Mkhyen rab nor bu's digest (vol. 3, printed p. 730, etext p. 750;
+  [yogas.md](yogas.md)): the title of the fifth section lists, in WB's
+  order, «འཕྲོད་དང་སྦྱོར་བྱེད་རྟེན་འབྲེལ་ཉི་མ། སྤར་སྨེ་ཚེས་ཀྱི་ས་བདག་ཐེབས་བཟློག་གནམ་སྒོ་དྲང་སྲོང་ཡན་ཀོང་བཅས་ཀྱི་འབྲས་བུ་གསལ་བར་བཏུས་པ»,
+  "the results of the concord, the combination, the effect, the
+  dependent origination, the *nyi ma*, the spar kha, the sme ba, the
+  date's earth lords, the *theb bzlog*, the sky doors, the *drang srong*
+  [and] *yan kong*, gathered clearly". The date's earth lords are one
+  result among the others; the digest ranks none, and (p. 758, etext)
+  opens the date's earth lords with «བཅུ་གཉིས་ཚེས་ཀྱི་ས་བདག་གི །བཟང་ངན་བྱེ་བྲག་བཤད་པར་བྱ།»,
+  their good and bad "one by one".
+- No rule of strength for the earth lords in the three volumes: the places
+  where «ས་བདག» stands within 120 syllables of «སྟོབས་ཆེ», «ཆེ་ཆུང»
+  or «གཙོ་བོར» are verse lines on a person's omens (vol. 3, etext
+  pp. 604, 615–616, of DZ below) and an unrelated passage, where the
+  earth lords are weighed against nothing.
+
+A text outside the readers of WB, in the same volume: Dharmaśrī's
+*'Byung rtsis man ngag zla ba'i 'od zer* (DZ; KD vol. 3, etext pp. 654,
+661–662), a verse manual, sets the earth lords as one entry in lists, not
+over the others: the ten that complete a bride's departure, «ལོ་དང་སྨེ་བ་སྤར་ཁ་དང་། །དར་གུད་ཟླ་བ་ཞག་དུས་ཚོད། །གཟའ་སྐར་ས་བདག་བཅུ་ཡིན་ཏེ།»,
+and the rules of what to avoid, «གཟའ་དང་ཚེས་གཉན་རྒྱུ་བའི་དུས། །ས་བདག་རྒྱུ་དུས་མི་བཏང་འཛིམ། །…
+ས་བདག་ངན་པ་སྤང་བླང་ལ། །…ཚེས་ལ་འཆར་བའི་ས་བདག་དག །གདུག་ཅིང་རྩུབ་པའི་རིགས་ལ་བྱོལ།»
+("avoid the time an earth lord goes about; flee the fierce and rough kind
+of the date's earth lords"). Etext only, unchecked on the scan.
+
+### What this gives D4
+
+No text ranks the earth lords against the seven of the order of strength
+or against the combination period; WB's own division (the notes, section
+3 and section 4) puts them in a head beside the results. Any rank is
+therefore the owner's choice, not a reading. Two readings of the texts
+bear on the choice, and are inferences, not statements of any text:
+
+- WB says a *dmigs bsal* (a reading that singles out the work) leads over
+  the general (p. 376, above) and the notes' section 4 names the same
+  contrast; an earth lord that names the work (dig, bride, building) is
+  that kind of reading. Whether it stands as one with the mansion's list
+  of that work, or below it, no text says.
+- The notes' only rank among earth lords is the month over the day and
+  hour for the sky dog (above); none between kinds of earth lord, and none
+  for the date's earth lords against the year's and month's.
+
+### Open
+
+- Question: does the tradition weigh an earth lord's prohibition (a work
+  not to be done on a seat, in a direction or on a date) against the
+  results of the date's factors, and if so where: with the particular
+  case (*dmigs bsal*), or below every factor of the order of strength?
+- Question: the notes (p. 534) close the earth lords' head with «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».
+  Does it mean the hour's earth lords (the 37) are to be reckoned at the
+  time of the work, as the corpse's road does, or only that the work's
+  time is to be chosen carefully?
+
+### Searched and not found
+
+- A rank, weight or place of the earth lords among the factors: WB's notes
+  vol. 2, pp. 474–541 (etext, every «ས་བདག», «སྟོབས», «ནུས་པ», «ཆེ་ཆུང»,
+  «དམིགས་བསལ», «གཙོ་བོ»; 2026-10-12); KD vol. 1–3 (the etext, «ས་བདག»
+  within 120 syllables of «སྟོབས་ཆེ», «ཆེ་ཆུང་», «ནུས་སྟོབས», «མང་ཉུང་», «གཙོ་བོར»,
+  and the verse of the weighing «སྟོབས་ཆེ་བ་ཉིད» / «རིམ་སྟོབས» /
+  «དམིགས་བསལ་བྱུང་ན», which occurs in vol. 1 p. 514 and vol. 2 p. 557
+  only as Tshul khrims rgyal mtshan's and as a verse on the year's rains); KP img. 13–14.
+- Not searched: BDRC's full-text search for the weighing verse in other
+  manuals' treatment of the earth lords.
