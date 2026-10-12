@@ -441,12 +441,7 @@ day's reading.
 
 ### Open
 
-- Question: in the tiger day's seat (WB vol. 2, p. 224), what is «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or the door's *phyugs* is set to the right": is *sgo phyugs* a part of the door, or a misprint (WBZ's etext garbles the line)?
-- Question: in the horse day's lines (p. 224 and p. 225), is *bang phyin* (བང་ཕྱིན) the journey that carries the corpse, and *rta thog* (རྟ་ཐོག) the horse's back, as read here; and what is *sha chings* (ཤ་ཆིངས) in «ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང»?
-- Question: in the chief earth lord's remedy (pp. 223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be recited, and the *dong tse* (དོང་ཙེ), *spom gta'* (སྤོམ་གཏའ, or སྦོམ; blotted) and *ngar zan* (ངར་ཟན) of the screening?
-- Question: in the seats' closing remedy (p. 224), what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and which work is the *gtong shes* (གཏོང་ཤེས) cited for the hours?
-- Question: which text is the *spang skong* (སྤང་སྐོང) of the hearth god's remedy (p. 225)?
-- Question: on p. 225, what is the *lo* (ལོ) of the day on which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam dwell («ཞག་གི་ལོ་སྟེང་གནས»)?
+- Open questions 120–125 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

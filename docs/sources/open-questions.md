@@ -985,3 +985,38 @@ the text, not about the app.
      warning (distraction, desire), or does the bad date stand only because
      it follows chapter 33? (2026-10-12, O3, [hair-dates.md](hair-dates.md),
      "The 9th's «མོད་འགྱུར» (O3)")
+
+
+120. **The tiger day's «སྒོ་ཕྱུགས».** In the tiger day's seat (WB vol. 2, p.
+     224), what is «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or the door's *phyugs* is set
+     to the right": is *sgo phyugs* a part of the door, or a misprint (WBZ's
+     etext garbles the line)? (2026-10-12, O8,
+     [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+
+121. **The horse day's *bang phyin*, *rta thog* and *sha chings*.** In the
+     horse day's lines (p. 224 and p. 225), is *bang phyin* (བང་ཕྱིན) the
+     journey that carries the corpse, and *rta thog* (རྟ་ཐོག) the horse's
+     back, as read here; and what is *sha chings* (ཤ་ཆིངས) in
+     «ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང»? (2026-10-12, O8,
+     [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+
+122. **The chief earth lord's remedy.** In the chief earth lord's remedy (pp.
+     223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be
+     recited, and the *dong tse* (དོང་ཙེ), *spom gta'* (སྤོམ་གཏའ, or སྦོམ;
+     blotted) and *ngar zan* (ངར་ཟན) of the screening? (2026-10-12, O8,
+     [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+
+123. **The seats' closing remedy.** In the seats' closing remedy (p. 224),
+     what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and
+     which work is the *gtong shes* (གཏོང་ཤེས) cited for the hours?
+     (2026-10-12, O8, [earth-lords.md](earth-lords.md), "O8: what the reading
+     by eye changes")
+
+124. **The hearth god's *spang skong*.** Which text is the *spang skong*
+     (སྤང་སྐོང) of the hearth god's remedy (p. 225)? (2026-10-12, O8,
+     [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+
+125. **The *lo* of the day.** On p. 225, what is the *lo* (ལོ) of the day on
+     which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam
+     dwell («ཞག་གི་ལོ་སྟེང་གནས»)? (2026-10-12, O8,
+     [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")

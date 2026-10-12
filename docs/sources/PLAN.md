@@ -462,3 +462,14 @@ Searched and found wanting, so not to be repeated:
   «ན་ཆུང་མོད་པར» nothing, «ན་ཆུང་མོས» one unrelated poem, «མོད་འགྱུར» 28 hits, the
   first six read, none another almanac's hair dates. WB2's line (I1KG12740
   img. 555) is blotted and cannot be read at 1226 px.
+- **A sharper scan of WB vol. 2's 1996 edition** (O8, 2026-10-12): the
+  Gser thang reprint of the same typesetting (MW3CN5026, vol. 2, I3CN5029,
+  1905 px; image = page + 6 at pp. 223–226) shows the 1996 letters at nearly
+  three times BDRC's 703 px; the next reading of WB vol. 2 starts there. The
+  Taikhang reproduction (MW30116, I5878) img. 324–326 fetched (8280 px), not
+  read; where p. 225 falls in it not established.
+- **WBZ's IIIF manifest** (O8, 2026-10-12): `bdrc.py scans I1KG1710` failed
+  with 502 on the manifest, and the image list
+  (`iiifpres.bdrc.io/il/v:bdr:I1KG1710`) with 502 too; the images answered
+  at `https://iiif.bdrc.io/bdr:I1KG1710::I1KG1710NNNN.jpg/full/max/0/default.jpg`
+  (NNNN the four-digit image number).
