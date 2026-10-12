@@ -45,7 +45,7 @@ black for wood, iron and fire. Ch. 27 opens with the same rule (vol. 2,
 p. 3, img. 11, read on the scan).
 
 So the answer to R1's question "what is a casting" is: within ch. 20–30
-no reckoning is decided by chance, as Mo is. What a reckoning cannot
+no reckoning is decided by chance, as Mo is (one exception: ch. 25's p. 442 gives a second way for the twelve stages that is a pebble cast, *mo*; [health.md](health.md), RD12). What a reckoning cannot
 take from dates is of three other kinds, named chapter by chapter below:
 **a fact to ask** (the clan's element, a person's role, the siblings, who
 lives in the household, the dead's burial), **an observation** (the sky

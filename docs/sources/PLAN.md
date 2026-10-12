@@ -322,3 +322,10 @@ Searched and found wanting, so not to be repeated:
 - **MITRA on whole KP folios** (RD5, 2026-10-12): loops on digits over the
   2550 px woodblock tables; no reading. Use Yigdzin-1 on whole folios and on
   the left and right 55 % halves enlarged 1.5×.
+- **WB vol. 1 pp. 428–429 in BDRC's scan I1KG12906 and its etext** (RD12,
+  2026-10-12): absent; img. 438–441 are pp. 430, 431, 430, 431. The text is in
+  the Zhol print WBZ (I1KG1710 img. 565–568), machine-read only.
+- **A worked numeric example of the fifteen starting points** (RD12,
+  2026-10-12): none in ch. 25; the only example is p. 442's twelve stages.
+- **Recovery or death counts for the mansions** (RD12, 2026-10-12): not in
+  vol. 2's mansion verses (pp. 313–328); not searched elsewhere.

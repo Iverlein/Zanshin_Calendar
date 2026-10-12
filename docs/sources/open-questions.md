@@ -534,3 +534,19 @@ the text, not about the app.
 45. **KP boxes 20, 25, 59, 62: «དབུལ་ལག».** Does it name one day (WB's
     «དབུལ་ལག་འཆར»), as the boxes print it, and which (2026-10-12, RD5,
     [kp-activities.md](kp-activities.md))?
+
+46. **WB vol. 1, pp. 420–421: the animals and relations of the sixteen pebbles.** p. 420–421. For each class of illness (iron, water, wood, fire, earth) the sixteen pebbles name an animal to count from (the monkey and bird for iron, the rat and pig for water, the tiger and hare for wood, the horse and snake for fire, the dragon, ox, sheep and dog for earth) and a relation (enemy, mother, friend, "agreeing" with power or with self, son). Is the animal always one of the class element's two (or four) animals, with the relation fixing which element of the sick person is compared, and is the count (down «ཐུར», up «བཀེན») the sick person's age from that animal? The water class names no friend's start (pebbles 4 and 5 are not both given): a misprint? (2026-10-12, RD12, [health.md](health.md))
+
+47. **WB vol. 1, pp. 417–421: «སྤུབ», «སྒྲུབ», «སྦུབ».** pp. 417–421. The same word of the count is printed «སྤུབ» (pp. 417–419, 421), «སྒྲུབ» (p. 420) and «སྦུབ» (MITRA's reading throughout); the print's scan (694 px) shows «སྤུབ» and «སྒྲུབ» as two spellings. Are they one verb (to turn down) with the older spelling, and does it differ from «བཀེན» (up) only by direction? (2026-10-12, RD12, [health.md](health.md))
+
+48. **WB vol. 1, p. 438: the five day-parts and night-parts.** p. 438. What are the "five day-parts and five night-parts" of «ཤིང་བཟུང་དུས་ཀྱི་འབྱུང་བ་ནི། ཉིན་ལྔ་མཚན་ལྔ་བརྩིས་པ་ཡི།»: the ten elemental periods of the day and night, and from which time (sunrise) are they counted? Which is the first, the wood time? (2026-10-12, RD12, [health.md](health.md))
+
+49. **WB vol. 1, p. 438: the mansions' days and the six deaths.** p. 438. The mansions' days (Aśvinī the third day … Revatī the third): are the numbers days to recovery, and are Pūrvaphalgunī, Uttaraphalgunī, Hasta, Citrā, Svātī and Pūrvabhādrapadā really six deaths, against the verses of vol. 2, pp. 313–328 (mansion-verses.md), which give an illness's cause and ransom for each mansion but no number? Does the line «ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» (one month and six days) belong to Anurādhā alone? (2026-10-12, RD12, [health.md](health.md))
+
+50. **WB vol. 1, p. 438: «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ».** p. 438. The word before «རླུང་བད་ཀན» in «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ» (wood time): a spirit class, or a misreading of «དྲན»? And «ཆ་རྒྱས་དོན་སྣོད་མེ» (p. 438, line 11) is not understood. (2026-10-12, RD12, [health.md](health.md))
+
+51. **WB vol. 1, p. 417: the Sanskrit gloss and Kong tse 'phrul rgyal.** p. 417. The bracketed Sanskrit gloss in the second line is read «བི་དྷ་ཁོ་ན» on the scan and «བི་དབྷ་ཁོ་ན» in the etext; which is meant, and who is Kong tse 'phrul rgyal named in the salutation? (2026-10-12, RD12, [health.md](health.md))
+
+52. **WB vol. 1, pp. 428–429: lost in vol. 1's scan.** pp. 428–429 (lost in vol. 1's scan and etext): does another print of the 1996 edition, or the Taikhang reproduction (MW30116), carry them as pages of the same book, so that the 1996 text is complete, and is the repetition of pp. 430–431 in BDRC's scan a scanning error or a fault of the book? (2026-10-12, RD12, [health.md](health.md))
+
+53. **WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
