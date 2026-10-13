@@ -42,6 +42,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
 import kotlinx.coroutines.delay
@@ -93,13 +95,14 @@ import kotlin.math.sin
 /**
  * The present hour of the Tibetan day on [date] at [zone]: the two-hour period from 05:00 it falls
  * in, 0 to 11, and the minute of the clock day, both null when that day is not running now; kept
- * fresh every half minute while shown. The Tibetan day runs from 05:00 on its date to 05:00 the next
- * morning.
+ * fresh every half minute while shown and at once when the app comes back. The Tibetan day runs from
+ * 05:00 on its date to 05:00 the next morning.
  */
 @Composable
 fun rememberCurrentHour(date: LocalDate, zone: ZoneId): Pair<Int?, Int?> {
     val dayStart = remember(date, zone) { date.atTime(LocalTime.of(5, 0)).atZone(zone) }
-    var now by remember { mutableStateOf(ZonedDateTime.now(zone)) }
+    var now by remember(zone) { mutableStateOf(ZonedDateTime.now(zone)) }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { now = ZonedDateTime.now(zone) }
     LaunchedEffect(zone) {
         while (true) {
             delay(30_000)

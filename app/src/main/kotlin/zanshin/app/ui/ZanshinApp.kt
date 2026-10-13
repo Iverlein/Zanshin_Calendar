@@ -109,8 +109,8 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     // Which calendar's election: the Tibetan weighing (E1–E3) or the 旧暦 listing (E5).
     var electionKyureki by remember { mutableStateOf(false) }
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
-    var today by remember { mutableStateOf(LocalDate.now()) }
-    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { today = LocalDate.now() }
+    // Saveable like the pager's page, so that a task restored after its process was killed knows which day it took for today.
+    var today by rememberSaveable { mutableStateOf(LocalDate.now()) }
 
     // The first-run line (ROADMAP U18): each page's first three opens show it, an open counted once a launch when the
     // page is first shown; a tap puts it away. Saveable, so that turning the phone is not another open.
@@ -135,6 +135,14 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     val pager = rememberPagerState(initialPage = Days.pageOf(today)) { Days.count }
     val drawer = rememberDrawerState(DrawerValue.Closed)
     val scope = rememberCoroutineScope()
+    // The date turned while the app was away: a page left on the old today follows to the new one, a day browsed to stays.
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        val now = LocalDate.now()
+        if (now != today) {
+            if (Days.dateOf(pager.currentPage) == today) scope.launch { pager.scrollToPage(Days.pageOf(now)) }
+            today = now
+        }
+    }
 
     fun chooseCalendar(kind: CalendarKind) {
         calendar = kind
