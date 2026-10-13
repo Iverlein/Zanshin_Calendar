@@ -78,6 +78,30 @@ Uttarāṣāḍhā, which shows the kind of slip directly. Img. 66 of KP lists t
 28 mansions by element with every name written out; it confirms *chu smad*
 as earth and *chu stod* as water, as WB has them.
 
+That table (KP img. 66, §2 of the book's second part, BDRC label 68),
+read on the scan at 2.4–5× on 2026-10-13, as printed: four columns under
+the box number ༢ in its arch, headed fire, earth, wind, water; a first row
+of weekdays, then seven rows of numbered mansions (tha skar = 0, as in
+the app):
+
+| མེ (fire) | ས (earth) | རླུང (wind) | ཆུ (water) |
+| --- | --- | --- | --- |
+| ༡ཉི ༣མིག | ༦སངས ༠སྤེན | ༥ཕུར […]སྤེན (?) | ༢ཟླ […]ལྷག |
+| ༢སྨིན་དྲུག | ༣སྣར་མ | ༤མགོ | ༥ལག |
+| ༧རྒྱལ | ༡༦ལྷ་མཚམས | ༦ནབས་སོ | ༨སྐག |
+| ༩མཆུ | ༡༧སྣྲོན | ༡༡དབོ | ༡༨སྣྲུབས |
+| ༡༠གྲེ | ༢༠ཆུ་སྨད | ༡༢མེ་བཞི | ༡༩ཆུ་སྟོད |
+| ༡༥ས་ག | ༢༡གྲོ་བཞིན | ༡༣ནག | ༢༢མོན་དྲེ |
+| ༢༤ཁྲུམས་སྟོད | ༢༡བྱི་བཞིན | ༡༤ས་རི | ༢༥ཁྲུམས་སྨད |
+| ༡བྲཉེ | ༢༣མོན་གྲུ | ༠ཐཀྲ | ༢༦ནམ་གྲུ |
+
+The weekday row is worn and cut small: the Sun and Mars are fire,
+Venus and Saturn earth, Jupiter wind and the Moon water; the second
+word of the wind cell looks like the earth cell's སྤེན, and the numerals
+before it and before ལྷག (Mercury, water) are not read. The mansion rows
+are clear but for the stack of ༡བྲཉེ, written in one. Yigdzin-1 drops the
+weekday row and misreads ཕྲེ for གྲེ and སྨྲ་བས for སྣྲུབས.
+
 ### Box by box
 
 The left column is Henning's doubled entry; the right, what the print has
@@ -92,6 +116,44 @@ in its place. "Genuine" means the print does have ཆུཾད there.
 | 42 marriage (49) | Uttarāṣāḍhā good and bad | good: ཆུཾད དབོ གྲོཞི ནབསོ … (genuine); bad: … ནག ཁྲུཾད མོནྡྲེ མོནྲུ ཁྲོད ཆོད ཐཀྲ | Uttarāṣāḍhā **good** (WB's verse agrees); **Uttarabhādrapadā bad**. |
 | 45 funerals (51) | Uttarāṣāḍhā good, and good "bad for cremation and burial" | good: ཐཀྲ ནུཾ ཁྲུཾད ནབསོ སྣྲུབས (note) སྐག (note) … (ཁྲོད) མོནྲུ བྱིཞི ཆུཾད (note) | The first is ཁྲུཾད, **Uttarabhādrapadā good**; the second is genuine and qualified, so Uttarāṣāḍhā stays among the named-with-a-qualifier (WB: funeral rites good, cremation and tombs to avoid). |
 | 62 controlling activity (61) | Uttarāṣāḍhā ×2 good; Mṛgaśiras bad and "acceptable" | good: ནབསོ རྒྱལ མྱེ མཆུ ཆོད ནག ས་ག བྲ་ཉེ མོནྡྲེ ནུཾ གྲེ མོནྲུ ཁྲུཾད དབོ ཆུཾད ཐཀྲ; acceptable: ལྷོས སྣྲུབས མགོ ཁྲོད ས་རི; bad: སྣྲོན སྐག སྨིན མགོ ལག གྲོཞི བྱིཞི | Henning's first Uttarāṣāḍhā is ཁྲུཾད, **Uttarabhādrapadā good**; the second is genuine, **Uttarāṣāḍhā good**. The good list also has གྲེ (**Pūrvaphalgunī**) and མོནྲུ (**Śatabhiṣaj**), which Henning leaves out. Mṛgaśiras (མགོ) is in the print both as acceptable and as bad, so it stays out. |
+
+**The mansion runs of these boxes as printed** (O10, 2026-10-13), read
+again on the scans at 1.2–2.2× where the table above gives them only in
+part; the rest of each half (weekdays, dates, day animals, signs) is not
+written out here. Abbreviations as in the table of abbreviations; ཁྲོུཾད is the
+print's khrums stod with both the *naro* and the ring.
+
+- **12 setting out** (img. 27), bad half: «སྐར་མ་བྲཉེ་སྨིན་སྣར་མགོ་ལག་སྐག་མཆུ་གྲེ་དབོ་མྱེ་ནག་སག་སྣྲོན་སྣྲུབས་ཆུཾད་ཁྲོུཾད་ནུཾ་ཀུན་བརྡུངས་…»
+  (ས་ག written སག; the last word goes on to the day animals).
+- **38 divination** (img. 47), good: «སྐར་མ་སྨིན་གྲེ་ནབསོ་རྒྱལ་མཆུ་དབོ་མྱེ་ཆུཾད་སྣྲུབས་མག་ལག་གྲོཞི་བྱིཞི་»
+  then the links; bad: «སྐར་མ་བྲཉེ་སྐག་ནག་སྣྲོན་སག་» then the links.
+  mgo is written མག here.
+- **40 making weapons** (img. 48), good: «སྐར་མ་མགོ་ལག་ཁྲུཾད་སྣྲུབས་ཆོད་ནག་མྱེ་མཆུ་བྲཉེ་»;
+  bad: «སྐར་མ་སྨིན་ཆུཾད་གྲེ་».
+- **42 marriage** (img. 49), good: «སྐར་མ་(ས་རི་)ཆུཾད་དབོ་གྲོཞི་ནབསོ་རྒྱལ་མགོ་སག་འདི་རྣམས་ལ་གཏོང་བ་…»,
+  sa ri in an arched bracket, and the last three "for these, giving
+  (the bride)"; bad, in two runs: «སྐར་མ་བྲཉེ་སྨིན་སྣར་མཆུ་ལྷོཾས་སྣྲོན་སྣྲུབས་» and
+  «[ནུཾ]་བྱིཞི་ལག་མྱེ་སྐག་ནག་ཁྲུཾད་མོནྡྲེ་མོནྲུ་ཁྲོུཾད་ཆོད་ཐཀྲ་». The first word of
+  the second run is at the worn edge (Yigdzin-1 ནུཾ), and a small mark
+  between སྨིན and སྣར is not read.
+- **45 funerals** (img. 51), good half: «…སྐར་མ་ཐཀྲ་ནུཾ་ཁྲུཾད་ནབསོ་སྣྲུབས་དུར་གདབ་ངན། སྐག་རོ་འདྲེན་ངན། ས་རི་དུར་འདེབས་ངན། (ཁྲོུཾད)མོནྲུ་བྱིཞི་ཤིད་ངན། ཆུཾད་སྲེག་པ་དང་སྦ་བ་ངན། རྒྱལ་ཤིད་སྟོན་ངན།»:
+  four plain, then snrubs bad for making a grave, skag for carrying out
+  the corpse, sa ri for burial, khrums stod (bracketed), mon gru and
+  byi bzhin for funerals, chu smad for cremation and hiding, rgyal for
+  the funeral feast. Bad half: «སྐར་མ་སྣར་ལག་གྲེ་མགོ་སག་ལྷོཾས་ཆོད་སྣྲོན་མོནྡྲེ་གྲོཞི་ནག་བྲཉེ་མཆུ་མྱེ་སྨིན་རོ་སྲེག་བཟང་།»,
+  me bzhi and smin drug, at its end, "good for cremation". Yigdzin-1 runs
+  the two halves together here («ས་རི་མྱེ་སྨིན་རོ་སྲེག་བཟང»).
+- **46 supports** (img. 52), good: «སྐར་མ་ཆུཾད་སྣར་སྨིན་ནག་མགོ་རྒྱལ་དབོ་གྲེ་མོནྡྲེ་ནབསོ་གྲོཞི་སྣྲུབས་ས་རི་མོནྲུ་ལྷོཾས་»;
+  bad: «སྐར་མ་སྐག་བྲཉེ་ལག་མྱེ་སྣྲོན་».
+- **61 destructive activity** (img. 61), good: «སྐར་མ་མགོ་ལག་སྐག་མཆུ་ལྷོཾས་མྱེ་མོནྡྲེ་ཆོད་ཁྲུཾད་སྣྲུབས་དབོ་ཐཀྲ་སག་བྲཉེ་སྣྲོན་»;
+  bad: «…སྐར་མ་ཁྲོུཾད་གྲོཞི་མོནྲུ་རུང་ཙམ་སྨིན་གྲེ་…» (the last words not settled at
+  this size). No ཆུཾད in either half.
+- **63 pacifying activity** (img. 62), good: «སྐར་མ་སྣར་ནབསོ་རྒྱལ་ས་རི་མྱེ་དབོ་ཆུཾད་ནུཾ་ཐཀྲ་»;
+  bad: «སྐར་མ་མགོ་མཆུ་ཆོད་མོནྲུ་གྲོཞི་[small letters, not read]སྨིན་གྲེ་བཏང་སྙོམས། སྐར་མ་འདིར་མེད་ལྷག་རྣམས་ངན་པས་སྤངས།»:
+  smin drug and gre neutral, and "the mansions not named here are bad, so
+  avoid them".
+- **64 life and wealth** (img. 62), good: «སྐར་མ་ནབསོ་སྣར་གྲེ་དབོ་ས་རི་གྲོཞི་ཆུཾད་རྒྱལ་ལག་སྣྲོན་ལྷོཾས་སྣྲུབས་ཆོད་ཁྲོུཾད་བྱིཞི་ནག་»;
+  bad: «སྐར་མ་ཐཀྲ་བྲཉེ་སྐག་».
 
 Boxes Henning did not double, checked on the way: 38 astrology (img. 47),
 46 supports (img. 52), 63 pacifying and 64 health and wealth (img. 62) have
@@ -162,14 +224,68 @@ the rain it brings and a birth on it:
 | unstable and changing (ཕྱོགས་སྡེབས་མི་བརྟན་འགྱུར་བ) | rgyal (Puṣya), me bzhi (Hasta), nam gru (Revatī), tha skar (Aśvinī) | offering rites, teaching the dharma, giving vows, presenting petitions and gifts to superiors, quick aims of one's own |
 | very stable (རབ་ཏུ་བརྟན་པ) | snar ma (Rohiṇī), dbo (Uttaraphalgunī), chu smad (Uttarāṣāḍhā), mon gru (Śatabhiṣaj) | taking new land, appointing new chiefs, rites of great stability, gardens and groves, building |
 | quick and good (མྱུར་ལ་བཟང་བ) | mgo (Mṛgaśiras), nag pa (Citrā), lha mtshams (Anurādhā), khrums smad (Uttarabhādrapadā) | ornaments, games, field work, all quick work |
-| fierce (དྲག་པོ) | lag (Ārdrā), skag (Āśleṣā), snron (Jyeṣṭhā), snrubs (Mūla) | destroying, robbing, fierce work |
+| of bad result (འབྲས་བུ་ངན་པ), good for fierce work | lag (Ārdrā), skag (Āśleṣā), snron (Jyeṣṭhā), snrubs (Mūla) | destroying, robbing, fierce work |
 | quick and changing (མྱུར་ལ་འགྱུར་བ) | nabs so (Punarvasu), sa ri (Svātī), gro bzhin (Śravaṇa), byi bzhin (Abhijit), mon dre (Dhaniṣṭhā) | journeys far abroad, trade and all that is not lasting, work to be done quickly |
-| stable and accomplishing (བརྟན་པའི་དོན་གྲུབ) | mchu (Maghā), gre (Pūrvaphalgunī), chu stod (Pūrvāṣāḍhā), khrums stod (Pūrvabhādrapadā) | marriage alliances, buying livestock, taking a retinue, empowerment, consecration, trade, building and foundations, virtuous work, fire offerings |
-| neutral (བཏང་སྙོམས) | smin drug (Kṛttikā), sa ga (Viśākhā) | crafts in the five precious substances and in earth, fire offerings; lawsuits come out even |
+| stable and accomplishing (བརྟན་པའི་དོན་གྲུབ་སྐར་མ) | mchu (Maghā), gre (Pūrvaphalgunī), chu stod (Pūrvāṣāḍhā), khrums stod (Pūrvabhādrapadā) | marriage alliances, buying livestock, taking a retinue, empowerment, consecration, trade, building and foundations, virtuous work, fire offerings |
+| neutral (བཏང་སྙོམས་བྱེད་པ) | smin drug (Kṛttikā), sa ga (Viśākhā) | crafts in the five precious substances and in earth, fire offerings; lawsuits come out even |
 
 The editors add a note to the stable-and-accomplishing class: most
 copies bring in bra nye (Bharaṇī) as well, but the four given in the
 section on results are taken as right.
+
+**The passage** (O10, 2026-10-13), as printed, the editors' bracketed
+numbers and their note in round brackets included; read again on the
+scan at 2.4×, every place where Yigdzin-1 and MITRA differ and every
+numeral at 5–6×. Yigdzin-1 misreads most of the small bracketed numerals
+(༢༨ for ༢༦, ༤ for ༠, ༡༥ for ༦ …) and drops others; MITRA keeps them,
+and the scan has the values below. The print's dots under the class
+names are left out. p. 328 (img. 336, its last nine lines) to p. 329
+(img. 337, lines 1–23):
+
+> ཕྱོགས་སྡེབས་མི་བརྟན་འགྱུར་བ་ཞེས། །རྒྱལ(༧)དང་མེ་བཞི(༡༢)ནམ་གྲུ(༢༦)དང་། །ཐ་སྐར(༠)ཞེས་ནི་བྱ་བ་སྟེ། །མཆོད་ཆོག་ཆོས་འཆད་སྡོམ་པ་འབོགས། །གོང་མར་ཞུ་ནོར་འབུལ་བ་དང་། །རང་དོན་མྱུར་པོ་སྒྲུབ་རྣམས་བཟང་། །དེ་ལ་ཆར་བབས་ཐན་པ་འབྱུང་། །འདི་ལ་སྐྱེས་པའི་ཁྱེའུ་དེ། །ཚེ་ལོ་བརྒྱད་ཅུ་འཚོ་བ་སྟེ། །ལྕེ་བདེ་གཟུགས་བཟང་ལག་པ་བཟོ། །བློ་ལུས་མི་བརྟན་འདུག་མི་ཚུགས། །རང་བཞིན་ཤིན་ཏུ་ངན་པའོ། །ནད་ནི་ཆུང་ངུ་འབྱུང་འགྱུར་ཏེ། །བཏབ་མ་ཐག་ཏུ་འཚོ་བར་འགྱུར། །
+>
+> རབ་ཏུ་བརྟན་པ་རྣམ་བཞི་ནི། །སྣར་མ(༣)དབོ(༡༡)དང་ཆུ་སྨད(༢༠)དང་། །མོན་གྲུ(༢༣)ཞེས་ནི་བྱ་བ་ལ། །ཡུལ་གསར་འཛིན་དང་དཔོན་གསར་བསྐོ། །རབ་ཏུ་བརྟན་པའི་ཆོ་ག་བྱ། །གཞན་དཔོན་ཤིད་དང་མེ་ཏོག་བསྐྲུན། །ལྡུམ་ར་ཚལ་སོགས་བྱ་བ་དང་། །ཀུན་དགའ་ར་བ་བརྩིག་པ་བཟང་། །དེ་ཚེ་ཆར་བྱུང་ཆར་མང་འབབ། །འདི་དག་ལ་ནི་གང་སྐྱེས་པ། །ལོ་ནི་བརྒྱ་ཕྲག་གཅིག་ཏུ་འཚོ། །ཕྱུག་ཅིང་སྦྱིན་ལ་དགའ་བ་སྟེ། །རང་གཞན་ཟས་ལ་སྦྱོར་བ་དང་། །རྒྱུན་དུ་རྫུན་བྲལ་དྲང་པོར་སྨྲ། །གཤིས་ལུགས་ལྷག་པར་ཞེན་ནའང་། །ནད་ཀྱིས་བཏབ་ན་མྱུར་དུ་འཚོ། །
+>
+> མྱུར་ལ་བཟང་བ་རྣམ་བཞི་ནི། །མགོ(༤)དང་ནག་པ(༡༣)ལྷ་མཚམས(༡༦)དང་། །ཁྲུམས་སྨད(༢༥)ཅེས་ནི་བྱ་བ་སྟེ། །རྒྱན་དང་རྩེད་མོ་ཞིང་ལས་དང་། །མྱུར་བའི་ལས་རྣམས་སྒྲུབ་པར་བཟང་། །གལ་ཏེ་དེ་ལ་ཆར་བབས་ན། །དེ་ནས་ཡང་ནི་མྱུར་འབབ་འགྱུར། །དེ་སྐྱེས་ལོ་ནི་རྩ་བརྒྱད་དམ། །ཡང་ན་དགུ་བཅུའི་བར་དུ་འཚོ། །ལྕེ་བདེ་བློ་རྣོ་བཞིན་བཟང་ཞིང་། །གཏམ་ནི་བདེན་པར་སྨྲ་བ་དང་། །སྙན་གྲགས་ལྡན་ཞིང་སེམས་མྱུར་ལ། །མི་གཞན་དེ་ལ་དགའ་བ་དང་། །ངག་བཙན་ཉི་ཤུ་སུམ་ཅུའི་བར། །གཤིས་ལུགས་ངན་ཡང་སླར་འགྱུར་ནས། །རབ་ཏུ་བཟང་སྟེ་དགེ་བར་འགྱུར། །ནད་བཏབ་རིམ་གྱིས་ཞི་བར་འགྱུར། །
+>
+> འབྲས་བུ་ངན་པ་བཞི་པོ་ནི། །ལག(༥)སྐག(༨)སྣྲོན(༡༧)དང་སྣྲུབས(༡༨)ཞེས་བྱ། །འཇོམས་འཕྲོག་དྲག་པོའི་ལས་ལ་བཟང་། །གསོད་དང་རྐུ་བ་ལ་སོགས་པ། །ངན་པར་སྤྱོད་པའི་ལས་རྣམས་བྱ། །དེ་ལ་ཆར་བབས་ཕྱིས་ནས་ཆུང་། །དེ་དག་ལ་ནི་སྐྱེས་པའི་མི། །ཚེ་ལོ་སུམ་ཅུ་ལྔ་བཅུ་དང་། །དྲུག་ཅུ་བདུན་ཅུའི་བར་དུ་འཚོ། །བྱ་བ་བཟང་པོ་མི་བྱེད་དེ། །ངན་པའི་ལས་ལ་རབ་ཏུ་བརྩོན། །མ་ཤིའི་བར་དུ་རང་བཞིན་ངན། །ནད་ཀྱིས་བཏབ་ན་འཚོ་བ་སླ། །
+>
+> མྱུར་ལ་འགྱུར་བ་ལྔ་པོ་ནི། །ནབས་སོ(༦)ས་རི(༡༤)གྲོ་བཞིན(༢༡)དང་། །བྱི་བཞིན(༢༡)མོན་དྲེ(༢༢)ཞེས་བྱ་སྟེ། །གཞན་ཡུལ་ཐག་རིང་བགྲོད་པ་དང་། །ཚོང་སོགས་བརྟན་མིན་ཐམས་ཅད་དང་། །མྱུར་བར་འགྲུབ་པའི་ལས་བྱའོ། །དེའི་ཚེ་ཆར་བབས་མྱུར་མང་འབབ། །དེ་ལ་སྐྱེས་པའི་མི་ཡིས་ནི། །ལོ་ནི་དྲུག་ཅུའི་བར་དུ་འཚོ། །སེམས་ནི་རབ་ཏུ་བཟང་བ་སྟེ། །རང་བཞིན་མཉེན་ཞིང་དཔའ་བ་དང་། །བགྲོད་པ་དང་ནི་རྩོམ་ལ་སྤྲོ། །ན་ཚ་ཆུང་ངུ་ཆུང་ངུ་ལ། །རང་བཞིན་གྱིས་ནི་ཞི་བར་འགྱུར། །རྟག་ཏུ་རྫུན་སྨྲ་རང་བཞིན་ངན། །
+>
+> བརྟན་པའི(བརྟན་པའི་དོན་གྲུབ་སྐར་མ་ལྔར་བྲ་ཉེ་འདྲེན་པ་ཕལ་ཆེར་ལ་འདུག་ཀྱང་འབྲས་བུའི་སྐབས་བཞག་པའི་བཞི་འཐད་པར་སེམས།)དོན་གྲུབ་སྐར་མ་བཞི། །མཆུ(༩)གྲེ(༡༠)ཆུ་སྟོད(༡༩)ཁྲུམས་སྟོད(༢༤)བཞི། །གཉེན་སྦྱོར་བྱ་དང་ཕྱུགས་སོགས་ཉོ། །འཁོར་བསྟེན་དབང་བསྐུར་རབ་གནས་ཚོང་། །མཁར་ལས་རྨང་འདིང་དགེ་ལས་བཟོ། །སྦྱིན་སྲེག་ལ་སོགས་བྱ་བ་བཟང་། །དེ་ལ་ཆར་བབས་སླར་ཡང་འབབ། །འདིར་སྐྱེས་ལོ་ནི་གོ་ལྔ་འཚོ། །བཟོ་ཡི་རིག་བྱེད་མཁས་པ་དང་། །མ་ཤིའི་བར་དུ་རང་བཞིན་ངན། །ནད་ཀྱིས་བཏབ་ཚེ་ཉེས་མི་འབྱུང་། །
+>
+> བཏང་སྙོམས་བྱེད་པ་རྣམ་གཉིས་ནི། །སྨིན་དྲུག(༢)དང་ནི་ས་ག(༡༥)སྟེ། །དེ་ལ་དོན་གཉེར་བཏང་སྙོམས་བྱེད། །རིན་ཅེན་ལྔ་དང་ས་ཡི་བཟོ། །དེ་ལ་སོགས་པའི་བཟོ་རྣམས་དང་། །སྦྱིན་སྲེག་ཆོ་ག་བྱ་བར་བཟང་། །དེ་གཉིས་ལ་ནི་སྐྱེས་པའི་མི། །དང་པོ་ངན་ཡང་ཚེ་སྨད་ལ། །འགྱུར་ཞིང་བཟང་པོ་ཉིད་དུ་འགྱུར། །ནད་ཀྱིས་བཏབ་ཀྱང་གསོ་བ་སླ། །དེ་དག་གི་ནི་བརྟན་འགྱུར་སོགས། །ཐུན་མོང་མཐུན་པའི་ཕྱོགས་བཤད་དོ།།
+
+Readings settled on the scan: «ཆུང་ངུ» (both times, MITRA «ཆུང་དུ»),
+«ཉོ», to buy (Yigdzin-1 «ཉ»), «སྣྲུབས» (Yigdzin-1 «སྣུབས»), «ཤིད» and
+«མེ་ཏོག», «ས་རི» after «ནབས་སོ(༦)» (Yigdzin-1 drops the ས), «རིན་ཅེན» as
+printed (for རིན་ཆེན). The fourth class is named by its result, «འབྲས་བུ་ངན་པ»,
+"of bad result", and is good for fierce work; the table above calls it so.
+
+The rest of each class, in brief: the unstable and changing bring
+drought after rain; a boy born on them lives eighty years, eloquent,
+handsome and skilled with his hands, restless in mind and body, of a
+very bad nature, his illnesses slight and soon over. The very stable
+are good besides for the funeral rites of other chiefs (*gzhan dpon
+shid*), making flowers (?) and building enclosure walls (*kun dga' ra
+ba*); much rain; one born on them lives a hundred years, rich, glad to
+give, feeding himself and others, always truthful, though strongly
+attached; quick to recover. The quick and good: rain, once fallen, falls
+again soon; one born lives 28 or up to 90 years, eloquent, sharp, fair
+of face, truthful, renowned, quick of mind, liked by others, strong of
+speech from twenty to thirty, his bad temper turning good; illness
+subsides little by little. Those of bad result are good for destroying,
+robbing and fierce work, for killing, theft and other evil deeds; the
+rain is late and little; one born lives 30, 50, 60 or 70 years, does no
+good work, is zealous in evil and bad by nature till death, yet
+recovers easily. The quick and changing: rain soon and much; one born
+lives to sixty, of very good mind, gentle and brave, fond of travel and
+of undertakings, his small illnesses passing by themselves, but always
+lying, bad by nature. The stable and accomplishing: rain falls again;
+one born lives 95 years, skilled in the crafts, bad by nature till
+death, unharmed by illness. The neutral: lawsuits come out even; one
+born is bad at first and turns good in later life, easily cured. "So
+the common features, stable, changing and the like, are told."
 
 **Against Henning's nature list** (tibast03.htm, which names WB as its
 source): 24 mansions agree. Four do not: Henning has Revatī "quickly good,
