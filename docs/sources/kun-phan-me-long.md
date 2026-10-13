@@ -36,6 +36,19 @@ clearly. Items 1–4:
 Item 1 is not a table but the prose that opens the book (img. 11–20):
 "clearing away the errors of the calendar-makers".
 
+**What the book is**, in its introduction (img. 8, lines 2–4, read on the
+scan at 1.25× against Yigdzin-1, O10, 2026-10-13; Yigdzin-1 has «དེ་ཤལ» for
+the print's «དོ་ཤལ» and drops «ཕྱིར»):
+
+> …ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས་བཤད་བྱའི་དོན་དེ་དག་རྒྱས་པར་གསལ་ཞིང་། འདིར་གོ་སླ་འཁྱེར་བདེའི་ཕྱིར་གཟའ་ཚེས་སྐར་འཕྲོད་སྦྱོར་བྱེད་རྟེན་འབྲེལ་ཉི་མ་ཏཏྐལ་ས་བདག་ཕྲ་རགས་ལ་སོགས་པའི་འབྲས་བུ་དང་བཅས་པ་རྣམས་མདོར་བསྡུས་སྙིང་པོར་དྲིལ་ཏེ་རེའུ་མིག་ཏུ་བསྒྲིགས་ནས་བསྟར་བ་ལ།
+
+The matters to be told are set out at length in the White Beryl
+(named by its full title); here, to be easy to grasp and to carry, the
+results of the weekday, date, mansion, combination (*'phrod*), yoga
+(*sbyor*), karaṇa (*byed*), link (*rten 'brel*), day animal (*nyi ma*),
+trigram (*tatkal*) and the earth lords great and small are condensed to
+their essence and laid out in tables.
+
 ## Inventory of the boxes
 
 Box number and name from the list of contents (img. 9–10) where it was read,
@@ -62,7 +75,7 @@ read in [kp-activities.md](kp-activities.md).
 | 11 | 26 | ཟས་སྦྱོར་ཆང་བཙོ་བ | preparing food, brewing beer | good/bad table |
 | 12 | 27–28 | ལམ་དུ་འཇུག་པ | setting out on a journey (**Henning**) | good/bad table; then (img. 28) a grid of day animals, dates and mansions for each direction |
 | 13 | 29 | ཞར་བྱུང་ཁྱེའུ་སྒོ་འདོན་བྱེད་པ | by the way: a child's first outing (OCR) | a few lines of prose |
-| 14 | 29–30 | འདོགས་འགྱོགས་སྲང་དང་[…]་བྲེའི་ཙཀྲ | the charts of the steelyard and of the grain measure (OCR) | woodcuts of a steelyard (img. 29) and a measure (img. 30); counted from the Sun's mansion, the Moon's mansion on the beam or the rim means taking in is good and paying out bad, and so on |
+| 14 | 29–30 | འདོགས་འགྱོགས་སྲང་དང་[…]་བྲེའི་ཙཀྲ | the charts of the steelyard and of the grain measure (OCR) | woodcuts of a steelyard (img. 29) and a measure (img. 30), with verses (below, *Box 14's verses*) |
 | 15 | 30–31 | ཚོང་དང་འབྲུའི་འཇལ་ལེན། ཞར་བྱུང་བུ་ལོན་གཏོང་ལེན | trade and measuring grain; by the way, giving and taking loans | good/bad table |
 | 16 | 31 | ནོར་ཅ་གཏོང་ལེན (box: ནོར་ཕྱུགས་གཏོང་ལེན) | giving and taking wealth and goods | good/bad table |
 | 17 | 32 | བཀྲ་ཤིས་དགེ་ལེགས་བྱེད་པ | auspicious and virtuous rites | prose on *g.yang*, then a table |
@@ -117,6 +130,53 @@ read in [kp-activities.md](kp-activities.md).
 | 64 | 62 | ཚེ་ནོར་སྒྲུབ་པ | accomplishing life and wealth (**Henning**) | good/bad table |
 | 65 | 63 | རྒྱས་པའི་ལས | increasing activity (**Henning**) | good/bad table; then prose closing the tables (དེ་ནས་ཀུན་ […]) |
 
+**Box 14's verses** (O10, 2026-10-13), read on the scan at 0.9–1.4×
+against Yigdzin-1; the steelyard's verse runs round its woodcut, and its
+first line in the left column («འདེགས་ཀའི་རིགས་ … རྣམས་བྱ་བའི་ … ཚེ།») is
+split by the drawing:
+
+> (img. 29) འདེགས་ཀའི་རིགས་རྣམས་བྱ་བའི་ཚེ། །ཉི་མའི་སྐར་མ་ནས་བརྩམས་ཏེ། །སྲང་མདའ་སྲང་རྡོ་སྲང་ཐག་དང་། །མཐིལ་དང་བཅས་ལ་བདུན་བདུན་ཏེ། །ཟླ་སྐར་སྲང་མདར་སོང་བ་ན། །ཚུར་ལེན་བཟང་སྟེ་ཕར་འཇལ་ངན། །སྲང་རྡོ་གཉིས་འབྲིད་ཐག་བར་སོང་། །འཇལ་ལེན་གཉིས་ཀ་བཟང་བ་ཡིན། །མཐིལ་བདུན་ལེན་འབྲིང་གཏོང་བ་བཟང་།
+>
+> (img. 30) ཚོང་དང་འབྲུ་ཡི་འཇལ་ལེན་ལ། །བརྩི་ཉིན་ཉི་མས་འཁྱུད་པ་ཡི། །སྐར་མ་ནས་བཟུང་བྲེ་ཁར་བདུན། །ཕྱི་ནང་ཞབས་ལ་བདུན་བདུན་བཀོད། །ཟླ་སྐར་ཁར་སོང་འབྲུ་མང་འདུ། །ཕྱི་ལ་མི་འདུ་ཁ་སྨྲས་འོང་། །ནང་དུ་སོང་ན་བཟང་བ་ཡིན། །འབྲུ་མང་བཀྲ་ཤིས་བསམ་པ་འགྲུབ། །ཞབས་ལ་སོང་ན་བཏང་སྙོམས་ཡོང་། །གཤོར་ཁའི་རིགས་ལ་དེ་ལྟར་བརྟག །འཇལ་ལེན་བྱེ་བྲག་ཤེས་པ་དགོས། །
+
+For weighing: counting from the Sun's mansion, seven mansions each go to
+the beam, the weight, the cord and the pan. The Moon's mansion on the
+beam: taking in good, paying out bad; on the weight or the cord («གཉིས་འབྲིད»
+not settled): both good; on the pan: taking in middling, giving good. For
+trade and measuring grain: from the mansion the Sun holds on the day,
+seven to the rim of the measure and seven each to its outside, inside
+and foot. The Moon's mansion on the rim: much grain gathers; outside:
+it does not, and quarrels come; inside: good, much grain, good fortune,
+wishes fulfilled; at the foot: neutral. Pouring out (*gshor kha*) is
+judged so too.
+
+**The second part's list of contents** (img. 63, last two lines, and img.
+64), read on the scan at 1.3–2.5× against Yigdzin-1, which misreads
+several of the arched numbers (༢ for ༣, ༤ for ༨ and ༩):
+
+> ༄༅། །དེ་ནས་ཀུན་ཕན་མེ་ལོང་སྨད་ཆ་ལ། །སོ་སོའི་སྒེར་འབྲས་ངན་ལ་སྒྲིབ་བཅོས་བཅས། །དོན་གྱི་རྣམ་གྲངས་མང་བས་མི་འཁྲུལ་ཕྱིར། །མ་འདྲེས་འཇུག་བདེའི་དཀར་ཆག་གསལ་པོར་བཀོད། །༼༡༽ དུས་གཉན་བཞི་དང་དགའ་བཟང་རྒྱལ་སྟོང་གི་བཟང་ངན་འབྲས་བུ། ༼༢༽ གཟའ་སྐར་གཉིས་ཀྱི་འབྱུང་ཁམས་དང་འབྱུང་འཕྲོད་འབྲས་བུ། ༼༣༽ འཕྲོད་ཆེན་འབྲས་བུ་བསྡུས་པ། ༼༤༽ སྦྱོར་བའི་འབྲས་བུ་བསྡུས་པ། ༼༥༽ འགྲུབ་སྦྱོར་བདུན་སོགས་ཉི་མ་ཁག་སོ་སོའི་འབྲས་བུ། ༼༦༽ བིཥྚི་གཙོ་བསྒྱུར་གྱི་བྱེད་པ་ཚེས་ལ་ལན་གཉིས་རེ་འཆར་བའི་རེའུ་མིག་འབྲས་བུ། སའི་འཕུང་བྱེད་ནག་མོ་རྒྱུ་དུས། ༼༧༽ སྒྲ་གཅན་ཚེས་ལ་ནུ་རུ་ལུགས་རྒྱུ་བའི་ཤོག་ཁྲ་དང་། དུས་ལ་འཁོར་བའི་སྒྲ་གཅན། སྡེ་བརྒྱད་ཚེས་ཐེབས། ༼༨༽ སྒྲ་གཅན་འཁོར་ལོ། དུས་མཚན་མ། ༼༩༽ དུས་སྦྱོར་བརྩི་ཚུལ་རེའུ་མིག་དང་བཅས་པ། ༼༡༠༽ བདུད་རྩི་ཐུན་མཚམས་རེའུ་མིག ༼༡༡༽ བླ་གཟའ་བླ་སྐར་བརྩི་ཚུལ་རེའུ་མིག ༼༡༢༽ སྤར་སྨེའི་རེའུ་མིག་དང་བརྩི་ཚུལ་འབྲས་བུ། ༼༡༣༽ ལོའི་ས་བདག་ཁྲ་མ། ༼༡༤༽ ཟླ་འཁོར་ས་བདག་ཁྲ་མ། ༼༡༥༽ ཟླ་བའི་ནག་མོ་དགུ་སྐོར། སིལ་མའི་ས་བདག་རྣམ་གྲངས་སུམ་ཅུ་སོ་བཞི། གབ་པའི་ས་བདག་བཅུ་གཉིས། ཡང་ཁོལ་ས་བདག་ལྔ་བཅས་ཀྱི་ཤོག་ཁྲ། ༼༡༦༽ ཞག་དང་དུས་ཚོད་ཀྱི་ས་བདག་ཁྲ་མ། ༼༡༧༽ ཚེས་རྒྱུའི་ས་བདག་རྒྱུ་དུས། ༼༡༨༽ ཟླ་འཁོར་ས་བདག་དང་། གཟའ། སྐར་མ། ཚེས་ཀྱི་ས་བདག ཉི་མ། སྤར་སྨེ། གནམ་སྒོ། ས་བདག་སྤྱིའི་སྒྲིབ་བཅོས་དང་བཅས་པ་རྣམས།
+
+"Then, in the lower part of the *kun phan me long*, the particular
+results of each factor, with remedies for the bad; as the matters are
+many, a clear list is set out so that they are not confused." The
+eighteen items are those of the table below.
+
+**The colophon** (img. 119), read on the scan at 1.2–4×; dotted gaps
+stand in the block itself after «ལེ» and «སྲི», marked «…»; […] marks
+two syllables before «འབྲུག» and one after «པར» not read:
+
+> སྐབས་ཀུན་ཏུ་སྤྱོད་གྱུར་ཅིག ༣ །ཅེས་པའང་སྔོན་མེད་བསྟན་བཅོས་བཻ་ཌཱུར་དཀར་པོའི་གཅེས་དོན་འབྲས་རྩིས་ལེ… ཚན་འདི་བཞིན་སྔོན་དུ་སྲི… གཅོད་ནས་པར་དུ་བརྐོས་པ་མེ་སྐྱོན་དུ་སོང་སྟབས། སླར་ཡང་རབ་[…]་[…]་འབྲུག་ལོར་ལྷ་ལྡན་པར་[…]་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན་ཏེ་པར་སྤྱིའི་པར་ཁང་དུ་བཞུགས།། །། དགེ་ལེགས་འཕེལ།། །།
+
+"…may it be used at all times." This section on the *'bras rtsis*, the
+essence of the unprecedented treatise, the White Beryl, was carved
+before (the words after «སྲི» are lost in the gap) and the blocks were
+lost in a fire; they were made anew in a dragon year (its element not
+read) by the community of the Lhasa (ལྷ་ལྡན, *lha ldan*) printers and are
+kept at the common printing house. Yigdzin-1 reads «ཚྶེ་མེ་འབྲུག», which
+would make it a fire dragon year; the scan does not show «མེ» clearly.
+So this print, though catalogued as Mtho las dgon, carries a Lhasa
+colophon; which dragon year is not settled.
+
 Box numbers on img. 57–60 were taken from the list of contents; the arches
 there are worn and were first misread by one or two.
 
@@ -168,9 +228,18 @@ yearly elements and img. 87–101 as woodcuts of animals).
 | 17 | 103–104 | when the earth lords move, by Hor month and date |
 | 18 | 105–118 | remedies (*sgrib bcos*) for the earth lords of the month, the planets, the mansions, the date, *spar sme*, the *gnam sgo* and the earth lords in general |
 
-- **119:** colophon (the extract of the White Beryl's *'bras rtsis*
-  chapter, carved for printing); **120** blank.
+- **119:** colophon (written out above: the White Beryl's *'bras rtsis*
+  section, recarved at Lhasa after a fire); **120** blank.
 
 The weight of the factors (img. 13) and §4–6 bear on readings the app
 already has; §2, §3, §5 and §11 held calculable day readings, all now in
 the app (§11 as the personal mansions and weekdays).
+
+## Open
+
+- Question: KP's colophon (img. 119) says the blocks were recarved at
+  Lhasa by the printers' community after the earlier ones burnt, in a
+  dragon year whose element the scan does not show (Yigdzin-1 reads fire).
+  BDRC catalogues the print as Mtho las dgon (MW4CZ65561). Is it a
+  Mtho las dgon impression of Lhasa blocks, or a Lhasa print, and which
+  dragon year?
