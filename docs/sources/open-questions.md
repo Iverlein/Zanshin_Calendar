@@ -1020,3 +1020,40 @@ the text, not about the app.
      which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam
      dwell («ཞག་གི་ལོ་སྟེང་གནས»)? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+
+126. **WB's *phyed* and the manuals' *gung*.** WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས»
+     where the manuals write «གུང་གཉིས་ཟེར་གཉིས»; are WB's two *phyed* the
+     same as the two *gung*, midnight and noon, as the *Rin chen gter
+     mdzod*'s six sessions (ནམ་ཕྱེད for its ནམ་གུང) and WB's own hours
+     (ཉི་ཕྱེད, ནམ་ཕྱེད) suggest? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
+
+127. **A *zer* and a *gung*: moment or stretch.** Is a *zer* the moment the
+     sun's disc meets the horizon, or a short stretch while its rays come
+     or go («ཉི་མ་འཆར་ཀའི་ཟེར», the ray of the sun about to rise)? And is
+     a *gung* the sun's culmination or the middle of the clock's day and
+     night? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
+
+128. **«མཱ་ར་ཡ་ཛ» and its four times of change.** «མཱ་ར་ཡ་ཛ» in the *Rin chen
+     gter mdzod*: is it Māra rāja, the king of the māras, or the mantra
+     word «མཱ་ར་ཡ», "kill", as in «སརྦ་ཤ་ཏྲཱུཾ་མཱ་ར་ཡ» at the close of the
+     text before it in the volume (etext)? And are its four times of
+     change the times "when the four māras move" of WB p. 359? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
+
+129. **The six sessions' *ging*, «ཁྲམ་ལ་འདེབས» and «སོ་ནག».** In the *Rin chen
+     gter mdzod*'s six sessions, what is the *ging* (གིང) that smiles at
+     its prey, what does the Lord of Death do «ཁྲམ་ལ་འདེབས», and what is
+     «སོ་ནག» in «དགོང་གྲིབ་སོ་ནག་ངམ་གྱིས་འོང་བ»? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
+
+130. **The seasons of the thod rgal verse.** Which seasons are
+     «དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད» in the *Gdams ngag mdzod*'s verse: is
+     «དབྱར་མ» the late summer, or summer itself? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
+
+131. **The Vajrabhairava manual's sessions.** In the Vajrabhairava manual, once
+     read on its scan, do the two *gung* and two *zer* fall on the session
+     breaks, or are the breaks kept from them («ཐུན་མཚམས་ལ་ཁེལ་བ»)? (2026-10-13, O9,
+     [weighing.md](weighing.md), "The four rough times in three manuals")
