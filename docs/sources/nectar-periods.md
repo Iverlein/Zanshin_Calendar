@@ -54,3 +54,52 @@ tiger. Each half is then one clock hour. The app gives the day's nectar
 hours in the Almanac section; the halves of Saturn, which the heading ties
 to the rising of *rigs ldan* (the poison time of the medicine box), are not
 built.
+
+## The tables written out
+
+(O10, 2026-10-13.) The two tables are BDRC's files I4CZ655990083.jpg and
+…0084.jpg, the 83rd and 84th of the volume's images: the image numbers
+above count two fewer, as for KP's other boxes (img. 81–82 hold the
+combination period's table, [combination-period.md](combination-period.md)).
+Read on the scan cell by cell at 1.6× and the doubtful cells at 3×, each
+row checked against the rule. «བདུད་རྩི» is printed in Jupiter's cells;
+[S] marks Saturn's cells, each a short word in a small hand that was not
+read; the long title over each table is read only as far as quoted above.
+
+By day (ཉི་མོའི་ཁྲམ), img. 83:
+
+| | ནངས་སྔ་ཆ | ནངས་ཕྱི་ཆ | ཉི་ཤར་སྔ་ཆ | ཉི་ཤར་ཕྱི་ཆ | ཉི་དྲོས་སྔ་ཆ | ཉི་དྲོས་ཕྱི་ཆ | ཉི་ཕྱེད་སྔ་ཆ | ཉི་ཕྱེད་ཕྱི་ཆ | ཕྱེད་ཡོལ་སྔ་ཆ | ཕྱེད་ཡོལ་ཕྱི་ཆ | ཉི་མྱུར་སྔ་ཆ | ཉི་མྱུར་ཕྱི་ཆ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ཉི་མ་༡ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] |
+| ཟླ་བ་༢ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ |
+| མིག་དམར་༣ | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ |
+| ལྷག་པ་༤ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ |
+| ཕུར་བུ་༥ | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ |
+| པ་སངས་༦ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི |
+| སྤེན་པ་༠ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ | ༤ | ༢ | [S] | བདུད་རྩི | ༣ | ༡ | ༦ |
+
+By night (མཚན་མོའི་ཁྲ་མ), img. 84:
+
+| | ཉི་ནུབ་སྔ་ཆ | ཉི་ནུབ་ཕྱི་ཆ | ས་སྲོས་སྔ་ཆ | ས་སྲོས་ཕྱི་ཆ | སྲོད་འཁོར་སྔ་ཆ | སྲོད་འཁོར་ཕྱི་ཆ | ནམ་ཕྱེད་སྔ་ཆ | ནམ་ཕྱེད་ཕྱི་ཆ | ཕྱེད་ཡོལ་སྔ་ཆ | ཕྱེད་ཡོལ་ཕྱི་ཆ | ཐོ་རེངས་སྔ་ཆ | ཐོ་རེངས་ཕྱི་ཆ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ཉི་མ་༡ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ |
+| ཟླ་བ་༢ | ༢ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ |
+| མིག་དམར་༣ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༥ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི |
+| ལྷག་པ་༤ | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༥ |
+| ཕུར་བུ་༥ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] |
+| པ་སངས་༦ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ | ༡ |
+| སྤེན་པ་༠ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ | ༦ | ༣ | [S] | ༤ | ༡ | བདུད་རྩི | ༢ |
+
+Two cells of the night table break the rule: Tuesday's sixth half
+(སྲོད་འཁོར་ཕྱི་ཆ), where the count gives ༢, and Wednesday's last (ཐོ་རེངས་ཕྱི་ཆ), where
+it gives ༦, both print ༥, Jupiter's number, as a plain digit and not as
+«བདུད་རྩི». The nectar cells of the table above are those of the rule; the two
+༥ are not counted among them.
+
+### Open
+
+- Question: KP's night table prints a plain ༥ in Tuesday's
+  སྲོད་འཁོར་ཕྱི་ཆ and Wednesday's ཐོ་རེངས་ཕྱི་ཆ (BDRC file img. 84), where the count
+  by fives gives ༢ and ༦ and every other Jupiter cell is written
+  «བདུད་རྩི». Are these two slips of the carver, or halves ruled by Jupiter
+  that are not nectar periods?
