@@ -1,0 +1,1 @@
+Opened again on a new day, the app now shows that day instead of the one it was left on, so the hours strip and the hours panel mark the present moment again and the panel opens at the present hour.
