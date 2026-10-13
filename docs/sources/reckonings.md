@@ -232,7 +232,7 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 - **Whose dates.** The person's birth year and the current year (the
   year of age's trigram, mewa, rise and decline follow); the time of
   reckoning (བརྩི་དུས, brtsi dus) is one of the six unchanging root pebbles
-  («གནམ་ལོ་ལོག་མེན་སྤར་ཁ་དང་། །སྨེ་བ་དར་གུད་བརྩི་དུས་རྡེལ། །མི་འགྱུར་རྩ་བའི་རྡེལ་དྲུག», p. 380, Yigdzin-1 and the etext). The secret circle
+  («གནམ་ལོ་ལོག་མེན་སྤར་ཁ་དང་། །སྨེ་བ་དར་གུད་བརྩི་དུས་རྡེལ། །མི་འགྱུར་རྩ་བའི་རྡེལ་དྲུག», p. 380, read on the scan by O10d). The secret circle
   needs no relative: «གསང་སྲོག་མ་ལ་དྲིས» is the secret life force's mother
   element (RD14, on the scan). RD14's parts ([year-of-life.md](year-of-life.md),
   *The obstacles that need other people (RD14)*) need the household's
@@ -241,9 +241,9 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
   and forefathers' years of death (the tomb obstacle, the progressed sign
   on a death year); the mother's birth year and whether she is living
   (the secret obstacle, the natal trigram); the parents' birth years and
-  clans (the drum-sickle, Yigdzin-1 only). The seven generations of the
+  clans (the *dza zor*, ཛ་ཟོར, dza zor, read on the scan by O10d; year-of-life.md). The seven generations of the
   dead WB rejects as not needed.
-- **Size** (p. 380, Yigdzin-1 and the etext): «རྡེལ་གྲངས་རྩ་བར་ཞེ་བདུན་ལ། །མི་འགྱུར་ཀླུང་གི་རྡེའུ་དྲུག །གཅོད་འདྲལ་ཉེར་བཞི་ཁ་དམར་བཞི། །རྩུབ་རྡེལ་བདུན་དང་སྨེ་ཀེག་བཞི། །དགུ་མིག་དུར་མིག་གཉིས་བཅས་པའི། །ཡོངས་བསྡུས་ཞེ་བདུན་རྡེལ་རྩ་ཡིན། །གཞན་ལྟར་སྤྲོས་ན་བཞི་སྟོང་དང་། །བཞི་བརྒྱ་བཞི་བཅུར་འབྱོར་ནའང་། །འདིར་ནི་དངོས་རྡེལ་བརྒྱ་སོ་བདུན། །བརྩི་དུས་མི་ལུས་ཁྱད་པར་གྱི། །མི་ནོར་མཚན་མའི་རྡེའུ་ནི། །བདུན་བརྒྱ་ང་གཅིག་བཅས་པ་ཡི། །དགོས་མེད་ལྷག་པོ་མ་ཡིན་པའི། །རྡེལ་གྲངས་བརྒྱད་བརྒྱ་གྱ་བརྒྱད་»
+- **Size** (p. 380, read on the scan by O10d, the whole passage in year-of-life.md): «རྡེལ་གྲངས་རྩ་བར་ཞེ་བདུན་ལ། །མི་འགྱུར་ཀླུང་གི་རྡེའུ་དྲུག །གཅོད་འདྲལ་ཉེར་བཞི་ཁ་དམར་བཞི། །རྩུབ་རྡེལ་བདུན་དང་སྨེ་ཀེག་བཞི། །དགུ་མིག་དུར་མིག་གཉིས་བཅས་པའི། །ཡོངས་བསྡུས་ཞེ་བདུན་རྡེལ་རྩ་ཡིན། །གཞན་ལྟར་སྤྲོས་ན་བཞི་སྟོང་དང་། །བཞི་བརྒྱ་བཞི་བཅུར་འབྱོར་ནའང་། །འདིར་ནི་དངོས་རྡེལ་བརྒྱ་སོ་བདུན། །བརྩི་དུས་མི་ལུས་ཁྱད་པར་གྱི། །མི་ནོར་མཚན་མའི་རྡེའུ་ནི། །བདུན་བརྒྱ་ང་གཅིག་བཅས་པ་ཡི། །དགོས་མེད་ལྷག་པོ་མ་ཡིན་པའི། །རྡེལ་གྲངས་བརྒྱད་བརྒྱ་གྱ་བརྒྱད་»
   47 root pebbles: 6 unchanging luck pebbles, 24 of cutting and splitting
   (གཅོད་འདྲལ, gcod 'dral), 4 verdicts (ཁ་དམར, kha dmar), 7 rough pebbles, 4
   mewa obstacles, and the nine-eyes and grave-eyes, 2 (6 + 24 + 4 + 7 +
@@ -1287,10 +1287,10 @@ element, animal and sex) and the count of years lived: every starting
 point and every pebble follows from them, so the chapter is
 **calculable**. What is asked is the person's role, which picks the
 point that is read (below); for some points the role names whose year is
-reckoned (the notes, p. 532, read on the scan: «བཅུ་པ་འབངས་བརྟེན་ན་དཔོན་གཙོ་བོ་འདྲི་བྱེད་དེའི་ལོ་རྟ། བཅུ་གཅིག་པ་རྟ་བདག་གི་ལོ་རྟ་སོགས་དང་། བུ་བག་ནི་བུ་དང་བག་མའི་ལོ་རྟ། དེ་བཞིན་ཁང་བདག་དང་། ཟངས་ཐེར་…»: for the tenth, if
+reckoned (the notes, p. 532, read on the scan: «དེ་ཡང་དགུ་པ་ཡན་གོ་སླ། བཅུ་པ་འབངས་བརྟེན་ན་དཔོན་གཙོ་བོ་འདྲི་བྱེད་དེའི་ལོ་རྟ། བཅུ་གཅིག་པ་རྟ་བདག་གི་ལོ་རྟ་སོགས་དང་། བུ་བག་ནི་བུ་དང་བག་མའི་ལོ་རྟ། དེ་བཞིན་ཁང་བདག་དང་། ཟངས་ཐེར་ཏེ་ཆུ་ཟངས་དང་ཐེར་བོ་ཁྲོ་མིང་སྟེ་ཁྲོ་ཟངས་ཉོ་བ་ན་འདྲི་བ་པོའི་ལོ་རྟ་སོགས་ཡིན་ནོ། །» (l. 24–27, O10d): for the tenth, if
 it concerns subjects, the year of the lord who asks; for the eleventh,
 the horse owner's year; for the son and bride, the son's and the bride's;
-likewise the house owner and the copper vessel). Nothing is observed.
+likewise the house owner, and for the copper vessel (ཟངས་ཐེར, zangs ther: a water copper or a *ther bo*, a name of bronze) the year of the asker who buys the bronze vessel; up to the ninth it is easy). Nothing is observed.
 
 **What it gives: the thirty readings, eight checks each.** The
 commentary (pp. 454–472) takes the thirty starting points in order, each
@@ -1360,9 +1360,9 @@ so through the eighth. Every group of eight is read the same way: a
 place (the forefathers', the father's and uncles', one's own), white
 good, black bad with a rite.
 
-**The colophon** (p. 472, img. 482, read on the scan):
+**The colophon** (p. 472, img. 482, l. 4–10, read on the scan; written out whole, O10d):
 
-> …རྒྱ་བོད་སྐོར་འགོ་སུམ་ཅུ་རྡེལ་རྩ་དང་འགྲེལ་པ་ཁ་འཐོར་བའི་ཤེས[?]་པ་དཀོན་ཞིང་ཧ་ལམ་བྱེད་པ་རྣམས་ཀྱང་རྡེལ་རྩ་ལ་ཞལ་ཤེས་མེད་གཤིས་སྐོར་འགོ་ཚུལ་བཞིན་མི་རྙེད་པ་མང་བར་ཁྱུང་གིས་མཛད་པའི་རྡེལ་རྩ་ཟུར་བ་དང་། འགྲེལ་པ་འཕྲུལ་གྱི་མིག་ཚགས་སོར་བཞག་ཁྱུང་གི་འགྲེལ་ཆུང་ནས་ཁ་བསྐང་། འགྲེལ་པ་གཞན་ལས་གཙང་སྟོན་ཉི་མ་འོད་ཟེར་གྱི་དེ་རྒྱས་པ་འདུག་པས་དེ་སོགས་གཞན་ནས་ལེགས་ཆ་བསྡུས་ཞལ་ཤེས་ཕྲན་བུས་ཀྱང་བརྒྱན་རང་རིག་གིས་དཔྱད་པར་འོས་པ་འགའ་ཡང་བགྱིས་པའི་ལེའུ་སྟེ་ཉེར་དྲུག་པའོ།།
+> ཞེས་ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས་རྒྱ་བོད་སྐོར་འགོ་སུམ་ཅུ་རྡེལ་རྩ་དང་འགྲེལ་པ་ཁ་འཐོར་བའི་ཤེས་པ་དཀོན་ཞིང་ཧ་ལམ་བྱེད་པ་རྣམས་ཀྱང་རྡེལ་རྩ་ལ་ཞལ་ཤེས་མེད་གཤིས་སྐོར་འགོ་ཚུལ་བཞིན་མི་རྙེད་པ་མང་བར་ཁྱུང་གིས་མཛད་པའི་རྡེལ་རྩ་ཟུར་བ་དང་། འགྲེལ་པ་འཕྲུལ་གྱི་མིག་ཚགས་སོར་བཞག་ཁྱུང་གི་འགྲེལ་ཆུང་ནས་ཁ་བསྐང་། འགྲེལ་པ་གཞན་ལས་གཙང་སྟོན་ཉི་མ་འོད་ཟེར་གྱི་དེ་རྒྱས་པ་འདུག་པས་དེ་སོགས་གཞན་ནས་ལེགས་ཆ་བསྡུས་ཞལ་ཤེས་ཕྲན་བུས་ཀྱང་བརྒྱན་རང་རིག་གིས་དཔྱད་པར་འོས་པ་འགའ་ཡང་བགྱིས་པའི་ལེའུ་སྟེ་ཉེར་དྲུག་པའོ།། །།
 
 The root pebbles and commentary of the thirty starting points are
 scattered and rarely known, and even those roughly acquainted with them
@@ -1407,6 +1407,10 @@ whether the dynasty's seat is empty; whether the tiger's and leopard's
 stripes and smile have faded; whether the silk knot of the rule is
 loosened; and (Yigdzin-1, the next lines) whether the palace is lost to
 others, whether the hat and felt have gone under the dust.
+
+The first circle whole (p. 3, img. 11, l. 13, to p. 4, img. 12, l. 11, read on the scan line by line, O10d, 2026-10-13; «སྲོ» as printed; the first syllable of «[…]ང་གསོ» on p. 4, l. 7, is broken on the scan, Yigdzin-1 «རྔུང»):
+
+> དང་པོ་བྱ་ཁྱུང་དཀར་པོ་ཡི། །ཁ་ནས་མི་རྗེ་རྒྱལ་པོ་ལ། །སྐོར་འགོ་ལྔ་བསྟན་དེ་ཡང་ནི། །བརྩི་བྱའི་ཁམས་ཀྱི་དགྲ་ཐོག་གི། །བྱ་ནས་གྱེན་བགྲངས་དེ་དང་ནི། །སྲོ་ལུས་དབང་ཀླུང་སྨེ་འཐབས་པའི། །རྩིས་འགོ་རྣམ་པ་ལྔ་བསྟན་ཏེ། །རྒྱལ་རབས་གདན་ས་སྟོངས་མ་སྟོངས། །སྟག་གཟིག་གྲ་འཛུམ་ཡལ་མ་ཡལ། །ཆབ་སྲིད་དར་མདུད་གྲོལ་མ་གྲོལ། །ཕོ་བྲང་མི་ལ་ཤོར་མ་ཤོར། །ཞྭ་ཕྱིང་རྡུལ་འོག་སོང་མ་སོང་། །དེ་ཡང་སྲོག་གི་རྡེལ་དཀར་ན། །ས་བདག་རྒྱལ་པོའི་རྒྱལ་རབས་ནི། །གདན་ས་མ་སྟོངས་མཆོག་ཏུ་བཟང་། །རྒྱལ་པོ་དེ་ཡི་རྒྱལ་སྲིད་ལ། །བར་ཆད་མེད་ཅིང་སྐུ་ཚེ་བརྟན། །གནམ་ལྕགས་རྡོ་རྗེའི་བྲག་དང་མཚུངས། །སྲོག་རྡེལ་ནག་ན་ས་བདག་རྗེ། །བརྒྱུད་པར་བཅས་ལ་ཅུང་འཛེར་ཏེ། །ཡལ་གྱིས་འབར་ནས་ཐུམ་གྱིས་ཤི། །སྔར་ནས་ཕ་མེས་དུར་སྲི་ཡོད། །ད་ལྟ་ཡང་ནི་དར་སྲི་ལངས། །རུས་མི་གཅིག་པའི་སྔགས་བོན་ནི། །ལྔ་འམ་གསུམ་གྱིས་སྲི་མནན་དང་། །སེམས་ཅན་སྲོག་བསླུ་འཆི་བ་བསླུ། །སེང་གེའི་ཐོད་པར་དར་སྲི་མནན། །རྒྱལ་པོ་གདན་བཞུགས་གཏོ་ཆོག་བྱ། །ལུས་རྡེལ་དཀར་ན་རྒྱལ་པོ་ཡི། །སྟག་གཟིག་གྲ་རྒྱས་བཙུན་མོར་དགེ། །སྣང་སྲིད་ཟིལ་གནོན་རྒྱལ་བུ་འཁྲུངས། །ཆབ་སྲིད་ཐམས་ཅད་བདེ་ལ་འགོད། །རྒྱལ་པོ་རང་གི་སྐུ་ལུས་ཀྱང་། །ནད་མེད་པས་ནི་མཆོག་ཏུ་བཟང་། །ལུས་རྡེལ་ནག་ན་གྲ་འཛུམ་ཡལ། །རྒྱལ་པོ་དང་ནི་བཙུན་མོའི་ཚོགས། །མི་མཐུན་ཡང་ན་ཡབ་སྲས་གཉིས། །ཁ་གྱེས་རྒྱལ་སྲིད་གཉིས་སུ་སྐྱོང་། །གཅིག་ལ་གཅིག་གནོད་ཆབ་སྲིད་དམའ། །སྐུ་ལ་བསྙུང་གཞི་ [p. 4, img. 12] འབྱུང་བས་ན། །ཕྱོགས་མེད་སྦྱིན་གཏོང་རྒྱས་པ་དང་། །ལུས་བསྒྱུར་སྡོམ་པ་བསྲུང་པར་བྱ། །དབང་རྡེལ་དཀར་ན་རྒྱལ་པོ་ཡི། །ཆབ་སྲིད་དར་མདུད་མ་གྲོལ་ཞིང་། །དཔྱད་ཁ་ཕྱི་ལ་མ་ཤོར་བས། །ལོངས་སྤྱོད་མཐའ་ནས་རྒྱས་པ་ཡི། །ལུགས་གཉིས་མངའ་ཐང་རྒྱས་ཏེ་བཟང་། །དབང་རྡེལ་ནག་ན་མི་རྗེ་ཡི། །ཕོ་བྲང་དཔྱད་ཁ་འཆོར་བ་དང་། །ནོར་ཕྱུགས་གོད་ཁས་འཐོར་བ་སྟེ། །ཆབ་སྲིད་དར་དཀར་མདུད་པ་གྲོལ། །བུ་རྟ་གུད་ཅིང་ལོངས་སྤྱོད་དབུལ། །གཡང་ལོན་བྱ་ཞིང་བཀའ་འདུས་ཀློག །སྦྱིན་དང་ཚོགས་སོགས་བྱ་བ་གཅེས། །ཀླུང་རྡེལ་དཀར་ན་ཕོ་བྲང་དེ། །མི་ལ་མ་ཤོར་མི་ཁ་བྱམས། །བློན་དང་འབངས་ཀྱིས་ཅི་བསྒོ་སྒྲུབ། །ཀླུང་རྡེལ་ནག་ན་ཆབ་སྲིད་དེ། །མི་ཁས་རླུང་ལྟར་གཡེང་བ་ཡིན། །འཁྲུག་པས་དུས་མི་བདེ་བ་དང་། །རྒྱལ་སྲིད་ལའང་རྩོད་པའི་ངོ་། །[…]ང་གསོ་འཛུགས་ཤིང་དགྲ་བཟློག་དང་། །དགྲ་མནན་རོ་མཆོག་ཟས་སྦྱིན་བྱ། །དེ་ཡང་དགུ་མིག་དང་འདོམ་ན། །ཤིན་ཏུ་རྩུབ་ཅིང་རིམ་གྲོ་བསྐྱེད། །སྨེ་རྡེལ་དཀར་ན་ཞྭ་ཕྱིང་དེ། །རྡུལ་འོག་མ་སོང་བཙད་པོ་ཡི། །བརྒྱུད་པ་དར་ཞིང་རྒྱས་པས་བཟང་། །སྨེ་རྡེལ་ནག་ན་ཆབ་སྲིད་ལ། །གཡུལ་འགྱེད་པ་དང་ལོ་ཉེས་འབྱུང་། །ནད་མཚོན་མུ་གེའི་བསྐལ་བ་དར། །དྲག་སྔགས་བཟླས་བརྗོད་བརྩོན་པ་དང་། །མ་མོའི་སྤྱི་མདོས་བྱེད་པ་གཅེས། །འདི་ལྔ་མི་རྗེ་རྒྱལ་པོའི་རྩིས།
 
 So each circle has five pebbles, one for each of the reckoned person's
 life force, body, power, luck and mewa against those of the year
@@ -1456,11 +1460,11 @@ the peacock with crossed necks (p. 19); the rhinoceros year reckoning
 (p. 19); the head as the planets', the tail as the serpent spirits'
 reckoning and others (p. 20); the three garuḍas, the cow's hair and six
 patterns (p. 20); four-point reckonings for noble ladies, common women
-and children (pp. 24–25). The chapter closes (p. 25, img. 33, Yigdzin-1):
+and children (pp. 24–25). The chapter closes (p. 25, img. 33, read on the scan, O10d):
 «རྒྱལ་པོ་གཙོ་བོ་སྔགས་བཙུན་དང་། །ཡོན་ཏན་མཁན་ལ་ཀླུང་རྟ་གཅེས། །སྐྱེས་པ་སྲོག་ལ་བྱིས་པ་ལུས། །བུད་མེད་དབང་ཐང་གཅེས་པའོ། །དེ་སོགས་རྡེའུ་ཀུན་བསྡོམས་ན། །བདུན་ཅུ་དོན་ལྔ་ཡོད་པ་སྟེ། །ཀེག་རྩིས་རྡེའུ་དོན་ལྔར་བརྗོད།» For the king, the chief, mantrins and monks and
 the skilled, luck matters most; for men the life force, for children the
 body, for women the power. These pebbles in all are 75: called the
-obstacle reckoning of 75 pebbles. The colophon (p. 25, Yigdzin-1) names
+obstacle reckoning of 75 pebbles. The colophon (p. 25, img. 33, read on the scan, O10d) names
 the sources: the thirteen Chinese circles set out the Phugpa way, with
 the good parts of other ways; "the reckoning of the la and the minister
 for one gone abroad" (བླ་བློན་རྩིས, bla blon rtsis) and the others from the
@@ -1468,6 +1472,10 @@ sixty cavities each gathered into its own chapter; the scattered
 remainder, the reckoning of the meadow's ornament leaves (སྤང་རྒྱན་ལོ་མ, spang rgyan lo ma), Sprugtön's (སྤྲུག་སྟོན, sprug
 ston) obstacle reckoning of 75 pebbles, and the reckoning of Balkhyung
 (བལ་ཁྱུང་རྩིས, bal khyung rtsis) of husband and wife or companions.
+
+The close and the colophon whole (p. 25, img. 33, l. 2–11, read on the scan line by line, O10d, 2026-10-13):
+
+> དེ་ཡང་འདི་ལྟར་ཤེས་པར་བྱ། །རྒྱལ་པོ་གཙོ་བོ་སྔགས་བཙུན་དང་། །ཡོན་ཏན་མཁན་ལ་ཀླུང་རྟ་གཅེས། །སྐྱེས་པ་སྲོག་ལ་བྱིས་པ་ལུས། །བུད་མེད་དབང་ཐང་གཅེས་པའོ། །དེ་སོགས་རྡེའུ་ཀུན་བསྡོམས་ན། །བདུན་ཅུ་དོན་ལྔ་ཡོད་པ་སྟེ། །ཀེག་རྩིས་རྡེའུ་དོན་ལྔར་བརྗོད། །ཅེས་ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས། རྒྱ་ནག་དཔྱད་ལྡིང་བཅུ་གསུམ་མམ་བལ་མོ་ལྡིང་སྐོར་དུ་གྲགས་པར་ཡིག་ཆ་དང་། །མཁས་པ་འགའ་རེས་རྒྱ་བོད་སྐོར་འགོའི་དཔེ་བླངས་པའི་སྐོར་སྲོལ་སོགས་རྣམ་གྲངས་མང་ཡང་དག་པར་མ་སེམས་ཤིང་། ཕུག་པའི་ལུགས་སུ་ལམ་བཀོད་པ་ལྟར་བྱ་སྲོལ་ལ་ཁ་གང་གསལ་གྱི་ལེགས་ཆ་གཞན་ནས་བསྡུས། བྱེས་སོང་མིར་བརྩི་བའི་བླ་བློན་རྩིས་དང་། ཁོག་པ་དྲུག་ཅུ་ལས་འབྱུང་བའི་གཞན་མ་རྣམས་རང་རང་གི་ལེ་ཁོངས་སུ་བསྡུས།ཁ་འཐོར་ལུས་པ་རྣམས་དང་སྤང་རྒྱན་ལོ་མའི་རྩིས་སྤྲུག་སྟོན་གྱི་ཀེག་རྩིས་རྡེལ་དོན་ལྔ་པ། ཁྱོ་ཤུག་ཟླ་གྲོགས་གང་དུའང་བརྩི་བ་བལ་ཁྱུང་རྩིས་སོགས་རྩིས་ཕྲན་རྣམས་བཀོད་པའི་ལེའུ་སྟེ་ཉེར་བདུན་པའོ།། །།
 
 **Whose dates, and what kind.** The thirteen circles: the reckoned
 person's birth year (element, and the mewa sequence) and the years
@@ -1504,10 +1512,11 @@ of the eye, ear, throat and leg, each read by the link of the day
 («ལེན་པའི་ཉི་མ», «སྲིད་ཉི», «སྐྱེ་ཉི», «རྒ་ཤིའི་ཉི་མ», pp. 34–37); a great
 sign of the line (སྐྱ་ཐིག་ཆེན་པོ, skya thig chen po) when planet, mansion,
 month, day and hour agree (p. 37); then the twelve links set on the
-times of the day, each with its reading for works and the sick (pp.
-37–38, Yigdzin-1, not read on the scan):
+times of the day, each with its reading for works and the sick (p. 37, img. 45, l. 25, to p. 38,
+img. 46, l. 24, read on the scan line by line, O10d, 2026-10-13; each
+link with its reading for works and for the sick):
 
-> མ་རིག་རྒན་མོ་ལོང་བ་འདྲ། །ཉི་མ་རི་མཐོའི་རྩེར་ཤར་དུས། … །འདུ་བྱེད་རྫ་མཁན་འདྲ་བ་སྟེ། །ཉི་མ་རི་ཀླུང་ཤར་བ་ཡི། … །རྣམ་ཤེས་ཁང་སྟོང་སྤྲེའུ་འདྲ། །ཉི་མ་འབལ་དྲོས་དུས་ལ་དབང་། … །མིང་དང་གཟུགས་ནི་གྲུ་རྫིངས་འདྲ། །ཉི་མ་དྲོས་ཆེན་མིང་གཟུགས་སྐབས། … །སྐྱེ་མཆེད་དྲུག་ནི་མཁར་དང་འདྲ། །ཕྱེད་དྲོས་སྐྱེ་མཆེད་དྲུག་གི་དུས། … །རེག་པ་ཕོ་མོ་འོ་བྱེད་འདྲ། །དུས་ནི་སྔ་ཆེན་དུས་སུ་ཡང་། … །ཚོར་བ་མིག་ལ་མདའ་ཕོག་འདྲ། །དུས་ནི་ཉི་མ་ཕྱེད་ཀྱི་དུས། … །སྲེད་པ་ཆང་འཐུང་དག་དང་འདྲ། །ཉི་མ་ཕྱེད་ཡོལ་སྲེད་པའི་དུས། … །ལེན་པ་ཤིང་ཏོག་སྙབ་པ་འདྲ། །གྲིབ་ཆུང་རྒོད་དུས་ལེན་པའི་དུས། … །སྲིད་པ་ཕོ་མོ་འདོད་སྤྱོད་འདྲ། །གྲིབ་ཆེན་ཐང་ཕེབས་སྲིད་པའི་དུས། … །སྐྱེ་བ་བུ་ཆུང་བཙའ་བ་འདྲ། །ཉི་མ་མདུང་གང་སྐྱེ་བའི་དུས། … །རྒ་ཤི་རྒན་མོ་འཁར་ཐོགས་འདྲ། །ཉི་མ་དམར་ཐག་རི་ཐང་མཚམས། །སྒྲོལ་ལ་ཐོན་ཚེ་རྒ་ཤིའི་དུས།
+> སྣང་བ་རྟེན་འབྲེལ་བཅུ་གཉིས་ཏེ། །མ་རིག་རྒན་མོ་ལོང་བ་འདྲ། །ཉི་མ་རི་མཐོའི་རྩེར་ཤར་དུས། །མ་རིག་དུས་ལ་ཅི་བབས་པ། །སྦྲུམ་མ་ལ་ནི་བུ་སྐྱེ་ཞིང་། །བྱམས་པའི་གཉེན་དང་ཕྲད་པའམ། །འབྲུ་དང་ནོར་རྙེད་དོན་འགྲུབ་དགེ །ནད་པར་ཞང་ཉེའི་ཕྱོགས་དག་ནས། །འདྲེ་གདོན་གནོད་ཀྱང་འཆི་ངོ་མེད། །བྱམས་པའི་ལན་ལོན་དགྲ་སྲོག་གཅོད། །ཅི་བྱས་ཐམས་ཅད་བཟང་བའོ། །འདུ་བྱེད་རྫ་མཁན་འདྲ་བ་སྟེ། །ཉི་མ་རི་ཀླུང་ཤར་བ་ཡི། །ཕྱེད་དུས་ཉོ་ཚོང་ [p. 38, img. 46] ཕན་ཐོགས་ཤིང་། །ལན་ལེན་པ་ཡིས་བྱེས་སུ་བྱམས། །ཅི་བསམ་དོན་དུ་འགྲུབ་པ་དང་། །ལམ་ཞུགས་ཤིན་ཏུ་བཟང་བའོ། །ནད་པར་སྐྱོབ་ཕྱིར་འབྱུང་འདྲེ་གནོད། །ཆགས་ཆེ་རིམ་གྲོ་འབུངས་ལ་གྱིས། །ན་ཚ་མེད་ཀྱང་རིམ་གྲོ་དགོས། །རྣམ་ཤེས་ཁང་སྟོང་སྤྲེའུ་འདྲ། །ཉི་མ་འབལ་དྲོས་དུས་ལ་དབང་། །གསོན་ལ་རབ་གནས་རྟེན་མཁར་རྣམས། །འགོ་འཛུགས་བཟང་ཞིང་ནད་པ་ལ། །འདྲེ་གནོད་ཚེ་བུམ་ཞུ་ཞིང་འདོན། །མིང་དང་གཟུགས་ནི་གྲུ་རྫིངས་འདྲ། །ཉི་མ་དྲོས་ཆེན་མིང་གཟུགས་སྐབས། །དེ་ལ་ཅི་བྱས་དགྲ་ངོ་དང་། །ཅི་བྱས་དོན་མི་འགྲུབ་པས་ངན། །ནད་པར་ས་བདག་འདྲེ་ཆེན་གནོད། །རིམ་གྲོ་མྱུར་བསྒྲུབ་འབུངས་ལ་བྱ། །དོན་རྣམས་གྲུ་ལྟར་འགྱུར་ལྡོག་ཆེ། །སྐྱེ་མཆེད་དྲུག་ནི་མཁར་དང་འདྲ། །ཕྱེད་དྲོས་སྐྱེ་མཆེད་དྲུག་གི་དུས། །རྨང་པོས་བུ་རྙེད་དབུལ་པོ་ཡིས། །ནོར་རྙེད་བུ་མེད་བུ་རྙེད་འགྱུར། །ནོར་འཕེལ་དོན་ཀུན་འགྲུབ་པས་བཟང་། །ནད་པར་ཐེའུ་བྲང་རྒྱལ་པོ་གནོད། །དེ་ཉིད་བཟློག་པའི་རིམ་གྲོ་བསྐྱེད། །རེག་པ་ཕོ་མོ་འོ་བྱེད་འདྲ། །དུས་ནི་སྔ་ཆེན་དུས་སུ་ཡང་། །དོན་ལ་མ་ཉེས་དགྲ་བོ་ལྡང་། །མ་དོགས་ས་ནས་དགྲ་ངོ་ཡོད། །བྱམས་པའི་གཉེན་དང་འཁོན་པའམ། །དོན་ཆེན་བསྒྲུབ་ན་མི་དགེ་བཤོལ། །ནད་ནི་མཛེ་དང་ཤུ་འབྲས་འོང་། །ནད་པར་བུ་སྲིང་སྒབ་འདྲེ་དང་། །ཞང་ཉེའི་ཕྱི་ནས་འདྲེ་ཡང་གནོད། །དེ་ལ་ཁ་ཟས་སྐྱས་འདེབས་དགོས། །ཚོར་བ་མིག་ལ་མདའ་ཕོག་འདྲ། །དུས་ནི་ཉི་མ་ཕྱེད་ཀྱི་དུས། །དོན་ཀུན་བྱམས་པའི་ལན་ལེན་ཅིང་། །དགྲ་སྲོག་གཅོད་པར་འགྱུར་བ་དང་། །བཟའ་བཏུང་བརྟན་དེ་ཤིན་ཏུ་བཟང་། །ནད་པར་གྲེ་བོ་གནོད་པ་དང་། གྲེ་བོ་བཟློག་པའི་ཐབས་ལ་འབད། །སྲེད་པ་ཆང་འཐུང་དག་དང་འདྲ། །ཉི་མ་ཕྱེད་ཡོལ་སྲེད་པའི་དུས། །སྙིང་དུ་བསམས་པ་གློ་བར་འགྲོ། །དོན་ནི་ཅི་བྱས་འབྲས་བུ་མེད། །ནད་པར་ཟས་ཕྱིར་འབྲངས་ཏེ་གནོད། །ཆགས་ཆེ་རིམ་གྲོ་ཀུན་ལ་འབུངས། །ལེན་པ་ཤིང་ཏོག་སྙབ་པ་འདྲ། །གྲིབ་ཆུང་རྒོད་དུས་ལེན་པའི་དུས། །དོན་ཀུན་ཅི་བསམ་འགྲུབ་པས་བཟང་། །ཟས་ཕྱིར་འབྲངས་པའི་འདྲེ་གདོན་གནོད། །འདྲེ་ལ་རྫོངས་ཐབས་སྲུང་བ་ཐོགས། །སྲིད་པ་ཕོ་མོ་འདོད་སྤྱོད་འདྲ། །གྲིབ་ཆེན་ཐང་ཕེབས་སྲིད་པའི་དུས། །དོན་ལ་བར་གཅོད་སྡུག་བསྔལ་དང་། །དགྲ་དང་རྐུན་མའི་ངོ་ལྡང་ཞིང་། །ནད་པར་ཀླུ་སྲིན་མོ་གདོན་གནོད། །བསྣོལ་ཐབ་མི་གཙང་བ་ཡིས་ལན། །ནད་ཡུན་རིང་བས་རིམ་གྲོ་འབུངས། །སྐྱེ་བ་བུ་ཆུང་བཙའ་བ་འདྲ། །ཉི་མ་མདུང་གང་སྐྱེ་བའི་དུས། །གཞིས་སམ་ཚོང་གི་དུས་སུ་ཡང་། །བསམ་པའི་དོན་ཀུན་འགྲུབ་ཅིང་དགེ། །ལོངས་སྤྱོད་ཆེ་ཞིང་ཟས་ནོར་རྙེད། །ནད་པར་ནལ་འདྲེ་གནོད་ན་ཡང་། །ཉེན་མེད་ཁ་རྗེ་ཆེ་བ་ཡིན། །རྒ་ཤི་རྒན་མོ་འཁར་ཐོགས་འདྲ། །ཉི་མ་དམར་ཐག་རི་ཐང་མཚམས། །སྒྲོལ་ལ་ཐོན་ཚེ་རྒ་ཤིའི་དུས། །དོན་ནི་ཕྱི་ཐལ་ཆེ་བས་ངན། །དོན་མེད་སྙིང་པོ་མེད་པར་འགྱུར། །ན་ཚ་སྡུག་བསྔལ་དྲག་པོ་འོང་། །ནད་པར་ཕ་མ་ལ་སོགས་པའི། །དུར་གྱི་འདྲེ་གནོད་ཉེན་ཁ་ཆེ། །རིམ་གྲོ་འབུངས་ནས་བྱས་ན་བཟང་། །
 
 Ignorance, like a blind old woman, when the sun rises on the high peak;
 formation, like a potter, when the sun lights the valleys; consciousness,
@@ -1669,14 +1678,21 @@ page; the parts marked read on the scan):
   enemies are reckoned taking the time of reckoning as the year of the
   one reckoned; the life force, body, power and luck fight; count white
   and black and give the verdict; ch. 27 has the like, but this is the
-  reckoning of the moment's own" (p. 172, Yigdzin-1).
-- *The colophon* (p. 172, Yigdzin-1 and the etext): this Chinese
+  reckoning of the moment's own" (p. 172, img. 180, l. 19–22, read on the
+  scan, O10d):
+
+  > ༧ འཐབ་དགྲ་རྣམས་ནི་བརྩི་དུས་ཀྱི། །བརྩི་བྱའི་ལོ་བྱས་བརྩི་བ་ཡིན། །དེ་ཡང་སྲོག་ལུས་དབང་ཀླུང་འཐབ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས། །འདི་དང་ཆ་མཐུན་གོང་གི་ལེའུ། །ཉེར་བདུན་ནང་དུའང་བཤད་མོད་ཀྱང་། །འདི་ནི་དུས་རྩིས་སྒོས་ཆོས་ཡིན། །
+
+- *The colophon* (p. 172, img. 180, l. 22, to p. 173, img. 181, l. 2,
+  read on the scan, O10d): this Chinese
   reckoning shows good and bad without fail by each person's year and
   element, not depending on how the work of the moment is reckoned;
   though it seems of little need it is the practice of the authorities;
   "this reckoning of the moment is most precious and strong and must be
   reckoned for every starting point", so the essence of the rare Chinese
   documents on the moment and of the learned traditions is gathered.
+
+  > ཞེས་ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས་དུས་ཚོད་རྩིས་དང་ས་དཔྱད་རྡེལ་དཔྱད་ཕྲན་བུ་ལས་ནག་རྩིས་འདི་འཕྲལ་གྱི་བྱ་བྱེད་བརྩི་ལུགས་ལ་མ་ལྟོས་པར་གང་ཟག་སོ་སོའི་ལོ་ཁམས་ཀྱིས་མ་ནོར་ཕྱིན་བཟང་ངན་གྲུབ་པར་བདར་ཡང་དགོས་གནད་ཆུང་འདྲ་ཡང་། ཚད་ལྡན་གྱི་ཕྱག་རྒྱུན་དུ་བྱ་སྲོལ་དང་། དེ་ཡང་བག་རྩིས་ས་དཔྱད་གཤིན་གསུམ་ལ་ཕྱོགས་བསྒྲིགས་ལམ་པ་བྱས་ཡུབ་པ་འདུག་པ་ལས། དེ་ཕྱིན་ལ་སོ་སོའི་ངག་ཐོག་ནས་འདོན་ལེགས་ཉེས་ལས་ཀྲིག་མ་ཆགས་པ་སྐོར་འགོ་རྣམས་ཇི་བཞིན་གྱི་བདར་ཡང་བརྗོད་ཚེ་ཧ་ཅང་ཡི་གེས་འཇིགས་པས་རྩ་ཚིག་འདིར་རགས་ཙམ་དང་། འདི་ནང་མ་འཕྱུགས་པའི་ཐོག་བློ་གྲོས་ཀྱིས་དཔྱད་ནས་གང་བརྩིའི་ལེའུ་སོ་སོའི་སྐོར་འགོ་སྨོས་ཆོག་རྩིས་དང་། དུས་ཚོད་སྐོར་འདི་ཤིན་ཏུ་གཅེས་པ་ [p. 173, img. 181] དང་བཙན་ཞིང་སྐོར་འགོ་ཀུན་ལ་བརྩི་དགོས་གཤིས་དུས་ཚོད་ཀྱི་ཡིག་ཆ་རྒྱ་ཕྲུག་དཀོན་རིན་དང་བཅས་ཚད་ལྡན་མཁས་མང་གི་ལུགས་རྣམས་ཀྱི་ཉིང་ཁུ་བསྡུས་ཏེ་གང་གསལ་དུ་བགྱིས་པའི་ལེའུ་སྟེ་སུམ་ཅུ་པའོ།། །།
 
 **Whose dates, and what kind.** The **moment**: the date (for the
 trigram and mewa of the day), the hour of the twelve counted from dawn
