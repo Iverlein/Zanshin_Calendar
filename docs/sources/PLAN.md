@@ -473,3 +473,9 @@ Searched and found wanting, so not to be repeated:
   (`iiifpres.bdrc.io/il/v:bdr:I1KG1710`) with 502 too; the images answered
   at `https://iiif.bdrc.io/bdr:I1KG1710::I1KG1710NNNN.jpg/full/max/0/default.jpg`
   (NNNN the four-digit image number).
+- **A sharper scan of WB vol. 2, pp. 308–312** (O7, 2026-10-13): the Gser
+  thang reprint (I3CN5029, img. 314–318, 1905 px, image = page + 6 as at
+  pp. 223–226) is a bilevel image; it shows the 1996 letters larger but
+  fills the small boxes with ink, so it does not settle Tuesday's vowel,
+  Wednesday's «དུར་?ོ» or Tuesday's «[རླིད]». It does settle Monday's
+  «དྲོ», Cancer's ཊ and Saturday's «བནྡེ».

@@ -325,13 +325,7 @@ Thursday's.
 
 ### Open
 
-- Question: In Tuesday's good list, WB vol. 2, p. 309 (img. 317), «རྟ་རྒྱུག་པ། །སྒ་རྒྱག་ཤྭ་རགས་བརྩིག་པ་དང་།», is «སྒ་རྒྱག» saddling horses, as «རྟ་དྲེལ་སྒ་རྒྱག» in the verses of Wednesday, Thursday, Friday and Saturday and «རྟ་དྲེའུ་སྒ་རྒྱག» in Sunday's? The vowel of the second syllable cannot be told on the 1996 scan, the Gser thang reprint or WBZ.
-- Question: In Wednesday's bad list, WB vol. 2, p. 310 (img. 318), «རབ་བྱུང་ཆང་བཙོ་དུར་?ོ་མདོས», is the word «དུར་སྤོ», moving a grave, or «དུར་སྦོ», and what is it? No print settles བ or པ.
-- Question: In Friday's bad list, WB vol. 2, p. 311 (img. 319), «དུར་སྦ་མགྲོན་འགྲོ་མདོས་གཏོར་འཕེན», what is «དུར་སྦ», read so on both prints, and does «མགྲོན་འགྲོ» (going as a guest) go with it or stand alone?
-- Question: In the war lines of every weekday but Thursday (pp. 308–312, img. 316–320), what is «བསོ་གདབ» (Sunday «བསོས་གདབ», Monday «བསོ་བཏབ»), which the army makes when it attacks? WBZ prints «སྭ་གདབ», «སྭོ་གདབ», «སྤོས་གདབ» and «སྦ་བཏབ» in the same places (Yigdzin-1 on WBZ, not read by eye).
-- Question: Monday's remedy, WB vol. 2, p. 309 (img. 317), «ཉ་སྦྲུལ་གཟུགས་དང་གླུད་དྲོ་ཅན།», prints «དྲོ» (ད with the subscript ར, plain on the Gser thang reprint), where WBZ has «དྲི་ཅན», "fragrant", as in Sunday's «ངར་གླུད་དྲི་ཅན»: is «དྲོ» a misprint for «དྲི», or a ransom "with warmth"?
-- Question: Tuesday's remedy, WB vol. 2, p. 309 (img. 317), «སྒྲིབ་ན་བྱི་བའི་ཐོད་ནང་དུ། །ཆུ་བླུགས་[རླིད]་བུ་ནམ་མཁར་འཕྱར།»: what is the «[རླིད]་བུ» raised into the sky, and is its first letter ར?
-- Question: Saturday's illness line, WB vol. 2, p. 312 (img. 320), «དུས་ཀྱི་ཆོ་ག་ཆག་པ་དང་། །འཕྲུ་རློག་འཁུར་བ་གསུར་གྱིས་ལན།»: are the broken seasonal rite, «འཕྲུ་རློག» and carrying the causes, answered by burnt offerings (གསུར, gsur), or are they all causes?
+- Open questions 132–138 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

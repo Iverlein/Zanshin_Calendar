@@ -1057,3 +1057,47 @@ the text, not about the app.
      read on its scan, do the two *gung* and two *zer* fall on the session
      breaks, or are the breaks kept from them («ཐུན་མཚམས་ལ་ཁེལ་བ»)? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+
+132. **Tuesday's «སྒ་རྒྱག».** In Tuesday's good list, WB vol. 2, p. 309 (img.
+     317), «རྟ་རྒྱུག་པ། །སྒ་རྒྱག་ཤྭ་རགས་བརྩིག་པ་དང་།», is «སྒ་རྒྱག»
+     saddling horses, as «རྟ་དྲེལ་སྒ་རྒྱག» in the verses of Wednesday,
+     Thursday, Friday and Saturday and «རྟ་དྲེའུ་སྒ་རྒྱག» in Sunday's? The
+     vowel of the second syllable cannot be told on the 1996 scan, the
+     Gser thang reprint or WBZ. (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+133. **Wednesday's «དུར་?ོ».** In Wednesday's bad list, WB vol. 2, p. 310 (img.
+     318), «རབ་བྱུང་ཆང་བཙོ་དུར་?ོ་མདོས», is the word «དུར་སྤོ», moving a
+     grave, or «དུར་སྦོ», and what is it? No print settles བ or པ. (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+134. **Friday's «དུར་སྦ».** In Friday's bad list, WB vol. 2, p. 311 (img. 319),
+     «དུར་སྦ་མགྲོན་འགྲོ་མདོས་གཏོར་འཕེན», what is «དུར་སྦ», read so on both
+     prints, and does «མགྲོན་འགྲོ» (going as a guest) go with it or stand
+     alone? (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+135. **The war lines' «བསོ་གདབ».** In the war lines of every weekday but
+     Thursday (pp. 308–312, img. 316–320), what is «བསོ་གདབ» (Sunday
+     «བསོས་གདབ», Monday «བསོ་བཏབ»), which the army makes when it attacks?
+     WBZ prints «སྭ་གདབ», «སྭོ་གདབ», «སྤོས་གདབ» and «སྦ་བཏབ» in the same
+     places (Yigdzin-1 on WBZ, not read by eye). (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+136. **Monday's ransom «དྲོ་ཅན».** Monday's remedy, WB vol. 2, p. 309 (img.
+     317), «ཉ་སྦྲུལ་གཟུགས་དང་གླུད་དྲོ་ཅན།», prints «དྲོ» (ད with the
+     subscript ར, plain on the Gser thang reprint), where WBZ has
+     «དྲི་ཅན», "fragrant", as in Sunday's «ངར་གླུད་དྲི་ཅན»: is «དྲོ» a
+     misprint for «དྲི», or a ransom "with warmth"? (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+137. **Tuesday's «[རླིད]་བུ».** Tuesday's remedy, WB vol. 2, p. 309 (img. 317),
+     «སྒྲིབ་ན་བྱི་བའི་ཐོད་ནང་དུ། །ཆུ་བླུགས་[རླིད]་བུ་ནམ་མཁར་འཕྱར།»: what
+     is the «[རླིད]་བུ» raised into the sky, and is its first letter ར? (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+138. **Saturday's illness line.** Saturday's illness line, WB vol. 2, p. 312
+     (img. 320), «དུས་ཀྱི་ཆོ་ག་ཆག་པ་དང་། །འཕྲུ་རློག་འཁུར་བ་གསུར་གྱིས་ལན།»:
+     are the broken seasonal rite, «འཕྲུ་རློག» and carrying the causes,
+     answered by burnt offerings (གསུར, gsur), or are they all causes? (2026-10-13, O7,
+     [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
