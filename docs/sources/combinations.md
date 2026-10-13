@@ -276,10 +276,4 @@ on some of them the only one.
 
 ## Open
 
-- Question: in WB vol. 2, p. 337 (img. 345), the *Rdo rje gtsug lag*'s
-  day of incompatibility prints Mercury as «ལྷག་པར(༧)»; the editors number
-  Mercury ༤ everywhere else and the table on p. 342 has Wednesday with
-  སྣྲུབས. Is (༧) a misprint of the 1996 editors?
-- Question: dus dbyig's verse (p. 331) reads «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ» in both
-  readers, but on the Ser thang reprint the vowel looks like ི and the next
-  stack is heavier than ཆུ; what does the print have there?
+- Open questions 146–147 ([open-questions.md](open-questions.md)).

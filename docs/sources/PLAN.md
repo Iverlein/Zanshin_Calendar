@@ -479,3 +479,9 @@ Searched and found wanting, so not to be repeated:
   fills the small boxes with ink, so it does not settle Tuesday's vowel,
   Wednesday's «དུར་?ོ» or Tuesday's «[རླིད]». It does settle Monday's
   «དྲོ», Cancer's ཊ and Saturday's «བནྡེ».
+- **WB vol. 1, pp. 173–174 on the Gser thang reprint** (O10, 2026-10-13):
+  the reprint (MW3CN5026, I3CN5028, 2040 px) does not hold them: its
+  img. 172–173 are model-almanac boxes and img. 174 is p. 175 (image =
+  page − 1 at pp. 175–182; image = page + 7 at pp. 22 and 156), so the
+  model almanac is laid out differently there and pp. 173–174 are read on
+  BDRC's 703-px scan only.

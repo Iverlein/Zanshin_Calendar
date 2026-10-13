@@ -73,6 +73,4 @@ before, though its lower stroke is thick.
 
 ### Open
 
-- Question: «རག་འགག» and «གསེར་འགག» in Viṣṭi's remedy (p. 350) are read as
-  printed; are they vessels of brass and of gold, and what is «སྔ་ཆ་གྲིབ་ཚུལ»,
-  the first half's shadow (གྲིབ, grib)?
+- Open question 145 ([open-questions.md](open-questions.md)).

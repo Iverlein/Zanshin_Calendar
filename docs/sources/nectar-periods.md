@@ -98,8 +98,4 @@ it gives ༦, both print ༥, Jupiter's number, as a plain digit and not as
 
 ### Open
 
-- Question: KP's night table prints a plain ༥ in Tuesday's
-  སྲོད་འཁོར་ཕྱི་ཆ and Wednesday's ཐོ་རེངས་ཕྱི་ཆ (BDRC file img. 84), where the count
-  by fives gives ༢ and ༦ and every other Jupiter cell is written
-  «བདུད་རྩི». Are these two slips of the carver, or halves ruled by Jupiter
-  that are not nectar periods?
+- Open question 144 ([open-questions.md](open-questions.md)).

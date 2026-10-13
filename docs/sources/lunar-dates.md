@@ -309,14 +309,4 @@ p. 305 (img. 313, l. 1, read on BDRC's scan):
 
 ### Open
 
-- Question: date 1's first line reads «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both
-  scans and in both readers, not «…ལམ་ཞུགས་ཞིང་» as this file had; is རྟེན
-  here a work, the making of supports (images, *rten bzhengs*), so that
-  date 1's good list should name it beside setting out?
-- Question: date 6 reads «ཤི་ངན་སྐྱེས་བསྟུད།» on both scans (the next words
-  are the illness line), not «སྐྱེས་བསྟུད་མེད»; the table's birth reading
-  "no further children" rests on the missing མེད. Does «སྐྱེས་བསྟུད» here mean
-  that children follow one another, as on dates 1, 11 and 21?
-- Question: date 3 reads «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།», not «…གང་བསྐྱེད…»: "whichever
-  boy or girl follows dies or fares badly" rather than "whoever is born";
-  which does WB mean?
+- Open questions 141–143 ([open-questions.md](open-questions.md)).

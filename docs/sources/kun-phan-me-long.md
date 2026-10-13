@@ -237,9 +237,4 @@ the app (§11 as the personal mansions and weekdays).
 
 ## Open
 
-- Question: KP's colophon (img. 119) says the blocks were recarved at
-  Lhasa by the printers' community after the earlier ones burnt, in a
-  dragon year whose element the scan does not show (Yigdzin-1 reads fire).
-  BDRC catalogues the print as Mtho las dgon (MW4CZ65561). Is it a
-  Mtho las dgon impression of Lhasa blocks, or a Lhasa print, and which
-  dragon year?
+- Open question 140 ([open-questions.md](open-questions.md)).

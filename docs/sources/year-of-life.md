@@ -1191,11 +1191,7 @@ who counts as the household.
   sign's aspects WB means.
 - The Chinese pebble divination (pp. 416–452) is read only far enough to
   see that it is a casting.
-- Question: WB vol. 1, p. 257 (img. 267, l. 3), on the scan, rejects the
-  circuits that reckon «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ་སོགས» (the earlier quotation read
-  «བཅུ», "ten", which is not on the page); is the *Moonbeams*' leap to the
-  corner at each ten (p. 493) among the circuits WB rejects, or is WB silent
-  on it?
+- Open question 139 ([open-questions.md](open-questions.md)).
 - Doubt: WB vol. 1, p. 391 (img. 401, l. 4), the syllable before «འདོན» in
   «…འདོན་ཅིང་རོ་དབྱུང་གཏོ» reads ཧྲམ or རྟམ at 6× (Yigdzin-1 རྟམ, MITRA རྟ་མ);
   written «[ཧྲམ?]».

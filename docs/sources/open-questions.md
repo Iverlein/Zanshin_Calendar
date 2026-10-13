@@ -1101,3 +1101,64 @@ the text, not about the app.
      are the broken seasonal rite, «འཕྲུ་རློག» and carrying the causes,
      answered by burnt offerings (གསུར, gsur), or are they all causes? (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+
+139. **The circuits WB rejects on p. 257.** WB vol. 1, p. 257 (img. 267, l. 3),
+     on the scan, rejects the circuits that reckon
+     «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ་སོགས» (the earlier quotation read «བཅུ»,
+     "ten", which is not on the page); is the *Moonbeams*' leap to the
+     corner at each ten (p. 493) among the circuits WB rejects, or is WB
+     silent on it? (2026-10-13, O10,
+     [year-of-life.md](year-of-life.md), "Searched and not found")
+
+140. **KP's colophon and its print.** KP's colophon (img. 119) says the blocks
+     were recarved at Lhasa by the printers' community after the earlier
+     ones burnt, in a dragon year whose element the scan does not show
+     (Yigdzin-1 reads fire). BDRC catalogues the print as Mtho las dgon
+     (MW4CZ65561). Is it a Mtho las dgon impression of Lhasa blocks, or a
+     Lhasa print, and which dragon year? (2026-10-13, O10,
+     [kun-phan-me-long.md](kun-phan-me-long.md), "The rest of the book")
+
+141. **Date 1's «རྟེན».** date 1's first line reads
+     «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both scans and in both readers,
+     not «…ལམ་ཞུགས་ཞིང་» as this file had; is རྟེན here a work, the making
+     of supports (images, *rten bzhengs*), so that date 1's good list
+     should name it beside setting out? (2026-10-13, O10,
+     [lunar-dates.md](lunar-dates.md), "The text")
+
+142. **Date 6's «སྐྱེས་བསྟུད».** date 6 reads «ཤི་ངན་སྐྱེས་བསྟུད།» on both
+     scans (the next words are the illness line), not «སྐྱེས་བསྟུད་མེད»;
+     the table's birth reading "no further children" rests on the missing
+     མེད. Does «སྐྱེས་བསྟུད» here mean that children follow one another,
+     as on dates 1, 11 and 21? (2026-10-13, O10,
+     [lunar-dates.md](lunar-dates.md), "The text")
+
+143. **Date 3's «གང་བསྟུད».** date 3 reads «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།», not
+     «…གང་བསྐྱེད…»: "whichever boy or girl follows dies or fares badly"
+     rather than "whoever is born"; which does WB mean? (2026-10-13, O10,
+     [lunar-dates.md](lunar-dates.md), "The text")
+
+144. **The night table's two plain ༥.** KP's night table prints a plain ༥ in
+     Tuesday's སྲོད་འཁོར་ཕྱི་ཆ and Wednesday's ཐོ་རེངས་ཕྱི་ཆ (BDRC file
+     img. 84), where the count by fives gives ༢ and ༦ and every other
+     Jupiter cell is written «བདུད་རྩི». Are these two slips of the
+     carver, or halves ruled by Jupiter that are not nectar periods? (2026-10-13, O10,
+     [nectar-periods.md](nectar-periods.md), "The tables written out")
+
+145. **Viṣṭi's «རག་འགག» and «གསེར་འགག».** «རག་འགག» and «གསེར་འགག» in Viṣṭi's
+     remedy (p. 350) are read as printed; are they vessels of brass and of
+     gold, and what is «སྔ་ཆ་གྲིབ་ཚུལ», the first half's shadow (གྲིབ,
+     grib)? (2026-10-13, O10,
+     [karanas.md](karanas.md), "Viṣṭi's remedies, written out")
+
+146. **The Rdo rje gtsug lag's Mercury (༧).** In WB vol. 2, p. 337 (img. 345),
+     the *Rdo rje gtsug lag*'s day of incompatibility prints Mercury as
+     «ལྷག་པར(༧)»; the editors number Mercury ༤ everywhere else and the
+     table on p. 342 has Wednesday with སྣྲུབས. Is (༧) a misprint of the
+     1996 editors? (2026-10-13, O10,
+     [combinations.md](combinations.md), "The *Rdo rje gtsug lag*'s special days")
+
+147. **Dus dbyig's «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ».** Dus dbyig's verse (p. 331) reads
+     «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ» in both readers, but on the Ser thang
+     reprint the vowel looks like ི and the next stack is heavier than ཆུ;
+     what does the print have there? (2026-10-13, O10,
+     [combinations.md](combinations.md), "The text of pp. 331–333")
