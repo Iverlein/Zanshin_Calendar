@@ -39,6 +39,8 @@ with the one that gives it a use. "Later" is not ranked.
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K5 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2), which old texts set the page's standard (K3, her advice: 暦林問答集 over 簠簋内伝), five claims to settle on the sources (K4), the direction gods (K5); the purpose is settled (SPEC §7) | the owner's word on K2; D8–D10 |
+| 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
+| 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 
 ## Blocks
 
@@ -67,7 +69,7 @@ moves up as soon as it is unblocked.
 | <a id="block-12"></a>12 | [M1](#m1) Meditation timer and bell — built 2026-10-09 | — | — | Build block 12: M1, the meditation timer and the periodic bell. |
 | <a id="block-13"></a>13 | [T4](#t4) + [T5](#t5) Element calculation and gender — built 2026-10-09 | — | — | Build block 13: T4 with T5, the element calculation and the gender setting. |
 | <a id="block-14"></a>14 | [T2.4](#t2-4)'s reading half + [T2.9](#t2-9) — built 2026-10-10 ([T2.9](#t2-9) 2026-10-09) | — | — (the lent scans are read with the owner's account, `tools/sources/archive_lend.py`) | Build block 14: T2.4's reading half and T2.9, from the borrowed scans. |
-| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | — | The blocks before it that change wording, [42](#block-42)–[49](#block-49) above all | Build block 15: L3, fix what my Russian read-through on the phone found. |
+| <a id="block-15"></a>15 | [L3](#l3) Russian read-through — the project's read-through built 2026-10-10; the owner's on the phone open | — | The blocks before it that change wording, [42](#block-42)–[51](#block-51) above all | Build block 15: L3, fix what my Russian read-through on the phone found. |
 | <a id="block-16"></a>16 | [L4](#l4) Hosted Weblate | — | [15](#block-15); not before 2026-12-28 | Build block 16: L4, set up Hosted Weblate as docs/weblate.md says. |
 | <a id="block-17"></a>17 | [T2.20](#t2-20) The times within the day — built 2026-10-09 | — | — | Build block 17: T2.20, read WB ch. 15 on the sun's terms, then build the second mansion, the skipped yoga, Viṣṭi's span and the sun's terms. |
 | <a id="block-18"></a>18 | [T2.21](#t2-21) The month's own entries — built 2026-10-10 | — | — | Build block 18: T2.21, read WB's black months, the month's length, the weekday's rise by month, eclipses and seasonal signs, and build what is calculable. |
@@ -95,13 +97,19 @@ moves up as soon as it is unblocked.
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
-| <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
+| <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
-| <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
+| <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest, and the year sheet | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links, the mewa and the year sheet in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. |
+| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
+| <a id="block-51"></a>51 | [K1](#k1) + [K2](#k2) The 旧暦 terms and the festivals' names | K1's reading (kyureki.md) | — (the owner's word on K2; D10 may give the works) | Build block 51: K1 and K2, the Russian terms by the literature and the festivals' names the expert corrected. |
+| <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — | Build block 52: the next K4 claim whose reading is in kyureki.md. |
+| <a id="block-53"></a>53 | [K3](#k3) The 旧暦 page's sources in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the sources' order for the 旧暦 page as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
+| <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
+| <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 
 ## Readings
 
@@ -146,16 +154,16 @@ written down as a dead end (sources/PLAN.md).
 
 | # | What is open | Where | Built in |
 | --- | --- | --- | --- |
-| <a id="o1"></a>O1 | KP's links left out: box 53's (which half), box 55's numbers, box 50 (KP2 only), "skye" alone (boxes 5, 7, 20), boxes 48 and 60 — done 2026-10-12 (read on the scan in KP and KP2; the table's changes, and box 53's Tiger, Dragon and Ox days and *zon* moved to the good, are in kp-activities.md, *What the table should now carry*, for a build; questions 103–105) | [kp-activities.md](sources/kp-activities.md) | [T2.25](#t2-25) |
-| <a id="o2"></a>O2 | Ch. 34: three entries whose verse reads two ways; whether «བཅོ་བརྒྱད་དགུ» names the 9th for marriage; which mansion «བྱ་གཞུག» is — done 2026-10-12 (read on the scan: the 18th and the 9th for marriage, the 1st and 6th, not the 16th, for learning, Friday middling, *bya gzhug* Dhaniṣṭhā in WB's usage; marriage's 9th added and learning's 16th dropped are in white-beryl-ch34.md's O2 section, for a build; questions 106–107) | [white-beryl-ch34.md](sources/white-beryl-ch34.md), *Left out* | T2.6 |
-| <a id="o3"></a>O3 | The hair dates' 9th, «མོད་འགྱུར» — done 2026-10-12 (read on the scan in five prints, all «མོད»: "young women become many", by the dictionaries and WB's own «X མོད་འགྱུར»; SN and two Drigung lists give meeting young women; for a build, the catalog's `reading.HairDate.9`, now "Youthfulness", in every language; question 119) | [hair-dates.md](sources/hair-dates.md) | [T2.15](#t2-15) |
+| <a id="o1"></a>O1 | KP's links left out: box 53's (which half), box 55's numbers, box 50 (KP2 only), "skye" alone (boxes 5, 7, 20), boxes 48 and 60 — done 2026-10-12 (read on the scan in KP and KP2; the table's changes, and box 53's Tiger, Dragon and Ox days and *zon* moved to the good, are in kp-activities.md, *What the table should now carry*, for a build ([T2.28](#t2-28), block [50](#block-50)); questions 103–105) | [kp-activities.md](sources/kp-activities.md) | [T2.25](#t2-25) |
+| <a id="o2"></a>O2 | Ch. 34: three entries whose verse reads two ways; whether «བཅོ་བརྒྱད་དགུ» names the 9th for marriage; which mansion «བྱ་གཞུག» is — done 2026-10-12 (read on the scan: the 18th and the 9th for marriage, the 1st and 6th, not the 16th, for learning, Friday middling, *bya gzhug* Dhaniṣṭhā in WB's usage; marriage's 9th added and learning's 16th dropped are in white-beryl-ch34.md's O2 section, for a build ([T2.28](#t2-28), block [50](#block-50)); questions 106–107) | [white-beryl-ch34.md](sources/white-beryl-ch34.md), *Left out* | T2.6 |
+| <a id="o3"></a>O3 | The hair dates' 9th, «མོད་འགྱུར» — done 2026-10-12 (read on the scan in five prints, all «མོད»: "young women become many", by the dictionaries and WB's own «X མོད་འགྱུར»; SN and two Drigung lists give meeting young women; for a build ([T2.28](#t2-28), block [50](#block-50)), the catalog's `reading.HairDate.9`, now "Youthfulness", in every language; question 119) | [hair-dates.md](sources/hair-dates.md) | [T2.15](#t2-15) |
 | <a id="o4"></a>O4 | Open question 18: the places WB's Mercury and Venus clause compares at an eclipse (vol. 1, p. 64); searched without result 2026-10-10 — done 2026-10-12 (the *Seven Special Qualities* restates the clause: the true sun and Mercury or Venus in one mansion, no 135, a smaller eclipse; mean places ruled out by Blo gros dpal; 135 sixtieths is one sign, WB p. 34; which place and which sun stay open, questions 116–118; the restatement's lines wait for the lent scans of KD and the Sakya volume) | [month-entries.md](sources/month-entries.md), *p. 64's two exceptions* | [T2.23](#t2-23) |
 | <a id="o5"></a>O5 | Open question 1: the yoga ranking's «རང་སྐྱེས» line; no reading found; not planned | [open-questions.md](sources/open-questions.md) | — |
 | <a id="o6"></a>O6 | WB's passages on the *sri*, from the etext only (the household reckoning, vol. 1 pp. 305–306, and p. 301's *rgan sri*, read on the scan 2026-10-11; p. 301's *dar sri*, pp. 244, 382, 387, 418, 425–427, 458–462 and vol. 2 left) — done 2026-10-12 (from the etext, not checked on the scan: the *dar sri* of the debt, the *chung sri* in the womb and the small grave, the *'phung sri*'s forms, the *dur sri*'s castle, the death-mouth's sri pressed down in skulls, seven new kinds in the table; in sri.md, *WB's other passages on the sri (O6)*; questions 112–115) | [sri.md](sources/sri.md) | the *sri*'s name |
-| <a id="o7"></a>O7 | The weekdays' verses, by machine with corrections, not by eye syllable by syllable — done 2026-10-13 (pp. 308–312 read by eye on the scan, with WBZ img. 1058–1064 and the Gser thang reprint for the doubtful stacks; all seven verses and the closing verse quoted in full with their illness, theft, remedy and war lines; for a build, Tuesday's good list gains "saddling horses and mules" («སྒ་རྒྱག», the same stack as Wednesday's «རྟ་དྲེལ་སྒ་རྒྱག»; the vowel of rgyag cannot be told) in weekdays.md, *O7: what the reading by eye changes*; Wednesday's «དུར་?ོ» stays out, unsettled; questions 132–138) | [weekdays.md](sources/weekdays.md) | T2 |
-| <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable — done 2026-10-12 (pp. 223–226 read by eye on the scan, with the Gser thang reprint at 1905 px and WBZ for the doubtful stacks; every seat, hearth god and witness stands; for a build, the horse day's witness adds "on the journey with the corpse no horse, the funeral door and the horse's back avoided" in earth-lords.md, *O8: what the reading by eye changes*; the chief earth lord's forms and remedy and the other remedies quoted in full; questions 120–125) | [earth-lords.md](sources/earth-lords.md) | T2 |
+| <a id="o7"></a>O7 | The weekdays' verses, by machine with corrections, not by eye syllable by syllable — done 2026-10-13 (pp. 308–312 read by eye on the scan, with WBZ img. 1058–1064 and the Gser thang reprint for the doubtful stacks; all seven verses and the closing verse quoted in full with their illness, theft, remedy and war lines; for a build ([T2.28](#t2-28), block [50](#block-50)), Tuesday's good list gains "saddling horses and mules" («སྒ་རྒྱག», the same stack as Wednesday's «རྟ་དྲེལ་སྒ་རྒྱག»; the vowel of rgyag cannot be told) in weekdays.md, *O7: what the reading by eye changes*; Wednesday's «དུར་?ོ» stays out, unsettled; questions 132–138) | [weekdays.md](sources/weekdays.md) | T2 |
+| <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable — done 2026-10-12 (pp. 223–226 read by eye on the scan, with the Gser thang reprint at 1905 px and WBZ for the doubtful stacks; every seat, hearth god and witness stands; for a build ([T2.28](#t2-28), block [50](#block-50)), the horse day's witness adds "on the journey with the corpse no horse, the funeral door and the horse's back avoided" in earth-lords.md, *O8: what the reading by eye changes*; the chief earth lord's forms and remedy and the other remedies quoted in full; questions 120–125) | [earth-lords.md](sources/earth-lords.md) | T2 |
 | <a id="o9"></a>O9 | The four times of Māra's manual — done 2026-10-13: three manuals read on the scan (Rin chen gter mdzod vol. 54 p. 235, Sgrub thabs kun btus vol. 8 p. 698, Gdams ngag mdzod vol. 2 pp. 121–122): the four are midnight, noon and the rays of the rising and setting sun, moments not spans; the Red Tārā manual makes them the breaks between sessions; questions 126–131 | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
-| <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file — begun 2026-10-13 in four parts, stopped at the usage budget: **done** yogas, lunar-dates, nectar-periods, karanas, lunar-day-signs (the goddesses), mansions, mansion-verses (all 28 verses whole), kun-phan-me-long, almanac-page (WB vol. 1 pp. 173–182 whole), year-of-life, reckonings (its outlines stay outlines); great-black-day needs nothing; **part left** combinations (WB vol. 1 table pp. 148–149, read, not typed), rahu (KP's chart img. 78); **left** combination-period, burning-dates (probably full), white-beryl-ch33, kp-activities (Yigdzin-1 of every KP half-folio in scratch o10b/kphalf-y), personal-mansions, hair-dates, day-animals (the earth lords' seats only), month-entries (survey in scratch o10c), day-letters, earth-lord-courses, earth-lords, tibetastromed, white-beryl-ch34, health, marriage (pp. 351–353 checked in scratch o10d/checked), sri, year-month-earth-lords; the readers' surveys in `~/ai/tibetan-ocr/scratch/o10{a,b,c,d}/`; questions 139–147; for a build or the owner: lunar date 6's "no further children" rests on a «མེད» the scan does not print, date 1 reads «ལམ་ཞུགས་རྟེན», date 3 «གང་བསྟུད» (questions 141–143) | [sources/README.md](sources/README.md)'s index | all |
+| <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file — begun 2026-10-13 in four parts, stopped at the usage budget: **done** yogas, lunar-dates, nectar-periods, karanas, lunar-day-signs (the goddesses), mansions, mansion-verses (all 28 verses whole), kun-phan-me-long, almanac-page (WB vol. 1 pp. 173–182 whole), year-of-life, reckonings (its outlines stay outlines); great-black-day needs nothing; **part left** combinations (WB vol. 1 table pp. 148–149, read, not typed), rahu (KP's chart img. 78); **left** combination-period, burning-dates (probably full), white-beryl-ch33, kp-activities (Yigdzin-1 of every KP half-folio in scratch o10b/kphalf-y), personal-mansions, hair-dates, day-animals (the earth lords' seats only), month-entries (survey in scratch o10c), day-letters, earth-lord-courses, earth-lords, tibetastromed, white-beryl-ch34, health, marriage (pp. 351–353 checked in scratch o10d/checked), sri, year-month-earth-lords; the readers' surveys in `~/ai/tibetan-ocr/scratch/o10{a,b,c,d}/`; questions 139–147; for the owner ([T2.28](#t2-28), D11): lunar date 6's "no further children" rests on a «མེད» the scan does not print, date 1 reads «ལམ་ཞུགས་རྟེན», date 3 «གང་བསྟུད» (questions 141–143) | [sources/README.md](sources/README.md)'s index | all |
 
 ## 旧暦 page
 
@@ -201,6 +209,8 @@ the app changes until its item is built.
   glossary (`tools/pdf/`), and the store listing where it names a term.
   The expert may be asked to name the works (her offer: the terms need
   checking «в т.ч. по научным работам на русском языке»).
+- **Block.** [51](#block-51) with K2; its reading first. [15](#block-15)
+  (L3) waits on it for the 旧暦 page.
 - **Done when.** The table in kyureki.md; `CatalogTest`; the owner's
   read-through of the Russian (L3, block 15), which waits on this for the
   旧暦 page.
@@ -218,6 +228,7 @@ the app changes until its item is built.
   and 社日 asked back. Each is a user-facing text, so the owner's word
   first; «лунный» is a usage, not a
   description (the calendar is lunisolar), to be weighed with K1.
+- **Block.** [51](#block-51) with K1, once the owner has given the word.
 - **Done when.** `CatalogTest`; both languages on the emulator; the
   dossier's glossary.
 
@@ -239,6 +250,7 @@ the app changes until its item is built.
   as a witness or a named other view, the modern digests where the old
   texts are silent — and SPEC §8.1 gets the 旧暦 rule beside WB's. Until
   then the 簠簋内伝 stays the 三箇の悪日's source, named as its own.
+- **Block.** [53](#block-53), after K3-R and D8.
 - **Done when.** The reading in kyureki.md; D8 settled; SPEC §7.5 and §8.1.
 
 #### <a id="k4"></a>K4 Claims to settle on the sources — S each
@@ -270,6 +282,10 @@ as a dead end (sources/PLAN.md).
   the app does). Question 2 is answered since the dossier (kyureki.md,
   *The personal reading of 三箇の悪日*), subject to K3's view of the 簠簋内伝.
 
+- **Block.** [52](#block-52), a claim at a time as its reading closes
+  (the 本命星 reading, the 六曜 line, SPEC §10.4's red writing), as
+  [31](#block-31) builds the reckonings one by one.
+
 #### <a id="k5"></a>K5 The direction gods — the owner's decision
 
 - **Her counter-question.** Which direction gods beyond 天一神 and 歳徳神
@@ -283,6 +299,8 @@ as a dead end (sources/PLAN.md).
   practitioner for 方忌み, so within the rule of 2026-10-10 that nothing
   is built that cannot be used. Daily 方位 (天一神's course, 日遊神) only
   if K4 finds a source. Not planned until D9.
+- **Block.** [54](#block-54), after D9 and [53](#block-53) (the old
+  text the year sheet is read from).
 
 #### Owner decisions
 
@@ -1114,6 +1132,59 @@ verdict, and the owner's decisions of 2026-10-10:
 - **Done when.** A test pins each link's lists to the scan reading;
   `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
 
+#### <a id="t2-28"></a>T2.28 Corrections from the readings — planned 2026-10-13
+
+- **Gap.** Readings done since the built items they check (the *Left
+  open in built work* rows) found entries that the scan reads otherwise
+  than the app; each topic file says what changes, and none is built:
+  - **KP's activity table** ([O1](#o1)): the links and sme ba of boxes
+    5, 7, 20, 48, 50, 53, 55, 59 and 60 as
+    [kp-activities.md](sources/kp-activities.md), *What the table should
+    now carry*, lists them, box 53 split into its two halves, and box 53's
+    Tiger, Dragon and Ox days and the trigram *zon* moved from the bad to
+    the good of both halves.
+  - **Ch. 34's works** ([O2](#o2), [white-beryl-ch34.md](sources/white-beryl-ch34.md),
+    *Ch. 34's entries that read two ways*): marriage has the 9th, 14th,
+    18th and 22nd bad (the 9th added); learning writing and astrology has
+    the 1st and 6th bad, not the 16th.
+  - **The 9th hair date** ([O3](#o3), [hair-dates.md](sources/hair-dates.md),
+    *The 9th's «མོད་འགྱུར»*): `reading.HairDate.9`, now "Youthfulness",
+    says that young women become many, in every language.
+  - **Tuesday** ([O7](#o7), [weekdays.md](sources/weekdays.md), *O7: what
+    the reading by eye changes*): the good list gains saddling horses and
+    mules, after horse racing, as the verse orders it, and with it the
+    election's weekday list for saddling.
+  - **The horse day's witness** ([O8](#o8), [earth-lords.md](sources/earth-lords.md),
+    *Change for a build*): `reading.EarthLord.HORSE`'s witness sentence
+    adds that on the journey with the corpse no horse is used, and the
+    funeral door and the horse's back are avoided, the Russian to match.
+- **D11, the owner's word first** ([O10](#o10), open questions 141–143,
+  [lunar-dates.md](sources/lunar-dates.md)): three lunar dates as built
+  rest on readings the scan does not bear out. Date 6's "No more children
+  follow one born today" rests on a «མེད» the scan does not print
+  («སྐྱེས་བསྟུད», read on dates 1, 11 and 21 as "children follow one
+  another"); date 3's "Whoever is born today" is «གང་བསྟུད», "whichever
+  boy or girl follows"; date 1 reads «ལམ་ཞུགས་རྟེན», where «རྟེན» may be
+  a work of its own, making supports. Whether the app follows the scan
+  now, in the plain sense of its words, or keeps the line out until a
+  reader of the tradition answers, is the owner's; until then the three
+  stay as built.
+- **Work.** The lists in `Texts` and the table's boxes; the two readings
+  in the catalog with their Russian; D11's three dates once it is
+  settled. No reading is needed: all of them are done.
+- **Rule from here on.** A reading that finds a change for a build adds
+  it to this item's list, with its row and topic file, and the item
+  keeps a block until every entry is built; the readings' launcher does
+  it while bookkeeping (sources/PROTOCOL.md).
+- **Block.** [50](#block-50); reads [O1](#o1), [O2](#o2), [O3](#o3),
+  [O7](#o7), [O8](#o8); D11 for the three lunar dates. [43](#block-43)
+  (X3, X4) and [46](#block-46) (X7) reword these readings and build on
+  it.
+- **Done when.** A test pins each changed list to its topic file;
+  `DaySummaryTest`'s and the election's counts updated; `CatalogTest`;
+  SPEC §5.10 where it describes the boxes; Tuesday, the 9th hair date and
+  a horse day on the emulator in both languages.
+
 #### Order
 
 1. T2.1, T2.2 and T2.3 are built.
@@ -1128,6 +1199,8 @@ verdict, and the owner's decisions of 2026-10-10:
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 8. Found 2026-10-11, checking the page against WB's own almanac and
    chapters: T2.27, then T2.26 once D4 is settled.
+9. Found 2026-10-12 and 2026-10-13 by the O readings: T2.28, before the
+   X blocks that reword the same readings.
 
 #### Not planned
 
@@ -1795,6 +1868,19 @@ W1 build on them (below).
   Checked from a fresh counter: three opens of each page show it, the
   fourth not, a tap puts it away; English and Russian.
 
+#### <a id="u19"></a>U19 Pinned works — planned 2026-10-13
+
+- **Gap.** U6 left it as a later item (2026-10-09): the works a reader
+  cares about are found by scrolling the Works section, each time.
+- **Work.** A chooser from the Works section's heading to pin works; the
+  pinned ones first in the section, each with its verdict and deciding
+  factor, as now; a preference, kept across days, none pinned on a fresh
+  install, so the store shots stay as they are. The design is the
+  owner's to confirm before the build.
+- **Block.** [55](#block-55); no reading.
+- **Done when.** Pinning, unpinning and the order on the emulator in
+  both languages; a fresh install with none pinned; SPEC §10.3.
+
 ### <a id="x"></a>X1–X10. The readings' wording — planned 2026-10-11
 
 An analysis of every reading the Tibetan page's sheets open (the build of
@@ -2003,7 +2089,8 @@ X, so that the owner reads the wording once. The blocks are
   *Livestock*; the flood dikes left to the list; the print note to
   [lunar-dates.md](sources/lunar-dates.md). The hair date and the
   washing result stay the details they are.
-- **Block.** [43](#block-43); no reading; builds on [42](#block-42).
+- **Block.** [43](#block-43); no reading; builds on [42](#block-42) and
+  [50](#block-50) (the 9th hair date; dates 1, 3 and 6 once D11 is settled).
 - **Done when.** The 30 readings and their Russian; dates 1, 4, 8 and
   15 on the emulator in both languages; `CatalogTest` without the
   family's allowance.
@@ -2022,7 +2109,8 @@ X, so that the owner reads the wording once. The blocks are
   pale red; fire"), *A birth today*, *A death today*. Goddess's day:
   paragraph the goddess and what an illness that comes on it is traced
   to; rows *Spirits that harm*, *Illness*, *Rites*.
-- **Block.** [43](#block-43) with X3; builds on [42](#block-42).
+- **Block.** [43](#block-43) with X3; builds on [42](#block-42) and
+  [50](#block-50) (Tuesday's saddling).
 - **Done when.** The 7 and the 8 with their Russian; Sunday and the
   fire trigram's day on the emulator in both languages; `CatalogTest`
   without the family's allowance.
@@ -2096,7 +2184,7 @@ X, so that the owner reads the wording once. The blocks are
   the family note; the eclipses' limits as a row. The great black day,
   the black month, Kikang's, the sage's and the pig's days and the comet
   the same.
-- **Block.** [46](#block-46); no reading; builds on [42](#block-42).
+- **Block.** [46](#block-46); no reading; builds on [42](#block-42) and [50](#block-50) (the horse day's witness).
 - **Started** 2026-10-11 (block 42's review): the lesser black day, SPEC
   §8.1's third example, stands in the shape in English and Russian, its
   ruling paragraph, *Remedy* and *How it falls* (its *Another view* row

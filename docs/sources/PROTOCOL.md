@@ -96,7 +96,12 @@ next report launches them. So the process is a pool, not fixed waves.
      from the last one into `open-questions.md`, each with its topic
      file linked, and the "Question:" lines in the topic file replaced
      by the numbers; its dead ends appended to PLAN.md's *Dead ends*
-     with the date; `docs/sources/wb/README.md`'s *Images done* extended
+     with the date; every change for a build it reports (a list entry
+     or a reading the scan reads otherwise) added to the roadmap's
+     corrections item, [T2.28](../ROADMAP.md#t2-28), with its row and
+     topic file, so that a block builds it, and one that waits on the
+     owner named as a decision there;
+     `docs/sources/wb/README.md`'s *Images done* extended
      (local, not committed). `./gradlew :core:test` in full; commit
      `docs: RD<n> done, <what it settled>`; merge fast-forward.
    - **Clean**: `git worktree remove --force` and `git branch -d` for

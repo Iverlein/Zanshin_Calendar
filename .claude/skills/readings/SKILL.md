@@ -27,6 +27,8 @@ once before the first plan.
    (rebase in its worktree if refused); in `work/readings`: mark the
    row done only after reading the topic file's section, number its
    questions into open-questions.md, append its dead ends to PLAN.md,
+   put each change for a build it reports into ROADMAP's T2.28 (an
+   owner's decision named there),
    extend docs/sources/wb/README.md's *Images done*; `./gradlew
    :core:test`; commit `docs: RD<n> done, <what it settled>`;
    fast-forward; remove the subagent's worktree and branch and its
