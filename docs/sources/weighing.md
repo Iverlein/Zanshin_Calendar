@@ -126,24 +126,9 @@ times called demon doors, the two *gung* and two *zer*, explained
 elsewhere. NM (p. 117, etext) lists them for a bride: «དུས་ནག་དང་ཟེར་གཉིས་གུང་གཉིས་ཏེ་དུས་ཀྱི་གྲུབ་ཁུང»,
 the black hours and the two *zer* and two *gung*, the hours' pits. BDRC's
 full-text search (2026-10-10, «ཟེར་གཉིས», «ཕྱེད་གཉིས་ཟེར་གཉིས», «གུང་གཉིས་ཟེར་གཉིས»,
-«ཟེར་གཉིས་ཏེ») finds the pair glossed in one place, a ritual manual of the
-*Rin chen gter mdzod* (Shechen 2007–2008, vol. 54, text 21, *Byang bdag
-gsung king kang dmar chung gi lag len dmigs skor gnad dril* by Blo gsal
-rgya mtsho; BDRC MW1KG14, etext VE1KG14_054, character 204 528), a fierce
-rite whose four sessions they are:
-
-> ཐུན་བཞི་ནི་གུང་གཉིས་དང་ཟེར་གཉིས་ཏེ་མཱ་ར་ཡ་ཛའི་འགྱུར་དུས་བཞི་ཟེར་བའི་ནམ་གུང་དང་ཉིན་གུང་ཞོགས་ཉི་མ་འཆར་ཀའི་ཟེར་དང་དགོང་ཉི་མ་སྡུད་པའི་ཟེར་གཉིས་ཏེ་བཞི་ལ་ཐུན་གྱི་ངོ་བོ་འགུགས་གཟིར་གསོད་སོགས་འོང་བ་བྱ
-
-"The four sessions are the two *gung* and the two *zer*, called the four
-times of Māra rāja's change: midnight and noon, the rays of the sun
-rising in the morning and the rays of the sun gathering in the evening;
-in these four the session's summoning, pressing and killing are done."
-Its four times of Māra are WB's "times when the four māras move", and its
-work in them is WB's only work that succeeds in them. A *Sgrub thabs kun
-btus* rite sets «ཟེར་གཉིས་དང་གུང་གཉིས» between its four daily sessions, and the
-*Gdams ngag mdzod* glosses «འཆར་ནུབ་ཀྱི་ཟེར་གཉིས», the rays of rising and
-setting (search snippets): the same four. Read from the etext only (the
-manual's scans are open but were not looked up).
+«ཟེར་གཉིས་ཏེ») finds the pair glossed in ritual manuals of three collections,
+read on the scans 2026-10-12 and 2026-10-13 (below, *The four rough times
+in three manuals*).
 
 **Notes for the app** (built 2026-10-10, SPEC §5.13, §10.3):
 
@@ -161,6 +146,181 @@ manual's scans are open but were not looked up).
 - WB's own results of the twelve day animals (pp. 356–359) are read in
   [day-animals.md](day-animals.md) and joined first to the day animal's
   lists (ROADMAP T2.24, built 2026-10-10).
+
+### The four rough times in three manuals (O9, 2026-10-13)
+
+BDRC's full-text search of 2026-10-10 and 2026-10-12 found the pair
+named with a gloss in three collections of ritual manuals, and a fourth
+place as a lead. The four are the two middles, midnight and noon (གུང་གཉིས,
+*gung gnyis*), and the two rays, of the rising and of the setting sun
+(ཟེར་གཉིས, *zer gnyis*). The three manuals' passages were read on the
+scan; the lead's only in the etext.
+
+**The Treasury of Precious Treasure-texts** (རིན་ཆེན་གཏེར་མཛོད, *Rin chen gter
+mdzod*), Shechen 2007–2008, vol. 54 (BDRC MW1KG14, image group I1KG69;
+printed page = image − 19), text 21, the Northern Lord's (བྱང་བདག, *Byang
+bdag*) practice manual «བྱང་བདག་གསུང་ཀིང་ཀང་དམར་ཆུང་གི་ལག་ལེན་དམིགས་སྐོར་གནད་དྲིལ» (*Byang bdag
+gsung king kang dmar chung gi lag len dmigs skor gnad dril*) by Blo gsal rgya mtsho (བློ་གསལ་རྒྱ་མཚོ), title page
+p. 227 = img. 246. The passage: p. 235 = img. 254, ll. 3–6, to p. 236 =
+img. 255, l. 1. Yigdzin-1 and MITRA agree on every syllable of img. 254
+(271 syllables, no flag); the two flags of img. 255 lie outside the
+passage; the lines read by eye at 3×, which differ from the etext
+(VE1KG14_054) only in the tsheg (etext ཞིང༌, scan ཞིང་།). The etext's page
+markers are not the scan's pages. It follows the request that the
+deities stay on the rite's pit (བྲུབ་ཁུང, *brub khung*) until the signs are
+complete:
+
+> ཚུལ་དེ་ལྟ་བུས་ཐུན་བཞི་ནི་གུང་གཉིས་དང་ཟེར་གཉིས་ཏེ་མཱ་ར་ཡ་ཛའི་འགྱུར་དུས་བཞི་ཟེར་བའི་ནམ་གུང་དང་ཉིན་གུང་ཞོགས་ཉི་མ་འཆར་ཀའི་ཟེར་དང་དགོང་ཉི་མ་སྡུད་པའི་ཟེར་གཉིས་ཏེ་བཞི་ལ་ཐུན་གྱི་ངོ་བོ་འགུགས་གཟིར་གསོད་སོགས་འོང་བ་བྱ་ཞིང་། དཔེར་ན་ཐོག་མར་གཞུང་སྲོང་ཉི་མ་ཕྱེད་ཡོལ་ཙམ་ནས་མགོ་ཚུགས་ནས་དགོང་ཐུན་ཉི་ཟེར་སྡུད་པའི་དུས་ལ་འོང་བ་བྱ་དགོས། དེས་རིགས་འགྲེ་བར་ནམ་གུང་ཉི་ཤར་ཉིན་གུང་སྟེ་བཞི་ཀ་ཆོ་གའི་ཁྲིགས་དེ་ཁོ་ན་ལ། སྔ་ཐུན་ཡི་དམ་གྱི་གཞུང་སྲོང་སོང་ནས་ཐུན་ཕྱི་མ་ལ་འདི་ཁའི་རྒྱུན་བཤགས་ནས་བསྟབ་པའི་བར་བྱས་པས་འགྲུབ་བོ། །ཡང་སྲིན་པོ་ལྟོ་ལ་རུབ་པའི་དུས་སྲོད་དང་། གཤིན་རྗེས་ཁྲམ་ལ་འདེབས་པའི་དུས་ནམ་ཕྱེད། གིང་གཟན་ལ་འཇུམ་པའི་དུས་ཐོ་རངས། སྟག་ཆེན་ཁ་གདངས་པའི་དུས་ཉི་ཤར། ཆུ་སྲིན་རྔ་མ་གཡོབ་པའི་དུས་ཉིན་གུང་། བདུད་དམག་ལ་ཆས་པའི་དུས་དགོང་གྲིབ་སོ་ནག་ངམ་གྱིས་འོང་བའི་སྐབས་ཏེ་ཐུན་དྲུག་ཏུ་བྱེད་ནའང་ཐུན་གྱི་ཁོག་དེ་ལྟ་བུས་ཁུག་རྟགས་མ་བྱུང་བར་བླ་འགུགས་ལ་ནན་ཏན་བྱ།
+
+"In this way the four sessions (ཐུན, *thun*) are the two *gung* and the two
+*zer*, which are called the four times of change of «མཱ་ར་ཡ་ཛ»: midnight and
+noon, and the two rays, the ray of the sun about to rise in the morning
+and the ray of the sun drawing in in the evening. The body of the
+session, summoning, pressing, killing and the rest, is to be brought to
+arrive at these four. For example, the first main recitation (གཞུང་སྲོང,
+*gzhung srong*) is begun when the sun has just passed its middle and must
+arrive at the time of the evening session, when the sun draws in its
+rays. By the same pattern midnight, sunrise and noon: the four all in
+just that order of the rite; the earlier session goes through the
+meditation deity's (ཡི་དམ, *yi dam*) main text, the later one through this
+rite's daily confession up to the offering, and it succeeds. Or again:
+dusk (སྲོད, *srod*), when the ogres (སྲིན་པོ, *srin po*) crouch for food;
+midnight (ནམ་ཕྱེད, *nam phyed*), when the Lord of Death (གཤིན་རྗེ, *gshin rje*)
+strikes his tally (ཁྲམ, *khram*); dawn (ཐོ་རངས, *tho rangs*), when the *ging*
+(གིང) smiles at its prey; sunrise, when the great tiger opens its mouth;
+noon, when the sea monster (ཆུ་སྲིན, *chu srin*) swings its tail; evening
+shadow (དགོང་གྲིབ, *dgong grib*), when Māra's (བདུད, *bdud*) army sets out, as
+the dark [*so nag*] comes on: even when six sessions are made, with the
+session's frame as above, press on with summoning the la, the
+life-spirit (བླ, *bla*), until the sign of capture has come."
+
+What it says of the four rough times: they are named and defined, two
+middles and two rays, as the four times of change of «མཱ་ར་ཡ་ཛ», which may
+be Māra rāja, the king of the māras (a question below). A fierce
+rite's sessions are fitted to them: each session is a span that is made
+to arrive at its moment (one begun just after noon arrives at the
+evening rays), and the acts of summoning and killing fall in them, as
+WB's verse allows only averting, killing and fierce work in its four.
+The six-session list after them names midnight ནམ་ཕྱེད where the four
+have ནམ་གུང, the same moment under WB's word *phyed*; WB's own hours on
+p. 359 call noon ཉི་ཕྱེད and midnight ནམ་ཕྱེད. The six add dusk, dawn and
+evening shadow, and leave out the evening rays.
+
+**The Compendium of Sādhanas** (སྒྲུབ་ཐབས་ཀུན་བཏུས, *Sgrub thabs kun btus*),
+Dzongsar 1991 (BDRC MW23681), vol. 8 (ཉ), image group I2423; printed
+page = image − 12; contents item 30, pp. 671–707: the manual of the
+approach and accomplishment of the Red Tārā (སྒྲོལ་མ་དམར་མོ, *Sgrol ma dmar
+mo*), «རྗེ་བཙུན་མ་སྒྲོལ་མ་དམར་མོའི་བསྙེན་སྒྲུབ་ལས་ཀྱི་མན་ངག་བུང་བ་མྱོས་པའི་འགྲམ་ཆང» (*Rje btsun ma
+sgrol ma dmar mo'i bsnyen sgrub las kyi man ngag bung ba myos pa'i 'gram
+chang*), written, the colophon says, by Vāgindra Susiddha (ཝཱ་གིནྡྲ་སུ་སིདྡྷ) at the protectors' chapel of
+Rnam rgyal rtse (རྣམ་རྒྱལ་རྩེའི་མགོན་ཁང, *rnam rgyal rtse'i mgon khang*) in Mdo khams (མདོ་ཁམས); the etext is
+VE23681_001, unit 230. The passage: p. 698 = img. 710, ll. 1–2.
+Yigdzin-1 and MITRA; read by eye at 3×: ཕྱི་དྲོ as MITRA (Yigdzin-1 བྱི).
+
+> གསུམ་པ་ཐུན་མཚམས་སུ་བྱ་བ་ནི། ཐོ་རངས། སྔ་དྲོ། ཕྱི་དྲོ། སྲོད་དེ་ཐུན་བཞིར་སྒོམ་བཟླས་ཆུ་བོའི་རྒྱུན་བཞིན་བྱ་ཞིང་། ཟེར་གཉིས་དང་གུང་གཉིས་སུ་ཐུན་མཚམས་ཀྱི་སྤྱོད་ལམ་བྱ་སྟེ་རྩ་བའི་སྔགས་ཀྱི་ཤམ་བུར་ཨརྒྷཾ་པྲ་ཏཱིཙྪ་སྭཱ་ཧཱ། ཞེས་སོགས་བཏགས་ནས་མཆོད་པ་དབུལ་ཞིང་། ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད།
+
+"Third, what is done at the session breaks (ཐུན་མཚམས, *thun mtshams*):
+meditate and recite like the stream of a river in four sessions, dawn,
+morning, afternoon and dusk; and at the two *zer* and the two *gung* keep
+the conduct of the session breaks: add «ཨརྒྷཾ་པྲ་ཏཱིཙྪ་སྭཱ་ཧཱ» and the like
+to the end of the root mantra and make the offerings, and praise with
+the Twenty-one Homages (ཕྱག་འཚལ་ཉེར་གཅིག, *phyag 'tshal nyer gcig*)."
+
+What it says of the four rough times: here the *zer* and the *gung* are
+**the breaks between the sessions, not the sessions themselves**. The
+sessions are four spans, dawn, morning, afternoon and dusk; the two rays
+and the two middles are where one session stops and the next has not
+begun. The text does not place each one, but its order puts the rising
+rays between dawn and morning, noon between morning and afternoon, the
+setting rays between afternoon and dusk, and midnight between dusk and
+dawn. This bears on what the four are, not on what they are good for:
+it treats them as four short moments that fall between spans of the
+day, as the *Rin chen gter mdzod* treats them as moments its sessions
+arrive at, and as WB's invocation (p. 134) counts them with the "moments
+and instants" shorter than an hour. It says nothing of Māra or of
+rough work: at the breaks it sets offerings and praise.
+
+**The Treasury of Instructions** (གདམས་ངག་མཛོད, *Gdams ngag mdzod*),
+Shechen 1999 (BDRC MW23605), vol. 2, image group I1CZ3964; printed page
+= image − 8; etext VE23605_002 (unit UT23605_002_0011). Text 115, a
+guide of the Great Perfection (རྫོགས་པ་ཆེན་པོ, *rdzogs pa chen po*), «རྫོགས་པ་ཆེན་པོ་གསང་བ་སྙིང་ཐིག་མ་བུའི་བཀའ་སྲོལ་ཆུ་བོ་གཉིས་འདུས་ཀྱི་ཁྲིད་ཡིག་དྲི་མེད་ཞལ་ལུང» (*Rdzogs pa chen po
+gsang ba snying thig ma bu'i bka' srol chu bo gnyis 'dus kyi khrid yig
+dri med zhal lung*), written, the colophon says (etext), by Padma gar
+dbang phrin las 'gro 'dul rtsal (པདྨ་གར་དབང་ཕྲིན་ལས་འགྲོ་འདུལ་རྩལ) at Dpal
+spungs (དཔལ་སྤུངས) on the guide of Smin gling rje btsun (སྨིན་གླིང་རྗེ་བཙུན) as its root. The
+passage: p. 121 = img. 129, ll. 6–7, to p. 122 = img. 130, l. 1.
+Yigdzin-1 and MITRA agree on it but for MITRA's འཆང and ཆོས་གྲངས, where
+the scan has འཆར and **ཚེས་གྲངས** (Yigdzin-1); the three lines read by eye
+on the scan (10464 px wide, crops at full size, more than 3× a
+2550-px folio): no other difference.
+
+> གཉིས་པ་དུས་ནི། དུས་དང་ཚེས་གྲངས་གཟའ་སྐར་སོགས་བཟང་བ་ལ་འཇུག་དགོས་ཤིང་། ཁྱད་པར་ཐོད་རྒལ་བསྒོམ་པའི་དུས་ནི། དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད་ཀྱི་དུས། ཟེར་གཉིས་དུས་ནི་མཆོག་ཏུ་བཤད་པ་ཡིན། །ཞེས་གསུངས་པས། དུས་དེར་བསིལ་དྲོད་སྙོམས་པའི་དབང་ཤེས་བྱིངས་རྨུགས་ཀྱི་རྐྱེན་ཉུང་ཞིང་། བྱེ་བྲག་འཆར་ནུབ་ཀྱི་ཟེར་གཉིས་ཏེ་ཡེ་ཤེས་འཆར་བའི་རྐྱེན་དུ་འགྱུར་བས་ངོ་སྤྲོད་ཀྱི་དུས་སུ་བཤད་པའི་ཕྱིར་དེ་དང་བསྟུན་པར་བྱའོ།
+
+"Second, the time: one should begin on a season, date, planet, mansion
+and the like that are good. In particular, the time to practise the
+direct crossing (ཐོད་རྒལ, *thod rgal*): 'the season of [*dbyar ma*], autumn,
+early winter and spring; the time of the two rays is taught as the
+best,' it is said; for at those times the cool and the warm are even,
+so the causes of dullness and torpor in the sense-consciousness are few,
+and above all the two rays of rising and setting become a cause for
+wisdom to dawn, and so are taught as the time for the introduction
+(ངོ་སྤྲོད, *ngo sprod*); act in keeping with that." The verse is quoted
+without its source in these lines.
+
+What it says of the four rough times: it glosses the *zer gnyis* as the
+two rays of the sun's rising and setting, as the *Rin chen gter mdzod*
+does, and names nothing of the two middles. The same two rays that WB
+and the fierce rite count among Māra's times are here the best time for
+the direct crossing and its introduction.
+
+**A lead, not located on a scan.** The same search returned the
+Glorious Vajrabhairava's (དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད, *Dpal rdo rje 'jigs byed*)
+approach manual, in a volume of Blo bzang dam chos rgya mtsho's
+(བློ་བཟང་དམ་ཆོས་རྒྱ་མཚོ) writings (the colophons on either side name him),
+«དཔལ་རྡོ་རྗེ་འཇིགས་བྱེད་ཀྱི་བསྙེན་པ་ཇི་ལྟར་བྱ་བའི་ཚུལ་གསལ་བར་བཤད་པ་ཟབ་དོན་བདུད་རྩི་འབྱེད་པའི་ཟླ་བ…» (*Dpal rdo rje
+'jigs byed kyi bsnyen pa ji ltar bya ba'i tshul gsal bar bshad pa zab
+don bdud rtsi 'byed pa'i zla ba…*; BDRC
+MW13528_C9D515, etext VEIE0OPIE9A5E136_I3102, title at etext p. 360,
+the passage at pp. 367–368, character 343 016). The etext is an
+uncorrected machine reading; quoted as it stands, its breaks and gaps
+not mended:
+
+> དེ་ལྟ་བུའི་ཐུན་བཞི་པ་དེ་ཡང་། ནམ་གྱི་སུམ་ཆ་ནས་ཐུན་དང་པོ་བཟུང་། ནམ་ལང་དུས་གྲོལ། སླར་ཐུན་ལ་འཇུག་པཉིན་ཕྱེད་དུས་ཁྲིལ༣ སླར་ཐུན་ལ་འཇུག་པ་ཉི་ནུབ་གོང་ཙམ་དུ་གྲོལ། སླར་ཐུན་ལ་འཇུག་བ་སོད་ཡོལ་དུས་གྲོལ། དེ་ལྟར་བྱེད་པ་ནི་ཉིན་མཚན་གྱི་གུང་གཉིས་དང་། ཉི་མ་འཆར་ནུབ་ཀྱི་ཟེར་གཉིས་སོགས་ལ་ཏིང་ངོ་འཛིན་འཇོག་པའི་དུས་ཡིན་པས་ཐུན་མཆོམས་ལ་ཁེལ་བ་དང་། …
+
+"These four sessions: the first is taken from the last third of the
+night and released at daybreak; the next is entered and [released] at
+midday; the next is entered and released a little before sunset; the
+next is entered and released when dusk has passed. This is done because
+the two middles of day and night and the two rays of the sun's rising
+and setting are times for settling samādhi (ཏིང་ངེ་འཛིན, *ting nge 'dzin*), so
+that [they] fall on the session breaks, …" Its sessions end at daybreak,
+midday, before sunset and after dusk, so that, as in the *Sgrub thabs
+kun btus*, the breaks lie at or near the four; whether the clause makes
+the four times the breaks or the times kept for meditation within the
+breaks waits for the scan.
+
+**Together.** The three manuals and the lead agree on what the four
+times are: midnight and noon, and the sun's rays as it rises and as it
+sets; four moments in the day, not four spans, around which sessions
+are laid. They differ on what the moments are good for: a fierce rite
+does its killing in them and calls them Māra's (as WB does), the Red
+Tārā manual makes them the pauses for offering and praise, and the
+Great Perfection guide and the Vajrabhairava manual call them the best
+time for meditation.
+
+#### Open
+
+- Question: WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས» where the manuals write «གུང་གཉིས་ཟེར་གཉིས»; are WB's two *phyed* the same as the two *gung*, midnight and noon, as the *Rin chen gter mdzod*'s six sessions (ནམ་ཕྱེད for its ནམ་གུང) and WB's own hours (ཉི་ཕྱེད, ནམ་ཕྱེད) suggest?
+- Question: Is a *zer* the moment the sun's disc meets the horizon, or a short stretch while its rays come or go («ཉི་མ་འཆར་ཀའི་ཟེར», the ray of the sun about to rise)? And is a *gung* the sun's culmination or the middle of the clock's day and night?
+- Question: «མཱ་ར་ཡ་ཛ» in the *Rin chen gter mdzod*: is it Māra rāja, the king of the māras, or the mantra word «མཱ་ར་ཡ», "kill", as in «སརྦ་ཤ་ཏྲཱུཾ་མཱ་ར་ཡ» at the close of the text before it in the volume (etext)? And are its four times of change the times "when the four māras move" of WB p. 359?
+- Question: In the *Rin chen gter mdzod*'s six sessions, what is the *ging* (གིང) that smiles at its prey, what does the Lord of Death do «ཁྲམ་ལ་འདེབས», and what is «སོ་ནག» in «དགོང་གྲིབ་སོ་ནག་ངམ་གྱིས་འོང་བ»?
+- Question: Which seasons are «དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད» in the *Gdams ngag mdzod*'s verse: is «དབྱར་མ» the late summer, or summer itself?
+- Question: In the Vajrabhairava manual, once read on its scan, do the two *gung* and two *zer* fall on the session breaks, or are the breaks kept from them («ཐུན་མཚམས་ལ་ཁེལ་བ»)?
+
+#### Searched and not found
+
+- None in this reading. The Vajrabhairava manual's scan was not looked
+  for (above, a lead).
 
 ## *Dmigs bsal* and *phyogs sdebs*
 
