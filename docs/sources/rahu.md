@@ -278,8 +278,4 @@ reads as quoted, «ཐོ་རེངས་ནམ་ལོངས» and «འཛ�
 
 ## Open
 
-- Question: KP's square on img. 78 (§7), the third chart beside the two
-  compasses of boxes: what does it count, the dates by the direction
-  Rāhu sets out from as the boxes do, or another of WB's courses (the
-  inner, hidden or *tho brgal* course of p. 238), and how are its
-  cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]») read?
+- Open question 148 ([open-questions.md](open-questions.md)).

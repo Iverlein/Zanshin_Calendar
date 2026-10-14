@@ -1162,3 +1162,10 @@ the text, not about the app.
      reprint the vowel looks like ི and the next stack is heavier than ཆུ;
      what does the print have there? (2026-10-13, O10,
      [combinations.md](combinations.md), "The text of pp. 331–333")
+
+148. **KP's square on img. 78.** The third chart beside KP's two compasses
+     of boxes for Rāhu (img. 78, §7): what does it count, the dates by the
+     direction Rāhu sets out from as the boxes do, or another of WB's
+     courses (the inner, hidden or *tho brgal* course of p. 238), and how
+     are its cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]»)
+     read? (2026-10-14, O10, [rahu.md](rahu.md), "KP's chart, img. 78")
