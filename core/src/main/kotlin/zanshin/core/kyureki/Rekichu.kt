@@ -158,7 +158,6 @@ enum class Zassetsu(override val kanji: String, override val reading: String) : 
     SETSUBUN("節分", "setsubun"),
     HIGAN_IRI("彼岸入り", "higan iri"),
     HIGAN("彼岸", "higan"),
-    HIGAN_CHUNICHI("彼岸の中日", "higan no chūnichi"),
     HIGAN_AKE("彼岸明け", "higan ake"),
     SHANICHI("社日", "shanichi"),
     HACHIJUHACHIYA("八十八夜", "hachijūhachiya"),
@@ -508,8 +507,7 @@ object Rekichu {
             val mid = termDate(equinox)
             when (ChronoUnit.DAYS.between(mid, date)) {
                 -3L -> add(Zassetsu.HIGAN_IRI)
-                -2L, -1L, 1L, 2L -> add(Zassetsu.HIGAN)
-                0L -> add(Zassetsu.HIGAN_CHUNICHI)
+                in -2L..2L -> add(Zassetsu.HIGAN)
                 3L -> add(Zassetsu.HIGAN_AKE)
             }
             if (date == shanichi(date.year, equinox.longitude.toDouble())) add(Zassetsu.SHANICHI)

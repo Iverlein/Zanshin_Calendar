@@ -537,7 +537,6 @@ object Texts {
         Zassetsu.SETSUBUN to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HIGAN_IRI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HIGAN to Reading(source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.HIGAN_CHUNICHI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HIGAN_AKE to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.SHANICHI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HACHIJUHACHIYA to Reading(source = Sources.NAOJ_ZASSETSU),
