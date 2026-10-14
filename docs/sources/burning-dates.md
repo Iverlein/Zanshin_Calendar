@@ -17,9 +17,14 @@ and before the twelve links:
 
 - The syllable after «ཚེས» in the first line is faint on the scan; the
   etext has «བྱུང». Either way the line says the burning date is where
-  date and planet meet.
+  date and planet meet. The Ser thang reprint of the same typesetting
+  (BDRC MW3CN5026, vol. 1, I3CN5028, img. 176, l. 21, read at 4×; O10e,
+  2026-10-14) shows «དང», its ད broken at the top, so «ཚེས་དང་གཟའ་འཛོམ»,
+  "where date and planet meet", as [almanac-page.md](almanac-page.md)
+  quotes it.
 - «[ཞུང]»: the print looks like ཞུང, the etext has «ཉུང», "less", which the
-  sense needs.
+  sense needs. The reprint (img. 176, l. 25, at 4×) has the same ཞ-like
+  letter; [almanac-page.md](almanac-page.md)'s «ཉུང» is the readers'.
 
 **What it says.** The burning date is a weekday meeting a date: Sunday the
 12th and 27th, Monday the 11th and 26th, Tuesday the 10th and 25th,
@@ -78,6 +83,43 @@ works ([white-beryl-ch34.md](white-beryl-ch34.md)):
 | 41, funeral works | 414 (422) | «འཆི་སྦྱོར་སྲེག་སྦྱོར་ཕུང་གི་ཉི། །སྲེག་ཚེས་མི་མཐུན་ཚེས་གཉན་དང་། …» |
 | 42, supports, temples, stupas | 414 (422) | «འཆི་སྦྱོར་སྲེག་ཚེས་ལོ་ཟླ་ཚེས། །ནག་དང་ …» |
 | 61, life and wealth | 426 (434) | «འཆི་སྦྱོར་སྲེག་ཚེས་དབུལ་ལག་འཆར། …» |
+
+The four times-to-avoid passages in full (O10e, 2026-10-14), each from the
+start of its list to its close, Yigdzin-1 on the Ser thang reprint of the
+same typesetting (BDRC MW3CN5026, vol. 2, I3CN5029; image = page + 6)
+read by eye on the reprint in strips at full size:
+
+- Work 33, p. 404 (img. 412; Ser thang img. 410), after the hours and
+  the day animals to avoid:
+
+  > ལོ་དང་ཟླ་བ་ཚེས་གྲངས་ཀྱི། །སྤར་ཁ་ལི་དང་སྨེ་གཉིས་ནག །བདུན་དམར་འཆར་དུས་སྲེག་ཚེས་དང་། །འཆི་སྦྱོར་ས་ཡི་ཕུང་བྱེད་རྒྱུ། །བིཥྚི་རྒྱུ་བའི་དུས་ཚོད་ལ། །འཛེམ་པའི་དུས་ཡིན་ཁྱད་པར་དུ། །རིགས་ལྡན་ཐུག་ན་ཤིན་ཏུ་འཛེམ།།
+
+  The trigram *li* (ལི, *li*) and the black sme ba (སྨེ་བ, *sme ba*) of the
+  year, month and date, the seven reds (བདུན་དམར, *bdun dmar*) rising, the
+  burning date, *'chi sbyor*, the earth's destroyer (ས་ཡི་ཕུང་བྱེད, *sa yi phung
+  byed*) moving, the hours of Viṣṭi: times to avoid, and above all when a
+  kulika (རིགས་ལྡན, *rigs ldan*) meets them.
+- Work 41, p. 414 (img. 422; Ser thang img. 420), after the directions to
+  avoid:
+
+  > ཉི་ནག་པི་ལིང་ཕུང་ཟོར་ཐོགས། །ཧལ་ཁྱི་གནམ་ཁྱི་གཟའ་རྒོད་དང་། །དབུལ་ལག་གཟའ་བདུན་ཕོ་ཉ་འགྱེད། །ཀི་ཀང་འཇིག་ཉི་བདུད་ཀྱི་ཉི། །འཆི་སྦྱོར་སྲེག་སྦྱོར་ཕུང་གི་ཉི། །སྲེག་ཚེས་མི་མཐུན་ཚེས་གཉན་དང་། །ཀླུ་གཟའ་ནག་མོ་རྣམས་ལ་འཛེམ།།
+
+  The black days and the other days named, *'chi sbyor*, *sreg sbyor*,
+  the burning date, the day of incompatibility and the *gnyan* (གཉན, *gnyan*) dates are
+  avoided for funerals.
+- Work 42, pp. 414–415 (img. 422–423; Ser thang img. 420–421):
+
+  > སྒྲ་གཅན་གདོང་མཇུག་བིཥྚི་དང་། །ཡོངས་འཇོམས་ཤིན་ལྟུང་ཀུན་འཛིན་དང་། །འཆི་སྦྱོར་སྲེག་ཚེས་ལོ་ཟླ་ཚེས། །ནག་དང་བར་གནམ་ཧལ་ཁྱི་རྒྱུ། །པི་ལིང་དབུལ་ལག་ཕོ་ཟས་འཚོལ། །ས་ཡི་ཕུང་བྱེད་ནག་མོ་རྒྱུ། །ཀི་ཀང་ལ་སོགས་ངན་པས་སྤང་།
+
+  Rāhu's head and tail, Viṣṭi, the yogas *yongs 'joms*, *shin ltung*
+  and *kun 'dzin*, *'chi sbyor*, the burning date, the black year, month
+  and date and the others: bad, so given up, for raising supports.
+- Work 61, p. 426 (img. 434; Ser thang img. 432):
+
+  > ལོ་ཟླ་ནག་དང་ཞག་ནག་དང་། །བིཥྚི་པི་ལིང་འཕར་མ་རྒྱུ། །འཆི་སྦྱོར་སྲེག་ཚེས་དབུལ་ལག་འཆར། །ཐེ་སེ་ཧལ་ཁྱི་ཟླ་བའི་ལྷ། །འབྲུག་ལྷ་གྭ་པ་གནས་ཕྱོགས་འཛེམ།
+
+  The black year, month and day, Viṣṭi, *'chi sbyor*, the burning date
+  and the others, and the places of the earth lords named, are avoided.
 
 Its closing verse (p. 428, etext) lists *sreg tshes* among the things to
 know for any work, with no side.
