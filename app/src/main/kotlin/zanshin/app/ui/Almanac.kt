@@ -367,9 +367,10 @@ private fun rowLabelWidth(): Dp {
 private fun DetailsBlock(rows: List<Pair<String, String>>, labelWidth: Dp) {
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         for ((label, value) in rows) {
+            // Label and value share their first baseline: a value with Tibetan script has a taller line.
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text(label, style = rowLabelStyle, modifier = Modifier.width(labelWidth))
-                Text(withTibetan(value), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f))
+                Text(label, style = rowLabelStyle, modifier = Modifier.width(labelWidth).alignByBaseline())
+                Text(withTibetan(value), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f).alignByBaseline())
             }
         }
     }
@@ -385,17 +386,18 @@ private fun ListBlock(title: String, keys: List<String>, items: List<String>, co
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         if (onElect == null) {
-            Text(items.joinToString(" · "), style = body.copy(lineHeight = 21.sp))
+            Text(withTibetan(items.joinToString(" · ")), style = body.copy(lineHeight = 21.sp))
             return@Column
         }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             items.forEachIndexed { i, item ->
                 val works = Activities.of(listOf(keys[i])).filter { it in offered }
                 var open by remember { mutableStateOf(false) }
-                // The separator stays with its word, so that no line starts with one.
-                Box {
+                // The separator stays with its word, so that no line starts with one. The words of a line share
+                // a baseline: a wording with Tibetan script has a taller line, and centring would drop its neighbours.
+                Box(Modifier.alignByBaseline()) {
                     Text(
-                        if (i < items.lastIndex) "$item ·" else item,
+                        withTibetan(if (i < items.lastIndex) "$item ·" else item),
                         style = body.copy(lineHeight = 21.sp),
                         modifier = if (works.isEmpty()) Modifier.padding(vertical = 4.dp) else Modifier
                             .clickable(role = Role.Button) { open = !open }
