@@ -282,7 +282,9 @@ checked here. What follows from it is ROADMAP K1–K5.
 - 暦注下段, and the same for 選日 and 縁日: these terms are not found in
   Russian; a check is needed («нужна сверка»).
 - 彼岸の中日 struck out: it is usually called simply 秋分 or 春分
-  (*shūbun*, *shunbun*). 社日: "?".
+  (*shūbun*, *shunbun*). 社日: "?". (Applied 2026-10-14 with the owner's
+  word: 彼岸の中日 dropped from the page, the three names below changed,
+  人日 and 社日 kept until K1; ROADMAP K2.)
 - 旧正月: «лунный Новый год». 人日の節句: "?". 七夕: «Танабата», the gloss
   «вечер седьмого дня» struck out. 重陽の節句: «двойной девятки», not
   «двойного ян».
