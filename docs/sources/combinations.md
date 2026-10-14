@@ -39,6 +39,68 @@ top as «བརྟན» in the same row, not the སྟ of *stag*, "tiger", whic
 Henning's *stag mo* has and the Russian calendar compared in
 [tibetastromed.md](tibetastromed.md) reads (ROADMAP T2.17).
 
+**The table written out** (O10e, 2026-10-14): WB vol. 1, pp. 148–149
+(img. 158–159), every cell read on the Ser thang reprint of the same
+typesetting (BDRC MW3CN5026, vol. 1, I3CN5028, img. 155–156, 2040 px;
+image = page + 7) in strips at full size, and against BDRC's scan; the
+machine readers give nothing of it (Yigdzin-1 reads a stray title line
+on img. 158 and one number on img. 159). The page prints four blocks,
+the headings under the cells; only the first has the column of weekdays,
+headed «འཕྲོད།» (combination), each with its number (ཉི, Sunday, ༡ … སྤེན,
+Saturday, ༠); in the other three the rows run in the same order, and
+their labels are given here in brackets, not printed. Monday's label is
+a blot in both scans, read [ཟླ] from its place and number. Every cell
+agrees with the rule above: each weekday's row runs on by one over WB's
+28, with ༢༡ printed for both gro bzhin and byi bzhin.
+
+Block 1, p. 148 (img. 158; Ser thang img. 155):
+
+| འཕྲོད། | ཀུན་དགའ། | དུས་དབྱིག | དུལ། | སྐྱེ་དགུ། | གཞོན། | བྱ་རོག |
+| --- | --- | --- | --- | --- | --- | --- |
+| ཉི ༡ | ༠ | ༡ | ༢ | ༣ | ༤ | ༥ |
+| [ཟླ] ༢ | ༤ | ༥ | ༦ | ༧ | ༨ | ༩ |
+| མིག ༣ | ༨ | ༩ | ༡༠ | ༡༡ | ༡༢ | ༡༣ |
+| ལྷག ༤ | ༡༢ | ༡༣ | ༡༤ | ༡༥ | ༡༦ | ༡༧ |
+| ཕུར ༥ | ༡༦ | ༡༧ | ༡༨ | ༡༩ | ༢༠ | ༢༡ |
+| སངས ༦ | ༢༠ | ༢༡ | ༢༡ | ༢༢ | ༢༣ | ༢༤ |
+| སྤེན ༠ | ༢༣ | ༢༤ | ༢༥ | ༢༦ | ༠ | ༡ |
+
+Block 2, p. 148 (img. 158; Ser thang img. 155):
+
+| འཕྲོད། | རྒྱལ་མཚན། | དཔལ་བེའུ། | རྡོ་རྗེ། | ཐོ་བ། | གདུགས། | གྲོགས། | ཡིད། |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (ཉི ༡) | ༦ | ༧ | ༨ | ༩ | ༡༠ | ༡༡ | ༡༢ |
+| ([ཟླ] ༢) | ༡༠ | ༡༡ | ༡༢ | ༡༣ | ༡༤ | ༡༥ | ༡༦ |
+| (མིག ༣) | ༡༤ | ༡༥ | ༡༦ | ༡༧ | ༡༨ | ༡༩ | ༢༠ |
+| (ལྷག ༤) | ༡༨ | ༡༩ | ༢༠ | ༢༡ | ༢༡ | ༢༢ | ༢༣ |
+| (ཕུར ༥) | ༢༡ | ༢༢ | ༢༣ | ༢༤ | ༢༥ | ༢༦ | ༠ |
+| (སངས ༦) | ༢༥ | ༢༦ | ༠ | ༡ | ༢ | ༣ | ༤ |
+| (སྤེན ༠) | ༢ | ༣ | ༤ | ༥ | ༦ | ༧ | ༨ |
+
+Block 3, p. 149 (img. 159; Ser thang img. 156):
+
+| འཕྲོད། | འདོད། | མགལ་མེ། | རྩ་བཏོན། | འཆི་བདག | མདའ། | གྲུབ། | མདུང་། | བདུད་རྩི། |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (ཉི ༡) | ༡༣ | ༡༤ | ༡༥ | ༡༦ | ༡༧ | ༡༨ | ༡༩ | ༢༠ |
+| ([ཟླ] ༢) | ༡༧ | ༡༨ | ༡༩ | ༢༠ | ༢༡ | ༢༡ | ༢༢ | ༢༣ |
+| (མིག ༣) | ༢༡ | ༢༡ | ༢༢ | ༢༣ | ༢༤ | ༢༥ | ༢༦ | ༠ |
+| (ལྷག ༤) | ༢༤ | ༢༥ | ༢༦ | ༠ | ༡ | ༢ | ༣ | ༤ |
+| (ཕུར ༥) | ༡ | ༢ | ༣ | ༤ | ༥ | ༦ | ༧ | ༨ |
+| (སངས ༦) | ༥ | ༦ | ༧ | ༨ | ༩ | ༡༠ | ༡༡ | ༡༢ |
+| (སྤེན ༠) | ༩ | ༡༠ | ༡༡ | ༡༢ | ༡༣ | ༡༤ | ༡༥ | ༡༦ |
+
+Block 4, p. 149 (img. 159; Ser thang img. 156):
+
+| འཕྲོད། | གཏུན་ཤིང་། | གླང་པོ། | རྟག་མྱོས། | ཟད་པ། | གཡོ། | བརྟན། | འཕེལ། |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (ཉི ༡) | ༢༡ | ༢༡ | ༢༢ | ༢༣ | ༢༤ | ༢༥ | ༢༦ |
+| ([ཟླ] ༢) | ༢༤ | ༢༥ | ༢༦ | ༠ | ༡ | ༢ | ༣ |
+| (མིག ༣) | ༡ | ༢ | ༣ | ༤ | ༥ | ༦ | ༧ |
+| (ལྷག ༤) | ༥ | ༦ | ༧ | ༨ | ༩ | ༡༠ | ༡༡ |
+| (ཕུར ༥) | ༩ | ༡༠ | ༡༡ | ༡༢ | ༡༣ | ༡༤ | ༡༥ |
+| (སངས ༦) | ༡༣ | ༡༤ | ༡༥ | ༡༦ | ༡༧ | ༡༨ | ༡༩ |
+| (སྤེན ༠) | ༡༧ | ༡༨ | ༡༩ | ༢༠ | ༢༡ | ༢༡ | ༢༢ |
+
 **The readings**, vol. 2, pp. 331–333 (img. 339–341): a verse on each
 (p. 331–332), then the short readings (p. 333, *mdor bsdus*):
 
