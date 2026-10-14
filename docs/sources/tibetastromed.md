@@ -155,6 +155,24 @@ reckoning the first month of spring; the tiger month. The twelve lines:
 | 9 | 170 (180) | སྟོན་ཐ, late autumn | དགུན་འབྲིང, mid winter | བྱི་བ, mouse |
 | 10 | 171 (181) | དགུན་ར, early winter | དགུན་ཐ, late winter | གླང, ox |
 
+The twelve lines whole (O10f, 2026-10-14: Yigdzin-1 over the pages
+and over their halves enlarged 2×, the lines read against the scan at 3×
+where marked "scan", the rest the machine reading; each ends with the
+month's day count, the *ཆེ་ཆུང་བལྟ*, "see whether it is long or short"):
+
+- 11, p. 154 (img. 164), scan: «དུས་འཁོར་བའི་དགུན་འབྲིང་རགས་པར་མགོ་ཉ་ཞིང་ཡར་ངོ་སྔོན་འགྲོ་གཞུའི་ཁྱིམ། ཁྱུང་དང་ཕུག་ལུགས་ཀྱི་ནག་རྩིས་ལོ་འགོ་འཁྲུལ་མེད། ཧོར་ཟླ་བཅུ་གཅིག་པ་རྒྱ་རྩིས་དཔྱིད་ར་ཁམས་ལྟོས། སྟག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — Kālacakra's mid-winter, the full moon in Mṛgaśiras, the waxing half first, the house of Sagittarius; the year start, without error, of the Khyung and Phugpa *nag rtsis*; Hor month 11, by the Chinese reckoning early spring, see the elements; the tiger month.
+- 12, p. 155 (img. 165), scan: «དུས་འཁོར་བའི་དགུན་ཐ་རགས་པ་རྒྱལ་ཉ་ཡར་ངོ་སྔོན་འགྲོ་ཆུ་སྲིན་ཁྱིམ། རྒྱུད་སྡེ་མཁའ་འགྲོ་རྒྱ་མཚོ་དང་ནག་རྩིས་པ་ཐོར་བུ་སོགས་ཁ་ཅིག་ལོ་འགོར་འཛིན། ཧོར་ཟླ་བཅུ་གཉིས་པ་རྒྱ་རྩིས་དཔྱིད་འབྲིང་། ཁམས་ལྟོས། ཡོས་ཆེ་ཆུང་བལྟ།» — late winter, the full moon in Puṣya, Capricorn; the *Ḍākārṇava* tantra and some scattered *nag rtsis* reckoners take it as the year start; the hare.
+- 1, p. 157 (img. 167), scan: «དུས་འཁོར་བའི་དཔྱིད་ར་རགས་པ་རྟ་ཉ་ཡར་ངོ་སྔོན་འགྲོ་བུམ་པའི་ཁྱིམ། ཧོར་ལུགས་དང་ནག་རྩིས་ཁ་ཅིག་དཔྱད་ཀྱི་ལོ་འགོ། ཧོར་ཟླ་དང་པོ་རྒྱ་རྩིས་དཔྱིད་ཐ། ཁམས་ལྟོས། འབྲུག་ཆེ་ཆུང་བལྟ།» — early spring, the full moon in «རྟ» (*rta*, as printed; the Kālacakra month is otherwise named after Maghā, *mchu*: not settled), Aquarius; the year start of the Hor system and of some *nag rtsis* reckoning; the dragon.
+- 2, p. 158 (img. 168), scan: «དུས་འཁོར་བའི་དཔྱིད་འབྲིང་རགས་པ་དབོ་ཟླ་ཡར་ངོ་སྔོན་འགྲོ་ཉའི་ཁྱིམ། མདོ་ལུགས་འགའ་ཞིག་གི་ལོ་འགོ། ཧོར་ཟླ་གཉིས་པ་རྒྱ་རྩིས་དབྱར་ཟླ་ར་བ། ཁམས་ལྟོས། སྦྲུལ་ཆེ་ཆུང་བལྟ།» — mid spring, the month of Uttaraphalgunī (*dbo*), Pisces; the year start of some sūtra systems; the snake.
+- 3, p. 160 (img. 170), scan: «དུས་འཁོར་བའི་དཔྱིད་ཐ་རགས་པ་ནག་ཉ་ཡར་ངོ་སྔོན་འགྲོ་ལུག་གི་ཁྱིམ། མདོ་སྡེ་གསེར་འོད་དམ་པ་སོགས་ཀྱིའང་ལོ་འགོ་དང་རང་ལུགས་དུས་འཁོར་ལོ་འགོ་འཁྲུལ་མེད། ཧོར་ཟླ་གསུམ་པ་རྒྱ་རྩིས་དབྱར་འབྲིང་། ཁམས་ལྟོས། རྟ་ཟླ་ཆེ་ཆུང་བལྟ།» — late spring, the full moon in Citrā, Aries; the year start of the *Golden Light* sūtra and others, and without error the Kālacakra year start of our own system; the horse.
+- 4, p. 162 (img. 172), machine: «དུས་འཁོར་བའི་དབྱར་ར་རགས་པ་ས་ག་ཉ་ཡར་ངོ་སྔོན་འགྲོ་གླང་གི་ཁྱིམ། ཧོར་ཟླ་བཞི་པ་རྒྱ་རྩིས་དབྱར་ཐ། ཁམས་ལྟོས། ལུག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — early summer, the full moon in Viśākhā, Taurus; the sheep.
+- 5, p. 163 (img. 173), scan: «དུས་འཁོར་བའི་དབྱར་འབྲིང་རགས་པ་སྣྲོན་ཉ་ཡར་ངོ་སྔོན་འགྲོ་འཁྲིག་པའི་ཁྱིམ། ཧོར་ཟླ་ལྔ་པ་རྒྱ་རྩིས་སྟོན་ར། ཁམས་ལྟོས། སྤྲེལ་ཟླ་ཆེ་ཆུང་བལྟ།» — mid summer, the full moon in Jyeṣṭhā, Gemini; the monkey.
+- 6, p. 165 (img. 175), scan: «དུས་འཁོར་བའི་དབྱར་ཐ་རགས་པ་ཆུ་སྟོད་ཉ་བ་ཡར་ངོ་སྔོན་འགྲོ་ཀརྐ་ཊའི་ཁྱིམ། ཧོར་ཟླ་དྲུག་པ་རྒྱ་རྩིས་སྟོན་འབྲིང་། ཁམས་ལྟོས། བྱའི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — late summer, the full moon in Pūrvāṣāḍhā, Cancer; the bird.
+- 7, p. 166 (img. 176), scan: «དུས་འཁོར་བའི་སྟོན་ར་རགས་པ་གྲོ་བཞིན་ཉ་ཡར་ངོ་སྔོན་འགྲོ་སེང་གེའི་ཁྱིམ། ཧོར་ཟླ་བདུན་པ་རྒྱ་རྩིས་སྟོན་ཐ། ཁམས་ལྟོས། ཁྱིའི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — early autumn, the full moon in Śravaṇa, Leo; the dog.
+- 8, p. 168 (img. 178), machine: «དུས་འཁོར་བའི་སྟོན་འབྲིང་རགས་པ་ཁྲུམས་སྟོད་ཉ་ཡར་ངོ་སྔོན་འགྲོ་བུ་མོའི་ཁྱིམ། མཆིམས་སོགས་འདུལ་འཛིན་སྔོན་མའི་ལོ་འགོ་ཚེས་བཅུ་དྲུག་ནས་འཛིན། ཧོར་ཟླ་བརྒྱད་པ་རྒྱ་རྩིས་དགུན་ར། ཁམས་ལྟོས། ཕག་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — mid autumn, the full moon in Pūrvabhādrapadā, Virgo; the earlier Vinaya holders, Mchims and others, take the year start from its 16th; the pig.
+- 9, p. 170 (img. 180), machine: «དུས་འཁོར་བའི་སྟོན་ཐ་རགས་པ་ཐ་སྐར་ཉ་ཡར་ངོ་སྔོན་འགྲོ་སྲང་གི་ཁྱིམ། ཤཱཀྱ་ཤྲཱི་སོགས་འདུལ་འཛིན་ཁ་ཅིག་བཅུ་དྲུག་ནས་ལོ་འགོ་འཛིན། ཧོར་ཟླ་དགུ་པ་རྒྱ་རྩིས་དགུན་འབྲིང་། ཁམས་ལྟོས། བྱི་བའི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — late autumn, the full moon in Aśvinī, Libra; some Vinaya holders, Śākyaśrī and others, take the year start from its 16th; the mouse.
+- 10, p. 171 (img. 181), scan: «དུས་འཁོར་བའི་དགུན་ར་རགས་པ་སྨིན་དྲུག་ཉ་ཡར་ངོ་སྔོན་འགྲོ་སྡིག་པའི་ཁྱིམ། འཇམ་མགོན་བློ་བཟང་གྲགས་པ་སོགས་འདུལ་འཛིན་ཕྱི་མའི་ལོ་འགོ་ཚེས་བཅུ་དྲུག་ནས་འཛིན། ཧོར་ཟླ་བཅུ་པ་རྒྱ་རྩིས་དགུན་ཐ། ཁམས་ལྟོས། གླང་གི་ཟླ་བ་ཆེ་ཆུང་བལྟ།» — early winter, the full moon in Kṛttikā, Scorpio; the later Vinaya holders, Jam mgon Blo bzang grags pa and others, take the year start from its 16th; the ox.
+
 The scan of p. 155 has «ཧོར་ཟླ་བཅུ་གཉིས་པ» where the etext dropped the
 ཧོ. The lines also say whose year begins in which month (p. 154: Hor
 month 11 the year start of the Khyung and Phugpa *nag rtsis*; p. 157:
