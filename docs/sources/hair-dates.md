@@ -42,6 +42,37 @@ date, and after them:
 The 27th is on neither side. (The etext garbles both lines: «བཅུ་ རྡོ་ལྔ»
 for བཅུ་གསུམ་བཅོ་ལྔ, «གཅིག་གཉི་ཉིས་དང» for the whole of གཅིག་གཉིས་བདུན་དགུ་བཅུ་གཉིས་དང.)
 
+**The whole of work 34** (O10e, 2026-10-14), read by eye on the Ser
+thang reprint of the same typesetting (BDRC MW3CN5026, vol. 2, I3CN5029,
+img. 410, 1905 px) with Yigdzin-1's reading of it as base; the editors'
+numbers read on the reprint (Yigdzin-1 doubles or drops them, and reads
+«བཞི་ལྔ» for the print's «བཞི་ལྗང»). The date verses, quoted in this file, stand
+between the two halves:
+
+> ༣༤ ཁྲུས་དང་སྐྲ་འཁྲུ་བྱེད་པ་ལ། །ཟླ(༢)ལྷག(༤)ཕུར་བུ(༥)པ་སངས(༦)བཟང་། །ཁྱད་པར་ལྷག་པ(༤)རྒྱལ་པོའི་ཁྲུས། །ཉི་མ(༡)ཁྲུས་བཟང་སྐྲ་འཁྲུ་ངན། །མིག(༣)སྤེན(༠)གཉིས་པོ་ངན་པ་ཡིན། །སྨིན(༢)སྣར(༣)མགོ(༤)ལག(༥)ཁྲུམས་སྨད(༢༥)དབྱུག(༠) །ས་རི(༡༤)ཆུ་སྟོད(༡༩)ཆུ་སྨད(༢༠)དང་། །ལྷ་མཚམས(༡༦)ནམ་གྲུ(༢༦)ནག(༡༣)མོན་དྲེ(༢༢)། །བྱི་བཞིན(༢༡)རྣམས་ནི་བཟང་བ་སྟེ། །བྲ་ཉེ(༡)ཡུགས་སྐྲ་བཀྲུ་བ་བཟང་། །གྲོ་བཞིན(༢༡)ལ་ནི་སྐྲ་བཞར་བཟང་། །རྒྱལ(༧)མཆུ(༩)ས་ག(༡༥)རྟ་ཆུང(༡༠)དང་། །ཁྲུམས་སྟོད(༢༤)བྲ་ཉེ(༡)སྤྱི་ལ་ངན། །གཞན་རྣམས་བཏང་སྙོམས་ཉ་བུམ་དང་། །ཆུ་སྲིན་བུ་མོ་བཟང་བ་ཡིན། །སྲང་དང་ཀརྐ་ཊ་གཉིས་ངན། །མ་རིག་སྐྱེ་མཆེད་སྲིད་སྐྱེ་བ། །རྒ་ཤི་འདུ་བྱེད་རྣམ་ཤེས་བཟང་། །མིང་གཟུགས་ཚོར་བ་གཅིག་དཀར་དང་། །དྲུག་དཀར་སྲེད་པ་ངན་པ་ཡིན། །ཚེས་འབྲས་གོང་དང་ཅུང་ཟད་ཙམ། །མི་མཐུན་འདིར་ནི་སྐྲ་ཚེས་བསྟན། །[the thirty results and the good and bad dates, quoted in full in this file] … ཉེར་དགུ་གནམ་གང་ངན་པར་བརྗོད། །ལི་ཁེན་ཚེས་ལ་འཆར་དུས་ངན། །བཞི་ལྗང་ཡུགས་སྐྲ་བཀྲུ་བ་ངན། །ཁྱི་སྟག་ཉི་མ་སྤང་བ་ཡིན། །སྨིན་དྲུག་མགོ་ཟླའི་ཚེས་བརྒྱད་ལ། །ཁྱད་པར་སྡིག་པ་འདག་པ་དང་། །རྒྱལ་ཏ་ཉེར་ལྔ་ཤེས་རབ་འཕེལ། །བརྒྱད་དཀར་ཁྲུས་ཀྱི་ལས་ལ་ཤིས།།
+
+Bathing and washing the hair: Monday, Wednesday, Thursday and Friday
+good, Wednesday above all for a king's bath; Sunday good for bathing,
+bad for washing the hair; Tuesday and Saturday bad. Kṛttikā, Rohiṇī,
+Mṛgaśiras, Ārdrā, Uttarabhādrapadā, Aśvinī, Svātī, Pūrvāṣāḍhā,
+Uttarāṣāḍhā, Anurādhā, Revatī, Citrā, Dhaniṣṭhā and Abhijit good;
+Bharaṇī good for washing the hair at the end of widowhood (ཡུགས་སྐྲ, *yugs
+skra*); Śravaṇa good for shaving the head; Puṣya, Maghā, Viśākhā,
+Pūrvaphalgunī, Pūrvabhādrapadā and Bharaṇī bad in general, the others
+indifferent. Pisces, Aquarius, Capricorn and Virgo rising good, Libra and
+Cancer bad. The links' days of ignorance, the six sense fields, becoming,
+birth, aging and death, formation and consciousness good; name and form,
+feeling and craving bad, and «གཅིག་དཀར» and «དྲུག་དཀར», one white and six
+white, by their names sme ba (སྨེ་བ, *sme ba*), as is the eight white at
+the end.
+After the dates: when the *li khen* (ལི་ཁེན) rises on a date, bad; the
+green four (བཞི་ལྗང, *bzhi ljang*) bad for washing the hair at the end of
+widowhood; the dog and tiger days avoided; Kṛttikā on the 8th of the
+*mgo* month especially cleanses sin; «རྒྱལ་ཏ་ཉེར་ལྔ», Puṣya and «ཏ» (printed so;
+read below as *rta*, the Horse month) on the 25th, increases wisdom; and
+the eight white (བརྒྱད་དཀར, *brgyad dkar*) is auspicious for bathing.
+
+
 ## The thirty results, against FPMT
 
 The verse, read on the scan: «ཚེས་གཅིག་ཚེ་ཐུང་གཉིས་ཁ་མཆུ། །གསུམ་ལྔ་ཕྱུག་ལ་བཞི་མལ་འཆོར། །དྲུག་ལ་མདངས་ཡལ་བདུན་ཁ་མཆུ།
