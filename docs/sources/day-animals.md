@@ -22,6 +22,17 @@ dropped one line beside the dragon's woodcut, MITRA the whole monkey
 verse. The Tibetan below is Yigdzin-1's with those places settled; the
 earth lord's seats and remedies were not read again on the scan.
 
+**Checked again** (O10e, 2026-10-14): Yigdzin-1 over the Ser thang
+reprint of the same typesetting (BDRC MW3CN5026, vol. 2, I3CN5029,
+img. 362–365, 1905 px; image = page + 6) compared syllable by syllable
+with every verse below, the seats and remedies included: the two
+readings agree everywhere but in the places already settled above
+(the dragon's dropped line, བནྡེ, ཁྱི, ཆོམ, སྦྲ་བཙེམ) and in two subscripts,
+read by eye on the reprint at 5×: the tiger's seat «ལྷག་མོ» or «ལྟག་མོ», and
+the dragon's remedy «ལྷོ་ཕྱེ» (south) or «ལྟོ་ཕྱེ» (food flour), which the
+reprint does not part from ལྷ in «ལྷ་གསོལ» on the same page. The verses
+stand as given.
+
 **The seats are chapter 31's.** The twelve seats (the beer jar, the
 granary, the door, the door bolt, the mill, the rope, the saddle, the
 trough, knife and axe, the plates, the threshold, the hoe) are those of
@@ -81,7 +92,7 @@ p. 357 (img. 365):
 
 - **Avoid:** repairing boats, bridges and narrow paths, bloodletting (*gtar ga*), moxibustion (*me btsa'*), setting up a water mill (*rang 'thag*), digging and turning over stones, which harms the nāgas and the *gnyan*, bringing rain, carrying out a corpse, mourning cries: bad in whatever direction.
 - **Good:** enthronement, virtuous work, sending down lightning and hail (*thog ser 'bebs*), raising images, fierce ritual services, suppressing the *sri*, offerings to deities, fierce work, subduing enemies and demons, ordination, practice and offering, consecration, empowerment, seizing lands (*yul 'phrog*), stretching drum skins.
-- Yigdzin-1 drops the line «གང་དུ་ངན་པའོ། །རྒྱལ་ས་དགེ་ལས་ཐོག་སེར» beside the woodcut; MITRA and the scan have it. Seat: the water mill, bad for the maternal uncle.
+- Yigdzin-1 drops the line «གང་དུ་ངན་པའོ། །རྒྱལ་ས་དགེ་ལས་ཐོག་སེར» beside the woodcut; MITRA and the scan have it. Seat: the water mill, bad for the maternal uncle. The remedy's first syllable is «ལྷོ» or «ལྟོ» (above).
 
 ## Snake
 
