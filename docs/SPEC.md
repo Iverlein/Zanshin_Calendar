@@ -2320,7 +2320,11 @@ canvas "Zanshin Calendar — basic design".
   set aside says so ("set aside"), and its reading names what set it aside; a
   heavier 歳下食 names the bad days that make it so.
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
-  on the day a new one begins.
+  on the day a new one begins. Opens nothing yet; a sheet with the term's
+  reading is planned (ROADMAP K6, the owner's rule of 2026-10-14 that
+  every row of this page opens a reading or a balloon of facts, as on the
+  Tibetan page — the same item covers the 干支 rows, the month and year
+  stars, the date and the moon).
 - **Moon phase:** a phase glyph next to the date.
 - **暦注:** in the order of a printed almanac — the middle band (中段, the
   十二直 alone), the 二十八宿, the lower band (暦注下段), the selected days
