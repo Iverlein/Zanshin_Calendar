@@ -1314,7 +1314,11 @@ gone; the screen calls the panel 旧暦.
 **What the page is for** (the owner, 2026-10-12 and 2026-10-14): an
 almanac of use to a present-day practitioner of onmyōdō, Shinto or
 Shingon, ideally to all three, on the old rules and readings — as the
-Tibetan page is the White Beryl's almanac. Its **frame** is the set of
+Tibetan page is the White Beryl's almanac. The Shingon practitioner's
+reckoning is much nearer the Tibetan page's than an onmyōji's or a Shinto
+priest's, so that reader is served by the Tibetan page at least (the
+owner, 2026-10-14); the 旧暦 page is shaped for the other two. Its
+**frame** is the set of
 annotations the traditional almanac printed in Japan today carries (the
 神宮館高島暦 and its kind: 干支, 九星, 六曜, 十二直, 二十八宿, 下段, 選日,
 the year's direction gods), because that is what a practitioner reads

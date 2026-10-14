@@ -330,7 +330,11 @@ today, and some are reckoned otherwise today than in the fourteenth
 century (she names 歳徳神). A present-day Shinto practitioner takes the
 calendar handed out at the shrines; an onmyōdō practitioner the same,
 the tradition having reached today «в полуживом состоянии»; of Shingon
-she does not know («там вообще отдельная песня»).
+she does not know («там вообще отдельная песня»). The owner (2026-10-14):
+the Shingon reader's reckoning is much nearer the Tibetan page's than an
+onmyōji's or a Shinto priest's, so the Tibetan page serves that reader at
+least; the remaining points are investigated here, not commissioned
+(ROADMAP D10).
 
 **What the shrines hand out, checked the same day.** Two unrelated
 things carry the name.

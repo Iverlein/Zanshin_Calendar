@@ -38,7 +38,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
-| 20 | K1–K5 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | the owner's word on K2; D9, D10; a paper 高島暦 (D12) |
+| 20 | K1–K5 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | the owner's word on K2; D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 
@@ -105,7 +105,7 @@ moves up as soon as it is unblocked.
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest, and the year sheet | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links, the mewa and the year sheet in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
-| <a id="block-51"></a>51 | [K1](#k1) + [K2](#k2) The 旧暦 terms and the festivals' names | K1's reading (kyureki.md) | — (the owner's word on K2; D10 may give the works) | Build block 51: K1 and K2, the Russian terms by the literature and the festivals' names the expert corrected. |
+| <a id="block-51"></a>51 | [K1](#k1) + [K2](#k2) The 旧暦 terms and the festivals' names | K1's reading (kyureki.md) | — (the owner's word on K2) | Build block 51: K1 and K2, the Russian terms by the literature and the festivals' names the expert corrected. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
@@ -343,11 +343,12 @@ as a dead end (sources/PLAN.md).
   all — open; the year sheet is now the part of the printed set the page
   lacks.
 - **D10 What to ask the expert to work on first**, her question before
-  pricing: the terms (K1, K2), the calendar rules (K4's claims), the rare
-  annotations (question 8) or the direction gods (K5) — open; the answers
-  to her four questions are drafted in kyureki.md, *Her questions, and
-  the answers*. Her second answer narrows it: the rare annotations drop
-  out unless the printed almanac carries them.
+  pricing — settled 2026-10-14: nothing is commissioned; the remaining
+  points (K1, K2, K4, K5) are investigated here, on the sources and the
+  paper almanac (D12). The answers to her four questions stay drafted in
+  kyureki.md, *Her questions, and the answers*, and her second answer
+  narrowed the field: the rare annotations drop out unless the printed
+  almanac carries them.
 - **D12 The reference almanac**: a paper 神宮館高島暦 令和8年 (about
   2,420 yen; no free online edition, and the shrines' 神宮暦 carries no
   annotation) to check the page's set and its days against — the two K4
