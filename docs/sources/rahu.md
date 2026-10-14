@@ -74,8 +74,85 @@ The table above is the app's `RahuCourse.GENERAL`, and the test vector
 detailed course's move where that names one (SPEC §5.13).
 
 KP's other nine boxes on img. 78 are Rāhu's course over the hours of one
-day (ཉིན་ཞག་ཕྲུགས་གཅིག་གམ་དུས་ལ་འཁོར་བའི་སྒྲ་གཅན་རྒྱུ་དུས), WB's p. 239 passage:
-not read further here, and not built (SPEC §5.13).
+day (ཉིན་ཞག་ཕྲུགས་གཅིག་གམ་དུས་ལ་འཁོར་བའི་སྒྲ་གཅན་རྒྱུ་དུས), WB's p. 239 passage;
+both charts are written out below (*KP's chart, img. 78*).
+
+### KP's chart, img. 78
+
+(O10e, 2026-10-14.) KP, BDRC I4CZ65599, img. 78 (2550 px): §7, the
+section number «༧» in a frame at the top left of the right-hand square.
+The folio holds three charts side by side. Each box was cropped at 2×,
+read by Yigdzin-1 and then by eye on the crop, line by line; Yigdzin-1
+reads ཆོས for the print's ཚེས throughout and drops or garbles some
+syllables, all corrected from the scan. The two charts of boxes stand
+as a compass, east at the top, north on the left, south on the right,
+west below, each box in its own direction and the title in the middle.
+
+**Rāhu's *nu ru* course by date**, the left chart, nine boxes; each
+holds the dates on which Rāhu sets out from its direction, with the
+time, and ends with the course:
+
+| Box | As printed |
+| --- | --- |
+| centre | ༄ བཅུ་བཞིའི་སྔ་དྲོ་ནམ་མཁའ་ནས་རྒྱ་མཚོ། སྒྲ་གཅན་ཚེས་ལ་ནུ་རུ་ལུགས་རྒྱུ་བའི་ཤོག་ཁྲ། གནམ་གང་ལྷ་ཡུལ་ནས་སྟེང་འོག་ཕྱོགས་མཚམས་ལ་རྒྱུ། |
+| top left (north-east) | ༄ ཚེས་དགུའི་སྲོད་ལ། བཅུ་དྲུག་ཉི་ནུབ་ལ། ཉེར་དགུའི་ཉི་མ་མདུང་གང་ལ། བྱང་ཤར་ནས་ལྷོ་ནུབ་རྒྱུ། |
+| top (east) | ༄ ཚེས་གཉིས་ཉི་ཕྱེད་ཡོལ་ལ། ལྔའི་ཉི་དྲོས་ལ། ཉེར་གཅིག་གི་སྐྱ་རེངས་ཤར་དུས། ཉེར་དྲུག་ནི་ཕྱེད་ཡོལ་ལ། ཤར་ནས་ནུབ་རྒྱུ། |
+| top right (south-east) | ༄ བརྒྱད་ཀྱི་རྡེའུ་འགོ་དྲོས་ལ། ཉི་ཤུའི་ཉི་ཕྱེད། ཤར་ལྷོ་ནས་ནུབ་བྱང་རྒྱུ། |
+| left (north) | ༄ དྲུག་གི་ཐོ་རེངས། བདུན་གྱི་སྲོད་ལ། བཅུ་གཅིག་གི་སྲོད་ལ། བཅུ་གསུམ་ནམ་ལངས། ཉེར་བཞི་ཉི་ཕྱེད། ཉེར་བརྒྱད་ཐོ་རེངས་ལ། བྱང་ནས་ལྷོ་རྒྱུ། |
+| right (south) | ༄ བཅུའི་སྐྱ་རེངས་ཤར་དུས། བཅུ་གཉིས་ཀྱི་སྐྱ་རེངས་ཤར་དུས། བཅུ་དགུའི་སྔ་དྲོ་དང་པོར། ཉེར་ལྔའི་སྐྱ་རེངས་ཤར་དུས། ལྷོ་ནས་བྱང་རྒྱུ། |
+| bottom left (north-west) | ༄ ཉེར་གཉིས་ཉི་ཕྱེད་ཡོལ་ལ། ཉེར་གསུམ་ཉི་ཕྱེད་ལ། ནུབ་བྱང་ནས་ཤར་ལྷོ་རྒྱུ། |
+| bottom (west) | ༄ ཚེས་བཞིའི་ཟླ་བ་ནུབ་དུས། བཅུ་བདུན་ནམ་ཕྱེད་ལ། ནུབ་ནས་ཤར་རྒྱུ། |
+| bottom right (south-west) | ༄ ཚེས་གཅིག་ཉི་ཕྱེད་ལ། ཚེས་གསུམ་ཉི་དྲོས། བཅོ་ལྔའི་ཉི་ཕྱེད་ལ། བཅོ་བརྒྱད་ནམ་ཕྱེད་ལ། ཉེར་བདུན་ནམ་ཕྱེད་ལ། ལྷོ་ནུབ་ནས་བྱང་ཤར་རྒྱུ། |
+
+The middle box: "the 14th, in the morning, from the sky to the ocean;
+chart of Rāhu's *nu ru* course by date; on the 30th (*gnam gang*), from
+the land of the gods through above, below, the directions and the
+intermediate ones". The others: north-east to south-west the 9th at
+dusk, the 16th at sunset, the 29th when the sun is a spear high; east
+to west the 2nd after noon, the 5th in the warm of the morning, the 21st
+at dawn, the 26th «ནི་ཕྱེད་ཡོལ», past the half (WB: ནམ་གྱི་ཕྱེད་ཡོལ, after midnight;
+KP names neither day nor night); south-east to north-west the 8th at
+རྡེའུ་འགོ་དྲོས, the 20th at noon; north to south the 6th at dawn, the 7th and
+11th at dusk, the 13th at daybreak, the 24th at noon, the 28th at dawn;
+south to north the 10th, 12th and 25th at dawn, the 19th early in the
+morning; north-west to south-east the 22nd after noon, the 23rd at noon;
+west to east the 4th at moonset, the 17th at midnight; south-west to
+north-east the 1st at noon, the 3rd in the warm of the morning, the 15th
+at noon, the 18th and 27th at midnight. These are the table's thirty
+dates above, each in the same box as WB's verse puts it; KP names no
+forms of Rāhu and no retinues.
+
+**Rāhu's course over one day**, the middle chart, nine boxes:
+
+| Box | As printed |
+| --- | --- |
+| centre | ༄ ཉིན་ཞག་ཕྲུགས་གཅིག་གམ་དུས་ལ་འཁོར་བའི་སྒྲ་གཅན་རྒྱུ་དུས་ |
+| top left (north-east) | ༄ ཉི་[སྨྱུར]་ལ་བྱང་ཤར་ནས་ནུབ་རྒྱུ། |
+| top (east) | ༄ ཉི་རྩེ་ཤར་ནས་ནུབ་བྱང་རྒྱུ། |
+| top right (south-east) | ༄ སྲོད་འཁོར་ལ་ཤར་ལྷོ་ནས་བྱང་དུ་རྒྱུ། |
+| left (north) | ༄ ནམ་ཕྱེད་ལ། བྱང་ནས་ལྷོ་ནུབ་རྒྱུ། |
+| right (south) | ༄ ཉི་ཕྱེད་ལ་ལྷོ་ནས་བྱང་ཤར་རྒྱུ། |
+| bottom left (north-west) | ༄ ཉི་དྲོས་ལ་ནུབ་བྱང་ནས་ལྷོར་རྒྱུ། |
+| bottom (west) | ཉི་ནུབ་ལ་ནུབ་ནས་ཤར་ལྷོར་རྒྱུ། |
+| bottom right (south-west) | ༄ ནམ་ལངས་ལ་ལྷོ་ནུབ་ནས་ཤར་རྒྱུ། |
+
+"Rāhu's times of moving round one whole day and night (*nyin zhag phrugs
+gcig*), or by the times": at first sun (ཉི་རྩེ) east to north-west, in the
+warm of the morning north-west to south, at noon south to north-east, in
+the late afternoon north-east to west, at sunset west to south-east, at
+dusk south-east to north, at midnight north to south-west, at daybreak
+south-west to east: WB p. 239's eight times and directions (*The course
+over one day*, below), each box in the direction Rāhu sets out from.
+«[སྨྱུར]»: the stack is cramped on the scan; Yigdzin-1 reads ཉི་མྱུར, WB
+prints ཉི་སྨྱུར.
+
+**The square**, the right chart: a grid of three by three, the directions
+round it («ཤར», east, at the top; «བྱང», north, on the left; «ལྷོ», south, on
+the right; «ནུབ», west, below), the middle cell a line of text, the other
+eight holding two to five numbers each in the print's cursive numerals.
+Neither Yigdzin-1 (on the whole chart and on each cell at 5×) nor the eye
+reads the numerals with certainty on this scan; the middle cell's text,
+«སྤྱི་བརྒྱུད་ཚེས་[…]» by eye, is not settled either. Not written out.
 
 ## The detailed course
 
@@ -83,10 +160,14 @@ not read further here, and not built (SPEC §5.13).
 the dates on which Rāhu enters a direction (འཇུག) or turns back with its
 retinue (འཁོར་རྣམས་བཟློག), when, how long it stays, and what that day is good
 and bad for. As printed (ཆོས་བྱ on the 29th read on the scan for Yigdzin's
-ཚེས་བྱ, and སྐྲ་འཁྲུ on the 8th for its སྒྲ་འཁྲུ; ཆང་བཙོང་ན on the 29th is read as
-ཆང་བཙོ་ངན, "brewing is bad"):
+ཚེས་བྱ, and སྐྲ་འཁྲུ on the 8th for its སྒྲ་འཁྲུ). The 29th's bad list is printed
+«ཆང་བཙོང་ན», read on the Ser thang reprint of the same typesetting (O10e,
+2026-10-14; I3CN5029, img. 244, p. 238, l. 3, full size), as Yigdzin-1
+read it: with the tsheg one letter on, «ཆང་བཙོ་ངན», "brewing is bad", which
+the verse needs, every other date closing its bad list with ངན or སྤང. The
+quotation keeps the print:
 
-> དེ་ནས་ཕྱི་ལྟར་རྒྱུ་བའི་ལུགས། །དུས་བརྒྱད་རྒྱུ་ཚུལ་རགས་པ་ཙམ། །གོང་གི་ནུ་རུར་གཏོགས་མོད་ཀྱང་། །ད་དུང་ཞིབ་པར་འདི་ལྟར་ཡོད། །ཚེས་བཞིའི་ཉི་ནུབ་ནུབ་ཏུ་འཇུག །ཤར་དུ་སྲོད་རྒྱུ་ལས་དོན་གཉེར། །བག་མ་བླང་ཞིང་ཚོང་བྱ་བ། །ཤིང་གཅོད་དཀར་ཆོས་ཆང་བཅོ་བཟང་། །མི་ཤི་ཆོས་སྟོན་འཐབ་མོ་འདུམ། །སྤང་ཞིང་ཞག་གཉིས་ཤར་དུ་གནས། །ཚེས་དྲུག་ནང་པར་ནུབ་ཏུ་འཁོར། །བཟློག་དུས་ཧོམ་སྤར་སེར་འབེབས་བཟང་། །ཚེས་བརྒྱད་ཤར་ནས་ཤར་ལྷོར་འཇུག །སྔ་དྲོ་ནུབ་བྱང་མཚམས་སུ་རྒྱུ། །ཞལ་ཆེ་དགྲ་རྒོལ་རྐུན་མ་བྱ། །མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ། །གོས་འཚེམ་བག་མ་ཁྲུས་ངན་ནོ། །ཞག་གསུམ་ནུབ་བྱང་ཕྱོགས་སུ་གནས། །བཅུ་གཅིག་སྲོད་ལ་འཁོར་རྣམས་བཟློག །བསད་པ་སྙིང་ཐུན་ལས་བྱའོ། །བཅུ་གཉིས་བྱང་སྒོར་སྲོད་ལ་འཇུག །ནམ་བྱིང་བྱང་ནས་ལྷོ་རུ་རྒྱུ། །ཁྲུས་དང་སྟོན་མོ་བུ་ལོན་འཇལ། །སྐྲ་འཁྲུ་བཟང་ཞིང་ས་བོན་གདབ། །བྲན་ཉི་རྐང་འགྲོས་འདུལ་བ་ངན། །ཞག་གཉིས་ལྷོ་ཡི་ཕྱོགས་དེར་གནས། །བཅུ་བཞི་ཉི་ཕྱེད་འཁོར་རྣམས་བཟློག །སེར་བ་དང་ནི་བྲུབ་ལས་བཟང་། །བཅོ་ལྔའི་སྔ་དྲོ་ལྷོ་ནུབ་འཇུག །ཉི་མ་ཕྱེད་ན་བྱང་ཤར་རྒྱུ། །ལྷ་གསོལ་གཡང་སྐྱབས་ཚུར་ལེན་དང་། །སྒྲུབ་པ་དབང་བསྐུར་ཆོས་སྤྱོད་བཟང་། །ཕར་འཇལ་མནའ་སྐྱེལ་བག་མ་དང་། །བུ་འབོགས་ངན་ཞིང་ཞག་གཉིས་བར། །བྱང་ཤར་མཚམས་སུ་གནས་བྱས་ནས། །བཅུ་བདུན་ནམ་ཕྱེད་ལྷོ་ནུབ་ལྡོག །ཐོག་སེར་དབབ་པའི་ལས་ལ་ཤིས། །བཅོ་བརྒྱད་ནམ་ཕྱེད་ཤར་དུ་འཇུག །ནམ་ཕྱེད་ཡོལ་ལ་ནུབ་ཏུ་རྒྱུ། །དེ་ལས་རབ་བྱུང་ལྷ་ཁང་དང་། །མཆོད་རྟེན་ལམ་ཞུགས་དམག་དྲངས་བཟང་། །མནའ་སྐྱེལ་ཕྱག་འཚལ་མཁར་ལས་དང་། །སྒོ་འཛུགས་ཐོག་འབུབས་སྒོ་ཡོལ་ངན། །ཞག་གསུམ་ནུབ་གནས་ཉེར་གཅིག་གི །ཉིན་གུང་འཁོར་ལྡོག་དྲག་ལས་བཟང་། །ཉེར་གཉིས་ཉི་ཕྱེད་ནུབ་བྱང་འཇུག །མྱུར་ཆུང་ལ་ནི་ཤར་ལྷོར་འཇུག །བཟོ་དང་ཡིག་རྩིས་སློབ་པ་དང་། །ཆུ་འདྲུ་གཏད་བཟང་འདུན་མ་བྱ། །ཁང་དུར་ས་བཙལ་རྐང་འགྲོས་འདུལ། །ངན་ཞིང་ཞག་གཉིས་ཤར་ལྷོར་གནས། །ཉེར་བཞིའི་ཉི་ཕྱེད་ཡོལ་ལ་ལྡོག །ཐོག་སེར་དབབ་བའི་ལས་དག་བྱ། །ཉེར་ལྔའི་ནམ་ཕྱེད་ལྷོ་རུ་འཇུག །སྐྱ་རེངས་ཤར་དུས་བྱང་དུ་རྒྱུ། །ཞིང་ཉོ་མཁར་ལས་བྱེད་པ་བཟང་། །ནོར་འཇལ་དམག་འདྲེན་སྤང་བར་བྱ། །ཞག་གཉིས་བྱང་གནས་ཉེར་བདུན་གྱི། །ས་སྲོད་འཁོར་བཟློག་ཁྱབ་འཇུག་སྒྲུབ། །ཉེར་དགུའི་ཉི་མ་ཕྱེད་ཡོལ་དུས། །བྱང་ཤར་དུ་འཇུག་ཉི་མ་ཉིད། །མདུང་གང་ཙམ་ལ་ལྷོ་ནུབ་རྒྱུ། །དགྲ་བྲུབ་ཧོམ་སྤོར་ཐོག་སེར་བཟང་། །ཆོས་བྱ་ས་བོན་ཆང་བཙོ་ངན། །ཞག་གཉིས་ལྷོ་ནུབ་ཕྱོགས་སུ་གནས། །ཚེས་གཅིག་ནམ་ལངས་འཁོར་རྣམས་བཟློག །སེར་བ་ཟོར་གྱི་འབེབས་ལས་བཟང་།
+> དེ་ནས་ཕྱི་ལྟར་རྒྱུ་བའི་ལུགས། །དུས་བརྒྱད་རྒྱུ་ཚུལ་རགས་པ་ཙམ། །གོང་གི་ནུ་རུར་གཏོགས་མོད་ཀྱང་། །ད་དུང་ཞིབ་པར་འདི་ལྟར་ཡོད། །ཚེས་བཞིའི་ཉི་ནུབ་ནུབ་ཏུ་འཇུག །ཤར་དུ་སྲོད་རྒྱུ་ལས་དོན་གཉེར། །བག་མ་བླང་ཞིང་ཚོང་བྱ་བ། །ཤིང་གཅོད་དཀར་ཆོས་ཆང་བཅོ་བཟང་། །མི་ཤི་ཆོས་སྟོན་འཐབ་མོ་འདུམ། །སྤང་ཞིང་ཞག་གཉིས་ཤར་དུ་གནས། །ཚེས་དྲུག་ནང་པར་ནུབ་ཏུ་འཁོར། །བཟློག་དུས་ཧོམ་སྤར་སེར་འབེབས་བཟང་། །ཚེས་བརྒྱད་ཤར་ནས་ཤར་ལྷོར་འཇུག །སྔ་དྲོ་ནུབ་བྱང་མཚམས་སུ་རྒྱུ། །ཞལ་ཆེ་དགྲ་རྒོལ་རྐུན་མ་བྱ། །མནའ་སྐྱེལ་ལས་བཟང་སྐྲ་འཁྲུ་བ། །གོས་འཚེམ་བག་མ་ཁྲུས་ངན་ནོ། །ཞག་གསུམ་ནུབ་བྱང་ཕྱོགས་སུ་གནས། །བཅུ་གཅིག་སྲོད་ལ་འཁོར་རྣམས་བཟློག །བསད་པ་སྙིང་ཐུན་ལས་བྱའོ། །བཅུ་གཉིས་བྱང་སྒོར་སྲོད་ལ་འཇུག །ནམ་བྱིང་བྱང་ནས་ལྷོ་རུ་རྒྱུ། །ཁྲུས་དང་སྟོན་མོ་བུ་ལོན་འཇལ། །སྐྲ་འཁྲུ་བཟང་ཞིང་ས་བོན་གདབ། །བྲན་ཉི་རྐང་འགྲོས་འདུལ་བ་ངན། །ཞག་གཉིས་ལྷོ་ཡི་ཕྱོགས་དེར་གནས། །བཅུ་བཞི་ཉི་ཕྱེད་འཁོར་རྣམས་བཟློག །སེར་བ་དང་ནི་བྲུབ་ལས་བཟང་། །བཅོ་ལྔའི་སྔ་དྲོ་ལྷོ་ནུབ་འཇུག །ཉི་མ་ཕྱེད་ན་བྱང་ཤར་རྒྱུ། །ལྷ་གསོལ་གཡང་སྐྱབས་ཚུར་ལེན་དང་། །སྒྲུབ་པ་དབང་བསྐུར་ཆོས་སྤྱོད་བཟང་། །ཕར་འཇལ་མནའ་སྐྱེལ་བག་མ་དང་། །བུ་འབོགས་ངན་ཞིང་ཞག་གཉིས་བར། །བྱང་ཤར་མཚམས་སུ་གནས་བྱས་ནས། །བཅུ་བདུན་ནམ་ཕྱེད་ལྷོ་ནུབ་ལྡོག །ཐོག་སེར་དབབ་པའི་ལས་ལ་ཤིས། །བཅོ་བརྒྱད་ནམ་ཕྱེད་ཤར་དུ་འཇུག །ནམ་ཕྱེད་ཡོལ་ལ་ནུབ་ཏུ་རྒྱུ། །དེ་ལས་རབ་བྱུང་ལྷ་ཁང་དང་། །མཆོད་རྟེན་ལམ་ཞུགས་དམག་དྲངས་བཟང་། །མནའ་སྐྱེལ་ཕྱག་འཚལ་མཁར་ལས་དང་། །སྒོ་འཛུགས་ཐོག་འབུབས་སྒོ་ཡོལ་ངན། །ཞག་གསུམ་ནུབ་གནས་ཉེར་གཅིག་གི །ཉིན་གུང་འཁོར་ལྡོག་དྲག་ལས་བཟང་། །ཉེར་གཉིས་ཉི་ཕྱེད་ནུབ་བྱང་འཇུག །མྱུར་ཆུང་ལ་ནི་ཤར་ལྷོར་འཇུག །བཟོ་དང་ཡིག་རྩིས་སློབ་པ་དང་། །ཆུ་འདྲུ་གཏད་བཟང་འདུན་མ་བྱ། །ཁང་དུར་ས་བཙལ་རྐང་འགྲོས་འདུལ། །ངན་ཞིང་ཞག་གཉིས་ཤར་ལྷོར་གནས། །ཉེར་བཞིའི་ཉི་ཕྱེད་ཡོལ་ལ་ལྡོག །ཐོག་སེར་དབབ་བའི་ལས་དག་བྱ། །ཉེར་ལྔའི་ནམ་ཕྱེད་ལྷོ་རུ་འཇུག །སྐྱ་རེངས་ཤར་དུས་བྱང་དུ་རྒྱུ། །ཞིང་ཉོ་མཁར་ལས་བྱེད་པ་བཟང་། །ནོར་འཇལ་དམག་འདྲེན་སྤང་བར་བྱ། །ཞག་གཉིས་བྱང་གནས་ཉེར་བདུན་གྱི། །ས་སྲོད་འཁོར་བཟློག་ཁྱབ་འཇུག་སྒྲུབ། །ཉེར་དགུའི་ཉི་མ་ཕྱེད་ཡོལ་དུས། །བྱང་ཤར་དུ་འཇུག་ཉི་མ་ཉིད། །མདུང་གང་ཙམ་ལ་ལྷོ་ནུབ་རྒྱུ། །དགྲ་བྲུབ་ཧོམ་སྤོར་ཐོག་སེར་བཟང་། །ཆོས་བྱ་ས་བོན་ཆང་བཙོང་ན། །ཞག་གཉིས་ལྷོ་ནུབ་ཕྱོགས་སུ་གནས། །ཚེས་གཅིག་ནམ་ལངས་འཁོར་རྣམས་བཟློག །སེར་བ་ཟོར་གྱི་འབེབས་ལས་བཟང་།
 
 The sixteen dates, as the app gives them (`Texts.RAHU`):
 
@@ -190,5 +271,15 @@ going along with it, and above all nothing should face it.
 The app adds this to both Rāhu readings, the detailed course and the
 general one, so it opens from the day's Rāhu row; it does not place the
 eight times on the hours panel's clock, since the passage names times of
-day, not hours. KP's nine boxes on img. 78 that give the same course
-(ཉིན་ཞག་ཕྲུགས་གཅིག) were not read.
+day, not hours. KP's nine boxes on img. 78 give the same course
+(*KP's chart, img. 78*, above). The whole passage was read again on the
+Ser thang reprint (O10e, 2026-10-14; I3CN5029, img. 245, full size): it
+reads as quoted, «ཐོ་རེངས་ནམ་ལོངས» and «འཛེམ་པ་གཅེས» included.
+
+## Open
+
+- Question: KP's square on img. 78 (§7), the third chart beside the two
+  compasses of boxes: what does it count, the dates by the direction
+  Rāhu sets out from as the boxes do, or another of WB's courses (the
+  inner, hidden or *tho brgal* course of p. 238), and how are its
+  cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]») read?
