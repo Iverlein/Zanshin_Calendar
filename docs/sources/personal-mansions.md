@@ -189,15 +189,19 @@ animal, ལག་སྤེན་པ (Saturday), and the same weekday to every ot
 pa sangs for Tiger and Hare, lhag pa for Snake and Horse, mig dmar for
 Monkey and Bird. The app's Saturday stands.
 
-**KP's readings** follow on img. 86 (read on the scan, 2026-10-04): WB's
-verse above, shortened. It opens «བླ་གཟའ་བླ་སྐར་བྱ་ལས་འགྲུབ། །གཤེད་སྐར་ལ་ནི་
-བགེགས་འདུལ་བཟང་།», so the bla gza' joins the bla skar where WB has དེ་ལྟར; then
-«…དར་དུས་འཕྲིན་ལས་འགྲུབ། །སྲོག་གཟའ་དགེ་ལ་གཤེད་གཟར་འཛེམ། །དགྲ་བོའི་བླ་གཟའ་རྒུད་པ་
-དང་། །གཤེད་གཟའ་…དུས་ཉིད་ལ། །མཐུ་དང་ནུས་པ་སྤྲད་ན་མྱུར། །བླ་སྲོག་དབང་སྐར་ཅི་ཡང་བཟང་།»
-(a crack in the block runs through the two places marked …); then the
-births, «…བཙས་དུས་བླ་སྐར་དང་། །ཕྲད་ན་ཚེ་རིང་འགྱུར་བ་ཡིན། །དབང་སྐར་ཕྲད་ན་བསོད་ནམས་
-ཆེ།», the gshed skar's short life and its being the 'chi skar, and a closing
-line not read with confidence. It leaves out WB's mother, friend and child
+**KP's readings** follow on img. 86 (read on the scan, 2026-10-04; written
+out O10e, 2026-10-14, by eye on 2× crops of each line, Yigdzin-1 as an aid,
+which reads this abbreviated cursive poorly): WB's verse above, shortened.
+As printed, in full spelling where the block writes syllables run
+together; «[…]» where a crack in the block runs through the line:
+
+> ༧། [༡༡] །བླ་གཟའ་བླ་སྐར་བྱ་ལས་འགྲུབ། །གཤེད་སྐར་ལ་ནི་བགེགས་འདུལ་བཟང་། །བླ་གཟ[…]་དར་དུས་འཕྲིན་ལས་འགྲུབ། །སྲོག་གཟའ་དགེ་ལ་གཤེད་གཟར་[བྱོལ]། །དགྲ་བོའི་བླ་གཟའ་རྒུད་པ་དང་། །གཤེད་གཟ[…]་དུས་ཉིད་ལ། །མཐུ་དང་ནུས་པ་སྤྲད་ན་མྱུར། །བླ་སྲོག་དབང་སྐར་ཅི་ཡང་བཟང་། །[མ་ལ]་བཙས་དུས་[བླ]་སྐར་དང་། །ཕྲད་ན་ཚེ་རིང་འགྱུར་བ་ཡིན། །དབང་སྐར་ཕྲད་ན་བསོད་ནམས་ཆེ། །གཤེད་སྐར་ཕྲད་ན་ཚེ་ཐུང་འགྱུར། །གཤེད་སྐར་དང་ནི་འཆི་སྐར་གཅིག །དེ་ཡི་[…]།
+
+«༡༡» is the section number in its frame. The bla gza' joins the bla
+skar where WB has དེ་ལྟར. The gshed weekday is avoided: the stack after
+«གཤེད་གཟར» is short, a བ with a vowel and ལ, like WB's «བྱོལ», where the
+earlier reading of this file had «འཛེམ». The last line after «དེ་ཡི» is not
+read with confidence. KP leaves out WB's mother, friend and child
 weekdays and mansions and the line naming skeg, bdud and gshed skar bad.
 Nothing in it is new to the app's readings.
 
@@ -283,6 +287,38 @@ above), counted by the same relations. A last row, «ཀླུང་གི་ད
 four cells set across the columns: 3 (Tue), 5 (Thu), 0 (Sat), 2 (Mon);
 the first is wood's Tuesday of the verse, the others are read in the order
 printed.
+
+**The tables written out** (O10e, 2026-10-14), read by eye on the Ser
+thang reprint of the same typesetting (BDRC MW3CN5026, vol. 2, I3CN5029,
+img. 351–352, 1905 px), each cell in its numerals as printed. Each
+column is given top to bottom; a cell printed across two or three rows
+(the four mansions between, and the grave mansions, which stand in the
+last column one above the other, «དུར་སྐར་ཆུང་བ» set in the middle as a
+heading of its own) is given once. Every cell agrees with the table
+above.
+
+| Table (p., img.) | རང་ངམ་དབང་སྐར་རམ་བླ་སྐར | མ་སྐར | གྲོགས་སྐར | བུ་སྐར | དགྲ་སྐར | དུར་སྐར་ཆེ་བ | དུར་སྐར་ཆུང་བ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ཀེག་ཤིང་ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན། (p. 345, img. 353) | ༢ ༣ ༤ ༥ ༦ ༧ | ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༠ | ༡ ༨ ༡༥ ༢༡ | ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ | ༡༦ ༡༧ ༡༨ ༡༩ ༢༠ ༢༡ | ༡༥ | ༡ |
+| ཇི་མེ་ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན། (p. 345, img. 353) | ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ | ༢ ༣ ༤ ༥ ༦ ༧ | ༡༦ ༡༧ ༡༨ ༡༩ ༢༠ ༢༡ | ༡ ༨ ༡༥ ༢༡ | ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༠ | ༢༡ | ༨ |
+| ཀུངས་ས་ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན། (p. 345, img. 353) | ༡ ༨ ༡༥ ༢༡ | ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ | ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༠ | ༡༦ ༡༧ ༡༨ ༡༩ ༢༠ ༢༡ | ༢ ༣ ༤ ༥ ༦ ༧ | ༨ | ༢༡ |
+| ཤང་ལྕགས་ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན། (p. 346, img. 354) | ༡༦ ༡༧ ༡༨ ༡༩ ༢༠ ༢༡ | ༡ ༨ ༡༥ ༢༡ | ༢ ༣ ༤ ༥ ༦ ༧ | ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༠ | ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ | ༡ | ༡༥ |
+| འུ་ཆུ་ཁམས་པའི་བླ་སྐར་སོགས་ངོས་འཛིན། (p. 346, img. 354) | ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༠ | ༡༦ ༡༧ ༡༨ ༡༩ ༢༠ ༢༡ | ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ | ༢ ༣ ༤ ༥ ༦ ༧ | ༡ ༨ ༡༥ ༢༡ | ༨ | ༢༡ |
+
+The weekday table, p. 346 (img. 354; Ser thang img. 352), headed
+«གཟའི་བླ་གཟའ་སོགས་ངོས་འཛིན།», its first column «མིང་»:
+
+| མིང་ | ཀེག་ཤིང་ | ཇི་མེ་ | ཀུངས་ས་ | ཤང་ལྕགས་ | འུ་ཆུ་ |
+| --- | --- | --- | --- | --- | --- |
+| བླ་གཟའ་འམ་དབང་གཟའ་རང་གཟའ་ | ༥ | ༡ ༣ | ༠ | ༦ | ༢ ༤ |
+| མ་གཟའ་ | ༢ ༤ | ༥ | ༡ ༣ | ༠ | ༦ |
+| གྲོགས་གཟའ་ | ༠ | ༦ | ༢ ༤ | ༥ | ༡ ༣ |
+| བུ་གཟའ | ༡ ༣ | ༠ | ༦ | ༢ ༤ | ༥ |
+| དགྲ་གཟའ | ༦ | ༢ ༤ | ༥ | ༡ ༣ | ༠ |
+| ཀླུང་གི་དར་གཟའ་ | ༣ ༥ ༠ ༢ (across the columns) | | | | |
+
+The last row's four cells are set across the columns, not under them,
+and are given in the order printed.
 
 **Against the table by animal.** The two reckonings are different things:
 the one by animal names six single mansions and three weekdays, the one
