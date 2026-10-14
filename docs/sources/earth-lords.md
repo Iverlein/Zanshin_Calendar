@@ -174,7 +174,7 @@ dpe rnying kun btus*; no scans) has the same lines with
 complete in nine days"), which settles neither.
 
 WB uses "the day's sme ba" (*zhag gi sme ba*) for a second count too:
-in the hours (vol. 2, p. 535, img. 543, from the etext), the date's sme ba
+in the hours (vol. 2, p. 535, img. 543; the passage, «…ཞག་གི་སྨེ་བ་གང་ཡིན་དང་པོར་བྱས་ནས་ཉིན་དགུ་མཚན་དགུར་འཆར་བའོ།», is written out on the scan in [reckonings.md](reckonings.md), *Section 8*), the date's sme ba
 (1, 4 or 7 on the first date of a month by its place in the season, then
 by date: the app's lunar-date sme ba, Janson's) starts the nine day and
 nine night periods. That count cannot be meant at p. 224, whose example
@@ -258,11 +258,18 @@ read as printed (MITRA སྟོང for སྟེང; WBZ's etext has the same �
 sense here is not settled.
 
 **The remedy's texts, read 2026-10-08** (from the etext, IE0OPI51524892,
-vol. 2 etext pp. 188 and 197; not yet checked on the scans). The year's
-section (p. 180) names what is avoided towards the *bla mkhyen*, whom it
-harms and the remedy:
+vol. 2 etext pp. 188 and 197; read on the scan for O10, 2026-10-14, img.
+188 and 197 at 3× with Yigdzin-1, the etext's words confirmed and the
+lines before and after added). The year's section (p. 180, img. 188)
+names what is avoided towards the *bla mkhyen*, whom it harms and the
+remedy:
 
-> ཀོ་ལོང་རྩིས་མཁན་དོ་བདག་དང༌། །རྡོ་རྗེ་སློབ་དཔོན་དག་ལ་སྡོམ། །ཉམས་ན་གཙུག་ཏོར་སྣང་བརྒྱད་དང་། །མཚན་བརྗོད་གཟུངས་བསྡུས་ཏོག་གཟུངས་འདོན། །གཏོར་མ་ཕྱོགས་དེར་བཏང་ལ་བཅོས། །
+> ཁྲོམ་དང་མཁར་ལས་ས་འཚོལ་དང་། །རོ་འདོན་དུར་ས་ཕོ་བྲང་གདབ། །ཤིད་ཁ་མི་སྟོན་ཁྱི་མི་བླང་། །ཤིད་དང་སེ་སྒོ་མེ་ཐབ་བཅའ། །དམག་དང་ཇག་པ་བྱ་བ་དང་། །ཀོ་ལོང་རྩིས་མཁན་དོ་བདག་དང་། །རྡོ་རྗེ་སློབ་དཔོན་དག་ལ་སྡོམ། །ཉམས་ན་གཙུག་ཏོར་སྣང་བརྒྱད་དང་། །མཚན་བརྗོད་གཟུངས་བསྡུས་ཏོག་གཟུངས་འདོན། །གཏོར་མ་ཕྱོགས་དེར་བཏང་ལ་བཅོས། །
+
+(the first four lines: markets, fort work, seeking ground, bringing out a
+corpse, a burial ground and a palace's foundation; no funeral shown
+that way and no dog taken; funeral rites, the doors of the *se*, setting
+up a hearth, war and robbery: avoided towards it)
 
 "It takes offence at astrologers, the head of the household and vajra
 masters; if it is harmed, recite the *gtsug tor*, *snang brgyad*, *mtshan
@@ -270,7 +277,9 @@ brjod*, *gzungs bsdus* and *tog gzungs*; the remedy is a torma sent in its
 direction." The five are short titles. Nine pages on (p. 189), in a remedy
 by the four directions, WB names three in full:
 
-> ལྷོ་རུ་འཇམ་དཔལ་མཚན་བརྗོད་གསུང་། །ནུབ་ཏུ་གཙུག་ཏོར་གདུགས་དཀར་མོ། །བྱང་དུ་གནམ་ས་སྣང་བརྒྱད་སྒྲོག
+> ཅིས་ཀྱང་མི་བྱེད་ཀ་མེད་ན། །ཤར་དུ་གསེར་འོད་སྡུད་པ་དང་། །ལྷོ་རུ་འཇམ་དཔལ་མཚན་བརྗོད་གསུང་། །ནུབ་ཏུ་གཙུག་ཏོར་གདུགས་དཀར་མོ། །བྱང་དུ་གནམ་ས་སྣང་བརྒྱད་སྒྲོག །དབུས་སུ་ཆུ་གཏོར་གཏང་བར་བྱ། །
+
+(p. 189, img. 197, on the scan: if it cannot be avoided at all, the *Golden Light* recited to the east, the *Names of Mañjuśrī* to the south, the White Parasol of the Uṣṇīṣa to the west, the *Eight Appearances of Heaven and Earth* to the north, a water torma in the centre)
 
 so *gtsug tor* is the White Parasol of the Uṣṇīṣa (*gtsug tor gdugs dkar
 mo*; WB also writes *gtsug tor gdugs dkar* and *gtsug tor dkar nag*,
