@@ -1169,7 +1169,8 @@ errors, the one doubtful case «རོ་ཤིད» (p. 206, the etext «རྡ
 scan at 6×. The remedies' words were read with the rest but not word by
 word at 6×; a word whose sense is not settled is given in script with
 «not settled». The second half of the passage on the small child's corpse
-(p. 223) is Yigdzin-1's reading, its first lines checked on the scan. The
+(p. 223) was Yigdzin-1's reading, its first lines checked on the scan; O10
+(2026-10-14) read the rest on the scan. The
 mantras in stacked letters of p. 212 are not transcribed. Passages that
 [month-entries.md](month-entries.md) read for RD2 (the five gods and the
 nine, the black months, Kikang's black months, the empty vase's two courses,
@@ -2055,8 +2056,9 @@ Snake head, riding a dragon, dark blue, snake noose. Its course in the
 month: in spring it moves east to west, in summer south to north, in autumn
 west to east, in winter north to south; in those directions a bride,
 corpses, funeral rites, burial and all great works are guarded against.
-Then from the *Index, Mother and Son* (machine-read, the first lines checked on
-the scan): one who seeks a small child's corpse in the house, sixty days
+Then from the *Index, Mother and Son* (read on the scan in O10, 2026-10-14:
+BDRC's at 2×, where the Gser thang reprint, img. 229, is blank in two places;
+it reads as quoted): one who seeks a small child's corpse in the house, sixty days
 from spring 1 in the house's centre (a corpse laid at the hearth or the
 assembly room: a small child dies); from the 1st of spring 3 sixty days
 south-west (bad for women); from the 1st of summer 3 sixty days north-east
@@ -2072,8 +2074,10 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   «ཀླུང་རྟའི་སྨེ་ཕྲེང … ཟླ་ཀླུང», etext only, not read on the scan. The river-horse
   (ཀླུང་རྟ, klung rta) of vol. 2, pp. 12–25 (etext pp. 20–33; the person's life force, body,
   power and luck) is another use of the word.
-- Ch. 31's own list of the month's 124 (p. 174, img. 182, etext only:
-  «ངན་ཕྱོགས(༡)དང་། །འཁོར་བའི་ས་བདག་ངོ་བོ་ནི། །རྣམ་གྲངས་རེ་བཞི་ཟླ་ནག་དང༌། །བུམ་སྟོང་ཧལ་ཁྱི་ལྟོ་འཕྱེ་དང༌། །གནམ་ཁྱི་ཕོ་མོ་དང་བཅས་ཏེ། །དོན་གཅིག་ནག་མོ་དགུ་སྐོར་དང༌། །སིལ་མའི་དུར་ལེན་ཐབ་སེ་ཤར། ། ལྷ་ལྔ(༦) ཁྲ་དྲུག་ཀུ་ཀུ་དང་། །བ་དན་ཁྲ་བོ་སྣང་སེལ་ཉིད། །གནམ་གྱི་བྱ་ཁྱུང་འགྲམ་འཕྱེ་བོ། །འགོག་ཀུ(༥)སེ་དྲུག་ནག་པོ་དྲུག །གབ་པ་བཅུ་གཉིས་ཡང་ཁོལ་གྱི། །གཟའ་རྒོད་ […]་ལག་རྡུམ་བཅས། །ཁྱོན་གྲངས་ཟླ་འཁོར་བརྒྱ་ཉེར་བཞི།།»)
+- Ch. 31's own list of the month's 124 (p. 174, img. 182, l. 17–22, read on
+  the scan in O10, 2026-10-14, on the Gser thang reprint, I3CN5029, img. 180;
+  the etext's gap is «གཅེར་བུ»):
+  «༧ དེ་ནས་ཟླ་བར་ས་བདག་ལ། །ལྟོས་མིན་སོ་སོར་ངན་ཕྱོགས(༡)དང་། །འཁོར་བའི་ས་བདག་ངོ་བོ་ནི། །རྣམ་གྲངས་རེ་བཞི་ཟླ་ནག་དང་། །བུམ་སྟོང་ཧལ་ཁྱི་ལྟོ་འཕྱེ་དང་། །གནམ་ཁྱི་ཕོ་མོ་དང་བཅས་ཏེ། །དོན་གཅིག་ནག་མོ་དགུ་སྐོར་དང་། །སིལ་མའི་དུར་ལེན་ཐབ་སེ་ཤར། །ལྷ་ལྔ(༦)ཁྲ་དྲུག་ཀུ་ཀུ་དང་། །བ་དན་ཁྲ་བོ་སྣང་སེལ་ཉིད། །གནམ་གྱི་བྱ་ཁྱུང་འགྲམ་འཕྱེ་བོ། །འགོག་ཀུ(༥)སེ་དྲུག་ནག་པོ་དྲུག །གབ་པ་བཅུ་གཉིས་ཡང་ཁོལ་གྱི། །གཟའ་རྒོད་གཅེར་བུ་ལག་རྡུམ་བཅས། །ཁྱོན་གྲངས་ཟླ་འཁོར་བརྒྱ་ཉེར་བཞི།།»
   is the order read here: the bad directions, the sixty-four of essence (the
   editors number them 1–64 on pp. 199–211, the five and the nine being
   51–64), the black months, the empty vase, the hal dog, the
