@@ -1169,3 +1169,28 @@ the text, not about the app.
      courses (the inner, hidden or *tho brgal* course of p. 238), and how
      are its cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]»)
      read? (2026-10-14, O10, [rahu.md](rahu.md), "KP's chart, img. 78")
+
+149. **The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
+     the harm wheel prints «ཤིང(༢)ས(༣)», where the same page elsewhere
+     numbers wood 3 and earth 2. Is this an editors' slip, and which pair
+     is meant? (2026-10-14, O10, [marriage.md](marriage.md), "4. The hidden")
+
+150. **Kikang's «ཉི་ཤར» or «ཉི་མྱུར».** In WB vol. 2, p. 212, Kikang's
+     black month (ཀི་ཀང་ཟླ་ནག, ki kang zla nag) for the hare and bird years:
+     is the time «ཉི་ཤར», sunrise, as read in T2.21 and built, or
+     «ཉི་མྱུར», as the etext, Yigdzin-1 and the Gser thang reprint at 4–7×
+     have it, and if the latter, what time of day is it? (2026-10-14, O10,
+     [month-entries.md](month-entries.md), "Kikang's black month")
+
+151. **The mansions' «མོན་དྲེ» and «སྒྲོག».** In WB vol. 1, p. 234 (img.
+     244), the list of the mansions as the turtle's vertebrae prints
+     «མོན་དྲེ(༢༢)སྒྲོག(༢༣)» where the usual names are མོན་གྲེ and
+     མོན་གྲུ, and gives Abhijit (བྱི་བཞིན, byi bzhin) Śravaṇa's number 21. Is
+     «སྒྲོག» a variant name or a misprint? (2026-10-14, O10,
+     [health.md](health.md), "WB on health")
+
+152. **The stack «[སྨྱུར]» on p. 355.** In WB vol. 1, p. 355 (img. 365),
+     the stacked syllable read «[སྨྱུར]» (Yigdzin-1 «མྱུར», MITRA «སྦྱར»):
+     what does the print have, and what does it mean there? (2026-10-14,
+     O10, [marriage.md](marriage.md), "The match")
+

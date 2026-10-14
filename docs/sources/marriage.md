@@ -827,6 +827,9 @@ instead of the dates.
 
 ### Open
 
+Open questions 149 and 152 ([open-questions.md](open-questions.md)):
+149, p. 358's «ཤིང(༢)ས(༣)»; 152, the stack «[སྨྱུར]» on p. 355.
+
 Open questions 22, 24 and 54–57 ([open-questions.md](open-questions.md)):
 22, the sum on p. 351, still 5,801 for 5,805 (WBZ to be compared); 24, the
 word «ཎི་ཤ», its rule now found; 54, «ལྡིང་ནག»; 55, *kham yu*'s two counts;

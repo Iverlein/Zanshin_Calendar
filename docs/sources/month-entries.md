@@ -462,6 +462,7 @@ and what the 135 adds, stay open.
 
 #### Open
 
+- Open question 150 ([open-questions.md](open-questions.md)): Kikang's «ཉི་ཤར» or «ཉི་མྱུར».
 - Open question 116 ([open-questions.md](open-questions.md)).
 - Open question 117 ([open-questions.md](open-questions.md)).
 - Open question 118 ([open-questions.md](open-questions.md)).

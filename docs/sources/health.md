@@ -783,6 +783,7 @@ Open questions 77–83 ([open-questions.md](open-questions.md)), in order: the
 three Phugpa places; KL's syllables; KL's six moxa dates; the two la; the
 seven-red's two readings; the turtle's skull; words not settled. «ལྒང་བ» is
 question 60, narrowed; 59 and 61 are answered here, 58 in part.
+Open question 151: p. 234's «མོན་དྲེ» and «སྒྲོག».
 
 ### Searched and not found
 

@@ -485,3 +485,12 @@ Searched and found wanting, so not to be repeated:
   page − 1 at pp. 175–182; image = page + 7 at pp. 22 and 156), so the
   model almanac is laid out differently there and pp. 173–174 are read on
   BDRC's 703-px scan only.
+- **The Gser thang reprint keeps no one offset** (O10, 2026-10-14): in
+  vol. 1 (I3CN5028) image = page − 5 at pp. 253, 276 and 355–364, page − 1
+  at pp. 185–189 and page + 7 at pp. 31–65 (img. 252 is not p. 234); in
+  vol. 2 (I3CN5029) image = page + 6 at pp. 152, 174, 211–212, 223, 484 and
+  523–525. Check the printed page number on each image fetched. The
+  reprint is blank in places on vol. 2, p. 223 (img. 229).
+- **Mipham's *Treatise on Passion*, img. 547** (O10, 2026-10-14): one folio
+  side in a single band at 2428 px; the line on the mansions to avoid is
+  not readable by eye at the scales tried and stays machine text.
