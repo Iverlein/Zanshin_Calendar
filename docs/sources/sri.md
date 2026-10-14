@@ -10,7 +10,8 @@ the wrong word). It is knowledge about the spirits, not calendar logic, so
 sources beyond WB stand here (the owner, 2026-10-08); WB's passages below
 are from BDRC's etext of the 1996 edition (vol. 1 printed page = etext
 page − 10, vol. 2 − 8) and **not yet read on the scan**, except the
-household reckoning, pp. 305–306, and p. 301 (O6, 2026-10-11). WB's
+household reckoning, pp. 305–306, and p. 301 (O6, 2026-10-11; both
+written out whole on the scan for O10, 2026-10-14). WB's
 other passages, gathered for O6 on 2026-10-12, are etext only by the
 owner's choice (*WB's other passages on the sri*, below).
 
@@ -102,7 +103,31 @@ demons a ransom, the *sri* pressed down, under nine skulls and ten horns.
 Between them the scan has «འདྲེ་རུ་ལྷ་སྲིན་སྡེ་བརྒྱད་ཆེ», the eight classes of
 gods and demons great, where the etext has «སྡེ་བརྒྱུད་ཚེ»; the etext writes
 «ཚེ» for «ཆེ» elsewhere on the page too («མ་མོ་ཆེ»). Not settled on the
-scan: the *'phung sri*'s epithet (the etext «རྔ་ཞོན»).
+scan in 2026-10-11's reading: the *'phung sri*'s epithet (the etext
+«རྔ་ཞོན»); at 2.6× (O10f, below) the scan reads «རྔ་ཞོན» as the etext does.
+
+**The household reckoning whole** (vol. 1, pp. 305–306, img. 315–316;
+Yigdzin-1 read against the scan at 2.6× for O10, 2026-10-14; a word in
+square brackets not settled):
+
+> ཡང་ནི་འདི་ལྟར་ཤེས་པར་བྱ། །ཕོ་ལྷ་མོ་ལྷ་ཞང་ལྷ་དང་། །སྲོག་ལྷ་དགྲ་ལྷ་ལྔ་པོ་ནི། །ལྷན་ཅིག་སྐྱེས་པའི་ལྷ་ལྔ་ཡིན། །སྲིད་ལྷ་ནོར་ལྷ་ཡུལ་ལྷ་དང་། །བཙན་ལྷ་རྒན་ལྷ་ལྔ་པོ་ནི། །དེ་ལྔ་སྐྱོབ་པའི་ལྷ་ལྔ་ཡིན། །ཐབ་ལྷ་བང་ལྷ་སྒོ་ལྷ་དང་། །ཀ་ལྷ་དོག་ལྷ་ལྔ་པོ་ནི། །དབང་ཐང་འགོ་བའི་ལྷ་ལྔ་ཡིན། །ཕོ་ལྷས་ཕོ་འཕེལ་རིགས་བརྒྱད་མང་། །མོ་ལྷས་སྲིད་འཕེལ་མོ་གཡང་ཆེ། །ཞང་ལྷས་མིས་བྱམས་ཕྱ་གཡང་ཕྱུག །དགྲ་ལྷས་ནོར་ཆེ་དགྲ་བོ་ཉུང་། །སྲོག་ལྷས་ཚེ་རིང་སྲོག་ཀྱང་བརྟན། །བཙན་ལྷས་དཔལ་འདུ་བུ་ཡང་འཕེལ། །རྒན་ལྷས་ཚེ་ལ་ཧུར་ཐུམ་མེད། །སྲིད་ལྷས་བཙས་ཐུབ་ཤི་ཆད་ཉུང་། །ནོར་ལྷས་ནོར་གྱི་རྨ་གཡང་ཆགས། །ཡུལ་ལྷས་ཁ་དག་རྩལ་ཡང་ཆེ། །བང་ལྷས་ཟས་བཅུད་སྲིས་བརྒྱགས་འཕེལ། །ཐབ་ལྷས་ངོ་དྲོ་ཟས་བཅུད་ཞིམ། །དོག་ལྷས་འབྲུ་འཕེལ་འོང་ཡང་ཆེ། །སྒོ་ལྷས་ཕྱུགས་འཕེལ་གོད་ཁ་ཉུང་། །ཀ་ལྷས་བཀྲ་ཤིས་ཕྱུག་ཡུན་རིང་། །དེ་དག་ཡར་བའི་སྐྱོན་བསྟན་པ། །[རུས]་ཁམས་དབུགས་ལེན་ལོ་མང་ངམ། །བྱི་བ་ལོ་པ་མང་བ་ན། །དབུགས་ལེན་འབྲས་བུ་སྟོན་སོགས་འགྲེ། །དེ་ཡང་དབུགས་ལེན་མང་བ་ན། །མ་ལྷ་ཡུགས་སོ་དག་གིས་ཡར། །འདྲེ་རུ་ཆུ་བཙན་རྒྱལ་པོ་ཆེ། །གྲངས་སུ་ཐེའུ་བྲང་དམར་སེལ་ཐོབ། །གྲལ་ན་མ་བུའི་བྱུར་སྲི་འདུག །མ་ལྷ་སྙེག་ལ་སྲིད་ཕུར་ཐོབ། །མངལ་གནས་ལོ་རྟ་མང་བ་ན། །དཔལ་ལྷ་བསྣོལ་དང་བཙོག་གིས་ཡར། །འདྲེ་རུ་མ་མོ་དཀོར་བདག་ཆེ། །གྲངས་སུ་ཤ་མ་རུ་སེལ་ཐོབ། །གྲལ་ན་བྱུར་སྲི་སྣ་ནག་འདུག །དཔལ་ལྷ་སྙེག་ལ་དཔལ་རྟེན་བཅའ།། ལུས་རྫོགས་ལོ་རྟ་མང་བ་ན། །སྲིད་ལྷ་མཚེ་མ་ཀྱོད་ཀྱིས་ཡར། །འདྲེ་རུ་གཉན་དང་རྒྱལ་པོ་ཆེ། །གྲངས་སུ་བྱུར་སེལ་ཆེན་པོ་ཐོབ། །གྲལ་ན་འཕུང་སྲི་རྔ་ཞོན་འདུག །སྲིད་ལྷ་སྙེག་ལ་སྲིད་རྟེན་གཟུག །བཙས་པའི་ལོ་རྟ་མང་བ་ན།། ཡུལ་ལྷ་རོ་དང་མནའ་ཡིས་ཡར། །འདྲེ་རུ་གཉན་དང་ས་བདག་ཆེ། །གྲངས་སུ་ངང་པའི་སྐད་སེལ་ཐོབ། །གྲལ་ན་མི་ཁ་རྟ་ཞོན་འདུག །ཡུལ་ལྷ་སྙེག་ལ་ཡུལ་རྟེན་གཟུག །ཁྲུས་བྱེད་ལོ་རྟ་མང་བ་ན། །ཞང་ལྷ་དམེ་དང་ཁྲོམ་གྱིས་ཡར། །འདྲེ་རུ་ཀླུ་བཙན་རིགས་འཛིན་འདུག །གྲངས་སུ་དམེ་སེལ་ཆེན་པོ་ཐོབ། །གྲལ་ན་ཞང་སྲི་ཤ་ཟན་འདུག །ཞང་ལྷ་སྙེག་ལ་རྟེན་ཤིང་འཛུགས། །གོས་གྱོན་ལོ་རྟ་མང་བ་ན། །དགྲ་ལྷ་བྲུབ་ཁ་འཁོན་གྱིས་ཡར། །འདྲེ་རུ་མ་མོ་རྦོད་གཏོང་ཆེ། །གྲངས་སུ་དགྲ་ལྷའི་གླང་སེལ་ཐོབ། །གྲལ་ན་དགྲ་སྲི་རལ་ཆེན་འདུག །དགྲ་ལྷ་སྙེག་ལ་[རྟེན]་ཡང་གཟུག །ལས་བྱེད་ལོ་རྟ་མང་བ་ན། །སྲོག་ལྷ་འཁོན་ཆེན་དག་གིས་ཡར། །འདྲེ་རུ་བདུད་དང་ས་བདག་ཆེ། །གྲངས་སུ་འཁོན་སེལ་ཆེན་པོ་ཐོབ། །གྲལ་ན་སྲོག་བདུད་ཁ་དམར་འདུག །སྲོག་ལྷ་སྙེག་ལ་བླ་ཕུར་གདབ། །དར་བའི་ལོ་རྟ་མང་བ་ན། །ལྷ་མཚུན་དམེ་དང་བྱོལ་མདོས་ཡར། །འདྲེ་རུ་བདུད་དང་འཕུང་སྲི་ཆེ། །གྲངས་སུ་དམེ་པོའི་རིགས་སེལ་ཐོབ། །གྲལ་ན་ཕུང་པོ་མགོ་ནག་འདུག །ལྷ་མཚུན་སྙེག་ལ་དུར་ལྷ་གསོལ། །གུད་པའི་ལོ་རྟ་མང་བ་ན། །ཕོ་ལྷ་མི་ལྷག་དག་གིས་ཡར། །འདྲེ་རུ་མཚོ་སྨན་གཉན་དགུ་ཆེ། །གྲངས་སུ་སེལ་ཆེན་སྒོ་བཞི་ཐོབ། །གྲལ་ན་ཕོ་སྲི་རལ་ཆེན་འདུག །ཕོ་ལྷ་སྙེག་ལ་སྲོག་ཕུར་གདབ། །ན་བའི་ལོ་རྟ་མང་བ་ན། རྒན་ལྷ་ཡར་བས་རྒན་ལྷ་སྙེག །བཀྲ་མཚུན་གསོལ་བར་བྱ་བ་ཡིན། །ཤི་བའི་ལོ་རྟ་མང་བ་ན།། ཐབ་ལྷ་ཐབ་གཞོབ་དཔལ་གྱིས་ཡར། །འདྲེ་རུ་ས་བདག་ཀླུ་གཉན་འདུག །གྲངས་སུ་གཞོབ་སེལ་དཀར་ནག་ཐོབ། །གྲལ་ན་ཐབ་སྲི་ལྡན་དམར་འདུག །ཐབ་ལྷ་སྙེག་ལ་ཐབ་སེལ་བྱ། །དུར་ཞུགས་ལོ་རྟ་མང་བ་ན། །སྒོ་ལྷ་ཐག་རིང་རོ་ཡིས་ཡར། །འདྲེ་རུ་བཙན་དང་གཟའ་ཀླུ་ཆེ། །གྲངས་སུ་སྟག་མོས་འཛིངས་སེལ་ཐོབ། །གྲལ་ན་སྒོ་སྲི་ཁྲ་མོ་འདུག །སྒོ་ལྷ་སྙེག་ལ་སྒོ་གཏའ་བྱ། །གསོན་པོའི་དབང་ཐང་དགྲ་བདུད་མང་། །བང་ལྷ་རྒྱལ་པོ་ཤ་རྡོས་ཡར། །འདྲེ་རུ་རྒྱལ་འགོང་བསེ་རགས་ཆེ། །གྲངས་སུ་འགོང་སེལ་དཀར་ཐོག་ཐོབ། །གྲལ་ན་ལྷོག་འདྲེ་ཞ་ཉགས་འདུག །བང་ལྷ་སྙེག་ལ་འགོང་བཀར་བྱ། །དབང་ཐང་དགྲ་དུར་སྐྱེས་པ་མང་། །ནོར་ལྷ་ཐབ་གཞོབ་དཔལ་གྱིས་ཡར། །འདྲེ་རུ་ཀླུ་དང་མ་མོ་ཆེ། །གྲངས་སུ་གཡུང་དྲུང་བན་སེལ་ཐོབ། །གྲལ་ན་གོད་སྲི་ཁ་དམར་འདུག །ནོར་ལྷ་སྙེག་ལ་གཡང་གཏའ་བསྡམ། །དབང་ཐང་བྱུར་དང་མཐུན་གསུམ་མང་། །ཀ་ལྷ་ཆོམ་རྐུན་ཆོ་[རིས]་ཡར། །འདྲེ་རུ་རྒྱལ་འགོང་བསེ་རགས་ཆེ། །གྲངས་སུ་འགོང་པོའི་བྱུར་སེལ་ཐོབ། །གྲལ་ན་ཡུལ་འདྲེ་ཕུ་དམར་འདུག །ཀ་ལྷ་སྙེག་ལ་གཡང་ར་བརྩིག །ཕན་པར་བྱེད་པ་ལྷ་ཡིན་ཏེ། །གནོད་པར་བྱེད་པ་འདྲེ་ཡིན་ནོ། །ལྷ་ཡར་མི་གཙང་བ་ཡིས་བྱེད། །དེ་ཤུལ་[རྒྱལ]་བྱེད་སྡེ་བརྒྱད་གནོད། །ལྷ་གྲལ་སྲིད་ཅན་འདྲེ་དེ་སྡོད། །དེ་ཡིས་མི་ལ་འཚོམས་སྡོད་བྱེད། །ནོར་ལ་གང་སྟོངས་མི་བདེ་འབྱུང་། །འཆོས་ན་ལྷ་ལ་སེལ་བྱ་ཞིང་། །འདྲེ་ལ་གྲངས་གདབ་སྲི་མནན་བྱ། །མང་དུ་འཕངས་པའི་རྟགས་བྱུང་ན། །ལྷ་དེ་ལྔ་གསུམ་བཅོ་ལྔ་ཡར། །འདྲེ་རུ་ལྷ་སྲིན་སྡེ་བརྒྱད་ཆེ། །གྲངས་སུ་སེལ་རིས་བཅུ་གསུམ་ཐོབ། །གཏོ་རུ་འབྱུང་བ་ཡོ་བཅོས་བྱ། །དཔྱད་དུ་ལན་ཆགས་སྟོང་དྲིན་བྱ། །སྲི་རུ་ཐོད་དགུ་རུ་བཅུ་གནོན། །དེ་ལྟར་བྱས་པས་ཡོ་ཡང་འཆོས། །བྲོས་པ་སྙེག་ལ་ཡར་བ་ཁུགས། །འདི་ལ་དར་གུད་རྒྱ་མ་ཟེར། །
+
+Fifteen gods of the household: five born together with a person (the
+male, the female, the uncle, the life and the war god), five that
+protect them (of existence, wealth, the land, the *btsan* and the old),
+five of the house's power (hearth, storehouse, door, pillar and the
+*dog lha*), each with what it increases. Then, for each of the twelve
+stages from conception to death and the grave (*dbugs len*, *mngal
+gnas*, *lus rdzogs*, *btsas pa* … *dur zhugs*) that falls too often in
+a person's years, which god has "gone up" (*yar*) and through what
+defilement, which demon is great, what ransom (*grangs*, a *sel* rite)
+is gained, which *sri* or demon sits in the god's row (*gral na*), and
+how the god is called back (*snyeg*). The close: the gods help, the
+demons harm; the gods go up through uncleanness, the eight classes
+harm in their place, and the demon of existence sits in the god's row;
+to mend it, purify the gods, give the demons a ransom and press down the
+*sri* under nine skulls and ten horns. This is called *dar gud rgya ma*,
+the debt of rise and decline.
 
 WB vol. 1, p. 301 (img. 311, read on the scan, O6, 2026-10-11) presses
 down the *rgan sri* («གཡོ་འཁྲུག་གུང་ཕུར་རྒན་སྲི་མནན») and, "to recognise the
@@ -266,6 +291,26 @@ tiger year".
   *zin* (དྭ, ཁེན, ཁམ, གིན, ཟིན, trigrams), to the oath's cutting stone on
   *zon*. The sentence above that counts the widow god's *chung sri*
   "eighth" reads the same line otherwise (a question, below).
+
+**On the scan (O10f, 2026-10-14).** The page (img. 311) read against
+Yigdzin-1 at 2.6×, the whole passage from the group before to the
+oath's stone:
+
+> […]ས་གཤེད་བཞི། །བྱི་ཕག་ཤིང་ཕག་རྣམས་བྱུང་བར། །རྒྱ་མ་ཁྱེའུ་བརྩི་བ་ཞེས། །དེ་ལ་དར་གུད་རབས་ཆད་དང་། །གཞོན་ཤི་གྲི་ལ་ཤི་བ་འོང་། །དོང་ཙེ་གཡོ་འཁྲུག་སེལ་ཆོག་དང་། །འབྲོས་བསྙགས་ཆོ་ག་བྱས་ན་ཕན།། གང་རུང་ཁམས་ལ་ལྕགས་སྟག་སྤྲེལ། །ཕག་དང་མེ་སྟག་སྤྲེལ་བྱི་བ། །ཆུ་ཡི་གླང་ལུག་ཕག་སྦྲུལ་སྐྱེས། །མཐའ་འགྱེལ་བ་ཞེས་མི་དྲག་འཆི། །སྐྱེས་དར་སྒང་ཤི་འོང་བའི་ཉེན། །དོང་ཙེ་གསང་བ་ཀུན་འདུས་བྱ། །དར་སྲི་རྒྱ་མའི་མནན་པ་གནད།། ཤིང་ཁམས་པ་ལ་ལྕགས་སྟག་སྐྱེས། །མེ་ཁམས་པ་ལ་ཆུ་སྦྲུལ་སྐྱེས། །ས་ཁམས་པ་ལ་ཤིང་ལུག་སྐྱེས། །ལྕགས་ཁམས་པ་ལ་མེ་སྤྲེལ་དང་། །ཆུ་ཁམས་ས་ཕག་སྐྱེས་པ་རྣམས། །གཟེར་ཆགས་ཡུལ་ལ་འཕོ་སྐྱས་འོང་། །མི་རྟའི་སྟོང་འབབ་ནོར་མི་བརྟན། །གཡོ་འཁྲུག་གུང་ཕུར་རྒན་སྲི་མནན། །རྒྱ་མའི་ལན་སྐྱོན་ངོས་བཟུང་ཕྱིར། །སྲིད་པའི་འདྲེ་རྩ་བརྒྱད་སྦྱར་ཏེ། །ཡུགས་མ་ལྷ་ཡི་ཆུང་སྲིས་གཅིག །འཁོན་བྱུར་སྣ་འདྲེན་དེ་དང་གཉིས། །དམེ་རུས་བཙའ་ཕྱི་དེ་དང་གསུམ། །མཛོ་བདུད་ཐན་[པ]་བཞི་ནལ་མུན་དང་། །ལྔའོ་མཛེ་བོང་ཅན་དང་དྲུག །མོ་སྲི་ཡུགས་བདུན་འཁོན་མནའ་དང་། །བརྒྱད་དོ་ཡུགས་མ་ལྷའི་ཆུང་སྲི། །ལི་ལ་ཡོད་དོ་ཁོན་བྱུར་སྣ། །འདྲེན་ལ་དམེ་རུས་བཙའ་ཕྱི་དྭ། །མཛོ་བདུད་ཐན་པ་ཁེན་ལ་ཡོད། །ནལ་མུན་མདུང་ཐུང་ཁམ་ཡིན་ཏེ། །མཛེ་བོང་སོ་ཅན་གིན་དུ་འདོད། །ཡུགས་མིའི་གཉའ་གནོན་ཟིན་ལ་ཡོད། །མནའ་མི་གྲངས་ཀྱི་གཅོད་རྡོ་ཟོན།།
+
+(The first syllables of the opening line are the end of the group
+before and are not quoted further.) The scan has «ལི་ལ་ཡོད་དོ»,
+«ཁོན་བྱུར་སྣ» and the closing «ཟོན», the trigram *zon* (Yigdzin-1 ཐོན),
+so the eight seats run *li*, *khon*, *dwa*, *khen*, *kham*, *gin*, *zin*,
+*zon*, one for each root in the order of the count: the widow god's
+*chung sri* (first) on *li*, the *'khon byur sna 'dren* on *khon*, the
+*dme rus btsa' phyi* on *dwa*, the *mdzo bdud than pa* on *khen*, the *nal
+mun* (*mdung thung*) on *kham*, the *mdze bong* (*so can*) on *gin*, the
+*yugs mi'i gnya' gnon* (the *mo sri yugs*, seventh) on *zin*, and the oath's cutting stone (*'khon mna'*, eighth) on *zon*. On the
+scan, then, «བརྒྱད་དོ» closes the count, as the notes read it; the line
+does not count the widow god's *chung sri* eighth. Also read on the
+scan: «ཆུ་སྦྲུལ» (the fire clan's water snake), and «གསང་བ་ཀུན་འདུས»,
+the "all-gathered secret" coin rite.
 
 ### Vol. 1, p. 382 (img. 392): the *'phung sri* that robs wealth
 
@@ -806,7 +851,7 @@ with it.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,
   p. 242); «ལྡོང» read «ལྡང» (vol. 2, p. 15); «སྒོས་སྲིད» read «སྒོས་སྲི» beside
   «སྤྱི་སྲི» (vol. 2, p. 55); «ཆུང་སི། ལ་ཡོད» read «ཆུང་སྲི་ལི་ལ་ཡོད» by the notes
-  (vol. 1, p. 301). Left as printed: «གོང་སྲི», probably «གོད་སྲི» (vol. 2,
+  (vol. 1, p. 301; confirmed on the scan, O10f, 2026-10-14: «ལི་ལ་ཡོད་དོ»). Left as printed: «གོང་སྲི», probably «གོད་སྲི» (vol. 2,
   p. 8; vol. 1, p. 414).
 - Doubt: vol. 1, p. 382: which count of power pebbles brings the
   *'phung sri* (the etext lost it; two black by the order); the line
