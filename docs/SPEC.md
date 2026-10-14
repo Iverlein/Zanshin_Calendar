@@ -1311,14 +1311,21 @@ This is the Chinese-derived lunisolar calendar Japan used until 1872. Neither
 it nor rokuyō is Shinto, which is why the original draft's "Shinto" label is
 gone; the screen calls the panel 旧暦.
 
-**What the page is for** (the owner, 2026-10-12): not a reproduction of the
-almanac as it is printed in Japan today, but an almanac on the old rules
-and readings, of use to a present-day practitioner of onmyōdō, Shinto or
-Shingon, ideally to all three — as the Tibetan page is the White Beryl's
-almanac, not a modern calendar's. The old rules and readings are the
-standard; the rules below come from modern digests of them, and which old
-texts rank first among the sources is open (ROADMAP K3; the review of
-2026-10-12 in [sources/kyureki.md](sources/kyureki.md)).
+**What the page is for** (the owner, 2026-10-12 and 2026-10-14): an
+almanac of use to a present-day practitioner of onmyōdō, Shinto or
+Shingon, ideally to all three, on the old rules and readings — as the
+Tibetan page is the White Beryl's almanac. Its **frame** is the set of
+annotations the traditional almanac printed in Japan today carries (the
+神宮館高島暦 and its kind: 干支, 九星, 六曜, 十二直, 二十八宿, 下段, 選日,
+the year's direction gods), because that is what a practitioner reads
+today and because the annotations that ever existed are far more than any
+living practice; the calendar the shrines hand out with the 神宮大麻, the
+神宮暦, carries none of them on purpose. Within that frame the old texts
+(the expert's advice: the 暦林問答集 before the 簠簋内伝) give the readings
+and correct the digests; an annotation the almanac has dropped is not
+revived from them (the expert, 2026-10-14; [sources/kyureki.md](sources/kyureki.md),
+*Her second answer*). The rules below come from modern digests of the old
+rules; which old text speaks first where they differ is ROADMAP K3.
 
 ### 7.1 Rules
 

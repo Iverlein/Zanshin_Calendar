@@ -318,3 +318,69 @@ checked here. What follows from it is ROADMAP K1–K5.
    K, *Owner decisions*): the dossier mixes term translations, calendar
    rules, rare annotations and direction gods, and she asks for the
    emphasis.
+
+### Her second answer (2026-10-14): the frame is the printed almanac
+
+Told that the page is an almanac on the old rules for a present-day
+practitioner, she answered that she had assumed the app would rest on the
+traditional almanacs still printed in Japan, and that a reconstruction
+has no bound: the calendar annotations that ever existed are «неприлично
+много», many archaic ones (she names 天一, the 天一天上) are not used
+today, and some are reckoned otherwise today than in the fourteenth
+century (she names 歳徳神). A present-day Shinto practitioner takes the
+calendar handed out at the shrines; an onmyōdō practitioner the same,
+the tradition having reached today «в полуживом состоянии»; of Shingon
+she does not know («там вообще отдельная песня»).
+
+**What the shrines hand out, checked the same day.** Two unrelated
+things carry the name.
+
+- **神宮暦**, issued by the 神宮司庁 of Ise and distributed by the 神社本庁
+  through every shrine with the 神宮大麻, is the heir of the official
+  本暦 of 1883–1945. It holds the day list, the weekdays, the national and
+  shrine festivals, the 二十四節気 and 雑節, the 干支, the moon's age, the
+  旧暦 date, sun, moon and tide times and farming notes, in a 大暦 and a
+  小暦; the 六曜 come as a separate sheet. Every luck annotation is left
+  out on purpose since 1883 — Ise calls it the only «正暦» that
+  «迷信的記述を排除し、科学的情報のみを記述», and Japanese Wikipedia says
+  the 暦注 of luck and the 六曜 are «本暦からは現在も一切排除». Paper only,
+  from the local shrine; no online edition.
+  (https://www.isejingu.or.jp/about/jingutaima/,
+  https://ja.wikipedia.org/wiki/神宮暦,
+  https://fukushima-jinjacho.or.jp/monoshiri/pc/section14.html.)
+- **The commercial almanacs** sold at shrines and shops, above all the
+  神宮館高島暦 (神宮館 with the 高島易断所本部; unrelated to Ise, as
+  Wikipedia notes) and its 家庭暦 and 運勢暦 siblings, are what "the
+  traditional almanac printed today" means. The 令和8年 edition's day
+  column carries 干支, 九星, 六輝, 中段 (the 十二直), 二十八宿 and 下段, and
+  its front matter the 方位吉凶図, the 八将神 and 金神, a 二十八宿吉凶表
+  and the 下段's explanation (the publisher's and Kinokuniya's listings:
+  https://jingukan.co.jp/fortune-home/,
+  https://www.kinokuniya.co.jp/f/dsg-01-9784867711965). Paper and a paid
+  e-book, about 2,420 yen; not freely readable online. Its table of
+  contents does not name 天一天上 or 歳徳神; whether its day column prints
+  them is K4's.
+
+**Online.** No shrine publishes its calendar as a page or a PDF. The
+calendar sites reproduce the commercial almanacs' set: こよみのページ
+(koyomi8.com, the app's vector source), rekichu.com, and
+takao-hospital.net/koyomi, which says it is «高島暦にもとづく». On
+2026-10-14 the three agreed (赤口; 閉; 軫; 九紫; 神吉日 and 大明日;
+一粒万倍日 and 八専), so koyomi8 stands for the printed almanac well
+enough for the rules; rekichu.com shows no 天一天上 that day. The NDL's
+digital collections hold the pre-war 略本暦 (e.g. 明治13年, pid 2535376,
+open on the internet) and the 大小暦 albums
+(https://www.ndl.go.jp/koyomi/collection/index.html): the official line,
+not the luck annotations. shrineheritager.com, which the owner asked
+about, is a shrine-pilgrimage blog (実践和學 Cultural Japan heritage:
+延喜式内社 by prefecture, explainers on 新嘗祭, 祈年祭, 例祭, 紙垂, 狛犬),
+with nothing on calendars; its festival pages may help K2's names.
+
+**What follows** (the owner, 2026-10-14: adjust the plan): the frame of
+the 旧暦 page is the set of annotations the almanac printed today carries
+— what the app already shows — and the old texts are read for the
+readings and the corrections, not for annotations the almanac has
+dropped (SPEC §7; ROADMAP K3, D8). Her two examples become K4 claims: whether
+天一天上 is printed today, and how today's 歳徳神 differs from the old
+reckoning. A paper 高島暦 is the reference to check the page against
+(ROADMAP D12).
