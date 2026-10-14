@@ -164,7 +164,7 @@ written down as a dead end (sources/PLAN.md).
 | <a id="o7"></a>O7 | The weekdays' verses, by machine with corrections, not by eye syllable by syllable — done 2026-10-13 (pp. 308–312 read by eye on the scan, with WBZ img. 1058–1064 and the Gser thang reprint for the doubtful stacks; all seven verses and the closing verse quoted in full with their illness, theft, remedy and war lines; for a build ([T2.28](#t2-28), block [50](#block-50)), Tuesday's good list gains "saddling horses and mules" («སྒ་རྒྱག», the same stack as Wednesday's «རྟ་དྲེལ་སྒ་རྒྱག»; the vowel of rgyag cannot be told) in weekdays.md, *O7: what the reading by eye changes*; Wednesday's «དུར་?ོ» stays out, unsettled; questions 132–138) | [weekdays.md](sources/weekdays.md) | T2 |
 | <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable — done 2026-10-12 (pp. 223–226 read by eye on the scan, with the Gser thang reprint at 1905 px and WBZ for the doubtful stacks; every seat, hearth god and witness stands; for a build ([T2.28](#t2-28), block [50](#block-50)), the horse day's witness adds "on the journey with the corpse no horse, the funeral door and the horse's back avoided" in earth-lords.md, *O8: what the reading by eye changes*; the chief earth lord's forms and remedy and the other remedies quoted in full; questions 120–125) | [earth-lords.md](sources/earth-lords.md) | T2 |
 | <a id="o9"></a>O9 | The four times of Māra's manual — done 2026-10-13: three manuals read on the scan (Rin chen gter mdzod vol. 54 p. 235, Sgrub thabs kun btus vol. 8 p. 698, Gdams ngag mdzod vol. 2 pp. 121–122): the four are midnight, noon and the rays of the rising and setting sun, moments not spans; the Red Tārā manual makes them the breaks between sessions; questions 126–131 | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
-| <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file — begun 2026-10-13 in four parts, stopped at the usage budget: **done** yogas, lunar-dates, nectar-periods, karanas, lunar-day-signs (the goddesses), mansions, mansion-verses (all 28 verses whole), kun-phan-me-long, almanac-page (WB vol. 1 pp. 173–182 whole), year-of-life, reckonings (its outlines stay outlines); great-black-day needs nothing; resumed 2026-10-14 in three parts e–g: **done** (O10e, 2026-10-14) combinations (the table pp. 148–149 typed), rahu (KP's chart img. 78, its numeral square open, question 148), combination-period (Capricorn's good list, for a build in [T2.28](#t2-28)), burning-dates, day-letters, personal-mansions, hair-dates, day-animals; **done** (O10g, 2026-10-14) marriage (the match pp. 351–364 whole, the notes pp. 523–525), month-entries (the 65-year table whole; Kikang's time doubtful, D13 in [T2.28](#t2-28)), health, year-month-earth-lords; **left** white-beryl-ch33, kp-activities (Yigdzin-1 of every KP half-folio in scratch o10b/kphalf-y), earth-lord-courses, earth-lords, tibetastromed, white-beryl-ch34, sri; the readers' surveys in `~/ai/tibetan-ocr/scratch/o10{a,b,c,d}/`; questions 139–152; for the owner ([T2.28](#t2-28), D11): lunar date 6's "no further children" rests on a «མེད» the scan does not print, date 1 reads «ལམ་ཞུགས་རྟེན», date 3 «གང་བསྟུད» (questions 141–143) | [sources/README.md](sources/README.md)'s index | all |
+| <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines — done 2026-10-14: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file — begun 2026-10-13 in four parts, stopped at the usage budget: **done** yogas, lunar-dates, nectar-periods, karanas, lunar-day-signs (the goddesses), mansions, mansion-verses (all 28 verses whole), kun-phan-me-long, almanac-page (WB vol. 1 pp. 173–182 whole), year-of-life, reckonings (its outlines stay outlines); great-black-day needs nothing; resumed 2026-10-14 in three parts e–g: **done** (O10e, 2026-10-14) combinations (the table pp. 148–149 typed), rahu (KP's chart img. 78, its numeral square open, question 148), combination-period (Capricorn's good list, for a build in [T2.28](#t2-28)), burning-dates, day-letters, personal-mansions, hair-dates, day-animals; **done** (O10g, 2026-10-14) marriage (the match pp. 351–364 whole, the notes pp. 523–525), month-entries (the 65-year table whole; Kikang's time doubtful, D13 in [T2.28](#t2-28)), health, year-month-earth-lords; **done** (O10f, 2026-10-14) kp-activities (every box's Tibetan, the differences for a build in [T2.28](#t2-28)), white-beryl-ch33 (an inventory, nothing to write out), earth-lord-courses, earth-lords, tibetastromed, white-beryl-ch34 (works 51–65 machine reading), sri; questions 139–157; for the owner ([T2.28](#t2-28), D11): lunar date 6's "no further children" rests on a «མེད» the scan does not print, date 1 reads «ལམ་ཞུགས་རྟེན», date 3 «གང་བསྟུད» (questions 141–143) | [sources/README.md](sources/README.md)'s index | all |
 
 ## 旧暦 page
 
@@ -1266,6 +1266,34 @@ verdict, and the owner's decisions of 2026-10-10:
     ༡༣ in column 25, the desired part ༧ in column 18), like-shaped digit
     slips on both scans. `MonthEntriesTest`'s values are the rule's and
     stay; its comment, "read on the scan", says the print's slips instead.
+  - **KP's boxes on the scan** ([O10](#o10),
+    [kp-activities.md](sources/kp-activities.md), every bullet *The scan
+    (O10f) reads otherwise*): box 18 names no khrums in its bad half
+    (khrums smad good, the trigram *khon* bad); box 21's good dates 1, 6,
+    14, 16, 25, 26 and bad 11, 22, 24 (question 153; its «བྱི» the mouse
+    road, not a Mouse day); box 22's 14th on both sides; boxes 28 (Wednesday,
+    Thursday), 30 (Friday) and 54 (Sun, Moon) bracketed, neither side; box
+    35's bad khrums is khrums smad; box 37's bad half adds the Dog and Tiger
+    days and li and khen; box 48's good mansion sa ga, lag bad; box 55's
+    mansion lists as the file gives them, KP and KP2 alike; box 56's gro
+    bzhin neither and the Tiger day bad; box 33 adds the link 'du byed, box
+    49 snron, box 57 sme ba 5, all good.
+  - **Ch. 34 beside KP's boxes** ([O10](#o10),
+    [white-beryl-ch34.md](sources/white-beryl-ch34.md), *The chapter's lists
+    whole (O10f)*): where a box is unread or reads otherwise, WB's work
+    gives it: work 3 the Mouse day good; work 14 box 16's three month dates
+    (11th month 27th, 12th 25th, 1st 23rd, bad), the bad run 16–19 and the
+    good dates (question 156); work 29 box 32's «མི་གཡང་བཟང»; work 30 box
+    31's khrums smad; work 31 box 33's second date the 22nd; work 32's good
+    sme ba 4 for box 34's 9; work 36 box 39's dates; work 38 bra nye good
+    only for taking a widow into service; work 46 box 44's dates; work 49
+    KP2 box 51's dates. Which reading the app takes where WB and KP differ
+    follows WB above all (SPEC §8).
+  - **The eight classes' first spring month** ([O10](#o10),
+    [earth-lord-courses.md](sources/earth-lord-courses.md), section 28):
+    p. 232 reads «སྦྲུལ་ཐེབས་བཅོ་ལྔའི་ཚེས་ལའང་ཐེབས»; `reading.EarthLord.SDE_BRGYAD`'s
+    "and on the 15th too" gains "at the snake hour", the Russian to match.
+    No date changes.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
@@ -1292,7 +1320,8 @@ verdict, and the owner's decisions of 2026-10-10:
   keeps a block until every entry is built; the readings' launcher does
   it while bookkeeping (sources/PROTOCOL.md).
 - **Block.** [50](#block-50); reads [O1](#o1), [O2](#o2), [O3](#o3),
-  [O7](#o7), [O8](#o8); D11 for the three lunar dates. [43](#block-43)
+  [O7](#o7), [O8](#o8), [O10](#o10); D11 for the three lunar dates, D13
+  for Kikang's time. [43](#block-43)
   (X3, X4) and [46](#block-46) (X7) reword these readings and build on
   it.
 - **Done when.** A test pins each changed list to its topic file;

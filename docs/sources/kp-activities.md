@@ -1281,17 +1281,7 @@ the good of both halves, not the bad.
 
 ## Open (O10f, 2026-10-14)
 
-What the boxes' Tibetan, written out above, leaves open:
-
-- Question: box 21 (KP BDRC img. 36) prints «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན»
-  in its bad half: does "bad for breaking in oxen" qualify the three dates
-  alone, or are they bad for the whole box?
-- Question: box 10 (img. 28) calls Friday, Thursday, the Sun and the Moon
-  together «གསོན་སྟོན་མཆོག་ཤིད་སྟོན་ངན» (best for feasts of the living, bad for
-  funeral feasts): is the qualifier meant for all four, so that none is
-  plainly good for feasts?
-- Question: box 37 (img. 48) has «ཡུག་མ» before «སྐྲ་ཁྲུས་བཟང» in its bad
-  half: a name or a word cut by the line?
+- Open questions 153–155 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 

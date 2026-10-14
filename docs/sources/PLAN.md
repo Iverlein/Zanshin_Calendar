@@ -494,3 +494,9 @@ Searched and found wanting, so not to be repeated:
 - **Mipham's *Treatise on Passion*, img. 547** (O10, 2026-10-14): one folio
   side in a single band at 2428 px; the line on the mansions to avoid is
   not readable by eye at the scales tried and stays machine text.
+- **KP's small numerals and KP2's photograph** (O10, 2026-10-14): box 33's
+  second good date (img. 42) stays ༢༡ or ༣༡ at 4×; the numerals under box
+  16's three «ཟླ་ཚེས» (img. 33) are too small at 5× (WB's work 14 gives
+  them); KP2's boxes 50 and 51 (img. 278–279) are too dim to read syllable
+  by syllable and stand as the machine reading; KP2 img. 264, box 34's
+  numeral against WB's «བཞི་ལྗང», was not read.

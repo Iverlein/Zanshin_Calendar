@@ -1194,3 +1194,31 @@ the text, not about the app.
      what does the print have, and what does it mean there? (2026-10-14,
      O10, [marriage.md](marriage.md), "The match")
 
+153. **KP box 21's «གླང་འདུལ་བ་ལ་ངན».** Box 21 (KP BDRC img. 36) prints
+     «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན» in its bad half: does "bad for breaking
+     in oxen" qualify the three dates alone, or are they bad for the whole
+     box? (2026-10-14, O10, [kp-activities.md](kp-activities.md), "Open (O10f)")
+
+154. **KP box 10's feasts.** Box 10 (img. 28) calls Friday, Thursday, the
+     Sun and the Moon together «གསོན་སྟོན་མཆོག་ཤིད་སྟོན་ངན» (best for feasts of
+     the living, bad for funeral feasts): is the qualifier meant for all
+     four, so that none is plainly good for feasts? (2026-10-14, O10,
+     [kp-activities.md](kp-activities.md), "Open (O10f)")
+
+155. **KP box 37's «ཡུག་མ».** Box 37 (img. 48) has «ཡུག་མ» before
+     «སྐྲ་ཁྲུས་བཟང» in its bad half: a name, or a word cut by the line?
+     (2026-10-14, O10, [kp-activities.md](kp-activities.md), "Open (O10f)")
+
+156. **Ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར».** Work 14 (WB vol. 2 p. 395, img. 403)
+     names the good dates «གསུམ་བཞི་ལྔ་དང་བཅུ་བཞི་དང་། །བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར»,
+     and the editors number only the 21st and the 25th; is
+     «ཉེར་གཅིག་ཉེར་ལྔའི་བར» the run 21 to 25, as «དྲུག་ནས་བཅུ་བཞིའི་བར» is 6 to
+     14 in the bad line above? (2026-10-14, O10,
+     [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
+
+157. **KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
+     has the 19th and 29th where KP's box 21 is carved with the shape of
+     KP's own 4 (14, 24); is the box a carving slip for ༡༩, ༢༩, or a
+     reading of its own? (2026-10-14, O10,
+     [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
+

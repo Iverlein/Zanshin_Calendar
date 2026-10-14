@@ -736,8 +736,7 @@ Written out whole in the O2 section below (*2. Learning*); its good dates are «
 
 ### Open (O10f)
 
-- Question: work 14 (p. 395, img. 403) names the good dates «གསུམ་བཞི་ལྔ་དང་བཅུ་བཞི་དང་། །བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར», and the editors number only the 21st and the 25th; is «ཉེར་གཅིག་ཉེར་ལྔའི་བར» the run 21 to 25, as «དྲུག་ནས་བཅུ་བཞིའི་བར» is 6 to 14 in the bad line above?
-- Question: work 9 (p. 390, img. 398) has the 19th and 29th where KP's box 21 is carved with the shape of KP's own 4 (14, 24); is the box a carving slip for ༡༩, ༢༩, or a reading of its own?
+- Open questions 156–157 ([open-questions.md](open-questions.md)).
 
 ### Searched and not found
 
