@@ -3,6 +3,8 @@
     <color name="ink">#FF111311</color>
     <color name="night">#FF000000</color>
     <color name="paper">#FFF5F1E8</color>
+    <color name="maroon">#FF3A1117</color>
+    <color name="sepia">#FFEFE3C8</color>
 
     <!-- Ink, the default (SPEC §10.1). The window is the theme's page before Compose draws (ROADMAP A1). -->
     <style name="Theme.Zanshin" parent="android:Theme.Material.NoActionBar">
@@ -16,11 +18,19 @@
         <item name="android:windowBackground">@color/night</item>
     </style>
 
+    <style name="Theme.Zanshin.Maroon">
+        <item name="android:windowBackground">@color/maroon</item>
+    </style>
+
     <style name="Theme.Zanshin.Paper" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/paper</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Zanshin.Sepia" parent="Theme.Zanshin.Paper">
+        <item name="android:windowBackground">@color/sepia</item>
     </style>
 
     <!-- System: Paper here, Ink in values-night, by the phone's dark setting. -->

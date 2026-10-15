@@ -240,6 +240,10 @@
     <string name="theme_paper_note">Светлая, тёплая страница и тёмный текст</string>
     <string name="theme_night">Ночь</string>
     <string name="theme_night_note">Чёрная, для OLED-экранов</string>
+    <string name="theme_maroon">Бордо</string>
+    <string name="theme_maroon_note">Тёмная, бордовый цвет одеяний с шафраном</string>
+    <string name="theme_sepia">Сепия</string>
+    <string name="theme_sepia_note">Светлая, пергамент для вечера</string>
     <string name="theme_done">Готово</string>
     <string name="menu_about">О приложении и источниках</string>
     <string name="menu_about_subtitle">Формулы, шрифты, GeoNames</string>

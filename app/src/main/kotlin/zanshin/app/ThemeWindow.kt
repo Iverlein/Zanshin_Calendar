@@ -27,6 +27,8 @@ object ThemeWindow {
         AppTheme.INK -> R.style.Theme_Zanshin
         AppTheme.PAPER -> R.style.Theme_Zanshin_Paper
         AppTheme.NIGHT -> R.style.Theme_Zanshin_Night
+        AppTheme.MAROON -> R.style.Theme_Zanshin_Maroon
+        AppTheme.SEPIA -> R.style.Theme_Zanshin_Sepia
     }
 
     private fun ComponentActivity.systemDark(): Boolean =

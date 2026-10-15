@@ -38,6 +38,7 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
@@ -420,11 +421,14 @@ private fun starColour(n: Int): Color = when (n) {
     else -> Color(0xFFA07AC0)
 }
 
-/** A star's dot in its printed colour; the white stars ringed on a light page, where they would vanish. */
+/** A star's dot in its printed colour, ringed where it would vanish on the page ([needsRim]). */
 private fun DrawScope.starDot(n: Int, radius: Float, center: Offset) {
     drawCircle(starColour(n), radius, center)
-    if (Palette.light && (n == 1 || n == 6 || n == 8)) drawCircle(Palette.faint, radius, center, style = Stroke(0.6.dp.toPx()))
+    if (needsRim(starColour(n))) drawCircle(Palette.faint, radius, center, style = Stroke(0.6.dp.toPx()))
 }
+
+/** Whether star [n]'s dot needs a ring to be seen on the theme drawn now. */
+fun starNeedsRim(n: Int): Boolean = needsRim(starColour(n))
 
 /** Lines of a trigram from the top down, true for a whole line. */
 private fun trigramLines(t: Trigram): List<Boolean> = when (t) {
@@ -560,7 +564,8 @@ fun StarBoardDetail(day: KyuSei, size: Dp) {
 
 /**
  * The sme ba colours as printed (Berzin 4), by number, the same on every theme; a box gets a rim where it meets a
- * page of its own lightness ([needsRim]): black on a dark page, white on a light one.
+ * page close to its own lightness ([needsRim]): black on a dark page, white on a light one, and on Sepia's
+ * parchment the yellow too.
  */
 fun smeBaColour(n: Int): Color = when (n) {
     1, 6, 8 -> Color(0xFFF2EFE8)
@@ -571,8 +576,17 @@ fun smeBaColour(n: Int): Color = when (n) {
     else -> Color(0xFFB3322A)
 }
 
-/** Whether the printed box [n] (sme ba or star) is of the page's own lightness and needs a rim to be seen. */
-fun needsRim(n: Int): Boolean = if (Palette.light) n == 1 || n == 6 || n == 8 else n == 2
+/** Whether the printed sme ba box [n] needs a rim to be seen on the theme drawn now. */
+fun needsRim(n: Int): Boolean = needsRim(smeBaColour(n))
+
+/**
+ * Whether a printed colour stands under 1.5:1 against the cells it is drawn in, so close to the page's own
+ * lightness that its box or dot needs a rim to be seen; a rule rather than a list, so each theme rims its own.
+ */
+fun needsRim(printed: Color): Boolean {
+    val (light, dark) = listOf(printed.luminance(), Palette.surface.luminance()).sortedDescending()
+    return (light + 0.05f) / (dark + 0.05f) < 1.5f
+}
 
 /**
  * An element's colour (ROADMAP T3): the hues of the sme ba boxes that stand for it (Berzin 4: iron

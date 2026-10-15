@@ -42,6 +42,8 @@ fun AppTheme.label(): Int = when (this) {
     AppTheme.INK -> R.string.theme_ink
     AppTheme.PAPER -> R.string.theme_paper
     AppTheme.NIGHT -> R.string.theme_night
+    AppTheme.MAROON -> R.string.theme_maroon
+    AppTheme.SEPIA -> R.string.theme_sepia
 }
 
 private fun AppTheme.note(): Int = when (this) {
@@ -49,6 +51,8 @@ private fun AppTheme.note(): Int = when (this) {
     AppTheme.INK -> R.string.theme_ink_note
     AppTheme.PAPER -> R.string.theme_paper_note
     AppTheme.NIGHT -> R.string.theme_night_note
+    AppTheme.MAROON -> R.string.theme_maroon_note
+    AppTheme.SEPIA -> R.string.theme_sepia_note
 }
 
 /**

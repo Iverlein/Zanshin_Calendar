@@ -280,6 +280,10 @@
     <string name="theme_paper_note">Light, a warm page with dark ink</string>
     <string name="theme_night">Night</string>
     <string name="theme_night_note">Black, for OLED screens</string>
+    <string name="theme_maroon">Maroon</string>
+    <string name="theme_maroon_note">Dark, the robe\'s maroon with saffron</string>
+    <string name="theme_sepia">Sepia</string>
+    <string name="theme_sepia_note">Light, a parchment page for the evening</string>
     <string name="theme_done">Done</string>
     <string name="menu_about">About &amp; sources</string>
     <string name="menu_about_subtitle">Formulas, fonts, GeoNames</string>

@@ -109,8 +109,56 @@ val PaperColors = ZanshinColors(
     scrim = Color(0x66000000),
 )
 
+/**
+ * Maroon: the robe's maroon with saffron. Vermilion and saffron sit beside maroon in hue, so the theme carries an
+ * accent pair and a tone set of its own (ROADMAP A1): saffron a brighter gold, the 旧暦 accent and the bad tone
+ * turned towards orange and lightened, each apart from the page in hue as well as lightness.
+ */
+val MaroonColors = ZanshinColors(
+    light = false,
+    ink = Color(0xFF3A1117),
+    surface = Color(0xFF46161D),
+    raised = Color(0xFF521C24),
+    selected = Color(0xFF5A2029),
+    line = Color(0xFF61262F),
+    lineStrong = Color(0xFF77343E),
+    text = Color(0xFFF6EADB),
+    muted = Color(0xFFD4BBAE),
+    faint = Color(0xFFB8998D),
+    off = Color(0xFF7A4A50),
+    saffron = Color(0xFFF4BA4A),
+    vermilion = Color(0xFFFFAC80),
+    good = Color(0xFFB0E0A6),
+    bad = Color(0xFFFFA07C),
+    mixed = Color(0xFFEAC66A),
+)
+
+/**
+ * Sepia: a parchment page for the evening, less blue in it than Paper, with brown ink; the accents and tones
+ * darkened to 4.5:1 on its deeper sheets.
+ */
+val SepiaColors = ZanshinColors(
+    light = true,
+    ink = Color(0xFFEFE3C8),
+    surface = Color(0xFFE6D8BA),
+    raised = Color(0xFFDCCCAB),
+    selected = Color(0xFFD4C3A0),
+    line = Color(0xFFD2C29F),
+    lineStrong = Color(0xFFB5A27E),
+    text = Color(0xFF2A1F12),
+    muted = Color(0xFF5A4A35),
+    faint = Color(0xFF6C5C45),
+    off = Color(0xFFB09F7E),
+    saffron = Color(0xFF7E4C00),
+    vermilion = Color(0xFF9C3418),
+    good = Color(0xFF2A4A14),
+    bad = Color(0xFF9E2A14),
+    mixed = Color(0xFF5E4500),
+    scrim = Color(0x66000000),
+)
+
 /** The themes offered in Settings (SPEC §10.5), by the owner's names (D5); System follows the phone's dark setting. */
-enum class AppTheme { SYSTEM, INK, PAPER, NIGHT }
+enum class AppTheme { SYSTEM, INK, PAPER, NIGHT, MAROON, SEPIA }
 
 /** The colours [theme] draws with, [systemDark] deciding System between Ink and Paper. */
 fun AppTheme.colors(systemDark: Boolean): ZanshinColors = when (this) {
@@ -118,6 +166,8 @@ fun AppTheme.colors(systemDark: Boolean): ZanshinColors = when (this) {
     AppTheme.INK -> InkColors
     AppTheme.PAPER -> PaperColors
     AppTheme.NIGHT -> NightColors
+    AppTheme.MAROON -> MaroonColors
+    AppTheme.SEPIA -> SepiaColors
 }
 
 /**
