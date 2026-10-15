@@ -44,6 +44,7 @@ import zanshin.core.tibetan.Yoga
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Harsh
+import zanshin.core.tibetan.KinObstacle
 import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.Sector
@@ -240,10 +241,14 @@ object Sources {
     )
     /** Vol. 1, chapter 21's signs of the years of life and chapter 24, the obstacle years (SPEC §5.9, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–416", volume = 1)
-    /** The sectors' ranks and pebbles, the trigrams' elements (docs/sources/year-of-life.md). */
+    /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
+    val WHITE_BERYL_BIRTH = whiteBeryl("chapter 22, pp. 261 and 286–288, with the notes in vol. 2, p. 476", volume = 1)
+    /** Vol. 1, chapter 24's obstacles that need a spouse's, a parent's or a son's signs (ROADMAP P2, docs/sources/year-of-life.md, RD14). */
+    val WHITE_BERYL_KIN_OBSTACLES = whiteBeryl("chapter 24, pp. 388, 390 and 409, with the notes in vol. 2, p. 492", volume = 1)
+    /** The sectors' ranks and pebbles, the trigrams' elements, the natal trigram's count (docs/sources/year-of-life.md). */
     val MOONBEAMS = Source(
         "The Moonbeams (འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར, 'Byung rtsis man ngag zla ba'i 'od zer) of Lochen Dharmaśrī (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen d+har+ma shrI), " +
-            "in the Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 3, pp. 493, 496 and 507, " +
+            "in the Great Collection of Tibetan Astrology (བོད་ཀྱི་རྩིས་རིག་ཀུན་འདུས་ཆེན་མོ, Bod kyi rtsis rig kun 'dus chen mo), vol. 3, pp. 493–494, 496 and 507, " +
             "Sichuan Nationalities Publishing House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང, si khron mi rigs dpe skrun khang), Chengdu 1998",
         "BDRC MW28845",
         "https://library.bdrc.io/show/bdr:MW28845",
@@ -1649,6 +1654,14 @@ object Texts {
     fun mewaObstacle(o: SmeBaObstacle): Reading = yearOfLife("MewaObstacle", o.name)
 
     fun yearTrigram(t: Trigram): Reading = yearOfLife("YearTrigram", t.name)
+
+    /** What the natal trigram brings the one born on it (WB vol. 1, ch. 22, pp. 286–288). */
+    fun natalTrigram(t: Trigram): Reading =
+        Reading(key = "reading.NatalTrigram", arg = "reading.NatalTrigram.${t.name}", source = Sources.WHITE_BERYL_BIRTH, also = listOf(Sources.MOONBEAMS))
+
+    /** An obstacle of the year that comes with a spouse's, a parent's or a son's signs (WB vol. 1, ch. 24, pp. 388, 390, 409). */
+    fun kinObstacle(o: KinObstacle): Reading =
+        Reading(key = "reading.KinObstacle", arg = "reading.KinObstacle.${o.name}", source = Sources.WHITE_BERYL_KIN_OBSTACLES)
 
     /** The mewa of each natal group and the year's mewa its readings name (pp. 405–408); a natal mewa of the three whites is "W". */
     val YEAR_MEWA: Map<String, List<String>> = mapOf(

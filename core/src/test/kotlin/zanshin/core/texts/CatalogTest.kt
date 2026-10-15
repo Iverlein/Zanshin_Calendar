@@ -48,6 +48,7 @@ import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
 import zanshin.core.tibetan.BasicSign
 import zanshin.core.tibetan.HarshYear
+import zanshin.core.tibetan.KinObstacle
 import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Sector
 import zanshin.core.tibetan.SmeBaObstacle
@@ -76,7 +77,7 @@ class CatalogTest {
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
             StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries, LetterElement.entries, SenseObject.entries, LifeStage.entries, Link.entries,
-            BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries, ReadingRow.entries,
+            BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries, KinObstacle.entries, ReadingRow.entries,
             ElementQuarter.entries, GraveMansion.entries, Humour.entries, MedicalSeason.entries, LaHour.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
@@ -144,14 +145,19 @@ class CatalogTest {
             Texts.yearMewa(r.natalSmeBa, r.currentSmeBa)?.let { out += it }
         }
         for (f in Force.entries + listOf(null)) for (w in listOf(true, false)) out += Texts.yearPredictive(f, w)
+        Trigram.entries.forEach { out += Texts.natalTrigram(it) }
+        KinObstacle.entries.forEach { out += Texts.kinObstacle(it) }
         return out.toList()
     }
 
     /** No text of the year of life is left that no reckoning shows. */
     @Test
     fun `every text of the year of life is shown`() {
-        val shown = yearOfLifeReadings().flatMap { listOfNotNull(it.key, it.arg) }.toSet()
-        val families = listOf("YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa")
+        val shown = yearOfLifeReadings().flatMap { r -> listOfNotNull(r.key, r.arg) + r.rows.map { "${r.rowKey}.${it.first.key}" } }.toSet()
+        val families = listOf(
+            "YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
+            "NatalTrigram", "KinObstacle",
+        )
         val written = english.keys.filter { k -> families.any { k == "reading.$it" || k.startsWith("reading.$it.") } }
         assertEquals(emptyList<String>(), written.filter { it !in shown }.sorted())
     }
@@ -459,6 +465,8 @@ class CatalogTest {
                 "BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut", "YearPebble", "YearPredictive", "YearSector", "YearDecline",
                 "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
             ),
+            // The year of age's readings with relatives (block 29), written in the shape: no allowance.
+            "P2" to listOf("NatalTrigram", "KinObstacle"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
@@ -481,7 +489,7 @@ class CatalogTest {
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 22, // the hours panel (block 48)
-            "X10" to 174, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words; the links in the shape (block 24)
+            "X10" to 173, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words; the links in the shape (block 24); the harsh years' note without the app (block 29)
         )
     }
 }
