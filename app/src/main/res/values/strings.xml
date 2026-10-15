@@ -540,6 +540,17 @@
     <string name="haircut_date_agrees">the date\'s own day, in agreement</string>
     <!-- %1$s is the factor that outweighs it -->
     <string name="haircut_date_outweighed">the date\'s own day, outweighed by %1$s</string>
+    <!-- the Haircut row on today's page, in the hour now (SPEC §10.3): "good until 23:00 · by Pisces rising"; %1$s brief_good or brief_avoid, %2$s the clock time the side changes or the day ends, %3$s the factor that decides -->
+    <string name="haircut_now">%1$s until %2$s · by %3$s</string>
+    <!-- the combination period deciding a haircut: %1$s the rising sign -->
+    <string name="haircut_by_rising">%1$s rising</string>
+    <string name="haircut_note_hours">Within its hour the combination period outweighs every factor of the day; in the hours whose period does not name haircuts the day\'s weighing stands.</string>
+    <!-- %1$s the sign rising now -->
+    <string name="haircut_note_now">Now %1$s rises, and within its hour the combination period outweighs every factor of the day; in the hours whose period does not name haircuts the day\'s weighing stands.</string>
+    <!-- %1$s the sign rising now, whose period names no haircuts -->
+    <string name="haircut_note_now_unnamed">Now %1$s rises, and its combination period does not name haircuts, so the day\'s weighing stands.</string>
+    <string name="haircut_hours_good">Good hours</string>
+    <string name="haircut_hours_bad">Hours to avoid</string>
     <!-- V3 diagrams of the Tibetan rows (SPEC §10.7) -->
     <string name="desc_combination_table">The 28 named combinations of weekday and mansion, today\'s marked</string>
     <string name="combination_table_axes">Rows: the weekday · columns: the mansion, Aśvinī first</string>

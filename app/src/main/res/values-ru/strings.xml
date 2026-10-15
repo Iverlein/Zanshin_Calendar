@@ -443,6 +443,13 @@
     <string name="haircut_note">Взвешено одним правилом: решает сильнейший фактор, называющий стрижку; сегодня: %1$s.</string>
     <string name="haircut_date_agrees">собственный день даты, совпадает</string>
     <string name="haircut_date_outweighed">собственный день даты, перевешен: %1$s</string>
+    <string name="haircut_now">%1$s до %2$s · решает: %3$s</string>
+    <string name="haircut_by_rising">восходит %1$s</string>
+    <string name="haircut_note_hours">В свой час период сочетания перевешивает все факторы дня; в часы, чей период не называет стрижку, в силе взвешивание дня.</string>
+    <string name="haircut_note_now">Сейчас восходит %1$s, а в свой час период сочетания перевешивает все факторы дня; в часы, чей период не называет стрижку, в силе взвешивание дня.</string>
+    <string name="haircut_note_now_unnamed">Сейчас восходит %1$s, и его период сочетания не называет стрижку, поэтому в силе взвешивание дня.</string>
+    <string name="haircut_hours_good">Благоприятные часы</string>
+    <string name="haircut_hours_bad">Неблагоприятные часы</string>
     <string name="desc_combination_table">28 именных сочетаний дня недели и созвездия, отмечено сегодняшнее</string>
     <string name="combination_table_axes">Строки — день недели · столбцы — созвездие, с Ашвини</string>
     <string name="desc_lunar_dates">Тридцать лунных дат по пяти классам</string>

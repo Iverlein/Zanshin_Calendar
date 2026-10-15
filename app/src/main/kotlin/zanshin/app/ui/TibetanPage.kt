@@ -53,7 +53,9 @@ import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.DayFactor
 import zanshin.core.texts.DaySummary
+import zanshin.core.texts.HoursShortForm
 import zanshin.core.texts.Texts
+import zanshin.core.texts.WorkInHour
 import zanshin.core.texts.gloss
 import zanshin.core.texts.toneOf
 import zanshin.core.texts.sharedTone
@@ -96,6 +98,7 @@ import zanshin.core.tibetan.Thl
 import zanshin.core.tibetan.DayTimes
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.element
+import zanshin.core.tibetan.risingSign
 
 private enum class TibetanBalloon { MONTH, YEAR }
 
@@ -260,17 +263,55 @@ fun TibetanPage(
         val haircutTitle = stringResource(R.string.tib_haircut)
         // The haircut as the brief weighs it (SPEC §5.12): the side, and the factors standing on it, strongest first.
         val haircutSide = summary.sideOf(Activity.HAIRCUTS)
-        val haircutTone = haircutSide?.first
         val haircutStanding = haircutSide?.second.orEmpty()
-        val haircutBy = haircutStanding.firstOrNull()?.let { by ->
-            stringResource(R.string.haircut_by, stringResource(if (haircutTone == Tone.GOOD) R.string.brief_good else R.string.brief_avoid), by.kanji)
+        // The haircut in the moment (SPEC §10.3): within its hour the combination period outweighs every factor of
+        // the day (§5.13), so on today's page the row gives the side in the hour now, and the day's weighing only in
+        // the hours whose period does not name haircuts. Not on the person's day of avoidAll, which no hour outweighs.
+        val haircutHours = remember(summary, day.month) { if (summary.avoidAll.isEmpty()) summary.inHours(Activity.HAIRCUTS, day.month) else null }
+        val haircutNow = currentHour?.let { haircutHours?.get(it) }
+        val haircutShown = haircutNow ?: haircutSide?.let { (tone, standing) -> WorkInHour(tone, null, standing) }
+        val haircutTone = haircutShown?.tone
+        val haircutDecider = haircutShown?.let { w -> w.sign?.let { stringResource(R.string.haircut_by_rising, it.english) } ?: w.standing.firstOrNull()?.kanji }
+        val haircutSideWord = stringResource(if (haircutTone == Tone.GOOD) R.string.brief_good else R.string.brief_avoid)
+        val haircutBy = haircutDecider?.let { by ->
+            if (haircutNow != null && currentHour != null) {
+                // Until the hour the side changes, at the latest the day's end at 05:00.
+                var last = currentHour
+                while (last < 11 && haircutHours?.get(last + 1)?.tone == haircutNow.tone) last++
+                stringResource(R.string.haircut_now, haircutSideWord, "%02d:00".format(HoursShortForm.startHour(last + 1)), by)
+            } else {
+                stringResource(R.string.haircut_by, haircutSideWord, by)
+            }
         }
-        val haircutWhy = stringResource(R.string.haircut_note, haircutStanding.joinToString(" · ") { it.kanji })
+        val haircutDayNote = stringResource(R.string.haircut_note, haircutStanding.joinToString(" · ") { it.kanji })
+        val haircutWhy = when {
+            haircutHours == null -> haircutDayNote
+            haircutNow == null || currentHour == null -> stringResource(R.string.haircut_note_hours) + " " + haircutDayNote
+            else -> {
+                val rising = risingSign(day.month, currentHour).english
+                stringResource(if (haircutNow.sign != null) R.string.haircut_note_now else R.string.haircut_note_now_unnamed, rising) + " " + haircutDayNote
+            }
+        }
+        // The hours on either side, consecutive hours of one side joined ("15:00–23:00").
+        val haircutHourSpans = haircutHours?.let { hours ->
+            val runs = mutableListOf<Triple<Tone, Int, Int>>()
+            hours.forEachIndexed { h, w ->
+                val tone = w?.tone ?: return@forEachIndexed
+                val last = runs.lastOrNull()
+                if (last != null && last.first == tone && last.third == h) runs[runs.lastIndex] = last.copy(third = h + 1) else runs += Triple(tone, h, h + 1)
+            }
+            fun spans(tone: Tone) = runs.filter { it.first == tone }
+                .joinToString(", ") { (_, from, to) -> "%02d:00–%02d:00".format(HoursShortForm.startHour(from), HoursShortForm.startHour(to)) }
+            listOf(
+                stringResource(R.string.haircut_hours_good) to spans(Tone.GOOD),
+                stringResource(R.string.haircut_hours_bad) to spans(Tone.BAD),
+            ).filter { it.second.isNotEmpty() }
+        }.orEmpty()
         val haircutDateTone = if (day.day in Texts.HAIRCUT_GOOD) Tone.GOOD else Tone.BAD
         val haircutDateTitle = stringResource(R.string.haircut_day, day.day, Catalog.text(Texts.HAIRCUT[day.day - 1].arg!!))
         val haircutDateNote = when {
-            haircutTone == null || haircutTone == haircutDateTone -> stringResource(R.string.haircut_date_agrees)
-            else -> stringResource(R.string.haircut_date_outweighed, haircutStanding.first().kanji)
+            haircutTone == null || haircutDecider == null || haircutTone == haircutDateTone -> stringResource(R.string.haircut_date_agrees)
+            else -> stringResource(R.string.haircut_date_outweighed, haircutDecider)
         }
         val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
         val yogaSubtitle = stringResource(R.string.tib_yoga_subtitle, day.yoga.english)
@@ -653,8 +694,8 @@ fun TibetanPage(
             )
         }
         // Works (ROADMAP U6): a work's verdict, not a voice, so apart from the Almanac and before it. The haircut
-        // weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3); FPMT's day for the date is one of the date's
-        // lists, shown in the sheet as such, outweighed where it is (T2.15).
+        // weighed as the brief weighs it (ROADMAP T2.1, SPEC §10.3), in the hour now on today's page; FPMT's day for
+        // the date is one of the date's lists, shown in the sheet as such, outweighed where it is (T2.15).
         val haircut = Texts.HAIRCUT[day.day - 1]
         val dateDay = Annotation(
             haircutDateTitle,
@@ -674,6 +715,7 @@ fun TibetanPage(
                 null,
                 subtitle = haircutBy,
                 titleIsKanji = false,
+                details = haircutHourSpans,
                 lead = { ToneDot(haircutTone) },
                 glyphs = { CueIcon(CueGlyphs.FAMILY.getValue(ActivityFamily.HAIRCUT), Palette.muted, 18.dp) },
                 diagram = haircutGrid,

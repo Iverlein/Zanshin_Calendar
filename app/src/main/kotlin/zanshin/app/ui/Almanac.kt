@@ -287,6 +287,8 @@ fun ReadingSheet(
                 Text(withTibetan(a.title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(withTibetan(a.english), style = body.copy(color = Palette.muted))
                 DecidesNote(a)
+                // The verdict's own rows, such as the haircut's good hours and hours to avoid.
+                if (a.details.isNotEmpty()) DetailsBlock(a.details, rowLabelWidth())
                 a.diagram?.let { Centered(it) }
                 for (part in a.parts) {
                     Box(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
