@@ -31,7 +31,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
-| 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
+| 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
@@ -81,7 +81,7 @@ moves up as soon as it is unblocked.
 | <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links — built 2026-10-15 | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
 | <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) decided the same day) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
-| <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
+| <a id="block-27"></a>27 | [P1](#p1) Relatives — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
@@ -2843,7 +2843,7 @@ groups it shows (`tools/emulator/store_shots.py`).
 
 ## People
 
-### <a id="p1"></a>P1. Relatives of a saved person — planned 2026-10-11
+### <a id="p1"></a>P1. Relatives of a saved person — planned 2026-10-11, built 2026-10-15 (SPEC §10.5)
 
 - **Gap.** Several of WB's readings need other people's dates: the natal
   trigram the mother's year, the spouses' and the dead's obstacles their
@@ -2864,6 +2864,47 @@ groups it shows (`tools/emulator/store_shots.py`).
   [30](#block-30) (P3) and [31](#block-31) (R2…) wait on it.
 - **Done when.** A test of the stored format, older lines included; the
   dialogs checked on the emulator in both languages; SPEC §10.5.
+- **What the readings ask of the relatives** (RD13–RD16, gathered for the
+  build): the **mother**'s birth year and whether she is living (the
+  natal trigram, WB vol. 1 p. 261; the secret obstacle, p. 390; the births
+  on the trigrams, pp. 286–288); the **father**'s birth year, and his
+  year of death (the father's luck pebble, for a son; the progressed sign
+  on another's year, p. 388; the tomb obstacle, p. 390); **both
+  parents**' birth years and clans (the nine-multiples of birth luck,
+  pp. 412–413); a **spouse**'s birth year and gender, and for the
+  marriage reckonings the whole birth (the shared trigram, p. 390; the
+  departure, ch. 23, which also asks the bride's mother's marriage year
+  and the year the groom's father set up house); **the dead**: the year
+  of death for the tomb obstacle, the birth with its hour and the death
+  with its hour for the reckoning for the dead (ch. 29, notes p. 509);
+  **the household**: each member's birth year, gender, order of birth
+  and station (the household's pebbles, trigrams and mewa, pp. 385–387,
+  396–400, 407–409, and the reckoning for the dead's living rows).
+- **Decided by the owner** (2026-10-15): each of the ten saved people is
+  a user of the app and holds their own tree of relatives, which does not
+  count toward the ten; every field the readings ask for is kept but the
+  clan, since only some families have one.
+- **Built 2026-10-15** (block 27, SPEC §10.5): `Relatives` in the app, a
+  tree on each `Person` (mother, father, spouse, child, sibling, of the
+  person or of any relative, and non-kin members of the household under
+  the person), each with a name, a gender, a birth and a death as a year,
+  a day or a day and hour, and the household; the `relatives` preference
+  beside `people`; the person's dialog's Relatives row, the tree dialog
+  and the relative's dialog. The two marriage years of ch. 23 are not
+  asked yet: P3 adds them with the departure, the format taking new
+  fields at the end of a line. Order of birth and station are not asked:
+  P2 is to read them from the dates and the relations. No reading uses the relatives yet, so the
+  README and the store listing name them with P2, when the first does.
+  Checked: `RelativesTest` (11 tests: every field's round trip person by
+  person, older lists, malformed lines and lost branches, the walk, the
+  branch deleted, the relations open, the labels in English and Russian
+  order, a day before the new year in the year before, a person removed);
+  the emulator in English and Russian (a mother with her years, her
+  father under her, a household member, the save, a restart, the mother
+  deleted with her father; a day and hour from the pickers); the release
+  build (a tree entered, read back after a restart, no raw keys). Found
+  and fixed in the build: the keyboard came back over the person's
+  dialog when the relatives closed, covering Save.
 
 ### <a id="p2"></a>P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11
 

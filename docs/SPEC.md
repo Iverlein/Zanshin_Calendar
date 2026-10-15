@@ -2434,6 +2434,41 @@ canvas "Zanshin Calendar — basic design".
   (epoch day, tab, name, and with a gender a tab and `m` or `f`; a line
   saved before has none and reads as not set), and `person`, the index
   chosen or -1.
+- **Relatives** (ROADMAP P1, built 2026-10-15): each saved person keeps
+  their own tree of relatives, which does not count toward the ten (the
+  owner, 2026-10-15: each of the ten is a user of the app with their own
+  tree). The person's dialog has a Relatives row ("None entered", "3
+  relatives") opening the tree: each relative indented under the one
+  they are entered under, named from the person out ("Mother's father",
+  «Отец матери»), with their name, birth, death and "in the household",
+  a plus to enter a relative of theirs and a pencil to change them; at
+  the foot, "Add a relative" of the person. A relative is a mother or a
+  father (once each under anyone), a spouse, a child or a brother or
+  sister, or, under the person only, a member of the household who is
+  not kin. Each has a name that may stay blank, a gender (a mother's
+  and a father's by the relation), the birth, living or died with the
+  death, and whether they live in the person's household. A birth or a
+  death is a year typed, with the Tibetan year it stands for beside it,
+  or a day from the calendar and then, if known, the hour from the
+  clock; a year alone counts as the Tibetan year that begins in it, a
+  day as the Tibetan year it falls in. A birth year or a year of death
+  is needed to save; years from 1800. Deleting a relative deletes those
+  entered under them, as the dialog says. At most 60 relatives a person.
+  No clan: only some families have one (the owner, 2026-10-15), so the
+  reckonings that ask for it (ch. 22, 23, 29) go without. What the
+  readings ask of each relative is in ROADMAP P1 (RD13–RD16); no reading
+  uses them yet. Stored as the `relatives` preference, one relative per
+  line, by tabs: the person's index, the relative's id, the id they are
+  entered under (`-` for the person), the relation (`MOTHER`, `FATHER`,
+  `SPOUSE`, `CHILD`, `SIBLING`, `HOUSEHOLD`), the name, the gender (`m`,
+  `f` or empty), the birth (`1950`, `1948-11-02` or
+  `1999-03-04T06:30`, or empty), the death (empty while living, `d`
+  for a death not dated, `d` and the moment) and `h` in the household.
+  A list saved before reads as people without relatives; a line whose
+  line of descent no longer reaches the person is dropped with its
+  branch (`RelativesTest`). When the relatives close, the person's
+  dialog takes the focus off its name field, so the keyboard does not
+  come back over Save.
 - **Language**: the phone's language or one the app is translated into
   (English, Russian), each listed by its own name. Android 13 and later keep
   the choice themselves as the per-app language (`LocaleManager`, with
