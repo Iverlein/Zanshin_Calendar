@@ -320,7 +320,9 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
                 )
             }
             if (!large) a.subtitle?.let { Text(withTibetan(it), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.faint)) }
-            Text(withTibetan(stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone))), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
+            // An entry with no gloss of its own (the year of age's rows) shows its tone alone, not " · unlucky".
+            val gloss = if (a.english.isBlank()) toneLabel(a.tone).replaceFirstChar(Char::uppercase) else stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone))
+            Text(withTibetan(gloss), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
             DecidesNote(a)
             a.tibetan?.let { (wylie, english) ->
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {

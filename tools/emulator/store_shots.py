@@ -150,7 +150,8 @@ try:
     tap_at(find(labels["meditation"]))
     shot(6)
 
-    day("10230900", 2026, "TIBETAN", LHASA, people=[(labels["person"], BIRTH_1976_06_01, "m")])
+    # A mother born in 1950, so that the year of age shows the natal trigram (ROADMAP P2).
+    day("10230900", 2026, "TIBETAN", LHASA, people=[(labels["person"], BIRTH_1976_06_01, "m")], strings={"relatives": "0\t1\t-\tMOTHER\t\t\t1950\t\t"})
     tap_at(find(labels["year"]))
     tap_at(find(labels["year_of_age"]))
     shot(7)

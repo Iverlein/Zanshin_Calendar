@@ -29,6 +29,7 @@ import io.github.iverlein.zanshin.R
 import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import zanshin.app.Person
+import zanshin.app.Reckonings
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
@@ -41,6 +42,9 @@ import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.HarshYear
 import zanshin.core.tibetan.HourSign
+import zanshin.core.tibetan.Kin
+import zanshin.core.tibetan.KinReckoning
+import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Pebbles
@@ -70,6 +74,7 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
 
+        val kin = Reckonings.kin(person)
         Section(stringResource(R.string.year_section_signs))
         AnnotationRow(mewaAnnotation(r, labels), onOpen)
         if (r.gender == null) {
@@ -77,6 +82,13 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         } else {
             AnnotationRow(trigramAnnotation(r, labels), onOpen)
             AnnotationRow(logMenAnnotation(r, labels), onOpen)
+        }
+        val mother = kin.firstOrNull { it.role == KinRole.MOTHER && it.birthYear != null }
+        val natal = mother?.let { KinReckoning.natalTrigram(it.birthYear!!, r.birthYear) }
+        if (natal == null) {
+            Text(stringResource(R.string.year_natal_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        } else {
+            AnnotationRow(natalTrigramAnnotation(r, natal, mother, labels), onOpen)
         }
 
         Section(stringResource(R.string.year_section_pebbles))
@@ -123,7 +135,7 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         }
 
         Section(stringResource(R.string.year_section_obstacles))
-        val obstacles = obstacleAnnotations(r, labels)
+        val obstacles = obstacleAnnotations(r, labels) + kinObstacleAnnotations(r, person, kin, labels)
         if (obstacles.isEmpty()) {
             Text(stringResource(R.string.year_no_obstacles), style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp))
         } else {
@@ -340,3 +352,33 @@ private fun obstacleAnnotations(r: YearReckoning, labels: Labels): List<Annotati
         add(Annotation(o.english.replaceFirstChar(Char::uppercase), "", Tone.BAD, Texts.mewaObstacle(o), subtitle = Ewts.named(o.english, o.wylie), titleIsKanji = false))
     }
 }
+
+private fun natalTrigramAnnotation(r: YearReckoning, t: zanshin.core.tibetan.Trigram, mother: Kin, labels: Labels): Annotation {
+    val born = mother.birth!!
+    return Annotation(
+        title = labels.string(R.string.year_natal_trigram_title, Ewts.named(t.english, t.wylie)),
+        english = "",
+        tone = Tone.NEUTRAL,
+        reading = Texts.natalTrigram(t),
+        subtitle = labels.string(R.string.year_natal_trigram_subtitle, labels.ordinal(YearOfLife.age(mother.birthYear!!, r.birthYear))),
+        titleIsKanji = false,
+        details = listOf(
+            labels.string(R.string.year_detail_mother_born) to "${mother.birthYear} · " + labels.string(R.string.element_animal, gloss(born.element), gloss(born.animal)),
+        ),
+    )
+}
+
+/** The obstacles that come with a relative (ROADMAP P2), each naming the relative it comes with. */
+private fun kinObstacleAnnotations(r: YearReckoning, person: Person, kin: List<Kin>, labels: Labels): List<Annotation> =
+    KinReckoning.obstacles(r, kin).map { h ->
+        val relative = person.relatives.byId(h.kin.tag)
+        val who = relative?.let { listOfNotNull(relativeLabel(person.relatives, it, labels), it.name.takeIf(String::isNotBlank)).joinToString(" · ") }
+        Annotation(
+            title = h.obstacle.english.replaceFirstChar(Char::uppercase),
+            english = "",
+            tone = Tone.BAD,
+            reading = Texts.kinObstacle(h.obstacle),
+            subtitle = listOfNotNull(h.obstacle.wylie?.let { Ewts.named(h.obstacle.english, it) }, who).joinToString(" · ").ifEmpty { null },
+            titleIsKanji = false,
+        )
+    }

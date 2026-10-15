@@ -88,7 +88,7 @@ private fun word(labels: Labels, relation: Relation, gender: Gender?, of: Boolea
 }
 
 /** What [r] is to the person, capitalised: "Father's mother". */
-private fun relativeLabel(tree: Relatives, r: Relative, labels: Labels): String =
+internal fun relativeLabel(tree: Relatives, r: Relative, labels: Labels): String =
     tree.label(r, { rel, g, of -> word(labels, rel, g, of) }, { a, b -> labels.string(R.string.relative_label_of, a, b) })
         .replaceFirstChar { it.uppercase(labels.locale) }
 

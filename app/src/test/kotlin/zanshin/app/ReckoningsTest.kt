@@ -8,6 +8,10 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Test
 import zanshin.core.tibetan.Gender
+import zanshin.core.tibetan.Kin
+import zanshin.core.tibetan.KinObstacle
+import zanshin.core.tibetan.KinReckoning
+import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.YearReckoning
@@ -43,5 +47,35 @@ class ReckoningsTest {
             assertEquals(fromDay, Reckonings.yearOfAge(person, day.year, null), "$date")
             date = date.plusDays(10)
         }
+    }
+
+    /**
+     * ROADMAP P2: the obstacles read the mother, father, spouses and children entered under the person, and anyone
+     * of the household further out; a year alone counts as the Tibetan year that begins in it, a day as the
+     * Tibetan year it falls in.
+     */
+    @Test
+    fun `relatives as the obstacles read them`() {
+        val tree = Relatives()
+            .put(Relative(0, null, Relation.MOTHER, birth = Moment(1950)))
+            .put(Relative(0, null, Relation.SPOUSE, gender = Gender.MALE, birth = Moment.of(LocalDate.of(1976, 2, 1))))
+            .put(Relative(0, null, Relation.FATHER, died = true, death = Moment(1988)))
+            .put(Relative(0, 1, Relation.MOTHER, birth = Moment(1925)))
+            .put(Relative(0, null, Relation.SIBLING, gender = Gender.FEMALE, birth = Moment(1980), household = true))
+        val kin = Reckonings.kin(person.copy(relatives = tree))
+        assertEquals(
+            listOf(
+                Kin(KinRole.MOTHER, 1950, Gender.FEMALE, true, null, false, 1),
+                // 1 February 1976 falls before Losar, in the Tibetan year that began in 1975.
+                Kin(KinRole.SPOUSE, 1975, Gender.MALE, true, null, false, 2),
+                Kin(KinRole.FATHER, null, Gender.MALE, false, 1988, false, 3),
+                Kin(KinRole.OTHER, 1980, Gender.FEMALE, true, null, true, 5),
+            ),
+            kin,
+        )
+        // The mother's 27th year at the birth: the lake trigram; the woman's own trigram reaches it in her 3rd, 11th … year.
+        val r = Reckonings.yearOfAge(person.copy(relatives = tree), 2026, null)!!
+        assertEquals(KinReckoning.natalTrigram(1950, 1976), KinReckoning.natalTrigram(r, kin))
+        assertEquals(listOf(KinObstacle.SECRET to 1), KinReckoning.obstacles(r, kin).map { it.obstacle to it.kin.tag })
     }
 }

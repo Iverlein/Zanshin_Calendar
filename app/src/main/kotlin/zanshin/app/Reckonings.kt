@@ -5,6 +5,8 @@
 package zanshin.app
 
 import zanshin.core.tibetan.HourSign
+import zanshin.core.tibetan.Kin
+import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.YearOfLife
@@ -33,5 +35,22 @@ object Reckonings {
         val born = TibetanCalendar.of(person.birth)
         if (YearOfLife.age(born.year, year) < 1) return null
         return YearReckoning(Sign(born.yearElement, born.yearAnimal), born.year, YearOfLife.yearSign(year), year, person.gender, hour)
+    }
+
+    /**
+     * [person]'s relatives as the year of age's obstacles read them (ROADMAP P2): the mother, father, spouses and
+     * children entered under the person, and anyone of the household further out in the tree; each tagged with
+     * their id in the tree.
+     */
+    fun kin(person: Person): List<Kin> = person.relatives.list.mapNotNull { r ->
+        val role = when {
+            r.of == null && r.relation == Relation.MOTHER -> KinRole.MOTHER
+            r.of == null && r.relation == Relation.FATHER -> KinRole.FATHER
+            r.of == null && r.relation == Relation.SPOUSE -> KinRole.SPOUSE
+            r.of == null && r.relation == Relation.CHILD -> KinRole.CHILD
+            r.household -> KinRole.OTHER
+            else -> return@mapNotNull null
+        }
+        Kin(role, r.birth?.tibetanYear, r.sex, !r.died, r.death?.tibetanYear, r.household, r.id)
     }
 }

@@ -702,6 +702,12 @@
     <string name="year_detail_pebbles">Pebbles</string>
     <string name="year_trigram_title">Trigram: %1$s</string>
     <string name="year_trigram_subtitle">Counted as %1$s against your aspects</string>
+    <!-- The natal trigram (ROADMAP P2, SPEC §5.9.1): %1$s the trigram named, as in year_trigram_title -->
+    <string name="year_natal_trigram_title">Natal trigram: %1$s</string>
+    <!-- %1$s the mother's year of age at the birth, as an ordinal: "27th" -->
+    <string name="year_natal_trigram_subtitle">Your mother\'s trigram in the year of your birth, her %1$s year</string>
+    <string name="year_natal_needed">The natal trigram is your mother\'s trigram in the year of your birth: enter her birth year among your relatives in People to see it and the secret obstacle.</string>
+    <string name="year_detail_mother_born">Mother\'s birth year</string>
     <string name="year_log_men_title">Progressed sign (ལོག་མེན, log men): %1$s</string>
     <string name="year_section_pebbles">The pebbles</string>
     <string name="year_tally">White · black</string>

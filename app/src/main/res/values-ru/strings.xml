@@ -582,6 +582,10 @@
     <string name="year_detail_pebbles">Камни</string>
     <string name="year_trigram_title">Триграмма: %1$s</string>
     <string name="year_trigram_subtitle">Против ваших аспектов считается как %1$s</string>
+    <string name="year_natal_trigram_title">Триграмма рождения: %1$s</string>
+    <string name="year_natal_trigram_subtitle">Триграмма вашей матери в год вашего рождения, её %1$s-й год</string>
+    <string name="year_natal_needed">Триграмма рождения — это триграмма вашей матери в год вашего рождения: укажите год её рождения среди родственников в разделе «Люди», чтобы увидеть её и тайное препятствие.</string>
+    <string name="year_detail_mother_born">Год рождения матери</string>
     <string name="year_log_men_title">Смещённый знак (ལོག་མེན, log men): %1$s</string>
     <string name="year_section_pebbles">Камни</string>
     <string name="year_tally">Белые · чёрные</string>
