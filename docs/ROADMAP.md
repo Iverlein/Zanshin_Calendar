@@ -27,7 +27,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 6 | T4 Element calculation, with the T5 settings — built 2026-10-09 | XL | The year of age (SPEC §5.9.1): natal and yearly mewa, trigram and progressed sign by gender, the 24 decisive pebbles with the predictive ones, the sectors, the harsh years, nine-multiples and the mewa's obstacles, all with WB's readings; the gender on each person. Left: what needs the mother's year, a spouse or the dead, and the rules WB leaves unclear (below). Mo is not planned | — |
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
-| 9 | T2.27 WB's days of the twelve links | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
+| 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
@@ -78,7 +78,7 @@ moves up as soon as it is unblocked.
 | <a id="block-21"></a>21 | [U6](#u6) The page in the order of strength — built 2026-10-09 | — | [3](#block-3) | Build block 21: U6, the hours above the brief, the works' verdicts apart from the Almanac, only the deciding voice's dot solid. |
 | <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
-| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
+| <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links — built 2026-10-15 | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
 | <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
@@ -1244,7 +1244,7 @@ verdict, and the owner's decisions of 2026-10-10:
   `CatalogTest`; SPEC §5.12, §5.13, §10.3; both tabs and the page checked
   on the emulator in English and Russian; the release build checked.
 
-#### <a id="t2-27"></a>T2.27 WB's days of the twelve links — planned 2026-10-11
+#### <a id="t2-27"></a>T2.27 WB's days of the twelve links — built 2026-10-15 (SPEC §5.11, §10.3)
 
 - **Gap.** T2.22 counts the day's link by vol. 1's table, and T2.25 weighs
   it by the *kun phan me long*'s boxes. WB's own readings of the links'
@@ -1269,8 +1269,27 @@ verdict, and the owner's decisions of 2026-10-10:
   the shape its readings are written in ([X1](#x1)).
 - **Done when.** A test pins each link's lists to the scan reading;
   `CatalogTest`; `DaySummaryTest`'s counts; SPEC §5.11; both languages.
+- **Built.** `LinkVerses` holds each verse's works good and to avoid,
+  with washing the head, washing the body and new clothes, and
+  `Texts.TWELVE_LINK` joins them ahead of KP's boxes as the day animal's
+  verses are joined (one `verseFirst` for both); fourteen new wordings.
+  Each link has its reading in the shape of §8.1: the ruling with the
+  woodcut's figure, *Setting out*, *Remedy* and *A birth today*, in
+  English and Russian; the old paragraph on the table's count is gone
+  (the count stands under the sheet's title, the rule in SPEC §5.11 and
+  day-letters.md), so X10's allowance fell from 180 to 174.
+  `LinkVersesTest` pins each verse's washing and clothes sides and a work
+  of each verse to the scan reading, and the join. Over 2000–2049 the
+  days whose lists run against their tone go from 2006 to 2047; October
+  2026's haircut and wedding orders move, the same days; 4 October's
+  friends gain feeling beside the horse, and 28 January's war loses the
+  Zon trigram, the sense sources naming taking a town good. Left out, as
+  the Work says or as the shape requires: the loss (no row holds it), the
+  illness (H1), p. 356's hours (question 19), and the unidentified words
+  (day-letters.md, *What the app takes from them*). Checked on the
+  emulator in both languages (contact's day, 2026-10-15).
 
-#### <a id="t2-28"></a>T2.28 Corrections from the readings — planned 2026-10-13
+#### <a id="t2-28">></a>T2.28 Corrections from the readings — planned 2026-10-13
 
 - **Gap.** Readings done since the built items they check (the *Left
   open in built work* rows) found entries that the scan reads otherwise
@@ -1390,7 +1409,7 @@ verdict, and the owner's decisions of 2026-10-10:
    then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10; T2.25 built 2026-10-10.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 8. Found 2026-10-11, checking the page against WB's own almanac and
-   chapters: T2.27, then T2.26 once D4 is settled.
+   chapters: T2.27 (built 2026-10-15), then T2.26 once D4 is settled.
 9. Found 2026-10-12 and 2026-10-13 by the O readings: T2.28, before the
    X blocks that reword the same readings.
 
@@ -2441,11 +2460,12 @@ X, so that the owner reads the wording once. The blocks are
 #### <a id="x10"></a>X10 The rest, and the year sheet
 
 - **Gap.** The astrologer spirit's day reading (190 words) explains its
-  count before and after its "Today"; the twelve links (175) and the
-  date's mewa give the table's rule before the day's link; the year
+  count before and after its "Today"; the date's mewa gives the table's
+  rule before the day's number (the twelve links' 175-word rule went with
+  T2.27, block 24, 2026-10-15, each link now in the shape); the year
   sheet's readings are verses (the pebbles, the nine-multiples, the
   harsh years, the sectors) with their remedies inside them.
-- **Work.** The astrologer spirit, the links and the mewa to the shape,
+- **Work.** The astrologer spirit and the mewa to the shape,
   the count as *How it falls*; the year sheet's verses stay verses (D6),
   each with its ruling line first and its remedy as a row, uniform where
   possible, with the hours' and the day's readings. The festivals and
@@ -2685,8 +2705,8 @@ menu's groups collapsible (H3).
     year, the divination of health (built, SPEC §5.9: Your day and the
     hours panel);
   - the illness parts of the date's, weekday's, link's and day animal's
-    readings (vol. 2, pp. 297–312, 351–359; the links' with
-    [T2.27](#t2-27)), and the trigram's goddesses (vol. 1, pp. 449–450,
+    readings (vol. 2, pp. 297–312, 351–359; the links', read in RD1,
+    left by [T2.27](#t2-27) for this screen), and the trigram's goddesses (vol. 1, pp. 449–450,
     built);
   - bloodletting and moxa in the readings of the year of age's mewa
     (vol. 1, pp. 403–405), to be checked against the year sheet (T4);

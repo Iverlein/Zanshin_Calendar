@@ -796,10 +796,21 @@ English (§8.1), each reading citing its pages:
   the *dbyangs 'char*'s letters and the date's stage are not shown, as WB
   reads them against the syllable of a person's name (vol. 2, p. 305),
   which the app does not ask for. The day's link is weighed with the
-  trigram and the date's sme ba (§5.12) by what the *kun phan me long*'s
-  activity boxes name each link good or bad for, 22 boxes read on the
-  scans ([kp-activities.md](sources/kp-activities.md)); the date's sme ba
-  the same way, sixteen boxes naming its numbers. The hundred feet are
+  trigram and the date's sme ba (§5.12) by its lists: WB's own reading of
+  each link's day first (vol. 2, pp. 351–356, the days of the twelve
+  links, ROADMAP T2.27, built 2026-10-15; `LinkVerses`), its works with
+  washing the head, washing the body and new clothes, which every verse
+  names one way or the other; then what the *kun phan me long*'s activity
+  boxes name each link good or bad for, 22 boxes read on the scans
+  ([kp-activities.md](sources/kp-activities.md)), without the entries the
+  verse names the other way, as for the day animal (§5.10). The link's
+  sheet gives WB's ruling, the four directions for one's aims as
+  *Setting out*, the remedy and a birth on the day as rows (§8.1); the
+  loss and its thief are left in the topic file
+  ([day-letters.md](sources/day-letters.md)), the illness waits for the
+  health screen (ROADMAP H1), and p. 356's links on the hours for open
+  question 19. The date's sme ba is weighed by the boxes alone, sixteen
+  naming its numbers. The hundred feet are
   read as ch. 12 reads them (pp. 97–99, on the Zhol print, WBZ img.
   133–136; `HundredFeet`): from each body's mansion the right fang ends
   on one mansion, which it strikes; the sun, Mars, Saturn and Rāhu are the
@@ -2144,8 +2155,8 @@ canvas "Zanshin Calendar — basic design".
   almanac counts it, with what the activity lists name its number good
   or bad for; "Twelve links" the day's link as a Tibetan term, its sheet
   counting the day from the middle term ("day 4 of 31 from the middle
-  term of month 8") with the link's lists, no row on a day beyond the
-  table (§5.11). Not shown (ROADMAP T2.25, the owner's rule that nothing
+  term of month 8") under the title, then the link's own reading, its
+  lists and its rows (§5.11), no row on a day beyond the table. Not shown (ROADMAP T2.25, the owner's rule that nothing
   is shown that can neither be used nor change a weight or verdict): the
   Kālacakra's and the *dbyangs 'char*'s letters, the moon's foot and the
   wheel's cells, and the sun's terms, which the links and the

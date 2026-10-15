@@ -18,9 +18,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   its month heading writes: long or short, the planet that rises, the
   black months, the sage's and the pig's seven days and the comet; the
   lunar and solar eclipses as its reckoning finds them, on their day, with
-  the merit they multiply; the date's mewa and the twelve links counted
-  from the month's middle term, with what the activity lists name them
-  for; the fangs of the hundred feet on the birth mansion, and the spear
+  the merit they multiply; the date's mewa, with what the activity lists
+  name it for, and the twelve links counted from the month's middle term,
+  each day's link with its works, directions and remedy; the fangs of the hundred feet on the birth mansion, and the spear
   and great spear on the moon's mansion; the
   hours with the combination period, the earth lords of the hour, the
   black hours, what each hour is good for, the four rough times at

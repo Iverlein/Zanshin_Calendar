@@ -10,7 +10,8 @@ cell, at 3–5×. ROADMAP T2.22; entries 3, 4, 12 and 17 of
 [almanac-page.md](almanac-page.md). Built as `DayLetters` (SPEC §5.11),
 tested by `DayLettersTest`. WB's own readings of each link's day (vol. 2,
 pp. 351–356) were read on 2026-10-11 for ROADMAP RD1, in *WB's days of
-the twelve links (RD1)* below; not yet built (T2.27).
+the twelve links (RD1)* below; built 2026-10-15 (T2.27, `LinkVerses`,
+tested by `LinkVersesTest`).
 
 ## Where WB sets them out
 
@@ -559,11 +560,25 @@ only the times.
   formation's day, formation's on consciousness's, and so on to aging
   and death's on ignorance's. The lifespans: 81, 81, 62, 81, 64, 63, 60,
   84, 64, 60, 60, 64 years.
-- **What the readings give for the app** (ROADMAP T2.27): works good and
-  bad, which join the link's lists; washing the head and the body and new
-  clothes, which ch. 34's works for putting on clothes (4) and
-  washing (34) also weigh; the four directions for one's aims; the birth, the loss,
-  the illness (H1) and the remedy for the link's sheet.
+- **What the app takes from them** (ROADMAP T2.27, built 2026-10-15):
+  the works good and bad, with washing the head, washing the body and new
+  clothes, join the link's lists ahead of the *kun phan me long*'s boxes,
+  which lose each entry the verse names the other way (`LinkVerses`,
+  `Texts.TWELVE_LINK`); the four directions for one's aims are the
+  sheet's *Setting out* row, the birth its *A birth today* row, the
+  remedy its *Remedy* row, and the figure of the woodcut is named in the
+  ruling ("it is pictured as a potter"). Left out of the lists: the
+  unidentified words (name and form's «འཇལ་ལེན» and «འཇིགས་ལ་ཁྲོས་པ», craving's
+  «སྨྱུར་སྤང»), the sense sources' entering a house and coming out again,
+  their king's ablution (washing the body is bad on that day), and the
+  sweeping lines, which stand in the ruling instead: becoming's "every
+  other work goes well", grasping's "whatever else is begun bears no
+  fruit". Left out of the remedies: the plants not identified (contact's
+  «སྤང་སྐྱུར», becoming's *spang ma* and «ཁ། །གད»). Not shown: the loss and
+  its thief, which no row of the reading's shape holds (SPEC §8.1, rule
+  3; the weekdays' thieves are left out the same way); the illness waits
+  for the health screen (H1); the hours of p. 356 wait on open question
+  19.
 
 ## The hundred feet (*rkang brgya*)
 
@@ -748,7 +763,7 @@ old bad, dead: begin no work) and five death combinations of date class,
 weekday, mansion and vowel; the app does not ask for a name, and the
 owner declined to (2026-10-10), so neither is built. The links are read
 against the day: WB reads each link's day (vol. 2, pp. 351–356, *WB's
-days of the twelve links (RD1)* above; not yet built, ROADMAP T2.27), and
+days of the twelve links (RD1)* above; built as T2.27), and
 the *kun phan me long*'s boxes name links for works
 ([kp-activities.md](kp-activities.md)), which the app now weighs.
 
