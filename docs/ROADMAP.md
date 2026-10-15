@@ -28,7 +28,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
-| 10 | A1 Light theme and colour themes — System, Ink, Paper and Night built 2026-10-15 (block 33); Maroon and Sepia block 38 | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
+| 10 | A1 Light theme and colour themes — built 2026-10-15: System, Ink, Paper and Night (block 33), Maroon and Sepia (block 38) | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
@@ -92,7 +92,7 @@ moves up as soon as it is unblocked.
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates — built 2026-10-11 | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
-| <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
+| <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia — built 2026-10-15 | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
@@ -3039,7 +3039,7 @@ groups it shows (`tools/emulator/store_shots.py`).
 
 ## Appearance
 
-### <a id="a1"></a>A1. Light theme and colour themes — planned 2026-10-11, System, Ink, Paper and Night built 2026-10-15 (SPEC §10.1, §10.5, §10.7)
+### <a id="a1"></a>A1. Light theme and colour themes — planned 2026-10-11, built 2026-10-15: System, Ink, Paper and Night (block 33), Maroon and Sepia (block 38) (SPEC §10.1, §10.3, §10.5, §10.7)
 
 - **Gap.** The app is dark only (SPEC §10.1, "in 1.0"): `Palette` in
   `ui/Theme.kt` is one object of fixed colours, read directly about 510
@@ -3180,6 +3180,35 @@ groups it shows (`tools/emulator/store_shots.py`).
   frame with no dark frame; the release build on Paper. Store shot 8 is
   new, shot 1's day on Paper, in both languages; shots 1–7 are unchanged
   in Ink and were not retaken. The listing and README name the themes.
+- **Built 2026-10-15** (block 38: Maroon and Sepia). `MaroonColors` is a
+  dark page of the robe's maroon (#3A1117) with cream text and an accent
+  pair and tone set of its own, as the review asked: saffron a brighter
+  gold (#F4BA4A), vermilion turned towards orange and lightened (#FFAC80),
+  the bad tone likewise (#FFA07C), good #B0E0A6 and mixed #EAC66A, each
+  4.5:1 as text on the raised cells. `SepiaColors` is a parchment page
+  (#EFE3C8, its blue channel 200 against Paper's 232) with brown ink and
+  Paper's tones darkened to hold 4.5:1 on its deeper sheets. Both pass
+  every check of *Done when*, and `PaletteTest` adds one for Maroon: the 旧暦
+  accent, the bad tone and saffron at least 25° of CIELAB hue from the
+  page (they are 37°, 30° and 64°; Ink's bad tone would be 19°). The rims
+  became a rule: `needsRim` rims a printed box or star dot that stands
+  under 1.5:1 against the sheet, which gives exactly block 33's rims on
+  Ink, Night and Paper and on Sepia rims the yellow box (5) and the yellow
+  star's dot as well, which a list keyed on light or dark would have
+  missed (1.33:1 and 1.36:1). The element colours' two sets hold 3:1 on
+  both new themes unchanged. Each theme has its window style (Maroon's
+  on Ink's, Sepia's on Paper's) and its name and line in the dialog in
+  both languages. Checked: the app's unit tests; both themes on the
+  emulator in English and Russian across both pages, the combination and
+  rokuyō sheets, the date picker, the theme dialog, the election, Health,
+  the element reckoning, meditation and About (the year balloon in
+  English), with no colour left from another theme; the nine-star
+  board's and the sme ba square's rims on Sepia; a cold start on each,
+  recorded frame by frame, the splash and first frame in the theme's own
+  page; the release build on Sepia, both pages and the rokuyō and
+  twelve-station sheets, no raw keys. No store shot was retaken:
+  Ink and Paper draw as before. The listing and README name the six
+  themes.
 
 ### <a id="a2"></a>A2. Large font and landscape — planned 2026-10-11
 

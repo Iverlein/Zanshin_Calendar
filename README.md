@@ -59,8 +59,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
   synthesised on the phone, so no sound file is bundled.
 - Every Tibetan term and kanji shows its English on tap; every reading comes
   from a published source, listed in About & sources.
-- Four themes: Ink (dark, the default), Paper (light), Night (black, for
-  OLED screens) and the phone's own dark or light setting.
+- Six themes: Ink (dark, the default), Paper (light), Night (black, for
+  OLED screens), Maroon (the robe's maroon with saffron), Sepia (a
+  parchment page for the evening) and the phone's own dark or light
+  setting.
 - Dates from 1900 to 2100, any month three taps away in the date picker's
   years and months. No internet permission: everything is computed on
   the phone.

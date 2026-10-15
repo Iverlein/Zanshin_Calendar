@@ -1977,9 +1977,15 @@ canvas "Zanshin Calendar — basic design".
 - **Themes** (ROADMAP A1, built 2026-10-15): **Ink**, the dark palette of
   1.0 and the default for every install, so that no one's app changes
   colour on the update (D5); **Paper**, a warm off-white page with dark
-  ink; **Night**, Ink on a black page for OLED screens; and **System**,
-  Ink or Paper as the phone is set to dark or light (§10.5; Maroon and
-  Sepia are block 38). Every colour is a role of the theme (`ZanshinColors`
+  ink; **Night**, Ink on a black page for OLED screens; **Maroon**, the
+  robe's maroon with saffron, dark; **Sepia**, a parchment page with
+  less blue in it than Paper's and brown ink, light, for the evening;
+  and **System**, Ink or Paper as the phone is set to dark or light
+  (§10.5). Maroon carries an accent pair and a tone set of its own:
+  vermilion and the bad tone sit beside maroon in hue, so on it the 旧暦
+  accent and the bad tone are turned towards orange and lightened,
+  saffron a brighter gold, each at least 25° of CIELAB hue from the page
+  as well as apart from it in lightness. Every colour is a role of the theme (`ZanshinColors`
   in `ui/Theme.kt`: the page, the sheets, the raised and selected cells,
   lines, text, muted and faint text, the off state, the two accents, the
   three tones, the scrim, and the colour set on an accent fill), read
@@ -1991,8 +1997,8 @@ canvas "Zanshin Calendar — basic design".
   accents at 4.5:1 where they colour text, faint text and every dot and
   ring at 3:1 (WCAG 2.1, 1.4.3 and 1.4.11), and good, mixed and bad
   apart in lightness as well as hue. The window is drawn in the theme's
-  page before Compose (`themes.xml`, a style per theme, System's by
-  `values-night`), the status and navigation bar icons dark on a light
+  page before Compose (`themes.xml`, a style per theme, Maroon's on
+  Ink's, Sepia's on Paper's, System's by `values-night`), the status and navigation bar icons dark on a light
   page, and from Android 13 the splash of the next launch takes the
   stored theme (`setSplashScreenTheme`); on Android 12 the splash stays
   Ink. The bell's notification stays the system's. Material You's
@@ -2232,8 +2238,9 @@ canvas "Zanshin Calendar — basic design".
   boxes that stand for it, Berzin 4, iron white, water black or blue,
   wood green, earth yellow, fire red; water drawn blue and the green
   and red lightened, so that a thin glyph reads on the dark page; on a
-  light theme a darker set of the same hues, iron a slate grey for
-  white, each apart in lightness from the tones), its
+  light theme, Paper or Sepia, a darker set of the same hues, iron a
+  slate grey for white, each apart in lightness from the tones; each
+  set holds 3:1 on every page and sheet of its themes), its
   balloon giving element, animal and gender; then the lunar-day cycles
   as tappable terms, the date's
   animal (*nyi ma*) opening its earth lords and the
@@ -2539,7 +2546,7 @@ canvas "Zanshin Calendar — basic design".
   and has been read through on a phone; a partial one still shows, string
   by string, on a phone set to it.
 - **Theme** (ROADMAP A1): a dialog of the themes of §10.1, System, Ink,
-  Paper and Night, each with its name, a line on what it is and a swatch
+  Paper, Night, Maroon and Sepia, each with its name, a line on what it is and a swatch
   of its page with a line of its text and its good, mixed and bad dots
   (System's split, Ink and Paper); a tap applies the theme at once, the
   dialog staying so that they can be compared, and Done closes it. The
@@ -2646,9 +2653,12 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
 - **Printed colours.** The sme ba's colours as printed (Berzin 4), the
   nine stars' after their readings, and the elements' (T3, §10.3) are
   the only colours outside the theme, and keep their hues on every
-  theme. A box or dot of the page's own lightness gets a thin rim in the
-  faint colour: the black sme ba box on a dark page, the white boxes (1,
-  6, 8) and the white stars' dots on a light one.
+  theme. A box or dot close to the page's own lightness, under 1.5:1
+  against the sheet it is drawn on, gets a thin rim in the faint colour,
+  a rule rather than a list, so that each theme rims its own: the black
+  sme ba box on the dark themes, the white boxes (1, 6, 8) and the white
+  stars' dots on Paper and Sepia, and on Sepia's parchment the yellow
+  box (5) and the yellow star's dot too.
 - **Boards of nine.** Both calendars draw the Lo Shu square south at the
   top: 4 9 2 / 3 5 7 / 8 1 6, the 九星 on the fixed board (後天定位盤, Japanese
   Wikipedia 九星) and the sme ba as Berzin prints it; the trigram of each box
