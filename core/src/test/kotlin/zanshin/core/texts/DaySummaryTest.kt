@@ -565,4 +565,47 @@ class DaySummaryTest {
         assertEquals(Triple(tone, by, factor), Triple(v.tone, v.by, v.factor))
         assertEquals(deciding.toList(), v.deciding.map { it.kanji })
     }
+
+    /**
+     * The haircut in the hour (SPEC §5.13): WB's chapter 34 (vol. 2, p. 420) puts haircuts good while
+     * Aries, Taurus, Gemini, Leo, Virgo or Pisces rises and bad under Scorpio, Libra, Capricorn and
+     * Cancer, and the periods' own readings agree; Sagittarius and Aquarius name none, and in their
+     * hours the day's side stands. On the person's day of [DaySummary.avoidAll] it stands in every hour.
+     */
+    @Test
+    fun `within its hour the combination period decides a haircut`() {
+        val good = setOf(ZodiacSign.ARIES, ZodiacSign.TAURUS, ZodiacSign.GEMINI, ZodiacSign.LEO, ZodiacSign.VIRGO, ZodiacSign.PISCES)
+        val bad = setOf(ZodiacSign.SCORPIO, ZodiacSign.LIBRA, ZodiacSign.CAPRICORN, ZodiacSign.CANCER)
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val day = TibetanCalendar.of(date)
+            val s = DaySummary.of(day)
+            val hours = s.inHours(Activity.HAIRCUTS, day.month)
+            for (h in 0 until 12) {
+                val sign = risingSign(day.month, h)
+                val expected = when (sign) {
+                    in good -> WorkInHour(Tone.GOOD, sign, emptyList())
+                    in bad -> WorkInHour(Tone.BAD, sign, emptyList())
+                    else -> s.sideOf(Activity.HAIRCUTS)!!.let { (tone, standing) -> WorkInHour(tone, null, standing) }
+                }
+                assertEquals(expected, hours[h], "$date hour $h")
+            }
+            date = date.plusDays(1)
+        }
+        // 15 October 2026, the 5th of the 9th month, a Thursday: Libra rises at 05:00, Sagittarius at 09:00 and
+        // Aquarius at 13:00, the two hours the day's own side holds; Pisces to Gemini good from 15:00 to 23:00.
+        val day = TibetanCalendar.of(LocalDate.of(2026, 10, 15))
+        val s = DaySummary.of(day)
+        val thursday = s.sideOf(Activity.HAIRCUTS)!!
+        assertEquals("Thursday", thursday.second.first().kanji)
+        assertEquals(
+            listOf(Tone.BAD, Tone.BAD, thursday.first, Tone.BAD, thursday.first, Tone.GOOD, Tone.GOOD, Tone.GOOD, Tone.GOOD, Tone.BAD, Tone.GOOD, Tone.GOOD),
+            s.inHours(Activity.HAIRCUTS, day.month).map { it!!.tone },
+        )
+        // The same day is the test birth date's enemy weekday (1 June 1976): no hour stands above it.
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        val mine = DaySummary.of(day, personalDay(born.yearAnimal, day.weekday), personalMansions(born.yearAnimal, day.mansion), ownDays(born, day))
+        assertTrue(mine.avoidAll.isNotEmpty())
+        assertTrue(mine.inHours(Activity.HAIRCUTS, day.month).all { it == WorkInHour(thursday.first, null, thursday.second) })
+    }
 }

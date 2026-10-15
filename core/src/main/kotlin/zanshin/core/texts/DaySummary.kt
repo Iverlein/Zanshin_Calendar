@@ -166,6 +166,14 @@ data class DayHours(val periods: List<PeriodRun>, val nectar: List<Int>) {
 }
 
 /**
+ * A work's side in one two-hour period of the Tibetan day (SPEC §5.13): [tone], decided by the
+ * combination period of the rising [sign], which outweighs every factor of the day while it rises
+ * (WB vol. 2, p. 376), or, where the period does not name the work and [sign] is null, by the day's
+ * weighing, [standing] its voices strongest first.
+ */
+data class WorkInHour(val tone: Tone, val sign: ZodiacSign?, val standing: List<SummaryEntry>)
+
+/**
  * The Tibetan day's tone (SPEC §5.12) and what decided it: [by] how, [factor] the voice that
  * decided, and [deciding] its members on the day, the combination's two parts or the special days
  * that spoke as one.
@@ -226,6 +234,27 @@ data class DaySummary(
                 else -> null
             }
         }
+    }
+
+    /**
+     * [activity]'s side in each of the twelve hours of Tibetan month [month], from the hare hour at
+     * 05:00 (SPEC §5.13): where the hour's combination period names the work one way, the work's own
+     * hours of chapter 34 before the period's general reading ([Election.hours]), the period decides,
+     * since within its hour it outweighs every factor of the day (WB vol. 2, p. 376); elsewhere the
+     * day's side ([sideOf]) stands, null where no voice names the work. On a day of [avoidAll] the
+     * day's side stands in every hour: WB places no hour above the person's day ([hoursAgainst]). The
+     * hour's own readings, which outweigh the day's animal sign only, are [overruledInHour]'s.
+     */
+    fun inHours(activity: Activity, month: Int): List<WorkInHour?> {
+        val day = sideOf(activity)?.let { (tone, standing) -> WorkInHour(tone, null, standing) }
+        if (avoidAll.isNotEmpty()) return List(12) { day }
+        val byPeriod = mutableMapOf<Int, WorkInHour>()
+        for (side in listOf(Tone.GOOD, Tone.BAD)) {
+            for (run in Election.hours(month, activity, side)) {
+                run.signs.forEachIndexed { i, sign -> byPeriod[run.first + i] = WorkInHour(side, sign, emptyList()) }
+            }
+        }
+        return List(12) { byPeriod[it] ?: day }
     }
 
     /**
