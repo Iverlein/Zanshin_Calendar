@@ -413,7 +413,397 @@ the astronomy and from the old texts for the readings; no 七十二候 (the
 owner, 2026-10-10). The facts in our own words, the Japanese quoted where
 a fact rests on its wording.
 
-Nothing read yet.
+**Read 2026-10-15.** What was read, and where:
+
+| Siglum | Work | Edition | Access |
+| --- | --- | --- | --- |
+| **NAOJ-24** | 国立天文台 暦計算室, こよみ用語解説「二十四節気」 | web page, read in the browser 2026-10-15 | https://eco.mtk.nao.ac.jp/koyomi/faq/24sekki.html (the table of the 24 with month, longitude and a one-line gloss; the 雑節 table) |
+| **NAOJ-W** | 国立天文台 暦計算室, 暦Wiki: 「季節/二十四節気とは？」, 「節月」, 「季節/二十四節気の定め方」, 「二十四節気/歴史」, 「季節/雑節とは？」 | web pages, read in the browser 2026-10-15 | https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FC6F3BDBDBBCDC0E1B5A4A4C8A4CFA1A9.html, …/C0E1B7EE.html, …/B5A8C0E12FC6F3BDBDBBCDC0E1B5A4A4CEC4EAA4E1CAFD.html, …/C6F3BDBDBBCDC0E1B5A42FCEF2BBCB.html, …/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html |
+| **K8** | こよみのページ (koyomi8.com), 「二十四節気・解説」 | web page, read in the browser 2026-10-15 | https://koyomi8.com/24doc.html (each term with month, longitude, "頃" date, the 暦便覧 line and a modern note; the articles under 解説記事 on the same page) |
+| **KB** | 『こよみ便覧』, 太玄斎 校訂 (the catalogue's creator line) | 江戸, 蔦屋重三郎[ほか1名], 天明7 [1787]; NDL 特1-2401, public domain (PDM) | NDL Digital Collections pid 2536637, 15 images; the 24 terms on image 7 (both pages), the 雑節 on images 9 and 10; https://dl.ndl.go.jp/pid/2536637/1/7 |
+| **RM** | 『暦林問答集』 2巻, 賀茂在方 (preface signed «正儀大夫司暦博士賀茂在方書», dated «應永甲午孟春日», 應永21 = 1414; image 3) | 『群書類從』 卷506, 雜部62, printed [18--]; NDL 特2-131, public domain (PDM) | NDL Digital Collections pid 14488380, 58 images; 釋二十四氣七十二候第十七 on images 18–27, 釋月建第二十四 on image 34, 釋土用事第二十五 on images 38–39, 釋社第二十七 on image 40; contents 上 on images 3–4, 下 on images 36–37. A manuscript copy, pid 2533201 (写, 53 images), was not read |
+
+K3-R (the 暦林問答集 for the annotations) had nothing on its branch when
+this was read, so RM's 節気 passages were found here, in its contents,
+and read on the scan. The app's own rules are cited from
+`core/.../kyureki/` (`Kyureki.kt`, `Rekichu.kt`) as they stood at
+0baf42d, and the dates below were computed with the app's engine
+(`Kyureki.termsIn`, JST) for 2000–2099, the NAOJ's own dates being the
+engine's test vectors.
+
+### What every term shares
+
+- **What a term is.** A mark of the season fixed by the Sun's apparent
+  ecliptic longitude: each term is the moment the Sun reaches a multiple
+  of 15°, 春分 at 0°, 秋分 at 180° (NAOJ-24). The name stands both for that
+  moment, and its day, and for the fifteen-odd days that follow it up to
+  the next term (NAOJ-W 二十四節気とは？; K8, *二十四節気の期間*). The year
+  is split into four seasons of six terms, 節 and 中 alternating
+  (NAOJ-24). Not lunar: the expert's marginal "solar or lunar nodes?"
+  (above) is answered by every source.
+- **節 and 中.** Counting from 立春, the odd terms (立春, 啓蟄, 清明 …,
+  among them the four 立) are the 節 or 節気; the even ones (雨水, 春分 …,
+  among them the solstices and equinoxes) the 中 or 中気. The 節 serve the
+  solar months (節月), the 中 the intercalation (NAOJ-W 二十四節気とは？).
+  Each is named by its month: 立春 is 正月節, 雨水 正月中, and so on to 大寒,
+  十二月中 (NAOJ-24; RM writes the same, «立春正月節», image 18).
+- **The 中 names the lunar month.** A lunar month takes the number of the
+  中 it holds: the month holding 二月中 (春分) is the 2nd month (K8,
+  *二十四節気と旧暦の関係*; SPEC §7.1). The 2033 problem turns on this
+  (above, *The 2033 leap month*).
+- **The 節 opens the solar month.** A 節月 runs from the day holding a 節
+  to the day before the next: 立春 opens 正月, 啓蟄 二月, and so on; the
+  day of entry is 節入り; a 節月 has 29 to 32 days under 定気 and never a
+  leap month (NAOJ-W 節月). Many 暦注 are counted by the 節月 (節切り)
+  rather than by the lunar month (月切り) (NAOJ-W 節月). RM gives the
+  month's branch the same root: the Dipper's handle «隨二十四氣運轉、而指柄
+  於十二辰», turning with the twenty-four 氣 it points to the twelve
+  branches, and the month it points to 寅 is the first (image 34, left
+  page, «釋月建第二十四»).
+- **How they are reckoned.** By angle (定気法: the Sun's apparent
+  longitude in steps of 15°) since the 天保暦, the reckoning of the
+  modern 旧暦 and of the government's 暦要項; before it, to the 寛政暦,
+  by time (平気法 or 恒気法: the year cut into 24 equal parts, about
+  15.22 days each). Under 定気 a term lasts 14 to 16 days, shorter near
+  perihelion in early January; the two reckonings part by about two days
+  at the equinoxes (NAOJ-W 二十四節気の定め方; K8, *二十四節気の求め方*).
+  KB (1787, under 平気) closes its list: five days to a 候, three 候,
+  fifteen days, to one 氣 (image 7, left page, last column, below).
+- **Names.** The names and order go back to the 淮南子 and are fixed
+  from the 後漢四分暦; Japan and China differ only in the 2nd month's 節,
+  啓蟄 in Japan and 驚蟄 in China, 啓 having been avoided as the
+  Han emperor 景帝's personal name. Japan's 具注暦 of the 宣明暦 era wrote
+  驚蟄 too; the 貞享暦 has 啓蟄, and the 仮名暦 prints the names from the
+  享保14 (1729) almanac on, before which it wrote only "○月せつ" and
+  "○月中" (NAOJ-W 二十四節気/歴史). RM (1414) writes 驚蟄 (image 19).
+- **The four 立 and the two 至 and 分.** 立春, 立夏, 立秋, 立冬 (四立) each
+  open a season, midway between a solstice and an equinox; 冬至, 夏至,
+  春分, 秋分 are the 二至二分; the eight together are the 八節 (NAOJ-W
+  二十四節気とは？; K8, *二至二分・四立・八節*). The almanac's seasons begin
+  at the 立, so 立春 and 立秋 fall just after the cold and heat of 小寒・大寒
+  and 小暑・大暑; the names come from northern China and need not fit
+  Japan's climate (NAOJ-W 二十四節気とは？).
+- **The directions (RM).** RM ties each term to one of the twenty-four
+  directions («配于艮», «配于寅» …): the four 立 to the corner trigrams
+  艮 (立春, north-east), 巽 (立夏), 坤 (立秋), 乾 (立冬); the four 至・分
+  and the other 中 to the twelve branches (雨水 寅, 春分 卯, 穀雨 辰 … 大寒
+  丑); the other 節 to the stems (啓蟄 甲, 清明 乙, 芒種 丙, 小暑 丁, 白露
+  庚, 寒露 辛, 大雪 壬, 小寒 癸), and most to an element («以配於土» …).
+  Its glosses of the stems and branches it takes from 鄭玄 and the 三礼義宗,
+  of the 候 from the 月令正義; its own closing words say so and ask a
+  later reader to correct its errors (image 27, left page, below).
+
+### What the app hangs on the terms (code at 0baf42d)
+
+- **Every 節** starts a 節月 (`Rekichu.setsuOf`): the 十二直 restart (建
+  on the day whose branch is the month's; on the 節入り day the
+  previous day's station repeats, `chokuOf`), the month star (月の九星)
+  changes (`monthStar`), and every 節切り 選日 and 下段 day takes the new
+  month's row: 天赦日 (by the 節月's season), 一粒万倍日, 母倉日, 月徳日,
+  受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 三隣亡, 復日, and 往亡日,
+  which falls on a fixed day counted from the 節入り (the 7th of 寅月,
+  14th of 卯月, 21st of 辰月, 8th of 巳月, 16th of 午月, 24th of 未月, 9th
+  of 申月, 18th of 酉月, 27th of 戌月, 10th of 亥月, 20th of 子月, 30th of
+  丑月: `OMO_DAY`). The personal 三箇の悪日 fall only in the 節月 whose
+  branch is the birth year's (above, *The personal reading of 三箇の悪日*;
+  `personalDays`).
+- **立春** also starts the year for every year-keyed annotation: the
+  year's 干支, the year star, the 恵方, 歳下食, and the birth year of the
+  personal days (`setsuYearOf`; SPEC §7.5).
+- **The 中** set the lunar month's number and so the 不成就日 (by lunar
+  month and day) and the festivals (SPEC §7.1, §7.3).
+- **The solstices** turn the day star: 陽遁 from the 甲子 nearest 冬至, 陰遁
+  from the 甲子 nearest 夏至 (`dayStar`).
+- **The 雑節** (`Rekichu.zassetsu`, all from NAOJ-W 雑節とは？): 節分 the
+  day before 立春; 八十八夜, 二百十日 and 二百二十日 the 88th, 210th and
+  220th day counting 立春 as the first; 彼岸 the equinox and three days
+  either side; 社日 the 戊 day nearest each equinox; 入梅 at 80°, 半夏生
+  at 100°; 土用 from 297°, 27°, 117° and 207° to the day before 立春,
+  立夏, 立秋 and 立冬.
+
+### The old texts' passages
+
+#### こよみ便覧 (KB), image 7: «年中廿四氣»
+
+Read on the scan, image 7 (right page: the heading and 立春 to 清明; left
+page: 穀雨 to 大寒 and the closing line), crops at full size. The text is
+a woodblock in running hand with kana: the term and its month in large
+kanji, the gloss in cursive kana with small furigana (not given here).
+The kana are written below in modern form, as K8 transcribes the same
+1787 print (K8, *暦便覧について*: «天明七年（1787）に出版», readable at the
+NDL); each line was set against the scan, and where the scan does not
+bear K8's reading out, or was not resolved, a bracket says so.
+
+Heading (right page): «年中廿四氣 十二節 十二中 晝夜の刻數ハ暦面にて見べし»,
+"the twenty-four 氣 of the year, twelve 節 and twelve 中; the hours of
+day and night are to be seen on the almanac's face".
+
+| Term | As printed (month) | The gloss, read on the scan | English |
+| --- | --- | --- | --- |
+| 立春 | 正月節 | はるの氣たつをもつてなり | spring's 氣 rises |
+| 雨水 | 正月中 | 陽氣地上にはつし、雪氷とけて雨水となればなり | the yang 氣 comes out above ground; snow and ice melt and become rain-water |
+| 啓蟄 | 二月節 | 陽氣地中にうごき、ちゞまる虫、あなをひらき出ればなり | the yang 氣 stirs in the earth; the curled-up insects open their holes and come out |
+| 春分 | 二月中 | 日天の中を行て、晝夜とうぶんの時なり | the Sun goes through the middle of the sky: day and night are equal |
+| 清明 | 三月節 | 万物発して清浄明潔なれば、此芽は何の草としるゝなり | all things come forth pure and bright, so that each bud shows which plant it is |
+| 穀雨 | 三月中 | 春雨ふりて百穀を生化すればなり | spring rain falls and the hundred grains are brought to life |
+| 立夏 | 四月節 | なつのたつがゆへなり | summer rises |
+| 小満 | 四月中 | 万物盈満すれば草木枝葉しげる (盈満 with the furigana えいまん; 満 in a cursive form) | all things fill out, and plants grow thick in branch and leaf |
+| 芒種 | 五月節 | 芒ある穀るい稼種する時なり (K8: 穀類) | the time to sow the awned grains |
+| 夏至 | 五月中 | 陽熱至極し、又日の長きのいたりなるをもつてなり | the yang heat reaches its peak, and the day is at its longest |
+| 小暑 | 六月節 | 大暑来れるまへなれ[…] (the ending not resolved; K8: 大暑来れる前なれば也) | it comes before the great heat |
+| 大暑 | 六月中 | 暑氣いたりつまり[…]時節なれ[…] (the middle and ending not resolved; the print shows 時節, which K8's 暑気いたりつまりたるゆえんなれば也 lacks) | the heat comes to its extreme |
+| 立秋 | 七月節 | はじめて秋の氣立つがゆへなれ[ば]なり | autumn's 氣 rises for the first time |
+| 処暑 | 七月中 | 陽氣とゞまりて、はじめて退きやまんとすればなり | the yang 氣 stops and begins to withdraw |
+| 白露 | 八月節 | 陰氣やうやく重りて、露こゞりて白色となればなり | the yin 氣 gathers; dew congeals and turns white |
+| 秋分 | 八月中 | 陰陽の中分なれ[ば]なり (K8: 中分となれば也; no と seen) | yin and yang are halved |
+| 寒露 | 九月節 | 陰寒の氣に合つて、露むすびこらんとすればなり | meeting the cold yin 氣, dew forms and is about to freeze |
+| 霜降 | 九月中 | つゆが陰氣にむすばれて、霜となりてふるゆへなり | dew, bound by the yin 氣, becomes frost and falls |
+| 立冬 | 十月節 | 冬の氣立そめて、いよいよ冷ゆれ[ば]なり | winter's 氣 begins to rise and it grows ever colder |
+| 小雪 | 十月中 | ひゆるがゆへに、雨も雪となりてくだるがゆへなり | it is cold, so rain too falls as snow |
+| 大雪 | 十一月節 | 雪いよいよふりかさねる折からなれ[ば]なり | snow now falls on snow |
+| 冬至 | 十一月中 | 日南のかぎりを行て、日みじかきのいたりなれ[ば]なり | the Sun goes at its southern limit, and the day is at its shortest |
+| 小寒 | 十二月節 | 冬至より一陽起るがゆへに、陰氣にさからふゆへ益冷る也 | since one yang rose at the winter solstice and goes against the yin 氣, it grows colder still |
+| 大寒 | 十二月中 | ひゆることのいたりてはなはだしきときなればなり | the cold is at its extreme |
+
+Closing line (left page, last column): «又[五]日を一候とし、三候十五日を以
+一氣といふなり», "five days make one 候; three 候, fifteen days, make
+one 氣" (the first numeral is written small and in a cursive form; 五 by
+the sense).
+
+#### 暦林問答集 (RM), 釋二十四氣七十二候第十七, images 18–27
+
+The section runs term by term: the term with its month and direction,
+then its three 候, each with a gloss; the gloss of the term itself (why
+the name, why the direction) sits between them, mostly after the first
+候, introduced by «又». Only the terms' own sentences are given here, and
+the 候 only where a 雑節 the app shows is one of them (半夏生) or where a
+候's gloss explains a term's name (白露); the 候 are not used (no
+七十二候, the owner, 2026-10-10). Read on the scan at full size, kanbun
+as printed with our punctuation.
+
+- **立春** (image 18, left page, to image 19, right page): «立春正月節、
+  配于艮。東風解氷。…又立春陽氣已發、雖在上陰氣猶厚在下、而陽氣尚微。故艮主
+  立春、在東北之維、以配於土也。» "立春, the 節 of the 1st month, is
+  set at 艮. … The yang 氣 has come out at 立春, but though it is above,
+  the yin 氣 is still thick below and the yang still weak; so 艮, in the
+  north-east corner, governs 立春, and it is set with earth."
+- **雨水** (image 19, right page): «雨水正月中、配于寅。獺祭魚。…又雨水
+  者、雪散為雨水也。又寅木、故主正月中也。» "雨水, the 中 of the 1st
+  month, at 寅. … 雨水: snow breaks up and becomes rain-water. 寅 is
+  wood, so it governs the 1st month's 中."
+- **驚蟄** (啓蟄; image 19, right page, to left page): «驚蟄二月節、配
+  于甲。桃始華。…又驚蟄者、伏蟄之虫大驚而走出也。甲者万物咸解孚甲自出。故
+  主二月節、以配於木也。» "驚蟄, the 2nd month's 節, at 甲. … 驚蟄: the
+  insects lying hidden are startled and run out. 甲: all things split
+  their husks and come out; so it governs the 2nd month's 節, set with
+  wood."
+- **春分** (image 19, left page): «春分二月中、配于卯。玄鳥至。…又春分
+  是為陰陽之交會、而此節之大者。故卯主正東、以配於二月中。» "春分, the
+  2nd month's 中, at 卯. … 春分 is the meeting of yin and yang, the great
+  one of this season; so 卯, due east, is set with the 2nd month's 中."
+  Its 候 «玄鳥至» adds that the swallow's coming was the time to worship
+  the god of matchmaking and pray for children («此鳥至之時祀媒神而祈子孫
+  也»).
+- **清明** (image 20, right page): «清明三月節、配于乙。桐始華。…又清明
+  者、謂生物天氣清浄明潔、万物盛大而可觀、故云清明。又乙軋也、万物奮軋而出
+  也。故乙主三月節、以配于木也。» "清明, the 3rd month's 節, at 乙. …
+  清明: the 氣 of heaven over living things is pure and bright, and all
+  things are grown and fair to see; hence the name. 乙 is 軋, to push
+  through: all things force their way out. So 乙 governs the 3rd month's
+  節, set with wood."
+- **穀雨** (image 20, left page): «穀雨三月中、配于辰。萍始生。…穀雨者、
+  是時日在昴宿、昴西方之宿金也。金生水之、故甘雨降、生万物、故云穀雨。三礼
+  義宗云、辰物盡震動而長、故主三月中、以配于土。» "穀雨, the 3rd month's
+  中, at 辰. … 穀雨: at this time the Sun is in the lodge 昴, a western
+  lodge, metal; metal gives birth to water, so sweet rain falls and
+  brings all things to life; hence the name. The 三礼義宗: at 辰 all
+  things shake and grow, so it governs the 3rd month's 中, set with
+  earth."
+- **立夏** (image 20, left page, to image 21, right page): «立夏四月節、
+  配于巽。螻蟈鳴。…是時陽氣已盛在上、陰氣微弱在下、宜顯。故巽主立夏、在東南
+  維、以配于木。» "立夏, the 4th month's 節, at 巽. … Now the yang 氣 is
+  strong above and the yin weak below: it is time to show forth. So 巽,
+  the south-east corner, governs 立夏, set with wood."
+- **小満** (image 21, right page): «小滿四月中、配于巳。苦菜秀。此時候物
+  咸秀生也。又小得盈滿、故云小滿。三礼義宗曰、巳起也、物至此時皆畢起、故巳
+  主四月、以配于火也。» "小満, the 4th month's 中, at 巳. … At this
+  time things all flower. They are filled a little, hence 小満. The 三礼
+  義宗: 巳 is to rise; by now all things have risen, so 巳 governs the
+  4th month, set with fire."
+- **芒種** (image 21, left page): «芒種五月節、配于丙。螳蜋生。…丙者炳
+  也。物之生長各執其柄、万物強大而炳然著見也。故丙主五月節、以配於火。又芒
+  種者、有芒之穀可稼種者也。» "芒種, the 5th month's 節, at 丙. … 丙 is
+  炳, bright: all things grow strong and stand out clearly. So 丙 governs
+  the 5th month's 節, set with fire. 芒種: the awned grains may be
+  sown."
+- **夏至** (image 22, right page): «夏至五月中、配于午。鹿角解。…此時候應
+  陰解角也。大陽始屈、陰氣始升、陰陽相向之候也。…此時陰氣動於黄泉之下。又
+  午盛陽之位、而居南方、故主夏至、以配于火。» "夏至, the 5th month's 中,
+  at 午. … The deer sheds its antlers in answer to the yin: the great
+  yang begins to bend and the yin 氣 to rise; yin and yang face each
+  other. … The yin 氣 stirs below the Yellow Springs. 午 is the seat of
+  full yang and lies south, so it governs 夏至, set with fire." Its
+  third 候, «次半夏生。此時候無文。蓋半夏是藥草也» (image 22, left page),
+  "next, the 半夏 grows; no text for this 候; the 半夏 is a medicinal
+  herb", is the 半夏生 the app shows as a 雑節.
+- **小暑** (image 22, left page): «小暑六月節、配于丁。温風始至。此亦無
+  文。今按、南方名暑門、生景風、盛熱之時也、故温風至矣。又小暑者、極熱之物
+  也。鄭玄云、丁亭也、物生長時應而止也。故丁主小暑、以配于火。» "小暑, the
+  6th month's 節, at 丁. … The south is called the gate of heat; it
+  sends the 景 wind; it is the time of great heat, so the warm wind
+  comes. 小暑 is 'the thing of extreme heat' (so printed: «極熱之物也»).
+  鄭玄: 丁 is 亭, to halt: growing things halt at their season. So 丁
+  governs 小暑, set with fire."
+- **大暑** (image 22, left page, to image 23, right page): «大暑六月中、
+  配于未。腐草化為螢。…又大、大暑月半極熱之中為大。又未、未者味也、物向成皆
+  有氣味。故未主六月中、以配于土。» (printed «又大大暑…», the second 大
+  read as the start of the next phrase) "大暑, the 6th month's 中, at 未.
+  … 'Great': in the month of heat, its middle, the height of the heat,
+  is the great one. 未 is 味, taste: things nearing ripeness all have
+  their flavour. So 未 governs the 6th month's 中, set with earth."
+
+### The terms, one by one
+
+Each entry: the term, 節 or 中 with its month, the longitude (NAOJ-24),
+the JST dates in 2000–2099 (the app's engine; the commonest first, with
+its count of the hundred years), what it marks (NAOJ-24 and K8 in our
+words), the two old glosses (KB, RM, above), the month it opens or names,
+and what hangs on it in the app's frame. The three personal bad days are
+given for the 節月 a 節 opens, from the table above (*The personal reading
+of 三箇の悪日*), for a person born in a year of that month's branch;
+往亡日 and 天赦日 from `Rekichu.kt` (*What the app hangs on the terms*).
+
+1. **立春 (risshun)**, 正月節, 315°; 4 Feb (66), 3 Feb (34).
+   - Marks: the start of spring. The cold is past its peak and the first
+     signs of spring show (NAOJ-24); spring runs from this day to the day
+     before 立夏 (K8). It lies midway between 冬至 and 春分 (NAOJ-W).
+   - KB: spring's 氣 rises. RM: set at 艮, the north-east corner, with
+     earth; the yang 氣 has come out but is still weak under the thick
+     yin.
+   - Opens 寅月, the 1st solar month (正月).
+   - Hangs on it: the year's turn for every year-keyed annotation (the
+     year's 干支, the year star, the 恵方, 歳下食, the birth year); 節分 is
+     the day before; winter 土用 (from 297°, about 17 Jan) ends the day
+     before; 八十八夜, 二百十日 and 二百二十日 count it as day 1. The
+     season's 寒 ends with 節分 (K8, under 小寒), and the greeting changes
+     from 寒中見舞い to 余寒見舞い (NAOJ-W 二十四節気とは？). When 立春 falls
+     within the 12th lunar month it is 年内立春, a theme of poetry (NAOJ-W
+     節月). In 寅月: for a person of a 寅 year 大禍日 亥, 狼藉日 子, 滅門日
+     巳; 往亡日 the 7th day; 天赦日 on 戊寅.
+2. **雨水 (usui)**, 正月中, 330°; 18 Feb (52), 19 Feb (48).
+   - Marks: the weather warms; snow and ice melt into water, and snow
+     turns to rain (NAOJ-24); the first spring storm (春一番) blows
+     (K8).
+   - KB: the yang 氣 comes out above ground; snow and ice melt into
+     rain-water. RM: set at 寅, wood; snow breaks up into rain-water.
+   - Names the 1st lunar month: the month that holds 雨水 is 正月.
+   - Hangs on it: nothing but the month's number.
+3. **啓蟄 (keichitsu)**, 二月節, 345°; 5 Mar (79), 6 Mar (18), 4 Mar
+   (3).
+   - Marks: insects that wintered underground crawl out (NAOJ-24); China
+     calls it 驚蟄 (NAOJ-24, NAOJ-W 二十四節気/歴史).
+   - KB: the yang 氣 stirs in the earth and the curled-up insects open
+     their holes. RM (as 驚蟄): set at 甲, wood; the hidden insects are
+     startled and run out; 甲, all things split their husks.
+   - Opens 卯月, the 2nd solar month.
+   - Hangs on it: in 卯月, for a person of a 卯 year 大禍日 午, 狼藉日 卯,
+     滅門日 子; 往亡日 the 14th day; 天赦日 on 戊寅.
+4. **春分 (shunbun)**, 二月中, 0°; 20 Mar (78), 21 Mar (20), 19 Mar
+   (2).
+   - Marks: the Sun rises due east and sets due west, and day and night
+     are about equal (NAOJ-24). The national holiday 春分の日 is the
+     equinox day (NAOJ-W 二十四節気とは？).
+   - KB: the Sun goes through the middle of the sky; day and night are
+     equal. RM: set at 卯, due east; the meeting of yin and yang, the
+     great one of its season.
+   - Names the 2nd lunar month.
+   - Hangs on it: spring 彼岸, the equinox day and three days either
+     side, the first day 彼岸の入り, the last 彼岸明け (NAOJ-W 雑節とは？);
+     the spring 社日, the 戊 day nearest the equinox (NAOJ-W; the tie
+     below). The middle day of 彼岸 has been the equinox only since the
+     天保暦's angle reckoning: to the 貞享暦 彼岸 began two days after
+     the (平気) equinox; the 宝暦暦 put its middle day two days before
+     春分 and two days after 秋分, so that it fell on equal day and night
+     (NAOJ-W 雑節とは？, *彼岸*). Since 2026-10-14 the page shows
+     the equinox in this row and no 彼岸の中日 (K2, above).
+5. **清明 (seimei)**, 三月節, 15°; 4 Apr (66), 5 Apr (34).
+   - Marks: everything is lively and looks pure and clear (NAOJ-24); the
+     word is short for 清浄明潔 (K8).
+   - KB: all things come forth pure and bright, so that each bud shows
+     which plant it is. RM: set at 乙, wood; the 氣 of heaven is pure and
+     bright and all things are grown and fair to see; 乙 is to push
+     through.
+   - Opens 辰月, the 3rd solar month.
+   - Hangs on it: in 辰月, for a person of a 辰 year 大禍日 丑, 狼藉日 午,
+     滅門日 未; 往亡日 the 21st day; 天赦日 on 戊寅. Under the 天保暦 the
+     spring 土用 was counted from 清明 (below, *土用*).
+6. **穀雨 (kokuu)**, 三月中, 30°; 20 Apr (63), 19 Apr (37).
+   - Marks: spring rain falls and moistens the grain (NAOJ-24).
+   - KB: spring rain falls and brings the hundred grains to life. RM:
+     set at 辰, earth; the Sun is in 昴, a western lodge, metal; metal
+     gives birth to water, so sweet rain falls.
+   - Names the 3rd lunar month.
+   - Hangs on it: the spring 土用 begins at 27°, about three days before
+     穀雨 (about 17 Apr), and runs to the day before 立夏; 八十八夜 (about
+     2 May) falls in 穀雨's span (NAOJ-W 雑節とは？).
+7. **立夏 (rikka)**, 四月節, 45°; 5 May (81), 6 May (12), 4 May (7).
+   - Marks: the start of summer; summer runs to the day before 立秋 (K8).
+   - KB: summer rises. RM: set at 巽, the south-east corner, wood; the
+     yang is strong above and the yin weak below.
+   - Opens 巳月, the 4th solar month.
+   - Hangs on it: the spring 土用 ends the day before. In 巳月, for a
+     person of a 巳 year 大禍日 申, 狼藉日 酉, 滅門日 寅; 往亡日 the 8th
+     day; 天赦日 on 甲午.
+8. **小満 (shōman)**, 四月中, 60°; 21 May (59), 20 May (41).
+   - Marks: all things grow and begin to fill heaven and earth (NAOJ-24).
+   - KB: all things fill out, and plants grow thick. RM: set at 巳,
+     fire; things are filled a little, hence 'small fullness'.
+   - Names the 4th lunar month.
+   - Hangs on it: nothing but the month's number.
+9. **芒種 (bōshu)**, 五月節, 75°; 5 Jun (76), 6 Jun (22), 4 Jun (2).
+   - Marks: the time to plant the awned grains such as rice (NAOJ-24);
+     sowing now comes much earlier (K8).
+   - KB: the time to sow the awned grains. RM: set at 丙, fire; the
+     awned grains may be sown; 丙 is bright, all things stand out.
+   - Opens 午月, the 5th solar month.
+   - Hangs on it: 入梅 (80°, about 11 Jun) falls in its span; until the
+     明治9 (1876) almanac 入梅 was the first 壬 day after 芒種 (from the
+     元文5 almanac 芒種 itself when it fell on a 壬 day), as KB has it too
+     (NAOJ-W 雑節とは？, *入梅*; KB, below). In 午月, for a person of a 午
+     year 大禍日 卯, 狼藉日 子, 滅門日 酉; 往亡日 the 16th day; 天赦日 on
+     甲午.
+10. **夏至 (geshi)**, 五月中, 90°; 21 Jun (80), 20 Jun (15), 22 Jun (5).
+    - Marks: the longest day of the year (NAOJ-24); in most of Japan it
+      falls in the rainy season (K8).
+    - KB: the yang heat is at its peak and the day at its longest. RM:
+      set at 午, fire; the great yang begins to bend and the yin to
+      rise; yin and yang face each other.
+    - Names the 5th lunar month.
+    - Hangs on it: the day star turns to 陰遁 at the 甲子 nearest 夏至
+      (`dayStar`); 半夏生 (100°, about 2 Jul) is its third 候 (RM: the 半夏
+      is a medicinal herb), the one 候 the 仮名暦 printed, and marks the
+      end of rice planting (NAOJ-W 雑節とは？; NAOJ-24).
+11. **小暑 (shōsho)**, 六月節, 105°; 7 Jul (64), 6 Jul (36).
+    - Marks: the heat sets in, and the rainy season ends about now
+      (NAOJ-24).
+    - KB: it comes before the great heat. RM: set at 丁, fire; the warm
+      wind comes from the south, the gate of heat; 丁 is to halt.
+    - Opens 未月, the 6th solar month.
+    - Hangs on it: in 未月, for a person of a 未 year 大禍日 戌, 狼藉日 卯,
+      滅門日 辰; 往亡日 the 24th day; 天赦日 on 甲午. 暑中見舞い are sent
+      from here to the day before 立秋 (NAOJ-W 二十四節気とは？, by its
+      contrast of 暑中 and 残暑). Under the 天保暦 the summer 土用 was
+      counted from 小暑 (below, *土用*).
+12. **大暑 (taisho)**, 六月中, 120°; 22 Jul (64), 23 Jul (36).
+    - Marks: the summer heat at its height (NAOJ-24); the summer 土用
+      (K8).
+    - KB: the heat comes to its extreme. RM: set at 未, earth; in the
+      month of heat its middle is the great one; 未 is taste, things near
+      ripeness.
+    - Names the 6th lunar month.
+    - Hangs on it: the summer 土用 begins at 117°, about three days
+      before 大暑 (about 19 Jul), and runs to the day before 立秋; its 丑
+      days are 土用の丑の日 (`Rekichu.zassetsu`; NAOJ-W 雑節とは？).
 
 ## K1: the Russian terms in the scholarly literature (ROADMAP K1)
 
