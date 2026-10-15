@@ -30,6 +30,7 @@ import zanshin.core.tibetan.personalMansions
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.time.SUPPORTED_RANGE
+import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.ZoneId
@@ -93,6 +94,19 @@ object Days {
 
     fun pageOf(date: LocalDate): Int =
         ChronoUnit.DAYS.between(first, date.coerceIn(SUPPORTED_RANGE.start, SUPPORTED_RANGE.endInclusive)).toInt()
+
+    /** Daybreak of the Tibetan day, the start of its hare hour (SPEC §5.13): the day runs to 05:00 the next morning. */
+    val DAWN: LocalTime = LocalTime.of(5, 0)
+
+    /**
+     * Today's page for [calendar] at [instant] (SPEC §4): the Tibetan day running now at [zone], the place whose
+     * hours the page shows, which before 05:00 is the date before; the 旧暦 day, the civil date in the phone's
+     * own zone, from midnight.
+     */
+    fun today(calendar: CalendarKind, zone: ZoneId, instant: Instant = Instant.now()): LocalDate = when (calendar) {
+        CalendarKind.TIBETAN -> instant.atZone(zone).let { if (it.toLocalTime() < DAWN) it.toLocalDate().minusDays(1) else it.toLocalDate() }
+        CalendarKind.KYUREKI -> instant.atZone(ZoneId.systemDefault()).toLocalDate()
+    }
 }
 
 /**

@@ -65,6 +65,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import zanshin.app.AppLanguage
 import zanshin.app.CalendarKind
@@ -109,8 +110,10 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     // Which calendar's election: the Tibetan weighing (E1–E3) or the 旧暦 listing (E5).
     var electionKyureki by remember { mutableStateOf(false) }
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
-    // Saveable like the pager's page, so that a task restored after its process was killed knows which day it took for today.
-    var today by rememberSaveable { mutableStateOf(LocalDate.now()) }
+    val zone = place?.place?.zone ?: ZoneId.systemDefault()
+    // Today's page (SPEC §4): the Tibetan day, which turns at 05:00, or the 旧暦's civil date. Saveable like the pager's
+    // page, so that a task restored after its process was killed knows which day it took for today.
+    var today by rememberSaveable { mutableStateOf(Days.today(calendar, zone)) }
 
     // The first-run line (ROADMAP U18): each page's first three opens show it, an open counted once a launch when the
     // page is first shown; a tap puts it away. Saveable, so that turning the phone is not another open.
@@ -135,12 +138,21 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     val pager = rememberPagerState(initialPage = Days.pageOf(today)) { Days.count }
     val drawer = rememberDrawerState(DrawerValue.Closed)
     val scope = rememberCoroutineScope()
-    // The date turned while the app was away: a page left on the old today follows to the new one, a day browsed to stays.
-    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
-        val now = LocalDate.now()
+    // Today turned, while the app was away or open, or with the calendar or the place: a page left on the old today
+    // follows to the new one, a day browsed to stays. Between midnight and 05:00 the Tibetan page stays on the day
+    // still running, whose hours hold the present one.
+    fun followToday() {
+        val now = Days.today(calendar, zone)
         if (now != today) {
             if (Days.dateOf(pager.currentPage) == today) scope.launch { pager.scrollToPage(Days.pageOf(now)) }
             today = now
+        }
+    }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { followToday() }
+    LaunchedEffect(calendar, zone) {
+        while (true) {
+            followToday()
+            delay(30_000)
         }
     }
 
@@ -263,7 +275,6 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
         },
     ) {
         val date = Days.dateOf(pager.currentPage)
-        val zone = place?.place?.zone ?: ZoneId.systemDefault()
         LaunchedEffect(openDay) {
             openDay?.let { pager.scrollToPage(Days.pageOf(it)) }
             openDay = null
