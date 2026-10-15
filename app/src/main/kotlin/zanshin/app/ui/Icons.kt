@@ -40,6 +40,9 @@ object Icons {
     /** A singing bowl and its striker, for the meditation timer. */
     val Bowl = stroke("M3 9.5h18M3 9.5c0 4.7 4 8.5 9 8.5s9-3.8 9-8.5M8.5 20.5h7M15.5 3.5l3 4", 1.7f)
 
+    /** A heart with the beat of a pulse, for the Health screen. */
+    val Pulse = stroke("M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20zM7.5 12h2.2l1.2-2.2 2 4.2 1.2-2h2.4", 1.7f)
+
     /** The 3×3 board of the nine stars. */
     val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
 

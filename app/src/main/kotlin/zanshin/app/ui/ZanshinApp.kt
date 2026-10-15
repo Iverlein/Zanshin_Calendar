@@ -57,6 +57,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.stateDescription
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -73,6 +79,7 @@ import zanshin.app.Cities
 import zanshin.app.DayInfo
 import zanshin.app.Days
 import zanshin.app.LocalLabels
+import zanshin.app.MenuGroup
 import io.github.iverlein.zanshin.R
 import zanshin.app.People
 import zanshin.app.Person
@@ -83,7 +90,7 @@ import zanshin.core.kyureki.Kigaku
 import java.time.LocalDate
 import java.time.ZoneId
 
-private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION }
+private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, HEALTH }
 
 /** The app; [meditationRequests] counts the timer notification's taps, each showing the meditation screen. */
 @Composable
@@ -110,6 +117,10 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     // Which calendar's election: the Tibetan weighing (E1–E3) or the 旧暦 listing (E5).
     var electionKyureki by remember { mutableStateOf(false) }
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
+    // The day the Health screen opens on (SPEC §10.10): the page shown when it was opened.
+    var healthDay by remember { mutableStateOf(LocalDate.now()) }
+    // The menu's groups, open or closed as each was last left (ROADMAP H3).
+    var openGroups by remember { mutableStateOf(MenuGroup.entries.associateWith(settings::menuGroupOpen)) }
     val zone = place?.place?.zone ?: ZoneId.systemDefault()
     // Today's page (SPEC §4): the Tibetan day, which turns at 05:00, or the 旧暦's civil date. Saveable like the pager's
     // page, so that a task restored after its process was killed knows which day it took for today.
@@ -198,6 +209,17 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             MeditationScreen(onBack = { screen = Screen.DAYS })
             return
         }
+        Screen.HEALTH -> {
+            BackHandler { screen = Screen.DAYS }
+            HealthScreen(
+                from = healthDay,
+                zone = zone,
+                person = people.current,
+                onPeople = ::openPeople,
+                onBack = { screen = Screen.DAYS },
+            )
+            return
+        }
         Screen.ELECTION -> {
             BackHandler { screen = Screen.DAYS }
             ElectionScreen(
@@ -253,9 +275,19 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     electionKyureki = calendar == CalendarKind.KYUREKI
                     screen = Screen.ELECTION
                 },
+                onHealth = {
+                    scope.launch { drawer.close() }
+                    healthDay = Days.dateOf(pager.currentPage)
+                    screen = Screen.HEALTH
+                },
                 onMeditation = {
                     scope.launch { drawer.close() }
                     screen = Screen.MEDITATION
+                },
+                openGroups = openGroups,
+                onGroup = { group, open ->
+                    openGroups = openGroups + (group to open)
+                    settings.setMenuGroupOpen(group, open)
                 },
                 onLocation = {
                     scope.launch { drawer.close() }
@@ -305,7 +337,13 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             ) { page ->
                 val info = remember(page, zone, birth) { DayInfo.of(Days.dateOf(page), zone, birth) }
                 when (calendar) {
-                    CalendarKind.TIBETAN -> TibetanPage(info, zone, person = people.current, place = place?.place, onFirstRun = onFirstRun) { work ->
+                    CalendarKind.TIBETAN -> TibetanPage(
+                        info, zone, person = people.current, place = place?.place, onFirstRun = onFirstRun,
+                        onHealth = {
+                            healthDay = info.date
+                            screen = Screen.HEALTH
+                        },
+                    ) { work ->
                         electionWork = work
                         electionFrom = info.date
                         electionKyureki = false
@@ -561,7 +599,10 @@ private fun SideMenu(
     onKigaku: (Boolean) -> Unit,
     onCalendar: (CalendarKind) -> Unit,
     onElection: () -> Unit,
+    onHealth: () -> Unit,
     onMeditation: () -> Unit,
+    openGroups: Map<MenuGroup, Boolean>,
+    onGroup: (MenuGroup, Boolean) -> Unit,
     onLocation: () -> Unit,
     onAbout: () -> Unit,
     languageLabel: String,
@@ -589,34 +630,40 @@ private fun SideMenu(
                 Text(stringResource(R.string.menu_title), style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 24.sp))
                 IconButton(onClick = onClose) { Icon(Icons.Close, contentDescription = stringResource(R.string.menu_close), tint = Palette.muted) }
             }
-            SectionLabel(stringResource(R.string.menu_calendar))
-            CalendarRow(
-                stringResource(R.string.calendar_tibetan),
-                stringResource(R.string.menu_tibetan_subtitle),
-                calendar == CalendarKind.TIBETAN,
-                Palette.saffron,
-            ) { onCalendar(CalendarKind.TIBETAN) }
-            CalendarRow(
-                stringResource(R.string.menu_kyureki),
-                stringResource(R.string.menu_kyureki_subtitle),
-                calendar == CalendarKind.KYUREKI,
-                Palette.vermilion,
-            ) {
-                onCalendar(CalendarKind.KYUREKI)
+            // The groups fold (ROADMAP H3): each header opens and closes its own rows, closed on a fresh install.
+            MenuGroupSection(MenuGroup.CALENDAR, stringResource(R.string.menu_calendar), openGroups, onGroup) {
+                CalendarRow(
+                    stringResource(R.string.calendar_tibetan),
+                    stringResource(R.string.menu_tibetan_subtitle),
+                    calendar == CalendarKind.TIBETAN,
+                    Palette.saffron,
+                ) { onCalendar(CalendarKind.TIBETAN) }
+                CalendarRow(
+                    stringResource(R.string.menu_kyureki),
+                    stringResource(R.string.menu_kyureki_subtitle),
+                    calendar == CalendarKind.KYUREKI,
+                    Palette.vermilion,
+                ) {
+                    onCalendar(CalendarKind.KYUREKI)
+                }
+                // The election, under the two calendars, for the one shown: the Tibetan day's weighing read across
+                // days (ROADMAP E2), or the 旧暦 annotations listed across days (E5).
+                MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
+                // Health, the Tibetan day's illness, the la and the person's element on a screen of their own (SPEC §10.10).
+                MenuRow(Icons.Pulse, stringResource(R.string.menu_health), stringResource(R.string.menu_health_subtitle), onHealth)
             }
-            // The election, under the two calendars, for the one shown: the Tibetan day's weighing read across
-            // days (ROADMAP E2), or the 旧暦 annotations listed across days (E5).
-            MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
             MenuSeparator()
             // Practice: the meditation timer and the mindfulness bell, a screen of their own (SPEC §10.9).
-            SectionLabel(stringResource(R.string.menu_practice))
-            MenuRow(Icons.Bowl, stringResource(R.string.menu_meditation), stringResource(R.string.menu_meditation_subtitle), onMeditation)
+            MenuGroupSection(MenuGroup.PRACTICE, stringResource(R.string.menu_practice), openGroups, onGroup) {
+                MenuRow(Icons.Bowl, stringResource(R.string.menu_meditation), stringResource(R.string.menu_meditation_subtitle), onMeditation)
+            }
             MenuSeparator()
-            SectionLabel(stringResource(R.string.menu_settings))
-            MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
-            MenuRow(Icons.Person, stringResource(R.string.menu_people), personLabel, onPeople)
-            SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
-            MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
+            MenuGroupSection(MenuGroup.SETTINGS, stringResource(R.string.menu_settings), openGroups, onGroup) {
+                MenuRow(Icons.Pin, stringResource(R.string.menu_location), placeLabel ?: stringResource(R.string.not_set), onLocation)
+                MenuRow(Icons.Person, stringResource(R.string.menu_people), personLabel, onPeople)
+                SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
+                MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
+            }
             MenuSeparator()
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
         }
@@ -629,13 +676,46 @@ private fun MenuSeparator() {
     Box(Modifier.padding(horizontal = 24.dp, vertical = 12.dp).fillMaxWidth().height(1.dp).background(Palette.line))
 }
 
+/**
+ * A group of the menu (ROADMAP H3): its small-capital label as a header row with a chevron that turns to show
+ * whether the group is open, and its rows folding in and out under it. Screen readers get the header as a
+ * button with its state.
+ */
 @Composable
-private fun SectionLabel(text: String) {
-    Text(
-        text,
-        style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 1.2.sp, color = Palette.faint),
-        modifier = Modifier.padding(horizontal = 24.dp, vertical = 8.dp),
-    )
+private fun MenuGroupSection(
+    group: MenuGroup,
+    label: String,
+    openGroups: Map<MenuGroup, Boolean>,
+    onGroup: (MenuGroup, Boolean) -> Unit,
+    rows: @Composable () -> Unit,
+) {
+    val open = openGroups[group] == true
+    val turn by animateFloatAsState(if (open) 180f else 0f, label = "chevron")
+    val state = stringResource(if (open) R.string.menu_group_open else R.string.menu_group_closed)
+    Column {
+        Row(
+            Modifier
+                .padding(horizontal = 12.dp)
+                .fillMaxWidth()
+                .heightIn(min = 44.dp)
+                .clickable(role = Role.Button, onClickLabel = stringResource(if (open) R.string.menu_group_close else R.string.menu_group_expand)) {
+                    onGroup(group, !open)
+                }
+                .semantics { stateDescription = state }
+                .padding(horizontal = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween,
+        ) {
+            Text(
+                label,
+                style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 1.2.sp, color = Palette.faint),
+            )
+            Icon(Icons.ChevronDown, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(18.dp).graphicsLayer { rotationZ = turn })
+        }
+        AnimatedVisibility(visible = open, enter = expandVertically(), exit = shrinkVertically()) {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) { rows() }
+        }
+    }
 }
 
 @Composable

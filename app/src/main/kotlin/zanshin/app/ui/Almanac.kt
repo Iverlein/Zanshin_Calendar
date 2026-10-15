@@ -335,7 +335,8 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
             a.diagram?.let { Centered(it) }
             val r = a.reading
             if (r == null) {
-                Text(stringResource(R.string.sheet_no_reading), style = body.copy(color = Palette.faint))
+                // A part that is one row of another reading (the Health screen's illness rows) shows that row alone.
+                if (a.details.isNotEmpty()) DetailsBlock(a.details, labelWidth) else Text(stringResource(R.string.sheet_no_reading), style = body.copy(color = Palette.faint))
                 return@Column
             }
             if (r.summary.isNotBlank()) Text(withTibetan(r.summary), style = body.copy(fontSize = 16.sp, lineHeight = 23.sp))

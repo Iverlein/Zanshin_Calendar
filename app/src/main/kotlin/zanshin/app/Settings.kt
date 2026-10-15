@@ -13,6 +13,9 @@ import kotlin.math.abs
 
 enum class CalendarKind { TIBETAN, KYUREKI }
 
+/** The menu's groups, each opened and closed on its own (SPEC §10.5); About & sources stands outside them. */
+enum class MenuGroup { CALENDAR, PRACTICE, SETTINGS }
+
 /** Where the sky line is computed for, as the owner chose it (SPEC §10.5). */
 data class SavedPlace(val label: String, val place: Place)
 
@@ -84,6 +87,16 @@ class Settings(context: Context) {
     fun setFirstRunOpens(kind: CalendarKind, opens: Int) = prefs.edit().putInt(firstRunKey(kind), opens).apply()
 
     private fun firstRunKey(kind: CalendarKind) = "first_run_" + kind.name.lowercase(Locale.ROOT)
+
+    /**
+     * Whether the menu's group [group] is open (SPEC §10.5, ROADMAP H3): every group closed on a fresh install, each
+     * keeping the state it was last left in, apart from the others.
+     */
+    fun menuGroupOpen(group: MenuGroup): Boolean = prefs.getBoolean(menuGroupKey(group), false)
+
+    fun setMenuGroupOpen(group: MenuGroup, open: Boolean) = prefs.edit().putBoolean(menuGroupKey(group), open).apply()
+
+    private fun menuGroupKey(group: MenuGroup) = "menu_" + group.name.lowercase(Locale.ROOT)
 
     /** The app's language before Android 13 (see [AppLanguage]); null follows the phone. */
     var language: String?

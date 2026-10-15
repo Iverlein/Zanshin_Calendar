@@ -113,6 +113,8 @@ fun TibetanPage(
     place: Place? = null,
     /** Shows the first-run line under the brief (ROADMAP U18); a tap on it calls this. */
     onFirstRun: (() -> Unit)? = null,
+    /** Opens the Health screen on this day, from Your day's last row (SPEC §10.10). */
+    onHealth: () -> Unit = {},
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -733,16 +735,14 @@ fun TibetanPage(
         }
         Column { annotations.forEach { AnnotationRow(it.copy(outline = !it.decides)) { a -> sheet = a } } }
 
+        // The vitality and body of the date stand on the Health screen with the person's element and the la
+        // (ROADMAP H1); Your day ends with the way there.
         val birth = info.birthSign
         if (yours.isNotEmpty() || birth != null) {
             SectionTitle(stringResource(R.string.section_your_day))
             Column {
                 yours.forEach { AnnotationRow(it) { a -> sheet = a } }
-                if (birth != null) {
-                    for (force in listOf(Force.VITALITY, Force.BODY)) {
-                        AnnotationRow(pebbleAnnotation(force, birth, info.signs, day, labels)) { a -> sheet = a }
-                    }
-                }
+                if (birth != null) ScreenLinkRow(stringResource(R.string.menu_health), stringResource(R.string.your_day_health), onHealth)
             }
         }
 
