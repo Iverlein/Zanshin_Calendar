@@ -84,8 +84,8 @@ class LinkVersesTest {
             assertTrue(Activities.of(reading.goodKeys).none { it in Activities.of(verseAvoid) }, "$link")
             assertTrue(Activities.of(reading.avoidKeys).none { it in Activities.of(verseGood) }, "$link")
             assertEquals(Sources.WHITE_BERYL_LINKS, reading.source)
-            // Each reading carries the directions, the remedy and the birth as rows, in the rows' order.
-            assertEquals(listOf(ReadingRow.SETTING_OUT, ReadingRow.REMEDY, ReadingRow.BIRTH), reading.rows.map { it.first }, "$link")
+            // Each reading carries the directions, the remedy, the illness (block 26) and the birth as rows, in the rows' order.
+            assertEquals(listOf(ReadingRow.SETTING_OUT, ReadingRow.REMEDY, ReadingRow.ILLNESS, ReadingRow.BIRTH), reading.rows.map { it.first }, "$link")
         }
         // The sense sources' day: the lists' consecration to avoid (box 49) stays, the verse naming it neither way.
         assertTrue("consecration" in Texts.TWELVE_LINK.getValue(SOURCES).avoidKeys)

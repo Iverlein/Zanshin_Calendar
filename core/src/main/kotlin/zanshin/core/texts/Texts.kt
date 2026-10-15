@@ -48,6 +48,10 @@ import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.Sector
 import zanshin.core.tibetan.SmeBaObstacle
+import zanshin.core.tibetan.ElementQuarter
+import zanshin.core.tibetan.GraveMansion
+import zanshin.core.tibetan.Humour
+import zanshin.core.tibetan.MedicalSeason
 
 /*
  * Readings shown on demand (SPEC §8). Each has a published source and a
@@ -361,6 +365,25 @@ object Sources {
         "https://library.bdrc.io/show/bdr:MW1PD152297",
     )
     val WHITE_BERYL_GODDESSES = whiteBeryl("pp. 449–450", volume = 1)
+    /** The element's mansions and grave mansions, counted by the life force (docs/sources/personal-mansions.md, *By element*). */
+    val WHITE_BERYL_ELEMENT_MANSIONS = whiteBeryl("p. 330, with the tables pp. 345–346")
+    /** The la as the mother of the life force, and the life force of the year animals (docs/sources/health.md, RD10). */
+    val WHITE_BERYL_LA = whiteBeryl("chapter 21, p. 253", volume = 1)
+    /** The year of age on the seven-red, by its colour alone, the full round and the short (docs/sources/health.md, RD10). */
+    val WHITE_BERYL_SEVEN_RED = whiteBeryl("chapter 24, pp. 403–404", volume = 1)
+    private const val FOUR_TANTRAS = "The Four Tantras (རྒྱུད་བཞི, rgyud bzhi), the Serthang print (གསེར་ཐང, gser thang)"
+    /** The humours' seasons and hours, and conduct by the place (docs/sources/health.md, RD9). */
+    val FOUR_TANTRAS_ROOT = Source(
+        "$FOUR_TANTRAS, the Root Tantra (རྩ་རྒྱུད, rtsa rgyud), chapters 3 and 6, pp. 9–13",
+        "BDRC MW3CN5036",
+        "https://library.bdrc.io/show/bdr:MW3CN5036",
+    )
+    /** The six seasons' food and conduct (docs/sources/health.md, RD9). */
+    val FOUR_TANTRAS_SEASONS = Source(
+        "$FOUR_TANTRAS, the Explanatory Tantra (བཤད་རྒྱུད, bshad rgyud), chapter 14, pp. 49–50",
+        "BDRC MW3CN5036",
+        "https://library.bdrc.io/show/bdr:MW3CN5036",
+    )
     val WHITE_BERYL_RAHU = whiteBeryl("pp. 236–239")
     val WHITE_BERYL_DUS_SBYOR = whiteBeryl("pp. 371–376")
     val WHITE_BERYL_COMBINATION_DAYS = whiteBeryl("pp. 335–337, with the table p. 341")
@@ -1525,6 +1548,39 @@ object Texts {
     )
 
     /** Lucky for the birth, own, mother and friend weekdays and the birth mansion; unlucky for the enemy weekday; none for the child's, which is middling. */
+    /**
+     * The day's mansion as a quarter of the person's element, counted by the life force (WB vol. 2, p. 330, with
+     * the tables pp. 345–346): the own quarter good for anything, the mother's and friend's good, the child's
+     * middling; the enemy's has no reading of its own, unlike the enemy weekday (SPEC §10.10).
+     */
+    val ELEMENT_QUARTER: Map<ElementQuarter, Reading> =
+        keyed(*ElementQuarter.entries.map { it to Reading(source = Sources.WHITE_BERYL_ELEMENT_MANSIONS) }.toTypedArray())
+
+    fun elementQuarterTone(q: ElementQuarter): Tone = when (q) {
+        ElementQuarter.OWN, ElementQuarter.MOTHER, ElementQuarter.FRIEND -> Tone.GOOD
+        ElementQuarter.CHILD, ElementQuarter.ENEMY -> Tone.NEUTRAL
+    }
+
+    /** The grave mansions, reckoned for the dead and with no reading for the living's day (docs/sources/personal-mansions.md). */
+    val GRAVE_MANSION: Map<GraveMansion, Reading> =
+        keyed(*GraveMansion.entries.map { it to Reading(source = Sources.WHITE_BERYL_ELEMENT_MANSIONS) }.toTypedArray())
+
+    /** The la's element, the mother of the life force's (WB vol. 1, p. 253). */
+    val LA_ELEMENT = Reading(source = Sources.WHITE_BERYL_LA, key = "reading.LaElement")
+
+    /** The la's course within any day, and treatment avoided where it stands (WB vol. 2, p. 304). */
+    val LA_HOURS = Reading(source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LaHours")
+
+    /** The year of age on the seven-red by its colour alone (WB vol. 1, pp. 403–404); by the natal mewa it is [yearMewa]'s. */
+    val SEVEN_RED_YEAR = Reading(source = Sources.WHITE_BERYL_SEVEN_RED, key = "reading.SevenRedYear")
+
+    /** The Root Tantra's humours: each one's season and hours, its people and its country, and its conduct (ch. 3 and 6). */
+    val HUMOUR: Map<Humour, Reading> = keyed(*Humour.entries.map { it to Reading(source = Sources.FOUR_TANTRAS_ROOT) }.toTypedArray())
+
+    /** The Explanatory Tantra's six seasons, their food and conduct (ch. 14). */
+    val MEDICAL_SEASON: Map<MedicalSeason, Reading> =
+        keyed(*MedicalSeason.entries.map { it to Reading(source = Sources.FOUR_TANTRAS_SEASONS) }.toTypedArray())
+
     fun ownDayTone(d: OwnDay): Tone = when (d) {
         OwnDay.ENEMY_WEEKDAY -> Tone.BAD
         OwnDay.CHILD_WEEKDAY -> Tone.NEUTRAL

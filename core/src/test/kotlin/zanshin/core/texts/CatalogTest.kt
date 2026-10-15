@@ -53,6 +53,11 @@ import zanshin.core.tibetan.Sector
 import zanshin.core.tibetan.SmeBaObstacle
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.YearReckoning
+import zanshin.core.tibetan.ElementQuarter
+import zanshin.core.tibetan.GraveMansion
+import zanshin.core.tibetan.Humour
+import zanshin.core.tibetan.LaHour
+import zanshin.core.tibetan.MedicalSeason
 import java.io.File
 import java.util.Locale
 import javax.xml.parsers.DocumentBuilderFactory
@@ -72,6 +77,7 @@ class CatalogTest {
             StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries, LetterElement.entries, SenseObject.entries, LifeStage.entries, Link.entries,
             BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries, ReadingRow.entries,
+            ElementQuarter.entries, GraveMansion.entries, Humour.entries, MedicalSeason.entries, LaHour.entries,
         ).flatten()
         terms.forEach { present(glossKey(it)) }
         Weekday.entries.forEach { present(glossKey(it, "planet")) }
@@ -79,6 +85,8 @@ class CatalogTest {
         (Element.entries + Gender.entries).forEach { present(glossKey(it, "inText")) }
         TibetanFestival.entries.forEach { present(glossKey(it, "title")) }
         Trigram.entries.forEach { present(glossKey(it, "goddess")) }
+        LaHour.entries.forEach { present(glossKey(it, "place")) }
+        (1..30).forEach { present("LaPlace.$it") }
         (0..9).forEach { present("Stem.$it") }
         (0..11).forEach { present("Branch.$it") }
         (1..12).forEach { present("KyurekiMonth.$it"); present("Season.$it") }
@@ -98,8 +106,9 @@ class CatalogTest {
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
             Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA,
             Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
-            Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
-        ).flatMap { it.values } + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
+            Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR,
+            Texts.MEDICAL_SEASON,
+        ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
@@ -279,8 +288,8 @@ class CatalogTest {
             Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL,
             Texts.EARTH_LORD, Texts.BLA_MKHYEN, Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.RAHU_MONTH,
             Texts.WORKS_SIGN, Texts.SEASON_SIGN, Texts.DATE_SME_BA, Texts.TWELVE_LINK, Texts.HUNDRED_FEET, Texts.HOUR_HIDDEN,
-            Texts.HOUR_WORKS,
-        ).flatMap { it.values } + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
+            Texts.HOUR_WORKS, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR, Texts.MEDICAL_SEASON,
+        ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
             Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS +
             Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI +
             Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY + Texts.NECTAR_PERIODS + Texts.COMET +
@@ -312,7 +321,7 @@ class CatalogTest {
         val orphans = english.keys.filter { isRow(it) && it.substringBeforeLast('.') !in entries }
         assertEquals(emptyList<String>(), orphans.sorted(), "rows of no reading")
         assertEquals(
-            listOf(ReadingRow.ALSO_CALLED, ReadingRow.LA, ReadingRow.BIRTH, ReadingRow.DEATH, ReadingRow.LIVESTOCK),
+            listOf(ReadingRow.ALSO_CALLED, ReadingRow.ILLNESS, ReadingRow.LA, ReadingRow.BIRTH, ReadingRow.DEATH, ReadingRow.LIVESTOCK),
             Texts.LUNAR_DATE.first().rows.map { it.first },
         )
     }
@@ -450,6 +459,8 @@ class CatalogTest {
                 "BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut", "YearPebble", "YearPredictive", "YearSector", "YearDecline",
                 "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
             ),
+            // The Health screen's own readings (block 26), written in the shape: no allowance.
+            "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
         /**
@@ -464,7 +475,7 @@ class CatalogTest {
          */
         val ALLOWANCE: Map<String, Int> = mapOf(
             "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
-            "X4" to 28, // the weekdays and the goddesses' days (block 43)
+            "X4" to 24, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
             "X5" to 95, // the combination and the special days (block 44); 91 under 20 words
             "X6" to 40, // the yogas, the karaṇa and the mansions (block 45); 34 under 20 words
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
