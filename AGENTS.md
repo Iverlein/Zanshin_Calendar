@@ -114,8 +114,8 @@ the changelog waits for the release.
   adding a library: `aapt2 dump permissions app/build/outputs/apk/debug/app-debug.apk`.
 - **No text without a published source** (SPEC §8): never a reading from
   memory, never copyrighted wording, nothing under a non-commercial licence.
-  The White Beryl counts above every other source, and no Bon text is a
-  source. In full — `.agents/rules/sources.md`.
+  The White Beryl counts above every other source (on medicine, all but
+  the Four Tantras), and no Bon text is a source. In full — `.agents/rules/sources.md`.
 - **Name every Tibetan word so that it can be found** (SPEC §8.1): English
   name first, then script and Wylie in brackets at the first mention, in every
   text — `.agents/rules/sources.md`.

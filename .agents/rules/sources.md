@@ -62,7 +62,9 @@ paths:
   when its topic file holds it; `SourcesTest` checks that.
 - **No text under a non-commercial licence** (CC BY-NC and the like): F-Droid
   would label the app *Non-Free Assets*.
-- **The White Beryl counts above every other source, and no Bon text is a
-  source** (SPEC §8.1). The Bon *snang srid me long* (`docs/sources/README.md`,
+- **The White Beryl counts above every other source but the Four Tantras on
+  medicine, and no Bon text is a source** (SPEC §8.1). A source that differs
+  from WB on a medical point is traced to what it rests on first: from the
+  Four Tantras it is followed, from anything else WB stands. The Bon *snang srid me long* (`docs/sources/README.md`,
   SN) is a witness to WB only: read it to check WB, never build or cite
   what only it gives.

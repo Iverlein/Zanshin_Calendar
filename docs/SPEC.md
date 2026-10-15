@@ -1552,7 +1552,12 @@ app containing one with the *Non-Free Assets* anti-feature.
 
 **The White Beryl counts above every other source** (decided by the owner,
 2026-10-08): where another source disagrees with it, WB decides; where WB
-is silent, the other may stand, named as its own. **Witnesses are not
+is silent, the other may stand, named as its own. One text counts above
+it on medicine (owner, 2026-10-15): the Four Tantras (རྒྱུད་བཞི, rgyud
+bzhi). Where another source differs from WB on a medical point, what it
+rests on is traced first; a difference that comes from the Four Tantras
+is followed, any other loses to WB (the la's course by date, ROADMAP
+D14). **Witnesses are not
 sources:** a text read only to check a reading of WB, the Bon *snang srid
 me long* among them ([sources/README.md](sources/README.md), SN), is never
 an annotation's `Source`, and nothing that only it states is shown. No Bon
