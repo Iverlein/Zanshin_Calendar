@@ -978,6 +978,92 @@ good and bad fortune" (§22). The expert's "no such rule existed" holds
 for the almanac's bands; the 1414 writer does subordinate one school,
 the 宿曜道's, to the 陰陽道's five-agent reckoning.
 
+### For K6-R
+
+The 暦林問答集's passages on the 節気, not read here (K6-R's):
+
+- §17 二十四氣七十二候, the twenty-four terms with their months, stems
+  and branches and the seventy-two pentads: GR img. 18–27 (from img. 18
+  left to img. 27); MS img. 17–25.
+- §24 月建, the month named by the Dipper's handle, the 寅 month first
+  (the 節月's basis): GR img. 34–35 (quoted above under the 十二直).
+- §25 土用 and §27 社日 (above), §28 三伏 (GR img. 40–41, the 庚 days after
+  夏至 and 立秋), §42 往亡 (above: its days counted from the twelve 節).
+
+### For K6-R's questions
+
+Read on the manuscript (MS, pid 2533201) for the doubtful places K6-R
+found in GR:
+
+1. 小寒 «配于亥» (GR img. 26): MS img. 24, left page, reads
+   «小寒十二月節配于癸», and its gloss «故癸主十一月以配於水»: **癸** in both
+   places. (MS writes 十一月 in the gloss, as read; whether that is
+   the copyist's slip was not settled.)
+2. 秋分's «故酉主地分» (GR img. 24): MS img. 22, left page,
+   «故酉主秋分以配于金»: **秋分**. MS also has «雷潜入地下伏» where GR has
+   «地中伏».
+3. «又小暑者極熱之物也» (GR img. 22): MS img. 20, left page,
+   «又小暑者極熱之初也»: **初**, "the beginning of the great heat".
+4. «又大大暑月半極熱之中為大» (GR img. 23): MS img. 21, right page,
+   «又大暑者月半極熱之中為大»: **one 大**, and 者 after 暑.
+5. The glyph like 刀 in the 土用 passage (GR img. 38): MS img. 32, left
+   page, writes the same glyph, «春木用事刀十八日甲十八日»; and MS img. 36
+   writes it again where the sense must be 寅, in 天赦 «春戊刀» (戊寅) and
+   母倉 «刀卯» (寅卯). So it is this tradition's short form of **寅**, not a
+   slip of the print.
+6. «秋金用時無禁金石» / «冬水用時無澤池堰» (GR img. 39): MS img. 33, right
+   page, «秋金用時无焚金石», «冬水用時无決池堰»: **焚** (do not burn metal
+   and stone) and **決** (do not breach ponds and weirs).
+
+### Open
+
+- Question: the expert (2026-10-14) said 歳徳神 is reckoned otherwise
+  today than in the fourteenth century. In the 暦林問答集 (1414) the 歳徳's
+  direction by the year's stem is the modern one, 戊・癸 going to the
+  centre, which a note places at 丙. Which difference did she mean: the
+  centre for 戊・癸, the year's beginning, the goddess 歳徳神 herself, or
+  the customs of the 恵方?
+- Question: the 暦林問答集 gives the three bad days (滅門・大禍・狼藉) as
+  the 宿曜經's monthly days, with no table and no birth year, and its
+  writer limits them to Buddhist matters. Is the 簠簋内伝's table by
+  solar month and birth year the 宿曜道's own reckoning, or the 簠簋内伝's?
+  And is a reading that says "bad for everything" or one that says "bad
+  for the Three Jewels' matters" the one an onmyōdō practitioner would
+  follow?
+- Question: §59's twenty-eight mansions are the 宿曜經's seven classes,
+  with 牛 apart. Did the 具注暦 of the 15th century print the 二十八宿 with
+  these classes, and from where do the modern almanac's lists (the
+  app's) come?
+- Question: 往亡 (§42) counts "the 7th day from 立春" and so on: is the
+  節's own day the first day (the app's count) or day zero?
+- Question: §43 says that on 日遊's days in the house one must not sweep
+  it; the modern readings say to keep the house clean. Which do the
+  present-day almanacs print?
+- Question: in §53 the shapes of 天一 at 辛未 and 壬午 («人頭半身»,
+  «人頭竜身» as read) are unclear on GR; what are they?
+- Question: «土羨老» in §25 (GR and MS alike) and «丁歳之数» in §42: what is
+  meant?
+
+### Searched and not found
+
+- A section on the 六曜, the day's 九星, 大明日, 節徳日, 鬼宿日, 受死日, 十死日,
+  天火日, 地火日, 一粒万倍日, 不成就日, 三隣亡, 十方暮, 八専, 犯土 or the 縁日's
+  festivals: none in either table of contents (GR img. 3–4, 36–37), and
+  none of these words was met in the sections read for this reading
+  (§6–§7, §22, §24, §25, §27, §32–§36, §40–§43, §51, §53, §58–§59,
+  §61–§64, the preface and afterword). The other sections (§1–§5, §8–§21,
+  §23, §26, §28–§31, §37–§39, §44–§50, §52, §54–§57, §60) were looked at,
+  not read word by word.
+- A table of the three bad days, or any tie of them to the birth year:
+  none in §61 or §64 (GR img. 54–56, MS img. 46).
+- The separate 文化8 (1811) woodblock printing on the internet: not
+  digitized by the NDL (record 000007481577, no pid); 国書データベース,
+  CiNii and other libraries' copies not searched.
+- A full-text API for the NDL scans: the NDL Lab's fulltext API answers
+  "This PID is not allowed" for pid 14488380 (2026-10-15); the
+  Digital Collections' own full-text search was used only to list the
+  copies.
+
 ## K6-R: the twenty-four solar terms (ROADMAP K6)
 
 A reading for each of the 二十四節気 the page's term row will open: what
