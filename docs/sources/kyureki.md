@@ -1776,6 +1776,10 @@ the printed almanac's frame (SPEC §7).
 
 ### Open
 
+The five questions on RM's print (小寒, 秋分, 小暑, 大暑, the 土用 passage)
+are answered from the manuscript, pid 2533201, in K3-R's *For K6-R's
+questions* (2026-10-15).
+
 - Question: RM's 群書類從 print sets 小寒 «配于亥» (image 26, left page)
   while its own gloss says «故癸主十二月» and the series of directions
   asks 癸: is 亥 a misprint, and what does the manuscript (pid 2533201)

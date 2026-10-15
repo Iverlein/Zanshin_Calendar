@@ -517,3 +517,10 @@ Searched and found wanting, so not to be repeated:
   NDL only as modern reprints, none digitised. NDL IIIF full-size image
   URLs answer 307: fetch with `curl -L`. The NDL catalogue answers 429 when
   several readers search at once (`ndl.py` now retries and prints pids).
+- **The 暦林問答集** (K3-R, 2026-10-15): the 文化8 (1811) printing (NDL
+  record 000007481577) is not digitised; the NDL Lab full-text API answers
+  "This PID is not allowed" for pid 14488380; no table of the 三箇悪日 and
+  no birth-year rule in §61 or §64; no section on the 六曜, the day's 九星,
+  大明日, 節徳日, 鬼宿日, 受死日, 十死日, 天火日, 地火日, 一粒万倍日,
+  不成就日, 三隣亡, 十方暮, 八専, 犯土 or the 縁日 (contents, GR img. 3–4,
+  36–37).

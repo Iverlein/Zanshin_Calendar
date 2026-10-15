@@ -282,6 +282,25 @@ direction gods (K5) and a check against a paper almanac (D12).
   the old texts are silent — and SPEC §8.1 gets the 旧暦 rule beside
   WB's. Until then the 簠簋内伝 stays the 三箇の悪日's source, named as its
   own.
+- **K3-R read 2026-10-15** ([sources/kyureki.md](sources/kyureki.md),
+  *K3-R*): 賀茂在方's 『暦林問答集』 (preface 應永甲午, 1414; 64 questions), the
+  群書類從 woodblock (NDL pid 14488380) with the manuscript ちニ-5 (pid
+  2533201) as witness. What it gives for the annotations the app shows:
+  the 十二直's old good-lists (wider than the app's modern ones; 破 has
+  good works); 歳徳 by the year's stem, the modern directions; 天恩, 天赦,
+  帰忌, 往亡, 重, 復, 母倉 agreeing with the app's tables but 母倉's autumn
+  (丑未 only, the app 丑辰未戌); 歳下食 light, used where stem and branch
+  are good; 天一's whole course; 日遊 in the house 癸巳–己酉 and on 戊/己
+  days, **"do not sweep the house"**, against the app's reading «keep it
+  clean» (`reading.Senjitsu.TENICHI_TENJO`, both languages): a correction
+  for this block; 土用 "do not move earth"; 社日 the 戊 day near the
+  equinox with no tie rule; the 二十八宿 only as the 宿曜経's seven classes;
+  the 三箇悪日 as the 宿曜経's monthly days with **no table and no birth
+  year**, binding Buddhist matters only. Its one precedence statement (§64):
+  the 宿曜経's days bind only Buddhist matters, their good days count only
+  where stem and branch are good. Silent on the 六曜, the day's 九星 and
+  most 選日. D8 now has what it needs; the year's direction gods (§6,
+  §8–14, img. 11–16) are located for K5, not read.
 - **Block.** [53](#block-53), after K3-R and D8.
 - **Done when.** The reading in kyureki.md; D8 settled; SPEC §7.5 and §8.1.
 
@@ -299,7 +318,9 @@ as a dead end (sources/PLAN.md).
 - **天一神's course.** The sixteen days in heaven are computed (癸巳–戊申);
   his directions on the other forty-four days are not. Check the course
   against a source (question 15); whether the directions are shown is
-  K5's.
+  K5's. Found 2026-10-15: the 暦林問答集 §53 (GR img. 49–50)
+  gives the whole course (己酉 north-east 6 days, 乙卯 east 5, … 戊子 north
+  5, then 16 days in heaven from 癸巳), kyureki.md *K3-R*.
 - **天一天上 as printed today.** She (2026-10-14): 天一 is among the
   archaic annotations no longer used. koyomi8 lists 天一天上 among the
   選日 of the present almanac; rekichu.com printed none on 2026-10-14; the
@@ -308,7 +329,9 @@ as a dead end (sources/PLAN.md).
   frame (SPEC §7) and stays only as a sourced reading behind the 干支, or
   goes.
 - **歳徳神 as reckoned today.** She (2026-10-14): reckoned otherwise today
-  than in the fourteenth century. The app takes the 恵方 from the year's
+  than in the fourteenth century. The 暦林問答集 (1414) gives the modern directions by
+  the stem, 戊・癸 to the centre placed at 丙 (kyureki.md *K3-R*); which
+  difference she meant is asked there. The app takes the 恵方 from the year's
   stem as the modern almanacs do (SPEC §7.5). Find what the old reckoning
   was (K3-R may say; else ask her for the text) and whether the 恵方 row
   should name the modern rule as modern.
