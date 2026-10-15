@@ -835,4 +835,19 @@
     <string name="health_medicine_note">From the Four Tantras of medicine: they name no works and the almanac\'s weighing does not count them, so their dots are grey.</string>
     <string name="health_section_humours">The three humours</string>
     <string name="health_section_seasons">The six seasons</string>
+
+    <!-- The Reckonings (SPEC §10.5, §10.11; ROADMAP R1) -->
+    <string name="menu_reckonings_group">RECKONINGS</string>
+    <string name="menu_reckonings">Element reckoning</string>
+    <string name="menu_reckonings_subtitle">Your year of age and its pebbles</string>
+    <!-- the Reckonings screen's first line: a pebble is a counter laid by the elements' relation, not a throw (docs/sources/reckonings.md) -->
+    <string name="reckonings_note">The element reckoning (འབྱུང་རྩིས, \'byung rtsis) lays white and black pebbles by how the elements of your signs meet those of the time; nothing in it is cast by chance.</string>
+    <string name="reckonings_no_person">The reckonings are made from a birth date.</string>
+    <string name="reckonings_section_built">Your reckonings</string>
+    <!-- the year of age's row in the list: "Your 51st year · Fire Horse year" -->
+    <string name="reckonings_year_subtitle">Your %1$s year · %2$s year</string>
+    <!-- the year of age's header: "Fire Horse year · 2026–2027", the Tibetan year from its new year in the first civil year -->
+    <string name="reckonings_year_header">%1$s year · %2$d–%3$d</string>
+    <string name="reckonings_year_before">Year before</string>
+    <string name="reckonings_year_after">Year after</string>
 </resources>

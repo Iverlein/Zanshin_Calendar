@@ -14,7 +14,7 @@ import kotlin.math.abs
 enum class CalendarKind { TIBETAN, KYUREKI }
 
 /** The menu's groups, each opened and closed on its own (SPEC §10.5); About & sources stands outside them. */
-enum class MenuGroup { CALENDAR, PRACTICE, SETTINGS }
+enum class MenuGroup { CALENDAR, RECKONINGS, PRACTICE, SETTINGS }
 
 /** Where the sky line is computed for, as the owner chose it (SPEC §10.5). */
 data class SavedPlace(val label: String, val place: Place)

@@ -115,6 +115,8 @@ fun TibetanPage(
     onFirstRun: (() -> Unit)? = null,
     /** Opens the Health screen on this day, from Your day's last row (SPEC §10.10). */
     onHealth: () -> Unit = {},
+    /** Opens the person's year of age in the Reckonings, at the Tibetan year given, from the year's balloon (SPEC §10.11). */
+    onYearOfAge: (Int) -> Unit = {},
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -124,7 +126,6 @@ fun TibetanPage(
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
-    var yearOpen by remember(day.jd) { mutableStateOf(false) }
     // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
     var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
     val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions, info.ownDays) {
@@ -240,7 +241,7 @@ fun TibetanPage(
                 actions = listOfNotNull(
                     person?.let { p ->
                         val age = YearOfLife.age(TibetanCalendar.of(p.birth).year, day.year)
-                        if (age >= 1) BalloonAction(stringResource(R.string.year_action, labels.ordinal(age))) { yearOpen = true } else null
+                        if (age >= 1) BalloonAction(stringResource(R.string.year_action, labels.ordinal(age))) { onYearOfAge(day.year) } else null
                     },
                 ),
             )
@@ -949,7 +950,6 @@ fun TibetanPage(
         ) { summaryOpen = false }
     }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, summary, place, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
-    if (yearOpen && person != null) YearSheet(person, day, zone, onOpen = { sheet = it }) { yearOpen = false }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
 }
 

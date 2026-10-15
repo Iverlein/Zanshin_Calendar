@@ -46,6 +46,9 @@ object Icons {
     /** The 3×3 board of the nine stars. */
     val Board = stroke("M4 4h16v16H4zM9.33 4v16M14.67 4v16M4 9.33h16M4 14.67h16", 1.6f)
 
+    /** A white pebble and a black one as the reckonings' charts draw them, a nought and a cross, for the Reckonings. */
+    val Pebbles = stroke("M8.5 8.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 1 0 0-7M14.5 9l6 6M20.5 9l-6 6", 1.7f)
+
     /** A head and shoulders, for the saved people. */
     val Person = stroke("M12 4a4 4 0 1 0 0 8a4 4 0 1 0 0-8M4.5 20c.6-3.6 3.6-6 7.5-6s6.9 2.4 7.5 6", 1.7f)
     val Pencil = stroke("M4 20h4L19 9l-4-4L4 16v4zM13 7l4 4", 1.7f)

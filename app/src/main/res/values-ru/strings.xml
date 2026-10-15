@@ -709,4 +709,16 @@
     <string name="health_medicine_note">Из «Четырёх тантр» медицины: они не называют дел, и взвешивание альманаха их не считает, поэтому их точки серые.</string>
     <string name="health_section_humours">Три жизненных начала</string>
     <string name="health_section_seasons">Шесть сезонов</string>
+
+    <!-- The Reckonings (SPEC §10.5, §10.11; ROADMAP R1) -->
+    <string name="menu_reckonings_group">РАСЧЁТЫ</string>
+    <string name="menu_reckonings">Расчёт по стихиям</string>
+    <string name="menu_reckonings_subtitle">Ваш год жизни и его камни</string>
+    <string name="reckonings_note">Расчёт по стихиям (འབྱུང་རྩིས, \'byung rtsis) выкладывает белые и чёрные камни по тому, как стихии ваших знаков встречаются со стихиями времени; ничего в нём не выпадает случайно.</string>
+    <string name="reckonings_no_person">Расчёты делаются от даты рождения.</string>
+    <string name="reckonings_section_built">Ваши расчёты</string>
+    <string name="reckonings_year_subtitle">%1$s-й год жизни · год: %2$s</string>
+    <string name="reckonings_year_header">год: %1$s · %2$d–%3$d</string>
+    <string name="reckonings_year_before">Предыдущий год</string>
+    <string name="reckonings_year_after">Следующий год</string>
 </resources>

@@ -12,11 +12,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -50,7 +47,6 @@ import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
-import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.gender
 import zanshin.core.tibetan.YearReckoning
@@ -59,99 +55,85 @@ import java.time.ZoneId
 import java.time.ZonedDateTime
 
 /**
- * The reckoning of the year of age for [person] in the Tibetan year of [day]
- * (SPEC §5.9, §10.3): the signs of the year, the twenty-four pebbles with the
- * predictive pebble of each aspect, the sectors of growth and decline and the
- * year's obstacles. The hour of reckoning is the present two-hour period at
- * [zone]. Each row opens its reading through [onOpen].
+ * The reckoning of the year of age [r] for [person] (SPEC §5.9.1, §10.11): the signs of the year, the twenty-four
+ * pebbles with the predictive pebble of each aspect, the sectors of growth and decline and the year's obstacles,
+ * as rows of the Reckonings screen's year of age. Each row opens its reading through [onOpen].
  */
 @Composable
-fun YearSheet(person: Person, day: TibetanDay, zone: ZoneId, onOpen: (Annotation) -> Unit, onDismiss: () -> Unit) {
+fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
-    val r = remember(person, day.year) {
-        val born = TibetanCalendar.of(person.birth)
-        YearReckoning(Sign(born.yearElement, born.yearAnimal), born.year, Sign(day.yearElement, day.yearAnimal), day.year, person.gender, hourOfReckoning(zone))
-    }
     fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
 
-    Sheet(onDismiss) {
-        Column(
-            Modifier
-                .verticalScroll(rememberScrollState())
-                .padding(start = 24.dp, end = 24.dp, bottom = 32.dp),
-            verticalArrangement = Arrangement.spacedBy(14.dp),
-        ) {
-            Text(stringResource(R.string.year_title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
-            Text(
-                stringResource(R.string.year_subtitle, personLabel(person), labels.ordinal(r.age), name(r.present), name(r.birth)),
-                style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
-            )
+    Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Text(
+            stringResource(R.string.year_subtitle, personLabel(person), labels.ordinal(r.age), name(r.present), name(r.birth)),
+            style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
+        )
 
-            Section(stringResource(R.string.year_section_signs))
-            AnnotationRow(mewaAnnotation(r, labels), onOpen)
-            if (r.gender == null) {
-                Text(stringResource(R.string.year_gender_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
-            } else {
-                AnnotationRow(trigramAnnotation(r, labels), onOpen)
-                AnnotationRow(logMenAnnotation(r, labels), onOpen)
-            }
+        Section(stringResource(R.string.year_section_signs))
+        AnnotationRow(mewaAnnotation(r, labels), onOpen)
+        if (r.gender == null) {
+            Text(stringResource(R.string.year_gender_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        } else {
+            AnnotationRow(trigramAnnotation(r, labels), onOpen)
+            AnnotationRow(logMenAnnotation(r, labels), onOpen)
+        }
 
-            Section(stringResource(R.string.year_section_pebbles))
-            PebbleGrid(r, labels, onOpen)
-            Force.entries.forEach { AnnotationRow(predictiveAnnotation(r, it, labels), onOpen) }
-            if (r.complete) {
-                val all = Force.entries.map { r.predictive(it) }.distinct()
-                if (all.size == 1 && all[0] != null) {
-                    val white = all[0]!!
-                    AnnotationRow(
-                        Annotation(
-                            title = stringResource(if (white) R.string.year_all_white else R.string.year_all_black),
-                            english = "",
-                            tone = if (white) Tone.MIXED else Tone.BAD,
-                            reading = Texts.yearPredictive(null, white),
-                            titleIsKanji = false,
-                        ),
-                        onOpen,
-                    )
-                }
-            }
-            r.hour?.let { h ->
-                Text(
-                    stringResource(R.string.year_hour_note, hourName(h, labels), hourSpan(h), name(h.sign)),
-                    style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp),
-                )
-            }
-
-            Section(stringResource(R.string.year_section_sectors))
-            r.sectors.forEach { s ->
+        Section(stringResource(R.string.year_section_pebbles))
+        PebbleGrid(r, labels, onOpen)
+        Force.entries.forEach { AnnotationRow(predictiveAnnotation(r, it, labels), onOpen) }
+        if (r.complete) {
+            val all = Force.entries.map { r.predictive(it) }.distinct()
+            if (all.size == 1 && all[0] != null) {
+                val white = all[0]!!
                 AnnotationRow(
                     Annotation(
-                        title = labels.string(R.string.year_sector_title, s.force.english.replaceFirstChar(Char::uppercase), s.sector.english),
+                        title = stringResource(if (white) R.string.year_all_white else R.string.year_all_black),
                         english = "",
-                        tone = if (s.sector.good) Tone.GOOD else Tone.BAD,
-                        reading = Texts.yearSector(s.sector, s.force),
-                        subtitle = labels.string(R.string.year_sector_subtitle, gloss(s.element), gloss(YearOfLife.breathTaking(s.element)), gloss(r.present.animal)),
+                        tone = if (white) Tone.MIXED else Tone.BAD,
+                        reading = Texts.yearPredictive(null, white),
                         titleIsKanji = false,
-                        tibetan = s.sector.wylie to s.sector.english,
-                        details = listOf(labels.string(R.string.year_detail_pebbles) to YearOfLife.sectorPebbles(s.sector).toString()),
                     ),
                     onOpen,
                 )
             }
+        }
+        r.hour?.let { h ->
+            Text(
+                stringResource(R.string.year_hour_note, hourName(h, labels), hourSpan(h), name(h.sign)),
+                style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp),
+            )
+        }
 
-            Section(stringResource(R.string.year_section_obstacles))
-            val obstacles = obstacleAnnotations(r, labels)
-            if (obstacles.isEmpty()) {
-                Text(stringResource(R.string.year_no_obstacles), style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp))
-            } else {
-                obstacles.forEach { AnnotationRow(it, onOpen) }
-            }
+        Section(stringResource(R.string.year_section_sectors))
+        r.sectors.forEach { s ->
+            AnnotationRow(
+                Annotation(
+                    title = labels.string(R.string.year_sector_title, s.force.english.replaceFirstChar(Char::uppercase), s.sector.english),
+                    english = "",
+                    tone = if (s.sector.good) Tone.GOOD else Tone.BAD,
+                    reading = Texts.yearSector(s.sector, s.force),
+                    subtitle = labels.string(R.string.year_sector_subtitle, gloss(s.element), gloss(YearOfLife.breathTaking(s.element)), gloss(r.present.animal)),
+                    titleIsKanji = false,
+                    tibetan = s.sector.wylie to s.sector.english,
+                    details = listOf(labels.string(R.string.year_detail_pebbles) to YearOfLife.sectorPebbles(s.sector).toString()),
+                ),
+                onOpen,
+            )
+        }
+
+        Section(stringResource(R.string.year_section_obstacles))
+        val obstacles = obstacleAnnotations(r, labels)
+        if (obstacles.isEmpty()) {
+            Text(stringResource(R.string.year_no_obstacles), style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp))
+        } else {
+            obstacles.forEach { AnnotationRow(it, onOpen) }
         }
     }
 }
 
-/** The present two-hour period, from the hare hour at 05:00, of the Tibetan day it falls in. */
-private fun hourOfReckoning(zone: ZoneId): HourSign {
+/** The present two-hour period, from the hare hour at 05:00, of the Tibetan day it falls in: the hour of reckoning. */
+internal fun hourOfReckoning(zone: ZoneId): HourSign {
     val now = ZonedDateTime.now(zone)
     val dayStart = if (now.toLocalTime() < LocalTime.of(5, 0)) now.toLocalDate().minusDays(1) else now.toLocalDate()
     val minutes = java.time.Duration.between(dayStart.atTime(5, 0).atZone(zone), now).toMinutes().toInt()

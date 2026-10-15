@@ -82,15 +82,17 @@ import zanshin.app.LocalLabels
 import zanshin.app.MenuGroup
 import io.github.iverlein.zanshin.R
 import zanshin.app.People
+import zanshin.app.Reckoning
 import zanshin.app.Person
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
 import zanshin.core.astro.SunTimes
 import zanshin.core.kyureki.Kigaku
+import zanshin.core.tibetan.TibetanCalendar
 import java.time.LocalDate
 import java.time.ZoneId
 
-private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, HEALTH }
+private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, HEALTH, RECKONINGS }
 
 /** The app; [meditationRequests] counts the timer notification's taps, each showing the meditation screen. */
 @Composable
@@ -119,6 +121,10 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     var openDay by remember { mutableStateOf<LocalDate?>(null) }
     // The day the Health screen opens on (SPEC §10.10): the page shown when it was opened.
     var healthDay by remember { mutableStateOf(LocalDate.now()) }
+    // The Reckonings (SPEC §10.11): the Tibetan year of the page shown when they were opened, and the reckoning they
+    // open straight on, from the year's balloon, or none for their list.
+    var reckoningsYear by remember { mutableStateOf(0) }
+    var reckoningsOpened by remember { mutableStateOf<Reckoning?>(null) }
     // The menu's groups, open or closed as each was last left (ROADMAP H3).
     var openGroups by remember { mutableStateOf(MenuGroup.entries.associateWith(settings::menuGroupOpen)) }
     val zone = place?.place?.zone ?: ZoneId.systemDefault()
@@ -187,6 +193,51 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
         if (people.list.isEmpty()) editing = -1 else peopleDialog = true
     }
 
+    // The people's list and the person's dialog, over whichever screen asked for them: the menu, the header, or a
+    // screen's way to People (Health, Reckonings).
+    @Composable
+    fun PeopleDialogs() {
+        if (peopleDialog && editing == null) {
+            PeopleDialog(
+                people = people,
+                onChoose = {
+                    savePeople(people.choose(it))
+                    peopleDialog = false
+                    kigakuPending = false
+                },
+                onEdit = { editing = it ?: -1 },
+                onDismiss = {
+                    peopleDialog = false
+                    kigakuPending = false
+                },
+            )
+        }
+
+        editing?.let { index ->
+            val initial = people.list.getOrNull(index)
+            PersonDialog(
+                initial = initial,
+                onSave = {
+                    // A new person is chosen at once; a changed one keeps whoever was chosen.
+                    savePeople(if (initial == null) people.add(it) else people.replace(index, it))
+                    editing = null
+                    if (initial == null) peopleDialog = false
+                },
+                onDelete = if (initial == null) null else {
+                    {
+                        savePeople(people.remove(index))
+                        editing = null
+                        if (people.list.isEmpty()) peopleDialog = false
+                    }
+                },
+                onDismiss = {
+                    editing = null
+                    if (!peopleDialog) kigakuPending = false
+                },
+            )
+        }
+    }
+
     fun savePlace(p: SavedPlace) {
         place = p
         settings.place = p
@@ -218,6 +269,20 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                 onPeople = ::openPeople,
                 onBack = { screen = Screen.DAYS },
             )
+            PeopleDialogs()
+            return
+        }
+        Screen.RECKONINGS -> {
+            // The screen handles Back itself: from a reckoning to its list, or out.
+            ReckoningsScreen(
+                year = reckoningsYear,
+                opened = reckoningsOpened,
+                zone = zone,
+                person = people.current,
+                onPeople = ::openPeople,
+                onBack = { screen = Screen.DAYS },
+            )
+            PeopleDialogs()
             return
         }
         Screen.ELECTION -> {
@@ -279,6 +344,12 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     scope.launch { drawer.close() }
                     healthDay = Days.dateOf(pager.currentPage)
                     screen = Screen.HEALTH
+                },
+                onReckonings = {
+                    scope.launch { drawer.close() }
+                    reckoningsYear = TibetanCalendar.of(Days.dateOf(pager.currentPage)).year
+                    reckoningsOpened = null
+                    screen = Screen.RECKONINGS
                 },
                 onMeditation = {
                     scope.launch { drawer.close() }
@@ -343,6 +414,11 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                             healthDay = info.date
                             screen = Screen.HEALTH
                         },
+                        onYearOfAge = {
+                            reckoningsYear = it
+                            reckoningsOpened = Reckoning.YEAR_OF_AGE
+                            screen = Screen.RECKONINGS
+                        },
                     ) { work ->
                         electionWork = work
                         electionFrom = info.date
@@ -360,45 +436,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             SkyLine(date = date, place = place, onLocation = { screen = Screen.LOCATION })
         }
 
-        if (peopleDialog && editing == null) {
-            PeopleDialog(
-                people = people,
-                onChoose = {
-                    savePeople(people.choose(it))
-                    peopleDialog = false
-                    kigakuPending = false
-                },
-                onEdit = { editing = it ?: -1 },
-                onDismiss = {
-                    peopleDialog = false
-                    kigakuPending = false
-                },
-            )
-        }
-
-        editing?.let { index ->
-            val initial = people.list.getOrNull(index)
-            PersonDialog(
-                initial = initial,
-                onSave = {
-                    // A new person is chosen at once; a changed one keeps whoever was chosen.
-                    savePeople(if (initial == null) people.add(it) else people.replace(index, it))
-                    editing = null
-                    if (initial == null) peopleDialog = false
-                },
-                onDelete = if (initial == null) null else {
-                    {
-                        savePeople(people.remove(index))
-                        editing = null
-                        if (people.list.isEmpty()) peopleDialog = false
-                    }
-                },
-                onDismiss = {
-                    editing = null
-                    if (!peopleDialog) kigakuPending = false
-                },
-            )
-        }
+        PeopleDialogs()
 
         if (languageDialog) {
             LanguageDialog(
@@ -600,6 +638,7 @@ private fun SideMenu(
     onCalendar: (CalendarKind) -> Unit,
     onElection: () -> Unit,
     onHealth: () -> Unit,
+    onReckonings: () -> Unit,
     onMeditation: () -> Unit,
     openGroups: Map<MenuGroup, Boolean>,
     onGroup: (MenuGroup, Boolean) -> Unit,
@@ -651,6 +690,11 @@ private fun SideMenu(
                 MenuRow(Icons.Search, stringResource(R.string.menu_election), stringResource(R.string.menu_election_subtitle), onElection)
                 // Health, the Tibetan day's illness, the la and the person's element on a screen of their own (SPEC §10.10).
                 MenuRow(Icons.Pulse, stringResource(R.string.menu_health), stringResource(R.string.menu_health_subtitle), onHealth)
+            }
+            MenuSeparator()
+            // The element reckonings for the person chosen, a screen of their own (SPEC §10.11).
+            MenuGroupSection(MenuGroup.RECKONINGS, stringResource(R.string.menu_reckonings_group), openGroups, onGroup) {
+                MenuRow(Icons.Pebbles, stringResource(R.string.menu_reckonings), stringResource(R.string.menu_reckonings_subtitle), onReckonings)
             }
             MenuSeparator()
             // Practice: the meditation timer and the mindfulness bell, a screen of their own (SPEC §10.9).
