@@ -58,7 +58,9 @@ mon gre, mon gru, སག sa ga, ཐརྐ tha skar, མྱེ me bzhi, ཧལྱ
 line of the print, […] a word not legible, … a word left out unread, and
 "(machine)" what was taken from Yigdzin-1 without being settled on the scan.
 Where the scan reads otherwise than the lists, a bullet **The scan (O10f)**
-says so; the lists themselves are as built.
+says so; the lists above each bullet are as built before it, and the
+bullets' readings were built on 2026-10-15 (ROADMAP T2.28, `Electional.kt`),
+as was the table of *What the table should now carry* below.
 
 ### 2. Naming — མིང་འདོགས་པ་ལ་བཟང་བ
 

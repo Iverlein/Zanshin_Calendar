@@ -486,14 +486,30 @@ Edward Henning, *Horary and electional astrology of the five components*
   games) is split, an entry qualified for one half counting for that half;
   boxes 50–51 come from the second print, KP2. The box for averting rites,
   whose entries all name a kind of rite, and the charts are not built. The lists' readings cite the
-  print first, the White Beryl and Henning beside it.
+  print first, the White Beryl and Henning beside it. The boxes name the day's link
+  of the twelve and the sme ba too (`Factors.links`, `Factors.smeBa`): «སྐྱེད» is the
+  sense sources (skye + mched), bare «སྐྱེ» birth, and a bare numeral in the sme ba's
+  place before the rising signs is the sme ba (ROADMAP O1). Box 53 is two
+  columns, the good and the bad, with its links, the Tiger, Dragon and Ox
+  days and the trigram zon in the good one. Every box was read again on
+  the scan for O10 (2026-10-14); where it reads otherwise than the first
+  reading, the scan's reading is built (ROADMAP T2.28): the brackets of
+  boxes 28, 30 and 54 set weekdays aside, box 55's mansions are as both
+  prints have them, and box 21's bad dates are bad for breaking in oxen
+  only.
 - **The White Beryl's chapter 34**, the important works one by one (vol. 2,
   pp. 378–428, [sources/white-beryl-ch34.md](sources/white-beryl-ch34.md),
   every list the app uses read on the scans), which the print's boxes
   digest in the same order (`WhiteBerylWorks.kt`). It is joined to each
   box: what it names plainly good is added to the box's good and taken
-  from its bad, and the other way round; what the box names and the
-  chapter does not keeps the box's reading. So the chapter settles the
+  from its bad, and the other way round; what it reads otherwise than the
+  box (the 19th for the box's 20th, the sme ba four for its nine) or calls
+  middling is taken from both sides (`WhiteBerylWorks.NEITHER`); what the box names and the
+  chapter does not keeps the box's reading. Dates the chapter names for
+  one month only (work 14: the 27th of the 11th month, the 25th of the
+  12th, the 23rd of the 1st, by the Hor months as chapter 31 numbers them, §5.13) are
+  `Factors.monthDates`, joined to the date's lists in that month alone
+  (`Texts.electionalDate`). So the chapter settles the
   doubled khrums of the offerings box (Pūrvabhādrapadā good,
   Uttarabhādrapadā bad), puts back what the box's abbreviations and
   numerals lost (khrums stod and smad, ༤ for ༦), and reverses the day
@@ -1122,10 +1138,12 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
 - **The combination period** (*tatkāla dus sbyor*,
   [sources/combination-period.md](sources/combination-period.md)), which the
   texts hold above every factor of the day: the sign rising in each hour.
-  KP's table (§9, img. 79–80) gives the month's sign at daybreak and one
+  KP's table (§9, img. 81–82) gives the month's sign at daybreak and one
   sign more each hour (the 3rd month Aries … the 2nd Pisces); WB (vol. 2,
   pp. 371–376) gives for each sign what is good and bad while it rises and
-  whether the period is to be accomplished or avoided. It is shown on the
+  whether the period is to be accomplished or avoided. Capricorn, to be
+  avoided, has a good list too, beside its woodcut on p. 374, which the
+  etext drops (ROADMAP O10). It is shown on the
   hours panel (§10.3) and in the day in brief's "By the hour" block, not
   weighed into the day: a day reading has no hours.
 - **The works' own hours** (ROADMAP E4,

@@ -880,11 +880,14 @@ the text, not about the app.
     *phung*, or an almanac name. (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
 
-103. **Box 5's bracket.** KP box 5 (img. 25) ends its good links «སྲིད་ ༼[…]
+103. ~~**Box 5's bracket.** KP box 5 (img. 25) ends its good links «སྲིད་ ༼[…]
     སྲེད་༽», and KP2 (img. 244) brackets a single letter there. Is craving
     (སྲེད་པ, sred pa) set aside by the bracket, or is the bracket a gloss on
     the word before it, with craving good for putting on new clothes?
-    (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+    (2026-10-12, O1, [kp-activities.md](kp-activities.md))~~ *Answered
+    2026-10-14 by WB's work 4 (vol. 2, p. 386, [white-beryl-ch34.md](white-beryl-ch34.md)):
+    craving and ageing and death are middling for putting on new clothes,
+    so the bracket sets craving aside; built so on 2026-10-15 (ROADMAP T2.28).*
 
 104. **The numerals before the rising signs.** Are the numerals that stand
     before the rising signs in the bad half of KP box 48 («༥ ༧ ༢ ༤», img. 56)

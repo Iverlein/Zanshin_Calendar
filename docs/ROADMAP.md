@@ -104,7 +104,7 @@ moves up as soon as it is unblocked.
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest, and the year sheet | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links, the mewa and the year sheet in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. |
-| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
+| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) | K1's reading (kyureki.md) | — | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
@@ -1289,7 +1289,7 @@ verdict, and the owner's decisions of 2026-10-10:
   (day-letters.md, *What the app takes from them*). Checked on the
   emulator in both languages (contact's day, 2026-10-15).
 
-#### <a id="t2-28">></a>T2.28 Corrections from the readings — planned 2026-10-13
+#### <a id="t2-28">></a>T2.28 Corrections from the readings — planned 2026-10-13, built 2026-10-15 but for D11 and D13 (SPEC §5.10, §5.13)
 
 - **Gap.** Readings done since the built items they check (the *Left
   open in built work* rows) found entries that the scan reads otherwise
@@ -1395,6 +1395,46 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s and the election's counts updated; `CatalogTest`;
   SPEC §5.10 where it describes the boxes; Tuesday, the 9th hair date and
   a horse day on the emulator in both languages.
+- **Built** 2026-10-15 (block 50), every entry above but D11's and D13's:
+  - The print's boxes (`Electional.PRINT`) as O1's table and O10f's
+    bullets read them: the links of boxes 5, 7, 20, 50, 53 and 59, the
+    sme ba of boxes 48, 50, 55 and 57, box 53's good column, and the
+    scan's readings of boxes 18, 21, 22, 28, 30, 33, 35, 37, 48, 49, 54,
+    55 and 56. Box 5's bracketed craving is middling by WB's work 4
+    (question 103 answered); box 21's 11th, 22nd and 24th are bad for
+    breaking in oxen only, which WB's work 9 qualifies too, so they count
+    for neither side whichever way question 153 is answered.
+  - Chapter 34 beside the boxes (`WhiteBerylWorks`): marriage's 9th,
+    learning's 1st and 6th and the link formation, work 3's Mouse day,
+    work 9's dates (the 19th for the box's 14th; its 29th, built as plain
+    bad, is qualified and goes), work 14's 19th for the box's 20th and its
+    three dates of one month (Hor 11/27, 12/25, 1/23, `Factors.monthDates`,
+    joined to the date's lists in that month by `Texts.electionalDate`),
+    work 32's sme ba four for the box's nine, work 38's bra nye
+    qualified. What the chapter reads otherwise or calls middling is
+    taken from both sides (`WhiteBerylWorks.NEITHER`). The chapter's
+    notes add, plainly named: the link feeling for servants (work 38),
+    ageing and death for bathing (34), contact for fire offerings (45,
+    where the box qualifies it), the trigram li for bloodletting (33),
+    the 14th bad for sowing (23). Works 30, 31, 36, 46 and 49 were
+    already joined (T2.6); work 29's «མི་གཡང་བཟང» qualifies lag and
+    gro bzhin, which box 32 had on neither side already. Work 14's good
+    run stays the 21st and 25th as the editors number them (question 156).
+  - Tuesday's good list has saddling after horse racing; the 9th hair
+    date reads "Young women become many"; the horse day's witness has
+    the journey with the corpse, in its *A death today* row (X7); the
+    eight classes strike on the 15th "at the snake hour"; Capricorn's
+    period has its good list, with three new wordings (freeing the bound,
+    taking a maidservant, work with four-footed animals); KP's
+    sign-by-hour table is cited as img. 81–82; `MonthEntriesTest` names
+    the print's four slips. All in English and Russian.
+  - Tests: `ElectionalTest` (the boxes read again; the chapter where the
+    boxes are unread or read otherwise; a date of one month), the counts
+    (days against the tone 1946 → 1945, after the clothes split; 28 lists name a link), the
+    Kṛttikā day of 2026-01-28 (the Zon trigram and the sense sources now
+    name war good, outweighed); `TextsTest` checks the combination
+    periods' and the month dates' wordings too. `CatalogTest`'s
+    allowances unchanged.
 
 #### Order
 
@@ -1411,7 +1451,7 @@ verdict, and the owner's decisions of 2026-10-10:
 8. Found 2026-10-11, checking the page against WB's own almanac and
    chapters: T2.27 (built 2026-10-15), then T2.26 once D4 is settled.
 9. Found 2026-10-12 and 2026-10-13 by the O readings: T2.28, before the
-   X blocks that reword the same readings.
+   X blocks that reword the same readings; built 2026-10-15 but for D11 and D13.
 
 #### Not planned
 
@@ -2396,6 +2436,10 @@ X, so that the owner reads the wording once. The blocks are
   the black month, Kikang's, the sage's and the pig's days and the comet
   the same.
 - **Block.** [46](#block-46); no reading; builds on [42](#block-42) and [50](#block-50) (the horse day's witness).
+  Block 50 put the horse day's witness, which O8 lengthened past the
+  paragraph's 60 words, into its *A death today* row
+  (`reading.EarthLord.HORSE.death`); the other eleven animal days still
+  carry their witness in the paragraph and move to the same row here.
 - **Started** 2026-10-11 (block 42's review): the lesser black day, SPEC
   §8.1's third example, stands in the shape in English and Russian, its
   ruling paragraph, *Remedy* and *How it falls* (its *Another view* row
