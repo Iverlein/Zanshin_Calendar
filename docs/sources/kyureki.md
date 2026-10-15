@@ -401,7 +401,149 @@ annotations (question 6), and what it says of 歳徳神's reckoning (K4).
 The edition, author and date come from the NDL catalogue, never from
 memory; every passage with its pid and image number.
 
-Nothing read yet.
+### The work, its author and the scans (read 2026-10-15)
+
+**The text read.** 『暦林問答集』, two books (上・下), in the woodblock
+『群書類従』, 巻第五百六, 雑部六十二, «撿校保己一集» (the compiler 塙保己一,
+1746–1821, by the catalogue): NDL Digital Collections **pid 14488380**
+(https://dl.ndl.go.jp/pid/14488380), 58 images, catalogued as 「暦林問答集
+2巻」, 賀茂在方, «[18--]», series 「群書類從 ; 卷506. 雜部 ; 62」, call number
+特2-131, 新城文庫, public domain (PDM), open on the internet. Cited below
+as **GR**, with its image numbers (the printed folio numbers in the
+margin run from 一 on img. 3 to 五十五 on img. 56). Every passage quoted
+below is read on this scan.
+
+**The witnesses.**
+
+- A manuscript, 『暦林問答集』, 賀茂在方, «写», one fascicle, call number
+  ちニ-5 (cover label 「暦林問答 全」, a 東京図書館 label): **pid 2533201**
+  (https://dl.ndl.go.jp/pid/2533201), 53 colour images, PDM, open. Cited
+  as **MS**. It has the preface (img. 3), the afterword dated in the same
+  甲午 year and signed 在方 (img. 50), and a copyist's note after it:
+  «正本書云 今考暦林之新書斷知累家之餘慶貴賤之謹慎子孫之鄭重者乎»,
+  signed by a 大外史清原真人 (the signature line not read with certainty).
+- A second copy of the same 群書類従 blocks: 群書類従 第636-637冊（巻505-506）,
+  **pid 2559255** (https://dl.ndl.go.jp/pid/2559255), 114 images, PDM,
+  open (the 暦林問答集 in its second half; not read).
+- Typeset printings, for searching only: 『新校群書類従』 第22巻 (内外書籍,
+  昭和7 = 1932), pid 1181028, its table of contents «曆林問答集 上/257»
+  (送信サービス, for registered users only); 『羣書類従』 第28輯 (続群書類従完成会,
+  1933, «曆林問答集…賀茂在方/688»; 1954, pid 2980902; 1959, pid
+  2934516), NDL premises only. None was used.
+- Not on the internet at the NDL: the separate woodblock printing of 文化8
+  (1811), 2 vols, «奥付の出版者: 京都 林伊兵衛, 大坂 淺井吉兵衛, 江戸
+  前川六左衛門», whose 見返し reads «賀茂保憲先師撰» (catalogue record
+  000007481577, call number VF7-N74, from 渡辺敏夫's books; no pid), and a
+  manuscript catalogued 「暦林或問集 2巻」, 賀茂在方, «写», 新城文庫 (no
+  pid). Other libraries' records (国書データベース, CiNii) list more copies;
+  not searched.
+- Modern studies found in the catalogue, not read (copyrighted, and not
+  needed for the text): 中村璋八「暦林問答集本文とその校訂」 and his
+  『日本陰陽道書の研究』 (汲古書院 1985, ch. 6 「暦林問答集について」);
+  馬場真理子「暦の「正理」—『暦林問答集』における暦注の解説を中心に—」
+  (2017); 細井浩志 on the 古谷本 manuscript (2021, 2024) and 『古谷本『暦林問答集』
+  : 写真と翻刻』 (活水女子大学, 2025).
+
+**Author and date, from the text itself.** The preface (GR img. 2–3)
+ends:
+
+> 貞觀之初大春日真野麻呂又天德之末吾祖司暦博士賀茂保憲博考大成而所獻之暦天数不違所傳莫不規模然歳〻時〻愚師野巫之僻説多起正理錯乱矣故今剪截煩浮之辞採機要之説號曰暦林問答廣来喆補其闕焉
+> 應永甲午孟春日　正儀大夫司暦博士賀茂在方書
+
+"At the beginning of Jōgan, Ōkasuga no Manomaro, and at the end of
+Tentoku my ancestor the calendar doctor Kamo no Yasunori, studied widely
+and completed [the calendar]; the calendars they presented did not stray
+from the heavens' numbers, and what they handed down was a model to all.
+But year after year, season after season, the twisted teachings of
+foolish masters and country shamans have multiplied, and the true
+principle has fallen into disorder. So now I cut away the verbose and
+idle words, gather the essential teachings, and call it 'Questions and
+Answers from the Forest of the Calendar', and ask later sages to fill
+its gaps. Written on a day of the first month of spring of the 甲午 year
+of Ōei, by the calendar doctor Kamo no Arikata, 正儀大夫."
+
+So the work is 賀茂在方's (the catalogue: 賀茂, 在方, −1444), written
+against the "twisted teachings" of unlicensed diviners; its 甲午 year of
+應永 is 1414 by the sexagenary count (a reader's pencil note in GR's
+margin, img. 56, writes «応永二十一甲午 1414»; the print gives only the
+cyclic year). The 1811 printing's «賀茂保憲先師撰» names the ancestor the
+preface names, not the writer. The afterword (GR img. 56, MS img. 50, signed «在方誌»,
+dated «竜集甲午孟春日») gives the plan: «分上下巻象乎二儀上二十四段者節氣之定法下四十段者五行之成數»
+— two books after the two powers, the first of 24 sections after the
+fixed number of the solar terms, the second of 40 after the
+"completed number" of the five agents; and its range: «始自天地之根元終至宿曜之吉凶粗舉八八問»,
+from the root of heaven and earth to the luck of the mansions and
+planets, 64 questions in all. A closing note (img. 57) says a grandson
+copied «祖父在方卿» 's book at the request of the 持明院殿, and the 群書類従
+editors add in small print «右暦林問答以印本及五行大義校合了»: collated
+with a printed edition and the 五行大義.
+
+**What it is.** Each section is one question, «或問…何也», and an answer,
+«答曰», that quotes the older Chinese and Japanese authorities
+(『暦例』, 『新撰陰陽書』, 『五行書』, 『尚書暦』, 『郝震堪餘八會經』, 『金匱經』 …)
+and adds the writer's view («今按»).
+
+**Its sections** (tables of contents, GR img. 3–4 for 上, img. 36–37 for 下;
+the section headings in the text agree):
+
+| 上 | | 下 | |
+| --- | --- | --- | --- |
+| 1 天地 | img. 4 | 25 土用事 | img. 38 |
+| 2 五行 | img. 7 | 26 弦望 | img. 39 |
+| 3 日 | img. 8 | 27 社日 | |
+| 4 月 | img. 8 | 28 三伏 | |
+| 5 星 | img. 9 | 29 臘 | |
+| 6 大歳 | img. 11 | 30 大歳位前對後 | |
+| 7 歳徳 | img. 12 | 31 沒滅 | |
+| 8 大將軍 | img. 13 | 32 天恩 | |
+| 9 大陰 | img. 13 | 33 天赦 | |
+| 10 歳刑 | img. 14 | 34 母倉 | |
+| 11 歳破 | img. 15 | 35 歸忌 | |
+| 12 歳殺 | img. 16 | 36 血忌 | |
+| 13 黄旛 | img. 16 | 37 厭對 | |
+| 14 豹尾 | img. 16 | 38 無翹 | |
+| 15 歳名 | img. 16 | 39 九坎 | |
+| 16 歳次 | img. 17 | 40 重 | |
+| 17 二十四氣七十二候 | img. 18–27 | 41 復 | |
+| 18 六十四卦 | img. 27–28 | 42 往亡 | |
+| 19 閏月 | img. 29 | 43 日遊 | |
+| 20 日月蝕 | img. 30 | 44 凶會 | |
+| 21 納音 | img. 31 | 45 八竜七鳥九虎六蛇 | |
+| 22 十二直 | img. 32–34 | 46 五墓 | |
+| 23 十干十二支 | img. 34 | 47 伐 | |
+| 24 月建 | img. 34–35 | 48 遠行 | |
+| | | 49 忌夜行 | |
+| | | 50 天間 | |
+| | | 51 歳下食 | |
+| | | 52 下食時 | |
+| | | 53 天一天上 | |
+| | | 54 大將軍行 | |
+| | | 55 土公土府 | |
+| | | 56 伏竜 | |
+| | | 57 十干吉凶 | |
+| | | 58 十二支吉凶 | |
+| | | 59 二十八宿吉凶 | |
+| | | 60 七曜吉凶 | |
+| | | 61 滅門太禍狼籍 | |
+| | | 62 羅刹 | |
+| | | 63 甘露 | |
+| | | 64 金剛峯 | |
+
+(The 下 list prints 沒滅 as «第三十» where 31 is meant; the 上 book ends
+on img. 35, «暦林問答集上終», and 下 begins on img. 38.) The 下 sections'
+images are given where each is read, below.
+
+**Coverage at a glance.** Of the annotation families the app shows, the
+work has sections on the 十二直, 歳徳 (the 恵方), 土用, 社日, 天恩日, 天赦日,
+母倉日, 帰忌日, 血忌日, 重日, 復日, 往亡日, 歳下食, 天一天上, the
+二十八宿's luck and the three bad days (滅門・太禍・狼籍), and the year's
+direction gods of the modern almanac's first page (大歳, 大將軍, 大陰, 歳刑,
+歳破, 歳殺, 黄旛, 豹尾: ROADMAP K5). It has no section on the 六曜 (the
+expert: popular only since the 19th century), the day's 九星, 大明日,
+節徳日, 鬼宿日 as a 下段 day, 受死日, 十死日, 天火日, 地火日, the 選日 of
+the modern almanac (一粒万倍日, 不成就日, 三隣亡, 十方暮, 八専, 犯土), the
+縁日, or the 雑節 other than 土用 and 社日; whether any of these is
+named inside another section is said under each group below.
 
 ## K6-R: the twenty-four solar terms (ROADMAP K6)
 
