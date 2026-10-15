@@ -390,3 +390,38 @@ dropped (SPEC §7; ROADMAP K3, D8). Her two examples become K4 claims: whether
 天一天上 is printed today, and how today's 歳徳神 differs from the old
 reckoning. A paper 高島暦 is the reference to check the page against
 (ROADMAP D12).
+
+## K3-R: the 暦林問答集 (ROADMAP K3)
+
+What the 暦林問答集 says of each annotation the app shows on the 旧暦 page,
+and only those: an annotation the printed almanac of today has dropped is
+not revived from it. With it, its three bad days against the 簠簋内伝's
+table (*The personal reading of 三箇の悪日* above), whether it ranks the
+annotations (question 6), and what it says of 歳徳神's reckoning (K4).
+The edition, author and date come from the NDL catalogue, never from
+memory; every passage with its pid and image number.
+
+Nothing read yet.
+
+## K6-R: the twenty-four solar terms (ROADMAP K6)
+
+A reading for each of the 二十四節気 the page's term row will open: what
+the term marks, whether it is a 節 or a 中, its solar longitude, the 節月
+it opens and what hangs on that (the 三箇の悪日, 土用 before each 立,
+彼岸 and 社日 at the equinoxes), from the NAOJ's 暦Wiki and koyomi8 for
+the astronomy and from the old texts for the readings; no 七十二候 (the
+owner, 2026-10-10). The facts in our own words, the Japanese quoted where
+a fact rests on its wording.
+
+Nothing read yet.
+
+## K1: the Russian terms in the scholarly literature (ROADMAP K1)
+
+The established Russian names, from published Japanology and Sinology,
+for the terms the expert marked (the month names, the 二十四節気, the
+二十八宿, 暦注 and its bands, 下段, 選日, 縁日 and their days, 仏滅, the
+dossier's band names of question 14, 人日の節句 and 社日 of K2): each
+term with the work, page and year it comes from, in a table; a term with
+no attested name keeps the app's and says so.
+
+Nothing read yet.
