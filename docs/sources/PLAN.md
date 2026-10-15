@@ -509,3 +509,11 @@ Searched and found wanting, so not to be repeated:
   (1987) and *Календарные обычаи и обряды народов Восточной Азии* (1989)
   have no full text online; abirus.ru's copy of Вяткин's index times out
   (coollib.com book 523632 has the volume with its page marks).
+- **The solar terms' sources** (K6-R, 2026-10-15): the NAOJ 暦Wiki page
+  「二十四節気」 (…/C6F3BDBDBBCDC0E1B5A4.html) and koyomi8.com/sub/24sekki.html
+  answer 404; the pages are 「季節/二十四節気とは？」 and koyomi8.com/24doc.html.
+  The 暦林問答集 has no section on 節分, 彼岸, 八十八夜, 入梅, 半夏生 or 二百十日
+  (contents, pid 14488380 img. 3–4, 36–37). 呉澄's 月令七十二候集解 is in the
+  NDL only as modern reprints, none digitised. NDL IIIF full-size image
+  URLs answer 307: fetch with `curl -L`. The NDL catalogue answers 429 when
+  several readers search at once (`ndl.py` now retries and prints pids).

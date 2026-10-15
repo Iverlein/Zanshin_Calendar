@@ -389,7 +389,18 @@ as a dead end (sources/PLAN.md).
   (4) A balloon on the date and moon: the moon's age in days, the phase
   name, the month's length (大 or 小) and the Gregorian date; facts only.
   Nothing new is weighed and no verdict changes (SPEC §7.5).
-- **Block.** [56](#block-56); reads K6-R first; [53](#block-53) may
+- **K6-R read 2026-10-15** ([sources/kyureki.md](sources/kyureki.md),
+  *K6-R*): each of the 24 with 節 or 中, longitude, JST dates (the app's
+  engine, 2000–2099), what it marks (NAOJ, koyomi8), the gloss of the
+  『こよみ便覧』 (1787, NDL pid 2536637) and of the 『暦林問答集』 (群書類從
+  print, pid 14488380, with its direction and element), the 節月 it opens
+  with that month's personal bad days, 往亡日 and 天赦日, and what hangs on
+  it (土用, 彼岸, 社日, 八十八夜, 入梅, 半夏生, 節分, the year at 立春). The
+  社日 tie (her question 10): the app's nearer-to-noon rule is the NAOJ's,
+  from the 明治14 almanac on. Which old voice the readings follow (KB or
+  RM) is D8's; four doubtful readings of the print wait on the manuscript
+  (pid 2533201).
+- **Block.** [56](#block-56), from K6-R; [53](#block-53) may
   revise the term readings' wording, not their presence.
 - **Done when.** Every row of the page opens on the emulator in both
   languages (a tour that taps each row and dumps the sheet or balloon);
