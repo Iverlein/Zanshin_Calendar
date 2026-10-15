@@ -27,7 +27,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
   sunrise, noon, sunset and midnight, and the works an hour turns
   against the day's animal sign; the page in those texts' order of strength: the hours
   above the day, the day in brief with the works it allows and forbids
-  and the one factor that decides, then the readings; hair-cutting days, personal days and
+  and the one factor that decides, then the readings; the haircut as it stands in the hour now, personal days and
   mansions for a birth year; and for each person the year of age by the
   White Beryl's elemental divination: mewa, trigram and progressed sign,
   the pebbles with their predictions, growth and decline, and the year's

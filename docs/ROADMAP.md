@@ -2132,6 +2132,34 @@ W1 build on them (below).
 - **Done when.** Pinning, unpinning and the order on the emulator in
   both languages; a fresh install with none pinned; SPEC §10.3.
 
+#### <a id="u20"></a>U20 The haircut in the hour — built 2026-10-15 (SPEC §10.3)
+
+- **Gap.** The Works section's haircut row gave the day's weighing, the
+  weekday's side (KP box 52a), though within its hour the combination
+  period outweighs every factor of the day (WB vol. 2, p. 376), and ten of
+  the twelve signs name haircuts (WB ch. 34, p. 420, as the periods'
+  own readings): on any day the row held for two hours at most. The owner
+  (2026-10-15): the row must hold in the moment, not in the day.
+- **Built.** `DaySummary.inHours(work, month)`: each hour's side, the
+  period's where it names the work one way (`Election.hours`, the work's
+  own hours first), the day's elsewhere and on the person's day of every
+  work to avoid. On today's page the row's dot is the hour's side and its
+  subtitle says until when and what decides ("good until 23:00 · by
+  Pisces rising"), and it moves on with the clock; the sheet's note says
+  which sign rises and whether its period names haircuts, its rows give the
+  good hours and the hours to avoid, and FPMT's day for the date is
+  measured against the hour's decider. Another day's row is the day's, its
+  sheet with the hours. `DaySummaryTest` holds every hour of 2026 against
+  ch. 34's signs, 15 October 2026 hour by hour, and the test birth date's
+  enemy weekday with no hour above it. A sheet with parts now shows its
+  own rows too (`ReadingSheet`); no other such sheet has any. Checked on
+  the emulator in Kyoto on 15 October 2026 at 06:00 ("avoid until 15:00 ·
+  by Libra rising"), 10:00 (Sagittarius: "avoid until 15:00 · by
+  Thursday") and 16:00 ("good until 23:00 · by Pisces rising"), in English
+  and Russian, on the 16th (the day's row, "good · by Friday") and with
+  the test birth date (the day's row, no hours). The store shots keep the
+  row below the fold; unchanged.
+
 ### <a id="x"></a>X1–X10. The readings' wording — planned 2026-10-11
 
 An analysis of every reading the Tibetan page's sheets open (the build of

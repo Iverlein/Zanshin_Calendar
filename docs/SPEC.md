@@ -1145,7 +1145,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   avoided, has a good list too, beside its woodcut on p. 374, which the
   etext drops (ROADMAP O10). It is shown on the
   hours panel (§10.3) and in the day in brief's "By the hour" block, not
-  weighed into the day: a day reading has no hours.
+  weighed into the day: a day reading has no hours. Within its hour it
+  decides a work it names one way, the work's own hours first
+  (`DaySummary.inHours`); the haircut row on today's page reads it (§10.3).
 - **The works' own hours** (ROADMAP E4,
   [sources/white-beryl-ch34.md](sources/white-beryl-ch34.md), *Rising
   signs*): WB's chapter 34 names, for 55 of the app's works, the signs
@@ -2113,11 +2115,23 @@ canvas "Zanshin Calendar — basic design".
   weighing and not voices in it: the haircut, weighed as §5.12 weighs every work: its
   dot is the side the brief gives haircuts and its subtitle names the
   factor that decides ("avoid · by Tuesday"; KP box 52a names every weekday,
-  so on every day of 2000–2049 it is the weekday). Its sheet says so,
+  so on every day of 2000–2049 it is the weekday). On today's page the
+  row holds for the moment, not the day (the owner, 2026-10-15): within its
+  hour the combination period outweighs every factor of the day (§5.13),
+  and WB's chapter 34 names haircuts good while Aries, Taurus, Gemini, Leo,
+  Virgo or Pisces rises and bad under Cancer, Libra, Scorpio and Capricorn,
+  so the dot is the side in the hour now and the subtitle says until when
+  and what decides ("good until 23:00 · by Pisces rising"); in the hours of
+  Sagittarius and Aquarius, which name no haircuts, the day's weighing
+  stands, its decider named as before ("… · by Thursday"). On another day, and on the
+  person's day of every work to avoid (§5.12), which no hour outweighs, the
+  row is the day's weighing (`DaySummary.inHours`, reading
+  `Election.hours`). Its sheet says so, gives the good hours and the hours
+  to avoid for haircuts on the day,
   shows the days of the Tibetan month with the side the weighing gives
   haircuts on each, and gives FPMT's day for the date as one of the date's
-  lists, marked outweighed on the days it is (decided by the owner,
-  2026-10-06). It is FPMT's, not the White Beryl's: WB has no haircut
+  lists, marked outweighed on the days it is, by the hour's decider on
+  today's page (decided by the owner, 2026-10-06). It is FPMT's, not the White Beryl's: WB has no haircut
   results by date, and its thirty hair dates (p. 404) are for washing the
   hair, shown in the lunar date's sheet as a "Washing the hair" detail
   (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). Until
