@@ -1110,6 +1110,22 @@ object Activities {
         "councils_and_gatherings" to of(CONSULTATIONS, CELEBRATION),
         "building_a_throne" to of(),
         "raising_flags" to of(BANNERS),
+
+        // The White Beryl's days of the twelve links (LinkVerses)
+        "stupas" to of(SACRED_SUPPORTS),
+        "making_clothes" to of(SEWING),
+        "meeting_the_lama" to of(SERVING_TEACHER),
+        "taking_a_town" to of(WAR),
+        "hiding_treasure" to of(STORING),
+        "punishing" to of(JUDGING_CASES),
+        "meeting_friends" to of(FRIENDSHIP),
+        "gathering_food_and_wealth" to of(COLLECTING),
+        "gathering_wealth_and_goods" to of(COLLECTING),
+        "shaving" to of(HAIRCUTS),
+        "cutting_the_beard" to of(HAIRCUTS),
+        "going_to_anothers_wife" to of(),
+        "keeping_silence" to of(),
+        "welcoming_women_and_friends" to of(FRIENDSHIP),
     )
 
     /** The rokuyō's hours, by wording key. */

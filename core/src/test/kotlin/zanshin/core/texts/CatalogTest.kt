@@ -470,7 +470,7 @@ class CatalogTest {
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 22, // the hours panel (block 48)
-            "X10" to 180, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words
+            "X10" to 174, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words; the links in the shape (block 24)
         )
     }
 }

@@ -260,6 +260,8 @@ object Sources {
     val WHITE_BERYL_EARTH_LORDS = whiteBeryl("pp. 223–226")
     /** The results of the twelve day animals, the *nyi ma*, and the six opposed pairs (docs/sources/day-animals.md). */
     val WHITE_BERYL_DAY_ANIMALS = whiteBeryl("pp. 356–359")
+    /** The days of the twelve links: each link's works, directions, birth and remedy (docs/sources/day-letters.md). */
+    val WHITE_BERYL_LINKS = whiteBeryl("pp. 351–356")
     /** The earth lords that move by date (ch. 31), with their results in ch. 33 (the strikes p. 364, the sky doors pp. 368–369). */
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
     /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */
@@ -767,6 +769,19 @@ object Texts {
             key = "reading.Electional", arg = "reading.Electional.$arg",
         )
 
+    /**
+     * A White Beryl verse's good and avoid lists first, then the activity lists' [good] and [bad] without each
+     * entry that names a work of the verse's other side, since the White Beryl counts above them (SPEC §5.10).
+     */
+    private fun verseFirst(verse: Pair<List<String>, List<String>>, good: List<String>, bad: List<String>): Pair<List<String>, List<String>> {
+        val (verseGood, verseAvoid) = verse
+        fun against(side: List<String>): (String) -> Boolean {
+            val named = Activities.of(side)
+            return { key -> Activities.of(listOf(key)).any { it in named } }
+        }
+        return (verseGood + good.filterNot(against(verseAvoid))).distinct() to (verseAvoid + bad.filterNot(against(verseGood))).distinct()
+    }
+
     /** What the activity lists name each weekday, lunar date, day animal and trigram good or bad for. */
     val ELECTIONAL_WEEKDAY: Map<Weekday, Reading> = Weekday.entries.associateWith { w ->
         electional("weekday", Electional.good { w in it.weekdays }, Electional.bad { w in it.weekdays })
@@ -780,14 +795,10 @@ object Texts {
      * them (SPEC §5.10).
      */
     val ELECTIONAL_ANIMAL: Map<Animal, Reading> = Animal.entries.associateWith { a ->
-        val (verseGood, verseAvoid) = DayAnimalVerses.LISTS.getValue(a)
-        fun against(side: List<String>): (String) -> Boolean {
-            val named = Activities.of(side)
-            return { key -> Activities.of(listOf(key)).any { it in named } }
-        }
+        val (goodKeys, avoidKeys) = verseFirst(DayAnimalVerses.LISTS.getValue(a), Electional.good { a in it.animals }, Electional.bad { a in it.animals })
         Reading(
-            goodKeys = (verseGood + Electional.good { a in it.animals }.filterNot(against(verseAvoid))).distinct(),
-            avoidKeys = (verseAvoid + Electional.bad { a in it.animals }.filterNot(against(verseGood))).distinct(),
+            goodKeys = goodKeys,
+            avoidKeys = avoidKeys,
             source = Sources.WHITE_BERYL_DAY_ANIMALS,
             also = listOf(Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_WORKS, Sources.HENNING_ELECTIONAL),
             key = "reading.Electional", arg = "reading.Electional.animal",
@@ -1188,13 +1199,17 @@ object Texts {
     }
 
     /**
-     * The day's link of the twelve ([zanshin.core.tibetan.DayLetters.link], WB vol. 1, pp. 19, 150–153, 177): how it
-     * is counted, and what the activity lists name each link good or bad for. Weighed as [DATE_SME_BA] is.
+     * The day's link of the twelve ([zanshin.core.tibetan.DayLetters.link], WB vol. 1, pp. 19, 150–153, 177): the
+     * White Beryl's days of the twelve links first ([LinkVerses]), then the activity lists without the works the
+     * White Beryl names the other way, since it counts above them (SPEC §5.10, as for the day animal). Weighed as
+     * [DATE_SME_BA] is.
      */
     val TWELVE_LINK: Map<Link, Reading> = Link.entries.associateWith { l ->
+        val (goodKeys, avoidKeys) = verseFirst(LinkVerses.LISTS.getValue(l), Electional.good { l in it.links }, Electional.bad { l in it.links })
         Reading(
-            goodKeys = Electional.good { l in it.links }, avoidKeys = Electional.bad { l in it.links },
-            source = Sources.WHITE_BERYL_LETTERS, also = listOf(Sources.KUN_PHAN_ME_LONG), key = "reading.TwelveLinks",
+            goodKeys = goodKeys, avoidKeys = avoidKeys,
+            source = Sources.WHITE_BERYL_LINKS, also = listOf(Sources.WHITE_BERYL_LETTERS, Sources.KUN_PHAN_ME_LONG),
+            key = "reading.TwelveLinks.${l.name}",
         )
     }
 

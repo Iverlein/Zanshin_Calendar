@@ -234,7 +234,7 @@ class DaySummaryTest {
     fun `the counts beside the Tibetan line`() {
         // The row's counts (ROADMAP T2.7): every work on one side, so they add up to the day's works.
         val s = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
-        assertEquals(57 to 38, s.good.size to s.avoid.size)
+        assertEquals(58 to 38, s.good.size to s.avoid.size)
         // Days whose lists run against their tone, more than twice as many works on the other side (SPEC §5.12).
         var date = LocalDate.of(2000, 1, 1)
         var against = 0
@@ -251,8 +251,9 @@ class DaySummaryTest {
         }
         // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier, 2067 before
         // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24), 2018 before the mewa and
-        // the link joined the trigram's voice (T2.25).
-        assertEquals(2006, against)
+        // the link joined the trigram's voice (T2.25), 2006 before the White Beryl's days of the twelve links joined the
+        // link's lists (T2.27).
+        assertEquals(2047, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -281,8 +282,9 @@ class DaySummaryTest {
             assertEquals(DayFactor.DAY_ANIMAL, n.decider, "$date $work")
             return s.sideOf(work)!!.first to (n.good + n.avoid).map { it.kanji }
         }
-        // 4 October 2026, a horse day: its results name seeking friends good (WB vol. 2, p. 357), which no list does.
-        assertEquals(Tone.GOOD to listOf("Horse"), decided(LocalDate.of(2026, 10, 4), Activity.FRIENDSHIP))
+        // 4 October 2026, a horse day: its results name seeking friends good (WB vol. 2, p. 357), and so does the day's
+        // link, feeling, meeting friends (p. 354).
+        assertEquals(Tone.GOOD to listOf("Horse", "Feeling"), decided(LocalDate.of(2026, 10, 4), Activity.FRIENDSHIP))
         // 3 October 2026, a snake day: cutting forests is to be avoided (p. 357).
         assertEquals(Tone.BAD to listOf("Snake"), decided(LocalDate.of(2026, 10, 3), Activity.FELLING_TREES))
         // 7 October 2026, a dog day: feasts are good by the activity lists, of which the dog's results say nothing.
@@ -298,11 +300,12 @@ class DaySummaryTest {
         // 1 November 2026, Ārdrā: its verse names killing and cutting good (WB vol. 2, p. 316), with the element pair and Viṣṭi.
         val ardra = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         assertEquals(listOf("Fire – Water", "Ārdrā", "Viṣṭi"), ardra.activities.single { it.activity == Activity.KILLING }.good.map { it.kanji })
-        // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday, the snake (chapter 34, p. 421)
-        // and the Zon trigram agree, the demon king, weaker than both, is outweighed.
+        // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday and the snake (chapter 34, p. 421)
+        // agree, the demon king, weaker than both, is outweighed. The Zon trigram avoids war too, but the day's link,
+        // the sense sources, names taking a town good (p. 353), so the trigram's voice is silent on it.
         val krittika = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
         val war = krittika.activities.single { it.activity == Activity.WAR }
-        assertEquals(listOf("Wednesday", "Kṛttikā", "Snake", "Zon"), war.avoid.map { it.kanji })
+        assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), war.avoid.map { it.kanji })
         assertEquals(listOf("Demon king"), war.outweighed.map { it.kanji })
         assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
         // The Zhol print reads «དྲ་གྱོན», new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
