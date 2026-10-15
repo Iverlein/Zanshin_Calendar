@@ -80,7 +80,7 @@ moves up as soon as it is unblocked.
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
 | <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links — built 2026-10-15 | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
-| <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) for the owner) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) decided the same day) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
@@ -2799,16 +2799,19 @@ show them too. What WB has and what the readings found is in
   and not by date; which Tibetan months the Four Tantras' seasons are,
   which no source read gives, so the Medicine tab names no season as
   today's; WB's illness reckoning (H2).
-- **D14, the owner's word first** (RD8, open questions 58 and 84,
-  [sources/health.md](sources/health.md), *KL's tables in WB*): the la's
-  place by date follows WB's Phugpa list (p. 303), as the lunar dates'
-  readings already did. Dr. Chenagtsang's course, the Tsuglag Rigje
-  column of Deumar's table with Mipham's crown and sole, differs on four
-  dates: the 4th the knee (WB the waist), the 10th the shoulder blade
-  (WB the top of the shoulder), the 15th the crown and whole body (WB the
-  shoulder blade), the 29th the instep (WB the shin). Whether the screen
-  keeps WB's alone, or gives his beside it with the grey dot, is the
-  owner's; until then WB's stands.
+- **D14, decided 2026-10-15** (RD8, RD9, open questions 58 and 84,
+  [sources/health.md](sources/health.md), *KL's tables in WB* and *The
+  classical texts he cites*): the la's place by date follows WB's Phugpa
+  list (p. 303) alone. Dr. Chenagtsang's course differs on four dates
+  (the 4th the knee, WB the waist; the 10th the shoulder blade, WB the
+  top of the shoulder; the 15th the crown and whole body, WB the shoulder
+  blade; the 29th the instep, WB the shin). His course cites no source:
+  it is the Tsuglag Rigje column of Deumar's *Precious Garland*, thirty
+  of thirty dates, with the crown and sole of Mipham's *Treatise on
+  Passion* on the 15th and 30th. The Four Tantras, which he cites for
+  the humours, conduct by season and the la channel, give no course by
+  date. The owner's word: had the difference come from the Four
+  Tantras it would be followed; since it does not, WB counts higher.
 
 ### <a id="h2"></a>H2. The illness reckoning — planned 2026-10-11
 
