@@ -222,7 +222,21 @@ direction gods (K5) and a check against a paper almanac (D12).
   glossary (`tools/pdf/`), and the store listing where it names a term.
   The expert may be asked to name the works (her offer: the terms need
   checking «в т.ч. по научным работам на русском языке»).
-- **Block.** [51](#block-51); its reading first. [15](#block-15)
+- **Read 2026-10-15** ([sources/kyureki.md](sources/kyureki.md), *K1*):
+  the table of attested names, from БЯРС (via WaRoDai, CC BY-NC-ND: the
+  fact of a name only), Вяткин's *Ши цзи* vol. IV (the one full set of the
+  28 mansions), Еремеев and Агеев 2012 (the 24 terms) and a dozen articles.
+  For the build: 神無月 is printed «месяц без богов», not the app's
+  «месяц богов»; 閏月 is «вставной месяц» (the year alone «високосный»);
+  穀雨, 小満, 処暑, 芒種 have attested names other than the app's; thirteen
+  mansions have Вяткин's names where the app's are found nowhere (房, 箕,
+  危, 室, 奎, 婁, 昴, 畢, 觜, 参, 鬼, 張, 翼); 人日 only as «дзиндзицу»,
+  重陽 as «праздник хризантем» (the expert's «двойной девятки» not in print);
+  no Russian name at all for 暦注, 下段, 中段/十二直, 選日, 雑節, 社日 and
+  the named 下段 days, which keep the app's. Which of several names in use
+  to take (the months «N-я луна» or «N-й месяц»; Вяткин's mansions) is the
+  owner's word, with the section's five questions for the expert.
+- **Block.** [51](#block-51), from the table. [15](#block-15)
   (L3) waits on it for the 旧暦 page.
 - **Done when.** The table in kyureki.md; `CatalogTest`; the owner's
   read-through of the Russian (L3, block 15), which waits on this for the

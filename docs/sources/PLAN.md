@@ -500,3 +500,12 @@ Searched and found wanting, so not to be repeated:
   them); KP2's boxes 50 and 51 (img. 278–279) are too dim to read syllable
   by syllable and stand as the machine reading; KP2 img. 264, box 34's
   numeral against WB's «བཞི་ལྗང», was not read.
+- **Russian names of the 暦注** (K1, 2026-10-15): cyberleninka's search
+  API, synologia.ru (the articles «Эр ши ба сю», «Цзе ци», «Шэ», «Цзянь
+  чу», «Тун шу», «Хуан ли» and others are "not yet written") and WaRoDai
+  (БЯРС) have no Russian name for 暦注, its bands, 十二直, 選日, 雑節, 社日
+  or the named 下段 days; Фельдман's «Японский календарь» (*НАА*, 1970,
+  № 4), Цыбульский's *Лунно-солнечный календарь стран Восточной Азии*
+  (1987) and *Календарные обычаи и обряды народов Восточной Азии* (1989)
+  have no full text online; abirus.ru's copy of Вяткин's index times out
+  (coollib.com book 523632 has the volume with its page marks).
