@@ -674,6 +674,310 @@ ten thousand things are born."
   bad may be done; it and §8–§14 (大將軍, 大陰, 歳刑, 歳破, 歳殺, 黄旛,
   豹尾, img. 13–16) are the year's direction gods of K5, not read here.
 
+### The 下段 days (§32–§42, §51; GR img. 42–46, 48–49; MS img. 35–36)
+
+Each passage as printed in GR; 巳 is GR's form of the stem 己 throughout,
+〔〕 a small double-line note, line breaks ours.
+
+**天恩 (§32, GR img. 42, MS img. 35).**
+
+> 或問天恩者何也　答曰暦例云天恩者天之位有四禁之道常開一也其自甲子至癸亥六十日也四分一是十五日也其甲配于子巳配于卯酉甲在十干之始子在十二支之始故自甲子至戊辰五日之間為天恩之日又巳為十干之主卯酉為天地之緯故自巳卯至癸未五日之間為天恩日又自巳酉至癸丑五日之間為天恩日合十五日皆為天恩日如此支干偶助而成育万物故名天恩日尤好日也
+
+"Heaven's grace: of heaven's four forbidden ways, one is always open.
+Of the sixty days, a quarter, fifteen. 甲 heads the stems and 子 the
+branches, so 甲子 to 戊辰; 己 is the stems' lord and 卯 and 酉 heaven's
+and earth's weft, so 己卯 to 癸未 and 己酉 to 癸丑: fifteen days in all.
+Stem and branch help one another and rear the ten thousand things; a
+very good day." The fifteen are the app's (`TENON`: 1–5, 16–20, 46–50).
+It names no works; the app's "not to be used for sad occasions" is not
+in it.
+
+**天赦 (§33, GR img. 42–43, MS img. 36).**
+
+> 或問天赦日者何也　答曰通鑑云天赦者天之生養万物宥其罪日也故曰天赦百神上天之日也無所禁忌春戊寅夏甲午秋戊申冬甲子此皆天赦日也夫甲戊者為陽干之位子午者為天地經寅申者為陰陽之主是以戊寅甲午戊申甲子者於四時而名天赦日舉百事吉也
+
+"The day heaven, which bears and rears all things, pardons their
+wrongs; the day the hundred gods rise to heaven; nothing is forbidden.
+Spring 戊寅, summer 甲午, autumn 戊申, winter 甲子 … every undertaking
+is lucky." The app's four days and its reading (the gods rise, the
+wrongs forgiven, good for everything) agree. (MS img. 36 writes «春戊刀»
+for 戊寅: see *For K6-R's questions* on 刀.)
+
+**母倉 (§34, GR img. 43, MS img. 36).**
+
+> 或問母倉者何也　答曰暦例云母倉者五行所生之母辰也春之木王之時亥子母倉日水生木故也夏者火王之時寅卯母倉日火生土故也秋金王之時丑未母倉日土生金故也冬者水王之時申酉母倉日金生水故也五行皆以母之位為母倉日也是舉百事吉也
+
+GR as printed; MS img. 36 reads at the summer clause
+«夏火王之時刀卯母倉日木生火故也四季土王之時巳午母倉日火生土故也», so GR
+has dropped a line by eye-skip (from the first «…生» to the second) and
+lost the earth months. "The 母倉 is the branch of the agent that bears
+the ruling one: spring (wood) 亥子, water bearing wood; summer (fire)
+寅卯; the four earth seasons 巳午 (MS); autumn (metal) 丑未; winter
+(water) 申酉. Every undertaking is lucky." Against the app (`BOSO`:
+寅卯 months 子亥, 巳午 寅卯, 辰未戌丑 巳午, 申酉 丑辰未戌, 亥子 申酉): the
+same but autumn, where the old text has 丑未 only and the app adds 辰戌.
+Its reading has nothing of "as a mother her child" or of marriage
+especially; only "good for every undertaking".
+
+**帰忌 (§35, GR img. 43, MS img. 36).**
+
+> 或問歸忌者何也　答曰暦例云歸忌者天棓星之精也此星上衛紫宮下防門闕凡有四名一曰歸忌二曰皈化三曰天小女四曰皈来主丑寅子日自天降地而来居人家門防禦皈家来故遠行皈家移徙嫁娶加冠入國皆不吉也
+
+"The spirit of the star 天棓, which guards the Purple Palace above and
+the gate-towers below; four names. It rules the 丑, 寅 and 子 days, comes
+down and stays at people's gates and keeps the homecomer out: long
+journeys, coming home, moving house, marriage, capping and entering a
+province are all unlucky." The three branches are the app's (`KIKO`),
+which the text does not tie to months; the app's avoid list
+(journeys, coming home, moving, bringing in a bride) is the old one,
+with capping and entering a province besides; lending money is not in it.
+
+**血忌 (§36, GR img. 43, MS img. 36).**
+
+> 或問血忌者何也　答曰郝震堪輿經云血忌者天精也云梗河之精也有三名一曰殺忌二曰日忌三曰血忌從丑始至于子終来往十二辰運而復始主斂伐故刑戮及針灸出血等犯用之凶也
+
+"The spirit of 梗河; three names; it starts from 丑 and ends at 子,
+running the twelve branches round; it rules gathering in and cutting
+down, so executions, acupuncture and moxa, letting blood are unlucky."
+The app's table starts at 丑 in the 寅 month; the text gives the start
+only. The app's avoid list (acupuncture, bloodshed, hunting) has
+hunting for which the text has executions.
+
+**往亡 (§42, GR img. 45–46).**
+
+> 或問徃亡者何也　答曰新撰陰陽書云徃亡者天之斂鬼也暦例云徃者去也亡者無也有三名一曰徃亡二曰天門三曰天從行十二節而一歳有十有二日今按自立春七日自驚蟄十四日自清明二十一日合四十二日春徃亡也自立夏八日自芒種十六日自小暑二十四日合四十八日夏徃亡也自立秋九日自白露十八日自寒露二十七日合五十四日秋徃亡也自立冬十日自大雪二十日自小寒三十日合六十日冬徃亡也四時合二百有四日也是丁歳之数不足故失陰陽之数仍云窮日其日不可遠行又出軍憂死不還尤凶也
+
+"Heaven's gatherer of ghosts … it goes with the twelve 節, twelve days a
+year. By my count: the 7th day from 立春, the 14th from 驚蟄, the 21st
+from 清明 … the 30th from 小寒 … so it is called the exhausted day: no
+long journey; an army that sets out fears death and does not return;
+very bad." The twelve counts are the app's (`OMO_DAY`), counted from
+the 節 itself as day 1 or day 0 the text does not say (a question). The
+app's "the day armies did not march" is the old text's; its avoid list
+(journeys, taking office, moving, weddings) goes beyond it (journeys
+and war only). «丁歳» is printed; the sense is unclear (a doubt).
+
+**重 (§40, GR img. 44–45).**
+
+> 或問重者何也　答曰暦例云檢巳當純乾檢亥當純坤陰陽是重也又云巳亥天地之木也今按巳四月建主乾卦重陽也亥十月建主坤卦重陰也以重陽重陰故為重日舉百事必重疊也更不可為凶事又雖吉事随事可用之矣
+
+"巳 is pure 乾 and 亥 pure 坤 … so 巳 and 亥 days are 重日: whatever is
+done is doubled; never do an ill deed on it; even a good one, use it
+according to the matter." (Here 巳 is the branch; «天地之木» is printed,
+perhaps for 本, a doubt.) The app's rule (巳 and 亥 days) and its "good
+for good things, bad for bad" agree; weddings are not named.
+
+**復 (§41, GR img. 45–46).**
+
+> 或問復日者何也　答曰暦例云復者寅卯月者木王故正月甲日復日又相對庚日復日也二月乙日復日又相對辛日復日也三月土王故戊巳日復日土者依無相對之位連日復日也巳午月者火王故四月丙日復日也又相對壬日復日也五月丁日復日也又相對癸日復日也六月土王故戊巳日連日復日也申酉月者金王故七月庚日復日又相對甲日復日也八月辛日復日又相對乙日復日也九月土王故戊巳日連日復日也亥子月者水王故十月壬日復日又相對丙日復日也十一月癸日復日又相対丁日復日也十二月土王故戊巳日連日復日也吉凶皆同重日也
+
+The months' stems and their opposites, earth months 戊己: the app's
+`FUKU_STEMS` cell by cell; "good and bad alike as on 重日".
+
+**歳下食 (§51, GR img. 48–49).**
+
+> 或問歳下食者何也　答曰尚書暦云歳下食者有天狗星其精也是以云天狗出食日又号深悪神日六十日一出食一歳六食也但輕凶也支干吉并者用之無咎也
+
+"The spirit of the star 天狗: the day it comes out to eat, also called
+the day of the deep-evil god; once in sixty days, six times a year. But
+it is a light bad day: where stem and branch are both lucky, use it
+without blame." This is the 1901 guide's condition (above, *歳下食, a
+second witness*) in a text of 1414, and the app's "light bad day",
+from a classical source. It gives no table of the days.
+
+**Not in the work.** No section, and no mention found in the sections
+read, of 大明日, 節徳日, 鬼宿日, 受死日, 十死日, 天火日, 地火日 (§47 伐 and
+§45 八竜七鳥九虎六蛇 are other days). §44 凶會 and §46 五墓 exist (img.
+46–48) but the app leaves both out (SPEC §7.5) and nothing is revived.
+
+### The 選日 and the 縁日 (§53 天一, §43 日遊, §58 十二支; GR img. 46, 49–50, 52–53)
+
+**天一天上 (§53, GR img. 49–50).**
+
+> 或問天一者何也　答曰春秋命暦云天一者地星之灵也太一者人星之灵也尤為尊星倶在天上紫微宮門外左曰天一右曰太一天一主戰鬪知吉凶太一主風雨水旱兵革飢疫灾害而遊行九宮陰陽書云天一者巳酉日從天来居東北維六日化人頭蛇身乙卯日移居正東五日化人頭魚身庚申日移居東南維六日化人頭鷹身丙寅日移居正南五日化人頭鶏身辛未日移居西南維六日化人頭半身丁丑日移居正西五日化人頭馬身壬午日移居西北維六日化人頭竜身戊子日移居正北五日化人頭亀身從癸巳日上天十六日間招搖大微星大紫房等宮遊行而從巳酉日降地運行八方而角六日方五都四十四日運終焉其天一遊行方角百事犯向之大凶戰鬪向之弩弓折産乳向之死傷尤大凶東北維艮方正東卯方也餘倣之
+
+(«人頭半身» at 辛未 and «人頭竜身» at 壬午 are read with doubt: the
+character before 身 in each is small and unclear on the scan.)
+
+"天一 is the spirit of the earth star … 天一 rules battle and knows good
+and bad fortune. The 陰陽書: on 己酉 天一 comes down from heaven to the
+north-east corner for six days, in the shape of a man's head and a
+snake's body; on 乙卯 it moves to due east for five days; 庚申 south-east,
+six; 丙寅 due south, five; 辛未 south-west, six; 丁丑 due west, five; 壬午
+north-west, six; 戊子 due north, five; from 癸巳 it goes up to heaven for
+sixteen days and wanders the palaces of 招搖, 大微, 大紫 and the 房; from
+己酉 it comes down again and goes round the eight directions, six days
+in a corner and five in a cardinal point, 44 days in all. Whatever is
+done facing the direction where 天一 wanders is very bad: in battle the
+crossbow breaks, in childbirth there is death and harm."
+
+- The sixteen days in heaven, 癸巳 to 戊申, are the app's (sexagenary
+  30–45). The 44-day course on earth is K4's "天一神's course": 己酉 NE 6,
+  乙卯 E 5, 庚申 SE 6, 丙寅 S 5, 辛未 SW 6, 丁丑 W 5, 壬午 NW 6, 戊子 N 5.
+  (6 + 5) × 4 = 44 and 44 + 16 = 60.
+- The app's reading ("no direction is blocked and any journey is fine")
+  is the consequence the old text implies but does not state: it names
+  only the harm of facing 天一's direction on the 44 days.
+
+**日遊 (§43, GR img. 46).**
+
+> 或問日遊者何也　答曰訪諸文日遊之説多矣日遊所在尤有忌諱夫日遊者天一火神也日之精氣下主宮舎内外而遊八方主日精之故名日遊也自癸巳日至巳酉日十七日在屋内又戊巳日居屋舎内餘日皆運轉八方今暦所載者只在屋舎内耳八方遊行者皆略之此日勿掃屋舎内又婦人産期之時避母屋移庇間無咎也
+
+"日遊 is 天一's fire god … From 癸巳 to 己酉, seventeen days, it is
+inside the house, and on 戊 and 己 days too; on the other days it goes
+round the eight directions. The almanac of today prints only its days
+in the house and leaves out its wanderings. On these days do not sweep
+inside the house; a woman near childbirth moves from the main house to
+the side room, and no harm follows."
+
+- So the old text puts 日遊 in the house 癸巳–己酉, the 天一天上 days and
+  one more, and also on every 戊 and 己 day. The app's reading says
+  "Nichiyū-jin stays in the house instead: keep it clean"; the old text
+  says the opposite of the second half: **do not sweep the house** on
+  these days. A correction for the reading (K3/D8).
+- «今暦所載者只在屋舎内耳»: already in 1414 the almanac printed only the
+  house days, not the course.
+
+**The 縁日 days in §58 十二支吉凶 (GR img. 52–53).** The section lists,
+branch by branch, what is not done on each day, with small notes from
+the 尚書暦, 群忌 and 八會經. Read in outline only (the small notes not
+all read with certainty): 寅日 «不鮮祭 … 不解除» (no sacrifices, no
+purification) — no word of weddings, which the app's 寅の日 reading
+avoids; 巳日 «不造屋舎 … 不出行 … 不吊人» (no building, no journeys, no
+condolence visits). The app's 縁日 readings (Bishamonten, Benzaiten,
+Daikokuten, 庚申待) have no counterpart in it; §57 十干吉凶 has 庚日 «不出金錢»
+and nothing of 庚申 or 甲子 as festival days.
+
+**The modern 選日** — 一粒万倍日, 不成就日, 三隣亡, 十方暮, 八専, 大犯土
+and 小犯土 — have no section and are not named in the sections read.
+(§55 土公土府, img. 50–51, is the earth god's course, not the 犯土.)
+
+### The 雑節: 土用 and 社日 (§25, §27; GR img. 38–40, MS img. 32–34)
+
+**土用 (§25, GR img. 38–39; MS img. 32–33).**
+
+> 或問土用事何也　答曰暦例云土用事暦筭定之不可起土其五行皆配於四方故主十干十二支以成四時春木用事刁十八日甲十八日乙十八日卯十八日合七十二日也木一氣之数木王時也辰十八日土用事土王時也夏火用事巳十八日丙十八日丁十八日午十八日合七十二日火一氣之数火王時也未十八日土用事土王時也秋金用事申十八日庚十八日辛十八日酉十八日合七十二日金一氣之数金王時也戌十八日土用事土王之時也冬水用事亥十八日壬十八日子十八日癸十八日合七十二日水一氣之数也水王時也丑十八日土用事土王之時也土為五行之王故為王於四季四時土用数合七十二日為土王之位是五行之数合三百六十日一歳之数也但春秋冬之三土用者皆為散王之位未能相生春土畏木故春土用者不専秋土用者土羨老故無威冬土用者居水與木間而不専故為王之位夏獨正為土王之位戊属於丙巳属於丁其土見生於火故以夏土用正為土王之時是以生金於西也春木用事無伐木夏火用時無縱火秋金用時無禁金石冬水用時無澤池堰四季時無犯土是五行妙用大槩如此
+
+(«刁» stands where the count needs 寅; MS has «土羨老», read with doubt
+in both; MS reads «不專故為散王之位» where GR drops 散; for «禁» and
+«澤» see *For K6-R's questions*.)
+
+"The 土用 is fixed by the calendar's reckoning: **do not move earth**.
+… Each agent has four eighteen-day spans, 72 days; the eighteen days of
+辰, 未, 戌 and 丑 are 土用, earth's rule, 72 days in all, and the five
+agents' 72 days make the year's 360. But the 土用 of spring, autumn and
+winter are earth's scattered rule …; only summer's is earth's true
+rule, since fire bears earth. In wood's season do not fell trees, in
+fire's do not set fires, in metal's do not burn metal and stone, in
+water's do not breach ponds and weirs, in the four 土用 do not
+disturb the earth."
+
+- The app's rule (18 or so days before each 立) and reading (the days
+  "five-element theory gives to earth") agree; the old text adds the one
+  avoidance the app's reading lacks, **no earthworks during 土用**
+  («不可起土», «四季時無犯土»), and that the summer 土用 is earth's true one.
+- It says nothing of the Ox days (土用の丑).
+
+**社日 (§27, GR img. 40–41; MS img. 33–34).**
+
+> 或問社者何也　答曰尚書暦云社者歳之春秋可祀之社事土地之主也稷五穀之長也二月八月之中氣也二月為春社八月為秋社百穀實而稼穡成報德而祀之故春社者近於春分戊日秋社近於秋分戊日也各命民祭於土地將攘悪氣其戊土也故取其日祭之也
+
+"The 社 is the lord of the land, 稷 the chief of the five grains;
+spring and autumn are when they are worshipped, at the 中氣 of the
+second and eighth months … so the spring 社 is the 戊 day near 春分, the
+autumn 社 the 戊 day near 秋分; the people are made to sacrifice to the
+earth to drive off bad 氣. 戊 is earth, so its day is taken." The app's
+rule (the 戊 day nearest the equinox) is this; the old text gives no
+rule for a tie (question 10 stays open), and its reading supplies what
+the app's lacks: an offering to the god of the land for the harvest,
+with 戊 chosen because it is earth.
+
+### The 二十八宿 (§59, GR img. 53–54)
+
+> 或問二十八宿有吉凶乎　答曰二十八宿〔并七曜〕者天之元氣万物之精也故吉凶甚明矣今大槩釋之宿曜經云牛宿為吉祥宿每日午時直事是以午時為吉祥又云畢翼斗壁為安重宿此等宿直日造宮殿伽藍館宇寺舎種蒔婚姻造家具入道場入壇受灌頂等宜觜角房奎為和善宿此宿直日學伎藝習真言受灌頂求婚姻舉錢對君王參將相冠帶出行服藥等吉參柳心尾為悪害之宿此宿直日圍城斫營徵兵略賊交陳破敵宜鬼軫胃婁為急速之宿此宿直日進路出行入學受業服藥入道場受灌頂吉星張箕室為猛悪之宿此宿直日射獵祭天祈神求兵威吉井亢女虛危五宿為輕躁之宿此宿直日學乘象馬種蒔服藥吉昴氐為剛柔之宿此宿直日造家具送葬鑽火入宅王者盟會吉也
+
+The 宿曜經's seven classes, with 牛 apart as the auspicious mansion that
+rules every day at the horse hour:
+
+| Class | Mansions | Good for |
+| --- | --- | --- |
+| 安重 (steady) | 畢 翼 斗 壁 | building palaces, temples and houses, sowing, marriage, household goods, entering the practice hall or the altar, receiving 灌頂 |
+| 和善 (gentle) | 觜 角 房 奎 | learning arts, mantras, 灌頂, seeking marriage, lending, audiences, capping, setting out, medicine |
+| 悪害 (harmful) | 參 柳 心 尾 | sieges, camps, levies, raids, battle |
+| 急速 (swift) | 鬼 軫 胃 婁 | the road, setting out, school, medicine, the practice hall, 灌頂 |
+| 猛悪 (fierce) | 星 張 箕 室 | hunting, sacrifice to heaven, prayers, military power |
+| 輕躁 (light) | 井 亢 女 虛 危 | learning to ride, sowing, medicine |
+| 剛柔 (mixed) | 昴 氐 | household goods, funerals, kindling fire, moving in, covenants |
+
+**What the app needs.** These are the 宿曜経's classes, not the lists the
+app shows (Todan's, after the modern almanac): 參 柳 心 尾 are harmful
+here (the app: 心 good for shrine rites, 尾 for medicine and weddings),
+氐 good for funerals, 室 fierce (the app: 室 good for weddings). The
+writer himself holds the 宿曜経's days in low esteem (below, *Ranking*),
+so the old text gives no reading of the 二十八宿 to put first; the
+app's lists are the later almanac's. Its 28 count 牛, which the 27 of the
+宿曜経 lack, as a class of its own (on K4's 27/28 question: the 1414 text
+speaks of twenty-eight, with 牛 apart). Of the 七曜 (§60) the app shows
+nothing on this page.
+
+### The three bad days, and ranking (§61–§64, GR img. 54–56; MS img. 46)
+
+**§61 滅門大過狼籍 (GR img. 54–55; MS img. 46, the same words).**
+
+> 或問滅門大禍狼藉者何也　答曰宿曜經云一月之内三箇之凶日一切不可舉行慎而能慎若犯滅門日者家門亡若犯大禍日口舌發不休息若犯狼藉日所作不宜万事散失凶也
+
+"The 宿曜經 says: three bad days in each month; nothing at all is to be
+undertaken; be as careful as can be. Who offends the 滅門 day, his house
+perishes; the 大禍 day, quarrels break out without rest; the 狼藉 day,
+nothing done is fitting and everything scatters and is lost."
+
+**§64 金剛峯, with the writer's judgement (GR img. 55–56; MS img. 46).**
+
+> 或問金剛峯者何也　答曰宿曜經云宜作一切降伏法此名金剛峯日誦真言作護摩猛利事吉今按二十八宿七曜滅門大禍狼藉甘露金剛峰吉凶皆一經之説也是弃於四時生殺之理不取五行日辰之妙也於是玄女云不知五行之相尅日辰之吉凶者如盲馳於曠野云云所詮滅門大禍狼藉羅刹等四箇日灌頂受戒習經出家修道入寺供佛立寺受真言護摩此三寶類皆以可忌之餘無咎又甘露金剛峰等兩箇日雖有吉文不并支干之吉者勿用之
+
+"… By my judgement: the good and bad of the 二十八宿 and 七曜, of 滅門,
+大禍, 狼藉, 甘露 and 金剛峯, are all the teaching of one sutra. It casts
+away the principle of the four seasons' birth and killing and does not
+take the subtlety of the five agents' days. So 玄女 says: who does not
+know how the five agents overcome one another, and the good and bad of
+days, is like a blind man galloping across a wilderness. In sum: on
+the four days 滅門, 大禍, 狼藉 and 羅刹, 灌頂, taking the precepts,
+studying sutras, leaving home, the path, entering a temple, offerings
+to the Buddha, founding a temple, receiving mantras and the 護摩 — all
+matters of the Three Jewels — are to be avoided; **for the rest there is
+no blame**. And the two days 甘露 and 金剛峯, though written as good, are
+not to be used unless stem and branch are lucky as well."
+
+**Against the 簠簋内伝's table** (*The personal reading of 三箇の悪日*
+above):
+
+- The 暦林問答集 gives **no table**: no branches, no solar months, and no
+  birth year. It knows the three days only as the 宿曜經's "three bad
+  days in each month", with the harm each brings.
+- Its writer limits them to Buddhist matters and calls them harmless for
+  everything else. The 簠簋内伝 (1632, 1800, 1919 printings) says they are
+  used for nothing («萬事不用») and, from 1800, binds each column to a
+  birth year.
+- So the 1414 text cannot confirm the personal reading; it is a third
+  view of the same days: a monthly sutra rule, of weight only for the
+  Three Jewels. Which to show is D8's.
+
+**Ranking (question 6).** The work has no rule of precedence between the
+almanac's annotations of the kind asked for (which band overrides
+which). It has two weighing statements:
+
+1. §64: the 宿曜經's days (the 二十八宿 and 七曜, 滅門・大禍・狼藉, 羅刹,
+   甘露, 金剛峯) stand below the reckoning by stems, branches and the five
+   agents: their bad days bind only Buddhist matters, and their good
+   days count only where stem and branch are good too.
+2. §51: 歳下食 is a light bad day, set aside where stem and branch are
+   lucky together.
+
+And one of weight without precedence: the 十二直 "especially great in
+good and bad fortune" (§22). The expert's "no such rule existed" holds
+for the almanac's bands; the 1414 writer does subordinate one school,
+the 宿曜道's, to the 陰陽道's five-agent reckoning.
+
 ## K6-R: the twenty-four solar terms (ROADMAP K6)
 
 A reading for each of the 二十四節気 the page's term row will open: what
