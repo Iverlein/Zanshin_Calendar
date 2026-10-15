@@ -27,11 +27,13 @@ readings of that day and sunrise, solar noon and sunset for your place.
   sunrise, noon, sunset and midnight, and the works an hour turns
   against the day's animal sign; the page in those texts' order of strength: the hours
   above the day, the day in brief with the works it allows and forbids
-  and the one factor that decides, then the readings; the haircut as it stands in the hour now, personal days and
-  mansions for a birth year; and for each person the year of age by the
-  White Beryl's elemental divination: mewa, trigram and progressed sign,
-  the pebbles with their predictions, growth and decline, and the year's
-  obstacles.
+  and the one factor that decides, then the readings; the haircut as it
+  stands in the hour now, and personal days and mansions for a birth
+  year.
+- **Reckonings:** the White Beryl's element reckoning for each person,
+  its pebbles counted, not cast: the year of age, year by year, with its
+  mewa, trigram and progressed sign, the pebbles with their predictions,
+  growth and decline, and the year's obstacles.
 - **Health:** what falling ill today means by the date, the weekday,
   the link and the goddess of the day, the four perilous days; where the
   la sits by the date and moves through the day; the day's mansion as a

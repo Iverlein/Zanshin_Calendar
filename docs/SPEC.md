@@ -346,7 +346,7 @@ by the White Beryl, Beijing 1996, vol. 1: chapter 21 (pp. 255–258) for the
 signs, chapter 24 (pp. 380–416) for the obstacle years, with Lochen
 Dharmaśrī's *Moonbeams* (KD vol. 3, pp. 493, 496, 507) where WB does not
 say. Tested against Gyurme Dorje's Table 2.11 and every cell of chart 6.2
-(`YearOfLifeTest`).
+(`YearOfLifeTest`). Shown in the Reckonings, a year at a time (§10.11).
 
 | Sign | Rule |
 | --- | --- |
@@ -1672,7 +1672,7 @@ the same way.
    "understand it as pounding", goes after the ruling as "its image is
    death in prison"; a phrase whose meaning the source does not give
    ("the mute one bursts") is dropped to the topic file, not shown bare.
-   The year sheet's pebble verses are omens and stay verses, each with
+   The year of age's pebble verses are omens and stay verses, each with
    its ruling line first and its remedy as a row.
 8. **Nothing about the app in a reading.** No "the works below", "the
    lists", "the day in brief", "shown and not weighed", "with a birth date
@@ -2032,17 +2032,10 @@ canvas "Zanshin Calendar — basic design".
 - **Year:** element and animal, "Fire Horse"; the royal year (2153)
   and rabjung cycle ("17th cycle, year 40") in the year's balloon. With a
   person chosen, the balloon ends in "Your 51st year of age →", which opens
-  the **year sheet** (§5.9.1): the person's age and signs; the signs of
-  the year (the mewa of the year of age with the natal one, and with a
-  gender the trigram and the progressed sign with its place); the pebbles
-  as a grid, a row for each basic sign and a column for each aspect as
-  chart 6.2 lays them, the white and black counted under it, then each
-  aspect's predictive pebble (and all four alike); the hour of reckoning
-  named; the four sectors of growth and decline; and the year's
-  obstacles, or a line saying there are none. Every row and cell opens
-  its reading with its workings. Without a gender a note asks for it in
-  People. The sheet changes once a year, so it stays behind the tap
-  (the owner's rule that the page repeats nothing).
+  the person's **year of age** (§5.9.1) in the Reckonings, at the year
+  shown (§10.11); Back from it returns to the page. It changes once a
+  year, so it stays behind the tap (the owner's rule that the page
+  repeats nothing). Until R1 (2026-10-15) it was a sheet over the page.
 - **Midnight to dawn:** "today" is still the day before until 05:00, as
   §4 says; the date carries a small "from dawn". A page left on today
   follows when the day turns, at 05:00 while the app is open or when it
@@ -2403,7 +2396,8 @@ canvas "Zanshin Calendar — basic design".
 - A **burger button, top left**, opens a menu that slides out from the left
   as a full-height column, scrolling when it does not fit, in groups under
   small capital labels, a line between groups: **Calendar** (the two
-  calendars, Choose a day and Health), **Practice** (Meditation, §10.9),
+  calendars, Choose a day and Health), **Reckonings** (the element
+  reckoning, §10.11), **Practice** (Meditation, §10.9),
   **Settings** (location, people, nine-star reading, language), and
   About & sources alone at the foot. About & sources lists the
   calendars' methods, the readings' sources and licences, and, under
@@ -2466,13 +2460,19 @@ canvas "Zanshin Calendar — basic design".
   calendar shown, from the shown day, its work not yet picked.
 - **Health**, under Choose a day: the Health screen (§10.10) on the
   shown day.
+- **Element reckoning**, the Reckonings group's row: the Reckonings
+  (§10.11) for the person chosen, at the shown day's Tibetan year.
+- **People from a screen**: the way to People that Health's You tab and
+  the Reckonings show without a person opens the same list and dialogs
+  over that screen. (Until R1 they opened only over the day pages, so on
+  Health the link did nothing.)
 - **The groups fold** (ROADMAP H3, built 2026-10-15): each group's label
   is a header row with a chevron that turns, a button with its state
   ("open", "closed") for screen readers; a tap opens or closes its rows
   with an animation of the height. Every group is closed on a fresh
   install, and each keeps the state it was last left in, apart from the
   others, across the menu's closing and the app's restart (preferences
-  `menu_calendar`, `menu_practice`, `menu_settings`). About & sources
+  `menu_calendar`, `menu_reckonings`, `menu_practice`, `menu_settings`). About & sources
   stands alone at the foot, always shown. A group added later starts
   closed.
 
@@ -2768,6 +2768,47 @@ Not built: Dr. Nida Chenagtsang's own tables, which are WB's but for the
 six moxa dates and the syllables (RD7–RD9), the la pulse (a sign read at
 the pulse, not by date), WB's illness reckoning (H2) and the mansion of
 conception.
+
+### 10.11 The Reckonings
+
+The White Beryl's element reckoning (*'byung rtsis*) for the person
+chosen, a section of its own (ROADMAP R, R1 built 2026-10-15;
+[sources/reckonings.md](sources/reckonings.md)), as Meditation has: the
+Reckonings group of the menu (§10.5), and the year's balloon on the
+Tibetan page (§10.3), which opens its year of age directly. Its pebbles
+are counters laid by how two elements meet, white or black by a fixed
+rule, not a throw of chance (WB vol. 1, p. 417; the notes, vol. 2,
+p. 474): the screen's first line says so, naming the reckoning in
+Tibetan, and no reckoning in it is cast, as Mo is not (T4).
+
+- **The list**: Back, the title "Element reckoning" and the person's
+  name; the line on the pebbles; under "Your reckonings" one row for
+  each reckoning built, with the person's value for the year (today
+  "Your 51st year · Fire Horse year"), opening its own view. With no one
+  chosen, a line that the reckonings are made from a birth date and the
+  way to People (§10.5). Built: the year of age. WB's other reckonings,
+  chapters 22–30, join it one by one as R2… (ROADMAP R), in the order of
+  the inventory (RD11, RD17); `Reckoning` in the app lists them.
+- **The year of age** (§5.9.1): its header has Back, the title, the
+  Tibetan year as its sign and civil span ("Fire Horse year ·
+  2026–2027"), and the year before and after; the year before the
+  person's birth year cannot be reached. Under it: the person's age and
+  signs; the signs of the year (the mewa of the year of age with the
+  natal one, and with a gender the trigram and the progressed sign with
+  its place); the pebbles as a grid, drawn as the charts draw them (○
+  white, × black), a row for each basic sign and a column for each
+  aspect as chart 6.2 lays them, the white and black counted under it,
+  then each aspect's predictive pebble (and all four alike); the hour of
+  reckoning, the present one whatever the year, named; the four sectors
+  of growth and decline; and the year's obstacles, or a line saying
+  there are none. Every row and cell opens its reading with its
+  workings. Without a gender a note asks for it in People. A year
+  stepped to is reckoned from its place in the sixty-year cycle
+  (`YearOfLife.yearSign`), the same as from any day in it
+  (`ReckoningsTest`).
+- **Back** leads the way it came: from the year of age to the list, or,
+  when the year's balloon opened it, to the page; from the list out of
+  the section.
 
 ## 11. Milestones and done criteria
 

@@ -8,10 +8,10 @@
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
 3. The Saga Dawa Düchen reading sheet, opened from the heading
 4. The 旧暦 almanac bands, from 中段 down
-5. The menu over the 旧暦 page, its Calendar and Practice groups opened, Settings left closed
+5. The menu over the 旧暦 page, its Calendar and Practice groups opened, Reckonings and Settings left closed
 6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset
 7. The year of age of a man born 1976-06-01 (a fire dragon year, chart 6.2's
-   subject) in 2026, opened from the year's balloon on 2026-10-23 in Lhasa
+   subject) in 2026, in the Reckonings, opened from the year's balloon on 2026-10-23 in Lhasa
 
 Shots 1 to 6 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
@@ -139,7 +139,7 @@ try:
     adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
     adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
     tap_at(find(labels["menu"], desc=True))
-    # The groups are closed on a fresh install (ROADMAP H3): two opened, one left closed, so the shot shows both.
+    # The groups are closed on a fresh install (ROADMAP H3): two opened, two left closed, so the shot shows both.
     tap_at(find(labels["calendar"]))
     tap_at(find(labels["practice"]))
     shot(5)

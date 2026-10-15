@@ -32,7 +32,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
-| 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
+| 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
 | 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
@@ -82,7 +82,7 @@ moves up as soon as it is unblocked.
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
 | <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) decided the same day) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
-| <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
+| <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
@@ -2910,7 +2910,7 @@ groups it shows (`tools/emulator/store_shots.py`).
 
 ## Reckonings
 
-### <a id="r"></a>R. The pebble divinations, a section of their own — planned 2026-10-11
+### <a id="r"></a>R. The pebble divinations, a section of their own — planned 2026-10-11, R1 built 2026-10-15 (SPEC §10.11)
 
 - **Why.** The owner (2026-10-11): WB's element reckoning (*'byung
   rtsis*) is a large body of its own and gets its own group in the menu,
@@ -2940,7 +2940,20 @@ groups it shows (`tools/emulator/store_shots.py`).
   listing, for the person chosen, the reckonings built; the year of age
   moves into it from the year's balloon, which keeps a link to it (T2.26's
   Year tab holds the year's earth lords). Pebbles drawn as the charts
-  draw them (○ ×).
+  draw them (○ ×). **Built 2026-10-15** (block 28, SPEC §10.5, §10.11):
+  the inventory is RD11's and RD17's, read before the build; the menu's
+  Reckonings group (closed on a fresh install, `menu_reckonings`) with
+  the Element reckoning row; its list with the year of age, the only
+  reckoning built; the year of age a view of its own, stepped by year
+  from the birth year, no longer a sheet over the page, and the year's
+  balloon opening it directly, Back returning to the page; the pebbles
+  already ○ ×. With it, the people dialogs open over Health and the
+  Reckonings (Health's way to People did nothing before). Checked:
+  `ReckoningsTest` (the year stepped to reckons as the balloon's day
+  does, 2025–2028), the emulator in English and Russian (menu, list,
+  year before and after, Back both ways, the balloon, no one chosen and
+  the dialog over both screens), the release build on both pages and in
+  the sheets; store shots 5 and 7 retaken in both languages.
 - **R2… One item per reckoning**, in R1's order, likely: the birth
   (ch. 22, with P2), the marriage match (ch. 23's first part, with P1),
   the reckoning for the dead (with P1), the thirty starting points
