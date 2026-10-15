@@ -22,14 +22,22 @@ import java.time.ZoneOffset
 
 /**
  * A person's birth date, for the personal days: Luck, Life and Anti days in
- * the Tibetan view, the three bad days of one's birth year in the 旧暦 view.
+ * the Tibetan view, the three bad days of one's birth year in the 旧暦 view;
+ * with another [title] and [years], a relative's birth or death (ROADMAP P1).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate) -> Unit, onDismiss: () -> Unit) {
+fun BirthDateDialog(
+    initial: LocalDate?,
+    onSave: (LocalDate) -> Unit,
+    onDismiss: () -> Unit,
+    title: String = stringResource(R.string.menu_birth_date),
+    years: IntRange = 1900..LocalDate.now().year,
+) {
     val state = rememberDatePickerState(
         initialSelectedDateMillis = initial?.atStartOfDay(ZoneOffset.UTC)?.toInstant()?.toEpochMilli(),
-        yearRange = 1900..LocalDate.now().year,
+        initialDisplayedMonthMillis = initial?.withDayOfMonth(1)?.atStartOfDay(ZoneOffset.UTC)?.toInstant()?.toEpochMilli(),
+        yearRange = years,
     )
     val colors = DatePickerDefaults.colors(containerColor = Palette.surface)
     DatePickerDialog(
@@ -44,6 +52,6 @@ fun BirthDateDialog(initial: LocalDate?, onSave: (LocalDate) -> Unit, onDismiss:
             TextButton(onClick = onDismiss) { Text(stringResource(R.string.birth_cancel), color = Palette.muted) }
         },
     ) {
-        DatePicker(state = state, colors = colors, title = { Text(stringResource(R.string.menu_birth_date), modifier = androidx.compose.ui.Modifier.padding(start = 24.dp, top = 16.dp)) })
+        DatePicker(state = state, colors = colors, title = { Text(title, modifier = androidx.compose.ui.Modifier.padding(start = 24.dp, top = 16.dp)) })
     }
 }

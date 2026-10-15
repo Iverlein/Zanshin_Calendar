@@ -10,9 +10,9 @@ import java.time.LocalDate
 /**
  * One person whose personal days the pages read: a name, a birth date and,
  * for the progressions of the elemental divination, a gender, null while it
- * is not set (SPEC §10.5).
+ * is not set (SPEC §10.5), and their own tree of [relatives] (ROADMAP P1).
  */
-data class Person(val name: String, val birth: LocalDate, val gender: Gender? = null)
+data class Person(val name: String, val birth: LocalDate, val gender: Gender? = null, val relatives: Relatives = Relatives())
 
 /**
  * The saved people, at most [MAX], and which of them the pages read for:

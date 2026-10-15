@@ -58,17 +58,24 @@ class Settings(context: Context) {
     /**
      * The saved people and the one chosen, for the personal days of both
      * calendars; kept on the device only. A single birth date saved before
-     * there were people reads as one unnamed person, chosen.
+     * there were people reads as one unnamed person, chosen. Each person's
+     * relatives are kept apart, by the person's place in the list, so that
+     * a list saved before them reads as people without relatives.
      */
     var people: People
         get() {
             val saved = prefs.getString(KEY_PEOPLE, null)
-            if (saved != null) return People.of(People.decode(saved), prefs.getInt(KEY_PERSON, -1).takeIf { it >= 0 })
+            if (saved != null) {
+                val list = People.decode(saved)
+                val trees = Relatives.decode(prefs.getString(KEY_RELATIVES, null).orEmpty(), list.size)
+                return People.of(list.zip(trees) { p, r -> p.copy(relatives = r) }, prefs.getInt(KEY_PERSON, -1).takeIf { it >= 0 })
+            }
             if (!prefs.contains(KEY_BIRTH)) return People()
             return People(listOf(Person("", LocalDate.ofEpochDay(prefs.getLong(KEY_BIRTH, 0)))), 0)
         }
         set(value) = prefs.edit()
             .putString(KEY_PEOPLE, People.encode(value.list))
+            .putString(KEY_RELATIVES, Relatives.encode(value.list))
             .putInt(KEY_PERSON, value.active ?: -1)
             .remove(KEY_BIRTH)
             .apply()
@@ -113,6 +120,7 @@ class Settings(context: Context) {
         private const val KEY_BIRTH = "birth"
         private const val KEY_PEOPLE = "people"
         private const val KEY_PERSON = "person"
+        private const val KEY_RELATIVES = "relatives"
         private const val KEY_KIGAKU = "kigaku"
         private const val KEY_CALENDAR = "calendar"
         private const val KEY_LAT = "lat"

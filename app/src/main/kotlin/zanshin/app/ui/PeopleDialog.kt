@@ -26,6 +26,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -33,6 +34,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -46,8 +49,10 @@ import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
 import zanshin.app.People
 import zanshin.app.Person
+import zanshin.app.Relatives
 import zanshin.app.initials
 import zanshin.core.tibetan.Gender
+import kotlinx.coroutines.delay
 import java.time.LocalDate
 
 /** How a person is listed: the name, or the birth date while the name is blank (a birth date saved before names were). */
@@ -148,15 +153,18 @@ private fun PersonRow(
 
 /**
  * Adds a person ([initial] null) or changes one: a name and a birth date,
- * both needed to save, and the gender, which may stay not set. [onDelete]
- * is offered for a saved person.
+ * both needed to save, the gender, which may stay not set, and their own
+ * relatives (ROADMAP P1), saved with them. [onDelete] is offered for a
+ * saved person.
  */
 @Composable
 fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Unit)?, onDismiss: () -> Unit) {
     var name by remember { mutableStateOf(initial?.name ?: "") }
     var birth by remember { mutableStateOf<LocalDate?>(initial?.birth) }
     var gender by remember { mutableStateOf(initial?.gender) }
+    var relatives by remember { mutableStateOf(initial?.relatives ?: Relatives()) }
     var picking by remember { mutableStateOf(false) }
+    var relativesOpen by remember { mutableStateOf(false) }
     val cleaned = People.clean(name)
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -168,6 +176,18 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
             )
         },
         text = {
+            // When the relatives close, this dialog's window gets the focus back and hands it to the name field, whose
+            // keyboard then covers Save: the focus is taken off again once the window has settled. The focus manager
+            // and keyboard are this dialog window's own, so they are read here, inside it.
+            val focus = LocalFocusManager.current
+            val keyboard = LocalSoftwareKeyboardController.current
+            LaunchedEffect(relativesOpen) {
+                if (!relativesOpen) {
+                    delay(300)
+                    focus.clearFocus(force = true)
+                    keyboard?.hide()
+                }
+            }
             Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(16.dp)) {
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(stringResource(R.string.person_name), style = body.copy(fontSize = 13.sp, color = Palette.muted))
@@ -222,12 +242,31 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
                     }
                     Text(stringResource(R.string.person_gender_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
                 }
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(stringResource(R.string.relatives_title), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                    val count = relatives.list.size
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .border(1.dp, Palette.lineStrong, RoundedCornerShape(8.dp))
+                            .clickable(role = Role.Button) { relativesOpen = true }
+                            .padding(horizontal = 12.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            if (count == 0) stringResource(R.string.relatives_none) else LocalLabels.current.plural(R.plurals.relatives_count, count),
+                            style = body.copy(fontSize = 16.sp),
+                            modifier = Modifier.weight(1f),
+                        )
+                        Icon(Icons.ChevronRight, contentDescription = null, tint = Palette.faint, modifier = Modifier.size(16.dp))
+                    }
+                }
                 Text(stringResource(R.string.person_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
             }
         },
         confirmButton = {
             val ready = cleaned.isNotEmpty() && birth != null
-            TextButton(onClick = { onSave(Person(cleaned, birth!!, gender)) }, enabled = ready) {
+            TextButton(onClick = { onSave(Person(cleaned, birth!!, gender, relatives)) }, enabled = ready) {
                 Text(stringResource(R.string.birth_save), color = if (ready) Palette.saffron else Palette.faint)
             }
         },
@@ -238,6 +277,14 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
             }
         },
     )
+    if (relativesOpen) {
+        RelativesDialog(
+            owner = cleaned.ifEmpty { birth?.format(LocalLabels.current.headerDate) ?: stringResource(R.string.people_add) },
+            relatives = relatives,
+            onChange = { relatives = it },
+            onDismiss = { relativesOpen = false },
+        )
+    }
     if (picking) {
         BirthDateDialog(
             initial = birth,

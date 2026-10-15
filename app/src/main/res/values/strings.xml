@@ -850,4 +850,70 @@
     <string name="reckonings_year_header">%1$s year · %2$d–%3$d</string>
     <string name="reckonings_year_before">Year before</string>
     <string name="reckonings_year_after">Year after</string>
+
+    <!-- A person's relatives (SPEC §10.5; ROADMAP P1). The relations are lower case; the app capitalises the first word. -->
+    <string name="relatives_title">Relatives</string>
+    <string name="relatives_none">None entered</string>
+    <plurals name="relatives_count">
+        <item quantity="one">%d relative</item>
+        <item quantity="other">%d relatives</item>
+    </plurals>
+    <string name="relatives_note">The reckonings that read other people\'s dates take them from here: the mother\'s year, a spouse\'s, the dead and the household. Each person keeps their own.</string>
+    <string name="relatives_add">Add a relative</string>
+    <string name="relatives_add_of">Add a relative of %1$s</string>
+    <string name="relatives_full">%1$d relatives entered, as many as one person keeps.</string>
+    <string name="relatives_done">Done</string>
+    <string name="relative_add_title">Add a relative</string>
+    <string name="relative_edit_title">Change a relative</string>
+    <string name="relative_edit">Change %1$s</string>
+    <string name="relative_of_whom">Relative of</string>
+    <string name="relative_relation">Relation</string>
+    <string name="relative_name">Name, if you wish</string>
+    <string name="relative_born">Born</string>
+    <string name="relative_life">Living or not</string>
+    <string name="relative_living">Living</string>
+    <string name="relative_dead">Died</string>
+    <string name="relative_died_when">Died in</string>
+    <string name="relative_year">Year</string>
+    <string name="relative_year_sign">%1$s year</string>
+    <string name="relative_year_note">A year alone counts as the Tibetan year that begins in it.</string>
+    <string name="relative_day">The day</string>
+    <string name="relative_hour">The hour</string>
+    <string name="relative_year_only">Year only</string>
+    <string name="relative_no_hour">No hour</string>
+    <string name="relative_household">Lives in the household</string>
+    <string name="relative_needs_date">A birth year, or the year of death, is needed to save.</string>
+    <string name="relative_branch">Deleting also deletes the %1$d entered under them.</string>
+    <string name="relative_born_value">born %1$s</string>
+    <string name="relative_died_value">died %1$s</string>
+    <string name="relative_died_undated">died</string>
+    <string name="relative_in_household">in the household</string>
+    <string name="relative_hour_note">The hour as the clock showed it where it happened.</string>
+    <!-- a relative entered under another: %1$s the relation, %2$s the one they are entered under: "father's mother" -->
+    <string name="relative_label_of">%2$s’s %1$s</string>
+    <string name="relation_mother">mother</string>
+    <string name="relation_father">father</string>
+    <string name="relation_spouse">spouse</string>
+    <string name="relation_husband">husband</string>
+    <string name="relation_wife">wife</string>
+    <string name="relation_child">child</string>
+    <string name="relation_son">son</string>
+    <string name="relation_daughter">daughter</string>
+    <string name="relation_sibling">brother or sister</string>
+    <string name="relation_brother">brother</string>
+    <string name="relation_sister">sister</string>
+    <string name="relation_household">member of the household</string>
+    <!-- the relations as the one another is entered under; in English the same words -->
+    <string name="relation_mother_of">mother</string>
+    <string name="relation_father_of">father</string>
+    <string name="relation_spouse_of">spouse</string>
+    <string name="relation_husband_of">husband</string>
+    <string name="relation_wife_of">wife</string>
+    <string name="relation_child_of">child</string>
+    <string name="relation_son_of">son</string>
+    <string name="relation_daughter_of">daughter</string>
+    <string name="relation_sibling_of">brother or sister</string>
+    <string name="relation_brother_of">brother</string>
+    <string name="relation_sister_of">sister</string>
+    <string name="relation_household_of">member of the household</string>
 </resources>
