@@ -96,11 +96,15 @@ Common commands:
 - `mod` always returns a result in `0 until n`; `amod` in `1..n`
   (`1 + (m − 1) mod n`). Kotlin's `%` is neither for negative operands, so it
   is not used on calendar quantities.
-- "Today" is the civil date in the phone's time zone, mapped to its JD. The
-  Tibetan day actually begins at dawn (~5:00 local mean time), so between
-  midnight and dawn the screen already shows the day that starts at the coming
-  dawn. That is Janson's convention (Remark 6) and is kept; the UI labels
-  Tibetan dates as "from dawn".
+- "Today" depends on the page. On the 旧暦 page it is the civil date in the
+  phone's time zone, from midnight. On the Tibetan page it is the Tibetan day
+  running now, which begins at daybreak, the hare hour at 05:00 (§5.13), at
+  the place whose hours the page shows: between midnight and 05:00 it is the
+  date before, whose last hours are running, so the hours strip, the panel's
+  dial and "now" hold the present moment. Janson's convention (Remark 6)
+  of showing the coming day from midnight is not kept: on its page the hours
+  had not begun (owner, 2026-10-15). The engine still maps a date to its JD;
+  the UI labels Tibetan dates as "from dawn".
 
 ## 5. Tibetan engine (Phugpa)
 
@@ -1991,8 +1995,10 @@ canvas "Zanshin Calendar — basic design".
   its reading with its workings. Without a gender a note asks for it in
   People. The sheet changes once a year, so it stays behind the tap
   (the owner's rule that the page repeats nothing).
-- **Midnight to dawn:** "today" is the civil date, as §4 says; the
-  date carries a small "from dawn".
+- **Midnight to dawn:** "today" is still the day before until 05:00, as
+  §4 says; the date carries a small "from dawn". A page left on today
+  follows when the day turns, at 05:00 while the app is open or when it
+  comes back; a day browsed to stays.
 - **No day line** (decided by the owner, 2026-10-09; ROADMAP T3): the
   weekday and planet are the Almanac's weekday row, which carries the
   Tibetan name in its sheet, and the 60-day cycle's element and animal,

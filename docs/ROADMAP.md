@@ -2999,7 +2999,8 @@ changes that when built.
 - **Work.** A Glance widget in two sizes, for the calendar last viewed:
   small, the civil date, the calendar's day and the tone with its reason;
   wide, with [U11](#u11)'s hours strip and the present hour, and on the
-  旧暦 the rokuyō and the day mark. A tap opens the app on today. Updated
+  旧暦 the rokuyō and the day mark. A tap opens the app on today, as SPEC
+  §4 has it: the Tibetan day turns at 05:00, the 旧暦's at midnight. Updated
   at midnight and at each two-hour period's boundary by an alarm (the
   bell's pattern), and on a change of calendar, person or place. The
   app's theme ([A1](#a1)), as A1 says. SPEC §10.6 written, §3's scope
