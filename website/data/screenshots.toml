@@ -62,3 +62,12 @@ alt = "The year of age in the Reckonings, of a man born in a Fire Dragon year, i
 [shot.ru]
 caption = "Ваш год жизни"
 alt = "Год жизни в разделе «Расчёты»: мужчина, рождённый в год Огня-Дракона, в его 51-й год: мева (སྨེ་བ, sme ba) 8 белый, триграмма озера (དྭ, dwa) смещённый знак (ལོག་མེན, log men) Земля-Дракон и триграмма рождения, озеро, — триграмма его матери в её 27-й год, затем камни шести основных знаков для жизненной силы, тела, могущества и коня ветра, с подсчётом белых и чёрных"
+
+[[shot]]
+file = "8.png"
+[shot.en]
+caption = "Light or dark"
+alt = "The Tibetan day of the first screenshot, Saga Dawa Düchen (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), in the Paper theme: a warm light page with dark ink"
+[shot.ru]
+caption = "Светлая или тёмная"
+alt = "Тибетский день первого снимка, Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), в теме «Бумага»: тёплая светлая страница и тёмный текст"

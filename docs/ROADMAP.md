@@ -28,7 +28,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 7 | M1 Meditation timer and bell — built 2026-10-09 | M | A screen of its own from the menu (SPEC §10.9): the timer in a foreground service, the mindfulness bell by exact alarms, fixed or random, the bells synthesised | — |
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
-| 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
+| 10 | A1 Light theme and colour themes — System, Ink, Paper and Night built 2026-10-15 (block 33); Maroon and Sepia block 38 | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
@@ -87,7 +87,7 @@ moves up as soon as it is unblocked.
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
-| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
+| <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
@@ -3039,7 +3039,7 @@ groups it shows (`tools/emulator/store_shots.py`).
 
 ## Appearance
 
-### <a id="a1"></a>A1. Light theme and colour themes — planned 2026-10-11
+### <a id="a1"></a>A1. Light theme and colour themes — planned 2026-10-11, System, Ink, Paper and Night built 2026-10-15 (SPEC §10.1, §10.5, §10.7)
 
 - **Gap.** The app is dark only (SPEC §10.1, "in 1.0"): `Palette` in
   `ui/Theme.kt` is one object of fixed colours, read directly about 510
@@ -3139,6 +3139,47 @@ groups it shows (`tools/emulator/store_shots.py`).
   (T3's colours, the sme ba), §10.5 and §10.7; the listing in both
   languages names the themes, and `store_shots.py` takes one Paper shot
   in each language beside the seven in Ink.
+
+- **Built 2026-10-15** (block 33: System, Ink, Paper and Night). `ZanshinColors`
+  holds the roles, with `light` and a new `onAccent` (text and switch thumbs on
+  a saffron or vermilion fill, the page's colour on all four, since each
+  accent stands 4.5:1 against its page); `InkColors` is today's palette
+  unchanged, `NightColors` Ink on black, `PaperColors` the light page.
+  **Deviation from the plan:** `Palette` holds the theme drawn now as a
+  snapshot state, not a CompositionLocal: a theme is one for the whole app,
+  and the 510 reads include draw lambdas and plain functions (`toneColor`,
+  `elementColour`), which a snapshot read tracks and a CompositionLocal
+  cannot reach, so every call site kept its name and nothing was hoisted;
+  the frozen top-level `body` style became a getter. The inventory found
+  ten foreground uses of `ink` (text on an accent chip, the date picker's
+  selected cell, the Health tabs, the location Save, the switches' thumbs,
+  the time picker's dial), now `onAccent`; the dial's gaps and centre in
+  `ink` are the page's colour by role, right on every theme. Each theme
+  carries one tone set, not a mark set and a text set: Paper's tones
+  (good #1A4F23, mixed #6A4C00, bad #AD3019) stand 4.8:1 or more as text
+  on the raised cells and 5 L* apart. The printed colours keep their hues;
+  `needsRim` rims the box of the page's own lightness (the black sme ba
+  box on a dark page, the white ones and the white stars' dots on a light
+  one); the elements take a darker set on a light page. The window: a
+  style per theme in `themes.xml` (System's by `values-night`), set before
+  `super.onCreate` with the bars' icons and the window background
+  (`ThemeWindow.kt`), and the next launch's splash through
+  `setSplashScreenTheme` on Android 13 and later; Android 12's splash stays
+  the manifest's Ink. Settings gains **Theme**, a dialog of swatches that
+  applies on a tap and stays open until Done (so the themes can be
+  compared), stored as `theme`. `PaletteTest` holds all three palettes to
+  the list under *Done when*, the tones' lightness floor at 2 L* (Ink's
+  own closest pair, good and mixed, is 2.4 apart), and fails on any colour
+  value written outside the theme and the printed colours. Checked: the
+  app's unit tests; every theme on the emulator (API 37) in English and
+  Russian across both pages, the hours panel, the combination, haircut,
+  astrologer-spirit and mewa sheets, the year balloon, the menu, the theme
+  dialog, the date picker, the election and a work's list, Health, the
+  Reckonings, meditation and About; System with the phone set dark and
+  light, and switched while open; a cold start on Paper recorded frame by
+  frame with no dark frame; the release build on Paper. Store shot 8 is
+  new, shot 1's day on Paper, in both languages; shots 1–7 are unchanged
+  in Ink and were not retaken. The listing and README name the themes.
 
 ### <a id="a2"></a>A2. Large font and landscape — planned 2026-10-11
 

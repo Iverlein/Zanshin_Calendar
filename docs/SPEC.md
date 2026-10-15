@@ -1974,7 +1974,30 @@ canvas "Zanshin Calendar — basic design".
 
 - **UX comes first.** The console look of the original draft is dropped where
   it hurts reading or touch; nothing in the UI has to look like a terminal.
-- **Dark theme only** in 1.0.
+- **Themes** (ROADMAP A1, built 2026-10-15): **Ink**, the dark palette of
+  1.0 and the default for every install, so that no one's app changes
+  colour on the update (D5); **Paper**, a warm off-white page with dark
+  ink; **Night**, Ink on a black page for OLED screens; and **System**,
+  Ink or Paper as the phone is set to dark or light (§10.5; Maroon and
+  Sepia are block 38). Every colour is a role of the theme (`ZanshinColors`
+  in `ui/Theme.kt`: the page, the sheets, the raised and selected cells,
+  lines, text, muted and faint text, the off state, the two accents, the
+  three tones, the scrim, and the colour set on an accent fill), read
+  through `Palette`, which holds the theme drawn now as a snapshot state,
+  so that composables, Canvas drawing and plain functions alike redraw
+  when it changes; only the theme and the printed colours (§10.7) write a
+  colour value (`PaletteTest`). Each theme holds text and muted text at
+  4.5:1 on the page, the sheets and the raised cells, the tones and the
+  accents at 4.5:1 where they colour text, faint text and every dot and
+  ring at 3:1 (WCAG 2.1, 1.4.3 and 1.4.11), and good, mixed and bad
+  apart in lightness as well as hue. The window is drawn in the theme's
+  page before Compose (`themes.xml`, a style per theme, System's by
+  `values-night`), the status and navigation bar icons dark on a light
+  page, and from Android 13 the splash of the next launch takes the
+  stored theme (`setSplashScreenTheme`); on Android 12 the splash stays
+  Ink. The bell's notification stays the system's. Material You's
+  wallpaper colours are not offered: the tones and the printed colours
+  are chosen against a known page.
 - **One calendar at a time.** The screen shows either the Tibetan or the 旧暦
   view, never both.
 - **Details in balloons.** Secondary facts open in a balloon (popover) when the
@@ -2208,7 +2231,9 @@ canvas "Zanshin Calendar — basic design".
   element's glyph in its colour (ROADMAP T3: the hues of the sme ba
   boxes that stand for it, Berzin 4, iron white, water black or blue,
   wood green, earth yellow, fire red; water drawn blue and the green
-  and red lightened, so that a thin glyph reads on the dark page), its
+  and red lightened, so that a thin glyph reads on the dark page; on a
+  light theme a darker set of the same hues, iron a slate grey for
+  white, each apart in lightness from the tones), its
   balloon giving element, animal and gender; then the lunar-day cycles
   as tappable terms, the date's
   animal (*nyi ma*) opening its earth lords and the
@@ -2431,7 +2456,7 @@ canvas "Zanshin Calendar — basic design".
   small capital labels, a line between groups: **Calendar** (the two
   calendars, Choose a day and Health), **Reckonings** (the element
   reckoning, §10.11), **Practice** (Meditation, §10.9),
-  **Settings** (location, people, nine-star reading, language), and
+  **Settings** (location, people, nine-star reading, language, theme), and
   About & sources alone at the foot. About & sources lists the
   calendars' methods, the readings' sources and licences, and, under
   Documentation, says that the sheets name no source and links the
@@ -2513,6 +2538,14 @@ canvas "Zanshin Calendar — basic design".
   language is not offered. A language is offered only once it is complete
   and has been read through on a phone; a partial one still shows, string
   by string, on a phone set to it.
+- **Theme** (ROADMAP A1): a dialog of the themes of §10.1, System, Ink,
+  Paper and Night, each with its name, a line on what it is and a swatch
+  of its page with a line of its text and its good, mixed and bad dots
+  (System's split, Ink and Paper); a tap applies the theme at once, the
+  dialog staying so that they can be compared, and Done closes it. The
+  menu row names the theme. Stored as the `theme` preference (the
+  theme's name), Ink when unset; System follows the phone's dark setting
+  as it changes.
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on with no one chosen asks for a person (the list, or
   adding one when none is saved); cancelling leaves it off.
@@ -2610,6 +2643,12 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   year's bearing. 十二直: a dial of the twelve with their tones. 二十八宿: a ring
   in four quadrants of seven, north at the top, from 角 in the east
   counterclockwise as in the sky.
+- **Printed colours.** The sme ba's colours as printed (Berzin 4), the
+  nine stars' after their readings, and the elements' (T3, §10.3) are
+  the only colours outside the theme, and keep their hues on every
+  theme. A box or dot of the page's own lightness gets a thin rim in the
+  faint colour: the black sme ba box on a dark page, the white boxes (1,
+  6, 8) and the white stars' dots on a light one.
 - **Boards of nine.** Both calendars draw the Lo Shu square south at the
   top: 4 9 2 / 3 5 7 / 8 1 6, the 九星 on the fixed board (後天定位盤, Japanese
   Wikipedia 九星) and the sme ba as Berzin prints it; the trigram of each box

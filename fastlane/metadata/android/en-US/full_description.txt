@@ -46,6 +46,8 @@ Glyphs show at a glance what the day's almanac favours and warns against; dials,
 
 In English and Russian: choose the language in the menu, or let the app follow the phone.
 
+In four themes: Ink, dark, as it has always been; Paper, a light page with dark ink; Night, black for OLED screens; or the phone's own dark or light setting.
+
 <b>Computed on the phone</b>
 Everything is calculated on the device for any date from 1900 to 2100: Tibetan dates with Svante Janson's published arithmetic, new moons and solar terms with Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.
 
