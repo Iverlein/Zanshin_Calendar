@@ -661,6 +661,176 @@ as printed with our punctuation.
   … 'Great': in the month of heat, its middle, the height of the heat,
   is the great one. 未 is 味, taste: things nearing ripeness all have
   their flavour. So 未 governs the 6th month's 中, set with earth."
+- **立秋** (image 23, right page, to left page): «立秋七月節、配于坤。
+  涼風至。此時候無文。今按之、涼風者秋風也、陰氣淒涼、收成万物。鄭玄云、坤
+  純陰之象、能養万物、莫過於地。陰動于午、至未始著。故坤主立秋、在西南之維、
+  以配于土。次白露者、陰氣漸重、露濃色白之謂。» "立秋, the 7th month's 節,
+  at 坤. The cool wind comes: … the cool wind is the autumn wind; the
+  yin 氣 is chill and gathers in all things. 鄭玄: 坤 is the image of pure
+  yin; nothing nourishes all things more than the earth. The yin stirs
+  at 午 and shows at 未. So 坤, the south-west corner, governs 立秋, set
+  with earth. Next, the white dew: the yin 氣 grows heavy, the dew thick
+  and white." (The last sentence is the 候 白露降, and glosses the name of
+  the next term.)
+- **処暑** (image 23, left page): «處暑七月中、配于申。鷹乃祭鳥。…» "処暑,
+  the 7th month's 中, at 申." Its 候 follow; no gloss of the name or of
+  申.
+- **白露** (image 24, right page): «白露八月節、配于庚。鴻雁来。…鄭玄云、
+  庚更也、万物代改。故庚主八月節、在西方、以配於金也。» "白露, the 8th
+  month's 節, at 庚. … 鄭玄: 庚 is 更, change: all things take their
+  turn. So 庚 governs the 8th month's 節, in the west, set with metal."
+- **秋分** (image 24, right page, to left page): «秋分八月中、配于酉。雷
+  乃收聲。雷是陽氣、主於動、今地中潛伏焉。今按之、雷生於震、震木也。中秋金王
+  之時也、木畏金、故雷潛入地中伏乎。三礼義宗云、酉老也、万物老極成熟。故酉
+  主地分、以配于金。» (so printed: «地分») "秋分, the 8th month's 中, at
+  酉. Thunder withdraws its voice: thunder is yang and moves; now it
+  lies hidden in the earth. Thunder is born of 震, which is wood; mid-
+  autumn is when metal reigns, and wood fears metal, so thunder hides in
+  the earth. The 三礼義宗: 酉 is old: all things are old and fully ripe.
+  So 酉 governs [the 秋分?], set with metal."
+- **寒露** (image 24, left page, to image 25, right page): «寒露九月節、
+  配于辛。鴻雁来賓。…鄭玄云、辛新也、万物皆秀實新成。故辛主九月節、以配於
+  金。» "寒露, the 9th month's 節, at 辛. … 鄭玄: 辛 is 新, new: all
+  things flower, fruit and are newly made. So 辛 governs the 9th month's
+  節, set with metal." No gloss of the name.
+- **霜降** (image 25, right page): «霜降九月中、配于戌。豺乃祭獸。…三礼義
+  宗云、戌滅也、殺也、此時物衰滅。故戌主九月中、以配於土。» "霜降, the
+  9th month's 中, at 戌. … The 三礼義宗: 戌 is to perish, to kill: now
+  things wane and perish. So 戌 governs the 9th month's 中, set with
+  earth." No gloss of the name.
+- **立冬** (image 25, right page, to left page): «立冬十月節、配于乾。水
+  始氷。此時候無文。按之、陽氣漸沈、陰氣已乗乎。鄭玄云、乾純陽之象、生物之
+  首也、陽氣之本也、故先子之位、以堅剛也。故乾主立冬、在西北之維、以配于
+  金。» "立冬, the 10th month's 節, at 乾. Water begins to freeze: … the
+  yang 氣 sinks and the yin already rides over it. 鄭玄: 乾 is the image
+  of pure yang, the head of living things, the root of the yang 氣; it
+  stands before 子 and is firm. So 乾, the north-west corner, governs
+  立冬, set with metal."
+- **小雪** (image 25, left page): «小雪十月中、配于亥。虹藏不見。…小雪者、
+  霜露凝結而為雪、十月猶小、故云小雪。三礼義宗云、亥閡也、言陰氣劾殺万物。故
+  亥主十月中、以配於水也。» "小雪, the 10th month's 中, at 亥. … 小雪:
+  frost and dew congeal into snow; in the 10th month it is still little,
+  hence 'small snow'. The 三礼義宗: 亥 is to bar: the yin 氣 bears down
+  on all things. So 亥 governs the 10th month's 中, set with water."
+- **大雪** (image 26, right page): «大雪十一月節、以配于壬。鶡旦不鳴。…大
+  雪者、小雪之相對也。鄭玄云、壬任也、閉藏万物懷任於下。故壬主十一月節、以
+  配於水。» "大雪, the 11th month's 節, at 壬. … 大雪 is the counterpart
+  of 小雪. 鄭玄: 壬 is 任, to bear: all things shut away are carried in
+  the womb below. So 壬 governs the 11th month's 節, set with water."
+- **冬至** (image 26, right page, to left page): «冬至十一月中、配于子。
+  蚯蚓結。…易通卦驗云、冬至陽氣動於黄泉之下。子雖大陰之位、陽氣在内而動其
+  下、故居水之位。假令水外陰内明、象懷陽也。故子主冬至、以配于水。» "冬至,
+  the 11th month's 中, at 子. … The 易通卦驗: at 冬至 the yang 氣 stirs
+  below the Yellow Springs. Though 子 is the seat of great yin, yang is
+  within and moves beneath it, so it holds the place of water: water,
+  dark outside and bright within, is the image of yin carrying yang. So
+  子 governs 冬至, set with water."
+- **小寒** (image 26, left page, to image 27, right page): «小寒十二月節、
+  配于亥。雁北鄕。…小寒者、極寒之時、月初為小、月半為大寒。鄭玄云、癸揆也、
+  陰任於陽而萌芽於物也。故癸主十二月、以配於水。» (so printed: «配于亥»;
+  its own gloss names 癸, the 12th month's stem, and the series of
+  directions asks 癸) "小寒, the 12th month's 節, at 亥 [癸]. … 小寒:
+  the time of extreme cold; the month's beginning is the small, its
+  middle the great cold. 鄭玄: 癸 is 揆, to measure: the yin bears the
+  yang, and things put out shoots. So 癸 governs the 12th month, set
+  with water."
+- **大寒** (image 27, right page): «大寒十二月中、配于丑。雞始乳。此時候
+  無文。大寒者、相對小寒、月半寒為大。三礼義宗云、丑紐也、結也、繫也、言居
+  于十二支終始之際、以紐結為名。故主十二月中、以配于土也。» "大寒, the 12th
+  month's 中, at 丑. … 大寒 is the counterpart of 小寒: in the middle
+  of the month the cold is great. The 三礼義宗: 丑 is a knot, a tie, a
+  bond: it sits where the twelve branches end and begin, and is named
+  for the knot. So it governs the 12th month's 中, set with earth."
+- **Closing** (image 27, left page): «右七十二候者、五日一候、十五日三候一
+  氣也。一月三十日六候二氣、一歳十二月二十四氣七十二候也。皆知草木萌芽鳥獸
+  變化耳。以月令正義之説載之、十干十二支以尓雅淮南子等之説註之。定可多誤乎、
+  後見之人可改之。» "The seventy-two 候 above: five days to a 候,
+  fifteen days, three 候, to a 氣; a month of thirty days has six 候 and
+  two 氣; a year of twelve months, twenty-four 氣 and seventy-two 候. All
+  are for knowing the sprouting of plants and the changes of birds and
+  beasts. They are set down after the 月令正義; the stems and branches are
+  glossed after the 爾雅, the 淮南子 and the like. There must be many
+  errors; let later readers correct them."
+
+#### The 雑節 the terms carry: RM and KB
+
+- **RM, 釋土用事第二十五** (image 38, left page, to image 39, left
+  page; the first section of 下, «暦林問答集下»): «或問土用事何也。答曰、
+  暦例云、土用事筭定之、不可起土。其五行皆配於四方、故主十干十二支、以成四
+  時。春木用事、[寅]十八日、甲十八日、乙十八日、卯十八日、合七十二日也、木一
+  氣之数、木王時也。辰十八日、土用事、土王時也。夏火用事、巳十八日、丙十八日、
+  午十八日、丁十八日、合七十二日、火一氣之数、火王時也。未十八日、土用事、土
+  王時也。秋金用事、申十八日、庚十八日、酉十八日、辛十八日、合七十二日、金一
+  氣之数、金王時也。戌十八日、土用事、土王之時也。冬水用事、亥十八日、壬十
+  八日、子十八日、癸十八日、合七十二日、水一氣之数也、水王時也。丑十八日、土
+  用事、土王之時也。土為五行之王、故為王於四季四時。土用数合七十二日、為土王
+  之位。是五行之数合三百六十日、一歳之数也。…春木用事無伐木、夏火用時無縦
+  火、秋金用時無禁金石、冬水用時無澤池堰、四季時無犯土。是五行妙用大槩如
+  此。» ([寅]: printed with a glyph like 刀, image 38; «禁» so read; the
+  passage between, on why the four 土用 are weak but summer's, image 39,
+  right page, is left out) "What is 土用? The 暦例 says: once 土用 is
+  reckoned, the earth must not be dug. The five phases are set at the
+  four quarters, govern the stems and branches, and make the four
+  seasons. Spring is wood's reign: eighteen days each of 寅, 甲, 乙 and 卯,
+  seventy-two days, wood's share; then eighteen days of 辰, earth's
+  reign, 土用. Summer, fire: 巳, 丙, 午, 丁, seventy-two days; then 未,
+  土用. Autumn, metal: 申, 庚, 酉, 辛; then 戌, 土用. Winter, water: 亥,
+  壬, 子, 癸; then 丑, 土用. Earth is king of the five and reigns in the
+  last month of each season; its four spans make seventy-two days; the
+  five shares make 360 days, a year. … In wood's reign fell no trees; in
+  fire's set no fires; in metal's [work no metal or stone]; in water's
+  [dam no ponds]; in the four seasons' ends do not disturb the earth."
+- **RM, 釋社第二十七** (image 40, right page, to left page; the
+  contents call it «釋社日»): «或問社者何也。答曰、尚書暦云、社者歳之春秋
+  可祀之。社事土地之主也、稷五穀之長也。二月八月之中氣也。二月為春社、八月為
+  秋社。百穀實而稼穡成、報德而祀之。故春社者近於春分戊日、秋社近於秋分戊日
+  也。各命民祭於土地、將攘惡氣。其戊土也、故取其日祭之也。» "What is 社?
+  The 尚書暦: 社 is worshipped in the spring and autumn of the year. 社
+  serves the lord of the land; 稷 is the chief of the five grains. It
+  belongs to the 中氣 of the 2nd and 8th months: the 2nd month's is the
+  spring 社, the 8th's the autumn 社, when the grains have ripened and
+  the harvest is in, and their virtue is repaid with worship. So the
+  spring 社 is on the 戊 day near 春分 and the autumn 社 on the 戊 day near
+  秋分. The people are bidden to worship the land and drive off bad 氣. 戊
+  is earth, so that day is taken for the rite." (RM says "near", not
+  which of two equidistant 戊 days.)
+- **RM, 釋月建第二十四** (image 34, left page): «或問月建者何也。答曰、
+  月建者、北斗之所指柄之辰也。觀斗柄之指於寅方、定歳首、故以寅月今為正月。…
+  北斗居天中、隨二十四氣運轉、而指柄於十二辰。» "The month's 'establish-
+  ment' is the branch the Dipper's handle points to. Seeing the handle
+  point to 寅, the head of the year was fixed, so the 寅 month is now the
+  first. … The Dipper sits in the middle of heaven and, turning with the
+  twenty-four 氣, points its handle to the twelve branches." It goes on
+  to the 夏, 殷 and 周 calendars' first months (寅, 丑, 子) and the 秦's
+  (亥).
+- **KB, image 9** (right page, last columns; left page): the 雑節 under
+  the 選日, in running hand, read in part:
+  - 社日: «此日ハ土地の神をまつり、春ハ二月、秋ハ八月の中氣より[…]春の
+    社日ハ春分にちかきつちのえの日[…]秋の社日ハ秋分にちかきつちのえの日な
+    り» "on this day the god of the land is worshipped, in spring in the
+    2nd month and in autumn in the 8th …: the spring 社日 is the 戊 day
+    nearest 春分, the autumn one the 戊 day nearest 秋分". The rest of the
+    entry not resolved.
+  - ひがん: «ひがんといふハ仏家に用ゆる日なり» "彼岸 is a day the Buddhists
+    use"; it goes on with a legend of the heavens and the underworld's
+    officials gathering on «二月八月七日の間» (the seven days in the 2nd
+    and 8th months), not resolved further.
+  - 八十八や: «八十八やハ正月の節立春の初日より八十八日にあたる[…]» "the
+    88th night falls on the 88th day from the first day of 立春, the 1st
+    month's 節"; then, partly read, it is the farmers' time to sow.
+  - 入梅: «入梅ハ五月の節の後はじめての壬の日也» "入梅 is the first 壬 day
+    after the 5th month's 節 (芒種)"; the rest (on mould and the rainy
+    season) not resolved.
+- **KB, image 10** (right page): 土用, after a passage on the four
+  phases' 72 days each («二百八十八日») and earth's 72 making 360: «三
+  月六月九月十二月の節に入て十三日目より土用なり» "土用 begins on the 13th
+  day after the entry into the 節 of the 3rd, 6th, 9th and 12th months",
+  that is after 清明, 小暑, 寒露 and 小寒. Under 平気 that is the 節 plus
+  a thirtieth of the year, about 12 days; the NAOJ notes that the 天保暦
+  counted 土用 the same way, adding a thirtieth of the year to its 定気
+  小寒, 清明, 小暑 and 寒露, until the 明治2 almanac set 土用 by the Sun's longitude
+  (NAOJ-W 雑節とは？, *土用*). 二百十日 follows on the same page, not
+  read.
 
 ### The terms, one by one
 
@@ -697,7 +867,8 @@ of 三箇の悪日*), for a person born in a year of that month's branch;
    - KB: the yang 氣 comes out above ground; snow and ice melt into
      rain-water. RM: set at 寅, wood; snow breaks up into rain-water.
    - Names the 1st lunar month: the month that holds 雨水 is 正月.
-   - Hangs on it: nothing but the month's number.
+   - Hangs on it: the month's number, and with it 旧正月 (1/1) and
+     人日の節句 (1/7).
 3. **啓蟄 (keichitsu)**, 二月節, 345°; 5 Mar (79), 6 Mar (18), 4 Mar
    (3).
    - Marks: insects that wintered underground crawl out (NAOJ-24); China
@@ -742,7 +913,7 @@ of 三箇の悪日*), for a person born in a year of that month's branch;
    - KB: spring rain falls and brings the hundred grains to life. RM:
      set at 辰, earth; the Sun is in 昴, a western lodge, metal; metal
      gives birth to water, so sweet rain falls.
-   - Names the 3rd lunar month.
+   - Names the 3rd lunar month, and with it 上巳の節句 (3/3).
    - Hangs on it: the spring 土用 begins at 27°, about three days before
      穀雨 (about 17 Apr), and runs to the day before 立夏; 八十八夜 (about
      2 May) falls in 穀雨's span (NAOJ-W 雑節とは？).
@@ -778,7 +949,7 @@ of 三箇の悪日*), for a person born in a year of that month's branch;
     - KB: the yang heat is at its peak and the day at its longest. RM:
       set at 午, fire; the great yang begins to bend and the yin to
       rise; yin and yang face each other.
-    - Names the 5th lunar month.
+    - Names the 5th lunar month, and with it 端午の節句 (5/5).
     - Hangs on it: the day star turns to 陰遁 at the 甲子 nearest 夏至
       (`dayStar`); 半夏生 (100°, about 2 Jul) is its third 候 (RM: the 半夏
       is a medicinal herb), the one 候 the 仮名暦 printed, and marks the
@@ -804,6 +975,190 @@ of 三箇の悪日*), for a person born in a year of that month's branch;
     - Hangs on it: the summer 土用 begins at 117°, about three days
       before 大暑 (about 19 Jul), and runs to the day before 立秋; its 丑
       days are 土用の丑の日 (`Rekichu.zassetsu`; NAOJ-W 雑節とは？).
+13. **立秋 (risshū)**, 七月節, 135°; 7 Aug (81), 8 Aug (12), 6 Aug (7).
+    - Marks: the start of autumn; autumn runs to the day before 立冬
+      (K8). It falls in the hottest weeks, but from here the heat only
+      wanes; the greeting changes from 暑中見舞い to 残暑見舞い (K8; NAOJ-W
+      二十四節気とは？).
+    - KB: autumn's 氣 rises for the first time. RM: set at 坤, the
+      south-west corner, earth; the cool wind is the autumn wind; the
+      yin stirs at 午 and shows at 未.
+    - Opens 申月, the 7th solar month.
+    - Hangs on it: the summer 土用 ends the day before. In 申月, for a
+      person of a 申 year 大禍日 巳, 狼藉日 午, 滅門日 亥; 往亡日 the 9th
+      day; 天赦日 on 戊申.
+14. **処暑 (shosho)**, 七月中, 150°; 23 Aug (66), 22 Aug (34).
+    - Marks: the heat abates (NAOJ-24); the name means the heat stops
+      (K8); the typhoon season (K8).
+    - KB: the yang 氣 stops and begins to withdraw. RM: set at 申; no
+      gloss of the name.
+    - Names the 7th lunar month, and with it 七夕 (7/7); the NAOJ's
+      伝統的七夕 is counted from the new moon on or before 処暑 (above,
+      *Gregorian-dated festivals*).
+    - Hangs on it: 二百十日 (about 1 Sep) falls in its span; the 210th
+      to 220th days are the rice's flowering and the storms' season
+      (NAOJ-W 雑節とは？).
+15. **白露 (hakuro)**, 八月節, 165°; 7 Sep (77), 8 Sep (20), 6 Sep (3).
+    - Marks: white dew settles on the grass (NAOJ-24).
+    - KB: the yin 氣 gathers; dew congeals and turns white. RM: set at
+      庚, metal; 庚 is change, all things take their turn; the name is
+      glossed under 立秋's 候: the yin grows heavy, the dew thick and
+      white.
+    - Opens 酉月, the 8th solar month.
+    - Hangs on it: 二百二十日 (about 11 Sep) falls in its span. In 酉月,
+      for a person of a 酉 year 大禍日 子, 狼藉日 酉, 滅門日 午; 往亡日 the
+      18th day; 天赦日 on 戊申.
+16. **秋分 (shūbun)**, 八月中, 180°; 23 Sep (58), 22 Sep (42).
+    - Marks: the middle day of the autumn 彼岸; day and night about equal
+      (NAOJ-24); the national holiday 秋分の日 (NAOJ-W 二十四節気とは？).
+    - KB: yin and yang are halved. RM: set at 酉, metal; thunder hides in
+      the earth, for wood fears metal; 酉 is old, all things fully ripe.
+    - Names the 8th lunar month, and with it 十五夜 (8/15).
+    - Hangs on it: the autumn 彼岸 (the equinox and three days either
+      side) and the autumn 社日 (the 戊 day nearest; the tie below).
+17. **寒露 (kanro)**, 九月節, 195°; 8 Oct (79), 7 Oct (18), 9 Oct (3).
+    - Marks: autumn deepens and cold dew forms on the wild grasses
+      (NAOJ-24).
+    - KB: meeting the cold yin 氣, dew forms and is about to freeze. RM:
+      set at 辛, metal; 辛 is new; no gloss of the name.
+    - Opens 戌月, the 9th solar month.
+    - Hangs on it: in 戌月, for a person of a 戌 year 大禍日 未, 狼藉日 子,
+      滅門日 丑; 往亡日 the 27th day; 天赦日 on 戊申. Under the 天保暦 the
+      autumn 土用 was counted from 寒露 (above, KB image 10).
+18. **霜降 (sōkō)**, 九月中, 210°; 23 Oct (83), 22 Oct (10), 24 Oct (7).
+    - Marks: frost begins to fall (NAOJ-24).
+    - KB: dew, bound by the yin 氣, becomes frost and falls. RM: set at
+      戌, earth; 戌 is to perish; no gloss of the name.
+    - Names the 9th lunar month, and with it 重陽の節句 (9/9) and 十三夜
+      (9/13).
+    - Hangs on it: the autumn 土用 begins at 207°, about three days
+      before 霜降 (about 20 Oct), and runs to the day before 立冬.
+19. **立冬 (rittō)**, 十月節, 225°; 7 Nov (84), 6 Nov (8), 8 Nov (8).
+    - Marks: the start of winter; winter runs to the day before 立春
+      (K8).
+    - KB: winter's 氣 begins to rise, and it grows ever colder. RM: set
+      at 乾, the north-west corner, metal; the yang sinks and the yin
+      rides over it.
+    - Opens 亥月, the 10th solar month.
+    - Hangs on it: the autumn 土用 ends the day before. In 亥月, for a
+      person of a 亥 year 大禍日 寅, 狼藉日 卯, 滅門日 申; 往亡日 the 10th
+      day; 天赦日 on 甲子.
+20. **小雪 (shōsetsu)**, 十月中, 240°; 22 Nov (80), 21 Nov (16), 23 Nov
+    (4).
+    - Marks: it grows cold and rain turns to snow (NAOJ-24).
+    - KB: it is cold, so rain falls as snow. RM: set at 亥, water; frost
+      and dew congeal into snow, still little in the 10th month, hence
+      'small snow'.
+    - Names the 10th lunar month.
+    - Hangs on it: nothing but the month's number. (In 2033 the month
+      from 22 Nov holds both 小雪 and 冬至, which is how the leap month
+      question arises: above, *The 2033 leap month*.)
+21. **大雪 (taisetsu)**, 十一月節, 255°; 7 Dec (71), 6 Dec (29).
+    - Marks: snow piles up (NAOJ-24).
+    - KB: snow now falls on snow. RM: set at 壬, water; the counterpart
+      of 小雪; 壬 is to bear, all things held in the womb below.
+    - Opens 子月, the 11th solar month.
+    - Hangs on it: in 子月, for a person of a 子 year 大禍日 酉, 狼藉日 午,
+      滅門日 卯; 往亡日 the 20th day; 天赦日 on 甲子.
+22. **冬至 (tōji)**, 十一月中, 270°; 21 Dec (54), 22 Dec (46).
+    - Marks: the shortest day of the year (NAOJ-24); once taken as the
+      year's starting point, as the days lengthen from it; the customs
+      of 冬至南瓜 and 柚湯 (K8). It is the base point of the 24, and the
+      calendar was set right by observing it (NAOJ-W 二十四節気とは？).
+    - KB: the Sun goes at its southern limit and the day is at its
+      shortest. RM: set at 子, water; the yang stirs below the Yellow
+      Springs; 子, though great yin, holds the yang within.
+    - Names the 11th lunar month: the month holding 冬至 is the 11th,
+      the weight the 暦文協 gave the solstice in 2033 (above).
+    - Hangs on it: the day star turns to 陽遁 at the 甲子 nearest 冬至
+      (`dayStar`).
+23. **小寒 (shōkan)**, 十二月節, 285°; 5 Jan (77), 6 Jan (21), 4 Jan (2).
+    - Marks: 寒の入り, the entry into the cold, which grows sharper
+      (NAOJ-24); 寒 runs from this day to 節分 (K8); the greeting is
+      寒中見舞い (NAOJ-W 二十四節気とは？).
+    - KB: one yang rose at 冬至, and going against the yin 氣 it grows
+      colder still. RM: set at 癸 (printed 亥), water; the month's
+      beginning is the small cold, its middle the great.
+    - Opens 丑月, the 12th solar month.
+    - Hangs on it: in 丑月, for a person of an 丑 year 大禍日 辰, 狼藉日 酉,
+      滅門日 戌; 往亡日 the 30th day; 天赦日 on 甲子. Under the 天保暦 the
+      winter 土用 was counted from 小寒 (above, KB image 10).
+24. **大寒 (daikan)**, 十二月中, 300°; 20 Jan (80), 19 Jan (15), 21 Jan
+    (5).
+    - Marks: the cold at its extreme (NAOJ-24); from here it warms, and
+      spring is near (K8).
+    - KB: the cold is at its extreme. RM: set at 丑, earth; the
+      counterpart of 小寒, the great cold of mid-month; 丑 is the knot
+      where the branches end and begin.
+    - Names the 12th lunar month.
+    - Hangs on it: the winter 土用 begins at 297°, about three days
+      before 大寒 (about 17 Jan), and runs to 節分, the day before 立春.
+
+**社日's tie.** When both 戊 days lie five days from the equinox, the
+NAOJ records that the 宣明暦 era was confused, that the 貞享暦 to the
+明治7 almanac took the earlier one, and that from the 明治14 almanac the
+earlier is taken when the equinox falls before noon and the later when
+after (NAOJ-W 雑節とは？, *社日*, citing a 国立公文書館 document). The app
+takes the 戊 day whose noon is nearer the equinox instant (`shanichi`),
+which gives the 明治14 rule. RM says only "near" (above). This answers
+the expert's question 10 as far as the sources go.
+
+**For the readings.** Every term has a printed gloss in KB and a
+direction in RM. RM glosses the names of 雨水, 驚蟄, 清明, 穀雨, 小満, 芒種,
+小暑, 大暑, 白露 (under 立秋's 候), 小雪, 大雪, 小寒 and 大寒; the four 立,
+the solstices and the equinoxes only by the state of yin and yang; 処暑,
+寒露 and 霜降 not at all. Both are public
+domain and may be quoted whole; NAOJ and koyomi8 give the facts. Which
+of the two old voices speaks first is the owner's (D8), and so is
+whether RM's directions and elements belong in a reading at all within
+the printed almanac's frame (SPEC §7).
+
+### Open
+
+- Question: RM's 群書類從 print sets 小寒 «配于亥» (image 26, left page)
+  while its own gloss says «故癸主十二月» and the series of directions
+  asks 癸: is 亥 a misprint, and what does the manuscript (pid 2533201)
+  read?
+- Question: RM prints «故酉主地分» in 秋分's gloss (image 24, left page):
+  is 地分 an error for 秋分?
+- Question: RM prints «又小暑者、極熱之物也» (image 22, left page): is 物 an
+  error, for 初 or the like ("the beginning of the great heat")?
+- Question: RM prints «又大大暑月半極熱之中為大» (image 23, right page):
+  is the doubled 大 a dittography, or «大» glossed and then «大暑» named?
+- Question: RM's 土用 passage prints spring's first eighteen days with a
+  glyph like 刀 where 寅 is expected (image 38, left page), and reads
+  «秋金用時無禁金石» and «冬水用時無澤池堰»: what are the right readings of
+  the two prohibitions?
+- Question: KB's cursive endings, read by koyomi8 as «なれば也», were not
+  resolved on the scan in 小暑, 大暑, 立秋, 秋分, 立冬, 大雪 and 冬至; and
+  大暑's line shows «時節», which koyomi8's «暑気いたりつまりたるゆえんなれば
+  也» lacks. What does the print read?
+- Question: KB's 社日 and ひがん entries (image 9, right page) and its
+  八十八夜, 入梅 and 二百十日 entries (images 9–10) beyond their first
+  sentences: what do they say?
+- Question: for the terms' readings, is KB (1787, the Edo almanac's own
+  kana glosses, still quoted by koyomi8) or RM (1414, the 賀茂 house's
+  kanbun) the voice to follow, the other as *Another view* (D8)?
+- Question: RM's direction for each term (艮 for 立春, 寅 for 雨水 …): is
+  it read by anyone today, in the printed almanac's 方位 or in 方違え, or
+  is it a learned gloss only?
+
+### Searched and not found
+
+- K3-R's list of the 暦林問答集's 節気 passages: work/k3r had no commits
+  on 2026-10-15 when this was read; the passages were found here.
+- The NAOJ 暦Wiki page 「二十四節気」 at …/C6F3BDBDBBCDC0E1B5A4.html
+  answers 404 (2026-10-15, browser); the page is 「季節/二十四節気とは？」.
+- koyomi8.com/sub/24sekki.html answers 404 (2026-10-15, browser); the
+  page is koyomi8.com/24doc.html.
+- RM has no section on 節分, 彼岸, 八十八夜, 入梅, 半夏生 or 二百十日: its
+  contents 上 (images 3–4) and 下 (images 36–37) list none; 土用 is its
+  第二十五, 社日 its 第二十七, and 半夏生 occurs only as a 候 of 夏至.
+- A classical Chinese gloss of each term's name on a scan: the NDL
+  catalogue (`ndl.py`, 2026-10-15) has 月令七十二候集解 (元, 呉澄) only in
+  modern reprints (叢書集成初編 and others) with no digitised copy among
+  the hits; RM's glosses, which quote 鄭玄, the 三礼義宗 and the 易通卦驗,
+  stand in for it.
 
 ## K1: the Russian terms in the scholarly literature (ROADMAP K1)
 
