@@ -86,6 +86,8 @@ data class Factors(
     val smeBa: Set<Int> = emptySet(),
     /** The day's link of the twelve, counted from the month's *sgang* ([DayLetters.link]). */
     val links: Set<Link> = emptySet(),
+    /** Dates named for one month only, as (Hor month, date): the White Beryl numbers its months as the Hor months (SPEC §5.13). */
+    val monthDates: Set<Pair<Int, Int>> = emptySet(),
 )
 
 /**
@@ -393,16 +395,17 @@ object Electional {
                 animals = setOf(MONKEY),
             ),
         ),
-        // 5. Putting on new clothes (img. 23, KP2 img. 242).
+        // 5. Putting on new clothes (img. 23, KP2 img. 242). The good half's «སྐྱེད» is the sense sources, the bad half's
+        // bare «སྐྱེ» birth; craving stands in the print's bracket, which the White Beryl's work 4 reads as middling (O1).
         ActivityList(
             "first_wearing_of_new_clothes",
             good = Factors(
-                links = setOf(Link.CONSCIOUSNESS, Link.BECOMING, Link.CRAVING),
+                links = setOf(Link.CONSCIOUSNESS, Link.SOURCES, Link.BECOMING),
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY),
                 mansions = m(HASTA, ROHINI, PUNARVASU, PUSHYA, SVATI, CITRA, VISHAKHA, SHRAVANA, ANURADHA, UTTARASHADHA, DHANISHTHA, UTTARABHADRAPADA, REVATI, ASHVINI),
             ),
             bad = Factors(
-                links = setOf(Link.IGNORANCE, Link.FORMATION, Link.NAME_AND_FORM, Link.CONTACT, Link.FEELING, Link.GRASPING),
+                links = setOf(Link.IGNORANCE, Link.FORMATION, Link.NAME_AND_FORM, Link.CONTACT, Link.FEELING, Link.GRASPING, Link.BIRTH),
                 weekdays = setOf(SUNDAY, TUESDAY, SATURDAY),
                 dates = setOf(8),
                 mansions = m(BHARANI, KRITTIKA, MRIGASHIRAS, ARDRA, ASHLESHA, MAGHA, PURVAPHALGUNI, JYESHTHA, MULA, PURVASHADHA, UTTARAPHALGUNI, PURVABHADRAPADA, SHATABHISHAJ),
@@ -413,7 +416,7 @@ object Electional {
         ActivityList(
             "building_walls",
             good = Factors(
-                links = setOf(Link.FORMATION, Link.IGNORANCE),
+                links = setOf(Link.FORMATION, Link.IGNORANCE, Link.BIRTH),
                 weekdays = setOf(WEDNESDAY, FRIDAY),
                 dates = setOf(3, 7, 11, 13, 15, 17, 14, 23, 25),
                 mansions = m(PURVASHADHA, PUNARVASU, MRIGASHIRAS, UTTARAPHALGUNI, PURVAPHALGUNI, PURVABHADRAPADA, UTTARASHADHA, DHANISHTHA, REVATI, ROHINI),
@@ -547,18 +550,20 @@ object Electional {
                 mansions = m(BHARANI, ARDRA, ASHLESHA, MULA),
             ),
         ),
-        // 18. Planting trees and flowers (img. 33, KP2 img. 252).
+        // 18. Planting trees and flowers (img. 33, KP2 img. 252). The bad half's word once read as khrums smad is the
+        // trigram khon (O10f), so khrums smad is named in the good half only.
         ActivityList(
             "planting_trees_and_flowers",
             good = Factors(
                 weekdays = setOf(MONDAY, WEDNESDAY, THURSDAY, SATURDAY),
-                mansions = m(MRIGASHIRAS, ARDRA, PUSHYA, PURVASHADHA, REVATI, SHATABHISHAJ, JYESHTHA, SVATI, ASHLESHA, UTTARASHADHA, PURVABHADRAPADA),
+                mansions = m(MRIGASHIRAS, ARDRA, PUSHYA, PURVASHADHA, REVATI, SHATABHISHAJ, JYESHTHA, SVATI, ASHLESHA, UTTARASHADHA, PURVABHADRAPADA, UTTARABHADRAPADA),
                 animals = setOf(BIRD, MONKEY),
                 trigrams = setOf(LI, ZIN),
             ),
             bad = Factors(
                 weekdays = setOf(TUESDAY),
                 mansions = m(BHARANI, KRITTIKA, MAGHA, HASTA, UTTARAPHALGUNI, VISHAKHA),
+                trigrams = setOf(KHON),
             ),
         ),
         // 19. Making peace between enemies (img. 33, KP2 img. 252).
@@ -581,7 +586,7 @@ object Electional {
         ActivityList(
             "virtuous_acts_for_the_living",
             good = Factors(
-                links = setOf(Link.IGNORANCE, Link.CONSCIOUSNESS, Link.FEELING, Link.BECOMING, Link.CRAVING),
+                links = setOf(Link.SOURCES, Link.IGNORANCE, Link.CONSCIOUSNESS, Link.FEELING, Link.BECOMING, Link.CRAVING),
                 weekdays = setOf(WEDNESDAY, THURSDAY, FRIDAY),
                 dates = setOf(1, 18),
                 mansions = m(ROHINI, MRIGASHIRAS, PUNARVASU, PUSHYA, SHATABHISHAJ, UTTARAPHALGUNI, ARDRA, HASTA, CITRA, SVATI, JYESHTHA, DHANISHTHA, PURVABHADRAPADA, PURVAPHALGUNI, REVATI, ANURADHA, MULA, MAGHA),
@@ -595,23 +600,24 @@ object Electional {
                 animals = setOf(BIRD),
             ),
         ),
-        // 21. Manuring, opening the soil, breaking in oxen (img. 34, KP2 img. 253).
+        // 21. Manuring, opening the soil, breaking in oxen (img. 34, KP2 img. 253). The good dates as O10f read them; the
+        // bad half's 11, 22 and 24 are "bad for breaking in oxen", a kind of the work, so neither side.
         ActivityList(
             "manuring_and_breaking_in_oxen",
             good = Factors(
                 weekdays = setOf(MONDAY, WEDNESDAY, FRIDAY, SATURDAY),
-                dates = setOf(1, 4, 14, 19, 25),
+                dates = setOf(1, 6, 16, 14, 25, 26),
                 mansions = m(PUNARVASU, SHATABHISHAJ, ROHINI, REVATI, VISHAKHA, DHANISHTHA, PURVASHADHA, MRIGASHIRAS, HASTA, SVATI, PUSHYA),
                 trigrams = setOf(GIN),
             ),
             bad = Factors(
                 weekdays = setOf(SUNDAY, TUESDAY),
-                dates = setOf(11, 22),
                 mansions = m(ASHLESHA, BHARANI, KRITTIKA, UTTARAPHALGUNI, MAGHA, PURVAPHALGUNI, ANURADHA),
                 animals = setOf(RABBIT, SNAKE, PIG),
             ),
         ),
-        // 22. Sowing the fields (img. 36, KP2 img. 257).
+        // 22. Sowing the fields (img. 36, KP2 img. 257). The doubtful good date is ༡༤ (O10f): the 14th, like the 28th,
+        // stands in both halves.
         ActivityList(
             "sowing",
             good = Factors(
@@ -623,7 +629,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(SUNDAY, TUESDAY),
-                dates = setOf(4, 8, 14, 29),
+                dates = setOf(4, 8, 29),
                 mansions = m(BHARANI, KRITTIKA, PUSHYA, VISHAKHA, UTTARAPHALGUNI, PURVABHADRAPADA),
                 animals = setOf(PIG, RABBIT, DRAGON, SNAKE),
             ),
@@ -701,11 +707,11 @@ object Electional {
                 trigrams = setOf(KHAM),
             ),
         ),
-        // 28. Feeding up horses (img. 39, KP2 img. 260).
+        // 28. Feeding up horses (img. 39, KP2 img. 260). The print's bracket spans the Moon, Mercury and Jupiter (O10f).
         ActivityList(
             "feeding_up_horses",
             good = Factors(
-                weekdays = setOf(FRIDAY, TUESDAY, SUNDAY, WEDNESDAY, THURSDAY),
+                weekdays = setOf(FRIDAY, TUESDAY, SUNDAY),
                 mansions = m(KRITTIKA, MRIGASHIRAS, PUSHYA, PUNARVASU, HASTA, ROHINI, CITRA, SHRAVANA),
                 animals = setOf(RABBIT),
                 trigrams = setOf(GIN),
@@ -731,11 +737,11 @@ object Electional {
                 animals = setOf(MOUSE, HORSE),
             ),
         ),
-        // 30. Saddling (img. 39, KP2 img. 260).
+        // 30. Saddling (img. 39, KP2 img. 260). The print's bracket spans the Sun and Friday (O10f).
         ActivityList(
             "saddling",
             good = Factors(
-                weekdays = setOf(TUESDAY, WEDNESDAY, THURSDAY, FRIDAY),
+                weekdays = setOf(TUESDAY, WEDNESDAY, THURSDAY),
                 mansions = m(KRITTIKA, PUSHYA, PUNARVASU, ANURADHA, SHRAVANA, MRIGASHIRAS, ROHINI, SHATABHISHAJ, UTTARASHADHA, UTTARAPHALGUNI, HASTA, SVATI),
                 animals = setOf(RABBIT),
                 trigrams = setOf(GIN),
@@ -779,10 +785,12 @@ object Electional {
                 animals = setOf(RABBIT, PIG),
             ),
         ),
-        // 33. Learning writing and astrology (img. 40, KP2 img. 261).
+        // 33. Learning writing and astrology (img. 40, KP2 img. 261). The bad «༡ ༦» are two dates, the 1st and the 6th (O2);
+        // the good mansions end with the link formation (O10f).
         ActivityList(
             "learning_writing_and_astrology",
             good = Factors(
+                links = setOf(Link.FORMATION),
                 weekdays = setOf(THURSDAY, WEDNESDAY, FRIDAY, SUNDAY),
                 dates = setOf(18),
                 mansions = m(KRITTIKA, PUNARVASU, MAGHA, HASTA, PUSHYA, UTTARABHADRAPADA, SVATI, MRIGASHIRAS, VISHAKHA, SHATABHISHAJ, PURVABHADRAPADA, ANURADHA, ARDRA),
@@ -790,7 +798,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(SATURDAY, TUESDAY),
-                dates = setOf(16),
+                dates = setOf(1, 6),
                 mansions = m(BHARANI, ASHLESHA),
                 animals = setOf(PIG, OX),
             ),
@@ -811,7 +819,8 @@ object Electional {
                 animals = setOf(TIGER, SNAKE, SHEEP),
             ),
         ),
-        // 35. Bloodletting, moxibustion, treatment (img. 41, KP2 img. 262).
+        // 35. Bloodletting, moxibustion, treatment (img. 41, KP2 img. 262). The bad khrums is khrums smad (O10f), and the
+        // word after bra nye the trigram li, as the White Beryl's work 33 has it.
         ActivityList(
             "bloodletting_and_moxibustion",
             good = Factors(
@@ -823,12 +832,14 @@ object Electional {
             bad = Factors(
                 smeBa = setOf(2, 7),
                 dates = setOf(9, 8, 29, 30),
-                mansions = m(ARDRA, PURVAPHALGUNI, ASHVINI, BHARANI),
+                mansions = m(ARDRA, PURVAPHALGUNI, ASHVINI, BHARANI, UTTARABHADRAPADA),
                 animals = setOf(DRAGON, SNAKE, SHEEP),
+                trigrams = setOf(LI),
             ),
         ),
         // 37. Bathing and washing the hair (img. 46, KP2 img. 267). The bad half's second line is worn; its dates are the
         // White Beryl's (vol. 2, p. 404), which the good half follows date for date and which names the 27th on neither side.
+        // Its last line names the Dog and Tiger days and the trigrams li and khen plainly (O10f).
         ActivityList(
             "bathing_and_washing_the_hair",
             good = Factors(
@@ -843,6 +854,8 @@ object Electional {
                 weekdays = setOf(TUESDAY, SATURDAY),
                 dates = setOf(1, 2, 7, 9, 12, 14, 17, 20, 21, 24, 25, 28, 29, 30),
                 mansions = m(PUSHYA, MAGHA, VISHAKHA, PURVABHADRAPADA, PURVAPHALGUNI, BHARANI),
+                animals = setOf(DOG, TIGER),
+                trigrams = setOf(LI, KHEN),
             ),
         ),
         // 39. Enthronement (img. 47, KP2 img. 268).
@@ -912,28 +925,31 @@ object Electional {
                 trigrams = setOf(KHON),
             ),
         ),
-        // 48. Fire offerings (img. 54, KP2 img. 275).
+        // 48. Fire offerings (img. 54, KP2 img. 275). The good half's eighth mansion is sa ga, not lag (O10f); the bad half's
+        // four numerals before the rising signs are the sme ba by their place (O1). Contact stands in a run the box
+        // qualifies, so neither side.
         ActivityList(
             "fire_offerings",
             good = Factors(
                 weekdays = setOf(SUNDAY, TUESDAY, THURSDAY),
                 dates = setOf(3, 13, 23, 18, 28, 29),
-                mansions = m(KRITTIKA, PUNARVASU, MAGHA, SVATI, PURVABHADRAPADA, PURVAPHALGUNI, PURVASHADHA, ARDRA),
+                mansions = m(KRITTIKA, PUNARVASU, MAGHA, SVATI, PURVABHADRAPADA, PURVAPHALGUNI, PURVASHADHA, VISHAKHA),
             ),
             bad = Factors(
+                smeBa = setOf(5, 7, 2, 4),
                 weekdays = setOf(MONDAY, WEDNESDAY, FRIDAY),
                 dates = setOf(12, 22, 2, 17, 27),
                 mansions = m(ARDRA, ASHLESHA, BHARANI, UTTARABHADRAPADA, MULA),
                 animals = setOf(SNAKE),
             ),
         ),
-        // 49. Consecration (img. 54, KP2 img. 275).
+        // 49. Consecration (img. 54, KP2 img. 275). The good half's fourth line begins with snron (O10f).
         ActivityList(
             "consecration",
             good = Factors(
                 weekdays = setOf(THURSDAY, MONDAY, WEDNESDAY, FRIDAY),
                 dates = setOf(1, 10, 11, 12, 13, 15),
-                mansions = m(KRITTIKA, ARDRA, PURVABHADRAPADA, ANURADHA, PUNARVASU, MRIGASHIRAS, PUSHYA, ROHINI, UTTARABHADRAPADA, UTTARAPHALGUNI, MULA, SHRAVANA, DHANISHTHA, UTTARASHADHA, PURVASHADHA, ASHLESHA),
+                mansions = m(KRITTIKA, ARDRA, PURVABHADRAPADA, ANURADHA, PUNARVASU, MRIGASHIRAS, PUSHYA, ROHINI, UTTARABHADRAPADA, UTTARAPHALGUNI, MULA, SHRAVANA, DHANISHTHA, UTTARASHADHA, PURVASHADHA, ASHLESHA, JYESHTHA),
                 animals = setOf(TIGER, DRAGON),
             ),
             bad = Factors(
@@ -944,13 +960,14 @@ object Electional {
                 mansions = m(CITRA, ASHLESHA, MAGHA, PURVAPHALGUNI, SHRAVANA, BHARANI),
             ),
         ),
-        // 54. Composing treatises, learning poetics and grammar (img. 57, KP2 img. 280).
+        // 54. Composing treatises, learning poetics and grammar (img. 57, KP2 img. 280). The print's bracket spans the Sun,
+        // the Moon and Friday (O10f).
         ActivityList(
             "composing_treatises_and_learning_poetics",
             good = Factors(
                 smeBa = setOf(5),
                 links = setOf(Link.FORMATION),
-                weekdays = setOf(THURSDAY, WEDNESDAY, SUNDAY, MONDAY),
+                weekdays = setOf(THURSDAY, WEDNESDAY),
                 dates = setOf(2, 3, 5, 10, 11, 23),
                 mansions = m(KRITTIKA, ROHINI, PUSHYA, ANURADHA, HASTA, SVATI, SHATABHISHAJ, UTTARAPHALGUNI, PURVABHADRAPADA, UTTARABHADRAPADA, ASHVINI, PUNARVASU, REVATI, PURVASHADHA, MULA, ARDRA, MRIGASHIRAS),
                 animals = setOf(DOG),
@@ -962,40 +979,46 @@ object Electional {
                 animals = setOf(OX, PIG),
             ),
         ),
-        // 55. Bringing rain (img. 57, KP2 img. 280).
+        // 55. Bringing rain (img. 57, KP2 img. 280). The mansions as O10f read them in KP and KP2 alike; the numerals
+        // before the rising signs are the sme ba by their place (O1).
         ActivityList(
             "bringing_rain",
             good = Factors(
+                smeBa = setOf(3, 2, 4),
                 weekdays = setOf(MONDAY, WEDNESDAY, FRIDAY),
-                mansions = m(BHARANI, MRIGASHIRAS, ARDRA, ROHINI, PURVAPHALGUNI, UTTARAPHALGUNI, CITRA, SVATI, ANURADHA, PURVASHADHA, DHANISHTHA, SHRAVANA, JYESHTHA, MULA, MAGHA, REVATI, UTTARASHADHA, SHATABHISHAJ, PURVABHADRAPADA),
+                mansions = m(BHARANI, MRIGASHIRAS, ARDRA, PUNARVASU, PURVAPHALGUNI, UTTARAPHALGUNI, CITRA, VISHAKHA, ANURADHA, PURVASHADHA, DHANISHTHA, SHRAVANA, UTTARASHADHA, SHATABHISHAJ, PURVABHADRAPADA),
                 animals = setOf(MOUSE, PIG, BIRD, MONKEY),
                 trigrams = setOf(KHAM),
             ),
             bad = Factors(
+                smeBa = setOf(9, 7),
                 weekdays = setOf(THURSDAY, SUNDAY, TUESDAY),
-                mansions = m(KRITTIKA, PUSHYA, HASTA, UTTARABHADRAPADA, ASHLESHA),
+                mansions = m(KRITTIKA, PUSHYA, HASTA, JYESHTHA, MULA, MAGHA, REVATI, ASHLESHA),
                 animals = setOf(HORSE, DRAGON, OX, SHEEP, SNAKE, DOG),
                 trigrams = setOf(LI),
             ),
         ),
-        // 56. Thread-cross and torma rites (img. 58, KP2 img. 281).
+        // 56. Thread-cross and torma rites (img. 58, KP2 img. 281). Gro bzhin is bad for Bon rites in the bad half, as mchu
+        // is, so neither side; the Tiger day stands plain after the Pig day's qualifier (O10f).
         ActivityList(
             "thread_cross_and_torma_rites",
             good = Factors(
                 weekdays = setOf(SUNDAY, THURSDAY, SATURDAY, TUESDAY),
                 dates = setOf(18, 25, 28, 27),
-                mansions = m(PURVAPHALGUNI, ARDRA, MRIGASHIRAS, MULA, SHRAVANA),
+                mansions = m(PURVAPHALGUNI, ARDRA, MRIGASHIRAS, MULA),
             ),
             bad = Factors(
                 weekdays = setOf(FRIDAY, MONDAY, WEDNESDAY),
                 dates = setOf(26, 12, 14),
                 mansions = m(ROHINI, ANURADHA, SHATABHISHAJ, DHANISHTHA, REVATI),
+                animals = setOf(TIGER),
             ),
         ),
-        // 57. Honouring and petitioning (img. 59, KP2 img. 282).
+        // 57. Honouring and petitioning (img. 59, KP2 img. 282). A small ༥ after the trigram khen is the sme ba (O10f).
         ActivityList(
             "honouring_and_petitioning",
             good = Factors(
+                smeBa = setOf(5),
                 weekdays = setOf(FRIDAY, SUNDAY, WEDNESDAY),
                 mansions = m(ASHVINI, PUNARVASU, SHATABHISHAJ, REVATI, SVATI, MRIGASHIRAS, ARDRA, PUSHYA, ASHLESHA, MAGHA, DHANISHTHA, PURVASHADHA, JYESHTHA),
                 animals = setOf(DOG, RABBIT),
@@ -1023,11 +1046,11 @@ object Electional {
                 animals = setOf(HORSE),
             ),
         ),
-        // 59. Judging cases (img. 60, KP2 img. 283).
+        // 59. Judging cases (img. 60, KP2 img. 283). The good half's «སྐྱེད» is the sense sources (O1).
         ActivityList(
             "judging_disputes",
             good = Factors(
-                links = setOf(Link.CONTACT, Link.BIRTH),
+                links = setOf(Link.SOURCES, Link.CONTACT, Link.BIRTH),
                 weekdays = setOf(FRIDAY, SUNDAY, TUESDAY),
                 mansions = m(ASHVINI, PUNARVASU, SHATABHISHAJ, REVATI, SVATI, ARDRA, PUSHYA, UTTARASHADHA),
                 animals = setOf(OX, DOG),
@@ -1055,10 +1078,13 @@ object Electional {
                 animals = setOf(TIGER, MONKEY, BIRD, DOG),
             ),
         ),
-        // 50. Ordination, teaching, maṇḍalas, study, empowerment, practice (KP2 only, img. 276).
+        // 50. Ordination, teaching, maṇḍalas, study, empowerment, practice (KP2 only, img. 276). The links and the sme ba
+        // in a plain run of the good half (O1).
         ActivityList(
             "ordination_teaching_and_empowerment",
             good = Factors(
+                smeBa = setOf(5),
+                links = setOf(Link.CONSCIOUSNESS, Link.FEELING),
                 weekdays = setOf(SUNDAY, THURSDAY),
                 dates = setOf(3, 5, 10, 13, 23, 11),
                 mansions = m(SVATI, VISHAKHA, ROHINI, MRIGASHIRAS, ARDRA, PUNARVASU, PUSHYA, MAGHA, KRITTIKA, HASTA, CITRA, DHANISHTHA, SHATABHISHAJ, PURVASHADHA, UTTARABHADRAPADA),
@@ -1114,31 +1140,33 @@ object Electional {
                 animals = setOf(MONKEY, DRAGON),
             ),
         ),
-        // 53a. Military training (img. 56, KP2 img. 279).
+        // 53a. Military training (img. 56, KP2 img. 279). The box is two columns, the good on the left and the bad on the
+        // right: the links, the Tiger, Dragon and Ox days and the trigram zon stand plain in the good column (O1).
         ActivityList(
             "martial_skills",
             good = Factors(
+                links = setOf(Link.FORMATION, Link.CONSCIOUSNESS, Link.CONTACT, Link.GRASPING),
                 mansions = m(ASHVINI, MRIGASHIRAS, ARDRA, ASHLESHA, PURVASHADHA, HASTA, ANURADHA, UTTARAPHALGUNI, SHATABHISHAJ, JYESHTHA, MULA, PURVABHADRAPADA, VISHAKHA, MAGHA),
-            ),
-            bad = Factors(
-                weekdays = setOf(SUNDAY, THURSDAY, MONDAY, WEDNESDAY),
                 animals = setOf(TIGER, DRAGON, OX),
                 trigrams = setOf(ZON),
             ),
+            bad = Factors(
+                weekdays = setOf(SUNDAY, THURSDAY, MONDAY, WEDNESDAY),
+            ),
         ),
-        // 53b. Dice and games (img. 56, KP2 img. 279).
+        // 53b. Dice and games (img. 56, KP2 img. 279). Craving and becoming stand in the bad column's run that is good for
+        // games, as its five day animals do.
         ActivityList(
             "games",
             good = Factors(
+                links = setOf(Link.FORMATION, Link.CONSCIOUSNESS, Link.CONTACT, Link.GRASPING, Link.CRAVING, Link.BECOMING),
                 weekdays = setOf(SATURDAY, TUESDAY, FRIDAY),
                 mansions = m(ASHVINI, MRIGASHIRAS, ARDRA, ASHLESHA, PURVASHADHA, HASTA, ANURADHA, UTTARAPHALGUNI, SHATABHISHAJ, JYESHTHA, MULA, PURVABHADRAPADA, VISHAKHA, MAGHA),
-                animals = setOf(SNAKE, RABBIT, SHEEP, DOG, MONKEY),
-                trigrams = setOf(LI),
+                animals = setOf(SNAKE, RABBIT, SHEEP, DOG, MONKEY, TIGER, DRAGON, OX),
+                trigrams = setOf(LI, ZON),
             ),
             bad = Factors(
                 weekdays = setOf(SUNDAY, THURSDAY, MONDAY, WEDNESDAY),
-                animals = setOf(TIGER, DRAGON, OX),
-                trigrams = setOf(ZON),
             ),
         ),
     )

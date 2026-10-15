@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 
-/** The combination period: KP's table of rising signs (§9, img. 79–80) and WB's readings (vol. 2, pp. 371–376). */
+/** The combination period: KP's table of rising signs (§9, img. 81–82) and WB's readings (vol. 2, pp. 371–376). */
 class CombinationPeriodTest {
     @Test
     fun `the rising sign of each hour follows KP's table`() {

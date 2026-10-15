@@ -414,7 +414,7 @@ data class DaySummary(
                 one(
                     DayFactor.LUNAR_DATE,
                     entry(Catalog.format("ElectionalFactor.LUNAR_DATE.title", day.day.toString()), DayFactor.LUNAR_DATE, Texts.lunarDateTone(day.day), Texts.LUNAR_DATE[day.day - 1]),
-                    Texts.LUNAR_DATE[day.day - 1], Texts.ELECTIONAL_DATE.getValue(day.day), Texts.HAIRCUT_LIST[day.day - 1],
+                    Texts.LUNAR_DATE[day.day - 1], Texts.electionalDate(day.month, day.day), Texts.HAIRCUT_LIST[day.day - 1],
                 ),
                 one(DayFactor.KARANA, entry(day.karana.sanskrit, DayFactor.KARANA, Texts.KARANA_TONE.getValue(day.karana), Texts.KARANA[day.karana]), Texts.KARANA[day.karana]),
                 one(DayFactor.YOGA, entry(day.yoga.sanskrit, DayFactor.YOGA, Texts.YOGA_TONE.getValue(day.yoga), Texts.YOGA[day.yoga]), Texts.YOGA[day.yoga]),

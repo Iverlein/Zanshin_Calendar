@@ -395,7 +395,7 @@ object Sources {
     )
     /** The same print's chart of Rāhu's general course by date, the White Beryl's grouped by direction (§7, img. 78). */
     val KUN_PHAN_ME_LONG_DUS_SBYOR = Source(
-        "$KUN_PHAN_ME_LONG_TITLE, the Tolé Gön (མཐོ་ལས་དགོན, mtho las dgon) print, the sign rising in each hour by month (img. 79–80)",
+        "$KUN_PHAN_ME_LONG_TITLE, the Tolé Gön (མཐོ་ལས་དགོན, mtho las dgon) print, the sign rising in each hour by month (img. 81–82)",
         "BDRC MW4CZ65561",
         "https://library.bdrc.io/show/bdr:MW4CZ65561",
     )
@@ -725,7 +725,7 @@ object Texts {
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),
         Weekday.TUESDAY to Reading(
-            goodKeys = listOf("war", "martial_skills", "appointing_generals", "fierce_rites", "subduing_enemies", "enthronement", "judging_disputes", "lawsuits", "averting_rites", "suppressing_sri", "horse_racing", "fire_offerings", "hurling_zor", "directing_magic", "collecting_debts", "taking_new_lands", "raising_dogs", "moxibustion", "work_with_gold_coral_and_swords", "destroying_forts", "power_rites", "building_flood_dikes"),
+            goodKeys = listOf("war", "martial_skills", "appointing_generals", "fierce_rites", "subduing_enemies", "enthronement", "judging_disputes", "lawsuits", "averting_rites", "suppressing_sri", "horse_racing", "saddling", "fire_offerings", "hurling_zor", "directing_magic", "collecting_debts", "taking_new_lands", "raising_dogs", "moxibustion", "work_with_gold_coral_and_swords", "destroying_forts", "power_rites", "building_flood_dikes"),
             avoidKeys = listOf("ordination", "consecration", "marriage", "bathing", "putting_on_ornaments", "virtuous_work", "empowerment", "divination", "burial", "funeral_rites", "council", "taking_servants", "building", "building_temples", "making_images", "astrology", "preparing_medicine", "crafts", "cutting_hair_and_nails", "sending_out_wealth", "bloodletting", "building_towns", "gatherings", "feasts", "sowing", "worship_of_deities", "building_a_hearth", "building_storehouses", "digging_ponds_and_canals", "field_work", "breaking_ground", "planting_trees", "planting_flowers", "lasting_work", "auspicious_work", "spectacles", "reconciliation", "prosperity_rites", "trade", "cutting_and_wearing_new_clothes", "sewing_tents", "moving_house", "pacifying_rites", "increasing_rites", "setting_out"),
             source = Sources.WHITE_BERYL_WEEKDAYS,
         ),
@@ -789,6 +789,16 @@ object Texts {
     val ELECTIONAL_DATE: Map<Int, Reading> = (1..30).associateWith { d ->
         electional("date", Electional.good { d in it.dates }, Electional.bad { d in it.dates })
     }
+
+    /** The date's lists in the Hor months where some list names that month's date alone ([zanshin.core.tibetan.Factors.monthDates]). */
+    val ELECTIONAL_MONTH_DATE: Map<Pair<Int, Int>, Reading> =
+        Electional.ACTIVITIES.flatMap { it.good.monthDates + it.bad.monthDates }.toSet().associateWith { md ->
+            val (_, d) = md
+            electional("date", Electional.good { d in it.dates || md in it.monthDates }, Electional.bad { d in it.dates || md in it.monthDates })
+        }
+
+    /** What the activity lists name lunar date [date] of Hor month [month] good or bad for. */
+    fun electionalDate(month: Int, date: Int): Reading = ELECTIONAL_MONTH_DATE[month to date] ?: ELECTIONAL_DATE.getValue(date)
     /**
      * The day animal's lists: the White Beryl's results of the twelve day animals first ([DayAnimalVerses]),
      * then the activity lists without the works the White Beryl names the other way, since it counts above
@@ -911,7 +921,7 @@ object Texts {
         ZodiacSign.LIBRA to dusSbyor("LIBRA", Tone.BAD, good = listOf("farming", "trade", "breaking_ground", "lasting_work", "astrology_and_divination", "building_dams", "power_rites"), avoid = listOf("consecration", "making_images", "taking_a_bride", "crafts", "auspicious_work", "council", "virtuous_acts_for_the_living", "washing_the_hair", "bathing", "cutting_hair_and_nails", "building_walls", "planting_trees_and_flowers", "bringing_rain", "raising_banners", "naming", "taking_servants", "pacifying_rites", "increasing_rites")),
         ZodiacSign.SCORPIO to dusSbyor("SCORPIO", Tone.BAD, good = listOf("consecration", "empowerment", "averting_rites", "suppressing_sri", "serving_the_king", "lasting_work", "trade", "fierce_rites", "making_weapons"), avoid = listOf("building_temples", "making_images", "enthronement", "bringing_rain", "cutting_clothes", "building_walls", "taking_a_bride", "council", "auspicious_work", "virtuous_acts_for_the_living", "preparing_medicine", "bloodletting_and_moxibustion", "cutting_hair_and_nails", "sewing_tents", "building_storehouses", "leading_an_army", "farming", "sowing", "raising_banners", "worship_of_deities", "naming", "reconciliation", "pacifying_rites", "increasing_rites", "power_rites")),
         ZodiacSign.SAGITTARIUS to dusSbyor("SAGITTARIUS", Tone.GOOD, good = listOf("building_temples", "making_images", "suppressing_sri", "setting_out", "taking_a_bride", "putting_on_ornaments", "enthronement", "first_wearing_of_new_clothes", "preparing_medicine", "taking_a_retinue", "astrology_and_divination", "averting_rites", "sewing_tents", "building_walls", "digging_ponds_and_wells", "breaking_ground", "medical_treatment", "breaking_in_horses_and_livestock", "virtuous_acts_for_the_living", "council", "auspicious_work", "spectacles", "raising_banners", "leading_an_army", "naming", "averting_thieves", "pacifying_rites", "increasing_rites", "fierce_rites"), avoid = listOf("building_dams", "worship_of_deities", "ordination")),
-        ZodiacSign.CAPRICORN to dusSbyor("CAPRICORN", Tone.BAD, good = listOf(), avoid = listOf("consecration", "building_temples", "making_images", "crafts", "auspicious_work", "virtuous_acts_for_the_living", "council", "fire_offerings", "taking_a_bride", "enthronement", "preparing_medicine", "bloodletting_and_moxibustion", "cutting_hair_and_nails", "worship_of_deities", "building_walls", "sewing_tents", "pacifying_rites", "increasing_rites", "power_rites", "reconciliation", "raising_banners")),
+        ZodiacSign.CAPRICORN to dusSbyor("CAPRICORN", Tone.BAD, good = listOf("ordination", "sowing", "digging_ponds_canals_and_wells", "taking_servants", "work_with_water", "travel", "freeing_the_bound", "taking_a_maidservant", "work_with_four_footed_animals", "setting_out", "lawsuits", "lasting_work", "washing_the_hair", "suppressing_sri", "theft_and_raids", "planting_flowers", "planting_trees", "killing_others"), avoid = listOf("consecration", "building_temples", "making_images", "crafts", "auspicious_work", "virtuous_acts_for_the_living", "council", "fire_offerings", "taking_a_bride", "enthronement", "preparing_medicine", "bloodletting_and_moxibustion", "cutting_hair_and_nails", "worship_of_deities", "building_walls", "sewing_tents", "pacifying_rites", "increasing_rites", "power_rites", "reconciliation", "raising_banners")),
         ZodiacSign.AQUARIUS to dusSbyor("AQUARIUS", Tone.GOOD, good = listOf("ordination", "building_temples_and_stupas", "making_images", "bathing", "washing_the_hair", "building_walls", "taking_a_new_home", "digging_ponds_canals_and_wells", "breaking_ground", "learning_writing_and_astrology", "auspicious_work", "virtuous_acts_for_the_living", "council", "pacifying_rites", "increasing_rites", "lasting_work", "building_a_hearth", "building_storehouses", "sowing", "planting_trees_and_flowers", "sewing_tents", "naming"), avoid = listOf("bloodletting_and_moxibustion", "fierce_rites", "leading_an_army", "horse_racing", "building_dams")),
         ZodiacSign.PISCES to dusSbyor("PISCES", Tone.GOOD, good = listOf("dharma_practice", "ordination", "study", "putting_on_ornaments", "taking_a_bride", "enthronement", "cutting_clothes", "crafts", "cutting_hair_and_nails", "building_walls", "building_a_hearth", "preparing_medicine", "bloodletting_and_moxibustion", "astrology_and_divination", "washing_the_hair", "bathing", "breaking_ground", "farming", "work_with_cattle", "sowing", "travel", "learning_the_sciences", "setting_out", "sewing_tents", "reconciliation", "planting_trees_and_flowers", "spectacles", "naming", "pacifying_rites"), avoid = listOf("building_temples_and_stupas", "making_images", "increasing_rites", "fierce_rites", "leading_an_army", "building_dams", "fire_offerings")),
     )

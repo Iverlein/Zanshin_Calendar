@@ -21,17 +21,41 @@ import zanshin.core.tibetan.ZodiacSign.*
  *
  * The chapter is the source the boxes digest, so it [join]s them: what it
  * names good is added to the box's good and taken from its bad, and the
- * other way round; what the box names and the chapter does not keeps the
- * box's reading. Works the print has no box for are lists of their own.
+ * other way round; what the chapter reads otherwise or calls middling is
+ * taken from both ([NEITHER]); what the box names and the chapter does not
+ * keeps the box's reading. Works the print has no box for are lists of their own.
  */
 object WhiteBerylWorks {
     private fun m(vararg x: Mansion) = x.toList()
     private fun waning(vararg except: Int) = (16..30).toSet() - except.toSet()
 
+    /** Work 14's dates of one month each (p. 395): the 27th of the 11th month, the 25th of the 12th, the 23rd of the 1st. */
+    private val MONTH_DATES = setOf(11 to 27, 12 to 25, 1 to 23)
+
+    /**
+     * For a box, by its wording, what the chapter reads otherwise or calls middling where the box names it on one side:
+     * taken from both sides, so it counts for neither, as an entry qualified in the box does.
+     */
+    val NEITHER: Map<String, Factors> = mapOf(
+        // 4. Putting on clothes, p. 386: craving middling, where the box brackets it.
+        "first_wearing_of_new_clothes" to Factors(links = setOf(Link.CRAVING)),
+        // 9. Opening the soil: the box's 14th is the chapter's 19th.
+        "manuring_and_breaking_in_oxen" to Factors(dates = setOf(14)),
+        // 14. Giving and taking goods: the box's 20th is the chapter's 19th.
+        "receiving_wealth" to Factors(dates = setOf(20)),
+        "sending_out_wealth" to Factors(dates = setOf(20)),
+        // 32. Medicine: the box's sme ba 9 is the chapter's 4.
+        "preparing_medicine" to Factors(smeBa = setOf(9)),
+        // 38. Servants: bra nye good only for taking a widow into service («ཡུགས་བསྟེན»), plain good in the box.
+        "taking_servants" to Factors(mansions = m(BHARANI)),
+    )
+
     /** For each of the print's boxes, by its wording, what the chapter adds to it or decides against it. */
     val TO_BOXES: List<ActivityList> = listOf(
         // 2. Naming, p. 385: «ཁྲུམས་སྟོད(༢༤)», where the box has khrums smad.
         ActivityList("naming", good = Factors(mansions = m(PURVABHADRAPADA)), bad = Factors()),
+        // 3. Cutting clothes, p. 385: «ཉི་མ་བྱི་བཟང».
+        ActivityList("cutting_new_clothes", good = Factors(animals = setOf(MOUSE)), bad = Factors()),
         // 5. Offerings, p. 386: «ཁྲུམས་སྟོད(༢༤) དབྱུག(༠)» good, «ཁྲུམས་སྨད(༢༥)» bad (open question 6).
         ActivityList(
             "offerings_to_deities",
@@ -44,11 +68,12 @@ object WhiteBerylWorks {
         ActivityList("taking_a_new_home", good = Factors(dates = setOf(13)), bad = Factors()),
         // 8. The hearth, pp. 389–390: Anurādhā bad; «ཉི་མ་ཁྱི་ངན», the Ox day good only for a smith's hearth.
         ActivityList("setting_up_hearth_and_pillars", good = Factors(), bad = Factors(mansions = m(ANURADHA), animals = setOf(DOG))),
-        // 9. Opening the soil, taming oxen, p. 390: the dates read «དྲུག» where the box has ༤.
+        // 9. Opening the soil, taming oxen, p. 390: the 19th where the box is carved with its 4 (14); the 11th good and,
+        // with the 22nd and 29th, bad for breaking in oxen only, so neither side.
         ActivityList(
             "manuring_and_breaking_in_oxen",
-            good = Factors(dates = setOf(6, 16, 26), mansions = m(SHRAVANA)),
-            bad = Factors(dates = setOf(29)),
+            good = Factors(dates = setOf(1, 6, 16, 19, 25, 26), mansions = m(SHRAVANA)),
+            bad = Factors(),
         ),
         // 11. Feasts, p. 391: «ཉི་མ་ཁྱི་ཕག་བཟང».
         ActivityList("feasts", good = Factors(animals = setOf(PIG)), bad = Factors()),
@@ -64,6 +89,19 @@ object WhiteBerylWorks {
             good = Factors(mansions = m(PURVASHADHA, UTTARABHADRAPADA)),
             bad = Factors(animals = setOf(SNAKE)),
         ),
+        // 14. Giving and taking goods, p. 395: the 19th where the box has the 20th, and three dates of one month each,
+        // «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན…», which the box names as its three «ཟླ་ཚེས». The good run «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as the
+        // editors number it, the 21st and the 25th (open question 156).
+        ActivityList(
+            "receiving_wealth",
+            good = Factors(),
+            bad = Factors(dates = setOf(19), monthDates = MONTH_DATES),
+        ),
+        ActivityList(
+            "sending_out_wealth",
+            good = Factors(),
+            bad = Factors(dates = setOf(19), monthDates = MONTH_DATES),
+        ),
         // 15. Planting, p. 396: both khrums good; the khon trigram avoided.
         ActivityList("planting_trees_and_flowers", good = Factors(mansions = m(UTTARABHADRAPADA)), bad = Factors(trigrams = setOf(KHON))),
         // 17. Tents and felt, p. 396: Tuesday bad; «སྒྲོག(༢༣)» where the box has mon gre.
@@ -72,8 +110,8 @@ object WhiteBerylWorks {
         ActivityList("building_storehouses", good = Factors(), bad = Factors(mansions = m(KRITTIKA, BHARANI))),
         // 19. Banners, p. 397: Tuesday bad.
         ActivityList("raising_banners", good = Factors(), bad = Factors(weekdays = setOf(TUESDAY))),
-        // 23. Sowing, p. 400: «བཅོ་བརྒྱད་བཅུ་དགུ» good, «ཉེར་བརྒྱད» bad.
-        ActivityList("sowing", good = Factors(dates = setOf(18, 19)), bad = Factors(dates = setOf(28))),
+        // 23. Sowing, p. 400: «བཅོ་བརྒྱད་བཅུ་དགུ» good, the 14th and «ཉེར་བརྒྱད» bad, both of which the box prints in both halves.
+        ActivityList("sowing", good = Factors(dates = setOf(18, 19)), bad = Factors(dates = setOf(14, 28))),
         // 24. Gifts and dowries, p. 401: «སྤར་ཁ་ཁེན» avoided.
         ActivityList("giving_gifts_and_dowries", good = Factors(), bad = Factors(trigrams = setOf(KHEN))),
         // 26. Treating horses, p. 401.
@@ -84,40 +122,52 @@ object WhiteBerylWorks {
         ),
         // 30. Dogs, p. 402: khrums smad among the best.
         ActivityList("raising_dogs", good = Factors(mansions = m(UTTARABHADRAPADA)), bad = Factors()),
-        // 31. Writing and astrology, p. 402: the 22nd good with the 18th.
-        ActivityList("learning_writing_and_astrology", good = Factors(dates = setOf(22)), bad = Factors()),
-        // 33. Bloodletting and moxa, pp. 403–404.
+        // 31. Writing and astrology, p. 402: the 22nd good with the 18th, «ཚེས་གཅིག་དྲུག» the 1st and the 6th bad, the link
+        // formation good.
+        ActivityList(
+            "learning_writing_and_astrology",
+            good = Factors(dates = setOf(22), links = setOf(Link.FORMATION)),
+            bad = Factors(dates = setOf(1, 6)),
+        ),
+        // 32. Medicine, p. 403: the sme ba «བཞི་ལྗང», the green four, where the box prints ༩.
+        ActivityList("preparing_medicine", good = Factors(smeBa = setOf(4)), bad = Factors()),
+        // 33. Bloodletting and moxa, pp. 403–404: the trigram li bad, as the box has it.
         ActivityList(
             "bloodletting_and_moxibustion",
             good = Factors(dates = setOf(11)),
-            bad = Factors(weekdays = setOf(SUNDAY, SATURDAY), dates = setOf(4), mansions = m(UTTARABHADRAPADA)),
+            bad = Factors(weekdays = setOf(SUNDAY, SATURDAY), dates = setOf(4), mansions = m(UTTARABHADRAPADA), trigrams = setOf(LI)),
         ),
-        // 34. Bathing and washing the hair, p. 404.
-        ActivityList("bathing_and_washing_the_hair", good = Factors(mansions = m(ANURADHA)), bad = Factors(animals = setOf(DOG, TIGER))),
+        // 34. Bathing and washing the hair, p. 404: the link ageing and death good.
+        ActivityList(
+            "bathing_and_washing_the_hair",
+            good = Factors(mansions = m(ANURADHA), links = setOf(Link.AGEING_AND_DEATH)),
+            bad = Factors(animals = setOf(DOG, TIGER)),
+        ),
         // 36. Enthronement, p. 405: the box names no dates. 8–10 are good, and banned by the Chinese reckoning.
         ActivityList(
             "enthronement",
             good = Factors(dates = setOf(1, 2, 11, 12, 13, 15, 18)),
             bad = Factors(dates = setOf(6, 7, 16) + (19..30)),
         ),
-        // 38. Servants, p. 406: the box has the 4th bad and the 14th good, the chapter the reverse.
+        // 38. Servants, p. 406: the box has the 4th bad and the 14th good, the chapter the reverse; the link feeling good.
         ActivityList(
             "taking_servants",
-            good = Factors(dates = setOf(4, 5, 16, 24)),
+            good = Factors(dates = setOf(4, 5, 16, 24), links = setOf(Link.FEELING)),
             bad = Factors(dates = setOf(3, 6, 7, 9, 10, 11, 12, 13, 14, 21, 22, 23, 25, 26, 27, 28, 29, 30), trigrams = setOf(KHON)),
         ),
-        // 39. Marriage, p. 412: Svātī good (the box names it twice); 14 and 7, good by another system, banned here.
-        ActivityList("marriage", good = Factors(mansions = m(SVATI)), bad = Factors(dates = setOf(14, 18, 22))),
+        // 39. Marriage, p. 413: Svātī good (the box names it twice); «བཅོ་བརྒྱད་དགུ» the 18th and the 9th; 14 and 7, good by
+        // another system, banned here.
+        ActivityList("marriage", good = Factors(mansions = m(SVATI)), bad = Factors(dates = setOf(9, 14, 18, 22))),
         // 40. Ornaments, p. 413: the zin trigram good.
         ActivityList("putting_on_ornaments", good = Factors(trigrams = setOf(ZIN)), bad = Factors()),
         // 41. Funerals, p. 414: the 22nd among the bad dates.
         ActivityList("funerals", good = Factors(), bad = Factors(dates = setOf(22))),
         // 42. Supports and temples, p. 414.
         ActivityList("setting_up_supports", good = Factors(mansions = m(UTTARABHADRAPADA)), bad = Factors()),
-        // 45. Fire offerings, pp. 417–418: Wednesday only acceptable.
+        // 45. Fire offerings, pp. 417–418: Wednesday only acceptable; the link contact good, plainly.
         ActivityList(
             "fire_offerings",
-            good = Factors(dates = setOf(3, 13, 23, 18, 28, 29), mansions = m(VISHAKHA), animals = setOf(TIGER, BIRD)),
+            good = Factors(dates = setOf(3, 13, 23, 18, 28, 29), mansions = m(VISHAKHA), animals = setOf(TIGER, BIRD), links = setOf(Link.CONTACT)),
             bad = Factors(weekdays = setOf(MONDAY), dates = setOf(2, 12, 22, 17, 27), mansions = m(ARDRA)),
         ),
         // 46. Suppressing sri, p. 418: the box names no dates.
@@ -179,7 +229,7 @@ object WhiteBerylWorks {
             good = Factors(dates = setOf(29), mansions = m(PURVASHADHA, CITRA, ASHVINI), animals = setOf(DRAGON)),
             bad = Factors(dates = setOf(2, 6), animals = setOf(TIGER)),
         ),
-        // 55. Rain, p. 423: the mansions with water in them good, these bad, where the box has them good.
+        // 55. Rain, p. 423: the mansions with water in them good, these bad, as the box read on the scan has them (O10f).
         ActivityList(
             "bringing_rain",
             good = Factors(mansions = m(PUNARVASU, VISHAKHA)),
@@ -391,22 +441,26 @@ object WhiteBerylWorks {
     /** The print's boxes with the chapter joined to each, then the chapter's own works, each with its rising signs. */
     fun join(boxes: List<ActivityList>): List<ActivityList> {
         val byWording = TO_BOXES.associateBy { it.wording }
-        require(byWording.keys.all { w -> boxes.any { it.wording == w } }) { "a work joined to no box" }
-        val joined = boxes.map { box -> byWording[box.wording]?.let { box.joined(it) } ?: box } + OWN
+        require((byWording.keys + NEITHER.keys).all { w -> boxes.any { it.wording == w } }) { "a work joined to no box" }
+        val joined = boxes.map { box ->
+            val wb = byWording[box.wording] ?: ActivityList(box.wording, Factors(), Factors())
+            box.joined(wb, NEITHER[box.wording] ?: Factors())
+        } + OWN
         require(SIGNS.keys.all { w -> joined.any { it.wording == w } }) { "rising signs for no work" }
         return joined.map { a -> SIGNS[a.wording]?.let { (g, b) -> ActivityList(a.wording, a.good.copy(signs = g), a.bad.copy(signs = b)) } ?: a }
     }
 
-    private fun ActivityList.joined(wb: ActivityList) =
-        ActivityList(wording, good = good.joined(wb.good, wb.bad), bad = bad.joined(wb.bad, wb.good))
+    private fun ActivityList.joined(wb: ActivityList, neither: Factors) =
+        ActivityList(wording, good = good.joined(wb.good, wb.bad, neither), bad = bad.joined(wb.bad, wb.good, neither))
 
-    private fun Factors.joined(add: Factors, take: Factors) = Factors(
-        weekdays = weekdays - take.weekdays + add.weekdays,
-        dates = dates - take.dates + add.dates,
-        mansions = (mansions - take.mansions.toSet() + add.mansions).distinct(),
-        animals = animals - take.animals + add.animals,
-        trigrams = trigrams - take.trigrams + add.trigrams,
-        smeBa = smeBa - take.smeBa + add.smeBa,
-        links = links - take.links + add.links,
+    private fun Factors.joined(add: Factors, take: Factors, neither: Factors) = Factors(
+        weekdays = weekdays - take.weekdays - neither.weekdays + add.weekdays,
+        dates = dates - take.dates - neither.dates + add.dates,
+        mansions = (mansions - take.mansions.toSet() - neither.mansions.toSet() + add.mansions).distinct(),
+        animals = animals - take.animals - neither.animals + add.animals,
+        trigrams = trigrams - take.trigrams - neither.trigrams + add.trigrams,
+        smeBa = smeBa - take.smeBa - neither.smeBa + add.smeBa,
+        links = links - take.links - neither.links + add.links,
+        monthDates = monthDates - take.monthDates - neither.monthDates + add.monthDates,
     )
 }

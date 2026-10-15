@@ -158,7 +158,9 @@ class MonthEntriesTest {
 
     @Test
     fun `the table rebuilt from its first column has the cells read on the scan`() {
-        // Columns 1–15 (img. 198, the first block), read on the scan.
+        // Columns 1–15 (img. 198, the first block), as the step rule gives them. The print has «༢༧» in column 12 and «༨» in
+        // column 15 where the rule gives 29 and 2 (and «༡༣» in column 25, the desired part «༧» in column 18): digits of like
+        // shape, slipped alike on both scans (docs/sources/month-entries.md).
         assertEquals(listOf(27, 8, 19, 30, 11, 22, 3, 14, 26, 7, 18, 29, 10, 21, 2), rishiTable.take(15).map { it.first })
         assertEquals(listOf(5, 6, 7, 8, 9, 10, 11, 12, 0, 1, 2, 3, 4, 5, 6), rishiTable.take(15).map { it.second })
         assertEquals(listOf(19, 30, 11, 22, 3, 14, 25, 6, 17, 29, 10, 21, 2, 13, 24), pigTable.take(15).map { it.first })

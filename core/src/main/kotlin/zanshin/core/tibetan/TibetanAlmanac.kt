@@ -558,7 +558,7 @@ enum class ZodiacSign(val wylie: String) {
 
 /**
  * The combination period (*dus sbyor*) of each of the day's twelve hours: the
- * sign rising in it, after the *kun phan me long*'s table (§9, img. 79–80;
+ * sign rising in it, after the *kun phan me long*'s table (§9, img. 81–82;
  * docs/sources/combination-period.md). Its rows are the months, each with its
  * sign (the 3rd month Aries … the 2nd Pisces); at daybreak (ནམ་ལངས), the
  * first hour, the month's own sign rises, and each later hour the next sign.

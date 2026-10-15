@@ -253,8 +253,8 @@ class DaySummaryTest {
         // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24), 2018 before the mewa and
         // the link joined the trigram's voice (T2.25), 2006 before the White Beryl's days of the twelve links joined the
         // link's lists (T2.27), 2047 before making new clothes was told apart from putting them on, and sewing tents
-        // from both.
-        assertEquals(1946, against)
+        // from both, 1946 before the corrections from the readings (T2.28).
+        assertEquals(1945, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -302,12 +302,13 @@ class DaySummaryTest {
         val ardra = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 11, 1)))
         assertEquals(listOf("Fire – Water", "Ārdrā", "Viṣṭi"), ardra.activities.single { it.activity == Activity.KILLING }.good.map { it.kanji })
         // 28 January 2026, Kṛttikā: its verse avoids war and raids (p. 314); Wednesday and the snake (chapter 34, p. 421)
-        // agree, the demon king, weaker than both, is outweighed. The Zon trigram avoids war too, but the day's link,
-        // the sense sources, names taking a town good (p. 353), so the trigram's voice is silent on it.
+        // agree. The demon king, weaker than both, is outweighed, and so are the Zon trigram, good for military training
+        // in the box's good column (KP box 53, O1), and the day's link, the sense sources, which names taking a town
+        // good (p. 353).
         val krittika = DaySummary.of(TibetanCalendar.of(LocalDate.of(2026, 1, 28)))
         val war = krittika.activities.single { it.activity == Activity.WAR }
         assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), war.avoid.map { it.kanji })
-        assertEquals(listOf("Demon king"), war.outweighed.map { it.kanji })
+        assertEquals(listOf("Demon king", "Zon", "Sense sources"), war.outweighed.map { it.kanji })
         assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
         // The Zhol print reads «དྲ་གྱོན», cutting and wearing new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
         val verse = Texts.MANSION.getValue(Mansion.KRITTIKA)
