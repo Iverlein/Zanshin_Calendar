@@ -75,8 +75,8 @@ counts as one element: the *Moonbeams*, p. 493, «མཁའ་རི་རླུ
 *Moonbeams* f. 12a) makes it the mother's trigram of the year of the
 birth, found from the mother's age; WB's chapter 22 and the *Moonbeams*
 (f. 9a in Dharmaśrī's own print) say the same, read on the scans in
-*The birth reckoning and the natal trigram (RD13)* below; it is not
-built.
+*The birth reckoning and the natal trigram (RD13)* below; built with
+block 29 (ROADMAP P2, SPEC §5.9.1).
 
 **The sectors of growth and decline** (p. 258, img. 268, l. 7–21; Yigdzin-1, read on the scan line by line, O10d), with the mother, son, friend and enemy of each element:
 
@@ -1163,12 +1163,26 @@ Read on the scan, O10d (2026-10-13); RD14 had them from Yigdzin-1 and the etext:
 | The births on the trigrams, ff. 180b–182a (pp. 286–288) | the mother's birth year | the natal trigram | the forefathers' fault and generations, the child's character, home and tomb, god and harm |
 | The *dza zor* of birth luck (pp. 412–413) | both parents' birth years and clans | the parents in the current year's triad five back | a child born then; read on the scan (O10d) |
 
+### Built (block 29, 2026-10-15)
+
+From this section and RD13 (ROADMAP P2, SPEC §5.9.1): the natal trigram
+with the births on the eight trigrams as its readings; the progressed sign
+on another's year (p. 388; the "white year" and its seventh left out,
+question 92); the spouses' obstacle and the bridge's end (p. 390, the
+notes p. 492); the secret obstacle's first clause, the trigram of the year
+on the natal trigram (its li and kham clause left out, question 91); both
+spouses on the two-black (p. 409). Left out: the forefathers' tomb
+obstacle (question 90), the dead's obstacle (WB rejects it), the
+household's pebble round, piled trigrams and gathered mewa (questions 96
+and 158), the members' natal trigrams of p. 399 ("another view"), and the
+parents' nine-multiples (no clan is asked).
+
 ### Open
 
-Open questions 90–96 ([open-questions.md](open-questions.md)), in order: the
+Open questions 90–96 and 158 ([open-questions.md](open-questions.md)), in order: the
 forefathers' tomb obstacle; the secret obstacle's «མ་སྤར»; the white year;
 «རྐྱ་མདའ», «ར་འབད», «རུ་ཤན་ཁ་སྤྲོད»; «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན»; the notes' «མ» on p. 493;
-who counts as the household.
+who counts as the household; how many members make a pile.
 
 - Doubt: «གྱོས་པོ» (p. 286, img. 296) rests on Yigdzin-1; the scan's letter is not clear.
 - The *dza zor* of birth luck (pp. 412–413) and the notes' pp. 493–494 lines quoted above were read on the scan by O10d (2026-10-13).
@@ -1185,8 +1199,10 @@ who counts as the household.
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's
-  trigram at the birth (WB p. 326) the father's: whether the app should
-  ask for them is the owner's call (RD13 above).
+  trigram at the birth (WB p. 326) the father's: the app asks for both
+  among a person's relatives since P1 (2026-10-15), and the natal trigram
+  is built (P2); the father's trigram at the birth waits on the birth
+  reckoning (ROADMAP R).
 - The four counted signs of the progressed sign: which of the counted
   sign's aspects WB means.
 - The Chinese pebble divination (pp. 416–452) is read only far enough to

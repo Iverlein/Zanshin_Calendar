@@ -1225,3 +1225,11 @@ the text, not about the app.
      reading of its own? (2026-10-14, O10,
      [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
 
+
+158. **How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,
+     the household's trigrams of the year "piled" on one trigram, and
+     p. 407, «ཁྱིམ་ནང་གཅིག་དཀར་མང་ཚོགས་ན», many members on one mewa. Is a
+     pile two members, as the spouses' obstacle on one trigram (p. 390)
+     is, or more than two, and is it counted over the house's members
+     only (question 96)? (2026-10-15, block 29,
+     [year-of-life.md](year-of-life.md), *The household's trigrams piled up*)

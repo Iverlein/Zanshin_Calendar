@@ -83,7 +83,7 @@ moves up as soon as it is unblocked.
 | <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) decided the same day) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
-| <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
+| <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
@@ -2906,7 +2906,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   and fixed in the build: the keyboard came back over the person's
   dialog when the relatives closed, covering Save.
 
-### <a id="p2"></a>P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11
+### <a id="p2"></a>P2. The natal trigram and the spouses' and the dead's obstacles — planned 2026-10-11, built 2026-10-15 (SPEC §5.9.1)
 
 - **Gap.** Left by T4 (block 13) for want of other people's signs
   ([year-of-life.md](sources/year-of-life.md)): the natal trigram (*skyes
@@ -2923,6 +2923,33 @@ groups it shows (`tools/emulator/store_shots.py`).
   (P1) and [28](#block-28) (R1).
 - **Done when.** Vectors from Dorje's charts where they give them;
   `CatalogTest`; SPEC §5.9.1; both languages.
+- **Built 2026-10-15** (block 29, SPEC §5.9.1): `Kin.kt` in the core
+  (`Kin`, `KinReckoning`, `KinObstacle`) and `Reckonings.kin` from the
+  person's tree. The natal trigram, a row among the year's signs reading
+  WB's births on the eight trigrams (pp. 286–288), or a note asking for the
+  mother's birth year; the obstacles with a relative, among the year's: the
+  progressed sign on the wife's, husband's, father's or son's birth year
+  and on a parent's death year (p. 388), the spouses' obstacle and the
+  bridge's end (p. 390, the notes p. 492), the secret obstacle's first
+  clause (p. 390), both spouses on the two-black (p. 409), each row naming
+  the relative. Two families in the shape with no allowance (`NatalTrigram`,
+  `KinObstacle`, item P2 in `CatalogTest`); the harsh years' note lost its
+  sentence about the app (X10 173). Dorje gives no worked natal trigram
+  (his mother's 34th year at li fits neither count, year-of-life.md), so
+  the vectors are the Moonbeams' count and WB's circuits worked by hand,
+  anchored on chart 6.2's man (`KinTest`, 5 tests; `ReckoningsTest`, the
+  tree read as kin). Left out, each on its open question: the tomb
+  obstacle (90), the secret obstacle's li and kham (91), the white year
+  (92), the household's pebbles, piled trigrams and gathered mewa (96,
+  158); the dead's obstacle, which WB rejects; the births by the natal
+  trigram against the life force and the parents' trigrams at the birth
+  (pp. 294, 326) go with the birth reckoning (R2…). Checked on the emulator
+  in English and Russian (a man of 1976 with a mother of 1950, a wife of
+  1988, a father dead in 1988 and a brother in the house: the lake trigram
+  natal, four obstacles, their sheets; no relatives: the note); the
+  sheets' gloss line no longer reads " · unlucky" for an entry without a
+  gloss of its own; store shot 7 retaken in both languages with a mother
+  entered; the release build checked.
 
 ### <a id="p3"></a>P3. The bride's departure — planned 2026-10-11
 

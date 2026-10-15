@@ -419,17 +419,50 @@ mixed, as WB reads them good, and the progressed sign on a tomb mixed,
 "slightly bad"), the progressed sign's gains lucky and its
 doors and fives unlucky; mewa and trigram no tone.
 
+**With the relatives** (§10.5; ROADMAP P2, `Kin.kt`, `KinReckoning`;
+`Reckonings.kin` takes the mother, father, spouses and children entered
+under the person, and anyone of the household further out). The **natal
+trigram** (*skyes spar*) is the mother's trigram of her year of age in the
+year of the birth, a woman's circuit from kham towards khen, one a year:
+"take the child's year from the mother's, add one, and turn the mother's
+trigram that many times" (the Moonbeams, f. 9a; WB ch. 22, p. 261, "the
+trigram one is born on is the mother's luck", the notes, vol. 2, p. 476).
+It is a row among the signs, without tone, reading WB's births on the
+eight trigrams (ch. 22, pp. 286–288: the forefathers' fault, the nature of
+the one born on it, the gods and the spirits that harm); with no mother's
+birth year, a note says where to enter it. The **obstacles** join the
+year's, each unlucky, its row naming the relative (WB ch. 24): the
+progressed sign on another's birth year, from either side (p. 388): the
+husband's on the wife's, the wife's on the husband's, the son's on the
+father's, the father's on the son's (a son is a male child), and the
+person's on the year a parent died; husband and wife on one trigram of
+the year (*bza' shug*, p. 390), and two others of the household on one,
+the lesser fault of the bridge's end (*zam thug*, the notes, p. 492); the
+secret obstacle (*gsang keg*), the trigram of the year on the natal
+trigram (p. 390), its rites by whether the mother lives; and both spouses'
+mewa of the year on the two-black (p. 409). A relative's own trigram,
+progressed sign and mewa of the year need their birth year (their gender
+for the first two) and that they live; a spouse or father who has died
+brings none of them. Tested in `KinTest` and `ReckoningsTest`.
+
 **Not calculated**, for want of data the app does not ask for or of a
-clear rule ([sources/year-of-life.md](sources/year-of-life.md)): the natal
-trigram, which is the mother's trigram in the year of the birth, and the
-secret obstacle that needs it; the obstacles of spouses, parents and the
-dead; the four counted signs of the progressed sign (lifeline, peg, sky
-and earth extension); the clan's nine-multiple (no clan is asked); the
+clear rule ([sources/year-of-life.md](sources/year-of-life.md)): the
+secret obstacle's second clause, the son's on li and the daughter's on
+kham (open question 91, whose trigram «མ་སྤར» is); the forefathers' tomb
+obstacle (*dur keg*, question 90, whose signs at death); the progressed
+sign on the "white year" (question 92); the dead's obstacle of seven
+generations, which WB rejects; the household's pebble round, the
+household's trigrams piled and its mewa gathered by colour (questions 96
+and 158: who counts, and how many make a pile); the births by the natal trigram
+against the life force and the parents' trigrams at the birth (ch. 22,
+pp. 294, 326), which belong to the birth reckoning (ROADMAP R); the
+four counted signs of the progressed sign (lifeline, peg, sky and earth
+extension); the clan's nine-multiple (no clan is asked); the
 readings of the mewa's nine-multiple by kind of person, which WB gives as
 what "some hold"; the tomb days of the month (the 6th, 18th and 30th),
-which are days, not years, and have no reading; the household readings;
-and the Chinese pebble divination that ends the chapter (pp. 416–452),
-a casting, not a reckoning.
+which are days, not years, and have no reading; and the Chinese pebble
+divination that ends the chapter (pp. 416–452), a casting, not a
+reckoning.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -2456,8 +2489,8 @@ canvas "Zanshin Calendar — basic design".
   entered under them, as the dialog says. At most 60 relatives a person.
   No clan: only some families have one (the owner, 2026-10-15), so the
   reckonings that ask for it (ch. 22, 23, 29) go without. What the
-  readings ask of each relative is in ROADMAP P1 (RD13–RD16); no reading
-  uses them yet. Stored as the `relatives` preference, one relative per
+  readings ask of each relative is in ROADMAP P1 (RD13–RD16); the year
+  of age reads them since P2 (§5.9.1). Stored as the `relatives` preference, one relative per
   line, by tabs: the person's index, the relative's id, the id they are
   entered under (`-` for the person), the relation (`MOTHER`, `FATHER`,
   `SPOUSE`, `CHILD`, `SIBLING`, `HOUSEHOLD`), the name, the gender (`m`,
