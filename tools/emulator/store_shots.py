@@ -8,7 +8,7 @@
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
 3. The Saga Dawa Düchen reading sheet, opened from the heading
 4. The 旧暦 almanac bands, from 中段 down
-5. The menu over the 旧暦 page
+5. The menu over the 旧暦 page, its Calendar and Practice groups opened, Settings left closed
 6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset
 7. The year of age of a man born 1976-06-01 (a fire dragon year, chart 6.2's
    subject) in 2026, opened from the year's balloon on 2026-10-23 in Lhasa
@@ -35,9 +35,11 @@ from emu import BIRTH_1976_06_01, KYOTO, LHASA, adb, nodes, prefs, language, res
 
 LABELS = {
     "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$",
-           "year": r"^Fire Horse year$", "year_of_age": r"year of age", "person": "Tenzin"},
+           "year": r"^Fire Horse year$", "year_of_age": r"year of age", "person": "Tenzin",
+           "calendar": r"^CALENDAR$", "practice": r"^PRACTICE$"},
     "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$",
-           "year": r"Огонь-Лошадь$", "year_of_age": r"год жизни", "person": "Тензин"},
+           "year": r"Огонь-Лошадь$", "year_of_age": r"год жизни", "person": "Тензин",
+           "calendar": r"^КАЛЕНДАРЬ$", "practice": r"^ПРАКТИКА$"},
 }
 
 # The timer's presets for shot 6, named in the listing's language; the zazen is the plan set.
@@ -137,10 +139,14 @@ try:
     adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
     adb("shell", "input", "swipe", "540", "700", "540", "2000", "150")
     tap_at(find(labels["menu"], desc=True))
+    # The groups are closed on a fresh install (ROADMAP H3): two opened, one left closed, so the shot shows both.
+    tap_at(find(labels["calendar"]))
+    tap_at(find(labels["practice"]))
     shot(5)
 
     day("10230900", 2026, "KYUREKI", KYOTO, strings={"sit_plan": ZAZEN, "sit_presets": PRESETS[lang]})
     tap_at(find(labels["menu"], desc=True))
+    tap_at(find(labels["practice"]))
     tap_at(find(labels["meditation"]))
     shot(6)
 

@@ -236,7 +236,10 @@ day by day against Henning's computed calendars (§9):
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
-| Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The element's mansions (p. 330, tables p. 345) and the mansion of conception (no source defines it) are not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
+| Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The mansion of conception (no source defines it) is not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
+| The element's mansions | WB vol. 2, p. 330, with the tables pp. 345–346 (`Health.quarter`, ROADMAP H1): the day's mansion as a quarter of the element of the birth year's life force, counted as the weekdays are: the six eastern mansions from Kṛttikā (2–7) wood, the six southern (9–14) fire, the six western (16–21) iron, the six northern (22–26 and Aśvinī) water, the four between (Bharaṇī, Āśleṣā, Viśākhā and Abhijit) earth; own (good for anything), mother and friend (good), child (middling, no dot), enemy (no reading of its own, no dot; "every work avoided" is the enemy weekday's, p. 338). The tables print 21 both among the western six and among earth's four; WB vol. 1, p. 232 ends the western six with Śravaṇa and names Abhijit among the four, so a day in Śravaṇa is iron's and earth's fourth falls on no day. The great and small grave mansions of each element, all among earth's four (wood Viśākhā and Bharaṇī, fire Abhijit and Āśleṣā, earth Āśleṣā and Abhijit, iron Bharaṇī and Viśākhā, water Āśleṣā and Abhijit), are reckoned for the dead and have no reading for the living's day; shown on the Health screen (§10.10), not weighed; needs a birth date |
+| The la | Its element the mother of the life force's (WB vol. 1, p. 253: water for wood, fire for earth); its place by the lunar date, the Phugpa list of WB vol. 2, p. 303, as the lunar date's reading gives it; its course within any day (p. 304): both feet at daybreak, the neck at sunrise, the hollow of the nape early in the morning, the lips late in the morning, the middle of the chest at noon, the navel early in the afternoon, the heart late in the afternoon, the back towards evening, both feet at sunset, spread above the navel from dusk to daybreak, the verse's times and not the clock's; where it stands, bloodletting, moxibustion and other treatment are avoided ([sources/health.md](sources/health.md), RD10) |
+| The day's illness | What falling ill on the day means, as Illness rows of three readings: the lunar date's, dates 1–8 with lines of their own and every later date the same as one of them in a round of eight (WB vol. 2, pp. 297–302; the 9th as the 1st, the 30th as the 6th), the 8th, 15th, 22nd and 30th marked as the four perilous days (p. 302); the weekday's (pp. 308–312); the link's, how long the illness runs (pp. 351–356). Doubtful words are left out (the date's «ཀླུ་གྲ», the rites of the 1st's last line) ([sources/health.md](sources/health.md)) |
 
 **The times within the day** (`DayTimes`; the White Beryl, vol. 1,
 pp. 177–178 and ch. 15, pp. 180–182; [sources/almanac-page.md](sources/almanac-page.md),
@@ -1008,7 +1011,7 @@ voices, so that the tone and the lists cannot go separate ways.
   voice's dot is solid: the other rows' dots are outlines, so that the
   column of dots reads as each voice's own tone and not as a count of
   sides, which the White Beryl does not make (above). What is shown but not weighed stands apart: the person's
-  own days and mansions in "Your day", with vitality and body; the
+  own days and mansions in "Your day", the vitality and body on the Health screen (§10.10); the
   *bla mkhyen*, the great black day and the earth lords' courses (§5.13) in "Also today". The nectar periods, times within the day
   (§5.13), are in the brief's "By the hour" and on the hours panel, not
   in the Almanac.
@@ -1885,6 +1888,9 @@ name both. Sewing tents is a third, beside pitching them.
 | The eclipses, by the *byed rtsis* | The White Beryl, Beijing 1996, vol. 1, ch. 4, pp. 31–32, and ch. 9, pp. 59, 62 and 65 (BDRC MW2CZ8040); checked against Jean Meeus, *Astronomical Algorithms*, 2nd ed., ch. 54 |
 | The letters of the day: the Kālacakra's and the *dbyangs 'char*'s vowels and consonants, the stage, the twelve links, the hundred feet | The White Beryl, Beijing 1996, vol. 1, pp. 16–19, 97–98, 150–153 and 173–178, with the Zhol print (BDRC MW1KG1617) for the table and the model almanac (BDRC MW2CZ8040) |
 | The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
+| The element's mansions and grave mansions | The White Beryl, Beijing 1996, vol. 2, p. 330 and the tables pp. 345–346, with vol. 1, p. 232 for Abhijit (BDRC MW2CZ8040) |
+| The la's element, course and the illness of the day; the year of age on the seven-red | The White Beryl, Beijing 1996, vol. 1, pp. 253 and 403–404, vol. 2, pp. 297–304, 308–312 and 351–356 (BDRC MW2CZ8040) |
+| The humours and the seasons (the Health screen's Medicine tab) | The Four Tantras (རྒྱུད་བཞི, rgyud bzhi), the Serthang print, Root Tantra ch. 3 and 6, Explanatory Tantra ch. 14 (BDRC MW3CN5036) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
 
@@ -2270,14 +2276,9 @@ canvas "Zanshin Calendar — basic design".
   year, earth"), one row with each one's dot where there are two or more,
   titled "Your weekday" with their names under it, its sheet giving each
   reading in turn; the personal mansions (on the days the mansion is one
-  of one's six) and the birth mansion. Then the vitality and body of the
-  birth year against those of the lunar date (§5.9), one row each: the aspect, its pebbles, the relation and both
-  elements ("Body ××, enemy: the day's water to your fire"). A row opens
-  the relation's reading, then how it was worked out: the lunar date's and
-  month's signs, the year's, how the month's and date's elements are
-  counted, the day's element, yours and the relation.
-  The tone dot is lucky for white pebbles only, unlucky for black only,
-  mixed for both.
+  of one's six) and the birth mansion; the hundred feet. Last a row
+  "Health" that opens the Health screen on the day (§10.10), where the
+  vitality and body of the date stand since ROADMAP H1 (2026-10-15).
 - **Also today:** after Your day, what the day holds that the weighing
   does not count: the *bla mkhyen*'s direction (§5.11), with its compass,
   and on its dates the great black day (§5.11), its title the meeting of
@@ -2397,7 +2398,7 @@ canvas "Zanshin Calendar — basic design".
 - A **burger button, top left**, opens a menu that slides out from the left
   as a full-height column, scrolling when it does not fit, in groups under
   small capital labels, a line between groups: **Calendar** (the two
-  calendars and Choose a day), **Practice** (Meditation, §10.9),
+  calendars, Choose a day and Health), **Practice** (Meditation, §10.9),
   **Settings** (location, people, nine-star reading, language), and
   About & sources alone at the foot. About & sources lists the
   calendars' methods, the readings' sources and licences, and, under
@@ -2458,6 +2459,17 @@ canvas "Zanshin Calendar — basic design".
   screen. Until U8 the place stood on a second line, the two about 110 dp.
 - **Choose a day**, under the two calendars: the election (§10.8) of the
   calendar shown, from the shown day, its work not yet picked.
+- **Health**, under Choose a day: the Health screen (§10.10) on the
+  shown day.
+- **The groups fold** (ROADMAP H3, built 2026-10-15): each group's label
+  is a header row with a chevron that turns, a button with its state
+  ("open", "closed") for screen readers; a tap opens or closes its rows
+  with an animation of the height. Every group is closed on a fresh
+  install, and each keeps the state it was last left in, apart from the
+  others, across the menu's closing and the app's restart (preferences
+  `menu_calendar`, `menu_practice`, `menu_settings`). About & sources
+  stands alone at the foot, always shown. A group added later starts
+  closed.
 
 ### 10.6 Deferred until the basic design is set
 
@@ -2705,6 +2717,52 @@ carries no sound file.
 - No network: the §2 rule holds; the permissions added are the
   foreground service's, the wake lock, notifications, exact alarms and
   boot.
+
+### 10.10 The Health screen
+
+The Tibetan day's illness, the la and the person's element on a screen
+of their own (ROADMAP H1, built 2026-10-15; [sources/health.md](sources/health.md)),
+opened from the menu (§10.5) and from Your day's last row (§10.3) on
+the day shown there. Its header has Back, the title and the date, and
+the day before and after. Under it four tabs by subject, and a line:
+the readings are the tradition's, not medical advice.
+
+- **Today:** "Falling ill today", one row whose sheet gives in turn the
+  date's, the weekday's and the link's Illness rows (§5.8, *The day's
+  illness*) and the goddess of the day (§5.11); on the four perilous
+  days its dot is unlucky and its line says so. "The la today": the
+  la's place by the date, its sheet the course within the day (§5.8,
+  *The la*).
+- **You** (with a person chosen; else the way to People): the day's
+  mansion as a quarter of the life force's element, with its reading;
+  the grave mansion where the day's is one; the la's element; the
+  vitality and body of the date against the birth year (§5.9; until
+  H1 in Your day), each row as before: the aspect, its pebbles, the
+  relation and both elements, its sheet the relation's reading and how
+  it was worked out, the dot lucky for white pebbles only, unlucky for
+  black only, mixed for both; in a year of age whose mewa is the
+  seven-red, its reading by the colour alone (WB vol. 1, pp. 403–404:
+  the full round avoids bloodletting and moxa that year, the short one
+  says they will be done; born under the two-black, p. 405 in the year
+  sheet makes moxa good and bloodletting bad, and WB says not which
+  leads).
+- **Treatment:** the medical works (`ActivityFamily.MEDICINE`) as the
+  person's day page gives them (§5.12), each with the voices on its
+  side and their readings; on the person's day of every work avoided
+  that first, and no work good.
+- **Medicine:** what the Four Tantras add and the White Beryl does not
+  reckon, with the grey dot (`Tone.NEUTRAL`; the owner, 2026-10-11):
+  the three humours, the season and the two times each one's illness
+  rises, its people and its country and conduct (Root Tantra ch. 3 and
+  6), and the six seasons' food and conduct (Explanatory Tantra
+  ch. 14), read on the Serthang print (RD9). Neither names works, so
+  neither enters the weighing. Which season a Tibetan month is in is
+  not reckoned: no source read gives the seasons' months.
+
+Not built: Dr. Nida Chenagtsang's own tables, which are WB's but for the
+six moxa dates and the syllables (RD7–RD9), the la pulse (a sign read at
+the pulse, not by date), WB's illness reckoning (H2) and the mansion of
+conception.
 
 ## 11. Milestones and done criteria
 

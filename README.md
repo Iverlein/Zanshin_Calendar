@@ -32,6 +32,13 @@ readings of that day and sunrise, solar noon and sunset for your place.
   White Beryl's elemental divination: mewa, trigram and progressed sign,
   the pebbles with their predictions, growth and decline, and the year's
   obstacles.
+- **Health:** what falling ill today means by the date, the weekday,
+  the link and the goddess of the day, the four perilous days; where the
+  la sits by the date and moves through the day; the day's mansion as a
+  quarter of your element, the la's element, the vitality and body of
+  the date and the year of age on the seven-red; the medical works as
+  the day is weighed; and the Four Tantras' humours and seasons. The
+  tradition's readings, not medical advice.
 - **旧暦:** month and day, 六曜, the current solar term, moon phase, 十二直,
   二十八宿, 九星, 選日 and 暦注下段 (with the lower band's own rules), 雑節,
   干支 and 恵方.

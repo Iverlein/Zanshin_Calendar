@@ -39,11 +39,11 @@ alt = "Альманах 旧暦: 中段, 二十八宿, 暦注下段 и 選日, у
 [[shot]]
 file = "5.png"
 [shot.en]
-caption = "Calendars, practice and settings"
-alt = "The menu in groups: Tibetan or 旧暦 and Choose a day; Meditation; location, people, nine-star reading and language; about and sources"
+caption = "Calendars, practice and settings, in groups that fold"
+alt = "The menu in groups that fold: Tibetan or 旧暦, Choose a day and Health; Meditation; settings closed; about and sources"
 [shot.ru]
-caption = "Календари, практика и настройки"
-alt = "Меню по группам: тибетский календарь или 旧暦 и выбор дня; медитация; место, люди, чтение девяти звёзд и язык; о приложении и источниках"
+caption = "Календари, практика и настройки, в складных группах"
+alt = "Меню в складных группах: тибетский календарь или 旧暦, выбор дня и здоровье; медитация; настройки свёрнуты; о приложении и источниках"
 
 [[shot]]
 file = "6.png"

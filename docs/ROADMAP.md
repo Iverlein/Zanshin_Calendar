@@ -30,7 +30,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | A1 Light theme and colour themes | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
-| 12 | H1–H3 The health screen, and the menu's groups collapsible | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
+| 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the year of age moves there | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
@@ -80,7 +80,7 @@ moves up as soon as it is unblocked.
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
 | <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links — built 2026-10-15 | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
 | <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26), the owner's choice of how they are counted) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, their works counted as D4 says. |
-| <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
+| <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) for the owner) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
@@ -867,8 +867,8 @@ it. It is item E below, built 2026-10-09.
   матери» and the birth mansion), and with no birth date (no row).
 - **Left.** The element's mansions by the life force (p. 330, tables
   p. 345: own, mother, friend, child, enemy quarters and the grave
-  mansions), which would put a second row on every day: planned on the
-  Health screen (H1, 2026-10-11); the mansion of
+  mansions), which would put a second row on every day: built on the
+  Health screen (H1, 2026-10-15); the mansion of
   conception (no source defines it); E6's exception for the enemy weekday
   and the death mansion.
 
@@ -1285,7 +1285,7 @@ verdict, and the owner's decisions of 2026-10-10:
   friends gain feeling beside the horse, and 28 January's war loses the
   Zon trigram, the sense sources naming taking a town good. Left out, as
   the Work says or as the shape requires: the loss (no row holds it), the
-  illness (H1), p. 356's hours (question 19), and the unidentified words
+  illness (H1, built 2026-10-15 as the link's Illness row), p. 356's hours (question 19), and the unidentified words
   (day-letters.md, *What the app takes from them*). Checked on the
   emulator in both languages (contact's day, 2026-10-15).
 
@@ -2761,49 +2761,54 @@ menu's groups collapsible (H3).
   does not reckon, no works or no weight, is shown on its tab with a
   grey dot: it has some influence, and WB's weighing does not count it.
 
-### <a id="h1"></a>H1. The health screen — planned 2026-10-11
+### <a id="h1"></a>H1. The health screen — built 2026-10-15 (SPEC §5.8, §8.3, §10.3, §10.5, §10.10)
 
-- **What WB has.** Read on the scan where marked; the rest found in the
-  etext:
-  - the element's mansions by the life force (vol. 2, p. 330, tables
-    pp. 345–346, read: [personal-mansions.md](sources/personal-mansions.md),
-    *By element*): the own, mother, friend, child and enemy quarters and
-    the great and small grave mansions; the same table's weekdays are
-    built (T2.19);
-  - the la's place in the body by date (vol. 2, pp. 303–305, read and
-    built, T2.16, in the lunar date's sheet), and the hair dates (p. 404,
-    built, T2.15);
-  - the vitality and body of the date and the hour against the birth
-    year, the divination of health (built, SPEC §5.9: Your day and the
-    hours panel);
-  - the illness parts of the date's, weekday's, link's and day animal's
-    readings (vol. 2, pp. 297–312, 351–359; the links', read in RD1,
-    left by [T2.27](#t2-27) for this screen), and the trigram's goddesses (vol. 1, pp. 449–450,
-    built);
-  - bloodletting and moxa in the readings of the year of age's mewa
-    (vol. 1, pp. 403–405), to be checked against the year sheet (T4);
-  - the medical works the weighing already decides (taking and starting
-    medicine, treatment, surgery, bloodletting, making medicine:
-    `Activities.kt`).
-- **Work.** First a reading pass, WB (vol. 1, ch. 20, 21 and 25; vol. 2,
-  ch. 33) and Dr. Chenagtsang's works, for the movements of the la and
-  the life force (*srog*) through the body and for health and illness by
-  date, month, hour and age, into `docs/sources/health.md`, with what is
-  calculable and whose it is. Then the Health screen from the menu, in
-  tabs by subject as the reading sorts them: with a birth date, the day's
-  mansion as one of the element's quarters for the life force with
-  p. 330's reading, vitality and body (moved from Your day) and the la's
-  place; for everyone, the day's illness readings and the medical works'
-  sides as the weighing gives them; what the medical sources add, with
-  the grey dot where WB does not reckon it. Your day links to the screen.
-  Whether the enemy and grave mansions are absolute as the enemy weekday
-  is (E6) is settled from the text: p. 338 names the weekday only.
-- **Block.** [26](#block-26); reads [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10); builds on
-  [42](#block-42) for the shape its readings are written in ([X1](#x1)).
-- **Done when.** Vectors for the test birth date (1976-06-01, life force
-  earth); `CatalogTest`; SPEC §5.8, §8.3, §10.3, §10.5; both languages
-  on the emulator; one line on the screen that its readings are the
-  tradition's, not medical advice.
+The Health screen from the menu and from Your day, on the shown day, in
+four tabs: Today (falling ill today, by the date's round of eight with
+the perilous days, the weekday, the link and the goddess of the day; the
+la's place by the date and its course within the day), You (the day's
+mansion as a quarter of the life force's element, the grave mansions,
+the la's element, the vitality and body moved from Your day, the year
+of age on the seven-red), Treatment (the medical works as the person's
+day page gives them) and Medicine (the Four Tantras' humours and
+seasons with the grey dot), and a line that the readings are the
+tradition's, not medical advice. The illness lines are Illness rows of
+the date's, weekday's and link's readings, so the day page's sheets
+show them too. What WB has and what the readings found is in
+[sources/health.md](sources/health.md) (RD7–RD10, RD12).
+
+- **Settled from the text.** The enemy and grave mansions are not
+  absolute as the enemy weekday is (E6): p. 338 names the weekday only,
+  and neither mansion has a reading for the living's day (RD10); the
+  enemy quarter is shown with no dot, the grave mansions as reckoned for
+  the dead. The tables' 21 among earth's four is Abhijit (vol. 1,
+  p. 232), so earth's fourth and three grave mansions fall on no day.
+- **Checked.** `HealthTest` (the five tables of pp. 345–346 cell by
+  cell, the la's element, the round of eight, the test birth date
+  1976-06-01, life force earth, la fire, over 15–24 October 2026: child
+  mansions Anurādhā to Śravaṇa, friend Dhaniṣṭhā to Pūrvabhādrapadā);
+  `CatalogTest` with the new families held to the shape, no allowance
+  (H1), X4's allowance down to 24 with the dremo named one way;
+  `TranslationsTest`. On the emulator in English and Russian
+  (15 October 2026: Anurādhā a child mansion, the 5th's illness and the
+  hollow of the knee, the enemy weekday's day with no good work under
+  Treatment; 18 October, the 8th, a perilous day; 15 June 2027 with a
+  person born 1977-06-01, the seven-red and Citrā an own mansion).
+- **Left.** The six moxa dates and the syllables of Dr. Chenagtsang's
+  tables, which are not WB's (RD8, RD9); the la pulse, read at the pulse
+  and not by date; which Tibetan months the Four Tantras' seasons are,
+  which no source read gives, so the Medicine tab names no season as
+  today's; WB's illness reckoning (H2).
+- **D14, the owner's word first** (RD8, open questions 58 and 84,
+  [sources/health.md](sources/health.md), *KL's tables in WB*): the la's
+  place by date follows WB's Phugpa list (p. 303), as the lunar dates'
+  readings already did. Dr. Chenagtsang's course, the Tsuglag Rigje
+  column of Deumar's table with Mipham's crown and sole, differs on four
+  dates: the 4th the knee (WB the waist), the 10th the shoulder blade
+  (WB the top of the shoulder), the 15th the crown and whole body (WB the
+  shoulder blade), the 29th the instep (WB the shin). Whether the screen
+  keeps WB's alone, or gives his beside it with the grey dot, is the
+  owner's; until then WB's stands.
 
 ### <a id="h2"></a>H2. The illness reckoning — planned 2026-10-11
 
@@ -2819,39 +2824,19 @@ menu's groups collapsible (H3).
 - **Done when.** Vectors where Dorje or WB give a worked example;
   `CatalogTest`; SPEC; both languages.
 
-### <a id="h3"></a>H3. The menu's groups collapsible — planned 2026-10-11
+### <a id="h3"></a>H3. The menu's groups collapsible — built 2026-10-15 (SPEC §10.5)
 
-- **Gap.** The menu (SPEC §10.5) is one column in three groups, Calendar,
-  Practice and Settings, with About & sources at the foot, and today it
-  fits a phone screen. The Health screen (H1) adds a row, Reckonings (R1)
-  a group with a screen for each reckoning built, the themes (A1) a
-  settings row: the column scrolls, and the row wanted is below the fold.
-  The owner (2026-10-11): the groups collapsible, collapsed by default,
-  each remembering the state it was last left in.
-- **Work.** Each group's small-capital label becomes a header row that
-  opens and closes its group, with a chevron that turns to show the
-  state; the rows fold with an animation of the height; About & sources
-  stays alone at the foot, always shown, outside any group. On a fresh
-  install every group is closed; the state is kept per group in the
-  preferences (`Settings.kt`, one key per group, as the first-run
-  counters are), so a group opened stays open across the menu's closing
-  and the app's restart, and one closed stays closed, each apart from the
-  others. A new group (R1) starts closed as well. The page's calendar
-  toggle (U15) switches the calendar, so a closed Calendar group hides
-  nothing needed daily. Screen readers get each header as a button with
-  its expanded state. No reading: the headers are the groups' present
-  labels, the only new interface text the headers' descriptions.
-  SPEC §10.5.
-- **Block.** [26](#block-26), with H1, the first item that lengthens the
-  menu; no reading; waits on no build.
-- **Done when.** A fresh install on the emulator opens the menu with every
-  group closed and About & sources shown; a group opened stays open
-  across the menu's closing and a restart, one closed stays closed, each
-  apart from the others; TalkBack reads each header with its state; both
-  languages; `TranslationsTest`; SPEC §10.5; store shot 5 (the menu)
-  retaken in both languages, its caption in `screenshots.toml` saying
-  the groups fold, and `tools/emulator/store_shots.py` opening the
-  groups the shot shows.
+Each group's label is a header row with a turning chevron that opens and
+closes its rows; every group closed on a fresh install, each keeping its
+own last state in the preferences; About & sources outside the groups.
+Checked on the emulator: a fresh install opens the menu with the three
+groups closed and About & sources shown; the Calendar group opened stays
+open after the app is stopped and started, the other two closed; both
+languages; `TranslationsTest`. Each header is a button with its state
+("open", "closed") for screen readers; that TalkBack speaks it was not
+heard on the emulator, where injected taps and keys did not move
+TalkBack's focus into the drawer. Store shot 5 (the menu) opens the
+groups it shows (`tools/emulator/store_shots.py`).
 
 ## People
 
