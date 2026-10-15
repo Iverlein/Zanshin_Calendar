@@ -19,7 +19,7 @@ internal object MansionVerses {
     val LISTS: Map<Mansion, Pair<List<String>, List<String>>> = mapOf(
         ASHVINI to Pair(
             listOf(
-                "teaching_dharma", "ordination", "giving_vows", "prosperity_rites", "virtuous_acts", "new_clothes",
+                "teaching_dharma", "ordination", "giving_vows", "prosperity_rites", "virtuous_acts", "cutting_and_wearing_new_clothes",
                 "trade", "suppressing_sri", "war", "carrying_out_the_dead", "disputes", "building_a_hearth",
                 "raising_banners", "funeral_rites", "moving_a_grave", "cutting_hair_and_nails", "washing_the_hair",
                 "digging_ponds_canals_and_wells", "lawsuits", "bon_rites", "taming_livestock", "reconciliation",
@@ -43,7 +43,7 @@ internal object MansionVerses {
             ),
             listOf(
                 "offerings_to_deities", "building", "sowing", "temples", "making_images", "enthronement",
-                "honouring_a_spiritual_friend", "new_clothes", "astrology_and_divination", "building_storehouses",
+                "honouring_a_spiritual_friend", "cutting_and_wearing_new_clothes", "astrology_and_divination", "building_storehouses",
                 "paying_back", "burial", "averting_rites", "judging_disputes", "leading_an_army", "paying_in_goats",
                 "trade", "marriage_alliances", "setting_out", "pacifying_and_increasing_rites", "consecration",
                 "prosperity_rites", "planting_trees", "preparing_medicine", "bloodletting_and_moxibustion",
@@ -61,7 +61,7 @@ internal object MansionVerses {
             ),
             listOf(
                 "building", "paying_out", "setting_out", "funerals", "raising_banners", "opening_storehouses",
-                "digging_ponds_and_canals", "planting_fields", "opening_a_cellar", "new_clothes", "war_and_raids",
+                "digging_ponds_and_canals", "planting_fields", "opening_a_cellar", "cutting_and_wearing_new_clothes", "war_and_raids",
                 "fierce_rites", "gifts", "funeral_rites", "funeral_feasts", "suppressing_sri", "taking_a_bride",
                 "giving_a_child_away", "planting_flowers_and_trees"
             ),
@@ -73,7 +73,7 @@ internal object MansionVerses {
                 "taking_in_wealth_and_livestock", "councils", "building_forts", "buying_and_trading",
                 "bloodletting_and_moxibustion", "attacking_enemies", "sowing", "breaking_in_horses", "saddling",
                 "horse_racing", "claiming_debts", "building_a_pleasure_garden", "pacifying_and_increasing_rites",
-                "new_clothes", "washing_the_hair", "building_storehouses", "lawsuits_in_the_east", "breaking_ground",
+                "cutting_and_wearing_new_clothes", "washing_the_hair", "building_storehouses", "lawsuits_in_the_east", "breaking_ground",
                 "sewing_and_pitching_tents"
             ),
             listOf(
@@ -96,7 +96,7 @@ internal object MansionVerses {
             ),
             listOf(
                 "sending_away_people_or_wealth", "setting_out", "funerals", "funeral_rites", "burial", "quarrels",
-                "gentle_work", "judging_disputes", "moving_house", "gifts", "new_clothes", "sending_away_a_bride"
+                "gentle_work", "judging_disputes", "moving_house", "gifts", "cutting_and_wearing_new_clothes", "sending_away_a_bride"
             ),
         ),
         ARDRA to Pair(
@@ -110,7 +110,7 @@ internal object MansionVerses {
             ),
             listOf(
                 "offerings_to_deities", "funeral_rites", "marriage_alliances", "measuring_livestock", "lawsuits",
-                "gifts", "new_clothes", "setting_out", "enthronement", "reconciliation", "temples", "making_images",
+                "gifts", "cutting_and_wearing_new_clothes", "setting_out", "enthronement", "reconciliation", "temples", "making_images",
                 "raising_banners", "bloodletting_and_moxibustion", "sewing_tents_and_felt", "building_a_hearth",
                 "building_dams", "pacifying_increasing_power_and_auspicious_rites", "fire_offerings", "taking_a_bride"
             ),
@@ -120,7 +120,7 @@ internal object MansionVerses {
                 "ordination", "consecration", "teaching", "empowerment", "offerings_to_deities", "summoning_prosperity",
                 "fire_offerings", "practice_and_offering", "study", "drawing_mandalas", "sowing", "roofing",
                 "laying_foundations", "planting_gardens", "paying_debts", "calling_back", "fights", "lawsuits",
-                "giving_ornaments", "enthronement", "preparing_medicine", "new_clothes", "astrology_and_divination",
+                "giving_ornaments", "enthronement", "preparing_medicine", "cutting_and_wearing_new_clothes", "astrology_and_divination",
                 "building", "taking_a_house", "building_towns", "temples", "making_images", "averting_rites", "the_zor",
                 "taking_attendants", "beginning_small_tasks", "measuring_livestock", "funeral_rites",
                 "building_storehouses", "planting_fields", "breaking_ground", "sewing_tents", "setting_out", "trade",
@@ -136,7 +136,7 @@ internal object MansionVerses {
         PUSHYA to Pair(
             listOf(
                 "ordination", "empowerment", "consecration", "practice_and_offering", "taking_a_new_land", "teaching",
-                "investiture", "giving_offerings", "giving_ornaments", "new_clothes", "enthronement",
+                "investiture", "giving_offerings", "giving_ornaments", "cutting_and_wearing_new_clothes", "enthronement",
                 "prosperity_rites", "averting_rites", "drawing_mandalas", "preparing_medicine",
                 "astrology_and_divination", "taking_attendants", "bloodletting", "setting_out",
                 "taking_in_wealth_and_livestock", "temples", "making_images", "breaking_horses_and_oxen", "saddling",
@@ -157,7 +157,7 @@ internal object MansionVerses {
                 "settling_deliberations", "fierce_rites", "turning_a_river"
             ),
             listOf(
-                "offerings_to_deities", "consecration", "preparing_medicine", "gifts", "new_clothes",
+                "offerings_to_deities", "consecration", "preparing_medicine", "gifts", "cutting_and_wearing_new_clothes",
                 "giving_ornaments", "enthronement", "temples", "making_images", "astrology_and_divination", "building",
                 "lawsuits", "a_new_house", "setting_out", "taming_livestock", "pressing_claims", "building_a_hearth",
                 "raising_tents", "building_towns", "pacifying_increasing_and_power_rites",
@@ -179,7 +179,7 @@ internal object MansionVerses {
             ),
             listOf(
                 "gifts", "consecration", "enthronement", "building", "setting_out", "lawsuits", "offerings_to_deities",
-                "feasts", "building_a_hearth", "washing_the_hair", "reconciliation", "new_clothes", "funerals",
+                "feasts", "building_a_hearth", "washing_the_hair", "reconciliation", "cutting_and_wearing_new_clothes", "funerals",
                 "dams_ponds_and_wells", "breaking_ground", "breaking_and_treating_horses_and_donkeys",
                 "honouring_a_spiritual_friend", "sending_away_wealth_and_goods", "sewing_tents", "bon_rites",
                 "planting_flowers_and_trees", "raising_banners", "a_bride_neither_given_nor_taken"
@@ -197,7 +197,7 @@ internal object MansionVerses {
                 "consecration", "funeral_rites", "feasts", "funerals", "subduing_enemies", "fierce_rites",
                 "buying_horses", "setting_out", "paying_debts", "raids", "medicine", "weapons",
                 "bloodletting_and_moxibustion", "donkeys", "giving_away_goods",
-                "saddling_and_treating_horses_and_donkeys", "breaking_ground", "new_clothes", "washing_the_hair",
+                "saddling_and_treating_horses_and_donkeys", "breaking_ground", "cutting_and_wearing_new_clothes", "washing_the_hair",
                 "building_storehouses", "raising_banners", "ponds", "taming_livestock", "naming",
                 "sewing_and_pitching_tents", "giving_or_taking_a_bride", "taking_attendants"
             ),
@@ -211,7 +211,7 @@ internal object MansionVerses {
                 "gifts", "feasts", "naming", "raising_victory_banners", "saddling_horses_and_donkeys",
                 "harsh_work_killing_and_cutting", "power_and_fierce_rites", "virtuous_and_auspicious_acts",
                 "taking_attendants", "considered_and_lasting_work", "giving_and_taking_a_bride", "pacifying_rites",
-                "sending_away_goods", "councils", "lawsuits", "new_clothes", "pitching_tents",
+                "sending_away_goods", "councils", "lawsuits", "cutting_and_wearing_new_clothes", "pitching_tents",
                 "digging_ponds_canals_and_wells", "war_and_reconciliation", "breaking_horses_and_livestock_for_oneself",
                 "setting_out_south_or_north"
             ),
@@ -224,7 +224,7 @@ internal object MansionVerses {
             listOf(
                 "offerings", "ordination", "consecration", "empowerment", "teaching", "practice_and_offering",
                 "drawing_mandalas", "study", "prosperity_rites", "giving_vows", "building", "a_new_house",
-                "giving_ornaments", "crafts", "new_clothes", "preparing_medicine", "enthronement", "burial",
+                "giving_ornaments", "crafts", "cutting_and_wearing_new_clothes", "preparing_medicine", "enthronement", "burial",
                 "astrology_and_divination", "sowing", "field_work", "building_a_hearth", "building_towns",
                 "rites_for_relatives", "joyful_occasions", "councils", "receiving_guests", "funeral_rites",
                 "breaking_wild_livestock", "reconciliation", "shwa_rags", "breaking_ground", "virtuous_acts",
@@ -243,7 +243,7 @@ internal object MansionVerses {
             listOf(
                 "ordination", "making_images", "drawing_mandalas", "virtuous_acts", "listening_to_the_dharma",
                 "quick_works", "practice_and_offering", "empowerment", "averting_rites", "life_and_prosperity_rites",
-                "giving_ornaments", "cutting_hair_and_nails", "councils", "new_clothes",
+                "giving_ornaments", "cutting_hair_and_nails", "councils", "cutting_and_wearing_new_clothes",
                 "taking_in_wealth_and_livestock", "preparing_medicine", "washing_the_hair", "painting", "field_work",
                 "sowing", "taking_a_new_house", "horse_racing", "throwing_mdos_and_torma", "funerals",
                 "taming_livestock", "sewing_tents", "taking_in_goats_and_cattle", "power_and_increasing_rites",
@@ -263,7 +263,7 @@ internal object MansionVerses {
                 "ordination", "consecration", "virtuous_acts", "drawing_mandalas", "study", "empowerment",
                 "preparing_medicine", "deity_practice", "teaching", "prosperity_rites", "restoring_and_making_images",
                 "field_work", "scattering_grain", "breaking_ground", "summoning_life", "averting_rites",
-                "suppressing_sri", "reconciliation", "new_clothes", "enthronement", "taking_over_a_storehouse",
+                "suppressing_sri", "reconciliation", "cutting_and_wearing_new_clothes", "enthronement", "taking_over_a_storehouse",
                 "judging_disputes", "crossing_water", "pitching_tents", "marriage_alliances", "setting_out",
                 "breaking_horses_and_oxen", "feasts", "the_brides_bath", "fire_offerings", "ponds_and_canals",
                 "a_new_house", "sewing_tents", "saddling_and_treating_horses_donkeys_and_mules",
@@ -278,7 +278,7 @@ internal object MansionVerses {
         VISHAKHA to Pair(
             listOf(
                 "drawing_mandalas", "ordination", "consecration", "empowerment", "practice", "fire_offerings",
-                "teaching", "study", "marriage_alliances", "new_clothes", "paying_debts", "crafts", "a_new_house",
+                "teaching", "study", "marriage_alliances", "cutting_and_wearing_new_clothes", "paying_debts", "crafts", "a_new_house",
                 "taking_over_a_storehouse", "suppressing_sri", "breaking_horses_and_oxen", "field_work", "sowing",
                 "cutting_hair_and_nails", "building", "lawsuits", "power_and_fierce_rites", "dams", "subduing_enemies",
                 "taking_in_a_bride"
@@ -294,7 +294,7 @@ internal object MansionVerses {
         ANURADHA to Pair(
             listOf(
                 "ordination", "consecration", "prosperity_rites", "medicine", "virtuous_acts", "teaching_dharma",
-                "restoring_stupas", "new_clothes", "giving_ornaments", "enthronement", "washing_the_hair",
+                "restoring_stupas", "cutting_and_wearing_new_clothes", "giving_ornaments", "enthronement", "washing_the_hair",
                 "bloodletting_and_moxibustion", "painting", "war_and_raids", "attacking", "gtad_and_fierce_rites",
                 "power_and_increasing_rites_in_general", "field_work", "sowing", "setting_out", "games", "quick_works",
                 "saddling_horses_and_donkeys", "judging_disputes", "cutting_hair_and_nails", "travelling_far",
@@ -319,7 +319,7 @@ internal object MansionVerses {
                 "destroying_towns", "suppressing_sri", "sorcery", "works_for_the_living"
             ),
             listOf(
-                "building", "new_clothes", "setting_out", "crafts", "preparing_medicine", "astrology_and_divination",
+                "building", "cutting_and_wearing_new_clothes", "setting_out", "crafts", "preparing_medicine", "astrology_and_divination",
                 "making_images", "reconciliation", "funeral_rites", "taking_servants", "giving_away_goats", "naming",
                 "dams", "death_rites", "lawsuits", "pacifying_increasing_and_power_rites", "giving_and_taking_a_bride"
             ),
@@ -334,7 +334,7 @@ internal object MansionVerses {
                 "power_and_fierce_works_for_the_living", "mdos_and_torma", "servants_work"
             ),
             listOf(
-                "paying_out", "setting_out", "enthronement", "lawsuits", "new_clothes", "giving_meat_and_butter",
+                "paying_out", "setting_out", "enthronement", "lawsuits", "cutting_and_wearing_new_clothes", "giving_meat_and_butter",
                 "building_a_hearth", "raising_victory_banners", "burial", "naming", "dams", "taking_a_new_house",
                 "fire_offerings", "travelling_abroad", "royal_affairs", "pacifying_and_increasing_rites_in_general",
                 "councils", "auspicious_and_virtuous_acts", "giving_and_taking_a_bride"
@@ -351,7 +351,7 @@ internal object MansionVerses {
                 "ploughing_and_planting", "fighting_enemies", "appointing_stewards", "works_for_the_living"
             ),
             listOf(
-                "sending_away_grain_and_wealth", "opening_storehouses", "new_clothes", "funeral_rites",
+                "sending_away_grain_and_wealth", "opening_storehouses", "cutting_and_wearing_new_clothes", "funeral_rites",
                 "building_a_hearth", "moving_house", "gifts", "feasts", "horse_racing",
                 "pacifying_and_increasing_rites", "building_dams", "a_bride"
             ),
@@ -359,7 +359,7 @@ internal object MansionVerses {
         UTTARASHADHA to Pair(
             listOf(
                 "ornaments", "consecration", "teaching_and_listening", "empowerment", "retreat_practice", "taking_vows",
-                "taking_servants", "taking_in_grain_and_wealth", "planting_gardens", "making_images", "new_clothes",
+                "taking_servants", "taking_in_grain_and_wealth", "planting_gardens", "making_images", "cutting_and_wearing_new_clothes",
                 "enthronement", "building", "a_new_land_or_dwelling", "prosperity_and_long_life_rites",
                 "astrology_and_divination", "planting_trees_and_flowers", "washing_the_hair", "bathing", "councils",
                 "auspicious_acts", "funeral_rites", "sowing", "building_storehouses", "averting_rites",
@@ -376,7 +376,7 @@ internal object MansionVerses {
         SHRAVANA to Pair(
             listOf(
                 "ponds_canals_and_water_works", "farming", "trade", "joyful_occasions", "virtuous_acts",
-                "life_and_prosperity_rites", "marriage_alliances", "new_clothes", "giving_ornaments",
+                "life_and_prosperity_rites", "marriage_alliances", "cutting_and_wearing_new_clothes", "giving_ornaments",
                 "taking_a_new_house", "making_images", "averting_rites", "astrology_and_divination",
                 "preparing_medicine", "bloodletting_and_moxibustion", "attacking", "reconciliation",
                 "offerings_to_deities", "sowing_grain", "breaking_ground", "seeking_wealth_for_food",
@@ -393,7 +393,7 @@ internal object MansionVerses {
         DHANISHTHA to Pair(
             listOf(
                 "consecration", "empowerment", "ordination", "summoning_prosperity", "preparing_medicine", "trade",
-                "making_images", "building", "taking_a_new_house", "new_clothes", "giving_ornaments",
+                "making_images", "building", "taking_a_new_house", "cutting_and_wearing_new_clothes", "giving_ornaments",
                 "breaking_horses_and_oxen", "planting_fields", "breaking_ground", "setting_out", "lawsuits",
                 "petitioning", "power_and_fierce_rites", "works_for_the_living", "war_and_raids", "inviting_a_teacher",
                 "offerings_to_deities", "councils", "washing_the_hair", "treating_horses"
@@ -414,7 +414,7 @@ internal object MansionVerses {
                 "war_and_raids", "spectacles", "pacifying_increasing_power_but_special_cases"
             ),
             listOf(
-                "giving_ornaments", "new_clothes", "digging_ponds_and_canals", "averting_rites", "crafts",
+                "giving_ornaments", "cutting_and_wearing_new_clothes", "digging_ponds_and_canals", "averting_rites", "crafts",
                 "cutting_hair_and_nails", "giving_away_horses_donkeys_and_wealth", "opening_vessels", "building",
                 "thieves", "funerals", "horse_racing", "sewing_tents", "giving_and_taking_a_bride"
             ),
@@ -429,7 +429,7 @@ internal object MansionVerses {
                 "shwa_rags_against_rivers", "taking_land", "pitching_tents", "naming"
             ),
             listOf(
-                "paying_out_wealth", "judging_disputes", "quarrels", "setting_out", "new_clothes", "washing_the_hair",
+                "paying_out_wealth", "judging_disputes", "quarrels", "setting_out", "cutting_and_wearing_new_clothes", "washing_the_hair",
                 "digging_ponds_and_canals", "lawsuits", "far_travel", "breaking_ground", "beginning_farming",
                 "theft_and_raids", "ploughing", "field_work", "horse_racing", "giving_and_taking_a_bride",
                 "pacifying_and_increasing_rites"
@@ -439,7 +439,7 @@ internal object MansionVerses {
             listOf(
                 "giving_ornaments", "setting_out", "preparing_medicine", "painting", "consecration",
                 "breeding_livestock", "measuring_out_and_taking_in", "enthronement", "teaching",
-                "empowerment_and_taking_vows", "new_clothes", "councils", "gathering_grain_and_wealth",
+                "empowerment_and_taking_vows", "cutting_and_wearing_new_clothes", "councils", "gathering_grain_and_wealth",
                 "ponds_and_canals", "field_work", "sowing", "making_images", "averting_rites", "suppressing_sri",
                 "funeral_rites", "taking_servants", "washing_the_hair", "funerals", "power_and_fierce_rites",
                 "quick_works", "war_theft_and_raids", "brewing_beer", "buying_and_trading", "breaking_ground",

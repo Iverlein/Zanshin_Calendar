@@ -102,7 +102,6 @@ enum class Activity {
     DEVOTION,
     MAKING_WISHES,
 
-    SEWING,
     NEW_CLOTHES,
     FIRST_WEARING,
     NAMING,
@@ -220,6 +219,7 @@ enum class Activity {
     // The White Beryl's mansion verses (SPEC §5.10)
     BON_RITES,
     PITCHING_TENTS,
+    SEWING_TENTS,
     TAKING_ELIXIRS;
 
     val english: String get() = gloss(this)
@@ -283,7 +283,7 @@ val Activity.family: ActivityFamily
         SEA_TRAVEL -> ActivityFamily.SEA
         MOVING_HOUSE, BRANCH_FAMILY, RETIRING, BUYING_HOME -> ActivityFamily.MOVING_HOUSE
         BUILDING, EXTENDING_HOUSE, HOUSE_REPAIRS, RAISING_PILLARS, RIDGEPOLE, ROOFING, BUILDING_GATES, OPENING_GATES,
-        STONE_WALLS, BUILDING_STOREHOUSES, OPENING_STOREHOUSES, DRIVING_NAILS, CLIMBING_HIGH, MAKING_THINGS, PITCHING_TENTS -> ActivityFamily.BUILDING
+        STONE_WALLS, BUILDING_STOREHOUSES, OPENING_STOREHOUSES, DRIVING_NAILS, CLIMBING_HIGH, MAKING_THINGS, PITCHING_TENTS, SEWING_TENTS -> ActivityFamily.BUILDING
         MOVING_EARTH, DIGGING, BREAKING_GROUND, GROUND_BREAKING_RITES, LAYING_FOUNDATIONS, FILLING_HOLES -> ActivityFamily.EARTH
         WELLS -> ActivityFamily.WELL
         SOWING, PLANTING, GRAFTING, HARVESTING, CUTTING_GRASS, FELLING_TREES, OPENING_RICE_BALES -> ActivityFamily.FIELD
@@ -304,7 +304,7 @@ val Activity.family: ActivityFamily
         INCREASING -> ActivityFamily.INCREASING
         CONTROLLING -> ActivityFamily.CONTROLLING
         DESTROYING, CURSING, SUPPRESSING_SRI -> ActivityFamily.DESTROYING
-        SEWING, NEW_CLOTHES, FIRST_WEARING -> ActivityFamily.CLOTHES
+        NEW_CLOTHES, FIRST_WEARING -> ActivityFamily.CLOTHES
         HAIRCUTS -> ActivityFamily.HAIRCUT
         NAMING -> ActivityFamily.NAME
         CLEARING_OUT, THROWING_AWAY, PUTTING_IN_ORDER, UNCLEAN_HOUSE -> ActivityFamily.HOUSEHOLD
@@ -456,8 +456,10 @@ object Activities {
         "devotion" to of(DEVOTION),
         "making_wishes" to of(MAKING_WISHES),
 
-        "sewing" to of(SEWING),
-        "new_clothes" to of(NEW_CLOTHES),
+        "sewing" to of(NEW_CLOTHES),
+        "cutting_new_clothes" to of(NEW_CLOTHES),
+        "new_clothes" to of(NEW_CLOTHES, FIRST_WEARING),
+        "cutting_and_wearing_new_clothes" to of(NEW_CLOTHES, FIRST_WEARING),
         "first_wearing_of_new_clothes" to of(FIRST_WEARING),
         "naming" to of(NAMING),
         "naming_a_child" to of(NAMING),
@@ -627,7 +629,7 @@ object Activities {
         "harsh_words" to of(CARELESS_WORDS),
         "temple_foundations" to of(SACRED_SUPPORTS, LAYING_FOUNDATIONS),
         "cutting_hair_and_nails" to of(HAIRCUTS),
-        "sewing_tents" to of(SEWING),
+        "sewing_tents" to of(SEWING_TENTS),
         "building_towns" to of(BUILDING),
         "sending_out_wealth" to of(GIVING_OUT),
         "sending_out_livestock" to of(GIVING_OUT),
@@ -765,7 +767,7 @@ object Activities {
         "claiming_debts" to of(LENDING_MONEY),
         "building_a_pleasure_garden" to of(PLANTING),
         "lawsuits_in_the_east" to of(),
-        "sewing_and_pitching_tents" to of(SEWING, PITCHING_TENTS),
+        "sewing_and_pitching_tents" to of(SEWING_TENTS, PITCHING_TENTS),
         "paying_out_livestock_and_goods" to of(GIVING_OUT),
         "burying_bones" to of(BURIAL),
         "sharing_out_prosperity" to of(GIVING_OUT),
@@ -796,7 +798,7 @@ object Activities {
         "petitioning_the_great" to of(PETITIONS),
         "planting_flowers_and_trees" to of(PLANTING),
         "measuring_livestock" to of(GIVING_OUT),
-        "sewing_tents_and_felt" to of(SEWING),
+        "sewing_tents_and_felt" to of(SEWING_TENTS),
         "pacifying_increasing_power_and_auspicious_rites" to of(PACIFYING, INCREASING, CONTROLLING, GOOD_FORTUNE),
         "summoning_prosperity" to of(PROSPERITY_RITES),
         "practice_and_offering" to of(DHARMA_PRACTICE),
@@ -1015,13 +1017,13 @@ object Activities {
         "gathering_grain_and_wealth" to of(COLLECTING),
         "war_theft_and_raids" to of(WAR, ROBBERY),
         "laying_poison" to of(POISON),
-        "wearing_new_clothes" to of(NEW_CLOTHES),
+        "wearing_new_clothes" to of(FIRST_WEARING),
         "distributing_livestock" to of(GIVING_OUT),
         "laying_out_a_corpse" to of(FUNERALS),
         "ones_own_affairs" to of(),
         "gelding_horses_and_donkeys" to of(HORSES),
         "power_and_pacifying_rites" to of(CONTROLLING, PACIFYING),
-        "cutting_clothes" to of(SEWING),
+        "cutting_clothes" to of(NEW_CLOTHES),
         "fierce_work_robbing_and_destroying" to of(DESTROYING, ROBBERY, WAR),
         "giving_a_daughter_away" to of(GIVING_A_CHILD),
         "expelling" to of(WAR),
@@ -1038,7 +1040,7 @@ object Activities {
         "serving_the_lama" to of(SERVING_TEACHER),
         "generosity" to of(GIVING_OUT),
         "virtuous_works" to of(VIRTUE),
-        "putting_on_ornaments_and_clothes" to of(ORNAMENTS, NEW_CLOTHES),
+        "putting_on_ornaments_and_clothes" to of(ORNAMENTS, FIRST_WEARING),
         "the_works_of_a_house" to of(BUILDING, HOUSE_REPAIRS),
 
         // The White Beryl's earth lords that move by date (vol. 2, pp. 226–235); a child's first outing names no act the lists compare.
@@ -1113,7 +1115,7 @@ object Activities {
 
         // The White Beryl's days of the twelve links (LinkVerses)
         "stupas" to of(SACRED_SUPPORTS),
-        "making_clothes" to of(SEWING),
+        "making_clothes" to of(NEW_CLOTHES),
         "meeting_the_lama" to of(SERVING_TEACHER),
         "taking_a_town" to of(WAR),
         "hiding_treasure" to of(STORING),

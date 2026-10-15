@@ -80,7 +80,7 @@ internal object DayAnimalVerses {
                 "music_and_play",
             ),
             listOf(
-                "new_clothes", "wearing_new_clothes", "weapons", "sewing_tents", "crafts", "councils", "robbery",
+                "cutting_and_wearing_new_clothes", "weapons", "sewing_tents", "crafts", "councils", "robbery",
                 "enthronement", "ceremonies_of_honour",
             ),
         ),

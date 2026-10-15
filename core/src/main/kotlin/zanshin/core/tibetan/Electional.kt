@@ -380,7 +380,7 @@ object Electional {
         ),
         // 3. Cutting new clothes (img. 21, KP2 img. 240).
         ActivityList(
-            "new_clothes",
+            "cutting_new_clothes",
             good = Factors(
                 weekdays = setOf(MONDAY, WEDNESDAY, THURSDAY, FRIDAY),
                 mansions = m(ROHINI, PUNARVASU, PUSHYA, HASTA, SVATI, VISHAKHA, ANURADHA, DHANISHTHA, CITRA, UTTARABHADRAPADA, UTTARASHADHA, SHRAVANA, ASHVINI),

@@ -284,7 +284,7 @@ object WhiteBerylWorks {
         // 2, p. 385: «འཁྲིག་གཞུ་བུམ་ཉ་བཟང་། །སྲང་དང་སྡིག་པ་གཉིས་ལ་ངན།།»
         "naming" to (z(GEMINI, SAGITTARIUS, AQUARIUS, PISCES) to z(LIBRA, SCORPIO)),
         // 3, p. 385: «…བུ་མོ་ཉ་བཟང་ཀར་སྡིག་པ། །ཆུ་སྲིན་ངན་ལ་གཞན་བཏང་སྙོམས།།»
-        "new_clothes" to (z(TAURUS, GEMINI, LEO, VIRGO, PISCES) to z(CANCER, SCORPIO, CAPRICORN)),
+        "cutting_new_clothes" to (z(TAURUS, GEMINI, LEO, VIRGO, PISCES) to z(CANCER, SCORPIO, CAPRICORN)),
         // 4, p. 386.
         "first_wearing_of_new_clothes" to (z(TAURUS, GEMINI, LEO, VIRGO, SAGITTARIUS) to z(CANCER, SCORPIO)),
         // 5, p. 386: «དུས་སྦྱོར་གླང་འཁྲིག་སེང་གེ་བཟང་། །ལུག་གཞུ་ཆུ་སྲིན་ཀར་སྡིག་ངན།།»

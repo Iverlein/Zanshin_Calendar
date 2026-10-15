@@ -252,8 +252,9 @@ class DaySummaryTest {
         // 2082 before Rāhu's course among the earth lords (ROADMAP T2.13) put its lists in his tier, 2067 before
         // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24), 2018 before the mewa and
         // the link joined the trigram's voice (T2.25), 2006 before the White Beryl's days of the twelve links joined the
-        // link's lists (T2.27).
-        assertEquals(2047, against)
+        // link's lists (T2.27), 2047 before making new clothes was told apart from putting them on, and sewing tents
+        // from both.
+        assertEquals(1946, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 
@@ -308,9 +309,9 @@ class DaySummaryTest {
         assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), war.avoid.map { it.kanji })
         assertEquals(listOf("Demon king"), war.outweighed.map { it.kanji })
         assertEquals(listOf("Wednesday", "Kṛttikā", "Snake"), krittika.activities.single { it.activity == Activity.ROBBERY }.avoid.map { it.kanji })
-        // The Zhol print reads «དྲ་གྱོན», new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
+        // The Zhol print reads «དྲ་གྱོན», cutting and wearing new clothes, where the 1996 edition sets «དྲ་གྱོད» (docs/sources/mansion-verses.md).
         val verse = Texts.MANSION.getValue(Mansion.KRITTIKA)
-        assertTrue("new_clothes" in verse.avoidKeys && "disputes" !in verse.avoidKeys)
+        assertTrue("cutting_and_wearing_new_clothes" in verse.avoidKeys && "disputes" !in verse.avoidKeys)
     }
 
     @Test
