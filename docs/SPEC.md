@@ -452,8 +452,8 @@ Edward Henning, *Horary and electional astrology of the five components*
   [sources/mansion-verses.md](sources/mansion-verses.md), the lists read
   on the scans of the 1996 edition): what each day mansion's verse names
   good and to avoid, as wording keys in the verse's order
-  (`MansionVerses.kt`). Kṛttikā's «དྲ་གྱོད» is read «དྲ་གྱོན», new clothes,
-  with the Zhol print. Left out: words the reading leaves in doubt, what
+  (`MansionVerses.kt`). Kṛttikā's «དྲ་གྱོད» is read «དྲ་གྱོན», cutting and
+  wearing new clothes, with the Zhol print. Left out: words the reading leaves in doubt, what
   a verse calls middling or acceptable, omens that are no act (a birth, a
   death), and Abhijit. A work qualified by a direction or a kind of person
   is shown and weighs for neither side; "for the most part" and "but for
@@ -1826,6 +1826,12 @@ and "taking a bride" are one act), so annotations can be compared in any
 language; only wordings that name the same act share an entry, and the
 rokuyō's hours ("the morning", "noon") map to a `DayTime` instead. A test
 fails on a wording with no entry and on an entry no wording uses.
+
+Clothes are two acts, as the White Beryl's chapter 34 and the print's boxes
+keep them: making new clothes (cutting, sewing: གོས་དྲ, gos dra; 和洋裁,
+裁衣) and their first wearing (གོས་གྱོན, gos gyon; 着初め). The verses'
+compound «དྲ་གྱོན» (dra gyon), "cutting and wearing", and a bare "clothes"
+name both. Sewing tents is a third, beside pitching them.
 
 ### 8.3 Sources in use
 

@@ -166,3 +166,8 @@ their own, and its period reading leaves out what they decide the other
 way; on the twelve signs that is only Gemini's empowerment, practice and
 study (p. 372), which the chapter names bad under Gemini for ordination
 and teaching.
+
+Clothes are named three ways (2026-10-15): «དྲ་ཀྱོན» (cutting and wearing
+new clothes) under Taurus, Gemini, Cancer and Virgo, both acts; «གོས་ཀྱོན»
+(first wearing) under Leo and Sagittarius; «གོས་དྲ» (cutting clothes) under
+Scorpio and Pisces, making them only.

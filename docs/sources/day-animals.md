@@ -130,7 +130,7 @@ p. 358 (img. 366):
 
 > སྤྲེལ་ལ་གོས་གསར་དྲ་གྱོན་མཚོན། །སྦྲ་བཙེམ་སྐྱེས་པ་ཕོ་ཆས་གཞུག །བཟོ་རིགས་འདུན་གྲོས་ཇག་སོགས་སྤང་། །རྒྱན་སྤྲོད་བག་མ་སྐྱེ་ཤིང་འཛུགས། །ཆོ་ལོ་མིག་མངས་རྒྱན་ཚོམས་རྒྱག །ལྟད་མོ་དོན་གཉེར་ཤར་བྱང་བགྲོད། །ཆར་དབབ་མནན་པ་གཤིན་གྱི་ལས། །ལྡུམ་ར་སྐྱེད་དང་རོལ་རྩེད་བཟང་། །རྒྱལ་ས་ཆེ་འདོན་བྱ་བ་འཛེམ། །གྲིབ་གནས་མཁར་དང་ཤ་པར་ངན། །མེ་ཡིས་བསྲེག་ཚུལ་ལན་གསུམ་བྱ། །སྣམ་སྣར་ཁྱི་ལུད་སྐམ་པོ་བཏགས། །ནུབ་སྨད་ཕྱོགས་སུ་བསྒྱུར་བས་ཐུབ།།
 
-- **Avoid:** new clothes, wearing them, weapons, sewing tents, crafts, councils (*'dun gros*), robbery and the like; enthronement and ceremonies of honour (*che 'don*).
+- **Avoid:** cutting and wearing new clothes, weapons, sewing tents, crafts, councils (*'dun gros*), robbery and the like; enthronement and ceremonies of honour (*che 'don*).
 - **Good:** giving ornaments, a bride, planting trees, dice (*cho lo*), board games (*mig mangs*), spectacles, lawsuits, going east and north, bringing rain, suppressing, works for the dead, making gardens, music and play.
 - MITRA drops the whole verse. Left out as doubtful: «སྐྱེས་པ་ཕོ་ཆས་གཞུག» (dressing a man in male gear?), «རྒྱན་ཚོམས་རྒྱག». Seat: the knife and axe («གྲིབ་གནས»?).
 

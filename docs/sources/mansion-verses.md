@@ -50,7 +50,7 @@ formula's last verb is «བསྐྱུར», to throw away, in most verses and
 «བསྒྱུར» in Yigdzin-1's reading of five; at the scan's size the two
 cannot be told apart, and the readings are left as the machine gave them. Three places stay
 doubtful in the print, and the Zhol print (WBZ, BDRC I1KG1710, img.
-1066–1067) settles one: Kṛttikā's «དྲ་གྱོད» is «དྲ་གྱོན», new clothes, a
+1066–1067) settles one: Kṛttikā's «དྲ་གྱོད» is «དྲ་གྱོན», cutting and wearing new clothes, a
 slip of the 1996 typesetting. Bharaṇī's «རྟ་ཕྱུགས་འོ» ends in a syllable
 neither print shows clearly, and its «ཞལ་ཆེ་དམག་དྲངས་ཁ་དབྱེ» has six
 syllables where the metre wants seven; neither changes a list.
@@ -81,7 +81,7 @@ of རུས is worn), deity the gandharvas; food meat and honey; wind; an enemy
 mansion, unstable, the *bla* of thieves.
 
 - **Good:** teaching the dharma, ordination, giving vows, prosperity rites,
-  virtuous acts, new clothes, trade, suppressing *sri*, war, carrying out a
+  virtuous acts, cutting and wearing new clothes, trade, suppressing *sri*, war, carrying out a
   corpse, disputes, setting up a hearth, raising banners and victory
   standards, funeral rites, moving a grave, cutting hair and nails, washing
   the hair, digging ponds, canals and wells, lawsuits, Bon rites, taming
@@ -126,7 +126,7 @@ goats.
   rites, supporting widows and widowers, hunting, setting up or removing a
   *gtad*, cremation, empowerment, naming.
 - **Avoid:** offerings to the gods, building, sowing, temples, making
-  images, enthronement, great rites for a spiritual friend, new clothes,
+  images, enthronement, great rites for a spiritual friend, cutting and wearing new clothes,
   divination, building storehouses, paying back, burial, averting rites,
   judging cases, leading an army, opening (storehouses), paying in goats,
   trade, marriage alliances, journeys; pacifying and increasing rites,
@@ -166,9 +166,9 @@ neutral one, on which virtuous dharma succeeds.
   seizing prisoners, jewellery work, keeping women, dams, all white work.
 - **Avoid:** building, paying out, setting out, funerals, raising
   banners, opening storehouses, ponds and canals, planting fields, opening
-  a cellar, new clothes (the 1996 print sets «དྲ་གྱོད», *dra
-  gyod*, as if new clothes and disputes; the Zhol print, WBZ img. 1067,
-  line 2, has «དྲ་གྱོན», new clothes, as every other verse), war and raids, fierce rites, gifts,
+  a cellar, cutting and wearing new clothes (the 1996 print sets «དྲ་གྱོད», *dra
+  gyod*, as if clothes and disputes; the Zhol print, WBZ img. 1067,
+  line 2, has «དྲ་གྱོན», cutting and wearing new clothes, as every other verse), war and raids, fierce rites, gifts,
   funeral rites, funeral feasts, suppressing *sri*; a bride is bad for her
   husband; opening a garden (?), giving a child away, planting flowers and
   trees.
@@ -198,7 +198,7 @@ prosperity (*g.yang*); food curd and honey; very stable.
   buying and trading, bloodletting and moxibustion, attacking enemies,
   sowing, breaking horses, saddling and racing, claiming debts, a birth of
   either sex, building a pleasure garden (*kun ra*), pacifying and
-  increasing rites, new clothes, washing the hair, building storehouses,
+  increasing rites, cutting and wearing new clothes, washing the hair, building storehouses,
   lawsuits (good in the east), breaking ground, sewing and pitching tents
   and felt.
 - **Avoid:** setting out, feasts, paying out livestock and goods, war and
@@ -240,7 +240,7 @@ venison; wind; quick and good, a *dme* mansion, the *bla* of a *btsad po*.
   flowers and trees.
 - **Avoid:** sending away people or wealth, setting out, funerals, funeral
   rites, burial, quarrels, gentle work, judging cases, moving house, gifts,
-  new clothes; a death means the head of the house dies; a bride: taking
+  cutting and wearing new clothes; a death means the head of the house dies; a bride: taking
   one in is good, sending one away bad.
 - **Born on it:** a boy lives 28, 62 or 90 years, religious, keeping his
   vows, truthful, brave, clear-minded and rich; a girl is called
@@ -272,7 +272,7 @@ deity the Fierce One (Rudra), the *bla* of butchers; water; a guest mansion
   *sri*, divination, averting rites, repairing ponds and canals,
   petitioning the great, sending a *thug* (?), planting flowers and trees.
 - **Avoid:** offerings to the gods, funeral rites, marriage alliances,
-  measuring livestock, lawsuits, gifts, new clothes, setting out,
+  measuring livestock, lawsuits, gifts, cutting and wearing new clothes, setting out,
   enthronement, reconciling, temples, making images, raising banners,
   bloodletting and moxibustion, sewing tents and felt, setting up a hearth,
   building dams, pacifying, increasing, power and auspicious rites, fire
@@ -335,7 +335,7 @@ deity Jupiter; food honey and molasses; fire; an accomplishing mansion
 
 - **Good:** ordination, empowerment, consecration, practice and offering,
   taking a new land, teaching, enthronement, giving offerings, giving
-  ornaments, new clothes, appointing to office, prosperity rites, averting
+  ornaments, cutting and wearing new clothes, appointing to office, prosperity rites, averting
   rites, drawing maṇḍalas, preparing medicine, divination, taking
   attendants, bloodletting, setting out, taking in wealth and livestock,
   temples, making images, breaking horses and oxen, saddling, setting up a
@@ -375,7 +375,7 @@ bad in its results; the *bla* of dogs and beasts of prey.
   planting trees, a death, funeral rites, settling deliberations, fierce
   rites, turning a river.
 - **Avoid:** offerings to the gods, consecration, preparing medicine,
-  gifts, new clothes, giving ornaments, enthronement, temples, making
+  gifts, cutting and wearing new clothes, giving ornaments, enthronement, temples, making
   images, divination, building, lawsuits, a new house, setting out, taming
   livestock, pressing claims, setting up a hearth, raising tents, building
   towns, pacifying, increasing and power rites, auspicious and virtuous
@@ -417,7 +417,7 @@ sesame broth; fire; stable, accomplishing, fierce; an enemy mansion, the
   work, keeping dogs.
 - **Avoid:** gifts, consecration, enthronement, building, setting out,
   lawsuits, offerings to the gods, feasts, setting up a hearth, washing the
-  hair, reconciling, new clothes, funerals, dams, ponds and wells, breaking
+  hair, reconciling, cutting and wearing new clothes, funerals, dams, ponds and wells, breaking
   ground, saddling, breaking and treating horses and donkeys, great rites
   for a spiritual friend, sending away wealth and goods, sewing tents, Bon
   rites, planting flowers and trees, raising banners; a bride must be
@@ -487,7 +487,7 @@ wind; very stable, the *bla* of sheep; called an enemy mansion.
   building, harsh work, killing and cutting, power and fierce rites,
   virtuous and auspicious acts, taking attendants, considered and lasting
   work, **giving and taking a bride**, pacifying rites, sending away goods,
-  councils, lawsuits, new clothes, pitching tents, digging ponds, canals
+  councils, lawsuits, cutting and wearing new clothes, pitching tents, digging ponds, canals
   and wells, war and reconciliation, breaking horses and livestock for
   oneself. Setting out is bad in general, good to the south and north.
 - **Avoid:** field work, sowing, breaking ground, planting flowers and
@@ -517,7 +517,7 @@ of sheep.
 
 - **Good:** offerings, ordination, consecration, empowerment, teaching,
   practice and offering, drawing maṇḍalas, study, prosperity rites, giving
-  vows, building, a new house, giving ornaments, crafts, new clothes,
+  vows, building, a new house, giving ornaments, crafts, cutting and wearing new clothes,
   preparing medicine, enthronement, burial, divination, sowing, field work,
   setting up a hearth, building towns, rites for relatives, feasts of joy,
   councils, receiving guests, funeral rites, breaking wild livestock,
@@ -556,7 +556,7 @@ of cattle and goats; quick and good.
 - **Good:** ordination, making images, drawing maṇḍalas, virtuous acts,
   listening to the dharma, quick works, practice and offering,
   empowerment, averting rites, life and prosperity rites, giving ornaments,
-  cutting hair and nails, councils, new clothes, taking in wealth and
+  cutting hair and nails, councils, cutting and wearing new clothes, taking in wealth and
   livestock, preparing medicine, washing the hair, painting, field work,
   sowing, taking a new house, cooking (?), horse races, throwing *mdos* and
   *gtor ma*, funerals, taming livestock, sewing tents, taking in goats and
@@ -594,7 +594,7 @@ unstable and changing.
   empowerment, preparing medicine, deity practice, teaching, prosperity
   rites, restoring and making images, field work, scattering grain,
   breaking ground, summoning life, averting rites, suppressing *sri*,
-  reconciling, new clothes, enthronement, taking over a storehouse,
+  reconciling, cutting and wearing new clothes, enthronement, taking over a storehouse,
   judging cases, crossing water, pitching tents, marriage alliances,
   setting out, breaking horses and oxen, feasts, the bride's bath, fire
   offerings, ponds and canals, a new house, sewing tents, saddling and
@@ -662,7 +662,7 @@ Four stars, shaped like an elephant; caste the commoners, deity the Sun
 mansion, the *bla* of *brje* (?).
 
 - **Good:** ordination, consecration, prosperity rites, medicine, virtuous
-  acts, teaching the dharma, restoring stupas, new clothes, giving
+  acts, teaching the dharma, restoring stupas, cutting and wearing new clothes, giving
   ornaments, enthronement, washing the hair, bloodletting and moxibustion,
   painting, war and raids, attacking, *gtad* and fierce rites, power and
   increasing rites in general, field work, sowing, setting out, games,
@@ -703,7 +703,7 @@ rice and rice broth; earth; a guest mansion, the *bla* of goats.
   horses and livestock to the herd, lawsuits in the south and west,
   destroying towns, suppressing *sri*, sorcery, sending a *thug* (?),
   works for the living.
-- **Avoid:** building, new clothes, setting out, crafts, preparing
+- **Avoid:** building, cutting and wearing new clothes, setting out, crafts, preparing
   medicine, divination, making images, reconciling, funeral rites, taking
   servants, giving away goats, naming, dams, death rites, lawsuits, the
   birth of a girl, pacifying, increasing and power rites; giving and
@@ -737,7 +737,7 @@ Kātyāyana; food milk, black roots and fruit; a *dme* mansion; water; the
   ornaments, sending messages, sending a *thug* (?), taking in goods,
   small tasks, power, fierce and other works for the living, *mdos* and
   *gtor ma*, servants' work.
-- **Avoid:** paying out, setting out, enthronement, lawsuits, new clothes,
+- **Avoid:** paying out, setting out, enthronement, lawsuits, cutting and wearing new clothes,
   giving meat and butter, raising (?), setting up a hearth, raising victory
   banners, burial, naming, dams, taking a new house, fire offerings,
   travelling abroad, royal affairs, pacifying and increasing rites in
@@ -799,7 +799,7 @@ very stable, the *bla* of grain.
 
 - **Good:** ornaments, consecration, teaching and listening, empowerment,
   retreat practice, taking vows, taking servants, taking in grain and
-  wealth, planting gardens, making images, new clothes, enthronement,
+  wealth, planting gardens, making images, cutting and wearing new clothes, enthronement,
   building, a new land or dwelling, prosperity and long-life rites,
   divination, planting trees and flowers, washing the hair, bathing,
   councils, auspicious acts, funeral rites, sowing, building storehouses,
@@ -861,7 +861,7 @@ changing.
 - **Good:** consecration, shaving the hair, offerings to the *dgra lha*,
   attacking enemies, paying back, virtuous acts for the living, funeral
   rites, brewing beer, building, sowing, suppressing *sri*, divination.
-- **Avoid:** councils, lawsuits, enthronement, new clothes, sorcery,
+- **Avoid:** councils, lawsuits, enthronement, cutting and wearing new clothes, sorcery,
   sending spies, auspicious and virtuous acts, rites for the dead and for
   life and wealth; but for the special cases, most pacifying, increasing,
   power and fierce rites are bad. Its results are on the whole those of
@@ -886,7 +886,7 @@ donkeys; quick and changing.
 
 - **Good:** consecration, empowerment, ordination, summoning prosperity,
   preparing medicine, trade, making images, building, taking a new house,
-  new clothes, giving ornaments, breaking horses and oxen, drawing and
+  cutting and wearing new clothes, giving ornaments, breaking horses and oxen, drawing and
   building (?), planting fields, breaking ground, setting out, lawsuits,
   petitioning, power and fierce rites in general, works for the living,
   war and raids, inviting a teacher of the dharma, offerings to the gods,
@@ -927,7 +927,7 @@ prosperity, very stable, the *bla* of horses and donkeys.
   lawsuits, practice and offering, prosperity rites, war and raids, taking
   land, shows; but for the special cases pacifying, increasing and power
   rites good in general, fierce rites acceptable.
-- **Avoid:** giving ornaments, new clothes, digging ponds and canals,
+- **Avoid:** giving ornaments, cutting and wearing new clothes, digging ponds and canals,
   averting rites, crafts, cutting hair and nails, giving away horses,
   donkeys and wealth, opening vessels, building, thieves, funerals, horse
   races, sewing tents; giving and taking a bride are both bad.
@@ -988,7 +988,7 @@ fierce.
 
 - **Good:** giving ornaments, **setting out**, preparing medicine,
   painting, consecration, breeding livestock, measuring out and taking in,
-  enthronement, teaching, empowerment and taking vows, new clothes,
+  enthronement, teaching, empowerment and taking vows, cutting and wearing new clothes,
   councils, gathering grain and wealth, ponds and canals, field work,
   sowing, making images, averting rites, suppressing *sri*, funeral rites,
   taking servants, washing the hair, funerals, power and fierce rites,
