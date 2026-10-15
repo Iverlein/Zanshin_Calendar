@@ -490,48 +490,50 @@ the section headings in the text agree):
 | --- | --- | --- | --- |
 | 1 天地 | img. 4 | 25 土用事 | img. 38 |
 | 2 五行 | img. 7 | 26 弦望 | img. 39 |
-| 3 日 | img. 8 | 27 社日 | |
-| 4 月 | img. 8 | 28 三伏 | |
-| 5 星 | img. 9 | 29 臘 | |
-| 6 大歳 | img. 11 | 30 大歳位前對後 | |
-| 7 歳徳 | img. 12 | 31 沒滅 | |
-| 8 大將軍 | img. 13 | 32 天恩 | |
-| 9 大陰 | img. 13 | 33 天赦 | |
-| 10 歳刑 | img. 14 | 34 母倉 | |
-| 11 歳破 | img. 15 | 35 歸忌 | |
-| 12 歳殺 | img. 16 | 36 血忌 | |
-| 13 黄旛 | img. 16 | 37 厭對 | |
-| 14 豹尾 | img. 16 | 38 無翹 | |
-| 15 歳名 | img. 16 | 39 九坎 | |
-| 16 歳次 | img. 17 | 40 重 | |
-| 17 二十四氣七十二候 | img. 18–27 | 41 復 | |
-| 18 六十四卦 | img. 27–28 | 42 往亡 | |
-| 19 閏月 | img. 29 | 43 日遊 | |
-| 20 日月蝕 | img. 30 | 44 凶會 | |
-| 21 納音 | img. 31 | 45 八竜七鳥九虎六蛇 | |
-| 22 十二直 | img. 32–34 | 46 五墓 | |
-| 23 十干十二支 | img. 34 | 47 伐 | |
-| 24 月建 | img. 34–35 | 48 遠行 | |
-| | | 49 忌夜行 | |
-| | | 50 天間 | |
-| | | 51 歳下食 | |
-| | | 52 下食時 | |
-| | | 53 天一天上 | |
-| | | 54 大將軍行 | |
-| | | 55 土公土府 | |
-| | | 56 伏竜 | |
-| | | 57 十干吉凶 | |
-| | | 58 十二支吉凶 | |
-| | | 59 二十八宿吉凶 | |
-| | | 60 七曜吉凶 | |
-| | | 61 滅門太禍狼籍 | |
-| | | 62 羅刹 | |
-| | | 63 甘露 | |
-| | | 64 金剛峯 | |
+| 3 日 | img. 8 | 27 社日 | img. 40 |
+| 4 月 | img. 8 | 28 三伏 | img. 40 |
+| 5 星 | img. 9 | 29 臘 | img. 41 |
+| 6 大歳 | img. 11 | 30 沒滅 | img. 41 |
+| 7 歳徳 | img. 12 | 31 大歳位前對後 | img. 41–42 |
+| 8 大將軍 | img. 13 | 32 天恩 | img. 42 |
+| 9 大陰 | img. 13 | 33 天赦 | img. 42–43 |
+| 10 歳刑 | img. 14 | 34 母倉 | img. 43 |
+| 11 歳破 | img. 15 | 35 歸忌 | img. 43 |
+| 12 歳殺 | img. 16 | 36 血忌 | img. 43 |
+| 13 黄旛 | img. 16 | 37 厭對 | img. 43–44 |
+| 14 豹尾 | img. 16 | 38 無翹 | img. 44 |
+| 15 歳名 | img. 16 | 39 九坎 | img. 44 |
+| 16 歳次 | img. 17 | 40 重 | img. 44–45 |
+| 17 二十四氣七十二候 | img. 18–27 | 41 復 | img. 45 |
+| 18 六十四卦 | img. 27–28 | 42 往亡 | img. 45–46 |
+| 19 閏月 | img. 29 | 43 日遊 | img. 46 |
+| 20 日月蝕 | img. 30 | 44 凶會 | img. 46–47 |
+| 21 納音 | img. 31 | 45 八竜七鳥九虎六蛇 | img. 47 |
+| 22 十二直 | img. 32–34 | 46 五墓 | img. 47–48 |
+| 23 十干十二支 | img. 34 | 47 伐 | img. 48 |
+| 24 月建 | img. 34–35 | 48 遠行 | img. 48 |
+| | | 49 忌夜行 | img. 48 |
+| | | 50 天間 | img. 48 |
+| | | 51 歳下食 | img. 48–49 |
+| | | 52 下食時 | img. 49 |
+| | | 53 天一天上 | img. 49–50 |
+| | | 54 大將軍行 | img. 50 |
+| | | 55 土公土府 | img. 50–51 |
+| | | 56 伏竜 | img. 51 |
+| | | 57 十干吉凶 | img. 51–52 |
+| | | 58 十二支吉凶 | img. 52–53 |
+| | | 59 二十八宿吉凶 | img. 53–54 |
+| | | 60 七曜吉凶 | img. 54 |
+| | | 61 滅門太禍狼籍 | img. 54–55 |
+| | | 62 羅刹 | img. 55 |
+| | | 63 甘露 | img. 55 |
+| | | 64 金剛峯 | img. 55–56 |
 
-(The 下 list prints 沒滅 as «第三十» where 31 is meant; the 上 book ends
-on img. 35, «暦林問答集上終», and 下 begins on img. 38.) The 下 sections'
-images are given where each is read, below.
+(The 下 list numbers both 沒滅 and 大歳位前對後 «第三十»; the text's
+own headings run 沒滅 30, «歳位歳前歳對歳後» 31. The headings in the
+text differ from the list in places: «天一» 53, «大將軍遊行» 54, «土公遊行土府所在»
+55, «十干» 57, «十二支» 58, «滅門大過狼籍» 61. The 上 book ends on img. 35,
+«暦林問答集上終», and 下 begins on img. 38, «暦林問答集下».)
 
 **Coverage at a glance.** Of the annotation families the app shows, the
 work has sections on the 十二直, 歳徳 (the 恵方), 土用, 社日, 天恩日, 天赦日,
@@ -544,6 +546,133 @@ expert: popular only since the 19th century), the day's 九星, 大明日,
 the modern almanac (一粒万倍日, 不成就日, 三隣亡, 十方暮, 八専, 犯土), the
 縁日, or the 雑節 other than 土用 and 社日; whether any of these is
 named inside another section is said under each group below.
+
+### The 中段: the 十二直 (§22, GR img. 32–34)
+
+> 釋十二直第二十二
+> 或問十二直何也　答曰新撰陰陽書又郝震堪餘八會經等兩説皆以同而上配于星辰下主万物以配於人事故吉凶尤大不可不用捨也
+> 建者斗柄所指之名也能建生万物故曰建尚書暦曰安社稷冠帶立柱納財及奴婢出行吉也
+> 除者斗柄前辰也又名戸曹折衝万物除去百凶故曰除書云療病祠祀合薬針刺吉
+> 滿者天之倉曹財貨所也奄覆凶咎滿益万物故曰滿書云造屋舎移徙嫁娶内財及奴婢裁衣出行造車塗竈吉也
+> 平者天上會曹平分万物也又名帝路故曰平書云造屋舎移徙嫁娶内財及奴婢裁衣吉
+> 定者斗柄前之四辰也又名大忌能定諸客故曰定書云造屋舎移徙嫁娶安宅内財及奴婢裁衣買馬牛起土祠祀吉
+> 執者斗柄前五辰也能執斷万物故曰執昏云張設羅網射獵收捕盜賊吉
+> 破者斗柄之相衝破所也又名天之游激故曰破昏云收鬼捕邪治病舉軍攻擊所向吉也
+> 危者斗魁之前險也不可昇高故曰危昏云張設羅網魚捕射獵伐樹木吉
+> 成者斗柄當相對又名天之主記為事必成故曰成書云祠祀入宮造屋舎移徙嫁娶出行裁衣吉
+> 收者謂收斂万物又名天倉故曰收昏云造屋舎入室入宮移徙嫁娶治壁垣張設羅網捕縛田獵下種種樹吉
+> 開者斗柄居前也天之使者開險通後故曰開昏曰造屋舎起土移徙嫁娶内財及奴婢立門戸祠祀出行入學加冠拜官治病吉
+> 閉者名嘆星閉塞不通故曰閉尤禁邪悪之日也修隄防塞穴吉
+> 郝震堪餘八會經云建者主足除者主尻滿者主腹平者主背定者主胸執者主手破者主口危者主鼻成者主眉收者主髪開者主耳閉者主目十二直釋大槩如此
+
+(GR img. 32, left page, to img. 34, right page; the line breaks are
+ours, one station to a line. «昏» is printed for the citations after 執;
+it reads as a short form of 暦, the 尚書暦 cited at 建 — a doubt. «内財»
+is 納財, as the 建 line writes it.)
+
+"The 新撰陰陽書 and the 郝震堪餘八會經 agree: above they are matched to the
+stars, below they govern the ten thousand things and are matched to
+human affairs, so their good and bad fortune is especially great and
+they must be heeded in choosing what to do and what to leave."
+
+| Station | What it is | Good for (暦林問答集) | The app's lists (Todan) |
+| --- | --- | --- | --- |
+| 建 | where the Dipper's handle points; it establishes and gives life | state rites (安社稷), capping (冠帶), raising pillars, taking in wealth and servants, setting out | good: everything; avoid: moving earth, boarding ships |
+| 除 | the station before the handle; clears away a hundred evils | treating illness, rites, compounding medicine, acupuncture | clearing out, throwing away |
+| 滿 | heaven's granary; covers misfortune and fills all things | building, moving house, marriage, taking in wealth and servants, cutting clothes, setting out, building carts, plastering the hearth | shrine rites, building, moving, weddings, opening a shop, sowing, moving earth |
+| 平 | heaven's assembly that shares out evenly; the emperor's road | building, moving house, marriage, wealth and servants, cutting clothes | consultations, negotiations |
+| 定 | the fourth station before the handle; "great taboo", settles all guests | building, moving house, marriage, settling a dwelling, wealth and servants, cutting clothes, buying horses and oxen, moving earth, rites | sowing, weddings, digging wells, fixing decisions |
+| 執 | the fifth before the handle; seizes and cuts off | spreading nets, hunting, arresting thieves | harvesting, buying, acquiring |
+| 破 | the station opposite the handle, where it breaks; heaven's 游激 | catching demons and the possessing spirit, treating illness, raising armies to attack | avoid: promises, consultations, agreements |
+| 危 | the danger before the Dipper's bowl; "do not climb high" | spreading nets, fishing, hunting, felling trees | avoid: journeys, sea travel |
+| 成 | heaven's recorder; "what is done is completed" | rites, entering the palace, building, moving house, marriage, setting out, cutting clothes | money talks, opening a shop, announcements, raising pillars |
+| 收 | gathers in all things; heaven's granary | building, entering a house or the palace, moving house, marriage, mending walls, nets, arrests, hunting, sowing, planting trees | storing, collecting |
+| 開 | heaven's messenger opens the dangerous way | building, moving earth, moving house, marriage, wealth and servants, setting up gates, rites, setting out, starting school, capping, taking office, treating illness | starting school, opening a business, beginnings |
+| 閉 | "the sighing star", blocked; the day that forbids evil | repairing dykes, stopping holes | avoid: opening a shop, beginnings |
+
+It names nothing to avoid except on 危 ("do not climb high") and, by its
+name, 閉; every station has its good works, 破 among them. The body
+parts (建 the feet, 除 the buttocks, 滿 the belly, 平 the back, 定 the
+chest, 執 the hands, 破 the mouth, 危 the nose, 成 the eyebrows, 收 the
+hair, 開 the ears, 閉 the eyes) are the 八會經's.
+
+**What the app needs.** The stations' rule (建 on the day whose branch is
+the month's, the month by the Dipper's handle) agrees with §24 月建
+(img. 34–35): «月建者北斗之所指柄之辰也觀斗柄之指於寅方定歳首故以寅月今為正月»,
+the month is named by the branch the Dipper's handle points to, and the
+寅 month is the first, «自尓至今無改». The good lists differ from the
+app's modern lists for most stations: the old text gives 滿, 平, 定, 成,
+收 and 開 all as good for building, moving house and marriage, and gives
+破 good works (exorcism, healing, war) where the app lists only what to
+avoid. 建's "good for everything" and "avoid moving earth" are not in
+it. The 十二直 are called "especially great in good and bad fortune",
+a statement of weight, not a rule of precedence (below, *Ranking*).
+
+### 歳徳神 and the 恵方 (§7, GR img. 12–13; MS img. 12)
+
+> 釋歳徳第七
+> 或問歳徳者何也　答曰五行書云凡陰陽用事遇徳為善故歳徳方一年間有徳方也皆十干徳也但五為陽徳〔甲丙戊庚壬〕五為陰徳〔乙丁巳辛癸〕其甲歳徳者在東宮甲方丙歳徳者在南宮丙方戊歳徳者在中宮戊方〔中宮者在丙方〕庚歳徳者在西宮庚方壬歳徳者在北宮壬方此五干歳徳各為陽徳故在其方次乙歳徳者在西宮庚方丁歳徳者在北宮壬方巳歳徳者在東宮甲方辛歳徳者在南宮丙方癸歳徳者在中宮戊方其乙丁巳辛癸者為陰干故自無徳配合陽干而成徳是以乙[巳]為甲妻相合故巳歳徳在甲辛為丙妻相合故辛歳徳在丙乙為庚妻相合故乙歳徳在庚癸為戊妻相合故癸歳徳在戊孔子曰禀氣於陽定形於陰〔云云〕其戊巳者火生土之故戊属丙方巳属丁方又号中宮戊巳土也五行木也言宮者舎也故称之五行皆畏於相尅故以木妹庚庚金以火妹妻於壬水以土妹妻於甲木以金妹妻於丙火以水妹妻於戊土是五行皆畏於相尅故各配合而以生万物也
+
+(GR img. 12, left half of the right page, to img. 13, right page;
+〔〕 small double-line notes; GR prints 巳 throughout for the stem 己;
+at «是以乙為甲妻» a reader has circled 乙 and written 巳 beside it,
+which the sense needs: 己 is 甲's wife. MS img. 12 has the same text
+with 己 written correctly, «五行本也» for GR's «五行木也», and
+«故以木妹妻庚金» where GR drops 妻.)
+
+"The 五行書 says: whenever yin and yang are put to use, meeting virtue
+is good; so the 歳徳 direction is the direction that holds virtue for
+the year. All are the virtues of the ten stems. Five are yang virtues
+(甲丙戊庚壬), five yin (乙丁己辛癸). A 甲 year's 歳徳 is in the eastern
+palace, the 甲 direction; 丙's in the southern palace, the 丙 direction;
+戊's in the central palace, the 戊 direction [note: the central palace
+is in the 丙 direction]; 庚's in the western palace, the 庚 direction;
+壬's in the northern palace, the 壬 direction. These five stems' 歳徳
+are yang virtues and so sit in their own directions. Next: 乙's 歳徳 is
+in the western palace, the 庚 direction; 丁's in the northern palace,
+the 壬 direction; 己's in the eastern palace, the 甲 direction; 辛's in
+the southern palace, the 丙 direction; 癸's in the central palace, the
+戊 direction. 乙丁己辛癸 are yin stems and have no virtue of their own;
+they take it by marriage to a yang stem. 己 is 甲's wife, so 己's 歳徳 is
+at 甲; 辛 is 丙's wife, so at 丙; 乙 is 庚's wife, so at 庚; 癸 is 戊's
+wife, so at 戊. … 戊 and 己 [belong to the centre] because fire
+generates earth: 戊 belongs to the 丙 direction, 己 to the 丁 direction,
+and they are called the central palace, earth. … The five agents all
+fear the one that overcomes them, so each gives its younger sister in
+marriage to it [wood's to 庚 metal, fire's to 壬 water, earth's to 甲
+wood, metal's to 丙 fire, water's to 戊 earth], and by these matches the
+ten thousand things are born."
+
+**What the app needs.**
+
+- The 歳徳 by the year's stem, in the 暦林問答集: 甲・己 → 甲 (east),
+  乙・庚 → 庚 (west), 丙・辛 → 丙 (south), 丁・壬 → 壬 (north), 戊・癸 →
+  戊, "the central palace", which its note places in the 丙 direction.
+  The app's rule (`Rekichu.ehouOf`: 甲己 east-northeast 75°, 乙庚
+  west-southwest 255°, 丙辛 and 戊癸 south-southeast 165°, 丁壬
+  north-northwest 345°) gives the same direction for every stem, 戊 and
+  癸 included, by way of the note. What the old text adds: the 戊・癸
+  direction is the centre, reckoned to 丙 by a note, not a fifth
+  compass point of its own; and the 歳徳 is the yang stem's virtue, the
+  yin stem borrowing its husband's.
+- The year is the stem's year; the section does not say where the year
+  begins (立春 or the new year), so the app's 立春 stays the modern
+  digests' (SPEC §7.5).
+- Its reading: what is done facing the 歳徳 meets virtue and is good
+  («凡陰陽用事遇徳為善»). The section names no works and no "facing"
+  custom (the 恵方参り, the 恵方巻) and no image of a goddess; the app's
+  reading ("whatever is done facing this direction is lucky") states
+  no more than the old text.
+- **K4, "reckoned otherwise today than in the fourteenth century".**
+  For the direction itself the 暦林問答集 (1414) and the app's modern rule
+  agree stem by stem; the only difference found is that 戊・癸 is the
+  centre, put at 丙 by a note. What she meant (another rule for 戊・癸,
+  the goddess, the year's beginning, the 恵方's customs) is not
+  settled by this text; it is a question for her (*Open*).
+- Beside 歳徳, §6 大歳 (img. 11–12) calls the 大歳's direction «一年之君有福最吉方也»,
+  the lord of the year, the luckiest direction, against which nothing
+  bad may be done; it and §8–§14 (大將軍, 大陰, 歳刑, 歳破, 歳殺, 黄旛,
+  豹尾, img. 13–16) are the year's direction gods of K5, not read here.
 
 ## K6-R: the twenty-four solar terms (ROADMAP K6)
 
