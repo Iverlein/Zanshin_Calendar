@@ -567,3 +567,146 @@ no Russian work read. Only one sinologist's full set was read; whether
 the expert means his or another (Кобзев's, Еремеев's in *Духовная
 культура Китая*) is a question below. No Russian Japanology was found
 that names the mansions as the Japanese almanac prints them.
+
+### 暦注 and its bands
+
+No Russian work read names 暦注, 暦注下段, 中段, 十二直, 選日 or 雑節 as
+calendar terms; БЯРС has no entry for 暦注, 十二直, 選日 or 雑節, and gives
+中段 and 下段 only in their everyday senses (〔000-23-30〕 «площадка
+лестницы», 〔002-73-04〕 «нижняя ступенька; нижняя полка»). 縁日 is the
+exception.
+
+| Term | App now | Attested | Note |
+| --- | --- | --- | --- |
+| 暦注 | «Пометки альманаха» (`about_rekichu`) | none found | the expert's «календарные примечания» is her proposal, not found in print |
+| 暦注下段 / 下段 | «нижняя полоса» (`section_kagedan`) | none found as a calendar term | keeps the app's |
+| 中段 / 十二直 | «Двенадцать станций» (`section_choku`, `desc_choku_dial`) | none found; the twelve (建 … 閉) as day names found only on fortune-telling sites, not read | keeps the app's |
+| 選日 | «Избранные дни» (`section_senjitsu`) | none found | keeps the app's |
+| 縁日 | «Дни божеств» (`section_ennichi`) | БЯРС 〔005-63-42〕 «буд. [храмовый] праздник»; А. Ю. Синицын, А. И. Габитова, «О традиционном японском календарном празднике „День Косин“…», *Этнография*, 2023, № 4 (22), p. 237: «календарных храмовых праздников» | the dictionary's word is «храмовый праздник» |
+| 雑節 | «Сезонные вехи» (`section_zassetsu`) | none found | keeps the app's |
+| 吉日 / 凶日 (the tones) | хороший / плохой день | БЯРС 〔001-65-21〕 «счастливый (благоприятный) день», 〔007-40-18〕 «чёрный (несчастливый) день» | in passing |
+
+The 雑節 one by one, where the dictionary has them (none is in any other
+work read but 節分 and 彼岸):
+
+| Term | App now | Attested | Note |
+| --- | --- | --- | --- |
+| 節分 | Разделение сезонов | БЯРС 〔005-50-51〕 «смена времён года; канун весны»; Степанова p. 124: «дословно переводится как „разделение сезонов“» | app attested |
+| 彼岸 | Хиган, неделя равноденствия | БЯРС 〔007-37-14〕 «неделя равноденствия; буд. хига́н» | app attested |
+| 彼岸入り / 彼岸明け | Начало хиган / Конец хиган | БЯРС 〔008-09-21〕 «начало недели равноденствия», 〔006-77-49〕 «конец недели равноденствия» | close |
+| 社日 | День божества земли | none found (no БЯРС entry; nothing in sinology read) | keeps the app's (K2) |
+| 八十八夜 | Восемьдесят восьмая ночь | БЯРС 〔009-03-81〕 «восемьдесят восьмой день (букв. ночь) с начала весны» | the dictionary counts it a day |
+| 入梅 | Начало сезона дождей | БЯРС 〔007-77-09〕 «день начала сезона дождей» | app attested |
+| 半夏生 | Всходы пинеллии | БЯРС 〔008-36-03〕 «хангэсё (название народного праздника …)»; its sense 2 is the plant «(тж. 三白花) заурурус, Saururus chinensis» | transcription only; the dictionary's plant is not the app's pinellia (半夏) |
+| 土用 | Доё, сезон земли | БЯРС 〔008-90-41〕 «доё: последние 18–20 дней каждого времени года» | the transcription is the dictionary's |
+| 二百十日 | Двести десятый день | БЯРС 〔008-53-00〕 «двести десятый день от начала весны» | app attested |
+
+### 六曜
+
+| Term | App now | Attested | Note |
+| --- | --- | --- | --- |
+| 六曜 (the cycle) | рокуё | БЯРС, in each day's entry: «название дня шестидневки по лунному календарю»; М. Н. Корнилов, abstract of F. Coulmas, *Japanische Zeiten* (2000), *Афро-азиатский мир: проблемы цивилизационного анализа*, 2004, p. 127: «шестидневные циклы (рокуё)» | «шестидневка» is the dictionary's word |
+| 先勝 | выигрывает первый | БЯРС 〔000-15-26〕 сэнсё: «день, благоприятный для дел»; Корнилов p. 127 «сэнкати» | transcription; no translation of the name in scholarship |
+| 友引 | ничья между друзьями | БЯРС 〔004-49-73〕 томобики: «злосчастный день …» | as above |
+| 先負 | проигрывает первый | БЯРС 〔005-93-51〕 сэмбу: «день, неблагоприятный для дел» | as above |
+| 仏滅 | ничего не выйдет | БЯРС 〔006-80-22〕 буцумэцу: «1) кончина Будды; 2) см. ぶつめつにち», 〔002-29-93〕 «буд. несчастливый день»; Корнилов p. 127 «буцумэцу» | the literal sense in print is «кончина Будды»; the expert's «смерть Будды» only in the popular source below |
+| 大安 | великий покой | БЯРС 〔001-97-95〕 тайан: «уст. счастливый (удачный) день»; Корнилов p. 127 «тайан» | as above |
+| 赤口 | красный рот | БЯРС 〔004-91-69〕 сякку (赤口日): «несчастливый день» | as above |
+
+A popular witness, not scholarship: Nippon.com, «Рокуё: счастливые и
+несчастливые дни японского календаря» (27.10.2025,
+https://www.nippon.com/ru/guide-to-japan/cs00041/), glosses the six as
+«победа первому», «привлечь друзей», «поражение первому», «смерть
+Будды», «Великий мир», «красный рот». Its companion page *Японский
+календарь* (25.02.2026, https://www.nippon.com/ru/japan-glances/jg00122/)
+glosses the month names in sentences («Месяц цветения дейции», «Месяц
+воды», «„Месяц без богов“», «„Учителя бегают“») and the 節気 much as the
+table above; it is the only Russian text found that glosses every month.
+
+### 人日の節句 and the other festivals
+
+| Term | App now | Attested | Note |
+| --- | --- | --- | --- |
+| 人日の節句 | праздник дня людей | БЯРС 〔004-88-77〕 «дзи́ндзицу (один из пяти традиционных праздников госэ́кку, проводится в седьмой день первого месяца …)»; Э. В. Молодякова, «Ритуал в синтоистской традиции», *Ежегодник Япония*, 2008 (read in the HTML text, the PDF's font not extractable): «пяти сезонных праздников госэкку — дзиндзицу, хинамацури, танго-но сэкку, танабата, теесики» | attested only in transcription, «дзиндзицу»; no translation found |
+| 五節句 | — | БЯРС 〔006-69-67〕 «пять традиционных праздников»; Молодякова «пяти сезонных праздников госэкку» | for the set |
+| 社日 | день божества земли | none found | keeps the app's |
+| 重陽の節句 | праздник двойной девятки | БЯРС 〔008-53-71〕 «праздник хризантем»; Васютин p. 37 «девятый день девятой луны (праздник хризантем)»; Н. Н. Изотова, «Напиток богов…», *Вестник ТГУ. Культурология и искусствоведение*, 2020, № 39, p. 27 «праздник, посвященный хризантемам» | the expert's «двойной девятки» (K2) not found in print; «праздник хризантем» in three |
+| 七夕 | Танабата | БЯРС 〔007-09-76〕 «„праздник Ткачихи“»; Васютин p. 37 «праздник влюблённых» | the transcription is the expert's (K2) |
+| 端午 / 上巳 | праздник первого дня Лошади / Змеи | БЯРС 〔007-35-26〕 «„праздник мальчиков“», 〔006-84-82〕 «праздник девочек»; Степанова p. 128 «Танго-но-сэкку»; Васютин p. 37 «праздник мальчиков», «праздник кукол или праздник девочек» | in passing: the app's literal names not found |
+| 十三夜 | тринадцатая ночь, поздняя луна | БЯРС 〔001-69-98〕 «„тринадцатая ночь“» | app attested |
+| 旧暦 | Кюрэки | БЯРС 〔000-53-93〕 «старый (лунный) календарь» | in passing |
+| 庚申 | Обезьяна Металла ян (косин) | Синицын, Габитова pp. 237, 242: «День Косин», «Год Косин»; БЯРС 〔002-02-30〕 «„год обезьяны“ (по 60-летнему циклу)» | in passing |
+
+### The dossier's band names of question 14
+
+| Name in the dossier | For | Attested | Note |
+| --- | --- | --- | --- |
+| «двенадцать станций» | 十二直 | none found | keeps the app's |
+| «лунная стоянка» | 二十八宿 | «28 стоянок» (Чирич p. 10), «стоянок Луны» (Сомкина p. 344); «лунные станции» (Вяткин pp. 32–33, after Pannekoek); «28 сю», «зодиакальные созвездия» (Вяткин) | attested |
+| «нижняя полоса» | 下段 | none found | keeps the app's |
+| «избранные дни» | 選日 | none found | keeps the app's |
+| «дни божеств» | 縁日 | «храмовый праздник» (БЯРС), «календарные храмовые праздники» (Синицын, Габитова p. 237) | another name in print |
+| «сезонные вехи» | 雑節 | none found | keeps the app's |
+| «принятие смерти» | 受死日 | none found (no БЯРС entry) | keeps the app's |
+| «нисходящий пожиратель года» | 歳下食 | none found (no БЯРС entry) | keeps the app's |
+| «Тэнъити на небесах» | 天一天上 | none found (no БЯРС entry for 天一天上 or 天一) | keeps the app's |
+
+So of the expert's "some have established translations", the read works
+bear out «стоянка» for the mansions, «сезон» for the 節気, «кончина
+Будды» for 仏滅's literal sense, «месяц без богов» for 神無月 and
+«храмовый праздник» for 縁日; for the bands of the lower almanac (下段,
+中段, 選日, 雑節) and its named days she was right that nothing is found in
+Russian.
+
+### Open
+
+- Question: the expert wrote that the twenty-eight mansions have
+  established translations among the sinologists. Вяткин's set (Ши цзи,
+  vol. IV, 1986) is the one read; is it the one she means, or another
+  (Кобзев's tables, Еремеев's or another article of *Духовная культура
+  Китая*)?
+- Question: is «календарные примечания» for 暦注 attested in a
+  published work she can name, or her own proposal?
+- Question: for the numbered months, does Japanology prefer «N-я луна»
+  (the translators of the chronicles and of Хэйан prose) or «N-й месяц»
+  (БЯРС, Садокова) for the 旧暦 page?
+- Question: the twelve old month names are translated as a set in no
+  work found; does a Russian Japanologist's commentary (to 古今集, 枕草子
+  or 日本書紀) translate them, and which etymology did «одной
+  этимологии» mean?
+- Question: Н. И. Фельдман, «Японский календарь» (*Народы Азии и
+  Африки*, 1970, № 4) and В. В. Цыбульский, *Лунно-солнечный календарь
+  стран Восточной Азии* (М., 1987), cited in Еремеев's bibliography, may
+  name the 暦注 and the 六曜 in Russian; where can they be read?
+
+### Searched and not found
+
+- cyberleninka.ru (its search API, 2026-10-15): «гутюрэки» (0),
+  «кюрэки» (0), «дзюнитёку» (0), «28 сю» (0), «шэ жи» (0), «сюкуё»
+  (only Трубникова 2023, a sūtra's title), «буцумэцу» (only Корнилов
+  2004), «оммёдо календарь», «календарные приметы Японии», «коёми»,
+  «сэкку», «госэкку», «дзиндзицу», «муцуки», «каннадзуки», «цзянь чу»,
+  «жи шу», «тун шу альманах», «хуанли»: no Russian name for 暦注, its
+  bands, 十二直, 選日, 雑節, 社日 or the named days of 下段.
+- synologia.ru: the articles «Эр ши ба сю», «Сю», «Цзе ци», «Эр ши сы
+  ци», «Шэ», «Шэ цзи», «Цзянь чу», «Жэнь жи», «Тянь и», «Тай и», «Тай
+  суй», «Шэнь ша», «Тун шу», «Хуан ли», «Двадцать восемь созвездий»
+  are "not yet written"; «Календарь» (Еремеев) and «Гань чжи» (Кравцова)
+  exist.
+- warodai.ru (БЯРС): no entry for 暦注, 六曜, 十二直, 選日, 雑節, 社日,
+  受死日, 歳下食, 天一天上, 八専, 三隣亡, 一粒万倍日, 不成就日, 天赦日,
+  母倉, 大明, 往亡, 帰忌, 血忌, 大禍日, 狼藉日, 滅門日, 三箇の悪日, 角宿,
+  鬼宿, 亢宿; 中段, 下段, 十死 («смертельная опасность») and 十方暮 («небо,
+  со всех сторон обложенное тучами») only in senses outside the
+  calendar.
+- abirus.ru's copy of Вяткин's index did not load (timeout,
+  2026-10-15); the same volume was read at coollib.com.
+- The 1989 volume *Календарные обычаи и обряды народов Восточной Азии.
+  Годовой цикл* (М., 1989), Фельдман 1970 and Цыбульский 1987: no full
+  text found online (WebSearch, 2026-10-15).
+- Воркина, Кодама, Саркисова, «Японские календарные системы и их
+  влияние на приметы и традиции народа» (*Современная наука… Серия:
+  Познание*, 2019, № 12, pp. 5–8; on the 六曜): only the RUDN
+  repository's record, no text.
+- WebSearch in Russian for the 十二直 (建除), 社日 and 暦注 terms: only
+  fortune-telling and travel sites, not read.
