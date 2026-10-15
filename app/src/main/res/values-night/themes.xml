@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- System on a phone set to dark: Ink (ROADMAP A1). -->
+    <style name="Theme.Zanshin.System" parent="Theme.Zanshin" />
+</resources>

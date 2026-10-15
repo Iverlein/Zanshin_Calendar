@@ -8,11 +8,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.mutableIntStateOf
+import zanshin.app.ThemeWindow.prepare
 import zanshin.app.ui.ZanshinApp
 import zanshin.app.ui.ZanshinTheme
 import zanshin.core.texts.Catalog
@@ -26,12 +25,10 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        enableEdgeToEdge(
-            statusBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
-            navigationBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
-        )
-        super.onCreate(savedInstanceState)
         val settings = Settings(this)
+        // The stored theme before the first frame (ROADMAP A1): the window's style, the bars and the palette.
+        prepare(settings.theme)
+        super.onCreate(savedInstanceState)
         val cities = Cities(applicationContext)
         val labels = Labels(resources)
         Catalog.locale = labels.locale

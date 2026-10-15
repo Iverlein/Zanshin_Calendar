@@ -199,7 +199,7 @@ fun KyurekiPage(
             if (day.termBeginning != null) {
                 Text(
                     stringResource(R.string.kyu_begins_today),
-                    style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Palette.ink),
+                    style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Palette.onAccent),
                     modifier = Modifier.background(accent, RoundedCornerShape(12.dp)).padding(horizontal = 10.dp, vertical = 4.dp),
                 )
             } else {

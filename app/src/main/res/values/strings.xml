@@ -271,6 +271,16 @@
     <string name="menu_kigaku_subtitle">Your birth star against the day star</string>
     <string name="menu_language">Language</string>
     <string name="language_system">Phone\'s language</string>
+    <string name="menu_theme">Theme</string>
+    <string name="theme_system">Phone\'s setting</string>
+    <string name="theme_system_note">Ink or Paper, as the phone is set to dark or light</string>
+    <string name="theme_ink">Ink</string>
+    <string name="theme_ink_note">Dark, the default</string>
+    <string name="theme_paper">Paper</string>
+    <string name="theme_paper_note">Light, a warm page with dark ink</string>
+    <string name="theme_night">Night</string>
+    <string name="theme_night_note">Black, for OLED screens</string>
+    <string name="theme_done">Done</string>
     <string name="menu_about">About &amp; sources</string>
     <string name="menu_about_subtitle">Formulas, fonts, GeoNames</string>
     <string name="selected">Selected</string>

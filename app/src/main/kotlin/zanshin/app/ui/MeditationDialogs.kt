@@ -202,7 +202,7 @@ fun BellTimeDialog(
                     colors = TimePickerDefaults.colors(
                         containerColor = Palette.surface,
                         clockDialColor = Palette.raised,
-                        clockDialSelectedContentColor = Palette.ink,
+                        clockDialSelectedContentColor = Palette.onAccent,
                         clockDialUnselectedContentColor = Palette.text,
                         selectorColor = Palette.saffron,
                         periodSelectorBorderColor = Palette.lineStrong,

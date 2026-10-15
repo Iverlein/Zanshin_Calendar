@@ -297,7 +297,7 @@ private fun MonthGrid(year: Int, shown: YearMonth, thisMonth: YearMonth, range: 
 @Composable
 private fun JumpCell(text: String, selected: Boolean, current: Boolean, enabled: Boolean, accent: Color, onClick: () -> Unit) {
     val fg = when {
-        selected -> Palette.ink
+        selected -> Palette.onAccent
         !enabled -> Palette.off
         current -> accent
         else -> Palette.text
@@ -349,7 +349,7 @@ private fun DayCell(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        val fg = if (selected) Palette.ink else Palette.text
+        val fg = if (selected) Palette.onAccent else Palette.text
         Text("${date.dayOfMonth}", style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = fg))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
             Text(sub, style = body.copy(fontSize = 11.sp, color = fg.copy(alpha = 0.8f)))

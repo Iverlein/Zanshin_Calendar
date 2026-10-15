@@ -5,6 +5,7 @@
 package zanshin.app.ui
 
 import android.app.Activity
+import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -86,6 +87,7 @@ import zanshin.app.Reckoning
 import zanshin.app.Person
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
+import zanshin.app.ThemeWindow
 import zanshin.core.astro.SunTimes
 import zanshin.core.kyureki.Kigaku
 import zanshin.core.tibetan.TibetanCalendar
@@ -108,6 +110,8 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     val activity = LocalContext.current as Activity
     val language = remember { AppLanguage.current(activity) }
     var languageDialog by remember { mutableStateOf(false) }
+    var theme by remember { mutableStateOf(settings.theme) }
+    var themeDialog by remember { mutableStateOf(false) }
     // Set while the people dialogs were opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
@@ -373,6 +377,11 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     scope.launch { drawer.close() }
                     languageDialog = true
                 },
+                themeLabel = stringResource(theme.label()),
+                onTheme = {
+                    scope.launch { drawer.close() }
+                    themeDialog = true
+                },
                 onClose = { scope.launch { drawer.close() } },
             )
         },
@@ -446,6 +455,18 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     if (it != language) AppLanguage.set(activity, it)
                 },
                 onDismiss = { languageDialog = false },
+            )
+        }
+
+        if (themeDialog) {
+            ThemeDialog(
+                current = theme,
+                onChoose = {
+                    theme = it
+                    settings.theme = it
+                    with(ThemeWindow) { (activity as ComponentActivity).apply(it) }
+                },
+                onDismiss = { themeDialog = false },
             )
         }
 
@@ -551,7 +572,7 @@ private fun CalendarToggle(calendar: CalendarKind, onChoose: (CalendarKind) -> U
                         style = body.copy(
                             fontSize = 13.sp,
                             fontWeight = FontWeight.SemiBold,
-                            color = if (selected) Palette.ink else accent,
+                            color = if (selected) Palette.onAccent else accent,
                             fontFamily = if (tibetan) Figtree else Mincho,
                         ),
                         maxLines = 1,
@@ -646,6 +667,8 @@ private fun SideMenu(
     onAbout: () -> Unit,
     languageLabel: String,
     onLanguage: () -> Unit,
+    themeLabel: String,
+    onTheme: () -> Unit,
     onClose: () -> Unit,
 ) {
     ModalDrawerSheet(
@@ -707,6 +730,7 @@ private fun SideMenu(
                 MenuRow(Icons.Person, stringResource(R.string.menu_people), personLabel, onPeople)
                 SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
                 MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
+                MenuRow(Icons.Contrast, stringResource(R.string.menu_theme), themeLabel, onTheme)
             }
             MenuSeparator()
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)
@@ -804,7 +828,7 @@ private fun SwitchRow(icon: ImageVector, title: String, subtitle: String, checke
             checked = checked,
             onCheckedChange = null,
             colors = SwitchDefaults.colors(
-                checkedThumbColor = Palette.ink,
+                checkedThumbColor = Palette.onAccent,
                 checkedTrackColor = Palette.vermilion,
                 uncheckedThumbColor = Palette.muted,
                 uncheckedTrackColor = Palette.raised,

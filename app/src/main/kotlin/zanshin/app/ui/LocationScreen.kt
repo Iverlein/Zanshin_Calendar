@@ -200,7 +200,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
                 val valid = la != null && lo != null && la in -90.0..90.0 && lo in -180.0..180.0
                 Text(
                     stringResource(R.string.loc_save),
-                    style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = if (valid) Palette.ink else Palette.faint),
+                    style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = if (valid) Palette.onAccent else Palette.faint),
                     modifier = Modifier
                         .fillMaxWidth()
                         .height(48.dp)

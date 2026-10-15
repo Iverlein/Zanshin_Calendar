@@ -2,7 +2,7 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The seven store screenshots, in one language, on the emulator.
+"""The eight store screenshots, in one language, on the emulator.
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
@@ -12,8 +12,9 @@
 6. The meditation timer: a zazen of 20, 10 and 30 minutes, set from its preset
 7. The year of age of a man born 1976-06-01 (a fire dragon year, chart 6.2's
    subject) in 2026, in the Reckonings, opened from the year's balloon on 2026-10-23 in Lhasa
+8. Shot 1's day in the Paper theme (ROADMAP A1), the light page beside the seven in Ink
 
-Shots 1 to 6 set no birth date, so no personal rows appear. The status bar is put in demo
+Shots 1 to 6 and 8 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
 "hide notifications", and every clock change posts a "Clock change"
 notification, so the shade is cleared after each change. Demo mode is left
@@ -155,6 +156,9 @@ try:
     tap_at(find(labels["year"]))
     tap_at(find(labels["year_of_age"]))
     shot(7)
+
+    day("06180900", 2027, "TIBETAN", LHASA, strings={"theme": "PAPER"})
+    shot(8)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")

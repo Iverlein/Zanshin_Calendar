@@ -5,6 +5,7 @@
 package zanshin.app
 
 import android.content.Context
+import zanshin.app.ui.AppTheme
 import zanshin.core.astro.Place
 import java.time.LocalDate
 import java.time.ZoneId
@@ -105,6 +106,16 @@ class Settings(context: Context) {
 
     private fun menuGroupKey(group: MenuGroup) = "menu_" + group.name.lowercase(Locale.ROOT)
 
+    /** The colour theme (SPEC §10.5, ROADMAP A1): Ink on every install until another is chosen (D5). */
+    var theme: AppTheme
+        get() = prefs.getString(KEY_THEME, null)
+            ?.let { runCatching { AppTheme.valueOf(it) }.getOrNull() }
+            ?: AppTheme.INK
+        // Committed at once: the launch reads it back before the first frame, and the splash with it.
+        set(value) {
+            prefs.edit().putString(KEY_THEME, value.name).commit()
+        }
+
     /** The app's language before Android 13 (see [AppLanguage]); null follows the phone. */
     var language: String?
         get() = prefs.getString(KEY_LANGUAGE, null)
@@ -117,6 +128,7 @@ class Settings(context: Context) {
         /** The opens of each page that show its first-run line. */
         const val FIRST_RUN_OPENS = 3
         private const val KEY_LANGUAGE = "language"
+        private const val KEY_THEME = "theme"
         private const val KEY_BIRTH = "birth"
         private const val KEY_PEOPLE = "people"
         private const val KEY_PERSON = "person"

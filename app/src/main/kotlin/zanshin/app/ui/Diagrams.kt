@@ -420,6 +420,12 @@ private fun starColour(n: Int): Color = when (n) {
     else -> Color(0xFFA07AC0)
 }
 
+/** A star's dot in its printed colour; the white stars ringed on a light page, where they would vanish. */
+private fun DrawScope.starDot(n: Int, radius: Float, center: Offset) {
+    drawCircle(starColour(n), radius, center)
+    if (Palette.light && (n == 1 || n == 6 || n == 8)) drawCircle(Palette.faint, radius, center, style = Stroke(0.6.dp.toPx()))
+}
+
 /** Lines of a trigram from the top down, true for a whole line. */
 private fun trigramLines(t: Trigram): List<Boolean> = when (t) {
     Trigram.KHEN -> listOf(true, true, true)
@@ -478,7 +484,7 @@ fun StarBoard(day: KyuSei, month: KyuSei, year: KyuSei, size: Dp) {
                 androidx.compose.ui.geometry.CornerRadius(6.dp.toPx()),
                 style = Stroke((if (on) 1.5f else 1f).dp.toPx()),
             )
-            drawCircle(starColour(n), 2.6.dp.toPx(), Offset(x + 8.dp.toPx(), y + 8.dp.toPx()))
+            starDot(n, 2.6.dp.toPx(), Offset(x + 8.dp.toPx(), y + 8.dp.toPx()))
             label(measurer, star.kanji.take(2), Offset(x + cell / 2, y + cell / 2), kanjiStyle.copy(fontSize = (cell * 0.24f).toSp(), color = if (on) Palette.text else Palette.muted))
             val marks = listOfNotNull("月".takeIf { star == month }, "年".takeIf { star == year })
             marks.forEachIndexed { j, m ->
@@ -527,7 +533,7 @@ fun StarBoardDetail(day: KyuSei, size: Dp) {
                     corner,
                     style = Stroke((if (on) 1.6f else 1f).dp.toPx()),
                 )
-                drawCircle(starColour(n), 3.2.dp.toPx(), Offset(x + 11.dp.toPx(), y + 11.dp.toPx()))
+                starDot(n, 3.2.dp.toPx(), Offset(x + 11.dp.toPx(), y + 11.dp.toPx()))
                 label(measurer, LO_SHU_DIRECTION[i], Offset(x + cell - 16.dp.toPx(), y + 11.dp.toPx()), kanjiStyle.copy(fontSize = 8.sp, color = Palette.faint))
                 label(measurer, KyuSei.of(n).kanji.take(2), Offset(x + cell / 2, y + cell * 0.45f), kanjiStyle.copy(fontSize = (cell * 0.2f).toSp(), color = if (on) Palette.text else Palette.muted))
                 LO_SHU_TRIGRAM[n]?.let { t ->
@@ -552,7 +558,10 @@ fun StarBoardDetail(day: KyuSei, size: Dp) {
     }
 }
 
-/** The sme ba colours as printed (Berzin 4), by number; black gets a rim on the dark page. */
+/**
+ * The sme ba colours as printed (Berzin 4), by number, the same on every theme; a box gets a rim where it meets a
+ * page of its own lightness ([needsRim]): black on a dark page, white on a light one.
+ */
 fun smeBaColour(n: Int): Color = when (n) {
     1, 6, 8 -> Color(0xFFF2EFE8)
     2 -> Color(0xFF000000)
@@ -562,17 +571,32 @@ fun smeBaColour(n: Int): Color = when (n) {
     else -> Color(0xFFB3322A)
 }
 
+/** Whether the printed box [n] (sme ba or star) is of the page's own lightness and needs a rim to be seen. */
+fun needsRim(n: Int): Boolean = if (Palette.light) n == 1 || n == 6 || n == 8 else n == 2
+
 /**
  * An element's colour (ROADMAP T3): the hues of the sme ba boxes that stand for it (Berzin 4: iron
  * white, water black or blue, wood green, earth yellow, fire red), lightened where a thin glyph in
- * the printed shade would vanish on the dark page; water takes the blue, as black would.
+ * the printed shade would vanish on the dark page; water takes the blue, as black would. A light page
+ * (ROADMAP A1) takes a darker set of the same hues, iron a slate grey for white, each 4.5:1 on the
+ * sheets and apart in lightness from the tones.
  */
-fun elementColour(e: Element): Color = when (e) {
-    Element.WOOD -> Color(0xFF5FAE6C)
-    Element.FIRE -> Color(0xFFD9553F)
-    Element.EARTH -> smeBaColour(5)
-    Element.IRON -> smeBaColour(1)
-    Element.WATER -> Color(0xFF6A8FE0)
+fun elementColour(e: Element): Color = if (Palette.light) {
+    when (e) {
+        Element.WOOD -> Color(0xFF2D7444)
+        Element.FIRE -> Color(0xFFB23C1A)
+        Element.EARTH -> Color(0xFF7F6200)
+        Element.IRON -> Color(0xFF5A626C)
+        Element.WATER -> Color(0xFF2A50B0)
+    }
+} else {
+    when (e) {
+        Element.WOOD -> Color(0xFF5FAE6C)
+        Element.FIRE -> Color(0xFFD9553F)
+        Element.EARTH -> smeBaColour(5)
+        Element.IRON -> smeBaColour(1)
+        Element.WATER -> Color(0xFF6A8FE0)
+    }
 }
 
 /** The nine numbers (sme ba) in the square, each in its printed colour, [today] marked. */
@@ -588,7 +612,7 @@ fun SmeBaSquare(today: Int, size: Dp, description: String) {
             drawRect(if (on) Palette.raised else Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
             val s = cell * 0.46f
             drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + (cell - s) / 2), Size(s, s))
-            if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + (cell - s) / 2), Size(s, s), style = Stroke(0.6.dp.toPx()))
+            if (needsRim(n)) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + (cell - s) / 2), Size(s, s), style = Stroke(0.6.dp.toPx()))
             if (on) drawRect(Palette.saffron, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.4.dp.toPx()))
         }
     }
@@ -616,7 +640,7 @@ fun MovedSmeBaSquare(centre: Int, mark: Int, size: Dp, description: String, capt
                 drawRect(Palette.surface, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset))
                 val s = cell * 0.34f
                 drawRect(smeBaColour(n), Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s))
-                if (n == 2) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s), style = Stroke(0.6.dp.toPx()))
+                if (needsRim(n)) drawRect(Palette.faint, Offset(x + (cell - s) / 2, y + cell * 0.14f), Size(s, s), style = Stroke(0.6.dp.toPx()))
                 label(measurer, "$n", Offset(x + cell / 2, y + cell * 0.74f), TextStyle().copy(fontSize = 13.sp, color = Palette.text))
                 if (i == 4) drawRect(Palette.lineStrong, Offset(x + inset, y + inset), Size(cell - 2 * inset, cell - 2 * inset), style = Stroke(1.dp.toPx()))
             }

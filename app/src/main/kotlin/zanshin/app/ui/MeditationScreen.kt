@@ -725,7 +725,7 @@ private fun Toggle(title: String, subtitle: String, checked: Boolean, onChange: 
             checked = checked,
             onCheckedChange = null,
             colors = SwitchDefaults.colors(
-                checkedThumbColor = Palette.ink,
+                checkedThumbColor = Palette.onAccent,
                 checkedTrackColor = Palette.saffron,
                 uncheckedThumbColor = Palette.muted,
                 uncheckedTrackColor = Palette.raised,

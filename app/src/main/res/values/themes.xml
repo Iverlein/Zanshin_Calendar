@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ink">#FF111311</color>
+    <color name="night">#FF000000</color>
+    <color name="paper">#FFF5F1E8</color>
 
-    <!-- Dark only in 1.0 (SPEC §10.1). The window is ink before Compose draws. -->
+    <!-- Ink, the default (SPEC §10.1). The window is the theme's page before Compose draws (ROADMAP A1). -->
     <style name="Theme.Zanshin" parent="android:Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/ink</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
+
+    <style name="Theme.Zanshin.Night">
+        <item name="android:windowBackground">@color/night</item>
+    </style>
+
+    <style name="Theme.Zanshin.Paper" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- System: Paper here, Ink in values-night, by the phone's dark setting. -->
+    <style name="Theme.Zanshin.System" parent="Theme.Zanshin.Paper" />
 </resources>

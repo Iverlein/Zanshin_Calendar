@@ -231,6 +231,16 @@
     <string name="menu_kigaku_subtitle">Ваша звезда рождения и звезда дня</string>
     <string name="menu_language">Язык</string>
     <string name="language_system">Язык телефона</string>
+    <string name="menu_theme">Тема</string>
+    <string name="theme_system">Как в телефоне</string>
+    <string name="theme_system_note">Тушь или Бумага, по тёмной или светлой теме телефона</string>
+    <string name="theme_ink">Тушь</string>
+    <string name="theme_ink_note">Тёмная, по умолчанию</string>
+    <string name="theme_paper">Бумага</string>
+    <string name="theme_paper_note">Светлая, тёплая страница и тёмный текст</string>
+    <string name="theme_night">Ночь</string>
+    <string name="theme_night_note">Чёрная, для OLED-экранов</string>
+    <string name="theme_done">Готово</string>
     <string name="menu_about">О приложении и источниках</string>
     <string name="menu_about_subtitle">Формулы, шрифты, GeoNames</string>
     <string name="selected">Выбрано</string>

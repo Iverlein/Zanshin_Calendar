@@ -32,6 +32,7 @@ object Icons {
         1.7f,
     )
 
+    val Contrast = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M12 3v18M12 7.5h4.6M12 12h6M12 16.5h4.6", 1.6f)
     val Globe = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M3.5 9h17M3.5 15h17M12 3c-2.4 2.6-3.6 5.6-3.6 9s1.2 6.4 3.6 9M12 3c2.4 2.6 3.6 5.6 3.6 9s-1.2 6.4-3.6 9", 1.6f)
 
     /** A clock face, for the hours of the day. */

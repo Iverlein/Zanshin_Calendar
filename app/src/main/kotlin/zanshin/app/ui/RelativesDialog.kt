@@ -287,7 +287,7 @@ private fun RelativeDialog(
                             checked = household,
                             onCheckedChange = null,
                             colors = SwitchDefaults.colors(
-                                checkedThumbColor = Palette.ink,
+                                checkedThumbColor = Palette.onAccent,
                                 checkedTrackColor = Palette.saffron,
                                 uncheckedThumbColor = Palette.muted,
                                 uncheckedTrackColor = Palette.raised,

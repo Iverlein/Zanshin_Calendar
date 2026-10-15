@@ -6,7 +6,12 @@ package zanshin.app.ui
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Immutable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.ExperimentalTextApi
@@ -21,26 +26,128 @@ import androidx.compose.ui.unit.em
 import io.github.iverlein.zanshin.R
 import zanshin.core.tibetan.Ewts
 
-/** The palette of the basic design (SPEC §10), dark only. */
-object Palette {
-    val ink = Color(0xFF111311)
-    val surface = Color(0xFF1A1D1A)
-    val raised = Color(0xFF232723)
-    val selected = Color(0xFF262B26)
-    val line = Color(0xFF2C302C)
-    val lineStrong = Color(0xFF3A3F3A)
-    val text = Color(0xFFECE8DF)
-    val muted = Color(0xFFA6A99F)
-    val faint = Color(0xFF80847C)
-    val off = Color(0xFF4A4F49)
-    val saffron = Color(0xFFE3A94F)
-    val vermilion = Color(0xFFEC8468)
-    val scrim = Color(0x99000000)
-
+/**
+ * A theme's colours (SPEC §10.1, ROADMAP A1): the roles every screen, sheet and diagram draws with. [ink] is the
+ * page; [onAccent] the text and thumbs set on a saffron or vermilion fill, the page's colour on every theme, as
+ * each accent is chosen to stand against its page. [light] picks the printed colours' set for a light page.
+ */
+@Immutable
+data class ZanshinColors(
+    val light: Boolean,
+    val ink: Color,
+    val surface: Color,
+    val raised: Color,
+    val selected: Color,
+    val line: Color,
+    val lineStrong: Color,
+    val text: Color,
+    val muted: Color,
+    val faint: Color,
+    val off: Color,
+    val saffron: Color,
+    val vermilion: Color,
     // Annotation tones; they differ in lightness as well as hue.
-    val good = Color(0xFF9CCB98)
-    val bad = Color(0xFFE8826F)
-    val mixed = Color(0xFFD9B45C)
+    val good: Color,
+    val bad: Color,
+    val mixed: Color,
+    val scrim: Color = Color(0x99000000),
+    val onAccent: Color = ink,
+)
+
+/** Ink, the dark palette of the basic design, the default for every install (D5). */
+val InkColors = ZanshinColors(
+    light = false,
+    ink = Color(0xFF111311),
+    surface = Color(0xFF1A1D1A),
+    raised = Color(0xFF232723),
+    selected = Color(0xFF262B26),
+    line = Color(0xFF2C302C),
+    lineStrong = Color(0xFF3A3F3A),
+    text = Color(0xFFECE8DF),
+    muted = Color(0xFFA6A99F),
+    faint = Color(0xFF80847C),
+    off = Color(0xFF4A4F49),
+    saffron = Color(0xFFE3A94F),
+    vermilion = Color(0xFFEC8468),
+    good = Color(0xFF9CCB98),
+    bad = Color(0xFFE8826F),
+    mixed = Color(0xFFD9B45C),
+)
+
+/** Night: Ink on a black page, for OLED screens; the sheets and cells a step above black. */
+val NightColors = InkColors.copy(
+    ink = Color(0xFF000000),
+    surface = Color(0xFF0D0F0D),
+    raised = Color(0xFF181B18),
+    selected = Color(0xFF1C201C),
+    line = Color(0xFF242824),
+    lineStrong = Color(0xFF333833),
+    onAccent = Color(0xFF000000),
+)
+
+/**
+ * Paper: a warm off-white page with dark ink. The accents and tones are darkened until each stands 4.5:1 as text
+ * on the page, the sheets and the raised cells; the tones keep their order apart in lightness, good darkest.
+ */
+val PaperColors = ZanshinColors(
+    light = true,
+    ink = Color(0xFFF5F1E8),
+    surface = Color(0xFFECE7DB),
+    raised = Color(0xFFE3DDCF),
+    selected = Color(0xFFDCD5C5),
+    line = Color(0xFFD6CFC0),
+    lineStrong = Color(0xFFBDB5A4),
+    text = Color(0xFF1F1D19),
+    muted = Color(0xFF57534B),
+    faint = Color(0xFF6F6B62),
+    off = Color(0xFFB4AD9E),
+    saffron = Color(0xFF8A5300),
+    vermilion = Color(0xFFA8361C),
+    good = Color(0xFF1A4F23),
+    bad = Color(0xFFAD3019),
+    mixed = Color(0xFF6A4C00),
+    scrim = Color(0x66000000),
+)
+
+/** The themes offered in Settings (SPEC §10.5), by the owner's names (D5); System follows the phone's dark setting. */
+enum class AppTheme { SYSTEM, INK, PAPER, NIGHT }
+
+/** The colours [theme] draws with, [systemDark] deciding System between Ink and Paper. */
+fun AppTheme.colors(systemDark: Boolean): ZanshinColors = when (this) {
+    AppTheme.SYSTEM -> if (systemDark) InkColors else PaperColors
+    AppTheme.INK -> InkColors
+    AppTheme.PAPER -> PaperColors
+    AppTheme.NIGHT -> NightColors
+}
+
+/**
+ * The palette of the theme drawn now: every screen, sheet and Canvas reads its roles here, so the call sites keep
+ * their names. A snapshot state rather than a CompositionLocal: a theme is one for the whole app, and the reads
+ * inside draw lambdas and plain functions ([toneColor], the printed colours) are tracked all the same, so a
+ * change of theme recomposes and redraws everything that read the old one.
+ */
+object Palette {
+    var colors: ZanshinColors by mutableStateOf(InkColors)
+
+    val light get() = colors.light
+    val ink get() = colors.ink
+    val surface get() = colors.surface
+    val raised get() = colors.raised
+    val selected get() = colors.selected
+    val line get() = colors.line
+    val lineStrong get() = colors.lineStrong
+    val text get() = colors.text
+    val muted get() = colors.muted
+    val faint get() = colors.faint
+    val off get() = colors.off
+    val saffron get() = colors.saffron
+    val vermilion get() = colors.vermilion
+    val scrim get() = colors.scrim
+    val onAccent get() = colors.onAccent
+
+    val good get() = colors.good
+    val bad get() = colors.bad
+    val mixed get() = colors.mixed
 }
 
 @OptIn(ExperimentalTextApi::class)
@@ -94,23 +201,24 @@ val Mincho = FontFamily(
     Font(R.font.shippori_bold, FontWeight.Bold),
 )
 
+/** The Material scheme built from the theme drawn now, `lightColorScheme` for a light one. */
 @Composable
 fun ZanshinTheme(content: @Composable () -> Unit) {
-    MaterialTheme(
-        colorScheme = darkColorScheme(
-            background = Palette.ink,
-            surface = Palette.surface,
-            surfaceContainerLow = Palette.surface,
-            surfaceContainer = Palette.surface,
-            surfaceContainerHigh = Palette.raised,
-            onBackground = Palette.text,
-            onSurface = Palette.text,
-            onSurfaceVariant = Palette.muted,
-            primary = Palette.saffron,
-            outline = Palette.lineStrong,
-            outlineVariant = Palette.line,
-            scrim = Palette.scrim,
-        ),
-        content = content,
-    )
+    val c = Palette.colors
+    val scheme = if (c.light) {
+        lightColorScheme(
+            background = c.ink, surface = c.surface, surfaceContainerLowest = c.ink, surfaceContainerLow = c.surface,
+            surfaceContainer = c.surface, surfaceContainerHigh = c.raised, surfaceContainerHighest = c.selected,
+            surfaceVariant = c.raised, onBackground = c.text, onSurface = c.text, onSurfaceVariant = c.muted,
+            primary = c.saffron, onPrimary = c.onAccent, secondary = c.saffron, onSecondary = c.onAccent,
+            outline = c.lineStrong, outlineVariant = c.line, scrim = c.scrim,
+        )
+    } else {
+        darkColorScheme(
+            background = c.ink, surface = c.surface, surfaceContainerLow = c.surface, surfaceContainer = c.surface,
+            surfaceContainerHigh = c.raised, onBackground = c.text, onSurface = c.text, onSurfaceVariant = c.muted,
+            primary = c.saffron, outline = c.lineStrong, outlineVariant = c.line, scrim = c.scrim,
+        )
+    }
+    MaterialTheme(colorScheme = scheme, content = content)
 }

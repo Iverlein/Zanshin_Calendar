@@ -57,7 +57,7 @@ import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos
 
-val body = TextStyle(fontFamily = Figtree, fontSize = 15.sp, color = Palette.text)
+val body get() = TextStyle(fontFamily = Figtree, fontSize = 15.sp, color = Palette.text)
 
 /**
  * Display text in Mincho with the line box trimmed to [ratio] of the font

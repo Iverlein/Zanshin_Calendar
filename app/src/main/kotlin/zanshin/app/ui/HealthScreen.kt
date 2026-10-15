@@ -156,7 +156,7 @@ private fun Tabs(tab: HealthTab, onTab: (HealthTab) -> Unit) {
                 ) {
                     Text(
                         stringResource(t.label),
-                        style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = if (selected) Palette.ink else Palette.muted),
+                        style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = if (selected) Palette.onAccent else Palette.muted),
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.padding(horizontal = 4.dp),
