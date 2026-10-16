@@ -38,7 +38,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
-| 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
+| 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 
@@ -109,7 +109,7 @@ moves up as soon as it is unblocked.
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
-| <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
+| <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 
 ## Readings
@@ -381,9 +381,14 @@ as a dead end (sources/PLAN.md).
   and pardon days, the brief, the 中段, 二十八宿, 下段, 選日, 縁日 and 雑節
   rows, the day star, the 気学 relation, the 恵方 and the sky line all
   open. These do not:
-  1. **The solar term row** (the ring, «秋分 · until 8 Oct»): not
+  1. **The solar term row** (the framed box under the day's number: the
+     small ring, `TermRing` at 48 dp, and «秋分 · until 8 Oct»): not
      tappable; its kanji gives the English only. No `reading.SolarTerm.*`
-     exists in the catalog.
+     exists in the catalog. The owner (2026-10-16): no reading, no
+     details and no full ring, where a Tibetan row opens to all three —
+     the reading, the details of how the entry was worked out
+     (`Annotation.details`) and, for a cycle, the whole ring at sheet size
+     (the mansion, yoga and karana rings at 280 dp).
   2. **The 干支 rows** — the day's, the year's and the solar month's:
      `FactRow`s with no `onClick` and no balloon; the glyphs give the
      element and animal, nothing says what they are.
@@ -396,14 +401,20 @@ as a dead end (sources/PLAN.md).
      computes the elongation and shows no number.
   The hours (十二時辰 with 時下食, SPEC §3) and a year sheet (K5) are
   not rows and stay where they are planned.
-- **Work.** In the order of the page: (1) a sheet for the term, as the
-  annotation rows have: the term's reading (what it marks, 節 or 中, its
-  longitude, the dates it spans this year, the 節月 it opens and what
-  hangs on that — the 三箇の悪日, 土用 before each 立, 彼岸 and 社日 at the
-  equinoxes), 24 texts in both languages from a sourced reading, K6-R,
+- **Work.** In the order of the page: (1) the whole framed box opens a
+  sheet for the term, with the three parts a Tibetan sheet has.
+  *The reading*: what the term marks and what hangs on it — the 節月 it
+  opens with the 三箇の悪日, 土用 before each 立, 彼岸 and 社日 at the
+  equinoxes — 24 texts in both languages from a sourced reading, K6-R,
   into kyureki.md (the NAOJ 暦Wiki and koyomi8 for the astronomy, the old
   texts of K3 for the readings; no 七十二候, dropped by the owner on
-  2026-10-10). (2) A balloon on each 干支 row: the stem's element and
+  2026-10-10). *The details*, computed, as label and value: 節 or 中, the
+  sun's longitude, the day it began and the day it ends this year, the
+  節月 it opens or falls in, the next term and its date. *The full ring*:
+  `TermRing` drawn at sheet size in a `DiagramFrame`, the 24 terms named
+  round it in kanji, the 節 and 中 told apart, the present term marked
+  and today's place within it, the 土用 and equinox arcs as on the small
+  ring; its own content description naming the term. (2) A balloon on each 干支 row: the stem's element and
   polarity, the branch's animal, the pair's place in the sixty (day and
   year); the solar month's 節 start and end and that the personal bad
   days are counted by it. Facts the catalog already names, no new
@@ -426,8 +437,9 @@ as a dead end (sources/PLAN.md).
 - **Block.** [56](#block-56), from K6-R; [53](#block-53) may
   revise the term readings' wording, not their presence.
 - **Done when.** Every row of the page opens on the emulator in both
-  languages (a tour that taps each row and dumps the sheet or balloon);
-  `CatalogTest` for the 24 readings in the shape of SPEC §8.1; SPEC §10.4;
+  languages (a tour that taps each row and dumps the sheet or balloon),
+  the term's sheet with its reading, details and full ring, legible at
+  the largest font (A2); `CatalogTest` for the 24 readings in the shape of SPEC §8.1; SPEC §10.4;
   the dossier's glossary.
 
 #### Owner decisions
