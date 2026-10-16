@@ -7,6 +7,7 @@ package zanshin.core.texts
 import zanshin.core.kyureki.Tone
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.TibetanDay
+import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.ownDays
 import zanshin.core.tibetan.personalDay
@@ -137,6 +138,25 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
                 Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values
 
         /**
+         * The side the combination period of [sign] gives [work], GOOD or BAD: the work's own hours
+         * first ([Texts.WORKS_SIGN], WB's chapter 34), its particular case, then the sign's general
+         * reading without what they decide the other way ([Texts.period]); null where the period does
+         * not name the work, or names it both ways and so says nothing on it, as a voice's lists do
+         * (SPEC §5.12, §5.13).
+         */
+        fun periodSide(sign: ZodiacSign, work: Activity): Tone? {
+            val reading = Texts.period(sign).second
+            val own = Texts.WORKS_SIGN.getValue(sign)
+            val good = work in Activities.of(reading.goodKeys + own.goodKeys)
+            val avoid = work in Activities.of(reading.avoidKeys + own.avoidKeys)
+            return when {
+                good && !avoid -> Tone.GOOD
+                avoid && !good -> Tone.BAD
+                else -> null
+            }
+        }
+
+        /**
          * The combination periods of Tibetan month [month] that name [work] on [side], as runs of
          * consecutive two-hour periods counted from the hare hour at 05:00: the work's own hours
          * first ([Texts.WORKS_SIGN], WB's chapter 34), its particular case, then the sign's general
@@ -146,13 +166,7 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
             val runs = mutableListOf<PeriodRun>()
             for (hour in 0 until 12) {
                 val sign = risingSign(month, hour)
-                val reading = Texts.period(sign).second
-                val own = Texts.WORKS_SIGN.getValue(sign)
-                val good = work in Activities.of(reading.goodKeys + own.goodKeys)
-                val avoid = work in Activities.of(reading.avoidKeys + own.avoidKeys)
-                // A sign whose reading names the work both ways says nothing on it, as a voice's lists do (SPEC §5.12).
-                val named = if (side == Tone.GOOD) good && !avoid else avoid && !good
-                if (!named) continue
+                if (periodSide(sign, work) != side) continue
                 val last = runs.lastOrNull()
                 if (last != null && last.first + last.count == hour) {
                     runs[runs.lastIndex] = last.copy(count = last.count + 1, signs = last.signs + sign)

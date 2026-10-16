@@ -608,4 +608,51 @@ class DaySummaryTest {
         assertTrue(mine.avoidAll.isNotEmpty())
         assertTrue(mine.inHours(Activity.HAIRCUTS, day.month).all { it == WorkInHour(thursday.first, null, thursday.second) })
     }
+
+    /**
+     * The lists for the present hour (SPEC §10.3): every work takes the side [DaySummary.inHours] gives
+     * it in that hour, the haircut row's rule for every work, the period's works first and marked with
+     * its sign, the day's tone unchanged; on the person's day of every work to avoid nothing moves.
+     */
+    @Test
+    fun `the brief's lists follow the hour's combination period`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val day = TibetanCalendar.of(date)
+            val s = DaySummary.of(day)
+            val byHour = (s.activities.map { it.activity } + Activity.entries).distinct().associateWith { s.inHours(it, day.month) }
+            for (h in 0 until 12) {
+                val now = s.atHour(day.month, h)
+                val sign = risingSign(day.month, h)
+                assertEquals(s.verdict, now.verdict, "$date hour $h")
+                for ((work, hours) in byHour) {
+                    val n = now.activities.singleOrNull { it.activity == work }
+                    val expected = hours[h]
+                    assertEquals(expected?.tone, n?.let { if (it.good.isNotEmpty()) Tone.GOOD else Tone.BAD }, "$date hour $h $work")
+                    assertEquals(expected?.sign, n?.period, "$date hour $h $work")
+                    if (n?.period != null) assertEquals(listOf(sign.english), (n.good + n.avoid).map { it.kanji }, "$date hour $h $work")
+                    if (n != null) assertTrue(!n.disputed, "$date hour $h $work")
+                }
+                val moved = now.activities.takeWhile { it.period != null }
+                assertTrue(now.activities.drop(moved.size).none { it.period != null }, "$date hour $h: the period's works first")
+                assertEquals(HourNow(h, sign, moved.count { it.good.isNotEmpty() }, moved.count { it.avoid.isNotEmpty() }), now.now)
+            }
+            date = date.plusDays(1)
+        }
+        // 15 October 2026 at 15:00, Pisces rising: haircuts good by the hour, though Thursday avoids them, and the day's
+        // tone stands.
+        val day = TibetanCalendar.of(LocalDate.of(2026, 10, 15))
+        val s = DaySummary.of(day)
+        val pisces = s.atHour(day.month, 5)
+        assertEquals(ZodiacSign.PISCES, pisces.now!!.sign)
+        val haircut = pisces.activities.single { it.activity == Activity.HAIRCUTS }
+        assertEquals(listOf("Pisces"), haircut.good.map { it.kanji })
+        assertEquals(s.sideOf(Activity.HAIRCUTS)!!.second, haircut.outweighed)
+        assertEquals("Thursday", haircut.outweighed.first().kanji)
+        assertEquals(Tone.BAD, s.sideOf(Activity.HAIRCUTS)!!.first)
+        // The test birth date's enemy weekday: the day's own lists in every hour.
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        val mine = DaySummary.of(day, personalDay(born.yearAnimal, day.weekday), personalMansions(born.yearAnimal, day.mansion), ownDays(born, day))
+        assertTrue((0 until 12).all { mine.atHour(day.month, it) == mine })
+    }
 }

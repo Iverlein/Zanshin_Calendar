@@ -64,7 +64,8 @@ data class SummaryEntry(val kanji: String, val english: String, val tone: Tone, 
  * other way (SPEC §5.12), [weight] is the sum of the weights of the voices standing on its side
  * ([DaySummary.row]), which orders the summary line and decides nothing, and [decider] is the voice
  * that decided its side: the combination where its element pair names the work, otherwise the
- * strongest that does.
+ * strongest that does. In the lists for the present hour ([DaySummary.atHour]) [period] is the sign
+ * whose combination period decides the work, its side's one entry, and [decider] is null.
  */
 data class ActivityNote(
     val activity: Activity,
@@ -73,6 +74,7 @@ data class ActivityNote(
     val outweighed: List<SummaryEntry> = emptyList(),
     val weight: Int = 0,
     val decider: DayFactor? = null,
+    val period: ZodiacSign? = null,
 ) {
     val disputed: Boolean get() = good.isNotEmpty() && avoid.isNotEmpty()
 
@@ -174,6 +176,13 @@ data class DayHours(val periods: List<PeriodRun>, val nectar: List<Int>) {
 data class WorkInHour(val tone: Tone, val sign: ZodiacSign?, val standing: List<SummaryEntry>)
 
 /**
+ * The present hour over the Tibetan day's lists (SPEC §5.13, §10.3): the two-hour period [hour],
+ * counted from the hare hour at 05:00, the [sign] rising in it, and how many works its combination
+ * period decides good and to avoid ([DaySummary.atHour]).
+ */
+data class HourNow(val hour: Int, val sign: ZodiacSign, val good: Int, val avoid: Int)
+
+/**
  * The Tibetan day's tone (SPEC §5.12) and what decided it: [by] how, [factor] the voice that
  * decided, and [deciding] its members on the day, the combination's two parts or the special days
  * that spoke as one.
@@ -207,6 +216,8 @@ data class DaySummary(
      * empty; the day's weighing, its tone, its avoid list and [sideOf], is everyone's (SPEC §5.12).
      */
     val avoidAll: List<SummaryEntry> = emptyList(),
+    /** The hour whose combination period these lists follow ([atHour]); null for the day's own weighing. */
+    val now: HourNow? = null,
 ) {
     /**
      * The side the weighing gives [activity] on the day, GOOD or BAD, with the
@@ -255,6 +266,42 @@ data class DaySummary(
             }
         }
         return List(12) { byPeriod[it] ?: day }
+    }
+
+    /**
+     * The day's lists as they stand in two-hour period [hour] of Tibetan month [month] (SPEC §5.13,
+     * §10.3): every work the period of the sign then rising names one way ([Election.periodSide], as
+     * [inHours] reads it) takes the period's side, since within its hour it outweighs every factor of
+     * the day (WB vol. 2, p. 376), the period its one voice and the day's voices against it
+     * [ActivityNote.outweighed]; those works come first, the strongest voice's, and a work the day
+     * names nowhere joins them. The rest keep the day's weighing, and the day's tone is unchanged.
+     * The day's own lists on a day of [avoidAll], which no hour outweighs ([hoursAgainst]).
+     */
+    fun atHour(month: Int, hour: Int): DaySummary {
+        if (verdict == null || avoidAll.isNotEmpty()) return this
+        val sign = risingSign(month, hour)
+        val (tone, reading) = Texts.period(sign)
+        // The sign by name; the interface words it ("by the hour · Pisces") from [ActivityNote.period].
+        val entry = SummaryEntry(sign.english, sign.english, tone, reading, latin = true)
+        val sides = Activity.entries.mapNotNull { a -> Election.periodSide(sign, a)?.let { a to it } }.toMap()
+        val day = activities.associateBy { it.activity }
+        val named = activities.map { it.activity }.filter { it in sides } + sides.keys.filter { it !in day }
+        val moved = named.map { a ->
+            val side = sides.getValue(a)
+            val was = day[a]
+            ActivityNote(
+                a,
+                good = if (side == Tone.GOOD) listOf(entry) else emptyList(),
+                avoid = if (side == Tone.BAD) listOf(entry) else emptyList(),
+                outweighed = was?.let { if (side == Tone.GOOD) it.avoid else it.good }.orEmpty(),
+                weight = PERIOD_WEIGHT,
+                period = sign,
+            )
+        }
+        return copy(
+            activities = moved + activities.filter { it.activity !in sides },
+            now = HourNow(hour, sign, moved.count { it.good.isNotEmpty() }, moved.count { it.avoid.isNotEmpty() }),
+        )
     }
 
     /**
@@ -337,6 +384,9 @@ data class DaySummary(
          * Kashmiri paṇḍita's, which the White Beryl sets aside for that order (vol. 2, p. 376).
          */
         fun weight(rank: Int): Int = 10 - rank
+
+        /** The combination period's weight in [row], one above the combination's: within its hour it outweighs the day. */
+        val PERIOD_WEIGHT = weight(DayFactor.GREAT_COMBINATION.rank) + 1
 
         private val PERSONAL = setOf(Senjitsu.TAIKA, Senjitsu.ROSHAKU, Senjitsu.METSUMON)
 
