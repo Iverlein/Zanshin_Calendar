@@ -34,7 +34,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
-| 16 | N1 The morning notice | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
+| 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
@@ -93,7 +93,7 @@ moves up as soon as it is unblocked.
 | <a id="block-36"></a>36 | [U10](#u10) + [U11](#u11) — the brief's rows and the hours in short form — built 2026-10-11 | — | — | Build block 36: U10 and U11, the Tibetan brief's rows in the 旧暦 brief's form and the hours row in short form. |
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates — built 2026-10-11 | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia — built 2026-10-15 | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
-| <a id="block-39"></a>39 | [N1](#n1) The morning notice | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
+| <a id="block-39"></a>39 | [N1](#n1) The morning notice — built 2026-10-16 | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
@@ -3242,7 +3242,7 @@ does (`DaySummary`, `DayInfo`), nothing weighed anew, no reading. SPEC §3
 lists notifications under Later and §10.6 defers the widget; each item
 changes that when built.
 
-### <a id="n1"></a>N1. The morning notice — planned 2026-10-11
+### <a id="n1"></a>N1. The morning notice — built 2026-10-16 (SPEC §3, §10.5, §10.9)
 
 - **Gap.** A calendar read once a morning is opened for its tone, reason
   and hours. The bell built exact alarms, a foreground ring service, the
@@ -3269,6 +3269,36 @@ changes that when built.
   the 旧暦; the switch's subtitle names the next notice; `BellTest` for
   the alarm's plan; the listing in both languages; SPEC §3, §10.5 and
   §10.9.
+- **Built** 2026-10-16: "Morning notice" in the menu's Settings group,
+  its subtitle "Next notice on Saturday at 06:00", and while on a "Time
+  of the notice" row opening the bell's time picker without its
+  half-hour rounding (`BellTimeDialog` with no note); switching it on
+  asks for the notification permission on Android 13 and later. The
+  notice (`app/.../bell/MorningNotice.kt`) is on a channel of low
+  importance, silent and without heads-up, with the civil date as its
+  subtext: on the Tibetan page the title "A lucky day · by the
+  combination", then "good 79 · avoid 14" and "hours to avoid 05–09 ·
+  11–13 · 17–19 · 23–01" (the strings U11 kept for it), or on the
+  person's enemy weekday or death mansion "Every work to avoid, for
+  you" and "avoid 20" with no hours; on the 旧暦 page the title "大安
+  Taian — great peace", the day mark ("受死日 black day — the worst of
+  all") and the counts. A tap opens today's page of that calendar from
+  any screen. `NoticePlan` gives the time (`BellTest`: today or
+  tomorrow, a time the clock skips, an hour that repeats); the bell's
+  `RescheduleReceiver` sets both alarms again, and a launch sets the
+  notice's again, since a force stop clears an app's alarms. A notice
+  whose day is past, after a clock change, is dropped. Every month's
+  combination periods hold both tones (checked for months 1–12), so a
+  day with no hours against the tone is only the person's avoid-all
+  day; the enemy weekday stood for both checks. Checked on the emulator
+  with the clock set: 2026-10-16 (English, by the combination),
+  2026-10-22 (the test person's enemy weekday), 2026-10-17 in Russian
+  («Неблагоприятный день · решает: Суббота», good hours), 2026-10-19
+  on the 旧暦 in Russian and English (black day), the tap from the
+  Meditation screen with the Tibetan page chosen opening the 旧暦's
+  today, the notice after a reboot, and the release build's notice
+  (names, no raw keys). No store shot changes: shot 5 leaves the
+  Settings group closed.
 
 ### <a id="w1"></a>W1. The widget — planned 2026-10-11
 

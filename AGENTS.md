@@ -32,7 +32,7 @@ goes into the rule file for its paths, or here when no path catches it.
 | `core/` | Pure Kotlin/JVM engines: `tibetan/`, `kyureki/`, `astro/`, `rational/`, `time/`. No Android, no dependencies. Test vectors in `core/src/test/resources/vectors/` (third-party tables gitignored; tests that need a missing file are skipped). |
 | `core/src/main/resources/texts/` | The catalog: names of the terms, reading summaries and list wordings, one `texts_<language>.properties` per translation (SPEC §8.2). |
 | `cli/` | Desktop tool to print a day, a kyūreki sui, a Tibetan year or the election for a work. |
-| `app/` | Compose UI. Package `zanshin.app`, application id `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations via Weblate ([docs/weblate.md](docs/weblate.md)); `bell/` the meditation timer and mindfulness bell (SPEC §10.9). |
+| `app/` | Compose UI. Package `zanshin.app`, application id `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations via Weblate ([docs/weblate.md](docs/weblate.md)); `bell/` the meditation timer and mindfulness bell (SPEC §10.9), and the morning notice on its alarms (§10.5). |
 | `fastlane/metadata/android/` | F-Droid store listing per language: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
 | `website/` | Hugo site, English and Russian, deployed to the VPS by `.github/workflows/website.yml` on pushes to `main`; reads its texts from the `fastlane/` listings. |
 | `docs/sources/` | The knowledge pool behind the readings: one topic per file, `wb-contents.md`, `PLAN.md` (how to read and record), `PROTOCOL.md` (readings in parallel; the `readings` skill in `.claude/skills/`); `docs/ROADMAP.md` *Readings* lists what is still to be read. |

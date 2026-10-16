@@ -63,6 +63,11 @@ readings of that day and sunrise, solar noon and sunset for your place.
   OLED screens), Maroon (the robe's maroon with saffron), Sepia (a
   parchment page for the evening) and the phone's own dark or light
   setting.
+- A morning notice, if you switch it on: once a day at the time you set,
+  silently, the day in brief of the calendar last read, the Tibetan
+  day's tone and the factor that decides it, the works good and to
+  avoid and the hours against the tone, or the 旧暦's 六曜 and day mark;
+  a tap opens the day.
 - Dates from 1900 to 2100, any month three taps away in the date picker's
   years and months. No internet permission: everything is computed on
   the phone.

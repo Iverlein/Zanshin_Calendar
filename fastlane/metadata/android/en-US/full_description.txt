@@ -48,6 +48,8 @@ In English and Russian: choose the language in the menu, or let the app follow t
 
 In six themes: Ink, dark, as it has always been; Paper, a light page with dark ink; Night, black for OLED screens; Maroon, the robe's maroon with saffron; Sepia, a parchment page for the evening; or the phone's own dark or light setting.
 
+A morning notice, if you turn it on: once a day at the time you set, silently, the day in brief of the calendar you last read. On the Tibetan page, the day's tone and the factor that decides it, how many works it names good and to avoid, and the hours that run against it; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
+
 <b>Computed on the phone</b>
 Everything is calculated on the device for any date from 1900 to 2100: Tibetan dates with Svante Janson's published arithmetic, new moons and solar terms with Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.
 

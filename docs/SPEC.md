@@ -41,7 +41,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 | Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9); the lunar mansion's reading and the activity lists (§5.10) | Tsurphu version |
 | Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | |
-| Screen with date navigation, home-screen widget, location setting | Notifications |
+| Screen with date navigation, home-screen widget, location setting; the morning notice, one a day with the day in brief (§10.5) | Other notifications |
 | Meditation timer and mindfulness bell, a screen of their own (§10.9) | |
 | Texts from published sources only (§8) | Translations beyond English |
 
@@ -2463,7 +2463,8 @@ canvas "Zanshin Calendar — basic design".
   small capital labels, a line between groups: **Calendar** (the two
   calendars, Choose a day and Health), **Reckonings** (the element
   reckoning, §10.11), **Practice** (Meditation, §10.9),
-  **Settings** (location, people, nine-star reading, language, theme), and
+  **Settings** (location, people, nine-star reading, language, theme,
+  morning notice), and
   About & sources alone at the foot. About & sources lists the
   calendars' methods, the readings' sources and licences, and, under
   Documentation, says that the sheets name no source and links the
@@ -2556,6 +2557,37 @@ canvas "Zanshin Calendar — basic design".
 - **Nine-star reading**, a switch, off by default: adds the 九星気学 row of
   §10.4. Switching it on with no one chosen asks for a person (the list, or
   adding one when none is saved); cancelling leaves it off.
+- **Morning notice** (ROADMAP N1, built 2026-10-16), a switch, off by
+  default, its subtitle the next notice ("Next notice on Saturday at
+  06:00", from the bell's wordings), or while off "The day in brief,
+  once a morning". While on, a row "Time of the notice" shows the time,
+  06:00 at first, and opens the bell's time picker (§10.9), to the
+  minute. Switching it on asks for the notification permission on
+  Android 13 and later; without it the notice is posted unseen. At the
+  time, by the phone's clock, every day, one silent notification for the
+  calendar last viewed, on today's page as that calendar counts it
+  (§4), for the person chosen, in the brief's own words (§10.7), the
+  civil date as its subtext:
+  - Tibetan: the day's tone and reason as the title ("A lucky day · by
+    the combination"); then the counts of the In brief line ("good 79 ·
+    avoid 14") and the hours against the tone in the hours row's short
+    form (ROADMAP U11), under the words the row leaves to its heading,
+    "hours to avoid 05–09 · 11–13 · 17–19 · 23–01" or "good hours …";
+    on the person's enemy weekday or death mansion "Every work to
+    avoid, for you" and the avoid count, with no hours (§5.12).
+  - 旧暦: the 六曜 as the title ("大安 Taian — great peace"); the day
+    mark where there is one ("受死日 black day — the worst of all"),
+    then the counts.
+
+  The channel ("Morning notice") is of low importance: in the shade and
+  the status bar, no sound, no vibration, no heads-up. A tap opens the
+  app on today's page of that calendar, from whatever screen was shown.
+  The alarm is one exact alarm, set again after each notice and with
+  the bell's (§10.9); a launch sets it again too, since a force stop
+  clears an app's alarms, and a notice whose day has passed, after the
+  clock was changed, is dropped. Stored as `notice`, `notice_time`
+  (seconds of the day) and `notice_next` (the next notice, epoch
+  milliseconds, for the subtitle).
 - **Local sky line:** sunrise, true solar noon (the sun's transit, not
   12:00) with the sun's altitude then, and sunset, each with its icon, on
   one line of 44 dp pinned under the page (ROADMAP U8, built 2026-10-11).
@@ -2814,7 +2846,10 @@ carries no sound file.
   the last, the first of a day within one interval of the start
   (`BellPlan`). One exact alarm at a time (`USE_EXACT_ALARM`, before
   Android 13 `SCHEDULE_EXACT_ALARM`), set again after each ring, a
-  reboot, an update and a change of clock or zone. It keeps quiet during
+  reboot, an update and a change of clock or zone. The morning notice
+  (§10.5) has an exact alarm of its own under the same permission, and
+  the same receiver sets both again; it does not use the bell's ring
+  service, since it makes no sound (`MorningNotice`, `NoticePlan`). It keeps quiet during
   a sitting; unless switched off, during a call (ringing or answered) and
   while another app plays sound longer than a notification's (music, a
   video, a game, directions, a voice chat, an alarm); and, unless switched
