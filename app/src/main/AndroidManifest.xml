@@ -62,7 +62,40 @@
             android:name="zanshin.app.bell.MorningNotice$ShowReceiver"
             android:exported="false" />
 
-        <!-- Sets the bell's and the morning notice's alarms again. -->
+        <!-- The home-screen widget in two sizes (SPEC §10.6), and its alarm at the next change of the day or the hour. -->
+        <receiver
+            android:name="zanshin.app.widget.DayWidget$Small"
+            android:exported="false"
+            android:label="@string/widget_small_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_small_info" />
+        </receiver>
+
+        <receiver
+            android:name="zanshin.app.widget.DayWidget$Wide"
+            android:exported="false"
+            android:label="@string/widget_wide_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_wide_info" />
+        </receiver>
+
+        <receiver
+            android:name="zanshin.app.widget.DayWidget$TickReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Sets the bell's, the morning notice's and the widget's alarms again. -->
         <receiver
             android:name="zanshin.app.bell.MindfulnessBell$RescheduleReceiver"
             android:exported="false">

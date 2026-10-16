@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The widget's corners (ROADMAP W1); from Android 12 the launcher's own. -->
+    <dimen name="widget_radius">20dp</dimen>
+</resources>

@@ -145,6 +145,49 @@ def tap(pattern, desc=None, timeout=8):
         time.sleep(1)
 
 
+def widgets():
+    """
+    Put the small and the wide widget (SPEC §10.6) on the home screen, unless both are there: each boot returns to
+    the snapshot, which has none. The snapshot's home screen holds a Gemini widget where the wide one goes; it is
+    removed first. Each is dragged from the launcher's widget list, found by searching it for the app's name.
+    """
+    home()
+    if dump().count("widget_root") >= 2:
+        return
+    for t, _, x, y in nodes():
+        if t == "Gemini":
+            adb("shell", "input", "swipe", str(x), str(y), str(x), str(y), "1200")
+            time.sleep(1.5)
+            tap("^Remove$")
+    # Each by the launcher's size under its preview: the names follow the app's language.
+    for size, drop in (("2 × 2", (250, 700)), ("4 × 2", (540, 1300))):
+        adb("shell", "input", "swipe", "250", "1900", "250", "1900", "1200")
+        time.sleep(1.5)
+        tap("^Widgets$")
+        tap("Browse widgets", desc=True)
+        tap("Search", desc=True)
+        adb("shell", "input", "text", "Zanshin")
+        time.sleep(2)
+        tap("^Zanshin beta$")
+        time.sleep(1.5)
+        # The preview stands above its name and size; it is dragged by its middle.
+        x, y = next((x, y) for t, _, x, y in nodes() if t == size)
+        adb("shell", "input", "draganddrop", str(x), str(y - 290), str(drop[0]), str(drop[1]), "2500")
+        time.sleep(3)
+    home()
+
+
+def home():
+    adb("shell", "input", "keyevent", "KEYCODE_HOME")
+    time.sleep(1.5)
+
+
+def dump():
+    """The screen's view tree as uiautomator writes it."""
+    sh("uiautomator dump /data/local/tmp/ui.xml")
+    return sh("cat /data/local/tmp/ui.xml")
+
+
 def back():
     """Back: closes a sheet or balloon; with none open it leaves the app."""
     adb("shell", "input", "keyevent", "KEYCODE_BACK")

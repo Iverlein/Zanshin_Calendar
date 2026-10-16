@@ -12,6 +12,7 @@ import android.content.Context
 import android.content.Intent
 import android.media.AudioAttributes
 import android.media.AudioManager
+import zanshin.app.widget.DayWidget
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -94,7 +95,10 @@ object MindfulnessBell {
         }
     }
 
-    /** Sets the bell's alarm and the morning notice's again after a reboot, an update or a change of the clock or zone. */
+    /**
+     * Sets the bell's alarm and the morning notice's again after a reboot, an update or a change of the clock or
+     * zone, and draws the widget anew with its alarm ([DayWidget]): the day it shows may have changed with the clock.
+     */
     class RescheduleReceiver : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
             when (intent.action) {
@@ -104,6 +108,8 @@ object MindfulnessBell {
                 -> {
                     schedule(context)
                     MorningNotice.schedule(context)
+                    val result = goAsync()
+                    DayWidget.updateLater(context) { result.finish() }
                 }
             }
         }

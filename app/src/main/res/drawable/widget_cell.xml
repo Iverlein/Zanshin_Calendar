@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One two-hour period of the widget's hours strip, tinted to its combination period's tone; also the present period's mark. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="2dp" />
+    <solid android:color="#FFFFFFFF" />
+</shape>

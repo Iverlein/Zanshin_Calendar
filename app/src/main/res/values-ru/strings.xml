@@ -237,6 +237,14 @@
     <string name="notice_next_day">Следующее уведомление: %1$s, %2$s</string>
     <string name="notice_time">Время уведомления</string>
     <string name="notice_time_title">Уведомление приходит в</string>
+    <string name="widget_small_name">День</string>
+    <string name="widget_small_description">Тон дня и то, что его решает, — для календаря, открытого последним</string>
+    <string name="widget_wide_name">День и часы</string>
+    <string name="widget_wide_description">День с его двенадцатью часами: нынешний и те, что идут против дня</string>
+    <string name="widget_now">сейчас %1$s · восходит %2$s · %3$s</string>
+    <string name="widget_preview_date">пт 16 окт.</string>
+    <string name="widget_preview_month">9-й месяц</string>
+    <string name="widget_preview_now">сейчас 13–15 · восходит Водолей · его используют</string>
     <string name="menu_language">Язык</string>
     <string name="language_system">Язык телефона</string>
     <string name="menu_theme">Тема</string>

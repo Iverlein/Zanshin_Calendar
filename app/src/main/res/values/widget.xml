@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The wide widget's hours strip (ROADMAP W1): twelve equal cells 2 dp apart, as the page's strip draws them. -->
+    <style name="WidgetCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/widget_cell</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="WidgetCell.Last">
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+
+    <!-- A clock hour under the strip, one for each three periods. -->
+    <style name="WidgetClock">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/figtree</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">#FF80847C</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+</resources>

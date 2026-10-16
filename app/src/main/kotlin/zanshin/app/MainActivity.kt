@@ -16,6 +16,7 @@ import zanshin.app.ThemeWindow.prepare
 import zanshin.app.bell.MorningNotice
 import zanshin.app.ui.ZanshinApp
 import zanshin.app.ui.ZanshinTheme
+import zanshin.app.widget.DayWidget
 import zanshin.core.texts.Catalog
 
 class MainActivity : ComponentActivity() {
@@ -47,6 +48,12 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+
+    /** The widget drawn anew as the app is left (SPEC §10.6): the calendar, person, place, theme or language may have changed. */
+    override fun onStop() {
+        super.onStop()
+        DayWidget.updateLater(this)
     }
 
     override fun onNewIntent(intent: Intent) {

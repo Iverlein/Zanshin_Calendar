@@ -281,6 +281,18 @@
     <string name="notice_next_day">Next notice on %1$s at %2$s</string>
     <string name="notice_time">Time of the notice</string>
     <string name="notice_time_title">The notice comes at</string>
+    <!-- The home-screen widget (SPEC §10.6): its two sizes in the launcher's list, and its lines -->
+    <string name="widget_small_name">Day</string>
+    <string name="widget_small_description">The day\'s tone and what decides it, for the calendar last viewed</string>
+    <string name="widget_wide_name">Day and hours</string>
+    <string name="widget_wide_description">The day with its twelve hours, the present one and those that run against the day</string>
+    <!-- the present two-hour period on the wide widget: its clock hours in short form ("09–11"), the sign rising in it, and hours_period_good or hours_period_bad -->
+    <string name="widget_now">now %1$s · %2$s rises · %3$s</string>
+    <!-- the widget's preview in the launcher's list: 16 October 2026 in Kyoto at 13:00 -->
+    <string name="widget_preview_date">Fri 16 Oct</string>
+    <string name="widget_preview_month">9th month</string>
+    <string name="widget_preview_now">now 13–15 · Aquarius rises · to be accomplished</string>
+    <string name="widget_preview_against" translatable="false">05–09 · 11–13 · 17–19 · 23–01</string>
     <string name="menu_language">Language</string>
     <string name="language_system">Phone\'s language</string>
     <string name="menu_theme">Theme</string>

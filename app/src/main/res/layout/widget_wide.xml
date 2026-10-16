@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The wide widget (SPEC §10.6, ROADMAP W1): the small one's facts on two lines, then on the Tibetan page the
+  twelve two-hour periods from 05:00 with the present one marked, the present period's sign and verdict and the
+  hours against the day's tone in short form (ROADMAP U11); on the 旧暦 the rokuyō, the day mark and the brief's
+  counts. Every text and colour is set by DayWidget at each update; the values here are the picker's preview, in Ink.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/widget_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/widget_page"
+        android:tint="#FF111311" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/widget_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/shippori_medium"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="6"
+                android:textColor="#FFECE8DF"
+                android:textSize="36dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/widget_month"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/figtree"
+                        android:maxLines="1"
+                        android:text="@string/widget_preview_month"
+                        android:textColor="#FFECE8DF"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/widget_calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:fontFamily="@font/figtree"
+                        android:maxLines="1"
+                        android:text="@string/calendar_tibetan"
+                        android:textColor="#FFE3A94F"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/widget_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="1"
+                    android:text="@string/widget_preview_date"
+                    android:textColor="#FFA6A99F"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_tone_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widget_dot"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/widget_dot"
+                android:tint="#FF9CCB98" />
+
+            <TextView
+                android:id="@+id/widget_tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/figtree"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/brief_day_good"
+                android:textColor="#FFECE8DF"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/widget_reason_separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/figtree"
+                android:importantForAccessibility="no"
+                android:maxLines="1"
+                android:text="·"
+                android:textColor="#FFA6A99F"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/widget_reason"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/figtree"
+                android:maxLines="2"
+                android:text="@string/brief_by_combination"
+                android:textColor="#FFA6A99F"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- The compact variant's reason, on a line of its own under the tone. -->
+        <TextView
+            android:id="@+id/widget_reason_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/figtree"
+            android:maxLines="1"
+            android:textColor="#FFA6A99F"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/widget_avoid_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/figtree"
+            android:maxLines="1"
+            android:text="@string/brief_avoid_all"
+            android:textColor="#FFE8826F"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <!-- The Tibetan page's hours. -->
+        <LinearLayout
+            android:id="@+id/widget_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/widget_cell_0" style="@style/WidgetCell" android:tint="#FFBD6C5C" />
+                <ImageView android:id="@+id/widget_cell_1" style="@style/WidgetCell" android:tint="#FFBD6C5C" />
+                <ImageView android:id="@+id/widget_cell_2" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_3" style="@style/WidgetCell" android:tint="#FFBD6C5C" />
+                <ImageView android:id="@+id/widget_cell_4" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_5" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_6" style="@style/WidgetCell" android:tint="#FFBD6C5C" />
+                <ImageView android:id="@+id/widget_cell_7" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_8" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_9" style="@style/WidgetCell" android:tint="#FFBD6C5C" />
+                <ImageView android:id="@+id/widget_cell_10" style="@style/WidgetCell" android:tint="#FF80A67D" />
+                <ImageView android:id="@+id/widget_cell_11" style="@style/WidgetCell.Last" android:tint="#FF80A67D" />
+            </LinearLayout>
+
+            <!-- The present period's mark, under its cell. -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/widget_mark_0" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_1" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_2" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_3" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_4" style="@style/WidgetCell" android:tint="#FFE3A94F" />
+                <ImageView android:id="@+id/widget_mark_5" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_6" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_7" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_8" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_9" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_10" style="@style/WidgetCell" android:visibility="invisible" />
+                <ImageView android:id="@+id/widget_mark_11" style="@style/WidgetCell.Last" android:visibility="invisible" />
+            </LinearLayout>
+
+            <!-- The clock hour under every third period, as the page's strip has it: periods begin at 05:00 on every day. -->
+            <LinearLayout
+                android:id="@+id/widget_clocks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView android:id="@+id/widget_clock_0" style="@style/WidgetClock" android:text="05" />
+                <TextView android:id="@+id/widget_clock_1" style="@style/WidgetClock" android:text="11" />
+                <TextView android:id="@+id/widget_clock_2" style="@style/WidgetClock" android:text="17" />
+                <TextView android:id="@+id/widget_clock_3" style="@style/WidgetClock" android:text="23" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget_now_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/widget_now_dot"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/widget_dot"
+                    android:tint="#FF9CCB98" />
+
+                <TextView
+                    android:id="@+id/widget_now"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="2"
+                    android:text="@string/widget_preview_now"
+                    android:textColor="#FFA6A99F"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/widget_against_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/widget_against_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="1"
+                    android:text="@string/brief_avoid"
+                    android:textColor="#FFE8826F"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/widget_against"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="2"
+                    android:text="@string/widget_preview_against"
+                    android:textColor="#FFECE8DF"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- The 旧暦's rokuyō, day mark and counts. -->
+        <LinearLayout
+            android:id="@+id/widget_kyureki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/widget_rokuyo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/figtree"
+                android:maxLines="1"
+                android:textColor="#FFECE8DF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/widget_mark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/figtree"
+                android:maxLines="1"
+                android:textColor="#FFE8826F"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/widget_good_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="1"
+                    android:textColor="#FF9CCB98"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/widget_avoid_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/figtree"
+                    android:maxLines="1"
+                    android:textColor="#FFE8826F"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

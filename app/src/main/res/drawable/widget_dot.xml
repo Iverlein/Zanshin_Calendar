@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A tone's dot on the widget, tinted to the tone's colour (ROADMAP U12's solid dot, 10 dp). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <size android:width="10dp" android:height="10dp" />
+    <solid android:color="#FFFFFFFF" />
+</shape>
