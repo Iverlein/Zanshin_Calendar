@@ -2160,6 +2160,39 @@ W1 build on them (below).
   the test birth date (the day's row, no hours). The store shots keep the
   row below the fold; unchanged.
 
+#### <a id="u21"></a>U21 The day's works in the hour — built 2026-10-16 (SPEC §10.3, §5.13)
+
+- **Gap.** U20 gave the haircut row its side in the present hour, but
+  the day in brief still listed every other work by the day's weighing,
+  though the same rule holds for each: 75 of the 139 works are named by
+  the combination period of some sign (setting out, building and the
+  sacred supports by all twelve, ten more beside haircuts by ten), so in
+  most hours the brief's lists said "good" of works the hour forbids.
+  The owner (2026-10-16): the works change their side right in today's
+  list, marked "by the hour", with a word on it at the top.
+- **Built.** `DaySummary.atHour(month, hour)`: every work the period of
+  the sign rising names one way (`Election.periodSide`, which
+  `Election.hours` and so the haircut row now read too) takes its side,
+  the period its one voice and first on its side, a work the day names
+  nowhere added; the rest and the day's tone as the day weighed them,
+  and nothing on the person's day of every work to avoid. On today's
+  page the In brief row and its sheet take these lists and move on with
+  the clock (the owner's choices of 2026-10-16: both the row and the
+  sheet; the hour replacing the outweighed voices; the sentence with
+  the sign and the counts): each such work reads "by the hour · Pisces",
+  its balloon "Pisces rising, until 17:00", and the rule's sentence under
+  the tone says "Now, until 17:00, Pisces rises, and its combination
+  period outweighs the day: it decides 46 works, 37 good and 9 to avoid,
+  marked “by the hour” below". Another day's brief is the day's.
+  `DaySummaryTest` holds every hour of 2026: each work's side and mark in
+  the hour's lists equal `inHours`'s, the period's works first, the
+  counts, the day's tone unchanged, and the test birth date's enemy
+  weekday unchanged in every hour. Checked on the emulator in Kyoto on
+  16 October 2026 at 16:58 (Pisces, 37 good and 9 to avoid by the hour)
+  and as the clock passed 17:00 (the lists moved to Aries by
+  themselves), in English and Russian, and on 17 October (the day's
+  lists, the old sentence). The morning notice keeps the day's counts.
+
 ### <a id="x"></a>X1–X10. The readings' wording — planned 2026-10-11
 
 An analysis of every reading the Tibetan page's sheets open (the build of

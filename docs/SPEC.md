@@ -1183,7 +1183,12 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   hours panel (§10.3) and in the day in brief's "By the hour" block, not
   weighed into the day: a day reading has no hours. Within its hour it
   decides a work it names one way, the work's own hours first
-  (`DaySummary.inHours`); the haircut row on today's page reads it (§10.3).
+  (`DaySummary.inHours`, `Election.periodSide`); the haircut row on today's
+  page reads it, and so do the In brief row and its sheet for every work
+  (`DaySummary.atHour`, §10.3). On the twelve signs it names 75 of the
+  139 works one way or the other: setting out, building and the sacred
+  supports in all twelve hours, haircuts and ten more works in ten, down
+  to seven works in one.
 - **The works' own hours** (ROADMAP E4,
   [sources/white-beryl-ch34.md](sources/white-beryl-ch34.md), *Rising
   signs*): WB's chapter 34 names, for 55 of the app's works, the signs
@@ -2143,19 +2148,38 @@ canvas "Zanshin Calendar — basic design".
   the factor named as the weighing found it, §5.12); over each side's glyphs, how many works
   the day names good and to avoid ("good 53", "avoid 36"; §10.7), since the row
   cannot show the proportion and on 11 % of days the lists run against
-  the tone (§5.12; decided by the owner, 2026-10-07); it opens the tone with its
+  the tone (§5.12; decided by the owner, 2026-10-07). On today's page the
+  row and its sheet give the works as they stand in the present hour
+  (ROADMAP U21; the owner, 2026-10-16), as the haircut row does
+  (*Works*, below): every work the combination period of the sign now
+  rising names one way takes the period's side, since within its hour
+  it outweighs every factor of the day (§5.13), and a work the day names
+  nowhere joins the lists; the rest keep the day's weighing, and the
+  day's tone and what decided it stay the day's (`DaySummary.atHour`).
+  The counts and glyphs follow, the period's works the heaviest, and
+  both move on with the clock. Another day's row and sheet, and the
+  person's day of every work to avoid, which no hour outweighs, are the
+  day's weighing. The row opens the tone with its
   reason and, under it, the rule in a sentence (ROADMAP U6): that each
   work goes to the strongest factor that names it, with how many works
   still stand against the tone ("so 42 works are still good today"), and
   that within its hour the combination period outweighs the day, neither
-  said on the person's enemy weekday or death mansion; then the "By the
+  said on the person's enemy weekday or death mansion; on today's page
+  that sentence names the hour ("Now, until 17:00, Pisces rises, and its
+  combination period outweighs the day: it decides 46 works, 37 good and
+  9 to avoid, marked “by the hour” below"), the count against the tone
+  staying the day's; then the "By the
   hour" block (below), before the works, and the works in the 旧暦
   brief's row (ROADMAP U10, built 2026-10-11): one row each, the family's
   glyph, the work, and after it, right-aligned in muted 13 sp, the voices
   that carry it (§5.12), each tapped for its kind ("weekday"); a work
   opens a balloon with its side and each voice with its kind ("weekday ·
   Sunday") and "Choose a day for it", which opens the election for that
-  work from the shown day (§10.8); nothing outweighed is shown. Until
+  work from the shown day (§10.8); nothing outweighed is shown. A work
+  the present hour decides comes first on its side, its one voice "by
+  the hour · Pisces", tapped for its kind ("combination period"), and
+  its balloon gives the sign and when its period ends ("Pisces rising,
+  until 17:00"); the day's voices it outweighs are not shown. Until
   U10 the works stood in groups under their voices, the voices in
   semi-bold, which took the eye from the works. With a birth date set, a "For
   you" block lists the day's personal day, own days by the birth date and
