@@ -32,8 +32,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
   and personal days and mansions for a birth year.
 - **Reckonings:** the White Beryl's element reckoning for each person,
   its pebbles counted, not cast: the year of age, year by year, with its
-  mewa, trigram and progressed sign, the pebbles with their predictions,
-  growth and decline, and the year's obstacles; with the relatives
+  mewa, trigram and progressed sign, the aspect that matters most for the
+  person, the pebbles with their predictions, the stage of each aspect's
+  energy, and the year's obstacles, each with the remedies the White
+  Beryl gives for it; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
   parent or a son brings.
 - **Health:** what falling ill today means by the date, the weekday,

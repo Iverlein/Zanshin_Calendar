@@ -103,7 +103,7 @@ moves up as soon as it is unblocked.
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
-| <a id="block-49"></a>49 | [X10](#x10) The rest, and the year sheet | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links, the mewa and the year sheet in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. |
+| <a id="block-49"></a>49 | [X10](#x10) The rest | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links and the mewa in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) | K1's reading (kyureki.md) | — | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
@@ -111,6 +111,7 @@ moves up as soon as it is unblocked.
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
+| <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 
 ## Readings
 
@@ -2574,23 +2575,21 @@ X, so that the owner reads the wording once. The blocks are
   the sky dog, the black hour and a nectar period on the emulator in
   both languages; `CatalogTest` without the families' allowance.
 
-#### <a id="x10"></a>X10 The rest, and the year sheet
+#### <a id="x10"></a>X10 The rest (the year sheet went with Y1)
 
 - **Gap.** The astrologer spirit's day reading (190 words) explains its
   count before and after its "Today"; the date's mewa gives the table's
   rule before the day's number (the twelve links' 175-word rule went with
-  T2.27, block 24, 2026-10-15, each link now in the shape); the year
-  sheet's readings are verses (the pebbles, the nine-multiples, the
-  harsh years, the sectors) with their remedies inside them.
+  T2.27, block 24, 2026-10-15, each link now in the shape). The year
+  sheet was brought to the shape by [Y1](#y1) (block 57, 2026-10-16).
 - **Work.** The astrologer spirit and the mewa to the shape,
-  the count as *How it falls*; the year sheet's verses stay verses (D6),
-  each with its ruling line first and its remedy as a row, uniform where
-  possible, with the hours' and the day's readings. The festivals and
+  the count as *How it falls*, uniform where possible with the hours'
+  and the day's readings. The festivals and
   the special dates were checked in X5.
 - **Block.** [49](#block-49); no reading; builds on [42](#block-42) and
   comes last, as the lightest.
 - **Done when.** The readings with their Russian; the astrologer spirit's
-  row, the link's and the year sheet on the emulator in both languages;
+  row and the link's on the emulator in both languages;
   `CatalogTest` with no allowance left; store shot 3 retaken in both
   languages, since it shows a reading opened; the listing's "every
   reading explained" line read against a sheet.
@@ -3081,6 +3080,47 @@ groups it shows (`tools/emulator/store_shots.py`).
 - **Done when** (each item): its readings in the catalog with WB as their
   source; vectors from Dorje's charts where they exist; `CatalogTest`;
   SPEC; both languages on the emulator; the release build checked.
+
+### <a id="y1"></a>Y1. The year of age read for action — built 2026-10-16 (SPEC §5.9.1, §8.1, §10.11)
+
+- **Gap** (the owner, 2026-10-16). The year sheet's readings gave the
+  verdict and little else: "Vitality · Death" opened on "Death:
+  prosperity lost. The worst: two black pebbles", the nine-multiples and
+  the progressed sign's meetings named no remedy, and where WB gives one
+  it stood last, after a long omen. A Western reader takes "death" as a
+  verdict on the person. The owner's ask: the points to weigh and the
+  practices that counterbalance, faithful to the sources.
+- **Decided** (the owner, 2026-10-16). No "another view" anywhere, in
+  any reading: to a Western reader an alternative is uncertainty, not a
+  call to act (SPEC §8.1, the row removed from `ReadingRow`). One
+  *Remedy* row for what the person does and the rites alike: the reader
+  is a ngakpa, practitioner and ritualist at once. The stages are named
+  as the energy's, "energy: death stage", never a bare "death". WB's own
+  framing goes in (pp. 415–416, "treat the black pebbles in earnest"),
+  and the screen runs as WB weighs it, the predictive pebble first.
+- **Built.** What matters most for the person (ch. 20, p. 242; pp.
+  415–416; `Care`), first under the pebbles; each aspect's predictive
+  pebble with its stage under it, then the grid. The ten year families
+  rewritten in the shape (ruling first, images after, remedies,
+  spirits and illnesses as rows), in English and Russian, and taken out
+  of X10's allowance as Y1 with none. Shared remedies once for their
+  group (`Reading.alsoRows`): the own year's and the seventh's general
+  rites, the tombs', and the nine-multiples' cure, which p. 414 gives for
+  every kind, so the single nine-multiples now have it. A bad stage's
+  remedy: the aspect's decline (p. 409), then the stage's own rite from
+  the illness reckoning's twelve stages, where p. 409 sends it (ch. 25,
+  pp. 440–442, read in this block: Yigdzin-1, every rite line and the
+  bad stages' spirits on the scan; health.md). WB's Bonpo rites there are
+  left out of the rows.
+- **Checked.** `:core:test`, `:app:testDebugUnitTest`; on the emulator a
+  man born in a wood tiger year in 2026, whose vitality and destiny stand
+  in wood's death stage: the order, the marker and the death stage's
+  sheet; store shot 7 retaken in both languages (only it changed).
+- **Not built.** Where WB names no remedy (one white and one black on
+  the destiny, the progressed sign on one's own sign, its seventh or the
+  enemy of the vitality, the black undertakers, the progressed sign on
+  a tomb), none is written; the relatives' obstacles (P2) are in the
+  shape already and name none either.
 
 ## Appearance
 

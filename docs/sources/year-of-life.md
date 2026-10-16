@@ -1196,6 +1196,52 @@ who counts as the household; how many members make a pile.
   «མ་ལ་དྲིས» is the secret life force's mother element (the scan; the notes,
   vol. 2, p. 489), not the person's mother.
 
+
+## The year sheet read for action (Y1, 2026-10-16)
+
+The readings were rewritten in SPEC §8.1's shape at the owner's ask: the
+points to weigh and the practices to counterbalance, not a verdict
+(ROADMAP Y1). What the catalog now draws on, beyond the passages above:
+
+- **WB's framing** (p. 415, img. 425, l. 25, to p. 416, img. 426, l. 2,
+  quoted above under *The tomb sign*): «སྐྱེས་པ་དར་ལ་སྲོག་ཁམས་གཅེས། །བྱིས་པ་གཞོན་ལ་
+  ལུས་ཁམས་གཅེས། །བུད་མེད་རྣམས་ལ་དབང་ཐང་གཅེས། །ཡ་རབས་མཐོ་ས་འཛིན་པ་དང་། །ཡོན་ཏན་ཅན་
+  ལ་ཀླུང་རྟ་གཅེས། །དེ་ལྟར་རྡེལ་ནག་ནན་གྱིས་བཅོས།» and «གཅེས་དང་མི་གཅེས་འབྱོར་པ་སོགས། །
+  རྒྱས་བསྡུས་ཡུལ་དུས་སྐབས་སྦྱར་སྨྲ།»: the aspect that matters most for a man in
+  his prime, the young, women, the noble and the learned; the black
+  pebbles to be treated in earnest; the rites fuller or shorter by what
+  matters, one's means, the place and the time. With ch. 20, p. 242
+  ([health.md](health.md), *Whose aspect matters most*) it is
+  `reading.YearCare`. No age for a child is given here or there; the app
+  counts one below the 18th year, the first in which the single
+  nine-multiples call a man "in his prime" and a woman "young" (pp.
+  410–411, as `reading.NineMultiple.MALE.18` and `.FEMALE.18` give
+  them), a choice of the app's, recorded in SPEC §5.9.1.
+- **The nine-multiples' cure** (p. 414, «དྲུག་པ་དགུ་མིག་བཅོས་ཐབས་བསྟན།», the sixth
+  of the section, after the five kinds): for every nine-multiple, the
+  single count too, which before had none (`reading.NineMultiple.remedy`).
+  Its further ways (climbing a nine-rung ladder, nine people saying
+  "freed", the nine hearths) are not in the row.
+- **The female 45th** (p. 411): «སྔོན་གྱི་ས་བདག་རྒན་མོ་དེ། །དོག་སར་བབས་དུས་མཚམས་གཅོད་
+  དགོས།»: when the old earth-lord woman reaches the narrow place, "the
+  boundaries must be cut" (མཚམས་གཅོད, mtshams gcod), an instruction, now its
+  remedy row; the old reading had it inside the image.
+- **The bad stages' rites** (ch. 25, pp. 440–442), where p. 409's
+  «གུད་བཞིའི་གཏོ་ཆོག་ནད་རྩིས་བཞིན།» sends the four declines: read in this block,
+  quoted in [health.md](health.md), *The twelve stages: their spirits and
+  rites*. Each bad stage's sheet gives the aspect's decline remedy, then
+  the stage's rite.
+
+**Left to this file.** The rows give the ruling and the verse's main
+images; the secondary images of the longer verses stay in the Tibetan
+quoted above: the king's punishment in the year and the minister's troops
+in the month, the dream of sleeping in strange lands and the face of the
+knife and of prison (two black on the vitality); the gods sought as
+spirits (two black on the body, kept); the bone in the butter and the
+king of teeth's broken tusk (two black on the luck); the seventh corner,
+the lesser penalty, of the tomb stage (p. 258). Nothing is shown as
+another view (the owner, 2026-10-16).
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's

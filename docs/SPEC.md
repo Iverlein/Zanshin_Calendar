@@ -355,7 +355,7 @@ say. Tested against Gyurme Dorje's Table 2.11 and every cell of chart 6.2
 | Mewa of the year of age (*babs sme*) | the natal one in the middle of the square, then east, one place a year, on to the north-east in a male birth year, to the south-east in a female one, "whether the person is male or female" (p. 256) |
 | Trigram of the year of age (*babs spar*) | "a man from li towards khon, a woman from kham towards khen; one trigram for each year" (p. 257); the Moonbeams' leap at each ten is not WB's |
 | Progressed sign (*log men*) | a man from the tiger of the element his birth year's element feeds, forward through the sixty; a woman from the monkey of the element that feeds hers, backward (p. 387) |
-| Sectors of growth and decline | for each aspect's element, the twelve sectors from the breath-taking (earth and water at the snake, fire the pig, iron the tiger, wood the monkey) to the tomb; the present year's animal gives the sector (p. 258); six good, six bad |
+| Stages of the energy (*dar gud*, growth and decline; in the code `Sector`) | for each aspect's element, the twelve stages of its energy, likened to a life (ch. 20, pp. 234–235), from the breath-taking (earth and water at the snake, fire the pig, iron the tiger, wood the monkey) to the tomb; the present year's animal gives the sector (p. 258); six good, six bad |
 | Elements | a mewa's: the whites iron, black and blue water, green wood, the reds fire, yellow earth (p. 255); a trigram's: li fire, khon earth, dwa iron, kham water, zin wood, and khen, gin and zon, "also made earth" (the Moonbeams, p. 493) |
 
 The gender (§10.5) decides the trigram and the progressed sign; without it
@@ -413,11 +413,45 @@ mewa's small obstacles: on the present year's mewa (house), on the natal
 iron (royal gate), and on the mewa's sky door (a man's six-white, a
 woman's one-white) or earth door (two-black, four-green; p. 409), read as
 the doors of p. 387. An aspect in one of the bad sectors also reads its
-decline (p. 409). Tones: the predictive pebbles and sectors by their colour, the
+decline (p. 409). Tones: the predictive pebbles and stages by their colour, the
 obstacles unlucky (the own year and the seventh at their mother year
 mixed, as WB reads them good, and the progressed sign on a tomb mixed,
 "slightly bad"), the progressed sign's gains lucky and its
 doors and fives unlucky; mewa and trigram no tone.
+
+**What to do** (the owner, 2026-10-16; ROADMAP Y1). The year sheet is
+read for action, as WB itself reads it: «དེ་ལྟར་རྡེལ་ནག་ནན་གྱིས་བཅོས།», "so
+treat the black pebbles in earnest", the rites fitted to what matters
+most, to one's means, the place and the time (pp. 415–416). So:
+
+- **What matters most** opens the pebbles: for a man the vitality, for a
+  child the body, for a woman the destiny, "held the most precious and
+  reckoned" (ch. 20, p. 242; p. 416, where people of rank or learning
+  hold the luck). WB gives no age for a child; one counts as a child
+  below the 18th year, the first in which WB's nine-multiples call a man
+  "in his prime" and a woman "young" (`Care`); with no gender and from
+  the 18th, all three are named. That aspect's predictive pebble is marked
+  "matters most for you".
+- **Each aspect's predictive pebble** follows, the year's verdict on it,
+  with the stage its element's energy stands in under it, then the grid
+  of the twenty-four they are counted from.
+- **The stages are named as the energy's**: "Vitality · energy: death
+  stage", never a bare "death"; the reading says the element's energy is
+  in its death stage and what WB glosses it as, "prosperity wanes".
+- **Every remedy WB gives is a *Remedy* row**, one row for what the
+  person does and the rites alike, since the calendar's reader, a
+  ngakpa, is practitioner and ritualist at once. Where WB gives a remedy
+  once for a group it is one row for the group (`Reading.alsoRows`): the
+  own year's and the seventh's general rites (pp. 388–390), the tombs'
+  (p. 415), and the nine-multiples' cure, which p. 414 gives for every
+  kind, the single count too («དྲུག་པ་དགུ་མིག་བཅོས་ཐབས་བསྟན།»). A bad stage's
+  remedy is its aspect's decline remedy (p. 409) and then the stage's own
+  rite, where p. 409 sends it, «གུད་བཞིའི་གཏོ་ཆོག་ནད་རྩིས་བཞིན།», to the illness
+  reckoning's twelve stages (ch. 25, pp. 440–442), whose two spirits stand
+  in *Spirits that harm*. The verse's images stay, after the ruling; the
+  harmful spirits and the illnesses are rows. Where WB names no remedy
+  (one white and one black on the destiny, the progressed sign's three
+  meetings, the black undertakers), none is written.
 
 **With the relatives** (§10.5; ROADMAP P2, `Kin.kt`, `KinReckoning`;
 `Reckonings.kin` takes the mother, father, spouses and children entered
@@ -1566,10 +1600,11 @@ the day needs its readings, not their sources): no sheet ends in source
 lines, and no reading, note, list wording, detail or interface string
 names a source's title, author, publisher, edition, chapter or page, or
 says what "the text" says. A reading states what its source says as
-fact ("Of the ten, it is among the three good"); a view other than the
-main one is "another view", named only where the view is itself what
-the row shows (Pukton's dates, the Vajra Treatise's days, the Paṇchen
-Mön'drowa's black day). About & sources (§10.5) lists the sources of all
+fact ("Of the ten, it is among the three good"); no reading gives a view
+other than its main one as "another view" (the owner, 2026-10-16: to a
+Western reader an alternative reads as uncertainty, not as a call to
+act), and where a tradition's own entries are what a row shows (Pukton's
+dates, the Vajra Treatise's days) they are entries of their own. About & sources (§10.5) lists the sources of all
 readings with their licences, and its Documentation section points to
 the repository, where each reading's `Source` (§8.2) names its own, down
 to the page, and `docs/sources/` gives the passages; comments in the
@@ -1675,7 +1710,7 @@ the same way.
    with these labels and no others: *Also called* · *Strong when* ·
    *Setting out* · *Rank* · *Remedy* · *Spirits that harm* · *Illness* ·
    *Rites* · *La today* · *A birth today* · *A death today* · *Livestock*
-   · *How it falls* · *Another view*. A row is a phrase or one sentence;
+   · *How it falls*. A row is a phrase or one sentence;
    it holds names and brackets well, where a sentence does not. The
    omens (*A birth today*, *A death today*, *Livestock*, the planet's
    caste and colour under *Also called*, a mansion's planet and foods)
@@ -1699,9 +1734,11 @@ the same way.
    lists say "Good for" and "Avoid"; a whole entry is "to be avoided" or
    "avoided for its whole length"; a day is lucky, unlucky, mixed or
    neutral, as the tone labels say; a remedy is "Remedy:" in the
-   imperative ("hoist white silk and burn white butter"); an alternative
-   tradition is "another view", in its row, except an earth lord's, which
-   is not shown at all (§5.13). The source's classes of work
+   imperative ("hoist white silk and burn white butter"), what the person
+   does and the rites in one row, since the reader, a ngakpa, does both
+   (the owner, 2026-10-16); an alternative tradition is not shown, an
+   earth lord's included (§5.13), and no reading says "another view". The
+   source's classes of work
    keep their names, since they are terms and not verdicts: white work,
    virtuous work, fierce rites, harsh work. Not used for a ruling:
    auspicious, succeeds, turns out well, shunned, given up, prosper.
@@ -1721,7 +1758,7 @@ the same way.
    rendered word for word", "some say" go to the topic file in
    `docs/sources/`, with the Tibetan, and to ROADMAP's *Left open* table
    if they are questions; a reading shows only what is settled, and a
-   recorded alternative only as *Another view*.
+   recorded alternative stays in the topic file.
 10. **Plain sentences.** One fact per sentence, 25 words at most, present
     tense, the day, the spirit or the work as the subject, a verb in
     every sentence: "Setting out goes badly, above all to the south" and
@@ -1748,7 +1785,7 @@ the same way.
     the head of `texts_ru.properties`.
 
 `CatalogTest` holds what of the rules a test can see (ROADMAP X2, built
-2026-10-11): every row key one of the fourteen; the Russian with every
+2026-10-11): every row key one of the thirteen; the Russian with every
 row the English has; no paragraph over 60 words (a Tibetan bracket adds
 none, a {0} counts one) and none under 20, measured as the sheet shows
 it, a family's note filled with the entry's own text; none of rule 8's and 9's words in a reading
@@ -1835,9 +1872,11 @@ the engines keep the IAST as `iast`); `reading.<Enum>.<NAME>` for a reading's su
 `<reading>.<row>` for each of its rows (§8.1, rule 3; ROADMAP X2), beside
 the entry's own text (`reading.LunarDate.1.la`, `reading.Weekday.SUNDAY.strong`;
 under a family's note, beside the entry the note's {0} takes,
-`reading.Mansion.HASTA.other_view`), `<row>` one of `also_called`,
-`strong`, `setting_out`, `rank`, `remedy`, `spirits`, `illness`, `rites`,
-`la`, `birth`, `death`, `livestock`, `falls`, `other_view`, each label a
+`reading.NatalTrigram.LI.spirits`; for a group's shared rows, beside a key
+the readings name in `Reading.alsoRows`, `reading.NineMultiple.remedy`),
+`<row>` one of `also_called`, `strong`, `setting_out`, `rank`, `remedy`,
+`spirits`, `illness`, `rites`, `la`, `birth`, `death`, `livestock`,
+`falls`, each label a
 term of its own (`ReadingRow.LA`, "La today"), and a row filled as its
 summary is, {0} taking the same text; a course by date's *How it falls*
 row is `{0}` alone, which takes the line the engine names for the shown
@@ -2442,11 +2481,11 @@ canvas "Zanshin Calendar — basic design".
   "Good for" and "Avoid" lists; the reading's rows in their fixed order,
   *Also called* · *Strong when* · *Setting out* · *Rank* · *Remedy* ·
   *Spirits that harm* · *Illness* · *Rites* · *La today* · *A birth today*
-  · *A death today* · *Livestock* · *How it falls* · *Another view*, each
+  · *A death today* · *Livestock* · *How it falls*, each
   shown only where the catalog has it; and last the app's workings rows,
   how the entry was counted (the hair date, Viṣṭi's span, the pebbles'
   count). Rows and workings share one label column, as wide as the
-  longest of the fourteen labels in the shown language on one line at the
+  longest of the thirteen labels in the shown language on one line at the
   phone's font scale, never under 112 dp and at most half the
   sheet, where a longer workings label wraps; the "Tibetan" line keeps the
   same column. A sheet of several parts (the combination, the special
@@ -3001,13 +3040,16 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   person's birth year cannot be reached. Under it: the person's age and
   signs; the signs of the year (the mewa of the year of age with the
   natal one, and with a gender the trigram and the progressed sign with
-  its place); the pebbles as a grid, drawn as the charts draw them (○
-  white, × black), a row for each basic sign and a column for each
-  aspect as chart 6.2 lays them, the white and black counted under it,
-  then each aspect's predictive pebble (and all four alike); the hour of
-  reckoning, the present one whatever the year, named; the four sectors
-  of growth and decline; and the year's obstacles, or a line saying
-  there are none. Every row and cell opens its reading with its
+  its place); under the pebbles, first what matters most for the person
+  (§5.9.1, *What to do*), then for each aspect its predictive pebble, the
+  one that matters most marked "matters most for you", with under it the
+  stage its element's energy stands in ("Vitality · energy: death
+  stage"); all four alike; then the pebbles as a grid, drawn as the
+  charts draw them (○ white, × black), a row for each basic sign and a
+  column for each aspect as chart 6.2 lays them, the white and black
+  counted under it, and the hour of reckoning, the present one whatever
+  the year, named; and the year's obstacles, or a line saying there are
+  none. Every row and cell opens its reading with its
   workings. Without a gender a note asks for it in People. A year
   stepped to is reckoned from its place in the sixty-year cycle
   (`YearOfLife.yearSign`), the same as from any day in it
