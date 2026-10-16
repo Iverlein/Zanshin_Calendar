@@ -43,7 +43,9 @@ import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Gender
+import zanshin.core.tibetan.Care
 import zanshin.core.tibetan.Harsh
+import zanshin.core.tibetan.HarshYear
 import zanshin.core.tibetan.KinObstacle
 import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Pebbles
@@ -91,7 +93,6 @@ enum class ReadingRow(val key: String) {
     DEATH("death"),
     LIVESTOCK("livestock"),
     FALLS("falls"),
-    OTHER_VIEW("other_view"),
     ;
 
     val label: String get() = gloss(this)
@@ -119,6 +120,12 @@ data class Reading(
     val moreArgs: List<String> = emptyList(),
     /** How a course by date fell on the shown day: its line fills the rows' {0} in place of [arg]'s text (SPEC §8.1, rule 4). */
     val today: CourseFall? = null,
+    /**
+     * Further catalog keys whose rows join the reading's own, row by row, after them: a remedy the
+     * source gives once for a group of entries (the nine-multiples', the tombs'), or a second fact
+     * that bears on the entry (a bad stage's rite beside its aspect's decline).
+     */
+    val alsoRows: List<String> = emptyList(),
 ) {
     val summary: String
         get() = Catalog.textOrNull(key)?.let { fill(it) } ?: ""
@@ -131,10 +138,19 @@ data class Reading(
     val rowKey: String
         get() = arg?.takeIf { it.startsWith("reading.") && key.count { c -> c == '.' } == 1 } ?: key
 
-    /** The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text, or [today]'s line. */
+    /** The keys the reading's rows stand beside: [rowKey], then [alsoRows]. */
+    val rowKeys: List<String>
+        get() = listOf(rowKey) + alsoRows
+
+    /**
+     * The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text, or
+     * [today]'s line; a row that more than one of [rowKeys] holds is their texts joined, in that order.
+     */
     val rows: List<Pair<ReadingRow, String>>
         get() = ReadingRow.entries.mapNotNull { row ->
-            Catalog.textOrNull("$rowKey.${row.key}")?.let { row to (today?.let { t -> Catalog.fill(it, fallLine(t)) } ?: fill(it)) }
+            rowKeys.mapNotNull { k -> Catalog.textOrNull("$k.${row.key}") }.takeIf { it.isNotEmpty() }
+                ?.joinToString("; ")
+                ?.let { row to (today?.let { t -> Catalog.fill(it, fallLine(t)) } ?: fill(it)) }
         }
 
     private fun fill(text: String): String = arg?.let { a -> Catalog.fill(text, (listOf(a) + moreArgs).joinToString(" ") { Catalog.text(it) }) } ?: text
@@ -241,6 +257,10 @@ object Sources {
     )
     /** Vol. 1, chapter 21's signs of the years of life and chapter 24, the obstacle years (SPEC §5.9, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–416", volume = 1)
+    /** A bad stage of the energy: its rank (ch. 21), the aspect in decline (ch. 24, p. 409) and the stage's spirits and rite (ch. 25, pp. 440–442). */
+    val WHITE_BERYL_YEAR_STAGES = whiteBeryl("chapter 21, p. 258, chapter 24, p. 409, and chapter 25, pp. 440–442", volume = 1)
+    /** Whose aspect matters most (ch. 20, p. 242) and the black pebbles to be treated in earnest (ch. 24, pp. 415–416). */
+    val WHITE_BERYL_YEAR_CARE = whiteBeryl("chapter 20, p. 242, and chapter 24, pp. 415–416", volume = 1)
     /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
     val WHITE_BERYL_BIRTH = whiteBeryl("chapter 22, pp. 261 and 286–288, with the notes in vol. 2, p. 476", volume = 1)
     /** Vol. 1, chapter 24's obstacles that need a spouse's, a parent's or a son's signs (ROADMAP P2, docs/sources/year-of-life.md, RD14). */
@@ -1608,9 +1628,19 @@ object Texts {
         Reading(key = "reading.Kinship", arg = "reading.${glossKey(it)}", source = Sources.WHITE_BERYL_PEBBLES, also = listOf(Sources.BERZIN_ASTROLOGY_1))
     }
 
-    /** A reading of the year of life (SPEC §5.9): the section's text with the item's in its {0}. */
-    private fun yearOfLife(key: String, item: String) =
-        Reading(key = "reading.$key", arg = "reading.$key.$item", source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS))
+    /** A reading of the year of life (SPEC §5.9): the section's text with the item's in its {0}, its rows and those of [alsoRows]. */
+    private fun yearOfLife(key: String, item: String, alsoRows: List<String> = emptyList()) =
+        Reading(key = "reading.$key", arg = "reading.$key.$item", source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS), alsoRows = alsoRows)
+
+    /** The remedies of every nine-multiple, whatever its kind (WB vol. 1, p. 414): rows of their own, beside each one's. */
+    private const val NINE_REMEDIES = "reading.NineMultiple"
+
+    /**
+     * Whose aspect matters most and how the black pebbles are met (ch. 20, p. 242; ch. 24, pp. 415–416): for a man
+     * the vitality, for a child the body, for a woman the destiny; with no gender, all three.
+     */
+    fun yearCare(care: Care): Reading =
+        Reading(key = "reading.YearCare", arg = "reading.YearCare.${care.name}", source = Sources.WHITE_BERYL_YEAR_CARE)
 
     /** The catalog's name of a pebble group: three, two or one white, two or one black, or one of each. */
     fun pebbleGroup(p: Pebbles): String = when (p) {
@@ -1629,27 +1659,49 @@ object Texts {
     fun yearPredictive(force: Force?, white: Boolean): Reading =
         yearOfLife("YearPredictive", if (force == null) (if (white) "ALL_WHITE" else "ALL_BLACK") else "${force.name}.${if (white) "WHITE" else "BLACK"}")
 
-    /** A sector; an aspect in one of the six bad sectors also reads its decline (WB vol. 1, p. 409). */
+    /**
+     * A stage of the energy; an aspect in one of the six bad stages also reads its decline (WB vol. 1, p. 409), whose
+     * remedy rows come first, then the stage's own spirits and rite (ch. 25, pp. 440–442), as p. 409 sends them there.
+     */
     fun yearSector(s: Sector, force: Force? = null): Reading =
         if (s.good || force == null) yearOfLife("YearSector", s.name)
-        else Reading(key = "reading.YearDecline.${force.name}", arg = "reading.YearSector.${s.name}", source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS))
+        else Reading(
+            key = "reading.YearDecline.${force.name}", arg = "reading.YearSector.${s.name}", alsoRows = listOf("reading.YearSector.${s.name}"),
+            source = Sources.WHITE_BERYL_YEAR_STAGES, also = listOf(Sources.MOONBEAMS),
+        )
 
     /** The progressed sign, with where its animal stands among the doors and the fives, if anywhere (p. 387). */
     fun logMen(place: LogMenPlace?): Reading = yearOfLife("LogMen", place?.name ?: "NONE")
 
-    /** A harsh year; the own year and the seventh are read by the relation of the year's element to the birth year's (pp. 387–390). */
-    fun harsh(h: Harsh): Reading = yearOfLife(
-        "Harsh",
-        when {
+    /**
+     * A harsh year; the own year and the seventh are read by the relation of the year's element to the birth year's
+     * (pp. 387–390). The own year, the seventh and the combined nine-multiple read under a note of their own, which
+     * holds what each of their kind shares, and its rows; the tombs share their remedies (p. 415), and every
+     * nine-multiple takes the nine-multiples' remedies (p. 414).
+     */
+    fun harsh(h: Harsh): Reading {
+        val item = when {
             h.kinship != null -> "${h.year.name}.${h.kinship.name}"
             // The 6th and 7th combined nine-multiples read as the 1st and 2nd (p. 415).
             h.element != null -> "${h.year.name}.${h.element.name}.${(h.nth!! - 1) % 5 + 1}"
             else -> h.year.name
-        },
-    )
+        }
+        val entry = "reading.Harsh.$item"
+        return when (h.year) {
+            HarshYear.OWN_YEAR, HarshYear.SEVENTH, HarshYear.COMBINED_NINE -> Reading(
+                key = "reading.Harsh.${h.year.name}", arg = entry,
+                alsoRows = listOf(entry) + if (h.year == HarshYear.COMBINED_NINE) listOf(NINE_REMEDIES) else emptyList(),
+                source = Sources.WHITE_BERYL_YEAR_OF_LIFE, also = listOf(Sources.MOONBEAMS),
+            )
+            HarshYear.NINE_TOMB, HarshYear.TRIGRAM_NINE, HarshYear.MEWA_NINE -> yearOfLife("Harsh", item, listOf(NINE_REMEDIES))
+            HarshYear.TOMB_OWN_GREAT, HarshYear.TOMB_OWN_SMALL, HarshYear.TOMB_SLAYER_GREAT, HarshYear.TOMB_SLAYER_SMALL, HarshYear.TOMB_SIGN ->
+                yearOfLife("Harsh", item, listOf("reading.Harsh.TOMB"))
+            else -> yearOfLife("Harsh", item)
+        }
+    }
 
-    /** A year of the nine-multiples, by gender and age (pp. 410–411). */
-    fun nineMultiple(gender: Gender, age: Int): Reading = yearOfLife("NineMultiple", "${gender.name}.$age")
+    /** A year of the nine-multiples, by gender and age (pp. 410–411), with the nine-multiples' remedies (p. 414). */
+    fun nineMultiple(gender: Gender, age: Int): Reading = yearOfLife("NineMultiple", "${gender.name}.$age", listOf(NINE_REMEDIES))
 
     fun mewaObstacle(o: SmeBaObstacle): Reading = yearOfLife("MewaObstacle", o.name)
 

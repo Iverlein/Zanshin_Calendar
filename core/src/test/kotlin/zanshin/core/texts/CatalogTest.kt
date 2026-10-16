@@ -21,6 +21,7 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Animal
+import zanshin.core.tibetan.Care
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.ElectionalFactor
 import zanshin.core.tibetan.ElementPair
@@ -147,15 +148,18 @@ class CatalogTest {
         for (f in Force.entries + listOf(null)) for (w in listOf(true, false)) out += Texts.yearPredictive(f, w)
         Trigram.entries.forEach { out += Texts.natalTrigram(it) }
         KinObstacle.entries.forEach { out += Texts.kinObstacle(it) }
+        Care.entries.forEach { out += Texts.yearCare(it) }
         return out.toList()
     }
 
     /** No text of the year of life is left that no reckoning shows. */
     @Test
     fun `every text of the year of life is shown`() {
-        val shown = yearOfLifeReadings().flatMap { r -> listOfNotNull(r.key, r.arg) + r.rows.map { "${r.rowKey}.${it.first.key}" } }.toSet()
+        val shown = yearOfLifeReadings().flatMap { r ->
+            listOfNotNull(r.key, r.arg) + r.rowKeys.flatMap { k -> ReadingRow.entries.map { "$k.${it.key}" } }
+        }.toSet()
         val families = listOf(
-            "YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
+            "YearCare", "YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
             "NatalTrigram", "KinObstacle",
         )
         val written = english.keys.filter { k -> families.any { k == "reading.$it" || k.startsWith("reading.$it.") } }
@@ -319,7 +323,7 @@ class CatalogTest {
     @Test
     fun `a reading's rows are the shape's rows`() {
         val named = allReadings.flatMap { listOfNotNull(it.key, it.arg) }.toSet()
-        val entries = allReadings.map { it.rowKey }.toSet()
+        val entries = allReadings.flatMap { it.rowKeys }.toSet()
         val wrong = english.keys.filter { k ->
             k !in named && k.substringBeforeLast('.') in entries && k.substringAfterLast('.').matches(Regex("[a-z_]+")) && !isRow(k)
         }
@@ -461,9 +465,11 @@ class CatalogTest {
                 "DusSbyor", "WorksSign", "HourWorks", "HourHidden", "HourEarthLords", "HourGnamKhyi", "HourBlaMkhyen", "HourSaRgyal",
                 "BlackHour", "RoughTime", "OwnYearHour", "NectarPeriods", "HourOverDay",
             ),
-            "X10" to listOf(
-                "BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut", "YearPebble", "YearPredictive", "YearSector", "YearDecline",
-                "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
+            "X10" to listOf("BlaMkhyen", "TwelveLinks", "DateSmeBa", "Haircut"),
+            // The year sheet, brought to the shape with its remedies as rows (Y1, block 57): no allowance.
+            "Y1" to listOf(
+                "YearCare", "YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle",
+                "YearTrigram", "YearMewa",
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
@@ -489,7 +495,7 @@ class CatalogTest {
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 22, // the hours panel (block 48)
-            "X10" to 173, // the rest, and the year sheet (block 49); 60 of them the haircuts under 20 words; the links in the shape (block 24); the harsh years' note without the app (block 29)
+            "X10" to 66, // the rest (block 49); 60 of them the haircuts under 20 words; the links in the shape (block 24); the year sheet in the shape (Y1, block 57)
         )
     }
 }

@@ -330,6 +330,28 @@ enum class HarshYear {
 data class Harsh(val year: HarshYear, val kinship: Kinship? = null, val element: Element? = null, val nth: Int? = null)
 
 /**
+ * Whose aspect is held the most precious, reckoned first and mended first (WB vol. 1, ch. 20, p. 242; ch. 24,
+ * p. 416): a man's vitality, a child's body, a woman's destiny; with no gender, all three are named. WB gives
+ * no age for a child: one counts as a child below the 18th year, the first in which WB's nine-multiples call
+ * a man "in his prime" and a woman "young" (pp. 410–411), whatever the gender.
+ */
+enum class Care(val force: Force?) {
+    MAN(Force.VITALITY),
+    WOMAN(Force.DESTINY),
+    CHILD(Force.BODY),
+    GENERAL(null);
+
+    companion object {
+        fun of(gender: Gender?, age: Int): Care = when {
+            age < 18 -> CHILD
+            gender == Gender.MALE -> MAN
+            gender == Gender.FEMALE -> WOMAN
+            else -> GENERAL
+        }
+    }
+}
+
+/**
  * What the progressed sign's animal brings (WB vol. 1, p. 387): the sky door
  * and the earth door, which differ for men and women, the five ruins, the
  * five separations, the five lineage-cuttings and the five gains.
