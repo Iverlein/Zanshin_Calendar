@@ -8,6 +8,7 @@ import android.content.Context
 import zanshin.app.ui.AppTheme
 import zanshin.core.astro.Place
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.ZoneId
 import java.util.Locale
 import kotlin.math.abs
@@ -116,6 +117,21 @@ class Settings(context: Context) {
             prefs.edit().putString(KEY_THEME, value.name).commit()
         }
 
+    /** The morning notice (SPEC §10.5, ROADMAP N1): one silent notification a day with the day in brief; off by default. */
+    var notice: Boolean
+        get() = prefs.getBoolean(KEY_NOTICE, false)
+        set(value) = prefs.edit().putBoolean(KEY_NOTICE, value).apply()
+
+    /** The morning notice's time, by the phone's clock; 06:00 until set. */
+    var noticeTime: LocalTime
+        get() = LocalTime.ofSecondOfDay(prefs.getInt(KEY_NOTICE_TIME, 6 * 3600).toLong())
+        set(value) = prefs.edit().putInt(KEY_NOTICE_TIME, value.toSecondOfDay()).apply()
+
+    /** The next morning notice, epoch milliseconds, as last scheduled; 0 when none. */
+    var nextNotice: Long
+        get() = prefs.getLong(KEY_NOTICE_NEXT, 0)
+        set(value) = prefs.edit().putLong(KEY_NOTICE_NEXT, value).apply()
+
     /** The app's language before Android 13 (see [AppLanguage]); null follows the phone. */
     var language: String?
         get() = prefs.getString(KEY_LANGUAGE, null)
@@ -128,6 +144,9 @@ class Settings(context: Context) {
         /** The opens of each page that show its first-run line. */
         const val FIRST_RUN_OPENS = 3
         private const val KEY_LANGUAGE = "language"
+        private const val KEY_NOTICE = "notice"
+        private const val KEY_NOTICE_TIME = "notice_time"
+        private const val KEY_NOTICE_NEXT = "notice_next"
         private const val KEY_THEME = "theme"
         private const val KEY_BIRTH = "birth"
         private const val KEY_PEOPLE = "people"

@@ -12,7 +12,6 @@ import android.content.Context
 import android.content.Intent
 import android.media.AudioAttributes
 import android.media.AudioManager
-import android.os.Build
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -37,12 +36,7 @@ object MindfulnessBell {
         settings.nextBell = next?.toInstant()?.toEpochMilli() ?: 0
         if (next == null) return
         val at = next.toInstant().toEpochMilli()
-        val intent = pendingIntent(context, at)
-        if (Build.VERSION.SDK_INT < 31 || alarms.canScheduleExactAlarms()) {
-            alarms.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, at, intent)
-        } else {
-            alarms.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, at, intent)
-        }
+        setExact(alarms, at, pendingIntent(context, at))
     }
 
     private fun pendingIntent(context: Context, at: Long?): PendingIntent {
@@ -100,14 +94,17 @@ object MindfulnessBell {
         }
     }
 
-    /** Sets the alarm again after a reboot, an update or a change of the clock or zone. */
+    /** Sets the bell's alarm and the morning notice's again after a reboot, an update or a change of the clock or zone. */
     class RescheduleReceiver : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
             when (intent.action) {
                 Intent.ACTION_BOOT_COMPLETED, Intent.ACTION_MY_PACKAGE_REPLACED,
                 Intent.ACTION_TIME_CHANGED, Intent.ACTION_TIMEZONE_CHANGED,
                 AlarmManager.ACTION_SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED,
-                -> schedule(context)
+                -> {
+                    schedule(context)
+                    MorningNotice.schedule(context)
+                }
             }
         }
     }

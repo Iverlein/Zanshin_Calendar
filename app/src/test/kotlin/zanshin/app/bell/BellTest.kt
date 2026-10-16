@@ -205,4 +205,25 @@ class BellTest {
         val bowl = BellSound.BOWL.render()
         assertTrue(bowl.drop(after).take(1000).any { abs(it.toInt()) > 10_000 }, "the bowl is silent at 0.3 s")
     }
+
+    @Test
+    fun `the morning notice comes at its time today, or tomorrow once it has passed`() {
+        val six = LocalTime.of(6, 0)
+        assertEquals(at(9, 6, 0), NoticePlan.next(six, at(9, 5, 59)))
+        assertEquals(at(10, 6, 0), NoticePlan.next(six, at(9, 6, 0)))
+        assertEquals(at(10, 6, 0), NoticePlan.next(six, at(9, 23, 30)))
+        // Every day, weekends included: the notice has no days of its own.
+        assertEquals(at(11, 6, 0), NoticePlan.next(six, at(10, 7, 0)))
+    }
+
+    @Test
+    fun `a notice the clock skips comes as late as the gap, and comes once on a day that repeats an hour`() {
+        val berlin = ZoneId.of("Europe/Berlin")
+        // 29 March 2026: 02:00 to 03:00 is skipped; 25 October 2026: 02:00 to 03:00 comes twice.
+        val spring = NoticePlan.next(LocalTime.of(2, 30), LocalDateTime.of(2026, 3, 29, 1, 0).atZone(berlin))
+        assertEquals(LocalDateTime.of(2026, 3, 29, 3, 30), spring.toLocalDateTime())
+        val autumn = NoticePlan.next(LocalTime.of(2, 30), LocalDateTime.of(2026, 10, 25, 1, 0).atZone(berlin))
+        assertEquals(LocalDateTime.of(2026, 10, 25, 2, 30), autumn.toLocalDateTime())
+        assertEquals(LocalDateTime.of(2026, 10, 26, 2, 30), NoticePlan.next(LocalTime.of(2, 30), autumn).toLocalDateTime())
+    }
 }

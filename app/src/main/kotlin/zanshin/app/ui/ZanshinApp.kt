@@ -4,9 +4,14 @@
 
 package zanshin.app.ui
 
+import android.Manifest
 import android.app.Activity
+import android.content.pm.PackageManager
+import android.os.Build
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -45,6 +50,7 @@ import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -70,6 +76,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import kotlinx.coroutines.delay
@@ -88,17 +95,22 @@ import zanshin.app.Person
 import zanshin.app.SavedPlace
 import zanshin.app.Settings
 import zanshin.app.ThemeWindow
+import zanshin.app.TodayRequest
+import zanshin.app.bell.BellHours
+import zanshin.app.bell.MorningNotice
 import zanshin.core.astro.SunTimes
 import zanshin.core.kyureki.Kigaku
 import zanshin.core.tibetan.TibetanCalendar
+import java.time.Instant
 import java.time.LocalDate
+import java.time.LocalTime
 import java.time.ZoneId
 
 private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, HEALTH, RECKONINGS }
 
 /** The app; [meditationRequests] counts the timer notification's taps, each showing the meditation screen. */
 @Composable
-fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) {
+fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, todayRequest: TodayRequest? = null) {
     var calendar by remember { mutableStateOf(settings.calendar) }
     var place by remember { mutableStateOf(settings.place) }
     var people by remember { mutableStateOf(settings.people) }
@@ -112,6 +124,13 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     var languageDialog by remember { mutableStateOf(false) }
     var theme by remember { mutableStateOf(settings.theme) }
     var themeDialog by remember { mutableStateOf(false) }
+    // The morning notice (SPEC §10.5): its switch, its time and the next one, which each notice sets anew while away.
+    var notice by remember { mutableStateOf(settings.notice) }
+    var noticeTime by remember { mutableStateOf(settings.noticeTime) }
+    var nextNotice by remember { mutableLongStateOf(settings.nextNotice) }
+    var noticeTimeDialog by remember { mutableStateOf(false) }
+    // The notice is posted without the permission too; it only shows with it.
+    val notifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
     // Set while the people dialogs were opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
     var screen by remember { mutableStateOf(Screen.DAYS) }
@@ -169,7 +188,10 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
             today = now
         }
     }
-    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { followToday() }
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        followToday()
+        nextNotice = settings.nextNotice
+    }
     LaunchedEffect(calendar, zone) {
         while (true) {
             followToday()
@@ -180,6 +202,24 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
     fun chooseCalendar(kind: CalendarKind) {
         calendar = kind
         settings.calendar = kind
+    }
+
+    // A tap on the morning notice (SPEC §10.5): today's page of the calendar it was for, from whatever was shown.
+    LaunchedEffect(todayRequest) {
+        val request = todayRequest ?: return@LaunchedEffect
+        chooseCalendar(request.calendar)
+        screen = Screen.DAYS
+        openDay = Days.today(request.calendar, zone)
+        drawer.close()
+    }
+
+    fun setNotice(on: Boolean, time: LocalTime = noticeTime) {
+        notice = on
+        noticeTime = time
+        settings.notice = on
+        settings.noticeTime = time
+        MorningNotice.schedule(activity)
+        nextNotice = settings.nextNotice
     }
 
     fun savePeople(p: People) {
@@ -378,6 +418,32 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     languageDialog = true
                 },
                 themeLabel = stringResource(theme.label()),
+                notice = notice,
+                noticeLine = if (!notice || nextNotice == 0L) {
+                    stringResource(R.string.notice_off)
+                } else {
+                    val todayLine = stringResource(R.string.notice_next_today)
+                    val dayLine = stringResource(R.string.notice_next_day)
+                    val labels = LocalLabels.current
+                    BellHours.nextLine(
+                        Instant.ofEpochMilli(nextNotice).atZone(ZoneId.systemDefault()),
+                        LocalDate.now(),
+                        labels.clock,
+                        labels.locale,
+                        { time -> todayLine.format(time) },
+                        { weekday, time -> dayLine.format(weekday, time) },
+                    )
+                },
+                onNotice = { on ->
+                    setNotice(on)
+                    if (on && Build.VERSION.SDK_INT >= 33 &&
+                        ContextCompat.checkSelfPermission(activity, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+                    ) {
+                        notifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+                    }
+                },
+                noticeTimeLabel = noticeTime.format(LocalLabels.current.clock),
+                onNoticeTime = { noticeTimeDialog = true },
                 onTheme = {
                     scope.launch { drawer.close() }
                     themeDialog = true
@@ -467,6 +533,19 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0) 
                     with(ThemeWindow) { (activity as ComponentActivity).apply(it) }
                 },
                 onDismiss = { themeDialog = false },
+            )
+        }
+
+        if (noticeTimeDialog) {
+            BellTimeDialog(
+                title = stringResource(R.string.notice_time_title),
+                time = noticeTime,
+                note = null,
+                onSet = {
+                    noticeTimeDialog = false
+                    setNotice(true, it)
+                },
+                onDismiss = { noticeTimeDialog = false },
             )
         }
 
@@ -669,6 +748,11 @@ private fun SideMenu(
     onLanguage: () -> Unit,
     themeLabel: String,
     onTheme: () -> Unit,
+    notice: Boolean,
+    noticeLine: String,
+    onNotice: (Boolean) -> Unit,
+    noticeTimeLabel: String,
+    onNoticeTime: () -> Unit,
     onClose: () -> Unit,
 ) {
     ModalDrawerSheet(
@@ -731,6 +815,8 @@ private fun SideMenu(
                 SwitchRow(Icons.Board, stringResource(R.string.menu_kigaku), stringResource(R.string.menu_kigaku_subtitle), kigaku, onKigaku)
                 MenuRow(Icons.Globe, stringResource(R.string.menu_language), languageLabel, onLanguage)
                 MenuRow(Icons.Contrast, stringResource(R.string.menu_theme), themeLabel, onTheme)
+                SwitchRow(Icons.Bell, stringResource(R.string.notice_title), noticeLine, notice, onNotice)
+                if (notice) MenuRow(Icons.Clock, stringResource(R.string.notice_time), noticeTimeLabel, onNoticeTime)
             }
             MenuSeparator()
             MenuRow(Icons.Info, stringResource(R.string.menu_about), stringResource(R.string.menu_about_subtitle), onAbout)

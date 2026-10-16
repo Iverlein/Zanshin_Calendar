@@ -178,7 +178,8 @@ fun MessageDialog(message: String, onSave: (String) -> Unit, onDismiss: () -> Un
  * A time for one end of the mindfulness bell's hours (ROADMAP U17): the
  * Material clock in the app's colours, 24-hour as the app's clock; the
  * screen rounds the time set to the half hour (`BellHours`). With its own
- * [note], the hour of a relative's birth or death (ROADMAP P1).
+ * [note], the hour of a relative's birth or death (ROADMAP P1); with none,
+ * the morning notice's time (ROADMAP N1).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -187,7 +188,7 @@ fun BellTimeDialog(
     time: LocalTime,
     onSet: (LocalTime) -> Unit,
     onDismiss: () -> Unit,
-    note: String = stringResource(R.string.bell_time_rounds),
+    note: String? = stringResource(R.string.bell_time_rounds),
 ) {
     val is24Hour = stringResource(R.string.pattern_clock).contains('H')
     val state = rememberTimePickerState(initialHour = time.hour, initialMinute = time.minute, is24Hour = is24Hour)
@@ -216,7 +217,7 @@ fun BellTimeDialog(
                         timeSelectorUnselectedContentColor = Palette.text,
                     ),
                 )
-                Text(note, style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                note?.let { Text(it, style = body.copy(fontSize = 13.sp, color = Palette.muted)) }
             }
         },
         confirmButton = {

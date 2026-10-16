@@ -269,6 +269,14 @@
     <string name="person_chip_none">No one chosen for personal days; change the person</string>
     <string name="menu_kigaku">Nine-star reading</string>
     <string name="menu_kigaku_subtitle">Your birth star against the day star</string>
+    <!-- The morning notice (SPEC §10.5): one silent notification a day with the day in brief -->
+    <string name="notice_title">Morning notice</string>
+    <string name="notice_off">The day in brief, once a morning</string>
+    <string name="notice_next_today">Next notice at %1$s</string>
+    <!-- %1$s the weekday, %2$s the time -->
+    <string name="notice_next_day">Next notice on %1$s at %2$s</string>
+    <string name="notice_time">Time of the notice</string>
+    <string name="notice_time_title">The notice comes at</string>
     <string name="menu_language">Language</string>
     <string name="language_system">Phone\'s language</string>
     <string name="menu_theme">Theme</string>

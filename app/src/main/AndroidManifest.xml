@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <!-- The mindfulness bell: an exact alarm for each bell, set again after a reboot. -->
+    <!-- The mindfulness bell and the morning notice: an exact alarm for each, set again after a reboot. -->
     <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -58,6 +58,11 @@
             android:name="zanshin.app.bell.MindfulnessBell$RingReceiver"
             android:exported="false" />
 
+        <receiver
+            android:name="zanshin.app.bell.MorningNotice$ShowReceiver"
+            android:exported="false" />
+
+        <!-- Sets the bell's and the morning notice's alarms again. -->
         <receiver
             android:name="zanshin.app.bell.MindfulnessBell$RescheduleReceiver"
             android:exported="false">
