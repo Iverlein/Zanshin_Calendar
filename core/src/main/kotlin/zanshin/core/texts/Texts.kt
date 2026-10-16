@@ -610,8 +610,13 @@ object Texts {
      */
     val HAIRCUT_GOOD: Set<Int> = setOf(3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 18, 19, 22, 23, 26, 27)
 
-    /** Result of cutting one's hair on each lunar day, 1–30: the result alone under `reading.Haircut.<day>`. */
-    val HAIRCUT: List<Reading> = (1..30).map { Reading(key = "reading.Haircut", arg = "reading.Haircut.$it", source = Sources.FPMT_HAIR) }
+    /**
+     * Result of cutting one's hair on each lunar day, 1–30: the result alone under `reading.Haircut.<day>`, the short
+     * form the page's rows show, under the note of a good date or of one to avoid, which gives the ruling.
+     */
+    val HAIRCUT: List<Reading> = (1..30).map {
+        Reading(key = "reading.Haircut.${if (it in HAIRCUT_GOOD) "GOOD" else "AVOID"}", arg = "reading.Haircut.$it", source = Sources.FPMT_HAIR)
+    }
 
     /**
      * The same verdict as a list of the date, good or to avoid, so that the day in brief weighs it
