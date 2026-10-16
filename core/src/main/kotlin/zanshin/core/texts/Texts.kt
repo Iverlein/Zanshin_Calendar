@@ -192,6 +192,13 @@ private fun <E : Enum<E>> keyed(vararg entries: Pair<E, Reading>): Map<E, Readin
     entries.associate { (e, r) -> e to r.copy(key = "reading.${glossKey(e)}") }
 
 /**
+ * Keyed readings under their family's note (SPEC §8.1, rule 5): the summary is `reading.<Enum>`, a
+ * sentence the whole family shares, its {0} filled with the entry's own text, where the rows stand too.
+ */
+private fun <E : Enum<E>> Map<E, Reading>.underNote(): Map<E, Reading> =
+    mapValues { (_, r) -> r.copy(key = r.key.substringBeforeLast('.'), arg = r.key) }
+
+/**
  * Sources name a text by its English name first, then its title in Tibetan
  * script and in Wylie, in brackets (SPEC §8): the Wylie as BDRC catalogues
  * it, so that the text can be found there.
@@ -910,7 +917,9 @@ object Texts {
     /**
      * The element pair of weekday and mansion, the small combination: the
      * White Beryl's verse on the ten (vol. 2, p. 333), with what each is good
-     * for; the names as Rabten prints them.
+     * for; the names as Rabten prints them. The verse's close, that the pair
+     * makes every work good or bad over the weekday and the mansion, is the
+     * family's note, and each pair's grade its *Rank* row.
      */
     val ELEMENT_PAIR: Map<ElementPair, Reading> = keyed(
         ElementPair.EARTH_EARTH to wbPair("setting_up_supports", "building", "buying_fields", "increasing_rites", "council", "lasting_work"),
@@ -923,7 +932,7 @@ object Texts {
         ElementPair.WATER_WIND to wbPair(),
         ElementPair.EARTH_FIRE to wbPair("leading_an_army", "subduing_enemies", "fierce_rites", "disputes"),
         ElementPair.FIRE_WATER to wbPair("killing_others", "directing_magic", "preparing_poison"),
-    )
+    ).underNote()
 
     private fun wbPair(vararg good: String) = Reading(goodKeys = good.toList(), source = Sources.WHITE_BERYL_COMBINATIONS, also = listOf(Sources.RABTEN))
 
@@ -1415,7 +1424,8 @@ object Texts {
      * The special days of weekday and mansion (vol. 2, pp. 335–337, with the
      * table p. 341; docs/sources/combinations.md), with what each names good
      * and to avoid. In the weighing they speak as one, below the weekday and
-     * the mansion, whose own results "are the main thing" (p. 337; SPEC §5.12).
+     * the mansion, whose own results "are the main thing" (p. 337; SPEC §5.12),
+     * which the family's note says.
      */
     val COMBINATION_DAY: Map<CombinationDay, Reading> = keyed(
         CombinationDay.GRUB_SBYOR to wbDay(good = listOf("everything")),
@@ -1433,7 +1443,7 @@ object Texts {
         CombinationDay.MI_MTHUN_NYI to wbDay(avoid = listOf("marriage", "funerals", "virtuous_work")),
         CombinationDay.JIG_NYI to wbDay(avoid = listOf("marriage", "funerals", "setting_out")),
         CombinationDay.GTAN_SPANG to wbDay(avoid = listOf("everything", "bloodletting_and_moxibustion")),
-    )
+    ).underNote()
 
     private fun wbDay(good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
         Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_COMBINATION_DAYS)
@@ -1441,10 +1451,13 @@ object Texts {
     /**
      * The same kinds of special day reckoned by the *Rdo rje gtsug lag*,
      * which WB quotes after its own (p. 337, with the table p. 342;
-     * docs/sources/combinations.md): each summary says so, adds what that
-     * text says of the day where it says something, and gives WB's own
-     * reading of the kind, whose lists it keeps.
+     * docs/sources/combinations.md): each summary gives WB's own reading of
+     * the kind, whose lists and rows it keeps, then what that text says of the
+     * day where it says something, then the family's note that it is that
+     * text's reckoning.
      */
+    private val GTSUG_LAG_OWN = setOf(CombinationDay.GRUB_NYI, CombinationDay.MI_PHROD_NYI)
+
     val GTSUG_LAG_DAY: Map<CombinationDay, Reading> =
         listOf(CombinationDay.GRUB_NYI, CombinationDay.BDUD_NYI, CombinationDay.MI_PHROD_NYI, CombinationDay.MI_MTHUN_NYI, CombinationDay.JIG_NYI)
             .associateWith { c ->
@@ -1452,7 +1465,8 @@ object Texts {
                 Reading(
                     goodKeys = own.goodKeys + listOfNotNull("dharma_practice".takeIf { c == CombinationDay.GRUB_NYI }),
                     avoidKeys = own.avoidKeys, source = Sources.WHITE_BERYL_GTSUG_LAG_DAYS,
-                    key = "reading.GtsugLagDay.${c.name}", arg = "reading.CombinationDay.${c.name}",
+                    key = "reading.GtsugLagDay", arg = "reading.CombinationDay.${c.name}",
+                    moreArgs = listOfNotNull("reading.GtsugLagDay.${c.name}".takeIf { c in GTSUG_LAG_OWN }),
                 )
             }
 
@@ -1470,6 +1484,10 @@ object Texts {
         source = Sources.WHITE_BERYL_BURNING_DATES,
         key = "reading.BurningDate",
     )
+
+    /** The burning date of [weekday] with [date], its *How it falls* row naming the pair: "Sunday and the 12th". */
+    fun burningDate(weekday: Weekday, date: Int): Reading =
+        BURNING_DATE.copy(arg = Catalog.format("BurningDate.pair", Catalog.text(glossKey(weekday, "inText")), dateOrdinal(date)))
 
     /**
      * The great black day ([zanshin.core.tibetan.GreatBlackDay]) by season-month, 0 early spring … 11 late winter:
@@ -1508,19 +1526,22 @@ object Texts {
         SpecialDay.NEW_MOON to Reading(source = Sources.RABTEN),
     )
 
+    /** The great occasions the almanac writes at the head of the month (WB vol. 1, p. 176): the festivals' note. */
+    private val FESTIVAL_HEADING = listOf(Sources.WHITE_BERYL_MONTH_HEADING)
+
     val TIBETAN_FESTIVAL: Map<TibetanFestival, Reading> = keyed(
-        TibetanFestival.LOSAR to Reading(source = Sources.RABTEN),
-        TibetanFestival.CHOTRUL_DUCHEN to Reading(source = Sources.RABTEN),
-        TibetanFestival.KALACAKRA to Reading(source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.BIRTH to Reading(source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.SAGA_DAWA_DUCHEN to Reading(source = Sources.RABTEN),
-        TibetanFestival.ZAMLING_CHISANG to Reading(source = Sources.RABTEN),
-        TibetanFestival.CHOKHOR_DUCHEN to Reading(source = Sources.RABTEN),
-        TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE),
-        TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN),
-        TibetanFestival.GADEN_NGAMCHO to Reading(source = Sources.RABTEN),
-        TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN),
-    )
+        TibetanFestival.LOSAR to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.CHOTRUL_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.KALACAKRA to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
+        TibetanFestival.BIRTH to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
+        TibetanFestival.SAGA_DAWA_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.ZAMLING_CHISANG to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.CHOKHOR_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.ENTRY_INTO_WOMB to Reading(source = Sources.HENNING_ARCHIVE, also = FESTIVAL_HEADING),
+        TibetanFestival.LHABAB_DUCHEN to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.GADEN_NGAMCHO to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+        TibetanFestival.PROTECTORS to Reading(source = Sources.RABTEN, also = FESTIVAL_HEADING),
+    ).underNote()
 
     /** Kyūreki festivals, and those kept by the Gregorian date, by their kanji as in [zanshin.core.kyureki.Festival]. */
     val JAPANESE_FESTIVAL: Map<String, Reading> = mapOf(

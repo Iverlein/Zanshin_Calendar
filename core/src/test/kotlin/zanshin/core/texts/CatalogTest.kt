@@ -218,7 +218,7 @@ class CatalogTest {
             "dngos grub" to Triple("attainment", "достижени", listOf("Yoga.SIDDHI", "ElementPair.EARTH_EARTH")),
             "grub" to Triple("accomplishment", "свершени", listOf("GreatCombination.GRUB", "CombinationDay.GRUB_NYI", "CombinationDay.GRUB_SBYOR")),
             "'phel" to Triple("growth", "возрастани", listOf("Yoga.VRIDDHI", "ElementPair.FIRE_FIRE", "GreatCombination.PHEL", "CombinationDay.PHEL_NYI")),
-            "sreg" to Triple("burning", "сожжени", listOf("ElementPair.EARTH_FIRE", "BurningDate", "reading.CombinationDay.GTAN_SPANG")),
+            "sreg" to Triple("burning", "сожжени", listOf("ElementPair.EARTH_FIRE", "BurningDate", "reading.CombinationDay.GTAN_SPANG.also_called")),
             "mi 'phrod" to Triple("incompatibility", "несовместимост", listOf("ElementPair.EARTH_WIND", "CombinationDay.MI_PHROD_NYI")),
             "mi mthun" to Triple("discord", "разлад", listOf("ElementPair.WATER_WIND", "CombinationDay.MI_MTHUN_NYI")),
             "bdud rtsi" to Triple("nectar", "нектар", listOf("ElementPair.WATER_WATER", "GreatCombination.BDUD_RTSI")),
@@ -490,7 +490,6 @@ class CatalogTest {
         val ALLOWANCE: Map<String, Int> = mapOf(
             "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
             "X4" to 24, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
-            "X5" to 95, // the combination and the special days (block 44); 91 under 20 words
             "X6" to 40, // the yogas, the karaṇa and the mansions (block 45); 34 under 20 words
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
