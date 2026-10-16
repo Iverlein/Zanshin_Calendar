@@ -231,7 +231,7 @@ day by day against Henning's computed calendars (§9):
 | Yoga | ⌊27 × (moon at daybreak + true sun)⌋ (10.4)–(10.5); Tibetan names as printed in Phugpa almanacs |
 | Karaṇa | the half lunar day in effect at daybreak: H = ⌊60 × (moon − sun)⌋ + 1, fixed for H = 1, 58, 59, 60 |
 | Lunar-day animal, trigram, number | Janson (E.9)–(E.11); the first date's trigram by the month's animal and its sme ba by the season (1 white, 4 green, 7 in the first, middle and last months of the Chinese reckoning's seasons) as the White Beryl's almanac verse gives them, vol. 1, p. 178 (`AlmanacPageTest`, [sources/almanac-page.md](sources/almanac-page.md)) |
-| Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008); FPMT's list, not the White Beryl's, which gives no haircut results by date (ROADMAP T2.15) |
+| Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008); FPMT's list, not the White Beryl's, which gives no haircut results by date (ROADMAP T2.15); the sheet opens on the result and whether the date goes well or badly for a haircut, sixteen good, fourteen to avoid (X10) |
 | Washing the hair | the White Beryl's thirty hair dates (vol. 2, p. 404): what washing the hair on each date brings, a detail of the lunar date's reading; the good and bad dates that follow them are the list of KP box 37, whose worn bad line they fill (the 27th on neither side; `ElectionalTest`, [sources/hair-dates.md](sources/hair-dates.md)) |
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
 | Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
@@ -1886,7 +1886,7 @@ date that fell), written from `CourseFall.line`, `CourseFall.dates`,
 `DateOrdinal.<one|two|few|other>`, "the 8th, 18th and 28th of the spring
 months; today the 8th of the first month of spring"; `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
-`reading.Haircut`). A translation may be partial, since Weblate commits
+`reading.Haircut.GOOD` and `.AVOID`, a good date's and one to avoid). A translation may be partial, since Weblate commits
 only reviewed strings ([weblate.md](weblate.md)): a key it lacks, or leaves
 empty, falls back to English, in the catalog as in `strings.xml`.
 `CatalogTest` and the app's `TranslationsTest` fail when a translation has a

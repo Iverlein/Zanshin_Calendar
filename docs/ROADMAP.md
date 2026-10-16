@@ -37,7 +37,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
-| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
@@ -103,7 +103,7 @@ moves up as soon as it is unblocked.
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
-| <a id="block-49"></a>49 | [X10](#x10) The rest | — | [42](#block-42); after [43](#block-43)–[48](#block-48) | Build block 49: X10, the astrologer spirit, the links and the mewa in the shape, `CatalogTest` with no allowance left, store shot 3 retaken. (The year sheet went with Y1, block 57.) |
+| <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) | K1's reading (kyureki.md) | — | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
@@ -2575,7 +2575,7 @@ X, so that the owner reads the wording once. The blocks are
   the sky dog, the black hour and a nectar period on the emulator in
   both languages; `CatalogTest` without the families' allowance.
 
-#### <a id="x10"></a>X10 The rest (the year sheet went with Y1)
+#### <a id="x10"></a>X10 The rest — built 2026-10-16 (the year sheet went with Y1)
 
 - **Gap.** The astrologer spirit's day reading (190 words) explains its
   count before and after its "Today"; the date's mewa gives the table's
@@ -2586,8 +2586,27 @@ X, so that the owner reads the wording once. The blocks are
   the count as *How it falls*, uniform where possible with the hours'
   and the day's readings. The festivals and
   the special dates were checked in X5.
-- **Block.** [49](#block-49); no reading; builds on [42](#block-42) and
-  comes last, as the lightest.
+- **Block.** [49](#block-49); no reading; builds on [42](#block-42). It
+  was to come last, as the lightest; the owner had it built on
+  2026-10-16 with Y1, ahead of 43–48.
+- **Built** (2026-10-16). The astrologer spirit's 161-word reading is a
+  45-word paragraph (where it dwells today, works towards it go badly,
+  whom it takes offence at) with *Also called* (Sewa Lakhyen) and
+  *Remedy* (the torma and the five texts) as rows; the day's mewa count
+  from a wood-mouse day is left to earth-lords.md, the direction and the
+  square stay in the sheet's diagrams. The date's mewa reading drops
+  "the works below" and the month's count (almanac-page.md). The thirty
+  haircut results stay short, as the page's rows show them, under two
+  notes, a good date's and one to avoid (`reading.Haircut.GOOD`,
+  `.AVOID`), which open on the result and whether the cut goes well or
+  badly. The links were in the shape since block 24. X10's allowance
+  line is deleted; X3–X9 keep theirs.
+- **Checked.** `:core:test`, `:app:testDebugUnitTest`; on the emulator,
+  2026-10-16 (the 6th, "A lawsuit"), the haircut, astrologer spirit and
+  date's mewa sheets in English and Russian; the store shots retaken
+  and compared with the committed ones, none changed (shot 3 shows none
+  of these sheets); the listing's line on the readings read against the
+  sheets, now naming the remedy too.
 - **Done when.** The readings with their Russian; the astrologer spirit's
   row and the link's on the emulator in both languages;
   `CatalogTest` with no allowance left; store shot 3 retaken in both
