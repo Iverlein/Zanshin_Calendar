@@ -14,7 +14,7 @@ paths:
 
 `app/` is Compose UI. Package `zanshin.app`, application id and `R` namespace `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations in `res/values-<lang>/` (Weblate, [docs/weblate.md](docs/weblate.md)), checked by `src/test/.../TranslationsTest.kt`. `bell/`: the meditation timer's service, the mindfulness bell's alarms and its ring service with the bell's notice, the synthesised bells (SPEC §10.9) and the morning notice's alarm and notification (`MorningNotice`, SPEC §10.5), tested by `BellTest`.
 
-`tools/emulator/` drives the app on the `zanshin-test` emulator: `emu.py` (preferences, language, taps by on-screen text, screenshots with their text), `tour.py` (a fixed tour to compare two builds), `russian_tour.py` (the language switch and a Russian read-through), `store_shots.py` (the seven store screenshots in one language).
+`tools/emulator/` drives the app on the `zanshin-test` emulator: `emu.py` (preferences, language, taps by on-screen text, screenshots with their text), `tour.py` (a fixed tour to compare two builds), `russian_tour.py` (the language switch and a Russian read-through), `store_shots.py` (the eight store screenshots in one language), `scales.py` (both pages and the screens at font scales 1.0 to 2.0, in landscape and at a tablet's 800 dp, SPEC §10.1).
 
 ## Rules
 
@@ -25,6 +25,12 @@ paths:
 - **Install every new build on the phone** when it is connected (`adb
   devices`), after each update, without being asked, so it always runs the
   latest build. Always pass `-s <serial>`.
+- **Check a layout change at font scale 2.0 and in landscape** (SPEC §10.1,
+  ROADMAP A2): `tools/emulator/scales.py OUTDIR s20,land`, and `tab` for a
+  page's columns, in both languages, every PNG looked at. A row of fixed
+  height, a label column of fixed width or a canvas label in sp is where it
+  breaks first: give rows a least height, measure label columns
+  (`FactColumn`), frame a drawing in a sheet (`DiagramFrame`).
 - **Every kanji must show its English on tap** (`GlossText`), without a
   dotted underline; a Tibetan term shows its English inline and its
   pronunciation on tap.

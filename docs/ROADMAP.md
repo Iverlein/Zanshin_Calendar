@@ -35,7 +35,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
-| 17 | A2 Large font and landscape | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
+| 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
@@ -94,7 +94,7 @@ moves up as soon as it is unblocked.
 | <a id="block-37"></a>37 | [U14](#u14) The election's civil dates — built 2026-10-11 | — | — | Build block 37: U14, the civil day in every cell of the election's grid and the voices line only where a voice stands beside the deciding one. |
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia — built 2026-10-15 | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice — built 2026-10-16 | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
-| <a id="block-40"></a>40 | [A2](#a2) Large font and landscape | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
+| <a id="block-40"></a>40 | [A2](#a2) Large font and landscape — built 2026-10-16 | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
@@ -3243,7 +3243,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   Ink and Paper draw as before. The listing and README name the six
   themes.
 
-### <a id="a2"></a>A2. Large font and landscape — planned 2026-10-11
+### <a id="a2"></a>A2. Large font and landscape — planned 2026-10-11, built 2026-10-16 (SPEC §10.1)
 
 - **Gap.** The page was laid out at font scale 1.0 on a 411 dp portrait
   phone. At 1.3 it holds (the review of 2026-10-11): the month heading
@@ -3267,6 +3267,50 @@ groups it shows (`tools/emulator/store_shots.py`).
   landscape, and a tablet AVD at 800 dp: both pages, the brief, the hours
   panel, the election and meditation screens, no clipping or overlap, in
   English and Russian; SPEC §10.1.
+- **Built** 2026-10-16 (`app/.../ui/Fit.kt`). The day pages stand in two
+  columns from 600 dp (`PageColumns`): headline, hours and brief left,
+  the sections right, each column scrolling on its own, at most 1040 dp
+  together; the screens of their own are capped at 640 dp and centred
+  (`ReadingWidth`). The header lays out its controls first and gives the
+  date what is left, the whole date, then without its year
+  (`pattern_header_date_no_year`, new string), then `d MMM`; where even
+  that has no room (Russian at 2.0 with the person ring) the date takes
+  a line of its own under the menu, whole. The sky line moves the noon's
+  altitude into its balloon ("Sun at noon", new string) when the three
+  times would not fit with it, and its "Set a location" wraps under a
+  dotted line per line. The Lunar day and 干支 label columns are measured
+  (`FactColumn`: the widest label, 120 dp to 40 % of the row, never under
+  the longest word; at 45 % "Вода-Свинья" broke inside its last word at
+  1.5), and a fact's value breaks by the language's hyphenation, never at
+  a bare letter. The hours strip's labels are 12 sp, its height their
+  measured height; the short form fits by measuring again, as Android
+  scales small text more than large (at 2.0 it was cut at "23–C"). The
+  rings and compasses of the sheets (the mansion, karaṇa and yoga rings,
+  Rāhu's and the bla mkhyen's compasses, the 十二直 dial, the 宿 ring, the
+  nine-star board, the 恵方 compass, the rokuyō arc) are framed
+  (`DiagramFrame`): they grow by the font scale, or by the room on a
+  tablet, to 360 dp or the sheet's width, strokes and labels together,
+  their labels never past the font scale and their captions at it; at
+  2.0 the mansion ring's name had run over its numbers. The hours' dial
+  is drawn up to 360 dp with its names at its own scale (`DrawnFor`), at
+  2.0 its animal names had overlapped the rings. The combination table
+  keeps its figures' size on a phone (`rememberDrawingMeasurer`). Text
+  under 12 sp raised to 12 (the pair grid, the axes, the haircut grid's
+  civil days, the date picker's small figures); grid cells grow taller
+  rather than clip (`atLeastAspect`, least heights); title rows of 64 dp
+  grow; the Health tabs scroll sideways at their names' width where four
+  equal segments do not fit ("Сего…" at 2.0); the date picker's Today
+  keeps its word whole ("С е г о д н я" down the side at 2.0); the 旧暦
+  term card puts "until 22 Oct" under the term where the line is short
+  ("Kanr/o" at 2.0). Checked with `tools/emulator/scales.py` (new) at
+  1.0, 1.3, 1.5 and 2.0, in landscape and at 800 dp upright (wm size
+  1600x2560, density 320, on `zanshin-test`: no second AVD), in English
+  and Russian: both pages top to bottom, the hours panel, the brief, a
+  mansion's sheet, the date picker, the election for weddings, the
+  meditation timer, Health and the 旧暦's mansion ring; at 1.0 nothing
+  moves but the strip's labels and the dial's 20 dp. The release build
+  checked at 2.0 and in landscape (names, no raw keys). Store shots 1–5
+  and 8 retaken in both languages (the strip's labels).
 
 ## Widget and notices
 

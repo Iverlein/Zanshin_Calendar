@@ -2009,6 +2009,34 @@ canvas "Zanshin Calendar — basic design".
   Ink. The bell's notification stays the system's. Material You's
   wallpaper colours are not offered: the tones and the printed colours
   are chosen against a known page.
+- **Any font scale, any width** (ROADMAP A2, built 2026-10-16). The app
+  follows the phone's font scale with nothing clipped or overlapping, checked
+  at 1.0, 1.3, 1.5 and 2.0, in landscape and on a tablet of 800 dp, in
+  English and Russian (`ui/Fit.kt`). No interface text is set below 12 sp.
+  A label column is as wide as its widest label, 120 dp at least and at most
+  40 % of the row, never narrower than its longest word (up to half the row), so a label wraps
+  between words and never inside one. The header's date drops its year, then
+  its weekday, where the whole date does not fit beside the calendar toggle
+  (`pattern_header_date_no_year`, then `pattern_short_date`); where even the
+  short date has no room, the date goes on a line of its own under the menu.
+  The sky line moves the noon's altitude into its balloon ("Sun at noon")
+  where the three times would not fit with it. The hours' short form is set
+  smaller, never broken over two lines (§10.3), and a grid cell, a tab or a
+  title row grows taller rather than clip its text; tabs that do not fit as
+  equal segments take each its name's width and scroll sideways. From 600 dp
+  (a phone in landscape, a tablet) a day page stands in two columns, each
+  scrolling on its own: the headline, the hours and the brief on the left,
+  the sections on the right, together at most 1040 dp wide and centred; a
+  screen of its own (the election, meditation, health, the reckonings,
+  location, about) is at most 640 dp wide and centred. A ring, compass or
+  board in a reading sheet grows with the font scale, or with the room on a
+  tablet, up to 360 dp or the sheet's width, its strokes and labels with it,
+  so that a label keeps its place: its labels grow with the drawing and
+  never past the font scale, its caption is read at the font scale. The
+  hours' dial, which fills the sheet already, is drawn up to 360 dp with its
+  names at that scale, and the combination table's 27 columns keep their
+  figures' size on a phone. The tables and grids laid out by their text are
+  not scaled. The dial and the boards keep their tap targets.
 - **One calendar at a time.** The screen shows either the Tibetan or the 旧暦
   view, never both.
 - **Details in balloons.** Secondary facts open in a balloon (popover) when the
@@ -2129,7 +2157,9 @@ canvas "Zanshin Calendar — basic design".
   notice and the widget are to share): every period begins on the hour,
   so nothing is lost, and the full times stand in the brief's "By the
   hour". Four runs fit at font scale 1.3 in both languages; the five some
-  months give are set smaller rather than broken. Until U11 the full
+  months give, or a larger font scale, are set smaller rather than broken
+  (the size found by measuring again, since Android scales small text more
+  than large). Until U11 the full
   times were listed under a longer label ("hours to avoid 05:00–09:00
   11:00–13:00 …"), two to four lines. Nothing is weighed anew, and on the
   person's enemy weekday or death mansion there are none, since WB places

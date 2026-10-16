@@ -63,6 +63,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   OLED screens), Maroon (the robe's maroon with saffron), Sepia (a
   parchment page for the evening) and the phone's own dark or light
   setting.
+- Large fonts and wide screens: the pages follow the phone's font size up
+  to twice the default without clipping, and in landscape or on a tablet
+  stand in two columns, the day at a glance beside its sections.
 - A morning notice, if you switch it on: once a day at the time you set,
   silently, the day in brief of the calendar last read, the Tibetan
   day's tone and the factor that decides it, the works good and to
