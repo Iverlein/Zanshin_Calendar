@@ -765,7 +765,9 @@ English (§8.1), each reading citing its pages:
   nightfall (WB's day length, §5.8), the burning date
   is a part of the special days' row on that day, with the time it
   begins and WB's hook (`DayTimes.burningFrom`, §5.8); shown and not
-  weighed, as WB names no weight for the hook.
+  weighed, as WB names no weight for the hook. Its sheet gives the ruling,
+  the remedy as a row and *How it falls* with the shown day's pair,
+  "today Saturday and the 7th" (`Texts.burningDate`, §8.1 rule 4).
 - **The month's own entries** (WB's month heading, vol. 1, p. 176, with
   ch. 15–16 and vol. 2, pp. 212, 312, 359;
   [month-entries.md](sources/month-entries.md); `MonthEntries`, checked by

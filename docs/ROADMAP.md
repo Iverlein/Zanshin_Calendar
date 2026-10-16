@@ -37,7 +37,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget — built 2026-10-16 | M | A widget in two sizes with the day's tone, its reason and the hours, plain RemoteViews rather than Glance; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
-| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
@@ -98,7 +98,7 @@ moves up as soon as it is unblocked.
 | <a id="block-41"></a>41 | [W1](#w1) The widget — built 2026-10-16 | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
-| <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
+| <a id="block-44"></a>44 | [X5](#x5) The combination and the special days — built 2026-10-16 | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
@@ -2440,7 +2440,7 @@ X, so that the owner reads the wording once. The blocks are
   fire trigram's day on the emulator in both languages; `CatalogTest`
   without the family's allowance.
 
-#### <a id="x5"></a>X5 The combination and the special days
+#### <a id="x5"></a>X5 The combination and the special days — built 2026-10-16
 
 - **Gap.** The strongest voice has the thinnest text: the 28 named
   combinations are verse tags of 10 to 20 words ("Fear of illness.",
@@ -2466,6 +2466,51 @@ X, so that the owner reads the wording once. The blocks are
   their Russian; the combination sheet on a day where the parts agree
   and one where they disagree, on the emulator in both languages;
   `CatalogTest` without the families' allowance.
+- **Built** (2026-10-16). *Named combinations*: each opens on its
+  ruling, "A lucky combination: wealth is found", and grows from its
+  verse (pp. 331–332, combinations.md) to 25–45 words, an image marked
+  as one ("its image is the pestle that pounds, the demon's son");
+  phrases whose meaning the verse does not give stay in the topic file;
+  the lord of death's "enemies and thieves" rested on Yigdzin-1's «རྐུན»,
+  which the scan reads «ཀུན», and is gone. The combination is not named
+  in its own paragraph: the title carries it, and "growth" in a bracket
+  would name both *'phel ba* and the fire pair's *'phel 'gyur*.
+  *Element pairs*: the verse's close (p. 333), that the pair makes every
+  work good or bad over the weekday and the mansion, is the family's
+  note; the grade is a *Rank* row; the works the lists give are gone
+  from the paragraph. *Special days*: WB p. 337's "the planet's and the
+  mansion's own results are the main thing" is the note; the paired
+  combination and the day to avoid entirely each say once that on every
+  weekday but Thursday the other falls with it; the demon days' seven
+  names are an *Also called* row; the accomplishment combination's
+  nectar name and the day to avoid entirely's burning name are rows.
+  *Vajra Treatise*: the note says it is that text's reckoning; the main
+  table's reading of the kind comes first, then its own line where it
+  has one (approach and accomplishment, an ill omen), its rows the main
+  table's. *Burning date*: the ruling, *Remedy* and *How it falls* with
+  the shown day's pair ("today Saturday and the 7th", `Texts.burningDate`;
+  `Weekday.<DAY>.inText` for the Russian «суббота»), the seven weekdays'
+  table left to burning-dates.md. *Observances*: Rabten's front matter
+  (special for any wholesome action with the full and new moon and the
+  eclipse days, the eight precepts, the tantra's feast offerings on the
+  10th and 25th, Sojong); the 10th's line naming its prayer is gone,
+  as readings name no source (U7). *Festivals* (festivals.md): WB's month heading
+  (vol. 1, p. 176), the great occasions (དུས་ཆེན, dus chen) the almanac
+  writes at the head of their month, is the note, WB added as a source;
+  Rabten's Dharma festivals say that every action on them is strongly
+  multiplied, as his calendar does of them; Henning's three (Kālacakra,
+  the birth, the entry into the womb) give their date. X5's allowance
+  line is deleted; the Russian catalog header no longer lists the
+  retired *Another view*.
+- **Checked.** `:core:test`, `:app:testDebugUnitTest`; every paragraph
+  20–60 words as the sheet shows it, the note filled, in both languages;
+  on the emulator in English and Russian, the combination sheet on
+  2026-10-16 (movement and earth–earth, agreeing) and 2026-10-17 (pestle
+  and earth–earth, disagreeing), the special days' sheets on 2026-10-17
+  (day of union and the burning date, Saturday and the 7th), 2026-10-19
+  (day of growth and the Vajra Treatise's demon day) and 2026-10-22 (day
+  of union and the day to avoid entirely). No store shot shows these
+  sheets.
 
 #### <a id="x6"></a>X6 The yogas, the karaṇa and the mansions
 

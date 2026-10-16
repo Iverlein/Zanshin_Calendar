@@ -107,6 +107,11 @@ Block 4, p. 149 (img. 159; Ser thang img. 156):
 > མདོར་བསྡུས་ཉུང་ངུར་བརྗོད་པའི་ལུགས། །ཀུན་དགའ་ལ་ནི་ནོར་རྙེད་འགྱུར། །དུས་ཀྱི་དབྱིག་ལ་འཇིགས་པ་ཆེ། །དུལ་བ་ལ་ནི་ནོར་མང་ཕྱུག །སྐྱེ་དགུ་གནས་སུ་བུད་མེད་སྐྱིད། །གཞོན་ལ་བྱ་བ་ཐམས་ཅད་འགྲུབ། །བྱ་རོག་ཁ་འཐབ་འཇིགས་ཤིང་བཀྲེས། །རྒྱལ་མཚན་གོས་སོགས་ཕུན་སུམ་ཚོགས། །དཔལ་བེའུ་ལ་ནི་རིན་ཅེན་འདུ། །རྡོ་རྗེ་ཐོག་དང་དེ་བཞིན་འཇིགས། །ཐོ་བས་འཆི་བའི་འཇིགས་པ་འབྱུང་། །གདུགས་ལ་དགྲ་བོ་གཞོམ་པར་འགྱུར། །གྲོགས་པོ་ལ་ནི་གྲོགས་དང་ཕྲད། །ཡིད་ལ་དཔལ་ནི་ཐོབ་པའོ། །འདོད་པས་བྱ་བ་ཡིད་སྨོན་འགྲུབ། །མགལ་མེ་ལ་ནི་འཐབ་རྩོད་འབྱུང་། །རྩ་བཏོན་ལ་ནི་ཚེ་ཟད་འགྱུར། །འཆི་བདག་ལ་ནི་འཆི་བ་འོང་། །མདའ་ལ་སྣ་དང་ཡན་ལག་ཉམས། །གྲུབ་པ་བརྩམས་པའི་བྱ་བ་འགྲུབ། །མདུང་ལ་ནད་ཀྱི་འཇིགས་པ་འབྱུང་། །བདུད་རྩི་ལ་ནི་དགྲ་འཕུང་ངོ་། །གཏུན་ལ་གཏུན་ཤིང་རིག་པར་བྱ། །གླང་པོས་དོན་ཀུན་འགྲུབ་པ་སྟེ། །རྟག་མྱོས་ལ་ནི་བཞོན་པ་རྙེད། །ཟད་ལ་ནོར་དང་སྐྱེ་བོ་འཛད། །གཡོ་ལ་རྒྱལ་པོའི་བྱ་བ་འགྲུབ། །བརྟན་ལ་སྲིད་སྡེ་འཕུང་བར་བྱེད། །འཕེལ་བ་ལ་ནི་ནོར་འཕེལ་ལོ།།
 
 (Yigdzin reads བྲོ་བས for ཐོ་བས, the table's heading and the verse's ཐོ་བས.)
+In *'chi bdag*'s verse the scan reads «དགྲ་ཀུན», all enemies, where Yigdzin-1
+read «རྐུན», thieves; the reading said "enemies and thieves" until X5
+(2026-10-16). The line «དགྲ་ཀུན་བླ་མའི་ཤིད་བྱེད་པ», like *tho ba*'s «གནམ་ལྕགས་གདོང་དང་སེང་གེའི་བུ»,
+*brtan pa*'s «ས་དང་ལམ་དང་བདུད་མི་གཡོ» and *dus dbyig*'s doubtful «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ»,
+has no meaning the verse gives, so the readings leave it out (SPEC §8.1, rule 7).
 The app takes each combination's tone from its short reading: lucky for
 kun dga', dul, skye dgu, gzhon, rgyal mtshan, dpal be'u, gdugs, grogs, yid,
 'dod, grub, bdud rtsi, glang po, rtag myos, g.yo and 'phel; unlucky for dus
@@ -330,9 +335,10 @@ names are worth a note:
   where Mars is bound by *sgrog*.
 
 **In the app** (SPEC §5.12): a day this table makes and WB's own table does
-not is shown as that kind, marked as the *Rdo rje gtsug lag*'s, with its
-line above where it has one and WB's reading of the kind, whose lists it
-keeps (the day of accomplishment adds dharma practice for *bsnyen sgrub*);
+not is shown as that kind: WB's reading of the kind first, whose lists
+and rows it keeps, then its own line where it has one, then that it is
+the *Rdo rje gtsug lag*'s reckoning (ROADMAP X5; the day of
+accomplishment adds dharma practice for *bsnyen sgrub*);
 it counts among the special days. In 2026 it adds a special day to 92 days,
 on some of them the only one.
 
