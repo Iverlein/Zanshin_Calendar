@@ -131,6 +131,10 @@ fun TibetanPage(
     val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions, info.ownDays) {
         DaySummary.of(day, info.personalDay, info.personalMansions, info.ownDays)
     }
+    // The present hour, on today's page only: within it the combination period outweighs every factor of the day
+    // (SPEC §5.13), so the In brief row and its sheet give the works as they stand now (§10.3).
+    val (currentHour, nowMinute) = rememberCurrentHour(info.date, zone)
+    val brief = remember(summary, day.month, currentHour) { currentHour?.let { summary.atHour(day.month, it) } ?: summary }
     fun toggle(b: TibetanBalloon) {
         balloon = if (balloon == b) null else b
     }
@@ -250,11 +254,10 @@ fun TibetanPage(
 
         // The hours above the day (ROADMAP U6): the combination period, which outweighs every factor of the
         // day while it lasts (SPEC §5.12), stands before the day in brief.
-        val (currentHour, nowMinute) = rememberCurrentHour(info.date, zone)
         val hourSigns = remember(info.signs.date) { Forces.hours(info.signs.date) }
         HoursRow(summary, day, hourSigns, currentHour, nowMinute) { hoursFrom = it; hoursOpen = true }
 
-        BriefRow(summary) { summaryOpen = true }
+        BriefRow(brief) { summaryOpen = true }
         onFirstRun?.let { FirstRunLine(stringResource(R.string.first_run_tibetan), it) }
 
         Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
@@ -943,7 +946,8 @@ fun TibetanPage(
 
     if (summaryOpen) {
         DaySummarySheet(
-            summary,
+            brief,
+            day = summary,
             festival = day.holiday != null || day.specialDay != null,
             onHour = { hoursFrom = it; hoursOpen = true },
             onElect = onElect,

@@ -50,6 +50,8 @@ import zanshin.core.texts.ActivityNote
 import zanshin.core.texts.DayHours
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayVerdict
+import zanshin.core.texts.HourNow
+import zanshin.core.texts.HoursShortForm
 import zanshin.core.texts.KyurekiElection
 import zanshin.core.texts.VerdictBy
 import zanshin.core.texts.SummaryEntry
@@ -169,11 +171,14 @@ private val SIDE_GAP = 20.dp
  * The breakdown behind the day's summary line (ROADMAP R3): a listing on the 旧暦 page, the weighed
  * day on the Tibetan one (SPEC §5.12), with the hours above it; a time there calls [onHour] with its
  * two-hour period, counted from 05:00. A work's workings offer its election through [onElect], the
- * Tibetan one on the Tibetan page (ROADMAP E2), the 旧暦's on the 旧暦 page (E5).
+ * Tibetan one on the Tibetan page (ROADMAP E2), the 旧暦's on the 旧暦 page (E5). On today's Tibetan
+ * page [s] is the lists of the present hour ([DaySummary.atHour]) and [day] the day's own weighing,
+ * whose count against the tone the rule's sentence gives.
  */
 @Composable
 fun DaySummarySheet(
     s: DaySummary,
+    day: DaySummary = s,
     festival: Boolean = false,
     onHour: (Int) -> Unit = {},
     onElect: ((Activity) -> Unit)? = null,
@@ -219,11 +224,16 @@ fun DaySummarySheet(
                         )
                         // The rule in a sentence (ROADMAP U6): a work goes to the strongest factor naming it, and the hour
                         // outweighs the day; on the person's enemy weekday or death mansion neither holds (SPEC §5.12).
+                        // On today's page the hour is the present one, which the lists below follow (SPEC §10.3).
                         if (s.avoidAll.isEmpty()) {
-                            val against = if (v.tone == Tone.GOOD) s.avoid.size else s.good.size
+                            val against = if (v.tone == Tone.GOOD) day.avoid.size else day.good.size
                             val rule = if (v.tone == Tone.GOOD) R.plurals.brief_rule_lucky else R.plurals.brief_rule_unlucky
+                            val hour = s.now?.takeIf { it.good + it.avoid > 0 }?.let { now ->
+                                val works = now.good + now.avoid
+                                pluralStringResource(R.plurals.brief_rule_now, works, untilOf(now.hour), now.sign.english, works, now.good, now.avoid)
+                            } ?: stringResource(R.string.brief_rule_hour)
                             Text(
-                                (if (against > 0) pluralStringResource(rule, against, against) + " " else "") + stringResource(R.string.brief_rule_hour),
+                                (if (against > 0) pluralStringResource(rule, against, against) + " " else "") + hour,
                                 style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted),
                                 modifier = Modifier.padding(top = 6.dp),
                             )
@@ -249,8 +259,8 @@ fun DaySummarySheet(
             // The hours before the works (ROADMAP U6): the one factor the texts put above the day.
             s.hours?.let { HoursBlock(it, onHour) }
 
-            WorkBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, tibetan = s.verdict != null, onElect)
-            WorkBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, tibetan = s.verdict != null, onElect)
+            WorkBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, tibetan = s.verdict != null, s.now, onElect)
+            WorkBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, tibetan = s.verdict != null, s.now, onElect)
 
             Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {
@@ -344,14 +354,19 @@ private fun Block(title: String, content: @Composable () -> Unit) {
  * the 旧暦 election is offered for it (E5).
  */
 @Composable
-private fun WorkBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, tibetan: Boolean, onElect: ((Activity) -> Unit)?) {
+private fun WorkBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, tibetan: Boolean, now: HourNow?, onElect: ((Activity) -> Unit)?) {
+    val until = now?.let { untilOf(it.hour) }
     val side = stringResource(if (good) R.string.good_for else R.string.avoid)
     val choose = stringResource(R.string.election_choose)
     if (notes.isEmpty()) return
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
         for (n in notes) {
-            val voices = if (good) n.good else n.avoid
+            // A work the present hour decides has the hour as its one voice (SPEC §10.3): the day's are outweighed.
+            val voices = n.period?.let { sign ->
+                val tone = (n.good + n.avoid).first().tone
+                listOf(SummaryEntry(stringResource(R.string.brief_by_the_hour, sign.english), stringResource(R.string.brief_period_kind), tone, null, latin = true))
+            } ?: if (good) n.good else n.avoid
             BoxWithConstraints {
                 // The label takes its own width up to 55% of the row and wraps by words past
                 // that; the annotations fill the rest, right-aligned. Without the cap a wide
@@ -366,7 +381,10 @@ private fun WorkBlock(title: String, notes: List<ActivityNote>, color: Color, go
                         Text(n.activity.english, style = body.copy(fontSize = 16.sp))
                         if (open && opens) {
                             Balloon(
-                                listOf(BalloonRow(side, n.activity.english)) + voices.map { BalloonRow(it.english, it.kanji) },
+                                listOf(BalloonRow(side, n.activity.english)) + (
+                                    n.period?.let { sign -> listOf(BalloonRow(stringResource(R.string.brief_period_kind), stringResource(R.string.brief_period_until, sign.english, until.orEmpty()))) }
+                                        ?: voices.map { BalloonRow(it.english, it.kanji) }
+                                    ),
                                 preferAbove = true,
                                 actions = listOfNotNull(elect?.let { BalloonAction(choose) { it(n.activity) } }),
                                 onDismiss = { open = false },
@@ -428,6 +446,9 @@ private fun HoursBlock(hours: DayHours, onHour: (Int) -> Unit) {
         Text(withTibetan(stringResource(R.string.brief_hours_note)), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted))
     }
 }
+
+/** The clock time two-hour period [hour], counted from 05:00, ends at ("23:00"). */
+private fun untilOf(hour: Int): String = "%02d:00".format(HoursShortForm.startHour(hour + 1))
 
 /** What decided the Tibetan day's tone, in a few words for the summary line and the Almanac's heading: the combination, or the factor by name (ROADMAP U2, U6). */
 @Composable

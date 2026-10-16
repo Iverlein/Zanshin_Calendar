@@ -401,6 +401,17 @@
         <item quantity="other">Each work goes to the strongest factor that names it, so %1$d works are still to avoid today.</item>
     </plurals>
     <string name="brief_rule_hour">Within its hour the combination period outweighs the day.</string>
+    <!-- today's brief: the present hour's combination period over the lists below (SPEC §10.3); its end ("23:00"), the sign, how many works it decides, of them good and to avoid -->
+    <plurals name="brief_rule_now">
+        <item quantity="one">Now, until %1$s, %2$s rises, and its combination period outweighs the day: it decides %3$d work, %4$d good and %5$d to avoid, marked “by the hour” below.</item>
+        <item quantity="other">Now, until %1$s, %2$s rises, and its combination period outweighs the day: it decides %3$d works, %4$d good and %5$d to avoid, marked “by the hour” below.</item>
+    </plurals>
+    <!-- a work the present hour decides, in place of the day's voices beside it: the sign rising -->
+    <string name="brief_by_the_hour">by the hour · %1$s</string>
+    <!-- the kind of that voice, on tap and in the work's balloon -->
+    <string name="brief_period_kind">combination period</string>
+    <!-- the work's balloon: the sign rising and when its period ends -->
+    <string name="brief_period_until">%1$s rising, until %2$s</string>
     <!-- The hours row above the day (ROADMAP U6): "Hours", a strip of the twelve, then the present hour -->
     <string name="hours_row_label">Hours</string>
     <string name="hours_row_now">now · %1$s %2$s · %3$s rises · %4$s</string>
