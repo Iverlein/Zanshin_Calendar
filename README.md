@@ -73,6 +73,12 @@ readings of that day and sunrise, solar noon and sunset for your place.
   day's tone and the factor that decides it, the works good and to
   avoid and the hours against the tone, or the 旧暦's 六曜 and day mark;
   a tap opens the day.
+- Two home-screen widgets for the calendar last read, in the app's theme
+  and language: Day, the date, the day and its tone with the factor that
+  decides it (on the 旧暦, the works good and to avoid); Day and hours,
+  with the twelve hours of the Tibetan day in their verdict's colours,
+  the present one marked and the hours against the tone, or the 旧暦's
+  六曜 and day mark. A tap opens the day.
 - Dates from 1900 to 2100, any month three taps away in the date picker's
   years and months. No internet permission: everything is computed on
   the phone.

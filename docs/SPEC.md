@@ -64,7 +64,7 @@ core/   pure Kotlin/JVM library, no Android dependency
         src/test/resources/vectors/  test vectors, tab-separated (§9)
 cli/    JVM entry point that prints a day as text — the console look of the
         original draft; used to inspect results without a phone
-app/    Android: Compose screen, Glance widget, settings
+app/    Android: Compose screen, home-screen widget (§10.6), settings
 ```
 
 - Result types are Kotlin `data class`es with `val` fields only.
@@ -2193,7 +2193,7 @@ canvas "Zanshin Calendar — basic design".
   line in short form, the clock hours alone under the In brief line's
   words ("avoid 05–09 · 11–13 · 17–19 · 23–01", "good 09–11 · 13–17 …";
   ROADMAP U11, built 2026-10-11; `HoursShortForm`, which the morning
-  notice and the widget are to share): every period begins on the hour,
+  notice and the widget share): every period begins on the hour,
   so nothing is lost, and the full times stand in the brief's "By the
   hour". Four runs fit at font scale 1.3 in both languages; the five some
   months give, or a larger font scale, are set smaller rather than broken
@@ -2709,9 +2709,58 @@ canvas "Zanshin Calendar — basic design".
   stands alone at the foot, always shown. A group added later starts
   closed.
 
-### 10.6 Deferred until the basic design is set
+### 10.6 The home-screen widget
 
-- The widget: sizes and content.
+Built 2026-10-16 (ROADMAP W1). Two widgets in the launcher's list, both
+for the calendar last viewed, each a tap that opens the app on that
+calendar's today (§4: the Tibetan day turns at 05:00 at the place, the
+旧暦's at midnight on the phone's clock), and each reading the day as the
+page does (`DayInfo`, `DaySummary`), nothing weighed anew:
+
+- **Day** (2 × 2 cells): the civil date ("Fri 16 Oct") and the calendar's
+  name in its accent, the calendar's day as a numeral beside its month,
+  and on the Tibetan page the day's tone with its dot and its reason as
+  the In brief row words them ("a lucky day", "by the combination"); on
+  the 旧暦, which has no tone (§7.5), the In brief line's counts in their
+  place ("good 7", "avoid 3"). On the person's enemy weekday or death
+  mansion the brief's line "every work to avoid, for you" under the tone.
+- **Day and hours** (4 × 2 cells): the same facts, the numeral beside the
+  month and date, the tone and reason on one line; then on the Tibetan
+  page the hours row's strip of the twelve two-hour periods from 05:00 in
+  their combination periods' tones, the present period marked under its
+  cell, the clock hour under every third, the present period in short
+  form ("now 21–23 · Gemini rises · to be accomplished") and the hours
+  against the day's tone in the hours row's short form ("avoid 05–09 ·
+  11–13 · 17–19 · 23–01", `HoursShortForm`; none on the person's
+  avoid-all day); on the 旧暦 the rokuyō with its English, the day mark
+  where there is one ("受死日 black day — the worst of all") and the
+  counts.
+
+The widget takes the app's theme (§10.5): its page, text and tones are
+the theme's, the strip's tones laid over the page as the hours row lays
+them. System follows the phone's dark setting by itself from Android 12
+(each colour given for day and night); before it, the setting at the
+last update stands until the next. It takes the app's language. Its text
+follows the font scale up to 1.15, at which both sizes' lines fit their
+cells in Russian, the longer language; past it the page holds them. From
+Android 12 each size has a compact variant the launcher picks where the
+cell is short or narrow, as on a landscape home screen: the small one
+without the date line and the reason, the 旧暦's counts on one line; the
+wide one with the reason on its own line, without the clock hours and the
+present period's line, the mark under the strip still showing it.
+
+It is drawn anew at each two-hour period's start on the place's clock
+(every odd hour from 05:00) and at midnight on the phone's, whichever
+comes first (`WidgetPlan`), by one exact alarm that does not wake the
+phone (a widget is seen only with the screen on, and a missed alarm fires
+as the phone wakes; `USE_EXACT_ALARM` as the bell's, §10.9); when the app
+is left, so that a change of calendar, person, place, theme or language
+shows at once; on a change of the phone's language; and by the bell's
+receiver after a reboot, an update and a change of clock or zone. With
+no widget placed there is no alarm. Plain `RemoteViews` (`DayWidget`), no
+widget library: Glance would bring WorkManager, DataStore and with them
+permissions the app does not need, and the app keeps its own times
+already. Screen readers get the widget's lines as one description.
 
 ### 10.7 Visual cues
 
@@ -2941,7 +2990,7 @@ carries no sound file.
   Android 13 `SCHEDULE_EXACT_ALARM`), set again after each ring, a
   reboot, an update and a change of clock or zone. The morning notice
   (§10.5) has an exact alarm of its own under the same permission, and
-  the same receiver sets both again; it does not use the bell's ring
+  the same receiver sets both again and draws the widget anew (§10.6); the notice does not use the bell's ring
   service, since it makes no sound (`MorningNotice`, `NoticePlan`). It keeps quiet during
   a sitting; unless switched off, during a call (ringing or answered) and
   while another app plays sound longer than a notification's (music, a
@@ -3073,7 +3122,7 @@ Each milestone is committed only when asked.
 State on 2026-09-28: M0, M1, M2 done — every vector of §9 passes. M3 done for
 the sets of §8.3; the 2033 source is still open. M4: the day screens with
 almanac, menu, date picker, location and birth date are built and installed;
-the widget is not built (its design is deferred, §10.6). Release 1.0 is
+the widget was built later (§10.6, 2026-10-16). Release 1.0 is
 prepared for F-Droid (§12).
 
 ## 12. Distribution
@@ -3089,7 +3138,7 @@ What its inclusion policy asks of this repository, and where it is met:
 | No Google dependency blob in the APK | `dependenciesInfo` off in `app/build.gradle.kts` |
 | Store listing in the repository | `fastlane/metadata/android/en-US/`: title, short and full description, icon, screenshots, one changelog per `versionCode` |
 | A tag per release | `v` + `versionName`, on the commit that sets it |
-| Description matches the app | the listing mentions no feature that is not built (no widget until §10.6 is done) |
+| Description matches the app | the listing mentions no feature that is not built |
 
 The app is on F-Droid since 2026-10-02:
 <https://f-droid.org/packages/io.github.iverlein.zanshin/>. A copy of its

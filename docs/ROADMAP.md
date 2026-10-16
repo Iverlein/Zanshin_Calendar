@@ -36,7 +36,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
-| 18 | W1 The widget | M | A Glance widget in two sizes with the day's tone, its reason and the hours; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
+| 18 | W1 The widget — built 2026-10-16 | M | A widget in two sizes with the day's tone, its reason and the hours, plain RemoteViews rather than Glance; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
@@ -95,7 +95,7 @@ moves up as soon as it is unblocked.
 | <a id="block-38"></a>38 | [A1](#a1) Maroon and Sepia — built 2026-10-15 | — | [33](#block-33) | Build block 38: A1's Maroon and Sepia, Maroon with its own accent pair and tone set. |
 | <a id="block-39"></a>39 | [N1](#n1) The morning notice — built 2026-10-16 | — | [36](#block-36) | Build block 39: N1, the morning notice on the bell's alarms, with the hours in U11's short form. |
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape — built 2026-10-16 | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
-| <a id="block-41"></a>41 | [W1](#w1) The widget | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the Glance widget in two sizes, in the app's theme. |
+| <a id="block-41"></a>41 | [W1](#w1) The widget — built 2026-10-16 | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
@@ -3387,8 +3387,8 @@ groups it shows (`tools/emulator/store_shots.py`).
 
 Two surfaces outside the app's screens, both reading the day as the page
 does (`DaySummary`, `DayInfo`), nothing weighed anew, no reading. SPEC §3
-lists notifications under Later and §10.6 defers the widget; each item
-changes that when built.
+lists notifications under Later and §10.6 deferred the widget; each item
+changed that when built.
 
 ### <a id="n1"></a>N1. The morning notice — built 2026-10-16 (SPEC §3, §10.5, §10.9)
 
@@ -3448,7 +3448,7 @@ changes that when built.
   (names, no raw keys). No store shot changes: shot 5 leaves the
   Settings group closed.
 
-### <a id="w1"></a>W1. The widget — planned 2026-10-11
+### <a id="w1"></a>W1. The widget — planned 2026-10-11, built 2026-10-16 (SPEC §10.6)
 
 - **Gap.** SPEC §10.6 defers the widget's sizes and content. For a
   calendar read once a morning the home screen is the main surface, and
@@ -3470,6 +3470,36 @@ changes that when built.
   midnight seen with the clock set; the widget after a reboot; the
   listing names it in both languages; SPEC §3 and §10.6; README's feature
   list.
+- **Built 2026-10-16** (block 41, SPEC §10.6): `app/.../widget/DayWidget.kt`
+  (`WidgetPlan`, `DayWidget`, the providers `Small` and `Wide`, the
+  alarm's `TickReceiver`), `widget_small.xml` and `widget_wide.xml`, each
+  its own preview in the launcher's list (16 October 2026 in Kyoto at
+  13:00). **Not Glance**: Glance 1.2.0 brings WorkManager, DataStore and
+  protobuf, and WorkManager's manifest adds permissions (network state, a
+  boot receiver of its own) for updates the app's exact alarms already
+  keep; plain `RemoteViews` need no library and no permission more.
+  Leaving the app draws it anew, the bell's receiver after a reboot, an
+  update and a change of clock or zone. Found in the build: the launcher
+  applies an update to the views it holds, so every row's visibility is
+  set on each update (a row hidden for the 旧暦 stayed hidden on the
+  Tibetan page); a tint with alpha shows the white shape under it, so the
+  strip's 80 % tones are laid over the page in code; the text follows the
+  font scale up to 1.15 only, and a compact variant of each size serves a
+  landscape home screen's cells (193 × 87 dp and 193 × 180 dp on the
+  emulator, against about 178 × 202 and 375 × 201 dp upright). The hours
+  against the day take the hours row's short words ("avoid", not "hours
+  to avoid"), which fit the wide size in Russian. Checked: `WidgetTest`
+  (the next change by the place's odd hours and the phone's midnight, a
+  skipped and a repeated hour, the present period); on the emulator both
+  sizes in English and Russian, Ink, Paper and System (switching with the
+  phone's dark setting without an update), the change at 23:00 Kyoto and
+  at midnight with the clock set and at 05:00 on the Tibetan page, the
+  widget redrawn after a reboot with its alarm set again, no alarm left
+  once both were removed, a tap opening today's page, a 旧暦 black day,
+  the person's avoid-all day, font scale 1.5 and 2.0 and a landscape home
+  screen; the merged manifest's permissions unchanged; store shot 9 in
+  both languages (`emu.widgets()` places both from the launcher's list);
+  the release build.
 
 ## Localisation
 

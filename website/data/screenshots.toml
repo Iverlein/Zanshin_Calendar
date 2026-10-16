@@ -71,3 +71,12 @@ alt = "The Tibetan day of the first screenshot, Saga Dawa Düchen (ས་ག་�
 [shot.ru]
 caption = "Светлая или тёмная"
 alt = "Тибетский день первого снимка, Сага Дава Дючен (ས་ག་ཟླ་བའི་དུས་ཆེན, sa ga zla ba'i dus chen), в теме «Бумага»: тёплая светлая страница и тёмный текст"
+
+[[shot]]
+file = "9.png"
+[shot.en]
+caption = "Widgets on the home screen"
+alt = "The home screen with the two widgets: Day, the 15th of the 4th month, a lucky day; and Day and hours, the twelve hours of the day with the present one marked and the hours to avoid"
+[shot.ru]
+caption = "Виджеты на главном экране"
+alt = "Главный экран с двумя виджетами: «День» — 15-е число 4-го месяца, благоприятный день; «День и часы» — двенадцать часов дня, нынешний отмечен, и часы, которых избегают"
