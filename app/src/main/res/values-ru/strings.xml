@@ -631,9 +631,11 @@
     <string name="year_all_white">Все четыре предсказательных камня белые</string>
     <string name="year_all_black">Все четыре предсказательных камня чёрные</string>
     <string name="year_hour_note">Час расчёта — нынешний: %1$s (%2$s), знак %3$s.</string>
-    <string name="year_section_sectors">Рост и упадок</string>
-    <string name="year_sector_title">%1$s: %2$s</string>
+    <string name="year_sector_title">%1$s · энергия: %2$s</string>
     <string name="year_sector_subtitle">%1$s: вдох — %2$s; год — %3$s</string>
+    <string name="year_care_title">Важнее всего: %1$s</string>
+    <string name="year_care_general">Что важнее всего</string>
+    <string name="year_matters_most">важнее всего для вас</string>
     <string name="year_section_obstacles">Препятствия года</string>
     <string name="year_no_obstacles">В этом году нет ни суровых лет, ни девяток, ни малых препятствий мева (སྨེ་བ, sme ba).</string>
     <string name="year_harsh_subtitle">Стихия года к вашей: %1$s</string>

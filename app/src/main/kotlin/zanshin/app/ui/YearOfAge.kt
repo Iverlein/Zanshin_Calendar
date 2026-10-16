@@ -35,6 +35,7 @@ import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BasicSign
+import zanshin.core.tibetan.Care
 import zanshin.core.tibetan.DecisivePebble
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Ewts
@@ -59,9 +60,10 @@ import java.time.ZoneId
 import java.time.ZonedDateTime
 
 /**
- * The reckoning of the year of age [r] for [person] (SPEC §5.9.1, §10.11): the signs of the year, the twenty-four
- * pebbles with the predictive pebble of each aspect, the sectors of growth and decline and the year's obstacles,
- * as rows of the Reckonings screen's year of age. Each row opens its reading through [onOpen].
+ * The reckoning of the year of age [r] for [person] (SPEC §5.9.1, §10.11): the signs of the year; whose aspect
+ * matters most, each aspect's predictive pebble with the stage of its element's energy, and the twenty-four pebbles
+ * they are counted from; then the year's obstacles, as rows of the Reckonings screen's year of age. Each row opens
+ * its reading through [onOpen].
  */
 @Composable
 fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
@@ -91,9 +93,29 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
             AnnotationRow(natalTrigramAnnotation(r, natal, mother, labels), onOpen)
         }
 
+        // The pebbles as the White Beryl weighs them: whose aspect matters most, then each aspect's predictive pebble,
+        // the year's verdict on it, with the stage its element's energy stands in; the six signs' pebbles under them.
         Section(stringResource(R.string.year_section_pebbles))
-        PebbleGrid(r, labels, onOpen)
-        Force.entries.forEach { AnnotationRow(predictiveAnnotation(r, it, labels), onOpen) }
+        val care = Care.of(r.gender, r.age)
+        AnnotationRow(careAnnotation(care, labels), onOpen)
+        Force.entries.forEach { force ->
+            AnnotationRow(predictiveAnnotation(r, force, care, labels), onOpen)
+            r.sectors.firstOrNull { it.force == force }?.let { s ->
+                AnnotationRow(
+                    Annotation(
+                        title = labels.string(R.string.year_sector_title, s.force.english.replaceFirstChar(Char::uppercase), s.sector.english),
+                        english = "",
+                        tone = if (s.sector.good) Tone.GOOD else Tone.BAD,
+                        reading = Texts.yearSector(s.sector, s.force),
+                        subtitle = labels.string(R.string.year_sector_subtitle, gloss(s.element), gloss(YearOfLife.breathTaking(s.element)), gloss(r.present.animal)),
+                        titleIsKanji = false,
+                        tibetan = s.sector.wylie to s.sector.english,
+                        details = listOf(labels.string(R.string.year_detail_pebbles) to YearOfLife.sectorPebbles(s.sector).toString()),
+                    ),
+                    onOpen,
+                )
+            }
+        }
         if (r.complete) {
             val all = Force.entries.map { r.predictive(it) }.distinct()
             if (all.size == 1 && all[0] != null) {
@@ -110,27 +132,11 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
                 )
             }
         }
+        PebbleGrid(r, labels, onOpen)
         r.hour?.let { h ->
             Text(
                 stringResource(R.string.year_hour_note, hourName(h, labels), hourSpan(h), name(h.sign)),
                 style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp),
-            )
-        }
-
-        Section(stringResource(R.string.year_section_sectors))
-        r.sectors.forEach { s ->
-            AnnotationRow(
-                Annotation(
-                    title = labels.string(R.string.year_sector_title, s.force.english.replaceFirstChar(Char::uppercase), s.sector.english),
-                    english = "",
-                    tone = if (s.sector.good) Tone.GOOD else Tone.BAD,
-                    reading = Texts.yearSector(s.sector, s.force),
-                    subtitle = labels.string(R.string.year_sector_subtitle, gloss(s.element), gloss(YearOfLife.breathTaking(s.element)), gloss(r.present.animal)),
-                    titleIsKanji = false,
-                    tibetan = s.sector.wylie to s.sector.english,
-                    details = listOf(labels.string(R.string.year_detail_pebbles) to YearOfLife.sectorPebbles(s.sector).toString()),
-                ),
-                onOpen,
             )
         }
 
@@ -252,7 +258,7 @@ private fun cellAnnotation(r: YearReckoning, p: DecisivePebble, labels: Labels):
     )
 }
 
-private fun predictiveAnnotation(r: YearReckoning, force: Force, labels: Labels): Annotation {
+private fun predictiveAnnotation(r: YearReckoning, force: Force, care: Care, labels: Labels): Annotation {
     val t = r.tally(force)
     val side = r.predictive(force)
     val aspect = force.english.replaceFirstChar(Char::uppercase)
@@ -271,10 +277,20 @@ private fun predictiveAnnotation(r: YearReckoning, force: Force, labels: Labels)
             null -> Tone.NEUTRAL
         },
         reading = side?.let { Texts.yearPredictive(force, it) },
-        subtitle = labels.string(R.string.year_tally_value, t.white, t.black),
+        subtitle = labels.string(R.string.year_tally_value, t.white, t.black) +
+            if (care.force == force) " · " + labels.string(R.string.year_matters_most) else "",
         titleIsKanji = false,
     )
 }
+
+/** Whose aspect matters most for the person (WB vol. 1, p. 242; pp. 415–416), and how the black pebbles are met. */
+private fun careAnnotation(care: Care, labels: Labels): Annotation = Annotation(
+    title = care.force?.let { labels.string(R.string.year_care_title, it.english) } ?: labels.string(R.string.year_care_general),
+    english = "",
+    tone = Tone.NEUTRAL,
+    reading = Texts.yearCare(care),
+    titleIsKanji = false,
+)
 
 private fun mewaAnnotation(r: YearReckoning, labels: Labels): Annotation = Annotation(
     title = labels.string(R.string.year_mewa_title, r.currentSmeBa, Catalog.text("Colour.${SME_BA_COLOURS[r.currentSmeBa - 1]}")),
