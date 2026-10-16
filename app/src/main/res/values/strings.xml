@@ -14,6 +14,8 @@
     <string name="locale_tag">en</string>
     <!-- java.time DateTimeFormatter pattern of the date at the top: "Fri 23 Oct 2026" -->
     <string name="pattern_header_date">EEE d MMM yyyy</string>
+    <!-- the date at the top where the whole one does not fit (a large font): "Fri 23 Oct"; past that pattern_short_date -->
+    <string name="pattern_header_date_no_year">EEE d MMM</string>
     <!-- DateTimeFormatter pattern: "23 Oct" -->
     <string name="pattern_short_date">d MMM</string>
     <!-- DateTimeFormatter pattern: "8 Jan 2027", the end of an election month in another year -->
@@ -233,6 +235,8 @@
     <string name="change_location">Change location</string>
     <string name="sky_show_place">Show the place</string>
     <string name="sky_place">Place</string>
+    <!-- a row of the sky line's balloon, when a large font leaves no room for the altitude on the line: "Sun at noon  46.1°" -->
+    <string name="sky_noon_altitude">Sun at noon</string>
     <string name="menu_close">Close menu</string>
     <string name="menu_calendar">CALENDAR</string>
     <string name="menu_tibetan_subtitle">Phugpa (ཕུག་པ, phug pa)</string>

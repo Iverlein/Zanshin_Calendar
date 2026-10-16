@@ -141,7 +141,7 @@ fun MeditationScreen(onBack: () -> Unit) {
             .background(Palette.ink)
             .windowInsetsPadding(WindowInsets.safeDrawing),
     ) {
-        Row(Modifier.fillMaxWidth().height(64.dp).padding(start = 6.dp, top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.fillMaxWidth().heightIn(min = 64.dp).padding(start = 6.dp, top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = onBack) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.back), tint = Palette.text) }
             Text(stringResource(R.string.meditation_title), style = body.copy(fontSize = 18.sp, fontWeight = FontWeight.SemiBold))
         }

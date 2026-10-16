@@ -203,9 +203,13 @@ fun DatePickerSheet(
                         ""
                     },
                     style = body.copy(fontSize = 12.sp, color = Palette.faint),
+                    // The note wraps; the Today button keeps its word whole at any font scale.
+                    modifier = Modifier.weight(1f).padding(end = 12.dp),
                 )
                 Text(
                     stringResource(R.string.today),
+                    maxLines = 1,
+                    softWrap = false,
                     style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.SemiBold),
                     modifier = Modifier
                         .heightIn(min = 44.dp)
@@ -342,7 +346,7 @@ private fun DayCell(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .height(50.dp)
+            .heightIn(min = 50.dp)
             .background(if (selected) accent else Color.Transparent, RoundedCornerShape(12.dp))
             .border(1.dp, if (today && !selected) accent else Color.Transparent, RoundedCornerShape(12.dp))
             .clickable(role = Role.Button, onClickLabel = date.toString(), onClick = onClick),
@@ -352,7 +356,7 @@ private fun DayCell(
         val fg = if (selected) Palette.onAccent else Palette.text
         Text("${date.dayOfMonth}", style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = fg))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
-            Text(sub, style = body.copy(fontSize = 11.sp, color = fg.copy(alpha = 0.8f)))
+            Text(sub, style = body.copy(fontSize = 12.sp, color = fg.copy(alpha = 0.8f)))
             val mark = if (calendar == CalendarKind.KYUREKI) info.rekichu.mark else null
             if (mark != null) {
                 DayMarkGlyph(

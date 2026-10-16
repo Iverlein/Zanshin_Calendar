@@ -114,7 +114,7 @@ fun LocationScreen(current: SavedPlace?, cities: Cities, onBack: () -> Unit, onC
             .windowInsetsPadding(WindowInsets.safeDrawing),
     ) {
         Row(
-            Modifier.fillMaxWidth().height(64.dp).padding(start = 6.dp, top = 8.dp),
+            Modifier.fillMaxWidth().heightIn(min = 64.dp).padding(start = 6.dp, top = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
             IconButton(onClick = onBack) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.back), tint = Palette.text) }

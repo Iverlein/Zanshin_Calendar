@@ -9,18 +9,16 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -66,6 +64,7 @@ import zanshin.core.texts.toneOf
  * adds the personal 九星気学 row when the owner has switched it on. A work in the
  * breakdown or a reading's lists opens its 旧暦 election through [onElect] (ROADMAP E5).
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun KyurekiPage(
     info: DayInfo,
@@ -94,19 +93,13 @@ fun KyurekiPage(
         Texts.ROKUYO[day.rokuyo],
         diagram = {
             Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
-                if (namesTimes) Centered { DayArc(rokuyoTimes, 220.dp) }
+                if (namesTimes) Centered { DiagramFrame { DayArc(rokuyoTimes, 220.dp) } }
                 RokuyoStrip(day.rokuyo)
             }
         },
     )
 
-    Column(
-        modifier = modifier
-            .fillMaxSize()
-            .verticalScroll(rememberScrollState())
-            .padding(horizontal = 28.dp, vertical = 20.dp),
-        verticalArrangement = Arrangement.spacedBy(18.dp),
-    ) {
+    PageColumns(modifier, top = {
         for (festival in listOfNotNull(day.festival, day.gregorianFestival)) {
             val a = Annotation(festival.kanji, "${festival.romaji} — ${festival.english}", Tone.GOOD, Texts.JAPANESE_FESTIVAL[festival.kanji])
             Row(
@@ -192,23 +185,30 @@ fun KyurekiPage(
         ) {
             TermRing(day.currentTerm, 48.dp)
             Spacer(Modifier.width(14.dp))
-            Row(Modifier.weight(1f), verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                GlossText(day.currentTerm.kanji, day.currentTerm.english, kanjiStyle.copy(fontSize = 26.sp), reading = day.currentTerm.romaji)
-                Text(day.currentTerm.romaji, style = body, modifier = Modifier.padding(bottom = 3.dp))
-            }
-            if (day.termBeginning != null) {
-                Text(
-                    stringResource(R.string.kyu_begins_today),
-                    style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Palette.onAccent),
-                    modifier = Modifier.background(accent, RoundedCornerShape(12.dp)).padding(horizontal = 10.dp, vertical = 4.dp),
-                )
-            } else {
-                Text(stringResource(R.string.kyu_until, day.nextTermStart.minusDays(1).format(labels.shortDate)), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+            // The term and its end on one line; at a large font the end goes under the term (ROADMAP A2).
+            FlowRow(
+                Modifier.weight(1f),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalArrangement = Arrangement.spacedBy(6.dp),
+                itemVerticalAlignment = Alignment.CenterVertically,
+            ) {
+                Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    GlossText(day.currentTerm.kanji, day.currentTerm.english, kanjiStyle.copy(fontSize = 26.sp), reading = day.currentTerm.romaji)
+                    Text(day.currentTerm.romaji, style = body, modifier = Modifier.padding(bottom = 3.dp))
+                }
+                if (day.termBeginning != null) {
+                    Text(
+                        stringResource(R.string.kyu_begins_today),
+                        style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = Palette.onAccent),
+                        modifier = Modifier.background(accent, RoundedCornerShape(12.dp)).padding(horizontal = 10.dp, vertical = 4.dp),
+                    )
+                } else {
+                    Text(stringResource(R.string.kyu_until, day.nextTermStart.minusDays(1).format(labels.shortDate)), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                }
             }
         }
 
-        Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
-
+    }) {
         SectionTitle(stringResource(R.string.section_choku))
         Column {
             AnnotationRow(chokuAnnotation(rk.choku, labels)) { sheet = it }
@@ -233,7 +233,7 @@ fun KyurekiPage(
         }
 
         SectionTitle(stringResource(R.string.section_kanshi))
-        Column {
+        FactColumn(listOf(R.string.row_day, R.string.row_year, R.string.row_solar_month).map { stringResource(it) }) {
             val yearKanshi = Kanshi.ofYear(day.year)
             val branch = Kanshi(rk.setsuBranch)
             FactRow(stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true, lead = { KanshiGlyphs(rk.dayKanshi) })
@@ -249,7 +249,7 @@ fun KyurekiPage(
         }
 
         SectionTitle(stringResource(R.string.section_stars))
-        val dayStar = Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar], diagram = { StarBoardDetail(rk.dayStar, 288.dp) })
+        val dayStar = Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar], diagram = { DiagramFrame { StarBoardDetail(rk.dayStar, 288.dp) } })
         Row(
             Modifier.fillMaxWidth().clickable(role = Role.Button) { sheet = dayStar },
             horizontalArrangement = Arrangement.spacedBy(18.dp),
@@ -282,7 +282,7 @@ fun KyurekiPage(
                 Texts.EHOU[rk.ehou],
                 subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}",
                 lead = { Compass(rk.ehou.bearing, 56.dp, ehouLine) },
-                diagram = { Compass(rk.ehou.bearing, 160.dp, ehouLine) },
+                diagram = { DiagramFrame { Compass(rk.ehou.bearing, 160.dp, ehouLine) } },
             ),
         ) { sheet = it }
     }
@@ -292,11 +292,11 @@ fun KyurekiPage(
 }
 
 private fun chokuAnnotation(c: Choku, labels: Labels) =
-    Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c], diagram = { ChokuDial(c, 240.dp) })
+    Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c], diagram = { DiagramFrame { ChokuDial(c, 240.dp) } })
 
 private fun shukuAnnotation(s: Shuku, labels: Labels): Annotation {
     val reading = Texts.SHUKU[s]
-    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading, diagram = { ShukuRing(s, 280.dp) })
+    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading, diagram = { DiagramFrame { ShukuRing(s, 280.dp) } })
 }
 
 private fun senjitsuAnnotation(s: Senjitsu) = Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])

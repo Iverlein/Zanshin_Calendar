@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
@@ -75,7 +76,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
 /** The screen's header: Back, the title with a line under it, and what [trailing] adds at the end. */
 @Composable
 private fun Header(title: String, subtitle: String?, onBack: () -> Unit, trailing: @Composable () -> Unit = {}) {
-    Row(Modifier.fillMaxWidth().height(64.dp).padding(start = 6.dp, end = 6.dp, top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+    Row(Modifier.fillMaxWidth().heightIn(min = 64.dp).padding(start = 6.dp, end = 6.dp, top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
         IconButton(onClick = onBack) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.back), tint = Palette.text) }
         Column(Modifier.weight(1f)) {
             Text(title, style = body.copy(fontSize = 18.sp, fontWeight = FontWeight.SemiBold), maxLines = 1)

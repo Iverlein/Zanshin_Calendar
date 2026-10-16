@@ -4,6 +4,8 @@
 
 package zanshin.app.ui
 
+import androidx.compose.ui.text.style.LineBreak
+import androidx.compose.ui.text.style.Hyphens
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -12,16 +14,13 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -152,13 +151,7 @@ fun TibetanPage(
         Annotation(it.festival.namedTitle, it.festival.english, Tone.GOOD, Texts.TIBETAN_FESTIVAL[it.festival], titleIsKanji = false)
     }
 
-    Column(
-        modifier = modifier
-            .fillMaxSize()
-            .verticalScroll(rememberScrollState())
-            .padding(horizontal = 28.dp, vertical = 20.dp),
-        verticalArrangement = Arrangement.spacedBy(18.dp),
-    ) {
+    PageColumns(modifier, top = {
         if (holiday != null && holidayAnnotation != null) {
             Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
                 FestivalGlyph(holiday.festival.name, accent, 72.dp)
@@ -259,8 +252,7 @@ fun TibetanPage(
 
         BriefRow(brief) { summaryOpen = true }
         onFirstRun?.let { FirstRunLine(stringResource(R.string.first_run_tibetan), it) }
-
-        Spacer(Modifier.fillMaxWidth().height(1.dp).background(Palette.line))
+    }) {
 
         // Readings, each opening its sourced text.
         val observance = stringResource(R.string.tib_monthly_observance)
@@ -366,7 +358,7 @@ fun TibetanPage(
             RahuMove.Everywhere -> stringResource(R.string.tib_rahu_everywhere)
         }
         val rahuMark: @Composable () -> Unit = { RahuCompass(rahuMove, 24.dp, rahuCaption, small = true) }
-        val rahuDiagram: @Composable () -> Unit = { RahuCompass(rahuMove, 200.dp, rahuCaption) }
+        val rahuDiagram: @Composable () -> Unit = { DiagramFrame { RahuCompass(rahuMove, 200.dp, rahuCaption) } }
         val daySmeBa = remember(info.date) { DaySmeBa.of(info.date) }
         val blaMkhyenTitle = stringResource(R.string.tib_bla_mkhyen_title)
         // The row says only where it is; the day's mewa that finds it is in the sheet.
@@ -590,7 +582,7 @@ fun TibetanPage(
                     tibetan = day.mansion.wylie to day.mansion.english,
                     details = secondMansions.map { secondMansionLabel to detailFrom(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at)) },
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
-                    diagram = { MansionRing(day.mansion, 280.dp) },
+                    diagram = { DiagramFrame { MansionRing(day.mansion, 280.dp) } },
                 ),
             )
             val specials = day.combinationDays.map { it to false }.plus(day.gtsugLagDays.map { it to true }).map { (c, gtsugLag) ->
@@ -678,7 +670,7 @@ fun TibetanPage(
                     details = listOfNotNull(day.karana.takeIf { it.whiteBeryl != it.wylie }?.let { alsoCalledLabel to Ewts.named(it.english, it.whiteBeryl) }) +
                         listOfNotNull(visti?.let { vistiLabel to detailSpan(Ewts.named(Karana.VISHTI.english, Karana.VISHTI.whiteBeryl), timeOf(it.start), timeOf(it.end)) }),
                     glyphs = { KaranaRing(day.karana, 24.dp, small = true) },
-                    diagram = { KaranaRing(day.karana, 280.dp) },
+                    diagram = { DiagramFrame { KaranaRing(day.karana, 280.dp) } },
                     decides = decides(DayFactor.KARANA),
                 ),
             )
@@ -694,7 +686,7 @@ fun TibetanPage(
                     details = listOfNotNull(day.yoga.takeIf { it.whiteBeryl != it.wylie }?.let { alsoCalledLabel to Ewts.named(it.english, it.whiteBeryl) }) +
                         skippedYogas.map { skippedYogaLabel to detailSpan(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at), timeOf(it.until!!)) },
                     glyphs = { YogaRing(day.yoga, 24.dp, small = true) },
-                    diagram = { YogaRing(day.yoga, 280.dp) },
+                    diagram = { DiagramFrame { YogaRing(day.yoga, 280.dp) } },
                     decides = decides(DayFactor.YOGA),
                 ),
             )
@@ -758,14 +750,16 @@ fun TibetanPage(
                 details = blaMkhyenDetails,
                 glyphs = { BlaMkhyenCompass(daySmeBa.sevenRed, 24.dp, blaMkhyenCaption, small = true) },
                 diagram = {
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        BlaMkhyenCompass(daySmeBa.sevenRed, 200.dp, blaMkhyenCaption)
-                        Spacer(Modifier.height(20.dp))
-                        MovedSmeBaSquare(
-                            daySmeBa.number, 7, 200.dp,
-                            stringResource(R.string.desc_moved_sme_ba, daySmeBa.number),
-                            caption = stringResource(R.string.bla_mkhyen_square_caption, daySmeBa.number),
-                        )
+                    DiagramFrame {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            BlaMkhyenCompass(daySmeBa.sevenRed, 200.dp, blaMkhyenCaption)
+                            Spacer(Modifier.height(20.dp))
+                            MovedSmeBaSquare(
+                                daySmeBa.number, 7, 200.dp,
+                                stringResource(R.string.desc_moved_sme_ba, daySmeBa.number),
+                                caption = stringResource(R.string.bla_mkhyen_square_caption, daySmeBa.number),
+                            )
+                        }
                     }
                 },
             ),
@@ -853,7 +847,9 @@ fun TibetanPage(
         }
 
         SectionTitle(stringResource(R.string.section_lunar_day))
-        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        val factLabels = listOf(R.string.row_day_sign, R.string.row_date_animal, R.string.row_trigram, R.string.row_date_sme_ba, R.string.row_twelve_links)
+            .map { stringResource(it) }
+        FactColumn(factLabels, verticalArrangement = Arrangement.spacedBy(4.dp)) {
             // The labels are short English names on one line; a label's Tibetan is in the sheet or balloon its row opens.
             // The 60-day cycle's element and animal: weighed nowhere, so here rather than at the top, where the
             // weekday and planet it once stood with are the Almanac's weekday row (ROADMAP T3).
@@ -1165,6 +1161,9 @@ fun FactRow(
     // A bare term, or plain text that may hold Tibetan script, sits on the label's baseline: the script's tall line
     // would push a centred label below the text.
     val plain = !tibetan && !kanji && balloon == null
+    // A value too long for its row at a large font breaks between words, else by the language's hyphenation
+    // ("Вода-Сви-нья"), never at a bare letter.
+    val valueStyle = body.copy(fontSize = 16.sp, hyphens = Hyphens.Auto, lineBreak = LineBreak.Paragraph)
     val onBaseline = lead == null && (tibetan || plain && swatch == null)
     Row(
         Modifier.fillMaxWidth().heightIn(min = 40.dp).let { if (onClick != null) it.clickable(onClick = onClick) else it },
@@ -1174,8 +1173,8 @@ fun FactRow(
         val bracket = label.indexOf(" (").takeIf { it > 0 && label.substring(it).any { c -> c in '\u0F00'..'\u0FFF' } }
         Text(
             if (bracket == null) AnnotatedString(label) else withTibetan(label.substring(0, bracket) + "\n" + label.substring(bracket + 1)),
-            style = body.copy(fontSize = 14.sp, color = Palette.muted),
-            modifier = Modifier.width(120.dp).padding(end = 8.dp).let { if (onBaseline) it.alignByBaseline() else it },
+            style = factLabelStyle,
+            modifier = Modifier.width(LocalFactLabelWidth.current).padding(end = 8.dp).let { if (onBaseline) it.alignByBaseline() else it },
         )
         if (lead != null) {
             Row(Modifier.padding(end = 10.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) { lead() }
@@ -1200,9 +1199,13 @@ fun FactRow(
             )
         } else if (balloon != null) {
             // A screen reader gets the balloon's rows after the term, not the term twice.
-            GlossText(english, balloon.joinToString { "${it.label} ${it.value}" }, body.copy(fontSize = 16.sp), preferAbove = true, rows = balloon)
+            GlossText(english, balloon.joinToString { "${it.label} ${it.value}" }, valueStyle, preferAbove = true, rows = balloon)
         } else {
-            Text(english, style = body.copy(fontSize = 16.sp), modifier = if (onBaseline) Modifier.alignByBaseline() else Modifier)
+            Text(
+                english,
+                style = valueStyle,
+                modifier = if (onBaseline) Modifier.alignByBaseline() else Modifier,
+            )
         }
     }
 }

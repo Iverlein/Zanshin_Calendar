@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -139,7 +140,7 @@ private val captionStyle get() = body.copy(fontSize = 14.sp, color = Palette.mut
 
 @Composable
 private fun Caption(text: String) {
-    Text(withTibetan(text), style = captionStyle, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
+    AtUserScale { Text(withTibetan(text), style = captionStyle, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) }
 }
 
 // ---------------------------------------------------------------- 六曜
@@ -837,7 +838,7 @@ fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
         @Composable
         fun head(e: IndianElement) = Column(horizontalAlignment = Alignment.CenterHorizontally) {
             CueIcon(CueGlyphs.of(e), Palette.muted, 20.dp)
-            Text(e.english, style = body.copy(fontSize = 11.sp, color = Palette.muted))
+            Text(e.english, style = body.copy(fontSize = 12.sp, color = Palette.muted))
         }
         Row(horizontalArrangement = Arrangement.spacedBy(5.dp)) {
             Box(Modifier.width(44.dp))
@@ -852,7 +853,7 @@ fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
                     Box(
                         Modifier
                             .weight(1f)
-                            .height(48.dp)
+                            .heightIn(min = 48.dp)
                             .background(if (on) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
                             .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp)),
                         contentAlignment = Alignment.Center,
@@ -860,8 +861,8 @@ fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
                         Text(
                             pair.english,
                             style = body.copy(
-                                fontSize = 11.sp,
-                                lineHeight = 13.sp,
+                                fontSize = 12.sp,
+                                lineHeight = 14.sp,
                                 color = if (pair.auspicious) Palette.good else Palette.bad,
                                 textAlign = TextAlign.Center,
                                 hyphens = Hyphens.Auto,
@@ -873,7 +874,7 @@ fun ElementPairGrid(weekday: IndianElement, mansion: IndianElement) {
                 }
             }
         }
-        Text(stringResource(R.string.pair_grid_axes), style = body.copy(fontSize = 11.sp, color = Palette.faint))
+        Text(stringResource(R.string.pair_grid_axes), style = body.copy(fontSize = 12.sp, color = Palette.faint))
     }
 }
 
@@ -946,7 +947,7 @@ fun WorkGrid(
                     Column(
                         Modifier
                             .weight(1f)
-                            .aspectRatio(ratio)
+                            .atLeastAspect(ratio)
                             .background(if (k == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
                             .border(if (c.marked) 1.6.dp else 1.dp, if (c.marked) accent else Palette.lineStrong, RoundedCornerShape(8.dp))
                             .clickable(role = Role.Button) { selected = k },
@@ -955,7 +956,7 @@ fun WorkGrid(
                     ) {
                         Text("${c.date}", style = body.copy(fontSize = 14.sp, lineHeight = 17.sp, color = if (c.marked) Palette.text else Palette.muted))
                         // The date picker's figures reversed: the lunar date large, the civil day small under it.
-                        c.civil?.let { Text("$it", style = body.copy(fontSize = 11.sp, lineHeight = 13.sp, color = Palette.faint)) }
+                        c.civil?.let { Text("$it", style = body.copy(fontSize = 12.sp, lineHeight = 14.sp, color = Palette.faint)) }
                         // The person's own days to avoid as an outline, the weighed side solid (ROADMAP U12).
                         ToneDot(if (c.forYou) Tone.BAD else c.tone, outline = c.forYou, size = 8.dp, modifier = Modifier.padding(top = 3.dp))
                     }
@@ -978,7 +979,7 @@ private val WEEK = listOf(Weekday.SUNDAY, Weekday.MONDAY, Weekday.TUESDAY, Weekd
 fun CombinationTable(weekday: Weekday, mansion: Mansion) {
     var selected by remember(weekday, mansion) { mutableStateOf(weekday to mansion) }
     val description = stringResource(R.string.desc_combination_table)
-    val measurer = rememberTextMeasurer()
+    val measurer = rememberDrawingMeasurer()
     val locale = LocalLabels.current.locale
     // The locale's own short names (Пн … Вс, Su … Sa): cutting the full ones makes Че and Пя.
     val names = WEEK.map { w -> DayOfWeek.valueOf(w.name).getDisplayName(java.time.format.TextStyle.SHORT_STANDALONE, locale).take(2).replaceFirstChar { it.titlecase(locale) } }
@@ -1018,7 +1019,7 @@ fun CombinationTable(weekday: Weekday, mansion: Mansion) {
                 }
             }
         }
-        Text(stringResource(R.string.combination_table_axes), style = body.copy(fontSize = 11.sp, color = Palette.faint), modifier = Modifier.padding(top = 4.dp))
+        Text(stringResource(R.string.combination_table_axes), style = body.copy(fontSize = 12.sp, color = Palette.faint), modifier = Modifier.padding(top = 4.dp))
         val (w, m) = selected
         val g = GreatCombination.of(w, m)
         Caption("${w.english} · ${m.sanskrit}: ${Ewts.named(g.english, g.wylie)} · ${toneLabel(if (g.lucky) Tone.GOOD else Tone.BAD)}")
@@ -1072,7 +1073,7 @@ fun LunarDateGrid(today: Int) {
                     Column(
                         Modifier
                             .weight(1f)
-                            .height(40.dp)
+                            .heightIn(min = 40.dp)
                             .background(if (d == selected) Palette.raised else Palette.surface, RoundedCornerShape(8.dp))
                             .border(if (on) 1.6.dp else 1.dp, if (on) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
                             .clickable(role = Role.Button) { selected = d },

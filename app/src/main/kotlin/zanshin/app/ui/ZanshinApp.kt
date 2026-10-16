@@ -20,6 +20,9 @@ import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
@@ -58,6 +61,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -291,59 +295,65 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
     when (screen) {
         Screen.LOCATION -> {
             BackHandler { screen = Screen.DAYS }
-            LocationScreen(current = place, cities = cities, onBack = { screen = Screen.DAYS }, onChoose = ::savePlace)
+            ReadingWidth { LocationScreen(current = place, cities = cities, onBack = { screen = Screen.DAYS }, onChoose = ::savePlace) }
             return
         }
         Screen.ABOUT -> {
             BackHandler { screen = Screen.DAYS }
-            AboutScreen(onBack = { screen = Screen.DAYS })
+            ReadingWidth { AboutScreen(onBack = { screen = Screen.DAYS }) }
             return
         }
         Screen.MEDITATION -> {
             BackHandler { screen = Screen.DAYS }
-            MeditationScreen(onBack = { screen = Screen.DAYS })
+            ReadingWidth { MeditationScreen(onBack = { screen = Screen.DAYS }) }
             return
         }
         Screen.HEALTH -> {
             BackHandler { screen = Screen.DAYS }
-            HealthScreen(
-                from = healthDay,
-                zone = zone,
-                person = people.current,
-                onPeople = ::openPeople,
-                onBack = { screen = Screen.DAYS },
-            )
+            ReadingWidth {
+                HealthScreen(
+                    from = healthDay,
+                    zone = zone,
+                    person = people.current,
+                    onPeople = ::openPeople,
+                    onBack = { screen = Screen.DAYS },
+                )
+            }
             PeopleDialogs()
             return
         }
         Screen.RECKONINGS -> {
             // The screen handles Back itself: from a reckoning to its list, or out.
-            ReckoningsScreen(
-                year = reckoningsYear,
-                opened = reckoningsOpened,
-                zone = zone,
-                person = people.current,
-                onPeople = ::openPeople,
-                onBack = { screen = Screen.DAYS },
-            )
+            ReadingWidth {
+                ReckoningsScreen(
+                    year = reckoningsYear,
+                    opened = reckoningsOpened,
+                    zone = zone,
+                    person = people.current,
+                    onPeople = ::openPeople,
+                    onBack = { screen = Screen.DAYS },
+                )
+            }
             PeopleDialogs()
             return
         }
         Screen.ELECTION -> {
             BackHandler { screen = Screen.DAYS }
-            ElectionScreen(
-                from = electionFrom,
-                birth = birth,
-                kyureki = electionKyureki,
-                work = electionWork,
-                onWork = { electionWork = it },
-                onOpenDay = {
-                    chooseCalendar(if (electionKyureki) CalendarKind.KYUREKI else CalendarKind.TIBETAN)
-                    openDay = it
-                    screen = Screen.DAYS
-                },
-                onBack = { screen = Screen.DAYS },
-            )
+            ReadingWidth {
+                ElectionScreen(
+                    from = electionFrom,
+                    birth = birth,
+                    kyureki = electionKyureki,
+                    work = electionWork,
+                    onWork = { electionWork = it },
+                    onOpenDay = {
+                        chooseCalendar(if (electionKyureki) CalendarKind.KYUREKI else CalendarKind.TIBETAN)
+                        openDay = it
+                        screen = Screen.DAYS
+                    },
+                    onBack = { screen = Screen.DAYS },
+                )
+            }
             return
         }
         Screen.DAYS -> Unit
@@ -578,41 +588,71 @@ private fun Header(
     showPerson: Boolean,
     onPerson: () -> Unit,
 ) {
-    Row(
+    val dates = LocalLabels.current.headerDates.map(date::format)
+    val dateStyle = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
+    // The date button at its narrowest: the short date, its chevron and its paddings.
+    val measurer = rememberTextMeasurer()
+    val density = LocalDensity.current
+    val dateLeast = remember(dates.last(), density) {
+        measurer.measure(dates.last(), dateStyle, maxLines = 1, softWrap = false).size.width + with(density) { (6.dp + 16.dp + 12.dp).roundToPx() }
+    }
+    // Menu, date, then Today, the person and the calendars at the end. Where even the short date has no room
+    // beside them (a large font, ROADMAP A2), the date goes on a line of its own under the menu, whole.
+    Layout(
         modifier = Modifier
             .fillMaxWidth()
-            .height(64.dp)
             .padding(start = 6.dp, end = 10.dp, top = 8.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        IconButton(onClick = onMenu) {
-            Icon(Icons.Menu, contentDescription = stringResource(R.string.menu_open), tint = Palette.text)
-        }
-        Row(
-            modifier = Modifier
-                .weight(1f)
-                .heightIn(min = 44.dp)
-                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.choose_date), onClick = onDate)
-                .padding(horizontal = 6.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(6.dp),
-        ) {
-            Text(date.format(LocalLabels.current.headerDate), style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold))
-            Icon(Icons.ChevronDown, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(16.dp))
-        }
-        if (!isToday) {
-            Text(
-                stringResource(R.string.today),
-                style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = Palette.muted),
+        content = {
+            IconButton(onClick = onMenu) {
+                Icon(Icons.Menu, contentDescription = stringResource(R.string.menu_open), tint = Palette.text)
+            }
+            Row(
                 modifier = Modifier
                     .heightIn(min = 44.dp)
-                    .clickable(role = Role.Button, onClick = onToday)
-                    .padding(horizontal = 8.dp, vertical = 12.dp),
-            )
+                    .clickable(role = Role.Button, onClickLabel = stringResource(R.string.choose_date), onClick = onDate)
+                    .padding(horizontal = 6.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                FittedText(dates, dateStyle, Modifier.weight(1f, fill = false))
+                Icon(Icons.ChevronDown, contentDescription = null, tint = Palette.muted, modifier = Modifier.size(16.dp))
+            }
+            if (!isToday) {
+                Text(
+                    stringResource(R.string.today),
+                    style = body.copy(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = Palette.muted),
+                    modifier = Modifier
+                        .heightIn(min = 44.dp)
+                        .clickable(role = Role.Button, onClick = onToday)
+                        .padding(horizontal = 8.dp, vertical = 12.dp),
+                )
+            }
+            if (showPerson) PersonChip(person, onPerson)
+            CalendarToggle(calendar, onChoose)
+        },
+    ) { measurables, constraints ->
+        val gap = 4.dp.roundToPx()
+        val loose = constraints.copy(minWidth = 0, minHeight = 0)
+        val menu = measurables[0].measure(loose)
+        val tail = measurables.drop(2).map { it.measure(loose) }
+        val tailWidth = tail.sumOf { it.width + gap }
+        val line = maxOf(56.dp.roundToPx(), menu.height, tail.maxOfOrNull { it.height } ?: 0)
+        val room = constraints.maxWidth - menu.width - gap - tailWidth
+        val oneLine = room >= dateLeast
+        val dateWidth = if (oneLine) room else constraints.maxWidth - menu.width - gap
+        // On one line the date button takes all the room left, as a tap target.
+        val datePlaced = measurables[1].measure(loose.copy(minWidth = if (oneLine) dateWidth else 0, maxWidth = dateWidth))
+        val height = if (oneLine) line else line + datePlaced.height
+        layout(constraints.maxWidth, height) {
+            menu.place(0, (line - menu.height) / 2)
+            var x = constraints.maxWidth
+            for (p in tail.asReversed()) {
+                x -= p.width
+                p.place(x, (line - p.height) / 2)
+                x -= gap
+            }
+            datePlaced.place(menu.width + gap, if (oneLine) (line - datePlaced.height) / 2 else line)
         }
-        if (showPerson) PersonChip(person, onPerson)
-        CalendarToggle(calendar, onChoose)
     }
 }
 
@@ -671,22 +711,31 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
     val line = Modifier
         .fillMaxWidth()
         .drawTopLine()
-        .height(44.dp)
+        .heightIn(min = 44.dp)
     if (place == null) {
-        Box(line.clickable(role = Role.Button, onClick = onLocation).padding(horizontal = 24.dp), contentAlignment = Alignment.CenterStart) {
-            Text(
-                stringResource(R.string.sky_set_location),
-                style = body.copy(fontSize = 14.sp, color = Palette.muted),
-                maxLines = 1,
-                modifier = Modifier.dottedUnderline(),
-            )
+        // One line at font scale 1.0; at a larger one it wraps rather than being cut.
+        Box(line.clickable(role = Role.Button, onClick = onLocation).padding(horizontal = 24.dp, vertical = 8.dp), contentAlignment = Alignment.CenterStart) {
+            UnderlinedText(stringResource(R.string.sky_set_location), body.copy(fontSize = 14.sp, color = Palette.muted))
         }
         return
     }
     val sun = remember(date, place) { SunTimes.of(date, place.place) }
     val labels = LocalLabels.current
     var open by remember { mutableStateOf(false) }
-    Box {
+    val sunrise = sun.sunrise?.format(labels.clock) ?: "—"
+    val noon = sun.transit.format(labels.clock)
+    val sunset = sun.sunset?.format(labels.clock) ?: "—"
+    val altitude = stringResource(R.string.sky_altitude, sun.altitudeAtTransitDeg)
+    // At a large font the noon's altitude leaves the line for the balloon, so that the three times stay whole.
+    val measurer = rememberTextMeasurer()
+    val density = LocalDensity.current
+    BoxWithConstraints {
+        val fits = remember(sunrise, noon, sunset, altitude, density, maxWidth) {
+            fun w(text: String) = with(density) { measurer.measure(text, body, maxLines = 1, softWrap = false).size.width.toDp() }
+            // Three icons of 20 dp and their gaps of 6, the side paddings, and some air between the items.
+            val times = w(sunrise) + w(noon) + w(sunset) + 26.dp * 3 + 48.dp + 24.dp
+            times + 6.dp + w(altitude) <= maxWidth
+        }
         Row(
             line
                 .clickable(role = Role.Button, onClickLabel = stringResource(R.string.sky_show_place)) { open = !open }
@@ -694,18 +743,16 @@ private fun SkyLine(date: LocalDate, place: SavedPlace?, onLocation: () -> Unit)
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            SkyItem(Icons.Sunrise, sun.sunrise?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunrise))
-            SkyItem(
-                Icons.Sun,
-                sun.transit.format(labels.clock),
-                stringResource(R.string.sky_solar_noon),
-                suffix = stringResource(R.string.sky_altitude, sun.altitudeAtTransitDeg),
-            )
-            SkyItem(Icons.Sunset, sun.sunset?.format(labels.clock) ?: "—", stringResource(R.string.sky_sunset))
+            SkyItem(Icons.Sunrise, sunrise, stringResource(R.string.sky_sunrise))
+            SkyItem(Icons.Sun, noon, stringResource(R.string.sky_solar_noon), suffix = if (fits) altitude else null)
+            SkyItem(Icons.Sunset, sunset, stringResource(R.string.sky_sunset))
         }
         if (open) {
             Balloon(
-                rows = listOf(BalloonRow(stringResource(R.string.sky_place), place.label)),
+                rows = listOfNotNull(
+                    BalloonRow(stringResource(R.string.sky_place), place.label),
+                    if (fits) null else BalloonRow(stringResource(R.string.sky_noon_altitude), "%.1f°".format(labels.locale, sun.altitudeAtTransitDeg)),
+                ),
                 preferAbove = true,
                 actions = listOf(BalloonAction(stringResource(R.string.change_location), onLocation)),
                 onDismiss = { open = false },

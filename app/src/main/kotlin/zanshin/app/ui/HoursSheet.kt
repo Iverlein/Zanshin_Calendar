@@ -147,15 +147,17 @@ fun HoursSheet(
         ) {
             Text(stringResource(R.string.hours_title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
 
-            val measurer = rememberTextMeasurer()
             val labelStyle = TextStyle(fontFamily = Figtree, fontSize = 12.sp, color = Palette.muted)
             val selectedLabelStyle = labelStyle.copy(color = Palette.text, fontWeight = FontWeight.SemiBold)
             val animalNames = hours.map { gloss(it.sign.animal) }
             val dialDescription = stringResource(if (birth != null) R.string.hours_dial_description else R.string.hours_dial_description_period)
+            // The dial's names grow with the dial, not past it (ROADMAP A2): up to 360 dp, drawn for 340.
+            DrawnFor(340.dp) {
+            val measurer = rememberTextMeasurer()
             Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
                 Canvas(
                     Modifier
-                        .widthIn(max = 340.dp)
+                        .widthIn(max = 360.dp)
                         .fillMaxWidth()
                         .aspectRatio(1f)
                         .semantics { contentDescription = dialDescription }
@@ -251,6 +253,7 @@ fun HoursSheet(
                     Text(hourSpan(hours[selected]), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                     if (selected == current) Text(stringResource(R.string.hours_now), style = body.copy(fontSize = 12.sp, color = Palette.saffron))
                 }
+            }
             }
 
             // Stepping through the hours, also for screen readers.

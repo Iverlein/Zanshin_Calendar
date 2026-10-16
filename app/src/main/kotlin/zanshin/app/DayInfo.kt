@@ -118,6 +118,10 @@ class Labels(private val res: Resources) {
     val locale: Locale = Locale.forLanguageTag(res.getString(R.string.locale_tag))
     val headerDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_header_date), locale)
     val shortDate: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_short_date), locale)
+
+    /** The header's date, longest first: the first that fits stands there (ROADMAP A2). */
+    val headerDates: List<DateTimeFormatter> =
+        listOf(headerDate, DateTimeFormatter.ofPattern(res.getString(R.string.pattern_header_date_no_year), locale), shortDate)
     val shortDateYear: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_short_date_year), locale)
     val monthTitle: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_month_title), locale)
     val clock: DateTimeFormatter = DateTimeFormatter.ofPattern(res.getString(R.string.pattern_clock), locale)

@@ -8,6 +8,7 @@
     <!-- Language and formats -->
     <string name="locale_tag">ru</string>
     <string name="pattern_header_date">EEE d MMM yyyy</string>
+    <string name="pattern_header_date_no_year">EEE d MMM</string>
     <string name="pattern_short_date">d MMM</string>
     <string name="pattern_short_date_year">d MMM yyyy</string>
     <!-- LLLL: the month's standalone name, «октябрь 2026», not «октября» -->
@@ -196,6 +197,7 @@
     <string name="change_location">Сменить место</string>
     <string name="sky_show_place">Показать место</string>
     <string name="sky_place">Место</string>
+    <string name="sky_noon_altitude">Солнце в полдень</string>
     <string name="menu_close">Закрыть меню</string>
     <string name="menu_calendar">КАЛЕНДАРЬ</string>
     <string name="menu_tibetan_subtitle">Пхугпа (ཕུག་པ, phug pa)</string>

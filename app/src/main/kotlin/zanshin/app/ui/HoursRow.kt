@@ -124,8 +124,9 @@ fun HoursRow(summary: DaySummary, day: TibetanDay, hourSigns: List<HourSign>, cu
 /**
  * The runs of [against], each its short span and the period it begins, after [label] in [colour], on one line
  * (ROADMAP U11): "avoid 05–09 · 11–13 · 17–19 · 23–01", each span a tap that opens its hour. Four runs fit at
- * font scale 1.3 in English and Russian; a day with five, which some months have, is set smaller rather than
- * broken over two lines.
+ * font scale 1.3 in English and Russian; a day with five, which some months have, or a larger font scale, is set
+ * smaller rather than broken over two lines. Android scales small text more than large, so the size that fits is
+ * found by measuring again, not by the ratio of the widths alone.
  */
 @Composable
 private fun ShortHours(label: String, colour: Color, against: List<Pair<String, Int>>, openHour: String, onHour: (Int?) -> Unit) {
@@ -136,13 +137,20 @@ private fun ShortHours(label: String, colour: Color, against: List<Pair<String, 
     val gap = 8.dp
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val density = LocalDensity.current
-        val natural = remember(label, against, density) {
-            fun w(text: String, style: TextStyle) = measurer.measure(text, style, maxLines = 1, softWrap = false).size.width
-            w(label, labelStyle) + with(density) { gap.toPx() } +
-                against.sumOf { w(it.first, spanStyle) } + (against.size - 1) * w(HoursShortForm.SEPARATOR, sepStyle)
-        }
         val available = with(density) { maxWidth.toPx() }
-        val k = if (natural > available) available / natural * 0.98f else 1f
+        val k = remember(label, against, density, available) {
+            fun w(text: String, style: TextStyle, k: Float) =
+                measurer.measure(text, style.copy(fontSize = style.fontSize * k), maxLines = 1, softWrap = false).size.width
+            fun natural(k: Float) = w(label, labelStyle, k) + with(density) { (gap * k).toPx() } +
+                against.sumOf { w(it.first, spanStyle, k) } + (against.size - 1) * w(HoursShortForm.SEPARATOR, sepStyle, k)
+            var k = 1f
+            repeat(6) {
+                val n = natural(k)
+                if (n <= available) return@remember k
+                k *= available / n * 0.98f
+            }
+            k
+        }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(label, style = labelStyle.copy(fontSize = labelStyle.fontSize * k), maxLines = 1, softWrap = false)
             Spacer(Modifier.width(gap * k))
@@ -168,11 +176,13 @@ private fun ShortHours(label: String, colour: Color, against: List<Pair<String, 
 @Composable
 private fun HourStrip(tones: List<Tone>, nowMinute: Int?, modifier: Modifier = Modifier) {
     val measurer = rememberTextMeasurer()
-    val labelStyle = TextStyle(fontFamily = Figtree, fontSize = 10.sp, color = Palette.faint)
+    val labelStyle = TextStyle(fontFamily = Figtree, fontSize = 12.sp, color = Palette.faint)
     val description = stringResource(R.string.hours_strip_description)
+    // The bar, a gap, and the clock hours under it, as tall as they are set at the font scale.
+    val labelHeight = with(LocalDensity.current) { remember(this, labelStyle) { measurer.measure("05", labelStyle).size.height }.toDp() }
     Canvas(
         modifier
-            .height(26.dp)
+            .height(12.dp + labelHeight)
             .clearAndSetSemantics { contentDescription = description },
     ) {
         val gap = 2.dp.toPx()
