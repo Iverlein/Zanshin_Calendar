@@ -71,6 +71,12 @@ it, "of the karaṇas of the particular division", opens the four fixed
 ones. The first syllable of the fifth line is read དྲུག on the scan, as
 before, though its lower stroke is thick.
 
+**In the reading (2026-10-17, ROADMAP X6, block 45).** The common remedy
+is Viṣṭi's *Remedy* row: raise an image or a painted scroll of
+Vajrapāṇi, read the *Eight Appearances of Heaven and Earth* and make
+averting rites. The two halves' figures wait on question 145 for their
+vessels, and stay here.
+
 ### Open
 
 - Open question 145 ([open-questions.md](open-questions.md)).

@@ -1233,3 +1233,11 @@ the text, not about the app.
      is, or more than two, and is it counted over the house's members
      only (question 96)? (2026-10-15, block 29,
      [year-of-life.md](year-of-life.md), *The household's trigrams piled up*)
+
+159. **Sel ba's long reading, lines 1–3.** WB vol. 2, p. 347: «སེལ་བ་དགྲ་ལས་མིང་འདོགས་དང་། །མཐུན་འཇུག་དཔལ་དང་བཀྲ་ཤིས་དང་། །མཛའ་བཤེས་གཉེན་དང་འགྲོགས་པ་ངན། །ལམ་སེལ་རབ་གནས་ལྷ་གསོལ་དང་། །གཤགས་འདེབས་བློ་ཕུགས་གྲོགས་འདུན་བཟང་།».
+     The first three lines close on ངན and the next two on བཟང: are
+     naming, harmony, glory and good fortune and keeping company with
+     friends and kin what goes badly under sel ba, as the grammar reads,
+     where the app's reading had them good until 2026-10-17? And what is
+     «དགྲ་ལས» before «མིང་འདོགས»? (2026-10-17, block 45,
+     [yogas.md](yogas.md), *Long readings, in brief*)

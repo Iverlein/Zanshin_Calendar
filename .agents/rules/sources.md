@@ -45,7 +45,7 @@ paths:
   any reading; the old readings are brought to it by ROADMAP X3–X10.
   A row is a catalog entry `<reading>.<row>` (SPEC §8.2), never a
   sentence of the paragraph. `CatalogTest` holds the shape: rows only
-  of the thirteen (`ReadingRow`), the Russian with every row, no
+  of the sixteen (`ReadingRow`), the Russian with every row, no
   paragraph over 60 words, none of rule 8's and 9's words, and D7's
   one name and one bracket per Tibetan word across the catalog, the
   interface and the listing (`ReadingShape.kt`). Families not yet in

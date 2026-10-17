@@ -417,13 +417,13 @@ The gist of each, in our words:
 
 | # | WB | Gist of the long reading |
 | --- | --- | --- |
-| 1 | sel ba | naming, harmony, glory; clearing the way, consecration, offerings to the gods, confession, counsel with friends |
+| 1 | sel ba | (lines 1–3, ending ངན: naming, harmony, glory and good fortune, company with friends and kin; question 159) clearing the way, consecration, offerings to the gods, confession, counsel with friends |
 | 2 | mdza' bo | all work succeeds; pure, auspicious, pleasing work; music and celebration |
 | 3 | tshe ldan | glory and fame; people, wealth, cattle, strength; good for livelihood |
 | 4 | skal bzang | auspicious for travel; lasting wealth; long life, dharma and happiness grow |
 | 5 | bzang po | ornaments, song and dance; power from past merit; virtue grows |
 | 6 | rab stongs | good for entering bad ways, bad for bringing good to completion; good conduct, bad result |
-| 7 | las bzang | good for aspiration and setting out; friends, clothes, travel; defeating enemy forces, protection |
+| 7 | las bzang | good for aspiration and engagement (སྨོན་འཇུག་གཉིས); friends, clothes, travel; defeating enemy forces, protection |
 | 8 | 'dzin pa | removes afflictions; war, women, taking land and forts; raising treasure; fierce and powerful work |
 | 9 | gzer | bad for children, teachers, ornaments, clothes; war, thieves; the sick die; trouble from talk |
 | 10 | 'bras | the la and the span of life lost (བླ་ཚེ་ཤོར); seats of power lost to enemies |
@@ -444,3 +444,23 @@ The gist of each, in our words:
 | 25 | tshangs pa | glory and fame found; happiness and wealth |
 | 26 | dbang po | auspicious and meaningful; favour of the king; a garland of jewels found |
 | 27 | sha 'khon | retinue declines; fame and rule in danger; servants, children and goods decay; deeds end badly |
+
+**The readings in the shape (2026-10-17, ROADMAP X6, block 45).** Each
+reading opens on the yoga's tone and grows from the long reading above
+to 20 words at least, an image marked as one: rdo rje's «ནམ་མཁའི་ཐོག»,
+"the thunderbolt of the sky", yongs 'joms' death in prison, sha 'khon's
+meeting a woman friend. Taken from the long reading for the first time:
+tshe ldan's jewels and sons («རིན་ཅེན་བུ་ནོར»), skal bzang's lasting
+ornaments and jewels and the pleasing fruit of what was gathered, nges
+pa's glory of gods and men, dga' ba's glory, dngos grub's victory blazing
+with strength, dpa' bo's power in the dharma and the path and the city
+of liberation, grub pa's faith and aspiration and the lineage a treasure
+of life («རིགས་བརྒྱུད་ཚེ་ཡི་གངས་རིའི་གཏེར», the snow mountain left out),
+grub bya's happiness, dge ba's nature and the happiness of people,
+wealth and dharma, tshangs pa's rites of power and of long life («དབང་
+དང་ཚེ་སྒྲུབ་ལས་ལ་བཟང»), dbang po's wishes, wealth and the ministers'
+garland. Left in this file: sel ba's lines 1–3 (question 159), dpa' bo's
+«ཞལ་སྤྲོ་མཁས», the "son of …" heads of each long reading (kun brdungs
+"son of the blind" and the rest), whose meaning the text does not give.
+The avoided start is the *Avoid its start* row, the whole length the
+paragraph's first words.

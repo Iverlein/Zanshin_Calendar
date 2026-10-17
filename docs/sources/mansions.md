@@ -294,6 +294,18 @@ classes (unstable and changing; quick and changing); for Śatabhiṣaj
 Henning joins WB's "very stable" with "ephemeral", for Uttarabhādrapadā
 "quick change" with "permanent", so each of those two reads against
 itself. Henning's other halves match the Indian classes, where Śatabhiṣaj
-is movable and Uttarabhādrapadā fixed. The app keeps Henning's line and
-adds WB's class to the readings of Śatabhiṣaj, Uttarabhādrapadā and
-Revatī; Abhijit is not a day's mansion in the Phugpa calendar.
+is movable and Uttarabhādrapadā fixed. Abhijit is not a day's mansion in
+the Phugpa calendar.
+
+**In the readings (2026-10-17, ROADMAP X6, block 45).** Every mansion's
+reading opens with its place among the seven classes ("one of the four
+very stable mansions"), then Henning's nature and kind of work; Bharaṇī,
+in no class of the print (the editors' note above), keeps Henning's line
+alone. For Śatabhiṣaj, Uttarabhādrapadā and Revatī WB's class stands
+alone, with what the class is good for, and Henning's line, which added
+to WB's class until then, is left here: Śatabhiṣaj "suited to temporary
+works; its nature very stable and ephemeral", Uttarabhādrapadā "suited
+to coronations, sowing and other lasting works; its nature quickly
+changing and permanent", Revatī "suited to love, making friends,
+ornaments and marriage; its nature quickly good, mild and tender". The
+mansion's planet and foods are rows.

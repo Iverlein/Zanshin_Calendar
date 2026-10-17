@@ -99,7 +99,7 @@ moves up as soon as it is unblocked.
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days — built 2026-10-16 | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
-| <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
+| <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions — built 2026-10-17 | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
@@ -166,6 +166,7 @@ written down as a dead end (sources/PLAN.md).
 | <a id="o8"></a>O8 | The date animal's earth lords, by machine with witnesses, not by eye syllable by syllable — done 2026-10-12 (pp. 223–226 read by eye on the scan, with the Gser thang reprint at 1905 px and WBZ for the doubtful stacks; every seat, hearth god and witness stands; for a build ([T2.28](#t2-28), block [50](#block-50)), the horse day's witness adds "on the journey with the corpse no horse, the funeral door and the horse's back avoided" in earth-lords.md, *O8: what the reading by eye changes*; the chief earth lord's forms and remedy and the other remedies quoted in full; questions 120–125) | [earth-lords.md](sources/earth-lords.md) | T2 |
 | <a id="o9"></a>O9 | The four times of Māra's manual — done 2026-10-13: three manuals read on the scan (Rin chen gter mdzod vol. 54 p. 235, Sgrub thabs kun btus vol. 8 p. 698, Gdams ngag mdzod vol. 2 pp. 121–122): the four are midnight, noon and the rays of the rising and setting sun, moments not spans; the Red Tārā manual makes them the breaks between sessions; questions 126–131 | [weighing.md](sources/weighing.md) | [T2.4](#t2-4) |
 | <a id="o10"></a>O10 | Topic files that give a passage in English only, or only its first lines — done 2026-10-14: the Tibetan of every passage read written out, checked on the scan (the owner, 2026-10-11; [sources/PLAN.md](sources/PLAN.md), *The knowledge pool*), file by file — begun 2026-10-13 in four parts, stopped at the usage budget: **done** yogas, lunar-dates, nectar-periods, karanas, lunar-day-signs (the goddesses), mansions, mansion-verses (all 28 verses whole), kun-phan-me-long, almanac-page (WB vol. 1 pp. 173–182 whole), year-of-life, reckonings (its outlines stay outlines); great-black-day needs nothing; resumed 2026-10-14 in three parts e–g: **done** (O10e, 2026-10-14) combinations (the table pp. 148–149 typed), rahu (KP's chart img. 78, its numeral square open, question 148), combination-period (Capricorn's good list, for a build in [T2.28](#t2-28)), burning-dates, day-letters, personal-mansions, hair-dates, day-animals; **done** (O10g, 2026-10-14) marriage (the match pp. 351–364 whole, the notes pp. 523–525), month-entries (the 65-year table whole; Kikang's time doubtful, D13 in [T2.28](#t2-28)), health, year-month-earth-lords; **done** (O10f, 2026-10-14) kp-activities (every box's Tibetan, the differences for a build in [T2.28](#t2-28)), white-beryl-ch33 (an inventory, nothing to write out), earth-lord-courses, earth-lords, tibetastromed, white-beryl-ch34 (works 51–65 machine reading), sri; questions 139–157; for the owner ([T2.28](#t2-28), D11): lunar date 6's "no further children" rests on a «མེད» the scan does not print, date 1 reads «ལམ་ཞུགས་རྟེན», date 3 «གང་བསྟུད» (questions 141–143) | [sources/README.md](sources/README.md)'s index | all |
+| <a id="o11"></a>O11 | Open question 159: whether sel ba's long reading puts naming, harmony, glory and the company of friends among what goes badly (its lines 1–3 close on «ངན»); left out of the reading until it is read | [yogas.md](sources/yogas.md), [open-questions.md](sources/open-questions.md) | [45](#block-45) |
 
 ## 旧暦 page
 
@@ -2512,7 +2513,7 @@ X, so that the owner reads the wording once. The blocks are
   of union and the day to avoid entirely). No store shot shows these
   sheets.
 
-#### <a id="x6"></a>X6 The yogas, the karaṇa and the mansions
+#### <a id="x6"></a>X6 The yogas, the karaṇa and the mansions — built 2026-10-17
 
 - **Gap.** A yoga opens with its verse's headword as the ruling ("Death
   in prison.", "Middling: leprosy breaks out.") and ends with the hours
@@ -2530,6 +2531,38 @@ X, so that the owner reads the wording once. The blocks are
 - **Done when.** The 27, 28 and 1 with their Russian; Parigha and Hasta
   on the emulator in both languages; `CatalogTest` without the
   families' allowance.
+- **Built** (2026-10-17). *Yogas*: each opens on its tone, "A lucky
+  yoga: …", "A mixed yoga: …", the three of the avoidance verse's whole
+  length "An unlucky yoga, avoided for its whole length: …", and grows
+  from the long reading (yogas.md, *The readings in the shape*) to 20–40
+  words, a headword that is an image marked as one ("its image is death
+  in prison", rdo rje's "thunderbolt of the sky"); the six avoided at
+  their start have it as an *Avoid its start* row ("the first nine
+  chutsö (ཆུ་ཚོད, chu tshod), 3 h 36 min"). Sel ba's "naming, harmony and
+  glory" left the reading: in the long reading they stand in the lines
+  that close on «ངན» (question 159); las bzang's «སྨོན་འཇུག» is aspiration
+  and engagement, no longer setting out. *Mansions*: no family note; the
+  paragraph is the mansion's place among WB's seven classes with
+  Henning's nature and kind of work ("Hasta is one of the four unstable
+  and changing mansions, light and swift in nature: trade, love, the
+  fine arts and the like go well"), WB's class alone for Śatabhiṣaj,
+  Uttarabhādrapadā and Revatī (no other view, SPEC §8.1 rule 6; Henning's
+  lines in mansions.md), Bharaṇī with Henning's line alone; *Planet* and
+  *Foods* rows. How the lists are joined, which the note told in the app's
+  words, is the sheet's note under the gloss (`tib_mansion_lists_note`,
+  a new `Annotation.note`). *Karaṇa*: Viṣṭi's ruling, with its common
+  remedy (karanas.md) as a *Remedy* row; the halves' figures wait on
+  question 145. *Electional*: the family note and its four texts, which
+  no sheet showed and which said the app does not count the rising sign
+  (untrue since E4), are gone; the lists keep a key with no text, as the
+  karaṇas' lists-only readings do. `ReadingRow` gains AVOID_START, PLANET
+  and FOODS (SPEC §8.1 rule 3, §10.3); X6's allowance line is deleted.
+- **Checked.** `:core:test`, `:app:testDebugUnitTest`; on the emulator in
+  English and Russian, Viṣṭi and Śūla on 2026-10-22, Vyāghāta and Revatī
+  on 2026-10-26, Parigha on 2026-10-31, Hasta and Vaidhṛti on
+  2026-11-07, the rows in their place and the label column holding
+  "Avoid its start" and «Избегать начала». No store shot shows these
+  sheets.
 
 #### <a id="x7"></a>X7 The earth lords, Rāhu and the month's entries
 

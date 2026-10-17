@@ -624,8 +624,11 @@ Henning's list of natures joins two systems for two mansions (Śatabhiṣaj
 follows the Indian classes for Revatī; the White Beryl's own seven classes
 (vol. 2, pp. 328–329, [sources/mansions.md](sources/mansions.md)) put
 Śatabhiṣaj among the very stable, Uttarabhādrapadā among the quick and
-good, Revatī among the unstable and changing, and those three readings add
-WB's class after Henning's line.
+good, Revatī among the unstable and changing. Each mansion's reading opens
+with its place among WB's classes, then Henning's nature and kind of work
+(ROADMAP X6); for those three WB's class stands alone, with what the class
+is good for, and Henning's line stays in the topic file; Bharaṇī, which
+the print puts in no class, keeps Henning's line alone.
 A mansion's reading joins its White Beryl verse's lists, first, with what
 the list of mansions names it good for and the activity lists' good and
 bad, and cites the White Beryl and the print beside Henning; where they
@@ -1710,12 +1713,14 @@ the same way.
    the sheet's lists repeat under it, and never explains a mechanism.
 3. **Every other fact is a row**, a label and a value, in this order and
    with these labels and no others: *Also called* · *Strong when* ·
-   *Setting out* · *Rank* · *Remedy* · *Spirits that harm* · *Illness* ·
-   *Rites* · *La today* · *A birth today* · *A death today* · *Livestock*
-   · *How it falls*. A row is a phrase or one sentence;
+   *Avoid its start* · *Setting out* · *Rank* · *Remedy* · *Spirits that
+   harm* · *Illness* · *Rites* · *La today* · *A birth today* · *A death
+   today* · *Livestock* · *Planet* · *Foods* · *How it falls*
+   (*Avoid its start*, a yoga's first chutsö, and a mansion's *Planet*
+   and *Foods* joined with ROADMAP X6). A row is a phrase or one sentence;
    it holds names and brackets well, where a sentence does not. The
    omens (*A birth today*, *A death today*, *Livestock*, the planet's
-   caste and colour under *Also called*, a mansion's planet and foods)
+   caste and colour under *Also called*, a mansion's *Planet* and *Foods*)
    stay: they are the source's content, kept as the last rows and never
    in the paragraph (D6). Each row is a catalog entry of its own,
    `<reading>.<row>` (§8.2), shown in the sheet's label column (§10.3);
@@ -1755,7 +1760,8 @@ the same way.
    lists", "the day in brief", "shown and not weighed", "with a birth date
    set". A reading states what its source says; what the app does with it
    is a note in `strings.xml` under the gloss (`brief_outweighed_note`,
-   `brief_avoid_all_note`, `tib_earth_lords_note`).
+   `brief_avoid_all_note`, `tib_earth_lords_note`, and the mansion's
+   `tib_mansion_lists_note` on how its lists are joined).
 9. **No editor's notes.** "Not identified", "the print spells", "the two
    rendered word for word", "some say" go to the topic file in
    `docs/sources/`, with the Tibetan, and to ROADMAP's *Left open* table
@@ -1787,7 +1793,7 @@ the same way.
     the head of `texts_ru.properties`.
 
 `CatalogTest` holds what of the rules a test can see (ROADMAP X2, built
-2026-10-11): every row key one of the thirteen; the Russian with every
+2026-10-11): every row key one of the sixteen; the Russian with every
 row the English has; no paragraph over 60 words (a Tibetan bracket adds
 none, a {0} counts one) and none under 20, measured as the sheet shows
 it, a family's note filled with the entry's own text; none of rule 8's and 9's words in a reading
@@ -2478,16 +2484,19 @@ canvas "Zanshin Calendar — basic design".
   built 2026-10-11): a row opens its reading in a bottom sheet, a band in
   its tone at the top, and the sheet runs in the reader's order: the title
   and the gloss with the tone, under them the decides note or the
-  outweighed note (`brief_outweighed_note`) and the "Tibetan" line, a
+  outweighed note (`brief_outweighed_note`), the entry's own note where
+  it has one (the mansion's, how its lists are joined,
+  `tib_mansion_lists_note`), and the "Tibetan" line, a
   diagram where the entry has one; then the paragraph, the ruling; the
   "Good for" and "Avoid" lists; the reading's rows in their fixed order,
-  *Also called* · *Strong when* · *Setting out* · *Rank* · *Remedy* ·
-  *Spirits that harm* · *Illness* · *Rites* · *La today* · *A birth today*
-  · *A death today* · *Livestock* · *How it falls*, each
+  *Also called* · *Strong when* · *Avoid its start* · *Setting out* ·
+  *Rank* · *Remedy* · *Spirits that harm* · *Illness* · *Rites* · *La
+  today* · *A birth today* · *A death today* · *Livestock* · *Planet* ·
+  *Foods* · *How it falls*, each
   shown only where the catalog has it; and last the app's workings rows,
   how the entry was counted (the hair date, Viṣṭi's span, the pebbles'
   count). Rows and workings share one label column, as wide as the
-  longest of the thirteen labels in the shown language on one line at the
+  longest of the sixteen labels in the shown language on one line at the
   phone's font scale, never under 112 dp and at most half the
   sheet, where a longer workings label wraps; the "Tibetan" line keeps the
   same column. A sheet of several parts (the combination, the special
