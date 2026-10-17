@@ -313,6 +313,7 @@ fun TibetanPage(
         }
         val mansionSubtitle = stringResource(R.string.tib_mansion_subtitle, day.mansion.english)
         val yogaSubtitle = stringResource(R.string.tib_yoga_subtitle, day.yoga.english)
+        val mansionListsNote = stringResource(R.string.tib_mansion_lists_note)
         val personalMansionSubtitle = stringResource(R.string.tib_personal_mansion_subtitle, day.mansion.sanskrit)
         val forBirthDate = stringResource(R.string.tib_for_birth_date)
         val forLifeForce = info.ownElement?.let { stringResource(R.string.tib_for_life_force, gloss(it, "inText")) }.orEmpty()
@@ -581,6 +582,7 @@ fun TibetanPage(
                     titleIsKanji = false,
                     tibetan = day.mansion.wylie to day.mansion.english,
                     details = secondMansions.map { secondMansionLabel to detailFrom(Ewts.named(it.what.english, it.what.wylie), timeOf(it.at)) },
+                    note = mansionListsNote,
                     glyphs = { MansionRing(day.mansion, 24.dp, small = true) },
                     diagram = { DiagramFrame { MansionRing(day.mansion, 280.dp) } },
                 ),

@@ -181,6 +181,8 @@ data class Annotation(
      * its sheet says its lists still decide the works they name; only the deciding voice's dot is solid.
      */
     val outline: Boolean = false,
+    /** How the app reads the entry, under the gloss: what a reading itself may not say (SPEC §8.1, rule 8). */
+    val note: String? = null,
 )
 
 /**
@@ -324,6 +326,7 @@ private fun ReadingBody(a: Annotation, large: Boolean, onElect: ((Activity) -> U
             val gloss = if (a.english.isBlank()) toneLabel(a.tone).replaceFirstChar(Char::uppercase) else stringResource(R.string.sheet_gloss_tone, a.english, toneLabel(a.tone))
             Text(withTibetan(gloss), style = body.copy(color = Palette.muted, lineHeight = 22.sp))
             DecidesNote(a)
+            a.note?.let { Text(withTibetan(it), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp, color = Palette.muted)) }
             a.tibetan?.let { (wylie, english) ->
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text(

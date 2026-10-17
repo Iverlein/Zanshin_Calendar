@@ -104,6 +104,8 @@
     <string name="tib_your_weekday_note">What this weekday is for you, by the animal of your birth year, by its life force and by your birth date. Each has its own reading; no text found weighs them against each other or against the day.</string>
     <!-- the yoga's English name: "yoga: support" -->
     <string name="tib_yoga_subtitle">yoga: %1$s</string>
+    <!-- Under the mansion sheet's gloss (ROADMAP X6): how its lists are joined, which the reading itself does not say (SPEC §8.1, rule 8) -->
+    <string name="tib_mansion_lists_note">The lists give the mansion\'s own verse first, then the list of mansions and the activity lists. Where they disagree, both stand, and the mansion says nothing on that work in the day in brief. Works not named are neutral.</string>
     <!-- the weekday's reading row, by its planet: "planet: Saturn" -->
     <string name="tib_weekday_subtitle">planet: %1$s</string>
     <string name="tib_trigram_subtitle">goddess of the %1$s day</string>
