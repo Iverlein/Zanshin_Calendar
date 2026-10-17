@@ -74,6 +74,8 @@ class TextsTest {
 
         for (r in all) {
             for (s in listOf(r.source) + r.also) assertTrue(s.url.startsWith("http"), "source of \"${r.summary}\"")
+            // The activity lists of a factor they do not name hold nothing; the weighing reads them, no sheet shows them.
+            if (r.key.startsWith("reading.Electional.")) continue
             assertTrue(r.summary.isNotBlank() || r.good.isNotEmpty() || r.avoid.isNotEmpty(), "empty reading from ${r.source.title}")
         }
     }

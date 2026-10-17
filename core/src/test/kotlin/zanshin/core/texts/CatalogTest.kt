@@ -490,7 +490,6 @@ class CatalogTest {
         val ALLOWANCE: Map<String, Int> = mapOf(
             "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
             "X4" to 24, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
-            "X6" to 40, // the yogas, the karaṇa and the mansions (block 45); 34 under 20 words
             "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
             "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 22, // the hours panel (block 48)

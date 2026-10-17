@@ -82,6 +82,7 @@ data class Source(val title: String, val publisher: String, val url: String)
 enum class ReadingRow(val key: String) {
     ALSO_CALLED("also_called"),
     STRONG("strong"),
+    AVOID_START("avoid_start"),
     SETTING_OUT("setting_out"),
     RANK("rank"),
     REMEDY("remedy"),
@@ -92,6 +93,8 @@ enum class ReadingRow(val key: String) {
     BIRTH("birth"),
     DEATH("death"),
     LIVESTOCK("livestock"),
+    PLANET("planet"),
+    FOODS("foods"),
     FALLS("falls"),
     ;
 
@@ -636,9 +639,12 @@ object Texts {
     }
 
     /**
-     * The lunar mansion: its kind of work, nature, planet and foods, and what the
-     * White Beryl's verse on it, the list of mansions and the activity lists name
-     * it good or bad for, the verse first (SPEC §5.10).
+     * The lunar mansion: its kind of work and nature, its planet and foods as
+     * rows, and what the White Beryl's verse on it, the list of mansions and the
+     * activity lists name it good or bad for, the verse first (SPEC §5.10).
+     * Where the White Beryl's seven classes put a mansion otherwise than
+     * Henning's line (Śatabhiṣaj, Uttarabhādrapadā, Revatī), its class is the
+     * reading (docs/sources/mansions.md).
      */
     val MANSION: Map<Mansion, Reading> = Mansion.entries.associateWith { m ->
         val (verseGood, verseAvoid) = MansionVerses.LISTS.getValue(m)
@@ -647,14 +653,14 @@ object Texts {
             avoidKeys = (verseAvoid + Electional.bad { m in it.mansions }).distinct(),
             source = Sources.HENNING_ELECTIONAL,
             also = listOf(Sources.WHITE_BERYL_MANSION_VERSES, Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_WORKS, Sources.WHITE_BERYL_MANSION_CLASSES),
-            key = "reading.Mansion",
-            arg = "reading.${glossKey(m)}",
+            key = "reading.${glossKey(m)}",
         )
     }
 
     /**
-     * The yoga: the White Beryl's short reading, the gist of its longer verse,
-     * and whether its avoidance verse names it (docs/sources/yogas.md).
+     * The yoga: the White Beryl's short reading and the gist of its longer
+     * verse, and what its avoidance verse says of it, its whole length or its
+     * start as a row (docs/sources/yogas.md).
      */
     val YOGA: Map<Yoga, Reading> = keyed(*Yoga.entries.map { it to Reading(source = Sources.WHITE_BERYL_YOGAS) }.toTypedArray())
 
@@ -676,7 +682,7 @@ object Texts {
 
     /**
      * The karaṇa: what the White Beryl's verse on it names good, and for Viṣṭi
-     * what to avoid (docs/sources/karanas.md).
+     * what to avoid and its common remedy (docs/sources/karanas.md).
      */
     val KARANA: Map<Karana, Reading> = keyed(
         Karana.VAVA to Reading(goodKeys = listOf("virtue", "lasting_work", "work_on_the_move", "increasing_rites", "preparing_medicine", "dharma_practice", "reciting_mantras"), source = Sources.WHITE_BERYL_KARANAS),
@@ -823,10 +829,11 @@ object Texts {
         else -> Tone.GOOD
     }
 
+    /** The activity lists of one factor: lists only, which the weighing reads, with no text of their own. */
     private fun electional(arg: String, good: List<String>, bad: List<String>) =
         Reading(
             goodKeys = good, avoidKeys = bad, source = Sources.KUN_PHAN_ME_LONG, also = listOf(Sources.WHITE_BERYL_WORKS, Sources.HENNING_ELECTIONAL),
-            key = "reading.Electional", arg = "reading.Electional.$arg",
+            key = "reading.Electional.$arg",
         )
 
     /**
@@ -871,7 +878,7 @@ object Texts {
             avoidKeys = avoidKeys,
             source = Sources.WHITE_BERYL_DAY_ANIMALS,
             also = listOf(Sources.KUN_PHAN_ME_LONG, Sources.WHITE_BERYL_WORKS, Sources.HENNING_ELECTIONAL),
-            key = "reading.Electional", arg = "reading.Electional.animal",
+            key = "reading.Electional.animal",
         )
     }
     /**
