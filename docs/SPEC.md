@@ -234,7 +234,7 @@ day by day against Henning's computed calendars (§9):
 | Hair-cutting day | by lunar day, from Lama Zopa Rinpoche's translation (FPMT, 2008); FPMT's list, not the White Beryl's, which gives no haircut results by date (ROADMAP T2.15); the sheet opens on the result and whether the date goes well or badly for a haircut, sixteen good, fourteen to avoid (X10) |
 | Washing the hair | the White Beryl's thirty hair dates (vol. 2, p. 404): what washing the hair on each date brings, a detail of the lunar date's reading; the good and bad dates that follow them are the list of KP box 37, whose worn bad line they fill (the 27th on neither side; `ElectionalTest`, [sources/hair-dates.md](sources/hair-dates.md)) |
 | Monthly observances | 8th, 10th, 15th (Sojong), 25th, 30th (Sojong), after Edition Rabten |
-| Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table); needs a birth date (§10.5) |
+| Personal day | luck, life or anti weekday for the animal of the birth year (Rabten's table), which are WB vol. 2, p. 330's la, life-force and slayer weekdays (*bla gza'*, *srog gza'*, *gshed gza'*), all 36 alike ([sources/personal-mansions.md](sources/personal-mansions.md)); the readings join Rabten's words to p. 330's (the la weekday's activities at its strong time, the life-force weekday virtuous, the slayer weekday avoided, and forceful rites quick when one's slayer weekday is strong and an enemy's la weekday weak; ROADMAP X8); needs a birth date (§10.5) |
 | Personal mansions | whether the day's mansion is one of the six of the birth-year animal (bla, srog, dbang, skeg, bdud, gshed skar): the White Beryl, vol. 2, p. 330 (1996), its slips settled by the Sakya *nor bu'i me long* (p. 64) and Nam mkha' seng ge's *skar yig*, which print the same table ([sources/personal-mansions.md](sources/personal-mansions.md)); bla, srog and dbang skar lucky, the other three unlucky, as both texts call them; needs a birth date |
 | Own days by the birth date | WB vol. 2, p. 338 (`ownDays`, ROADMAP T2.19): the birth weekday (the weekday of the birth date, p. 379); the weekday's place among the five of one's element, counted from the birth year's life force (*srog*), which p. 330 says is reckoned as the clan's element is: own (*rang gza'*, WB's *bla* and *dbang gza'* too, not the birth animal's *bla gza'*), mother, friend, child, enemy by the elements' relations, as the table of p. 346 gives them (`elementWeekday`), the weekdays' elements those of the *nag rtsis* (vol. 1, p. 257: Sun and Mars fire, Moon and Mercury water, Jupiter wood, Venus iron, Saturn earth); and the birth mansion, the almanac's mansion of the birth date (Phug pa Lhun grub rgya mtsho's coarse reckoning; no hour is asked). Birth and own weekday lucky with p. 338's works (battle array, contests of skill, pleading a case, trade, trials of strength, dice, horse races, archery, works that stir up strife); mother and friend lucky, anything good (p. 330); child no dot, middling (p. 330); enemy unlucky, every work avoided (p. 338); birth mansion lucky with p. 338's works. The mansion of conception (no source defines it) is not built ([sources/personal-mansions.md](sources/personal-mansions.md)); needs a birth date |
 | The element's mansions | WB vol. 2, p. 330, with the tables pp. 345–346 (`Health.quarter`, ROADMAP H1): the day's mansion as a quarter of the element of the birth year's life force, counted as the weekdays are: the six eastern mansions from Kṛttikā (2–7) wood, the six southern (9–14) fire, the six western (16–21) iron, the six northern (22–26 and Aśvinī) water, the four between (Bharaṇī, Āśleṣā, Viśākhā and Abhijit) earth; own (good for anything), mother and friend (good), child (middling, no dot), enemy (no reading of its own, no dot; "every work avoided" is the enemy weekday's, p. 338). The tables print 21 both among the western six and among earth's four; WB vol. 1, p. 232 ends the western six with Śravaṇa and names Abhijit among the four, so a day in Śravaṇa is iron's and earth's fourth falls on no day. The great and small grave mansions of each element, all among earth's four (wood Viśākhā and Bharaṇī, fire Abhijit and Āśleṣā, earth Āśleṣā and Abhijit, iron Bharaṇī and Viśākhā, water Āśleṣā and Abhijit), are reckoned for the dead and have no reading for the living's day; shown on the Health screen (§10.10), not weighed; needs a birth date |
@@ -1763,8 +1763,11 @@ the same way.
    lists", "the day in brief", "shown and not weighed", "with a birth date
    set". A reading states what its source says; what the app does with it
    is a note in `strings.xml` under the gloss (`brief_outweighed_note`,
-   `brief_avoid_all_note`, `tib_earth_lords_note`, and the mansion's
-   `tib_mansion_lists_note` on how its lists are joined).
+   `brief_avoid_all_note`, `tib_earth_lords_note`, the mansion's
+   `tib_mansion_lists_note` on how its lists are joined, the birth
+   mansion's `tib_birth_mansion_note` and the pebbles' `pebble_note` on
+   what is set against what, by which clock, and what the app leaves
+   out).
 9. **No editor's notes.** "Not identified", "the print spells", "the two
    rendered word for word", "some say" go to the topic file in
    `docs/sources/`, with the Tibetan, and to ROADMAP's *Left open* table
@@ -1983,7 +1986,7 @@ name both. Sewing tents is a third, beside pitching them.
 | O-Bon by the Gregorian date | Japanese Wikipedia お盆 |
 | Hair-cutting days | *From the Sutra Chapter of Bodhisattva's Hair*, tr. Lama Zopa Rinpoche, FPMT 2008 |
 | Washing the hair by date | The White Beryl, vol. 2, p. 404 (BDRC MW2CZ8040) |
-| Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details |
+| Element pairs, observances, festivals, personal days | Edition Rabten, *Tibetan Calendar 2026*; Henning's archive and symbolic details; the personal days with the White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040) |
 | Personal mansions | The White Beryl, vol. 2, p. 330 (BDRC MW2CZ8040), with the Sakya *'bras rtsis rab gsal nor bu'i me long*, p. 64 (BDRC MW29978_8B19DD) |
 | Own days by the birth date | The White Beryl, vol. 2, pp. 312, 330, 337–338 and 345–346 (BDRC MW2CZ8040); the birth mansion after Phug pa Lhun grub rgya mtsho's commentary on the *dbyangs 'char*, ch. 3 (BDRC MW1NLM5184) |
 | Lunar mansions, activity lists | Henning, *Horary and electional astrology of the five components*, after the White Beryl, the *Treasury of Jewels* and the *'bras rtsis bai dkar dgongs don kun phan me long*; his doubled mansions read on that print (BDRC W4CZ65561); the White Beryl's seven classes of mansions, vol. 2, pp. 328–329, and its chapter 34, the works one by one, pp. 378–428 (BDRC MW2CZ8040) |
@@ -2392,13 +2395,18 @@ canvas "Zanshin Calendar — basic design".
   birth date set, a row "Hundred feet (རྐང་བརྒྱ, rkang brgya)" on the
   days a fang is on the birth mansion or malefics hold it, the place of
   work and the 23rd at once; its second line names the bodies ("Sun"),
-  its sheet the day's result, the reading, the birth mansion, the fangs
-  on it and the holders struck, each with the bodies. The holders alone
+  its sheet the day's result as its reading (ROADMAP X8: the result first,
+  the family's note naming the malefics and benefics, the wheel as the
+  *How it falls* row), the birth mansion, the fangs on it and the holders
+  struck, each with the bodies and what a malefic there brings ("Mars:
+  epidemics and grave illness", `Holder.<NAME>.struck`). The holders alone
   raise no row: they are struck on 68% of days in 2020–2029, for two
   weeks at a time. In "Also today", the spear or great spear on its day,
   unlucky, its second line the bodies, its sheet the reading with every
-  work and a bride to avoid, the face-on's bodies and the moon's mansion.
-  Both shown, not weighed.
+  work and a bride to avoid, then what each body's spear brings a bride,
+  one sentence per body (`Texts.spear`; never more than three bodies in
+  1950–2100), the *Setting out* and *A birth today* rows, the face-on's
+  bodies and the moon's mansion. Both shown, not weighed.
 - **Short rows** (the owner, 2026-10-10: "do not bloat the screen"): a
   row's second line says only what it is; the rest is in its sheet. The
   *bla mkhyen* row gives the direction alone (its sme ba in the sheet),
@@ -2459,7 +2467,9 @@ canvas "Zanshin Calendar — basic design".
   year, earth"), one row with each one's dot where there are two or more,
   titled "Your weekday" with their names under it, its sheet giving each
   reading in turn; the personal mansions (on the days the mansion is one
-  of one's six) and the birth mansion; the hundred feet. Last a row
+  of one's six) and the birth mansion, whose sheet says under the gloss
+  that it is the almanac's mansion of the birth date, the hour of birth
+  not asked (`tib_birth_mansion_note`); the hundred feet. Last a row
   "Health" that opens the Health screen on the day (§10.10), where the
   vitality and body of the date stand since ROADMAP H1 (2026-10-15).
 - **Also today:** after Your day, what the day holds that the weighing

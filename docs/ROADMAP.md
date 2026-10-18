@@ -37,7 +37,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget — built 2026-10-16 | M | A widget in two sizes with the day's tone, its reason and the hours, plain RemoteViews rather than Glance; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
-| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16; X6, block 45, 2026-10-17; X7 and X8, blocks 46 and 47, 2026-10-18); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
@@ -101,7 +101,7 @@ moves up as soon as it is unblocked.
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days — built 2026-10-16 | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions — built 2026-10-17 | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries — built 2026-10-18 | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
-| <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
+| <a id="block-47"></a>47 | [X8](#x8) Your day — built 2026-10-18 | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
@@ -2678,7 +2678,7 @@ X, so that the owner reads the wording once. The blocks are
   nyen's two lines, the sky door, the sky dog), Rāhu's *Through the day*
   and the dog day's earth lord. No store shot shows these sheets.
 
-#### <a id="x8"></a>X8 Your day
+#### <a id="x8"></a>X8 Your day — built 2026-10-18
 
 - **Gap.** "One of your six personal mansions, by the animal of your
   birth year" opens all six; two readings end in the app's mechanics
@@ -2695,6 +2695,50 @@ X, so that the owner reads the wording once. The blocks are
 - **Done when.** The 29 with their Russian; Your day on the enemy
   weekday and on a hundred-feet day on the emulator in both languages;
   `CatalogTest` without the families' allowance.
+- **Built** (2026-10-18). Every reading opens on the shown day ("Today is
+  your …", "Today the moon is in your …") and says which way it cuts in
+  rule 6's words, 20–60 words as the sheet shows it in both languages.
+  *Personal days*: Rabten's 15-word sentences grown from WB vol. 2,
+  p. 330, whose la, life-force and slayer weekdays (*bla*, *srog*, *gshed
+  gza'*) are Rabten's luck, life and anti days cell for cell
+  (personal-mansions.md): the la weekday's activities at its strong time,
+  the life-force weekday virtuous, the slayer weekday avoided, and
+  forceful rites quick when one's slayer weekday is strong and an
+  enemy's la weekday weak; WB is now each one's `also` source. *Personal
+  mansions*: the family sentence is the note (`reading.PersonalMansion`,
+  "It is one of the six personal mansions of your birth year's animal");
+  the la, power and slayer mansions' births are *A birth today* rows,
+  worded for the child whose own mansion it is; "the Sakya manual calls
+  it" left the reading (U7); the death mansion bracketed *'chi ba'i skar
+  ma* as the brief's note brackets it (D7). *Own days*: each weekday named
+  with its bracket (*skyes*, *rang*, *ma*, *grogs*, *bu*, *dgra gza'*), "those
+  listed here" and the brief's mechanics out (left to
+  `brief_avoid_all_note`), the own weekday's other names an *Also called*
+  row; the birth mansion's "which the app does not make" became the
+  sheet's note `tib_birth_mansion_note`. *Kinship*: the 118-word note,
+  which described the app's screens, became the pebble sheets' note
+  `pebble_note` (strings.xml) and a family note of eight words ("The
+  other aspects read as the vitality does"); best, second and worst are
+  *Rank* rows. *Hundred feet*: the day's result first, the note naming the
+  malefics and benefics, the wheel as the note's *How it falls* row (the
+  rule that marks it, as X7's eclipses), the six places' results on the
+  sheet's holder rows ("Mars: epidemics and grave illness",
+  `Holder.<NAME>.struck`); the benefics' result says "one or two", as the
+  engine counts it. *Spear and great spear*: the note gives the ruling and
+  the day's omens, then each body's line for a bride
+  (`reading.Spear.<BODY>`, `reading.GreatSpear.<BODY>`, joined by
+  `Texts.spear`); *Setting out* and *A birth today* rows. No side, tone or
+  list changed. X8's allowance line is deleted.
+- **Checked.** `:core:test` and `:app:testDebugUnitTest`; at most three
+  bodies make a spear on any day of 1950–2100 (all four malefics would be
+  63 words, three at most 56). On the emulator, English and Russian, the
+  test person (1976-06-01): 18 Oct 2026 (Your weekday: luck day and mother
+  weekday; hundred feet, aims fail; spear of Venus), 5 Nov (anti day and
+  enemy weekday; slayer mansion), 7 Nov (hundred feet with Conception
+  struck by Mars), 14 Nov (spear of Mercury and Venus), 1 Nov (birth
+  mansion with its note; great spear of Saturn), 12 Nov (power mansion),
+  and the Health screen's vitality pebbles with `pebble_note`. No store
+  shot shows these sheets.
 
 #### <a id="x9"></a>X9 The hours panel
 
