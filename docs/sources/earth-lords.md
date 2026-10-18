@@ -448,9 +448,36 @@ chief earth lord's forms and remedy (pp. 223–224), the seats' closing
 remedy (p. 224) and the hearth god's remedy (p. 225), are not used by the
 day's reading.
 
+**Read in the dictionaries, 2026-10-18 (questions 120–124).** Steinert's
+collection of 64 dictionaries settles five words of pp. 223–225 and leaves
+four:
+
+- «སྒོ་ཕྱུགས» (the tiger day): the livestock kept at the door of a village
+  house (Tshig mdzod chen mo, «ཡུལ་པའི་སྒོ་རྩར་བསྟེན་པའི་ཕྱུགས་རིགས»), draught and
+  domestic cattle. The line's fourth way: the door's cattle are put to the
+  right. Not a misprint.
+- «བང་ཕྱིན» (the horse day): a messenger, one who carries word (Dung dkar
+  tshig mdzod chen mo and Brda dkrol gser gyi me long, «ཕོ་ཉའམ་གཏམ་སྐྱེལ་མཁན»; Dan
+  Martin); «རྟ་ཐོག», horseback. Read so, the witness line «མི་ཤི་ཟློས་འབྱུང་བང་ཕྱིན་ནི། །རྟས་སྤང་ཤིད་སྒོ་རྟ་ཐོག་འཛེམ།།»
+  says a death repeats, the messenger does not go by horse, and the funeral
+  door and horseback are avoided. **For the owner:** the built
+  `reading.EarthLord.HORSE.death` has "on the journey with the corpse no
+  horse is used", from the reading of 2026-10-12. «ཤ་ཆིངས» is in no dictionary.
+- «དོང་ཙེ», a coin, the old copper coin (a word from Chinese); «ངར་ཟན», the
+  dough of a *ngar glud* ransom (Jim Valby); «སྡོང་པོ་རྒྱན་པ», recited with the
+  *Snang brgyad* and the *Gtsug tor*, most likely the dhāraṇī *Sdong po rgyan
+  gyi mchog* (Toh 1066). «སྤོམ་གཏའ» is in no dictionary.
+- «མི་ཧྲེང», a lone man (Tshig mdzod chen mo, «ཟླ་གྲོགས་མེད་པའི་མི»): the screen is
+  a lone man holding a spear. «གཏོང་ཤེས» is not identified.
+- «སྤང་སྐོང», the *Spang skong phyag brgya pa*, the sutra of a hundred
+  homages for mending breaches, taught for taming the nāgas and among the
+  texts that came in Lha tho tho ri gnyan btsan's time (Tshig mdzod chen
+  mo, Dung dkar tshig mdzod chen mo).
+
 ### Open
 
-- Open questions 120–125 ([open-questions.md](open-questions.md)).
+- Open questions 120–125 ([open-questions.md](open-questions.md)); 120 and
+  124 answered 2026-10-18, 121–123 narrowed (above), 125 open.
 
 ### Searched and not found
 

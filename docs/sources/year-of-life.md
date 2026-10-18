@@ -598,7 +598,7 @@ any child the same. A mother on gin and a daughter of an ox or sheep
 year: bad for the brothers. Daughters of the horse, snake, mouse or pig
 born on kham, of the tiger, hare, bird or monkey born on dwa or zin, of
 the ox or sheep on khon or gin, of the dog or dragon on zon, and any born
-on khen, "count husbands" (སྐྱེད་པོ་བགྲང, read as marrying more than once):
+on khen, "count hearths" (སྐྱེད་པོ་བགྲང, setting up house more than once; question 76, answered 2026-10-18):
 some reckon these as the twenty-six bad lucks of the oath-breaker
 (མནའ་ཟ, mna' za). Mother and child on li and khen and the like, trigrams
 of enemy and māra crossed: bad for the father. The page goes on (Yigdzin-1)
@@ -744,11 +744,37 @@ By printed page (image = page + 10); not read on the scan:
 
 ### Open
 
+**Four words read on the Zhol print and in the dictionaries, 2026-10-18
+(questions 70, 72, 75, 76).**
+
+- p. 262: «གཅེས་རྡེལ་མི་འགྱུར་ཀླུང་རྡེལ་དགུ» (WBZ img. 326, l. 1, read on the scan;
+  Yigdzin-1 the same), the precious and the unchanging luck pebbles, nine;
+  the 1996 «མི་འབྱུང» is a slip of the typesetting.
+- p. 261: «བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག །གནམ་ལོས་ཚེ་ཡི་སྟོད་ཀྱིས། །ཟླ་བ་ཚེ་སྒང་ཞག་དུས་ཀྱིས། །ཚེ་སྨད་སྐྱིད་སྡུག་འབྲས་བུ་བརྟག»
+  (WBZ img. 325, l. 4, «སྒང» read on the scan at 4×; Yigdzin-1 the same):
+  the year for the upper part of life, the month for its middle («སྒང»,
+  the ridge, the time in the midst of something: Tshig mdzod chen mo), the
+  day and hour for the lower. The 1996 «སྨང» with its mark is a misreading.
+- p. 294: «མེ་ཡི་རྟ་སྦྲུལ་ཁམ་ལ་བཙས། །མེ་ལ་ཆུ་ཡི་བདུད་དུ་སོང་།» (WBZ img. 374,
+  ll. 3–4, the e vowel read on the scan at 4×), like the parallel
+  «ལྕགས་ལ་མེ་ཡི་བདུད» and «ས་ལ་ཤིང་གི་བདུད»: fire has gone to water's demon. The
+  1996 «མོ» is a slip, and the line holds for men and women alike.
+- p. 326: «སྐྱེད་པོ» is the hearthstone, the dictionaries' «སྒྱེད་པོ» (sgyed po;
+  Jim Valby, Ives Waldo; «སྒྱེད་བུ», the hearth, in Negi). WB sets it beside
+  the hearth and the household (etext): «སོ་སོར་སྐྱེད་པོ་ཟན་གསུམ་འཛུགས», each to set up
+  their own hearthstones (p. 398); «ཉལ་ས་དང་ནི་སྐྱེད་པོ་སྤོ», move the bed and the
+  hearthstones (p. 408); «ཁྱིམ་སོ་སྐྱེད་པོ་བགྲང» (pp. 288, 318) and
+  «བཟའ་མི་བྱེ་བྲལ་སྐྱེད་པོ་བགྲང» (p. 296) of a household that breaks up; and ch. 34's
+  hearth, «བྲ་ཉེ་ལ་ནི་སྐྱེད་པོ་དང་། །རོ་ཐབ་འཛུགས་ལ་ཤིས» (vol. 2, pp. 389–390).
+  «སྐྱེད་པོ་བགྲང», counting hearthstones, is setting up house again and
+  again: the daughters keep more than one home, of which marrying more than
+  once is one form.
+
 Open questions 69–76 ([open-questions.md](open-questions.md)), in order: the
-two counts of pp. 259 and 262; «མི་འབྱུང»; 24 or 20 decisive pebbles (answered
-2026-10-18, above); «ཚེ་སྨང»;
+two counts of pp. 259 and 262; «མི་འབྱུང» (answered 2026-10-18, above); 24 or
+20 decisive pebbles (answered 2026-10-18, above); «ཚེ་སྨང» (answered, above);
 the mother's trigram one a year or with the leap at ten; the father's luck
-pebble; «མོ་ལ་ཆུ་ཡི་བདུད»; «སྐྱེད་པོ་བགྲང». Question 23 narrows: on the scan of
+pebble; «མོ་ལ་ཆུ་ཡི་བདུད» and «སྐྱེད་པོ་བགྲང» (both answered, above). Question 23 narrows: on the scan of
 vol. 2, p. 474 (img. 482, at 8×) the first «དུས་ཁམས» is printed so, the
 second reads «རུས་ཁམས» («གཞན་ཡང་རུས་ཁམས་དང་ཕ་མེས་བརྒྱུད་པའི་ལོ»), the clan's element.
 

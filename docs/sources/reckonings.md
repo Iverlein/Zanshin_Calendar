@@ -1202,9 +1202,20 @@ of ch. 29 bears the same name (གསོན་ཁོག་གཤིན་དབ�
 
 ### Open
 
+**«ཁ་སྨྲང» and «དུར་སྨྲང», read 2026-10-18 (questions 67, 68).** The Tshig
+mdzod chen mo and the Tshig gter rgya mtsho give «ཁ་སྨྲང» as an archaic word
+for speaking (སྐད་ཆ་བཤད་པ); «སྨྲང» alone is the old word for a ritual
+narrative of origins (Brda dkrol gser gyi me long, «རིག་བྱེད་དམ་ངག»; Dan
+Martin, after Karmay). MITRA's «ཁ་སྤྲང» is in no dictionary. So p. 50's
+«གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།» is "how large, small or
+middling the *gto* rites must be, this account tells", and the fifteenth
+examination's «དུར་སྨྲང» is the grave's account (the etext's «དུར་སྒྲུང», the
+grave's tale, comes to the same).
+
 Open questions 65–68 ([open-questions.md](open-questions.md)), in order: the
-chapter's total against its parts; the fourth examination's 87; «ཁ་སྨྲང»;
-the *bsgrub* grave, the grave's account and «ར་བསེ».
+chapter's total against its parts; the fourth examination's 87; «ཁ་སྨྲང»
+(answered 2026-10-18, above); the *bsgrub* grave, the grave's account
+(answered, above) and «ར་བསེ».
 
 - Doubt: p. 48 (img. 56), «སྦར» (burial) or «སྤར» (trigram) for the 29 in
   «བསྲེག་པར་བཞི་བཅུ་སྦར་ཉེར་དགུ»; read as burial by the count of the five graves,
@@ -1852,9 +1863,24 @@ asker's spontaneous year.
 
 Open questions 97–102 ([open-questions.md](open-questions.md)), in order:
 the 4th, 7th and 11th places; the son's colour; «བརྒྱུ» (answered: «ཀླུ»); «ར་བཞི» in the
-moment's mewa; the hand reckoning's «ལུ»; «བྱི་ཉི» and «ཟིན་ཕུང». Question 25 is
+moment's mewa; the hand reckoning's «ལུ»; «བྱི་ཉི» and «ཟིན་ཕུང» (answered
+2026-10-18: the mouse's day and the earth lord Zinphung, below). Question 25 is
 answered above; question 22's ch. 28 half is settled (the Zhol print
 prints the same sum).
+
+**«བྱི་ཉི» and «ཟིན་ཕུང», read 2026-10-18 (question 102).** Both are names WB
+uses elsewhere (etext). «བྱི་ཉི» is the mouse's day, the day whose animal is
+the mouse: «བྱི་ཉིར་མོ་འདེབས་རྟ་རྒྱུག་པ» (vol. 2, p. 358), «བྱི་ཉི་སྒོ་འཛུགས་པ་འང་བཟང»
+(p. 388), «བྱི་ཉིར་འཕྲོག་པ» (p. 413). «ཟིན་ཕུང» is an earth lord, the
+fourteenth of those that move by date, «ས་བདག་ཟིན་ཕུང(༡༤)ཞེས་བྱ་བ» (vol. 2,
+p. 227, [earth-lord-courses.md](earth-lord-courses.md)), named in ch. 13's
+tables of the years (vol. 1, pp. 116–141) and on the model almanac's page
+(p. 154); Jim Valby has «ཟིན་ཕུང་ནག་པོ», a malignant earth lord. The list of
+p. 146, «ཚེས་གྲངས་ཉ་སྟོང་བརྒྱུད་དགུ་གསུམ། །བྱི་ཉི་མ་རིག་རྣམ་ཤེས་སྲེད། །ཚོར་བ་རྒ་ཤི་ཟིན་ཕུང་དང་། །མིག་དམར་བྲ་ཉེ་སྐག་…»,
+avoids for reckoning the full and empty moon, the 8th, 9th and 3rd (as
+read), the mouse's day, the days of the links of ignorance, consciousness,
+craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
+Āśleṣā and others.
 
 - Doubt: ch. 26's thirty readings (pp. 455–472) beyond the first, and
   their table of emblems and kinds, are Yigdzin-1's headings, not read on

@@ -118,6 +118,13 @@ scratch directory, not in the repository:
   open BDRC benchmark; how the readers below were ranked.
 - `local_read.py PRESET …` — general vision models through `llm-serve`;
   none reads Tibetan well enough (below).
+- `locate.py find | map | dict` — a phrase in the etexts whatever the
+  OCR's line breaks; which etext pages an OCR'd image of another print holds
+  (its 4-syllable shingles); a Wylie headword in Steinert's 64 dictionaries
+  (a `git clone --depth 1` of github.com/christiansteinert/tibetan-dictionary,
+  4.5 GB, in scratch). An OCR file keeps the folio's lines, so a word's
+  character offset over its line's length places the crop to read by eye
+  (2026-10-18).
 
 ### Which reader, 2026-10-03
 
@@ -217,9 +224,13 @@ blockprint and has misreadings (ག set as ད in «འགྲེ», p. 330). The
 sharpest witness is the Taikhang reproduction of a Lhasa print (MW30116,
 8280 px, no etext). To find a page there, read a few of its images at
 3000 px with `hf_read.py yigdzin` and look the lines up in the 1996
-etext: on 2026-10-06 its vol. 2 img. 350, 390, 430 and 470 held the 1996
-vol. 2 pp. 244, 272, 297–300 and 331–332 (etext page − 8), and p. 330
-was on img. 468.
+etext (`locate.py map`): on 2026-10-06 its vol. 2 img. 350, 390, 430 and
+470 held the 1996 vol. 2 pp. 244, 272, 297–300 and 331–332 (etext page − 8),
+and p. 330 was on img. 468; on 2026-10-18 img. 438–446 held pp. 306–312
+(p. 308 begins on img. 440). Its six lines a folio are read at native size
+in crops of about 1,300 × 250 px. The Zhol print (WBZ, 3,754 × 613 px,
+seven lines) maps to the 1996 vol. 1 at WBZ img. 325–326 = pp. 261–262,
+374 = p. 294, 426 = p. 354, 551 = p. 418, 554 = p. 420.
 
 **OCR of woodblock prints:** BDRC's own pipeline,
 github.com/buda-base/tibetan-ocr-app (MIT), with its Woodblock model.
@@ -500,6 +511,10 @@ Searched and found wanting, so not to be repeated:
   them); KP2's boxes 50 and 51 (img. 278–279) are too dim to read syllable
   by syllable and stand as the machine reading; KP2 img. 264, box 34's
   numeral against WB's «བཞི་ལྗང», was not read.
+- **Words in none of Steinert's 64 dictionaries** (2026-10-18): «ཤ་ཆིངས»,
+  «སྤོམ་གཏའ», «གཏོང་ཤེས», «ར་བསེ», «སྐྲང་སྒོམ», «ཚེ་སྨང», «ཁ་སྤྲང»; «སོ་ནག» only as place
+  names; «བསོ» only as a call (Bon) and «སྭ» as «སོ», which does not settle the war
+  lines' «བསོ་གདབ» (question 135).
 - **Russian names of the 暦注** (K1, 2026-10-15): cyberleninka's search
   API, synologia.ru (the articles «Эр ши ба сю», «Цзе ци», «Шэ», «Цзянь
   чу», «Тун шу», «Хуан ли» and others are "not yet written") and WaRoDai

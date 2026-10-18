@@ -77,6 +77,11 @@ Vajrapāṇi, read the *Eight Appearances of Heaven and Earth* and make
 averting rites. The two halves' figures wait on question 145 for their
 vessels, and stay here.
 
+**«རག་འགག», read in the dictionaries 2026-10-18 (question 145).** A small brass
+plate (Jim Valby), so «གསེར་འགག» a gold one; «འགག» alone has no vessel sense in
+the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settled.
+
 ### Open
 
-- Open question 145 ([open-questions.md](open-questions.md)).
+- Open question 145 ([open-questions.md](open-questions.md)), narrowed
+  2026-10-18 (above).

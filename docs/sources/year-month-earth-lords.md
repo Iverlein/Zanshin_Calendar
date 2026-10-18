@@ -1425,8 +1425,8 @@ monkey, 2 bird and so on.
 
 Pig head, red. By the *Lamp of Clarity* (གསལ་བའི་སྒྲོན་མེ, gsal ba'i sgron me), in the house: spring 1–2 the
 centre; spring 3 and summer 1 the door; summer 2 the courtyard; summer 3
-south-west; autumn 1–2 the courtyard; autumn 3 and winter 1 the «སྐྱེད་པོ» (skyed po, a part of the house; not settled)
-(སྐྱེད་པོ, a part of the house, not settled); winter 2–3 the hearth. In the
+south-west; autumn 1–2 the courtyard; autumn 3 and winter 1 the «སྐྱེད་པོ» (skyed po, the hearthstones, as question 76 settles it, 2026-10-18);
+winter 2–3 the hearth. In the
 centre it is the house god Gelthung: no laying a corpse there, no moving or
 setting a hearth; lay the corpse in a wall niche; fumigation and offerings.
 At the door it is the door god: no corpse or bride through that door, no
@@ -1554,7 +1554,7 @@ whom it offends as the year's (earth-lords.md, RD3).
 
 In the house: summer 1 the roof, 2 the pillar, 3 the door of the protector
 chapel; autumn 1 the outer door, 2 the inner door, 3 the wall hole; winter 1
-the pillar, 2 the «སྐྱེད་པོ», 3 the wall and stone; in the three months of
+the pillar, 2 the «སྐྱེད་པོ» (the hearthstones), 3 the wall and stone; in the three months of
 spring it has no seat. Avoid corpses, a bride and most bad works. Takes
 offence at the head of the household and paternal kin.
 

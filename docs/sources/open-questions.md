@@ -574,7 +574,18 @@ the text, not about the app.
 
 46. **WB vol. 1, pp. 420–421: the animals and relations of the sixteen pebbles.** p. 420–421. For each class of illness (iron, water, wood, fire, earth) the sixteen pebbles name an animal to count from (the monkey and bird for iron, the rat and pig for water, the tiger and hare for wood, the horse and snake for fire, the dragon, ox, sheep and dog for earth) and a relation (enemy, mother, friend, "agreeing" with power or with self, son). Is the animal always one of the class element's two (or four) animals, with the relation fixing which element of the sick person is compared, and is the count (down «ཐུར», up «བཀེན») the sick person's age from that animal? The water class names no friend's start (pebbles 4 and 5 are not both given): a misprint? (2026-10-12, RD12, [health.md](health.md))
 
-47. **WB vol. 1, pp. 417–421: «སྤུབ», «སྒྲུབ», «སྦུབ».** pp. 417–421. The same word of the count is printed «སྤུབ» (pp. 417–419, 421), «སྒྲུབ» (p. 420) and «སྦུབ» (MITRA's reading throughout); the print's scan (694 px) shows «སྤུབ» and «སྒྲུབ» as two spellings. Are they one verb (to turn down) with the older spelling, and does it differ from «བཀེན» (up) only by direction? (2026-10-12, RD12, [health.md](health.md))
+47. **Answered 2026-10-18. WB vol. 1, pp. 417–421: «སྤུབ», «སྒྲུབ», «སྦུབ».** pp. 417–421. The same word of the count is printed «སྤུབ» (pp. 417–419, 421), «སྒྲུབ» (p. 420) and «སྦུབ» (MITRA's reading throughout); the print's scan (694 px) shows «སྤུབ» and «སྒྲུབ» as two spellings. Are they one verb (to turn down) with the older spelling, and does it differ from «བཀེན» (up) only by direction? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-18 ([health.md](health.md)): one verb, turning down.
+    Steinert's dictionaries give «སྤུབ» (spub) and «སྦུབ» (sbub) as one
+    verb, to turn a vessel mouth-down, the causative of «འབུབ» (Tshig mdzod
+    chen mo, Dag yig gsar bsgrigs, the Verbinator); «སྒྲུབ» (sgrub) is "to
+    accomplish" and has no direction. The Zhol print carves «སྦུབ» in p.
+    418's count («དུ་ལོན་ཐུར་སྦུབ་བརྩི་བྱས་འཐབ», WBZ img. 551, l. 4, read on
+    the scan), where the 1996 edition sets «སྤུབ»; at p. 420's iron class
+    (WBZ img. 554, l. 4) Yigdzin-1 reads «སྒྲུབ» as the 1996 edition does,
+    and the stack is not clear by eye. With «ཐུར», down, against «བཀེན» or
+    «གྱེན», up, the count differs from «བཀེན» by its direction only; «སྒྲུབ»
+    is a slip of one letter for «སྦུབ».*
 
 48. **WB vol. 1, p. 438: the five day-parts and night-parts.** p. 438. What are the "five day-parts and five night-parts" of «ཤིང་བཟུང་དུས་ཀྱི་འབྱུང་བ་ནི། ཉིན་ལྔ་མཚན་ལྔ་བརྩིས་པ་ཡི།»: the ten elemental periods of the day and night, and from which time (sunrise) are they counted? Which is the first, the wood time? (2026-10-12, RD12, [health.md](health.md))
 
@@ -593,11 +604,24 @@ the text, not about the app.
 
 53. **WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
 
-54. **WB vol. 1, pp. 354, 365–368: «ལྡིང་ནག».** The twenty brides of
+54. **Answered 2026-10-18. WB vol. 1, pp. 354, 365–368: «ལྡིང་ནག».** The twenty brides of
     misfortune open with three «ལྡིང་ནག» brides, and p. 354 has «ལྡིང་ནག་བུ་
     གསུམ». Is it *lding nag*, the black *lding*, and what is the *lding*
     here? The scan's letter could be read «ཉིང» (2026-10-12, RD15,
     [marriage.md](marriage.md)).
+    *Answered 2026-10-18 ([marriage.md](marriage.md)): «ལྡིང་ནག» in the
+    blocks, the black that ends a family line. The Zhol print carves a tall
+    stack, ལ over ད, in «ལྡིང་ནག་བུ་གསུམ་བྱ་བ་ཡིན» (WBZ img. 426, l. 3, p.
+    354, read on the scan). The notes (vol. 2, p. 481, etext image 489, read
+    on the Gser thang reprint, I3CN5029 img. 487) gloss the word
+    «ཉིང་ནག་ཅེས་པ་རབས་ཆད་མིང་། འདི་བཟའ་མི་གཉིས་ཀར་འདོམས་ནའོ།», "*nying nag*
+    is a name for the line's breaking off (རབས་ཆད, rabs chad: childlessness,
+    the family ended), when it meets both spouses", with a plain ཉ, so the
+    notes take it as the kin's (ཉིང, nying, kin, Brda dkrol gser gyi me
+    long) black. The Sgom sde tshig mdzod chen mo has «ལྡིང་ནག» as "black
+    alone, nothing but black" (ནག་པོ་འབའ་ཞིག), after a commentary on the
+    *Lung zhu ba*.
+    Either way the three brides are those whose lot is the line's end.*
 
 55. **WB vol. 1, p. 365 (img. 375): *kham yu*'s two counts.** Is the
     station reached by counting the years completed from Kṛttikā (the man)
@@ -698,9 +722,16 @@ the text, not about the app.
     same funeral share the fourth examines; that «བསྒྲིལ་བས» rolls the fourth
     into the first's 87 is not stated.*
 
-67. **WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
+67. **Answered 2026-10-18. WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
     «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»; what is
     it (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+    *Answered 2026-10-18 ([reckonings.md](reckonings.md)): «ཁ་སྨྲང», speech,
+    an account. The Tshig mdzod chen mo and the Tshig gter rgya mtsho give
+    «ཁ་སྨྲང» as an archaic word for speaking (སྐད་ཆ་བཤད་པ), and «སྨྲང» alone
+    is the old word for a ritual narrative of origins (Dan Martin, after
+    Karmay; Brda dkrol gser gyi me long, «རིག་བྱེད་དམ་ངག»); MITRA's «ཁ་སྤྲང»
+    is in none of the dictionaries. The line reads "how large, small or
+    middling the *gto* rites (གཏོ, gto) must be, this account tells".*
 
 68. **WB vol. 2, pp. 47–48, 55, 128 (img. 55–56, 63, 136): the *bsgrub*
     grave, the grave's account and «ར་བསེ».** What are the *bsgrub* grave
@@ -708,6 +739,11 @@ the text, not about the app.
     fifteenth examination, p. 55; the etext «དུར་སྒྲུང»), with the five
     graves' «སྐྲང་སྒོམ» (p. 128; perhaps «སྨྲང»)? And «ར་བསེ», the roots of the
     repetition (p. 48) (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+    *Narrowed 2026-10-18 ([reckonings.md](reckonings.md)): «དུར་སྨྲང» is the
+    grave's account, «སྨྲང» the old word for a ritual narrative (question
+    67); the etext's «དུར་སྒྲུང», the grave's tale, comes to the same. The
+    *bsgrub* grave and «ར་བསེ» are not settled; «ར་བསེ» and «སྐྲང་སྒོམ» are
+    in no dictionary of Steinert's collection.*
 
 69. **WB vol. 1, pp. 259, 262 (img. 269, 272): the birth reckoning's
     count.** P. 259 fixes 641 root and 2,537 identifying pebbles, 3,178 in
@@ -715,9 +751,14 @@ the text, not about the app.
     identifying pebbles, 3,886. Are these two counts of different scopes,
     or slips (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
 
-70. **WB vol. 1, p. 262 (img. 272): «གཅེས་རྡེལ་མི་འབྱུང་ཀླུང་རྡེལ་དགུ».** The nine
+70. **Answered 2026-10-18. WB vol. 1, p. 262 (img. 272): «གཅེས་རྡེལ་མི་འབྱུང་ཀླུང་རྡེལ་དགུ».** The nine
     are the four precious and five unchanging luck pebbles. Is «མི་འབྱུང» a
     slip for «མི་འགྱུར» (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md)): «མི་འགྱུར».
+    The Zhol print carves «གཅེས་རྡེལ་མི་འགྱུར་ཀླུང་རྡེལ་དགུ» (WBZ img. 326,
+    l. 1, read on the scan; Yigdzin-1 the same): the nine are the precious
+    and the unchanging luck pebbles, and the 1996 «མི་འབྱུང» is a slip of
+    the typesetting.*
 
 71. **Answered 2026-10-18. WB vol. 1, pp. 260–261 (img. 270–271): 24 or 20 decisive pebbles?**
     P. 260 has 24, p. 261 20. Which belongs to WB's reckoning (2026-10-12,
@@ -729,10 +770,17 @@ the text, not about the app.
     the *Precious Lamp*'s 136, whose 24 decisive pebbles are the four and
     the twenty together. WB's reckoning lays twenty.*
 
-72. **WB vol. 1, p. 261 (img. 271): «ཚེ་སྨང».** The life force's rise and
+72. **Answered 2026-10-18. WB vol. 1, p. 261 (img. 271): «ཚེ་སྨང».** The life force's rise and
     decline goes to the upper part of life by the year, the month's to
     «ཚེ་སྨང» (the print, with a mark under it). Is the month the middle of
     life (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md)): the middle of
+    life. The Zhol print reads «ཟླ་བ་ཚེ་སྒང་ཞག་དུས་ཀྱིས» (WBZ img. 325, l.
+    4, read on the scan at 4×; Yigdzin-1 the same): «སྒང» (sgang), a ridge,
+    and the time in the midst of something (Tshig mdzod chen mo; Hackett,
+    "period"). The year rules the upper part of life (ཚེ་ཡི་སྟོད), the month
+    the middle (ཚེ་སྒང), the day and hour the lower (ཚེ་སྨད). The 1996 «སྨང»
+    with its mark is a misreading of the typesetting.*
 
 73. **The mother's trigram at the birth: one a year, or the leap at each
     ten?** Is her trigram counted one a year (WB ch. 21, p. 257) or with
@@ -747,14 +795,33 @@ the text, not about the app.
     mother's trigram twice (p. 502, «ཕ་ཀླུང་མ་ཀླུང་བབས་སྤར་དང༌། །རང་ཀླུང་མ་ཡི་སྤར་ཁ»).
     Which is WB's (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
 
-75. **WB vol. 1, p. 294 (img. 304): «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང».** Said of the fire
+75. **Answered 2026-10-18. WB vol. 1, p. 294 (img. 304): «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང».** Said of the fire
     horse and snake born on kham, where the parallel lines have «ལྕགས་ལ་མེ་ཡི་
     བདུད» and «ས་ལ་ཤིང་གི་བདུད». Is «མོ» a slip for «མེ», or does the line hold
     for a woman only (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md)): «མེ». The Zhol
+    print reads «མེ་ཡི་རྟ་སྦྲུལ་ཁམ་ལ་བཙས། །མེ་ལ་ཆུ་ཡི་བདུད་དུ་སོང་།» (WBZ
+    img. 374, ll. 3–4, the e vowel read on the scan at 4×), like the
+    parallel «ལྕགས་ལ་མེ་ཡི་བདུད» and «ས་ལ་ཤིང་གི་བདུད»: fire meets water's
+    demon. The 1996 «མོ» is a slip, and the line holds for men and women
+    alike.*
 
-76. **WB vol. 1, p. 326 (img. 336): «སྐྱེད་པོ་བགྲང».** Said of daughters born on
+76. **Answered 2026-10-18. WB vol. 1, p. 326 (img. 336): «སྐྱེད་པོ་བགྲང».** Said of daughters born on
     certain trigrams: "count husbands", that is, marry more than once
     (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md)): hearths, not
+    husbands. «སྐྱེད་པོ» in WB is the hearthstone, the dictionaries'
+    «སྒྱེད་པོ» (sgyed po, Jim Valby, Ives Waldo; «སྒྱེད་བུ», the hearth,
+    Negi): WB sets it beside the hearth and the household,
+    «སོ་སོར་སྐྱེད་པོ་ཟན་གསུམ་འཛུགས», each to set up their own hearthstones
+    (vol. 1, p. 398), «ཉལ་ས་དང་ནི་སྐྱེད་པོ་སྤོ», move the bed and the
+    hearthstones (p. 408), and in ch. 34's hearth «བྲ་ཉེ་ལ་ནི་སྐྱེད་པོ་དང་།
+    །རོ་ཐབ་འཛུགས་ལ་ཤིས» (vol. 2, pp. 389–390). «སྐྱེད་པོ་བགྲང», counting
+    hearthstones, is setting up house again and again, as
+    «ཁྱིམ་སོ་སྐྱེད་པོ་བགྲང» (vol. 1, pp. 288, 318) and
+    «བཟའ་མི་བྱེ་བྲལ་སྐྱེད་པོ་བགྲང» (p. 296) say of a household that breaks
+    up (those lines etext only). Marrying more than once is one way of it;
+    the words say more homes than one.*
 
 77. **WB vol. 2, p. 303 (img. 311): three of the Phugpa la places.** The
     list prints the waist on the 4th, the shoulder blade («སོག་པ») on the
@@ -924,11 +991,23 @@ the text, not about the app.
     which text does the note mean by «གཞུང་གིས་གསལ»? (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
 
-102. **«བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
+102. **Answered 2026-10-18. «བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
     «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
     might be the rat as the day's animal, «ཟིན་ཕུང» the trigram *zin* with
     *phung*, or an almanac name. (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
+    *Answered 2026-10-18 ([reckonings.md](reckonings.md)): two names WB uses
+    elsewhere. «བྱི་ཉི» is the mouse's day, the day whose animal is the
+    mouse: «བྱི་ཉིར་མོ་འདེབས་རྟ་རྒྱུག་པ» (vol. 2, p. 358),
+    «བྱི་ཉི་སྒོ་འཛུགས་པ་འང་བཟང» (p. 388), «བྱི་ཉིར་འཕྲོག་པ» (p. 413; etext).
+    «ཟིན་ཕུང» is an earth lord, «ས་བདག་ཟིན་ཕུང(༡༤)» of the earth lords that
+    move by date (vol. 2, p. 227, [earth-lord-courses.md](earth-lord-
+    courses.md)), named in ch. 13's tables of the years (vol. 1, pp.
+    116–141) and on the model almanac's page (p. 154); Jim Valby has
+    «ཟིན་ཕུང་ནག་པོ», a malignant earth lord. So p. 146 counts among the days
+    to avoid for reckoning the mouse's day and Zinphung's days, beside the
+    days of the links (ignorance, consciousness, craving, feeling, aging and
+    death).*
 
 103. ~~**Box 5's bracket.** KP box 5 (img. 25) ends its good links «སྲིད་ ༼[…]
     སྲེད་༽», and KP2 (img. 244) brackets a single letter there. Is craving
@@ -1040,11 +1119,18 @@ the text, not about the app.
      "The 9th's «མོད་འགྱུར» (O3)")
 
 
-120. **The tiger day's «སྒོ་ཕྱུགས».** In the tiger day's seat (WB vol. 2, p.
+120. **Answered 2026-10-18. The tiger day's «སྒོ་ཕྱུགས».** In the tiger day's seat (WB vol. 2, p.
      224), what is «ཡང་ན་སྒོ་ཕྱུགས་གཡས་སུ་བཞག», "or the door's *phyugs* is set
      to the right": is *sgo phyugs* a part of the door, or a misprint (WBZ's
      etext garbles the line)? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+     *Answered 2026-10-18 ([earth-lords.md](earth-lords.md)): the livestock
+     at the door. «སྒོ་ཕྱུགས» is the animals kept at the door of a village
+     house (Tshig mdzod chen mo, «ཡུལ་པའི་སྒོ་རྩར་བསྟེན་པའི་ཕྱུགས་རིགས»),
+     draught and domestic cattle (Rangjung Yeshe, Jim Valby, Ives Waldo).
+     The tiger day's last line adds to taking the corpse out through the
+     roof or a hole: or the door's cattle are put to the right. Not a
+     misprint.*
 
 121. **The horse day's *bang phyin*, *rta thog* and *sha chings*.** In the
      horse day's lines (p. 224 and p. 225), is *bang phyin* (བང་ཕྱིན) the
@@ -1052,22 +1138,51 @@ the text, not about the app.
      back, as read here; and what is *sha chings* (ཤ་ཆིངས) in
      «ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང»? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+     *Narrowed 2026-10-18 ([earth-lords.md](earth-lords.md)): «བང་ཕྱིན» is a
+     messenger, one who carries word (Dung dkar tshig mdzod chen mo and Brda
+     dkrol gser gyi me long, «ཕོ་ཉའམ་གཏམ་སྐྱེལ་མཁན»; Dan Martin), not the
+     journey with the corpse; «རྟ་ཐོག» is horseback (the dictionaries'
+     «རྟ་ཐོག་ལུས་རྩལ», horsemanship). Read so, the witness line says a death
+     repeats, the messenger goes not by horse, and the funeral door and
+     horseback are avoided. «ཤ་ཆིངས» is in none of the 64 dictionaries. For
+     the owner: the built `reading.EarthLord.HORSE.death` keeps "on the
+     journey with the corpse no horse is used".*
 
 122. **The chief earth lord's remedy.** In the chief earth lord's remedy (pp.
      223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be
      recited, and the *dong tse* (དོང་ཙེ), *spom gta'* (སྤོམ་གཏའ, or སྦོམ;
      blotted) and *ngar zan* (ངར་ཟན) of the screening? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+     *Narrowed 2026-10-18 ([earth-lords.md](earth-lords.md)): «དོང་ཙེ» is a
+     coin, the old copper coin, a word from Chinese (Tshig mdzod chen mo,
+     Dag yig gsar bsgrigs, Dan Martin); «ངར་ཟན» the dough of a *ngar glud*
+     ransom (Jim Valby, "SA ngar glud"); «སྡོང་པོ་རྒྱན་པ», recited with the
+     *Snang brgyad* and the *Gtsug tor*, is most likely the dhāraṇī *Sdong
+     po rgyan gyi mchog* (Toh 1066; 84000, Negi), which no text here names
+     in full. «སྤོམ་གཏའ» is in no dictionary.*
 
 123. **The seats' closing remedy.** In the seats' closing remedy (p. 224),
      what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and
      which work is the *gtong shes* (གཏོང་ཤེས) cited for the hours?
      (2026-10-12, O8, [earth-lords.md](earth-lords.md), "O8: what the reading
      by eye changes")
+     *Narrowed 2026-10-18 ([earth-lords.md](earth-lords.md)): «མི་ཧྲེང» is a
+     lone man, a man without companion (Tshig mdzod chen mo,
+     «ཟླ་གྲོགས་མེད་པའི་མི»; Dag yig gsar bsgrigs, «ཧྲེང» single): the screen
+     is a lone man holding a spear. «གཏོང་ཤེས» is in no dictionary; the work
+     is not identified.*
 
-124. **The hearth god's *spang skong*.** Which text is the *spang skong*
+124. **Answered 2026-10-18. The hearth god's *spang skong*.** Which text is the *spang skong*
      (སྤང་སྐོང) of the hearth god's remedy (p. 225)? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+     *Answered 2026-10-18 ([earth-lords.md](earth-lords.md)): the *Spang
+     skong phyag brgya pa* (སྤང་སྐོང་ཕྱག་བརྒྱ་པ), the sutra of a hundred
+     homages for mending breaches, taught for taming the nāgas and among the
+     texts that came to Tibet in Lha tho tho ri gnyan btsan's time (Tshig
+     mdzod chen mo, Dung dkar tshig mdzod chen mo, Bod rgya nang don rig
+     pa'i tshig mdzod; Rangjung Yeshe). WB has it recited with the *Gzungs
+     bsdus* and the *Tog* for the hearth god, and again for Nalbu (vol. 2,
+     p. 208, «སྤང་སྐོང་གསུང་སྒྲོག»).*
 
 125. **The *lo* of the day.** On p. 225, what is the *lo* (ལོ) of the day on
      which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam
@@ -1100,6 +1215,13 @@ the text, not about the app.
      its prey, what does the Lord of Death do «ཁྲམ་ལ་འདེབས», and what is
      «སོ་ནག» in «དགོང་གྲིབ་སོ་ནག་ངམ་གྱིས་འོང་བ»? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+     *Narrowed 2026-10-18 ([weighing.md](weighing.md)): the *ging* (གིང) is a
+     deity's attendant and messenger, danced as a skeleton with a small drum
+     (Tshig mdzod chen mo; *kiṃkara*, Negi). «ཁྲམ་ལ་འདེབས» is the rite of
+     the tally board: the harmer's name and offence written on a notched
+     board (ཁྲམ་ཤིང, khram shing) to subdue him (Tshig mdzod chen mo,
+     «ཁྲམ་ལ་བཏབ»); the Lord of Death puts his prey on the tally. «སོ་ནག» is
+     in the dictionaries only as place names.*
 
 130. **The seasons of the thod rgal verse.** Which seasons are
      «དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད» in the *Gdams ngag mdzod*'s verse: is
@@ -1111,24 +1233,42 @@ the text, not about the app.
      breaks, or are the breaks kept from them («ཐུན་མཚམས་ལ་ཁེལ་བ»)? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
 
-132. **Tuesday's «སྒ་རྒྱག».** In Tuesday's good list, WB vol. 2, p. 309 (img.
+132. **Answered 2026-10-18. Tuesday's «སྒ་རྒྱག».** In Tuesday's good list, WB vol. 2, p. 309 (img.
      317), «རྟ་རྒྱུག་པ། །སྒ་རྒྱག་ཤྭ་རགས་བརྩིག་པ་དང་།», is «སྒ་རྒྱག»
      saddling horses, as «རྟ་དྲེལ་སྒ་རྒྱག» in the verses of Wednesday,
      Thursday, Friday and Saturday and «རྟ་དྲེའུ་སྒ་རྒྱག» in Sunday's? The
      vowel of the second syllable cannot be told on the 1996 scan, the
      Gser thang reprint or WBZ. (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): saddling, «སྒ་རྒྱག».
+     The Taikhang print (MW30116, I5878 img. 442, l. 3, read on the scan at
+     its native 8,280 px) sets the second syllable with the ya and no vowel,
+     «རྒྱག», and the first stack with a subscript that has the ga's stem
+     (Yigdzin-1 reads it སྭ).*
 
-133. **Wednesday's «དུར་?ོ».** In Wednesday's bad list, WB vol. 2, p. 310 (img.
+133. **Answered 2026-10-18. Wednesday's «དུར་?ོ».** In Wednesday's bad list, WB vol. 2, p. 310 (img.
      318), «རབ་བྱུང་ཆང་བཙོ་དུར་?ོ་མདོས», is the word «དུར་སྤོ», moving a
      grave, or «དུར་སྦོ», and what is it? No print settles བ or པ. (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): moving a grave, in
+     the blocks' spelling with བ. The Taikhang print shows ས over a closed
+     box, «དུར་སྦོ» (I5878 img. 443, l. 4, at native size; Yigdzin-1 the
+     same); «སྦོ» is in the dictionaries only to swell, or the belly. WB
+     writes the act «དུར་སྤོ» in Aśvinī's verse (vol. 2, p. 313,
+     «གཤིན་ལས་དུར་སྤོ») and on p. 197, «སྤོ» to move, to shift (Tshig mdzod
+     chen mo).*
 
-134. **Friday's «དུར་སྦ».** In Friday's bad list, WB vol. 2, p. 311 (img. 319),
+134. **Answered 2026-10-18. Friday's «དུར་སྦ».** In Friday's bad list, WB vol. 2, p. 311 (img. 319),
      «དུར་སྦ་མགྲོན་འགྲོ་མདོས་གཏོར་འཕེན», what is «དུར་སྦ», read so on both
      prints, and does «མགྲོན་འགྲོ» (going as a guest) go with it or stand
      alone? (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): burial. «སྦ» is the
+     future of «སྦེད», to hide (Tshig mdzod chen mo, Dag yig gsar bsgrigs;
+     Jim Valby, "to bury"), and WB writes «དུར་སྦས» for buried in a grave
+     (vol. 1, p. 238, «ལྕགས་ཕག་ལོ་ལ་དུར་སྦས་ཀྱང», etext). «དུར་སྦ» is a
+     whole act, so «མགྲོན་འགྲོ», going as a guest, stands on its own. The
+     Taikhang print (img. 445, Yigdzin-1) reads «དུར་སྦ» too.*
 
 135. **The war lines' «བསོ་གདབ».** In the war lines of every weekday but
      Thursday (pp. 308–312, img. 316–320), what is «བསོ་གདབ» (Sunday
@@ -1137,23 +1277,47 @@ the text, not about the app.
      places (Yigdzin-1 on WBZ, not read by eye). (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
 
-136. **Monday's ransom «དྲོ་ཅན».** Monday's remedy, WB vol. 2, p. 309 (img.
+136. **Answered 2026-10-18. Monday's ransom «དྲོ་ཅན».** Monday's remedy, WB vol. 2, p. 309 (img.
      317), «ཉ་སྦྲུལ་གཟུགས་དང་གླུད་དྲོ་ཅན།», prints «དྲོ» (ད with the
      subscript ར, plain on the Gser thang reprint), where WBZ has
      «དྲི་ཅན», "fragrant", as in Sunday's «ངར་གླུད་དྲི་ཅན»: is «དྲོ» a
      misprint for «དྲི», or a ransom "with warmth"? (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): «དྲི་ཅན», fragrant.
+     The Taikhang print reads «ཉ་སྦྲུལ་གཟུགས་དང་གླུད། ། [folio turn]
+     དྲི་ཅན།» (I5878 img. 441, l. 6, and img. 442, l. 1, the i vowel clear
+     at native size), as WBZ does: the 1996 «དྲོ» is a slip of the
+     typesetting, and the ransom is fragrant, like Sunday's
+     «ངར་གླུད་དྲི་ཅན».*
 
-137. **Tuesday's «[རླིད]་བུ».** Tuesday's remedy, WB vol. 2, p. 309 (img. 317),
+137. **Answered 2026-10-18. Tuesday's «[རླིད]་བུ».** Tuesday's remedy, WB vol. 2, p. 309 (img. 317),
      «སྒྲིབ་ན་བྱི་བའི་ཐོད་ནང་དུ། །ཆུ་བླུགས་[རླིད]་བུ་ནམ་མཁར་འཕྱར།»: what
      is the «[རླིད]་བུ» raised into the sky, and is its first letter ར? (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): a skin bag. The
+     Taikhang print has ར over ལ with the i vowel, «རླིད་བུ» (I5878 img.
+     443, l. 1, at native size). «རླིད་བུ» is the whole skin of an animal
+     flayed off in one piece (Tshig mdzod chen mo and Tshig gter rgya mtsho,
+     «གཅེར་བཤུས་སམ་སྦུབས་བཤུས་བརྒྱབ་ནས་བྱུང་བའི་པགས་པ་ཆ་ཚང»), a leather bag
+     (Dag yig gsar bsgrigs: an old word for རྐྱལ་བ; Jim Valby). The remedy:
+     pour water into a mouse's skull and raise a skin bag into the sky.*
 
-138. **Saturday's illness line.** Saturday's illness line, WB vol. 2, p. 312
+138. **Answered 2026-10-18. Saturday's illness line.** Saturday's illness line, WB vol. 2, p. 312
      (img. 320), «དུས་ཀྱི་ཆོ་ག་ཆག་པ་དང་། །འཕྲུ་རློག་འཁུར་བ་གསུར་གྱིས་ལན།»:
      are the broken seasonal rite, «འཕྲུ་རློག» and carrying the causes,
      answered by burnt offerings (གསུར, gsur), or are they all causes? (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 ([weekdays.md](weekdays.md)): the rite and the
+     ploughing are causes, the burnt offering the answer. «ཕྲུ་རློག» is
+     ploughing new ground (Dan Martin and Brda dkrol gser gyi me long,
+     «ས་ཞིང་གསར་པ་རྨོས་པ», after the *Tshig gter*; Negi, «རྨོ་རྐོ»,
+     tilling); «གསུར» the burnt offering of flour with the three whites and
+     three reds (Tshig mdzod chen mo). After the harmers (the lord of death,
+     the earth lords, the *the'u rang*, the *ma mo*) the line names what
+     roused them, a seasonal rite broken and new ground ploughed, with
+     «འཁུར་བ» (carrying, not settled), and closes «གསུར་གྱིས་ལན», answered
+     by burnt offerings, as Tuesday's closes «བཤས་ཀྱིས་ལན». The Taikhang
+     print (img. 446, Yigdzin-1) has the same words.*
 
 139. **The circuits WB rejects on p. 257.** WB vol. 1, p. 257 (img. 267, l. 3),
      on the scan, rejects the circuits that reckon
@@ -1202,6 +1366,9 @@ the text, not about the app.
      gold, and what is «སྔ་ཆ་གྲིབ་ཚུལ», the first half's shadow (གྲིབ,
      grib)? (2026-10-13, O10,
      [karanas.md](karanas.md), "Viṣṭi's remedies, written out")
+     *Narrowed 2026-10-18 ([karanas.md](karanas.md)): «རག་འགག» is a small
+     brass plate (Jim Valby), so «གསེར་འགག» a gold one; «འགག» alone has no
+     vessel sense in the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settled.*
 
 146. **The Rdo rje gtsug lag's Mercury (༧).** In WB vol. 2, p. 337 (img. 345),
      the *Rdo rje gtsug lag*'s day of incompatibility prints Mercury as

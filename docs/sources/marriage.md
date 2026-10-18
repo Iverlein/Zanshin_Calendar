@@ -843,8 +843,24 @@ stack «[སྨྱུར]» on p. 355.
 Open questions 22, 24 and 54–57 ([open-questions.md](open-questions.md)):
 22, the sum on p. 351, still 5,801 for 5,805, and the same in WBZ (img. 458,
 2026-10-18: the blocks' slip); 24, the
-word «ཎི་ཤ», its rule now found; 54, «ལྡིང་ནག»; 55, *kham yu*'s two counts;
+word «ཎི་ཤ», its rule now found; 54, «ལྡིང་ནག» (answered 2026-10-18, below); 55, *kham yu*'s two counts;
 56, the bride's months; 57, the date «བདུན་གསུམ» (answered: the three 7s).
+
+**«ལྡིང་ནག», read 2026-10-18 (question 54).** The Zhol print carves a tall
+stack, ལ over ད, in «ལྡིང་ནག་བུ་གསུམ་བྱ་བ་ཡིན» (WBZ img. 426, l. 3, the 1996
+p. 354, read on the scan). The notes gloss the word (vol. 2, p. 481, the
+etext's image 489; read on the Gser thang reprint, I3CN5029 img. 487):
+
+> ཁ་ཡན་ལོ་པ་སྤར་ཁ་དགྲ་ཐོག་སྐྱེས་པ་དེས་ཕྱིས་ཁྱིམ་ཡང་སྤར་ཁ་དགྲ་ཐོག་ནས་ཕུབ་ན་ངན། ཉིང་ནག་ཅེས་པ་རབས་ཆད་མིང་། འདི་བཟའ་མི་གཉིས་ཀར་འདོམས་ནའོ།
+
+"One born on the enemy trigram who later builds a house from the enemy
+trigram too fares badly. *Nying nag* is a name for the line's breaking off
+(རབས་ཆད, rabs chad: childlessness, the family ended); it is when it meets
+both spouses." The notes print a plain ཉ, «ཉིང», kin (Brda dkrol gser gyi me
+long, «ཉེ་དུའི་མིང»): the kin's black. The Sgom sde tshig mdzod chen mo has
+«ལྡིང་ནག» as "black alone, nothing but black" (ནག་པོ་འབའ་ཞིག), after a
+commentary on the *Lung zhu ba*. Either spelling, the three «ལྡིང་ནག» brides
+are those whose lot is the end of the line.
 
 - Doubt: words read by Yigdzin-1 and not settled on the scan: «ཨེན» (p. 365),
   «གླང་བྲེ» (p. 366), «བྱེ་བྱུགས» (p. 367), «སྣར»

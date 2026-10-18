@@ -298,7 +298,20 @@ The example is the only worked one in the chapter; the pebble reckoning of the f
 
 ### Open
 
-Open questions 46–53 ([open-questions.md](open-questions.md)), in order: the animals and relations of the sixteen pebbles; the count word; the day-parts and night-parts; the mansions' days; «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ»; the Sanskrit gloss; pp. 428–429; p. 442's example.
+**The count word, read 2026-10-18 (question 47).** The dictionaries of
+Steinert's collection give «སྤུབ» (spub) and «སྦུབ» (sbub) as one verb, to
+turn a vessel mouth-down, the causative of «འབུབ» (Tshig mdzod chen mo, Dag
+yig gsar bsgrigs); «སྒྲུབ» (sgrub), to accomplish, has no direction. The
+Zhol print carves «སྦུབ» in p. 418's count, «དུ་ལོན་ཐུར་སྦུབ་བརྩི་བྱས་འཐབ།», "count
+the years completed downward and fight the one reckoned" (WBZ img. 551,
+l. 4, read on the scan; the same folio, by Yigdzin-1, has «ཐུར་སྦུབ» twice
+more and «དུ་ལོན་གྱེན་བགྲང», counted upward). At p. 420's iron class (WBZ
+img. 554, l. 4) Yigdzin-1 reads «སྒྲུབ», as the 1996 edition sets it, and the
+stack is not clear by eye. So the count goes down with «སྤུབ/སྦུབ» and up with
+«བཀེན» or «གྱེན», the same distance in the other direction, and «སྒྲུབ» is a slip
+of one letter.
+
+Open questions 46–53 ([open-questions.md](open-questions.md)), in order: the animals and relations of the sixteen pebbles; the count word (answered 2026-10-18, above); the day-parts and night-parts; the mansions' days; «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ»; the Sanskrit gloss; pp. 428–429; p. 442's example.
 
 ### Searched and not found
 

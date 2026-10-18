@@ -326,9 +326,45 @@ theft, remedy and war lines are now quoted in full; Saturday's theft line
 has «བནྡེ», a monk, where both machines misread it, as they misread
 Thursday's.
 
+**The doubtful words on the Taikhang print, 2026-10-18 (questions
+132–138).** The Taikhang reproduction of a Lhasa print (MW30116, vol. 2,
+I5878, 8,280 px) holds pp. 308–312 on img. 440–446 (img. 438–439 are
+pp. 306–307; mapped by Yigdzin-1 and the etext). Read on the scan at its
+native size:
+
+- Monday's ransom: «ཉ་སྦྲུལ་གཟུགས་དང་གླུད། ། [folio turn] དྲི་ཅན།» (img. 441, l. 6;
+  img. 442, l. 1), the i vowel clear: «དྲི་ཅན», fragrant, as WBZ and Sunday's
+  «ངར་གླུད་དྲི་ཅན». The 1996 «དྲོ» is a slip of the typesetting.
+- Tuesday's good list: «སྒ་རྒྱག» (img. 442, l. 3), the second syllable with
+  the ya and no vowel, the first stack with a subscript that has the ga's
+  stem (Yigdzin-1 reads སྭ): saddling, as on the other weekdays.
+- Tuesday's remedy: «ཆུ་བླུག་རླིད་བུ་ནམ་མཁར་འཕྱར» (img. 443, l. 1), ར over ལ with
+  the i vowel. «རླིད་བུ» is the whole skin of an animal flayed off in one
+  piece (Tshig mdzod chen mo, «གཅེར་བཤུས་སམ་སྦུབས་བཤུས་བརྒྱབ་ནས་བྱུང་བའི་པགས་པ་ཆ་ཚང»), a
+  leather bag (Dag yig gsar bsgrigs, an old word for རྐྱལ་བ): pour water into a
+  mouse's skull and raise a skin bag into the sky.
+- Wednesday's bad list: «དུར་སྦོ» (img. 443, l. 4), ས over a closed box, so
+  the blocks spell it with བ; «སྦོ» in the dictionaries is only to swell, or
+  the belly. WB writes the act «དུར་སྤོ», moving a grave, in Aśvinī's verse
+  (vol. 2, p. 313) and on p. 197. So Wednesday avoids moving a grave.
+- Friday's bad list: «དུར་སྦ» (img. 445, Yigdzin-1). «སྦ» is the future of
+  «སྦེད», to hide (Jim Valby, "to bury"), and WB writes «དུར་སྦས» for buried
+  (vol. 1, p. 238, etext): burial, a whole act, so «མགྲོན་འགྲོ», going as a
+  guest, stands on its own.
+- Saturday's illness line: the same words (img. 446, Yigdzin-1). «ཕྲུ་རློག» is
+  ploughing new ground (Brda dkrol gser gyi me long, «ས་ཞིང་གསར་པ་རྨོས་པ»; Negi,
+  «རྨོ་རྐོ»), «གསུར» the burnt offering of flour with the three whites and three
+  reds. The broken seasonal rite and the ploughing are what roused the
+  harmers, and «གསུར་གྱིས་ལན», answered by burnt offerings, is the remedy, as
+  Tuesday's line closes «བཤས་ཀྱིས་ལན».
+
+Not changed for the app here: whether Wednesday's moving a grave, Friday's
+burial and going as a guest join the lists is for a build.
+
 ### Open
 
-- Open questions 132–138 ([open-questions.md](open-questions.md)).
+- Open questions 132–138 ([open-questions.md](open-questions.md)), all
+  answered 2026-10-18 (above).
 
 ### Searched and not found
 

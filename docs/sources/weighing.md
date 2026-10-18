@@ -308,9 +308,18 @@ Tārā manual makes them the pauses for offering and praise, and the
 Great Perfection guide and the Vajrabhairava manual call them the best
 time for meditation.
 
+**The six sessions' words, read in the dictionaries 2026-10-18 (question
+129).** The *ging* (གིང) is a deity's attendant and messenger, danced as a
+skeleton with a small drum (Tshig mdzod chen mo; *kiṃkara*, Negi);
+«ཁྲམ་ལ་འདེབས» is the rite of the tally board, the harmer's name and offence
+written on a notched board (ཁྲམ་ཤིང, khram shing) to subdue him (Tshig mdzod
+chen mo, «ཁྲམ་ལ་བཏབ»): the Lord of Death puts his prey on his tally. «སོ་ནག» is
+in the dictionaries only as place names.
+
 #### Open
 
-- Open questions 126–131 ([open-questions.md](open-questions.md)).
+- Open questions 126–131 ([open-questions.md](open-questions.md)); 129
+  narrowed 2026-10-18 (above).
 
 #### Searched and not found
 
