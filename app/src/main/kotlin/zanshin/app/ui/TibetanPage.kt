@@ -656,7 +656,7 @@ fun TibetanPage(
                     subtitle = lunarDateSubtitle,
                     titleIsKanji = false,
                     // WB's own result of washing the hair on the date (p. 404, ROADMAP T2.15).
-                    details = listOf(hairWashingLabel to Catalog.text(Texts.HAIR_DATE[day.day - 1].arg!!)),
+                    details = listOf(hairWashingLabel to Texts.hairDate(day.day)),
                     glyphs = { LunarDateStrip(day.day) },
                     diagram = { LunarDateGrid(day.day) },
                     decides = decides(DayFactor.LUNAR_DATE),
