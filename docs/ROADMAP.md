@@ -2739,6 +2739,17 @@ X, so that the owner reads the wording once. The blocks are
   mansion with its note; great spear of Saturn), 12 Nov (power mansion),
   and the Health screen's vitality pebbles with `pebble_note`. No store
   shot shows these sheets.
+- **Release build** (2026-10-18), signed with the debug key: no INTERNET
+  permission; it showed the hundred feet's holders raw
+  ("HundredFeet$Holder.ADHANA", and the new ".struck" after it). R8 drops
+  the InnerClasses attribute, so a nested enum's `simpleName` is
+  `Outer$Inner`; `glossKey` now takes the name after the last `$`, which
+  mends the eleven nested enums (the holders, the month entries' rise,
+  parts, times and seasonal signs, the rough times, the sun's terms, the
+  eclipses' bodies and ends), raw in every release since they were built.
+  Checked on the emulator: the hundred feet, spear and Your day sheets and
+  the whole Tibetan page on 18 October and 14 November 2026 and 15 January
+  2027, English and Russian, without a raw key.
 
 #### <a id="x9"></a>X9 The hours panel
 

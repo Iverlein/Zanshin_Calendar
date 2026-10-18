@@ -65,5 +65,10 @@ object Catalog {
 fun gloss(e: Enum<*>, field: String? = null): String =
     Catalog.text(glossKey(e, field))
 
+/**
+ * The catalog key of [e]: its enum's own name, also for an enum nested in a class (`HundredFeet.Holder` is
+ * `Holder`). Taken from the binary name, not `simpleName`: R8 drops the InnerClasses attribute `simpleName`
+ * reads, so in a release build a nested enum's `simpleName` is `HundredFeet$Holder` and its terms show raw.
+ */
 fun glossKey(e: Enum<*>, field: String? = null): String =
-    "${e.declaringJavaClass.simpleName}.${e.name}" + (field?.let { ".$it" } ?: "")
+    "${e.declaringJavaClass.name.substringAfterLast('.').substringAfterLast('$')}.${e.name}" + (field?.let { ".$it" } ?: "")
