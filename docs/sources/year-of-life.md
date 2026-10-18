@@ -1341,6 +1341,15 @@ year is its reaching that year, next to its reaching the seven-corner.
 
 ## Settled, 2026-10-18 late night (open questions 93, 96)
 
+- **93, NM too.** NM (Sakya, MW29978, BDRC snippet) puts the omen on the
+  spouses' trigrams: «བཟའ་མིའི་སྤར་ཁ་གཅིག་སྟེང་ཚོགས་ན་[རྐྱ]་མདའ་ཐུག་པ་ཡིན།» (the OCR has
+  «སྐུ»), WB's spouses' obstacle in the same words: the *rkya mda'*
+  meeting is the spouses' bond struck when both fall on one trigram.
+- **96, the dead, searched in other works.** BDRC's full-text search
+  (2026-10-18: «བཟའ་ཚང་ཁྱིམ་གཅིག», «ཁྱིམ་གཅིག་བཟའ་མི», «ཤི་བའི་བཟའ་མི», «བཟའ་མི་ཤི», «ཁྱིམ་སྐོར་གྱི»,
+  «བཟའ་མིའི་སྤར») finds the household round only in WB, its prints and KD,
+  and no reckoner who says whether a member dead during the year is
+  counted. That is where the sources end.
 - **93, «རྐྱ་མདའ».** The phrase recurs with its remedy: KD vol. 3
   (etext p. 703), on the king's seat in the general examination,
   «ཕ་ཚན་ནང་ནས་མགོ་གནོན་འོང་། །བཟའ་མི་རྐྱ་མདའ་ཐུག་པས་ལན། …བཟའ་མི་རྐྱ་འབྱེད་མཚེར་ས་སྤོ། །སྡུད་པ་འདོན་ཅིང་སྡོང་རྒྱན་བྱ།»,

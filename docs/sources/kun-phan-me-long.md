@@ -247,6 +247,11 @@ the app (§11 as the personal mansions and weekdays).
 
 ## Settled, 2026-10-18 late night (open question 140)
 
+- **The block confirms it.** Read again on KP (BDRC label img. 121) at 9×
+  with the second edition beside it: after «རབ» a ཆ with its vowel sign
+  and a ས stacked beneath, the contraction of «ཆེས», then མ with its vowel
+  sign, then «འབྲུག་ལོར»: «རབ་ཆེས་མེ་འབྲུག་ལོར», as W21970 prints it. Neither print
+  names the cycle.
 - **A fire dragon year, by the second edition.** *Nyer mkho'i rtsis kyi
   rnam bzhag pad dkar chun po* (Bkra shis tshe brtan and Sha bo tshe
   ring, Kan su'u mi rigs dpe skrun khang, Lanzhou 2000, BDRC W21970,

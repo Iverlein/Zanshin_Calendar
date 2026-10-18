@@ -506,6 +506,17 @@ four:
 
 ## Settled, 2026-10-18 late night (open questions 121, 122)
 
+- **What the *spom gta'* is made of** (Mipham, I2010 img. 281–283;
+  Yigdzin-1, the opening read on the scan): «དེ་ཡང་གནམ་ལོ་དེའི་ནག་པོ་ཆེན་པོ་སྟེ་སྨེ་བ་གཉིས་ནག་གང་དུ་གནས་པའི་ཕྱོགས་སུ་ཤིང་སྡོང་པོ་རིང་པོ་ཞིག་གི་རྩེར། སེ་བའི་ཤིང་ལོ་མ་དང་ལྡན་པ་…»:
+  toward the year's great black, the two-black mewa, a tall tree trunk
+  crowned with a leafy branch, hung with the patron's *bla dar*, silks,
+  wool and cloth of five colours; before it images of the protectors of
+  the three families, the Buddha and Padmasambhava, books and a stupa;
+  the year's sky dog and the earth lords in the four directions; packets
+  of substances, heads of a yak, a sheep and a goat (the goat's head
+  against slander), and the five male, five female and five child woods.
+  WB plants it the same way, «གཉིས་ནག་སྟེང་དུ་སྤོམ་གཏའ་འཛུགས» (vol. 2, p. 128): two
+  sources agree on the place and the purpose.
 - **121, «ཤ་ཆིངས».** The horse day's lines (vol. 2, etext p. 225):
   «རྟ་ཉིར་སྒ་གནས་སྒོ་གོང་དུ། །རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན།»:
   on the horse day the lord is on the saddle; loading the corpse on a

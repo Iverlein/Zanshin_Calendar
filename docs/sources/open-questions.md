@@ -1007,7 +1007,7 @@ the text, not about the app.
     at the secret obstacle? (2026-10-12, RD14,
     [year-of-life.md](year-of-life.md))
     *Narrowed 2026-10-18 night ([year-of-life.md](year-of-life.md)): «ར་འབད» is a 1996 slip; the Zhol print carves «རྗེ་འུ་ནག་དང་རོ་འདོད་དང་།», the corpse-craver (WBZ img. 512, l. 3). «རུ་ཤན་ཁ་སྤྲོད» is a rite Zhe chen rgyal tshab lists for the secret obstacle (*ru shan*, separation; *kha sprod*, facing). «རྐྱ་མདའ» stands in WBZ; «རྐྱ་མདའ་ཐུག» is a recurrent omen (WB, KD, MW25167), not glossed.*
-    *Answered 2026-10-18 late night ([year-of-life.md](year-of-life.md)): the spouses' *rkya mda'* «ཐུག» is cured by separating it, «བཟའ་མི་རྐྱ་འབྱེད་མཚེར་ས་སྤོ» (KD vol. 3; Dpal bsdus), WB's «རྐྱ་མདའ་དབྱེ་བསྲུང»: the spouses' twined strand, their bond, which the remedy unties.*
+    *Answered 2026-10-18 late night ([year-of-life.md](year-of-life.md)): the spouses' *rkya mda'* «ཐུག» is cured by separating it, «བཟའ་མི་རྐྱ་འབྱེད་མཚེར་ས་སྤོ» (KD vol. 3; Dpal bsdus), WB's «རྐྱ་མདའ་དབྱེ་བསྲུང»: the spouses' twined strand, their bond, which the remedy unties. NM gives the same omen for spouses on one trigram.*
 
 94. **Answered 2026-10-18. «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན».** WB vol. 1, p. 408:
     «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན» in the list of each kind of person's "two
@@ -1027,7 +1027,7 @@ the text, not about the app.
     lives, and does a member who died during the year still count?
     (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
     *Narrowed 2026-10-18 night ([year-of-life.md](year-of-life.md)): the notes (p. 492, read on the scan) count others living in the house: the spouses' obstacle «ཁྱོ་ཤུག་ལས་གཞན་རབ་བྱུང་སོགས་ལ་མེད་ཀྱང་། ཁྱིམ་གཅིག་ལ་ཟམ་ཐུག་གི་ཉེས་པ་ཙམ་ཡོད». A member who died is not addressed.*
-    *Answered 2026-10-18 late night ([year-of-life.md](year-of-life.md)): WB counts the members of one house («བཟའ་ཚང་ཁྱིམ་གཅིག»); the notes add, as some reckoners' advice, those gathered abroad and those at home that year (p. 491, read on the scan). Neither speaks of a member who died during the year (searched).*
+    *Answered 2026-10-18 late night ([year-of-life.md](year-of-life.md)): WB counts the members of one house («བཟའ་ཚང་ཁྱིམ་གཅིག»); the notes add, as some reckoners' advice, those gathered abroad and those at home that year (p. 491, read on the scan). Neither speaks of a member who died during the year (searched). BDRC's search finds no other reckoner on the point (six phrases searched).*
 
 97. **The thirty's 4th, 7th and 11th places.** WB vol. 1, p. 453 (img. 463):
     from where are the fourth, seventh and eleventh places counted? The
@@ -1254,7 +1254,7 @@ the text, not about the app.
      po rgyan gyi mchog* (Toh 1066; 84000, Negi), which no text here names
      in full. «སྤོམ་གཏའ» is in no dictionary.*
     *Narrowed 2026-10-18 night ([earth-lords.md](earth-lords.md)): «སྤོམ་གཏའ» is a *gto* rite of binding with texts of its own (Mipham's *Spom gta' chen mo bkra shis kun khyab*; Karma Chags med; Zhe chen rgyal tshab); its content not read.*
-    *Answered 2026-10-18 late night ([earth-lords.md](earth-lords.md)): Mipham's *Spom gta' chen mo* (Collected Works vol. 7, I2010 img. 280, read on the scan) calls it the king of rites, one general cure for all the faults of the harmful beings of the directions and times, from the reckoning texts and the Kong tse tradition.*
+    *Answered 2026-10-18 late night ([earth-lords.md](earth-lords.md)): Mipham's *Spom gta' chen mo* (Collected Works vol. 7, I2010 img. 280, read on the scan) calls it the king of rites, one general cure for all the faults of the harmful beings of the directions and times, from the reckoning texts and the Kong tse tradition. Its form (Mipham, img. 281–283): a tall trunk set toward the year's two-black mewa, with images, books, the sky dog and earth lords around it; WB plants it on the two-black too (p. 128).*
 
 123. **The seats' closing remedy.** In the seats' closing remedy (p. 224),
      what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and
@@ -1443,7 +1443,7 @@ the text, not about the app.
      Lhasa print, and which dragon year? (2026-10-13, O10,
      [kun-phan-me-long.md](kun-phan-me-long.md), "The rest of the book")
     *Narrowed 2026-10-18 night ([kun-phan-me-long.md](kun-phan-me-long.md)): the colophon (BDRC label img. 121) has a ཚ with a subscribed ས before «འབྲུག», not «མེ»; the Lhasa printers' community and the common printing house keep the blocks; the year is not settled.*
-    *Answered 2026-10-18 late night ([kun-phan-me-long.md](kun-phan-me-long.md)): a fire dragon year: the Lanzhou 2000 edition (W21970, p. 187, the lent scan) prints «སླར་ཡང་རབ་ཆེས་མེ་འབྲུག་ལོར་ལྷ་ལྡན་པར་བ་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན»; no cycle is named, so the year cannot be dated further; the blocks are the Lhasa printers' community's.*
+    *Answered 2026-10-18 late night ([kun-phan-me-long.md](kun-phan-me-long.md)): a fire dragon year: the Lanzhou 2000 edition (W21970, p. 187, the lent scan) prints «སླར་ཡང་རབ་ཆེས་མེ་འབྲུག་ལོར་ལྷ་ལྡན་པར་བ་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན»; no cycle is named, so the year cannot be dated further; the blocks are the Lhasa printers' community's. Confirmed on KP's block at 9×: «རབ་ཆེས་མེ་འབྲུག་ལོར».*
 
 141. **Answered 2026-10-18. Date 1's «རྟེན».** date 1's first line reads
      «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both scans and in both readers,
