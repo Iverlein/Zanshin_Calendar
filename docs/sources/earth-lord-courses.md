@@ -468,3 +468,42 @@ beside the woodcut, which Yigdzin-1 drops, by eye. Rāhu's own reckoning
   srid me long* has the same lines (a witness only). **Built** for the
   hour (`gnamKhyiPart`, `Texts.HOUR_GNAM_KHYI`); the year's own sky dog, which needs a bride's year (p. 196,
   the trigram *khen*), is not the hour's.
+
+  **The twelve parts' works** (p. 197, img. 205, from BDRC's etext of
+  the 1996 edition, VEIE0OPI51524892_I1KG12907, p. 197, fetched
+  2026-10-18; not yet checked on the scan, and the etext drops syllables:
+  «ཁ་ལ་ཚོང་དང་ས་བོན་འདེབས» reads «དང་ས་བོན་འདེབས», the mouth's trade gone, and
+  the throat's war line «ནམ་བྱེད་ངན»). The hours panel's reading gives
+  the general rule, the head's and the tail's works and the remedy
+  (ROADMAP X9, block 48, 2026-10-18); the other ten stand here, as the
+  reading gave them from block T2.20 to block 48:
+  «སྤྱིར་ན་ལས་ཐབས་མཁར་ལས་ཤིད།།རོ་དང་ཁྱད་་བག་མ་ངན།།ཀོ་ལོང་ཀུན་དང་སྒོས་སུ་ནི།།རོ་ཁུར་པ་ལ་སྡོམ་པར་བྱེད།།བྱེ་བྲག་མགོ་ལ་རོ་དུར་སེ།།མཁར་ལས་མི་བྱ་དམག་མི་དྲང་།།བག་མ་བླངས་ན་ཁྱོ་བོ་འཆི།།ཡང་ན་ཕ་མ་གཉིས་ལ་ངན།།…མཇུག་མར་རོ་སེལ་དམག་ཇག་ངན།།བག་མ་བླངས་ན་ཐ་རབས་ཆད།།…ཉམས་ན་ལུག་ལག་བོན་ཆོག་དང༌།གནམ་ཁྱིའི་མདོས་ཆོག་གཙུག་ཏོར་འདོན།།»
+
+  | Part | Bad there | A bride taken there |
+  | --- | --- | --- |
+  | 1 the head (མགོ) | a corpse or burial, building a fort, leading out an army | loses her husband, or harms both parents |
+  | 2 the mouth (ཁ) | trade and sowing | dies |
+  | 3 the throat (གྲེ་བ) | paying out wealth | — |
+  | 3 below it, the *nam 'dzong* | war and expelling | her wishes are fulfilled |
+  | 4 the *spro stod* (the etext སྒོ་སྟོད) | leading an army, mixing poison | many sons, very good |
+  | 5 the belly (ལྟོ་བ) | — | bad for her father's line |
+  | 5 the genitals (མཚན་མ) | laying a house's foundation | turns wanton |
+  | 6 the *spang khung* | moving a grave or a house | bears dull children |
+  | 7 the tail (མཇུག་མ) | removing a corpse, war, robbery | her line is cut |
+  | 8 the buttocks (འཕོངས) | stupas, forts | — (the etext: the house repeats) |
+  | 9 the lower back (སྒང་སྨད) | ploughing, virtuous work | parted, though the authoritative texts call it good |
+  | 10 the *shul pa* | seeking a grave site, great rites | her parents die, though this too brings good |
+  | 11 the upper back (སོག་པ, སྒང་སྟོད) | removing a corpse, forts, pursuing an aim | good |
+  | 12 the neck (གཉའ་མཇིང) | forts, stupas, building houses, weaving | bad for both families |
+
+  In general rites, building forts, funerals, corpses and above all a
+  bride are bad with it, and it takes offence at everyone, at
+  corpse-bearers most. The remedies besides the thread-cross and the
+  *gtsug tor*, as far as the etext can be followed before the scan is
+  read: a pig figure mounted by a black man (ཕག་གཟུགས་མི་ནག་བསྐྱོན), crow feathers and a
+  black yak tail set up as a screen; words in vermilion on the bride's
+  five fingers (ལྷ་སྟག་ཁྱུང་འབྲུག, four in the etext) and a swastika on her
+  left palm; a vessel (ཁྲི་ཐོད) filled with grains and the five precious
+  powders, a small figure of *'jag ma* grass on it. The old Chinese
+  reckoning, which lays the tail on the time's own animal and the head
+  on the seventh, is recorded, not shown (rule 6: no other view).

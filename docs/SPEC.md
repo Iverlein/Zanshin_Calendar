@@ -1215,7 +1215,7 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   each half is a clock hour, shown as dots on the hours panel's dial and in
   the day in brief's "By the hour"; the hour's nectar row on the panel
   opens the reading, which lists what the activity tables name them good
-  for. It takes no part in the weighing: it is a time within the day.
+  for, its *How it falls* row the rule and the weekday's clock hours. It takes no part in the weighing: it is a time within the day.
 - **The combination period** (*tatkāla dus sbyor*,
   [sources/combination-period.md](sources/combination-period.md)), which the
   texts hold above every factor of the day: the sign rising in each hour.
@@ -1278,7 +1278,14 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   animal, its tail on the seventh, its twelve parts clockwise (*chos
   skor*) on through the animals, as a Gyalrong rtsis collection lays them
   out, each with what it forbids and what it does to a bride
-  (`gnamKhyiPart`). On the hours panel (§10.3), not weighed.
+  (`gnamKhyiPart`); its reading gives the head's and the tail's, the
+  other ten parts' are in
+  [sources/earth-lord-courses.md](sources/earth-lord-courses.md). On the
+  hours panel (§10.3), not weighed. Each of these readings' *How it
+  falls* row is the shown hour's line (§8.1, rule 4; `HourFall`): the
+  place it sits on in this hour, the sky dog's head and tail, the date's
+  two black hours; the hour's *bla mkhyen* points to the day's for its
+  five texts, which stand once (ROADMAP X9).
 - **The hours of the Chinese reckoning** (WB vol. 2, p. 359, read on the
   scan; [sources/weighing.md](sources/weighing.md), *The hour of rule 2*):
   after the twelve day animals' results WB names what each of the twelve
@@ -1292,7 +1299,7 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   year's animal's: fierce and harsh work, gatherings, confrontations and
   great displays avoided (`ChineseHours.ownYearHour`, `Texts.OWN_YEAR_HOUR`).
   The four rough times when the four māras move, «ཕྱེད་གཉིས་ཟེར་གཉིས»: in them
-  nothing turns out well but averting, killing and fierce work
+  nothing goes well but averting, killing and fierce work
   (`Texts.ROUGH_TIME`). WB does not say which they are; a ritual manual of
   the *Rin chen gter mdzod* (vol. 54) glosses the same pair, «གུང་གཉིས་དང་ཟེར་གཉིས»,
   as midnight and noon and the rays of the sun rising in the morning and
@@ -1771,7 +1778,7 @@ the same way.
    `tib_mansion_lists_note` on how its lists are joined, the birth
    mansion's `tib_birth_mansion_note` and the pebbles' `pebble_note` on
    what is set against what, by which clock, and what the app leaves
-   out).
+   out, the hours panel's `hours_rough_note` and `hours_over_day_note`).
 9. **No editor's notes.** "Not identified", "the print spells", "the two
    rendered word for word", "some say" go to the topic file in
    `docs/sources/`, with the Tibetan, and to ROADMAP's *Left open* table
@@ -2510,7 +2517,9 @@ canvas "Zanshin Calendar — basic design".
   hour, "Your own year's hour" with a birth date, and "Against the day's
   animal sign" where the hour turns works the day animal alone decided
   ("To avoid in this hour: consultations"), its details giving the works
-  on each side. Each
+  on each side and its note (`hours_over_day_note`) how far the hour
+  reaches; the rough time's note (`hours_rough_note`) says its moment is
+  the sun's at the user's place. Each
   opens its reading as the day's rows do. The ring keeps the period's
   verdict; an unlucky arc inside the rings marks Viṣṭi's span (§5.8).
 - **The sheet** (SPEC §8.1, *The shape of a reading*; ROADMAP X1, X2,

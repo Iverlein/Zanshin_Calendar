@@ -102,7 +102,7 @@ moves up as soon as it is unblocked.
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions — built 2026-10-17 | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries — built 2026-10-18 | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day — built 2026-10-18 | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
-| <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
+| <a id="block-48"></a>48 | [X9](#x9) The hours panel — built 2026-10-18 | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) | K1's reading (kyureki.md) | — | Build block 51: K1, the Russian terms by the literature. |
@@ -2754,7 +2754,7 @@ X, so that the owner reads the wording once. The blocks are
   the whole Tibetan page on 18 October and 14 November 2026 and 15 January
   2027, English and Russian, without a raw key.
 
-#### <a id="x9"></a>X9 The hours panel
+#### <a id="x9"></a>X9 The hours panel — built 2026-10-18
 
 - **Gap.** The sky dog of the hour is 435 words, its twelve places and
   what each forbids; the earth lords of the hour 221; the astrologer
@@ -2772,6 +2772,52 @@ X, so that the owner reads the wording once. The blocks are
 - **Done when.** The panel's readings with their Russian; an hour with
   the sky dog, the black hour and a nectar period on the emulator in
   both languages; `CatalogTest` without the families' allowance.
+- **Built** (2026-10-18). Every reading of the panel is 20–60 words as
+  the sheet shows it, in both languages, and opens on what it is in the
+  shown hour and which way it cuts; rule 6's words throughout (the
+  combination periods "to be avoided" and "to be accomplished", "all keep
+  away from it", "thrive"; the hours' works "go well" for "auspicious",
+  "succeed", "turns out"). *How it falls* rows are the shown hour's line,
+  built by a new `HourFall` (rule 4): the earth lords and the hidden lord
+  on the hour's own place, the astrologer spirit and the earth king on
+  theirs ("in the hare hour, on the place of the snake, the upper south"),
+  the sky dog's head and tail, the date's two black hours, the rough
+  time's four with this one and its clock time, the own year's hour, and
+  the nectar periods' rule with the weekday's clock hours. The earth
+  lords' 195 words: who sits on the place, what goes badly, whom they
+  take offence at; Yudzö Ngönmo's form an *Also called* row, the two
+  remedies one *Remedy* row. The astrologer spirit's 151: on the luck of
+  the hour's three animals, its offence; the triads' table left to
+  earth-lord-courses.md and the five texts to the day's reading, which the
+  hour's *Remedy* points to. The earth king's 117: on the four-slayer
+  three animals on, what harming it does; the mouse hour's example left to
+  the topic file, the empowerment and the feast offering a *Remedy* row
+  (*tshogs* named as the special days name it, D7). The hidden lords'
+  106: the hour's lord named with its bracket in the note, which no longer
+  lists all twelve; the general remedies a row of the family. The sky
+  dog's 407: lying round the places, the head's and the tail's works,
+  above all a bride, its offence; the thread-cross a *Remedy* row; the
+  other ten parts and the old reckoning to earth-lord-courses.md, as a
+  table with the etext's Tibetan. The black hour's 103: what it is and
+  that fierce work strikes home, the swastika a *Remedy* row. The nectar
+  periods' 96: what this clock hour is, the rule the line, "the works
+  below" and the clock gone. The rough time's clock and the hour's reach
+  over the day's other factors left the readings for two notes,
+  `hours_rough_note` and `hours_over_day_note` (rule 8). *phyed yol* named
+  one way, "past the half", in the sheep and the ox hours (D7). X9's
+  allowance line is deleted; X3 and X4 keep theirs.
+- **Checked.** `:core:test` (`HourFallTest`: each line in English and
+  Russian, the remedies as rows, the five texts only in the day's
+  astrologer spirit) and `:app:testDebugUnitTest`. On the emulator in
+  English and Russian, Kyoto, 18 October 2026 (a bird date, a Sunday), the
+  test person (1976-06-01): the horse hour with the black hour, the noon
+  rough time, the hour against the day's animal sign, what the hour is
+  for, the earth lords, the astrologer spirit, the earth king, the hidden
+  lord Jilam and the sky dog; the bird hour's nectar period and sunset;
+  the dragon hour as the own year's. The release build, signed with the
+  debug key: no INTERNET permission, the same sheets word for word as the
+  debug build in both languages, no raw key. No store shot shows these
+  sheets.
 
 #### <a id="x10"></a>X10 The rest — built 2026-10-16 (the year sheet went with Y1)
 
