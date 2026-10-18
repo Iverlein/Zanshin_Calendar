@@ -1824,10 +1824,10 @@ name, or a word named by another word's longer name ("water tormas" for
 the torma, where the water torma has its own word), are bracketed two
 ways, a check run on English only, since a Russian genitive puts the
 head before the name. *bla gza'* is the listed exception. The families
-not yet in the shape are allowed their breaks by the ROADMAP item that
-brings them to it (X3–X10), a count per item that may only fall, and
-every other text holds the shape now; the 旧暦 page's readings, not in
-X's review, are outside the checks. The rest of the rules (the ruling
+were brought to the shape one ROADMAP item at a time (X3–X10), each
+allowed its breaks until its block was built; since the last, block 43
+(2026-10-18), every reading holds the shape with no allowance. The 旧暦
+page's readings, not in X's review, are outside the checks. The rest of the rules (the ruling
 first, one vocabulary, an image marked as one, plain sentences, a family
 read as one) the writer checks by hand.
 The three examples below are the rule applied to readings as they stood;

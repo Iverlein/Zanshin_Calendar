@@ -166,7 +166,7 @@ middling for putting on (2026-10-15).
 - **Theft** (ll. 26–27): someone from a house of mourning, its door to the south-west (the print «སྒོ», Yigdzin-1 སྦོ), who keeps a white dog, took it.
 - **Remedy if obstructed** (l. 27): raise a snake's skull into the sky; hold a camel's skull (རྔ་མོ, rnga mo) captive.
 - **War** (ll. 27–28): to attack, men of bird and monkey years in white gear and clothes make the «བསོ་གདབ» (WBZ «སྭ་གདབ»). When attacked, men of horse and snake years, riding a dzo (མཛོ, mdzo, the yak–cow cross), in red gear, burn a fire.
-- **Not in the app's lists:** རིམ་གྲོ (services); སྨན་ཚོང (selling medicine?); རྙེད་བཀུར (gain and honour); དུར་སྦ་མགྲོན་འགྲོ (not identified; སྦ in both prints, a closed box), ནད་ཐེབས, འཁོན་པར་ས among the bad; ཧོམ་སྤར (hom offerings), "forbidden by some": in the summary, not in the lists.
+- **Not in the app's lists:** རིམ་གྲོ (services); སྨན་ཚོང (selling medicine?); རྙེད་བཀུར (gain and honour); དུར་སྦ་མགྲོན་འགྲོ (not identified; སྦ in both prints, a closed box), ནད་ཐེབས, འཁོན་པར་ས among the bad; ཧོམ་སྤར (hom offerings), "forbidden by some": in the summary until ROADMAP X4 (2026-10-18), which left it out, as it left Wednesday's «དུར་འདེབས་བཀག་པར་བཤད་ཀྱང་ཡོད» (some forbid burial): a view the verse gives as some people's is not shown (SPEC §8.1, rules 6 and 9); Wednesday's own "even when strong, no grave dug" stays.
 
 ## Saturday, Saturn (སྤེན་པ), p. 312, img. 320
 

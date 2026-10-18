@@ -48,6 +48,12 @@ app already counts under fierce rites, as in Rāhu's readings. The Derge
 print (vol. 2, img. 436) is served at 1229 × 178 px, too small to see the
 vowel.
 
+*drug las* (དྲུག་ལས, date 15, the verse's first word) is "the six rites"
+(the Viṣṭi verse writes «དྲུག་ལས་འགྲུབ», karanas.md). Which six the verse
+means it does not say, so the app lists it as "the six rites" among the
+date's good works and weighs it for no work (ROADMAP X3, 2026-10-18;
+before, a sentence of the reading).
+
 | Date | Text (activities and birth) | Good | Avoid | Birth | Ill / death |
 | --- | --- | --- | --- | --- | --- |
 | 1 | ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན། །དོན་གཉེར་ས་དབྱེ་ཞི་ལས་བཟང་། །ཆོས་འཆད་སྐྲ་འཁྲུ་གཤིན་ལས་བག །གང་ཡང་ཕྱི་ལ་གཏོང་བ་དང་། །ལྷ་མཆོད་བཟློག་པ་སྲི་མནན་ངན། །ཕོ་མོ་བསྟུད་བཙའ་ཤེས་པ་ཡངས། … །ཤི་ངན་རབ་བྱུང་ཟས་ནོར་འཛད། །གཡུལ་གཤོམས་ཤར་མིན་གཞན་རྣམས་བཟང་། །ཕྱུགས་ཉོས་པ་ནི་སྟོང་དུ་འཕེལ། | setting out, lawsuits, breaking ground, pacifying rites; battle in any direction but east; livestock bought increases a thousandfold | teaching dharma, washing the hair, funeral rites, marriage, giving anything out, worship of deities, averting rites, suppressing *sri*; ordination (food and wealth run out) | children follow one another; wide learning | its own (upper-body pain, eyes; *gre mo*, *klu btsan*); death bad |
@@ -195,7 +201,8 @@ Ives Waldo, Jim Valby):
 In a person the la climbs from the foot to the head in the waxing half
 and comes down again in the waning half; the livestock column keeps no
 such order. The app gives both places in the lunar
-date's reading (T2.16, 2026-10-08).
+date's reading (T2.16, 2026-10-08), as its *La today* row since
+ROADMAP X3 (2026-10-18).
 
 ### By the hour, the *lho gter* list and the weekday
 

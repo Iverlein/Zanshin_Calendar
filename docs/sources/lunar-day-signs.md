@@ -65,6 +65,11 @@ readings below hold for her day under either count):
 | 'Od 'chang ma | 7, 15, 23 | ཕྱོགས་ངན་ཟས་དང་དམར: food from a bad direction, flesh and blood | ས་བདག་ཀླུ་གཉན་གྲེ་མོ | ཀླུ་ཆོག་དང་གྲེ་མོ་བཀར | ནུ་མཆིན་རྩིབ་མ་གཟེར, ཕོ་བ་ན་དང་སྐྲངས་པོ: liver and ribs, stomach, swellings |
 | Skyob byed ma | 8, 16, 24 | ལྷ་ཁང་བན་བོན་ནོར: property of a temple or of Buddhist or Bon priests | བེ་ཧར་དཀོར་བདག་དམ་སྲི | རྒྱལ་མདོས་བསྐང་བཤགས་དམ་སྲི་བཀར | མཁལ་རྐེད་ན་མིག་ནད་སྙིང་རླུང་ལྡང་དུབ: kidneys and waist, eyes, heart wind, exhaustion |
 
+Mdangs ldan ma's «ཆབ་གཏོར» is the water torma in the honorific, ཆབ for
+ཆུ; the app's *Rites* row names it as Dkar gsal ma's «ཆུ་གཏོར» is named,
+water tormas (ཆུ་གཏོར, chu gtor), one Wylie to one English name
+(ROADMAP X4, 2026-10-18).
+
 **The spirit names and rites, looked up 2026-10-04** in the dictionaries
 of Steinert's collection (see [weekdays.md](weekdays.md)): *gre bo* a kind
 of male *gdon* (Ives Waldo, Jim Valby); *rgyal 'gong* spirits born of the

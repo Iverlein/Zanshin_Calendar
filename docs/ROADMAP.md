@@ -37,7 +37,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 16 | N1 The morning notice — built 2026-10-16 | S | One notification a day with the brief's tone, reason and hours, on the bell's alarms (SPEC §10.9); SPEC §3 moves it into scope | U11, for the hours' short form |
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget — built 2026-10-16 | M | A widget in two sizes with the day's tone, its reason and the hours, plain RemoteViews rather than Glance; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
-| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16; X6, block 45, 2026-10-17; X7 and X8, blocks 46 and 47, 2026-10-18); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
+| 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16; X6, block 45, 2026-10-17; X7, X8 and X9, blocks 46 to 48, and X3–X4, block 43, 2026-10-18, the last); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
@@ -97,7 +97,7 @@ moves up as soon as it is unblocked.
 | <a id="block-40"></a>40 | [A2](#a2) Large font and landscape — built 2026-10-16 | — | [34](#block-34), [36](#block-36), [42](#block-42) (the sheets' label column) | Build block 40: A2, the page at font scale 1.5 and 2.0, in landscape and on a tablet. |
 | <a id="block-41"></a>41 | [W1](#w1) The widget — built 2026-10-16 | — | [33](#block-33), [34](#block-34), [36](#block-36) | Build block 41: W1, the widget in two sizes, in the app's theme. |
 | <a id="block-42"></a>42 | [X1](#x1) + [X2](#x2) The shape of a reading, and rows in the catalog — built 2026-10-11, with the lesser black day's example and rule 2's 20-word floor; the examples read by the owner 2026-10-11 | — | — | Build block 42: X1 and X2, the shape rule in SPEC §8.1 with its three examples, the catalog's rows on the sheet and `CatalogTest` holding the shape. |
-| <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
+| <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days — built 2026-10-18, dates 1, 3 and 6 as built until D11 | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days — built 2026-10-16 | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions — built 2026-10-17 | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
 | <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries — built 2026-10-18 | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
@@ -2401,7 +2401,7 @@ X, so that the owner reads the wording once. The blocks are
   (a Sunday and the 1st) on the emulator in English and Russian at font
   scale 1.0 and 1.3; the release build for raw keys.
 
-#### <a id="x3"></a>X3 The lunar dates
+#### <a id="x3"></a>X3 The lunar dates — built 2026-10-18
 
 - **Gap.** Thirty readings of 60 to 90 words: the class's three names
   first, the ruling after the colon, then births, deaths, livestock,
@@ -2423,8 +2423,28 @@ X, so that the owner reads the wording once. The blocks are
 - **Done when.** The 30 readings and their Russian; dates 1, 4, 8 and
   15 on the emulator in both languages; `CatalogTest` without the
   family's allowance.
+- **Built** 2026-10-18 (block 43). Each date's paragraph is its class's
+  ruling, as date 1's example: joy and victorious as the five-fold verse
+  words them, the excellent day "above all, seeking friends and sowing
+  seed go well" (the verse's «ཁྱད་པར»), the empty and the full day "not a
+  virtuous one: in general …" (its «སྤྱིར་ན»); the four perilous dates add
+  "It is a perilous day, when …" and the illness sentence. Rows: *Also
+  called* (the class's Sanskrit name), *Remedy* (the empty and full
+  days'), *La today*, *A birth today*, *A death today*, *Livestock*, the
+  H1 *Illness* row as it was. Moved out of the paragraphs: the flood
+  dikes (dates 22 and 27, already in their Avoid lists), the 29th's
+  lightning and hail (under fierce rites, its print note in
+  [lunar-dates.md](sources/lunar-dates.md)), "not identified" (dates 3
+  and 5, in the topic file's la table); the 15th's six rites (དྲུག་ལས,
+  drug las) joined its Good-for list as a wording that weighs no work
+  (`Activities`: "six_rites" to none). Dates 1, 3 and 6 keep their birth
+  lines as built until D11. The hair dates' results are no longer
+  readings: their family note "Washing the hair today: {0}." was shown
+  nowhere, the result being the lunar date sheet's *Washing the hair*
+  detail, so the results are `HairDate.<n>` texts read by
+  `Texts.hairDate` and their 60 short paragraphs left the count.
 
-#### <a id="x4"></a>X4 The weekdays and the goddesses' days
+#### <a id="x4"></a>X4 The weekdays and the goddesses' days — built 2026-10-18
 
 - **Gap.** A weekday's 100 words open with the planet's caste, colour
   and element and end with births and deaths; the one prohibition that
@@ -2443,6 +2463,30 @@ X, so that the owner reads the wording once. The blocks are
 - **Done when.** The 7 and the 8 with their Russian; Sunday and the
   fire trigram's day on the emulator in both languages; `CatalogTest`
   without the family's allowance.
+- **Built** 2026-10-18 (block 43). Weekdays as Sunday's example: "<the
+  planet>'s day", setting out, the planet's own "even when strong"
+  prohibition with its reason (none for Mars, whose «གྲི་མི་འདུལ» is not
+  settled), and on Tuesday and Saturday the closing verse's days without
+  virtuous work; Tuesday's name Auspicious moved into *Also called* with
+  caste, colour and element; what goes well when the planet is strong
+  (Wednesday's increasing rites, Friday's rites of power, Saturday's
+  killing) closes *Strong when*; Thursday's funeral feast stands in *A
+  death today*. Wednesday's "some forbid burial" and Friday's "some
+  forbid fire offerings" left the readings, as views the verse gives as
+  some people's (rules 6 and 9; [weekdays.md](sources/weekdays.md)). The
+  goddesses' days: "The day of the <element> trigram is the day of
+  <goddess>, … of the eight goddesses counted through the month", and
+  what an illness is traced to; rows *Spirits that harm*, *Illness*,
+  *Rites*. The sky trigram's honorific «ཆབ་གཏོར» is named as the water
+  torma (ཆུ་གཏོར, chu gtor), D7's one name per Wylie
+  ([lunar-day-signs.md](sources/lunar-day-signs.md)). `CatalogTest`'s
+  allowance is empty: every reading holds the shape.
+- **Checked** (X3 and X4). `:core:test` and `:app:testDebugUnitTest`; on
+  the emulator in English and Russian, Kyoto: 14 October 2026 (the 4th),
+  18 October (the 8th, a Sunday), 26 October (the 15th, the six rites in
+  its Good-for list), 10 November (the 1st) and 24 October (the fire
+  trigram's day), each sheet read to its last row. No store shot shows
+  these sheets; no release build (no enum key changed).
 
 #### <a id="x5"></a>X5 The combination and the special days — built 2026-10-16
 
