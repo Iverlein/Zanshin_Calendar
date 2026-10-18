@@ -454,7 +454,11 @@ as a dead end (sources/PLAN.md).
   (寒露, a 節) and 25 Oct (霜降, a 中): every new row and sheet tapped and
   dumped, at font scale 2.0 (the date balloon's labels shortened so that
   its values do not break letter by letter) and in landscape. The kanji
-  shown are all in the font subset; no rebuild.
+  shown are all in the font subset; no rebuild. The review dossier (`tools/pdf/`, kept out of git) has the 24 terms'
+  readings and *Also called* rows in its glossary, 節 or 中 beside each,
+  and its feature notes describe the term's sheet, the date and moon's
+  balloon, the 干支 balloons and the stars' sheets; rebuilt as
+  `kyureki-review-2026-10-25.ru.pdf`.
 - **Done when.** Every row of the page opens on the emulator in both
   languages (a tour that taps each row and dumps the sheet or balloon),
   the term's sheet with its reading, details and full ring, legible at
