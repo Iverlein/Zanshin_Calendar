@@ -36,6 +36,10 @@ import zanshin.core.tibetan.CourseDay
 import zanshin.core.tibetan.AnimalFall
 import zanshin.core.tibetan.CourseFall
 import zanshin.core.tibetan.EveryMonthFall
+import zanshin.core.tibetan.HourFall
+import zanshin.core.tibetan.AnimalPlace
+import zanshin.core.tibetan.ChineseHours
+import zanshin.core.tibetan.nectarHours
 import zanshin.core.tibetan.Fall
 import zanshin.core.tibetan.GreatBlackDay
 import zanshin.core.tibetan.MonthFall
@@ -220,6 +224,7 @@ fun fallLine(f: Fall): String {
             animalOf(f.animal),
         )
         is EveryMonthFall -> Catalog.format("CourseFall.everyMonth", dateList(f.dates), dateOrdinal(f.date))
+        is HourFall -> Catalog.format("HourFall.${f.rule}", *f.terms.map(::fallTerm).toTypedArray())
     }
     val at = f.at?.let { key ->
         key.removePrefix("CourseAt.hour.").takeIf { it != key }?.let { Catalog.format("CourseAt.hour", animalOf(Animal.valueOf(it))) } ?: Catalog.text(key)
@@ -236,6 +241,15 @@ fun fallLines(falls: List<Fall>): String {
 
 /** An animal as a line names its day or hour: "dragon", «дракона». */
 private fun animalOf(a: Animal): String = Catalog.text(glossKey(a, "of"))
+
+/** One term of an [HourFall]'s line, as its doc says. */
+private fun fallTerm(t: Any): String = when (t) {
+    is Animal -> animalOf(t)
+    is AnimalPlace -> Catalog.text(glossKey(t.animal, "place"))
+    is Enum<*> -> Catalog.textOrNull(glossKey(t, "inText")) ?: Catalog.text(glossKey(t))
+    is List<*> -> joined(t.map { fallTerm(it!!) })
+    else -> t.toString()
+}
 
 /** Dates in order, three or more in a row as a range: "the 10th, 17th to 22nd and 24th to 30th". */
 private fun dateList(dates: Set<Int>): String {
@@ -1329,14 +1343,19 @@ object Texts {
     }
 
     /**
-     * Jupiter's nectar periods ([zanshin.core.tibetan.nectarHours]): the rule,
-     * and what the print's activity boxes name them good for (boxes 17, 19,
-     * 26, 34, 49, 55, 60; docs/sources/kp-activities.md).
+     * Jupiter's nectar periods ([zanshin.core.tibetan.nectarHours]): what the
+     * print's activity boxes name them good for (boxes 17, 19, 26, 34, 49, 55,
+     * 60; docs/sources/kp-activities.md); the rule is [nectarPeriods]' line.
      */
     val NECTAR_PERIODS = Reading(
         goodKeys = listOf("auspicious_work", "reconciliation", "raising_banners", "preparing_medicine", "consecration", "bringing_rain", "council"),
         source = Sources.KUN_PHAN_ME_LONG_NECTAR, also = listOf(Sources.KUN_PHAN_ME_LONG),
         key = "reading.NectarPeriods",
+    )
+
+    /** The nectar periods on a [weekday], their *How it falls* line the rule and the weekday's clock hours (nectar-periods.md). */
+    fun nectarPeriods(weekday: Weekday): Reading = NECTAR_PERIODS.copy(
+        falls = listOf(HourFall("nectar", listOf(weekday, nectarHours(weekday).map { "%02d:00–%02d:00".format((5 + it) % 24, (6 + it) % 24) }))),
     )
 
     /**
@@ -1423,50 +1442,70 @@ object Texts {
      * The earth lords of the hour (WB vol. 2, p. 235): *g.yu mdzod sngon mo*, the god of the hours, and
      * the earth lords *khang brtsegs* and *mtsho sngon*, each on the place of the hour that it is, as the
      * day's earth lord on its day's («དུས་ཚོད་གང་ཡིན་སྟེང་ན་གནས», «དུས་ཚོད་རང་རང་ཐོག་ན་གནས»); what WB names bad
-     * there. The hour's *bla mkhyen* and *sa rgyal* have readings of their own below.
+     * there. The hour's *bla mkhyen* and *sa rgyal* have readings of their own below. Each hour's *How it
+     * falls* names its place.
      */
-    val HOUR_EARTH_LORDS = Reading(
-        avoidKeys = listOf("giving_and_taking_a_bride", "funeral_rites", "building_a_hearth", "burial", "building_forts", "moving_house"),
-        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.SNANG_BRGYAD, Sources.GDUGS_DKAR, Sources.TOG_GZUNGS, Sources.GZUNGS_BSDUS),
-        key = "reading.HourEarthLords",
-    )
+    val HOUR_EARTH_LORDS: Map<Animal, Reading> = Animal.entries.associateWith {
+        Reading(
+            avoidKeys = listOf("giving_and_taking_a_bride", "funeral_rites", "building_a_hearth", "burial", "building_forts", "moving_house"),
+            source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.SNANG_BRGYAD, Sources.GDUGS_DKAR, Sources.TOG_GZUNGS, Sources.GZUNGS_BSDUS),
+            key = "reading.HourEarthLords", falls = listOf(HourFall("own", listOf(it, AnimalPlace(it)))),
+        )
+    }
 
     /**
      * The hour's *bla mkhyen* ([zanshin.core.tibetan.EarthLordCourses.hourBlaMkhyen], WB vol. 2, p. 235): on the
-     * *klung rta* of the hour's triad, its avoidances and remedies the year's (p. 180), as [BLA_MKHYEN] gives them.
+     * *klung rta* of the hour's triad, its avoidances the year's (p. 180), as [BLA_MKHYEN] gives them; its remedy
+     * the day's, whose five texts stand once, in [BLA_MKHYEN]'s row.
      */
-    val HOUR_BLA_MKHYEN = Reading(
-        avoidKeys = BLA_MKHYEN.getValue(Direction.NORTH).avoidKeys,
-        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS,
-        also = listOf(Sources.WHITE_BERYL_KLUNG_RTA, Sources.WHITE_BERYL_BLA_MKHYEN) + BLA_MKHYEN.getValue(Direction.NORTH).also.take(5),
-        key = "reading.HourBlaMkhyen",
-    )
+    val HOUR_BLA_MKHYEN: Map<Animal, Reading> = Animal.entries.associateWith {
+        val on = EarthLordCourses.hourBlaMkhyen(it)
+        Reading(
+            avoidKeys = BLA_MKHYEN.getValue(Direction.NORTH).avoidKeys,
+            source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS,
+            also = listOf(Sources.WHITE_BERYL_KLUNG_RTA, Sources.WHITE_BERYL_BLA_MKHYEN) + BLA_MKHYEN.getValue(Direction.NORTH).also.take(5),
+            key = "reading.HourBlaMkhyen", falls = listOf(HourFall("place", listOf(it, on, AnimalPlace(on)))),
+        )
+    }
 
     /**
      * The hour's *sa rgyal* ([zanshin.core.tibetan.EarthLordCourses.hourSaRgyal], WB vol. 2, p. 236): on the
      * four-slayer in front of the hour; spectacles, corpse rites and building a fort avoided.
      */
-    val HOUR_SA_RGYAL = Reading(
-        avoidKeys = listOf("spectacles", "funeral_rites", "building_forts"),
-        source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
-        key = "reading.HourSaRgyal",
-    )
+    val HOUR_SA_RGYAL: Map<Animal, Reading> = Animal.entries.associateWith {
+        val on = EarthLordCourses.hourSaRgyal(it)
+        Reading(
+            avoidKeys = listOf("spectacles", "funeral_rites", "building_forts"),
+            source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, also = listOf(Sources.WHITE_BERYL_KLUNG_RTA),
+            key = "reading.HourSaRgyal", falls = listOf(HourFall("place", listOf(it, on, AnimalPlace(on)))),
+        )
+    }
 
-    /** The hidden earth lord of each hour's animal, on its place (WB vol. 2, pp. 221 and 236); the lord's name fills the summary. */
+    /**
+     * The hidden earth lord of each hour's animal, on its place (WB vol. 2, pp. 221 and 236); the lord's name fills
+     * the summary, and the family's note holds the remedy all twelve share.
+     */
     val HOUR_HIDDEN: Map<Animal, Reading> = Animal.entries.associateWith {
         Reading(
             avoidKeys = listOf("carrying_out_the_dead"),
             source = Sources.WHITE_BERYL_HIDDEN_LORDS,
-            key = "reading.HourHidden", arg = "reading.HourHidden.${it.name}",
+            key = "reading.HourHidden", arg = "reading.HourHidden.${it.name}", alsoRows = listOf("reading.HourHidden"),
+            falls = listOf(HourFall("own", listOf(it, AnimalPlace(it)))),
         )
     }
 
-    /** The black sky dog of the hour (WB vol. 2, pp. 197 and 236): its body over the twelve places and what each part forbids. */
-    val HOUR_GNAM_KHYI = Reading(
-        avoidKeys = listOf("building_forts", "funeral_rites", "taking_a_bride", "war", "building_temples_and_stupas"),
-        source = Sources.WHITE_BERYL_GNAM_KHYI, also = listOf(Sources.GDUGS_DKAR),
-        key = "reading.HourGnamKhyi",
-    )
+    /**
+     * The black sky dog of the hour (WB vol. 2, pp. 197 and 236): its head on the hour's place and its tail on the
+     * seventh, with what those two forbid; the other ten parts' works are in earth-lord-courses.md.
+     */
+    val HOUR_GNAM_KHYI: Map<Animal, Reading> = Animal.entries.associateWith {
+        val tail = Animal.entries[(it.ordinal + 6) % 12]
+        Reading(
+            avoidKeys = listOf("building_forts", "funeral_rites", "taking_a_bride", "war", "building_temples_and_stupas"),
+            source = Sources.WHITE_BERYL_GNAM_KHYI, also = listOf(Sources.GDUGS_DKAR),
+            key = "reading.HourGnamKhyi", falls = listOf(HourFall("dog", listOf(it, AnimalPlace(it), tail, AnimalPlace(tail)))),
+        )
+    }
 
     /**
      * The black hours ([zanshin.core.tibetan.EarthLordCourses.blackHour], WB vol. 2, p. 236): the
@@ -1479,6 +1518,11 @@ object Texts {
             "taking_a_bride", "important_works",
         ),
         source = Sources.WHITE_BERYL_HOUR_EARTH_LORDS, key = "reading.BlackHour",
+    )
+
+    /** The black hours of a day whose date's animal is [dateAnimal], its two black hours the *How it falls* line. */
+    fun blackHour(dateAnimal: Animal): Reading = BLACK_HOUR.copy(
+        falls = listOf(HourFall("black", listOf(dateAnimal, Animal.entries.filter { EarthLordCourses.blackHour(dateAnimal, it) }))),
     )
 
     /**
@@ -1504,7 +1548,7 @@ object Texts {
 
     /**
      * The four rough times ([zanshin.core.tibetan.ChineseHours.RoughTime], WB vol. 2, p. 359): only
-     * averting, killing and fierce work succeeds in them, nothing else turns out well.
+     * averting, killing and fierce work goes well in them, nothing else.
      */
     val ROUGH_TIME = Reading(
         goodKeys = listOf("averting_killing_and_fierce_work"),
@@ -1513,11 +1557,17 @@ object Texts {
         key = "reading.RoughTime",
     )
 
+    /** The rough time [kind], its *How it falls* line the four and this one at the clock time [at]. */
+    fun roughTime(kind: ChineseHours.RoughTime, at: String): Reading = ROUGH_TIME.copy(falls = listOf(HourFall("rough", listOf(kind, at))))
+
     /** The hour of one's own year ([zanshin.core.tibetan.ChineseHours.ownYearHour], WB vol. 2, p. 359). */
     val OWN_YEAR_HOUR = Reading(
         avoidKeys = listOf("fierce_and_harsh_work", "gatherings", "confrontations", "great_displays"),
         source = Sources.WHITE_BERYL_HOURS, key = "reading.OwnYearHour",
     )
+
+    /** The hour of the own year of one born in a year of [birthAnimal], its *How it falls* line the hour. */
+    fun ownYearHour(birthAnimal: Animal): Reading = OWN_YEAR_HOUR.copy(falls = listOf(HourFall("ownYear", listOf(birthAnimal))))
 
     /**
      * The *kun phan me long*'s rule 2 from WB vol. 2, p. 376, «ཉི་མ་དུས་ཚོད་མི་འདྲ་ན། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བས་གཙོ»:

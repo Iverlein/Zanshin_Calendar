@@ -134,6 +134,17 @@ data class AnimalFall(
 data class EveryMonthFall(val date: Int, val dates: Set<Int>, override val at: String? = null, override val label: String? = null) : Fall
 
 /**
+ * A reading of the hours as it falls in the shown hour or on the shown day (ROADMAP X9): the catalog's line
+ * `HourFall.<rule>`, filled with [terms] in turn, an [Animal] as a line names its hour or day ("hare"), an
+ * [AnimalPlace] as the place's name ("lower east"), another term of the engine by its name in running text, a
+ * list joined as "a, b and c", anything else as it stands (a clock time).
+ */
+data class HourFall(val rule: String, val terms: List<Any>, override val at: String? = null, override val label: String? = null) : Fall
+
+/** The place of [animal] round the house, as an [HourFall] names it (WB vol. 1, p. 254: the tiger the upper east …). */
+data class AnimalPlace(val animal: Animal)
+
+/**
  * The courses of WB vol. 2, pp. 226–235, read on the scan (docs/sources/earth-lord-courses.md).
  * Chapter 31 counts by the Chinese reckoning ([SeasonReckoning.CHINESE]): its first month of spring
  * is the 11th, the tiger month, so a course "of the tiger month" and one "of the first month of

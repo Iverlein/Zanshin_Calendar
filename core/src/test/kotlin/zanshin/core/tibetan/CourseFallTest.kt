@@ -123,6 +123,8 @@ class CourseFallTest {
                     is MonthFall -> assertTrue(date in fall.dates && fall.date == date, "$day")
                     is AnimalFall -> assertTrue(animal in fall.animals && fall.animal == animal, "$day")
                     is EveryMonthFall -> assertTrue(date in fall.dates && fall.dates.all { (it - date) % 10 == 0 }, "$day")
+                    // The hours' lines (HourFallTest), never a course's.
+                    is HourFall -> throw AssertionError("$day")
                     null -> {}
                 }
             }
