@@ -1279,7 +1279,8 @@ the text, not about the app.
      scan), and the editors number «བཅུ་དྲུག་བཅུ་དགུའི་བར»
      as 16–19; read as a run, no date is both good and bad and only 2, 20 and
      27–30 are left neutral. Against it, KP (box 16), a digest of WB, reads
-     the bad line as a run (16, 17, 18, 20) and the good as 21 and 25 alone.*
+     the bad line as a run (16, 17, 18, 20) and the good as 21 and 25 alone.
+     The owner chose the run the same day; it is built (`WhiteBerylWorks`).*
 
 157. **KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
      has the 19th and 29th where KP's box 21 is carved with the shape of

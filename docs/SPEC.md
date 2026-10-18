@@ -579,7 +579,11 @@ Edward Henning, *Horary and electional astrology of the five components*
   one month only (work 14: the 27th of the 11th month, the 25th of the
   12th, the 23rd of the 1st, by the Hor months as chapter 31 numbers them, §5.13) are
   `Factors.monthDates`, joined to the date's lists in that month alone
-  (`Texts.electionalDate`). So the chapter settles the
+  (`Texts.electionalDate`), where they outweigh the plain date on the
+  other side (the 25th is good for goods, the 12th month's 25th bad).
+  Work 14's good «ཉེར་གཅིག་ཉེར་ལྔའི་བར» is the run 21 to 25, as work 13
+  writes it out, where the box has the 21st and the 25th alone (open
+  question 156, the owner, 2026-10-18). So the chapter settles the
   doubled khrums of the offerings box (Pūrvabhādrapadā good,
   Uttarabhādrapadā bad), puts back what the box's abbreviations and
   numerals lost (khrums stod and smad, ༤ for ༦), and reverses the day
