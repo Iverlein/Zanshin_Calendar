@@ -1022,7 +1022,7 @@ the text, not about the app.
     from the father's from 54), and is it the parents' age that is counted
     for the child? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
 
-96. **Answered 2026-10-18. Who counts as the household.** The household round (WB vol. 1, p. 385;
+96. **Answered as far as the sources go, 2026-10-18. Who counts as the household.** The household round (WB vol. 1, p. 385;
     the notes, vol. 2, p. 490): is the household the people living in the
     house that year (as "some reckoners" count) or the family wherever it
     lives, and does a member who died during the year still count?
@@ -1242,7 +1242,7 @@ the text, not about the app.
      the owner: the built `reading.EarthLord.HORSE.death` keeps "on the
      journey with the corpse no horse is used".*
     *Narrowed 2026-10-18 night ([earth-lords.md](earth-lords.md)): «ཤ་ཆིངས» is a binding strap elsewhere (Marpa's meditation belt, a bandage, a thief's load); binding the corpse fits the horse day, not stated.*
-    *Answered 2026-10-18 late night ([earth-lords.md](earth-lords.md)): binding the corpse to the bare back: «རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་།»; the horse is allowed without a saddle (the built reading says no horse; flagged for the owner).*
+    *Answered 2026-10-18 late night ([earth-lords.md](earth-lords.md)): binding the corpse to the bare back: «རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་།»; the horse is allowed without a saddle ; the built death row misread «བང་ཕྱིན» and was corrected the same night to the messenger going without a horse, which WB's witness line «བང་ཕྱིན་ནི། །རྟས་སྤང» says.*
 
 122. **Answered 2026-10-18. The chief earth lord's remedy.** In the chief earth lord's remedy (pp.
      223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be
@@ -1438,7 +1438,7 @@ the text, not about the app.
      silent on it? (2026-10-13, O10,
      [year-of-life.md](year-of-life.md), "Searched and not found")
 
-140. **Answered 2026-10-18. KP's colophon and its print.** KP's colophon (img. 119) says the blocks
+140. **Answered as far as the sources go, 2026-10-18. KP's colophon and its print.** KP's colophon (img. 119) says the blocks
      were recarved at Lhasa by the printers' community after the earlier
      ones burnt, in a dragon year whose element the scan does not show
      (Yigdzin-1 reads fire). BDRC catalogues the print as Mtho las dgon
@@ -1635,7 +1635,7 @@ the text, not about the app.
      [year-of-life.md](year-of-life.md), *The household's trigrams piled up*)
     *Answered 2026-10-18 night ([year-of-life.md](year-of-life.md)): two. The notes (vol. 2, p. 492, img. 500, read on the scan): «སྤར་ཁ་གང་གི་སྟེང་དུ་གཉིས་ཚོགས་ནས་བརྩམས་སྤུངས་པ་ཡིན། མང་དུ་ཚོགས་ན་ངན།», a pile begins from two on one trigram, and more is worse; the etext drops the words.*
 
-159. **Answered 2026-10-18. Sel ba's long reading, lines 1–3.** WB vol. 2, p. 347: «སེལ་བ་དགྲ་ལས་མིང་འདོགས་དང་། །མཐུན་འཇུག་དཔལ་དང་བཀྲ་ཤིས་དང་། །མཛའ་བཤེས་གཉེན་དང་འགྲོགས་པ་ངན། །ལམ་སེལ་རབ་གནས་ལྷ་གསོལ་དང་། །གཤགས་འདེབས་བློ་ཕུགས་གྲོགས་འདུན་བཟང་།».
+159. **Answered as far as the sources go, 2026-10-18. Sel ba's long reading, lines 1–3.** WB vol. 2, p. 347: «སེལ་བ་དགྲ་ལས་མིང་འདོགས་དང་། །མཐུན་འཇུག་དཔལ་དང་བཀྲ་ཤིས་དང་། །མཛའ་བཤེས་གཉེན་དང་འགྲོགས་པ་ངན། །ལམ་སེལ་རབ་གནས་ལྷ་གསོལ་དང་། །གཤགས་འདེབས་བློ་ཕུགས་གྲོགས་འདུན་བཟང་།».
      The first three lines close on ངན and the next two on བཟང: are
      naming, harmony, glory and good fortune and keeping company with
      friends and kin what goes badly under sel ba, as the grammar reads,

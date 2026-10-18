@@ -410,7 +410,7 @@ reading.
 | Hare | the earth's turtle | the funeral road not to the lower east |
 | Dragon | Gnyan khra ba dan (or "the yellow banner") | no wailing in mourning; the corpse's road not to the south-east |
 | Snake | Tsang kun | slaughter avoided, and a funeral door to the upper south; the corpse is best taken by the main road |
-| Horse | Byi lam | a death repeats; on the journey with the corpse no horse, and the funeral door and the horse's back avoided (O8) |
+| Horse | Byi lam | a death repeats; the messenger goes without a horse, and the funeral door and horseback avoided (O8; corrected 2026-10-18, open question 121) |
 | Sheep | Be sna (or Be sna lag chen) | a death repeats; breaking ground, seven die; bad for the dead and for graves; corpse and funeral door not to the south-west |
 | Monkey | Gzig mjug (Jim Valby: an earth-lord monster) | no funeral gathering; the funeral road not to the upper west |
 | Bird | He thon rgyal po | a funeral feast is bad for wealth; the corpse not to the lower west |
@@ -523,8 +523,13 @@ four:
   horse is bad; without a saddle, binding it to the bare back (*chings*, a
   bond, a bandage, Waldo), the messenger may go; not saddleless, his going
   is bad. **For the owner:** the built `reading.EarthLord.HORSE.death`
-  ("on the journey with the corpse no horse is used") misses it: WB
-  allows the horse, without a saddle.
+  ("on the journey with the corpse no horse is used") misread «བང་ཕྱིན»: WB
+  allows the horse, without a saddle, and the witness line's «བང་ཕྱིན་ནི། །རྟས་སྤང»
+  is the messenger who gives up the horse. **Corrected 2026-10-18** in
+  both catalogs: "the messenger who carries the news goes without a
+  horse, and the funeral door and horseback are avoided"; the paragraph
+  and the remedy row ("carry the corpse without a saddle") already
+  matched WB.
 - **122, «སྤོམ་གཏའ».** Mipham's *Spom gta' chen mo bkra shis kun khyab*
   (Collected Works, Dilgo Khyentse ed., vol. 7, pp. 273–294; I2010
   img. 280, read on the scan) opens «འདིར་ཕྱོགས་དང་དུས་ཀྱི་ཆ་གང་དུ་རྒྱུ་ཞིང་གནས་པའི་གདུག་པ་ཅན་རྣམས་ཀྱི་ཉེས་པ་ཐམས་ཅད་སྤྱི་བཅོས་གཅིག་ཆོག་རྒྱལ་པོ་སྤོམ་གཏའ་ཆེན་མོའི་ལག་ལེན་གསལ་བར་བརྗོད་པ་ལ། སྤོམ་གཏའ་འདི་ལ་རྩིས་རྒྱུད་དང་པཎ་གྲུབ་ཀྱི་མན་ངག ཀོང་ཙེའི་ལུགས་…»:
