@@ -695,6 +695,7 @@
     <string name="hours_works_hour_subtitle">часы китайского счёта</string>
     <string name="hours_rough_title">Суровое время</string>
     <string name="hours_rough_subtitle">%1$s, %2$s</string>
+    <string name="hours_rough_note">Мгновение солнца в вашем месте, показанное в том часе, на который оно приходится.</string>
     <string name="hours_own_year_title">Час вашего года</string>
     <string name="hours_own_year_subtitle">животное года рождения: %1$s</string>
     <string name="hours_over_day_title">Против животного дня</string>
@@ -702,6 +703,7 @@
     <string name="hours_over_day_bad">Избегать в этот час</string>
     <string name="hours_over_day_sign_name">животное дня</string>
     <string name="hours_over_day_sign">%1$s: %2$s</string>
+    <string name="hours_over_day_note">Час перевешивает лишь животное дня, слабейший из семи факторов дня: дело, которое решает любой более сильный фактор, остаётся на своей стороне.</string>
     <string name="tib_burning_from_subtitle">%1$s-е число наступает днём, в %2$s</string>
     <string name="detail_burning_hook">В альманахе</string>
     <string name="burning_hook">пишется с крючком (ཞབས་ཀྱུ, zhabs kyu) — знаком того, что дата сожжения наступила днём</string>

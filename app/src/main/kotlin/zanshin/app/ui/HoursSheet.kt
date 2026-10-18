@@ -311,7 +311,7 @@ fun HoursSheet(
                             nectarTitle,
                             "%02d:00–%02d:00".format((5 + h) % 24, (6 + h) % 24),
                             Tone.GOOD,
-                            Texts.NECTAR_PERIODS,
+                            Texts.nectarPeriods(day.weekday),
                             titleIsKanji = false,
                             details = listOf(nectarTitle to Ewts.named(nectarTitle, "bdud rtsi thun mtshams")),
                         ),
@@ -342,7 +342,7 @@ fun HoursSheet(
                             stringResource(R.string.hours_black_title),
                             stringResource(R.string.hours_black_subtitle, gloss(day.lunarDayAnimal)),
                             Tone.BAD,
-                            Texts.BLACK_HOUR,
+                            Texts.blackHour(day.lunarDayAnimal),
                             titleIsKanji = false,
                             details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(stringResource(R.string.hours_black_title), "dus tshod nag")),
                         ),
@@ -369,9 +369,11 @@ fun HoursSheet(
                             stringResource(R.string.hours_rough_title),
                             labels.string(R.string.hours_rough_subtitle, gloss(m.kind), m.at.format(labels.clock)),
                             Tone.BAD,
-                            Texts.ROUGH_TIME,
+                            Texts.roughTime(m.kind, m.at.format(labels.clock)),
                             titleIsKanji = false,
                             details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(gloss(m.kind), m.kind.wylie)),
+                            // Where the moment is taken from, which the reading may not say (SPEC §8.1, rule 8).
+                            note = stringResource(R.string.hours_rough_note),
                         ),
                         onOpen,
                     )
@@ -384,7 +386,7 @@ fun HoursSheet(
                             ownTitle,
                             stringResource(R.string.hours_own_year_subtitle, gloss(birth!!.animal)),
                             Tone.BAD,
-                            Texts.OWN_YEAR_HOUR,
+                            Texts.ownYearHour(birth!!.animal),
                             titleIsKanji = false,
                             details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(ownTitle, "rang nyid lo yi dus")),
                         ),
@@ -419,6 +421,8 @@ fun HoursSheet(
                                 bad.takeIf { it.isNotEmpty() }?.let { badLabel to it.joinToString() },
                                 stringResource(R.string.row_tibetan) to labels.string(R.string.hours_over_day_sign, Ewts.named(stringResource(R.string.hours_over_day_sign_name), "nyi ma"), gloss(day.lunarDayAnimal)),
                             ),
+                            // How far the hour reaches in the app's weighing (SPEC §8.1, rule 8).
+                            note = stringResource(R.string.hours_over_day_note),
                         ),
                         onOpen,
                     )
@@ -429,7 +433,7 @@ fun HoursSheet(
                         stringResource(R.string.hours_earth_lords_title),
                         onPlace(hourAnimal),
                         Tone.NEUTRAL,
-                        Texts.HOUR_EARTH_LORDS,
+                        Texts.HOUR_EARTH_LORDS.getValue(hourAnimal),
                         titleIsKanji = false,
                         details = listOf(
                             stringResource(R.string.row_tibetan) to listOf(
@@ -445,7 +449,7 @@ fun HoursSheet(
                         blaMkhyenTitle,
                         onPlace(EarthLordCourses.hourBlaMkhyen(hourAnimal)),
                         Tone.NEUTRAL,
-                        Texts.HOUR_BLA_MKHYEN,
+                        Texts.HOUR_BLA_MKHYEN.getValue(hourAnimal),
                         titleIsKanji = false,
                         details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(blaMkhyenTitle, "dus tshod bla mkhyen")),
                     ),
@@ -457,14 +461,15 @@ fun HoursSheet(
                         saRgyalTitle,
                         onPlace(EarthLordCourses.hourSaRgyal(hourAnimal)),
                         Tone.NEUTRAL,
-                        Texts.HOUR_SA_RGYAL,
+                        Texts.HOUR_SA_RGYAL.getValue(hourAnimal),
                         titleIsKanji = false,
                         details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(saRgyalTitle, "dus tshod sa rgyal")),
                     ),
                     onOpen,
                 )
                 // The hidden earth lord of the hour's animal on its place, and the sky dog over the places (WB vol. 2, pp. 221, 197, 236).
-                val hiddenName = Catalog.text("reading.HourHidden.${hourAnimal.name}")
+                // The lord's name as the reading names it, without the bracket the reading gives it.
+                val hiddenName = Catalog.text("reading.HourHidden.${hourAnimal.name}").substringBefore(" (")
                 AnnotationRow(
                     Annotation(
                         stringResource(R.string.hours_hidden_title),
@@ -483,7 +488,7 @@ fun HoursSheet(
                         dogTitle,
                         labels.string(R.string.hours_gnam_khyi_subtitle, gloss(hourAnimal), gloss(tail)),
                         Tone.NEUTRAL,
-                        Texts.HOUR_GNAM_KHYI,
+                        Texts.HOUR_GNAM_KHYI.getValue(hourAnimal),
                         titleIsKanji = false,
                         details = listOf(stringResource(R.string.row_tibetan) to Ewts.named(dogTitle, "dus tshod gnam khyi")),
                     ),
