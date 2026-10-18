@@ -525,13 +525,14 @@ the text, not about the app.
     days in turn, and where do the mothers and sons sit (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
 
-37. **WB vol. 2, p. 196 (img. 204): the sky dog's «ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས».**
+37. **Answered 2026-10-18. WB vol. 2, p. 196 (img. 204): the sky dog's «ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས».**
     The male sky dog holds the trigram *khen* "on 18, 26 and so on", the
     female *zon*. Are these the bride's trigrams of the year of age (WB
     vol. 1, p. 257, the women's circuit, which puts 18 on *khen*, in
     [year-of-life.md](year-of-life.md)), so that every eighth age from 18
     is held, and *zon*'s ages likewise (read on the scan 2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Answered 2026-10-18 late night ([year-month-earth-lords.md](year-month-earth-lords.md)): yes. In WB's women's circuit (kham towards khen, one a year) ages 18 and 26 fall on khen, in the men's 18 on khon; so the male sky dog holds a bride of those ages; zon falls on 6, 14, 22, 30 …, which WB does not list.*
 
 38. **Answered 2026-10-18. WB vol. 2, p. 198 (img. 206): «སྨེ་བདུན་ལྷག་གིས».** The black sky dog
     of the hours rises at dusk "with the seventh sme ba remaining": what
@@ -1151,16 +1152,18 @@ the text, not about the app.
     daybreak? (2026-10-12, RD9, [health.md](health.md))
     *Answered 2026-10-18 night ([health.md](health.md)): WB names it at the head of the Phugpa la places (vol. 2, p. 303; WBZ img. 1052): «ཕུག་པ་ཁུ་དབོན་བཞེད་པའི་ཚུལ། །རིན་ཆེན་ཕྲེང་བ་ལྟར་བརྗོད་ན།», the *Precious Garland* after which the Phugpa uncle and nephew hold them; no copy of it is on BDRC.*
 
-112. **The eight roots of p. 301.** In WB vol. 1, p. 301, does «བརྒྱད་དོ» close
+112. **Answered 2026-10-18. The eight roots of p. 301.** In WB vol. 1, p. 301, does «བརྒྱད་དོ» close
      the count of the eight roots ("these are eight", the eighth being
      «འཁོན་མནའ»), so that «ཡུགས་མ་ལྷའི་ཆུང་སྲི» opens the list of their seats on the
      trigrams, as the notes (vol. 2, p. 477) read it, rather than being an
      eighth root that repeats the first? (2026-10-12, O6, [sri.md](sri.md))
+    *Answered 2026-10-18 late night ([sri.md](sri.md)): the print sets a shad after «བརྒྱད་དོ» (vol. 1, p. 301, img. 311, read on the scan): eight roots, the eighth *'khon mna'*; «ཡུགས་མ་ལྷའི་ཆུང་སྲི། །ལི་ལ་ཡོད་དོ» opens the seats on the trigrams, as the notes read it.*
 
-113. **The black pebbles of p. 425.** In WB vol. 1, p. 425, which spirits
+113. **Answered 2026-10-18. The black pebbles of p. 425.** In WB vol. 1, p. 425, which spirits
      go with two, three and four black pebbles,
      «གཅིག་བྱུང་ཡུལ་བཙན་གཉིས་བྱུང་ན། །རྗེ་བདུད་རྗེ་བཙན་གསུམ་བྱུང་ན། །དཀོར་བདག་དམ་སྲི་བཞི་བྱུང་ན། །མ་མོ…»:
      is the *dam sri* the reading of three? (2026-10-12, O6, [sri.md](sri.md))
+    *Answered 2026-10-18 late night ([sri.md](sri.md)): the count leads each spirit (img. 435, read on the scan): one *yul btsan*, two *rje bdud rje btsan*, three *dkor bdag dam sri*, four *ma mo*; the *dam sri* is three's.*
 
 114. **Answered 2026-10-18. «སྲི་རྟ་རྐང་གཉིས».** In WB vol. 2, pp. 319 and 425 (ch. 33 and 34),
      after the mansions «སྐར་ཆུང» and «གྲུལ་པོ་(༧)» (for «རྒྱལ»?) the etext

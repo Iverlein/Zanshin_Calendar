@@ -2124,3 +2124,16 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   follows. *Lhag ge*, *lhag gis* is vivid, resplendent like a rising sun,
   distinct (Rangjung Yeshe, Berzin, Valby, Waldo); the sky dogs' bodies
   are «སྨེ་བདུན་ལུས» in ch. 31 too (vol. 2, p. 196).
+
+## Read and counted, 2026-10-18 late night (open question 37)
+
+- **The sky dogs hold the bride's trigram of her year of age.** The male
+  (p. 196, img. 204): «ལོ་ཡི་གནམ་ཁྱི་སྦར་ཁ་ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས་སྟེང་། །དེ་ལ་གནམ་ཁྱི་ཕོས་འཛིན་པས། །དེར་བབས་བག་མ་བྱས་པ་ན།»;
+  the female: «ལོ་ཡི་གནམ་ཁྱི་ཟོན་ཡིན་ལ། །དེ་ལ་གནམ་ཁྱི་མོ་ཡིས་འཛིན། །དེར་བབས་བག་མ་བྱས་པ་ན།».
+  «བབས» is the year-of-age trigram (*babs spar*). WB's women's circuit
+  (vol. 1, p. 257: a woman from kham towards khen, one trigram a year,
+  the app's `YearOfLife.currentTrigram`) puts ages 2, 10, 18, 26, 34 … on
+  khen, and the men's circuit (from li towards khon) puts 18 on khon, so
+  «བཅོ་བརྒྱད་ཉེར་དྲུག» are a woman's ages on khen, every eighth from 18: a bride
+  of those ages is held by the male sky dog. The female's zon falls in
+  the same circuit on ages 6, 14, 22, 30 …; WB names no ages for it.

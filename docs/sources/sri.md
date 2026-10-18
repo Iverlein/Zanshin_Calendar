@@ -899,3 +899,22 @@ and rites of the harmful spirits of the dead (sri)" (date 22, «གཏད་ས�
 "rites of the harmful spirits of the dead (sri) against enemies" (Ārdrā,
 «དགྲ་ཡི་སྲི་སྒྲུབ་པ»); the trigram *zon*'s reading names the *dam sri* as
 "harmful spirits of the dead who broke their pledges".
+
+## Read on the scan, 2026-10-18 late night (open questions 112, 113)
+
+- **112, the eight roots and their seats** (vol. 1, p. 301, img. 311, read
+  on the scan at 3×): «…ཡུགས་མ་ལྷ་ཡི་ཆུང་སྲིས་གཅིག །འཁོན་བྱུར་སྣ་འདྲེན་དེ་དང་གཉིས། །དམེ་རུས་བཙའ་ཕྱི་དེ་དང་གསུམ། །མཛོ་བདུད་ཐན་བཞི་ནལ་མུན་དང་། །ལྔའོ་མཛེ་བོང་ཅན་དང་དྲུག །མོ་སྲི་ཡུགས་བདུན་འཁོན་མནའ་དང་། །བརྒྱད་དོ། །ཡུགས་མ་ལྷའི་ཆུང་སྲི། །ལི་ལ་ཡོད་དོ། །…»
+  The print sets a shad after «བརྒྱད་དོ»: the count closes there, the eighth
+  root is *'khon mna'*, and «ཡུགས་མ་ལྷའི་ཆུང་སྲི། །ལི་ལ་ཡོད་དོ» opens the list of
+  seats, the first root on li, then on the trigrams in turn (dme rus
+  btsa' phyi on dwa, mdzo bdud than pa on khen, nal mun on kham, mdze on
+  gin, yugs mi'i gnya' gnon on zin, mna' mi grangs kyi gcod rdo on zon),
+  as the notes read it (vol. 2, p. 477, «ལེ་ལན་སྲིད་པའི་འདྲེ་རྩ་བརྒྱུད་ནི་ཡུགས་མ་ལྷའི་ཆུང་སྲི་ལི་ལ་ཡོད་པ་སོགས་སྦྱར།»).
+  It is not an eighth root repeating the first.
+- **113, the black pebbles** (vol. 1, p. 425, img. 435, read on the scan
+  at 3×): «…ལུས་ཀྱི་ཐང་ཤིང་གདོན་ངོས་འཛིན། །རྡེལ་ནག་གྲངས་དང་སྦྱར་བ་དེ། །གཅིག་བྱུང་ཡུལ་བཙན་གཉིས་བྱུང་ན། །རྗེ་བདུད་རྗེ་བཙན་གསུམ་བྱུང་ན། །དཀོར་བདག་དམ་སྲི་བཞི་བྱུང་ན། །མ་མོ་ལྔ་ལ་སྟེང་མ་མོ། །དྲུག་ལ་ཕོ་བདུད་མོ་བདུད་དང་། །བདུན་ལ་བན་བོན་ཕུར་ཁ་ཟུག …»
+  The count leads each spirit, as from six on («དྲུག་ལ», «བདུན་ལ»): one black
+  pebble, the *yul btsan*; two, the *rje bdud* and *rje btsan*; three, the
+  *dkor bdag* and the *dam sri*; four, the *ma mo*; five, the upper *ma
+  mo*; six, the male and female *bdud*. The *dam sri* is the reading of
+  three.
