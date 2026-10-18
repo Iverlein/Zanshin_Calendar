@@ -116,7 +116,7 @@ class CatalogTest {
             Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR,
             Texts.MEDICAL_SEASON,
-        ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
+        ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
@@ -306,7 +306,7 @@ class CatalogTest {
             Texts.WORKS_SIGN, Texts.SEASON_SIGN, Texts.DATE_SME_BA, Texts.TWELVE_LINK, Texts.HUNDRED_FEET, Texts.HOUR_HIDDEN,
             Texts.HOUR_WORKS, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR, Texts.MEDICAL_SEASON,
         ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
-            Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values +
+            Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values +
             Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values +
             Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY + Texts.NECTAR_PERIODS + Texts.COMET +
             Texts.LUNAR_ECLIPSE + Texts.SOLAR_ECLIPSE +
@@ -461,7 +461,7 @@ class CatalogTest {
 
         /** The Tibetan page's and the year sheet's reading families, by the ROADMAP item that brings each to the shape. */
         val FAMILIES: Map<String, String> = mapOf(
-            "X3" to listOf("LunarDate", "HairDate"),
+            "X3" to listOf("LunarDate"),
             "X4" to listOf("Weekday", "Trigram"),
             "X5" to listOf("GreatCombination", "ElementPair", "CombinationDay", "SpecialDay", "GtsugLagDay", "BurningDate", "TibetanFestival"),
             "X6" to listOf("Yoga", "Mansion", "Karana", "Electional"),
@@ -490,12 +490,9 @@ class CatalogTest {
          * line, and the test then holds its families to the shape. A count may only fall: the test fails
          * on a break beyond it and asks for a lower count when breaks are mended, so nothing new enters
          * the allowance. The 20-word floor joined the checks on 2026-10-11 with the paragraphs already
-         * under it counted in, the only time the counts rose. With every line gone (block 49) no reading
-         * is allowed a break.
+         * under it counted in, the only time the counts rose. Every line is gone since block 43
+         * (2026-10-18), the last: no reading is allowed a break.
          */
-        val ALLOWANCE: Map<String, Int> = mapOf(
-            "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
-            "X4" to 23, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
-        )
+        val ALLOWANCE: Map<String, Int> = emptyMap()
     }
 }

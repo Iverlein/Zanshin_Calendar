@@ -696,7 +696,7 @@ object Texts {
     /**
      * Lunar days on which cutting one's hair brings a good result, per the same source. FPMT's list, not the
      * White Beryl's: WB gives no haircut results by date, and its thirty hair dates, for washing the hair (p. 404,
-     * [HAIR_DATE]), share FPMT's result on 17 dates and its good or bad on 25 (docs/sources/hair-dates.md).
+     * [hairDate]), share FPMT's result on 17 dates and its good or bad on 25 (docs/sources/hair-dates.md).
      */
     val HAIRCUT_GOOD: Set<Int> = setOf(3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 18, 19, 22, 23, 26, 27)
 
@@ -789,7 +789,7 @@ object Texts {
      * The lunar date, 1–30: the White Beryl's good and bad activities, with its
      * place in the five-fold cycle, a birth and a death on it, the four
      * perilous dates and where the la, the life-spirit, sits in a person and in a horse (bla gnas) (docs/sources/lunar-dates.md);
-     * the date's result for washing the hair ([HAIR_DATE]) is cited with it.
+     * the date's result for washing the hair ([hairDate]) is cited with it.
      */
     val LUNAR_DATE: List<Reading> = listOf(
         Reading(goodKeys = listOf("setting_out", "lawsuits", "breaking_ground", "pacifying_rites", "war_not_east", "buying_livestock"), avoidKeys = listOf("teaching_dharma", "washing_the_hair", "funeral_rites", "marriage", "giving_anything_out", "worship_of_deities", "averting_rites", "suppressing_sri", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.1"),
@@ -806,7 +806,7 @@ object Texts {
         Reading(goodKeys = listOf("consecration", "enthronement", "building_temples_and_stupas", "building_a_hearth", "making_images", "sowing", "digging_ponds_canals_and_wells", "pacifying_rites", "war_not_south_or_west"), avoidKeys = listOf("setting_out", "washing_the_hair", "taking_servants", "buying_livestock", "fire_offerings", "ordination"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.12"),
         Reading(goodKeys = listOf("enthronement", "washing_the_hair", "setting_out", "consecration", "building", "building_a_hearth", "building_temples_and_stupas", "making_images", "fire_offerings", "building_dams", "increasing_rites"), avoidKeys = listOf("digging_ponds_and_wells", "taking_servants", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.13"),
         Reading(goodKeys = listOf("washing_the_hair", "ordination", "consecration", "buying_livestock", "building", "setting_out", "power_rites"), avoidKeys = listOf("sowing", "teaching_dharma", "taking_servants"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.14"),
-        Reading(goodKeys = listOf("taking_a_new_home", "making_images", "building_temples_and_stupas", "consecration", "sowing", "prosperity_rites", "setting_out", "empowerment", "dharma_practice", "washing_the_hair", "gaining_wealth", "funeral_rites", "enthronement", "averting_rites", "building", "buying_livestock"), avoidKeys = listOf("oaths", "marriage", "ordination", "giving_a_child_away", "paying_debts"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.15"),
+        Reading(goodKeys = listOf("six_rites", "taking_a_new_home", "making_images", "building_temples_and_stupas", "consecration", "sowing", "prosperity_rites", "setting_out", "empowerment", "dharma_practice", "washing_the_hair", "gaining_wealth", "funeral_rites", "enthronement", "averting_rites", "building", "buying_livestock"), avoidKeys = listOf("oaths", "marriage", "ordination", "giving_a_child_away", "paying_debts"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.15"),
         Reading(goodKeys = listOf("breaking_ground", "field_work", "pacifying_rites", "washing_the_hair", "buying_servants_and_goods", "buying_livestock"), avoidKeys = listOf("consecration", "setting_out", "robbery", "quarrels", "building", "enthronement"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.16"),
         Reading(goodKeys = listOf("funeral_rites", "setting_out", "building_a_hearth", "building", "digging_ponds_and_wells", "sowing", "increasing_rites"), avoidKeys = listOf("washing_the_hair", "building_dams", "fire_offerings", "marriage", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.17"),
         Reading(goodKeys = listOf("washing_the_hair", "virtuous_work", "making_images", "suppressing_sri", "building_a_hearth", "sowing", "building_dams", "fire_offerings", "fierce_rites", "roofing", "hanging_doors", "setting_out", "bloodletting_and_moxibustion", "funeral_rites", "enthronement"), avoidKeys = listOf("digging_ponds_canals_and_wells", "marriage", "buying_livestock"), source = Sources.WHITE_BERYL_LUNAR_DATES, key = "reading.LunarDate.18"),
@@ -825,11 +825,12 @@ object Texts {
     ).map { it.copy(also = listOf(Sources.WHITE_BERYL_HAIR_DATES)) }
 
     /**
-     * What washing the hair on each date brings, 1–30: the White Beryl's "hair dates", which it says differ a
-     * little from its date readings (vol. 2, p. 404), the result alone under `reading.HairDate.<day>`. Shown
-     * with the lunar date; the good and bad dates that follow them are the list of box 37 (docs/sources/hair-dates.md).
+     * What washing the hair on the date brings, 1–30: the White Beryl's "hair dates", which it says differ a
+     * little from its date readings (vol. 2, p. 404), the result alone under `HairDate.<day>`. A detail of the
+     * lunar date's sheet, not a reading (ROADMAP X3), cited with [LUNAR_DATE]; the good and bad dates that
+     * follow them are the list of box 37 (docs/sources/hair-dates.md).
      */
-    val HAIR_DATE: List<Reading> = (1..30).map { Reading(key = "reading.HairDate", arg = "reading.HairDate.$it", source = Sources.WHITE_BERYL_HAIR_DATES) }
+    fun hairDate(date: Int): String = Catalog.text("HairDate.$date")
 
     /** The four perilous dates of every month (the White Beryl, p. 302). */
     val PERILOUS_DATES: Set<Int> = setOf(8, 15, 22, 30)

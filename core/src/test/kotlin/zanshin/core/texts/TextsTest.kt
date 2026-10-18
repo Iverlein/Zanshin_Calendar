@@ -5,6 +5,7 @@
 package zanshin.core.texts
 
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import zanshin.core.kyureki.Choku
@@ -38,7 +39,7 @@ class TextsTest {
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
         Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
     ).flatMap { it.values } + Texts.DUS_SBYOR.values.map { it.second } + Texts.ELECTIONAL_MONTH_DATE.values +
-        Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
+        Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
         // The earth lords that move by date: a reading for every course on every day it can fall.
@@ -70,7 +71,7 @@ class TextsTest {
         complete(Weekday.entries, Texts.WEEKDAY)
         assertEquals(30, Texts.LUNAR_DATE.size)
         assertEquals(30, Texts.HAIRCUT.size)
-        assertEquals(30, Texts.HAIR_DATE.size)
+        (1..30).forEach { assertNotEquals("HairDate.$it", Texts.hairDate(it), "hair date $it in the catalog") }
 
         for (r in all) {
             for (s in listOf(r.source) + r.also) assertTrue(s.url.startsWith("http"), "source of \"${r.summary}\"")

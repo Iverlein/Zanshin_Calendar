@@ -535,6 +535,8 @@ object Activities {
         "taking_servants" to of(SERVANTS),
         "taking_a_maidservant" to of(SERVANTS),
         "freeing_the_bound" to of(),
+        // The 15th's «དྲུག་ལས» (WB vol. 2, p. 301): which six rites the verse means it does not say, so none is weighed.
+        "six_rites" to of(),
         "prostrations" to of(PROSTRATIONS),
         "bloodletting_and_moxibustion" to of(BLOODLETTING),
         "bloodletting" to of(BLOODLETTING),
