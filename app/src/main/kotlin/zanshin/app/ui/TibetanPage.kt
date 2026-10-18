@@ -82,7 +82,6 @@ import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.app.Person
 import zanshin.core.tibetan.Ewts
-import zanshin.core.tibetan.RahuBySeason
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.MonthEntries
 import zanshin.core.tibetan.Weekday
@@ -550,7 +549,7 @@ fun TibetanPage(
                 Texts.RAHU[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_GENERAL[day.day]?.let { Annotation(rahuTitle, rahuSubtitle, Tone.NEUTRAL, it, subtitle = rahuSubtitle, titleIsKanji = false, glyphs = rahuMark, diagram = rahuDiagram) },
                 Texts.RAHU_MONTH[day.month to day.day]?.let { Annotation(rahuTitle, rahuMonthSubtitle, Tone.NEUTRAL, it, subtitle = rahuMonthSubtitle, titleIsKanji = false) },
-                RahuBySeason.of(day.month, day.day)?.let { Texts.RAHU_SEASON[it] }?.let { Annotation(rahuTitle, rahuSeasonSubtitle, Tone.NEUTRAL, it, subtitle = rahuSeasonSubtitle, titleIsKanji = false) },
+                Texts.rahuSeason(day.month, day.day)?.let { Annotation(rahuTitle, rahuSeasonSubtitle, Tone.NEUTRAL, it, subtitle = rahuSeasonSubtitle, titleIsKanji = false) },
             )
             if (rahu.size == 1) {
                 add(rahu.single().copy(subtitle = null))
