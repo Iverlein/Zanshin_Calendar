@@ -23,6 +23,26 @@ class RekichuTest {
     private fun jstInstant(date: String, time: String): Instant =
         LocalDateTime.parse("${date}T$time").toInstant(Kyureki.JST)
 
+    /**
+     * The moon's age at noon JST (ROADMAP K6), from NAOJ's new moons: on the day of a new moon before noon the
+     * age is the hours since it, on one after noon the hours since the one before; the next day counts from it.
+     */
+    @Test
+    fun `the moon's age at noon counts from NAOJ's new moons`() {
+        val moons = naoj.filter { it[0] == "new_moon" }.map { jstInstant(it[3], it[4]) }
+        assertTrue(moons.size >= 24 || moons.isEmpty())
+        for ((before, moon) in moons.zipWithNext()) {
+            val date = moon.atOffset(Kyureki.JST).toLocalDate()
+            val noon = jstInstant(date.toString(), "12:00")
+            val since = if (moon.isAfter(noon)) before else moon
+            val expected = Duration.between(since, noon).toMinutes() / 1440.0
+            // NAOJ truncates to the minute.
+            assertEquals(expected, Kyureki.moonAge(date), 1.5 / 1440, "$date")
+            val next = Duration.between(moon, noon.plus(Duration.ofDays(1))).toMinutes() / 1440.0
+            assertEquals(next, Kyureki.moonAge(date.plusDays(1)), 1.5 / 1440, "${date.plusDays(1)}")
+        }
+    }
+
     @Test
     fun `solar terms and new moons match NAOJ to the minute`() {
         val from = Instant.parse("2025-12-31T00:00:00Z")

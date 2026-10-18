@@ -43,6 +43,17 @@ enum class SolarTerm(val longitude: Int, val kanji: String, val romaji: String) 
 
     val english: String get() = gloss(this)
 
+    /** A 節 (節気), which opens a solar month, rather than a 中 (中気), which names the lunar month that holds it. */
+    val setsu: Boolean get() = ordinal % 2 == 0
+
+    /** The month the term is the 節 or 中 of, 1 to 12: 立春 and 雨水 are the 1st month's, 大寒 the 12th's. */
+    val month: Int get() = ordinal / 2 + 1
+
+    /** The branch (0 = 子) of the solar month a 節 opens or a 中 falls in: 寅 for the 1st month. */
+    val branch: Int get() = (month + 1) % 12
+
+    /** The term after this one. */
+    val next: SolarTerm get() = entries[(ordinal + 1) % entries.size]
 
     companion object {
         fun atLongitude(deg: Int): SolarTerm = entries.first { it.longitude == deg }
@@ -135,7 +146,11 @@ object Kyureki {
     private const val RESOLUTION_2033_SUI = 2033
     private const val RESOLUTION_2033_LEAP_INDEX = 1
 
-    data class Month(val start: LocalDate, val end: LocalDate, val number: Int, val leap: Boolean, val year: Int)
+    /** A month from [start] up to, not including, [end]. */
+    data class Month(val start: LocalDate, val end: LocalDate, val number: Int, val leap: Boolean, val year: Int) {
+        /** 30 for a long month (大の月), 29 for a short one (小の月). */
+        val days: Int get() = (end.toEpochDay() - start.toEpochDay()).toInt()
+    }
 
     private val suiCache = ConcurrentHashMap<Int, List<Month>>()
     private val termCache = ConcurrentHashMap<Int, List<Pair<SolarTerm, LocalDate>>>()
@@ -254,6 +269,17 @@ object Kyureki {
         // The sun is at 280° about 1 January; aim at the crossing within the year.
         val daysAhead = ((deg - 280.0).mod(360.0)) * 365.2422 / 360.0
         return Astro.solarLongitudeInstant(deg, start.plusSeconds((daysAhead * 86400).toLong()))
+    }
+
+    /**
+     * The moon's age (月齢) at noon JST on [date], in days since the last new moon at or before it, as the
+     * almanacs print it beside the date: a day on which the new moon falls after noon still has the old
+     * moon's age, 29 and some.
+     */
+    fun moonAge(date: LocalDate): Double {
+        val noon = date.atTime(LocalTime.NOON).toInstant(JST)
+        val (newMoon, _) = Astro.lunationAround(noon)
+        return (noon.toEpochMilli() - newMoon.toEpochMilli()) / 86_400_000.0
     }
 
     /** JST date of an instant. */

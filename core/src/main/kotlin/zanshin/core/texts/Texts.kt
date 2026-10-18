@@ -10,6 +10,7 @@ import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
@@ -325,6 +326,16 @@ object Sources {
     val NAOJ_SEKKU = Source("暦Wiki「節句」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C0E1B6E7.html")
     val NAOJ_JUSANYA = Source("暦Wiki「中秋の名月とは/十三夜」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/C3E6BDA9A4CECCBEB7EEA4C8A4CF2FBDBDBBB0CCEB.html")
     val NAOJ_ZASSETSU = Source("暦Wiki「雑節とは？」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FBBA8C0E1A4C8A4CFA1A9.html")
+    val NAOJ_SEKKI = Source("こよみ用語解説「二十四節気」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/faq/24sekki.html")
+    val NAOJ_SEKKI_WIKI = Source("暦Wiki「季節/二十四節気とは？」, 「節月」", "国立天文台 暦計算室 (NAOJ)", "https://eco.mtk.nao.ac.jp/koyomi/wiki/B5A8C0E12FC6F3BDBDBBCDC0E1B5A4A4C8A4CFA1A9.html")
+    val KOYOMI8_SEKKI = Source("二十四節気・解説", "こよみのページ (koyomi8.com)", "https://koyomi8.com/24doc.html")
+
+    /** The 24 terms' glosses, image 7 of the NDL's scan (docs/sources/kyureki.md, K6-R); public domain. */
+    val KOYOMI_BINRAN = Source(
+        "The Almanac Handbook (こよみ便覧, Koyomi binran), 太玄斎 校訂, 江戸, 蔦屋重三郎, 天明7 (1787)",
+        "National Diet Library Digital Collections",
+        "https://dl.ndl.go.jp/pid/2536637/1/7",
+    )
     val FPMT_HAIR = Source(
         "From the Sutra Chapter of Bodhisattva's Hair: Pacifying the Date of Cutting Hair, tr. Lama Zopa Rinpoche (བླ་མ་བཟོད་པ་རིན་པོ་ཆེ, bla ma bzod pa rin po che), 2008",
         "FPMT",
@@ -687,6 +698,17 @@ object Texts {
         Zassetsu.DOYO_USHI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.NIHYAKUTOKA to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.NIHYAKUHATSUKA to Reading(source = Sources.NAOJ_ZASSETSU),
+    )
+
+    /**
+     * The 24 solar terms (ROADMAP K6): what each marks, glossed after the こよみ便覧 and the NAOJ, the month a 節
+     * opens or a 中 names, and what hangs on it; each with its month's name as Also called. The NAOJ and koyomi8
+     * for the facts in our own words, the こよみ便覧 (public domain) for the glosses.
+     */
+    val SOLAR_TERM: Map<SolarTerm, Reading> = keyed(
+        *SolarTerm.entries.map {
+            it to Reading(source = Sources.NAOJ_SEKKI, also = listOf(Sources.KOYOMI_BINRAN, Sources.NAOJ_SEKKI_WIKI, Sources.KOYOMI8_SEKKI, Sources.NAOJ_ZASSETSU))
+        }.toTypedArray(),
     )
 
     val EHOU: Map<Ehou, Reading> = Ehou.entries.associateWith {

@@ -45,11 +45,15 @@ data class Kanshi(val index: Int) : Term {
     val element: Gogyo get() = Gogyo.entries[stem / 2]
     override val reading: String get() = "${STEM_READINGS[stem]}-${BRANCH_READINGS[branch]}"
     override val english: String get() = Catalog.format("Kanshi", Catalog.text("Stem.$stem"), Catalog.text("Branch.$branch"))
+    val stemKanji: String get() = STEMS[stem].toString()
+    val stemReading: String get() = STEM_READINGS[stem]
 
     companion object {
         fun ofDay(jd: Long): Kanshi = Kanshi(Math.floorMod(jd + 49, 60L).toInt())
         fun ofYear(year: Int): Kanshi = Kanshi(Math.floorMod(year - 4, 60))
         fun branchName(branch: Int): String = "${BRANCHES[branch]} (${Catalog.text("Branch.$branch")})"
+        fun branchKanji(branch: Int): String = BRANCHES[branch].toString()
+        fun branchReading(branch: Int): String = BRANCH_READINGS[branch]
     }
 }
 
