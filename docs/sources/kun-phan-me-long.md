@@ -252,6 +252,11 @@ the app (§11 as the personal mansions and weekdays).
   and a ས stacked beneath, the contraction of «ཆེས», then མ with its vowel
   sign, then «འབྲུག་ལོར»: «རབ་ཆེས་མེ་འབྲུག་ལོར», as W21970 prints it. Neither print
   names the cycle.
+- **The editors do not date it either.** W21970's introduction (pp. 1–4,
+  leaves 8–11 of the lent scan, read 2026-10-18) describes the fifth
+  chapter as WB's *'bras rtsis* digest, a text much in use, and gives no
+  date or place for the blocks it was edited from. No source at hand dates
+  the recarving beyond «མེ་འབྲུག».
 - **A fire dragon year, by the second edition.** *Nyer mkho'i rtsis kyi
   rnam bzhag pad dkar chun po* (Bkra shis tshe brtan and Sha bo tshe
   ring, Kan su'u mi rigs dpe skrun khang, Lanzhou 2000, BDRC W21970,
