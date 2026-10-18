@@ -64,6 +64,7 @@ import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
@@ -246,6 +247,80 @@ fun TermRing(current: SolarTerm, size: Dp) {
             val b = termBearing(equinox)
             arcStroke(c, inner, b - 3f, b + 3f, Palette.good, w * 0.55f, StrokeCap.Round)
         }
+    }
+}
+
+/**
+ * The term ring of the term's sheet (ROADMAP K6): the 24 terms round the year at sheet size, 冬至 at the top,
+ * each named in kanji, the 節 that open the solar months on a heavy line and in the text colour, the 中 in the
+ * muted one; [current] marked and today's place in it, day [day] of its [days]; the 土用 and 彼岸 spans as on the
+ * small ring, named. Tapping a term names it below, with what it does.
+ */
+@Composable
+fun TermRingDetail(current: SolarTerm, day: Int, days: Int, size: Dp) {
+    var selected by remember(current) { mutableStateOf(current) }
+    val description = stringResource(R.string.desc_term_ring_detail, current.kanji, day, days)
+    val measurer = rememberTextMeasurer()
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+        Canvas(
+            Modifier
+                .size(size)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                        val longitude = (bearingOf(c, p) + 270f) % 360f
+                        selected = SolarTerm.atLongitude((longitude / 15f).toInt() * 15)
+                    }
+                },
+        ) {
+            val c = center
+            val r1 = this.size.minDimension / 2 - 8.dp.toPx()
+            val r0 = r1 * 0.72f
+            for (t in SolarTerm.entries) {
+                val a = termBearing(t.longitude.toFloat())
+                val on = t == current
+                val path = sector(c, r0, r1, a, a + 15f)
+                drawPath(path, if (t == selected) Palette.raised else Palette.surface)
+                drawPath(path, Palette.lineStrong, style = Stroke(0.9.dp.toPx()))
+                val color = when {
+                    on -> Palette.vermilion
+                    t.setsu -> Palette.text
+                    else -> Palette.muted
+                }
+                label(measurer, t.kanji, polar(c, (r0 + r1) / 2, a + 7.5f), kanjiStyle.copy(fontSize = 11.sp, color = color))
+            }
+            // A solar month begins at each 節: its line is heavy, across the ring.
+            for (t in SolarTerm.entries.filter { it.setsu }) {
+                val a = termBearing(t.longitude.toFloat())
+                drawLine(Palette.muted, polar(c, r0 - 3.dp.toPx(), a), polar(c, r1 + 3.dp.toPx(), a), 1.8.dp.toPx(), StrokeCap.Round)
+            }
+            val a = termBearing(current.longitude.toFloat())
+            drawPath(sector(c, r0, r1, a, a + 15f), Palette.vermilion, style = Stroke(1.8.dp.toPx()))
+            // Today's place within the term: the middle of its day.
+            val today = a + 15f * ((day - 0.5f) / days)
+            drawLine(Palette.text, polar(c, r0, today), polar(c, r1, today), 1.4.dp.toPx(), StrokeCap.Round)
+            drawCircle(Palette.text, 3.dp.toPx(), polar(c, r1 + 4.5.dp.toPx(), today))
+            val inner = r0 - 9.dp.toPx()
+            val w = 5.dp.toPx()
+            for (start in listOf(297f, 27f, 117f, 207f)) {
+                val b = termBearing(start)
+                arcStroke(c, inner, b, b + 18f, Palette.saffron, w, StrokeCap.Round)
+                label(measurer, "土用", polar(c, inner - 13.dp.toPx(), b + 9f), kanjiStyle.copy(fontSize = 9.sp, color = Palette.saffron))
+            }
+            for (equinox in listOf(0f, 180f)) {
+                val b = termBearing(equinox)
+                arcStroke(c, inner, b - 3f, b + 3f, Palette.good, w, StrokeCap.Round)
+                label(measurer, "彼岸", polar(c, inner - 13.dp.toPx(), b), kanjiStyle.copy(fontSize = 9.sp, color = Palette.good))
+            }
+            label(measurer, selected.kanji, c, kanjiStyle.copy(fontSize = 26.sp, color = if (selected == current) Palette.vermilion else Palette.text))
+        }
+        val what = if (selected.setsu) {
+            stringResource(R.string.term_ring_setsu, "${Kanshi.branchKanji(selected.branch)}月")
+        } else {
+            stringResource(R.string.term_ring_chu, LocalLabels.current.ordinal(selected.month))
+        }
+        Caption("${selected.kanji} ${selected.romaji} — ${selected.english} · $what")
     }
 }
 

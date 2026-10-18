@@ -1196,11 +1196,13 @@ fun FactRow(
         if (tibetan) {
             TibetanTerm(term, english, preferAbove = true, modifier = if (lead == null) Modifier.alignByBaseline() else Modifier.weight(1f), gloss = gloss)
         } else if (kanji) {
+            // A kanji term gives its reading and English on tap, or the [balloon]'s rows where it has more to say.
             GlossText(
                 term,
                 english,
                 style = body.copy(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 17.sp),
                 preferAbove = true,
+                rows = balloon,
             )
         } else if (balloon != null) {
             // A screen reader gets the balloon's rows after the term, not the term twice.

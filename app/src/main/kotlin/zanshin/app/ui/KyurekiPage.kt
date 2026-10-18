@@ -8,6 +8,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -28,7 +29,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -43,6 +47,9 @@ import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.DayMark
 import zanshin.core.kyureki.Kigaku
 import zanshin.core.kyureki.KyuSei
+import zanshin.core.kyureki.Kyureki
+import zanshin.core.kyureki.KyurekiDay
+import zanshin.core.kyureki.Rekichu
 import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
@@ -78,6 +85,7 @@ fun KyurekiPage(
     val rk = info.rekichu
     val accent = Palette.vermilion
     var monthOpen by remember(day.date) { mutableStateOf(false) }
+    var dateOpen by remember(day.date) { mutableStateOf(false) }
     var sheet by remember(day.date) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.date) { mutableStateOf(false) }
     val summary = remember(day.date, birthStar) { DaySummary.of(day, rk, birthStar) }
@@ -99,6 +107,17 @@ fun KyurekiPage(
         },
     )
 
+    val lunarMonth = remember(day.date) { Kyureki.monthOf(day.date) }
+    val moonAge = remember(day.date) { Kyureki.moonAge(day.date) }
+    val dateDescription = stringResource(R.string.desc_kyu_date, day.day)
+    val dateRows = listOf(
+        BalloonRow(stringResource(R.string.row_moon_age), stringResource(R.string.kyu_moon_age, String.format(labels.locale, "%.1f", moonAge))),
+        BalloonRow(stringResource(R.string.row_phase), labels.moonPhase(info.moonElongation)),
+        BalloonRow(stringResource(R.string.row_month_length), stringResource(if (lunarMonth.days == 30) R.string.kyu_month_long else R.string.kyu_month_short)),
+        BalloonRow(stringResource(R.string.row_gregorian), day.date.format(labels.shortDateYear)),
+    )
+    val term = termAnnotation(day, rk, labels)
+
     PageColumns(modifier, top = {
         for (festival in listOfNotNull(day.festival, day.gregorianFestival)) {
             val a = Annotation(festival.kanji, "${festival.romaji} — ${festival.english}", Tone.GOOD, Texts.JAPANESE_FESTIVAL[festival.kanji])
@@ -119,11 +138,19 @@ fun KyurekiPage(
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text(stringResource(R.string.kyu_day), style = body.copy(fontSize = 14.sp, color = Palette.muted))
-                    Text(
-                        "${day.day}",
-                        style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 120.sp, letterSpacing = (-4).sp, color = Palette.text),
-                        modifier = Modifier.capBox(120.sp),
-                    )
+                    // The date and the moon open one balloon of facts (ROADMAP K6): the moon's age, as the almanac
+                    // prints it beside the date, its phase, the month's length and the Gregorian date.
+                    Box {
+                        Text(
+                            "${day.day}",
+                            style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Medium, fontSize = 120.sp, letterSpacing = (-4).sp, color = Palette.text),
+                            modifier = Modifier
+                                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning)) { dateOpen = !dateOpen }
+                                .semantics { contentDescription = dateDescription }
+                                .capBox(120.sp),
+                        )
+                        if (dateOpen) Balloon(dateRows) { dateOpen = false }
+                    }
                 }
                 BalloonText(
                     text = monthLabel,
@@ -138,7 +165,9 @@ fun KyurekiPage(
                     ),
                 )
             }
-            MoonGlyph(info.moonElongation, 64.dp, labels.moonPhase(info.moonElongation))
+            Box(Modifier.clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning)) { dateOpen = !dateOpen }) {
+                MoonGlyph(info.moonElongation, 64.dp, labels.moonPhase(info.moonElongation))
+            }
         }
 
         Row(
@@ -175,9 +204,12 @@ fun KyurekiPage(
         BriefRow(summary) { summaryOpen = true }
         onFirstRun?.let { FirstRunLine(stringResource(R.string.first_run_kyureki), it) }
 
+        // The term's box opens its sheet: the reading, how it was worked out and the whole ring (ROADMAP K6).
         Row(
             modifier = Modifier
                 .fillMaxWidth()
+                .clip(RoundedCornerShape(14.dp))
+                .clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning)) { sheet = term }
                 .background(Palette.surface, RoundedCornerShape(14.dp))
                 .border(1.dp, Palette.line, RoundedCornerShape(14.dp))
                 .padding(horizontal = 16.dp, vertical = 14.dp),
@@ -193,7 +225,7 @@ fun KyurekiPage(
                 itemVerticalAlignment = Alignment.CenterVertically,
             ) {
                 Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                    GlossText(day.currentTerm.kanji, day.currentTerm.english, kanjiStyle.copy(fontSize = 26.sp), reading = day.currentTerm.romaji)
+                    Text(day.currentTerm.kanji, style = kanjiStyle.copy(fontSize = 26.sp))
                     Text(day.currentTerm.romaji, style = body, modifier = Modifier.padding(bottom = 3.dp))
                 }
                 if (day.termBeginning != null) {
@@ -236,8 +268,17 @@ fun KyurekiPage(
         FactColumn(listOf(R.string.row_day, R.string.row_year, R.string.row_solar_month).map { stringResource(it) }) {
             val yearKanshi = Kanshi.ofYear(day.year)
             val branch = Kanshi(rk.setsuBranch)
-            FactRow(stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}", tibetan = false, kanji = true, lead = { KanshiGlyphs(rk.dayKanshi) })
-            FactRow(stringResource(R.string.row_year), yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}", tibetan = false, kanji = true, lead = { KanshiGlyphs(yearKanshi) })
+            // Each 干支 row opens a balloon of what its glyphs say (ROADMAP K6): the stem's element and polarity, the
+            // branch's animal, the pair's place in the sixty; the solar month's span and what is counted by it.
+            FactRow(
+                stringResource(R.string.row_day), rk.dayKanshi.kanji, "${rk.dayKanshi.reading} — ${rk.dayKanshi.english}",
+                tibetan = false, kanji = true, lead = { KanshiGlyphs(rk.dayKanshi) }, balloon = kanshiRows(rk.dayKanshi, labels),
+            )
+            FactRow(
+                stringResource(R.string.row_year), yearKanshi.kanji, "${yearKanshi.reading} — ${yearKanshi.english}",
+                tibetan = false, kanji = true, lead = { KanshiGlyphs(yearKanshi) }, balloon = kanshiRows(yearKanshi, labels),
+            )
+            val setsuEnd = remember(rk.setsuStart) { Rekichu.setsuOf(rk.setsuStart.plusDays(40)).second.minusDays(1) }
             FactRow(
                 stringResource(R.string.row_solar_month),
                 "${branch.kanji.drop(1)}月",
@@ -245,11 +286,21 @@ fun KyurekiPage(
                 tibetan = false,
                 kanji = true,
                 lead = { KanshiGlyphs(branch, element = false) },
+                balloon = listOf(
+                    branchRow(branch.branch, labels),
+                    BalloonRow(stringResource(R.string.row_from), rk.setsuStart.format(labels.shortDate)),
+                    BalloonRow(stringResource(R.string.row_until), setsuEnd.format(labels.shortDate)),
+                    BalloonRow(stringResource(R.string.row_counts), stringResource(R.string.kyu_solar_month_counts)),
+                ),
             )
         }
 
         SectionTitle(stringResource(R.string.section_stars))
-        val dayStar = Annotation(rk.dayStar.kanji, stringResource(R.string.kyu_day_star, rk.dayStar.english), Tone.NEUTRAL, Texts.KYUSEI[rk.dayStar], diagram = { DiagramFrame { StarBoardDetail(rk.dayStar, 288.dp) } })
+        fun star(s: KyuSei, gloss: String) = Annotation(s.kanji, gloss, Tone.NEUTRAL, Texts.KYUSEI[s], diagram = { DiagramFrame { StarBoardDetail(s, 288.dp) } })
+        val dayStar = star(rk.dayStar, stringResource(R.string.kyu_day_star, rk.dayStar.english))
+        // The month and year stars open their own sheets, the board set to that star (ROADMAP K6).
+        val monthStar = star(rk.monthStar, stringResource(R.string.kyu_month_star, rk.monthStar.english))
+        val yearStar = star(rk.yearStar, stringResource(R.string.kyu_year_star, rk.yearStar.english))
         Row(
             Modifier.fillMaxWidth().clickable(role = Role.Button) { sheet = dayStar },
             horizontalArrangement = Arrangement.spacedBy(18.dp),
@@ -257,8 +308,8 @@ fun KyurekiPage(
             StarBoard(rk.dayStar, rk.monthStar, rk.yearStar, 120.dp)
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 StarLine(stringResource(R.string.row_day_star), null, rk.dayStar)
-                StarLine(stringResource(R.string.row_month_star), "月", rk.monthStar)
-                StarLine(stringResource(R.string.row_year_star), "年", rk.yearStar)
+                StarLine(stringResource(R.string.row_month_star), "月", rk.monthStar) { sheet = monthStar }
+                StarLine(stringResource(R.string.row_year_star), "年", rk.yearStar) { sheet = yearStar }
             }
         }
         if (birthStar != null) {
@@ -290,6 +341,46 @@ fun KyurekiPage(
     sheet?.let { ReadingSheet(it, onElect = onElect, offered = KyurekiElection.OFFERED) { sheet = null } }
     if (summaryOpen) DaySummarySheet(summary, onElect = onElect) { summaryOpen = false }
 }
+
+/**
+ * The solar term's sheet (ROADMAP K6): its reading, how it was worked out this year, and the whole ring with
+ * today's place in the term.
+ */
+private fun termAnnotation(day: KyurekiDay, rk: RekichuDay, labels: Labels): Annotation {
+    val t = day.currentTerm
+    val days = (day.nextTermStart.toEpochDay() - day.currentTermStart.toEpochDay()).toInt()
+    val today = (day.date.toEpochDay() - day.currentTermStart.toEpochDay()).toInt() + 1
+    // A 節 opens its solar month; a 中 falls in the one its 節 opened.
+    val monthStart = if (t.setsu) day.currentTermStart else rk.setsuStart
+    val next = t.next
+    return Annotation(
+        t.kanji,
+        "${t.romaji} — ${t.english}",
+        Tone.NEUTRAL,
+        Texts.SOLAR_TERM[t],
+        details = listOf(
+            labels.string(R.string.detail_term_kind) to labels.string(if (t.setsu) R.string.kyu_term_setsu else R.string.kyu_term_chu),
+            labels.string(R.string.detail_sun_longitude) to "${t.longitude}°",
+            labels.string(R.string.detail_term_began) to day.currentTermStart.format(labels.shortDateYear),
+            labels.string(R.string.detail_term_ends) to day.nextTermStart.minusDays(1).format(labels.shortDateYear),
+            labels.string(R.string.detail_term_today) to labels.string(R.string.kyu_term_day, today, days),
+            labels.string(R.string.row_solar_month) to "${Kanshi.branchKanji(t.branch)}月 · " +
+                labels.string(R.string.kyu_solar_month, Catalog.text("Branch.${t.branch}"), monthStart.format(labels.shortDate)),
+            labels.string(R.string.detail_next_term) to labels.string(R.string.kyu_next_term, "${next.kanji} ${next.romaji} — ${next.english}", day.nextTermStart.format(labels.shortDate)),
+        ),
+        diagram = { DiagramFrame { TermRingDetail(t, today, days, 280.dp) } },
+    )
+}
+
+/** A 干支's balloon: its stem with element and polarity, its branch with the animal, its place in the sixty. */
+private fun kanshiRows(k: Kanshi, labels: Labels) = listOf(
+    BalloonRow(labels.string(R.string.row_stem), "${k.stemKanji} ${k.stemReading} · ${Catalog.text("Stem.${k.stem}")}"),
+    branchRow(k.branch, labels),
+    BalloonRow(labels.string(R.string.row_in_sixty), labels.string(R.string.kyu_in_sixty, labels.ordinal(k.index + 1))),
+)
+
+private fun branchRow(branch: Int, labels: Labels) =
+    BalloonRow(labels.string(R.string.row_branch), "${Kanshi.branchKanji(branch)} ${Kanshi.branchReading(branch)} · ${Catalog.text("Branch.$branch")}")
 
 private fun chokuAnnotation(c: Choku, labels: Labels) =
     Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c], diagram = { DiagramFrame { ChokuDial(c, 240.dp) } })
@@ -348,8 +439,8 @@ private fun KanshiGlyphs(k: Kanshi, element: Boolean = true) {
 }
 
 @Composable
-private fun StarLine(label: String, mark: String?, star: KyuSei) {
-    Column {
+private fun StarLine(label: String, mark: String?, star: KyuSei, onClick: (() -> Unit)? = null) {
+    Column(if (onClick == null) Modifier else Modifier.clickable(role = Role.Button, onClickLabel = stringResource(R.string.action_meaning), onClick = onClick)) {
         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(label, style = body.copy(fontSize = 13.sp, color = Palette.muted))
             if (mark != null) Text(mark, style = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, fontSize = 13.sp, color = Palette.saffron))
