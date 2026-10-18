@@ -1313,6 +1313,25 @@ the good of both halves, not the bad.
   in a list of days, as KP prints them; which Chinese-almanac days they
   are is not given there.
 
+## Settled, 2026-10-18 late night (open questions 44 and 154)
+
+- **44, «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག» are contractions of WB's list.** Box 10
+  is WB's work 11, feasts and vessels (ch. 34, vol. 2, p. 391, img. 399,
+  read on the scan), whose list of what to avoid runs «…ཉི་མ་ཁྱི་ཕག་བཟང་བ་ཡིན། །བྱ་དང་ཡོས་ཀྱི་ཉི་མ་དང་། །འཆི་སྦྱོར་ཀི་ཀང་ཕུང་པོའི་ཟོར། །ནག་ཆུང་གཟའ་བདུན་ཟས་འཚོལ་བ། །དབུལ་ལག་ཧལ་ཁྱི་པི་ལིང་འཕར། །གནམ་ཁྱི་ཟས་འཚོལ་རྒྱུ་དུས་དང་། །ཞག་ནག་ཐེ་སེ་བློན་ཙང་ཀུན། །ཧང་ཕན་སེ་བྱི་སེ་ཤར་དང་། །ཀུངས་མྱུལ་ས་རྒྱལ་འབྲུག་ལྷའི་ཚོགས། །ལྷ་ལྔ་བར་གནས་དྲ་ཆེན་དང་། །རཱ་ཧུ་རྒྱུ་བའི་དུས་སོགས་ལ། །སྟོན་མོ་[བྱ]་བ་ཤིན་ཏུ་འཛེམ།»
+  (the bracketed syllable from the etext). KP keeps WB's order name for
+  name: «ཉི་མ་བྱ་ཡོས» the Bird and Hare days, «ཀིང་ཟོར་ནག» the *ki kang*, the
+  *phung po'i zor* and the *nag chung*, «དབུལ» the *dbul lag*, «ཧལ་ཁྱི»,
+  «པི་ལིང», «གནམ་ཞག་ནག» the sky dog (*gnam khyi*) and the black day (*zhag
+  nag*), then the se, tsang kun and the rest as WB. They are not Chinese
+  names of their own; each part is an earth lord or day already listed in
+  RD3, RD4 and the courses. The Bhutanese anthology (MW26041) copies KP.
+- **154, the feasts' qualifier is the Sun's and the Moon's.** The same
+  work opens (img. 399, l. 1–2, read on the scan) «༡༡ སྟོན་མོ་ལ་སོགས་ཡོ་ལང་བྱེད། །ཉི(༡)ཟླ(༢)གསོན་སྟོན་ཡོ་ལང་མཆོག །ཤིད་སྟོན་བྱ་བ་ཤིས་པ་མིན། །པ་སངས(༦)ཕུར་བུ(༥)གཉིས་ལ་བཟང་། །ལྷག་པ(༤)རུང་ཙམ་མིག(༣)སྤེན(༠)ངན།»:
+  Sunday and Monday are best for feasts of the living and for vessels,
+  not auspicious for funeral feasts; Friday and Thursday are good without
+  the qualifier, Wednesday passable, Tuesday and Saturday bad. KP's box
+  joins the four weekdays in one phrase; WB keeps them apart.
+
 ## Open (O10f, 2026-10-14)
 
 - Open questions 153–155 ([open-questions.md](open-questions.md)).

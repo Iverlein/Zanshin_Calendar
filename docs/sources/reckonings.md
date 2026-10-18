@@ -1931,3 +1931,19 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
   day, mansion, weekday and hour, against which a repeated death is
   tested. The *bsgrub* grave and «སྐྲང་སྒོམ» stay open; BDRC's search finds
   no «སྐྲང་སྒོམ» anywhere.
+
+## Settled, 2026-10-18 late night (open question 68)
+
+- **The *bsgrub* grave is the iron one, cutting up with blades.** The
+  1996 print (vol. 2, p. 47, img. 55, read on the scan) and WBZ (etext
+  p. 692) both carve «འབྱུང་བ་ཤིང་མེ་ས་ལྕགས་ཆུ། །རི་སྐྱེལ་ཤིང་ལ་བསྲེག་པ་མེ། །སྦ་བ་ས་ལ་བསྒྲུབ་པ་ལྕགས། །བསྐྱུར་བ་ཆུ་རུ་ཤེས་པར་བྱ།».
+  Other reckoners gloss the iron grave (BDRC search snippets): MK
+  (MW1PD152297) and Tshul khrims rgyal mtshan of Nalendra (MW1KG10375)
+  «དུར་ས་ལྔ་ནི་རི་སྐྱེལ་ཤིང་། །བསྲེག་པ་མེ་ལ་སྦ་བ་ས། །སྒྲུབ་པ་མཚོན་གྱིས་བཤའ་བ་ལྕགས་ལ་སྐྱུར་བ་ཆུ།», and
+  the *Sgo bzhi mdzod lnga* and Gyalrong collections «མཚོན་གྱིས་བཤའ་བ་ལྕགས་ཀྱི་དུར།»:
+  the corpse cut up with blades. The notes name it «ལྕགས་དུར» among the
+  five (p. 522). **«སྐྲང་སྒོམ» is not the blocks' word:** WBZ img. 814,
+  l. 5 (read at 5×) carves «ས་འཚོལ་དུར་ལྔའི་སྨྲང་སྒོ་དབྱེ།», the five graves' account
+  and the opening of the grave's door, as the notes list them
+  («…ས་དུར། ལྕགས་དུར། …དུར་འཁྲེན་ས་བདག་ལ་སྨྲེང་བརྗོད་ཅིང་སྒོ་དབྱེ་བ།», p. 522); the 1996 «སྐྲང/སྨྲང་སྒོམ» is
+  the setting's.

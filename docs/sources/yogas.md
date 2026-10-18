@@ -474,3 +474,14 @@ paragraph's first words.
   («དགྲ་ལས་རྒྱལ», vol. 2, pp. 186, 315, 325; «དགྲ་ལས་ཐར», vol. 1, p. 383), and
   *ming 'dogs* is also a nickname, a bad name (Tshig mdzod chen mo «མིང་ངན»;
   Waldo). BDRC's search finds the line in WB alone.
+
+## Settled, 2026-10-18 late night (open question 159)
+
+- **Sel ba's lines read as the grammar has them.** NM's table of the 27
+  (*Dpal ldan sa skya pa'i gsung rab* vol. 7, etext I5721) sums sel ba
+  «ལམ་འཕྲང་སེལ་བ་…བཟང་གཞན་ངན།»: clearing the perilous road good, all else bad. So
+  WB's first three lines are what goes badly and the next two what goes
+  well. «དགྲ་ལས་མིང་འདོགས» is the first bad one: *ming 'dogs* is a bad name, a
+  slur (Tshig mdzod chen mo «མིང་ངན»; Waldo "nickname [pejorative]"), and
+  «དགྲ་ལས», as everywhere in WB, "from enemies": being given a bad name by
+  enemies.

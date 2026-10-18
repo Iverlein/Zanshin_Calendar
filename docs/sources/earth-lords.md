@@ -503,3 +503,22 @@ four:
   horse day's line, "binding [the corpse]" fits, not stated.
 - **125, the *lo* of the day.** BDRC's search («ཞག་གི་ལོ་སྟེང») finds the line in
   WB's prints only; no gloss.
+
+## Settled, 2026-10-18 late night (open questions 121, 122)
+
+- **121, «ཤ་ཆིངས».** The horse day's lines (vol. 2, etext p. 225):
+  «རྟ་ཉིར་སྒ་གནས་སྒོ་གོང་དུ། །རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན།»:
+  on the horse day the lord is on the saddle; loading the corpse on a
+  horse is bad; without a saddle, binding it to the bare back (*chings*, a
+  bond, a bandage, Waldo), the messenger may go; not saddleless, his going
+  is bad. **For the owner:** the built `reading.EarthLord.HORSE.death`
+  ("on the journey with the corpse no horse is used") misses it: WB
+  allows the horse, without a saddle.
+- **122, «སྤོམ་གཏའ».** Mipham's *Spom gta' chen mo bkra shis kun khyab*
+  (Collected Works, Dilgo Khyentse ed., vol. 7, pp. 273–294; I2010
+  img. 280, read on the scan) opens «འདིར་ཕྱོགས་དང་དུས་ཀྱི་ཆ་གང་དུ་རྒྱུ་ཞིང་གནས་པའི་གདུག་པ་ཅན་རྣམས་ཀྱི་ཉེས་པ་ཐམས་ཅད་སྤྱི་བཅོས་གཅིག་ཆོག་རྒྱལ་པོ་སྤོམ་གཏའ་ཆེན་མོའི་ལག་ལེན་གསལ་བར་བརྗོད་པ་ལ། སྤོམ་གཏའ་འདི་ལ་རྩིས་རྒྱུད་དང་པཎ་གྲུབ་ཀྱི་མན་ངག ཀོང་ཙེའི་ལུགས་…»:
+  the *spom gta'* is the king of rites, one general cure for all the
+  faults of the harmful beings that move and dwell in the directions and
+  times (the earth lords), from the reckoning texts and the Kong tse
+  tradition; it is set up before great undertakings. WB itself plants it
+  «གཉིས་ནག་སྟེང་དུ་སྤོམ་གཏའ་འཛུགས» (vol. 2, p. 128).

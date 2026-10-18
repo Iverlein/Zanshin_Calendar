@@ -623,3 +623,13 @@ bear on the choice, and are inferences, not statements of any text:
   gives the reason for the seasons, «དུས་དེར་བསིལ་དྲོད་སྙོམས་པའི་དབང་ཤེས་བྱིངས་རྨུགས་ཀྱི་རྐྱེན་ཉུང», cold
   and warmth even, so that dullness and torpor are few. Whether the *gung*
   is the sun's culmination is not said there.
+
+## Settled, 2026-10-18 late night (open question 127)
+
+- **The *gung*.** A reckoner's gloss (BDRC search, MW27495 and MW1KG1097)
+  reads «གུང་གཉིས་ནི་ཉིན་མཚན་གྱི་གུང», the two *gung* are the middles of day and
+  night, and WB names them as hours, «ཉི་ཕྱེད» and «ནམ་ཕྱེད», among its twelve
+  double-hours (vol. 2, p. 359). With the *zer* read as the stretches of
+  the sun's rising and setting (above), all four rough times are
+  stretches of the day, not instants; no text found defines the *gung* by
+  the sun's culmination.

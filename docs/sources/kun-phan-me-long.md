@@ -239,12 +239,26 @@ the app (§11 as the personal mansions and weekdays).
 
 - **The colophon** is on BDRC's image labelled 121 of I4CZ65599 (the
   numbering here, img. 119, is the file's). Read again at 3–8× on the scan:
-  the stack before «འབྲུག་ལོར» is a ཚ with a subscribed ས, not «མེ», so
-  Yigdzin-1's fire dragon is not on the block; the stack is likely a
-  contraction, and which dragon year it names is not settled. The
+  the stack before «འབྲུག་ལོར» looked like a ཚ with a subscribed ས; the second
+  edition (below, *Settled*) shows it to be «ཆེས» followed by «མེ». The
   colophon's «ལྷ་ལྡན་པར་[…]་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན་ཏེ་པར་སྤྱིའི་པར་ཁང་དུ་བཞུགས» makes the blocks Lhasa
   blocks kept at the common printing house; BDRC's Mtho las dgon
   attribution is not explained by anything printed.
+
+## Settled, 2026-10-18 late night (open question 140)
+
+- **A fire dragon year, by the second edition.** *Nyer mkho'i rtsis kyi
+  rnam bzhag pad dkar chun po* (Bkra shis tshe brtan and Sha bo tshe
+  ring, Kan su'u mi rigs dpe skrun khang, Lanzhou 2000, BDRC W21970,
+  ISBN 7-5421-0761-5) prints KP as its fifth chapter (pp. 87–187) and the
+  colophon on p. 187 (the lent scan, leaf 206, read in archive.org's
+  reader): «…ཅེས་པའང་སྔོན་མེད་བསྟན་བཅོས་བཻཌཱུར་དཀར་པོའི་གཅེས་དོན་འབྲས་རྩིས་ལེ་ཚན་འདི་བཞིན་སྔོན་དུ་སྲི་གཅོད་ནས་པར་དུ་བསྐོས་པ་མེ་སྐྱོན་དུ་སོང་སྟབས། སླར་ཡང་རབ་ཆེས་མེ་འབྲུག་ལོར་ལྷ་ལྡན་པར་བ་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན་ཏེ་པར་སྤྱིའི་པར་ཁང་དུ་བཞུགས། །དགེ་ལེགས་འཕེལ།»
+  The block's stack read above as a ཚ with a subscribed ས is «ཆེས», and the
+  next is «མེ»: Yigdzin-1's fire dragon stands. The colophon names no
+  sixty-year cycle, so which fire dragon year is not stated anywhere; the
+  blocks are the Lhasa printers' community's, and nothing printed explains
+  BDRC's Mtho las dgon. KP2 has no colophon (a manuscript follows its last
+  folio, I3CN12074 img. 346).
 
 ## Open
 

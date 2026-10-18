@@ -1074,3 +1074,24 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
   2026-10-18) names a translator or an original title. So it is not a plain
   translation of *The Science of Mantra Healing by Interdependence*; how
   much of that book it holds is not seen.
+
+## Settled, 2026-10-18 late night (open questions 64, 83)
+
+- **64, *Йога звука* is a translation from English.** The publisher's own
+  record (ganga.ru, read 2026-10-18): «Сост. и ред. Т. Ульянова. Пер. с
+  англ.: А. Важнин, А. Важнина, Е. Врублевская, А. Розова, Т. Ульянова»,
+  2016, 320 pp.; Labirint's record of the 2019 third printing (same ISBN)
+  gives the original title as *The Tibetian Art of Mantra Healing* [sic].
+  So it is not a translation of the Tibetan *Science of Mantra Healing by
+  Interdependence* (Beijing 2015) but of an English book, edited and
+  enlarged by its compiler.
+- **83, «དབྱུག་དཔྱད» is puncture therapy.** The *Tshig mdzod chen mo* defines
+  the external therapies (*dpyad*): «…ནང་གསེས་སུ་སྦྱེ་ན་འཇམ་དཔྱད་དུགས་ལུམས་བྱུག་པ་གསུམ་དང་། རྩུབ་དཔྱད་གཏར་བསྲེག་དབུག་པ་གསུམ། དྲག་པོ་འདྲལ་བཅོད་འདྲུད་འབྱིན་བཞི་བཅས་སོ།»:
+  the rough ones are bloodletting, moxa and *dbug pa*, puncturing.
+  «དབྱུག་དཔྱད» is that third (KD vol. 3 lists «སྡོམ་ལེན་གཏར་བསྲེག་དབྱུག་དཔྱད་དང་།» with
+  the other two). **«ཟླ་རིབ»** is WB's women's blood illness, which the
+  1996 print mostly sets «ཟླ་ཇིབ»: «བུད་མེད་ཟླ་ཇིབ་ནད་འོང» (vol. 1, p. 403),
+  «ཁ་སྨྲས་བུད་མེད་ཟླ་ཇིབ» (p. 410), «དམར་ངོ་བུད་མེད་ལ། །ཟླ་ཇིབ་དམར་ཤས་འཛེམ» (p. 408),
+  and of the dead infant *shang dkar* «ཤང་དཀར་ཟླ་ཇིབ་ཁྲག་བྱིལ་ཏེ། །དར་གྱིས་གཏུམས་ལ་ལུག་རུར་གཞུག»
+  (vol. 2, p. 83, etext): the monthly (*zla*) blood. No dictionary has the
+  word in either spelling.

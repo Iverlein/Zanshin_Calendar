@@ -552,3 +552,15 @@ death mansions; the mansion "of entering the womb" is then the rising
 mansion (*'char skar*). Search snippets only, not read on a page image;
 the rule that gives other birth mansions their mansion of conception is
 the next thing to read there.
+
+## Settled, 2026-10-18 late night: the mansion of conception on the scan
+
+The passage was read on the Lhasa print of Phug pa's *Pad dkar zhal lung*
+(1681, BDRC MW687, scans I1KG22097 img. 70, last two lines, at 2×):
+«…ད་ནི་སྟོན་པ་ས་ག་ཟླ་བའི་ཉའི་མཚན་གྱི་གུང་ཐུན་གྱི་རྒྱལ་ནུབ་བཞིན་པའི་ཆ་ལ་ལྷུམས་སུ་ཞུགས། དེ་ནས་ཟླ་བཅུ་སོང་བ་དབོ་ཟླའི་ཚེས་བཅོ་ལྔའི་རྒྱལ་འཆར་བ་དང་དུས་མཉམ་པར་བལྟམས། དེ་ལྟར་འཆར་སྐར་གཙོ་བོར་བཟུང་བ་ན་ཉི་མའི་སྙིང་པོ་དང་མཐུན་ཏེ། ཉི་མའི་སྙིང་པོ་ལས། རྒྱལ་ལ་སྐྱེས་པའི་དབང་དུ་བྱས་ནས་ཆུ་སྟོད་ལྷ་མཚམས་མངལ་འཇུག་གི་སྐར་མ་དང་། སྣར་མ་ནག་པ་གྲོ་བཞིན་རྣམས་འཆི་སྐར་དུ་གསུངས་ཤིང་།»
+(img. 71 goes on as the etext). The Buddha entered the womb as Puṣya set
+at midnight of the Vaiśākha full moon and was born as Puṣya rose: Phug
+pa takes the rising mansion as the birth mansion, and so agrees with the
+*Sūryagarbha*, which for one born under Puṣya names Pūrvāṣāḍhā and
+Anurādhā the mansions of conception. The rule for other birth mansions
+is not given there; the passage is about the Buddha's dates.

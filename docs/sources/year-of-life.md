@@ -1339,6 +1339,28 @@ year is its reaching that year, next to its reaching the seven-corner.
   fault of the *zam thug*": monks and others living in the house count
   for the household's fault.
 
+## Settled, 2026-10-18 late night (open questions 93, 96)
+
+- **93, «རྐྱ་མདའ».** The phrase recurs with its remedy: KD vol. 3
+  (etext p. 703), on the king's seat in the general examination,
+  «ཕ་ཚན་ནང་ནས་མགོ་གནོན་འོང་། །བཟའ་མི་རྐྱ་མདའ་ཐུག་པས་ལན། …བཟའ་མི་རྐྱ་འབྱེད་མཚེར་ས་སྤོ། །སྡུད་པ་འདོན་ཅིང་སྡོང་རྒྱན་བྱ།»,
+  and the same in Dpal bsdus's manual (I4767, p. 199); WB has
+  «ཁྱད་པར་རྐྱ་མདའ་དབྱེ་བསྲུང་བྱ» at the spouses' obstacle. The spouses' *rkya
+  mda'* "meets", and the cure is to separate the spouses' *rkya* («རྐྱ་འབྱེད»,
+  «དབྱེ») and move their bed: *rkya* is a strand, the strands that are
+  twined (*rkya 'thab*, «ཕན་ཚུན་སྣོལ་བ», Tshig mdzod chen mo), so the *rkya
+  mda'* is the spouses' joined strand, their bond, which the remedy
+  unties.
+- **96, the household.** WB counts «བཟའ་ཚང་ཁྱིམ་གཅིག», the members of one house
+  (vol. 1, p. 385, etext). The notes (vol. 2, p. 491, img. 499, read on the
+  scan) give a wider count as some reckoners' oral advice:
+  «རྩིས་པ་འགའི་ཞལ་ཤེས་ལ་བྱེས་སོགས་སུ་བྲང་ཁ་དེར་ཚོགས་ཚད་དང་། ལོ་དེར་ཁྱིམ་དུ་ཚོགས་ཚད་ལའང་བརྩི་བར་མཛད།», all
+  gathered at that place abroad and all gathered at home that year; and
+  on p. 492 the ordained living in the house share the house's fault
+  (above). Neither the root text nor the notes speaks of a member who
+  died during the year (vol. 1, pp. 385–412, and the notes, pp. 490–493,
+  searched).
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's

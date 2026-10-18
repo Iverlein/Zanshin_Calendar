@@ -118,6 +118,16 @@ scratch directory, not in the repository:
   open BDRC benchmark; how the readers below were ranked.
 - `local_read.py PRESET …` — general vision models through `llm-serve`;
   none reads Tibetan well enough (below).
+- `bdrc_search.py OUT.json PHRASE…` — BDRC's full-text search, exact
+  phrases, six at a time in a headed Chromium of class `playwright-work`
+  (parked on workspace 11): hit counts, each hit's etext volume and
+  character offset, and the snippets. It answered more of the open
+  questions than the dictionaries did (2026-10-18): another reckoner's
+  gloss, a contraction's full form, a variant spelling. Search-only
+  etexts answer 403 to the etext API; their snippet is the reading.
+- `archive_lend.py view` opens its reader in a Chromium of class
+  `playwright-work` too (2026-10-18), and its FILE argument is "." for a
+  single-volume item.
 - `locate.py find | map | dict` — a phrase in the etexts whatever the
   OCR's line breaks; which etext pages an OCR'd image of another print holds
   (its 4-syllable shingles); a Wylie headword in Steinert's 64 dictionaries
