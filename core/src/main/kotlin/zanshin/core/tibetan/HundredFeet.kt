@@ -48,6 +48,9 @@ object HundredFeet {
         MANASA(25, "yid can");
 
         val english: String get() = gloss(this)
+
+        /** What a malefic's fang on it brings, "merit declines" (p. 98). */
+        val struck: String get() = gloss(this, "struck")
     }
 
     /** The mansion of [holder] for one born in [birth]: Abhijit, which no day has, is null. */

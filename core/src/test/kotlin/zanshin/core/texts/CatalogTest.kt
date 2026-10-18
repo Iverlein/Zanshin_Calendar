@@ -117,7 +117,7 @@ class CatalogTest {
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR,
             Texts.MEDICAL_SEASON,
         ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE +
-        Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
+        Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
             (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +
@@ -306,7 +306,7 @@ class CatalogTest {
             Texts.WORKS_SIGN, Texts.SEASON_SIGN, Texts.DATE_SME_BA, Texts.TWELVE_LINK, Texts.HUNDRED_FEET, Texts.HOUR_HIDDEN,
             Texts.HOUR_WORKS, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR, Texts.MEDICAL_SEASON,
         ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
-            Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR + Texts.GREAT_SPEAR + Texts.HOUR_EARTH_LORDS +
+            Texts.HAIR_DATE + Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS +
             Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN + Texts.HOUR_SA_RGYAL + Texts.HOUR_GNAM_KHYI +
             Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY + Texts.NECTAR_PERIODS + Texts.COMET +
             Texts.LUNAR_ECLIPSE + Texts.SOLAR_ECLIPSE +
@@ -496,7 +496,6 @@ class CatalogTest {
         val ALLOWANCE: Map<String, Int> = mapOf(
             "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
             "X4" to 23, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
-            "X8" to 27, // your day (block 47); 12 under 20 words
             "X9" to 21, // the hours panel (block 48)
         )
     }

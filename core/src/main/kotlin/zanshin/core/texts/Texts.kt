@@ -16,6 +16,7 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Electional
+import zanshin.core.tibetan.DayLetters
 import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.Link
 import zanshin.core.tibetan.ElementPair
@@ -1375,16 +1376,39 @@ object Texts {
     }
 
     /**
-     * The fangs of the hundred feet on a person's birth mansion ([HundredFeet.of], WB vol. 1, pp. 97–98): the wheel,
-     * the fangs, and what they bring there and on the six holders, the day's result in {0}. Shown, not weighed.
+     * The fangs of the hundred feet on a person's birth mansion ([HundredFeet.of], WB vol. 1, pp. 97–98): the day's
+     * result in {0} of the family's note, which names the malefics and benefics; the wheel is the note's *How it
+     * falls* row, and what a malefic brings on each of the six holders their details (`Holder.<NAME>.struck`).
+     * Shown, not weighed.
      */
     val HUNDRED_FEET: Map<HundredFeet.Result, Reading> = HundredFeet.Result.entries.associateWith {
-        Reading(source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet", arg = "reading.HundredFeet.${it.name}")
+        Reading(
+            source = Sources.WHITE_BERYL_LETTERS, key = "reading.HundredFeet", arg = "reading.HundredFeet.${it.name}",
+            alsoRows = listOf("reading.HundredFeet"),
+        )
     }
 
-    /** The spear and the great spear ([HundredFeet.spear], WB vol. 1, pp. 98–99): every work avoided, a bride above all. */
-    val SPEAR = Reading(avoidKeys = listOf("every_work", "giving_and_taking_a_bride"), source = Sources.WHITE_BERYL_LETTERS, key = "reading.Spear")
-    val GREAT_SPEAR = Reading(avoidKeys = listOf("every_work", "giving_and_taking_a_bride"), source = Sources.WHITE_BERYL_LETTERS, key = "reading.GreatSpear")
+    /**
+     * The spear and the great spear ([HundredFeet.spear], WB vol. 1, pp. 98–99): every work avoided, a bride above
+     * all, and what each body's spear brings her: a benefic's (Mercury, Jupiter, Venus) under `reading.Spear.<BODY>`,
+     * a malefic's under `reading.GreatSpear.<BODY>`, read into the note's {0} by [spear].
+     */
+    val SPEAR: Map<DayLetters.Body, Reading> = spears("reading.Spear", benefics = true)
+    val GREAT_SPEAR: Map<DayLetters.Body, Reading> = spears("reading.GreatSpear", benefics = false)
+
+    private fun spears(key: String, benefics: Boolean): Map<DayLetters.Body, Reading> =
+        DayLetters.Body.entries.filter { it != DayLetters.Body.MOON && (it in HundredFeet.MALEFICS) != benefics }.associateWith {
+            Reading(
+                avoidKeys = listOf("every_work", "giving_and_taking_a_bride"), source = Sources.WHITE_BERYL_LETTERS,
+                key = key, arg = "$key.${it.name}", alsoRows = listOf(key),
+            )
+        }
+
+    /** The day's spear or great spear, its note taking the line of each body whose face-on it is, in turn. */
+    fun spear(sp: HundredFeet.Spear): Reading {
+        val readings = sp.bodies.map { (if (sp.great) GREAT_SPEAR else SPEAR).getValue(it) }
+        return readings.first().copy(moreArgs = readings.drop(1).map { it.arg!! })
+    }
     val LUNAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.MOON")
     val SOLAR_ECLIPSE = Reading(source = Sources.WHITE_BERYL_ECLIPSES, key = "reading.Eclipse.SUN")
 
@@ -1646,20 +1670,21 @@ object Texts {
         "お盆" to Reading(source = Sources.WP_OBON, license = License.CC_BY_SA),
     ).mapValues { (kanji, r) -> r.copy(key = "reading.Festival.$kanji") }
 
+    /** The la, life-force and slayer weekdays of the birth animal: Rabten's luck, life and anti days, WB p. 330's three weekdays. */
     val PERSONAL_DAY: Map<PersonalDay, Reading> = keyed(
-        PersonalDay.LUCK to Reading(source = Sources.RABTEN),
-        PersonalDay.LIFE to Reading(source = Sources.RABTEN),
-        PersonalDay.ANTI to Reading(source = Sources.RABTEN),
+        PersonalDay.LUCK to Reading(source = Sources.RABTEN, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
+        PersonalDay.LIFE to Reading(source = Sources.RABTEN, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
+        PersonalDay.ANTI to Reading(source = Sources.RABTEN, also = listOf(Sources.WHITE_BERYL_PERSONAL_MANSIONS)),
     )
 
-    /** One's personal mansions (the White Beryl, p. 330, with the Sakya manual's prose beside its table). */
+    /** One's personal mansions (the White Beryl, p. 330, with the Sakya manual's prose beside its table), under the family's note. */
     val PERSONAL_MANSION: Map<PersonalMansion, Reading> = keyed(
         *PersonalMansion.entries.map {
             // The slayer mansion is the death mansion, on which p. 338 calls anything bad.
             val also = if (it == PersonalMansion.GSHED) listOf(Sources.WHITE_BERYL_OWN_DAYS) else emptyList()
             it to Reading(source = Sources.WHITE_BERYL_PERSONAL_MANSIONS, also = also + Sources.NOR_BU_ME_LONG)
         }.toTypedArray(),
-    )
+    ).underNote()
 
     /** The works WB p. 338 names good on one's birth weekday and own weekday, as p. 312 does on the own weekday alone. */
     private val OWN_WEEKDAY_WORKS = listOf(
