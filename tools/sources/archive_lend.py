@@ -130,7 +130,7 @@ def view(jar_path, out, ident, sub, *leaves):
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=False, args=["--ozone-platform=x11", "--class=playwright-work"])
         ctx = browser.new_context(viewport={"width": 1400, "height": 2400}, device_scale_factor=3)
         ctx.add_cookies([{"name": c.name, "value": c.value, "domain": "." + c.domain.lstrip("."), "path": c.path or "/",
                           "secure": True} for c in jar if "archive.org" in c.domain])
