@@ -45,9 +45,10 @@ readings of that day and sunrise, solar noon and sunset for your place.
   the date and the year of age on the seven-red; the medical works as
   the day is weighed; and the Four Tantras' humours and seasons. The
   tradition's readings, not medical advice.
-- **旧暦:** month and day, 六曜, the current solar term, moon phase, 十二直,
-  二十八宿, 九星, 選日 and 暦注下段 (with the lower band's own rules), 雑節,
-  干支 and 恵方.
+- **旧暦:** month and day with the moon's age, 六曜, the current solar term
+  with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
+  九星 of the day, month and year, 選日 and 暦注下段 (with the lower band's
+  own rules), 雑節, 干支 and 恵方; every row opens its reading or its facts.
 - **Choose a day:** the best days for a work over one to twelve months,
   ranked as the texts weigh them, each month a grid of its lunar dates
   with their civil days and its good hours; on the 旧暦 page the days the

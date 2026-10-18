@@ -1827,7 +1827,8 @@ head before the name. *bla gza'* is the listed exception. The families
 were brought to the shape one ROADMAP item at a time (X3–X10), each
 allowed its breaks until its block was built; since the last, block 43
 (2026-10-18), every reading holds the shape with no allowance. The 旧暦
-page's readings, not in X's review, are outside the checks. The rest of the rules (the ruling
+page's readings, not in X's review, are outside the checks, but for the
+24 solar terms (ROADMAP K6), written in the shape and held to it. The rest of the rules (the ruling
 first, one vocabulary, an image marked as one, plain sentences, a family
 read as one) the writer checks by hand.
 The three examples below are the rule applied to readings as they stood;
@@ -2554,7 +2555,11 @@ canvas "Zanshin Calendar — basic design".
 
 - **Date:** in English — the day number as the headline, "8th month" under it
   ("8th month, day 18" for screen readers). Tapping the month opens a balloon
-  with its traditional name (葉月 Hazuki).
+  with its traditional name (葉月 Hazuki). Tapping the day number or the
+  moon opens a balloon of facts (ROADMAP K6): the moon's age at noon JST
+  as the printed almanac gives it beside the date (月齢, days since the
+  last new moon at or before noon, `Kyureki.moonAge`), the phase, the
+  month's length (大, 30 days, or 小, 29) and the Gregorian date.
 - **Rokuyō:** as prominent as the date, since Japanese wall
   calendars lead with it.
 - **Leap month:** "Leap 6th month".
@@ -2585,16 +2590,33 @@ canvas "Zanshin Calendar — basic design".
   set aside says so ("set aside"), and its reading names what set it aside; a
   heavier 歳下食 names the bad days that make it so.
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
-  on the day a new one begins. Opens nothing yet; a sheet with the term's
-  reading is planned (ROADMAP K6, the owner's rule of 2026-10-14 that
-  every row of this page opens a reading or a balloon of facts, as on the
-  Tibetan page — the same item covers the 干支 rows, the month and year
-  stars, the date and the moon).
+  on the day a new one begins. The box opens the term's sheet (ROADMAP
+  K6, the owner's rule of 2026-10-14 that every row of this page opens a
+  reading or a balloon of facts, as on the Tibetan page) with the three
+  parts a Tibetan sheet has. *The reading* (`reading.SolarTerm.*`, in the
+  shape of §8.1): what the term marks, glossed after the こよみ便覧 (1787)
+  and the NAOJ, the solar month a 節 opens or the lunar month a 中 names,
+  and what hangs on it (土用, 彼岸, 社日, the 雑節 in its span, the day
+  stars' turn at the solstices, the year's turn at 立春); its *Also
+  called* row the month's name (正月節). *The details*, computed: 節 or
+  中, the Sun's longitude, the day it began and the day it ends, today's
+  day of its span, the solar month it opens or falls in, the next term
+  and its date. *The ring* (`TermRingDetail`): the 24 at sheet size, 冬至
+  at the top, each named in kanji, the 節 on heavy lines (where the solar
+  months begin) and in the text colour, the 中 muted, the term marked and
+  today's place in it, the 土用 and 彼岸 arcs named; a tapped term is
+  named below with what it does.
 - **Moon phase:** a phase glyph next to the date.
 - **暦注:** in the order of a printed almanac — the middle band (中段, the
   十二直 alone), the 二十八宿, the lower band (暦注下段), the selected days
   (選日), the deity days (縁日), the 雑節, then 干支 of day and year, the
-  solar month, month and year stars, the day star and the 恵方. The day star sits with the other 九星: it is
+  solar month, month and year stars, the day star and the 恵方. Each 干支
+  row opens a balloon (ROADMAP K6): the stem with its element and
+  polarity, the branch with its animal, the pair's place in the sixty;
+  the solar month's balloon its branch, its first and last day and what
+  is counted by it (the twelve stations, the month star, the three bad
+  days). The month and year stars open their own 九星 sheets, the board
+  set to that star, the gloss saying month or year. The day star sits with the other 九星: it is
   a personal reading, not a day quality, and entered almanacs only after Meiji
   (Todan こよみ博物館「暦注」).
 - **九星気学 row:** with the nine-star reading on, the relation of the owner's

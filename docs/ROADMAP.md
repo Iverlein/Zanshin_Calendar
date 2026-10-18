@@ -109,7 +109,7 @@ moves up as soon as it is unblocked.
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
-| <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
+| <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 
@@ -374,7 +374,7 @@ as a dead end (sources/PLAN.md).
 - **Block.** [54](#block-54), after D9 and [53](#block-53) (the old
   text the year sheet is read from).
 
-#### <a id="k6"></a>K6 Every 旧暦 row opens — planned 2026-10-14 (SPEC §10.4)
+#### <a id="k6"></a>K6 Every 旧暦 row opens — planned 2026-10-14, built 2026-10-18 (SPEC §10.4)
 
 - **Gap.** The Tibetan page gives every line a reading, or at least a
   balloon of facts, on tap (SPEC §10.3); the owner (2026-10-14): the 旧暦
@@ -438,6 +438,23 @@ as a dead end (sources/PLAN.md).
   (pid 2533201).
 - **Block.** [56](#block-56), from K6-R; [53](#block-53) may
   revise the term readings' wording, not their presence.
+- **Built 2026-10-18** (block 56). `Texts.SOLAR_TERM`, 24 readings in the
+  shape of SPEC §8.1 in both languages, each with its month's name as
+  *Also called*: what the term marks after the こよみ便覧's gloss (KB) and
+  the NAOJ, the month it opens or names, what hangs on it. KB speaks, RM
+  does not: its directions and elements wait on D8 with the old texts'
+  order (block 53 may reword). `CatalogTest` holds the family to the
+  shape as item K6, with no allowance. The sheet's details and
+  `TermRingDetail` as SPEC §10.4 says; `Kyureki.moonAge` (noon JST,
+  tested against the NAOJ's new moons of 2026–2027) and
+  `Kyureki.Month.days` for the date's balloon; the 干支 balloons through
+  `FactRow`'s rows for a kanji term; the month and year stars their own
+  sheets. About & sources names the こよみ便覧, the NAOJ's 二十四節気 and
+  koyomi8. Checked on the emulator in English and Russian on 18 Oct 2026
+  (寒露, a 節) and 25 Oct (霜降, a 中): every new row and sheet tapped and
+  dumped, at font scale 2.0 (the date balloon's labels shortened so that
+  its values do not break letter by letter) and in landscape. The kanji
+  shown are all in the font subset; no rebuild.
 - **Done when.** Every row of the page opens on the emulator in both
   languages (a tour that taps each row and dumps the sheet or balloon),
   the term's sheet with its reading, details and full ring, legible at
