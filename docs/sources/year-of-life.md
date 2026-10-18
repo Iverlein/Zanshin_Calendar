@@ -425,7 +425,8 @@ sgos rdel), two indispensable ones (མེད་དུ་མི་རུང་�
 rdel), five unchanging luck pebbles, a hundred, and twenty-four decisive
 pebbles (བཏང་གཅོད, btang gcod): 136. The four precious ones are the birth
 year as king, the month as minister, the day as soldier and the hour as
-weapon. (p. 261 counts the decisive pebbles as twenty, below.)
+weapon. (p. 261 counts the decisive pebbles as twenty, below, after the
+four of rise and decline: 4 + 20 is the *Lamp*'s 24, question 71.)
 
 **The colours** (p. 260, img. 270; Yigdzin-1, the lines checked on the
 scan in part): «དེ་ལ་གནད་ཀྱི་རྡེའུ་ནི། །སྟག་ནས་སྦྲུལ་བར་ནག་པོར་འཕེལ། །རྟ་ནས་བྱ་བར་དཀར་པོར་འཕེལ། །ཁྱི་ལ་དཀར་གཅིག་ནག་པོ་གཅིག །ཕག་ལ་དཀར་གཉིས་ནག་པོ་གཅིག །བྱི་བ་ནག་གཉིས་དཀར་པོ་གཅིག །གླང་ལ་དཀར་ནག་གཉིས་རེ་སྟེ། །ལོ་ཟླ་ཞག་དུས་ཀུན་ལ་སྦྱར། །ཆུ་ནས་ལྕགས་བར་གཅིག་ནས་ལྔ། །ཟིན་ནས་ལི་བར་ནག་པོར་འཕེལ། །ཁོན་ནས་ཁེན་བར་དཀར་པོར་འཕེལ། །ཁམ་ལ་དཀར་གཉིས་ནག་པོ་གཅིག །གིན་ལ་ནག་གཉིས་དཀར་པོ་གཅིག །སྨེ་བ་དཀར་གསུམ་དཀར་པོར་འཕེལ། །ནག་ཐོན་ལྗང་གུ་ནག་པོར་འཕེལ། །ལྔ་སེར་དཀར་ནག་ཕྱེད་མ་སྟེ། །བདུན་དམར་དཀར་གཉིས་ནག་པོ་གཅིག །དགུ་དམར་ནག་གཉིས་དཀར་པོ་གཅིག །ཆད་ཆེན་ལ་ནི་ནག་པོ་གསུམ། །ཆད་ཆུང་ལ་ཡང་ནག་པོ་གཉིས། །མ་ལོ་དཀར་གསུམ་དབང་ལོ་གཉིས། །བུ་ལོ་དཀར་གཅིག་གྲོགས་ལོ་ཕྱེད། །དགྲ་ལོ་ནག་པོ་གསུམ་དུ་བཞག །ཁ་ཡན་ལ་ནི་དཀར་པོ་གསུམ། །ཁོང་ནོང་ལོ་ལ་དཀར་པོ་གཉིས། །སེ་ཞིག་ལ་ནི་དཀར་པོ་གཅིག །ཁ་རལ་དཀར་ནག་ཕྱེད་མ་སྟེ། །འདུན་ཁུར་ལ་ནི་ནག་པོ་གསུམ། །མི་འཁྲུལ་གནད་ཀྱི་རྡེལ་ཡིན་ནོ།»
@@ -484,6 +485,19 @@ body, power and luck counted, a pebble laid on the greater, a red mark
 (ཁ་དམར, kha dmar) on each. The new school (གསར་མ, gsar ma) of reckoners
 puts the life force first, the old (རྙིང་མ, rnying ma) the power, "in
 application there is no difference".
+
+**Twenty or twenty-four** (question 71, answered 2026-10-18; p. 261,
+img. 271, the two lines read on the scan at 2.3×):
+
+> །དེ་ལྟར་རྡེའུ་བརྒྱ་ཕྲག་གཅིག །ལོ་ཟླ་ཞག་དུས་བརྩིས་པ་ཡི། །དར་གུད་ཞག་མལ་རྡེའུ་བཞི། … །བཏང་གཅོད་རྡེའུ་ཉི་ཤུ་ལ། །སྲོག་གི་རྡེའུ་དཀར་ནག་བགྲངས།
+
+WB lays the precious four, the special one, the indispensable two, the
+five luck pebbles, the hundred, the four of rise and decline and the
+twenty decisive ones, 136 in all: the *Precious Lamp*'s count on p. 260,
+whose 24 decisive pebbles are WB's four of rise and decline and twenty
+together, since the *Lamp* names no rise and decline of its own. P. 262's
+breakdown keeps them apart the same way («རང་མ་བུ་གྲོགས་དགྲ་བཅས་པའི། །རྡེའུ་བརྒྱ་དང་ཉི་ཤུ་དང་། །དར་གུད་ཞག་མལ་རྡེའུ་བཞི།», the hundred and twenty, then
+the four).
 
 **The breakdown of 3,773** (p. 262, img. 272, read on the scan line by
 line at 3.2×; the doubt of reckonings.md):
@@ -731,7 +745,8 @@ By printed page (image = page + 10); not read on the scan:
 ### Open
 
 Open questions 69–76 ([open-questions.md](open-questions.md)), in order: the
-two counts of pp. 259 and 262; «མི་འབྱུང»; 24 or 20 decisive pebbles; «ཚེ་སྨང»;
+two counts of pp. 259 and 262; «མི་འབྱུང»; 24 or 20 decisive pebbles (answered
+2026-10-18, above); «ཚེ་སྨང»;
 the mother's trigram one a year or with the leap at ten; the father's luck
 pebble; «མོ་ལ་ཆུ་ཡི་བདུད»; «སྐྱེད་པོ་བགྲང». Question 23 narrows: on the scan of
 vol. 2, p. 474 (img. 482, at 8×) the first «དུས་ཁམས» is printed so, the

@@ -385,8 +385,18 @@ the text, not about the app.
     the parts make 462. Is «གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔ» a sum of other groups
     rather than a count of its own, or does another print (Zhol, Taikhang)
     have a different number?
+    *Narrowed 2026-10-18 ([reckonings.md](reckonings.md), ch. 20): the
+    1996 edition (img. 259), the Zhol print (WBZ img. 308) and the Taikhang
+    print (I5877 img. 325) give the same seven numbers and the same 440, so
+    no print differs. The lines just before name the system's head count,
+    «དོན་སྐོར་བཞི་བརྒྱ་ཞེ་གཉིས», 442 rounds of meaning: the parts make 442 when the
+    20 of «གསོན་ཁོང་གཤིན་འདོན» are counted inside the dead's 215, as ch. 29
+    makes the drawing out of the dead the preliminary of the reckoning for
+    the dead. What is left: why the sum says 440 for 442. In passing, the
+    Taikhang print reads «ནད་སྲི», illness and *sri*, where the 1996
+    edition has «ནང་སྲི».*
 
-22. **WB vol. 1, p. 351 (img. 361) and vol. 2, p. 26 (img. 34): slips
+22. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361) and vol. 2, p. 26 (img. 34): slips
     in two sums of pebbles?** Ch. 23 states 478 root and 5,327 sign pebbles
     as 5,801 in all (the parts make 5,805), and ch. 28 123 and 1,042 as
     1,166 (they make 1,165) (read on the scan 2026-10-11, RD11,
@@ -397,6 +407,8 @@ the text, not about the app.
     [reckonings.md](reckonings.md)): the Zhol print (I1KG1710 img. 662)
     prints the same 1,166, so that slip is the blocks'; ch. 23's in WBZ not
     yet compared.*
+    *Answered 2026-10-18 ([reckonings.md](reckonings.md), ch. 23): WBZ
+    img. 458, ll. 3–4, read on the scan, prints 478, 5,327 and «ལྔ་སྟོང་བརྒྱད་བརྒྱ་དང་། །ཉག་མ་གཅིག», 5,801: both slips are the blocks'.*
 
 23. **WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
     twice print «དུས་ཁམས», "the element of the time", where the five great
@@ -457,7 +469,7 @@ the text, not about the app.
     every day of the month, or at an hour of the ox's days (2026-10-11,
     RD4, [year-month-earth-lords.md](year-month-earth-lords.md))?
 
-30. **WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
+30. **Answered 2026-10-18. WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
     ling*'s course by the *Index* names winter 2 twice (p. 207); the
     calf-headed one's leaves out the horse month (p. 209); the
     nāga-planet turns "on all but the 25th" of spring 3 (p. 222); Dza
@@ -465,6 +477,11 @@ the text, not about the app.
     has the dragon twice (p. 202) (read on the scan 2026-10-11, RD4,
     [year-month-earth-lords.md](year-month-earth-lords.md)). Does the Zhol
     print read the same?
+    *Answered 2026-10-18 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+    the Zhol print reads all five as the 1996 edition does: the dragon twice
+    (WBZ img. 916), «གླང་ལུག་ལུག» (img. 921, read on the scan), winter 2 twice
+    (img. 922), no horse month (img. 924), «ཉེར་ལྔ་མ་གཏོགས་ཀུན» (img. 939); the
+    four others by Yigdzin-1. They are the blocks', not the typesetting's.*
 
 31. **WB vol. 2, pp. 208–209 (img. 216–217): the guard dog's
     «འབྲིང་པོ་བཞི་ཡི་སྟེང».** Are these the four middle months of the seasons or
@@ -567,7 +584,12 @@ the text, not about the app.
 
 51. **WB vol. 1, p. 417: the Sanskrit gloss and Kong tse 'phrul rgyal.** p. 417. The bracketed Sanskrit gloss in the second line is read «བི་དྷ་ཁོ་ན» on the scan and «བི་དབྷ་ཁོ་ན» in the etext; which is meant, and who is Kong tse 'phrul rgyal named in the salutation? (2026-10-12, RD12, [health.md](health.md))
 
-52. **WB vol. 1, pp. 428–429: lost in vol. 1's scan.** pp. 428–429 (lost in vol. 1's scan and etext): does another print of the 1996 edition, or the Taikhang reproduction (MW30116), carry them as pages of the same book, so that the 1996 text is complete, and is the repetition of pp. 430–431 in BDRC's scan a scanning error or a fault of the book? (2026-10-12, RD12, [health.md](health.md))
+52. **Answered 2026-10-18. WB vol. 1, pp. 428–429: lost in vol. 1's scan.** pp. 428–429 (lost in vol. 1's scan and etext): does another print of the 1996 edition, or the Taikhang reproduction (MW30116), carry them as pages of the same book, so that the 1996 text is complete, and is the repetition of pp. 430–431 in BDRC's scan a scanning error or a fault of the book? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-18 ([health.md](health.md)): the Gser thang reprint of
+    the same edition (I3CN5028) has pp. 425–432 in order on img. 420–427,
+    428–429 included and 430–431 once; the gap and the repeat in I1KG12906
+    and its etext are BDRC's scanning, not the book's. The two pages there
+    are not yet read.*
 
 53. **WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
 
@@ -589,8 +611,16 @@ the text, not about the app.
     backward from the birth month, and does "the first" mean her own birth
     month (2026-10-12, RD15, [marriage.md](marriage.md))?
 
-57. **WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
+57. **Answered 2026-10-18. WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
     or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?
+    *Answered 2026-10-18 ([marriage.md](marriage.md)): the three 7s, the
+    7th, 17th and 27th. WB's ten sky doors (vol. 2, pp. 234–235,
+    [earth-lord-courses.md](earth-lord-courses.md)) name each door by a figure
+    and «གསུམ», the three dates that end in it, and «བདུན་གསུམ་བག་མ» is the
+    bride's; p. 373 goes on to pick one of the three by the month, the 27th
+    in the first months, the 17th in the middle, the 7th in the last. The
+    product «བདུན་གསུམ», 21, is the multiplication table's (vol. 1, p. 20, etext,
+    «བདུན་གསུམ་གསུམ་བདུན་ཉི་ཤུ་གཅིག»), not this.*
 
 58. **KL pp. 201–203: the source of the la's courses by date and by hour.** *Answered for the course by date, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan, KL's monthly places are the Tsuglag Rigje column of Deumar's table in thirty of thirty dates, with Mipham's syllables and his crown and sole on the 15th and 30th; Deumar's course by the hour notes both feet at daybreak.*
     *Answered in part, 2026-10-12 (RD10, [health.md](health.md), *KL's tables
@@ -658,6 +688,15 @@ the text, not about the app.
     states 16 + 50 = 66 pebbles and ends «ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག
     །བསྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།», "rolled together 87"; which pebbles make up
     the 87 (2026-10-12, RD16, [reckonings.md](reckonings.md))?
+    *Narrowed 2026-10-18 ([reckonings.md](reckonings.md), ch. 29): the
+    fourth's eleven roots are counted out in its lines (food count, element,
+    two each for year, trigram and mewa, the earlier dead, the living and
+    the dead alike, and the verdict); none of its own figures, 11, 5, 16,
+    50, 66, make 87. 87 is the first examination's root count, which its
+    parts make exactly (ten roots, 55 fighting and 22 small pebbles; its
+    identifying 185 + 10 + 143 = 338), and the first's fifth question is the
+    same funeral share the fourth examines; that «བསྒྲིལ་བས» rolls the fourth
+    into the first's 87 is not stated.*
 
 67. **WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
     «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»; what is
@@ -680,9 +719,15 @@ the text, not about the app.
     are the four precious and five unchanging luck pebbles. Is «མི་འབྱུང» a
     slip for «མི་འགྱུར» (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
 
-71. **WB vol. 1, pp. 260–261 (img. 270–271): 24 or 20 decisive pebbles?**
+71. **Answered 2026-10-18. WB vol. 1, pp. 260–261 (img. 270–271): 24 or 20 decisive pebbles?**
     P. 260 has 24, p. 261 20. Which belongs to WB's reckoning (2026-10-12,
     RD13, [year-of-life.md](year-of-life.md))?
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md), *Twenty or
+    twenty-four*): both. P. 261, on the scan, lays the four of rise and
+    decline («དར་གུད་ཞག་མལ་རྡེའུ་བཞི») and then the twenty decisive pebbles
+    («བཏང་གཅོད་རྡེའུ་ཉི་ཤུ»); with the 4 + 1 + 2 + 5 + 100 before them they make
+    the *Precious Lamp*'s 136, whose 24 decisive pebbles are the four and
+    the twenty together. WB's reckoning lays twenty.*
 
 72. **WB vol. 1, p. 261 (img. 271): «ཚེ་སྨང».** The life force's rise and
     decline goes to the upper part of life by the year, the month's to
@@ -858,10 +903,15 @@ the text, not about the app.
     the son's pebble black in the starting-point reckonings and mixed in the
     illness reckoning? (2026-10-12, RD17, [reckonings.md](reckonings.md))
 
-99. **«བརྒྱུ».** WB vol. 2, p. 156 (img. 164):
+99. **Answered 2026-10-18. «བརྒྱུ».** WB vol. 2, p. 156 (img. 164):
     «ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ་ཡིས་བགོས»: is «བརྒྱུ» a misprint for བརྒྱད, eight,
     as the notes' «ཉིན་ཚད་བརྒྱད་དུ་བགོས» (p. 535) imply? (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
+    *Answered 2026-10-18 ([reckonings.md](reckonings.md), ch. 30): neither
+    print has «བརྒྱུ». The 1996 edition (img. 164, l. 7, at 7×; its etext and
+    Yigdzin-1 agree) and the Zhol print (WBZ img. 857, l. 5, at 5×) read
+    «ཉིན་ཚད་ཆུ་ཚོད་ཀླུ་ཡིས་བགོས»: ཀླུ, the nāgas, for eight, as the notes'
+    «ཉིན་ཚད་བརྒྱད་དུ་བགོས» say. The earlier transcription misread the stack.*
 
 100. **«ར་བཞི» in the moment's mewa.** WB vol. 2, p. 535 (img. 543):
     «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར»: which
@@ -1173,10 +1223,15 @@ the text, not about the app.
      are its cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]»)
      read? (2026-10-14, O10, [rahu.md](rahu.md), "KP's chart, img. 78")
 
-149. **The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
+149. **Answered 2026-10-18. The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
      the harm wheel prints «ཤིང(༢)ས(༣)», where the same page elsewhere
      numbers wood 3 and earth 2. Is this an editors' slip, and which pair
      is meant? (2026-10-14, O10, [marriage.md](marriage.md), "4. The hidden")
+     *Answered 2026-10-18 ([marriage.md](marriage.md)): an editors' or
+     typesetters' transposition. The Taikhang print (I5877 img. 485, l. 1,
+     at native size) sets «ཤིང(༣)ས(༢)», wood 3 and earth 2, the digits under the
+     words; the harm wheel's pairs are then 9–8, 4–6, 7–1 and 3–2, each of the
+     eight trigram numbers once. The pair meant is wood and earth either way.*
 
 150. **Kikang's «ཉི་ཤར» or «ཉི་མྱུར».** In WB vol. 2, p. 212, Kikang's
      black month (ཀི་ཀང་ཟླ་ནག, ki kang zla nag) for the hare and bird years:
@@ -1218,6 +1273,13 @@ the text, not about the app.
      «ཉེར་གཅིག་ཉེར་ལྔའི་བར» the run 21 to 25, as «དྲུག་ནས་བཅུ་བཞིའི་བར» is 6 to
      14 in the bad line above? (2026-10-14, O10,
      [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
+     *Narrowed 2026-10-18 ([white-beryl-ch34.md](white-beryl-ch34.md), work
+     14): WB's own usage reads a run. Work 13, just before, writes
+     «ཉེར་གཅིག་ནས་ནི་ཉེར་ལྔའི་བར» (pp. 394–395, img. 402–403, read on the
+     scan), and the editors number «བཅུ་དྲུག་བཅུ་དགུའི་བར»
+     as 16–19; read as a run, no date is both good and bad and only 2, 20 and
+     27–30 are left neutral. Against it, KP (box 16), a digest of WB, reads
+     the bad line as a run (16, 17, 18, 20) and the good as 21 and 25 alone.*
 
 157. **KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
      has the 19th and 29th where KP's box 21 is carved with the shape of

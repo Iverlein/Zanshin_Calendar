@@ -1364,7 +1364,7 @@ Goes before the earth king; every work bad there. No course of its own.
 
 By the commentary the *Clear Light* (སྣང་གསལ, snang gsal), from spring 1: tiger, pig, monkey, bird,
 dragon, hare, mouse, horse, dragon, ox, dog, sheep (the dragon twice, as
-printed). Avoid dividing a bride's goods, trade, giving or taking cattle. By
+printed, and so in the Zhol print, WBZ img. 916, l. 4, Yigdzin-1). Avoid dividing a bride's goods, trade, giving or taking cattle. By
 the *Index* (མདོ་བྱང, mdo byang): spring tiger, pig, monkey; summer snake, hare, mouse; autumn
 bird, horse, dragon; winter ox, dog, sheep; sending a corpse there is grave.
 
@@ -1488,7 +1488,8 @@ sheep, horse, hare; autumn dragon, pig, mouse; winter ox, monkey, bird).
 > ས་བདག་ཛ་ཟོར་དམར་པོ(༢༥)ནི། །སྐུ་མདོག་དམར་ནག་འོད་དང་ལྡན། །མི་ལུས་གླང་མགོ་གཡས་ཟོར་པ། །གཡོན་པ་བདུད་ཞགས་ནག་པོ་འཕྱར། །དཔྱིད་གསུམ་རིམ་བཞིན་ཁྱི་སྦྲུལ་རྟ།།དབྱར་ཟླ་གསུམ་ལ་རྟ་སྟག་གླང་། །སྟོན་གསུམ་རིམ་བཞིན་གླང་ལུག་ལུག །དགུན་གསུམ་ལུག་སྤྲེལ་ཡོས་རིམ་གནས། །ལས་ཐབས་རོ་ཤིད་བྱ་མི་རུང་། །རོ་དྲངས་སྐྱེས་པ་གྲི་དང་ནི། །བུད་མེད་སྣེལ་གྲིར་འཆི་ཞེས་ངན། །ཉམས་ན་དམར་གཏོར་ཟོར་གྱིས་བཅོས། །སྟག་ཡོས་རྒྱལ་མཚན་འཕྱར་ལ་སྒྲིབ།།
 
 Ox head, red-black, the hurled ritual weapon (ཟོར, zor) and black noose. Spring dog, snake, horse; summer
-horse, tiger, ox; autumn ox, sheep, sheep (as printed); winter sheep, monkey,
+horse, tiger, ox; autumn ox, sheep, sheep (as printed; the Zhol print the same,
+WBZ img. 921, ll. 2–3, read on the scan); winter sheep, monkey,
 hare. No corpses or funeral rites (Yigdzin-1 and the scan «རོ་ཤིད»; the etext
 «རྡོ་ཤིད»); a corpse led out: men die by the knife, women by «སྣེལ་གྲི» (snel gri; not settled) (not
 settled). Remedy: a red torma with a the hurled weapon; screen: tiger and hare banners.
@@ -1528,7 +1529,8 @@ that has risen, counter-clockwise. Avoid corpses, war, a bride, building,
 cremation; for every spade dug, one person dies. Screen: five cairns. The
 the *Index*: spring 1 and «དགུན་འབྲིང» west, spring 2 south-east, 3 south; summer 1
 south-west, 2–3 east; autumn 1 south-east, 2–3 north; winter 1 north-east,
-2–3 north (winter 2 is named twice, as printed).
+2–3 north (winter 2 is named twice, as printed, and in WBZ img. 922,
+ll. 3–4, Yigdzin-1).
 
 #### 31. Zinphung the black (ཟིན་ཕུང་ནག་པོ, zin phung nag po) (p. 207, img. 215)
 
@@ -1628,7 +1630,7 @@ Three faces. On the month that has risen. No corpse road, no funeral rites.
 
 Calf head, a hammer. Counter-clockwise: mouse, dragon and monkey months the
 lower east (the hare); tiger and dog months on the pig (the horse month is
-not named); bird, ox and snake months south-west (the sheep); pig, sheep and
+not named, in WBZ img. 924, l. 2, either, Yigdzin-1); bird, ox and snake months south-west (the sheep); pig, sheep and
 hare months on the ox. Setting up a mortar or a hand-mill is bad. Takes
 offence at the craftsmen. Screen: a stupa of clay figures. The hidden twelve
 (below) write its name «བེ་སྣ་ལག་ཆེན».
@@ -2041,7 +2043,8 @@ counts it among the hour's earth lords (p. 175, wb-contents.md).
 
 > ཀླུ་གཟའ་ནག་མོ(༤)བཟློག་དུས་ནི། །དཔྱིད་ཟླ་ར་བའི་བཅོ་ལྔ་དང་། །འབྲིང་པོའི་བཅོ་བརྒྱད་བཅུ་གཉིས་ལ། །ཐ་ཆུང་ཉེར་ལྔ་མ་གཏོགས་ཀུན། །དབྱར་རའི་ཉེར་ལྔ་འབྲིང་བཅོ་ལྔ། །ཐ་ཆུང་བཅུ་གཅིག་སྟོན་ར་ཡི། །བཅོ་ལྔ་དང་ནི་བཅུ་དྲུག་ལ། །འབྲིང་དྲུག་ཐ་ཆུང་དགུ་བཅོ་ལྔ། །བཅུ་དགུ་དགུན་རའི་བཅུ་དགུ་དང་། །འབྲིང་པོའི་དྲུག་དང་ཉེར་བདུན་བཟློག །ཐ་ཆུང་ལ་ནི་བཟློག་པ་མེད། །བཟློག་པའི་དུས་ལ་བག་མ་དང་། །རོ་ཤིད་རྔམ་ཆེན་བྱ་ལས་འཛེམ། །འདི་ལ་བཅོས་སྒྲིབ་བཤད་པ་མེད།།
 
-Spring 1 the 15th; 2 the 18th and 12th; 3 all but the 25th (as printed);
+Spring 1 the 15th; 2 the 18th and 12th; 3 all but the 25th (as printed, and
+«ཐ་ཆུང་ཉེར་ལྔ་མ་གཏོགས་ཀུན» in WBZ img. 939, l. 5, Yigdzin-1);
 summer 1 the 25th, 2 the 15th, 3 the 11th; autumn 1 the 15th and 16th, 2 the
 6th, 3 the 9th, 15th and 19th; winter 1 the 19th, 2 the 6th and 27th; winter
 3 none. On a turning a bride, corpses, funeral rites and great works are
@@ -2093,7 +2096,9 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   direction of the month's river (pp. 200, 213); 27, which direction «དང»
   joins a name to in the nine black ones (p. 215); 28, the light-clearer's
   «དུར» (p. 219); 29, Wangkhyi's «གླང་གི་ཉི་མ» (p. 210); 30, five courses that
-  may be misprints (pp. 202, 206, 207, 209, 222); 31, the guard dog's
+  may be misprints (pp. 202, 206, 207, 209, 222), answered 2026-10-18: the
+  Zhol print reads all five as the 1996 edition does, so they are the
+  blocks'; 31, the guard dog's
   «འབྲིང་པོ་བཞི» (pp. 208–209); 32, which of WB's views the almanacs follow.
 
 ### Searched and not found

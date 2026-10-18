@@ -130,6 +130,26 @@ dead (གཤིན་འདུར་ཤིད, gshin 'dur shid), the two, 215; i
 and 13 are the root counts WB gives again in ch. 22, 24 and 23, and 19
 that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
 
+The lines just before give the same system's head count (p. 249, img. 259,
+Yigdzin-1, checked on the scan; the same in the Taikhang print, I5877
+img. 325, Yigdzin-1):
+
+> བསྡུས་པ་མན་ངག་སྐོར་དྲུག་དེ། །དོན་སྐོར་བཞི་བརྒྱ་ཞེ་གཉིས་ཀྱིས། །སྤྲོས་པའི་མཐའ་བཅད་བཅོ་ལྔ་ཡིས། །ཁོག་ཕུབ་ངན་ཀླུང་སྐྱོན་ངོས་བཟུང་། །རྩུབ་ཀེག་སྤྲོས་ཀྱིས་བརྗོད་སྒང་གྲིལ། །དར་ཆགས་རྣམ་ལྔས་དགོས་དོན་བསྡུ། །སྣ་ཚོགས་ཐབས་ཀྱིས་ཉེས་སྐྱོན་བསལ།
+
+The six rounds of the condensed instructions: 442 rounds of meaning, the
+frame of the fifteen that end the expansion, the faults of bad luck, the
+rough obstacles, the five stages, the faults cleared by various means; the
+count of 136 … 215 is then the first of these spelled out. With the 20 of
+«གསོན་ཁོང་གཤིན་འདོན» inside the dead's 215, as the preliminary of ch. 29's
+reckoning for the dead is («སྔོན་འགྲོ་གསོན་ཁོག་གཤིན་དབྱུང་རྡེལ», vol. 2, pp. 44–45,
+below), the parts make 442, the head count; the closing «བཞི་བརྒྱ་བཞི་བཅུ»
+is 2 short of it. Three prints agree on every number (2026-10-18): the 1996
+edition (img. 259, at 2.5×), the Zhol print (WBZ img. 308, ll. 4–5, at 4×)
+and the Taikhang print (I5877 img. 325, at its native 8,562 px). Where the
+1996 edition prints «ནང་སྲི», the Taikhang print has «ནད་སྲི», illness and
+*sri*, plain at native size, and WBZ most likely the same at 6×: the 19
+are ch. 25's, the illness reckoning's, root count.
+
 #### Ch. 22, the reckoning of lives and karma: the birth (vol. 1, pp. 259–350, img. 269–360) — RD13
 
 - **What it reckons.** A child's lot from its birth: the four precious
@@ -215,7 +235,10 @@ that of ch. 25 (p. 446, etext). The parts add up to 462, not 440 (question 21).
   The *Lamp that clarifies the elements* (འབྱུང་བ་གསལ་བའི་སྒྲོན་མེ, 'byung ba
   gsal ba'i sgron me) has 13 root pebbles; others expand to about 29,025;
   WB keeps 478 root pebbles and 5,327 sign pebbles, "in all 5,801"; the
-  parts make 5,805 (question 22).
+  parts make 5,805 (question 22). The Zhol print has the same three
+  numbers (WBZ img. 458, ll. 3–4, read on the scan at 2.6×, 2026-10-18:
+  «རྩ་རྡེལ་བཞི་བརྒྱ་དོན་བརྒྱད་དང་།» … «ལྔ་སྟོང་སུམ་བརྒྱ་ཉེར་བདུན་ནམ། །བསྡོམས་པས་ལྔ་སྟོང་བརྒྱད་བརྒྱ་དང་། །ཉག་མ་གཅིག་གིས་གཏན་ལ་ཕབ།»): the slip is
+  the blocks', as ch. 28's is.
 - **Calculable** from both partners' dates and their parents' clans; the
   remedies are rites, not reckoned. The whole chapter is read in
   [marriage.md](marriage.md) (RD15, 2026-10-12).
@@ -450,8 +473,9 @@ below, with the notes' sections 7 and 8.
 ### Open
 
 - Open questions 21–25 ([open-questions.md](open-questions.md)): 21, the
-  older system's sum of 440 against its parts' 462 (p. 249); 22, the sums
-  of ch. 23 (5,801 for 5,805) and ch. 28 (1,166 for 1,165); 23, the
+  older system's sum of 440 against its parts' 462 (p. 249; the head count
+  442 found, 2026-10-18); 22, the sums of ch. 23 (5,801 for 5,805) and
+  ch. 28 (1,166 for 1,165), both the blocks' (settled 2026-10-18); 23, the
   notes' «དུས་ཁམས» for the clan's element (p. 474); 24, the match's sixth
   point «ཎི་ཤ» (p. 351); 25, the general reckoning's fourth part (p. 532).
 - Ch. 22's breakdown of its 3,773 pebbles (p. 262, img. 272) is
@@ -645,7 +669,12 @@ the life force of the eldest living, and he the dead's power, a white
 pebble: the dead obtains the funeral tree. If the dead destroys a living
 person's year, hold the funeral in the month that is the enemy of the
 dead's year, and avoid the living's dangerous months and grave days.
-With the verdict, 11 pebbles; all together 87 (against the 66 stated
+With the verdict, 11 pebbles (the roots counted out: the food count one,
+the element one, trigram, mewa and year two each, six, the earlier dead
+one, "the living and the dead alike" one, and the verdict); all together 87
+(87 is the first examination's root count, whose ten roots, 55 fighting and
+22 small pebbles make it, 10 + 55 + 22, as its identifying ones make 338,
+185 + 10 + 143, and whose fifth question is this same funeral share; question 66; against the 66 stated
 above; see *Open*); fitted to the living's circumstances.
 
 **Fifth to seventh** (p. 47, img. 55):
@@ -1616,14 +1645,15 @@ page; the parts marked read on the scan):
 - *The reckoning of the moment proper* (p. 156, img. 164, read on the
   scan):
 
-  > །དུས་ཚོད་རྩིས་ལ་འཇུག་པ་ནི། །ནམ་ལངས་ཡོས་ནས་རིམ་བཞིན་དུ། །ཉིན་དྲུག་བུ་འདེད་ཁམས་སྦྱར་ལ། །གཞན་ཡང་སྤར་སྨེའི་དུས་ཚོད་ནི། །ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ[?]་ཡིས་བགོས། །རེ་ལ་སྤར་ཁ་ཚེས་དེ་ལ། །གང་ཤར་ནམ་ལངས་ལ་བཟུང་བའི། །དེ་ནས་རིམ་པར་བརྩི་བ་དང་། །ཡང་ནི་ཉིན་ཚད་དགུ་གས་བགོ། །ཐོབ་པ་དུས་དེར་སྨེ་བ་ནི། །ཚེས་ལ་གང་ཤར་ནམ་ལངས་བརྩི། །འདྲི་མི་ནམ་བྱུང་དུས་དེ་འམ། །སྐོར་འགོ་གང་ཡིན་བརྩི་བའི་དུས།
+  > །དུས་ཚོད་རྩིས་ལ་འཇུག་པ་ནི། །ནམ་ལངས་ཡོས་ནས་རིམ་བཞིན་དུ། །ཉིན་དྲུག་བུ་འདེད་ཁམས་སྦྱར་ལ། །གཞན་ཡང་སྤར་སྨེའི་དུས་ཚོད་ནི། །ཉིན་ཚད་ཆུ་ཚོད་ཀླུ་ཡིས་བགོས། །རེ་ལ་སྤར་ཁ་ཚེས་དེ་ལ། །གང་ཤར་ནམ་ལངས་ལ་བཟུང་བའི། །དེ་ནས་རིམ་པར་བརྩི་བ་དང་། །ཡང་ནི་ཉིན་ཚད་དགུ་གས་བགོ། །ཐོབ་པ་དུས་དེར་སྨེ་བ་ནི། །ཚེས་ལ་གང་ཤར་ནམ་ལངས་བརྩི། །འདྲི་མི་ནམ་བྱུང་དུས་དེ་འམ། །སྐོར་འགོ་གང་ཡིན་བརྩི་བའི་དུས།
 
   To enter the reckoning of the moment: from dawn, the hare, in order,
   the six (periods) of the day, their elements set by the son
   following (each the son of the one before); further, the time for
   trigram and mewa: the day's length in water-hours (ཆུ་ཚོད, chu tshod)
-  divided by eight (the print «བརྒྱུ», read as བརྒྱད by the notes,
-  p. 535, below), each (part) the trigram that rises on that date, taken
+  divided by eight (the print «ཀླུ», the nāgas, for eight, as the notes'
+  «ཉིན་ཚད་བརྒྱད་དུ་བགོས», p. 535, below, say; the 1996 edition img. 164, l. 7,
+  at 7× and the Zhol print img. 857, l. 5, at 5×, 2026-10-18, question 99), each (part) the trigram that rises on that date, taken
   from dawn and then counted in order; and again the day's length
   divided in nine, the mewa of each part, counted from the one that
   rises at dawn on that date. (The moment is) the time the asker came,
@@ -1821,7 +1851,7 @@ asker's spontaneous year.
 ### Open
 
 Open questions 97–102 ([open-questions.md](open-questions.md)), in order:
-the 4th, 7th and 11th places; the son's colour; «བརྒྱུ»; «ར་བཞི» in the
+the 4th, 7th and 11th places; the son's colour; «བརྒྱུ» (answered: «ཀླུ»); «ར་བཞི» in the
 moment's mewa; the hand reckoning's «ལུ»; «བྱི་ཉི» and «ཟིན་ཕུང». Question 25 is
 answered above; question 22's ch. 28 half is settled (the Zhol print
 prints the same sum).

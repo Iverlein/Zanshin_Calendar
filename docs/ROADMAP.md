@@ -1433,7 +1433,9 @@ verdict, and the owner's decisions of 2026-10-10:
     the 14th bad for sowing (23). Works 30, 31, 36, 46 and 49 were
     already joined (T2.6); work 29's «མི་གཡང་བཟང» qualifies lag and
     gro bzhin, which box 32 had on neither side already. Work 14's good
-    run stays the 21st and 25th as the editors number them (question 156).
+    run stays the 21st and 25th as the editors number them (question 156;
+    narrowed 2026-10-18: WB's own usage reads the run 21–25, KP reads 21
+    and 25 alone; a change waits for the owner's decision).
   - Tuesday's good list has saddling after horse racing; the 9th hair
     date reads "Young women become many"; the horse day's witness has
     the journey with the corpse, in its *A death today* row (X7); the

@@ -324,7 +324,11 @@ the life of father and brothers; the 3rd and 4th bad for the mother; the
 5th and 6th eat the life of the *bon po*; the 8th and 9th part the
 subordinate's life; the 18th and 19th bring fear; on the 21st and 22nd the
 house is not held; the 28th makes the in-laws nameless; the 30th goes to the
-land of the dead; the 7th, 13th (?, «བདུན་གསུམ») are the bride's sky door.
+land of the dead; the three 7s, the 7th, 17th and 27th («བདུན་གསུམ»), are the bride's sky door,
+as in WB's ten sky doors, where «བདུན་གསུམ་བག་མ» is the bride's and each
+door falls on the three dates that end in its figure (vol. 2, pp. 234–235,
+[earth-lord-courses.md](earth-lord-courses.md), *40–49*; question 57,
+answered 2026-10-18); the next lines pick one of the three by the month.
 Above all the 27th of the first of the triads, the 17th of the middle, the
 7th of the last are avoided. On her own birth day animal the bride dies; its
 seven-corner eats life ("the seven-corner of the day"); the executioner's
@@ -828,12 +832,19 @@ instead of the dates.
 ### Open
 
 Open questions 149 and 152 ([open-questions.md](open-questions.md)):
-149, p. 358's «ཤིང(༢)ས(༣)»; 152, the stack «[སྨྱུར]» on p. 355.
+149, p. 358's «ཤིང(༢)ས(༣)», answered 2026-10-18: the Taikhang print (I5877
+img. 485, l. 1, at its native 8,562 px) sets the digits under the words as
+«ཤིང(༣)ས(༢)», wood 3 and earth 2, as the rest of the page numbers them; the
+harm wheel's pairs are 9–8, 4–6, 7–1 and 3–2, the eight trigram numbers
+once each, and the 1996 edition transposes the two digits (the Zhol print,
+WBZ img. 468, l. 1, has the words, its digits under a red smear); 152, the
+stack «[སྨྱུར]» on p. 355.
 
 Open questions 22, 24 and 54–57 ([open-questions.md](open-questions.md)):
-22, the sum on p. 351, still 5,801 for 5,805 (WBZ to be compared); 24, the
+22, the sum on p. 351, still 5,801 for 5,805, and the same in WBZ (img. 458,
+2026-10-18: the blocks' slip); 24, the
 word «ཎི་ཤ», its rule now found; 54, «ལྡིང་ནག»; 55, *kham yu*'s two counts;
-56, the bride's months; 57, the date «བདུན་གསུམ».
+56, the bride's months; 57, the date «བདུན་གསུམ» (answered: the three 7s).
 
 - Doubt: words read by Yigdzin-1 and not settled on the scan: «ཨེན» (p. 365),
   «གླང་བྲེ» (p. 366), «བྱེ་བྱུགས» (p. 367), «སྣར»

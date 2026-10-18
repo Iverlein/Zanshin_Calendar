@@ -302,7 +302,7 @@ Open questions 46–53 ([open-questions.md](open-questions.md)), in order: the a
 
 ### Searched and not found
 
-- Pages 428–429 of WB vol. 1 in BDRC's scan I1KG12906 and in its etext IE0OPI51524892 (both have pp. 430–431 twice instead; checked on the printed folios of all 36 images, 2026-10-12). Found in the Zhol print (WBZ, I1KG1710 img. 565–568, machine-read).
+- Pages 428–429 of WB vol. 1 in BDRC's scan I1KG12906 and in its etext IE0OPI51524892 (both have pp. 430–431 twice instead; checked on the printed folios of all 36 images, 2026-10-12). Found in the Zhol print (WBZ, I1KG1710 img. 565–568, machine-read), and in the Gser thang reprint of the 1996 edition (I3CN5028), whose img. 420–427 are pp. 425–432 in order, 428 and 429 included and 430–431 once (the printed page numbers read on the scan, 2026-10-18): the gap and the repeat are BDRC's scanning, not the book's (question 52). The two pages are not yet read there.
 - A numerical worked example for the fifteen points (a sick person's element and age, the year reached, the pebbles laid) in ch. 25: none; the etext of pp. 417–452 has «དཔེར་བརྗོད» once, p. 442's example of the *dar gud* (above), and «དཔེར་ན» once, p. 445, for where to build a stūpa by the trigram.
 - The year of the sky («གནམ་ལོ») defined as an element and place for the count: not defined in ch. 25; the starting place is called «གནམ་ལོའི་ས», "the sky-year's earth", and not explained here (the notes' section 3, pp. 495–499, not read in this reading).
 - A text that gives the planets' and mansions' lists of p. 438 in the same words elsewhere: not searched beyond the repository's mansion verses (vol. 2, pp. 313–328), which have no recovery or death counts.
