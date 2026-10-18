@@ -117,6 +117,16 @@ nine bad. Rabten's Ten Good Omens on 11/6 is removed (owner's decision,
 2026-10-09: WB above all). `GreatBlackDayTest` checks the dates against
 the text.
 
+**In the shape** (ROADMAP X7, block 46, 2026-10-18): the reading is the
+day's event inside the ruling, the remedies a *Remedy* row and the
+season's three dates a *How it falls* row; the nine bad's winds and
+elements and the note on "nine" stay here. The last month of winter's
+"the mute one (*lkugs pa*) bursts" has no meaning the text gives, so
+(SPEC §8.1, rule 7) its reading says only that the date is the course's
+last of the year. Its remedy names the *gzungs bsdus*, which the black
+month's results on p. 359 spell «གཟུངས་འདུས» ([month-entries.md](month-entries.md));
+both readings write *gzungs bsdus*, one Wylie for the Collected Dhāraṇīs.
+
 **Not built:** the small black day (*nyi ma nag chung*, the next verses
 on p. 226), with the courses of pp. 227–235 (ROADMAP T2.13); the other
 tradition's dates.

@@ -85,6 +85,26 @@ Numbers in brackets are the 1996 editors' notes, which number the earth
 lords. "Built" means `EarthLordCourses` (core/.../tibetan/EarthLordCourses.kt)
 with its reading in `Texts.earthLord`.
 
+**The readings in the shape** (ROADMAP X7, block 46, 2026-10-18; SPEC
+§8.1). Each course's reading is now its ruling for the shown day, its
+remedy and omens as rows, and a *How it falls* row with the one line of
+its table that holds the day (`EarthLordCourses.fall`): the season's
+dates, the month's own dates, the day animals, or a sky door's dates,
+with the hour, time of day or way where the course has one per month
+(Piling Parma's and Halkyi Nakpo's hours, Zinpung's and the sky dog's
+times of day, Ngamshing's ways). The tables themselves, and what the
+readings no longer carry, are in the sections below and nowhere in the
+app: Zinpung's turning back at the hour four back; the eight classes'
+companion class, hours and directions month by month; what the nāgas do
+in each month (keep discipline, seek food, gather grain, sleep); the
+*gnyan*'s and the eight classes' hours; Pukton's ransom way by month; the
+sky doors' special reckoning; Kikang's and the sky dog's other courses;
+and what "some" add to Namjor and Kakhyung Kikang. Namjor's remedies are
+"Namkyi Nakpo's" (section 19), but WB gives the sky dog no remedy of its
+own in section 18, so the reading names none. Where these sections say
+a fact is "in the reading", it was in the reading before X7; what
+remains of it in the app is the ruling and the lists.
+
 ### 1. *Nyi ma nag chen*, the great black day (p. 226)
 
 > ཚེས་ལ་རྒྱུ་བའི་ས་བདག་བསྟན། །ཉི་མ(༡)ནག་ཆེན་ཞེས་གྲགས་པ། །ཡ་བདུད་རྡོ་རྗེ་གློག་ཕྲེང་དང་། །ས་སྲིན་འབར་མ་བྱ་བ་ལ། །བུ་ནི་རཱ་ཧུ་ལ་ཞེས་དང་། །བུ་མོ་འབྲོག་སྲིང་ཆུ་སྲིན་གདོང་། །དེ་འོག་སྟག་སྲིང་ཟོར་གདོང་དང་། །དེ་འོག་ཀོང་སྲིང་བ་ཡང་གདོང་། །ཆུང་བ་བམ་སྲིང་དྲེད་གདོང་བཞི། །དེ་ནས་རཱ་ཧུས་རི་རབ་ལ། །གཡས་སྐོར་བམ་སྲིང་གཡོན་བསྐོར་བས། །དཔྱིད་རའི་ཚེས་བདུན་མནོལ་ཤོར་དུས། །འདི་ལ་ངན་པ་དགུ་འཛོམ་ཞེས། །འོག་རླུང་སྟེང་དང་སྟེང་རླུང་འོག །ཐད་རླུང་འཁྲུག་ཅིང་འབྱུང་ལྔ་འཁྲུག །བཙན་དུག་ལྟ་བུའི་ཉི་འཆར་ཞེས། །རྣམ་པ་དགུ་རུ་འདྲེན་ན་ཡང་། །ཡང་དག་དོན་གྱི་སྙིང་པོ་རུ། །ངན་པའི་མང་ཚིག་དགུ་ཉིད་དག །ངན་པ་ཐ་ཆད་མིང་དུ་འདོད། །དཔྱིད་འབྲིང་བཅུ་བཞི་སྐྱེས་པའི་དུས། །དཔྱིད་ཐའི་ཉེར་གཅིག་རྡོལ་བའི་དུས། །དབྱར་རའི་ཚེས་བརྒྱད་སྟག་སྲིང་མནོལ། །དབྱར་འབྲིང་བཅུ་དྲུག་ཁྲག་གྲོད་སྐྱེས། །དབྱར་ཐའི་ཉེར་བཞི་གྲོད་པ་རྡོལ། །སྟོན་རའི་དགུ་ལ་གོང་སྲིང་མནོལ། །སྟོན་འབྲིང་བཅོ་བརྒྱད་ལྕགས་གྲོད་སྐྱེས། །ཐ་མའི་ཉེར་བདུན་གྲོད་པ་རྡོལ། །དགུན་རའི་ཚེས་བཅུར་བམ་སྲིང་མནོལ། །འབྲིང་པོའི་ཉི་ཤུར་ཆུ་གྲོད་སྐྱེས། །ཐ་ཆུང་གནམ་གང་ལྐུགས་པ་རྡོལ། །སྤྱིར་ན་ཤི་གསོན་བྱ་ལས་ངན། །ཁྱད་པར་ནོར་རྫས་ཕྱིར་གཏོང་དང་། །དབང་རབ་བག་མ་མཁར་ལས་དང་། དགེ་བཤེས་ཆེ་འདོན་དུར་གདབ་ཚོང་། །དགེ་ལས་དཀར་པོའི་ཕྱོགས་མི་བྱ། །ངན་ཐབས་དག་ལ་འདི་དང་བསྟུན། །ཁྱད་པར་དམིགས་བསལ་ཟླ་འབྲས་ལྟར། །འཛེམ་པ་གཅེས་སོ་ཤེས་ལྡན་དག །འདི་ལ་མི་གཅིག་ལུགས་ཤིག་ལ། །དཔྱིད་སྟོན་དགུན་ཐ་ཉི་ཤུ་བཞི། །དགུན་རའི་ཚེས་དགུར་རྒྱུ་བ་ཡང་། །ཁྱུང་གི་བུ་བརྒྱུད་ཕྱི་མ་འཆད། །མདུང་རྩེར་རྔ་མ་གཡག་གི་རྔ་ནག་ཤིང་སྣ་ལྔ། །དར་དཀར་ཁ་གང་ཁྱི་ནག་སྤུ། །རྩི་བོ་ཆེ་རྣམས་གདགས་པར་བྱ། །མདུང་གི་རྐེད་པར་སྔ་ཚལ་བཏགས། །ཉི་མ་གང་ཤར་སྟེང་དུ་འཛུགས། །ཟླ་ནག་ཉི་ནག་སྒྲིབ་པ་ན། །དར་དཀར་རས་དཀར་ཁ་ཚར་ནི། །མ་ཉམས་འཕྱར་ཞིང་དཀར་གསུར་བཏང་། །གཡག་ལུག་མགོ་དཀར་དར་བརྒྱན་སྒྲིབ། །ཆུ་གཏོར་གཏང་ཞིང་གཟུངས་བསྡུས་སྒྲོགས། །ཡང་ན་རྐྱལ་པ་གོག་པོ་རུ། །མི་ལྟོགས་རང་འཐག་ལྟེ་ཕྱེ་དང་། །ཉུང་སྦང་ཐལ་བ་ཤིང་བུ་སོགས། །མི་ཁའི་རྫས་བླུགས་ལམ་སུམ་མདོར། །ཉི་ནག་སྨྱོན་ཟློག་བརྗོད་ལ་བསྐྱུར། །ས་གཏོར་རྡོ་གཏོར་བྱ་བ་དང་། །ཕྱི་མིག་མི་བལྟ་བྲོས་པས་ཐུབ།།
@@ -194,7 +214,7 @@ first way is still the one WB gives as its own.
 > གནམ་སྦྱོར(༡༩)དཔྱིད་གསུམ་རིམ་པ་ལྟར། །བརྒྱད་བདུན་བཞི་དང་དབྱར་ཟླ་གསུམ། །བདུན་བདུན་ཉེར་དྲུག་སྟོན་ཟླ་གསུམ། །བཅུ་དགུ་བཅུ་དགུ་ཚེས་བདུན་ལ། །དགུན་གསུམ་བཅུ་དྲུག་བཅུ་དགུ་དང་། །ཉི་ཤུ་བཞི་ལ་སྦྱོར་བའོ། །བཟའ་གསར་མཉམ་སྦྱོར་བག་རོ་ངན། །ཁྱད་པར་བག་མ་ལྡིང་སྐམ་འགྲོ། །དམག་དང་ལྟད་སྟོན་བྱིས་སྒོར་ཁྲིད། །ངན་ཞེས་ལ་ལ་འདེད་པ་ཡོད། །སྒྲིབ་བཅོས་གནམ་ཁྱི་ཇི་བཞིན་ནོ། །
 
 *bza' gsar mnyam sbyor* read as a new couple joining. What "some" add (war,
-spectacles, taking a child out) is in the reading, not in the lists.
+spectacles, taking a child out) was in the reading and is not in the lists; since X7 it is here only.
 **Built** (`GNAM_SBYOR`).
 
 ### 20. *Gza' rgod* (p. 230)

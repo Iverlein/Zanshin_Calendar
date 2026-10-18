@@ -100,7 +100,7 @@ moves up as soon as it is unblocked.
 | <a id="block-43"></a>43 | [X3](#x3) + [X4](#x4) The lunar dates, the weekdays and the goddesses' days | — | [42](#block-42), [50](#block-50) (D11 for dates 1, 3 and 6) | Build block 43: X3 and X4, the 30 lunar dates, the 7 weekdays and the 8 goddesses' days in the shape, with their Russian. |
 | <a id="block-44"></a>44 | [X5](#x5) The combination and the special days — built 2026-10-16 | — | [42](#block-42) | Build block 44: X5, the named combinations, the element pairs, the special days, the burning date and the Vajra Treatise's days in the shape, with their Russian. |
 | <a id="block-45"></a>45 | [X6](#x6) The yogas, the karaṇa and the mansions — built 2026-10-17 | — | [42](#block-42) | Build block 45: X6, the yogas, the karaṇa and the mansions in the shape, with their Russian. |
-| <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
+| <a id="block-46"></a>46 | [X7](#x7) The earth lords, Rāhu and the month's entries — built 2026-10-18 | — | [42](#block-42), [50](#block-50) | Build block 46: X7, the earth lords, Rāhu's courses and the month's entries in the shape, each *How it falls* row the shown day's line, with their Russian. |
 | <a id="block-47"></a>47 | [X8](#x8) Your day | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
@@ -2564,7 +2564,7 @@ X, so that the owner reads the wording once. The blocks are
   "Avoid its start" and «Избегать начала». No store shot shows these
   sheets.
 
-#### <a id="x7"></a>X7 The earth lords, Rāhu and the month's entries
+#### <a id="x7"></a>X7 The earth lords, Rāhu and the month's entries — built 2026-10-18
 
 - **Gap.** The longest texts of the page, unweighed: 98 earth-lord
   readings of up to 529 words, each a calendar in prose ("in spring the
@@ -2615,6 +2615,68 @@ X, so that the owner reads the wording once. The blocks are
   the sky door on the emulator in both languages, each *How it falls*
   row naming the shown day's line; `EarthLordCoursesTest` unchanged;
   `CatalogTest` without the families' allowance.
+- **Built** (2026-10-18). *The engine names every line*: `EarthLordCourses.fall`
+  gives each course a `Fall`, the line of its table that holds the shown
+  day, in four forms (SPEC §8.2): `CourseFall`, the season's three dates
+  (the lesser black day's, Piling Parma's, Pungpo Zortok's, Halkyi
+  Nakpo's, Namjor's, Zadün's and Barkyi's, the nyen's moving); `MonthFall`,
+  the month's own dates, one ("…, which is today"), several, ranges ("the
+  10th, 17th to 22nd and 24th to 30th") or all but a few ("every date of
+  the last month of winter but the 27th"); `AnimalFall`, the day animals
+  of the month or the season (Zinpung, the sky dog, the black day); and
+  `EveryMonthFall`, the sky doors'. Each carries the hour, time of day or
+  way the source gives for its month (`CourseAt.*`), and `CourseDay`
+  carries the date's animal. `Reading.today` gave way to `Reading.falls`:
+  the *How it falls* row needs no catalog entry, and a course doing two
+  things on a date (the nyen moving and turning back) has a line for each,
+  under what it does. The great black day, Rāhu among the earth lords
+  (`Texts.rahuSeason`, which the page now calls) and Rāhu's course by
+  month take the same lines; the black months' lines are rows of their
+  third's or year's key (`Reading.alsoRows`), the eclipses', the seasonal
+  signs' and the comet's the rule that marks them. Only the planets' and
+  ogres' times name no line: their paragraph names Viṣṭi's dates.
+  *Readings*: every course's paragraph is its ruling for the day, 20–60
+  words as the sheet shows it in both languages, every day with several
+  entries included (the classes' times reworded to fit three at once);
+  the remedies are *Remedy* rows in the imperative, each sky door's its
+  own (`alsoRows`); births, deaths and illnesses are rows; the tables, the
+  hours and directions of the eight classes, the nāgas' deeds, the ransom
+  ways, the other courses and "some say" are left to
+  earth-lord-courses.md, which lists them. The twelve animal days: the
+  paragraph where the earth lord sits and whom it harms, then *Remedy*,
+  *Spirits that harm* (Serdzö Serpo and the hearth god, one row as the
+  item asked) and *A death today* (the witness, as the horse day's since
+  block 50); the family note says the reckoning is for the dead, without
+  the app's "the lists". The great black day: the event inside the
+  ruling, "the mute one bursts" dropped (SPEC §8.1, rule 7;
+  great-black-day.md). Rāhu: the course through the day once, as a new
+  row, *Through the day* (`ReadingRow.THROUGH_DAY`, SPEC §8.1 rule 3), of
+  Rāhu's family note, which the general course now shares
+  (`reading.RahuGeneral` deleted); in the note itself, as the item put
+  it, the 70-word course would have broken the 60-word paragraph. The
+  detailed course's paragraph names only works its lists do not. Rāhu's
+  course by month and among the earth lords: the month in the line, the
+  paragraph the form or the ruling (`reading.RahuSeason.<0–10>` deleted).
+  The eclipses' limits, the seasonal signs' mean-sun points and the
+  comet's count are *How it falls* rows; the eclipses' "weighs nothing in
+  the day's verdict" left the reading (rule 8). Named one way, as D7
+  asks: the black sky dog, the ogre for *srin po*, the rabjung, the
+  Collected Dhāraṇīs as *gzungs bsdus*, and in Russian «демон» and «белое
+  подношение дыма»; that settled one break each of X4's and X9's counts
+  (24 → 23, 22 → 21). X7's allowance line is deleted.
+- **Checked.** `:core:test` (`CourseFallTest`: every course but the black
+  months and Viṣṭi's classes names its line on every month, date, day
+  animal and year, the day always on it; each form in English and
+  Russian; the nyen's two lines; the rows of the animal days, the black
+  months, the sky door, Rāhu and the great black day;
+  `EarthLordCoursesTest` unchanged), `:app:testDebugUnitTest`; every
+  rendered X7 sheet 20–60 words in both languages. On the emulator in
+  English and Russian, the earth lords' sheet on 2026-10-30 (the eight
+  classes turning back, Pukton, the nāgas, the general sky door, the black
+  day) with the great black day, and on 2026-11-12 (Halkyi Nakpo at the
+  hare hour, the eight classes striking "every date … but the 27th", the
+  nyen's two lines, the sky door, the sky dog), Rāhu's *Through the day*
+  and the dog day's earth lord. No store shot shows these sheets.
 
 #### <a id="x8"></a>X8 Your day
 

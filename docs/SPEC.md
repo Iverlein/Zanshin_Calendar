@@ -1134,7 +1134,9 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   against the general course's table in rahu.md). Both readings add
   Rāhu's course over the hours of any day
   (p. 239): eight named times of day, each with the direction it moves
-  from and to. They stay in the reading, not on the hours panel, since the
+  to. It stands once in the catalog, as the *Through the day* row of
+  Rāhu's family note (`reading.Rahu.through_day`, ROADMAP X7), which the
+  general course shares, and not on the hours panel, since the
   text names times of day rather than clock hours. On the dates WB gives
   for its course by month (pp. 238–239: the first and middle month of
   spring, the three months of autumn) a second Rāhu row names the form it
@@ -1715,9 +1717,10 @@ the same way.
    with these labels and no others: *Also called* · *Strong when* ·
    *Avoid its start* · *Setting out* · *Rank* · *Remedy* · *Spirits that
    harm* · *Illness* · *Rites* · *La today* · *A birth today* · *A death
-   today* · *Livestock* · *Planet* · *Foods* · *How it falls*
-   (*Avoid its start*, a yoga's first chutsö, and a mansion's *Planet*
-   and *Foods* joined with ROADMAP X6). A row is a phrase or one sentence;
+   today* · *Livestock* · *Planet* · *Foods* · *Through the day* · *How
+   it falls* (*Avoid its start*, a yoga's first chutsö, and a mansion's
+   *Planet* and *Foods* joined with ROADMAP X6; *Through the day*,
+   Rāhu's course over the hours of every day, with X7). A row is a phrase or one sentence;
    it holds names and brackets well, where a sentence does not. The
    omens (*A birth today*, *A death today*, *Livestock*, the planet's
    caste and colour under *Also called*, a mansion's *Planet* and *Foods*)
@@ -1793,7 +1796,7 @@ the same way.
     the head of `texts_ru.properties`.
 
 `CatalogTest` holds what of the rules a test can see (ROADMAP X2, built
-2026-10-11): every row key one of the sixteen; the Russian with every
+2026-10-11): every row key one of the seventeen; the Russian with every
 row the English has; no paragraph over 60 words (a Tibetan bracket adds
 none, a {0} counts one) and none under 20, measured as the sheet shows
 it, a family's note filled with the entry's own text; none of rule 8's and 9's words in a reading
@@ -1884,15 +1887,31 @@ under a family's note, beside the entry the note's {0} takes,
 the readings name in `Reading.alsoRows`, `reading.NineMultiple.remedy`),
 `<row>` one of `also_called`, `strong`, `setting_out`, `rank`, `remedy`,
 `spirits`, `illness`, `rites`, `la`, `birth`, `death`, `livestock`,
-`falls`, each label a
+`avoid_start`, `planet`, `foods`, `through_day`, `falls`, each label a
 term of its own (`ReadingRow.LA`, "La today"), and a row filled as its
-summary is, {0} taking the same text; a course by date's *How it falls*
-row is `{0}` alone, which takes the line the engine names for the shown
-day (`EarthLordCourses.fall`, a `CourseFall`: the season-month and the
-date that fell), written from `CourseFall.line`, `CourseFall.dates`,
-`CourseFall.season.<0–3>`, `CourseFall.month.<0–11>` and
-`DateOrdinal.<one|two|few|other>`, "the 8th, 18th and 28th of the spring
-months; today the 8th of the first month of spring"; `wording.<key>` for each wording of the lists. Readings that share a sentence
+summary is, {0} taking the same text. A course by date's *How it falls*
+row has no catalog entry: it is the line the engine names for the shown
+day (`EarthLordCourses.fall`, a `Fall`, ROADMAP X7), in one of four
+forms, a `CourseFall` for a course with one date in each season-month
+("the 8th, 18th and 28th of the spring months; today the 8th of the
+first month of spring"), a `MonthFall` for one with its own dates in
+the month ("the 18th and 28th of the last month of spring; today the
+18th", "the 13th of the middle month of summer, which is today", "every
+date of the last month of winter but the 27th; today the 15th"), an
+`AnimalFall` for one by the date's animal ("the dragon and sheep days of
+the first month of spring; today a day of the sheep") and an
+`EveryMonthFall` for the sky doors ("the 2nd, 12th and 22nd of every
+month; today the 12th"), with the hour, time of day or way it goes where
+the source gives one (", at the snake hour", `CourseAt.*`), written from
+`CourseFall.*`, `CourseAt.*`, `Animal.<NAME>.of` and
+`DateOrdinal.<one|two|few|other>`; where one course does two things on
+a date (the nyen moving and turning back) the row has a line for each,
+under what it does (`CourseFall.event.*`). The great black day, Rāhu's
+course among the earth lords and his course by month take the same
+lines; a black month's line is its reading's own row, under its third
+(`reading.EarthLord.ZLA_NAG.<UPPER|MIDDLE|LOWER>.falls`) or its year
+(`…KI_KANG_ZLA_NAG.<animal>.falls`), and the eclipses', the seasonal
+signs' and the comet's are the rule that marks them; `wording.<key>` for each wording of the lists. Readings that share a sentence
 keep it once, as a pattern whose `{0}` takes the entry (`reading.KyuSei`,
 `reading.Haircut.GOOD` and `.AVOID`, a good date's and one to avoid). A translation may be partial, since Weblate commits
 only reviewed strings ([weblate.md](weblate.md)): a key it lacks, or leaves
@@ -2492,11 +2511,11 @@ canvas "Zanshin Calendar — basic design".
   *Also called* · *Strong when* · *Avoid its start* · *Setting out* ·
   *Rank* · *Remedy* · *Spirits that harm* · *Illness* · *Rites* · *La
   today* · *A birth today* · *A death today* · *Livestock* · *Planet* ·
-  *Foods* · *How it falls*, each
+  *Foods* · *Through the day* · *How it falls*, each
   shown only where the catalog has it; and last the app's workings rows,
   how the entry was counted (the hair date, Viṣṭi's span, the pebbles'
   count). Rows and workings share one label column, as wide as the
-  longest of the sixteen labels in the shown language on one line at the
+  longest of the seventeen labels in the shown language on one line at the
   phone's font scale, never under 112 dp and at most half the
   sheet, where a longer workings label wraps; the "Tibetan" line keeps the
   same column. A sheet of several parts (the combination, the special

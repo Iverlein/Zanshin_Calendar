@@ -103,7 +103,9 @@ prayer.
 (img. 367), read on the scan: «ཟླ་ནག་མཁར་ལས་ཐོག་བརྩེགས་འབུབས། །རབ་གནས་རབ་བྱུང་རྟེན་བཞེངས་དང་། །བག་མ་ནོར་གཏོང་གསོན་གཤིན་འཛེམ། །མཐུ་གཏད་མནན་སེལ་དགྲ་ལིང་བྲི། །དྲག་ལས་བཟང་ཞིང་སྒྲིབ་པ་ན། །ཁ་ཚར་མ་ཉམས་དར་རས་དཀར། །འཕྱུར་ཞིང་མར་གསུར་གཏོང་བ་དང་། །ཕྱོགས་བཞིར་ས་དམར་གཏོར་ལ་ནི། །གཡག་ལུག་མགོ་བོ་དཀར་པོ་ལ། །དར་དཀར་བརྒྱན་པས་ཟླ་ནག་སྒྲིབ། །ཆུ་གཏོར་མང་གཏོང་གཟུངས་འདུས་ཀྱི། །གསུང་སྒྲོག་དེ་ཡི་ཉེས་པ་ཞི།»
 adds building storeys and roofing, raising images, and a remedy of white
 silk, a white *gsur*, red earth, a white-headed yak or sheep and the
-*gzungs 'dus*.
+*gzungs 'dus*. The reading names it the Collected Dhāraṇīs (*gzungs
+bsdus*), as the great black day's remedy does (p. 226), one Wylie for one
+text (SPEC §8.1, rule 11; ROADMAP X7).
 
 **The month's thirds.** WB's notes count the month's *sgang* from the
 11th to the 20th (vol. 2, p. 484, img. 492, read on the scan, BDRC's and the Gser thang

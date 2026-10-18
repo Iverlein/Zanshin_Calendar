@@ -269,7 +269,13 @@ south-west, from dawn to daybreak south-west to east. Fierce work is done
 going along with it, and above all nothing should face it.
 
 The app adds this to both Rāhu readings, the detailed course and the
-general one, so it opens from the day's Rāhu row; it does not place the
+general one, so it opens from the day's Rāhu row: since ROADMAP X7 (block
+46, 2026-10-18) once, as the *Through the day* row of Rāhu's family note
+(`reading.Rahu.through_day`), which both share, the paragraph keeping the
+day's move and the rule for fierce work. The detailed course's works
+are its lists; the paragraph names only those the lists do not (pursuing
+aims on the 4th, a grave site on the 22nd, hail and burying rites on the
+14th). It does not place the
 eight times on the hours panel's clock, since the passage names times of
 day, not hours. KP's nine boxes on img. 78 give the same course
 (*KP's chart, img. 78*, above). The whole passage was read again on the
