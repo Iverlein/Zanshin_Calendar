@@ -602,3 +602,24 @@ bear on the choice, and are inferences, not statements of any text:
   only as Tshul khrims rgyal mtshan's and as a verse on the year's rains); KP img. 13–14.
 - Not searched: BDRC's full-text search for the weighing verse in other
   manuals' treatment of the earth lords.
+
+## On the prints and in BDRC's search, 2026-10-18 night (open questions 127, 130)
+
+- **130, the seasons.** Longchenpa (ཀློང་ཆེན་པ, klong chen pa) glosses the
+  verse in his *Zab don rgya mtsho'i sprin* (Collected Works, Krung go'i
+  bod rig pa dpe skrun khang 2009, vol. 7, etext VE1KG4884_007 p. 16),
+  quoting it from the *Klong gsal* (ཀློང་གསལ, klong gsal) tantra:
+  «བདུན་པ་དུས་ཀྱི་མཚན་ཉིད་ནི། …དེ་ཡང་སྟོན་སོར་མེ་ཏོག་འབྲས་བུ་རྒྱས་ཤིང་ཆར་རྐང་བབས་ཀྱིས་ཆགས་པ་དང༌། སྟོན་དང་དགུན་བུ་ཆུང་བསིལ་དྲོད་སྙོམས་པའི་དུས་དང༌། སོ་ཀ་མེ་ཏོག་དང་ཤིང་ལོའི་འདབ་མ་ཁ་བྱེ་བའི་དུས་རྣམས་མཆོག་ཏུ་བཟང་སྟེ། དེ་ཉིད་ལས། དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད་ཀྱི་དུས། །ཟེར་གཉིས་དུས་ནི་མཆོག་ཏུ་བཤད་པ་ཡིན། །ཞེས་པས། ལས་དང་པོ་པ་ལ་ངོ་སྤྲོད་པའི་ཉི་མའི་དུས་ནི་སྔ་དྲོ་རྩེ་ཤར་དང༌། ཕྱི་དྲོ་ནུབ་ཀ་གཉིས་བཟང་སྟེ། …རྒྱུན་དུ་ཉམས་སུ་ལེན་པའི་དུས་ནི་སྟོན་སོར་འབྲས་བུ་སྨིན་པས་སྒྲུབ་པ་འཕེལ་ཞིང་བསྒྲུབ་སླ། སྟོན་འབྲས་བུ་བཅུད་སྡུད་པས་ནང་དུ་ཁམས་སྨིན་ཞིང་སྙིང་པོའི་དོན་རྟོགས་སླ། དགུན་ཆུང་བསིལ་དྲོད་སྙོམས་པས་ཁམས་བདེ་ཞིང་སྒོམ་སྙིང་འདོད། སོ་ཀ་རྩི་ཤིང་ཁ་འབུས་པས་ཡོན་ཏན་གསར་དུ་སྐྱེ།»
+  (etext only). The four are the end of summer, which he calls *ston
+  sor*, when the flowers and fruit are full after the rains; autumn; the
+  early winter, when cold and warmth are even; and spring, when the leaves
+  open. So «དབྱར་མ» is the end of summer, not summer itself.
+- **127, the two *zer*.** In the same passage the best hours for the
+  introduction are «སྔ་དྲོ་རྩེ་ཤར་དང༌། ཕྱི་དྲོ་ནུབ་ཀ», the morning when the sun first
+  strikes the peaks and the evening as it sets: stretches of the morning
+  and evening, not moments. The *Gdams ngag mdzod*'s commentary on the
+  same verse (Shechen 1999, vol. 2, etext VE23605_002 p. 6) reads the *zer
+  gnyis* as «བྱེ་བྲག་འཆར་ནུབ་ཀྱི་ཟེར་གཉིས», "the two rays of rising and setting", and
+  gives the reason for the seasons, «དུས་དེར་བསིལ་དྲོད་སྙོམས་པའི་དབང་ཤེས་བྱིངས་རྨུགས་ཀྱི་རྐྱེན་ཉུང», cold
+  and warmth even, so that dullness and torpor are few. Whether the *gung*
+  is the sun's culmination is not said there.

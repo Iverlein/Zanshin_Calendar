@@ -1034,3 +1034,43 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
 - The word «བླ» in Mipham's *Treatise on Passion* (Yigdzin-1 over img. 536–580): only in other words (བླ་རེ, བླ་མ, བླང); the treatise speaks of the drop of bliss, not the la.
 - A source named by Deumar for the Tsuglag Rigje system (pp. 589–594 on the scan): none.
 - DM's first lent-scan pass (2026-10-12): `archive_lend.py view` with an empty FILE argument found "no page image" for every leaf; with the item's root file given as "." it worked. The loan was returned both times and the cookie file deleted.
+
+## On the prints and in BDRC's search, 2026-10-18 night (open questions 63, 64, 77, 83, 111)
+
+- **77, the three places are the blocks'.** The Zhol print carves the
+  Phugpa list as the 1996 print sets it (WBZ img. 1052, l. 3–5, img. 1053,
+  l. 1, read at 2.5×): «བཞི་ལ་མི་ཡི་རྐེད་པ་ལ། །རྟ་ལ་སོགས་པའི་སྲེ་ལོང་ཡིན།», «བཅོ་ལྔ་མི་ཡི་སོག་པ་ལ། །རྟ་ལ་སོགས་པའི་ལུས་པོ་བྱིངས།»,
+  «ཉེར་དགུ་མི་ཡི་ངར་གདོང་ལ།». The waist, the shoulder blade and the shin are
+  WB's words; KL's knee, crown and instep are KL's own.
+- **111, the *Rin chen phreng ba*.** WB names it where the Phugpa list
+  begins (vol. 2, p. 303, etext p. 311; WBZ img. 1052, l. 2–3, read on the
+  print): «གསོ་བ་རིག་པ་དང་ཡང་མཐུན། །ཕུག་པ་ཁུ་དབོན་བཞེད་པའི་ཚུལ། །རིན་ཆེན་ཕྲེང་བ་ལྟར་བརྗོད་ན།», "as
+  the Phugpa uncle and nephew (ཕུག་པ་ཁུ་དབོན, phug pa khu dbon) hold it, told
+  after the *Precious Garland*"; the course within the day follows on
+  p. 304 (WBZ img. 1053). Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ» is that work, as WB
+  cites it; BDRC's search («ཕུག་ལུགས་རིན་ཆེན་ཕྲེང») finds no copy of it, only
+  Deumar and the medical textbooks that reprint his table.
+- **83, the words on the Zhol print.** The seven-red mewa (vol. 1,
+  p. 403): WBZ img. 531, l. 1–2, read at 6–10×, «བུད་མེད་ཟླ་རིབ་ནད་…» and
+  «དམར་བཤས་འདུ་ལོང་གཏར་སྲེག་འཛེམ།». «རིབ» is clear on the block; *rib* is the old
+  word for *srib*, dark, shadow (Dag yig gsar bsgrigs), so a women's
+  "moon-darkening" illness, not glossed as a whole. «འདུ་ལོང» is a crowd, a
+  tumult (Tshig mdzod chen mo, «མི་མང་པོ་འདུས་པའི་ཟང་ཟིང»): avoid red slaughter,
+  crowds, bloodletting and moxa. The sheep day (vol. 2, p. 357): WBZ
+  img. 1112, l. 1, «སྨན་སྦྱོར་དབྱུག་དཔྱད་དོན་གཉེར་བས།», as printed; KD's restatement
+  lists it with the treatments, «སྡོམ་ལེན་གཏར་བསྲེག་དབྱུག་དཔྱད་དང་། །སྨན་སྦྱོར་…»; *dbyug*
+  is a stick, or to swing (Dag yig gsar bsgrigs); the compound is in no
+  dictionary.
+- **63, the Rebkong anthology is RS.** BDRC's search for «མངལ་འཇུག་སྐར»
+  (2026-10-18) has five hits: WB twice (Gser thang, Zhol), a reprint of WB,
+  SY, and RS (MW1KG6014), whose etext reads «…སྐྱེ་སྐར་ལ་ཞི་དྲག་སྤྱིའི་ལས་བཟང་། མངལ་འཇུག་སྐར་མས་གཞི་བཟུང་དང་གཡོ་དང་ཕ་རོལ་དབྱུང་བ་ཀུན་བཟང་། ཁྱད་པར་གཏར་སྲེག་སྤང་དགོས།»,
+  SY's prose. Which of RS's three texts holds it is not seen (the etext is
+  search only); the third, Dgurong Tsokye Lodrö's, shares SY's title.
+- **64, *Йога звука*.** The Russian book (Ganga, Moscow 2016, ISBN
+  978-5-9907427-4-1, 320 pp., the series *Library of the IATTM*,
+  «Библиотека МАТТМ») calls itself "a new, expanded edition" of the
+  method, and one bookseller's record credits it as compiled by T. Ul'yanova
+  and N. Chenagtsang; none of the listings seen (LiveLib, Bukvoed,
+  2026-10-18) names a translator or an original title. So it is not a plain
+  translation of *The Science of Mantra Healing by Interdependence*; how
+  much of that book it holds is not seen.

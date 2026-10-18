@@ -1298,6 +1298,47 @@ the four-slayer downward, the bird, the inner white". So the white year
 up or down from one's own, and p. 388's progressed sign reaching the white
 year is its reaching that year, next to its reaching the seven-corner.
 
+## On the prints and in BDRC's search, 2026-10-18 night (open questions 93, 94, 96, 158)
+
+- **94, «ལྔ་སེར་བནྡེ».** The 1996 print has «བནྡེ», not «བརྗེ» (vol. 1, p. 408,
+  img. 418, read at 10×), and so does the Zhol print (WBZ img. 537, l. 6,
+  read at 3×): «ཡང་ཅིག་སོ་སོའི་གཉིས་ནག་བསྟན། །གཅིག་དཀར་བུ་ཆུང་(བྱིས་པའི།)གཉིས་ནག་ཡིན། །གཉིས་ནག་ཀུན་ཡིན་སྐྱེས་དར་གནད། །གསུམ་མཐིང་བྱིས་པ(ཤར་པོའི་གཉིས་ནག)བཞི་ལྗང་ཡུགས(མའི་གཉིས་ནག་ཡིན།)། །ལྔ་སེར་བནྡེ་དྲུག་དཀར་བོན། །བདུན་དམར་བུད་མེད་གཉིས་ནག་ལ། །བརྒྱད་དཀར་ཞང་བློན་གྲྭ་མའི་ཡིན། །དགུ་དམར་བཙད་པོ(རྒན་རྒོན།)ཡིན་ཏེ་གནད། །དེར་བབས་ངན་ཏེ་རིམ་གྲོ་བསྐྱེད།།»:
+  each kind of person has a "two-black" of their own, the mewa on which
+  falling is bad for them: the one-white is the small children's, the
+  two-black everyone's and above all the men in their prime, the
+  three-blue the young boys', the four-green the widows', the five-yellow
+  the Buddhist monks' (བནྡེ, bande), the six-white the Bon priests' (བོན,
+  bon), the seven-red the women's, the eight-white the ministers' and
+  monks', the nine-red the old people's.
+- **93, the dead's pebbles and the two rites.** The Zhol print (WBZ
+  img. 512, l. 3, read at 6×) carves «དོ་གཅིག་གནམ་ལོ་དང་འཐབས་པའི། །རྗེ་འུ་ནག་དང་རོ་འདོད་དང་། །དགུ་དུར་རང་ཀེག་བདུན་ཟུར་མང་།»,
+  where the 1996 print has «རྗེའུ་ནག་དང་ར་འབད་དང་།» (img. 400, read on the scan):
+  «ར་འབད» is a slip for «རོ་འདོད», the corpse-craver, the obstacle the
+  spouses' lines name just before («ཕྱི་ནང་བར་གསུམ་རོ་འདོད་ཡིན»). «རྐྱ་མདའ» stands in
+  WBZ too (img. 511, l. 6, «ཁྱད་པར་རྐྱ་མདའ་དབྱེ་བསྲུང་བྱ།»), and the phrase «རྐྱ་མདའ་ཐུག», the
+  *rkya mda'* meeting, recurs as an omen: WB vol. 1 (etext) «བུ་སྐྱེས་རྐྱ་མདའ་ཐུག་པ་ཡིན»,
+  KD vol. 3 «འབྱུང་བ་དུས་ཀྱི་རྐྱ་མདའ་ཐུག། རིན་ཆེན་སྲོག་གི་ཐང་ཤིང་ཆག», Dge rtse 'Gyur med
+  rnam rgyal (MW25167) «ཕ་ཚན་མགོ་ནོན་བཟའ་མི་ཡི། རྐྱ་མདའ་ཐུག་པས་ལན་པ་ཡིན།», and a
+  dhāraṇī collection (MW1KG5988) «སྲིན་མོ་ཤ་རྐྱ་མདའ་འཕེན་ཟློག», the flesh-eating
+  demoness shooting the *rkya mda'*; Gyurme Dorje's *Tibetan Elemental
+  Divination Paintings* (2001) notes that WB "renders" a term of the
+  divination manuals so (n. 18, snippet only). *Rkya* is a strand, a
+  single one, and in verse a bridge (Tshig mdzod chen mo); what the *rkya
+  mda'* is, is not settled. «རུ་ཤན་ཁ་སྤྲོད» is carved so (WBZ img. 512, l. 6) and
+  is a rite's name: Zhe chen rgyal tshab (MW1PD133163) lists it among the
+  secret obstacle's remedies, «རུ་ཤན་ཁ་སྤྲོད་བདུད་མདོས་མ་ཀླུང་བཅོས»; *ru shan* is
+  separation, the gap between (Rangjung Yeshe, Valby, Barron), *kha
+  sprod* facing each other (Tshig mdzod chen mo).
+- **158 and 96, the notes on piles (vol. 2, p. 492, img. 500, read on the
+  scan).** «སྤར་ཁ་གང་གི་སྟེང་དུ་གཉིས་ཚོགས་ནས་བརྩམས་སྤུངས་པ་ཡིན། མང་དུ་ཚོགས་ན་ངན།», "on whichever
+  trigram, a pile begins from two gathered; when many gather, it is bad"
+  (the etext drops «གི་སྟེང་དུ་གཉིས་ཚོགས་ནས»). And on the spouses on one trigram:
+  «བཟའ་མི་སྤར་ཁ་གཅིག་ལ་ཚོགས་པ་ནི་ཁྱོ་ཤུག་ལས་གཞན་རབ་བྱུང་སོགས་ལ་མེད་ཀྱང་། ཁྱིམ་གཅིག་ལ་ཟམ་ཐུག་གི་ཉེས་པ་ཙམ་ཡོད་དོ།»,
+  "the spouses' obstacle on one trigram is not for others than husband
+  and wife, the ordained and so on, but for one household there is the
+  fault of the *zam thug*": monks and others living in the house count
+  for the household's fault.
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's

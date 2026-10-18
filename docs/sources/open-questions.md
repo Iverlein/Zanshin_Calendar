@@ -420,7 +420,7 @@ the text, not about the app.
     the first is printed «དུས་ཁམས», the second «རུས་ཁམས»; so the question
     narrows to the first.
 
-24. **WB vol. 1, p. 351 (img. 361): what is the sixth point of the
+24. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361): what is the sixth point of the
     match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
     Yigdzin-1 and the etext have «ཎི་ཤ», the scan's first letter is «ཏི» or
     «ཎི» (2026-10-11, RD11, [reckonings.md](reckonings.md)). What is it?
@@ -430,6 +430,7 @@ the text, not about the app.
     The notes and ch. 30 (vol. 2, pp. 525, 152) seem to print «ཊི་ཤ». So
     the question narrows to the word: a loan (from Sanskrit or Chinese) or
     a misprint?
+    *Answered 2026-10-18 night ([marriage.md](marriage.md)): a Zhang-zhung word, not a misprint. Both blocks carve the sixth point's heading «དྲུག་པ་ཎི་ཤའི་བརྩི་ལུགས་ནི» (WBZ img. 469; Taikhang I5877 img. 486); ཎ or ཊ is not decided by eye, and every etext has ཎ. The *Ancient Zhang-zhung and Tibetan Dictionary* (Lanzhou 2010, MW1KG12273, search snippet) glosses «ཎི་ཤ་ལོག་པ། ཕོ་གཞོན་ཅིང་མོ་རྒན་པའི་མོ་ཆུང་བ།», a wife where the man is younger and the woman older; other reckoners (MW3PD398, MW1KG16672, MW8LS67656) call WB's rule «ཎི་ཤ་མ་ལོག», its reversal «ཎི་ཤ་ལོག».*
 
 25. ~~**WB vol. 2, p. 532 (img. 540): the general reckoning's fourth
     part.**~~ *Answered 2026-10-12 (RD17, [reckonings.md](reckonings.md),
@@ -532,10 +533,11 @@ the text, not about the app.
     is held, and *zon*'s ages likewise (read on the scan 2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
 
-38. **WB vol. 2, p. 198 (img. 206): «སྨེ་བདུན་ལྷག་གིས».** The black sky dog
+38. **Answered 2026-10-18. WB vol. 2, p. 198 (img. 206): «སྨེ་བདུན་ལྷག་གིས».** The black sky dog
     of the hours rises at dusk "with the seventh sme ba remaining": what
     is counted (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Answered 2026-10-18 night ([year-month-earth-lords.md](year-month-earth-lords.md)): nothing is counted. Ch. 23 gives the verse whole (vol. 1, p. 375, img. 385, read on the scan): «དུས་ཚོད་གནམ་ཁྱི་སྲོད་ཀྱི་དུས། །ཁོ་རང་དངོས་པོ་སྨེ་བདུན་ཏེ། །སྨེ་བདུན་ལྷག་གི་ཤར་བ་དང་།», the dusk sky dog is itself the seven-red mewa and rises vividly (*lhag ge*, *lhag gis*: vivid, resplendent, in the dictionaries) as it.*
 
 39. **WB vol. 2, pp. 195–196 (img. 203–204): «ལས་ལ་ཟློད་པ».** What does
     ཟློད་པ mean in the palace gods' heading (read on the scan 2026-10-11,
@@ -571,6 +573,7 @@ the text, not about the app.
 44. **KP box 10 (BDRC img. 28): «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག».** Are these one
     name each, and which Chinese-almanac days are they (2026-10-12, RD5,
     [kp-activities.md](kp-activities.md))?
+    *Narrowed 2026-10-18 night ([kp-activities.md](kp-activities.md)): two names. A Bhutanese almanac anthology (MW26041, Thimphu 1981) lists «ཀིང་ཟོར་ནག་དབུལ» and «པེ་ལིད་གནམ་ཞག་ནག» separately among its days; which Chinese days they are is not given.*
 
 45. **Answered 2026-10-18. KP boxes 20, 25, 59, 62: «དབུལ་ལག».** Does it name one day (WB's
     «དབུལ་ལག་འཆར»), as the boxes print it, and which (2026-10-12, RD5,
@@ -727,16 +730,18 @@ the text, not about the app.
     Tibetan Book of Health* any la course or dates to avoid? Neither was
     seen (2026-10-12, RD7, [health.md](health.md)).
 
-63. **RS and SY.** Is the Rebkong anthology that copies SY, named in
+63. **Answered 2026-10-18. RS and SY.** Is the Rebkong anthology that copies SY, named in
     [personal-mansions.md](personal-mansions.md) under *The mansion of
     conception*, the *Collected Star Texts of the Rebkong Ngakmang* (RS)?
     Its third text, *The Star Text, a Mirror Clarifying What to Adopt and
     Avoid* by Dgurong Tsokye Lodrö, shares the end of SY's title
     (2026-10-12, RD7, [health.md](health.md)).
+    *Answered 2026-10-18 night ([health.md](health.md)): yes. BDRC's search for «མངལ་འཇུག་སྐར» finds SY's prose in RS (MW1KG6014) word for word; which of its three texts holds it is not seen (search-only etext).*
 
 64. **The Russian *Йога звука* (2016).** Is it a translation of *The
     Science of Mantra Healing by Interdependence* (2015)? VIAF gives titles
     only (2026-10-12, RD7, [health.md](health.md)).
+    *Narrowed 2026-10-18 night ([health.md](health.md)): the book (Ganga 2016, ISBN 978-5-9907427-4-1, 320 pp.) calls itself a new, expanded edition, and one bookseller credits it as compiled by T. Ul'yanova and N. Chenagtsang; no translator or original title in the listings seen.*
 
 65. **WB vol. 2, pp. 44–51 (img. 52–59): the reckoning for the dead's
     total.** The fifteen examinations and the preliminary, as each states
@@ -783,6 +788,7 @@ the text, not about the app.
     67); the etext's «དུར་སྒྲུང», the grave's tale, comes to the same. The
     *bsgrub* grave and «ར་བསེ» are not settled; «ར་བསེ» and «སྐྲང་སྒོམ» are
     in no dictionary of Steinert's collection.*
+    *Narrowed 2026-10-18 night ([reckonings.md](reckonings.md)): «ར་བསེ» is the pair *ra ru* and *bse ru*, goat horn and rhinoceros horn, the classes of trigrams, animals and elements ch. 22 sets out (vol. 1, p. 307, img. 317, read on the scan); the tenth examination's «ར་བསེའི་རྡེལ» test repeated deaths by them. The *bsgrub* grave and «སྐྲང་སྒོམ» (no BDRC hit) stay open.*
 
 69. **WB vol. 1, pp. 259, 262 (img. 269, 272): the birth reckoning's
     count.** P. 259 fixes 641 root and 2,537 identifying pebbles, 3,178 in
@@ -862,13 +868,14 @@ the text, not about the app.
     up (those lines etext only). Marrying more than once is one way of it;
     the words say more homes than one.*
 
-77. **WB vol. 2, p. 303 (img. 311): three of the Phugpa la places.** The
+77. **Answered 2026-10-18. WB vol. 2, p. 303 (img. 311): three of the Phugpa la places.** The
     list prints the waist on the 4th, the shoulder blade («སོག་པ») on the
     15th and the shin on the 29th, where the climb and descent of the rest
     of the list, and KL (pp. 201–202), have the knee, the crown and the
     instep. Are these the blocks' words or slips of the 1996 setting, and
     which places does the tradition follow (2026-10-12, RD10,
     [health.md](health.md))?
+    *Answered 2026-10-18 night ([health.md](health.md)): the blocks' words. The Zhol print carves «བཞི་ལ་མི་ཡི་རྐེད་པ་ལ», «བཅོ་ལྔ་མི་ཡི་སོག་པ་ལ» and «ཉེར་དགུ་མི་ཡི་ངར་གདོང་ལ» (WBZ img. 1052–1053); KL's knee, crown and instep are KL's own.*
 
 78. **KL pp. 201–202: the syllables of the la's dates.** From which text
     are KL's syllables (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ), which are in
@@ -917,6 +924,7 @@ the text, not about the app.
     stretching and yawning, and as a sickness the wind's needless stretching
     of the limbs (Tshig mdzod chen mo); WBZ's stack there (img. 1045, l. 1) is
     not clear. «ཟླ་[རིབ]», «[འདི]་ལོང» and «དབྱུག་དཔྱད» were not read.*
+    *Narrowed 2026-10-18 night ([health.md](health.md)): all three read on the Zhol print: «ཟླ་རིབ» (WBZ img. 531, l. 1; *rib*, old for *srib*, dark), «འདུ་ལོང», a crowd (l. 2), and «དབྱུག་དཔྱད» (img. 1112, l. 1), a treatment KD lists with bloodletting and moxa. Only «ཟླ་རིབ་ནད» and «དབྱུག་དཔྱད» as wholes are unglossed.*
 
 84. **KL's monthly la course and Deumar's Tsuglag Rigje system.** *Answered in part, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): yes, on the scan, all thirty dates (DM pp. 590–593); his note (p. 594) names the system and nothing behind it. Open: what the Tsuglag Rigje system is, and from which text Deumar took it.* Is KL's
     course the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed) column of
@@ -994,11 +1002,13 @@ the text, not about the app.
     spouses' obstacle, «ར་འབད» among the dead's pebbles, and «རུ་ཤན་ཁ་སྤྲོད»
     at the secret obstacle? (2026-10-12, RD14,
     [year-of-life.md](year-of-life.md))
+    *Narrowed 2026-10-18 night ([year-of-life.md](year-of-life.md)): «ར་འབད» is a 1996 slip; the Zhol print carves «རྗེ་འུ་ནག་དང་རོ་འདོད་དང་།», the corpse-craver (WBZ img. 512, l. 3). «རུ་ཤན་ཁ་སྤྲོད» is a rite Zhe chen rgyal tshab lists for the secret obstacle (*ru shan*, separation; *kha sprod*, facing). «རྐྱ་མདའ» stands in WBZ; «རྐྱ་མདའ་ཐུག» is a recurrent omen (WB, KD, MW25167), not glossed.*
 
-94. **«ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན».** WB vol. 1, p. 408:
+94. **Answered 2026-10-18. «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན».** WB vol. 1, p. 408:
     «ལྔ་སེར་བརྗེ་དྲུག་དཀར་བོན» in the list of each kind of person's "two
     black": whose "two black" are the five yellow and the six white («བརྗེ»,
     «བོན»)? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+    *Answered 2026-10-18 night ([year-of-life.md](year-of-life.md)): «བནྡེ», not «བརྗེ»: «ལྔ་སེར་བནྡེ་དྲུག་དཀར་བོན» on the 1996 scan (img. 418, at 10×) and the Zhol print (WBZ img. 537). The five-yellow is the Buddhist monks' two-black, the six-white the Bon priests'; the list gives each kind of person's mewa.*
 
 95. **The notes' «མ», vol. 2, p. 493.** The notes, vol. 2, p. 493:
     «སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི»
@@ -1011,6 +1021,7 @@ the text, not about the app.
     house that year (as "some reckoners" count) or the family wherever it
     lives, and does a member who died during the year still count?
     (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+    *Narrowed 2026-10-18 night ([year-of-life.md](year-of-life.md)): the notes (p. 492, read on the scan) count others living in the house: the spouses' obstacle «ཁྱོ་ཤུག་ལས་གཞན་རབ་བྱུང་སོགས་ལ་མེད་ཀྱང་། ཁྱིམ་གཅིག་ལ་ཟམ་ཐུག་གི་ཉེས་པ་ཙམ་ཡོད». A member who died is not addressed.*
 
 97. **The thirty's 4th, 7th and 11th places.** WB vol. 1, p. 453 (img. 463):
     from where are the fourth, seventh and eleventh places counted? The
@@ -1129,9 +1140,10 @@ the text, not about the app.
     («བླ་རྩ་མར་ཟུར་ཆུ་རྒྱུས་གསེབ་ཏུ་བརྟག», p. 498)? (2026-10-12, RD9,
     [health.md](health.md))
 
-111. **Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ».** Which work is the one Deumar names
+111. **Answered 2026-10-18. Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ».** Which work is the one Deumar names
     (p. 594) for the la places by the hour, whose notes give both feet at
     daybreak? (2026-10-12, RD9, [health.md](health.md))
+    *Answered 2026-10-18 night ([health.md](health.md)): WB names it at the head of the Phugpa la places (vol. 2, p. 303; WBZ img. 1052): «ཕུག་པ་ཁུ་དབོན་བཞེད་པའི་ཚུལ། །རིན་ཆེན་ཕྲེང་བ་ལྟར་བརྗོད་ན།», the *Precious Garland* after which the Phugpa uncle and nephew hold them; no copy of it is on BDRC.*
 
 112. **The eight roots of p. 301.** In WB vol. 1, p. 301, does «བརྒྱད་དོ» close
      the count of the eight roots ("these are eight", the eighth being
@@ -1220,6 +1232,7 @@ the text, not about the app.
      horseback are avoided. «ཤ་ཆིངས» is in none of the 64 dictionaries. For
      the owner: the built `reading.EarthLord.HORSE.death` keeps "on the
      journey with the corpse no horse is used".*
+    *Narrowed 2026-10-18 night ([earth-lords.md](earth-lords.md)): «ཤ་ཆིངས» is a binding strap elsewhere (Marpa's meditation belt, a bandage, a thief's load); binding the corpse fits the horse day, not stated.*
 
 122. **The chief earth lord's remedy.** In the chief earth lord's remedy (pp.
      223–224), what are the *sdong po rgyan pa* (སྡོང་པོ་རྒྱན་པ) to be
@@ -1233,6 +1246,7 @@ the text, not about the app.
      *Snang brgyad* and the *Gtsug tor*, is most likely the dhāraṇī *Sdong
      po rgyan gyi mchog* (Toh 1066; 84000, Negi), which no text here names
      in full. «སྤོམ་གཏའ» is in no dictionary.*
+    *Narrowed 2026-10-18 night ([earth-lords.md](earth-lords.md)): «སྤོམ་གཏའ» is a *gto* rite of binding with texts of its own (Mipham's *Spom gta' chen mo bkra shis kun khyab*; Karma Chags med; Zhe chen rgyal tshab); its content not read.*
 
 123. **The seats' closing remedy.** In the seats' closing remedy (p. 224),
      what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and
@@ -1275,6 +1289,7 @@ the text, not about the app.
      a *gung* the sun's culmination or the middle of the clock's day and
      night? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+    *Narrowed 2026-10-18 night ([weighing.md](weighing.md)): stretches. Longchenpa gives «སྔ་དྲོ་རྩེ་ཤར་དང༌། ཕྱི་དྲོ་ནུབ་ཀ», the sun on the peaks and its setting, and the *Gdams ngag mdzod* «འཆར་ནུབ་ཀྱི་ཟེར་གཉིས»; the *gung* is not settled.*
 
 128. **«མཱ་ར་ཡ་ཛ» and its four times of change.** «མཱ་ར་ཡ་ཛ» in the *Rin chen
      gter mdzod*: is it Māra rāja, the king of the māras, or the mantra
@@ -1296,10 +1311,11 @@ the text, not about the app.
      «ཁྲམ་ལ་བཏབ»); the Lord of Death puts his prey on the tally. «སོ་ནག» is
      in the dictionaries only as place names.*
 
-130. **The seasons of the thod rgal verse.** Which seasons are
+130. **Answered 2026-10-18. The seasons of the thod rgal verse.** Which seasons are
      «དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད» in the *Gdams ngag mdzod*'s verse: is
      «དབྱར་མ» the late summer, or summer itself? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+    *Answered 2026-10-18 night ([weighing.md](weighing.md)): the end of summer. Longchenpa's *Zab don rgya mtsho'i sprin* glosses the verse (from the *Klong gsal*) with four seasons: «སྟོན་སོར་» when flowers and fruit are full after the rains, autumn, the early winter of even cold and warmth, and spring (etext).*
 
 131. **The Vajrabhairava manual's sessions.** In the Vajrabhairava manual, once
      read on its scan, do the two *gung* and two *zer* fall on the session
@@ -1417,6 +1433,7 @@ the text, not about the app.
      (MW4CZ65561). Is it a Mtho las dgon impression of Lhasa blocks, or a
      Lhasa print, and which dragon year? (2026-10-13, O10,
      [kun-phan-me-long.md](kun-phan-me-long.md), "The rest of the book")
+    *Narrowed 2026-10-18 night ([kun-phan-me-long.md](kun-phan-me-long.md)): the colophon (BDRC label img. 121) has a ཚ with a subscribed ས before «འབྲུག», not «མེ»; the Lhasa printers' community and the common printing house keep the blocks; the year is not settled.*
 
 141. **Answered 2026-10-18. Date 1's «རྟེན».** date 1's first line reads
      «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both scans and in both readers,
@@ -1461,7 +1478,7 @@ the text, not about the app.
      carver, or halves ruled by Jupiter that are not nectar periods? (2026-10-13, O10,
      [nectar-periods.md](nectar-periods.md), "The tables written out")
 
-145. **Viṣṭi's «རག་འགག» and «གསེར་འགག».** «རག་འགག» and «གསེར་འགག» in Viṣṭi's
+145. **Answered 2026-10-18. Viṣṭi's «རག་འགག» and «གསེར་འགག».** «རག་འགག» and «གསེར་འགག» in Viṣṭi's
      remedy (p. 350) are read as printed; are they vessels of brass and of
      gold, and what is «སྔ་ཆ་གྲིབ་ཚུལ», the first half's shadow (གྲིབ,
      grib)? (2026-10-13, O10,
@@ -1469,6 +1486,7 @@ the text, not about the app.
      *Narrowed 2026-10-18 ([karanas.md](karanas.md)): «རག་འགག» is a small
      brass plate (Jim Valby), so «གསེར་འགག» a gold one; «འགག» alone has no
      vessel sense in the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settled.*
+    *Answered 2026-10-18 night ([karanas.md](karanas.md)): «སྔ་ཆ་སྒྲིབ་ཚུལ», the way to screen Viṣṭi's first part: the Zhol print carves «སྒྲིབ» (WBZ img. 1104, l. 1), as the «སྒྲིབ་ཤིང» of the line before; the 1996 «གྲིབ» is a slip. That «རག་འགག» and «གསེར་འགག» are vessels of brass and gold stands as narrowed before.*
 
 146. **Answered 2026-10-18. The Rdo rje gtsug lag's Mercury (༧).** In WB vol. 2, p. 337 (img. 345),
      the *Rdo rje gtsug lag*'s day of incompatibility prints Mercury as
@@ -1594,13 +1612,14 @@ the text, not about the app.
      have them; whether the glyphs are KP's 4 or its 9 is not settled by eye.*
 
 
-158. **How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,
+158. **Answered 2026-10-18. How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,
      the household's trigrams of the year "piled" on one trigram, and
      p. 407, «ཁྱིམ་ནང་གཅིག་དཀར་མང་ཚོགས་ན», many members on one mewa. Is a
      pile two members, as the spouses' obstacle on one trigram (p. 390)
      is, or more than two, and is it counted over the house's members
      only (question 96)? (2026-10-15, block 29,
      [year-of-life.md](year-of-life.md), *The household's trigrams piled up*)
+    *Answered 2026-10-18 night ([year-of-life.md](year-of-life.md)): two. The notes (vol. 2, p. 492, img. 500, read on the scan): «སྤར་ཁ་གང་གི་སྟེང་དུ་གཉིས་ཚོགས་ནས་བརྩམས་སྤུངས་པ་ཡིན། མང་དུ་ཚོགས་ན་ངན།», a pile begins from two on one trigram, and more is worse; the etext drops the words.*
 
 159. **Sel ba's long reading, lines 1–3.** WB vol. 2, p. 347: «སེལ་བ་དགྲ་ལས་མིང་འདོགས་དང་། །མཐུན་འཇུག་དཔལ་དང་བཀྲ་ཤིས་དང་། །མཛའ་བཤེས་གཉེན་དང་འགྲོགས་པ་ངན། །ལམ་སེལ་རབ་གནས་ལྷ་གསོལ་དང་། །གཤགས་འདེབས་བློ་ཕུགས་གྲོགས་འདུན་བཟང་།».
      The first three lines close on ངན and the next two on བཟང: are
@@ -1609,3 +1628,4 @@ the text, not about the app.
      where the app's reading had them good until 2026-10-17? And what is
      «དགྲ་ལས» before «མིང་འདོགས»? (2026-10-17, block 45,
      [yogas.md](yogas.md), *Long readings, in brief*)
+    *Narrowed 2026-10-18 night ([yogas.md](yogas.md)): the Zhol print carves the lines as the 1996 print, «དགྲ་ལས» and the endings «ངན», «བཟང» (WBZ img. 1100); WB's «དགྲ་ལས» is elsewhere "from enemies". The meaning of «དགྲ་ལས་མིང་འདོགས» is not settled.*

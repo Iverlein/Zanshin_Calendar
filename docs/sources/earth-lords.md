@@ -484,3 +484,22 @@ four:
 - A scan of the 1996 edition sharper than BDRC's 703-px one, for pp. 223–226: found, the Gser thang reprint of the same typesetting (MW3CN5026, I3CN5029, 1905 px; image = page + 6 here); recorded so that the next reading of WB vol. 2 starts there.
 - The Taikhang reproduction (MW30116, I5878) for pp. 223–226: img. 324–326 fetched (8280 px) but not read, the reprint and WBZ having settled the doubtful stacks; where p. 225 falls in it was not established.
 - `bdrc.py scans I1KG1710` on 2026-10-12 failed with 502 on the IIIF manifest, and the image list (`iiifpres.bdrc.io/il/v:bdr:I1KG1710`) answered 502 too; the images answered at `https://iiif.bdrc.io/bdr:I1KG1710::I1KG1710NNNN.jpg/full/max/0/default.jpg` (NNNN the four-digit image number).
+
+## On the prints and in BDRC's search, 2026-10-18 night (open questions 121, 122, 125)
+
+- **122, «སྤོམ་གཏའ» is a rite.** BDRC's search («སྤོམ་གཏའ», 59 hits) finds it as
+  a *gto* rite with texts of its own: Mipham's (མི་ཕམ, mi pham) *Spom gta'
+  chen mo bkra shis kun khyab* among his *gto mdos* (Collected Works,
+  2008), Karma Chags med's «རྒྱས་པར་འཛོམ་ན་སྤོམ་གཏའ་བཅིངས། །མ་འཛོམ་རྒྱ་ནག་གཏོ་མཛོད་ལུགས།» ("if all
+  is at hand, bind the *spom gta'*; if not, the Chinese *gto* way"), Zhe
+  chen rgyal tshab's «རོ་ལམ་མི་འདྲེན་སྤོམ་གཏའ་སྣང་བརྒྱད་མདོས», and texts so titled in the
+  National Library of Mongolia; a *spom gta'* is planted at a new building
+  in one account (MW4PD502, «སྤོམ་གཏའ་ཡང་བཙུགས»). So the screening's «སྤོམ་གཏའ» is that
+  binding rite; what it consists of is not read.
+- **121, «ཤ་ཆིངས».** The Zhol print carves «ཤ་ཆིངས་བྱེད་ཅིང» (etext p. 941). In
+  other works it is a binding strap: Marpa's (མར་པ, mar pa) meditation
+  belt «ཤ་ཆིངས་ཚད་ལྡན་བཅིང», a Sakya medical text's bandage on a wound,
+  «རྨ་སྨན་བཏབ་ལ་ཤ་ཆིངས་གློད», a thief carrying a *sha chings* (Karma Chags med); in the
+  horse day's line, "binding [the corpse]" fits, not stated.
+- **125, the *lo* of the day.** BDRC's search («ཞག་གི་ལོ་སྟེང») finds the line in
+  WB's prints only; no gloss.

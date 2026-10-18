@@ -2112,3 +2112,15 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   rule for the month's or the year's river; only the person's river-horse
   (vol. 2, pp. 12–25, etext pp. 20–33) and the column «ཟླ་ཀླུང» of the tables of
   ch. 13 (vol. 1, etext p. 115).
+
+## On the prints and in BDRC's search, 2026-10-18 night (open question 38)
+
+- **«སྨེ་བདུན་ལྷག་གིས»: nothing is counted.** Ch. 23 gives the same verse in
+  full (vol. 1, p. 375, img. 385, read on the scan): «ཞག(༣)གི་སྟག་རྟ་ཁྱི་གསུམ་དང་། །ཉི་མ་ནག་པོ་གནམ་ཁྱི་ཡིན། །དུས་ཚོད(༤)གནམ་ཁྱི་སྲོད་ཀྱི་དུས། །ཁོ་རང་དངོས་པོ་སྨེ་བདུན་ཏེ། །སྨེ་བདུན་ལྷག་གི་ཤར་བ་དང་། །བག་མ་སྒོར་ཐོན་འབྱེད་པ་ལྟས། །མྱུར་དུ་འཆི་བར་ཐེ་ཚོམ་མེད།»,
+  as do the Zhol print (etext p. 491), the Derge (WB2), KD and a
+  Men-Tsee-Khang volume (BDRC's search): the sky dog of the hours, at
+  dusk, "is itself the seven (the seven-red mewa)", and rises "vividly as
+  the seven"; when the bride goes out of the door at that hour, death
+  follows. *Lhag ge*, *lhag gis* is vivid, resplendent like a rising sun,
+  distinct (Rangjung Yeshe, Berzin, Valby, Waldo); the sky dogs' bodies
+  are «སྨེ་བདུན་ལུས» in ch. 31 too (vol. 2, p. 196).

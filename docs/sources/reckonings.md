@@ -1911,3 +1911,23 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
 - **A breakdown of ch. 27's 301 root pebbles** (RD17, 2026-10-12; p. 3 on
   the scan, the chapter by Yigdzin-1): none; the thirteen circles make
   65, the small reckonings close with their own 75.
+
+## On the prints and in BDRC's search, 2026-10-18 night (open question 68)
+
+- **«ར་བསེ» is the pair of horns, *ra ru* and *bse ru*.** Ch. 22 (vol. 1,
+  p. 307, img. 317, read on the scan) sets them out: «དེ་ནས་ར་བསེའི་རྒྱུ་མ་ན། །ར་བསེར་མི་མཐུན་མང་བཤད་ཀྱང་། །དག་ཁུངས་རྩ་བ་དང་སྦྱར་ན། །ལི་དྭ་ཟིན་ཟོན་ར་རུ་ཡིན། །ཁེན་ཁོན་གིན་ཁམ་བསེ་རུ་ཡིན། །བྱི་རྟ་བྱ་ཡོས་བཞི་བསེ་རུ། །དེ་ལྷག་ར་རུ་དབང་འབྱུང་ནི། །ཤིང་ཆུ་ལྕགས་གསུམ་བསེ་རུ་དང་། །མེ་ས་ར་རུ་ཡིན་པར་འདོད། །རུས་སྦལ་ཁྲ་མོ་ལྟར་བརྗོད་ན། །ལི་ཟོན་དྭ་དང་ཁོན་ར་རུ། །ཁེན་གིན་ཁམ་གསུམ་བསེ་རུ་ཡིན། །ཟིན་ནི་མང་ར་ཉུང་བསེར་ཉེ།»:
+  "Then the line of *ra bse*: many disagree on it, but by the pure root
+  source li, dwa, zin and zon are *ra ru* (goat horn), khen, khon, gin and
+  kham *bse ru* (rhinoceros horn); the mouse, horse, bird and hare *bse
+  ru*, the other animals *ra ru*; of the elements wood, water and iron
+  *bse ru*, fire and earth *ra ru*." The etext goes on (vol. 1,
+  pp. 307–308): «ར་རུ་ལས་སྐྱེས་བསེ་རུ་བྱུང་། །བསེ་རུ་ལས་སྐྱེས་ར་རུ་བྱུང་། །དེ་ཚེ་མི་གྲངས་འཆོམས་པ་ཡིན། …ཕ་ནི་བསེ་རུ་བུ་ར་རུ། །སྐྱེས་མང་འཚོམས་ལ་ཕ་ར་ལ། །བུ་བསེ་མང་ན་ལྡོག་པའོ།»:
+  a *bse ru* born of a *ra ru*, or the reverse, and the household's
+  numbers fall. Ch. 23 uses the pair again (vol. 1, p. 328, etext,
+  «བྱ་སྤྲེལ་རྟ་སྦྲུལ་དྲུག་ར་རུ། །གཤེད་བཞི་བྱི་ཕག་བསེ་རུ་ཡིན། །ར་བསེ་གང་རིགས་མང་ན་འཚོམས།»). So the
+  tenth examination's «རྩ་བ་ར་བསེའི་རྡེལ» (vol. 2, p. 48, img. 56, etext:
+  «ལོ་ཡི་ར་བསེ་སྲོག་དགྲ་དར། …སྨེ་བའི་ར་བསེ་གཉིས་ནག …སྤར་ཁའི་ར་བསེ་བདུད་ཀྱི་སྟེང་། …ཞག་གི་ར་བསེ …སྐར་མའི་ར་བསེ་ཟློས་སྐར་ངན། …གཟའ་ཡི་ར་བསེ་དགྲ་གཟའ …དུས་ཚོད་ར་བསེ་རང་ཀེག»)
+  are the root pebbles of the horn classes, year by year, mewa, trigram,
+  day, mansion, weekday and hour, against which a repeated death is
+  tested. The *bsgrub* grave and «སྐྲང་སྒོམ» stay open; BDRC's search finds
+  no «སྐྲང་སྒོམ» anywhere.

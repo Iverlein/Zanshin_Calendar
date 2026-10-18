@@ -464,3 +464,13 @@ garland. Left in this file: sel ba's lines 1–3 (question 159), dpa' bo's
 "son of the blind" and the rest), whose meaning the text does not give.
 The avoided start is the *Avoid its start* row, the whole length the
 paragraph's first words.
+
+## On the prints and in BDRC's search, 2026-10-18 night (open question 159)
+
+- **Sel ba's lines on the Zhol print** (WBZ img. 1100, l. 1, read at 2–8×):
+  «༄ དེ་ནས་སྦྱོར་བའི་འབྲས་བུ་བཤད། ༄ །སེལ་བ་དགྲ་ལས་མིང་འདོགས་དང་། །མཐུན་འཇུག་དཔལ་དང་བཀྲ་ཤིས་དང་། །མཛའ་བཤེས་གཉེན་དང་འགྲོགས་པ་ངན། །ལམ་སེལ་རབ་གནས་ལྷ་གསོལ་དང་། །གཤགས་འདེབས་བློ་ཕུགས་གྲོགས་འདུན་བཟང་། ༄ །མཛའ་བོ་ལས་རྣམས་ཀུན་འགྲུབ་ཅིང་།»,
+  word for word as the 1996 print: «དགྲ་ལས», and the first three lines close
+  on «ངན», the next two on «བཟང». Elsewhere WB uses «དགྲ་ལས» as "from enemies"
+  («དགྲ་ལས་རྒྱལ», vol. 2, pp. 186, 315, 325; «དགྲ་ལས་ཐར», vol. 1, p. 383), and
+  *ming 'dogs* is also a nickname, a bad name (Tshig mdzod chen mo «མིང་ངན»;
+  Waldo). BDRC's search finds the line in WB alone.

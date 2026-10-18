@@ -235,6 +235,17 @@ The weight of the factors (img. 13) and §4–6 bear on readings the app
 already has; §2, §3, §5 and §11 held calculable day readings, all now in
 the app (§11 as the personal mansions and weekdays).
 
+## On the prints and in BDRC's search, 2026-10-18 night (open question 140)
+
+- **The colophon** is on BDRC's image labelled 121 of I4CZ65599 (the
+  numbering here, img. 119, is the file's). Read again at 3–8× on the scan:
+  the stack before «འབྲུག་ལོར» is a ཚ with a subscribed ས, not «མེ», so
+  Yigdzin-1's fire dragon is not on the block; the stack is likely a
+  contraction, and which dragon year it names is not settled. The
+  colophon's «ལྷ་ལྡན་པར་[…]་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན་ཏེ་པར་སྤྱིའི་པར་ཁང་དུ་བཞུགས» makes the blocks Lhasa
+  blocks kept at the common printing house; BDRC's Mtho las dgon
+  attribution is not explained by anything printed.
+
 ## Open
 
 - Open question 140 ([open-questions.md](open-questions.md)).

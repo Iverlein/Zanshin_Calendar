@@ -512,9 +512,12 @@ bla gza' (Rabten's luck day) and the six mansions by animal only.
   («སྐྱེས་ས་རགས་པ་སྐར་མ་ཉེར་བརྒྱད་གང་ཡིན། ཞིབ་པར་དེ་རེ་རེར་དེའི་རྐང་པ་བཞི་སྦྱར།», p.
   512, img. 520). With a birth date and no hour, the birth mansion is the
   almanac's mansion of that day.
-- **The mansion of conception** («མངལ་འཇུག་སྐར་མ») is not defined in any
-  source found. BDRC's full-text search (2026-10-06) finds the term only
-  in WB p. 338, SY's prose of it and a Rebkong anthology that copies SY.
+- **The mansion of conception** («མངལ་འཇུག་སྐར་མ») is not defined in WB, SY or
+  RS. BDRC's full-text search (2026-10-06) finds the term only in WB
+  p. 338, SY's prose of it and a Rebkong anthology that copies SY (RS,
+  2026-10-18); a search for «མངལ་འཇུག་གི་སྐར» (2026-10-18) finds it defined in
+  Phug pa's commentary on the *dbyangs 'char* (below, *On the prints and
+  in BDRC's search*).
   The *dbyangs 'char* counts a person's mansions from the birth mansion:
   1st birth, 10th work, 16th separation, 18th "sealed", 23rd *vaināśika*,
   25th mind (Phug pa, KD vol. 3, etext pp. 276–279; WB vol. 1, p. 98,
@@ -532,3 +535,20 @@ friend, child and enemy weekdays and mansions by the life force all
 follow from the birth date the app already keeps (SPEC §10.5). None of
 the texts places a person's own days against the combination of weekday
 and mansion, so they stay outside the weighing (SPEC §5.12).
+
+## On the prints and in BDRC's search, 2026-10-18 night: the mansion of conception
+
+BDRC's search for «མངལ་འཇུག་གི་སྐར» (2026-10-18), after «མངལ་འཇུག་སྐར་མ» had found
+none, finds it defined in the Phugpa school's own commentary on the
+*dbyangs 'char*: Phug pa Lhun grub rgya mtsho (ཕུག་པ་ལྷུན་གྲུབ་རྒྱ་མཚོ, phug pa
+lhun grub rgya mtsho), *Legs par bshad pa padma dkar po'i zhal gyi lung*
+(MW25168, etext; also the Lhasa print of 1681, MW687, and OS), «ཉི་མའི་སྙིང་པོ་ལས་རྒྱལ་ལ་སྐྱེས་པའི་དབང་དུ་བྱས་ནས་ཆུ་སྟོད་ལྷ་མཚམས་མངལ་འཇུག་གི་སྐར་མ་དང་། སྣར་མ་ནག་པ་གྲོ་བཞིན་རྣམས་འཆི་སྐར་དུ་གསུངས་ཤིང་། དེ་དག་ལས་ཀྱང་ལྷུམས་སུ་ཞུགས་པའི་སྐར་ཞེས་གྲགས་པ་འདི་འཆར་སྐར་ཉིད་ཡིན།»,
+and in Bla mkhyen 'Phrin las dge ba'i dbang po's notes in the same work
+(MW25168_1C126F): «ཉི་མའི་སྙིང་པོ་ལས་སྐར་མ་རྒྱལ་ལ་སྐྱེས་པའི་དབང་དུ་བྱས་ནས་ཆུ་སྟོད་ལ་མངལ་འཇུག་གི་སྐར་མར་གསུངས་པ་དང་ཡང་མཐུན།».
+For one born under Puṣya (རྒྱལ, rgyal) the *Sūryagarbha* (ཉི་མའི་སྙིང་པོ, nyi ma'i
+snying po) makes Pūrvāṣāḍhā (ཆུ་སྟོད, chu stod) and Anurādhā (ལྷ་མཚམས, lha
+mtshams) the mansions of conception, and Rohiṇī, Citrā and Śravaṇa the
+death mansions; the mansion "of entering the womb" is then the rising
+mansion (*'char skar*). Search snippets only, not read on a page image;
+the rule that gives other birth mansions their mansion of conception is
+the next thing to read there.

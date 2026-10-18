@@ -85,3 +85,11 @@ the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settl
 
 - Open question 145 ([open-questions.md](open-questions.md)), narrowed
   2026-10-18 (above).
+
+## On the prints and in BDRC's search, 2026-10-18 night (open question 145)
+
+- **«སྔ་ཆ་སྒྲིབ་ཚུལ».** The Zhol print carves «སྒྲིབ» (WBZ img. 1104, l. 1, read
+  at 8×): «…རྒྱས་པར་དབྱངས་འཆར་ནས་བཤད་མོད། །འདི་རུ་ཉེར་མཁོ་བྱ་བདེ་བ། །སྔ་ཆ་སྒྲིབ་ཚུལ་མདོ་ཙམ་ལ། །རྫ་དམར་ནང་དུ་རག་འགག་བཞག»,
+  "the way to screen [Viṣṭi's] first part, in brief", matching the
+  «སྒྲིབ་ཤིང», the screen, of the line before; the 1996 «གྲིབ» is a slip. The
+  vessels that follow are the screen.

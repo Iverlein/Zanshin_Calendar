@@ -891,3 +891,29 @@ are those whose lot is the end of the line.
   in the notes (vol. 2, p. 525) and in ch. 30's marriage by the moment
   (vol. 2, p. 152), and Yigdzin-1 on p. 359 (2026-10-12); none says what
   the word is.
+
+## On the prints and in BDRC's search, 2026-10-18 night (open question 24)
+
+- **The sixth point, «ཎི་ཤ».** Both blocks carve it as the heading of the
+  sixth point: the Zhol print (WBZ img. 469, l. 2, read at 5×) and the
+  Taikhang print (I5877 img. 486, l. 2, read at 3×) «༄ དྲུག་པ་ཎི་ཤའི་བརྩི་ལུགས་ནི།།»,
+  and WBZ's list of the fifteen (img. 458, l. 2) «ཁུག་པ་ཡང་ཁུག་ཎི་ཤ་དང་།»; whether the
+  first letter is ཎ or ཊ is not decided by eye on either print, and every
+  etext (1996, Gser thang, WBZ) has ཎ. BDRC's full-text search
+  («ཎི་ཤ་ལོག», «ཎི་ཤའི་བརྩི») finds the word in other reckoners: the
+  *Sgo bzhi mdzod lnga'i yang bcud*'s Chinese reckoning (MW3PD398)
+  «དྲུག་པ་ཎི་ཤ་ལོག་མ་ལོག ། སྐྱེས་པ་ཕོ་ལོ་རྒན་པ་དང་། །བུད་མེད་མོ་ལོ་གཞོན་བྱུང་ན། །ཎི་ཤ་མ་ལོག་བཟང་བ་ཡིན། །དེ་ལྡོག་ཎི་ཤ་ལོག་ཅེས་ངན།»,
+  a Gyalrong (རྒྱལ་རོང, rgyal rong) collection of folk reckonings (MW1KG16672,
+  2010) the same, a Men-Tsee-Khang (སྨན་རྩིས་ཁང, sman rtsis khang) conference
+  volume (MW8LS67656, 2017) «གསུམ་པ་ཎི་ཤ་རྩི་བ་ནི།», and Lha mo tshul khrims's
+  digest (MW1KG21818, 2003) and OS, which copy WB. The word itself is in
+  the *Ancient Zhang-zhung and Tibetan Dictionary* (གནའ་བོའི་ཞང་བོད་ཚིག་མཛོད, gna'
+  bo'i zhang bod tshig mdzod; Kan su'u mi rigs dpe skrun khang, Lanzhou 2010,
+  MW1KG12273, search snippet only): «ཎི་ཤ་ལོག་པ། ཕོ་གཞོན་ཅིང་མོ་རྒན་པའི་མོ་ཆུང་བ།», "*ṇi
+  sha log pa*: a wife where the man is younger and the woman older". So
+  «ཎི་ཤ» is a Zhang-zhung (ཞང་ཞུང, zhang zhung) loanword for the couple's
+  order of age, «ཎི་ཤ་ལོག» its reversal, neither a Sanskrit nor a Chinese
+  word nor a misprint; WB's rule (p. 359) is the not-reversed order. Ch.
+  30's «ཎི་ཤ་ལོག་གྱུར་མ་གྱུར» (vol. 2, p. 152, etext) is the same test. The
+  dictionary is a lexicon, quoted here for the word only; the snippet was
+  not read on a page image.

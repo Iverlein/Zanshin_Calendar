@@ -1305,6 +1305,14 @@ the good of both halves, not the bad.
   both prints have them; whether the second and fourth are KP's 4 or its 9
   is not settled by eye.
 
+## On the prints and in BDRC's search, 2026-10-18 night (open question 44)
+
+- **«ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག».** BDRC's search finds each once outside KP,
+  in an anthology of Bhutanese almanac texts (MW26041, Thimphu 1981,
+  etext): «…ཉི་མ་བྱ་ཡོས་ཀིང་ཟོར་ནག་དབུལ …པེ་ལིད་གནམ་ཞག་ནག …», two separate names
+  in a list of days, as KP prints them; which Chinese-almanac days they
+  are is not given there.
+
 ## Open (O10f, 2026-10-14)
 
 - Open questions 153–155 ([open-questions.md](open-questions.md)).
@@ -1315,4 +1323,3 @@ the good of both halves, not the bad.
 - The small numerals under box 16's three «ཟླ་ཚེས» (img. 33): too small at 5×.
 - Box 50 and 51 on KP2's photograph (img. 278, 279) syllable by syllable:
   too dim at the photograph's size; written out as the machine reading.
-

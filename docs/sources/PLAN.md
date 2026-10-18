@@ -235,7 +235,14 @@ to the 1996 vol. 2 at WBZ img. 908 = p. 196, 927–928 = pp. 211–212,
 1044–1046 = pp. 297–299, 1059–1064 = pp. 308–312, 1087 = p. 331, 1095 =
 p. 337, 1145 = p. 385 (2026-10-18). The WBZ etext keeps the folio's lines
 too, so `locate.py find` on it and a word's offset in its line place the
-crop. The Taikhang vol. 2 img. 474–477 hold pp. 334–337 (2026-10-18).
+crop. The Taikhang vol. 2 img. 474–477 hold pp. 334–337 (2026-10-18). More of WBZ, read
+2026-10-18 night: vol. 1 img. 458 = p. 351, 469 = p. 359, 511–512 = p. 390,
+531 = p. 403, 537 = p. 408; vol. 2 img. 1052–1053 = pp. 303–304, 1100 =
+p. 347, 1104 = p. 350, 1112 = p. 357. The Taikhang vol. 1 (I5877) img. 486
+holds p. 359. KP's colophon is BDRC's image labelled 121 (the file's 119).
+BDRC's full-text search answers a word's other uses in seconds and found
+glosses no dictionary has (open questions 24, 38, 63, 130); run it before
+the dictionaries.
 
 **OCR of woodblock prints:** BDRC's own pipeline,
 github.com/buda-base/tibetan-ocr-app (MIT), with its Woodblock model.
@@ -257,6 +264,13 @@ Tesseract's `bod` model is no use on these prints.
 ## Dead ends
 
 Searched and found wanting, so not to be repeated:
+
+- **BDRC's full-text search, 2026-10-18 night, no hit or no gloss:**
+  «སྐྲང་སྒོམ», «ལས་ལ་ཟློད» and «ཟླ་རིབ་ནད» nowhere; «སྔ་ཆ་གྲིབ», «དགྲ་ལས་མིང་འདོགས», «ཞག་གི་ལོ་སྟེང» and
+  «སྲི་གཞུང་སུམ་བརྒྱ» in WB's prints only; «གཏོང་ཤེས» too common to search (432
+  hits). The Russian *Йога звука*'s booksellers (Chitai-gorod 403,
+  Meloman 404) and a web search for Dr. Chenagtsang's *Tibetan Healing
+  Massage* contents found nothing.
 
 - **Rinchen Terdzö** full text (rtz.tsadra.org, owner's manual search,
   2026-09-29): none of the personal-mansion names, no Viṣṭi, none of the
