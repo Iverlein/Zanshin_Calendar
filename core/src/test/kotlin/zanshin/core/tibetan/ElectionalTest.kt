@@ -288,9 +288,11 @@ class ElectionalTest {
         // Work 9: the 19th where the box is carved 14; the dates bad for breaking in oxen only count for neither.
         assertEquals(setOf(1, 6, 16, 19, 25, 26), good("manuring_and_breaking_in_oxen").dates)
         assertTrue(bad("manuring_and_breaking_in_oxen").dates.isEmpty())
-        // Work 14: the 19th for the box's 20th, and three dates of one month each, for giving and for taking.
+        // Work 14: the 19th for the box's 20th, the good run 21 to 25 for the box's 21st and 25th, and three dates of one
+        // month each, for giving and for taking.
         for (w in listOf("receiving_wealth", "sending_out_wealth")) {
             assertTrue(19 in bad(w).dates && 20 !in bad(w).dates && 20 !in good(w).dates, w)
+            assertTrue(good(w).dates.containsAll((21..25).toSet()) && (21..25).none { it in bad(w).dates }, w)
             assertEquals(setOf(11 to 27, 12 to 25, 1 to 23), bad(w).monthDates, w)
         }
         // Work 32: the green four for medicine, where the box prints 9.
@@ -309,6 +311,13 @@ class ElectionalTest {
         assertTrue("receiving_wealth" in eleventh.avoidKeys && "sending_out_wealth" in eleventh.avoidKeys)
         assertTrue("receiving_wealth" !in Texts.electionalDate(10, 27).avoidKeys)
         assertEquals(Texts.ELECTIONAL_DATE.getValue(27), Texts.electionalDate(10, 27))
+        // The month's own date outweighs the run: the 23rd is good for goods but the 1st month's 23rd and the 12th month's
+        // 25th are bad, on one side only.
+        for ((md, w) in listOf((1 to 23) to "receiving_wealth", (12 to 25) to "sending_out_wealth")) {
+            val r = Texts.electionalDate(md.first, md.second)
+            assertTrue(w in r.avoidKeys && w !in r.goodKeys, "$md $w")
+            assertTrue(w in Texts.electionalDate(2, md.second).goodKeys, "$md $w")
+        }
         assertEquals(setOf(11 to 27, 12 to 25, 1 to 23), Texts.ELECTIONAL_MONTH_DATE.keys)
     }
 }

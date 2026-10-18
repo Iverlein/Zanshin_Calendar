@@ -90,16 +90,17 @@ object WhiteBerylWorks {
             bad = Factors(animals = setOf(SNAKE)),
         ),
         // 14. Giving and taking goods, p. 395: the 19th where the box has the 20th, and three dates of one month each,
-        // «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན…», which the box names as its three «ཟླ་ཚེས». The good run «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as the
-        // editors number it, the 21st and the 25th (open question 156).
+        // «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན…», which the box names as its three «ཟླ་ཚེས». The good «ཉེར་གཅིག་ཉེར་ལྔའི་བར» is the run
+        // 21 to 25, as work 13 writes it out («ཉེར་གཅིག་ནས་ནི་ཉེར་ལྔའི་བར»), where the box has the 21st and the 25th alone
+        // (open question 156; the owner, 2026-10-18).
         ActivityList(
             "receiving_wealth",
-            good = Factors(),
+            good = Factors(dates = setOf(22, 23, 24)),
             bad = Factors(dates = setOf(19), monthDates = MONTH_DATES),
         ),
         ActivityList(
             "sending_out_wealth",
-            good = Factors(),
+            good = Factors(dates = setOf(22, 23, 24)),
             bad = Factors(dates = setOf(19), monthDates = MONTH_DATES),
         ),
         // 15. Planting, p. 396: both khrums good; the khon trigram avoided.

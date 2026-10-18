@@ -923,11 +923,18 @@ object Texts {
         electional("date", Electional.good { d in it.dates }, Electional.bad { d in it.dates })
     }
 
-    /** The date's lists in the Hor months where some list names that month's date alone ([zanshin.core.tibetan.Factors.monthDates]). */
+    /**
+     * The date's lists in the Hor months where some list names that month's date alone ([zanshin.core.tibetan.Factors.monthDates]).
+     * The month's own date outweighs the plain date of the other side: work 14 names the 25th good and the 12th month's 25th bad.
+     */
     val ELECTIONAL_MONTH_DATE: Map<Pair<Int, Int>, Reading> =
         Electional.ACTIVITIES.flatMap { it.good.monthDates + it.bad.monthDates }.toSet().associateWith { md ->
             val (_, d) = md
-            electional("date", Electional.good { d in it.dates || md in it.monthDates }, Electional.bad { d in it.dates || md in it.monthDates })
+            electional(
+                "date",
+                Electional.ACTIVITIES.filter { md in it.good.monthDates || d in it.good.dates && md !in it.bad.monthDates }.map { it.wording },
+                Electional.ACTIVITIES.filter { md in it.bad.monthDates || d in it.bad.dates && md !in it.good.monthDates }.map { it.wording },
+            )
         }
 
     /** What the activity lists name lunar date [date] of Hor month [month] good or bad for. */
