@@ -317,6 +317,8 @@ fun TibetanPage(
         val forBirthDate = stringResource(R.string.tib_for_birth_date)
         val forLifeForce = info.ownElement?.let { stringResource(R.string.tib_for_life_force, gloss(it, "inText")) }.orEmpty()
         val birthMansionSubtitle = stringResource(R.string.tib_birth_mansion_subtitle, day.mansion.sanskrit)
+        // How the birth mansion is counted, under its gloss: the app's workings, which its reading may not state (SPEC §8.1, rule 8).
+        val birthMansionNote = stringResource(R.string.tib_birth_mansion_note)
         val yourWeekdayTitle = stringResource(R.string.tib_your_weekday_title)
         val yourWeekdayNote = stringResource(R.string.tib_your_weekday_note)
         val karanaSubtitle = stringResource(R.string.tib_karana_subtitle, day.karana.english)
@@ -454,6 +456,7 @@ fun TibetanPage(
                         subtitle = birthMansionSubtitle,
                         titleIsKanji = false,
                         details = listOf(tibetanLabel to Ewts.named(it.english, it.wylie)),
+                        note = birthMansionNote,
                     ),
                 )
             }
@@ -474,7 +477,7 @@ fun TibetanPage(
                         ) + f.holders.map { (h, bodies) ->
                             val m = HundredFeet.holder(f.birth, h)!!
                             stringResource(R.string.holder_label, Ewts.named(h.english, h.wylie), Ewts.named(m.sanskrit, m.wylie)) to
-                                bodies.joinToString(", ") { bodyName(it) }
+                                stringResource(R.string.holder_struck, bodies.joinToString(", ") { bodyName(it) }, h.struck)
                         },
                     ),
                 )
@@ -787,7 +790,7 @@ fun TibetanPage(
                     stringResource(if (sp.great) R.string.tib_great_spear_title else R.string.tib_spear_title),
                     sp.bodies.joinToString(", ") { bodyName(it) },
                     Tone.BAD,
-                    if (sp.great) Texts.GREAT_SPEAR else Texts.SPEAR,
+                    Texts.spear(sp),
                     titleIsKanji = false,
                     details = listOf(
                         stringResource(R.string.detail_face_on) to sp.bodies.joinToString(", ") { bodyName(it) },
@@ -1076,6 +1079,7 @@ internal fun pebbleAnnotation(force: Force, birth: Sign, signs: DaySigns, day: T
         titleIsKanji = false,
         spokenTitle = "$aspect, $spoken",
         details = details,
+        note = labels.string(R.string.pebble_note),
     )
 }
 

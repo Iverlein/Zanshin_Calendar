@@ -100,6 +100,7 @@
     <string name="tib_for_birth_date">for your birth date</string>
     <string name="tib_for_life_force">for the life force of your birth year, %1$s</string>
     <string name="tib_birth_mansion_subtitle">%1$s, the mansion of your birth date</string>
+    <string name="tib_birth_mansion_note">Counted from the almanac\'s mansion of your birth date; the hour of birth would allow a finer reckoning, which the app does not make.</string>
     <string name="tib_your_weekday_title">Your weekday</string>
     <string name="tib_your_weekday_note">What this weekday is for you, by the animal of your birth year, by its life force and by your birth date. Each has its own reading; no text found weighs them against each other or against the day.</string>
     <!-- the yoga's English name: "yoga: support" -->
@@ -160,6 +161,7 @@
     <string name="hours_note_period">The ring shows the combination period, the sign rising in each hour, coloured lucky where its reading says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="hours_note">Inner ring: the combination period, the sign rising in each hour, coloured lucky where its reading says to accomplish it; dots mark Jupiter\'s nectar periods, the arc inside the rings Viṣṭi\'s span. Outer rings: vitality and body, coloured by their pebbles. Clock time at your place: the hours run from the hare hour at 05:00 to the tiger hour ending at 05:00 the next morning.</string>
     <string name="pebble_subtitle_hour">%1$s: the hour\'s %2$s to your %3$s</string>
+    <string name="pebble_note">Your vitality and body, by your birth year, are set against the lunar date\'s and, in the hours, against each two-hour period\'s, as the divination of health sets them. The hours go by the clock at your place, the first from 05:00. The full divination adds pebbles the app does not count.</string>
     <string name="detail_hour">Hour</string>
     <string name="detail_hour_value">%1$s · %2$s · %3$s</string>
     <string name="detail_counted_hour">The hour\'s element follows from the lunar date\'s (%1$s) by the hour\'s animal: hare, monkey and ox hours take its son; dragon, bird and tiger its friend; snake and dog its enemy; horse and pig its mother; sheep and mouse the same element.</string>
@@ -806,6 +808,7 @@
     <string name="detail_birth_mansion">Your birth mansion</string>
     <string name="detail_fangs_on_it">Fangs on it</string>
     <string name="holder_label">%1$s · %2$s</string>
+    <string name="holder_struck">%1$s: %2$s</string>
     <string name="tib_spear_title">Spear (མདུང་སྦྱོར, mdung sbyor)</string>
     <string name="tib_great_spear_title">Great spear (མདུང་ཆེན, mdung chen)</string>
     <string name="detail_face_on">Face-on (གདོང་ཚུགས, gdong tshugs)</string>
