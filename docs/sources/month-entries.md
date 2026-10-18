@@ -161,6 +161,20 @@ sun quick" (not settled as a time of day), may be the print's. The remedy is "to
 Chinese reckoning's, on its date, with the date, time and work in the
 month balloon when it falls in the month.
 
+**On the Zhol print, 2026-10-18 (open question 150).** WBZ img. 927
+(= vol. 2, p. 212), ll. 5–6, read by eye at 3×:
+
+> །ཡོས་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་སྨྱུར་ཤིད་བྱས་འཕུང་། … །བྱ་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་སྨྱུར་དགེ་ལས་ངན།
+
+Both lines carve the same tall stack after «ཉི»: «ཉི་སྨྱུར», WB's name of the
+late afternoon, the hour between «ཕྱེད་ཡོལ» and «ཉི་ནུབ», the monkey's
+([combination-period.md](combination-period.md); the la's places by the
+hour, [lunar-dates.md](lunar-dates.md), p. 304; Rāhu's course of the day,
+[rahu.md](rahu.md)). So the hare's and bird's black month falls on the
+18th in the late afternoon, not at sunrise: the table above and the
+built `KiKang(RABBIT/BIRD, …, DayTime.SUNRISE)` want «ཉི་སྨྱུར» (a build;
+the month balloon's wording waits for the owner).
+
 ## The seasonal signs
 
 p. 176's list, read on the scan: «རི་ཥི་ཞག་བདུན་ཆུ་ཀླུང་རྣམས། །ཡན་ལག་བརྒྱད་ལྡན་འགྱུར་བ་དང་། །དུར་ཕག་ཤིང་ལ་འཛེགས་པའི་འབྲས། །ཞག་བདུན་ཆུ་རྣམས་དུག་འགྱུར་ཚུལ། །དུ་བ་མཇུག་རིང་འཆར་བ་ན། །འདི་ལ་འཆར་ཞེས་ཚེས་ལ་སོགས།»
@@ -464,7 +478,7 @@ and what the 135 adds, stay open.
 
 #### Open
 
-- Open question 150 ([open-questions.md](open-questions.md)): Kikang's «ཉི་ཤར» or «ཉི་མྱུར».
+- Open question 150 ([open-questions.md](open-questions.md)): Kikang's «ཉི་ཤར» or «ཉི་མྱུར», answered 2026-10-18: «ཉི་སྨྱུར», the late afternoon (above, under the table).
 - Open question 116 ([open-questions.md](open-questions.md)).
 - Open question 117 ([open-questions.md](open-questions.md)).
 - Open question 118 ([open-questions.md](open-questions.md)).

@@ -1087,7 +1087,7 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
 
 - Open question 43 ([open-questions.md](open-questions.md)): the numerals under box 16's three «ཟླ་ཚེས».
 - Open question 44: «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག» in box 10.
-- Open question 45: «དབུལ་ལག» in boxes 20, 25, 59 and 62.
+- Open question 45: «དབུལ་ལག» in boxes 20, 25, 59 and 62. Answered 2026-10-18: one earth lord (below, *Three of the open words*).
 - Not done: the second part of KP (img. 87–118, the earth lords of the year,
   month, day and hour as charts, and the remedies) is not read; it is the
   place that may say what each lord of these runs does.
@@ -1280,6 +1280,30 @@ the good of both halves, not the bad.
 - The word inside box 5's bracket (KP img. 25, KP2 img. 244): not legible in
   either print at 6×.
 - Box 60's last line and box 59's «སྐྱེད» in KP2 (img. 285): worn, not read.
+
+## Three of the open words, 2026-10-18 (open questions 45, 155, 157)
+
+- **«དབུལ་ལག» is one earth lord.** WB gives it a reading and a woodcut in
+  ch. 33 (vol. 2, p. 362, img. 370, read on the scan at 2.5×): «༈ དབུལ་ལག་མཁར་ལས་འགོ་འཛུགས་དང་། །བག་མ་བུ་འབོགས་སྐྱེད་པུ་འཛུགས། །བཤད་གསར་རྟེན་བཞེངས་རབ་ཏུ་གནས། །ལྟད་སྟོན་ཐོག་འབུབས་དར་འཕྱར་བ།»
+  (then, from the etext, «ནོར་རྫས་དབུགས་ཆེན་དབུགས་མེད་རྣམས། །ཕྱིར་གཏོང་རོ་འདོན་ཞིང་འདེབས་དང་། །བང་མཛོད་ཁ་དབྱེ་ལ་སོགས་པ། །གསོན་གཤིན་ལས་རྣམས་ཕལ་ཆེར་འཛེམ།»):
+  beginning a fort, marriage, giving out a son, setting up a hearth, new
+  teaching, making images, consecration, shows, roofing, raising flags,
+  sending wealth out, carrying out a corpse, sowing and opening a
+  treasury are mostly avoided. Ch. 34 names it beside the *phung zor* and
+  the *hal khyi* (a dozen places in pp. 388–426, etext), and
+  the model almanac writes it with an hour («དམག་དབུལ་ཉི་ཕྱེད», vol. 1, p. 156,
+  etext). The day it falls is not found: «དབུལ» is not in ch. 31's courses
+  (etext searched).
+- **Box 37's «ཡུག་མ» is the widow.** KP's «བྲཉེ་ཡུག་མ་སྐྲ་ཁྲུས་བཟང» digests WB's work
+  34, «བྲ་ཉེ(༡)ཡུགས་སྐྲ་བཀྲུ་བ་བཟང་།» (vol. 2, p. 404, read on the scan in
+  [hair-dates.md](hair-dates.md)): Bharaṇī, bad for bathing and the hair,
+  is good for washing the hair at the end of widowhood. *Yug za ma*, *yugs
+  sa mo* is a widow (Dan Martin), *yugs sa* the mourning for a dead spouse
+  (Jim Valby; Ives Waldo).
+- **Box 21's dates are the blocks'.** KP2 img. 255 carves the good half's
+  dates after «ཚེས་༡» in the same five cursive shapes as KP img. 36, so
+  both prints have them; whether the second and fourth are KP's 4 or its 9
+  is not settled by eye.
 
 ## Open (O10f, 2026-10-14)
 

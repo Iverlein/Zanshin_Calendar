@@ -342,6 +342,18 @@ accomplishment adds dharma practice for *bsnyen sgrub*);
 it counts among the special days. In 2026 it adds a special day to 92 days,
 on some of them the only one.
 
+## On the Zhol and Taikhang prints, 2026-10-18 (open questions 146, 147)
+
+- Dus dbyig's verse (p. 331): WBZ img. 1087, l. 4, read by eye at 5×,
+  «འཇིགས་པའི་དགྲ་འོང་གསོད་པ་འབྱུང་། །ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ།།», with «མེ», «ཆུ» and «ཆེ» as
+  both readers have them.
+- The *Rdo rje gtsug lag*'s day of incompatibility (p. 337): the Taikhang
+  print (I5878 img. 477, l. 2, read at 3×; img. 474–477 hold pp. 334–337)
+  carves «ལྷ་མཚམས་སྣུབས། །ལྷག་པར་སྣུབས་དང་ཕུར་བུ་ལ། །གྲོ་བཞིན་མོན་གྲུ་ནམ་གྲུའོ།» with small
+  numerals over the mansions, «༡༨» over both «སྣུབས», «༢༡» over «གྲོ», «༢༣» over
+  «མོན», «༢༦» over «ནམ», and none over «ལྷག་པར»; WBZ img. 1095, l. 2 the same.
+  The 1996 (༧) after Mercury is the editors' own, a slip for ༤.
+
 ## Open
 
-- Open questions 146–147 ([open-questions.md](open-questions.md)).
+- Open questions 146–147 ([open-questions.md](open-questions.md)), answered 2026-10-18 (above).

@@ -296,6 +296,40 @@ reads it as quoted; the passage closes the twelve stages of rise and decline (*d
 
 The example is the only worked one in the chapter; the pebble reckoning of the fifteen points has none. (The second way is the one place in WB's Chinese reckonings, outside Mo, where a pebble is thrown; reckonings.md's summary that no reckoning is decided by chance holds for the fifteen points and the classes, not for this alternative.)
 
+### Words of ch. 25 on the Zhol print and in the dictionaries, 2026-10-18 (open questions 50, 51, 53, 151)
+
+- **«གཉན», p. 438.** WBZ img. 580, l. 6, read by eye at 3×: «ཕོ་ནད་འཁྲུ་སྐྱུག་སྐྲངས་ལོ་འོང་། །གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ།།»,
+  «གཉན» clear. The *gnyan* sickness (གཉན་ནད, gnyan nad) is a very virulent one
+  of poisonous worms outside and blood worms within, with about eighteen
+  kinds, brain pain (*klad gzer*) among them (Tshig mdzod chen mo), a
+  contagion the *gnyan* bring (Dag yig gsar bsgrigs): in the wood time the
+  *gnyan* sickness, wind and phlegm prevail. The second phrase is «ཡང་ན་[?]་རྒྱུས་དོན་སྣོད་མེ།»
+  in WBZ (img. 581, l. 1), its first stack a ཆ or ཚ with a mark not made
+  out; «ཆུ་རྒྱུས», the sinews (Tshig mdzod chen mo), beside the organs' fire,
+  would fit, not settled.
+- **«བི་དབྷ», p. 417.** The 1996 gloss reads «(བི་དབྷ་ཁོ་ན་འདོད་པའི་བརྗིད་པའི་ཡོན་ཏན།)» (etext).
+  WB labels its opening verses with the qualities of Daṇḍin's styles
+  («ཤིས་བརྗོད་བདུན་པ་དངོས་པོ་བི་དབྷ་འདོད་པའི་སྦྱར་བའི་ཡོན་ཏན», vol. 1, p. 4; «དངོས་པོ་བི་དབྷའི་རྒྱ་ཆེ་བའི་ཡོན་ཏན»,
+  p. 56, etext), and Negi gives «བཻ་དརྦྷ», *vaidarbha*, a style, whose ten
+  qualities, *sbyar ba*, *brjid* and the rest, are "the life of the
+  Vaidarbha path". So «བི་དབྷ» is Vidarbha, and the gloss says the verse shows
+  grandeur (*ojas*) as the Vaidarbha alone holds it; the scan's «བི་དྷ» has lost
+  the བ.
+- **Kong tse 'phrul rgyal (ཀོང་ཙེ་འཕྲུལ་རྒྱལ, kong tse 'phrul rgyal), p. 417,** is
+  Confucius as the *nag rtsis* knows him: the Dung dkar tshig mdzod chen mo
+  («kong tse», after Thu'u bkwan's *Grub mtha' shel gyi me long* and the
+  *Mdo smad chos 'byung*) takes the name for Kongzi, 551–479 BCE, the
+  Chinese sound not rendered exactly. WB names him as the one to whom the
+  elements' reckoning was taught (vol. 1, p. 243, «མ་ལུས་ཀོང་ཙེ་འཕྲུལ་རྒྱལ་ལ། །གསུངས»,
+  etext; vol. 2, p. 188).
+- **«ཤིང་བྱི་ལོ་མ་ཡིན», p. 442,** is "is a woman of a wood-mouse year": WB
+  writes «ལོ་མ» for a woman of a year as «ལོ་པ» for a man («སྟག་ལོ་མ་ལ», vol. 1;
+  «སྤྲེལ་ལོ་མ་ལ་གཉེན་ཁ་ལབས», vol. 2; «བྱ་སྦྲེལ་ལོ་པ་ཡིས», the war lines, etext).
+- **«སྒྲོག», p. 234,** is one of WB's own names of Śatabhiṣaj (*mon gru*),
+  vol. 1, p. 19 (img. 29), read on the scan: «ནམ་མཐོང་གོང་དང་ཐོབ་ལྡན་མ། །དྷ་ནི་ཥྛ་རྣམས་མོན་དྲེའི་མིང་། །ཆུ་ལྷ་མོ་སྒྲོག་ནམ་མཐོང་འོག །ཤ་ཏ་བྷི་ཥ་མོན་གྲུ་ཡིན།»;
+  «མོན་དྲེ» is WB's Dhaniṣṭhā. The editors number «སྒྲོག» 23 beside «མོན་གྲུ» 23
+  again on vol. 2, p. 337 (etext).
+
 ### Open
 
 **The count word, read 2026-10-18 (question 47).** The dictionaries of
@@ -845,7 +879,7 @@ Open questions 77–83 ([open-questions.md](open-questions.md)), in order: the
 three Phugpa places; KL's syllables; KL's six moxa dates; the two la; the
 seven-red's two readings; the turtle's skull; words not settled. «ལྒང་བ» is
 question 60, narrowed; 59 and 61 are answered here, 58 in part.
-Open question 151: p. 234's «མོན་དྲེ» and «སྒྲོག».
+Open question 151: p. 234's «མོན་དྲེ» and «སྒྲོག». Answered 2026-10-18: «སྒྲོག» is WB's own name of Śatabhiṣaj (above, *Words of ch. 25*).
 
 ### Searched and not found
 

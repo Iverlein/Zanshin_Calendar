@@ -840,11 +840,25 @@ with it.
   children). The burial things of a small child block the *chung sri*'s
   mouth so that the next child comes back.
 
+**«སྲི་རྟ་རྐང་གཉིས» is two small stars, 2026-10-18 (open question 114).**
+Ch. 21's turtle gives each of the twenty-eight mansions its small stars
+(སྐར་ཆུང, skar chung), vol. 1, p. 257 (img. 267), read on the scan at 6×:
+
+> རུས་སྦལ་སྒལ་ཚིགས་ཉེར་བརྒྱད་ལས། །རྒྱུ་སྐར་ཉི་ཤུ་རྩ་བརྒྱད་སྲིད། […] །ཤར་སྐར་རྣམ་དྲུག་ཤིང་གི་ཁམས། །དེ་ཡི་སྐར་ཆུང་ཟུར་ཕུད་ཅན(༢)། །ལྷ་མོ་གཡང་སྐྱོང(༣) ཟེའུ(༤) སྙིང་གར(༥)། །འོད་ཆུང(༦) རྒྱལ་མོ་གྲུལ་མོའོ(༧)། […] །ས་རི(༡༤) ལྷོ་སྐར་མེ་ཡི་ཁམས། །སྲི་རྟ(༩) རྐང་གཉིས་ཐེའུ་རྐང(༡༠)། །མཚོ་གཟའ(༡༡) ལྷ་འབུམ་ལུ་གུ་སྣ(༡༢)།
+
+(the lines between from the etext). *Sri rta* is Maghā's small star,
+*rkang gnyis* and *the'u rkang* Pūrvaphalgunī's. Ch. 33's verse under
+Maghā (vol. 2, p. 319, img. 327, read on the scan) closes «༧ སྐར་ཆུང་སྲི་རྟ་རྐང་གཉིས་ཏེ། །བྱ་བ་ཀུན་ལ་ངན་པས་འཛེམ། །སྒྲིབ་ན་སྦྲུལ་ཐོད་རང་སྟེང་བསྟན།།»,
+"its small stars Sri rta and Rkang gnyis: bad for every work; to screen
+it, set a snake's skull over oneself", and ch. 34's line of p. 425 is a
+list of small stars (*gru(l) po*, Rgyal's; *sri rta*; *rkang gnyis*; *tsho
+za*; *bum ldan*; *skar drug*). The word is not the sri.
+
 ### Open
 
 - Open question 112 ([open-questions.md](open-questions.md)).
 - Open question 113 ([open-questions.md](open-questions.md)).
-- Open question 114 ([open-questions.md](open-questions.md)).
+- Open question 114 ([open-questions.md](open-questions.md)), answered 2026-10-18: two small stars (above).
 - Open question 115 ([open-questions.md](open-questions.md)).
 - Doubt: every line in this section is the etext's and unchecked on the
   scan; the gaps […] are the etext's.

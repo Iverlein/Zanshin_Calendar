@@ -540,6 +540,10 @@ the text, not about the app.
 39. **WB vol. 2, pp. 195–196 (img. 203–204): «ལས་ལ་ཟློད་པ».** What does
     ཟློད་པ mean in the palace gods' heading (read on the scan 2026-10-11,
     RD3, [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-18 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+    the Zhol print carves «ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི» too (WBZ img. 908, l. 4, read at
+    4×); the 1996 etext's «རྒོད» is the OCR's. «ཟློད», «ཟློད་པ» and «བཟློད་པ» are in
+    none of Steinert's 64 dictionaries.*
 
 40. **WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
     mean the two-black in the centre of the year's sme ba wheel, as the
@@ -568,9 +572,16 @@ the text, not about the app.
     name each, and which Chinese-almanac days are they (2026-10-12, RD5,
     [kp-activities.md](kp-activities.md))?
 
-45. **KP boxes 20, 25, 59, 62: «དབུལ་ལག».** Does it name one day (WB's
+45. **Answered 2026-10-18. KP boxes 20, 25, 59, 62: «དབུལ་ལག».** Does it name one day (WB's
     «དབུལ་ལག་འཆར»), as the boxes print it, and which (2026-10-12, RD5,
     [kp-activities.md](kp-activities.md))?
+    *Answered 2026-10-18 ([kp-activities.md](kp-activities.md)): one name,
+    an earth lord of its own. WB gives it a reading and a woodcut in ch. 33
+    (vol. 2, p. 362, img. 370, read on the scan): «༈ དབུལ་ལག་མཁར་ལས་འགོ་འཛུགས་དང་། །བག་མ་བུ་འབོགས་སྐྱེད་པུ་འཛུགས། །བཤད་གསར་རྟེན་བཞེངས་རབ་ཏུ་གནས། །ལྟད་སྟོན་ཐོག་འབུབས་དར་འཕྱར་བ།»,
+    and ch. 34 names it beside the *phung zor* and the *hal khyi* in a dozen
+    works (pp. 388–426, etext); the model almanac writes it with an hour
+    («དམག་དབུལ་ཉི་ཕྱེད», vol. 1, p. 156, etext). Its course, the day it falls,
+    is not found: ch. 31 has no «དབུལ» (etext searched).*
 
 46. **WB vol. 1, pp. 420–421: the animals and relations of the sixteen pebbles.** p. 420–421. For each class of illness (iron, water, wood, fire, earth) the sixteen pebbles name an animal to count from (the monkey and bird for iron, the rat and pig for water, the tiger and hare for wood, the horse and snake for fire, the dragon, ox, sheep and dog for earth) and a relation (enemy, mother, friend, "agreeing" with power or with self, son). Is the animal always one of the class element's two (or four) animals, with the relation fixing which element of the sick person is compared, and is the count (down «ཐུར», up «བཀེན») the sick person's age from that animal? The water class names no friend's start (pebbles 4 and 5 are not both given): a misprint? (2026-10-12, RD12, [health.md](health.md))
 
@@ -592,8 +603,31 @@ the text, not about the app.
 49. **WB vol. 1, p. 438: the mansions' days and the six deaths.** p. 438. The mansions' days (Aśvinī the third day … Revatī the third): are the numbers days to recovery, and are Pūrvaphalgunī, Uttaraphalgunī, Hasta, Citrā, Svātī and Pūrvabhādrapadā really six deaths, against the verses of vol. 2, pp. 313–328 (mansion-verses.md), which give an illness's cause and ransom for each mansion but no number? Does the line «ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» (one month and six days) belong to Anurādhā alone? (2026-10-12, RD12, [health.md](health.md))
 
 50. **WB vol. 1, p. 438: «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ».** p. 438. The word before «རླུང་བད་ཀན» in «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ» (wood time): a spirit class, or a misreading of «དྲན»? And «ཆ་རྒྱས་དོན་སྣོད་མེ» (p. 438, line 11) is not understood. (2026-10-12, RD12, [health.md](health.md))
+    *Narrowed 2026-10-18 ([health.md](health.md)): «གཉན», the *gnyan*
+    disease. The Zhol print carves «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ།།» (WBZ img. 580, l. 6,
+    read at 3×), not «དྲན»; *gnyan nad* is a very virulent sickness of worms,
+    with eighteen kinds, brain pain among them (Tshig mdzod chen mo), a
+    contagion the *gnyan* bring (Dag yig gsar bsgrigs). The second phrase is
+    «ཡང་ན་[?]་རྒྱུས་དོན་སྣོད་མེ།» in WBZ (img. 581, l. 1), its first stack a ཆ or ཚ
+    with a mark not made out; «ཆུ་རྒྱུས», the sinews, with the organs' fire,
+    would fit, not settled.*
 
-51. **WB vol. 1, p. 417: the Sanskrit gloss and Kong tse 'phrul rgyal.** p. 417. The bracketed Sanskrit gloss in the second line is read «བི་དྷ་ཁོ་ན» on the scan and «བི་དབྷ་ཁོ་ན» in the etext; which is meant, and who is Kong tse 'phrul rgyal named in the salutation? (2026-10-12, RD12, [health.md](health.md))
+51. **Answered 2026-10-18. WB vol. 1, p. 417: the Sanskrit gloss and Kong tse 'phrul rgyal.** p. 417. The bracketed Sanskrit gloss in the second line is read «བི་དྷ་ཁོ་ན» on the scan and «བི་དབྷ་ཁོ་ན» in the etext; which is meant, and who is Kong tse 'phrul rgyal named in the salutation? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-18 ([health.md](health.md)): «བི་དབྷ», Vidarbha, and
+    Confucius. The gloss names a quality of Daṇḍin's Vaidarbha style: the
+    1996 etext reads «(བི་དབྷ་ཁོ་ན་འདོད་པའི་བརྗིད་པའི་ཡོན་ཏན།)», "the quality of
+    grandeur (*ojas*), held by the Vaidarbha alone", and WB's other verse
+    labels are the same kind («དངོས་པོ་བི་དབྷ་འདོད་པའི་སྦྱར་བའི་ཡོན་ཏན», vol. 1, p. 4;
+    «དངོས་པོ་བི་དབྷའི་རྒྱ་ཆེ་བའི་ཡོན་ཏན», p. 56, etext). Negi gives «བཻ་དརྦྷ»,
+    *vaidarbha*, a kind of style, whose ten qualities, *sbyar ba* (*śleṣa*),
+    *brjid* (*ojas*) and the rest, are "the life of the Vaidarbha path". So
+    the scan's «བི་དྷ» has lost the བ. Kong tse 'phrul rgyal (ཀོང་ཙེ་འཕྲུལ་རྒྱལ) is
+    Confucius as the *nag rtsis* knows him: the Dung dkar tshig mdzod chen mo
+    («kong tse», after Thu'u bkwan's *Grub mtha' shel gyi me long* and the
+    *Mdo smad chos 'byung*) takes the name for Kongzi (551–479 BCE), the
+    Chinese sound not rendered exactly; WB names him as the one to whom the
+    elements' reckoning was taught (vol. 1, p. 243, «མ་ལུས་ཀོང་ཙེ་འཕྲུལ་རྒྱལ་ལ། །གསུངས»,
+    etext).*
 
 52. **Answered 2026-10-18. WB vol. 1, pp. 428–429: lost in vol. 1's scan.** pp. 428–429 (lost in vol. 1's scan and etext): does another print of the 1996 edition, or the Taikhang reproduction (MW30116), carry them as pages of the same book, so that the 1996 text is complete, and is the repetition of pp. 430–431 in BDRC's scan a scanning error or a fault of the book? (2026-10-12, RD12, [health.md](health.md))
     *Answered 2026-10-18 ([health.md](health.md)): the Gser thang reprint of
@@ -602,7 +636,12 @@ the text, not about the app.
     and its etext are BDRC's scanning, not the book's. The two pages there
     are not yet read.*
 
-53. **WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
+53. **Answered 2026-10-18. WB vol. 1, p. 442: «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན».** p. 442. The example of the twelve stages: is «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན» "is a wood-rat woman" or "is not", and why does the count from the power-wood monkey end at the monkey stage of decline? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-18 for the words ([health.md](health.md)): "is a
+    woman of a wood-mouse year". «ལོ་མ» is a woman of a year, as «ལོ་པ» is a
+    man: WB writes «སྟག་ལོ་མ་ལ» (vol. 1) and «སྤྲེལ་ལོ་མ་ལ་གཉེན་ཁ་ལབས» (vol. 2),
+    «བྱ་སྦྲེལ་ལོ་པ་ཡིས» in the war lines (etext); «ཡིན» is the copula. Why the
+    count ends at the monkey's stage of decline is not settled.*
 
 54. **Answered 2026-10-18. WB vol. 1, pp. 354, 365–368: «ལྡིང་ནག».** The twenty brides of
     misfortune open with three «ལྡིང་ནག» brides, and p. 354 has «ལྡིང་ནག་བུ་
@@ -869,6 +908,15 @@ the text, not about the app.
     etext ཇིབ) and «[འདི]་ལོང» (vol. 1, p. 403); on the sheep day, «དབྱུག་དཔྱད»
     (vol. 2, p. 357). What are they (2026-10-12, RD10,
     [health.md](health.md))?
+    *Narrowed 2026-10-18 ([lunar-dates.md](lunar-dates.md)): two of the
+    five. Date 2's is «སྣོད»: WBZ img. 1044, l. 5 carves «ཕོ་མཆིན་མི་བདེ་སྣོད་གཞི་དགང་།»,
+    and ch. 34's restatement of the dates' illnesses (vol. 2, p. 416, img.
+    424) has «སྣོད་བཞི་དགངས», the four hollow organs (stomach, intestines, the
+    *long ga* and the gall bladder, Tshig gter rgya mtsho) swelling. Date 3's
+    is «བྱ་རྨྱང་བྱེད», as ch. 34 prints it (img. 424, read on the scan):
+    stretching and yawning, and as a sickness the wind's needless stretching
+    of the limbs (Tshig mdzod chen mo); WBZ's stack there (img. 1045, l. 1) is
+    not clear. «ཟླ་[རིབ]», «[འདི]་ལོང» and «དབྱུག་དཔྱད» were not read.*
 
 84. **KL's monthly la course and Deumar's Tsuglag Rigje system.** *Answered in part, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): yes, on the scan, all thirty dates (DM pp. 590–593); his note (p. 594) names the system and nothing behind it. Open: what the Tsuglag Rigje system is, and from which text Deumar took it.* Is KL's
     course the Tsuglag Rigje (གཙུག་ལག་རིག་བྱེད, gtsug lag rig byed) column of
@@ -927,9 +975,19 @@ the text, not about the app.
     as the notes take it, the one reckoned's trigram, and what does «མ» then
     mean? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
 
-92. **The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
+92. **Answered 2026-10-18. The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
     །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed
     sign reaches? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+    *Answered 2026-10-18 ([year-of-life.md](year-of-life.md)): the white
+    year is the four-slayer (བཞི་གཤེད, bzhi gshed). WB tells how the seven
+    corners and the white years arose (vol. 1, p. 235, img. 245, read on the
+    scan): «བདུན་ཟུར་ལོ་དཀར་བྱུང་བའི་ཚུལ། །རྟ་ཡིས་བང་བཏང་བྱི་རུ་བཅག …
+    །ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ་དེ། །དེ་ནི་ཕྱི་དཀར་ཚུལ་དུ་བསྡུས། །མར་གྱི་བཞི་གཤེད་བྱ་དེ་ནི། །ནང་དཀར་ཚུལ་དུ་བསྡུས་པ་ཡིན།»:
+    the four-slayer upward, the hare from the mouse, is the outer white, the
+    one downward, the bird, the inner white. So the progressed sign on the
+    white year is the progressed sign reaching the fourth year up or down from
+    one's own; WB sets «ལོ་དཀར» beside «བདུན་ཟུར» in the same way elsewhere
+    (the bride's departure, [marriage.md](marriage.md); vol. 2, p. 99, etext).*
 
 93. **«རྐྱ་མདའ», «ར་འབད», «རུ་ཤན་ཁ་སྤྲོད».** WB vol. 1, p. 390: what are
     «རྐྱ་མདའ» (so on the scan; the etext «རྒྱ་མདའ») to be guarded at the
@@ -990,6 +1048,12 @@ the text, not about the app.
     reckoning, «ལག་རྩིས་ལུ་བཞིན་གྱི་མོ»: who or what is «ལུ» (Lü?), and
     which text does the note mean by «གཞུང་གིས་གསལ»? (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
+     *Narrowed 2026-10-18 ([reckonings.md](reckonings.md)): «ལུ» is no
+     person or text in the dictionaries (only a knot, or a verb of coughing);
+     the note's method counts the year first thought of from the ox, then the
+     months, the dates and the hours, round the twelve places of the hand
+     (vol. 2, pp. 538–539, etext). Who «ལུ» is and which text «གཞུང» means are not
+     found.*
 
 102. **Answered 2026-10-18. «བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
     «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
@@ -1080,10 +1144,19 @@ the text, not about the app.
      «གཅིག་བྱུང་ཡུལ་བཙན་གཉིས་བྱུང་ན། །རྗེ་བདུད་རྗེ་བཙན་གསུམ་བྱུང་ན། །དཀོར་བདག་དམ་སྲི་བཞི་བྱུང་ན། །མ་མོ…»:
      is the *dam sri* the reading of three? (2026-10-12, O6, [sri.md](sri.md))
 
-114. **«སྲི་རྟ་རྐང་གཉིས».** In WB vol. 2, pp. 319 and 425 (ch. 33 and 34),
+114. **Answered 2026-10-18. «སྲི་རྟ་རྐང་གཉིས».** In WB vol. 2, pp. 319 and 425 (ch. 33 and 34),
      after the mansions «སྐར་ཆུང» and «གྲུལ་པོ་(༧)» (for «རྒྱལ»?) the etext
      reads «སྲི་རྟ་རྐང་གཉིས་ཏེ»: is this the sri at all, or a garbled name, and
      what does it mean? (2026-10-12, O6, [sri.md](sri.md))
+     *Answered 2026-10-18 ([sri.md](sri.md)): not the sri, two small
+     stars. Ch. 21 gives each mansion its small stars (སྐར་ཆུང, skar chung;
+     vol. 1, p. 257, img. 267, read on the scan at 6×): «སྲི་རྟ(༩) རྐང་གཉིས་ཐེའུ་རྐང(༡༠)། །མཚོ་གཟའ(༡༡) ལྷ་འབུམ་ལུ་གུ་སྣ(༡༢)།»,
+     *sri rta* Maghā's, *rkang gnyis* and *the'u rkang* Pūrvaphalgunī's. Ch.
+     33's line under Maghā (p. 319, img. 327, read on the scan) is «༧
+     སྐར་ཆུང་སྲི་རྟ་རྐང་གཉིས་ཏེ། །བྱ་བ་ཀུན་ལ་ངན་པས་འཛེམ།», "its small stars Sri rta and
+     Rkang gnyis: bad for every work", and ch. 34's line of p. 425 is a list of
+     small stars («གྲུལ་པོ(༧)», Rgyal's «རྒྱལ་མོ་གྲུལ་མོ», then *sri rta*, *rkang
+     gnyis*, *tsho za*, *bum ldan*, *skar drug*).*
 
 115. **The six kinds and the 360 sri texts.** In WB vol. 2, pp. 83–84, are
      the six kinds set apart («ཤང་དཀར་གྲགས་པ་གྲགས་རྒྱལ་དང༌། །བྱིན་ཤ་ཅུང་ཟན་མོན་ལུག»)
@@ -1270,12 +1343,22 @@ the text, not about the app.
      whole act, so «མགྲོན་འགྲོ», going as a guest, stands on its own. The
      Taikhang print (img. 445, Yigdzin-1) reads «དུར་སྦ» too.*
 
-135. **The war lines' «བསོ་གདབ».** In the war lines of every weekday but
+135. **Answered 2026-10-18. The war lines' «བསོ་གདབ».** In the war lines of every weekday but
      Thursday (pp. 308–312, img. 316–320), what is «བསོ་གདབ» (Sunday
      «བསོས་གདབ», Monday «བསོ་བཏབ»), which the army makes when it attacks?
      WBZ prints «སྭ་གདབ», «སྭོ་གདབ», «སྤོས་གདབ» and «སྦ་བཏབ» in the same
      places (Yigdzin-1 on WBZ, not read by eye). (2026-10-13, O7,
      [weekdays.md](weekdays.md), "O7: what the reading by eye changes")
+     *Answered 2026-10-18 as far as the dictionaries go
+     ([weekdays.md](weekdays.md)): raising the war cry. The Zhol print, read
+     by eye, carves «སྭ་གདབ» on Tuesday (WBZ img. 1061, l. 1) and «སྭོ་གདབ» on
+     Wednesday (l. 6). «སྭོ» is a word of calling to gods, nāgas and spirits
+     (Brda dkrol gser gyi me long, after the *Brda gsar rnying gi bye brag rtogs
+     byed*; Dan Martin, «'bod tshig»), «བསོ» the sound «bso bso» (Dung dkar, the
+     Brda dkrol after the *Brda yig blo gsal mgrin rgyan*; Dag yig gsar bsgrigs:
+     a call like «kye»), and «ཀི་ཀི་བསྭོ་བསྭོ» the war cry and the cry raised to
+     the gods (Rangjung Yeshe; Tshig mdzod chen mo). With «གདབ», to cast, the
+     army attacking raises the cry *so*.*
 
 136. **Answered 2026-10-18. Monday's ransom «དྲོ་ཅན».** Monday's remedy, WB vol. 2, p. 309 (img.
      317), «ཉ་སྦྲུལ་གཟུགས་དང་གླུད་དྲོ་ཅན།», prints «དྲོ» (ད with the
@@ -1335,24 +1418,41 @@ the text, not about the app.
      Lhasa print, and which dragon year? (2026-10-13, O10,
      [kun-phan-me-long.md](kun-phan-me-long.md), "The rest of the book")
 
-141. **Date 1's «རྟེན».** date 1's first line reads
+141. **Answered 2026-10-18. Date 1's «རྟེན».** date 1's first line reads
      «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both scans and in both readers,
      not «…ལམ་ཞུགས་ཞིང་» as this file had; is རྟེན here a work, the making
      of supports (images, *rten bzhengs*), so that date 1's good list
      should name it beside setting out? (2026-10-13, O10,
      [lunar-dates.md](lunar-dates.md), "The text")
+     *Answered 2026-10-18 ([lunar-dates.md](lunar-dates.md)): a work,
+     the making of supports. The Zhol print carves the same (WBZ img. 1044, l.
+     2, read by eye): «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན། །དོན་གཉེར་ས་དབྱེ་ཞི་ལས་བཟང་།», and
+     WB closes date 18's good list the same way, «བཅོ་བརྒྱད་སྐྲ་འཁྲུ་དགེ་ལས་རྟེན།»,
+     where the table reads images. So date 1's good list names making images
+     (supports) beside setting out; the app's list does not (a build).*
 
-142. **Date 6's «སྐྱེས་བསྟུད».** date 6 reads «ཤི་ངན་སྐྱེས་བསྟུད།» on both
+142. **Answered 2026-10-18. Date 6's «སྐྱེས་བསྟུད».** date 6 reads «ཤི་ངན་སྐྱེས་བསྟུད།» on both
      scans (the next words are the illness line), not «སྐྱེས་བསྟུད་མེད»;
      the table's birth reading "no further children" rests on the missing
      མེད. Does «སྐྱེས་བསྟུད» here mean that children follow one another,
      as on dates 1, 11 and 21? (2026-10-13, O10,
      [lunar-dates.md](lunar-dates.md), "The text")
+     *Answered 2026-10-18 ([lunar-dates.md](lunar-dates.md)): children
+     follow. Ch. 34's births by date (work 1, vol. 2, p. 385, img. 393; WBZ
+     img. 1145, l. 1, read by eye) give the sixes «དྲུག་གསུམ་གང་སྐྱེས་ཕྱིས་ཀྱང་བསྟུད།»,
+     "whoever is born on the 6th, 16th or 26th, children follow afterwards",
+     as the ones' «བསྟུད་ཅིང་སྐྱེ». The app's "No more children follow one born
+     today" (date 6) rests on the missing «མེད» and is wrong (a build).*
 
-143. **Date 3's «གང་བསྟུད».** date 3 reads «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།», not
+143. **Answered 2026-10-18. Date 3's «གང་བསྟུད».** date 3 reads «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།», not
      «…གང་བསྐྱེད…»: "whichever boy or girl follows dies or fares badly"
      rather than "whoever is born"; which does WB mean? (2026-10-13, O10,
      [lunar-dates.md](lunar-dates.md), "The text")
+     *Answered 2026-10-18 ([lunar-dates.md](lunar-dates.md)): the child
+     born. WBZ carves «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།» too (img. 1045, l. 1, by eye), and ch.
+     34's births by date give the threes «གསུམ་གསུམ་གང་སྐྱེས་འཆི་འམ་ངན།» (WBZ img.
+     1145, l. 1): whoever is born on the 3rd, 13th or 23rd dies or fares badly.
+     The app's reading stands.*
 
 144. **The night table's two plain ༥.** KP's night table prints a plain ༥ in
      Tuesday's སྲོད་འཁོར་ཕྱི་ཆ and Wednesday's ཐོ་རེངས་ཕྱི་ཆ (BDRC file
@@ -1370,18 +1470,27 @@ the text, not about the app.
      brass plate (Jim Valby), so «གསེར་འགག» a gold one; «འགག» alone has no
      vessel sense in the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settled.*
 
-146. **The Rdo rje gtsug lag's Mercury (༧).** In WB vol. 2, p. 337 (img. 345),
+146. **Answered 2026-10-18. The Rdo rje gtsug lag's Mercury (༧).** In WB vol. 2, p. 337 (img. 345),
      the *Rdo rje gtsug lag*'s day of incompatibility prints Mercury as
      «ལྷག་པར(༧)»; the editors number Mercury ༤ everywhere else and the
      table on p. 342 has Wednesday with སྣྲུབས. Is (༧) a misprint of the
      1996 editors? (2026-10-13, O10,
      [combinations.md](combinations.md), "The *Rdo rje gtsug lag*'s special days")
+     *Answered 2026-10-18 ([combinations.md](combinations.md)): the
+     editors' slip. The blocks carve their small numerals over the mansions
+     and none over «ལྷག་པར»: Taikhang img. 477, l. 2 (read at 3×) has «༡༨» over
+     both «སྣུབས», «༢༡» over «གྲོ», «༢༣» over «མོན», «༢༦» over «ནམ», and nothing over
+     Mercury; WBZ img. 1095, l. 2 the same. So (༧) is the 1996 editors' own
+     number, a slip for ༤.*
 
-147. **Dus dbyig's «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ».** Dus dbyig's verse (p. 331) reads
+147. **Answered 2026-10-18. Dus dbyig's «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ».** Dus dbyig's verse (p. 331) reads
      «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ» in both readers, but on the Ser thang
      reprint the vowel looks like ི and the next stack is heavier than ཆུ;
      what does the print have there? (2026-10-13, O10,
      [combinations.md](combinations.md), "The text of pp. 331–333")
+     *Answered 2026-10-18 ([combinations.md](combinations.md)): «ཆེ».
+     The Zhol print carves «ཐོད་རྒལ་དགྲ་ལ་མེ་ཆུ་ཆེ།།» (WBZ img. 1087, l. 4, read at
+     5×): «མེ» with ེ, «ཆུ», «ཆེ», as both readers have it.*
 
 148. **KP's square on img. 78.** The third chart beside KP's two compasses
      of boxes for Rāhu (img. 78, §7): what does it count, the dates by the
@@ -1400,24 +1509,42 @@ the text, not about the app.
      words; the harm wheel's pairs are then 9–8, 4–6, 7–1 and 3–2, each of the
      eight trigram numbers once. The pair meant is wood and earth either way.*
 
-150. **Kikang's «ཉི་ཤར» or «ཉི་མྱུར».** In WB vol. 2, p. 212, Kikang's
+150. **Answered 2026-10-18. Kikang's «ཉི་ཤར» or «ཉི་མྱུར».** In WB vol. 2, p. 212, Kikang's
      black month (ཀི་ཀང་ཟླ་ནག, ki kang zla nag) for the hare and bird years:
      is the time «ཉི་ཤར», sunrise, as read in T2.21 and built, or
      «ཉི་མྱུར», as the etext, Yigdzin-1 and the Gser thang reprint at 4–7×
      have it, and if the latter, what time of day is it? (2026-10-14, O10,
      [month-entries.md](month-entries.md), "Kikang's black month")
+     *Answered 2026-10-18 ([month-entries.md](month-entries.md)): «ཉི་སྨྱུར»,
+     the late afternoon. The Zhol print carves the tall stack in both lines
+     (WBZ img. 927, l. 5–6, read at 3×): «ཡོས་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་སྨྱུར་ཤིད་བྱས་འཕུང་།»
+     and «བྱ་ལོའི་དབྱར་དགུན་འབྲིང་པོ་ཡི། །བཅོ་བརྒྱད་ཉི་སྨྱུར་དགེ་ལས་ངན།». «ཉི་སྨྱུར» is WB's
+     own hour between «ཕྱེད་ཡོལ» and «ཉི་ནུབ», the monkey's
+     ([combination-period.md](combination-period.md),
+     [day-letters.md](day-letters.md)). The built «ཉི་ཤར», sunrise, is wrong (a
+     build).*
 
-151. **The mansions' «མོན་དྲེ» and «སྒྲོག».** In WB vol. 1, p. 234 (img.
+151. **Answered 2026-10-18. The mansions' «མོན་དྲེ» and «སྒྲོག».** In WB vol. 1, p. 234 (img.
      244), the list of the mansions as the turtle's vertebrae prints
      «མོན་དྲེ(༢༢)སྒྲོག(༢༣)» where the usual names are མོན་གྲེ and
      མོན་གྲུ, and gives Abhijit (བྱི་བཞིན, byi bzhin) Śravaṇa's number 21. Is
      «སྒྲོག» a variant name or a misprint? (2026-10-14, O10,
      [health.md](health.md), "WB on health")
+     *Answered 2026-10-18 ([health.md](health.md)): a name of Śatabhiṣaj.
+     WB's list of the mansions' names (vol. 1, p. 19, img. 29, read on the
+     scan): «ནམ་མཐོང་གོང་དང་ཐོབ་ལྡན་མ། །དྷ་ནི་ཥྛ་རྣམས་མོན་དྲེའི་མིང་། །ཆུ་ལྷ་མོ་སྒྲོག་ནམ་མཐོང་འོག །ཤ་ཏ་བྷི་ཥ་མོན་གྲུ་ཡིན།»:
+     «མོན་དྲེ» is WB's name of Dhaniṣṭhā and «སྒྲོག» one of Śatabhiṣaj's (*mon
+     gru*), so p. 234's 22 and 23 are the usual two. The editors number
+     «སྒྲོག» 23 beside «མོན་གྲུ» 23 again on vol. 2, p. 337 (etext).*
 
-152. **The stack «[སྨྱུར]» on p. 355.** In WB vol. 1, p. 355 (img. 365),
+152. **Answered 2026-10-18. The stack «[སྨྱུར]» on p. 355.** In WB vol. 1, p. 355 (img. 365),
      the stacked syllable read «[སྨྱུར]» (Yigdzin-1 «མྱུར», MITRA «སྦྱར»):
      what does the print have, and what does it mean there? (2026-10-14,
      O10, [marriage.md](marriage.md), "The match")
+     *Answered 2026-10-18 ([marriage.md](marriage.md)): «མྱུར», quickly.
+     The Zhol print carves «རྟ་སྟོང་འབབ་ལ་མྱུར་གོད་འོང་།» (WBZ img. 463, l. 5, read at
+     6×), a stack of མ with ya and u and nothing above it: a thousand men and a
+     thousand horses fall due, and loss comes quickly.*
 
 153. **KP box 21's «གླང་འདུལ་བ་ལ་ངན».** Box 21 (KP BDRC img. 36) prints
      «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན» in its bad half: does "bad for breaking
@@ -1430,9 +1557,16 @@ the text, not about the app.
      four, so that none is plainly good for feasts? (2026-10-14, O10,
      [kp-activities.md](kp-activities.md), "Open (O10f)")
 
-155. **KP box 37's «ཡུག་མ».** Box 37 (img. 48) has «ཡུག་མ» before
+155. **Answered 2026-10-18. KP box 37's «ཡུག་མ».** Box 37 (img. 48) has «ཡུག་མ» before
      «སྐྲ་ཁྲུས་བཟང» in its bad half: a name, or a word cut by the line?
      (2026-10-14, O10, [kp-activities.md](kp-activities.md), "Open (O10f)")
+     *Answered 2026-10-18 ([kp-activities.md](kp-activities.md)): the
+     widow's washing of the hair. KP's «བྲཉེ་ཡུག་མ་སྐྲ་ཁྲུས་བཟང» digests WB's work 34
+     (vol. 2, p. 404), «བྲ་ཉེ(༡)ཡུགས་སྐྲ་བཀྲུ་བ་བཟང་།», read on the scan in
+     [hair-dates.md](hair-dates.md): Bharaṇī, bad for bathing and the hair, is
+     good for washing the hair at the end of widowhood. «ཡུག་མ» is the widow
+     (*yug za ma*, *yugs sa mo*, Dan Martin; «ཡུགས་ས», mourning for a dead spouse,
+     Jim Valby).*
 
 156. **Ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར».** Work 14 (WB vol. 2 p. 395, img. 403)
      names the good dates «གསུམ་བཞི་ལྔ་དང་བཅུ་བཞི་དང་། །བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར»,
@@ -1454,6 +1588,10 @@ the text, not about the app.
      KP's own 4 (14, 24); is the box a carving slip for ༡༩, ༢༩, or a
      reading of its own? (2026-10-14, O10,
      [white-beryl-ch34.md](white-beryl-ch34.md), "Open (O10f)")
+     *Narrowed 2026-10-18 ([kp-activities.md](kp-activities.md)): the
+     blocks', not one impression's. KP2 (img. 255) carves box 21's good dates
+     after «ཚེས་༡» in the same five cursive shapes as KP (img. 36), so both prints
+     have them; whether the glyphs are KP's 4 or its 9 is not settled by eye.*
 
 
 158. **How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,

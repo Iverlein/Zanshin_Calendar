@@ -829,6 +829,14 @@ instead of the dates.
   own remedy, and only the meeting of Kṛttikā, Anurādhā, Tuesday and a
   fire year has none (p. 377).
 
+**The stack of p. 355 on the Zhol print, 2026-10-18 (open question
+152).** WBZ img. 463, l. 5, read by eye at 3× and 6×: «ལྷག་པ་གསུམ་འདོམ་སྐྱེས་བསྡེབས་ངན། །རྒྱལ་དང་ཞུ་བ་མི་སྟོང་དང་། །རྟ་སྟོང་འབབ་ལ་མྱུར་གོད་འོང་།».
+The stack is མ with ya and u and nothing over it: «མྱུར», quickly, as the
+etext and Yigdzin-1 read. "Wednesday's three joined at the birth: … a
+thousand men and a thousand horses fall due, and loss comes quickly";
+WB has the same pair of debts with loss elsewhere («མི་སྟོང་རྟ་སྟོང་སོས་འབབ་འགྱུར། །བྱུར་དང་གོད་ཁ་རྒྱུན་མི་ཆད»,
+vol. 1, p. 314, etext).
+
 ### Open
 
 Open questions 149 and 152 ([open-questions.md](open-questions.md)):

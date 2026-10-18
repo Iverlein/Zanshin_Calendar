@@ -314,6 +314,47 @@ p. 305 (img. 313, l. 1, read on BDRC's scan):
 
 > ནས། །བླ་གནས་འཕོ་བར་བཞེད་པ་སོགས། །མཐའ་ཀླས་རྣམ་གྲངས་མང་ཡོད་ཀྱང་། །དགོས་དོན་སྙིང་པོ་དེ་ཙམ་མོ།།
 
+### On the Zhol print and in ch. 34, 2026-10-18 (open questions 141–143, 83)
+
+WBZ img. 1044–1045 hold the 1996 pp. 297–299 (dates 1–6). Read by eye at
+2.5–5×:
+
+- Date 1 (img. 1044, l. 2): «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན། །དོན་གཉེར་ས་དབྱེ་ཞི་ལས་བཟང་།».
+  The blocks have «རྟེན» closing the line, as the 1996 edition and the Gser
+  thang reprint do, and date 18 closes its good list the same way
+  («བཅོ་བརྒྱད་སྐྲ་འཁྲུ་དགེ་ལས་རྟེན།», read above as making images). So date 1 is good
+  for setting out and for making supports (images); the app's good list
+  for date 1 lacks the images (a build).
+- Date 2's illness (img. 1044, l. 5): «ཕོ་མཆིན་མི་བདེ་སྣོད་གཞི་དགང་།», «སྣོད» (ས over
+  ན) clear: the stomach and liver uneasy, the hollow organs swelling.
+- Date 3 (img. 1045, l. 1): «ཕོ་མོ་གང་བསྟུད་འཆིའམ་ངན།», «བསྟུད» clear; its illness
+  line «ཤེད་ཆུང་ཁོང་གཅོང་མཁལ་མ་ན། །རྡུལ་ཡོད་ཁ་སྐམ་བྱ་[…]་བྱེད།», the stack after «བྱ»
+  not made out.
+
+Chapter 34 restates the dates in groups of four, which settles three
+of the doubts. Its births by date (work 1, vol. 2, p. 385, img. 393;
+WBZ img. 1145, l. 1, read by eye at 2.5×):
+
+> ཚེས་ལ་སྐྱེས་པ་བསྟན་པ་ནི། །གཅིག་གསུམ་ཕོ་མོ་གང་སྐྱེས་ཀྱང་། །བསྟུད་ཅིང་སྐྱེ་ལ་ཤེས་པ་ཆེ། །གཉིས་གསུམ་བུ་བཟང་བུ་མོ་ངན། །གསུམ་གསུམ་གང་སྐྱེས་འཆི་འམ་ངན། །བཞི་གསུམ་བུ་སྐྱེས་མ་ལ་ངན། །བུ་མོ་སྐྱེས་ན་སླར་ཡང་བསྟུད། །ལྔ་གསུམ་བུ་སྐྱེས་ནོར་གྱིས་ཕྱུག […] །དྲུག་གསུམ་གང་སྐྱེས་ཕྱིས་ཀྱང་བསྟུད། །བདུན་གསུམ་བུ་སྐྱེས་རིག་པ་རྣོ། །བུ་མོ་སྐྱེས་ན་ཁྱོ་འབྲང་ཞིང་། །བརྒྱད་གསུམ་གང་སྐྱེས་གསོ་བ་དཀའ། །དགུ་གསུམ་གང་སྐྱེས་བྱུར་གྱི་བུ། །བཅུ་གསུམ་གང་སྐྱེས་དབུལ་པོ་ཡིན།
+
+(the fifth group's rest from the etext). "The three ones (1, 11, 21):
+whoever is born, children follow and are born, great in learning; the
+twos: a boy good, a girl bad; the threes: whoever is born dies or fares
+badly; …; the sixes: whoever is born, children follow afterwards too;
+…; the tens: whoever is born is poor." So date 3's «གང་བསྟུད» is the child
+born, as the app reads it, and date 6's «སྐྱེས་བསྟུད» is children following,
+not "no further children": the app's "No more children follow one born
+today" for date 6 is wrong (a build).
+
+Ch. 34's illnesses by date (vol. 2, p. 416, img. 424, read on the scan
+at 3×) have for the twos «ཕོ་མཆིན་མི་བདེ་[སྟོད/སྣོད]་བཞི་དགངས།» (the stack worn) and
+for the threes «ཤེད་ཆུང་ཁོང་གཅོང་མཁལ་མ་ན། །ཁ་སྐམ་རྡུལ་ཡོད་བྱ་རྨྱང་བྱེད།», clear. «སྣོད་བཞི»
+are the four hollow organs, stomach, intestines, the *long ga* and the
+gall bladder (Tshig gter rgya mtsho); «བྱ་རྨྱང» is stretching and yawning,
+and as a sickness the wind's needless stretching of the limbs (Tshig
+mdzod chen mo; Dag yig gsar bsgrigs). So date 3: "dry mouth, dust, and
+stretching and yawning".
+
 ### Open
 
-- Open questions 141–143 ([open-questions.md](open-questions.md)).
+- Open questions 141–143 ([open-questions.md](open-questions.md)), answered 2026-10-18 (above).

@@ -1859,6 +1859,13 @@ clock time, the date and the day's length; none of it needs a throw of
 chance. The notes' hand reckoning is the one casting, and needs the
 asker's spontaneous year.
 
+**The hand reckoning's «ལུ», 2026-10-18 (open question 101).** «ལུ» is no
+person or text in Steinert's 64 dictionaries (a knot, a snag; a verb of
+coughing). The note (vol. 2, pp. 538–539, etext) counts the year first
+thought of from the ox, the months from there, the dates and the hours,
+round the twelve places of the hand: «ཟླ་བ་དགུ་པའི་ཚེས་བཅུ་ཉིན་མོ་འདེབས་ཚེ། འདྲི་བྱེད་ཀྱི་ཡིད་ལ་དང་པོར་གང་དྲན་གྱི་ལོ་ཐེ་ཚོམ་མེད་པར་སྨྲས་པ་འབྲུག་ལྟ་བུ་ཡིན་ན་གླང་ནས་ཟླ་གྲངས་དགུ་བར་བསྐོར་བས་བྱ་ལ་བབས། བྱ་ནས་ཚེས་གྲངས་བཅུ་བར་བསྐོར་བས་རྟ་ལ་བབས།».
+Who «ལུ» is and which text «གཞུང» means are not found.
+
 ### Open
 
 Open questions 97–102 ([open-questions.md](open-questions.md)), in order:

@@ -1283,6 +1283,21 @@ king of teeth's broken tusk (two black on the luck); the seventh corner,
 the lesser penalty, of the tomb stage (p. 258). Nothing is shown as
 another view (the owner, 2026-10-16).
 
+## The white year, 2026-10-18 (open question 92)
+
+WB tells how the seven corners and the white years came about in its
+story of the animals (vol. 1, p. 235, img. 245, read on the scan at 2.5×):
+
+> ཐན་སྐྱེལ་སྲིན་ཁྱེར་ཀླུང་ངན་ནི། །བཅུ་གཉིས་པ་རེ་བཞེད་པ་དང་། །དཀར་ཆུང་དྲུག་དང་ཐན་མི་བདུན། །བདུན་ཟུར་ལོ་དཀར་བྱུང་བའི་ཚུལ། །རྟ་ཡིས་བང་བཏང་བྱི་རུ་བཅག །གླང་གིས་རྭ་[…] […] །གདུག་པ་སྦྲུལ་དེ་ཕག་གིས་ཟོས། །ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ་དེ། །དེ་ནི་ཕྱི་དཀར་ཚུལ་དུ་བསྡུས། །མར་གྱི་བཞི་གཤེད་བྱ་དེ་ནི། །ནང་དཀར་ཚུལ་དུ་བསྡུས་པ་ཡིན།
+
+The seven corners are the six pairs of opposite animals the story sets
+against each other (the horse sent against the mouse, …, the pig eating
+the snake); "the four-slayer upward, the hare, is counted the outer white;
+the four-slayer downward, the bird, the inner white". So the white year
+(ལོ་དཀར, lo dkar) is the four-slayer (བཞི་གཤེད, bzhi gshed), the fourth year
+up or down from one's own, and p. 388's progressed sign reaching the white
+year is its reaching that year, next to its reaching the seven-corner.
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's

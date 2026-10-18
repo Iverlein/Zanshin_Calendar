@@ -230,7 +230,12 @@ and p. 330 was on img. 468; on 2026-10-18 img. 438–446 held pp. 306–312
 (p. 308 begins on img. 440). Its six lines a folio are read at native size
 in crops of about 1,300 × 250 px. The Zhol print (WBZ, 3,754 × 613 px,
 seven lines) maps to the 1996 vol. 1 at WBZ img. 325–326 = pp. 261–262,
-374 = p. 294, 426 = p. 354, 551 = p. 418, 554 = p. 420.
+374 = p. 294, 426 = p. 354, 551 = p. 418, 554 = p. 420; 463 = p. 355, 580–581 = p. 438;
+to the 1996 vol. 2 at WBZ img. 908 = p. 196, 927–928 = pp. 211–212,
+1044–1046 = pp. 297–299, 1059–1064 = pp. 308–312, 1087 = p. 331, 1095 =
+p. 337, 1145 = p. 385 (2026-10-18). The WBZ etext keeps the folio's lines
+too, so `locate.py find` on it and a word's offset in its line place the
+crop. The Taikhang vol. 2 img. 474–477 hold pp. 334–337 (2026-10-18).
 
 **OCR of woodblock prints:** BDRC's own pipeline,
 github.com/buda-base/tibetan-ocr-app (MIT), with its Woodblock model.
@@ -513,8 +518,13 @@ Searched and found wanting, so not to be repeated:
   numeral against WB's «བཞི་ལྗང», was not read.
 - **Words in none of Steinert's 64 dictionaries** (2026-10-18): «ཤ་ཆིངས»,
   «སྤོམ་གཏའ», «གཏོང་ཤེས», «ར་བསེ», «སྐྲང་སྒོམ», «ཚེ་སྨང», «ཁ་སྤྲང»; «སོ་ནག» only as place
-  names; «བསོ» only as a call (Bon) and «སྭ» as «སོ», which does not settle the war
-  lines' «བསོ་གདབ» (question 135).
+  names; «བསོ» only as a call (Bon) and «སྭ» as «སོ»; with «སྭོ», a call to gods
+  and spirits, and «ཀི་ཀི་བསྭོ་བསྭོ», the war cry, they settled the war lines'
+  «བསོ་གདབ» on 2026-10-18 (question 135). Also in none (2026-10-18): «ཟློད»,
+  «ཟློད་པ», «བཟློད་པ» (question 39); «ལུ» as a person or a text (question 101);
+  «ཀིང་ཟོར», «གནམ་ཞག་ནག», «དབུལ་ལག», «ལོ་དཀར» and «ཎི་ཤ» as headwords («ཏི་ཤ» only as
+  Tiṣya, the Pusya mansion and a buddha, 84000). WB's notes (vol. 2, pp. 474 ff.) were not found in the WBZ
+  etext by three of their phrases, so question 23 was not read there.
 - **Russian names of the 暦注** (K1, 2026-10-15): cyberleninka's search
   API, synologia.ru (the articles «Эр ши ба сю», «Цзе ци», «Шэ», «Цзянь
   чу», «Тун шу», «Хуан ли» and others are "not yet written") and WaRoDai

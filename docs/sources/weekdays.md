@@ -361,6 +361,19 @@ native size:
 Not changed for the app here: whether Wednesday's moving a grave, Friday's
 burial and going as a guest join the lists is for a build.
 
+**The war cry, 2026-10-18 (open question 135).** WBZ img. 1059–1064
+hold pp. 308–312. Read by eye at 4×: Tuesday «རྟ་སྦྲུལ་ཆས་གོས་དམར་པོ་ཡིས། །སྭ་གདབ་ལྷོ་ནས་ནུབ་ཏུ་འགྲོ།»
+(img. 1061, l. 1), Wednesday «སྣ་དྲངས་ནུབ་ནས་ལྷོར་སྭོ་གདབ།» (l. 6), «ས» with the
+wa below, Wednesday's with the o. «སྭོ» is a word of calling to gods,
+nāgas and spirits (Brda dkrol gser gyi me long, after the *Brda gsar rnying
+gi bye brag rtogs byed*: «སྭོ་ཞེས་བྱ་བ་ལྷ་ཀླུ་སོགས། །འབྱུང་པོ་ལ་སོགས་འབོད་པའི་མིང»; Dan Martin,
+«'bod tshig»), «བསོ» the sound «bso bso» (Dung dkar tshig mdzod chen mo; the
+Brda dkrol after the *Brda yig blo gsal mgrin rgyan*; Dag yig gsar bsgrigs,
+a call like «kye», «ka ye»), and «ཀི་ཀི་བསྭོ་བསྭོ» the war cry (Rangjung Yeshe), the
+cry raised in praise of the gods at an offering to them (Tshig mdzod
+chen mo). So «བསོ་གདབ», «སྭ་གདབ», «སྭོ་གདབ» are one act, casting the cry *so*: the
+army that attacks raises the war cry.
+
 ### Open
 
 - Open questions 132–138 ([open-questions.md](open-questions.md)), all

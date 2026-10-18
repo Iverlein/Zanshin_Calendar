@@ -1134,6 +1134,11 @@ avoided. Remedy as for the year and month.
   read on the scan.
 - «ཉི་མའི་གླང» (no. 19's entry): not found in the etexts of either volume (2026-10-11), whose OCR of p. 186 garbles the line itself; BDRC's full-text search not tried.
 
+**The palace gods' heading on the Zhol print, 2026-10-18 (open question
+39).** WBZ img. 908, l. 4 (= p. 196), read by eye at 4×: «༄ ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི །ལྷ་ནི་ཞེ་ལྔ་གནས་པ་སྟེ།»,
+as the 1996 scan; the 1996 etext's «རྒོད» is the OCR's. «ཟློད», «ཟློད་པ» and
+«བཟློད་པ» are in none of Steinert's 64 dictionaries.
+
 ### Open
 
 - Open questions 33–40 ([open-questions.md](open-questions.md)): 33, what
