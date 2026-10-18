@@ -1258,6 +1258,7 @@ the text, not about the app.
      in full. «སྤོམ་གཏའ» is in no dictionary.*
     *Narrowed 2026-10-18 night ([earth-lords.md](earth-lords.md)): «སྤོམ་གཏའ» is a *gto* rite of binding with texts of its own (Mipham's *Spom gta' chen mo bkra shis kun khyab*; Karma Chags med; Zhe chen rgyal tshab); its content not read.*
     *Answered 2026-10-18 late night ([earth-lords.md](earth-lords.md)): Mipham's *Spom gta' chen mo* (Collected Works vol. 7, I2010 img. 280, read on the scan) calls it the king of rites, one general cure for all the faults of the harmful beings of the directions and times, from the reckoning texts and the Kong tse tradition. Its form (Mipham, img. 281–283): a tall trunk set toward the year's two-black mewa, with images, books, the sky dog and earth lords around it; WB plants it on the two-black too (p. 128).*
+    *And «སྡོང་པོ་རྒྱན་པ» is settled: Karma Chags med's collection gives the dhāraṇī under that name, «འཕགས་པ་སྡོང་པོ་རྒྱན་པ་ཞེས་བྱ་བའི་གཟུངས», opening word for word as the Kangyur's *Sdong po rgyan gyi mchog* (D1066) ([earth-lords.md](earth-lords.md)).*
 
 123. **The seats' closing remedy.** In the seats' closing remedy (p. 224),
      what is the "man *hreng*" (མི་ཧྲེང, the same in WBZ) holding a spear, and

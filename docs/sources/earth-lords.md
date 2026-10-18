@@ -517,6 +517,15 @@ four:
   against slander), and the five male, five female and five child woods.
   WB plants it the same way, «གཉིས་ནག་སྟེང་དུ་སྤོམ་གཏའ་འཛུགས» (vol. 2, p. 128): two
   sources agree on the place and the purpose.
+- **«སྡོང་པོ་རྒྱན་པ» is the dhāraṇī D1066.** BDRC's full-text search
+  (2026-10-18): Karma Chags med's collection of recitations (MW2PD20252,
+  snippet) carries it under WB's very name, «…བོད་སྐད་དུ། འཕགས་པ་སྡོང་པོ་རྒྱན་པ་ཞེས་བྱ་བའི་གཟུངས། དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ། །སངས་རྒྱས་ཀུན་གྱིས་བསྐྱབ་ཏུ་གསོལ། །བྱང…»,
+  and its opening is word for word that of the Kangyur's *'Phags pa sdong
+  po rgyan gyi mchog ces bya ba'i gzungs* (D1066, MW4CZ5369_0845:
+  «…འཕགས་པ་སྡོང་པོ་རྒྱན་གྱི་མཆོག་ཅེས་བྱ་བའི་གཟུངས། དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ། །སངས་རྒྱས་ཀུན་གྱིས་བསྐྱབ་ཏུ་གསོལ། །བྱང…»).
+  The pairing with the *Snang brgyad* is the reckoners' set: WB's own
+  «ཉམས་ན་སྡོང་རྒྱན་སྣང་བརྒྱད་འདོན» (vol. 2, p. 211, etext) and the year-of-age remedies
+  «སྡོང་རྒྱན་སྣང་བརྒྱད་མཚན་བརྗོད་འདོན» (MW1KG21818, MW21984, OS).
 - **121, «ཤ་ཆིངས».** The horse day's lines (vol. 2, etext p. 225):
   «རྟ་ཉིར་སྒ་གནས་སྒོ་གོང་དུ། །རོ་བཀལ་རྟར་ངན་སྒ་མེད་དུ། །ཤ་ཆིངས་བྱེད་ཅིང་བང་ཕྱིན་ཀྱང་། །སྒ་མེད་མ་བྱས་བང་ཕྱིན་ངན།»:
   on the horse day the lord is on the saddle; loading the corpse on a
