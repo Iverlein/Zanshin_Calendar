@@ -32,7 +32,13 @@ import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.CombinationDay
 import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.CourseDay
+import zanshin.core.tibetan.AnimalFall
 import zanshin.core.tibetan.CourseFall
+import zanshin.core.tibetan.EveryMonthFall
+import zanshin.core.tibetan.Fall
+import zanshin.core.tibetan.GreatBlackDay
+import zanshin.core.tibetan.MonthFall
+import zanshin.core.tibetan.RahuBySeason
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourse
 import zanshin.core.tibetan.EarthLordCourses
@@ -95,6 +101,7 @@ enum class ReadingRow(val key: String) {
     LIVESTOCK("livestock"),
     PLANET("planet"),
     FOODS("foods"),
+    THROUGH_DAY("through_day"),
     FALLS("falls"),
     ;
 
@@ -121,8 +128,11 @@ data class Reading(
     val arg: String? = null,
     /** Further texts for {0}, after [arg]'s: one earth lord doing several things on a day, in one entry. */
     val moreArgs: List<String> = emptyList(),
-    /** How a course by date fell on the shown day: its line fills the rows' {0} in place of [arg]'s text (SPEC §8.1, rule 4). */
-    val today: CourseFall? = null,
+    /**
+     * How a course by date fell on the shown day, the lines of its *How it falls* row (SPEC §8.1, rule 4), which the
+     * engine names ([EarthLordCourses.fall]); a reading whose line is a text of the catalog has its own `.falls` row.
+     */
+    val falls: List<Fall> = emptyList(),
     /**
      * Further catalog keys whose rows join the reading's own, row by row, after them: a remedy the
      * source gives once for a group of entries (the nine-multiples', the tombs'), or a second fact
@@ -146,14 +156,16 @@ data class Reading(
         get() = listOf(rowKey) + alsoRows
 
     /**
-     * The reading's rows in [ReadingRow]'s order, each filled as the summary is: {0} takes [arg]'s text, or
-     * [today]'s line; a row that more than one of [rowKeys] holds is their texts joined, in that order.
+     * The reading's rows in [ReadingRow]'s order, each filled as the summary is, {0} taking [arg]'s text; a row
+     * that more than one of [rowKeys] holds is their texts joined, in that order. *How it falls* is [falls]'
+     * lines where the catalog has no such row.
      */
     val rows: List<Pair<ReadingRow, String>>
         get() = ReadingRow.entries.mapNotNull { row ->
             rowKeys.mapNotNull { k -> Catalog.textOrNull("$k.${row.key}") }.takeIf { it.isNotEmpty() }
                 ?.joinToString("; ")
-                ?.let { row to (today?.let { t -> Catalog.fill(it, fallLine(t)) } ?: fill(it)) }
+                ?.let { row to fill(it) }
+                ?: (row to fallLines(falls)).takeIf { row == ReadingRow.FALLS && falls.isNotEmpty() }
         }
 
     private fun fill(text: String): String = arg?.let { a -> Catalog.fill(text, (listOf(a) + moreArgs).joinToString(" ") { Catalog.text(it) }) } ?: text
@@ -179,16 +191,69 @@ fun dateOrdinal(n: Int): String {
 }
 
 /**
- * The *How it falls* line of a course by season-month (SPEC §8.1, rule 4): "the 8th, 18th and 28th
- * of the spring months; today the 8th of the first month of spring".
+ * The *How it falls* line of a course (SPEC §8.1, rule 4), the line of its table that holds the shown day:
+ * "the 8th, 18th and 28th of the spring months; today the 8th of the first month of spring", "the 15th and
+ * 28th of the first month of spring; today the 15th", "the dragon and sheep days of the first month of
+ * spring; today a sheep day, in the warmth of the morning".
  */
-fun fallLine(f: CourseFall): String = Catalog.format(
-    "CourseFall.line",
-    Catalog.format("CourseFall.dates", *f.dates.map(::dateOrdinal).toTypedArray()),
-    Catalog.text("CourseFall.season.${f.quarter}"),
-    dateOrdinal(f.date),
-    Catalog.text("CourseFall.month.${f.season}"),
-)
+fun fallLine(f: Fall): String {
+    fun month(season: Int) = Catalog.text("CourseFall.month.$season")
+    val line = when (f) {
+        is CourseFall -> Catalog.format(
+            "CourseFall.line",
+            Catalog.format("CourseFall.dates", *f.dates.map(::dateOrdinal).toTypedArray()),
+            Catalog.text("CourseFall.season.${f.quarter}"),
+            dateOrdinal(f.date),
+            month(f.season),
+        )
+        is MonthFall -> when {
+            f.dates.size == 1 -> Catalog.format("CourseFall.once", dateOrdinal(f.date), month(f.season))
+            f.dates.size == 30 -> Catalog.format("CourseFall.every", month(f.season), dateOrdinal(f.date))
+            f.dates.size >= 20 -> Catalog.format("CourseFall.allBut", month(f.season), dateList((1..30).toSet() - f.dates), dateOrdinal(f.date))
+            else -> Catalog.format("CourseFall.month", dateList(f.dates), month(f.season), dateOrdinal(f.date))
+        }
+        is AnimalFall -> Catalog.format(
+            if (f.wholeSeason) "CourseFall.seasonAnimals" else "CourseFall.animals",
+            joined(Animal.entries.filter { it in f.animals }.map(::animalOf)),
+            if (f.wholeSeason) Catalog.text("CourseFall.season.${f.season / 3}") else month(f.season),
+            animalOf(f.animal),
+        )
+        is EveryMonthFall -> Catalog.format("CourseFall.everyMonth", dateList(f.dates), dateOrdinal(f.date))
+    }
+    val at = f.at?.let { key ->
+        key.removePrefix("CourseAt.hour.").takeIf { it != key }?.let { Catalog.format("CourseAt.hour", animalOf(Animal.valueOf(it))) } ?: Catalog.text(key)
+    }
+    return at?.let { Catalog.format("CourseFall.at", line, it) } ?: line
+}
+
+/** The lines of a *How it falls* row: one line, or several, each under what the course does on it, one to a line. */
+fun fallLines(falls: List<Fall>): String {
+    val lines = falls.map { it to fallLine(it) }.distinctBy { it.second }
+    return lines.singleOrNull()?.second
+        ?: lines.joinToString("\n") { (f, line) -> f.label?.let { Catalog.format("CourseFall.labelled", Catalog.text(it), line) } ?: line }
+}
+
+/** An animal as a line names its day or hour: "dragon", «дракона». */
+private fun animalOf(a: Animal): String = Catalog.text(glossKey(a, "of"))
+
+/** Dates in order, three or more in a row as a range: "the 10th, 17th to 22nd and 24th to 30th". */
+private fun dateList(dates: Set<Int>): String {
+    val runs = mutableListOf<IntRange>()
+    for (d in dates.sorted()) if (runs.isNotEmpty() && runs.last().last == d - 1) runs[runs.lastIndex] = runs.last().first..d else runs += d..d
+    return joined(
+        runs.flatMap { r ->
+            if (r.count() >= 3) listOf(Catalog.format("CourseFall.range", dateOrdinal(r.first), dateOrdinal(r.last))) else r.map(::dateOrdinal)
+        },
+    )
+}
+
+/** "a, b and c", in the catalog's words. */
+private fun joined(items: List<String>): String =
+    if (items.size < 2) {
+        items.joinToString()
+    } else {
+        Catalog.format("CourseFall.and", items.dropLast(1).reduce { a, b -> Catalog.format("CourseFall.comma", a, b) }, items.last())
+    }
 
 /** Readings keyed by term, each summary under `reading.<Enum>.<NAME>`. */
 private fun <E : Enum<E>> keyed(vararg entries: Pair<E, Reading>): Map<E, Reading> =
@@ -969,8 +1034,10 @@ object Texts {
         29 to rahu(29, good = listOf("fierce_rites", "subduing_enemies"), avoid = listOf("dharma_practice", "sowing", "brewing_beer")),
     )
 
-    private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) =
-        Reading(goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date")
+    private fun rahu(date: Int, good: List<String> = emptyList(), avoid: List<String> = emptyList()) = Reading(
+        goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_RAHU, key = "reading.Rahu", arg = "reading.Rahu.$date",
+        alsoRows = listOf("reading.Rahu"),
+    )
 
     /**
      * The combination period (*dus sbyor*) of each sign, the White Beryl's
@@ -1037,7 +1104,7 @@ object Texts {
      * messenger turning its head" through the parts of its body on given
      * dates, and in the three months of autumn it takes seven forms on given
      * dates, times and directions; on all of them fierce work is good. Keyed
-     * by Tibetan month and date. Summer and winter are not given. The passage
+     * by Tibetan month and date, each with its month's dates as its *How it falls* line. Summer and winter are not given. The passage
      * is in WB's chapter 31, which counts its seasons by the Chinese reckoning
      * ([SeasonReckoning.CHINESE]: its p. 206 goes through the tiger to sheep
      * months and then "the three of autumn", and the bad days of p. 228 by
@@ -1046,26 +1113,36 @@ object Texts {
      */
     val RAHU_MONTH: Map<Pair<Int, Int>, Reading> = buildMap {
         val chinese = SeasonReckoning.CHINESE
-        for (date in listOf(6, 9, 11, 13)) put(chinese.month(0) to date, rahuMonth("earlySpring.$date"))
-        for (date in listOf(16, 9, 11, 13, 19)) put(chinese.month(1) to date, rahuMonth("midSpring.$date"))
-        for (season in 6..8) for (date in listOf(15, 11, 8, 4, 22, 25, 29)) put(chinese.month(season) to date, rahuMonth("autumn.$date"))
+        val spring = listOf(setOf(6, 9, 11, 13), setOf(16, 9, 11, 13, 19))
+        for ((season, dates) in spring.withIndex()) {
+            for (date in dates) put(chinese.month(season) to date, rahuMonth("${if (season == 0) "earlySpring" else "midSpring"}.$date", MonthFall(season, date, dates)))
+        }
+        val autumn = setOf(15, 11, 8, 4, 22, 25, 29)
+        for (season in 6..8) for (date in autumn) put(chinese.month(season) to date, rahuMonth("autumn.$date", MonthFall(season, date, autumn)))
     }
 
-    private fun rahuMonth(arg: String) =
-        Reading(goodKeys = listOf("fierce_rites"), source = Sources.WHITE_BERYL_RAHU, key = "reading.RahuMonth", arg = "reading.RahuMonth.$arg")
+    private fun rahuMonth(arg: String, fall: Fall) = Reading(
+        goodKeys = listOf("fierce_rites"), source = Sources.WHITE_BERYL_RAHU, key = "reading.RahuMonth", arg = "reading.RahuMonth.$arg",
+        falls = listOf(fall),
+    )
 
     /**
      * Rāhu among the earth lords that move by date ([RahuBySeason], WB vol. 2, p. 232, section 27): the
      * dates of each season-month he seeks food on, when works great and small for the living and the
      * dead are avoided, above all work with earth and with mud («ཁྱད་པར་ས་ལས་འདམ་ལས་ངན», as the Zhol print
      * has it), and hurling zor and fierce work are auspicious. Keyed by season-month, 0–10; the
-     * last month of winter has none.
+     * last month of winter has none. [rahuSeason] gives the day's, with its *How it falls* line.
      */
     val RAHU_SEASON: Map<Int, Reading> = (0..10).associateWith {
         Reading(
             goodKeys = listOf("hurling_zor", "fierce_rites"), avoidKeys = listOf("works_for_the_dead_and_the_living", "earthworks", "work_with_mud"),
-            source = Sources.WHITE_BERYL_EARTH_LORD_COURSES, key = "reading.RahuSeason", arg = "reading.RahuSeason.$it",
+            source = Sources.WHITE_BERYL_EARTH_LORD_COURSES, key = "reading.RahuSeason",
         )
+    }
+
+    /** Rāhu's course among the earth lords on [date] of Hor month [month], or null: [RAHU_SEASON]'s with the month's dates. */
+    fun rahuSeason(month: Int, date: Int): Reading? = RahuBySeason.of(month, date)?.let { s ->
+        RAHU_SEASON.getValue(s).copy(falls = listOf(MonthFall(s, date, RahuBySeason.DATES[s])))
     }
 
     /**
@@ -1082,6 +1159,8 @@ object Texts {
             goodKeys = readings.flatMap { it.goodKeys }.distinct(),
             avoidKeys = readings.flatMap { it.avoidKeys }.distinct(),
             moreArgs = readings.drop(1).mapNotNull { it.arg },
+            falls = readings.flatMap { it.falls },
+            alsoRows = readings.flatMap { it.alsoRows }.distinct(),
         )
     }
 
@@ -1093,9 +1172,10 @@ object Texts {
             goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_EARTH_LORD_COURSES,
             also = listOf(Sources.WHITE_BERYL_MODEL_ALMANAC), key = key, arg = arg,
         )
-        fun black(good: List<String> = emptyList(), avoid: List<String>, arg: String) = Reading(
+        // A black month's line is its reading's own row, beside its third's or its year's key.
+        fun black(good: List<String> = emptyList(), avoid: List<String>, arg: String?, line: String) = Reading(
             goodKeys = good, avoidKeys = avoid, source = Sources.WHITE_BERYL_BLACK_MONTHS,
-            also = listOf(Sources.WHITE_BERYL_MONTH_HEADING), key = key, arg = arg,
+            also = listOf(Sources.WHITE_BERYL_MONTH_HEADING), key = key, arg = arg, alsoRows = listOf(line),
         )
         val strike = day.event == CourseEvent.STRIKES
         fun struck(works: List<String>) =
@@ -1109,7 +1189,8 @@ object Texts {
                     "sending_out_wealth", "weddings", "ordination", "consecration", "enthronement", "adding_storeys", "roofing", "making_images",
                     "taking_a_bride",
                 ),
-                arg = "$key.${day.variant}",
+                arg = null,
+                line = "$key.${day.variant}",
             )
             // p. 212: one work for each year, «ཚེས་བརྒྱད་ཐོ་རེངས་ཤིད་བྱས་ན། …ཉེར་གཉིས་བྱ་ཉལ་ཙམ་ལ་ནི། །དུས་དེར་ནོར་ཕྱིར་མི་བཏང་ངོ»
             EarthLordCourse.KI_KANG_ZLA_NAG -> black(
@@ -1124,6 +1205,7 @@ object Texts {
                     Animal.OX -> listOf("sending_out_wealth")
                 },
                 arg = "$key.${day.variant}",
+                line = "$key.${day.variant}",
             )
             EarthLordCourse.NAG_CHEN -> r(
                 good = listOf("black_rites"),
@@ -1233,9 +1315,9 @@ object Texts {
                     else -> listOf("everything")
                 },
                 arg = "$key.${day.variant!!.replace(' ', '_')}",
-            )
+            ).let { it.copy(alsoRows = listOfNotNull(it.arg)) }
         }
-        return base.copy(today = EarthLordCourses.fall(day))
+        return base.copy(falls = listOfNotNull(EarthLordCourses.fall(day)))
     }
 
     /**
@@ -1423,7 +1505,7 @@ object Texts {
     val RAHU_GENERAL: Map<Int, Reading> = (1..30).filter { it !in RAHU }.associateWith {
         Reading(
             source = Sources.WHITE_BERYL_RAHU, also = listOf(Sources.KUN_PHAN_ME_LONG_RAHU),
-            key = "reading.RahuGeneral", arg = "reading.RahuGeneral.$it",
+            key = "reading.Rahu", arg = "reading.RahuGeneral.$it", alsoRows = listOf("reading.Rahu"),
         )
     }
 
@@ -1511,7 +1593,8 @@ object Texts {
                 "building", "building_graves", "trade", "virtuous_work",
             ),
             source = Sources.WHITE_BERYL_GREAT_BLACK_DAY,
-            key = "reading.GreatBlackDay", arg = "reading.GreatBlackDay.$it",
+            key = "reading.GreatBlackDay", arg = "reading.GreatBlackDay.$it", alsoRows = listOf("reading.GreatBlackDay"),
+            falls = listOf(CourseFall(it, GreatBlackDay.DATES[it], GreatBlackDay.DATES.subList(it / 3 * 3, it / 3 * 3 + 3))),
         )
     }
 

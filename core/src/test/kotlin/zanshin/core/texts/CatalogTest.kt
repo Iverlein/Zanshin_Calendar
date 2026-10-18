@@ -19,6 +19,7 @@ import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.HundredFeet
+import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Care
@@ -98,6 +99,11 @@ class CatalogTest {
         (listOf("one", "two", "few", "other").map { "DateOrdinal.$it" } + listOf("CourseFall.line", "CourseFall.dates")).forEach(::present)
         (0..3).forEach { present("CourseFall.season.$it") }
         (0..11).forEach { present("CourseFall.month.$it") }
+        // The How it falls lines of the other courses (ROADMAP X7): their forms, what a line adds, and each animal as a line names it.
+        listOf("once", "month", "every", "allBut", "animals", "seasonAnimals", "everyMonth", "at", "labelled", "and", "comma", "range").forEach { present("CourseFall.$it") }
+        (listOf("hour") + EarthLordCourses.ZIN_PHUNG_TIMES + EarthLordCourses.GNAM_KHYI_TIMES + EarthLordCourses.NGAM_SHING_WAYS.values).forEach { present("CourseAt.$it") }
+        Animal.entries.forEach { present(glossKey(it, "of")) }
+        CourseEvent.entries.filter { it != CourseEvent.SITS }.forEach { present("CourseFall.event.${it.name}") }
     }
 
     @Test
@@ -489,10 +495,9 @@ class CatalogTest {
          */
         val ALLOWANCE: Map<String, Int> = mapOf(
             "X3" to 96, // the lunar dates (block 43); 60 of them the hair dates under 20 words
-            "X4" to 24, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
-            "X7" to 92, // the earth lords, Rāhu and the month's entries (block 46); the lesser black day in the shape; no other views (2026-10-11)
+            "X4" to 23, // the weekdays and the goddesses' days (block 43); the dremo named one way (block 26)
             "X8" to 27, // your day (block 47); 12 under 20 words
-            "X9" to 22, // the hours panel (block 48)
+            "X9" to 21, // the hours panel (block 48)
         )
     }
 }

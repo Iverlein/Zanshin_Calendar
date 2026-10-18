@@ -68,24 +68,70 @@ enum class CourseEvent { MOVES, STRIKES, TURNS_BACK, SITS }
  * One course on one day: [season] is the Chinese reckoning's season-month, 0 the first month of
  * spring (Hor month 11, the tiger month) to 11 the last of winter; [variant] says which of a course's
  * readings holds, where it has several (the sky door's kind, *zin phung*'s quarter, the class whose
- * time it is); [date], the lunar date it fell on, as it stands ([EarthLordCourses.of] sets it).
+ * time it is); [date], the lunar date it fell on, as it stands, and [animal], the date's animal
+ * ([EarthLordCourses.of] sets both).
  */
-data class CourseDay(val course: EarthLordCourse, val event: CourseEvent, val season: Int, val variant: String? = null, val date: Int? = null) {
-}
+data class CourseDay(
+    val course: EarthLordCourse,
+    val event: CourseEvent,
+    val season: Int,
+    val variant: String? = null,
+    val date: Int? = null,
+    val animal: Animal? = null,
+)
 
 /**
- * How a course by season-month fell on a day, the line of its reading's *How it falls* row (SPEC
- * §8.1, rule 4): [season] the season-month it matched, 0 the first month of spring to 11 the last
- * of winter; [date] the date that fell; [dates] the dates of the season's three months in turn, of
- * which [date] is the one of [season].
+ * How a course fell on a day, the line of its reading's *How it falls* row (SPEC §8.1, rule 4): the
+ * line of the course's table that holds the shown day, never the table. [season] is the season-month,
+ * 0 the first month of spring to 11 the last of winter. [at] is the catalog key of what the line adds,
+ * the hour, the time of day or the way the course goes (`CourseAt.*`), where the source gives one;
+ * [label] the key of what the course does on the line (`CourseFall.event.*`), named where one reading shows
+ * two lines, the nyen moving and striking on one date.
  */
-data class CourseFall(val season: Int, val date: Int, val dates: List<Int>) {
+sealed interface Fall {
+    val at: String?
+    val label: String?
+}
+
+/** A course with one date in each season-month: [dates] the season's three in turn, [date] the one of [season]. */
+data class CourseFall(
+    val season: Int,
+    val date: Int,
+    val dates: List<Int>,
+    override val at: String? = null,
+    override val label: String? = null,
+) : Fall {
     /** The season, 0 spring to 3 winter. */
     val quarter: Int get() = season / 3
 
     /** The month within the season, 0 the first, 1 the middle, 2 the last. */
     val monthOfSeason: Int get() = season % 3
 }
+
+/** A course with its own dates in each season-month: [dates] those of [season], [date] the one that fell. */
+data class MonthFall(
+    val season: Int,
+    val date: Int,
+    val dates: Set<Int>,
+    override val at: String? = null,
+    override val label: String? = null,
+) : Fall
+
+/**
+ * A course by the date's animal: [animals] are its days in [season], or in the whole of [season]'s
+ * season where [wholeSeason]; [animal] the shown day's.
+ */
+data class AnimalFall(
+    val season: Int,
+    val animal: Animal,
+    val animals: Set<Animal>,
+    val wholeSeason: Boolean = false,
+    override val at: String? = null,
+    override val label: String? = null,
+) : Fall
+
+/** A course on the same [dates] of every month (the sky doors by the date's last figure), [date] the one that fell. */
+data class EveryMonthFall(val date: Int, val dates: Set<Int>, override val at: String? = null, override val label: String? = null) : Fall
 
 /**
  * The courses of WB vol. 2, pp. 226–235, read on the scan (docs/sources/earth-lord-courses.md).
@@ -115,10 +161,16 @@ object EarthLordCourses {
 
     /** The *pi ling 'phar ma*: one date and hour in each season-month. */
     val PI_LING: List<Set<Int>> = bySeason(28, 18, 8, 25, 15, 5, 21, 11, 1, 29, 19, 9)
+    val PI_LING_HOURS: List<Animal> = listOf(PIG, MONKEY, SNAKE, PIG, MONKEY, SNAKE, DOG, SHEEP, DRAGON, BIRD, HORSE, RABBIT)
 
     /** *Zin phung* (section 14): the days it moves on in each season, and the spring days it sits in the middle. */
     val ZIN_PHUNG_DAYS: List<Set<Animal>> = listOf(setOf(TIGER, MONKEY), setOf(OX, SHEEP), setOf(DOG, DRAGON), setOf(PIG, SNAKE))
     val ZIN_PHUNG_MIDDLE: Set<Animal> = setOf(MOUSE, HORSE, BIRD, RABBIT)
+
+    /** *Zin phung*'s time of day, month by month from the first month of spring (`CourseAt.*`). */
+    val ZIN_PHUNG_TIMES: List<String> = listOf(
+        "ROOST", "MIDNIGHT", "DAWN", "LATE_AFTERNOON", "FIRST_SUN", "MORNING_WARMTH", "NIGHTFALL", "SUNRISE", "MORNING", "NOON", "MIDNIGHT", "EVENING",
+    )
 
     /** *Phung po zor thogs* (section 15), by animal month from the tiger. */
     val PHUNG_ZOR: List<Set<Int>> = bySeason(8, 8, 9, 3, 23, 9, 7, 17, 8, 1, 16, 9)
@@ -133,6 +185,7 @@ object EarthLordCourses {
 
     /** *Hal khyi nag po* (section 17), seeking food: one date and hour in each animal month from the tiger. */
     val HAL_KHYI: List<Set<Int>> = bySeason(8, 16, 24, 9, 18, 27, 10, 20, 30, 11, 22, 3)
+    val HAL_KHYI_HOURS: List<Animal> = listOf(BIRD, HORSE, TIGER, OX, PIG, BIRD, SNAKE, DRAGON, TIGER, BIRD, MONKEY, RABBIT)
 
     /** *Gnam khyi nag po* (section 18), its first course: the days of each season-month it seeks food on. */
     val GNAM_KHYI: List<Set<Animal>> = listOf(
@@ -140,6 +193,9 @@ object EarthLordCourses {
         setOf(DOG, SHEEP), setOf(PIG, SNAKE), setOf(MOUSE, HORSE, MONKEY),
         setOf(DRAGON, SHEEP), setOf(TIGER, SHEEP, PIG), setOf(MOUSE, RABBIT, MONKEY),
         setOf(OX, TIGER, DRAGON), setOf(TIGER, DRAGON, DOG), setOf(PIG, RABBIT, MOUSE),
+    )
+    val GNAM_KHYI_TIMES: List<String> = listOf(
+        "MORNING_WARMTH", "NOON", "DAYBREAK", "LATE_AFTERNOON", "SUNRISE", "DUSK", "DUSK", "MORNING_WARMTH", "MIDNIGHT", "LATE_AFTERNOON", "SUNSET", "DUSK",
     )
 
     /** *Gnam sbyor* (section 19), by season-month. */
@@ -164,6 +220,11 @@ object EarthLordCourses {
 
     /** *Ngam shing* (section 23): eight season-months, one date each. */
     val NGAM_SHING: Map<Int, Int> = mapOf(0 to 10, 1 to 20, 4 to 30, 5 to 12, 6 to 10, 7 to 20, 10 to 30, 11 to 12)
+
+    /** The way *ngam shing* goes in each of its season-months (`CourseAt.*`). */
+    val NGAM_SHING_WAYS: Map<Int, String> = mapOf(
+        0 to "EAST_WEST", 1 to "EAST_WEST", 4 to "SOUTH_NORTH", 5 to "EAST_WEST", 6 to "WEST_EAST", 7 to "EAST_WEST", 10 to "SOUTH_NORTH", 11 to "EAST_WEST",
+    )
 
     /** *Ka khyung ki kang* (section 25), by groups of animal months. */
     val KA_KHYUNG: Map<Set<Int>, Set<Int>> = mapOf(
@@ -331,19 +392,63 @@ object EarthLordCourses {
     private fun in3(map: Map<Set<Int>, Set<Int>>, season: Int, date: Int) = map.any { (m, d) -> season in m && date in d }
 
     /**
-     * The line [day] fell on, for a course that gives one date to each season-month: the season's
-     * three dates in turn and the one that fell. Null for the courses whose *How it falls* row is not built yet (ROADMAP X7)
-     * and for a [CourseDay] made without its date.
+     * The line [day] fell on (SPEC §8.1, rule 4; ROADMAP X7): for a course with one date in each
+     * season-month the season's three in turn, for one with its own dates this month's, for one by
+     * the date's animal the month's or the season's animals, for the sky doors the same dates of
+     * every month. Null for a [CourseDay] made without its date, for one whose date or animal is
+     * not the course's, for the black months, whose line is their reading's (`reading.EarthLord.ZLA_NAG.<part>.falls`,
+     * `KI_KANG_ZLA_NAG.<year>.falls`), and for the planets' and ogres' times, whose reading names Viṣṭi's dates.
      */
-    fun fall(day: CourseDay): CourseFall? {
+    fun fall(day: CourseDay): Fall? {
         val date = day.date ?: return null
-        val table = when (day.course) {
-            EarthLordCourse.NAG_CHUNG -> NAG_CHUNG
-            else -> return null
+        val s = day.season
+        val event = day.event.takeIf { day.course in setOf(EarthLordCourse.GNYAN, EarthLordCourse.SDE_BRGYAD, EarthLordCourse.KLU) }
+            ?.let { "CourseFall.event.${it.name}" }
+        fun season(table: List<Set<Int>>, at: String? = null): Fall? {
+            if (date !in table[s]) return null
+            val first = s / 3 * 3
+            return CourseFall(s, date, (first..first + 2).map { table[it].single() }, at, event)
         }
-        if (date !in table[day.season]) return null
-        val first = day.season / 3 * 3
-        return CourseFall(day.season, date, (first..first + 2).map { table[it].single() })
+        fun month(dates: Set<Int>, at: String? = null): Fall? = MonthFall(s, date, dates, at, event).takeIf { date in dates }
+        fun in3(map: Map<Set<Int>, Set<Int>>) = month(map.filterKeys { s in it }.values.flatten().toSet())
+        fun animals(set: Set<Animal>, whole: Boolean, at: String? = null): Fall? =
+            day.animal?.takeIf { it in set }?.let { AnimalFall(s, it, set, whole, at) }
+        return when (day.course) {
+            EarthLordCourse.NAG_CHUNG -> season(NAG_CHUNG)
+            EarthLordCourse.PI_LING -> season(PI_LING, "CourseAt.hour.${PI_LING_HOURS[s].name}")
+            EarthLordCourse.ZIN_PHUNG -> if (day.event == CourseEvent.SITS) {
+                animals(ZIN_PHUNG_MIDDLE, true)
+            } else {
+                animals(ZIN_PHUNG_DAYS[s / 3], true, "CourseAt.${ZIN_PHUNG_TIMES[s]}")
+            }
+            EarthLordCourse.PHUNG_ZOR -> season(PHUNG_ZOR)
+            EarthLordCourse.KI_KANG -> in3(KI_KANG)
+            EarthLordCourse.HAL_KHYI -> season(HAL_KHYI, "CourseAt.hour.${HAL_KHYI_HOURS[s].name}")
+            EarthLordCourse.GNAM_KHYI -> animals(GNAM_KHYI[s], false, "CourseAt.${GNAM_KHYI_TIMES[s]}")
+            EarthLordCourse.GNAM_SBYOR -> season(GNAM_SBYOR)
+            EarthLordCourse.GZA_RGOD -> in3(GZA_RGOD)
+            EarthLordCourse.DBUL_PO -> month(DBUL_PO[s])
+            EarthLordCourse.GZA_BDUN, EarthLordCourse.BAR_KHYI -> season(GZA_BDUN)
+            EarthLordCourse.NGAM_SHING -> NGAM_SHING[s]?.let { month(setOf(it), "CourseAt.${NGAM_SHING_WAYS.getValue(s)}") }
+            EarthLordCourse.KA_KHYUNG -> in3(KA_KHYUNG)
+            EarthLordCourse.DRA_CHEN -> in3(DRA_CHEN)
+            EarthLordCourse.SDE_BRGYAD -> month(if (day.event == CourseEvent.STRIKES) SDE_BRGYAD_STRIKES[s] else SDE_BRGYAD_TURNINGS[s])
+            EarthLordCourse.SA_BDAG_BZLOG -> month(SA_BDAG_BZLOG[s])
+            EarthLordCourse.SPUG_STON -> month(SPUG_STON[s].getValue(day.variant!!))
+            EarthLordCourse.GNYAN -> when (day.event) {
+                CourseEvent.MOVES -> season(GNYAN_MOVES)
+                CourseEvent.STRIKES -> month(GNYAN_STRIKES[s])
+                else -> month(GNYAN_TURNINGS[s])
+            }
+            EarthLordCourse.KLU -> month(if (day.event == CourseEvent.STRIKES) KLU_STRIKES[s] else KLU_TURNINGS[s])
+            EarthLordCourse.CLASS_TIMES -> CLASS_TIMES[s % 3][day.variant]?.let { month(it) }
+            EarthLordCourse.GNAM_SGO -> EveryMonthFall(date, (1..30).filter { (it - 1) % 10 == (date - 1) % 10 }.toSet())
+            EarthLordCourse.ZHAG_NAG -> {
+                val month = (TIGER.ordinal + s) % 12
+                animals(setOf(Animal.entries[(month + 3) % 12], Animal.entries[(month + 9) % 12]), false)
+            }
+            EarthLordCourse.ZLA_NAG, EarthLordCourse.KI_KANG_ZLA_NAG, EarthLordCourse.NAG_CHEN -> null
+        }
     }
 
     /**
@@ -398,7 +503,7 @@ object EarthLordCourses {
             moves(EarthLordCourse.CLASS_TIMES, date in VISHTI_DATES, "srin po")
             add(CourseDay(EarthLordCourse.GNAM_SGO, CourseEvent.MOVES, s, skyDoor(date)))
             moves(EarthLordCourse.ZHAG_NAG, blackDay(s, dayAnimal))
-        }.map { it.copy(date = date) }
+        }.map { it.copy(date = date, animal = dayAnimal) }
     }
 
     /** The Chinese reckoning's year of [day]: the Tibetan year's animal, the next from the 11th month on. */
