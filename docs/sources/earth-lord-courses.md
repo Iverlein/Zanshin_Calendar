@@ -375,6 +375,37 @@ hours (p. 236: a grave site, building, feasts, consecration, enthronement,
 teaching, a new land, a bride and all important works bad; fierce work
 strikes; a swastika and the sun and moon at the door).
 
+## KP's table of when the lords move, 2026-10-19
+
+KP's second part, §17 (BDRC I4CZ65599 img. 105–106; the book's own
+img. 103–104), sets out month by month from the 11th Hor month «ཧོར་ཟླ་༡༡ ཚེས་ལ་ས་བདག་རྒྱུ་དུས།»
+which lords move and at what time of day. Base text Yigdzin-1; the first
+line of each page read by eye on the scan at 3×: «…ཟིན་ཕུང་བྱ་ཉལ་དུས་ལྷོ་ནས་བྱང་། གནམ་ཉི་དྲོས། ཧལ་ཉི་ནུབ། རྒྱལ་པོ་ཐོ་རེངས། …».
+
+- **Zin phung** (no. 14): Hor month 11 at roosting time, 12 at midnight,
+  1 at dawn, 2 «མྱུར་སྨད», 3 «རྩེ་ཤར», 4 «རྡེལ་མགོ་དྲོས», 5 «ས་སྲོད», 6 «རྩེ་ཤར», 7 «སྔ་དྲོ»,
+  8 «ཉི་ཕྱེད», 9 «ནམ་ཕྱེད», 10 «སྲོད»; south to north in 11–1, west to east in
+  2–4, north to south in 5–7, east to west in 8–10. This is WB's course
+  (p. 227) with its seasons the Chinese reckoning's, the 11th month the
+  first of spring, as `ZIN_PHUNG_TIMES` and `SeasonReckoning` have it; KP
+  writes «རྡེལ་མགོ», as the 1996 edition, not the Zhol print's «རྡོལ་འགོ».
+- **Gnam khyi** (no. 18): «གནམ་» 11 «ཉི་དྲོས», 12 «ཉི་ཕྱེད», 1 «ཐོ་རེངས», 2 «མྱུར་སྨད», 3 «རྩེ་ཤར»,
+  4 and 5 «སྲོད», 6 «ཉི་དྲོས», 7 «ནམ་ཕྱེད», 8 «ཉི་མྱུར», 9 «ཉི་ནུབ», 10 «སྲོད»: WB's first way
+  (p. 229), month for month; the second way is not in the table.
+- **Hal khyi** (no. 17): «ཧལ་» 11 «ཉི་ནུབ», 12 «ཉི་ཕྱེད», 1 «ཐོ་རེངས», 2 «ནམ་ཕྱེད་ཡོལ», 3 «སྲོད་འཁོར»,
+  5 «ཉི་དྲོས», 6 «ཉི་ཤར», 7 «ཐོ་རེངས», 8 «ཉི་ནུབ», 9 «ཉི་མྱུར», 10 «ནམ་ལངས» (4 not read):
+  the times of day of WB's hours (`HAL_KHYI_HOURS`: bird, horse, tiger, ox,
+  pig, —, snake, dragon, tiger, bird, monkey, hare), each where its hour falls.
+- Other lords in the table, by month, not compared here: *rgyal po*, *btsan*
+  and *gnod sbyin* (sunrise, noon), *klu*, *bzlog* and *thebs* by the hour's
+  animal, *dam*/*ngam* with a direction, *gshin rje* (late afternoon),
+  *bdud* and *ma mo* (evening).
+
+So the print digesting WB carries the same courses and the same seasons
+the app builds; nothing changes. §13–16 (img. 89–104) are charts of the
+year's, month's and day's lords, §18 (img. 107–120) the remedies in verse;
+they were machine-read (Yigdzin-1) and not compared.
+
 ## After p. 235: the earth lords of the hour
 
 Read 2026-10-09 for ROADMAP T2.20 on the scans (img. 243–244), the lines

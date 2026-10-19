@@ -1128,7 +1128,10 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
 - Open question 45: «དབུལ་ལག» in boxes 20, 25, 59 and 62. Answered 2026-10-18: one earth lord (below, *Three of the open words*).
 - Not done: the second part of KP (img. 87–118, the earth lords of the year,
   month, day and hour as charts, and the remedies) is not read; it is the
-  place that may say what each lord of these runs does.
+  place that may say what each lord of these runs does. *2026-10-19:* §17, when the
+  lords move, read against WB ([earth-lord-courses.md](earth-lord-courses.md),
+  *KP's table of when the lords move*): zin phung, gnam khyi and hal khyi as
+  built; the charts and remedies machine-read only.
 
 ### Searched and not found
 
