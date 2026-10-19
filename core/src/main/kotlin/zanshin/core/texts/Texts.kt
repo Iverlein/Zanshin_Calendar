@@ -403,6 +403,8 @@ object Sources {
     val WHITE_BERYL_DPAL_BYUR = whiteBeryl("chapter 22, pp. 295–297, with the notes in vol. 2, p. 476", volume = 1)
     /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_SHARES = whiteBeryl("chapter 22, pp. 294–295", volume = 1)
+    /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_RISE_DECLINE = whiteBeryl("chapter 22, pp. 331–333, with the notes in vol. 2, p. 475", volume = 1)
     /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_MEWA = whiteBeryl("chapter 22, pp. 288–294", volume = 1)
     /** The five bodies and the thirty paired-year elements (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2067,6 +2069,10 @@ object Texts {
 
     /** The *ni sha* reckoning [r] (WB vol. 1, ch. 23, p. 359). */
     fun matchNiSha(r: NiSha): Reading = Reading(key = "reading.MatchNiSha", arg = "reading.MatchNiSha.${r.name}", source = Sources.WHITE_BERYL_MATCH)
+
+    /** The aspect [force] in the stage [sector] of its rise and decline at the birth (WB vol. 1, ch. 22, pp. 331–333). */
+    fun riseDecline(force: Force, sector: Sector): Reading =
+        Reading(key = "reading.RiseDecline", arg = "reading.RiseDecline.${force.name}.${sector.name}", source = Sources.WHITE_BERYL_RISE_DECLINE)
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
     fun birthMewa(natal: Int): Reading =

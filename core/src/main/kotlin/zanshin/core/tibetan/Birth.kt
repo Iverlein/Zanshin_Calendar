@@ -306,6 +306,20 @@ object BirthReckoning {
     }
 
     /**
+     * The four pebbles of rise and decline (the notes, vol. 2, p. 475): the life force, body, destiny and luck of the
+     * birth year, each counted onto the birth's own year, month, day and hour in turn; the hour is left out, the
+     * time of birth not being kept. The stage's readings are pp. 331–333.
+     */
+    fun riseDecline(born: TibetanDay): List<Pair<Force, Sector>> {
+        val f = Forces.of(born.yearElement, born.yearAnimal)
+        return listOf(
+            Force.VITALITY to YearOfLife.sector(f.vitality, born.yearAnimal),
+            Force.BODY to YearOfLife.sector(f.body, born.monthNames.animal),
+            Force.DESTINY to YearOfLife.sector(f.destiny, born.dayAnimal),
+        )
+    }
+
+    /**
      * The age at which p. 294 has a child of a demon die, by the life force [vitality]: wood on dwa at fifteen,
      * iron on li at twelve, fire on kham at nine, water on the four corners at six, earth on zin at three.
      */
