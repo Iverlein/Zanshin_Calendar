@@ -75,7 +75,18 @@ and 53). Of the boxes WB names no dates for, 57 and 58 were read again
 (img. 61: «༤ ༨ ༩ ༢༨», the flat 4 and the curled 9, as built) and 59 corrected
 against them; 15, 17, 24, 28–30 and others keep the O10f digits, read
 against nothing. Box 42's «༣» and «༡༢» were compared with the 2s and the 3
-of the same box and stand. Box 62's eight good dates are WB's work 62
+of the same box and stand.
+
+**A third print, in clean type (2026-10-19).** The *Collected
+Astrological and Prognosticatory Texts from Bhutan* (Thimphu, 1981;
+BDRC I1KG11905, img. 369–411, printed pp. 359–401; 5216 px; full etext
+`VEIE0OPI1829B6AF_I1KG11905`, garbled in the tables) reset KP, title
+*'Bras rtsis bai dkar dgongs don*, box for box in clean letters and
+digits. Read by eye there: box 8 «༣ ༧ ༡༡ ༡༢ ༡༤ ༡༥ ༡༧ ༡༩ ༢༥» / «༡༠ ༢༠ ༢༢ ༣༠», box 9 as
+built, box 16's month dates «ཟླ་ཚེས» with «༡༡ ༢༧», «༡༢ ༢༥», «༡ ༢༣» beneath, box 28 «༡༡
+༢༢ ༢༩», box 41 «༤ ༥ ༡༦ ༢༤», box 45 with its «༢༣», box 56 «༡༨ ༢༥ ༢༨ ༢༧» / «༢ ༦ ༡༢ ༡༤»: each as KP
+was read today. Boxes 39 and 50, crowded or cursive in KP and KP2, were
+read and built from it. It is the print to check a KP digit on first. Box 62's eight good dates are WB's work 62
 («ཚེས་བཞི་བདུན་དང་ཉེར་གཅིག་དང་། །ཉེར་བརྒྱད་གནམ་གང་གསུམ་བཅོ་ལྔ། །བཅུ་བཞི་བཟང», vol. 2,
 pp. 426–427, etext), and box 24's 29th WB's work 17. A further sweep of O10f's
 digits should start from those shapes.
