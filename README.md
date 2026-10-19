@@ -37,7 +37,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   energy, and the year's obstacles, each with the remedies the White
   Beryl gives for it; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
-  parent or a son brings.
+  parent or a son brings; and the birth: the natal trigram, the child of
+  the gods, glory, life, spirits or demons it makes one, and the readings
+  of the parents' trigrams at the birth.
 - **Health:** what falling ill today means by the date, the weekday,
   the link and the goddess of the day, the four perilous days; where the
   la sits by the date and moves through the day; the day's mansion as a

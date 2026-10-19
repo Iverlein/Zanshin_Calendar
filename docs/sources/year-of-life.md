@@ -685,6 +685,11 @@ obstacle that falls when the year of age's trigram reaches the natal one
 (KD vol. 3, p. 508, etext only): «རང་སྐྱེས་སྤར་ཁའི་སྟེང་སླེབས་པ། །གསང་ཀེག་…»,
 the secret obstacle (གསང་ཀེག, gsang keg) of ch. 24 (RD14).
 
+**Built 2026-10-19** (ROADMAP R2a, SPEC §5.9.2): the five by the natal
+trigram (p. 294) and the parents' trigrams at the birth (p. 326), from the
+passages above as read on the scan; the rest of the chapter waits on its
+reading.
+
 ### The rest of the chapter, outlined (etext and Yigdzin-1)
 
 By printed page (image = page + 10); not read on the scan:

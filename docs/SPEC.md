@@ -489,7 +489,7 @@ generations, which WB rejects; the household's pebble round, the
 household's trigrams piled and its mewa gathered by colour (questions 96
 and 158: who counts, and how many make a pile); the births by the natal trigram
 against the life force and the parents' trigrams at the birth (ch. 22,
-pp. 294, 326), which belong to the birth reckoning (ROADMAP R); the
+pp. 294, 326), which are the birth reckoning's (§5.9.2); the
 four counted signs of the progressed sign (lifeline, peg, sky and earth
 extension); the clan's nine-multiple (no clan is asked); the
 readings of the mewa's nine-multiple by kind of person, which WB gives as
@@ -497,6 +497,55 @@ what "some hold"; the tomb days of the month (the 6th, 18th and 30th),
 which are days, not years, and have no reading; and the Chinese pebble
 divination that ends the chapter (pp. 416–452), a casting, not a
 reckoning.
+
+#### 5.9.2 The birth
+
+WB vol. 1, ch. 22, the reckoning of lives and karma (*tshe rabs las
+rtsis*), as far as it is built (ROADMAP R2, 2026-10-19;
+[sources/year-of-life.md](sources/year-of-life.md), RD13): the parts read
+on the scan that follow from the years alone. `BirthReckoning`
+(core `tibetan/Birth.kt`):
+
+- **The natal trigram**, the mother's trigram in the year of the birth
+  (§5.9.1, `KinReckoning.natalTrigram`); without the mother's birth year
+  nothing of the birth is reckoned.
+- **The five children** (p. 294): the natal trigram's element (li fire,
+  khon earth, dwa iron, kham water, zin wood; khen, gin and zon earth, by
+  the *Moonbeams*) against the life force of the birth year: its mother,
+  the parents' god (*pha ma lha*); its son, the children's glory (*bu
+  tsha dpal*); the same, harmony that is life (*mthun pa tshe*); the
+  element it overcomes, a spirit that can be survived (*thub pa 'dre*);
+  its enemy, a demon that cannot (*mi thub bdud*), dying at fifteen for
+  wood, twelve for iron, nine for fire, six for water and three for
+  earth. WB's worked count is the test (`BirthTest`). The ages p. 294
+  gives the other four are those of its example, the horse and snake
+  years, and are not shown.
+- **The parents' trigrams at the birth** (p. 326), the father's being his
+  trigram of the year of the birth: a son with the father on zin and the
+  mother on dwa, the father soon dies; a daughter with the father on gin
+  and the mother on zin, the mother; on khen a son of a dog or dragon
+  mother, or a child of a dog or dragon year, bad for the father; a son
+  on li to a father on khen, the same; on khon a daughter of an ox or
+  sheep mother, or an ox or sheep daughter, bad for the mother; on zon
+  any child of a dog or dragon mother, or a dog or dragon son, no sister
+  to call one, and on gin any child of an ox or sheep mother likewise; on
+  gin an ox or sheep daughter, bad for her brothers; a daughter on the
+  trigrams p. 326 lists for her year (the horse, snake, mouse and pig on
+  kham; the tiger, hare, bird and monkey on dwa or zin; the ox and sheep
+  on khon or gin; the dog and dragon on zon; any on khen) counts
+  hearthstones (*skyed po bgrang*), setting up house again and again.
+  Without the child's gender the readings for a son or a daughter are
+  left out, without the father's year those that ask for his trigram.
+
+**Not calculated** yet: the pebbles of the birth (the four precious, the
+special pebble of the clan, which is asked, the indispensable two, the
+five of unchanging luck, the hundred, the rise and decline, the decisive
+twenty, pp. 259–262), whose colours and readings past p. 262 are not
+read on the scan; the readings of the sixty years and of the mewa of the
+birth; the line of births; the readings of p. 326 that need the order of
+the siblings or end "and the like" (an earlier child on li and a later
+on khen; mother and child on enemy trigrams); the five by the year
+(p. 347), another count of the same five, not shown beside p. 294's.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -3161,9 +3210,22 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   each reckoning built, with the person's value for the year (today
   "Your 51st year · Fire Horse year"), opening its own view. With no one
   chosen, a line that the reckonings are made from a birth date and the
-  way to People (§10.5). Built: the year of age. WB's other reckonings,
-  chapters 22–30, join it one by one as R2… (ROADMAP R), in the order of
-  the inventory (RD11, RD17); `Reckoning` in the app lists them.
+  way to People (§10.5). Built: the birth, its row "Natal trigram lake
+  (དྭ, dwa) · the children's glory", or "Needs your mother's birth year";
+  the year of age. WB's other reckonings, chapters 23–30, join them one
+  by one as R2… (ROADMAP R), in the order of the inventory (RD11, RD17);
+  `Reckoning` in the app lists them.
+- **The birth** (§5.9.2): Back, the title "The birth" and the person's
+  name; the person's birth year and its life force; under "The natal
+  trigram" its row (as in the year of age) and the child it makes them;
+  under "The parents' trigrams" each reading that holds, or a line that
+  none does, with notes asking for the gender and the father's birth year
+  where they are missing; a closing note on what of the reckoning is
+  reckoned. Each row opens its reading, whose workings give the life
+  force, the trigram and its element, a demon's age, both parents'
+  trigrams and years and the one born. Without the mother's birth year,
+  a line that the birth is reckoned from her trigram and the way to
+  People.
 - **The year of age** (§5.9.1): its header has Back, the title, the
   Tibetan year as its sign and civil span ("Fire Horse year ·
   2026–2027"), and the year before and after; the year before the
@@ -3184,7 +3246,7 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   stepped to is reckoned from its place in the sixty-year cycle
   (`YearOfLife.yearSign`), the same as from any day in it
   (`ReckoningsTest`).
-- **Back** leads the way it came: from the year of age to the list, or,
+- **Back** leads the way it came: from a reckoning to the list, or, from the year of age,
   when the year's balloon opened it, to the page; from the list out of
   the section.
 
