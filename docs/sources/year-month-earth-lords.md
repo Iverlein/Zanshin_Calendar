@@ -1613,8 +1613,28 @@ offence at the head of the household and paternal kin.
 > ས་བདག་སྡོམ་ཁྱི(༤༠)ཞེས་བྱ་བ། །དཔྱིད་གསུམ་བྱང་སྨད་དབྱར་ཤར་སྨད། །སྟོན་གསུམ་ལྷོ་སྨད་དགུན་ནུབ་ [p. 209, img. 217] སྨད། །འབྲིང་པོ་བཞི་ཡི་སྟེང་ན་གནས། །ལས་ཐབས་རོ་ཕྱོགས་ངན་པ་སྟེ། །ཀོ་ལོང་དོ་བདག་ཕ་ཚན་སྡོམ། །ཉམས་ན་རྒྱལ་པོ་མདོ་ལྔ་སྒྲོག །སྒྲིབ་ཐབས་སྤྱི་ལྟར་བྱས་ན་ཐུབ།།
 
 Spring lower north, summer lower east, autumn lower south, winter lower
-west, and «འབྲིང་པོ་བཞི་ཡི་སྟེང», over the four middle (months or quarters; not
-settled). The corpse direction is bad. Remedy: the five sūtras of kings.
+west, and «འབྲིང་པོ་བཞི་ཡི་སྟེང», in the four middle months (settled
+2026-10-19, below). The corpse direction is bad. Remedy: the five sūtras
+of kings.
+
+**The four middle are months, 2026-10-19 (open question 31).** In ch. 31
+(vol. 2, pp. 195–231, etext) «འབྲིང» occurs 124 times and never names a
+direction: it is the middle month of a season, beside the first (ར་བ, ra
+ba) and the last (ཐ་ཆུང, tha chung), in all but a handful of uses, the
+others being the middle of three in another set (the middling of «རྒྱས་འབྲིང་བསྡུས»,
+p. 229; «འབྲིང་བཞིའི་ལོ», the years, p. 195). The intermediate
+quarters are always «མཚམས», as in «ཐ་ཆུང་ལྷོ་ནུབ་མཚམས་ན་གནས» (p. 209; 18 uses).
+The same chapter has the four middle months as a set in so many words:
+«ར་བཞི་སྔ་དྲོ་འབྲིང་བཞི་སྲིད། །ཐ་ཆུང་བཞི་ཡི་ནམ་གུང» (p. 209), the four
+first months in the morning, the four middle ones..., and the four last at
+midnight; and «ར་བཞིའི་སྟོད་དང་འབྲིང་བཞིའི་སྒང་། །ཐ་ཆུང་བཞི་ཡི་ཟླ་…»
+(p. 220), the upper part of the four first months, the middle of the four
+middle ones. «སྟེང་ན་གནས», "stays on", is the chapter's word for the
+months a lord holds: the guard dog's neighbour «གཟིག་སློག» «གང་ཤར་ཟླ་བའི་སྟེང་ན་གནས»
+(p. 208) and the boar-headed «ཟླ་བ་གང་ཤར་སྟེང་ན་གནས» (p. 209). So the
+guard dog stays in the middle month of each season, in the lower north in
+spring, the lower east in summer, the lower south in autumn and the lower
+west in winter.
 
 #### 41. The month's minister Tsangkun (ཙང་ཀུན, tsang kun) (p. 209, img. 217)
 
@@ -2104,7 +2124,8 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   may be misprints (pp. 202, 206, 207, 209, 222), answered 2026-10-18: the
   Zhol print reads all five as the 1996 edition does, so they are the
   blocks'; 31, the guard dog's
-  «འབྲིང་པོ་བཞི» (pp. 208–209); 32, which of WB's views the almanacs follow.
+  «འབྲིང་པོ་བཞི» (pp. 208–209), answered 2026-10-19: the four middle
+  months (no. 40); 32, which of WB's views the almanacs follow.
 
 ### Searched and not found
 

@@ -527,10 +527,19 @@ the text, not about the app.
     (img. 922), no horse month (img. 924), «ཉེར་ལྔ་མ་གཏོགས་ཀུན» (img. 939); the
     four others by Yigdzin-1. They are the blocks', not the typesetting's.*
 
-31. **WB vol. 2, pp. 208–209 (img. 216–217): the guard dog's
+31. **Answered 2026-10-19. WB vol. 2, pp. 208–209 (img. 216–217): the guard dog's
     «འབྲིང་པོ་བཞི་ཡི་སྟེང».** Are these the four middle months of the seasons or
     the four intermediate quarters, for the guard dog (སྡོམ་ཁྱི, sdom khyi)
     (2026-10-11, RD4, [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Answered 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md), no. 40):
+    the four middle months. In ch. 31 «འབྲིང» never names a direction: in all
+    but a handful of its 124 uses it is a season's middle month, and the
+    intermediate quarters are «མཚམས»; the
+    chapter names the set itself, «ར་བཞི་སྔ་དྲོ་འབྲིང་བཞི་སྲིད། །ཐ་ཆུང་བཞི་ཡི་ནམ་གུང»
+    (p. 209) and «ར་བཞིའི་སྟོད་དང་འབྲིང་བཞིའི་སྒང» (p. 220), and «སྟེང་ན་གནས» is
+    its word for the months a lord holds (pp. 208, 209). The guard dog stays
+    in each season's middle month, at the lower north, east, south and west
+    in turn.*
 
 32. **WB vol. 2, ch. 31: which view do the almanacs follow?** Where WB
     gives a course and then other views without saying which is the main
