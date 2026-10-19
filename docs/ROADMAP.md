@@ -3486,8 +3486,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   readings of the first, middle and last years (p. 283, `YearPlace`).
   The cutting and tearing among one's own four aspects followed the same
   day (pp. 281–282, ten pairs, `BirthCut`), with its group cuts (p. 282,
-  `GroupCut`). Next in the chapter: the expanded first, middle and last,
-  then the sixty years
+  `GroupCut`), and the full readings of the first, middle and last
+  (pp. 283–284, `YearPlaceFull`; their lines not yet compared with the
+  scan one by one). Next in the chapter: the sixty years
   (pp. 263–270). Left besides: the pebble of the time; the four precious
   pebbles (open question 160). Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,

@@ -558,7 +558,8 @@ on the scan that follow from the years alone. `BirthReckoning`
 - **The first, middle and last years** (p. 283): the birth year's class,
   the tiger, monkey, pig and snake first, the mouse, horse, bird and hare
   middle, the ox, sheep, dog and dragon last, each with its condensed
-  reading; how the month, day and hour join it is not given.
+  reading and, beside it, its full reading (pp. 283–284); how the month,
+  day and hour join it is not given.
 - **The luck triad** (pp. 280–281): one reading for each triad of birth
   years that share a luck (*klung rta*): mouse, dragon, monkey; tiger,
   horse, dog; bird, ox, snake; pig, sheep, hare.
