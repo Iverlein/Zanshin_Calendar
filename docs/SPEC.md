@@ -554,6 +554,11 @@ on the scan that follow from the years alone. `BirthReckoning`
   the forefathers' fault, the illnesses and the harm now, and the line on
   the mother's trigram at the birth where it names one trigram. The
   thirty's bodies are the years' body elements (`BirthTest`).
+- **The natal mewa** (pp. 288–294): the births under each of the nine,
+  by the birth year's mewa (§5.9.1), with whose child one is, the former
+  life, the span of life, the image to make for a better rebirth as the
+  remedy, the spirits and the illnesses; the marks on the body and the
+  next lives without a remedy are not shown (year-of-life.md).
 - **The year's own destiny** (pp. 261, 275–280), one of the two pebbles
   that cannot be lacking: the birth year's destiny, its element, against
   its life force, by its animal: one element *kha yan*, destiny begetting
@@ -593,8 +598,7 @@ on the scan that follow from the years alone. `BirthReckoning`
 whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
-read on the scan; the readings of the mewa of the birth; the line of
-births; the readings of p. 326 that need the order of
+read on the scan; the line of births; the readings of p. 326 that need the order of
 the siblings or end "and the like" (an earlier child on li and a later
 on khen; mother and child on enemy trigrams); the five by the year
 (p. 347), another count of the same five, not shown beside p. 294's.
@@ -3279,7 +3283,8 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   trigram" its row (as in the year of age) and the child it makes them;
   under "The birth year" first "The year animal's nature" (its animal
   under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
-  element) and "Its pair among the thirty" (the pair's two years), then the
+  element) and "Its pair among the thirty" (the pair's two years) and "The natal mewa"
+  ("Born under 6 white"), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
