@@ -1061,3 +1061,32 @@ son, either way), «དགྲ་ཕྲད་ངན» (enemies, either way) and, 
 mewa's demon, with «བསྡེབས་ན་གཏོ་ལ་བདུན་ཚོག་བྱ» as its rite. `MatchMewa`.
 Not built: the four aspects' mewas (question 161) and «དཀར་ཤས་ཆེ» / «ནག་ཤས་ཆེ»,
 which count over them.
+
+## Built, 2026-10-19 (ROADMAP R3g)
+
+Point 11's meetings (pp. 361–362, quoted above, read on the scan in
+O10). The birth trigram is each spouse's natal trigram, the mother's
+luck trigram at the birth, as the notes take «སྐྱེས་སྤར» («རང་གི་མ་ཀླུང་སྤར་ཁ»,
+p. 524). The kinds and their pairs as printed: sky goddess (the print
+«གནས་སྨན», p. 358's «གནམ་སྨན») ལི་ཁམ ཁོན་ཁེན དྭ་གིན ཟིན་ཟོན; increasing glory ལི་ཟོན
+ཁོན་དྭ ཁེན་གིན ཁམ་ཟིན; sustaining life ལི་ཟིན ཁོན་གིན དྭ་ཁེན and «ཁམ་ཟིན» again;
+demon's cut ལི་ཁེན དྭ་ཟིན ཁོན་ཁམ གིན་ཟོན; body cut ལི་ཁོན དྭ་ཟོན གིན་ཟིན ཁེན་ཁམ;
+five demons ལི་དྭ ཁོན་ཟོན གིན་ཁམ ཁེན་ཟིན; harm ལི་གིན ཁེན་ཟོན དྭ་ཁམ ཁོན་ཟིན. Each kind
+holds each trigram once but sustaining life, whose fourth pair repeats
+increasing glory's; ཁམ་ཟོན, the only pair the print leaves out, would
+fill it. Built as printed without the repeat: ཁམ་ཟིན is increasing
+glory only, and ཁམ་ཟོན meets in none. WB itself warns of "many slips
+from damaged letters" in the pairs («ཡི་གེ་ཉམས་པ་ཡི། །ཁེན་ཁོན་ཤ་གྲི་ཐོགས་པ་སོགས། །འཁྲུལ་པའི་ཆ་ནི་དུ་མ་ཡོད»).
+The five demons and harm swap ཟིན and ཟོན against the Chinese eight
+mansions' scheme; WB's own pairs are kept.
+
+Built: the good kinds' readings, the bad pairs' images and fruits, and
+one trigram joined within with its eight images («ཁ་བུབ», «ས་བསྲུབས»,
+«གྲི་ཕུར་གདབ», «ནམ་མཁར་ཡལ», «ཞབས་སུ་རྡོལ», «རི་ལ་བསྐྱལ», «ཚང་དུ་ཤོར», «གྲིབ་ཀྱིས་ཕོག»;
+«འདི་བརྒྱད་དབང་ཐང་ཆོམ་པོས་ཁྱེར»). Left out of the readings, the words not
+settled: ལི་ཁོན's «འཕྱིང་ཐུམ་གྲིལ་བའི་ཀླུང། །གཙུག་བྲལ་ཀླད་པའི་རྒྱ་སྲུབས་འགས», ལི་དྭ's
+«འདྲེ་ཡི་རྐྱལ་སྟོང», གིན་ཁམ's «ཕྱག་ཚང» (taken as "house"). Not built: the bad
+pairs' rites, the graves (the line ends: a husband on zin with a bride
+of five sheep, …), the four born on their own trigram, the eight
+hand-wavers, the woman's lines (wood tiger or hare women on khon, …)
+and the children's number by trigram pair.
