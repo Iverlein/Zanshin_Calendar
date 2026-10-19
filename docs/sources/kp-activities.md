@@ -562,7 +562,7 @@ The box on the scan, KP BDRC img. 49 (O10f):
 - **Bad:** Sat; bra nye, lag, skag, mchu, nag pa, gro bzhin, snrubs, sa ga, mon gre; days Snake, Monkey
 - **Neither side:** the Moon, Mercury and Venus (in brackets)
 - **Not calculated:** the dates of both halves (crowded in two lines and only partly legible: the good begin 1, 2, 8, 9, 10, the bad 6, 16, 26); the links; rising signs; the earth and water combination and the nectar periods (good); se ba, bla mkhyen, 'phung byed, nag mo and the like (bad)
-- The dates are left out until read with confidence on a better scan.
+- **The dates read in the Bhutan print, 2026-10-19** (I1KG11905, img. 395, printed p. 385; KP reset in clean type, read by eye at full size): good «ཚེས་༡ ༢ ༨ ༩ ༡༠ / ༡༡ ༡༢ ༢༣ ༡༥ ༡༨», bad «ཚེས་༦ ༡༦ ༢༦ ༩ ༢༠ ༢༡ ༢༢ ༢༣ ༢༤ / ༢༥ ༢༧ ༢༨ ༢༩ ༣༠». The 9th and the 23rd stand in both halves and count for neither; built so. Against WB's work 36 (vol. 2, p. 405) the box has the 23rd good where WB has the 13th, and the 9th bad where WB has the 19th; joined, the chapter decides (good 1, 2, 11, 12, 13, 15, 18; bad 6, 7, 16, 19–30; the 8th to the 10th, good and banned, neither).
 - **The scan (O10f):** The dates in brackets above are read at 1.7× and are crowded; not settled digit by digit.
 
 ### 41. Taking attendants and servants — འཁོར་གཡོག་བསྟེན་པར་བཟང་བ
