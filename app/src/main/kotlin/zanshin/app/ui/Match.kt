@@ -15,6 +15,7 @@ import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
 import zanshin.app.MatchReading
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Animal
@@ -22,8 +23,10 @@ import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.MatchMeeting
+import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
+import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.YearSexes
 import zanshin.core.tibetan.YearOfLife
 
@@ -190,6 +193,26 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 ),
                 onOpen,
             )
+        }
+        val manMewa = YearOfLife.yearSmeBa(m.manYear)
+        val womanMewa = YearOfLife.yearSmeBa(m.womanYear)
+        val mewaName = { n: Int -> labels.string(R.string.match_mewa_name, n, Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")) }
+        Section(stringResource(R.string.match_section_mewa))
+        MatchReckoning.mewaMeetings(manMewa, womanMewa).forEach { meeting ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_mewa_title, gloss(meeting)),
+                    english = "",
+                    tone = if (meeting == MatchMewa.MOTHER_SON) Tone.GOOD else Tone.BAD,
+                    reading = Texts.matchMewa(meeting),
+                    subtitle = labels.string(R.string.match_aspect_subtitle, mewaName(manMewa), mewaName(womanMewa)),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        if (MatchReckoning.mewaMeetings(manMewa, womanMewa).isEmpty()) {
+            Text(labels.string(R.string.match_mewa_none, mewaName(manMewa), mewaName(womanMewa)), style = muted)
         }
         Text(stringResource(R.string.match_note), style = muted)
     }

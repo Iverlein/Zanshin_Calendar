@@ -843,7 +843,7 @@
     <string name="birth_share_title">%1$s · %2$s</string>
     <string name="birth_share_mewa">Мева</string>
     <string name="birth_share_subtitle">%1$s: %2$s · триграмма рождения: %3$s, %4$s</string>
-    <string name="birth_share_mewa_subtitle">Мева %1$d %2$s, %3$s · жизненная сила: %4$s</string>
+    <string name="birth_share_mewa_subtitle">%1$d-я мева, %2$s цвет, %3$s · жизненная сила: %4$s</string>
     <string name="birth_section_dpal_byur">Слава и беда</string>
     <string name="birth_dpal_byur_father">У рождённого: %1$s · у отца: %2$s</string>
     <string name="birth_dpal_byur_mother">У рождённого: %1$s · у матери: %2$s</string>
@@ -876,6 +876,10 @@
     <string name="match_pair_line_title">Пара годов · %1$s и %2$s</string>
     <string name="match_pair_line_takes">год мужчины берёт год женщины</string>
     <string name="match_pair_line_either">кто бы ни был мужчиной</string>
+    <string name="match_section_mewa">Мевы рождения</string>
+    <string name="match_mewa_title">Мевы · %1$s</string>
+    <string name="match_mewa_name">%1$d-я мева, %2$s цвет</string>
+    <string name="match_mewa_none">У мужчины %1$s, у женщины %2$s: одна стихия, и они не встречаются ни одним из прочитанных способов.</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>

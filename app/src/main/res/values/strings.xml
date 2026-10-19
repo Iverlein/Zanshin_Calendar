@@ -1021,6 +1021,10 @@
     <string name="match_pair_line_title">Pair of years · %1$s and %2$s</string>
     <string name="match_pair_line_takes">the man\'s year takes the woman\'s</string>
     <string name="match_pair_line_either">whichever is the man</string>
+    <string name="match_section_mewa">The birth mewas</string>
+    <string name="match_mewa_title">Mewas · %1$s</string>
+    <string name="match_mewa_name">mewa %1$d %2$s</string>
+    <string name="match_mewa_none">The man\'s %1$s and the woman\'s %2$s are of one element and meet in none of the ways read.</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
