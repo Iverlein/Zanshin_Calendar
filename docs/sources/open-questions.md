@@ -1253,6 +1253,24 @@ the text, not about the app.
     its rule that the course starts on a man's left and a woman's right
     (BDRC p. 224)? Only snippets were seen; the book is restricted
     (2026-10-12, RD8, [health.md](health.md)).
+    *Answered as far as the sources go, 2026-10-19 ([health.md](health.md),
+    *GC's course and the Explanatory Tantra*): GC names none in what BDRC's
+    search shows, but its course is the Explanatory Tantra's. Ch. 4 of
+    the *Bshad rgyud* (on the body) gives the subtle movement:
+    «ངོ་བོ་གང་འཕོ་ན་འབྱུང་བ་ཐམས་ཅད་ཀྱི་དྭངས་མ་ཁམས་བྱང་ཆུབ་ཀྱི་སེམས་རྒྱས་འགྱུར་གྱི་རིགས་དེ་ཉིད་དོ། །རྣམ་པ་གང་གི་སྒོ་ནས་འཕོ་ན་རྩ་བའི་དབྱངས་ལྔ…»,
+    the essence that increases the *byang sems*, moving in the form of the
+    root vowels. Skyem pa Tshe dbang's commentary (*Rgyud bzhi'i rnam bshad*,
+    I4711) starts it «ཡར་ངོའི་ཚེས་གཅིག་ལ་རྐང་པའི་མཐེ་བོང་གཡོན་པ་ནས», and the *Phyi ma rgyud
+    kyi rnam par bshad pa lag len gsal byed* (I1PD471) gives
+    «རྗེ་གཡུ་ཐོག་པས་སྙིང་པོ་བསྡུས་པའི་ལག་ལེན་དུ་བཤད་པ་ཕོ་ལ་ཚེས་གཅིག་ལ་རྐང་པའི་མཐེ་བོང་གཡོན་པར་གནས», the man's left
+    after Yuthok. Modern textbooks (*Gso bya lus kyi rnam bshad*, I4795;
+    *Bod kyi gso rig snying nor gces bsdus*, I1KG20926) write it as GC
+    does: «…ཟླ་བ་ཡར་ངོའི་ཚེས་གཅིག་ནས་སྐྱེས་པའི་རྐང་མཐེ་གཡོན་དང་། བུད་མེད་ཀྱི་གཡས་ནས་འགོ་བརྩམས་ཏེ་ཡི་གེ་ཨ་ཡི་གཟུགས་སུ་གནས་པ་དང་།…»,
+    the man's left and the woman's right, vowel by date. The reverse, the
+    man's right, is the Saṃvara commentaries' (Tāranātha's *Bde mchog bstod
+    chen* commentary: «སྐྱེས་པ་ལ་ཡར་ངོའི་ཚེས་གཅིག་ལ་རྐང་པའི་མཐེ་བོང་གཡས་པ་ནས་མགོ་འཛིན། བུད་མེད་ལ་གཡོན་པའི་མཐེ་བོང་ནས་མགོ་འཛིན»), the
+    tantric drop of question 108, not the medical la. All BDRC snippets,
+    2026-10-19.*
 
 
 90. **The forefathers' tomb obstacle.** The forefathers' tomb obstacle (WB
