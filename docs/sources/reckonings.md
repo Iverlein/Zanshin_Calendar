@@ -2010,3 +2010,25 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
   months' 7 red, and the dates go on in order. The 'Bri gung Chung tshang
   (འབྲི་གུང་ཆུང་ཚང, 'bri gung chung tshang) Bstan 'dzin chos kyi rgyal mtshan's
   *Gsung 'bum* (MW3JT13322, Dehradun 2008, snippet) quotes the same lines.
+
+## The notes are Mipham's, 2026-10-19 (open question 23)
+
+- **Author.** The notes' colophon (vol. 2, p. 541, img. 549, etext) ends
+  «…ཅེས་པའང་བརྗེད་བྱང་བྲིས་པའི་ཞར་ལ་རྩོམ་པ་པོས་སྨྲས་པའོ། … སྡེ་གཉེར་བཀྲ་ཤིས་ཚེ་འཕེལ་ལྷག་བསམ་མཐུས། །སྤར་དུ་བསྒྲུབ་པའི་དགེ་ཚོགས་… ཅེས་དྷཱི་མིང་པས་སྨྲས་པ་མངྒ་ལཾ།»:
+  said by the one named *Dhī* (Mañjuśrī, 'Jam dbyangs), printed through
+  the steward (སྡེ་གཉེར, sde gnyer) Bkra shis tshe 'phel (བཀྲ་ཤིས་ཚེ་འཕེལ, bkra shis tshe 'phel). BDRC
+  catalogues the work under its title in Mi pham rgya mtsho's (མི་ཕམ་རྒྱ་མཚོ,
+  mi pham rgya mtsho) *Gsung 'bum*, vol. 26, item 4, 65 ff., pp. 1–130
+  (MW23468_1D3C15, image group I2029, img. 621–750, open), with the note
+  «མཛད་པ་པོ་ཀུན་མཁྱེན་མི་ཕམ་རྒྱ་མཚོ»; a catalogue of his works puts it at the end
+  of the Sde dge volume *be* («འདི་སྡེ་པར་བེ་དཀར་མཇུག་ཏུ་ཡོད», BDRC snippet), and
+  KD cites "the qualities of a reckoner … that Mipham Rinpoche gave in
+  the *Nag rtsis brjed byang*" («མི་ཕམ་རིན་པོ་ཆེས་ནག་རྩིས་བརྗེད་བྱང་དུ་བཀའ་བསྩལ་པ»). So the
+  1996 edition's notes are Mipham's memorandum on WB's Chinese
+  reckoning, and the sigla's "the notes" are his.
+- **«དུས་ཁམས», the first time, in Mipham's own print too.** Vol. 26,
+  f. 1b, l. 3 (I2029 img. 622, read at 3× on a black-and-white scan):
+  «…ངོས་འཛིན་རྡེལ་སོགས་ཡི་གེར་བྲིས་ཀྱང་ཆོག། །དུས་ཁམས་ནི་ངོས་ཟིན་ན་དེ་དང་། …», the first
+  stack with ད's descender, as «དེ་དང» beside it. The word is the
+  author's, not the 1996 setting's; the second, «རུས་ཁམས», was not found
+  on f. 2a in the time given.

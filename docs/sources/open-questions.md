@@ -436,6 +436,12 @@ the text, not about the app.
     On the scan at 8× (2026-10-12, RD13, [year-of-life.md](year-of-life.md))
     the first is printed «དུས་ཁམས», the second «རུས་ཁམས»; so the question
     narrows to the first.
+    *Narrowed further 2026-10-19 ([reckonings.md](reckonings.md), *The notes
+    are Mipham's*): the Zhol and Taikhang prints do not carry the notes; they
+    are Mi pham rgya mtsho's *Nag rtsis brjed byang snying po gsal ba* (his
+    *Gsung 'bum*, vol. 26, I2029), and his print reads the first «དུས་ཁམས» as the
+    1996 edition does (img. 622, f. 1b, l. 3). So the word is the author's;
+    whether he means the clan's element by it stays open.*
 
 24. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361): what is the sixth point of the
     match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
