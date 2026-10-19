@@ -1247,11 +1247,18 @@ the text, not about the app.
     30th's «སྟོང་ལ[ི]»; what are the place and the word? (2026-10-12, RD9,
     [health.md](health.md))
 
-110. **The Final Tantra's la pulse.** In the la-pulse passage (ST p. 505),
+110. **Answered 2026-10-19. The Final Tantra's la pulse.** In the la-pulse passage (ST p. 505),
     what do «ཡར་མར་ཆུ་རྒྱུས», «གོད་ཀ་ཁ་ཡོགས» and the line
     «སྟོང་བརྒྱལ་གོད་འོང་ཐང་འཁྱིག་ཁ་སྨྲས་འོང» mean, and where is the la pulse felt
     («བླ་རྩ་མར་ཟུར་ཆུ་རྒྱུས་གསེབ་ཏུ་བརྟག», p. 498)? (2026-10-12, RD9,
     [health.md](health.md))
+     *Answered 2026-10-19 ([health.md](health.md), *The la pulse in the
+     commentaries*), from two commentaries (etext): the la pulse is felt at
+     the wrist where the pulse is read, on the lower edge between the tendon
+     and the sinew; «ཡར་མར་ཆུ་རྒྱུས» is the sinew above or below that place, under
+     which the pulse slips and stops; «གོད་ཀ་ཁ་ཡོགས» is a loss and a blame laid
+     by others for no fault; the last line: empty or fainting, a loss (of
+     wealth) and an empty mind; taut and stiff, quarrels and disputes.*
 
 111. **Answered 2026-10-18. Deumar's «ཕུག་ལུགས་རིན་ཆེན་ཕྲེང་བ».** Which work is the one Deumar names
     (p. 594) for the la places by the hour, whose notes give both feet at

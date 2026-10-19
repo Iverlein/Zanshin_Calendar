@@ -1202,3 +1202,42 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
   (the mother's monkey, up) are the same in every class. It is the rule
   of the thirty (ch. 26, [reckonings.md](reckonings.md)): the male year
   counted down, the female up, by the years of the one reckoned.
+
+## The la pulse in the commentaries, 2026-10-19 (open question 110)
+
+Two commentaries on the Final Tantra (ཕྱི་མ་རྒྱུད, phyi ma rgyud) explain the
+lines; both read in BDRC's etexts only.
+
+- **Khro ru Tshe rnam's** (ཁྲོ་རུ་ཚེ་རྣམ, khro ru tshe rnam) *Rgyud bzhi'i 'grel
+  chen*, the Final Tantra's part, in his *Gsung 'bum* (BDRC MW29701,
+  Lhasa, 11 vols; etext VEIE0OPI4CEE4109_I5624, pp. 28 and 107–108).
+- **The *Phyi ma rgyud kyi 'grel ba phyogs bsgrigs*** (ཕྱི་མ་རྒྱུད་ཀྱི་འགྲེལ་བ་ཕྱོགས་བསྒྲིགས),
+  older commentaries collected by the Qinghai institute of Tibetan
+  medicine, Brang ti 'Jam dpal bzang po (བྲང་ཏི་འཇམ་དཔལ་བཟང་པོ, brang ti
+  'jam dpal bzang po) and others, Mi rigs dpe skrun khang (BDRC
+  MW1KG14623; etext VEIE0OPIAF66A7E8_I1KG15635, pp. 44–45, and the
+  annotation *Mun sel sgron me* on the pulse and urine, pp. 267–268).
+
+What they say:
+
+- **Where the la pulse is felt** («བླ་རྩ་མར་ཟུར་ཆུ་རྒྱུས་གསེབ་ཏུ་བརྟག»). Tshe rnam (p. 28):
+  «བླ་རྩ་ནི་བལྟ་རྩའི་ཐད་དུ་ལག་པའི་མཁྲིག་[མའི་]…མར་ཟུར་གྱི་ཆུ་བ་དང་རྒྱུས་པའི་གསེབ་ན་རྒྱུ་བས་དེར་བརྟག་དགོས་པ་དང་། གལ་ཏེ་མི་གསལ་ན་ཡས་མས་ཕན་ཚུན་དུ་སོར་མོས་མནན་ལྷོད་གང་འོས་བྱས་ཏེ་གང་དུ་གསལ་…བལྟ་བར་བྱའོ།»:
+  the la pulse runs at the wrist where the pulse is read, on the lower
+  edge, between the tendon (ཆུ་བ, *chu ba*) and the sinew (རྒྱུས་པ, *rgyus pa*);
+  feel it there, and if it is not clear, press and ease the fingers up
+  and down until it shows.
+- **«ཡར་མར་ཆུ་རྒྱུས་འོག་ནས་མི་རྒྱུ་ན»**: Tshe rnam (p. 107): «བླ་རྩ་བལྟ་བའི་གནས་ཀྱི་ཡར་མར་གང་རུང་གི་ཆུ་རྒྱུས་ཀྱི་འོག་ཏུ་ཚུད་ནས་རང་མལ་དུ་ཚུར་མི་འགྱུར་བར། རྩ་འཕར་རྒྱུ་མེད་པར་སོང་ན»,
+  if the la pulse has slipped in under the sinew above or below its
+  place, does not come back to its seat and stops beating; the older
+  commentary (p. 268; p. 44 the same): «ཤ་སྲུབས་ཡར་མར་གྱི་ཆུ་རྒྱུས་ཀྱི་འོག་ཏུ་ཞ་[གཞའ]་ནས་རང་གནས་སུ་མི་རྒྱུ་ན», slipped
+  under the sinews of the flesh's folds above and below.
+- **«ཐེངས་གཅིག་སྡོད་ན་གོད་ཀ་ཁ་ཡོགས་འོང»**: Tshe rnam (p. 108): «བླ་རྩ་ལ་དུས་རྒྱུན་དུ་རྩ་སྐྱོན་ཆེར་མེད་ཀྱང་སྐབས་རེ་ཐེངས་གཅིག་ཙམ་རེ་སྡོད་བྱུང་ན་གོད་ཁའམ་གཞན་གྱིས་མ་ཉེས་ཡོགས་འབྱུང་བ»:
+  a la pulse without great fault that now and then stops once brings a
+  loss (གོད་ཁ, *god kha*) or a blame laid on one by others for no fault
+  (*yogs*); the older commentary (p. 45), «བླ་རྩ་ཐང་ཐང་པི་ཝང་གི་རྒྱུད་ལྟར་བྱུང་ན་གོད་ཁ་དང་ཁ་ཡོགས་འོང་།»,
+  a la pulse taut like a lute's string brings loss and blame.
+- **«སྟོང་བརྒྱལ་གོད་འོང་ཐང་འཁྱིག་ཁ་སྨྲས་འོང»**: Tshe rnam (p. 108): «བླ་རྩ་སྟོང་ཞིང་འཕར་འཕྲོར་བརྒྱལ་བ་ལྟར་འཕར་རྒྱུ་མེད་པར་སོང་ན་གོད་ཁ་དང་བློ་སྟོང་འོང་བ་དང་། … བླ་རྩ་དེ་ཐང་ཞིང་གྲིམས་པ་དང་འཁྱིག་པར་འདུག་ན་གཞན་པ་དང་ཁ་སྨྲས་སམ་ཁ་མཆུ་འོང་བ»:
+  empty, and stopping mid-beat as if fainting, it brings loss and an
+  empty mind; taut, tight and stiff, quarrels and disputes with others;
+  the older commentary (p. 44): «སྟོང་བརྒྱལ་གཉིས་པོ་གང་རུང་སྟོང་ཞིང་བརྒྱལ་བར་འཕར་ན་ནོར་ལ་གོད་འོང་། …ཐང་ལ་…འཁྱིག་པར་འདུག་ན་ཁ་སྨྲ[ས]་འོང་།»,
+  empty or faint, a loss of wealth; taut and stiff, quarrels.
