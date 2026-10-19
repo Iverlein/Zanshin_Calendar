@@ -975,6 +975,8 @@
     <string name="birth_section_year">The birth year</string>
     <string name="birth_year_subtitle">Life force %1$s · destiny %2$s</string>
     <string name="birth_detail_destiny">Destiny of the birth year</string>
+    <string name="birth_year_side_title">Whose side it falls on</string>
+    <string name="birth_year_side_subtitle">%1$s, in a year of %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1). The relations are lower case; the app capitalises the first word. -->
     <string name="relatives_title">Relatives</string>

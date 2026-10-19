@@ -104,6 +104,17 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_year_side_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.powerYearOf(y, forces.destiny),
+            subtitle = labels.string(R.string.birth_year_side_subtitle, Ewts.named(y.english, y.wylie), gloss(forces.destiny, "inText")),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
 }
 
 /** The special pebble (pp. 261, 284–286): the birth year against the clan's element, or what it needs. */

@@ -830,6 +830,8 @@
     <string name="birth_section_year">Год рождения</string>
     <string name="birth_year_subtitle">Жизненная сила: %1$s · могущество: %2$s</string>
     <string name="birth_detail_destiny">Могущество года рождения</string>
+    <string name="birth_year_side_title">На чью сторону падает</string>
+    <string name="birth_year_side_subtitle">%1$s, в год стихии: %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1) -->
     <string name="relatives_title">Родственники</string>
