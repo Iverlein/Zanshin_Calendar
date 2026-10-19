@@ -28,6 +28,7 @@ import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
+import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
@@ -124,6 +125,18 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
                 tone = Tone.BAD,
                 reading = Texts.birthCut(a, c),
                 subtitle = labels.string(R.string.birth_cut_subtitle, gloss(forces[a], "inText"), gloss(forces[c], "inText")),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    BirthReckoning.groupCuts(sign).forEach { g ->
+        AnnotationRow(
+            Annotation(
+                title = g.english.replaceFirstChar(Char::uppercase),
+                english = "",
+                tone = if (g.nourish) Tone.GOOD else Tone.BAD,
+                reading = Texts.groupCut(g),
                 titleIsKanji = false,
             ),
             onOpen,
