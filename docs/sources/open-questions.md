@@ -895,6 +895,11 @@ the text, not about the app.
     p. 45) and the leftover pebble of the eleventh (1 + 9, p. 49) counted
     inside the totals, and where are the remaining pebbles (2026-10-12,
     RD16, [reckonings.md](reckonings.md))?
+    *Narrowed 2026-10-19 ([reckonings.md](reckonings.md), ch. 29): the
+    Taikhang print (I5878, img. 69–80, Yigdzin-1's reading placed by
+    shingles) states the same 1,008 + 9,363 = 10,371. Its preliminary and
+    examinations 1–6, 11 and 15 have the 1996 counts, so the unplaced 57
+    are no 1996 slip there. Examinations 7–10 and 12–14 were not compared.*
 
 66. **WB vol. 2, pp. 46–47 (img. 54–55): the fourth examination's 87.** It
     states 16 + 50 = 66 pebbles and ends «ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག

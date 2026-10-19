@@ -922,6 +922,21 @@ lamps of the preliminary (6 result, 59 identifying) and the leftover
 pebble of the eleventh (1 and 9) are not counted in the table, since the
 passage does not say whether they are inside the 56 and the 94 (*Open*).
 
+**The Taikhang print agrees, 2026-10-19 (open question 65).** The
+Taikhang print (I5878, img. 69–80) covers vol. 2 pp. 44–51. It was read
+with Yigdzin-1 and placed page by page by its shingles against the 1996
+etext; its count lines were not checked by eye. It states the same total,
+«…འབྲས་བུའི་རྡེལ། ཆིག་སྟོང་བརྒྱད་དང་ངོས་འཛིན་ནི། །དགུ་སྟོང་སུམ་བརྒྱ་རེ་གསུམ་སྟེ། །བསྡོམས་པས་ཆིག་ཁྲི་སུམ་བརྒྱ་དང་། །བདུན་ཅུ་གཅིག་གིས་གཏན་ལ་ཕབ།»
+(1,008 + 9,363 = 10,371). It also has the same parts where they were
+compared: the preliminary 39 + 17 = 56, the first 87 + 338 = 425, the
+second 11 + 47 = 58, the third 7 + 116 = 123, the fourth 11 roots with
+5 = 16, + 50 = 66, the fifth 63 result pebbles for 218, the sixth 4 + 24
+= 28, the eleventh 39 + 55 = 94, the fifteenth 4 + 54 = 58. So the 57
+pebbles not placed are no slip of the 1996 typesetting in these parts;
+the seventh to tenth and the twelfth to fourteenth were not compared.
+Unlike p. 262 of vol. 1 (open question 69), no dropped line turned up
+here.
+
 ### The fifteen examinations by name (p. 55, img. 63)
 
 After the results of the living household, the dead's (read on the scan):
