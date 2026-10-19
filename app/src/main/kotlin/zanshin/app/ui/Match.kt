@@ -105,6 +105,18 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
             ),
             onOpen,
         )
+        m.weekdays?.let { (a, b) -> MatchReckoning.samePlanet(a, b) }?.let { p ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_planet_title, gloss(m.weekdays!!.first, "inText")),
+                    english = "",
+                    tone = Tone.BAD,
+                    reading = Texts.matchPlanet(p),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
         val niSha = MatchReckoning.niSha(m.manYear, m.man.animal, m.womanYear, m.woman.animal)
         if (niSha != null) {
             AnnotationRow(

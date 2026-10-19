@@ -5,6 +5,7 @@
 package zanshin.app
 
 import zanshin.core.tibetan.Gender
+import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.BirthReckoning
@@ -48,7 +49,15 @@ data class BirthReading(
  * The marriage match (ROADMAP R3) of [person] with their spouse [spouseName]: the man's and the woman's Tibetan birth
  * years and signs, whichever of the two the person is.
  */
-data class MatchReading(val spouseName: String, val manYear: Int, val man: Sign, val womanYear: Int, val woman: Sign)
+data class MatchReading(
+    val spouseName: String,
+    val manYear: Int,
+    val man: Sign,
+    val womanYear: Int,
+    val woman: Sign,
+    /** The weekdays of the two births, where both dates are known. */
+    val weekdays: Pair<Weekday, Weekday>? = null,
+)
 
 /** What the Reckonings section reckons for a person, apart from the screen that shows it. */
 object Reckonings {
@@ -98,7 +107,8 @@ object Reckonings {
         val own = TibetanCalendar.of(person.birth).let { it.year to Sign(it.yearElement, it.yearAnimal) }
         val theirs = spouse.birth!!.tibetanYear.let { it to YearOfLife.yearSign(it) }
         val (man, woman) = if (gender == Gender.MALE) own to theirs else theirs to own
-        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second)
+        val weekdays = spouse.birth!!.date?.let { TibetanCalendar.of(person.birth).weekday to TibetanCalendar.of(it).weekday }
+        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays)
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */
