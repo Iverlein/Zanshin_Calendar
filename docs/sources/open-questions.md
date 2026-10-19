@@ -509,8 +509,9 @@ the text, not about the app.
     *Wangkhyi's day and hour*): WB's own close runs in three steps, the
     days of the last months in general, «དུར་ཉི», the grave day, in particular,
     and «གནས་པའི་ཉི་དུས» most of all; Wangkhyi's four animals (ox, sheep, dragon,
-    dog) are the four grave animals. Read so, the ox day is the grave day
-    and the ox's hour on it the narrowest time; no other text glosses it.*
+    dog) are the four grave animals. Read so, the ox day may be the grave
+    day and the ox's hour on it the narrowest time; no other text glosses
+    it.*
 
 30. **Answered 2026-10-18. WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
     ling*'s course by the *Index* names winter 2 twice (p. 207); the

@@ -2277,10 +2277,10 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 - **WB's close narrows it in three steps.** «སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉིར་ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན།»:
   in general, on the days of the four last months, do not face that bad
   direction; in particular not on a «དུར་ཉི», a grave day; more particularly
-  keep to the *nyi dus* where it stays. Read with the graves, the grave
-  day is the day of the month's grave animal (the ox day in the last
-  summer month), and the narrowest, «གླང་གི་ཉི་མ་དུས་ཚོད», the ox's hour, on
-  that day above all. So the line is less "an hour of the ox's days" or
+  keep to the *nyi dus* where it stays. Since Wangkhyi's own animal is a
+  grave animal each time, the grave day may be its day (the ox day in
+  the last summer month; the month's own triad would give the sheep), and
+  the narrowest, «གླང་གི་ཉི་མ་དུས་ཚོད», the ox's hour, on that day above all. So the line is less "an hour of the ox's days" or
   "the ox's hour of every day" than both, in order of weight; this is a
   reading of WB's own steps, not a gloss found in another text (the
   almanac lists copy «ཝང་ཁྱི་གླང་ཉི་དུས» without explaining it).
