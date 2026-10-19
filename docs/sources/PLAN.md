@@ -128,6 +128,22 @@ scratch directory, not in the repository:
 - `archive_lend.py view` opens its reader in a Chromium of class
   `playwright-work` too (2026-10-18), and its FILE argument is "." for a
   single-volume item.
+- **Second witnesses found 2026-10-19.** KP2 (I3CN12074) carves KP's
+  tables and charts more cleanly than the Mtho las print: the nectar
+  tables on img. 306–307, the Rāhu charts on img. 301; check a doubtful
+  KP numeral there first. WB's notes are Mipham's *Nag rtsis brjed byang*
+  and have his own print (I2029, img. 621–750). For a medical line of the
+  Four Tantras, Khro ru Tshe rnam's *Rgyud bzhi'i 'grel chen* (MW29701,
+  etexts) and the *Phyi ma rgyud kyi 'grel ba phyogs bsgrigs*
+  (MW1KG14623) explain it word by word. The reckoners' manuals with full
+  etexts, Lha mo tshul khrims's *Nag rtsis rdel 'grem 'bras bshad*
+  (MW1KG21818) and Dpal bsdus's *'Byung rtsis dpyad don rmad byung*
+  (VEIE0OPI6328F058_I4767), restate WB's reckonings in plain words and
+  answered several questions at once.
+- **An outline part's place in a volume:** `curl
+  https://ldspdi.bdrc.io/resource/MW…_XXXX.json` gives the part's
+  `contentLocation` (a CL… id) and its location statement; the CL…'s
+  own JSON gives the volume and the first and last image.
 - `locate.py find | map | dict` — a phrase in the etexts whatever the
   OCR's line breaks; which etext pages an OCR'd image of another print holds
   (its 4-syllable shingles); a Wylie headword in Steinert's 64 dictionaries
@@ -281,6 +297,13 @@ Searched and found wanting, so not to be repeated:
   hits). The Russian *Йога звука*'s booksellers (Chitai-gorod 403,
   Meloman 404) and a web search for Dr. Chenagtsang's *Tibetan Healing
   Massage* contents found nothing.
+- **BDRC's full-text search, 2026-10-19, no hit or no gloss:** «ལས་ལ་བཟློད»,
+  «གཏོང་ཤེས་རྒྱུད», «ཧལ་ཁྱི་མ་ལྔ», «ཉི་ལྡོག་དང་མཉམ་དུ», «ས་བདག་རྣམས་འཕོ», «བླ་ནི་ལུས་མ» nowhere;
+  «ལག་རྩིས་ལུ», «བླ་རྟགས་གཡག», «ཕྱེད་གཉིས་ཟེར་གཉིས», «འབྲིང་པོ་བཞི་ཡི་སྟེང», «སུམ་སྟོང་བདུན་བརྒྱ་དོན་གསུམ»
+  and the counts of chs. 20, 22 and 29 in WB's prints only; the almanacs'
+  month sheets (*Sgo bzhi mdzod lnga'i yang bcud*, SN) list the month's
+  earth lords as a diagram whose places the etext loses, so they do not
+  settle which of WB's views an almanac follows (open question 32).
 
 - **Rinchen Terdzö** full text (rtz.tsadra.org, owner's manual search,
   2026-09-29): none of the personal-mansion names, no Viṣṭi, none of the
