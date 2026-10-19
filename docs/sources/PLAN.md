@@ -151,6 +151,17 @@ scratch directory, not in the repository:
   unknown, search the numbers as one run of number words
   («བཅོ་བརྒྱད་ཉེར་གཉིས»), which found KL's moxa dates in Lung rigs bstan
   dar's Four Tantras commentary (MW00KG07597; open question 79).
+  The *Collected Astrological and Prognosticatory Texts from Bhutan*
+  (Thimphu, 1981; full etext `VEIE0OPI1829B6AF_I1KG11905`, about 600
+  pages, its list of contents on etext pp. 7–10) gather some thirty
+  manuals, among them the *Bum bzang*, a birth reckoning, a marriage
+  reckoning (*Bag rtsis nam mkha'i bu*) and a digest of WB's results
+  (*'Bras rtsis bai dkar dgongs don*, pp. 341–460); they answered open
+  questions 40 and 91 (2026-10-19). Its school is not established text by
+  text: use it as a witness to WB. WB's own other chapters answer more
+  than once: a rule asked of one chapter is often stated in another
+  (the tie of white and black pebbles, open question 160, in ch. 29; the
+  times to beware for learning, which ch. 34 points to, in ch. 35).
 - **An outline part's place in a volume:** `curl
   https://ldspdi.bdrc.io/resource/MW…_XXXX.json` gives the part's
   `contentLocation` (a CL… id) and its location statement; the CL…'s
