@@ -15,7 +15,7 @@
     <string name="pattern_month_title">LLLL yyyy</string>
     <string name="pattern_clock">HH:mm</string>
     <string name="month">%1$s-й месяц</string>
-    <string name="month_leap">Високосный %1$s-й месяц</string>
+    <string name="month_leap">Вставной %1$s-й месяц</string>
     <string name="moon_new">Новолуние</string>
     <string name="moon_waxing_crescent">Растущий серп</string>
     <string name="moon_first_quarter">Первая четверть</string>
@@ -173,7 +173,7 @@
     <string name="section_shuku">二十八宿 · Лунная стоянка</string>
     <string name="section_kagedan">下段 · Нижняя полоса</string>
     <string name="section_senjitsu">選日 · Избранные дни</string>
-    <string name="section_ennichi">縁日 · Дни божеств</string>
+    <string name="section_ennichi">縁日 · Храмовые праздники</string>
     <string name="section_zassetsu">雑節 · Сезонные вехи</string>
     <string name="section_kanshi">干支 · Циклы</string>
     <string name="row_day">День</string>
@@ -305,7 +305,7 @@
     <string name="about_tibetan_title">Тибетский календарь</string>
     <string name="about_tibetan">Версия Пхугпа (ཕུག་པ, phug pa), рассчитанная по арифметике Сванте Янсона, «Tibetan Calendar Mathematics» (2007, исправлено в 2014 и 2022), эпоха 806, с суточной аномалией Луны 1/28, как в альманахе Мен-Ци-Кханга (སྨན་རྩིས་ཁང, sman rtsis khang). Лунное созвездие, йога, карана и циклы лунного дня следуют Янсону, §10 и приложение E. Проверено по таблице дат Лосара (ལོ་གསར, lo gsar) у Янсона за 1927–2046 годы и, день за днём, по рассчитанным календарям Пхугпа Эдварда Хеннинга (kalacakra.org).</string>
     <string name="about_kyureki_title">旧暦</string>
-    <string name="about_kyureki">Правила Тэмпо по японскому стандартному времени: месяц начинается в день новолуния и нумеруется по главному солнечному сезону, который в него попадает. В 2033 году високосный месяц — 閏11月, рекомендованное решение «проблемы 2033 года». Солнечные сезоны, новолуния и 雑節 проверены по данным Национальной астрономической обсерватории Японии (暦要項).</string>
+    <string name="about_kyureki">Правила Тэмпо по японскому стандартному времени: месяц начинается в день новолуния и нумеруется по главному солнечному сезону, который в него попадает. В 2033 году вставной месяц — 閏11月, рекомендованное решение «проблемы 2033 года». Солнечные сезоны, новолуния и 雑節 проверены по данным Национальной астрономической обсерватории Японии (暦要項).</string>
     <string name="about_rekichu_title">暦注</string>
     <string name="about_rekichu">Пометки альманаха (十二直, 二十八宿, 九星, 選日 и 暦注下段) следуют правилам, сведённым в таблицы в японской Википедии по книге 岡田芳朗・阿久根末忠『現代こよみ読み解き事典』 (1993), и проверены день за днём по こよみのページ (koyomi8.com). 神吉日 и 凶会日 не включены: их полные правила не восстановимы.</string>
     <string name="about_astronomy_title">Солнце и Луна</string>
