@@ -596,9 +596,11 @@ year's earth lords in the front matter*.
 At the head of each month, the month's wheel and the charts of the
 scattered earth lords (*sil ma'i sa bdag*), drawn without error with
 their marks, «འམ», or «མ་ཕྱུར་རུང་ཙམ», and then the month's description.
-*phyur* is not settled; the year's front matter has the same turn, «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད», "even
-if *ma phyur*, no fault", so the charts may be left out or cut down, and
-the model almanac draws none.
+*phyur* is "to manage" («…རྙེད་པར་མ་ཕྱུར་ན», "if I do not manage to find", in a story;
+open question 20, 2026-10-19): drawn with the marks of people and wealth,
+or, if that cannot be managed, it just does; the year's front matter has
+the same turn, «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད», "even if it cannot be managed, no fault", so
+the charts may be left out or cut down, and the model almanac draws none.
 
 **What the model almanac writes.** No chart: each month head names the
 month's earth lords in its run of entries, after the sun's sign and the

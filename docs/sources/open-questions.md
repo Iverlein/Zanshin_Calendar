@@ -394,6 +394,14 @@ the text, not about the app.
     and two lives name the coldest season «དགུན་དགུ་འདྲེན་པའི་སྐབས». *phyur* is
     open: *'phyur* is to rise, swell or heap up, which fits "not drawn out
     in full" without a gloss of the line.*
+    *Answered for *phyur*, as far as the sources go, 2026-10-19: "to
+    manage, to bring off". A story (*Bya mgrin sngon zla ba'i rtogs brjod*,
+    BDRC snippet) has «བདག་གི་གྲོགས་དེ་རྙེད་པར་མ་ཕྱུར་ན། ཁོ་བོ་རྒྱལ་པོའི་ཁབ་ཏུ་ཇི་ལྟར་འགྲོ།», "if I do not manage to find my
+    friend, how shall I go to the king's city?". So p. 176's charts are
+    «མི་ནོར་མཚན་མས་འདྲི་བའམ། །མ་ཕྱུར་རུང་ཙམ», drawn with the emblems of people and wealth,
+    or, if that cannot be managed, it just does; and the year's «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད»,
+    even if it cannot be managed there is no fault. Bstan 'dzin chos kyi
+    rgyal mtshan's restatement keeps the same words.*
 
 21. **WB vol. 1, p. 249 (img. 259): why does the older system's sum
     come to 440?** Ch. 20 gives the parts of the system ascribed to Khams
