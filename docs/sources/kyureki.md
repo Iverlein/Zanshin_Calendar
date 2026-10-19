@@ -798,6 +798,9 @@ read, of 大明日, 節徳日, 鬼宿日, 受死日, 十死日, 天火日, 地�
 
 («人頭半身» at 辛未 and «人頭竜身» at 壬午 are read with doubt: the
 character before 身 in each is small and unclear on the scan.)
+(Both are clear in the second copy of the blocks, pid 2559255 img. 104;
+MS writes «羊» at 辛未 and a beast's character, not 竜, at 壬午: *Open*
+below.)
 
 "天一 is the spirit of the earth star … 天一 rules battle and knows good
 and bad fortune. The 陰陽書: on 己酉 天一 comes down from heaven to the
@@ -1056,6 +1059,15 @@ found in GR:
   printed almanacs' own wording (神宮館, 高島暦) was not seen.
 - Question: in §53 the shapes of 天一 at 辛未 and 壬午 («人頭半身»,
   «人頭竜身» as read) are unclear on GR; what are they?
+  *Narrowed 2026-10-19:* the second copy of the same 群書類従 blocks
+  (pid 2559255, img. 104, left page, read at full size) carves both
+  clearly as «人頭半身» and «人頭竜身», so GR's doubt is the impression's.
+  The manuscript (MS, img. 41, left page) writes the south-west shape
+  «人頭羊身», a sheep's body, the vertical running through three
+  horizontals; the blocks' «半» is most likely 羊 with a stroke lost. MS's
+  north-west shape is a beast's character in a running hand, not «竜»
+  (豺 or 豕, not read with certainty). So the printed text and the
+  manuscript part at the north-west; which the 陰陽書 had is not settled.
 - Question: «土羨老» in §25 (GR and MS alike) and «丁歳之数» in §42: what is
   meant?
 
