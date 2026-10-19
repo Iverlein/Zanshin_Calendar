@@ -66,6 +66,8 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.RaisingDay
+import zanshin.core.tibetan.RaisingMonth
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.LogMenPlace
@@ -177,6 +179,8 @@ class CatalogTest {
         Animal.entries.forEach { out += Texts.yearNature(it) }
         Element.entries.forEach { out += Texts.bodyNature(it) }
         (1..9).forEach { out += Texts.birthMewa(it) }
+        RaisingMonth.entries.forEach { out += Texts.raisingMonth(it) }
+        RaisingDay.entries.forEach { out += Texts.raisingDay(it) }
         Force.entries.forEach { f -> Sector.entries.forEach { out += Texts.riseDecline(f, it) } }
         listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK).forEach { f -> DpalByur.entries.forEach { r -> Element.entries.forEach { out += Texts.dpalByur(f, r, it) } } }
         LineStage.entries.forEach { s -> LineGroup.entries.forEach { out += Texts.birthLine(s, it) } }
@@ -520,7 +524,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

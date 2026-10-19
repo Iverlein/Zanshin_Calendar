@@ -24,6 +24,8 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.RaisingDay
+import zanshin.core.tibetan.RaisingMonth
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
@@ -403,6 +405,8 @@ object Sources {
     val WHITE_BERYL_DPAL_BYUR = whiteBeryl("chapter 22, pp. 295–297, with the notes in vol. 2, p. 476", volume = 1)
     /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_SHARES = whiteBeryl("chapter 22, pp. 294–295", volume = 1)
+    /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_RISE_DECLINE = whiteBeryl("chapter 22, pp. 331–333, with the notes in vol. 2, p. 475", volume = 1)
     /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2073,6 +2077,12 @@ object Texts {
     /** The aspect [force] in the stage [sector] of its rise and decline at the birth (WB vol. 1, ch. 22, pp. 331–333). */
     fun riseDecline(force: Force, sector: Sector): Reading =
         Reading(key = "reading.RiseDecline", arg = "reading.RiseDecline.${force.name}.${sector.name}", source = Sources.WHITE_BERYL_RISE_DECLINE)
+
+    /** Whom the birth month bears on (WB vol. 1, ch. 22, p. 348). */
+    fun raisingMonth(r: RaisingMonth): Reading = Reading(key = "reading.RaisingMonth", arg = "reading.RaisingMonth.${r.name}", source = Sources.WHITE_BERYL_RAISING)
+
+    /** Whether the birth day makes the child hard or easy to raise (WB vol. 1, ch. 22, p. 348). */
+    fun raisingDay(r: RaisingDay): Reading = Reading(key = "reading.RaisingDay", arg = "reading.RaisingDay.${r.name}", source = Sources.WHITE_BERYL_RAISING)
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
     fun birthMewa(natal: Int): Reading =

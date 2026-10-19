@@ -157,6 +157,12 @@ enum class LineGroup(val animals: Set<Animal>) {
     }
 }
 
+/** Whom the birth month bears on, by the child's life force counted onto it (p. 348). */
+enum class RaisingMonth { FATHER, MOTHER, OWN, GOOD; val english: String get() = gloss(this) }
+
+/** Whether the birth day makes the child hard or easy to raise, by its element against the year animal's (p. 348). */
+enum class RaisingDay { HARD, EASY; val english: String get() = gloss(this) }
+
 /**
  * The readings of the parents' trigrams at the birth (p. 326) that the dates decide, in WB's order. The trigram a
  * child is born on is the mother's (the natal trigram); the father's is his trigram of the year of the birth. WB's
@@ -304,6 +310,27 @@ object BirthReckoning {
             else -> null
         }
     }
+
+    /**
+     * Whom the birth month of animal [month] bears on for a child of year animal [year] (p. 348): the life force in
+     * its tomb, the father; in the womb, the mother; in illness or death, the child; flourishing, good; null otherwise.
+     */
+    fun raisingMonth(year: Animal, month: Animal): RaisingMonth? =
+        when (YearOfLife.sector(Forces.of(Element.WOOD, year).vitality, month)) {
+            Sector.ENTERING_THE_TOMB -> RaisingMonth.FATHER
+            Sector.IN_THE_WOMB -> RaisingMonth.MOTHER
+            Sector.ILLNESS, Sector.DEATH -> RaisingMonth.OWN
+            Sector.FLOURISHING -> RaisingMonth.GOOD
+            else -> null
+        }
+
+    /** Whether a birth on a day of animal [day] makes a child of year animal [year] hard or easy to raise (p. 348). */
+    fun raisingDay(year: Animal, day: Animal): RaisingDay? =
+        when (Forces.kinship(Forces.of(Element.WOOD, year).vitality, Forces.of(Element.WOOD, day).vitality)) {
+            Kinship.ENEMY -> RaisingDay.HARD
+            Kinship.MOTHER -> RaisingDay.EASY
+            else -> null
+        }
 
     /**
      * The four pebbles of rise and decline (the notes, vol. 2, p. 475): the life force, body, destiny and luck of the

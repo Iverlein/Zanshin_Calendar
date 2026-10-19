@@ -10,6 +10,17 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** P. 348's examples: a mouse child's months (dragon the father's, horse the mother's, tiger and hare its own) and a tiger or hare day. */
+    @Test
+    fun `raising the child by month and day`() {
+        assertEquals(RaisingMonth.FATHER, BirthReckoning.raisingMonth(Animal.MOUSE, Animal.DRAGON))
+        assertEquals(RaisingMonth.MOTHER, BirthReckoning.raisingMonth(Animal.MOUSE, Animal.HORSE))
+        assertEquals(RaisingMonth.OWN, BirthReckoning.raisingMonth(Animal.MOUSE, Animal.TIGER))
+        assertEquals(RaisingMonth.OWN, BirthReckoning.raisingMonth(Animal.MOUSE, Animal.RABBIT))
+        for (a in listOf(Animal.OX, Animal.SHEEP, Animal.DOG, Animal.DRAGON)) assertEquals(RaisingDay.HARD, BirthReckoning.raisingDay(a, Animal.TIGER))
+        for (a in listOf(Animal.HORSE, Animal.SNAKE)) assertEquals(RaisingDay.EASY, BirthReckoning.raisingDay(a, Animal.RABBIT))
+    }
+
     /** The bad years' lists (pp. 353–354): the harsh years are iron's four and fire's eight, two to a name. */
     @Test
     fun `the bad years for marriage`() {
