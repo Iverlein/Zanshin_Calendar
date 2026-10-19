@@ -523,7 +523,7 @@ the rite of substitution (སྐྱས, skyas).
 
 Ch. 27's first circle (for kings), the life pebble black:
 
-> །སྲོག་རྡེལ[…]བརྒྱུད་པར་བཅས[…]་འཛེར་ཏེ། །ཡལ་གྱིས་འབར་ནས་ཐུམ་གྱིས་ཤི། །སྔར་ནས་ཕ་མེས་དུར་སྲི་ཡོད། །ད་ལྟ་ཡང་ནི་དར་སྲི་ལངས། །རུས་མི་གཅིག་པའི་སྔགས་བོན་ནི། །ལྔ་འམ་གསུམ་གྱིས་སྲི་མནན་དང་། །སེམས་ཅན་སྲོག་བསླུ་འཆི་བ་བསླུ། །སེང་གེའི་ཐོད་པར་དར་སྲི་མནན། །རྒྱལ་པོ་གདན་བཞུགས་གཏོ་ཆོག་བྱ།
+> །སྲོག་རྡེལ[ནག་ན་ས་བདག་རྗེ། །]བརྒྱུད་པར་བཅས[་ལ་ཅུང]་འཛེར་ཏེ། །ཡལ་གྱིས་འབར་ནས་ཐུམ་གྱིས་ཤི། །སྔར་ནས་ཕ་མེས་དུར་སྲི་ཡོད། །ད་ལྟ་ཡང་ནི་དར་སྲི་ལངས། །རུས་མི་གཅིག་པའི་སྔགས་བོན་ནི། །ལྔ་འམ་གསུམ་གྱིས་སྲི་མནན་དང་། །སེམས་ཅན་སྲོག་བསླུ་འཆི་བ་བསླུ། །སེང་གེའི་ཐོད་པར་དར་སྲི་མནན། །རྒྱལ་པོ་གདན་བཞུགས་གཏོ་ཆོག་བྱ།
 
 [If the] life pebble [is black] […] it blazes up and dies out. **From of
 old the forefathers' *dur sri* is there; now the *dar sri* has risen
@@ -568,11 +568,11 @@ perform the long-life rite, turn the weapons aside with a stag's horn;
 
 Ch. 27's small reckonings, by the time and the person's year:
 
-> །དུས་ཚོད་ཆུ་ཕོ་ཁྱི་ཡི་དུས། །མི་དེ་མེ་ཕོ་འབྲུག་ཡིན་ན། །[…]གནམ་ཁྱི་ནག[…]བ་གཉེར། །ཕུགས་སུ་ཆུང་སྲི་ལྡང་བ་ཡིས། །བུ་ཆུང་རབ་ངན་དར་གུད་ཆེ། …
+> །དུས་ཚོད་ཆུ་ཕོ་ཁྱི་ཡི་དུས། །མི་དེ་མེ་ཕོ་འབྲུག་ཡིན་ན། །གནམ་ཁྱི་ནག་པོ་མཆེ་བ་གཉེར། །ཕུགས་སུ་ཆུང་སྲི་ལྡང་བ་ཡིས། །བུ་ཆུང་རབ་ངན་དར་གུད་ཆེ། …
 > །དུས་ཚོད་མི་ལོ་བཅུ་གཉིས་སམ། །མེ་ཡི་རྟ་སྦྲུལ་དུས་ཀྱི་ཚེ། །མི་དེ་རྟ་སྦྲུལ་ལོ་ཡིན་ན། … །ཕ་རོལ་པོ་ཡི་ཕུར་ཁ་ཟུག་།མི་བརྒྱུད་ལ་ནི་གྲི་བསད་དང་། །ཆུང་སྲི་ལྡོང་བའི་ས་ཡིན་ནོ།
 
 When the time is a water male dog year and the person a fire male dragon:
-[…] the black sky dog (གནམ་ཁྱི, gnam khyi) […]; **in the end the *chung
+[…] the black sky dog (གནམ་ཁྱི, gnam khyi) bares its fangs; **in the end the *chung
 sri* rises**, very bad for small children, great decline. When the time
 is the fire horse or snake and the person of a horse or snake year: fire
 in the house, the enemy's peg driven in; **in the line, death by the
@@ -620,7 +620,7 @@ remedy; the sri lines:
 - p. 65: a death on a Saturday: «ཕ་མེས་ཀྱི་ནི་དུར་སྲིས་ལན།», the
   forefathers' *dur sri* is the cause; a rabbit's skull and woods on the
   corpse.
-- pp. 65–66: «བྱིས་པ་ཆུང་བ་ཤི་བ་ན། །ཆུང་སྲི་ཁ་བསྒྱུར་[…]སོགས་བྱ།», when a small
+- pp. 65–66: «བྱིས་པ་ཆུང་བ་ཤི་བ་ན། །ཆུང་སྲི་ཁ་བསྒྱུར་ལ་སོགས་བྱ།», when a small
   child dies, turn the *chung sri*'s face; «བུ་ཚ་ཆུང་བ་ཤི་བ་ན། །ནག་པོ་དུར་སྲི་མནན་པ་དང་།»,
   when a small grandchild dies, press down the black *dur sri*.
 
@@ -775,7 +775,7 @@ Geomancy (ས་དཔྱད, sa dpyad):
 ### Vol. 2, the notes (pp. 477–530, img. 485–538)
 
 - p. 477: the debt and the eight roots on the trigrams (above, p. 301).
-- p. 479: «ལོ་དྲུག་ཅུ་ལས་ལྕགས་[…]ནི་[…]མེ་སྲིའི་རྒྱུད་དུར་སྲིའི་ཀླུང་བརྒྱུད་དོ། །དམེ་དུར་གྱི་ཀླུང་དེ་ཀླུང་བཅུ་གཉིས་ཞེས་བྱ་སྟེ།»:
+- p. 479: «ལོ་དྲུག་ཅུ་ལས་ལྕགས་བཞི་དམེ་སྲིའི་ཀླུང་དང་མེ་བརྒྱད་དུར་སྲིའི་ཀླུང་བརྒྱུད་དོ། །དམེ་དུར་གྱི་ཀླུང་དེ་ཀླུང་བཅུ་གཉིས་ཞེས་བྱ་སྟེ།»:
   of the sixty years, [the four] iron are the line of the sri of
   kin-defilement (དམེ་སྲི, dme sri) and [the eight] the lineages of the
   *dur sri*: the kin-defilement and grave lineages, called the twelve
@@ -785,9 +785,9 @@ Geomancy (ས་དཔྱད, sa dpyad):
   *dme sri*'s four lineages are called the iron four; of a son born in
   them, say "kin-defilement comes"; of one born in the *dur sri*'s
   lineage, «དུར་འོང་ཤོད», say "the grave comes".
-- p. 530: «འཕུང་སྲི་ཁྱོ་ཟན་ནི་བག་མ་[…]ཁུར་བདུན་པ་བབ་པ་ཞིག་དུར་སྤར་དང་དུར་ལོ་དང་འདོམས་པ་སྟེ།»:
+- p. 530: «འཕུང་སྲི་ཁྱོ་ཟན་ནི་བག་མ་འདུན་ཁུར་བདུན་དམར་ལ་བབ་པ་ཞིག་དུར་སྤར་དང་དུར་ལོ་དང་འདོམས་པ་སྟེ།»:
   the husband-eating *'phung sri* (ཁྱོ་ཟན, khyo zan) of ch. 23 is when the
-  bride's seventh […] falls and meets the grave trigram and the grave
+  bride's *'dun khur* falls on the seven-red and meets the grave trigram and the grave
   year (the ch. 23 passage on the scan in [marriage.md](marriage.md)).
 
 ### The register: the other pages the search found
@@ -869,9 +869,11 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 - Open question 113 ([open-questions.md](open-questions.md)), answered 2026-10-18.
 - Open question 114 ([open-questions.md](open-questions.md)), answered 2026-10-18: two small stars (above).
 - Open question 115 ([open-questions.md](open-questions.md)), answered 2026-10-19.
-- Doubt: the lines here are the etext's, the gaps […] its own; checked on
-  the Gser thang reprint since (2026-10-19): vol. 1, pp. 244, 382, 387, 425–426
-  and 456, whose gaps are filled above. The rest is unchecked.
+- Doubt: the lines here are the etext's, the gaps […] its own; filled since
+  from the Gser thang reprint (2026-10-19): vol. 1, pp. 244, 382, 387,
+  425–426, 456; vol. 2, pp. 15, 65, 479 and 530, read by eye, and p. 3 by
+  Yigdzin-1 only (in square brackets: a woodcut beside the lines defeats
+  the line finder). The rest is unchecked.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,
   p. 242); «ལྡོང» read «ལྡང» (vol. 2, p. 15); «སྒོས་སྲིད» read «སྒོས་སྲི» beside
   «སྤྱི་སྲི» (vol. 2, p. 55); «ཆུང་སི། ལ་ཡོད» read «ཆུང་སྲི་ལི་ལ་ཡོད» by the notes
