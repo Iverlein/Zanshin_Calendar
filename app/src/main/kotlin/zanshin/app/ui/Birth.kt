@@ -77,7 +77,10 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
     }
 }
 
-/** The year's own destiny (pp. 261, 275–280): the birth year's destiny against its life force; it needs no one else. */
+/**
+ * The birth year read on its own, needing no one else: the twelve animals' natures and the sixty years (pp. 263–271),
+ * then the year's own destiny, its destiny against its life force (pp. 261, 275–280).
+ */
 @Composable
 fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
@@ -86,6 +89,28 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
     val sign = Sign(born.yearElement, born.yearAnimal)
     val y = BirthReckoning.powerYear(sign)
     val forces = Forces.of(sign.element, sign.animal)
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_nature_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.yearNature(sign.animal),
+            subtitle = gloss(sign.animal),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_sixty_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.sixtyYear(sign),
+            subtitle = signName(sign, labels),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
     AnnotationRow(
         Annotation(
             title = y.english.replaceFirstChar(Char::uppercase),

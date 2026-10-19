@@ -978,6 +978,8 @@
     <string name="birth_detail_destiny">Destiny of the birth year</string>
     <string name="birth_year_side_title">Whose side it falls on</string>
     <string name="birth_year_side_subtitle">%1$s, in a year of %2$s</string>
+    <string name="birth_nature_title">The year animal\'s nature</string>
+    <string name="birth_sixty_title">The sixty years\' reading</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

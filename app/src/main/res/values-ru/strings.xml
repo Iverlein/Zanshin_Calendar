@@ -833,6 +833,8 @@
     <string name="birth_detail_destiny">Могущество года рождения</string>
     <string name="birth_year_side_title">На чью сторону падает</string>
     <string name="birth_year_side_subtitle">%1$s, в год стихии: %2$s</string>
+    <string name="birth_nature_title">Нрав животного года</string>
+    <string name="birth_sixty_title">Чтение шестидесяти годов</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
