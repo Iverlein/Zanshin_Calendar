@@ -46,6 +46,8 @@ object WhiteBerylWorks {
         "sending_out_wealth" to Factors(dates = setOf(20)),
         // 32. Medicine: the box's sme ba 9 is the chapter's 4.
         "preparing_medicine" to Factors(smeBa = setOf(9)),
+        // 36. Enthronement, p. 405: the 8th to the 10th good, and banned by the Chinese reckoning («བདུན་བརྒྱད་དགུ་བཅུ་བཀག་པ་ཡོད»).
+        "enthronement" to Factors(dates = setOf(8, 9, 10)),
         // 38. Servants: bra nye good only for taking a widow into service («ཡུགས་བསྟེན»), plain good in the box.
         "taking_servants" to Factors(mansions = m(BHARANI)),
     )
@@ -144,7 +146,7 @@ object WhiteBerylWorks {
             good = Factors(mansions = m(ANURADHA), links = setOf(Link.AGEING_AND_DEATH)),
             bad = Factors(animals = setOf(DOG, TIGER)),
         ),
-        // 36. Enthronement, p. 405: the box names no dates. 8–10 are good, and banned by the Chinese reckoning.
+        // 36. Enthronement, p. 405: the 13th and the 19th to the 30th, where the box has the 23rd on both sides.
         ActivityList(
             "enthronement",
             good = Factors(dates = setOf(1, 2, 11, 12, 13, 15, 18)),

@@ -226,6 +226,9 @@ class ElectionalTest {
         // Box 59's last bad date on the scan: «༢༨», as boxes 57 and 58.
         assertEquals(setOf(4, 8, 9, 28), printed("judging_disputes").bad.dates)
         assertEquals(setOf(Link.CONSCIOUSNESS, Link.FEELING), printed("ordination_teaching_and_empowerment").good.links)
+        // Box 39's dates, from the Bhutan print, joined to the chapter's (p. 405): the 8th to the 10th on neither side.
+        assertEquals(setOf(1, 2, 11, 12, 13, 15, 18), list("enthronement").good.dates)
+        assertEquals(setOf(6, 7, 16) + (19..30), list("enthronement").bad.dates)
         // Box 50's dates, from the Bhutan print: the 14th good, not the 13th.
         assertEquals(setOf(3, 5, 10, 14, 23, 11), printed("ordination_teaching_and_empowerment").good.dates)
         assertEquals(setOf(1, 4, 6, 7, 8, 22, 15), printed("ordination_teaching_and_empowerment").bad.dates)

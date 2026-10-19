@@ -860,12 +860,14 @@ object Electional {
                 trigrams = setOf(LI, KHEN),
             ),
         ),
-        // 39. Enthronement (img. 47, KP2 img. 268).
+        // 39. Enthronement (img. 47, KP2 img. 268). The dates as the Bhutan print of 1981 sets them (I1KG11905, img. 395),
+        // crowded past reading in KP and KP2: the 9th and 23rd are named in both halves, so on neither side.
         ActivityList(
             "enthronement",
             good = Factors(
                 links = setOf(Link.CONSCIOUSNESS, Link.SOURCES, Link.BIRTH),
                 weekdays = setOf(SUNDAY, TUESDAY, THURSDAY),
+                dates = setOf(1, 2, 8, 10, 11, 12, 15, 18),
                 mansions = m(ROHINI, MRIGASHIRAS, PUSHYA, ANURADHA, JYESHTHA, UTTARASHADHA, PUNARVASU, PURVASHADHA, SHATABHISHAJ, UTTARAPHALGUNI, UTTARABHADRAPADA, REVATI, KRITTIKA, SVATI, HASTA),
                 animals = setOf(HORSE, DRAGON, TIGER, RABBIT),
                 trigrams = setOf(KHEN),
@@ -873,6 +875,7 @@ object Electional {
             bad = Factors(
                 links = setOf(Link.AGEING_AND_DEATH, Link.IGNORANCE),
                 weekdays = setOf(SATURDAY),
+                dates = setOf(6, 16, 26, 20, 21, 22, 24, 25, 27, 28, 29, 30),
                 mansions = m(BHARANI, ARDRA, ASHLESHA, MAGHA, CITRA, SHRAVANA, MULA, VISHAKHA, DHANISHTHA),
                 animals = setOf(SNAKE, MONKEY),
             ),
