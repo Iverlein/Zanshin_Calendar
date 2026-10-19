@@ -636,6 +636,7 @@ The box on the scan, KP BDRC img. 52 (O10f):
   `WhiteBerylWorks` has them. The 19 and the 29 differ only in their
   first digit; KP2's folio of this box was not found.
 - **The good dates read in the Bhutan print 2026-10-19** (I1KG11905, img. 398): «ཚེས་༤ ༨ ༡༨ ༡༩ / ༩ ༢༩ ༢༢ ༢༥», where KP and KP2 are worn: the White Beryl's work 46 date for date (p. 418). Built so.
+- **The sme ba, 2026-10-19:** the numeral after «ཀརྚ» is KP's crossed 2 (img. 52 at 3×; the Bhutan print «༢»), not 3: the two-black, the White Beryl's work 46 «གཉིས་ནག་གིན་འཆར་བཟང» (p. 418). Built so.
 
 ### 48. Fire offerings — སྦྱིན་སྲེག་བྱེད་པ་ལ་བཟང་བ
 
@@ -928,7 +929,7 @@ side; a box's "otherwise as box N" carries the links like any other kind
 | 39 enthronement | links rnam shes, skye mched, skye ba | links rga shi, ma rig |
 | 43 ornaments | link 'du byed | |
 | 44 suppressing *sri* | sme ba 3 | |
-| 45 funerals | | sme ba 3, 5, 9 |
+| 45 funerals | | sme ba 2, 5, 9 (the 2 read 3 until 2026-10-19: KP img. 53 at 4× carves the crossed 2, WB's work 41 «གཉིས་ནག་ལྔ་སེར་དགུ་དམར») |
 | 46 supports, temples | links 'du byed, skye mched, ming, rnam shes; sme ba 5 | |
 | 49 consecration | | link skye mched, sme ba 6 |
 | 52a hair and nails | | links reg pa, rga shi |
