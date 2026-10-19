@@ -820,7 +820,7 @@
     <string name="birth_father_needed">Если указать год рождения отца среди родственников, будут прочитаны и те чтения, что спрашивают его триграмму.</string>
     <string name="birth_gender_needed">Часть чтений триграмм родителей — для сына или для дочери: укажите пол в разделе «Люди», чтобы увидеть их.</string>
     <string name="birth_parents_none">Ни одно из чтений о триграммах родителей не выпадает на это рождение.</string>
-    <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из одних лет и рода: могущество года, пятеро по триграмме рождения, особый камень и триграммы родителей при рождении. Прочие камни года, месяца, дня и часа рождения пока не считаются.</string>
+    <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из одних лет и рода: могущество и тройка удачи года, пятеро по триграмме рождения, особый камень и триграммы родителей при рождении. Прочие камни года, месяца, дня и часа рождения пока не считаются.</string>
     <string name="reckonings_birth_subtitle">Триграмма рождения: %1$s · %2$s</string>
     <string name="reckonings_birth_needed">Нужен год рождения матери</string>
     <string name="birth_section_clan">Род</string>
@@ -832,6 +832,8 @@
     <string name="birth_detail_destiny">Могущество года рождения</string>
     <string name="birth_year_side_title">На чью сторону падает</string>
     <string name="birth_year_side_subtitle">%1$s, в год стихии: %2$s</string>
+    <string name="birth_triad_title">Тройка удачи года</string>
+    <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1) -->
     <string name="relatives_title">Родственники</string>

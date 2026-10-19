@@ -20,6 +20,7 @@ import zanshin.app.Reckonings
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.ClanYear
@@ -111,6 +112,18 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
             tone = Tone.NEUTRAL,
             reading = Texts.powerYearOf(y, forces.destiny),
             subtitle = labels.string(R.string.birth_year_side_subtitle, Ewts.named(y.english, y.wylie), gloss(forces.destiny, "inText")),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    val triad = Animal.entries.filter { Forces.of(sign.element, it).luck == forces.luck }
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_triad_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.luckTriad(forces.luck),
+            subtitle = labels.string(R.string.birth_triad_subtitle, triad.joinToString(", ") { gloss(it) }, gloss(forces.luck, "inText")),
             titleIsKanji = false,
         ),
         onOpen,
