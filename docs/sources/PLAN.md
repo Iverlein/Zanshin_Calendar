@@ -281,7 +281,12 @@ page). A phrase's character offset in its OCR line over the line's
 length, on a text block of 7 lines, places a native-size crop (8280 px)
 within a few hundred pixels. The Taikhang caught a line the 1996 print
 drops (vol. 1 p. 262, open question 69), so where a count or a list
-does not add up, compare it first. KP's colophon is BDRC's image labelled 121 (the file's 119).
+does not add up, compare it first. The Taikhang carves WB's interlinear
+notes too: the hal khyi's note on 104 days in other texts (vol. 2 p. 185,
+in round brackets in the 1996 edition) stands in small letters on
+Taikhang vol. 2 img. 278 (Yigdzin-1's reading, 2026-10-19). So a
+bracketed note of the 1996 edition can be WB's own, not its editors';
+check the Taikhang before calling one an editor's addition. KP's colophon is BDRC's image labelled 121 (the file's 119).
 BDRC's full-text search answers a word's other uses in seconds and found
 glosses no dictionary has (open questions 24, 38, 63, 130); run it before
 the dictionaries.
