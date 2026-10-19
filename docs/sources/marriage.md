@@ -983,3 +983,20 @@ animals' pairs of point 1 give several lists that disagree (the pig
 taking a mouse long-lived in one and quarrelsome in another): not built.
 The «ཐན» of the seven persons is named «ཐན་པ» (the print's «ཐན་པའི་མི་བདུན»), since «than»
 alone is an English word to the naming check.
+
+## Built, 2026-10-19 (ROADMAP R3c)
+
+Point 10's same planet of birth («གཞན་ཡང་གཟའ་ནང་སྐྱེས་བསྡེབས་ཀླུང་། །སྤེན་པ་ལ་སྐྱེས་བསྡེབས་པ་ན …», p. 360):
+`MatchPlanet`, the lines split as the verse's line count gives them (the
+Sun and Mars with «ནོར་རྫས་གོད་འོང», Jupiter with «བུ་ཚ་དཀོན»). Not built: the man's
+planet in agreement («སྐྱེས་པའི་གཟའ་ནི་མཐུན་པ་ན …», what it agrees with not settled), the
+mansions, the birth month, day and hour against enemy, grave, seventh
+and executioner. **Point 4, the hidden, not built**: the wheels'
+pairs are read (above), but the mewa that stands for each aspect is not
+settled: «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།»
+(four up for the life force, four down for destiny, the birth mewa for
+the body, the three in concord for the luck; a man's five counted as
+two, a woman's as seven) leaves "four up" and "the three in concord"
+open, and the body-cut wheel («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)») names
+the turtle's body parts, not pairs, so its pairs are not read. A
+question for the open-questions run.

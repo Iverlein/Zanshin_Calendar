@@ -657,6 +657,10 @@ relatives (the spouse taken as the other sex where theirs is not set).
 - **The two destinies together** (p. 357): the fifteen pairs of the
   destinies' elements, with the children born and the household's
   fortune.
+- **The same planet of birth** (p. 360): husband and wife born on the
+  same weekday (the Tibetan day's, as the birth weekday, §5.12) are
+  joined in its planet, Saturday, Sunday or Tuesday, Thursday, Monday or
+  Wednesday, Friday, each with its harm; it needs both birth dates.
 - ***Ni sha*** (p. 359): the man of a male year and older, the woman of
   a female year and younger, not reversed; the man younger, or her year
   male and his female, reversed, with its remedy; otherwise not shown.
@@ -665,7 +669,9 @@ relatives (the spouse taken as the other sex where theirs is not set).
 pairs of year animals, whose several lists disagree; the mewa paths'
 years with five or two elements (2); the hidden and the
 deeper hidden (4, 5), the siblings' number (7), the clans (8, 9, asked),
-the birth dates' month, planet and mansion (10) and the rest.
+the birth dates' month, day and hour, the planets' and mansions'
+agreement (10, beyond the same planet) and the rest; the hidden's
+wheels (4), whose rule for each aspect's mewa is not settled.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -3350,7 +3356,8 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's
   earth") and the wife of karma where it holds; under "The two
-  destinies" their pair; *ni sha* where it is good or reversed; a line
+  destinies" their pair; "Both born on a Tuesday" where the weekdays
+  meet; *ni sha* where it is good or reversed; a line
   on the points read. Without a gender or a spouse's year, what it needs
   and the way to People.
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
