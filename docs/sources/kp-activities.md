@@ -765,11 +765,12 @@ The box on the photograph, KP2 img. 278 (O10f), **machine reading**: Yigdzin-1 o
 - Good half: «༄། །གཟའ་ཉི་ཕུར་ཟླ་༼…རབ་བྱུང་ངན།༽ སངས་༼…༽ / རབ་བྱུང་འཆད་ཉན་ལ་བཟང་། ཚེས་༣ ༥ ༡༠ ༡༣ ༢༣ ༡༡ སྐར་མ་ས་རི་ས་ག་སྣར་ / མགོ་ལག་ནབསོ་རྒྱལ་མཆུ་སྨིན་མྱེ་ནག་མོནྲེ་མོནྲུ་ཆོད་༼ཁྲུཾད༽ / ལྷཾས་ཆུཾད་སྣྲོན་ནུཾ་ཐརྐ་བྲཉེ་ཁྲོུཾད་དབང་བཟང་། དབོ་འཆད་ཉན་བཟང་། རྣམ་ / ཤེས་ཚོར་བ་ཉི་མ་འབྲུག་ཕག་གིན་༥ དུས་སྦྱོར་ལུག་གླང་ཆུ་སྲིན་བུཾ་སེངྒེ་ / …དཀྱིལ་འཁོར་འདྲི་བར་ཐིག་ཞིབ་རྒྱས་བཻ་དཀར་ལྟར།»
 - Bad half: «༄། །གཟའ་མིག་སྤེན་ཚེས་༡ ༢༢ […] ༡༥ སྐར་མ་སྐག་གྲོཞི་ / ཉི་མ་སྟག་ཕག་བསློབ་གཉེར་ངན། ལུག་གླང་དུས་སྦྱོར་འཁྲིག་གཞུ་བུམ་ / ཟིན་ཕུང་ཉི་ནག་བིཥྚི་འཕུང་བྱེད་ཀླུ་གཟའ་ལོ་ཟླ་ནག / ཚེས་གཉན་སོགས་»
 
-- **Good:** Sun Thu; dates 3, 5, 10, 13, 23, 11; sa ri, sa ga, snar ma, mgo, lag, nabs so, rgyal, mchu, smin drug, me bzhi, nag pa, mon gre, mon gru, chu stod, khrums smad; days Dragon; trigrams gin
-- **Bad:** Tue Sat; dates 1, 22, 15; days Sheep, Ox
+- **Good:** Sun Thu; dates 3, 5, 10, 14, 23, 11; sa ri, sa ga, snar ma, mgo, lag, nabs so, rgyal, mchu, smin drug, me bzhi, nag pa, mon gre, mon gru, chu stod, khrums smad; days Dragon; trigrams gin
+- **Bad:** Tue Sat; dates 1, 4, 6, 7, 8, 22, 15; days Sheep, Ox
 - **Neither side:** the Moon and Mercury (in brackets: bad for ordination); Venus (in brackets: good for ordination and teaching); lha mtshams, chu smad, snron, nam gru, tha skar, bra nye, khrums stod (good for empowerment); dbo (good for teaching); skag and gro bzhin (bad for study); the Tiger day (bad for study); the Pig day (good, and bad for study)
 - **Not calculated:** the links རྣམ་ཤེས, ཚོར་བ; rising signs; zin phung, nyi nag, Viṣṭi, 'phung byed, the Nāga planet and the like (bad); for drawing maṇḍalas the lines are laid out as the White Beryl teaches
 - KP2 only. Two or three bad dates beside 1, 22 and 15 (read 4, 8, 9 by machine) are not clear on the photograph and are left out.
+- **The dates in the Bhutan print, 2026-10-19.** The *Collected Astrological and Prognosticatory Texts from Bhutan* (Thimphu, 1981) reprint KP in clean type as *'Bras rtsis bai dkar dgongs don* (BDRC I1KG11905, img. 403, printed p. 393; read by eye at full size, 5216 px), and carry box 50: good «ཚེས་༣ ༥ ༡༠ ༡༤ ༢༣ ༡༡», bad «ཚེས་༡ ༤ / ༦ ༧ ༨ ༢༢ ༡༥». That is the White Beryl's work 47 (good 3, 5, 10, 14, 11, 23; bad 1, 4, 6, 7, 8, 12, 15) but the 22nd for its 12th, which KP2 has too. KP2's «༡༣» was its cursive 14; built so.
 
 ### 51. Dikes and protection against water — ཤྭ་རག་ཆུ་བསྲུང་སོགས་ལ་བཟང་བ
 
