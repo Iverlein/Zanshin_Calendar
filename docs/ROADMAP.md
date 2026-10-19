@@ -3481,7 +3481,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   English and Russian, shown under "The birth year" whether or not the
   mother's year is known; with them the twenty-five particular readings,
   by the year's element, whose side of the family the kind falls on
-  (`PowerYearOf`), the same day. Left: the pebble of the time. Checked: `BirthTest` (WB's particular years, twelve
+  (`PowerYearOf`), the same day, and the four readings of the luck
+  triads that follow them (pp. 280–281, `LuckTriad`). Left: the pebble of
+  the time. Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,
   *khong nong*) and Russian (a wood tiger, *kha yan*, no mother), the
   release build.

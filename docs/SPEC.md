@@ -548,6 +548,9 @@ on the scan that follow from the years alone. `BirthReckoning`
   side of the family the kind falls on (the father's brothers, the
   household or oneself, the mother and grandmother, the maternal uncle
   and relatives, the children or wealth).
+- **The luck triad** (pp. 280–281): one reading for each triad of birth
+  years that share a luck (*klung rta*): mouse, dragon, monkey; tiger,
+  horse, dog; bird, ox, snake; pig, sheep, hare.
 - **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
   which is asked (§10.5): the birth year's animal in p. 261's table for
   the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
@@ -3248,6 +3251,7 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   under "The birth year" the year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
+  and "The year's luck triad",
   shown also without the mother's year;
   under "The clan" the year of the special pebble ("The clan's friend
   year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note

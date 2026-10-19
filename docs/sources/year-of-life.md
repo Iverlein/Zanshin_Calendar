@@ -605,6 +605,22 @@ wood). Dropped as unclear: «ཡང་ན་ཞང་པོ་ཕ་དང་མ
 the *bse rags* on the neck and the crystal rosary scattered (*'dun khur*,
 general). Built 2026-10-19 (ROADMAP R2c, SPEC §5.9.2).
 
+### The triads of one luck (pp. 280–281)
+
+Read 2026-10-19 for ROADMAP R2c: the Gser thang reprint, img. 275–276,
+Yigdzin-1 and the whole passage compared with the scan (the scan reads
+«ཀླུང་རྟ» where Yigdzin-1 has «ལུང་རྟ»). After the destiny's readings
+(«དབང་ཐང་ཚང་གི་རིམ་པའོ།»): «དེ་ནས་གཞན་ཡང་ལོ་ཁྱིམ་ལས། །ཀླུང་རྟ་གཅིག་པའི་ཚང་བཤད་པ།» — then, of the year houses, the readings of one luck:
+
+- «བྱི་འབྲུག་སྤྲེལ་གསུམ་ལོ་པ་ནི། །རང་གི་ཕ་ཁུ་མེས་དང་གསུམ། །དཔུང་བཙན་དྲག་པོའི་བཙན་དང་འདྲ། །ཕྱི་ནང་གཉིས་སུ་བསོད་ནམས་ལྡན། …། །མི་ཁ་འབྱུང་ཡང་མི་གནོད་དེ། …། །མི་ཡི་འོག་ཏུ་མི་འགྲོ་ཙམ།» — the mouse, dragon and monkey years: father, uncles and grandfather like a strong-armed tsen, of merit outside and in; slander comes but does not harm; one at least never goes under others.
+- «སྟག་རྟ་ཁྱི་གསུམ་ལོ་པ་ནི། །ང་ནོར་ལྕགས་ཀྱི་རི་བོ་ལ། །རྐུན་པོའི་གཟོང་གིས་མི་ཕུག་སྟེ། །ལྷ་སྲུང་བཟང་པོའི་མགོན་སྐྱབས་ཀྱིས། །ཐབ་ཏུ་ལྷུངས་ཀྱང་ལག་པས་འདྲེན། …། །གཉེན་གྱི་ས་ན་བསོད་ནམས་ལྡན།» — the tiger, horse and dog years: wealth an iron mountain no thief's chisel pierces; good protector gods pull one out by the hand even when fallen into the hearth; merit on the relatives' side.
+- «བྱ་གླང་སྦྲུལ་གྱི་ལོ་པ་ནི། །རྒྱལ་པོ་རྒྱལ་སར་བྱུང་བ་བཞིན། །འཁོར་དང་གཉེན་ཁ་ཐམས་ཅད་ཀྱིས། །ལྐོག་ཁ་བསྲུང་ཞིང་བསྟོད་པས་ན། …། །བུས་པའི་བསོད་ནམས་ཆུང་གྱུར་ཀྱང་། །ནོར་དང་གཡང་དུ་ལྡན་པ་ཡིས།» — the bird, ox and snake years: like a king come to the throne, guarded and praised by retinue and kin; the one born's merit small, but endowed with wealth and luck.
+- «ཕག་ལུག་ཡོས་ཀྱི་ལོ་པ་ནི། །མ་ཕྱིས་བསགས་པའི་ནོར་རྫས་ཀྱིས། །འཕྲལ་གྱི་ལོངས་སྤྱོད་བྱར་བཏུབ་ཙམ། །འོན་ཀྱང་བཀྲེན་འདྲེ་འགོང་པོ་ཡིན། །བསགས་པས་མཐུག་ཏུ་མ་སོང་བས། …། །བུ་ཚ་རྒྱས་པར་གྱུར་པས་ན།» — the pig, sheep and hare years: the wealth the mother and grandmother gathered serves only for the moment; a gongpo of poverty keeps it from growing thick; children flourish.
+
+The triads are those of the luck (*klung rta*) element of `Forces`:
+mouse, dragon, monkey wood; tiger, horse, dog iron; bird, ox, snake
+water; pig, sheep, hare fire. Built 2026-10-19 (`LuckTriad`).
+
 ### The special pebble's readings: the end reckoning (pp. 284–286)
 
 Read 2026-10-19 for ROADMAP R2b: the Gser thang reprint of the 1996
