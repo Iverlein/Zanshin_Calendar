@@ -1028,6 +1028,9 @@
     <string name="match_section_trigram">The natal trigrams</string>
     <string name="match_trigram_title">Trigrams · %1$s</string>
     <string name="match_trigram_needs">Each natal trigram needs the mother\'s birth year: enter the person\'s mother, and the spouse\'s mother under the spouse, in People.</string>
+    <string name="match_trigram_children">Children by the trigrams</string>
+    <string name="match_hand_waver">one of the eight hand-wavers</string>
+    <string name="match_hand_waver_subtitle">%1$s on %2$s</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
