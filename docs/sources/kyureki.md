@@ -1825,6 +1825,44 @@ questions* (2026-10-15).
   the hits; RM's glosses, which quote 鄭玄, the 三礼義宗 and the 易通卦驗,
   stand in for it.
 
+## K4: three claims settled, 2026-10-19 (ROADMAP K4)
+
+Read in the headed browser (the Playwright MCP) and, for the PDF, its
+text layer; each quoted as printed.
+
+**二十七宿 in Japan (question 4).** NAOJ 暦Wiki 二十八宿
+(https://eco.mtk.nao.ac.jp/koyomi/wiki/C6F3BDBDC8ACBDC9.html, last
+modified 2017-08-30), its section 二十七宿: «二十七宿はインドの占星術(とくにナクシャトラ)から宿曜経すくようきょうに組み込まれたもので、日の吉凶を占うものとして唐の時代に伝わってきました。二十八宿と比較すると、牛宿がありません。» and «朔日の宿はあらかじめ下表のように配当されており、朔日の後は (牛宿を除いて) 毎日順番に配当されます。» … «貞享暦以降は二十八宿が用いられています。»
+The twenty-seven came from India through the 宿曜経 in the Tang, to
+tell the luck of days; they lack 牛; each month's 1st has a fixed mansion
+(正月 室, 二月 奎 … 十二月 虚) and the days run on from it; from the Jōkyō
+calendar the twenty-eight are used. So the 27 were the almanac's day
+mansions before 1685, against the expert's "never applied in Japan"; the
+暦林問答集 of 1414 (K3-R, *What the app needs*) speaks of twenty-eight
+with 牛 apart, the class the 宿曜経 lacks. The app shows the 28 of the
+modern almanac and says nothing of the 27: nothing to change.
+
+**The red writing of the 具注暦 (SPEC §10.4).** The spec's claim that the
+red writing marks the 二十八宿 and the 七曜 had no source. 作花一志 (京都情報大学院大学), «曜日の起源と具注暦» (PDF, 2009,
+https://www.kcg.ac.jp/kcg/sakka/kagakushi/youbi.pdf, linked from Japanese
+Wikipedia 曜日), fig. 1: «承元四年八月（1210年9月）の具注暦の一部。上段に曜日が朱書されている。（京都大学宇宙物理学教室保管）» and the text: «日曜日に「密」という字が書かれているのはソグド語のミールに由来するものといわれる。»
+In the 具注暦 of 1210 the weekday is written in red in the upper band,
+密 on Sundays. Nothing read says the 二十八宿 were written in red: the
+spec now says the weekday only. Japanese Wikipedia 具注暦 (read the same
+day) says nothing of red writing.
+
+**六曜 since the 19th century (question 13).** Japanese Wikipedia 六曜
+(https://ja.wikipedia.org/wiki/六曜, read 2026-10-19), *歴史*: «現在と同じ六曜の初見は、神田茂の研究によれば延享4年（1747年）編と思われる『万暦両面鑑』である» ; «江戸時代末期の『安政雑書万暦大成』で現在と同様の六曜の吉凶解釈が出揃うが、江戸時代には六曜は数ある暦注の一つにすぎなかった。» ; *近代以降*: the 1872 notice that from 1873 the
+略暦 carry no 中下段 annotations, and «政府が発行する官暦となった神宮暦も…吉凶の暦注は一切排除されるはずであったが、六曜と旧暦を略本暦に附すという形で存続した。…暦注追放を経て六曜はかえって重視されるようになったともいわれている»
+The present six are first found in an almanac of 1747 (by 神田茂's
+study); their present readings are complete only in the late Edo
+安政雑書万暦大成; in the Edo period they were one annotation among many;
+after the luck annotations were struck in 1873 they stayed beside the
+official almanac and came to weigh more. This bears out the expert's
+"popular since the 19th century"; the six's family note
+(`reading.Rokuyo`) says it, with Wikipedia beside Todan as its source.
+The page has no 六曜 entry in NAOJ's 暦Wiki (the 暦注 page lists none).
+
 ## K1: the Russian terms in the scholarly literature (ROADMAP K1)
 
 **Built 2026-10-19** (block 51): the clear names below are in the app

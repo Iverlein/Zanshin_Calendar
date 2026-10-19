@@ -106,7 +106,7 @@ moves up as soon as it is unblocked.
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
-| <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
+| <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
@@ -370,6 +370,21 @@ as a dead end (sources/PLAN.md).
   the app does). Question 2 is answered since the dossier (kyureki.md,
   *The personal reading of 三箇の悪日*), subject to K3's view of the 簠簋内伝.
 
+- **Built 2026-10-19** (block 52, the three claims a reading closed;
+  kyureki.md, *K4: three claims settled*): **二十七宿**, NAOJ's 暦Wiki has
+  them the almanac's day mansions from the 宿曜経 until the Jōkyō
+  calendar, so the expert's "never applied in Japan" does not hold for
+  the almanac; the page shows the 28 and says nothing of the 27, so
+  nothing changes. **The red writing**, SPEC §10.4 now says what a
+  source shows: the weekday in red in the upper band of the 具注暦 of 1210,
+  密 on Sundays (作花一志), and no longer the 二十八宿. **六曜**, a family
+  note `reading.Rokuyo` in both languages: the present six first found in
+  1747, one annotation among many in the Edo period, weightier after the
+  luck annotations were struck in 1873 (Japanese Wikipedia 六曜, an own
+  summary; SPEC §7). Checked: `:core:test`, `:app:testDebugUnitTest`, the
+  六曜 sheet on the emulator in English and Russian. Left: the 本命星
+  (question 11, the expert's), 天一天上 and 歳徳神 (D12, the paper
+  almanac), "her needs searching".
 - **Block.** [52](#block-52), a claim at a time as its reading closes
   (the 本命星 reading, the 六曜 line, SPEC §10.4's red writing), as
   [31](#block-31) builds the reckonings one by one.

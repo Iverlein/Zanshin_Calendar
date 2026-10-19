@@ -1486,7 +1486,10 @@ vector taken from NAOJ, and a test lists every such event in 1900–2100.
 
 This is the Chinese-derived lunisolar calendar Japan used until 1872. Neither
 it nor rokuyō is Shinto, which is why the original draft's "Shinto" label is
-gone; the screen calls the panel 旧暦.
+gone; the screen calls the panel 旧暦. The rokuyō in their present form date
+from an almanac of 1747 and rose to weight after 1873, when the luck
+annotations were struck from the official almanac and they alone stayed
+(Japanese Wikipedia 六曜; ROADMAP K4): the six's family note says so.
 
 **What the page is for** (the owner, 2026-10-12 and 2026-10-14): an
 almanac of use to a present-day practitioner of onmyōdō, Shinto or
@@ -2626,8 +2629,9 @@ canvas "Zanshin Calendar — basic design".
   appear in the date picker. On a day with both, the black day wins, since on
   it no other annotation need be read. The marks are drawn, not set in type.
   No whole day is coloured by luck: none is recorded for the historical
-  almanac, whose red writing (朱書き) in the 具注暦 marks the 二十八宿 and 七曜
-  (queried by the review of 2026-10-12, ROADMAP K4),
+  almanac, whose red writing (朱書き) in the 具注暦 is the weekday in the
+  upper band, 密 on Sundays (作花一志, 曜日の起源と具注暦, of the 具注暦 of
+  1210; ROADMAP K4),
   and on modern Japanese calendars a red date means a Sunday or holiday. The
   lucky and unlucky colours of the rows are an app convention.
 - **In brief:** a line under the rokuyō (and under the day mark) shows the
