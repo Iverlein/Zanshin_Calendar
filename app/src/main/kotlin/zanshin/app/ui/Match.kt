@@ -17,11 +17,14 @@ import zanshin.app.MatchReading
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BadYear
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
+import zanshin.core.tibetan.YearSexes
 import zanshin.core.tibetan.YearOfLife
 
 /**
@@ -52,6 +55,37 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
+        val sameAnimal = MatchReckoning.sameAnimal(m.man, m.woman)
+        sameAnimal?.let { a ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_same_animal_title, gloss(a)),
+                    english = "",
+                    tone = when (a) {
+                        Animal.PIG -> Tone.GOOD
+                        Animal.DRAGON, Animal.SNAKE, Animal.SHEEP -> Tone.MIXED
+                        else -> Tone.BAD
+                    },
+                    reading = Texts.matchSameAnimal(a),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        val sameElement = MatchReckoning.sameElement(m.man, m.woman)?.let { s -> Texts.matchSameElement(m.man.element, s)?.let { s to it } }
+        sameElement?.let { (s, reading) ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_same_element_title, gloss(m.man.element)),
+                    english = "",
+                    tone = sameElementTone(m.man.element, s),
+                    reading = reading,
+                    subtitle = gloss(s),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
         val bad = MatchReckoning.badYears(m.man, YearOfLife.yearSmeBa(m.manYear)).filter { it != BadYear.BLACK_FANGS }.map { R.string.match_man_year to (it to m.man) } +
             MatchReckoning.badYears(m.woman, YearOfLife.yearSmeBa(m.womanYear)).map { R.string.match_woman_year to (it to m.woman) }
         bad.forEach { (whose, pair) ->
@@ -68,7 +102,7 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
-        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null) Text(stringResource(R.string.match_years_none), style = muted)
+        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null) Text(stringResource(R.string.match_years_none), style = muted)
         Section(stringResource(R.string.match_section_single))
         MatchReckoning.aspects(man, woman).forEach { (force, meeting) ->
             AnnotationRow(
@@ -132,4 +166,13 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
         }
         Text(stringResource(R.string.match_note), style = muted)
     }
+}
+
+/** The tone of one element's lot by the sexes of the two years (p. 353). */
+private fun sameElementTone(e: Element, s: YearSexes): Tone = when {
+    s == YearSexes.MIXED && (e == Element.WATER || e == Element.EARTH) -> Tone.GOOD
+    e == Element.FIRE && s == YearSexes.FEMALE_FEMALE -> Tone.GOOD
+    e == Element.EARTH && s == YearSexes.FEMALE_FEMALE -> Tone.NEUTRAL
+    s == YearSexes.MIXED || (e == Element.EARTH && s == YearSexes.MALE_MALE) -> Tone.MIXED
+    else -> Tone.BAD
 }

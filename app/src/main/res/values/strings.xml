@@ -1015,6 +1015,8 @@
     <string name="match_note">The match has fifteen points; those that follow from the two birth years alone are read here.</string>
     <string name="match_section_years">The years</string>
     <string name="match_same_kind_title">Both of one kind · %1$s</string>
+    <string name="match_same_animal_title">Both of one animal · %1$s</string>
+    <string name="match_same_element_title">Both of one element · %1$s</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>

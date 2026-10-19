@@ -870,6 +870,8 @@
     <string name="match_note">Сопоставление насчитывает пятнадцать пунктов; здесь читаются те, что следуют из одних лишь годов рождения.</string>
     <string name="match_section_years">Годы</string>
     <string name="match_same_kind_title">Оба одного вида · %1$s</string>
+    <string name="match_same_animal_title">Оба одного животного · %1$s</string>
+    <string name="match_same_element_title">Оба одной стихии · %1$s</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
