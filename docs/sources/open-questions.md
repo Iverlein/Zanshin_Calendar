@@ -474,6 +474,10 @@ the text, not about the app.
     years (vol. 1, p. 105, etext) have a column of that name (2026-10-11,
     RD4, [year-month-earth-lords.md](year-month-earth-lords.md)). Is that
     column the direction meant?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *The column «ཟླ་ཀླུང» of ch. 13*): no. The column holds a planet's luck for
+    each year, «ཟླ་བའི་ཀླུང», «མིག་དམར་ཀླུང», «ཕུར་བུའི་ཀླུང», «སྤེན་པའི་ཀླུང», not a direction; the
+    month's river's direction is still not found.*
 
 27. **WB vol. 2, p. 215 (img. 223): in the month's nine black ones,
     does «དང» join a name to the next direction named or to the one

@@ -2207,3 +2207,17 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   corner year whose year mewa, the one set in the centre of the year's
   wheel as the front matter draws it, is the two-black. None of the
   three names a lesser black year or a three-blue.
+
+## The column «ཟླ་ཀླུང» of ch. 13, 2026-10-19 (open question 26)
+
+- **Not a direction.** The year tables of ch. 13 (vol. 1, p. 105,
+  img. 115, etext only, the table's cells run together) head a column
+  «ཟླ་ཀླུང» and fill it, year by year, with a planet's luck: «ཟླ་བའི་ཀླུང», the
+  Moon's, «མིག་དམར་ཀླུང», «ཕུར་བུའི་ཀླུང», «སྤེན་པའི་ཀླུང», Mars's, Jupiter's and Saturn's; KD
+  vol. 3 lists the same four, «སྤེན་པའི་ཀླུང་ཕུར་བུའི་ཀླུང་མིག་དམར་ཀླུང་། ཟླ་བའི་ཀླུང་སྤེན་པའི་རླུང་བཞི»
+  (BDRC snippet). So the column is the year's planetary luck, and the
+  month's river on which the month's *klung* earth lord and the hal dog
+  sit (pp. 200, 213) is not given by it. In passing: WB's work 14 has
+  givers avoid «སེ་བྱི་ཧང་ཕན་ཟླ་[ཆུང]་ཕྱོགས», where KP's box 16 writes «ཟླ་ཀླུང», a
+  direction of the month's *klung* (white-beryl-ch34.md; open question 43);
+  which direction stays unread.
