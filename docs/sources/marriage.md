@@ -1156,3 +1156,15 @@ water snake alone in the middle (WB adds the wood monkey), and fire hare,
 iron tiger, iron dog, water mouse and water pig in the lower (WB without
 the fire hare): WB's nine are kept as printed. The five-element years
 are read for the woman («བག་མར་ངན»), the two-element for either spouse.
+
+## Built, 2026-10-19 (ROADMAP R3m)
+
+p. 362 read again in the Gser thang reprint (I3CN5028 img. 357): both
+prints «དྭ་ནས་གཙུག་མི་འགྱུར་བ» and «ཤིང་ཡོས་ཟིན་དང་མོ་རྟ་ལི» (a female horse, though horse
+years are male; the four on their own trigram not built). Built, as
+`MatchTrigramLine`: «བུད་མེད་ཤིང་གི་སྟག་ཡོས་མ། །ཁོན་སྐྱེས་ཁྱོ་ལ་ས་བདག་གནོད»,
+«གིན་ཐོག་ཁྱོ་བོ་ལྕགས་བྱ་སྤྲེལ། །སྐྱེས་པ་ཆུང་མར་ས་བདག་གནོད། །ས་བདག་བཅོས་ཤིང་སྣང་བརྒྱད་འདོན»,
+«བུད་མེད་ཁེན་སྐྱེས་སྐྱེས་པ་ཟོན། །ཕྱི་ངན་ནོར་ངན་ནོར་སྒྲུབ་བྱེད»; «ས་བདག་བྱད་འགྲོ་ལས་བདག་བཅོས»
+given only as setting the earth lords right. Not built: «བུད་མེད་རྟ་སྦྲུལ་ཁེན་སྐྱེས་དེས། །ཕ་ཁུ་གྱོད་པོ་ཕྱགས་མས་འདེབས»,
+«ས་ཡི་གཤེད་བཞི་ཟིན་ལ་སྐྱེས», «ཆུ་ཡི་བྱི་ཕག་ཁོན་གིན་སྐྱེས། །ཁྱོ་བོ་གདོང་ལ་འཇུག་པ», whose
+subject or sense is not settled.

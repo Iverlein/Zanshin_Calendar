@@ -711,8 +711,14 @@ relatives (the spouse taken as the other sex where theirs is not set).
   family `MatchTrigramChildren`) and, for each spouse, whether they are
   one of the eight hand-wavers, a pair of year animals on one trigram
   (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Each bad pair carries
-  its rite as a Remedy row. Not built: the trigrams' graves, the four born on their own
-  trigram and the woman's lines.
+  its rite as a Remedy row. And three births read one by one (p. 362,
+  `MatchTrigramLine`): a wood tiger or hare woman on earth (the earth
+  lords harm the husband), an iron bird or monkey husband on mountain
+  (they harm the wife), a woman on sky with a man on wind (the later
+  years and wealth go badly). Not built: the trigrams' graves, the four
+  born on their own trigram (both prints «མོ་རྟ»), the horse or snake woman
+  on sky, earth's four executioners on thunder and the water mouse or
+  pig on earth or mountain.
 - **From the parents' years** (points 8 and 9, pp. 359–360): each
   spouse's stage counted from their father's and their mother's year
   onto their own, the outer way from the parent's year animal and the
