@@ -153,6 +153,12 @@ eight holding two to five numbers each in the print's cursive numerals.
 Neither Yigdzin-1 (on the whole chart and on each cell at 5×) nor the eye
 reads the numerals with certainty on this scan; the middle cell's text,
 «སྤྱི་བརྒྱུད་ཚེས་[…]» by eye, is not settled either. Not written out.
+The second print carves the same chart more cleanly (KP2, BDRC
+I3CN12074 img. 301, at the right of the folio, 2750 px; 2026-10-19,
+open question 148): the same grid and directions, east at the top, the
+middle cell in two lines, «སྤྱི་བརྒྱུད་» and a second line not made out at
+3×, and the cursive numerals sharper but still not read with certainty;
+the next reading should start there.
 
 ## The detailed course
 
