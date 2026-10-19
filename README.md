@@ -40,7 +40,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
   parent or a son brings; and the birth: what the natal trigram makes of each
   aspect, glory and misfortune against the parents, the
   line of births from the father and grandfather, the nature of the birth year, by its
-  animal and among the sixty years, its body and its mewa, its aspects' rise and decline at the birth, the natal trigram, the child of
+  animal and among the sixty years, its body and its mewa, its aspects' rise and decline at the birth, whether the child is hard to raise, the natal trigram, the child of
   the gods, glory, life, spirits or demons it makes one, the birth
   year's destiny against its life force, its place, its luck triad and
   the cutting among its aspects, the year against one's clan, and the readings of the parents' trigrams at the

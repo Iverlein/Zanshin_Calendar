@@ -584,6 +584,11 @@ on the scan that follow from the years alone. `BirthReckoning`
   (the luck's, onto the hour, needs the time of birth, not kept); the
   stage reached, of the six bright and six dark, with its reading for
   that aspect.
+- **Raising the child** (pp. 347–348): the child's life force counted
+  onto the birth month's animal, its tomb heavy for the father, its womb
+  for the mother, its illness and death for the child, flourishing good;
+  the birth day's animal against the year animal by element, overcoming
+  it hard to raise, begetting it easy. `BirthTest` holds WB's examples.
 - **The natal mewa** (pp. 288–294): the births under each of the nine,
   by the birth year's mewa (§5.9.1), with whose child one is, the former
   life, the span of life, the image to make for a better rebirth as the
@@ -3383,7 +3388,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   ("Born under 6 white") and the five by the mewa ("Mewa · the children's
   glory · Mewa 6 white, iron · life force earth"), the three of rise
   and decline ("Body · stage of the body complete · earth, counted onto
-  the birth month"), then the
+  the birth month"), under "Raising the child" the month and the day
+  where they fall on a named stage or element ("The birth month · heavy
+  for the mother · A Horse month"), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
