@@ -1506,12 +1506,16 @@ the text, not about the app.
      claim WB rejects is that these lords sit on the day's animal as the
      year's lords sit on the year's; no text glosses p. 225's line.*
 
-126. **WB's *phyed* and the manuals' *gung*.** WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས»
+126. **Answered 2026-10-19. WB's *phyed* and the manuals' *gung*.** WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས»
      where the manuals write «གུང་གཉིས་ཟེར་གཉིས»; are WB's two *phyed* the
      same as the two *gung*, midnight and noon, as the *Rin chen gter
      mdzod*'s six sessions (ནམ་ཕྱེད for its ནམ་གུང) and WB's own hours
      (ཉི་ཕྱེད, ནམ་ཕྱེད) suggest? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+     *Answered 2026-10-19 ([weighing.md](weighing.md), *WB's two phyed are
+     the two gung*): yes. Tshig mdzod chen mo defines «གུང་གཉིས» as «ཉིན་གུང་དང་མཚན་གུང།»,
+     «ཉིན་གུང» as «ཉིན་མོའི་དཀྱིལ་ལམ་ཉིན་ཕྱེད་ཀྱི་དུས།» and «ནམ་གུང» as «མཚན་ཕྱེད།»: the *gung* and the
+     *phyed* are the same two moments.*
 
 127. **Answered 2026-10-18. A *zer* and a *gung*: moment or stretch.** Is a *zer* the moment the
      sun's disc meets the horizon, or a short stretch while its rays come

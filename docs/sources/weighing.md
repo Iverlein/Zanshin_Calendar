@@ -678,3 +678,14 @@ samādhi, not for the session's recitation: the same arrangement as the
 *Sgrub thabs kun btus*, where the *zer* and *gung* are the breaks, and
 the reverse of the fierce rite of the *Rin chen gter mdzod*, whose
 sessions are made to arrive at them.
+
+## WB's two *phyed* are the two *gung*, 2026-10-19 (open question 126)
+
+The dictionaries define the words by each other: Tshig mdzod chen mo,
+«གུང་གཉིས» «ཉིན་གུང་དང་མཚན་གུང།», «ཉིན་གུང» «ཉིན་མོའི་དཀྱིལ་ལམ་ཉིན་ཕྱེད་ཀྱི་དུས།», «ནམ་གུང» «མཚན་ཕྱེད།»
+(the same in Bod yig tshig gter rgya mtsho; Ives Waldo, «གུང་གཉིས» "the two
+middles: noon, midnight"). With WB's own hour names (p. 359, ཉི་ཕྱེད for
+noon and ནམ་ཕྱེད for midnight), the *Rin chen gter mdzod*'s six sessions
+writing ནམ་ཕྱེད where its four have ནམ་གུང, and the Vajrabhairava manual's
+«ཉིན་མཚན་གྱི་གུང་གཉིས» (read on the scan above), WB's «ཕྱེད་གཉིས་ཟེར་གཉིས» is the
+manuals' «གུང་གཉིས་ཟེར་གཉིས»: midnight and noon, and the two rays.
