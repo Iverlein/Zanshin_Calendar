@@ -973,6 +973,7 @@
     <string name="birth_clan_needed">The special pebble (སྒོས་རྡེལ, sgos rdel) sets your birth year against the element of your clan: set the clan in People to see it.</string>
     <string name="birth_detail_clan">Clan and its element</string>
     <string name="birth_section_year">The birth year</string>
+    <string name="birth_section_cuts">The cutting and tearing</string>
     <string name="birth_year_subtitle">Life force %1$s · destiny %2$s</string>
     <string name="birth_detail_destiny">Destiny of the birth year</string>
     <string name="birth_year_side_title">Whose side it falls on</string>
@@ -980,7 +981,6 @@
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>
-    <string name="birth_cut_title">%1$s cuts %2$s</string>
     <string name="birth_cut_subtitle">%1$s overcomes %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1). The relations are lower case; the app capitalises the first word. -->

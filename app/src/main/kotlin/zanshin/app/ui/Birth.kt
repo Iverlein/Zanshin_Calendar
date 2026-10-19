@@ -18,6 +18,7 @@ import zanshin.app.LocalLabels
 import zanshin.app.Person
 import zanshin.app.Reckonings
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Animal
@@ -117,31 +118,6 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
-    BirthReckoning.cuts(sign).forEach { (a, c) ->
-        AnnotationRow(
-            Annotation(
-                title = labels.string(R.string.birth_cut_title, a.english.replaceFirstChar(Char::uppercase), c.english),
-                english = "",
-                tone = Tone.BAD,
-                reading = Texts.birthCut(a, c),
-                subtitle = labels.string(R.string.birth_cut_subtitle, gloss(forces[a], "inText"), gloss(forces[c], "inText")),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
-    BirthReckoning.groupCuts(sign).forEach { g ->
-        AnnotationRow(
-            Annotation(
-                title = g.english.replaceFirstChar(Char::uppercase),
-                english = "",
-                tone = if (g.nourish) Tone.GOOD else Tone.BAD,
-                reading = Texts.groupCut(g),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
     val place = BirthReckoning.yearPlace(sign.animal)
     AnnotationRow(
         Annotation(
@@ -167,6 +143,34 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    val cuts = BirthReckoning.cuts(sign)
+    val groups = BirthReckoning.groupCuts(sign)
+    if (cuts.isNotEmpty() || groups.isNotEmpty()) Section(stringResource(R.string.birth_section_cuts))
+    cuts.forEach { (a, c) ->
+        AnnotationRow(
+            Annotation(
+                title = Catalog.text("BirthCut.${a.name}_${c.name}").replaceFirstChar(Char::uppercase),
+                english = "",
+                tone = Tone.BAD,
+                reading = Texts.birthCut(a, c),
+                subtitle = labels.string(R.string.birth_cut_subtitle, gloss(forces[a], "inText"), gloss(forces[c], "inText")),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    groups.forEach { g ->
+        AnnotationRow(
+            Annotation(
+                title = g.english.replaceFirstChar(Char::uppercase),
+                english = "",
+                tone = if (g.nourish) Tone.GOOD else Tone.BAD,
+                reading = Texts.groupCut(g),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
 }
 
 /** The special pebble (pp. 261, 284–286): the birth year against the clan's element, or what it needs. */

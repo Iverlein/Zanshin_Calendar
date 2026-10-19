@@ -3262,8 +3262,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   under "The birth year" the year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
-  each cut among its aspects ("Luck cuts body · wood overcomes earth"),
-  "A last year" (or first or middle) and "The year's luck triad",
+  "A last year" (or first or middle) and "The year's luck triad"; under
+  "The cutting and tearing", where any holds, each cut among its aspects
+  ("The luck cuts the body · wood overcomes earth") and each group cut,
   shown also without the mother's year;
   under "The clan" the year of the special pebble ("The clan's friend
   year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note

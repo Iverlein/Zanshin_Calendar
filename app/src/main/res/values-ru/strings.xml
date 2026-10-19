@@ -828,6 +828,7 @@
     <string name="birth_clan_needed">Особый камень (སྒོས་རྡེལ, sgos rdel) ставит год рождения против стихии вашего рода: укажите род в разделе «Люди», чтобы увидеть его.</string>
     <string name="birth_detail_clan">Род и его стихия</string>
     <string name="birth_section_year">Год рождения</string>
+    <string name="birth_section_cuts">Отсечение и разрыв</string>
     <string name="birth_year_subtitle">Жизненная сила: %1$s · могущество: %2$s</string>
     <string name="birth_detail_destiny">Могущество года рождения</string>
     <string name="birth_year_side_title">На чью сторону падает</string>
@@ -835,7 +836,6 @@
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
-    <string name="birth_cut_title">%1$s отсекает: %2$s</string>
     <string name="birth_cut_subtitle">%1$s одолевает: %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1) -->
