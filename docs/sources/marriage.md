@@ -1127,3 +1127,17 @@ Remedy row of its pair. Left out, the words or the rite not settled:
 «བདུད་ཀྱི་ཁྲོམ་ཁ་སྟོང་བཟློག» is given as turning back the demons' crossroads,
 «དམ་སྲིད» read «དམ་སྲི». «དགྲ་སྲི» and «གོད་སྲི» are the harmful spirits of the
 dead (སྲི) that bring enemies and loss; «ངར་གླུད», «ངར་མི» ransom effigies.
+
+## Built, 2026-10-19 (ROADMAP R3k)
+
+Points 8 and 9's rise and decline from the parents' years (pp. 359–360,
+quoted above): «ཕ་གཉིས་ལོ་ནས་དབུགས་བླངས་པའི། །བུ་བག་སོ་སོའི་ལོ་སྟེང་ལ། །ཕྱི་ཡི་དར་གུད་བཟང་ངན་བསྐོར»,
+the outer way as the notes give it («བུ་ཡི་ཕ་ལོ་སྟག་ཡིན་ན་སྟག་གི་སྟེང་ནས་དབུགས་བླང་ལ་བུ་རང་གི་ལོ་ལ་གཏུག»),
+the secret from the father's life force («ཕ་གཉིས་པོའི་སྲོག་གི་ཁམས་ཀྱི་དབུགས་སྤྱི་ལྟར་བླངས་ཏེ་རང་ལོར་གཏུག་པ་སྟེ་ཕ་སྟག་བུ་ཡོས་ལ་དར་བ་བབ་པ»,
+which the code reproduces); «བཟང་དྲུག་ནང་བསྡེབས་བཟང་བ … ངན་དྲུག་ནང་བསྡེབས་ངན་པ»
+with its rite «སྟོང་ཆེན་རབ་འཇོམས་གསུང་སྒྲོག་ཅིང་། །ཚངས་པ་ལྷ་ཡི་སྲིད་མདོས་བྱ»; the
+mothers «གོང་གི་ཕ་དུས་ལྟར་བརྩིས་པའི། །མཐུན་ན་བུ་ཚ་འབྱུང་གྲངས་མཐུན། །མི་མཐུན་བུ་ཚས་ཕན་མི་ཐོགས། །གཙུག་ཏོར་སྒྲོག་པར་བྱ»,
+"in accord" taken as the good six. Not built: the inner way («སྟག་ཡོས་ཟིན་སོགས་རང་ཐོག …
+བུ་ཚ་སྐྱེ་དུས་སྤར་ཁའི་སྟེང», by the trigram at the birth), the fathers' and the
+mothers' clans, the grandfathers' lives fighting, and the father's and
+maternal uncle's luck.

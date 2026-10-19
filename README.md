@@ -45,7 +45,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
   year's destiny against its life force, its place, its luck triad and
   the cutting among its aspects, the year against one's clan, and the readings of the parents' trigrams at the
   birth; and the marriage match with a spouse: the bad years, the four aspects met one
-  by one, the two destinies together, a shared year animal or element, the pairs of year animals, the birth mewas, the natal trigrams (with both mothers entered), each life force on the other's year, the same planet of birth and whether the match is reversed.
+  by one, the two destinies together, a shared year animal or element, the pairs of year animals, the birth mewas, the natal trigrams (with both mothers entered), each life force on the other's year, the stages counted from the parents' years, the same planet of birth and whether the match is reversed.
 - **Health:** what falling ill today means by the date, the weekday,
   the link and the goddess of the day, the four perilous days; where the
   la sits by the date and moves through the day; the day's mansion as a

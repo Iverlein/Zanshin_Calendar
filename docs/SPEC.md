@@ -706,6 +706,17 @@ relatives (the spouse taken as the other sex where theirs is not set).
   (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Each bad pair carries
   its rite as a Remedy row. Not built: the trigrams' graves, the four born on their own
   trigram and the woman's lines.
+- **From the parents' years** (points 8 and 9, pp. 359–360): each
+  spouse's stage counted from their father's and their mother's year
+  onto their own, the outer way from the parent's year animal and the
+  secret way from the breath-taking of the parent's life force
+  (`MatchReckoning.parentStage`, `ParentWay`; the notes' example, a tiger
+  father and a hare son, flourishing); among the good six or the bad six,
+  family `MatchParentStage` by father or mother, with the rites WB gives.
+  The parents come from People: the person's, and the spouse's entered
+  under the spouse. Not built: the clans of both points, the inner way
+  by trigram, the grandfathers' lives, the father's and the maternal
+  uncle's luck.
 - **Rise and decline** (point 13, pp. 363–364): the root way, each
   spouse's life force carried onto the other's year animal
   (`MatchReckoning.riseDecline`, the twelve stages of §5.9.2), the stage
@@ -3431,7 +3442,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   sustaining life · The man's lake · the woman's sky"), "Children by the
   trigrams" and "The woman's year · one of the eight hand-wavers · Iron
   Monkey on earth" where they hold, or what it needs, under "Rise and
-  decline" each life force on the other's year ("The man's life force on
+  decline" each life force on the other's year, under "From the parents'
+  years" each parent entered by both ways ("The man's father, the secret
+  way · stage of decline · Iron Tiger on Fire Dragon") or what it needs, and ("The man's life force on
   the woman's year · birth stage · earth on Iron Monkey"),
   and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
