@@ -1014,3 +1014,36 @@ dragon's «རེ་འཁང་ཆེ» (left out of its reading) and earth mix
 repeats its first and is taken as the hare's. The line before the
 elements, «སྲོག་ལུས་དབང་ཀླུང་གཅིག་པ་ཡི། །ལོ་མཉམ་ནང་ཕྲད་ཟ་ཐང་ཆུང་།», closes
 the family note.
+
+## Built, 2026-10-19 (ROADMAP R3e)
+
+Point 1's pairs of different year animals (pp. 352–353, img. 362–363),
+read in the 1996 print and the Gser thang reprint (I3CN5028 img.
+346–348): they agree on 594 of 598 and 643 of 647 syllables, and the
+reprint's reading is taken where the two differ: «སྤྲེལ» (1996 «སྤྲིལ»),
+«ཕག» («ཕྱག»), «ནོར་ཆེ» («ནོར་ཚེ»), «ཐ་ཁྱིམ» («རྔ་ཁྱིམ»), «གོད་ཁ་ཆེ» («ཚེ»),
+«བུ་ཚ་དྭ་བོ» (orphans; 1996 «དྲ་བོ»), «སྦྲུལ» («སྤྲུལ»).
+
+Built: the named lists (`PairList`), each pair holding whichever is the
+man: the three close at heart, mouse, dragon and monkey (only this triad
+of the first line, the one Mipham's note spells out); «ཡོས་ཕག་བྱ་སྦྲུལ་གླང་ལུག་དང་། །སྤྲེལ་འབྲུག་རྟ་ཁྱི་གཉིས་གཉིས་རྣམས»
+(many children); «བྱ་གླང་སྟག་རྟ་ཡོས་ལུག་དང་། །འབྲུག་ཕག་སྤྲེལ་སྦྲུལ་རིམ་གཉིས་བསྡེབས»
+(rich and strong); the six pairs of parting; «གླང་དང་ཁྱི་ཕག་ལུག་དང་འབྲུག །སྦྲུལ་གཉིས»
+(children hard to raise, taken as ox–dog, pig–sheep, dragon–snake); the
+six of ruin, the six of destruction, the great bad omen (sheep and
+snake) and the middling (horse with dragon or snake). And the pairs one
+by one (`PairLine`): "X ལ་ Y བླངས" with X the man, as Mipham reads it
+(p. 523), the hare's «ཕག་བྱི་གླང» read «བླང» with him; pairs named
+without «བླངས» hold either way, as he says.
+
+Not built, the words or the pairing not settled: the first line's other
+groups («བྱི་གླང་སྟག། ཁྱི་ཕག་ཡོས་དང་བྱ་སྤྲེལ་འབྲུག། རྟ་དང་སྦྲུལ་ལུག», which
+repeat animals); the pig's «ཕག་ལ་བྱི་གླང» (ox or «བླང»); the "line ends"
+list «སྟག་དང་ཡོས་སྦྲུལ་བྱི་སྟག་ཕག །སྤྲེའུར་བྱ་ལུག་བྱི་ཡོས་ཏེ། །སྦྲུལ་ལ་ཕག་བྱ་རྟ» (eleven
+animals); «བྱི་རྟ་ཁྱི་སྟག་རྟ་སྦྲུལ་དང་། །བྱ་ལུག་བྱི་གླང་སྦྲུལ་ཡོས་ཏེ། །གླང་ཡོས་གཉིས་བསྡེབས་སྒབ་ཀྱང་ཆད»
+(«སྒབ་ཀྱང་ཆད» in both prints, against the good lines that follow); the
+bird and hare «མ་སྨད་ཁ་འབྱེད»; the seven-corners with Mipham's wood
+exception; the four executioners of the mouse and the pig (Mipham: the
+mouse with the dog, the dragon "and so on", eight in all). Left out of
+built readings: the pig and snake's «ས་སྒོ་རྒྱུག་མོ་འཆི» (1996 «སྨྱུག»), the
+mouse and horse's «བུད་མེད་འོག་རྟར་ངན», the great omen's «རྫ་ལུང་བོལ».

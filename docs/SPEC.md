@@ -670,7 +670,17 @@ relatives (the spouse taken as the other sex where theirs is not set).
   sexes of their years, both male, both female or one of each (iron, water,
   earth and fire male; iron, earth, fire and wood female; all five mixed;
   water female's «ལོ་ཕྱུགས་བཙལ» and wood male's «ལོ་ཤུགས་དོགས» not read),
-  `MatchSameAnimal` and `MatchSameElement`.
+  `MatchSameAnimal` and `MatchSameElement`. And the pairs of different
+  year animals (pp. 352–353): the named lists, each pair joined whichever
+  is the man (`PairList`: the three close at heart, the pairs of many
+  children, of wealth, of parting, of children hard to raise, the six of
+  ruin, the six of destruction, the great and the middling bad omen), and
+  the pairs read one by one (`PairLine`), where "one takes the other"
+  makes the first the man and the second the woman (Mipham's notes,
+  p. 523) and a pair without it holds either way; families
+  `MatchPairList` and `MatchPairLine`. The lists disagree in places (the
+  ox and sheep bring many children and failed harvests); each reading is
+  shown.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -3377,7 +3387,10 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   name; the man's and the woman's birth years; under "The years" the
   same kind ("Both of one kind · life force and destiny one"), the same
   animal ("Both of one animal · Dragon") and the same element ("Both of
-  one element · Fire · a male and a female year") and each
+  one element · Fire · a male and a female year"), each named list of
+  pairs ("Pair of years · the six of ruin") and each pair read one by one
+  ("Pair of years · Dragon and Monkey · the man's year takes the
+  woman's") and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's
