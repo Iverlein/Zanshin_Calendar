@@ -655,7 +655,7 @@ kinds are set apart, whose names the list gives; two are dated, «གྲགས�
 within one month, and «བྱིན་ཤ་ལོ་གཅིག་ཚུན་ཆད», within one year; each has
 its first, middle and last places to be pressed down. The sri's skull
 (སྲི་ཐོད, sri thod) is bound with five-coloured wool; the things go into
-the dead child's mouth (སྲི་འུའི་ཁ, sri'u'i kha); «ཆུང་སྲི་མནན་ཅིང་བདུད་དྲུག་[…]བྱོལ།»,
+the dead child's mouth (སྲི་འུའི་ཁ, sri'u'i kha); «ཆུང་སྲི་མནན་ཅིང་བདུད་དྲུག་(གནོད་པའི།)བྱོལ།»,
 the *chung sri* pressed down and the six demons avoided. «སྲི་ལྟར་མནན་པའི་ས་དྲུག»
 (p. 84), six places to press down as for a sri: under the parents'
 pillow, in the middle of the bed, at its foot or under the hearth, under
@@ -760,7 +760,7 @@ Geomancy (ས་དཔྱད, sa dpyad):
   among the pebbles: «ས་ཡི་འཕུང་སྲི་བརྒྱད་ངོས་བཟུང་».
 - p. 245, rocks by colour and shape: «སྤྱང་ལྟོགས་འདྲ་ན་ཆུང་སྲི་ལྡང་།», like a
   hungry wolf: the *chung sri* rises; «གཤིན་རྗེ་ཁྲོས་འདྲར་ཕུང་བའི་སྲི།», like
-  an angry Yama: the sri of ruin; «སྒོ་ཐད་གོམ་པ་ཉེར་ལྔའི་སར། །ཝ་འཇབ་[…]དུ་བྱུང་འཕུང་སྲི་ཡིན། །དུར་གཉར་ཕ་བོང་སྤྱང་ཀི་འདྲ། །བྱུང་ན་དེ་ཡང་འཕུང་སྲི་ཡིན།»,
+  an angry Yama: the sri of ruin; «སྒོ་ཐད་གོམ་པ་ཉེར་ལྔའི་སར། །ཝ་འཇབ་འདྲ་བྱུང་འཕུང་སྲི་ཡིན། །དུར་གཉར་ཕ་བོང་སྤྱང་ཀི་འདྲ། །བྱུང་ན་དེ་ཡང་འཕུང་སྲི་ཡིན།»,
   a lurking fox twenty-five paces from the door, or a boulder like a wolf
   on the grave's slope: these too are *'phung sri*.
 - p. 271, places good for pressing down: «གཡག་ཁམ་རྭ་འདྲིར་དགྲ་སྲི་མནན། …། །བྱ་ཁྱུང་འདྲ་ན་མཛེ་སྲི་མནན། …། །འདྲེ་སྲི་མནན་པའི་ས་རུ་ཤིས། …། །ཐང་དཀྱིལ་ཟང་འདྲར་གདོན་སྲི་མནན།»:
@@ -768,8 +768,8 @@ Geomancy (ས་དཔྱད, sa dpyad):
   of leprosy (མཛེ་སྲི, mdze sri); one facing west and fleeing east for
   demons and sri; a plain's middle like a cauldron for the harmers' sri
   (གདོན་སྲི, gdon sri).
-- p. 275, skulls hidden at a grave: «ཝ་ཐོད་སྲན་ཅན་སྨུག་རྫས་བཀང་། །དུར་སྒོར་སྦས་[…]། །དུར་སྲིའི་གནོད་པས་ཚུགས་མི་འགྱུར།»,
-  a fox's skull filled with […] hidden at the grave's door: the *dur
+- p. 275, skulls hidden at a grave: «ཝ་ཐོད་སྲན་ཅན་སྨུག་རྫས་བཀང་། །དུར་སྒོར་སྦས་ན་མི་ཁ་དང་། །དུར་སྲིའི་གནོད་པས་ཚུགས་མི་འགྱུར།»,
+  a fox's skull filled with dark-brown substances hidden at the grave's door, and neither gossip nor: the *dur
   sri*'s harm cannot take hold.
 
 ### Vol. 2, the notes (pp. 477–530, img. 485–538)
@@ -871,7 +871,7 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 - Open question 115 ([open-questions.md](open-questions.md)), answered 2026-10-19.
 - Doubt: the lines here are the etext's, the gaps […] its own; filled since
   from the Gser thang reprint (2026-10-19): vol. 1, pp. 244, 382, 387,
-  425–426, 456; vol. 2, pp. 15, 65, 479 and 530, read by eye, and p. 3 by
+  425–426, 456; vol. 2, pp. 15, 65, 83–84, 245, 275, 479 and 530, read by eye, and p. 3 by
   Yigdzin-1 only (in square brackets: a woodcut beside the lines defeats
   the line finder). The rest is unchecked.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,
