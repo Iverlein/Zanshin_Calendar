@@ -3484,9 +3484,10 @@ groups it shows (`tools/emulator/store_shots.py`).
   (`PowerYearOf`), the same day, and the four readings of the luck
   triads that follow them (pp. 280–281, `LuckTriad`), and the condensed
   readings of the first, middle and last years (p. 283, `YearPlace`).
-  Next in the chapter: the cutting and tearing among one's own four
-  aspects (pp. 281–282, twelve readings, the next to read on the scan),
-  the expanded first, middle and last, then the sixty years
+  The cutting and tearing among one's own four aspects followed the same
+  day (pp. 281–282, ten pairs, `BirthCut`). Next in the chapter: its two-
+  and three-against-one cuts, the expanded first, middle and last, then
+  the sixty years
   (pp. 263–270). Left besides: the pebble of the time; the four precious
   pebbles (open question 160). Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,

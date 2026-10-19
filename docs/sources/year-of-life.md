@@ -621,6 +621,33 @@ The triads are those of the luck (*klung rta*) element of `Forces`:
 mouse, dragon, monkey wood; tiger, horse, dog iron; bird, ox, snake
 water; pig, sheep, hare fire. Built 2026-10-19 (`LuckTriad`).
 
+### The cutting and tearing among one's own aspects (pp. 281–282)
+
+Read 2026-10-19 for ROADMAP R2c: the Gser thang reprint, img. 276–277,
+Yigdzin-1; p. 282's first half compared with the scan by eye. «གཞན་ཡང་གཅོད་འདྲལ་ཁ་དམར་བསྟན། །ལུས་སྲོག་གཅོད་པའི་སྐྱོན་རྣམས་ནི།» — the faults of the aspects cutting one another,
+each pair opening «X གིས་ Y ལ་གཅོད་ན», closing where WB says so with the
+reversal: «སྲོག་གིས་ལུས་ལ་ཕར་བསྐྱེད་ན། །དེ་ལས་ལྡོག་སྟེ་བཟང་བར་བཤད།» (the life
+force begetting the body instead: the reverse, good). The pairs as
+printed, with what the app's readings take:
+
+- «སྲོག་གི་འབྱུང་བས་ལུས་གཅོད་ན། །ཕ་མའི་དྲིན་ལན་ཆུང་བ་འོང་། །ཆུང་དུས་མི་གོ་འགྲེམས་པ་ཡིས། །ཞང་ཉེའི་དྲིན་གྱིས་འཚོ་བ་ཡིན། …། །སེམས་ཀྱིས་བྱ་བྱེད་མང་བྱེད་ཀྱང་། །འགྲུབ་པ་ཉུང་ཞིང་ … །བྱེ་ཞིག་བུས་པའི་ལྷག་ཆད་མང་།» — life force cuts body.
+- «སྲོག་གིས་དབང་ཐང་ལ་བཅད་ན། །ཕ་མེས་ཡུལ་ཞིང་མི་ལ་འཆོར། །རང་གི་ནོར་ལ་ཤོར་གོད་འབྱུང་། …། །ཁྱིམ་གྱི་འཕོ་འཕྱུགས་མང་ཡོད་ཅིང་། …། །རང་གི་གྲོས་ལ་རང་མི་མཁས།» — life force cuts destiny.
+- «སྲོག་གིས་ཀླུང་རྟ་ལ་བཅད་ན། །རང་གིས་འབད་ནས་བྱས་གྱུར་ཀྱང་། །གཞན་པ་བ་ནི་མགུ་བ་དཀའ། །ཞང་ཉེའི་ས་རུ་དར་གུད་ཆེ། …། །མི་ཚེ་གཅིག་ལ་སྐྱིད་སྡུག་གཉིས། …། །བྱིས་པ་ཕྱེད་སོས་ …» — life force cuts luck.
+- «ལུས་ཀྱིས་སྲོག་ལ་གཅོད་པ་ན། །དང་པོ་སྤུན་བཞིའི་མི་བརྒྱུད་ལ། །ད་ལྟ་གསུམ་གྱིས་རྩ་བ་འཛིན། །ཆུང་དུས་གསོ་དཀའ་ …། །བུ་ཚ་ཕྱེད་སོས་ཕྱེད་ཤི་སྟེ། …། །ཡེ་འདྲོག་མང་ཞིང་ན་ཚ་མོད།» — body cuts life force.
+- «ལུས་ཀྱིས་དབང་ཐང་ལ་གཅོད་ན། …། །ཕ་ཚན་ཉེ་བ་དགྲ་རུ་ལྡང་། …། །ནོར་ལ་གང་སྟོངས་ཁྱིམ་ས་བྱེ། །བུ་ཚ་ལྷག་ཆད་མང་བ་དང་། །ཕ་ཚན་ཞེ་འཁོན་ཆེ་བ་ཡོད།» — body cuts destiny.
+- «ལུས་ཀྱིས་ཀླུང་རྟ་ལ་གཅོད་ན། །ཞང་ཉེ་དགྲ་ནི་ལྡང་བ་དང་། །མ་བུའི་འཕུང་འདྲེ་གནོད་པ་དང་། …། །དྲིན་ཚོར་མེད་པ་འབྱུང་བ་དང་། …། །ཉི་མ་གཅིག་ལ་བདེ་སྡུག་གཉིས།» — body cuts luck.
+- «དབང་ཐང་ལུས་གཅོད་མགོ་རུས་འཐོར། །ཉེ་བ་དགྲར་འོང་ཟོས་དུག་འགྱུར། …། །འདྲེ་ངན་ཐེ་བྲང་འགོང་པོ་གནོད། །བུ་མང་སྡང་ཞིང་ན་ཚ་མོད།» — destiny cuts body.
+- «དབང་ཐང་སྲོག་གཅོད་ཟླ་གྲོགས་འོང་། །བདག་རིགས་ངན་གཉེན་མི་འོངས་བསྡེབས། …། །ལོང་བ་ཉེན་ཡོད་ …། །ཁྱིམ་ཟློས་བྱེ་བྲལ་འབྱུང་བ་ཡིན། །ནད་ནི་གཟེར་ནད་ཁྲག་ནད་དམ། །རྒས་ཁར་ནད་ལྡང་ …» — destiny cuts life force.
+- «དབང་ཐང་ཀླུང་རྟ་ལ་གཅོད་ན། །ཕ་མེས་ལས་ཐོབ་ཡིད་ཚང་འཚོར། །བུ་སྲིང་སྒོ་མཐའ་ཕ་མིང་ངན། །ནོར་ལ་ཁ་སྨྲས་རྟག་ཏུ་འོང་།» — destiny cuts luck.
+- «ཀླུང་རྟས་ལུས་བཅད་ནོར་གོད་ཆེ། །བུ་ཚའི་རིང་སྟོངས་འོང་བ་ཡིན།» — luck cuts body.
+
+No reading is given for the luck cutting the life force or destiny; the
+app shows nothing for them. The two-against-one and three-against-one
+cuts that close the passage («དབང་སྲོག་གཉིས་ཀྱིས་ལུས་གཅོད་ན», and the three
+"stars", «འཁོར་ལོ་འོད་སྟོང་སྐར་མ», «ཕེའུ་ཤ་རལ་སྐར་མ», «བྱ་དམར་མེ་ལེན་སྐར་མ»), and the
+line «ཆོས་ལ་འབྲོས་ཤིང་འཁྱར་ས་འབྱུང» of destiny cutting the luck, are left for
+a reading by eye. Built 2026-10-19 (`BirthCut`).
+
 ### The first, middle and last years (p. 283)
 
 Read 2026-10-19 for ROADMAP R2c: the Gser thang reprint, img. 278,
