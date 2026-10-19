@@ -757,7 +757,13 @@ The box on the photograph, KP2 img. 279 (O10f), **machine reading**: Yigdzin-1 o
 - **Good:** Sun Fri Tue; smin drug, rgyal, gre, dbo, me bzhi, sa ri, sa ga, skag, khrums stod, mon gre; days Dog
 - **Bad:** Mon Wed; chu smad, khrums smad, chu stod, lag, mchu, nam gru, nag pa, snron, snrubs
 - **Neither side:** Thursday and Saturn (in brackets)
-- **Not calculated:** the dates of both halves (not read with confidence on the photograph); Abhijit (bad); rising signs; Rāhu's course, bstan ma, byi lam and the like
+- **Not calculated:** the dates of both halves (not read with confidence on the photograph; read 2026-10-19, below); Abhijit (bad); rising signs; Rāhu's course, bstan ma, byi lam and the like
+- **The dates read on the photograph, 2026-10-19** (KP2 img. 279, at 4×,
+  with KP2's digits learnt from its boxes 21 and 22, open question 148):
+  good «༡༣ ༡༨ ༢༣ ༢༨», bad «༢(?) ༡༧ / ༢༢ ༢༧», the first bad date worn, a 2 or a
+  3. These are WB's work 49 date for date (p. 420: «བཅུ་གསུམ་བཅོ་བརྒྱད་ཉེར་གསུམ་དང་། །ཉེར་བརྒྱད་རྣམས་ལ་བཟང…ཚེས་གཉིས་བཅུ་བདུན་ཉེར་གཉིས་དང་། །ཉེར་བདུན་རྣམས་ནི་ངན»), so the
+  machine reading above (12, 20, 23, 24; 3, 17, 22, 27) misread the 13,
+  the 18, the 28 and probably the 2.
 - KP2 only. The bad mansions end «དེ་ནི་ཤིན་ཏུ» (very bad), an emphasis. The heading's ཤྭ་རག is the shwa rags of the lunar dates (a dike against flash floods), and the box is listed under that wording.
 
 ### 52a. Cutting hair and nails — བཟོ་དང་སྐྲ་སེན་བྲེག་པར་བཟང་བ (སྐྲ་སེན)
