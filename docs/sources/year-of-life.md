@@ -738,7 +738,9 @@ px): the lines from «དེ་ལ་གནད་ཀྱི་རྡེའུ་�
 (*The pebbles of the birth*). They do not say how many black pebbles
 the tiger has, nor how a sign with as many white as black (the dog, the
 ox) gives a precious pebble's white or black: open question 160. The
-precious pebbles wait on it.
+precious pebbles wait on it. Narrowed 2026-10-19: WB's
+own next lines count from one, so the tiger has one black and the snake
+four, the horse one white and the bird four; the tie is still open.
 
 **The end reckoning** (p. 284, img. 279, last lines, to p. 286, img. 281,
 l. 13): «ཁམས་དང་ལོ་གཉིས་སྦྱར་བ་ཡི། །མཐའ་རྩིས་བཟང་ངན་བཤད་པ་ནི། །སྤྱི་ཡི་རུས་ཆེན་དེ་ནང་དུ།» — the good and bad of the end

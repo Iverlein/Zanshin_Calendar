@@ -2034,4 +2034,22 @@ the text, not about the app.
      one, the ox two and two), is the precious pebble of p. 262 white,
      black, or neither? The four precious pebbles wait on it (ROADMAP R2;
      [year-of-life.md](year-of-life.md), *The special pebble's readings*).
+     *Narrowed 2026-10-19: no witness counts the lines out. Lha mo tshul
+     khrims's *Dpag bsam ljon shing* (in his *Nag rtsis rdel 'grem 'bras
+     bshad*, MW1KG21818, etext p. 34; the same in MW21984 and in the *Bzo
+     rtsis zlos gar*, search-only) copies them as "the preliminary", with
+     «སྟག་གནས་སྦྲུལ་བར་ནག་པོ་དང། །རྟ་ནས་བྱ་བར་དཀར་པོ་འཕེལ།», and no manual found
+     glosses «འཕེལ». WB's next lines (p. 260, the easier way with pebbles of
+     five colours) count from one, «ཕག་ལ་ནག་གཅིག་བྱི་བར་གཉིས། །དེ་བཞིན་ལྗང་གུ་སྟག་གཅིག་དེ། །ཡོས་གཉིས་…
+     སེར་པོ་གཅིག་ནས་བཞིའི་བར་དུ། །གླང་འབྲུག་ལུག་ཁྱི», and the colour lines
+     themselves count the elements «ཆུ་ནས་ལྕགས་བར་གཅིག་ནས་ལྔ»; read so, the
+     tiger has one black and the snake four, the horse one white and the
+     bird four, zin one black and li three, khon one white and khen three.
+     The precious pebbles are read only as white or black (WB p. 262; Lha mo
+     tshul khrims's prose, etext p. 142); "white and black" is a reading
+     of its own only for the summed pebbles of the life force, body, power
+     and luck (etext p. 88). How the dog and the ox fall stays open. The
+     manuals that give a rule for equal counts (*Nag rtsis snang srid me
+     long*, I1KG15279; *Sgo bzhi mdzod lnga'i yang bcud*, I4PD3282; the
+     Rgyal rong collection, I4PD3932) are Bon, and no source.*
 
