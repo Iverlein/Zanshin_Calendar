@@ -731,9 +731,10 @@ The box on the scan, KP BDRC img. 62 (O10f):
 - Bad half: «༄། །གཟའ་མིག་སྤེན་ཚེས་༡༢ སྐར་མ་ལྷཾས་བྱིཞི / སྣྲུབས་ཉི་མ་སྟག་སྤྲེལ་བྱ་ཁྱི་[…]་དུས་སྦྱོར་ལུག་ཀརྚ / སྲང་སྡིག་ཆུ་སྲིན་༼འཁྲིག༽ ཉི་ནུབ་རཱ་ཧུ་དྲ་ཆེན་པི་ལིང་ཧལྱི / ཀི་ཀང་དབུལ་ལོ་ཟླ་ཞག་ནག་ཕུང་ཟོར་སྦྱོར་བྱེད་རྟེན་འབྲེལ་སོགས་དོན་བསྟུན།»
 
 - **Good:** Thu Fri; snar ma, mgo, skag, mon gru, me bzhi, nag pa, dbo, mon gre, khrums stod, khrums smad, chu smad, nam gru; days Horse
-- **Bad:** Tue Sat; dates 12; lha mtshams, snrubs; days Tiger, Monkey, Bird, Dog
+- **Bad:** Tue Sat; dates 22; lha mtshams, snrubs; days Tiger, Monkey, Bird, Dog
 - **Neither side:** the Sun (good for royal councils); the Moon (in brackets)
 - **Not calculated:** Abhijit (bad); rising signs; the nectar periods (good); ki kang, dbul, phung zor and the like (bad)
+- **The bad date read on the scan 2026-10-19** (img. 62 at 6×): «༢༢», two crossed 2s alike, not 12 (the print's 1 is the hooked stroke without a bar): the White Beryl's work 57, «ཚེས་གྲངས་ཉེར་གཉིས་ངན» (vol. 2, p. 425). The O10f reading above is kept as it was.
 
 ### 50. Ordination, teaching, maṇḍalas, study, empowerment, practice — རབ་བྱུང་འཆད་ཉན་དཀྱིལ་འཁོར་འདྲི་བ་དང་བསློབ་གཉེར་དབང་བསྐུར་སྒྲུབ་མཆོད་ལ་བཟང་བ
 
