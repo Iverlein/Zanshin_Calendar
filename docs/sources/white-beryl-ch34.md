@@ -976,6 +976,23 @@ box 9 (img. 25, read on the scan) writes «བྱིཞི», Abhijit, where the
 verse has *bya mjug*, in the same order: «…མོནྡྲེ་ནུཾ་ / བྱིཞི་ལྷཾས་» on the bad
 side.
 
+**KD's lists of the mansions' names, 2026-10-19 (open questions 106, 107).**
+The *Bod kyi rtsis rig kun 'dus chen mo* (KD) gives *bya gzhug* as
+Abhijit's name and as Dhaniṣṭhā's only by some. Its list of the old names
+of the twenty-seven (vol. 1, etext p. 544, said to keep names given in
+the old days) runs «…ཆུ་སྟོད་ལ་བྲེ། ཆུ་སྨད་ལ་ཕུལ། གྲོ་བཞིན་ལ་བྱ་སྦོ། བྱི་བཞིན་ལ་བྱ་གཞུག། མོན་གྲེ་ལ་སྒྲོག་སྟོད། མོན་གྲུ་ལ་སྒྲོག་སྨད། …»,
+and points to Klong rdol bla ma's list of names; its verse list of
+the names (vol. 2, etext p. 42) has «བོན་པོ་བྱ་ཕོ་གྲོ་བཞིན་མིང་། །བྱི་བཞིན་ལ་ནི་བྱ་གཞུག་ཟེར། །ནམ་མཐོང་གོང་དང་ཐོབ་ལྡན་མ། །སྒྲོག་སྟོད་རྣམས་ནི་མོན་དྲེའི་མིང་།»;
+and its entries mansion by mansion (vol. 2, etext pp. 761–762) list
+under Abhijit «…ཚུ་རྒྱལ། སྤུར། བྱ་གཞུག» and under Dhaniṣṭhā «…རླུང་འཛིན། འགའ་ཞིག་བྱ་གཞུག …»,
+"some: *bya gzhug*". The order *bya sbo*, *bya gzhug*, *sgrog stod* is the
+one the Drigung list above has («…བྱ་ཕོ་དང་། །བྱི་བཞིན་བྱ་གཞུག་མོན་དྲེ་ལ། །སྒྲོག་སྟོད…»),
+which so reads «བྱི་བཞིན་བྱ་གཞུག / མོན་དྲེ་ལ་སྒྲོག་སྟོད». Read with these
+lists, the hearth's and treating horses' *bya mjug* / *bya gzhug* beside mon
+dre is Abhijit, as the editors' ༢༡, KP's «བྱིཞི» and ch. 23's earth line
+take it; WB's own lists that place it as Dhaniṣṭhā (the birth and sick
+lists) follow the other usage KD records.
+
 **For the app:** nothing changes, whichever of the two it is. Read as
 Dhaniṣṭhā, the entry repeats mon dre on the same side (bad for the hearth,
 good for treating horses), which the app already has; read as Abhijit, it
@@ -993,6 +1010,9 @@ editors' ༢༡ supports it: WB names Śravaṇa in these sections as gro bzhin
 - KP's box 42 (img. 49): the bad date after ༨ is a two-digit group read 12
   in the box as built; at 3× its second digit resembles the ༣ of the same
   line. Not part of O2's line; noted for whoever reads the box again.
+  *Settled 2026-10-19:* set beside the 2s of the box's «༢༡ ༢༧ ༢༨» and the
+  3 of its «༣༠» at 5–7×, the digit has the 2's single hook, the 3 before
+  it the double-curved head: «༡༢», as built (*KP's box 42*, above).
 - KP's box 29 (img. 39, read on the scan at 3×): the dotted line that ties
   «ནུཾ སྐག» to «བྱ་གཅོད་དམིགས་བསལ་ལེགས» begins after «མགོ», so Mṛgaśiras
   may belong to the box's good list (WB's lists it good); the box as built
@@ -1011,8 +1031,7 @@ editors' ༢༡ supports it: WB names Śravaṇa in these sections as gro bzhin
 
 ### Open
 
-- Open question 106 ([open-questions.md](open-questions.md)).
-- Open question 107 ([open-questions.md](open-questions.md)).
+- Open questions 106 and 107 ([open-questions.md](open-questions.md)), answered 2026-10-19 (106 as far as the sources go).
 
 ### Searched and not found
 

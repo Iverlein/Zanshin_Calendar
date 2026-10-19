@@ -1555,7 +1555,7 @@ the text, not about the app.
      what is not stated is neutral; look to the results each names for the
      work in hand.*
 
-106. **The bride's mansions by element.** WB vol. 1, p. 373 (ch. 23):
+106. **Answered as far as the sources go, 2026-10-19. The bride's mansions by element.** WB vol. 1, p. 373 (ch. 23):
     «ཤིང་ཁམས་པ་ལ་རྒྱལ་སྨད་དང་། །མེ་ཁམས་དབོ་དང་ས་རི་སྟེ། །ས་ཁམས་ས་ག་བྱ་གཞུག་དང་། །ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད། …»
     By the turtle's quarters (vol. 1, p. 232) earth's four mansions are
     Bharaṇī, Āśleṣā, Viśākhā and Abhijit, so *bya gzhug* under earth would
@@ -1570,8 +1570,15 @@ the text, not about the app.
      Dhaniṣṭhā. By the turtle's quarters the line's Viśākhā and Abhijit are
      both earth, so *bya gzhug* here is Abhijit. The iron line reads «ས་ག་བྲེ»,
      «ས་ག་ཆུ་སྟོད» or «གྲེ» by family, none of them iron's quarter: corrupt in all.*
+     *Answered as far as the sources go, 2026-10-19 ([white-beryl-ch34.md](white-beryl-ch34.md),
+     *KD's lists of the mansions' names*): the earth line's *bya gzhug* is
+     Abhijit. KD's lists of the mansions' names give «བྱི་བཞིན་ལ་བྱ་གཞུག» (vol. 1,
+     etext p. 544) and «བྱི་བཞིན་ལ་ནི་བྱ་གཞུག་ཟེར» (vol. 2, etext p. 42), and
+     Dhaniṣṭhā's only «འགའ་ཞིག་བྱ་གཞུག», by some (vol. 2, etext p. 762). The
+     verse counts by the turtle's quarters; its iron line stays corrupt in
+     every family.*
 
-107. **Mon dre and *bya gzhug* in one list.** WB vol. 2, pp. 390 and 401:
+107. **Answered 2026-10-19. Mon dre and *bya gzhug* in one list.** WB vol. 2, pp. 390 and 401:
     the hearth and treating horses each name mon dre and *bya gzhug* in one
     list, on the same side. Is the name there a second mention of Dhaniṣṭhā
     (two sources joined), or another mansion, as the 1996 bracket ༢༡ and KP's
@@ -1583,6 +1590,13 @@ the text, not about the app.
      Abhijit, it names one the hearth's list lacks, as the editors' ༢༡, KP's
      «བྱིཞི» and the turtle's quarters in ch. 23 (question 106) take it. The name
      serves for both mansions in WB, and the list decides.*
+     *Answered 2026-10-19 ([white-beryl-ch34.md](white-beryl-ch34.md),
+     *KD's lists of the mansions' names*): Abhijit. KD names Abhijit *bya
+     gzhug* in both its lists of the mansions' names («བྱི་བཞིན་ལ་བྱ་གཞུག», vol. 1,
+     etext p. 544; «བྱི་བཞིན་ལ་ནི་བྱ་གཞུག་ཟེར», vol. 2, etext p. 42) and gives the
+     name to Dhaniṣṭhā only as some do («འགའ་ཞིག་བྱ་གཞུག», vol. 2, etext p. 762).
+     The Drigung list's line reads the same way. Beside mon dre in one list,
+     the name is Abhijit, which the app does not calculate.*
 
 108. **Answered as far as the sources go, 2026-10-19. The la's starting side.** Does the la's course start on the man's
     left and the woman's right (Deumar's note to his table, p. 594; GC, BDRC
