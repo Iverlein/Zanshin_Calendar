@@ -1150,7 +1150,7 @@ as the 1996 scan; the 1996 etext's «རྒོད» is the OCR's. «ཟློད
 with a rival: the Mtshur phu catalogue (MW20850) and Karma Pakshi's life
 (MW18133) have the Drigung myriarch petition the khan «ས་སྐྱ་དང་ཟློད་པའི་དོན་དུ»,
 to contend with Sakya (BDRC snippets, 2026-10-19; open question 39). So
-"the palace gods who contend with works".
+"the palace gods who contend with works". Sde srid's *G.ya' sel* (etext VEIE0OPIF790A4DF_I5876, p. 22) says of the same gods «ལས་སུ་རྩོད་པ་ན་ཕོ་བྲང་ཞེ་ལྔའི་གྲས», "when they contend in works, among the forty-five palace gods": «ཟློད» is «རྩོད».
 
 ### Open
 

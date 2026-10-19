@@ -674,7 +674,7 @@ the text, not about the app.
     [year-month-earth-lords.md](year-month-earth-lords.md))?
     *Answered 2026-10-18 night ([year-month-earth-lords.md](year-month-earth-lords.md)): nothing is counted. Ch. 23 gives the verse whole (vol. 1, p. 375, img. 385, read on the scan): «དུས་ཚོད་གནམ་ཁྱི་སྲོད་ཀྱི་དུས། །ཁོ་རང་དངོས་པོ་སྨེ་བདུན་ཏེ། །སྨེ་བདུན་ལྷག་གི་ཤར་བ་དང་།», the dusk sky dog is itself the seven-red mewa and rises vividly (*lhag ge*, *lhag gis*: vivid, resplendent, in the dictionaries) as it.*
 
-39. **WB vol. 2, pp. 195–196 (img. 203–204): «ལས་ལ་ཟློད་པ».** What does
+39. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 195–196 (img. 203–204): «ལས་ལ་ཟློད་པ».** What does
     ཟློད་པ mean in the palace gods' heading (read on the scan 2026-10-11,
     RD3, [year-month-earth-lords.md](year-month-earth-lords.md))?
     *Narrowed 2026-10-18 ([year-month-earth-lords.md](year-month-earth-lords.md)):
@@ -690,6 +690,12 @@ the text, not about the app.
     contest (BDRC search snippets, 2026-10-19). Read so, the heading names
     "the palace gods who contend with works", those that set themselves
     against a work done on their seat; no reckoner glosses it.*
+    *Answered as far as the sources go, 2026-10-19: Sde srid's own
+    paraphrase confirms it. His *G.ya' sel* (etext VEIE0OPIF790A4DF_I5876,
+    p. 22, the replies on ch. 31) names the same gods «…ལས་སུ་རྩོད་པ་ན་ཕོ་བྲང་ཞེ་ལྔའི་གྲས་ས། གཡང་གཟའ་རླུག་དགུ། ཛམ་ལ། སྐྱབས་བྱེད། སྒྱུར་བྱེད།…»,
+    "when they contend in works, among the forty-five palace gods: the
+    nine *g.yang gza'*, Dzam la, Skyabs byed, Sgyur byed …", the very list
+    WB gives under «ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི་ལྷ»: «ཟློད» stands for «རྩོད», to contend.*
 
 40. **WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
     mean the two-black in the centre of the year's sme ba wheel, as the
