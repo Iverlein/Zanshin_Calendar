@@ -578,6 +578,12 @@ on the scan that follow from the years alone. `BirthReckoning`
   the forefathers' fault, the illnesses and the harm now, and the line on
   the mother's trigram at the birth where it names one trigram. The
   thirty's bodies are the years' body elements (`BirthTest`).
+- **The four of rise and decline** (pp. 331–333, with the notes' rule,
+  vol. 2, p. 475): the birth year's life force counted onto the birth
+  year, its body onto the birth month, its destiny onto the birth day
+  (the luck's, onto the hour, needs the time of birth, not kept); the
+  stage reached, of the six bright and six dark, with its reading for
+  that aspect.
 - **The natal mewa** (pp. 288–294): the births under each of the nine,
   by the birth year's mewa (§5.9.1), with whose child one is, the former
   life, the span of life, the image to make for a better rebirth as the
@@ -3375,7 +3381,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
   element) and "Its pair among the thirty" (the pair's two years), "The natal mewa"
   ("Born under 6 white") and the five by the mewa ("Mewa · the children's
-  glory · Mewa 6 white, iron · life force earth"), then the
+  glory · Mewa 6 white, iron · life force earth"), the three of rise
+  and decline ("Body · stage of the body complete · earth, counted onto
+  the birth month"), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
