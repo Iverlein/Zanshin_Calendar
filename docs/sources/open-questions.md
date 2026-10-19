@@ -597,6 +597,16 @@ the text, not about the app.
     right, the Dharma turning, but the earth-lord texts call turning left, a
     convention named from the front of what is circled. So the turning names
     the sense of the yearly move; the full reply is not read.*
+    *Answered as far as the sources go, 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+    the turning names only the sense of the move. The *G.ya' sel* has a
+    full etext after all (VEIE0OPIF790A4DF_I5876, etext pp. 23–24), and the
+    reply ends: «…ས་བདག་རྣམས་ཀྱི་སྐོར་བ་དེ་ལས་ལྡོག་པའི་ཚུལ་འདི་བརྩི་བ་པོ་དཔྱད་མཁན་གྱི་ལག་བརྡ་ན་དུ་བསྐོར་བའི་ལག་གཡས་ཀོ་པ་གཡོན་ཕྱོགས་སུ་འ་ར་བས་སྐོར་བ་པོའི་དབང་གིས་གཡས་སྐོར་དང་། གཡོན་གྱིས་སྐོར་བ་དེ་གཡས་ཕྱོགས་སུ་འཁོར་བས་གཡོན་སྐོར་ཞེས་བརྡ་ཆད་དུ་མཛད་དོ།།»:
+    the earth lords' names are taken from the reckoner's hand, a round
+    made by the right hand running to the left being called the right
+    turning after its turner, and the left hand's the left turning; his
+    example is a hand-mill turned by the right hand, "right" by the one
+    who turns it though the stone goes the common left way, so "there is
+    no contradiction". No rule beyond the direction is added.*
 
 34. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 177–192: do the year's earth lords change place at
     the winter solstice?** Each entry day is counted from «ཉི་ལྡོག», the

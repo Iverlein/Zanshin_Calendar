@@ -141,9 +141,13 @@ scratch directory, not in the repository:
   (VEIE0OPI6328F058_I4767), restate WB's reckonings in plain words and
   answered several questions at once. Sde srid's own replies on WB, the
   *G.ya' sel* (MW2PD17386_474815, and in the etext group
-  VEIE0OPID552C050), are search-only: their snippets answer WB's own
-  puzzles (open question 33 came from one); search a question's key
-  words with «ཞེས» to reach them. For a list of dates whose source is
+  VEIE0OPID552C050), are search-only there, but one copy has a full
+  etext: `bdrc.py etext DIR VEIE0OPIF790A4DF_I5876` (546 pages, found
+  2026-10-19; the 106th reply on etext pp. 23–24). The replies answer
+  WB's own puzzles (open question 33 came from one); search a question's
+  key words with «ཞེས» to reach them. A search-only text can be read
+  further by chaining: search the last words of one snippet, and the next
+  snippet carries on from them (a whole reply was read so, 2026-10-19). For a list of dates whose source is
   unknown, search the numbers as one run of number words
   («བཅོ་བརྒྱད་ཉེར་གཉིས»), which found KL's moxa dates in Lung rigs bstan
   dar's Four Tantras commentary (MW00KG07597; open question 79).

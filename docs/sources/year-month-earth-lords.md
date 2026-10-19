@@ -2375,4 +2375,11 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   sense in which a lord's place moves from year to year, by a convention
   of the earth-lord texts that reverses the common one; nothing in the
   snippet makes it a rule of its own beside the year animal's order.
-  The full reply is not read; the text is the next to find on a scan.
+  The full reply was read the same day in an open etext of the *G.ya'
+  sel* (VEIE0OPIF790A4DF_I5876, etext pp. 23–24): the names are taken
+  from the reckoner's hand. A round turned by the right hand runs to the
+  left side and is called the right turning after the one who turns it,
+  one turned by the left hand the left turning; as a hand-mill turned by
+  the right hand, "right" by its turner while the stone goes the common
+  left way: «…བརྩི་བ་པོ་དཔྱད་མཁན་གྱི་ལག་བརྡ་ན་དུ་བསྐོར་བའི་ལག་གཡས་ཀོ་པ་གཡོན་ཕྱོགས་སུ་འ་ར་བས་སྐོར་བ་པོའི་དབང་གིས་གཡས་སྐོར་དང་། གཡོན་གྱིས་སྐོར་བ་དེ་གཡས་ཕྱོགས་སུ་འཁོར་བས་གཡོན་སྐོར་ཞེས་བརྡ་ཆད་དུ་མཛད་དོ།།» (open
+  question 33).
