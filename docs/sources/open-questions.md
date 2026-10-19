@@ -1633,6 +1633,15 @@ the text, not about the app.
      *Rin chen kun 'dus*; the catalogue of the *Sman rtsis rig mdzod chen mo*
      (MW4CZ354964, Beijing 2017) lists two texts «ས་བདག་གཏོང་ཤེས», "translated by
      Sems rtse and others". The volume was not found; the text is not read.*
+     *Searched further 2026-10-19: the catalogue (I4CZ355100, search-only)
+     lists the two *Sa bdag gtong shes* (its nos. 17 and 18, from pp. 205
+     and 236 of their volume, «སེམས་རྩེ་སོགས་པས་བསྒྱུར») after a *Sa bdag stag sham nag
+     po'i rgyud* («སེམས་རྩེའི་འགྱུར», no. 14), a *Sa dpyad rin chen gces pa'i sgron
+     me* (no. 15) and a *Sa dpyad gsal ba'i sgron me* (no. 16): a run of
+     earth-lord and geomancy texts ascribed to translators. BDRC holds only
+     the catalogue volume of the collection (MW4CZ354964), and none of the
+     five titles is in its full text; the Phugpa WB itself names a *Stag
+     sham nag po'i rgyud* as a source of its remedies.*
 
 124. **Answered 2026-10-18. The hearth god's *spang skong*.** Which text is the *spang skong*
      (སྤང་སྐོང) of the hearth god's remedy (p. 225)? (2026-10-12, O8,
