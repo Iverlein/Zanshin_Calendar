@@ -664,7 +664,13 @@ relatives (the spouse taken as the other sex where theirs is not set).
   black *lding* sons, the eleven carried off by rākṣasas and the four
   *ther 'dre* (bad for the one born), the eight of widowhood, the eight
   to avoid; a woman under the two-black mewa, the black years with
-  fangs. `BirthTest` holds the lists' sizes.
+  fangs. `BirthTest` holds the lists' sizes. Then husband and wife who
+  meet within one year animal (*nang phrad*, p. 353), each animal with its
+  lot (the monkey's «མི་བུ་བསྲེལ» not read), and within one element by the
+  sexes of their years, both male, both female or one of each (iron, water,
+  earth and fire male; iron, earth, fire and wood female; all five mixed;
+  water female's «ལོ་ཕྱུགས་བཙལ» and wood male's «ལོ་ཤུགས་དོགས» not read),
+  `MatchSameAnimal` and `MatchSameElement`.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -3369,7 +3375,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   `Reckoning` in the app lists them.
 - **The marriage match** (§5.9.3): Back, the title and the person's
   name; the man's and the woman's birth years; under "The years" the
-  same kind ("Both of one kind · life force and destiny one") and each
+  same kind ("Both of one kind · life force and destiny one"), the same
+  animal ("Both of one animal · Dragon") and the same element ("Both of
+  one element · Fire · a male and a female year") and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's

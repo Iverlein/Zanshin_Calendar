@@ -1000,3 +1000,17 @@ two, a woman's as seven) leaves "four up" and "the three in concord"
 open, and the body-cut wheel («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)») names
 the turtle's body parts, not pairs, so its pairs are not read. A
 question for the open-questions run.
+
+## Built, 2026-10-19 (ROADMAP R3d)
+
+Point 1's same-animal and same-element pairs (p. 353, img. 363, the 1996
+machine reading checked against the quote above; its last lines
+«ལྕགས་ཀྱི་ཕོ་མོ་ནང་ཕྲད་ན། །ཞེན་པ་གཡང་ནི་ཆུང་བའོ། །ཆུ་ཡི་ཕོ་མོ་ནང་ཕྲད་བཟང་།»):
+`MatchSameAnimal` (eleven animals) and `MatchSameElement` (thirteen of the
+fifteen element-and-sex lines). Not read, so not built: the monkey's
+«མི་བུ་བསྲེལ», water female's «ལོ་ཕྱུགས་བཙལ», wood male's «ལོ་ཤུགས་དོགས», the
+dragon's «རེ་འཁང་ཆེ» (left out of its reading) and earth mixed's
+«ནོར་མི་གཤིན» (likewise). The hare's extra line «ནོར་ཟས་མི་བཏུབ་དབང་ཐང་ཆུང་»
+repeats its first and is taken as the hare's. The line before the
+elements, «སྲོག་ལུས་དབང་ཀླུང་གཅིག་པ་ཡི། །ལོ་མཉམ་ནང་ཕྲད་ཟ་ཐང་ཆུང་།», closes
+the family note.
