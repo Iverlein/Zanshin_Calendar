@@ -513,6 +513,7 @@ The box on the scan, KP BDRC img. 42 (O10f):
 - **Not calculated:** rising signs (best for learning skills); 'phud byed (bad)
 - A second good date after the 18th is not legible (the readings by machine give 2, 21 or 31).
 - **The scan (O10f):** The good half ends its mansions with «འདུ», formation ('du byed), the link, plain: not in the table of 2026-10-10 below, which counts box 33 among those naming none.
+- **Read in the Bhutan print 2026-10-19** (I1KG11905, img. 388): good «ཚེས་༡༨ ༢༢», bad «༡ ༦»: the doubtful second good date is the 22nd, the White Beryl's (work 31). Built so.
 
 ### 34. Compounding medicine — སྨན་སྦྱོར་བྱེད་པར་བཟང་བ
 

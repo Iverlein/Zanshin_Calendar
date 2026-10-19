@@ -574,7 +574,7 @@ square brackets is not settled on the scan; «…» a passage left out.
 
 Written out whole in the O2 section below (*2. Learning*); its good dates are «བཅོ་བརྒྱད་ཉེར་གཉིས», the 18th and the 22nd.
 
-- KP box 33's second good date (read ༢༡ or ༣༡) is WB's 22.
+- KP box 33's second good date (read ༢༡ or ༣༡) is WB's 22. The Bhutan print has «༢༢» (2026-10-19).
 
 ### 32. Medicine (p. 403, img. 411; the medicine wheel and the rigs ldan times before it not written out)
 
