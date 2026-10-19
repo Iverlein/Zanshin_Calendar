@@ -1150,6 +1150,17 @@ the text, not about the app.
     the 1st, 6th, 18th, 22nd, 24th, full and new moon: KL's six and the 24th.
     The list is a medical one, older than KL; its source and KL's dropping
     of the 24th are not found.*
+    *Narrowed further 2026-10-19 ([health.md](health.md)): the list is the
+    *Blue Beryl*'s (Sde srid's *Bai DUr sngon po*, on the Last Tantra's
+    ch. 21, moxa; *Gso ba rig pa'i bstan bcos sman bla'i dgongs rgyan rgyud
+    bzhi'i gsal byed bai DUr sngon po*, etext I1KG81088, search-only),
+    quoted there from Acārya Phyag
+    rdum: «གཞན་ཡང་ཨ་ཙ་ར་ཕྱག་རྡུམ་གྱིས། ཁ་ཆར་བུ་ཡུག་དུས་མི་བསྲེག ཚེས་གཅིག་དྲུག་བཅོ་བརྒྱད་ཉེར་གཉིས་ཉེར་བཞི་ཉ་སྟོང་རྣམས་ལ་གཏར་བསྲེག་གཉིས་ཀ་སྤང།», no moxa in
+    rain and storm, and neither bloodletting nor moxa on the 1st, 6th,
+    18th, 22nd, 24th, full and new moon; the seasons' forbidden sides of
+    the ribs follow. The Drigung *Rgyud bzhi'i dka' mchan*, Skal bzang chos
+    kyi rgyal mtshan's works and later manuals repeat it (BDRC snippets).
+    KL's dropping of the 24th is still not explained.*
 
 80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
     the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),
