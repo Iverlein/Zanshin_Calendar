@@ -47,8 +47,12 @@ here (Yigdzin-1, not checked line by line).
   gsum*: the triads tiger, horse, dog and so on), the last for a tiger, horse or dog is the dog
   (p. 197, the sky dog of brides). The wind-horse (*klung rta*) of the
   tiger, horse and dog is the iron monkey (vol. 2, WB's notes, etext
-  p. 479, img. 487, etext only); the wind-horse of the other triads and the tomb
-  (*dur*) of a wind-horse are not defined on these pages.
+  p. 479, img. 487, etext only); the tomb (*dur*) of a wind-horse is not
+  defined on these pages. The wind-horse, the luck (*klung rta*), of every
+  triad is in vol. 1, p. 254: the tiger, horse and dog's iron monkey, the
+  pig, sheep and hare's fire snake, the mouse, dragon and monkey's wood
+  tiger, the bird, ox and snake's water pig (core's `klungRta`; open
+  question 26, 2026-10-19).
 - **Entry** is a count of days from the turning of the sun (*nyi ldog*),
   before (*gong*) or after (*rjes*, *rting*); the sme ba gods' entry
   names the winter solstice (p. 192). From that day the lord stands in
@@ -1302,13 +1306,15 @@ maids); winter 1 seven days at the bed (men and women), 2 three days from the
 steward). Machine-read lines checked on the scan; several words of this
 passage have no settled sense.
 
-#### 3. The month's river (ཟླ་ཀླུངས, zla klungs) (p. 200, img. 208)
+#### 3. The month's luck lord (ཟླ་ཀླུངས, zla klungs) (p. 200, img. 208)
 
 > ཟླ་ཀླུངས(༣)ཞེས་བྱའི་ས་བདག་ནི། །མི་ལུས་རྟ་ཡི་མགོ་བོ་ཅན། །སྐུ་མདོག་དམར་ནག་འཇའ་ཚོན་གྱོན། །མདའ་དར་གཡུ་སྒྲོམ་གཡས་གཡོན་འཛིན། །གང་ཤར་ཟླ་བའི་ཀླུང་རྟའི་སྟེང་། །གཡོན་སྐོར་འདི་གནས་ས་ཕྱོགས་སུ། །གཏམ་གཏོང་ནོར་དང་ཟས་སྟེར་དང་། །དམག་ཇག་དུར་ལས་དར་འཕྱར་སེལ། །སྟོན་མོ་འཛེམ་ཞིང་ཀོ་ལོང་ནི། །བུད་མེད་སྦྲུམ་མ་ནོར་དང་ནི། །རྩིས་མཁན་རྒྱལ་པོ་ཉིད་ལ་སྡོམ། །གོད་ཁ་འོང་ཞིང་དགྲ་མང་ལྡང་། །ཉམས་ན་གཙུག་ཏོར་བརྒྱ་ཆར་དང་། །སྡོང་རྒྱུན་སྤང་སྐོང་སྣང་བརྒྱད་སྒྲོག །ཆུ་གཏོར་མང་དུ་གཏང་བར་བྱ། །བུད་མེད་ནག་མོའི་གཟུགས་ལྔ་བཅོས། །ལན་དུ་བྱ་ནག་རེ་རེ་བསྐུར། །གསེར་གཡུའི་བཀྲག་དང་ཝ་ཐོད་སྒྲིབ། །ཡང་ན་གཏོར་མར་སྒྲོ་བཙུགས་པ། །ཕྱོགས་དེར་བཏང་བས་ཉེས་པ་ཞི། །ཡང་ན་ཤ་བའི་ཐོད་པས་སྒྲིབ། །
 
-Horse head, red-black, rainbow clothes. On the river-horse (ཀླུང་རྟ, klung rta)
-of the month that has risen, counter-clockwise; which direction that is, the
-passage does not say. Avoid sending messages, giving wealth and food, war,
+Horse head, red-black, rainbow clothes. On the luck (ཀླུང་རྟ, klung rta)
+of the month that has risen, counter-clockwise: the animal vol. 1, p. 254
+gives the month's triad (a tiger, horse or dog month the monkey, a mouse,
+dragon or monkey month the tiger, a bird, ox or snake month the pig, a
+pig, sheep or hare month the snake; open question 26). Avoid sending messages, giving wealth and food, war,
 theft, burial, raising flags, clearing rites (སེལ, sel) rites, feasts. Takes offence at pregnant
 women, wealth, astrologers and the king; losses and many enemies. Remedies:
 recitations, water tormas, five figures of black women each sent with a
@@ -1760,7 +1766,7 @@ paper put inside, one vase set that way and one carried.
 
 > ཟླ་བའི་ཧལ་ཁྱི་ལོ་འཁོར་བཞིན། །སྔར་སོང་ཟླ་བའི་ཀླུང་རྟའི་སྟེང་། །མཁར་ལས་རོ་དང་ཤིད་ལས་ངན། །ཀོ་ལོང་བག་མ་སྒོ་ཁྱི་དང་། །ཁྱད་པར་རོ་ཁུར་པ་ལ་སྡོམ། །ཉམས་ན་ལུག་ནག་ཧལ་ཁྱིའི་མདོས། །མི་ནག་ཁྱི་མགོ་ཕག་རོག་ཞོན། །བྱ་རོག་སྒྲོ་དང་གཡག་རྔ་ནག །མགོ་ལ་བཙུགས་ཏེ་སྒྲིབ་པར་བྱ། །ཁ་ཅིག་དེ་ལྟར་འདོད་པ་ཡོད། །༧མདོ་བྱང་མ་བུ་ལས་བཤད་པ། །ཧལ་ཁྱི་དཔྱིད་གསུམ་ཤར་ན་མགོ །ཁ་ལྷོར་བལྟ་ཚེ་ཟིན་ཐོག་ཁ། །གིན་ནི་མཆེ་གཡས་ཟོན་མཆེ་གཡོན། །དབྱར་གསུམ་མགོ་ལྷོ་ཁ་ནུབ་སྟེ། །ལི་ཁ་ཟོན་ནི་མཆེ་བ་གཡས། །ཁོན་གྱི་ཐོག་ནི་མཆེ་གཡོན་ཡིན། །སྟོན་གསུམ་མགོ་ནུབ་ཁ་བྱང་བལྟ། །དེ་ཚེ་དྭ་ཁ་ཁོན་མཆེ་གཡས། །ཁེན་ཐོག་མཆེ་བ་གཡོན་མ་ཡིན། །དགུན་གསུམ་མགོ་བྱང་ཁ་ཤར་བལྟ། །དེ་ཚེ་ཁམ་ཁ་ཁེན་མཆེ་གཡས། །གིན་ནི་མཆེ་བ་གཡོན་མ་ཡིན། །མཆེ་བ་གཡས་ལ་རོ་མི་དྲང་། །གཡོན་ལ་གཏད་ [p. 214, img. 222] ལས་བྱ་མི་རུང་། །ཁ་ལ་བག་མ་བླང་བ་སྤང་། །སྒྲིབ་བཅོས་ལོ་ལྟར་བྱ་བ་ཡིན། །འབྱུང་བ་རིན་ཆེན་ཀུན་འདུས་ལས། །ལོ་གཅིག་ཁ་ནི་ཕྱོགས་བཞིར་བལྟ། །དཔྱིད་གསུམ་ལྷོ་དང་དབྱར་གསུམ་ནུབ། །སྟོན་གསུམ་བྱང་ལ་དགུན་གསུམ་ཤར། །དེ་ནི་ལོ་ཡི་བལྟ་ཕྱོགས་ཏེ། །ཟླ་དུས་བལྟ་ཕྱོགས་འདི་ལྟར་བཤད། །དཔྱིད་གསུམ་མུན་པ་ཚབ་ཚུབ་ནས། །ནམ་ཕྱེད་ཚུན་ཆད་ལྷོ་རུ་བལྟ། །དེ་ནས་ཉི་ཤར་ཚུན་ཆད་ནུབ། །དེ་ནས་ཉི་ཕྱེད་ཚུན་ཆད་བྱང་། །ཉི་མ་ཕྱེད་ནས་ཤར་དུ་བལྟ། །དབྱར་ཟླ་གསུམ་ལ་སྲོད་ལ་ནུབ། །ཐོ་རེངས་བྱང་ལ་སྔ་དྲོ་ཤར། །དགོངས་ཀ་ལྷོ་ནུབ་བལྟ་བ་ཡིན། །སྟོན་ཟླ་གསུམ་ལ་སྲོད་ལ་བྱང་། །ཐོ་རེངས་ཤར་ལ་སྔ་དྲོ་ལྷོ། །དགོངས་ཀ་ནུབ་ཏུ་བལྟ་བ་ཡིན། །དགུན་ཟླ་གསུམ་ལ་སྲོད་དུས་ཤར། །ཐོ་རེངས་ལྷོ་ལ་སྔ་དྲོ་ནུབ། །དགོངས་ཀ་བྱང་ངོས་བལྟ་བ་ཡིན། །ཀོ་ལོང་ཉམས་བཅོས་གོང་དང་མཚུངས། །
 
-"As the year's wheel": on the river-horse of the month that has passed.
+"As the year's wheel": on the luck (*klung rta*) of the month that has passed.
 Building, corpses and funeral rites bad. Takes offence at a bride, the door
 dog and above all the corpse-bearer. Remedy: a black sheep and the hal dog's
 ransom (མདོས, mdos); screen: a black man with a dog's head riding a pig and a
@@ -1819,9 +1825,9 @@ there too, the two that WB puts "on the month that has risen" (pp. 208,
 209). So this chart sets the belly-crawler's tail on the month, which is
 WB's main view, the *Clear Lamp*'s («གང་ཤར་ཟླ་སྟེང་མཇུག»), and not the
 *Gathering of Jewels*' seasonal quarters. The next blocks are the month's
-river (ཟླ་ཀླུང, zla klung) and a block «འདི་ཡོད་པར། པི་ལིང་། ས་སྨུན། ལྟོ་འཕྱེའི་མགོ་རྣམས་གནས།…»,
+luck (ཟླ་ཀླུང, zla klung) and a block «འདི་ཡོད་པར། པི་ལིང་། ས་སྨུན། ལྟོ་འཕྱེའི་མགོ་རྣམས་གནས།…»,
 where Piling, *sa smun* and the belly-crawler's head stand. Whether
-that block belongs to the month's river cannot be told from the etext,
+that block belongs to the month's luck cannot be told from the etext,
 so it does not yet place the river (open question 26). The chart is a
 Sakya manual's, not a Phugpa one. For the old couple and the blue mouse
 road, this chart, Lha mo tshul khrims, Dpal bsdus and KD were searched
@@ -2139,10 +2145,10 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 
 ### Found in passing
 
-- The month's river (ཟླ་ཀླུང, zla klung), on which the month's *klung* earth
+- The month's luck (ཟླ་ཀླུང, zla klung), on which the month's *klung* earth
   lord sits (p. 200) and the month's hal dog on the past month's (p. 213), is
   a column of ch. 13's tables of the years: vol. 1, p. 105 (img. 115; etext p. 115),
-  «ཀླུང་རྟའི་སྨེ་ཕྲེང … ཟླ་ཀླུང», etext only, not read on the scan. The river-horse
+  «ཀླུང་རྟའི་སྨེ་ཕྲེང … ཟླ་ཀླུང», etext only, not read on the scan. The luck (*klung rta*)
   (ཀླུང་རྟ, klung rta) of vol. 2, pp. 12–25 (etext pp. 20–33; the person's life force, body,
   power and luck) is another use of the word.
 - Ch. 31's own list of the month's 124 (p. 174, img. 182, l. 17–22, read on
@@ -2161,7 +2167,7 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 ### Open
 
 - Open questions 26–32 ([open-questions.md](open-questions.md)): 26, the
-  direction of the month's river (pp. 200, 213); 27, which direction «དང»
+  direction of the month's luck (pp. 200, 213); 27, which direction «དང»
   joins a name to in the nine black ones (p. 215), answered 2026-10-19:
   the next; 28, the light-clearer's
   «དུར» (p. 219); 29, Wangkhyi's «གླང་གི་ཉི་མ» (p. 210); 30, five courses that
@@ -2174,7 +2180,7 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 ### Searched and not found
 
 - «ཀླུང་རྟ» and «ཀླུངས་རྟ» in the etext of both volumes of WB (2026-10-11): no
-  rule for the month's or the year's river; only the person's river-horse
+  rule for the month's or the year's luck; only the person's luck (*klung rta*)
   (vol. 2, pp. 12–25, etext pp. 20–33) and the column «ཟླ་ཀླུང» of the tables of
   ch. 13 (vol. 1, etext p. 115).
 
@@ -2281,14 +2287,14 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   Moon's, «མིག་དམར་ཀླུང», «ཕུར་བུའི་ཀླུང», «སྤེན་པའི་ཀླུང», Mars's, Jupiter's and Saturn's; KD
   vol. 3 lists the same four, «སྤེན་པའི་ཀླུང་ཕུར་བུའི་ཀླུང་མིག་དམར་ཀླུང་། ཟླ་བའི་ཀླུང་སྤེན་པའི་རླུང་བཞི»
   (BDRC snippet). So the column is the year's planetary luck, and the
-  month's river on which the month's *klung* earth lord and the hal dog
+  month's luck on which the month's *klung* earth lord and the hal dog
   sit (pp. 200, 213) is not given by it. In passing: WB's work 14 has
   givers avoid «སེ་བྱི་ཧང་ཕན་ཟླ་[ཆུང]་ཕྱོགས», where KP's box 16 writes «ཟླ་ཀླུང», a
   direction of the month's *klung* (white-beryl-ch34.md; open question 43);
   which direction stays unread.
 - **A parallel, not stated by WB.** The year's black hal khyi sits "on
   the wind-horse of the previous year" («སྔ་ལོའི་ཀླུང་རྟ», p. 185), and the
-  month's hal dog on the past month's river (p. 213): read alike, the
+  month's hal dog on the past month's luck (p. 213): read alike, the
   month's «ཟླ་ཀླུང» would be the month's wind-horse (ཀླུང་རྟ), the animal the
   month animal's triad takes for it. No text read says so.
 

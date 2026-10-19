@@ -190,7 +190,7 @@ line was compared, not the whole verse.
 - **WB's own use** of «མོད» for "plentiful", read on the scan:
 
   > «རབ་ཀླུང་ལུས་རྒྱབ་སྨེ་བ་མང་། །ན་ཚ་མོད་འགྱུར་ལོ་དང་སྨེ། །སྤར་ཁ་གསུམ་གྱིས་ཐུབ་པའི་མི། །ནད་བཏབ་གྱུར་ན་མྱུར་དུ་འཆི།།»
-  > — vol. 1, p. 327, img. 337 (ch. 22, the birth), of a bad river-horse
+  > — vol. 1, p. 327, img. 337 (ch. 22, the birth), of a bad luck (*klung rta*)
   > (ཀླུང, *klung*; «རབ་ཀླུང» is not settled here): many moles on the
   > back; illness becomes frequent («ན་ཚ་མོད་འགྱུར»); the line goes on with
   > the year, the mewa (སྨེ, *sme*) and the trigram (སྤར་ཁ, *spar kha*), and a

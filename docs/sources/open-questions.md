@@ -478,6 +478,17 @@ the text, not about the app.
     *The column «ཟླ་ཀླུང» of ch. 13*): no. The column holds a planet's luck for
     each year, «ཟླ་བའི་ཀླུང», «མིག་དམར་ཀླུང», «ཕུར་བུའི་ཀླུང», «སྤེན་པའི་ཀླུང», not a direction; the
     month's river's direction is still not found.*
+    *Answered 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    no. 3): «ཀླུང» here is not a river but the luck (ཀླུང་རྟ, klung rta), as WB
+    spells it. P. 200 seats the lord «གང་ཤར་ཟླ་བའི་ཀླུང་རྟའི་སྟེང», on the luck of the
+    month that has risen, and p. 213 the month's hal dog on the past
+    month's. Vol. 1, p. 254 gives the luck of each triad, «སྟག་རྟ་ཁྱི་གསུམ་ཀླུང་སྤྲེལ་ལྕགས། །ཕག་ལུག་ཡོས་གསུམ་ཀླུང་སྦྲུལ་མེ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཀླུང་སྟག་ཤིང་། །བྱ་གླང་སྦྲུལ་གསུམ་ཀླུང་ཕག་ཆུ»
+    (core's `klungRta`), and Dpal bsdus (printed pp. 21 and 38, etext),
+    Lha mo tshul khrims (etext p. 15) and Thub bstan chos kyi glang po
+    (W21825 vol. 6, etext p. 6) give the same four. So a tiger, horse or
+    dog month puts it on the monkey, a mouse, dragon or monkey month on
+    the tiger, a bird, ox or snake month on the pig, a pig, sheep or hare
+    month on the snake, as the hour's *bla mkhyen* stands on the hour's.*
 
 27. **Answered 2026-10-19. WB vol. 2, p. 215 (img. 223): in the month's nine black ones,
     does «དང» join a name to the next direction named or to the one
@@ -693,7 +704,7 @@ the text, not about the app.
 
 43. **Answered 2026-10-19. KP box 16 (BDRC img. 33–34): the numerals under the three «ཟླ་ཚེས».**
     Each carries two small numerals. Are they the month and date on which
-    the month's river, the *ki kang* and the next stand, and which are they
+    the month's luck, the *ki kang* and the next stand, and which are they
     (2026-10-12, RD5, [kp-activities.md](kp-activities.md))?
     *Answered 2026-10-19 from WB's work 14, already read ([white-beryl-ch34.md](white-beryl-ch34.md),
     *14. Giving and taking goods*): the month and the date on which giving

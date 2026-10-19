@@ -932,7 +932,7 @@ more.** What a name means is in WB; the identifications follow.
 | སེ་བ་བླ་མཁྱེན | se ba bla mkhyen | the life-spirit knower of the *se*, year no. 6 |
 | རང་རྟ, ཏེ་སོ, ཀུངས་མྱུལ | rang rta, te so, kungs myul | Seba Rangta no. 10, Teso no. 4, Kungnyul no. 14 of the year |
 | པི་ལིང | pi ling | Pilang, year no. 25; Piling the poisonous, month no. 30 (and no. 35) |
-| ཟླ་ཀླུང | zla klung | the month's river (*zla klungs*), month no. 3 |
+| ཟླ་ཀླུང | zla klung | the month's luck (*zla klungs*), month no. 3 |
 | ཟིན་ཕུང | zin phung | Zinphung the black, year no. 24, month no. 31 |
 | ཧལ་ཁྱི | hal khyi | the year's black *hal khyi* (no. 16) and the month's |
 | སེ་བདུད | se bdud | the *se* demon, scattered no. 2 of the month |
@@ -981,7 +981,7 @@ only which names, in the print's order.
 - **15b/16 Taking and giving wealth** (img. 33, KP2 252), names seen on the
   scan. Bad half of box 16: «… ཉི་མ་སྦྲུལ་ དབུལ་ / ཉི་ནག་ ཀི་ཀང་ སེ་བྱི་ ཧང་ཕན་ ཟླ་ཀླུང་ ཟླ་ཚེས་ ཟླ་ཚེས་ ཟླ་ཚེས་ [small numerals] འདི་…»
   The Snake day (སྦྲུལ on the scan, O10f; read སྤྲུལ, the Monkey, before), *dbul*, *nyi nag*, *ki kang*, se byi, hang phan, the
-  month's river, then three «ཟླ་ཚེས» (month and date) each with its small
+  month's luck, then three «ཟླ་ཚེས» (month and date) each with its small
   numerals: the dates of the months on which they stand, not read. The
   last word is cut by the print's worn edge (not read).
 - **17 Auspicious rites** (img. 34, KP2 253), names seen on the scan.
@@ -1053,8 +1053,8 @@ only which names, in the print's order.
   A list of the names whose exact reckoning, «the wheel's counts (the
   circling of the heavens, the numbers of the wheel)», the box says it does
   not give: it is too deep and not a thing of common use. It contains the
-  month's river as «ཟླ་རླུང» (KP2 «ཟླ་རླུང་», the same; read «ཟླ་ཀླུང» in box
-  16), the only other place the month's river occurs.
+  month's luck as «ཟླ་རླུང» (KP2 «ཟླ་རླུང་», the same; read «ཟླ་ཀླུང» in box
+  16), the only other place the month's luck occurs.
 - **54 Composing treatises** (img. 59, KP2 282): «ལོ་ཟླ་ཞག་ནག་ བིཥྚི་ ཐེ་སེ་ སེ་ལོ་ དམས་ཤིང་ ཚེས་གཉན་ … ས་རྒྱལ་ ཕུང་ཟོར་ འཕུང་བྱེད་ སྒྲའི་དུས་གཉན་ལོགས་སུ་གསལ།»
   and at its foot «ཟིན་ཕུང་ དབུལ་ ཉི་ནག་ ཀླུ་བཟློག་པ» (box 55, rain), the
   last for the nāga rite's reversal.
