@@ -1142,7 +1142,11 @@ avoided. Remedy as for the year and month.
 **The palace gods' heading on the Zhol print, 2026-10-18 (open question
 39).** WBZ img. 908, l. 4 (= p. 196), read by eye at 4×: «༄ ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི །ལྷ་ནི་ཞེ་ལྔ་གནས་པ་སྟེ།»,
 as the 1996 scan; the 1996 etext's «རྒོད» is the OCR's. «ཟློད», «ཟློད་པ» and
-«བཟློད་པ» are in none of Steinert's 64 dictionaries.
+«བཟློད་པ» are in none of Steinert's 64 dictionaries. In prose it means to contend
+with a rival: the Mtshur phu catalogue (MW20850) and Karma Pakshi's life
+(MW18133) have the Drigung myriarch petition the khan «ས་སྐྱ་དང་ཟློད་པའི་དོན་དུ»,
+to contend with Sakya (BDRC snippets, 2026-10-19; open question 39). So
+"the palace gods who contend with works".
 
 ### Open
 

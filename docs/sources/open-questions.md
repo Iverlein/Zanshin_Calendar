@@ -641,6 +641,15 @@ the text, not about the app.
     the Zhol print carves «ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི» too (WBZ img. 908, l. 4, read at
     4×); the 1996 etext's «རྒོད» is the OCR's. «ཟློད», «ཟློད་པ» and «བཟློད་པ» are in
     none of Steinert's 64 dictionaries.*
+    *Narrowed further 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+    prose uses it for contending with a rival. The Mtshur phu catalogue
+    (*Mtshur phu dgon gyi dkar chag kun gsal me long*, MW20850) and the
+    life of Karma Pakshi (MW18133) say the Drigung myriarch Rdo rje dpal,
+    relying on Ariq Böke, petitioned the Mongol khan «ས་སྐྱ་དང་ཟློད་པའི་དོན་དུ», to
+    contend with Sakya; a gesar-type song has «ཐོབས་ཤེས་ཟློད་པའི་མདའ་མོ», an arrow
+    contest (BDRC search snippets, 2026-10-19). Read so, the heading names
+    "the palace gods who contend with works", those that set themselves
+    against a work done on their seat; no reckoner glosses it.*
 
 40. **WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
     mean the two-black in the centre of the year's sme ba wheel, as the
