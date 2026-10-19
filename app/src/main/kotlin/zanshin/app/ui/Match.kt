@@ -309,6 +309,19 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                     onOpen,
                 )
             }
+            MatchReckoning.trigramLines(m.man, manTrigram, m.woman, womanTrigram).forEach { l ->
+                AnnotationRow(
+                    Annotation(
+                        title = stringResource(R.string.match_trigram_title, gloss(l)),
+                        english = "",
+                        tone = Tone.BAD,
+                        reading = Texts.matchTrigramLine(l),
+                        subtitle = subtitle,
+                        titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
             listOf(Triple(R.string.match_man_year, m.man, manTrigram), Triple(R.string.match_woman_year, m.woman, womanTrigram)).forEach { (whose, sign, natal) ->
                 if (MatchReckoning.handWaver(sign.animal, natal)) {
                     AnnotationRow(
