@@ -740,10 +740,26 @@ the tiger has, nor how a sign with as many white as black (the dog, the
 ox) gives a precious pebble's white or black: open question 160. The
 precious pebbles wait on it. Narrowed 2026-10-19: WB's
 own next lines count from one, so the tiger has one black and the snake
-four, the horse one white and the bird four; the tie is still open.
+four, the horse one white and the bird four; the tie: below.
 Mipham's notes (vol. 2, p. 476) add that the four precious pebbles have
 no partner to fight and are laid «བཤད་པ་བཟང་ན་དཀར་པོ། ངན་ན་ནག་པོ», white where the reading is
 good and black where it is bad (open question 160).
+
+**The tie, in WB's own rule for counting white and black** (2026-10-19,
+open question 160). Ch. 29 (vol. 2, p. 46, img. 54; read on the Gser
+thang reprint, I3CN5029 img. 52, by eye) lays the pebbles of decision by
+the count: «དཀར་ནག་བགྲངས་པའི་བཏང་གཅོད་རྡེལ། །དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི། །འཐབ་རྡེལ་ལྔ་བཅུ་རྩ་ལྔ་འབྱུང་།»:
+more white, a white; more black, a black; half and half, a speckled one
+(ཁྲ་བོ, khra bo). The same section has «གཅིག་དཀར་གཅིག་ནག་ཁྲ་བོར་བོར།» for two element
+pebbles one white and one black (etext p. 54, not read on the scan).
+The table of key pebbles uses the same third value: the five-yellow, the
+friend's year and *kha ral* are «དཀར་ནག་ཕྱེད་མ», «གྲོགས་ལོ་ཕྱེད», half
+and half. Dharmaśrī's *Moonbeams* (KD vol. 3, etext p. 534) has it too:
+«དཀར་ལ་དཀར་པོ་ལྡོག་པ་ནག །མཉམ་ན་ཕྱེད་མ[ི]…», and «ལྷ་ལ་དཀར་གཉིས་མིར་ཕྱེད་མ། །ངན་འགྲོར་ལྟུང་ན་ནག་གཉིས་བོར།», a god's
+rebirth two white, a human's a half, a fall two black; Lha mo tshul
+khrims reads «དཀར་ནག་ཕྱེད་མ་བྱུང་ན» as a result of its own (etext p.
+181). So a sign with as many white as black, the dog's one and one, the
+ox's two and two, gives a half, speckled pebble: neither white nor black.
 
 **How the hundred pebbles are coloured, in Mipham's notes** (WB vol. 2,
 p. 475, img. 483; the 1996 etext I1KG12907 p. 483, clean, the Gser thang

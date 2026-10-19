@@ -2244,7 +2244,7 @@ the text, not about the app.
     *Narrowed 2026-10-18 night ([yogas.md](yogas.md)): the Zhol print carves the lines as the 1996 print, «དགྲ་ལས» and the endings «ངན», «བཟང» (WBZ img. 1100); WB's «དགྲ་ལས» is elsewhere "from enemies". The meaning of «དགྲ་ལས་མིང་འདོགས» is not settled.*
     *Answered 2026-10-18 late night ([yogas.md](yogas.md)): NM sums sel ba «ལམ་འཕྲང་སེལ་བ་…བཟང་གཞན་ངན»: the first three lines go badly, the next two well, as the grammar reads; «དགྲ་ལས་མིང་འདོགས» is a bad name given by enemies (*ming 'dogs* «མིང་ངན», Tshig mdzod chen mo).*
 
-160. **The birth's key pebbles by sign (WB vol. 1, p. 260).** «སྟག་ནས་སྦྲུལ་བར་ནག་པོར་འཕེལ། །རྟ་ནས་བྱ་བར་དཀར་པོར་འཕེལ། །ཁྱི་ལ་དཀར་གཅིག་ནག་པོ་གཅིག …» (read on the
+160. **Answered as far as the sources go, 2026-10-19. The birth's key pebbles by sign (WB vol. 1, p. 260).** «སྟག་ནས་སྦྲུལ་བར་ནག་པོར་འཕེལ། །རྟ་ནས་བྱ་བར་དཀར་པོར་འཕེལ། །ཁྱི་ལ་དཀར་གཅིག་ནག་པོ་གཅིག …» (read on the
      Gser thang reprint, I3CN5028 img. 255, 2048 px, 2026-10-19): black
      grows from the tiger to the snake and white from the horse to the
      bird, but how many does the tiger, or the horse, start with, one or
@@ -2279,4 +2279,12 @@ the text, not about the app.
      below as fits. The "reading" is most likely the key pebbles' table of
      p. 260 for the sign; a sign with as many white as black is still not
      ruled on.*
+     *Answered as far as the sources go 2026-10-19 ([year-of-life.md](year-of-life.md),
+     *The tie, in WB's own rule*): a half, speckled pebble. WB's ch. 29
+     (vol. 2, p. 46, read on the Gser thang reprint) counts white and black
+     «དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི།», and the key-pebble table itself
+     gives «དཀར་ནག་ཕྱེད་མ» where a sign is balanced (the five-yellow, *kha
+     ral*, the friend's year); the *Moonbeams* (KD vol. 3, p. 534) has «མཉམ་ན་ཕྱེད་མ».
+     So the dog and the ox give a speckled pebble, neither white nor black;
+     the tiger starts with one black.*
 
