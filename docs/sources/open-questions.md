@@ -1223,11 +1223,17 @@ the text, not about the app.
     craving and ageing and death are middling for putting on new clothes,
     so the bracket sets craving aside; built so on 2026-10-15 (ROADMAP T2.28).*
 
-104. **The numerals before the rising signs.** Are the numerals that stand
+104. **Answered 2026-10-19. The numerals before the rising signs.** Are the numerals that stand
     before the rising signs in the bad half of KP box 48 («༥ ༧ ༢ ༤», img. 56)
     and in both halves of box 55 («༣ ༢ ༤», «༩ ༧», img. 59) the sme ba of the
     day, as the place of box 7's «༩» suggests, or dates of a second kind?
     (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+     *Answered 2026-10-19 ([kp-activities.md](kp-activities.md), *The
+     numerals before the rising signs are WB's mewa*): the mewa. The boxes
+     digest WB's works: the fire offerings (p. 418, read on the scan) avoid
+     «ལྔ་སེར… བདུན་དམར… གཉིས་ནག་བཞི་ལྗང», KP's ༥ ༧ ༢ ༤ in order; bringing rain (p. 423) has
+     the trigram kham with the two-black, three-blue and four-green good and
+     li with the nine-red and seven-red hostile, KP's «ཁམ་ ༣ ༢ ༤» and «ལི་ ༩ ༧».*
 
 105. **The links fitted to a council.** KP box 60 (img. 62) ends «སྦྱོར་བྱེད་
     རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»: by which rule are the combinations and the links

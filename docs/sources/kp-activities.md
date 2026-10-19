@@ -1366,3 +1366,21 @@ the good of both halves, not the bad.
   24 that WB has nowhere in the work; read as 9, it is WB's list. Which
   numeral the carver meant is still not settled against KP's 4s and 9s
   elsewhere.
+
+## The numerals before the rising signs are WB's mewa, 2026-10-19 (open question 104)
+
+- **Box 48 is WB's work 45.** WB's fire offerings (vol. 2, p. 418,
+  img. 426, read on the scan at 2.4× for O10f, [white-beryl-ch34.md](white-beryl-ch34.md)):
+  «ལྔ་སེར་གནས་འཆར་ཉི་ནག་དང་། །བདུན་དམར་ཚེས་འཆར་དྲག་མོ་རྒྱུ། །གཉིས་ནག་བཞི་ལྗང་གནས་འཆར་རྣམས། །སྤང་…»,
+  avoid the five-yellow rising on its place, the black day, the
+  seven-red rising on the date, the fierce goddess's course, the
+  two-black and four-green rising on their places. KP's bad half has
+  «༥ ༧ ༢ ༤» in that order.
+- **Box 55 is WB's work 55.** WB's bringing rain (p. 423, img. 431,
+  machine reading): «སྤར་ཁ་ཁམ་དང་སྨེ་གཉིས་ནག །གསུམ་མཐིང་འཆར་དུས་བཟང་བ་དང་། །བཞི་ལྗང་ལ་ཡང་དགེ་བར་རྟོགས། །ལི་དང་དགུ་དམར་བདུན་དམར་སྡང་།»,
+  the trigram kham and the mewa two-black and three-blue good, the
+  four-green auspicious too; li and the nine-red and seven-red hostile.
+  KP's good half has «ཁམ་ ༣ ༢ ༤», its bad «ལི་ ༩ ༧»: the same trigrams and mewa.
+- So the numerals are the mewa, as their place after the trigram
+  suggested (box 7's «༩» the same), not dates; the table of *What the
+  table should now carry* stands.
