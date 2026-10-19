@@ -764,7 +764,7 @@ the text, not about the app.
     product «བདུན་གསུམ», 21, is the multiplication table's (vol. 1, p. 20, etext,
     «བདུན་གསུམ་གསུམ་བདུན་ཉི་ཤུ་གཅིག»), not this.*
 
-58. **KL pp. 201–203: the source of the la's courses by date and by hour.** *Answered for the course by date, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan, KL's monthly places are the Tsuglag Rigje column of Deumar's table in thirty of thirty dates, with Mipham's syllables and his crown and sole on the 15th and 30th; Deumar's course by the hour notes both feet at daybreak.*
+58. **Answered as far as the sources go, 2026-10-19. KL pp. 201–203: the source of the la's courses by date and by hour.** *Answered for the course by date, 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan, KL's monthly places are the Tsuglag Rigje column of Deumar's table in thirty of thirty dates, with Mipham's syllables and his crown and sole on the 15th and 30th; Deumar's course by the hour notes both feet at daybreak.*
     *Answered in part, 2026-10-12 (RD10, [health.md](health.md), *KL's tables
     in WB*): the course by date is WB's Phugpa list (vol. 2, p. 303) in 25
     of 30 places, the course by hour WB's course within the day (p. 304);
@@ -776,6 +776,16 @@ the text, not about the app.
     WB's la by date (vol. 2, pp. 303–305) and with the classical medical
     texts? A question to put to Dr. Chenagtsang if the texts do not settle
     it (2026-10-12, RD7, [health.md](health.md)).
+    *Answered as far as the sources go, 2026-10-19, gathering what was read
+    ([health.md](health.md)): by date, KL's places are the Tsuglag Rigje
+    column of Deumar's table (30 of 30) with Mipham's syllables, and agree
+    with WB's Phugpa list by date in 25 of 30 (RD9, RD10); by hour, WB's
+    course within the day (p. 304), as Deumar's note has it (RD10). Khro ru
+    Tshe rnam's commentary on the Final Tantra sets the Tsuglag Rigje system
+    beside the Kālacakra's and four others and quotes Deumar's hours as the
+    Phugpa *Rin chen phreng ba*'s (2026-10-19, *The la's starting side in
+    Khro ru Tshe rnam*). What KL itself rests on, beyond Deumar and Mipham,
+    is for Dr. Chenagtsang to say.*
 
 59. ~~**KL p. 256: the la, life-force and slayer weekdays by birth animal.**~~
     *Answered 2026-10-12 (RD10, [health.md](health.md)): they are WB vol. 2,
