@@ -2015,6 +2015,7 @@ the text, not about the app.
      [kun-phan-me-long.md](kun-phan-me-long.md), "The rest of the book")
     *Narrowed 2026-10-18 night ([kun-phan-me-long.md](kun-phan-me-long.md)): the colophon (BDRC label img. 121) has a ཚ with a subscribed ས before «འབྲུག», not «མེ»; the Lhasa printers' community and the common printing house keep the blocks; the year is not settled.*
     *Answered 2026-10-18 late night ([kun-phan-me-long.md](kun-phan-me-long.md)): a fire dragon year: the Lanzhou 2000 edition (W21970, p. 187, the lent scan) prints «སླར་ཡང་རབ་ཆེས་མེ་འབྲུག་ལོར་ལྷ་ལྡན་པར་བ་སྤྱི་ཚོགས་ནས་གསར་དུ་བསྐྲུན»; no cycle is named, so the year cannot be dated further; the blocks are the Lhasa printers' community's. Confirmed on KP's block at 9×: «རབ་ཆེས་མེ་འབྲུག་ལོར». The Lanzhou editors' introduction gives no date either.*
+    *Searched further 2026-10-19:* the Bhutan reprint of KP (Thimphu 1981, I1KG11905, img. 469, printed p. 459) copies the colophon; its etext reads «སླར་ཡང་རབ་ཚེ་མེ་འབྲུག་ལོར་ལྷ་ལྡན་པར་པ་སྤྱི་ཚོགས་ནས», but the type itself is cramped there, «…རབ་ཚམ་འབྲུག་ལོར», with no *e* vowel seen at 2×: the element is not settled by it.
 
 141. **Answered 2026-10-18. Date 1's «རྟེན».** date 1's first line reads
      «ཚེས་གཅིག་དཀར་ཕྱོགས་ལམ་ཞུགས་རྟེན།» on both scans and in both readers,
