@@ -23,6 +23,8 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.ClanYear
+import zanshin.core.tibetan.Forces
+import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Sign
@@ -48,6 +50,7 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         AnnotationRow(natalTrigramAnnotation(b.birthYear, b.natal, b.mother, labels), onOpen)
         AnnotationRow(childAnnotation(b, labels), onOpen)
 
+        PowerSection(person, onOpen)
         ClanSection(person, onOpen)
 
         Section(stringResource(R.string.birth_section_parents))
@@ -69,6 +72,38 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         }
         Text(stringResource(R.string.birth_note), style = muted)
     }
+}
+
+/** The year's own destiny (pp. 261, 275–280): the birth year's destiny against its life force; it needs no one else. */
+@Composable
+fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Section(stringResource(R.string.birth_section_year))
+    val born = TibetanCalendar.of(person.birth)
+    val sign = Sign(born.yearElement, born.yearAnimal)
+    val y = BirthReckoning.powerYear(sign)
+    val forces = Forces.of(sign.element, sign.animal)
+    AnnotationRow(
+        Annotation(
+            title = y.english.replaceFirstChar(Char::uppercase),
+            english = "",
+            tone = when (y) {
+                PowerYear.KHA_YAN, PowerYear.KHA_RAL -> Tone.MIXED
+                PowerYear.KHONG_NONG, PowerYear.SE_ZHIG -> Tone.GOOD
+                PowerYear.DUN_KHUR -> Tone.BAD
+            },
+            reading = Texts.powerYear(y),
+            subtitle = labels.string(R.string.birth_year_subtitle, gloss(forces.vitality, "inText"), gloss(forces.destiny, "inText")),
+            titleIsKanji = false,
+            tibetan = y.wylie to y.english,
+            details = listOf(
+                labels.string(R.string.birth_detail_child) to signName(sign, labels),
+                labels.string(R.string.birth_detail_vitality) to gloss(forces.vitality, "inText"),
+                labels.string(R.string.birth_detail_destiny) to gloss(forces.destiny, "inText"),
+            ),
+        ),
+        onOpen,
+    )
 }
 
 /** The special pebble (pp. 261, 284–286): the birth year against the clan's element, or what it needs. */

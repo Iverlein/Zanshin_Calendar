@@ -158,6 +158,7 @@ private fun BirthView(person: Person?, onPeople: () -> Unit, onBack: () -> Unit,
             b == null -> {
                 Text(stringResource(R.string.birth_natal_needed), style = body.copy(fontSize = 15.sp, lineHeight = 21.sp, color = Palette.muted), modifier = Modifier.padding(top = 12.dp))
                 ScreenLinkRow(stringResource(R.string.menu_people), stringResource(R.string.health_choose_person), onPeople, Icons.Person)
+                PowerSection(person, onOpen)
                 ClanSection(person, onOpen)
             }
             else -> BirthReckoningView(person, b, onOpen)
