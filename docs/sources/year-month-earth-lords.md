@@ -2284,3 +2284,24 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   "the ox's hour of every day" than both, in order of weight; this is a
   reading of WB's own steps, not a gloss found in another text (the
   almanac lists copy «ཝང་ཁྱི་གླང་ཉི་དུས» without explaining it).
+
+## The turning, in WB's *G.ya' sel*, 2026-10-19 (open question 33)
+
+- **Sde srid answers the question himself.** His replies on WB, *Bstan
+  bcos baiDUrya dkar po las dri lan 'khrul snang g.ya' sel don gyi bzhin
+  ras ston byed* (བསྟན་བཅོས་བཻཌཱུརྱ་དཀར་པོ་ལས་དྲི་ལན་འཁྲུལ་སྣང་གཡའ་སེལ, the *G.ya' sel*; BDRC
+  MW2PD17386_474815, in a collection of old medical books; no etext or
+  scan open, the search snippet only, its OCR uneven), take it as their
+  106th question: «བརྒྱ་རེ་དྲུག་པ་ས་བདག་རྣམས་ཀྱི་གཡས་སྐོར་གཡོན་སྐོར་ཞེས… དཀྱུས་ལས་ལྡོག་སྟེ་རྒྱུད་རྣམས་སུ་ཡང་འབྱུང་བ་འདིའི་དགོངས་དོན…»,
+  "the earth lords' 'turning right' and 'turning left' … the reverse of
+  the usual, found in the tantras too: what is meant?", and answer
+  «…གནམ་ལོའི་རྟར་ཞོན་ཏེ… བྱི་བ་ནས་གླང་སྟག་ཡོས་སོགས་དཀྱུས་ཀྱི་གཡས་སྐོར་རམ་ཆོས་སྐོར་དུ་འཁོར་བ་ལྡོག་སྟེ་གཡོན་སྐོར་ཞེས་…འབྱུང་མོད་དེ་གཉིས་ཀྱི་དབྱེ་བ་ནི། སྐོར་བ་བསྐོར་བྱའི་མདུན་ནས་གཡས་ཕྱོགས་སུ་ཕྱིན་པས་གཡས་སྐོར་…ཞེས་བརྡ་ཆད་…མཛད་དོ།»:
+  for a lord that rides the year's horse, the round from the mouse to the
+  ox, tiger, hare and on, which in common use is turning right, the
+  Dharma turning (ཆོས་སྐོར), is here called turning left; the difference
+  is a convention, a round that goes to the right from the front of what
+  it circles being named the right turning. So the turning names the
+  sense in which a lord's place moves from year to year, by a convention
+  of the earth-lord texts that reverses the common one; nothing in the
+  snippet makes it a rule of its own beside the year animal's order.
+  The full reply is not read; the text is the next to find on a scan.

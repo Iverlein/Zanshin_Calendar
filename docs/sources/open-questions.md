@@ -546,6 +546,13 @@ the text, not about the app.
     lord whose place does not follow the year animal's order, as the sky
     dog's head and tail (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *The turning, in WB's G.ya' sel*): Sde srid's own replies on WB take this
+    as their 106th question and answer (BDRC snippet) that a lord riding the
+    year's horse goes mouse, ox, tiger, hare, which common use calls turning
+    right, the Dharma turning, but the earth-lord texts call turning left, a
+    convention named from the front of what is circled. So the turning names
+    the sense of the yearly move; the full reply is not read.*
 
 34. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 177–192: do the year's earth lords change place at
     the winter solstice?** Each entry day is counted from «ཉི་ལྡོག», the
