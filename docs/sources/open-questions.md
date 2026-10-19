@@ -1242,10 +1242,14 @@ the text, not about the app.
     the Tsuglag Rigje places and Mipham's syllables, has one of its own?
     (2026-10-12, RD9, [health.md](health.md))
 
-109. **Two places in Mipham's course.** In Mipham's course (img. 548, line 5)
+109. **Answered 2026-10-19. Two places in Mipham's course.** In Mipham's course (img. 548, line 5)
     the third pair's place reads «ནུ་[ལ་ག]» on the scan, and in line 7 the
     30th's «སྟོང་ལ[ི]»; what are the place and the word? (2026-10-12, RD9,
     [health.md](health.md))
+     *Answered 2026-10-19 ([health.md](health.md), *Mipham's course in
+     another print*): Stag bla Nor bu's *Gzhan phan zla shel nor bu'i sgron
+     me* (MW20065) quotes the verse with «ལྟེ་སྙིང་ཨུ་ཨཱུ་ནུ་ལག», the breasts and the
+     arms, and «སྟོང་ལ་རྐང་མཐིལ», on the empty day, the 30th, in the soles.*
 
 110. **Answered 2026-10-19. The Final Tantra's la pulse.** In the la-pulse passage (ST p. 505),
     what do «ཡར་མར་ཆུ་རྒྱུས», «གོད་ཀ་ཁ་ཡོགས» and the line

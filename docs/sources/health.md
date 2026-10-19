@@ -962,7 +962,7 @@ The treatise runs in verse from img. 536 to about img. 580 (Yigdzin-1 over all o
 
 The pairs «ཨ … ཨ», «ཨི … ཨི» stand as Yigdzin-1 reads them; the series (U Ū, Ṛ Ṝ, Ḷ Ḹ, E Ai) makes them A Ā and I Ī, and the long-vowel sign was not made out on the 1100-pixel lines.
 
-"The instruction for raising bliss to the highest: from the 1st of the white (waxing) half to the 15th, on the right for method (the man) and on the left for wisdom (the woman), the drop of great bliss stays in the form of mantra syllables: in the big toe as A, in the shin (རྗེ་ངར, rje ngar) as Ā, in the thigh as I, in the secret place as Ī, in the navel and the heart as U and Ū, in the breasts (?) as Ṛ and Ṝ, in the throat and the lips as Ḷ and Ḹ, in the cheeks and the eyes as E and Ai, in the ears as O, in the crown (སྤྱི་བོ, spyi bo) as Au; on the 15th it stays at the top of the crown (སྤྱི་གཙུག, spyi gtsug) as Aṃ; at the junctions, as Aḥ, it pervades the whole body. In the waning half it turns back: on the 16th at the crown as A, on the empty day (སྟོང, stong, the 30th) in the soles as Aṃ, and at the junction Aḥ. Wherever it is, there stands the mantra form of the pure essence in the middle of the white and red drops … working on that place increases bliss and gives lifespan, radiance, strength and the highest attainment. Ghee and nectar substances are also anointed there; above all, when it stays at the crown, anoint with ghee, musk and white sandalwood and rest in cool moonlight; on the empty day anoint the soles with an ointment of grain oils, honey and nutmeg (ཛཱ་ཏི, dzA ti) and warm them in the sun, which balances the constituents and increases essence, lifespan and bliss."
+"The instruction for raising bliss to the highest: from the 1st of the white (waxing) half to the 15th, on the right for method (the man) and on the left for wisdom (the woman), the drop of great bliss stays in the form of mantra syllables: in the big toe as A, in the shin (རྗེ་ངར, rje ngar) as Ā, in the thigh as I, in the secret place as Ī, in the navel and the heart as U and Ū, in the breasts and the arms as Ṛ and Ṝ (question 109, below), in the throat and the lips as Ḷ and Ḹ, in the cheeks and the eyes as E and Ai, in the ears as O, in the crown (སྤྱི་བོ, spyi bo) as Au; on the 15th it stays at the top of the crown (སྤྱི་གཙུག, spyi gtsug) as Aṃ; at the junctions, as Aḥ, it pervades the whole body. In the waning half it turns back: on the 16th at the crown as A, on the empty day (སྟོང, stong, the 30th) in the soles as Aṃ, and at the junction Aḥ. Wherever it is, there stands the mantra form of the pure essence in the middle of the white and red drops … working on that place increases bliss and gives lifespan, radiance, strength and the highest attainment. Ghee and nectar substances are also anointed there; above all, when it stays at the crown, anoint with ghee, musk and white sandalwood and rest in cool moonlight; on the empty day anoint the soles with an ointment of grain oils, honey and nutmeg (ཛཱ་ཏི, dzA ti) and warm them in the sun, which balances the constituents and increases essence, lifespan and bliss."
 
 Against KL (pp. 201–204, RD7):
 
@@ -1241,3 +1241,23 @@ What they say:
   empty mind; taut, tight and stiff, quarrels and disputes with others;
   the older commentary (p. 44): «སྟོང་བརྒྱལ་གཉིས་པོ་གང་རུང་སྟོང་ཞིང་བརྒྱལ་བར་འཕར་ན་ནོར་ལ་གོད་འོང་། …ཐང་ལ་…འཁྱིག་པར་འདུག་ན་ཁ་སྨྲ[ས]་འོང་།»,
   empty or faint, a loss of wealth; taut and stiff, quarrels.
+
+## Mipham's course in another print, 2026-10-19 (open question 109)
+
+Stag bla Nor bu (སྟག་བླ་ནོར་བུ, stag bla nor bu), *Gzhan phan zla shel nor
+bu'i sgron me* (BDRC MW20065, Bod ljongs mi dmangs dpe skrun khang,
+Lhasa; etext VEIE0OPIEA7345AE_I1KG21872, p. 109, printed p. 97; etext
+only), quotes Mipham's instruction whole, and so does the Beijing
+volume of his and Mkhyen brtse dbang po's (མཁྱེན་བརྩེ་དབང་པོ, mkhyen brtse
+dbang po) medical writings (MW1KG8532, snippet). Its lines:
+«…ལྟེ་སྙིང་ཨུ་ཨཱུ་ནུ་ལག་རེ་དང་བློ། །མིག་མཆུ་ལི་ལཱི་མཁུར་ཚོས་མིག་ཨེ་ཨི། …མར་ངོས་ལྡོག་སྟེ་བརྒྱུད་གཉིས་སྤྱི་བོར་ཨ། །སྟོང་ལ་རྐང་མཐིལ་ༀ་དང་མཚམས་སུ་ཨ། …ཁྱོད་པར་སྤྱི་བོར་གནས་མཚམས་ཞུན་མར་དང་། …ཉི་མར་བསྲོ་ཞིང་འཕུར་ན་ཁམས་སྙོམས་ཤིང༌།»
+(the vowel signs as the etext types them; the Beijing volume «ནུ་ལག་རི་དང་རྨི»).
+
+- **The third pair's places are «ནུ་ལག»**, the breasts and the arms (or
+  hands), Ṛ and Ṝ: the scan's «ནུ་[ལ་ག]» is ནུ་ལག, and the series runs two
+  places a pair (big toe and shin, thigh and secret place, navel and
+  heart, breasts and arms, throat and lips, cheeks and eyes).
+- **The 30th's word is «སྟོང་ལ»**, "on the empty [day]", with no vowel
+  sign: the course of the waning half ends on the 30th in the soles.
+- In passing, the scan's «[ཚེ་]» after «སྤྱི་བོར་གནས» reads «མཚམས» here, and the
+  bracketed «[འཕུར་ན་]» stands.
