@@ -545,6 +545,77 @@ and black.
 
 > གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ། །གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། །དཀར་ན་རྒྱལ་པོའི་བཀའ་མི་བཀྱོན། །སྐྱེས་པ་ཡིན་ན་ཁྲོམ་ཐོག་ཆོད། །བུད་མེད་ཡིན་ན་གཏམ་སྙན་ཐོས། །ནག་ན་རྒྱལ་པོའི་བཀའ་ཆད་འཕོག །སྐྱིད་སྡུག་མང་ལ་སྡུག་ཤས་ཆེ། །ལུས་ལ་ན་ཚ་རྒྱུན་མི་ཆད། །ཟླ་བ་བློན་པོའི་རྡེའུ་ནི། །དཀར་བ་བློན་པོའི་གྲོགས་མི་འཛོལ། །ལུང་པ་ཕུ་ཐུང་ཙམ་ཞིག་ནས། །སྐད་ནི་ལག་ངར་ཙམ་ཞིག་འདོན། །ནག་ན་བློན་པོའི་གྲལ་ནས་ཡར། །མཐོན་པོ་བྱམས་ལ་དམའ་མོ་སྡང་། །རྟག་ཏུ་དགྲ་དང་ཁ་སྨྲས་མོད། །ཞག་པོ་དམག་མིའི་རྡེའུ་ནི། །དཀར་ན་དམག་དཔུང་མཐའ་ནས་རྒྱས། །ནད་ཉུང་ཚེ་ལ་བར་ཆད་མེད། །གདོན་དང་འདྲེ་ཡིས་གནོད་མི་འགྱུར། །ནག་ན་མི་དང་གླེང་གཞི་འོང་། །མི་སྟོང་འཇལ་ལམ་ཡང་ན་ལེན། །རྟག་ཏུ་ཁ་སྨྲས་རྒྱུན་མི་ཆད། །དུས་ཚོད་མཚོན་ཆའི་རྡེའུ་ནི། །དཀར་ན་མི་འཕྲོ་རྡེལ་འཕྲོ་བཟང་། །མི་ནོར་མཐའ་ནས་རྒྱས་པ་འོང་། །ནག་ན་མཚོན་ཆ་བཙའ་ཡིས་ཁྱེར། །དཔལ་མདུང་རྐེད་པ་ཆག་ཅེས་ཏེ། །མི་ནོར་ཀུན་ལ་ངན་པར་བཤད།།
 
+### The special pebble's readings: the end reckoning (pp. 284–286)
+
+Read 2026-10-19 for ROADMAP R2b: the Gser thang reprint of the 1996
+edition (I3CN5028, img. 254–255 and 278–281 = pp. 259–260 and 283–286,
+image = page − 5, 2048 px, three times BDRC's 676 px of I1KG12906), by
+Yigdzin-1 over the whole pages, then every line quoted below checked by
+eye on crops of the scan. No MITRA witness: the type is clean at this
+size.
+
+**The five clans** (p. 259, img. 254, l. 14–15, the first syllable read on
+the crop, the rest by Yigdzin-1): «དེ་ཡང་ཁམས་ལ་ལྔ་ཡིན་ཏེ། །ཀེག་ཤིང་ཇི་མེ་ཀུངས་ས་དང་། །ཤང་ལྕགས་འུ་ཆུ་རུས་ཆེན་ལྔ།»
+The elements are five: keg wood, ji fire, kungs earth, shang iron and 'u
+water, the five great clans. P. 260 then tells the clan from the voice
+(a choked voice keg, breath drawn from the navel kungs, sounds made with
+the teeth ji, the lips pursed shang; 'u water) and rejects counting the
+element from the natal trigram: «འགའ་ཞིག་སྐྱེས་སྤར་ཁམས་བརྩི་བའི། །ལུགས་ལ་བཞེད་པར་ཡོད་ན་ཡང་། །རྣམ་པར་དག་པའི་རིང་ལུགས་མིན།» (some hold to reckoning the
+element by the natal trigram, but it is not the pure tradition).
+
+**The colour lines again** (p. 260, img. 255, read on the scan at 2048
+px): the lines from «དེ་ལ་གནད་ཀྱི་རྡེའུ་ནི» to «སྨེ་བ་དཀར་གསུམ་དཀར་པོར་འཕེལ» stand as transcribed above
+(*The pebbles of the birth*). They do not say how many black pebbles
+the tiger has, nor how a sign with as many white as black (the dog, the
+ox) gives a precious pebble's white or black: open question 160. The
+precious pebbles wait on it.
+
+**The end reckoning** (p. 284, img. 279, last lines, to p. 286, img. 281,
+l. 13): «ཁམས་དང་ལོ་གཉིས་སྦྱར་བ་ཡི། །མཐའ་རྩིས་བཟང་ངན་བཤད་པ་ནི། །སྤྱི་ཡི་རུས་ཆེན་དེ་ནང་དུ།» — the good and bad of the end
+reckoning (མཐའ་རྩིས, mtha' rtsis), which joins the element and the year:
+within the great clan, one born in each of the seven years of p. 261's
+table. Each reading closes on what the clan suffers when it has no one
+of that year («ལོ་འདི་མེད་ན»), the great penalty's, the power's and the
+enemy's called a year that must not be lacking («མེད་དུ་མི་རུང་ལོ»); the
+passage ends «དེ་ནི་སྒོས་རྡེའི་འབྲས་བུ་ཡིན།», "that is the result of the
+special pebble". The lines each reading rests on:
+
+- **Great penalty** (p. 284 to p. 285): «ཆད་ཆེན་ལོ་པ་ཅིག་བྱུང་ན། །མི་ཆེན་བཟང་དྲག་འབྱུང་བ་སྟེ། …། །ཁ་གང་ཟ་ཞིང་རྒྱབ་གང་གི། །གོས་གོན་མིག་གང་གཟུགས་ལ་བལྟ། །ལག་གང་ནོར་ལ་སྤྱད་པ་སྟེ། …། །མི་ལྔའི་དཔོན་དང་ར་ལྔའི་རྫི། …། །ཚེ་རིགས་ཡོན་ཏན་ཅན་གྱི་རྒྱུད། …། །རབ་ཏུ་མི་བྱུང་ཁྱིམ་པ་བྱ།»
+  One of the great-penalty year becomes a great man, good and strong;
+  mouth full of food, back full of clothes, eyes full of sights, hands
+  full of wealth; leader of five men and herder of five pens; of a
+  long-lived and gifted line; let him not take robes but be a
+  householder.
+- **Small penalty** (p. 285): «ཆད་ཆུང་ལོ་པ་ཅིག་བྱུང་ན། །ཕ་ཚན་ནང་ལ་རབས་ཆད་མང་། …། །ཚེ་རིགས་བཟང་སྟེ་དར་གུད་ཆེ། …། །རང་ཉིད་དབུལ་ན་ཕ་མེས་ཕྱུག །རང་ཉིད་ཕྱུག་ན་ཕ་མེས་དབུལ། །དགྲ་ལ་གཉེན་དུ་བཟུང་བས་འཕུང་།»
+  Many lines of the father's kin cut; a good line but great rise and
+  fall; poor when the forefathers were rich and the reverse; taking an
+  enemy as kin brings ruin.
+- **Mother** (p. 285): «བསྐྱེད་པའི་མ་ལོ་བྱུང་བ་ན། །མ་སྲུ་བཟང་པོའི་བུ་ཚ་སྟེ། །བུས་པའི་དབང་ཐང་ཆེ་བ་ཡིན། །གཉེན་ལས་འཕྲོས་པའི་ཁ་མཆུ་ཡིས། །རང་གི་ཡུལ་དང་འབྲལ་དུ་ཉེ། །ཕ་ཚན་ནང་དུ་ཞེ་འཁོན་འོང་།»
+  The begetting mother's year: a child of a good mother's side, of great
+  power; quarrels from kin bring one near to leaving one's land; grudges
+  come in the father's kin.
+- **Own power** (p. 285): «རང་གི་དབང་ལོ་བྱུང་བ་ན། །དབང་གི་དངོས་གྲུབ་བབས་པ་སྟེ། །བློ་གྲོས་མི་ལ་མི་འདྲི་སྟེ། །ཕ་ཚན་ནང་ནས་གཡང་ཟས་ཟ། …། །ཧ་ཅང་སྨྲ་མཁས་དྲགས་ན་འཕུང་།»
+  The attainment of power descends; one asks no one's counsel and eats
+  the luck of the father's kin; too skilled in speech, one is ruined.
+- **Son** (pp. 285–286): «བུ་ལོ་པ་ཅིག་བྱུང་བ་ན། །ཕ་རྗེ་ལ་བརྟེན་བུ་རྗེ་ཆགས། །རྒས་ཁར་ཟས་ནོར་དབང་ཐང་ཆེ། …། །གྲོང་གི་དབུས་སུ་བསྡད་པ་བཟང་། །ཕ་ཚན་སྤྱི་ཡིས་ཁྱོད་ལ་སྐྱོབ།»
+  (the scan reads «ཕ་རྗེ … བུ་རྗེ», Yigdzin-1 «ཕ་སྡེ … བུ་སྡེ»): on the father's
+  support the son rises; food, wealth and power in old age; to stay in
+  the middle of the village is good; the father's kin as a whole
+  protects one.
+- **Friend** (p. 286): «གྲོགས་ལོ་པ་ཅིག་བྱུང་བ་ན། །ཁམས་ཀྱིས་བརྒྱབ་པའི་ལོ་ཡིན་ཏེ། །ཕ་མའི་ནོར་གྱིས་ཕན་མི་ཐོགས། …། །རྟག་ཏུ་ཟས་ནོར་དགྲ་རུ་ལྡང་། །འོད་ཅན་ནོར་ཕྱིར་འདྲེ་འབྲངས་པས། །དར་གུད་འཕོ་སྐྱས་ཤིན་ཏུ་མང་།»
+  A year the element strikes; the parents' wealth does not help; food and
+  wealth always rise as enemies; rise and fall and moves are very many.
+- **Enemy** (p. 286): «དགྲ་ལོ་པ་ཅིག་བྱུང་བ་ན། །དགྲ་རྣམས་བསད་ཀྱིས་མི་ལང་པ། །གྲམ་པ་ནང་གི་རྡོ་ཆུང་འདྲ། །ཕ་བརྒྱ་བསད་ཀྱང་བུ་བརྒྱ་ལྡང་། །ལེན་པ་མེད་ཀྱང་མི་རྣམས་སྡང་། …། །འདུན་པ་བག་ཙམ་བསྐྱུངས་ན་ལེགས།»
+  (the scan «བསད», Yigdzin-1 «བསང»): enemies that killing does not end,
+  like pebbles in a stream bed; kill a hundred fathers and a hundred sons
+  rise; people hate one though nothing is taken; holding one's will back
+  a little is good.
+
+Left in the topic file, not in the readings: each year's images that the
+lines do not explain («ལྟེ་འཕྲོ», «ཡོ་བྱད་སྦུ་ཁའི་ཐིལ་པ», «ཉ་ཆུར་ཤི་ཡང་ཁ་རླངས»), the
+graves and the "if this year is lacking" lines, which are the clan's and
+not the one born's. Built 2026-10-19 (ROADMAP R2b, SPEC §5.9.2).
+
 ### Readings by the natal trigram
 
 **By the paired-year element at the birth** (pp. 271–275, img. 281–285):

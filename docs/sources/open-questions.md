@@ -1645,3 +1645,13 @@ the text, not about the app.
      [yogas.md](yogas.md), *Long readings, in brief*)
     *Narrowed 2026-10-18 night ([yogas.md](yogas.md)): the Zhol print carves the lines as the 1996 print, «དགྲ་ལས» and the endings «ངན», «བཟང» (WBZ img. 1100); WB's «དགྲ་ལས» is elsewhere "from enemies". The meaning of «དགྲ་ལས་མིང་འདོགས» is not settled.*
     *Answered 2026-10-18 late night ([yogas.md](yogas.md)): NM sums sel ba «ལམ་འཕྲང་སེལ་བ་…བཟང་གཞན་ངན»: the first three lines go badly, the next two well, as the grammar reads; «དགྲ་ལས་མིང་འདོགས» is a bad name given by enemies (*ming 'dogs* «མིང་ངན», Tshig mdzod chen mo).*
+
+160. **The birth's key pebbles by sign (WB vol. 1, p. 260).** «སྟག་ནས་སྦྲུལ་བར་ནག་པོར་འཕེལ། །རྟ་ནས་བྱ་བར་དཀར་པོར་འཕེལ། །ཁྱི་ལ་དཀར་གཅིག་ནག་པོ་གཅིག …» (read on the
+     Gser thang reprint, I3CN5028 img. 255, 2048 px, 2026-10-19): black
+     grows from the tiger to the snake and white from the horse to the
+     bird, but how many does the tiger, or the horse, start with, one or
+     none? And when a sign has as many white as black (the dog one and
+     one, the ox two and two), is the precious pebble of p. 262 white,
+     black, or neither? The four precious pebbles wait on it (ROADMAP R2;
+     [year-of-life.md](year-of-life.md), *The special pebble's readings*).
+

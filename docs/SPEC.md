@@ -537,8 +537,17 @@ on the scan that follow from the years alone. `BirthReckoning`
   Without the child's gender the readings for a son or a daughter are
   left out, without the father's year those that ask for his trigram.
 
-**Not calculated** yet: the pebbles of the birth (the four precious, the
-special pebble of the clan, which is asked, the indispensable two, the
+- **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
+  which is asked (§10.5): the birth year's animal in p. 261's table for
+  the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
+  great penalty the element's tomb animal, the small its seventh (water's
+  as earth's), then the power, mother, son, friend and enemy years by the
+  life force against the clan's element; each with the end reckoning's
+  reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
+  needs no relative: without the mother's year the clan is still read.
+
+**Not calculated** yet: the pebbles of the birth (the four precious,
+whose colour rule is open question 160, the indispensable two, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
 read on the scan; the readings of the sixty years and of the mewa of the
@@ -2724,9 +2733,12 @@ canvas "Zanshin Calendar — basic design".
   no one saved the row goes straight to adding. A birth date saved before
   there were people reads as one person without a name, listed by the
   date, chosen. Stored as the `people` preference, one person per line
-  (epoch day, tab, name, and with a gender a tab and `m` or `f`; a line
-  saved before has none and reads as not set), and `person`, the index
-  chosen or -1.
+  (epoch day, tab, name, and with a gender a tab and `m` or `f`, and with
+  a clan a tab, the gender or nothing, a tab and the clan's name; a line
+  saved before has neither and reads as not set), and `person`, the index
+  chosen or -1. The clan (ROADMAP R2b) is chosen by its element among
+  "Not set" and the five, its note naming the five great clans; only the
+  birth reckoning's special pebble reads it.
 - **Relatives** (ROADMAP P1, built 2026-10-15): each saved person keeps
   their own tree of relatives, which does not count toward the ten (the
   owner, 2026-10-15: each of the ten is a user of the app with their own
@@ -3222,6 +3234,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
   name; the person's birth year and its life force; under "The natal
   trigram" its row (as in the year of age) and the child it makes them;
+  under "The clan" the year of the special pebble ("The clan's friend
+  year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note
+  asking for the clan, shown also when the mother's year is missing;
   under "The parents' trigrams" each reading that holds, or a line that
   none does, with notes asking for the gender and the father's birth year
   where they are missing; a closing note on what of the reckoning is
