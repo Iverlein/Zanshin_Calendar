@@ -546,6 +546,14 @@ on the scan that follow from the years alone. `BirthReckoning`
   in the family, a forefather's body eaten by birds and dogs), its
   unidentified words and the deaths by one's own blade are not shown
   (year-of-life.md).
+- **The body** (pp. 271–275): the five bodies in brief, by the element
+  of the birth year's body (`Forces`), the iron and water bodies with
+  their remedies; then the pair of years the birth year falls in among
+  the thirty paired-year elements (*kha srog*: the wood mouse with the
+  wood ox, and so on), with the part of the turtle its body is cut from,
+  the forefathers' fault, the illnesses and the harm now, and the line on
+  the mother's trigram at the birth where it names one trigram. The
+  thirty's bodies are the years' body elements (`BirthTest`).
 - **The year's own destiny** (pp. 261, 275–280), one of the two pebbles
   that cannot be lacking: the birth year's destiny, its element, against
   its life force, by its animal: one element *kha yan*, destiny begetting
@@ -3270,7 +3278,8 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   name; the person's birth year and its life force; under "The natal
   trigram" its row (as in the year of age) and the child it makes them;
   under "The birth year" first "The year animal's nature" (its animal
-  under it) and "The sixty years' reading" (the year's sign), then the
+  under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
+  element) and "Its pair among the thirty" (the pair's two years), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
