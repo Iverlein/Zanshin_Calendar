@@ -145,4 +145,17 @@ class BirthTest {
         assertEquals(listOf(Animal.MOUSE, Animal.RABBIT, Animal.HORSE, Animal.BIRD), places.getValue(YearPlace.MIDDLE))
         assertEquals(listOf(Animal.OX, Animal.DRAGON, Animal.SHEEP, Animal.DOG), places.getValue(YearPlace.LAST))
     }
+
+    /** Pp. 281–282: a pair is read where the cutter's element overcomes the other's; the fire dragon's destiny cuts its luck. */
+    @Test
+    fun `the cutting and tearing among one's own aspects`() {
+        // Fire dragon: life force earth, body iron? destiny fire, luck wood.
+        val f = Forces.of(Element.FIRE, Animal.DRAGON)
+        val cuts = BirthReckoning.cuts(Sign(Element.FIRE, Animal.DRAGON))
+        for ((a, b) in cuts) assertEquals(f[b], f[a].overcomes, "$a $b")
+        for ((a, b) in BirthReckoning.CUTS - cuts.toSet()) assert(f[a].overcomes != f[b]) { "$a $b" }
+        // Over the sixty years every pair WB reads falls somewhere.
+        val seen = (0 until 60).flatMap { BirthReckoning.cuts(YearOfLife.signOf(it)) }.toSet()
+        assertEquals(BirthReckoning.CUTS.toSet(), seen)
+    }
 }

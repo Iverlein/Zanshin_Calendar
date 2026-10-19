@@ -146,6 +146,24 @@ object BirthReckoning {
         }
     }
 
+    /**
+     * The cutting and tearing (*gcod 'dral*, pp. 281–282) among the birth year [birth]'s own four aspects: each pair
+     * whose first aspect's element overcomes the second's, in WB's order, as long as WB reads it (it gives no reading
+     * of the luck cutting the life force or destiny).
+     */
+    fun cuts(birth: Sign): List<Pair<Force, Force>> {
+        val f = Forces.of(birth.element, birth.animal)
+        return CUTS.filter { (a, b) -> f[a].overcomes == f[b] }
+    }
+
+    /** The pairs p. 281–282 reads, cutter first, in its order. */
+    val CUTS: List<Pair<Force, Force>> = listOf(
+        Force.VITALITY to Force.BODY, Force.VITALITY to Force.DESTINY, Force.VITALITY to Force.LUCK,
+        Force.BODY to Force.VITALITY, Force.BODY to Force.DESTINY, Force.BODY to Force.LUCK,
+        Force.DESTINY to Force.BODY, Force.DESTINY to Force.VITALITY, Force.DESTINY to Force.LUCK,
+        Force.LUCK to Force.BODY,
+    )
+
     /** Whether a year of [animal] is a first, middle or last year (p. 283). */
     fun yearPlace(animal: Animal): YearPlace = when (animal) {
         Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE -> YearPlace.FIRST
