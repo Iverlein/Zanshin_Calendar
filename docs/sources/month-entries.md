@@ -729,7 +729,9 @@ going out naked at dawn in that season. So WB's line: at the winter
 solstice the earth lords move house, and in Tibet the nines too are
 counted from it. KD's verse of the month heads has the same,
 «དགུན་གྱི་ཉི་མ་ལྡོག་པ་དང་། །ས་བདག་སྐུས་བྱེད་དགུ་ཡང་འདྲེན།» (MW28845, snippet). Not the nine
-gods nor the nine black ones.
+gods nor the nine black ones. The Men-Tsee-Khang almanac of 2013 writes the same at the solstice,
+«བོད་ན་དགུ་དང་པོ་འདྲེན། ས་བདག་སྐྱས་བྱེད།», "in Tibet the first nine is drawn; the earth
+lords move house" (MW1PD159386, snippet).
 
 *phyur* (p. 176) stays open: *'phyur* is to rise, swell or heap up
 (Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho adds «འབུར་འབུར», raised),

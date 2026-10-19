@@ -2226,3 +2226,28 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   month's hal dog on the past month's river (p. 213): read alike, the
   month's «ཟླ་ཀླུང» would be the month's wind-horse (ཀླུང་རྟ), the animal the
   month animal's triad takes for it. No text read says so.
+
+## When the year's earth lords move, 2026-10-19 (open question 34)
+
+- **At the winter solstice, in the almanacs.** WB's model almanac puts
+  it at the head of the 11th month, «དགུན་ཉི་ལྡོག་པ… ས་བདག་སྐྱས་བྱེད་བོད་ན་དགུ་ཡང་འདྲེན།»
+  (vol. 1, p. 154; [month-entries.md](month-entries.md)), and the almanacs
+  after it say the same (BDRC snippets): the Men-Tsee-Khang almanac for
+  2013 (བོད་ལྗོངས་སྨན་རྩིས་ཁང་གི་ལོ་ཐོ, MW1PD159386, Chengdu 2012), «ཚེས་20 …
+  དགུན་ཉི་ལྡོག །བོད་ན་དགུ་དང་པོ་འདྲེན། ས་བདག་སྐྱས་བྱེད།»; Tshul khrims rgyal mtshan's
+  *Nyer mkho'i rtsis kyi ming tshig phyogs bsgrigs* (MW1KG10375_315E9E),
+  «ཚེས་16 དགུན་ཉི་ལྡོག །དགུ་འདྲེན། ས་བདག་སྐྱས་སྤོ»; the *Sgo bzhi mdzod lnga'i yang
+  bcud* (30), «དགུན་ཉི་འདིར་ལྡོག …ས་བདག་སྐྱས་བྱེད། བོད་ན་དགུ་འདྲེན།»; and Yum pa's
+  history of reckoning in KD, «…དགུན་ཉི་ལྡོག་པར་བྱེད་ས་བདག་སྐྱས་སོགས་རིམ་བཞིན་བྱེད་པར་འགྱུར།».
+- **Tied to the head of the reckoning's year, not to Losar.** Tshul
+  khrims rgyal mtshan, *Skar rtsis skor thor bu* (MW1KG10375_28C2FF,
+  search-only snippet): «ལོ་མགོ་ཟླ་བ་11་ནས་འཛིན་ན་བཅུ་པའི་ཟླ་སྨད་ནས་ས་བདག་སྐྱས་སྤོ་བྱེད། དེ་བཞིན་བཅུ་གཉིས་པར་འཛིན་ན་བཅུ…»,
+  "if the head of the year is taken from the 11th month, the earth lords
+  move house from the second half of the 10th; likewise if from the
+  12th, [from the second half of the] 11th…": the move goes with the
+  year's head as the Chinese reckoning sets it, which ch. 31's count of
+  the entry days from the solstice («ཉི་ལྡོག») matches; and Akya Blo bzang
+  bstan pa'i rgyal mtshan's work on taking the year's head discusses the
+  same (MW30533_379269, snippet: «…བཅུ་གཉིས་པ་སྟག་ཟླར་བཟུང་བ་འདི་ས་བདག་སྐྱས་བྱེད་པ…»).
+  So WB's year lords change place at the solstice, with the year of the
+  Chinese reckoning, not at the Tibetan new year.

@@ -540,13 +540,19 @@ the text, not about the app.
     dog's head and tail (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
 
-34. **WB vol. 2, pp. 177–192: do the year's earth lords change place at
+34. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 177–192: do the year's earth lords change place at
     the winter solstice?** Each entry day is counted from «ཉི་ལྡོག», the
     turning of the sun, and p. 192 names the winter solstice for the sme
     ba's gods (read on the scan 2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md)). Do all the
     year's earth lords move then, rather than at Losar, the new year
     (ལོ་གསར, lo gsar)?
+    *Answered as far as the sources go, 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *When the year's earth lords move*): yes, at the solstice. The almanacs
+    write «ས་བདག་སྐྱས་བྱེད» at the winter solstice (WB's model almanac; the
+    Men-Tsee-Khang almanac of 2013; Tshul khrims rgyal mtshan), and Tshul
+    khrims rgyal mtshan ties the move to the head of the reckoning's year:
+    «ལོ་མགོ་ཟླ་བ་11་ནས་འཛིན་ན་བཅུ་པའི་ཟླ་སྨད་ནས་ས་བདག་སྐྱས་སྤོ་བྱེད།», not to the Tibetan new year.*
 
 35. **WB vol. 2, p. 186 (img. 194): «ཉི་མའི་གླང་དང་ལྷན་ཅིག».** Langging the red,
     of war (no. 19), enters "with the sun's ox": is that the solstice, the
