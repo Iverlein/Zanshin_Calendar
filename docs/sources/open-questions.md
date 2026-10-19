@@ -1318,6 +1318,14 @@ the text, not about the app.
     2026-10-19*): «ལྕགས་པར» is metal type, «ལྕགས་ལས་བཟོས་པའི་ཡིག་འབྲུའི་འཕྲུལ་པར།» (Tshig mdzod
     chen mo), against «ཤིང་པར», woodblock: a typeset edition, not the Chakpori
     blocks. Which one is still open.*
+    *Searched further 2026-10-19:* BDRC's full-text search for three lines KL
+    cites (the Root Tantra's «རླུང་ལ་དྲོ་སར་ཡིད་འོང་གྲོགས་བསྟེན», KL's p. 12; «ཆགས་པའི་རྩ་ནི་ལྟེ་བ་ལས་གསུམ་གྱེས», p. 22;
+    «ཁྲུས་ནི་རོ་ཙ་དྲོད་སྟོབས», p. 78) and the etexts of the four editions holding all
+    three (I4839, I1PD464, I3CN8196, I4PD4022): their pages step +12/+26,
+    +15/+28, +188/+30 and +92/+23 between the lines, where KL's step +10/+56,
+    a test free of any offset between page and image. No edition fits, and
+    none puts ch. 13 after ch. 14 as KL's 78 and 50 do: KL's page numbers are
+    not one book's.*
 
 87. ~~KL p. 199: «ཉིན་དགོང་མཚན་དགོང».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): both prints read on the scan have «ཉིན་གུང་མཚན་གུང»; KL p. 199 slips.* The question as it stood: Bile rises so in KL, where the Four
     Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
