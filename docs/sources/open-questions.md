@@ -448,8 +448,10 @@ the text, not about the app.
     oral tradition and dreams, and from the temperament which of the five
     great clans it is. Lha mo tshul khrims's *Dpag bsam ljon shing*
     (MW1KG21818, etext p. 35) calls the same step, after the four precious
-    pebbles, «རུས་ཁམས་ངོས་འཛིན་ཕྲ་རགས་གཉིས། །རྒྱས་པར་བཻ་དཀར་གཞུང་ལས་ཤེས། །ད་ལྟའི་ཕྱག་རྒྱུན་རགས་པ་ནི། །རང་སྐྱེས་སྤར་ཁའི་ཁམས་བཞིན།»
-    (the *Bzo rtsis zlos gar* alike), and «དུས་ཁམས» occurs nowhere else in
+    pebbles, «རུས་ཁམས་ངོས་འཛིན་ཕྲ་རགས་གཉིས། །རྒྱས་པར་བཻ་དཀར་གཞུང་ལས་ཤེས། །ད་ལྟའི་ཕྱག་རྒྱུན་རགས་པ་ནི། །རང་སྐྱེས་སམ་རང་ཕྱོགས་སྤར་ཁམས་བཞིན།»
+    (the clan's element, finely or roughly: in full from the *Beryl*; the
+    rough way in use now, by the element of the natal or one's own
+    direction's trigram; the *Bzo rtsis zlos gar* alike, BDRC snippet), and «དུས་ཁམས» occurs nowhere else in
     BDRC's full text. So «དུས» is a slip, Mipham's or his scribe's, for «རུས».*
 
 24. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361): what is the sixth point of the
