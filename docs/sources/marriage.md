@@ -110,7 +110,9 @@ animals stand at the second to the thirteenth station of each:
 | pig | Svātī, Friday, twelve (བཅུ་གཉིས) | good | «དབྱུག» (the place of Aśvinī), Friday, six wheels (འཁོར་དྲུག) | middling |
 | — | Viśākhā, Saturday, joined corners (ཟུར་འབྲེལ) | bad | Bharaṇī, Saturday, wheel (འཁོར་ལོ) | bad |
 
-The count is given twice. First: the groom counts from his own year on the
+The count is given twice (Lha mo tshul khrims, *Dpag bsam ljon shing*, etext
+p. 47, keeps both and has the first count the years completed at the
+marriage, «ལེན་དུས་ཀྱི་ལོ་གྲངས་དུ་ལོན», from one's own year's station; open question 55). First: the groom counts from his own year on the
 single cycle clockwise (ཆོས་སྐོར, chos skor), the bride, when she goes, from her
 own year on the hidden cycle counterclockwise (བོན་སྐོར, bon skor), and where
 the count stops shows good or bad. Then, for the mansions: the husband from

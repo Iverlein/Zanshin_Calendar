@@ -847,6 +847,13 @@ the text, not about the app.
     same two statements, the woman «གྲེ་ཐོག་ནས། །ཡར་དེད», so the mismatch with
     her table's Anurādhā is the work's, not a 1996 misprint. Which count
     leads is still not said.*
+    *Narrowed further 2026-10-19 ([marriage.md](marriage.md)): Lha mo
+    tshul khrims's *Dpag bsam ljon shing* (MW1KG21818, etext p. 47, the
+    marriage reckoning's ways, «ས་བཅད་གཉིས་པ་ལམ་རྩིས») keeps both counts and
+    glosses the first: «སྐྱེས་པ་རྐྱང་བའི་གབ་ཙེ་ཡི། །རང་ལོའི་སྟེང་ནས་ལེན་དུས་ཀྱི། །ལོ་གྲངས་དུ་ལོན་གཡས་བསྐོར་བགྲངས།», from one's own year's
+    station the years completed at the time of the marriage, clockwise;
+    then «ཁྱོ་ནི་སྐར་མ་སྨིན་དྲུག་ནས། །དུ་ལོན་ཐུར་བགྲང་བུད་མེད་ནི། །གྱེ་ནས་གྱེན་བགྲང་འབྲས་བུ་སྟོན།». So both count the age, and
+    differ only in where they start; he gives no rule between them either.*
 
 56. **Answered 2026-10-19. WB vol. 1, p. 372 (img. 382): the bride's months,
     «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ».** Is the man's count forward and the woman's
