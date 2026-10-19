@@ -628,6 +628,7 @@ The box on the scan, KP BDRC img. 52 (O10f):
   (p. 418) read with «དགུ་གསུམ» as the three nines, 9, 19 and 29, as
   `WhiteBerylWorks` has them. The 19 and the 29 differ only in their
   first digit; KP2's folio of this box was not found.
+- **The good dates read in the Bhutan print 2026-10-19** (I1KG11905, img. 398): «ཚེས་༤ ༨ ༡༨ ༡༩ / ༩ ༢༩ ༢༢ ༢༥», where KP and KP2 are worn: the White Beryl's work 46 date for date (p. 418). Built so.
 
 ### 48. Fire offerings — སྦྱིན་སྲེག་བྱེད་པ་ལ་བཟང་བ
 
