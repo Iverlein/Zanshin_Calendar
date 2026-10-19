@@ -745,6 +745,24 @@ Mipham's notes (vol. 2, p. 475) add that the four precious pebbles have
 no partner to fight and are laid «བཤད་པ་བཟང་ན་དཀར་པོ། ངན་ན་ནག་པོ», white where the reading is
 good and black where it is bad (open question 160).
 
+**How the hundred pebbles are coloured, in Mipham's notes** (WB vol. 2,
+p. 474, img. 482; the 1996 etext I1KG12907 p. 483, clean, the Gser thang
+etext garbled; 2026-10-19, not read on the scan):
+
+> འདིར་འཐབ་པའི་སྐབས་སུ་མ་གྲོགས་ལ་དཀར་པོ་རེ་རེ། བུ་དགྲ་ལ་ནག་པོ་རེ་རེ། ནང་ཕྲད་ལ་མེ་ལྕགས་ཤིང་གསུམ་ནང་ཕྲད་ནག་པོ་རེ་རེ། ས་ཆུ་ནང་ཕྲད་དཀར་པོ་བོར་བར་བྱའོ། །དར་རྒུད་ཞག་མལ་རྡེའུ་བཞི་ནི། སྲོག་ལུས་དབང་ཀླུང་བཞིའི་དར་གུད་རང་སྐྱེས་ཀྱི་ལོ་ཟླ་ཞག་དུས་བཞི་ལ་གཏུགས་ནས་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག་པོའོ།།
+
+In the fights of the hundred pebbles, one white pebble where the element
+met is the mother or the friend, one black where it is the son or the
+enemy; where the same element meets itself, black for fire, iron and
+wood, white for earth and water. The four pebbles of rise and decline
+set the life force, body, power and luck's rise and decline against the
+birth's year, month, day and hour: white for the six good stages, black
+for the six bad. Before this the notes order the hundred: the five of
+the life force (its own, mother, son, friend, enemy), then the twenty of
+the four forces against the father's year (for a daughter the mother's),
+then the mother's trigram and mewa and the birth month, each twenty, the
+decisive pebbles laid under each row.
+
 **The end reckoning** (p. 284, img. 279, last lines, to p. 286, img. 281,
 l. 13): «ཁམས་དང་ལོ་གཉིས་སྦྱར་བ་ཡི། །མཐའ་རྩིས་བཟང་ངན་བཤད་པ་ནི། །སྤྱི་ཡི་རུས་ཆེན་དེ་ནང་དུ།» — the good and bad of the end
 reckoning (མཐའ་རྩིས, mtha' rtsis), which joins the element and the year:
