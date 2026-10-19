@@ -410,6 +410,7 @@ The box on the scan, KP BDRC img. 40 (O10f):
 - **Bad:** smin drug, lag, gre, mchu, snrubs, bra nye; days Ox, Sheep
 - **Neither side:** the Moon and Venus (in brackets among the good); Mercury (in brackets among the good, and bad)
 - **Not calculated:** rising signs; the nectar periods (good: 'without bla nag and the like'); nyi nag, Viṣṭi, 'phung byed, nag mo and the like (bad)
+- **The bad weekday in the Bhutan print, 2026-10-19** (I1KG11905, img. 386): «གཟའ་མིག», Tuesday, where KP carves «ལྷག», Wednesday (img. 40, at 4×, as read). The White Beryl's work 19 has Tuesday bad, which the app joins; the reset type follows WB here, or corrected the blocks.
 
 ### 27. Making springs, wells and canals — ཆུ་མིག་ཁྲོན་པ་ཡུར་བ་བཟོ་བ་ལ་བཟང་བ
 
