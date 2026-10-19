@@ -1013,6 +1013,11 @@
     <string name="match_nisha_good">Ni sha (ཎི་ཤ, Ni sha) · not reversed</string>
     <string name="match_nisha_reversed">Ni sha (ཎི་ཤ, Ni sha) · reversed</string>
     <string name="match_note">The match has fifteen points; those that follow from the two birth years alone are read here.</string>
+    <string name="match_section_years">The years</string>
+    <string name="match_same_kind_title">Both of one kind · %1$s</string>
+    <string name="match_man_year">The man\'s year</string>
+    <string name="match_woman_year">The woman\'s year</string>
+    <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

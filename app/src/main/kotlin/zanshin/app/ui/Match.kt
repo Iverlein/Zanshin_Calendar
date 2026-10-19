@@ -17,10 +17,12 @@ import zanshin.app.MatchReading
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
+import zanshin.core.tibetan.YearOfLife
 
 /**
  * The marriage match (SPEC §5.9.3, ROADMAP R3): the single match of the four aspects, the wife of karma where all four
@@ -37,6 +39,36 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
             labels.string(R.string.match_subtitle, signName(m.man, labels), signName(m.woman, labels)),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
+        Section(stringResource(R.string.match_section_years))
+        MatchReckoning.sameKind(m.man, m.woman)?.let { k ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_same_kind_title, k.english),
+                    english = "",
+                    tone = Tone.BAD,
+                    reading = Texts.matchSameKind(k),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        val bad = MatchReckoning.badYears(m.man, YearOfLife.yearSmeBa(m.manYear)).filter { it != BadYear.BLACK_FANGS }.map { R.string.match_man_year to (it to m.man) } +
+            MatchReckoning.badYears(m.woman, YearOfLife.yearSmeBa(m.womanYear)).map { R.string.match_woman_year to (it to m.woman) }
+        bad.forEach { (whose, pair) ->
+            val (y, sign) = pair
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.birth_share_title, stringResource(whose), y.english),
+                    english = "",
+                    tone = Tone.BAD,
+                    reading = Texts.badYear(y),
+                    subtitle = signName(sign, labels),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null) Text(stringResource(R.string.match_years_none), style = muted)
         Section(stringResource(R.string.match_section_single))
         MatchReckoning.aspects(man, woman).forEach { (force, meeting) ->
             AnnotationRow(

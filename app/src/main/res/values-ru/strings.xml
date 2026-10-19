@@ -868,6 +868,11 @@
     <string name="match_nisha_good">Ниша (ཎི་ཤ, Ni sha) · не перевёрнут</string>
     <string name="match_nisha_reversed">Ниша (ཎི་ཤ, Ni sha) · перевёрнут</string>
     <string name="match_note">Сопоставление насчитывает пятнадцать пунктов; здесь читаются те, что следуют из одних лишь годов рождения.</string>
+    <string name="match_section_years">Годы</string>
+    <string name="match_same_kind_title">Оба одного вида · %1$s</string>
+    <string name="match_man_year">Год мужчины</string>
+    <string name="match_woman_year">Год женщины</string>
+    <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
