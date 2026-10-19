@@ -161,7 +161,7 @@ class CatalogTest {
         BirthChild.entries.forEach { c -> Element.entries.forEach { out += Texts.birthChild(c, it) } }
         BirthOmen.entries.forEach { out += Texts.birthOmen(it) }
         ClanYear.entries.forEach { out += Texts.clanYear(it) }
-        PowerYear.entries.forEach { out += Texts.powerYear(it) }
+        PowerYear.entries.forEach { y -> out += Texts.powerYear(y); Element.entries.forEach { out += Texts.powerYearOf(y, it) } }
         Care.entries.forEach { out += Texts.yearCare(it) }
         return out.toList()
     }
@@ -487,7 +487,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

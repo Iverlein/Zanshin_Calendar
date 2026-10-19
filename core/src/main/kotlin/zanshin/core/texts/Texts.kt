@@ -1960,6 +1960,10 @@ object Texts {
     fun powerYear(y: PowerYear): Reading =
         Reading(key = "reading.PowerYear", arg = "reading.PowerYear.${y.name}", source = Sources.WHITE_BERYL_POWER_YEAR)
 
+    /** Whose side of the family the kind [y] of a year of destiny [element] falls on (WB vol. 1, ch. 22, pp. 275–280). */
+    fun powerYearOf(y: PowerYear, element: Element): Reading =
+        Reading(key = "reading.PowerYearOf", arg = "reading.PowerYearOf.${y.name}.${element.name}", source = Sources.WHITE_BERYL_POWER_YEAR)
+
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =
         Reading(key = "reading.ClanYear", arg = "reading.ClanYear.${y.name}", source = Sources.WHITE_BERYL_SPECIAL_PEBBLE)
