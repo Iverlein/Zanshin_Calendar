@@ -502,7 +502,7 @@ the text, not about the app.
     spells it. P. 200 seats the lord «གང་ཤར་ཟླ་བའི་ཀླུང་རྟའི་སྟེང», on the luck of the
     month that has risen, and p. 213 the month's hal dog on the past
     month's. Vol. 1, p. 254 gives the luck of each triad, «སྟག་རྟ་ཁྱི་གསུམ་ཀླུང་སྤྲེལ་ལྕགས། །ཕག་ལུག་ཡོས་གསུམ་ཀླུང་སྦྲུལ་མེ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཀླུང་སྟག་ཤིང་། །བྱ་གླང་སྦྲུལ་གསུམ་ཀླུང་ཕག་ཆུ»
-    (core's `klungRta`), and Dpal bsdus (printed pp. 21 and 38, etext),
+    (core's `klungRta`), and Dpal bsdus (printed pp. 4 and 21, etext pp. 26 and 43),
     Lha mo tshul khrims (etext p. 15) and Thub bstan chos kyi glang po
     (W21825 vol. 6, etext p. 6) give the same four. So a tiger, horse or
     dog month puts it on the monkey, a mouse, dragon or monkey month on
