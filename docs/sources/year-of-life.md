@@ -1552,3 +1552,23 @@ year is its reaching that year, next to its reaching the seven-corner.
 - The *Moonbeams*' lines quoted from KD's etext (pp. 493, 496, 507): the
   passages in Dharmaśrī's open print (I2533) not located or written out.
 - The outlines of ch. 22 (etext and Yigdzin-1) stay outlines.
+
+## The leap at each ten in the manuals, 2026-10-19 (open questions 73, 139)
+
+- **The manuals write WB's lines and add the leap.** WB (vol. 1, p. 257):
+  «གང་ཟག་སྐྱེས་པ་ལི་ནས་ཁོན། །བུད་མེད་ཁམ་ནས་ཁེན་ཕྱོགས་བསྐོར། །ལོ་རེ་སྤར་ཁ་རེ་སྦྱར་བརྩི།». The
+  common manuals have the same three lines and one more (BDRC
+  snippets): *Dkar rtsis dang nag rtsis kyi gzhung*, «སྐྱེས་པ་ལི་ནས་ཁོན་ཕྱོགས་བསྐོར། །བུད་མེད་ཁམ་ནས་ཁེན་ཕྱོགས་བསྐོར། །སྤར་ཁ་རེ་ལ་ལོ་གྲངས་རེ། །བཅུ་ཁ་མ་ལོང་རེ་རེ་བརྩི། །བཅུ་ཁ་ལོངས་ནས་ཟུར་དུ་མཆོངས།»
+  (the etext «ལ་ནས་ཁེན»), "one year to a trigram; before ten count one by
+  one; at ten, leap to the corner"; the same in *Rtsis kyi lag len nyer
+  mkho'i bum bzang* and in Lha mo tshul khrims (MW1KG21818, etext p. 22:
+  «…བཅུ་ཁ་མ་ལོང་ན། །རེ་རེ་ནས་བགྲང་བཅུ་ལོང་ཚེ། །ཐམ་པ་རྣམས་ནི་ཟུར་བཞིར་བརྩི།», the round tens on the
+  four corners). The mewa's circuit has the same leap in other manuals:
+  Dpal bsdus (etext VEIE0OPI6328F058_I4767, p. 28), «མགྱོགས་འདོད་བཅུ་ཚན་དག་ཏུ་མཆོངས། །བཅུ་ཁ་མ་ལོང་རྐྱང་པར་དེད།»,
+  "who wants speed leaps by tens; before ten, drive it singly", and Co
+  ne Grags pa bshad sgrub (VE1PD90129_017, snippet), «སྨེ་བ་རེ་ལ་བཅུ་ཚན་རེ། །བཅུ་ཁ་མ་ལོང་རེ་རེ་བརྩི།».
+  So the leap of the *Moonbeams* is the manuals' rule, written beside
+  WB's own words, which stop at "one year to a trigram". WB's list of
+  errors (the li-kham circuit's outer and inner rounds, the male year
+  from zin and the female from dwa, the secret outer round's year
+  trigram, «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ») does not name it.

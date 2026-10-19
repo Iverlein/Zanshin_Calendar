@@ -903,6 +903,10 @@ the text, not about the app.
     the *Moonbeams*' leap to the corner at each ten (DZ f. 8b–9a)? The
     natal trigram differs once the mother has passed ten (2026-10-12,
     RD13, [year-of-life.md](year-of-life.md)).
+    *Narrowed 2026-10-19 ([year-of-life.md](year-of-life.md), *The leap at
+    each ten in the manuals*): the leap is the common manuals' rule, added
+    to WB's own words "one year to a trigram", which WB does not name among
+    the errors it rejects (question 139). WB's text gives one a year.*
 
 74. **The father's luck pebble.** WB p. 261 has "whatever the father's
     luck is", the notes p. 474 the father's year, and the *Moonbeams* (KD
@@ -1605,6 +1609,12 @@ the text, not about the app.
      corner at each ten (p. 493) among the circuits WB rejects, or is WB
      silent on it? (2026-10-13, O10,
      [year-of-life.md](year-of-life.md), "Searched and not found")
+     *Narrowed 2026-10-19 ([year-of-life.md](year-of-life.md), *The leap at
+     each ten in the manuals*): WB does not name it. The leap is the common
+     manuals' rule (*Dkar rtsis dang nag rtsis kyi gzhung*, the *Bum bzang*,
+     Lha mo tshul khrims), written as WB's own three lines with
+     «བཅུ་ཁ་ལོངས་ནས་ཟུར་དུ་མཆོངས» added; for the mewa, Dpal bsdus calls the same leap
+     the way of "who wants speed".*
 
 140. **Answered as far as the sources go, 2026-10-18. KP's colophon and its print.** KP's colophon (img. 119) says the blocks
      were recarved at Lhasa by the printers' community after the earlier
