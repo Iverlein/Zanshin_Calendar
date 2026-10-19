@@ -454,7 +454,11 @@ p. 455 (by its place, no. 3, the mantra-holders):
 «[…]དེ་བཟང་། །ཕ་མེས་རྒྱལ་པོ་འདྲ་བ་ལ། །བུ་ཚ་བློན་པོ་འདྲ་བ་འོང་། །ནག་ན་[…]ད་ན་ཤི་[…]ཉེན་ཆེ། །དར་སྲི་གནོན་ཅིང་སྲི་ཡི་ནི། །བསྲུང་བ་ལ་སོགས་གདགས་པར་བྱ།»:
 white, the forefathers like kings, the descendants like ministers; black,
 a great danger of death […]; **press down the *dar sri* and fasten
-protections against the sri**.
+protections against the sri**. The gaps, on the Gser thang reprint (I3CN5028,
+img. 451, Yigdzin-1, 2026-10-19): «ནག་ན་བར་ཆོད་འབྱུང་བ་སྟེ། །སྐྱེས་དར་ཡིན་ན་ཤི་ཉེན་ཆེ།», black, obstacles
+come, and for a man in his prime (*skyes dar*) the danger of death is
+great; the eighth check follows, and then «བཞི་པ་གཡུ་འབྲུག་ཁ་ནས», the fourth
+point, so the check is the third point's, as placed.
 
 **p. 458 (img. 468)**, no. 7, the red copper ogress, for wives: its
 seventh check «བདུན་པ་ཆུང་སྲི་ལངས་མ་ལངས།», has the *chung sri* risen or
@@ -872,8 +876,9 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
   the earth door («ས་སྒོ་ལ་བབས»): both *settled 2026-10-19* on the Gser thang
   reprint (I3CN5028, img. 377 l. 20, img. 382 l. 15, by eye). The line
   «དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ» is still not understood.
-- Doubt: vol. 1, p. 456: the starting point the *dar sri* check belongs
-  to (no. 3 by its place on the page); the etext lost the heading.
+- Vol. 1, p. 456: the *dar sri* check is the third starting point's, the
+  fourth following it on the Gser thang reprint (img. 451); *settled
+  2026-10-19*.
 - Doubt: vol. 2, pp. 118 and 121: the day «སྟོང» and the mansions «སྒྲོན»
   and «སྒྲུབས» not identified.
 
