@@ -63,6 +63,7 @@ import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
+import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
@@ -181,6 +182,8 @@ class CatalogTest {
         out += Texts.matchKarma()
         Element.entries.forEach { a -> Element.entries.forEach { out += Texts.matchDestiny(MatchReckoning.destinyPair(a, it)) } }
         NiSha.entries.forEach { out += Texts.matchNiSha(it) }
+        BadYear.entries.forEach { out += Texts.badYear(it) }
+        PowerYear.entries.forEach { out += Texts.matchSameKind(it) }
         BirthShare.entries.forEach { s -> BirthChild.entries.forEach { k -> Element.entries.forEach { out += Texts.birthAspect(s, k, it) } } }
         (0 until 60 step 2).forEach { n -> out += Texts.khaSrog(Sign(Element.entries[n % 10 / 2], Animal.entries[n % 12])) }
         (0 until 60).forEach { n -> out += Texts.sixtyYear(Sign(Element.entries[n % 10 / 2], Animal.entries[n % 12])) }
@@ -516,7 +519,7 @@ class CatalogTest {
             "P2" to listOf("NatalTrigram", "KinObstacle"),
             "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine"),
             // The marriage match (block 31), written in the shape: no allowance.
-            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha"),
+            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

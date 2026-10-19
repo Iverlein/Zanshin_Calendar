@@ -24,6 +24,35 @@ enum class MatchMeeting {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The bad years for marriage (pp. 353–354), each named list with its years; a spouse born in one of them is read by
+ * it. The black year with fangs goes by the natal mewa, the two-black, not by the year's sign.
+ */
+enum class BadYear(val years: List<Sign>) {
+    HARSH_RNGA_ZOR(signs("IRON DOG", "IRON PIG")),
+    HARSH_RO_KHUR(signs("IRON MOUSE", "IRON OX")),
+    HARSH_RUS_GCOD(signs("FIRE TIGER", "FIRE RABBIT")),
+    HARSH_MDUN_BSDEBS(signs("FIRE DRAGON", "FIRE SNAKE")),
+    HARSH_GRU_KHYER(signs("FIRE HORSE", "FIRE SHEEP")),
+    HARSH_BYE_BRAL(signs("FIRE MONKEY", "FIRE BIRD")),
+    BAD_OMEN(signs("FIRE SNAKE", "WATER PIG", "WATER BIRD", "WOOD BIRD", "IRON SHEEP", "EARTH BIRD", "IRON PIG")),
+    LITTLE_WHITE(signs("IRON DOG", "IRON BIRD", "FIRE OX", "FIRE MONKEY", "EARTH DRAGON", "WATER SNAKE")),
+    THAN(signs("EARTH DRAGON", "IRON SHEEP", "EARTH MONKEY", "IRON BIRD", "IRON DOG", "FIRE PIG", "FIRE OX")),
+    BYA_RA(signs("FIRE HORSE", "WATER MOUSE")),
+    GRAVE_MEN(signs("IRON OX", "WOOD SHEEP", "FIRE DOG", "WATER DRAGON")),
+    LDING_NAG(signs("WATER TIGER", "WATER SNAKE", "IRON MONKEY")),
+    SRIN_KHYER(signs("WATER MOUSE", "WATER HORSE", "WATER BIRD", "WATER RABBIT", "EARTH PIG", "EARTH SNAKE", "EARTH BIRD", "EARTH RABBIT", "FIRE DRAGON", "FIRE BIRD", "WATER OX")),
+    THER_DRE(signs("FIRE HORSE", "WATER BIRD", "WOOD RABBIT", "IRON BIRD")),
+    WIDOWHOOD(signs("IRON MONKEY", "IRON PIG", "FIRE DRAGON", "FIRE SNAKE", "EARTH SHEEP", "IRON DOG", "WOOD SNAKE", "EARTH BIRD")),
+    AVOID(signs("WOOD TIGER", "IRON MONKEY", "WATER TIGER", "WATER MONKEY", "FIRE TIGER", "WATER SNAKE", "WATER DOG", "WATER PIG")),
+    BLACK_FANGS(emptyList());
+
+    val english: String get() = gloss(this)
+}
+
+private fun signs(vararg names: String): List<Sign> = names.map { n -> n.split(" ").let { Sign(Element.valueOf(it[0]), Animal.valueOf(it[1])) } }
+
+
 /** The *ni sha* reckoning (p. 359): the man of a male year and older, the woman of a female year and younger. */
 enum class NiSha { GOOD, REVERSED }
 
@@ -49,6 +78,14 @@ object MatchReckoning {
     /** Whether all four aspects meet as mother and son: the wife of karma (*las kyi chung ma*, p. 355). */
     fun karma(man: YearForces, woman: YearForces): Boolean =
         ASPECTS.all { Forces.kinship(man[it], woman[it]) in setOf(Kinship.MOTHER, Kinship.SON) }
+
+    /** The bad years for marriage a spouse born in [sign] under the natal mewa [natalMewa] is of (pp. 353–354). */
+    fun badYears(sign: Sign, natalMewa: Int): List<BadYear> =
+        BadYear.entries.filter { sign in it.years } + if (natalMewa == 2) listOf(BadYear.BLACK_FANGS) else emptyList()
+
+    /** The kind of year both spouses are of, by destiny against life force, when it is the same (p. 351): not to be joined. */
+    fun sameKind(man: Sign, woman: Sign): PowerYear? =
+        BirthReckoning.powerYear(man).takeIf { it == BirthReckoning.powerYear(woman) }
 
     /** The two destinies' elements as a pair, the earlier in [Element]'s order first (p. 357). */
     fun destinyPair(a: Element, b: Element): Pair<Element, Element> = if (a.ordinal <= b.ordinal) a to b else b to a

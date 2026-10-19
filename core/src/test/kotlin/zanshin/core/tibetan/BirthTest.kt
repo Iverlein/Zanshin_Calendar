@@ -10,6 +10,18 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The bad years' lists (pp. 353–354): the harsh years are iron's four and fire's eight, two to a name. */
+    @Test
+    fun `the bad years for marriage`() {
+        val harsh = BadYear.entries.filter { it.name.startsWith("HARSH") }.flatMap { it.years }
+        assertEquals(12, harsh.size)
+        assertEquals(4, harsh.count { it.element == Element.IRON })
+        assertEquals(8, harsh.count { it.element == Element.FIRE })
+        assertEquals(listOf(7, 6, 7, 2, 4, 3, 11, 4, 8, 8), listOf(BadYear.BAD_OMEN, BadYear.LITTLE_WHITE, BadYear.THAN, BadYear.BYA_RA, BadYear.GRAVE_MEN, BadYear.LDING_NAG, BadYear.SRIN_KHYER, BadYear.THER_DRE, BadYear.WIDOWHOOD, BadYear.AVOID).map { it.years.size })
+        assertEquals(listOf(BadYear.HARSH_GRU_KHYER, BadYear.BYA_RA, BadYear.THER_DRE), MatchReckoning.badYears(Sign(Element.FIRE, Animal.HORSE), 1))
+        assertEquals(PowerYear.KHONG_NONG, MatchReckoning.sameKind(Sign(Element.FIRE, Animal.DRAGON), Sign(Element.FIRE, Animal.DOG)))
+    }
+
     /** The marriage match's single (p. 355): mother, son and friend agree, the enemy disagrees, the same element agrees for earth and water and is middling for fire, iron and wood; ni sha (p. 359). */
     @Test
     fun `the marriage match's single and ni sha`() {

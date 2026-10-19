@@ -21,6 +21,7 @@ import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
+import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.Sign
@@ -389,6 +390,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The marriage match's years: the kinds not joined and the bad years (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
     /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH = whiteBeryl("chapter 23, pp. 355–357 and 359", volume = 1)
     /** The line of births (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2049,6 +2052,12 @@ object Texts {
     /** The two destinies' elements [pair] set together (WB vol. 1, ch. 23, p. 357). */
     fun matchDestiny(pair: Pair<Element, Element>): Reading =
         Reading(key = "reading.MatchDestiny", arg = "reading.MatchDestiny.${pair.first.name}_${pair.second.name}", source = Sources.WHITE_BERYL_MATCH)
+
+    /** A bad year for marriage [y] a spouse is born in (WB vol. 1, ch. 23, pp. 353–354). */
+    fun badYear(y: BadYear): Reading = Reading(key = "reading.BadYear", arg = "reading.BadYear.${y.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
+
+    /** Two spouses of the same kind of year [k], not to be joined (WB vol. 1, ch. 23, pp. 351–352). */
+    fun matchSameKind(k: PowerYear): Reading = Reading(key = "reading.MatchSameKind", arg = "reading.MatchSameKind.${k.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
 
     /** The *ni sha* reckoning [r] (WB vol. 1, ch. 23, p. 359). */
     fun matchNiSha(r: NiSha): Reading = Reading(key = "reading.MatchNiSha", arg = "reading.MatchNiSha.${r.name}", source = Sources.WHITE_BERYL_MATCH)
