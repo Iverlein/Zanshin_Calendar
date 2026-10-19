@@ -545,6 +545,50 @@ and black.
 
 > གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ། །གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། །དཀར་ན་རྒྱལ་པོའི་བཀའ་མི་བཀྱོན། །སྐྱེས་པ་ཡིན་ན་ཁྲོམ་ཐོག་ཆོད། །བུད་མེད་ཡིན་ན་གཏམ་སྙན་ཐོས། །ནག་ན་རྒྱལ་པོའི་བཀའ་ཆད་འཕོག །སྐྱིད་སྡུག་མང་ལ་སྡུག་ཤས་ཆེ། །ལུས་ལ་ན་ཚ་རྒྱུན་མི་ཆད། །ཟླ་བ་བློན་པོའི་རྡེའུ་ནི། །དཀར་བ་བློན་པོའི་གྲོགས་མི་འཛོལ། །ལུང་པ་ཕུ་ཐུང་ཙམ་ཞིག་ནས། །སྐད་ནི་ལག་ངར་ཙམ་ཞིག་འདོན། །ནག་ན་བློན་པོའི་གྲལ་ནས་ཡར། །མཐོན་པོ་བྱམས་ལ་དམའ་མོ་སྡང་། །རྟག་ཏུ་དགྲ་དང་ཁ་སྨྲས་མོད། །ཞག་པོ་དམག་མིའི་རྡེའུ་ནི། །དཀར་ན་དམག་དཔུང་མཐའ་ནས་རྒྱས། །ནད་ཉུང་ཚེ་ལ་བར་ཆད་མེད། །གདོན་དང་འདྲེ་ཡིས་གནོད་མི་འགྱུར། །ནག་ན་མི་དང་གླེང་གཞི་འོང་། །མི་སྟོང་འཇལ་ལམ་ཡང་ན་ལེན། །རྟག་ཏུ་ཁ་སྨྲས་རྒྱུན་མི་ཆད། །དུས་ཚོད་མཚོན་ཆའི་རྡེའུ་ནི། །དཀར་ན་མི་འཕྲོ་རྡེལ་འཕྲོ་བཟང་། །མི་ནོར་མཐའ་ནས་རྒྱས་པ་འོང་། །ནག་ན་མཚོན་ཆ་བཙའ་ཡིས་ཁྱེར། །དཔལ་མདུང་རྐེད་པ་ཆག་ཅེས་ཏེ། །མི་ནོར་ཀུན་ལ་ངན་པར་བཤད།།
 
+### The year's own destiny: the five kinds (pp. 270–280)
+
+Read 2026-10-19 for ROADMAP R2c, as the end reckoning below: the Gser
+thang reprint (I3CN5028, img. 256 and 270–276 = pp. 261 and 275–281),
+Yigdzin-1 over the pages, the five defining lines checked by eye on the
+scan.
+
+**The indispensable pebble** (p. 261, img. 256): «ཁ་ཡན་ཁོང་ནོང་སེ་ཞིག་ལོ། །ཁ་རལ་འདུན་ཁུར་གང་བབས་དང་། …། །མེད་དུ་མི་རུང་རྡེལ་གཉིས་ཡིན། །དེ་ཡང་སྲོག་དང་དབང་ཐང་གཉིས། །གཅིག་པ་ཁ་ཡན་ལོ་ཞེས་བྱ།»
+Whichever of kha yan, khong nong, se zhig, kha ral and 'dun khur falls,
+with the pebble of the time, are the two that cannot be lacking.
+
+**The five defined** (pp. 275–280, each line read on the scan):
+
+- p. 275 (img. 270, l. 25): «ག༷ང་ཡ༷ང་སྲོག་དང་དབང་ཐང་གཉིས། །འབྱུང་བ་གཅིག་པ་ཁ་ཡན་ཏེ།» — life force and destiny of one element: *kha yan*.
+- p. 277 (img. 272, l. 7): «གང༷་གི༷་སྲོག་ལ་དབང་ཐང་གིས། །བསྐྱེད་པ་ཁོང་ནོང་ལོ་ཡིན་ཏེ།» — destiny begets the life force: *khong nong*.
+- p. 277 (img. 272, l. 27): «གང༷་གི༷་སྲོ༷ག་ནི་མར་གྱུར་ཞིང་། །དབང་ཐང་བུར་གྱུར་སེ་ཞིག་ལོ།» — the life force the mother, destiny the son: *se zhig*.
+- p. 279 (img. 274, l. 6): «གང༷་གི༷་སྲོག་ལ་དབང་ཐང་གིས། །བཅད་པ་འདུན་ཁུར་ཞེས་བྱ་སྟེ།» — destiny cuts the life force: *'dun khur*.
+- p. 280 (img. 275, l. 5): «གང༷་གི༷་སྲོ༷ག་གིས་དབང་ཐང་ལ། །བཅད་པ་ཁ་རལ་ཞེས་བྱ་སྟེ།» — the life force cuts destiny: *kha ral*.
+
+Each has a general reading and then particular ones by the years
+(«དེ་དག་སྤྱི་ཡིན་བྱེ་བྲག་ཏུ»), which name whose kind it is: for *kha yan* the
+wood tiger and hare the father's and uncles' («ཕ་ཁུ»), the fire horse and
+snake the household's («བཟའ་ཚང»), the water mouse and pig the children's
+(«བུ་ཚ»), the iron bird and monkey the relatives' and maternal uncle's
+(«གཉེན … ཞང་པོ»), the four earth animals the mother's and grandmother's
+(«མ་དང་ཕྱི་མོ»); the other four likewise (the water years of *se zhig* and
+*'dun khur* name wealth, «ནོར་རྫས»). WB's particular lines confirm the rule
+the app counts (`BirthTest`): wood tiger *kha yan*, water hare *khong nong*,
+fire tiger *se zhig*, iron hare *'dun khur*, earth tiger *kha ral*.
+
+**The general readings, the lines the app's rest on** (Yigdzin-1, the
+quoted lines compared with the scan at 2048 px):
+
+- *kha yan* (p. 275): «མཐོ་རུ་མི་ཡིས་མི་སྟེར་ཡང་། །དམའ་རུ་རང་མི་ཉན་པའི་ལོ། …། །གྲིར་ཤིའི་འདྲེ་དང་ས་བདག་གནོད། །དར་གུད་གང་སྟོངས་ཤིན་ཏུ་ཆེ། …། །གྲགས་པ་ཅན་གྱི་ལོ་ཡིན་ནོ།» — a year others will not raise high and that will not stay low; the ghosts of those slain by the blade and the earth lords harm; rise and fall very great; a year of fame.
+- *khong nong* (pp. 277–278): «ཚེ་སྲོག་སྲ་བར་འོང་བས་ན། །ཚེ་ལོ་བརྒྱར་སྐྱེལ་བུ་ཚ་ཡི། །ཆད་ལྷག་མང་དུ་འོང་བ་དང་། …། །བུ་བཏུབ་ནོར་དཀོན་ནོར་བཏུབ་ན། །བུ་དཀོན་ཐ་མར་རབས་ཆད་ཉན། …། །ཡོ་བྱད་ཚེ་སྟོད་གང་སྟོངས་ཆེ། །ཚེ་སྨད་སྐྱིད་ཀྱི་ཉི་མ་ཤར།» and «ནོར་རྫས་ཕྱི་ལ་འབྲངས་པ་ཡི། །འདྲེ་འམ་ཕུར་ཁ་གནོད་པ་ཡིན།» — life firm, carried to a hundred, but many gaps among the children; with children, little wealth, with wealth, few children; possessions empty early in life, the sun of happiness late; the spirit that followed wealth out, or a dagger's curse, harms.
+- *se zhig* (p. 278): «གནམ་གྱི་ཉི་མ་ཟླ་བ་འདྲ། …། །མགོ་ནག་མི་ནི་མང་འཚོགས་ཀྱང་། །རང་མགོ་རྩེ་མོ་མི་མཉམ་མོ། …། །དགྲ་ལྷ་ཕོ་ལྷས་མགོན་སྐྱོབས་བྱེད། …། །མི་ཁྱོད་ཞིང་གཡང་ནོར་གཡང་ཉམས། །ནད་དུ་གྲང་ནད་ཆུ་སེར་དང་།» — like the sun and moon of the sky; among many, one's head stands above; the war gods and the male god protect; the luck of fields and wealth declines; cold illnesses and serum.
+- *'dun khur* (p. 279): «བྱི་རུ་དགའ་སྟེ་དགོངས་པ་གསལ། །ནང་དུ་བཀྲ་སྟེ་ཤེས་བཞིན་གསལ། …། །ཁེ་ཟོག་ཚོང་འཕྲུལ་ཅི་བྱས་ཀྱང་། །ཡོ་བྱད་ལྡང་དུས་མ་བྱུང་བས། …། །གདོན་དུ་ས་བདག་ཀླུ་གཉན་གནོད། …། །ཉེ་བ་དགྲ་རུ་ལངས་པ་དང་། …། །མྱ་ངན་སྐྱིད་སྡུག་མང་བ་ཡིན།» — clear of mind within and without; whatever trade, possessions never rise; the earth lords, nāgas and nyen harm; near ones rise as enemies; much grief.
+- *kha ral* (p. 280): «ཁྱེད་ཀྱི་ཕ་མེས་ས་ན་ཡར། །གངས་དཀར་མཐོངས་ནས་སེང་སྐད་འདོན། …། །ཁྱིམ་ས་བྱེ་བྲལ་བྱས་པ་དང་། …། །བྱིས་པ་དམ་སྲི་འགོང་པོས་ཁྱེར། །མི་བརྒྱུད་ཞིང་ས་གཉིས་དང་གསུམ། །འཛིན་ཏེ་ལ་ལ་དར་ཞིང་རྒྱས། །ལ་ལ་རྨོངས་ཤིང་གུད་པ་དང་། །ལ་ལ་གསོན་པོར་འཁྱམས་པ་འོང་། །མ་དང་འགྲོགས་ཡུན་ཐུང་བ་སྟེ། …། །སེང་གེ་གངས་བྲལ་ཁྱི་རུ་སོང་། …། །རྒྱལ་མདོས་བཏང་ན་ཕན་པ་ཡིན།» — the forefathers a snow lion roaring from the white snows; the household splits; the pledge-breaking dead and gongpo carry children off; the line holds two or three estates, some flourishing, some declining, some wandering; time with the mother short; now the lion parted from its snows has become a dog; a gyalpo thread-cross helps.
+
+Left for the next part of R2: the twenty-five particular readings, and
+the images the general readings give without a sense (the *bse rags* on
+the neck, the crystal rosary scattered). Built 2026-10-19 (ROADMAP R2c,
+SPEC §5.9.2).
+
 ### The special pebble's readings: the end reckoning (pp. 284–286)
 
 Read 2026-10-19 for ROADMAP R2b: the Gser thang reprint of the 1996

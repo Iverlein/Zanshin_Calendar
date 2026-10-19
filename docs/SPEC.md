@@ -537,6 +537,14 @@ on the scan that follow from the years alone. `BirthReckoning`
   Without the child's gender the readings for a son or a daughter are
   left out, without the father's year those that ask for his trigram.
 
+- **The year's own destiny** (pp. 261, 275–280), one of the two pebbles
+  that cannot be lacking: the birth year's destiny, its element, against
+  its life force, by its animal: one element *kha yan*, destiny begetting
+  the life force *khong nong*, the life force begetting destiny *se zhig*,
+  destiny cutting the life force *'dun khur*, the life force cutting
+  destiny *kha ral*; twelve of the sixty years each (`BirthTest`, with
+  WB's particular readings' years); each with its general reading. The
+  particular readings by the year's element are not yet built.
 - **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
   which is asked (§10.5): the birth year's animal in p. 261's table for
   the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
@@ -547,7 +555,7 @@ on the scan that follow from the years alone. `BirthReckoning`
   needs no relative: without the mother's year the clan is still read.
 
 **Not calculated** yet: the pebbles of the birth (the four precious,
-whose colour rule is open question 160, the indispensable two, the
+whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
 read on the scan; the readings of the sixty years and of the mewa of the
@@ -3234,6 +3242,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
   name; the person's birth year and its life force; under "The natal
   trigram" its row (as in the year of age) and the child it makes them;
+  under "The birth year" the year's destiny against its life force
+  ("Destiny begetting the life force · Life force earth · destiny fire"),
+  shown also without the mother's year;
   under "The clan" the year of the special pebble ("The clan's friend
   year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note
   asking for the clan, shown also when the mother's year is missing;

@@ -38,8 +38,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   Beryl gives for it; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
   parent or a son brings; and the birth: the natal trigram, the child of
-  the gods, glory, life, spirits or demons it makes one, the birth year
-  against one's clan, and the readings of the parents' trigrams at the
+  the gods, glory, life, spirits or demons it makes one, the birth
+  year's destiny against its life force and the year against one's clan, and the readings of the parents' trigrams at the
   birth.
 - **Health:** what falling ill today means by the date, the weekday,
   the link and the goddess of the day, the four perilous days; where the
