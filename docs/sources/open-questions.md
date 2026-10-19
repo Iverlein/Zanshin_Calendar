@@ -479,11 +479,16 @@ the text, not about the app.
     each year, «ཟླ་བའི་ཀླུང», «མིག་དམར་ཀླུང», «ཕུར་བུའི་ཀླུང», «སྤེན་པའི་ཀླུང», not a direction; the
     month's river's direction is still not found.*
 
-27. **WB vol. 2, p. 215 (img. 223): in the month's nine black ones,
+27. **Answered 2026-10-19. WB vol. 2, p. 215 (img. 223): in the month's nine black ones,
     does «དང» join a name to the next direction named or to the one
     before?** Read the first way, every month places all nine, as the
     table in [year-month-earth-lords.md](year-month-earth-lords.md) has it
     (read on the scan 2026-10-11, RD4).
+    *Answered 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    the month's nine black ones): to the next. The tiger month opens
+    «སྟག་ཟླར་རོ་ཟན་ནག་མོ་དང་། །གཤིན་རྗེ་ཤར་ལ», two names before any direction,
+    which would have none if «དང» looked back; the hare month opens the same
+    way. The table stands.*
 
 28. **WB vol. 2, p. 219 (img. 227): where is the «དུར»?** In the first
     months of the seasons the light-clearer (སྣང་སེལ, snang sel) sits on

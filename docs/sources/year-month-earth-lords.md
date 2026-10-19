@@ -1823,6 +1823,18 @@ direction after it; «དང» joins a name to the next one's direction:
 | dog | corpse-eater | — | bla mkhyen, black one, king ("as the bird") | disease (སྲིན, srin) | lord of death | leopard, births | — | butcher |
 | pig | king | butcher | corpse-eater, black one, bla mkhyen | disease | births, lord of death | — | — | leopard |
 
+**«དང» joins forward, 2026-10-19 (open question 27).** The tiger month
+settles it: «སྟག་ཟླར་རོ་ཟན་ནག་མོ་དང་། །གཤིན་རྗེ་ཤར་ལ་…». The corpse-eater
+and the black one stand before any direction is named, so if «དང» joined
+a name to the direction before it, they would have none. Read forward,
+the corpse-eater, the black one and the lord of death stand in the east
+together. The hare month opens the same way, two names before their
+direction («ཡོས་ཟླར་གཤིན་རྗེ་བླ་མཁྱེན་ཤར»). Where a direction does come
+before «དང» («ལུག་ཟླར་བཤན་པ་ཤར་ལྷོ་དང་།»), it closes its own name and
+«དང» only joins the next clause. So the table's reading is the verse's:
+names are listed and the direction follows the last of them, as an
+ordinary Tibetan list is read.
+
 Avoided towards each: the corpse-eater, leading out a corpse; the king,
 war; the leopard, a bride; the bla mkhyen, medical work; the demon of
 births, «བུས་པ་རྟ་ཡི་བྱ་བ» (not settled); the black one, corpse and bride; the
@@ -2119,7 +2131,8 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 
 - Open questions 26–32 ([open-questions.md](open-questions.md)): 26, the
   direction of the month's river (pp. 200, 213); 27, which direction «དང»
-  joins a name to in the nine black ones (p. 215); 28, the light-clearer's
+  joins a name to in the nine black ones (p. 215), answered 2026-10-19:
+  the next; 28, the light-clearer's
   «དུར» (p. 219); 29, Wangkhyi's «གླང་གི་ཉི་མ» (p. 210); 30, five courses that
   may be misprints (pp. 202, 206, 207, 209, 222), answered 2026-10-18: the
   Zhol print reads all five as the 1996 edition does, so they are the
