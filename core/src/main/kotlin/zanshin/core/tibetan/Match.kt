@@ -183,6 +183,12 @@ fun matchStageGrade(s: Sector): Boolean? = when (s) {
     Sector.DECLINE, Sector.ILLNESS, Sector.DEATH, Sector.ENTERING_THE_TOMB -> false
 }
 
+/** The parent a spouse's stage is counted from (pp. 359–360): the fathers in point 8, the mothers in point 9. */
+enum class MatchParent { FATHER, MOTHER }
+
+/** The two ways of counting from a parent's year that WB and the notes spell out (p. 359; the notes, p. 524). */
+enum class ParentWay { OUTER, SECRET }
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -264,6 +270,16 @@ object MatchReckoning {
      * the other's year animal [other] («ཕོ་སྲོག་མོ་སྟེང་མོ་སྲོག་ཕོའི། །སྟེང་ཁྱེར»).
      */
     fun riseDecline(vitality: Element, other: Animal): Sector = YearOfLife.sector(vitality, other)
+
+    /**
+     * The stage a spouse born in a year of [own] falls on, counted from the parent's year [parent] (pp. 359–360):
+     * the outer way takes breath on the parent's year animal, the secret way on the breath-taking of the parent's
+     * life force, and both count on to the spouse's own year (the notes, p. 524: «ཕ་སྟག་བུ་ཡོས་ལ་དར་བ་བབ་པ»).
+     */
+    fun parentStage(way: ParentWay, parent: Sign, own: Animal): Sector = when (way) {
+        ParentWay.OUTER -> Sector.entries[Math.floorMod(own.ordinal - parent.animal.ordinal, 12)]
+        ParentWay.SECRET -> YearOfLife.sector(Forces.of(parent.element, parent.animal).vitality, own)
+    }
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }

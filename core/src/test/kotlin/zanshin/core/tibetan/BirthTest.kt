@@ -47,6 +47,9 @@ class BirthTest {
         val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal > a.ordinal }.map { a to it } }
         assertEquals(listOf(Trigram.KHAM to Trigram.ZON), pairs.filter { (a, b) -> MatchReckoning.trigramKind(a, b) == null })
         assertEquals(MatchTrigramKind.BDUD_GCOD, MatchReckoning.trigramKind(Trigram.KHEN, Trigram.LI))
+        // The notes' example (p. 524): a father of a tiger year, a son of a hare year, the secret way flourishing.
+        assertEquals(Sector.FLOURISHING, MatchReckoning.parentStage(ParentWay.SECRET, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))
+        assertEquals(Sector.IN_THE_WOMB, MatchReckoning.parentStage(ParentWay.OUTER, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))
         // Fire takes breath on the pig, so a fire life force on a pig year falls on taking breath.
         assertEquals(Sector.TAKING_BREATH, MatchReckoning.riseDecline(Element.FIRE, Animal.PIG))
         assertEquals(4, Sector.entries.count { matchStageGrade(it) == true })

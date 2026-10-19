@@ -24,6 +24,7 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
+import zanshin.core.tibetan.MatchParent
 import zanshin.core.tibetan.MatchPlanet
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.MatchTrigramKind
@@ -407,6 +408,8 @@ object Sources {
     val WHITE_BERYL_MATCH_TRIGRAM = whiteBeryl("chapter 23, pp. 361–363", volume = 1)
     /** The marriage match's rise and decline (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_RISE = whiteBeryl("chapter 23, pp. 363–364", volume = 1)
+    /** The marriage match's parents' years (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_PARENTS = whiteBeryl("chapter 23, pp. 359–360", volume = 1)
     /** The marriage match's birth mewas (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
@@ -2116,6 +2119,10 @@ object Texts {
 
     /** A spouse's life force falling on the stage [s] of the other's year (WB vol. 1, ch. 23, pp. 363–364). */
     fun matchRiseDecline(s: Sector): Reading = Reading(key = "reading.MatchRiseDecline", arg = "reading.MatchRiseDecline.${s.name}", source = Sources.WHITE_BERYL_MATCH_RISE)
+
+    /** A spouse's stage counted from the parent [p], among the good six or not (WB vol. 1, ch. 23, pp. 359–360). */
+    fun matchParentStage(p: MatchParent, good: Boolean): Reading =
+        Reading(key = "reading.MatchParentStage", arg = "reading.MatchParentStage.${p.name}.${if (good) "GOOD" else "BAD"}", source = Sources.WHITE_BERYL_MATCH_PARENTS)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
