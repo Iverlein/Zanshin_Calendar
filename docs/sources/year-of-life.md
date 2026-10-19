@@ -350,7 +350,11 @@ the resolution of either scan. The verse's own later line in both prints, «བ�
 by the mother's year", refers back to a father's year. So the line reads
 «ཕ་ལོ»: reckon the year of the father of the one reckoned, and whatever
 the father's luck (from it) is. This is the notes' reading (p. 474, the
-father's year), not the *Moonbeams*' father's progressed sign; WB's
+father's year), not the *Moonbeams*' father's progressed sign. Lha mo
+tshul khrims spells it out in his restatement of the five
+(*Nag rtsis rdel 'grem 'bras bshad*, printed p. 28, etext p. 36):
+«དེ་ནས་བརྩི་བྱའི་ཕ་ལོ(༡)དང་། །མ་ཡི་ལོག་མེན(༢)མའི་བབས་སྤར(༣)། །མ་ཡི་བབས་སྨེ(༤)བརྩི་བྱ་ཡི། །སྐྱེས་ཟླ(༥)ལྔ་ལ་མི་འགྱུར་བའི། །ཀླུངས…»,
+the father's year first; WB's
 first unchanging luck pebble is the father's year's luck.
 
 **The notes** (vol. 2, p. 474, img. 482, read on the scan) say it in

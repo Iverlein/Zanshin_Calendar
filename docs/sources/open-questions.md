@@ -1017,7 +1017,8 @@ the text, not about the app.
     both prints go on «བུ་མོ་ཡིན་ན་ཕ་ལོའི་ཚབ། །མ་ཡི་ལོས་བྱ», for a daughter the
     mother's year in the father's year's place. So WB reckons the father's
     luck from his year, as the notes do (p. 474), not from his progressed
-    sign as the *Moonbeams* does.*
+    sign as the *Moonbeams* does. Lha mo tshul khrims's restatement (printed
+    p. 28) names it «བརྩི་བྱའི་ཕ་ལོ(༡)».*
 
 75. **Answered 2026-10-18. WB vol. 1, p. 294 (img. 304): «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང».** Said of the fire
     horse and snake born on kham, where the parallel lines have «ལྕགས་ལ་མེ་ཡི་
