@@ -86,7 +86,11 @@ digits. Read by eye there: box 8 «༣ ༧ ༡༡ ༡༢ ༡༤ ༡༥ ༡༧ �
 built, box 16's month dates «ཟླ་ཚེས» with «༡༡ ༢༧», «༡༢ ༢༥», «༡ ༢༣» beneath, box 28 «༡༡
 ༢༢ ༢༩», box 41 «༤ ༥ ༡༦ ༢༤», box 45 with its «༢༣», box 56 «༡༨ ༢༥ ༢༨ ༢༧» / «༢ ༦ ༡༢ ༡༤»: each as KP
 was read today. Boxes 39 and 50, crowded or cursive in KP and KP2, were
-read and built from it. It is the print to check a KP digit on first. Box 62's eight good dates are WB's work 62
+read and built from it. It is the print to check a KP digit on first. Read through the same day,
+box by box against the app: it also settled boxes 15 (trade's dates,
+qualified both ways), 22 (the 18th, read 28), 33 (the 22nd) and 44 (the
+good dates), and gave box 51's first bad date as 3; boxes 7, 9, 10, 18–21,
+23–25, 28, 35, 41, 42, 45–49, 54, 56–62 agree with the app as built. Box 62's eight good dates are WB's work 62
 («ཚེས་བཞི་བདུན་དང་ཉེར་གཅིག་དང་། །ཉེར་བརྒྱད་གནམ་གང་གསུམ་བཅོ་ལྔ། །བཅུ་བཞི་བཟང», vol. 2,
 pp. 426–427, etext), and box 24's 29th WB's work 17. A further sweep of O10f's
 digits should start from those shapes.
