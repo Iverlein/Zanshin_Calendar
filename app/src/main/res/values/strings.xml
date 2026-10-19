@@ -989,6 +989,10 @@
     <string name="birth_share_mewa">Mewa</string>
     <string name="birth_share_subtitle">%1$s %2$s · natal trigram %3$s, %4$s</string>
     <string name="birth_share_mewa_subtitle">Mewa %1$d %2$s, %3$s · life force %4$s</string>
+    <string name="birth_section_dpal_byur">Glory and misfortune</string>
+    <string name="birth_dpal_byur_father">Yours %1$s · the father\'s %2$s</string>
+    <string name="birth_dpal_byur_mother">Yours %1$s · the mother\'s %2$s</string>
+    <string name="birth_dpal_byur_father_needed">With your father\'s birth year among your relatives, your life force and luck are set against his too.</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

@@ -844,6 +844,10 @@
     <string name="birth_share_mewa">Мева</string>
     <string name="birth_share_subtitle">%1$s: %2$s · триграмма рождения: %3$s, %4$s</string>
     <string name="birth_share_mewa_subtitle">Мева %1$d %2$s, %3$s · жизненная сила: %4$s</string>
+    <string name="birth_section_dpal_byur">Слава и беда</string>
+    <string name="birth_dpal_byur_father">У рождённого: %1$s · у отца: %2$s</string>
+    <string name="birth_dpal_byur_mother">У рождённого: %1$s · у матери: %2$s</string>
+    <string name="birth_dpal_byur_father_needed">С годом рождения отца среди родственников жизненная сила и конь ветра ставятся и против его.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>

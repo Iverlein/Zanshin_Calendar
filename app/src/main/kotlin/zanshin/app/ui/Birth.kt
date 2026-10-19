@@ -27,6 +27,8 @@ import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.PowerYear
+import zanshin.core.tibetan.DpalByur
+import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.GroupCut
@@ -70,6 +72,7 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
             )
         }
 
+        DpalByurSection(b, onOpen)
         PowerSection(person, onOpen)
         ClanSection(person, onOpen)
 
@@ -307,6 +310,43 @@ private fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_a
 private fun trigramName(t: Trigram) = Ewts.named(t.english, t.wylie)
 
 /** The one born, by the natal trigram's element against the life force (p. 294). */
+/**
+ * Glory and misfortune (pp. 295–297): one's life force and luck against the father's year's, body and destiny
+ * against the mother's; the father's two only when his year is known.
+ */
+@Composable
+private fun DpalByurSection(b: BirthReading, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Section(stringResource(R.string.birth_section_dpal_byur))
+    val own = Forces.of(b.birth.element, b.birth.animal)
+    val mother = b.mother.birth!!.let { Forces.of(it.element, it.animal) }
+    val father = b.father?.birth?.let { Forces.of(it.element, it.animal) }
+    listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK).forEach { force ->
+        val byFather = BirthReckoning.dpalByurParentIsFather(force)
+        val parent = (if (byFather) father else mother) ?: return@forEach
+        val result = BirthReckoning.dpalByur(own[force], parent[force])
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, gloss(force).replaceFirstChar(Char::uppercase), result.english),
+                english = "",
+                tone = when (result) {
+                    DpalByur.GLORY, DpalByur.LIFE_TAKEN -> Tone.GOOD
+                    DpalByur.OWN_FOOT -> Tone.MIXED
+                    DpalByur.MISFORTUNE, DpalByur.LUSTRE_LOST -> Tone.BAD
+                },
+                reading = Texts.dpalByur(force, result, own[force]),
+                subtitle = labels.string(
+                    if (byFather) R.string.birth_dpal_byur_father else R.string.birth_dpal_byur_mother,
+                    gloss(own[force], "inText"), gloss(parent[force], "inText"),
+                ),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    if (father == null) Text(stringResource(R.string.birth_dpal_byur_father_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+}
+
 /** One of the five that the natal trigram, or the natal mewa, of element [against] makes the share [share] (p. 294). */
 @Composable
 private fun shareAnnotation(share: BirthShare, kind: BirthChild, against: Element, subtitle: String): Annotation = Annotation(
