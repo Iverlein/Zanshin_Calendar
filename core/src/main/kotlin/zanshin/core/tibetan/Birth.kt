@@ -190,6 +190,16 @@ object BirthReckoning {
         Force.LUCK to Force.BODY,
     )
 
+    /**
+     * The first year of the pair [birth] belongs to among the thirty paired-year elements (*kha srog*, pp. 271–275):
+     * the cycle's years go in pairs, the wood mouse with the wood ox and so on, each pair one body.
+     */
+    fun pairFirst(birth: Sign): Sign {
+        val n = (0 until 60).first { Element.entries[it % 10 / 2] == birth.element && Animal.entries[it % 12] == birth.animal }
+        val first = n - n % 2
+        return Sign(Element.entries[first % 10 / 2], Animal.entries[first % 12])
+    }
+
     /** Whether a year of [animal] is a first, middle or last year (p. 283). */
     fun yearPlace(animal: Animal): YearPlace = when (animal) {
         Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE -> YearPlace.FIRST

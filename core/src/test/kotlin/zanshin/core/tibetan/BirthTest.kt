@@ -10,6 +10,20 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The thirty paired-year elements' bodies as p. 271–275 names them, pair by pair from the wood mouse. */
+    @Test
+    fun `the thirty pairs' bodies are the years' bodies`() {
+        val bodies = "IRON FIRE WOOD EARTH IRON FIRE WATER EARTH IRON WOOD WATER EARTH FIRE WOOD WATER " +
+            "IRON FIRE WOOD EARTH IRON FIRE WATER EARTH IRON WOOD WATER EARTH FIRE WOOD WATER"
+        val wb = bodies.split(" ").map { Element.valueOf(it) }
+        for (n in 0 until 60) {
+            val sign = Sign(Element.entries[n % 10 / 2], Animal.entries[n % 12])
+            assertEquals(wb[n / 2], Forces.of(sign.element, sign.animal).body, "body of $sign")
+            val first = BirthReckoning.pairFirst(sign)
+            assertEquals(Sign(Element.entries[(n - n % 2) % 10 / 2], Animal.entries[(n - n % 2) % 12]), first)
+        }
+    }
+
     private fun vitality(a: Animal) = Forces.of(Element.WOOD, a).vitality
 
     /** P. 294's own count, read on the scan: the horse and snake years on each trigram, and the five demons. */

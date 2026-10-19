@@ -16,6 +16,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
+import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
@@ -382,6 +383,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The five bodies and the thirty paired-year elements (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_BODIES = whiteBeryl("chapter 22, pp. 271–275", volume = 1)
     /** The twelve years in brief and the sixty in full (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_SIXTY_YEARS = whiteBeryl("chapter 22, pp. 263–271", volume = 1)
     /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1982,6 +1985,16 @@ object Texts {
     /** The reading of the birth year [birth] among the sixty (WB vol. 1, ch. 22, pp. 264–271). */
     fun sixtyYear(birth: Sign): Reading =
         Reading(key = "reading.SixtyYear", arg = "reading.SixtyYear.${birth.element.name}_${birth.animal.name}", source = Sources.WHITE_BERYL_SIXTY_YEARS)
+
+    /** The body [body], the element of the birth year's body, in brief (WB vol. 1, ch. 22, p. 271). */
+    fun bodyNature(body: Element): Reading =
+        Reading(key = "reading.BodyNature", arg = "reading.BodyNature.${body.name}", source = Sources.WHITE_BERYL_BODIES)
+
+    /** The reading of the pair of years [birth] falls in among the thirty paired-year elements (WB vol. 1, ch. 22, pp. 271–275). */
+    fun khaSrog(birth: Sign): Reading {
+        val first = BirthReckoning.pairFirst(birth)
+        return Reading(key = "reading.KhaSrog", arg = "reading.KhaSrog.${first.element.name}_${first.animal.name}", source = Sources.WHITE_BERYL_BODIES)
+    }
 
     /** The reading of the triad of birth years whose luck is [luck] (WB vol. 1, ch. 22, pp. 280–281). */
     fun luckTriad(luck: Element): Reading =
