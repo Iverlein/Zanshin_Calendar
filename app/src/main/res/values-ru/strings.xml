@@ -836,6 +836,7 @@
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
+    <string name="birth_place_full_title">Полное чтение</string>
     <string name="birth_cut_subtitle">%1$s одолевает: %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1) -->

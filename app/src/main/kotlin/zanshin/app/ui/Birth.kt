@@ -131,6 +131,17 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_place_full_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.yearPlaceFull(place),
+            subtitle = place.english,
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
     val triad = Animal.entries.filter { Forces.of(sign.element, it).luck == forces.luck }
     AnnotationRow(
         Annotation(

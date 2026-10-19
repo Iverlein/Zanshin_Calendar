@@ -981,6 +981,7 @@
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>
+    <string name="birth_place_full_title">Its full reading</string>
     <string name="birth_cut_subtitle">%1$s overcomes %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1). The relations are lower case; the app capitalises the first word. -->
