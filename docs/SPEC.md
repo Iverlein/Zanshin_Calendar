@@ -622,10 +622,38 @@ on the scan that follow from the years alone. `BirthReckoning`
 whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
-read on the scan; the line of births; the readings of p. 326 that need the order of
+read on the scan; the line of births' other counts; the readings of p. 326 that need the order of
 the siblings or end "and the like" (an earlier child on li and a later
 on khen; mother and child on enemy trigrams); the five by the year
 (p. 347), another count of the same five, not shown beside p. 294's.
+
+#### 5.9.3 The marriage match
+
+WB vol. 1, ch. 23, the first examination (pp. 351–364), as far as it is
+built (ROADMAP R3, 2026-10-19; [sources/marriage.md](sources/marriage.md),
+RD15, every line read on the scan): the points that follow from the two
+birth years, for a person with a gender and a spouse entered among their
+relatives (the spouse taken as the other sex where theirs is not set).
+`MatchReckoning` (core `tibetan/Match.kt`):
+
+- **The single match** (*rkyang pa*, pp. 355–357): the man's life force
+  and luck set against the woman's, the woman's body and destiny against
+  the man's; mother, son and friend agree, the enemy disagrees, the same
+  element agrees for earth and water and is middling for fire, iron and
+  wood; each aspect's agreement and disagreement with its reading, the
+  disagreement with WB's rite. All four meeting as mother and son: the
+  wife of karma (*las kyi chung ma*).
+- **The two destinies together** (p. 357): the fifteen pairs of the
+  destinies' elements, with the children born and the household's
+  fortune.
+- ***Ni sha*** (p. 359): the man of a male year and older, the woman of
+  a female year and younger, not reversed; the man younger, or her year
+  male and his female, reversed, with its remedy; otherwise not shown.
+
+**Not calculated** yet: the kin and the years together (point 1, with
+its pairs of year animals), the bad years (2), the hidden and the
+deeper hidden (4, 5), the siblings' number (7), the clans (8, 9, asked),
+the birth dates' month, planet and mansion (10) and the rest.
 
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
@@ -3299,9 +3327,17 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   chosen, a line that the reckonings are made from a birth date and the
   way to People (§10.5). Built: the birth, its row "Natal trigram lake
   (དྭ, dwa) · the children's glory", or "Needs your mother's birth year";
-  the year of age. WB's other reckonings, chapters 23–30, join them one
+  the marriage match, "With Dolma", or "Needs your gender and a spouse's
+  birth year"; the year of age. WB's other reckonings, chapters 23–30, join them one
   by one as R2… (ROADMAP R), in the order of the inventory (RD11, RD17);
   `Reckoning` in the app lists them.
+- **The marriage match** (§5.9.3): Back, the title and the person's
+  name; the man's and the woman's birth years; under "The single match"
+  each aspect ("Vitality · agrees · The man's earth · the woman's
+  earth") and the wife of karma where it holds; under "The two
+  destinies" their pair; *ni sha* where it is good or reversed; a line
+  on the points read. Without a gender or a spouse's year, what it needs
+  and the way to People.
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
   name; the person's birth year and its life force; under "The natal
   trigram" its row (as in the year of age), the child it makes them and

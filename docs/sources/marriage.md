@@ -950,3 +950,19 @@ are those whose lot is the end of the line.
   reads it the same way with an example: «ཟླ་བ་ནི། ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། ཅེས་པ་ཡིན་པས། ཕོ་ལོ་བྱི་བ་དང་རྟ་ལོ་པའི་བུ་མོ་ཡིན་ན་དེའི་མདུན་གྱི་ཟླ་བ་གླང་…»,
   for a girl of a male year, the mouse or the horse, the month in front,
   the ox, …; and KD has the verse (BDRC snippet, «ཟླ་བའི་རྫོང་ལུགས་བཤད་པ། …ཕོ་ལོ་མདུན་དང་མོ་ལོ་གྲུབ།»).
+
+## Built, 2026-10-19 (ROADMAP R3a)
+
+The match's points 3 (the single, pp. 355–357) and 6 (*ni sha*, p. 359),
+from the text above as read on the scan: `MatchReckoning` and the
+families `MatchAspect`, `MatchDestiny`, `MatchNiSha`. The single's
+meetings: «གྲོགས་ཕྲད་གཉེན་ལ་དགྲ་ཕྲད་དགྲའི། །ཆུ་མར་འདོད་ལ་ནང་ཕྲད་པ། །མེ་ལྕགས་ཤིང་འབྲིང་ས་ཆུ་བཟང་།»
+taken as: mother, son and friend agree («མ་བུར་ཕྲད» is the wife of karma
+when all four meet so), the enemy disagrees, the same element middling
+for fire, iron and wood and good for earth and water. Left out of the
+readings: the mantras (the rites are named, the syllables are not
+written out), the wheels' materials and colours by the year («སྲོག་གུད་དར་དམར་མཚལ་གྱིས …»),
+the enemy pairs' own rites by element («ཤིང་དང་ལྕགས་གཉིས་ཕྲད་གྱུར་ན …») and the protections
+(«ཤིང་ལྕགས་མི་མཐུན་སྐྱེར་པ་ཡི། །ཕུར་པ …»); in the two destinies, the line «ཕ་ཁུ་མནའ་འོང་མི་མཐའ་འོང»
+(wood and iron) and «ངན་རུང་མོ་ཡིས་ཕོ་བཅད་ཉན», not settled. *Ni sha* shows only a match
+fully as wanted or reversed in the man's age or both years' sexes.
