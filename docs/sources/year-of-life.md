@@ -706,11 +706,11 @@ lines the app's full readings rest on:
 
 - «རྒྱས་པ་ལྟར་ན་འདི་བཞིན་ཏེ། །སྟག་སྤྲེལ་ཕག་སྤྲུལ་བཞིར་བཙས་ན། །སྲོག་གིས་མར་གཟན་ལུས་ཕར་གཟན། །དབང་ཐང་ནོར་གཟན་ …། །ལག་རྩུབ་ཚིག་བཙན་ཁོང་པ་ཡངས། …། །ཚེ་སྟོད་ཁ་སྨྲས་མང་ན་ཡང་། །ཚེ་སྨད་སྐྱིད་པར་འབྱུང་བ་ཡིན། །ཆུ་བོ་ཆད་ཁ་ཉི་མ་ནི། །རྒས་ཁར་དྲོ་བ་འབྱུང་བ་ཡིན།» — the first years: life force eats the mother, body the father, destiny wealth; rough hand, strong word; much blame early, happiness later, warmth in old age.
 - «བྱི་རྟ་བྱ་ཡོས་ལོ་པ་ནི། …། །ཕ་མའི་དྲིན་ལས་རང་དྲིན་ཆེ། …། །ཕ་མའི་ནོར་གྱིས་ཕན་མི་ཐོགས། …། །ཟས་ལ་དུག་སྦྱོར་མི་གཡོ་དང་། །བརྫུན་པར་མི་སྨྲ་ཞིག་འབྱུང་གི། །སྲོ་ཐུང་ཚིག་གསལ་སེམས་ཡང་དཀར། །ཤི་ཡང་དམྱལ་བར་མི་འགྲོ་ཞེས།» — the middle years: one's own kindness greater; the parents' wealth no help; no poison, no lie, quick temper, clear word, white heart, not to hell even in death.
-- «གླང་ལུག་ཁྱི་འབྲུག་ལོ་བྱུང་ན། …། །ཡུལ་ཁང་འཕོ་སྐྱས་ཉེན་རེ་ཆེ། །ཡུལ་ཁ་གཉིས་སུ་སྡོད་པའི་ལོ། …། །ཡ་རབས་སློབ་དཔོན་ལ་དགའ་ཞིང་། །མ་རབས་ཆུང་མ་ལ་སྡང་བ། །ཉེ་སྡང་རིང་བྱམས་ …» — the last years: great risk of moving land and house, two homes; love of noble teachers, dislike of low company; near ones hate, far ones love.
+- «གླང་ལུག་ཁྱི་འབྲུག་ལོ་བྱུང་ན། …། །ཡུལ་ཁང་འཕོ་སྐྱས་ཉེན་རེ་ཆེ། །ཡུལ་ཁ་གཉིས་སུ་སྡོད་པའི་ལོ། …། །ཡ་རབས་སློབ་དཔོན་ལ་དགའ་ཞིང་། །མ་རབས་ཆུང་མ་ལ་སྡང་བ། །ཉེ་སྡང་རིང་བྱམས་ …» — the last years: great risk of moving land and house, two homes; love of noble teachers, dislike of a low-born wife («མ་རབས་ཆུང་མ»); near ones hate, far ones love.
 
 The rest of each (the uncle's ruin spirit, whom not to marry, the images
-of grass becoming a pillar abroad) is left for a reading by eye; these
-lines were not each compared with the scan. Built 2026-10-19
+of grass becoming a pillar abroad) is left out; the quoted lines were
+compared with the scan (img. 278–279 at 2048 px) the same day. Built 2026-10-19
 (`YearPlaceFull`). The app reads the class of
 the birth year; how the month, day and hour join it the passage does not
 say. Built 2026-10-19 (`YearPlace`).
