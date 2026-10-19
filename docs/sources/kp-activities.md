@@ -805,6 +805,11 @@ The box on the photograph, KP2 img. 279 (O10f), **machine reading**: Yigdzin-1 o
   3. These are WB's work 49 date for date (p. 420: «བཅུ་གསུམ་བཅོ་བརྒྱད་ཉེར་གསུམ་དང་། །ཉེར་བརྒྱད་རྣམས་ལ་བཟང…ཚེས་གཉིས་བཅུ་བདུན་ཉེར་གཉིས་དང་། །ཉེར་བདུན་རྣམས་ནི་ངན»), so the
   machine reading above (12, 20, 23, 24; 3, 17, 22, 27) misread the 13,
   the 18, the 28 and probably the 2.
+- **The Bhutan print, 2026-10-19** (I1KG11905, img. 404): good «༡༣ ༡༨ ༢༣ ༢༨», bad «༣ ༡༧ /
+  ༢༢ ༢༧», the first bad date the double-curved 3. So the box has the 3rd where
+  WB has the 2nd: a difference in the texts, as KP2's worn digit allowed. The
+  app keeps the chapter's dates through its join (the box's own are not
+  built).
 - KP2 only. The bad mansions end «དེ་ནི་ཤིན་ཏུ» (very bad), an emphasis. The heading's ཤྭ་རག is the shwa rags of the lunar dates (a dike against flash floods), and the box is listed under that wording.
 
 ### 52a. Cutting hair and nails — བཟོ་དང་སྐྲ་སེན་བྲེག་པར་བཟང་བ (སྐྲ་སེན)
