@@ -706,6 +706,16 @@ relatives (the spouse taken as the other sex where theirs is not set).
   (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Not built: the bad
   pairs' rites, the trigrams' graves, the four born on their own
   trigram and the woman's lines.
+- **Rise and decline** (point 13, pp. 363–364): the root way, each
+  spouse's life force carried onto the other's year animal
+  (`MatchReckoning.riseDecline`, the twelve stages of §5.9.2), the stage
+  graded as WB grades it here (`matchStageGrade`: the body complete,
+  bathing, dressing and flourishing the best; taking breath, the womb,
+  birth and working middling; decline, illness, death and the tomb bad)
+  with its result when joined there; a bad stage brings a sudden fright,
+  any other happiness. Family `MatchRiseDecline`. Not built: both born
+  on good stages by aspect, the other way by breath taken onto the other's
+  year, and the twelve throne doors.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -3420,7 +3430,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   they meet in none, under "The natal trigrams" their meeting ("Trigrams ·
   sustaining life · The man's lake · the woman's sky"), "Children by the
   trigrams" and "The woman's year · one of the eight hand-wavers · Iron
-  Monkey on earth" where they hold, or what it needs,
+  Monkey on earth" where they hold, or what it needs, under "Rise and
+  decline" each life force on the other's year ("The man's life force on
+  the woman's year · birth stage · earth on Iron Monkey"),
   and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"

@@ -1101,3 +1101,18 @@ in the family note; «འདུར» read as "come". The eight hand-wavers (p. 3
 both prints «བྱི་ཕག་ཁེན» (the mouse and pig, though the sky's own direction
 holds the dog and pig); «སྐྱེས་པ» read as "born", so either spouse may be
 one. Left out: the simile «རྫ་ཐེམ་ཤོར» and the rite «གྱེར་གཏོ».
+
+## Built, 2026-10-19 (ROADMAP R3i)
+
+Point 13's root rise and decline (p. 364, «ཡང་ནི་རྩ་བའི་དར་གུད་གཅིག །ཕོ་སྲོག་མོ་སྟེང་མོ་སྲོག་ཕོའི། །སྟེང་ཁྱེར་དར་གུད་ངན་ལ་བབས། །གློ་བུར་ཡེ་འདྲོག་འོང་བར་ངེས། །ལྡོག་ན་བདེ་བའི་འབྲས་བུ་སྟེར།»):
+each life force counted onto the other's year animal by the twelve
+stages, with the results «གཞན་ཡང་སོ་སོའི་འབྲས་བུ» gives each stage when
+joined (p. 363) and the three grades «རབ་འབྲིང་གསུམ་ཕྱེ་བའི» (the body
+complete, bathing, dressing, flourishing; taking breath, womb, birth,
+working; decline, illness, death, tomb). «མངལ་གནས་བསྡེབས་པ་ན་ཚ་མང» read
+«ན་ཚ» (illness), «ལས་བྱེད་…གང་སྟོངས་ཆེ» as fullness and emptiness swinging.
+Not built: the first way («གཉིས་ཀ་དར་གུད་བཟང་ལ་སྐྱེས», the aspects
+flourishing as mother, son, friend and enemy, whose count is not
+given), the other way («སྲོག་ཀླུང་སྐྱེས་པས་དབུགས་བླངས་ལ། །མོ་ཡི་ལོ་སྟེང་ཁྱེར་བ», white
+counted over all), the gods', men's and demons' places, and the twelve
+throne doors.
