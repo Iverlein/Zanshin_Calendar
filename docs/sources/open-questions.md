@@ -1761,10 +1761,14 @@ the text, not about the app.
      6×), a stack of མ with ya and u and nothing above it: a thousand men and a
      thousand horses fall due, and loss comes quickly.*
 
-153. **KP box 21's «གླང་འདུལ་བ་ལ་ངན».** Box 21 (KP BDRC img. 36) prints
+153. **Answered 2026-10-19. KP box 21's «གླང་འདུལ་བ་ལ་ངན».** Box 21 (KP BDRC img. 36) prints
      «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན» in its bad half: does "bad for breaking
      in oxen" qualify the three dates alone, or are they bad for the whole
      box? (2026-10-14, O10, [kp-activities.md](kp-activities.md), "Open (O10f)")
+     *Answered 2026-10-19 ([kp-activities.md](kp-activities.md), *Box 21's
+     bad dates against WB's work 9*): the three dates alone. The box digests
+     WB's work 9, which says the same, «བཅུ་གཅིག་ཉེར་གཉིས་ཉེར་དགུ་ལ། །གླང་འདུལ་བྱེད་པར་ངན་པ་ཡིན།», and
+     lists the 11th among the work's good dates; KP's ༢༤ stands for WB's 29.*
 
 154. **Answered 2026-10-18. KP box 10's feasts.** Box 10 (img. 28) calls Friday, Thursday, the
      Sun and the Moon together «གསོན་སྟོན་མཆོག་ཤིད་སྟོན་ངན» (best for feasts of

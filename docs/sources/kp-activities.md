@@ -1342,3 +1342,17 @@ the good of both halves, not the bad.
 - The small numerals under box 16's three «ཟླ་ཚེས» (img. 33): too small at 5×.
 - Box 50 and 51 on KP2's photograph (img. 278, 279) syllable by syllable:
   too dim at the photograph's size; written out as the machine reading.
+
+## Box 21's bad dates against WB's work 9, 2026-10-19 (open question 153)
+
+- **The three dates are bad for breaking in oxen alone, as in WB.** Box
+  21 is a digest of WB's work 9, opening the soil and breaking in oxen
+  (vol. 2, p. 390, img. 398, read on the scan for O2,
+  [white-beryl-ch34.md](white-beryl-ch34.md)), whose dates are:
+  «ཚེས་གཅིག་དྲུག་དང་བཅུ་གཅིག་དང་། །བཅུ་དྲུག་བཅུ་དགུ་ཉི་ཤུ་ལྔ། །ཉེར་དྲུག་རྣམས་ལ་བཟང་པོ་ཡིན། །བཅུ་གཅིག་ཉེར་གཉིས་ཉེར་དགུ་ལ། །གླང་འདུལ་བྱེད་པར་ངན་པ་ཡིན།»,
+  "the 1st, 6th, 11th, 16th, 19th, 25th and 26th are good; on the 11th,
+  22nd and 29th breaking in oxen is bad". WB's own line qualifies the
+  three, and the 11th stands in the good list too, so it cannot be bad
+  for the whole work; KP's «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན» is the same line, with its
+  ༢༤ where WB has 29, as in the box's good dates (question 157), where
+  the shape read as 4 stands where WB has 9.
