@@ -290,13 +290,14 @@ KP img. 34, KP2 img. 253.
 
 The box on the scan, KP BDRC img. 36 (O10f):
 
-- Good half: «༄། །གཟའ་ཟླ་ལྷག་སངས་སྤེན་ཕུར་ས་དབྱེ་འབྲིང་། ཚེས་༡ / ༦ ༡༦ ༡༤ ༢༥ ༢༦ སྐར་མ་ནབསོ་མོནྲུ་[…][interlinear: ས་ལུད་འབྲིང་།] / སྣར་ནུཾ་ས་ག་མོནྲེ་ཆོད་མགོ་མྱེ་ས་རི་ / རྒྱལ་བྱིཞི་གྲོཞི་གླང་འདུལ་བཟང་། ཐརྐ་ས་དབྱེ་ངན། གིན་དུས་སྦྱོར་སྲང་གཞུ་བུམ་ཉ་»
-- Bad half: «༄། །གཟའ་ཉི་མིག་ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན། སྐར་མ་ / སྐག་བྲཉེ་སྨིན་དབོ་མཆུ་གྲེ་ལྷཾས་ཉི་མ་ཡོས་སྦྲུལ་ཕག་བྱི་ / ལམ་ལྡོ་པི་ལིང་དབུལ་ཉི་ལུས་དུར་ཞུགས་དང་ལྔ་སེར་འཆར་ཕྱོགས། / ཕོ་ཉ་ཟས་འཚོལ་ཞག་ནག་ས་ཡི་ལྷ་མོ་བསྟན་མ་གནས་ཕྱོགས།»
+- Good half: «༄། །གཟའ་ཟླ་ལྷག་སངས་སྤེན་ཕུར་ས་དབྱེ་འབྲིང་། ཚེས་༡ / ༦ ༡༦ ༡༩ ༢༥ ༢༦ སྐར་མ་ནབསོ་མོནྲུ་[…][interlinear: ས་ལུད་འབྲིང་།] / སྣར་ནུཾ་ས་ག་མོནྲེ་ཆོད་མགོ་མྱེ་ས་རི་ / རྒྱལ་བྱིཞི་གྲོཞི་གླང་འདུལ་བཟང་། ཐརྐ་ས་དབྱེ་ངན། གིན་དུས་སྦྱོར་སྲང་གཞུ་བུམ་ཉ་»
+- Bad half: «༄། །གཟའ་ཉི་མིག་ཚེས་༡༡ ༢༢ ༢༩ གླང་འདུལ་བ་ལ་ངན། སྐར་མ་ / སྐག་བྲཉེ་སྨིན་དབོ་མཆུ་གྲེ་ལྷཾས་ཉི་མ་ཡོས་སྦྲུལ་ཕག་བྱི་ / ལམ་ལྡོ་པི་ལིང་དབུལ་ཉི་ལུས་དུར་ཞུགས་དང་ལྔ་སེར་འཆར་ཕྱོགས། / ཕོ་ཉ་ཟས་འཚོལ་ཞག་ནག་ས་ཡི་ལྷ་མོ་བསྟན་མ་གནས་ཕྱོགས།»
 
 - **Good:** Mon Wed Fri Sat; dates 1, 4, 14, 19, 25; nabs so, mon gru, snar ma, nam gru, sa ga, mon gre, chu stod, mgo, me bzhi, sa ri, rgyal; trigrams gin
 - **Bad:** Sun Tue; dates 11, 22; skag, bra nye, smin drug, dbo, mchu, gre, lha mtshams; days Hare, Snake, Pig
 - **Neither side:** Thursday (middling for opening the soil); one mansion after mon gru, not legible (middling for manuring); gro bzhin (good for breaking in oxen); tha skar (bad for opening the soil); the 29th, good and also bad for breaking in oxen
 - **Not calculated:** rising signs; Abhijit (good); the Chinese almanac's days and the earth goddess's place (bad)
+- **Settled 2026-10-19 (open question 157):** the doubtful numeral is KP's 9, so the good dates are «༡ ༦ ༡༦ ༡༩ ༢༥ ༢༦» and the bad «༡༡ ༢༢ ༢༩», WB's work 9 date for date (the good 11 left out). The print carves its 9 as a crescent with a raised, curled head: box 19's own number (img. 35, the box after 18 and before 20), box 22's bad 29 (img. 38) and both doubtful places here have it; its 4 is the crescent with a flat head, box 22's bad 4 and 14. The O10f reading below took the curled head for the 4; it is kept as it was.
 - **The scan (O10f) reads otherwise:** the good dates are «༡ ༦ ༡༦ ༡༤ ༢༥ ༢༦», 1, 6, 16, 14, 25, 26 (the 6 is box 16's 6 of the run 6 7 8 9 10, BDRC img. 33; the 4 the open hook with a flat head of box 22's bad 4, 8, 14, 28, img. 38, not the looped head of box 16's 9), not 1, 4, 14, 19, 25; and the bad «༡༡ ༢༢ ༢༤», 11, 22, 24, stand before «གླང་འདུལ་བ་ལ་ངན» (bad for breaking in oxen). No 29 is in the box. Whether «bad for breaking in oxen» holds for the three dates alone or for the whole line is not settled. The «བྱི» closing the bad half's second line runs on into «ལམ་ལྡོ»: the mouse road, not a Mouse day. WB's own work (vol. 2, p. 390, img. 398, ch. 34 no. 9, read on the scan) has «ཚེས་གཅིག་དྲུག་དང་བཅུ་གཅིག་དང་། །བཅུ་དྲུག་བཅུ་དགུ་ཉི་ཤུ་ལྔ། །ཉེར་དྲུག་རྣམས་ལ་བཟང་པོ་ཡིན། །བཅུ་གཅིག་ཉེར་གཉིས་ཉེར་དགུ་ལ། །གླང་འདུལ་བྱེད་པར་ངན་པ་ཡིན།», 19 and 29 where KP's carving has the shape of its own 4 (box 16's ༡༤, not its ༩): the box and the chapter differ in these two digits, and in WB too the three bad dates are qualified, «bad for breaking in oxen».
 
 ### 22. Sowing the fields — ཞིང་ལས་ས་བོན་འདེབས་པ་ལ་བཟང་བ
@@ -314,6 +315,7 @@ The box on the scan, KP BDRC img. 38 (O10f):
 - **Not calculated:** Abhijit (good); the link ཚོར་བ; rising signs; srung bu, the earth lord, the Dragon god and the like
 - The good dates run in two lines and are read on the scan at three times the size; the readings by machine disagree on most of them.
 - **The scan (O10f):** The doubtful good date reads ༡༤ by the shape of the bad half's own 4 and 14 on the same folio (the open hook with a flat head): then the 14th, like the 28th, is printed in both halves and counts for neither side, not bad.
+- **Settled otherwise 2026-10-19 (open question 157):** the doubtful good date has the curled head of the print's 9 (box 19's own number, the bad half's 29 two lines away), not the flat head of the bad half's 4 and 14: it is ༡༩, as WB's sowing has it (19 good, 14 bad, p. 400). So the good dates add the 19th, and the 14th is bad; only the 28th stands in both halves. Built so.
 
 ### 23. Giving gifts and dowries — སྐྱས་བྱེད་པ་བཟང་བ
 
@@ -1366,6 +1368,8 @@ the good of both halves, not the bad.
   24 that WB has nowhere in the work; read as 9, it is WB's list. Which
   numeral the carver meant is still not settled against KP's 4s and 9s
   elsewhere.
+  Settled the same day: a 9, by box 19's own number and box 22's 29
+  (box 21 above).
 
 ## The numerals before the rising signs are WB's mewa, 2026-10-19 (open question 104)
 

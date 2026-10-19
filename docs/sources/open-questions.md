@@ -2035,6 +2035,15 @@ the text, not about the app.
      have. The shape itself is not yet compared with KP's 4s and 9s
      elsewhere.*
 
+     *Answered 2026-10-19 ([kp-activities.md](kp-activities.md), box 21):
+     a 9. KP carves its 9 as a crescent with a raised, curled head and its
+     4 with a flat head. Box 19's own number (img. 35, between boxes 18
+     and 20) and box 22's bad 29 (img. 38) have the curled head, box 22's
+     bad 4 and 14 the flat one, and both doubtful places of box 21 the
+     curled: box 21 is WB's work 9, «༡ ༦ ༡༦ ༡༩ ༢༥ ༢༦» good, «༡༡ ༢༢ ༢༩» bad
+     for breaking in oxen. Box 22's doubtful good date, read ༡༤ in O10f, has
+     the curled head too: ༡༩, WB's good 19 for sowing. Both built.*
+
 158. **Answered 2026-10-18. How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,
      the household's trigrams of the year "piled" on one trigram, and
      p. 407, «ཁྱིམ་ནང་གཅིག་དཀར་མང་ཚོགས་ན», many members on one mewa. Is a
