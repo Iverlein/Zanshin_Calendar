@@ -882,6 +882,10 @@
     <string name="birth_raising_day">День рождения</string>
     <string name="birth_raising_month_subtitle">Месяц: %1$s</string>
     <string name="birth_raising_day_subtitle">День: %1$s</string>
+    <string name="birth_section_precious">Драгоценные камни</string>
+    <string name="birth_precious_white">белый</string>
+    <string name="birth_precious_black">чёрный</string>
+    <string name="birth_precious_speckled">%1$s, по животному «%2$s», пёстрый: наполовину белый, наполовину чёрный.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>

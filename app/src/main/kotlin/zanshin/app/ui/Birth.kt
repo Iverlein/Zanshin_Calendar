@@ -40,6 +40,8 @@ import zanshin.core.tibetan.smeBaElement
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.RaisingDay
 import zanshin.core.tibetan.RaisingMonth
+import zanshin.core.tibetan.PebbleColour
+import zanshin.core.tibetan.PreciousPebble
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
@@ -198,6 +200,26 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
             ),
             onOpen,
         )
+    }
+    Section(stringResource(R.string.birth_section_precious))
+    listOf(PreciousPebble.YEAR to sign.animal, PreciousPebble.MONTH to born.monthNames.animal, PreciousPebble.DAY to born.dayAnimal).forEach { (p, animal) ->
+        val colour = BirthReckoning.preciousColour(animal)
+        val reading = Texts.preciousPebble(p, colour)
+        if (reading == null) {
+            Text(labels.string(R.string.birth_precious_speckled, p.english.replaceFirstChar(Char::uppercase), gloss(animal)), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        } else {
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.birth_share_title, p.english.replaceFirstChar(Char::uppercase), stringResource(if (colour == PebbleColour.WHITE) R.string.birth_precious_white else R.string.birth_precious_black)),
+                    english = "",
+                    tone = if (colour == PebbleColour.WHITE) Tone.GOOD else Tone.BAD,
+                    reading = reading,
+                    subtitle = gloss(animal),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
     }
     val month = BirthReckoning.raisingMonth(sign.animal, born.monthNames.animal)
     val day = BirthReckoning.raisingDay(sign.animal, born.dayAnimal)

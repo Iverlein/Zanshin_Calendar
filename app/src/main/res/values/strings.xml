@@ -1027,6 +1027,10 @@
     <string name="birth_raising_day">The birth day</string>
     <string name="birth_raising_month_subtitle">A %1$s month</string>
     <string name="birth_raising_day_subtitle">A %1$s day</string>
+    <string name="birth_section_precious">The precious pebbles</string>
+    <string name="birth_precious_white">white</string>
+    <string name="birth_precious_black">black</string>
+    <string name="birth_precious_speckled">%1$s, by the %2$s, is speckled, half white and half black.</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>
