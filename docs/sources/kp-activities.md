@@ -1356,3 +1356,13 @@ the good of both halves, not the bad.
   for the whole work; KP's «ཚེས་༡༡ ༢༢ ༢༤ གླང་འདུལ་བ་ལ་ངན» is the same line, with its
   ༢༤ where WB has 29, as in the box's good dates (question 157), where
   the shape read as 4 stands where WB has 9.
+- **Box 21's doubtful shape stands where WB has its 9s (open question
+  157).** Read again on img. 36 at 3× (2026-10-19): the good half's
+  dates after «ཚེས་༡» run ༦ ༡༦ ༡[?] ༢༥ ༢༦ and the bad half's ༡༡ ༢༢ ༢[?], the
+  same cursive shape in both doubtful places. WB's work 9 has the good
+  1, 6, 11, 16, 19, 25, 26 and the bad 11, 22, 29: the box follows that
+  order date for date (the good 11 left out), and the doubtful shape
+  falls on WB's 19 and 29 alone. Read as 4, the box would add a 14 and a
+  24 that WB has nowhere in the work; read as 9, it is WB's list. Which
+  numeral the carver meant is still not settled against KP's 4s and 9s
+  elsewhere.

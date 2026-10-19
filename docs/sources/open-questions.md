@@ -1813,6 +1813,12 @@ the text, not about the app.
      after «ཚེས་༡» in the same five cursive shapes as KP (img. 36), so both prints
      have them; whether the glyphs are KP's 4 or its 9 is not settled by eye.*
 
+     *Narrowed further 2026-10-19 ([kp-activities.md](kp-activities.md),
+     *Box 21's bad dates against WB's work 9*): the box's dates follow WB's
+     work 9 in order (good ༦ ༡༦ ༡? ༢༥ ༢༦, bad ༡༡ ༢༢ ༢?), and the doubtful shape falls
+     only where WB has 19 and 29; read as 4 it would add dates WB does not
+     have. The shape itself is not yet compared with KP's 4s and 9s
+     elsewhere.*
 
 158. **Answered 2026-10-18. How many members make a pile.** WB vol. 1, p. 396: «ཁྱིམ་གཅིག་བཟའ་གྲངས་མང་ཡོད་དེ། །ལིར་སྤུངས་…»,
      the household's trigrams of the year "piled" on one trigram, and
