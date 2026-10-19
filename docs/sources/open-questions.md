@@ -2288,3 +2288,36 @@ the text, not about the app.
      So the dog and the ox give a speckled pebble, neither white nor black;
      the tiger starts with one black.*
 
+161. **The marriage match's hidden: which mewa stands for each aspect (WB vol. 1, ch. 23, pp. 357–358).** «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།»
+     (read on the scan, marriage.md): the life force's mewa is "four up",
+     destiny's "four down", the body's the birth mewa, the luck's "the
+     three in concord"; a man's five counts as two, a woman's as seven.
+     Four up and down from what, along which sequence, and which of the
+     three in concord? And the body-cut wheel names the turtle's body
+     parts with numbers («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)»), not pairs:
+     which pairs does it hold? The hidden waits on it (ROADMAP R3c).
+162. **«དཱ་ཟླ» in raising the child (WB vol. 1, ch. 22, p. 348).** «དུར་ཞུགས་ཕ་ཡི་དཱ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དཱ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དཱ་ཟླ་ཡིན།»
+     (Yigdzin-1, not read on the scan): the readings say the month "bears
+     hard" on the father, the mother, the child, by the parallel «བུས་པ་རང་ལ་ངན་པ».
+     What is «དཱ», and does the scan read it so (R2k)?
+163. **Revatī in p. 348's mansions (WB vol. 1, ch. 22).** «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་།» puts
+     Revatī (ནམ་གྲུ) among the very bad mansions for a birth, while Revatī's own
+     verse (mansion-verses.md) makes it one of the four accomplishing
+     mansions (with Puṣya, Viśākhā and Uttarāṣāḍhā). Does the scan read
+     «ནམ་གྲུ», and which four does p. 348 mean? The birth mansion's reading
+     waits on it (R2k).
+164. **The moment's trigram and mewa (WB vol. 2, ch. 30, pp. 156, 162).** The day's
+     length divided by eight for the trigram, by nine for the mewa, each
+     counted "from the one that rises at dawn on that date": in which
+     order are the trigrams counted, and do the mewa run up or down (as
+     the day's mewa do by the solstice)? Is "dawn" the hare hour's start
+     or sunrise, and is p. 162's fixed three-quarter hour per trigram
+     meant instead of the day's length? The reckoning of the moment waits
+     on it.
+165. **The match's point 10, the birth months against each other (WB vol. 1, ch. 23, p. 360).** «བཅུ་པ་སྐྱེས་པའི་ཟླ་བ་དང་། །ཉི་མ་དུས་ཚོད་དགྲ་དུར་དང་། །བདུན་ཟུར་བཞི་གཤེད་ངན་མེད་པའི། །མཐུན་ན་བསོད་ནམས་ཆེ་བ་དང་།»:
+     the spouses' birth month, day and hour agree when there is no enemy,
+     grave, seventh or four-executioner between them. Which relations of
+     two animals are meant by grave and four-executioner here?
+166. **The match's point 7, the siblings' number (WB vol. 1, ch. 23, p. 359).** «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །ཤིང་གཅིག་ས་གཉིས་ཆུ་ལ་གསུམ། །མེ་བཞི་ལྕགས་ལ་རྡེའུ་ལྔ། །རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ།»:
+     is the even or odd count each spouse's own total, or the two
+     together? The point waits on it.
