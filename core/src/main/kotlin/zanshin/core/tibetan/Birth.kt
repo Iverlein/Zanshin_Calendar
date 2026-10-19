@@ -128,6 +128,36 @@ enum class DpalByur {
 }
 
 /**
+ * Where a forefather's life force, counted down through its twelve stages onto one's birth year, falls in the line of
+ * births (*rgya ma*, pp. 297–299, and the notes, vol. 2, p. 476): illness crowded, death empty, the seventh from the
+ * tomb staying, the tomb torn.
+ */
+enum class LineStage {
+    CROWDED,
+    EMPTY,
+    STAYING,
+    TORN;
+
+    val english: String get() = gloss(this)
+}
+
+/** The forefathers' years pp. 297–299 reads the crowded line for, one group each. */
+enum class LineGroup(val animals: Set<Animal>) {
+    HORSE_SNAKE(setOf(Animal.HORSE, Animal.SNAKE)),
+    TIGER_RABBIT(setOf(Animal.TIGER, Animal.RABBIT)),
+    BIRD_MONKEY(setOf(Animal.BIRD, Animal.MONKEY)),
+    MOUSE_PIG(setOf(Animal.MOUSE, Animal.PIG)),
+    OX(setOf(Animal.OX)),
+    SHEEP(setOf(Animal.SHEEP)),
+    DOG(setOf(Animal.DOG)),
+    DRAGON(setOf(Animal.DRAGON));
+
+    companion object {
+        fun of(animal: Animal): LineGroup = entries.first { animal in it.animals }
+    }
+}
+
+/**
  * The readings of the parents' trigrams at the birth (p. 326) that the dates decide, in WB's order. The trigram a
  * child is born on is the mother's (the natal trigram); the father's is his trigram of the year of the birth. WB's
  * readings that need the order of the siblings, or end "and the like", are left out.
@@ -259,6 +289,21 @@ object BirthReckoning {
 
     /** Whose year each aspect is set against in glory and misfortune: the life force and luck the father's, the body and destiny the mother's. */
     fun dpalByurParentIsFather(force: Force): Boolean = force == Force.VITALITY || force == Force.LUCK
+
+    /**
+     * Where the life force of a forefather born in a year of [forefather], counted down onto a birth year of [child],
+     * falls in the line of births (pp. 297–299): null when on none of the four. The life force goes by the animal alone.
+     */
+    fun lineStage(forefather: Animal, child: Animal): LineStage? {
+        val vitality = Forces.of(Element.WOOD, forefather).vitality
+        return when (YearOfLife.sector(vitality, child)) {
+            Sector.ILLNESS -> LineStage.CROWDED
+            Sector.DEATH -> LineStage.EMPTY
+            Sector.DRESSING -> LineStage.STAYING
+            Sector.ENTERING_THE_TOMB -> LineStage.TORN
+            else -> null
+        }
+    }
 
     /**
      * The age at which p. 294 has a child of a demon die, by the life force [vitality]: wood on dwa at fifteen,

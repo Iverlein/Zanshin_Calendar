@@ -10,6 +10,23 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The line of births' examples, pp. 297–299: for each forefather's year, the child's years that crowd, empty, stay and tear the line. */
+    @Test
+    fun `the line of births as WB lists it`() {
+        fun check(f: Animal, crowd: Animal, empty: Animal, stay: Animal, torn: Animal) {
+            assertEquals(LineStage.CROWDED, BirthReckoning.lineStage(f, crowd), "$f crowded")
+            assertEquals(LineStage.EMPTY, BirthReckoning.lineStage(f, empty), "$f empty")
+            assertEquals(LineStage.STAYING, BirthReckoning.lineStage(f, stay), "$f staying")
+            assertEquals(LineStage.TORN, BirthReckoning.lineStage(f, torn), "$f torn")
+        }
+        check(Animal.HORSE, Animal.MONKEY, Animal.BIRD, Animal.DRAGON, Animal.DOG)
+        check(Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.OX, Animal.SHEEP)
+        check(Animal.BIRD, Animal.PIG, Animal.MOUSE, Animal.SHEEP, Animal.OX)
+        check(Animal.MOUSE, Animal.TIGER, Animal.RABBIT, Animal.DOG, Animal.DRAGON)
+        for (earth in listOf(Animal.OX, Animal.SHEEP, Animal.DOG, Animal.DRAGON)) check(earth, Animal.TIGER, Animal.RABBIT, Animal.DOG, Animal.DRAGON)
+        assertNull(BirthReckoning.lineStage(Animal.HORSE, Animal.HORSE))
+    }
+
     /** The notes' rule for glory and misfortune (vol. 2, p. 476): the parent's the mother of one's own, glory; its son, lustre lost; enemy, misfortune; same, own foot; friend, life taken. */
     @Test
     fun `glory and misfortune by the notes`() {

@@ -19,6 +19,8 @@ import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
+import zanshin.core.tibetan.LineGroup
+import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
@@ -385,6 +387,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The line of births (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_BIRTH_LINE = whiteBeryl("chapter 22, pp. 297–299, with the notes in vol. 2, p. 476", volume = 1)
     /** Glory and misfortune against the parents' years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_DPAL_BYUR = whiteBeryl("chapter 22, pp. 295–297, with the notes in vol. 2, p. 476", volume = 1)
     /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2019,6 +2023,13 @@ object Texts {
         key = "reading.DpalByur",
         arg = "reading.DpalByur.${force.name}.${result.name}" + if (force == Force.VITALITY && result == DpalByur.OWN_FOOT) ".${element.name}" else "",
         source = Sources.WHITE_BERYL_DPAL_BYUR,
+    )
+
+    /** The line of births [stage] under a forefather of [group]'s years (WB vol. 1, ch. 22, pp. 297–299); the crowded line's reading is the group's. */
+    fun birthLine(stage: LineStage, group: LineGroup): Reading = Reading(
+        key = "reading.BirthLine",
+        arg = "reading.BirthLine.${stage.name}" + if (stage == LineStage.CROWDED) ".${group.name}" else "",
+        source = Sources.WHITE_BERYL_BIRTH_LINE,
     )
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
