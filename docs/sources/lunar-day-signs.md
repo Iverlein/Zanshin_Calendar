@@ -150,9 +150,107 @@ p. 450 (img. 460):
 
 > ལས་ཆེས་ཟབ་པའི། །བརྩི་ལུགས་སྟག་རྟ་ཁྱི་ཟླ་ལ། །ཚེས་གཅིག་འོད་འབར་མ་ལ་སོགས། །སྔོན་དུ་བཤད་པའི་ཇི་བཞིན་བྱ། །ཕག་ལུག་ཡོས་ཀྱི་ཟླ་བ་ལ། །གཅིག་དགུ་བཅུ་བདུན་ཉི་ཤུ་ལྔ། །འོད་འཆང་མ་ཡི་ཉི་མ་དང་། །གཉིས་བཅུ་བཅོ་བརྒྱད་ཉེར་དྲུག་རྣམས། །སྐྱོབ་བྱེད་མ་ཡི་ཉི་མ་ཡིན། །མེ་དྲག་བཅུ་དགུ་ཉེར་བདུན་རྣམས། །འོད་འབར་མ་ཡི་ཉི་མ་དང་། །མཚོ་ཁྱིམ་ཉི་ཤུ་ཉེར་བརྒྱད་རྣམས། །བསྟན་མ་མདའ་འདོད་ཉེར་གཅིག་དགུ། །དཀར་གསལ་དུས་ཡིད་ཉེར་གཉིས་སྟོང་། །མདངས་ལྡན་མ་ཡིན་བདུན་བཅོ་ལྔ། །ཉེར་གསུམ་ཆར་འབེབས་མ་ཡི་ཉི། །བརྒྱད་དང་བཅུ་དྲུག་ཉི་ཤུ་བཞི། །གཡོ་མེད་མ་ཡི་ཉི་མ་ཡིན། །བྱ་གླང་སྦྲུལ་གྱི་ཟླ་བ་ལ། །གཅིག་དགུ་བཅུ་བདུན་ཉི་ཤུ་ལྔ། །དཀར་གསལ་མ་ཡི་ཉི་མ་ཡིན། །གཉིས་བཅུ་བཅོ་བརྒྱད་ཉི་ཤུ་དྲུག །མདངས་ལྡན་མེ་དྲག་བཅུ་དགུ་སྐོར། །ཆར་འབེབས་མ་ཡིན་མཚོ་ཁྱིམ་དང་། །ཉི་ཤུ་ཉེར་བརྒྱད་གཡོ་མེད་ཉི། །མདའ་འདོད་ཉེར་གཅིག་ཉེར་དགུ་རྣམས། །འོད་འཆང་དུས་ཡིད་ཉེར་གཉིས་སྟོང། །སྐྱོབ་བྱེད་མ་ཡིན་བདུན་བཅོ་ལྔ། །ཉེར་གསུམ་འོད་འབར་མ་ཡི་ཉི། །བརྒྱད་དང་བཅུ་དྲུག་ཉི་ཤུ་བཞི། །ལྷ་མོ་བསྟན་མའི་ཉི་མ་ཡིན། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཟླ་བ་ལ། །གཅིག་དགུ་བཅུ་བདུན་ཉི་ཤུ་ལྔ། །ཆར་འབེབས་མ་ཡི་ཉི་མ་ཡིན། །གཉིས་བཅུ་བཅོ་བརྒྱད་ཉེར་དྲུག་རྣམས། །གཡོ་མེད་མ་ཡིན་མེ་དྲག་པོ། །བཅུ་དགུ་ཉེར་བདུན་འོད་འཆང་མ། །མཚོ་ཁྱིམ་ཉི་ཤུ་ཉེར་བརྒྱད་རྣམས། །སྐྱོབ་བྱེད་མདའ་འདོད་ཉེར་གཅིག་དགུ། །འོད་འབར་མ་ཡིན་དྲུག་བཅུ་བཞི། །ཉེར་གཉིས་སྟོང་རྣམས་བསྟན་མའི་ཉི། །བཅོ་ལྔ་བདུན་དང་ཉི་ཤུ་གསུམ། །དཀར་གསལ་བརྒྱད་དང་བཅུ་དྲུག་དང་། །ཉེར་བཞི་མདངས་ལྡན་མ་ཡི་ཉི། །སྔོན་མ་དྲུག་ལ་ཞག་བཞི་རེ། །ཕྱི་མ་གཉིས་ལ་གསུམ་རེ་ཐོབ། །དེས་ནི་ཚེས་གྲངས་བསྟན་པའོ། །དེ་ཡི་ཞག་གྲངས་དེད་པ་དེ། །འཕྲུལ་གྱི་རྒྱལ་པོས་དེ་ལུང་ཐོགས།།
 
+## The date's trigram and sme ba in WB's chapter 33, 2026-10-19
+
+WB vol. 2, ch. 33, pp. 365–368 (1996 edition, img. 373–376), read on the
+Gser thang reprint of the same typesetting (I3CN5029, img. 371–374, 1905
+px; image = page + 6), every verse by eye at full size, the 1996 etext
+beside it. After the twelve hours (p. 365, l. 1), each trigram and sme ba
+with a woodcut: «སྤར་སྨེ་ཚེས་འཆར་དུས་ཚོད་ཀྱི། །འབྲས་བུ་མདོ་ཙམ་བརྗོད་པ་ལ།», "to tell in brief the results of the
+time when a trigram and a sme ba rise on the date": the almanac's trigram
+and sme ba of the date (ch. 14, above), not the birth year's. The verses
+run on: «བཟང་ལ» and «ངན་ལ» close one list and open the next, so a sme ba's
+verse on the page begins with the last word of the one before.
+
+> ལི་ལ་ལྕགས་དང་རྫའི་ཞུན་གཏོང་། །ཧོམ་སྤར་རྒྱུན་པོ་འགྱེད་པ་དང་། །མ་ཚུན་གསོལ་བ་བཟང་། དམར་རོའི་ལས། །བག་མ་རྐུ་ཇག་མཐུན་སྒྲིག་ངན།།
+> ཁོན་ལ་ས་སྒོ་སྡོམ་པ་དང་། །ཤིང་གཅོད་སྒབ་གཅོད་མནན་པ་བཟང་། །མཁར་རྨང་འདིང་དང་འཁོན་པར་འགྲོ། །རོ་སྦེད་འདུན་མ་ཁྲུས་སོགས་ངན།།
+> དྭ་ལ་མཛེ་རོ་བསྲེག་པ་དང་། །དམག་འདྲེན་བུ་ཚ་རྐང་འཛུགས་ངན། །ཤར་དུ་དོན་གཉེར་མནའ་བག་གབ། །ལིང་དང་རྐུ་ཇག་ཤིང་གཅོད་བཟང་།།
+> ཁེན་ལ་གནམ་སྒོ་སྡོམ་པ་དང་། །རྒྱལ་མདོས་མི་ཆེན་མཇལ་བ་དང་། །དགེ་ལས་བཟང་ལ་མཁར་རྨང་ཐོག །སྐྱེས་བྱ་ཁྱི་ཡི་ཉོ་ཚོང་ངན། །འདི་ལ་ནད་པ་ཐོག་འདོན་དང་། །ལྷ་ཁང་མི་ཉལ་རྒྱལ་པོ་བཅོས།།
+> ཁམ་ལ་ཆུ་ཆེན་བརྒལ་བ་དང་། །ཉ་བཤོར་ཞིང་ཡུར་མནའ་སྐྱེལ་བ། །དགྲ་རྒོལ་ས་གཉན་འདུལ་བ་ངན། །ཀླུ་དང་ལྷ་མཆོད་སེར་བ་འབེབས། །ལྕགས་བཟོ་བཟློག་པ་རྣམས་ལ་བཟང་།།
+> གིན་ལ་ལྷ་གསོལ་ཆོས་སྒོར་ཞུགས། །ཕུར་བཟློག་མནན་པ་རྟ་གླང་འདུལ། །ཁྱིམ་འབུབས་མཁར་རྨང་འདིང་རྣམས་བཟང་། །ཆོས་འདོན་ཆེ་འདོན་ཉོ་ཚོང་ངན།།
+> ཟིན་ལ་ལྷ་གསོལ་རྒྱན་འདོགས་པ། །ཤིང་འཛུགས་མཁར་རྨང་འདིང་བ་བཟང་།། ཤིང་གཅོད་མནའ་དཀར་བྱེད་པ་ངན།།
+> ཟོན་ལ་བཟླས་པ་བཟློག་པ་དང་། །དྲག་ལས་སྨྱོན་པ་འདུལ་བ་བཟང་།། རང་འཐག་འཛུགས་དང་མནའ་བཀག་པ། །འདུ་ལོང་བྱ་བ་ཤས་ཆེར་ངན།
+> གཅིག་དཀར་བྱིས་པ་རྐང་འཛུགས་དང་། །སྒོར་ཁྲིད་ངན་ལ་ཁྲུས་བྱ་བ། །ལྷ་ཀླུ་གསོལ་བཟང་། གཉིས་ནག་ལ། །བདུད་དང་མ་གཤིན་མཆོད་པ་དང་། །མཐུ་གཏད་མནན་བཟློག་ལ་སོགས་བཟང་། །མྱ་ངན་ངུ་འབོད་མཚན་འགྲོས་བག །ལྷ་གསོལ་བ་རྣམས་ངན་པ་ཡིན།།
+> གསུམ་མཐིང་ཆབ་གཏོར་ཀླུ་གཏོར་དང་། །ས་བདག་ཀླུ་བསྙེན་གཉན་སྨན་མཆོད། །བཟང་ལ་ཤིང་གཅོད་རྫིང་ཁྲོན་དང་། །ནེའུ་གསིང་འདྲུ་བ་བག་ལྷ་གསོལ། །ངན་ལ་བཞི་ལྗང་མཆོད་གཏོར་དང་། །ཀླུ་བརྒྱད་མཆོད་བཅོས་སྨན་སྦྱོར་བཟང་། །བྱིས་པ་སྒོ་ཁྲིད་ཡུགས་སྐྲ་འཁྲུ། །ངན་ལ་ལྔ་སེར་རྒྱལ་པོ་གསོལ། །ལྷ་ཁང་གསོ་བ་རབ་གནས་དང་། །རབ་བྱུང་ཆོས་སྟོན་བྱེད་པ་བཟང་། །ས་འདུ[?]་སྟོན་མོ་ཁྱི་ཉོ་ངན།།
+> དྲུག་དཀར་ལྷ་གསོལ་གཡང་འགུགས་ཁྲུས། །བཤགས་པ་འཕོ་སྐྱས་བག་མ་བཟང་། །མྱ་ངན་སྨྲེ་སྔགས་བཙོག་མནོལ་འཁོན། །ངན་ལ་བདུན་དམར་གཟའ་བཙན་དང་། །དམུ་གསོལ་བཟང་ལ་དམར་ཞབ་དང་། །[ཚོམ]་སྒྲིག་དམག་ཇག་བྱེད་པ་ངན།།
+> བརྒྱད་དཀར་ལྷ་གསོལ་ཁྲུས་བསྐང་བཤགས། །བསངས་དང་བག་མ་ཤིས་བརྗོད་དང་། །སྲུང་མར་གཏང་རག་གཏོང་རྣམས་བཟང་། །ཐབ་གཞོབ་མནོལ་སོགས་ངན་པ་ཡིན།།
+> དགུ་དམར་ཚེ་གཡང་འགུགས་པ་དང་། །ཚོང་ཞེན་བཟང་ལ་ཐར་འཇལ་དང་། །རྒན་རྒོན་ཤི་བ་གཡང་རལ་ངན།
+
+The trigrams and sme ba on the date, in brief:
+
+- **Li** (ལི, li): casting iron and clay, the *hom* offering, offering to the
+  mothers' kin (*ma tshun*) good; red corpse work, a bride, theft and
+  robbery, reconciling bad.
+- **Khon** (ཁོན, khon): closing the earth door, felling trees, cutting off
+  (*sgab gcod*), suppressing good; laying a fort's foundations, going to a
+  place of quarrel, hiding a corpse, councils, bathing bad.
+- **Dwa** (དྭ, dwa): burning a leper's corpse, leading an army, establishing
+  the line of descendants bad; pursuing aims to the east, an oath, hiding a
+  bride, the effigy (*linga*) rite, theft and robbery, felling trees good.
+- **Khen** (ཁེན, khen): closing the sky door, the king's thread-cross,
+  meeting great men, virtuous works good; a fort's foundations and roof,
+  buying and selling birds and dogs bad; on it the sick are taken out over
+  the roof, no one sleeps in the temple, the king spirit is treated.
+- **Kham** (ཁམ, kham): crossing a great river, fishing, field channels,
+  sending an oath, attacking enemies, taming earth spirits bad; offerings to
+  the nāgas and gods, bringing down hail, smith work, averting rites good.
+- **Gin** (གིན, gin): offering to the gods, entering the Dharma, the dagger's
+  averting, suppressing, breaking horses and oxen, roofing a house, laying a
+  fort's foundations good; reciting Dharma, *che 'don*, buying and selling bad.
+- **Zin** (ཟིན, zin): offering to the gods, putting on ornaments, planting
+  trees, laying a fort's foundations good; felling trees, a white oath bad.
+- **Zon** (ཟོན, zon): recitation, averting, fierce work, taming the mad good;
+  setting up the hand mill (*rang 'thag*), forbidding an oath and the work of
+  *'du long* mostly bad.
+- **One-white**: establishing a child and taking it out of the door bad;
+  bathing and offering to gods and nāgas good.
+- **Two-black**: offerings to demons and the mothers of the dead, sorcery,
+  suppressing and averting good; mourning, wailing, night journeys, a bride,
+  offering to the gods bad.
+- **Three-blue**: water and nāga tormas, offerings to earth lords, nāgas,
+  *gnyan* and *sman* good; felling trees, ponds and wells, *ne'u gsing*
+  digging, offering to the bride's god bad.
+- **Four-green**: offerings and tormas, offerings to the eight nāgas,
+  treatment, compounding medicine good; taking a child out of the door, a
+  widow, washing the hair bad.
+- **Five-yellow**: offering to the king spirits, restoring temples,
+  consecration, ordination, teaching the Dharma good; *sa 'du*[?], feasts,
+  buying dogs bad.
+- **Six-white**: offering to the gods, calling prosperity, bathing,
+  confession, moving house, a bride good; mourning, wailing, filth and
+  defilement, quarrel bad.
+- **Seven-red**: offerings to the *gza'* and *btsan* and the *dmu* good;
+  *dmar zhab*, [*tshom*] *sgrig*, war and robbery bad.
+- **Eight-white**: offering to the gods, bathing, fulfilment and confession,
+  fumigation, a bride, auspicious words, thanksgiving to the protectors
+  good; the hearth, defilement and the like bad.
+- **Nine-red**: calling life and prosperity, trade good; paying ransoms
+  (*thar 'jal*), the death of the old, the loss of prosperity bad.
+
+Then the remedies («སྤར་སྨེ་ངན་ལ་ལས་བྱ་ན། །དེ་དག་སྒྲིབ་ཤིང་མདོ་ཙམ་བཤད།»,
+p. 367, read on the scan; to p. 368 from the etext, checked at the line
+heads): a skull of a kind with an animal riding it for each trigram, «ལི་ནི་བཤན་པའི་ཐོད་པ་ལ། །ཆུ་སྲིན་ཞོན་པས་སྒྲིབ་པར་བྱ། །ཁོན་ནི་ཤིང་མཁན་ཐོད་པ་ལ། །སྡིག་པ་ཞོན་པས་སྒྲིབ་པར་བྱ། །དྭ་ལ་དམེ་ཐོད་སྦྲུལ་ཞོན་སྒྲིབ། །ཁེན་ནི་མཛེ་ཐོད་ཕག་ཞོན་སྒྲིབ། །ཁམ་ནི་རབས་ཆད་ཐོད་པ་ལ། །གླང་ཆེན་ཞོན་པས་སྒྲིབ་པར་བྱ། །གིན་ནི་ཤོ་རེའི་ཐོད་པ་ལ། །ཕུར་པ་བཙུགས་པས་སྒྲིབ་པར་བྱ། །ཟིན་ནི་མགར་ཐོད་སྤྱང་ཞོན་སྒྲིབ། །ཟོན་ནི་སྨྱོན་མའི་ཐོད་པ་ལ། །རྩངས་པ་ཞོན་པས་སྒྲིབ་པར་བྱ།»
+(a butcher's skull with a makara, a carpenter's with a scorpion, a
+kin-slayer's with a snake, a leper's with a pig, an heirless man's with an
+elephant, a gambler's with a dagger planted in it, a smith's with a wolf, a
+madwoman's with a lizard), and a figure for each sme ba, «གཅིག་དཀར་མི་དམར་རྟ་དམར་དང་། །གཉིས་ནག་ཁྱི་ནག་ཕོ་རྟགས་སྒྲིབ། །གསུམ་མཐིང་གླང་ཆེན་སྦྲུལ་ཞོན་སྒྲིབ། །བཞི་ལྗང་སྤྲེལ་དཀར་ཁྱི་དམར་ཞོན། །ལྔ་སེར་སྟག་ཐོག་ཚེར་མ་བཙུགས། །དྲུག་དཀར་ཝ་ལ་སྦྲུལ་ཞོན་སྒྲིབ། །བདུན་དམར་ཆུ་གླང་སྔོན་པོ་ལ། །ལྷ་སྨན་བཟང་པོ་ཞོན་པས་སྒྲིབ། །བརྒྱད་དཀར་རྭ་ཅན་བཞི་ཡིས་སྒྲིབ། །དགུ་དམར་རྩད་པོ་ཕག་ཞོན་སྒྲིབ།».
+The sky doors follow (pp. 368–369, [earth-lord-courses.md](earth-lord-courses.md)).
+
+KP's second part copies the remedies word for word (§18, BDRC I4CZ65599
+img. 115–116, Yigdzin-1: «ལི་ལ་བཤན་ཐོད་ཆུ་སྲིན་སྐྱོན། …»), and its boxes
+weigh the trigram and sme ba of the date in each work's list; the lists
+above are the chapter's own, by trigram and sme ba, and are not yet built
+(the app has the date's trigram and sme ba, and the goddesses' illness
+readings). Doubtful on the scan: «ས་འདུ» (five-yellow's bad, the second
+letter), «[ཚོམ]» (seven-red), «དམར་ཞབ» (sense not settled), «ཞིང་ཡུར» (the
+1996 etext «རྫིང་ཡུར»). The words *ma tshun*, *che 'don*, *ne'u gsing
+'dru ba*, *'du long* and *thar 'jal* are given as printed.
+
 ## The sme ba
 
-No reading of the date's sme ba was found:
+*Found 2026-10-19:* WB's own results of the date's trigram and sme ba
+are in ch. 33, pp. 365–368 (above). Before that, no reading of the
+date's sme ba was found:
 
 - **KP §12** (img. 85–86) treats the trigram and sme ba of the birth year
   (the eight places *lus chad*, *srog 'tsho* …) and says outright that the
