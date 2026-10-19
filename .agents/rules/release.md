@@ -58,6 +58,10 @@ Only the changelog waits for the release (*Releases* below).
   `app/proguard-rules.pro`. A debug build never shows a breakage there: build
   `assembleRelease`, sign it with the debug key (zipalign, apksigner) and look
   at both pages and a sheet on the emulator for raw keys such as `lh1.SENBU`.
+  The release build is not debuggable, so `run-as` cannot write its
+  preferences: `emu.prefs_release(...)` copies them in by root, and
+  `emu.language(tag, emu.RELEASE_PKG)` and `emu.start(package=emu.RELEASE_PKG)`
+  drive it; uninstall it from the emulator afterwards.
 - **Releases** (SPEC §12): bump `versionCode` and `versionName` in
   `app/build.gradle.kts`, add `changelogs/<versionCode>.txt`, commit, tag
   `v<versionName>`, push the tag (GitHub releases and their APKs follow by themselves, SPEC §12). The store description is kept current on every feature merge (*Docs on every feature merge*) and must not name unbuilt features.

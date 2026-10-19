@@ -79,9 +79,30 @@ def prefs(calendar="TIBETAN", birth=BIRTH_1976_06_01, kigaku=True, place=KYOTO, 
     sh(f"run-as {PKG} sh -c 'cat /data/local/tmp/z.xml > shared_prefs/zanshin.xml'")
 
 
-def language(tag):
-    """The app's own language (per-app locale): "ru", "en", or "" to follow the system."""
-    sh(f'cmd locale set-app-locales {PKG} --locales "{tag}"')
+RELEASE_PKG = "io.github.iverlein.zanshin"  # the release build, signed with the debug key for a check (.agents/rules/release.md)
+
+
+def prefs_release(calendar="TIBETAN", **kwargs):
+    """
+    The same preferences as prefs(), written into the release build, which run-as cannot reach: written for the debug
+    build first (which leaves them in /data/local/tmp/z.xml), then copied by root into the release build's data, owned
+    by its user. Needs `adb root` (the zanshin-test image allows it) and the release build installed; it is started
+    once so that its data directory exists, and stopped.
+    """
+    prefs(calendar, **kwargs)
+    adb("root")
+    adb("wait-for-device")
+    adb("shell", "am", "start", "-n", f"{RELEASE_PKG}/zanshin.app.MainActivity")
+    time.sleep(5)
+    adb("shell", "am", "force-stop", RELEASE_PKG)
+    uid = sh(f"stat -c %u /data/data/{RELEASE_PKG}").strip()
+    data = f"/data/data/{RELEASE_PKG}/shared_prefs"
+    sh(f"mkdir -p {data} && cp /data/local/tmp/z.xml {data}/zanshin.xml && chown -R {uid}:{uid} {data} && restorecon -R {data}")
+
+
+def language(tag, package=PKG):
+    """The app's own language (per-app locale): "ru", "en", or "" to follow the system; [package] the release build's for a release check."""
+    sh(f'cmd locale set-app-locales {package} --locales "{tag}"')
 
 
 def restore():
@@ -90,8 +111,8 @@ def restore():
     language("")
 
 
-def start(wait=6):
-    adb("shell", "am", "start", "-n", f"{PKG}/zanshin.app.MainActivity")
+def start(wait=6, package=PKG):
+    adb("shell", "am", "start", "-n", f"{package}/zanshin.app.MainActivity")
     time.sleep(wait)
 
 
