@@ -876,7 +876,7 @@ the text, not about the app.
     *Lung zhu ba*.
     Either way the three brides are those whose lot is the line's end.*
 
-55. **WB vol. 1, p. 365 (img. 375): *kham yu*'s two counts.** Is the
+55. **Answered as far as the sources go, 2026-10-19. WB vol. 1, p. 365 (img. 375): *kham yu*'s two counts.** Is the
     station reached by counting the years completed from Kṛttikā (the man)
     or Pūrvaphalgunī (the woman), as the second statement says, or from the
     own year on the fourteen stations, as the first says? The woman's table
@@ -894,6 +894,17 @@ the text, not about the app.
     station the years completed at the time of the marriage, clockwise;
     then «ཁྱོ་ནི་སྐར་མ་སྨིན་དྲུག་ནས། །དུ་ལོན་ཐུར་བགྲང་བུད་མེད་ནི། །གྱེ་ནས་གྱེན་བགྲང་འབྲས་བུ་སྟོན།». So both count the age, and
     differ only in where they start; he gives no rule between them either.*
+    *Answered as far as the sources go, 2026-10-19 ([marriage.md](marriage.md)):
+    the first count, by the years of age. Mipham's notes (WB vol. 2, p.
+    526, etext I1KG12907 p. 535) draw both cycles and work it: the groom
+    counts from his own year on the single cycle clockwise the years he
+    has at the marriage, the bride from hers on the hidden cycle the
+    other way, over the twelve year stations only, «ཐོག་མཐའ་མི་བརྩི་བར», the first
+    and last stations not counted. A horse-born groom of 25 lands on «རྟ་མཆུ་ཉི་མ་བཅུ་པ»
+    (good), a sheep-born bride of 24 on «རྟ་མོན་དྲེ་ཉི་མ་ལག་སོར» (bad): both with the own
+    year as the 1st (25 comes round to the horse, the 24th from the sheep
+    the other way is the horse). The notes do not use the count from
+    Kṛttikā or Pūrvaphalgunī.*
 
 56. **Answered 2026-10-19. WB vol. 1, p. 372 (img. 382): the bride's months,
     «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ».** Is the man's count forward and the woman's
