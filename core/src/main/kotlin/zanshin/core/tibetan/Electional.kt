@@ -821,7 +821,8 @@ object Electional {
             ),
         ),
         // 35. Bloodletting, moxibustion, treatment (img. 41, KP2 img. 262). The bad khrums is khrums smad (O10f), and the
-        // word after bra nye the trigram li, as the White Beryl's work 33 has it.
+        // word after bra nye the trigram li, as the White Beryl's work 33 has it. The first bad date is KP's flat-headed 4
+        // (beside the curled 9 of its 29), the White Beryl's 4, 8, 29 and 30.
         ActivityList(
             "bloodletting_and_moxibustion",
             good = Factors(
@@ -832,7 +833,7 @@ object Electional {
             ),
             bad = Factors(
                 smeBa = setOf(2, 7),
-                dates = setOf(9, 8, 29, 30),
+                dates = setOf(4, 8, 29, 30),
                 mansions = m(ARDRA, PURVAPHALGUNI, ASHVINI, BHARANI, UTTARABHADRAPADA),
                 animals = setOf(DRAGON, SNAKE, SHEEP),
                 trigrams = setOf(LI),

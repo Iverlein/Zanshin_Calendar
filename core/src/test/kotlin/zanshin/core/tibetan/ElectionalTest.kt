@@ -247,7 +247,10 @@ class ElectionalTest {
             assertEquals(setOf(1, 6), bad.dates)
             assertEquals(setOf(Link.FORMATION), good.links)
         }
-        with(printed("bloodletting_and_moxibustion")) { assertTrue(Mansion.UTTARABHADRAPADA in bad.mansions && Trigram.LI in bad.trigrams) }
+        with(printed("bloodletting_and_moxibustion")) {
+            assertTrue(Mansion.UTTARABHADRAPADA in bad.mansions && Trigram.LI in bad.trigrams)
+            assertEquals(setOf(4, 8, 29, 30), bad.dates)
+        }
         with(printed("bathing_and_washing_the_hair")) {
             assertEquals(setOf(Animal.DOG, Animal.TIGER), bad.animals)
             assertEquals(setOf(Trigram.LI, Trigram.KHEN), bad.trigrams)
