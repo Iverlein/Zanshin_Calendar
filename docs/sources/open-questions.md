@@ -552,6 +552,14 @@ the text, not about the app.
     belly-crawler's directions, pp. 214–215), which does the model
     almanac or a later Phugpa manual follow (2026-10-11, RD4,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    the belly-crawler): for the belly-crawler, a later chart follows WB's main
+    view. The Sakya volume's *Clear Jewel Mirror* (I5721, printed p. 26,
+    etext only) has the belly-crawler's tail stand where the month itself is,
+    with the *Gzig slog* and *Rngam pa* that WB puts on the month that has
+    risen. It is a Sakya chart, not a Phugpa one. No course of the old couple
+    or the blue mouse road was found in it, in Lha mo tshul khrims, in Dpal
+    bsdus or in KD.*
 
 33. **WB vol. 2, pp. 177–192: what does the turning add?** The year's
     courses turn left or right (གཡོན་སྐོར, g.yon skor; གཡས་སྐོར, g.yas skor),

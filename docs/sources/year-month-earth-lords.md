@@ -1796,6 +1796,28 @@ beam, the new moon, the 29th at the door) "the scribes have hidden and
 confused": the *Lamp of Clear Jewels* (རིན་ཆེན་གསལ་སྒྲོན, rin chen gsal sgron) and the *Hidden Magic Wheel* are the
 main ones. The sky dogs (60, 61) are reckoned as said above (p. 198, RD3).
 
+**A later chart follows WB's main view, 2026-10-19 (open question 32).**
+The Sakya volume that holds the *Seven Special Qualities* (Dpal ldan sa
+skya pa'i gsung rab vol. 7, I5721) also prints a month chart with notes,
+the *Clear Jewel Mirror of the Reckoning of Results* (འབྲས་རྩིས་རབ་གསལ་ནོར་བུའི་མེ་ལོང,
+'bras rtsis rab gsal nor bu'i me long), printed pp. 25–28 (etext pp. 55–58).
+Its scans are not served, and the chart is read from BDRC's etext, which
+breaks a diagram into blocks. One block is explicit: «ཟླ་བའི་ས་བདག་ཐམས་ཅད་ཚེས་གཅིག་ལ་སྐུ། ཟླ་དངོས་ཡོད་ས་འདིར། ས་ཁྱི། གཟིག་སློག རྔམ་པ་ཕག་མགོ་སིལ་མའི་ས་བདག་བསྐོར་ལ། ཀུ་ཀུ་འགྲམ་འཕྱེ། གནམ་ཁྱི་དང་། ལྟོ་འཕྱེའི་འཇུག་མ་རྣམས་ལྷན་གཅིག་ཏུ་གནས»
+(p. 26). Every month's lord moves on the 1st. Where the month itself
+(ཟླ་དངོས, zla dngos) is, the lords stand together, among them the
+belly-crawler's tail. The *Gzig slog* and the boar-headed *Rngam pa* are
+there too, the two that WB puts "on the month that has risen" (pp. 208,
+209). So this chart sets the belly-crawler's tail on the month, which is
+WB's main view, the *Clear Lamp*'s («གང་ཤར་ཟླ་སྟེང་མཇུག»), and not the
+*Gathering of Jewels*' seasonal quarters. The next blocks are the month's
+river (ཟླ་ཀླུང, zla klung) and a block «འདི་ཡོད་པར། པི་ལིང་། ས་སྨུན། ལྟོ་འཕྱེའི་མགོ་རྣམས་གནས།…»,
+where Piling, *sa smun* and the belly-crawler's head stand. Whether
+that block belongs to the month's river cannot be told from the etext,
+so it does not yet place the river (open question 26). The chart is a
+Sakya manual's, not a Phugpa one. For the old couple and the blue mouse
+road, this chart, Lha mo tshul khrims, Dpal bsdus and KD were searched
+without finding a course.
+
 #### The month's nine black ones (ཟླ་བའི་ནག་མོ་དགུ་སྐོར, zla ba'i nag mo dgu skor) (p. 215, img. 223)
 
 > ཟླ་བའི་ནག་མོ་དགུ་སྐོར་ནི། །བྱི་བའི་ཟླ་བར་རྒྱལ་པོ་ཤར། །ནག་མོ་སྟག་གཟིག་ཤར་ལྷོ་མཚམས། །གཤིན་རྗེ་ལྷོ་ལ་བུས་བདུད་དང་། །བཤན་པ་རོ་ཟན་ནུབ་ན་གནས། །ནད་བདུད་ནུབ་བྱང་བྱང་ཤར་ཕྱོགས། །སྨེ་བ་བླ་མཁྱེན་གནས་པའོ། །གླང་ཟླར་ནག་མོ་ཤར་ཕྱོགས་དང་། །བླ་མཁྱེན་གཤིན་རྗེ་ལྷོ་ཡི་ཕྱོགས། །སྟག་གཟིག་ལྷོ་ནུབ་བཤན་པ་དང་། །བུས་བདུད་ནུབ་ལ་རོ་ཟན་བྱང་། །རྒྱལ་པོ་ནད་བདུད་བྱང་ཤར་གནས། །སྟག་ཟླར་རོ་ཟན་ནག་མོ་དང་། །གཤིན་རྗེ་ཤར་ལ་ནད་བདུད་ནི། །ཤར་ལྷོ་བུས་པ་རྟ་བདུད་ལྷོ། །བླ་མཁྱེན་ནུབ་ལ་སྟག་གཟིག་རླུང་། །རྒྱལ་བྱང་བཤན་པ་བྱང་ཤར་མཚམས། །ཡོས་ཟླར་གཤིན་རྗེ་བླ་མཁྱེན་ཤར། །གཤེད་པོ་ཤར་ལྷོ་རོ་ཟན་དང་། །བུས་བདུད་ནད་བདུད་ལྷོ་ལ་གནས། །ནག་མོ་རྒྱལ་པོ་སྟག་གཟིག་རླུང་། །འབྲུག་ཟླར་ནད་བདུད་སྟག་གཟིག་རྣམས། །ཤར་ལྷོ་བཤན་པ་ལྷོ་ནུབ་ཕྱོགས། །རོ་ཟན་ནག་མོ་ཁྱོ་མེད་ནུབ། །རྒྱལ་པོ་བླ་མཁྱེན་ནུབ་བྱང་མཚམས། །བུས་བདུད་ལྷོ་ལ་གཤིན་རྗེ་ཤར། །སྦྲུལ་ཟླར་བུས་བདུད་ཤར་གྱི་ཕྱོགས། །བླ་མཁྱེན་ལྷོ་ལ་སྟག་གཟིག་དང་། །ནད་བདུད་ལྷོ་ནུབ་མཚམས་སུ་གནས། །རྒྱལ་པོ་ནུབ་ལ་བཤན་ནུབ་བྱང་། །རོ་ཟན་ནག་མོ་གཤིན་རྗེ་བྱང་། །རྟ་ཟླར་རོ་ཟན་བུས་བདུད་ཤར། །ནད་བདུད་ཤར་ལྷོ་ནག་མོ་དང་།སྟག་གཟིག་ནུབ་བྱང་མཚམས་སུ་གནས། །གཤིན་རྗེ་བྱང་ལ་བཤན་བྱང་ཤར། །བླ་མཁྱེན་ལྷོ་ལ་རྒྱལ་པོ་ནུབ། །ལུག་ཟླར་བཤན་པ་ཤར་ལྷོ་དང་། །རྒྱལ་པོ་ལྷོ་ནུབ་ནག་མོ་ནུབ། །ནད་བདུད་ནུབ་ལ་གཤིན་རྗེ་བྱང་། །རོ་ཟན་ལྷོ་ལ་བུས་བདུད་ཤར། །སྟག་གཟིག་བྱང་ཤར་མཚམས་སུ་གནས། །བླ་མཁྱེན་རྟ་ཟླ་ཇི་བཞིན་ནོ། །སྤྲེལ་ཟླར་སྟག་གཟིག་ཤར་ལྷོ་དང་། །རྒྱལ་ལྷོ་བཤན་པ་ལྷོ་ནུབ་མཚམས། །བུས་བདུད་ནད་བདུད་བླ་མཁྱེན་དང་། །གཤིན་རྗེ་བྱང་ལ་རོ་ཟན་དང་། །ནག་མོ་ནུབ་ཀྱི་ཕྱོགས་སུ་གནས། །བྱ་ཟླར་ནད་བདུད་ཤར་དང་ནི། །ནག་མོ་བླ་མཁྱེན་སྟག་གཟིག་དག །ལྷོ་ནུབ་གཤིན་རྗེ་ནུབ་ཀྱི་ཕྱོགས། །བཤན་པ་ནུབ་བྱང་རོ་ཟན་དང་། །བུས་བདུད་བྱང་གི་ཕྱོགས་སུ་གནས། །རྒྱལ་པོ་སྤྲེལ་བཞིན་ཤེས་པར་བྱ། །ཁྱི་ཟླར་རོ་ཟན་ཤར་བླ་མཁྱེན། །ནག་མོ་ལྷོ་དང་ནད་བདུད་སྲིན། །གཤིན་རྗེ་ནུབ་ལ་སྟག་གཟིག་དང་། །བུས་བདུད་ནུབ་བྱང་བཤན་བྱང་ཤར། །རྒྱལ་པོ་བྱ་ཡི་ཟླ་བ་ལྟར། །ཕག་ཟླར་རྒྱལ་ཤར་བཤན་ཤར་ལྷོ། །རོ་ཟན་ནག་མོ་བླ་མཁྱེན་ལྷོ། །ནད་བདུད་ལྷོ་ནུབ་བུས་བདུད་དང་། །གཤིན་རྗེ་ནུབ་ལ་སྟག་གཟིག་དག །བྱང་ཤར་མཚམས་སུ་གནས་པར་བརྗོད། །ལས་ནི་རོ་ཟན་རོ་འདྲེན་དང་། །རྒྱལ་པོར་དམག་དང་སྟག་གཟིག་བག །བླ་མཁྱེན་དཔྱད་ལས་བུས་བདུད་ཕྱོགས། །བུས་པ་རྟ་ཡི་བྱ་བ་དང་། །ནག་མོ་རོ་བག་གཤིན་རྗེ་གཤིན། །ནད་བདུད་རོ་དང་བཤན་པའི(འདི་གཤེད་པོ་དུར་སླེབ།)ཕྱོགས། །དམར་བཤས་བྱ་བ་འཛེམ་པར་བྱ། །ཀོ་ལོང་རིམ་བཞིན་རོ་ཁུར་དང་། །དམག་དཔོན་བག་མ་དཔྱད་མཁན་དང་། །རྟ་དང་བུད་མེད་ལག་བདེ་བ། །ནད་པ་ཤ་བ་རྣམས་ལ་སྡོམ། །ཉམས་ན་གཟུངས་བསྡུས་སྒྲོགས་པ་དང་། །བསྒྱུར་གཏོ་སྒྲིབ་ཤིང་སྤྱི་
