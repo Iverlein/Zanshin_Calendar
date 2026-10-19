@@ -1075,7 +1075,8 @@ found in GR:
   at full size) carves «秋土用者土衰老故無威» plainly, 亠 over 衣, not 羨's 羊
   over 次: "in the autumn's 土用 earth is declining and old, so it has no
   authority". The five phases of a season in 淮南子 墬形訓 are 壯・老・生・
-  囚・死, autumn's «金壯，土老»: the phase that bore the ruling one is "old".
+  囚・死, autumn's «金壯土老水生火囚木死» (卷四, Project Gutenberg ebook 24059,
+  checked 2026-10-19): the phase that bore the ruling one is "old".
   In §42 the manuscript (MS img. 38, left page, the last two columns)
   writes «四時合二百有四日也是一歳之數不足故失陰陽之數仍云窮日»: the 往亡
   days of the four seasons make 204, which falls short of one year's
