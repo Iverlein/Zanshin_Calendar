@@ -182,7 +182,7 @@ class ElectionalTest {
             mapOf(
                 "funerals" to (setOf<Int>() to setOf(3, 5, 9)),
                 "setting_up_supports" to (setOf(5) to setOf()),
-                "building_walls" to (setOf<Int>() to setOf(9)),
+                "building_walls" to (setOf<Int>() to setOf(3)),
                 "trade" to (setOf<Int>() to setOf(9)),
                 "receiving_wealth" to (setOf(9) to setOf()),
                 "auspicious_work" to (setOf(8) to setOf()),
@@ -232,6 +232,8 @@ class ElectionalTest {
         // Box 50's dates, from the Bhutan print: the 14th good, not the 13th.
         assertEquals(setOf(3, 5, 10, 14, 23, 11), printed("ordination_teaching_and_empowerment").good.dates)
         assertEquals(setOf(1, 4, 6, 7, 8, 22, 15), printed("ordination_teaching_and_empowerment").bad.dates)
+        // Work 6: the three-blue bad for forts, where the box carves its 9.
+        assertEquals(setOf(3), list("building_walls").bad.smeBa)
         // Box 44's good dates, read in the Bhutan print: the White Beryl's.
         assertEquals(setOf(4, 8, 9, 18, 19, 22, 25, 29), printed("suppressing_sri").good.dates)
         // Box 33's second good date, read in the Bhutan print: the 22nd.

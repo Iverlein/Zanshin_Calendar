@@ -39,6 +39,8 @@ object WhiteBerylWorks {
     val NEITHER: Map<String, Factors> = mapOf(
         // 4. Putting on clothes, p. 386: craving middling, where the box brackets it.
         "first_wearing_of_new_clothes" to Factors(links = setOf(Link.CRAVING)),
+        // 6. Forts: the box's sme ba 9 is the chapter's three-blue («ཚེས་ལ་གསུམ་མཐིང», p. 389).
+        "building_walls" to Factors(smeBa = setOf(9)),
         // 9. Opening the soil: the box's 14th is the chapter's 19th.
         "manuring_and_breaking_in_oxen" to Factors(dates = setOf(14)),
         // 14. Giving and taking goods: the box's 20th is the chapter's 19th.
@@ -64,8 +66,8 @@ object WhiteBerylWorks {
             good = Factors(mansions = m(PURVABHADRAPADA, ASHVINI)),
             bad = Factors(mansions = m(UTTARABHADRAPADA)),
         ),
-        // 6. Building, p. 388: Mūla good, and good for gates as well.
-        ActivityList("building_walls", good = Factors(mansions = m(MULA)), bad = Factors()),
+        // 6. Building, p. 388: Mūla good, and good for gates as well; the three-blue on the date bad (p. 389).
+        ActivityList("building_walls", good = Factors(mansions = m(MULA)), bad = Factors(smeBa = setOf(3))),
         // 7. A new home, p. 389: the 13th among the good dates.
         ActivityList("taking_a_new_home", good = Factors(dates = setOf(13)), bad = Factors()),
         // 8. The hearth, pp. 389–390: Anurādhā bad; «ཉི་མ་ཁྱི་ངན», the Ox day good only for a smith's hearth.
