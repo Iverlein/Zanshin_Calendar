@@ -2192,3 +2192,18 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   «ཝང་ཁྱི་གླང་ཉི་དུས», which copies the line without explaining it (29), as
   does *Dkar rtsis dang nag rtsis kyi gzhung* «ཝང་ཁྱི་འབྲུག་ཉི་དུས»;
   «འབྲིང་པོ་བཞི་ཡི་སྟེང», WB's prints alone (31).
+
+## The black year, 2026-10-19 (open question 40)
+
+- **A corner year whose own mewa is the two-black.** Dharmaśrī's
+  *Moonbeams*, in its list of the bad years (KD vol. 3, p. 491, etext
+  p. 511; etext only): «སྨེ་བ་གཉིས་ནག་ལ་སྐྱེས་པའི། །སྟག་སྤྲེལ་ཕག་སྦྲུལ་ལོ་བཞི་ལ། །ལོ་ནག་མཆེ་བ་ཅན་དུ་གྲགས།»,
+  "the four years of the tiger, monkey, pig and snake that come on the
+  two-black mewa are known as the black year with fangs". Another text
+  of KD vol. 3 (p. 616, etext p. 636) and Dpal bsdus (p. 216, etext
+  p. 238) put it in other words, «གཉིས་ནག་ལ་སྐྱེས་ར་བ་བཞི། །ལོ་ནག་མཆེ་བ་ཅན་ཞེས་བྱ།»,
+  "the four corner years (ར་བ་བཞི) born on the two-black". So WB's
+  «སྟག་སྤྲེལ་ཕག་སྦྲུལ་ལོ་བཞི་ལ། །རེས་སྐོར་འབབ་སྟེ་སྨེ་གཉིས་ནག །དབུས་སུ་གྱུར་པ» (p. 189) is the
+  corner year whose year mewa, the one set in the centre of the year's
+  wheel as the front matter draws it, is the two-black. None of the
+  three names a lesser black year or a three-blue.

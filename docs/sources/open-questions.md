@@ -585,6 +585,11 @@ the text, not about the app.
     front matter draws it (vol. 1, pp. 174–176, RD2), and is the lesser
     black year three-blue in the centre (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Answered for the black year, 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *The black year*): yes, the year's own mewa. Dharmaśrī's *Moonbeams*:
+    «སྨེ་བ་གཉིས་ནག་ལ་སྐྱེས་པའི། །སྟག་སྤྲེལ་ཕག་སྦྲུལ་ལོ་བཞི་ལ། །ལོ་ནག་མཆེ་བ་ཅན་དུ་གྲགས།», and two
+    other manuals «གཉིས་ནག་ལ་སྐྱེས་ར་བ་བཞི»: a corner year that comes on the
+    two-black. The lesser black year is in none of them.*
 
 41. **WB's notes vol. 2, p. 534–535 (img. 542–543): the earth lords against the results.**
     Does the tradition weigh an earth lord's prohibition (a work not to be
@@ -635,9 +640,22 @@ the text, not about the app.
     «གྱེན», up, the count differs from «བཀེན» by its direction only; «སྒྲུབ»
     is a slip of one letter for «སྦུབ».*
 
-48. **WB vol. 1, p. 438: the five day-parts and night-parts.** p. 438. What are the "five day-parts and five night-parts" of «ཤིང་བཟུང་དུས་ཀྱི་འབྱུང་བ་ནི། ཉིན་ལྔ་མཚན་ལྔ་བརྩིས་པ་ཡི།»: the ten elemental periods of the day and night, and from which time (sunrise) are they counted? Which is the first, the wood time? (2026-10-12, RD12, [health.md](health.md))
+48. **Answered as far as the sources go, 2026-10-19. WB vol. 1, p. 438: the five day-parts and night-parts.** p. 438. What are the "five day-parts and five night-parts" of «ཤིང་བཟུང་དུས་ཀྱི་འབྱུང་བ་ནི། ཉིན་ལྔ་མཚན་ལྔ་བརྩིས་པ་ཡི།»: the ten elemental periods of the day and night, and from which time (sunrise) are they counted? Which is the first, the wood time? (2026-10-12, RD12, [health.md](health.md))
+    *Answered as far as the sources go, 2026-10-19 ([health.md](health.md),
+    *The times of onset and the mansions' days*): the *dbyangs 'char*'s five
+    parts of the day and five of the night, in each of which one of the five
+    vowels and its element rises in turn («ཐུང་དང་རིང་པའི་དབྱངས་ལྔ་པོ། །ཉིན་ལྔ་མཚན་ལྔ་འཆར་བའང་དྲན།»,
+    the root tantra), finer than the vowel of the date, from which WB's
+    *G.ya' sel* counts them. Which comes first, and how wood and iron stand
+    for the vowels' wind and space, the texts read do not say.*
 
-49. **WB vol. 1, p. 438: the mansions' days and the six deaths.** p. 438. The mansions' days (Aśvinī the third day … Revatī the third): are the numbers days to recovery, and are Pūrvaphalgunī, Uttaraphalgunī, Hasta, Citrā, Svātī and Pūrvabhādrapadā really six deaths, against the verses of vol. 2, pp. 313–328 (mansion-verses.md), which give an illness's cause and ransom for each mansion but no number? Does the line «ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» (one month and six days) belong to Anurādhā alone? (2026-10-12, RD12, [health.md](health.md))
+49. **Answered 2026-10-19. WB vol. 1, p. 438: the mansions' days and the six deaths.** p. 438. The mansions' days (Aśvinī the third day … Revatī the third): are the numbers days to recovery, and are Pūrvaphalgunī, Uttaraphalgunī, Hasta, Citrā, Svātī and Pūrvabhādrapadā really six deaths, against the verses of vol. 2, pp. 313–328 (mansion-verses.md), which give an illness's cause and ransom for each mansion but no number? Does the line «ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» (one month and six days) belong to Anurādhā alone? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-19 ([health.md](health.md), *The times of onset and
+    the mansions' days*): yes, yes, and yes. Kun bzang blo gros's supplement
+    to the *Moonbeams* (KD vol. 3, p. 682) gives the lines with the verbs:
+    «…ཞག་གསུམ་འཚོ», «…བཅུ་བཞི་ནས་གྲོལ», «གྲེ་བོ་མེ་བཞི་ནག་པ་དང༌། །ས་རི་ལ་འཆི», «ཁྲུམས་སྟོད་འཆི»: days
+    before recovery, six deaths, and «ལྷ་མཚམས་དག །ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» of Anurādhā
+    alone. The verses of vol. 2 list other things, cause and ransom.*
 
 50. **WB vol. 1, p. 438: «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ».** p. 438. The word before «རླུང་བད་ཀན» in «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ» (wood time): a spirit class, or a misreading of «དྲན»? And «ཆ་རྒྱས་དོན་སྣོད་མེ» (p. 438, line 11) is not understood. (2026-10-12, RD12, [health.md](health.md))
     *Narrowed 2026-10-18 ([health.md](health.md)): «གཉན», the *gnyan*
@@ -949,11 +967,18 @@ the text, not about the app.
     bad) replace the seven-red's own (p. 403: both avoided), or do both
     stand (2026-10-12, RD10, [health.md](health.md))?
 
-82. **WB vol. 1, pp. 253, 271: the turtle's skull.** Ch. 21 glosses the
+82. **Answered as far as the sources go, 2026-10-19. WB vol. 1, pp. 253, 271: the turtle's skull.** Ch. 21 glosses the
     first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the
     turtle's skull (p. 253), while ch. 22 has them come from the turtle's
     hip and thigh (p. 271). Does the gloss belong to that pair, or to the
     whole list (2026-10-12, RD10, [health.md](health.md))?
+    *Answered as far as the sources go, 2026-10-19 ([health.md](health.md),
+    *The turtle's parts of the thirty kha srog, compared*): to that pair.
+    Every pair of ch. 21's list carries one bracketed gloss, and ch. 22's
+    parts follow ch. 21's pair by pair (the womb's channel for the earth
+    dragon and snake in both, the tongue's and the throat's flesh, the
+    mouth's and the eye's water); the first pair is where they disagree,
+    the skull against the hip and thigh, and neither chapter says why.*
 
 83. **Answered 2026-10-18. Words not settled on the scan (RD10).** In the lunar dates' illness
     lines, the 2nd's «[སྣོད]་གཞི་དགང» (or སྟོད) and the 3rd's «བྱ་[མྱང]་བྱེད» (MITRA

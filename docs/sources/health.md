@@ -1112,3 +1112,69 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
   guarded", with acupressure points, cupping and stick therapy; whether
   it carries KL's tables of the la by date and hour, or *The Tibetan Book
   of Health* any course or dates to avoid, was not seen.
+
+## The turtle's parts of the thirty *kha srog*, compared, 2026-10-19 (open question 82)
+
+- **The gloss is the first pair's own.** Every pair of ch. 21's list
+  (vol. 1, pp. 253–254, img. 263–264) carries one bracketed gloss after
+  its second year, so the first, «(དོན་ལ་རུས་སྦལ་ཐོད་རུས།)», closes the wood mouse and
+  ox as the next closes the fire tiger and hare; without it the first
+  pair alone would have none. Ch. 22 (pp. 271–275, img. 282–285, etext)
+  gives each pair the part of the turtle it "came from" («རུས་སྦལ་…ལས་ཆད»), and
+  the two lists correspond pair by pair for most, so they are one scheme:
+
+  | Pair | Ch. 21's gloss | Ch. 22's part |
+  | --- | --- | --- |
+  | wood mouse, ox | «རུས་སྦལ་ཐོད་རུས», the skull | «དཔྱི་དང་བརླ», hip and thigh |
+  | fire tiger, hare | «དབང་པོ་སྤྲད་པའི་དྲོད་མེད», a warmth of the organs (sense not settled) | «རྒྱུ་ལོང་དྲོད», the warmth of the guts |
+  | earth dragon, snake | «མངལ་གྱི་རྩ», the womb's channel | «མངལ་རྩའི་རྒྱུད», the womb's channel |
+  | iron horse, sheep | «ལྕེ་ཤ», the tongue's flesh | «ལྐོག་མའི་ཤ», the throat's flesh |
+  | water monkey, bird | «[ངར]་གདོང་རུས», a bone of the face | «མཇིང་པའི་རུས», the neck bone |
+  | fire mouse, ox | «ཁ་ཆུ», the mouth's water | «མིག་འབྲས་ཆུ», the eyeball's water |
+
+  (Ch. 21's glosses as read on the scan earlier in this file; ch. 22's
+  from the etext, not read on the scan.) The first pair is where the two
+  disagree outright, the skull against the hip and thigh; neither
+  chapter remarks on it.
+
+## The times of onset and the mansions' days, 2026-10-19 (open questions 48, 49)
+
+- **«ཉིན་ལྔ་མཚན་ལྔ» is the *dbyangs 'char*'s division of the day and night.**
+  The root tantra of the *dbyangs 'char*, *G.yul las rnam par rgyal ba
+  zhes pa'i rgyud kyi rgyal po dbyangs 'char ba* (BDRC snippet):
+  «ཉིན་རེ་བཞིན་དུ་དབྱངས་རེ་འཆར། །ཐུང་དང་རིང་པའི་དབྱངས་ལྔ་པོ། །ཉིན་ལྔ་མཚན་ལྔ་འཆར་བའང་དྲན། །ལྔ་དང་སུམ་ཅུ་བདུན་ཅུ་གཉིས། །རགས་པ་ཕྲ་བའི་དབྱེ་བ་ཡིས། །འཆར་བར་འགྱུར་རོ་དཀར་མོ»,
+  "each day one vowel rises; the five vowels, short and long, rise too
+  in five [parts] of the day and five of the night; by the coarse and
+  the fine division, five, thirty, seventy-two, they rise, O White One";
+  KD vol. 3 and *Bzo rtsis zlos gar* (BDRC snippets) restate it: «ཞག་ལ་འཆར་བ་དང་། ཉིན་ལྔ་མཚན་ལྔ་འཆར་བ་གཉིས་ཕྲ་བར་བྱས་པའི་དབྱེ་བ་ཡིས་རིམ་པ་བཞིན་དུ་འཆར»,
+  the rising by the day and the rising in five of the day and five of
+  the night being the finer divisions. WB's own *G.ya' sel* (BDRC
+  snippet) counts the finer from the date's vowel: «ཚེས་དེར་འཆར་བའི་དབྱངས་ལས་ཉིན་ལྔ་མཚན་ལྔ་སོགས་ཕྲ་མོད». So the
+  "element of the time the illness took hold, counted by five of the
+  day and five of the night" (p. 438) is the element of the vowel that
+  rises in that fifth of the day or the night, the vowels standing for
+  earth, water, fire, wind and space as on p. 17
+  ([day-letters.md](day-letters.md), *The dbyangs 'char*). P. 438's list
+  has wood and iron where the vowels have wind and space, and none of
+  the texts read says which fifth comes first after the date's vowel.
+- **The mansions' numbers are days to recovery, and six mansions are
+  deaths.** Kun bzang blo gros's (ཀུན་བཟང་བློ་གྲོས, kun bzang blo gros)
+  supplement to the *Moonbeams*, *Lhan thabs rgyu skar phreng ba* (KD
+  vol. 3, p. 682, etext p. 702; etext only), gives WB's lines with the
+  verbs whole: «…དབྱུ་གུ་ན་ཡང་ཞག་གསུམ་འཚོ། །བྲ་ཉེ་འཆི་ཉེན་སྨིན་དྲུག་ཞག །བཅུར་འཚོ་སྣར་མ་ཞག་ལྔ་དང་། །མགོ་ནི་བཅུ་གཅིག་ནས་འཚོ་ཞིང་། །ལག་ནི་ཡུན་རིང་ནབས་སོ་ཞག །ལྔས་འཚོ་རྒྱལ་གསུམ་སྐག་མི་ཉེས། །མཆུ་ནི་ཟླ་གཅིག་ནས་འཚོ་ཞིང༌། །གྲེ་བོ་མེ་བཞི་ནག་པ་དང༌། །ས་རི་ལ་འཆི་ས་ག་ནི། །བཅུ་བཞི་ནས་གྲོལ་ལྷ་མཚམས་དག །ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ། །སྨོན་ནི་ནད་ཞི་སྣུབས་ནི་ཞག །རྩ་གཅིག་ནས་གྲོལ་ཆུ་སྟོད་བཙུ། །ཆུ་སྨད་དྲུག་གྲོལ་གྲོ་བཞིན་དང་། །བྱི་བཞིན་དགུས་གྲོལ་མོན་དྲེ་དང་། །མོན་གྲུ་རྩ་གཉིས་ཁྲུམས་སྟོད་འཆི། ཁྲུམས་སྨད་བཅུ་གཉིས་ནམ་གྲུ་ཞག །གསུམ་ནས་ནད་གྲོལ།»:
+  "with Aśvinī, ill, one lives three days [and recovers]; Bharaṇī,
+  danger of death; Kṛttikā recovers in ten days; Rohiṇī five; Mṛgaśiras
+  from the eleventh; Ārdrā long; Punarvasu five days; Puṣya three; Āśleṣā no
+  harm; Maghā from a month; Pūrvaphalgunī, Uttaraphalgunī, Hasta,
+  Citrā and Svātī die; Viśākhā is freed from the fourteenth; Anurādhā
+  is freed after one month and six days; Jyeṣṭhā the illness calms; Mūla
+  freed from twenty-one days; Pūrvāṣāḍhā ten; Uttarāṣāḍhā freed in six;
+  Śravaṇa and Abhijit freed in nine; Dhaniṣṭhā and Śatabhiṣaj twenty-two;
+  Pūrvabhādrapadā dies; Uttarabhādrapadā twelve; Revatī freed from the
+  third day". So the counts are of days before recovery («ནས་འཚོ», «ནས་གྲོལ»),
+  the deaths are six, the five named together and Pūrvabhādrapadā, and
+  "one month and six days" is Anurādhā's alone, closed by «ལོ». The verses
+  of vol. 2 (mansion-verses.md) give each mansion's cause and ransom; the
+  two lists are of different things. The mansion names in the English
+  follow the table of [mansions.md](mansions.md); the supplement's spellings
+  differ from WB's in places («གྲེ་བོ», «སྨོན», «སྣུབས», «བཙུ»).
