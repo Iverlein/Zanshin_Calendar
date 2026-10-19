@@ -585,8 +585,15 @@ The box on the scan, KP BDRC img. 52 (O10f):
 - **Good:** Tue Sat Sun Thu; mgo, lag, skag, snron, snrubs, sa ga, sa ri, khrums smad, me bzhi, tha skar, mchu; days Tiger, Dragon, Monkey; trigrams zon
 - **Bad:** Mon; dates 1; rgyal, smin drug, mon gre, lha mtshams, gro bzhin; days Hare, Snake, Pig, Bird, Mouse, Ox; trigrams khon
 - **Neither side:** Wednesday and Friday (in brackets)
-- **Not calculated:** the good dates (two crowded lines, not read with confidence); Abhijit (good); rising signs; the Nāga planet's food-seeking and ki kang (bad); the earth lords of the nine levels
+- **Not calculated:** the good dates (two crowded lines, not read with confidence; read 2026-10-19, below); Abhijit (good); rising signs; the Nāga planet's food-seeking and ki kang (bad); the earth lords of the nine levels
 - mchu is 'best of all'.
+- **The good dates read, 2026-10-19:** with the print's digit shapes (open
+  question 157: 4 the flat crescent, 8 «<», 9 the curled crescent, the 1
+  hooked, the 2 with a crossbar) the two crowded lines read «༤ ༨ ༡༨ ༡༩ / ༩ ༢༩
+  ༢༢ ༢༥» (KP img. 52, at 6–8×): WB's good dates for the work, «བཞི་བརྒྱད་དགུ་གསུམ་བཅོ་བརྒྱད་དང་། །ཉེར་གཉིས་ཉེར་ལྔ»
+  (p. 418) read with «དགུ་གསུམ» as the three nines, 9, 19 and 29, as
+  `WhiteBerylWorks` has them. The 19 and the 29 differ only in their
+  first digit; KP2's folio of this box was not found.
 
 ### 48. Fire offerings — སྦྱིན་སྲེག་བྱེད་པ་ལ་བཟང་བ
 
