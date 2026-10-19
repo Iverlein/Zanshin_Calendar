@@ -200,6 +200,12 @@ enum class MatchParent { FATHER, MOTHER }
 /** The two ways of counting from a parent's year that WB and the notes spell out (p. 359; the notes, p. 524). */
 enum class ParentWay { OUTER, SECRET }
 
+/**
+ * Births on a natal trigram read one by one (p. 362): a woman of a wood tiger or hare year on khon, a husband of an
+ * iron bird or monkey year on gin, and a woman on khen with a man on zon.
+ */
+enum class MatchTrigramLine { WOOD_WOMAN_KHON, IRON_HUSBAND_GIN, KHEN_WOMAN_ZON_MAN }
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -298,6 +304,17 @@ object MatchReckoning {
     /** The bad years by mewa path that the Tibetan year [year] is among (p. 354). */
     fun mewaPathYears(year: Int): List<MewaPathYear> =
         MewaPathYear.entries.filter { YearOfLife.yearSign(year) in it.years[mewaPath(year)] }
+
+    /** The births on the natal trigrams [manTrigram] and [womanTrigram] that WB reads one by one (p. 362). */
+    fun trigramLines(man: Sign, manTrigram: Trigram, woman: Sign, womanTrigram: Trigram): List<MatchTrigramLine> = listOfNotNull(
+        MatchTrigramLine.WOOD_WOMAN_KHON.takeIf {
+            womanTrigram == Trigram.KHON && woman.element == Element.WOOD && woman.animal in listOf(Animal.TIGER, Animal.RABBIT)
+        },
+        MatchTrigramLine.IRON_HUSBAND_GIN.takeIf {
+            manTrigram == Trigram.GIN && man.element == Element.IRON && man.animal in listOf(Animal.BIRD, Animal.MONKEY)
+        },
+        MatchTrigramLine.KHEN_WOMAN_ZON_MAN.takeIf { womanTrigram == Trigram.KHEN && manTrigram == Trigram.ZON },
+    )
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }

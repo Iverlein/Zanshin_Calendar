@@ -57,6 +57,14 @@ class BirthTest {
         assertEquals(9, MewaPathYear.TWO_ELEMENTS.years.sumOf { it.size })
         assertEquals(listOf(MewaPathYear.FIVE_ELEMENTS), MatchReckoning.mewaPathYears(2020))
         assertEquals(2, MatchReckoning.mewaPath(2026))
+        assertEquals(
+            listOf(MatchTrigramLine.KHEN_WOMAN_ZON_MAN),
+            MatchReckoning.trigramLines(Sign(Element.FIRE, Animal.DRAGON), Trigram.ZON, Sign(Element.IRON, Animal.MONKEY), Trigram.KHEN),
+        )
+        assertEquals(
+            listOf(MatchTrigramLine.WOOD_WOMAN_KHON, MatchTrigramLine.IRON_HUSBAND_GIN),
+            MatchReckoning.trigramLines(Sign(Element.IRON, Animal.BIRD), Trigram.GIN, Sign(Element.WOOD, Animal.RABBIT), Trigram.KHON),
+        )
         // The notes' example (p. 524): a father of a tiger year, a son of a hare year, the secret way flourishing.
         assertEquals(Sector.FLOURISHING, MatchReckoning.parentStage(ParentWay.SECRET, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))
         assertEquals(Sector.IN_THE_WOMB, MatchReckoning.parentStage(ParentWay.OUTER, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))

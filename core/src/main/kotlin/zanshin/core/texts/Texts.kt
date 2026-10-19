@@ -26,6 +26,7 @@ import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchParent
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.MatchTrigramLine
 import zanshin.core.tibetan.MewaPathYear
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.MatchTrigramKind
@@ -2127,6 +2128,9 @@ object Texts {
 
     /** A bad year by mewa path [y] (WB vol. 1, ch. 23, p. 354). */
     fun mewaPathYear(y: MewaPathYear): Reading = Reading(key = "reading.MewaPathYear", arg = "reading.MewaPathYear.${y.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
+
+    /** A birth on a natal trigram read one by one [l] (WB vol. 1, ch. 23, p. 362). */
+    fun matchTrigramLine(l: MatchTrigramLine): Reading = Reading(key = "reading.MatchTrigramLine", arg = "reading.MatchTrigramLine.${l.name}", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
