@@ -83,8 +83,7 @@ the other dictionaries. «སྔ་ཆ་གྲིབ་ཚུལ» is not settl
 
 ### Open
 
-- Open question 145 ([open-questions.md](open-questions.md)), narrowed
-  2026-10-18 (above).
+- Open question 145 ([open-questions.md](open-questions.md)), answered 2026-10-18.
 
 ## On the prints and in BDRC's search, 2026-10-18 night (open question 145)
 

@@ -477,8 +477,8 @@ four:
 
 ### Open
 
-- Open questions 120–125 ([open-questions.md](open-questions.md)); 120 and
-  124 answered 2026-10-18, 121–123 narrowed (above), 125 open.
+- Open questions 120–125 ([open-questions.md](open-questions.md)); 120, 121, 122 and
+  124 answered 2026-10-18; 123 and 125 narrowed, open.
 
 ### Searched and not found
 

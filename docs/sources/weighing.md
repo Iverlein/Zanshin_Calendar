@@ -320,8 +320,8 @@ in the dictionaries only as place names; the words divide otherwise
 
 #### Open
 
-- Open questions 126–131 ([open-questions.md](open-questions.md)); 129
-  narrowed 2026-10-18 (above).
+- Open questions 126–131 ([open-questions.md](open-questions.md)); all but 128
+  answered by 2026-10-19; 128 narrowed, open.
 
 #### Searched and not found
 

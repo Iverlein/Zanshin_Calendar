@@ -1043,10 +1043,7 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
 ### Open
 
 - Open question 84 (narrowed) ([open-questions.md](open-questions.md)).
-- Open question 108 ([open-questions.md](open-questions.md)).
-- Open question 109 ([open-questions.md](open-questions.md)).
-- Open question 110 ([open-questions.md](open-questions.md)).
-- Open question 111 ([open-questions.md](open-questions.md)).
+- Open questions 108–111 ([open-questions.md](open-questions.md)), answered 2026-10-18 and 2026-10-19 (108 as far as the sources go).
 - Open question 86 (narrowed) ([open-questions.md](open-questions.md)).
 
 ### Searched and not found

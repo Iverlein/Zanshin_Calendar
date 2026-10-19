@@ -98,7 +98,7 @@ it gives ༦, both print ༥, Jupiter's number, as a plain digit and not as
 
 ### Open
 
-- Open question 144 ([open-questions.md](open-questions.md)).
+- Open question 144 ([open-questions.md](open-questions.md)), answered 2026-10-19 (below).
 
 ## The two ༥ against KP2, 2026-10-19 (open question 144)
 

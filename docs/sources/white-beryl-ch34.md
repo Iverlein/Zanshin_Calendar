@@ -745,7 +745,7 @@ Written out whole in the O2 section below (*2. Learning*); its good dates are «
 
 ### Open (O10f)
 
-- Open questions 156–157 ([open-questions.md](open-questions.md)).
+- Open questions 156–157 ([open-questions.md](open-questions.md)): 157 answered 2026-10-19; 156 decided by the owner 2026-10-18 (the run), the sources not settling it.
 
 ### Searched and not found
 

@@ -1120,8 +1120,8 @@ for feasts, in box 39 for an enthronement, in box 42 for the marriage.
 
 ### Open
 
-- Open question 43 ([open-questions.md](open-questions.md)): the numerals under box 16's three «ཟླ་ཚེས».
-- Open question 44: «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག» in box 10.
+- Open question 43 ([open-questions.md](open-questions.md)): the numerals under box 16's three «ཟླ་ཚེས». Answered 2026-10-19 (box 16a).
+- Open question 44: «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག» in box 10. Answered 2026-10-18.
 - Open question 45: «དབུལ་ལག» in boxes 20, 25, 59 and 62. Answered 2026-10-18: one earth lord (below, *Three of the open words*).
 - Not done: the second part of KP (img. 87–118, the earth lords of the year,
   month, day and hour as charts, and the remedies) is not read; it is the
@@ -1305,8 +1305,7 @@ the good of both halves, not the bad.
 ### Open
 
 - Open question 103 ([open-questions.md](open-questions.md)).
-- Open question 104 ([open-questions.md](open-questions.md)).
-- Open question 105 ([open-questions.md](open-questions.md)).
+- Open questions 104 and 105 ([open-questions.md](open-questions.md)), answered 2026-10-19.
 
 ### Searched and not found
 
@@ -1369,7 +1368,7 @@ the good of both halves, not the bad.
 
 ## Open (O10f, 2026-10-14)
 
-- Open questions 153–155 ([open-questions.md](open-questions.md)).
+- Open questions 153–155 ([open-questions.md](open-questions.md)), answered 2026-10-18 and 2026-10-19.
 
 ### Searched and not found
 

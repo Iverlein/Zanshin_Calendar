@@ -856,10 +856,10 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 
 ### Open
 
-- Open question 112 ([open-questions.md](open-questions.md)).
-- Open question 113 ([open-questions.md](open-questions.md)).
+- Open question 112 ([open-questions.md](open-questions.md)), answered 2026-10-18.
+- Open question 113 ([open-questions.md](open-questions.md)), answered 2026-10-18.
 - Open question 114 ([open-questions.md](open-questions.md)), answered 2026-10-18: two small stars (above).
-- Open question 115 ([open-questions.md](open-questions.md)).
+- Open question 115 ([open-questions.md](open-questions.md)), answered 2026-10-19.
 - Doubt: every line in this section is the etext's and unchecked on the
   scan; the gaps […] are the etext's.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,

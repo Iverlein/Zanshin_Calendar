@@ -272,4 +272,4 @@ the app (§11 as the personal mansions and weekdays).
 
 ## Open
 
-- Open question 140 ([open-questions.md](open-questions.md)).
+- Open question 140 ([open-questions.md](open-questions.md)), answered as far as the sources go 2026-10-18.
