@@ -619,19 +619,20 @@ object Electional {
             ),
         ),
         // 22. Sowing the fields (img. 36, KP2 img. 257). The doubtful good date is ༡༩, KP's 9 against the bad half's 4 and 14
-        // (open question 157), as WB's sowing has it; the 28th stands in both halves.
+        // (open question 157), as WB's sowing has it. The good half's second line opens «༡༧ ༡༨», not «༡༧ ༢༨», in the Bhutan
+        // print of 1981 (I1KG11905, img. 384), so the 28th stands in the bad half only, as WB has it.
         ActivityList(
             "sowing",
             good = Factors(
                 links = setOf(Link.FEELING),
                 weekdays = setOf(SATURDAY, MONDAY, WEDNESDAY, THURSDAY, FRIDAY),
-                dates = setOf(2, 10, 12, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 30),
+                dates = setOf(2, 10, 12, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 30),
                 mansions = m(ROHINI, PUNARVASU, REVATI, MRIGASHIRAS, MAGHA, HASTA, CITRA, JYESHTHA, DHANISHTHA, SHATABHISHAJ, SVATI, ARDRA, SHRAVANA, MULA, PURVASHADHA, UTTARASHADHA, ANURADHA),
                 animals = setOf(SHEEP, DOG, OX),
             ),
             bad = Factors(
                 weekdays = setOf(SUNDAY, TUESDAY),
-                dates = setOf(4, 8, 14, 29),
+                dates = setOf(4, 8, 14, 28, 29),
                 mansions = m(BHARANI, KRITTIKA, PUSHYA, VISHAKHA, UTTARAPHALGUNI, PURVABHADRAPADA),
                 animals = setOf(PIG, RABBIT, DRAGON, SNAKE),
             ),
