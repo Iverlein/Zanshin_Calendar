@@ -2221,3 +2221,8 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   givers avoid «སེ་བྱི་ཧང་ཕན་ཟླ་[ཆུང]་ཕྱོགས», where KP's box 16 writes «ཟླ་ཀླུང», a
   direction of the month's *klung* (white-beryl-ch34.md; open question 43);
   which direction stays unread.
+- **A parallel, not stated by WB.** The year's black hal khyi sits "on
+  the wind-horse of the previous year" («སྔ་ལོའི་ཀླུང་རྟ», p. 185), and the
+  month's hal dog on the past month's river (p. 213): read alike, the
+  month's «ཟླ་ཀླུང» would be the month's wind-horse (ཀླུང་རྟ), the animal the
+  month animal's triad takes for it. No text read says so.
