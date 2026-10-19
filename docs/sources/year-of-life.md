@@ -741,6 +741,9 @@ ox) gives a precious pebble's white or black: open question 160. The
 precious pebbles wait on it. Narrowed 2026-10-19: WB's
 own next lines count from one, so the tiger has one black and the snake
 four, the horse one white and the bird four; the tie is still open.
+Mipham's notes (vol. 2, p. 475) add that the four precious pebbles have
+no partner to fight and are laid «བཤད་པ་བཟང་ན་དཀར་པོ། ངན་ན་ནག་པོ», white where the reading is
+good and black where it is bad (open question 160).
 
 **The end reckoning** (p. 284, img. 279, last lines, to p. 286, img. 281,
 l. 13): «ཁམས་དང་ལོ་གཉིས་སྦྱར་བ་ཡི། །མཐའ་རྩིས་བཟང་ངན་བཤད་པ་ནི། །སྤྱི་ཡི་རུས་ཆེན་དེ་ནང་དུ།» — the good and bad of the end

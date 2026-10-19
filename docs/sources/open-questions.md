@@ -2232,4 +2232,13 @@ the text, not about the app.
      manuals that give a rule for equal counts (*Nag rtsis snang srid me
      long*, I1KG15279; *Sgo bzhi mdzod lnga'i yang bcud*, I4PD3282; the
      Rgyal rong collection, I4PD3932) are Bon, and no source.*
+     *Narrowed further 2026-10-19: Mipham's notes on ch. 22 (WB vol. 2,
+     p. 475, etext I3CN5029 p. 482) say how a precious pebble is laid:
+     «དེ་དག་གི་འབྲས་བུ་ནི། …གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། དཀར་ན་ཞེས་སོགས་བཞི་ནི། འཐབ་ཟླ་མེད་ཀྱང་བཤད་པ་བཟང་ན་དཀར་པོ། ངན་ན་ནག་པོ་བོར་བ་ཡིན། འདི་གཞན་འོག་མ་རྣམས་སུའང་ཅི་རིགས་འགྲེ།»,
+     the four have no partner to fight (as the hundred pebbles have, an
+     element set against an element), so a white is laid where the
+     reading (*bshad pa*) is good and a black where it is bad, and so
+     below as fits. The "reading" is most likely the key pebbles' table of
+     p. 260 for the sign; a sign with as many white as black is still not
+     ruled on.*
 
