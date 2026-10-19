@@ -1052,7 +1052,8 @@ object Electional {
                 animals = setOf(HORSE),
             ),
         ),
-        // 59. Judging cases (img. 60, KP2 img. 283). The good half's «སྐྱེད» is the sense sources (O1).
+        // 59. Judging cases (img. 60, KP2 img. 283). The good half's «སྐྱེད» is the sense sources (O1). The last bad date is
+        // «༢༨» on the scan (2026-10-19), a crossed 2, as boxes 57 and 58 have it; the O10f reading had 18.
         ActivityList(
             "judging_disputes",
             good = Factors(
@@ -1064,7 +1065,7 @@ object Electional {
             bad = Factors(
                 links = setOf(Link.IGNORANCE, Link.NAME_AND_FORM),
                 weekdays = setOf(SATURDAY, MONDAY, WEDNESDAY),
-                dates = setOf(4, 8, 9, 18),
+                dates = setOf(4, 8, 9, 28),
                 mansions = m(MRIGASHIRAS, ASHLESHA, CITRA, JYESHTHA, PURVABHADRAPADA, MULA),
                 animals = setOf(HORSE),
             ),

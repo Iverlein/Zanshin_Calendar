@@ -223,6 +223,8 @@ class ElectionalTest {
         assertEquals(setOf(Link.FORMATION, Link.IGNORANCE, Link.BIRTH), printed("building_walls").good.links)
         assertTrue(Link.SOURCES in printed("virtuous_acts_for_the_living").good.links)
         assertEquals(setOf(Link.SOURCES, Link.CONTACT, Link.BIRTH), printed("judging_disputes").good.links)
+        // Box 59's last bad date on the scan: «༢༨», as boxes 57 and 58.
+        assertEquals(setOf(4, 8, 9, 28), printed("judging_disputes").bad.dates)
         assertEquals(setOf(Link.CONSCIOUSNESS, Link.FEELING), printed("ordination_teaching_and_empowerment").good.links)
         // Box 53 is two columns: the Tiger, Dragon and Ox days and the trigram zon stand in the good one, for both halves.
         for (w in listOf("martial_skills", "games")) with(printed(w)) {
