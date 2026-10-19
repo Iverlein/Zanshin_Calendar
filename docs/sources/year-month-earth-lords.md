@@ -2264,3 +2264,23 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   entry into Capricorn. No text read glosses WB's line; BDRC's search
   finds «ཉི་མའི་གླང» nowhere else in a reckoning, and nothing names the ox month
   so.
+
+## Wangkhyi's day and hour, 2026-10-19 (open question 29)
+
+- **Its four animals are the four graves.** Wangkhyi faces south at the
+  ox's time in the last summer month, north at the sheep's in the last
+  winter month, west at the dragon's in the last autumn month, east at
+  the dog's in the last spring month (p. 210): the ox, sheep, dragon and
+  dog are the four grave animals of the triads (*The light-clearer's
+  grave*, above), each the one opposite the month's own animal (the last
+  months being the dragon, sheep, dog and ox).
+- **WB's close narrows it in three steps.** «སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉིར་ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན།»:
+  in general, on the days of the four last months, do not face that bad
+  direction; in particular not on a «དུར་ཉི», a grave day; more particularly
+  keep to the *nyi dus* where it stays. Read with the graves, the grave
+  day is the day of the month's grave animal (the ox day in the last
+  summer month), and the narrowest, «གླང་གི་ཉི་མ་དུས་ཚོད», the ox's hour, on
+  that day above all. So the line is less "an hour of the ox's days" or
+  "the ox's hour of every day" than both, in order of weight; this is a
+  reading of WB's own steps, not a gloss found in another text (the
+  almanac lists copy «ཝང་ཁྱི་གླང་ཉི་དུས» without explaining it).

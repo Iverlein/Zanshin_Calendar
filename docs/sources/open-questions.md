@@ -505,6 +505,12 @@ the text, not about the app.
     Wangkhyi (ཝང་ཁྱི, wang khyi) face its direction at the ox's hour of
     every day of the month, or at an hour of the ox's days (2026-10-11,
     RD4, [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *Wangkhyi's day and hour*): WB's own close runs in three steps, the
+    days of the last months in general, «དུར་ཉི», the grave day, in particular,
+    and «གནས་པའི་ཉི་དུས» most of all; Wangkhyi's four animals (ox, sheep, dragon,
+    dog) are the four grave animals. Read so, the ox day is the grave day
+    and the ox's hour on it the narrowest time; no other text glosses it.*
 
 30. **Answered 2026-10-18. WB vol. 2, pp. 202–222: misprints of the 1996 edition?** *Pi
     ling*'s course by the *Index* names winter 2 twice (p. 207); the
