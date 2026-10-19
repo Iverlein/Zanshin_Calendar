@@ -47,6 +47,16 @@ class BirthTest {
         val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal > a.ordinal }.map { a to it } }
         assertEquals(listOf(Trigram.KHAM to Trigram.ZON), pairs.filter { (a, b) -> MatchReckoning.trigramKind(a, b) == null })
         assertEquals(MatchTrigramKind.BDUD_GCOD, MatchReckoning.trigramKind(Trigram.KHEN, Trigram.LI))
+        // The five-element years are those whose five forces are five elements, path by path; the two-element list is WB's.
+        for (start in listOf(1864, 1924, 1984)) for (y in start until start + 60) {
+            val s = YearOfLife.yearSign(y)
+            val f = Forces.of(s.element, s.animal)
+            val five = setOf(f.vitality, f.body, f.destiny, f.luck, smeBaElement(YearOfLife.yearSmeBa(y))).size == 5
+            assertEquals(five, MewaPathYear.FIVE_ELEMENTS in MatchReckoning.mewaPathYears(y), "$y")
+        }
+        assertEquals(9, MewaPathYear.TWO_ELEMENTS.years.sumOf { it.size })
+        assertEquals(listOf(MewaPathYear.FIVE_ELEMENTS), MatchReckoning.mewaPathYears(2020))
+        assertEquals(2, MatchReckoning.mewaPath(2026))
         // The notes' example (p. 524): a father of a tiger year, a son of a hare year, the secret way flourishing.
         assertEquals(Sector.FLOURISHING, MatchReckoning.parentStage(ParentWay.SECRET, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))
         assertEquals(Sector.IN_THE_WOMB, MatchReckoning.parentStage(ParentWay.OUTER, Sign(Element.WOOD, Animal.TIGER), Animal.RABBIT))

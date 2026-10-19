@@ -26,6 +26,7 @@ import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchParent
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.MewaPathYear
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.MatchTrigramKind
 import zanshin.core.tibetan.PairLine
@@ -2123,6 +2124,9 @@ object Texts {
     /** A spouse's stage counted from the parent [p], among the good six or not (WB vol. 1, ch. 23, pp. 359–360). */
     fun matchParentStage(p: MatchParent, good: Boolean): Reading =
         Reading(key = "reading.MatchParentStage", arg = "reading.MatchParentStage.${p.name}.${if (good) "GOOD" else "BAD"}", source = Sources.WHITE_BERYL_MATCH_PARENTS)
+
+    /** A bad year by mewa path [y] (WB vol. 1, ch. 23, p. 354). */
+    fun mewaPathYear(y: MewaPathYear): Reading = Reading(key = "reading.MewaPathYear", arg = "reading.MewaPathYear.${y.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)

@@ -50,6 +50,17 @@ enum class BadYear(val years: List<Sign>) {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The bad years by mewa path (p. 354): in the first, middle and lower sixty years of the mewa's round, the years
+ * that hold all five elements (bad as a bride) and the nine that hold two. [years] lists each path's signs as WB
+ * names them. The five-element years are exactly those whose life force, body, power, luck and birth mewa are five
+ * elements; the two-element list departs from that count in three places (marriage.md) and is kept as printed.
+ */
+enum class MewaPathYear(val years: List<List<Sign>>) {
+    FIVE_ELEMENTS(listOf(signs("WOOD OX"), signs("WOOD DOG", "EARTH SNAKE"), signs("WATER SHEEP", "EARTH MOUSE", "WOOD SHEEP", "EARTH PIG", "IRON MOUSE"))),
+    TWO_ELEMENTS(listOf(signs("FIRE RABBIT", "WATER BIRD", "IRON MONKEY"), signs("WOOD MONKEY", "WATER SNAKE"), signs("IRON TIGER", "IRON DOG", "WATER MOUSE", "WATER PIG"))),
+}
+
 private fun signs(vararg names: String): List<Sign> = names.map { n -> n.split(" ").let { Sign(Element.valueOf(it[0]), Animal.valueOf(it[1])) } }
 
 
@@ -280,6 +291,13 @@ object MatchReckoning {
         ParentWay.OUTER -> Sector.entries[Math.floorMod(own.ordinal - parent.animal.ordinal, 12)]
         ParentWay.SECRET -> YearOfLife.sector(Forces.of(parent.element, parent.animal).vitality, own)
     }
+
+    /** The mewa path of the Tibetan year [year]: 0 the first sixty years of the round (1864–1923), 1 the middle, 2 the lower. */
+    fun mewaPath(year: Int): Int = Math.floorMod(year - 1864, 180) / 60
+
+    /** The bad years by mewa path that the Tibetan year [year] is among (p. 354). */
+    fun mewaPathYears(year: Int): List<MewaPathYear> =
+        MewaPathYear.entries.filter { YearOfLife.yearSign(year) in it.years[mewaPath(year)] }
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }
