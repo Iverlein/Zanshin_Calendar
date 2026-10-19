@@ -131,6 +131,13 @@ enum class PairLine(val man: Animal, val women: List<Animal>, val ordered: Boole
         manAnimal == man && womanAnimal in women || !ordered && womanAnimal == man && manAnimal in women
 }
 
+/**
+ * How the two birth mewas meet (p. 363): born on one, misfortune gathered when both are on the two-black, as mother
+ * and son, as enemies, and the mewa's demon, the enemies' worst, with the man on the seven-red and the woman on the
+ * three-blue.
+ */
+enum class MatchMewa { SAME, BYUR_DUS, MOTHER_SON, ENEMY, DEMON }
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -182,6 +189,19 @@ object MatchReckoning {
 
     /** The pairs read one by one that hold for the man's and the woman's year animals (pp. 352–353). */
     fun pairLines(man: Animal, woman: Animal): List<PairLine> = PairLine.entries.filter { it.holds(man, woman) }
+
+    /**
+     * How the man's and the woman's birth mewas [man] and [woman] meet (p. 363): the birth mewa is "the main one"
+     * («ངོ་བོ་སྐྱེས་སྨེ་གཙོ་ཆེ»); two mewas of one element that are not one meet in none of WB's ways.
+     */
+    fun mewaMeetings(man: Int, woman: Int): List<MatchMewa> {
+        if (man == woman) return listOfNotNull(MatchMewa.SAME, MatchMewa.BYUR_DUS.takeIf { man == 2 })
+        return when (Forces.kinship(smeBaElement(man), smeBaElement(woman))) {
+            Kinship.MOTHER, Kinship.SON -> listOf(MatchMewa.MOTHER_SON)
+            Kinship.FRIEND, Kinship.ENEMY -> listOf(if (man == 7 && woman == 3) MatchMewa.DEMON else MatchMewa.ENEMY)
+            Kinship.IDENTITY -> emptyList()
+        }
+    }
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }

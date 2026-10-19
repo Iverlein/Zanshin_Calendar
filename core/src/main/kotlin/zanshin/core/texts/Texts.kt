@@ -23,6 +23,7 @@ import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
+import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchPlanet
 import zanshin.core.tibetan.PairLine
 import zanshin.core.tibetan.PairList
@@ -400,6 +401,8 @@ object Sources {
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
     /** The marriage match's years: the kinds not joined and the bad years (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
+    /** The marriage match's birth mewas (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_PLANET = whiteBeryl("chapter 23, p. 360", volume = 1)
     /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
@@ -2082,6 +2085,9 @@ object Texts {
     fun matchSameElement(e: Element, s: YearSexes): Reading? = "reading.MatchSameElement.${e.name}_${s.name}".let { k ->
         if (Catalog.textOrNull(k) == null) null else Reading(key = "reading.MatchSameElement", arg = k, source = Sources.WHITE_BERYL_MATCH_YEARS)
     }
+
+    /** The two birth mewas meeting as [m] (WB vol. 1, ch. 23, p. 363). */
+    fun matchMewa(m: MatchMewa): Reading = Reading(key = "reading.MatchMewa", arg = "reading.MatchMewa.${m.name}", source = Sources.WHITE_BERYL_MATCH_MEWA)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
