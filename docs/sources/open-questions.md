@@ -442,6 +442,15 @@ the text, not about the app.
     *Gsung 'bum*, vol. 26, I2029), and his print reads the first «དུས་ཁམས» as the
     1996 edition does (img. 622, f. 1b, l. 3). So the word is the author's;
     whether he means the clan's element by it stays open.*
+    *Answered as far as the sources go, 2026-10-19: the clan's element. The
+    sentence itself is about the clan: «དུས་ཁམས་ནི་ངོས་ཟིན་ན་དེ་དང་མིན་ན་བླ་རྟགས་གཡག་སོགས་གང་ཡིན་ངག་རྒྱུན་དང་རྨི་ལམ་སོགས་ལས་བརྟག་པ་དང་། མི་གཤིས་སོགས་ཀྱིས་རུས་ཆེན་ལྔ་གང་ཡིན་ངོས་ཟིན་པར་བྱའོ།», if
+    it is known, that; if not, find the la-sign (the yak and so on) from
+    oral tradition and dreams, and from the temperament which of the five
+    great clans it is. Lha mo tshul khrims's *Dpag bsam ljon shing*
+    (MW1KG21818, etext p. 35) calls the same step, after the four precious
+    pebbles, «རུས་ཁམས་ངོས་འཛིན་ཕྲ་རགས་གཉིས། །རྒྱས་པར་བཻ་དཀར་གཞུང་ལས་ཤེས། །ད་ལྟའི་ཕྱག་རྒྱུན་རགས་པ་ནི། །རང་སྐྱེས་སྤར་ཁའི་ཁམས་བཞིན།»
+    (the *Bzo rtsis zlos gar* alike), and «དུས་ཁམས» occurs nowhere else in
+    BDRC's full text. So «དུས» is a slip, Mipham's or his scribe's, for «རུས».*
 
 24. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361): what is the sixth point of the
     match, «ཎི་ཤ»?** Ch. 23's fifteen points read «ཁུག་པ(༤)ཡང་ཁུག(༥)ཎི་ཤ(༦)དང་།»;
