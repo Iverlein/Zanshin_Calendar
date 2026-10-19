@@ -102,6 +102,17 @@ enum class BirthChild(val wylie: String) {
 }
 
 /**
+ * What p. 294 sets against the natal trigram's element besides the life force: the body, destiny and the luck, each
+ * one of the same five for its share; and the natal mewa's element, set against the life force the same way.
+ */
+enum class BirthShare(val force: Force?) {
+    BODY(Force.BODY),
+    DESTINY(Force.DESTINY),
+    LUCK(Force.LUCK),
+    MEWA(null),
+}
+
+/**
  * The readings of the parents' trigrams at the birth (p. 326) that the dates decide, in WB's order. The trigram a
  * child is born on is the mother's (the natal trigram); the father's is his trigram of the year of the birth. WB's
  * readings that need the order of the siblings, or end "and the like", are left out.
@@ -211,7 +222,10 @@ object BirthReckoning {
     fun clanYear(clan: Clan, animal: Animal): ClanYear = CLAN_YEARS.getValue(clan).entries.first { animal in it.value }.key
 
     /** What one born in a year of life force [vitality] on the natal trigram [natal] is (p. 294). */
-    fun child(vitality: Element, natal: Trigram): BirthChild = when (Forces.kinship(vitality, YearOfLife.trigramElement(natal))) {
+    fun child(vitality: Element, natal: Trigram): BirthChild = kind(vitality, YearOfLife.trigramElement(natal))
+
+    /** Which of the five [element] is against [other] (p. 294): [other] its mother, its son, the same, the one it overcomes, its enemy. */
+    fun kind(element: Element, other: Element): BirthChild = when (Forces.kinship(element, other)) {
         Kinship.MOTHER -> BirthChild.PARENTS_GOD
         Kinship.SON -> BirthChild.CHILDRENS_GLORY
         Kinship.IDENTITY -> BirthChild.LIFE

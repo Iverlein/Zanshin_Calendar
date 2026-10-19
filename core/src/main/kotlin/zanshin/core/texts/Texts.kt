@@ -17,6 +17,7 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
+import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
@@ -383,6 +384,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_BIRTH_SHARES = whiteBeryl("chapter 22, pp. 294–295", volume = 1)
     /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_MEWA = whiteBeryl("chapter 22, pp. 288–294", volume = 1)
     /** The five bodies and the thirty paired-year elements (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1997,6 +2000,16 @@ object Texts {
         val first = BirthReckoning.pairFirst(birth)
         return Reading(key = "reading.KhaSrog", arg = "reading.KhaSrog.${first.element.name}_${first.animal.name}", source = Sources.WHITE_BERYL_BODIES)
     }
+
+    /**
+     * The share [share] of one born on a trigram, or under a mewa, of element [against]: which of the five it makes
+     * that share (WB vol. 1, ch. 22, pp. 294–295); a demon's reading is the demon's element's.
+     */
+    fun birthAspect(share: BirthShare, kind: BirthChild, against: Element): Reading = Reading(
+        key = "reading.BirthAspect",
+        arg = "reading.BirthAspect.${share.name}.${kind.name}" + if (kind == BirthChild.DEMON) ".${against.name}" else "",
+        source = Sources.WHITE_BERYL_BIRTH_SHARES,
+    )
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
     fun birthMewa(natal: Int): Reading =

@@ -10,6 +10,14 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** P. 294's examples of the five by the body and by the mewa: a fire body born on zin, and the horse and snake under the four-green, are the parents' god. */
+    @Test
+    fun `the five by the body and by the mewa`() {
+        assertEquals(BirthChild.PARENTS_GOD, BirthReckoning.kind(Element.FIRE, YearOfLife.trigramElement(Trigram.ZIN)))
+        assertEquals(BirthChild.PARENTS_GOD, BirthReckoning.kind(Forces.of(Element.FIRE, Animal.HORSE).vitality, smeBaElement(4)))
+        assertEquals(BirthChild.DEMON, BirthReckoning.kind(Element.WOOD, Element.IRON))
+    }
+
     /** The thirty paired-year elements' bodies as p. 271–275 names them, pair by pair from the wood mouse. */
     @Test
     fun `the thirty pairs' bodies are the years' bodies`() {
