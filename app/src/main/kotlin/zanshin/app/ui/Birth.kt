@@ -30,6 +30,7 @@ import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.GroupCut
+import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
@@ -79,7 +80,7 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
 
 /**
  * The birth year read on its own, needing no one else: the twelve animals' natures and the sixty years (pp. 263–271),
- * the body and its pair of years among the thirty (pp. 271–275), then the year's own destiny, its destiny against its life force (pp. 261, 275–280).
+ * the body and its pair of years among the thirty (pp. 271–275), the natal mewa (pp. 288–294), then the year's own destiny, its destiny against its life force (pp. 261, 275–280).
  */
 @Composable
 fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
@@ -88,6 +89,7 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
     val born = TibetanCalendar.of(person.birth)
     val sign = Sign(born.yearElement, born.yearAnimal)
     val y = BirthReckoning.powerYear(sign)
+    val natalMewa = YearOfLife.yearSmeBa(born.year)
     val forces = Forces.of(sign.element, sign.animal)
     AnnotationRow(
         Annotation(
@@ -130,6 +132,17 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
             tone = Tone.NEUTRAL,
             reading = Texts.khaSrog(sign),
             subtitle = labels.string(R.string.birth_pair_subtitle, signName(first, labels), signName(Sign(first.element, Animal.entries[first.animal.ordinal + 1]), labels)),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_mewa_title),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.birthMewa(natalMewa),
+            subtitle = labels.string(R.string.year_mewa_subtitle, natalMewa, Catalog.text("Colour.${SME_BA_COLOURS[natalMewa - 1]}")),
             titleIsKanji = false,
         ),
         onOpen,

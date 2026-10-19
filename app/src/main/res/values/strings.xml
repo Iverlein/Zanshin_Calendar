@@ -984,6 +984,7 @@
     <string name="birth_body_subtitle">Body %1$s</string>
     <string name="birth_pair_title">Its pair among the thirty</string>
     <string name="birth_pair_subtitle">%1$s and %2$s</string>
+    <string name="birth_mewa_title">The natal mewa</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

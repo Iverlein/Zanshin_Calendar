@@ -839,6 +839,7 @@
     <string name="birth_body_subtitle">Тело: %1$s</string>
     <string name="birth_pair_title">Его пара среди тридцати</string>
     <string name="birth_pair_subtitle">%1$s и %2$s</string>
+    <string name="birth_mewa_title">Мева рождения</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
