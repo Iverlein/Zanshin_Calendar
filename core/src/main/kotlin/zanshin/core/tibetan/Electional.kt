@@ -237,7 +237,8 @@ object Electional {
             ),
             named = m(SVATI),
         ),
-        // 45. Funereal activities.
+        // 45. Funereal activities. The sme ba are KP's crossed 2, 5 and 9 (img. 53; the 2 read 3 before), WB's work 41
+        // «གཉིས་ནག་ལྔ་སེར་དགུ་དམར».
         ActivityList(
             "funerals",
             good = Factors(
@@ -247,7 +248,7 @@ object Electional {
                 animals = setOf(TIGER, MONKEY, DOG),
             ),
             bad = Factors(
-                smeBa = setOf(3, 5, 9),
+                smeBa = setOf(2, 5, 9),
                 weekdays = setOf(SUNDAY, SATURDAY, TUESDAY, MONDAY),
                 dates = setOf(10, 29, 20, 19, 1, 5, 23, 9, 28, 30),
                 mansions = m(
@@ -918,11 +919,12 @@ object Electional {
             ),
         ),
         // 44. Suppressing the sri spirits (img. 50, KP2 img. 271). The good dates, worn in KP and KP2, as the Bhutan print of
-        // 1981 sets them (I1KG11905, img. 398): the White Beryl's work 46 date for date.
+        // 1981 sets them (I1KG11905, img. 398): the White Beryl's work 46 date for date. The sme ba is KP's crossed 2 (img. 52,
+        // read 3 before), the two-black of WB's «གཉིས་ནག་གིན་འཆར་བཟང».
         ActivityList(
             "suppressing_sri",
             good = Factors(
-                smeBa = setOf(3),
+                smeBa = setOf(2),
                 dates = setOf(4, 8, 18, 19, 9, 29, 22, 25),
                 weekdays = setOf(TUESDAY, SATURDAY, SUNDAY, THURSDAY),
                 mansions = m(MRIGASHIRAS, ARDRA, ASHLESHA, JYESHTHA, MULA, VISHAKHA, SVATI, UTTARABHADRAPADA, HASTA, ASHVINI, MAGHA),

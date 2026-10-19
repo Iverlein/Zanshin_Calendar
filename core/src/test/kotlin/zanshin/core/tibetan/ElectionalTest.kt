@@ -180,7 +180,7 @@ class ElectionalTest {
             .associate { it.wording to (it.good.smeBa to it.bad.smeBa) }
         assertEquals(
             mapOf(
-                "funerals" to (setOf<Int>() to setOf(3, 5, 9)),
+                "funerals" to (setOf<Int>() to setOf(2, 5, 9)),
                 "setting_up_supports" to (setOf(5) to setOf()),
                 "building_walls" to (setOf<Int>() to setOf(3)),
                 "trade" to (setOf<Int>() to setOf(9)),
@@ -193,7 +193,7 @@ class ElectionalTest {
                 "preparing_medicine" to (setOf(4) to setOf()),
                 "bloodletting_and_moxibustion" to (setOf<Int>() to setOf(2, 7)),
                 "bathing_and_washing_the_hair" to (setOf<Int>() to setOf(1, 6)),
-                "suppressing_sri" to (setOf(3) to setOf()),
+                "suppressing_sri" to (setOf(2) to setOf()),
                 "consecration" to (setOf<Int>() to setOf(6)),
                 "composing_treatises_and_learning_poetics" to (setOf(5) to setOf()),
                 "fire_offerings" to (setOf<Int>() to setOf(5, 7, 2, 4)),
