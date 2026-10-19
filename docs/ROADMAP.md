@@ -3482,8 +3482,13 @@ groups it shows (`tools/emulator/store_shots.py`).
   mother's year is known; with them the twenty-five particular readings,
   by the year's element, whose side of the family the kind falls on
   (`PowerYearOf`), the same day, and the four readings of the luck
-  triads that follow them (pp. 280–281, `LuckTriad`). Left: the pebble of
-  the time. Checked: `BirthTest` (WB's particular years, twelve
+  triads that follow them (pp. 280–281, `LuckTriad`), and the condensed
+  readings of the first, middle and last years (p. 283, `YearPlace`).
+  Next in the chapter: the cutting and tearing among one's own four
+  aspects (pp. 281–282, twelve readings, the next to read on the scan),
+  the expanded first, middle and last, then the sixty years
+  (pp. 263–270). Left besides: the pebble of the time; the four precious
+  pebbles (open question 160). Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,
   *khong nong*) and Russian (a wood tiger, *kha yan*, no mother), the
   release build.

@@ -621,6 +621,32 @@ The triads are those of the luck (*klung rta*) element of `Forces`:
 mouse, dragon, monkey wood; tiger, horse, dog iron; bird, ox, snake
 water; pig, sheep, hare fire. Built 2026-10-19 (`LuckTriad`).
 
+### The first, middle and last years (p. 283)
+
+Read 2026-10-19 for ROADMAP R2c: the Gser thang reprint, img. 278,
+Yigdzin-1 compared with the scan; the scan reads «མཐའ་ཟླ་དྭ་བོར་ལུས» where
+Yigdzin-1 has «མནའ་ཐ་དཱ་བོར», and «ཁ་གཡོགས», «སྤྲེལ», «སྦྲུལ», «རྟ».
+
+> གཞན་ཡང་ལོ་ཁྱིམ་ཟླ་ཞག་དུས། །ར་འབྲིང་ཐ་མ་བསྡེབས་ཚད་ནི། །སྟག་སྤྲེལ་ཕག་སྦྲུལ་ར་བའི་ལོ། །སྟེང་འོག་སྤུན་དང་ཕ་མ་ལ། །མཐའ་ཟླ་དྭ་བོར་ལུས་ཉེན་ཡོད། །འཕར་བ་གཞུག་རྡུམ་བསེ་རུ་གཅིག །ཅིས་ཀྱང་འཇིག་པ་མེད་པ་སྟེ། །བྱེ་བྲལ་བྱས་སམ་བྱེད་དང་ཕྲད། །ཕ་མེས་བན་བོན་དང་འགྲས་སམ། །ཡང་ན་ལྷ་སྲུང་འགྱངས་པ་ཡོད། །ཕ་ཁྱིམ་བུ་ཡིས་མི་འཛིན་ནམ། །ཡང་ན་ཞིག་རལ་བྱས་པ་ཡོད། །བྱི་རྟ་བྱ་ཡོས་འབྲིང་པོའི་ལོ། །ཕ་དྲིན་མ་དྲིན་ཆུང་བ་སྟེ། །རང་དྲིན་རང་ལ་ཆེ་བ་ཡིས། …། །ཚེ་སྟོད་གང་སྟོངས་ཕུགས་སུ་བཟང་། །ཚན་ཁུངས་བུ་ཚ་སྐྱོན་ཅན་ནམ། །ཡང་ན་རིགས་གཉིས་གསོ་བ་འོང་། །གཉེན་དང་འགྲས་སམ་ཁ་གཡོགས་འཕོག །དུག་མཚོན་བྱེས་སུ་འཁྱམས་པ་འོང་། །གླང་ལུག་ཁྱི་འབྲུག་ཐ་ཆུང་ལོ། །ཡུལ་མཁར་འཕོ་སྐྱས་བྱས་པ་དང་། །ཡང་ན་བཤིག་རལ་བྱས་པ་ཡིས། །ཞིང་དང་ཁྱིམ་ཕྱིར་ཁ་སྨྲས་འོང་། …། །ཕ་ཁྱིམ་བུ་ཡིས་མི་འཛིན་ཏེ། …། །ལས་དང་སོ་ནམ་རེམ་པ་ཡིན། །དེ་ནི་བསྡུས་པའི་ཁ་དམར་ཡིན།
+
+Of the year, month, day and hour, the first, middle and last joined: the
+tiger, monkey, pig and snake first years, with a risk of being left an
+orphan at the end by brothers above and below and by the parents; a
+stub-tailed wolf, a lone rhinoceros (images, not shown); the forefathers
+quarrelled with the priests, *ban bon*, or neglected a protector god;
+the father's house not held by the son, or torn down. The mouse, horse,
+bird and hare middle years: the father's and mother's kindness small,
+one's own great; empty early in life, good at the end; children of the
+line with a fault, or two lines raised; quarrels with kin or blame;
+poison, weapons, wandering abroad. The ox, sheep, dog and dragon last
+years: home and castle moved or torn down; quarrels over fields and
+house; the father's house not held by the son; diligent in work and
+farming. "That is the condensed reading"; an expanded one follows (the
+four first years by their life force, body and destiny eating the
+mother, the father and wealth), not built. The app reads the class of
+the birth year; how the month, day and hour join it the passage does not
+say. Built 2026-10-19 (`YearPlace`).
+
 ### The special pebble's readings: the end reckoning (pp. 284–286)
 
 Read 2026-10-19 for ROADMAP R2b: the Gser thang reprint of the 1996

@@ -548,6 +548,10 @@ on the scan that follow from the years alone. `BirthReckoning`
   side of the family the kind falls on (the father's brothers, the
   household or oneself, the mother and grandmother, the maternal uncle
   and relatives, the children or wealth).
+- **The first, middle and last years** (p. 283): the birth year's class,
+  the tiger, monkey, pig and snake first, the mouse, horse, bird and hare
+  middle, the ox, sheep, dog and dragon last, each with its condensed
+  reading; how the month, day and hour join it is not given.
 - **The luck triad** (pp. 280–281): one reading for each triad of birth
   years that share a luck (*klung rta*): mouse, dragon, monkey; tiger,
   horse, dog; bird, ox, snake; pig, sheep, hare.
@@ -560,7 +564,9 @@ on the scan that follow from the years alone. `BirthReckoning`
   reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
   needs no relative: without the mother's year the clan is still read.
 
-**Not calculated** yet: the pebbles of the birth (the four precious,
+**Not calculated** yet: the cutting and tearing among the birth year's
+own four aspects (pp. 281–282, *gcod 'dral*), twelve readings still to be
+read on the scan; the pebbles of the birth (the four precious,
 whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
@@ -3251,7 +3257,7 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   under "The birth year" the year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
-  and "The year's luck triad",
+  "A last year" (or first or middle) and "The year's luck triad",
   shown also without the mother's year;
   under "The clan" the year of the special pebble ("The clan's friend
   year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note
