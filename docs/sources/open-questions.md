@@ -612,8 +612,8 @@ the text, not about the app.
     wealth is bad. Box 16 digests that work, which has «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན་དང་། །བཅུ་གཉིས་ཟླ་བའི་ཉེར་ལྔ་དང་། །དང་པོའི་ཟླ་བའི་ཉེར་གསུམ»
     among its bad dates: the 11th month's 27th, the 12th's 25th and the
     1st's 23rd. KP's legible numerals, ༡༡ ༢༧ and ༡༢ ༢༥, are the first two; the
-    third's ༡ is the 1st month, its worn digit WB's 23. The month's river
-    before them is WB's «ཟླ་[ཆུང]་ཕྱོགས», not the month's river of ch. 31.*
+    third's ༡ is the 1st month, its worn digit WB's 23. KP's «ཟླ་ཀླུང» before
+    them stands for WB's «ཟླ་[ཆུང]་ཕྱོགས» there, a reading not settled.*
 
 44. **Answered 2026-10-18. KP box 10 (BDRC img. 28): «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག».** Are these one
     name each, and which Chinese-almanac days are they (2026-10-12, RD5,
