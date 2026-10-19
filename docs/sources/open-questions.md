@@ -2329,12 +2329,18 @@ the text, not about the app.
      (Yigdzin-1, not read on the scan): the readings say the month "bears
      hard" on the father, the mother, the child, by the parallel «བུས་པ་རང་ལ་ངན་པ».
      What is «དཱ», and does the scan read it so (R2k)?
+     *Scan 2026-10-19: the Gser thang reprint (I3CN5028, img. 343, p. 348, l. 1)
+     prints ད with a subscript in all three «…ཡི་དཱ་ཟླ་ཡིན», a wedge unlike the ra
+     of «གྲོ» and «གྲུ» on the same page: «དཱ» rather than «དྲ». Its meaning stays open.*
 163. **Revatī in p. 348's mansions (WB vol. 1, ch. 22).** «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་།» puts
      Revatī (ནམ་གྲུ) among the very bad mansions for a birth, while Revatī's own
      verse (mansion-verses.md) makes it one of the four accomplishing
      mansions (with Puṣya, Viśākhā and Uttarāṣāḍhā). Does the scan read
      «ནམ་གྲུ», and which four does p. 348 mean? The birth mansion's reading
      waits on it (R2k).
+     *Scan 2026-10-19: the Gser thang reprint (I3CN5028, img. 343, p. 348, para. 3)
+     reads «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །…འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་»
+     as Yigdzin-1 did: ནམ་གྲུ is in the print. Which four are meant stays open.*
 164. **The moment's trigram and mewa (WB vol. 2, ch. 30, pp. 156, 162).** The day's
      length divided by eight for the trigram, by nine for the mewa, each
      counted "from the one that rises at dawn on that date": in which
