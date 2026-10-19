@@ -965,7 +965,8 @@ object Electional {
             ),
         ),
         // 54. Composing treatises, learning poetics and grammar (img. 57, KP2 img. 280). The print's bracket spans the Sun,
-        // the Moon and Friday (O10f).
+        // the Moon and Friday (O10f). The bad dates as read on the scan on 2026-10-19, the White Beryl's work 52 in its own
+        // order: the O10f reading took the 6 for 4 and the 4 for 9.
         ActivityList(
             "composing_treatises_and_learning_poetics",
             good = Factors(
@@ -978,7 +979,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(SATURDAY, TUESDAY),
-                dates = setOf(4, 7, 12, 9, 15),
+                dates = setOf(6, 7, 12, 4, 15),
                 mansions = m(BHARANI, ASHLESHA, MAGHA),
                 animals = setOf(OX, PIG),
             ),

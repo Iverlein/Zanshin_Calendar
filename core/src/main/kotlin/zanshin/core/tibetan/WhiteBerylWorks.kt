@@ -223,7 +223,7 @@ object WhiteBerylWorks {
             ),
         ),
         // 52. Poetics and grammar, p. 421: «སྒྲོན(༡༧)» where the box has snrubs; the 1st, the time to beware for learning.
-        ActivityList("composing_treatises_and_learning_poetics", good = Factors(mansions = m(JYESHTHA)), bad = Factors(dates = setOf(1, 6))),
+        ActivityList("composing_treatises_and_learning_poetics", good = Factors(mansions = m(JYESHTHA)), bad = Factors(dates = setOf(1))),
         // 53. Thread-cross and torma, p. 422.
         ActivityList(
             "thread_cross_and_torma_rites",

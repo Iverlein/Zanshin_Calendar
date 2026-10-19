@@ -244,6 +244,9 @@ class ElectionalTest {
         assertEquals(setOf(Weekday.FRIDAY, Weekday.TUESDAY, Weekday.SUNDAY), printed("feeding_up_horses").good.weekdays)
         assertEquals(setOf(Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY), printed("saddling").good.weekdays)
         assertEquals(setOf(Weekday.THURSDAY, Weekday.WEDNESDAY), printed("composing_treatises_and_learning_poetics").good.weekdays)
+        // Box 54's bad dates, read on the scan: the White Beryl's 6, 7, 12, 4, 15 in its order; the 9th on neither side.
+        assertEquals(setOf(6, 7, 12, 4, 15), printed("composing_treatises_and_learning_poetics").bad.dates)
+        assertEquals(setOf(1, 4, 6, 7, 12, 15), list("composing_treatises_and_learning_poetics").bad.dates)
         // Box 33: the 1st and the 6th, and the link formation.
         with(printed("learning_writing_and_astrology")) {
             assertEquals(setOf(1, 6), bad.dates)
