@@ -73,9 +73,11 @@ object TibetanNaming {
                 }
                 val (script, wylie) = m.destructured
                 // A Sanskrit loan is printed without a tsheg inside it (བཻཌཱུར, bai DUr): tshegs are not compared.
-                // BDRC capitalises a title's first letter, which is no retroflex ("Dpal ldan").
+                // BDRC capitalises a title's first letter, which is no retroflex ("Dpal ldan"); a word that begins
+                // with a retroflex keeps its capital ("Ni sha", ཎི་ཤ), so the Wylie as written may match too.
                 val converted = Ewts.toTibetan(wylie.replaceFirstChar { it.lowercase() })
-                if (converted != null && converted.replace("་", "") != script.replace("་", "")) out += "«$part»: the Wylie writes $converted"
+                fun same(t: String?) = t != null && t.replace("་", "") == script.replace("་", "")
+                if (converted != null && !same(converted) && !same(Ewts.toTibetan(wylie))) out += "«$part»: the Wylie writes $converted"
             }
             val before = text.substring(0, b.range.first)
             if (!before.endsWith(' ') || before.isBlank() || TIBETAN.matches(before.trimEnd().last().toString())) out += "no name before ${b.value}"

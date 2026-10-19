@@ -10,6 +10,20 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The marriage match's single (p. 355): mother, son and friend agree, the enemy disagrees, the same element agrees for earth and water and is middling for fire, iron and wood; ni sha (p. 359). */
+    @Test
+    fun `the marriage match's single and ni sha`() {
+        assertEquals(MatchMeeting.AGREE, MatchReckoning.meeting(Element.FIRE, Element.WOOD))
+        assertEquals(MatchMeeting.AGREE, MatchReckoning.meeting(Element.FIRE, Element.EARTH))
+        assertEquals(MatchMeeting.AGREE, MatchReckoning.meeting(Element.FIRE, Element.IRON))
+        assertEquals(MatchMeeting.DISAGREE, MatchReckoning.meeting(Element.FIRE, Element.WATER))
+        assertEquals(MatchMeeting.MIDDLING, MatchReckoning.meeting(Element.FIRE, Element.FIRE))
+        assertEquals(MatchMeeting.AGREE, MatchReckoning.meeting(Element.WATER, Element.WATER))
+        assertEquals(NiSha.GOOD, MatchReckoning.niSha(1976, Animal.DRAGON, 1979, Animal.SHEEP))
+        assertEquals(NiSha.REVERSED, MatchReckoning.niSha(1979, Animal.SHEEP, 1976, Animal.DRAGON))
+        assertNull(MatchReckoning.niSha(1976, Animal.DRAGON, 1978, Animal.HORSE))
+    }
+
     /** The line of births' examples, pp. 297–299: for each forefather's year, the child's years that crowd, empty, stay and tear the line. */
     @Test
     fun `the line of births as WB lists it`() {

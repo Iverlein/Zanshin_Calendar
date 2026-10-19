@@ -21,6 +21,8 @@ import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
+import zanshin.core.tibetan.MatchMeeting
+import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
@@ -387,6 +389,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH = whiteBeryl("chapter 23, pp. 355–357 and 359", volume = 1)
     /** The line of births (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_LINE = whiteBeryl("chapter 22, pp. 297–299, with the notes in vol. 2, p. 476", volume = 1)
     /** Glory and misfortune against the parents' years (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2031,6 +2035,23 @@ object Texts {
         arg = "reading.BirthLine.${stage.name}" + if (stage == LineStage.CROWDED) ".${group.name}" else "",
         source = Sources.WHITE_BERYL_BIRTH_LINE,
     )
+
+    /** How the spouses' aspect [force] meets in the single match (WB vol. 1, ch. 23, pp. 355–357). */
+    fun matchAspect(force: Force, meeting: MatchMeeting): Reading = Reading(
+        key = "reading.MatchAspect",
+        arg = if (meeting == MatchMeeting.MIDDLING) "reading.MatchAspect.MIDDLING" else "reading.MatchAspect.${force.name}.${meeting.name}",
+        source = Sources.WHITE_BERYL_MATCH,
+    )
+
+    /** The wife of karma: all four aspects met as mother and son (WB vol. 1, ch. 23, p. 355). */
+    fun matchKarma(): Reading = Reading(key = "reading.MatchAspect", arg = "reading.MatchAspect.KARMA", source = Sources.WHITE_BERYL_MATCH)
+
+    /** The two destinies' elements [pair] set together (WB vol. 1, ch. 23, p. 357). */
+    fun matchDestiny(pair: Pair<Element, Element>): Reading =
+        Reading(key = "reading.MatchDestiny", arg = "reading.MatchDestiny.${pair.first.name}_${pair.second.name}", source = Sources.WHITE_BERYL_MATCH)
+
+    /** The *ni sha* reckoning [r] (WB vol. 1, ch. 23, p. 359). */
+    fun matchNiSha(r: NiSha): Reading = Reading(key = "reading.MatchNiSha", arg = "reading.MatchNiSha.${r.name}", source = Sources.WHITE_BERYL_MATCH)
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
     fun birthMewa(natal: Int): Reading =
