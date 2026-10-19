@@ -1238,6 +1238,15 @@ the text, not about the app.
     names the same six systems as Deumar's table, the Tsuglag Rigje's la
     places of people and of livestock among them, and a textbook calls it
     one of the two chief ways with the Kālacakra's; neither names its source.*
+    *Narrowed further 2026-10-19: the name sets the system against the
+    tantras'. A medical textbook (*Cha byad dpyad*, BDRC snippet) says the
+    la places are identified chiefly in two ways, «རྒྱུད་སྡེའི་དུས་འཁོར་ལུགས་ཀྱི་བླ་གནས་ངོས་འཛིན་དང་གཙུག་ལག་རིག་བྱེད་ལུགས་ཀྱི་བླ་གནས་ངོས་འཛིན་ནོ།»,
+    the Kālacakra's of the tantras and the *gtsug lag rig byed*'s; and in
+    the reckoning literature *gtsug lag* is the elemental reckoning, as in
+    Mipham's colophon to WB's notes, «གཙུག་ལག་སྤོར་ཐང་གི །དཀའ་གནད་བརྗེད་བྱང་འདི་བྲིས་པས།» (vol. 2, p. 539),
+    notes on the hard points of the *gtsug lag* board. So "the Tsuglag
+    Rigje" is most likely the la course of the elemental (*nag rtsis*)
+    lore, beside the Kālacakra's; its text is still not found.*
 
 85. ~~Mipham's *Treatise on Passion* and the la.~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan (img. 548–549), the treatise never names the la; it gives a monthly course of the drop of great bliss as sixteen vowel syllables, from the big toe to the crown on the 15th and back to the soles on the 30th, and no course by the hour. KL's syllables and its crown and sole come from it.* The question as it stood: Does it give a course of
     the la by date or by hour, or only the anointing that KL p. 3, note 2,
