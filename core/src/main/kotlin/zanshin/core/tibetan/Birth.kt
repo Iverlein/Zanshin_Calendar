@@ -56,6 +56,22 @@ enum class YearPlace(val wylie: String) {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The cuts of several of the birth year's aspects together that close the cutting and tearing (p. 282): two that cut
+ * one, three that cut one (each named a star), and three that nourish the life force. [nourish] marks the last.
+ */
+enum class GroupCut(val by: Set<Force>, val on: Force, val nourish: Boolean = false) {
+    PAIR_BODY(setOf(Force.DESTINY, Force.VITALITY), Force.BODY),
+    PAIR_DESTINY(setOf(Force.VITALITY, Force.BODY), Force.DESTINY),
+    PAIR_LUCK(setOf(Force.DESTINY, Force.VITALITY), Force.LUCK),
+    STAR_DESTINY(setOf(Force.VITALITY, Force.BODY, Force.LUCK), Force.DESTINY),
+    STAR_VITALITY(setOf(Force.BODY, Force.DESTINY, Force.LUCK), Force.VITALITY),
+    STAR_LUCK(setOf(Force.VITALITY, Force.BODY, Force.DESTINY), Force.LUCK),
+    STAR_NOURISH(setOf(Force.BODY, Force.DESTINY, Force.LUCK), Force.VITALITY, nourish = true);
+
+    val english: String get() = gloss(this)
+}
+
 /** How a birth year stands to the clan's element, the special pebble (*sgos rdel*, p. 261), in the order of its readings (pp. 284–286). */
 enum class ClanYear {
     GREAT_PENALTY,
@@ -154,6 +170,16 @@ object BirthReckoning {
     fun cuts(birth: Sign): List<Pair<Force, Force>> {
         val f = Forces.of(birth.element, birth.animal)
         return CUTS.filter { (a, b) -> f[a].overcomes == f[b] }
+    }
+
+    /**
+     * The group cuts of p. 282 that hold for the birth year [birth]: every aspect of the group overcomes (or, for
+     * [GroupCut.STAR_NOURISH], feeds) the one it acts on; a pair inside a star that holds is left to the star.
+     */
+    fun groupCuts(birth: Sign): List<GroupCut> {
+        val f = Forces.of(birth.element, birth.animal)
+        val holding = GroupCut.entries.filter { g -> g.by.all { if (g.nourish) f[it].feeds == f[g.on] else f[it].overcomes == f[g.on] } }
+        return holding.filter { g -> g.by.size == 3 || holding.none { it.by.size == 3 && !it.nourish && it.on == g.on && it.by.containsAll(g.by) } }
     }
 
     /** The pairs p. 281–282 reads, cutter first, in its order. */

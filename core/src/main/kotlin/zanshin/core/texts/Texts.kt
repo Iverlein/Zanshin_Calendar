@@ -27,6 +27,7 @@ import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.PowerYear
+import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.YearPlace
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.LunarDayClass
@@ -377,7 +378,7 @@ object Sources {
     /** The special pebble: the birth year against the clan's element (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_SPECIAL_PEBBLE = whiteBeryl("chapter 22, pp. 259, 261 and 284–286", volume = 1)
     /** The cutting and tearing among one's own aspects (ROADMAP R2, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–282", volume = 1)
+    val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, p. 283", volume = 1)
     /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1982,6 +1983,10 @@ object Texts {
     /** The reading of the birth year's aspect [cutter] cutting its aspect [cut] (WB vol. 1, ch. 22, pp. 281–282). */
     fun birthCut(cutter: Force, cut: Force): Reading =
         Reading(key = "reading.BirthCut", arg = "reading.BirthCut.${cutter.name}_${cut.name}", source = Sources.WHITE_BERYL_CUTS)
+
+    /** A cut of several of the birth year's aspects together (WB vol. 1, ch. 22, pp. 282–283). */
+    fun groupCut(g: GroupCut): Reading =
+        Reading(key = "reading.GroupCut", arg = "reading.GroupCut.${g.name}", source = Sources.WHITE_BERYL_CUTS)
 
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =

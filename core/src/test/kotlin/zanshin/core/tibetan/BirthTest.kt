@@ -158,4 +158,19 @@ class BirthTest {
         val seen = (0 until 60).flatMap { BirthReckoning.cuts(YearOfLife.signOf(it)) }.toSet()
         assertEquals(BirthReckoning.CUTS.toSet(), seen)
     }
+
+    /** P. 282's group cuts: each holds where every aspect of the group acts on the one, and every one falls in the sixty. */
+    @Test
+    fun `the group cuts`() {
+        val all = (0 until 60).flatMap { n ->
+            val sign = YearOfLife.signOf(n)
+            val f = Forces.of(sign.element, sign.animal)
+            BirthReckoning.groupCuts(sign).onEach { g ->
+                for (a in g.by) assertEquals(f[g.on], if (g.nourish) f[a].feeds else f[a].overcomes, "$sign $g $a")
+            }
+        }.toSet()
+        // Over the sixty years, those that occur (a star needs three aspects of one element).
+        assert(all.isNotEmpty())
+        assert(all.all { it in GroupCut.entries })
+    }
 }
