@@ -280,6 +280,8 @@ class ElectionalTest {
         }
         // Box 56: gro bzhin bad for Bon rites, so neither; the Tiger day bad.
         with(printed("thread_cross_and_torma_rites")) { assertTrue(Mansion.SHRAVANA !in good.mansions && Animal.TIGER in bad.animals) }
+        // Box 56's bad dates on the scan: «༢ ༦», not 26; the 26th on neither side.
+        assertEquals(setOf(2, 6, 12, 14), printed("thread_cross_and_torma_rites").bad.dates)
     }
 
     /** ROADMAP T2.28: the White Beryl's chapter 34 beside the boxes (O2; docs/sources/white-beryl-ch34.md, *The chapter's lists whole*). */

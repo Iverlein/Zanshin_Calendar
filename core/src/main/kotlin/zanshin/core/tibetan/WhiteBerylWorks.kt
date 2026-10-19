@@ -224,11 +224,11 @@ object WhiteBerylWorks {
         ),
         // 52. Poetics and grammar, p. 421: «སྒྲོན(༡༧)» where the box has snrubs; the 1st, the time to beware for learning.
         ActivityList("composing_treatises_and_learning_poetics", good = Factors(mansions = m(JYESHTHA)), bad = Factors(dates = setOf(1))),
-        // 53. Thread-cross and torma, p. 422.
+        // 53. Thread-cross and torma, p. 422: the 29th good, where the box carves 27.
         ActivityList(
             "thread_cross_and_torma_rites",
             good = Factors(dates = setOf(29), mansions = m(PURVASHADHA, CITRA, ASHVINI), animals = setOf(DRAGON)),
-            bad = Factors(dates = setOf(2, 6), animals = setOf(TIGER)),
+            bad = Factors(animals = setOf(TIGER)),
         ),
         // 55. Rain, p. 423: the mansions with water in them good, these bad, as the box read on the scan has them (O10f).
         ActivityList(

@@ -1004,7 +1004,8 @@ object Electional {
             ),
         ),
         // 56. Thread-cross and torma rites (img. 58, KP2 img. 281). Gro bzhin is bad for Bon rites in the bad half, as mchu
-        // is, so neither side; the Tiger day stands plain after the Pig day's qualifier (O10f).
+        // is, so neither side; the Tiger day stands plain after the Pig day's qualifier (O10f). The bad dates are «༢ ༦ ༡༢ ༡༤»
+        // on the scan (2026-10-19), the White Beryl's work 53; the O10f reading joined the 2 and 6 into 26.
         ActivityList(
             "thread_cross_and_torma_rites",
             good = Factors(
@@ -1014,7 +1015,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(FRIDAY, MONDAY, WEDNESDAY),
-                dates = setOf(26, 12, 14),
+                dates = setOf(2, 6, 12, 14),
                 mansions = m(ROHINI, ANURADHA, SHATABHISHAJ, DHANISHTHA, REVATI),
                 animals = setOf(TIGER),
             ),
