@@ -383,6 +383,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_BIRTH_MEWA = whiteBeryl("chapter 22, pp. 288–294", volume = 1)
     /** The five bodies and the thirty paired-year elements (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BODIES = whiteBeryl("chapter 22, pp. 271–275", volume = 1)
     /** The twelve years in brief and the sixty in full (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1995,6 +1997,10 @@ object Texts {
         val first = BirthReckoning.pairFirst(birth)
         return Reading(key = "reading.KhaSrog", arg = "reading.KhaSrog.${first.element.name}_${first.animal.name}", source = Sources.WHITE_BERYL_BODIES)
     }
+
+    /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */
+    fun birthMewa(natal: Int): Reading =
+        Reading(key = "reading.BirthMewa", arg = "reading.BirthMewa.N$natal", source = Sources.WHITE_BERYL_BIRTH_MEWA)
 
     /** The reading of the triad of birth years whose luck is [luck] (WB vol. 1, ch. 22, pp. 280–281). */
     fun luckTriad(luck: Element): Reading =
