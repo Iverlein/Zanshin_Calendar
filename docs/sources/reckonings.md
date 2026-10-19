@@ -1866,6 +1866,30 @@ thought of from the ox, the months from there, the dates and the hours,
 round the twelve places of the hand: «ཟླ་བ་དགུ་པའི་ཚེས་བཅུ་ཉིན་མོ་འདེབས་ཚེ། འདྲི་བྱེད་ཀྱི་ཡིད་ལ་དང་པོར་གང་དྲན་གྱི་ལོ་ཐེ་ཚོམ་མེད་པར་སྨྲས་པ་འབྲུག་ལྟ་བུ་ཡིན་ན་གླང་ནས་ཟླ་གྲངས་དགུ་བར་བསྐོར་བས་བྱ་ལ་བབས། བྱ་ནས་ཚེས་གྲངས་བཅུ་བར་བསྐོར་བས་རྟ་ལ་བབས།».
 Who «ལུ» is and which text «གཞུང» means are not found.
 
+**Narrowed, 2026-10-19 (open question 101): a Mongol teacher's
+method.** The end of the note, p. 539 (img. 547, read on the scan),
+names where the method came from:
+«ལུ་བཞིན་རྩིས་འདི་ནི་སོག་པོ་དགེ་བཤེས་བསམ་གཏན་ལས་ལག་ཁྲིད་བྱས་པ་བཞིན་བྲིས་པའོ། །འདི་རྣམས་ཞར་ལ་བརྗོད་པ་ཡིན་ནོ།»:
+"this *lu bzhin* reckoning is written down as the Mongol (སོག་པོ, sog po)
+geshe (དགེ་བཤེས, dge bshes) Samten (བསམ་གཏན, bsam gtan) taught it by hand;
+these are told in passing". The Gser thang edition's etext
+(VEIE0OPI3864355D_I3CN5029) has the same line. So «ལུ་བཞིན» is the name
+of the method itself, a reckoning taught by hand by a Mongol teacher.
+The note's colophon follows at once,
+«ཅེས་པ་འདི་ནི་མི་ཕམ་པས་བྲིས་པ་དགེའོ», so the note is Mipham's
+([wb-contents.md](wb-contents.md)). The same page gives the three results,
+by the place reached when counting on from where the reckoning falls:
+«བརྒྱད་པ་དང་འཕྲད་ན་མུང་ཞེས་བྱ། །དགུ་པ་དང་འཕྲད་ན་ཀྲུང་ཞེས་བྱ། །བཅུ་པ་དང་འཕྲད་ན་ཀྱིས་ཞེས་བྱ་སྟེ། དེ་གསུམ་ཁོ་ནས་ཐམས་ཅད་བརྟག་པར་བྱའོ།»:
+meeting the rat, horse, bird or hare at the eighth place is *mung* (མུང),
+at the ninth *krung* (ཀྲུང), at the tenth *kyis* (ཀྱིས), and everything
+is judged by these three alone; no count goes past ten. The example ends
+on the eighth place, the horse, so the result is *mung* (the Gser thang
+etext has «མང»). The text does not say what *mung*, *krung* and *kyis*
+mean. They are not Tibetan words in the dictionaries; that they are
+loanwords, like the method's name, is a guess that no text states. «གཞུང»
+remains unidentified: Mipham's own print of the notes was not reached
+(I2029 img. 749 is the end of another text).
+
 ### Open
 
 Open questions 97–102 ([open-questions.md](open-questions.md)), in order:

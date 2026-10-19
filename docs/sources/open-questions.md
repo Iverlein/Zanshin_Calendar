@@ -1251,6 +1251,11 @@ the text, not about the app.
      months, the dates and the hours, round the twelve places of the hand
      (vol. 2, pp. 538–539, etext). Who «ལུ» is and which text «གཞུང» means are not
      found.*
+     *Narrowed 2026-10-19 ([reckonings.md](reckonings.md)): «ལུ་བཞིན» names the
+     method, written down as a Mongol teacher taught it: «ལུ་བཞིན་རྩིས་འདི་ནི་སོག་པོ་དགེ་བཤེས་བསམ་གཏན་ལས་ལག་ཁྲིད་བྱས་པ་བཞིན་བྲིས་པའོ»
+     (p. 539, img. 547, read on the scan; the Gser thang etext alike), and
+     Mipham's colophon follows. Its three results, *mung*, *krung* and
+     *kyis*, are not explained. Which text «གཞུང» means is still not found.*
 
 102. **Answered 2026-10-18. «བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
     «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
