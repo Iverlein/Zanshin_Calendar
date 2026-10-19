@@ -1092,6 +1092,11 @@ the text, not about the app.
     (the mouse's Wednesday water, the tiger's Thursday wood, the bird's
     Friday iron), not its mother's. How do the two go together (2026-10-12,
     RD10, [health.md](health.md))?
+    *Narrowed 2026-10-19 ([health.md](health.md)): two reckonings. Dpal
+    bsdus (printed p. 21) puts the "mother of the life force" la in the
+    pebble reckonings as the fifth pebble, «ལྔ་པ་བླའམ་རུས་ཁམས། …བླ་ནི་སྲོག་གི་མ་བཞེད་ལེགས།»,
+    the la or the clan's element; his la weekdays (printed p. 38) are WB's
+    p. 330 table, given apart, with no tie to the mother element.*
 
 81. **WB vol. 1, pp. 403, 405: the seven-red's two readings.** When a
     person born under the two-black mewa reaches a year on the seven-red,
