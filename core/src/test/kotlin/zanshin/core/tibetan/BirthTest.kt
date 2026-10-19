@@ -10,6 +10,16 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The notes' rule for glory and misfortune (vol. 2, p. 476): the parent's the mother of one's own, glory; its son, lustre lost; enemy, misfortune; same, own foot; friend, life taken. */
+    @Test
+    fun `glory and misfortune by the notes`() {
+        assertEquals(DpalByur.GLORY, BirthReckoning.dpalByur(Element.FIRE, Element.WOOD))
+        assertEquals(DpalByur.LUSTRE_LOST, BirthReckoning.dpalByur(Element.FIRE, Element.EARTH))
+        assertEquals(DpalByur.MISFORTUNE, BirthReckoning.dpalByur(Element.FIRE, Element.WATER))
+        assertEquals(DpalByur.OWN_FOOT, BirthReckoning.dpalByur(Element.FIRE, Element.FIRE))
+        assertEquals(DpalByur.LIFE_TAKEN, BirthReckoning.dpalByur(Element.FIRE, Element.IRON))
+    }
+
     /** P. 294's examples of the five by the body and by the mewa: a fire body born on zin, and the horse and snake under the four-green, are the parents' god. */
     @Test
     fun `the five by the body and by the mewa`() {

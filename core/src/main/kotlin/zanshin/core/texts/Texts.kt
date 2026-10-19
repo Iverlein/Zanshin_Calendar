@@ -18,6 +18,7 @@ import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BirthShare
+import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
@@ -384,6 +385,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** Glory and misfortune against the parents' years (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_DPAL_BYUR = whiteBeryl("chapter 22, pp. 295–297, with the notes in vol. 2, p. 476", volume = 1)
     /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_SHARES = whiteBeryl("chapter 22, pp. 294–295", volume = 1)
     /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2009,6 +2012,13 @@ object Texts {
         key = "reading.BirthAspect",
         arg = "reading.BirthAspect.${share.name}.${kind.name}" + if (kind == BirthChild.DEMON) ".${against.name}" else "",
         source = Sources.WHITE_BERYL_BIRTH_SHARES,
+    )
+
+    /** Glory and misfortune [result] of one's aspect [force], of element [element] (WB vol. 1, ch. 22, pp. 295–297). */
+    fun dpalByur(force: Force, result: DpalByur, element: Element): Reading = Reading(
+        key = "reading.DpalByur",
+        arg = "reading.DpalByur.${force.name}.${result.name}" + if (force == Force.VITALITY && result == DpalByur.OWN_FOOT) ".${element.name}" else "",
+        source = Sources.WHITE_BERYL_DPAL_BYUR,
     )
 
     /** The births under the natal mewa [natal], 1 to 9 (WB vol. 1, ch. 22, pp. 288–294). */

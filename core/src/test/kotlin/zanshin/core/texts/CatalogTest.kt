@@ -60,6 +60,7 @@ import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthShare
+import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.LogMenPlace
 import zanshin.core.tibetan.Sector
 import zanshin.core.tibetan.SmeBaObstacle
@@ -169,6 +170,7 @@ class CatalogTest {
         Animal.entries.forEach { out += Texts.yearNature(it) }
         Element.entries.forEach { out += Texts.bodyNature(it) }
         (1..9).forEach { out += Texts.birthMewa(it) }
+        listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK).forEach { f -> DpalByur.entries.forEach { r -> Element.entries.forEach { out += Texts.dpalByur(f, r, it) } } }
         BirthShare.entries.forEach { s -> BirthChild.entries.forEach { k -> Element.entries.forEach { out += Texts.birthAspect(s, k, it) } } }
         (0 until 60 step 2).forEach { n -> out += Texts.khaSrog(Sign(Element.entries[n % 10 / 2], Animal.entries[n % 12])) }
         (0 until 60).forEach { n -> out += Texts.sixtyYear(Sign(Element.entries[n % 10 / 2], Animal.entries[n % 12])) }
@@ -502,7 +504,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

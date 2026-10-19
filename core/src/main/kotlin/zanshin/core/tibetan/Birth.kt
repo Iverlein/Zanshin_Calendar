@@ -113,6 +113,21 @@ enum class BirthShare(val force: Force?) {
 }
 
 /**
+ * Glory and misfortune (*dpal byur*, pp. 295–297): one's life force and luck against the father's year's, one's body and
+ * destiny against the mother's (the notes, vol. 2, p. 476): the parent's the mother of one's own, glory falls; its
+ * enemy, misfortune falls; the same, on its own foot; its son, lustre lost; the one it overcomes, life taken.
+ */
+enum class DpalByur {
+    GLORY,
+    MISFORTUNE,
+    OWN_FOOT,
+    LUSTRE_LOST,
+    LIFE_TAKEN;
+
+    val english: String get() = gloss(this)
+}
+
+/**
  * The readings of the parents' trigrams at the birth (p. 326) that the dates decide, in WB's order. The trigram a
  * child is born on is the mother's (the natal trigram); the father's is his trigram of the year of the birth. WB's
  * readings that need the order of the siblings, or end "and the like", are left out.
@@ -232,6 +247,18 @@ object BirthReckoning {
         Kinship.FRIEND -> BirthChild.SPIRIT
         Kinship.ENEMY -> BirthChild.DEMON
     }
+
+    /** Glory and misfortune of one's aspect of element [own] against the parent's of element [parent] (vol. 2, p. 476). */
+    fun dpalByur(own: Element, parent: Element): DpalByur = when (Forces.kinship(own, parent)) {
+        Kinship.MOTHER -> DpalByur.GLORY
+        Kinship.ENEMY -> DpalByur.MISFORTUNE
+        Kinship.IDENTITY -> DpalByur.OWN_FOOT
+        Kinship.SON -> DpalByur.LUSTRE_LOST
+        Kinship.FRIEND -> DpalByur.LIFE_TAKEN
+    }
+
+    /** Whose year each aspect is set against in glory and misfortune: the life force and luck the father's, the body and destiny the mother's. */
+    fun dpalByurParentIsFather(force: Force): Boolean = force == Force.VITALITY || force == Force.LUCK
 
     /**
      * The age at which p. 294 has a child of a demon die, by the life force [vitality]: wood on dwa at fifteen,
