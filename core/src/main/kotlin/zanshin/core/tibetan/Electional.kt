@@ -600,13 +600,14 @@ object Electional {
                 animals = setOf(BIRD),
             ),
         ),
-        // 21. Manuring, opening the soil, breaking in oxen (img. 34, KP2 img. 253). The good dates as O10f read them; the
-        // bad half's 11, 22 and 24 are "bad for breaking in oxen", a kind of the work, so neither side.
+        // 21. Manuring, opening the soil, breaking in oxen (img. 34, KP2 img. 253). The doubtful numeral is KP's 9, the
+        // shape of box 19's own number and box 22's 29 (open question 157), so the dates are WB's work 9; the bad half's
+        // 11, 22 and 29 are "bad for breaking in oxen", a kind of the work, so neither side.
         ActivityList(
             "manuring_and_breaking_in_oxen",
             good = Factors(
                 weekdays = setOf(MONDAY, WEDNESDAY, FRIDAY, SATURDAY),
-                dates = setOf(1, 6, 16, 14, 25, 26),
+                dates = setOf(1, 6, 16, 19, 25, 26),
                 mansions = m(PUNARVASU, SHATABHISHAJ, ROHINI, REVATI, VISHAKHA, DHANISHTHA, PURVASHADHA, MRIGASHIRAS, HASTA, SVATI, PUSHYA),
                 trigrams = setOf(GIN),
             ),
@@ -616,20 +617,20 @@ object Electional {
                 animals = setOf(RABBIT, SNAKE, PIG),
             ),
         ),
-        // 22. Sowing the fields (img. 36, KP2 img. 257). The doubtful good date is ༡༤ (O10f): the 14th, like the 28th,
-        // stands in both halves.
+        // 22. Sowing the fields (img. 36, KP2 img. 257). The doubtful good date is ༡༩, KP's 9 against the bad half's 4 and 14
+        // (open question 157), as WB's sowing has it; the 28th stands in both halves.
         ActivityList(
             "sowing",
             good = Factors(
                 links = setOf(Link.FEELING),
                 weekdays = setOf(SATURDAY, MONDAY, WEDNESDAY, THURSDAY, FRIDAY),
-                dates = setOf(2, 10, 12, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 30),
+                dates = setOf(2, 10, 12, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 30),
                 mansions = m(ROHINI, PUNARVASU, REVATI, MRIGASHIRAS, MAGHA, HASTA, CITRA, JYESHTHA, DHANISHTHA, SHATABHISHAJ, SVATI, ARDRA, SHRAVANA, MULA, PURVASHADHA, UTTARASHADHA, ANURADHA),
                 animals = setOf(SHEEP, DOG, OX),
             ),
             bad = Factors(
                 weekdays = setOf(SUNDAY, TUESDAY),
-                dates = setOf(4, 8, 29),
+                dates = setOf(4, 8, 14, 29),
                 mansions = m(BHARANI, KRITTIKA, PUSHYA, VISHAKHA, UTTARAPHALGUNI, PURVABHADRAPADA),
                 animals = setOf(PIG, RABBIT, DRAGON, SNAKE),
             ),

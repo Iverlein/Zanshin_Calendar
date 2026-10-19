@@ -103,10 +103,12 @@ class ElectionalTest {
 
     @Test
     fun `the print's other boxes, read on the scans`() {
-        // Box 22, sowing (img. 36): the 28th and the 14th stand in both halves, so they count for neither.
+        // Box 22, sowing (img. 36): the 28th stands in both halves, so it counts for neither; the doubtful good date is
+        // the 19th, KP's 9 (open question 157).
         val printed = Electional.PRINT.single { it.wording == "sowing" }
-        assertEquals(setOf(4, 8, 29), printed.bad.dates)
-        assertFalse(listOf(14, 28).any { it in printed.good.dates || it in printed.bad.dates })
+        assertEquals(setOf(4, 8, 14, 29), printed.bad.dates)
+        assertTrue(19 in printed.good.dates)
+        assertFalse(28 in printed.good.dates || 28 in printed.bad.dates)
         val sowing = list("sowing")
         assertEquals(setOf(Weekday.SATURDAY, Weekday.MONDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY), sowing.good.weekdays)
         assertTrue(Animal.PIG in sowing.bad.animals)
@@ -231,9 +233,9 @@ class ElectionalTest {
         with(printed("planting_trees_and_flowers")) {
             assertTrue(Mansion.UTTARABHADRAPADA in good.mansions && Trigram.KHON in bad.trigrams)
         }
-        // Box 21's dates; its three bad dates are bad for breaking in oxen only.
+        // Box 21's dates, WB's work 9 (its doubtful numeral is KP's 9); its three bad dates are bad for breaking in oxen only.
         with(printed("manuring_and_breaking_in_oxen")) {
-            assertEquals(setOf(1, 6, 14, 16, 25, 26), good.dates)
+            assertEquals(setOf(1, 6, 16, 19, 25, 26), good.dates)
             assertTrue(bad.dates.isEmpty())
         }
         // The brackets: boxes 28, 30 and 54.
