@@ -375,6 +375,8 @@ object Sources {
     val WHITE_BERYL_PARENTS_TRIGRAMS = whiteBeryl("chapter 22, p. 326", volume = 1)
     /** The special pebble: the birth year against the clan's element (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_SPECIAL_PEBBLE = whiteBeryl("chapter 22, pp. 259, 261 and 284–286", volume = 1)
+    /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_LUCK_TRIAD = whiteBeryl("chapter 22, pp. 280–281", volume = 1)
     /** The year's own destiny, the pebble of power (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_POWER_YEAR = whiteBeryl("chapter 22, pp. 261 and 275–280", volume = 1)
     /** Vol. 1, chapter 24's obstacles that need a spouse's, a parent's or a son's signs (ROADMAP P2, docs/sources/year-of-life.md, RD14). */
@@ -1963,6 +1965,10 @@ object Texts {
     /** Whose side of the family the kind [y] of a year of destiny [element] falls on (WB vol. 1, ch. 22, pp. 275–280). */
     fun powerYearOf(y: PowerYear, element: Element): Reading =
         Reading(key = "reading.PowerYearOf", arg = "reading.PowerYearOf.${y.name}.${element.name}", source = Sources.WHITE_BERYL_POWER_YEAR)
+
+    /** The reading of the triad of birth years whose luck is [luck] (WB vol. 1, ch. 22, pp. 280–281). */
+    fun luckTriad(luck: Element): Reading =
+        Reading(key = "reading.LuckTriad", arg = "reading.LuckTriad.${luck.name}", source = Sources.WHITE_BERYL_LUCK_TRIAD)
 
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =
