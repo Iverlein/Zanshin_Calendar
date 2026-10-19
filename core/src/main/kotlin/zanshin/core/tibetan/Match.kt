@@ -138,6 +138,28 @@ enum class PairLine(val man: Animal, val women: List<Animal>, val ordered: Boole
  */
 enum class MatchMewa { SAME, BYUR_DUS, MOTHER_SON, ENEMY, DEMON }
 
+/**
+ * How the two natal trigrams meet (pp. 361–362), each kind with its pairs as WB lists them: three good, the four bad,
+ * and one trigram joined within. The printed srog 'tsho repeats dpal bskyed's «ཁམ་ཟིན» where the scheme, each trigram
+ * once in a kind, wants ཁམ་ཟོན; that pair is left out of both, and ཁམ་ཟོན meets in none (marriage.md).
+ */
+enum class MatchTrigramKind(val good: Boolean, val pairs: List<Pair<Trigram, Trigram>>) {
+    GNAM_SMAN(true, trigramPairs("LI KHAM", "KHON KHEN", "DWA GIN", "ZIN ZON")),
+    DPAL_BSKYED(true, trigramPairs("LI ZON", "KHON DWA", "KHEN GIN", "KHAM ZIN")),
+    SROG_TSHO(true, trigramPairs("LI ZIN", "KHON GIN", "DWA KHEN")),
+    BDUD_GCOD(false, trigramPairs("LI KHEN", "DWA ZIN", "KHON KHAM", "GIN ZON")),
+    LUS_CHAD(false, trigramPairs("LI KHON", "DWA ZON", "GIN ZIN", "KHEN KHAM")),
+    DRE_LNGA(false, trigramPairs("LI DWA", "KHON ZON", "GIN KHAM", "KHEN ZIN")),
+    GNOD_PA(false, trigramPairs("LI GIN", "KHEN ZON", "DWA KHAM", "KHON ZIN")),
+    ONE(false, emptyList());
+
+    /** The pair of this kind that [a] and [b] make up, in WB's order, or null. */
+    fun pair(a: Trigram, b: Trigram): Pair<Trigram, Trigram>? = pairs.firstOrNull { (x, y) -> x == a && y == b || x == b && y == a }
+}
+
+private fun trigramPairs(vararg names: String): List<Pair<Trigram, Trigram>> =
+    names.map { n -> n.split(" ").let { Trigram.valueOf(it[0]) to Trigram.valueOf(it[1]) } }
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -202,6 +224,10 @@ object MatchReckoning {
             Kinship.IDENTITY -> emptyList()
         }
     }
+
+    /** How the man's and the woman's natal trigrams meet (pp. 361–362); null for ཁམ་ཟོན, which the print leaves out. */
+    fun trigramKind(man: Trigram, woman: Trigram): MatchTrigramKind? =
+        if (man == woman) MatchTrigramKind.ONE else MatchTrigramKind.entries.firstOrNull { it.pair(man, woman) != null }
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }

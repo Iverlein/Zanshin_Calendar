@@ -43,6 +43,11 @@ class BirthTest {
         assertEquals(listOf(7, 6, 7, 2, 4, 3, 11, 4, 8, 8), listOf(BadYear.BAD_OMEN, BadYear.LITTLE_WHITE, BadYear.THAN, BadYear.BYA_RA, BadYear.GRAVE_MEN, BadYear.LDING_NAG, BadYear.SRIN_KHYER, BadYear.THER_DRE, BadYear.WIDOWHOOD, BadYear.AVOID).map { it.years.size })
         assertEquals(listOf(BadYear.HARSH_GRU_KHYER, BadYear.BYA_RA, BadYear.THER_DRE), MatchReckoning.badYears(Sign(Element.FIRE, Animal.HORSE), 1))
         assertEquals(PowerYear.KHONG_NONG, MatchReckoning.sameKind(Sign(Element.FIRE, Animal.DRAGON), Sign(Element.FIRE, Animal.DOG)))
+        // Each of the 28 pairs of two trigrams in one kind, but ཁམ་ཟོན (p. 361's printed srog 'tsho repeats ཁམ་ཟིན).
+        val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal > a.ordinal }.map { a to it } }
+        assertEquals(listOf(Trigram.KHAM to Trigram.ZON), pairs.filter { (a, b) -> MatchReckoning.trigramKind(a, b) == null })
+        assertEquals(MatchTrigramKind.BDUD_GCOD, MatchReckoning.trigramKind(Trigram.KHEN, Trigram.LI))
+        assertEquals(MatchTrigramKind.ONE, MatchReckoning.trigramKind(Trigram.GIN, Trigram.GIN))
         assertEquals(listOf(MatchMewa.SAME, MatchMewa.BYUR_DUS), MatchReckoning.mewaMeetings(2, 2))
         assertEquals(listOf(MatchMewa.SAME), MatchReckoning.mewaMeetings(5, 5))
         assertEquals(listOf(MatchMewa.DEMON), MatchReckoning.mewaMeetings(7, 3))

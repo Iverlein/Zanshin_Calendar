@@ -25,6 +25,8 @@ import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.MatchReckoning
+import zanshin.core.tibetan.MatchTrigramKind
 import zanshin.core.tibetan.PairLine
 import zanshin.core.tibetan.PairList
 import zanshin.core.tibetan.YearSexes
@@ -401,6 +403,8 @@ object Sources {
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
     /** The marriage match's years: the kinds not joined and the bad years (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
+    /** The marriage match's natal trigrams (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_TRIGRAM = whiteBeryl("chapter 23, pp. 361–362", volume = 1)
     /** The marriage match's birth mewas (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
@@ -2088,6 +2092,17 @@ object Texts {
 
     /** The two birth mewas meeting as [m] (WB vol. 1, ch. 23, p. 363). */
     fun matchMewa(m: MatchMewa): Reading = Reading(key = "reading.MatchMewa", arg = "reading.MatchMewa.${m.name}", source = Sources.WHITE_BERYL_MATCH_MEWA)
+
+    /** The natal trigrams [a] and [b] meeting (WB vol. 1, ch. 23, pp. 361–362); null where they meet in no kind read. */
+    fun matchTrigram(a: Trigram, b: Trigram): Reading? {
+        val kind = MatchReckoning.trigramKind(a, b) ?: return null
+        val arg = when {
+            kind == MatchTrigramKind.ONE -> "ONE.${a.name}"
+            kind.good -> kind.name
+            else -> kind.pair(a, b)!!.let { (x, y) -> "${kind.name}.${x.name}_${y.name}" }
+        }
+        return Reading(key = "reading.MatchTrigram", arg = "reading.MatchTrigram.$arg", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
+    }
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
