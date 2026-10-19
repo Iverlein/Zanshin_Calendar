@@ -99,3 +99,15 @@ it gives ༦, both print ༥, Jupiter's number, as a plain digit and not as
 ### Open
 
 - Open question 144 ([open-questions.md](open-questions.md)).
+
+## The two ༥ against KP2, 2026-10-19 (open question 144)
+
+The second print (KP2, BDRC I3CN12074) carves the night table on
+img. 307 (2750 px, read at 1.5–2×; the day table is img. 306), headed
+«མཚན་མོའི་ཁྲམ» as in KP. In Tuesday's row (མིག་དམར་༣) the cell after the
+nectar of སྲོད་འཁོར་སྔ་ཆ, and in Wednesday's row (ལྷག་པ་༤) the last cell, KP2
+has the shapes its own ༢ and ༦ take everywhere else in the table (Sunday's
+row, «༡ བདུད་རྩི ༢ ༦ ༣ …», read beside them): ༢ for Tuesday and ༦ for
+Wednesday, as the count by fives gives. So the two plain ༥ of KP (img. 84)
+are slips of that print's carver, not halves ruled by Jupiter; the
+table above stands as the rule makes it.

@@ -1668,12 +1668,17 @@ the text, not about the app.
      1145, l. 1): whoever is born on the 3rd, 13th or 23rd dies or fares badly.
      The app's reading stands.*
 
-144. **The night table's two plain ༥.** KP's night table prints a plain ༥ in
+144. **Answered 2026-10-19. The night table's two plain ༥.** KP's night table prints a plain ༥ in
      Tuesday's སྲོད་འཁོར་ཕྱི་ཆ and Wednesday's ཐོ་རེངས་ཕྱི་ཆ (BDRC file
      img. 84), where the count by fives gives ༢ and ༦ and every other
      Jupiter cell is written «བདུད་རྩི». Are these two slips of the
      carver, or halves ruled by Jupiter that are not nectar periods? (2026-10-13, O10,
      [nectar-periods.md](nectar-periods.md), "The tables written out")
+     *Answered 2026-10-19 ([nectar-periods.md](nectar-periods.md), *The two
+     ༥ against KP2*): slips of the Mtho las carver. KP2's night table
+     (I3CN12074 img. 307) carves ༢ in Tuesday's cell and ༦ in Wednesday's, in
+     the shapes its ༢ and ༦ have in the rest of the table, as the count by
+     fives gives.*
 
 145. **Answered 2026-10-18. Viṣṭi's «རག་འགག» and «གསེར་འགག».** «རག་འགག» and «གསེར་འགག» in Viṣṭi's
      remedy (p. 350) are read as printed; are they vessels of brass and of
