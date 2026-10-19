@@ -664,7 +664,14 @@ relatives (the spouse taken as the other sex where theirs is not set).
   black *lding* sons, the eleven carried off by rākṣasas and the four
   *ther 'dre* (bad for the one born), the eight of widowhood, the eight
   to avoid; a woman under the two-black mewa, the black years with
-  fangs. `BirthTest` holds the lists' sizes. Then husband and wife who
+  fangs; and by the mewa path (p. 354), the first, middle or lower sixty
+  years of the mewa's round (`MatchReckoning.mewaPath`, 1864, 1924 and
+  1984 opening them), the years that hold all five elements, bad as a
+  bride, and the nine that hold two, whose line ends (`MewaPathYear`).
+  The five-element years are exactly those whose life force, body,
+  power, luck and birth mewa are five elements, which `BirthTest`
+  checks path by path; the two-element list is WB's as printed.
+  `BirthTest` holds the lists' sizes. Then husband and wife who
   meet within one year animal (*nang phrad*, p. 353), each animal with its
   lot (the monkey's «མི་བུ་བསྲེལ» not read), and within one element by the
   sexes of their years, both male, both female or one of each (iron, water,

@@ -1141,3 +1141,18 @@ mothers «གོང་གི་ཕ་དུས་ལྟར་བརྩིས་�
 བུ་ཚ་སྐྱེ་དུས་སྤར་ཁའི་སྟེང», by the trigram at the birth), the fathers' and the
 mothers' clans, the grandfathers' lives fighting, and the father's and
 maternal uncle's luck.
+
+## Built, 2026-10-19 (ROADMAP R3l)
+
+Point 2's years by mewa path (p. 354, «སྨེ་ལམ་དང་པོར་སྐྱེས་སྨེ་ཤར། །ཤིང་གླང་དེ་བཞིན་དབུས་མ་ལ། …
+བུ་བརྒྱ་ཡོད་ཀྱང་ཐ་རབས་ཆད།»): the paths are the three sixties of the mewa's round,
+the first opening on a wood mouse of mewa 1 (1864), the middle on 4
+(1924), the lower on 7 (1984), by `YearOfLife.yearSmeBa`. «འབྱུང་བ་ལྔ་ལྡན»
+read as the year's life force, body, power, luck and birth mewa being
+five elements: the count gives WB's eight years exactly, path by path.
+«འབྱུང་བ་གཉིས་ལྡན» counted the same way gives fire hare, water bird, earth
+sheep and iron monkey in the first path (WB without the earth sheep),
+water snake alone in the middle (WB adds the wood monkey), and fire hare,
+iron tiger, iron dog, water mouse and water pig in the lower (WB without
+the fire hare): WB's nine are kept as printed. The five-element years
+are read for the woman («བག་མར་ངན»), the two-element for either spouse.
