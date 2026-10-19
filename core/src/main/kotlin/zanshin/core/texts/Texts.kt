@@ -16,6 +16,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
+import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
 import zanshin.core.tibetan.DayLetters
 import zanshin.core.tibetan.HundredFeet
@@ -381,6 +382,8 @@ object Sources {
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
+    /** The twelve years in brief and the sixty in full (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_SIXTY_YEARS = whiteBeryl("chapter 22, pp. 263–271", volume = 1)
     /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_LUCK_TRIAD = whiteBeryl("chapter 22, pp. 280–281", volume = 1)
     /** The year's own destiny, the pebble of power (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1971,6 +1974,14 @@ object Texts {
     /** Whose side of the family the kind [y] of a year of destiny [element] falls on (WB vol. 1, ch. 22, pp. 275–280). */
     fun powerYearOf(y: PowerYear, element: Element): Reading =
         Reading(key = "reading.PowerYearOf", arg = "reading.PowerYearOf.${y.name}.${element.name}", source = Sources.WHITE_BERYL_POWER_YEAR)
+
+    /** The nature of one born in a year of [animal], the twelve in brief (WB vol. 1, ch. 22, pp. 263–264). */
+    fun yearNature(animal: Animal): Reading =
+        Reading(key = "reading.YearNature", arg = "reading.YearNature.${animal.name}", source = Sources.WHITE_BERYL_SIXTY_YEARS)
+
+    /** The reading of the birth year [birth] among the sixty (WB vol. 1, ch. 22, pp. 264–271). */
+    fun sixtyYear(birth: Sign): Reading =
+        Reading(key = "reading.SixtyYear", arg = "reading.SixtyYear.${birth.element.name}_${birth.animal.name}", source = Sources.WHITE_BERYL_SIXTY_YEARS)
 
     /** The reading of the triad of birth years whose luck is [luck] (WB vol. 1, ch. 22, pp. 280–281). */
     fun luckTriad(luck: Element): Reading =
