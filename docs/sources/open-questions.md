@@ -1497,6 +1497,13 @@ the text, not about the app.
      sixtieths, one sign, p. 34), and is the 135 the sign or the month's
      mean motion of Mercury and Venus (the annotated *Abridged Kālacakra
      Tantra*)? (2026-10-12, O4, [month-entries.md](month-entries.md), "Mercury and Venus at an eclipse (O4)")
+     *Narrowed 2026-10-19: no print varies. The Taikhang print (I5877, img.
+     108, Yigdzin-1's reading) has «གང་རུང་གཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་[མེ]་ཟླ་ཚུན་དུ། །ལྷན་ཅིག་གནས་ཚེ་བཟུང་མི་སྲིད།»
+     as the 1996 edition, KD vol. 2 (p. 107, etext) and Bstan 'dzin chos kyi
+     rgyal mtshan's works (BDRC snippet) do; the *Seven Special Qualities*
+     alone drops the time clause («ཉི་དག་དང་ནི་ལྷག་སངས་གཉིས། །གང་རུང་སྐར་མ་གཅིག་གྱུར་ན།»,
+     KD p. 461, etext). Whether «དང» makes one condition or two stays a
+     question of reading.*
 
 117. **Which places.** Which place of Mercury or Venus does the clause set
      beside the sun, the true place after the fast equation (their mean
