@@ -496,6 +496,7 @@ The box on the scan, KP BDRC img. 43 (O10f):
 - **Good:** Mon Sun Thu Fri; smin drug, mgo, rgyal, me bzhi, snar ma, sa ri, gro bzhin, mon gre, mon gru, khrums stod, khrums smad, nam gru, chu smad, nag pa, nabs so, lha mtshams; days Bird, Dog
 - **Bad:** Sat Tue Wed; bra nye, skag, snron, gre, sa ga, tha skar; days Tiger, Snake, Sheep
 - **Not calculated:** Abhijit (good); the links མིང, རྣམ་ཤེས, ལེན (good); the sme ba four; rising signs (Virgo 'best'); the nectar periods and the meeting of planet and mansion in water (good); dbul and the like (bad)
+- **The sme ba numeral read on the scan 2026-10-19** (img. 43 at 4×): the «༩» after the Dog has the curled head of the print's 9, not the flat head of its 4 (box 35's bad 4 and 29 on the same page). So the box prints 9 where the White Beryl's work 32 has «བཞི་ལྗང», the green four; the difference is in the texts, not in the reading.
 - Before box 36 (img. 42) a verse reckons from the Sun's mansion where the Moon's falls on the physician, the spatula, the medicine bowl or the patient.
 
 ### 35. Bloodletting, moxibustion, treatment — གཏར་མེ་དཔྱད་བཅོས་བྱེད་པར་བཟང་བ
