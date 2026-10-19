@@ -1235,10 +1235,16 @@ the text, not about the app.
      the trigram kham with the two-black, three-blue and four-green good and
      li with the nine-red and seven-red hostile, KP's «ཁམ་ ༣ ༢ ༤» and «ལི་ ༩ ༧».*
 
-105. **The links fitted to a council.** KP box 60 (img. 62) ends «སྦྱོར་བྱེད་
+105. **Answered 2026-10-19. The links fitted to a council.** KP box 60 (img. 62) ends «སྦྱོར་བྱེད་
     རྟེན་འབྲེལ་སོགས་དོན་བསྟུན»: by which rule are the combinations and the links
     fitted to the matter of a council, and does any text of the tradition
     give it? (2026-10-12, O1, [kp-activities.md](kp-activities.md))
+     *Answered 2026-10-19 ([kp-activities.md](kp-activities.md), *Box 60's
+     last line is WB's work 57's*): by each one's own reading. The line is
+     WB's close of the councils (p. 425, machine reading), «སྦྱོར་བྱེད་རྟེན་འབྲེལ་ལ་སོགས་པར། །རང་རང་ལས་ཀྱི་དོན་དང་བསྟུན།»,
+     and the next work gives the rule: «འབྲས་བུ་བཤད་མིན་བཏང་སྙོམས་གྲས། །རང་རང་བྱ་བའི་འབྲས་སུ་ལྟོས།»,
+     what is not stated is neutral; look to the results each names for the
+     work in hand.*
 
 106. **The bride's mansions by element.** WB vol. 1, p. 373 (ch. 23):
     «ཤིང་ཁམས་པ་ལ་རྒྱལ་སྨད་དང་། །མེ་ཁམས་དབོ་དང་ས་རི་སྟེ། །ས་ཁམས་ས་ག་བྱ་གཞུག་དང་། །ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད། …»

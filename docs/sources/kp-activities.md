@@ -1384,3 +1384,17 @@ the good of both halves, not the bad.
 - So the numerals are the mewa, as their place after the trigram
   suggested (box 7's «༩» the same), not dates; the table of *What the
   table should now carry* stands.
+
+## Box 60's last line is WB's work 57's, 2026-10-19 (open question 105)
+
+- WB's councils (vol. 2, pp. 424–425, img. 432–433, machine reading)
+  close: «ཚེས་གྲངས་ཉེར་གཉིས་ངན་པ་དང་། །སྦྱོར་བྱེད་རྟེན་འབྲེལ་ལ་སོགས་པར། །རང་རང་ལས་ཀྱི་དོན་དང་བསྟུན།»,
+  "the 22nd is bad; for the combinations, the links and the like,
+  follow each one's own work's sense". KP's «སྦྱོར་བྱེད་རྟེན་འབྲེལ་སོགས་དོན་བསྟུན» is
+  that line shortened. The rule it points to is said once more in the
+  next work, lasting works for the living (pp. 425–426): «འབྲས་བུ་བཤད་མིན་བཏང་སྙོམས་གྲས། །རང་རང་བྱ་བའི་འབྲས་སུ་ལྟོས།»,
+  "what is not stated counts as neutral; look to the results for each
+  work": a combination or a link is read for a council by what its own
+  reading (ch. 33's verses, which name works) says of councils and of
+  that kind of matter, not by a rule of its own. Nothing further is to be
+  placed in the box's good or bad half.
