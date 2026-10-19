@@ -874,6 +874,9 @@
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
     <string name="match_planet_title">Оба рождены: %1$s</string>
+    <string name="birth_rise_year">%1$s, отсчитано до года рождения</string>
+    <string name="birth_rise_month">%1$s, отсчитано до месяца рождения</string>
+    <string name="birth_rise_day">%1$s, отсчитано до дня рождения</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>

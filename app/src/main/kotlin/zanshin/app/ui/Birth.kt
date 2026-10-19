@@ -177,6 +177,26 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    BirthReckoning.riseDecline(born).forEach { (force, sector) ->
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, gloss(force).replaceFirstChar(Char::uppercase), sector.english),
+                english = "",
+                tone = if (sector.good) Tone.GOOD else Tone.BAD,
+                reading = Texts.riseDecline(force, sector),
+                subtitle = labels.string(
+                    when (force) {
+                        Force.VITALITY -> R.string.birth_rise_year
+                        Force.BODY -> R.string.birth_rise_month
+                        else -> R.string.birth_rise_day
+                    },
+                    gloss(forces[force], "inText"),
+                ),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
     AnnotationRow(
         Annotation(
             title = y.english.replaceFirstChar(Char::uppercase),
