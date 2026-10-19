@@ -86,7 +86,7 @@ digits. Read by eye there: box 8 «༣ ༧ ༡༡ ༡༢ ༡༤ ༡༥ ༡༧ �
 built, box 16's month dates «ཟླ་ཚེས» with «༡༡ ༢༧», «༡༢ ༢༥», «༡ ༢༣» beneath, box 28 «༡༡
 ༢༢ ༢༩», box 41 «༤ ༥ ༡༦ ༢༤», box 45 with its «༢༣», box 56 «༡༨ ༢༥ ༢༨ ༢༧» / «༢ ༦ ༡༢ ༡༤»: each as KP
 was read today. Boxes 39 and 50, crowded or cursive in KP and KP2, were
-read and built from it. It is the clearest print to read a KP digit in, but not an independent witness: it brings the box to the White Beryl in places (box 22's 28th set as 18, box 26's Wednesday as Tuesday), so where it differs from KP's own scan, KP stands. Read through the same day,
+read and built from it. It is the clearest print to read a KP digit in, but not an independent witness: it brings the box to the White Beryl in places (box 22's 28th set as 18, box 26's Wednesday as Tuesday, box 7's sme ba 9 as 3), so where it differs from KP's own scan, KP stands. Read through the same day,
 box by box against the app: it also settled boxes 15 (trade's dates,
 qualified both ways), 33 (the 22nd) and 44 (the
 good dates), and gave box 51's first bad date as 3; boxes 7, 9, 10, 18–21,
@@ -155,6 +155,7 @@ The box on the scan, KP BDRC img. 26 (O10f):
 - **Not calculated:** rising signs; the twelve links (འདུ་བྱེད, མ་རིག, སྐྱེ good); the earth lords
 - Lag is not named. The 14th among the good dates is printed ༡༤ in both prints, out of their order. The khrums are ཁྲོུཾད (good) and ཁྲུཾད (bad) in both prints.
 - **The scan (O10f):** The bad half ends with the Dragon day's earth lord and the earth lords of the house, «ཁང་གནས་ས་བདག», to be kept out.
+- **The sme ba, 2026-10-19:** KP carves «ཁེན་༩» (img. 26 at 3×, the curled head of its 9); the Bhutan reprint sets «ཁེན་༣» (I1KG11905, img. 372), the White Beryl's work 6 «ཞག་ནག་ཚེས་ལ་གསུམ་མཐིང་དང་། །ཕུང་ཟོར་དབུལ་ལག་ཁོན་ཁམ་ཁེན།» (vol. 2, p. 389): the three-blue on the date bad. As with box 34's 9 against WB's 4, the box's 9 is taken to neither side and WB's three-blue counts bad (`WhiteBerylWorks`).
 
 ### 9. Setting up hearth and pillars — ཐབ་ཀ་བཅའ་བ་ལ་བཟང་བ
 
