@@ -520,6 +520,13 @@ on the scan that follow from the years alone. `BirthReckoning`
   earth. WB's worked count is the test (`BirthTest`). The ages p. 294
   gives the other four are those of its example, the horse and snake
   years, and are not shown.
+- **The five by the other aspects** (pp. 294–295): the natal trigram's
+  element against the birth year's body, destiny and luck, each share
+  one of the same five, the demon's reading by its element (the body's
+  illnesses, the children of the years that are lacking, the luck's
+  harm); and the natal mewa's element against the life force, shown with
+  the birth year alone, the demon's spirits by its element. `BirthTest`
+  holds p. 294's two examples.
 - **The parents' trigrams at the birth** (p. 326), the father's being his
   trigram of the year of the birth: a son with the father on zin and the
   mother on dwa, the father soon dies; a daughter with the father on gin
@@ -3280,11 +3287,14 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   `Reckoning` in the app lists them.
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
   name; the person's birth year and its life force; under "The natal
-  trigram" its row (as in the year of age) and the child it makes them;
+  trigram" its row (as in the year of age), the child it makes them and
+  the same five for the body, destiny and the luck ("Body · the
+  children's glory · Body earth · natal trigram lake (དྭ, dwa), iron");
   under "The birth year" first "The year animal's nature" (its animal
   under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
-  element) and "Its pair among the thirty" (the pair's two years) and "The natal mewa"
-  ("Born under 6 white"), then the
+  element) and "Its pair among the thirty" (the pair's two years), "The natal mewa"
+  ("Born under 6 white") and the five by the mewa ("Mewa · the children's
+  glory · Mewa 6 white, iron · life force earth"), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
