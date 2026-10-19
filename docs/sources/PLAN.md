@@ -272,7 +272,16 @@ crop. The Taikhang vol. 2 img. 474–477 hold pp. 334–337 (2026-10-18). More o
 2026-10-18 night: vol. 1 img. 458 = p. 351, 469 = p. 359, 511–512 = p. 390,
 531 = p. 403, 537 = p. 408; vol. 2 img. 1052–1053 = pp. 303–304, 1100 =
 p. 347, 1104 = p. 350, 1112 = p. 357. The Taikhang vol. 1 (I5877) img. 486
-holds p. 359. KP's colophon is BDRC's image labelled 121 (the file's 119).
+holds p. 359. More Taikhang, 2026-10-19 (Yigdzin-1 at 2400 px, about 20 s an image,
+placed by 4-syllable shingles against the 1996 etext, whose `[pN]` is
+the 1996 image): vol. 1 img. 339 = p. 259, 343 = p. 262, 596 = pp.
+436–437, 598 = p. 438, 608 = p. 445, 620 = p. 454; vol. 2 (I5878) img.
+40 = p. 23, 52 = p. 32, 64 = p. 40, 69–80 = pp. 44–51 (about 1.4 images a
+page). A phrase's character offset in its OCR line over the line's
+length, on a text block of 7 lines, places a native-size crop (8280 px)
+within a few hundred pixels. The Taikhang caught a line the 1996 print
+drops (vol. 1 p. 262, open question 69), so where a count or a list
+does not add up, compare it first. KP's colophon is BDRC's image labelled 121 (the file's 119).
 BDRC's full-text search answers a word's other uses in seconds and found
 glosses no dictionary has (open questions 24, 38, 63, 130); run it before
 the dictionaries.
