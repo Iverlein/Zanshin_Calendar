@@ -23,6 +23,9 @@ import zanshin.core.tibetan.Link
 import zanshin.core.tibetan.ElementPair
 import zanshin.core.tibetan.Karana
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.BirthChild
+import zanshin.core.tibetan.BirthOmen
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
 import zanshin.core.tibetan.PersonalDay
@@ -364,6 +367,10 @@ object Sources {
     val WHITE_BERYL_YEAR_CARE = whiteBeryl("chapter 20, p. 242, and chapter 24, pp. 415–416", volume = 1)
     /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
     val WHITE_BERYL_BIRTH = whiteBeryl("chapter 22, pp. 261 and 286–288, with the notes in vol. 2, p. 476", volume = 1)
+    /** The birth reckoning's five children by the natal trigram (ROADMAP R2, docs/sources/year-of-life.md, RD13). */
+    val WHITE_BERYL_BIRTH_CHILDREN = whiteBeryl("chapter 22, p. 294", volume = 1)
+    /** The parents' trigrams at the birth (ROADMAP R2, docs/sources/year-of-life.md, RD13). */
+    val WHITE_BERYL_PARENTS_TRIGRAMS = whiteBeryl("chapter 22, p. 326", volume = 1)
     /** Vol. 1, chapter 24's obstacles that need a spouse's, a parent's or a son's signs (ROADMAP P2, docs/sources/year-of-life.md, RD14). */
     val WHITE_BERYL_KIN_OBSTACLES = whiteBeryl("chapter 24, pp. 388, 390 and 409, with the notes in vol. 2, p. 492", volume = 1)
     /** The sectors' ranks and pebbles, the trigrams' elements, the natal trigram's count (docs/sources/year-of-life.md). */
@@ -1931,6 +1938,21 @@ object Texts {
     /** What the natal trigram brings the one born on it (WB vol. 1, ch. 22, pp. 286–288). */
     fun natalTrigram(t: Trigram): Reading =
         Reading(key = "reading.NatalTrigram", arg = "reading.NatalTrigram.${t.name}", source = Sources.WHITE_BERYL_BIRTH, also = listOf(Sources.MOONBEAMS))
+
+    /**
+     * What one born in a year of life force [vitality] on the natal trigram is (WB vol. 1, ch. 22, p. 294); a child of
+     * a demon's reading names the age at which its life force dies.
+     */
+    fun birthChild(c: BirthChild, vitality: Element): Reading = Reading(
+        key = "reading.BirthChild",
+        arg = "reading.BirthChild.${c.name}" + if (c == BirthChild.DEMON) ".${vitality.name}" else "",
+        source = Sources.WHITE_BERYL_BIRTH_CHILDREN,
+        also = listOf(Sources.MOONBEAMS),
+    )
+
+    /** A reading of the parents' trigrams at the birth (WB vol. 1, ch. 22, p. 326). */
+    fun birthOmen(o: BirthOmen): Reading =
+        Reading(key = "reading.BirthOmen", arg = "reading.BirthOmen.${o.name}", source = Sources.WHITE_BERYL_PARENTS_TRIGRAMS)
 
     /** An obstacle of the year that comes with a spouse's, a parent's or a son's signs (WB vol. 1, ch. 24, pp. 388, 390, 409). */
     fun kinObstacle(o: KinObstacle): Reading =
