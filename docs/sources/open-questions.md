@@ -896,7 +896,7 @@ the text, not about the app.
     differ only in where they start; he gives no rule between them either.*
     *Answered as far as the sources go, 2026-10-19 ([marriage.md](marriage.md)):
     the first count, by the years of age. Mipham's notes (WB vol. 2, p.
-    526, etext I1KG12907 p. 535) draw both cycles and work it: the groom
+    527, etext I1KG12907 p. 535) draw both cycles and work it: the groom
     counts from his own year on the single cycle clockwise the years he
     has at the marriage, the bride from hers on the hidden cycle the
     other way, over the twelve year stations only, «ཐོག་མཐའ་མི་བརྩི་བར», the first

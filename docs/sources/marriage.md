@@ -112,7 +112,7 @@ animals stand at the second to the thirteenth station of each:
 
 The count is given twice (Lha mo tshul khrims, *Dpag bsam ljon shing*, etext
 p. 47, keeps both and has the first count the years completed at the
-marriage, «ལེན་དུས་ཀྱི་ལོ་གྲངས་དུ་ལོན», from one's own year's station; open question 55). Mipham's notes (vol. 2, p. 526) work the first count: the years of age from one's own year, over the twelve year stations only (the first and last not counted), own year the 1st: a horse-born groom of 25 lands on «རྟ་མཆུ་ཉི་མ་བཅུ་པ», a sheep-born bride of 24, counting the other way, on «རྟ་མོན་དྲེ་ཉི་མ་ལག་སོར». First: the groom counts from his own year on the
+marriage, «ལེན་དུས་ཀྱི་ལོ་གྲངས་དུ་ལོན», from one's own year's station; open question 55). Mipham's notes (vol. 2, p. 527) work the first count: the years of age from one's own year, over the twelve year stations only (the first and last not counted), own year the 1st: a horse-born groom of 25 lands on «རྟ་མཆུ་ཉི་མ་བཅུ་པ», a sheep-born bride of 24, counting the other way, on «རྟ་མོན་དྲེ་ཉི་མ་ལག་སོར». First: the groom counts from his own year on the
 single cycle clockwise (ཆོས་སྐོར, chos skor), the bride, when she goes, from her
 own year on the hidden cycle counterclockwise (བོན་སྐོར, bon skor), and where
 the count stops shows good or bad. Then, for the mansions: the husband from
