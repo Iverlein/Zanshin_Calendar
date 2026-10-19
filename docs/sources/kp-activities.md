@@ -71,8 +71,11 @@ compared with it, and each disagreement read again on the scan at 3× to 8×:
 boxes 21, 22, 35, 41, 54, 56 and 60 were misread (and 59, read against boxes 57 and 58) and now carry the
 print's own digits, each WB's date for date (sections below); boxes 8, 34,
 45 and 56's good 27 differ from WB in the text itself (WB's work 7, 32, 41
-and 53). The boxes WB names no dates for (17, 24, 28–30, 57–59 and others)
-keep the O10f digits, read against nothing. A further sweep of O10f's
+and 53). Of the boxes WB names no dates for, 57 and 58 were read again
+(img. 61: «༤ ༨ ༩ ༢༨», the flat 4 and the curled 9, as built) and 59 corrected
+against them; 15, 17, 24, 28–30 and others keep the O10f digits, read
+against nothing. Box 42's «༣» and «༡༢» were compared with the 2s and the 3
+of the same box and stand. A further sweep of O10f's
 digits should start from those shapes.
 
 ### 2. Naming — མིང་འདོགས་པ་ལ་བཟང་བ
