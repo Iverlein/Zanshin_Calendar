@@ -565,7 +565,7 @@ The box on the scan, KP BDRC img. 48 (O10f):
 - **Neither side:** the Sun (good for bathing, bad for washing the hair); gro bzhin (good for shaving the head); rgyal on the 25th of the Horse month and mgo on the 8th (named for particular merits)
 - **Not calculated:** Abhijit (good); the twelve links; rising signs
 - The two halves divide the thirty dates between them; the bad half's second line is worn. The complement of the good dates was taken for it until WB's p. 404 was read (2026-10-09, [hair-dates.md](hair-dates.md)): the good half is WB's good list date for date, and WB's bad list names the 27th on neither side, so the box's bad dates are WB's, without the 27th. A table below gives what bathing on each date brings, after another tradition.
-- **The scan (O10f):** The bad half's last line names the Dog and Tiger days and the trigrams li and khen, plain, with the sme ba 1 and 6: bad. The app has none of them for this box. «ཡུག་མ» before «སྐྲ་ཁྲུས་བཟང» is not understood.
+- **The scan (O10f):** The bad half's last line names the Dog and Tiger days and the trigrams li and khen, plain, with the sme ba 1 and 6: bad. The app has none of them for this box. «ཡུག་མ» before «སྐྲ་ཁྲུས་བཟང» is not understood. *Settled 2026-10-19:* the Bhutan reprint (I1KG11905, img. 394) ties «བྲ་ཉེ» by a dotted line to the interlinear «ཡུགས་སྐྲ་འཁྲུས་བཟང»: «ཡུག་མ» is «ཡུགས་མ», a widow, and bra nye is good for washing a widow's hair, as the White Beryl's work 34 has it («བྲ་ཉེ(༡)ཡུགས་ཟླ་བཀྲུ་བ་བཟང», and among the generally bad «ཁྲུམས་སྟོད(༢༤)བྲ་ཉེ(༡)སྤྱི་ལ་ངན»). So bra nye stays bad in general, as built.
 
 ### 39. Enthronement — རྒྱལ་སར་འཇུག་པ་ལ་བཟང་བ
 
