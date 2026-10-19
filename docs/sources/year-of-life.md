@@ -642,11 +642,11 @@ printed, with what the app's readings take:
 - «ཀླུང་རྟས་ལུས་བཅད་ནོར་གོད་ཆེ། །བུ་ཚའི་རིང་སྟོངས་འོང་བ་ཡིན།» — luck cuts body.
 
 No reading is given for the luck cutting the life force or destiny; the
-app shows nothing for them. The two-against-one and three-against-one
-cuts that close the passage («དབང་སྲོག་གཉིས་ཀྱིས་ལུས་གཅོད་ན», and the three
-"stars", «འཁོར་ལོ་འོད་སྟོང་སྐར་མ», «ཕེའུ་ཤ་རལ་སྐར་མ», «བྱ་དམར་མེ་ལེན་སྐར་མ»), and the
-line «ཆོས་ལ་འབྲོས་ཤིང་འཁྱར་ས་འབྱུང» of destiny cutting the luck, are left for
-a reading by eye. Built 2026-10-19 (`BirthCut`).
+app shows nothing for them. The line «ཆོས་ལ་འབྲོས་ཤིང་འཁྱར་ས་འབྱུང» of destiny
+cutting the luck is left out as unclear. Built 2026-10-19 (`BirthCut`).
+
+**The group cuts** (p. 282, its second half read by eye on the scan, and
+p. 283's first line): «དབང་སྲོག་གཉིས་ཀྱིས་ལུས་གཅོད་ན། །ལུས་ཀྱི་ཁ་རྗེ་མི་འོང་སྟེ། །རོ་ཡི་གླང་བུ་བྱེད་པ་ཡིན། །བུ་ཚ་གསོ་དཀའ་ཐ་བྲན་བྱེད།» (destiny and life force cut the body); «སྲོག་ལུས་གཉིས་ཀྱིས་དབང་གཅོད་ན། །ཕ་མས་ལྔ་བརྒྱའི་ནོར་ཐོབ་ཀྱང་། །བུ་ཚ་དབུལ་ཕོངས་ …། །ཟས་ནོར་ནམ་མཁའི་འཇའ་ཚོན་འདྲ། …། །ཐ་མ་མི་ཡི་བྲན་དུ་འགྲོ།» (life force and body cut destiny); «དབང་སྲོག་གཉིས་ཀྱིས་ཀླུང་གཅོད་ན། །བུ་མང་སྐྱེད་པོ་སོ་སོར་འཛིན། །ནད་མོད་ …» (destiny and life force cut the luck); then «སྲོག་ལུས་ཀླུང་རྟས་དབང་ཐང་གཅོད། །འཁོར་ལོ་འོད་སྟོང་སྐར་མ་ཞེས། །གནག་བརྒྱ་ལུག་སྟོང་ཡོད་མོད་ཀྱང་། །ཐ་མ་སྤྲང་པོར་འགྲོ་བ་ཡིན།», «ལུས་དབང་ཀླུང་རྟས་སྲོག་ལ་གཅོད། །ཕེའུ་ཤ་རལ་སྐར་མ་ཞེས། །མི་ཚེ་སྒོམ་སྒྲུབ་བྱས་མོད་ཀྱང་། །ཐ་མ་གྲི་རུ་འཆི་བ་ཡིན།», «སྲོག་ལུས་དབང་གིས་ཀླུང་རྟ་གཅོད། །བྱ་དམར་མེ་ལེན་སྐར་མ་ཞེས། །བུ་དང་ཚ་བོ་མང་ཡོད་ཀྱང་། །ཐ་མ་མི་རབས་ཆད་ཉེན་ཡོད།», and «ལུས་དབང་ཀླུང་རྟས་སྲོག་ལ་སྐྱོབ། །གཤིན་ཆུ་རབ་བརྒལ་སྐར་མ་ཞེས། །དྲུག་ཅུ་ལོན་པའི་བུད་མེད་ཀྱང་། །ཐ་མར་མི་རབས་མི་ཆད་དོ།» (the three stars of three against one, and three nourishing the life force). The second star's name «ཕེའུ་ཤ་རལ» is not identified and is not shown; «རབ་ཀླུངས་ཀྱིས་ནི་ཀླུང་རྟར་བརྒྱབ» is left out as unclear. Over the sixty years only some of these fall (a pair in 1996, 2009, 2026, 2040, 2041, 2043; the star on the life force in 2013, the star on the luck in 2043). Built 2026-10-19 (`GroupCut`).
 
 ### The first, middle and last years (p. 283)
 

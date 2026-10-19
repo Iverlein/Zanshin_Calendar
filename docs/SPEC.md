@@ -551,7 +551,10 @@ on the scan that follow from the years alone. `BirthReckoning`
 - **The cutting and tearing** (*gcod 'dral*, pp. 281–282): each pair of
   the birth year's own aspects whose first's element overcomes the
   second's, of the ten WB reads (the luck cutting the life force or
-  destiny has no reading), each with its reading.
+  destiny has no reading), each with its reading; then the group cuts
+  that close it (p. 282): two aspects cutting one, three cutting one
+  (the stars), three nourishing the life force, a pair inside a star
+  left to the star.
 - **The first, middle and last years** (p. 283): the birth year's class,
   the tiger, monkey, pig and snake first, the mouse, horse, bird and hare
   middle, the ox, sheep, dog and dragon last, each with its condensed
@@ -568,8 +571,7 @@ on the scan that follow from the years alone. `BirthReckoning`
   reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
   needs no relative: without the mother's year the clan is still read.
 
-**Not calculated** yet: the two- and three-against-one cuts that close
-the cutting and tearing; the pebbles of the birth (the four precious,
+**Not calculated** yet: the pebbles of the birth (the four precious,
 whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
