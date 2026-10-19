@@ -872,6 +872,10 @@
     <string name="match_same_kind_title">Оба одного вида · %1$s</string>
     <string name="match_same_animal_title">Оба одного животного · %1$s</string>
     <string name="match_same_element_title">Оба одной стихии · %1$s</string>
+    <string name="match_pair_list_title">Пара годов · %1$s</string>
+    <string name="match_pair_line_title">Пара годов · %1$s и %2$s</string>
+    <string name="match_pair_line_takes">год мужчины берёт год женщины</string>
+    <string name="match_pair_line_either">кто бы ни был мужчиной</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>

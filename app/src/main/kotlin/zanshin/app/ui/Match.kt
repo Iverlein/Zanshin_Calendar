@@ -86,6 +86,33 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
+        val pairLists = MatchReckoning.pairLists(m.man.animal, m.woman.animal)
+        val pairLines = MatchReckoning.pairLines(m.man.animal, m.woman.animal)
+        pairLists.forEach { l ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_pair_list_title, gloss(l)),
+                    english = "",
+                    tone = if (l.good) Tone.GOOD else Tone.BAD,
+                    reading = Texts.matchPairList(l),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        pairLines.forEach { l ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.match_pair_line_title, gloss(m.man.animal), gloss(m.woman.animal)),
+                    english = "",
+                    tone = when (l.good) { true -> Tone.GOOD; false -> Tone.BAD; null -> Tone.MIXED },
+                    reading = Texts.matchPairLine(l),
+                    subtitle = stringResource(if (l.ordered) R.string.match_pair_line_takes else R.string.match_pair_line_either),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
         val bad = MatchReckoning.badYears(m.man, YearOfLife.yearSmeBa(m.manYear)).filter { it != BadYear.BLACK_FANGS }.map { R.string.match_man_year to (it to m.man) } +
             MatchReckoning.badYears(m.woman, YearOfLife.yearSmeBa(m.womanYear)).map { R.string.match_woman_year to (it to m.woman) }
         bad.forEach { (whose, pair) ->
@@ -102,7 +129,7 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
-        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null) Text(stringResource(R.string.match_years_none), style = muted)
+        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null && pairLists.isEmpty() && pairLines.isEmpty()) Text(stringResource(R.string.match_years_none), style = muted)
         Section(stringResource(R.string.match_section_single))
         MatchReckoning.aspects(man, woman).forEach { (force, meeting) ->
             AnnotationRow(
