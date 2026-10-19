@@ -25,7 +25,9 @@ import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchReckoning
+import zanshin.core.tibetan.MatchParent
 import zanshin.core.tibetan.NiSha
+import zanshin.core.tibetan.ParentWay
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.YearSexes
 import zanshin.core.tibetan.matchStageGrade
@@ -213,6 +215,34 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
+        Section(stringResource(R.string.match_section_parents))
+        val parentRows = listOf(
+            Triple(R.string.match_man_father, m.manParents.first to MatchParent.FATHER, m.man),
+            Triple(R.string.match_man_mother, m.manParents.second to MatchParent.MOTHER, m.man),
+            Triple(R.string.match_woman_father, m.womanParents.first to MatchParent.FATHER, m.woman),
+            Triple(R.string.match_woman_mother, m.womanParents.second to MatchParent.MOTHER, m.woman),
+        ).filter { it.second.first != null }
+        parentRows.forEach { (whose, parent, own) ->
+            val (sign, which) = parent
+            ParentWay.entries.forEach { way ->
+                val stage = MatchReckoning.parentStage(way, sign!!, own.animal)
+                AnnotationRow(
+                    Annotation(
+                        title = labels.string(
+                            R.string.match_parent_title, stringResource(whose),
+                            stringResource(if (way == ParentWay.OUTER) R.string.match_way_outer else R.string.match_way_secret), stage.english,
+                        ),
+                        english = "",
+                        tone = if (stage.good) Tone.GOOD else Tone.BAD,
+                        reading = Texts.matchParentStage(which, stage.good),
+                        subtitle = labels.string(R.string.match_rise_subtitle, signName(sign, labels), signName(own, labels)),
+                        titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+        }
+        if (parentRows.isEmpty()) Text(stringResource(R.string.match_parents_needs), style = muted)
         val manMewa = YearOfLife.yearSmeBa(m.manYear)
         val womanMewa = YearOfLife.yearSmeBa(m.womanYear)
         val mewaName = { n: Int -> labels.string(R.string.match_mewa_name, n, Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")) }

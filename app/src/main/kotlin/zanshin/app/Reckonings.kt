@@ -60,6 +60,9 @@ data class MatchReading(
     /** The man's and the woman's natal trigrams, each where their mother's birth year is entered. */
     val manTrigram: Trigram? = null,
     val womanTrigram: Trigram? = null,
+    /** The man's and the woman's parents' year signs, each where entered: father, mother. */
+    val manParents: Pair<Sign?, Sign?> = null to null,
+    val womanParents: Pair<Sign?, Sign?> = null to null,
 )
 
 /** What the Reckonings section reckons for a person, apart from the screen that shows it. */
@@ -111,11 +114,14 @@ object Reckonings {
         val theirs = spouse.birth!!.tibetanYear.let { it to YearOfLife.yearSign(it) }
         val (man, woman) = if (gender == Gender.MALE) own to theirs else theirs to own
         val weekdays = spouse.birth!!.date?.let { TibetanCalendar.of(person.birth).weekday to TibetanCalendar.of(it).weekday }
-        val mother = { of: Int? -> person.relatives.list.firstOrNull { it.of == of && it.relation == Relation.MOTHER && it.birth != null } }
+        val parent = { of: Int?, relation: Relation -> person.relatives.list.firstOrNull { it.of == of && it.relation == relation && it.birth != null } }
+        val mother = { of: Int? -> parent(of, Relation.MOTHER) }
+        val signs = { of: Int? -> listOf(Relation.FATHER, Relation.MOTHER).map { r -> parent(of, r)?.birth?.tibetanYear?.let { YearOfLife.yearSign(it) } }.let { it[0] to it[1] } }
+        val (manParents, womanParents) = if (gender == Gender.MALE) signs(null) to signs(spouse.id) else signs(spouse.id) to signs(null)
         val ownTrigram = mother(null)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, own.first) }
         val theirTrigram = mother(spouse.id)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, theirs.first) }
         val (manTrigram, womanTrigram) = if (gender == Gender.MALE) ownTrigram to theirTrigram else theirTrigram to ownTrigram
-        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays, manTrigram, womanTrigram)
+        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays, manTrigram, womanTrigram, manParents, womanParents)
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */

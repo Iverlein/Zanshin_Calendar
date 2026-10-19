@@ -1035,6 +1035,15 @@
     <string name="match_rise_man">The man\'s life force on the woman\'s year</string>
     <string name="match_rise_woman">The woman\'s life force on the man\'s year</string>
     <string name="match_rise_subtitle">%1$s on %2$s</string>
+    <string name="match_section_parents">From the parents\' years</string>
+    <string name="match_man_father">The man\'s father</string>
+    <string name="match_man_mother">The man\'s mother</string>
+    <string name="match_woman_father">The woman\'s father</string>
+    <string name="match_woman_mother">The woman\'s mother</string>
+    <string name="match_way_outer">the outer way</string>
+    <string name="match_way_secret">the secret way</string>
+    <string name="match_parent_title">%1$s, %2$s · %3$s</string>
+    <string name="match_parents_needs">Counting from the parents needs their birth years: enter the person\'s parents, and the spouse\'s under the spouse, in People.</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>

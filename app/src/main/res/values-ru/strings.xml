@@ -890,6 +890,15 @@
     <string name="match_rise_man">Жизненная сила мужчины на годе женщины</string>
     <string name="match_rise_woman">Жизненная сила женщины на годе мужчины</string>
     <string name="match_rise_subtitle">%1$s на годе %2$s</string>
+    <string name="match_section_parents">От годов родителей</string>
+    <string name="match_man_father">Отец мужчины</string>
+    <string name="match_man_mother">Мать мужчины</string>
+    <string name="match_woman_father">Отец женщины</string>
+    <string name="match_woman_mother">Мать женщины</string>
+    <string name="match_way_outer">внешний способ</string>
+    <string name="match_way_secret">тайный способ</string>
+    <string name="match_parent_title">%1$s, %2$s · %3$s</string>
+    <string name="match_parents_needs">Для отсчёта от родителей нужны их годы рождения: укажите в «Людях» родителей человека и родителей супруга под супругом.</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
