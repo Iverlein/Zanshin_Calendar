@@ -158,7 +158,17 @@ I3CN12074 img. 301, at the right of the folio, 2750 px; 2026-10-19,
 open question 148): the same grid and directions, east at the top, the
 middle cell in two lines, «སྤྱི་བརྒྱུད་» and a second line not made out at
 3×, and the cursive numerals sharper but still not read with certainty;
-the next reading should start there.
+the next reading should start there. Its labels read «ཤར» at the top,
+«ལྷོ» on the left, «བྱང» on the right and «ནུབ» below (east up, south left).
+Two cells can be read against the *nu ru* course above: the bottom
+(west) holds «༤ ༡༧», the 4th and the 17th, and the middle left (south)
+«༡༠ ༡༢ ༡༩ ༢༥» and one more numeral, the 10th, 12th, 19th and 25th: the
+dates on which Rāhu sets out from the west and from the south. So the
+square most likely groups the general course's thirty dates by the
+direction of setting out, as the left chart does, without the times;
+its middle cell's «སྤྱི་བརྒྱུད», "the general course", fits. The corner cells'
+counts of numerals do not all fit that reading as far as they were made
+out (the top left has five, where the south-east has two dates).
 
 ## The detailed course
 

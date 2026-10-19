@@ -1780,9 +1780,12 @@ the text, not about the app.
      are its cursive numerals and its middle cell («སྤྱི་བརྒྱུད་ཚེས་[…]»)
      read? (2026-10-14, O10, [rahu.md](rahu.md), "KP's chart, img. 78")
      *2026-10-19 ([rahu.md](rahu.md), *KP's chart, img. 78*): KP2 carves the
-     same square more cleanly (I3CN12074 img. 301), but its cursive numerals
-     and the middle cell's second line are still not read with certainty at
-     3×; the next reading should start there.*
+     same square more cleanly (I3CN12074 img. 301), east up and south
+     left; its west cell reads «༤ ༡༧» and its south cell «༡༠ ༡༢ ༡༩ ༢༥», the
+     *nu ru* course's dates of setting out from the west and the south, and
+     the middle cell «སྤྱི་བརྒྱུད», the general course. Most likely the same
+     course by the direction of setting out, without the times; the corner
+     cells are not read with certainty and do not all fit.*
 
 149. **Answered 2026-10-18. The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
      the harm wheel prints «ཤིང(༢)ས(༣)», where the same page elsewhere
