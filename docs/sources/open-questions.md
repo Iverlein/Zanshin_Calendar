@@ -420,6 +420,11 @@ the text, not about the app.
     the dead. What is left: why the sum says 440 for 442. In passing, the
     Taikhang print reads «ནད་སྲི», illness and *sri*, where the 1996
     edition has «ནང་སྲི».*
+    *Searched further 2026-10-19: the *Nag rtsis kyi lo rgyus 'jam mgon
+    dgongs bcud* (KD vol. 1, etext I4715 p. 661, printed p. 645) restates
+    the parts in prose, «…ནམ་གཞག་གཏན་གྱི་མཐའ་རྩིས་ལ་རྡེའུ་བརྒྱ་སོ་དྲུག ཀེག་རྩིས་ལ་ཞེ་བདུན། གཉེན་སྦྱོར་ལ་བཅུ་གསུམ། ནད་པ་དང་སྲིའུ་ལ་བཅུ་དགུ གསོན་ཁོངས་ནས་གཤིན་འདོན་པ་ལ་ཉི་ཤུ་ཐམ་པ། བླ་རྡེལ་བཅུ་གཉིས། གཤིན་འདུར་ཤིད་གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔའོ།»,
+    the same seven counts with no sum, after the same «དོན་སྐོར་བཞི་བརྒྱ་ཞེ་གཉིས»; its
+    «ནད་པ་དང་སྲིའུ» (the sick and the *sri*) bears out the Taikhang print's «ནད་སྲི».*
 
 22. **Answered 2026-10-18. WB vol. 1, p. 351 (img. 361) and vol. 2, p. 26 (img. 34): slips
     in two sums of pebbles?** Ch. 23 states 478 root and 5,327 sign pebbles
