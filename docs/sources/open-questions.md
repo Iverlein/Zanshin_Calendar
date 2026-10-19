@@ -1053,6 +1053,13 @@ the text, not about the app.
     does the reading by the natal mewa (p. 405: moxa good, bloodletting
     bad) replace the seven-red's own (p. 403: both avoided), or do both
     stand (2026-10-12, RD10, [health.md](health.md))?
+    *Narrowed 2026-10-19 ([health.md](health.md), *The three together*): Lha
+    mo tshul khrims keeps the year's mewa list (seven-red: «གཏར་སྲེག་རྣམས་ལ་འཛེམ»,
+    printed p. 87) and the natal list apart, and his natal line for the
+    two-black-born on the seven-red names neither bloodletting nor moxa; no
+    rule between them there either. WB's split (moxa good, bloodletting bad)
+    is its rule for Mars's Tuesday in ch. 34 (vol. 2, p. 403), so p. 405 is
+    no slip. Which leads is still not stated.*
 
 82. **Answered as far as the sources go, 2026-10-19. WB vol. 1, pp. 253, 271: the turtle's skull.** Ch. 21 glosses the
     first *kha srog* pair, the wood mouse and ox, «དོན་ལ་རུས་སྦལ་ཐོད་རུས།», the
