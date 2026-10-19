@@ -1947,3 +1947,66 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
   and the opening of the grave's door, as the notes list them
   («…ས་དུར། ལྕགས་དུར། …དུར་འཁྲེན་ས་བདག་ལ་སྨྲེང་བརྗོད་ཅིང་སྒོ་དབྱེ་བ།», p. 522); the 1996 «སྐྲང/སྨྲང་སྒོམ» is
   the setting's.
+
+## Settled, 2026-10-19 (open questions 97, 98, 100)
+
+- **The thirty's places: each place's own aspect, fought by the person's
+  same aspect.** Dharmaśrī's *Moonbeams* (DZ) closes its chapter on the
+  thirty with the laying of the pebbles in plain terms (f. 15a, ll. 4–7,
+  img. 033, read on the scan; the close on f. 15b from KD vol. 3,
+  p. 500, etext p. 520):
+
+  > ད་ནི་རྡེའུ་བོར་ཚུལ་བཤད། །རྒྱ་བོད་བསྐོར་འགོ་གང་ལ་ཡང་། །བརྩི་བྱའི་ལོ་དང་བསྐོར་འགོ་ཡི། །རང་གི་རྩིས་གཞི་ངོས་བཟུང་བྱ། །དེ་ནས་བརྩི་བྱའི་སྐྱེས་བུ་དེ། །ཕོ་ལོ་མོ་ལོའི་ཁྱད་པར་གྱི། །རྩིས་གཞིའི་ཕོ་ལོ་མོ་ལོ་ཡི། །སྟེང་ནས་ཡར་བཞི་མར་བཞི་བགྲང་། །དེ་བཞིན་ཡར་བདུན་མར་བདུན་དང་། །ཡར་དེད་མར་དེད་བཅུ་གཅིག་སྟེ། །ཡར་བགྲངས་གནས་སུ་རྡེལ་དཀར་དང་། །མར་བགྲངས་གནས་སུ་རྡེལ་ནག་རེ། །ལེགས་བོར་ཡར་བཞི་མར་བཞི་ཡི། །སྲོག་ལ་བརྩི་བྱའི་སྐྱེས་བུ་དེའི། །སྲོག་གིས་འཐབས་པའི་རྡེའུ་རེ། །དེ་བཞིན་ཡར་བདུན་མར་བདུན་གྱི། །ལུས་ལ་ལུས་འཐབས་རྡེའུ་རེ། །ཡས་མར་བཅུ་གཅིག་དབང་ཐང་ལ། །དབང་ཐང་གིས་འཐབས་རྡེའུ་རེ། །དེ་བཞིན་རྩ་བའི་ལོ་ཕོ་མོའི། །ཀླུང་རྟ་གཉིས་ལ་སྐྱེས་བུ་ཡི། །ཀླུང་རྟས་འཐབས་པའི་རྡེའུ་རེ། །བོར་ལ་བཟང་ངན་ཁ་དམར་ནི། །འགྲེལ་པ་འཕྲུལ་གྱི་མིག་ཚགས་ཀྱིས། །ལེགས་པར་གཏན་ལ་དབབ་པར་བྱ།
+
+  "Now how the pebbles are laid. For any of the Chinese and Tibetan
+  starting points, take the year of the one reckoned and the starting
+  point's own base. Then, by whether the person's year is male or
+  female, count from the base's male or female year the fourth upward
+  and downward, likewise the seventh upward and downward, and the
+  eleventh, driven up and down; at a place counted upward a white
+  pebble, at one counted downward a black. Lay one pebble where the
+  person's life force fights the life force of the fourth upward and
+  downward; likewise one where the body fights the body of the seventh
+  upward and downward; one where the power fights the power of the
+  eleventh up and down; likewise one where the person's luck fights the
+  luck of the base's male and female years. The verdict of the pebbles
+  laid, good or bad, settle with the commentary's magic eye." So the
+  place's own life force, body or power is meant, each fought by the
+  person's own of the same kind, as the notes' «དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ»
+  (p. 532) says of the first. DZ shares the fourth, seventh and eleventh
+  out by aspect (life force, body, power), where WB's verse (pp. 453–454)
+  gives the fourth upward life force, the fourth downward body, the
+  eleventh upward power and downward luck, the seventh upward life force
+  and downward body, and the year reached its power and luck; and DZ
+  counts from the base year, WB from the year reached by the person's
+  age. WB's verse stands in the *rdel 'grem* manuals word for word (Lha
+  mo tshul khrims, MW1KG21818, p. 67, etext p. 75: «… །གར་བབས་ལོག་མེན་ལྟ་བུ་སྟེ། །དེ་ཡི་ཡར་བཞིའི་སྲོག་དང་འཐབ། །མར་བཞིའི་ལུས་དང་ཡར་གྱི་ནི། །བཅུ་གཅིག་དབང་ཐང་མར་བཅུ་གཅིག །རླུང་རྟ་དག་ལ་འཐབ་པར་བྱ། །ཡར་བདུན་སྲོག་དང་མར་བདུན་ལུས། །ལོག་མེན་དེ་ཡི་དབང་ཐང་དང༌། །རླུང་རྟ་དག་ལ་བརྩི་བྱ་ཡི། །སྲོག་ལུས་དབང་རླུང་དག་གིས་འཐབ།»;
+  and *Sgo bzhi mdzod lnga'i yang bcud*, *Bzo rtsis zlos gar*, a Mdo
+  khams collection, BDRC snippets), whose last line says it outright:
+  the person's life force, body, power and luck fight them.
+- **The son's colour: black in the thirty, white and black in the
+  twenty-four.** The manuals keep the two rules apart. For the thirty,
+  called «བལ་མོ་ལྡིང་སྐོར», one pebble a contest (Lha mo tshul khrims, p. 67,
+  etext p. 75): «མ་གྲོགས་ས་ཆུ་ནང་ཕྲད་དཀར། །བུ་དགྲ་ཤིང་ལྕགས་མེ་ཕྲད་ནག», as WB p. 454.
+  For the twenty-four cuttings and splittings (གཅོད་འདྲལ་ཉེར་བཞི, *gcod 'dral
+  nyer bzhi*), a pair: Co ne Grags pa bshad sgrub (ཅོ་ནེ་གྲགས་པ་བཤད་སྒྲུབ, co ne
+  grags pa bshad sgrub, 1675–1748), *Gsung 'bum*, vol. 17 (BDRC
+  VE1PD90129_017, snippet), «མ་དང་ཕྲད་ན་དཀར་པོ་གསུམ། །གྲོགས་དང་ཕྲད་ན་དཀར་པོ་གཉིས། །བུ་དང་ཕྲད་ན་དཀར་ནག་ཟུང་། །དགྲ་ཕྲད་ནག་པོ་རྣམ་པ་གཉིས། །ས་ཆུ་ནང་ཕྲད་དཀར་པོ་རེ། །ཤིང་ལྕགས་མེ་གསུམ་ནག་པོ་སྟེ།»,
+  and the same in Lha mo tshul khrims (p. 15, etext p. 23, «དར་གུད་མ་གཏོགས་གཞན་རྣམས་ལ།», for all but the stage), Zhe chen rgyal
+  tshab (ཞེ་ཆེན་རྒྱལ་ཚབ, zhe chen rgyal tshab), the Rgyal rong folk
+  reckonings and *Sgo bzhi mdzod lnga'i yang bcud* (snippets): the
+  mother three white, the friend two, the son a white and a black, the
+  enemy two black. Ch. 25's white and black for the son (p. 417) is this
+  second rule.
+- **«ར་བཞི» is the first months of the seasons.** The notes' line on the
+  moment's mewa, «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར» (p. 535),
+  is WB's own rule of the first date's mewa in the almanac front matter,
+  vol. 1, p. 178: «སྨེ་བ་ར་བཞིར་གཅིག་དཀར་ཚེས། །འབྲིང་བཞི་བཞི་ལྗང་མཐའ་བཞི་བདུན། །དེ་ནས་རིམ་བཞིན་ཤེས་པར་བྱ།»,
+  read in [almanac-page.md](almanac-page.md) (*The first date's trigram
+  and sme ba*) as the four first, middle and last months of the seasons
+  (ར་བ, འབྲིང་པོ, ཐ་ཆུང), the Chinese seasons, and matched by the app's
+  formula on every first date of 2000–2049 (`AlmanacPageTest`): the first
+  months' first date is 1 white, the middle months' 4 green, the last
+  months' 7 red, and the dates go on in order. The 'Bri gung Chung tshang
+  (འབྲི་གུང་ཆུང་ཚང, 'bri gung chung tshang) Bstan 'dzin chos kyi rgyal mtshan's
+  *Gsung 'bum* (MW3JT13322, Dehradun 2008, snippet) quotes the same lines.

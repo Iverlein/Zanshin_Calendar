@@ -190,7 +190,8 @@ strikes his tally (ཁྲམ, *khram*); dawn (ཐོ་རངས, *tho rangs*), 
 (གིང) smiles at its prey; sunrise, when the great tiger opens its mouth;
 noon, when the sea monster (ཆུ་སྲིན, *chu srin*) swings its tail; evening
 shadow (དགོང་གྲིབ, *dgong grib*), when Māra's (བདུད, *bdud*) army sets out, as
-the dark [*so nag*] comes on: even when six sessions are made, with the
+the line of the shadows (གྲིབ་སོ, *grib so*) comes on dark and gloomy (question
+129, 2026-10-19): even when six sessions are made, with the
 session's frame as above, press on with summoning the la, the
 life-spirit (བླ, *bla*), until the sign of capture has come."
 
@@ -314,7 +315,8 @@ skeleton with a small drum (Tshig mdzod chen mo; *kiṃkara*, Negi);
 «ཁྲམ་ལ་འདེབས» is the rite of the tally board, the harmer's name and offence
 written on a notched board (ཁྲམ་ཤིང, khram shing) to subdue him (Tshig mdzod
 chen mo, «ཁྲམ་ལ་བཏབ»): the Lord of Death puts his prey on his tally. «སོ་ནག» is
-in the dictionaries only as place names.
+in the dictionaries only as place names; the words divide otherwise
+(2026-10-19, below).
 
 #### Open
 
@@ -633,3 +635,26 @@ bear on the choice, and are inferences, not statements of any text:
   the sun's rising and setting (above), all four rough times are
   stretches of the day, not instants; no text found defines the *gung* by
   the sun's culmination.
+
+## Settled, 2026-10-19 (open questions 128, 129)
+
+- **«དགོང་གྲིབ་སོ་ནག་ངམ» is *dgong grib so* and *nag ngam*.** The *grib so* (གྲིབ་སོ)
+  is the edge or line of the shadows, the shadow lengthening at sunset
+  (Tshig mdzod chen mo: «ཉི་མ་ཕར་ཕར་འགྲོ་དུས་གྲིབ་སོ་ཚུར་ཚུར་སླེབས་བྱུང་། … ཁང་པ་བརྩིགས་ཐོག་མང་ཡང་། གྲིབ་སོ་ས་ལ་འབབ་…»;
+  Rangjung Yeshe, "lengthening of shadows at sunset"), and *nag ngam*
+  dark and gloomy. The same words stand together elsewhere (BDRC full-text
+  search, snippets): another rite of the same *Rin chen gter mdzod* (vol.
+  18, VE1KG14_018), «དགོང་མོ་གྲིབ་སོ་ནག་ངམ་གྱིས་བྱུང་ནས་བཟླས», recite "when in the
+  evening the shadows' line has come dark"; the *Padma bka' thang*
+  (MW1KG25186), «ཉི་མའི་གྲིབ་སོ་ནག་ངམ་བྱུང་བ་དང་»; and *Rdzogs chen ma rig mun
+  sel* (MW24664), «གྲིབ་སོ་ནག་ངམ་ངམ». The sixth session is the evening when the
+  shadows have run dark.
+- **«མཱ་ར་ཡ་ཛ» is the mantra's "kill" and its *jaḥ*.** The same collection
+  closes a fierce rite's mantra with the words (vol. 18, VE1KG14_018,
+  snippet): «བྱད་མ་གནོད་བྱེད་ཆེ་གེ་མོའི་ཛཱི་བཾ་མཱ་ར་ཡ་ཛ», "the harmer so-and-so's life
+  (*jīvaṃ*): *māraya jaḥ*", the life summoned (*jaḥ*) and killed
+  (*māraya*). So «མཱ་ར་ཡ་ཛའི་འགྱུར་དུས་བཞི» are the four times of change for the
+  rite of killing, the summoning and slaying the passage goes on to fit
+  to them, not of a king of the māras. The phrase is in that passage
+  alone (BDRC full-text search, one hit). Whether the four are WB's times
+  "when the four māras move" (p. 359) is not said there.

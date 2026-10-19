@@ -713,3 +713,24 @@ The 11th head also has, at the winter solstice, «ས་བདག་སྐྱས
 (read at 3×; the etext's «སྐྱེས» is a misprint): the earth lords move
 house, and "in Tibet the nine too are drawn"; which nine is open
 question 20.
+
+**The nine, settled 2026-10-19 (open question 20).** «དགུ་འདྲེན», "drawing
+the nines", is the count of nine-day spans after the winter solstice:
+Tshig mdzod chen mo, «དགུན་ཉི་ལྡོག་པའི་རྗེས་སུ་ཉིན་དགུ་དགུར་བརྩིས་ནས་གྲང་ངད་ཆེ་བའི་དུས་ཚིགས་འདྲེན་པའི་སྲོལ། དགུ་དང་པོ་འདྲེན་པ། དགུ་གཉིས་པ་འདྲེན་པ།»,
+"the custom of drawing in the season of great cold by counting the days
+in nines after the winter solstice: drawing the first nine, drawing the
+second nine" (the same in Bod yig tshig gter rgya mtsho). The phrase
+names the coldest season in other works (BDRC full-text search,
+snippets): the Sakya *Lam 'bras* collection (MW2PD19769),
+«དགུན་དགུ་འདྲེན་པའི་སྐབས་ཡིན་པ་དང་། ནཱ་ལེནྡྲ་ཤིན་ཏུ་གྲང», "it was the time of drawing
+the winter nines and Nalendra was very cold", and the lives of the Lam
+rim lineage (MW1KG18139), «དགུན་དགུ་འདྲེན་པའི་སྐབས་སུ་ཐོ་རངས་གཅེར་བུར་འཐོན་ནས»,
+going out naked at dawn in that season. So WB's line: at the winter
+solstice the earth lords move house, and in Tibet the nines too are
+counted from it. KD's verse of the month heads has the same,
+«དགུན་གྱི་ཉི་མ་ལྡོག་པ་དང་། །ས་བདག་སྐུས་བྱེད་དགུ་ཡང་འདྲེན།» (MW28845, snippet). Not the nine
+gods nor the nine black ones.
+
+*phyur* (p. 176) stays open: *'phyur* is to rise, swell or heap up
+(Tshig mdzod chen mo; Bod yig tshig gter rgya mtsho adds «འབུར་འབུར», raised),
+which fits "not drawn out in full" without a gloss of the line.

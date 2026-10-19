@@ -2137,3 +2137,58 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   «བཅོ་བརྒྱད་ཉེར་དྲུག» are a woman's ages on khen, every eighth from 18: a bride
   of those ages is held by the male sky dog. The female's zon falls in
   the same circuit on ages 6, 14, 22, 30 …; WB names no ages for it.
+
+## The light-clearer's grave and the *Knowing What to Send*, 2026-10-19 (open questions 28, 123)
+
+- **«དུར» beside an animal is its grave, one of the four grave animals.**
+  The reckoners' manuals name the month or year that is a person's or a
+  month's "grave" (དུར, *dur*) among the ox, dragon, sheep and dog. Dpal
+  bsdus (དཔལ་བསྡུས, dpal bsdus, b. 1966), *'Byung rtsis dpyad don rmad byung
+  ut+pal sngon po'i do shal* (BDRC etext VEIE0OPI6328F058_I4767, p. 252,
+  printed p. 230; etext only), on the bride's months, by the triads:
+  «ཕག་ལུག་ཡོས་གསུམ་ལུག་ཟླར་ངན། སྟག་རྟ་ཁྱི་གསུམ་ཁྱི་ཟླར་ངན། བྱ་གླང་སྦྲུལ་གསུམ་གླང་ཟླར་ངན། བྱི་འབྲུག་སྤྲེལ་གསུམ་འབྲུག་ཟླར་ངན། འགྲོ་ན་དུར་ལྔ་འདོན་པར་བྱ། … ཟླ་ནག་རང་དུར་གཤེད་དུར་ལ།»,
+  "the pig, sheep and hare are bad in the sheep month, the tiger, horse
+  and dog in the dog month, the bird, ox and snake in the ox month, the
+  mouse, dragon and monkey in the dragon month; if one goes, the five
+  graves are recited … the black month, one's own grave, the slayer's
+  grave". Each triad's grave is its last animal. Dpal bsdus digests WB's
+  own ch. 23, which has it so (vol. 1, p. 373, img. 383; [marriage.md](marriage.md)):
+  «ཕག་ལུག་ཡོས་གསུམ་ལུག་ལ་ངན། །སྟག་རྟ་ཁྱི་གསུམ་ཁྱི་ལ་ངན། །བྱ་གླང་སྦྲུལ་གསུམ་གླང་ལ་ངན། །བྱི་འབྲུག་སྤྲེལ་གསུམ་འབྲུག་ལ་ངན། །དེ་དག་དུར་ཁ་རལ་བ་དེ།»,
+  "these are where the graves open". Lha mo tshul khrims
+  (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims), *Nag rtsis rdel 'grem 'bras bshad*
+  (MW1KG21818, p. 96, etext p. 104; the scan's image not served) counts the
+  grave by the year animal's element instead: «སྟག་ཡོས་ལོ་པར་དབང་ཐང་དང་མཐུན་པའི་ལུག་ལོ་ཤར་ན་རང་གི་དུར་ཆེན་དེ་འདྲའི་གླང་ལོ་ཤར་ན་དུར་ཆུང་།»,
+  the tiger and the hare (wood) have the sheep as their great grave, and
+  likewise the horse and snake the dog and dragon, the mouse and pig the
+  dog and dragon. So the light-clearer's «དུར» in the first months of the
+  seasons (tiger, snake, monkey, pig, by ch. 31's Chinese months) is the
+  month animal's grave; by the triads, WB's own count in ch. 23, that is
+  the dog, ox, dragon and sheep, by the element the sheep for the tiger
+  month. Ch. 31 does not say which it means.
+- **The *Knowing What to Send* is a text of its own.** WB cites «གཏོང་ཤེས»
+  six times in ch. 31 as one of its earth-lord sources, beside others it
+  names: p. 197 (img. 205), «དེ་ཡང་གཏོང་ཤེས་འབྱུང་ཀུན་འདུས། །ཚངས་པ་ལྷ་རྒྱུད་ལས་བཤད་པ།»;
+  p. 202, «གཏོང་ཤེས་གབ་པ་འཕྲུལ་འཁོར་དང་། །སྤྱི་རྒྱུད་རིན་ཆེན་ཀུན་འདུས་བཤད།»; p. 206,
+  «གཏོང་ཤེས་ལྟར་ན»; p. 219, «གཏོང་ཤེས་སོགས་ནས»; p. 224, «འཛེམ་པར་གཏོང་ཤེས་ལས་བཤད་དོ།»;
+  and the hal khyi's note, p. 185, «སྟོང་ཤེས་ལས་ཀྱང་དེ་ལྟར་བཤད།» (1996 etext; the
+  same work spelt otherwise, not checked on the scan). The Zhol print
+  names it with the *Hidden Magic Wheel* among the texts others misread
+  (WBZ etext p. 904, «གབ་པ་འཁྲུལ་འཁོར་གཏོང་ཤེས་དང་།»). A work so titled is
+  printed: the catalogue of the *Great Treasury of Tibetan Medical and
+  Astronomical Texts* (སྨན་རྩིས་རིག་མཛོད་ཆེན་མོ, sman rtsis rig mdzod chen
+  mo; *Sman rtsis rig mdzod chen mo'i zab don sgo brgya 'byed pa'i lde
+  mig*, Krung go'i bod rig pa dus deb khang, Beijing 2017, BDRC
+  MW4CZ354964, search-only etext) lists «དཔེ་ཚན་ 17 ས་བདག་གཏོང་ཤེས་བཞུགས (205)»
+  and «དཔེ་ཚན་ 18 ས་བདག་གཏོང་ཤེས་བཞུགས (236)», «སེམས་རྩེ་སོགས་པས་བསྒྱུར», "translated by
+  Sems rtse (སེམས་རྩེ, sems rtse) and others", and before them «ས་དཔྱད་གསལ་བའི་སྒྲོན་མེ»,
+  the *Lamp that Makes Clear the Examination of the Ground*, which may be
+  WB's *Gsal sgron*. The volume itself was not found in BDRC; the
+  *Sa bdag gtong shes* (ས་བདག་གཏོང་ཤེས) is a translated earth-lord text,
+  not read.
+- **Searched and not found** (BDRC full-text search, 2026-10-19):
+  «གཏོང་ཤེས་རྒྱུད» and «ཧལ་ཁྱི་མ་ལྔ», no hit; «ལས་ལ་ཟློད» and «ལས་ལ་བཟློད», no hit (open
+  question 39); «ཉི་མའི་གླང» four hits, none on an earth lord's entry (35);
+  «ཝང་ཁྱི་གླང», one: an almanac list, *Sgo bzhi mdzod lnga'i yang bcud* (30),
+  «ཝང་ཁྱི་གླང་ཉི་དུས», which copies the line without explaining it (29), as
+  does *Dkar rtsis dang nag rtsis kyi gzhung* «ཝང་ཁྱི་འབྲུག་ཉི་དུས»;
+  «འབྲིང་པོ་བཞི་ཡི་སྟེང», WB's prints alone (31).

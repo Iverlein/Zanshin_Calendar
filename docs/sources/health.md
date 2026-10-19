@@ -1095,3 +1095,20 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
   and of the dead infant *shang dkar* «ཤང་དཀར་ཟླ་ཇིབ་ཁྲག་བྱིལ་ཏེ། །དར་གྱིས་གཏུམས་ལ་ལུག་རུར་གཞུག»
   (vol. 2, p. 83, etext): the monthly (*zla*) blood. No dictionary has the
   word in either spelling.
+
+## Narrowed, 2026-10-19 (open questions 62, 86)
+
+- **«ལྕགས་པར» is type, not the Chakpori blocks.** Tshig mdzod chen mo:
+  «ལྕགས་ལས་བཟོས་པའི་ཡིག་འབྲུའི་འཕྲུལ་པར།», "a printing press of letters made of
+  metal" (the same in Bod yig tshig gter rgya mtsho; Ives Waldo,
+  "printing with iron/metal type"), against «ཤིང་པར», a woodblock. So KL's
+  «གསོ་རིག་རྒྱུད་བཞི་ལྕགས་པར་མ» is a typeset edition of the Four Tantras, as KL's
+  calling a Sichuan Nationalities Publishing House book «ལྕགས་པར་མ» (p. 230)
+  implies; which typeset edition, its page numbers do not settle (22, 78
+  and 95 fit no single book).
+- **Dr. Chenagtsang's English massage book.** A description of *Tibetan
+  Healing Massage* (an interview with the author, Guru Viking podcast,
+  episode 333) says it covers the la (བླ, bla) "and how it is best
+  guarded", with acupressure points, cupping and stick therapy; whether
+  it carries KL's tables of the la by date and hour, or *The Tibetan Book
+  of Health* any course or dates to avoid, was not seen.

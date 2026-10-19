@@ -338,7 +338,8 @@ the door's *phyugs* is set to the right", was not rendered in the first
 reading; its sense is not settled (*Open*). The seats close (the last
 lines above, left out of the first reading): "the same is said of the
 hours: they are to be avoided, as the *gtong shes* (a text of that short
-title, not identified) teaches. If he is
+title: the *Sa bdag gtong shes*, a translated earth-lord text, not read;
+year-month-earth-lords.md, 2026-10-19) teaches. If he is
 harmed, recite the Eight Appearances; to screen, raise a cow's skull
 (བ་ཐོད) and screen; or as for Gser mdzod; or screen with a man
 *hreng* (ཧྲེང, as printed, the same in WBZ; sense not settled) holding a
@@ -547,3 +548,19 @@ four:
   times (the earth lords), from the reckoning texts and the Kong tse
   tradition; it is set up before great undertakings. WB itself plants it
   «གཉིས་ནག་སྟེང་དུ་སྤོམ་གཏའ་འཛུགས» (vol. 2, p. 128).
+
+## Narrowed, 2026-10-19 (open question 125)
+
+- **The *lo* of the day: WB's own use is the day's year-sign.** WB writes
+  of the Chinese-derived reckoning of the new translations (vol. 2,
+  p. 538, img. 546, etext): «གསར་འགྱུར་གསེར་རྩིས་ལུགས་ལ་ནི། ཞག་གི་ལོ་འབྱུང་རྣམས་གྱོ་ཁང་རེའུ་མིག་བཞིན་ལ། ལོ་དང་ཉི་མ་བསྟུན་པའི་ལས་རྩིས་སོགས་དང་། …»,
+  "in the golden reckoning of the new translations, the *lo* and element
+  of the day (ཞག་གི་ལོ་འབྱུང, *zhag gi lo 'byung*) are as in the *gyo khang*
+  table, and the reckoning of works by year and day together …": the
+  day carries an animal and an element as a year does. Read so, p. 225's
+  claim is that Pi ling, 'Khor chung and Byi lam each sit on the day's
+  year-sign, the animal of the day, as the year's earth lords sit on the
+  year's; WB rejects it for want of a pure source. The phrase has
+  another sense in the Kālacakra reckoners, the year of civil days
+  («ཉིན་ཞག་གི་ལོ», Co ne Grags pa bshad sgrub, BDRC snippet), which does not
+  fit a lord's seat. BDRC's search finds «ཞག་གི་ལོ་སྟེང» in WB's prints alone.

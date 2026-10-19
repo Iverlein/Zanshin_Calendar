@@ -510,9 +510,12 @@ Yigdzin-1's «འཚོ» is wrong.
 
 ### The links on the hours, p. 356 (img. 364)
 
-> «རྟེན་འབྲེལ་དུས་དང་སྦྱར་བ་ནི། །མ་རིག་ནམ་ཕྱེད་འདུ་བྱེད་ཡོལ། །རྣམ་ཤེས་ཐོ་རངས་མིང་ནམ་ལངས། །སྐྱེ་མཆེད་ཉི་ཤར་རེག་དྲོས་འཇམ། །ཚོར་བ་ཉི་ཕྱེད་སྲེད་ཕྱེད་ཡོལ། །ལེན་པ་སྨྱུར་སྨད་སྲིད་ཉི་རྒས། །རྒ་ཤི་སྲོད་འཁོར་སྐྱེ་སྲོད་ཡོལ། །དེ་ཉིད་ལུགས་འབྱུང་ལུགས་ལྡོག་བཀོད།།»
+> «རྟེན་འབྲེལ་དུས་དང་སྦྱར་བ་ནི། །མ་རིག་ནམ་ཕྱེད་འདུ་བྱེད་ཡོལ། །རྣམ་ཤེས་ཐོ་རངས་མིང་ནམ་ལངས། །སྐྱེ་མཆེད་ཉི་ཤར་རེག་དྲོས་འཇམ། །ཚོར་བ་ཉི་ཕྱེད་སྲེད་ཕྱེད་ཡོལ། །ལེན་པ་སྨྱུར་སྨད་སྲིད་ཉི་རྒས། །རྒ་ཤི་སྲོད་འཁོར་སྐྱེ་སྲོད་ཡོལ། །དེ་ཉིད་ལུགས་འབྱུང་ལུགས་ལྡོག་བཀེན།།»
 
-Read at 5× («སྨྱུར་སྨད», «བཀོད»: Yigdzin-1 «མྱུར», «བཀེན»). The links joined to the
+Read at 5× («སྨྱུར་སྨད»: Yigdzin-1 «མྱུར»). The last word, first read «བཀོད», is
+«བཀེན» as Yigdzin-1 has it: the Zhol print carves «བཀེན» (WBZ img. 1110,
+l. 6, read at 3×), and the 1996 print at 8× ends the word in ན (open
+question 19, 2026-10-19). The links joined to the
 times of the day and night, one to each of the twelve hours that WB names
 for the Chinese reckoning on p. 359 ([weighing.md](weighing.md), *The
 hour of rule 2*: *nam phyed* the mouse, *phyed yol* the ox, *tho rangs*
@@ -539,10 +542,40 @@ The last line puts aging and death on *srod 'khor*, the pig's hour, and
 birth on «སྲོད་ཡོལ», a name p. 359 does not have; in the links' order birth
 comes before aging and death and would take *sa srod*, the dog's hour, so
 the line may set the pair in reverse for the metre (open question 19).
-«ལུགས་འབྱུང་ལུགས་ལྡོག»: the links set out in their forward and their reverse
-order, which the verse does not tie to a half of the month or to day and
-night. No work or reading is given for a link's hour; the passage names
-only the times.
+«ལུགས་འབྱུང་ལུགས་ལྡོག་བཀེན»: the links set out in their forward order, and the
+reverse counted upward (བཀེན, *bken*, the word WB's illness count uses for
+counting up against «ཐུར», down), which the verse does not tie to a half
+of the month or to day and night. No work or reading is given for a
+link's hour; the passage names only the times.
+
+**Settled as far as the sources go, 2026-10-19 (open question 19).**
+
+- **«སྲོད་ཡོལ» is the time between dusk and midnight.** Tshig mdzod chen mo:
+  «མཚན་མོའི་སྟོད་ཆ་བརྒལ་ནས་ནམ་ཕྱེད་མ་ཟིན་བར།», "from when the first part of the
+  night has passed until midnight"; *srod 'khor* «ཕག་གི་དུས་ཚོད་དེ་མཚན་མོའི་དུས་ཚོད་ཆ་དྲུག་ཏུ་བགོས་པའི་ཆ་གསུམ་པ།»,
+  the pig's hour, the third of the night's six parts; *sa srod*
+  «ས་རུབ་རྗེས་ནམ་ཕྱེད་མ་ཟིན་གོང་གི་དུས་ཚོད།», after the earth darkens and before
+  midnight (Bod yig tshig gter rgya mtsho glosses *sa srod* as the pig's
+  hour). Two other texts set it in the same stretch of the night: the
+  *Rin chen gter mdzod* «སྲོད་བྱེར་སྲོད་ཡོལ་འཁྲུག་པ་དང་། །ཕྱེད་སྙོམས་ཐོ་རངས་འཁྲུག» and Klong chen
+  pa (ཀློང་ཆེན་པ, klong chen pa) «མཚན་དུས་ཀྱི་སྲོད་བྱེར་བ། སྲོད་ཡོལ་ཟུག་པ། ནམ་ཕྱེད་སྙོམས་པ། ཐོ་རངས་འཁྲུགས་པ»
+  (BDRC full-text search, snippets): dusk, *srod yol*, midnight, dawn. The
+  word covers the dog's and the pig's hours; with every other hour taken
+  by a link, birth's can only be the dog's. WB's own lists of the Chinese
+  hours name the dog *sa srod* (vol. 1, p. 17, img. 27, etext:
+  «ཉི་ནུབ་ས་སྲོས་དང་། །སྲོད་འཁོར་ནམ་ཕྱེད་ཕྱེད་ཡོལ་བ»; vol. 1, p. 255, img. 265, etext:
+  «ས་སྲོད་ཁྱི་ལ་སྲིད་འཁོར་ཕག»).
+- **Not the metre alone.** A prose restatement keeps the same order:
+  Rnga rgod Nam mkha' seng ge's (རྔ་རྒོད་ནམ་མཁའ་སེང་གེ, rnga rgod nam mkha' seng ge)
+  *Sman rtsis* (BDRC MW2DB13644_565451; etext VEIE0OPI0000249F_I1PD30933,
+  p. 401, printed p. 373; etext only): «རྟེན་འབྲེལ་དུས་ཚོད་དང་སྦྱར་བ་ནི། མ་རིག་ནམ་ཕྱེད། འདུ་བྱེད་ཕྱེད་ཡོལ། རྣམ་ཤེས་ཐོ་རེངས། མིང་གཟུགས་ནམ་ལངས། སྐྱེ་མཆེད་ཉི་ཤར། རེག་པ་ཉི་དྲོས། ཚོར་བ་ཉིན་ཕྱེད། སྲིད་པ་ཕྱེད་ཡོལ། ལེན་པ་མྱུར་སྨད། སྲིད་པ་ཉི་རྒས། རྒ་ཤི་སྲོད་འཁོར། སྐྱེ་བ་སྲོད་ཡོལ། དེ་ཉིད་ལུགས་འབྱུང་བརྩི་ཚུལ་ཡིན་ལ། ལུགས་ལྡོག་བཀན་ནས་བརྩི།»
+  ("craving" printed «སྲིད་པ»). It names aging and death before birth in
+  prose too, and glosses the last line: "that is the way of counting in
+  the forward order; the reverse is counted upward" (བཀན, *bkan*, to turn
+  upward, Dag yig gsar bsgrigs «གྱེན་ལ་བསླངས་པ»). The Sakya writings
+  (ས་སྐྱ་བཀའ་འབུམ, sa skya bka' 'bum) use the pair the same way of the
+  body: «ལུགས་འབྱུང་ནི་དཔྲལ་བ་ནས་མར་ཐུར་དུ་འབབ་པ་ཡིན་ལ། ལུགས་ལྡོག་པ་ནི་ལྟེ་བ་ནས་ཡར་གྱེན་ལ་བརྩི་འོ།»
+  (snippet). Neither says when the reverse is used.
 
 ### Witnesses and finds
 

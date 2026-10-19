@@ -294,8 +294,9 @@ wealth-eater, 32 the bride whose power is spent; each with its rite.
 
 > བདུན་པ་ཟླ་བའི་རྫོང་ལུགས་ནི། །ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། །རང་རང་ཟླ་བས་བག་མ་འཆི། །གཉིས་པ་བཟང་ཞིང་བཀྲ་ཤིས་པ། །གསུམ་པ་ཐོན་བུ་གཉེན་ལ་ངན། །བཞི་པ་བག་མའི་ཚང་ཟླ་དང་། །གྱོས་སྐྱུག་གཉན་ཁ་ནེ་ནེར་ངན།།ལྔ་པ་ཕ་མ་དག་ལ་འཛེར། །དྲུག་པ་ཁྱོ་འཆི་ཆེ་ལ་གཟན། །བདུན་པ་རང་དང་འདྲ་བར་བཤད། །ངན་པའི་ཟླ་བར་རྫོང་དགོས་ན། །དང་པོར་ཕོ་ཆས་ཕྱི་ནས་བརྫངས། །བག་མའི་ཐུ་བར་བཅའ་ཡོས་བླུགས། །ལམ་བྱེད་སླེབ་ནས་རྒྱབ་ཏུ་བོར། །ཟླ་བ་བཅུ་གཉིས་ཀེག་བཟློག་བྱ། །གསུམ་པ་ངན་ན་ཁྱི་གུ་དང་། །རེའུ་ལུ་གུའི་རོ་གང་རུང་། །བག་མའི་ལག་ཏུ་སྐྱེས་པས་གཏད། །བུ་ཤི་བྱས་ལ་སླ་བ་འམ། །ཁྱོད་ཀྱི་བུ་སྐལ་གྱིས་ཤིག་ཟེར། །ཡང་ན་བྱི་འམ་སྲེ་མོང་གི། །ཐོད་པར་བག་མའི་སྲིན་ལག་ཁྲག །བྱུགས་ལ་བུ་རྒོད་མ་བོར་བྲི། །གཟའ་སྐར་བཟང་ལ་མལ་འོག་སྦ། །བཞི་པའི་གཏོ་ལ་གྱོས་སྨྱུག་གིས། །སླེབ་གདོང་ས་གཏོར་གཞན་དུ་བྲོས། །ལྔ་པ་རྟེན་འབྲེལ་བག་མ་ནི། །ཕྱི་ནས་བརྫངས་ལ་ལུག་ཐོད་གཅིག །ལྷོ་ནུབ་མཚམས་སུ་བོར་བས་ཐུབ། །ཕག་ཕྲུག་དང་ནི་ཁྱི་རོ་གཉིས། །བག་མའི་མཆན་ཁུང་ཞག་གཅིག་བཞག །བུ་ཤི་བྱས་ལ་ཕྱོགས་བཟང་སྦ། །ཡང་ན་བག་མའི་ཐུ་བ་ནི། །ཕ་ཡི་ཐུ་བས་ལན་གསུམ་སྤྲུག །ང་ལ་མེད་ཅེས་རྐང་འགྲོ་ན། །ཕྱོགས་བསྐོར་རྟ་ཡིན་གཡོན་ནས་ཞོན། །དྲུག་པ་ཁྱོ་ཡི་གདོང་མི་བསྟན། །ཐོད་ངན་གསུམ་དང་མགལ་པ་གསུམ། །བག་མའི་གདོང་དུ་བོར་བར་བྱ། །དེ་ཡིས་ངན་པ་བཟློག་པ་ཡིན། །དང་པོ་སྐྱེས་པའི་ཟླ་བ་དང་། །དེ་ཡི་བདུན་ཟུར་ངན་པ་སྟེ། །འགྲོ་ན་རྒྱས་པ་བཅུ་གསུམ་གཏོང་། །ཕག་ལུག་ཡོས་གསུམ་ལུག་ལ་ངན། །སྟག་རྟ་ཁྱི་གསུམ་ཁྱི་ལ་ངན། །བྱ་གླང་སྦྲུལ་གསུམ་གླང་ལ་ངན། །བྱི་འབྲུག་སྤྲེལ་གསུམ་འབྲུག་ལ་ངན། །དེ་དག་དུར་ཁ་རལ་བ་དེ། །འགྲོ་ན་དུར་ལྔ་འདོན་པ་བྱེད། །བཞི་གཤེད་གོང་མ་ཕུང་ཟླ་དང་། །འོག་མ་རབས་ཆད་ཟླ་བ་ཡིན། །འགྲོ་ན་དོང་ཙེ་འབྲིང་པོ་བྱེད། །ཟླ་ནག་འཆི་བའི་དུར་ས་དང་། །རང་དུར་གཤེད་དུར་དེ་དག་ལ། །བག་མ་བརྫངས་ན་འཆི་བས་སྤང་། །དེ་ཡང་དབང་མེད་རྫོང་དགོས་ན། །ཟླ་བ་ནག་ལ་དཀར་མེ་དང་། །སཱཙྪ་ལོ་གྲངས་རང་བཅོས་བྱ། །དུར་ལ་དུར་འདོན་མཚུན་གསོལ་བྱ།།དེ་དག་སྤྱི་བཅོས་འདི་བཞིན་ཏེ། །ཕ་མ་དག་ལ་ངན་པ་ན། །ཁྱིམ་གཞན་ཞིག་ནས་བརྫངས་པས་ཐུབ། །བག་མ་ལ་ངན་འཁོར་གསུམ་བཏགས། །སྐྱེ་ཆོས་བྱས་པས་ངན་སྐྱོན་ཞི།།
 
-Counting the months, the man's year forward and the woman's backward, from
-each one's own month: the first, the bride dies; the second good and
+Counting the months from the bride's own year's month, forward for a
+male year and backward for a female year (open question 56, settled
+2026-10-19, below): the first, the bride dies; the second good and
 auspicious; the third, children die, bad for the kin; the fourth, the
 bride's household and the in-laws «གཉན་ཁ» bad; the fifth, the parents
 quarrel; the sixth, the husband dies; the seventh like the first. Remedies
@@ -917,3 +918,25 @@ are those whose lot is the end of the line.
   30's «ཎི་ཤ་ལོག་གྱུར་མ་གྱུར» (vol. 2, p. 152, etext) is the same test. The
   dictionary is a lexicon, quoted here for the word only; the snippet was
   not read on a page image.
+
+## Settled, 2026-10-19 (open question 56)
+
+- **«ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ»: the bride's year, male or female.** Dpal bsdus
+  (དཔལ་བསྡུས, dpal bsdus, b. 1966), *'Byung rtsis dpyad don rmad byung ut+pal
+  sngon po'i do shal* (BDRC etext VEIE0OPI6328F058_I4767, p. 251, printed
+  p. 229; etext only), restating ch. 23's month with a gloss:
+  «ཟླ་བའི་རྫོང་ལུགས། བག་ལོ་གང་ཡིན་དང་པོར་བཟུང་། །ལོ་སྦུབ་ལ་མོ་ལོ་བཀན། ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། །རང་རང་ཟླ་བས་བག་མ་འཆི། དཔེར་ན་བྱི་ལོ་བྱི་ཟླ་དང་། །གླང་ལོ་གླང་ཟླར་བརྫང་བ་ངན།»,
+  "the month of sending: take whatever the bride's year is as the first;
+  a [male] year counted down, a female year up: 'the male year forward,
+  the female year back'; in each one's own month the bride dies: for
+  example, a bride of a mouse year sent in the mouse month, of an ox
+  year in the ox month, is bad". So the count starts from the month of
+  the bride's own year animal, "the first", and «ཕོ་ལོ», «མོ་ལོ» are the sex
+  of her year (as WB's notes say of the thirty, p. 533: by the year's
+  sex, not the person's), not the man and the woman. The same work goes
+  on «བདུན་པ་རང་ཟླ་བཞིན་དུ་ངན། སྐྱེ་ཟླའི་བདུན་ཟུར་འཕྲོད་པ་ངན།», the seventh is bad like
+  her own month, the opposite of the birth month. *Bod kyi skar rtsis rig
+  pa'i rnam bzhag* (BDRC VEIE0OPI822BDD9D_I1KG21870, search-only snippet)
+  reads it the same way with an example: «ཟླ་བ་ནི། ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། ཅེས་པ་ཡིན་པས། ཕོ་ལོ་བྱི་བ་དང་རྟ་ལོ་པའི་བུ་མོ་ཡིན་ན་དེའི་མདུན་གྱི་ཟླ་བ་གླང་…»,
+  for a girl of a male year, the mouse or the horse, the month in front,
+  the ox, …; and KD has the verse (BDRC snippet, «ཟླ་བའི་རྫོང་ལུགས་བཤད་པ། …ཕོ་ལོ་མདུན་དང་མོ་ལོ་གྲུབ།»).

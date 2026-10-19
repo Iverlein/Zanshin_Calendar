@@ -354,7 +354,7 @@ the text, not about the app.
     its anomaly) or a planet's, and which places the second compares are
     not said.
 
-19. **WB vol. 2, p. 356 (img. 364): on which hours do birth and aging
+19. **Answered as far as the sources go, 2026-10-19. WB vol. 2, p. 356 (img. 364): on which hours do birth and aging
     and death fall, and when do the links run backward?** The verse sets
     the twelve links on the times of day and night, «རྟེན་འབྲེལ་དུས་དང་སྦྱར་བ་ནི། །མ་རིག་ནམ་ཕྱེད་འདུ་བྱེད་ཡོལ། །རྣམ་ཤེས་ཐོ་རངས་མིང་ནམ་ལངས། །སྐྱེ་མཆེད་ཉི་ཤར་རེག་དྲོས་འཇམ། །ཚོར་བ་ཉི་ཕྱེད་སྲེད་ཕྱེད་ཡོལ། །ལེན་པ་སྨྱུར་སྨད་སྲིད་ཉི་རྒས། །རྒ་ཤི་སྲོད་འཁོར་སྐྱེ་སྲོད་ཡོལ། །དེ་ཉིད་ལུགས་འབྱུང་ལུགས་ལྡོག་བཀོད།།»
     (read on the scan 2026-10-11, [day-letters.md](day-letters.md)),
@@ -366,6 +366,17 @@ the text, not about the app.
     reverse for the metre? And «ལུགས་འབྱུང་ལུགས་ལྡོག»: the links run forward and
     backward on the hours, but by what, the month's halves (as vol. 1's
     table runs them, pp. 150–153), day and night, or the person?
+    *Answered as far as the sources go, 2026-10-19 ([day-letters.md](day-letters.md),
+    *The links on the hours*): «སྲོད་ཡོལ» is the stretch from the end of dusk to
+    midnight (Tshig mdzod chen mo), which holds the dog's and the pig's hours;
+    with every other hour taken by a link, birth's is the dog's. It is not
+    the metre alone: Rnga rgod Nam mkha' seng ge's *Sman rtsis* restates the
+    verse in prose with the same order, «རྒ་ཤི་སྲོད་འཁོར། སྐྱེ་བ་སྲོད་ཡོལ།», and glosses
+    the last line «དེ་ཉིད་ལུགས་འབྱུང་བརྩི་ཚུལ་ཡིན་ལ། ལུགས་ལྡོག་བཀན་ནས་བརྩི།»: the forward
+    order as set out, the reverse counted upward. The line's last word is
+    «བཀེན», not «བཀོད» (WBZ img. 1110; the 1996 print at 8×). When the reverse
+    is used, by the month's halves, day and night or the person, no text
+    read says.*
 
 20. **WB vol. 1, p. 154 (img. 164): which "nine" are drawn in at the
     winter solstice?** The model almanac's 11th month head writes, after
@@ -377,6 +388,12 @@ the text, not about the app.
     spans from the solstice? And what is *phyur* in p. 176's two lines on
     drawing the earth lords' charts, the month's «མ་ཕྱུར་རུང་ཙམ» and the year's
     «མ་ཕྱུར་གྱུར་ཀྱང་འགལ་མ་མེད»: "if not drawn in full"?
+    *Answered for the nine, 2026-10-19 ([month-entries.md](month-entries.md),
+    *The nine, settled*): the count of nine-day spans after the solstice.
+    Tshig mdzod chen mo defines «དགུ་འདྲེན» as «དགུན་ཉི་ལྡོག་པའི་རྗེས་སུ་ཉིན་དགུ་དགུར་བརྩིས་ནས་གྲང་ངད་ཆེ་བའི་དུས་ཚིགས་འདྲེན་པའི་སྲོལ།»,
+    and two lives name the coldest season «དགུན་དགུ་འདྲེན་པའི་སྐབས». *phyur* is
+    open: *'phyur* is to rise, swell or heap up, which fits "not drawn out
+    in full" without a gloss of the line.*
 
 21. **WB vol. 1, p. 249 (img. 259): why does the older system's sum
     come to 440?** Ch. 20 gives the parts of the system ascribed to Khams
@@ -464,6 +481,15 @@ the text, not about the app.
     slayer" of the middle and last months (read on the scan 2026-10-11,
     RD4, [year-month-earth-lords.md](year-month-earth-lords.md)). Which
     direction is it?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *The light-clearer's grave*): the grave animal of the month's animal.
+    The reckoners' manuals name a month's or a person's «དུར» among the ox,
+    dragon, sheep and dog: WB's own ch. 23 (vol. 1, p. 373) and Dpal bsdus
+    by the triads (the tiger, horse and dog bad in the dog month, and so
+    on, «དེ་དག་དུར་ཁ་རལ་བ་དེ», «རང་དུར་གཤེད་དུར»), Lha mo tshul
+    khrims by the element (the tiger and hare's great grave the sheep). For
+    the first months, tiger, snake, monkey and pig, the triads give the dog,
+    ox, dragon and sheep; which count ch. 31 means is not said.*
 
 29. **WB vol. 2, p. 210 (img. 218): Wangkhyi's «གླང་གི་ཉི་མ་དུས་ཚོད་ལ».** Does
     Wangkhyi (ཝང་ཁྱི, wang khyi) face its direction at the ox's hour of
@@ -674,10 +700,16 @@ the text, not about the app.
     starts from Anurādhā, not Pūrvaphalgunī (2026-10-12, RD15,
     [marriage.md](marriage.md)).
 
-56. **WB vol. 1, p. 372 (img. 382): the bride's months,
+56. **Answered 2026-10-19. WB vol. 1, p. 372 (img. 382): the bride's months,
     «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ».** Is the man's count forward and the woman's
     backward from the birth month, and does "the first" mean her own birth
     month (2026-10-12, RD15, [marriage.md](marriage.md))?
+    *Answered 2026-10-19 ([marriage.md](marriage.md), *Settled,
+    2026-10-19*): the count is the bride's alone, forward if her year is
+    male, backward if female, from the month of her own year animal, which
+    is "the first". Dpal bsdus: «བག་ལོ་གང་ཡིན་དང་པོར་བཟུང་། …ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། །རང་རང་ཟླ་བས་བག་མ་འཆི། དཔེར་ན་བྱི་ལོ་བྱི་ཟླ་དང་། །གླང་ལོ་གླང་ཟླར་བརྫང་བ་ངན།»;
+    *Bod kyi skar rtsis rig pa'i rnam bzhag* gives a mouse-year girl the ox
+    month in front.*
 
 57. **Answered 2026-10-18. WB vol. 1, p. 373 (img. 383): the date «བདུན་གསུམ».** The 7th and 3rd,
     or the 21st (2026-10-12, RD15, [marriage.md](marriage.md))?
@@ -731,6 +763,10 @@ the text, not about the app.
     (SKY Press) carry KL's chapter on the la and its tables, and *The
     Tibetan Book of Health* any la course or dates to avoid? Neither was
     seen (2026-10-12, RD7, [health.md](health.md)).
+    *Narrowed 2026-10-19 ([health.md](health.md), *Narrowed, 2026-10-19*): a
+    description of *Tibetan Healing Massage* (an interview with the author)
+    says it treats the la and how to guard it; the book itself was not
+    seen, so whether it carries KL's tables is still open.*
 
 63. **Answered 2026-10-18. RS and SY.** Is the Rebkong anthology that copies SY, named in
     [personal-mansions.md](personal-mansions.md) under *The mansion of
@@ -952,6 +988,10 @@ the text, not about the app.
     put the Explanatory Tantra's daily conduct (ch. 13) on p. 78 after its
     conduct by the season (ch. 14) on p. 50 (KL pp. 98 and 61, notes)
     (2026-10-12, RD8, [health.md](health.md)).
+    *Narrowed further 2026-10-19 ([health.md](health.md), *Narrowed,
+    2026-10-19*): «ལྕགས་པར» is metal type, «ལྕགས་ལས་བཟོས་པའི་ཡིག་འབྲུའི་འཕྲུལ་པར།» (Tshig mdzod
+    chen mo), against «ཤིང་པར», woodblock: a typeset edition, not the Chakpori
+    blocks. Which one is still open.*
 
 87. ~~KL p. 199: «ཉིན་དགོང་མཚན་དགོང».~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): both prints read on the scan have «ཉིན་གུང་མཚན་གུང»; KL p. 199 slips.* The question as it stood: Bile rises so in KL, where the Four
     Tantras in two machine texts and KL's own p. 55 have «ཉིན་གུང་མཚན་གུང»,
@@ -1016,11 +1056,17 @@ the text, not about the app.
     «བོན»)? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
     *Answered 2026-10-18 night ([year-of-life.md](year-of-life.md)): «བནྡེ», not «བརྗེ»: «ལྔ་སེར་བནྡེ་དྲུག་དཀར་བོན» on the 1996 scan (img. 418, at 10×) and the Zhol print (WBZ img. 537). The five-yellow is the Buddhist monks' two-black, the six-white the Bon priests'; the list gives each kind of person's mewa.*
 
-95. **The notes' «མ», vol. 2, p. 493.** The notes, vol. 2, p. 493:
+95. **Answered 2026-10-19. The notes' «མ», vol. 2, p. 493.** The notes, vol. 2, p. 493:
     «སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི»
     — is «མ» the mother's year (counted from the mother's year up to 45,
     from the father's from 54), and is it the parents' age that is counted
     for the child? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+    *Answered 2026-10-19 ([year-of-life.md](year-of-life.md), *Settled,
+    2026-10-19*): yes to both. Lha mo tshul khrims's *rdel 'grem* manual (MW1KG21818,
+    p. 95, read on the scan, and p. 96) counts the birth disgrace on the
+    parents' ages at the birth: born at the mother's 18th, 27th, 36th or
+    45th year, «མ་ལོ་བཅོ་བརྒྱད་ཀྱི་སྟེང་སྐྱེས་ན་…», or at the father's 54th, 63rd, 72nd or
+    81st, «ཕ་ལོ་ང་བཞི་ལ་སྐྱེས་པ་…».*
 
 96. **Answered as far as the sources go, 2026-10-18. Who counts as the household.** The household round (WB vol. 1, p. 385;
     the notes, vol. 2, p. 490): is the household the people living in the
@@ -1030,7 +1076,7 @@ the text, not about the app.
     *Narrowed 2026-10-18 night ([year-of-life.md](year-of-life.md)): the notes (p. 492, read on the scan) count others living in the house: the spouses' obstacle «ཁྱོ་ཤུག་ལས་གཞན་རབ་བྱུང་སོགས་ལ་མེད་ཀྱང་། ཁྱིམ་གཅིག་ལ་ཟམ་ཐུག་གི་ཉེས་པ་ཙམ་ཡོད». A member who died is not addressed.*
     *Answered 2026-10-18 late night ([year-of-life.md](year-of-life.md)): WB counts the members of one house («བཟའ་ཚང་ཁྱིམ་གཅིག»); the notes add, as some reckoners' advice, those gathered abroad and those at home that year (p. 491, read on the scan). Neither speaks of a member who died during the year (searched). BDRC's search finds no other reckoner on the point (six phrases searched).*
 
-97. **The thirty's 4th, 7th and 11th places.** WB vol. 1, p. 453 (img. 463):
+97. **Answered 2026-10-19. The thirty's 4th, 7th and 11th places.** WB vol. 1, p. 453 (img. 463):
     from where are the fourth, seventh and eleventh places counted? The
     notes (p. 532) read «དེ་ཡི་ཡར་བཞིའི་སྲོག་ལ་བརྩི་བྱའི་སྲོག་གིས་འཐབ»: the
     life force of the fourth upward from the year reached is fought by the
@@ -1038,13 +1084,30 @@ the text, not about the app.
     meant (the fourth upward's life force, the fourth downward's body), or
     the year reached against the person's at those distances? (2026-10-12,
     RD17, [reckonings.md](reckonings.md))
+    *Answered 2026-10-19 ([reckonings.md](reckonings.md), *Settled,
+    2026-10-19*): each place's own aspect, fought by the person's of the
+    same kind. Dharmaśrī's *Moonbeams* (DZ f. 15a, read on the scan) lays
+    one pebble "where the person's life force fights the life force of the
+    fourth upward and downward", the body the seventh's body, the power the
+    eleventh's power, the luck the base year's luck; WB's verse, which the
+    *rdel 'grem* manuals copy, ends «སྲོག་ལུས་དབང་རླུང་དག་གིས་འཐབ»: the person's life
+    force, body, power and luck fight them. The two share the places out
+    differently, and DZ counts from the starting point's base year, WB from
+    the year the person's age reaches.*
 
-98. **The son's pebble colour.** WB vol. 1, p. 454 (img. 464): the thirty's
+98. **Answered as far as the sources go, 2026-10-19. The son's pebble colour.** WB vol. 1, p. 454 (img. 464): the thirty's
     rule of colour makes the son's meeting black («ནང་ཕྲད་དཀར་དང་བུ་དགྲ་དང་།
     །ཤིང་ལྕགས་མེ་གསུམ་ནང་ཕྲད་ནག»), where ch. 25 (vol. 1, p. 417) lays a
     white and a black for the son, and ch. 27 (vol. 2, p. 3) black again; is
     the son's pebble black in the starting-point reckonings and mixed in the
     illness reckoning? (2026-10-12, RD17, [reckonings.md](reckonings.md))
+    *Answered as far as the sources go, 2026-10-19 ([reckonings.md](reckonings.md),
+    *Settled, 2026-10-19*): yes. The manuals keep two rules: the thirty
+    («བལ་མོ་ལྡིང་སྐོར») lay one pebble a contest, the son black with the enemy
+    (Lha mo tshul khrims, as WB p. 454); the twenty-four cuttings and
+    splittings lay the son a white and a black, «བུ་དང་ཕྲད་ན་དཀར་ནག་ཟུང་» (Co ne Grags
+    pa bshad sgrub, Lha mo tshul khrims, Zhe chen rgyal tshab, and others),
+    as ch. 25 does.*
 
 99. **Answered 2026-10-18. «བརྒྱུ».** WB vol. 2, p. 156 (img. 164):
     «ཉིན་ཚད་ཆུ་ཚོད་བརྒྱུ་ཡིས་བགོས»: is «བརྒྱུ» a misprint for བརྒྱད, eight,
@@ -1056,11 +1119,16 @@ the text, not about the app.
     «ཉིན་ཚད་ཆུ་ཚོད་ཀླུ་ཡིས་བགོས»: ཀླུ, the nāgas, for eight, as the notes'
     «ཉིན་ཚད་བརྒྱད་དུ་བགོས» say. The earlier transcription misread the stack.*
 
-100. **«ར་བཞི» in the moment's mewa.** WB vol. 2, p. 535 (img. 543):
+100. **Answered 2026-10-19. «ར་བཞི» in the moment's mewa.** WB vol. 2, p. 535 (img. 543):
     «སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར»: which
     four months are «ར་བཞི», and does the first date of each group of four
     begin with 1 white, 4 green and 7 red? (2026-10-12, RD17,
     [reckonings.md](reckonings.md))
+     *Answered 2026-10-19 ([reckonings.md](reckonings.md), *Settled,
+     2026-10-19*): the four first months of the seasons, and yes. The line is
+     WB's own rule of the first date's mewa (vol. 1, p. 178, «སྨེ་བ་ར་བཞིར་གཅིག་དཀར་ཚེས། །འབྲིང་བཞི་བཞི་ལྗང་མཐའ་བཞི་བདུན།»),
+     read in almanac-page.md and matched by the app on every first date of
+     2000–2049 with the Chinese seasons.*
 
 101. **The hand reckoning's «ལུ».** WB vol. 2, p. 538 (img. 546): the hand
     reckoning, «ལག་རྩིས་ལུ་བཞིན་གྱི་མོ»: who or what is «ལུ» (Lü?), and
@@ -1179,11 +1247,18 @@ the text, not about the app.
      small stars («གྲུལ་པོ(༧)», Rgyal's «རྒྱལ་མོ་གྲུལ་མོ», then *sri rta*, *rkang
      gnyis*, *tsho za*, *bum ldan*, *skar drug*).*
 
-115. **The six kinds and the 360 sri texts.** In WB vol. 2, pp. 83–84, are
+115. **Answered 2026-10-19. The six kinds and the 360 sri texts.** In WB vol. 2, pp. 83–84, are
      the six kinds set apart («ཤང་དཀར་གྲགས་པ་གྲགས་རྒྱལ་དང༌། །བྱིན་ཤ་ཅུང་ཟན་མོན་ལུག»)
      kinds of dead infant by age, and are the "three hundred and sixty sri
      texts" (སྲི་གཞུང, sri gzhung) a known body of texts? (2026-10-12, O6,
      [sri.md](sri.md))
+     *Answered 2026-10-19 ([sri.md](sri.md), *Settled, 2026-10-19*): yes,
+     dead infants by stage of growth, defined by WB itself on vol. 2, p. 73
+     (read on WBZ img. 731): the *shang dkar* «ཟླ་བ་རྡིབ», the *grags pa* «སྐད་མ་ཐོན་པ»
+     (before its voice comes), the *grags pa rgyal* once it has, the *'bun zan*
+     whose hand reaches its mouth, the *byin sha* who has walked, the *mon lug*
+     who can play. The "three hundred and sixty" is no known body of texts:
+     the phrase is in WB alone, beside the 360 ways of dying of p. 73.*
 
 116. **One condition or two.** Does WB's «གང་རུང་ཅིག་དང་སྐར་མ་གཅིག །ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན་དུ»
      (vol. 1, p. 64) set one condition (in the sun's mansion and within 135
@@ -1270,6 +1345,13 @@ the text, not about the app.
      «ཟླ་གྲོགས་མེད་པའི་མི»; Dag yig gsar bsgrigs, «ཧྲེང» single): the screen
      is a lone man holding a spear. «གཏོང་ཤེས» is in no dictionary; the work
      is not identified.*
+     *Narrowed further 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+     *The light-clearer's grave and the Knowing What to Send*): a translated
+     earth-lord text. WB cites «གཏོང་ཤེས» six times in ch. 31 beside the *'Byung
+     kun 'dus*, the *Tshangs pa lha rgyud*, the *Gab pa 'phrul 'khor* and the
+     *Rin chen kun 'dus*; the catalogue of the *Sman rtsis rig mdzod chen mo*
+     (MW4CZ354964, Beijing 2017) lists two texts «ས་བདག་གཏོང་ཤེས», "translated by
+     Sems rtse and others". The volume was not found; the text is not read.*
 
 124. **Answered 2026-10-18. The hearth god's *spang skong*.** Which text is the *spang skong*
      (སྤང་སྐོང) of the hearth god's remedy (p. 225)? (2026-10-12, O8,
@@ -1287,6 +1369,12 @@ the text, not about the app.
      which, it is said without a pure source, Pi ling, 'Khor chung and Byi lam
      dwell («ཞག་གི་ལོ་སྟེང་གནས»)? (2026-10-12, O8,
      [earth-lords.md](earth-lords.md), "O8: what the reading by eye changes")
+     *Narrowed 2026-10-19 ([earth-lords.md](earth-lords.md), *Narrowed,
+     2026-10-19*): WB itself uses the words of the day's year-sign, its
+     animal and element: «ཞག་གི་ལོ་འབྱུང་རྣམས་གྱོ་ཁང་རེའུ་མིག་བཞིན» (vol. 2, p. 538,
+     etext), in the golden reckoning of the new translations. Read so, the
+     claim WB rejects is that these lords sit on the day's animal as the
+     year's lords sit on the year's; no text glosses p. 225's line.*
 
 126. **WB's *phyed* and the manuals' *gung*.** WB writes «ཕྱེད་གཉིས་ཟེར་གཉིས»
      where the manuals write «གུང་གཉིས་ཟེར་གཉིས»; are WB's two *phyed* the
@@ -1310,8 +1398,13 @@ the text, not about the app.
      text before it in the volume (etext)? And are its four times of
      change the times "when the four māras move" of WB p. 359? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+     *Narrowed 2026-10-19 ([weighing.md](weighing.md), *Settled, 2026-10-19*):
+     the mantra's words, *māraya jaḥ*, "kill" and the summoning *jaḥ*. Another
+     rite of the same collection (vol. 18) closes «ཆེ་གེ་མོའི་ཛཱི་བཾ་མཱ་ར་ཡ་ཛ», "so-and-so's
+     life: kill, *jaḥ*"; the four times of change are those of the rite of
+     killing. Whether they are WB's times of the four māras is not said.*
 
-129. **The six sessions' *ging*, «ཁྲམ་ལ་འདེབས» and «སོ་ནག».** In the *Rin chen
+129. **Answered 2026-10-19. The six sessions' *ging*, «ཁྲམ་ལ་འདེབས» and «སོ་ནག».** In the *Rin chen
      gter mdzod*'s six sessions, what is the *ging* (གིང) that smiles at
      its prey, what does the Lord of Death do «ཁྲམ་ལ་འདེབས», and what is
      «སོ་ནག» in «དགོང་གྲིབ་སོ་ནག་ངམ་གྱིས་འོང་བ»? (2026-10-13, O9,
@@ -1323,6 +1416,11 @@ the text, not about the app.
      board (ཁྲམ་ཤིང, khram shing) to subdue him (Tshig mdzod chen mo,
      «ཁྲམ་ལ་བཏབ»); the Lord of Death puts his prey on the tally. «སོ་ནག» is
      in the dictionaries only as place names.*
+     *Answered for «སོ་ནག», 2026-10-19 ([weighing.md](weighing.md), *Settled,
+     2026-10-19*): the words divide «དགོང་གྲིབ་སོ། ནག་ངམ»: the *grib so* is the line
+     of the shadows at sunset (Tshig mdzod chen mo; Rangjung Yeshe), *nag ngam*
+     dark and gloomy, as in «དགོང་མོ་གྲིབ་སོ་ནག་ངམ་གྱིས་བྱུང་ནས» in the same collection
+     (vol. 18) and «ཉི་མའི་གྲིབ་སོ་ནག་ངམ་བྱུང་བ» in the *Padma bka' thang*.*
 
 130. **Answered 2026-10-18. The seasons of the thod rgal verse.** Which seasons are
      «དབྱར་མ་སྟོན་དང་དགུན་ཆུང་དཔྱིད» in the *Gdams ngag mdzod*'s verse: is

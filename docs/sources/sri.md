@@ -918,3 +918,33 @@ and rites of the harmful spirits of the dead (sri)" (date 22, «གཏད་ས�
   *dkor bdag* and the *dam sri*; four, the *ma mo*; five, the upper *ma
   mo*; six, the male and female *bdud*. The *dam sri* is the reading of
   three.
+
+## Settled, 2026-10-19 (open question 115)
+
+- **The six kinds are dead infants by their stage of growth, and WB
+  defines them itself.** Ten pages before the list of pp. 83–84, among
+  the kinds of the *bkra* in the reckoning for the dead, WB names the
+  six with their marks (vol. 2, p. 73, img. 81; read on the Zhol print,
+  WBZ img. 731, ll. 2–3, at 2–4×; the 1996 etext has gaps here):
+
+  > སྲིའུ་གསང་བ་ཡང་ཁོལ་ནས། །རིགས་ནི་རྣམ་པ་དྲུག་ཏུ་བཤད། །དེ་ཡང་ཤང་དཀར་ཟླ་བ་རྡིབ། །སྐད་མ་ཐོན་པ་གྲགས་པར་འདོད། །སྐད་ཐོན་ཞག་ཏུ་བསོམས་[?]་པ་ལ། །གྲགས་པ་རྒྱལ་ཞེས་བྱ་བར་བཤད། །འབུན་ཟན་ཞེས་པ་ཁ་ལག་འཕྲོད། །བྱིན་ཤ་གོམ་པ་ཚུགས་པ་སྟེ། །མོན་ལུག་རྩེད་མོ་ནུས་པའོ།
+
+  "The infant sri's secret, further set apart, is taught as six kinds:
+  the *shang dkar*, [one whose] month is broken (ཟླ་བ་རྡིབ, *zla ba rdib*); the
+  *grags pa*, held to be one whose voice has not yet come out; one whose
+  voice has come out and … days [the third word not made out], called
+  *grags pa rgyal*; the one called *'bun zan*, whose hand reaches the
+  mouth; the *byin sha*, who has set down steps; the *mon lug*, who can
+  play." So the kinds run from a child who died within its first month
+  to one old enough to play, as p. 84's two dates («གྲགས་པ་ཟླ་གཅིག་ཚུན་ཆད», «བྱིན་ཤ་ལོ་གཅིག་ཚུན་ཆད»)
+  imply. P. 73 spells the fourth «འབུན་ཟན» (both prints), p. 83 «ཅུང་ཟན».
+  *Zla ba rdib* is the words the Sakya writings use of a foetus lost
+  from the womb, «ཟླ་བ་རྡིབ་སྟེ་མངལ་དེར་མི་གནས་པ» (BDRC snippet), so the *shang dkar*
+  may be the stillborn or the child that did not live a month; not
+  stated.
+- **The "three hundred and sixty" is a count, not a body of texts found.**
+  The same page counts by the *Bkra dpyad gsal ba'i sgron me* (བཀྲ་དཔྱད་གསལ་བའི་སྒྲོན་མེ)
+  «ཤི་ཐབས་སུམ་བརྒྱ་དྲུག་ཅུ་ལ། །འདུར་ཐབས་དྲུག་ཅུ་རྩ་གཅིག་ཡོད།», three hundred and sixty
+  ways of dying and sixty-one ways of burial. «སྲི་གཞུང་སུམ་བརྒྱ» is in WB's prints
+  alone (BDRC full-text search, one hit, and the Gser thang reprint, which
+  reads «མི་གཞུང»).

@@ -1490,6 +1490,41 @@ year is its reaching that year, next to its reaching the seven-corner.
   died during the year (vol. 1, pp. 385–412, and the notes, pp. 490–493,
   searched).
 
+## Settled, 2026-10-19 (open question 95)
+
+- **The birth disgrace is counted on the parents' ages at the birth.**
+  Lha mo tshul khrims (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims), *Nag rtsis rdel
+  'grem 'bras bshad* (BDRC MW1KG21818, [s.l.] 2003, 185 pp.; scans
+  I1KG21886, printed page = image − 8; etext VEIE0OPI9C5B1B35_I1KG21886),
+  its second text, «ཀེག་རྩིས་སོགས་ཀྱི་རྡེལ་འགྲེམ་དཔག་བསམ་ལྗོན་ཤིང་གི་འབྲས་བཤད་ནག་འགྲོས་སུ་བཀོད་པ་འདོད་དགུའི་གཏེར་གྱི་བང་མཛོད»
+  (from p. 76), p. 95 (img. 103, read on the scan) to p. 96 (img. 104 not
+  served; etext):
+
+  > སྐྱེས་མཚང་སྣད་ཀྱི་དགུ་མིག་ནི། མ་ལོ་བཅོ་བརྒྱད་ཀྱི་སྟེང་སྐྱེས་ན་ཉོན་མོངས་ཐང་ཁོལ་གྱི་བུ་ཡིན་པས། སྡུག་བསྔལ་རྒྱུན་མི་འཆད། ཉེར་བདུན་ལ་སྐྱེས་ན་གྲི་རོ་སྒོ་བསྐྱེལ་གྱི་བུ་ཡིན་པས། ཕ་ཁུ་མཚོན་གྱིས་འཆི་བའམ་གློ་བུར་དུ་འཆི་བའི་ངོ༌། སོ་དྲུག་སྐྱེས་ན་རྗེ་རྒྱལ་གདན་ས་འཕྲོག་པའི་བུ་ཡིན་པས་ལོ་བཞི་ལོན་ནས་འཆི་ངེས་ཡིན། ཞེ་ལྔ་གནམ་གྱི་རྔ་ཟོར་གྱི་བུ་ཡིན་པས། ཕ་ཁུ་རྒན་ལ་རྩུབ། ཕ་ལོ་ང་བཞི་ལ་སྐྱེས་པ་དེ་ཕོ་ལྷ་དུར་འབད་ཀྱི་བུ་ཡིན་པས། ལོ་གསུམ་ནང་དུ་བཀྲ་མི་ཤིས་པ་འབྱུང༌། རེ་གསུམ་ལ་སྐྱེས་ན་གྲི་ཤི་འོང༌། དོན་གཉིས་ལ་སྐྱེས་ན་ས་བདག་བྲང་བརྡུང་གི་བུ་ཡིན་པས། ས་བདག་གི་གནོད་པ་འོང་། གྱ་གཅིག་ལ་སྐྱེས་ན་ཕ་ཁུ་རྔ་ཟོར་གྱི་བུ་ཡིན་པས་ཕ་ཁུ་ལ་རྩུབ།
+
+  "The nine-square of the birth disgrace: one born upon the mother's
+  18th year is a child of affliction's boiling, whose sorrow does not
+  cease; one born at her 27th, a child who sends a blade's corpse out
+  of the door: the father or uncle dies by a weapon or suddenly; one
+  born at her 36th, a child who seizes the lord's throne: he is sure to
+  die once four years old; at her 45th, a child of the sky's drum-*zor*,
+  rough to the old father and uncle. One born at the father's 54th, a
+  child of the male god's grave …: misfortune within three years; at his
+  63rd, a death by the blade comes; at his 72nd, a child of the earth
+  lord beating its breast: harm from the earth lords; at his 81st, a
+  child of the father's and uncle's drum-*zor*, rough to them." So the
+  notes' «དགུ་ལྔ་ཚུན་མ་དང་དགུ་དྲུག་ཕྱིན་ཕ་ཡི་ལོ་ལས་བརྩི» reads as this file took it: «མ»
+  is the mother's year (her age), counted at the nine-multiples up to 45,
+  the father's from 54; and it is the parent's age when the child is
+  born that is counted, the multiples of nine from 18. The same lines
+  stand in the other print of the text (MW21984_2571E2, archive.org) and
+  in *Bzo rtsis zlos gar*, vol. 2 (BDRC snippets).
+- **Witness for open questions 90 and 91, not deciding them.** The same
+  book's first text restates the seven rough obstacles in verse (p. 15,
+  etext p. 23): «སྲི་ངན(༦) ཕ་མེས་ཤི་དུས་ཀྱི། །ལོ་གྲངས་སྤར་སྨེའི་སྟེང་དུ་སླེབ། །རང་སྐྱེས(༧) སྤར་ཁའི་སྟེང་སླེབ་ན། །གསང་ཀེག་རྩུབ་པར་ཤེས་པར་བྱ།»:
+  the forefathers' obstacle as WB has it, and the secret obstacle without
+  WB's «མ་སྤར»; its remedies (p. 93, etext p. 101): «སྲི་ངན་ལ། རྟེན་ལ་མཆོད་པ། སཙྪ། གསོན་གཤིན་ལག་སྦྲེལ་གཅོད་པའི་མདོས། … གསང་ཀེག་ལ། ཚེ་མདོ་དང་གཙུག་ལག་མདོ་བཞི་འདོན།»
+
 ## Open
 
 - The natal trigram needs the mother's birth year, and the father's
