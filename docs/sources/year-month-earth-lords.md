@@ -2280,6 +2280,15 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   corner year whose year mewa, the one set in the centre of the year's
   wheel as the front matter draws it, is the two-black. None of the
   three names a lesser black year or a three-blue.
+- **The lesser black year is the year whose mewa is the three-blue.** The
+  *Collected Astrological and Prognosticatory Texts from Bhutan* (Thimphu,
+  1981; BDRC I1KG11905, etext p. 223, in its marriage manual *Bag rtsis
+  nam mkha'i bu*; etext only) set both on the year's own mewa: «གནམ་ལ་སྨེ་བ་གཉིས་ནག་ཤར། །ལོ་ནག་མཆེ་བ་ཅན་ཞེས་ངན། །གསུམ་མཐིང་ལ་ཡང་དེ་དང་མཚུངས།»,
+  "when the two-black rises on the year, it is called the black year with
+  fangs, bad; on the three-blue it is the same". So WB's «གསུམ་མཐིང་དབུས་སུ་གྱུར་པའི་ཚེ། །…ལོ་ནག་ཆུང་དུ་ཞེས་སུ་བརྗོད།»
+  (p. 189) is the year whose own mewa is the three-blue, set in the
+  centre as the two-black is. The manual's school is not established; it
+  confirms WB's reading and adds nothing to it.
 
 ## The column «ཟླ་ཀླུང» of ch. 13, 2026-10-19 (open question 26)
 

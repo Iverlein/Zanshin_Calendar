@@ -702,7 +702,7 @@ the text, not about the app.
     nine *g.yang gza'*, Dzam la, Skyabs byed, Sgyur byed …", the very list
     WB gives under «ལས་ལ་ཟློད་པ་ཕོ་བྲང་གི་ལྷ»: «ཟློད» stands for «རྩོད», to contend.*
 
-40. **WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
+40. **Answered 2026-10-19. WB vol. 2, p. 189 (img. 197): the black year's sme ba.** Does WB
     mean the two-black in the centre of the year's sme ba wheel, as the
     front matter draws it (vol. 1, pp. 174–176, RD2), and is the lesser
     black year three-blue in the centre (2026-10-11, RD3,
@@ -712,6 +712,10 @@ the text, not about the app.
     «སྨེ་བ་གཉིས་ནག་ལ་སྐྱེས་པའི། །སྟག་སྤྲེལ་ཕག་སྦྲུལ་ལོ་བཞི་ལ། །ལོ་ནག་མཆེ་བ་ཅན་དུ་གྲགས།», and two
     other manuals «གཉིས་ནག་ལ་སྐྱེས་ར་བ་བཞི»: a corner year that comes on the
     two-black. The lesser black year is in none of them.*
+    *Answered for the lesser black year, 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md)):
+    the year whose own mewa is the three-blue. The Bhutan collection of
+    1981 (I1KG11905, etext p. 223) «གནམ་ལ་སྨེ་བ་གཉིས་ནག་ཤར། །ལོ་ནག་མཆེ་བ་ཅན་ཞེས་ངན། །གསུམ་མཐིང་ལ་ཡང་དེ་དང་མཚུངས།»
+    sets both on the year's mewa, as WB's two lines in the same passage do.*
 
 41. **WB's notes vol. 2, p. 534–535 (img. 542–543): the earth lords against the results.**
     Does the tradition weigh an earth lord's prohibition (a work not to be
