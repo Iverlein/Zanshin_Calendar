@@ -696,12 +696,11 @@ grave* cites):
   («ཞག་ལ», "on the days"); pressed down in an otter's or a wolf's skull.
 - p. 117: on the fourteenth «དམ་སྲི་ནག་མོ», the black *dam sri*, bad for
   women who work and for the old.
-- p. 118: a death on the day the etext writes «སྟོང», bad for the whole
+- p. 118: a death on the 30th («སྟོང», *gnam stong*), bad for the whole
   paternal line: «འཕུང་སྲི་རལ་ཅན་སྔགས་འདི་བཟླ།», recite this mantra of the
   maned *'phung sri*.
-- p. 121, deaths by mansion: «བྱ་ཡི་ཐོད་པར་ཤི་སྲི་མནན།» (on the mansion the
-  etext writes «སྒྲོན»), the *shi sri* pressed down in a bird's skull;
-  «སྤྱང་ཐོད་ཤི་སྲི་མནན།» (on «སྒྲུབས»), in a wolf's skull; «ལུག་གི་མགོ་ལ་ཤི་སྲི་སྒྲུབ།»,
+- p. 121, deaths by mansion: «བྱ་ཡི་ཐོད་པར་ཤི་སྲི་མནན།» (on Jyeṣṭhā, «སྒྲོན»), the *shi sri* pressed down in a bird's skull;
+  «སྤྱང་ཐོད་ཤི་སྲི་མནན།» (on Mūla, «སྒྲུབས»), in a wolf's skull; «ལུག་གི་མགོ་ལ་ཤི་སྲི་སྒྲུབ།»,
   the *shi sri*'s rite on a sheep's head.
 
 ### Vol. 2, pp. 137–139 (img. 145–147): the dead child sent back
@@ -879,8 +878,11 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 - Vol. 1, p. 456: the *dar sri* check is the third starting point's, the
   fourth following it on the Gser thang reprint (img. 451); *settled
   2026-10-19*.
-- Doubt: vol. 2, pp. 118 and 121: the day «སྟོང» and the mansions «སྒྲོན»
-  and «སྒྲུབས» not identified.
+- Vol. 2, pp. 118 and 121, *identified 2026-10-19* by the order of the
+  lists (etext): the dates run «…ཉི་ཤུ་བརྒྱད་ལ། …ཉི་ཤུ་དགུ་ལ། …སྟོང་ལ་མི་ཤི», so «སྟོང» is the
+  30th (*gnam stong*), the weekdays following; the mansions run «ས་ག …
+  ལྷ་མཚམས … སྒྲོན … སྒྲུབས … ཆུ་སྟོད», so «སྒྲོན» is Jyeṣṭhā (*snron*, WB's
+  «སྒྲོན(༡༧)» elsewhere) and «སྒྲུབས» Mūla (*snrubs*).
 
 ### Searched and not found
 
