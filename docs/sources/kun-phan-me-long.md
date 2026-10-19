@@ -228,6 +228,14 @@ yearly elements and img. 87–101 as woodcuts of animals).
 | 17 | 103–104 | when the earth lords move, by Hor month and date |
 | 18 | 105–118 | remedies (*sgrib bcos*) for the earth lords of the month, the planets, the mansions, the date, *spar sme*, the *gnam sgo* and the earth lords in general |
 
+- **§18's sources, 2026-10-19** (Yigdzin-1 on img. 107–120, BDRC labels;
+  BDRC full-text search): the trigram and sme ba remedies (img. 115–116)
+  are WB vol. 2, pp. 367–368 word for word ([lunar-day-signs.md](lunar-day-signs.md));
+  the remedies for the twelve day animals (img. 113–115, «སྟག་ཉིར་སྟག་ལྤགས་རས་མའམ། …»,
+  «སྦྲུལ་ཉི་བག་མའི་ཞྭ་ནང་དུ། …», «ལུག་ཉི་སྨན་ཕུད་སྨན་པར་སྦྱིན། …») are in no etext of
+  WB, KD or Lha mo tshul khrims; BDRC finds them only in a 2006 manual,
+  'Bro'i sbyin pa's *'Bras rtsis bar gsal li dwangs ma'i me long*
+  (MW1KG21827, search only), which follows KP. Their source is not found.
 - **119:** colophon (written out above: the White Beryl's *'bras rtsis*
   section, recarved at Lhasa after a fire); **120** blank.
 
