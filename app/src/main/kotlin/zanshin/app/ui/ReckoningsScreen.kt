@@ -69,6 +69,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
         when (shown) {
             null -> ReckoningList(person, shownYear, onPeople, back) { shown = it }
             Reckoning.BIRTH -> BirthView(person, onPeople, back, open)
+            Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
         }
     }
@@ -130,6 +131,16 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.MATCH -> {
+                val m = Reckonings.match(person)
+                ScreenLinkRow(
+                    stringResource(R.string.match_title),
+                    if (m == null) stringResource(R.string.reckonings_match_needed)
+                    else labels.string(R.string.reckonings_match_subtitle, m.spouseName.ifBlank { stringResource(R.string.match_spouse) }),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.YEAR_OF_AGE -> {
                 val sign = YearOfLife.yearSign(year)
                 ScreenLinkRow(
@@ -162,6 +173,23 @@ private fun BirthView(person: Person?, onPeople: () -> Unit, onBack: () -> Unit,
                 ClanSection(person, onOpen)
             }
             else -> BirthReckoningView(person, b, onOpen)
+        }
+    }
+}
+
+/** The marriage match of [person] and their spouse (SPEC §5.9.3, ROADMAP R3), or what it needs. */
+@Composable
+private fun MatchView(person: Person?, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    val m = remember(person) { person?.let { Reckonings.match(it) } }
+    Header(stringResource(R.string.match_title), person?.let { personLabel(it) }, onBack)
+    Body {
+        when {
+            person == null -> NoPerson(onPeople)
+            m == null -> {
+                Text(stringResource(R.string.match_needed), style = body.copy(fontSize = 15.sp, lineHeight = 21.sp, color = Palette.muted), modifier = Modifier.padding(top = 12.dp))
+                ScreenLinkRow(stringResource(R.string.menu_people), stringResource(R.string.health_choose_person), onPeople, Icons.Person)
+            }
+            else -> MatchReckoningView(m, onOpen)
         }
     }
 }

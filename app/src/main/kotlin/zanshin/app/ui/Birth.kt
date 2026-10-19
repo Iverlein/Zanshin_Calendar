@@ -308,7 +308,7 @@ fun ClanSection(person: Person, onOpen: (Annotation) -> Unit) {
     )
 }
 
-private fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
+internal fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
 
 private fun trigramName(t: Trigram) = Ewts.named(t.english, t.wylie)
 

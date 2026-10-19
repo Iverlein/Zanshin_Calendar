@@ -4,6 +4,7 @@
 
 package zanshin.app
 
+import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.BirthReckoning
@@ -24,7 +25,7 @@ import zanshin.core.tibetan.YearReckoning
  * The element reckonings built, as the Reckonings screen lists them (SPEC §10.11, ROADMAP R1), in the order of
  * docs/sources/reckonings.md's inventory. Each one built after R1 (R2…) is added here.
  */
-enum class Reckoning { BIRTH, YEAR_OF_AGE }
+enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE }
 
 /**
  * The reckoning of [person]'s birth as far as it is built (ROADMAP R2): the natal trigram, their [mother]'s trigram in
@@ -42,6 +43,12 @@ data class BirthReading(
     val fatherTrigram: Trigram?,
     val omens: List<BirthOmen>,
 )
+
+/**
+ * The marriage match (ROADMAP R3) of [person] with their spouse [spouseName]: the man's and the woman's Tibetan birth
+ * years and signs, whichever of the two the person is.
+ */
+data class MatchReading(val spouseName: String, val manYear: Int, val man: Sign, val womanYear: Int, val woman: Sign)
 
 /** What the Reckonings section reckons for a person, apart from the screen that shows it. */
 object Reckonings {
@@ -76,6 +83,22 @@ object Reckonings {
             born.year, birth, vitality, mother, natal, BirthReckoning.child(vitality, natal), father, fatherTrigram,
             BirthReckoning.omens(natal, birth.animal, person.gender, mother.birth!!.animal, fatherTrigram),
         )
+    }
+
+    /**
+     * The marriage match of [person] with the first spouse entered under them whose birth year is known (ROADMAP
+     * R3); null without one, or without the person's gender and the spouse's (the spouse taken as the other sex
+     * where theirs is not set).
+     */
+    fun match(person: Person): MatchReading? {
+        val gender = person.gender ?: return null
+        val spouse = person.relatives.list.firstOrNull { it.of == null && it.relation == Relation.SPOUSE && it.birth != null } ?: return null
+        val spouseGender = spouse.sex ?: if (gender == Gender.MALE) Gender.FEMALE else Gender.MALE
+        if (spouseGender == gender) return null
+        val own = TibetanCalendar.of(person.birth).let { it.year to Sign(it.yearElement, it.yearAnimal) }
+        val theirs = spouse.birth!!.tibetanYear.let { it to YearOfLife.yearSign(it) }
+        val (man, woman) = if (gender == Gender.MALE) own to theirs else theirs to own
+        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second)
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */

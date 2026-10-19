@@ -28,7 +28,7 @@ class ReckoningsTest {
     @Test
     fun `the list needs a person`() {
         assertEquals(emptyList<Reckoning>(), Reckonings.built(null))
-        assertEquals(listOf(Reckoning.BIRTH, Reckoning.YEAR_OF_AGE), Reckonings.built(person))
+        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE), Reckonings.built(person))
     }
 
     @Test
@@ -111,5 +111,20 @@ class ReckoningsTest {
         assertNull(Reckonings.clanYear(person))
         assertEquals(zanshin.core.tibetan.ClanYear.FRIEND, Reckonings.clanYear(person.copy(clan = zanshin.core.tibetan.Clan.KEG)))
         assertEquals(zanshin.core.tibetan.ClanYear.GREAT_PENALTY, Reckonings.clanYear(person.copy(clan = zanshin.core.tibetan.Clan.KUNGS)))
+    }
+
+    /** The match needs the person's gender and a spouse's year; the man and the woman are told apart whichever the person is. */
+    @Test
+    fun `the marriage match from the spouse's year`() {
+        assertNull(Reckonings.match(person))
+        val wife = Relatives().put(Relative(0, null, Relation.SPOUSE, birth = Moment(1979)))
+        assertNull(Reckonings.match(person.copy(gender = null, relatives = wife)))
+        val m = Reckonings.match(person.copy(gender = Gender.MALE, relatives = wife))!!
+        assertEquals(zanshin.core.tibetan.Animal.DRAGON, m.man.animal)
+        assertEquals(zanshin.core.tibetan.Animal.SHEEP, m.woman.animal)
+        val husband = Relatives().put(Relative(0, null, Relation.SPOUSE, birth = Moment(1979)))
+        val w = Reckonings.match(person.copy(gender = Gender.FEMALE, relatives = husband))!!
+        assertEquals(zanshin.core.tibetan.Animal.SHEEP, w.man.animal)
+        assertEquals(zanshin.core.tibetan.Animal.DRAGON, w.woman.animal)
     }
 }
