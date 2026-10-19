@@ -925,6 +925,14 @@ the text, not about the app.
     is the bladder (ལྒང་པ, lgang pa), the place sits oddly between the
     night's whole body and the neck at sunrise. What is it (2026-10-12, RD7,
     [health.md](health.md))?
+    *Answered as far as the sources go, 2026-10-19 ([health.md](health.md)):
+    the feet, «རྐང་བ», which KL spells by sound. Every course of the la by
+    the hour found puts it in the feet at daybreak and in the neck at
+    sunrise: WB vol. 2, p. 304 («ནམ་ལངས་རྐང་གཉིས་ཉི་ཤར་མཇིང»); the *Rin chen gter mdzod*
+    («ཡང་ནམ་ལངས་རྐང་པ་གཉིས་ལ་གནས་སོ། ཉི་ཤར་མཇིང་པ་ལ་གནས་སོ།»); and "Ācārya Padma's *Chung dpyad*", quoted
+    in Skyem pa Tshe dbang's *Rgyud bzhi'i rnam bshad* and the *Phyi ma
+    rgyud kyi rnam par bshad pa lag len gsal byed*: «གསང་བ་དུས་ལ་བསྟེན་ཏེ་གནས་པ་ནི། ནམ་ལངས་རྐང་པ་ལ་གནས། ཉི་ཤར་མཇིང་པ་ལ་གནས།…»
+    (BDRC snippets). None has «ལྒང».*
 
 61. ~~**KL p. 256: Friday's first burning date.**~~ *Answered 2026-10-12
     (RD10, [health.md](health.md)): WB has the 2nd and 17th (vol. 1, p. 177;
