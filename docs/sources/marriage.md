@@ -119,6 +119,14 @@ Pūrvaphalgunī (གྲེ, gre) upward, and for year, month, date and hour, the
 on the single and the woman on the hidden cycle, each by their own year,
 month, day and hour: that is the year's *kham yu*.
 
+The Taikhang print (I5877, img. 494–495; Yigdzin-1's reading, placed on
+p. 365 by its shingles, not checked by eye) has the same two cycles, the
+woman's opening «མོ་སྐོར་ཁུག་པའི་གབ་ཚེ་ནི། །ལྷ་མཚམས་ཉི་མ་རབས་ཆད་དམར།», and the
+same two statements, «ཕོ་ནི་སྐར་མ་སྨིན་དྲུག་ནས། །ཐུར་ལ་རང་ལོས་དུ་ལོན་བགྲངས། །བུད་མེད་སྐར་མ་གྲེ་ཐོག་ནས། །ཡར་དེད་གར་བབས་བཟང་ངན་སྟོན།»
+(2026-10-19, open question 55). The second statement's Pūrvaphalgunī
+against the woman's table starting at Anurādhā is therefore the work's,
+not a misprint of the 1996 edition.
+
 Three ways of sending: the one-eyed Yele bride (ཡེ་ལེ་སྤྱན་གཅིག, ye le spyan
 gcig), the god's wife who carries poison (ལྷ་བཟའ་དུག་ཁྱེར, lha bza' dug
 khyer), and the dmu's wife who blows the conch (དམུ་བཟའ་དུང་འབུད, dmu bza' dung

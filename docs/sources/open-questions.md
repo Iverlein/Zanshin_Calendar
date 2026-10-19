@@ -794,6 +794,11 @@ the text, not about the app.
     own year on the fourteen stations, as the first says? The woman's table
     starts from Anurādhā, not Pūrvaphalgunī (2026-10-12, RD15,
     [marriage.md](marriage.md)).
+    *Narrowed 2026-10-19 ([marriage.md](marriage.md)): the Taikhang print
+    (I5877, img. 494–495, Yigdzin-1's reading) has the same two cycles and the
+    same two statements, the woman «གྲེ་ཐོག་ནས། །ཡར་དེད», so the mismatch with
+    her table's Anurādhā is the work's, not a 1996 misprint. Which count
+    leads is still not said.*
 
 56. **Answered 2026-10-19. WB vol. 1, p. 372 (img. 382): the bride's months,
     «ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ».** Is the man's count forward and the woman's
