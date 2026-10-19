@@ -1004,12 +1004,20 @@ the text, not about the app.
     to WB's own words "one year to a trigram", which WB does not name among
     the errors it rejects (question 139). WB's text gives one a year.*
 
-74. **The father's luck pebble.** WB p. 261 has "whatever the father's
+74. **Answered as far as the sources go, 2026-10-19. The father's luck pebble.** WB p. 261 has "whatever the father's
     luck is", the notes p. 474 the father's year, and the *Moonbeams* (KD
     vol. 3, p. 501, etext only) the father's progressed sign («ཕ་ཡི་ལོག་མེན་གར་
     བབས»); it records a view of five unchanging luck pebbles with the
     mother's trigram twice (p. 502, «ཕ་ཀླུང་མ་ཀླུང་བབས་སྤར་དང༌། །རང་ཀླུང་མ་ཡི་སྤར་ཁ»).
     Which is WB's (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered as far as the sources go 2026-10-19 ([year-of-life.md](year-of-life.md),
+    *The natal trigram*): the father's year. The Taikhang print (I5877, img.
+    342, l. 1, by eye) and the Zhol print (WBZ img. 325, l. 1) have
+    «བརྩི་བྱའི་[ཕ/ཁ]་ལོ་གང་ཡིན་དེ» for the 1996 «ཕ་ལ», and
+    both prints go on «བུ་མོ་ཡིན་ན་ཕ་ལོའི་ཚབ། །མ་ཡི་ལོས་བྱ», for a daughter the
+    mother's year in the father's year's place. So WB reckons the father's
+    luck from his year, as the notes do (p. 474), not from his progressed
+    sign as the *Moonbeams* does.*
 
 75. **Answered 2026-10-18. WB vol. 1, p. 294 (img. 304): «མོ་ལ་ཆུ་ཡི་བདུད་དུ་སོང».** Said of the fire
     horse and snake born on kham, where the parallel lines have «ལྕགས་ལ་མེ་ཡི་

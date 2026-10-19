@@ -340,6 +340,19 @@ father's place: four mother's luck pebbles. And the pebble of the month
 of the birth. These are the five. (The print has «ལོག་མིན» here, with the
 gi gu, checked at 8×; ch. 24 has «ལོག་མེན».)
 
+**The father's year, 2026-10-19 (open question 74).** The Taikhang print
+(I5877, img. 342, l. 1, read by eye at native size) carves «།བརྩི་བྱའི་[ཕ/ཁ]་ལོ་གང་ཡིན་དེ། །བརྩིས་ལ་ཕ་ཀླུངས་གང་ཡིན་དང་།»:
+its second syllable is «ལོ», with the vowel sign plain, where the 1996
+print has «ཕ་ལ». The Zhol print agrees (WBZ img. 325, l. 1, read at 6×;
+Yigdzin-1 reads it «ཕ་ལོ»). The first letter is ཕ or ཁ, not told apart at
+the resolution of either scan. The verse's own later line in both prints, «བུ་མོ་ཡིན་ན་ཕ་ལོའི་ཚབ། །མ་ཡི་ལོས་བྱ…»,
+"for a daughter, in place of the father's year, [the reckoning] is made
+by the mother's year", refers back to a father's year. So the line reads
+«ཕ་ལོ»: reckon the year of the father of the one reckoned, and whatever
+the father's luck (from it) is. This is the notes' reading (p. 474, the
+father's year), not the *Moonbeams*' father's progressed sign; WB's
+first unchanging luck pebble is the father's year's luck.
+
 **The notes** (vol. 2, p. 474, img. 482, read on the scan) say it in
 prose: «མི་འགྱུར་ཀླུང་རྡེལ་ལྔ་ནི། བུ་ཡིན་ན་ཕ་ལོ་དང༌། སྐྱེས་དུས་ཀྱི་མ་ཡི་ལོག་མིན་སྤར་ཁ་སྨེ་བ་གསུམ་དང༌། སྐྱེས་པའི་ཟླ་བ་དང་བཅས་པ་ལྔ་ཡིན། བུ་མོ་ཡིན་ན་ཕ་ལོའི་ཚབ་ཏུ་མ་ལོ་བཞག་པས་མ་ཀླུང་བཞི་སྐྱེས་ཟླ་དང་ལྔའོ།»:
 for a son, the father's year; the mother's progressed sign, trigram and
