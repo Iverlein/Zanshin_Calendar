@@ -150,7 +150,7 @@ object WhiteBerylWorks {
             good = Factors(dates = setOf(1, 2, 11, 12, 13, 15, 18)),
             bad = Factors(dates = setOf(6, 7, 16) + (19..30)),
         ),
-        // 38. Servants, p. 406: the box has the 4th bad and the 14th good, the chapter the reverse; the link feeling good.
+        // 38. Servants, p. 406: the dates as the box has them (read on the scan 2026-10-19); the link feeling good.
         ActivityList(
             "taking_servants",
             good = Factors(dates = setOf(4, 5, 16, 24), links = setOf(Link.FEELING)),

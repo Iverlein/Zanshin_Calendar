@@ -136,10 +136,12 @@ class ElectionalTest {
         // Open question 6: the print names khrums twice for offerings; the chapter, khrums stod good and khrums smad bad (p. 386).
         assertTrue(Mansion.PURVABHADRAPADA in good("offerings_to_deities").mansions && Mansion.ASHVINI in good("offerings_to_deities").mansions)
         assertTrue(Mansion.UTTARABHADRAPADA in bad("offerings_to_deities").mansions)
-        // What the print names on the other side, the chapter decides: the sowing 28th bad (p. 400), the 4th good and
-        // the 14th bad for servants (p. 406), Svātī good for marriage (p. 412), the waxing 9th good for consecration (p. 419).
+        // What the print names on the other side, the chapter decides: the sowing 28th bad (p. 400), Svātī good for
+        // marriage (p. 412), the waxing 9th good for consecration (p. 419).
         assertTrue(28 in bad("sowing").dates && 28 !in good("sowing").dates)
-        assertTrue(4 in good("taking_servants").dates && 14 in bad("taking_servants").dates)
+        // Servants (p. 406): the box, read on the scan, has the chapter's dates; the 8th and 18th are on neither side.
+        assertEquals(setOf(4, 5, 16, 24), good("taking_servants").dates)
+        assertEquals(setOf(3, 6, 7, 9, 10, 11, 12, 13, 14, 21, 22, 23, 25, 26, 27, 28, 29, 30), bad("taking_servants").dates)
         assertTrue(Mansion.SVATI in good("marriage").mansions)
         assertTrue(9 in good("consecration").dates && 2 in good("consecration").dates && 2 !in bad("consecration").dates)
         // War and dice: the tiger and dragon good, the print's box reversed (p. 421).

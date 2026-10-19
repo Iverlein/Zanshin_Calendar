@@ -877,18 +877,20 @@ object Electional {
                 animals = setOf(SNAKE, MONKEY),
             ),
         ),
-        // 41. Taking attendants and servants (img. 48, KP2 img. 269).
+        // 41. Taking attendants and servants (img. 48, KP2 img. 269). The dates as read on the scan on 2026-10-19, the
+        // White Beryl's work 38 date for date: the O10f reading took the 4 for 8, 16 for 14, 24 for 29, «3 6» for «13 4»
+        // and 14 for 18.
         ActivityList(
             "taking_servants",
             good = Factors(
                 weekdays = setOf(MONDAY, WEDNESDAY, FRIDAY),
-                dates = setOf(8, 5, 14),
+                dates = setOf(4, 5, 16, 24),
                 mansions = m(UTTARABHADRAPADA, PUNARVASU, PURVABHADRAPADA, PUSHYA, MAGHA, UTTARAPHALGUNI, MULA, PURVASHADHA, UTTARASHADHA, BHARANI),
                 animals = setOf(HORSE),
             ),
             bad = Factors(
                 weekdays = setOf(TUESDAY, SATURDAY),
-                dates = setOf(11, 12, 13, 4, 7, 9, 10, 18, 21, 22, 23, 25, 26, 27, 28, 30),
+                dates = setOf(11, 12, 3, 6, 7, 9, 10, 13, 14, 21, 22, 23, 25, 26, 27, 28, 29, 30),
                 mansions = m(PURVAPHALGUNI, JYESHTHA),
                 animals = setOf(SNAKE),
                 trigrams = setOf(KHEN),
