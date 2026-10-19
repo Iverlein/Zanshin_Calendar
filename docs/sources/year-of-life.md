@@ -2278,3 +2278,11 @@ white." So:
   WB's «ལོ་གྲངས་སླེབས».
 - **91.** Klong chen, like Lha mo tshul khrims's verse (above), has only
   the birth trigram, «རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན», and nothing for WB's «མ་སྤར་ལི».
+
+**The four precious pebbles, built 2026-10-19** (ROADMAP R2l): p. 262's
+readings («གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ། །གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། །དཀར་ན་རྒྱལ་པོའི་བཀའ་མི་བཀྱོན། …། །དུས་ཚོད་མཚོན་ཆའི་རྡེའུ་ནི། …། །མི་ནོར་ཀུན་ལ་ངན་པར་བཤད།», read on the reprint, I3CN5028
+img. 257, by Yigdzin-1 against the 1996 print, 99 % agreed; «ཁ་སྨྲས»
+where the reprint has «ཁ་སྤྲས»), coloured by p. 260's key pebbles and the
+tie of vol. 2, p. 46 (above). Left out: the minister's white image
+«ལུང་པ་ཕུ་ཐུང་ཙམ་ཞིག་ནས། །སྐད་ནི་ལག་ངར་ཙམ་ཞིག་འདོན», and its black «བློན་པོའི་གྲལ་ནས་ཡར», whose sense is
+not plain; the hour's weapon, the time of birth not being kept.

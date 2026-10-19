@@ -584,6 +584,14 @@ on the scan that follow from the years alone. `BirthReckoning`
   (the luck's, onto the hour, needs the time of birth, not kept); the
   stage reached, of the six bright and six dark, with its reading for
   that aspect.
+- **The four precious pebbles** (pp. 260, 262, with WB's counting
+  rule, vol. 2, p. 46, and the notes, vol. 2, p. 476): the birth year as
+  king, the month as minister, the day as soldier (the hour as weapon,
+  not kept), each white or black by its animal's key pebbles (black
+  growing from the tiger's one to the snake's four, white from the
+  horse's one to the bird's four, the pig white, the mouse black), the
+  dog's and ox's even count a speckled half with no reading.
+  `BirthTest` holds the table.
 - **Raising the child** (pp. 347–348): the child's life force counted
   onto the birth month's animal, its tomb heavy for the father, its womb
   for the mother, its illness and death for the child, flourishing good;
@@ -629,8 +637,7 @@ on the scan that follow from the years alone. `BirthReckoning`
   reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
   needs no relative: without the mother's year the clan is still read.
 
-**Not calculated** yet: the pebbles of the birth (the four precious,
-whose colour rule is open question 160, the pebble of the time, the
+**Not calculated** yet: the pebbles of the birth (the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
 read on the scan; the line of births' other counts; the readings of p. 326 that need the order of
@@ -3389,7 +3396,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   glory · Mewa 6 white, iron · life force earth"), the three of rise
   and decline ("Body · stage of the body complete · earth, counted onto
   the birth month"), under "Raising the child" the month and the day
-  where they fall on a named stage or element ("The birth month · heavy
+  where they fall on a named stage or element, after "The precious
+  pebbles" ("The king's pebble · black · Dragon", or a line for a
+  speckled one) ("The birth month · heavy
   for the mother · A Horse month"), then the
   year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
