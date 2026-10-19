@@ -840,6 +840,10 @@
     <string name="birth_pair_title">Его пара среди тридцати</string>
     <string name="birth_pair_subtitle">%1$s и %2$s</string>
     <string name="birth_mewa_title">Мева рождения</string>
+    <string name="birth_share_title">%1$s · %2$s</string>
+    <string name="birth_share_mewa">Мева</string>
+    <string name="birth_share_subtitle">%1$s: %2$s · триграмма рождения: %3$s, %4$s</string>
+    <string name="birth_share_mewa_subtitle">Мева %1$d %2$s, %3$s · жизненная сила: %4$s</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>

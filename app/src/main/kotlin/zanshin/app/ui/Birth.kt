@@ -31,6 +31,9 @@ import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.SME_BA_COLOURS
+import zanshin.core.tibetan.BirthShare
+import zanshin.core.tibetan.smeBaElement
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
@@ -53,6 +56,19 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         Section(stringResource(R.string.birth_section_natal))
         AnnotationRow(natalTrigramAnnotation(b.birthYear, b.natal, b.mother, labels), onOpen)
         AnnotationRow(childAnnotation(b, labels), onOpen)
+        val forces = Forces.of(b.birth.element, b.birth.animal)
+        val trigramElement = YearOfLife.trigramElement(b.natal)
+        listOf(BirthShare.BODY, BirthShare.DESTINY, BirthShare.LUCK).forEach { share ->
+            val force = share.force!!
+            val element = forces[force]
+            AnnotationRow(
+                shareAnnotation(
+                    share, BirthReckoning.kind(element, trigramElement), trigramElement,
+                    labels.string(R.string.birth_share_subtitle, gloss(force).replaceFirstChar(Char::uppercase), gloss(element, "inText"), Ewts.named(b.natal.english, b.natal.wylie), gloss(trigramElement, "inText")),
+                ),
+                onOpen,
+            )
+        }
 
         PowerSection(person, onOpen)
         ClanSection(person, onOpen)
@@ -144,6 +160,14 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
             reading = Texts.birthMewa(natalMewa),
             subtitle = labels.string(R.string.year_mewa_subtitle, natalMewa, Catalog.text("Colour.${SME_BA_COLOURS[natalMewa - 1]}")),
             titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    val mewaElement = smeBaElement(natalMewa)
+    AnnotationRow(
+        shareAnnotation(
+            BirthShare.MEWA, BirthReckoning.kind(forces.vitality, mewaElement), mewaElement,
+            labels.string(R.string.birth_share_mewa_subtitle, natalMewa, Catalog.text("Colour.${SME_BA_COLOURS[natalMewa - 1]}"), gloss(mewaElement, "inText"), gloss(forces.vitality, "inText")),
         ),
         onOpen,
     )
@@ -283,6 +307,25 @@ private fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_a
 private fun trigramName(t: Trigram) = Ewts.named(t.english, t.wylie)
 
 /** The one born, by the natal trigram's element against the life force (p. 294). */
+/** One of the five that the natal trigram, or the natal mewa, of element [against] makes the share [share] (p. 294). */
+@Composable
+private fun shareAnnotation(share: BirthShare, kind: BirthChild, against: Element, subtitle: String): Annotation = Annotation(
+    title = stringResource(
+        R.string.birth_share_title,
+        share.force?.let { gloss(it).replaceFirstChar(Char::uppercase) } ?: stringResource(R.string.birth_share_mewa),
+        kind.english,
+    ),
+    english = "",
+    tone = when (kind) {
+        BirthChild.PARENTS_GOD, BirthChild.CHILDRENS_GLORY -> Tone.GOOD
+        BirthChild.LIFE -> Tone.MIXED
+        BirthChild.SPIRIT, BirthChild.DEMON -> Tone.BAD
+    },
+    reading = Texts.birthAspect(share, kind, against),
+    subtitle = subtitle,
+    titleIsKanji = false,
+)
+
 private fun childAnnotation(b: BirthReading, labels: Labels): Annotation {
     val element = YearOfLife.trigramElement(b.natal)
     return Annotation(

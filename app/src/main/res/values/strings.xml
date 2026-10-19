@@ -985,6 +985,10 @@
     <string name="birth_pair_title">Its pair among the thirty</string>
     <string name="birth_pair_subtitle">%1$s and %2$s</string>
     <string name="birth_mewa_title">The natal mewa</string>
+    <string name="birth_share_title">%1$s · %2$s</string>
+    <string name="birth_share_mewa">Mewa</string>
+    <string name="birth_share_subtitle">%1$s %2$s · natal trigram %3$s, %4$s</string>
+    <string name="birth_share_mewa_subtitle">Mewa %1$d %2$s, %3$s · life force %4$s</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>
