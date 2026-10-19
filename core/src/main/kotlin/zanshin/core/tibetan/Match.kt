@@ -53,6 +53,9 @@ enum class BadYear(val years: List<Sign>) {
 private fun signs(vararg names: String): List<Sign> = names.map { n -> n.split(" ").let { Sign(Element.valueOf(it[0]), Animal.valueOf(it[1])) } }
 
 
+/** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
+enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
+
 /** The *ni sha* reckoning (p. 359): the man of a male year and older, the woman of a female year and younger. */
 enum class NiSha { GOOD, REVERSED }
 
@@ -86,6 +89,15 @@ object MatchReckoning {
     /** The kind of year both spouses are of, by destiny against life force, when it is the same (p. 351): not to be joined. */
     fun sameKind(man: Sign, woman: Sign): PowerYear? =
         BirthReckoning.powerYear(man).takeIf { it == BirthReckoning.powerYear(woman) }
+
+    /** The planet two spouses born on weekdays [a] and [b] are joined in (p. 360); null on different weekdays. */
+    fun samePlanet(a: Weekday, b: Weekday): MatchPlanet? = if (a != b) null else when (a) {
+        Weekday.SATURDAY -> MatchPlanet.SATURDAY
+        Weekday.SUNDAY, Weekday.TUESDAY -> MatchPlanet.SUN_TUE
+        Weekday.THURSDAY -> MatchPlanet.THURSDAY
+        Weekday.MONDAY, Weekday.WEDNESDAY -> MatchPlanet.MON_WED
+        Weekday.FRIDAY -> MatchPlanet.FRIDAY
+    }
 
     /** The two destinies' elements as a pair, the earlier in [Element]'s order first (p. 357). */
     fun destinyPair(a: Element, b: Element): Pair<Element, Element> = if (a.ordinal <= b.ordinal) a to b else b to a

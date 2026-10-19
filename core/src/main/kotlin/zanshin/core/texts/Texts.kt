@@ -23,6 +23,7 @@ import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
+import zanshin.core.tibetan.MatchPlanet
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.Electional
@@ -392,6 +393,8 @@ object Sources {
     val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
     /** The marriage match's years: the kinds not joined and the bad years (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
+    /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_PLANET = whiteBeryl("chapter 23, p. 360", volume = 1)
     /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH = whiteBeryl("chapter 23, pp. 355–357 and 359", volume = 1)
     /** The line of births (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2058,6 +2061,9 @@ object Texts {
 
     /** Two spouses of the same kind of year [k], not to be joined (WB vol. 1, ch. 23, pp. 351–352). */
     fun matchSameKind(k: PowerYear): Reading = Reading(key = "reading.MatchSameKind", arg = "reading.MatchSameKind.${k.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
+
+    /** Husband and wife joined in the planet [p] (WB vol. 1, ch. 23, p. 360). */
+    fun matchPlanet(p: MatchPlanet): Reading = Reading(key = "reading.MatchPlanet", arg = "reading.MatchPlanet.${p.name}", source = Sources.WHITE_BERYL_MATCH_PLANET)
 
     /** The *ni sha* reckoning [r] (WB vol. 1, ch. 23, p. 359). */
     fun matchNiSha(r: NiSha): Reading = Reading(key = "reading.MatchNiSha", arg = "reading.MatchNiSha.${r.name}", source = Sources.WHITE_BERYL_MATCH)
