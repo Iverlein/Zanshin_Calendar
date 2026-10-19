@@ -537,6 +537,15 @@ on the scan that follow from the years alone. `BirthReckoning`
   Without the child's gender the readings for a son or a daughter are
   left out, without the father's year those that ask for his trigram.
 
+- **The birth year's nature** (pp. 263–271), read whether or not the
+  mother's year is known: the twelve animals in brief, the nature one is
+  born with, the life force's measure at birth; then the birth year among
+  the sixty in full, with its span of life, its number of obstacles and
+  its share of children as far as the year gives them, its illnesses and
+  the spirits that harm. What the text gives as the line's past (deaths
+  in the family, a forefather's body eaten by birds and dogs), its
+  unidentified words and the deaths by one's own blade are not shown
+  (year-of-life.md).
 - **The year's own destiny** (pp. 261, 275–280), one of the two pebbles
   that cannot be lacking: the birth year's destiny, its element, against
   its life force, by its animal: one element *kha yan*, destiny begetting
@@ -576,8 +585,8 @@ on the scan that follow from the years alone. `BirthReckoning`
 whose colour rule is open question 160, the pebble of the time, the
 five of unchanging luck, the hundred, the rise and decline, the decisive
 twenty, pp. 259–262), whose colours and readings past p. 262 are not
-read on the scan; the readings of the sixty years and of the mewa of the
-birth; the line of births; the readings of p. 326 that need the order of
+read on the scan; the readings of the mewa of the birth; the line of
+births; the readings of p. 326 that need the order of
 the siblings or end "and the like" (an earlier child on li and a later
 on khen; mother and child on enemy trigrams); the five by the year
 (p. 347), another count of the same five, not shown beside p. 294's.
@@ -3260,7 +3269,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
   name; the person's birth year and its life force; under "The natal
   trigram" its row (as in the year of age) and the child it makes them;
-  under "The birth year" the year's destiny against its life force
+  under "The birth year" first "The year animal's nature" (its animal
+  under it) and "The sixty years' reading" (the year's sign), then the
+  year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
   and "Whose side it falls on" with the particular reading,
   "A last year" (or first or middle) and "The year's luck triad"; under

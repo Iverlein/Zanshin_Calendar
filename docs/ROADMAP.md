@@ -85,7 +85,7 @@ moves up as soon as it is unblocked.
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
-| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's first part (R2a), its special pebble (R2b) and the year's destiny (R2c) built 2026-10-19 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
+| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's first part (R2a), its special pebble (R2b), the year's destiny (R2c) and the birth year's nature (R2d) built 2026-10-19 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
@@ -3488,12 +3488,28 @@ groups it shows (`tools/emulator/store_shots.py`).
   The cutting and tearing among one's own four aspects followed the same
   day (pp. 281–282, ten pairs, `BirthCut`), with its group cuts (p. 282,
   `GroupCut`), and the full readings of the first, middle and last
-  (pp. 283–284, `YearPlaceFull`, its lines compared with the scan). Next in the chapter: the sixty years
-  (pp. 263–270). Left besides: the pebble of the time; the four precious
+  (pp. 283–284, `YearPlaceFull`, its lines compared with the scan). The sixty years followed as R2d. Left besides: the pebble of the time; the four precious
   pebbles (open question 160). Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,
   *khong nong*) and Russian (a wood tiger, *kha yan*, no mother), the
   release build.
+- **R2d The birth year's nature — built 2026-10-19** (block 31, SPEC
+  §5.9.2, §10.11): the twelve years in brief and the sixty in full
+  (pp. 263–271), read on the 1996 print against the Gser thang reprint
+  (both through Yigdzin-1, every difference read on the scan;
+  year-of-life.md): "The year animal's nature" and "The sixty years'
+  reading" first under "The birth year", families `YearNature` and
+  `SixtyYear` (item R2) in the shape, English and Russian; the span of
+  life, the obstacles and the children in the paragraph, the illnesses
+  and spirits as rows. Left out as the topic file lists: the line's
+  past, unidentified words, the deaths by one's own blade. Checked:
+  `:core:test` (`CatalogTest` over all 72), `:app:testDebugUnitTest`,
+  the emulator in English (a fire dragon, 1976) and Russian (a water
+  snake, 2013): both rows and both sheets. No release build: no enum
+  and no key by class name was added. Next in the chapter: the five
+  bodies of the elements (pp. 271–275), the births on each mewa
+  (pp. 286–293); left besides: the pebble of the time, the four precious
+  pebbles (open question 160).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
