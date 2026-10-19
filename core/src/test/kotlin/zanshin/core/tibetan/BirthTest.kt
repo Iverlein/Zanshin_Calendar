@@ -47,6 +47,10 @@ class BirthTest {
         val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal > a.ordinal }.map { a to it } }
         assertEquals(listOf(Trigram.KHAM to Trigram.ZON), pairs.filter { (a, b) -> MatchReckoning.trigramKind(a, b) == null })
         assertEquals(MatchTrigramKind.BDUD_GCOD, MatchReckoning.trigramKind(Trigram.KHEN, Trigram.LI))
+        // Fire takes breath on the pig, so a fire life force on a pig year falls on taking breath.
+        assertEquals(Sector.TAKING_BREATH, MatchReckoning.riseDecline(Element.FIRE, Animal.PIG))
+        assertEquals(4, Sector.entries.count { matchStageGrade(it) == true })
+        assertEquals(4, Sector.entries.count { matchStageGrade(it) == false })
         assertEquals(11, TRIGRAM_CHILDREN.distinctBy { setOf(it.first, it.second) }.size)
         assertEquals(Trigram.ZON to Trigram.ZIN, MatchReckoning.trigramChildren(Trigram.ZIN, Trigram.ZON))
         assertEquals(8, HAND_WAVERS.values.sumOf { it.size })

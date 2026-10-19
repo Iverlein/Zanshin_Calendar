@@ -405,6 +405,8 @@ object Sources {
     val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
     /** The marriage match's natal trigrams (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_TRIGRAM = whiteBeryl("chapter 23, pp. 361–363", volume = 1)
+    /** The marriage match's rise and decline (ROADMAP R3, docs/sources/marriage.md). */
+    val WHITE_BERYL_MATCH_RISE = whiteBeryl("chapter 23, pp. 363–364", volume = 1)
     /** The marriage match's birth mewas (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
@@ -2111,6 +2113,9 @@ object Texts {
 
     /** One of the eight hand-wavers, born on the natal trigram [t] (WB vol. 1, ch. 23, p. 362). */
     fun matchHandWaver(t: Trigram): Reading = Reading(key = "reading.MatchHandWaver", arg = "reading.MatchHandWaver.${t.name}", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
+
+    /** A spouse's life force falling on the stage [s] of the other's year (WB vol. 1, ch. 23, pp. 363–364). */
+    fun matchRiseDecline(s: Sector): Reading = Reading(key = "reading.MatchRiseDecline", arg = "reading.MatchRiseDecline.${s.name}", source = Sources.WHITE_BERYL_MATCH_RISE)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)

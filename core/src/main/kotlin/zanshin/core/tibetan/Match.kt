@@ -172,6 +172,17 @@ val HAND_WAVERS: Map<Trigram, List<Animal>> = mapOf(
     Trigram.KHEN to listOf(Animal.MOUSE, Animal.PIG),
 )
 
+/**
+ * The grade of a stage of rise and decline when a spouse's life force falls on it in the match (p. 363): the body
+ * complete, bathing, dressing and flourishing the best (true), taking breath, the womb, birth and working middling
+ * (null), decline, illness, death and the tomb bad (false).
+ */
+fun matchStageGrade(s: Sector): Boolean? = when (s) {
+    Sector.BODY_COMPLETE, Sector.BATHING, Sector.DRESSING, Sector.FLOURISHING -> true
+    Sector.TAKING_BREATH, Sector.IN_THE_WOMB, Sector.BIRTH, Sector.WORKING -> null
+    Sector.DECLINE, Sector.ILLNESS, Sector.DEATH, Sector.ENTERING_THE_TOMB -> false
+}
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -247,6 +258,12 @@ object MatchReckoning {
 
     /** Whether one born in a year of [animal] on the natal trigram [natal] is one of the eight hand-wavers (p. 362). */
     fun handWaver(animal: Animal, natal: Trigram): Boolean = HAND_WAVERS[natal]?.contains(animal) == true
+
+    /**
+     * The root rise and decline (p. 364): the stage that one spouse's life force [vitality] falls on, carried onto
+     * the other's year animal [other] («ཕོ་སྲོག་མོ་སྟེང་མོ་སྲོག་ཕོའི། །སྟེང་ཁྱེར»).
+     */
+    fun riseDecline(vitality: Element, other: Animal): Sector = YearOfLife.sector(vitality, other)
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }
