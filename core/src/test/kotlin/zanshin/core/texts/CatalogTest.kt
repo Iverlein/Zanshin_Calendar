@@ -166,7 +166,7 @@ class CatalogTest {
         ClanYear.entries.forEach { out += Texts.clanYear(it) }
         PowerYear.entries.forEach { y -> out += Texts.powerYear(y); Element.entries.forEach { out += Texts.powerYearOf(y, it) } }
         listOf(Element.WOOD, Element.IRON, Element.WATER, Element.FIRE).forEach { out += Texts.luckTriad(it) }
-        YearPlace.entries.forEach { out += Texts.yearPlace(it) }
+        YearPlace.entries.forEach { out += Texts.yearPlace(it); out += Texts.yearPlaceFull(it) }
         BirthReckoning.CUTS.forEach { (a, b) -> out += Texts.birthCut(a, b) }
         GroupCut.entries.forEach { out += Texts.groupCut(it) }
         Care.entries.forEach { out += Texts.yearCare(it) }
@@ -494,7 +494,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "BirthCut", "GroupCut"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

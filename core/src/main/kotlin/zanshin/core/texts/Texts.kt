@@ -380,7 +380,7 @@ object Sources {
     /** The cutting and tearing among one's own aspects (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_CUTS = whiteBeryl("chapter 22, pp. 281–283", volume = 1)
     /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
-    val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, p. 283", volume = 1)
+    val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, pp. 283–284", volume = 1)
     /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_LUCK_TRIAD = whiteBeryl("chapter 22, pp. 280–281", volume = 1)
     /** The year's own destiny, the pebble of power (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1987,6 +1987,10 @@ object Texts {
     /** A cut of several of the birth year's aspects together (WB vol. 1, ch. 22, pp. 282–283). */
     fun groupCut(g: GroupCut): Reading =
         Reading(key = "reading.GroupCut", arg = "reading.GroupCut.${g.name}", source = Sources.WHITE_BERYL_CUTS)
+
+    /** The full reading of a first, middle or last birth year (WB vol. 1, ch. 22, pp. 283–284). */
+    fun yearPlaceFull(y: YearPlace): Reading =
+        Reading(key = "reading.YearPlaceFull", arg = "reading.YearPlaceFull.${y.name}", source = Sources.WHITE_BERYL_YEAR_PLACE)
 
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =
