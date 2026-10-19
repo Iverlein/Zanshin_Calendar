@@ -173,7 +173,7 @@ object WhiteBerylWorks {
             good = Factors(dates = setOf(3, 13, 23, 18, 28, 29), mansions = m(VISHAKHA), animals = setOf(TIGER, BIRD), links = setOf(Link.CONTACT)),
             bad = Factors(weekdays = setOf(MONDAY), dates = setOf(2, 12, 22, 17, 27), mansions = m(ARDRA)),
         ),
-        // 46. Suppressing sri, p. 418: the box names no dates.
+        // 46. Suppressing sri, p. 418: the dates, as the box has them (read in the Bhutan print).
         ActivityList(
             "suppressing_sri",
             good = Factors(dates = setOf(4, 8, 9, 19, 29, 18, 22, 25), trigrams = setOf(GIN)),

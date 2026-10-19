@@ -231,6 +231,8 @@ class ElectionalTest {
         // Box 50's dates, from the Bhutan print: the 14th good, not the 13th.
         assertEquals(setOf(3, 5, 10, 14, 23, 11), printed("ordination_teaching_and_empowerment").good.dates)
         assertEquals(setOf(1, 4, 6, 7, 8, 22, 15), printed("ordination_teaching_and_empowerment").bad.dates)
+        // Box 44's good dates, read in the Bhutan print: the White Beryl's.
+        assertEquals(setOf(4, 8, 9, 18, 19, 22, 25, 29), printed("suppressing_sri").good.dates)
         // Box 33's second good date, read in the Bhutan print: the 22nd.
         assertEquals(setOf(18, 22), printed("learning_writing_and_astrology").good.dates)
         // Box 15's dates are good for buying and bad for selling, or the reverse: neither side.

@@ -917,11 +917,13 @@ object Electional {
                 mansions = m(BHARANI, ASHVINI, ASHLESHA, SHATABHISHAJ),
             ),
         ),
-        // 44. Suppressing the sri spirits (img. 50, KP2 img. 271).
+        // 44. Suppressing the sri spirits (img. 50, KP2 img. 271). The good dates, worn in KP and KP2, as the Bhutan print of
+        // 1981 sets them (I1KG11905, img. 398): the White Beryl's work 46 date for date.
         ActivityList(
             "suppressing_sri",
             good = Factors(
                 smeBa = setOf(3),
+                dates = setOf(4, 8, 18, 19, 9, 29, 22, 25),
                 weekdays = setOf(TUESDAY, SATURDAY, SUNDAY, THURSDAY),
                 mansions = m(MRIGASHIRAS, ARDRA, ASHLESHA, JYESHTHA, MULA, VISHAKHA, SVATI, UTTARABHADRAPADA, HASTA, ASHVINI, MAGHA),
                 animals = setOf(TIGER, DRAGON, MONKEY),
