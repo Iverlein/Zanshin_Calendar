@@ -931,11 +931,16 @@ etext; its count lines were not checked by eye. It states the same total,
 compared: the preliminary 39 + 17 = 56, the first 87 + 338 = 425, the
 second 11 + 47 = 58, the third 7 + 116 = 123, the fourth 11 roots with
 5 = 16, + 50 = 66, the fifth 63 result pebbles for 218, the sixth 4 + 24
-= 28, the eleventh 39 + 55 = 94, the fifteenth 4 + 54 = 58. So the 57
-pebbles not placed are no slip of the 1996 typesetting in these parts;
-the seventh to tenth and the twelfth to fourteenth were not compared.
+= 28, the seventh 13 + 135 = 148, the eighth 70 roots and 10 small, 80,
++ 180 = 260, the ninth 14 + 177 = 191, the tenth 304 + 1,952 = 2,256, the
+eleventh 39 + 55 = 94 with its leftover «ངོས་འཛིན་དགུ་དང་འབྲས་རྡེལ་གཅིག» (1 + 9),
+the twelfth 151 + 3,035 = 3,186, the thirteenth 25 + 202 = 227, the
+fourteenth 136 + 2,784 = 2,920, the fifteenth 4 + 54 = 58. Every part
+agrees, so the 57 pebbles not placed are no slip of the 1996 typesetting:
+the two prints carry the same counts, and the gap is the work's own.
 Unlike p. 262 of vol. 1 (open question 69), no dropped line turned up
-here.
+here. The la pebbles with the lamps and the eleventh's leftover (7 result
+and 68 identifying) do not fill it either (15 and 42).
 
 ### The fifteen examinations by name (p. 55, img. 63)
 
