@@ -105,7 +105,7 @@ moves up as soon as it is unblocked.
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel — built 2026-10-18 | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
 | <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
-| <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) | K1's reading (kyureki.md) | — | Build block 51: K1, the Russian terms by the literature. |
+| <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
@@ -238,6 +238,25 @@ direction gods (K5) and a check against a paper almanac (D12).
   the named 下段 days, which keep the app's. Which of several names in use
   to take (the months «N-я луна» or «N-й месяц»; Вяткин's mansions) is the
   owner's word, with the section's five questions for the expert.
+- **Built 2026-10-19** (block 51) but for D15, the owner's choices:
+  where the table names a term clearly, the app takes the name.
+  `KyurekiMonth.10` «месяц без богов»; `month_leap` «Вставной N-й месяц»,
+  with «вставной месяц» in `about_kyureki` and the Russian store listing;
+  `SolarTerm.KOKUU` «дожди для злаков» (БЯРС, Агеев), `SHOMAN` «малая
+  полнота» (БЯРС, Еремеев), `SHOSHO_HEAT` «окончание жары» (БЯРС),
+  `SHOSETSU` and `TAISETSU` «малые снега», «большие снега» (Еремеев,
+  Агеев; the pair kept alike), with the 大雪 reading's «малым снегам»;
+  `section_ennichi` «縁日 · Храмовые праздники»; `Festival.人日の節句`
+  «Дзиндзицу», as 七夕 is «Танабата»; the 仏滅 reading's literal sense
+  «кончина Будды». Kept: 芒種 «колошение» (Агеев's short form), 啓蟄 and
+  清明 (each attested), 半夏生 (the dictionary has the transcription alone,
+  for another plant), the twelve month names (none translated in print),
+  暦注 and the bands (no work names them). The English «month of the
+  gods» for 神無月 reads 無 as の and is left. Checked: `:core:test`,
+  `:app:testDebugUnitTest`, the emulator in Russian (the term sheets of
+  小満, 小雪 and 処暑, the 10th month's balloon on 25 November 2026, the
+  leap 6th month on 20 August 2025, 人日 on 23 February 2026, the 縁日
+  band), the website's Russian page.
 - **Block.** [51](#block-51), from the table. [15](#block-15)
   (L3) waits on it for the 旧暦 page.
 - **Done when.** The table in kyureki.md; `CatalogTest`; the owner's
@@ -486,6 +505,15 @@ as a dead end (sources/PLAN.md).
   annotation) to check the page's set and its days against — the two K4
   claims of 2026-10-14 and the 選日 and 下段 rows wait on it — open, the
   owner's purchase.
+- **D15 The Russian names K1 leaves to choose** (block 51) — open: the
+  numbered months «N-я луна» (the translators of old texts) or «N-й
+  месяц» (БЯРС, Садокова; the app now); Вяткин's names for the thirteen
+  mansions the app names otherwise («Дом» for 房, «Корзина» for 箕,
+  «Кровля» for 危, «Дом» again for 室, «Скипетр», «Оковы», «Утиное гнездо»,
+  «Вилы», «Морда», «Заслуги», «Духи», «Натянутый лук», «Крыло»), his set
+  being the only one read and naming 房 and 室 alike; 重陽の節句 «праздник
+  двойной девятки» (the expert, K2) or «праздник хризантем» (three works
+  in print).
 
 ## Tibetan page
 

@@ -1827,6 +1827,10 @@ questions* (2026-10-15).
 
 ## K1: the Russian terms in the scholarly literature (ROADMAP K1)
 
+**Built 2026-10-19** (block 51): the clear names below are in the app
+(ROADMAP K1, *Built*); the numbered months, Вяткин's thirteen mansions
+and 重陽の節句 wait on the owner (D15).
+
 The established Russian names, from published Japanology and Sinology,
 for the terms the expert marked (the month names, the 二十四節気, the
 二十八宿, 暦注 and its bands, 下段, 選日, 縁日 and their days, 仏滅, the

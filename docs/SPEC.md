@@ -1948,7 +1948,13 @@ stands for one term throughout (the read-through of 2026-10-10): лунное
 созвездие for a Tibetan mansion and лунная стоянка only for the 旧暦's
 宿, владыки земли for *sa bdag*, мева for *sme ba* with its numbers
 named as in the year of life («семь красных»), Вишти for the karaṇa,
-мытьё головы for washing the hair. A translated reading
+мытьё головы for washing the hair. The 旧暦's terms take the name the
+published Russian Japanology and Sinology give them where one is found
+(ROADMAP K1, the table in `docs/sources/kyureki.md`): 神無月 месяц без
+богов, 閏月 вставной месяц (only a year is високосный), the 節気 as the
+dictionary and the sinologists' tables name them (дожди для злаков, малая полнота,
+окончание жары, малые и большие снега), 縁日 храмовые праздники, 人日の節句
+Дзиндзицу; a term no work names keeps the project's. A translated reading
 keeps its source and licence; its licence label says it is a translation
 (MPL-2.0 for the app's own summaries, CC BY-SA 4.0 with attribution for
 wording adapted from Japanese Wikipedia).
