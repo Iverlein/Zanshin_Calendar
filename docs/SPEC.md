@@ -543,8 +543,11 @@ on the scan that follow from the years alone. `BirthReckoning`
   the life force *khong nong*, the life force begetting destiny *se zhig*,
   destiny cutting the life force *'dun khur*, the life force cutting
   destiny *kha ral*; twelve of the sixty years each (`BirthTest`, with
-  WB's particular readings' years); each with its general reading. The
-  particular readings by the year's element are not yet built.
+  WB's particular readings' years); each with its general reading, and
+  with the particular reading of its year's element, which names whose
+  side of the family the kind falls on (the father's brothers, the
+  household or oneself, the mother and grandmother, the maternal uncle
+  and relatives, the children or wealth).
 - **The special pebble** (*sgos rdel*, pp. 261, 284–286), with the clan,
   which is asked (§10.5): the birth year's animal in p. 261's table for
   the clan (keg wood, ji fire, kungs earth, shang iron, 'u water), the
@@ -3244,6 +3247,7 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   trigram" its row (as in the year of age) and the child it makes them;
   under "The birth year" the year's destiny against its life force
   ("Destiny begetting the life force · Life force earth · destiny fire"),
+  and "Whose side it falls on" with the particular reading,
   shown also without the mother's year;
   under "The clan" the year of the special pebble ("The clan's friend
   year · Keg (ཀེག, keg) clan, wood · born in a Dragon year"), or a note

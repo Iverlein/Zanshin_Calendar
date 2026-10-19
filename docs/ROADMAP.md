@@ -3479,9 +3479,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   (pp. 261, 275–280, the five defining lines read on the scan), with the
   five general readings in the shape (family `PowerYear`, item R2),
   English and Russian, shown under "The birth year" whether or not the
-  mother's year is known. Left: the twenty-five particular readings, by
-  the year's element (year-of-life.md, *The year's own destiny*), and the
-  pebble of the time. Checked: `BirthTest` (WB's particular years, twelve
+  mother's year is known; with them the twenty-five particular readings,
+  by the year's element, whose side of the family the kind falls on
+  (`PowerYearOf`), the same day. Left: the pebble of the time. Checked: `BirthTest` (WB's particular years, twelve
   of each kind), `CatalogTest`, the emulator in English (a fire dragon,
   *khong nong*) and Russian (a wood tiger, *kha yan*, no mother), the
   release build.

@@ -584,10 +584,26 @@ quoted lines compared with the scan at 2048 px):
 - *'dun khur* (p. 279): «བྱི་རུ་དགའ་སྟེ་དགོངས་པ་གསལ། །ནང་དུ་བཀྲ་སྟེ་ཤེས་བཞིན་གསལ། …། །ཁེ་ཟོག་ཚོང་འཕྲུལ་ཅི་བྱས་ཀྱང་། །ཡོ་བྱད་ལྡང་དུས་མ་བྱུང་བས། …། །གདོན་དུ་ས་བདག་ཀླུ་གཉན་གནོད། …། །ཉེ་བ་དགྲ་རུ་ལངས་པ་དང་། …། །མྱ་ངན་སྐྱིད་སྡུག་མང་བ་ཡིན།» — clear of mind within and without; whatever trade, possessions never rise; the earth lords, nāgas and nyen harm; near ones rise as enemies; much grief.
 - *kha ral* (p. 280): «ཁྱེད་ཀྱི་ཕ་མེས་ས་ན་ཡར། །གངས་དཀར་མཐོངས་ནས་སེང་སྐད་འདོན། …། །ཁྱིམ་ས་བྱེ་བྲལ་བྱས་པ་དང་། …། །བྱིས་པ་དམ་སྲི་འགོང་པོས་ཁྱེར། །མི་བརྒྱུད་ཞིང་ས་གཉིས་དང་གསུམ། །འཛིན་ཏེ་ལ་ལ་དར་ཞིང་རྒྱས། །ལ་ལ་རྨོངས་ཤིང་གུད་པ་དང་། །ལ་ལ་གསོན་པོར་འཁྱམས་པ་འོང་། །མ་དང་འགྲོགས་ཡུན་ཐུང་བ་སྟེ། …། །སེང་གེ་གངས་བྲལ་ཁྱི་རུ་སོང་། …། །རྒྱལ་མདོས་བཏང་ན་ཕན་པ་ཡིན།» — the forefathers a snow lion roaring from the white snows; the household splits; the pledge-breaking dead and gongpo carry children off; the line holds two or three estates, some flourishing, some declining, some wandering; time with the mother short; now the lion parted from its snows has become a dog; a gyalpo thread-cross helps.
 
-Left for the next part of R2: the twenty-five particular readings, and
-the images the general readings give without a sense (the *bse rags* on
-the neck, the crystal rosary scattered). Built 2026-10-19 (ROADMAP R2c,
-SPEC §5.9.2).
+**The particular readings** (pp. 276–280), five for each kind, keyed by
+the year's element, which decides whose side the kind falls on. Read by
+Yigdzin-1 and the pages of *kha yan* (p. 276, img. 271) and *'dun khur*
+(p. 279, img. 274) compared line by line with the scan: no difference in
+the lines the readings rest on. The opening line of each, as printed:
+
+| Kind | Wood | Fire | Earth | Iron | Water |
+| --- | --- | --- | --- | --- | --- |
+| *kha yan* | «ཤིང་གི་སྟག་ཡོས་ཕ་ཁུ་ཡི། །ཁ་ཡན» the father's brothers' | «མེ་ཡི་རྟ་སྦྲུལ་བཟའ་ཚང་གི» the household's | «ས་ཡི་གླང་ལུག་ཁྱི་འབྲུག་བཞི། །མ་དང་ཕྱི་མོའི» the mother's and grandmother's | «ལྕགས་ཀྱི་བྱ་སྤྲེལ་གཉེན་རྣམས་དང་། །ཞང་པོའི» the relatives' and maternal uncle's | «ཆུ་ཡི་བྱི་ཕག་བུ་ཚ་ཡི» the children's |
+| *khong nong* | «ཤིང་གི་རྟ་སྦྲུལ་ཕ་ཁུ་ཡི» | «མེ་ཡི་གླང་ལུག་ཁྱི་འབྲུག་བཞི། །བདག་དང་བཟའ་ཚང» one's own and the household's | «ས་ཡི་བྱ་སྤྲེལ་མ་ཕྱི་ཡི» | «ལྕགས་ཀྱི་བྱི་ཕག་ཞང་པོ་ཡི» the maternal uncle's | «ཆུ་ཡི་སྟག་ཡོས་བུ་ཚ་ཡི» |
+| *se zhig* | «ཤིང་གི་བྱི་ཕག་ཕ་ཁུ་ཡི» | «མེ་ཡི་སྟག་ཡོས་བཟའ་ཚང་གི» | «ས་ཡི་རྟ་སྦྲུལ་མ་ཕྱི་ཡི» | «ལྕགས་ཀྱི་གླང་ལུག་ཁྱི་འབྲུག་བཞི། །ཞང་པོའི» | «ཆུ་ཡི་བྱ་སྤྲེལ་ནོར་རྫས་ཀྱི» wealth's |
+| *'dun khur* | «ཤིང་གི་གླང་ལུག་ཁྱི་འབྲུག་བཞི། །ཕ་ཁུའི» | «མེ་ཡི་བྱ་སྤྲེལ་བཟའ་ཚང་གི» | «ས་ཡི་བྱི་ཕག་མ་ཕྱི་ཡི» | «ལྕགས་ཀྱི་སྟག་ཡོས་ཞང་པ་དང་། །གཉེན་གྱི» | «ཆུ་ཡི་རྟ་སྦྲུལ་ནོར་རྫས་ཀྱི» wealth's |
+| *kha ral* | «ཤིང་གི་བྱ་སྤྲེལ་ཕ་ཁུ་ཡི» | «མེ་ཡི་བྱི་ཕག་རང་ཉིད་ཀྱི» one's own | «ས་ཡི་སྟག་ཡོས་མ་ཕྱི་ཡི» | «ལྕགས་ཀྱི་རྟ་སྦྲུལ་ཞང་པོ་དང་། །གཉེན་གྱི» | «ཆུ་ཡི་གླང་ལུག་ཁྱི་འབྲུག་བཞི། །ནོར་གྲོགས་གཉིས་ཀྱི» wealth's and friends' |
+
+The app's twenty-five readings (`reading.PowerYearOf.<kind>.<element>`)
+give each passage's facts in its own words, without its images, and
+without what a passage says only of a woman («བུད་མེད་ཡིན་ན», *khong nong*
+wood). Dropped as unclear: «ཡང་ན་ཞང་པོ་ཕ་དང་མ། །མི་གཅིག་སྤུན་ཟླར་གྱུར་བ་ཡོད» (*khong nong* iron),
+the *bse rags* on the neck and the crystal rosary scattered (*'dun khur*,
+general). Built 2026-10-19 (ROADMAP R2c, SPEC §5.9.2).
 
 ### The special pebble's readings: the end reckoning (pp. 284–286)
 
