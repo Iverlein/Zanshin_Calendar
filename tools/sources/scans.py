@@ -74,10 +74,12 @@ def stack(args):
 
 
 def text_lines(im, min_ink=0.01, min_height=15):
-    """The (top, bottom) rows of each text line: runs of rows with ink on more than min_ink of the width."""
+    """The (top, bottom) rows of each text line: runs of rows with ink on more than min_ink of the width.
+    Columns inked down most of the page (a binding edge, a scanner's bar) are left out of the count."""
     w, h = im.size
     px = im.load()
-    rows = [sum(1 for x in range(0, w, 2) if px[x, y] < 128) * 2 > w * min_ink for y in range(h)]
+    cols = [x for x in range(0, w, 2) if sum(1 for y in range(0, h, 4) if px[x, y] < 128) * 4 < h / 2]
+    rows = [sum(1 for x in cols if px[x, y] < 128) > len(cols) * min_ink for y in range(h)]
     lines, top = [], None
     for y, inked in enumerate(rows + [False]):
         if inked and top is None:

@@ -1243,9 +1243,11 @@ chapter's total against its parts; the fourth examination's 87; «ཁ་སྨ�
 (answered 2026-10-18, above); the *bsgrub* grave, the grave's account
 (answered, above) and «ར་བསེ».
 
-- Doubt: p. 48 (img. 56), «སྦར» (burial) or «སྤར» (trigram) for the 29 in
-  «བསྲེག་པར་བཞི་བཅུ་སྦར་ཉེར་དགུ»; read as burial by the count of the five graves,
-  not settled on the scan.
+- p. 48 (img. 56), «སྦར» (burial) or «སྤར» (trigram) for the 29 in
+  «བསྲེག་པར་བཞི་བཅུ་སྦར་ཉེར་དགུ»: the Gser thang reprint (I3CN5029, img. 54, l. 5, at
+  3×, 2026-10-19) carves «སྤར», pa under sa, as its OCR reads. The line counts
+  the five graves (burning 40, this 29, *bsgrub* 32, water 33, the mountain
+  29), so the sense is burial, as read; the print's spelling is «སྤར».
 - Doubt: the results (pp. 51–143) and the notes after p. 500 are outlined
   from machine readings; the readings, rites and the earth lords' lists of
   the twelfth and fourteenth (which overlap year-month-earth-lords.md) were
@@ -1950,8 +1952,8 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
   «ཉི་མ་མདུང་གང» (the sun a spear's length high), sits between becoming at the
   "great shadow" and aging and death at dusk: a misreading, or an
   evening sun a spear's length above the horizon?
-- Doubt: the colophon of ch. 26 (p. 472), «ཤེས[?]་པ་དཀོན», the first letter
-  ཤ or ཞ, not settled on the scan.
+- The colophon of ch. 26 (p. 472), «ཤེས[?]་པ་དཀོན»: *settled 2026-10-19* on the
+  Gser thang reprint (I3CN5028, img. 467, l. 6, at 3×) as ཤ, «ཁ་འཐོར་བའི་ཤེས་པ་དཀོན».
 
 ### Searched and not found
 
