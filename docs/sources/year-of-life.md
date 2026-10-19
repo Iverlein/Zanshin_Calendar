@@ -1572,3 +1572,29 @@ year is its reaching that year, next to its reaching the seven-corner.
   errors (the li-kham circuit's outer and inner rounds, the male year
   from zin and the female from dwa, the secret outer round's year
   trigram, «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ») does not name it.
+
+## The seven rough obstacles in Klong chen Chos dbyings stobs ldan rdo rje, 2026-10-19 (open questions 90, 91)
+
+Klong chen Chos dbyings stobs ldan rdo rje (ཀློང་ཆེན་ཆོས་དབྱིངས་སྟོབས་ལྡན་རྡོ་རྗེ,
+klong chen chos dbyings stobs ldan rdo rje, 1785–1848), *Mdo rgyud rin
+po che'i mdzod* (མདོ་རྒྱུད་རིན་པོ་ཆེའི་མཛོད), Si khron mi rigs dpe skrun khang (BDRC
+MW28955; etext VEIE0OPIC626CD13_I4959, p. 620, printed p. 580; etext
+only), sets out the year-of-age reckoning in prose and gives the seven
+rough obstacles so:
+
+> …རང་ལོ་གནམ་ལོར་ཤར་ན་རང་ཀེག་རྩུབ་པ། རང་ལོ་ནས་བརྩིས་པའི་བདུན་པ་གང་ཡིན་དེ་གནམ་ལོར་ཤར་ན་བདུན་ཟུར་རྩུབ་པ། རང་གི་འབྱུང་བ་དང་གནམ་ལོའི་འབྱུང་བ་གཅིག་ཡིན་ན་ཁྱིམ་མཚེས་རྩུབ་པ། རང་ལོ་ནས་བརྩིས་པའི་ལྔ་པ་དང་། དགུ་པ་གནམ་ལོར་ཤར་ན་མཐུན་གསུམ་རྩུབ་པ། བཟའ་ཤུག་སྤར་ཁ་གཅིག་ཐོག་ཏུ་འདོམ་ན་གཟའ་ཤུག་རྩུབ་པ། སྔ་སོར་རང་གི་ཕ་མེས་སོགས་ཤི་དུས་ཀྱི་ལོ་གྲངས་སྤར་སྨེ་སོགས་སུ་སླེབ་ན་སྲི་ངན་གྱི་རྩུབ་པ། རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན་གསང་ཀེག་རྩུབ་པ་ཡིན་པས་རྩུབ་པ་ཡིན་ན་རྡེལ་ནག་དང་མིན་ན་རྡེལ་དཀར་བཞག་གོ།
+
+"… if one comes onto the trigram, mewa and so on of the year count at
+which one's own forefathers and others died before, the obstacle of the
+bad *sri*; if [the year's trigram] goes onto one's own birth trigram,
+the secret obstacle; where an obstacle is, a black pebble, where not, a
+white." So:
+
+- **90.** The trigram and mewa are those of the forefathers' "year
+  count" (ལོ་གྲངས་སྤར་སྨེ), the year-of-age trigram and mewa they had when they
+  died, and the obstacle comes when the person's own come onto them; the
+  forefathers' own birth years are needed, as for their age at death.
+  Klong chen gives it as one reading in passing, without a gloss of
+  WB's «ལོ་གྲངས་སླེབས».
+- **91.** Klong chen, like Lha mo tshul khrims's verse (above), has only
+  the birth trigram, «རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན», and nothing for WB's «མ་སྤར་ལི».

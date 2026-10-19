@@ -1120,6 +1120,11 @@ the text, not about the app.
     "reaching the number of years" the person's trigram, mewa or progressed
     sign coming onto them? (2026-10-12, RD14,
     [year-of-life.md](year-of-life.md))
+    *Narrowed 2026-10-19 ([year-of-life.md](year-of-life.md), *The seven
+    rough obstacles in Klong chen*): the forefathers' own. Klong chen Chos
+    dbyings stobs ldan rdo rje's *Mdo rgyud rin po che'i mdzod* (MW28955)
+    puts it «སྔ་སོར་རང་གི་ཕ་མེས་སོགས་ཤི་དུས་ཀྱི་ལོ་གྲངས་སྤར་སྨེ་སོགས་སུ་སླེབ་ན»: when one comes onto the
+    year-of-age trigram and mewa the forefathers had at their death.*
 
 91. **The secret obstacle's «མ་སྤར».** The secret obstacle (WB vol. 1, p.
     390): «གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི།
@@ -1128,6 +1133,11 @@ the text, not about the app.
     «མ་སྤར» the mother's trigram (of the current year, or at the birth?) or,
     as the notes take it, the one reckoned's trigram, and what does «མ» then
     mean? (2026-10-12, RD14, [year-of-life.md](year-of-life.md))
+    *2026-10-19 ([year-of-life.md](year-of-life.md), *The seven rough
+    obstacles in Klong chen*): two later restatements, Klong chen Chos
+    dbyings stobs ldan rdo rje's prose and Lha mo tshul khrims's verse, give
+    the secret obstacle by the birth trigram alone («རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན») and
+    leave out «མ་སྤར་ལི»; what «མ» means stays open.*
 
 92. **Answered 2026-10-18. The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
     །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed
