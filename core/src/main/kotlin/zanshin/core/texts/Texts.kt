@@ -404,7 +404,7 @@ object Sources {
     /** The marriage match's years: the kinds not joined and the bad years (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_YEARS = whiteBeryl("chapter 23, pp. 351–354", volume = 1)
     /** The marriage match's natal trigrams (ROADMAP R3, docs/sources/marriage.md). */
-    val WHITE_BERYL_MATCH_TRIGRAM = whiteBeryl("chapter 23, pp. 361–362", volume = 1)
+    val WHITE_BERYL_MATCH_TRIGRAM = whiteBeryl("chapter 23, pp. 361–363", volume = 1)
     /** The marriage match's birth mewas (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH_MEWA = whiteBeryl("chapter 23, p. 363", volume = 1)
     /** The marriage match's planets of birth (ROADMAP R3, docs/sources/marriage.md). */
@@ -2103,6 +2103,14 @@ object Texts {
         }
         return Reading(key = "reading.MatchTrigram", arg = "reading.MatchTrigram.$arg", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
     }
+
+    /** The children of the natal trigrams [a] and [b] (WB vol. 1, ch. 23, p. 363); null where WB names no number. */
+    fun matchTrigramChildren(a: Trigram, b: Trigram): Reading? = MatchReckoning.trigramChildren(a, b)?.let { (x, y) ->
+        Reading(key = "reading.MatchTrigramChildren", arg = "reading.MatchTrigramChildren.${x.name}_${y.name}", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
+    }
+
+    /** One of the eight hand-wavers, born on the natal trigram [t] (WB vol. 1, ch. 23, p. 362). */
+    fun matchHandWaver(t: Trigram): Reading = Reading(key = "reading.MatchHandWaver", arg = "reading.MatchHandWaver.${t.name}", source = Sources.WHITE_BERYL_MATCH_TRIGRAM)
 
     /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
     fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)

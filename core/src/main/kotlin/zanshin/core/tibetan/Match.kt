@@ -160,6 +160,18 @@ enum class MatchTrigramKind(val good: Boolean, val pairs: List<Pair<Trigram, Tri
 private fun trigramPairs(vararg names: String): List<Pair<Trigram, Trigram>> =
     names.map { n -> n.split(" ").let { Trigram.valueOf(it[0]) to Trigram.valueOf(it[1]) } }
 
+/** The children's number by the pair of natal trigrams (p. 363), the pairs as WB names them. */
+val TRIGRAM_CHILDREN: List<Pair<Trigram, Trigram>> =
+    trigramPairs("LI KHON", "KHON DWA", "DWA GIN", "GIN KHAM", "GIN ZIN", "ZON ZIN", "KHAM ZON", "DWA KHEN", "LI KHEN", "LI ZON", "KHAM ZIN")
+
+/** The eight hand-wavers (p. 362): the year animals that, born on the trigram, make one of them. */
+val HAND_WAVERS: Map<Trigram, List<Animal>> = mapOf(
+    Trigram.GIN to listOf(Animal.OX, Animal.TIGER),
+    Trigram.ZON to listOf(Animal.DRAGON, Animal.SNAKE),
+    Trigram.KHON to listOf(Animal.SHEEP, Animal.MONKEY),
+    Trigram.KHEN to listOf(Animal.MOUSE, Animal.PIG),
+)
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -228,6 +240,13 @@ object MatchReckoning {
     /** How the man's and the woman's natal trigrams meet (pp. 361–362); null for ཁམ་ཟོན, which the print leaves out. */
     fun trigramKind(man: Trigram, woman: Trigram): MatchTrigramKind? =
         if (man == woman) MatchTrigramKind.ONE else MatchTrigramKind.entries.firstOrNull { it.pair(man, woman) != null }
+
+    /** The pair of natal trigrams whose children WB numbers (p. 363), in its order, or null. */
+    fun trigramChildren(a: Trigram, b: Trigram): Pair<Trigram, Trigram>? =
+        TRIGRAM_CHILDREN.firstOrNull { (x, y) -> x == a && y == b || x == b && y == a }
+
+    /** Whether one born in a year of [animal] on the natal trigram [natal] is one of the eight hand-wavers (p. 362). */
+    fun handWaver(animal: Animal, natal: Trigram): Boolean = HAND_WAVERS[natal]?.contains(animal) == true
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }

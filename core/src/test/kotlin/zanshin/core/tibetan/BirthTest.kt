@@ -47,6 +47,11 @@ class BirthTest {
         val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal > a.ordinal }.map { a to it } }
         assertEquals(listOf(Trigram.KHAM to Trigram.ZON), pairs.filter { (a, b) -> MatchReckoning.trigramKind(a, b) == null })
         assertEquals(MatchTrigramKind.BDUD_GCOD, MatchReckoning.trigramKind(Trigram.KHEN, Trigram.LI))
+        assertEquals(11, TRIGRAM_CHILDREN.distinctBy { setOf(it.first, it.second) }.size)
+        assertEquals(Trigram.ZON to Trigram.ZIN, MatchReckoning.trigramChildren(Trigram.ZIN, Trigram.ZON))
+        assertEquals(8, HAND_WAVERS.values.sumOf { it.size })
+        assertEquals(true, MatchReckoning.handWaver(Animal.PIG, Trigram.KHEN))
+        assertEquals(false, MatchReckoning.handWaver(Animal.DOG, Trigram.KHEN))
         assertEquals(MatchTrigramKind.ONE, MatchReckoning.trigramKind(Trigram.GIN, Trigram.GIN))
         assertEquals(listOf(MatchMewa.SAME, MatchMewa.BYUR_DUS), MatchReckoning.mewaMeetings(2, 2))
         assertEquals(listOf(MatchMewa.SAME), MatchReckoning.mewaMeetings(5, 5))
