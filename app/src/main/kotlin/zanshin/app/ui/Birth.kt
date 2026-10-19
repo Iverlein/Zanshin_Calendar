@@ -17,6 +17,7 @@ import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import zanshin.app.Person
 import zanshin.app.Reckonings
+import zanshin.app.Relation
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
@@ -30,6 +31,7 @@ import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.GroupCut
 import zanshin.core.tibetan.SME_BA_COLOURS
@@ -73,6 +75,7 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         }
 
         DpalByurSection(b, onOpen)
+        LineSection(person, b, onOpen)
         PowerSection(person, onOpen)
         ClanSection(person, onOpen)
 
@@ -345,6 +348,40 @@ private fun DpalByurSection(b: BirthReading, onOpen: (Annotation) -> Unit) {
         )
     }
     if (father == null) Text(stringResource(R.string.birth_dpal_byur_father_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+}
+
+/**
+ * The line of births (pp. 297–299): the father's and the grandfather's life force counted down onto one's birth
+ * year, each with its year; the grandfather is the father entered under the father.
+ */
+@Composable
+private fun LineSection(person: Person, b: BirthReading, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    Section(stringResource(R.string.birth_section_line))
+    val father = person.relatives.list.firstOrNull { it.of == null && it.relation == Relation.FATHER && it.birth != null }
+    val grandfather = father?.let { f -> person.relatives.list.firstOrNull { it.of == f.id && it.relation == Relation.FATHER && it.birth != null } }
+    listOf(R.string.birth_line_father to father, R.string.birth_line_grandfather to grandfather).forEach { (whose, r) ->
+        val sign = r?.birth?.let { YearOfLife.yearSign(it.tibetanYear) } ?: return@forEach
+        val stage = BirthReckoning.lineStage(sign.animal, b.birth.animal)
+        val subtitle = labels.string(R.string.birth_line_subtitle, signName(sign, labels), gloss(Forces.of(sign.element, sign.animal).vitality, "inText"))
+        if (stage == null) {
+            Text(labels.string(R.string.birth_line_clear, stringResource(whose), signName(sign, labels)), style = muted)
+        } else {
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.birth_share_title, stringResource(whose), stage.english),
+                    english = "",
+                    tone = Tone.BAD,
+                    reading = Texts.birthLine(stage, LineGroup.of(sign.animal)),
+                    subtitle = subtitle,
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+    }
+    if (father == null) Text(stringResource(R.string.birth_line_needed), style = muted)
 }
 
 /** One of the five that the natal trigram, or the natal mewa, of element [against] makes the share [share] (p. 294). */

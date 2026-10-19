@@ -993,6 +993,12 @@
     <string name="birth_dpal_byur_father">Yours %1$s · the father\'s %2$s</string>
     <string name="birth_dpal_byur_mother">Yours %1$s · the mother\'s %2$s</string>
     <string name="birth_dpal_byur_father_needed">With your father\'s birth year among your relatives, your life force and luck are set against his too.</string>
+    <string name="birth_section_line">The line of births</string>
+    <string name="birth_line_father">The father\'s line</string>
+    <string name="birth_line_grandfather">The grandfather\'s line</string>
+    <string name="birth_line_subtitle">Born in the %1$s year, life force %2$s</string>
+    <string name="birth_line_clear">%1$s: born in the %2$s year, its life force falls on none of the four.</string>
+    <string name="birth_line_needed">With your father\'s birth year among your relatives, and his father\'s entered under him, the line of births counts their life force onto your year.</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

@@ -848,6 +848,12 @@
     <string name="birth_dpal_byur_father">У рождённого: %1$s · у отца: %2$s</string>
     <string name="birth_dpal_byur_mother">У рождённого: %1$s · у матери: %2$s</string>
     <string name="birth_dpal_byur_father_needed">С годом рождения отца среди родственников жизненная сила и конь ветра ставятся и против его.</string>
+    <string name="birth_section_line">Линия рождений</string>
+    <string name="birth_line_father">Линия отца</string>
+    <string name="birth_line_grandfather">Линия деда</string>
+    <string name="birth_line_subtitle">Рождён в год %1$s, жизненная сила: %2$s</string>
+    <string name="birth_line_clear">%1$s: рождён в год %2$s, его жизненная сила не падает ни на одну из четырёх.</string>
+    <string name="birth_line_needed">С годом рождения отца среди родственников, и его отца, указанного под ним, линия рождений отсчитывает их жизненную силу до вашего года.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
