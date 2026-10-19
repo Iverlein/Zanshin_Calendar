@@ -317,7 +317,9 @@ the "all-gathered secret" coin rite.
 Ch. 24, the readings of the power pebble (དབང་ཐང, dbang thang). After two
 white and one white:
 
-> […]བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། །ལོངས་སྤྱོད་ཐོ་བ་ཞབས་ནས་བརྡོལ། །[…]འདོད་ཡོན་སྟོངས། །ལོངས་སྤྱོད་འཕྲོག་པའི་འཕུང་སྲི་ལངས། །ཡོ་བྱད་ནོར་ལ་གོད་ཟེགས་འོང་། །སྡེར་ནས[…]ངོར་པང་ནས་བུ། ད་ལྟ་ཡང་འཆི། །སྒོ་ཡི་ཁྱི་འཆི་ཞིང་ལ་སྟོན། །[…]མེད་ཅིང་ཚོང་བྱས་ཁེ་ཡང་ཆུང་། […]།གོད་ཁ་སྟོར་[…]དུས། །དགེ་སློང་ཚུལ་ཁྲིམས་རྣམ་དག་མཆོད། །ལྷ་ཁང་མར་མེ་འབུལ་བ་དང་། །བྱིས་པའི་སྟོན་མོ་བྱས་ན་བཟང་། །དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ། །ལམ་འཆོས་སཱ་ཙྪ་མང་གདབ་ཅིང་། །ཆུ་གཏོར་སྦྱིན་པ་མང་དུ་ཐོང་།
+> […]བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། །ལོངས་སྤྱོད་ཐོ་བ་ཞབས་ནས་བརྡོལ། །[…]འདོད་ཡོན་སྟོངས། །ལོངས་སྤྱོད་འཕྲོག་པའི་འཕུང་སྲི་ལངས། །ཡོ་བྱད་ནོར་ལ་གོད་ཟེགས་འོང་། །སྡེར་ནས[…]ངོར་པང་ནས་བུ། ད་ལྟ་ཡང་འཆི། །སྒོ་ཡི་ཁྱི་འཆི་ཞིང་ལ་སྟོན། །[…]མེད་ཅིང་ཚོང་བྱས་ཁེ་ཡང་ཆུང་། […]།གོད་ཁ་སྟོར་[…]དུས།
+
+The gaps, read on the Gser thang reprint of the same typesetting (I3CN5028, img. 377, ll. 20–23, Yigdzin-1 and the key words by eye, 2026-10-19): «དབང་རྡེལ་ནག་པོ་གཉིས་བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། …། །འདོད་ཡོན་ཟས་ཀྱི་བསྲིས་སྒོ་སྟོངས། …། །སྡེར་ནས་ཟས་འཆོར་པང་ནས་བུ། །འཚོར་ཞིང་འོག་གི་རྟ་ཡང་འཆི། …། །གོད་ཁ་སྟོར་བརླག་འོང་བའི་དུས།»: two black power pebbles; food spills from the plate, the child [slips] from the lap, the horse beneath dies. །དགེ་སློང་ཚུལ་ཁྲིམས་རྣམ་དག་མཆོད། །ལྷ་ཁང་མར་མེ་འབུལ་བ་དང་། །བྱིས་པའི་སྟོན་མོ་བྱས་ན་བཟང་། །དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ། །ལམ་འཆོས་སཱ་ཙྪ་མང་གདབ་ཅིང་། །ཆུ་གཏོར་སྦྱིན་པ་མང་དུ་ཐོང་།
 
 If […] fall: the enclosure of power is torn from its edge, the heap of
 wealth bursts at its base, […] pleasures empty; **the sri of ruin that
@@ -329,8 +331,7 @@ line on the breathing and the breathless not understood; mend roads, set
 many clay images (སཱ་ཙྪ, sA tstsha), give many water offerings.
 
 - Kind: the *'phung sri*, the ruin of a household's wealth, children and
-  dogs. When: the power pebble black (the etext lost which count; two
-  black by the order of the readings, a doubt). Averted by merit: monks
+  dogs. When: two black power pebbles («དབང་རྡེལ་ནག་པོ་གཉིས་བབས་ན», read on the Gser thang reprint). Averted by merit: monks
   honoured, lamps, a feast for children, roads mended, clay images and
   water offerings; no pressing down is named here.
 
@@ -342,7 +343,7 @@ falls on the sky door (dog and dragon), the earth door (pig and snake),
 ruin and lawsuit (ox and sheep), and so on. The sky door is closed by a
 ransom rite; then:
 
-> […]སྒོ་ལ་བབས་འཕུང་སྲི་ལྡང་། །དམའ་བའི་ས་ནས་ངན་གཤོམས་དང་། །ཀླུ་ནད་མཛེ་ཤུ་ཕོལ་འབྲས་འགོ། །ཁང་རྨང་མི་འདིང་ས་མི་བརྐོ། །ས་སྙིང་དང་ནི་[…]་གཟུངས་བཀླག །འཕུང་བའི་སྲི་མནན་ས་སྒོ་སྡོམ། །རུས་པ་མི་གཅིག་མི་གསུམ་གྱིས། །རྨ་བྱའི་གཟུངས་ཚར་བཅུ་གསུམ་འདོན།
+> [ས་]སྒོ་ལ་བབས་འཕུང་སྲི་ལྡང་། །དམའ་བའི་ས་ནས་ངན་གཤོམས་དང་། །ཀླུ་ནད་མཛེ་ཤུ་ཕོལ་འབྲས་འགོ། །ཁང་རྨང་མི་འདིང་ས་མི་བརྐོ། །ས་སྙིང་དང་ནི་[…]་གཟུངས་བཀླག །འཕུང་བའི་སྲི་མནན་ས་སྒོ་སྡོམ། །རུས་པ་མི་གཅིག་མི་གསུམ་གྱིས། །རྨ་བྱའི་གཟུངས་ཚར་བཅུ་གསུམ་འདོན།
 
 and of ruin and lawsuit:
 
@@ -867,11 +868,10 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
   «སྤྱི་སྲི» (vol. 2, p. 55); «ཆུང་སི། ལ་ཡོད» read «ཆུང་སྲི་ལི་ལ་ཡོད» by the notes
   (vol. 1, p. 301; confirmed on the scan, O10f, 2026-10-14: «ལི་ལ་ཡོད་དོ»). Left as printed: «གོང་སྲི», probably «གོད་སྲི» (vol. 2,
   p. 8; vol. 1, p. 414).
-- Doubt: vol. 1, p. 382: which count of power pebbles brings the
-  *'phung sri* (the etext lost it; two black by the order); the line
-  «དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ» not understood.
-- Doubt: vol. 1, p. 387: the door is the earth door by the order of the
-  readings and by the remedy «ས་སྒོ་སྡོམ»; the etext lost the word.
+- Vol. 1, p. 382: the count is two black power pebbles, and p. 387's door
+  the earth door («ས་སྒོ་ལ་བབས»): both *settled 2026-10-19* on the Gser thang
+  reprint (I3CN5028, img. 377 l. 20, img. 382 l. 15, by eye). The line
+  «དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ» is still not understood.
 - Doubt: vol. 1, p. 456: the starting point the *dar sri* check belongs
   to (no. 3 by its place on the page); the etext lost the heading.
 - Doubt: vol. 2, pp. 118 and 121: the day «སྟོང» and the mansions «སྒྲོན»
