@@ -378,7 +378,7 @@ the text, not about the app.
     is used, by the month's halves, day and night or the person, no text
     read says.*
 
-20. **WB vol. 1, p. 154 (img. 164): which "nine" are drawn in at the
+20. **Answered as far as the sources go, 2026-10-19. WB vol. 1, p. 154 (img. 164): which "nine" are drawn in at the
     winter solstice?** The model almanac's 11th month head writes, after
     «དགུན་ཉི་ལྡོག་པ་རགས་ཞིབ་སྔ་ཕྱི་དུས་ཚོད་བལྟས་ནས་འགོད།», «ས་བདག་སྐྱས་བྱེད་བོད་ན་དགུ་ཡང་འདྲེན།» (read on the
     scan 2026-10-11, RD2, [month-entries.md](month-entries.md)): the
@@ -435,7 +435,7 @@ the text, not about the app.
     *Answered 2026-10-18 ([reckonings.md](reckonings.md), ch. 23): WBZ
     img. 458, ll. 3–4, read on the scan, prints 478, 5,327 and «ལྔ་སྟོང་བརྒྱད་བརྒྱ་དང་། །ཉག་མ་གཅིག», 5,801: both slips are the blocks'.*
 
-23. **WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
+23. **Answered as far as the sources go, 2026-10-19. WB vol. 2, p. 474 (img. 482): «དུས་ཁམས» or «རུས་ཁམས»?** The notes
     twice print «དུས་ཁམས», "the element of the time", where the five great
     clans (རུས་ཆེན, rus chen) that follow point to the clan's element
     (རུས་ཁམས, rus khams) (read on the scan 2026-10-11, RD11,
@@ -486,7 +486,7 @@ the text, not about the app.
     reckoning of dates, planets and mansions for works, as the section's
     close (p. 535) suggests?
 
-26. **WB vol. 2, pp. 200 and 213 (img. 208, 221): which direction is
+26. **Answered 2026-10-19. WB vol. 2, pp. 200 and 213 (img. 208, 221): which direction is
     the month's river?** The month's *klung* earth lord sits on the
     month's river (ཟླ་ཀླུང, zla klung), and the month's hal dog on the past
     month's; ch. 31 does not say where it is. Ch. 13's tables of the
@@ -591,7 +591,7 @@ the text, not about the app.
     or the blue mouse road was found in it, in Lha mo tshul khrims, in Dpal
     bsdus or in KD.*
 
-33. **WB vol. 2, pp. 177–192: what does the turning add?** The year's
+33. **Answered as far as the sources go, 2026-10-19. WB vol. 2, pp. 177–192: what does the turning add?** The year's
     courses turn left or right (གཡོན་སྐོར, g.yon skor; གཡས་སྐོར, g.yas skor),
     yet each place is fixed by the year animal. Does the turning say only
     which way the place moves from year to year, or something more, a
@@ -715,7 +715,7 @@ the text, not about the app.
     separate heads (the third and the fourth of the general reckoning), and
     their «དམིགས་སུ་བསལ་བ» belongs to the fourth, the results of each work.*
 
-42. **WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
+42. **Answered as far as the sources go, 2026-10-19. WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
     Does it mean the hour's earth lords (the 37) are to be reckoned at the
     time of the work, as the corpse's road does, or only that the work's time
     is to be chosen carefully (2026-10-12, RD6, [weighing.md](weighing.md))?
@@ -935,7 +935,7 @@ the text, not about the app.
     Where do they come from, and do they agree with WB's? KL names no
     source (2026-10-12, RD7, [health.md](health.md)).
 
-60. **KL p. 202: «ལྒང་བ» (lgang ba).** *Narrowed further 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): the note to Deumar's course by the hour gives both feet (རྐང་པ་གཉིས) at daybreak, as WB does.* *Narrowed 2026-10-12 (RD10,
+60. **Answered as far as the sources go, 2026-10-19. KL p. 202: «ལྒང་བ» (lgang ba).** *Narrowed further 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): the note to Deumar's course by the hour gives both feet (རྐང་པ་གཉིས) at daybreak, as WB does.* *Narrowed 2026-10-12 (RD10,
     [health.md](health.md)): WB's course within the day, which KL follows,
     has both feet (རྐང་གཉིས) at daybreak (vol. 2, p. 304), and WB writes «ལྒང»
     for the bladder (vol. 1, p. 252); so the bladder, or «རྐང་པ», foot, by a
@@ -1295,7 +1295,7 @@ the text, not about the app.
     commentary go straight from «…བཀྲེས་འགྱུར་ཏེ» to «ཏིལ་མར་གྱིས་བྱུག…»: KL's own
     wording, or another edition's (2026-10-12, RD8, [health.md](health.md))?
 
-89. **GC's la course.** *Narrowed 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): Deumar's note to his table (p. 594) gives the same rule, the man from the left and the woman from the right; Mipham's verse may read the other way (question 108).* Does GC name a source for its la course and for
+89. **Answered as far as the sources go, 2026-10-19. GC's la course.** *Narrowed 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): Deumar's note to his table (p. 594) gives the same rule, the man from the left and the woman from the right; Mipham's verse may read the other way (question 108).* Does GC name a source for its la course and for
     its rule that the course starts on a man's left and a woman's right
     (BDRC p. 224)? Only snippets were seen; the book is restricted
     (2026-10-12, RD8, [health.md](health.md)).
@@ -2138,7 +2138,7 @@ the text, not about the app.
      the bad line as a run (16, 17, 18, 20) and the good as 21 and 25 alone.
      The owner chose the run the same day; it is built (`WhiteBerylWorks`).*
 
-157. **KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
+157. **Answered 2026-10-19. KP box 21's 4 against WB's 9.** Work 9 (WB vol. 2 p. 390, img. 398)
      has the 19th and 29th where KP's box 21 is carved with the shape of
      KP's own 4 (14, 24); is the box a carving slip for ༡༩, ༢༩, or a
      reading of its own? (2026-10-14, O10,

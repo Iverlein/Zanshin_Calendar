@@ -2167,7 +2167,8 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 ### Open
 
 - Open questions 26–32 ([open-questions.md](open-questions.md)): 26, the
-  direction of the month's luck (pp. 200, 213); 27, which direction «དང»
+  direction of the month's luck (pp. 200, 213), answered 2026-10-19: the
+  animal of vol. 1, p. 254 for the month's triad (no. 3); 27, which direction «དང»
   joins a name to in the nine black ones (p. 215), answered 2026-10-19:
   the next; 28, the light-clearer's
   «དུར» (p. 219); 29, Wangkhyi's «གླང་གི་ཉི་མ» (p. 210); 30, five courses that
@@ -2180,7 +2181,8 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
 ### Searched and not found
 
 - «ཀླུང་རྟ» and «ཀླུངས་རྟ» in the etext of both volumes of WB (2026-10-11): no
-  rule for the month's or the year's luck; only the person's luck (*klung rta*)
+  rule for the month's or the year's luck (found since: vol. 1, p. 254,
+  each triad's luck, open question 26); only the person's luck (*klung rta*)
   (vol. 2, pp. 12–25, etext pp. 20–33) and the column «ཟླ་ཀླུང» of the tables of
   ch. 13 (vol. 1, etext p. 115).
 
