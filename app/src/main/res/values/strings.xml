@@ -1031,6 +1031,10 @@
     <string name="match_trigram_children">Children by the trigrams</string>
     <string name="match_hand_waver">one of the eight hand-wavers</string>
     <string name="match_hand_waver_subtitle">%1$s on %2$s</string>
+    <string name="match_section_rise">Rise and decline</string>
+    <string name="match_rise_man">The man\'s life force on the woman\'s year</string>
+    <string name="match_rise_woman">The woman\'s life force on the man\'s year</string>
+    <string name="match_rise_subtitle">%1$s on %2$s</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>

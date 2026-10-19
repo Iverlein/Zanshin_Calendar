@@ -28,6 +28,7 @@ import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.YearSexes
+import zanshin.core.tibetan.matchStageGrade
 import zanshin.core.tibetan.YearOfLife
 
 /**
@@ -189,6 +190,24 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                     english = "",
                     tone = if (niSha == NiSha.GOOD) Tone.GOOD else Tone.BAD,
                     reading = Texts.matchNiSha(niSha),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        Section(stringResource(R.string.match_section_rise))
+        listOf(
+            Triple(R.string.match_rise_man, man.vitality, m.woman),
+            Triple(R.string.match_rise_woman, woman.vitality, m.man),
+        ).forEach { (whose, vitality, other) ->
+            val stage = MatchReckoning.riseDecline(vitality, other.animal)
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.birth_share_title, stringResource(whose), stage.english),
+                    english = "",
+                    tone = when (matchStageGrade(stage)) { true -> Tone.GOOD; false -> Tone.BAD; null -> Tone.MIXED },
+                    reading = Texts.matchRiseDecline(stage),
+                    subtitle = labels.string(R.string.match_rise_subtitle, gloss(vitality, "inText"), signName(other, labels)),
                     titleIsKanji = false,
                 ),
                 onOpen,

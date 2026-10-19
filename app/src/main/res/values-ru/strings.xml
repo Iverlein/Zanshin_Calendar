@@ -886,6 +886,10 @@
     <string name="match_trigram_children">Дети по триграммам</string>
     <string name="match_hand_waver">один из восьми машущих рукой</string>
     <string name="match_hand_waver_subtitle">%1$s на триграмме: %2$s</string>
+    <string name="match_section_rise">Подъём и упадок</string>
+    <string name="match_rise_man">Жизненная сила мужчины на годе женщины</string>
+    <string name="match_rise_woman">Жизненная сила женщины на годе мужчины</string>
+    <string name="match_rise_subtitle">%1$s на годе %2$s</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
