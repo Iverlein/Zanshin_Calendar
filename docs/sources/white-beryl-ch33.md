@@ -28,7 +28,7 @@ already written out have their file named.
 | 356–359 (364–367) | The twelve day animals (*nyi ma bcu gnyis*), from the tiger: works good and bad, remedies; the opposed pairs (p. 359) | [day-animals.md](day-animals.md), read on the scan | built 2026-10-10, joined to KP's lists (ROADMAP T2.24, SPEC §5.10) |
 | 359 (367) | The twelve hours of the Chinese reckoning, the hour of one's own year, the four rough times; «དུས་ཚོད་མཚོན་ཆ་རྣོ་བ་ཡིན» | [weighing.md](weighing.md), *The hour of rule 2* | read 2026-10-10; built (SPEC §5.13) |
 | 365–368 (373–376) | The trigram and sme ba that rise on the date: works good and bad, with woodcuts; their remedies (p. 367–368) | [lunar-day-signs.md](lunar-day-signs.md), read on the scan 2026-10-19 | not built |
-| 359–370 (367–378) | The results of the earth lords by date: black months and days, the earth lords that move by date (strikes p. 364, sky doors pp. 368–369) | [earth-lord-courses.md](earth-lord-courses.md) | built with T2.13 |
+| 359–365, 368–370 (367–373, 376–378) | The results of the earth lords by date: black months and days, the earth lords that move by date (strikes p. 364, sky doors pp. 368–369) | [earth-lord-courses.md](earth-lord-courses.md) | built with T2.13 |
 | 371–376 (379–384) | The combination period, sign by sign; the weighing verse (p. 376) | [combination-period.md](combination-period.md), [weighing.md](weighing.md) | built (SPEC §5.12, §5.13) |
 
 Built from this chapter: the lunar dates, the weekdays, the personal
