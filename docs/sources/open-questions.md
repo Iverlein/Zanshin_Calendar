@@ -1222,6 +1222,14 @@ the text, not about the app.
     pebble reckonings as the fifth pebble, «ལྔ་པ་བླའམ་རུས་ཁམས། …བླ་ནི་སྲོག་གི་མ་བཞེད་ལེགས།»,
     the la or the clan's element; his la weekdays (printed p. 38) are WB's
     p. 330 table, given apart, with no tie to the mother element.*
+    *Narrowed further 2026-10-19: WB's notes use both senses, each in its
+    place. On the combined nine-eyes (vol. 2, p. 493, etext I1KG12907 p.
+    501): «སྦྲགས་མའི་དགུ་མིག་ལས། བླ་ནི་སྐབས་འདིར་ལུས་ཀྱི་མར་བཤད།», here the la is the body's mother; on
+    the illness reckoning (p. 495, etext p. 503): «བླ་ནི་སྲོག་མའོ།», the la is the life
+    force's mother. So WB's line, the body's mother "as is known" but the
+    life force's mother "agreeing with the tantras", names the two
+    reckonings it keeps apart; the weekdays by birth animal of p. 330 are
+    a third table, tied to neither.*
 
 81. **WB vol. 1, pp. 403, 405: the seven-red's two readings.** When a
     person born under the two-black mewa reaches a year on the seven-red,
