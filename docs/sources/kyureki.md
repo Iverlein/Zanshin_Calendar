@@ -1070,6 +1070,17 @@ found in GR:
   manuscript part at the north-west; which the 陰陽書 had is not settled.
 - Question: «土羨老» in §25 (GR and MS alike) and «丁歳之数» in §42: what is
   meant?
+  *Answered 2026-10-19: both are misreadings of a worn impression.* The
+  second copy of the same blocks (pid 2559255, img. 94, right page, read
+  at full size) carves «秋土用者土衰老故無威» plainly, 亠 over 衣, not 羨's 羊
+  over 次: "in the autumn's 土用 earth is declining and old, so it has no
+  authority". The five phases of a season in 淮南子 墬形訓 are 壯・老・生・
+  囚・死, autumn's «金壯，土老»: the phase that bore the ruling one is "old".
+  In §42 the manuscript (MS img. 38, left page, the last two columns)
+  writes «四時合二百有四日也是一歳之數不足故失陰陽之數仍云窮日»: the 往亡
+  days of the four seasons make 204, which falls short of one year's
+  number, so they lose the number of yin and yang and are called 窮日.
+  GR's «丁» is «一» with a stray hook.
 
 ### Searched and not found
 
