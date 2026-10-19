@@ -646,7 +646,7 @@ the text, not about the app.
     (*Mtshur phu dgon gyi dkar chag kun gsal me long*, MW20850) and the
     life of Karma Pakshi (MW18133) say the Drigung myriarch Rdo rje dpal,
     relying on Ariq Böke, petitioned the Mongol khan «ས་སྐྱ་དང་ཟློད་པའི་དོན་དུ», to
-    contend with Sakya; a gesar-type song has «ཐོབས་ཤེས་ཟློད་པའི་མདའ་མོ», an arrow
+    contend with Sakya; a Gesar episode (*Byang bdud gru gu g.yul rgyal*) has «ཐོབས་ཤེས་ཟློད་པའི་མདའ་མོ», an arrow
     contest (BDRC search snippets, 2026-10-19). Read so, the heading names
     "the palace gods who contend with works", those that set themselves
     against a work done on their seat; no reckoner glosses it.*
