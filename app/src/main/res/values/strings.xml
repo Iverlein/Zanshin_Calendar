@@ -1022,6 +1022,11 @@
     <string name="birth_rise_year">%1$s, counted onto the birth year</string>
     <string name="birth_rise_month">%1$s, counted onto the birth month</string>
     <string name="birth_rise_day">%1$s, counted onto the birth day</string>
+    <string name="birth_section_raising">Raising the child</string>
+    <string name="birth_raising_month">The birth month</string>
+    <string name="birth_raising_day">The birth day</string>
+    <string name="birth_raising_month_subtitle">A %1$s month</string>
+    <string name="birth_raising_day_subtitle">A %1$s day</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>

@@ -38,6 +38,8 @@ import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.smeBaElement
 import zanshin.core.tibetan.Element
+import zanshin.core.tibetan.RaisingDay
+import zanshin.core.tibetan.RaisingMonth
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
@@ -192,6 +194,35 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
                     },
                     gloss(forces[force], "inText"),
                 ),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    val month = BirthReckoning.raisingMonth(sign.animal, born.monthNames.animal)
+    val day = BirthReckoning.raisingDay(sign.animal, born.dayAnimal)
+    if (month != null || day != null) Section(stringResource(R.string.birth_section_raising))
+    month?.let {
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, stringResource(R.string.birth_raising_month), it.english),
+                english = "",
+                tone = if (it == RaisingMonth.GOOD) Tone.GOOD else Tone.BAD,
+                reading = Texts.raisingMonth(it),
+                subtitle = labels.string(R.string.birth_raising_month_subtitle, gloss(born.monthNames.animal)),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    day?.let {
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, stringResource(R.string.birth_raising_day), it.english),
+                english = "",
+                tone = if (it == RaisingDay.EASY) Tone.GOOD else Tone.BAD,
+                reading = Texts.raisingDay(it),
+                subtitle = labels.string(R.string.birth_raising_day_subtitle, gloss(born.dayAnimal)),
                 titleIsKanji = false,
             ),
             onOpen,

@@ -877,6 +877,11 @@
     <string name="birth_rise_year">%1$s, отсчитано до года рождения</string>
     <string name="birth_rise_month">%1$s, отсчитано до месяца рождения</string>
     <string name="birth_rise_day">%1$s, отсчитано до дня рождения</string>
+    <string name="birth_section_raising">Воспитание ребёнка</string>
+    <string name="birth_raising_month">Месяц рождения</string>
+    <string name="birth_raising_day">День рождения</string>
+    <string name="birth_raising_month_subtitle">Месяц: %1$s</string>
+    <string name="birth_raising_day_subtitle">День: %1$s</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
     <string name="birth_place_subtitle">%1$s среди первых, средних и последних годов</string>
