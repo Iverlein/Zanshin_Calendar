@@ -339,13 +339,14 @@ The box on the scan, KP BDRC img. 38 (O10f):
 - Good half: «༄། །གཟའ་སྤེན་ཟླ་ལྷག་ཕུར་སངས་ཚེས་༢ ༡༠ ༡༢ ༡༥ ༡༦ / ༡༧ ༢༨ ༢༡ ༡༤ ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༢༧ ༣༠ སྐར་མ་སྣར་ནབསོ་ནུཾ་མགོ་ / མཆུ་མྱེ་ནག་སྣྲོན་མོནྲེ་མོནྲུ་ས་རི་ལག་གྲོཞི་སྣྲུབས་ཆོད་ཆུཾད་ལྷཾས་ / ཁྲུཾད་ཞིང་རྨོ་ངན། སོན་འདེབས་བཟང་། ཚོར་བ་ཉི་མ་ལུག་ཁྱི་གླང་ / [ཁྱིམ་སྐྱེས] དུས་སྦྱོར་ཉ་བུམ་གླང་སྲང་ཆུ་སྲིན་[བྱིཞི]།»
 - Bad half: «༄། །གཟའ་ཉི་མིག་ཚེས་༤ ༨ ༡༤ ༢༨ / ༢༩ སྐར་མ་བྲཉེ་སྨིན་རྒྱལ་སག་ / དབོ་ཁྲོུཾད་ཉི་མ་ཕག་ཡོས་འབྲུག་ / སྦྲུལ་དུས་སྦྱོར་ལུག་ཀརྚ་སྡིག་ཉི་ནག་ཐེ་སེ་ / [ཁྱིམ་…]་གྲུམ་བུ་ས་རྒྱལ་འབྲུག་ལྷ་འཕུང་བྱེད།»
 
-- **Good:** Sat Mon Wed Thu Fri; dates 2, 10, 12, 15, 16, 17, 21, 22, 23, 24, 25, 26, 27, 30; snar ma, nabs so, nam gru, mgo, mchu, me bzhi, nag pa, snron, mon gre, mon gru, sa ri, lag, gro bzhin, snrubs, chu stod, chu smad, lha mtshams; days Sheep, Dog, Ox
-- **Bad:** Sun Tue; dates 4, 8, 14, 29; bra nye, smin drug, rgyal, sa ga, dbo, khrums stod; days Pig, Hare, Dragon, Snake
+- **Good:** Sat Mon Wed Thu Fri; dates 2, 10, 12, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 30; snar ma, nabs so, nam gru, mgo, mchu, me bzhi, nag pa, snron, mon gre, mon gru, sa ri, lag, gro bzhin, snrubs, chu stod, chu smad, lha mtshams; days Sheep, Dog, Ox
+- **Bad:** Sun Tue; dates 4, 8, 14, 28, 29; bra nye, smin drug, rgyal, sa ga, dbo, khrums stod; days Pig, Hare, Dragon, Snake
 - **Neither side:** the 28th, printed in both halves; one good date read ༡༤ or ༡༩ (the shapes of 4 and 9 cannot be told apart there); khrums smad (bad for ploughing, good for sowing)
 - **Not calculated:** Abhijit (good); the link ཚོར་བ; rising signs; srung bu, the earth lord, the Dragon god and the like
 - The good dates run in two lines and are read on the scan at three times the size; the readings by machine disagree on most of them.
 - **The scan (O10f):** The doubtful good date reads ༡༤ by the shape of the bad half's own 4 and 14 on the same folio (the open hook with a flat head): then the 14th, like the 28th, is printed in both halves and counts for neither side, not bad.
 - **Settled otherwise 2026-10-19 (open question 157):** the doubtful good date has the curled head of the print's 9 (box 19's own number, the bad half's 29 two lines away), not the flat head of the bad half's 4 and 14: it is ༡༩, as WB's sowing has it (19 good, 14 bad, p. 400). So the good dates add the 19th, and the 14th is bad; only the 28th stands in both halves. Built so.
+- **Read in the Bhutan print 2026-10-19** (I1KG11905, img. 384): the good half's second line is «༡༧ ༡༨ ༢༡ ༡༩ ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༢༧ ༣༠», the bad «༤ ༨ ༡༤ ༢༨ / ༢༩». The «༢༨» read in the good half was ༡༨: the 18th is good and the 28th bad, as the White Beryl's sowing has them (p. 400); no date stands in both halves. Built so.
 
 ### 23. Giving gifts and dowries — སྐྱས་བྱེད་པ་བཟང་བ
 
