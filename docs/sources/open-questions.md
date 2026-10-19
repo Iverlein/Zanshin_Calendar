@@ -1017,6 +1017,14 @@ the text, not about the app.
     pp. 300, 404) and avoids the 4th, 8th and 29th, which KL does not name
     (2026-10-12, RD10, [health.md](health.md)). BDRC's full-text search
     finds KL's line in KL alone (RD8).
+    *Narrowed 2026-10-19 ([health.md](health.md), *KL's tables in WB*): an
+    eighteenth-century Mongol commentary on the Four Tantras, Lung rigs bstan
+    dar's *Ornament of the Garland of the Victorious Myrobalan* (MW00KG07597,
+    img. 829, read on the scan), on the Last Tantra's chapter on moxa, avoids
+    both bloodletting and moxa on «ཚེས་ཅིག་དྲུག་བཅོ་བརྒྱད་ཉེར་གཉིས་ཉེར་བཞི་ཉ་སྟོང»,
+    the 1st, 6th, 18th, 22nd, 24th, full and new moon: KL's six and the 24th.
+    The list is a medical one, older than KL; its source and KL's dropping
+    of the 24th are not found.*
 
 80. **WB vol. 1, p. 253, and vol. 2, p. 330: the two la.** WB calls the la
     the mother of the life force («བླ་ནི་ལུས་མར་བརྩིར་གྲགས་ཀྱང་། །སྲོག་མ་རྒྱུད་ཀྱི་དོན་དང་འབྱོར།»),

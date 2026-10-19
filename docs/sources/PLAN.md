@@ -143,7 +143,10 @@ scratch directory, not in the repository:
   *G.ya' sel* (MW2PD17386_474815, and in the etext group
   VEIE0OPID552C050), are search-only: their snippets answer WB's own
   puzzles (open question 33 came from one); search a question's key
-  words with «ཞེས» to reach them.
+  words with «ཞེས» to reach them. For a list of dates whose source is
+  unknown, search the numbers as one run of number words
+  («བཅོ་བརྒྱད་ཉེར་གཉིས»), which found KL's moxa dates in Lung rigs bstan
+  dar's Four Tantras commentary (MW00KG07597; open question 79).
 - **An outline part's place in a volume:** `curl
   https://ldspdi.bdrc.io/resource/MW…_XXXX.json` gives the part's
   `contentLocation` (a CL… id) and its location statement; the CL…'s
