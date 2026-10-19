@@ -153,7 +153,7 @@ The five classes of illness, each with the sixteen starts of its pebbles (pp. 42
 
 > གྲང་བ་དམུ་ཆུ་མཁལ་ནད་དང་། །ཆུས་བསུབས་དྲེག་གྲུམ་སྐྱ་རྦབ་དང་། །ལྒང་བ་མཚན་མ་སྨད་མི་ཐེག །ལ་སོགས་ཆུ་ཡིས་རྐྱེན་ནད་རྣམས། །དང་པོ་གནམ་ལོ་གང་ཡིན་འཐབ། །གཉིས་པ་དགྲ་ཡི་བྱི་ནས་སྒྲུབ། །གསུམ་པ་རང་མཐུན་བྱི་ནས་སྒྲུབ། །བཞི་པ་མ་ཡི་བྱི་ནས་སྒྲུབ། །དྲུག་པ་དགྲ་དང་བདུན་པ་མ། །བརྒྱད་པ་རང་མཐུན་དགུ་པ་བུའི། །ཕག་ནས་གྱེན་བཀེན་དེ་དང་འཐབ། །བཅུ་པ་ཡར་བརྒྱད་བཅུ་གཅིག་མར། །བརྒྱད་ནས་སྒྲུབ་བཀེན་བྱས་པར་འཐབ། །བཅུ་གཉིས་བུ་ཡི་སྟག་ནས་སྒྲུབ། །བཅུ་གསུམ་མ་ཡི་སྦྲེལ་ནས་བཀེན། །བཅུ་བཞི་ཡར་ལྔ་བཅོ་ལྔ་མར། །ལྔ་ནས་སྒྲུབ་བཀེན་བཅུ་དྲུག་པ། །གོང་བཞིན་བདུན་ཟུར་འཐབ་པར་བྱ།།
 
-**Water** (cold, the *dmu chu* swelling, kidney disease, the dropsies, the *skya rbab*, tumours and the like). The same order from the rat: 1 the sky-year, whatever it is; 2 the enemy's rat; 3 the self-agreeing rat; 4 the mother's rat; (a fifth is not given); 6 the enemy and 7 the mother; 8 the self-agreeing and 9 the son's from the pig upward; 10 eight up and 11 eight down; 12 the son's tiger; 13 the mother's monkey; 14–15 five up and five down; 16 the "seven-corner" as above.
+**Water** (cold, the *dmu chu* swelling, kidney disease, the dropsies, the *skya rbab*, tumours and the like). The same order from the rat: 1 the sky-year, whatever it is; 2 the enemy's rat; 3 the self-agreeing rat; 4 the mother's rat; 5 the son's rat (a line the 1996 print drops; the Zhol print carves «ལྔ་པ་བུ་ཡི་བྱི་ནས་སྒྲུབ།», WBZ img. 555, l. 1, read at 1.6×, open question 46); 6 the enemy and 7 the mother; 8 the self-agreeing and 9 the son's from the pig upward; 10 eight up and 11 eight down; 12 the son's tiger; 13 the mother's monkey; 14–15 five up and five down; 16 the "seven-corner" as above.
 
 > གཞང་འབྲུམ་མཆིན་མཁྲིས་ཤིང་ཁ་ལྟུང་། །ཤིང་འཇོར་ཚེར་ཟུག་རྩ་རྒྱུས་ཆད། །སྒྱོགས་ཕོག་ཐོག་གི་འོག་ཏུ་ཆུད། །ཤིང་གིས་རྐྱེན་དང་གཞི་ཡི་ནད། །དང་པོ་གནམ་ལོ་དང་འཐབ་སྟེ། །གཉིས་པ་དགྲ་ལ་གསུམ་པ་རང་། །བཞི་པ་གྲོགས་ལ་ལྔ་པ་མ། །དྲུག་པ་དགྲ་ཡི་ཡོས་ནས་བཀེན། །བདུན་པ་མ་ལ་བརྒྱད་པ་རང་། །དགུ་པ་བུ་ཡི་ཡས་ནས་སྒྲུབ། །བཅུ་པ་ཡར་དང་བཅུ་གཅིག་མར། །བརྒྱད་ནས་སྤུབ་བཀེན་བཅུ་གཉིས་པ། །བུ་ཡི་སྟག་ནས་སྤུབ་པར་བྱ། །བཅུ་གསུམ་མ་ཡི་སྤྲེལ་ནས་བཀེན། །བཅུ་བཞི་ཡས་དང་བཅོ་ལྔ་མར། །ལྔ་ནས་སྦུབ་བཀེན་བཅུ་དྲུག་པ། །བདུན་ཟུར་གོང་བཞིན་འཐབ་པར་བྱ།།
 
@@ -1178,3 +1178,27 @@ KL's notes give the "Iron-block" (ལྕགས་པར་མ, lcags par ma) Fou
   two lists are of different things. The mansion names in the English
   follow the table of [mansions.md](mansions.md); the supplement's spellings
   differ from WB's in places («གྲེ་བོ», «སྨོན», «སྣུབས», «བཙུ»).
+
+## The sixteen pebbles' starts, 2026-10-19 (open question 46)
+
+- **The water class's missing pebble is a line the 1996 edition drops.**
+  The Zhol print carves the water class whole (WBZ img. 555, l. 1, read
+  at 1.6×): «…།གཉིས་པ་དགྲ་ཡི་བྱི་ནས་སྒྲུབ། །གསུམ་པ་རང་མཐུན་བྱི་ནས་སྒྲུབ། །བཞི་པ་མ་ཡི་བྱི་ནས་སྒྲུབ། །ལྔ་པ་བུ་ཡི་བྱི་ནས་སྒྲུབ། །དྲུག་པ་དགྲ་དང་བདུན་པ་མ། །བརྒྱད་…»:
+  the fifth starts from the son's rat. (The water class names no friend:
+  self, mother and son, where the iron class has power, friend and
+  mother; so the classes do not all run the same relations.)
+- **How a start is counted.** WB's own iron class says it in full,
+  «གཉིས་པ་བརྩི་བྱའི་ཁམས་དེ་ཡི། །དགྲ་སྦྲེལ་དུ་ལོན་ཐུར་སྒྲུབ་འཐབ།», "second: the enemy's
+  monkey of the element of the one reckoned, counted down by as many as
+  [the years] lived, fights": the relation names the element of the
+  starting year (the monkey of the element that is the enemy of the sick
+  person's), and the sick person's age is counted from it. Each class
+  starts from its element's two animals, the male counted down (སྒྲུབ,
+  སྦུབ, སྤུབ) and the female up (བཀེན): iron the monkey and the bird, water the
+  rat and the pig, wood the hare (up; the line where the tiger would
+  stand reads «བུ་ཡི་ཡས་ནས་སྒྲུབ», not settled), fire the horse and the
+  snake, earth the dragon and the sheep, the pregnant the dog and the ox
+  (earth's other pair); the 12th (the son's tiger, down) and the 13th
+  (the mother's monkey, up) are the same in every class. It is the rule
+  of the thirty (ch. 26, [reckonings.md](reckonings.md)): the male year
+  counted down, the female up, by the years of the one reckoned.

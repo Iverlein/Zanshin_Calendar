@@ -625,7 +625,14 @@ the text, not about the app.
     («དམག་དབུལ་ཉི་ཕྱེད», vol. 1, p. 156, etext). Its course, the day it falls,
     is not found: ch. 31 has no «དབུལ» (etext searched).*
 
-46. **WB vol. 1, pp. 420–421: the animals and relations of the sixteen pebbles.** p. 420–421. For each class of illness (iron, water, wood, fire, earth) the sixteen pebbles name an animal to count from (the monkey and bird for iron, the rat and pig for water, the tiger and hare for wood, the horse and snake for fire, the dragon, ox, sheep and dog for earth) and a relation (enemy, mother, friend, "agreeing" with power or with self, son). Is the animal always one of the class element's two (or four) animals, with the relation fixing which element of the sick person is compared, and is the count (down «ཐུར», up «བཀེན») the sick person's age from that animal? The water class names no friend's start (pebbles 4 and 5 are not both given): a misprint? (2026-10-12, RD12, [health.md](health.md))
+46. **Answered 2026-10-19. WB vol. 1, pp. 420–421: the animals and relations of the sixteen pebbles.** p. 420–421. For each class of illness (iron, water, wood, fire, earth) the sixteen pebbles name an animal to count from (the monkey and bird for iron, the rat and pig for water, the tiger and hare for wood, the horse and snake for fire, the dragon, ox, sheep and dog for earth) and a relation (enemy, mother, friend, "agreeing" with power or with self, son). Is the animal always one of the class element's two (or four) animals, with the relation fixing which element of the sick person is compared, and is the count (down «ཐུར», up «བཀེན») the sick person's age from that animal? The water class names no friend's start (pebbles 4 and 5 are not both given): a misprint? (2026-10-12, RD12, [health.md](health.md))
+    *Answered 2026-10-19 ([health.md](health.md), *The sixteen pebbles'
+    starts*): yes to both, and the water class's gap is the 1996 edition's.
+    WB's iron class says it in full, «དགྲ་སྦྲེལ་དུ་ལོན་ཐུར་སྒྲུབ་འཐབ»: the enemy-element
+    monkey, the years lived counted down from it. Each class uses its
+    element's male animal counted down and female counted up. The Zhol print
+    carves the water class's fifth, «ལྔ་པ་བུ་ཡི་བྱི་ནས་སྒྲུབ།» (WBZ img. 555), so water runs
+    self, mother and son and names no friend.*
 
 47. **Answered 2026-10-18. WB vol. 1, pp. 417–421: «སྤུབ», «སྒྲུབ», «སྦུབ».** pp. 417–421. The same word of the count is printed «སྤུབ» (pp. 417–419, 421), «སྒྲུབ» (p. 420) and «སྦུབ» (MITRA's reading throughout); the print's scan (694 px) shows «སྤུབ» and «སྒྲུབ» as two spellings. Are they one verb (to turn down) with the older spelling, and does it differ from «བཀེན» (up) only by direction? (2026-10-12, RD12, [health.md](health.md))
     *Answered 2026-10-18 ([health.md](health.md)): one verb, turning down.
