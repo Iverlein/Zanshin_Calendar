@@ -966,3 +966,20 @@ the enemy pairs' own rites by element («ཤིང་དང་ལྕགས་ག
 («ཤིང་ལྕགས་མི་མཐུན་སྐྱེར་པ་ཡི། །ཕུར་པ …»); in the two destinies, the line «ཕ་ཁུ་མནའ་འོང་མི་མཐའ་འོང»
 (wood and iron) and «ངན་རུང་མོ་ཡིས་ཕོ་བཅད་ཉན», not settled. *Ni sha* shows only a match
 fully as wanted or reversed in the man's age or both years' sexes.
+
+## Built, 2026-10-19 (ROADMAP R3b)
+
+Point 1's kinds of year not joined («ཁ་ཡན་ཁོང་ནོང་སེ་ཞིག་དང་། །ཁ་རལ་མདུན་ཁུར་ནང་མི་སྡེབ», each
+with its harm and rite) and point 2's named bad years (pp. 353–354), as
+quoted above: `BadYear`, `MatchSameKind`. The harsh years' rite is
+given as far as its sense is plain (the seven cairns, the measure of
+grain, the five portions, the shout and the chase); «སྣ་སྲེག་བྱ་ར་ཁྱི་ལ་བྱ» and «མི་བདུན་ས་ཕུགས་སྐུངས་ལ་བཞག»
+are left out. Each name of the seven of bad omen and the six little white
+(«མེ་བུས་བཤུལ་མེད», «བདུད་ཁྱི་གནམ་ཟུག» …) is left in this file; the twelve escorting years
+(«ཐན་སྐྱེལ་ལོ་ནི་བཅུ་གཉིས་ལ། །ལྕགས་བྱི་ནས་བཟུང་ལྕགས་ཕག་བར») are not built, its run of years not
+settled; nor the mewa paths' years with five or two elements, nor the
+grave-meeting rites («འབྱུང་བ་དུར་འདོན་གཏོ་བཅོས», the *'Phags pa bgres mos zhus pa*). The year
+animals' pairs of point 1 give several lists that disagree (the pig
+taking a mouse long-lived in one and quarrelsome in another): not built.
+The «ཐན» of the seven persons is named «ཐན་པ» (the print's «ཐན་པའི་མི་བདུན»), since «than»
+alone is an English word to the naming check.

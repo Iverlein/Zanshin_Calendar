@@ -636,6 +636,17 @@ birth years, for a person with a gender and a spouse entered among their
 relatives (the spouse taken as the other sex where theirs is not set).
 `MatchReckoning` (core `tibetan/Match.kt`):
 
+- **The years** (pp. 351–354): two spouses of the same kind of year by
+  destiny against life force (*kha yan*, *khong nong*, *se zhig*, *kha
+  ral*, *'dun khur*, §5.9.2) are not joined, each kind with its harm and
+  rite; and each spouse's birth year in the named bad years: the harsh
+  (iron's four and fire's eight, two to a name, with their rite), the
+  seven of bad omen, the six little white, the seven of ill omen, the
+  watchmen of sky and earth, the four black men of the grave, the three
+  black *lding* sons, the eleven carried off by rākṣasas and the four
+  *ther 'dre* (bad for the one born), the eight of widowhood, the eight
+  to avoid; a woman under the two-black mewa, the black years with
+  fangs. `BirthTest` holds the lists' sizes.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -650,8 +661,9 @@ relatives (the spouse taken as the other sex where theirs is not set).
   a female year and younger, not reversed; the man younger, or her year
   male and his female, reversed, with its remedy; otherwise not shown.
 
-**Not calculated** yet: the kin and the years together (point 1, with
-its pairs of year animals), the bad years (2), the hidden and the
+**Not calculated** yet: the kin (point 1's first part, asked) and its
+pairs of year animals, whose several lists disagree; the mewa paths'
+years with five or two elements (2); the hidden and the
 deeper hidden (4, 5), the siblings' number (7), the clans (8, 9, asked),
 the birth dates' month, planet and mansion (10) and the rest.
 
@@ -3332,7 +3344,10 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   by one as R2… (ROADMAP R), in the order of the inventory (RD11, RD17);
   `Reckoning` in the app lists them.
 - **The marriage match** (§5.9.3): Back, the title and the person's
-  name; the man's and the woman's birth years; under "The single match"
+  name; the man's and the woman's birth years; under "The years" the
+  same kind ("Both of one kind · life force and destiny one") and each
+  bad year ("The man's year · a harsh year · Fire Dragon"), or a line
+  that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's
   earth") and the wife of karma where it holds; under "The two
   destinies" their pair; *ni sha* where it is good or reversed; a line

@@ -44,7 +44,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
   the gods, glory, life, spirits or demons it makes one, the birth
   year's destiny against its life force, its place, its luck triad and
   the cutting among its aspects, the year against one's clan, and the readings of the parents' trigrams at the
-  birth; and the marriage match with a spouse: the four aspects met one
+  birth; and the marriage match with a spouse: the bad years, the four aspects met one
   by one, the two destinies together and whether the match is reversed.
 - **Health:** what falling ill today means by the date, the weekday,
   the link and the goddess of the day, the four perilous days; where the
