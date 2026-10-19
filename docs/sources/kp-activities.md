@@ -555,11 +555,11 @@ The box on the scan, KP BDRC img. 50 (O10f):
 - Good half: «༄། །གཟའ་ཟླ་ལྷག་སངས་༼ཉི་ཕུར༽ ཚེས་ / ༨ ༥ ༡༤ ༢༩ སྐར་མ་ཁྲུཾད་ནབསོ་ཁྲོུཾད་ / རྒྱལ་མཆུ་དབོ་སྣྲུབས་ཆོད་ཆུཾད་བྲཉེ་ལག་[…] / ས་བསྟེན་ཚོར་བ་ཉི་མ་རྟ་ཕྱི་བང་བྲིས་པ་[…]་བཟང་། / དུས་སྦྱོར་ལུག་གཞུ་ཆུ་སྲིན་སེངྒེ་གླང་»
 - Bad half: «༄། །གཟའ་མིག་སྤེན་ཚེས་༡༡ ༡༢ ༡༣ ༤ ༧ ༩ ༡༠ [༡༣] ༡༨ ༢༡ / ༢༢ ༢༣ ༢༥ ༢༦ ༢༧ ༢༨ ༢༩ ༣༠ སྐར་མ་གྲེ་སྣྲོན་ཉི་མ་སྦྲུལ་ / ཁེན་དུས་སྦྱོར་ཀརྚ་སྲང་འཕུང་བྱེད་ཞིབ་རྩིས་བྱེད་ན་སྨེ་བ་ཙཀྲ་དང་། སྦྲུལ་འཁོར་ / ལ་བསྟུན་དགོས་ཀྱང་ཀུན་གྱི་སྤྱོད་ཡུལ་དུ་མ་གྱུར་པས་འདིར་མི་གསལ།»
 
-- **Good:** Mon Wed Fri; dates 8, 5, 14; khrums smad, nabs so, khrums stod, rgyal, mchu, dbo, snrubs, chu stod, chu smad, bra nye; days Horse
-- **Bad:** Tue Sat; dates 11, 12, 13, 4, 7, 9, 10, 18, 21, 22, 23, 25, 26, 27, 28, 30; gre, snron; days Snake; trigrams khen
-- **Neither side:** the Sun and Thursday (in brackets); the 29th (in both halves); lag (with a qualifier not read)
+- **Good:** Mon Wed Fri; dates 4, 5, 16, 24; khrums smad, nabs so, khrums stod, rgyal, mchu, dbo, snrubs, chu stod, chu smad, bra nye; days Horse
+- **Bad:** Tue Sat; dates 11, 12, 3, 6, 7, 9, 10, 13, 14, 21, 22, 23, 25, 26, 27, 28, 29, 30; gre, snron; days Snake; trigrams khen
+- **Neither side:** the Sun and Thursday (in brackets); lag (with a qualifier not read)
 - **Not calculated:** rising signs; 'phung byed; a closing note that the sme ba chart should also be weighed
-- One more bad date in the first line, read 13 or 15, is left out.
+- **The dates read on the scan 2026-10-19** (img. 50 at 4×, the digit shapes of open question 157): good «༤ ༥ ༡༦ ༢༤», bad «༡༡ ༡༢ ༣ ༦ ༧ ༩ ༡༠ ༡༣ ༡༤ ༢༡ / ༢༢ ༢༣ ༢༥ ༢༦ ༢༧ ༢༨ ༢༩ ༣༠», the White Beryl's work 38 date for date (vol. 2, p. 406: «ཚེས་ནི་བཞི་ལྔ་བཅུ་དྲུག་དང་། །ཉེར་བཞི་བཟང་ལ་གསུམ་དྲུག་བདུན། …»). The O10f reading in the box above took the good 4 (the flat-headed crescent) for 8, 16 for 14 and 24 for 29, and the bad «༣ ༦» for «༡༣ ༤» and 14 for 18; it is kept as it was. The 29th is bad only, and the 8th and 18th are on neither side. The 12's second digit is carved close to the 3 beside it; WB's list settles it.
 - **The scan (O10f):** The good half's fourth line reads «ས་བསྟེན་ཚོར་བ»: the link feeling (tshor ba) may be plain there, or under the qualifier before it; not settled. The bad half's closing note: an exact reckoning would follow the sme ba wheel and the snake wheel (སྦྲུལ་འཁོར, sbrul 'khor), not given because not in common use.
 
 ### 43. Putting on ornaments — རྒྱན་འདོགས་པར་བཟང་བ

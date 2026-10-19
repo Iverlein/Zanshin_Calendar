@@ -78,7 +78,7 @@ agree with the box as built; the additions are in the next section.
 | 35 | Divination | 405 (413) | all | 38 | same |
 | 36 | Enthronement | 405 (413) | all | 39 | adds the dates |
 | 37 | Weapons | 405 (413) | all | 40 | same |
-| 38 | Attendants and servants, with the snake wheel | 406 (414) | all | 41 | decides two dates, adds others |
+| 38 | Attendants and servants, with the snake wheel | 406 (414) | all | 41 | the same dates; adds the link feeling and khon |
 | 39 | Marriage, with its many wheels | 406–413 (414–421) | all | 42 | decides Svātī, adds dates |
 | 40 | Ornaments | 413 (421) | all | 43 | adds a trigram |
 | 41 | Funeral works | 413–414 (421–422) | all, many by kind of rite | 45 | adds a date |
@@ -189,8 +189,9 @@ entry.
   forbidden by the Chinese reckoning, neither.
 - **38 Servants** (p. 406): «ཚེས་ནི་བཞི་ལྔ་བཅུ་དྲུག་དང་། །ཉེར་བཞི་བཟང་ལ་གསུམ་དྲུག་བདུན། …
   གནམ་གང་། །བྲན་གཡོག་བསྟེན་པའི་ཚེས་འབྲས་ངན» — 4, 5, 16, 24 good, eighteen
-  dates bad; KP has the 4th bad and the 14th good, the chapter the
-  reverse. «སྤར་ཁོན་འཆར» avoided — khon bad.
+  dates bad; KP's box, read on the scan 2026-10-19, has the same dates
+  (the O10f reading had the 4th bad and the 14th good, misread digits).
+  «སྤར་ཁོན་འཆར» avoided — khon bad.
 - **39 Marriage** (p. 412): «ས་རི(༡༤) དབོ(༡༡) དང་ཆུ་སྨད(༢༠) སྟེ། །བཟང» —
   Svātī good (KP names it twice). «… བཅོ་ལྔ་བཅུ་བདུན་བཅོ་བརྒྱད་དགུ། །བཅུ་དགུ་ཉེར་གཅིག་ཉི་ཤུ་གཉིས། …
   ངན། །བཅུ་བཞི་བདུན་བཟང་ལུགས་ཀྱང་ཡོད། །འདིར་ནི་དེ་དག་བཀག» — 14, 18,
@@ -613,6 +614,7 @@ Written out whole in the O2 section below (*2. Learning*); its good dates are «
 > རེས་ཀྱི་གཟའ་ལ་ཟླ་བ(༢)ལྷག(༤)། །པ་སངས(༦)བཟང་ལ་ཉི(༡)ཕུར(༥)འབྲིང་། །མིག(༣)སྤེན(༠)གཉིས་པོ་ངན་པ་ཡིན། །ཁྲུམས་སྟོད(༢༤)ཁྲུམས་སྨད(༢༥)ནབས་སོ(༦)རྒྱལ(༧)། །མཆུ(༩)དབོ(༡༡)སྣྲུབས(༡༨)དང་ཆུ་སྟོད(༡༩)སྨད(༢༠)། །བཟང་བ་ཡིན་ཏེ་བྲ་ཉེ(༡)ཡང་། །ཡུགས་བསྟེན་ལ་ནི་བཟང་བ་ཡིན། །རྟ་ཆུང(༡༠)སྒྲོན(༡༧)རྣམས་ངན་པ་ཡིན། །གཞན་མ་རྣམས་ལ་བཏང་སྙོམས་ཡིན། །ཚེས་ནི་བཞི་ལྔ་བཅུ་དྲུག་དང་། །ཉེར་བཞི་བཟང་ལ་གསུམ་དྲུག་བདུན། །དགུ་བཅུ་བཅུ་གཅིག་བཅུ་གཉིས་དང་། །བཅུ་གསུམ་བཅུ་བཞི་ཉི་ཤུ་གཅིག །ཉེར་གཉིས་ཉེར་གསུམ་ཉི་ཤུ་ལྔ། །ཉེར་དྲུག་བདུན་བརྒྱད་དགུ་གནམ་གང་། །བྲན་གཡོག་བསྟེན་པའི་ཚེས་འབྲས་ངན། །ལུག་གཞུ་སེང་གེ་ཆུ་སྲིན་གླང་། །བཟང་ལ་ཀར་སྲང་ངན་པ་ཡིན། །རྟ་ཡི་ཉི་མར་དགེ་བར་བཤད། །ས་ཡི་ཕུང་བྱེད་སྤར་ཁོན་འཆར། །སྦྲུལ་ཉི་རྣམས་ལ་འཛེམ་པ་ཡིན། །རྟེན་འབྲེལ་ཚོར་བ་བཟང་བ་ཡིན། །བྱི་བའི་ཉི་མར་བྱིས་བསྟེན་འཕྲོད།།
 
 - bra nye only «ཡུགས་བསྟེན་ལ་བཟང» (good for taking a widow into service): qualified, while KP box 41 has bra nye plain good. Link feeling (tshor ba) good: KP box 41's «ཚོར་བ» is plain. Mouse day good for taking children into service.
+- Dates: KP box 41, read on the scan 2026-10-19, has these dates exactly (good 4, 5, 16, 24; the eighteen bad); the O10f reading's 8, 14, 29 good and 4, 18 bad were misread digits ([kp-activities.md](kp-activities.md), box 41).
 
 ### 39. Marriage (pp. 412–413, img. 420–421; the wheels for the couple before it, pp. 406–412, not written out; the dates are in the O2 section)
 
