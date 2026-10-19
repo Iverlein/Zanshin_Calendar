@@ -1037,6 +1037,13 @@ found in GR:
   with 牛 apart. Did the 具注暦 of the 15th century print the 二十八宿 with
   these classes, and from where do the modern almanac's lists (the
   app's) come?
+  *Answered for the mansions themselves, 2026-10-19:* not the 二十八宿. By
+  NAOJ's 暦Wiki (*K4: three claims settled*, question 4, below) the
+  almanac's 宿 before the 貞享暦 (1685) were the 宿曜經's 二十七宿, without 牛,
+  from a fixed first day each month; the 二十八宿 as an 暦注, assigned
+  continuously as the app does (`Rekichu.kt`), begin with the 貞享暦. So a
+  15th-century 具注暦 counted the 27, which §59's classes, 牛 apart, fit;
+  whether it printed the classes beside them is not said.
 - Question: 往亡 (§42) counts "the 7th day from 立春" and so on: is the
   節's own day the first day (the app's count) or day zero?
   *Answered 2026-10-19: the first day, as the app counts.* A present-day
@@ -1819,17 +1826,17 @@ The five questions on RM's print (小寒, 秋分, 小暑, 大暑, the 土用 pas
 are answered from the manuscript, pid 2533201, in K3-R's *For K6-R's
 questions* (2026-10-15).
 
-- Question: RM's 群書類從 print sets 小寒 «配于亥» (image 26, left page)
+- *Answered 2026-10-15 (For K6-R's questions, above).* Question: RM's 群書類從 print sets 小寒 «配于亥» (image 26, left page)
   while its own gloss says «故癸主十二月» and the series of directions
   asks 癸: is 亥 a misprint, and what does the manuscript (pid 2533201)
   read?
-- Question: RM prints «故酉主地分» in 秋分's gloss (image 24, left page):
+- *Answered 2026-10-15 (For K6-R's questions, above).* Question: RM prints «故酉主地分» in 秋分's gloss (image 24, left page):
   is 地分 an error for 秋分?
-- Question: RM prints «又小暑者、極熱之物也» (image 22, left page): is 物 an
+- *Answered 2026-10-15 (For K6-R's questions, above).* Question: RM prints «又小暑者、極熱之物也» (image 22, left page): is 物 an
   error, for 初 or the like ("the beginning of the great heat")?
-- Question: RM prints «又大大暑月半極熱之中為大» (image 23, right page):
+- *Answered 2026-10-15 (For K6-R's questions, above).* Question: RM prints «又大大暑月半極熱之中為大» (image 23, right page):
   is the doubled 大 a dittography, or «大» glossed and then «大暑» named?
-- Question: RM's 土用 passage prints spring's first eighteen days with a
+- *Answered 2026-10-15 (For K6-R's questions, above).* Question: RM's 土用 passage prints spring's first eighteen days with a
   glyph like 刀 where 寅 is expected (image 38, left page), and reads
   «秋金用時無禁金石» and «冬水用時無澤池堰»: what are the right readings of
   the two prohibitions?
