@@ -27,6 +27,7 @@ import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.PowerYear
+import zanshin.core.tibetan.YearPlace
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
@@ -375,6 +376,8 @@ object Sources {
     val WHITE_BERYL_PARENTS_TRIGRAMS = whiteBeryl("chapter 22, p. 326", volume = 1)
     /** The special pebble: the birth year against the clan's element (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_SPECIAL_PEBBLE = whiteBeryl("chapter 22, pp. 259, 261 and 284–286", volume = 1)
+    /** The first, middle and last years (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_YEAR_PLACE = whiteBeryl("chapter 22, p. 283", volume = 1)
     /** The triads of one luck (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_LUCK_TRIAD = whiteBeryl("chapter 22, pp. 280–281", volume = 1)
     /** The year's own destiny, the pebble of power (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -1969,6 +1972,10 @@ object Texts {
     /** The reading of the triad of birth years whose luck is [luck] (WB vol. 1, ch. 22, pp. 280–281). */
     fun luckTriad(luck: Element): Reading =
         Reading(key = "reading.LuckTriad", arg = "reading.LuckTriad.${luck.name}", source = Sources.WHITE_BERYL_LUCK_TRIAD)
+
+    /** The reading of a first, middle or last birth year (WB vol. 1, ch. 22, p. 283). */
+    fun yearPlace(y: YearPlace): Reading =
+        Reading(key = "reading.YearPlace", arg = "reading.YearPlace.${y.name}", source = Sources.WHITE_BERYL_YEAR_PLACE)
 
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =

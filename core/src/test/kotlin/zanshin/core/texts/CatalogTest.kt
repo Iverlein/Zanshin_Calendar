@@ -51,6 +51,7 @@ import zanshin.core.tibetan.Yoga
 import zanshin.core.tibetan.BasicSign
 import zanshin.core.tibetan.HarshYear
 import zanshin.core.tibetan.KinObstacle
+import zanshin.core.tibetan.YearPlace
 import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.BirthOmen
@@ -163,6 +164,7 @@ class CatalogTest {
         ClanYear.entries.forEach { out += Texts.clanYear(it) }
         PowerYear.entries.forEach { y -> out += Texts.powerYear(y); Element.entries.forEach { out += Texts.powerYearOf(y, it) } }
         listOf(Element.WOOD, Element.IRON, Element.WATER, Element.FIRE).forEach { out += Texts.luckTriad(it) }
+        YearPlace.entries.forEach { out += Texts.yearPlace(it) }
         Care.entries.forEach { out += Texts.yearCare(it) }
         return out.toList()
     }
@@ -488,7 +490,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

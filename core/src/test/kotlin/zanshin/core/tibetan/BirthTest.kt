@@ -136,4 +136,13 @@ class BirthTest {
         val counts = (0 until 60).groupingBy { BirthReckoning.powerYear(YearOfLife.signOf(it)) }.eachCount()
         assertEquals(PowerYear.entries.associateWith { 12 }, counts)
     }
+
+    /** P. 283: four first, four middle and four last years. */
+    @Test
+    fun `the first, middle and last years`() {
+        val places = Animal.entries.groupBy { BirthReckoning.yearPlace(it) }
+        assertEquals(listOf(Animal.TIGER, Animal.SNAKE, Animal.MONKEY, Animal.PIG), places.getValue(YearPlace.FIRST))
+        assertEquals(listOf(Animal.MOUSE, Animal.RABBIT, Animal.HORSE, Animal.BIRD), places.getValue(YearPlace.MIDDLE))
+        assertEquals(listOf(Animal.OX, Animal.DRAGON, Animal.SHEEP, Animal.DOG), places.getValue(YearPlace.LAST))
+    }
 }

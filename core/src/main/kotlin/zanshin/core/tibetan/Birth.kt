@@ -44,6 +44,18 @@ enum class PowerYear(val wylie: String) {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The first, middle and last years (*ra 'bring tha ma*, p. 283): the tiger, monkey, pig and snake the first; the mouse,
+ * horse, bird and hare the middle; the ox, sheep, dog and dragon the last.
+ */
+enum class YearPlace(val wylie: String) {
+    FIRST("ra ba"),
+    MIDDLE("'bring po"),
+    LAST("tha chung");
+
+    val english: String get() = gloss(this)
+}
+
 /** How a birth year stands to the clan's element, the special pebble (*sgos rdel*, p. 261), in the order of its readings (pp. 284–286). */
 enum class ClanYear {
     GREAT_PENALTY,
@@ -132,6 +144,13 @@ object BirthReckoning {
             Kinship.ENEMY -> PowerYear.DUN_KHUR
             Kinship.FRIEND -> PowerYear.KHA_RAL
         }
+    }
+
+    /** Whether a year of [animal] is a first, middle or last year (p. 283). */
+    fun yearPlace(animal: Animal): YearPlace = when (animal) {
+        Animal.TIGER, Animal.MONKEY, Animal.PIG, Animal.SNAKE -> YearPlace.FIRST
+        Animal.MOUSE, Animal.HORSE, Animal.BIRD, Animal.RABBIT -> YearPlace.MIDDLE
+        Animal.OX, Animal.SHEEP, Animal.DOG, Animal.DRAGON -> YearPlace.LAST
     }
 
     /** How a birth year of [animal] stands to [clan] (p. 261). */
