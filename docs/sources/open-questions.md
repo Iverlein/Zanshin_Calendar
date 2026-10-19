@@ -1329,6 +1329,15 @@ the text, not about the app.
     dbyings stobs ldan rdo rje's prose and Lha mo tshul khrims's verse, give
     the secret obstacle by the birth trigram alone («རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན») and
     leave out «མ་སྤར་ལི»; what «མ» means stays open.*
+    *Narrowed 2026-10-19: KD's supplement to the *'Byung rtsis man ngag
+    rlu ba'i 'od zer*, the *Rgyu skar phreng ba* (KD vol. 3, printed p.
+    655, etext I4717 p. 675), copies WB's passage but gives the secret
+    obstacle by the birth trigram alone and moves the clause to a note:
+    «འདི་ལ་གཞན་ཡང་མ་སྤར་ལི་བུ་ལ་གསང་ཀེག་དང་། །མ་སྤར་ཁམ་བུ་མོར་གསང་ཀེག་ཏུ་འདོན་འབྲས་བུ་མཐུན་པར་བཤད།», some read in addition "ma spar li, a
+    secret obstacle for the son; ma spar kham, for the daughter", with the
+    same results. So a third restatement treats the clause as a variant;
+    none glosses «མ». WB's remedy, «མ་ཡོད་མ་མེད་དང་སྦྱར་བའི། །མ་ཀླུངས་གཏོ་ཆོག», and the notes'
+    «མ་ད་ལྟ་ཡོད་ན» tie the rite to the mother either way.*
 
 92. **Answered 2026-10-18. The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
     །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed
