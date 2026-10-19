@@ -62,6 +62,19 @@ says so; the lists above each bullet are as built before it, and the
 bullets' readings were built on 2026-10-15 (ROADMAP T2.28, `Electional.kt`),
 as was the table of *What the table should now carry* below.
 
+**The numerals re-read, 2026-10-19.** O10f's numerals are least sure where
+the print's digits look alike: its 4 (a crescent with a flat head) and 9
+(the crescent with a raised, curled head), its 6 (a hook at the top left)
+and 4, its 2 (often crossed) and 3, and two single digits standing close
+(«༢ ༦» read 26). Every box whose dates WB's chapter 34 also lists was
+compared with it, and each disagreement read again on the scan at 3× to 8×:
+boxes 21, 22, 35, 41, 54, 56 and 60 were misread and now carry the
+print's own digits, each WB's date for date (sections below); boxes 8, 34,
+45 and 56's good 27 differ from WB in the text itself (WB's work 7, 32, 41
+and 53). The boxes WB names no dates for (17, 24, 28–30, 57–59 and others)
+keep the O10f digits, read against nothing. A further sweep of O10f's
+digits should start from those shapes.
+
 ### 2. Naming — མིང་འདོགས་པ་ལ་བཟང་བ
 
 KP img. 21, KP2 img. 240.
