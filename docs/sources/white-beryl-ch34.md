@@ -584,7 +584,7 @@ Written out whole in the O2 section below (*2. Learning*); its good dates are «
 
 > ༣༣ གཏར་མེ་དཔྱད་བཅོས་བྱེད་པ་ལས། །ཟླ(༢)ལྷག(༤)ཕུར་བུ(༥)པ་སངས(༦)བཟང་། །ཉི(༡)སྤེན(༠)ངན་ཏེ་མིག་དམར(༣)ལ། །གཏར་དཔྱད་འཛེམ་ལ་མེ་བཙའ་བཟང་། །ལྷ་མཚམས(༡༦)ནམ་གྲུ(༢༦)གྲོ་བཞིན(༢༡)བྱིན(༢༡)མཆུ(༩)། །སྣར་མ(༣)ནབས་སོ(༦)རྒྱལ(༧)ས་རི(༡༤)། །སྣྲོན(༡༧)བཟང་ལ་ལག(༥)དང་ནི། །ཁྲུམས་སྨད(༢༥)གྲེ(༡༠)དབྱུག(༠)བྲ་ཉེར(༡)ངན། །གཞན་མ་རྣམས་ནི་བཏང་སྙོམས་ཡིན། །གླང་འཁྲིག་བུ་མོ་ཉ་བཟང་སྟེ། །ཀཎྜ་སྲང་སེང་གཞུ་རྣམས་འབྲིང་། །ལུག་སྡིག་ཆུ་སྲིན་བུམ་པ་ངན། །ཚེས་གྲངས་བཞི་བརྒྱད་ཉེར་དགུ་དང་། །གནམ་གང་རྣམས་ངན་བཅུ་གཅིག་དང་། །བཅོ་བརྒྱད་ལ་ནི་བཟང་བའོ། །བིཥྚི་རྒྱུ་ཚེས་ངན་ཟེར་ཀྱང་། །གདོང་ཐུག་དུས་གནད་ཤེས་པ་དགོས། །གཞན་མ་སོ་སོའི་བླ་གནས་བསྟུན། …། །བྱ་དང་ཁྱི་བཟང་འབྲུག་སྦྲུལ་དང་། །ལུག་ཉི་ངན་པས་སྤང་བར་བྱ། །ལོ་དང་ཟླ་བ་ཚེས་གྲངས་ཀྱི། །སྤར་ཁ་ལི་དང་སྨེ་གཉིས་ནག །བདུན་དམར་འཆར་དུས་སྲོག་ཚེས་དང་། །འཆི་སྦྱོར་ས་ཡི་ཕུང་བྱེད་རྒྱུ། །བིཥྚི་རྒྱུ་བའི་དུས་ཚོད་ལ། །འཛེམ་པའི་དུས་ཡིན་ཁྱད་པར་དུ། །རིགས་ལྡན་ཐུག་ན་ཤིན་ཏུ་འཛེམ།།
 
-- the hours' la (between «བསྟུན» and «བྱ») left out here. Good dates 11 and 18 («བཅུ་གཅིག་དང་བཅོ་བརྒྱད»): KP box 35 has 10 and 18. Bad 4, 8, 29, 30: KP box 35 «༩ ༨ ༢༩ ༣༠» (O10f reading); WB's 4: KP's first numeral may be 4. Trigram li and the 2-black bad: KP box 35's bad «ལི» after bra nye is the trigram li (settles O10f's doubt).
+- the hours' la (between «བསྟུན» and «བྱ») left out here. Good dates 11 and 18 («བཅུ་གཅིག་དང་བཅོ་བརྒྱད»): KP box 35 has 10 and 18. Bad 4, 8, 29, 30: KP box 35 «༩ ༨ ༢༩ ༣༠» (O10f reading); WB's 4: KP's first numeral is its flat-headed 4, read on the scan 2026-10-19, so the bad dates agree. Trigram li and the 2-black bad: KP box 35's bad «ལི» after bra nye is the trigram li (settles O10f's doubt).
 
 ### 34. Bathing and washing the hair (p. 404, img. 412): the lists; the hair dates are written out in hair-dates.md)
 

@@ -508,10 +508,11 @@ The box on the scan, KP BDRC img. 43 (O10f):
 - Bad half: «༄། །གཟའ་སྤེན་ཉི་མིག་མེ་བཙའ་བཟང་། ཚེས་༩ ༨ ༢༩ ༣༠ སྐར་ / མ་ལག་ཁྲུཾད་གྲེ་ཐརྐ་བྲཉེ་[ལི]་ཉི་མ་འབྲུག་སྦྲུལ་ལུག / ༢ ༧ དུས་སྦྱོར་སྡིག་ཆུ་སྲིན་བུཾ་ལུག་བིཥྚི་གདོང་འཕུང་བྱེད་ / འཆི་སྦྱོར་སྲོག་ཚེས་རིགས་ལྡན་འཆར་སྐབས་ཤིན་ཏུ་ངན། གཞན་ཡང་མི་རྟའི་བླ་ / གནས་གཅེས་པར་འཛིན་དགོས་པ་འོག་ནས་གསལ།»
 
 - **Good:** Mon Wed Thu Fri; dates 10, 18; lha mtshams, nam gru, gro bzhin, mchu, snar ma, nabs so, rgyal, sa ri, snron; days Bird, Dog
-- **Bad:** dates 9, 8, 29, 30; lag, gre, tha skar, bra nye; days Dragon, Snake, Sheep
+- **Bad:** dates 4, 8, 29, 30; lag, gre, tha skar, bra nye; days Dragon, Snake, Sheep
 - **Neither side:** Saturn, the Sun and Mars («མེ་བཙའ་བཟང», good for moxibustion); one khrums of the bad half, and one name after bra nye, not read
 - **Not calculated:** Abhijit (good); rising signs (Cancer and Libra in brackets); the sme ba two and seven; Viṣṭi; the 'chi sbyor, the srog dates and the rising of rigs ldan (very bad); the bla gnas of people and horses (box 36)
 - **The scan (O10f):** The bad half's khrums reads ཁྲུཾད at 5×, khrums smad: bad. The word after bra nye is read «ལི» (the trigram li) by Yigdzin-1 and is not settled on the scan. The rising signs in the arched brackets are Cancer and Libra, Leo and Sagittarius.
+- **Read on the scan 2026-10-19:** the first bad date is the flat-headed crescent, KP's 4, beside the curled 9 of the 29 in the same line (img. 43 at 5×): the bad dates are 4, 8, 29, 30, the White Beryl's work 33 date for date («ཚེས་གྲངས་བཞི་བརྒྱད་ཉེར་དགུ་དང་། །གནམ་གང་རྣམས་ངན», vol. 2, pp. 403–404). The O10f reading above took it for 9 and is kept as it was. The good dates are «༡༠ ༡༨» plainly; WB's are 11 and 18 («བཅུ་གཅིག་དང་། །བཅོ་བརྒྱད་ལ་ནི་བཟང»), and the app keeps KP's 10. The word after bra nye is «ལི», WB's «སྤར་ཁ་ལི་དང་སྨེ་གཉིས་ནག».
 
 ### 37. Bathing and washing the hair — ཁྲུས་དང་སྐྲ་འཁྲུ་བྱེད་པར་བཟང་བ
 
