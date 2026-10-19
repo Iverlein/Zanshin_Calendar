@@ -234,16 +234,18 @@ files already hold are in the register at the end.
 Ch. 20's account of how the Chinese reckoning (གཙུག་ལག་རྩིས, gtsug lag
 rtsis) came to Tibet, among the texts translated:
 
-> །གཞན་ཡང་ཁམས་ཁྲ་དང་པོ་ཡིས། །ཞུས་ནས་བསྒྱུར་བའི་གཙུག་ལག་རྩིས། དང་། །གཞུང་དོན་སྙིང་པོ་ཞེས་བྱ་བ། །འགྲེལ་པ་ཉི་མའི་འོད་ཟེར་དང༌། །ལྷན་ཐབས་དཔག་དྲང་སྲོང་པྲ་སྒྲུབ་མངོན་སུམ་བྱེད། །ལྷ་མོ་སྒྲུབ་པའི་མན་ངག་ཚོགས། །གཏོ་ཕྲན་ཆུང་སྲི་མནན་ཐབས་བསྒྱུར། །ཐང་[…]་ལ་སོགས་འགའ་ཞིག་ལས། །འཇམ་དབྱངས་ཀྱིས་གསུངས་[…]གཙུག་ལག་ཀུན། །དུས་འདིར་བསྒྱུར་བར་བཞེད་པའང་ཡོད།
+> །གཞན་ཡང་ཁམས་ཁྲ་དང་པོ་ཡིས། །ཞུས་ནས་བསྒྱུར་བའི་གཙུག་ལག་རྩིས། །བེ་ཌཱུརྻ་ཡི་གླེགས་བུ་དང་། །གཞུང་དོན་སྙིང་པོ་ཞེས་བྱ་བ། །འགྲེལ་པ་ཉི་མའི་འོད་ཟེར་དང༌། །ལྷན་ཐབས་དཔག་བསམ་འཁྲི་ཤིང་ཞེས། དྲང་སྲོང་པྲ་སྒྲུབ་མངོན་སུམ་བྱེད། །ལྷ་མོ་སྒྲུབ་པའི་མན་ངག་ཚོགས། །གཏོ་ཕྲན་ཆུང་སྲི་མནན་ཐབས་བསྒྱུར། །ཐང་ཡིག་ལ་སོགས་འགའ་ཞིག་ལས། །འཇམ་དབྱངས་ཀྱིས་གསུངས་གཙུག་ལག་ཀུན། །དུས་འདིར་བསྒྱུར་བར་བཞེད་པའང་ཡོད།
+
+(Read on the Gser thang reprint, I3CN5028, img. 239, 2026-10-19, the gaps and the etext's dropped words by eye: «བེ་ཌཱུརྻ་ཡི་གླེགས་བུ་དང་», «དཔག་བསམ་འཁྲི་ཤིང་ཞེས», «ཐང་ཡིག». KD's history of the reckoning, vol. 1, etext p. 653, lists the same texts.)
 
 Further, the Chinese reckoning translated at the request of the first
 Khams khra (ཁམས་ཁྲ, khams khra; so the etext, a name not identified), the
 work called *The Essence of the Text's Meaning* (གཞུང་དོན་སྙིང་པོ, gzhung
 don snying po), the commentary *Rays of the Sun* (ཉི་མའི་འོད་ཟེར, nyi ma'i
-'od zer), a supplement, the collected instructions for accomplishing the
+'od zer), the supplement *Wish-fulfilling Creeper* (དཔག་བསམ་འཁྲི་ཤིང, dpag bsam 'khri shing), the collected instructions for accomplishing the
 goddess, **the small ransom rites (གཏོ་ཕྲན, gto phran) and the means of
 pressing down the sri of small children (ཆུང་སྲི, chung sri) were
-translated**; some, Thang […] among them, hold that all the reckoning
+translated**; some, the chronicles (ཐང་ཡིག, thang yig) among them, hold that all the reckoning
 Mañjuśrī taught was translated at this time.
 
 - The fact: WB counts the rite against the *chung sri* among the texts of
