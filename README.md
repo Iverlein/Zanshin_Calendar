@@ -38,7 +38,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   Beryl gives for it; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
   parent or a son brings; and the birth: what the natal trigram makes of each
-  aspect, glory and misfortune against the parents, the nature of the birth year, by its
+  aspect, glory and misfortune against the parents, the
+  line of births from the father and grandfather, the nature of the birth year, by its
   animal and among the sixty years, its body and its mewa, the natal trigram, the child of
   the gods, glory, life, spirits or demons it makes one, the birth
   year's destiny against its life force, its place, its luck triad and

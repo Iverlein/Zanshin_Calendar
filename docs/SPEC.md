@@ -534,6 +534,16 @@ on the scan that follow from the years alone. `BirthReckoning`
   foot (the life force's read by its element); its son, lustre lost; the
   one it overcomes, life taken; with WB's remedies for an aspect in
   decline. The father's two need his year.
+- **The line of births** (*rgya ma*, pp. 297–299, with the notes' rule,
+  vol. 2, p. 476): the father's and the grandfather's (the father entered
+  under the father) life force counted down through its twelve stages
+  onto one's birth year; on illness the line is crowded, on death empty,
+  on the tomb's seventh it stays, on the tomb it is torn, each with its
+  result and rite from the section's summary; the crowded line's reading
+  by the forefather's years (eight groups: the line's fault, the family's
+  numbers, its rite). WB's list of the child's years for each group is
+  `BirthTest`'s vector. The upward and across counts and the other three
+  aspects are not built.
 - **The parents' trigrams at the birth** (p. 326), the father's being his
   trigram of the year of the birth: a son with the father on zin and the
   mother on dwa, the father soon dies; a daughter with the father on gin
@@ -3299,7 +3309,10 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   children's glory · Body earth · natal trigram lake (དྭ, dwa), iron");
   under "Glory and misfortune" each aspect against the parent's
   ("Vitality · life taken · Yours earth · the father's water"), with a
-  line asking for the father's year where it is missing;
+  line asking for the father's year where it is missing; under "The line
+  of births" the father's and the grandfather's line where it falls on
+  one of the four ("The father's line · torn · Born in the Earth Mouse
+  year, life force water"), a line where it falls on none;
   under "The birth year" first "The year animal's nature" (its animal
   under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
   element) and "Its pair among the thirty" (the pair's two years), "The natal mewa"
