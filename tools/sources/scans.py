@@ -11,6 +11,11 @@
   scans.py stack OUT IMG... [--box X0 Y0 X1 Y1] [--width W]
       whole images (or one region of each) one under another, labelled with
       their file names: a few folios per view
+  scans.py line IMG N [--at F] [--half W] [--scale S] [-o OUT]
+      the N-th text line of a page (1-based, found by the rows' ink), around
+      the fraction F of its width (default the whole line): where an OCR
+      file puts a word (its line number and its offset over the line's
+      length), to read it on the scan; prints the number of lines found
 
 Small woodblock scans (KP folios are 2550 px wide) need crops enlarged 3–6×
 before a vowel sign can be told apart; see docs/sources/mansions.md for the
@@ -68,6 +73,37 @@ def stack(args):
     print(args.out, sheet.size)
 
 
+def text_lines(im, min_ink=0.01, min_height=15):
+    """The (top, bottom) rows of each text line: runs of rows with ink on more than min_ink of the width."""
+    w, h = im.size
+    px = im.load()
+    rows = [sum(1 for x in range(0, w, 2) if px[x, y] < 128) * 2 > w * min_ink for y in range(h)]
+    lines, top = [], None
+    for y, inked in enumerate(rows + [False]):
+        if inked and top is None:
+            top = y
+        elif not inked and top is not None:
+            if y - top > min_height:
+                lines.append((top, y))
+            top = None
+    return lines
+
+
+def line(args):
+    im = grey(args.img)
+    lines = text_lines(im)
+    top, bottom = lines[args.n - 1]
+    px = im.load()
+    cols = [x for x in range(im.width) if any(px[x, y] < 128 for y in range(top, bottom, 3))]
+    x0, x1 = cols[0], cols[-1]
+    if args.at is not None:
+        mid = int(x0 + args.at * (x1 - x0))
+        x0, x1 = max(0, mid - args.half), min(im.width, mid + args.half)
+    out = args.o or f"{Path(args.img).stem}_line{args.n}.png"
+    enlarge(im.crop((x0, max(0, top - 25), x1, min(im.height, bottom + 25))), args.scale).save(out)
+    print(out, len(lines), "lines")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -89,6 +125,14 @@ def main():
     s.add_argument("--box", nargs=4, type=int)
     s.add_argument("--width", type=int, default=2000)
     s.set_defaults(fn=stack)
+    l = sub.add_parser("line")
+    l.add_argument("img")
+    l.add_argument("n", type=int)
+    l.add_argument("--at", type=float)
+    l.add_argument("--half", type=int, default=350)
+    l.add_argument("--scale", type=float, default=1)
+    l.add_argument("-o")
+    l.set_defaults(fn=line)
     args = ap.parse_args()
     args.fn(args)
 
