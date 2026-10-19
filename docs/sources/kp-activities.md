@@ -206,10 +206,10 @@ The box on the scan, KP BDRC img. 32 (O10f):
 - Bad half: «༄། །གཟའ་མིག་སྤེན་ཚེས་༤ ༥ ༦ ༧ ༨ ༩ ༡༠ ༡༡ [blot] སྐར་མ་མྱེ་རྒྱལ་མོནྲེ་ས་ག་ལག་དུས་སྦྱོར་ལུག་གིན་༩ ཉི་མ་གླང་སྦྲུལ་རང་རང་ཉི་མར་ངན། [interlinear under the blot and the mansions, not read: «…བཟང་།», «ཞིང་ཉོ་…།», «…ས་ཉེ་…།»]»
 
 - **Good:** Wed Thu Fri; mon gru, tha skar, nam gru, mgo, nabs so, snar ma, khrums stod, snrubs, chu smad, sa ri, gro bzhin, skag, gre; days Bird, Mouse
-- **Bad:** Tue Sat; dates 4, 5, 6, 7, 8, 9, 10, 11; me bzhi, rgyal, mon gre, sa ga, lag; trigrams gin
+- **Bad:** Tue Sat; me bzhi, rgyal, mon gre, sa ga, lag; trigrams gin
 - **Neither side:** the Sun and the Moon (in brackets); all the good dates, from the 1st to the 30th (partly illegible), of which the box says «འདི་རྣམས་ལ་འཚོང་བ་ངན» (these are bad for selling); khrums smad (good for buying estates and livestock); mchu (for buying horses and livestock); the Sheep day (for giving livestock away); among the bad, the Ox and Snake days ('each bad on its own day')
 - **Not calculated:** rising signs; the yogas dge ba and chabs (?) and the grub sbyor (good for buying fields); the sme ba nine; Abhijit (good); a verse on the grain measure counted from the Sun's mansion (box 14)
-- The bad dates run on after the 11th under a blot and an interlinear note in both prints; only 4–11 are legible. The good list's first khrums is ཁྲོད in KP2 (24), its last ཁྲུཾད (25).
+- The bad dates run on after the 11th under a blot and an interlinear note in both prints; only 4–11 are legible. *Read in the Bhutan print 2026-10-19* (I1KG11905, img. 378): good «༡ ༢ ༣ ༡༤ ༡༦ ༡༥ ༢༠ ༢༡ ༢༢ ༢༣ ༢༩ ༢༥ ༢༧ ༣༠» «འདི་རྣམས་ལ་འཚོང་བ་ངན», bad «༤ ༥ ༦ ༧ ༨ ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༧ ༡༨ ༡༩ ༢༦ ༢༨» with the interlinear «འདི་རྣམས་འཚོང་བ་བཟང», good for selling: the White Beryl's work 13 (good for buying and bad for selling, «གཞན་རྣམས་གོང་དང་ལྡོག་པ»). Both runs are qualified by the kind of trade and count for neither; the bad 4–11, built as bad until then, were taken out the same day. The good list's first khrums is ཁྲོད in KP2 (24), its last ཁྲུཾད (25).
 
 ### 15b. Giving and taking loans — ཞར་བྱུང་བུ་ལོན་གཏོང་ལེན་ལ་བཟང་བ
 
