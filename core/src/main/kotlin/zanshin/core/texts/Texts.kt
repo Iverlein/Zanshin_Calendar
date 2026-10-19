@@ -588,7 +588,7 @@ object Texts {
         Rokuyo.BUTSUMETSU to Reading(avoidKeys = listOf("new_beginnings", "weddings"), source = Sources.TODAN_ROKUYO),
         Rokuyo.TAIAN to Reading(goodKeys = listOf("travel", "moving_house", "marriage", "opening_a_shop", "everything"), source = Sources.TODAN_ROKUYO),
         Rokuyo.SHAKKO to Reading(goodKeys = listOf("around_noon"), avoidKeys = listOf("celebrations", "fire", "blades"), source = Sources.TODAN_ROKUYO),
-    )
+    ).underNote().mapValues { (_, r) -> r.copy(also = listOf(Sources.WP_ROKUYO)) }
 
     val CHOKU: Map<Choku, Reading> = keyed(
         Choku.TATSU to Reading(goodKeys = listOf("everything"), avoidKeys = listOf("moving_earth", "boarding_ships"), source = Sources.TODAN_CHOKU),
