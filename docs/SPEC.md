@@ -527,6 +527,13 @@ on the scan that follow from the years alone. `BirthReckoning`
   harm); and the natal mewa's element against the life force, shown with
   the birth year alone, the demon's spirits by its element. `BirthTest`
   holds p. 294's two examples.
+- **Glory and misfortune** (*dpal byur*, pp. 295–297, with the notes'
+  rule, vol. 2, p. 476): one's life force and luck against the father's
+  year's, body and destiny against the mother's; the parent's the mother
+  of one's own, glory falls; its enemy, misfortune falls; the same, own
+  foot (the life force's read by its element); its son, lustre lost; the
+  one it overcomes, life taken; with WB's remedies for an aspect in
+  decline. The father's two need his year.
 - **The parents' trigrams at the birth** (p. 326), the father's being his
   trigram of the year of the birth: a son with the father on zin and the
   mother on dwa, the father soon dies; a daughter with the father on gin
@@ -3290,6 +3297,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   trigram" its row (as in the year of age), the child it makes them and
   the same five for the body, destiny and the luck ("Body · the
   children's glory · Body earth · natal trigram lake (དྭ, dwa), iron");
+  under "Glory and misfortune" each aspect against the parent's
+  ("Vitality · life taken · Yours earth · the father's water"), with a
+  line asking for the father's year where it is missing;
   under "The birth year" first "The year animal's nature" (its animal
   under it) and "The sixty years' reading" (the year's sign), "The year's body" (its
   element) and "Its pair among the thirty" (the pair's two years), "The natal mewa"
