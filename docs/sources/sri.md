@@ -869,8 +869,9 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 - Open question 113 ([open-questions.md](open-questions.md)), answered 2026-10-18.
 - Open question 114 ([open-questions.md](open-questions.md)), answered 2026-10-18: two small stars (above).
 - Open question 115 ([open-questions.md](open-questions.md)), answered 2026-10-19.
-- Doubt: every line in this section is the etext's and unchecked on the
-  scan; the gaps […] are the etext's.
+- Doubt: the lines here are the etext's, the gaps […] its own; checked on
+  the Gser thang reprint since (2026-10-19): vol. 1, pp. 244, 382, 387, 425–426
+  and 456, whose gaps are filled above. The rest is unchecked.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,
   p. 242); «ལྡོང» read «ལྡང» (vol. 2, p. 15); «སྒོས་སྲིད» read «སྒོས་སྲི» beside
   «སྤྱི་སྲི» (vol. 2, p. 55); «ཆུང་སི། ལ་ཡོད» read «ཆུང་སྲི་ལི་ལ་ཡོད» by the notes
