@@ -1036,9 +1036,24 @@ found in GR:
   app's) come?
 - Question: 往亡 (§42) counts "the 7th day from 立春" and so on: is the
   節's own day the first day (the app's count) or day zero?
+  *Answered 2026-10-19: the first day, as the app counts.* A present-day
+  list of 2026's 往亡日 (kongetsu-koyomi.net, 「2026年｜令和8年「往亡日」一覧」,
+  read in the browser) gives 2/3, 2/10, 3/18, 4/25, 5/12, 6/21, 7/30, 8/15,
+  9/24, 11/3, 11/16 and 12/26: with that year's 節 (小寒 1/5, 立春 2/4, 啓蟄
+  3/5, 清明 4/5, 立夏 5/5, 芒種 6/6, 小暑 7/7, 立秋 8/7, 白露 9/7, 寒露 10/8,
+  立冬 11/7, 大雪 12/7) every one is the 30th, 7th, 14th, 21st, 8th, 16th,
+  24th, 9th, 18th, 27th, 10th and 20th day with the 節's own day as the 1st,
+  `Rekichu.kt`'s `OMO_DAY`. The NDL's 日本の暦 (chapter 3, 下段) and other
+  explanations give only "the 7th day from 立春" without the count.
 - Question: §43 says that on 日遊's days in the house one must not sweep
   it; the modern readings say to keep the house clean. Which do the
   present-day almanacs print?
+  *Narrowed 2026-10-19:* present-day readings turn the old rule round.
+  マイナビニュース's 天一天上 article (2024-03-05, read in the browser)
+  says 日遊神 dislikes impurity, so one should not let the house get dirty,
+  and that a thorough cleaning in these days, the kitchen, bath and toilet
+  above all, even brings luck; All About's articles say the same. The
+  printed almanacs' own wording (神宮館, 高島暦) was not seen.
 - Question: in §53 the shapes of 天一 at 辛未 and 壬午 («人頭半身»,
   «人頭竜身» as read) are unclear on GR; what are they?
 - Question: «土羨老» in §25 (GR and MS alike) and «丁歳之数» in §42: what is
