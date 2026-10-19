@@ -90,7 +90,7 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         if (natal == null) {
             Text(stringResource(R.string.year_natal_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
         } else {
-            AnnotationRow(natalTrigramAnnotation(r, natal, mother, labels), onOpen)
+            AnnotationRow(natalTrigramAnnotation(r.birthYear, natal, mother, labels), onOpen)
         }
 
         // The pebbles as the White Beryl weighs them: whose aspect matters most, then each aspect's predictive pebble,
@@ -160,7 +160,7 @@ internal fun hourOfReckoning(zone: ZoneId): HourSign {
 }
 
 @Composable
-private fun Section(title: String) {
+internal fun Section(title: String) {
     Text(title.uppercase(), style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.muted, letterSpacing = 1.sp), modifier = Modifier.padding(top = 8.dp))
 }
 
@@ -369,14 +369,15 @@ private fun obstacleAnnotations(r: YearReckoning, labels: Labels): List<Annotati
     }
 }
 
-private fun natalTrigramAnnotation(r: YearReckoning, t: zanshin.core.tibetan.Trigram, mother: Kin, labels: Labels): Annotation {
+/** The natal trigram [t] of one born in the Tibetan year [birthYear] to [mother] (ROADMAP P2). */
+internal fun natalTrigramAnnotation(birthYear: Int, t: zanshin.core.tibetan.Trigram, mother: Kin, labels: Labels): Annotation {
     val born = mother.birth!!
     return Annotation(
         title = labels.string(R.string.year_natal_trigram_title, Ewts.named(t.english, t.wylie)),
         english = "",
         tone = Tone.NEUTRAL,
         reading = Texts.natalTrigram(t),
-        subtitle = labels.string(R.string.year_natal_trigram_subtitle, labels.ordinal(YearOfLife.age(mother.birthYear!!, r.birthYear))),
+        subtitle = labels.string(R.string.year_natal_trigram_subtitle, labels.ordinal(YearOfLife.age(mother.birthYear!!, birthYear))),
         titleIsKanji = false,
         details = listOf(
             labels.string(R.string.year_detail_mother_born) to "${mother.birthYear} · " + labels.string(R.string.element_animal, gloss(born.element), gloss(born.animal)),

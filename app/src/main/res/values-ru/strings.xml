@@ -803,6 +803,24 @@
     <string name="reckonings_year_header">год: %1$s · %2$d–%3$d</string>
     <string name="reckonings_year_before">Предыдущий год</string>
     <string name="reckonings_year_after">Следующий год</string>
+    <string name="birth_title">Рождение</string>
+    <string name="birth_subtitle">%1$s · год рождения: %2$s, жизненная сила (སྲོག, srog): %3$s</string>
+    <string name="birth_section_natal">Триграмма рождения</string>
+    <string name="birth_section_parents">Триграммы родителей</string>
+    <string name="birth_child_subtitle">Жизненная сила: %1$s · триграмма рождения: %2$s, %3$s</string>
+    <string name="birth_detail_vitality">Жизненная сила года рождения</string>
+    <string name="birth_detail_trigram_element">Триграмма рождения и её стихия</string>
+    <string name="birth_detail_demon_age">Возраст смерти</string>
+    <string name="birth_detail_mother">Мать: триграмма и год</string>
+    <string name="birth_detail_father">Отец: триграмма и год</string>
+    <string name="birth_detail_child">Рождённый</string>
+    <string name="birth_natal_needed">Рождение считается от триграммы рождения — триграммы вашей матери в год вашего рождения: укажите год её рождения среди родственников в разделе «Люди», чтобы увидеть её.</string>
+    <string name="birth_father_needed">Если указать год рождения отца среди родственников, будут прочитаны и те чтения, что спрашивают его триграмму.</string>
+    <string name="birth_gender_needed">Часть чтений триграмм родителей — для сына или для дочери: укажите пол в разделе «Люди», чтобы увидеть их.</string>
+    <string name="birth_parents_none">Ни одно из чтений о триграммах родителей не выпадает на это рождение.</string>
+    <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из одних лет: пятеро по триграмме рождения и триграммы родителей при рождении. Камни года, месяца, дня и часа рождения пока не считаются.</string>
+    <string name="reckonings_birth_subtitle">Триграмма рождения: %1$s · %2$s</string>
+    <string name="reckonings_birth_needed">Нужен год рождения матери</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1) -->
     <string name="relatives_title">Родственники</string>

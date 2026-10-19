@@ -7,6 +7,9 @@ package zanshin.app
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Test
+import zanshin.core.tibetan.BirthChild
+import zanshin.core.tibetan.BirthOmen
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Kin
 import zanshin.core.tibetan.KinObstacle
@@ -14,6 +17,7 @@ import zanshin.core.tibetan.KinReckoning
 import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.YearReckoning
 import java.time.LocalDate
 
@@ -24,7 +28,7 @@ class ReckoningsTest {
     @Test
     fun `the list needs a person`() {
         assertEquals(emptyList<Reckoning>(), Reckonings.built(null))
-        assertEquals(listOf(Reckoning.YEAR_OF_AGE), Reckonings.built(person))
+        assertEquals(listOf(Reckoning.BIRTH, Reckoning.YEAR_OF_AGE), Reckonings.built(person))
     }
 
     @Test
@@ -77,5 +81,27 @@ class ReckoningsTest {
         val r = Reckonings.yearOfAge(person.copy(relatives = tree), 2026, null)!!
         assertEquals(KinReckoning.natalTrigram(1950, 1976), KinReckoning.natalTrigram(r, kin))
         assertEquals(listOf(KinObstacle.SECRET to 1), KinReckoning.obstacles(r, kin).map { it.obstacle to it.kin.tag })
+    }
+
+    /**
+     * ROADMAP R2: the birth is reckoned from the mother's year, the father's where known. A fire dragon of 1976 born
+     * in the mother's 27th year stands on dwa, iron, the son of the dragon's earth life force: the children's glory.
+     */
+    @Test
+    fun `the birth is reckoned from the parents' years`() {
+        assertNull(Reckonings.birth(person))
+        val mother = Relatives().put(Relative(0, null, Relation.MOTHER, birth = Moment(1950)))
+        val b = Reckonings.birth(person.copy(relatives = mother))!!
+        assertEquals(Trigram.DWA, b.natal)
+        assertEquals(Element.EARTH, b.vitality)
+        assertEquals(BirthChild.CHILDRENS_GLORY, b.child)
+        assertNull(b.fatherTrigram)
+        assertEquals(emptyList<BirthOmen>(), b.omens)
+        // A son of the same birth whose father, born in 1954, stands in his 23rd year on zin: the father soon dies.
+        val parents = mother.put(Relative(0, null, Relation.FATHER, birth = Moment(1954)))
+        val son = Reckonings.birth(person.copy(gender = Gender.MALE, relatives = parents))!!
+        assertEquals(Trigram.ZIN, son.fatherTrigram)
+        assertEquals(listOf(BirthOmen.FATHER_DIES), son.omens)
+        assertEquals(emptyList<BirthOmen>(), Reckonings.birth(person.copy(relatives = parents))!!.omens)
     }
 }

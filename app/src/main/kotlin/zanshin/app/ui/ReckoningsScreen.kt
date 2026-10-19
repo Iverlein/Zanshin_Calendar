@@ -40,6 +40,7 @@ import zanshin.app.Person
 import zanshin.app.Reckoning
 import zanshin.app.Reckonings
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
 import java.time.ZoneId
 
@@ -67,6 +68,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
         val open: (Annotation) -> Unit = { sheet = it }
         when (shown) {
             null -> ReckoningList(person, shownYear, onPeople, back) { shown = it }
+            Reckoning.BIRTH -> BirthView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
         }
     }
@@ -118,6 +120,16 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
         }
         SectionTitle(stringResource(R.string.reckonings_section_built))
         for (r in Reckonings.built(person)) when (r) {
+            Reckoning.BIRTH -> {
+                val b = Reckonings.birth(person)
+                ScreenLinkRow(
+                    stringResource(R.string.birth_title),
+                    if (b == null) stringResource(R.string.reckonings_birth_needed)
+                    else labels.string(R.string.reckonings_birth_subtitle, Ewts.named(b.natal.english, b.natal.wylie), b.child.english),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.YEAR_OF_AGE -> {
                 val sign = YearOfLife.yearSign(year)
                 ScreenLinkRow(
@@ -131,6 +143,23 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
                     icon = Icons.Pebbles,
                 )
             }
+        }
+    }
+}
+
+/** The reckoning of [person]'s birth (SPEC §5.9.2, ROADMAP R2), or what it needs. */
+@Composable
+private fun BirthView(person: Person?, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    val b = remember(person) { person?.let { Reckonings.birth(it) } }
+    Header(stringResource(R.string.birth_title), person?.let { personLabel(it) }, onBack)
+    Body {
+        when {
+            person == null -> NoPerson(onPeople)
+            b == null -> {
+                Text(stringResource(R.string.birth_natal_needed), style = body.copy(fontSize = 15.sp, lineHeight = 21.sp, color = Palette.muted), modifier = Modifier.padding(top = 12.dp))
+                ScreenLinkRow(stringResource(R.string.menu_people), stringResource(R.string.health_choose_person), onPeople, Icons.Person)
+            }
+            else -> BirthReckoningView(person, b, onOpen)
         }
     }
 }
