@@ -1087,21 +1087,22 @@ object Electional {
             ),
         ),
         // 50. Ordination, teaching, maṇḍalas, study, empowerment, practice (KP2 only, img. 276). The links and the sme ba
-        // in a plain run of the good half (O1).
+        // in a plain run of the good half (O1). The dates as the Bhutan print of 1981 sets them (I1KG11905, p. 393), clean
+        // where KP2's are cursive: the White Beryl's work 47 but the 22nd for its 12th.
         ActivityList(
             "ordination_teaching_and_empowerment",
             good = Factors(
                 smeBa = setOf(5),
                 links = setOf(Link.CONSCIOUSNESS, Link.FEELING),
                 weekdays = setOf(SUNDAY, THURSDAY),
-                dates = setOf(3, 5, 10, 13, 23, 11),
+                dates = setOf(3, 5, 10, 14, 23, 11),
                 mansions = m(SVATI, VISHAKHA, ROHINI, MRIGASHIRAS, ARDRA, PUNARVASU, PUSHYA, MAGHA, KRITTIKA, HASTA, CITRA, DHANISHTHA, SHATABHISHAJ, PURVASHADHA, UTTARABHADRAPADA),
                 animals = setOf(DRAGON),
                 trigrams = setOf(GIN),
             ),
             bad = Factors(
                 weekdays = setOf(TUESDAY, SATURDAY),
-                dates = setOf(1, 22, 15),
+                dates = setOf(1, 4, 6, 7, 8, 22, 15),
                 animals = setOf(SHEEP, OX),
             ),
         ),
