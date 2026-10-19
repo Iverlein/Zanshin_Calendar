@@ -699,10 +699,13 @@ relatives (the spouse taken as the other sex where theirs is not set).
   body cut, the five demons and harm, bad, each pair with its own image
   and fruit; and one trigram joined within, bad, each trigram with its
   image. The printed sustaining life repeats «ཁམ་ཟིན» where the scheme
-  wants «ཁམ་ཟོན», so water with wind meets in none. Not built: the bad
+  wants «ཁམ་ཟོན», so water with wind meets in none. Then the children's
+  number for the eleven pairs WB numbers (p. 363, `TRIGRAM_CHILDREN`,
+  family `MatchTrigramChildren`) and, for each spouse, whether they are
+  one of the eight hand-wavers, a pair of year animals on one trigram
+  (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Not built: the bad
   pairs' rites, the trigrams' graves, the four born on their own
-  trigram, the eight hand-wavers, the woman's lines and the children by
-  trigram pair.
+  trigram and the woman's lines.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -3415,7 +3418,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   woman's"), under "The birth mewas" each meeting ("Mewas · mother and
   son · The man's mewa 6 white · the woman's mewa 2 black") or a line that
   they meet in none, under "The natal trigrams" their meeting ("Trigrams ·
-  sustaining life · The man's lake · the woman's sky") or what it needs,
+  sustaining life · The man's lake · the woman's sky"), "Children by the
+  trigrams" and "The woman's year · one of the eight hand-wavers · Iron
+  Monkey on earth" where they hold, or what it needs,
   and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"

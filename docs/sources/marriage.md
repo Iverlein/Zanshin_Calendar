@@ -1090,3 +1090,14 @@ pairs' rites, the graves (the line ends: a husband on zin with a bride
 of five sheep, …), the four born on their own trigram, the eight
 hand-wavers, the woman's lines (wood tiger or hare women on khon, …)
 and the children's number by trigram pair.
+
+## Built, 2026-10-19 (ROADMAP R3h)
+
+Point 11's children by trigram pair (p. 363, «ལི་ཁོན་བསྡེབས་ན་ལྔ་སྐྱེ་ལ …
+ཁམ་ཟིན་བུ་གཅིག་བུ་མོ་གཉིས»), eleven pairs, with the view WB reports and leaves to
+be examined («སྤར་ཁ་ཕོ་སྐྱེས་བསྡེབས། །བུ་མང་མོ་བསྡེབས་བུ་མོ་མང་། །ཟེར་བའི་ལུགས་ཡོད་དཔྱད་བྱར་སྣང»)
+in the family note; «འདུར» read as "come". The eight hand-wavers (p. 362,
+«གླང་སྟག་གིན་སྐྱེས་འབྲུག་སྦྲུལ་ཟོན། །ལུག་སྤྲེལ་ཁོན་དང་བྱི་ཕག་ཁེན། །སྐྱེས་པ་ལག་གཡབ་བརྒྱད་ཅེས་ཏེ། །བསྡེབས་ངན་རྫ་ཐེམ་ཤོར་བ་འདྲ»),
+both prints «བྱི་ཕག་ཁེན» (the mouse and pig, though the sky's own direction
+holds the dog and pig); «སྐྱེས་པ» read as "born", so either spouse may be
+one. Left out: the simile «རྫ་ཐེམ་ཤོར» and the rite «གྱེར་གཏོ».
