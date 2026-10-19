@@ -103,11 +103,12 @@ class ElectionalTest {
 
     @Test
     fun `the print's other boxes, read on the scans`() {
-        // Box 22, sowing (img. 36): the doubtful good date is the 19th, KP's 9 (open question 157); the good half's «༡༨»,
-        // read ༢༨ before the Bhutan print, leaves the 28th in the bad half only.
+        // Box 22, sowing (img. 36): the 28th stands in both halves, so it counts for neither; the doubtful good date is
+        // the 19th, KP's 9 (open question 157).
         val printed = Electional.PRINT.single { it.wording == "sowing" }
-        assertEquals(setOf(4, 8, 14, 28, 29), printed.bad.dates)
-        assertTrue(18 in printed.good.dates && 19 in printed.good.dates && 28 !in printed.good.dates)
+        assertEquals(setOf(4, 8, 14, 29), printed.bad.dates)
+        assertTrue(19 in printed.good.dates)
+        assertFalse(28 in printed.good.dates || 28 in printed.bad.dates)
         val sowing = list("sowing")
         assertEquals(setOf(Weekday.SATURDAY, Weekday.MONDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY), sowing.good.weekdays)
         assertTrue(Animal.PIG in sowing.bad.animals)

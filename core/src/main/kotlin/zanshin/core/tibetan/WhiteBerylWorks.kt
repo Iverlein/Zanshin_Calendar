@@ -113,7 +113,7 @@ object WhiteBerylWorks {
         ActivityList("building_storehouses", good = Factors(), bad = Factors(mansions = m(KRITTIKA, BHARANI))),
         // 19. Banners, p. 397: Tuesday bad.
         ActivityList("raising_banners", good = Factors(), bad = Factors(weekdays = setOf(TUESDAY))),
-        // 23. Sowing, p. 400: «བཅོ་བརྒྱད་བཅུ་དགུ» good, the 14th and «ཉེར་བརྒྱད» bad, as the box, read in the Bhutan print, has them.
+        // 23. Sowing, p. 400: «བཅོ་བརྒྱད་བཅུ་དགུ» good, the 14th and «ཉེར་བརྒྱད» bad, both of which the box prints in both halves.
         ActivityList("sowing", good = Factors(dates = setOf(18, 19)), bad = Factors(dates = setOf(14, 28))),
         // 24. Gifts and dowries, p. 401: «སྤར་ཁ་ཁེན» avoided.
         ActivityList("giving_gifts_and_dowries", good = Factors(), bad = Factors(trigrams = setOf(KHEN))),
