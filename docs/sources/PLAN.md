@@ -139,7 +139,11 @@ scratch directory, not in the repository:
   etexts, Lha mo tshul khrims's *Nag rtsis rdel 'grem 'bras bshad*
   (MW1KG21818) and Dpal bsdus's *'Byung rtsis dpyad don rmad byung*
   (VEIE0OPI6328F058_I4767), restate WB's reckonings in plain words and
-  answered several questions at once.
+  answered several questions at once. Sde srid's own replies on WB, the
+  *G.ya' sel* (MW2PD17386_474815, and in the etext group
+  VEIE0OPID552C050), are search-only: their snippets answer WB's own
+  puzzles (open question 33 came from one); search a question's key
+  words with «ཞེས» to reach them.
 - **An outline part's place in a volume:** `curl
   https://ldspdi.bdrc.io/resource/MW…_XXXX.json` gives the part's
   `contentLocation` (a CL… id) and its location statement; the CL…'s
