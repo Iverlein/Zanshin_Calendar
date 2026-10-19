@@ -24,6 +24,8 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.PairLine
+import zanshin.core.tibetan.PairList
 import zanshin.core.tibetan.YearSexes
 import zanshin.core.tibetan.PebbleColour
 import zanshin.core.tibetan.PreciousPebble
@@ -2080,6 +2082,12 @@ object Texts {
     fun matchSameElement(e: Element, s: YearSexes): Reading? = "reading.MatchSameElement.${e.name}_${s.name}".let { k ->
         if (Catalog.textOrNull(k) == null) null else Reading(key = "reading.MatchSameElement", arg = k, source = Sources.WHITE_BERYL_MATCH_YEARS)
     }
+
+    /** A named list of pairs of year animals [l] (WB vol. 1, ch. 23, pp. 352–353). */
+    fun matchPairList(l: PairList): Reading = Reading(key = "reading.MatchPairList", arg = "reading.MatchPairList.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
+
+    /** A pair of year animals read one by one [l] (WB vol. 1, ch. 23, pp. 352–353). */
+    fun matchPairLine(l: PairLine): Reading = Reading(key = "reading.MatchPairLine", arg = "reading.MatchPairLine.${l.name}", source = Sources.WHITE_BERYL_MATCH_YEARS)
 
     /** Husband and wife joined in the planet [p] (WB vol. 1, ch. 23, p. 360). */
     fun matchPlanet(p: MatchPlanet): Reading = Reading(key = "reading.MatchPlanet", arg = "reading.MatchPlanet.${p.name}", source = Sources.WHITE_BERYL_MATCH_PLANET)

@@ -66,6 +66,8 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.PairLine
+import zanshin.core.tibetan.PairList
 import zanshin.core.tibetan.YearSexes
 import zanshin.core.tibetan.PebbleColour
 import zanshin.core.tibetan.PreciousPebble
@@ -195,6 +197,8 @@ class CatalogTest {
         BadYear.entries.forEach { out += Texts.badYear(it) }
         MatchPlanet.entries.forEach { out += Texts.matchPlanet(it) }
         Animal.entries.filter { it != Animal.MONKEY }.forEach { out += Texts.matchSameAnimal(it) }
+        PairList.entries.forEach { out += Texts.matchPairList(it) }
+        PairLine.entries.forEach { out += Texts.matchPairLine(it) }
         Element.entries.forEach { e -> YearSexes.entries.forEach { s -> Texts.matchSameElement(e, s)?.let { out += it } } }
         PowerYear.entries.forEach { out += Texts.matchSameKind(it) }
         BirthShare.entries.forEach { s -> BirthChild.entries.forEach { k -> Element.entries.forEach { out += Texts.birthAspect(s, k, it) } } }
@@ -532,7 +536,7 @@ class CatalogTest {
             "P2" to listOf("NatalTrigram", "KinObstacle"),
             "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble"),
             // The marriage match (block 31), written in the shape: no allowance.
-            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement"),
+            "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.

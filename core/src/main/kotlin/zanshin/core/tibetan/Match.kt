@@ -56,6 +56,81 @@ private fun signs(vararg names: String): List<Sign> = names.map { n -> n.split("
 /** The sexes of two years of one element (p. 353): both male, both female, or one of each. */
 enum class YearSexes { MALE_MALE, FEMALE_FEMALE, MIXED }
 
+/**
+ * The named lists of pairs of year animals in the match's first point (pp. 352–353), each pair joined whichever is
+ * the man.
+ */
+enum class PairList(val pairs: List<Pair<Animal, Animal>>, val good: Boolean) {
+    HEART(pairs("MOUSE DRAGON", "MOUSE MONKEY", "DRAGON MONKEY"), true),
+    CHILDREN(pairs("RABBIT PIG", "BIRD SNAKE", "OX SHEEP", "MONKEY DRAGON", "HORSE DOG"), true),
+    WEALTH(pairs("BIRD OX", "TIGER HORSE", "RABBIT SHEEP", "DRAGON PIG", "MONKEY SNAKE"), true),
+    PARTING(pairs("BIRD TIGER", "MONKEY RABBIT", "DRAGON OX", "MOUSE SNAKE", "DOG SHEEP", "TIGER PIG"), false),
+    HARD_CHILDREN(pairs("OX DOG", "PIG SHEEP", "DRAGON SNAKE"), false),
+    RUIN(pairs("BIRD DOG", "HORSE OX", "SNAKE TIGER"), false),
+    DESTRUCTION(pairs("DOG SHEEP", "OX RABBIT", "BIRD MOUSE"), false),
+    OMEN_GREAT(pairs("SHEEP SNAKE"), false),
+    OMEN_MIDDLING(pairs("HORSE DRAGON", "HORSE SNAKE"), false);
+
+    fun holds(a: Animal, b: Animal): Boolean = pairs.any { (x, y) -> x == a && y == b || x == b && y == a }
+}
+
+private fun pairs(vararg names: String): List<Pair<Animal, Animal>> = names.map { n -> n.split(" ").let { Animal.valueOf(it[0]) to Animal.valueOf(it[1]) } }
+
+/**
+ * The pairs of year animals the match's first point reads one by one (pp. 352–353). Where WB says one takes (བླངས)
+ * the other, the man is [man] and the woman one of [women], as Mipham's notes read it (p. 523); otherwise the pair is
+ * [ordered] false and either may be the man. [good] is null for a lot both good and bad.
+ */
+enum class PairLine(val man: Animal, val women: List<Animal>, val ordered: Boolean, val good: Boolean?) {
+    DOG_MONKEY(Animal.DOG, listOf(Animal.MONKEY), ordered = true, good = true),
+    BIRD_SNAKE(Animal.BIRD, listOf(Animal.SNAKE), ordered = true, good = true),
+    PIG_MOUSE(Animal.PIG, listOf(Animal.MOUSE), ordered = true, good = false),
+    TIGER_SNAKE(Animal.TIGER, listOf(Animal.SNAKE), ordered = true, good = null),
+    SNAKE_TIGER(Animal.SNAKE, listOf(Animal.TIGER), ordered = true, good = false),
+    SHEEP_MOUSE(Animal.SHEEP, listOf(Animal.MOUSE), ordered = true, good = false),
+    MONKEY_MOUSE(Animal.MONKEY, listOf(Animal.MOUSE), ordered = true, good = false),
+    RABBIT_PIG_MOUSE(Animal.RABBIT, listOf(Animal.PIG, Animal.MOUSE), ordered = true, good = true),
+    DRAGON_BIRD_MONKEY(Animal.DRAGON, listOf(Animal.BIRD, Animal.MONKEY), ordered = true, good = false),
+    SHEEP_OX(Animal.SHEEP, listOf(Animal.OX), ordered = true, good = false),
+    MONKEY_WITH_DRAGON(Animal.MONKEY, listOf(Animal.DRAGON), ordered = false, good = true),
+    DOG_WITH_HORSE(Animal.DOG, listOf(Animal.HORSE), ordered = false, good = true),
+    PIG_RABBIT(Animal.PIG, listOf(Animal.RABBIT), ordered = true, good = true),
+    OX_MOUSE_BIRD(Animal.OX, listOf(Animal.MOUSE, Animal.BIRD), ordered = true, good = true),
+    TIGER_HORSE(Animal.TIGER, listOf(Animal.HORSE), ordered = true, good = true),
+    DRAGON_WITH_MOUSE_PIG(Animal.DRAGON, listOf(Animal.MOUSE, Animal.PIG), ordered = false, good = null),
+    MONKEY_SNAKE(Animal.MONKEY, listOf(Animal.SNAKE), ordered = true, good = true),
+    BIRD_OX(Animal.BIRD, listOf(Animal.OX), ordered = true, good = true),
+    SHEEP_SNAKE(Animal.SHEEP, listOf(Animal.SNAKE), ordered = true, good = true),
+    SNAKE_SHEEP(Animal.SNAKE, listOf(Animal.SHEEP), ordered = true, good = true),
+    DRAGON_OX(Animal.DRAGON, listOf(Animal.OX), ordered = true, good = true),
+    SNAKE_MOUSE(Animal.SNAKE, listOf(Animal.MOUSE), ordered = true, good = false),
+    HORSE_OX(Animal.HORSE, listOf(Animal.OX), ordered = true, good = true),
+    OX_WITH_RABBIT(Animal.OX, listOf(Animal.RABBIT), ordered = false, good = true),
+    DOG_TIGER(Animal.DOG, listOf(Animal.TIGER), ordered = true, good = true),
+    MOUSE_SNAKE(Animal.MOUSE, listOf(Animal.SNAKE), ordered = true, good = false),
+    OX_DRAGON(Animal.OX, listOf(Animal.DRAGON), ordered = true, good = false),
+    SHEEP_DOG(Animal.SHEEP, listOf(Animal.DOG), ordered = true, good = false),
+    DOG_SHEEP(Animal.DOG, listOf(Animal.SHEEP), ordered = true, good = false),
+    DOG_OX(Animal.DOG, listOf(Animal.OX), ordered = true, good = false),
+    OX_DOG(Animal.OX, listOf(Animal.DOG), ordered = true, good = false),
+    DRAGON_SHEEP(Animal.DRAGON, listOf(Animal.SHEEP), ordered = true, good = false),
+    SHEEP_DRAGON(Animal.SHEEP, listOf(Animal.DRAGON), ordered = true, good = false),
+    PIG_WITH_SNAKE(Animal.PIG, listOf(Animal.SNAKE), ordered = false, good = false),
+    DOG_WITH_DRAGON(Animal.DOG, listOf(Animal.DRAGON), ordered = false, good = false),
+    DOG_DRAGON(Animal.DOG, listOf(Animal.DRAGON), ordered = true, good = false),
+    MOUSE_WITH_HORSE(Animal.MOUSE, listOf(Animal.HORSE), ordered = false, good = false),
+    HORSE_MOUSE(Animal.HORSE, listOf(Animal.MOUSE), ordered = true, good = false),
+    OX_WITH_SHEEP(Animal.OX, listOf(Animal.SHEEP), ordered = false, good = false),
+    TIGER_WITH_MONKEY(Animal.TIGER, listOf(Animal.MONKEY), ordered = false, good = false),
+    MONKEY_TIGER(Animal.MONKEY, listOf(Animal.TIGER), ordered = true, good = false),
+    SNAKE_HORSE(Animal.SNAKE, listOf(Animal.HORSE), ordered = true, good = false),
+    MOUSE_WITH_SHEEP(Animal.MOUSE, listOf(Animal.SHEEP), ordered = false, good = false),
+    SHEEP_PIG(Animal.SHEEP, listOf(Animal.PIG), ordered = true, good = true);
+
+    fun holds(manAnimal: Animal, womanAnimal: Animal): Boolean =
+        manAnimal == man && womanAnimal in women || !ordered && womanAnimal == man && manAnimal in women
+}
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -101,6 +176,12 @@ object MatchReckoning {
         Weekday.MONDAY, Weekday.WEDNESDAY -> MatchPlanet.MON_WED
         Weekday.FRIDAY -> MatchPlanet.FRIDAY
     }
+
+    /** The named lists of pairs the two year animals make up (pp. 352–353). */
+    fun pairLists(man: Animal, woman: Animal): List<PairList> = PairList.entries.filter { it.holds(man, woman) }
+
+    /** The pairs read one by one that hold for the man's and the woman's year animals (pp. 352–353). */
+    fun pairLines(man: Animal, woman: Animal): List<PairLine> = PairLine.entries.filter { it.holds(man, woman) }
 
     /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
     fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }
