@@ -516,7 +516,8 @@ follows (the parts, in the order of the readings that follow):
 | The good and bad of the cutting and tearing (གཅོད་འདྲལ, gcod 'dral); the gods, glory, life and māras (ལྷ་དཔལ་ཚེ་བདུད, lha dpal tshe bdud), eight; glory and misfortune (དཔལ་བྱུར, dpal byur), four | — | 301 "up to here" |
 | The line of births (རྒྱ་མ, rgya ma) | 54 | 812 |
 | The four planets (གཟའ་བཞི, gza' bzhi) and the mother's luck | 94 | 1,181 |
-| The bad years: one to each of the 25 roots | 25 | 10 |
+| The bad years (the 21 roots; Taikhang, below) | 21 | 440 |
+| The five doors of no heir (རབས་ཆད, rabs chad; Taikhang, below) | 1 | 10 |
 | The five doors of bad luck | 6 | 38 |
 | The hundred pebbles' identifying | — | 15 |
 | The results of rise and decline | — | 48 |
@@ -527,9 +528,23 @@ follows (the parts, in the order of the readings that follow):
 | The secret *yang tig* (གསང་བ་ཡང་ཏིག, gsang ba yang tig) | 21 | 118 |
 | The child's birth reckoning (བུས་པ་བཙས་རྩིས, bus pa btsas rtsis) | 169 | 575 |
 
-As read, the result pebbles make 553 and the identifying ones 3,333,
-3,886 in all, 113 more than the 3,773 the page states; and p. 259 (above)
-gives 3,178. The word after «གཅེས་རྡེལ» reads «མི་འབྱུང» on the scan at 6×,
+As first read on the 1996 scan (bad years 25 and 10, no row for the
+doors of no heir), the result pebbles made 553 and the identifying ones
+3,333, 3,886 in all, 113 more than the 3,773 the page states; and p. 259
+(above) gives 3,178. **The 1996 print drops a line here** (settled
+2026-10-19, open question 69). It reads «…ལོ་ངན་ལ། །རྩ་བའི་རྡེའུ་ཉི་ཤུ་གཅིག །མཚན་མའི་བཅུ་དང་ངན་ཀླུངས་ཀྱི…»
+(img. 272, re-read at 3×). The Taikhang print (I5877, img. 343, l. 3,
+read by eye at native size; the image placed on p. 262 by Yigdzin-1's
+shingles) has «…ཆིག་བརྒྱ་གྱ་གཅིག་ལོ་ངན་ལ། །རྩ་བའི་རྡེའུ་ཉི་ཤུ་གཅིག །ངོས་འཛིན་བཞི་བརྒྱ་བཞི་བཅུ་དང་། །རབས་ཆད་སྒོ་ལྔར་རྡེའུ་གཅིག །མཚན་མའི་བཅུ་དང་ངན་ཀླུངས་ཀྱི…».
+The bad years have 21 root pebbles and 440 identifying, and the five
+doors of no heir 1 and 10; the 1996 compositor's eye slipped from one
+«རྡེའུ་…གཅིག» to the next. With the line back, the identifying pebbles
+make exactly **3,773**, the page's total, and the result pebbles 550 more.
+So the stated total counts the identifying (sign) pebbles, or the verse's
+"in all" is loose; the arithmetic leaves no other slip. P. 259's 3,178,
+641 root and 2,537 identifying, stands in the Taikhang too (img. 339). It
+is a different count, made before the *Lamp*'s scattered answers and the
+other tantras are gathered in (p. 262's opening lines). The word after «གཅེས་རྡེལ» reads «མི་འབྱུང» on the scan at 6×,
 but the nine it counts are the four precious and the five *unchanging*
 («མི་འགྱུར») luck pebbles. The numbers are read as the print writes
 them: «དོན་གསུམ» 73, «དོན་ལྔ» 75, «གོ་བཞི» 94, «ང་བཞི» 54, «གྱ་གཅིག» 81.

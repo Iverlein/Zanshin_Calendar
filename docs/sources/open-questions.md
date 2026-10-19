@@ -935,11 +935,18 @@ the text, not about the app.
     *Narrowed 2026-10-18 night ([reckonings.md](reckonings.md)): «ར་བསེ» is the pair *ra ru* and *bse ru*, goat horn and rhinoceros horn, the classes of trigrams, animals and elements ch. 22 sets out (vol. 1, p. 307, img. 317, read on the scan); the tenth examination's «ར་བསེའི་རྡེལ» test repeated deaths by them. The *bsgrub* grave and «སྐྲང་སྒོམ» (no BDRC hit) stay open.*
     *Answered 2026-10-18 late night ([reckonings.md](reckonings.md)): the *bsgrub* grave is the iron one, the corpse cut up with blades («སྒྲུབ་པ་མཚོན་གྱིས་བཤའ་བ་ལྕགས», MK and Tshul khrims rgyal mtshan, BDRC snippets; «མཚོན་གྱིས་བཤའ་བ་ལྕགས་ཀྱི་དུར» in two more); «སྐྲང་སྒོམ» is not the blocks' word: WBZ img. 814 carves «དུར་ལྔའི་སྨྲང་སྒོ་དབྱེ», the graves' account and opening the grave's door, as the notes list them.*
 
-69. **WB vol. 1, pp. 259, 262 (img. 269, 272): the birth reckoning's
+69. **Answered as far as the sources go, 2026-10-19. WB vol. 1, pp. 259, 262 (img. 269, 272): the birth reckoning's
     count.** P. 259 fixes 641 root and 2,537 identifying pebbles, 3,178 in
     all, and p. 262 3,773, whose parts as read make 553 result and 3,333
     identifying pebbles, 3,886. Are these two counts of different scopes,
     or slips (2026-10-12, RD13, [year-of-life.md](year-of-life.md))?
+    *Answered as far as the sources go 2026-10-19 ([year-of-life.md](year-of-life.md),
+    *The breakdown of 3,773*): p. 262's mismatch is a line the 1996 print
+    drops. The Taikhang (I5877, img. 343, l. 3, by eye) has «…ལོ་ངན་ལ། །རྩ་བའི་རྡེའུ་ཉི་ཤུ་གཅིག །ངོས་འཛིན་བཞི་བརྒྱ་བཞི་བཅུ་དང་། །རབས་ཆད་སྒོ་ལྔར་རྡེའུ་གཅིག །མཚན་མའི་བཅུ་དང་…»,
+    where the 1996 print skips from the first «རྡེའུ་…གཅིག» to the second. With
+    it the identifying pebbles make exactly 3,773, and the result pebbles 550
+    more. P. 259's 3,178 stands in the Taikhang too (img. 339), a separate
+    count before the gathering of p. 262.*
 
 70. **Answered 2026-10-18. WB vol. 1, p. 262 (img. 272): «གཅེས་རྡེལ་མི་འབྱུང་ཀླུང་རྡེལ་དགུ».** The nine
     are the four precious and five unchanging luck pebbles. Is «མི་འབྱུང» a

@@ -194,8 +194,10 @@ are ch. 25's, the illness reckoning's, root count.
   The page goes on to break the count down (the precious and luck
   pebbles, the 120 of the life force and the rest against the five
   relations, the four of rise and decline, …); RD13 transcribed it
-  ([year-of-life.md](year-of-life.md)), and its parts as read make 3,886
-  (question 69). P. 259 (img. 269) fixes another count, 641 root and
+  ([year-of-life.md](year-of-life.md)); its parts as first read made 3,886,
+  but the 1996 print drops a line that the Taikhang print keeps, and with
+  it the identifying pebbles make exactly 3,773 (question 69, settled
+  2026-10-19). P. 259 (img. 269) fixes another count, 641 root and
   2,537 identifying pebbles, 3,178, expanded 15,890. The root count of the
   older system is 136 (p. 260; p. 249 above).
 - **Calculable** from the dates, with the clan element asked once. Read
@@ -479,8 +481,9 @@ below, with the notes' sections 7 and 8.
   notes' «དུས་ཁམས» for the clan's element (p. 474); 24, the match's sixth
   point «ཎི་ཤ» (p. 351); 25, the general reckoning's fourth part (p. 532).
 - Ch. 22's breakdown of its 3,773 pebbles (p. 262, img. 272) is
-  transcribed in [year-of-life.md](year-of-life.md) (RD13); its parts as
-  read make 3,886 (question 69).
+  transcribed in [year-of-life.md](year-of-life.md) (RD13); with the line
+  the 1996 print drops (Taikhang img. 343) its identifying pebbles make
+  exactly 3,773 (question 69).
 - Doubt: ch. 24's and ch. 26's count lines rest on Yigdzin-1 and the
   etext agreeing, with sums that check, not on the eye.
 
