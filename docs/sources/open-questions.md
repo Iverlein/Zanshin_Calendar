@@ -559,6 +559,11 @@ the text, not about the app.
     sun in the ox month (the 11th Hor month), or another day (read on
     the scan 2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
+    *«ཉི་མའི་གླང»*): most likely the sun's entry into Taurus. WB names the sign
+    Taurus «གླང» among the rising signs, and the Kālacakra writings say
+    «ཉི་མ་གླང་ལ་གནས་པ» of the sun in Taurus; the other lords enter on days counted
+    from the sun's turning at the solstice. No text glosses the line.*
 
 36. **WB vol. 2, p. 185 (img. 193): the hal khyi's mothers and sons.**
     The black hal khyi (no. 16) sits "on the wind-horse of the previous

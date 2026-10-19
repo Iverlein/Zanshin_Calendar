@@ -2251,3 +2251,16 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   same (MW30533_379269, snippet: «…བཅུ་གཉིས་པ་སྟག་ཟླར་བཟུང་བ་འདི་ས་བདག་སྐྱས་བྱེད་པ…»).
   So WB's year lords change place at the solstice, with the year of the
   Chinese reckoning, not at the Tibetan new year.
+
+## «ཉི་མའི་གླང», 2026-10-19 (open question 35)
+
+- **«གླང» as a sign is Taurus.** WB names the rising signs with it, as in
+  the councils, «དུས་སྦྱོར་གླང་སེང་བུ་མོ་གཞུ» (vol. 2, p. 425; white-beryl-ch34.md),
+  and the Kālacakra writings put the sun in it with the same words, the
+  *Vimalaprabhā* (BDRC snippets, several prints): «…ཉི་མ་གླང་ལ་གནས་པ་དང་། སྡིག་པ་ལ་གནས་པ་ལ་དེ་བཞིན་དུ་དཔྱིད་ཕྱེད་དང་སྟོན་ཕྱེད་ཉིན་མཚན་མཉམ་པར་འགྱུར་རོ།»,
+  «'byung ba zhes byar nyi ma glang la gnas pas». Read so, Langging the red
+  moves in "together with the sun's Taurus", when the sun enters Taurus,
+  as the other lords move in on days counted from the solstice, the sun's
+  entry into Capricorn. No text read glosses WB's line; BDRC's search
+  finds «ཉི་མའི་གླང» nowhere else in a reckoning, and nothing names the ox month
+  so.
