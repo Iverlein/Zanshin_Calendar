@@ -319,14 +319,14 @@ the "all-gathered secret" coin rite.
 Ch. 24, the readings of the power pebble (དབང་ཐང, dbang thang). After two
 white and one white:
 
-> […]བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། །ལོངས་སྤྱོད་ཐོ་བ་ཞབས་ནས་བརྡོལ། །[…]འདོད་ཡོན་སྟོངས། །ལོངས་སྤྱོད་འཕྲོག་པའི་འཕུང་སྲི་ལངས། །ཡོ་བྱད་ནོར་ལ་གོད་ཟེགས་འོང་། །སྡེར་ནས[…]ངོར་པང་ནས་བུ། ད་ལྟ་ཡང་འཆི། །སྒོ་ཡི་ཁྱི་འཆི་ཞིང་ལ་སྟོན། །[…]མེད་ཅིང་ཚོང་བྱས་ཁེ་ཡང་ཆུང་། […]།གོད་ཁ་སྟོར་[…]དུས།
+> [དབང་རྡེལ་ནག་པོ་གཉིས་]བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། །ལོངས་སྤྱོད་ཐོ་བ་ཞབས་ནས་བརྡོལ། །[འདོད་ཡོན་ཟས་ཀྱི་བསྲིས་སྒོ་]སྟོངས། །ལོངས་སྤྱོད་འཕྲོག་པའི་འཕུང་སྲི་ལངས། །ཡོ་བྱད་ནོར་ལ་གོད་ཟེགས་འོང་། །སྡེར་ནས[…]ངོར་པང་ནས་བུ། ད་ལྟ་ཡང་འཆི། །སྒོ་ཡི་ཁྱི་འཆི་ཞིང་ལ་སྟོན། །[…]མེད་ཅིང་ཚོང་བྱས་ཁེ་ཡང་ཆུང་། […]།གོད་ཁ་སྟོར་[…]དུས།
 
 The gaps, read on the Gser thang reprint of the same typesetting (I3CN5028, img. 377, ll. 20–23, Yigdzin-1 and the key words by eye, 2026-10-19): «དབང་རྡེལ་ནག་པོ་གཉིས་བབས་ན། །དབང་ཐང་ར་བ་མཐའ་ནས་རལ། …། །འདོད་ཡོན་ཟས་ཀྱི་བསྲིས་སྒོ་སྟོངས། …། །སྡེར་ནས་ཟས་འཆོར་པང་ནས་བུ། །འཚོར་ཞིང་འོག་གི་རྟ་ཡང་འཆི། …། །གོད་ཁ་སྟོར་བརླག་འོང་བའི་དུས།»: two black power pebbles; food spills from the plate, the child [slips] from the lap, the horse beneath dies. །དགེ་སློང་ཚུལ་ཁྲིམས་རྣམ་དག་མཆོད། །ལྷ་ཁང་མར་མེ་འབུལ་བ་དང་། །བྱིས་པའི་སྟོན་མོ་བྱས་ན་བཟང་། །དབུགས་ཅན་ཚོངས་ལ་དབུགས་མེད་བསྲེལ། །ལམ་འཆོས་སཱ་ཙྪ་མང་གདབ་ཅིང་། །ཆུ་གཏོར་སྦྱིན་པ་མང་དུ་ཐོང་།
 
-If […] fall: the enclosure of power is torn from its edge, the heap of
-wealth bursts at its base, […] pleasures empty; **the sri of ruin that
+If two black power pebbles fall: the enclosure of power is torn from its edge, the heap of
+wealth bursts at its base, the door of pleasures and food is empty; **the sri of ruin that
 robs wealth (འཕུང་སྲི, 'phung sri) has risen**, losses come to goods and
-wealth; […] the child from the lap […] die now; the dog at the door dies;
+wealth; food spills from the plate, the child [slips] from the lap, the horse beneath dies; the dog at the door dies;
 […] trade brings little profit; a time of losses. Honour a monk of pure
 discipline, offer lamps in a temple; a feast for children is good; a
 line on the breathing and the breathless not understood; mend roads, set
@@ -456,9 +456,9 @@ read as «བརྒྱད».
 
 **p. 456 (img. 466)**, the seventh check of the point that runs over from
 p. 455 (by its place, no. 3, the mantra-holders):
-«[…]དེ་བཟང་། །ཕ་མེས་རྒྱལ་པོ་འདྲ་བ་ལ། །བུ་ཚ་བློན་པོ་འདྲ་བ་འོང་། །ནག་ན་[…]ད་ན་ཤི་[…]ཉེན་ཆེ། །དར་སྲི་གནོན་ཅིང་སྲི་ཡི་ནི། །བསྲུང་བ་ལ་སོགས་གདགས་པར་བྱ།»:
+«[…]དེ་བཟང་། །ཕ་མེས་རྒྱལ་པོ་འདྲ་བ་ལ། །བུ་ཚ་བློན་པོ་འདྲ་བ་འོང་། །ནག་ན་[བར་ཆོད་འབྱུང་བ་སྟེ། །སྐྱེས་དར་ཡིན་]ན་ཤི་[…]ཉེན་ཆེ། །དར་སྲི་གནོན་ཅིང་སྲི་ཡི་ནི། །བསྲུང་བ་ལ་སོགས་གདགས་པར་བྱ།»:
 white, the forefathers like kings, the descendants like ministers; black,
-a great danger of death […]; **press down the *dar sri* and fasten
+obstacles, and for a man in his prime a great danger of death; **press down the *dar sri* and fasten
 protections against the sri**. The gaps, on the Gser thang reprint (I3CN5028,
 img. 451, Yigdzin-1, 2026-10-19): «ནག་ན་བར་ཆོད་འབྱུང་བ་སྟེ། །སྐྱེས་དར་ཡིན་ན་ཤི་ཉེན་ཆེ།», black, obstacles
 come, and for a man in his prime (*skyes dar*) the danger of death is
@@ -659,7 +659,7 @@ the dead child's mouth (སྲི་འུའི་ཁ, sri'u'i kha); «ཆུ�
 the *chung sri* pressed down and the six demons avoided. «སྲི་ལྟར་མནན་པའི་ས་དྲུག»
 (p. 84), six places to press down as for a sri: under the parents'
 pillow, in the middle of the bed, at its foot or under the hearth, under
-the pillar, […], where the door dog sleeps. The red cutting (p. 84): the
+the pillar, where the door dog sleeps (hidden and pressed down there). The red cutting (p. 84): the
 small child's body cut at the waist, the head laid outside the
 threshold, the hips inside, the entrails under it, with nine sticks,
 nine small skulls and nine stakes; or the head cut off and the body
