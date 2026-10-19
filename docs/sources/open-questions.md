@@ -2059,6 +2059,18 @@ the text, not about the app.
      the middle cell «སྤྱི་བརྒྱུད», the general course. Most likely the same
      course by the direction of setting out, without the times; the corner
      cells are not read with certainty and do not all fit.*
+     *Read again 2026-10-19 ([rahu.md](rahu.md)), with KP2's digits learnt
+     from its own boxes 21 and 22 (I3CN12074 img. 257, 259; 1 «༡»-hook, 3
+     as in its 30, 4 the flat crescent of its 24, 5 «ч», 6 and 7 the open
+     and the looped loop of its 26 and 27, 8 «<», 9 the curled crescent of
+     its 19 and 29): south (left) «༡༠ ༡༢ ༡༩ ༢༥ ༢༨», north (right) «༡༡ ༡༣ ༢༤ ༢༦(?)»,
+     west (bottom) «༥ ༡༨» (the earlier «༤ ༡༧» misread the 5 and the 8), east
+     (top) «༢ ?(4 or 9) ༡༨(?) ༢༦», north-east «༩ ༢༢», south-west «༡ ༨(?) ༢༣»,
+     north-west «༦ ༡?(?) ༢༡ ༢?». The south cell is the *nu ru* course's
+     setting out from the south, 10, 12, 19, 25; the west cell is one day
+     after its 4 and 17, both set out by night; the others fit neither the
+     *nu ru* course nor the detailed one. What the square counts stays
+     open.*
 
 149. **Answered 2026-10-18. The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
      the harm wheel prints «ཤིང(༢)ས(༣)», where the same page elsewhere
