@@ -1025,3 +1025,23 @@ editors' ༢༡ supports it: WB names Śravaṇa in these sections as gro bzhin
   «བཅོ་བརྒྱད་དགུ», «ཚེ་ནོར» and «ཡིག་རྩིས» do not occur; its «བག་མ» passages
   (section 6, pp. 525–532) concern the couple's years, clans and
   ancestors, not ch. 34's dates.
+
+## The bride's mansions by element in other prints, 2026-10-19 (open question 106)
+
+The verse of ch. 23 (vol. 1, p. 373) as other texts carry it (BDRC
+snippets and etexts):
+
+| Text | Earth | Iron |
+| --- | --- | --- |
+| WB 1996, Gser thang, WBZ; KD (a copy) | «ས་ཁམས་ས་ག་བྱ་གཞུག» | «ལྕགས་ཁམས་ས་ག་བྲེ་ཆུ་སྨད» |
+| Dpal bsdus (etext VEIE0OPI6328F058_I4767) | «ས་ཁམས་ས་ག་མོན་གྲེ» | «ལྕགས་ཁམས་ས་ག་ཆུ་སྟོད་སྨད» |
+| SN (Bon, a witness only), the Rgyal rong folk reckonings and *Sgo bzhi mdzod lnga'i yang bcud* (29), which give SN's lines | «ས་ཁམས་ས་ག་བྱ་གཞུག» | «ལྕགས་ཁམས་གྲེ་དང་ཆུ་སྨད» |
+
+So the earth line stands in all but Dpal bsdus, who takes *bya gzhug*
+for Dhaniṣṭhā (མོན་གྲེ, mon gre) as WB does elsewhere; by the turtle's
+quarters (vol. 1, p. 234, the corner joints 7, 14, 21, 28 from Kṛttikā
+earth) Viśākhā and Abhijit are both earth, Dhaniṣṭhā water, so the
+quarters favour Abhijit here. The iron line differs in every family:
+«ས་ག་བྲེ», «ས་ག་ཆུ་སྟོད», «གྲེ»; none puts two mansions of iron's quarter
+(Anurādhā to Śravaṇa) beside Uttarāṣāḍhā, so the line is corrupt in all
+of them, and which mansion it meant is not recovered.

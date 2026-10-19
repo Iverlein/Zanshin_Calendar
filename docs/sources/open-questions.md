@@ -1266,6 +1266,12 @@ the text, not about the app.
     well. Does this verse count the elements another way, or is it corrupt,
     and which mansion does its *bya gzhug* name? (2026-10-12, O2,
     [white-beryl-ch34.md](white-beryl-ch34.md))
+     *Narrowed 2026-10-19 ([white-beryl-ch34.md](white-beryl-ch34.md), *The
+     bride's mansions by element in other prints*): the earth line «ས་ག་བྱ་གཞུག» stands
+     in WB's prints, KD and the SN family; Dpal bsdus alone writes «ས་ག་མོན་གྲེ»,
+     Dhaniṣṭhā. By the turtle's quarters the line's Viśākhā and Abhijit are
+     both earth, so *bya gzhug* here is Abhijit. The iron line reads «ས་ག་བྲེ»,
+     «ས་ག་ཆུ་སྟོད» or «གྲེ» by family, none of them iron's quarter: corrupt in all.*
 
 107. **Mon dre and *bya gzhug* in one list.** WB vol. 2, pp. 390 and 401:
     the hearth and treating horses each name mon dre and *bya gzhug* in one
