@@ -789,13 +789,14 @@ object Electional {
             ),
         ),
         // 33. Learning writing and astrology (img. 40, KP2 img. 261). The bad «༡ ༦» are two dates, the 1st and the 6th (O2);
-        // the good mansions end with the link formation (O10f).
+        // the good mansions end with the link formation (O10f). The second good date is «༢༢» in the Bhutan print of 1981
+        // (I1KG11905, img. 388), the White Beryl's 22nd.
         ActivityList(
             "learning_writing_and_astrology",
             good = Factors(
                 links = setOf(Link.FORMATION),
                 weekdays = setOf(THURSDAY, WEDNESDAY, FRIDAY, SUNDAY),
-                dates = setOf(18),
+                dates = setOf(18, 22),
                 mansions = m(KRITTIKA, PUNARVASU, MAGHA, HASTA, PUSHYA, UTTARABHADRAPADA, SVATI, MRIGASHIRAS, VISHAKHA, SHATABHISHAJ, PURVABHADRAPADA, ANURADHA, ARDRA),
                 animals = setOf(DOG),
             ),
