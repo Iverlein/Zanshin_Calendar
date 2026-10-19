@@ -867,7 +867,7 @@
     <string name="match_destiny_title">Могущества вместе</string>
     <string name="match_nisha_good">Ниша (ཎི་ཤ, Ni sha) · не перевёрнут</string>
     <string name="match_nisha_reversed">Ниша (ཎི་ཤ, Ni sha) · перевёрнут</string>
-    <string name="match_note">Сопоставление насчитывает пятнадцать пунктов; здесь читаются те, что следуют из одних лишь годов рождения.</string>
+    <string name="match_note">Сопоставление насчитывает пятнадцать пунктов; здесь читаются те, что определяются двумя рождениями и годами матерей.</string>
     <string name="match_section_years">Годы</string>
     <string name="match_same_kind_title">Оба одного вида · %1$s</string>
     <string name="match_same_animal_title">Оба одного животного · %1$s</string>
@@ -880,6 +880,9 @@
     <string name="match_mewa_title">Мевы · %1$s</string>
     <string name="match_mewa_name">%1$d-я мева, %2$s цвет</string>
     <string name="match_mewa_none">У мужчины %1$s, у женщины %2$s: одна стихия, и они не встречаются ни одним из прочитанных способов.</string>
+    <string name="match_section_trigram">Триграммы рождения</string>
+    <string name="match_trigram_title">Триграммы · %1$s</string>
+    <string name="match_trigram_needs">Каждой триграмме рождения нужен год рождения матери: укажите в «Людях» мать человека и мать супруга под супругом.</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>

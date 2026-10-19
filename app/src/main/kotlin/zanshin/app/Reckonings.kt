@@ -57,6 +57,9 @@ data class MatchReading(
     val woman: Sign,
     /** The weekdays of the two births, where both dates are known. */
     val weekdays: Pair<Weekday, Weekday>? = null,
+    /** The man's and the woman's natal trigrams, each where their mother's birth year is entered. */
+    val manTrigram: Trigram? = null,
+    val womanTrigram: Trigram? = null,
 )
 
 /** What the Reckonings section reckons for a person, apart from the screen that shows it. */
@@ -108,7 +111,11 @@ object Reckonings {
         val theirs = spouse.birth!!.tibetanYear.let { it to YearOfLife.yearSign(it) }
         val (man, woman) = if (gender == Gender.MALE) own to theirs else theirs to own
         val weekdays = spouse.birth!!.date?.let { TibetanCalendar.of(person.birth).weekday to TibetanCalendar.of(it).weekday }
-        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays)
+        val mother = { of: Int? -> person.relatives.list.firstOrNull { it.of == of && it.relation == Relation.MOTHER && it.birth != null } }
+        val ownTrigram = mother(null)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, own.first) }
+        val theirTrigram = mother(spouse.id)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, theirs.first) }
+        val (manTrigram, womanTrigram) = if (gender == Gender.MALE) ownTrigram to theirTrigram else theirTrigram to ownTrigram
+        return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays, manTrigram, womanTrigram)
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */

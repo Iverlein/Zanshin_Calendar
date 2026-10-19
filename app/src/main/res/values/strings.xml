@@ -1012,7 +1012,7 @@
     <string name="match_destiny_title">Destinies together</string>
     <string name="match_nisha_good">Ni sha (ཎི་ཤ, Ni sha) · not reversed</string>
     <string name="match_nisha_reversed">Ni sha (ཎི་ཤ, Ni sha) · reversed</string>
-    <string name="match_note">The match has fifteen points; those that follow from the two birth years alone are read here.</string>
+    <string name="match_note">The match has fifteen points; those that the two births and the mothers\' years settle are read here.</string>
     <string name="match_section_years">The years</string>
     <string name="match_same_kind_title">Both of one kind · %1$s</string>
     <string name="match_same_animal_title">Both of one animal · %1$s</string>
@@ -1025,6 +1025,9 @@
     <string name="match_mewa_title">Mewas · %1$s</string>
     <string name="match_mewa_name">mewa %1$d %2$s</string>
     <string name="match_mewa_none">The man\'s %1$s and the woman\'s %2$s are of one element and meet in none of the ways read.</string>
+    <string name="match_section_trigram">The natal trigrams</string>
+    <string name="match_trigram_title">Trigrams · %1$s</string>
+    <string name="match_trigram_needs">Each natal trigram needs the mother\'s birth year: enter the person\'s mother, and the spouse\'s mother under the spouse, in People.</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>

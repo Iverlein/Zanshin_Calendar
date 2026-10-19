@@ -214,6 +214,30 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
         if (MatchReckoning.mewaMeetings(manMewa, womanMewa).isEmpty()) {
             Text(labels.string(R.string.match_mewa_none, mewaName(manMewa), mewaName(womanMewa)), style = muted)
         }
+        Section(stringResource(R.string.match_section_trigram))
+        val (manTrigram, womanTrigram) = m.manTrigram to m.womanTrigram
+        if (manTrigram == null || womanTrigram == null) {
+            Text(stringResource(R.string.match_trigram_needs), style = muted)
+        } else {
+            val subtitle = labels.string(R.string.match_aspect_subtitle, gloss(manTrigram), gloss(womanTrigram))
+            val kind = MatchReckoning.trigramKind(manTrigram, womanTrigram)
+            val reading = Texts.matchTrigram(manTrigram, womanTrigram)
+            if (kind == null || reading == null) {
+                Text(subtitle, style = muted)
+            } else {
+                AnnotationRow(
+                    Annotation(
+                        title = stringResource(R.string.match_trigram_title, gloss(kind)),
+                        english = "",
+                        tone = if (kind.good) Tone.GOOD else Tone.BAD,
+                        reading = reading,
+                        subtitle = subtitle,
+                        titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+        }
         Text(stringResource(R.string.match_note), style = muted)
     }
 }
