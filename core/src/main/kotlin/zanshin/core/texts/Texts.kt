@@ -24,6 +24,8 @@ import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
 import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchPlanet
+import zanshin.core.tibetan.PebbleColour
+import zanshin.core.tibetan.PreciousPebble
 import zanshin.core.tibetan.RaisingDay
 import zanshin.core.tibetan.RaisingMonth
 import zanshin.core.tibetan.NiSha
@@ -405,6 +407,8 @@ object Sources {
     val WHITE_BERYL_DPAL_BYUR = whiteBeryl("chapter 22, pp. 295–297, with the notes in vol. 2, p. 476", volume = 1)
     /** The five against the body, destiny, the luck and the mewa (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_SHARES = whiteBeryl("chapter 22, pp. 294–295", volume = 1)
+    /** The four precious pebbles (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2077,6 +2081,10 @@ object Texts {
     /** The aspect [force] in the stage [sector] of its rise and decline at the birth (WB vol. 1, ch. 22, pp. 331–333). */
     fun riseDecline(force: Force, sector: Sector): Reading =
         Reading(key = "reading.RiseDecline", arg = "reading.RiseDecline.${force.name}.${sector.name}", source = Sources.WHITE_BERYL_RISE_DECLINE)
+
+    /** The precious pebble [p] white or black (WB vol. 1, ch. 22, p. 262); a speckled one has no reading. */
+    fun preciousPebble(p: PreciousPebble, colour: PebbleColour): Reading? = if (colour == PebbleColour.SPECKLED) null else
+        Reading(key = "reading.PreciousPebble", arg = "reading.PreciousPebble.${p.name}.${colour.name}", source = Sources.WHITE_BERYL_PRECIOUS)
 
     /** Whom the birth month bears on (WB vol. 1, ch. 22, p. 348). */
     fun raisingMonth(r: RaisingMonth): Reading = Reading(key = "reading.RaisingMonth", arg = "reading.RaisingMonth.${r.name}", source = Sources.WHITE_BERYL_RAISING)

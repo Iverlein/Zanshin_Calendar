@@ -10,6 +10,18 @@ import org.junit.jupiter.api.Test
 
 /** The birth reckoning's parts built (ROADMAP R2; docs/sources/year-of-life.md, RD13). */
 class BirthTest {
+    /** The key pebbles (p. 260) and the tie (vol. 2, p. 46): the tiger one black to the snake four, the horse one white to the bird four; the dog and ox speckled. */
+    @Test
+    fun `the precious pebbles' colours`() {
+        assertEquals(Pebbles(0, 1), BirthReckoning.keyPebbles(Animal.TIGER))
+        assertEquals(Pebbles(0, 4), BirthReckoning.keyPebbles(Animal.SNAKE))
+        assertEquals(Pebbles(4, 0), BirthReckoning.keyPebbles(Animal.BIRD))
+        assertEquals(PebbleColour.WHITE, BirthReckoning.preciousColour(Animal.PIG))
+        assertEquals(PebbleColour.BLACK, BirthReckoning.preciousColour(Animal.MOUSE))
+        assertEquals(PebbleColour.SPECKLED, BirthReckoning.preciousColour(Animal.DOG))
+        assertEquals(PebbleColour.SPECKLED, BirthReckoning.preciousColour(Animal.OX))
+    }
+
     /** P. 348's examples: a mouse child's months (dragon the father's, horse the mother's, tiger and hare its own) and a tiger or hare day. */
     @Test
     fun `raising the child by month and day`() {

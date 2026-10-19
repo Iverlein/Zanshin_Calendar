@@ -157,6 +157,12 @@ enum class LineGroup(val animals: Set<Animal>) {
     }
 }
 
+/** The four precious pebbles (*gces rdel*, p. 262): the birth's year as king, month as minister, day as soldier, hour as weapon. */
+enum class PreciousPebble { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(this) }
+
+/** A pebble's colour; speckled where white and black are even (WB vol. 2, p. 46, «ཕྱེད་མ་ཁྲ་བོར་བོར»). */
+enum class PebbleColour { WHITE, BLACK, SPECKLED }
+
 /** Whom the birth month bears on, by the child's life force counted onto it (p. 348). */
 enum class RaisingMonth { FATHER, MOTHER, OWN, GOOD; val english: String get() = gloss(this) }
 
@@ -308,6 +314,35 @@ object BirthReckoning {
             Sector.DRESSING -> LineStage.STAYING
             Sector.ENTERING_THE_TOMB -> LineStage.TORN
             else -> null
+        }
+    }
+
+    /**
+     * The key pebbles of a sign's animal (p. 260): black growing from the tiger (one) to the snake (four), white from
+     * the horse (one) to the bird (four); the dog one of each, the pig two white and one black, the mouse two black and
+     * one white, the ox two of each. As white and black.
+     */
+    fun keyPebbles(animal: Animal): Pebbles = when (animal) {
+        Animal.TIGER -> Pebbles(0, 1)
+        Animal.RABBIT -> Pebbles(0, 2)
+        Animal.DRAGON -> Pebbles(0, 3)
+        Animal.SNAKE -> Pebbles(0, 4)
+        Animal.HORSE -> Pebbles(1, 0)
+        Animal.SHEEP -> Pebbles(2, 0)
+        Animal.MONKEY -> Pebbles(3, 0)
+        Animal.BIRD -> Pebbles(4, 0)
+        Animal.DOG -> Pebbles(1, 1)
+        Animal.PIG -> Pebbles(2, 1)
+        Animal.MOUSE -> Pebbles(1, 2)
+        Animal.OX -> Pebbles(2, 2)
+    }
+
+    /** A precious pebble's colour by its animal's key pebbles: the more, white or black; even, speckled. */
+    fun preciousColour(animal: Animal): PebbleColour = keyPebbles(animal).let {
+        when {
+            it.white > it.black -> PebbleColour.WHITE
+            it.black > it.white -> PebbleColour.BLACK
+            else -> PebbleColour.SPECKLED
         }
     }
 
