@@ -491,8 +491,8 @@ in their places whatever the year or month, and if a work that would
 press them down (*ko long sdom pa*) has to be done there, the screening
 and mending rites are done as fits. Those that circle in the year, the
 seventeen kings and ministers and the rest, number 231; in the month 124;
-the day's gods 61; the hour's 37; with the reckoning of their chief,
-Rāhu. In all some four hundred and four are taught, the proud chiefs who
+the day's gods 81; the hour's 37; with the reckoning of their chief,
+Rāhu. In all some four hundred and seventy-four are taught, the proud chiefs who
 must not be left out of the reckoning; apart from them nothing else of
 the world's gods and spirits that go about is reckoned. [Then the two
 kinds of seat, east and so on, in the house.] Where the fixed ones and the
@@ -515,8 +515,10 @@ it orders neither above the other and gives no way to join them. Within
 section 3 the only instruction is where the lords stand, what a work
 presses on them, and the remedy; the closing «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ» sends
 the reader to the time of the work. The 231 and 124 are the counts RD3
-and RD4 found in ch. 31 itself (p. 174); the 61 and 37 were not checked
-against the chapter.
+and RD4 found in ch. 31 itself (p. 174); the 81 day's and 37 hour's gods
+and the sum, «ལོ་ཟླ་ཞག་དུས་ལྷའི་ཁྱོན་གྲངས། །བཞི་བརྒྱ་དོན་བཞི», 474, are the chapter's
+too (pp. 174–175, img. 182–183, etext of the 1996 edition and the Gser
+thang reprint, 2026-10-19).
 
 **Inside the earth lords' own reckonings the notes do rank**, and only
 there. Machine-read (Yigdzin-1 on the scan images, BDRC's etext agrees),
@@ -591,7 +593,7 @@ bear on the choice, and are inferences, not statements of any text:
 ### Open
 
 - Open question 41 ([open-questions.md](open-questions.md)): whether an earth lord's prohibition is weighed against the date's results, and where.
-- Open question 42: what «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།» (p. 534) asks of the hour's earth lords.
+- Open question 42 (answered as far as the sources go, 2026-10-19): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།» (p. 534) closes the earth lords' head, whose list ends with the hour's 37; it asks that the lords be reckoned for the work's own time, down to the hour, as the corpse's road does.
 
 ### Searched and not found
 
@@ -602,8 +604,9 @@ bear on the choice, and are inferences, not statements of any text:
   and the verse of the weighing «སྟོབས་ཆེ་བ་ཉིད» / «རིམ་སྟོབས» /
   «དམིགས་བསལ་བྱུང་ན», which occurs in vol. 1 p. 514 and vol. 2 p. 557
   only as Tshul khrims rgyal mtshan's and as a verse on the year's rains); KP img. 13–14.
-- Not searched: BDRC's full-text search for the weighing verse in other
-  manuals' treatment of the earth lords.
+- BDRC's full text, 2026-10-19 (open question 41): «ཚེས་གཟའ་བཟང་ཡང་ས་བདག»,
+  «ས་བདག་ངན་ན», «ས་བདག་གི་ཀོ་ལོང་ཆེ», «ས་བདག་གཙོ་བོ», «ས་བདག་ལ་མ་ལྟོས»,
+  «ས་བདག་ཉིད་གཙོ»: no manual sets an earth lord against the date's results.
 
 ## On the prints and in BDRC's search, 2026-10-18 night (open questions 127, 130)
 

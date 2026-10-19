@@ -659,11 +659,28 @@ the text, not about the app.
     date's factors, and where: with the particular case (*dmigs bsal*), or
     below every factor of the order of strength (2026-10-12, RD6,
     [weighing.md](weighing.md))?
+    *Searched further 2026-10-19 ([weighing.md](weighing.md), *Searched and
+    not found*): BDRC's full text has no manual that sets an earth lord
+    against the date's results («ཚེས་གཟའ་བཟང་ཡང་ས་བདག», «ས་བདག་ངན་ན»,
+    «ས་བདག་གཙོ་བོ», «ས་བདག་ཉིད་གཙོ» and others). The notes keep the two as
+    separate heads (the third and the fourth of the general reckoning), and
+    their «དམིགས་སུ་བསལ་བ» belongs to the fourth, the results of each work.*
 
 42. **WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
     Does it mean the hour's earth lords (the 37) are to be reckoned at the
     time of the work, as the corpse's road does, or only that the work's time
     is to be chosen carefully (2026-10-12, RD6, [weighing.md](weighing.md))?
+    *Answered as far as the sources go, 2026-10-19 ([weighing.md](weighing.md),
+    *WB's notes*): the first. The sentence closes the notes' third head,
+    "what is needed for anything: the earth lords" (p. 534, the line read
+    whole in the Gser thang reprint's etext, «…བ་རྔུར་ལེའུ་སོ་གཅིག་པ་ལས་ཞིབ་ཏུ་ཤེས་པར་བྱ་ཞིང་།
+    ཁྲ་མ་ལས་ཀྱང་རྟོགས་པར་བྱས་ལ། བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།»), whose list ends
+    with the year's 231, the month's 124, the day's 81 and the hour's 37
+    lords (ch. 31's own count, pp. 174–175: «ལོ་ཟླ་ཞག་དུས་ལྷའི་ཁྱོན་གྲངས། །བཞི་བརྒྱ་དོན་བཞི»);
+    choosing the time by its good and bad comes only in the fourth head,
+    the results of chs. 33–34. So the lords are to be reckoned for the
+    work's own time down to the hour, as the corpse's road reckons
+    «ལོ་ཟླ་ཞག་དུས་ཀྱི་ས་བདག» (p. 513). No reader glosses the line.*
 
 43. **Answered 2026-10-19. KP box 16 (BDRC img. 33–34): the numerals under the three «ཟླ་ཚེས».**
     Each carries two small numerals. Are they the month and date on which
