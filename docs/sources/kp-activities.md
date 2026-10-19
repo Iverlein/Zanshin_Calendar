@@ -205,7 +205,7 @@ The box on the scan, KP BDRC img. 33 (O10f):
 
 - Good half: «༄། །གཟའ་ཉི་སྤེན་མིག་ལྷག་གཏོང་ངན་ལེན་བཟང་། ཕུར་…ཕྱུགས་གཏོང་ངན། ཚེས་༣ ༤ / ༥ ༡༤ ༡༥ ༢༡ ༢༥ སྐར་མ་སྣར་རྒྱལ་མཆུ་གྲེ་སྣྲུབས་ཆོད་མགོ་ / མོནྲུ་ཁྲུཾད་ནུཾ་སྨིན་ནབསོ་སྣྲོན་ཁྲོད་བྲཉེ་འདི་རྣམས་གཏོང་ངན་ལེན་བཟང་། / ལག་ཕྱུགས་…ལ་མིན་པ་བཟང་། མ་རིག་སྲིད་པ་ཚོར་བ་༩ …ཚུར་ལེན་བཟང་།»
 - Bad half: «༄། །གཟའ་ཟླ་སངས་ཚེས་༡ ༦ ༧ ༨ ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ / ༡༦ ༡༧ ༡༨ ༢༠ ༢༦ སྐར་མ་མྱེ་དབོ་ནག་མོནྲེ་ཉི་མ་སྦྲུལ་དབུལ་ / ཉི་ནག་ཀི་ཀང་སེ་བྱི་ཧང་ཕན་ཟླ་ཀླུང་ཟླ་ཚེས་ཟླ་ཚེས་ཟླ་ཚེས་…འདི་[…]། [small numerals under the three ཟླ་ཚེས, not read with confidence: the first two look like ༡༡ ༢༧ and ༡༢ ༢༥, the third ༡ and a worn digit]»
-- **The three month-dates, settled 2026-10-19 by WB's work 14** (p. 401: «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན་དང་། །བཅུ་གཉིས་ཟླ་བའི་ཉེར་ལྔ་དང་། །དང་པོའི་ཟླ་བའི་ཉེར་གསུམ་དང་།…ངན་པས་སྤང»): the 27th of the 11th month, the 25th of the 12th and the 23rd of the 1st, all bad; the worn third is 23.
+- **The three month-dates, settled 2026-10-19 by WB's work 14** (p. 395: «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན་དང་། །བཅུ་གཉིས་ཟླ་བའི་ཉེར་ལྔ་དང་། །དང་པོའི་ཟླ་བའི་ཉེར་གསུམ་དང་།…ངན་པས་སྤང»): the 27th of the 11th month, the 25th of the 12th and the 23rd of the 1st, all bad; the worn third is 23.
 - The giving half, 16b, is the same box.
 
 - **Good:** Sun Sat Tue Wed; dates 3, 4, 5, 15, 21, 25; snar ma, rgyal, mchu, gre, snrubs, chu stod, mgo, mon gru, khrums smad, nam gru, smin drug, nabs so, snron, khrums stod, bra nye
