@@ -162,6 +162,19 @@ scratch directory, not in the repository:
   than once: a rule asked of one chapter is often stated in another
   (the tie of white and black pebbles, open question 160, in ch. 29; the
   times to beware for learning, which ch. 34 points to, in ch. 35).
+  A reset (typeset) reprint reads more easily than its blocks but may bring
+  them to the source it digests (the Bhutan KP sets WB's dates and weekday
+  where KP's own scan differs): read the digit on the reprint, then confirm
+  it on the blocks, and keep the blocks where they differ.
+- **Which edition a writer cites:** search two or three lines he cites with
+  his page numbers, fetch the etexts of the editions that hold them, and
+  compare the steps between the lines' pages with his. The steps do not
+  depend on any offset between page and image, so one comparison rules an
+  edition in or out (open question 86, 2026-10-19).
+- **A word an OCR file places, on the scan:** `scans.py line IMG N --at F`
+  crops line N of the page around the fraction F of its width, from the
+  OCR file's line number and the word's offset over the line; it is how
+  the doubtful words of 2026-10-19 were read on the Gser thang reprint.
 - **An outline part's place in a volume:** `curl
   https://ldspdi.bdrc.io/resource/MW…_XXXX.json` gives the part's
   `contentLocation` (a CL… id) and its location statement; the CL…'s
