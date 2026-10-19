@@ -1049,3 +1049,15 @@ exception; the four executioners of the mouse and the pig (Mipham: the
 mouse with the dog, the dragon "and so on", eight in all). Left out of
 built readings: the pig and snake's «ས་སྒོ་རྒྱུག་མོ་འཆི» (1996 «སྨྱུག»), the
 mouse and horse's «བུད་མེད་འོག་རྟར་ངན», the great omen's «རྫ་ལུང་བོལ».
+
+## Built, 2026-10-19 (ROADMAP R3f)
+
+Point 12, the mewa's luck (p. 363, quoted above), by the birth mewas
+alone, as «ངོ་བོ་སྐྱེས་སྨེ་གཙོ་ཆེ་ཡང་། །རྒྱས་པར་སྤྲོ་ན་བཞི་ག་སྤྲད།» allows: «གཅིག་སྐྱེས་ནང་བསྡེབས་ཟ་ཐང་ཆུང»
+(one mewa), «ཕོ་མོ་འདྲ་སྟེ་གཉིས་ནག་ལ། །བཙས་པ་འདུས་ན་བྱུར་འདུས» (both on the
+two-black, shown beside the one mewa), «སྨེ་བ་མ་བུར་ཕྲད་ན་བཟང» (mother and
+son, either way), «དགྲ་ཕྲད་ངན» (enemies, either way) and, as the enemies'
+«ཁྱད་པར», the man on the seven-red and the woman on the three-blue, the
+mewa's demon, with «བསྡེབས་ན་གཏོ་ལ་བདུན་ཚོག་བྱ» as its rite. `MatchMewa`.
+Not built: the four aspects' mewas (question 161) and «དཀར་ཤས་ཆེ» / «ནག་ཤས་ཆེ»,
+which count over them.

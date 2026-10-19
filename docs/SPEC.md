@@ -681,6 +681,15 @@ relatives (the spouse taken as the other sex where theirs is not set).
   `MatchPairList` and `MatchPairLine`. The lists disagree in places (the
   ox and sheep bring many children and failed harvests); each reading is
   shown.
+- **The birth mewas** (point 12, p. 363): the man's and the woman's
+  birth mewas, "the main one" though all four aspects' may be compared
+  (`MatchReckoning.mewaMeetings`, family `MatchMewa`): born on one mewa,
+  little to eat; both on the two-black, misfortune gathered (*byur
+  'dus*); as mother and son, good; as enemies, bad, and the man on the
+  seven-red with the woman on the three-blue the mewa's demon, not
+  joined, with its rite. Two mewas of one element that are not one meet
+  in none of these ways. Not built: the four aspects' mewas (open
+  question 161) and the white and black shares.
 - **The single match** (*rkyang pa*, pp. 355–357): the man's life force
   and luck set against the woman's, the woman's body and destiny against
   the man's; mother, son and friend agree, the enemy disagrees, the same
@@ -3390,7 +3399,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   one element · Fire · a male and a female year"), each named list of
   pairs ("Pair of years · the six of ruin") and each pair read one by one
   ("Pair of years · Dragon and Monkey · the man's year takes the
-  woman's") and each
+  woman's"), under "The birth mewas" each meeting ("Mewas · mother and
+  son · The man's mewa 6 white · the woman's mewa 2 black") or a line that
+  they meet in none, and each
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's
