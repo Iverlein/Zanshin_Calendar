@@ -607,6 +607,17 @@ the text, not about the app.
     hundred and ten days. Does each pair hold the place for twenty-two
     days in turn, and where do the mothers and sons sit (2026-10-11, RD3,
     [year-month-earth-lords.md](year-month-earth-lords.md))?
+    *Narrowed 2026-10-19: the hal khyi's own seat is confirmed, the
+    mothers and sons are named in WB alone. Thub bstan chos kyi glang po
+    of Dpal yul (*Gsung 'bum*, W21825, vol. 6, etext p. 9) seats the
+    year's hal khyi by the year's triad, «བྱ་གླང་སྦྲུལ་གསུམ་ལོ་ལ་ཤར་བསྟོད། ཁྱི་རྟ་སྟག་གསུམ་ལོ་ལ་བྱང་སྨད། ཕག་ལུག་ཡོས་གསུམ་ལོ་ལ་ནུབ་བསྟོད། བྱི་འབྲུག་སྤྲེལ་གསུམ་ལོ་ལ་ལྷོ་སྨད།»,
+    which is WB's "previous year's wind-horse": an ox, bird or snake year
+    follows a year of the water triad, whose wind-horse is the tiger, in
+    the east; so the pig in the north, the monkey in the west, the snake
+    in the south. He gives the month's, day's and hour's hal khyi too, and
+    no mothers or sons. No other text found («མ་ལྔ་བུ་ལྔ», «མ་བུ་གཉིས་གཉིས»,
+    «ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས», BDRC full text) names them beside the hal
+    khyi.*
 
 37. **Answered 2026-10-18. WB vol. 2, p. 196 (img. 204): the sky dog's «ཁེན། །བཅོ་བརྒྱད་ཉེར་དྲུག་ལ་སོགས».**
     The male sky dog holds the trigram *khen* "on 18, 26 and so on", the

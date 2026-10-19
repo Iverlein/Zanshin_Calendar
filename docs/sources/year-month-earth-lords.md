@@ -455,6 +455,11 @@ Each with WB's bracketed number.
   previous year («སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང»); he rules the four
   harmful years. The printed numbers 17–25 stand over the mothers and
   sons.
+  Thub bstan chos kyi glang po of Dpal yul (W21825, vol. 6, etext p. 9)
+  seats him by the year's triad, ox, bird and snake years east, dog,
+  horse and tiger years north, pig, sheep and hare years west, mouse,
+  dragon and monkey years south: the previous year's wind-horse
+  (open question 36).
 - **Turning and entry.** Twenty-two days each, mother and son moving two
   by two: a hundred and ten days (WB's note: the *Rin chen kun 'dus*, the
   *Lung kun 'dus*, the *lha rgyud* and the *Gsal sgron* have a hundred and
