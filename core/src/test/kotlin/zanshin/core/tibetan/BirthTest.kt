@@ -89,4 +89,31 @@ class BirthTest {
         assertEquals(emptyList<BirthOmen>(), omens(Trigram.KHAM, Animal.BIRD, Gender.FEMALE))
         assertEquals(emptyList<BirthOmen>(), omens(Trigram.LI, Animal.HORSE, Gender.FEMALE))
     }
+
+    /** P. 261's table, read on the scan: every clan's seven kinds of year cover the twelve animals once. */
+    @Test
+    fun `the special pebble follows the clan's table`() {
+        for (c in Clan.entries) {
+            val kinds = Animal.entries.groupBy { BirthReckoning.clanYear(c, it) }
+            assertEquals(ClanYear.entries.toSet(), kinds.keys, "$c")
+            assertEquals(1, kinds.getValue(ClanYear.GREAT_PENALTY).size)
+            assertEquals(1, kinds.getValue(ClanYear.SMALL_PENALTY).size)
+            // The great penalty is the element's tomb animal, the small its seventh; water's are earth's.
+            val tomb = YearOfLife.tomb(YearOfLife.tombKey(c.element))
+            assertEquals(listOf(tomb), kinds.getValue(ClanYear.GREAT_PENALTY), "$c")
+            assertEquals(listOf(Animal.entries[(tomb.ordinal + 6) % 12]), kinds.getValue(ClanYear.SMALL_PENALTY), "$c")
+            // The rest by the life force of the year against the clan's element.
+            for (y in listOf(ClanYear.POWER, ClanYear.MOTHER, ClanYear.SON, ClanYear.FRIEND, ClanYear.ENEMY)) for (a in kinds.getValue(y)) {
+                val kin = Forces.kinship(c.element, vitality(a))
+                val expected = mapOf(Kinship.IDENTITY to ClanYear.POWER, Kinship.MOTHER to ClanYear.MOTHER, Kinship.SON to ClanYear.SON, Kinship.FRIEND to ClanYear.FRIEND, Kinship.ENEMY to ClanYear.ENEMY)
+                assertEquals(expected.getValue(kin), y, "$c $a")
+            }
+        }
+        // Rows of the table as printed.
+        assertEquals(ClanYear.GREAT_PENALTY, BirthReckoning.clanYear(Clan.KEG, Animal.SHEEP))
+        assertEquals(ClanYear.FRIEND, BirthReckoning.clanYear(Clan.KEG, Animal.DRAGON))
+        assertEquals(ClanYear.MOTHER, BirthReckoning.clanYear(Clan.SHANG, Animal.DOG))
+        assertEquals(ClanYear.ENEMY, BirthReckoning.clanYear(Clan.U, Animal.SHEEP))
+        assertEquals(ClanYear.SMALL_PENALTY, BirthReckoning.clanYear(Clan.JI, Animal.DRAGON))
+    }
 }

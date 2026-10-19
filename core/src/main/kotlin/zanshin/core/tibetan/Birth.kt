@@ -10,8 +10,36 @@ import zanshin.core.texts.gloss
  * The reckoning of the birth (ROADMAP R2, the birth): the parts of WB vol. 1, ch. 22 that are read on the scan and
  * follow from the dates. The natal trigram is [KinReckoning.natalTrigram]'s; set against the birth year's life
  * force it gives the five children of p. 294, and with the father's trigram, the child's sex and both years the
- * readings of the parents' trigrams at the birth on p. 326. docs/sources/year-of-life.md, RD13, quotes each rule.
+ * readings of the parents' trigrams at the birth on p. 326. With the clan, which is asked, the special pebble sets
+ * the birth year against the clan's element (pp. 261, 284–286). docs/sources/year-of-life.md, RD13, quotes each rule.
  */
+
+/**
+ * The five great clans (*rus chen*) by their element (p. 259): keg wood, ji fire, kungs earth, shang iron, 'u water.
+ * The clan is known in the family or found by its tradition, not reckoned (the notes, vol. 2, p. 474).
+ */
+enum class Clan(val element: Element, val wylie: String) {
+    KEG(Element.WOOD, "keg"),
+    JI(Element.FIRE, "ji"),
+    KUNGS(Element.EARTH, "kungs"),
+    SHANG(Element.IRON, "shang"),
+    U(Element.WATER, "'u");
+
+    val english: String get() = gloss(this)
+}
+
+/** How a birth year stands to the clan's element, the special pebble (*sgos rdel*, p. 261), in the order of its readings (pp. 284–286). */
+enum class ClanYear {
+    GREAT_PENALTY,
+    SMALL_PENALTY,
+    MOTHER,
+    POWER,
+    SON,
+    FRIEND,
+    ENEMY;
+
+    val english: String get() = gloss(this)
+}
 
 /**
  * What the one born is by the element of the natal trigram against the element of their birth year's life force
@@ -58,6 +86,29 @@ enum class BirthOmen {
 }
 
 object BirthReckoning {
+    /**
+     * The special pebble's table (p. 261, read on the scan): for each clan the year animals of its great and small
+     * penalty, its power year, and its mother, son, friend and enemy years. The great penalty is the element's tomb
+     * animal and the small its seventh; water's are earth's.
+     */
+    private val CLAN_YEARS: Map<Clan, Map<ClanYear, Set<Animal>>> = mapOf(
+        Clan.KUNGS to years(Animal.DRAGON, Animal.DOG, power = Animal.OX to Animal.SHEEP, mother = Animal.HORSE to Animal.SNAKE, son = Animal.BIRD to Animal.MONKEY, friend = Animal.MOUSE to Animal.PIG, enemy = Animal.TIGER to Animal.RABBIT),
+        Clan.JI to years(Animal.DOG, Animal.DRAGON, power = Animal.HORSE to Animal.SNAKE, mother = Animal.TIGER to Animal.RABBIT, son = Animal.OX to Animal.SHEEP, friend = Animal.BIRD to Animal.MONKEY, enemy = Animal.MOUSE to Animal.PIG),
+        Clan.KEG to years(Animal.SHEEP, Animal.OX, power = Animal.TIGER to Animal.RABBIT, mother = Animal.MOUSE to Animal.PIG, son = Animal.HORSE to Animal.SNAKE, friend = Animal.DOG to Animal.DRAGON, enemy = Animal.BIRD to Animal.MONKEY),
+        Clan.U to years(Animal.DRAGON, Animal.DOG, power = Animal.MOUSE to Animal.PIG, mother = Animal.BIRD to Animal.MONKEY, son = Animal.TIGER to Animal.RABBIT, friend = Animal.HORSE to Animal.SNAKE, enemy = Animal.OX to Animal.SHEEP),
+        Clan.SHANG to years(Animal.OX, Animal.SHEEP, power = Animal.BIRD to Animal.MONKEY, mother = Animal.DOG to Animal.DRAGON, son = Animal.MOUSE to Animal.PIG, friend = Animal.TIGER to Animal.RABBIT, enemy = Animal.HORSE to Animal.SNAKE),
+    )
+
+    private fun years(great: Animal, small: Animal, power: Pair<Animal, Animal>, mother: Pair<Animal, Animal>, son: Pair<Animal, Animal>, friend: Pair<Animal, Animal>, enemy: Pair<Animal, Animal>) =
+        mapOf(
+            ClanYear.GREAT_PENALTY to setOf(great), ClanYear.SMALL_PENALTY to setOf(small), ClanYear.POWER to power.toList().toSet(),
+            ClanYear.MOTHER to mother.toList().toSet(), ClanYear.SON to son.toList().toSet(), ClanYear.FRIEND to friend.toList().toSet(),
+            ClanYear.ENEMY to enemy.toList().toSet(),
+        )
+
+    /** How a birth year of [animal] stands to [clan] (p. 261). */
+    fun clanYear(clan: Clan, animal: Animal): ClanYear = CLAN_YEARS.getValue(clan).entries.first { animal in it.value }.key
+
     /** What one born in a year of life force [vitality] on the natal trigram [natal] is (p. 294). */
     fun child(vitality: Element, natal: Trigram): BirthChild = when (Forces.kinship(vitality, YearOfLife.trigramElement(natal))) {
         Kinship.MOTHER -> BirthChild.PARENTS_GOD
