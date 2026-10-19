@@ -663,6 +663,7 @@ The box on the scan, KP BDRC img. 59 (O10f):
 - One more bad date, read 1 with the word rig (rig byed), is left out.
 - **The bad dates read on the scan 2026-10-19** (img. 59 at 5×): «༦ ༧ ༡༢ ༤ ༡༥», the first the 6 with its left hook, the fourth the flat-headed 4: the White Beryl's work 52 in its own order, «དྲུག་བདུན་བཅུ་གཉིས་བཞི་བཅོ་ལྔ། །ངན་ཞིང་ཚེས་གཅིག་རིག་བྱེད་སྤྱིའི། །དུས་གཉན» (vol. 2, p. 421), the 1st the time to beware for learning. The O10f reading above took the 6 for 4 and the 4 for 9; it is kept as it was. The 9th is on neither side.
 - **The scan (O10f) reads otherwise:** the arched bracket spans «སངས་ཉི་ཟླ» in KP and KP2 (BDRC img. 59, KP2 img. 282, at 4×): the Sun and the Moon are bracketed with Friday and count for neither side, not good.
+- **«སྒྲའི་དུས་གཉན་ལོགས་སུ་གསལ»** (the bad half's close): the times to beware for grammar are WB's ch. 35, p. 432, the 1st for all sciences and the 8th, 14th, 16th, 23rd, 29th, 15th and 30th for grammar ([white-beryl-ch34.md](white-beryl-ch34.md), work 52); not built.
 
 ### 55. Bringing rain — ཆར་འབེབས་བྱེད་པར་བཟང་བ
 
