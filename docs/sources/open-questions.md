@@ -1390,6 +1390,14 @@ the text, not about the app.
     same results. So a third restatement treats the clause as a variant;
     none glosses «མ». WB's remedy, «མ་ཡོད་མ་མེད་དང་སྦྱར་བའི། །མ་ཀླུངས་གཏོ་ཆོག», and the notes'
     «མ་ད་ལྟ་ཡོད་ན» tie the rite to the mother either way.*
+    *Narrowed further 2026-10-19 ([year-of-life.md](year-of-life.md)): «མ་སྤར» names
+    the natal trigram elsewhere. The birth reckoning of the Bhutan
+    collection of 1981 (*Byis pa'i skyes rtsis legs bshad gsal sgron*,
+    I1KG11905, etext p. 184; etext only) heads the results by birth
+    trigram «ནང་རུས་མ་སྤར་འབྲས་བུ» and lists them «…ཁོན་སྟེང་སྐྱེས་པ…», «དྭ་སྟེང་གང་སྐྱེས…»: the
+    trigram one is born on, the mother's at the birth. Read so, WB's «མ་སྤར་ལི»
+    is a natal trigram li, as the notes' «བརྩི་བྱ་ལི་ལ་བབ» take it; the manual
+    is not WB, and WB does not gloss the word.*
 
 92. **Answered 2026-10-18. The white year.** WB vol. 1, p. 388: «ལོ་དཀར་ཐོག་ཏུ་ཕྱིན་པ་ན།
     །ཉེ་བར་མྱ་ངན་འོང» — what is the "white year" (ལོ་དཀར) the progressed

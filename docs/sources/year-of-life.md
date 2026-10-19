@@ -2279,6 +2279,14 @@ white." So:
 - **91.** Klong chen, like Lha mo tshul khrims's verse (above), has only
   the birth trigram, «རང་སྐྱེས་སྤར་ཁའི་སྟེང་དུ་ཕྱིན་ན», and nothing for WB's «མ་སྤར་ལི».
 
+- **«མ་སྤར» in a birth reckoning, 2026-10-19 (open question 91).** The
+  *Byis pa'i skyes rtsis legs bshad gsal sgron* of the *Collected
+  Astrological and Prognosticatory Texts from Bhutan* (Thimphu, 1981;
+  BDRC I1KG11905, etext p. 184, etext only) heads the readings of the
+  birth trigram «ནང་རུས་མ་སྤར་འབྲས་བུ» and gives them trigram by trigram, «ཁོན་སྟེང་སྐྱེས་པ་དུར་སྐྱོན་…»,
+  «དྭ་སྟེང་གང་སྐྱེས་དམེ་གྲི་ས…» (the first, li's, garbled in the etext): *ma spar*
+  is there the trigram one is born on, the mother's trigram at the birth.
+
 **The four precious pebbles, built 2026-10-19** (ROADMAP R2l): p. 262's
 readings («གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ། །གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། །དཀར་ན་རྒྱལ་པོའི་བཀའ་མི་བཀྱོན། …། །དུས་ཚོད་མཚོན་ཆའི་རྡེའུ་ནི། …། །མི་ནོར་ཀུན་ལ་ངན་པར་བཤད།», read on the reprint, I3CN5028
 img. 257, by Yigdzin-1 against the 1996 print, 99 % agreed; «ཁ་སྨྲས»
