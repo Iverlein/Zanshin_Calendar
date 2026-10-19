@@ -16,14 +16,17 @@ import zanshin.app.BirthReading
 import zanshin.app.Labels
 import zanshin.app.LocalLabels
 import zanshin.app.Person
+import zanshin.app.Reckonings
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthReckoning
+import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Sign
+import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.YearOfLife
 
@@ -45,6 +48,8 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         AnnotationRow(natalTrigramAnnotation(b.birthYear, b.natal, b.mother, labels), onOpen)
         AnnotationRow(childAnnotation(b, labels), onOpen)
 
+        ClanSection(person, onOpen)
+
         Section(stringResource(R.string.birth_section_parents))
         if (person.gender == null) Text(stringResource(R.string.birth_gender_needed), style = muted)
         if (b.fatherTrigram == null) Text(stringResource(R.string.birth_father_needed), style = muted)
@@ -64,6 +69,39 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
         }
         Text(stringResource(R.string.birth_note), style = muted)
     }
+}
+
+/** The special pebble (pp. 261, 284–286): the birth year against the clan's element, or what it needs. */
+@Composable
+fun ClanSection(person: Person, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Section(stringResource(R.string.birth_section_clan))
+    val y = Reckonings.clanYear(person)
+    val clan = person.clan
+    if (y == null || clan == null) {
+        Text(stringResource(R.string.birth_clan_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        return
+    }
+    val born = TibetanCalendar.of(person.birth)
+    AnnotationRow(
+        Annotation(
+            title = y.english.replaceFirstChar(Char::uppercase),
+            english = "",
+            tone = when (y) {
+                ClanYear.GREAT_PENALTY, ClanYear.POWER, ClanYear.SON -> Tone.GOOD
+                ClanYear.SMALL_PENALTY, ClanYear.MOTHER -> Tone.MIXED
+                ClanYear.FRIEND, ClanYear.ENEMY -> Tone.BAD
+            },
+            reading = Texts.clanYear(y),
+            subtitle = labels.string(R.string.birth_clan_subtitle, Ewts.named(clan.english, clan.wylie), gloss(clan.element, "inText"), gloss(born.yearAnimal)),
+            titleIsKanji = false,
+            details = listOf(
+                labels.string(R.string.birth_detail_clan) to "${Ewts.named(clan.english, clan.wylie)} · ${gloss(clan.element, "inText")}",
+                labels.string(R.string.birth_detail_child) to signName(Sign(born.yearElement, born.yearAnimal), labels),
+            ),
+        ),
+        onOpen,
+    )
 }
 
 private fun signName(s: Sign, labels: Labels) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))

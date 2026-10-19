@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Assertions.assertSame
 import org.junit.jupiter.api.Test
+import zanshin.core.tibetan.Clan
 import zanshin.core.tibetan.Gender
 import java.time.LocalDate
 
@@ -29,6 +30,14 @@ class PeopleTest {
         assertEquals(list, People.decode(People.encode(list)))
         assertEquals(listOf(Person("Old", LocalDate.ofEpochDay(100))), People.decode("100\tOld"))
         assertEquals(listOf(Person("Odd", LocalDate.ofEpochDay(100))), People.decode("100\tOdd\tx"))
+    }
+
+    @Test
+    fun `the clan survives the round trip, with or without the gender`() {
+        val list = listOf(kyoto.copy(clan = Clan.KEG), lhasa.copy(gender = Gender.FEMALE, clan = Clan.U), third)
+        assertEquals("${kyoto.birth.toEpochDay()}\tKyoto test\t\tKEG", People.encode(listOf(list[0])))
+        assertEquals(list, People.decode(People.encode(list)))
+        assertEquals(listOf(Person("Odd", LocalDate.ofEpochDay(100), Gender.MALE)), People.decode("100\tOdd\tm\tNOT_A_CLAN"))
     }
 
     @Test

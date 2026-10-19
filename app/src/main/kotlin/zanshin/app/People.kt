@@ -4,15 +4,18 @@
 
 package zanshin.app
 
+import zanshin.core.tibetan.Clan
 import zanshin.core.tibetan.Gender
 import java.time.LocalDate
 
 /**
  * One person whose personal days the pages read: a name, a birth date and,
  * for the progressions of the elemental divination, a gender, null while it
- * is not set (SPEC §10.5), and their own tree of [relatives] (ROADMAP P1).
+ * is not set (SPEC §10.5), their own tree of [relatives] (ROADMAP P1) and,
+ * for the birth reckoning's special pebble, their [clan], null while it is
+ * not set (ROADMAP R2).
  */
-data class Person(val name: String, val birth: LocalDate, val gender: Gender? = null, val relatives: Relatives = Relatives())
+data class Person(val name: String, val birth: LocalDate, val gender: Gender? = null, val relatives: Relatives = Relatives(), val clan: Clan? = null)
 
 /**
  * The saved people, at most [MAX], and which of them the pages read for:
@@ -53,20 +56,26 @@ data class People(val list: List<Person> = emptyList(), val active: Int? = null)
 
         /**
          * One line per person: the birth date's epoch day, a tab, the name and,
-         * when the gender is set, a tab and "m" or "f".
+         * when the gender or the clan is set, a tab and "m", "f" or nothing,
+         * and when the clan is set, a tab and its name.
          */
         fun encode(list: List<Person>): String = list.joinToString("\n") { p ->
-            "${p.birth.toEpochDay()}\t${clean(p.name)}" + when (p.gender) {
-                Gender.MALE -> "\tm"
-                Gender.FEMALE -> "\tf"
+            val gender = when (p.gender) {
+                Gender.MALE -> "m"
+                Gender.FEMALE -> "f"
                 null -> ""
+            }
+            "${p.birth.toEpochDay()}\t${clean(p.name)}" + when {
+                p.clan != null -> "\t$gender\t${p.clan.name}"
+                gender.isNotEmpty() -> "\t$gender"
+                else -> ""
             }
         }
 
         /**
          * Reads [encode]'s lines; a malformed line is skipped, and no more than
-         * [MAX] are kept. A line saved before the gender was has no third field
-         * and reads as not set.
+         * [MAX] are kept. A line saved before the gender or the clan was has no
+         * third or fourth field and reads as not set.
          */
         fun decode(text: String): List<Person> = text.lineSequence().mapNotNull { line ->
             val fields = line.split('\t')
@@ -77,7 +86,8 @@ data class People(val list: List<Person> = emptyList(), val active: Int? = null)
                 "f" -> Gender.FEMALE
                 else -> null
             }
-            runCatching { Person(fields[1], LocalDate.ofEpochDay(day), gender) }.getOrNull()
+            val clan = Clan.entries.firstOrNull { it.name == fields.getOrNull(3) }
+            runCatching { Person(fields[1], LocalDate.ofEpochDay(day), gender, clan = clan) }.getOrNull()
         }.take(MAX).toList()
 
         /** [list] with [active] dropped if it is out of range. */

@@ -51,6 +51,8 @@ import zanshin.app.People
 import zanshin.app.Person
 import zanshin.app.Relatives
 import zanshin.app.initials
+import zanshin.core.texts.gloss
+import zanshin.core.tibetan.Clan
 import zanshin.core.tibetan.Gender
 import kotlinx.coroutines.delay
 import java.time.LocalDate
@@ -162,6 +164,7 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
     var name by remember { mutableStateOf(initial?.name ?: "") }
     var birth by remember { mutableStateOf<LocalDate?>(initial?.birth) }
     var gender by remember { mutableStateOf(initial?.gender) }
+    var clan by remember { mutableStateOf(initial?.clan) }
     var relatives by remember { mutableStateOf(initial?.relatives ?: Relatives()) }
     var picking by remember { mutableStateOf(false) }
     var relativesOpen by remember { mutableStateOf(false) }
@@ -243,6 +246,32 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
                     Text(stringResource(R.string.person_gender_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
                 }
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(stringResource(R.string.person_clan), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                    // Not set, then the five great clans by their element, three to a row.
+                    (listOf<Clan?>(null) + Clan.entries).chunked(3).forEach { row ->
+                        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            row.forEach { value ->
+                                val chosen = clan == value
+                                Text(
+                                    value?.let { gloss(it.element) } ?: stringResource(R.string.person_gender_none),
+                                    style = body.copy(
+                                        fontSize = 15.sp,
+                                        color = if (chosen) Palette.saffron else Palette.text,
+                                        fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
+                                        textAlign = TextAlign.Center,
+                                    ),
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .border(1.dp, if (chosen) Palette.saffron else Palette.lineStrong, RoundedCornerShape(8.dp))
+                                        .clickable(role = Role.RadioButton) { clan = value }
+                                        .padding(horizontal = 8.dp, vertical = 12.dp),
+                                )
+                            }
+                        }
+                    }
+                    Text(stringResource(R.string.person_clan_note), style = body.copy(fontSize = 12.sp, color = Palette.faint, lineHeight = 17.sp))
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(stringResource(R.string.relatives_title), style = body.copy(fontSize = 13.sp, color = Palette.muted))
                     val count = relatives.list.size
                     Row(
@@ -266,7 +295,7 @@ fun PersonDialog(initial: Person?, onSave: (Person) -> Unit, onDelete: (() -> Un
         },
         confirmButton = {
             val ready = cleaned.isNotEmpty() && birth != null
-            TextButton(onClick = { onSave(Person(cleaned, birth!!, gender, relatives)) }, enabled = ready) {
+            TextButton(onClick = { onSave(Person(cleaned, birth!!, gender, relatives, clan)) }, enabled = ready) {
                 Text(stringResource(R.string.birth_save), color = if (ready) Palette.saffron else Palette.faint)
             }
         },

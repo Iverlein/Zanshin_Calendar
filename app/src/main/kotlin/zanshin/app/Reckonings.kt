@@ -7,6 +7,7 @@ package zanshin.app
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.BirthReckoning
+import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.HourSign
@@ -76,6 +77,9 @@ object Reckonings {
             BirthReckoning.omens(natal, birth.animal, person.gender, mother.birth!!.animal, fatherTrigram),
         )
     }
+
+    /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */
+    fun clanYear(person: Person): ClanYear? = person.clan?.let { BirthReckoning.clanYear(it, TibetanCalendar.of(person.birth).yearAnimal) }
 
     /**
      * [person]'s relatives as the year of age's obstacles read them (ROADMAP P2): the mother, father, spouses and
