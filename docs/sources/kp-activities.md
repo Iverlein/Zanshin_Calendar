@@ -639,10 +639,11 @@ The box on the scan, KP BDRC img. 59 (O10f):
 - Bad half: «༄། །གཟའ་སྤེན་མིག་ཚེས་༤ ༧ ༡༢ ༩ ༡༥ ༡ རིག་ / བྱེད་སྤྱིའི་དུས་གཉན་ངན། སྐར་མ་བྲཉེ་སྐག་མཆུ་ཉི་མ་གླང་ / ཕག ལོ་ཟླ་ཞག་ནག་བིཥྚི་ཐེ་སེ་སེ་ལོ་དམས་ཤིང་ཚེས་གཉན་ / ས་རྒྱལ་ཕུང་ཟོར་འཕུང་བྱེད་སྒྲའི་དུས་གཉན་ལོགས་སུ་གསལ།»
 
 - **Good:** Thu Wed Sun Mon; dates 2, 3, 5, 10, 11, 23; smin drug, snar ma, rgyal, lha mtshams, me bzhi, sa ri, mon gru, dbo, khrums stod, khrums smad, tha skar, nabs so, nam gru, chu stod, snrubs, lag, mgo; days Dog
-- **Bad:** Sat Tue; dates 4, 7, 12, 9, 15; bra nye, skag, mchu; days Ox, Pig
+- **Bad:** Sat Tue; dates 6, 7, 12, 4, 15; bra nye, skag, mchu; days Ox, Pig
 - **Neither side:** Friday (in brackets); the 23rd, named 'best' at the end of the good dates
 - **Not calculated:** the link འདུ་བྱེད; rising signs; the sme ba five; a clean place (good); Viṣṭi, the se lo and the like, the earth lord, phung zor (bad)
 - One more bad date, read 1 with the word rig (rig byed), is left out.
+- **The bad dates read on the scan 2026-10-19** (img. 59 at 5×): «༦ ༧ ༡༢ ༤ ༡༥», the first the 6 with its left hook, the fourth the flat-headed 4: the White Beryl's work 52 in its own order, «དྲུག་བདུན་བཅུ་གཉིས་བཞི་བཅོ་ལྔ། །ངན་ཞིང་ཚེས་གཅིག་རིག་བྱེད་སྤྱིའི། །དུས་གཉན» (vol. 2, p. 421), the 1st the time to beware for learning. The O10f reading above took the 6 for 4 and the 4 for 9; it is kept as it was. The 9th is on neither side.
 - **The scan (O10f) reads otherwise:** the arched bracket spans «སངས་ཉི་ཟླ» in KP and KP2 (BDRC img. 59, KP2 img. 282, at 4×): the Sun and the Moon are bracketed with Friday and count for neither side, not good.
 
 ### 55. Bringing rain — ཆར་འབེབས་བྱེད་པར་བཟང་བ
