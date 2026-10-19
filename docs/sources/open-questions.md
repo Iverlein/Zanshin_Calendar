@@ -603,10 +603,17 @@ the text, not about the app.
     time of the work, as the corpse's road does, or only that the work's time
     is to be chosen carefully (2026-10-12, RD6, [weighing.md](weighing.md))?
 
-43. **KP box 16 (BDRC img. 33–34): the numerals under the three «ཟླ་ཚེས».**
+43. **Answered 2026-10-19. KP box 16 (BDRC img. 33–34): the numerals under the three «ཟླ་ཚེས».**
     Each carries two small numerals. Are they the month and date on which
     the month's river, the *ki kang* and the next stand, and which are they
     (2026-10-12, RD5, [kp-activities.md](kp-activities.md))?
+    *Answered 2026-10-19 from WB's work 14, already read ([white-beryl-ch34.md](white-beryl-ch34.md),
+    *14. Giving and taking goods*): the month and the date on which giving
+    wealth is bad. Box 16 digests that work, which has «བཅུ་གཅིག་ཟླ་བའི་ཉེར་བདུན་དང་། །བཅུ་གཉིས་ཟླ་བའི་ཉེར་ལྔ་དང་། །དང་པོའི་ཟླ་བའི་ཉེར་གསུམ»
+    among its bad dates: the 11th month's 27th, the 12th's 25th and the
+    1st's 23rd. KP's legible numerals, ༡༡ ༢༧ and ༡༢ ༢༥, are the first two; the
+    third's ༡ is the 1st month, its worn digit WB's 23. The month's river
+    before them is WB's «ཟླ་[ཆུང]་ཕྱོགས», not the month's river of ch. 31.*
 
 44. **Answered 2026-10-18. KP box 10 (BDRC img. 28): «ཀིང་ཟོར་ནག» and «གནམ་ཞག་ནག».** Are these one
     name each, and which Chinese-almanac days are they (2026-10-12, RD5,
