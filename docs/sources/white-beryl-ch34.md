@@ -1045,3 +1045,16 @@ quarters favour Abhijit here. The iron line differs in every family:
 «ས་ག་བྲེ», «ས་ག་ཆུ་སྟོད», «གྲེ»; none puts two mansions of iron's quarter
 (Anurādhā to Śravaṇa) beside Uttarāṣāḍhā, so the line is corrupt in all
 of them, and which mansion it meant is not recovered.
+
+## *Bya gzhug* beside mon dre, 2026-10-19 (open question 107)
+
+- In both lists the name stands in the same verse and on the same side
+  as «མོན་དྲེ»: the hearth's bad, «…ཁྲུམས་སྨད(༢༥)མོན་དྲེ(༢༢)ནམ་གྲུ(༢༦)དང་། །བྱ་མཇུག(༢༡)ལྷ་མཚམས(༡༦)ངན་པ་ཡིན།»,
+  and treating horses' good, «…ས་རི(༡༤)བྱ་གཞུག(༢༡)མགོ(༤)མོན་དྲེ(༢༢)། །བཟང་ལ…». Read as
+  Dhaniṣṭhā it would name one mansion twice in one list; read as Abhijit
+  (བྱི་བཞིན, byi bzhin) it names a mansion the hearth's list has nowhere
+  else, and in treating horses Abhijit's other mention («བྱ་གཏོང་གྲོ་བཞིན་བྱི་བཞིན་ངན»)
+  is for another work, letting birds go. With the editors' ༢༡, KP box 9's
+  «བྱིཞི» and the turtle's quarters in ch. 23's verse (open question 106), the
+  lists point to Abhijit; WB's other uses for Dhaniṣṭhā (vol. 2, p. 382;
+  vol. 1, p. 93) stand, so the name served for both, and the list decides.

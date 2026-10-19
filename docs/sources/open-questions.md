@@ -1307,6 +1307,12 @@ the text, not about the app.
     (two sources joined), or another mansion, as the 1996 bracket ༢༡ and KP's
     «བྱིཞི» in box 9 take it? (2026-10-12, O2,
     [white-beryl-ch34.md](white-beryl-ch34.md))
+     *Narrowed 2026-10-19 ([white-beryl-ch34.md](white-beryl-ch34.md), *Bya
+     gzhug beside mon dre*): another mansion, most likely Abhijit. Read as
+     Dhaniṣṭhā, each list would name one mansion twice on one side; read as
+     Abhijit, it names one the hearth's list lacks, as the editors' ༢༡, KP's
+     «བྱིཞི» and the turtle's quarters in ch. 23 (question 106) take it. The name
+     serves for both mansions in WB, and the list decides.*
 
 108. **Answered as far as the sources go, 2026-10-19. The la's starting side.** Does the la's course start on the man's
     left and the woman's right (Deumar's note to his table, p. 594; GC, BDRC
