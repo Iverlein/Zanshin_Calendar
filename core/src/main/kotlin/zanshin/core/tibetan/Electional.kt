@@ -476,7 +476,9 @@ object Electional {
                 dates = setOf(29),
             ),
         ),
-        // 15. Trade and measuring grain (img. 30, KP2 img. 249).
+        // 15. Trade and measuring grain (img. 30, KP2 img. 249). Both halves' dates are qualified by the kind of trade: the
+        // good «འདི་རྣམས་ལ་འཚོང་བ་ངན», bad for selling, and the bad, run out in the Bhutan print of 1981 (I1KG11905, img.
+        // 378) to the 28th, «འདི་རྣམས་འཚོང་བ་བཟང», good for selling, as the White Beryl's work 13 has them: neither side.
         ActivityList(
             "trade",
             good = Factors(
@@ -487,7 +489,6 @@ object Electional {
             bad = Factors(
                 smeBa = setOf(9),
                 weekdays = setOf(TUESDAY, SATURDAY),
-                dates = setOf(4, 5, 6, 7, 8, 9, 10, 11),
                 mansions = m(HASTA, PUSHYA, DHANISHTHA, VISHAKHA, ARDRA),
                 trigrams = setOf(GIN),
             ),

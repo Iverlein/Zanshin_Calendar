@@ -232,6 +232,8 @@ class ElectionalTest {
         // Box 50's dates, from the Bhutan print: the 14th good, not the 13th.
         assertEquals(setOf(3, 5, 10, 14, 23, 11), printed("ordination_teaching_and_empowerment").good.dates)
         assertEquals(setOf(1, 4, 6, 7, 8, 22, 15), printed("ordination_teaching_and_empowerment").bad.dates)
+        // Box 15's dates are good for buying and bad for selling, or the reverse: neither side.
+        assertTrue(printed("trade").good.dates.isEmpty() && printed("trade").bad.dates.isEmpty())
         // Box 53 is two columns: the Tiger, Dragon and Ox days and the trigram zon stand in the good one, for both halves.
         for (w in listOf("martial_skills", "games")) with(printed(w)) {
             assertTrue(good.animals.containsAll(setOf(Animal.TIGER, Animal.DRAGON, Animal.OX)) && Trigram.ZON in good.trigrams, w)
