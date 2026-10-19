@@ -170,6 +170,33 @@ its middle cell's «སྤྱི་བརྒྱུད», "the general course", f
 counts of numerals do not all fit that reading as far as they were made
 out (the top left has five, where the south-east has two dates).
 
+**The square in the Bhutan print, 2026-10-19 (open question 148).** The
+*Collected Astrological and Prognosticatory Texts from Bhutan* (Thimphu,
+1981) reset KP in clean type, the square too (BDRC I1KG11905, img. 426,
+printed p. 416, 5216 px; read by eye): east «ཤར» at the top, south «ལྷོ» on the
+left, north «བྱང» on the right, west «ནུབ» below, the middle cell «སྤྱི་བརྒྱུད། ཚེས་གྲངས»,
+"the general course, the dates". The cells, with the print's flat-headed
+crescent read 4 and the curled one 9 (KP's own key, open question 157):
+
+| Cell | Dates |
+| --- | --- |
+| east (top) | 2, 4, 19, 27 |
+| north-east (top right) | 9, 22 |
+| north (right) | 11, 17, 24, 26 |
+| north-west (bottom right) | 6, 16, 21, 29 |
+| west (bottom) | 5, 18 |
+| south-west (bottom left) | 1, 8, 23 |
+| south (left) | 10, 12, 14, 25, 28 |
+| south-east (top left) | 3, 7, 13, 15, 20, 30 |
+
+Every date of the month stands once, in one cell: the square gives each
+date one direction. Read with the other key (curled 4, flat 9), dates
+repeat and others are missing, which settles the digits as well. The
+directions are not the *nu ru* course's direction of setting out (they
+agree on nine dates of thirty: 1, 2, 9, 10, 11, 12, 20, 24, 25), nor its
+direction of arrival; KP2's west «༤ ༡༧» was «༥ ༡༨» and its south «… ༡༩ …» is ༡༤
+here. Which course the square counts is still open.
+
 ## The detailed course
 
 "These eight times are only the rough course … more exactly, it is thus":

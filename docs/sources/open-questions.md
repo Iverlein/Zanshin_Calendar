@@ -2121,6 +2121,14 @@ the text, not about the app.
      after its 4 and 17, both set out by night; the others fit neither the
      *nu ru* course nor the detailed one. What the square counts stays
      open.*
+     *Read in full 2026-10-19 ([rahu.md](rahu.md), *The square in the
+     Bhutan print*): the Bhutan reprint of KP (I1KG11905, img. 426) sets it in
+     clean type. East 2, 4, 19, 27; north-east 9, 22; north 11, 17, 24, 26;
+     north-west 6, 16, 21, 29; west 5, 18; south-west 1, 8, 23; south 10, 12,
+     14, 25, 28; south-east 3, 7, 13, 15, 20, 30; the middle «སྤྱི་བརྒྱུད། ཚེས་གྲངས». Each
+     date once: a direction for every date of the month. It agrees with the
+     *nu ru* course's setting out on nine dates only; which course it
+     counts is still open.*
 
 149. **Answered 2026-10-18. The harm wheel's «ཤིང(༢)ས(༣)».** In WB vol. 1, p. 358 (img. 368),
      the harm wheel prints «ཤིང(༢)ས(༣)», where the same page elsewhere
