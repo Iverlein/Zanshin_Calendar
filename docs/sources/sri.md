@@ -257,14 +257,16 @@ Ch. 22, the lines just before the sri of the old (རྒན་སྲི, rgan sr
 on the scan above). A person's clan element (ཁམས, khams) is set against
 the year of birth:
 
-> །[…]དེ་ལ་དར་གུད་རབས་ཆད་དང་། །གཞོན་ཤི་གྲི་ལ་ཤི་བ་འོང་། །དོང་ཙེ་གཡོ་འཁྲུག་སེལ་ཆོག་དང[…]་བསྟགས་ཆོ་ག་བྱས་ན་ཕན།། […]གང་རུང་། ལྕགས་སྟག་སྤྲེལ། །ཕག་དང་མེ་སྟག་[…]་བ། །ཆུ་ཡི་གླང་ལུག་ཕག་སྦྲུལ་སྐྱེས། །མཐའ་འགྱེལ་[…]བ་ཞེས་མི་དྲག་འཆི། […]་ཤི་འོང་བའི་ཉེན། །དོང་ཙེ་[…]ང་བ་ཀུན་འདུས་བྱ། །དར་སྲི་རྒྱ་མའི་མནན་པ་གནད།། ཤིང་ཁམས་པ་ལ་ལྕགས་སྟག་སྐྱེས། །
+> །[…]དེ་ལ་དར་གུད་རབས་ཆད་དང་། །གཞོན་ཤི་གྲི་ལ་ཤི་བ་འོང་། །དོང་ཙེ་གཡོ་འཁྲུག་སེལ་ཆོག་དང་། །འབྲོས་བསྙགས་ཆོ་ག་བྱས་ན་ཕན།། གང་རུང་ཁམས་ལ་ལྕགས་སྟག་སྤྲེལ། །ཕག་དང་མེ་སྟག་སྤྲེལ་བྱི་བ། །ཆུ་ཡི་གླང་ལུག་ཕག་སྦྲུལ་སྐྱེས། །མཐའ་འགྱེལ་བ་ཞེས་མི་དྲག་འཆི། །སྐྱེས་དར་སྒང་ཤི་འོང་བའི་ཉེན། །དོང་ཙེ་གསང་བ་ཀུན་འདུས་བྱ། །དར་སྲི་རྒྱ་མའི་མནན་པ་གནད།།
+
+(The gaps filled on the Gser thang reprint, I3CN5028, img. 296, ll. 7–9, Yigdzin-1 checked by eye, 2026-10-19.) ཤིང་ཁམས་པ་ལ་ལྕགས་སྟག་སྐྱེས། །
 
 For the group before: decline, the line cut off, young deaths and deaths
 by the blade; a coin rite (དོང་ཙེ, dong tse, "coin") that clears
-disturbance helps. Then: […] born in an iron tiger or monkey year, a pig
-and a fire tiger […], a water ox, sheep, pig or snake: this is called
-"the edge fallen" («མཐའ་འགྱེལ་[…]བ», mtha' 'gyel […] ba), and strong men
-die; the danger that […] deaths come; perform the coin rite […] "all
+disturbance helps, with the rite of the fleeing (འབྲོས་བསྙགས). Then: for any clan, born in an iron tiger or monkey year, a pig
+and a fire tiger, monkey or mouse, a water ox, sheep, pig or snake: this is called
+"the edge fallen" («མཐའ་འགྱེལ་བ», mtha' 'gyel ba), and strong men
+die; the danger that men in their prime die; perform the coin rite of the secret "all
 gathered" («ཀུན་འདུས», kun 'dus); **pressing down the sri of those who
 die in their prime (དར་སྲི, dar sri) of the debt (རྒྱ་མ, rgya ma) is the
 key.** The next group begins "for one of the wood clan born in an iron
@@ -345,16 +347,16 @@ falls on the sky door (dog and dragon), the earth door (pig and snake),
 ruin and lawsuit (ox and sheep), and so on. The sky door is closed by a
 ransom rite; then:
 
-> [ས་]སྒོ་ལ་བབས་འཕུང་སྲི་ལྡང་། །དམའ་བའི་ས་ནས་ངན་གཤོམས་དང་། །ཀླུ་ནད་མཛེ་ཤུ་ཕོལ་འབྲས་འགོ། །ཁང་རྨང་མི་འདིང་ས་མི་བརྐོ། །ས་སྙིང་དང་ནི་[…]་གཟུངས་བཀླག །འཕུང་བའི་སྲི་མནན་ས་སྒོ་སྡོམ། །རུས་པ་མི་གཅིག་མི་གསུམ་གྱིས། །རྨ་བྱའི་གཟུངས་ཚར་བཅུ་གསུམ་འདོན།
+> [ས་]སྒོ་ལ་བབས་འཕུང་སྲི་ལྡང་། །དམའ་བའི་ས་ནས་ངན་གཤོམས་དང་། །ཀླུ་ནད་མཛེ་ཤུ་ཕོལ་འབྲས་འགོ། །ཁང་རྨང་མི་འདིང་ས་མི་བརྐོ། །ས་སྙིང་དང་ནི་ཏོག་གཟུངས་བཀླག །འཕུང་བའི་སྲི་མནན་ས་སྒོ་སྡོམ། །རུས་པ་མི་གཅིག་མི་གསུམ་གྱིས། །རྨ་བྱའི་གཟུངས་ཚར་བཅུ་གསུམ་འདོན།
 
 and of ruin and lawsuit:
 
-> འཕུང་གྱོད་ལ་བབས་གྱོད་ཁ་འོང་། །བྱེས་སུ་འགྲོ་ན་ཚོང་[…] །དགྲ་རྐུན་ཆོམ་པ་དག་ལ་གཟབ། །སཱ་ཙྪ་གདབ་དང་དགྲ་བཟློག་དང་། །འབུམ་དང་ནོར་རྒྱུན་ནོར་ལྷ་སྒྲུབ། །ཡུལ་གྱི་ལྷ་མཆོད་གོད་སྲི་མནན། །ར་རོག་བཟློག་པ་ཟོར་མདོས་བྱ།།
+> འཕུང་གྱོད་ལ་བབས་གྱོད་ཁ་འོང་། །བྱེས་སུ་འགྲོ་ན་ཚོང་ལས་དང་། །དགྲ་རྐུན་ཆོམ་པ་དག་ལ་གཟབ། །སཱ་ཙྪ་གདབ་དང་དགྲ་བཟློག་དང་། །འབུམ་དང་ནོར་རྒྱུན་ནོར་ལྷ་སྒྲུབ། །ཡུལ་གྱི་ལྷ་མཆོད་གོད་སྲི་མནན། །ར་རོག་བཟློག་པ་ཟོར་མདོས་བྱ།།
 
 When it falls on the [earth] door, **the sri of ruin rises**: harm from
 low ground, nāga illness, leprosy, swellings and boils; do not lay a
 house's foundations or dig the earth; read the dhāraṇī (གཟུངས, gzungs) of
-Kṣitigarbha (ས་སྙིང, sa snying) and […]; **press down the sri of ruin and
+Kṣitigarbha (ས་སྙིང, sa snying) and the *tog gzungs* (ཏོག་གཟུངས); **press down the sri of ruin and
 close the earth door (ས་སྒོ, sa sgo)**; three people of different bones
 (clans) recite the Peacock dhāraṇī (རྨ་བྱའི་གཟུངས, rma bya'i gzungs)
 thirteen times. When it falls on ruin and lawsuit: lawsuits come; take
@@ -871,7 +873,7 @@ za*; *bum ldan*; *skar drug*). The word is not the sri.
 - Open question 115 ([open-questions.md](open-questions.md)), answered 2026-10-19.
 - Doubt: the lines here are the etext's, the gaps […] its own; filled since
   from the Gser thang reprint (2026-10-19): vol. 1, pp. 244, 382, 387,
-  425–426, 456; vol. 2, pp. 15, 65, 83–84, 245, 275, 479 and 530, read by eye, and p. 3 by
+  301, 425–426, 456; vol. 2, pp. 15, 65, 83–84, 245, 275, 479 and 530, read by eye, and p. 3 by
   Yigdzin-1 only (in square brackets: a woodcut beside the lines defeats
   the line finder). The rest is unchecked.
 - Doubt: corrections made: «བརྒྱུད» read «བརྒྱད» (vol. 1, pp. 458–468; vol. 2,
