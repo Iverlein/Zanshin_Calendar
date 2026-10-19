@@ -53,6 +53,9 @@ enum class BadYear(val years: List<Sign>) {
 private fun signs(vararg names: String): List<Sign> = names.map { n -> n.split(" ").let { Sign(Element.valueOf(it[0]), Animal.valueOf(it[1])) } }
 
 
+/** The sexes of two years of one element (p. 353): both male, both female, or one of each. */
+enum class YearSexes { MALE_MALE, FEMALE_FEMALE, MIXED }
+
 /** The planet husband and wife are joined in when born on the same weekday (p. 360), the weekdays WB reads together joined. */
 enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 
@@ -97,6 +100,16 @@ object MatchReckoning {
         Weekday.THURSDAY -> MatchPlanet.THURSDAY
         Weekday.MONDAY, Weekday.WEDNESDAY -> MatchPlanet.MON_WED
         Weekday.FRIDAY -> MatchPlanet.FRIDAY
+    }
+
+    /** Whether the two years are of one animal (p. 353); the monkey's line («མི་བུ་བསྲེལ») is not read, so it has none. */
+    fun sameAnimal(man: Sign, woman: Sign): Animal? = man.animal.takeIf { it == woman.animal && it != Animal.MONKEY }
+
+    /** The sexes of two years of one element (p. 353); null when the elements differ. */
+    fun sameElement(man: Sign, woman: Sign): YearSexes? = if (man.element != woman.element) null else when {
+        man.animal.gender == Gender.MALE && woman.animal.gender == Gender.MALE -> YearSexes.MALE_MALE
+        man.animal.gender == Gender.FEMALE && woman.animal.gender == Gender.FEMALE -> YearSexes.FEMALE_FEMALE
+        else -> YearSexes.MIXED
     }
 
     /** The two destinies' elements as a pair, the earlier in [Element]'s order first (p. 357). */

@@ -43,6 +43,11 @@ class BirthTest {
         assertEquals(listOf(7, 6, 7, 2, 4, 3, 11, 4, 8, 8), listOf(BadYear.BAD_OMEN, BadYear.LITTLE_WHITE, BadYear.THAN, BadYear.BYA_RA, BadYear.GRAVE_MEN, BadYear.LDING_NAG, BadYear.SRIN_KHYER, BadYear.THER_DRE, BadYear.WIDOWHOOD, BadYear.AVOID).map { it.years.size })
         assertEquals(listOf(BadYear.HARSH_GRU_KHYER, BadYear.BYA_RA, BadYear.THER_DRE), MatchReckoning.badYears(Sign(Element.FIRE, Animal.HORSE), 1))
         assertEquals(PowerYear.KHONG_NONG, MatchReckoning.sameKind(Sign(Element.FIRE, Animal.DRAGON), Sign(Element.FIRE, Animal.DOG)))
+        assertEquals(Animal.PIG, MatchReckoning.sameAnimal(Sign(Element.WATER, Animal.PIG), Sign(Element.WOOD, Animal.PIG)))
+        assertEquals(null, MatchReckoning.sameAnimal(Sign(Element.WATER, Animal.MONKEY), Sign(Element.WOOD, Animal.MONKEY)))
+        assertEquals(YearSexes.MIXED, MatchReckoning.sameElement(Sign(Element.WATER, Animal.MOUSE), Sign(Element.WATER, Animal.OX)))
+        assertEquals(YearSexes.MALE_MALE, MatchReckoning.sameElement(Sign(Element.IRON, Animal.DRAGON), Sign(Element.IRON, Animal.DOG)))
+        assertEquals(null, MatchReckoning.sameElement(Sign(Element.IRON, Animal.DRAGON), Sign(Element.FIRE, Animal.DOG)))
     }
 
     /** The marriage match's single (p. 355): mother, son and friend agree, the enemy disagrees, the same element agrees for earth and water and is middling for fire, iron and wood; ni sha (p. 359). */
