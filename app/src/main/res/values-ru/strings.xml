@@ -899,6 +899,9 @@
     <string name="match_way_secret">тайный способ</string>
     <string name="match_parent_title">%1$s, %2$s · %3$s</string>
     <string name="match_parents_needs">Для отсчёта от родителей нужны их годы рождения: укажите в «Людях» родителей человека и родителей супруга под супругом.</string>
+    <string name="match_path_first">первый путь мевы</string>
+    <string name="match_path_middle">средний путь мевы</string>
+    <string name="match_path_lower">нижний путь мевы</string>
     <string name="match_man_year">Год мужчины</string>
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>

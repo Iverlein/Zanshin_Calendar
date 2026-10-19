@@ -26,6 +26,7 @@ import zanshin.core.tibetan.MatchMeeting
 import zanshin.core.tibetan.MatchMewa
 import zanshin.core.tibetan.MatchReckoning
 import zanshin.core.tibetan.MatchParent
+import zanshin.core.tibetan.MewaPathYear
 import zanshin.core.tibetan.NiSha
 import zanshin.core.tibetan.ParentWay
 import zanshin.core.tibetan.SME_BA_COLOURS
@@ -135,7 +136,23 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
-        if (bad.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null && pairLists.isEmpty() && pairLines.isEmpty()) Text(stringResource(R.string.match_years_none), style = muted)
+        val pathNames = listOf(R.string.match_path_first, R.string.match_path_middle, R.string.match_path_lower)
+        val pathYears = MatchReckoning.mewaPathYears(m.manYear).filter { it != MewaPathYear.FIVE_ELEMENTS }.map { Triple(R.string.match_man_year, it, m.manYear) } +
+            MatchReckoning.mewaPathYears(m.womanYear).map { Triple(R.string.match_woman_year, it, m.womanYear) }
+        pathYears.forEach { (whose, y, year) ->
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.birth_share_title, stringResource(whose), gloss(y)),
+                    english = "",
+                    tone = Tone.BAD,
+                    reading = Texts.mewaPathYear(y),
+                    subtitle = labels.string(R.string.birth_share_title, signName(YearOfLife.yearSign(year), labels), stringResource(pathNames[MatchReckoning.mewaPath(year)])),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+        if (bad.isEmpty() && pathYears.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null && pairLists.isEmpty() && pairLines.isEmpty()) Text(stringResource(R.string.match_years_none), style = muted)
         Section(stringResource(R.string.match_section_single))
         MatchReckoning.aspects(man, woman).forEach { (force, meeting) ->
             AnnotationRow(

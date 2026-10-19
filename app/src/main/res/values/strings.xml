@@ -1044,6 +1044,9 @@
     <string name="match_way_secret">the secret way</string>
     <string name="match_parent_title">%1$s, %2$s · %3$s</string>
     <string name="match_parents_needs">Counting from the parents needs their birth years: enter the person\'s parents, and the spouse\'s under the spouse, in People.</string>
+    <string name="match_path_first">the first mewa path</string>
+    <string name="match_path_middle">the middle mewa path</string>
+    <string name="match_path_lower">the lower mewa path</string>
     <string name="match_man_year">The man\'s year</string>
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
