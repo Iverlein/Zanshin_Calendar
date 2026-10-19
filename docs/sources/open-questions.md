@@ -722,7 +722,7 @@ the text, not about the app.
     before recovery, six deaths, and «ལྷ་མཚམས་དག །ཟླ་གཅིག་ཞག་དྲུག་ནས་གྲོལ་ལོ» of Anurādhā
     alone. The verses of vol. 2 list other things, cause and ransom.*
 
-50. **WB vol. 1, p. 438: «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ».** p. 438. The word before «རླུང་བད་ཀན» in «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ» (wood time): a spirit class, or a misreading of «དྲན»? And «ཆ་རྒྱས་དོན་སྣོད་མེ» (p. 438, line 11) is not understood. (2026-10-12, RD12, [health.md](health.md))
+50. **Answered as far as the sources go, 2026-10-19. WB vol. 1, p. 438: «གཉན» and «ཆ་རྒྱས་དོན་སྣོད་མེ».** p. 438. The word before «རླུང་བད་ཀན» in «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ» (wood time): a spirit class, or a misreading of «དྲན»? And «ཆ་རྒྱས་དོན་སྣོད་མེ» (p. 438, line 11) is not understood. (2026-10-12, RD12, [health.md](health.md))
     *Narrowed 2026-10-18 ([health.md](health.md)): «གཉན», the *gnyan*
     disease. The Zhol print carves «གཉན་རླུང་བད་ཀན་ཤས་ཆེའོ།།» (WBZ img. 580, l. 6,
     read at 3×), not «དྲན»; *gnyan nad* is a very virulent sickness of worms,
@@ -731,6 +731,12 @@ the text, not about the app.
     «ཡང་ན་[?]་རྒྱུས་དོན་སྣོད་མེ།» in WBZ (img. 581, l. 1), its first stack a ཆ or ཚ
     with a mark not made out; «ཆུ་རྒྱུས», the sinews, with the organs' fire,
     would fit, not settled.*
+    *Answered as far as the sources go 2026-10-19 ([health.md](health.md)):
+    the Taikhang print (I5877, img. 598, l. 2, by eye at native size) carves
+    «ཡང་ན་ཆ་རྒྱས་དོན་སྣོད་མེ», as the 1996 edition does, so WBZ's unclear stack
+    is ཆ. The lines after it count each element's share (ཆ): half, a third,
+    two thirds. Read in that setting, "or, the [fire's] share grown, fire in
+    the organs". No gloss of «ཆ་རྒྱས» was found.*
 
 51. **Answered 2026-10-18. WB vol. 1, p. 417: the Sanskrit gloss and Kong tse 'phrul rgyal.** p. 417. The bracketed Sanskrit gloss in the second line is read «བི་དྷ་ཁོ་ན» on the scan and «བི་དབྷ་ཁོ་ན» in the etext; which is meant, and who is Kong tse 'phrul rgyal named in the salutation? (2026-10-12, RD12, [health.md](health.md))
     *Answered 2026-10-18 ([health.md](health.md)): «བི་དབྷ», Vidarbha, and

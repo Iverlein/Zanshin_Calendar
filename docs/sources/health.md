@@ -307,6 +307,21 @@ The example is the only worked one in the chapter; the pebble reckoning of the f
   in WBZ (img. 581, l. 1), its first stack a ཆ or ཚ with a mark not made
   out; «ཆུ་རྒྱུས», the sinews (Tshig mdzod chen mo), beside the organs' fire,
   would fit, not settled.
+  **Settled 2026-10-19 (open question 50): «ཆ་རྒྱས», the share grown.**
+  The Taikhang print (I5877, img. 598, l. 2) carves the line plainly at
+  native size: «…མི་རིགས་མེ་ཡིན་མེ་དུས་བརྩི། །མཁྲིས་པ་འཕེལ་བས་ནད་ཚ་བ། །གློ་བུར་ཡང་ན་རྨ་ཁྲག་ངོ། །ཡང་ན་ཆ་རྒྱས་དོན་སྣོད་མེ། །འབྱུང་བ་ཕྱེད་མ་ནད་གཉིས་འདོམ། །གསུམ་ཆ་སུམ་གཉིས་གདོན་རྐྱེན་ནད།…»
+  The phrase itself was read by eye; the rest is Yigdzin-1's reading of the
+  image, which places it on WB p. 438 by its shingles. So the 1996 «ཆ་རྒྱས»
+  stands, and WBZ's unclear stack is ཆ. The passage counts each element's
+  share (ཆ, cha) of an illness, «ཕྱེད་མ», half, «གསུམ་ཆ», a third, «སུམ་གཉིས»,
+  two thirds, and «མེ་ནི་སུམ་གཅིག» and «ཆུ་ནི་སུམ་གཉིས་ས་སུམ་གཅིག» follow. In
+  that setting the line reads: for one of the fire class, reckoned by the
+  fire time, bile increases and the illness is fever; sudden, or a sign of
+  wounds and blood; or, the [fire's] share grown, fire in the organs (དོན་སྣོད,
+  don snod). That «ཆ» means the element's share is a reading from the
+  context; no gloss of «ཆ་རྒྱས» was found. In passing, the Taikhang has
+  «མཁྲིས་པ་འཕེལ་བས་ནད་ཚ་བ», where the 1996 etext has lost words
+  («མཁྲི་ཚ་བ།»).
 - **«བི་དབྷ», p. 417.** The 1996 gloss reads «(བི་དབྷ་ཁོ་ན་འདོད་པའི་བརྗིད་པའི་ཡོན་ཏན།)» (etext).
   WB labels its opening verses with the qualities of Daṇḍin's styles
   («ཤིས་བརྗོད་བདུན་པ་དངོས་པོ་བི་དབྷ་འདོད་པའི་སྦྱར་བའི་ཡོན་ཏན», vol. 1, p. 4; «དངོས་པོ་བི་དབྷའི་རྒྱ་ཆེ་བའི་ཡོན་ཏན»,
