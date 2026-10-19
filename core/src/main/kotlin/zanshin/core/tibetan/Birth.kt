@@ -28,6 +28,22 @@ enum class Clan(val element: Element, val wylie: String) {
     val english: String get() = gloss(this)
 }
 
+/**
+ * The year's own destiny (*rang nyid lo yi dbang thang*, pp. 261, 270–280): the birth year's destiny, its element,
+ * against its life force, by its animal, one of the two pebbles that cannot be lacking. Life force and destiny one
+ * element, *kha yan*; destiny begetting the life force, *khong nong*; the life force begetting destiny, *se zhig*;
+ * destiny cutting the life force, *'dun khur*; the life force cutting destiny, *kha ral* (pp. 275–280, read on the scan).
+ */
+enum class PowerYear(val wylie: String) {
+    KHA_YAN("kha yan"),
+    KHONG_NONG("khong nong"),
+    SE_ZHIG("se zhig"),
+    DUN_KHUR("'dun khur"),
+    KHA_RAL("kha ral");
+
+    val english: String get() = gloss(this)
+}
+
 /** How a birth year stands to the clan's element, the special pebble (*sgos rdel*, p. 261), in the order of its readings (pp. 284–286). */
 enum class ClanYear {
     GREAT_PENALTY,
@@ -105,6 +121,18 @@ object BirthReckoning {
             ClanYear.MOTHER to mother.toList().toSet(), ClanYear.SON to son.toList().toSet(), ClanYear.FRIEND to friend.toList().toSet(),
             ClanYear.ENEMY to enemy.toList().toSet(),
         )
+
+    /** The kind of the birth year [birth] by its destiny against its life force (pp. 275–280). */
+    fun powerYear(birth: Sign): PowerYear {
+        val forces = Forces.of(birth.element, birth.animal)
+        return when (Forces.kinship(forces.vitality, forces.destiny)) {
+            Kinship.IDENTITY -> PowerYear.KHA_YAN
+            Kinship.MOTHER -> PowerYear.KHONG_NONG
+            Kinship.SON -> PowerYear.SE_ZHIG
+            Kinship.ENEMY -> PowerYear.DUN_KHUR
+            Kinship.FRIEND -> PowerYear.KHA_RAL
+        }
+    }
 
     /** How a birth year of [animal] stands to [clan] (p. 261). */
     fun clanYear(clan: Clan, animal: Animal): ClanYear = CLAN_YEARS.getValue(clan).entries.first { animal in it.value }.key

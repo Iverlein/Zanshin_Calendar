@@ -26,6 +26,7 @@ import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.BirthChild
 import zanshin.core.tibetan.BirthOmen
 import zanshin.core.tibetan.ClanYear
+import zanshin.core.tibetan.PowerYear
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.LunarDayClass
 import zanshin.core.tibetan.Mansion
@@ -374,6 +375,8 @@ object Sources {
     val WHITE_BERYL_PARENTS_TRIGRAMS = whiteBeryl("chapter 22, p. 326", volume = 1)
     /** The special pebble: the birth year against the clan's element (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_SPECIAL_PEBBLE = whiteBeryl("chapter 22, pp. 259, 261 and 284–286", volume = 1)
+    /** The year's own destiny, the pebble of power (ROADMAP R2, docs/sources/year-of-life.md). */
+    val WHITE_BERYL_POWER_YEAR = whiteBeryl("chapter 22, pp. 261 and 275–280", volume = 1)
     /** Vol. 1, chapter 24's obstacles that need a spouse's, a parent's or a son's signs (ROADMAP P2, docs/sources/year-of-life.md, RD14). */
     val WHITE_BERYL_KIN_OBSTACLES = whiteBeryl("chapter 24, pp. 388, 390 and 409, with the notes in vol. 2, p. 492", volume = 1)
     /** The sectors' ranks and pebbles, the trigrams' elements, the natal trigram's count (docs/sources/year-of-life.md). */
@@ -1952,6 +1955,10 @@ object Texts {
         source = Sources.WHITE_BERYL_BIRTH_CHILDREN,
         also = listOf(Sources.MOONBEAMS),
     )
+
+    /** The kind of the birth year by its destiny against its life force (WB vol. 1, ch. 22, pp. 275–280). */
+    fun powerYear(y: PowerYear): Reading =
+        Reading(key = "reading.PowerYear", arg = "reading.PowerYear.${y.name}", source = Sources.WHITE_BERYL_POWER_YEAR)
 
     /** The special pebble: how the birth year stands to the clan's element (WB vol. 1, ch. 22, pp. 261, 284–286). */
     fun clanYear(y: ClanYear): Reading =

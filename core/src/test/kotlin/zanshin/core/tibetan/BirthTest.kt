@@ -116,4 +116,24 @@ class BirthTest {
         assertEquals(ClanYear.ENEMY, BirthReckoning.clanYear(Clan.U, Animal.SHEEP))
         assertEquals(ClanYear.SMALL_PENALTY, BirthReckoning.clanYear(Clan.JI, Animal.DRAGON))
     }
+
+    /** Pp. 275–280's particular readings name the years of each kind; the tiger and hare years run through all five. */
+    @Test
+    fun `the year's destiny against its life force`() {
+        fun kind(e: Element, a: Animal) = BirthReckoning.powerYear(Sign(e, a))
+        assertEquals(PowerYear.KHA_YAN, kind(Element.WOOD, Animal.TIGER))
+        assertEquals(PowerYear.KHA_YAN, kind(Element.FIRE, Animal.HORSE))
+        assertEquals(PowerYear.KHA_YAN, kind(Element.EARTH, Animal.DOG))
+        assertEquals(PowerYear.KHONG_NONG, kind(Element.WATER, Animal.RABBIT))
+        assertEquals(PowerYear.KHONG_NONG, kind(Element.IRON, Animal.PIG))
+        assertEquals(PowerYear.SE_ZHIG, kind(Element.FIRE, Animal.TIGER))
+        assertEquals(PowerYear.SE_ZHIG, kind(Element.WATER, Animal.MONKEY))
+        assertEquals(PowerYear.DUN_KHUR, kind(Element.IRON, Animal.RABBIT))
+        assertEquals(PowerYear.DUN_KHUR, kind(Element.WATER, Animal.SNAKE))
+        assertEquals(PowerYear.KHA_RAL, kind(Element.EARTH, Animal.TIGER))
+        assertEquals(PowerYear.KHA_RAL, kind(Element.WATER, Animal.DRAGON))
+        // Each of the five falls on twelve of the sixty years.
+        val counts = (0 until 60).groupingBy { BirthReckoning.powerYear(YearOfLife.signOf(it)) }.eachCount()
+        assertEquals(PowerYear.entries.associateWith { 12 }, counts)
+    }
 }
