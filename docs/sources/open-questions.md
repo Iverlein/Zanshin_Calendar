@@ -915,6 +915,10 @@ the text, not about the app.
     identifying 185 + 10 + 143 = 338), and the first's fifth question is the
     same funeral share the fourth examines; that «བསྒྲིལ་བས» rolls the fourth
     into the first's 87 is not stated.*
+    *Narrowed further 2026-10-19 ([reckonings.md](reckonings.md), ch. 29):
+    the Taikhang print (I5878, img. 73, Yigdzin-1's reading) closes the
+    fourth the same way, «…རྡེལ་བཅུ་གཅིག། སྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།», so the
+    87 is no slip of the 1996 edition.*
 
 67. **Answered 2026-10-18. WB vol. 2, p. 50 (img. 58): «ཁ་སྨྲང».** Read with doubt (MITRA
     «ཁ་སྤྲང») in «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»; what is

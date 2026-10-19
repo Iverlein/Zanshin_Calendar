@@ -940,7 +940,10 @@ agrees, so the 57 pebbles not placed are no slip of the 1996 typesetting:
 the two prints carry the same counts, and the gap is the work's own.
 Unlike p. 262 of vol. 1 (open question 69), no dropped line turned up
 here. The la pebbles with the lamps and the eleventh's leftover (7 result
-and 68 identifying) do not fill it either (15 and 42).
+and 68 identifying) do not fill it either (15 and 42). The fourth's close is the
+same too, «…ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག། སྒྲིལ་བས་རྡེའུ་བརྒྱད་ཅུ་བདུན།» (Taikhang
+img. 73), so its 87 against 66 is no slip of either print (open question
+66).
 
 ### The fifteen examinations by name (p. 55, img. 63)
 
