@@ -116,6 +116,19 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    BirthReckoning.cuts(sign).forEach { (a, c) ->
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.birth_cut_title, a.english.replaceFirstChar(Char::uppercase), c.english),
+                english = "",
+                tone = Tone.BAD,
+                reading = Texts.birthCut(a, c),
+                subtitle = labels.string(R.string.birth_cut_subtitle, gloss(forces[a], "inText"), gloss(forces[c], "inText")),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
     val place = BirthReckoning.yearPlace(sign.animal)
     AnnotationRow(
         Annotation(

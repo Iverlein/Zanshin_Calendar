@@ -965,7 +965,7 @@
     <string name="birth_father_needed">With your father\'s birth year among your relatives, the readings that ask for his trigram are read too.</string>
     <string name="birth_gender_needed">Some readings of the parents\' trigrams are for a son or a daughter: set the gender in People to see them.</string>
     <string name="birth_parents_none">None of the readings of the parents\' trigrams holds for this birth.</string>
-    <string name="birth_note">Of the reckoning of the birth, the parts reckoned here are those that follow from the years and the clan alone: the year\'s destiny, luck triad and place, the five by the natal trigram, the special pebble and the parents\' trigrams at the birth. The other pebbles of the birth year, month, day and hour are not yet reckoned.</string>
+    <string name="birth_note">Of the reckoning of the birth, the parts reckoned here are those that follow from the years and the clan alone: the year\'s destiny, luck triad and place, the cutting among its aspects, the five by the natal trigram, the special pebble and the parents\' trigrams at the birth. The other pebbles of the birth year, month, day and hour are not yet reckoned.</string>
     <string name="reckonings_birth_subtitle">Natal trigram %1$s · %2$s</string>
     <string name="reckonings_birth_needed">Needs your mother\'s birth year</string>
     <string name="birth_section_clan">The clan</string>
@@ -980,6 +980,8 @@
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>
     <string name="birth_place_subtitle">The %1$s among the first, middle and last years</string>
+    <string name="birth_cut_title">%1$s cuts %2$s</string>
+    <string name="birth_cut_subtitle">%1$s overcomes %2$s</string>
 
     <!-- A person's relatives (SPEC §10.5; ROADMAP P1). The relations are lower case; the app capitalises the first word. -->
     <string name="relatives_title">Relatives</string>
