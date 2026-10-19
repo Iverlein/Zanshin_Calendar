@@ -658,3 +658,23 @@ bear on the choice, and are inferences, not statements of any text:
   to them, not of a king of the māras. The phrase is in that passage
   alone (BDRC full-text search, one hit). Whether the four are WB's times
   "when the four māras move" (p. 359) is not said there.
+
+## The Vajrabhairava manual read on its scan, 2026-10-19 (open question 131)
+
+The lead of the four rough times (above, *A lead, not located on a
+scan*) read on BDRC's scan of the same volume, image group I3102,
+img. 367, ll. 5–6, to img. 368, l. 1 (4809 px, read at full size; the
+etext's page = the image number):
+
+> …དེ་ལྟ་བུའི་ཐུན་བཞི་པ་དེ་ཡང་། ནམ་གྱི་སུམ་ཆ་ནས་ཐུན་དང་པོ་བཟུང་། ནམ་ལང་དུས་གྲོལ། སླར་ཐུན་ལ་འཇུག་པ་ཉིན་ཕྱེད་དུས་[གྲོལ]། སླར་ཐུན་ལ་འཇུག་པ་ཉི་ནུབ་གོང་ཙམ་དུ་གྲོལ། སླར་ཐུན་ལ་འཇུག་པ་སྲོད་ཡོལ་དུས་གྲོལ། དེ་ལྟར་བྱེད་པ་ནི་ཉིན་མཚན་གྱི་གུང་གཉིས་དང་། ཉི་མ་འཆར་ནུབ་ཀྱི་ཟེར་གཉིས་སོགས་ལ་ཏིང་ངེ་འཛིན་འཇོག་པའི་དུས་ཡིན་པས་ཐུན་མཚམས་ལ་ཁེལ་བ་དང་། …
+
+The scan reads «ཏིང་ངེ་འཛིན» (etext ཏིང་ངོ), «ཐུན་མཚམས» (etext ཐུན་མཆོམས) and «སྲོད་ཡོལ» (etext
+སོད་ཡོལ). The four sessions end at daybreak, at midday, a little before
+sunset and when dusk has passed; "this is done because the two middles
+of day and night and the two rays of the sun's rising and setting are
+times for settling samādhi, so that they fall on the session breaks".
+So the breaks are put on the four times, and the four are kept for
+samādhi, not for the session's recitation: the same arrangement as the
+*Sgrub thabs kun btus*, where the *zer* and *gung* are the breaks, and
+the reverse of the fierce rite of the *Rin chen gter mdzod*, whose
+sessions are made to arrive at them.

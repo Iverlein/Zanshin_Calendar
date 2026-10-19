@@ -1501,10 +1501,16 @@ the text, not about the app.
      [weighing.md](weighing.md), "The four rough times in three manuals")
     *Answered 2026-10-18 night ([weighing.md](weighing.md)): the end of summer. Longchenpa's *Zab don rgya mtsho'i sprin* glosses the verse (from the *Klong gsal*) with four seasons: «སྟོན་སོར་» when flowers and fruit are full after the rains, autumn, the early winter of even cold and warmth, and spring (etext).*
 
-131. **The Vajrabhairava manual's sessions.** In the Vajrabhairava manual, once
+131. **Answered 2026-10-19. The Vajrabhairava manual's sessions.** In the Vajrabhairava manual, once
      read on its scan, do the two *gung* and two *zer* fall on the session
      breaks, or are the breaks kept from them («ཐུན་མཚམས་ལ་ཁེལ་བ»)? (2026-10-13, O9,
      [weighing.md](weighing.md), "The four rough times in three manuals")
+     *Answered 2026-10-19 ([weighing.md](weighing.md), *The Vajrabhairava
+     manual read on its scan*): they fall on the breaks. Read on the scan
+     (I3102 img. 367–368): the sessions end at daybreak, midday, before sunset
+     and after dusk "because the two *gung* and the two *zer* are times for
+     settling samādhi, so that they fall on the session breaks"
+     («…ཏིང་ངེ་འཛིན་འཇོག་པའི་དུས་ཡིན་པས་ཐུན་མཚམས་ལ་ཁེལ་བ»).*
 
 132. **Answered 2026-10-18. Tuesday's «སྒ་རྒྱག».** In Tuesday's good list, WB vol. 2, p. 309 (img.
      317), «རྟ་རྒྱུག་པ། །སྒ་རྒྱག་ཤྭ་རགས་བརྩིག་པ་དང་།», is «སྒ་རྒྱག»
