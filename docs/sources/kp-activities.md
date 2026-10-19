@@ -68,7 +68,7 @@ the print's digits look alike: its 4 (a crescent with a flat head) and 9
 and 4, its 2 (often crossed) and 3, and two single digits standing close
 («༢ ༦» read 26). Every box whose dates WB's chapter 34 also lists was
 compared with it, and each disagreement read again on the scan at 3× to 8×:
-boxes 21, 22, 35, 41, 54, 56 and 60 were misread and now carry the
+boxes 21, 22, 35, 41, 54, 56 and 60 were misread (and 59, read against boxes 57 and 58) and now carry the
 print's own digits, each WB's date for date (sections below); boxes 8, 34,
 45 and 56's good 27 differ from WB in the text itself (WB's work 7, 32, 41
 and 53). The boxes WB names no dates for (17, 24, 28–30, 57–59 and others)
@@ -730,9 +730,10 @@ The box on the scan, KP BDRC img. 62 (O10f):
 - Bad half: «༄། །གཟའ་སྤེན་ཟླ་ལྷག་ཚེས་༤ ༨ ༩ ༡༨ སྐར / མ་མགོ་སྐག་ནག་སྣྲོན་ཁྲོུཾད་སྣྲུབས་མ་རིག་མིང་ཉི་མ / རྟ་ཕུང་ཟོར་དབུལ་ལག་ལ་སོགས་གདུག་རྩུབ་ཆེ་བའི་ས་བདག་སྤངས།»
 
 - **Good:** Fri Sun Tue; tha skar, nabs so, mon gru, nam gru, sa ri, lag, rgyal, chu smad; days Ox, Dog
-- **Bad:** Sat Mon Wed; dates 4, 8, 9, 18; mgo, skag, nag pa, snron, khrums stod, snrubs; days Horse
+- **Bad:** Sat Mon Wed; dates 4, 8, 9, 28; mgo, skag, nag pa, snron, khrums stod, snrubs; days Horse
 - **Neither side:** Thursday (in brackets)
 - **Not calculated:** the links; rising signs; zhi mdo (good); phung zor, dbul and the harsh earth lords (bad)
+- **The bad dates read on the scan 2026-10-19** (img. 62 at 3×): «༤ ༨ ༩ ༢༨», the flat-headed 4, the curled 9 and a crossed 2 before the 8 (the print's 1 has no bar): the 28th, as boxes 57 and 58 print it, not 18. The O10f reading above is kept as it was.
 
 ### 60. Councils — མདུན་གྲོས་བྱེད་པར་བཟང་བ
 
