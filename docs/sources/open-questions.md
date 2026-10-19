@@ -948,10 +948,18 @@ the text, not about the app.
     [health.md](health.md))?
     *Answered 2026-10-18 night ([health.md](health.md)): the blocks' words. The Zhol print carves «བཞི་ལ་མི་ཡི་རྐེད་པ་ལ», «བཅོ་ལྔ་མི་ཡི་སོག་པ་ལ» and «ཉེར་དགུ་མི་ཡི་ངར་གདོང་ལ» (WBZ img. 1052–1053); KL's knee, crown and instep are KL's own.*
 
-78. **KL pp. 201–202: the syllables of the la's dates.** From which text
+78. **Answered 2026-10-19. KL pp. 201–202: the syllables of the la's dates.** From which text
     are KL's syllables (ཨ ཨ ཨི ཨི ཨུ ཨུ ཨེ ཨེ རི རི ལི ལི ཨོ ཨོ ཨཾ), which are in
     neither of WB's lists by date (vol. 2, p. 303) (2026-10-12, RD10,
     [health.md](health.md))?
+    *Answered 2026-10-19 from what RD9 read on 2026-10-12 ([health.md](health.md),
+    *The la's anointing and its course: Mipham's Treatise on Passion*): from
+    Mipham's *Treatise on Passion*, which KL names as the basis of anointing
+    the la's places (KL p. 24). Its course of the drop of great bliss puts
+    the sixteen vowels two to a place from the big toe up, A Ā I Ī U Ū Ṛ Ṝ
+    Ḷ Ḹ E Ai O Au, and Aṃ at the crown on the 15th; KL writes them short and
+    in another order, on the Tsuglag Rigje places. Stag bla Nor bu's print
+    of the verse (MW20065) has the same syllables (question 109).*
 
 79. **KL p. 256: the six dates to avoid moxa.** From which text or teacher
     are 1, 6, 15, 18, 22 and 30, given "in agreement with the Tibetan
@@ -1011,6 +1019,11 @@ the text, not about the app.
     etext only; its scans are lent on archive.org), what is the Tsuglag
     Rigje system, and where did Deumar take it from (2026-10-12, RD8,
     [health.md](health.md))?
+    *Narrowed 2026-10-19 ([health.md](health.md), *The la's starting side in
+    Khro ru Tshe rnam*): Khro ru Tshe rnam's commentary on the Final Tantra
+    names the same six systems as Deumar's table, the Tsuglag Rigje's la
+    places of people and of livestock among them, and a textbook calls it
+    one of the two chief ways with the Kālacakra's; neither names its source.*
 
 85. ~~Mipham's *Treatise on Passion* and the la.~~ *Answered 2026-10-12 (RD9, [health.md](health.md), *The classical texts he cites*): read on the scan (img. 548–549), the treatise never names the la; it gives a monthly course of the drop of great bliss as sixteen vowel syllables, from the big toe to the crown on the 15th and back to the soles on the 30th, and no course by the hour. KL's syllables and its crown and sole come from it.* The question as it stood: Does it give a course of
     the la by date or by hour, or only the anointing that KL p. 3, note 2,
@@ -1234,13 +1247,20 @@ the text, not about the app.
     «བྱིཞི» in box 9 take it? (2026-10-12, O2,
     [white-beryl-ch34.md](white-beryl-ch34.md))
 
-108. **The la's starting side.** Does the la's course start on the man's
+108. **Answered as far as the sources go, 2026-10-19. The la's starting side.** Does the la's course start on the man's
     left and the woman's right (Deumar's note to his table, p. 594; GC, BDRC
     p. 224) or on the man's right and the woman's left (Mipham's *Treatise
     on Passion*, img. 548, «ཐབས་ཀྱི་གཡས་དང་ཤེས་རབ་གཡོན་གཙོ་བར», if it is read
     so)? Is the side a matter of the system, so that KL's course, built from
     the Tsuglag Rigje places and Mipham's syllables, has one of its own?
     (2026-10-12, RD9, [health.md](health.md))
+     *Answered as far as the sources go, 2026-10-19 ([health.md](health.md),
+     *The la's starting side in Khro ru Tshe rnam*): the man's left and the
+     woman's right, for every system of the table. Khro ru Tshe rnam's
+     commentary on the Final Tantra says of the Tsuglag Rigje la places and
+     the five others «ཕོ་གཡོན་མོ་གཡས་གོ་ལྡོག་གིས་མགོ་འཛིན་པར་བྱའོ», as Deumar and GC have it.
+     Mipham's verse, the only one read the other way, is of the drop of
+     bliss and does not name the la.*
 
 109. **Answered 2026-10-19. Two places in Mipham's course.** In Mipham's course (img. 548, line 5)
     the third pair's place reads «ནུ་[ལ་ག]» on the scan, and in line 7 the

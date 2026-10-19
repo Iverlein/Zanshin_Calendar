@@ -1261,3 +1261,36 @@ dbang po) medical writings (MW1KG8532, snippet). Its lines:
   sign: the course of the waning half ends on the 30th in the soles.
 - In passing, the scan's «[ཚེ་]» after «སྤྱི་བོར་གནས» reads «མཚམས» here, and the
   bracketed «[འཕུར་ན་]» stands.
+
+## The la's starting side in Khro ru Tshe rnam, 2026-10-19 (open questions 108, 84)
+
+Khro ru Tshe rnam's *Rgyud bzhi'i 'grel chen*, the Final Tantra's part
+(MW29701; etext VEIE0OPI4CEE4109_I5624, pp. 537–539; etext only), quotes
+Deumar's bloodletting course by date («ཚེས་གཅིག་རྐང་མཐེ་བོལ་དང་སྤྱི་བོ་གཡོན། …གནམ་སྟོང་རྐང་མཐེབ་གཙུག་གཡས་རྙིང་པར་གནས། །འདི་དག་ཕོ་ཡི་དབང་བྱས་མོ་ལ་ནི། །གཡས་གཡོན་ཕོ་ལས་གོ་ལྡོག་ཤེས་པར་བྱ།»)
+and then says of it and of the six systems of the table:
+
+> ཚིགས་བཅད་གཞུང་འདི་བདེ་མཆོག་དང་། སམ་བྷུ་ཊའི། གཡུ་ཐོག་གསུམ་གྱི་དགོངས་པ་དང་། རྒྱུད་ཀྱི་བླ་གནས་དུས་འཁོར་དགོངས་པ་དང་། མཆིན་སྐུ་ཟུར་ལུགས་བྱེ་རིང་གི་བླ་གནས་བརྩི་ཚུལ། གཙུག་ལག་རིག་བྱེད་ལུགས་ཀྱི་མི་ཡི་བླ་གནས་དང་། རྟ་སོགས་ཕྱུགས་ཀྱི་བླ་གནས། མཆིན་སྐུག་དུས་ཚོད་དང་སྦྱར་བ་ལྷོ་གཏེར་སྲིད་པའི་གཏེར་ཁྱིམ་གྱི་ལུགས། རྒྱ་རྩིས་གསར་འགྱུར་གྱི་བླ་གནས་འཕོ་ཚུལ་སོགས་གོང་དུ་རེའུ་མིག་ནང་བཀོད་ཡོད་པ་རྣམས་ཀྱང་ཕོ་གཡོན་མོ་གཡས་གོ་ལྡོག་གིས་མགོ་འཛིན་པར་བྱའོ།
+
+"This verse is the intent of the Cakrasaṃvara (བདེ་མཆོག), the Saṃpuṭa
+(སམ་བྷུ་ཊ) and «གཡུ་ཐོག་གསུམ» (as printed, the three Yuthoks?); and the tantra's
+la places, the Kālacakra's intent, the way of reckoning Zurkhar
+Jering's (ཟུར་མཁར་བྱེ་རིང, zur mkhar bye ring) la places (printed «མཆིན་སྐུ་ཟུར་ལུགས་བྱེ་རིང»), the Tsuglag Rigje system's la places of
+people and of horses and other livestock, the system of the southern
+treasure's 'treasure house of existence' joined to the hours, the new
+Chinese reckoning's moving of the la places and the rest, set out in the
+table above: these too begin with the man's left and the woman's right,
+the one the reverse of the other."
+
+- **108.** So the Tsuglag Rigje course, KL's, starts on the man's left
+  and the woman's right, as Deumar's verse and note and GC have it; Tshe
+  rnam makes the rule one for all six systems. Mipham's verse, «ཐབས་ཀྱི་གཡས་དང་ཤེས་རབ་གཡོན་གཙོ་བར»,
+  is of the drop of great bliss and does not name the la; read as it
+  stands it gives the man's right, against these.
+- **84.** Tshe rnam names the Tsuglag Rigje system among six standing
+  side by side in the table, as Deumar does, and the textbooks of today
+  name it as one of the two chief ways of finding the la places, with
+  the Kālacakra's (*Cha byad dpyad*, BDRC snippet: «བླ་གནས་དངོས་ངོས་འཛིན་པ་ལ་གཙོ་བོར་གྲུབ་པ་གཉིས་ཏེ་རྒྱུད་སྡེའི་དུས་འཁོར་ལུགས་ཀྱི་བླ་གནས་ངོས་འཛིན་དང་གཙུག་ལག་རིག་བྱེད་ལུགས་ཀྱི་བླ་གནས་ངོས་འཛིན་ནོ།»).
+  None names the text it comes from. *Gtsug lag* is the name of the
+  Chinese-derived reckoning (WB's and Mipham's «གཙུག་ལག་སྤོར་ཐང»), and *gtsug
+  lag rig byed* in the lexicons the worldly sciences, the four Vedas
+  among them; which is meant here is not said.
