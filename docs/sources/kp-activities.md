@@ -75,7 +75,9 @@ and 53). Of the boxes WB names no dates for, 57 and 58 were read again
 (img. 61: «༤ ༨ ༩ ༢༨», the flat 4 and the curled 9, as built) and 59 corrected
 against them; 15, 17, 24, 28–30 and others keep the O10f digits, read
 against nothing. Box 42's «༣» and «༡༢» were compared with the 2s and the 3
-of the same box and stand. A further sweep of O10f's
+of the same box and stand. Box 62's eight good dates are WB's work 62
+(«ཚེས་བཞི་བདུན་དང་ཉེར་གཅིག་དང་། །ཉེར་བརྒྱད་གནམ་གང་གསུམ་བཅོ་ལྔ། །བཅུ་བཞི་བཟང», vol. 2,
+pp. 426–427, etext), and box 24's 29th WB's work 17. A further sweep of O10f's
 digits should start from those shapes.
 
 ### 2. Naming — མིང་འདོགས་པ་ལ་བཟང་བ
