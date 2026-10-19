@@ -672,11 +672,12 @@ The box on the scan, KP BDRC img. 60 (O10f):
 - Bad half: «༄། །གཟའ་སངས་ཟླ་ལྷག་ཚེས་༢༦ ༡༢ ༡༤ སྐར་མ་ / གྲོཞི་བྱིཞི་མཆུ་བོན་ཆོག་ངན། སྣར་ལྷཾས་མོནྲུ་མོནྲེ་ནུཾ་ / ཉི་མ་ཕག་བོན་ཆོག་ངན། སྟག་དུས་སྦྱོར་གླང་སྲང་པི་ལིང་སེ་བྱ་ / ཀུངས་མྱུལ་གནམ་ཟས་འཚོལ་ཕག་མོ་རྒྱུ་དམག་དཔོན་ཙང་ཀུན་གནས་ / ཕྱོགས་དབང་མོ་ཁྲག་སྒོར་ཙ་མུནྡི་ཁྱབ་འཇུག་རྒྱུ་དུས་མཐོང་བ་རྒྱུ་དུས་ནུབ་ / བྱང་དུ། ཤ་བ་རུ་རྒྱས་ངན། དཔལ་མོ་རྒྱུ་དུས་མདོས་རྣམས་དམིགས་གསལ་ལ༔ / ཞི་ལྗང་གནས་ཕྱོགས་འཛེམ།»
 
 - **Good:** Sun Thu Sat Tue; dates 18, 25, 28, 27; gre, lag, mgo, snrubs, gro bzhin
-- **Bad:** Fri Mon Wed; dates 26, 12, 14; snar ma, lha mtshams, mon gru, mon gre, nam gru
+- **Bad:** Fri Mon Wed; dates 2, 6, 12, 14; snar ma, lha mtshams, mon gru, mon gre, nam gru
 - **Neither side:** mchu (good, but bad for Bon rites); nag, chu stod, nabs so, dbo, tha skar, snron (good for fierce mdos); bra nye (for planting skyas); the Dragon day and the trigrams khon, khen (good for particular mdos); the Pig day (bad for Bon rites); the dates 2, 3, 4, 5, 7 with the spirits they suit
 - **Not calculated:** rising signs; the spirits' and Rāhu's times and places
 - The box names a kind of mdos for most of its entries; only the plain ones are counted.
 - **The scan (O10f):** gro bzhin stands plain in the good half and in the bad half with byi bzhin and mchu as «བོན་ཆོག་ངན» (bad for Bon rites): like mchu, it counts for neither side. The bad half names the Tiger day plain after the Pig day's qualifier: bad, which the app does not have.
+- **The dates read on the scan 2026-10-19** (img. 60 at 4–8×): the bad dates are «༢ ༦ ༡༢ ༡༤», two single digits with a tsheg between them and the 6 with its left hook, not 26: the White Beryl's work 53 (vol. 2, p. 422), «ཡར་ངོ་ཁྱད་པར་གཉིས་དྲུག་དང་། །བཅུ་གཉིས་བཅུ་བཞི་རྣམས་ལ་སྤང», date for date. The good «༡༨ ༢༥ / ༢༨ ༢༧» has the looped 7 at the end, where WB has 29 («བཅོ་བརྒྱད་ཉེར་ལྔ་བརྒྱད་དགུ་བཟང»): a difference in the texts; the app counts both good.
 
 ### 57. Honouring and petitioning — བསྙེན་བཀུར་ཞུ་གསོལ་བྱ་བ་ལ་བཟང་བ
 
