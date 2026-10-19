@@ -1750,6 +1750,11 @@ the text, not about the app.
      «ཟླ་གྲོགས་མེད་པའི་མི»; Dag yig gsar bsgrigs, «ཧྲེང» single): the screen
      is a lone man holding a spear. «གཏོང་ཤེས» is in no dictionary; the work
      is not identified.*
+     *WB's own notes give the word the same sense (2026-10-19): Mipham, on
+     the remedies of the reckoning for the dead (vol. 2, p. 517, etext
+     I1KG12907 p. 525), «ཕོ་ཧྲིང་མོ་ཧྲིང་ནི་ཕོ་རེང་མོ་རེང་སྟེ་ཟླ་གྲོགས་མེད་པ་གཅིག་པུའི་མིང་།», a lone man or woman, one
+     without companion. So the "man *hreng*" is settled; the *Gtong shes*
+     is not.*
      *Narrowed further 2026-10-19 ([year-month-earth-lords.md](year-month-earth-lords.md),
      *The light-clearer's grave and the Knowing What to Send*): a translated
      earth-lord text. WB cites «གཏོང་ཤེས» six times in ch. 31 beside the *'Byung
