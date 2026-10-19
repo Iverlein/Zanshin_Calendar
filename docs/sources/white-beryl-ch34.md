@@ -800,7 +800,11 @@ are good; here they are forbidden.
   «…བཅོ་བརྒྱད་དགུ། …བཅུ་དགུ་…»).
 
 KP's box 42 (img. 49, read on the scan) has neither the 9th nor the 18th and
-22nd: its digest of this line is not a witness to the word.
+22nd: its digest of this line is not a witness to the word. Its bad dates, read
+again on 2026-10-19 (BDRC img. 51 at 5–7×, the digits set beside the 2s of
+its «༢༡ ༢༧ ༢༨» and the 3 of its «༣༠»), are «༡ ༣ ༤ ༥ ༧ ༦ ༨ ༡༢ ༡༥ / ༡༩ ༢༡ ༢༧
+༢༨ ༣༠»: the 3 has the double-curved head, the 12 the single-hooked 2. Its
+12th, which the chapter does not name, is the print's own.
 
 «བཅུ་བཞི་བདུན», the dates "good in another system", is the 14th and the
 7th, or the 14th and the 17th with the decade carried; both the 7th and
