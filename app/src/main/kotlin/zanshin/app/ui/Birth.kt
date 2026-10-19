@@ -116,6 +116,19 @@ fun PowerSection(person: Person, onOpen: (Annotation) -> Unit) {
         ),
         onOpen,
     )
+    val place = BirthReckoning.yearPlace(sign.animal)
+    AnnotationRow(
+        Annotation(
+            title = place.english.replaceFirstChar(Char::uppercase),
+            english = "",
+            tone = Tone.NEUTRAL,
+            reading = Texts.yearPlace(place),
+            subtitle = labels.string(R.string.birth_place_subtitle, gloss(sign.animal)),
+            titleIsKanji = false,
+            tibetan = place.wylie to place.english,
+        ),
+        onOpen,
+    )
     val triad = Animal.entries.filter { Forces.of(sign.element, it).luck == forces.luck }
     AnnotationRow(
         Annotation(
