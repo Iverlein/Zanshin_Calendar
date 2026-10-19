@@ -253,8 +253,9 @@ class DaySummaryTest {
         // the White Beryl's results of the day animals joined the nyi ma's lists (T2.24), 2018 before the mewa and
         // the link joined the trigram's voice (T2.25), 2006 before the White Beryl's days of the twelve links joined the
         // link's lists (T2.27), 2047 before making new clothes was told apart from putting them on, and sewing tents
-        // from both, 1946 before the corrections from the readings (T2.28).
-        assertEquals(1945, against)
+        // from both, 1946 before the corrections from the readings (T2.28), 1945 before the councils' bad date was read
+        // ༢༢ on the scan.
+        assertEquals(1947, against)
         assertEquals(18263 to 9672, days to byCombination)
     }
 

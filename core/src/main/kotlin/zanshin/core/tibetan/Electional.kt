@@ -1069,7 +1069,8 @@ object Electional {
                 animals = setOf(HORSE),
             ),
         ),
-        // 60. Councils (img. 60, KP2 img. 283).
+        // 60. Councils (img. 60, KP2 img. 283). The bad date is «༢༢» on the scan (2026-10-19), two crossed 2s, the White
+        // Beryl's 22nd; the O10f reading had 12.
         ActivityList(
             "council",
             good = Factors(
@@ -1079,7 +1080,7 @@ object Electional {
             ),
             bad = Factors(
                 weekdays = setOf(TUESDAY, SATURDAY),
-                dates = setOf(12),
+                dates = setOf(22),
                 mansions = m(ANURADHA, MULA),
                 animals = setOf(TIGER, MONKEY, BIRD, DOG),
             ),

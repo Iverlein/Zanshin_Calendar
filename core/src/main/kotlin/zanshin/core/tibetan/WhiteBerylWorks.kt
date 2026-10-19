@@ -236,8 +236,8 @@ object WhiteBerylWorks {
             good = Factors(mansions = m(PUNARVASU, VISHAKHA)),
             bad = Factors(mansions = m(MAGHA, JYESHTHA, MULA, REVATI)),
         ),
-        // 57. Councils, pp. 424–425.
-        ActivityList("council", good = Factors(), bad = Factors(dates = setOf(22), trigrams = setOf(KHON))),
+        // 57. Councils, pp. 424–425: the 22nd bad, as the box has it.
+        ActivityList("council", good = Factors(), bad = Factors(trigrams = setOf(KHON))),
         // 65. Increasing, p. 427: «ནམ་གྲུ(༢༦) མོན་གྲུ(༢༣) བཟང».
         ActivityList("increasing_activity", good = Factors(mansions = m(SHATABHISHAJ)), bad = Factors()),
     )
