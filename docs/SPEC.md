@@ -703,8 +703,8 @@ relatives (the spouse taken as the other sex where theirs is not set).
   number for the eleven pairs WB numbers (p. 363, `TRIGRAM_CHILDREN`,
   family `MatchTrigramChildren`) and, for each spouse, whether they are
   one of the eight hand-wavers, a pair of year animals on one trigram
-  (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Not built: the bad
-  pairs' rites, the trigrams' graves, the four born on their own
+  (p. 362, `HAND_WAVERS`, family `MatchHandWaver`). Each bad pair carries
+  its rite as a Remedy row. Not built: the trigrams' graves, the four born on their own
   trigram and the woman's lines.
 - **Rise and decline** (point 13, pp. 363–364): the root way, each
   spouse's life force carried onto the other's year animal

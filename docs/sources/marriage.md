@@ -1116,3 +1116,14 @@ flourishing as mother, son, friend and enemy, whose count is not
 given), the other way («སྲོག་ཀླུང་སྐྱེས་པས་དབུགས་བླངས་ལ། །མོ་ཡི་ལོ་སྟེང་ཁྱེར་བ», white
 counted over all), the gods', men's and demons' places, and the twelve
 throne doors.
+
+## Built, 2026-10-19 (ROADMAP R3j)
+
+The sixteen bad trigram pairs' rites (pp. 361–362, quoted above), each a
+Remedy row of its pair. Left out, the words or the rite not settled:
+དྭ་ཟིན's «ཤ་བ་རུ་རྒྱས་མདེ་ཐུང» and «སྡོང་རྒྱན»; ལི་ཁོན's «ཤ་རུ་གཡས་པའི་ཁོན་ཚོག»; དྭ་ཟོན's
+«བྱན་ཚང་གི་སྒོ་ང»; ལི་དྭ's «སྲིད་སྒྲུབ», «སིལ་མ་འཁོར་ལོ་དགུ་པ», «བཙན་ཤ་རུ་བསྡུམས»; ཁེན་ཟོན's
+«སྲིད་ཀྱི་གོང་ཕུར་སྲིད་འབེབས» (only its readings kept); ཁོན་ཟིན's «སྙིང་ཐིག་ས་མོ་སྟོད་སྐྱ». ལི་ཁེན's
+«བདུད་ཀྱི་ཁྲོམ་ཁ་སྟོང་བཟློག» is given as turning back the demons' crossroads,
+«དམ་སྲིད» read «དམ་སྲི». «དགྲ་སྲི» and «གོད་སྲི» are the harmful spirits of the
+dead (སྲི) that bring enemies and loss; «ངར་གླུད», «ངར་མི» ransom effigies.
