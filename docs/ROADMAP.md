@@ -1470,9 +1470,10 @@ verdict, and the owner's decisions of 2026-10-10:
     The predictive pebble becomes white, black or speckled by places;
     SPEC §5.9.1's "even, none" and "Gyurme Dorje's chart 6.2 lays its
     predictive pebbles otherwise" are rewritten (chart 6.2 is the notes'
-    rule). A place with both colours counts as speckled (D16, decided
-    2026-10-20); the speckled pebble's reading waits on D16's open part.
-- **D16, decided in part 2026-10-20 (the owner: Mipham's word above every source but WB, SPEC §8); the speckled pebble's reading waits on [O19](#o19)** ([RD18](#rd18), open questions 170–172,
+    rule). A place with both colours counts as speckled; a speckled
+    pebble reads WB's "white and black, two" reading with Mipham's note
+    (D16, decided 2026-10-20). The catalog's Russian follows.
+- **D16, decided 2026-10-20 (the owner: Mipham's word above every source but WB, SPEC §8; the speckled pebble's reading after [O17](#o17)–[O19](#o19))** ([RD18](#rd18), open questions 170–172,
   [verdicts.md](sources/verdicts.md)): what a place with both colours
   counts as (a son's meeting, one white and one black; the breath-taking
   and womb stages) no text read says. Gyurme Dorje's chart 6.2 counts a
@@ -1512,6 +1513,13 @@ verdict, and the owner's decisions of 2026-10-10:
   *Mirror*; WB's illness chapter reads a speckled verdict as undecided,
   with rites; Mipham calls the speckled "somewhat weak", leaning to the
   bad (questions 172, 190, 191).
+  **Decided** (the owner, 2026-10-20): a speckled predictive pebble reads
+  WB's "white and black, two" reading for that aspect (vol. 1, pp. 381–384,
+  the ordinary verdict, with its rites), and beside it Mipham's note that
+  a speckled pebble, counted for neither colour, is "somewhat weak" if it
+  comes, roughly with the bad (vol. 2, p. 495, said of the illness
+  reckoning's pebbles; named so). Questions 172, 190 and 191 stay open
+  for a reader of the tradition; the build does not wait on them.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
