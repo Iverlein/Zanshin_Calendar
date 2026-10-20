@@ -721,3 +721,16 @@ Searched and found wanting, so not to be repeated:
   times (p. 261), the boards of pp. 331 and 471, and single readings
   («ཚེ་སྟོད», «ཚེ་སྨད», pp. 276–353); no part of life for the year of age's
   signs.
+- **The match concluded** (RD21, 2026-10-20): BDRC's full-text search,
+  «སྐར་འབྲས་སྤྱི་སྡོམ» no hit (the OCRs spell it «སྒར» and «སར»);
+  «ལས་གཉེན་དགྲའི» only in WB's prints and the *Removing the Tarnish*;
+  «ལས་ཀྱི་ཆུང་མ», «གཉེན་གྱི་ཆུང་མ», «དགྲའི་ཆུང་མ» in WB, its reprints and
+  manuals that copy point 3, none with a rule for the whole. The *Removing
+  the Tarnish* etexts (I5875, I5876): «སྤུན་གྲངས», «སྐར་འབྲས», «ཟུངས་ཟད»,
+  «ཚེ་ཟད» in the marriage replies none; only replies 112–119 on the
+  marriage chapter (questions on I5875 etext pp. 94–95, answers 112–114
+  on pp. 468–469), none on point 7 or a sum. The Bhutan *Sky Jewel*
+  (I1KG11905 etext pp. 213–238): «སྤྱི», «བསྡོམ», «གང་མང», «ཁ་དམར»,
+  «བཏང་གཅོད», «ཤས་ཆེ», «མང་ཉུང» give no rule for the whole match. WB's
+  etext: «སྐར་འབྲས» only as «གཟའ་སྐར་འབྲས་བུ» (vol. 1, pp. 438–439; vol. 2,
+  pp. 51, 316) and on p. 351.

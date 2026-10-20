@@ -2675,26 +2675,10 @@ set up (two of the same animal, or the same element in year and aspects),
 
 ### Open
 
-- Question: does «སྐར་འབྲས་སྤྱི་སྡོམ་ཤེས་པར་བྱ» (WB vol. 1, p. 351)
-  name a second conclusion of the match, "the general sum of the
-  results", or head the pebble counts that follow it, as «སྤྱི་སྡོམ» heads
-  a tally of pebbles in the notes (vol. 2, p. 513)? And is «སྐར་འབྲས» the
-  results of the planets and mansions (points 14–15) or of the match
-  as a whole?
-- Question: when the four aspects fall into different kinds (the life
-  force a spouse of karma, the power a spouse of enmity), what is the
-  couple called? WB names a whole only for all four of karma; the notes
-  (vol. 2, p. 524) say to look at good and bad "in general"; does any
-  reckoner give a rule for the mixed case, or is it left to the reckoner?
-- Question: is the notes' «ལས་རྩིས» (vol. 2, pp. 524, 526), the karma
-  reckoning that overrules a good match, WB's ch. 22, the reckoning of
-  lives and karma (ཚེ་རབས་ལས་རྩིས, tshe rabs las rtsis), made for each
-  spouse, and which of its findings count as "life exhausted", "power
-  small" and "the reckoning bad in general"?
-- Question: «གནས་སྐྱུག» or «གནས་སྒྱུག», the in-laws (vol. 2, p. 526,
-  l. 2)? The reprint's stack is blotted; ch. 30 (vol. 2, p. 152) prints
-  «གནས་སྒྱུག». And «ཤིད་དུར» or «ཤིང་དུར» (l. 4; Mipham's print by
-  Yigdzin-1 only)?
+- Open question 208 ([open-questions.md](open-questions.md)): «སྐར་འབྲས་སྤྱི་སྡོམ».
+- Open question 209 ([open-questions.md](open-questions.md)): a match of mixed kinds.
+- Open question 210 ([open-questions.md](open-questions.md)): the karma reckoning over the match.
+- Open question 211 ([open-questions.md](open-questions.md)): «གནས་སྐྱུག» or «གནས་སྒྱུག», «ཤིད་དུར» or «ཤིང་དུར».
 - Left, not read: Sangye Gyatso's reply 117 (*Removing the Tarnish*, question
   on I5875 etext p. 95), on the throne doors' trigram enemies against the
   departure's ladle, which the notes' p. 526 answer their own way.

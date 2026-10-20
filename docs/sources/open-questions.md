@@ -2353,10 +2353,11 @@ the text, not about the app.
      the spouses' birth month, day and hour agree when there is no enemy,
      grave, seventh or four-executioner between them. Which relations of
      two animals are meant by grave and four-executioner here?
-166. **The match's point 7, the siblings' number (WB vol. 1, ch. 23, p. 359).** «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །ཤིང་གཅིག་ས་གཉིས་ཆུ་ལ་གསུམ། །མེ་བཞི་ལྕགས་ལ་རྡེའུ་ལྔ། །རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ།»:
+166. **Answered 2026-10-20 (RD21, [verdicts.md](verdicts.md), *Point 7 counted*). The match's point 7, the siblings' number (WB vol. 1, ch. 23, p. 359).** «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །ཤིང་གཅིག་ས་གཉིས་ཆུ་ལ་གསུམ། །མེ་བཞི་ལྕགས་ལ་རྡེའུ་ལྔ། །རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ།»:
      is the even or odd count each spouse's own total, or the two
      together? The point waits on it.
      *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), etext only, not read on the scan): the notes, vol. 2, p. 525 (img. 533), sum the five counts for each spouse, compare who has more, and read the two together, odd disagree and even agree. RD21 reads it on the scan.*
+     *Answered 2026-10-20 (RD21, the notes p. 525 on the Gser thang reprint img. 531 and Mipham's own print I2029 img. 718, the same words; WB p. 359 on the Zhol print): each spouse's five counts (wood 1, earth 2, water 3, fire 4, iron 5; the birth mewa by its element) are summed into one; the larger sum wins, equal sums are good; agreement is read once, on the two sums together, even agreeing and odd disagreeing. No aspect is judged alone.*
 167. **Answered 2026-10-20 (RD18, [verdicts.md](verdicts.md), *What a tie lays*). The tie of a verdict (WB vol. 1, ch. 24, p. 381; vol. 2, p. 46; the notes, p. 490).** SPEC §5.9.1 lays no predictive pebble where an aspect's white and black are even, following p. 381's «གང་མང», whichever are more. Ch. 29 (vol. 2, p. 46, read on the Gser thang reprint) lays a speckled one (ཁྲ་བོ, khra bo) on a tie, and the notes on the obstacle reckoning (p. 490, img. 498, etext only) say «མཉམ་ན་ཁྲ་བོ», even, a speckled one, with "even a three counts as one" and "the enemy's two black are not counted apart". Does the year of age's tie lay a speckled pebble, and does each meeting count once whatever its colours? RD18.
      *Narrowed 2026-10-20 ([year-of-life.md](year-of-life.md), RD20, the notes p. 490 read on the Gser thang reprint): the etext dropped «ནི་མ་འཕྲད་དཀར»; it is a **mother meeting's** three white that count as one. The notes' worked example (p. 489) has no tie, so it does not decide. RD18 reads the tie.*
      *Answered 2026-10-20 (RD18, the notes p. 490 and ch. 29 pp. 46–50 read on the 1996 scan): each place counts once by its colour, and a tie lays a speckled pebble, as every tie rule of WB and its notes lays a third value. What a place with both colours counts as is question 171; what a speckled predictive pebble foretells, question 172.*
@@ -2588,3 +2589,31 @@ the text, not about the app.
      former unchanging, the latter changing"?
      [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
      the reckonings with each other" (RD24).
+208. **«སྐར་འབྲས་སྤྱི་སྡོམ» (WB vol. 1, ch. 23, p. 351, img. 361).**
+     Does «སྐར་འབྲས་སྤྱི་སྡོམ་ཤེས་པར་བྱ» name a second conclusion of the
+     match, "the general sum of the results", or head the pebble counts
+     that follow it, as «སྤྱི་སྡོམ» heads a tally of pebbles in the
+     notes (vol. 2, p. 513)? And is «སྐར་འབྲས» the results of the
+     planets and mansions (points 14–15) or of the match as a whole?
+     (Printed «སྐར» on the 1996 print, the Gser thang reprint and the
+     Zhol print.) [verdicts.md](verdicts.md), "The marriage match
+     concluded" (RD21).
+209. **A match of mixed kinds (WB vol. 1, p. 355; the notes, vol. 2, p. 524).**
+     When the four aspects fall into different kinds (the life force a
+     spouse of karma, the power a spouse of enmity), what is the couple
+     called? WB names a whole only for all four of karma; the notes say
+     to look at good and bad "in general". Does any reckoner give a rule
+     for the mixed case, or is it left to the reckoner?
+     [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
+210. **The karma reckoning over the match (the notes, vol. 2, pp. 524, 526).**
+     Is the notes' «ལས་རྩིས», the karma reckoning that overrules a good
+     match, WB's ch. 22, the reckoning of lives and karma
+     (ཚེ་རབས་ལས་རྩིས, tshe rabs las rtsis), made for each spouse, and
+     which of its findings count as "life exhausted", "power small" and
+     "the reckoning bad in general"? [verdicts.md](verdicts.md), "The
+     marriage match concluded" (RD21).
+211. **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
+     The in-laws, «གནས་སྐྱུག» or «གནས་སྒྱུག»? The Gser thang reprint's
+     stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And
+     l. 4, «ཤིད་དུར» or «ཤིང་དུར» (Mipham's print by Yigdzin-1 only)?
+     [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
