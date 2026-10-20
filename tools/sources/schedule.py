@@ -304,7 +304,7 @@ def cmd_stubs(args):
             print(f"made {path}")
         text = path.read_text()
         for rid, h in heads:
-            if f"({rid})" in text:
+            if re.search(rf"^## .*\({rid}\)$", text, re.M):
                 continue
             text = text.rstrip("\n") + f"\n\n\n## {h}\n\nNothing read yet: {rid}'s passages, with the English beside them, go here.\n"
             print(f"{f}: section for {rid}")
