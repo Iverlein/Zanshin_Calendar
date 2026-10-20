@@ -800,7 +800,215 @@ several conditions, and no rule says how many must hold.
 
 ## D16: the worked examples (O17)
 
-Nothing read yet: O17's passages, with the English beside them, go here.
+Read 2026-10-20. Two worked examples of the year of age's predictive
+pebble, each cell traced to the meeting it records and each verdict
+counted again with a mixed place counted four ways. Mipham's (མི་ཕམ, mi
+pham) table at the foot of the notes' p. 489 was read cell by cell on the
+Gser thang reprint (I3CN5029 img. 495, at 1× and 3×) and checked on the 1996
+scan (I1KG12907 img. 497, at 3×); RD20's transcription
+([year-of-life.md](year-of-life.md), *The notes' worked example*) stands
+in every cell. Gyurme Dorje's (འགྱུར་མེད་རྡོ་རྗེ, 'gyur med rdo rje)
+chart 6.2 (*Tibetan Elemental Divination Paintings*, 2001, p. 228) was
+not read again: its cells are RD18's reading of archive.org's page image
+(above, *What a tie lays*). His text around the chart (pp. 226–230) was
+not read either; that is O18's row. WB's son-meeting line (vol. 1, p. 380,
+img. 390, l. 25) was read again on the 1996 scan at 4× and 9×. No model
+was run: the cells come from arithmetic on the rules already read, and the
+decisive cells from the eye.
+
+### The rules each cell follows
+
+- **The six signs and the four aspects** (the notes, vol. 2, p. 490,
+  img. 498, l. 1–5, quoted under RD20): the current year, the progressed
+  sign (ལོག་མིན, log min), the trigram (སྤར་ཁ, spar kha) of the year of
+  age, the mewa (སྨེ་བ, sme ba) of the year of age, the sectors (དར་གུད,
+  dar gud) and the hour. Against each of the six, the one reckoned's
+  vitality (སྲོག, srog), body (ལུས, lus), power (དབང་ཐང, dbang thang;
+  Dorje's "destiny") and luck (ཀླུང་རྟ, klung rta) fight: the year's,
+  progressed sign's and hour's four aspects one to one, the trigram's and
+  mewa's single element against all four, and the sector of each aspect's
+  element at the current year's animal.
+- **The pebbles of a meeting** (WB vol. 1, p. 380, img. 390, O10d's
+  reading in [year-of-life.md](year-of-life.md)): the mother three
+  white, the friend two white, the son one white and one black, the enemy
+  two black; meeting its own element, earth and water one white, wood,
+  iron and fire one black. The son's line, read again on the scan:
+
+  > །བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར།
+
+  The syllable dot (ཚེག, tsheg) falls after «ན» and the next word is «གཟུང»: the print does
+  not say «དཀར་ནག་ཟུང», "white and black as a pair", in letters. Taken
+  literally, it says "a son meeting: where white, lay it as a pair". Both
+  examples print every son meeting as ○×, one white and one black, so the
+  pebbles of a son meeting are not in doubt. Only the wording is.
+- **The kinships** (WB vol. 1, p. 258, img. 268, in
+  [year-of-life.md](year-of-life.md), *The sectors of growth and
+  decline*): wood's mother water and son fire, and so round the five.
+- **The sectors' pebbles** (the *Moonbeams*' ranks, KD vol. 3, pp. 496,
+  507, etext, in [year-of-life.md](year-of-life.md)): flourishing and
+  working three white, bathing and dressing two, body complete and birth
+  one; the breath-taking (དབུགས་ལེན, dbugs len) and the womb (མངལ་གནས,
+  mngal gnas) one white and one black; decline and illness one black,
+  death and the tomb two black. Every sector cell of both examples
+  follows these ranks: the notes' bathing ○○ and flourishing ○○○, Dorje's
+  birth ○ and illness ×. WB's own grading of the twelve on p. 335 (birth
+  middling, bathing the last of the good) would give other counts. In both
+  orders the breath-taking and the womb are "the best of the bad", the
+  sectors' mixed pair.
+
+So a place can be mixed in two ways only: a son meeting (any of the six
+signs), or an aspect standing in the breath-taking or the womb (the
+sectors' column).
+
+### The notes' table, cell by cell (vol. 2, p. 489, img. 497)
+
+A man of an iron dragon year in his sixth year (the wood bird year; the
+figure under the heading is ༦, not the row of the la's (བླ, bla) ༩), his natal mewa nine,
+red, fire. By WB's rules his progressed sign from the water tiger is the
+fire sheep, his trigram gin (གིན, gin), earth, his mewa of the year of
+age two, black, water, the current year's mewa four, green, wood. The
+heading row prints all of these («བརྩི་བྱ་ལྕགས་འབྲུག», «གནམ་ལོ་ཤིང་བྱ།», «ལོག་མིན་མེ་ལུག», «སྤར་ཁ་ས་གིན།», «བབ་སྨེ་ཆུ་གཉིས་ནག», «དུས་ཚོད་ས་འབྲུག», «བཏང་གཅོད།»).
+His aspects are vitality earth, body iron, power iron and luck wood
+(«སྲོག་ ས།», «ལུས་ ལྕགས།», «དབང་ ལྕགས།», «ཀླུང་ ཤིང་།»). The wood bird
+year's are iron, water, wood and water. The fire sheep's are earth, water,
+fire and fire. The earth dragon hour's are earth, wood, earth and wood.
+Each cell gives the other element, the meeting and the printed pebbles:
+
+| Aspect | Year | Progressed sign | Trigram | Mewa | Sector | Hour | Printed |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Vitality, earth | iron, **son** ○× | earth, own ○ | earth, own ○ | water, friend ○○ | bird: bathing ○○ | earth, own ○ | ○ |
+| Body, iron | water, **son** ○× | water, **son** ○× | earth, mother ○○○ | water, **son** ○× | bird: flourishing ○○○ | wood, friend ○○ | ○ |
+| Power, iron | wood, friend ○○ | fire, enemy ×× | earth, mother ○○○ | water, **son** ○× | bird: flourishing ○○○ | earth, mother ○○○ | ○ |
+| Luck, wood | water, mother ○○○ | fire, **son** ○× | earth, friend ○○ | water, mother ○○○ | bird: **womb** ○× | wood, own × | ○ |
+| La, fire (mewa 9) | mewa 4 wood, mother ○○○ | mewa 9 fire, own × | gin earth, **son** ○× | mewa 2 water, enemy ×× | bird: death ×× | mewa 2 water, enemy ×× | × |
+
+Every derived cell is the printed one. The la's progressed-sign
+and hour mewa (9 and 2) are taken as printed: the notes' rule for the
+mewa line that matches the one reckoned's is not worked out here. The
+vitality's hour cell carries a speck below its white pebble on the
+reprint, absent from the 1996 scan: one white.
+
+Mixed places: six son meetings and one womb, as follows:
+
+- the vitality's year;
+- the body's year, progressed sign and mewa;
+- the power's mewa;
+- the luck's progressed sign, and its sector, the womb;
+- the la's trigram.
+
+The lead in the row holds, with one correction: the body's three ○× are
+all son meetings, but of the luck's two, one is a son meeting and the
+other the womb.
+
+### Dorje's chart 6.2, cell by cell (p. 228)
+
+A man of a fire dragon year in his 23rd year (the earth tiger year 1998),
+at a water snake hour. His natal mewa is six, white, and his mewa of the
+year of age seven, red, fire. His progressed sign is the iron mouse and
+his trigram zin (ཟིན, zin), wood. His aspects are vitality earth, body
+earth, power fire and luck wood. The earth tiger's are wood, earth, earth
+and iron. The iron mouse's are water, earth, iron and wood. The water
+snake's are fire, water, water and water.
+
+| Aspect | Year | Progressed sign | Trigram | Mewa | Sector | Hour | Printed |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Vitality, earth | wood, enemy ×× | water, friend ○○ | wood, enemy ×× | fire, mother ○○○ | tiger: illness × | fire, mother ○○○ | ○× |
+| Body, earth | earth, own ○ | earth, own ○ | wood, enemy ×× | fire, mother ○○○ | tiger: illness × | water, friend ○○ | ○ |
+| Power, fire | earth, **son** ○× | iron, friend ○○ | wood, mother ○○○ | fire, own × | tiger: birth ○ | water, enemy ×× | ○× |
+| Luck, wood | iron, enemy ×× | wood, own × | wood, own × | fire, **son** ○× | tiger: working ○○○ | water, mother ○○○ | × |
+
+Every derived cell is RD18's reading of the chart. Mixed places: two son
+meetings, the power's year and the luck's mewa; no aspect stands in the
+breath-taking or the womb.
+
+### The predictive pebbles counted again
+
+Each place counts once (the notes, p. 490). A pure place counts by its
+colour. A mixed place counts (a) black, (b) white, (c) not at all, or (d)
+as one white and one black. More white lays a white pebble, more black a
+black one, and a tie a speckled one (ཁྲ་བོ, khra bo). The count is given
+as white : black. "Pebbles" is the count by single pebbles, which p. 381
+and the notes reject; it is shown for comparison.
+
+| Example | Aspect | Pure places ○ : × | Mixed | (a) black | (b) white | (c) left out | (d) one of each | Pebbles | Printed |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Notes p. 489 | Vitality | 5 : 0 | 1 son | ○ 5:1 | ○ 6:0 | ○ 5:0 | ○ 6:1 | ○ 8:1 | ○ |
+| Notes p. 489 | Body | 3 : 0 | 3 son | **speckled 3:3** | ○ 6:0 | ○ 3:0 | ○ 6:3 | ○ 11:3 | ○ |
+| Notes p. 489 | Power | 4 : 1 | 1 son | ○ 4:2 | ○ 5:1 | ○ 4:1 | ○ 5:2 | ○ 12:3 | ○ |
+| Notes p. 489 | Luck | 3 : 1 | 1 son, 1 womb | **speckled 3:3** | ○ 5:1 | ○ 3:1 | ○ 5:3 | ○ 10:3 | ○ |
+| Notes p. 489 | La | 1 : 4 | 1 son | × 1:5 | × 2:4 | × 1:4 | × 2:5 | × 4:8 | × |
+| Dorje 6.2 | Vitality | 3 : 3 | — | speckled 3:3 | speckled 3:3 | speckled 3:3 | speckled 3:3 | **○ 8:5** | ○× |
+| Dorje 6.2 | Body | 4 : 2 | — | ○ 4:2 | ○ 4:2 | ○ 4:2 | ○ 4:2 | ○ 7:3 | ○ |
+| Dorje 6.2 | Power | 3 : 2 | 1 son | speckled 3:3 | **○ 4:2** | **○ 3:2** | **○ 4:3** | **○ 7:4** | ○× |
+| Dorje 6.2 | Luck | 2 : 3 | 1 son | × 2:4 | **speckled 3:3** | × 2:3 | × 3:4 | **○ 7:5** | × |
+
+The bold cells are the ones that contradict the printed verdict.
+
+- **The notes' table** is reproduced by (b), (c) and (d), and by the
+  count by single pebbles. It is not reproduced by (a): counted black,
+  the body's three son meetings tie with its three white places and would
+  lay a speckled pebble, where the notes print a white one. The body row
+  alone decides this: its only mixed places are son meetings. The luck
+  row decides less. With the son meeting black and the womb white or left
+  out, it still comes to white (4:2, 3:2); only (a) applied to both its
+  mixed places ties it.
+- **Dorje's chart** is reproduced by (a) only. (b), (c) and (d) lay a white
+  pebble on the power, where he prints ○×; (b) also ties the luck, where
+  he prints ×. The count by single pebbles fails on three aspects.
+- **No single rule reproduces both.** Let a son meeting add w to the white
+  and b to the black, whatever the numbers. The notes' body (three white
+  places, three sons) is white only if 3 + 3w > 3b, that is b < w + 1.
+  Dorje's power (three white, two black, one son) ties only if 3 + w =
+  2 + b, that is b = w + 1. The two cannot both hold. The womb and the
+  breath-taking do not enter this argument: neither example's verdict
+  turns on them alone.
+- **The la** comes out black under every count, as printed. The notes'
+  deciding column holds only white and black: the table shows no
+  speckled pebble.
+- **The body's exception does not change either example.** WB's
+  «ཤིང་གཅིག་ས་ལ་མི་གནོད», "one wood does not harm earth" (p. 380), and
+  the notes' «ལུས་སྐབས་དགྲ་འཕྲད་ཀྱང་མི་གནོད་པ», "in the body's case even
+  an enemy meeting does no harm" (p. 490), touch only Dorje's body
+  (earth against the trigram zin's wood, ××). Counted as harmless or
+  left out, the body is white either way.
+
+So the two worked examples disagree on the son meeting. Mipham's own
+table counts it as not black: as white, as one of each, or left out; the
+table cannot tell these three apart. Dorje's chart counts it black. At
+this point his text quotes the *Moonbeams* (f. 28b; RD18, above), and
+the notes are WB's own reading. Which of the two is the tradition's rule,
+or whether one table is in error, the examples do not say. Neither
+example contains a verdict that turns on the breath-taking or the womb
+alone.
+
+### Open
+
+- Question: In the year of age's verdict (WB vol. 1, p. 381; the notes,
+  vol. 2, p. 490), how does a son meeting, one white and one black,
+  count? The notes' own table (p. 489) lays a white deciding pebble on a
+  body with three white places and three son meetings, which it can only
+  do if the son meeting does not count black. Gyurme Dorje's chart 6.2
+  (p. 228) lays a speckled one on a destiny with three white places, two
+  black and one son meeting, which it can only do if the son meeting
+  counts black. Is this a difference between Mipham's reading and the
+  *Moonbeams*', or is one of the two tables in error?
+- Question: WB vol. 1, p. 380 (img. 390, l. 25) prints «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»;
+  is it «དཀར་ནག་ཟུང་དུ», "white and black as a pair", or does
+  "where white, as a pair" mean something else?
+- Doubt, not a question: Dorje's predictive column (○× on the vitality and
+  the destiny) is RD18's reading of the page image. Whether he means one
+  speckled pebble or a white and a black laid together, and how his text
+  on pp. 226–230 counts a son meeting, were not read here: the page images
+  could not be fetched in this reading. O18 reads that text.
+
+### Searched and not found
+
+- 2026-10-20, WB vol. 1, p. 380 (img. 390, l. 25), on the 1996 scan at
+  4× and 9×: no «ནག» after «དཀར» in the son-meeting line; the print reads
+  «དཀར་ན་གཟུང».
+- 2026-10-20, the notes' table, p. 489 (both prints): no cell whose
+  meeting is a breath-taking stage, and no row whose verdict turns on the
+  womb alone.
 
 
 
