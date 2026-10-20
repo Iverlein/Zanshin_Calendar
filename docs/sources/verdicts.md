@@ -1536,7 +1536,451 @@ Nothing read yet: RD24's passages, with the English beside them, go here.
 
 ## Mipham's notes on condensing (RD26)
 
-Nothing read yet: RD26's passages, with the English beside them, go here.
+Read 2026-10-20 on the scan. The base is the Gser thang reprint of the
+1996 typesetting (I3CN5029, 1905 px; image = page + 6 throughout the
+notes, checked on every image fetched: img. 480–482 = pp. 474–476, 494–495
+= pp. 488–489, 501 = p. 495, 505 = p. 499, 519 = p. 513, 528–529 =
+pp. 522–523, 538 = p. 532, 541 = p. 535, 544–547 = pp. 538–541), each
+passage read there in half-line crops at 2–3× and the doubtful words at
+3–4× (also img. 496 = p. 490); BDRC's 1996 scan (I1KG12907, image = page + 8) beside it.
+Yigdzin-1 over the Gser thang images (scratch) and, already in
+`wb/yigdzin/`, over the 1996 images; MITRA as witness over the 1996
+img. 483, 497, 498, 521, 530, 546, 547, 549 (new) and 482, 484, 503,
+507, 531, 540, 543 (earlier readings); every `disagree.py` flag in the
+lines quoted read on the scan. Yigdzin-1 gives only the title for 1996
+img. 482 and noise for the table page img. 483: pp. 474–475 rest on the
+eye and the etext. The notes' eight sections and where they close are in
+[reckonings.md](reckonings.md) (*WB's own division of the reckonings*);
+pp. 489–495 and 500–503 were read for RD18, RD20 and O19; only what
+bears on condensing is quoted from them here. Yigdzin-1's reading of the
+reprint was set against each doubtful word below.
+
+The notes are Mipham's (མི་ཕམ, mi pham) *Memoranda of the Chinese
+Reckoning, Its Essence Made Clear* (ནག་རྩིས་བརྗེད་བྱང་སྙིང་པོ་གསལ་བ,
+nag rtsis brjed byang snying po gsal ba). They say four things about
+condensing a reckoning and laying its verdict (ཁ་དམར, kha dmar): the
+verdict of each set is laid by the majority of its pebbles and written
+under its readings, and the verdicts are what a further count takes up
+(pp. 474–476, 488, 490); the pebble counts are the frame,
+not the result, and a long count is "mere elaboration" to be condensed
+for use (pp. 474, 513, 523); the result is good and bad with its rites,
+weighed across the whole and across people (pp. 489, 499, 535); and the
+reckoner hands over a written sheet, in full or, where that cannot be
+done, condensed to its decisive points (p. 539).
+
+### 1. The opening: what the notes are for, and the birth's verdict pebbles (pp. 474–476)
+
+**The purpose** (p. 474, img. 482; Gser thang img. 480, l. 1–5):
+
+> ན་མོ་མཉྫུ་ཤྲཱི་ཡེ། འདིར་གཙུག་ལག་སྤོར་ཐང་གི་ལུགས་མཐའ་ཡས་པ་ཞིག་མཆིས་པ་ལས། དེང་སང་དཔེ་རྒྱུན་སོགས་[འབྱོར]་བས་ཡོངས་སུ་གྲགས་པ་རྒྱ་རྩིས་རྙིང་མ་ཕུག་ལུགས་བཻ་ཌཱུར་དཀར་པོ་ལྟར་གོ་དཀའ་བའི་གནས་ལ་གསལ་འབྱེད་ཅུང་ཟད་བྲི་བ་ལ་ཐོག་མར་རྩིས་གང་ལའང་སྔོན་འགྲོ་བྱང་ཆུབ་པ་གལ་ཆེ་བས་ཁོ་བོས་བྲིས་པའི་སྔོན་འགྲོ་བློ་ལ་ངེས་པ་གལ་ཆེ། སོ་སོའི་སྐོར་མགོ་ལ་ཚེ་ཀག་ནད་དུར་ས་བག་རྩིས་དྲུག་དང་སྤྱི་རྩིས་དང་རྩིས་ཕྲན་སྣ་ཚོགས་པའི་སྐོར་ཚོ་དང་བརྒྱད་ལས།
+
+Homage to Mañjuśrī. Of the boundless systems of the *Gtsug lag spor
+thang* (གཙུག་ལག་སྤོར་ཐང, gtsug lag spor thang, the Chinese reckoning's
+tradition by its name), I write a few clarifications of the hard places
+of the widely known old Chinese reckoning in the Phugpa way (ཕུག་ལུགས,
+phug lugs), the *White Beryl* (བཻ་ཌཱུར་དཀར་པོ, bai DUr
+dkar po), as the textual lines and the like are [at hand]. For any
+reckoning it matters first to master the preliminaries (སྔོན་འགྲོ, sngon
+'gro): what matters is to have the preliminaries I have written firmly
+in mind. Of the starting points of each, the six reckonings of life,
+obstacles, illness, the grave, the ground and marriage, the general
+reckoning, and the groups of small reckonings: eight. (The letter after
+འ in «[འབྱོར]» is not clear on the reprint at 3×; the etext's reading is
+given.)
+
+**The pebbles are a frame** (same page, l. 6–7), already quoted in
+reckonings.md (*What a pebble is*): «སྤྱིར་གྱི་སྐོར་མགོའི་རྡེལ་གྲངས་རྣམས་ནི་ས་ཁོངས་འཛིན་པའི་གྲངས་ཙམ་ལས། ངོས་འཛིན་རྡེལ་སོགས་ཡི་གེར་བྲིས་ཀྱང་ཆོག», the
+counts of pebbles of the starting points are only the number of places
+they hold; the identifying pebbles (ངོས་འཛིན, ngos 'dzin) and the like may
+as well be written as letters.
+
+**The hundred pebbles of the birth and their deciding pebbles** (p. 474,
+l. 23–27):
+
+> རྡེའུ་བརྒྱ་ཕྲག་གཅིག་གོ། །དང་པོ་སྲོག་གི་རང་མ་བུ་གྲོགས་དགྲ་ལྔ་དེ་ནས་ལུས་དབང་ཀླུང་གི་ལྔ་པོས་ཕ་ལོའི་སྲོག་ལུས་དབང་ཀླུང་གི་འབྱུང་བ་ཁོ་རང་ལ་འཐབ་པའི་རྡེའུ་ཉི་ཤུ་པོ་འཕྲེད་དུ་……བསྒྲིགས། དེ་འོག་མ་ཡི་ལོག་མིན་གྱི་ཉི་ཤུ་དང་། དེ་འོག་སྤར་སྨེ་སྐྱེས་ཟླའི་ཉི་ཤུ་པོ་བསྒྲིགས། སྲོག་གི་རང་ལྔ་པོ་དཀར་ནག་བརྩིས་ལ་འོག་ཏུ་བཏང་གཅོད་བཞག །དེ་བཞིན་གཞན་ཀུན་ཁ་དམར་བཏང་གཅོད་རྡེའུ་ཉི་ཤུ་བོར།
+
+[That makes] one hundred pebbles. First the life force's (སྲོག, srog)
+own, mother, son, friend and enemy, five; then the five each of body,
+power and luck: the twenty pebbles of these fighting the father's year's
+life force, body, power and luck elements are set in a row (the print's
+row of dots); below them the twenty of the mother's progressed sign (ལོག་
+མིན, log min), and below those the twenty of the trigram, mewa and birth
+month. Count the white and black of the life force's own five and lay the
+deciding pebble (བཏང་གཅོད, btang gcod) below; so for all the others: lay
+twenty verdict and deciding pebbles.
+
+**One pebble a meeting, and the son black** (p. 475, img. 483; Gser thang
+img. 481, the text between the two tables, l. 1–2; the same words on the
+1996 scan at 3×):
+
+> འདིར་འཐབ་པའི་སྐབས་སུ་མ་གྲོགས་ལ་དཀར་པོ་རེ་རེ། བུ་དགྲ་ལ་ནག་པོ་རེ་རེ། ནང་ཕྲད་ལ་མེ་ལྕགས་ཤིང་གསུམ་ནང་ཕྲད་ནག་པོ་རེ་རེ། ས་ཆུ་ནང་ཕྲད་དཀར་པོ་བོར་བར་བྱའོ། །དར་རྒུད་ཞག་མལ་རྡེའུ་བཞི་ནི། སྲོག་ལུས་དབང་ཀླུང་བཞིའི་དར་གུད་རང་སྐྱེས་ཀྱི་ལོ་ཟླ་ཞག་དུས་བཞི་ལ་གཏུགས་ནས་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག་པོའོ།།
+
+In this fight lay one white for a mother and for a friend, one black for
+a son and for an enemy; for a meeting with itself, one black where fire,
+iron or wood meets itself, a white where earth or water does. The four
+pebbles of rise and decline (དར་རྒུད, dar rgud) on the day's bed: the
+rise and decline of the life force, body, power and luck set against
+one's own birth year, month, day and hour, the good six white, the bad
+six black.
+
+So in the birth's hundred, by the notes, every meeting is one pebble and
+a son meeting is black. WB's rule of colour (vol. 1, p. 417, and vol. 2,
+p. 3, in reckonings.md) lays a white and a black for a son.
+
+**The full form, 150, and a worked column** (p. 475, l. 3–6, and the
+table below them): «རྒྱས་པར་བྱེད་ན་སྲོག་ལུས་དབང་ཀླུང་བཞི་དང་དེ་སྟེང་ཁམས་ཞེས་སྐྱེས་སྨེ་ལྔ་ཡི་འབྱུང་ཁམས་ལྔ་པོ་རེ་རེ་ལའང་། རང་མ་བུ་གྲོགས་དགྲ་ལྔར་ཕྱེ་བའི་ཉེར་ལྔ་ཡོད་པ།», done in full, the
+life force, body, power, luck and, as the fifth, the birth mewa's
+element are each split into own, mother, son, friend and enemy:
+twenty-five; these are set against the rise and decline of the year,
+month, day, hour and so on. The table's heads read «སྲོག་གི་དར་གུད་ཁ་དམར་བཅས་སུམ་ཅུ།», the life force's rise and decline with its verdicts,
+thirty, and «ལུས་ཀྱི་སུམ་ཅུ་སོགས།», the body's thirty and so on; its rows
+are «[སོ་སོའི]་རང་རྡེལ», each one's own pebble (the first two syllables
+blotted on both prints),
+the mother, son, friend and enemy pebbles, and last the deciding pebble
+(«བཏང་གཅོད»). The cells, a small circle or a cross (which is white the
+table does not say), cell by cell on both prints:
+
+| Row | Life force: own | mother | son | friend | enemy | Body: own | mother |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| own pebble | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| mother pebble | ○ | ○ | ○ | × | × | × | × |
+| son pebble | × | × | ○ | × | ○ | ○ | ○ |
+| friend pebble | × | ○ | ○ | × | ○ | × | ○ |
+| enemy pebble | ○ | ○ | × | × | ○ | × | ○ |
+| deciding | ○ | ○ | ○ | × | ○ | × | ○ |
+
+In every column the deciding pebble is the mark that is more among the
+five above it (3–2, 4–1, 4–1, 4–1 the other way, 4–1, 3–2, 4–1). Five
+places cannot tie. p. 476 (img. 484; Gser thang img. 482, l. 1–2)
+closes the count: «དེ་འོག་བུ་གྲོགས་དགྲ་ཡི་ཉེར་ལྔ་ཚན་གསུམ་དང་། དེ་འོག་བཏང་གཅོད་ཉེར་ལྔ་སྟེ་བརྒྱ་དང་ལྔ་བཅུ་ཐམ་པ་ཡོད་པ་ཡིན་ཏེ་འདི་ལྟར་འགོད་དོ།།», below these the three
+twenty-fives of son, friend and enemy, and below them twenty-five
+deciding pebbles: one hundred and fifty in all, laid out like this.
+
+**A pebble with nothing to fight, and the verdict written under its
+readings** (p. 476, l. 3–7, on the reprint; MITRA's «རྒྱུ» for Yigdzin-1's
+«རྒྱ» is the print's):
+
+> དེ་དག་གི་འབྲས་བུ་ནི། སྤྱིར། གནམ་ལོ་རྒྱལ་པོའི་རྡེའུ་ནི། དཀར་ན་ཞེས་སོགས་བཞི་ནི། འཐབ་རྒྱུ་མེད་ཀྱང་བཤད་པ་བཟང་ན་དཀར་པོ། ངན་ན་ནག་པོ་བོར་བ་ཡིན། འདི་གཞན་འོག་མ་རྣམས་སུའང་ཅི་རིགས་འགྲེ། དེ་ནས་ཕྱི་སྐོར་ལོ་ཡི་ཚང་བསྟན་པ་ལ་རྩ་བ་ལྟར་ལོ་སོགས་སྲོག་ལུས་དབང་ཀླུང་ཟླ་བ་དང་། ཞག་གི་ཆ་ཤས་ཀྱི་དུས་ཏེ་དྲུག་གི་བཤད་པ་ལས། དང་པོ་ལ་བསྡུས་པར་ལོ་བཅུ་གཉིས་དང་། རྒྱས་པར་ལོ་དྲུག་ཅུ་གང་ལ་སྐྱེས་པའི་འབྲས་བཤད་ནི་གཞུང་བཞིན་བྲིས་ནས་ཁ་དམར་གདགས་སོ།
+
+Their results. In general: the four, "the pebble of the year king, if
+white …" and the rest, have nothing to fight, but a good reading lays a
+white one and a bad reading a black one; apply this to the others below
+as fits. Then, of the readings of the six of the outer round, the year
+and so on, (the life force, body, power, luck, the month and the hour, a
+part of the day): for the first, the result of being born in one of
+twelve years in brief, or of sixty at length, is written as the root text
+says, and the verdict is laid.
+
+**The twelfth pebble is the verdict** (p. 488, img. 496; Gser thang
+img. 494, l. 2–4), of the reckoning of many sons:
+
+> རབས་སྒོ་མེད་ཅེས་པ་རབས་ཆད་དང་གཡང་གཤམ་གྱི་སྒོ་མེད་པ། འབྲས་བུ་མ་བསྲེགས་པ་ནི་ཁ་དམར་ཏེ། དེ་ལྟར་བཅུ་གཉིས་པ་དཀར་ན་བུ་མང་། ཕྱེད་མ་འབྲིང་སོགས་ཁ་དམར་གདགས་ཏེ་བུ་མང་རྡེའུ་བཅུ་གཉིས་སོ།
+
+"No door of the line" is no door to the line's ending (རབས་ཆད, rabs
+chad) or to the lower *g.yang* (གཡང་གཤམ, g.yang gsham); "the result
+unburned" is the verdict: so the twelfth white, many sons; half (ཕྱེད་མ,
+phyed ma) middling, and so on: the verdict laid; the many sons' twelve
+pebbles. Here a verdict has a third value, half, read middling.
+
+**Twenty-four condensed to four, for a household** (p. 490, img. 498;
+Gser thang img. 496, l. 9–13; RD18 and RD20 read the page's verdict
+line, l. 6–8, quoted above in *What is counted*):
+
+> རྒྱ་ནག་རྡེལ་སྐོར་ནི་བཟའ་ཚང་སྤྱི་ལ་བརྩི་སྟེ་བཞི་ལས་ཉུང་བ་ལ་བྱ་མི་བཏུབ། དེ་ཡན་ཅི་ཙམ་མང་ཡང་རུང་། ཁྱིམ་དེའི་མི་ངོ་དུ་ཡོད་ལ་བརྩི་དགོས། དེ་ཡང་མི་རེ་རེ་བཞིན་གཅོད་འདྲལ་ཉེར་བཞི་བཞག་ནས་བཏང་གཅོད་རྡེའུ་བཞིར་བསྡུས་ལ་དེ་སྟེང་མི་རང་རང་གི་བབ་སྨེའི་མདོག་རྡེལ་བཅས་ལྔ་རེ་ལྔ་རེ་ཡོད་པ་དེ་དག་ཐོག་མར་ཕོ་ངོ་དུ་ཡོད་རྒན་རིམ་ནས་ཆུང་ཤོས་བར་……འགོད།
+
+The Chinese pebble round (རྒྱ་ནག་རྡེལ་སྐོར, rgya nag rdel skor) is
+reckoned for a whole household; it cannot be done for fewer than four,
+and above that however many there are, it must be reckoned for as many
+people as the house holds. For each person the twenty-four of cutting
+and splitting (གཅོད་འདྲལ, gcod 'dral) are laid and condensed (བསྡུས,
+bsdus) into four deciding pebbles; with each one's own mewa's colour
+pebble on them, five each, these are set out first for the men, from the
+eldest to the youngest … So within a reckoning the condensing is done by
+the verdicts: twenty-four pebbles become the four aspects' deciding
+pebbles, and those go on into the next count.
+
+### 2. The close of each section
+
+| Section | Closes (Gser thang img.) | What the close says about the whole |
+| --- | --- | --- |
+| 1, lives and karma | p. 489 (img. 495), l. 14–16 | look also at the life reckoning of planets and mansions of the Kālacakra and the *Svarodaya* |
+| 2, obstacles | p. 495 (img. 501), l. 3–4 | here the life force's element is held chief |
+| 3, illness | p. 499 (img. 505), l. 12–15 | examine the household against each other; of twelve deaths one is of time, eleven of conditions, so strive in the rites |
+| 4, the grave | p. 522 (img. 528), l. 22–23 | the reckoning for the dead complete with 10,371 pebbles |
+| 5, the ground | p. 523 (img. 529), l. 1–11 | the counts are for precision; adopting and rejecting as the text says suffices; the rites done properly bring great benefit |
+| 6, marriage | p. 532 (img. 538), l. 18–19 | the remedies are clear in the root text; no rule for the whole |
+| 7, the general reckoning | p. 535 (img. 541), l. 4–9 | for any work, know the dates' good and bad and the reckonings that set apart each work |
+| 8, small reckonings | pp. 538–541 (img. 544–547) | the notes end; the reckoner's written sheet (p. 539) |
+
+**Section 1** (p. 489, l. 14–16):
+
+> གཞན་ཡང་དུས་འཁོར་དང་དབྱངས་འཆར་སོགས་ལས་གསུངས་པའི་གཟའ་སྐར་ཚེ་རྩིས་ཀྱི་འབྲས་བུ་ཇི་སྙེད་པའང་བརྟག་པར་བྱས་ན་ལེགས་སོ། །ལས་རྩིས་ཀྱི་སྐབས་སོ།།
+
+Besides, it is good to examine also all the results of the life
+reckoning by planets and mansions taught in the Kālacakra, the
+*Svarodaya* (དབྱངས་འཆར, dbyangs 'char) and the like. [End of] the section
+on the reckoning of karma.
+
+**Section 2** (p. 495, l. 3–4): «འདི་སྐབས་སྲོག་ཁམས་ལ་གཙོ་བོར་བཟུང་བའོ། །ཤིང་གཉིས་སོགས་ནི་ཤིང་དུར་གཉིས་པ་སོགས་ཀྱི་དོན་ཏོ། །ཀེག་རྩིས་སྐབས་སོ།།», here the life
+force's element is taken as chief; "wood two" and so on mean the second
+wood tomb and so on. [End of] the obstacle reckoning's section. (The
+sentence concerns the nine-multiples just before it; RD20 read the
+section's weighing of each obstacle against the person's aspects.)
+
+**Section 3** (p. 499, l. 12–15):
+
+> དེ་བཞིན་ཕ་མ་བུ་ཚ་དཔོན་སློབ་ཀུན་ལ་ཕན་ཚུན་བརྟགས་ན་གསལ་ལོ། །སྤྱིར་འཆི་བ་ལ་རྣམ་གྲངས་བཅུ་གཉིས་ལས། གཅིག་དུས་སུ་འཆི་བ་ཡིན་ལ། གཞན་བཅུ་གཅིག་པོ་རྐྱེན་གྱིས་འཆི་བ་ཡིན་པས་དེ་ཀུན་ཐབས་དང་རིམ་གྲོས་སེལ་ནུས་ཕྱིར་དམིགས་སུ་སོང་བའི་རིམ་གྲོ་ལ་……འབད་པར་བྱའོ། །ཞེས་སོ། །ནད་རྩིས་ཀྱི་སྐབས་སོ།།
+
+Likewise it becomes clear when father, mother, children, master and
+disciples are all examined against each other. In general, of the
+twelve kinds of death one is dying at one's time, and the other eleven
+are deaths by conditions; since all of these can be cleared by means and
+rites (རིམ་གྲོ, rim gro), strive in the rites aimed at them, so it is said.
+[End of] the illness reckoning's section. («སེལ་ནུས», can be cleared, is
+the reprint's; the etext drops it.)
+
+**Section 4** (p. 522, l. 22–23): «དེ་ལྟར་རྡེའུ་ཁྲི་ཕྲག་གཅིག་དང་སུམ་བརྒྱ་བདུན་ཅུ་རྩ་གཅིག་གིས་གཤིན་རྩིས་སྐབས་རྫོགས་སོ།།», so with ten thousand three hundred
+and seventy-one pebbles the section of the reckoning for the dead is
+complete. No verdict of the whole is named at the close; the thirteenth
+point's verdicts and the sizes of the rites are in
+[reckonings.md](reckonings.md) (RD16, RD23).
+
+**Section 5, what the counts are for** (p. 523, l. 1–11):
+
+> [པོ]་བླང་གདབ་ཐབས་དང་གསུམ་གྱི་རིམ་པས། ས་ཡི་འཕུང་སྲི་བརྒྱད་ངོས་བཟུང་བཏང་བཅས་དགུ་སོགས་རིམ་པར་བརྩི་སྟེ། དེ་བརྒྱད་གང་ཡང་མེད་ན་བཏང་དཀར། གང་རུང་ཡོད་ན་ནག་པ་ལྟ་བུས་རྡེལ་བཞག་བྱ་བ་ཡིན་ནོ། །དེ་ལྟར་རྡེལ་གྲངས་ཞིབ་པར་འདོད་ན་བུ་ཡིག་ཏུ་བལྟ་བར་བྱ་བ། རྡེལ་གྲངས་མ་འགྲིམ་ཀྱང་དོན་ལ་གཞུང་ནས་གང་བཤད་ལྟར་སྤངས་བླངས་བྱས་པས་འཐུས། འོན་ཀྱང་རྡེལ་གྲངས་ཞིབ་པར་བརྩི་རྒྱུ་འདི་སྤང་བླང་གི་གནད་ཐམས་ཅད་འོལ་སྤྱི་ཙམ་དུ་མ་སོང་བར་ཁྲིགས་ཆགས་སུ་ཞིབ་པར་གཅོད་པ་ཡིན་པས་སྔོན་གྱི་[ཡེ]་མཁྱེན་རྣམས་ཀྱི་ཕྱག་ལེན་ལ་ཡོད་པས་དེ་ལྟར་བྱས་ཀྱང་དོན་ཡོད་པ་ཡིན་ནོ། །མདོར་ན་ས་དཔྱད་སྤྱི་དང་བྱེ་བྲག་དུར་ས་དང་ཁྱིམ་གནས་ལ་སོགས་པའི་དམིགས་བསལ་དང་། སོ་སོའི་ལེགས་[སྒྲུབ]་ཉེས་སྤོང་གི་ཆོ་ག་རྣམས་ཀྱི་ཚུལ་བཞིན་བྱས་ན་ཕན་པ་ཆེན་པོ་འབྱུང་བ་རྟེན་འབྲེལ་གྱི་ཆོས་ཉིད་ཡིན་ནོ། །དཔྱད་རྣམས་ནི་སློབ་དཔོན་མཁས་པའི་ཞལ་ཁྲིད་ཀྱིས་བརྒྱན་ཏེ་རང་གིས་མྱོང་བས་ཤེས་པར་བྱ་བ་ལས་ཐམས་ཅད་བྲིས་ན་ཡི་གེས་འཇིགས་པས་བཞག་ལ། སྤྱིར་གཞུང་གིས་གསལ་བ་ལས་བྲི་དགོས་པ་ཡང་ཆེར་མི་སྣང་ངོ་།།
+
+… in the order of the three, [the preliminary, avoiding the bad and
+taking the good,] and the means of laying [the ground], the earth's
+eight harmful spirits of loss (འཕུང་སྲི, 'phung sri) are identified, nine
+with the deciding pebble, and so on, counted in order: if none of the
+eight is there, the deciding pebble white; if any is, a pebble laid as a
+black one, or the like. Who wants the pebble counts in detail should
+look in the subsidiary texts (བུ་ཡིག, bu yig). Even without going
+through the pebble counts, it is enough in substance to avoid and adopt
+as the root text says. Yet counting the pebbles in detail decides every
+point of avoiding and adopting precisely, in order, so that it does not
+stay approximate; it is in the practice of the [all-]knowing of the
+past, so doing it is worthwhile too. In brief, if the special cases of
+examining the ground in general and in particular, the grave site, the
+house site and the like, and each one's rites of [gaining] the good and
+casting off the faults are done properly, great benefit comes: that is
+the nature of interdependence. The examinations are to be known by one's
+own experience, adorned by a learned master's guidance; writing all of
+it down would make too many letters, so it is left; and in general there
+seems little to write beyond what the root text makes clear. («[ཡེ]» and
+«[སྒྲུབ]» are Yigdzin-1's readings of the reprint; the eye at 3× is not
+sure of either and sees སྐྱབ for the second; the etext has «ཡེ» and lacks
+the passage's middle.)
+
+**Section 6** (p. 532, l. 18–19): «…བཞག་ས་སྐོར་ནི་གཞུང་ན་གསལ། རྩ་བའི་ས་དཔྱད་གསུམ་པ་བཅོས་རིམ་སྐོར་གཞུང་གིས་གསལ་ལོ། བག་རྩིས་ཀྱི་སྐབས་སོ།།», … the round of places to set [the
+bride] is clear in the root text; the root's third head (the print's
+«ས་དཔྱད», perhaps for ས་བཅད, a heading), the order of remedies, the root
+text makes clear. [End of] the marriage reckoning's section. (The
+marriage's own rules for the whole are RD21's.)
+
+**Section 7** (p. 535, l. 4–9):
+
+> …ཁྲ་མ་ལས་ཀྱང་རྟོགས་པར་བྱས་ལ། བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།། བཞི་པ་འབྲས་རྩིས་ནི་ལེའུ་སོ་གསུམ་པ་དང་སོ་བཞི་པ་བཞིན་དུ། ཚེས་གཟའ་སྐར་མ་བྱེད་སྦྱོར་ཆེ་ཆུང་དུས་སྦྱོར་ལ་སོགས་པ་ཡི་བཟང་ངན་དང་། ཁྱད་པར་ལས་སོ་སོ་ལ་བཟང་ངན་དམིགས་སུ་བསལ་བའི་རྩིས་རིགས་རྣམས་ཚུལ་བཞིན་ཁོང་དུ་ཆུད་པར་བྱ་བ་ནི་སྤྱི་ལ་གལ་ཆེའོ། །སྤྱི་རྩིས་ཀྱི་སྐབས་སོ།།
+
+… and understanding it from the chart (ཁྲ་མ, khra ma) too, it is
+important to reckon in detail at the time of whatever work is done. The
+fourth, the reckoning of results, as in chs. 33 and 34: to grasp properly
+the good and bad of the date, weekday, mansion, yoga, the great and small
+combinations and the combinations of hours, and above all the kinds of
+reckoning that set apart the good and bad for each work, is important in
+general. [End of] the general reckoning's section.
+
+**The end of the notes** (p. 538, img. 546; Gser thang img. 544,
+l. 4–12):
+
+> །སྤྱིར་བཻ་དཀར་གྱི་ཚིག་སྣ་གོ་དཀའ་བ་ཕལ་ཆེར་རྩོམ་གཞིས་དང་། འགའ་ཞིག་ཡིག་རྙིང་གི་ཚིག་རིས་ལྟར་བཀོད་པ་དང་། ལ་ལ་ཆེད་དུ་བསམ་སྟེ་བླ་མའི་མན་ངག་ལ་ལྟོས་པར་མ་ཟད་པའང་ཡིན་པས་གོ་དཀའ་བ་རྣམས་བཀྲོལ་བར་བྱས་པ་ཡིན་ནོ། … །དེ་ཡན་ཆད་ཀྱིས་བཻ་དཀར་གྱི་ནག་རྩིས་ཀུན་གྱི་བརྗེད་བྱང་རྫོགས་སོ།། དེ་དག་ནི་[སྔ]་ཕྱིར་བཻ་དཀར་བུ་ཡིག་པོད་ཆེན་བརྒྱད་ཙམ་མིག་ལམ་དུ་སོན་པ་དང་དྲུང་མཁས་པ་[རཏྣ]འི་ཟིན་……བྲིས་སོགས་ཚད་ལྡན་གྱི་ཡིག་ཆ་ལ་བརྟེན་ནས་དེང་སང་གི་རྩིས་པ་རྣམས་ཀྱིས་བཻ་དཀར་ནག་རྩིས་སྐོར་མཐར་ཆགས་སུ་རྟོགས་དཀའ་བ་ལ་ཕན་པའི་བློས་ནག་རྩིས་ཀྱི་བུ་ཡིག་རྣམས་ཀྱི་སྙིང་པོ་ཡོངས་སུ་འདུས་པར་བགྱིས་པ་ཡིན་ནོ།
+
+In general the hard words of the *White Beryl* come mostly from the
+manner of composition; some are set down in the wording of old texts;
+some were meant on purpose to need a lama's instruction: so I have
+untied the hard ones. … With that, the memoranda of all of the *White
+Beryl*'s Chinese reckoning are complete. They rest on authoritative
+documents, about eight great volumes of the *White Beryl*'s subsidiary
+texts seen over time and the notes (ཟིན་བྲིས, zin bris) of the learned
+secretary Ratna, and were made, wishing to help today's reckoners who
+find the *White Beryl*'s Chinese reckoning hard to grasp in order, to
+gather the essence of all the subsidiary texts of the Chinese
+reckoning. (The first syllable «[སྔ]» is the etext's. The name «[རཏྣ]»
+is the etext's and Yigdzin-1's on the reprint; on the 1996 scan
+Yigdzin-1 reads «རཀྵ», MITRA «རཎྜ», and the eye cannot settle it.)
+
+The same page adds (l. 13–17; the last sentence etext only) that
+the Moonbeams (ཟླ་ཟེར, zla zer; Dharmaśrī's *'Byung rtsis zla ba'i 'od
+zer*) is clear and in general like the *White Beryl*, needing no other
+commentary, and that «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས་ནི་ལོགས་སུ་འབྲི་བར་བྱ་བ་ཡིན་ནོ», the
+collection of the reckoning's deep points and instructions is to be
+written separately. The memoranda proper end on p. 539 with a verse
+and «ཅེས་པ་འདི་ནི་མི་ཕམ་པས་བྲིས་པ་དགེའོ», this was written by Mipham
+(Gser thang img. 545, l. 9, at page size); then come a note on a
+casting and the essay quoted below, which p. 541 closes as «ཅེས་པའང་བརྗེད་བྱང་བྲིས་པའི་ཞར་ལ་རྩོམ་པ་པོས་སྨྲས་པའོ།», this too the author said in passing
+while writing the memoranda (Gser thang img. 547, l. 16–17). The
+closing verses on the printing, signed «དྷཱི་མིང་པ» (Dhī ming pa, Mipham's
+name in the colophon), call the work «བཻ་ཌཱུར་དཀར་པོ་ཡི། །བུ་ཡིག་ཀུན་གྱི་གནད་བསྡུས་ལེགས་བཤད་འདི།», this good explanation that gathers the
+essential points of all the *White Beryl*'s subsidiary texts (l. 17–18).
+
+### 3. Condensing: "mere elaboration" (p. 513)
+
+The passage is in section 4, the reckoning for the dead, at the end of
+the sky's bird path (གནམ་གྱི་བྱ་ལམ, gnam gyi bya lam), the planets and
+mansions of the day the corpse is sent off, which p. 512 lists factor
+by factor (the thirty dates, the dates' stages, the twelve days, the
+*Svarodaya*'s vowels and consonants with their fangs and faces, the
+planets' strengths "only made an elaboration of the *Svarodaya*'s
+reckoning", etext, img. 520). p. 513 (img. 521; Gser thang img. 519,
+l. 1–9; Yigdzin-1's «གནད» against MITRA's «གདན» is the print's):
+
+> བ་སོགས། སྤྱིར་བསྡོམས་གཟའ་སྐར་རྩིས་སྐོར་ལ་ངོས་འཛིན་སྟོང་བརྒྱད་བརྒྱ་ཉེར་བརྒྱད་བགྲང་འདུག་ཀྱང་རྒྱས་སྤྲོས་ཙམ་སྟེ་གནད་ལག་ཏུ་ལེན་པ་ལ་མདོར་བསྡུས་ཏེ་དོན་སྙིང་པོར་དྲིལ་བ་ལེགས་སོ། །ས་ཡི་ཕྱི་ལམ་ཞེས་པ་རོ་ལམ་སྟེ། འདི་ལའང་གནས་པ་དོན་གཉིས་སོགས་ངོས་འཛིན་རྡེལ་གྲངས་བཀོད་པས་མང་ན་ཡང་། དེའི་ངོས་འཛིན་ནི་ལོ་ལ་གནས་པ་དོན་གཉིས་མི་འཕོ་བ་ཉེར་གཅིག་སོགས་སྤྱི་སྡོམ་ལྟར་ཉིས་བརྒྱ་གྱ་བདུན། བཏང་བཅུ་གཉིས་ནི་སྡེ་ཚན་དེ་དག་གི་ཉེས་པ་ཡོད་མེད་བཅུ་གཉིས་སོ། …། རོ་ཁུར་ངན་པ་ལ་བཏང་གཅིག་ངོས་འཛིན་སོ་གཅིག བཞག་ས་བཅུ་གཅིག་ངོས་འཛིན་བརྒྱ་ཉེར་གཅིག རྩིས་པའི་བླ་རྡོ་ངོས་འཛིན་ལྔ། གཙང་ཀྱང་མི་རུང་ཉེར་དྲུག ཤུལ་བཅོས་ལ་རྡེའུ་དྲུག ཕྱི་མ་གསུམ་ལ་བཏང་གསུམ་བཅས་རྣམས་ནི་འབྲས་བཤད་ལ་ཞིབ་པར་སྦྱར་བས་ཤེས་ནུས་སོ།
+
+… and so on. Summed, the planets-and-mansions round is counted at 1,828
+identifying pebbles, but that is mere elaboration (རྒྱས་སྤྲོས, rgyas
+spros): to put the point into practice it is good to condense it (མདོར་
+བསྡུས, mdor bsdus) and roll the meaning into its essence (དོན་སྙིང་པོར་
+དྲིལ, don snying por dril). "The earth's outer path" is the corpse's path:
+here too the identifying pebbles listed, the seventy-two that stay and
+so on, are many, yet its identifying pebbles are, by the general sum,
+the seventy-two that stay in the year, the twenty-one that do not move
+and so on, 287; the twelve deciding pebbles are the twelve "is there a
+fault or not" of those groups. … For the bad corpse-carrier, one
+deciding and thirty-one identifying; the eleven places of laying, 121
+identifying; the reckoner's la-stone (བླ་རྡོ, bla rdo), five identifying;
+"clean but not allowed", twenty-six; repairing the traces, six pebbles;
+the last three with three deciding: these can be known by applying them
+in detail to the readings of the results.
+
+Two things follow. The condensing is of the planets-and-mansions count
+(WB's own verse gives that round 1,874 identifying pebbles, vol. 2, p. 50,
+in [reckonings.md](reckonings.md); the notes count 1,828). And the
+deciding pebble of a group here is "is there a fault in it or not": a
+group's verdict is the presence of any one bad factor, as the ground's
+deciding pebble is black "if any of the eight is there" (p. 523).
+
+### 4. The written reckoning (p. 539)
+
+p. 539 (img. 547; Gser thang img. 545, l. 11–27; Yigdzin-1 and MITRA
+part on «ལྷ»/«ལྟ» twice and on «གལ»/«ཞིག»; the reprint has «ལྷ» and
+«གལ»):
+
+> ཐམས་ཅད་ཀུན་ནས་ཤེས་པར་བྱ་དགོས་རྒྱུར། གསོན་གཤིན་གྱི་བྱ་བ་ཅི་ལའང་རྒྱལ་དང་རྒྱལ་སྲས་ཀྱི་བཀའ་རྟེན་འབྲེལ་རྩིས་ལམ་བཞིན་བྱས་ན་ལེགས་ཚོགས་ཆེན་པོ་འབྱུང་ཞིང་མ་བརྩིས་ན་ཕྱིན་ཕྱོགས་ཉེས་པ་ཙམ་གྱིས་ཀྱང་……ཕུང་ཀྲོལ་ཆེན་པོ་མངོན་སུམ་འབྱུང་བས་རྩིས་འདི་གལ་ཆེ་བར་ཤེས་ནས་སྔོན་གྱི་དུས་སུ་བློ་གཙུག་ལག་གི་ལུགས་ལ……གཏད། ཟབ་རིག་བྱེད་ཤེས་པ་ལ་འདྲི་བ་ཡིན་ན་ཡང་། དེང་སང་མི་རྣམས་སྐལ་པ་དང་ཤེས་རབ་ཞན་པའི་སྟབས་ཀྱིས་གསོན་གཤིན་གྱི་བྱ་བ་རྔམ་ཆེན་ཅི་བྱེད་ཀྱང་བརྩིས་མི་རྩི་བའམ། སྤར་སྨེ་གཟའ་སྐར་ཙམ་ཞིག་དཔྱིས་ཕྱིན་པར་བརྩི་མི་ཤེས་པ་ཚིག་ཙམ་གྱིས་བཅོལ་ནས་རྩིས་བྱས་ཟེར་བ་ཙམ་གྱིས་ཆོག་པར་བཟུང་སྟེ་ལུང་ལས་བྱུང་བའི་རྟེན……འབྲེལ་ཚད་ལྡན་མི་བསྒྲིགས་ལ། ཕྱིས་ཉེས་པ་དུ་མས་གཙེས་ཤིང་ཉམས་ཐག་པའི་ཚེ་ཐབས་ཅི་བཙལ་ཡང་དཀའ་བར་འགྱུར་བའི་ཕྱིར། … ལྷ་ཤེས་མཁས་པ་དེ་དག་གིས་ཀྱང་[སླ]་ཆོས་དང་རང་བཟོས་མགོ་སྐོར་སྤུ་ཙམ་མ་འདྲེས་པར་རྩིས་རྒྱས་པ་ལྟར་རྩི་དགོས་པའི་འོས་རྣམས་ལ་གཞུང་ཆེན་པོ་རྣམས་ལས་བྱུང་བའི་རྡེལ་གྲངས་ཆད་ལྷག་མེད་པར་རྩི་ཞིང་། ཁྲ་མ་དང་འབྲས་བུ་བཟང་ངན་རིམ་གྲོ་བཅས་ལུས་པ་མེད་པར་སླར་མཁས་པས་བལྟས་ཀྱང་[སྙད]་འདོགས་མེད་པའི་ཚུལ་དུ་ཤོག་ཁྲར་བཀོད་ནས་དེར་བབས་ཀྱི་རིམ་གྲོ་གཞན་ཐེམས་[ངེས]་སུ་བགྱིད་བཅུག་པ་དང་། ཁྱད་པར་རྩིས་བཅོས་རྣམས་མ་ཚང་བ་མེད་པར་རྩིས་མཁན་ནས་རྒྱུས་ཡོད་བྱས་ལ་གནད་དུ་འགྲོ་ངེས་བྱ་དགོས། དེ་ཙམ་རྒྱས་པར་མི་ལྕོགས་པའི་རིགས་ལ་གནད་ཆེན་གལ་འགག་བསྡུས་ནས་ཇི་ལྟར་རིགས་པར་བརྩིས་པའི་ཤོག་ཁྲ་རྩིས་བྱང་བྱས་ནས་སྦྱིན་བདག་ལ་གཏད།
+
+Since all of it must be known thoroughly: in any work for the living or
+the dead, done by the reckoning's path of interdependence that the
+Victors and their heirs taught, great good comes; unreckoned, even a
+mere fault in the direction one goes brings great ruin before one's
+eyes. Knowing this reckoning to matter, people of old set their minds on
+the *Gtsug lag*'s way and asked those who knew the deep science. Today,
+their fortune and wisdom weak, people do not reckon whatever great work
+for the living or the dead they do, or, not knowing how to reckon even
+the trigram, mewa, planets and mansions to the end, they hand it over in
+a few words and take "a reckoning was made" as enough, and they do not
+arrange the proper interdependence that comes from scripture; later,
+pressed by many faults and worn out, whatever means they seek is hard.
+… And the learned who know the gods [of the time], free of the least
+mixture of [?] doctrines and invented trickery, for those cases that
+must be reckoned in full, reckon the pebble counts that come from the
+great treatises with nothing missing or extra; set out on a sheet
+(ཤོག་ཁྲ, shog khra; the word the notes also use for a chart sheet, the
+month wheel's, p. 531) the chart (ཁྲ་མ, khra ma) and the results, good
+and bad, with the rites, leaving nothing out, so that a learned man
+looking at it later finds nothing to fault; have the rites that fall
+there done, the other kinds [without fail]; and above all the reckoner
+must see to it that the reckoning's remedies (རྩིས་བཅོས, rtsis bcos) are
+complete and sure to reach the point. For the kind who cannot manage so
+much at length, gather the great points and the decisive ones (གནད་ཆེན་
+གལ་འགག, gnad chen gal 'gag), make a written sheet of the reckoning as
+fitting, a reckoning memorandum (རྩིས་བྱང, rtsis byang), and hand it to
+the patron (སྦྱིན་བདག, sbyin bdag).
+
+(«[སྙད]་འདོགས», to find fault, and «ཐེམས་[ངེས]», without fail, are the
+etext's and Yigdzin-1's on the reprint; the eye at 3× sees སྐྱ in the
+first and cannot read the second. «[སླ]་ཆོས» is what the reprint shows
+and Yigdzin-1 reads; its sense is not clear. The omitted lines on the
+reckoner's fee are about offering, not the reckoning.)
+
+### What the notes give, in short
+
+- **The verdict of a set** is the colour that is more among its pebbles,
+  laid as one deciding pebble under them (p. 474; the table of p. 475,
+  every column); the verdicts are what is carried on, a person's
+  twenty-four condensed to four deciding pebbles for the household
+  round (p. 490); a group whose pebbles are "fault or none" has a
+  deciding pebble white when no fault is there and black when any one is
+  (pp. 513, 523). A verdict can also be "half", read middling (p. 488).
+- **A pebble with no fight** is laid white for a good reading and black
+  for a bad one (p. 476).
+- **The readings are written** as the root text gives them, and the
+  verdict laid with them (p. 476).
+- **The count is a frame, not the result**: the starting points' counts
+  are only the places they hold (p. 474); adopting and rejecting as the
+  text says is enough in substance, and the detailed count is for
+  precision (p. 523); a long count such as the planets and mansions'
+  1,828 is "mere elaboration", to be condensed to its essence for
+  practice (p. 513).
+- **The whole** is good and bad with their rites: of twelve deaths
+  eleven come by conditions and can be cleared by rites (p. 499); the
+  parents, children, master and disciples are read against each other
+  (p. 499); for any work the
+  dates' good and bad and the reckonings for each work are to be known
+  (p. 535).
+- **The form a conclusion takes**: a written sheet holding the chart, the
+  results good and bad and the rites, complete enough that a learned
+  reader finds no fault, the rites carried out and the remedies seen to;
+  or, where a full reckoning cannot be done, the great and decisive
+  points gathered into a reckoning memorandum for the patron (p. 539).
+- The notes give no single score or one rule that joins the eight
+  reckonings; each section closes on its own reckoning.
+
+### Open
+
+- Question: in the birth's hundred pebbles the notes lay a son meeting as
+  one black pebble (p. 475), where WB's rule of colour lays a white and a
+  black (vol. 1, p. 417) and the notes elsewhere a speckled one (the
+  illness, p. 495, O19); is p. 475's «བུ་དགྲ་ལ་ནག་པོ་རེ་རེ» the birth's own
+  rule, or a short way of writing that the notes correct elsewhere?
+- Question: what are the two marks of p. 475's worked table, the small
+  circle and the cross; is the circle white?
+- Question: the first row of p. 475's table, «[སོ་སོའི]་རང་རྡེལ», is
+  blotted on both prints; does another print of the notes (Mipham's own,
+  I2029, img. 621–750) read it?
+- Question: which is the right count of the planets-and-mansions round's
+  identifying pebbles, WB's 1,874 (vol. 2, p. 50) or the notes' 1,828
+  (p. 513)?
+- Question: who is "the learned secretary Ratna" (དྲུང་མཁས་པ་[རཏྣ], drung
+  mkhas pa ratna) whose notes Mipham used (p. 538), and does the name
+  read so on another print?
+- Question: does the "collection of the reckoning's deep points and
+  instructions" that p. 538 says is "to be written separately" exist
+  among Mipham's works, and does it say how a reckoning is condensed?
+- Doubts left on the reprint (written as doubts, no agy turn; each
+  stands as the etext or Yigdzin-1 on the reprint reads it): p. 474
+  «[འབྱོར]» (are at hand); p. 523 «[ཡེ]་མཁྱེན» (the all-knowing),
+  «ལེགས་[སྒྲུབ]» (gaining the good); p. 539 «[སྙད]་འདོགས» (finding fault),
+  «ཐེམས་[ངེས]» (without fail), «[སླ]་ཆོས» (doctrines of some kind, sense
+  unclear); p. 538 «[སྔ]་ཕྱིར» (over time), «[རཏྣ]» (the name Ratna).
+
+### Searched and not found
+
+- 2026-10-20, the etext of the notes (vol. 2, img. 482–549) for «བསྡུ»
+  (gather), «སྙིང་པོ» (essence), «དྲིལ» (roll up), «མདོར» (in brief), «གནད»
+  (point), «ལག་ལེན» and «ལག་ཏུ་ལེན» (practice), «རྒྱས་སྤྲོས» (elaboration),
+  «སྤྱི་བསྡོམ» (general sum), «ཟིན་བྲིས» (notes): the condensing of a reckoning is named only on
+  p. 513; «མདོར་ན» elsewhere (pp. 478, 498, 523) sums a passage, not a
+  reckoning; «སྙིང་པོ» besides the title and p. 538 only on p. 503 (a
+  view "without essence") and p. 519 (the eight classes' heart mantras).
+- 2026-10-20, the closes of the eight sections, on the scan: none gives a
+  single verdict or score for a whole reckoning, and none joins two
+  reckonings.
+- 2026-10-20, a form or a model of the written sheet (ཤོག་ཁྲ) or the
+  reckoning memorandum (རྩིས་བྱང) in the notes, by those words in the
+  etext: none beyond p. 539's description; «ཤོག་ཁྲ» elsewhere only for the
+  month wheel's chart sheet (p. 531, twice) and, in the 1996 edition's
+  index after the notes (img. 550, 553), for WB's charts; the notes'
+  worked tables (pp. 475, 489, 490–491) lay out pebbles, not a
+  conclusion.
 
 
 ## The marriage match concluded (RD21)
