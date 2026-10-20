@@ -2526,3 +2526,35 @@ the text, not about the app.
      What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p.
      495, img. 503), and is it related to p. 419's «བསྔོ»?
      [verdicts.md](verdicts.md), "D16: WB, the notes and the manuals" (O19).
+197. **A son meeting in the birth's hundred pebbles (WB vol. 2, the notes, p. 475, img. 483).**
+     The notes lay a son meeting as one black pebble in the birth's
+     hundred pebbles («བུ་དགྲ་ལ་ནག་པོ་རེ་རེ», p. 475, on both prints),
+     where WB's rule of colour lays a white and a black (vol. 1, p. 417)
+     and the notes elsewhere a speckled one (the illness, p. 495, O19).
+     Is p. 475's line the birth's own rule, or a short way of writing
+     that the notes correct elsewhere? [verdicts.md](verdicts.md),
+     "Mipham's notes on condensing" (RD26).
+198. **The marks of the notes' worked table (WB vol. 2, p. 475, img. 483).**
+     What are the two marks of p. 475's worked table, the small circle
+     and the cross; is the circle white? [verdicts.md](verdicts.md),
+     "Mipham's notes on condensing" (RD26).
+199. **The table's first row (WB vol. 2, the notes, p. 475).**
+     The first row of p. 475's table, «[སོ་སོའི]་རང་རྡེལ», is blotted on
+     both the 1996 print and the Gser thang reprint; does another print
+     of the notes (Mipham's own, I2029, img. 621–750) read it?
+     [verdicts.md](verdicts.md), "Mipham's notes on condensing" (RD26).
+200. **The planets-and-mansions round's identifying pebbles: 1,874 or 1,828 (WB vol. 2, p. 50; the notes, p. 513).**
+     Which is the right count of the planets-and-mansions round's
+     identifying pebbles, WB's 1,874 (vol. 2, p. 50) or the notes' 1,828
+     (p. 513)? [verdicts.md](verdicts.md), "Mipham's notes on
+     condensing" (RD26).
+201. **"The learned secretary Ratna" (WB vol. 2, the notes, p. 538, img. 546).**
+     Who is "the learned secretary Ratna" (དྲུང་མཁས་པ་[རཏྣ], drung mkhas
+     pa ratna) whose notes Mipham used (p. 538), and does the name read
+     so on another print? [verdicts.md](verdicts.md), "Mipham's notes on
+     condensing" (RD26).
+202. **The collection of the reckoning's deep points (WB vol. 2, the notes, p. 538).**
+     Does the "collection of the reckoning's deep points and
+     instructions" that p. 538 says is "to be written separately" exist
+     among Mipham's works, and does it say how a reckoning is condensed?
+     [verdicts.md](verdicts.md), "Mipham's notes on condensing" (RD26).

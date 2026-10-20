@@ -1936,25 +1936,12 @@ reckoner's fee are about offering, not the reckoning.)
 
 ### Open
 
-- Question: in the birth's hundred pebbles the notes lay a son meeting as
-  one black pebble (p. 475), where WB's rule of colour lays a white and a
-  black (vol. 1, p. 417) and the notes elsewhere a speckled one (the
-  illness, p. 495, O19); is p. 475's «བུ་དགྲ་ལ་ནག་པོ་རེ་རེ» the birth's own
-  rule, or a short way of writing that the notes correct elsewhere?
-- Question: what are the two marks of p. 475's worked table, the small
-  circle and the cross; is the circle white?
-- Question: the first row of p. 475's table, «[སོ་སོའི]་རང་རྡེལ», is
-  blotted on both prints; does another print of the notes (Mipham's own,
-  I2029, img. 621–750) read it?
-- Question: which is the right count of the planets-and-mansions round's
-  identifying pebbles, WB's 1,874 (vol. 2, p. 50) or the notes' 1,828
-  (p. 513)?
-- Question: who is "the learned secretary Ratna" (དྲུང་མཁས་པ་[རཏྣ], drung
-  mkhas pa ratna) whose notes Mipham used (p. 538), and does the name
-  read so on another print?
-- Question: does the "collection of the reckoning's deep points and
-  instructions" that p. 538 says is "to be written separately" exist
-  among Mipham's works, and does it say how a reckoning is condensed?
+- Open question 197 ([open-questions.md](open-questions.md)): a son meeting in the birth's hundred pebbles.
+- Open question 198 ([open-questions.md](open-questions.md)): the marks of p. 475's table.
+- Open question 199 ([open-questions.md](open-questions.md)): the table's first row.
+- Open question 200 ([open-questions.md](open-questions.md)): 1,874 or 1,828.
+- Open question 201 ([open-questions.md](open-questions.md)): the learned secretary Ratna.
+- Open question 202 ([open-questions.md](open-questions.md)): the collection of the reckoning's deep points.
 - Doubts left on the reprint (written as doubts, no agy turn; each
   stands as the etext or Yigdzin-1 on the reprint reads it): p. 474
   «[འབྱོར]» (are at hand); p. 523 «[ཡེ]་མཁྱེན» (the all-knowing),

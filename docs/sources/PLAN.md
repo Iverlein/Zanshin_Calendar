@@ -698,3 +698,14 @@ Searched and found wanting, so not to be repeated:
   vol. 1, pp. 380–385, on the scan: no «ཁྲ» or «ཕྱེད» as a verdict and no
   reading for a speckled predictive pebble. The notes' pp. 496 and 507 hold
   no stage ranks: SPEC §5.9.1's "pp. 496 and 507" are KD vol. 3's.
+- **Condensing a reckoning in the notes** (RD26, 2026-10-20): the etext of
+  the notes (vol. 2, img. 482–549) for «བསྡུ», «སྙིང་པོ», «དྲིལ», «མདོར», «གནད»,
+  «ལག་ལེན» and «ལག་ཏུ་ལེན», «རྒྱས་སྤྲོས», «སྤྱི་བསྡོམ», «ཟིན་བྲིས»: the condensing of a
+  reckoning is named only on p. 513; «མདོར་ན» elsewhere (pp. 478, 498, 523)
+  sums a passage, not a reckoning; «སྙིང་པོ» besides the title and p. 538
+  only on pp. 503 and 519. The closes of the notes' eight sections, on the
+  scan: none gives a single verdict for a whole reckoning, and none joins
+  two reckonings. No form or model of the written sheet (ཤོག་ཁྲ) or the
+  reckoning memorandum (རྩིས་བྱང) beyond p. 539's description; «ཤོག་ཁྲ»
+  elsewhere only for the month wheel's chart sheet (p. 531) and, in the
+  1996 edition's index (img. 550, 553), WB's charts.
