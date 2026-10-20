@@ -283,7 +283,102 @@ Nothing read yet: RD18's passages, with the English beside them, go here.
 
 ## The year of age gathered: the four classes and the household (RD20)
 
-Nothing read yet: RD20's passages, with the English beside them, go here.
+Read 2026-10-20 on the scan: WB vol. 1, p. 385 (img. 395), l. 15–18, on
+the 1996 scan; the notes' section 2 (vol. 2, pp. 489–495, img. 497–503)
+on the Gser thang reprint (I3CN5029 img. 495–501), with Yigdzin-1, MITRA
+and the 1996 scan beside it. The passages, whole, with their English, are
+in [year-of-life.md](year-of-life.md), section *The year of age
+gathered: the four classes and the household (RD20)*; what the year of
+age gives for each step of the ladder above is here.
+
+**Step 2, the verdict of an aspect.** Mipham's (མི་ཕམ, mi pham) notes' line found in the etext
+(*Found 2026-10-20*, "the year of age, the notes' verdict") reads on the
+scan (vol. 2, p. 490, img. 498, l. 6–8):
+
+> རྡེའུ་བོར་ལུགས་གཞུང་བཞིན། ཁ་དམར་ནི་མ་འཕྲད་དཀར་གསུམ་ལྟ་བུའང་གཅིག་ལ་བརྩི། དགྲ་འཕྲད་ནག་གཉིས་ཀྱང་སོ་སོར་མི་བརྩི་བར་གནས་དེའི་དཀར་ནག་བསྒྲངས་ལ་དཀར་མང་དཀར་པོ། ནག་མང་ནག་པོ། མཉམ་ན་ཁྲ་བོ་བཞག
+
+The pebbles laid as the root text says; for the verdict (ཁ་དམར, kha dmar),
+even a mother meeting's three white count as one, and an enemy meeting's
+two black are not counted separately: the white and black of each place
+counted, more white a white, more black a black, even a speckled one
+(ཁྲ་བོ, khra bo) laid. The etext drops «ནི་མ་འཕྲད་དཀར»: it is the mother
+meeting's three that count as one. The places are the six against which
+each aspect is fought (p. 490, l. 1–5): the current year, the progressed
+sign, the trigram of the year, the mewa of the year, the sectors and the
+hour of reckoning; the la (བླ, bla) is laid the same way from the natal
+mewa, six pebbles and a verdict of its own. The notes' worked example
+(p. 489, img. 497, a table) shows it in five rows, vitality, body, power,
+luck and la, six places each and a last column, the deciding pebble
+(བཏང་གཅོད, btang gcod): the four aspects white, the la black. No row ties,
+and each row comes out the same whether a place counts once or every
+pebble counts: the example does not settle open question 167 (RD18's).
+
+**Step 3, the set, and the gathering.** WB closes the general verdicts
+(vol. 1, p. 385, img. 395, l. 15–17, on the scan):
+
+> གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས། །སྨེ་སྤར་ལ་སོགས་ཀེག་མང་ཡང་། །མདོར་བསྡུས་སྲོག་ལུས་དབང་ཐང་དང་། །ཀླུང་རྟ་བཞི་ཡིན་དེ་བས་ན། །ཁྱད་པར་སྡེ་བཞིའི་ཁ་དམར་བསྡུས།
+
+Lay other verdicts as each case fits; though the obstacles (ཀེག, keg) of
+the mewa, the trigram and the rest are many, in brief they come to four,
+vitality, body, power and luck; therefore, above all, the verdicts of the
+four classes (སྡེ་བཞི, sde bzhi) are gathered. So the year of age's
+conclusion is the four aspects' verdicts, read as a set (all four white,
+all four black, pp. 384–385), and every other obstacle is read
+through them. The notes do that obstacle by obstacle (vol. 2, pp.
+492–495, on the scan): a harsh year (རྩུབ་པ, rtsub pa) is harsh or not "by
+fighting that year against one's own year's vitality and the rest"
+(«རྩུབ་རིགས་འདི་ལ་ལོ་དེ་དང་རང་ལོའི་སྲོག་སོགས་འཐབས་པས་བྱེ་བྲག་ཏུ་རྩུབ་མི་རྩུབ་ཤེས་པ་ཀུན་ལ་གལ་ཆེ», p. 492); a tomb year
+(དུར་ལོ, dur lo) met by the vitality and the rest is the own tomb meeting
+itself, the slayer's tomb meeting the enemy, "a great danger", and "a small
+one" as mother, friend or son (p. 493); the four undertakers (དུར་མི་བཞི,
+dur mi bzhi) bad "when they meet the one reckoned's vitality and the rest
+as enemy" (p. 494); the *dza zor* (ཛ་ཟོར, dza zor) "if it does not cut the
+vitality, there seems to be no fault" («སྲོག་མི་བཅད་ན་ཉེས་པ་མེད་འདྲའོ», p. 494); the
+nine-multiples' tomb years «རང་དགྲ་ངན་གཞན་འཇམ», itself or the enemy bad, the
+others mild (p. 494); the vitality first throughout.
+
+**Step 4, whose aspect.** WB, pp. 415–416, quoted in year-of-life.md (*The tomb sign*). The same lines
+follow WB's sentence on the household's general pebbles directly
+(p. 415, img. 425, l. 25): «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།», the
+household's general pebbles: of white and black, black the more; their
+rites are most precious (which pebbles, and whether the black's majority
+is a condition or a statement, is a question below).
+
+**The household.** WB's round for a household (རྒྱ་ནག་རྡེལ་སྐོར, rgya nag rdel
+skor; pp. 385–387) takes each member's four gathered verdicts and a
+pebble of the mewa of the year, lays all members in one row, folds it
+and reads each place by the colour that falls there; the notes (pp.
+490–491, on the scan, with a layout of five members and its fold, read
+cell by cell) reject reckoners who skip the twenty-four and lay only the
+four meetings with the current year («གཞུང་འདིར་དེ་ལྟར་མི་མཛད་དོ», "this text does not
+do so"). The household's own verdicts are then: the leftover of the
+house's place (two white good fortune, white and black mixed, one black
+illness, two black a death, p. 386); many members on one trigram (pp.
+396–400) or one mewa colour («སྤྱི་ཡི་ཁ་དམར», p. 407); the general pebbles
+(p. 415); with the rites for the household's trigrams and for each
+member's four aspects (p. 386). No single score for the house beyond
+these.
+
+**In sum.** For one person the year of age gathers in WB's own order:
+the four aspects' verdicts; the set they make; the obstacles of the year
+read through the aspect each one meets and cuts, the vitality first, an
+obstacle that cuts no aspect not counted against the year (the notes,
+pp. 492–495); whose aspect matters; and the aspects' remedies. For a
+household the round needs every member's year of birth, gender and order
+of birth ([year-of-life.md](year-of-life.md), RD14); its verdicts are by
+place and colour, not a sum.
+
+### Open
+
+The questions this reading raises (the household's general pebbles, "other
+verdicts as each case fits", a son meeting under the notes' rule) are under
+*Open* in year-of-life.md's RD20 section, to be numbered once.
+
+### Searched and not found
+
+- See year-of-life.md, *The year of age gathered* (RD20), *Searched and
+  not found*: «སྡེ་བཞིའི་ཁ་དམར» only on vol. 1, p. 385; «བཟའ་ཚང་སྤྱི་རྡེལ» only on
+  p. 415; no single household verdict in ch. 24 or the notes' section 2.
 
 
 ## The birth read whole: its sets, its twenty-one children, its close (RD19)

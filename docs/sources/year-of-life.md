@@ -2305,4 +2305,317 @@ Nothing read yet: RD19's passages, with the English beside them, go here.
 
 ## The year of age gathered: the four classes and the household (RD20)
 
-Nothing read yet: RD20's passages, with the English beside them, go here.
+How ch. 24 and its notes bring the year of age's many obstacles down to
+verdicts, for one person and for a household. What the sections above
+already settled is cited, not repeated: the general verdicts of pp.
+381–385 (*The obstacle years*, read by O10d), the household's pebbles of
+pp. 385–387 (img. 395–397), the piled trigrams of pp. 396–400 (img.
+406–410) and the household's mewa of pp. 407–409 (img. 417–419) (*The obstacles that need other people (RD14)*), and the
+household's general pebble and whose aspect matters of pp. 415–416
+(img. 425–426; *The tomb sign*, *The year sheet read for action*).
+
+**How read (2026-10-20).** WB vol. 1, p. 385 (img. 395), l. 15–18, read
+again on the 1996 scan at 3×. The notes' section 2 (vol. 2, pp. 489–495,
+img. 497–503): Yigdzin-1 (RD14's reading), MITRA over img. 497–503 in this
+reading (it returned nothing for img. 499), `disagree.py` over img. 498 and
+500–503; every passage quoted below read line by line on the Gser thang
+reprint (I3CN5029 img. 495–501, 1905 px wide; its pages carry the 1996
+edition's typesetting and page numbers, p. 489 on its img. 495), the two
+tables of pp. 489–491 cell by cell on the reprint and the first against
+the 1996 scan (img. 497). Every flag inside the quoted lines was MITRA's
+slip but two of Yigdzin-1's: «རྔ་ཟོར» for the print's «ཛ་ཟོར» (p. 494, as
+above), and «རང་དགུ» for the print's «རང་དགྲ» (p. 494, l. 27, where MITRA
+read the same and nothing was flagged).
+
+### The four classes' verdicts gathered (p. 385)
+
+WB vol. 1, p. 385 (img. 395), l. 15–18, read on the scan; the close of the
+general verdicts, after all four aspects black, and the opening of the
+household's round:
+
+> ཐམས་ཅད་ནག་ན་ཤིན་ཏུ་ངན། །མིང་སྤོ་ཚེ་སྒྲུབ་ཚེ་དབང་ཞུ། །འཁོར་གསུམ་ཡོངས་སྤང་སྦྱོང་དག་བྱ། །གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས། །སྨེ་སྤར་ལ་སོགས་ཀེག་མང་ཡང་། །མདོར་བསྡུས་སྲོག་ལུས་དབང་ཐང་དང་། །ཀླུང་རྟ་བཞི་ཡིན་དེ་བས་ན། །ཁྱད་པར་སྡེ་བཞིའི་ཁ་དམར་བསྡུས། །གཞན་ཡང་ཁྱིམ་གཅིག་བཟའ་མི་གྲངས། །མང་ཚོགས་ཁ་དམར་གཅེས་པ་ཡི། །རྒྱ་ནག་རྡེལ་སྐོར་ཞེས་བྱ་བ། །བཟའ་ཚང་ཁྱིམ་གཅིག་མི་དུ་ཡོད། །སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་གི། །བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ་དང་། །སྨེ་བ་ཁམས་རྡེལ་ལྔ་བོར་ལ། …
+
+All four black: very bad; change the name, practise for long life,
+receive a longevity empowerment, purify wholly. Lay other verdicts (ཁ་དམར,
+kha dmar) as each case fits. Though the obstacles (ཀེག, keg) of the mewa
+(སྨེ་བ, sme ba), the trigram (སྤར་ཁ, spar kha) and the rest are many, in
+brief they come to four, vitality (སྲོག, srog), body (ལུས, lus), power
+(དབང་ཐང, dbang thang) and luck (ཀླུང་རྟ, klung rta); therefore, above all,
+the verdicts of the four classes (སྡེ་བཞི, sde bzhi) are gathered.
+Besides: the Chinese pebble round (རྒྱ་ནག་རྡེལ་སྐོར, rgya nag rdel skor),
+"the verdicts, precious where the members of one house gather": for each
+of a household's members, one deciding verdict pebble (བཏང་གཅོད, btang
+gcod) for each of vitality, body, power and luck, and a pebble of the
+mewa's element, five …
+
+- **The four classes are the four aspects**, named in the line before.
+  WB's etext has «སྡེ་བཞིའི་ཁ་དམར» on this page only (both volumes searched).
+- **The rule is a reduction**: whatever obstacles the year holds, the
+  person's year is read through the four aspects' verdicts. Other
+  verdicts are left to the reckoner ("as each case fits"), and none is
+  given a count.
+- **The household's round takes these gathered verdicts as its input**:
+  the next line lays each member's four deciding pebbles, not their
+  twenty-four. The notes say so in the same verb: the twenty-four of
+  each person "gathered into four deciding pebbles" («བཏང་གཅོད་རྡེའུ་བཞིར་བསྡུས»,
+  p. 490, l. 12, read on the scan by O10d, above).
+
+### The notes: the forty-seven, the twenty-four and the verdict (p. 490)
+
+Mipham's (མི་ཕམ, mi pham) notes (vol. 2, p. 490, img. 498, l. 1–10; the reprint img. 496,
+read on the scan), after the others' secret year (p. 489, quoted under
+RD14 above):
+
+> གྲོགས། བླ་སྲོག་གི་མའོ། །རང་ལུགས་ཀེག་རྩིས་ཞེ་བདུན་མའོ། །དེ་ཡང་གནམ་ལོ་དང་། སྟག་སྤྲེལ་སྦུབ་བཀེན་གྱི་ལོག་མིན། བབ་སྤར། བབ་སྨེ། དར་གུད། རྩིས་བྱེད་དུས་ཀྱི་དུས་ཚོད་དང་དྲུག་ལ། བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབས་པས་གཅོད་འདྲལ་ཉེར་བཞི་འོང་། དེ་ལ་གནམ་ལོ་ལོག་མིན་དུས་ཚོད་གསུམ་གྱི་སྲོག་སོགས་བཞི་ལ་བརྩི་བྱའི་དེ་བཞིས་འཐབ། ལོག་མིན་ནི་བརྩི་བྱའི་དབང་ཐང་གི་བུའི་སྟག་ནས་ཕོ་སྦུབ་དབང་གི་མ་སྤྲེལ་ནས་མོ་བཀེན་པའོ། །སྤར་སྨེའི་ཁམས་རྐྱང་པ་དེར་འཐབ། དར་གུད་ནི་བརྩི་བྱའི་སྲོག་སོགས་བཞིའི་དར་གུད་གནམ་ལོ་ལ་གཏུགས་པའོ། །རྡེའུ་བོར་ལུགས་གཞུང་བཞིན། ཁ་དམར་ནི་མ་འཕྲད་དཀར་གསུམ་ལྟ་བུའང་གཅིག་ལ་བརྩི། དགྲ་འཕྲད་ནག་གཉིས་ཀྱང་སོ་སོར་མི་བརྩི་བར་གནས་དེའི་དཀར་ནག་བསྒྲངས་ལ་དཀར་མང་དཀར་པོ། ནག་མང་ནག་པོ། མཉམ་ན་ཁྲ་བོ་བཞག བླ་རྡེལ་དྲུག་ནི་བླ་ཞེས་སྐབས་འདིར་བརྩི་བྱའི་སྐྱེས་སྨེ་དེས། བརྩི་བྱའི་སྨེ་ཕྲེང་དང་མཐུན་པའི་གནམ་ལོ་ལོག་མིན་དུས་ཚོད་ཀྱི་སྨེ་བ་བབ་སྤར་བབ་སྨེ་ལ་འཐབ། སྨེ་ཁམས་དེའི་དར་རྒུད་གནམ་ལོར་བསྐོར་བའོ། །ལུས་སྐབས་དགྲ་འཕྲད་ཀྱང་མི་གནོད་པ་ཤིང་གཅིག་ས་ལ་མི་གནོད་དེ། ཞེས་སོགས་ཀྱང་དྲན་པར་བྱའོ། །
+
+"… luck the friend, the la (བླ, bla) the mother of the life force: [so
+the others' secret year]. Our own way is the obstacle reckoning of the
+forty-seven. The current year; the progressed sign (ལོག་མིན, log min; the
+root text's ལོག་མེན) of the tiger and monkey counted down and up; the
+trigram of the year of age; the mewa of the year of age; the sectors
+(དར་གུད, dar gud); and the hour at the time of reckoning: against these
+six the vitality, body, power and luck of the one reckoned fight, and the
+twenty-four of cutting and tearing (གཅོད་འདྲལ, gcod 'dral) come. Of them,
+the vitality and the rest, four each, of the current year, the
+progressed sign and the hour fight the one reckoned's four. The
+progressed sign: for a man counted down from the tiger of the son of the
+one reckoned's power, for a woman up from the monkey of the power's
+mother. The trigram's and mewa's single element fights there. The
+sectors are the sectors of the one reckoned's vitality and the rest
+taken to the current year. The pebbles are laid as the root text says.
+For the verdict, even a mother meeting's three white counts as one, and
+an enemy meeting's two black are not counted separately either: the
+white and black of each place are counted, more white a white, more
+black a black, even a speckled one (ཁྲ་བོ, khra bo) laid. The six la
+pebbles (བླ་རྡེལ, bla rdel): here the la is the one reckoned's natal mewa,
+which fights the mewa of the current year, the progressed sign and the
+hour, taken in the mewa line that matches the one reckoned's, and the
+mewa of the trigram and of the year of age; the sectors are the mewa
+element's turned to the current year. In the body's case, that an enemy
+meeting does no harm, 'one wood does not harm earth', and the like, is
+to be remembered too."
+
+The etext's line (verdicts.md, *Found 2026-10-20*) drops «ནི་མ་འཕྲད་དཀར»:
+on the scan it is the **mother meeting's** three white that count as one,
+not any three. Which way the tie falls for the year of age is open
+question 167 (RD18).
+
+### The notes' worked example (p. 489)
+
+At the foot of p. 489 (img. 497; the reprint img. 495), between the close
+of the notes' section 1 («ལས་རྩིས་ཀྱི་སྐབས་སོ།།») and the heading of section 2,
+the notes print a table whose columns are section 2's six (p. 490's list,
+above) and a last column, the deciding pebble. Read cell by cell on the
+reprint and checked on the 1996 scan; ○ a white pebble, × a black one,
+the small figures beside the la's pebbles the mewa numbers and elements
+they were drawn from:
+
+| «བརྩི་བྱ་ལྕགས་འབྲུག» (one reckoned: iron dragon), […] ༦ | «གནམ་ལོ་ཤིང་བྱ།» current year wood bird | «ལོག་མིན་མེ་ལུག» progressed sign fire sheep | «སྤར་ཁ་ས་གིན།» trigram gin | «བབ་སྨེ་ཆུ་གཉིས་ནག» mewa of the year: water, two black | «དར་གུད།» sectors | «དུས་ཚོད་ས་འབྲུག» hour: earth dragon | «བཏང་གཅོད།» deciding pebble |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| «སྲོག་ ས།» vitality earth | ○ × | ○ | ○ | ○ ○ | ○ ○ | ○ | ○ |
+| «ལུས་ ལྕགས།» body iron | ○ × | ○ × | ○ ○ ○ | ○ × | ○ ○ ○ | ○ ○ | ○ |
+| «དབང་ ལྕགས།» power iron | ○ ○ | × × | ○ ○ ○ | ○ × | ○ ○ ○ | ○ ○ ○ | ○ |
+| «ཀླུང་ ཤིང་།» luck wood | ○ ○ ○ | ○ × | ○ ○ | ○ ○ ○ | ○ × | × | ○ |
+| «བླ་རྡེ་སྐྱེས་སྨེ་ མེ། ༩» la pebble: natal mewa, fire, nine | ○ ○ ○ (༤ ཤིང) | × (༩ མེ) | ○ × | × × (༢) | × × («དར་གུད་ གནམ་[…]») | × × (༢ ཆུ) | × |
+
+- The pebbles follow the colours of p. 380 (mother three white, friend
+  two, son white and black, enemy two black, earth meeting earth one
+  white, fire meeting fire one black): the vitality's earth meets the
+  trigram gin's earth, one white; the body's iron meets earth, its
+  mother, three white; the la's fire meets the progressed sign's mewa
+  nine, fire, one black. The example's signs come out of WB's rules for
+  a man of an iron dragon year in his **sixth** year with the natal mewa
+  nine: the progressed sign counted down from the water tiger reaches the
+  fire sheep, the trigram from li (ལི, li) reaches gin (གིན, gin), and the mewa of the year
+  is the two black. The figure under «ལྕགས་འབྲུག» is ༦ (the shape of the ༦ in
+  p. 490's table); the letter before it is not clear at the reprint's
+  size.
+- **Each aspect gets one deciding pebble, and so does the la.** Here the
+  four aspects are white and the la black. Every row comes out the same
+  whether a place counts once (the notes' rule) or every pebble counts,
+  and no row ties: the example settles neither question 167 nor how a
+  son meeting (white and black) is counted under the notes' rule.
+
+### The household's round laid out (pp. 490–491)
+
+After the procedure (p. 490, l. 10–20, quoted under RD14 above), the
+notes lay out a household of five (vol. 2, p. 490, img. 498; the reprint
+img. 496): one column for each member, the eldest man on the left, and
+in each the order in which the pebbles are taken, the vitality and body
+rows exchanged as the oral instruction says. Read cell by cell on the
+reprint:
+
+| | 1st member | 2nd | 3rd | 4th | 5th |
+| --- | --- | --- | --- | --- | --- |
+| «ལུས» body | ༡ | ༡༡ | ༢༡ | ༢༠ | ༡༠ |
+| «སྲོག» vitality | ༣ | ༡༣ | ༢༣ | ༡༨ | ༨ |
+| «དབང» power | ༥ | ༡༥ | ༢༥ | ༡༦ | ༦ |
+| «ཀླུང» luck | ༧ | ༡༧ | ༢༤ | ༡༤ | ༤ |
+| «སྨེ་བ» mewa | ༩ | ༡༩ | ༢༢ | ༡༢* | ༢ |
+
+The footnote: «* མི་ངོ་ལྔ་ལ་དཔེར་བྱས་པ་དང་པོ་རྐྱང་ལུགས།», "five people as the example: the
+first, plain laying" (the star stands at the fourth member's mewa). The
+count runs from the eldest man's body (1) to the youngest's mewa (2) and
+back, the outer pair first, then the next pair, the middle member last:
+the zigzag of the root text («གསེགས་རྡར»). Then the fold (p. 491, img. 499;
+the reprint img. 497, a table at the head of the page):
+
+| ༡ «ལྷ་ས་དང་པོ» god's place, first | ༢ «བར་པ» middle | ༣ «གསུམ་པ» third | ༤ | ༥ | ༦ «ལྷ་ས་ཐ་མ» god's place, last | |
+| --- | --- | --- | --- | --- | --- | --- |
+| ༢༥ «མི་ས» people's place | ༢༤ | ༢༣ | ༢༢ | ༢༡ | ༢༠ | «ཁུག་པའི་རྡེལ་རོ» the fold's leftover: ༡༣ |
+| ༡༤ «ཁྱིམ་ས» house's place | ༡༥ | ༡༦ | ༡༧ | ༡༨ | ༡༩ | «ཡང་ཁུག་རྡེལ་རོ» the refold's leftover: ** |
+| ༡༢ «དགྲ་ས» enemy's place | ༡༡ | ༡༠ | ༩ | ༨ | *༧ | |
+
+Footnotes: «* ཁུག་པ་ཡང་ཁུག་གི་རྡེལ་རོ་འགྲེམ་ལུགས།» (the star at ༧; the
+last word read so, not clear at the reprint's size) and «** ད་ལྟ་ཡང་ཁུག་རྡེལ་རོ་མེད།»,
+"here there is no leftover of the refold". A box above the fourth and
+fifth columns reads «ཕྲེང་འདི་[…]་དོར།», "this row … cast off" (the middle
+word not settled). Twenty-five pebbles fold into four rows of six with
+one left over, the thirteenth.
+
+The text under the tables (p. 491, img. 499, l. 3–17; the reprint img.
+497, read on the scan):
+
+> འོག་དང་པོའི་ཐ་མ་བཞག་པ་སོགས་ཇི་སྲིད་སྟེང་འོག་བཞི་ཕྲེང་དུ་མཉམ་པ་སྲིད་དུ་བཀུག་པ་ལ་ཡང་ཁུག་ཟེར། དེ་ལས་གཉིས་ལྷག་ན་ནི་རྡེལ་རོ་ཟེར་ཏེ། རྡེལ་ཕྲེང་གི་ཕྱི་ལོགས་ངོས་སུ་ཟུར་དུ་བཞག་གོ །དེ་ནས་དང་པོ་ནས་མར་བརྩིས་པའི་སྟེང་འོག་གི་རྡེལ་ཕྲེང་གསུམ་དང་། ཐ་མའི་རྡེལ་ཕྲེང་མ་གཏོགས་དེའི་བར་ན་དུ་ཡོད་ཡུག་གཅིག་དོར་བར་བྱའོ། །དེའི་སྟེང་གི་རྡེལ་ཕྲེང་ལྷ་ས་གསུམ་དང་། དེའི་ཐ་མ་ཡིན། དེ་འོག་མི་ས། དེ་འོག་བཞི་ཁྱིམ་དང་ནོར་ས། ཕྲེང་ཀུན་གྱི་འོག་མ་དགྲ་ས་སྟེ། དེ་དག་རྡེལ་རོ་དང་བཅས་པའི་ཁ་དམར་གཞུང་བཞིན་ནོ། །རྩིས་པ་འགའི་ཞལ་ཤེས་ལ་བྱེས་སོགས་སུ་བྲང་ཁ་དེར་ཚོགས་ཚད་དང་། ལོ་དེར་ཁྱིམ་དུ་ཚོགས་ཚད་ལའང་བརྩི་བར་མཛད། གནམ་ལོའི་སྲོག་སོགས་བཞི་པོ་ཁོ་ན་དང་འཐབ་པའི་རྡེལ་བཞི་བབས་སྨེ་བཅས་ལྔ་པོ་ལས་ཉེར་བཞིའི་བཏང་གཅོད་མི་དགོས་པར་བརྩི་བའང་སྣང་། གཞུང་འདིར་དེ་ལྟར་མི་མཛད་དོ། །དོན་འདྲ་ཡང་མི་ངོ་རྣམས་ཀྱི་རྡེའུ་གྲངས་གསུམ་གྱིས་བགོས་པས་གཅིག་ལྷག་ན་ཁུག་པའི་རྡེལ་ལྷག་སྟེ་ལྷ་ས་མི་སའི་རྡེལ་རོ་ཡིན། གཉིས་ལྷག་ན་ཡང་ཁུག་གི་རྡེལ་རོ་སྟེ་ཁྱིམ་སའི་རྡེལ་རོ་ཡིན་ནོ། །གསུམ་ལྷག་ན་གཅིག་ཁུག་པ་གཉིས་ཡང་ཁུག་གིའོ། །འདི་ལ་བུམ་བཟང་སོགས་སུ་ཁུག་པ་དང་ཡང་ཁུག་གི་རྡེལ་རོ་ནོར་འདུག གཉིས་དང་གཅིག་ལྷག་ན་ཡང་ཁུག་མེད་ཅེས་པའང་རྩིང་སྟེ། གཉིས་ལྷག་ན་ཁོ་རང་གི་ལུགས་ཀྱི་ཁུག་པ་ཡིན་ཞིང་ཡང་ཁུག་མེད་མོད། ལུགས་དེའི་ཁུག་པར་གཅིག་འོང་མི་ཤེས་ཏེ་གཅིག་ལྷག་ན་ཡང་ཁུག་ཡིན་དགོས་ལ། དེ་མིན་ན་གསུམ་ལྷག་ཀྱང་ཁུག་པར་བྱས་ན་ཅི་འགལ་དེ་དེ་ལྟར་མི་འོང་བའི་གནད་བཤད་དགོས་སོ། །དེས་ན་རང་ལུགས་ཁུག་པའི་རྡེལ་ལྷག་ལ་གཅིག་ཁོ་ན་དང་། ཡང་ཁུག་ལ་གཉིས་འོང་གི་གཞན་འོང་བ་མི་སྲིད་དེ། གོ་བ་ཉིས་རྐྱ་དང་བཞི་རྐྱ་ལྟ་བུ་བྱས་པའི་དབང་གིས་སོ། །
+
+"… placing the last under the first of the lower row and so on, folding
+while the upper and lower rows stay equal in four rows, is called the
+refold (ཡང་ཁུག, yang khug); two left over from it are the leftover (རྡེལ་རོ,
+rdel ro), set apart at the outer side of the rows. Then, apart from the
+three rows counted down from the first and the last row, whatever lies
+between is cast off in one length. The top row: the three god's places
+(ལྷ་ས, lha sa) and its last; below it the people's place (མི་ས, mi sa); below
+that the house's (ཁྱིམ་ས, khyim sa) and the wealth's place (ནོར་ས, nor sa);
+the lowest of all the rows the enemy's place (དགྲ་ས, dgra sa): their
+verdicts, with the leftovers, are as the root text says. Some reckoners'
+oral advice counts also all gathered at that place abroad and all
+gathered in the house that year. Some are seen to count, without the
+twenty-four's deciding pebble, five pebbles only: the four fought
+against the current year's vitality and the rest, with the mewa of the
+year. **This text does not do so.** Though it comes to the same, divide
+the members' count of pebbles by three: one left, it is the fold's
+leftover, the leftover of the god's and people's place; two left, the
+refold's leftover, the house's place's; three left, one of the fold and
+two of the refold. Here the *Good Vase* (བུམ་བཟང, bum bzang; a work the notes name, not identified here) and others
+have the fold's and the refold's leftovers mixed up, and to say that
+with two or one left there is no refold is coarse … So in our way the
+fold's leftover is only one and the refold's two, never another, because
+the rows are doubled and quadrupled."
+
+So the household's round reads **each member's four gathered verdicts and
+the mewa of the year**, not the year's raw meetings: the notes reject the
+shortcut that skips the twenty-four. The round's places are then read by
+the colour that falls there, and its single household verdict is the
+leftover's in the house's place (p. 386, quoted under RD14 above:
+«ཁྱིམ་སའི་རྡེལ་རོའི་ཁ་དམར་ནི། །དཀར་པོ་གཉིས་ཀྱིས་བཀྲ་ཤིས་ཐོབ། །དཀར་ནག་གཉིས་བྱུང་རྒྱ་འདྲའི་ངོ། །ནག་པོ་གཅིག་བྱུང་ན་ཚའི་ངོ། །ནག་གཉིས་ལ་ནི་ཤི་ཆད་ངོ།», two white good
+fortune, white and black mixed, one black illness, two black a death),
+followed by the rites «བཟའ་ཚང་སྤར་ཁའི་རིམ་གྲོ་སོགས། །ལུས་སྲོག་དབང་ཀླུང་བཞི་པོ་ལ། །གསོ་བསྐྱེད་རིམ་གྲོ་འབོགས་པ་ཡིན།»,
+"the household's trigram rites and the like, and for the four, body,
+vitality, power and luck, rites that restore and raise them".
+
+### The notes weigh each obstacle against the person's four (pp. 492–495)
+
+The notes read the harsh years, the tombs, the undertakers and the *dza
+zor* (ཛ་ཟོར, dza zor) by fighting the obstacle's year against the one
+reckoned's own aspects, as a pebble is laid. Read on the scan (the
+reprint img. 498–501):
+
+- The harsh years (རྩུབ་པ, rtsub pa), p. 492 (img. 500), l. 1–6:
+
+  > ཐོག་ཕྱིན་སོགས་ཀྱི་འབྲས་བུ་གཞུང་ན་གསལ། བཅུ་གསུམ་པ་ལུས་ལ་ནད་དང་འབྱོར་བར་དགྲ་སྡང་དུས་ཡིན་པས་ལུས་དབང་ལ་གནམ་ལོས་གཅོད་མིན་བརྟག་ཅེས་སོ། །བདུན་ཟུར་སྤྱི་བྱེ་བྲག་གི་འབྲས་བུ་གཞུང་ན་གསལ། གནམ་ལོ་གཤེད་དུ་གྱུར་ན་གཤེད་ཀྱི་བདུན་ཟུར་དང་། ལོག་མིན་བདུན་ཟུར་གྱུར་ན་དོགས་པའི་བདུན་ཟུར་ཞེས་སོ། །དབང་ཐང་གཅིག་པ་ཁྱིམ་མཚེས་ཀྱི་རྩུབ་པ། མཐུན་གསུམ་རྩུབ་པ་གཞུང་ན་གསལ། རྩུབ་རིགས་འདི་ལ་ལོ་དེ་དང་རང་ལོའི་སྲོག་སོགས་འཐབས་པས་བྱེ་བྲག་ཏུ་རྩུབ་མི་རྩུབ་ཤེས་པ་ཀུན་ལ་གལ་ཆེ། རང་སྲོག་སོགས་ཀྱི་དར་གུད་ཀྱང་རྩུབ་ལོ་དེར་ཁྱེར་བས་ཤེས་སོ། །མཐུན་གསུམ་སྐབས་གུད་ཅེས་པ་འཐབ་ཟླ་དགྲ་ཕྲད་ལ་ཟེར།
+
+  "The results of [the own year] arriving and the like are plain in the
+  root text. The thirteenth is a time of illness to the body and enmity
+  to wealth, so examine whether the current year cuts the body and the
+  power. The seventh's general and particular results are plain in the
+  text: the current year being the slayer, the slayer's seventh; the
+  progressed sign on the seventh, the seventh to be feared. The same
+  power, the neighbours' harshness; the triad's harshness, plain in the
+  text. For these kinds of harshness it matters in every case to know in
+  particular whether the year is harsh or not, by fighting that year
+  against one's own year's vitality and the rest; one's own vitality's
+  and the rest's sectors are known too by carrying them to that harsh
+  year. 'In decline' in the triad means meeting the enemy."
+- The tombs, p. 493 (img. 501), l. 14–17:
+
+  > དེའི་ནང་གི་ཞེ་ལྔ་གྱ་གཅིག་སོགས་གྲངས་ཀྱི་དགུ་མིག་དང་འདོམས་ན་དགུ་དུར་སྦྲགས་མའོ། །དེ་ལའང་སྲོག་སོགས་ལྔ་དུར་ཞུགས་སོ་སོའོ། །སྦྲགས་མའི་དུར་ཆེན་སྐབས་བླ་སྲོག་དུར་ཞུགས་ཀྱང་ཟེར། དུར་ལོ་དེ་དང་བརྩི་བྱའི་སྲོག་སོགས་འཐབས་པས་ནང་འཕྲད་རང་དུར། དགྲ་འཕྲད་གཤེད་དུར་ཏེ་ཉེན་ཆེ། མ་གྲོགས་བུ་གསུམ་ཉེན་ཆུང་ངོ། །དུར་ཆུང་ལ་བབ་ཀྱང་དེ་བཞིན་བརྩི་སྟེ།
+
+  "Where the 45th, the 81st and the like among them meet the
+  nine-multiple (དགུ་མིག, dgu mig) of the count, it is the combined
+  nine-and-tomb; there too each of the five, vitality and the rest,
+  enters the tomb on its own. At the combined great tomb, some say the
+  la's life force enters the tomb. Fighting that tomb year (དུར་ལོ, dur lo)
+  against the one reckoned's vitality and the rest: meeting itself, its
+  own tomb (རང་དུར, rang dur); meeting the enemy, the slayer's tomb (གཤེད་དུར,
+  gshed dur), a great danger; mother, friend or son, a small one. Falling
+  on the small tomb is counted the same way."
+- The four undertakers and the *dza zor*, p. 494 (img. 502), l. 11–18:
+
+  > དུར་མི་བཞི་ནི་གཤེད་བཞི་རང་རང་གི་དབང་ཐང་དུར་སོང་ཆུ་འབྲུག་ལྟ་བུ་སོགས་བཞི་དངོས་བསྟན་ལྟར་ལ། སྤྱིར་འབྱུང་ལྔའི་དུར་ལོ་བཞི་དང་ཁྱད་པར་ཆུ་འབྲུག་སོགས་ལོ་དང་ལོག་མིན་ལ་ཤར་བ་ལ་ངན་ཅིང་། དེ་ཡང་གཙོ་བོར་སྲོག་དང་། རྒྱས་པར་ལུས་དབང་ཀླུང་བླ་ལྔར་ཡང་སྦྱར་ཞེས་བཤད། དུར་མི་བཞི་དང་བརྩི་བྱ་སྲོག་སོགས་དགྲར་ཐུག་ན་ངན་ནོ། །སྐོར་མགོ་བྱི་སོགས་ནི་གོང་གི་རྐྱང་པའི་སྐོར་མགོ་དེ་འདིར་ངོས་བཟུང་པ་ཙམ་དུ་ཟད། ཛ་ཟོར་དགུ་མིག་ནི་བརྩི་བྱའི་ལོ་ནས་ཡར་ལྔ་ལ་གནམ་ལོ་ཡོད་ཅིང་དེས་མར་ལྔ་ལ་ཡོད་རྒྱུའི་བརྩི་བྱ་ལ་གནོད་པ་སྟེ་སྲོག་གཙོ་བོར་བཟུང་ཞིང་ལུས་སོགས་གཞན་གཅོད་ཀྱང་ལྷག་པར་ངན། དོན་དུ་ཡར་གྱི་མཐུན་གསུམ་གནམ་ལོར་ཤར་ནས་དེས་བརྩི་བྱ་ལ་གནོད་པ་ཡིན་པར་གྱུར་པ་སྟེ་དེ་དུས་གྲངས་ཀྱི་དགུ་མིག་དང་འདོམས་ན་ཛ་ཟོར་དགུ་མིག་དང་། མ་འདོམས་ན་ཛ་ཟོར་ཙམ་དང་། སྲོག་མི་བཅད་ན་ཉེས་པ་མེད་འདྲའོ། །
+
+  "The four undertakers (དུར་མི་བཞི, dur mi bzhi) are the four slayers
+  whose own power has gone to the tomb, the water dragon and the rest, as
+  the text shows; in general the five elements' four tomb years, and above
+  all the water dragon and the rest, are bad when they rise as the year or
+  the progressed sign; mainly for the vitality, and in full applied to the
+  five, body, power, luck and la, it is said. When the four undertakers
+  meet the one reckoned's vitality and the rest as enemy, it is bad. …
+  The *dza zor* nine-multiple: the current year five up from the one
+  reckoned's year harms the one reckoned, who is five down from it; the
+  vitality is taken as the chief, and if it cuts the body and the others
+  too, it is worse. In fact the upper triad rising as the current year
+  harms the one reckoned: if it then meets the nine-multiple of the count,
+  it is the *dza zor* nine-multiple; if not, the *dza zor* alone; and if it
+  does not cut the vitality, there seems to be no fault."
+- The tomb years of the nine-multiples, p. 494 (img. 502), l. 26–27:
+  «གོང་གི་རྐྱང་སྦྲགས་ཀྱི་དུར་ལོ་གང་བྱུང་དེའི་དབང་ཐང་ལ་བརྩི་བྱའི་སྲོག་སོགས་ལྔས་འཐབས་པས། རང་དགྲ་ངན་གཞན་འཇམ།»,
+  whatever tomb year of the single and combined counts comes, the one
+  reckoned's five, vitality and the rest, fight its power: itself or its
+  enemy, bad; the others, mild. And at the close of the section (p. 495,
+  img. 503, l. 3–4), of the combined nine-multiples of the mouse, pig and
+  four slayers: «འདི་སྐབས་སྲོག་ཁམས་ལ་གཙོ་བོར་བཟུང་བའོ། །… ཀེག་རྩིས་སྐབས་སོ།།», "here the
+  vitality's element is taken as the chief. … The section on the
+  obstacle reckoning."
+
+So the notes give one method for every obstacle of the year: its year's
+element met against the person's own vitality, body, power, luck (and
+la), the meeting read as a pebble is (itself or the enemy bad, mother,
+friend or son mild), the vitality first; an obstacle that cuts no aspect,
+the *dza zor*'s case, "seems to be no fault". That is p. 385's "the four
+classes' verdicts gathered" worked out obstacle by obstacle.
+
+### For one person and for a household
+
+| | One person | A household |
+| --- | --- | --- |
+| What is counted | the twenty-four meetings of the six with the four aspects, and the la's six (notes p. 490) | each member's four deciding pebbles and a pebble of the mewa of the year, all members laid in one row (WB p. 385; notes pp. 490–491) |
+| The verdict | per aspect, by place: more white a white, more black a black, even a speckled one (notes p. 490; WB p. 381 has "whichever are more", question 167) | per place of the round, by the colour that falls there; the house's leftover by its two pebbles (WB pp. 385–387) |
+| The set | all four white, all four black (pp. 384–385) | many members on one trigram (pp. 396–400), on one mewa colour (pp. 407–408, «སྤྱི་ཡི་ཁ་དམར»); the household's general pebbles, black more, their rites precious (p. 415) |
+| Obstacles | read through the four: each obstacle's year fought against the aspects, the vitality first (notes pp. 492–495) | the members' obstacles that need each other (RD14 above) |
+| Whose aspect | the man in his prime the vitality, the young the body, women the power, the noble and learned the luck (pp. 415–416) | the same line follows the household's general pebbles directly (pp. 415–416) |
+| Remedies | each aspect's (pp. 381–385), the four declines (p. 409) | the places' rites by colour; the household's trigram rites and each member's four restored and raised (p. 386) |
+
+### Open
+
+- Question: WB vol. 1, p. 415 (img. 425, l. 25), «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»: which pebbles are "the household's general pebbles" (བཟའ་ཚང་སྤྱི་རྡེལ, bza' tshang spyi rdel), the round's of p. 385, all members' four verdicts together, or another count; and is "of white and black, black the more" a condition (where black are more, their rites matter most) or a statement (in a household black usually outnumber white)? The notes' section 2 does not comment on the line.
+- Question: WB vol. 1, p. 385, «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།», "lay other verdicts as each case fits": are the verdicts of the mewa, the trigram and the other obstacles laid besides the four aspects' and read on their own, or only folded into the four, as the next lines say ("in brief they come to four")?
+- Question: the notes' rule (vol. 2, p. 490), "even a mother meeting's three white count as one, an enemy meeting's two black are not counted separately": how is a son meeting (one white and one black) counted in a place, one of each or neither? The notes' example (p. 489) comes out the same either way.
+- Doubt (scan): p. 489 (img. 497; the reprint img. 495), the table's first heading, the letter before ༦ under «བརྩི་བྱ་ལྕགས་འབྲུག»; the signs fit a man in his sixth year. And the la row's sectors cell, «དར་གུད་ གནམ་[…]», its last word not settled at the reprint's size.
+- Doubt (scan): p. 491 (img. 499; the reprint img. 497), the box «ཕྲེང་འདི་[…]་དོར།» above the fold's table, its middle word; and the footnote's last word «འགྲེམ་ལུགས», read so.
+
+### Searched and not found
+
+- «སྡེ་བཞིའི་ཁ་དམར», the four classes' verdicts: in WB's etext (both volumes) only on vol. 1, p. 385; the notes do not gloss it (2026-10-20).
+- «བཟའ་ཚང་སྤྱི་རྡེལ», the household's general pebbles: only on vol. 1, p. 415 (img. 425, l. 25; read on the scan by O10d); no comment in the notes' section 2 (pp. 489–495, Yigdzin-1 and the etext, 2026-10-20).
+- A single verdict for a whole household beyond the leftover of the house's place (p. 386) and the general readings of trigrams and mewa: none in ch. 24 (pp. 385–416) or the notes' section 2 (2026-10-20).
+
+### Found in passing (etext only, for other readings)
+
+- The notes' section 1 (vol. 2, p. 478, img. 486) reads the clan's sectors
+  against each household member's year: many taking breath, many of the
+  mouse year, many with power in decline, "the god of fortune spoiled";
+  "joining intelligence, many things to take up or leave for the
+  household" («རིག་མདའ་སྦྱར་ན་བཟའ་ཚང་གི་བླང་དོར་དུ་མ་མཐོང»). RD19's chapter.
+- The notes' section 4 (vol. 2, p. 502, img. 510), on the reckoning for
+  the dead: the own year white and the seventh black "examined from the
+  general shape reckoned for the household" («བཟའ་ཚང་ལ་བརྩིས་པའི་སྤྱི་དབྱིབས»). RD23's chapter.
