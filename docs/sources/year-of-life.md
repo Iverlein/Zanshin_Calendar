@@ -2301,7 +2301,430 @@ not plain; the hour's weapon, the time of birth not being kept.
 
 ## The birth read whole: its sets, its twenty-one children, its close (RD19)
 
-Nothing read yet: RD19's passages, with the English beside them, go here.
+WB vol. 1, ch. 22, pp. 328–342 (img. 338–352) and p. 349 (img. 359); the
+notes' section 1 on them, vol. 2, pp. 483–485 and 489 (img. 491–493, 497).
+Read 2026-10-20. The section *The birth reckoning and the natal trigram
+(RD13)* above already holds the count of the pebbles (pp. 259–262), the
+four of rise and decline (pp. 331–333) and raising a child (pp. 347–348);
+they are not repeated here.
+
+**How read.** Yigdzin-1 over the Gser thang reprint of the same 1996
+typesetting (MW3CN5026, vol. 1 I3CN5028, about 2,050 px; image = page − 5
+throughout pp. 328–349, the printed number checked on img. 334 = p. 339
+and img. 344 = p. 349; vol. 2 I3CN5029, image = page + 6, checked on
+img. 490 = p. 484), set against Yigdzin-1 over BDRC's 1996 scan
+(`wb/vol1/yigdzin/`, RD13) with `disagree.py`: 92–100 % of the syllables
+agree on each page. Every flag inside a quoted passage was read on the
+reprint's scan, the lines cut out and enlarged 1.5–3×; the passages of
+pp. 331, 338–340 and 349 were read once more line by line on the scan.
+MITRA was run over the 1996 img. 338–352 and 359 as a third witness
+(`wb/vol1/mitra/`). The reprint's img. 328 (p. 333) is served black by
+BDRC (twice fetched): the end of p. 333 is read on BDRC's 703-px 1996
+scan at 3×. The reprint's Yigdzin-1 reads ཟ as ཐ in this font (ཟིན, ཟོན
+as ཐིན, ཐོན) and dropped three lines of p. 342, which the 1996 reading
+has; the quotes follow the scan. In the round brackets of p. 331 the
+print sets small notes on the pebbles' layout; they are kept. The 1996
+editors number the twenty-one children (༡)–(༧) in each group of seven;
+the machine readings garble those numerals, and they are given here as
+the print sets them.
+
+### The hundred pebbles' verdicts (pp. 329–331, img. 339–341)
+
+After the bad years (pp. 327–329, img. 337–339: the bad luck of the eight sections,
+the eight protectors, the bad omens, the faults of the year, the goat
+horn and rhinoceros horn (ར་རུ, ra ru; བསེ་རུ, bse ru), the bad years, the
+years of the line cut for men (རབས་ཆད, rabs chad) and of the barren
+for women (གཡང་གཤམ, g.yang gsham); Yigdzin-1 only), the verdicts of
+the hundred (བརྒྱ་ཕྲག་གཅིག་གི་ཁ་དམར, brgya phrag gcig gi kha dmar): for
+each of the life force (སྲོག, srog), the body (ལུས, lus), the power
+(དབང་ཐང, dbang thang) and the luck (ཀླུང་རྟ, klung rta), its own (རང,
+rang), mother (མ, ma), son (བུ, bu), friend (གྲོགས, grogs) and enemy
+(དགྲ, dgra) pebble, each white and black; then the five doors of bad
+luck (ངན་ཀླུང་སྒོ་ལྔ, ngan klung sgo lnga), and the general verdict of
+the pebbles (རྡེའུ་སྤྱི་ཡི་ཁ་དམར, rde'u spyi yi kha dmar), read from the
+shape the white and black make where they lie:
+
+> བརྒྱ་ཕྲག་གཅིག་གི་ཁ་དམར་ནི། ༧སྲོག་གི་རང་རྡེལ་དཀར་བ་ན། །རིན་ཆེན་ཚེ་ཡི་གཏེར་ཞེས་བྱ། །ཆུང་དུས་གསོ་སླ་རྒས་ཚེ་རིང་། །ཕ་དང་ཁུ་བོ་ཀུན་ལ་གཟན། ༧སྲོག་གི་མ་རྡེལ་དཀར་བ་ན། །ཕ་ཁུ་དར་བའི་ཚ་ཡུག་ཡིན། །རྒྱབ་བརྟེན་མི་ལ་མི་འཆོལ་ལོ། ༧སྲོག་གི་བུ་ནི་བཟང་བ་ན། །ཚེ་རིང་ཚེ་ཡི་བརྟེན་ཕུར་ཚུགས། །ཐོན་བུ་ཁྱེའུ་སྐྱེ་བ་ཡིན། ༧སྲོག་གི་གྲོགས་ནི་ལེགས་པ་ན། །ནོར་ནི་རྨིག་པ་ཁ་དབྲག་འཕྲོད། ༧སྲོག་གི་དགྲ་རྡེལ་དཀར་བ་ན། །གཅོང་དང་ནད་གཞི་རྙིང་པ་འཛེམ། །ཟས་ངན་དམུ་ཆུ་འོང་བའི་ངོ། ༧སྲོག་རྡེལ་ངན་ལ་སྐྱེས་པ་ན། །ཆུང་དུས་གསོ་དཀའ་ཚེ་ཡང་ཐུང་། །ཚེ་སྒྲུབ་ཚེ་གཟུངས་ཚེ་ཆོག་བྱ། ༧སྲོག་གི་མ་ནི་ངན་པ་ན། །ཕ་ཁུ་རབས་ཆད་སྒོ་སྟོང་འོང་། །ཕ་ཁུ་དར་གུད་ཆེ་བ་ཡིན། ༧སྲོག་གི་བུ་ནི་ངན་པ་ན། །བླ་ཚེ་གཉིས་ཀྱི་བརྟེན་ཕུར་ཕྱུང་། །རྨིག་པ་ཁ་དབྲག་མི་འཕྲོད་དོ། ༧སྲོག་གི་གྲོགས་ནི་ངན་པ་ན། །བྱ་བྱེད་མང་ལ་བློ་ཤོ་རྒོད། །སྡོད་ལ་མི་དགའ་འགྲོ་ལ་དགའ། །རྐང་པ་རླུང་གི་འཁོར་ལོས་བསྐོར། ༧སྲོག་གི་དགྲ་ནི་ངན་པ་ན། །རྒན་སྲི་གཞོན་སྲི་དར་སྲི་མེད།།ལུས་དར་ལུས་ཀྱི་ཁ་རྗེ་ཆེ། །གཟུགས་བཟང་བྱད་ལེགས་ཁྱིམ་ས་ཐིན། ༧ལུས་ཀྱི་མ་རྡེལ་དཀར་བ་ན། །མ་སྲུ་འགྲོགས་ཡུན་རིང་བ་ཡིན། ༧ལུས་ཀྱི་བུ་ནི་དཀར་བ་ན། །ཁྱེའུ་བུ་མོ་གསོ་བ་སླ། ༧ལུས་ཀྱི་གྲོགས་ནི་དར་བ་ན། །སྐྱེས་པ་བུད་མེད་རྒན་དང་ཕྲད། །བུད་མེད་ཡིན་ན་སྐྱེས་པར་རིགས། ༧ལུས་ཀྱི་དགྲ་རྡེལ་དཀར་བ་ན། །ནད་མོད་དབང་པོ་སྐྱོན་ཅན་འོང་། །མ་ཞུ་སྐྲན་དང་དམུ་ཆུས་འཆི། ༧ལུས་ཀྱི་རང་རྡེལ་ནག་པ་ན། །ནད་མོད་དབང་པོ་སྐྱོན་ཅན་འོང་། །ལུས་བསྒྱུར་ལུས་བསྐྱེད་སྲུང་བ་གདགས། ༧ལུས་ཀྱི་མ་ནི་ངན་པ་ན། །མ་སྲུ་འགྲོགས་ཡུན་ཐུང་བ་ཡིན། ༧ལུས་ཀྱི་བུ་རྡེལ་ནག་པ་ན། །ཁྱེའུ་བུ་མོ་གསོ་བ་དཀའ། ༧ལུས་ཀྱི་གྲོགས་ནི་ངན་པ་ན། །ཝ་རོ་དུར་ཁྲོད་ལུས་པ་དང་། །མར་རྒན་ཐང་ལ་ལྷུང་བ་འདྲ། ༧ལུས་ཀྱི་དགྲ་ནི་ངན་པ་ན། །ལུས་ལ་ནད་དང་གཅོང་མེད་དོ།།དབང་རྡེལ་དར་ན་ལོངས་སྤྱོད་ཆེ། །སྤུ་ཕྱུགས་ཟས་ནོར་འདོད་དགུ་འཕེལ། །དབང་ཐང་མ་ནི་དར་བ་ན། །ཞང་ཉེ་དར་བའི་ཚ་ཡུག་ཡིན། །ཞང་པོ་ཚ་བོ་འགྲོགས་ཡུན་རིང་། ༧དབང་ཐང་བུ་ནི་བཟང་བ་ན། །བུ་མོ་མ་ལས་མཛངས་པ་འོང་། །བུ་མོས་གྲོགས་ཀྱང་མང་བ་རྙེད། ༧དབང་ཐང་གྲོགས་ནི་དར་བ་ན། །ལོ་ལེགས་བྲན་གཡོག་ཕོ་མོ་བྱམས། ༧དབང་ཐང་དགྲ་རྡེལ་དཀར་བ་ན། །ནོར་ཉམས་དགྲ་ལག་འཆོར་བ་ཡིན། ༧དབང་ཐང་རྡེའུ་ནག་པ་ན། །དོན་མེད་གསོན་འཇལ་སྟོང་སོ་བྱེད། །རྒས་ཁར་ནོར་ཕྱུགས་གང་སྟོངས་ཆེ། །ཡུལ་ཁ་གཉིས་སུ་བཟུང་ན་ལེགས། ༧དབང་ཐང་མ་ནི་ངན་པ་ན། །ར་ཁྱི་རྟ་བོང་གཅིག་བརྒྱུད་བྱེད། །ཞང་ཉེ་དར་གུད་ཆེ་བ་ཡིན། ༧དབང་ཐང་བུ་རྡེལ་ནག་པ་ན། །བུ་མོ་གྲུང་མོ་ཤོ་རེ་འོང་། ༧དབང་ཐང་གྲོགས་ནི་ནག་པ་ན། །ལོ་ཏོག་སྤྱིར་བཟང་སྟོན་མི་འདུ། །མག་པ་ཚ་ཡུག་ཉེ་རིང་འོང་། ༧དབང་ཐང་དགྲ་ནི་ནག་པ་ན། །ནོར་རྣམས་དགྲ་ལག་མི་འཆོར་ཞིང་། །བསགས་པ་རང་གིས་སྤྱོད་པར་འགྱུར།།ཀླུང་རྡེལ་དཀར་ན་བླ་མ་དང་། །ཡ་རབས་གོང་མ་བྱམས་པ་ཡིན། །དགྲ་ལྷ་དང་ནི་སྲུང་མ་འགོ ༧ཀླུང་རྟའི་མ་ནི་དཀར་བ་ན། །རྗེ་དང་བློན་པོས་མགོན་སྐྱབས་མཛོད། །གཞན་གྱིས་རང་ལ་ཞུ་བ་འོང་། ༧ཀླུང་རྟའི་བུ་རྡེལ་བཟང་བ་ན། །རྟ་དང་བོང་བུ་སྒབ་འཕེལ་ལོ། ༧ཀླུང་རྟའི་གྲོགས་ནི་བཟང་བ་ན། །བློན་པོ་ཐབས་ལ་མཁས་པ་དེ། །ལོང་བའི་ནོར་ནི་མི་འཕྲོད་དོ། ༧ཀླུང་རྟའི་དགྲ་རྡེལ་དཀར་བ་ན། །བྱས་པའི་ལས་ལ་མགུ་བ་མེད། །ཟོས་ཀྱང་འགྲང་རྒྱུ་མེད་པ་ཡིན། ༧ །ཀླུང་རྟའི་རང་རྡེལ་ནག་པ་ན། །རང་གིས་བྱས་ཀྱང་ངོ་རེ་ཆུང་། །ཕ་ཚན་ནང་ནས་ངན་གཤོམ་ཡོད། །རང་ཉིད་བཙན་ས་བཟུང་ན་ལེགས། ༧ །ཀླུང་རྟའི་མ་ནི་ངན་པ་ན། །སློབ་དཔོན་རྗེ་བོ་བཀུར་སྟི་ཆུང་། །དྲིན་མི་འཇོག་ལ་རྒྱབ་བརྟེན་འཚོལ། ༧ །ཀླུང་རྟའི་བུ་ནི་ངན་པ་ན། །ཉི་མ་སྤྲིན་གྱིས་བསྒྲིབས་པ་འདྲ། །བྱ་རྒོད་ཐང་ལ་ལྷུངས་པ་འདྲ། ༧ །ཀླུང་རྟའི་གྲོགས་ནི་ངན་པ་ན། །རྟ་དང་བོང་བུ་[སྐབ]་མི་འཕེལ། །ཚེ་གྲོགས་ཁ་རྗེ་ཆུང་བ་ཡིན། ༧ །ཀླུང་རྟའི་དགྲ་རྡེལ་ནག་པ་ན༑ ༑མི་ཡི་གཉའ་གནོན་མི་འོང་ངོ། །དེ་ནས་ངན་ཀླུང་སྒོ་ལྔ་ནི། །སྤར་ཁ་དྭ་ཟིན་ལ་སྐྱེས་ཤིང་། །སྨེ་བ་བདུན་དམར་གསུམ་མཐིང་བཙས། །སྲོག་གུད་སྲོག་ལ་དགྲ་དར་ན། །མི་དེ་ཐ་མ་གྲི་རུ་འཆི། ༧ །སྨེ་བ་དམར་ནག་ལ་བཙས་ཤིང་། །སྤར་ཁ་གིན་ཟོན་ལ་སྐྱེས་ཏེ། །ལུས་གུད་ལུས་ཀྱི་དགྲ་དར་ན། །བུ་བརྒྱ་ཡོད་ཀྱང་མཐའ་རབས་ཆད། ༧ །སྤར་ཁ་ཟིན་ཐོག་ལ་སྐྱེས་ཤིང་། །སྨེ་བ་དཀར་གསུམ་ལ་བཙས་ཏེ། །དབང་ཐང་གྲོགས་གསུམ་ནག་པ་ན། །ད་ལྟ་ཕྱུག་ཀྱང་ཐ་མ་སྤྲང་། ༧ །སྤར་ཁ་ལི་ཁོན་ཁེན་ལ་བཙས། །སྨེ་བ་དམར་ནག་ལ་སྐྱེས་ནས། །ལུས་གུད་ལུས་ཀྱི་གྲོགས་གུད་ན། །ཐ་མ་སོ་ནམ་ཟླ་བྲལ་བྱེད། ༧ །སྤར་ཁ་ས་བཞི་ལ་སྐྱེས་ནས། །སྨེ་བ་བཞི་དང་ལྔ་ལ་བཙས། །ཀླུང་གུད་ཀླུང་གི་དགྲ་དར་ན། །ད་ལྟ་ནད་མེད་བདེ་སྐྱིད་ཀྱང་། །ཐ་མ་བོང་ཞོན་ཁྱི་ཁྲིད་འོང་། །དེ་ལས་ལྡོག་པ་བཟང་པོ་ཡིན།།རྡེའུ་སྤྱི་ཡི་ཁ་དམར་ནི། །བུ་ཚའི་དབང་ཐང་ཡོད་པ་དེ། །བྱེའུ(བུ་རྡེའི་སར་དཀར་ནར་གྱིས་བྱུང་ན།)ཆུ་ལ་རུབ་པ་འདྲ། ༧ །བུ་ཚའི་དབང་ཐང་མེད་པ་དེ། །ལྕུག་ཕྲན(ཟུར་བཞི་ནག་ཤས་ཆེ་བ་ལ་གཅིག་དཀར་ལ་གཅིག་ནག་པ་བྱུང་ན།)ཟོར་བས་བརྔས་པ་འདྲ། ༧ །མི་དང་གླེང་གཞི་འོང་ཙ་ན། །མི་རྒན(སྟོད་དཀར་ལ་སྨད་ནག་པོ།)སོ་དེ་བུད་པ་འདྲ། ༧ །ཐ་མར་རབས་ཆད་འོང་ཙ་ན། །མཛོ་ཕོ(ཟུར་བཞི་ནག་ཤས་ཆེ་ལ་གཅིག་དཀར་གཅིག་ནག་བྱུང་ན།)སྣ་ཐག་ཆད་པ་འདྲ། ༧ །མི་ཡི་རྔན་ཆེན་འོང་ཙ་ན། །ཁྱི་རྒན(མཐའ་ནག་ལ་དཀྱིལ་དཀར་བ།)མདངས་ནག་ལྡིང་པ་འདྲ། ༧ །ཟས་ནོར་དབང་ཐང་ཆུང་བ་ནི། །སྡེར་སྟོང་ཁྱི་ཡིས་བལྡགས་པ(མཐའ་དཀར་དཀྱིལ་ནག་པ།)འདྲ། ༧ །མི་ལ་མཛེ་བརྒྱུད་ཡོད་ཙ་ན། །སྦྲུལ་ནག་ཐུར་ལ་རྒྱུག་པ(ནག་པོ་འཁྱོག་འགྲོས་སུ་བྱུང་ན།)འདྲ། །དཀར་པོ་བཞི་གླིང་མང་བ་ནི། །སྣང་སྲིད་སྐྱིད་ཀྱི་ར་བ་ཡིན། །སྟོད་ལ་བྱུང་ན་ཚེ་སྟོད་ནི། །ཕ་མ་བྱམས་ཤིང་སྐྱིད་པ་ཡིན། །བར་དུ་བྱུང་ན་བཙན་ཕྱུག་ལྡན། །སྨད་དུ་བྱུང་ན་རྒས་ཁར་སྐྱིད། །ཉི་མ་རྒས་ཁར་དྲོ་བ་ཡིན། །ནམ་ཕུགས་བཟང་བས་ཤིན་ཏུ་དགེ། ༧ །ནག་པོ་གྲུ་བཞི་མང་བ་ན། །རབས་ཆད་ཁྱིམ་ཡིན་སྟོད་ནག་ན། །དྭའུ་འམ་སྐྱིད་སྡུག་མང་དུ་འོང་། །བར་དུ་ནག་པོ་བཞི་གླིང་བྱུང་། །ཁྱིམ་དུ་གསེར་གྱི་སྒྲོམ་ཡོད་ཀྱང་། །དགོས་དུས་ས་རྡོ་བོང་པ་འདྲ། །གཤམ་དུ་བྱུང་ན་གྲོགས་དང་གཡང་། །ཁ་ན་ཡོད་པ་ལྕེ་ཡིས་འཕུལ། །ལག་ན་ཡོད་པ་མི་ལ་ཤོར། །བུ་བརྒྱ་ཡོད་ཀྱང་མཐར་རབས་ཆད།།
+
+What each pebble rules, by these readings: the life force's own pebble
+the length of life and how easily a child is raised; its mother the
+father and paternal uncles (ཕ་ཁུ, pha khu); its son the children; its
+friend the livestock; its enemy old ailments and wasting. The body's own
+the body's standing and the home; its mother the maternal aunts (མ་སྲུ,
+ma sru); its son the children's raising; its friend the spouse; its
+enemy illness of the senses. The power's own wealth and enjoyment; its
+mother the maternal uncle's kin (ཞང་ཉེ, zhang nye); its son the
+daughters; its friend the servants and the harvest; its enemy wealth
+falling to enemies, white, or kept, black. The luck's own the lamas and
+the noble forebears (ཡ་རབས, ya rabs), the war god (དགྲ་ལྷ, dgra lha) and
+protectors; its mother lords and ministers; its son horses and donkeys;
+its friend a minister's skill; its enemy the fruit of one's work. In
+the enemy's readings the colours turn: the enemy pebble black is the
+good one (the life force's enemy black: no harm from the sri spirits
+(སྲི, sri) of the old, the young or the grown, རྒན་སྲི་གཞོན་སྲི་དར་སྲི, rgan sri gzhon sri
+dar sri).
+
+**The five doors of bad luck** (p. 331): each joins a trigram, a mewa and
+an aspect in decline with its enemy rising, and ends a life: born on the
+trigrams dwa or zin (དྭ, dwa; ཟིན, zin) and on seven red or three blue,
+the life force declining and its enemy rising, at last dying by the
+blade; on mewa red or black and the trigrams gin or zon, the body
+declining and its enemy rising, a hundred sons but the line cut at the
+end; on zin and the white mewa («དཀར་གསུམ», the three whites), the power's three friends black, rich now
+but a beggar at last; on li, khon or khen and red or black, the body and
+its friend declining, the field's harvest parted from at last; on the
+four corner trigrams and mewa four or five, the luck declining and its
+enemy rising, well now but at the end riding a donkey and leading a dog.
+"The reverse of these is good."
+
+**The general verdict, by where the pebbles lie** (p. 331, read on the
+scan line by line). Images of how the pebbles fall, each with its layout
+in the print's small brackets: a sparrow bathing in water when the
+children's power is there (white falling in a row where the son's
+pebbles lie); a sapling cut by a sickle when it is not (four corners
+mostly black, one white and one black); an old man whose teeth have
+fallen (white above, black below) when there will be quarrels; a dzo
+(མཛོ, mdzo) whose nose rope is cut (four corners mostly black) when the
+line ends; an old dog (black at the rim, white in the middle) when a
+great reward (རྔན་ཆེན, rngan chen) from others is coming («མདངས་ནག་ལྡིང་པ»,
+not clear); an empty dish licked by a
+dog (white rim, black centre) when food and wealth are small; a black
+snake running downhill (black crooked) when there is leprosy in the line.
+Then **which part of life**: where the white make the pattern of the
+four continents (བཞི་གླིང, bzhi gling), a fence of happiness; **above**,
+the first part of life happy, the parents loving; **in the middle**,
+power and wealth; **below**, happy in old age, like the sun warm at
+evening. Where black make many squares, a house whose line ends: black
+above, many joys and sorrows; black four continents in the middle, a
+gold chest at home that is earth and stone when needed; black below,
+friends and fortune: what is in the mouth pushed out by the
+tongue, what is in the hand lost to others, a hundred sons and the line
+cut at the end. The board read whole thus places its result in the
+first, middle or last part of life (step 4 of [verdicts.md](verdicts.md)).
+
+### What each of the hundred reckons, and the sets (pp. 333–335, img. 343–345)
+
+The end of p. 333 (1996 scan, img. 343, read at 3×; the reprint's image
+black), after the luck's back, empty and front stages: from the *Ocean of
+the Treatise of Reckoning* (བསྟན་རྩིས་གཙུག་ལག་རྒྱ་མཚོ, bstan rtsis
+gtsug lag rgya mtsho), a summary of the 136 pebbles' purpose; to settle
+the hundred and the fifty of rise and decline, the life force, body,
+power, luck and element (ཁམས, khams) are each divided into own, mother,
+son, friend and enemy, and each of those again into five; the good six
+stages white, the bad six black:
+
+> བསྟན་རྩིས་གཙུག་ལག་རྒྱ་མཚོ་ལས། །རྡེའུ་བརྒྱ་དང་སོ་དྲུག་པོའི། །དགོས་དོན་ཚང་བའི་འགྲེལ་པ་བསྡུས། །མ་ནོར་བོར་ཏེ་ཚུལ་བཞིན་སྒྲ། །དར་གུད་རྡེའུ་བརྒྱ་དང་ནི། །ལྔ་བཅུས་གཏན་ལ་འབེབས་པའི་ཕྱིར། །སྲོག་ལུས་དབང་ཐང་ཀླུང་རྟ་ལ། །ལྔ་ལྔར་ཕྱེ་སྟེ་རྡེའུ་བོར། །སྲོག་རང་མ་བུ་གྲོགས་དགྲ་ལྔ། །(སྲོག་རང་མ་བུ་གྲོགས་དགྲ་ལྔ་པོ་དཔེར་ན། སྲོག་གི་མའི་མ་བུ་གྲོགས་དགྲ། སྲོག་གི་བུའི་མ་བུ་གྲོགས་དགྲ། སྲོག་གྲོགས་ཀྱི་མ་བུ་གྲོགས་དགྲ། སྲོག་གི་དགྲའི་མ་བུ་གྲོགས་དགྲ་རྣམས་འབྱེད་ཅིང་ལུས་དང་དབང་ཐང་ཀླུང་ལ་ཡང་འགྲེ་འགྲེལ་པ་གཉིས་པ་གཉིས་སུ་འདོད།)ལུས་རང་མ་བུ་གྲོགས་དགྲ་ལྔ། །དབང་ཐང་མ་བུ་གྲོགས་དགྲ་ལྔ། ཀླུང་རྟ་མ་བུ་གྲོགས་དགྲ་ལྔ། ཁམས་རང་མ་བུ་གྲོགས་དགྲ་ལྔ། །དེ་དག་ལ་ཡང་རང་དང་ནི། །མ་བུ་གྲོགས་དགྲ་ལྔ་ལྔར་ཕྱེ། །དར་གུད་བཟང་དྲུག་དཀར་པོར་འདོད། །ངན་དྲུག་རྣམས་ནི་ནག་པོར་བོར། །སྤྱིར་བསྡུས་རྡེའུ་བརྒྱ་དང་ནི། །ལྔ་བཅུ་ཐམ་པས་གཏན་ལ་ཕབ། །སྤར་ཁ་སྨེ་བ་ཀུན་ལ་སྦྱར། །སྲོག་གིས་
+
+The 1996 print sets «(སྲོག་རང་མ་བུ་གྲོགས་དགྲ་ལྔ་པོ་དཔེར་ན … གཉིས་སུ་འདོད།)» as a
+note in round brackets; the last line (from «དེ་དག») is read by eye on
+the 703-px scan, Yigdzin-1 having dropped it; «སྤྱིར་བསྡུས» (in sum) and
+«སྤར་ཁ་སྨེ་བ» (trigram and mewa, applied to all) are MITRA's, which the eye at
+that size does not contradict. In sum, a hundred and fifty, applied with
+the trigram and mewa to every birth.
+
+Then p. 334–335 (img. 344–345): what each of the twenty-five reckons
+(the domains), the images of mother, son, friend and enemy, the **sets**,
+and the rule that closes them:
+
+> ཚེ་ཡི་རིང་ཐུང་བརྩི། །མ་ཡིས་ཚེ་ཡི་ལྡང་ཚད་བརྩི། །བུ་ཡིས་བུས་པ་དུ་འཚོ་བརྩི། །གྲོགས་ཀྱིས་རྨིག་ཟླུམ་བརྩི་བ་དང་།དགྲ་ཡིས་གྲི་རུ་འཆི་མི་འཆི། །དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི། །ལུས་ཀྱི་ན་ཚ་དཀོན་མོད་བརྟག །ལུས་ཀྱི་མ་ཡི་དར་གུད་ཀྱིས། །མ་ལ་ཕན་གནོད་ཞིབ་ཏུ་བརྩི། །བུ་ཡིས་བུ་ཚ་དུ་སྐྱེས་བཟུང་། །གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ། །དགྲ་ཡིས་སྤུན་ཟླ་ན་ཚ་བརྩི། །དབང་ཐང་ཟས་ནོར་ལོངས་སྤྱོད་བརྩི། །མ་ཡིས་བུ་མང་དབང་ཐང་བརྩི། །བུ་ཡིས་བུ་ཚ་དུ་ཕོགས་བརྩི། །གྲོགས་ཀྱིས་འཕྲོད་སྒོ་ཅི་ཡོད་བརྩི། །དགྲ་ཡིས་ནོར་གྱི་གང་སྟོངས་བརྩི། །ཀླུང་རྟས་ཡིད་ཚང་བརྩི་བར་བྱ། །མ་ཡིས་དབོན་བརྒྱུད་ཡིན་ནམ་མིན། །བུ་ཡིས་འཕེལ་འགྲིབ་འོང་མི་འོང་། །གྲོགས་ཀྱིས་ཁ་རྗེ་ཆེ་ཆུང་དང་། །ཀླུང་དགྲས་བྱེས་ཀྱི་འཕྲོད་མི་འཕྲོད། །སྨེ་བས་དབང་པོ་ཚང་མི་ཚང་། །མ་ཡིས་ཞང་པོ་བཟང་མི་བཟང་། །བུ་ཡིས་ཕ་མའི་དྲིན་ལན་བརྟག །གྲོགས་ཀྱིས་མ་སྲུ་བཟང་མི་བཟང་། །དགྲ་ཡིས་ཕ་ཁང་འཛིན་མི་འཛིན། །འདི་དང་གོང་གི་བརྒྱ་རྡེལ་གྱི། །མ་ནི་རྒྱབ་ཀྱི་སློག་པ་ཡིན། །བུ་ནི་མདུན་གྱི་འཁར་བ་ཡིན། །གྲོགས་ནི་གཡང་གི་ར་བ་འདྲ། །དགྲ་ནི་ལྕགས་ཀྱི་སྤྱང་མོ་འདྲ། །བཅུ་གཉིས་རྟ་ལ་བསྐྱོན་ནས་བརྟག ༧ །སྲོག་རྡེལ་དཀར་ལ་མ་ཡང་དཀར། །དགྲ་ནག་བུ་དཀར་དབང་ལུས་བུ། །དཀར་ལ་ལུས་ཀྱི་མ་ཡང་དཀར། །ཕ་མའི་སྲོག་གིས་སྐྱོབ་པ་དང་། །སྨེ་བས་བསྐྱེད་དང་སྤར་ཁས་བསྐྱེད། །དེ་ལ་ལོ་གཅིག་ཁྱུད་སྐོར་གྱི། །ཉེན་ཚད་བཤད་ཀྱང་ཀླུང་གིས་ཐུབ། །ཚེ་རིང་འབྱུང་བའི་གནོད་པ་མེད། །༧རང་དང་མ་དང་བུ་ཡང་ནག །དགྲ་རྡེལ་དཀར་ལ་དབང་ལུས་དང་། །ལུས་མ་ནག་ཅིང་ཕ་མས་གཅོད། །སྤར་སྨེ་གདན་གྱིས་གཅོད་པ་ནི། །ལེགས་དགུ་བཤད་ཀྱང་ཉེས་དགུར་འགྱུར། །ལོ་གཅིག་དུས་ལས་རྟག་ཏུ་མེད། །མྱུར་དུ་ཚེ་ཡི་འཕེན་པ་འཛད། །༧དབང་ཐང་རྡེའུ་དཀར་བ་དང་། །མ་དཀར་དགྲ་ཡི་རྡེའུ་ནག །སྲོག་ལུས་དབང་ཐང་གྲོགས་གསུམ་དཀར། །ཕ་མའི་དབང་ཐང་མི་གཅོད་བསྐྱེད། །སྤར་ཁ་བསྐྱེད་པའི་གདན་སར་སྐྱེས། །དགྲ་དར་གུད་པ་ཅི་བཤད་ཀྱང་། །དེ་ནི་ཉེས་མེད་ཕྱུག་པོར་འགྱུར། ༧དབང་ཐང་རང་མ་གྲོགས་གསུམ་ནག །སྲོག་ལུས་དབང་གི་གྲོགས་ཀྱང་ནག །ཕ་མས་གཅོད་དང་སྤར་ཁས་ལོག །སྨྲུ་གཞག་འཁོར་བ་ལུད་ཀྱང་སྤྲང་། །རྐྱེན་པས་ཀླུང་གཙོ་དེ་ཡིས་བསྒྱུར། །ལུས་ཀྱི་དར་གུད་བཟང་གྱུར་ཀྱང་། །སྐྱེས་ཀླུང་ངན་པ་དེ་ཡིས་བསྒྱུར། ༧ལུས་ཀྱི་རང་རྡེལ་དཀར་བ་དང་། །མ་དང་བུ་ཡི་རྡེའུ་དཀར། །དགྲ་ནག་སྲོག་གི་དགྲ་ཡང་ནག །སྤར་ཁ་མཚམས་ནས་སྐྱེས་པ་ན། །ལུས་ལ་དགྲ་དར་རྩུབ་པའི་ཀེག །ཡིན་ཡང་དུས་ཀྱི་རིམ་གྲོས་ཐུབ། །ལུས་རྡེལ་ནག་ཅིང་མ་བུ་ནག །སྲོག་ལུས་གཉིས་ཀྱི་དགྲ་རྡེལ་དཀར། །སྤར་ཁ་ཕྱོགས་བཞི་ལ་སྐྱེས་ན། །མི་དེ་ཚེ་ཐུང་ན་ཚ་མོད། །ཀེག་ཅན་མེད་ཀྱང་རྐྱེན་གྱིས་རྫོང་། །ཀླུང་རྟའི་རང་རྡེལ་དཀར་བ་དང་༑ ༑མ་རྡེལ་དཀར་ལ་དགྲ་རྡེལ་ནག །སྲོག་གི་རང་མ་བུ་གསུམ་དཀར། །ཕ་མའི་ཀླུང་རྟས་གསོ་བ་དང་། །སྤར་ཁ་ཕྱོགས་བཞི་ལ་སྐྱེས་པ། །ལོ་ནི་འབྲིང་པོ་ཆད་ཆེན་ལ། །དམངས་སུ་ཕབ་ཀྱང་རྒྱལ་པོ་ཐོབ། །ཀླུང་རྟ་གུད་ཀྱང་བསོད་ནམས་བསྐྱེད། ༧་ཀླུང་རྡེལ་ནག་ལ་མ་ཡང་ནག །དགྲ་བཞི་དཀར་ལ་གྲོགས་རྡེལ་ནག །ཕ་མས་མི་སྐྱོང་སྤར་ཁ་མཚམས། །དེ་ལ་སྐྱེས་པ་ཀླུང་ངན་ཏེ། །བཟང་པོར་བཤད་ཀྱང་ལོག་པར་འགྲོ། །རྒྱལ་སར་བཏོན་ཀྱང་དམངས་སུ་འབེབས། ༧་སྨེ་བའི་རང་རྡེལ་དཀར་བ་དང། །རང་བཞིའི་རྡེའུ་དཀར་བ་ན༑ ༑དུས་ཀྱི་ངན་པ་ཅི་བཤད་ཀྱང་། །དབང་པོ་ཚང་ཞིང་ཡན་ལག་བདེ། ༧་སྨེ་རང་རྡེའུ་ནག་པ་དང་། །རང་རྡེལ་གཞན་བཞི་ནག་པར་བབས། །དུས་ཀྱི་འབྲས་བུ་བཟང་བཤད་ཀྱང་། །ཡན་ལག་དབང་པོ་གཅོང་གིས་འཛིན། ༧་བུ་བཞི་རྡེའུ་དཀར་བ་དང་། །ལུས་རྡེལ་དཀར་ལ་ཕ་མས་སྐྱོབ། །སྤར་ཁ་ཁོན་ལི་དཱ་ལ་སྐྱེས། །རྨང་པོ་ཡིན་ཡང་བུ་ཚས་འདུར། །ད་ལྟ་མེད་ཀྱང་སྲིད་དང་ཕྲད། ༧ །བུ་བཞི་རྡེལ་ནག་ལུས་རྡེལ་ནག །ཕ་མས་ལུས་གཅོད་སྤར་ཁ་ལོག །བུ་བརྒྱ་ཡོད་ཀྱང་རྨང་པོ་ཡིན། །བརྒྱད་ཅུ་ལོན་ནས་རབས་ཆད་པ། །ཕ་ཚན་མི་ཚེ་ཚོར་བ་འོང་། ༧ །སྲོག་གི་རྡེའུ་དཀར་བ་དང་། །མ་དཀར་ལུས་དང་ཀླུང་རྟ་ཡི། །མ་རྡེལ་དཀར་པོར་བབས་པ་དང་། །སྲོག་གི་དགྲ་རྡེལ་ནག་པ་དང་། །བུད་མེད་ལོ་ཡིས་སྐྱོབ་པ་དང་། །སྤར་ཁ་མཚམས་བཞི་ལ་སྐྱེས་པ། །སྨེ་བ་དཀར་སེར་ལྗང་ལ་སྐྱེས། །གྲི་རུ་མི་འཆི་ཚེ་ཡང་རིང་། །དཀར་ངོ་ཁྲག་ངོ་བཤད་གྱུར་ཀྱང་། །མཚོན་ཡང་མི་འདུ་ཁྲག་མི་འབོ། ༧ །སྲོག་རྡེལ་ནག་ལ་མ་ཡང་ནག །ལུས་དང་ཀླུང་རྟའི་མ་རྡེལ་ནག །སྲོག་གི་དགྲ་དཀར་བུད་མེད་གཅོད། །དྭ་ཟིན་བདུན་དམར་ལ་སྐྱེས་ན། །མཚོན་ཁ་འདུ་ཞིང་གྲི་རུ་འགུམ། །ལེགས་པར་བཤད་ཀྱང་ལོག་པར་འགྱུར། ༧ །སྐྱེས་པའི་ལུས་སྲོག་རྡེའུ་ནག །སྤར་ཁ་ལི་ཟོན་ཁོན་ལ་སྐྱེས། །སྨེ་བ་ནག་པོ་ར་བའི་ལོ། །དུར་མི་ནག་པོ་ཆུང་མིག་ཅན། །བུ་གྲིར་གསོད་པའི་ཉེས་ཅན་ཡིན། །བུ་དང་བྲལ་ཡང་ཆུང་མ་འཆི། ༧ །ལུས་སྲོག་རྡེའུ་གོ་ལོག་དང་། །སྤར་ཁ་ཟིན་ཁམ་གིན་ལ་སྐྱེས། །སྨེ་བ་དཀར་པོ་ཐ་ཆུང་ལོ། །དེ་ལ་ཉེན་ཆེན་མང་བཤད་ཀྱང་། །གྲོགས་ལ་མི་གནོད་ཡ་མི་འབྲལ། ༧ །བུད་མེད་སྲོག་ལུས་རྡེའུ་ནག །དགྲ་དཀར་སྤར་ཁ་ལི་ཁེན་ཟོན། །སྨེ་བ་དམར་ནག་རྩུབ་པའི་ལོ། །དེ་ནི་མ་དང་ཁྱོ་གཟན་མོ། ༧ །སྲོག་ལུས་དགྲ་དང་སྤར་ཁ་ལོག །སྨེ་བ་དཀར་ལྗང་སེར་ལ་སྐྱེས། །བུ་མོ་བཟའ་མི་ཡ་མི་འབྲལ། ༧ །སྲོག་གསུམ་རྡེའུ་ནག་པ་ནི། །འབྲིང་བཞིའི་ལོ་པ་ལུས་རྡེལ་ནག །སྤར་ཁ་ལི་ཁམ་ཟོན་ལ་སྐྱེས། །ཁམས་ནི་བཞི་ལྗང་གསུམ་མཐིང་དང་། །ལྔ་སེར་གཅིག་དཀར་ལ་སྐྱེས་ན། །ཁྱི་ལ་ཁལ་འགེལ་རྒྱལ་ཁམས་འཁྱམ། །བཟང་བར་བཤད་ཀྱང་ཡལ་བར་འགྱུར། ༧ །སྲོག་གསུམ་རྡེའུ་དཀར་བ་དང་། །སྲིན་ཁྱེར་ལོ་མེད་དགྲ་རྡེལ་ནག །སྤར་སྨེ་གོང་ལས་ལོག་གྱུར་ན། ༧ །ནད་ཀྱིས་བཏབ་ཀྱང་ལྡོག་པར་འགྱུར། །མཛེ་ནད་མི་འོང་ཀླུ་མི་གནོད། །ལོ་གཅིག་ཀེག་གི་འབྱུང་རྩིས་ལ། །ཀླུང་གི་དུར་ཕུགས་མ་ཤེས་ན། །ཕན་གནོད་དམིགས་ནས་ཟིན་མི་འགྱུར། །བཟང་བཤད་ངན་པར་གྱུར་པ་ལ། །ངན་ཡང་ཉེས་པ་མི་འབྱུང་ངོ་། །དེ་ཡང་ཀླུང་གི་བྱེ་བྲག་སྟེ། །དར་གུད་ཀླུང་དང་བསྟུན་པ་ནི། །སྔ་མ་མི་འགྱུར་ཕྱི་མ་འགྱུར། །ད་ལྟ་ཟླ་ཞག་དུས་ལ་སྦྱོར། །ལེགས་པར་བཏུས་ཏེ་ཁ་དམར་ནི། །མ་ནོར་ཚུལ་བཞིན་བརྗོད་པར་བྱ།།
+
+**The domains** (p. 334). The life force reckons the length of life; its
+mother the measure of life's rising; its son how many children live; its
+friend the livestock («རྨིག་ཟླུམ», hooves; Yigdzin-1 over the 1996 scan
+reads so, the reprint «མིག»); its enemy whether one dies by the blade;
+"reckon by mounting rise and decline on the horse" («དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི», ཏ
+as printed). The body: illness rare or frequent; its mother help or harm
+to the mother; its son how many grandchildren; its friend «བེ་ལུག» (not
+identified) at the place; its enemy the siblings' illness. The power:
+food, wealth and enjoyment; its mother many sons and power; its son the
+grandchildren's share; its friend the doors of what suits; its enemy
+the losses of wealth. The luck: contentment (ཡིད་ཚང, yid tshang); its
+mother whether a nephew line (དབོན་བརྒྱུད, dbon brgyud) follows; its son
+increase or decrease; its friend standing (ཁ་རྗེ, kha rje); its enemy
+whether things go well abroad. The mewa (སྨེ་བ, sme ba): whether the
+senses are whole; its mother the maternal uncle; its son repaying the
+parents' kindness; its friend the maternal aunt; its enemy whether one
+holds the father's house. "Of these and the hundred above, the mother is
+the coat at one's back, the son the staff in front, the friend like the
+fold of fortune, the enemy like an iron she-wolf; examine them mounted
+on the twelve horses" (the twelve animals).
+
+**The sets** (pp. 334–335): twenty joined readings, each naming several
+pebbles of several aspects at once, often with the trigram and mewa:
+
+- the life force's own and mother white, its enemy black, its son white,
+  the power's and body's sons white, the body's mother white, the
+  parents' life force protecting, mewa and trigram generating: whatever
+  dangers of the year's round are told, the luck withstands them; long
+  life, no harm from the elements;
+- own, mother and son black, the enemy white, the power, body and the
+  body's mother black, cut by the parents, cut by the trigram and mewa
+  seat: nine goods told turn to nine ills; no lasting beyond a year, the
+  life's impetus soon spent;
+- the power white, its mother white, its enemy black, the friends of
+  life force, body and power white, the parents' power not cutting, born
+  on a generating trigram seat: whatever the enemy's rise and decline,
+  without fault, becoming rich; the reverse, power, mother and friends
+  black, cut by the parents, the trigram reversed: a beggar even when
+  his circle overflows («སྨྲུ་གཞག», not clear); "the luck is chief among conditions and turns it", and
+  a bad birth luck turns even a good rise and decline of the body;
+- the body's own, mother and son white, its enemy and the life force's
+  enemy black, born on a corner trigram: a harsh obstacle (ཀེག, keg) of
+  the enemy's rise for the body, but withstood by the rites of the time;
+  body, mother and son black, the enemies of life force and body white,
+  born on the four direction trigrams: short life, frequent illness,
+  brought by conditions even without an obstacle;
+- the luck's own and mother white, its enemy black, the life force's
+  own, mother and son white, nourished by the parents' luck, born on the
+  four direction trigrams: even a middling year with a great penalty,
+  brought down to the commoners he gains the throne; the luck in decline
+  still breeds merit; the reverse: told good, it goes wrong, set on the
+  throne, cast down among the commoners;
+- the mewa's own and the other four own pebbles white: whatever bad
+  times are told, senses whole and limbs well; all black: whatever good
+  is told, limbs and senses seized by wasting;
+- the four sons white, the body white, protected by the parents, born on
+  khon, li or dwa: even a commoner (རྨང་པོ, rmang po), gathered round by children; even without them
+  now, meets the line; the four sons and the body black, cut by the
+  parents, the trigram reversed: a hundred sons but a commoner, the line
+  cut at eighty;
+- the life force white with its mother, the body's and luck's mothers
+  white, the life force's enemy black, protected by a woman's year,
+  born on the four corners and mewa white, yellow or green: no death by
+  the blade, long life; the reverse with dwa, zin and seven red: weapons
+  gather, death by the blade;
+- a man's body and life force black, born on li, zon or khon and a black
+  mewa: one who kills a son by the blade, the wife dies; body and life
+  force reversed, zin, kham or gin and one white: many dangers told, but
+  no harm to the friend; a woman's life force and body black, the enemy
+  white, li, khen or zon and red or black mewa: she wears out mother and
+  husband; a daughter not parted from her family;
+- the three of the life force black, a year of the middling four, the
+  body black, born on li, kham or zon and mewa four green, three blue,
+  five yellow or one white: wandering the kingdoms with a load on a dog;
+  told good, it fades; the three white, no year of the ogre's taking,
+  the enemy black, trigram and mewa the reverse: struck by illness but
+  recovering, no leprosy, no harm from the water spirits, the lu (ཀླུ, klu).
+
+**The rule that closes them** (p. 335): in a year's reckoning of the
+obstacles (ཀེག་གི་འབྱུང་རྩིས, keg gi 'byung rtsis), if the luck's tomb and
+its end are not known, help and harm do not fit: good told turns bad,
+and bad brings no harm. That is the luck's distinction: of rise and
+decline following the luck, "the former does not change, the later
+changes" (the notes, p. 484: the former is the birth luck, the later the
+obstacle reckoning's rise and decline); now apply it to the month, day
+and hour; gather it well and state the verdict without error.
+
+### The grades of rise and decline, and the four mothers, sons and friends (pp. 335–338, img. 345–348)
+
+> གཞན་ཡང་དར་གུད་མིག་ཆགས་ལས། །གོས་གྱོན་དར་བཙས་ལས་བྱེད་པ། །ལུས་རྫོགས་ཁྲུས་བྱེད་གཉིས་ཏེ་དྲུག །དེ་ལ་རབ་འབྲིང་ཐ་མ་གསུམ། །གོས་གྱོན་དར་གཉིས་རབ་ཀྱི་རབ། །བཙས་པ་ལས་བྱེད་རབ་ཀྱི་འབྲིང་། །ལུས་རྫོགས་ཁྲུས་བྱེད་རབ་ཀྱི་ཐ། །ངན་དྲུག་དབུགས་ལེན་མངལ་གནས་གཉིས། །དུར་ཞུགས་ན་བ་ཤི་གུད་དྲུག །དེ་ཡང་དབུགས་ལེན་མངལ་གནས་གཉིས། །ངན་པའི་རབ་ཡིན་དུར་ན་གཉིས། །ངན་པའི་འབྲིང་ཡིན་ཤི་གུད་གཉིས། །ངན་པའི་ཐ་སྟེ་དེ་ལྟར་བརྩིས། །དེ་ལ་སྲོག་དབང་ཀླུང་རྟའི་དགྲ། །གསུམ་ནི་གུད་དྲུག་སྐྱེས་པར་བཞེད། །ལུས་ཀྱི་དགྲ་ནི་དར་བར་བཞེད། དབང་ཐང་དུར་ཞུགས་བཏུང་བ་ཙམ། །སྲོག་གི་དུར་ཞུགས་མི་བཏབ་སྟེ། །ཕ་མའི་འབྲལ་ཟླ་ཡིན་ཏེ་ངན། །ན་བ་རང་ལ་ངན་པ་ཡིན། །དར་བ་གྲོགས་ལ་ངན་པ་ཡིན། །དེ་ཡི་བརྩི་ཚུལ་སྲོག་ཚེ་དང་། །སྲོག་གི་མ་ལ་ཕ་ཁུ་བརྩི། །སྲོག་བུར་སྤུན་ཟླ་སྲོག་གི་གྲོགས། །རྨིག་པ་ཁ་དབྲག་སྲོག་གི་དགྲས། །ཐ་མ་གྲི་ལ་འཆི་མི་འཆི། །ལུས་ཀྱི་ན་ཚ་དཀོན་མོད་དང་། །ཁྱིམ་ཁ་ཟློས་སམ་མི་ཟློས་བརྩི། །ལུས་མས་མ་སྲུ་ཞང་ཉེ་བརྩི། །ལུས་བུས་ཐོན་བུ་བརྩི་བར་བཞེད། །ལུས་གྲོགས་ཆུང་མ་བརྩི་བ་ཡིན། །བུད་མེད་ཡིན་ན་བུ་སྐལ་བརྩི། །སྐྱེས་པ་ལུས་དགྲས་ཐ་མ་ཡི། །བུ་ཡི་སྐལ་བ་ཆེ་ཆུང་བརྩི། །བུད་མེད་ལུས་དགྲས་ཁྱོ་སྐལ་བརྩི། །ལུས་ཀྱི་གྲོགས་ལ་ཆུང་མ་བརྩི། །དབང་ཐང་ནོར་གྱི་སྐལ་བ་བརྟག །དབང་ཐང་མ་ལ་སྲིང་མོ་བརྩི། །དབང་ཐང་བུ་ལ་བུ་མོ་བརྩི། །དབང་ཐང་གྲོགས་ལ་ལོ་ཏོག་དང་། །ནོར་གྱི་སྐལ་བ་བརྩི་བ་ཡིན། །དབང་ཐང་དགྲ་ལ་གསོས་འཇལ་དང་། །གོད་ཁ་བརྩི་བར་བྱེད་པ་ཡིན། །ཀླུང་རྟས་མི་ཁ་བྱམས་མི་བྱམས། །ཡིད་ཚང་ཐོབ་དང་མི་ཐོབ་སྟེ། །ཀླུང་མས་བུ་ཡི་འཕྲོད་མི་འཕྲོད། །ཀླུང་བུས་སྤྱང་པོ་འོང་མི་འོང་། །ཀླུང་གྲོགས་ཚོང་གི་ཁེ་སྤོགས་དང་། །རྨིག་ཟླུམ་བརྩིའོ་ཀླུང་དགྲ་ཡིས། །མཐོ་གནོན་གཉའ་གཅོག་འོང་མི་འོང་། བུད་མེད་རྒྱུག་སྙིང་དགྲར་ལྡང་བརྟག ༧ །དེ་ནས་ཁ་དམར་སྲོག་དར་བའི། །རབ་གཉིས་བྱུང་ན་ཚེ་ཡི་གཏེར། །ལྗོན་ཤིང་གྲལ་ལ་བཀོད་པ་འདྲ། །ཕ་མ་སྤུན་ལ་གཟན་པ་ནི། །སྤུ་གྲི་ཀླད་ལ་བསྐོར་བ་འདྲ། ༧ །སྲོག་དར་འབྲིང་པོ་གཉིས་ལ་སྐྱེས། །སྲོག་གི་ལོངས་སྤྱོད་སྲོག་མི་འཆད། །མི་འགྱུར་བརྟན་པས་རི་བོ་འདྲ། །ཚེ་ནི་རིང་བར་བཤད་པ་ཡིན། ༧ །སྲོག་དར་ཐ་མ་གཉིས་ལ་སྐྱེས། །ཚེ་ལ་བདུད་ཀྱིས་མི་བརྐུ་བར། །ལྕགས་ཀྱི་སྲན་མ་བསྒྲིལ་བ་འདྲ། །ཚེ་ལ་བར་ཆད་མི་འབྱུང་སྟེ། །ཆུ་བོ་ཆེན་པོའི་རྒྱུན་འབབ་འདྲ། །སྐྲ་སེ་འབལ་ལེ་ཚེ་རིང་འགྱུར། ༧ །སྲོག་ནི་ངན་པའི་རབ་གཉིས་བཙས། །ཚེ་སྟོད་དོ་ཤི་དོ་ཆད་དང་། །ཚེ་ཡི་བར་ལ་བྲེད་དངངས་འོང་། །ཚེ་སྨད་འབྲིང་འོང་ཚེ་ཡུན་འབྲིང་། ༧ །སྲོག་ངན་འབྲིང་པོ་གཉིས་ལ་བཙས། །ལུས་ལ་མཚོན་ཆ་ཕོག་དང་འདྲ། གྲང་ནད་འོང་སྟེ་ཚེ་འབྲིང་ཐུབ། ༧ །སྲོག་ངན་ཐ་མ་གཉིས་ལ་སྐྱེས། །ཚེ་སྲོག་ཞན་པས་ཉེ་སྲོག་འདོན། །ཚེ་ཆོག་ཚེ་སྒྲུབ་བྱ་བ་གནད། །ཚེ་ལ་གློ་བུར་ཡེ་འདྲོག་འོང་། ༧ །སྲོག་མ་བཟང་པོ་དྲུག་ལ་བཙས། །ཕ་ཁུ་ཚེ་རིང་དྲིན་ཆེ་སྟེ། །ཡ་རབས་འོང་ལ༧སྲོག་ངན་དྲུག །ཕ་ཁུ་འགྲོགས་ཡུན་ཐུང་བ་དང་། །དྲིན་དང་ཕན་ཐོགས་ཆུང་བ་ཡིན། ༧ །སྲོག་བུ་བཟང་བ་དྲུག་ལ་སྐྱེས། །སྤུན་དང་ཟླ་ཡི་སྐལ་བ་ཆེ། ༧ །སྲོག་བུ་ངན་པ་དྲུག་ལ་བཙས། །སྤུན་ཟླའི་སྐལ་ཆུང་འགྲོགས་ཡུན་ཐུང་། ༧ །སྲོག་གི་གྲོགས་ནི་བཟང་དྲུག་བཙས། །རྨིག་པ་ཁ་དབྲག་ནོར་འཕྲོད་ཅིང་། །ཕྱུགས་ཟལ་ཆག་པ་འཕྲོད་པ་ཡིན། ༧ །སྲོག་གྲོགས་ངན་དྲུག་ལ་བཙས་ན། །ཕྱུགས་མི་འཕྲོད་ལ་ཕྱུགས་གོད་འོང་། ༧ །སྲོག་དགྲ་བཟང་དྲུག་སྐྱེས་པ་ན། །ཐ་མ་གྲིར་འཆི༧ངན་དྲུག་སྤྱིས། །མཚོན་བརྒྱ་ཕོག་ཀྱང་ཐ་གྲི་ལ། །མི་འཆི་ལུས་དར་རབ་གཉིས་སྐྱེས། །ལུས་ནི་དར་ན་ཕུང་པོའི་གཏེར། །གཡུ་ཤ་ལ་ཁར་ཐོན་པ་འདྲ། །སྤུན་ཟླ་འཁོར་ལ་གཟན་པ་ནི། །ལྕུག་ཕྲན་ཟོར་བས་བཏབ་པ་འདྲ། །ཁྱིམ་སོ་མང་དུ་ཟློས་པ་ནི། །འཁོར་ལོ་དྲག་ཏུ་བསྐོར་བ་འདྲ། ༧ །ལུས་དར་བ་ཡི་འབྲིང་གཉིས་སྐྱེས། །ལུས་ཀྱི་ལོངས་སྤྱོད་ཡན་ལག་རྒྱས། །ན་ཚ་དཀོན་ལ་རྩལ་སྟོབས་ཆེ། །ཁྱིམ་སོ་བྱེ་བྲལ་བྱེད་པ་ཡིན། ༧ །ལུས་དར་ཐ་མ་གཉིས་ལ་བཙས། །ཁ་བཞིན་མཛེས་ལ་མགྲིན་པ་མཐོ། །པདྨ་མེ་ཏོག་རྒྱས་འདྲ་སྟེ། །ཁྱིམ་ཁ་ཨེན་རེ་ཟློས་པ་ཡིན། ༧ །ལུས་ངན་པ་ཡི་བཟང་གཉིས་བཙས། །ཆུང་དུས་ནད་མོད་ཆེར་སོང་ནས། །ནད་དཀོན་ལུས་ལ་གྲང་ནད་འབྱུང་། ༧ །ལུས་ངན་འབྲིང་པོ་གཉིས་ལ་བཙས། །ལུས་ལ་ན་ཚ་མོད་པར་འོང་། །ལ་ཕུག་སྲིན་གྱིས་ཁྱེར་བ་འདྲ། །རྟག་ཏུ་བན་བོན་མཆོད་དགོས་མང་། ༧ །ལུས་ངན་ཐ་མ་གཉིས་ལ་སྐྱེས། །ཨ་ན་ཨ་ཚ་རྒྱུན་མི་ཆད། །ཁ་ནས་ཧུ་ཁྱུ་དང་མི་འབྲལ། །ན་ཚ་མང་བར་འབྱུང་ཉེན་ཡོད། ༧ །ལུས་མ་བཟང་དྲུག་ལ་སྐྱེས་ན། །ཞང་ཉེ་མ་སུ་དྲིན་ཆེའོ། །འགྲོགས་ཡུན་རིང་བར་འོང་དགོས་སོ། ༧ །ལུས་མ་ངན་དྲུག་ལ་སྐྱེས་ན། །ཞང་ཉེ་མ་སུ་དམའ་བོར་འོང་། །དྲིན་ནི་ཆུང་ལ་ཐ་ཡང་ངན། ༧ །ལུས་ཀྱི་བུ་ནི་བཟང་དྲུག་བཙས། །ཤེས་ཅན་བུ་འོང་ཕ་བས་དྲག །ལུས་བུ་ངན་དྲུག་ལ་སྐྱེས་ན། །བུ་ནི་གསོ་དཀའ་ཆད་ལྷག་མང་། ༧ །ལུས་ཀྱི་གྲོགས་ནི་བཟང་དྲུག་བཙས། །ཆུང་མའི་དབང་ཐང་ཆེ་བ་ཡིན། ༧ །བུད་མེད་ལུས་ཀྱི་གྲོགས་བཟང་དྲུག །བུ་སྐལ་ཆེ་ཞིང་གསོ་སླ་འོང་། ༧ །སྐྱེས་པ་ལུས་ཀྱི་གྲོགས་ངན་དྲུག །བཙས་ན་ཆུང་མའི་སྐལ་བ་ཆུང་། །བུད་མེད་ལུས་གྲོགས་ངན་དྲུག་སྐྱེས། །བུ་སྐལ་ཆུང་ལ་བུ་མོ་མང་། །ཤི་དང་ཆད་པའི་སྡུག་བསྔལ་མེད། ༧ །བཟང་དྲུག་སྐྱེས་ན་བུ་གསོ་དཀའ། །ཕ་མ་ལས་ནི་ངན་པ་འོང་། །ཡུལ་ཞིང་མི་ལ་འཆོར་ཉེན་ཡོད། ༧ །བུད་མེད་ལུས་དགྲ་བཟང་དྲུག་སྐྱེས། །ཁྱོ་སྐལ་ཆེ་ཞིང་བྱམས་པར་འོང་། ༧ །ངན་དྲུག་ལ་སྐྱེས་བུ་དེ་ནི། །ཕ་དང་མ་ལས་དྲག་པ་འོང་། །མདུན་ས་ཟིན་ཏེ་བུ་སྐལ་མང་། ༧ །བུད་མེད་ངན་དྲུག་སྐྱེས་པ་ན། །ཁྱོ་སྐལ་ཆུང་ཞིང་བྱེ་བྲལ་འོང་། །ལུས་དགྲ་ན་ཤི་དུར་ཞུགས་བཙས། །ཁྱོ་ཤི་བ་ཡི་ཟླ་བ་ཡིན།།དབང་ཐང་དར་བའི་རབ་གཉིས་སྐྱེས། །དབང་ཐང་དར་བས་བུ་ནོར་འཕེལ། །འཕེན་དར་བཙན་ཕྱུག་ལྡན་པ་ནི། །མདུང་ལ་བ་དན་བཏགས་པ་འདྲ། །ནོར་ཕྱུགས་ཅི་བྱར་བཏུབ་པ་ནི། །གནག་ཕྱུགས་སྤང་ལ་སྐྱེས་པ་འདྲ། ༧ །དབང་ཐང་དར་བའི་འབྲིང་གཉིས་སྐྱེས། །དབང་ཐང་བདེ་ལྡན་ཡོ་བྱད་འཕེལ། །ཞིང་ས་དྲོད་ལ་ཕེབས་པ་འདྲ། །ཚེ་སྨད་སྐྱིད་པར་འོང་བ་ཡིན། ༧ །དབང་ཐང་དར་བའི་ཐ་གཉིས་བཙས། །བུ་ནོར་དང་ལྡན་རིན་པོ་ཆེའི། །གླིང་དུ་ཕྱིན་པ་འདྲ་བ་ཡིན། ༧ །དབང་ཐང་ངན་པའི་རབ་གཉིས་སྐྱེས། །ནོར་ལ་གང་སྟོངས་ཆེ་བར་འོང་། ༧ །དབང་ཐང་ངན་པའི་འབྲིང་གཉིས་སྐྱེས། །རྟག་ཏུ་ནོར་ལ་གོད་ཁ་འོང་། ༧ །དབང་ཐང་ངན་པའི་ཐ་གཉིས་སྐྱེས། །ཁ་ན་ཡོད་པ་ལྕེ་ཡིས་འཕུལ། །ལག་ན་ཡོད་པ་སྒོ་ལ་འདོན། །ནོར་ལ་གོད་ཁ་རྒྱུན་མི་ཆད། ༧ །དབང་ཐང་མ་ནི་བཟང་དྲུག་བཙས། །སྲིང་མོ་མཛངས་ཏེ་ཕན་ཐོགས་ཆེ། ༧ །དབང་ཐང་མ་ནི་ངན་དྲུག་བཙས། །བུ་སྲིང་ཐག་རིང་ཕན་ཐོགས་ཆུང་། ༧ །དབང་ཐང་བུ་ནི་བཟང་དྲུག་བཙས། །བུ་མོ་ཕན་ཐོགས་ལན་ལོན་འོང་། །ནོར་བུ་བཟང་པོ་ཚགས་གྱིས་ཤིག ༧ །དབང་ཐང་བུ་ནི་ངན་དྲུག་བཙས། །བུ་མོ་ཕན་ཐོགས་ལན་ལོན་དཀའ། །བུ་མོའི་སྐལ་བ་ཆུང་ཉེན་ཆེ། ༧ །དབང་ཐང་གྲོགས་ཀྱི་བཟང་དྲུག་བཙས། །ལོ་ཏོག་འབྲུ་ཡི་སྐལ་བ་ཆེ། །བྲན་འཁོར་བློ་བརྟན་སྙིང་ཆེ་དགོས། །ནོར་སྐྱོང་ཁྱི་བཟང་བསྟེན་པ་གཅེས། ༧ །དབང་ཐང་གྲོགས་ནི་ངན་དྲུག་བཙས། །ལོ་ཏོག་འབྲ་ཡི་སྐལ་བ་ཆུང་། །བྲན་འཁོར་ཉེ་བར་ངན་པ་འོང་། །ཆུང་མ་ཁ་ཉོག་འབྱུང་བས་ན། །སྒོ་ཁྱི་གསོས་ཀྱང་ངན་པ་འབྱུང་། ༧ །དབང་ཐང་དགྲ་ནི་བཟང་དྲུག་སྐྱེས། །ནོར་ལ་གོད་ཁ་འོང་བ་དང་། །སོས་སྟོང་བག་ཙམ་འཇལ་བ་ཡིན། ༧ །དབང་དགྲ་ངན་དྲུག་སྐྱེས་པར་བཞེད།།དབང་ཐང་དགྲ་ནི་ངན་དྲུག་བཙས། །གོད་ཁ་ཆུང་སྟེ་བཟང་བ་ཡིན།།ཀླུང་རྟ་དར་བའི་རབ་གཉིས་སྐྱེས། །ཡིད་ཚང་གཏེར་ལ་གསོན་འཁྱམས་པ། །མི་འབྱུང་གསེར་ལ་གཡུ་སྤྲས་འདྲ། །སྔགས་ཀྱི་ཁ་ན་སྲ་བ་ནི། །ལྕགས་ཀྱི་སྤྱིལ་བུ་ཕུབ་པ་འདྲ། །མི་ཁ་དབང་དུ་བསྡུ་བ་ནི། །བལ་འདབ་རྡོ་ཡིས་མནན་པ་འདྲ། །ཀུན་གྱི་རེ་སར་གྱུར་པ་སྟེ། །བྱེའུ་ཆུ་ལ་རུབ་པ་འདྲ། །དགོས་དགུ་རང་ལ་ཚང་བ་དེ། །སྨན་གྱི་སྡོང་པོ་རྒྱས་པ་འདྲ། ༧ །ཀླུང་རྟ་དར་བའི་འབྲིང་གཉིས་བཙས། །སྨྲས་པས་གོ་ཆོད་ཕྱིན་པ་ཡིས། །ལམ་བྱམས་སྟག་རིས་སྤྲས་པ་འདྲ། །མི་ཆེན་གོང་མ་བྱམས་པ་འོང་། ༧ །ཀླུང་རྟ་དར་བའི་ཐ་གཉིས་བཙས། །ཐབས་ཀྱི་ལམ་རྣམས་འགྲུབ་པ་སྟེ། །ཝ་ཡིས་སྟག་སྙིང་ཟོས་པ་འདྲ། །བྱེས་སུ་མི་རྣམས་བྱམས་པར་འོང་། ༧ །ཀླུང་རྟ་ངན་པའི་བཟང་གཉིས་སྐྱེས། །མི་ངན་ལྡང་ལ་བཟང་པོ་བྱམས། ༧ །ཀླུང་རྟ་ངན་པའི་འབྲིང་གཉིས་བཙས། །ཁྱིམ་དུ་ཟས་ཟོས་ཆུ་འཐུང་ཀྱང་། །སྒོ་རུ་བརྟོལ་ནས་འཕྱ་ཁ་གཏོང་། །ཕན་པ་ཕར་བཏགས་གནོད་ཚུར་སྐྱེལ། ༧ །ཀླུང་རྟ་ངན་པའི་ཐ་གཉིས་བཙས། །ཕྱི་ནང་མེད་པར་མི་ཁ་སྡང་། ༧ །ཀླུང་རྟའི་མ་བཟང་དྲུག་ལ་བཙས། །ཕུ་བོ་ཕ་མ་དག་ལ་བཟང་། །རྗེ་དང་སློབ་དཔོན་སྐལ་བ་ཆེ། ༧ །ཀླུང་རྟའི་མ་ངན་དྲུག་ལ་བཙས། །དུར་ས་ངན་པས་མི་ཤེས་ཆུང་། །ཁུ་བོ་ཕ་དང་མ་ལ་ངན། །རྗེ་དང་དཔོན་སྐལ་ཆུང་བ་ཡིན། ༧ །ཀླུང་རྟའི་བུ་ནི་བཟང་དྲུག་སྐྱེས། །བུ་ནི་དྲག་པར་སོང་བ་ཡིན། ༧ །ཀླུང་རྟའི་བུ་ནི་ངན་དྲུག་སྐྱེས། །བུ་སྒོ་འབྲིང་འོང༧ །ཀླུང་རྟའི་གྲོགས། །བཟང་བ་དྲུག་སྐྱེས་བྱེས་འཕྲོད་དེ། །ཚོང་དང་གྲོགས་ཆེ་གྲོགས་ངན་དྲུག །བཙས་ན་བྱེས་མི་འཕྲོད་པ་དང་། །ཚོང་གྲོགས་ཆུང་ལ་ཀླུང་དགྲ་ནི། །ངན་དྲུག་བཙས་པ་སྨྲ་བྱུང་ཡང་། །མི་འཇིགས་སྨ་རུ་རང་མི་ཉན། ༧ །བཟང་བ་དྲུག་ལ་བཙས་པ་ན། །རྟག་ཏུ་དགྲ་དང་ཁ་སྨྲས་འོང་། །གཉེན་ཡིན་བསམ་པ་དགྲ་ལ་འོང་། །དགྲ་སྲི་དགྲ་བྲུབ་བྱེད་ལ་འབད། ༧ །དེ་ལ་མ་གཞི་དཀར་པོར་བྱུང་། །ཕ་མས་དར་བུ་ཡ་རབས་བརྒྱུད། ༧ །མ་བཞི་ནག་ན་ཕ་མེས་གུད། །ཕ་དྲིན་ཆུང་ལ་རྒྱབ་བརྟེན་མིར། །བཙལ་དགོས་ཡིན་ལ༧ །དཀར་ནག་ཕྱེད། །བྱུང་བ་ཕ་མེས་སྐྱིད་སྡུག་དང་། །དར་གུད་ཆེ་ཞིང་གཞན་ཡང་ནི། ༧ །སྲོག་ལུས་དབང་ཀླུང་བཞི་པོ་ཡི། །རྡེལ་དཀར་མང་བྱུང་མིས་ཁུར་འོང་། །བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ། །མ་ལུས་རང་གིས་རྟོགས་པ་ཡིན། ༧ །རྡེལ་ནག་མང་ཤར་བསོད་ནམས་ཆུང་། །ཆོས་ལ་རྒྱབ་བརྟེན་བྱ་བར་བཟང་། །མི་ཡི་བྲན་བྱེད་དགོས་པ་ཡིན། ༧ །དེ་ལ་བུ་བཞི་དཀར་པོ་བྱུང་། །ཕ་བས་བུ་བཟང་ཕ་མེས་ཀྱི། །ཡུལ་མཁར་ཟིན་པ་འོང་བ་ཡིན། ༧ །བུ་བཞི་ནག་བྱུང་བྱིས་པ་ནི། །གསོ་དཀའ་མགོ་མི་ཐོན་པ་འབྱུང་། ༧ །འདྲེས་མ་ཕྱེད་སོས་ཕྱེད་མི་སོས། ༧ །གྲོགས་བཞི་དཀར་ན་ཁ་རྗེ་དང་། །ཟ་ཐང་ཆེ་ལ་སྟག་རིས་འདྲ། ༧ །གྲོགས་བཞི་ནག་ན་དར་གུད་ནོར། །གང་སྟོངས་ཆེ་འོང༧་འདྲེས་མ་དེ། །ཡོད་མི་བདེན་ལ་མེད་པ་འོང་། །མི་བདེན་ནོར་རྫས་འབྲིང་དུ་འོང་། ༧ །དེ་ཡང་སྲོག་རང་དར་བ་ལ། །དགྲ་གུད་བཟང་སྟེ་དེ་ལྡོག་ངན། ༧ །དབང་ཀླུང་རྣམས་ཀྱང་དེ་བཞིན་ཡིན། ༧ །སྲོག་གུད་ཆགས་ཆེ་སྲོག་གི་དགྲ། །དར་ལ་སྐྱེས་ན་ཐ་གྲིར་འཆི། །དེ་ཡི་རིགས་པས་གཞན་རྣམས་ཤེས།།
+
+**The grades** (p. 335). The twelve stages ranked in threes: of the good
+six, dressing and flourishing the best of the best, birth and working
+the middle, body complete and bathing the last; of the bad six, taking
+breath and the womb the best of the bad, the tomb and illness the
+middle, death and decline the worst. The enemies of the life force, power
+and luck are wanted on the bad six, the body's enemy on the good; the
+power in the tomb is «བཏུང་བ་ཙམ» (not clear); the life force's tomb is not laid,
+being the parents' parting month, bad; illness is bad for oneself,
+flourishing bad for the friend. Then each aspect's own, mother, son,
+friend and enemy are read by grade, the best two, middle two and last
+two of the good and of the bad (pp. 336–338); the life force's mother
+reckons the father and uncles, its son the siblings, its friend the
+livestock, its enemy death by the blade; the body's mother the maternal
+aunts and uncles, its son the children, its friend the wife (for a woman
+her children's share), its enemy for a man the last son's share, for a
+woman the husband's share; the power's mother the sisters, its son the
+daughters, its friend the harvest, its enemy debts and losses; the
+luck whether people love one and contentment, its mother whether the
+children suit, its son whether a clever one (སྤྱང་པོ, spyang po) comes,
+its friend trade's profit and the livestock, its enemy whether one is
+oppressed (for a woman, «རྒྱུག་སྙིང», not identified, rising as an enemy).
+
+**The sets read whole** (p. 338, img. 348, read on the scan line by line;
+the etext's gaps in [verdicts.md](verdicts.md) filled):
+
+- **The mothers as the base** (མ་གཞི, ma gzhi; the notes, p. 484: «མ་བཞི་ཞེས་པ་སྲོག་ལུས་དབང་ཀླུང་གི་མ་བཞིའོ», the four mothers are those of the life
+  force, body, power and luck): white, the parents flourish and the noble
+  line continues; the four black, the forefathers decline, little kindness
+  from the father, support to be sought from others; half white and half
+  black, the forefathers' joys and sorrows, rise and decline great.
+- **The white or black of all four aspects together**: many white
+  pebbles among the life force, body, power and luck, carried by others,
+  works accomplished, all understood by oneself (the line's «རག་མི་ལ» is not
+  clear); many black, little merit, good to rely on the dharma, one must
+  serve others.
+- **The four sons**: white, a son better than his father who holds the
+  forefathers' land and castle; black, children hard to raise, who do
+  not come of age («མགོ་མི་ཐོན»); mixed, half live and half do not.
+- **The four friends**: white, standing and a great share of food, like
+  the tiger's stripes; black, wealth rises and falls, great losses;
+  mixed, what is there is not real, what is not comes, wealth middling.
+- **Own against enemy**: the life force's own rising and its enemy in
+  decline is good, the reverse bad; the power and luck the same. The life
+  force in decline with its enemy born rising: dies at last by the blade.
+  "By this reasoning know the rest."
+
+### The twenty-one children of the secret *yang tig* (pp. 338–340, img. 348–350)
+
+From the *Secret Innermost Essence* (གསང་བ་ཡང་ཏིག, gsang ba yang tig):
+seven good children, seven middling and seven bad, each defined, then the
+three groups' results and the signs at birth:
+
+> གཞན་ཡང་གསང་བ་ཡང་ཏིག་ལས། །རང་བཞིན་ཆགས་པའི་བུ་དང་གཅིག(༡) །ལས་ཅན་རིགས་རྙེད་བུ་དང་གཉིས(༢) །བསོད་ནམས་ལྷུན་གྲུབ་བུ་དང་གསུམ(༣)། །འབྱུང་བ་གསོ་བསྐྱེད་བུ་དང་བཞི(༤)། །རྟེན་འབྲེལ་རུས་པའི་བུ་དང་ལྔ(༥)། །དཔལ་ཆེན་ལྷ་འདྲེའི་བུ་དང་དྲུག(༦) །རིགས་ཅན་ཚེ་ཡི་བུ་དང་བདུན(༧)། །དེ་ནི་བཟང་པོའི་བུ་བདུན་ནོ། །རང་ཚེ་རང་གིས་རྙེད་པ(༡)དང་། །རང་ལུས་ལས་ཀྱིས་རྙེད་པ(༢)དང་། །དཔལ་ཆེན་ཕ་ཡི་བུ་དང་གསུམ(༣) །རྟེན་ཅན་མ་ཡི་བུ་དང་བཞི(༤) །རྩལ་ཆེན་སྟོབས་ཀྱི་བུ་དང་ལྔ(༥) །ནོར་ཅན་རྫས་ཀྱི་བུ་དང་དྲུག(༦) །བརྟེན་པ་རྟགས་ཀྱི་བུ་དང་བདུན(༧) །དེ་ནི་འབྲིང་པོའི་བུ་བདུན་ཡིན། །ཐ་མ་བཤན་པ་བདུད་འབེབས་བུ(༡) །འཁོར་བ་གཏིང་ནས་ལོག་པ(༢)དང་། །སྐྱེ་གནས་འཁོར་བ་རུ་ལོག(༣)དང་། །མདུང་ཤུལ་སྲིན་མོ་སྤར་རྗེས(༤)དང་། །ལྟས་ངན་སྲིན་པོ་ཕ་གཅོད(༥)དང་། །གནོད་སྦྱིན་སྲིན་མོ་མ་གཅོད(༦)དང་། །སྲིན་བུ་རང་ཚེ་རྒྱལ་དང་བདུན(༧)། །དེ་ལྟར་ངན་པ་བདུན་དུ་བཤད། །བཟང་པོའི་འབྲེལ་བ་འདི་ལྟར་ཡིན།།ལོ་ཡིས་བསྐྱེད་དང་ཕ་ཡིས་གསོ། །ཟླ་བས་བསྐྱེད་དང་མ་ཡིས་བསྟེན། །གཟའ་བཞིའི་དུར་དུ་མ་སོང་བ། །ངན་ཀླུང་གང་གིས་མ་གོས་པ། །གཟའ་སྐར་བཟང་དང་ཡར་གྱི་ངོ། །སྲོད་དང་སྔ་དྲོའི་དུས་ལ་བཙས། །དེ་ནི་རང་བཞིན་ཆགས་པས་བཟང(༡)། །ལས་ཅན་རིགས་ལ་སྙེག་པ་དང་། །ཟླ་བའི་གདོང་དང་སྐར་མ་ཉ། །འཇུག་དུས་ལས་བཟང་བྱ་བྱེད་བཟང་། །སྐྱེས་དུས་དབང་པོ་འབྲས་བུ་བཟང་། །དེ་ནི་ལས་ཅན་རིགས་ལ་སྙེག(༢)།གང་བྱས་བསགས་པ་བཟང་བ་དང་། །ཅི་བྱས་དབང་ཐང་ལུད་པ་དང་། །ངན་པ་ནོར་ཀྱང་དཔལ་དུ་འཛོམ། །བསོད་ནམས་ལྷུན་གྲུབ་བུ་ཡིན་བཟང(༣)། །འབྱུང་བ་ངན་འོག་མ་ལྷུང་བ། །དགྲ་གཤེད་བདུན་ཟུར་མེད་པ་དང་། །ལོ་ཟླ་གཉིས་ཀྱིས་མ་བཅད་པ། །སྤར་སྨེ་དགྲ་ཐོག་བདུད་གཅོད་དང་། །བསད་ལས་མ་དང་མ་འཛོམ་པ། །དེ་ནི་འབྱུང་བ་གསོ་བསྐྱེད་བུ(༤)། །རྟེན་འབྲེལ་རུས་པ་མ་འཕྱུགས་ཤིང་། །དགྲ་གཤེད་ལོག་པ་མ་ཡིན་པ། །སྤར་ཁ་སྨེ་བས་མ་བཅད་པ། །གཟས་ཟིན་ས་བདག་ངན་པ་ལ། །ཞུགས་སྐྱེས་མ་བྱས་རྟེན་འབྲེལ(༥)ཡིན། །ལྷ་འདྲེ་དྲག་པོས་བྱིན་པ་དང་། །ཕོ་ལྷ་ཕ་མེས་ཁོངས་སུ་ཞུགས། །གཏོ་དང་དཔྱད་དང་འབྱུང་བ་ལོག །རྨི་ལམ་ལྷ་འདྲེ་དྲག་པོ་འོང་། །རྩིས་བྱ་མི་དགོས་ལས་ཀླུང་ལྟོས། །དཔལ་ཆེན་ལྷ་འདྲེའི་བུ་འང་ཡིན(༦)། །རིག་འཛིན་ཚེ་ཡི་ཚད་དུ་ཁྱེར། །ལྷ་དང་དཔལ་དང་མཐུན་པ་དང་། །ལྟས་བཟང་དུས་སུ་སྐྱེས་པ་དང་། །ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས། །བྱ་བྱེད་གང་ཡང་བཟང་བ་དེ།།རིགས་ཅན་ཚེ་ཡི་བུ་ཞེས་བྱ(༧)། །རང་བཞིན་བཟང་ཞིང་ལྷ་སྲུང་སྐྱོབ། །གདོན་དང་ནད་ངན་མི་ཚུགས་ཤིང་། །མི་ནི་དགའ་ཞིང་ནོར་ཡང་སྟེར། །མིས་བྱས་ངོ་སོ་རང་ལ་འོང་། །ངན་པའི་དུས་ལ་མ་བཙས་པ། །རང་ཚེ་རང་གིས་རྙེད་པ་ཡིན(༡)། །རང་ལུས་ཁོང་ནས་རྒྱས་པ་དང་། །ལྟེ་བ་སྒོམ་ཐག་རིས་སུ་གྱོན། །སྐྲ་བཟང་ཤ་ཚུགས་ལེགས་པ་དང་། ནམ་གྱི་རིང་ལ་སྐྱེད་ཆེ་བ། །རང་ལུས་ལས་ཀྱིས་རྙེད་པའི་བུ(༢)། །དཔལ་ཆེན་ཐབས་དང་རྟེན་འབྲེལ་ཡིན། །ཆོས་ཞུས་དབང་ཞུས་བྱིན་རླབས་རྟེན། །ལས་ཀྱི་མཁའ་འགྲོའི་བུ་ཡང་ཟེར། །འབྱུང་བའི་རང་ཀླུང་མ་ཕོག་པས། །ཕ་ལ་བུས་སྐྱོབ་དཔལ་ཆེན་བུ(༣)། །རྟེན་ཅན་མ་ཡི་བྱུར་ཀླུང་མེད། །མ་བྱུར་བུ་ལ་མ་ལྷུང་བ། །རང་བྱུར་ཐོག་ཏུ་མ་ལྷུང་བ། །ལྷ་དཔལ་འདྲེ་བདུད་མ་བཅད་པ། །རྟེན་ཅན་མ་ཡི་བུ་ཞེས་བྱ(༤)། །རྩལ་ཆེན་སྡིག་པའི་ཕྱོགས་ལ་དགའ། །ངང་རྒྱུད་བུད་མེད་དག་ལ་རིང་། །ཤེས་རབ་ལོག་པའི་ཕྱོགས་ལ་ཆེ། །གཟའ་རྒོད་འདོམ་སྐྱེས་སྟོབས་ཀྱི་བུ(༥)། །ནོར་དེ་ཁོང་དུ་ཞུགས་དང་རྒྱས། །ཚོང་དང་གྲོགས་དང་མགྲོན་ཡང་རྒྱས། །དམའ་ས་བཟུང་ཡང་སྟོད་དུ་འོང་། །ནོར་རྫས་རྣམ་སྲས་ལྟ་བུར་འོང་། །མི་ཁ་བྱམས་ཤིང་ངང་རྒྱུད་རིང་། །འབྱུང་བའི་དགྲ་རྒྱལ་ནོར་བུའོ(༦)། །བརྟེན་པ་རྟགས་ཀྱང་ཕ་ཡང་བརྟེན།།ཁ་ལག་ནོར་དང་རྫས་ཀྱང་བརྟེན། །མིང་གི་ཞང་ལྷ་མ་ལྷ་བརྟེན། །འབྱུང་བ་ཁོད་སྙོམས་དུས་སུ་སྐྱེས། །བརྟེན་པ་རྟགས་ཀྱི་བུ་དང་བདུན(༧)། །ཐ་མ་བཤན་པ་བདུད་འབེབས་ནི། །ལོ་ཡིས་བཅད་དང་ཟླ་བས་བཅད། །དགྲ་ཐོག་དུར་ཐོག་མ་ཡང་འཕྲོག །གསུམ་འདོམ་གཟའ་སྐར་ལུས་ནག་འདོམ། །དགྲ་གཟའ་ལོ་སྐར་བབས་པ་ལ། །སྐྱེས་པ་ངན་ནོ་བཤན་པ་ཡིན(༡)། ༧།འཁོར་བ་གཏིང་ལོག་ངན་དགུ་འཇོམ། །དགྲ་ཐོག་གཤེད་ཐོག་བཙས་པ་དང་། །ཁམས་ཀྱི་དགྲ་ལོ་ངན་པ་དང་། །ཕ་ཚན་སེལ་གྱི་ལོ་པ་བྱུང་། །འཁོར་བ་གཏིང་ལོག་ཡིན་པར་གོ(༢)། །སྐྱེས་པ་ཟླ་ནག་ལུས་ནག་དང་། །གཉིས་ནག་གསུམ་འདོམ་བདུད་ཀྱི་སྒོ། །ཕུར་བུའི་གཟའ་ལ་པ་སངས་སྐྱེས། །མེ་ཡི་སྟེང་དུ་ཆུ་ཡང་རྡོལ། །འཁོར་བ་རུ་ལོག་ཅེས་བྱའོ(༣)། །མདུང་ཤུལ་སྲིན་མོ་སྤར་རྗེས་ནི། །སྟག་ལོ་མ་ལ་ཁོང་དུ་ནི། །སྤྲེལ་ལོ་ཞུགས་ནས་མེ་ཟླར་སྐྱེས། །ལྟས་ངན་རང་གིས་ཚོར་བའོ(༤)། །ལྟས་ངན་སྲིན་པོ་ཕ་གཅོད་དེ། །ཕ་ལོའི་སྟེང་དུ་བུ་ལོས་མནན། །ཟླ་བ་བདུན་ཟུར་ཞག་ནི་གཤེད། །ནམ་ཕྱེད་ཉི་ཕྱེད་ཟེར་གཉིས་བཙས། །སྐྱེས་དུས་དབང་པོ་ཡན་ལག་སྐྱོན། །ལྟས་ངན་ཤ་མཚན་རིས་སུ་ཤར(༥)། །གནོད་སྦྱིན་སྲིན་མོ་མ་གཅོད་དེ། །མ་ཡི་སྐྱེས་པའི་ལོ་ཟླ་དེ། །བུ་ཡི་གཤེད་ལོས་མནན་པ་དང་། །ཁོང་ནས་ཤི་བར་ཅུང་མ་བདེ། །ནོར་རྫས་རླུང་ལྟར་ཡལ་ནས་འགྲོ། །མི་ཁ་སྡང་ཞིང་ནོར་རྫས་མེད། །ནོར་རྫས་ཁ་མཆུའི་ཕྱོགས་ལ་འབོ། །མ་རོ་བུ་ཡིས་ཟ་བ་ཡིན(༦)། །སྲིན་བུ་རང་ཚེ་རྒྱལ་བ་དེ། །ཕ་མའི་ལོ་ཟླ་དྲག་པོས་བཅད། །རང་གི་ལོ་ཡིས་རང་བསད་པ། །ཟླ་བ་དུས་ཚོད་གཟའ་སྐར་དགྲ། །ཐམས་ཅད་ངན་པའི་བུ་ཚ་དེ། །ལོ་བརྒྱ་ཐུབ་ཀྱང་ཚང་དུ་ལྡོག །བཙས་དུས་འཕྲལ་ལ་ལོག་པར་བྱེད(༧)། །བཟང་པོའི་བདུན་ལ་སྐྱེས་པ་དེ། །ལྷ་དང་ཀླུ་ཡི་ནོར་བུ་འདྲ། །དགོས་འདོད་ཐམས་ཅད་འབྱུང་བ་དང་། །ཚེ་རིང་རྫས་མོད་བསོད་ནམས་ཆེ། །ཡ་རབས་བྱམས་ཤིང་མི་ཁ་བཟང་། །དགྲ་དང་གཉེན་གྱིས་བུ་ལྟར་འཚོ། །ཆོས་དང་ནོར་དང་བདེ་བ་འགྲུབ། །སྐྱེས་དུས་གན་རྐྱལ་མགོ་བོ་བྱང་། །ཁ་ནི་ནུབ་བལྟས་སྐྲ་མཚམས་མཐོ། །སྐྲ་བཟང་བཞིན་ལེགས་སྐད་ཀྱང་སྦོམ། །རོ་སྟོད་སེང་གེ་འདྲ་བ་འོང་། ༧།འབྲིང་པོ་བདུན་གྱི་སྐྱེས་ཀླུང་ནི། །མི་དང་རྒྱལ་པོའི་ནོར་རྫས་འདྲ། །བསོད་ནམས་སྤྲིན་པར་ཉི་མ་འདྲ། །ཚེ་ནི་འབྲིང་སྟོད་རྫས་སེར་འདྲ། །གང་སྟོངས་མི་རྟག་རྫིང་བུ་འདྲ། །ནད་ནི་གློ་བུར་འགོ་ནད་མང་། །བུ་ཚས་དྲིན་ལེན་ལོག་པར་བྱེད། །ཡང་ན་སྐྱོན་ཅན་ཤི་ཆད་མང་། །སྐམ་ཆགས་མི་འཕྲད་ཁྲག་ཆགས་འོང་། །བུ་མོས་བུ་ཡི་གདན་ས་འཕྲོག །སྐྱེས་དུས་མགོ་ཤར་ཁ་ནི་ལྷོ། །ཟངས་མགོ་ཤ་ཕྲ་བོང་སྐད་འོང་། །མིག་ནི་སྦལ་མིག་གནོད་སྦྱིན་མིག །ལྟེ་བ་ཁར་ཟ་འདུད་པ་འོང་། །ཕ་ཁུའི་ཕྱོགས་སུ་མནའ་ཡང་ཟ། །ཆོས་ལ་བརྣག་དང་སྡིག་ལ་དཀར། །མི་ངན་ཀུན་ལ་བརྫུན་ཅན་འོང་། །རྟ་བོང་དྲེའུ་ཤི་ཆད་མང་། །ཁ་མཆུ་མ་ལེན་ཉེས་པ་འོང་། ༧།ངན་པ་བདུན་པོའི་སྐྱེས་ཀླུང་ནི། །རྐང་ལག་མ་ཚང་ལྷག་པ་དང་། །ཤོ་རེ་དལ་རྒལ་ཡ་སོ་ཅན། །སྐད་ཕྲ་དངོས་ངན་ཤ་ཚུགས་ནག །ལུས་ལ་སྨེ་བ་ཤ་མཚན་ཁྱབ། །མི་ཁ་སྡང་ཞིང་འདྲེ་ཁ་བདོ། །ཆུང་ནད་མོད་ལ་རྫས་རླུང་ཁྱེར། །ཆེ་དུས་སེམས་སྡུག་ཁ་མཆུ་མོད། །ཟོས་ཀྱང་མ་འགྲངས་བཏུང་མ་ངོམས། །བྱས་པས་མི་མགུ་རང་ཡི་ཆད། །ཡུལ་ཁ་ཡང་ཡང་འཕོ་ཞིང་འཛིན། །མི་རིགས་བུ་ཚ་ཡ་བྲལ་གསོ། །བཙས་དུས་ཁ་བུབ་མགོ་བོ་འཆུས། །ལྟེ་བ་རྒྱུ་མ་ལུག་པ་འདྲ། །ཐ་མ་སྤྲང་འཁྱམས་སྡུག་གྲིར་འཆི། །ཡང་ན་ས་བདག་གཅོང་མཛེས་འཛིན། །བུ་མང་ཡོད་ཀྱང་མཐའ་རབས་ཆད། །ནོར་རྫས་ཚེ་སྟོད་ཚེ་སྨད་བྱེད། །བློ་མང་ཁྱིམ་ཁ་དགུ་ཙམ་བལྟ། །དེ་ལ་སྐྱིད་པའི་སྐལ་བ་ཆད།།
+
+The children one by one, with **which of their conditions are dates**
+The notes (p. 484) add that the whole round is reckoned as the mother's
+obstacle reckoning: born at a time good for the mother, the child is
+good, and the mother's year or the child's year comes to the same.
+(D: a date the calendar gives; R: reckonable from the birth with other
+reckonings, often the parents' years; O: an observation or event, not
+reckoned). The notes' glosses (vol. 2, pp. 484–485, below) are in
+brackets.
+
+| | Child | Conditions | Kinds |
+| --- | --- | --- | --- |
+| good 1 | of nature (རང་བཞིན་ཆགས་པའི་བུ, rang bzhin chags pa'i bu) | the year engenders and the father nourishes, the month engenders and the mother supports (the years and months and the parents' power raising the child's life force); not in the tomb of the four planets (the mother's progressed sign that year and her trigram not on the tomb of the child's life force); untouched by bad luck; a good planet and mansion; the waxing half; born at dusk (སྲོད, srod) or in the morning | D: weekday, mansion, waxing half, part of the day. R: year and month against the life force; the four planets (needs the mother) |
+| good 2 | of a karmic line (ལས་ཅན་རིགས་ལ་སྙེག, las can rigs la snyeg) | a good lineage; "the moon's face and the mansion full" (the waxing half in general, above all the full moon with its mansion, born on the 15th); good deeds at conception; good results at birth | D: the waxing half, the 15th. O: the rest |
+| good 3 | of spontaneous merit (བསོད་ནམས་ལྷུན་གྲུབ, bsod nams lhun grub) | whatever is done gathers good, power increases, even bad wealth gathers into glory | O |
+| good 4 | of nourished elements (འབྱུང་བ་གསོ་བསྐྱེད, 'byung ba gso bskyed) | not fallen under bad elements (the luck reckoning good); no enemy, slayer or seventh (in the mother's obstacle reckoning at the birth); not cut by year and month (the life force of the birth year and month not cutting the mother's); trigram and mewa not on the enemy-top nor the demon's cutting (of the mother's life force and birth trigram); «བསད་ལས་མ་དང་མ་འཛོམ་པ» (not clear) | R (needs the mother) |
+| good 5 | of auspicious bones (རྟེན་འབྲེལ་རུས་པ, rten 'brel rus pa) | the clan not wrong (the father's clan); enemy and slayer not reversed (the mother's and child's years not enemy or slayer); the trigram not cut by the mewa (that year's trigram and mewa not cutting the mother's life force); not born at a planet's seizing (གཟའ་འཛིན, gza' 'dzin, an eclipse) nor a bad earth lord's moving | R: clan, trigram, mewa. D: an eclipse («གཟས་ཟིན»), the earth lords |
+| good 6 | of great glory given by gods and demons (དཔལ་ཆེན་ལྷ་འདྲེ, dpal chen lha 'dre) | given by fierce gods or demons; the male god and forefathers entered; rites, remedies and elements reversed (conceived despite medicine, a son where a daughter was reckoned, conceived without a father); dreams of fierce gods and demons; "no reckoning is needed: look to his karma and luck" | O, explicitly not reckoned |
+| good 7 | of a noble life (རིགས་ཅན་ཚེ, rigs can tshe) | carried to the measure of a lineage holder's life (the notes: not found in the other works; perhaps a life long enough to hold the line); agreeing with the gods and glory; born at a time of good omens; born at sunrise and in the month's middle (the 11th to the 20th); whatever is done is good | D: sunrise, dates 11–20. R: gods and glory (pp. 294–297). O: omens |
+| middle 1 | finding his life himself (རང་ཚེ་རང་གིས་རྙེད, rang tshe rang gis rnyed) | good nature, guarded by gods, spirits and illness not striking, liked, given wealth, credit for others' deeds; not born at a bad time | O; "a bad time" unnamed |
+| middle 2 | finding it by his body's karma | the body growing from within, the navel cord worn as a pattern, good hair and flesh, growing much by night | O (signs at birth) |
+| middle 3 | of the father's great glory (དཔལ་ཆེན་ཕ, dpal chen pha) | method and auspicious connection (dharma or empowerments received), "a child of the karma dakini"; the elements' own luck not struck; the son protects the father (his life force and the rest protecting the father's) | R (needs the father). O |
+| middle 4 | supported by the mother (རྟེན་ཅན་མ, rten can ma) | no misfortune luck of the mother; the mother's misfortune not falling on the child (the child's body and power cutting the mother's), nor its own on itself; gods, glory, demons and māras not cut | R (needs the mother) |
+| middle 5 | of strength (རྩལ་ཆེན་སྟོབས, rtsal chen stobs) | delights in the side of wrong, «ངང་རྒྱུད» long with women, wisdom on the wrong side; born when fierce planets meet (གཟའ་རྒོད་འདོམ, gza' rgod 'dom) | D/R: the fierce planets (not defined here). O |
+| middle 6 | of wealth (ནོར་ཅན་རྫས, nor can rdzas) | wealth enters and grows, trade, friends and guests grow, rises from a low place; the elements' enemy conquered | R: the elements. O |
+| middle 7 | of signs and support (བརྟེན་པ་རྟགས, brten pa rtags) | relies on the father, on hand-wealth, on the maternal god and uncle god of the name (the mother and uncle living); born when the elements are balanced (like heat and cold balanced outside) | O: the family living, the weather |
+| bad 1 | the butcher who brings down demons (བཤན་པ་བདུད་འབེབས, bshan pa bdud 'bebs) | cut by year and month; the mother's enemy-top and grave-top; the three meeting of planet, mansion and body black (born on a bad planet and bad mansion, the mother's body pebble black); the enemy planet falling on the year's mansion | D: weekday, mansion. R (needs the mother) |
+| bad 2 | turned back from the depth of samsara (འཁོར་བ་གཏིང་ལོག, 'khor ba gting log) | born on enemy-top and slayer-top (the mother's year's enemy or tomb year, month, day or hour); the element's enemy year; a year clearing the paternal line (the great or small penalty, p. 261) | R: year, month, day and hour against the mother's year; the clan |
+| bad 3 | turned into samsara (འཁོར་བ་རུ་ལོག, 'khor ba ru log) | the black month and black body; two black and three meeting at the demon's door; Venus (པ་སངས, pa sangs) born on Jupiter's planet: "water bursting on fire" (the notes: the black month in general; the mewa two black meeting the mother's mewa two black; the planet of the year's luck that is enemy to the mother's outer planet) | D: the month in general. R: mewa, planets of the mother |
+| bad 4 | the ogress on the spear-track (མདུང་ཤུལ་སྲིན་མོ, mdung shul srin mo) | the mother of a tiger year, conceived in a monkey year, born in a fire month; a bad omen felt oneself (conceived when the mother's year is at its seventh, born in a month enemy to the child's life force) | D: the month of birth. R: conception against the mother's year |
+| bad 5 | the ogre of bad omen who cuts the father (ལྟས་ངན་སྲིན་པོ་ཕ་གཅོད, ltas ngan srin po pha gcod) | the son's year pressing on the father's year (enemy to his life force); the month the seventh (of the child's own); the day one of the four slayers (གཤེད་བཞི, gshed bzhi); born at midnight or noon; senses and limbs flawed; an ill-omened birthmark | D: month, day, hour. R: the father's year. O: the signs |
+| bad 6 | the yakṣa ogress who cuts the mother (གནོད་སྦྱིན་སྲིན་མོ་མ་གཅོད, gnod sbyin srin mo ma gcod) | the mother's birth year and month pressed by the child's slayer year (the year enemy to her life force, or its tomb); unwell from conception; wealth gone like wind; "the son eats the mother's corpse" | R (needs the mother) |
+| bad 7 | the insect whose own life conquers him (སྲིན་བུ་རང་ཚེ་རྒྱལ, srin bu rang tshe rgyal) | cut fiercely by the parents' year and month (the notes: the child's life force or power cutting the life force of the parents' birth year and month); his own year kills him (his power cuts his life force); month, hour, planet and mansion his enemies; "even able to live a hundred years, he turns back at once at birth" | D: month, hour, weekday, mansion against the life force. R: the parents |
+
+**The three groups' results** (p. 340). Born on the good seven: like the
+jewel of gods and nāgas, all needs arise, long life, wealth, great merit,
+loved by the noble, well spoken of, nursed by enemy and friend alike,
+dharma, wealth and happiness accomplished; at birth lying on the back,
+head to the north, face to the west, hairline high, good hair, a deep
+voice, a chest like a lion's. The middle seven: like the wealth of men
+and kings, merit like the sun among clouds, life middling, losses,
+sudden contagious illness, children who repay kindness wrongly or many
+deaths, daughters taking the son's seat; at birth head to the east, face
+to the south. The bad seven: limbs missing or extra, ill-favoured,
+birthmarks, disliked, many illnesses young, sorrow and quarrels grown,
+moving home again and again, at last a beggar dying by the blade or
+seized by the earth lords' wasting and leprosy, many sons but the line
+cut; at birth face down.
+
+### The birth luck by the wind (pp. 340–343, img. 350–353)
+
+> གཞན་ཡང་བྱིས་པ་བཙས་ཀླུང་རྩིས། །དང་པོ་རྣམ་ཤེས་མངལ་གྱི་སྒོར། །འཇུག་རླུང་ལ་བརྟེན་ཚེ་འབྲས་ནི། །གསལ་བྱེད་འདི་རུ་བརྗོད་བྱ་བ། །དེ་ཡང་ས་རླུང་སྣའི་ཀ་བ། །ཆུ་རླུང་ཡ་མཆུ་ཤིང་གི་རླུང་། །སྣ་གཤོག་མེ་རླུང་སྣ་སྟེང་ལ། །འཁྲིས་ནས་རྒྱུ་སྟེ་ནམ་མཁའ་དབུས། །རླུང་ཁུག་སུམ་བརྒྱ་དྲུག་ཅུ་སྟེ། །འབྱུང་བ་རེ་རེ་དབང་བ་ཡིན། །ནམ་མཁའ་ཀུན་གྱི་གྲོགས་ཡིན་ཀྱང་། །ཕ་ནི་རུས་ལ་ཉེ་བའི་ཕྱིར། །ནམ་མཁའ་ལྕགས་ཀྱི་འབྲས་བུ་འབྱིན། །རླུང་ཤིང་གཉིས་པོ་དོན་གཅིག་གོ། །ཕ་མ་གཉིས་པོ་ཁམས་གཅིག་པའི། །རླུང་ནི་མཉམ་རྒྱུའི་དུས་མ་གཏོགས། །མ་ཡི་མངལ་དུ་འཇུག་མི་སྲིད། །དེ་ཉིད་བུ་ཡི་སྲོག་རླུང་ཡིན། །དེ་དུས་ལོ་ཟླ་ཞག་དུས་བཞིའི། །སྲོག་དང་མ་བུ་དགྲ་གྲོགས་བརྩི། །དེ་ཡང་ཟླ་མཚན་ཆད་པའི་རྗེས། །ཕ་ཕྲད་ཐོག་མ་དེ་དང་བརྟག །དེ་ཐལ་ངོས་མ་ཆོད་པ་ན། །བཙས་དུས་མ་ཡི་རླུང་རིགས་ལྔ། །གང་རྒྱུ་བུ་ཡི་སྲོག་རླུང་ཡིན། དེ་དང་མ་བུ་དགྲ་གྲོགས་བརྩི །བཙས་ནས་ཡར་ལ་ལོག་པ་ཡི། །ཞག་པོ་བདུན་ཕྲག་སུམ་ཅུ་བརྒྱད། །ཞག་བཞི་དང་བཅས་གོང་དུ་ནི། །མ་ཡི་མངལ་དུ་འཇུག་པ་ཡིན། །དེ་དུས་ཞག་ཟླ་ལོ་དང་འཐབ། །དེ་ཡང་ཐལ་ན་རགས་པ་ཙམ། །དང་པོའི་སྲོག་རླུང་གང་ཡིན་ཁམས། །འབྱུང་བའི་མི་རིགས་དུ་ཡོད་དེ། །ཐང་ཤིང་སྐབས་ལྟར་ཤེས་པར་བྱ། །དེ་ཡི་འབྲས་བུ་འདི་ལྟར་ཡིན། །འབྱུང་བ་རང་བརྩེགས་དོན་གཅིག་ལྔ། །ཀུན་འདུས་དོན་གཅིག་རྡེའུ་ལྔ། །མ་དང་རང་བརྩེགས་དོན་བཞི་ལ། །ཉི་ཤུ་བུ་རང་དེ་ལྟར་ཡིན། །གྲོགས་དང་རང་བརྩེགས་ཡང་དེ་ལྟར། །མ་བུ་རང་བརྩེགས་བཅོ་ལྔ་ལ། །རང་གཉིས་བུ་གཉིས་མ་གཅིག་དག །འཚོལ་པ་ཞེས་བྱ་རྩིས་ལ་མེད། །མ་གྲོགས་རང་བརྩེགས་གསུམ་བཅོ་ལྔ། །བུ་གྲོགས་རང་བརྩེགས་དེ་ལྟར་རོ། །མ་གཉིས་འབྱུང་གཉིས་རང་གཅིག་ལྔ། །བུ་གཉིས་འབྱུང་གཉིས་རང་གཅི་ལྔ། །གྲོགས་གཉིས་འབྱུང་གཉིས་རང་གི་གཅིག་ལྔ། །རང་བཞི་དགྲ་དང་དོན་གཅིག་ལྔ། །མ་གསུམ་དགྲ་གཅིག་རང་རྡེལ་ལྔ། །དགྲ་གཅིག་བུ་གསུམ་རང་གཅིག་ལྔ། །དགྲ་གཅིག་གྲོགས་གསུམ་རང་གཅིག་ལྔ། །དགྲ་གཉིས་རང་གསུམ་དོན་གཅིག་ལྔ། །དགྲ་གཉིས་མ་གཉིས་རང་དོན་གཅིག །དགྲ་གཉིས་བུ་གཉིས་རང་གཅིག་ལྔ། །དགྲ་གཉིས་གྲོགས་གཉིས་རང་གཅིག་ལྔ། །དགྲ་གཉིས་རང་གཅིག་བུ་གཅིག་ལྔ། །དགྲ་གསུམ་རང་གཉིས་དོན་གཅིག་ལྔ། །དགྲ་གསུམ་མ་གཅིག་རང་དོན་གཅིག །དགྲ་གསུམ་བུ་གཅིག་རང་གཅིག་ལྔ། །དགྲ་གསུམ་གྲོགས་གཅིག་རང་གཅིག་ལྔ། །དགྲ་བཞི་རང་གཅིག་དོན་གཅིག་ལྔ། །སྤྱིར་བསྡུས་དཔྱད་དོན་བཞི་བཅུ་ཐམ། །དེ་ལྷག་འབྱུང་བརྩེགས་རྡེའུ་རྣམས། །བུས་པ་ཆགས་ན་མངལ་དུ་ནད། །རང་གི་འབྱུང་བའི་ཟླ་གྲངས་ལ། །མངལ་དུ་འཆི་བར་འགྱུར་བ་ཡིན། །དེ་དག་ཞིབ་ཏུ་འབྲས་བུ་ནི།།
+
+The life wind (སྲོག་རླུང, srog rlung) at conception: earth at the
+nostrils' pillar, water at the upper lip, wood at the nostril wings, fire
+above the nose, space in the middle; the wind's 360 turns, each element ruling in turn; space counts as
+iron, wind as wood. Conception is reckoned back from the birth **38
+weeks and 4 days** (270 days; "seven-day weeks thirty-eight with four
+days"); else from the first meeting after the menses; else the mother's
+wind at the birth; else, roughly, the element of the person's people
+(the notes, p. 486: «འབྱུང་བའི་མི་རིགས»). The year, month, day and hour of
+conception are fought against that wind's element as own, mother, son,
+friend and enemy: forty kinds in all ("forty in sum"), each with the
+years a life lasts. Machine read (Yigdzin-1 over both prints, which agree; the editors'
+numerals garbled, the years in words), the years each kind "passes"
+(བརྒལ, brgal): element self-stacked, the full measure of life; all
+gathered (ཀུན་འདུས, kun 'dus) 76; mother 1 own 4, 74; mother 2 own 3, 72;
+mother 3 own 2, 70; mother 4 own 1, 68; son 1 own 4, 66; son 2 own 3, 64;
+son 3 own 2, 62; son 4 own 1, 60; friend 1 own 4, 58; friend 2 own 3, 56;
+friend 3 own 2, 54; friend 4 own 1, 52; son 1 mother 3, 54 («ང་བཞི», where
+the run gives 50); son 2 mother 2, 48; son 3 mother 1, 46; mother, son
+and own, "seeking" (འཚོལ་པ, 'tshol pa), 44; friend 1 mother 3, 42; friend
+2 mother 2, 40; friend 3 mother 1, 38; friend 1 son 3, 36; friend 2 son 2,
+34; friend 3 son 1, 32; mother 2 and two elements, 30; son 2 and two, 28;
+friend 2 and two, 26; enemy 1 own 4, 24; enemy 1 mother 3, 22; enemy 1
+son 3, 20; enemy 1 friend 3, 18; enemy 2 own 3, 16; enemy 2 mother 2, 14;
+enemy 2 son 2, 12; enemy 2 friend 2, 10; enemy 2 "seeking", 8; enemy 3
+own 2 («རང་མནན»), 6; enemy 3 mother 1, 4; enemy 3 son 1, 2 (the rest of
+the forty on p. 343, not read). Stacked elements outside the forty:
+illness in the womb, death in the womb in the month of one's element
+(the notes: water, the fifth month; wood, the first).
+
+### The chapter's close (p. 349, img. 359, read on the scan line by line)
+
+> དེ་ལྟར་སྐོར་འགོ་ཇི་སྙེད་རྣམས། །མ་ནོར་སོ་སོར་གཏན་ལ་ཕབ། །དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར། །འབྲས་བུ་རེ་གཉིས་མི་རྟོགས་པས། །འབྲས་ཤུགས་ཆེ་ཆུང་མང་ཉུང་རྣམས། །ཡས་མས་ཀུན་དུ་ལེགས་བརྟགས་ཏེ། །བཟང་འབྲས་ཆེ་མང་བཟང་འབྲས་ཕྱིན། །ངན་འབྲས་ཆེ་མང་ངན་པ་སྟེ། །མཉམ་ན་འབྲིང་ཡིན་དེ་ཡང་ནི། །འཕྲལ་གྱི་བྱ་བྱེད་རིམ་གྲོ་ཡིས། །ངན་འབྲས་བཟང་པོར་འགྱུར་བ་དང་། །འཕྲལ་རྐྱེན་བཟང་འབྲས་ངན་འབྲས་ལ། །འགྲོ་བ་ཡང་ནི་སྲིད་པ་སྟེ། །འོན་ཀྱང་བཟང་འབྲས་གང་འབྱུང་ཡང་། །འདིར་བརྗོད་པ་ལས་ཤེས་པ་དང་། །དེ་བཞིན་ངན་པར་གྱུར་ན་ཡང་། །ལས་རྩིས་བརྗོད་ལས་བསླུ་མི་སྲིད། །དེ་ཕྱིར་ཤེས་རབ་རིག་པ་ཡིས། །ཡས་མས་ཆ་བསྡུར་ཞིབ་བརྟགས་ཏེ། །ཁ་དམར་མ་ནོར་ཚུལ་བཞིན་སྨྲོས། །ཞེས་ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་མཁས་པའི་མགུལ་རྒྱན་བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས་ཚེ་རབས་ལས་རྩིས་འདི་སྔ་སོར་ཕྱོགས་སྡེབས་ཞིབ་པར་
+
+After the family elements (the forefathers' element protecting
+downward, wood, water, iron; p. 349): "So all the rounds and starting
+points are settled each without error; apply also the reckoning of the
+hour and household («དུས་ཚོད་ཚང», not clear). Not deciding by one or two
+results, examine well throughout, above and below («ཡས་མས»), the
+results' force, great or small, and number: where the good are greater
+and more, the good comes; where the bad, the bad; even, middling. And by
+the rites (རིམ་གྲོ, rim gro) of the moment the bad can turn good, and by
+passing conditions the good can go to the bad. Yet whatever good comes
+is known from what is told here, and if it turns bad, what the
+reckoning of karma (ལས་རྩིས, las rtsis) tells does not deceive. So with
+wisdom compare above and below closely and speak the verdict without
+error." The colophon of the chapter follows.
+
+### The notes on the hundred, the sets and the children (vol. 2, pp. 483–485, img. 491–493; p. 489, img. 497)
+
+Yigdzin-1 over the reprint (I3CN5029 img. 489–491), the 1996 reading
+(RD13) as witness, the flags read on the scan:
+
+> གོང་གི་བརྒྱ་འགྲེལ་གྱིའོ། །ངན་ཀླུང་སྒོ་ལྔ་སྐྱེས་པའི་སྤར་སྨེ་དང་། དར་གུད་ནི་བརྒྱ་འགྲེལ་སྐབས་ཀྱི་སྲོག་རང་རྡེལ་དང་། དབང་ཐང་རང་མ་བུ་གྲོགས་བཞི་དང་། ལུས་རང་གྲོགས་གཉིས་བཅས་ཀྱི་ཁ་དམར་ནག་ན་གུད་ཟེར་ཀྱང་གཞུང་གིས་གསལ། དགྲ་དར་ཞེས་སོ་སོའི་དགྲ་རྡེལ་དཀར་ནའོ། །སྲོག་དགྲ་དར་ཀྱང་སྲོག་མ་མ་གུད་པ་དང་སྤར་སྨེ་ངན་པ་མ་འཛོམ་ན་དེ་ཙམ་མི་སྐྱོན། འཛོམ་ན་ངན་ནོ། །ས་བཞི་ནི་མཚམས་བཞིའོ། །སྤྱི་དཔྱད་གཞུང་དང་མཆན་གྱིས་གསལ། དར་གུད་འབྲས་བུ་ཞག་མ་ལ་ལ་སྦྱར། ཁ་ཅིག་གིས་ཀླུང་རྟ་ཁོ་ནར་སྦྱར་བའང་སྣང་། དར་བཞི་སོགས་ནི་འབྱུང་བ་ས་ཆུ་གཅིག་ཏུ་བསྡུས་པའི་སྒོ་ནས་བཏགས་པའམ། ཡང་ན་སྲོག་སོགས་བཞིའི་ཆ་ནས་སོ། །དགྲ་དར་ཞེས་ངན་དྲུག་ལ་བབ་པའོ། །གཙུག་རྒྱམ་གྱི་དར་གུད་བརྩི་ལུགས་གོང་དུ་སོང་།འབྲས་བུ་གཞུང་ན་གསལ། སྤར་སྨེ་གཉིས་ནི་སྲོག་སོགས་བཞི་ཀ་ལ་ཡང་སྐྱོབས་མི་སྐྱོབས་སོགས་སྤྱིར་དཔྱད་ཅེས་སོ། །སྤར་ཁ་ལོག་ཅེས་པ་གོང་ལས་བཟློག་པ་མིན་པར་སྲོག་ལུས་ལ་གནོད་པའི་སྤར་ཁའོ། །སྤར་སྨེ་གོང་ལས་ལོག་ཅེས་པ་བཤད་མ་ཐག་པའི་ལི་ཁམ་ཟོན་དང་བཞི་ལྡང་སོགས་ལས་བཟློག་སྟེ་སྤར་ཁའི་དགྲ་བདུད་ལྟར་ཁེན་ཁོན་གིན་དང་།སྨེ་བ་འདི་བཞིན་ཏེ་ལྔ་སེར་ས་ཁམས་ཁོན་ལ་བརྩིས་པའི་ལྡོག་ཕྱོགས་གཉིས་ནག་བརྩིས་པ་འདྲ་ཡང་། བུ་ལས་སྤར་ཁ་ཁོན་ཁེན་གིན་ཟིན་དང་སྨེ་བ། འདི་བཅས་ཡིན་མིན་བརྟགས་སྣང་བས་མཐའ་ཆོད་མཛད་མི་གདའོ། །སྔ་མ་མི་འགྱུར་བ་བཙས་ཀླུང་དང་ཕྱི་མ་འགྱུར་བ་ཀེག་རྩིས་དར་གུད་དོ། །མ་བཞི་ཞེས་པ་སྲོག་ལུས་དབང་ཀླུང་གི་མ་བཞིའོ། །གསང་བ་ཡང་ཏིག་ལས་བཤད་དབྱེ་བ་ཉེར་གཅིག་ལས། ལོ་ཟླ་ཕ་མའི་དབང་ཐང་གིས་བུ་སྲོག་བསྐྱེད་པ་ལོ་ཡིས་བསྐྱེད་དང་སོགས་སོ། །གཟའ་བཞིའི་དུར་ནི་དེ་ལོ་མའི་ལོག་མིན་དང་སྤར་ཁ་གཉིས་པོ་བུ་སྲོག་གི་དུར་ཞུགས་དང་མ་ཐུག་པའོ། །ལས་ཅན་རིགས་ལ་སྙེགས་པ་ཞེས་རིགས་རུས་བཟང་པོར་སྐྱེས་པ། ཟླ་བའི་གདོང་ཞེས་ཡར་ངོ་སྤྱི་དང་ཁྱད་པར་ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ། མངལ་དུ་ཞུགས་ནས་ཁྱིམ་དེར་བྱ་བྱེད་བཟང་པོ་བྱུང་བ་སོགས་སོ། །དབང་ཐང་ལུད་པ་འཕེལ་བའི་དོན། འབྱུང་བ་ངན་འོག་མ་ལྷུང་བ་ཀླུང་རྩིས་བཟང་བ། མ་བུ་བདུན་ཟུར་དང་ལས་རྩིས་ཀྱི་དུར་དང་འབྱུང་བ་དགྲ་གཤེད་མེད་པ་ཞེས་བཤད་པ་སྣང་ཡང་མ་ཡི་ཀེག་རྩིས་ཀྱི་བདུན་ཟུར་དགྲ་གཤེད་མེད་དུས་བཙས་པ་ཡིན་པར་དཔེ་བརྗོད་དུ་གསལ། ལོ་ཟླ་གཉིས་ཀྱི་སྲོག་གིས་མ་སྲོག་ལ་མ་བཅད་པ་མ་ཡིས་སྤར་སྨེས་མ་སྲོག་ལ་མ་བཅད་པའི་སྤར་སྨེ་དགྲ་ཐོག་མིན་པ་དང་། མ་ཡི་སྐྱེས་སྤར་གྱི་བདུད་གཅོད་སོགས་མེད་པར་བཙས་པའོ། །འདི་སྐོར་མ་ཡི་ཀེག་རྩིས་ལྟར་རྩིས་པས་མ་ལ་བཟང་དུས་སྐྱེས་པ་བཟང་བ་ཀུན་ལ་འགྲེ། མ་ལོ་བུ་ལོ་བྱས་ཀྱང་དོན་གཅིག་པ་ཉིད་དོ། །རྣམ་གྲངས་ཉེར་གཅིག་པོའི་ནང་གི་དུ་མ་ཡིན་པ་ཡང་ཡོད་དོ། །ཕ་རུས་མ་འཕྱུགས་པ།མ་ལོ་བུ་ལོ་དགྲ་གཤེད་མིན་པ། དེ་ལོའི་སྤར་སྨེས་མ་སྲོག་མ་བཅད་པ། སྐྱེ་དུས་གཟའ་འཛིན་དང་རྒྱུ་བ་ངན་པ་མེད་པ། ལྷ་འདྲེའི་མཐུ་ཡིས་མངལ་བཟུང་བ་གཞི་བདག་སོགས་ཀྱི་བརྫུས་བུའམ་བླ་བུར་གྲགས་པ་ལྟ་བུ། གཏོ་དཔྱད་འབྱུང་བ་རྣམས་ལོག་པ་སྟེ་ཆོ་འཕྲུལ་ཆེ་བའམ། ཕལ་པ་བཞིན་དུ་བུ་དེ་ལ་མི་ཐིག་པ་ལྟ་བུ་ཞིག་གི་དོན་ཏེ། རྩིས་ནས་བུ་མོ་སྐྱེ་བར་བཤད་ཀྱང་བུར་བྱུང་བ་དང་། མངལ་མི་ཆགས་པའི་སྨན་བཏང་ཡང་བུ་ཆགས་པ་དང་། ཕ་མེད་པར་ཆགས་པ་ལྟ་བུ་སོགས་སོ། །དེ་ལ་རྩིས་བྱ་མི་དགོས་ཏེ་ཁོ་རང་གི་ལས་ཀླུང་ལ་ལྟོས་པའི་ཕྱིར་རོ་ཞེས་སོ། །རིགས་འཛིན་ཚེ་ཡི་ཚད་དུ་ཁྱེར་ཞེས་བུ་རྣམས་སུ་བཤད་པ་མ་མཐོང་ཡང་། ཕ་ཡི་རིགས་འཛིན་ནུས་པའི་ཚེ་ཚད་དང་ལྡན་པ་ཅན་ཞིག་སྟེ་ཚེ་ཐུང་ན་རིགས་མི་ཟིན་པས་སྤྱིར་བཏང་ཡིན་ནམ་སྙམ། ལྷ་འཁོན་མེད་ཅིང་དཔལ་དང་ལྡན་པ། ལྟས་བཟང་དང་། ཉི་མ་ཤར་བའི་སྣ་ལ་སྐྱེས་པ། ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར་རོ། །བུ་རང་བྱ་བྱེད་བཟང་བའོ། །ནམ་ཞེས་མཚན་མོ་ལ་སྐྱེད་ཆེ་བ། དཔལ་ཆེན་ཐབས་དང་རྟེན་འབྲེལ་མ་ལོག་པ་ལ་ཟེར་ཏེ་ཆོས་ཞུས་སོགས་དང་ཐབས་རྟེན་འབྲེལ་གྱིས་བུ་ཆགས་པ་འདྲ་སྟེ། དེ་མིན་ཀྱང་སྐྱེ་དུས་སོགས་སུ་དབང་ཆོས་སོགས་ཐོབ་པ། ཕའི་སྲོག་སོགས་ལ་བུས་ཕར་ལ་སྐྱོབ་པ། ཕོ་མོ་གང་སྐྱེ་ཕྱིས་ཀྱི་ནང་བཞིན་སྐྱེས་པས་ཀླུང་མ་ལོག་པའོ། །རྟེན་ཅན་ཞེས་པ་ནི་མ་ཡི་བྱུར་ཀླུང་མེད་ཅེས་པ་མ་བུའི་ལུས་དབང་འཐབས་པས་བུས་ཕར་བཅད་ན་བུ་བྱུར་མ་ལ་ལྷུང་བའོ། །མས་ཚུར་བཅད་ན་མ་བྱུར་བུ་ལ་ལྷུང་བའོ། །འདི་ལུས་དང་ཀླུང་རྟ་ལའང་བརྟག་ཅིང་སྨེ་བ་ལའང་བརྟགས་སྣང་། རང་དབང་གིས་རང་སྲོག་བཅད་ན། རང་བྱུར་རང་ཐོག་ཏུ་ལྷུང་པའོ། །ལྷ་དཔལ་གྱི་རྩིས་གོང་བཞིན་ལ་དེ་ལས་འདྲེ་བདུད་མ་བབ་པའོ། །འདིའང་སྲོག་སོགས་བཞི་ཀའམ་གཙོ་བོ་སྲོག་ལ་བརྟག །ཁོང་དུ་ཞུགས་ནས་ནོར་རྒྱས། ཕ་ཡོད་པ་སོགས་ལ་ཕ་བརྟེན་ཞེས་སོགས་སོ། །མིང་གི་ཞང་ལྷ་མ་ལྷ་ནི་མ་དང་ཞང་པོ་ཡིན་ལ་དེ་ཡོད་པའོ། ཡོད་ཅེས་པ་བུ་སྐྱེས་དུས་ཕ་སོགས་མ་ཤི་བའོ། འབྱུང་བ་ཁོད་སྙོམས་པ་ནི་ཕྱི་འབྱུང་ཚ་གྲང་སྙོམས་སོགས་འདྲ། སྐྱེས་པའི་ལོ་ཟླ་སྤར་ཁས་མ་སྲོག་ཁོ་ན་ལ་འཐབས་པས་བཅད་པ་དང་། མ་སྤར་ཁ་དུར་ཐོག་ཕྱིན་པ་རྣམས་མདངས་འཕྲོགས་ཏེ་མ་ལ་ངན་པ་དང་། ཡང་གཟའ་གསུམ་འདོམས་དང་། གཟའ་སྐར་ལུས་གསུམ་ནག་པ་སྟེ་ངན་པ་ནི། །གཟའ་ངན་སྐར་ངན་ལ་བཙས་པ་དང་ཀག་རྩིས་ལྟར་གྱི་མ་ལུས་ཀྱི་རྡེའུ་ནག་པའོ། །བསྡུས་ན་གནམ་ལོའི་ལུས་དང་མ་ལུས་འཐབས་པས་ཀྱང་ཆོག་འདྲ་ལ། དཔེ་བརྗོད་ལ་དཔགས་ན་མ་ལུས་དུར་མིག་ཏུ་ཚུད་ན་ལུས་ནག་ཅེས་པ་འདྲའོ། །བཙས་དུས་སྲོག་གི་དགྲ་གཟའ་དང་། མ་ལོ་སྐར་ལ་བབ་པའོ། །ངན་དགུ་འཇོམས་པ་ནི་ངན་པ་ཤིན་ཏུ་མང་པོ་འཇོམས་པ་འདྲ། མ་ལོའི་དགྲ་དུར་གྱི་ལོ་ཟླ་ཞག་དུས་བཙས་པ་དང་། ཁམས་ཀྱི་དགྲ་ལོ་དང་། ཆད་ཆེན་ཆད་ཆུང་ལྟ་བུ་སོགས་ཕ་ཚན་ལ་གནོད་པའི་སེལ་བྱེད་པའི་ལོ་བྱུང་ནའོ། །ཟླ་ནག་ནི་སྤྱི་ལྟར་དང་། ལུས་ནག་གི་སྐྱེས་སྨེ་གཉིས་ནག་མ་ཡི་བབ་སྨེ་གཉིས་ནག་གསུམ་འདོམས་པ་དང་།མ་ཡི་ཕྱི་གཟའི་དགྲར་གྱུར་པའི་ལོ་རྟའི་གཟའ་ཅན་སྐྱེས་པ་སྟེ། རྩ་བར་དཔེར་བརྗོད་པ། ཕུར་བུའི་གཟའ་ལ་པ་སངས་སྐྱེས་ཞེས་མཚོན་བྱེད་དུ་བཀོད་པའོ། །དེ་ལྟ་བུ་ནི་མེ་སྟེང་ཆུ་རྡོལ་ཞེས་བྱ་སྟེ། མིང་ལ་འཁོར་བ་རུ་ལོག་གི་བུ་ཞེས་སོ།མེ་སྟེང་ཆུ་རྡོལ་བ་ནི་མ་ཡི་ཕྱི་ནང་མིག་དམར་ལ་བུ་ལྷག་པ་སྐྱེས་པ་ལྟ་བུ་ཞེས་དཔེ་འགའ་ན་བཤད་ཀྱང་གོང་གི་ཁོངས་སུ་གཏོགས་འདྲ་སྙམ། མ་ལོའི་བདུན་ཟུར་ལ་བབ་དུས་བུ་མངལ་དུ་ཞུགས་ནས་བུའི་སྲོག་གི་དགྲར་གྱུར་པའི་ཟླ་བ་ལ་བཙས་པ་སྟེ། རྩ་བར་སྟག་ལོ་མས་མཚོན་པའོ། །ཕ་ལོའི་སྟེང་དུ་བུ་ལོས་མནན་པ་ནི། ཕའི་སྲོག་གི་དགྲར་གྱུར་པའི་བུ་ལོ་དང་། ཟླ་བ་རང་གི་བདུན་ཟུར། ཞག་བཞི་གཤེད། དུས་གུང་གཉིས་བཙས་པ། ལུས་སྐྱོན་ཅན་དང་ཤ་མཚན་ངན་པ་ཡོད་པའོ། །མ་ཡི་སྐྱེས་ལོ་དང་སྐྱེས་ཟླ་དག་གི་སྲོག་ལ་དགྲར་གྱུར་པའི་ལོའམ། དེའི་གཤེད་དེ་དུར་ཞུགས་ཀྱི་ལོ་ལ་བུ་བཙས་པ། མ་ཁོང་ནས་མ་ཐོན་པར་མ་ཤི་ཟེར་ཀྱང་དཔྱད། ཁོང་དུ་ཞུགས་ནས་མ་མ་ཤི་བར་དུ་མི་བདེ་བ་འབྱུང་བ་འདྲ་སྟེ་བརྟག །ཕ་མའི་སྐྱེས་ལོ་ཟླ་བའི་སྲོག་ལ་བུ་ཡི་སྲོག་དབང་གིས་བཅད་པ་དང་། རང་གིས་རང་བསད་ཅེས་རང་དབང་གིས་རང་སྲོག་བཅད་པ། བཙས་པའི་ཟླ་བ་དང་དུས་ཚོད་གཟའ་སྐར་གྱི་ཁམས་རང་སྲོག་གི་དགྲ་དང་ཐུག་པས་ཐམས་ཅད་ངན་པའོ། །དེ་ལོ་བརྒྱ་ཐུབ་པའི་ལས་ཅན་ཡིན་ཀྱང་འཕྲལ་དུ་དེ་ལས་ལྡོག་ཅེས་པ་འདྲ་སྟེ་དཔྱད།བཙས་དུས་ཀྱི་ལྟས་གཞུང་བཞིན་ནོ། །
+
+What the notes add: the five doors' rise and decline are the hundred's
+own pebbles (the life force's own, the power's own, mother, son and
+friend, the body's own and friend) "black is decline"; "enemy rising"
+is the enemy pebble white; a life force's enemy rising does little harm
+unless its mother declines and the trigram and mewa are bad together;
+"the general examination is clear in the text and the notes"; the rise
+and decline's results are applied to the day («ཞག་མ»), some apply them to
+the luck alone; the four mothers are those of life force, body, power
+and luck; the former (unchanging) is the birth luck, the later (changing)
+the obstacle reckoning's rise and decline; and for the children the
+glosses in the table above. On p. 489 (img. 497, read on the scan): «ཕ་མའི་ལོ་དང་སོགས་ཁོ་རང་གི་ཀླུང་ནི་གོང་བསྟན་རྣམས་ཀྱི་སྡོམ་ལས་འདིར་བརྩི་རྒྱུ་ལོགས་པ་མེད་ཅེས་བཤད།», his own luck by the parents' years and the
+rest is the sum of what was shown above, nothing reckoned apart; and
+«གཞན་ཡང་དུས་འཁོར་དང་དབྱངས་འཆར་སོགས་ལས་གསུངས་པའི་གཟའ་སྐར་ཚེ་རྩིས་ཀྱི་འབྲས་བུ་ཇི་སྙེད་པའང་བརྟག་པར་བྱས་ན་ལེགས་སོ།», it is good also to examine the
+results of the planets' and mansions' reckoning of life taught in the
+Kālacakra (དུས་འཁོར, dus 'khor) and the *Arising of the Vowels*
+(དབྱངས་འཆར, dbyangs 'char).
+
+### Open
+
+- Question: p. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
+  reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
+- Question: p. 334, «དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི»: is «ཏ» the horse (རྟ), as in «བཅུ་གཉིས་རྟ་ལ་བསྐྱོན» on the same page, and what is mounted on what?
+- Question: p. 334, «གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ», what is «བེ་ལུག»?
+- Question: p. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
+- Question: p. 339, «ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས» (so all three readings), and the notes'
+  (p. 484) «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར»: the reprint's note reads «སྣང» at 1.5×; is
+  «སྒང», the month's middle, the 11th to the 20th, meant in both (p. 261's
+  «ཟླ་བ་ཚེ་སྒང», settled 2026-10-18)?
+- Question: p. 340, «གཟའ་རྒོད་འདོམ་སྐྱེས», which planets are the fierce ones, and
+  is their meeting a day the calendar gives?
+- Question: p. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
+- Question: the notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས» or
+  «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
+- Question: p. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of
+  the forty, two years less at each step, gives 50: a slip of the print?
+- The general verdict of p. 331 reads the pebbles as laid on the board;
+  the board's layout is asked in [verdicts.md](verdicts.md), section of
+  the same name.
+
+### Searched and not found
+
+- A score or count of the twenty-one children (how many conditions make
+  one), in pp. 338–340 and the notes, pp. 484–485 (on the scan): none; each
+  is named by its conditions together.
+- The board's layout for the general verdict of p. 331, in ch. 22 and
+  the notes' section 1 (Yigdzin-1 and the scan): none.
 
 
 ## The year of age gathered: the four classes and the household (RD20)

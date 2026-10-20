@@ -726,4 +726,78 @@ from year-of-life.md's RD20 section.
 
 ## The birth read whole: its sets, its twenty-one children, its close (RD19)
 
-Nothing read yet: RD19's passages, with the English beside them, go here.
+WB vol. 1, ch. 22, pp. 328–342 (img. 338–352) and p. 349 (img. 359); the
+notes, vol. 2, pp. 483–485 and 489 (img. 491–493, 497). Read 2026-10-20 on
+the Gser thang reprint of the same typesetting (I3CN5028, image = page −
+5; I3CN5029, image = page + 6) with Yigdzin-1, BDRC's 1996 scan with
+Yigdzin-1 and MITRA as witnesses, every flag and the passages below read
+on the scan. The full Tibetan, the hundred's readings, the sets, the
+twenty-one children with their conditions sorted, and the notes are in
+[year-of-life.md](year-of-life.md), section of the same name; here, what
+they give for combining.
+
+**The etext passages above, on the scan.** P. 338 (img. 348) reads as the
+etext with its gaps filled: «…དཀར་ནག་ཕྱེད། །བྱུང་བ་ཕ་མེས་སྐྱིད་སྡུག་དང་། །དར་གུད་ཆེ་ཞིང་གཞན་ཡང་ནི། །སྲོག་ལུས་དབང་ཀླུང་བཞི་པོ་ཡི། །རྡེལ་དཀར་མང་བྱུང་མིས་ཁུར་འོང་། །བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ། །མ་ལུས་རང་གིས་རྟོགས་པ་ཡིན། །རྡེལ་ནག་མང་ཤར་བསོད་ནམས་ཆུང་། །ཆོས་ལ་རྒྱབ་བརྟེན་བྱ་བར་བཟང་། །མི་ཡི་བྲན་བྱེད་དགོས་པ་ཡིན། །དེ་ལ་བུ་བཞི་དཀར་པོ་བྱུང་། །ཕ་བས་བུ་བཟང་ཕ་མེས་ཀྱི། །ཡུལ་མཁར་ཟིན་པ་འོང་བ་ཡིན། །བུ་བཞི་ནག་བྱུང་བྱིས་པ་ནི། །གསོ་དཀའ་མགོ་མི་ཐོན་པ་འབྱུང་། །འདྲེས་མ་ཕྱེད་སོས་ཕྱེད་མི་སོས། །གྲོགས་བཞི་དཀར་ན་ཁ་རྗེ་དང་། །ཟ་ཐང་ཆེ་ལ་སྟག་རིས་འདྲ། །གྲོགས་བཞི་ནག་ན་དར་གུད་ནོར། །གང་སྟོངས་ཆེ་འོང་། འདྲེས་མ་དེ། །ཡོད་མི་བདེན་ལ་མེད་པ་འོང་། །མི་བདེན་ནོར་རྫས་འབྲིང་དུ་འོང་། །དེ་ཡང་སྲོག་རང་དར་བ་ལ། །དགྲ་གུད་བཟང་སྟེ་དེ་ལྡོག་ངན། །དབང་ཀླུང་རྣམས་ཀྱང་དེ་བཞིན་ཡིན། །སྲོག་གུད་ཆགས་ཆེ་སྲོག་གི་དགྲ། །དར་ལ་སྐྱེས་ན་ཐ་གྲིར་འཆི། །དེ་ཡི་རིགས་པས་གཞན་རྣམས་ཤེས།།» The four friends: white,
+standing and a great share, like tiger stripes; black, wealth up and
+down, great losses; mixed, what is there is not real, what is not comes,
+wealth middling. Then the rule of own against enemy: the life force
+rising with its enemy declining is good, the reverse bad, the power and
+luck alike; the life force declining with its enemy rising, death by the
+blade at last. The notes (p. 484, img. 492, on the scan): «མ་བཞི་ཞེས་པ་སྲོག་ལུས་དབང་ཀླུང་གི་མ་བཞིའོ།», the four mothers are the mother
+pebbles of the life force, body, power and luck: the sets are taken
+across the four aspects, one kind of pebble at a time. P. 349 reads as
+the etext, and goes on: «འོན་ཀྱང་བཟང་འབྲས་གང་འབྱུང་ཡང་། །འདིར་བརྗོད་པ་ལས་ཤེས་པ་དང་། །དེ་བཞིན་ངན་པར་གྱུར་ན་ཡང་། །ལས་རྩིས་བརྗོད་ལས་བསླུ་མི་སྲིད། །དེ་ཕྱིར་ཤེས་རབ་རིག་པ་ཡིས། །ཡས་མས་ཆ་བསྡུར་ཞིབ་བརྟགས་ཏེ། །ཁ་དམར་མ་ནོར་ཚུལ་བཞིན་སྨྲོས།»: whatever
+good comes is known from what is told here, and if it turns bad, the
+reckoning of karma does not deceive; so compare above and below
+closely and speak the verdict without error. The rule for the whole
+stands as read from the etext: neither one nor two results decide; the
+good and the bad weighed by force and number throughout, good if the
+good are greater and more, bad if the bad, middling if even; the rites
+of the moment can turn the bad, passing conditions the good.
+
+**What the pages give for each step of the ladder.**
+
+| Step | Found, with its page |
+| --- | --- |
+| 2, the verdict of a part | The hundred pebbles' verdicts, each of the twenty-five (life force, body, power, luck, and the mewa or element, each own, mother, son, friend and enemy) white or black with its own reading (pp. 329–331); the enemy pebble reads the other way, black the good one. "Gather it well and state the verdict without error" (p. 335) |
+| 3, sets | Twenty joined readings that name several pebbles of several aspects with the trigram and mewa together (pp. 334–335); the four mothers, the four sons, the four friends, many white or many black over the four aspects, and own against enemy (p. 338). A set outweighs the single readings: "nine goods told turn to nine ills", "told good, it goes wrong", "whatever bad times are told, senses whole" |
+| 4, which part of life | The general verdict of the hundred (རྡེའུ་སྤྱི་ཡི་ཁ་དམར, rde'u spyi yi kha dmar, p. 331): read from where white and black lie, white making the four continents above the first part of life, in the middle power and wealth, below old age; black likewise; images by the layout (white in a row where the sons lie, the corners black, white above and black below). The domains of each of the twenty-five (p. 334): mother "the coat at one's back", son "the staff in front", friend "the fold of fortune", enemy "an iron she-wolf" |
+| 5, the whole | The twenty-one children (pp. 338–340) are kinds a birth falls into, good, middling or bad, each named by its conditions together, without a count; the groups' results (p. 340). The close (p. 349): weigh all, the rites can turn it. The notes (p. 489, on the scan): the child's own luck by the parents' years "is the sum of what was shown above; there is nothing to reckon apart", and the planets' and mansions' life reckoning of the Kālacakra and the *Arising of the Vowels* is good to examine too |
+| Conditions | The luck rules the rest: if the luck's tomb is not known, help and harm do not fit; "the luck is chief among conditions and turns it"; the birth luck does not change, the obstacle reckoning's rise and decline does, applied to month, day and hour (p. 335; the notes, p. 484) |
+
+**The twenty-one children: which conditions are dates.** Of the
+twenty-one, the calendar alone gives: the weekday and mansion (good 1,
+bad 1, bad 7), the waxing half (good 1, good 2), the full moon, the 15th
+(good 2, by the notes), the dates 11–20 (good 7, by the notes), the part
+of the day: dusk or morning (good 1), sunrise (good 7), midnight or noon
+(bad 5), the hour (bad 7); the month against the child's own life force
+(bad 5, its seventh; bad 7), a day of the four slayers (bad 5), an
+eclipse or a bad earth lord's moving (good 5). Most of the rest needs the
+parents: the year and month against the mother's or father's life force,
+the mother's obstacle reckoning at the birth (the notes, p. 484: the
+whole round is reckoned as the mother's obstacle reckoning, the child
+good when born at a time good for the mother), the father's clan. Good 3,
+good 6, middle 1, middle 2 and middle 7 are observations or events
+(dreams, signs at birth, the family living, conception against
+medicine), and good 6 says so itself: "no reckoning is needed, look to
+his karma and luck". No child is defined by a date alone; each joins
+several conditions, and no rule says how many must hold.
+
+### Open
+
+- Question: the general verdict of p. 331 reads the hundred as they lie
+  on the board (above, middle, below, the four corners, where the sons
+  lie); how are the hundred laid out on it? Ch. 22 and the notes'
+  section 1 do not say.
+- Question: must every condition of a child hold for the birth to be
+  that child, or do most of them make it? Pp. 338–340 and the notes give
+  no count.
+
+### Searched and not found
+
+- A count or weight for the twenty-one children, or a rule for when two
+  children's conditions both hold (pp. 338–340, the notes pp. 484–485, on
+  the scan): none.
+- A rule ranking the sets of pp. 334–335 and p. 338 against the hundred's
+  single readings, beyond the sets' own wording: none in ch. 22 or the
+  notes' section 1.
