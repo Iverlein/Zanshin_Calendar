@@ -1192,4 +1192,360 @@ verdict.
 
 ## D16: WB, the notes and the manuals (O19)
 
-Nothing read yet: O19's passages, with the English beside them, go here.
+Read 2026-10-20. WB on BDRC's scans of the 1996 print (vol. 1 I1KG12906,
+image = page + 10; vol. 2 I1KG12907, image = page + 8), with the Zhol
+print (WBZ, I1KG1710) for two doubtful places; Yigdzin-1 over vol. 1
+img. 428–436 and vol. 2 img. 504, MITRA as witness over vol. 1 img. 429,
+432, 433 and vol. 2 img. 503, 510 (img. 390–395 already had both), every
+flag in the quoted lines read on the scan; the quoted lines read on the
+scan in line crops at 2–6×. The manuals were found with BDRC's full-text
+search (`bdrc_search.py`, three batches), read in their etexts and, for
+the lines quoted, on their open scans with Yigdzin-1 beside. RD18 and RD20
+above settled that each place counts once by its colour and that a tie
+lays a speckled pebble (ཁྲ་བོ, khra bo); what follows is only what they
+left open: how a place with both colours counts, and what a speckled
+predictive pebble of the year of age foretells.
+
+### 1. WB, pp. 380–385: "white and black, two" is a place's count, named a verdict
+
+**The son meeting's pair** (vol. 1, p. 380, img. 390, l. 25). The 1996
+print reads «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར།», and so do Yigdzin-1, MITRA and
+BDRC's etext; the Zhol print (WBZ img. 498, last line, read at 10×; its
+etext agrees) carves «བུ་ཕྲད་དཀར་ནག་ཟུང་དུ་བོར།»: a meeting with the son
+(བུ་ཕྲད, bu phrad) is laid as a pair (ཟུང, zung) of white and black. The
+1996 «དཀར་ན་གཟུང» is the same letters run together. The illness
+chapter says it the same way (p. 417, img. 427, in
+[health.md](health.md)): «རྡེལ་བོང་མ་གྲོགས་དཀར་པོ་དང་། །དགྲ་ནག་བུ་ལ་དཀར་ནག་ཟུང་།», mother and friend white,
+enemy black, the son a pair of white and black. WB never says how such a
+place counts toward a verdict.
+
+**The readings of pp. 381–384 follow the six meeting counts.** Each aspect
+has a reading for «དཀར་པོ་གསུམ», «དཀར་པོ་གཉིས», «དཀར་པོ་གཅིག», «ནག་པོ་གཉིས», «ནག་པོ་གཅིག» and «དཀར་ནག་གཉིས» falling: three
+white (a mother meeting), two white (a friend), one white (earth or water
+meeting itself), two black (an enemy), one black (wood, iron or fire
+meeting itself), white and black, two (a son) — exactly p. 380's six
+outcomes (the passage whole, read on the scan in O10d, in
+[year-of-life.md](year-of-life.md), *The obstacle years*). So "white and
+black, two" is a count of pebbles in a place, the son's pair, not a tie
+of an aspect. Its four readings all describe an undecided state:
+
+- vitality (p. 381, img. 391): «སྲོག་རྡེལ་དཀར་ནག་གཉིས་བབས་ན། །ལྷ་སྨན་བཟང་མོ་བྱ་བ་དང་། །ནག་པོ་བདུད་ཀྱི་བྱ་ར་གཉིས། །རིན་ཆེན་སྲོག་ལ་ཚོ་ལོ་འགྱེད། །དཀར་ནག་ཟུང་གཅིག་ཤན་མ་ཕྱེད། །རྒྱ་འདྲ་བྱེད་ཅིང་ཁ་ཤགས་འགྱེད། །སྐུ་ཡི་རིམ་གྲོ་མྱུར་དུ་གྱིས། །ཁྲོམ་དང་གོད་ཁ་བཟློག་པའོ།»,
+  if white and black, two, fall on the vitality: the good goddess's bird
+  and the demon's black watch-bird, the two, play dice for the precious
+  vitality; a pair of white and black, their difference undivided, they
+  play and argue; do the rites for the person quickly, turn back the
+  crowd's talk and losses;
+- body (p. 382, img. 392): «…རྡེའུ་དཀར་ནག་རྒྱ་འདྲའི་ངོ་། །བྲེད་ཅིང་དངངས་པ་འོང་ཉེན་ཡོད། །བཟང་ངན་གཉིས་ཀྱི་ཤན་མ་ཕྱེད།», the white and black
+  pebbles show the face of dice, fear and fright may come, good and bad
+  not told apart;
+- power (pp. 382–383, img. 392–393): wealth now there, now gone, «ཉི་མས་གདུངས་པའི་སྨིག་རྒྱུ་འདྲ», like a mirage in the sun's heat, «དཀར་ནག་རྒྱ་འདྲས་མ་ལན་ནམ», answered by white and black dice;
+- luck (p. 383, img. 393): «དཀར་ནག་འདྲེས་ཏེ་ཐིག་སྒྲིལ་འདྲ», white and black
+  mixed like a twisted thread.
+
+**WB names these readings verdicts.** The 1996 print opens them with
+«སྲོག་རྡེལ(རྩ་བའི་རྡེལ་བཞིའི་ཁ་དམར།)དཀར་པོ་གསུམ་བབས་ན།» (p. 381, img. 391,
+l. 4, on the scan), the words in round brackets "the verdict (ཁ་དམར,
+kha dmar) of the four root pebbles". The Zhol print carves the same five
+syllables in small letters within the line (WBZ img. 499, l. 2, read at
+4×: «…ཚེ་ཡི་གཏེར། རྩ་བའི་རྡེལ་བཞིའི་ཁ་དམར། །ལྕགས་ཀྱི་སྡོང་པོ…»): a note of the blocks,
+not of the 1996 editors. And the readings close (p. 384, img. 394, l. 10,
+on the scan) «དེ་ནི་དཀྱུས་མའི་ཁ་དམར་ཡིན།།», that is the ordinary verdict;
+then «གཞན་ཡང་ཁ་དམར་འདི་བཞིན་ཏེ། །སྲོག་གི་རྡེལ་ནི་དཀར་བ་ན།», further, the verdict
+is this: when the vitality pebble is white …; after the white ones
+«རྡེའུ་དཀར་པོའི་འགྲེལ་བའོ།།», the explanation of the white pebbles, and
+«ལོ་གཅིག་ཁྱུད་སྐོར་མི་གཅིག་ལ། །གཙུག་ལག་རྡེའུ་བོར་དུས་སུ། །སྲོག་རྡེལ་དག་ནི་ནག་པ་ན།», when the pebbles
+are laid for one person in one year's round and the vitality pebbles are
+black … (l. 21–22, on the scan). So WB has two sets: the *ordinary
+verdict*, read by the count that falls in a place, with a reading for the
+son's pair; and the predictive verdict, white or black only. No line of
+pp. 380–385 has «ཁྲ», «ཕྱེད» as a verdict, or «འདྲེས» outside the luck's
+reading above. WB does not say that a speckled predictive pebble takes
+the pair's reading; it does not say it does not.
+
+### 2. WB's illness chapter reads a speckled verdict of each aspect
+
+The illness reckoning (ch. 25) lays its four aspects' deciding pebbles as
+"plank-trees" (ཐང་ཤིང, thang shing): Mipham's (མི་ཕམ, mi pham) notes,
+vol. 2, p. 495 (img. 503, on the scan): «རྡེལ་དཔྱད་སྐབས་ཐང་ཤིང་ཆགས་ཞེས་བཏང་གཅོད་དཀར་ན་ཆགས་ནག་ན་ཆག་ཞེས་ས་མཐའ་ཡོད་མེད་ཀྱི་གོ་བའོ།», in the
+examination of the pebbles, "the plank-tree stands" means the deciding
+pebble (བཏང་གཅོད, btang gcod) is white, "broken" that it is black. WB reads
+each of the four standing, broken, speckled, black the greater and white
+the greater (vol. 1, p. 422, img. 432, on the scan; MITRA's flags there,
+«ཀྱེན»/«རྐྱེན», «རྩོད»/«ཚོད», «ཕྱེད»/«བྱེད», read on the scan as «རྐྱེན», «རྩོད», «ཕྱེད»):
+
+> ཐང་ཤིང་ཁྲ་བོར་ནད་གདོན་དང་། །རྐྱེན་སྒོ་འཐབ་རྩོད་དགྲ་ཡང་ལྡང་། །ནོར་གཟན་ཆོས་འདོན་སཱཙྪ་གདབ། །སྤྲང་སྟོན་བྱ་ཞིང་ནག་ཤས་ཆེ། །གདོན་དྲག་ནད་ནི་ལྡང་གནོད་བྱེད། (l. 13–14, the vitality)
+>
+> དཀར་ནག་ཕྱེད་བྱུང་འཁྲུ་སྐྱུགས་འོང་། །བསྐང་གསོ་བསྐང་བཤགས་ལྷ་གསོལ་དང་། །གཞི་བདག་རྣམས་ལ་མཆོད་པ་བྱ། (l. 18–19, the body)
+>
+> ཐང་ཤིང་ཁྲ་བོར་མཁྲིས་ནད་དང་། །བད་ཀན་སྐུ་ནད་ཟས་སྤྱོད་གཟབ། །བརྒྱ་བཞི་གསུང་རབ་མང་དུ་སྒྲོགས། (l. 21–22, the power)
+>
+> ཁྲ་བོར་ནད་པ་ཐེ་ཚོམ་ཅན། །གནམ་འདྲེ་དག་ལ་ཤོར་བའི་ཉེན། །གཟའ་མདོས་གཟའ་ལམ་བགག་པར་བྱ། (l. 25–26, the luck; the etext drops «གནམ་འདྲེ་དག་ལ་ཤོར་བ»)
+
+The vitality's plank-tree speckled: illness and harmful spirits, quarrels
+at the door of conditions, enemies rise; give wealth and food, read the
+scriptures, plant clay images (སཱཙྪ, sA ts+tsha), feast the beggars. The
+body's half white and half black: diarrhoea and vomiting; the fulfilment and confession rites (བསྐང་གསོ, bskang gso; བསྐང་བཤགས, bskang bshags), offerings to the gods and the ground owners (གཞི་བདག, gzhi bdag). The
+power's speckled: bile and phlegm (བད་ཀན, bad kan) illness, care with food
+and conduct, the *Four Hundred* rite (བརྒྱ་བཞི, brgya bzhi) and the scriptures read aloud. The
+luck's speckled: the sick person in doubt, in danger of being lost to the sky-spirits (གནམ་འདྲེ, gnam 'dre); the planets' ransom (གཟའ་མདོས, gza' mdos), the planets' road blocked. The other
+reckonings of the chapter read the mixed case the same way:
+
+- p. 419 (img. 429, l. 28, to p. 420, img. 430, l. 1, on the scan; in
+  health.md as read by RD12): «…བཞི་ག་དཀར་ན་ཤིན་ཏུ་བཟང་། །དཀར་ནག་བསྔོ་རུ་མ་བཏུབ་ན། །ཐང་ཤིང་མ་བབས་ཕྱི་ཆགས་ཡོད། །ཚོགས་གསོག་སྦྱིན་གཏོང་བྱེས་ཕྱིན་ཕན། །ནག་པོ་ཤས་ཆེ་རིམ་གྲོ་བྱ། …ཁྲ་བོ་ནག་པོའི་གཏོ་ཐབས་བསྐྱེད།»; all four white, very good; if
+  the white and black will not resolve (the print's «བསྔོ་རུ་མ་བཏུབ»; the
+  etext's «མི་བབས» is the print's «མ་བབས»), the plank-tree has not come down
+  and an after-attachment remains: gathering merit, giving, going abroad
+  help; the notes (p. 495, on the scan) gloss «ཐང་ཤིང་མ་བབ་ཞེས་པ་ཐག་ཆོད་པའི་རྩིས་མ་བབ་པ་ལ་བཤད», "the plank-tree has not come down"
+  is said of a reckoning that has not reached a decision;
+- p. 423 (img. 433, on the scan): the golden bridge's (གསེར་ཟམ, gser zam) «ཁྲ་བོ་ལུང་མ་བསྟན་གྱི་རིགས། །ནད་གདོན་གློ་བུར་འཇིགས་པ་འབྱུང་།», the speckled is of the
+  undeclared kind (ལུང་མ་བསྟན, lung ma bstan): illness, harmful spirits,
+  sudden fears; the turquoise juniper's (གཡུ་ཤུག, g.yu shug) «དཀར་ནག་འདྲེས་མ་བསྔོ་མ་བཏུབ། །མནའ་ཟོས་ཡང་ན་རྦད་འདྲེ་གནོད།», white and black mixed, unresolved: oath-breaking or
+  the *rbad* spirits (རྦད་འདྲེ, rbad 'dre) harm (the stack read «བསྔོ» on the scan, as on p. 419;
+  Yigdzin-1 reads «བསྡོ», MITRA «བསྔོ»);
+- p. 424 (img. 434, l. 5–6, on the scan): the wish-tree's (དཔག་བསམ, dpag bsam) «དཀར་ནག་འདྲེས་ནས་བསྔོ་མ་བཏུབ། །གདོན་བསྒྲིབས་ཐང་ཤིང་མ་བབས་ཏེ། །འབྱུང་འཁྲུགས་ནད་ཡིན་གསོ་བ་དཀའ།», white and black mixed, unresolved: the spirits
+  obscure it, the plank-tree has not come down, an illness of the
+  elements in turmoil, hard to cure;
+- p. 425 (img. 435, l. 19–20, on the scan; the etext has a gap for the
+  first words): «བུ་ཕྲད་དཀར་ནག་སྣ་ཚོགས་པ། །བསྔོ་རུ་མ་བཏུབ་གྱུར་པ་ན། །མ་བབས་འདི་ལ་ཕྱི་ཆགས་ཡོད། །ཚོགས་གསོག་སྦྱིན་གཏོང་བྱེས་ཕྱིན་ཕན།», when son meetings of
+  white and black of every kind leave it unresolved, it has not come
+  down, an after-attachment remains; gathering merit, giving, going abroad
+  help. This is WB's one line that ties a son meeting to an undecided
+  verdict, and it is p. 419's reading of the mixed four.
+
+**The notes on the speckled** (vol. 2, p. 495, img. 503, on the scan,
+MITRA agreeing but for its own slips): in the illness reckoning each
+meeting is one pebble, and the son's is speckled:
+
+> སྐབས་གསུམ་པ་ནད་རྩིས་ལ། རྡེལ་ཕྲེང་བཅུ་དྲུག་པོ་གཞུང་བཞིན་གར་བབ་དང་བརྩི་བྱའི་སྲོག་སོགས་འཐབས་ལ་མ་གྲོགས་ཕྲད་ན་དཀར། བུ་ཁྲ། དགྲ་ནག ནང་ཕྲད་ས་ཆུ་དཀར། གཞན་ནག འོག་ཏུ་ཁ་དམར་བཅུ་དྲུག་དང་འཕྲེད་ལ་བཞི་བཞག
+
+Section three, the illness reckoning: the sixteen rows of pebbles, where
+they fall as the text says, fought against the one reckoned's vitality and
+the rest: a meeting with the mother or the friend, white; the son,
+speckled; the enemy, black; meeting itself, earth and water white, the
+others black. Below, lay sixteen verdicts, and across, four. Then, on the
+pebble patterns of pp. 422–424:
+
+> གྱེན་དུ་དཀར་པོ་བཞི་བརྩེགས་ན་གསེར་ཟམ་ཆགས། [chart] ནག་པོ་འགྱེལ། [chart] ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད། རགས་པར་འགྱེལ་ལ་བརྩི། … གཡུ་ཤུག་ཆགས་པ་ནག་ན་ཆད། [chart] དཔག་བསམ་འདི་ལྟར་དཀར་འགྲིགས་ཆགས་ནག་ན་ཆད། ཁྲ་བོ་བཏང་སྙོམས། གནས་གང་དུའང་དཀར་པོ་བཞི་ལིང་བྱུང་ན་དཔལ་ཁྱིམ། ⁘ ནག་པོ་བཞི་ལིང་བྱུར་ཁྱིམ། ཁྲ་བོ་མི་བརྩི། རགས་པར་བྱུར་ཁྱིམ། … ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན།
+
+Four white stacked upward, the golden bridge stands; black, it falls; a
+speckled one has no «སྔོ་བགྲང» (not identified; see *Open*), roughly it is
+counted as fallen. The turquoise juniper stands, black breaks; the
+wish-tree, white in line, stands, black breaks; a speckled one is even
+(བཏང་སྙོམས, btang snyoms). Wherever four white come together, a house of glory (དཔལ་ཁྱིམ, dpal khyim); four black, a house of misfortune (བྱུར་ཁྱིམ, byur khyim); a speckled one is not counted,
+roughly a house of misfortune. The speckled is counted neither outside
+nor inside, but if it comes, it is somewhat weak.
+
+So in the reckoning whose verdicts WB reads speckled, Mipham lays a son
+meeting as one speckled pebble, and a speckled pebble is not counted for
+white or black, leaning to the bad.
+
+### 3. The notes elsewhere: no rule for a mixed place in the year of age
+
+- p. 490 (img. 498; RD18, RD20): "the pebbles laid as the root text says"
+  («རྡེའུ་བོར་ལུགས་གཞུང་བཞིན»), so in the year of age the son's place
+  holds WB's pair; the verdict counts each place by its colour, even a
+  speckled one. The line does not say what colour a pair place has.
+- p. 496 (img. 504, Yigdzin-1 and the etext, not quoted on the scan): the
+  illness reckoning's fifteen pebbles counted in fractions, «དཀར་ནག་སྙོམས་ཁར་དཀར་བཞི་ལྷག་ན་བཞི་ཆས་ལྷག», at even white and black with four
+  white over, "a quarter over"; nothing on a mixed place.
+- pp. 500, 502 (img. 508, l. 14; img. 510, l. 24, on the scan), the
+  reckoning for the dead: «བཟང་དྲུག་དཀར་ངན་དྲུག་ནག», and «དར་གུད་ནི་སྲོག་སོགས་བཞི་གནམ་ལོར་གཏུགས་པའི་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག», the stages of growth and decline (དར་གུད,
+  dar gud) of the vitality and the rest against the year: the six good
+  white, the six bad black. WB's six bad (vol. 1, p. 258) begin with the
+  breath-taking and the womb; there the notes lay them black, one
+  colour, not mixed.
+- p. 502 (img. 510, l. 9; RD18): «གྲོགས་ལོ་ཆེ་དཀར་ཆུང་ནག་ལྟ་བུའང་ཁྲ་བོར་གཏོགས།», a friend's year white for the elder and black for the
+  younger also belongs to the speckled: a place with both colours is
+  speckled.
+- p. 503 (img. 511, l. 5–6, on the scan): «ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས་པའི་སྤྱིའི་ཁ་དམར་རྡེལ་གཅིག་སྟེ། བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག་ལ་འཆི་དུས་རྡེལ་ཕྲན་ཉེར་གཅིག་ཏུ་འཇོག་པ་འདྲ་སྟེ་བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག», one general verdict
+  pebble from the twenty counted, twenty-one deciding pebbles, laid like
+  the twenty-one small pebbles of the time of death; so it stands in the
+  table (ཁྲ་མ, khra ma) of the *bu dpe* (བུ་དཔེ, bu dpe), a source the notes name and do not identify. «ཁྲ་མ» here is a table, not a
+  speckled verdict.
+- p. 507 (img. 515, Yigdzin-1 and the etext): the dead's stages and the
+  planets' and mansions' times of death; no verdict rule.
+
+The *Moonbeams*' pages that SPEC §5.9.1 cites for the stages' ranks
+("pp. 496 and 507") are KD vol. 3's, not the notes'; the notes' pp. 496
+and 507 hold no stage ranks.
+
+### 4. The manuals
+
+A manual is a witness below WB and Mipham (sources rule, 2026-10-20);
+these are reported for what they add where WB and the notes are silent.
+
+**Mipham's own obstacle reckoning**, *The Deathless Elixir* (ཀེག་རྩིས་འཆི་མེད་བཅུད་ལེན, keg rtsis 'chi med bcud len), in his Collected Works
+(BDRC MW5062_B6190A; scans I1KG8550 img. 809–810, printed pp. 798–799;
+Yigdzin-1, read on the scan at 3–6×; the etext is poor):
+
+> …བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་བཞིས། །འཐབ་པའི་གཅོད་འདྲལ་ཉི་ཤུ་བཞི། །མ་འཕྲད་དཀར་གསུམ་གྲོགས་འཕྲད་ལ། །དཀར་གཉིས་བུ་འཕྲད་དཀར་ནག་ཟུང་། །དགྲ་དང་འཕྲད་ན་ནག་པོ་གཉིས། །ས་ཆུ་ནང་འཕྲད་དཀར་པོ་རེ། །མེ་ལྕགས་ཤིང་གསུམ་ནག་རེ་བོར། །དར་གུད་བཟང་དྲུག་གོ་རིམ་བཞིན། །རྡེའུ་དཀར་པོ་གསུམ་གཉིས་གཅིག །ངན་དྲུག་རབ་འབྲིང་ཐ་མ་གསུམ། །ཕྱེད་མ་[?]ནག་གཅིག་ནག་གཉིས་སོ། །ཁ་དམར་རྡེའུ་བཞག་པའི་ཚུལ། །གནས་སམ་སྐོར་མགོའི་གྲངས་བགྲང་བའི། །གང་མང་ཁ་དམར་རྡིལ་བོར་བྱ། །སྲོག་རྡིལ་སྲོག་དགྲ་ཡོད་མེད་གཙོ། …
+
+The twenty-four, fought by the one reckoned's four aspects: a mother
+meeting three white, a friend two white, a son a pair of white and black,
+an enemy two black, earth and water meeting themselves one white each,
+fire, iron and wood one black each. The six good stages in order, three,
+two and one white; the six bad in three ranks, best, middling and last:
+half (ཕྱེད་མ, phyed ma), one black, two black. The way of laying the verdict
+pebble: count the places or starting points, and lay the verdict on
+whichever are more. For the vitality's verdict what matters most is
+whether the vitality has an enemy … Between «ཕྱེད་མ» and «ནག་གཅིག» the
+print has faint letters, Yigdzin-1's «དཀར་ནག་གཉིས», which the scan does
+not show clearly; the line is metrical without them and the *Good Vase*
+and Zhechen Gyaltsab (below) have none, so they may be a small note
+glossing "half" as "white and black, two" (a doubt). The readings that
+follow (img. 810) keep WB's counts, «སྲོག་རྡིལ་དཀར་ནག་གཉིས་བབས་ན། །གོད་ཟློག་མཆོད་རྟེན་སྐུ་དཀར་གསོལ།», if white and black, two, fall on the
+vitality, turn back the losses, offer white paint to the stupa; and for
+the power «དབང་བསྐྱེད་ཕྱེད་མར་དེ་མཚུངས་སྦྱར», raise the power, and apply
+the like to the half. No rule for a tie and no word on how the son's
+pair counts; the stages' best-of-the-bad laid "half", which matches
+SPEC's "breath-taking and the womb one of each" if those two are the
+best of the bad, as Mipham does not name them.
+
+**The *Good Vase*** (བུམ་བཟང, bum bzang; *Nag rtsis kyi sngon 'gro'i lag len nyer mkho'i bum bzang*, ནག་རྩིས་ཀྱི་སྔོན་འགྲོའི་ལག་ལེན་ཉེར་མཁོའི་བུམ་བཟང, the first work of the *Collected Astrological and
+Prognosticatory Texts from Bhutan*, BDRC etext VEIE0OPI1829B6AF_I1KG11905,
+etext pp. 28–32; scans img. 31–32, printed pp. 21–22, read on the scan;
+another copy, MW30023_79E1C5, search only). It has Mipham's lines, almost
+word for word, and goes on to the tie and to which reading a verdict
+takes:
+
+> …དར་གུད་བཟང་དྲུག་གོ་རིམ་བཞིན། །རྡེའུ་དཀར་པོ་གསུམ་གཉིས་གཅིག །ངན་དྲུག་རབ་འབྲིང་ཐ་མ་གསུམ། །ཕྱེ་མ་ནག་གཅིག་ནག་གཉིས་སོ། །ཁ་དམར་རྡེའུ་བཞག་པའི་ཚུལ། །རྡེའུའི་ངོ་གྲངས་མི་འགྲིམ་པར། །གནས་སམ་སྐོར་འགོའི་ངོ་གྲངས་བགྲངས། །དཀར་མང་དཀར་གཅིག་ནག་མང་ན། །ནག་གཅིག་སྙོམས་ཚེ་དཀར་ནག་གཉིས། །ཁ་དམར་རྡེའུ་དཀར་བ་ན། །དཀར་པོའི་འབྲས་བུ་བརྗོད་དགོས་པས། །རྡེལ་ཚར་དེ་ན་དཀར་གསུམ་ཅན། །འདུག་ན་དཀར་གསུམ་འབྲས་བུ་བརྗོད། །གཉིས་ལས་མང་བ་མི་འདུག་ན། །དཀར་གཉིས་འབྲས་བརྗོད་གཅིག་ལ་གཅིག །འོན་ཀྱང་ནག་པོ་དུ་ཡོད་ཀྱི། །ཚོད་ལ་སྤོར་བའི་རིམ་གྲོ་འབོག །ཁ་དམར་ནག་ན་ནག་འབྲས་ཏེ། །སྔར་བཞིན་མང་མཐའི་འགྲེལ་པ་བརྗོད། །ནག་གཞན་རིམ་གྲོའང་ཚོད་ཀྱིས་འབོག །སྙོམས་ལ་རྡེལ་ཁྲའི་འབྲས་བུ་བརྗོད། །
+
+The way of laying the verdict pebble: not counting the pebbles' number,
+count the number of places or starting points; more white, one white;
+more black, one black; when even, white and black, two. When the verdict
+pebble is white, its white result is told: if in that row there is a
+three-white, tell the three-white result; if there are no more than two,
+the two-white result; one, one. Yet, by how many black there are, add
+rites in measure. If the verdict is black, its black result: as before,
+tell the reading of the highest count; the rites for the other black
+added in measure. **When even, tell the result of the speckled pebble.**
+The readings that follow are the counts' readings («སྲོག་རྡེལ་དཀར་ནག་གཉིས་བབས་ན། །ཕུང་སྲི་མནན་ཞིང་མལ་ས་སྤོ།», etext p. 31, not read on the scan),
+so the speckled verdict's result is the "white and black, two" reading.
+The *Good Vase* writes «ཕྱེ་མ» for «ཕྱེད་མ».
+
+**Zhechen Gyaltsab Gyurme Pema Namgyal** (ཞེ་ཆེན་རྒྱལ་ཚབ་འགྱུར་མེད་པདྨ་རྣམ་རྒྱལ, zhe chen rgyal tshab 'gyur med padma rnam rgyal),
+*The Clear Mirror of the Pebbles of the Forty-seven* (ཀེག་རྩིས་ཞེ་བདུན་མའི་རྡེལ་བཤད་རབ་གསལ་མེ་ལོང, keg rtsis zhe bdun ma'i rdel bshad rab gsal me long), in
+his Collected Works vol. *nga* (BDRC etext VEIE0OPIDB78C0F0_I4PD2444;
+scans I4PD2444 img. 333–335, printed pp. 289–291; img. 333 read on the
+scan, img. 334–335 Yigdzin-1 against the etext), opening with homage to the Gentle Protector (འཇམ་མགོན, 'jam mgon):
+
+> …དེ་ཡང་མར་འཕྲད་དཀར་གསུམ་གྲོགས་ལ་གཉིས། །ས་ཆུ་ནང་ཕྲད་དཀར་གཅིག་བུར་འཕྲད་ཁྲ། །ཤིང་ལྕགས་མེ་ནང་ནག་གཅིག་དགྲར་འཕྲད་གཉིས། །དར་གུད་བཟང་དྲུག་རབ་འབྲིང་ཐ་རིམ་བཞིན། །དཀར་པོ་གསུམ་གཉིས་གཅིག་དང་ངན་དྲུག་གི། །རབ་འབྲིང་ཐ་མར་ཕྱེད་མ་ནག་གཅིག་གཉིས། །རིམ་བཀོད་ཁ་དམར་རྡེའུ་རྣམ་བཞི་ཡང་། །དཀར་གསུམ་ལ་སོགས་རང་གྲངས་མི་འགྲེམ་པར། །གནས་སམ་བསྐོར་མགོའི་གྲངས་ཀྱི་མང་ཉུང་ལྟར། །དཀར་མང་དཀར་དང་ནག་མང་ནག་པོར་བཀོད།
+
+Mother three white, friend two; earth and water meeting themselves one
+white; **a son meeting, speckled** (the scan's «ཁྲ», the etext's «ཁྲོ»);
+wood, iron and fire meeting themselves one black, an enemy two. The good
+six stages three, two, one white; the bad six, best, middling and last,
+half, one black, two. The four verdict pebbles laid in order, not by
+their own counts of three white and the rest, but by the more or fewer of
+the places or starting points: more white, white; more black, black. No
+tie rule. Its readings again keep the counts: «དཀར་ནག་ཟུང་བབས་ལྷ་འདྲེ་ཆོ་ལོ་འགྱེད།» for the vitality (img. 334), «ཁྲ་བོ་ལུས་ལ་ལྷ་སྲིན་ཆོ་ལོ་འགྱེད།» for the body (img. 335).
+
+**A Drukpa obstacle manual**, *The Mirror of the Gentle Protector's Intent* (འཇམ་མགོན་དགོངས་པའི་མེ་ལོང, 'jam mgon dgongs pa'i me long; *The Meaning of the Obstacle Reckoning Set Out*, གཙུག་ལག་སྐེག་རྩིས་ཀྱི་དོན་རྣམ་པར་ཕྱེ་བ, gtsug lag skeg rtsis kyi don rnam par phye ba), in the *Great Drukpa Treasury of Dharma* (འབྲུག་པའི་ཆོས་མཛོད་ཆེན་པོ, 'brug pa'i chos mdzod chen po; BDRC
+MW3CN2232_B4D38B; scans I3CN2345 img. 231–239, printed page = image − 5;
+the etext "best quality", Yigdzin-1 agreeing on the lines below, the
+heading and the body's line read on the scan). Its colophon (etext
+p. 363, not read on the scan) names the author, Mipham Gelek Nampar Gyalwé Lha (མི་ཕམ་དགེ་ལེགས་རྣམ་པར་རྒྱལ་བའི་ལྷ, mi pham dge legs rnam par rgyal ba'i lha), «བོད་མཁས་པ་མི་ཕམ་དགེ་ལེགས་རྣམ་པར་རྒྱལ་བའི་ལྷ», and says the notes were written by Lhawang Dorje (ལྷ་དབང་རྡོ་རྗེ, lha dbang rdo rje) «སྔ་རབས་ཀྱི་རྩིས་གཞུང་ཁ་ཤས་དང་ཕྱི་རྩིས་བཻ་དཀར་སོགས་ལ་བརྟེན་ནས», from some earlier reckoning texts and WB. It lays the son's meeting
+as WB does («འབོ་བ་བུ་ལ་དཀར་ནག་ཟུང་ཞིག་བོར།», img. 231), and then recasts
+WB's readings as the readings of the verdict, in five grades:
+
+> ཕྱི་ནང་གསང་བར་བབས་རྡེའི་དབྱེ་བ་དེ། །ཁ་དམར་རྡེའུ་དྲིལ་བའི་རྣམ་བཤད་ལ། །སྲོག་ལ་རྡེལ་དཀར་གསུམ་སོགས་བབས་མང་ན། །… །སྲོག་རྡེལ་དཀར་པོ་གཅིག་བབས་… །སྲོག་ལ་རྡེའུ་དཀར་ནག་ཟུང་ཞིག་འདྲེས། །ལྷ་བདུད་རྣམ་གཉིས་སྲོག་ལ་ཆོ་ལོ་འགྱེད། །རྒྱལ་ཕམ་མ་ཕྱེད་བཟང་གཅིག་ངན་གཅིག་སྟེ། །ཁྲམ་དང་གོད་ཁ་གློ་བུར་ཉེས་པའི་གཞི། །ལྷ་མཆོད་བསྐང་བཤགས་ཟློག་པ་དྲག་ཏུ་གྱིས། །སྲོག་རྡེལ་ནག་པོ་གཅིག་བབས་… །སྲོག་ལ་རྡེའུ་ནག་པོ་གཉིས་བབས་ན། … (img. 232–233)
+
+The pebbles fallen in the outer, inner and secret places, explained as
+the verdict pebbles gathered (ཁ་དམར་རྡེའུ་དྲིལ་བ): if on the vitality three
+white and so on fall the more …; one white …; if on the vitality a pair
+of white and black is mixed, god and demon play dice for the vitality,
+victory and defeat undecided, one good and one bad: the ground of
+cheating, losses and sudden harm; make offerings to the gods,
+fulfilment, confession and turning-back rites strongly; one black …; two
+black … And for the others: «ལུས་རྡེལ་དཀར་ནག་ཁྲ་བོར་བབས་པ་དེ། །ལྷ་དང་དམུ་ཡི་བུ་གཉིས་ཤན་མ་ཕྱེ།» (img. 234, on the scan), the body pebble
+fallen speckled white and black, the son of the gods and the son of the *dmu* (དམུ, dmu) not told apart (WB's own words for the body); «དབང་རྡེལ་ཁྲ་བོར་བབས་ན།» (img. 236), the power pebble fallen speckled; «ཀླུང་རྡེལ་དཀར་ནག་འདྲེས་ན་ཐིག་བསྒྲིལ་འདྲ།» (img. 238), the luck pebble white and black mixed, like a twisted
+thread (WB's words); «བླ་རྡེལ་དཀར་དང་ནག་པ་ཕྱེད་མར་བབས།» (img. 239), the la
+(བླ, bla) pebble fallen half white, half black. Here WB's "white and
+black, two" readings are, explicitly, the readings of a speckled verdict.
+
+**Other witnesses, from the search snippets and etexts only** (not on the
+scan):
+
+- The Bon *snang srid me long* (SN) and three collections that share its lines (*Quintessence of the Four Doors and Five Treasuries*, སྒོ་བཞི་མཛོད་ལྔའི་ཡང་བཅུད, sgo bzhi mdzod lnga'i yang bcud; *All Knowables of Reckoning Made Clear*, རྩིས་རིག་ཤེས་བྱ་ཀུན་གསལ, rtsis rig shes bya kun gsal; the *Gyalrong folk reckoning texts*, རྒྱལ་རོང་དམངས་ཁྲོད་ཀྱི་རྩིས་ཡིག་ཕྱོགས་བསྒྲིགས, rgyal rong dmangs khrod kyi rtsis yig phyogs bsgrigs): «མ་འཕྲད་དཀར་གཉིས་བུ་འཕྲད་ཁྲ། །དགྲ་འཕྲད་ནག་གཉིས་གྲོགས་འཕྲད་གཅིག», a son meeting
+  speckled; and «དཀར་ནག་ཕྱེད་མ་གདོན་སྒྲིབ་ནད། …བུ་འཕྲད་དཀར་ནག་སྣ་ཚོགས་པ། །ཐང་ཤིང་མ་བབ་ཕྱི་ཆགས་ཡོད།», WB's p. 419 and p. 425 put together. A witness to WB
+  only (sources rule).
+- OS (search only) and *The Knowledge of an Ancient Bon Village* (གནའ་བོའི་བོན་གྲོང་ཞིག་གི་ཤེས་རིག, gna' bo'i bon grong zhig gi shes rig) quote the *Moonbeams*' «བུ་འཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ», the son meeting half (KD vol. 3, etext offset 906513: the
+  *Moonbeams*, O18's).
+- Lhamo Tsultrim's (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims) *Laying the Pebbles of the Chinese Reckoning and Their Results* (ནག་རྩིས་རྡེལ་འགྲེམ་འབྲས་བཤད, nag rtsis rdel 'grem 'bras bshad; I1KG21886,
+  etext p. 175) and OS restate WB p. 425 in prose: «བུ་ཕྲད་དཀར་ནག་སྣ་ཚོགས་བྱུང་ན་ཚོགས་བསགས་སྦྱིན་གཏོང་བྱ།», and «དཀར་ནག་མཉམ་ན་ལྷ་གསོལ། འབུམ། ཉི་ཁྲི་དྲག་སྔགས་བསྒྲུབ་ཅིང་གཏོར་བཟློག་བྱ།», white and black even: offerings to the gods, the *'Bum* (འབུམ, 'bum), the *Nyi khri* (ཉི་ཁྲི, nyi khri), wrathful mantras and the turning-back with offering cakes (གཏོར་བཟློག, gtor bzlog)
+  (the illness reckoning's fractions).
+- Getse Gyurme Namgyal's (དགེ་རྩེ་འགྱུར་མེད་རྣམ་རྒྱལ, dge rtse 'gyur med rnam rgyal) *Wondrous Points of the Elemental Reckoning* (འབྱུང་རྩིས་དཔྱད་དོན་རྨད་བྱུང, 'byung rtsis dpyad don rmad byung; I4767, etext p. 83), of a house's pillars: «འདི་རྣམས་རྡེའུ་དཀར་ན་བཟང་། ཁྲ་ན་སྐྱོན་མེད་ནག་ན་ངན།» and «ཁྲ་བོ་སྐྱོན་མེད་བཏང་སྙོམས།», white good, speckled without fault,
+  black bad; speckled faultless, even.
+
+### What D16 can rest on
+
+1. **A place with both colours.** WB lays the son's meeting as a pair and
+   never counts it in a verdict. Mipham, in the reckoning where WB reads
+   speckled verdicts, lays the son's meeting as one speckled pebble (notes
+   p. 495), counts a speckled pebble for neither white nor black, "roughly"
+   with the bad, and in the reckoning for the dead calls a white-and-black
+   year speckled (p. 502); Zhechen Gyaltsab lays the son's meeting
+   speckled in the year of age itself. No text read counts it black
+   (Gyurme Dorje's chart 6.2, RD18) or white. Under the notes' place rule a
+   son's place is then neither a white nor a black place; how that
+   reproduces chart 6.2 is O17's. The stages: the notes on the dead lay the
+   six bad black; Mipham's manual, the *Good Vase* and Zhechen Gyaltsab
+   lay the best of the six bad "half", without naming which stages those
+   are.
+2. **A speckled predictive pebble.** WB reads the year of age's predictive
+   pebbles white or black only, but calls the count readings of pp.
+   381–384, the son's pair among them, verdicts. Two manuals say outright
+   that a tie is read by the "white and black, two" reading: the *Good
+   Vase* («སྙོམས་ལ་རྡེལ་ཁྲའི་འབྲས་བུ་བརྗོད») and the Drukpa *Mirror*, which
+   prints those readings as the speckled verdict's. WB's illness chapter
+   gives each aspect's speckled verdict its own reading, all of them a
+   state not yet decided, with rites; Mipham's notes call the speckled even,
+   uncounted, somewhat weak. The *Good Vase* also says which reading a
+   white or black verdict takes: the highest count that falls in the
+   aspect's places.
+
+### Open
+
+- Question: Does the year of age's speckled predictive pebble take the
+  decisive pebbles' "white and black, two" reading (WB vol. 1, pp.
+  381–384), as the *Good Vase* (Bhutan collection, pp. 21–22) and the
+  Drukpa *Mirror of the Gentle Protector's Intent* (pp. 227–234) read it, though WB
+  (pp. 384–385) gives the predictive pebbles white and black readings
+  only?
+- Question: Mipham's notes lay a son meeting as one speckled pebble in the
+  illness reckoning (WB vol. 2, p. 495), while WB lays it as a pair of
+  white and black in both the year of age (vol. 1, p. 380) and the illness
+  reckoning (p. 417), and the notes say the year of age's pebbles are laid
+  "as the root text says" (p. 490). Is the son's place a speckled place in
+  the year of age's verdict too, counted for neither colour, as Zhechen
+  Gyaltsab's *Clear Mirror* (p. 289) lays it?
+- Question: Which of the six bad stages are "the best" that Mipham's
+  *Deathless Elixir* (p. 798), the *Good Vase* and Zhechen Gyaltsab lay
+  half white and half black: the breath-taking and the womb, which WB
+  (vol. 1, p. 258) names first among the bad, while the notes on the dead
+  (vol. 2, pp. 500, 502) lay all six bad black?
+- Question: What are the faint letters between «ཕྱེད་མ» and «ནག་གཅིག» in
+  Mipham's *Deathless Elixir* (I1KG8550 img. 809, last line), a small
+  note «དཀར་ནག་གཉིས» or part of the line?
+- Question: What does «བསྔོ་རུ་མ་བཏུབ» say (WB vol. 1, pp. 419, 424, 425;
+  p. 423 has «བསྔོ་མ་བཏུབ», Yigdzin-1 reading «བསྡོ»)? The notes gloss the
+  next words, "the plank-tree has not come down", as a reckoning not
+  come to a decision (vol. 2, p. 495); [health.md](health.md) renders the
+  line "will not take the offering".
+- Question: What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p. 495, img. 503), and is it related to p. 419's
+  «བསྔོ»?
+
+### Searched and not found
+
+- 2026-10-20, BDRC's full-text search: «ཁ་དམར་ཕྱེད་མ», «ཕྱེད་མ་དཀར་ནག་གཉིས», «ཕྱེད་མ་དཀར་ནག», «དཀར་ནག་ཟུང་དུ་བོར», «ཁ་དམར་ཁྲ་བོ», «ཀེག་རྩིས་ཀྱི་ཁ་དམར», «ཁ་དམར་དཀར་ནག་གཉིས» and «གནས་སམ་སྐོར་མགོའི» no hit;
+  «ཁ་དམར་ཁྲ» only a veterinary and a pharmacy book (an animal's red-speckled
+  hair); «བུ་ཁྲ» too common to read (299 hits). «མཉམ་ན་ཕྱེད་མ» only the
+  *Moonbeams*' tie for the dead and its copies (MK, OS, Tshul khrims rgyal mtshan's (ཚུལ་ཁྲིམས་རྒྱལ་མཚན, tshul khrims rgyal mtshan) annotation of the *Moonbeams*, MW1KG10375_747F39, search only:
+  O18's).
+- 2026-10-20, WB's notes, vol. 2, pp. 489–495, 496, 500–503, 507 (on the
+  scan where quoted above, the rest Yigdzin-1 and the etext): no rule for
+  how a place with both colours counts in the year of age's verdict; p.
+  503's «ཁྲ་མ» is a table, not a speckled verdict.
+- 2026-10-20, WB vol. 1, pp. 380–385 (on the scan): no «ཁྲ» or «ཕྱེད» as a
+  verdict and no reading for a speckled predictive pebble; the predictive
+  readings are white and black only.
