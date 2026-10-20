@@ -1527,3 +1527,18 @@ scan):
 - 2026-10-20, WB vol. 1, pp. 380–385 (on the scan): no «ཁྲ» or «ཕྱེད» as a
   verdict and no reading for a speckled predictive pebble; the predictive
   readings are white and black only.
+
+
+## Whose aspect, which part of life, and the reckonings with each other (RD24)
+
+Nothing read yet: RD24's passages, with the English beside them, go here.
+
+
+## Mipham's notes on condensing (RD26)
+
+Nothing read yet: RD26's passages, with the English beside them, go here.
+
+
+## The marriage match concluded (RD21)
+
+Nothing read yet: RD21's passages, with the English beside them, go here.
