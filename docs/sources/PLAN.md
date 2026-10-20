@@ -677,3 +677,13 @@ Searched and found wanting, so not to be repeated:
   son-meeting line: it reads «དཀར་ན་གཟུང». The notes' table (vol. 2, p. 489,
   both prints) has no cell whose meeting is a breath-taking stage and no
   row whose verdict turns on the womb alone.
+- **D16 in the *Moonbeams*** (O18, 2026-10-20): in the whole *Moonbeams*
+  (DZ, BDRC I2533 img. 015–064 by Yigdzin-1; KD vol. 3 etext pp. 506–536)
+  no rule for how a half place counts in a verdict and no tie rule for the
+  year of age; «ཁྲ» never as a pebble's colour (the eleventh starting point's
+  rites «དཀར་ནག་ཁྲའི», KD p. 520, etext only); «མཉམ» only at f. 28b (the dead)
+  and in the marriage's repetition pebbles (KD p. 525, etext only). Gyurme
+  Dorje's notes to the obstacle years (OCR text) say nothing on the
+  predictive pebbles' count or a mixed one. Dorje cites the *Moonbeams* by
+  another print's folios, about 6.5 ahead of I2533: his ff. 27b–28b are
+  I2533's ff. 21a–22a.

@@ -2386,7 +2386,8 @@ the text, not about the app.
      white as one; Gyurme Dorje's chart 6.2 comes out of their rule only if
      a son's meeting counts black, and the notes on the dead put a mixed
      year with the speckled (vol. 2, p. 502). Question 170 asks the same of
-     the son's meeting. *Narrowed 2026-10-20 (O17, [verdicts.md](verdicts.md), "D16: the worked examples"): the notes' own table (p. 489) fits a son meeting counted white, left out, or one of each, not black; Gyurme Dorje's chart 6.2 fits black only; no one count fits both (question 186).* [verdicts.md](verdicts.md), *The verdict pebble,
+     the son's meeting. *Narrowed 2026-10-20 (O17, [verdicts.md](verdicts.md), "D16: the worked examples"): the notes' own table (p. 489) fits a son meeting counted white, left out, or one of each, not black; Gyurme Dorje's chart 6.2 fits black only; no one count fits both (question 186).*
+     *Narrowed 2026-10-20 (O18): the Moonbeams (DZ f. 21b, img. 046) lays a son's meeting as a half (ཕྱེད་མ, phyed ma), one pebble between one white and one black, and the breath-taking and womb stages as halves too; how a half counts in the verdict it does not say (question 188). Gyurme Dorje renders the half as "one white and one black" (p. 226).* [verdicts.md](verdicts.md), *The verdict pebble,
      chapter by chapter* (RD18).
 172. **A speckled predictive pebble (WB vol. 1, ch. 24, pp. 381–385).** What
      does a speckled predictive pebble of the year of age foretell? WB's
@@ -2394,6 +2395,7 @@ the text, not about the app.
      only; the decisive pebbles' readings have "white and black, two" for
      each aspect (pp. 381–384), which may be the reading meant.
      [verdicts.md](verdicts.md) (RD18).
+     *Narrowed 2026-10-20 (O18, [verdicts.md](verdicts.md), "D16: the Moonbeams"): the Moonbeams gives the year of age no readings, and reads a half only for the dead's rebirth (a human birth); it keeps a half, one pebble, apart from "white and black, two" (f. 29a). Question 190.*
 173. **«ཁ་སྦྲང» and «ངོ་ཐེག» (WB vol. 1, ch. 24, p. 381, img. 391, l. 2–4).** What
      are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490 reads the second
      as "the place" of a meeting; the dictionaries were not searched for
@@ -2461,3 +2463,26 @@ the text, not about the app.
      is it «དཀར་ནག་ཟུང་དུ», "white and black as a pair", or does "where
      white, as a pair" mean something else? [verdicts.md](verdicts.md), *D16:
      the worked examples* (O17).
+188. **A half place in the *Moonbeams*' verdict (DZ f. 21b–22a, img. 046–047).**
+     In the *Moonbeams*' year of age (DZ f. 21b–22a, img. 046–047), the son's
+     meeting and the breath-taking and womb stages are each "a half"
+     (ཕྱེད་མ). How does a half place count toward the verdict: as neither
+     white nor black (left out), as weighing toward a tie, or by some other
+     rule? The verse says only "counting how many or few the white and black
+     are". [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).
+189. **«དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1).**
+     Does «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1) mean
+     that the verdict pebble is laid as a grade of the scale, "three white",
+     "two white" … "a half" … "two black", read with WB's readings of that
+     many white or black on the aspect (WB vol. 1, pp. 381–384), or, as
+     Gyurme Dorje translates, that the verdicts are placed on the piles of
+     three white, two white and so on? [verdicts.md](verdicts.md), "D16: the
+     Moonbeams" (O18).
+190. **A reading for a half verdict of the year of age (DZ f. 22b).**
+     Does a half verdict of the year of age have a reading of its own? The
+     *Moonbeams* reads a half only for the dead's rebirth (a human birth, ff.
+     28b–29a) and sends the year's results to other works (f. 22b: the root's
+     commentary, the twenty, «རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ»; the little red,
+     «དམར་ཆུང»; the tiger-head, «སྟག་མགོ»; the rolled ridge, «སྒང་སྒྲིལ»);
+     which works are these, and does any of them read it?
+     [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).

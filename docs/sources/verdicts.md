@@ -385,7 +385,7 @@ nothing:
 | Ch. 29, p. 47 (img. 55, l. 8–9), the rebirth | «རྡེའུ་ཐམས་ཅད་གོ་བསྟུན་ལ། །དཀར་ཤས་ཆེ་ན་དཀར་པོ་གཅིག །གཅིག་དཀར་གཅིག་ནག་དཀར་ནག་གཉིས། །ནག་ན་ནག་པོའི་རྡེའུ་བོར།» | one white and one black: both, a white and a black |
 | Ch. 29, p. 50 (img. 58, l. 27–28), the thirteenth point | «དཀར་མང་དཀར་པོ་ནག་པོ་མང་། །ནག་རྡེལ་སྙོམས་ན་དཀར་ནག་ཟུང་།» (l. 28, which Yigdzin-1 drops, read on the scan) | even, a pair of white and black |
 | Notes, p. 500 (img. 508, l. 17–19), the share of the rites | «བཏང་གཅོད་གཉིས་ཀ་དཀར་ན་དཀར་པོ་བོར། གཉིས་ཀ་ནག་ན་ནག་པོ། གཅིག་དཀར་གཅིག་ནག་ན་ཁྲ་བོ་བོར་ཏེ། དཀར་པོ་ལ་འདུར་ཐང་ཆེ་བ་ཐོབ།» | one of each, a speckled one; the white wins a large share |
-| *Moonbeams*, KD vol. 3, etext p. 534 (etext only) | «དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གྱི། །རྡེའུ་བཅུ་གཉིས་ལོགས་སུ་བོར། །དཀར་ལ་དཀར་པོ་ལྡོག་པ་ནག །མཉམ་ན་ཕྱེད་མ[ི]…» | even, a half (ཕྱེད་མ, phyed ma) |
+| *Moonbeams*, KD vol. 3, etext p. 534; DZ f. 28b (img. 060), the reckoning for the dead (O18, on the scan) | «དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གྱི། །རྡེའུ་བཅུ་གཉིས་ལོགས་སུ་བོར། །དཀར་ལ་དཀར་པོ་ལྡོག་པ་ནག །མཉམ་ན་ཕྱེད་མ» (KD's «ཕྱེད་མི» is the scan's «ཕྱེད་མ»; «ཁྱད་པར་དུ» opens the next sentence) | even, a half (ཕྱེད་མ, phyed ma) |
 
 And the speckled or half verdict is read, not left blank:
 
@@ -1171,25 +1171,9 @@ verdict.
 
 ### Open
 
-- Question: In the *Moonbeams*' year of age (DZ f. 21b–22a, img. 046–047),
-  the son's meeting and the breath-taking and womb stages are each "a
-  half" (ཕྱེད་མ). How does a half place count toward the verdict: as
-  neither white nor black (left out), as weighing toward a tie, or by
-  some other rule? The verse says only "counting how many or few the
-  white and black are".
-- Question: Does «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1)
-  mean that the verdict pebble is laid as a grade of the scale, "three
-  white", "two white" … "a half" … "two black", read with WB's readings of
-  that many white or black on the aspect (WB vol. 1, pp. 381–384), or, as
-  Gyurme Dorje translates, that the verdicts are placed on the piles of
-  three white, two white and so on?
-- Question: Does a half verdict of the year of age have a reading of its
-  own? The *Moonbeams* reads a half only for the dead's rebirth (a human
-  birth, ff. 28b–29a) and sends the year's results to other works
-  (f. 22b: the root's commentary, the twenty, «རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ»; the
-  little red, «དམར་ཆུང»; the tiger-head, «སྟག་མགོ»; the rolled ridge,
-  «སྒང་སྒྲིལ»); which
-  works are these, and does any of them read it?
+- Open question 188 ([open-questions.md](open-questions.md)): how a half place counts toward the verdict in the *Moonbeams*.
+- Open question 189 ([open-questions.md](open-questions.md)): «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར», a grade of the scale or the piles.
+- Open question 190 ([open-questions.md](open-questions.md)): a reading of the year of age's half verdict, and the works f. 22b sends to.
 
 ### Searched and not found
 
