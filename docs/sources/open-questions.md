@@ -2379,6 +2379,7 @@ the text, not about the app.
      one of each or neither? The notes' example (p. 489) comes out the
      same either way. [year-of-life.md](year-of-life.md), *The year of
      age gathered* (RD20).
+     *Answered as far as the sources go 2026-10-20 (O17–O19, D16 decided by the owner): Mipham lays a son meeting as one speckled pebble, counted for neither colour (vol. 2, p. 495), and puts a mixed year with the speckled (p. 502); Zhechen Gyaltsab lays it speckled in the year of age itself.*
 171. **A place with both colours in the year of age's count (the notes, vol. 2, p. 490; Gyurme Dorje's chart 6.2).**
      How does a place with both colours count toward the verdict of the
      year of age: a son's meeting (one white, one black), and the
@@ -2486,3 +2487,42 @@ the text, not about the app.
      «དམར་ཆུང»; the tiger-head, «སྟག་མགོ»; the rolled ridge, «སྒང་སྒྲིལ»);
      which works are these, and does any of them read it?
      [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).
+191. **The speckled predictive pebble and WB's "white and black, two" (WB vol. 1, pp. 381–385; the *Good Vase*; the Drukpa *Mirror*).**
+     Does the year of age's speckled predictive pebble take the decisive
+     pebbles' "white and black, two" reading (WB vol. 1, pp. 381–384), as the
+     *Good Vase* (Bhutan collection, pp. 21–22) and the Drukpa *Mirror of the
+     Gentle Protector's Intent* (pp. 227–234) read it, though WB (pp.
+     384–385) gives the predictive pebbles white and black readings only?
+     [verdicts.md](verdicts.md), "D16: WB, the notes and the manuals" (O19).
+192. **The son's place in the year of age: a pair or speckled (WB vol. 1, p. 380; the notes, vol. 2, pp. 490, 495).**
+     Mipham's notes lay a son meeting as one speckled pebble in the illness
+     reckoning (WB vol. 2, p. 495), while WB lays it as a pair of white and
+     black in both the year of age (vol. 1, p. 380) and the illness reckoning
+     (p. 417), and the notes say the year of age's pebbles are laid "as the
+     root text says" (p. 490). Is the son's place a speckled place in the
+     year of age's verdict too, counted for neither colour, as Zhechen
+     Gyaltsab's *Clear Mirror* (p. 289) lays it? [verdicts.md](verdicts.md),
+     "D16: WB, the notes and the manuals" (O19).
+193. **The best of the six bad stages laid half (Mipham's *Deathless Elixir*, p. 798; the *Good Vase*; Zhechen Gyaltsab).**
+     Which of the six bad stages are "the best" that Mipham's *Deathless
+     Elixir* (p. 798), the *Good Vase* and Zhechen Gyaltsab lay half white
+     and half black: the breath-taking and the womb, which WB (vol. 1, p.
+     258) names first among the bad, while the notes on the dead (vol. 2, pp.
+     500, 502) lay all six bad black? [verdicts.md](verdicts.md), "D16: WB,
+     the notes and the manuals" (O19).
+194. **The faint letters in the *Deathless Elixir* (I1KG8550 img. 809).**
+     What are the faint letters between «ཕྱེད་མ» and «ནག་གཅིག» in Mipham's
+     *Deathless Elixir* (I1KG8550 img. 809, last line), a small note
+     «དཀར་ནག་གཉིས» or part of the line? [verdicts.md](verdicts.md), "D16: WB,
+     the notes and the manuals" (O19).
+195. **«བསྔོ་རུ་མ་བཏུབ» (WB vol. 1, pp. 419, 423–425).**
+     What does «བསྔོ་རུ་མ་བཏུབ» say (WB vol. 1, pp. 419, 424, 425; p. 423 has
+     «བསྔོ་མ་བཏུབ», Yigdzin-1 reading «བསྡོ»)? The notes gloss the next
+     words, "the plank-tree has not come down", as a reckoning not come to a
+     decision (vol. 2, p. 495); [health.md](health.md) renders the line "will
+     not take the offering". [verdicts.md](verdicts.md), "D16: WB, the notes
+     and the manuals" (O19).
+196. **«སྔོ་བགྲང» (the notes, vol. 2, p. 495, img. 503).**
+     What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p.
+     495, img. 503), and is it related to p. 419's «བསྔོ»?
+     [verdicts.md](verdicts.md), "D16: WB, the notes and the manuals" (O19).

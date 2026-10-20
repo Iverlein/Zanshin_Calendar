@@ -1506,34 +1506,12 @@ scan):
 
 ### Open
 
-- Question: Does the year of age's speckled predictive pebble take the
-  decisive pebbles' "white and black, two" reading (WB vol. 1, pp.
-  381–384), as the *Good Vase* (Bhutan collection, pp. 21–22) and the
-  Drukpa *Mirror of the Gentle Protector's Intent* (pp. 227–234) read it, though WB
-  (pp. 384–385) gives the predictive pebbles white and black readings
-  only?
-- Question: Mipham's notes lay a son meeting as one speckled pebble in the
-  illness reckoning (WB vol. 2, p. 495), while WB lays it as a pair of
-  white and black in both the year of age (vol. 1, p. 380) and the illness
-  reckoning (p. 417), and the notes say the year of age's pebbles are laid
-  "as the root text says" (p. 490). Is the son's place a speckled place in
-  the year of age's verdict too, counted for neither colour, as Zhechen
-  Gyaltsab's *Clear Mirror* (p. 289) lays it?
-- Question: Which of the six bad stages are "the best" that Mipham's
-  *Deathless Elixir* (p. 798), the *Good Vase* and Zhechen Gyaltsab lay
-  half white and half black: the breath-taking and the womb, which WB
-  (vol. 1, p. 258) names first among the bad, while the notes on the dead
-  (vol. 2, pp. 500, 502) lay all six bad black?
-- Question: What are the faint letters between «ཕྱེད་མ» and «ནག་གཅིག» in
-  Mipham's *Deathless Elixir* (I1KG8550 img. 809, last line), a small
-  note «དཀར་ནག་གཉིས» or part of the line?
-- Question: What does «བསྔོ་རུ་མ་བཏུབ» say (WB vol. 1, pp. 419, 424, 425;
-  p. 423 has «བསྔོ་མ་བཏུབ», Yigdzin-1 reading «བསྡོ»)? The notes gloss the
-  next words, "the plank-tree has not come down", as a reckoning not
-  come to a decision (vol. 2, p. 495); [health.md](health.md) renders the
-  line "will not take the offering".
-- Question: What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p. 495, img. 503), and is it related to p. 419's
-  «བསྔོ»?
+- Open question 191 ([open-questions.md](open-questions.md)): the speckled predictive pebble and WB's "white and black, two".
+- Open question 192 ([open-questions.md](open-questions.md)): the son's place in the year of age, a pair or speckled.
+- Open question 193 ([open-questions.md](open-questions.md)): which bad stages are laid half.
+- Open question 194 ([open-questions.md](open-questions.md)): the faint letters in the *Deathless Elixir*.
+- Open question 195 ([open-questions.md](open-questions.md)): «བསྔོ་རུ་མ་བཏུབ».
+- Open question 196 ([open-questions.md](open-questions.md)): the notes' «སྔོ་བགྲང».
 
 ### Searched and not found
 

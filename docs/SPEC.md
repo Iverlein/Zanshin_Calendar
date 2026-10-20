@@ -368,7 +368,7 @@ mewa of the year of age (their one element against each aspect), the
 aspect's sector (its pebbles by rank: flourishing and working three white,
 bathing and dressing two, body complete and birth one; breath-taking and
 the womb one of each, decline and illness one black, death and the tomb
-two black, the Moonbeams, pp. 496 and 507), and the hour of reckoning, the
+two black, the Moonbeams, KD vol. 3, pp. 496 and 507), and the hour of reckoning, the
 present two-hour period (§5.9, its sign against each aspect). For each
 aspect the white and black are counted, "not the threes and twos but
 those that are there", and the predictive pebble goes on whichever are

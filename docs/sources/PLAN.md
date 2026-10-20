@@ -687,3 +687,14 @@ Searched and found wanting, so not to be repeated:
   predictive pebbles' count or a mixed one. Dorje cites the *Moonbeams* by
   another print's folios, about 6.5 ahead of I2533: his ff. 27b–28b are
   I2533's ff. 21a–22a.
+- **D16 in WB, the notes and the manuals** (O19, 2026-10-20): BDRC's
+  full-text search, «ཁ་དམར་ཕྱེད་མ», «ཕྱེད་མ་དཀར་ནག་གཉིས», «ཕྱེད་མ་དཀར་ནག»,
+  «དཀར་ནག་ཟུང་དུ་བོར», «ཁ་དམར་ཁྲ་བོ», «ཀེག་རྩིས་ཀྱི་ཁ་དམར», «ཁ་དམར་དཀར་ནག་གཉིས»
+  and «གནས་སམ་སྐོར་མགོའི» no hit; «ཁ་དམར་ཁྲ» only a veterinary and a pharmacy
+  book; «བུ་ཁྲ» too common to read (299 hits); «མཉམ་ན་ཕྱེད་མ» only the
+  *Moonbeams*' tie for the dead and its copies. WB's notes, vol. 2,
+  pp. 489–496, 500–503, 507: no rule for how a place with both colours
+  counts in the year of age's verdict; p. 503's «ཁྲ་མ» is a table. WB
+  vol. 1, pp. 380–385, on the scan: no «ཁྲ» or «ཕྱེད» as a verdict and no
+  reading for a speckled predictive pebble. The notes' pp. 496 and 507 hold
+  no stage ranks: SPEC §5.9.1's "pp. 496 and 507" are KD vol. 3's.
