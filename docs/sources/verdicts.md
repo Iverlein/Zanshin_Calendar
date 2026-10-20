@@ -1531,7 +1531,409 @@ scan):
 
 ## Whose aspect, which part of life, and the reckonings with each other (RD24)
 
-Nothing read yet: RD24's passages, with the English beside them, go here.
+Read 2026-10-20 on BDRC's scans of the 1996 print (vol. 1 I1KG12906,
+image = page + 10; vol. 2 I1KG12907, image = page + 8), every quoted line
+by eye in line crops at 2.6× and the doubtful syllables at 6–7×, beside
+Yigdzin-1's reading (`wb/vol1/yigdzin/`, `wb/yigdzin/`; img. 534 of vol. 2
+read for this) and MITRA's as witness on every quoted page (run for this
+on vol. 1 img. 329, 481 and vol. 2 img. 492, 502), every `disagree.py` flag
+in the quoted lines settled on the scan. The passages were found by searching BDRC's etext of WB
+(IE0OPI51524892) through ch. 20–26 and the notes for the words of
+precedence («གཙོ་བོར», «གཙོར», «གཅེས»), of the parts of life («ཚེ་སྟོད»,
+«ཚེ་སྨད», «ཚེ་སྒང», «ཡས་མས», «ཡར་གྱི»), of the times of birth and of the
+moment («བཙས་པའི་ལོ», «སྐྱེས་ཟླ», «སྐྱེས་དུས», «བཙས་ཀླུང», «དུས་ཚོད»,
+«ལོ་ཟླ་ཞག་དུས») and of the reckonings by name («ཚེ་རབས་ལས་རྩིས»,
+«ལས་རྩིས», «ཀེག་རྩིས», «སྤྱི་རྩིས»). The one doubtful syllable of p. 471
+was read on the Gser thang (གསེར་ཐང, gser thang) reprint (I3CN5028
+img. 466) and the Zhol (ཞོལ, zhol) print (WBZ, I1KG1710 img. 627).
+
+The words, named once here: the life force (སྲོག, srog), the body (ལུས,
+lus), the power (དབང་ཐང, dbang thang), the luck or wind-horse (ཀླུང་རྟ,
+klung rta), the la, the life-spirit (བླ, bla); the verdict (ཁ་དམར, kha
+dmar); the reckoning of lives and karma, the birth (ཚེ་རབས་ལས་རྩིས, tshe
+rabs las rtsis, short ལས་རྩིས, las rtsis); the obstacle reckoning, the
+year of age (ཀེག་རྩིས, keg rtsis); the sky year, the year now running
+(གནམ་ལོ, gnam lo); the progressed sign (ལོག་མེན, log men); the trigram
+(སྤར་ཁ, spar kha); the mewa (སྨེ་བ, sme ba); rise and decline (དར་གུད,
+dar gud); the birth luck (བཙས་ཀླུང, btsas klung); the rites (རིམ་གྲོ, rim
+gro).
+
+### 1. Whose aspect matters most
+
+**Ch. 20** (vol. 1, p. 242, img. 252, l. 23–25; the passage first read
+for [health.md](health.md), *Whose aspect matters most*). It closes the
+fifteen Tibetan starting points, each read from an animal or an emblem
+for one kind of person (the king, the mantra-holders, the Bon priests,
+the minister, the man in his prime, the wives, the young man, the girl,
+the child, the wealth, the servants):
+
+> །སྐྱེས་པར་རྡོ་རྗེ་རྒྱ་གྲམ་སྲོག །བྱིས་པར་འཁོར་ལོ་རྩིབས་བརྒྱད་ལུས། །བུད་མེད་གཡུང་དྲུང་དབང་ཐང་གཅེས། །མི་ཆེན་པདྨ་འདབ་བརྒྱད་ཀླུང་། །གཅེས་ལ་བརྩི་བར་བཞེད་པ་ཡིན། །འདི་དང་མི་མཐུན་རྒྱས་པ་ཡི། །རྒྱ་བོད་སྐོར་འགོ་བརྒྱད་མ་གཉིས། །སྔོན་བྱོན་མཁས་པས་མཛད་པར་མངོན།
+
+For a man the life force, the crossed vajra; for a child the body, the
+eight-spoked wheel; for women the power, the swastika, is precious; for a
+great person the luck, the eight-petalled lotus: "it is held that one
+reckons by what is precious". Two longer sets of eight Chinese and
+Tibetan starting points, which do not agree with this, were made by
+earlier scholars. (The print has «པདྨ»; Yigdzin-1 «པདམ».)
+
+**Ch. 24, the close of the obstacle years** (vol. 1, p. 415, img. 425,
+l. 24–27, to p. 416, img. 426, l. 2; read line by line by O10d,
+[year-of-life.md](year-of-life.md), *The tomb sign*; read again here):
+
+> །གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས། །སྐྱེས་པ་དར་ལ་སྲོག་ཁམས་གཅེས། །བྱིས་པ་གཞོན་ལ་ལུས་ཁམས་གཅེས། །བུད་མེད་རྣམས་ལ་དབང་ཐང་གཅེས། །ཡ་རབས་མཐོ་ས་འཛིན་པ་དང་། །ཡོན་ཏན་ཅན་ལ་ཀླུང་རྟ་གཅེས། །དེ་ལྟར་རྡེལ་ནག་ནན་གྱིས་བཅོས། །འདིར་ནི་གཏོ་རིམ་རང་རྡེལ་གྱི། །འབྲས་བུ་དཀྱུས་བཞིན་མཚོན་ཙམ་བཀོད། །ངན་སྐྱོན་སྣ་བསྡུས་མང་བ་ལ། །རྒྱུད་དང་གཏོ་གཞུང་ཇི་སྙེད་ནས། །གཏོ་ཐབས་རིམ་པ་མང་གསུངས་བཞིན། །གཅེས་དང་མི་གཅེས་འབྱོར་པ་སོགས། །རྒྱས་བསྡུས་ཡུལ་དུས་སྐབས་སྦྱར་སྨྲ། །དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར།
+
+Further, of the household's (བཟའ་ཚང, bza' tshang) general pebbles, of the
+white and black, black the more: their rites matter most (open question
+168). For a man in his prime the life-force element matters; for the
+young the body element; for women the power; for the noble who hold high
+place and for the learned the luck. So treat the black pebbles in
+earnest. Here the rites are set out only as a sample, in the order of
+each one's own pebbles; for the many bad faults gathered, the tantras and
+the rite texts give many ways of rites: speak them fitted to what matters
+and what does not, to one's means and the like, long or short, to the
+place, the time and the occasion; apply also the reckoning of «དུས་ཚོད་
+ཚང» (3i below). (The print has «བཅོས», Yigdzin-1 «བཙེས»; «གཅེས་དང་མི་
+གཅེས» read at 7×.)
+
+**The two schools** (vol. 1, p. 261, img. 271, l. 26–28, and p. 262,
+img. 272, l. 1), after the twenty deciding pebbles of the birth:
+
+> །དེ་ལ་ཤན་འབྱེད་རྡེའུ་བཞག །རེ་རེ་ལ་ཡང་ཁ་དམར་གདགས། །རྩིས་པ་གསར་མ་ལུགས་ཀྱིས་ནི། །སྲོག་ཉིད་གཙོ་བོར་འདོན་པ་དང་། །རྙིང་མ་ལུགས་ནི་དབང་གཙོར་འདོན། །འཛིན་ལུགས་ཐ་དད་སྣང་ན་ཡང་། །དོན་ལ་སྦྱར་དུས་ཁྱད་པར་མེད།
+
+Lay on them the pebble that tells them apart, and on each a verdict. The
+reckoners of the new school (གསར་མ, gsar ma) put the life force first,
+the old school (རྙིང་མ, rnying ma) the power; though the ways of holding
+differ, applied to the matter there is no difference.
+
+**The eight pebbles of each one's general board** (vol. 1, p. 472,
+img. 482, l. 1–4; the board itself under 2 below), ch. 26's last lines:
+
+> །གཏོ་དང་དཔྱད་ལ་འབད་པར་གཅེས། །རྡེའུ་ཐམས་ཅད་ཁྲ་ན་བཟང་། །ཡོན་ཏན་མཁན་དང་མི་ཚན་སར། །རྡེལ་ནག་གྱུར་ན་ཀླུང་རྟ་བསྐྱེད། །ཁོན་སར་ནག་ན་གསས་མཁར་བརྩིག །ཞང་བློན་སར་ནག་སྲོག་མཁར་ཚུགས། །སྲོག་བསྐྱེད་ཆོ་ག་བྱ་བ་གནད། །བུད་མེད་ནག་ན་དབང་ཐང་བསྐྱེད། །བུ་ཕོ་ལུས་བསྐྱེད་བུ་མོ་དཔལ། །བསྐྱེད་པའི་རིགས་རྣམས་ཀུན་གྱི་སར། །རིག་པའི་འཕྲུལ་འཁོར་བསྐོར་བར་བྱ།
+
+Striving at the rites and the examination matters. If all the pebbles are
+speckled, good. Where the pebbles turn black in the place of a learned
+man or of «མི་ཚན» (a family line's head?), raise the luck; black in the
+place of «ཁོན» (khon; the trigram's name, here perhaps the master of the
+house: not settled), build a god-castle (གསས་མཁར, gsas mkhar); black in a
+minister's (ཞང་བློན, zhang blon) place, set up a life-castle (སྲོག་མཁར,
+srog mkhar), the rite of raising the life force being the point; for
+women, if black, raise the power; for boys raise the body, for girls the
+glory (དཔལ, dpal); in the place of each, turn the magic wheel of
+intelligence for what is to be raised.
+
+**The notes** (Mipham's (མི་ཕམ, mi pham) *Nag rtsis brjed byang*, vol. 2,
+p. 494, img. 502, l. 11–17, and p. 495, img. 503, l. 2–4), on the obstacle
+years:
+
+> སྤྱིར་འབྱུང་ལྔའི་དུར་ལོ་བཞི་དང་ཁྱད་པར་ཆུ་འབྲུག་སོགས་ལོ་དང་ལོག་མིན་ལ་ཤར་བ་ལ་ངན་ཅིང་། དེ་ཡང་གཙོ་བོར་སྲོག་དང་། རྒྱས་པར་ལུས་དབང་ཀླུང་བླ་ལྔར་ཡང་སྦྱར་ཞེས་བཤད།
+
+In general the four tomb years of the five elements, and above all the
+water dragon and the like, are bad when they rise in the year and on the
+progressed sign; "that too [is applied] chiefly to the life force, and in
+full to the five, body, power, luck and la, as well", it is said.
+
+> ཛ་ཟོར་དགུ་མིག་ནི་བརྩི་བྱའི་ལོ་ནས་ཡར་ལྔ་ལ་གནམ་ལོ་ཡོད་ཅིང་དེས་མར་ལྔ་ལ་ཡོད་རྒྱུའི་བརྩི་བྱ་ལ་གནོད་པ་སྟེ་སྲོག་གཙོ་བོར་བཟུང་ཞིང་ལུས་སོགས་གཞན་གཅོད་ཀྱང་ལྷག་པར་ངན།
+
+The *dza zor* nine-multiple (ཛ་ཟོར, dza zor): the sky year stands five
+above the year of the one reckoned and harms the one reckoned, who is
+five below it; the life force is held chief, and if it cuts the body and
+the others as well, it is worse still.
+
+> འདི་སྐབས་སྲོག་ཁམས་ལ་གཙོ་བོར་བཟུང་བའོ།
+
+Of the nine-multiples of the four killers of the mouse and pig: "here the
+life-force element is held chief."
+
+Ch. 25 (vol. 1, p. 420) reports another scholars' view, the life force
+looked at for a man, the body for a woman, the la for a king, the power
+for a monk ([health.md](health.md), read by RD12; not read again here).
+
+### 2. Which part of life a sign rules
+
+**The birth's four of rise and decline** (vol. 1, p. 261, img. 271,
+l. 22–25; question 72 settled «ཚེ་སྒང» on the Zhol print,
+[year-of-life.md](year-of-life.md)):
+
+> །དེ་ལྟར་རྡེའུ་བརྒྱ་ཕྲག་གཅིག །ལོ་ཟླ་ཞག་དུས་བརྩིས་པ་ཡི། །དར་གུད་ཞག་མལ་རྡེའུ་བཞི། །དེ་ཡང་སྲོག་གི་དར་གུད་ནི། །བརྩི་བྱ་གང་སྐྱེས་གནམ་ལོའི་སྟེང་། །ལུས་ཀྱི་དར་གུད་སྐྱེས་ཟླའི་སྟེང་། །དབང་ཐང་དར་གུད་སྐྱེས་ཞག་སྟེང་། །ཀླུང་རྟའི་དར་གུད་སྐྱེས་དུས་སྟེང་། །བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག །གནམ་ལོས་ཚེ་ཡི་སྟོད་ཀྱི་ས། །ཟླ་བ་ཚེ་སྨང་ཞག་དུས་ཀྱིས། །ཚེ་སྨད་སྐྱིད་སྡུག་འབྲས་བུ་བརྟག
+
+Thus a hundred pebbles. The four pebbles of rise and decline that lie on
+the reckoned year, month, day and hour: the life force's rise and decline
+on the year the person was born, the body's on the birth month, the
+power's on the birth day, the luck's on the birth hour; the six good
+stages white, the six bad black. The year is the place of the upper part
+of life, the month of its middle («ཚེ་སྨང», as the 1996 print sets it;
+ཚེ་སྒང on the Zhol print), and by the day and hour examine the joys and
+sorrows of the lower part of life.
+
+**Each one's general board of eight** (vol. 1, p. 471, img. 481,
+l. 15–28; ch. 26, after the readings of the eight pebbles one by one):
+
+> གཞན་ཡང་ཁྱུང་གི་ཞལ་ཤེས་ཀྱི། །འགྲེལ་ཆུང་མན་ངག་དང་སྦྱར་བའི། །རང་རང་རྡེལ་སྤྱིའི་དཔྱད་པ་ནི། །ཡར་གསུམ་ཕ་མེས་ཚེ་སྟོད་ས། །མར་གསུམ་རང་གི་ཚེ་སྨད་ས། །བར་གཉིས་གདོན་གནོད་ནོར་རྫས་ས། །ཡར་གསུམ་རྡེལ་དཀར་ཚེ་སྟོད་དང་། །ཕ་དང་མེས་པོའི་ས་ལ་བཟང་། །ནག་ན་རང་དང་ཕ་མེས་ཀྱི། །ཚེ་སྟོད་དར་གུད་སྔར་བྱུང་ངམ། །མ་བྱུང་སླར་ནི་འབྱུང་ངོ་ཡིན། །མར་གསུམ་རྡེའུ་ཐམས་ཅད་དཀར། །ཚེ་སྨད་ལ་བཟང་ནག་ན་ངན། །བར་རྡེལ་དཀར་ན་འདྲེས་མི་གནོད། །ཟས་ནོར་ལོངས་སྤྱོད་འཕེལ་ཏེ་བཟང་། །ནག་ན་གདོན་འཚེ་ཟས་ནོར་ངན། །དེ་ཡང་གང་བརྩི་སོ་སོ་ལ། །རིག་པས་དཔྱད་དེ་ཁ་དམར་གདགས། །གཞན་ཡང་ཡར་གྱི་རྡེའུ་དཀར། །མར་རྡེལ་ནག་པར་གྱུར་པ་ན། །ཕ་མེས་བཟང་ཡང་རང་མགོ་ཞན། །ཕ་མེས་དར་ཡང་རང་ཉིད་གུད། །ཚེ་སྟོད་བཟང་ཡང་ཚེ་སྨད་ངན། །རྡེལ་སྟོད་ནག་ལ་རྡེལ་སྨད་དཀར། །ཕ་མེས་གུད་ཀྱང་རང་ཉིད་དར། །འབྱུང་བ་སྐྱིད་ཀྱི་ར་གང་བཟང་། །ཡར་མར་རྡེའུ་ནག་པ་ལ། །བར་དཀར་འདྲེ་མེད་ནོར་རྫས་སུ། །གང་སྟོངས་མི་འབྱུང་ཅི་བསམ་འགྲུབ། །ཡར་མར་དཀར་ལ་བར་རྡེལ་ནི། །ནག་ན་ཟས་ནོར་གང་སྟོངས་དང་། །འདྲེ་དང་གདོན་གྱི་འཚེ་བ་ཡིས། །མི་གྲངས་ཉུང་བར་འགྱུར་བ་ཡིན། །དར་སྲི་མནན་ཅིང་གོད་ཕུར་བྱ། །རྡེལ་རྣམས་ཐམས་ཅད་དཀར་གྱུར་ན། །མར་གྱི་དཀྱིལ་ནས་རུས་པ་འབྱུང་། །སོ་ཡི་རྒྱལ་པོ་མཆེ་བ་ཆག །མ་བསམས་ས་ནས་དགྲ་བོ་དང་། །ཕྲག་དོག་འོང་བས་འབུམ་བཀླག་ཅིང་། །དབང་ཞུ་ལམ་འཕྲང་བསལ་བ་དང་། །དཀར་པོ་དགེ་ལ་འབད་པར་བྱ། །རྡེའུ་ཐམས་ཅད་ནག་གྱུར་ན། །གནམ་རལ་ས་གྲུམས་རི་བོ་ཉིལ། །བླ་ཤིང་བླ་མཚོ་གཏིང་ནས་བསྐམས། །བླ་འཁྱམས་འདྲེས་ཁྱེར་མི་ཁ་འདུས། །གཏོ་རུ་གསང་བ་ཀུན་འདུས་དང་། །མདོས་སུ་རྒྱལ་པོ་གཞི་མགྱོགས་བྱ།
+
+Further, the examination of each one's general pebbles, joined to the
+short commentary and instructions of Khyung's (ཁྱུང, khyung) oral
+teaching: the upper three are the place of the forebears and of the first
+part of life; the lower three the place of oneself and of the last part
+of life; the middle two the place of harm by demons (གདོན, gdon) and of
+wealth. The upper three white: good for the first part of life and for
+the place of father and forefathers; black: a rise and decline in the
+first part of life of oneself and the forebears has come, or if not, will
+come. The lower three all white: good for the last part of life; black,
+bad. The middle white: spirits do no harm, food, wealth and enjoyments
+grow; black, harm by demons, food and wealth bad. And for each thing
+reckoned, examine with intelligence and lay the verdict. Further, the
+upper white and the lower black: the forebears good but oneself weak, the
+forebears risen but oneself in decline, the first part of life good, the
+last bad. The upper black and the lower white: the forebears in decline
+but oneself rising, a happy enclosure of the elements filled. Upper and
+lower black with the middle white: no spirits, no loss of wealth, every
+wish fulfilled. Upper and lower white with the middle black: loss of food
+and wealth, harm by spirits and demons, the family grows fewer; press down
+the sri of prosperity (དར་སྲི, dar sri) and do the rite of the loss
+dagger. All white: a bone comes out of the middle of the lower, the king
+of teeth breaks a fang, enemies and envy from where one did not think:
+read the *'Bum*, take empowerment, clear the narrow paths, strive at
+virtue. All black: the sky torn, the earth crushed, the mountain toppled,
+the la-tree and la-lake dried from the depth, the la wandering and carried
+off by spirits, gossip gathering: as rites the secret *Kun 'dus*, as a
+thread-cross the king's ground, quickly.
+
+The 1996 print sets the first «ཡར་གསུམ» (l. 15–16) as «ཡང་ … གསུམ», and the
+Gser thang reprint (img. 466) the same, line for line; the Zhol print
+carves «ཡར་གསུམ་ཕ་མེས་ཚེ་སྟོད་ས» (WBZ img. 627, last line, read on the
+scan), as the lines after it need: «ཡང» is a slip of the typesetting.
+Yigdzin-1's «མན་དག» is the print's «མན་ངག».
+
+**The birth's general verdict by place** (pp. 330–331) puts the result in
+the first, middle or last part of life by where the white lie on the
+board; RD19 read it ([year-of-life.md](year-of-life.md), *The birth read
+whole*).
+
+### 3. The reckonings with each other
+
+**a. The birth is unchanging, the year of age changing, and both are
+read on the present month, day and hour** (vol. 1, p. 335, img. 345,
+l. 16–20; the passage also in [year-of-life.md](year-of-life.md), RD19,
+read on the Gser thang reprint; read again here on the 1996 scan):
+
+> །ལོ་གཅིག་ཀེག་གི་འབྱུང་རྩིས་ལ། །ཀླུང་གི་དུར་ཕུགས་མ་ཤེས་ན། །ཕན་གནོད་དམིགས་ནས་ཟིན་མི་འགྱུར། །བཟང་བཤད་ངན་པར་གྱུར་པ་ལ། །ངན་ཡང་ཉེས་པ་མི་འབྱུང་ངོ་། །དེ་ཡང་ཀླུང་གི་བྱེ་བྲག་སྟེ། །དར་གུད་ཀླུང་དང་བསྟུན་པ་ནི། །སྔ་མ་མི་འགྱུར་ཕྱི་མ་འགྱུར། །ད་ལྟ་ཟླ་ཞག་དུས་ལ་སྦྱོར། །ལེགས་པར་བཏུས་ཏེ་ཁ་དམར་ནི། །མ་ནོར་ཚུལ་བཞིན་བརྗོད་པར་བྱ།
+
+In the element reckoning of a single year's obstacles, if the luck's
+tomb and its depths are not known, help and harm aimed at do not hold:
+what was told good turns bad, and what was bad brings no ill. That is the
+luck's distinction: the rise and decline that go with the luck, the
+former unchanging, the latter changing, applied to the present month, day
+and hour; gathered well, tell the verdict without error, as it is.
+
+The notes (vol. 2, p. 484, img. 492, l. 8–9) gloss the two:
+
+> སྔ་མ་མི་འགྱུར་བ་བཙས་ཀླུང་དང་ཕྱི་མ་འགྱུར་བ་ཀེག་རྩིས་དར་གུད་དོ།
+
+The former, the unchanging, is the birth luck; the latter, the changing,
+is the rise and decline of the obstacle reckoning.
+
+**b. The year of age's own circles: the year, month, day and hour of the
+moment against the person** (vol. 1, p. 380, img. 390, l. 16–23):
+
+> །གཞན་ཡང་ལོ་ཁྱིམ་ཕྱི་སྐོར་ལ། །ཕྱི་ནང་གསང་བ་རྣམ་པ་གསུམ། །གནམ་ལོ་ཟླ་ཞག་དུས་ཚོད་དང་། །བརྩི་བྱ་འཐབ་པ་ཕྱི་སྐོར་དང་། །ལོག་མེན་དང་འཐབ་ནང་གི་སྐོར། །གསང་བའི་སྐོར་འགོ་བརྩི་བ་ནི། … །སྤྲོས་པ་ཁ་ཅིག་གཞན་གྱི་ལུགས། །སྙིང་རྒྱུད་སྤྲོས་བཤད་འདོད་པ་ན། །ཕྱི་སྐོར་གནམ་ལོ་ནང་སྐོར་ནི། །ལོག་མེན་གསང་བ་རང་ནས་བསྐོར། །ཞེ་བདུན་སྙིང་པོ་རང་རྩིས་ནི། །གནམ་ལོ་ལོག་མེན་སྤར་ཁ་དང་། །སྨེ་བ་དར་གུད་བརྩི་དུས་རྡེལ། །མི་འགྱུར་རྩ་བའི་རྡེལ་དྲུག་ཅེས། །གཅོད་འདྲལ་ཉེར་བཞི་བརྩི་བྱ་དང་། །རྩ་བའི་རྡེལ་དྲུག་རིམ་པ་ལྟར། །སྲོག་ལུས་དབང་ཐང་བཞི་འཐབ་པས།
+
+Further, the outer round of the year houses has three, outer, inner and
+secret: the sky year, month, day and hour, with which the one reckoned
+fights, the outer round; the fight with the progressed sign, the inner
+round; the secret starting points … are some others' elaborations. If one
+wants the heart-tantra's elaboration: the outer round the sky year, the
+inner the progressed sign, the secret turned from one's own [year]. Our
+own reckoning of the essential forty-seven: the sky year, the progressed
+sign, the trigram, the mewa, the rise and decline and the pebble of the
+time of reckoning, "the six unchanging root pebbles"; the twenty-four that
+cut and tear, the one reckoned and the six root pebbles in order fought
+by the life force, body, power and luck. (The lines left out, l. 17–20,
+give the secret round's years.)
+
+The notes (vol. 2, p. 490, img. 498, l. 1–3) name the six:
+
+> རང་ལུགས་ཀེག་རྩིས་ཞེ་བདུན་མའོ། །དེ་ཡང་གནམ་ལོ་དང་། སྟག་སྤྲེལ་སྦུབ་བཀེན་གྱི་ལོག་མིན། བབ་སྤར། བབ་སྨེ། དར་གུད། རྩིས་བྱེད་དུས་ཀྱི་དུས་ཚོད་དང་དྲུག་ལ། བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབས་པས་གཅོད་འདྲལ་ཉེར་བཞི་འོང་།
+
+Our own system is the obstacle reckoning of forty-seven: the sky year,
+the progressed sign counted from tiger and monkey, upward and downward,
+the falling trigram, the falling mewa, the rise and decline, and the hour
+at the time the reckoning is made: six, fought by the life force, body,
+power and luck of the one reckoned, give the twenty-four that cut and
+tear.
+
+**c. The moment of reckoning in the birth itself** (vol. 1, p. 261, the
+two indispensable pebbles, read on the scan by RD13 in
+[year-of-life.md](year-of-life.md): «ཁ་ཅིག་འདི་ཡང་སྐྱེས་དུས་ལ། །བཞེད་ཀྱང་
+མཁས་དབང་ཁྱུང་གི་ལུགས། །བརྩི་བའི་དུས་སྦྱར་རྡེའུ་གཅིག», some take this at the
+time of birth, but in the way of the master Khyung it is one pebble joined
+to the time of reckoning). The notes (vol. 2, p. 474, img. 482, l. 14–15):
+
+> མེད་དུ་མི་རུང་བའི་རྡེལ་གཉིས་ནི་ཁ་ཡན་སོགས་ངོས་འཛིན་དང་། ཁོ་རང་སྐྱེས་དུས་སམ་ད་ལྟ་རྩིས་ནས་བརྩི་དུས་ཀྱི་དུས་གང་ཡིན་གཉིས་ལ་ཟེར། དེའི་འབྲས་བཤད་འོག་ཏུ་གསལ།
+
+The two indispensable pebbles are the identification of *kha yan* and the
+rest, and whatever the hour is, of his birth or of the time when the
+reckoning is now made; their readings are clear below. (MITRA reads «རྩིས་
+ནམ», the scan «རྩིས་ནས».)
+
+**d. The harsh years on the month, day and hour, and on the birth's own
+year, month, day and hour** (vol. 1, p. 391, img. 401, l. 7–11), the
+close of the seven harsh years:
+
+> །རྩུབ་བདུན་འདི་ནི་སྣང་པར་བཤད། །རང་ལོ་བཞི་གཤེད་བདུན་ཟུར་དང་། །དུར་གཤེད་རྩུབ་པའི་ལོ་རྟ་རྣམས། །ཟླ་ཞག་དུས་ལ་འཆར་བའི་ཚེ། །གཉན་གྱི་ཁྱད་པར་དབང་ཐང་རྣམས། །དགྲ་དང་གཤེད་དུ་གྱུར་ན་གཉན། །བཙས་པའི་ལོ་ཟླ་ཞག་དུས་སྟེང་། །ལོག་མེན་ལོ་དེའི་སྟེང་སླེབ་ཚེ། །ནད་ཐེབས་བདུད་བཅད་འདྲེ་ལངས་ཤིང་། །ཟས་གྲངས་ཐེམས་ཞེས་སྲོག་ལ་རྒོལ། །ལོ་ཟླ་ཞག་དུས་རིམ་པ་བཞིན། །ལུས་ནད་ཁ་མཆུ་བཟའ་འཐབ་དང་། །མི་སྙན་ཐོས་ཞེས་བཤད་ཀྱང་ཡོད།
+
+These seven harsh ones are told as they appear («སྣང་པར་བཤད»; or "in
+the *Snang*", not settled). When the harsh years, one's own year's four
+killers (བཞི་གཤེད, bzhi gshed), its seventh (བདུན་ཟུར, bdun zur) and the
+tomb killer (དུར་གཤེད, dur gshed), rise on the month, day and hour, they
+are dangerous; above all, where the powers become enemy and killer,
+dangerous. When the progressed sign of that year reaches the year, month,
+day or hour of birth, illness strikes, the demon cuts, spirits rise, "the
+count of food is ended": they attack the life. Some also say that by the
+year, month, day and hour in turn come illness of the body, quarrels,
+fights over food and hearing ill words.
+
+**e. The birth read by the mother's year of age** (the notes, vol. 2,
+p. 484, img. 492, l. 14–19), on the twenty-one children of the secret
+*yang tig* (ཡང་ཏིག, yang tig):
+
+> མ་བུ་བདུན་ཟུར་དང་ལས་རྩིས་ཀྱི་དུར་དང་འབྱུང་བ་དགྲ་གཤེད་མེད་པ་ཞེས་བཤད་པ་སྣང་ཡང་མ་ཡི་ཀེག་རྩིས་ཀྱི་བདུན་ཟུར་དགྲ་གཤེད་མེད་དུས་བཙས་པ་ཡིན་པར་དཔེ་བརྗོད་དུ་གསལ། … འདི་སྐོར་མ་ཡི་ཀེག་རྩིས་ལྟར་རྩིས་པས་མ་ལ་བཟང་དུས་སྐྱེས་པ་བཟང་བ་ཀུན་ལ་འགྲེ། མ་ལོ་བུ་ལོ་བྱས་ཀྱང་དོན་གཅིག་པ་ཉིད་དོ།
+
+Though it is explained as "no seventh between mother and child, no tomb
+of the birth reckoning and no enemy or killer of the elements", the
+example makes clear that it is a birth at a time without the seventh,
+enemy or killer of the mother's obstacle reckoning. … In this set,
+reckoned by the mother's obstacle reckoning, a birth at a time good for
+the mother is good, and so for all; reckoned by the mother's year or the
+child's, the meaning is one.
+
+**f. The birth reckoning as the clear one, and its word as the one that
+does not deceive.** At the head of ch. 22 (vol. 1, p. 259, img. 269,
+l. 8–12):
+
+> …དེ་ཕྱིར་ལྐོག་གྱུར་སྟོན་པ་མང་མོད་ཀྱང་། །གསལ་སྒྲོན་རིང་ལུགས་རྗེས་མཐུན་ཡོད་མི་སྲིད། །ཕྲ་ཞིང་སྐོར་འགོ་གྲངས་ལས་འདས་ན་ཡང་། །མངོན་སུམ་གསལ་བ་ལས་རྩིས་འདི་ཁོ་ན། (ཟླ་བོ་དངོས་པོའི་དཔེ།) །དེ་ནས་ཚེ་རབས་ལས་རྩིས་ནི། །སྐྱེས་ཆེན་འགྲོ་བའི་དོན་ཕེབས་དང་། །དེ་ལས་ལོག་པའི་མ་རུངས་པ། །མི་ཡི་ཚུལ་དུ་བཟུང་བ་རྣམས། །རྩིས་ཁོག་ཕྱུར་བའི་ཡུལ་མིན་ཏེ། །སྤང་བྱའི་གནས་སུ་གྱུར་ནའང་། །འབྲས་བུ་ཕྱོགས་ཙམ་སྟོན་པ་དང་། །འགྲོ་བ་རང་རྒྱུད་མི་ལུས་ཅན། །ཀུན་གྱི་ཚེ་འདིའི་བདེ་སྡུག་འབྲས། །གསལ་བར་སྟོན་པའི་རྩིས་འདི་ལ།
+
+So, though many show what is hidden, none can match the long tradition
+of the *Clear Lamp* (གསལ་སྒྲོན, gsal sgron); though the starting points
+are subtle and past counting, the one manifest and clear is this
+reckoning of karma alone. The reckoning of lives and karma: great beings
+come for the sake of others, and the wicked who took human form against
+them, are not within the reckoning's reach; though set aside, it shows
+something of their results; and for all beings of ordinary human body,
+this reckoning shows clearly the joys, sorrows and results of this life.
+(English a first reading; the bracket is the print's name of the figure
+of speech.)
+
+At its close (vol. 1, p. 349, img. 359, read on the scan by RD18 and
+RD19, [year-of-life.md](year-of-life.md), *The chapter's close*):
+«…འཕྲལ་རྐྱེན་བཟང་འབྲས་ངན་འབྲས་ལ། །འགྲོ་བ་ཡང་ནི་སྲིད་པ་སྟེ། །འོན་ཀྱང་
+བཟང་འབྲས་གང་འབྱུང་ཡང་། །འདིར་བརྗོད་པ་ལས་ཤེས་པ་དང་། །དེ་བཞིན་ངན་པར་གྱུར་
+ན་ཡང་། །ལས་རྩིས་བརྗོད་ལས་བསླུ་མི་སྲིད།», by passing conditions the good
+results can go to the bad; yet whatever good comes is known from what is
+told here, and if it turns bad, it cannot deceive beyond what the
+reckoning of karma tells.
+
+**g. The match good, the birth bad** (the notes, vol. 2, p. 526,
+img. 534, l. 12–17; RD21 reads the page for the match):
+
+> གཞན་ཡང་དམིགས་བསལ་བག་རྩིས་མཐུན་སྡེབ་བཟང་ཡང་། ལས་རྩིས་བྱས་པས་ཚེ་ཟད་པ་སྟེ་སྲོག་ངན་པ་དང་། ཟུང་ཟད་པ་སྟེ་རྒྱས་པར་ངོས་བཟུང་འདུག་ཀྱང་ལུས་ཀྱི་རྩིས་ངན་པ་དང་། གཅོང་ཅན་ཏེ་ལོ་སྐྱོན་སོགས་ཡོད་པ། དབུལ་པོ་སྟེ་ལས་རྩིས་ཀྱི་དབང་ཐང་ཆུང་བ། ཁས་ཉེན་ཏེ་ཀླུང་རྟ་ངན་པ། ལས་འབྲས་ཏེ་རྩིས་སྤྱིར་ངན་པའོ། །ཡང་ན་དངོས་བསྟན་དབུལ་པོ་དང་རྒས་པ་སོགས་དང་། སྦས་དོན་དེ་དང་ཆ་འདྲ་བ་ལས་རྩིས་ངན་པའོ།
+
+Further, the special case: though the marriage reckoning's joining agrees
+and is good, when the reckoning of karma is done, "life exhausted" is the
+life force bad; "pair exhausted", identified at length, is the body's
+reckoning bad; "the chronically ill" is a fault of the year and the like;
+"the poor" the power small in the reckoning of karma; "the endangered"
+the luck bad; "the result of karma" the reckoning bad in general. Or the
+words as they stand, poor, old and the like, with a hidden meaning of the
+same kind: the reckoning of karma bad. (The etext's gap before «ངན་པ»
+is the scan's «སྲོག»; «མཐུན་སྡེབ» read at 7×.)
+
+**h. The notes' eight sections** (vol. 2, p. 474, img. 482, l. 4–5), the
+frame within which the reckonings stand side by side:
+
+> སོ་སོའི་སྐོར་མགོ་ལ་ཚེ་ཀག་ནད་དུར་ས་བག་རྩིས་དྲུག་དང་སྤྱི་རྩིས་དང་རྩིས་ཕྲན་སྣ་ཚོགས་པའི་སྐོར་ཚོ་དང་བརྒྱད་ལས།
+
+Of the eight sets for each one's starting points: the six reckonings of
+life, obstacles (the print's «ཀག»), illness, the dead, the ground and the
+marriage, the general reckoning (སྤྱི་རྩིས, spyi rtsis) and the various
+small reckonings.
+
+**i. «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར»** closes both the birth (vol. 1,
+p. 349, img. 359) and the obstacle years (p. 416, img. 426, l. 2, above):
+the same line ends ch. 22 and ch. 24 before each chapter's colophon.
+What it names is open question 181; the notes call the sixth root pebble
+of the year of age "the hour at the time the reckoning is made" (b
+above), and the illness notes say the time of reckoning is needed there
+too (vol. 2, p. 497, etext, RD22's page).
+
+### What the passages give, in short
+
+- **Whose aspect.** One rule in two chapters: a man (in his prime) the
+  life force, a child or the young the body, women the power, a great
+  person, the noble in high place and the learned the luck (p. 242;
+  pp. 415–416), "reckoned by what is precious" and the black pebbles of
+  that aspect treated in earnest, the rites fitted to the person's means,
+  place and time. Ch. 26's board adds the minister's life force, the
+  learned man's luck, boys' body and girls' glory (p. 472). The schools
+  differ only in which aspect they name first, life force or power, "no
+  difference in application" (p. 261). Mipham holds the life force chief
+  in the obstacle years and the nine-multiples, applied in full to body,
+  power, luck and la (pp. 494–495). Ch. 25 records another view (p. 420).
+- **Which part of life.** By the birth's times: the year the first part,
+  the month the middle, the day and hour the last (p. 261). By the board:
+  upper three the forebears and the first part, lower three oneself and
+  the last, middle two demons and wealth, read in their combinations
+  (p. 471); the birth's board by place likewise (p. 331).
+- **The reckonings with each other.** No passage ranks one reckoning above
+  another as a whole. WB joins them by the times: the birth's luck is the
+  unchanging ground, the year of age's rise and decline the changing part
+  that goes with it, both applied to the present month, day and hour
+  (p. 335; the notes, p. 484); the year of age itself takes the year, month,
+  day and hour of the moment and the hour of reckoning among its pebbles
+  (p. 380; the notes, p. 490); its harsh years strike on the month, day and
+  hour, and its progressed sign on the birth's year, month, day and hour
+  (p. 391); the birth's own indispensable pebble is laid at the time of
+  reckoning in Khyung's way (p. 261; the notes, p. 474); and a birth's good
+  time is reckoned by the mother's obstacle reckoning (the notes, p. 484).
+  Where the two disagree WB speaks only for the birth: it is "the manifest
+  and clear" reckoning (p. 259), and what it tells "cannot deceive",
+  though passing conditions and rites move the results (p. 349); a match
+  good by the marriage reckoning is bad where the reckoning of karma is
+  bad (the notes, p. 526).
+
+### Open
+
+- Question: «ཁོན་སར» (vol. 1, p. 472, img. 482, l. 2), between the learned
+  man's and the minister's places on ch. 26's board: is «ཁོན» the trigram
+  khon, the father's or master's place, or a person's title?
+- Question: «མི་ཚན» (p. 472, l. 1), beside the learned man: the head of a
+  family line, a household, or a group of people?
+- Question: p. 335's «ཀླུང་གི་དུར་ཕུགས»: the luck's tomb and its "depth"
+  or "end" (ཕུགས, phugs), a stage of the luck's rise and decline or the
+  luck's tomb year?
+- Question: p. 391's «ལོ་རྟ» among the harsh years («དུར་གཤེད་རྩུབ་པའི་ལོ་རྟ་
+  རྣམས»), and its «སྣང་པར་བཤད»: "years" with «རྟ» as in «ལོ་རྟ», or a
+  horse of the year; and "told as they appear" or "told in the *Snang*"?
+- Question: does any of WB's readers state which verdict stands when the
+  birth reckoning and the year of age disagree for one year (a good birth
+  luck in a black year of age, or the reverse), beyond p. 335's "the
+  former unchanging, the latter changing"?
+
+### Searched and not found
+
+- 2026-10-20, WB's etext, vol. 1, pp. 218–473 and the notes, vol. 2,
+  pp. 474–551: no passage that ranks the birth, the year of age, the
+  marriage, the illness or the dead's reckoning one above another as a
+  whole; «ལས་རྩིས་ལས», «ཀེག་རྩིས་ལས» nowhere; «སྤྱི་རྩིས» only as the
+  name of the notes' seventh section (pp. 474, 532, 535); «སྐྱེས་རྩིས» and
+  «ལོ་རྩིས» nowhere, «བཙས་ལོ» and «སྐྱེས་ཞག» not in vol. 1 (the notes,
+  pp. 480, 491, 509, in other matters); the OCR may miss some.
+- 2026-10-20, the same: no rule for whose aspect matters beyond p. 242,
+  p. 261, pp. 415–416, p. 472, ch. 25's p. 420 and the notes' pp. 494–495;
+  no age that divides the child, the young and the man in his prime.
+- 2026-10-20, the same: the parts of life are given only by the birth's
+  year, month, day and hour (p. 261), the boards of p. 331 and p. 471, and
+  in single readings («ཚེ་སྟོད», «ཚེ་སྨད» on pp. 276–353, the readings' own
+  words); no rule that gives the year of age's signs a part of life.
 
 
 ## Mipham's notes on condensing (RD26)
