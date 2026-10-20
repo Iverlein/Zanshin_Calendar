@@ -2431,6 +2431,7 @@ the text, not about the app.
 181. **«དུས་ཚོད་ཚང་གི་རྩིས» (p. 349).**
      P. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+     *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), RD24, on the scan): the same line closes ch. 24 too (p. 416, img. 426, l. 2), before each chapter's colophon; the notes call the year of age's sixth root pebble "the hour at the time the reckoning is made" (vol. 2, p. 490), and the illness notes ask for the time of reckoning too (p. 497, etext).*
 182. **«འཛོམས» or «འཇོམས» (the notes, vol. 2, p. 484).**
      The notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས»
      or «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
@@ -2558,3 +2559,32 @@ the text, not about the app.
      instructions" that p. 538 says is "to be written separately" exist
      among Mipham's works, and does it say how a reckoning is condensed?
      [verdicts.md](verdicts.md), "Mipham's notes on condensing" (RD26).
+203. **«ཁོན་སར» (WB vol. 1, ch. 26, p. 472, img. 482, l. 2).**
+     Between the learned man's and the minister's places on ch. 26's
+     board stands «ཁོན་སར»: is «ཁོན» the trigram khon, the father's or
+     master's place, or a person's title? [verdicts.md](verdicts.md),
+     "Whose aspect, which part of life, and the reckonings with each
+     other" (RD24).
+204. **«མི་ཚན» (WB vol. 1, ch. 26, p. 472, l. 1).**
+     «མི་ཚན», beside the learned man on ch. 26's board: the head of a
+     family line, a household, or a group of people?
+     [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
+     the reckonings with each other" (RD24).
+205. **«ཀླུང་གི་དུར་ཕུགས» (WB vol. 1, p. 335, img. 345).**
+     The luck's tomb and its "depth" or "end" (ཕུགས, phugs): a stage of
+     the luck's rise and decline, or the luck's tomb year?
+     [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
+     the reckonings with each other" (RD24).
+206. **«ལོ་རྟ» and «སྣང་པར་བཤད» (WB vol. 1, p. 391, img. 401).**
+     Among the harsh years («དུར་གཤེད་རྩུབ་པའི་ལོ་རྟ་རྣམས»), is «ལོ་རྟ»
+     "years" with «རྟ» as in «ལོ་རྟ», or a horse of the year; and is
+     «སྣང་པར་བཤད» "told as they appear" or "told in the *Snang*"?
+     [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
+     the reckonings with each other" (RD24).
+207. **The birth against the year of age for one year (WB vol. 1, p. 335).**
+     Does any of WB's readers state which verdict stands when the birth
+     reckoning and the year of age disagree for one year (a good birth
+     luck in a black year of age, or the reverse), beyond p. 335's "the
+     former unchanging, the latter changing"?
+     [verdicts.md](verdicts.md), "Whose aspect, which part of life, and
+     the reckonings with each other" (RD24).

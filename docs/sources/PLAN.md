@@ -709,3 +709,15 @@ Searched and found wanting, so not to be repeated:
   reckoning memorandum (རྩིས་བྱང) beyond p. 539's description; «ཤོག་ཁྲ»
   elsewhere only for the month wheel's chart sheet (p. 531) and, in the
   1996 edition's index (img. 550, 553), WB's charts.
+- **The reckonings with each other** (RD24, 2026-10-20): WB's etext, vol. 1,
+  pp. 218–473, and the notes, vol. 2, pp. 474–551: no passage that ranks
+  the birth, the year of age, the marriage, the illness or the dead's
+  reckoning one above another as a whole; «ལས་རྩིས་ལས», «ཀེག་རྩིས་ལས»,
+  «སྐྱེས་རྩིས», «ལོ་རྩིས» nowhere; «སྤྱི་རྩིས» only as the notes' seventh
+  section's name (pp. 474, 532, 535); «བཙས་ལོ», «སྐྱེས་ཞག» not in vol. 1. No
+  rule for whose aspect matters beyond p. 242, p. 261, pp. 415–416, p. 472,
+  p. 420 and the notes' pp. 494–495, and no age dividing the child, the
+  young and the man in his prime. The parts of life only by the birth's
+  times (p. 261), the boards of pp. 331 and 471, and single readings
+  («ཚེ་སྟོད», «ཚེ་སྨད», pp. 276–353); no part of life for the year of age's
+  signs.

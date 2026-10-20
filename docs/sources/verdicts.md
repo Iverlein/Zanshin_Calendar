@@ -1902,21 +1902,11 @@ too (vol. 2, p. 497, etext, RD22's page).
 
 ### Open
 
-- Question: «ཁོན་སར» (vol. 1, p. 472, img. 482, l. 2), between the learned
-  man's and the minister's places on ch. 26's board: is «ཁོན» the trigram
-  khon, the father's or master's place, or a person's title?
-- Question: «མི་ཚན» (p. 472, l. 1), beside the learned man: the head of a
-  family line, a household, or a group of people?
-- Question: p. 335's «ཀླུང་གི་དུར་ཕུགས»: the luck's tomb and its "depth"
-  or "end" (ཕུགས, phugs), a stage of the luck's rise and decline or the
-  luck's tomb year?
-- Question: p. 391's «ལོ་རྟ» among the harsh years («དུར་གཤེད་རྩུབ་པའི་ལོ་རྟ་
-  རྣམས»), and its «སྣང་པར་བཤད»: "years" with «རྟ» as in «ལོ་རྟ», or a
-  horse of the year; and "told as they appear" or "told in the *Snang*"?
-- Question: does any of WB's readers state which verdict stands when the
-  birth reckoning and the year of age disagree for one year (a good birth
-  luck in a black year of age, or the reverse), beyond p. 335's "the
-  former unchanging, the latter changing"?
+- Open question 203 ([open-questions.md](open-questions.md)): «ཁོན་སར» on ch. 26's board.
+- Open question 204 ([open-questions.md](open-questions.md)): «མི་ཚན».
+- Open question 205 ([open-questions.md](open-questions.md)): «ཀླུང་གི་དུར་ཕུགས».
+- Open question 206 ([open-questions.md](open-questions.md)): «ལོ་རྟ» and «སྣང་པར་བཤད».
+- Open question 207 ([open-questions.md](open-questions.md)): the birth against the year of age for one year.
 
 ### Searched and not found
 
