@@ -796,3 +796,20 @@ several conditions, and no rule says how many must hold.
 - A rule ranking the sets of pp. 334–335 and p. 338 against the hundred's
   single readings, beyond the sets' own wording: none in ch. 22 or the
   notes' section 1.
+
+
+## D16: the worked examples (O17)
+
+Nothing read yet: O17's passages, with the English beside them, go here.
+
+
+
+## D16: the Moonbeams (O18)
+
+Nothing read yet: O18's passages, with the English beside them, go here.
+
+
+
+## D16: WB, the notes and the manuals (O19)
+
+Nothing read yet: O19's passages, with the English beside them, go here.
