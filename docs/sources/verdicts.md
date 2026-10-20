@@ -2364,4 +2364,356 @@ reckoner's fee are about offering, not the reckoning.)
 
 ## The marriage match concluded (RD21)
 
-Nothing read yet: RD21's passages, with the English beside them, go here.
+Read 2026-10-20. WB vol. 1 on BDRC's scan of the 1996 print (I1KG12906,
+image = page + 10), the Gser thang reprint of the same typesetting
+(གསེར་ཐང, gser thang; I3CN5028, image = page − 5 at pp. 351–364, checked
+on img. 344–347) and the Zhol print (WBZ, I1KG1710); the notes (vol. 2,
+I1KG12907, image = page + 8) on the 1996 scan, the Gser thang reprint
+(I3CN5029, image = page + 6 at pp. 523–527, checked on img. 532–533) and
+Mipham's own print of them (I2029; marriage.md and reckonings.md give
+why the notes are his). Yigdzin-1 over the notes' pp. 526–527 (img.
+534–535) on the 1996 scan and over the reprint's img. 532–534, MITRA as
+witness over img. 534–535, Yigdzin-1 over Mipham's print img. 715–720;
+every flag of p. 526 read on the reprint (twenty-nine MITRA flags, ten
+between the two prints' Yigdzin-1 readings), and the lines quoted for the
+match's conclusion read word by word on the reprint in line crops at
+1–3×. The lines of pp. 351, 355, 359, 364 and 523–525 that O10 and RD15
+already read on the scan ([marriage.md](marriage.md)) were read again on
+the reprint and the Zhol print for the words this section rests on.
+The own reply of WB's author, the regent Sangye Gyatso
+(སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho), on the kinds of
+spouse, in his *Removing the Tarnish* (གཡའ་སེལ, g.ya' sel; the Taikhang print, MW8226,
+scans I5875, 8280 px), was found with BDRC's full-text search
+(`bdrc_search.py`) and read on its scan.
+
+### 1. The match names its conclusion (vol. 1, p. 351, img. 361)
+
+> …བཅས་ཏེ་བཅོ་ལྔས་གཏན་ལ་དབབ། །དེ་ཡང་ལས་གཉེན་དགྲའི་ཆུང་མ། །སྐར་འབྲས་སྤྱི་སྡོམ་ཤེས་པར་བྱ། །འབྱུང་བ་གསལ་བའི་སྒྲོན་མེ་ནས། །རྡེལ་གྲངས་རྩ་བར་བཅུ་གསུམ་སྟེ། …
+
+With the fifteen it is settled; and so the spouse (ཆུང་མ, chung ma) of
+karma (ལས, las), of kin (གཉེན, gnyen) or of enmity (དགྲ, dgra), and
+«སྐར་འབྲས་སྤྱི་སྡོམ», are to be known; in the *Lamp that clarifies the
+elements* the root pebbles are thirteen … (the counts follow,
+[marriage.md](marriage.md), *The frame*). Read on the 1996 scan (img.
+361, l. 15, at 3×), the reprint (img. 346, ll. 16–17) and WBZ (img. 458,
+ll. 2–3, at 1.3×): all three print «སྐར», not the etext's «སྒར».
+
+The words leave two readings open. «སྤྱི་སྡོམ» can be the match's second
+conclusion, "the general sum of the results", or the heading of the
+pebble counts that follow at once: the notes use the same word for a
+tally of pebbles, «ངོས་འཛིན་ནི་ལོ་ལ་གནས་པ་དོན་སོགས་སྤྱི་སྡོམ་ལྟར་ཉིས་བརྒྱ་གྱ་བདུན།», the identifying pebbles "as in the general sum, two hundred
+and eighty-seven" (vol. 2, p. 513, img. 521, etext only). And «སྐར་འབྲས»
+occurs nowhere else in WB but as «གཟའ་སྐར་འབྲས་བུ», the results of the
+planets and mansions (vol. 1, pp. 438–439; vol. 2, pp. 51, 316; etext),
+which in the match are only its last two points. Neither the notes nor
+Sangye Gyatso's replies gloss the line (below, *Searched and not found*).
+
+### 2. The kind of spouse comes from the third point (p. 355, img. 365)
+
+> གསུམ་པ་རྐྱང་པ་འདི་ལྟ་སྟེ། །སྲོག་ལུས་དབང་ཀླུང་བཞི་པོ་ཡང་། །སྲོག་ཀླུང་སྐྱེས་པས་བུད་མེད་འཐབ། །ལུས་དབང་བུད་མེད་སྐྱེས་པར་འཐབ། །བཞི་ག་མ་བུར་ཕྲད་པ་སྟེ། །ལས་ཀྱི་ཆུང་མ་ཞེས་པ་དང་། །སོ་སོ་མ་བུ་དེ་བཞིན་ནོ། །གྲོགས་ཕྲད་གཉེན་ལ་དགྲ་ཕྲད་དགྲའི། །ཆུ་མར་འདོད་ལ་ནང་ཕྲད་པ། །མེ་ལྕགས་ཤིང་འབྲིང་ས་ཆུ་བཟང་། །རྡེལ་བོར་ [p. 356, img. 366] ཀེག་རྩིས་ཇི་བཞིན་ནོ། །དེ་ཡི་ཁ་དམར་འདི་བཞིན་གདགས།
+
+The third, the single [power]: of the four, life force, body, power and
+luck (སྲོག་ལུས་དབང་ཀླུང, srog lus dbang klung), the man's life force and
+luck strike at the woman, the woman's body and power at the man. All four
+meeting as mother and son: that is called the spouse of karma, and each
+one meeting as mother and son is the same. Meeting as friends is held a
+spouse of kin, meeting as enemies a spouse of enmity; of the inner
+meetings (ནང་ཕྲད, nang phrad), of an element with itself, fire, iron and
+wood are middling, earth and water good. The pebbles are laid as in the
+obstacle reckoning, and its verdict (ཁ་དམར, kha dmar) is laid as follows.
+
+Read on the reprint (img. 350, last three lines, at 1×) and WBZ (img. 464,
+l. 5, at 1.4×). The 1996 typesetting prints «ཆུ་མར་འདོད» on both its
+impressions; the Zhol blocks carve «ཆུང་མར་འདོད», "is held a spouse": the
+1996 «ཆུ» is a slip of the typesetting, and «དགྲའི། །ཆུང་མར» is "a
+spouse of enmity".
+
+So WB names the kind of spouse aspect by aspect, by the meeting of the
+two spouses' elements: mother and son, karma; friend, kin; enemy,
+enmity; and all four mother and son is the spouse of karma as a whole.
+It says nothing of a whole made of mixed kinds.
+
+### 3. Sangye Gyatso's reply: a ladder of three, the inner meetings placed (*Removing the Tarnish*, reply 113)
+
+The question, as sent to him (the questions' part, I5875, etext p. 94, not
+read on the scan; the etext as it stands, its stray «ཊྛ» left out): «བརྒྱ་བཅུ་གསུམ་པ་ལས་གཉེན་དགྲའི་ཆུང་མ་རྣམ་གསུམ་གྱི་འབྲས་བུ་དངོས་གནས་སྲོག་ལུས་དབང་ཀླུང་གི་མ་བུ་ལས་དང༌། གྲོགས་གཉེན། དགྲ་དགྲའི་ཆུང་མ་ཞེས་བྱུང་ལགས་ཀྱང་། ནང་ཕྲད་ལ་གསལ་ཁ་མ་བྱུང་བས་ནང་ཕྲད་མིང་གསུམ་ཁོག་ཏུ་མ་གཏོགས་སྐྱོན་གྱི་དོགས་པ་ཤར་བ་སྙན་སྒྲོན་དུ་ཕུལ།།», the
+hundred and thirteenth: the three kinds of spouse are given, the four
+aspects' mother and son karma, friend kin, enemy enmity, but nothing is
+said of the inner meetings, so the doubt arose that they fall outside the
+three names.
+
+His answer (I5875, img. 469, ll. 1–3, read on the scan in eight pieces a
+line at 1–1.5×; the etext is poor):
+
+> ༄༅། །བརྒྱ་བཅུ་གསུམ་པ་ལས་གཉེན་དགྲའི་ཆུང་མའི་འབྲས་བུ་ངོས་འཛིན་སྐབས་སྲོག་ལུས་དབང་ཀླུང་གི་མ་བུ་ལས་དང་། གྲོགས་གཉེན་དགྲ་དགྲའི་ཆུང་མ་ཞེས་དངོས་སུ་བཤད་ཀྱང་། ནང་ཕྲད་ལ་དེ་དག་གསལ་ཁ་མ་བྱུང་བས། ནང་ཕྲད་མིང་གསུམ་ཁོག་ཏུ་མ་གཏོགས་པའི་སྐྱོན་ཇི་ལྟར་ན། སྐྱོན་འདི་རྟོག་གེ་བ་ཞིག་ལ་མ་གཏོགས་སྐྱེ་མི་སྲིད་དེ། དེ་ཡང་བྱ་བ་གཅིག་ཉིད་ཀྱི་བརྗོད་དོན་སྔ་མའི་ཤུགས་ཀྱིས་ཕྱི་མ་སྟོན་དགོས་པ་དང་། ཕྱི་མའི་གསལ་བྱེད་ཀྱིས་སྔ་མའི་བྱ་བ་གསལ་བར་བྱེད་པ་སོགས་སྐབས་མང་པོར་འབྱུང་བས་སོ།། དེས་ན་སྔ་མའི་གོ་ཤུགས་ཀྱིས་རྗེས་མ་སྟོན་ཏེ་དེའི་གོ་ཤུགས་ཇི་ལྟ་བུ་ཞེ་ན། མ་བུ་ཕྲད་པ་རབ་སྟེ་ལས་ཀྱི་ཆུང་མ་དང་། གྲོགས་ཕྲད་འབྲིང་གཉེན་གྱི་ཆུང་མ། དགྲ་ཕྲད་ཐ་མ་དགྲའི་ཆུང་མར་བཤད་པའི་རྗེས་ཐོག་དེ་ནས། ནང་ཕྲད་ས་ཆུ་ནང་ཕྲད་བཟང་བ་སྟེ་རབ་ལས་ཀྱི་ཆུང་མར་ཤུགས་ཀྱིས་གོ་བ་དང་། ཤིང་ལྕགས་མེ་འབྲིང་པོ་སྟེ་གཉེན་གྱི་ཆུང་མར་ཤུགས་བསྟན་ཏེ་ནང་ཕྲད་མིང་གསུམ་གྱི་ཁོག་ཆུག་གཏོགས་པས་སྐྱོན་ལས་འདས་པ་ཉིད་དེ་ཚོམ་པ་མི་འཚལ་ལོ།། ༈
+
+On the hundred and thirteenth: how can the inner meetings fall outside the
+three names? Such a fault arises only for a logician. Often the sense of
+an earlier statement shows a later one by implication, and a later one
+makes an earlier clear. Here: mother and son meeting is the best (རབ,
+rab), the spouse of karma; friends meeting the middling (འབྲིང, 'bring),
+the spouse of kin; enemies meeting the last (ཐ་མ, tha ma), the spouse of
+enmity; and right after that, the inner meeting of earth or water, being
+good, is implied as the best, a spouse of karma, and wood, iron and fire,
+being middling, as a spouse of kin. So the inner meetings fall within the
+three names, and there is no fault. (The first line's «ཞིག་ལ་མ» has its
+«མ» under the frame; «ཁོག་ཆུག» as carved.)
+
+So the three kinds are three grades, best, middling and last, and every
+meeting of two elements has one: mother or son and earth or water with
+itself, karma; friend and fire, iron or wood with itself, kin; enemy,
+enmity.
+
+### 4. The notes: each aspect its kind, then the whole "in general" (vol. 2, p. 524, img. 532)
+
+> ཕོ་མོའི་སྲོག་སོགས་འཐབ་ལུགས་གཞུང་བཞིན། དེ་ཡང་སྲོག་ལས་ཀྱི་ཆུང་མ་སོགས་སོ་སོར་སྦྱར་ལ་སྤྱིར་བཟང་ངན་བལྟ། ནང་ཕྲད་ས་ཆུ་ལས་ཀྱི་ཆུང་མ་དང་གཞན་གསུམ་གཉེན་གྱི་ཆུང་མར་གཏོགས་ཞེས་གཡའ་སེལ་དུ་བཤད། དེ་ལྟར་བརྩིས་ལ་སྲོག་གི་འབྱུང་བ་མཐུན་ན་སོགས་འབྲས་བུ་སྦྱར།
+
+How the man's and woman's life force and the rest strike is as the root
+text says. And: join each separately, the life force [as] a spouse of
+karma and so on, and look at good and bad in general. The inner meetings
+of earth and water count as a spouse of karma, the other three as a
+spouse of kin, as the *Removing the Tarnish* says. Reckoned so, apply the
+results, "if the life force's element agrees" and the rest.
+
+Read on the reprint (img. 530, l. 7, at 1.4×; «སོ་སོར་སྦྱར་ལ», where the
+reprint's own etext has «sgyur») and Mipham's print (img. 716, l. 6,
+Yigdzin-1, the same words). The notes cite Sangye Gyatso's reply of §3 by name
+and give its rule; what they add is the order: each aspect is given its
+kind first, and then good and bad are judged over the whole, «སྤྱིར»,
+"in general", with no count or weight.
+
+### 5. The notes: the bad years "in general" (vol. 2, pp. 523–524, img. 531–532)
+
+> ལོ་ངན་སྐོར་ཕོ་མོ་གཉིས་འདོམས་ན་ངན་སྟེ་བཏང་ [p. 524, img. 532] གཅོད་ནག་གཅིག་ཡིན་ན་ཁྲ་གཉིས་ཀ་མིན་ན་རྡེའུ་དཀར་པོ། ཁྱད་པར་བུད་མེད་ལོ་ངན་བྱུང་ན་ངན། འདི་རྣམས་ཟུང་རེ་སྡེབ་མི་དགོས་སྤྱིར་རྩི།
+
+On the round of bad years: if man and woman both meet them, it is bad,
+the deciding pebble (བཏང་གཅོད, btang gcod) black; if one, speckled; if
+neither, a white pebble. Above all, a bad year of the woman's is bad.
+These are not joined pair by pair but reckoned in general.
+
+Read on the reprint (img. 529, l. 28; img. 530, ll. 1–2, at 1.6×) and
+Mipham's print (img. 716, ll. 3–4, at 1.3×), which carves «གཉིས་ཀ་མིན་ན»
+as the 1996 print does (its Yigdzin-1 reading «ཡིན» is the reader's) and
+«ཟུང་ར་སྡེབས» (Yigdzin-1) for the 1996 «ཟུང་རེ་སྡེབ». The second point
+(the bad years that will not do, pp. 354–355) is so one deciding pebble
+for the couple, not a pebble for each pair of years.
+
+### 6. Point 7 counted (open question 166)
+
+WB vol. 1, p. 359 (img. 369, ll. 13–14; reprint img. 354; WBZ img. 469,
+l. 4, read at 1.3×, the same words):
+
+> བདུན་པ་འབྱུང་བའི་སྤུན་གྲངས་ནི། །སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །ཤིང་གཅིག་ས་གཉིས་ཆུ་ལ་གསུམ། །མེ་བཞི་ལྕགས་ལ་རྡེའུ་ལྔ། །རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ། །སྤུན་གྲངས་མཐུན་པའི་བཟའ་མི་དེ། …། །སྐྱེས་རབས་རྒྱལ་བའི་གསུང་རབ་འདོན། །སྐྱེས་འཕམ་འཇམ་དབྱངས་འཁོར་ལོ་གདགས། །ཚང་ཟླའི་སྤུན་གྲངས་དེ་དང་མཚུངས།།
+
+The seventh, the siblings' number (སྤུན་གྲངས, spun grangs) of the
+elements: each one's life force, body, power, luck and mewa (སྨེ་བ, sme
+ba); wood one, earth two, water three, fire four, iron five pebbles.
+Pebbles in a pair agree, odd ones disagree; of man and woman, whoever has
+more pebbles wins. … If the man is defeated, hang Mañjuśrī's (འཇམ་དབྱངས,
+'jam dbyangs) wheel. The household's (ཚང་ཟླ, tshang zla) siblings'
+number is the same. (Whole in [marriage.md](marriage.md).)
+
+The notes (vol. 2, p. 525, img. 533, ll. 6–11; reprint img. 531, ll.
+7–11, at 0.95×; Mipham's print img. 718, ll. 4–6, at 1.4×, the same
+words):
+
+> འབྱུང་བའི་སྤུན་གྲངས་ནི་ཕོ་མོའི་སྲོག་ལུས་དབང་ཀླུང་སྐྱེས་སྨེ་བཅས་ཀྱི་འབྱུང་ཁམས་གྲངས་གཞུང་བཞིན་བྱ་སྟེ། སྐྱེས་སྨེ་ཡང་དཀར་གསུམ་ལྕགས་སོགས་འབྱུང་ཁམས་ཀྱི་རྡེལ་གྲངས་བརྩི། གང་མང་བ་དེ་རྒྱལ། མང་ཉུང་མཉམ་ན་ལེགས། དེ་ཡང་སྲོག་སོགས་ལྔ་ཡི་རྡེའུ་གྲངས་གཅིག་ཏུ་བསྡོམ་ནས། ཕོ་མོ་སུ་མང་བ་ལྟ་བ་ལས་སྲོག་སོགས་རེ་རེ་ནས་བརྟག་རྒྱུ་མིན་པར་བཤད། གཉིས་ཀ་གཅིག་ཏུ་བརྩིས་པས། ཡ་བྱུང་ན་མི་མཐུན་ཆ་བྱུང་ན་མཐུན་པ་ཡིན་པར་བལྟའོ། བུ་བག་གི་ཚང་ཟླའི་སྤུན་གྲངས་ཀྱང་དེ་ལྟར་བརྟག་གོ། །
+
+The siblings' number of the elements: count as the root text says, by
+the elements of man's and woman's life force, body, power, luck and birth
+mewa; the birth mewa too by its element's pebbles, the three white as
+iron and so on. Whoever has more wins; if more and fewer are even, it is
+good. And it is said that the five counts, life force and the rest, are
+summed into one and who of man and woman has more is looked at, not each
+aspect examined one by one. The two reckoned together as one: odd,
+disagreeing; even, agreeing. The couple's household siblings' number is
+examined the same way.
+
+**What this settles of question 166.** Each spouse's count is one sum,
+of five numbers from one to five (wood 1, earth 2, water 3, fire 4, iron
+5), one for each of life force, body, power, luck and birth mewa, the
+mewa by its element. The two sums are compared: the larger wins, equal is
+good; WB gives a remedy only for the man defeated. Agreement is read once, on the two sums added together:
+an even total agrees, an odd one disagrees (two sums of the same parity
+agree). No aspect is counted or judged alone.
+
+### 7. Point 13 and the karma reckoning over the match (p. 364; the notes, p. 526)
+
+WB vol. 1, p. 364 (img. 374, ll. 1–6; reprint img. 359, ll. 1–6, at
+0.95×; already in [marriage.md](marriage.md)):
+
+> ཡང་ནི་རྩ་བའི་དར་གུད་གཅིག །ཕོ་སྲོག་མོ་སྟེང་མོ་སྲོག་ཕོའི། །སྟེང་ཁྱེར་དར་གུད་ངན་ལ་བབས། །གློ་བུར་ཡེ་འདྲོག་འོང་བར་ངེས། །ལྡོག་ན་བདེ་བའི་འབྲས་བུ་སྟེར། །ལུགས་གཞན་འདི་ལྟར་བརྗོད་ཀྱང་ཡོད། །སྲོག་ཀླུང་སྐྱེས་པས་དབུགས་བླངས་ལ། །མོ་ཡི་ལོ་སྟེང་ཁྱེར་བ་དང་། །ལུས་དབང་མོ་ཡིས་དབུགས་བླངས་ལ། །ཕོ་ཡི་ལོ་སྟེང་ཁྱེར་བ་ཡི། །དཀར་པོ་མང་མཐུན་ཉུང་མི་མཐུན། །ངན་དར་དཔལ་འབྱོར་བསྐྱེད་པ་དང་། །ལན་ཆགས་ཆབ་གཏོར་བརྒྱ་རྩ་གཏོང་། །གཞན་ཡང་འདི་ལྟར་ཤེས་པར་བྱ། །ཚེ་ཟད་པ་དང་ཟུངས་ཟད་དང་། །གཅོང་ཅན་དབུལ་པོ་ཁས་ཉེན་དང་། །ལས་འབྲས་ངན་རྣམས་མཐུན་ཀྱང་ངན། །དེ་ལྟར་མ་ནོར་བརྩི་བར་བྱ།།
+
+Further, one root rise and decline (དར་གུད, dar gud): the man's life
+force carried onto the woman's [year] and the woman's onto the man's;
+falling on a bad stage, sudden misfortune is certain; the reverse gives
+happy results. Another way is told too: the man's life force and luck
+take breath and are carried onto the woman's year, the woman's body and
+power take breath and are carried onto the man's year; of these, many
+white agree, few disagree. For a bad stage, raise glory and wealth and
+give the hundred-fold water torma for karmic debts (ལན་ཆགས, lan chags).
+And know this too: those whose life is exhausted, whose vitality is
+exhausted, the chronically ill, the poor, those in danger of ill speech
+and those of bad karmic result are bad even if they agree. Reckon so
+without error.
+
+The notes on it (vol. 2, p. 526, img. 534, ll. 12–16, in the whole page
+below): «གཞན་ཡང་དམིགས་བསལ་བག་རྩིས་མཐུན་སྡེབ་བཟང་ཡང་། ལས་རྩིས་བྱས་པས་ཚེ་ཟད་པ་སྟེ་སྲོག་ངན་པ་དང་། ཟུང་ཟད་པ་སྟེ་རྒས་པར་ངོས་བཟུང་འདུག་ཀྱང་ལུས་ཀྱི་རྩིས་ངན་པ་དང་། གཅོང་ཅན་ཏེ་ལོ་སྐྱོན་སོགས་ཡོད་པ། དབུལ་པོ་སྟེ་ལས་རྩིས་ཀྱི་དབང་ཐང་ཆུང་བ། ཁས་ཉེན་ཏེ་ཀླུང་རྟ་ངན་པ། ལས་འབྲས་ཏེ་རྩིས་སྤྱིར་ངན་པའོ། །ཡང་ན་དངོས་བསྟན་དབུལ་པོ་དང་རྒས་པ་སོགས་དང་། སྦས་དོན་དེ་དང་ཆ་འདྲ་བ་ལས་རྩིས་ངན་པའོ།།»: a further
+exception: though the marriage reckoning agrees and the match is good,
+when the karma reckoning (ལས་རྩིས, las rtsis) is made, "life exhausted"
+is the life force bad; "vitality exhausted", which is identified as
+being old, is the body's reckoning bad; "chronically ill", having flaws
+of the year and the like; "poor", the power small in the karma
+reckoning; "in danger of ill speech", the luck bad; "bad karmic result",
+the reckoning bad in general. Or else the plain sense is the poor, the
+old and so on, and the hidden sense, like it, a bad karma reckoning.
+
+Read on the reprint (img. 532, ll. 13–16, at 0.95–2.5×): «ཟུང་ཟད» (no
+«ས», where WB p. 364 has «ཟུངས»); «རྒས་པར» (the 1996 etext's «རྒྱས» is
+its OCR; Mipham's print, Yigdzin-1, «རྒས»); «སྦས་དོན»; «ལས་རྩིས་ཀྱི་དབང་ཐང».
+
+So the match is overruled from outside: whatever its fifteen points give,
+a couple of whom the karma reckoning finds the life force, body, power or
+luck bad, or the reckoning bad "in general", is bad. «ལས་རྩིས» is the
+notes' name for a reckoning of karma; the notes use it once more, for a bad
+result of the mother's luck (མ་ཀླུང, ma klung) that both spouses share
+(p. 524, «མ་ཀླུང་ནས་བཤད་པའི་ངན་འབྲས་གཅིག་པ་ནི་ལས་རྩིས་བྱས་པས་གཉིས་ཀ་ངན་པ», read on the reprint, img. 530, ll. 3–4),
+and ch. 22 is WB's "reckoning of lives and karma" (ཚེ་རབས་ལས་རྩིས, tshe
+rabs las rtsis); that the two are the same is a reading, not a statement.
+
+### 8. The throne doors: whether there is a bride's road "in general" (the notes, p. 526)
+
+The notes open the match (p. 523, img. 531, read for
+[marriage.md](marriage.md)) as «དང་པོ་མཐུན་མི་མཐུན་བརྩིས་ཏེ་བག་ལམ་ཡོད་མེད», first, agreement and disagreement reckoned: whether there
+is a bride's road (བག་ལམ, bag lam) or not. On the twelve throne doors
+(ཁྲི་སྒོ་བཅུ་གཉིས, khri sgo bcu gnyis), which WB calls indispensable to
+both the match and the departure (p. 364), they answer a contradiction
+(p. 526, ll. 16–21): a sending called good here, under destroying the
+enemy's house, is called bad below, as the ladle among the twenty brides
+of misfortune (the departure's second part). «འདིར་བག་ལམ་ཡོད་པ་སྤྱིར་བསྟན་ལ་འོག་ཏུ་ཕ་མིང་ལ་ཅུང་ཞན་པ་དམིགས་བསལ་བ་སྟེ་དེ་འདྲ་གོང་འོག་མི་མཚུངས་པ་གཞན་ཡང་ཅུང་ཟད་སྣང་ངོ༌།»: here the
+existence of a bride's road is shown in general; below, an exception, a
+little weak for the father's name; such differences between the earlier
+and the later appear in a few other places too. So the match answers one
+question, whether there is a bride's road, in general; the departure's
+findings are particular exceptions to it, not a second verdict on the
+couple.
+
+### 9. The notes on the match's last points, whole (vol. 2, pp. 526–527, img. 534–535)
+
+Page 526 is the notes' comment on the match from the trigrams (point 11)
+to the twelve throne doors; p. 527 closes it, and the departure (ལམ་རྩིས,
+lam rtsis) begins on its l. 11. The text is Yigdzin-1's on the 1996 scan,
+with MITRA and the reprint's Yigdzin-1 as witnesses and every flag read
+on the reprint; ll. 9–20 of p. 526 read word by word there. Corrected on
+the scan: «སྐྱུག་མོ» (Yigdzin-1 «སྨྱུག»), «འཛོམས» (both readers «འཇོམས»),
+«བྱ་སྤྲེལ», «སྦས», «དགྲར», «སྤར་ཁ», p. 527 «ཕོ་ལོ་མོ་ལོ». As printed,
+not decided: «གནས་སྐྱུག» (the reprint's stack is blotted at 3×, and
+ch. 30, vol. 2, p. 152, has «གནས་སྒྱུག»); «ཤིད་དུར» (the reprint at 2×;
+Mipham's print, Yigdzin-1 only, «ཤིང་དུར», the grave of wood).
+
+> [p. 526, img. 534] བལྟ་བའོ། །ཕྱ་ལོན་ཕྱ་མཉམ་གཅིག་ཏུ་བརྩིས་ནས་བཟང་བཞི་ཞེས་ཀྱང་བྱ། སོ་སོའི་ཕྱེ་ན་བཟང་ངན་འབྲིང་དགུ་འོང་ངོ་༑ ། གནས་སྐྱུག་སྤར་ཁ་འཐབ་ན་ངན་ཞེས་པ་གནས་མ་སྟེ་མནའ་མ་དང་སྐྱུག་མོ་སྟེ་བུ་ཡི་མ་གཉིས་ཀྱི་སྐྱེས་སྤར་བདུད་གཅོད་སོགས་ཐུག་སྟེ་འཐབ་ན་ངན་ཞེས་སོ། །རབས་ཆད་པ་ནི་ཁྱོ་བོ་སྐྱེས་སྤར་ཟིན་ལ་བག་མ་ཤིང་ལུག་སོགས་ལུག་ལོ་མ་འོང་ན་ཤིད་དུར་ལུག་ཡིན་པས་ངན་པ་སོགས་འགྲེ། གཙུག་མི་འགྱུར་བ་ཞེས་དམིགས་བསལ་ལོ་སྤར་འཛོམས་པ་བཞི་པོ་འདི་ནང་གང་ཡང་རུང་བ་ཞིག་ཕོ་མོ་གཉིས་ཀར་བྱུང་ནའོ། །དེ་ཡང་གཅིག་ཤིང་སྟག་ཟིན་སྐྱེས་དང་གཅིག་མེ་རྟ་ལི་སྐྱེས་ཡིན་ན་སྐྱོན་དེ་ཕོག་གཉིས་ཀ་ཤིང་སྟག་ཟིན་སྐྱེས་ཡིན་ནའང་དེ་ལྟར་རོ། །ལག་གཡབ་བརྒྱད་ཀྱང་དེ་འདྲ། ཁྱོ་གིན་སྐྱེས་བྱ་སྤྲེལ་ལོ་པས་ཆུང་མར་ས་བདག་གནོད། ས་ཡི་གཤེད་བཞི་ཟིན་སྐྱེས་ཀྱང་བག་མ་ཡིན།ཁོན་སྐྱེས་བསོད་ཆུང་ནི་ཁྱོ་ཤུག་གང་རུང་ངོ། །སྨེ་བ་གཞུང་ན་གསལ། །ལུས་ཆད་ལྟ་བུ་ཡང་ནང་གསེས་འབྱུང་བའི་འཐབ་དགྲས་བཟང་ངན་འོང་བ་ཤེས་པར་བྱའོ། །དར་གུད་ནི་བུ་བག་གི་སྲོག་སོགས་བཞི་ལ་རང་མ་བུ་གྲོགས་དགྲ་ལྟར་ཕྱེ་ལ་དབུགས་སྤྱི་ལྟར་བླངས་ནས་སྲོག་སྐྱེས་ལོ་ལུས་སྐྱེས་ཟླ་སོགས་ལ་གཏུག་པ་ལས་རྩིས་སྐབས་ལྟར་བརྟག་སྲོག་སོགས་བཞི་རེ་རེ་ལའང་དབུགས་ལེན་ནང་སྡེབ་སོགས་སྦྱར། རྩ་བའི་དར་གུད་ནི་དབུགས་སྤྱི་ལྟར་བླང་ལ་གཏུག་ས་བུ་བག་གི་ལོ་སྟེ། ཕོ་ཡི་དར་གུད་བག་མའི་ལོ་རྟ་ལ་གཏུག་བག་མའི་དར་གུད་མག་པའི་ལོ་སྟེང་ཁྱེར་བའོ། །གཞན་ཡང་དམིགས་བསལ་བག་རྩིས་མཐུན་སྡེབ་བཟང་ཡང་། ལས་རྩིས་བྱས་པས་ཚེ་ཟད་པ་སྟེ་སྲོག་ངན་པ་དང་། ཟུང་ཟད་པ་སྟེ་རྒས་པར་ངོས་བཟུང་འདུག་ཀྱང་ལུས་ཀྱི་རྩིས་ངན་པ་དང་། གཅོང་ཅན་ཏེ་ལོ་སྐྱོན་སོགས་ཡོད་པ། དབུལ་པོ་སྟེ་ལས་རྩིས་ཀྱི་དབང་ཐང་ཆུང་བ། ཁས་ཉེན་ཏེ་ཀླུང་རྟ་ངན་པ། ལས་འབྲས་ཏེ་རྩིས་སྤྱིར་ངན་པའོ། །ཡང་ན་དངོས་བསྟན་དབུལ་པོ་དང་རྒས་པ་སོགས་དང་། སྦས་དོན་དེ་དང་ཆ་འདྲ་བ་ལས་རྩིས་ངན་པའོ། །སྡེབ་པ་དང་ལམ་འཇུག་གཉིས་ཀར་མཁོ་བ་ཁྲི་སྒོ་བཅུ་གཉིས་ནི། དགྲ་ཁྱིམ་གཞོམ་པ་ཞེས་པ། གནམ་ལོའི་སྲོག་བག་མའི་སྲོག་དགྲར་གྱུར་པ་བྱི་ཕག་ལོ་མ་གླང་ལུག་གི་ལོ་ལ་དང་། སྟག་ཡོས་མ་བྱ་སྤྲེལ་གྱི་ལོ་ལ་འགྲོ་ན་བཟང་བ་སོགས་ཡིན་ཏེ། ཁ་སྒོ་དབྱེ་ཞེས་པ་ལོ་དེ་ལ་བརྫངས་པའི་དོན་དུ་བཤད། འོ་ན་འོག་ཏུ་བྱུར་ཐག་སྐབས་ཨེ་སྐྱོགས་སུ་བཤད་པས་འགལ་ཞེས་ན། འདིར་བག་ལམ་ཡོད་པ་སྤྱིར་བསྟན་ལ་འོག་ཏུ་ཕ་མིང་ལ་ཅུང་ཞན་པ་དམིགས་བསལ་བ་སྟེ་དེ་འདྲ་གོང་འོག་མི་མཚུངས་པ་གཞན་ཡང་ཅུང་ཟད་སྣང་ངོ། ཟླ་བའི་དགྲ་ཁྱིམ་ནི་བག་མ་རང་གང་ལ་སྐྱེས་པའི་ཟླ་བ་དེའི་གཤེད་དེ་དགྲ་ཐོག་ནས་འགྲོ་སྟེ། སྟག་ཟླར་སྐྱེས་པ་བྱ་སྤྲེལ་གྱི་ཟླ་བ་ལ་བརྫོང་བ་ལྟ་བུའོ། །ཞག་ནི་ཟླ་བ་དེའི་སྲོག་དགྲར་གྱུར་པ་སྟེ་སྟག་གི་ཟླ་བ་ཡིན་ན་ཞག་བྱ་སྤྲེལ་གྱི་ཉི་མ་ལ་འགྲོ་བ་ལྟ་བུའོ། དེ་ཡང་སྟག་ལ་སྤྲེལ་ཡོས་ལ་བྱ་ལྟ་བུ་བཟང་བ་གཞུང་ན་དངོས་སུ་གསལ། བག་མའི་སྤར་ཁ་དྭ་ཟིན་ནི་སྤེན་པ་སྟེ་ནང་དྭ་ཟིན་ལ་བབས་དུས་ནང་གཟའ་སྤེན་པ་ཡིན་ལ་ཕྱི་ལོག་མིན་ཡང་སྟག་རྟ་ཁྱི་གསུམ་ལས་མི་འདའ་བས། ཕྱི་ནང་གི་གཟའ་སྤེན་པ་ས་ཁམས་ཀྱི་དགྲ་སྤར་ཟིན་ལ་གཏོང་བ་སོགས་འགྲེ། འདི་ལ་གོ་དོན་བཤད་མི་འདུག་ཀྱང་དགྲ་ཐོག་ཏུ་བཏང་བ་འདི་གེགས་བྱ་ངེས་པ་ལྟ་བུའི་གནད་གཅིག་ཡིན་པ་འདྲ་སྟེ། དཔེར་ན་སྐྱ་མདའ་ཐུག་དུས་སུ་གཞན་ལ་བྱོལ་བས་ཕན་པ་ལྟ་བུ་དང་དོན་འདྲའམ་སྙམ་པ་རང་གི་རྣམ་རྟོག་གོ། ནོར་ཁྱིམ་བླང་བ་ནི་བཟའ་མི་གཉིས་བདུན་ཟུར་ཐུག་པ་ཡིན་ལ་དེ་ཡང་དབང་ཐང་མ་བུར་འཕྲད་ན་སྡེབ་རུང་སྟེ་ཕོ་མོ་གང་རུང་གཅིག་ [p. 527, img. 535] ཆུ་རྟ་དང་གཅིག་ཤིང་བྱི་ཡིན་པ་ལྟ་བུའོ། །བྱི་བ་ལོ་པ་དབྱར་གསུམ་ལ་སྐྱེས་པ་དང་རྟ་ལོ་པ་དཔྱིད་གསུམ་ལ་སྐྱེས་པ་ཡིན་ན་དེ་གཉིས་བདུན་ཟུར་སྡེབས་ཀྱང་མཐུན་ཞེས་སོ། །དེ་ལྟར་གང་གི་དབང་ཐང་མ་བུར་གྱུར་པ་དང་སྐྱེས་ཟླ་གཞུང་བཞིན་བྱུང་ན་བདུན་ཟུར་སྡེབས་ཀྱང་ནོར་ཁྱིམ་བླང་བ་ཞེས་སྟེ་བཟང་ལ། དེ་ལས་ལྡོག་ཏེ་དབང་ཐང་དགྲར་གྱུར་པ་དང་རྟ་ལོ་དཔྱིད་སྐྱེས་ཀྱང་བྱི་ལོ་དགུན་སྐྱེས་ལྟ་བུ་སྐྱེས་ཟླ་ཡང་མ་མཐུན་ཚེ་བདུན་ཟུར་སྡེབས་ན་བདུན་ཟུར་བཅོས་དགོས་ཞེས་སོ། འདིར་སྤྱིར་བདུན་ཟུར་སྡེབས་མི་རུང་ཡང་སྐྱེས་ཟླ་མཐུན་ན་རུང་བའི་དམིགས་བསལ་ཏེ་མི་ངན་པ་ཙམ་དུ་མ་ཟད་བཟང་བར་བསྟན་པའོ། །རང་ཁྱིམ་དབུབ་པ་བྱི་བ་དང་བྱི་བ་སྡེབས་པ་སོགས་ནང་ཕྲད་ཁོ་ནའི་མིང་གི་བརྡ་ཆད་དེ། དེ་ལ་བཟང་ངན་སྣ་ཚོགས་འོངས་པ་གཞུང་ན་གསལ། བདག་ཁྱིམ་དབུབ་པ་ཕོ་ལོ་མོ་ལོ་ཚད་གཅིག་པ་བསྡེབས་པ་སྟེ། དཔེར་ན་མེ་སྟག་མེ་ཡོས་ལྟ་བུ་ལུས་དབང་བཞི་ཀ་གཅིག་པའམ། ཤིང་བྱི་ཤིང་གླང་ལྟ་བུ་དབང་ཐང་ཤིང་དུ་གཅིག་ལ། ལུས་ལྕགས་སུ་གཅིག་པ་སྟེ། དེ་དག་གི་འབྲས་བུ་ནི། ལུས་དང་དབང་ཐང་སོ་སོར་འབྱུང་བ་ནང་ཕྲད་ཀྱི་འབྲས་བུ་ཤིང་གཉིས་ནང་ཕྲད་འཕྲོག་འདེད་ངན་སོགས་གཞུང་བཞིན་ནོ། །ཁྲི་སྒོ་བཅུ་གཉིས་ཞེས་པ་ཕལ་ཆེར་ལོ་བཅུ་གཉིས་བརྩི་གཞིར་གྱུར་པས་ཡིན་གྱི་སྐོར་མགོ་རང་བཅུ་གཉིས་ཡོད་པ་མིན་ཞེས་འདུག །
+
+In our words: the luck trigrams' four good and four bad are reckoned as
+"four good" when the wheels of fortune gained (ཕྱ་ལོན, phya lon) and
+equal fortune (ཕྱ་མཉམ, phya mnyam) are taken as one, or as nine,
+good, bad and middling, apart; the in-laws' trigrams fighting is bad; the
+cases of a broken line, the "unchanging crown" and the like are
+particular cases of year and trigram; the rise and decline (point 13) is
+taken for each spouse's four aspects as own, mother, son, friend and
+enemy, breath taken in general and carried to the birth year, month and
+so on as in the karma reckoning, and the root rise and decline carries
+each one's onto the other's year; then the karma reckoning over the match
+(§7); then the throne doors: the enemy's house destroyed (sending the
+bride in the year, month or day that is the enemy of her own), the wealth
+house taken (the two meeting as seventh-corners, good if their power
+meets as mother and son and the birth seasons agree), and one's own house
+set up (two of the same animal, or the same element in year and aspects),
+"twelve" because twelve years are their base.
+
+### What the match's conclusion rests on, in short
+
+- **The kind of spouse** is given aspect by aspect from the third point:
+  each of the four aspects, the man's life force and luck against the
+  woman's, her body and power against his, is a spouse of karma (mother
+  or son, or earth or water meeting itself), of kin (friend, or fire,
+  iron or wood meeting itself) or of enmity (enemy). All four of karma is
+  the spouse of karma outright (WB p. 355, on the Zhol print; Sangye Gyatso,
+  reply 113; the notes p. 524).
+- **The three kinds are grades**: best, middling, last (reply 113).
+- **The whole** is then judged "in general" (the notes, p. 524): no
+  count, weight or rule turns four kinds into one, in WB, the notes or the
+  reply. The bad years are one deciding pebble for the couple, black,
+  speckled or white (p. 524), and point 7 one comparison of two sums and
+  one parity (p. 525). The match as a whole answers whether there is a
+  bride's road (p. 523), in general; the departure's findings are
+  exceptions to it (p. 526).
+- **Over the match**: a bad karma reckoning of either spouse, life force,
+  body, power, luck or the whole, makes the couple bad even when the
+  match agrees (WB p. 364; the notes, p. 526).
+- **«སྐར་འབྲས་སྤྱི་སྡོམ»** (p. 351) is either a second conclusion, the
+  general sum of the results, or the heading of the pebble count; not
+  settled.
+
+### Witnesses below WB
+
+- The *Sky Jewel* marriage reckoning (བག་རྩིས་ནམ་མཁའི་ནོར་བུ, bag rtsis
+  nam mkha'i nor bu) in the *Collected Astrological and Prognosticatory
+  Texts from Bhutan* (VEIE0OPI1829B6AF_I1KG11905, etext pp. 213–238; its
+  list of contents names it *Bag rtsis nam mkha'i bu*): «དེ་དག་བཞི་ཀར་མ་བུ་འཕྲད། །ལས་ཀྱི་ཆུང་མ་ཞེས་ཏེ་བཟང་། །གཞན་དུ་སྲོག་ལུས་དབང་ཀླུང་རྣམས། ། མ་བུར་གྲོག་ །འཕྲད་མཐུན་པ་སྟེ། །དགྲ་དང༌ །ཕྲད་ན་མཐུན་པ་མིན།» (p. 217, etext as it stands): all four mother and son, the spouse of karma,
+  good; otherwise each aspect mother, son or friend agrees, enemy does not.
+  It has no rule for the whole either.
+- NM (of the Sakya (ས་སྐྱ, sa skya) school; etext p. 141, not on the scan): the man's life force and
+  luck going to the woman as mother, a spouse of karma; as friend, of
+  kin; as enemy, of enmity (དགྲ་བོའི་ཆུང་མ, dgra bo'i chung ma); and
+  the woman's body and power going to the man the same, a husband (ཁྱོ,
+  khyo) of karma, kin or enmity. A Sakya witness only.
+- The manual of Lhamo Tsultrim (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims),
+  *Nag rtsis rdel 'grem 'bras bshad* (ནག་རྩིས་རྡེལ་འགྲེམ་འབྲས་བཤད, the
+  Chinese reckoning's pebbles laid and their results explained;
+  MW1KG21818), and the *Crafts and Reckoning* volume (བཟོ་རྩིས་ཟློས་གར,
+  bzo rtsis zlos gar) restate WB's lines (BDRC snippets).
+
+### Open
+
+- Question: does «སྐར་འབྲས་སྤྱི་སྡོམ་ཤེས་པར་བྱ» (WB vol. 1, p. 351)
+  name a second conclusion of the match, "the general sum of the
+  results", or head the pebble counts that follow it, as «སྤྱི་སྡོམ» heads
+  a tally of pebbles in the notes (vol. 2, p. 513)? And is «སྐར་འབྲས» the
+  results of the planets and mansions (points 14–15) or of the match
+  as a whole?
+- Question: when the four aspects fall into different kinds (the life
+  force a spouse of karma, the power a spouse of enmity), what is the
+  couple called? WB names a whole only for all four of karma; the notes
+  (vol. 2, p. 524) say to look at good and bad "in general"; does any
+  reckoner give a rule for the mixed case, or is it left to the reckoner?
+- Question: is the notes' «ལས་རྩིས» (vol. 2, pp. 524, 526), the karma
+  reckoning that overrules a good match, WB's ch. 22, the reckoning of
+  lives and karma (ཚེ་རབས་ལས་རྩིས, tshe rabs las rtsis), made for each
+  spouse, and which of its findings count as "life exhausted", "power
+  small" and "the reckoning bad in general"?
+- Question: «གནས་སྐྱུག» or «གནས་སྒྱུག», the in-laws (vol. 2, p. 526,
+  l. 2)? The reprint's stack is blotted; ch. 30 (vol. 2, p. 152) prints
+  «གནས་སྒྱུག». And «ཤིད་དུར» or «ཤིང་དུར» (l. 4; Mipham's print by
+  Yigdzin-1 only)?
+- Left, not read: Sangye Gyatso's reply 117 (*Removing the Tarnish*, question
+  on I5875 etext p. 95), on the throne doors' trigram enemies against the
+  departure's ladle, which the notes' p. 526 answer their own way.
+
+### Searched and not found
+
+- 2026-10-20, BDRC's full-text search: «སྐར་འབྲས་སྤྱི་སྡོམ», no hit (the
+  OCRs spell it «སྒར» and «སར»); «ལས་གཉེན་དགྲའི» only in WB's prints and
+  the *Removing the Tarnish*; «ལས་ཀྱི་ཆུང་མ», «གཉེན་གྱི་ཆུང་མ»,
+  «དགྲའི་ཆུང་མ» in WB, its reprints and the manuals that copy point 3
+  (above), none with a rule for the whole.
+- 2026-10-20, the *Removing the Tarnish* etexts (VEIE0OPIF790A4DF_I5875,
+  _I5876): «སྤུན་གྲངས», «སྐར་འབྲས» as a gloss, «ཟུངས་ཟད», «ཚེ་ཟད» in the
+  marriage replies: none; only replies 112–119 on the marriage chapter
+  (questions 112–119 on I5875 etext pp. 94–95; answers 112–114 read on etext pp. 468–469), none on point 7 or on a sum.
+- 2026-10-20, the Bhutan *Sky Jewel* (etext pp. 213–238): «སྤྱི»,
+  «བསྡོམ», «གང་མང», «ཁ་དམར», «བཏང་གཅོད», «ཤས་ཆེ», «མང་ཉུང» give no
+  rule for the whole match.
+- 2026-10-20, the WB etext of both volumes: «སྐར་འབྲས» only as
+  «གཟའ་སྐར་འབྲས་བུ» (vol. 1, pp. 438–439; vol. 2, pp. 51, 316) and on
+  p. 351; «བག་ལམ» on vol. 1, p. 368 (*spar kha'i bag lam*, the departure)
+  and the notes, pp. 523, 526.

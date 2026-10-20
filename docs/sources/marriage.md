@@ -1168,3 +1168,20 @@ years are male; the four on their own trigram not built). Built, as
 given only as setting the earth lords right. Not built: «བུད་མེད་རྟ་སྦྲུལ་ཁེན་སྐྱེས་དེས། །ཕ་ཁུ་གྱོད་པོ་ཕྱགས་མས་འདེབས»,
 «ས་ཡི་གཤེད་བཞི་ཟིན་ལ་སྐྱེས», «ཆུ་ཡི་བྱི་ཕག་ཁོན་གིན་སྐྱེས། །ཁྱོ་བོ་གདོང་ལ་འཇུག་པ», whose
 subject or sense is not settled.
+
+## The match concluded (RD21)
+
+Read 2026-10-20; the passages and their English are in
+[verdicts.md](verdicts.md), *The marriage match concluded (RD21)*. What it
+adds here: the kind of spouse, of karma, kin or enmity, is the third
+point's, given aspect by aspect and graded best, middling and last by the
+regent Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya
+mtsho) in his *Removing the Tarnish* (གཡའ་སེལ, g.ya' sel), reply 113
+(I5875 img. 469), the inner meetings of earth and water counting as karma
+and of fire, iron and wood as kin; the whole is judged "in general" (the
+notes, vol. 2, p. 524); point 7 sums each spouse's five counts and reads
+agreement on the two sums together (p. 525; open question 166); a bad
+karma reckoning overrules a good match (WB p. 364; the notes, p. 526, read
+whole with p. 527 to the departure). On p. 355 the Zhol print (WBZ img.
+464, l. 5) carves «དགྲའི། །ཆུང་མར་འདོད», a spouse of enmity, where the
+1996 typesetting prints «ཆུ་མར» (above, *The match*, point 3).
