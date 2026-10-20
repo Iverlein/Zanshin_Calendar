@@ -105,7 +105,7 @@ moves up as soon as it is unblocked.
 | <a id="block-47"></a>47 | [X8](#x8) Your day — built 2026-10-18 | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel — built 2026-10-18 | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
-| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
+| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner, and the year of age's predictive pebble (RD18, added 2026-10-20; D16 for its mixed places) | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
@@ -149,7 +149,7 @@ check them on the scans.
 | <a id="rd15"></a>RD15 | The marriage chapter — done 2026-10-12 (the departure and the remedies, pp. 365–378, read on the scan; the match, pp. 351–364, Yigdzin-1 alone, no MITRA; the notes' section 6 past p. 525 and ch. 30, p. 152, from the etext) | WB vol. 1, ch. 23, pp. 351–379 (img. 361–389): the match, the departure (from p. 365, seventeen parts), the remedies | [RD11](#rd11); [RD3](#rd3) for the sky dog of brides | [27](#block-27), [30](#block-30), [31](#block-31) | marriage.md (new) | Read RD15: WB ch. 23 on the scan, the departure first. |
 | <a id="rd16"></a>RD16 | The reckoning for the dead — done 2026-10-12 (the sizes, pp. 44–51, the list of examinations and the notes' inputs, pp. 499–500, 509, read on the scan; the fifteen examinations' results, pp. 51–143, and the notes past p. 500 outlined from Yigdzin-1 and the etext, their readings and rites not read on the scan) | WB's *gshin rtsis*, the copper vessel (*zangs kyam*): vol. 2, ch. 29, pp. 44–143 (img. 52–151), the sizes pp. 44–51 first, and the notes' section 4, pp. 499–522 (img. 507–530); ch. 31 holds none (RD11): what it needs of the dead and the living | [RD11](#rd11) | [27](#block-27), [31](#block-31) | reckonings.md | Read RD16: WB's reckoning for the dead, what it asks and what it gives. |
 | <a id="rd17"></a>RD17 | The other reckonings — done 2026-10-12 (each chapter's size, inputs and first reading on the scan, with the notes' pp. 532, 535, 538; the rest of ch. 26, 27 and 30 and all of ch. 28 but its sum outlined from Yigdzin-1 and the etext) | WB vol. 1, ch. 26 (from p. 453); vol. 2, ch. 27 (pp. 3–25), 28 (pp. 26–43), 30 (pp. 144–173), each in full, with the notes' sections 7 and 8 (pp. 532–541; ch. 29 is RD16's, RD11) | [RD11](#rd11) | [31](#block-31) | reckonings.md | Read RD17: the next reckoning chapter RD11 sorts as calculable. |
-| <a id="rd18"></a>RD18 | The verdict pebble, chapter by chapter | WB vol. 1, p. 258 (img. 268), pp. 260–262 (img. 270–272), pp. 380–385 (img. 390–395), p. 407 (img. 417); vol. 2, pp. 44–51 (img. 52–59), p. 172 (img. 180); every other «ཁ་དམར» and «བཏང་གཅོད» of ch. 22–30 that verdicts.md lists; the notes, p. 490 (img. 498), on the scan; Gyurme Dorje's charts 6.2 and 8.1 beside | [RD11](#rd11) | [58](#block-58) | verdicts.md (new) | Read RD18: every rule WB and its notes give for laying a verdict pebble, on the scan: what is counted, what a tie lays, the red mark; settle open question 167. |
+| <a id="rd18"></a>RD18 | The verdict pebble, chapter by chapter — done 2026-10-20: every «ཁ་དམར» and «བཏང་གཅོད» of ch. 21–30 and the notes' rules read on the scan; each place counts once by its colour, a tie lays a speckled pebble (question 167 answered); the verdict is laid and spoken, no red mark; Dorje's chart 6.2 follows the notes with a son's meeting black; the year of age's count for a build ([T2.28](#t2-28)); questions 171–174 | WB vol. 1, p. 258 (img. 268), pp. 260–262 (img. 270–272), pp. 380–385 (img. 390–395), p. 407 (img. 417); vol. 2, pp. 44–51 (img. 52–59), p. 172 (img. 180); every other «ཁ་དམར» and «བཏང་གཅོད» of ch. 22–30 that verdicts.md lists; the notes, p. 490 (img. 498), on the scan; Gyurme Dorje's charts 6.2 and 8.1 beside | [RD11](#rd11) | [58](#block-58) | verdicts.md (new) | Read RD18: every rule WB and its notes give for laying a verdict pebble, on the scan: what is counted, what a tie lays, the red mark; settle open question 167. |
 | <a id="rd19"></a>RD19 | The birth read whole: its sets, its twenty-one children, its close | WB vol. 1, ch. 22, pp. 328–342 (img. 338–352): the hundred pebbles' readings, the sets of p. 338, the secret *yang tig*'s twenty-one children; p. 349 (img. 359), the rule for the whole; the notes' section 1 on them (vol. 2, pp. 474–489, img. 482–497), on the scan | [RD13](#rd13); [RD18](#rd18) | [58](#block-58) | year-of-life.md, verdicts.md | Read RD19: WB ch. 22 pp. 328–342 and 349 on the scan, the sets read whole, the twenty-one children with which of their conditions are dates, and the chapter's rule for the whole. |
 | <a id="rd20"></a>RD20 | The year of age gathered: the four classes and the household — done 2026-10-20: p. 385's four classes are the four aspects, their verdicts gathered and the household's round built on each member's four; the notes' count (p. 490) read on the scan, a mother meeting's three white as one; the notes' worked example (p. 489) and household fold (pp. 490–491) cell by cell; every obstacle fought against the aspects (pp. 492–495); questions 168–170 | WB vol. 1, ch. 24, p. 385 (img. 395), «སྡེ་བཞིའི་ཁ་དམར་བསྡུས», and the household's verdicts, pp. 385–387, 407–408 (img. 395–397, 417–418); the notes' section 2 (vol. 2, pp. 489–495, img. 497–503), on the scan | [RD14](#rd14); [RD18](#rd18) | [58](#block-58) | year-of-life.md, verdicts.md | Read RD20: how ch. 24 and the notes gather the year of age's verdicts, for one person and for a household. |
 | <a id="rd21"></a>RD21 | The marriage match concluded | WB vol. 1, ch. 23, p. 351 (img. 361), the spouse of karma, of kin or of enmity and «སྐར་འབྲས་སྤྱི་སྡོམ»; p. 359 (img. 369), point 7; p. 364 (img. 374), point 13; the notes' section 6, vol. 2, pp. 523–526 (img. 531–534), on the scan | [RD15](#rd15); [RD18](#rd18) | [58](#block-58) | marriage.md, verdicts.md | Read RD21: the match's conclusion on the scan: how the fifteen points make the spouse of karma, kin or enmity and the general sum, the notes' "in general" for the bad years and the aspects, point 7's count (open question 166). |
@@ -1385,7 +1385,7 @@ verdict, and the owner's decisions of 2026-10-10:
   (day-letters.md, *What the app takes from them*). Checked on the
   emulator in both languages (contact's day, 2026-10-15).
 
-#### <a id="t2-28">></a>T2.28 Corrections from the readings — planned 2026-10-13, built 2026-10-15 but for D11 and D13 (SPEC §5.10, §5.13)
+#### <a id="t2-28">></a>T2.28 Corrections from the readings — planned 2026-10-13, built 2026-10-15 but for D11 and D13; the year of age's predictive pebble (RD18, D16) added 2026-10-20 (SPEC §5.9.1, §5.10, §5.13)
 
 - **Gap.** Readings done since the built items they check (the *Left
   open in built work* rows) found entries that the scan reads otherwise
@@ -1457,6 +1457,29 @@ verdict, and the owner's decisions of 2026-10-10:
     p. 232 reads «སྦྲུལ་ཐེབས་བཅོ་ལྔའི་ཚེས་ལའང་ཐེབས»; `reading.EarthLord.SDE_BRGYAD`'s
     "and on the 15th too" gains "at the snake hour", the Russian to match.
     No date changes.
+  - **The year of age's predictive pebble** ([RD18](#rd18),
+    [verdicts.md](sources/verdicts.md), *What is counted* and *What a tie
+    lays*): `YearOfLife.predictive()` counts every pebble and lays none on
+    a tie (SPEC §5.9.1, "even, none"). The notes (vol. 2, p. 490), Mipham's
+    reading of p. 381, count each place once by its colour, a mother's
+    three white as one white, an enemy's two black as one black, and lay a
+    speckled pebble on a tie; so does every tie rule of WB and its notes.
+    The predictive pebble becomes white, black or speckled by places;
+    SPEC §5.9.1's "even, none" and "Gyurme Dorje's chart 6.2 lays its
+    predictive pebbles otherwise" are rewritten (chart 6.2 is the notes'
+    rule). Two parts wait on D16.
+- **D16, the owner's word first** ([RD18](#rd18), open questions 170–172,
+  [verdicts.md](sources/verdicts.md)): what a place with both colours
+  counts as (a son's meeting, one white and one black; the breath-taking
+  and womb stages) no text read says. Gyurme Dorje's chart 6.2 counts a
+  son's meeting black; the notes on the dead (p. 502) put a mixed year
+  with the speckled. And a speckled predictive pebble has no reading of
+  its own in pp. 384–385; the decisive pebbles' "white and black, two"
+  (pp. 381–384) may be the one meant. Whether the app counts a mixed place
+  as Dorje does, leaves it out of the count, or waits for a reader of the
+  tradition, and whether a speckled pebble shows the "white and black,
+  two" reading or none, is the owner's; until then the count stays as
+  built.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"

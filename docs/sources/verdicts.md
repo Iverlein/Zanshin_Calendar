@@ -604,21 +604,10 @@ same count.
 
 ### Open
 
-- Question: how does a place with both colours count toward the verdict
-  of the year of age: a son's meeting (one white, one black), and the
-  breath-taking and womb stages? The notes count the mother's three white
-  as one; Gyurme Dorje's chart 6.2 comes out of their rule only if a son's
-  meeting counts black, and the notes on the dead put a mixed year with
-  the speckled (vol. 2, p. 502).
-- Question: what does a speckled predictive pebble of the year of age
-  foretell? WB's readings of the predictive pebbles (vol. 1, pp. 384–385)
-  have white and black only; the decisive pebbles' readings have "white
-  and black, two" for each aspect (pp. 381–384), which may be the reading
-  meant.
-- Question: what are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490
-  reads the second as "the place" of a meeting; the dictionaries were not
-  searched for either in this reading.
-- Question: what is «ཁ་སྨྲང» in vol. 2, p. 50, l. 28 («དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»)? The print and the etext agree.
+- Open question 171 ([open-questions.md](open-questions.md)): a place with both colours in the year of age's count.
+- Open question 172 ([open-questions.md](open-questions.md)): what a speckled predictive pebble foretells.
+- Open question 173 ([open-questions.md](open-questions.md)): p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག».
+- Open question 174 ([open-questions.md](open-questions.md)): vol. 2, p. 50's «ཁ་སྨྲང».
 
 ### Searched and not found
 

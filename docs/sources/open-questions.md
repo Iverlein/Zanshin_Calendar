@@ -2357,8 +2357,9 @@ the text, not about the app.
      is the even or odd count each spouse's own total, or the two
      together? The point waits on it.
      *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), etext only, not read on the scan): the notes, vol. 2, p. 525 (img. 533), sum the five counts for each spouse, compare who has more, and read the two together, odd disagree and even agree. RD21 reads it on the scan.*
-167. **The tie of a verdict (WB vol. 1, ch. 24, p. 381; vol. 2, p. 46; the notes, p. 490).** SPEC §5.9.1 lays no predictive pebble where an aspect's white and black are even, following p. 381's «གང་མང», whichever are more. Ch. 29 (vol. 2, p. 46, read on the Gser thang reprint) lays a speckled one (ཁྲ་བོ, khra bo) on a tie, and the notes on the obstacle reckoning (p. 490, img. 498, etext only) say «མཉམ་ན་ཁྲ་བོ», even, a speckled one, with "even a three counts as one" and "the enemy's two black are not counted apart". Does the year of age's tie lay a speckled pebble, and does each meeting count once whatever its colours? RD18.
+167. **Answered 2026-10-20 (RD18, [verdicts.md](verdicts.md), *What a tie lays*). The tie of a verdict (WB vol. 1, ch. 24, p. 381; vol. 2, p. 46; the notes, p. 490).** SPEC §5.9.1 lays no predictive pebble where an aspect's white and black are even, following p. 381's «གང་མང», whichever are more. Ch. 29 (vol. 2, p. 46, read on the Gser thang reprint) lays a speckled one (ཁྲ་བོ, khra bo) on a tie, and the notes on the obstacle reckoning (p. 490, img. 498, etext only) say «མཉམ་ན་ཁྲ་བོ», even, a speckled one, with "even a three counts as one" and "the enemy's two black are not counted apart". Does the year of age's tie lay a speckled pebble, and does each meeting count once whatever its colours? RD18.
      *Narrowed 2026-10-20 ([year-of-life.md](year-of-life.md), RD20, the notes p. 490 read on the Gser thang reprint): the etext dropped «ནི་མ་འཕྲད་དཀར»; it is a **mother meeting's** three white that count as one. The notes' worked example (p. 489) has no tie, so it does not decide. RD18 reads the tie.*
+     *Answered 2026-10-20 (RD18, the notes p. 490 and ch. 29 pp. 46–50 read on the 1996 scan): each place counts once by its colour, and a tie lays a speckled pebble, as every tie rule of WB and its notes lays a third value. What a place with both colours counts as is question 171; what a speckled predictive pebble foretells, question 172.*
 
 168. **The household's general pebbles (WB vol. 1, ch. 24, p. 415, img. 425, l. 25).** «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»:
      which pebbles are "the household's general pebbles" (བཟའ་ཚང་སྤྱི་རྡེལ,
@@ -2378,3 +2379,25 @@ the text, not about the app.
      one of each or neither? The notes' example (p. 489) comes out the
      same either way. [year-of-life.md](year-of-life.md), *The year of
      age gathered* (RD20).
+171. **A place with both colours in the year of age's count (the notes, vol. 2, p. 490; Gyurme Dorje's chart 6.2).**
+     How does a place with both colours count toward the verdict of the
+     year of age: a son's meeting (one white, one black), and the
+     breath-taking and womb stages? The notes count the mother's three
+     white as one; Gyurme Dorje's chart 6.2 comes out of their rule only if
+     a son's meeting counts black, and the notes on the dead put a mixed
+     year with the speckled (vol. 2, p. 502). Question 170 asks the same of
+     the son's meeting. [verdicts.md](verdicts.md), *The verdict pebble,
+     chapter by chapter* (RD18).
+172. **A speckled predictive pebble (WB vol. 1, ch. 24, pp. 381–385).** What
+     does a speckled predictive pebble of the year of age foretell? WB's
+     readings of the predictive pebbles (pp. 384–385) have white and black
+     only; the decisive pebbles' readings have "white and black, two" for
+     each aspect (pp. 381–384), which may be the reading meant.
+     [verdicts.md](verdicts.md) (RD18).
+173. **«ཁ་སྦྲང» and «ངོ་ཐེག» (WB vol. 1, ch. 24, p. 381, img. 391, l. 2–4).** What
+     are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490 reads the second
+     as "the place" of a meeting; the dictionaries were not searched for
+     either. [verdicts.md](verdicts.md) (RD18).
+174. **«ཁ་སྨྲང» (WB vol. 2, ch. 29, p. 50, img. 58, l. 28).** What is «ཁ་སྨྲང» in
+     «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»? The print and the etext agree.
+     [verdicts.md](verdicts.md) (RD18).

@@ -654,3 +654,11 @@ Searched and found wanting, so not to be repeated:
   whole household beyond the leftover of the house's place (p. 386) and the
   general readings of trigrams and mewa, in ch. 24 (pp. 385–416) or the
   notes' section 2.
+- **The verdict pebble** (RD18, 2026-10-20): in WB's etext (vol. 1,
+  pp. 258–473; vol. 2, pp. 3–173; the notes) no passage gives the verdict
+  pebble a colour, a red mark or a material, and «ཁ་དམར» is never defined;
+  its literal uses describe demons, sri, a woman and a tube. The *G.ya'
+  sel* (etext VEIE0OPIF790A4DF_I5876) has «ཁ་དམར» and «བཏང་གཅོད» once (etext
+  p. 16, poor OCR) and no rule for laying or for a tie. WB vol. 2, p. 497
+  (img. 505) is not in the shared scan cache; its passage on marking one
+  pebble for the illness throw is not about the verdict.

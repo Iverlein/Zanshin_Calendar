@@ -498,8 +498,9 @@ first part of life, the month for the next (the print's word, «ཚེ་སྨ�
 with a mark under it, is not clear at 8×), the day and hour for the last:
 «བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག །གནམ་ལོས་ཚེ་ཡི་སྟོད་ཀྱི་ས། །ཟླ་བ་ཚེ་སྨང་ཞག་དུས་ཀྱིས། །ཚེ་སྨད་སྐྱིད་སྡུག་འབྲས་བུ་བརྟག»
 Then twenty decisive pebbles: the white and black of the life force,
-body, power and luck counted, a pebble laid on the greater, a red mark
-(ཁ་དམར, kha dmar) on each. The new school (གསར་མ, gsar ma) of reckoners
+body, power and luck counted, a pebble laid on the greater, a verdict
+(ཁ་དམར, kha dmar) on each ("red mark" until RD18 read the word: it is
+the verdict laid and spoken, [verdicts.md](verdicts.md), *What the words name*). The new school (གསར་མ, gsar ma) of reckoners
 puts the life force first, the old (རྙིང་མ, rnying ma) the power, "in
 application there is no difference".
 
