@@ -662,3 +662,13 @@ Searched and found wanting, so not to be repeated:
   p. 16, poor OCR) and no rule for laying or for a tie. WB vol. 2, p. 497
   (img. 505) is not in the shared scan cache; its passage on marking one
   pebble for the illness throw is not about the verdict.
+- **The birth read whole** (RD19, 2026-10-20): no count or weight for the
+  twenty-one children (how many conditions make one), and no rule for two
+  children whose conditions both hold, in pp. 338–340 or the notes,
+  pp. 484–485 (on the scan); no layout of the board for p. 331's general
+  verdict in ch. 22 or the notes' section 1; no rule ranking the sets of
+  pp. 334–335 and 338 against the hundred's single readings beyond the
+  sets' own wording. BDRC serves the Gser thang reprint I3CN5028 img. 328
+  (vol. 1, p. 333) all black (fetched twice): read it on the 1996 scan.
+  On that reprint Yigdzin-1 reads ཟ as ཐ (ཟིན, ཟོན as ཐིན, ཐོན) and dropped
+  three lines of p. 342.

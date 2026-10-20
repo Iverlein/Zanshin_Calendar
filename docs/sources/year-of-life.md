@@ -2698,22 +2698,15 @@ Kālacakra (དུས་འཁོར, dus 'khor) and the *Arising of the Vowels*
 
 ### Open
 
-- Question: p. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
-  reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
-- Question: p. 334, «དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི»: is «ཏ» the horse (རྟ), as in «བཅུ་གཉིས་རྟ་ལ་བསྐྱོན» on the same page, and what is mounted on what?
-- Question: p. 334, «གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ», what is «བེ་ལུག»?
-- Question: p. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
-- Question: p. 339, «ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས» (so all three readings), and the notes'
-  (p. 484) «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར»: the reprint's note reads «སྣང» at 1.5×; is
-  «སྒང», the month's middle, the 11th to the 20th, meant in both (p. 261's
-  «ཟླ་བ་ཚེ་སྒང», settled 2026-10-18)?
-- Question: p. 340, «གཟའ་རྒོད་འདོམ་སྐྱེས», which planets are the fierce ones, and
-  is their meeting a day the calendar gives?
-- Question: p. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
-- Question: the notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས» or
-  «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
-- Question: p. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of
-  the forty, two years less at each step, gives 50: a slip of the print?
+- Open question 175 ([open-questions.md](open-questions.md)): p. 331's «སྐབ».
+- Open question 176 ([open-questions.md](open-questions.md)): p. 334's «ཏ».
+- Open question 177 ([open-questions.md](open-questions.md)): p. 334's «བེ་ལུག».
+- Open question 178 ([open-questions.md](open-questions.md)): p. 338's «རག་མི་ལ».
+- Open question 179 ([open-questions.md](open-questions.md)): p. 339's «སྒང» and the notes' «སྣང».
+- Open question 180 ([open-questions.md](open-questions.md)): p. 340's fierce planets.
+- Open question 181 ([open-questions.md](open-questions.md)): p. 349's «དུས་ཚོད་ཚང་གི་རྩིས».
+- Open question 182 ([open-questions.md](open-questions.md)): the notes' «འཛོམས» or «འཇོམས» (p. 484).
+- Open question 183 ([open-questions.md](open-questions.md)): p. 342's 54 in the birth wind's run.
 - The general verdict of p. 331 reads the pebbles as laid on the board;
   the board's layout is asked in [verdicts.md](verdicts.md), section of
   the same name.

@@ -2401,3 +2401,47 @@ the text, not about the app.
 174. **«ཁ་སྨྲང» (WB vol. 2, ch. 29, p. 50, img. 58, l. 28).** What is «ཁ་སྨྲང» in
      «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»? The print and the etext agree.
      [verdicts.md](verdicts.md) (RD18).
+175. **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
+     P. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
+     reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+176. **«ཏ» in «དར་གུད་ཏ་ལ་བསྐྱོན» (p. 334).**
+     P. 334, «དར་གུད་ཏ་ལ་བསྐྱོན་ནས་བརྩི»: is «ཏ» the horse (རྟ), as in
+     «བཅུ་གཉིས་རྟ་ལ་བསྐྱོན» on the same page, and what is mounted on what?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+177. **«བེ་ལུག» (p. 334).**
+     P. 334, «གྲོགས་ཀྱིས་བེ་ལུག་ས་རུ་བལྟ», what is «བེ་ལུག»?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+178. **«རག་མི་ལ» (p. 338).**
+     P. 338, «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ།», what does «རག་མི་ལ» say?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+179. **«ཟླ་བའི་སྒང» or «སྣང» (p. 339; the notes, vol. 2, p. 484).**
+     P. 339, «ཉི་ཤར་ཟླ་བའི་སྒང་ལ་སྐྱེས» (so all three readings), and the
+     notes' (p. 484) «ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར»: the reprint's
+     note reads «སྣང» at 1.5×; is «སྒང», the month's middle, the 11th to the
+     20th, meant in both (p. 261's «ཟླ་བ་ཚེ་སྒང», settled 2026-10-18)?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+180. **The fierce planets' meeting (p. 340).**
+     P. 340, «གཟའ་རྒོད་འདོམ་སྐྱེས», which planets are the fierce ones, and is
+     their meeting a day the calendar gives?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+181. **«དུས་ཚོད་ཚང་གི་རྩིས» (p. 349).**
+     P. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+182. **«འཛོམས» or «འཇོམས» (the notes, vol. 2, p. 484).**
+     The notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས»
+     or «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+183. **The birth wind's 54 (p. 342).**
+     P. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of the
+     forty, two years less at each step, gives 50: a slip of the print?
+     [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
+184. **The board of the hundred pebbles (WB vol. 1, ch. 22, p. 331).**
+     The general verdict of p. 331 reads the hundred as they lie on the board
+     (above, middle, below, the four corners, where the sons lie); how are
+     the hundred laid out on it? Ch. 22 and the notes' section 1 do not say.
+     [verdicts.md](verdicts.md), *The birth read whole* (RD19).
+185. **How many conditions make a child (pp. 338–340).**
+     Must every condition of a child hold for the birth to be that child, or
+     do most of them make it? Pp. 338–340 and the notes give no count.
+     [verdicts.md](verdicts.md), *The birth read whole* (RD19).

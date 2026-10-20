@@ -785,13 +785,8 @@ several conditions, and no rule says how many must hold.
 
 ### Open
 
-- Question: the general verdict of p. 331 reads the hundred as they lie
-  on the board (above, middle, below, the four corners, where the sons
-  lie); how are the hundred laid out on it? Ch. 22 and the notes'
-  section 1 do not say.
-- Question: must every condition of a child hold for the birth to be
-  that child, or do most of them make it? Pp. 338–340 and the notes give
-  no count.
+- Open question 184 ([open-questions.md](open-questions.md)): the board on which p. 331's general verdict is read.
+- Open question 185 ([open-questions.md](open-questions.md)): how many of a child's conditions must hold.
 
 ### Searched and not found
 
