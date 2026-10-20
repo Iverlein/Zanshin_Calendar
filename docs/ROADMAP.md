@@ -1470,8 +1470,9 @@ verdict, and the owner's decisions of 2026-10-10:
     The predictive pebble becomes white, black or speckled by places;
     SPEC §5.9.1's "even, none" and "Gyurme Dorje's chart 6.2 lays its
     predictive pebbles otherwise" are rewritten (chart 6.2 is the notes'
-    rule). Two parts wait on D16.
-- **D16, the owner's word first, after [O17](#o17)–[O19](#o19)** ([RD18](#rd18), open questions 170–172,
+    rule). A place with both colours counts as speckled (D16, decided
+    2026-10-20); the speckled pebble's reading waits on D16's open part.
+- **D16, decided in part 2026-10-20 (the owner: Mipham's word above every source but WB, SPEC §8); the speckled pebble's reading waits on [O19](#o19)** ([RD18](#rd18), open questions 170–172,
   [verdicts.md](sources/verdicts.md)): what a place with both colours
   counts as (a son's meeting, one white and one black; the breath-taking
   and womb stages) no text read says. Gyurme Dorje's chart 6.2 counts a
@@ -1492,6 +1493,17 @@ verdict, and the owner's decisions of 2026-10-10:
   pebble apart from both colours, which fits the notes' table counted as
   left out or as one of each, not Dorje's chart; how a half counts and
   what a half verdict foretells it does not say (questions 188–190).
+  **Decided** (the owner, 2026-10-20): Mipham's notes decide where WB is
+  terse, so Gyurme Dorje's count (a son's meeting black) is not followed.
+  A place with both colours, a son's meeting and the breath-taking and
+  womb stages, counts as speckled: Mipham puts a mixed year "with the
+  speckled" (vol. 2, p. 502, read on the scan by RD18) and counts each
+  place by its colour (p. 490), and a speckled place adds to neither side;
+  his own table (p. 489) comes out so in every row (O17), and the
+  *Moonbeams*' half agrees. The build counts white and black places only
+  and lays a speckled pebble on a tie. **Open**: what a speckled
+  predictive pebble foretells (questions 172, 190); until a reading is
+  found, how the app shows it is the owner's, once O19 reports.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"

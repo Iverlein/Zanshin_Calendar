@@ -65,6 +65,9 @@ paths:
 - **The White Beryl counts above every other source but the Four Tantras on
   medicine, and no Bon text is a source** (SPEC §8.1). A source that differs
   from WB on a medical point is traced to what it rests on first: from the
-  Four Tantras it is followed, from anything else WB stands. The Bon *snang srid me long* (`docs/sources/README.md`,
+  Four Tantras it is followed, from anything else WB stands. **Mipham
+  comes next** (owner, 2026-10-20): his notes on WB (vol. 2, pp. 474–541)
+  and his other writings decide where WB is silent or terse, above the
+  *Moonbeams*, the manuals and modern authors such as Gyurme Dorje (SPEC §8). The Bon *snang srid me long* (`docs/sources/README.md`,
   SN) is a witness to WB only: read it to check WB, never build or cite
   what only it gives.

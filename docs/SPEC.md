@@ -1919,7 +1919,13 @@ it on medicine (owner, 2026-10-15): the Four Tantras (རྒྱུད་བཞ�
 bzhi). Where another source differs from WB on a medical point, what it
 rests on is traced first; a difference that comes from the Four Tantras
 is followed, any other loses to WB (the la's course by date, ROADMAP
-D14). **Witnesses are not
+D14). **Mipham's word comes next** (owner, 2026-10-20): Mi pham 'Jam
+dbyangs rnam rgyal rgya mtsho's (མི་ཕམ, mi pham) writings, his notes on WB's
+Chinese reckoning (*Nag rtsis brjed byang snying po gsal ba*, WB vol. 2,
+pp. 474–541) first among them, count above every source but WB and the
+Four Tantras on medicine: where WB is silent or terse, his reading of it
+decides against Dharmaśrī's *Moonbeams*, the manuals and the modern
+authors (the year of age's verdict, ROADMAP D16). **Witnesses are not
 sources:** a text read only to check a reading of WB, the Bon *snang srid
 me long* among them ([sources/README.md](sources/README.md), SN), is never
 an annotation's `Source`, and nothing that only it states is shown. No Bon

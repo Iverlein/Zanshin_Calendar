@@ -115,7 +115,7 @@ the changelog waits for the release.
 - **No text without a published source** (SPEC §8): never a reading from
   memory, never copyrighted wording, nothing under a non-commercial licence.
   The White Beryl counts above every other source (on medicine, all but
-  the Four Tantras), and no Bon text is a source. In full — `.agents/rules/sources.md`.
+  the Four Tantras), Mipham's word next, and no Bon text is a source. In full — `.agents/rules/sources.md`.
 - **Name every Tibetan word so that it can be found** (SPEC §8.1): English
   name first, then script and Wylie in brackets at the first mention, in every
   text — `.agents/rules/sources.md`.
