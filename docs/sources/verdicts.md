@@ -1004,7 +1004,205 @@ alone.
 
 ## D16: the Moonbeams (O18)
 
-Nothing read yet: O18's passages, with the English beside them, go here.
+Read 2026-10-20 in the *Moonbeams* (ཟླ་བའི་འོད་ཟེར, zla ba'i 'od zer),
+Lochen Dharmaśrī's (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen dharma shrI) *'Byung rtsis man
+ngag zla ba'i 'od zer*, on BDRC's open scan of his *Gsung 'bum*, vol. 5
+(I2533, DZ in [README.md](README.md); a clean typeset print, 4800 px, six
+or seven lines a side). Its own page numbers stand in the margins: img. 046
+carries "21", img. 047 "22", img. 060 "28"; folio N a is img. 2N + 3 and
+N b img. 2N + 4 (f. 15a = img. 033, as [reckonings.md](reckonings.md) has
+it). Yigdzin-1 over img. 015–064, MITRA as witness over img. 026, 034–036,
+046–047, 049, 051, 056–057, 060–061 (99–100 % of syllables agreed; of
+its eleven flags only img. 026's «མངལ་གསན», Yigdzin-1's slip for the scan's
+«མངལ་གནས», touches a quoted line), and every line quoted below read on the
+scan in half-line crops at native size; the name and title from KD's
+title line, «ལོ་ཆེན་དྷརྨ་ཤྲཱིས་མཛད» (etext p. 506), and the colophon, «བན་ཆུང་དྷརྨ་ཤྲཱི» (img. 063, Yigdzin-1 only).
+KD vol. 3's etext (VEIE0OPI2F246A26_I4717, pp. 516–535) placed the
+passages; where it differs from the scan, the scan is given and KD's
+reading named. Gyurme Dorje's (འགྱུར་མེད་རྡོ་རྗེ, 'gyur med rdo rje)
+*Tibetan Elemental Divination Paintings* (2001), pp. 226 and 228, read on
+archive.org's page images, pp. 229–230 in its OCR text (archive.org item
+`gyurme-dorje-gyur-med-rdo-rje-tibetan-elemental-divination-paintings-john-eskena`;
+a modern author, quoted no further than the facts need).
+
+### Where Dorje's folios fall
+
+Dorje cites the *Moonbeams* by another print's folios. His ff. 27b–28a
+(the forty-seven pebbles), 28a (the six root pebbles), 28a/b (the
+twenty-four) and 28b (the four verdicts) are this print's f. 21a–22a
+(img. 045–047), about six and a half folios earlier. This print's own f. 28b (img. 060) is the reckoning for the
+dead, where the tie «མཉམ་ན་ཕྱེད་མ» stands; that line is not the one Dorje
+quotes.
+
+### The year of age: the colours and the verdict (f. 21b–22a)
+
+Chapter 5 (its colophon, f. 24a, img. 051, l. 4), which opens «ལོ་གཅིག་མཁྱུད་བསྐོར་ཀེག་རྩིས་ལ།», for the obstacle reckoning of the year's round (f. 21a, img. 045, l. 5; this print has no chapter heading, KD's etext adds one), after the six root pebbles; f. 21b
+(img. 046), l. 2 to f. 22a (img. 047), l. 1, read on the scan line by
+line:
+
+> དེ་རྗེས་གཅོད་འབྲལ་རྡེའུ་ནི། །བརྩི་བྱའི་སྲོག་གིས་གནམ་ལོ་དང་། །ལོག་མེན་གཉིས་ཀྱི་སྲོག་དང་ནི། །སྤར་སྨེ་ལ་འཐབས་རྡེའུ་བཞི། །དར་གུད་བསྐོར་ཏེ་གནམ་ལོ་ཡི། །སྟེང་དུ་བཟང་ངན་བརྩིས་པས་ལྔ། །དུས་ཚོད་སྲོག་ལ་འཐབས་པས་དྲུག །དེ་རྣམས་སྲོག་རྡེལ་དྲུག་ཡིན་ནོ། །དེ་བཞིན་ལུས་དབང་ཀླུང་རྟ་བཞིས། །རྩ་བའི་རྡེའུར་འཐབས་པ་དང་། །དར་གུད་གནམ་ལོའི་སྟེང་བརྩིས་ཏེ། །ལུས་དབང་ཀླུང་བཞིར་དྲུག་དྲུག་བོར། །དེ་དག་རྡེའུ་འབོར་ཚུལ་ཀྱང་། །མ་འཕྲད་དཀར་གསུམ་གྲོགས་ལ་གཉིས། །ས་ཆུ་ནང་ཕྲད་དཀར་པོ་གཅིག །བུ་ཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ། །ཤིང་ལྕགས་མེ་གསུམ་ནག་གཅིག་བོར། །དར་གུད་ལའང་བཟང་དྲུག་གི །རབ་འབྲིང་ཐ་མའི་གོ་རིམ་བཞིན། །དཀར་པོ་གསུམ་དང་གཉིས་དང་གཅིག །ངན་དྲུག་རབ་འབྲིང་ཐ་གསུམ་ལ། །ཕྱེད་མ་ནག་གཅིག་ནག་གཉིས་སོ། །དེ་ནས་ཁ་དམར་རྡེལ་[f. 22a] བཞི་ཡང་། །དཀར་ནག་མང་ཉུང་བགྲང་བྱས་ལ། །དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར། །དེ་རྗེས་རྩུབ་པའི་རྡེལ་བདུན་ནི།
+
+Then the twenty-four deciding pebbles: the vitality of the one reckoned
+fights the vitality of the present year and of the progressed sign, and
+the trigram and mewa (སྨེ་བ, sme ba): four pebbles; with the stages of
+growth and decline (དར་གུད, dar gud) turned round onto the present year,
+good or bad, five; fighting the hour, six: these are the six pebbles of
+the vitality. So too body, power and luck fight the root pebbles, and
+with the stages reckoned on the present year, six each are laid for the
+four. And the way to lay those pebbles: a meeting with the mother, three
+white; with a friend, two; an inner meeting of earth or water, one
+white; **a meeting with the son, a half** (ཕྱེད་མ, phyed ma); the enemy,
+two black; wood, iron and fire, lay one black. For the stages too, the
+six good by the order of best, middling and last: white three, two and
+one; the six bad, best, middling and last: **a half**, one black, two
+black. Then the four verdict pebbles (ཁ་དམར, kha dmar): counting how many
+or few the white and black are, lay them as "three white", "two white"
+and so on. Then the seven harsh pebbles …
+
+On the scan: «བུ་ཕྲད་ཕྱེད་མ» (KD's etext «བུ་འཕྲད་པ་བྱེད་མ», a misreading);
+«ཐ་གསུམ་ལ» (KD «ཐ་གསུམ་མ»); «བགྲང་བྱས» (KD «བགྲངས་བྱས»). Nothing stands
+between «བགྲང་བྱས་ལ» and «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར»: the verdict is
+these three lines whole, and the next line begins the harsh pebbles. The
+verse says nothing of a tie and nothing of how a half is counted.
+
+The order of the stages is f. 11b's (img. 026, l. 3–4, on the scan):
+«དར་བ་ལས་བྱེད་བཟང་པོའི་རབ། །ཁྲུས་བྱེད་གོས་གྱོན་བཟང་པོའི་འབྲིང་། །ལུས་རྫོགས་བཙས་པ་བཟང་པོའི་མཐའ། །དབུགས་ལེན་མངལ་གནས་ངན་པའི་རབ། །གུད་པ་ན་བ་ངན་པའི་འབྲིང་། །ཤི་བ་དུར་ཞུགས་ངན་པའི་ཐ།», flourishing and working the
+best of the good, bathing and dressing the middling, body complete and
+birth the last; the breath-taking (དབུགས་ལེན, dbugs len) and the womb
+(མངལ་གནས, mngal gnas) the best of the bad, decline and illness the
+middling, death and the tomb the last. So the two stages D16 asks about
+are, in the *Moonbeams*, a half each, as the son's meeting is.
+
+**What this settles and what not.**
+
+- The *Moonbeams* names the mixed places' value: the son's meeting and
+  the breath-taking and womb stages are each **a half**, one value, set
+  in its own place on a scale of six: three white, two white, one white,
+  a half, one black, two black. WB's line for the son (vol. 1, p. 380,
+  img. 390, in [year-of-life.md](year-of-life.md)) reads «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར།», white and black laid as a pair; the *Moonbeams* says
+  the same place in one word.
+- It does not say whether a half tips the count of the verdict, is left
+  out, or ties. It lays the verdict "counting how many or few the white
+  and black are", where WB (p. 381) says "not taking in the threes and
+  twos … count the white and black of the faces"; the *Moonbeams* names
+  the threes and twos instead, as the forms the verdict is laid in.
+- «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» reads most plainly as: the verdict pebble
+  itself is laid as a grade of the same scale, "three white", "two white"
+  and the rest, so that a verdict can be a half as a place can. Dorje
+  reads it otherwise (below): the verdicts placed upon the piles of three
+  white, two white and so on. The words bear either; no other line of
+  the chapter decides.
+- No reading of a half verdict of the year of age is given: the chapter
+  gives no readings at all and sends the reader elsewhere. f. 22b
+  (img. 048, l. 4–5, on the scan), after the variant of thirty-one or
+  thirty-seven pebbles: «དེ་ལྟར་བརྩིས་པའི་འབྲས་བུ་ནི། །རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ་དང་། །དམར་ཆུང་སྟག་མགོ་སྒང་སྒྲིལ་སོགས། །བལྟས་ཏེ་ཉེས་སྐྱོན་བཅོས་པ་གཅེས།», the results so reckoned: look in the root's
+  commentary, the twenty, and the little red, tiger-head, rolled-ridge and
+  the rest (works named by these words, not identified here), and
+  correcting the faults is what matters.
+- For the larger variants (f. 24a, img. 051, l. 1–3, on the scan) it
+  allows a shortcut: «འོན་ཀྱང་གནས་སྐབས་བྱ་སླའི་ཆེད། །སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔས། །ཚེ་དང་ནད་དང་ཟ་ཐང་དང་། །བསོད་ནམས་གདོན་བྱད་ལ་བརྟགས་པའི། །ཁ་དམར་སྤྱི་བསྡོམས་ལྔར་བསྡུས་ལ། །རིགས་མཐུན་འབྲས་བུ་གང་རུང་གིས། །སྟངས་གཅོད་བྱས་ཀྱང་ཆོག་པར་ངེས།», yet for ease at the time, the
+  verdicts examined for life, illness, food, merit and demons by the
+  five, vitality, body, power, luck and mewa, may be gathered into five
+  general totals and decided (སྟངས་གཅོད, stangs gcod) by any result of
+  the same kind.
+
+### The half elsewhere in the *Moonbeams*
+
+Every «ཕྱེད་མ» of the text (Yigdzin-1 over img. 015–064 and KD's etext,
+pp. 506–536), each read on the scan:
+
+| Folio, image, line | The passage | What is a half |
+| --- | --- | --- |
+| f. 15b, img. 034, l. 5–6, to f. 16a, img. 035, l. 1; the birth (ch. 3), the key pebble (སྒོས་རྡེལ, sgos rdel; this print «དགོས་རྡེ» in l. 5, «སྒོས་རྡེ» in l. 6) | «དབང་ལོ་དཀར་གསུམ་མ་ལོར་གཉིས། །བུ་ལོར་ཕྱེད་མ་དགྲ་ལོ་ལ། །དཀར་གཅིག་གྲོགས་ལོར་ནག་གཅིག་སྟེ། །གང་ཡིན་བོར་ལ་སྒོས་རྡེའོ།»; «ཁ་རལ་དཀར་ནག་ཕྱེད་མ་སྟེ། །དེ་རྣམས་གང་ཡིན་རྡེལ་གཅིག» | the power's year three white, the mother's two, **the son's year a half**, the enemy's one white, the friend's one black: whichever it is, lay it as the key pebble; *kha ral* (ཁ་རལ) a white-black half: whichever of these, one pebble. The key pebble is one pebble, and it can be a half. |
+| f. 26b, img. 056, l. 3–5; the reckoning for the dead (ch. 7), the living's mewa pebble | «གཅིག་དཀར་དཀར་གཅིག་དྲུག་དཀར་གཉིས། །བརྒྱད་དཀར་དཀར་གསུམ་གཉིས་ནག་ལ། །ནག་གཅིག་མཐིང་གཉིས་བཞི་ལྗང་གསུམ། །ལྔ་སེར་ཕྱེད་མ་བདུན་དམར་ལ། །དམར་གཅིག་དགུ་ལ་དམར་གཉིས་བོར།» | the 1 white one white, the 6 white two, the 8 white three; the 2 black one black, the 3 blue two, the 4 green three; **the 5 yellow a half**; the 7 red one red, the 9 red two red. |
+| f. 27a, img. 057, l. 2–5; the dead, the la pebbles (བླ་རྡེལ, bla rdel) | «དེ་བཞིན་རང་ལོར་དཀར་པོ་གཅིག །བུ་ལོར་ཕྱེད་མ་དགྲ་ལོར་ནག །གྲོགས་ལ་དཀར་གཉིས་ནག་པོ་གཅིག …། །རང་གི་ལོ་དང་བདུན་ཟུར་ལ། །དཀར་ནག་རེ་རེ་འབོར་རོ་ཞེས། །རྩ་བར་གསུངས་མོད་དེ་ལྟ་ནའང་། །ཕྱག་ལེན་དིང་སང་མཛད་པའི་སྲོལ། །མེད་ཕྱིར་འདིར་ཡང་བཏང་སྙོམས་བཞག» | one's own year one white, **the son's year a half**, the enemy's black, the friend's two white and one black; the root text says to lay one white and one black each on one's own year and its seventh, but as that is not done in practice today it is left aside here too (བཏང་སྙོམས, btang snyoms). A half and "one white and one black" are written as two things. |
+| f. 28b, img. 060, l. 2–3; the dead, the rebirth | «གསོན་རྡེལ་རྣམས་ཀྱིས་སྐྱེ་གནས་བརྟག །ལྷ་ལ་དཀར་གཉིས་མིར་ཕྱེད་མ། །ངན་འགྲོར་ལྟུང་ན་ནག་གཉིས་བོར།» | by the living's pebbles examine the rebirth: a god two white, **a human a half**, a fall to the lower realms two black. |
+| f. 28b, img. 060, l. 5–6, to f. 29a, img. 061, l. 1; the dead, the verdicts | «དེ་ནས་སྡེ་ཚན་བཅུ་གཉིས་ལ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གྱི། །རྡེའུ་བཅུ་གཉིས་ལོགས་སུ་བོར། །དཀར་ལ་དཀར་པོ་ལྡོག་པ་ནག །མཉམ་ན་ཕྱེད་མ། ཁྱད་པར་དུ། །སྲེག་སྒྲུབ་དུར་ལྔའི་ཁ་དམར་ནི། །རང་ལ་རང་འདུར་དཀར་པོ་གཅིག །མ་ལ་བུ་འདུར་དཀར་པོ་གཉིས། །བུ་ལ་མ་འདུར་ནག་པོ་གཉིས། །དགྲ་ལ་གྲོགས་འདུར་ནག་པོ་གཅིག །གྲོགས་ལ་དགྲ་འདུར་དཀར་ནག་གཉིས།» | then for the twelve sections count white and black and lay twelve verdict pebbles apart: white, white; the reverse, black; **even, a half**. In particular, the verdict of burning or keeping (སྲེག་སྒྲུབ, sreg sgrub) by the five tombs: own to own one white, mother to son two white, son to mother two black, enemy to friend one black, friend to enemy white and black, two. |
+| f. 29a, img. 061, l. 2–3; the dead, the rebirth's verdict | «སྐྱེ་གནས་ལྷ་མི་ངན་འགྲོ་ལ། །དཀར་གཅིག་ཕྱེད་མ་ནག་གཅིག་སྟེ། …། །དེ་ལྟར་སྟངས་གཅོད་རྡེའུ་ཡི། །ཁ་དོག་དང་བསྟུན་ཁ་དམར་ཀྱང་། །སྲོག་གིས་འཆི་དུས་ལུས་དུར་ས།» | the rebirth (སྐྱེ་གནས, skye gnas) god, human, lower realms: one white, **a half**, one black; so the verdict follows the colour of the deciding pebbles: by the vitality the time of death, by the body the burial ground … |
+
+On the scan f. 28b's tie reads «མཉམ་ན་ཕྱེད་མ», not KD's «ཕྱེད་མི», and
+«ཁྱད་པར་དུ» opens the next sentence: the bracket of RD18's table above is
+settled. The *Moonbeams* lays a third value on a tie, as WB and the notes
+do, and calls it a half where they say speckled (ཁྲ་བོ, khra bo).
+
+So in the *Moonbeams* a half is a value of one pebble, the middle of a
+graded scale, and it is kept apart from "white and black, two", which is
+two pebbles (f. 29a, the friend against the enemy; f. 27a, the friend's
+two white and one black; the root's one white and one black set aside).
+The only half verdict it reads is the rebirth's: the middle, a human birth
+(f. 28b, f. 29a), as WB's ch. 29 reads its speckled pebble (vol. 2, p. 70,
+above). The birth's hundred pebbles count the son black, not half
+(f. 16b, img. 036, l. 1, on the scan: «མ་གྲོགས་དཀར་ལ་དགྲ་བུ་ནག །ས་ཆུ་ནང་འཕྲད་དཀར་པོ་ལ། །ཤིང་ལྕགས་མེ་གསུམ་ནག་པོར་བོར།», mother and friend white, enemy and son
+black, an inner meeting of earth or water white, wood, iron and fire
+black), and that chapter's verdict counts the twenty by good and bad
+(l. 2–3: «རང་མ་བུ་གྲོགས་དཀར་ན་བཟང་། །དགྲ་རྡེ་བཞི་པོ་ནག་ན་དཀར། …། །དཀར་ནག་སོ་སོར་བགྲངས་བྱས་ལ། །བཟང་ལ་དཀར་གཅིག་ངན་ལ་ནག», own, mother, son and friend good if white, the enemy's
+four counted white if black; count white and black each, good one white,
+bad black): the son's value differs by reckoning, and the year of age's
+is the half. The «རྡེལ་ཁྲ» of the Chinese pebble round (f. 23a, img. 049,
+l. 1, on the scan: «དེ་ནས་རྡེལ་ཁྲ་བྱ་བ་ནི། །རྡེལ་གྲལ་གོང་མའི་ལུས་དང་ནི། །འོག་མའི་ཁམས་ནས་བླངས་ལ་བོར།») is a way of mixing the rows,
+taking from the upper row's body and the lower's element, not a speckled
+verdict.
+
+### Gyurme Dorje, pp. 226–230
+
+- **The colours** (p. 226, on the page image): his prose and his
+  translation of the *Moonbeams* both give the son's meeting "one white
+  and one black pebble", and the best of the bad stages "one black and one
+  white pebble": he renders the *Moonbeams*' half as one of each.
+- **The verdict** (p. 228): the four predictive pebbles are placed
+  "alongside whichever pile is the larger (auspicious or inauspicious)";
+  his translation of the verse places them "upon [the distinct piles] of
+  three white pebbles, two white pebbles, and so forth", his brackets.
+  He states no tie and no count for a mixed place.
+- **Chart 6.2** (p. 228, read again on the page image): as RD18 gives it
+  above. Its destiny row has the son's meeting ○× and the predictive ○×;
+  by the *Moonbeams*' values that row is three white places (progressed
+  sign, trigram, birth), two black (mewa, hour) and one half (the son's
+  year); counted by pebbles as his ○× draws it, seven white to four
+  black. The printed ○× follows from neither, only from a son counted
+  black (RD18; O17 recomputes the cells).
+- **What a mixed result means** (p. 228): the only mixed reading he gives
+  is of a cell, not of a verdict: one white and one black vitality pebble
+  foretell good and bad together, so misfortune can be turned by rites.
+  The readings of the four predictive pebbles he gives are for all white,
+  all black, and each aspect white, "the converse" for black; none for a
+  speckled or half predictive pebble. Pp. 229–230 pass to the progressed
+  sign and the harsh pebbles.
+
+### Open
+
+- Question: In the *Moonbeams*' year of age (DZ f. 21b–22a, img. 046–047),
+  the son's meeting and the breath-taking and womb stages are each "a
+  half" (ཕྱེད་མ). How does a half place count toward the verdict: as
+  neither white nor black (left out), as weighing toward a tie, or by
+  some other rule? The verse says only "counting how many or few the
+  white and black are".
+- Question: Does «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར» (DZ f. 22a, img. 047, l. 1)
+  mean that the verdict pebble is laid as a grade of the scale, "three
+  white", "two white" … "a half" … "two black", read with WB's readings of
+  that many white or black on the aspect (WB vol. 1, pp. 381–384), or, as
+  Gyurme Dorje translates, that the verdicts are placed on the piles of
+  three white, two white and so on?
+- Question: Does a half verdict of the year of age have a reading of its
+  own? The *Moonbeams* reads a half only for the dead's rebirth (a human
+  birth, ff. 28b–29a) and sends the year's results to other works
+  (f. 22b: the root's commentary, the twenty, «རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ»; the
+  little red, «དམར་ཆུང»; the tiger-head, «སྟག་མགོ»; the rolled ridge,
+  «སྒང་སྒྲིལ»); which
+  works are these, and does any of them read it?
+
+### Searched and not found
+
+- 2026-10-20, the *Moonbeams* whole (DZ img. 015–064 by Yigdzin-1; KD
+  vol. 3 etext pp. 506–536): no rule for how a half place counts in a
+  verdict, and no tie rule for the year of age; «ཁྲ» never as a pebble's
+  colour (the rites of the eleventh starting point are «དཀར་ནག་ཁྲའི», white,
+  black or speckled, KD p. 520, etext only); "even" («མཉམ») only at f. 28b
+  (the dead) and in the marriage's repetition pebbles (ch. 4, KD p. 525,
+  «ར་བསེ་རྡེལ་གྲངས་མཉམ་རྒྱལ་བརྟག», etext only).
+- 2026-10-20, Gyurme Dorje's notes to the obstacle years (OCR text,
+  notes 1–65 of that part): nothing on the predictive pebbles' count or on
+  a mixed predictive pebble.
 
 
 
