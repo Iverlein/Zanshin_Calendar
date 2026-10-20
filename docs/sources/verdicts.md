@@ -278,7 +278,360 @@ practitioners' own form, below WB.
 
 ## The verdict pebble, chapter by chapter (RD18)
 
-Nothing read yet: RD18's passages, with the English beside them, go here.
+Read 2026-10-20 on BDRC's scans of the 1996 print (vol. 1 I1KG12906,
+image = page + 10; vol. 2 I1KG12907, image = page + 8): every line that
+holds «ཁ་དམར» or «བཏང་གཅོད» in ch. 21–30 and the notes' rules on laying
+a verdict, found in the etext and Yigdzin-1, each read on the scan in
+half-line crops at 3× (the doubtful words at 6–7×). MITRA was run as
+witness over vol. 1, img. 311, 323, 329, 339, 359, 455 and vol. 2,
+img. 30, 31, 60–62, 180, 498, 508, 509: no flag in the quoted lines of
+p. 490; in the others its flags are its own slips (ཇེའུ for རྡེའུ, བྱེད
+for ཕྱེད) or Yigdzin-1's, each settled on the scan (p. 349's «སྨྲོས»,
+p. 329's last line and vol. 2, p. 50's l. 28, both dropped by
+Yigdzin-1); on the notes' pp. 500–501 and vol. 1, p. 301 it agrees with
+Yigdzin-1 on 12–56 % of syllables only, and those lines rest on the eye.
+Where a passage was
+already read on the scan for another topic file, the file is named and
+its reading kept. Gyurme Dorje's charts 6.2 (p. 228) and 8.1 (p. 296)
+were read on archive.org's page images.
+
+### What the words name
+
+**The verdict** (ཁ་དམར, kha dmar) is in WB a judgement that is laid,
+told and shown: it is laid («གདགས», «བོར», «བཞག»), spoken («སྨྲོས», «བརྗོད»)
+and shown («སྟོན», «བསྟན»), and it has a pebble of its own («ཁ་དམར་རྡེལ»,
+«ཁ་དམར་རྡེའུ»). No passage of ch. 21–30 or of the notes gives it a
+colour, a mark or a material. Where the words mean "red mouth" or "red
+face" they describe beings, not pebbles: a demon's mouth gaping in the
+illness chapter (vol. 1, p. 441, img. 451, l. 5, «ཟེར་ནས་ཁ་དམར་གདང་ངེ་འདུག»), the harmful spirits of the dead (སྲི, sri) in the row
+of the birth's year-horses, the red-mouthed life-demon and loss-sri beside
+the flesh-eating field-sri
+(vol. 1, p. 305, img. 315, l. 23, «གྲལ་ན་སྲོག་བདུད་ཁ་དམར་འདུག»;
+p. 306, img. 316, l. 6, «གྲལ་ན་གོད་སྲི་ཁ་དམར་འདུག»; the parallel
+lines have «ཞིང་སྲི་ཤ་ཟན»), a red-faced woman (vol. 2, p. 60, img. 68,
+«བུད་མེད་གདོང་ཁ་དམར», etext) and a red-mouthed tube in a rite (vol. 2,
+p. 105, img. 113, «ཐེམ་ཁ་དམར», etext). So the
+"red mark" by which [year-of-life.md](year-of-life.md) renders p. 261's
+«རེ་རེ་ལ་ཡང་ཁ་དམར་གདགས» is the word taken apart, not a thing WB
+describes: there, as everywhere, it is "on each, lay the verdict". Three
+passages show that the verdict is a pronouncement:
+
+- vol. 1, p. 349 (img. 359, l. 26–27), the close of the birth: «ཡས་མས་ཆ་བསྡུར་ཞིབ་བརྟགས་ཏེ། །ཁ་དམར་མ་ནོར་ཚུལ་བཞིན་སྨྲོས།», compare above
+  and below, examine closely, and speak the verdict without error, as it
+  is (Yigdzin-1's «སྤྲོས» is the scan's «སྨྲོས»);
+- vol. 1, p. 448 (img. 458, l. 9–10), a rite for the sick: an effigy is
+  laid in the bed, the doctor takes its pulse, «འཆི་འདུག་ཅེས་པའི་ཁ་དམར་གདགས།», lay the verdict "it is dying";
+- vol. 2, p. 22 (img. 30, l. 18), the small reckonings: «དཀར་ནག་ཁ་དམར་དང་བསྟུན་བརྗོད།», tell [the results] as the white and black
+  verdicts fall.
+
+**The deciding pebble** (བཏང་གཅོད, btang gcod) is the pebble laid by the
+count, and WB uses the two words together and in turn: «བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ» (vol. 1, p. 385), «དཀར་ནག་བགྲངས་པའི་བཏང་གཅོད་རྡེལ»
+(vol. 2, p. 46), «བཏང་གཅོད་ངོས་འཛིན་རྡེའུ་བདུན» (vol. 2, p. 47). In two
+places it is the plain verb "to decide": the eight starting points that
+decide whether a body is burnt or kept (vol. 1, p. 468, img. 478, l. 1,
+«ཁ་ནས་ཕུང་པོ་བསྲེག་སྒྲུབ་ཀྱི། །བཏང་གཅོད་རྩིས་འགོ་རྣམ་བརྒྱད་ལ། །དང་པོ་དམར་རོ་འབྲུམ་བུའི་རོ། །མེ་ལ་བསྲེག་གམ་མི་བསྲེག་བརྩི།»), and the
+diviner's arrow of decision among the implements (vol. 2, p. 147,
+img. 155, l. 13, «མདེའུ་བཏང་གཅོད་ཐད་དྲང་ལ།», etext and Yigdzin-1, not
+read on the scan). Dharmaśrī's *Moonbeams* writes it «སྟངས་གཅོད» (KD
+vol. 3, etext pp. 522, 529, 533, 535; etext only).
+
+### What is counted: the places, not the pebbles
+
+WB's rule for the year of age (vol. 1, p. 381, img. 391, l. 2–4, read
+again on the scan; the whole passage in [year-of-life.md](year-of-life.md)):
+
+> །དེ་ལ་ཁ་སྦྲང་རྡེལ་འགྲེམ་ལུགས། །མི་མཐུན་མང་ཡང་དཀར་ནག་གི། །གསུམ་གཉིས་ལ་སོགས་མི་འདྲེན་པར། །ངོ་ཐེག་དཀར་ནག་བགྲངས་པ་ཡི། །གང་མང་ཁ་དམར་རྡེལ་བོར་བ།
+
+The ways of laying out the pebbles (the print's «ཁ་སྦྲང», not
+identified) differ; [here,] not taking in the threes, twos and so on of
+white and black, count the white and black of the faces (ངོ་ཐེག, ngo
+theg), and lay the verdict pebble on whichever are more.
+
+Mipham's notes say what a "face" is (vol. 2, p. 490, img. 498, l. 5–8,
+read on the scan at 2.2× and 6×, MITRA agreeing):
+
+> །རྡེའུ་བོར་ལུགས་གཞུང་བཞིན། ཁ་དམར་ནི་མ་འཕྲད་དཀར་གསུམ་ལྟ་བུའང་གཅིག་ལ་བརྩི། དགྲ་འཕྲད་ནག་གཉིས་ཀྱང་སོ་སོར་མི་བརྩི་བར་གནས་དེའི་དཀར་ནག་བསྒྲངས་ལ་དཀར་མང་དཀར་པོ། ནག་མང་ནག་པོ། མཉམ་ན་ཁྲ་བོ་བཞག
+
+The pebbles are laid as the text says. For the verdict, even the three
+white of a meeting with the mother count as one, and the two black of a
+meeting with the enemy are not counted one by one either: count the
+white and black of each place (the print's «བསྒྲངས», for བགྲངས, read at
+6×); more white, a white one; more black, a black one; even, lay a
+speckled one (ཁྲ་བོ, khra bo).
+
+So each of the six basic signs that meets an aspect is one place, and
+counts once by its colour, whatever the number of its pebbles. The notes
+say it again for the reckoning for the dead (p. 500, img. 508, l. 14–15,
+on the scan): «བཟང་དྲུག་དཀར་ངན་དྲུག་ནག་མ་འཕྲད་དཀར་གསུམ་སོགས་སྤྱི་བཞིན་བོར། ཁ་དམར་ཀྱང་སྤྱི་ལྟར་རོ།», the good six [stages] white, the bad
+six black, the mother's meeting three white and so on, laid as in
+general; the verdict too as in general. What a place with both colours
+counts as (a son's meeting, one white and one black; the breath-taking
+and the womb among the stages) neither WB nor the notes say here; in the
+reckoning for the dead the notes put a mixed year with the speckled
+(p. 502, img. 510, l. 9, on the scan: «གྲོགས་ལོ་ཆེ་དཀར་ཆུང་ནག་ལྟ་བུའང་ཁྲ་བོར་གཏོགས།», a friend's year, white for the elder and black
+for the younger, also belongs to the speckled).
+
+### What a tie lays
+
+Every rule for a tie that WB and its notes give lays a third value, never
+nothing:
+
+| Where | The rule, on the scan | A tie |
+| --- | --- | --- |
+| Notes, p. 490 (img. 498, l. 7–8), the year of age | «དཀར་མང་དཀར་པོ། ནག་མང་ནག་པོ། མཉམ་ན་ཁྲ་བོ་བཞག» | a speckled pebble |
+| Ch. 29, vol. 2, p. 46 (img. 54, l. 4–5), the reckoning for the dead, its deciding pebbles | «དཀར་ནག་བགྲངས་པའི་བཏང་གཅོད་རྡེལ། །དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི། །འཐབ་རྡེལ་ལྔ་བཅུ་རྩ་ལྔ་འབྱུང་།» | half and half, a speckled one (until now read on the Gser thang reprint only) |
+| Ch. 29, p. 46 (img. 54, l. 16–18), the share of the rites, its root pebbles | «ཁམས་རྡེལ་གཉིས་དཀར་དཀར་པོ་དང་། །གཉིས་ཀ་ནག་ན་ནག་པོར་བོར། །གཅིག་དཀར་གཅིག་ནག་ཁྲ་བོར་བོར།» | one white and one black, a speckled one |
+| Ch. 29, p. 47 (img. 55, l. 3), the same | «དེ་ལྟར་དཀར་མང་དཀར་པོ་དང་། །ནག་མང་ནག་པོ་བཏང་སྙོམས་ཁྲའི། །ཁ་དམར་དང་བཅས་རྡེལ་བཅུ་གཅིག» | even (བཏང་སྙོམས, btang snyoms), a speckled verdict |
+| Ch. 29, p. 47 (img. 55, l. 8–9), the rebirth | «རྡེའུ་ཐམས་ཅད་གོ་བསྟུན་ལ། །དཀར་ཤས་ཆེ་ན་དཀར་པོ་གཅིག །གཅིག་དཀར་གཅིག་ནག་དཀར་ནག་གཉིས། །ནག་ན་ནག་པོའི་རྡེའུ་བོར།» | one white and one black: both, a white and a black |
+| Ch. 29, p. 50 (img. 58, l. 27–28), the thirteenth point | «དཀར་མང་དཀར་པོ་ནག་པོ་མང་། །ནག་རྡེལ་སྙོམས་ན་དཀར་ནག་ཟུང་།» (l. 28, which Yigdzin-1 drops, read on the scan) | even, a pair of white and black |
+| Notes, p. 500 (img. 508, l. 17–19), the share of the rites | «བཏང་གཅོད་གཉིས་ཀ་དཀར་ན་དཀར་པོ་བོར། གཉིས་ཀ་ནག་ན་ནག་པོ། གཅིག་དཀར་གཅིག་ནག་ན་ཁྲ་བོ་བོར་ཏེ། དཀར་པོ་ལ་འདུར་ཐང་ཆེ་བ་ཐོབ།» | one of each, a speckled one; the white wins a large share |
+| *Moonbeams*, KD vol. 3, etext p. 534 (etext only) | «དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གྱི། །རྡེའུ་བཅུ་གཉིས་ལོགས་སུ་བོར། །དཀར་ལ་དཀར་པོ་ལྡོག་པ་ནག །མཉམ་ན་ཕྱེད་མ[ི]…» | even, a half (ཕྱེད་མ, phyed ma) |
+
+And the speckled or half verdict is read, not left blank:
+
+- the rebirth (vol. 2, p. 70, img. 78, l. 13–14, on the scan): «སྐྱེ་གནས་བཏང་གཅོད་རྡེའུ་དཀར། །གཤིན་པོ་ལྷར་སྐྱེ་ནག་པ་ན། །ངན་སོང་ཁྲ་བོ་མི་རུ་སྐྱེ།», the deciding pebble of the rebirth white, the dead is
+  born a god; black, in the lower realms; speckled, a human;
+- the household of the dead (vol. 2, p. 54, img. 62, l. 5–18, on the
+  scan): before the great harm, «རྡེའུ་ནི། །དཀར་ནག་ཕྱེད་མར་བྱུང་བ་ན། །ཕོ་བརྒྱུད་བྱེས་སུ་འཁྱར་བ་ཡོད།», the pebbles half white and half black,
+  the male line wanders abroad; and a reading each for half and half
+  before the small harm, the mother's, son's, power's, friend's and
+  enemy's year («ཆད་ཆུང་མདུན་དུ་ཕྱེད་མར་བྱུང་།», «མ་ལོའི་མདུན་དུ་ཕྱེད་མར་བྱུང་།», …, «དགྲ་ལོའི་མདུན་དུ་ཕྱེད་མར་བྱུང་།»);
+- the birth (vol. 1, p. 345, img. 355, l. 28, to p. 346, img. 356,
+  l. 1, on the scan), the girl's luck: «བུ་མོའི་ཀླུང་ལ་ལྟེ་བསྒྱུར་ཏེ། །དེ་ཡང་དཀར་ནག་ཁྲ་གསུམ་སོགས། །ལོགས་སུ་ཁ་དམར་བསྟན་ལས་ཤེས།», turn the
+  centre for the girl's luck; white, black and speckled, the three, and
+  the rest: know them from the verdicts shown apart;
+- the rebirth again (vol. 2, p. 71, img. 79, l. 7–8, on the scan):
+  «ཀླུང་རྟས་སྐྱེ་སྲིད་རབ་འབྲིང་ནི། །མ་དང་རང་རབ་གྲོགས་བུ་འབྲིང་། །དགྲ་ཉིད་ཐ་མར་ཁ་དམར་གདགས།», by the luck, the rebirth best or middling:
+  the mother and itself best, the friend and son middling, the enemy last;
+  lay the verdict so. A verdict of three grades, the middle one the mixed
+  relations.
+
+**Open question 167, settled.** The year of age's tie lays a speckled
+predictive pebble (the notes, p. 490), as every other tie rule of WB and
+its notes lays a third value; and each meeting counts once by its colour,
+the mother's three white as one white, the enemy's two black as one
+black (the same lines, and p. 381's "not the threes and twos"). WB's
+p. 381 states neither in so many words; the notes, Mipham's, are its
+reading of the line.
+
+**Gyurme Dorje's chart 6.2** (p. 228, a man of a fire dragon year in an
+earth tiger year), its six meetings and its predictive column, read on
+the page image:
+
+| Aspect | Year | Progressed sign | Trigram | Mewa (སྨེ་བ, sme ba) | Stage | Hour | Predictive |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Vitality | ×× | ○○ | ×× | ○○○ | × | ○○○ | ○× |
+| Body | ○ | ○ | ×× | ○○○ | × | ○○ | ○ |
+| Destiny | ○× | ○○ | ○○○ | × | ○ | ×× | ○× |
+| Luck | ×× | × | × | ○× | ○○○ | ○○○ | × |
+
+Counted pebble by pebble, all four aspects have more white (8:5, 7:3,
+7:4, 7:5). Counted by places, as the notes count, the
+vitality is three to three, a tie, and Dorje lays ○×; the body four to
+two, ○; the luck three or two white to four black, ×. The destiny comes
+to ○× only if its son's meeting (○×) counts as black: three to three.
+His column is the notes' rule with the speckled tie, and a son's meeting
+counted black; the second part no text read here states. His text
+(p. 228) says the four are laid "alongside whichever pile is the larger",
+and quotes the *Moonbeams* f. 28b; that passage (KD vol. 3, etext
+p. 527: «དེ་ནས་ཁ་དམར་རྡེལ་བཞི་ཡང་། །དཀར་ནག་མང་ཉུང་བགྲངས་བྱས་ལ། །དཀར་གསུམ་དཀར་གཉིས་…སོགས་སུ་བོར།», etext only) is RD27's. Chart 8.1
+(p. 296, the health divination) lays its nineteen pebbles and no verdict.
+
+### The verdict in each reckoning
+
+Each line read on the scan unless marked; the passages already in other
+topic files are named there.
+
+**Ch. 21** (vol. 1, p. 258, img. 268, l. 16; in
+[year-of-life.md](year-of-life.md)): «ལོག་མན་དགུ་མིག་སྐོར་འགོ་སོགས། །རང་རང་ཁ་དམར་སྐབས་སུ་སྟོན།», the progressed sign, the nine-multiples,
+the starting circles and the rest each show their own verdict in their
+place: no verdict over them all.
+
+**Ch. 22, the birth.**
+
+- p. 260–261 (img. 270–271; in [year-of-life.md](year-of-life.md)):
+  136 pebbles, of them twenty deciding ones, laid by the count: «བཏང་གཅོད་རྡེའུ་ཉི་ཤུ་ལ། །སྲོག་གི་རྡེའུ་དཀར་ནག་བགྲངས། …། །དེ་ལ་ཤན་འབྱེད་རྡེའུ་བཞག །རེ་རེ་ལ་ཡང་ཁ་དམར་གདགས།»: for the twenty, count the white
+  and black of the life force, the body, the power and the luck; lay the
+  pebble that tells them apart, and on each a verdict.
+- p. 262 (img. 272): «རྡེལ་བབས་བལྟས་ལ་ཁ་དམར་གདགས།», look at how the
+  pebbles fall and lay the verdict; «དེ་ཡང་ཁ་དམར་རིམ་པ་དང་། །རྡེལ་ཕྲན་ངོ་ཐོག་བཅས་པ་རྣམས། །རིམ་པར་བཀོད།», the verdicts in their order,
+  with the small pebbles, set out in order; then «གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ།», the verdicts of the four precious pebbles, each white or
+  black with its reading.
+- p. 279 (img. 289, l. 10) «ངན་པའི་ཁ་དམར་འདི་ལྟ་སྟེ།», the bad verdict is
+  this; p. 281 (img. 291, l. 17) «གཞན་ཡང་གཅོད་འདྲལ་ཁ་དམར་བསྟན།», the
+  verdicts of the aspects cutting one another; p. 283 (img. 293, l. 11)
+  «དེ་ནི་བསྡུས་པའི་ཁ་དམར་ཡིན། །རྒྱས་པ་ལྟར་ན་འདི་བཞིན་ཏེ།», that is the
+  short verdict; the long one is this; p. 294 (img. 304, l. 14) «ལུས་ཀྱི་རྒྱལ་འཕམ་ལྷག་ཆད་དང་། །སོ་ཐུབ་ཁ་དམར་སྟོན་པ་སྟེ།», the verdicts of the
+  body winning or losing, surplus or lack: each section's reading is its
+  verdict.
+- p. 301 (img. 311, l. 23): «དཔེར་ན་ལི་འདོམ་མང་བ་ན། །ཡུགས་ཀྱིས་ལན་པར་ཁ་དམར་མདགས། །དེ་ཡི་རིགས་པ་ཀུན་ལ་སྦྱར།», where the trigram li
+  (ལི, li) meets the
+  most [of the year, month, day and hour], lay the verdict that widowhood
+  answers it (the print's «མདགས» for གདགས); apply this reasoning to all:
+  the trigram that meets most decides.
+- p. 313 (img. 323, l. 23–24) and p. 319 (img. 329, l. 9–10): the
+  planets of the birth, «ཕྱི་ནང་སྤྲད་དེ་བར་གཟའ་ལ། །ཁ་དམར་གདགས་ལུགས་འདི་ལྟ་སྟེ།», the outer and inner joined, the way to lay the verdict on
+  the middle planet is this; «ཕྱི་གཟའ་ནང་གཟའ་གཉིས་ཀྱིས་ནི། །བར་གཟའ་དག་ལ་ཁ་དམར་གདགས།», by the outer and inner planets lay the verdict on the
+  middle (RD19's); p. 319, l. 1, «བྱིས་བཙས་མི་སོས་ཁ་དམར་དང་།», the
+  verdict that the newborn will not live.
+- p. 329 (img. 339, last line): «བརྒྱ་ཕྲག་གཅིག་གི་ཁ་དམར་ནི། ༄སྲོག་གི་རང་རྡེལ་དཀར་བ་ན། །རིན་ཆེན་ཚེ་ཡི་གཏེར་ཞེས་བྱ།», the verdicts of the
+  hundred: where the life force's own pebble is white, "a precious
+  treasure of life" (the readings, pp. 330–338, RD19's).
+- p. 345–346: the three values, above. p. 349 (img. 359, l. 22–27):
+  «འབྲས་ཤུགས་ཆེ་ཆུང་མང་ཉུང་རྣམས། །ཡས་མས་ཀུན་དུ་ལེགས་བརྟགས་ཏེ། །བཟང་འབྲས་ཆེ་མང་བཟང་འབྲས་ཕྱིན། །ངན་འབྲས་ཆེ་མང་ངན་པ་སྟེ། །མཉམ་ན་འབྲིང་ཡིན་དེ་ཡང་ནི། །འཕྲུལ་གྱི་བྱ་བྱེད་རིམ་གྲོ་ཡིས། །ངན་འབྲས་བཟང་པོར་འགྱུར་བ་དང་། …། །ཁ་དམར་མ་ནོར་ཚུལ་བཞིན་སྨྲོས།»: the whole of the birth weighed by the force
+  and number of its results, even middling (the etext's reading of the
+  passage, above, stands; RD19 reads it whole).
+
+**Ch. 23, the marriage.** p. 356 (img. 365, l. 28, to img. 366, l. 1):
+«རྡེལ་བོར་ཀེག་རྩིས་ཇི་བཞིན་ནོ། །དེ་ཡི་ཁ་དམར་འདི་བཞིན་གདགས།», the
+pebbles laid as in the obstacle reckoning; its verdict laid thus; p. 359
+(img. 369, l. 4, «ཁ་དམར་ཁུག་པ་དག་དང་མཚུངས།», the verdict as for the
+drawing-in (ཁུག་པ, khug pa) of the lines before it, the mewa that draw
+one another; l. 13, «རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ།», pebbles in pairs agree, odd disagree; of man and woman,
+whoever has more pebbles wins; RD21's).
+
+**Ch. 24, the year of age** (all read on the scan for O10d and RD14, in
+[year-of-life.md](year-of-life.md)): p. 380, four verdict pebbles among
+the forty-seven («གཅོད་འདྲལ་ཉེར་བཞི་ཁ་དམར་བཞི»); p. 381, the rule
+above; pp. 384–385, the readings of each verdict white or black and of
+all four alike, then «དེ་ནི་དཀྱུས་མའི་ཁ་དམར་ཡིན།།», that is the plain
+verdict, «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས། …། །ཁྱད་པར་སྡེ་བཞིའི་ཁ་དམར་བསྡུས།», lay further verdicts as fits; above all, gather the four classes'
+verdicts (RD20's); p. 385, each member of the household «བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ», one verdict pebble for each aspect; p. 386, the
+verdict of the household's left-over pebble, white two, white and black,
+black one, black two, each read; p. 396, «སྤར་ཁ་སོ་སོའི་ཁ་དམར་རོ།།»; p. 401, «སྨེ་རེའི་ཁ་དམར»; p. 404, «སྨེ་རོའི་བབས་ཚད་ཁ་དམར་ཡིན།»;
+p. 407, «ད་ནི་སྤྱི་ཡི་ཁ་དམར་ལ། །ཁྱིམ་ནང་གཅིག་དཀར་མང་ཚོགས་ན།», the
+general verdict: where the 1 white gathers most in the household. Each
+sign has its own verdict; the four aspects' are the ones counted.
+
+**Ch. 25, the illness.**
+
+- p. 417 (img. 427, l. 8): «བདེན་བརྗོད་རུང་རུང་མ་བརྩིས་ན། །དུས་ཚོད་ལྷ་ཡིས་བློ་ཕྲོགས་ནས། །རྩིས་ཀྱི་ཁ་དམར་ལོག་འགྲོ་བས།», reckoned without the
+  invocation of truth, the gods of the hour steal the mind, and the
+  reckoning's verdict goes wrong.
+- p. 445 (img. 455, l. 18–21), life or death: «ཐ་མར་ཁ་དམར་གདགས་པ་ཡང་། །སྲོག་ལུས་དབང་ཐང་ཀླུང་རྟ་བཞི། །གུད་དང་ན་ཤི་དུར་ཞུགས་དང་། །འབྱུང་བའི་དགྲ་ཆེན་ལངས་པ་དང་། །བཟའ་ཚང་ཀེག་འདོམ་མང་ན་འཆི། །ལོ་དང་ཟླ་བ་ཞག་དང་དུས། །ཀེག་མེད་དུར་འདོམ་མ་བྱུང་ཞིང་། །འབྱུང་བ་མ་དང་ཕྲད་པ་དང་། །བདུད་གཅོད་ཞི་ནས་ཉེན་མ་ལངས། །ཇི་ལྟར་སྣང་ཡང་མི་འཆི་སྟེ། །ལོ་ཀེག་ཁྲ་མོས་གནོད་མི་ནུས། །གཏོ་དང་ཆོ་གས་ཐུབ་པ་ཡིན།»: lastly, the
+  verdict: the four aspects in decline, illness, death and the tomb, the
+  elements' great enemy risen, and many obstacles of the household meeting
+  there, death; the year, month, day and hour without obstacle or tomb,
+  the element meeting its mother, the demon-cutting calmed and no danger
+  risen, then whatever it looks like, no death: a speckled year obstacle
+  cannot harm, and ransom rites and rituals overcome it.
+- p. 445 (img. 455, l. 24–27), the nineteen pebbles for the sick: «ལོ་ཟླ་ཞག་དང་དུས་ཚོད་ལ། །སྲོག་ལུས་གཉིས་ཀྱི་རྡེའུ་ནི། །གཅོད་འདྲལ་རེ་དང་དར་གུད་རེ། །དེ་ལྟར་རྡེའུ་བཅུ་དྲུག་དང་། །ཚེས་གྲངས་གཟའ་སྐར་རེ་རེ་སྟེ། །སྤྱི་བསྡུས་རྡེའུ་བཅུ་དགུ་བོར། །དཀར་ནག་གྲངས་ལ་ཁ་དམར་གདགས།»,
+  sixteen pebbles of the life force and body against the year, month, day
+  and hour, one each for the date, weekday and mansion: by the number of
+  white and black, lay the verdict (Dorje's chart 8.1).
+- p. 448 (img. 458, l. 9–10), the rite of the verdict "dying", above;
+  p. 449 (img. 459, l. 6) «གསང་སྐོར་ཁ་དམར་དག་ཏུ་བསྡུས།», the secret
+  circle gathered into the verdicts; p. 450 (img. 460, l. 17) «ཐ་མར་གསོ་ཞིང་ཁ་དམར་གདགས།», last, heal and lay the verdict; p. 452 (img. 462,
+  l. 3) «ཧ་ལམ་གྱི་ཁ་དམར་མཁན», the verdict-makers by guesswork.
+
+**Ch. 26, the thirty starting points.** p. 468, the deciding of burning,
+above; p. 471 (img. 481, l. 19–21): «དེ་ཡང་གང་བརྩི་སོ་སོ་ལ། །རིག་པས་དཔྱད་དེ་ཁ་དམར་གདགས། །གཞན་ཡང་ཡར་གྱི་རྡེའུ་དཀར། །མར་རྡེལ་ནག་པར་གྱུར་པ་ན། །ཕ་མེས་བཟང་ཡང་རང་མགོ་ཞན།», for each thing reckoned, examine with
+intelligence and lay the verdict; where the upper pebbles are white and
+the lower black, the forebears good but oneself weak (RD23's, RD24's).
+
+**Ch. 27, the small reckonings** (vol. 2, p. 22, img. 30, l. 8–18; p. 23,
+img. 31, l. 5, 12): five verdicts of twenty-five pebbles for each sign,
+«དཀར་ནག་བགྲངས་པའི་ཁ་དམར་གདགས།», count white and black and lay the
+verdict; «དཀར་ནག་བགྲངས་པའི་ཁ་དམར་རེ།», one verdict of the counted
+white and black for each of the five; for the signs, «དེ་དག་བབས་ན་རྡེལ་ནག་དང་། །མ་བབ་རྡེའུ་དཀར་པོར་བོར། །ཁ་དམར་སྤྱི་ལྟར་[གདགས་པར་བྱ།]», where
+they fall a black pebble, where not a white, the verdict laid as in
+general (the bracket, the etext's; the crop of l. 13 does not show it).
+RD23 reads the aspects' domains on these pages.
+
+**Ch. 29, the reckoning for the dead.**
+
+- p. 44 (img. 52, l. 23; in [reckonings.md](reckonings.md)): «བཟའ་ཚང་རེ་ལ་ཁ་དམར་རེ།», a verdict for each household; p. 45 (img. 53, l. 14,
+  22): «དེ་དག་སོ་སོའི་ཁ་དམར་བརྗོད།», «དེ་ཡི་ཁ་དམར་གཤམ་དུ་གསལ།».
+- pp. 46–47, 50: the count and the tie, above. p. 48 (img. 56, l. 21–22):
+  «དཀར་ནག་དཔྱད་པའི་ཁ་དམར་གྱི། །ར་བསེའི་རྡེའུ་བཅུ་གཅིག་ཡིན།», eleven
+  repetition pebbles with the verdict of the examined white and black.
+- p. 50 (img. 58, l. 23–28), the thirteenth point: «རྩ་བའི་རྡེའུ་བཅུ་གཅིག་ནི། །དེ་ནི་གོང་གི་སྲོག་ལུས་དབང་། །ཀླུང་རྟ་ཁམས་ཀྱི་ཁ་དམར་རྣམས། །དཀར་ན་དཀར་པོ་ནག་ན་ནག …། །དཀར་མང་དཀར་པོ་ནག་པོ་མང་། །ནག་རྡེལ་སྙོམས་ན་དཀར་ནག་ཟུང་། །གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།»: the root pebbles are the verdicts of
+  the aspects and element above, white where white, black where black, …;
+  more white a white, black more a black, even a pair; how great, small or
+  middling the ransom and rites must be, this tells (the print's «ཁ་སྨྲང»,
+  so the etext too, not identified; Yigdzin-1 drops l. 28). The verdicts
+  of the twelve examinations are laid again as pebbles of the
+  thirteenth (RD23's).
+- p. 52–54 (img. 60, l. 12–13, 26–28; img. 61, l. 9; img. 62, l. 5–18):
+  «དང་པོ་བླ་རྡེལ་བཅུ་གཉིས་ནི། །ཁ་དམར་རྣམ་པ་གསུམ་ཡིན་ཏེ། །སྤྱི་དང་ཁྱད་པར་བྱེ་བྲག་ལས། །དང་པོ་སྤྱི་ཡི་ཁ་དམར་ནི།», the twelve pebbles of
+  the la, the life-spirit (བླ, bla), have verdicts of three kinds, general, special and particular; «གཉིས་པ་བྱེ་བྲག་ཁ་དམར་ནི། །མ་ལོའི་རྡེའུ་རགས་གྱུར་ཀྱང་། །དབང་ལོའི་མདུན་དུ་རྡེལ་ནག་བཏུད།», the particular: even where the mother year's pebbles are
+  heavy, black ones laid before the power's year …; «གསུམ་པ་ཁྱད་པར་ཁ་དམར་ནི། །ཆད་ཆེན་མདུན་དུ་རྡེལ་ནག་པ། །བཏུད་མར་བྱུང་ན།», the special:
+  black pebbles laid before the great harm …; the half-and-half readings,
+  above; and «གལ་ཏེ་རྡེལ་དཀར་བཏུད་པ་ན། །ནག་པོ་བཏུད་པའི་ཁ་དམར་ལྡོག །དེ་ལྟར་མ་ནོར་བརྩིས་ན་ལེགས།», where white pebbles are laid, the verdict of
+  the black is reversed (Yigdzin-1's «ལཽ» is the scan's «ལོ»).
+- p. 55–56 (img. 63, l. 26, 28; img. 64, l. 5–15; etext and Yigdzin-1,
+  not read on the scan): the deciding pebble of each aspect, black or
+  white, says whether the time of death has come: «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། །སྲོག་གི་འགེལ་ཤིང་ཆག་པ་སྟེ།», «བཏང་གཅོད་དཀར་ན་འཆི་དུས་སུ། །མ་སླེབ།».
+- p. 70–71: the rebirth, above. p. 74 (img. 82, l. 11–13): «ཁ་དམར་གང་དཀར་ཕྱོགས་དེར་འདུར། །དེ་ཡང་དཀར་པོ་མང་བ་དེར། །ལྷ་ཆེན་ཉི་ཤུ་རྩ་ལྔ་ཡིན། … །ནག་པོ་གང་དུ་མང་བ་དེར། །བདུད་པོ་ཉི་ཤུ་རྩ་ལྔ་ཡིན།», the verdict
+  gathers to the white side; where the white are more, the twenty-five
+  great gods; where the black, the twenty-five demons. p. 94 (img. 102,
+  l. 25): «དེ་གཉིས་ངན་པས་ཁ་དམར་ཐོགས།», both bad, the verdict holds.
+- p. 142 (img. 150, l. 24–25), WB's own warning, at the chapter's close:
+  «གཞན་མ་རྣམས་ཀྱིས་གཤིན་རྗེལ་རྣམས་ཚུལ་བཞིན་མི་རྟོགས་པའི་བྲེ་གང་རྡེལ་དྲུག་དང་ཉི་ཤུ་མ་ཞེ་བདུན་མ་སོགས་ཀེག་རྡེལ་གཅིག་པུར་གཤིན་རྗེའི་ཁ་དམར་བཏགས།», others, not understanding the pebbles of the dead as they
+  are, lay the Lord of Death's verdict on a single obstacle pebble, the
+  "six of a measure", the twenty-ones, the forty-sevens and the like.
+
+**Ch. 30, the moment.** p. 163 (img. 171, etext and Yigdzin-1, l. 4–17):
+the ground examined, «ཁ་དམར་མ་ནོར་སོ་སོར་གདགས།», each verdict laid
+without error; p. 166 (img. 174, l. 10): «རེ་རེ་ལའང་གཅོད་འདྲལ་དང་། །དར་གུད་ཁ་དམར་གསུམ་གསུམ་ཡོད།», for each element three: the cutting, the
+rise and decline and the verdict; p. 168 (img. 176, l. 17): «དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས།», lay the verdict by the two together; p. 172
+(img. 180; in [reckonings.md](reckonings.md)): «དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས།».
+
+**The notes**, besides pp. 490, 500 and 502: p. 501 (img. 509, l. 4–5),
+for the dead, «དེ་ཐམས་ཅད་དཀར་ནག་བགྲངས་པས་ཁ་དམར་རྡེའུ་བཞག བཏང་གཅོད་དངོས་འཛིན་རྡེའུ་བདུན་བགྲང་ལུགས།», all of them counted white and black,
+the verdict pebble laid; the way of counting the seven deciding and
+identifying pebbles; p. 503 (img. 511, l. 5–6), «ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས་པའི་སྤྱིའི་ཁ་དམར་རྡེལ་གཅིག་སྟེ་བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག», one general
+verdict pebble of the twenty counted white and black, twenty-one deciding
+pebbles: the one place where a verdict is laid over other verdicts by the
+same count.
+
+### The rules, in short
+
+- A verdict is laid for each aspect or each examined thing, by counting
+  the white and black of its places, each place once; more white, white;
+  more black, black (vol. 1, p. 381; vol. 2, pp. 22, 46, 50, 74, 172; vol.
+  1, p. 445; the notes, pp. 490, 500, 501).
+- A tie lays a speckled pebble, or a white and a black together; never
+  nothing (above). A mixed or speckled verdict has readings of its own:
+  a human rebirth, the middling grade, the half-and-half readings.
+- Each sign has its own verdict in its place (p. 258); they are gathered
+  by the same count only where WB says so: the four classes (p. 385,
+  RD20), the thirteenth point (vol. 2, p. 50), the notes' one general
+  verdict of twenty (p. 503). A verdict on one pebble alone is the
+  mistake WB names (vol. 2, p. 142).
+- The verdict is spoken and then answered by rites: «ཐ་མར་གསོ་ཞིང་ཁ་དམར་གདགས» (p. 450), the size of the rites by the verdicts (vol. 2,
+  p. 50), the bad turned by them (p. 349; p. 445's "rituals overcome it").
+
+### Open
+
+- Question: how does a place with both colours count toward the verdict
+  of the year of age: a son's meeting (one white, one black), and the
+  breath-taking and womb stages? The notes count the mother's three white
+  as one; Gyurme Dorje's chart 6.2 comes out of their rule only if a son's
+  meeting counts black, and the notes on the dead put a mixed year with
+  the speckled (vol. 2, p. 502).
+- Question: what does a speckled predictive pebble of the year of age
+  foretell? WB's readings of the predictive pebbles (vol. 1, pp. 384–385)
+  have white and black only; the decisive pebbles' readings have "white
+  and black, two" for each aspect (pp. 381–384), which may be the reading
+  meant.
+- Question: what are p. 381's «ཁ་སྦྲང» and «ངོ་ཐེག»? The notes' p. 490
+  reads the second as "the place" of a meeting; the dictionaries were not
+  searched for either in this reading.
+- Question: what is «ཁ་སྨྲང» in vol. 2, p. 50, l. 28 («དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»)? The print and the etext agree.
+
+### Searched and not found
+
+- 2026-10-20, WB's etext, vol. 1, pp. 258–473, vol. 2, pp. 3–173 and the
+  notes: no passage gives the verdict pebble a colour, a red mark or a
+  material; «ཁ་དམར» is never defined. Its literal uses describe demons,
+  sri, a woman and a tube (above).
+- 2026-10-20, the *G.ya' sel* (etext VEIE0OPIF790A4DF_I5876): «ཁ་དམར» and
+  «བཏང་གཅོད» once (etext p. 16, «ཁ་དམར་དམིགས་སུ་བསྒྲའི་ལ་ཡོད», poor
+  OCR), no rule for laying or for a tie.
+- 2026-10-20, vol. 2, p. 497 (img. 505): not in the shared scan cache,
+  not fetched; the etext's passage there on marking one pebble for the
+  illness throw (a black one marked on its faces) is not about the verdict.
 
 
 ## The year of age gathered: the four classes and the household (RD20)
