@@ -126,3 +126,17 @@ none has not been opened for the app.
   [day-letters.md](day-letters.md)): the day is the link the almanac
   writes by vol. 1's table. Ch. 34 restates the births (p. 384) and the
   illnesses (p. 416) by link. ROADMAP T2.27.
+- **How the reckonings are combined** (2026-10-20, the etext, not read on
+  the scan; [verdicts.md](verdicts.md)): ch. 22 reads the birth's sets
+  whole (vol. 1, p. 338: the four mothers, sons, friends; many white or
+  many black over the four aspects), sorts the birth into twenty-one
+  children by the secret *yang tig* (pp. 338–342), and closes with a rule
+  for the whole (p. 349: the good results greater and more, good; the bad,
+  bad; even, middling; the rites turn the bad); ch. 25 names the illness by
+  the element that is most (p. 435) and mocks guessing verdict-makers
+  (p. 452); ch. 26 lays each starting point's verdict "with intelligence"
+  and reads upper and lower pebbles as the two halves of life (p. 471);
+  ch. 27's small reckonings give each aspect's domain and remedy (vol. 2,
+  p. 22); the notes reckon the match's bad years and aspects "in general"
+  (vol. 2, p. 524) and its siblings' number summed (p. 525). ROADMAP R4,
+  RD18–RD28.

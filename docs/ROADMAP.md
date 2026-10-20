@@ -41,6 +41,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
+| 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 
 ## Blocks
 
@@ -112,6 +113,7 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
 ## Readings
 
@@ -147,6 +149,17 @@ check them on the scans.
 | <a id="rd15"></a>RD15 | The marriage chapter — done 2026-10-12 (the departure and the remedies, pp. 365–378, read on the scan; the match, pp. 351–364, Yigdzin-1 alone, no MITRA; the notes' section 6 past p. 525 and ch. 30, p. 152, from the etext) | WB vol. 1, ch. 23, pp. 351–379 (img. 361–389): the match, the departure (from p. 365, seventeen parts), the remedies | [RD11](#rd11); [RD3](#rd3) for the sky dog of brides | [27](#block-27), [30](#block-30), [31](#block-31) | marriage.md (new) | Read RD15: WB ch. 23 on the scan, the departure first. |
 | <a id="rd16"></a>RD16 | The reckoning for the dead — done 2026-10-12 (the sizes, pp. 44–51, the list of examinations and the notes' inputs, pp. 499–500, 509, read on the scan; the fifteen examinations' results, pp. 51–143, and the notes past p. 500 outlined from Yigdzin-1 and the etext, their readings and rites not read on the scan) | WB's *gshin rtsis*, the copper vessel (*zangs kyam*): vol. 2, ch. 29, pp. 44–143 (img. 52–151), the sizes pp. 44–51 first, and the notes' section 4, pp. 499–522 (img. 507–530); ch. 31 holds none (RD11): what it needs of the dead and the living | [RD11](#rd11) | [27](#block-27), [31](#block-31) | reckonings.md | Read RD16: WB's reckoning for the dead, what it asks and what it gives. |
 | <a id="rd17"></a>RD17 | The other reckonings — done 2026-10-12 (each chapter's size, inputs and first reading on the scan, with the notes' pp. 532, 535, 538; the rest of ch. 26, 27 and 30 and all of ch. 28 but its sum outlined from Yigdzin-1 and the etext) | WB vol. 1, ch. 26 (from p. 453); vol. 2, ch. 27 (pp. 3–25), 28 (pp. 26–43), 30 (pp. 144–173), each in full, with the notes' sections 7 and 8 (pp. 532–541; ch. 29 is RD16's, RD11) | [RD11](#rd11) | [31](#block-31) | reckonings.md | Read RD17: the next reckoning chapter RD11 sorts as calculable. |
+| <a id="rd18"></a>RD18 | The verdict pebble, chapter by chapter | WB vol. 1, p. 258 (img. 268), pp. 260–262 (img. 270–272), pp. 380–385 (img. 390–395), p. 407 (img. 417); vol. 2, pp. 44–51 (img. 52–59), p. 172 (img. 180); every other «ཁ་དམར» and «བཏང་གཅོད» of ch. 22–30 that verdicts.md lists; the notes, p. 490 (img. 498), on the scan; Gyurme Dorje's charts 6.2 and 8.1 beside | [RD11](#rd11) | [58](#block-58) | verdicts.md (new) | Read RD18: every rule WB and its notes give for laying a verdict pebble, on the scan: what is counted, what a tie lays, the red mark; settle open question 167. |
+| <a id="rd19"></a>RD19 | The birth read whole: its sets, its twenty-one children, its close | WB vol. 1, ch. 22, pp. 328–342 (img. 338–352): the hundred pebbles' readings, the sets of p. 338, the secret *yang tig*'s twenty-one children; p. 349 (img. 359), the rule for the whole; the notes' section 1 on them (vol. 2, pp. 474–489, img. 482–497), on the scan | [RD13](#rd13); [RD18](#rd18) | [58](#block-58) | year-of-life.md, verdicts.md | Read RD19: WB ch. 22 pp. 328–342 and 349 on the scan, the sets read whole, the twenty-one children with which of their conditions are dates, and the chapter's rule for the whole. |
+| <a id="rd20"></a>RD20 | The year of age gathered: the four classes and the household | WB vol. 1, ch. 24, p. 385 (img. 395), «སྡེ་བཞིའི་ཁ་དམར་བསྡུས», and the household's verdicts, pp. 385–387, 407–408 (img. 395–397, 417–418); the notes' section 2 (vol. 2, pp. 489–495, img. 497–503), on the scan | [RD14](#rd14); [RD18](#rd18) | [58](#block-58) | year-of-life.md, verdicts.md | Read RD20: how ch. 24 and the notes gather the year of age's verdicts, for one person and for a household. |
+| <a id="rd21"></a>RD21 | The marriage match concluded | WB vol. 1, ch. 23, p. 351 (img. 361), the spouse of karma, of kin or of enmity and «སྐར་འབྲས་སྤྱི་སྡོམ»; p. 359 (img. 369), point 7; p. 364 (img. 374), point 13; the notes' section 6, vol. 2, pp. 523–526 (img. 531–534), on the scan | [RD15](#rd15); [RD18](#rd18) | [58](#block-58) | marriage.md, verdicts.md | Read RD21: the match's conclusion on the scan: how the fifteen points make the spouse of karma, kin or enmity and the general sum, the notes' "in general" for the bad years and the aspects, point 7's count (open question 166). |
+| <a id="rd22"></a>RD22 | The illness identified: the element that is most | WB vol. 1, ch. 25, p. 435 (img. 445) and the close, pp. 451–452 (img. 461–462); the notes' section 3, vol. 2, pp. 495–499 (img. 503–507), p. 497 the shares, on the scan | [RD12](#rd12); [RD18](#rd18) | [32](#block-32), [58](#block-58) | health.md, verdicts.md | Read RD22: how ch. 25 and the notes join the fifteen starting points into one illness, its shares and its rite. |
+| <a id="rd23"></a>RD23 | The verdicts of the dead, the thirty, the circles and the moment | WB vol. 2, ch. 29, p. 50 (img. 58), the thirteenth point; vol. 1, ch. 26, p. 471 (img. 481); vol. 2, ch. 27, pp. 22–23 (img. 30–31), the aspects' domains and remedies; ch. 30, p. 172 (img. 180); the notes' sections 4 and 7, on the scan | [RD16](#rd16), [RD17](#rd17); [RD18](#rd18) | [58](#block-58) | reckonings.md, verdicts.md | Read RD23: how ch. 26, 27, 29 and 30 gather their verdicts and turn them into remedies, on the scan. |
+| <a id="rd24"></a>RD24 | Whose aspect, which part of life, and the reckonings with each other | WB vol. 1, p. 242 (img. 252), p. 261 (img. 271), p. 471 (img. 481), pp. 415–416 (img. 425–426); ch. 20–24 and the notes searched for a rule that reads the birth with the year of age and with the month, day and hour, on the scan | [RD18](#rd18) | [58](#block-58) | verdicts.md | Read RD24: WB's rules for whose aspect matters, which part of life a sign rules, and whether one reckoning stands over another. |
+| <a id="rd25"></a>RD25 | Ch. 20's classes of texts and the deciding texts | WB vol. 1, pp. 242–250 (img. 252–260), the five classes and six summaries, «བཏང་གཅོད» among them (p. 245) and the *Lamp of the Magic of Deciding* (p. 248), on the scan; BDRC's catalogue for the titles | [RD11](#rd11) | [58](#block-58) | verdicts.md | Read RD25: ch. 20 on the classes of the reckoning's texts, and whether a deciding text survives. |
+| <a id="rd26"></a>RD26 | Mipham's notes on condensing | WB vol. 2, pp. 474–476 (img. 482–484), p. 490 (img. 498), p. 513 (img. 521) and the close of each of the notes' eight sections, on the scan | [RD18](#rd18) | [58](#block-58) | verdicts.md | Read RD26: what the notes say about condensing a reckoning to its essence and laying its verdicts. |
+| <a id="rd27"></a>RD27 | Dharmaśrī's *Moonbeams*: how the abridgement orders and closes a reckoning | DZ, BDRC I2533 img. 5–64 (open scans), whole; KD vol. 3's copy where it differs (lent scans) | [RD24](#rd24) | [58](#block-58) | verdicts.md | Read RD27: the *Moonbeams* for the order it gives a reckoning and how it closes it, against WB. |
+| <a id="rd28"></a>RD28 | Written reckonings: the practitioners' form | BDRC's catalogue and full-text search (bdrc_search.py) for written birth and year reckonings and manuals for writing them («རྩིས་ཡིག», «སྐྱེས་རྩིས», «ལོ་རྩིས», «ཀེག་རྩིས»); those found, on their scans: their parts and how they close. A witness below WB: followed only where WB is silent and the manual rests on it | [RD26](#rd26), [RD27](#rd27) | [58](#block-58) | verdicts.md | Read RD28: find written reckonings and their manuals, and record the form a conclusion takes in them. |
 
 ### Left open in built work
 
@@ -3712,11 +3725,37 @@ groups it shows (`tools/emulator/store_shots.py`).
   Checked: `BirthTest`, `CatalogTest`, `:app:testDebugUnitTest`, the
   emulator in English and Russian (sky and wind). Not built: the four on
   their own trigram (both prints «མོ་རྟ»), the other three lines, the graves.
+- **R4 Combining the readings — planned 2026-10-20** (block
+  [58](#block-58); [sources/verdicts.md](sources/verdicts.md)). The
+  owner (2026-10-20): the reckonings show each section with its pebbles
+  and reading, one by one; they must also be combined and general
+  conclusions drawn, for the birth, the marriage match and the others.
+  WB gives no single score for a reckoning, but a ladder every reckoning
+  climbs part of: the colour of a pebble; the verdict (ཁ་དམར, kha dmar)
+  of an aspect, counted, the more winning, a tie speckled; the verdicts
+  read as a set (all four alike; the birth's four mothers, sons and
+  friends; the dead's thirteenth point over the twelve); the set placed
+  in a life (whose aspect matters most, which part of life a sign rules,
+  each aspect's domain); and the whole: the birth by "the good results
+  greater and more" (vol. 1, p. 349) and its twenty-one kinds of child
+  (pp. 338–342), the match by the spouse of karma, kin or enmity and the
+  notes' "good and bad in general" (vol. 2, p. 524), the illness by the
+  element that is most (p. 435), each with its remedies. Most of it is
+  found in the etext only: RD18–RD28 read it on the scan. **To build**,
+  cut to what the readings confirm: a *Together* part atop each
+  reckoning, with each aspect's verdict, the set readings that hold,
+  whose aspect and which part of life, WB's rule for the whole with its
+  reasons named, and the remedies gathered as one *Remedy* row (Y1); no
+  number WB does not count; the sections below unchanged. First the
+  birth (RD19) and the match (RD21), then the year of age (RD20), the
+  others as they are built (H2 takes the illness's, RD22). **Done when**
+  as R2… above.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
   relatives, on [27](#block-27) (P1). [29](#block-29) (P2) and [32](#block-32) (H2) wait
-  on R1.
+  on R1. R4 is [58](#block-58), reading [RD18](#rd18)–[RD28](#rd28) and
+  waiting on [31](#block-31).
 - **Done when** (each item): its readings in the catalog with WB as their
   source; vectors from Dorje's charts where they exist; `CatalogTest`;
   SPEC; both languages on the emulator; the release build checked.
