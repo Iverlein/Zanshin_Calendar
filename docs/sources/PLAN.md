@@ -646,3 +646,11 @@ Searched and found wanting, so not to be repeated:
   大明日, 節徳日, 鬼宿日, 受死日, 十死日, 天火日, 地火日, 一粒万倍日,
   不成就日, 三隣亡, 十方暮, 八専, 犯土 or the 縁日 (contents, GR img. 3–4,
   36–37).
+- **The year of age gathered** (RD20, 2026-10-20): «སྡེ་བཞིའི་ཁ་དམར», the
+  four classes' verdicts, is in WB's etext (both volumes) only on vol. 1,
+  p. 385, and the notes do not gloss it. «བཟའ་ཚང་སྤྱི་རྡེལ», the household's
+  general pebbles, is only on vol. 1, p. 415 (img. 425, l. 25), with no
+  comment in the notes' section 2 (pp. 489–495). No single verdict for a
+  whole household beyond the leftover of the house's place (p. 386) and the
+  general readings of trigrams and mewa, in ch. 24 (pp. 385–416) or the
+  notes' section 2.

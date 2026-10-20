@@ -372,7 +372,8 @@ place and colour, not a sum.
 
 The questions this reading raises (the household's general pebbles, "other
 verdicts as each case fits", a son meeting under the notes' rule) are under
-*Open* in year-of-life.md's RD20 section, to be numbered once.
+open questions 168–170 ([open-questions.md](open-questions.md)),
+from year-of-life.md's RD20 section.
 
 ### Searched and not found
 

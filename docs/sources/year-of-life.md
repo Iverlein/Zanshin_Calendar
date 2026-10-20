@@ -2597,9 +2597,9 @@ classes' verdicts gathered" worked out obstacle by obstacle.
 
 ### Open
 
-- Question: WB vol. 1, p. 415 (img. 425, l. 25), «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»: which pebbles are "the household's general pebbles" (བཟའ་ཚང་སྤྱི་རྡེལ, bza' tshang spyi rdel), the round's of p. 385, all members' four verdicts together, or another count; and is "of white and black, black the more" a condition (where black are more, their rites matter most) or a statement (in a household black usually outnumber white)? The notes' section 2 does not comment on the line.
-- Question: WB vol. 1, p. 385, «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།», "lay other verdicts as each case fits": are the verdicts of the mewa, the trigram and the other obstacles laid besides the four aspects' and read on their own, or only folded into the four, as the next lines say ("in brief they come to four")?
-- Question: the notes' rule (vol. 2, p. 490), "even a mother meeting's three white count as one, an enemy meeting's two black are not counted separately": how is a son meeting (one white and one black) counted in a place, one of each or neither? The notes' example (p. 489) comes out the same either way.
+- Open question 168 ([open-questions.md](open-questions.md)): the household's general pebbles (p. 415).
+- Open question 169 ([open-questions.md](open-questions.md)): «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།», other verdicts as each case fits (p. 385).
+- Open question 170 ([open-questions.md](open-questions.md)): a son meeting under the notes' count (p. 490).
 - Doubt (scan): p. 489 (img. 497; the reprint img. 495), the table's first heading, the letter before ༦ under «བརྩི་བྱ་ལྕགས་འབྲུག»; the signs fit a man in his sixth year. And the la row's sectors cell, «དར་གུད་ གནམ་[…]», its last word not settled at the reprint's size.
 - Doubt (scan): p. 491 (img. 499; the reprint img. 497), the box «ཕྲེང་འདི་[…]་དོར།» above the fold's table, its middle word; and the footnote's last word «འགྲེམ་ལུགས», read so.
 

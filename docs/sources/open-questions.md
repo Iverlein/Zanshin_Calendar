@@ -2358,3 +2358,23 @@ the text, not about the app.
      together? The point waits on it.
      *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), etext only, not read on the scan): the notes, vol. 2, p. 525 (img. 533), sum the five counts for each spouse, compare who has more, and read the two together, odd disagree and even agree. RD21 reads it on the scan.*
 167. **The tie of a verdict (WB vol. 1, ch. 24, p. 381; vol. 2, p. 46; the notes, p. 490).** SPEC §5.9.1 lays no predictive pebble where an aspect's white and black are even, following p. 381's «གང་མང», whichever are more. Ch. 29 (vol. 2, p. 46, read on the Gser thang reprint) lays a speckled one (ཁྲ་བོ, khra bo) on a tie, and the notes on the obstacle reckoning (p. 490, img. 498, etext only) say «མཉམ་ན་ཁྲ་བོ», even, a speckled one, with "even a three counts as one" and "the enemy's two black are not counted apart". Does the year of age's tie lay a speckled pebble, and does each meeting count once whatever its colours? RD18.
+     *Narrowed 2026-10-20 ([year-of-life.md](year-of-life.md), RD20, the notes p. 490 read on the Gser thang reprint): the etext dropped «ནི་མ་འཕྲད་དཀར»; it is a **mother meeting's** three white that count as one. The notes' worked example (p. 489) has no tie, so it does not decide. RD18 reads the tie.*
+
+168. **The household's general pebbles (WB vol. 1, ch. 24, p. 415, img. 425, l. 25).** «གཞན་ཡང་བཟའ་ཚང་སྤྱི་རྡེལ་ནི། །དཀར་ནག་གཉིས་ལས་ནག་པོ་མང་། །དེ་ཡི་རིམ་གྲོ་ཤིན་ཏུ་གཅེས།»:
+     which pebbles are "the household's general pebbles" (བཟའ་ཚང་སྤྱི་རྡེལ,
+     bza' tshang spyi rdel): the round's of p. 385, all members' four
+     verdicts together, or another count? And is "of white and black,
+     black the more" a condition (where black are more, their rites
+     matter most) or a statement (in a household black usually outnumber
+     white)? The notes' section 2 does not comment on the line.
+     [year-of-life.md](year-of-life.md), *The year of age gathered* (RD20).
+169. **"Other verdicts as each case fits" (WB vol. 1, ch. 24, p. 385, img. 395).** «གཞན་ཡང་ཁ་དམར་ཅི་རིགས་གདགས།»:
+     are the verdicts of the mewa, the trigram and the other obstacles
+     laid besides the four aspects' and read on their own, or only folded
+     into the four, as the next lines say ("in brief they come to four")?
+     [year-of-life.md](year-of-life.md), *The year of age gathered* (RD20).
+170. **A son meeting under the notes' count (WB vol. 2, the notes, p. 490, img. 498).** "Even a mother meeting's three white count as one, an enemy meeting's two black are not counted separately":
+     how is a son meeting (one white and one black) counted in a place,
+     one of each or neither? The notes' example (p. 489) comes out the
+     same either way. [year-of-life.md](year-of-life.md), *The year of
+     age gathered* (RD20).
