@@ -2296,3 +2296,13 @@ where the reprint has «ཁ་སྤྲས»), coloured by p. 260's key pebbles 
 tie of vol. 2, p. 46 (above). Left out: the minister's white image
 «ལུང་པ་ཕུ་ཐུང་ཙམ་ཞིག་ནས། །སྐད་ནི་ལག་ངར་ཙམ་ཞིག་འདོན», and its black «བློན་པོའི་གྲལ་ནས་ཡར», whose sense is
 not plain; the hour's weapon, the time of birth not being kept.
+
+
+## The birth read whole: its sets, its twenty-one children, its close (RD19)
+
+Nothing read yet: RD19's passages, with the English beside them, go here.
+
+
+## The year of age gathered: the four classes and the household (RD20)
+
+Nothing read yet: RD20's passages, with the English beside them, go here.

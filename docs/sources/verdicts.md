@@ -274,3 +274,18 @@ practitioners' own form, below WB.
   «དཀར་མང» 338, 390, 407, 422; vol. 2, «ཁ་དམར» 22–23, 44–60, 71, 74, 79,
   94, 105, 142, 163–172, 428, 450–451, 468, 474–509, 517, 534–543;
   «དཀར་མང» 46–57, 137, 190, 277, 288, 294; «གང་མང» 497, 525.
+
+
+## The verdict pebble, chapter by chapter (RD18)
+
+Nothing read yet: RD18's passages, with the English beside them, go here.
+
+
+## The year of age gathered: the four classes and the household (RD20)
+
+Nothing read yet: RD20's passages, with the English beside them, go here.
+
+
+## The birth read whole: its sets, its twenty-one children, its close (RD19)
+
+Nothing read yet: RD19's passages, with the English beside them, go here.
