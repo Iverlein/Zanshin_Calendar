@@ -983,18 +983,8 @@ alone.
 
 ### Open
 
-- Question: In the year of age's verdict (WB vol. 1, p. 381; the notes,
-  vol. 2, p. 490), how does a son meeting, one white and one black,
-  count? The notes' own table (p. 489) lays a white deciding pebble on a
-  body with three white places and three son meetings, which it can only
-  do if the son meeting does not count black. Gyurme Dorje's chart 6.2
-  (p. 228) lays a speckled one on a destiny with three white places, two
-  black and one son meeting, which it can only do if the son meeting
-  counts black. Is this a difference between Mipham's reading and the
-  *Moonbeams*', or is one of the two tables in error?
-- Question: WB vol. 1, p. 380 (img. 390, l. 25) prints «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»;
-  is it «དཀར་ནག་ཟུང་དུ», "white and black as a pair", or does
-  "where white, as a pair" mean something else?
+- Open question 186 ([open-questions.md](open-questions.md)): how a son meeting counts, the notes' table against Dorje's chart.
+- Open question 187 ([open-questions.md](open-questions.md)): p. 380's «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར».
 - Doubt, not a question: Dorje's predictive column (○× on the vitality and
   the destiny) is RD18's reading of the page image. Whether he means one
   speckled pebble or a white and a black laid together, and how his text

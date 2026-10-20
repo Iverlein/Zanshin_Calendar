@@ -672,3 +672,8 @@ Searched and found wanting, so not to be repeated:
   (vol. 1, p. 333) all black (fetched twice): read it on the 1996 scan.
   On that reprint Yigdzin-1 reads ཟ as ཐ (ཟིན, ཟོན as ཐིན, ཐོན) and dropped
   three lines of p. 342.
+- **D16's worked examples** (O17, 2026-10-20): WB vol. 1, p. 380 (img. 390,
+  l. 25), on the 1996 scan at 4× and 9×, has no «ནག» after «དཀར» in the
+  son-meeting line: it reads «དཀར་ན་གཟུང». The notes' table (vol. 2, p. 489,
+  both prints) has no cell whose meeting is a breath-taking stage and no
+  row whose verdict turns on the womb alone.

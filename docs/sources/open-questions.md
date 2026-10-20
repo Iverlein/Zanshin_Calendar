@@ -2386,7 +2386,7 @@ the text, not about the app.
      white as one; Gyurme Dorje's chart 6.2 comes out of their rule only if
      a son's meeting counts black, and the notes on the dead put a mixed
      year with the speckled (vol. 2, p. 502). Question 170 asks the same of
-     the son's meeting. [verdicts.md](verdicts.md), *The verdict pebble,
+     the son's meeting. *Narrowed 2026-10-20 (O17, [verdicts.md](verdicts.md), "D16: the worked examples"): the notes' own table (p. 489) fits a son meeting counted white, left out, or one of each, not black; Gyurme Dorje's chart 6.2 fits black only; no one count fits both (question 186).* [verdicts.md](verdicts.md), *The verdict pebble,
      chapter by chapter* (RD18).
 172. **A speckled predictive pebble (WB vol. 1, ch. 24, pp. 381–385).** What
      does a speckled predictive pebble of the year of age foretell? WB's
@@ -2445,3 +2445,19 @@ the text, not about the app.
      Must every condition of a child hold for the birth to be that child, or
      do most of them make it? Pp. 338–340 and the notes give no count.
      [verdicts.md](verdicts.md), *The birth read whole* (RD19).
+186. **A son meeting in the year of age's verdict: the notes' table against Dorje's chart (WB vol. 2, p. 489; Gyurme Dorje, chart 6.2).**
+     In the year of age's verdict (WB vol. 1, p. 381; the notes, vol. 2, p.
+     490), how does a son meeting, one white and one black, count? The notes'
+     own table (p. 489) lays a white deciding pebble on a body with three
+     white places and three son meetings, which it can only do if the son
+     meeting does not count black. Gyurme Dorje's chart 6.2 (p. 228) lays a
+     speckled one on a destiny with three white places, two black and one son
+     meeting, which it can only do if the son meeting counts black. Is this a
+     difference between Mipham's reading and the *Moonbeams*', or is one of
+     the two tables in error? [verdicts.md](verdicts.md), *D16: the worked
+     examples* (O17).
+187. **«བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར» (WB vol. 1, ch. 24, p. 380, img. 390, l. 25).**
+     WB vol. 1, p. 380 (img. 390, l. 25) prints «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»;
+     is it «དཀར་ནག་ཟུང་དུ», "white and black as a pair", or does "where
+     white, as a pair" mean something else? [verdicts.md](verdicts.md), *D16:
+     the worked examples* (O17).
