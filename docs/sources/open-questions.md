@@ -2325,6 +2325,7 @@ the text, not about the app.
      three in concord? And the body-cut wheel names the turtle's body
      parts with numbers («མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)»), not pairs:
      which pairs does it hold? The hidden waits on it (ROADMAP R3c).
+     *Answered 2026-10-21 (O16, [marriage.md](marriage.md), *Open questions 161–165 (O16)*): four up is the birth mewa less three, four down plus three, the body the birth mewa (WB p. 255's fire hare 4, 1, 7; the *Moonbeams*' wood rat; the notes, p. 536); the luck is the mewa of the triad's wind-horse year (p. 254) in the same sixty, by WB's example its birth mewa, by the *Moonbeams* its life-force mewa (question 234); the notes' drawing (vol. 2, p. 524) pairs the body cut li–khon, zon–dwa, gin–zin, kham–khen, and p. 358's ༦ and ༥ for the left side and leg stand one place off (question 233).*
 162. **«དཱ་ཟླ» in raising the child (WB vol. 1, ch. 22, p. 348).** «དུར་ཞུགས་ཕ་ཡི་དཱ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དཱ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དཱ་ཟླ་ཡིན།»
      (Yigdzin-1, not read on the scan): the readings say the month "bears
      hard" on the father, the mother, the child, by the parallel «བུས་པ་རང་ལ་ངན་པ».
@@ -2332,6 +2333,7 @@ the text, not about the app.
      *Scan 2026-10-19: the Gser thang reprint (I3CN5028, img. 343, p. 348, l. 1)
      prints ད with a subscript in all three «…ཡི་དཱ་ཟླ་ཡིན», a wedge unlike the ra
      of «གྲོ» and «གྲུ» on the same page: «དཱ» rather than «དྲ». Its meaning stays open.*
+     *Answered 2026-10-21 (O16, [year-of-life.md](year-of-life.md), *Open questions 161–165 (O16)*): on the Gser thang scan the letter is the subscript wa of the trigram dwa on the same page; «དྭ་ཟླ», the orphaning month (WB's «དྭ་བོ», «དྭ་ཕྲུག»; the notes, pp. 488–489; BDRC's etext «dwa zla»). Question 236.*
 163. **Revatī in p. 348's mansions (WB vol. 1, ch. 22).** «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་།» puts
      Revatī (ནམ་གྲུ) among the very bad mansions for a birth, while Revatī's own
      verse (mansion-verses.md) makes it one of the four accomplishing
@@ -2341,6 +2343,7 @@ the text, not about the app.
      *Scan 2026-10-19: the Gser thang reprint (I3CN5028, img. 343, p. 348, para. 3)
      reads «ནག་པ་ས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །…འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་»
      as Yigdzin-1 did: ནམ་གྲུ is in the print. Which four are meant stays open.*
+     *Answered as far as the sources go, 2026-10-21 (O16, [year-of-life.md](year-of-life.md), *Open questions 161–165 (O16)*): the four are the Chinese saying's accomplishing mansions, which WB's mansion verses name: Puṣya, Viśākhā, Uttarāṣāḍhā and Revatī; Revatī stands in p. 348 twice, and no source decides between the two lines (question 237).*
 164. **The moment's trigram and mewa (WB vol. 2, ch. 30, pp. 156, 162).** The day's
      length divided by eight for the trigram, by nine for the mewa, each
      counted "from the one that rises at dawn on that date": in which
@@ -2349,10 +2352,12 @@ the text, not about the app.
      or sunrise, and is p. 162's fixed three-quarter hour per trigram
      meant instead of the day's length? The reckoning of the moment waits
      on it.
+     *Answered 2026-10-21 (O16, [reckonings.md](reckonings.md), *Open questions 161–165 (O16)*): the notes, p. 535, and the *Moonbeams*: the date's trigram starts by the month's triad (li, zin, dwa, kham) and runs forward li–khon–dwa, the date's mewa starts 1, 4, 7 by the month's place in its season and runs up, one a date, as the thirty dates require (the direction by arithmetic, not in words); from dawn (the hare) the day's and the night's length divided by eight and nine, p. 162's spans being the rough form. Questions 238, 239.*
 165. **The match's point 10, the birth months against each other (WB vol. 1, ch. 23, p. 360).** «བཅུ་པ་སྐྱེས་པའི་ཟླ་བ་དང་། །ཉི་མ་དུས་ཚོད་དགྲ་དུར་དང་། །བདུན་ཟུར་བཞི་གཤེད་ངན་མེད་པའི། །མཐུན་ན་བསོད་ནམས་ཆེ་བ་དང་།»:
      the spouses' birth month, day and hour agree when there is no enemy,
      grave, seventh or four-executioner between them. Which relations of
      two animals are meant by grave and four-executioner here?
+     *Answered 2026-10-21 (O16, [marriage.md](marriage.md), *Open questions 161–165 (O16)*): four-executioner is three places either way (p. 235: the mouse's hare and bird), grave the tomb of the life-force element (p. 258), its seventh the small grave, taken mutually between the spouses' months, days and hours (the notes, pp. 525, 531). Question 235.*
 166. **Answered 2026-10-20 (RD21, [verdicts.md](verdicts.md), *Point 7 counted*). The match's point 7, the siblings' number (WB vol. 1, ch. 23, p. 359).** «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །ཤིང་གཅིག་ས་གཉིས་ཆུ་ལ་གསུམ། །མེ་བཞི་ལྕགས་ལ་རྡེའུ་ལྔ། །རྡེའུ་ཟུང་མཐུན་ཡ་མི་མཐུན། །ཕོ་མོ་རྡེའུ་གང་མང་རྒྱལ།»:
      is the even or odd count each spouse's own total, or the two
      together? The point waits on it.
@@ -2754,3 +2759,49 @@ the text, not about the app.
      What does the phrase «བླངས་ལན་པའི» say of the breath taken?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+233. **The turtle's left side and left leg on p. 358 (WB vol. 1, p. 358).**
+     The 1996 print's p. 358 numbers the turtle's left side ༦ and left
+     leg ༥, where the square and the notes' drawing give 7 and 6; do the
+     blocks (the Taikhang print I5877 img. 485, the Zhol print WBZ img.
+     468) carve the same digits? Neither was served on 2026-10-21 (BDRC
+     answered with empty images and 503). [marriage.md](marriage.md),
+     "Open questions 161–165" (O16).
+234. **The luck's mewa: the birth mewa or the life force's (WB vol. 1, p. 255; the *Moonbeams*).**
+     WB's p. 255 sets the luck's mewa on the birth mewa of the wind-
+     horse year, the *Moonbeams* on its life-force mewa, and Dpal bsdus
+     says both ways exist; WB counts above the *Moonbeams*, but its rule
+     rests on one example. Does a reader of the tradition take WB's
+     example as the rule, and is the wind-horse year the one within the
+     person's own sixty, as both examples have it?
+     [marriage.md](marriage.md), "Open questions 161–165" (O16).
+235. **«དགྲ་དུར» in point 10 (WB vol. 1, p. 360).**
+     Is «དགྲ་དུར» two relations, enemy and grave (the notes' gloss names
+     enemy and the seventh, «ཕན་ཚུན་དགྲ་དང་བདུན་ཟུར་སོགས»), or one, the
+     enemy's grave, as WB writes «སྤར་ཁ་དགྲ་དུར» (vol. 2, p. 98) and the
+     notes «སྲོག་གི་དགྲ་དུར» (pp. 480, 488)? [marriage.md](marriage.md),
+     "Open questions 161–165" (O16).
+236. **«ཕ་ཡི་དྭ་ཟླས་མ་འཆི» (the notes, vol. 2, p. 488).**
+     In the notes' «ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།», is «མ»
+     the mother ("by the father's orphaning month the mother dies") or
+     the negative ("[the child] does not die"), and who are "both" in
+     the child's own month? [year-of-life.md](year-of-life.md), "Open
+     questions 161–165" (O16).
+237. **A child born on Revatī (WB vol. 1, p. 348).**
+     P. 348 puts Revatī among the very bad and among the four
+     accomplishing mansions, good for anything. Which line rules for a
+     birth, and is the four accomplishing a general good that the
+     birth's own list of the very bad overrides? [year-of-life.md](year-
+     of-life.md), "Open questions 161–165" (O16).
+238. **The moment's dawn (WB vol. 2, ch. 30; the notes, p. 535).**
+     The day divided in eight and nine is WB's day's length, the daytime
+     equal to the night at the equinox, and the count starts at
+     «ནམ་ལངས»; is that dawn the start of the hare hour at a fixed clock
+     time, or the start of the daytime the length measures (sunrise),
+     when the two differ? [reckonings.md](reckonings.md), "Open
+     questions 161–165" (O16).
+239. **The moment's direction within the day (the notes, p. 535; the *Moonbeams*).**
+     Within the day, do the eight trigrams and nine mewa run on in the
+     same direction as from date to date (forward, and up)? Neither the
+     notes nor the *Moonbeams* says, beyond «རིམ་པར་དེད» and
+     «ལུགས་འབྱུང». [reckonings.md](reckonings.md), "Open questions
+     161–165" (O16).

@@ -3123,15 +3123,8 @@ clan's grave or enemy mansion and the like.
 
 ### Open
 
-- Question: In the notes' «ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།» (vol. 2, p. 488), is
-  «མ» the mother ("by the father's orphaning month the mother dies") or
-  the negative ("[the child] does not die"), and who are "both" in the
-  child's own month?
-- Question: A child born on Revatī: p. 348 puts it among the very bad and
-  among the four accomplishing mansions, good for anything. Which line
-  rules for a birth, and is the four accomplishing a general good that
-  the birth's own list of the very bad overrides?
-
+- Open question 236 ([open-questions.md](open-questions.md)): «ཕ་ཡི་དྭ་ཟླས་མ་འཆི».
+- Open question 237 ([open-questions.md](open-questions.md)): a child born on Revatī.
 ### Searched and not found
 
 - «དྭ་ཟླ» or «དཱ་ཟླ» elsewhere: WB's etext of both volumes, the *Moonbeams*

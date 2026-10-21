@@ -765,3 +765,21 @@ Searched and found wanting, so not to be repeated:
   example of the illness identified (times, trigrams and the five
   pebbles laid) in ch. 25 or the notes: «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ» (p. 497)
   is a split only.
+- **Open questions 161–165** (O16, 2026-10-21): a worked example of the
+  luck's mewa beyond WB's fire hare (p. 255) and the *Moonbeams*' wood
+  rat: WB's etext (both volumes) for «ཀླུང་རྟའི་སྨེ», «ཀླུང་སྨེ», «ཀླུང་གི་སྨེ»
+  with a colour, none but p. 255 (the model almanac's tables, pp.
+  105–125, give the wind-horse's element, not its mewa); the notes for
+  «ཀླུང་རྟའི་སྨེ», «སྨེ་ཁྲིད», «མཐུན་གསུམ» with a mewa, none. «དགྲ་དུར» used for
+  trigrams and aspects (vol. 1, pp. 306, 313–314, 331, 347; vol. 2, pp. 98,
+  129–132; the notes, pp. 478, 480, 488, 498, 505) and never explained.
+  «དྭ་ཟླ» or «དཱ་ཟླ»: WB's etext, the *Moonbeams* (KD vol. 3), Dpal bsdus's
+  *'Byung rtsis dpyad don rmad byung*, the *Removing the Tarnish* (I5876)
+  and the Bhutan collection (I1KG11905), only p. 348 and the notes,
+  pp. 488–489; BDRC's full-text search («དྭ་ཟླ», «དཱ་ཟླ», «ཕ་ཡི་དྭ་ཟླ»,
+  «དྭ་ཟླ་ཡིན»), WB's prints and copies only. WB's four «འགྲུབ་སྐར» named
+  together: none in the etext («ས་ག་ཆུ་སྨད», «ཆུ་སྨད་ནམ་གྲུ», «འགྲུབ་སྐར་བཞི»,
+  «གྲུབ་སྐར་བཞི» only p. 348 and vol. 2, p. 329's classes); BDRC,
+  «བརྟན་གྲུབ་སྐར», no hit. A day's mewa that turns at the solstices in WB,
+  the notes or the *Moonbeams*: none («ཉི་ལྡོག» with «སྨེ» in vol. 2, ch. 30,
+  and the notes' section 8, none).

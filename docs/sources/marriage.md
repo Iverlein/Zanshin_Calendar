@@ -1399,21 +1399,9 @@ iron, mouse and pig water, the rest earth (the four aspects,
 
 ### Open
 
-- Question: The 1996 print's p. 358 numbers the turtle's left side ༦ and
-  left leg ༥, where the square and the notes' drawing give 7 and 6; do
-  the blocks (the Taikhang print I5877 img. 485, the Zhol print WBZ
-  img. 468) carve the same digits? Neither was served on 2026-10-21
-  (BDRC answered with empty images and 503).
-- Question: WB's p. 255 sets the luck's mewa on the birth mewa of the
-  wind-horse year, the *Moonbeams* on its life-force mewa, and Dpal bsdus
-  says both ways exist; WB counts above the *Moonbeams*, but its rule
-  rests on one example. Does a reader of the tradition take WB's example
-  as the rule, and is the wind-horse year the one within the person's
-  own sixty, as both examples have it?
-- Question: In point 10, is «དགྲ་དུར» two relations, enemy and grave (the
-  notes' gloss names enemy and the seventh, «ཕན་ཚུན་དགྲ་དང་བདུན་ཟུར་སོགས»), or one,
-  the enemy's grave, as WB writes «སྤར་ཁ་དགྲ་དུར» (vol. 2, p. 98) and the notes
-  «སྲོག་གི་དགྲ་དུར» (pp. 480, 488)?
+- Open question 233 ([open-questions.md](open-questions.md)): the turtle's ༦ and ༥ on p. 358.
+- Open question 234 ([open-questions.md](open-questions.md)): the luck's mewa.
+- Open question 235 ([open-questions.md](open-questions.md)): «དགྲ་དུར» in point 10.
 - Doubt: the notes put the man's 5 as 2 and the woman's 5 as 7 under the
   body; WB's line on p. 357 names no aspect, and the other aspects'
   mewa can be 5 too (the life force of birth mewa 8).

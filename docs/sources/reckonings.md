@@ -2224,14 +2224,8 @@ daytime of WB's table, equal to the night at the equinox.
 
 ### Open
 
-- Question: The day divided in eight and nine is WB's day's length, the
-  daytime equal to the night at the equinox, and the count starts at
-  «ནམ་ལངས»; is that dawn the start of the hare hour at a fixed clock time, or
-  the start of the daytime the length measures (sunrise), when the two
-  differ?
-- Question: Within the day, do the eight trigrams and nine mewa run on in
-  the same direction as from date to date (forward, and up)? Neither the
-  notes nor the *Moonbeams* says, beyond «རིམ་པར་དེད» and «ལུགས་འབྱུང».
+- Open question 238 ([open-questions.md](open-questions.md)): the moment's dawn.
+- Open question 239 ([open-questions.md](open-questions.md)): the moment's direction within the day.
 - Doubt: the notes' line on the trigram's parts has a run of dots in the
   print after «སྤར་ཁ་རེ» (img. 541, l. 15); the sentence closes «འཆར», rises.
 
