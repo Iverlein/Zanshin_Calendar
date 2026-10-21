@@ -2705,7 +2705,517 @@ set up (two of the same animal, or the same element in year and aspects),
 
 ## Dharmaśrī's *Moonbeams*: how the abridgement orders and closes a reckoning (RD27)
 
-Nothing read yet: RD27's passages, with the English beside them, go here.
+Read 2026-10-21 in the *Moonbeams* (ཟླ་བའི་འོད་ཟེར, zla ba'i 'od zer),
+Lochen Dharmaśrī's (ལོ་ཆེན་དྷརྨ་ཤྲཱི, lo chen dharma shrI) *'Byung rtsis
+man ngag zla ba'i 'od zer*, on BDRC's open scan of his *Gsung 'bum*,
+vol. 5 (DZ, I2533, img. 005–064, the whole text: f. 1a, img. 005, the
+title; f. 30a, img. 063, the colophon; img. 064 blank; folio N a = img.
+2N + 3). Yigdzin-1 over every image; MITRA as witness over the quoted
+pages (img. 007, 010, 029, 034, 036–045, 048–063), 96–100 % of
+syllables agreed, every flag in a quoted line read on the scan (f. 29a's
+«རྗེས», below; the rest Yigdzin-1's slips, the scan as MITRA: f. 22b
+«དབང» for «བཅང», f. 28b «སྨེ» for «སྨྲེ»); every quoted
+line read on the scan in half-page crops at native size (4800 px), the
+doubtful syllables at 2–2.5×. KD vol. 3's etext (VEIE0OPI2F246A26_I4717,
+pp. 506–536) found the passages; KD's own print was read on archive.org's
+lent scans (`bdrc-W28845-2`, leaves 505, 517, 520, 525, 528, 529 = KD
+pp. 486, 498, 501, 506, 509, 510; leaf = printed page + 19, etext page =
+printed page + 20) where its chapter headings and closes differ. WB's
+account of the system the *Moonbeams* abridges (vol. 1, pp. 248–249) was
+read on the Gser thang (གསེར་ཐང, gser thang) reprint (I3CN5028 img.
+243–244, image = page − 5), the 1996 edition's Yigdzin-1 reading
+(`wb/vol1/yigdzin/img258.txt`, `img259.txt`) beside it.
+
+The words, named once here: the reckoning by the elements (འབྱུང་རྩིས,
+'byung rtsis); a starting point (སྐོར་འགོ, skor 'go); the base of a
+reckoning (རྩིས་གཞི, rtsis gzhi); a pebble (རྡེའུ, rde'u, short རྡེལ,
+rdel); the deciding (སྟངས་གཅོད, stangs gcod, and the past form སྟངས་བཅད,
+stangs bcad); the verdict (ཁ་དམར, kha dmar); the life force (སྲོག,
+srog), the body (ལུས, lus), the power (དབང་ཐང, dbang thang), the luck
+(ཀླུང་རྟ, klung rta), the mewa (སྨེ་བ, sme ba), the trigram (སྤར་ཁ, spar
+kha); rise and decline, the twelve stages (དར་གུད, dar gud); the
+harsh pebbles (རྩུབ་རྡེལ, rtsub rdel); the commentary (འགྲེལ་པ, 'grel pa);
+the root text (རྩ་བ, rtsa ba); the rites (རིམ་གྲོ, rim gro); the ritual
+offering (གཏོ, gto).
+
+### 1. The plan of the whole (f. 1b–2a, f. 3b, f. 13a)
+
+The verse that names the work says what it is (f. 1b, img. 006, l. 6–7,
+on the scan):
+
+> འབྱུང་བ་རྩིས་ཀྱི་མན་ངག་གནད། །གཅེས་བཏུས་ཟླ་བའི་འོད་ཟེར་སྤྲོ། །དེ་ལ་སྤྱི་ཡི་རྣམ་བཞག་དང་། །བྱེ་བྲག་སོ་སོའི་བསྐོར་འགོ་སྟེ། །རྣམ་པ་གཉིས་ལས་དང་པོ་ནི། །
+
+"I set out the *Moonbeams*, the essential points of the instructions of
+the element reckoning, picked out as precious. It has two parts, the
+general arrangement and the particular starting points; the first …"
+(KD's print, p. 486, leaf 505, adds a heading here, «ལེའུ་དང་པོ། སྐོར་འགོ་སྤྱིའི་རྣམ་གཞག་བསྟན་པ།»,
+"Chapter one: the general arrangement of the starting points"; DZ has
+no chapter headings, only the closing line of each chapter.)
+
+The general part is the toolkit, in a fixed order (f. 3b, img. 010,
+l. 4, on the scan): «རྩི་ཐབས་བསྡུ་ན་རྣམ་པ་དགུ། །ཁམས་ལོ་སྨེ་བ་སྤར་ཁ་དང་། །ཟླ་ཞག་དུས་ཚོད་གཟའ་སྐར་རོ།», the means of
+reckoning, gathered, are nine: the element, the year, the mewa, the
+trigram, the month, the day, the hour, the planet and the mansion (WB's
+ch. 21 names the same nine and puts the month, day and hour before the
+mewa and trigram, vol. 1, p. 253, [reckonings.md](reckonings.md)); then
+(f. 11a, img. 025, l. 6, on the scan) «དེ་རྗེས་དར་གུད་དགུ་དུར་གསུམ།», after these, the stages of
+rise and decline, the nine-multiples (དགུ་མིག, dgu mig) and the tombs
+(དུར་མིག, dur mig), three.
+
+The general part closes and the particular part is listed (f. 13a,
+img. 029, l. 4–6, on the scan):
+
+> འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །བསྐོར་འགོ་སྤྱིའི་རྣམ་བཞག་བསྟན་པའི་ལེའུ་སྟེ་དང་པོའོ། །བྱེ་བྲག་སོ་སོའི་བསྐོར་འགོ་ལའང་། །རྒྱ་བོད་བསྐོར་འགོ་སུམ་ཅུ་དང་། །ནམ་ཞག་གཏན་དང་མཐུན་སྦྱོར་གཉེན། །ལོ་གཅིག་ཀེག་དང་ནད་རྩིས་དང་། །གཤིན་གྱི་རྩིས་དང་དྲུག་གིས་བསྡུས། །
+
+"From the *Moonbeams*: the chapter teaching the general arrangement of
+the starting points, the first. The particular starting points are
+gathered in six: the thirty Chinese and Tibetan starting points, the
+fixed reckoning for life (ནམ་ཞག་གཏན, nam zhag gtan; KD «ནམ་གཞག»), the
+marriage match (མཐུན་སྦྱོར་གཉེན, mthun sbyor gnyen), the one year's
+obstacle (ལོ་གཅིག་ཀེག, lo gcig keg), the illness reckoning (ནད་རྩིས, nad
+rtsis) and the reckoning for the dead (གཤིན་རྩིས, gshin rtsis)." These
+are chapters 2–7, in this order. The thirty come first because they are
+"the essence of all the *gtsug lag*" (f. 13a, l. 6: «དང་པོ་གཙུག་ལག་ཀུན་གྱི་བཅུད།»).
+
+### 2. Each reckoning in the same order
+
+Every chapter is put together the same way, and that is its order of work:
+
+1. **The size first.** Each chapter opens by counting its pebbles part by
+   part, and the list is the order of laying.
+2. **The ground.** Where the reckoning needs one, its base is identified
+   before any pebble (the thirty's fifteen Chinese and fifteen Tibetan
+   bases; the illness reckoning's base); for the birth, a clean cloth and
+   an undistracted mind; for the dead, the living's cloth on the right and
+   the dead's black cloth on the left.
+3. **The pebbles, root pebbles first**, then the pebbles of each aspect
+   fought against them, then the stages, then the deciding pebbles; the
+   harsh pebbles and the small obstacles after.
+4. **The verdict laid by counting** white and black (ch. 2: by the
+   commentary; ch. 3: good one white, bad black, the twenty and the four
+   stages laid "in front of the key pebble"; ch. 5: four verdicts; ch. 6:
+   each starting point decided, then gathered into seven; ch. 7: twelve
+   verdicts, even a half).
+5. **The other masters' ways after the main one**, each named: Martön
+   (མར་སྟོན, mar ston), Jangtön Padma (བྱང་སྟོན་པདྨ, byang ston padma),
+   Drogtön Ralpa (འབྲོག་སྟོན་རལ་པ, 'brog ston ral pa), the *Hidden Finger-Pointing*
+   (སྦས་པ་མཛུབ་ཚུགས, sbas pa mdzub tshugs), Khyung lha Zhönnu Sönam (ཁྱུང་ལྷ་གཞོན་ནུ་བསོད་ནམས,
+   khyung lha gzhon nu bsod nams).
+6. **The results sent elsewhere.** No chapter reads its pebbles: each
+   names the commentary or work where the readings stand.
+7. **The close: remedy.** Each chapter ends by saying what the reckoning
+   is for: to correct the faults, cure and restore, clear the demons,
+   help the dead and the living.
+
+| Ch. | Reckoning | Its size (opening) | Its verdict | Results in | Its last word |
+| --- | --- | --- | --- | --- | --- |
+| 2 | the thirty starting points (f. 13a–15b, img. 029–034) | of three sizes, the full one, eight pebbles at each starting point, 240 (f. 13b, img. 030, l. 1) | good or bad settled "with the commentary *The Magic Sieve*" | the same | the verdict (below) |
+| 3 | the fixed reckoning, the birth (f. 15b–19b, img. 034–042) | 4 precious, 1 key, 2 indispensable, 5 unchanging luck pebbles, 100 of the hundred, 24 deciding: 136 (f. 15b, img. 034, l. 2–4) | the hundred counted white and black, good one white, bad black, the twenty with the four stages before the key pebble (f. 16b, img. 036, l. 3–5) | the root's commentary, the twenty; *Dmar chung*, *Stag mgo*, *Sgang sgril* and others | "settle them without error" |
+| 4 | the marriage match (f. 19b–21a, img. 042–045) | 13 pebbles (f. 19b, img. 042, l. 4–5) | "decided by the good and bad results of the commentary's fourth chapter" (f. 20b, img. 044, l. 4–5) | the commentary, ch. 4; for the road, the *Precious Road* and ch. 5 | "look in detail and settle" |
+| 5 | the one year's obstacle, the year of age (f. 21a–24a, img. 045–051) | 6 root, 24 deciding, 4 verdict, 7 harsh, 4 small mewa obstacles, 2 nine-multiple and tomb: 47 (f. 21a, img. 045, l. 5–6) | four verdicts, "three white, two white and so on" (O18 above); or five general totals | the root's commentary, the twenty; *Dmar chung*, *Stag mgo*, *Sgang sgril*; the *Black Drop*; the *Heart Nail of the Hidden* | "settle in detail, to clear the year's great faults" |
+| 6 | children and the sick (f. 24a–26a, img. 051–055) | 19 pebbles (f. 24a, img. 051, l. 5); the illness reckoning's fifteen starting points and a sixteenth, four pebbles each | each starting point counted white and black and decided, the sixteen gathered into seven great reckonings, in five sets of five for man, woman and child (f. 25b, img. 054, l. 3–5) | the root's commentary, the twenty; "the great texts" | "decide each verdict by its own commentary; cure, restore, clear" |
+| 7 | the dead (f. 26a–30a, img. 055–063) | three parts: the living household 20 (f. 26a, img. 055, l. 6), the la pebbles, the dead's 199 in twelve sections (f. 27a, img. 057, l. 6) | general and particular verdicts for the living; for the dead twelve verdicts, even a half, then each verdict read by its aspect; the twelfth section the rite | the root's own commentary and the *zang kyam* instructions | "with a mind to help the dead and the living, correct" |
+
+**Ch. 2, the close** (f. 15a–15b, img. 033–034, read on the scan; the
+laying of the pebbles before it is in [reckonings.md](reckonings.md),
+*Settled, 2026-10-19*; f. 15b, img. 034, l. 1–2):
+
+> བོར་ལ་བཟང་ངན་ཁ་དམར་ནི། །འགྲེལ་པ་འཕྲུལ་གྱི་མིག་ཚགས་ཀྱིས། །ལེགས་པར་གཏན་ལ་དབབ་པར་བྱ། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །རྒྱ་བོད་ཀྱི་བསྐོར་འགོ་སུམ་ཅུའི་རྩིས་ཀྱི་ལེའུ་སྟེ་གཉིས་པའོ། །
+
+"Having laid them, settle the good or bad verdict well with the
+commentary *The Magic Sieve* (འཕྲུལ་གྱི་མིག་ཚགས, 'phrul gyi mig tshags).
+From the *Moonbeams*: the chapter of the reckoning of the thirty Chinese
+and Tibetan starting points, the second."
+
+**Ch. 3, the order** (f. 15b, img. 034, l. 2–6, on the scan):
+
+> ནམ་ཞག་གཏན་གྱི་མཐའ་རྩིས་ལ། །གཅེས་པའི་རྡེལ་བཞི་དགོས་རྡེ་གཅིག །མེད་དུ་མི་རུང་རྡེའུ་གཉིས། །མི་འགྱུར་ཀླུང་གི་རྡེའུ་ལྔ། །བརྒྱ་འདྲེའི་རྡེའུ་བརྒྱ་ཕྲག་གཅིག །སྟངས་གཅོད་རྡེའུ་ཉི་ཤུ་བཞི། །སྤྱི་བསྡུས་བརྒྱ་དང་སུམ་ཅུ་དྲུག །དེ་ཡང་རྣམ་ཕྱིང་གཙང་མའི་སྟེང་། །མ་ཡེངས་སེམས་ཀྱིས་རྡེའུ་བོར། །ཐོག་མར་གཅེས་པའི་རྡེལ་བཞི་ནི། །
+
+"For the fixed reckoning for life: four precious pebbles, one key pebble
+(this print «དགོས་རྡེ», read «སྒོས་རྡེ» in l. 6 and in KD), two that cannot be
+done without, five pebbles of the unchanging luck, one hundred pebbles of
+the hundred, twenty-four deciding pebbles: 136 in all. Lay the pebbles
+on a clean cloth with an undistracted mind. First the four precious
+pebbles …"
+
+**Ch. 3, the verdict** (f. 16b, img. 036, l. 2–6, on the scan):
+
+> …སྲོག་ལུས་དབང་ཀླུང་བཞི་པོ་ཡི། །རང་མ་བུ་གྲོགས་དཀར་ན་བཟང་། །དགྲ་རྡེ་བཞི་པོ་ནག་ན་དཀར། །བུད་མེད་ལུས་ཀྱི་དགྲ་གྲོགས་བཟློག །དེ་ལྟར་ངེས་པར་བྱས་ནས་ཀྱང་། །རྡེའུ་ཉེར་བཞིས་སྟངས་གཅོད་དོ། །དེ་ཡང་བརྒྱ་འདྲེའི་རྡེའུ་ནི། །དཀར་ནག་སོ་སོར་བགྲངས་བྱས་ལ། །བཟང་ལ་དཀར་གཅིག་ངན་ལ་ནག །རྡེའུ་ཉི་ཤུ་དེ་ཡི་སྟེང་། །སྲོག་ལུས་དབང་ཐང་ཀླུང་རྟ་བཞིའི། །དར་གུད་རིམ་བཞིན་གང་སྐྱེས་ཀྱི། །ལོ་ཟླ་ཞག་དུས་སྟེང་ཕབས་ནས། །བརྩིས་ཏེ་བཟང་དྲུག་རྡེལ་དཀར་རེ། །ངན་དྲུག་ནག་སྟེ་རྡེལ་བཞི་པོ། །སྒོས་རྡེའི་མདུན་དུ་བོར་བར་བྱ། །དེ་ཡིས་སྟངས་གཅོད་ཉེར་བཞིར་འགྱུར། །འདི་ནི་མར་སྟོན་མཁས་པའི་བཞེད། །ཁྱུང་ནག་ལ་བརྒྱུད་རང་ལུགས་ཏེ། །གསལ་སྒྲོན་རྩ་བའི་དགོངས་པ་ནི། །འཁྲུལ་མེད་ཡིན་ཕྱིར་གཅེས་པར་ཟུངས། །
+
+"… of the four, life force, body, power and luck: own, mother, son and
+friend are good if white; the four of the enemy count white if black; for
+a woman's body enemy and friend are reversed. Having made that certain,
+decide with twenty-four pebbles. The hundred pebbles are counted white
+and black, each group apart: good, one white; bad, black. On those
+twenty, the stages of the four, life force, body, power and luck, laid
+in order on the year, month, day and hour of birth and reckoned: the six
+good a white pebble each, the six bad black; lay these four in front of
+the key pebble, and so the deciding pebbles become twenty-four. This is
+the learned Martön's view, our own way, which came down through Khyung
+and Nag: hold it precious, since it is the unerring intent of the root
+text, the *Clear Lamp* (གསལ་སྒྲོན, gsal sgron)." Then Jangtön Padma's way
+(twenty-one deciding pebbles, the stages one pebble "in front if risen,
+behind if declined") and Drogtön Ralpa's (twenty-five stage pebbles, "counting white and black, gathered into
+one pebble by whichever is more", «བོར་ལ་དཀར་ནག་བགྲངས་པ་ཡིས། །གང་མང་རྡེའུ་གཅིག་ཏུ་སྡུད།», f. 17a,
+img. 037, l. 4–5, on the scan, the old Chinese reckoning's way), then,
+by Yigdzin-1 and MITRA (f. 17b–19b, img. 038–042, not read on the scan
+but for f. 19b), the 125 or 150 stage pebbles, the children of the gods,
+glory, demons and māras, the *Hidden Finger-Pointing*'s nine pebbles,
+the four planets' luck, the outer, middle and inner planets
+(«…གཟའ་གཞན་སྐྱེས་ཞེས་ཁ་དམར་གདགས།», f. 18a, img. 041, l. 1–2, a verdict for
+these), the forefathers' luck.
+
+**Ch. 3, the close** (f. 19b, img. 042, l. 1–4, on the scan):
+
+> …ནག་འཐུས་ལྕགས་བཞི་མེ་བརྒྱད་སོགས། །ལོ་ངན་རྣམས་ལ་སྐྱེས་པ་དང་། །སྤར་སྨེའི་བསྡོམས་རྩིས་ལ་སོགས་པ། །ཞིབ་མོའི་བློ་ཡིས་ལེགས་བརྟགས་ནས། །དེ་རྣམས་འབྲས་བུའི་རིམ་པ་ནི། །རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ་དང་། །དམར་ཆུང་སྟག་མགོ་སྒང་སྒྲིལ་སོགས། །མཁས་པའི་གཞུང་ལྟར་ཕྱིས་འབྱུང་བའི། །སྔ་རྟགས་ཚང་གི་མངོན་ཤེས་རྣམས། །འཁྲུལ་པ་མེད་པར་གཏན་ལ་དབབ། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །མཐར་རྩིས་བཤད་པའི་ལེའུ་སྟེ་གསུམ་པའོ། །
+
+"… births in the bad years, the *nag 'thus*, the four iron, the eight
+fire and the rest, and the summed reckoning of trigram and mewa: having
+examined them well with a fine mind, the course of their results, the
+full foreknowledge of the signs of what will come, as the root's
+commentary, the twenty, and *Dmar chung* (དམར་ཆུང), *Stag mgo* (སྟག་མགོ),
+*Sgang sgril* (སྒང་སྒྲིལ) and the other works of the learned give it,
+settle without error. From the *Moonbeams*: the chapter on the reckoning
+for life (this print «མཐར་རྩིས», KD «མཐའ་རྩིས»), the third." The names
+are kept as titles: *Dmar chung* and *Stag mgo* are not identified;
+*Sgang sgril* is Khyung's work by WB (vol. 1, p. 258, Yigdzin-1, «ཁྱུང་གིས་མཛད་པའི་སྒང་སྒྲིལ», not read on the scan here).
+
+**Ch. 4, the size and the close** (f. 19b, img. 042, l. 4–5; f. 20a,
+img. 043, l. 3–6; f. 20b, img. 044, l. 3–6; f. 21a, img. 045, l. 2–5, on
+the scan):
+
+> དེ་ནས་མཐུན་སྦྱོར་གཉེན་རྩིས་ལ། །སྲོག་ལུས་དབང་ཐང་ཀླུང་རྟ་དང་། །འབྱུང་བའི་སྤུན་གྲངས་བཙས་ཟླ་དང་། །སྤར་ཁ་རང་ཁམས་མ་ཁམས་དང་། །སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ཡི། །གི་གོང་བཞི་སྟེ་མཐུན་སྦྱོར་གྱི། །རྡེའུ་བཅུ་གསུམ་འབོར་བར་བྱ། །
+
+"Then, for the reckoning of the marriage match: life force, body, power
+and luck; the siblings' number by the elements; the birth month; the
+trigram, one's own element and the mother's; and the four *gi gong* of the
+mewa of life force, body, power and luck: lay these thirteen pebbles of
+the match." After the laying:
+
+> …འདི་དག་བརྩི་ཚུལ་ལུགས་མང་ཡང་། །རྩ་བའི་རང་འགྲེལ་ཉི་ཤུ་པར། །འབྱུང་བ་གསོ་བསྐྱེད་དགྲ་གྲོགས་ཀྱིས། །གཉེན་སྦྱོར་གཏན་ལ་དབབ་པར་བྱ། །ཞེས་གསུངས་འདི་ལ་ཚད་མ་ཡིན། །
+
+"There are many ways of reckoning these, but the root's own commentary
+in twenty says: 'settle the match by the elements' nourishing and
+engendering, enemy and friend'; that is the measure here." Then the
+four *gi gong* (by Yigdzin-1 and MITRA), and (f. 20a, l. 6, on the scan) «དེ་རྣམས་གསལ་སྒྲོན་རྩ་བ་ཡི། །རྡེའུ་བཅུ་གསུམ་འབོར་ལུགས་ཏེ།», this is the
+*Clear Lamp* root's way of laying the thirteen; the learned elsewhere
+identify single, joined and *Ni sha* (རྐྱང་ཁུག་ཎི་ཤ). Then:
+
+> …རང་འགྲེལ་ཉི་ཤུ་པ་ལས་གསུངས། །དེ་དག་ལེགས་པར་བརྩིས་ནས་ཀྱང་། །འགྲེལ་པའི་ལེའུ་བཞི་པ་ཡི། །ལེགས་ཉེས་འབྲས་བུ་སྟངས་བཅད་དོ། །དེ་ཉིད་ལམ་དུ་འཇུག་པ་ན། །བྱུར་ཐག་ཉི་ཤུ་བཅད་པ་དང་། །བརྫོང་ལུགས་བཅུ་ཡིས་རྫོང་བ་དང་། །དགོས་པའི་མི་ལྔ་བསྟན་པ་གསུམ། །
+
+"… so says the own commentary in twenty. Having reckoned these well,
+decide by the good and bad results of the commentary's fourth chapter.
+When she sets out on the road, three: cutting off the twenty threads of
+misfortune, sending her by the ten ways of sending, and showing the five
+people needed." And the chapter's last lines (f. 21a, img. 045, l. 4–5):
+
+> …རྒྱས་པར་རིན་ཆེན་འགྲོ་ལམ་དང་། །འགྲེལ་པའི་ལེའུ་ལྔ་པ་སོགས། །ཞིབ་མོར་བལྟས་ཏེ་གཏན་ལ་དབབ། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །གི་གོང་མཐུན་སྦྱོར་བཤད་པའི་ལེའུ་སྟེ་བཞི་པའོ། །
+
+"In full, look in detail at the *Precious Road* (རིན་ཆེན་འགྲོ་ལམ, rin chen
+'gro lam) and the commentary's fifth chapter and the rest, and settle.
+From the *Moonbeams*: the chapter on the *gi gong* and the match, the
+fourth." (KD's etext «རྒྱུས་པ», its print p. 506, leaf 525, «རྒྱས་པ» as here.)
+
+**Ch. 5, the size and the closes** (f. 21a, img. 045, l. 5–6; f. 22b,
+img. 048, l. 4–5; f. 23a, img. 049, l. 5; f. 23b–24a, img. 050–051,
+on the scan). The size: «ལོ་གཅིག་མཁྱུད་བསྐོར་ཀེག་རྩིས་ལ། །མི་འགྱུར་རྩ་བའི་རྡེའུ་དྲུག །གཅོད་འབྲལ་རྡེའུ་ཉི་ཤུ་བཞི། །ཁ་དམར་རྡེལ་བཞི་རྩུབ་རྡེལ་བདུན། །སྨེ་བའི་ཀེག་ཕྲན་རྡེའུ་བཞི། །དགུ་མིག་དུར་མིག་རྣམ་པ་གཉིས། །སྤྱི་བསྡུས་རྡེའུ་ཞེ་བདུན་ནོ།», for the obstacle reckoning
+of the one year's round: six unchanging root pebbles, twenty-four of
+cutting and parting, four verdict pebbles, seven harsh, four small mewa
+obstacles, the nine-multiple and the tomb, two: forty-seven in all. The
+verdicts are the four laid after the twenty-four (O18, above). The
+first close, after the *Hidden Finger-Pointing*'s 31 or 37 (f. 22b, l. 4–5):
+«དེ་ལྟར་བརྩིས་པའི་འབྲས་བུ་ནི། །རྩ་བའི་འགྲེལ་པ་ཉི་ཤུ་དང་། །དམར་ཆུང་སྟག་མགོ་སྒང་སྒྲིལ་སོགས། །བལྟས་ཏེ་ཉེས་སྐྱོན་བཅོས་པ་གཅེས།», the results so reckoned: look in the
+root's commentary, the twenty, and *Dmar chung*, *Stag mgo*, *Sgang sgril*
+and the rest; correcting the faults is what matters. The Chinese pebble
+round (f. 23a, l. 5): «སོ་སོའི་ས་དང་རྡེལ་རོ་ལ། །ཞིབ་མོའི་བློས་བརྟགས་འབྲས་བུ་ནི། །འགྲེལ་པ་ཐིག་ལེ་ནག་པོར་ལྟོས།», examine each
+place and the pebbles' taste with a fine mind, and for the results see
+the commentary *The Black Drop* (ཐིག་ལེ་ནག་པོ, thig le nag po). The three
+hundred and sixty, Martön Jomo's (མར་སྟོན་ཇོ་མོ, mar ston jo mo; KD's
+etext «ཇོ་སྨོན») instruction, and the six hundred of Khyung lha Zhönnu Sönam (f. 23b,
+img. 050, l. 5–6, to f. 24a, img. 051, l. 4):
+
+> དེ་ལྟར་བརྩིས་པའི་འབྲས་བུའང་། །སྡོང་པོ་ཀུན་འདུས་འགྲེལ་པ་ནི། །གབ་པའི་སྙིང་གཟེར་ཞེས་བྱ་བར། །ཡོད་ཅེས་མཁས་པའི་གཞུང་ལས་འབྱུང་། །འོན་ཀྱང་གནས་སྐབས་བྱ་སླའི་ཆེད། །སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔས། །ཚེ་དང་ནད་དང་ཟ་ཐང་དང་། །བསོད་ནམས་གདོན་བྱད་ལ་བརྟགས་པའི། །ཁ་དམར་སྤྱི་བསྡོམས་ལྔར་བསྡུས་ལ། །རིགས་མཐུན་འབྲས་བུ་གང་རུང་གིས། །སྟངས་གཅོད་བྱས་ཀྱང་ཆོག་པར་ངེས། །དེ་ལྟར་ལོ་གཅིག་མཁྱུད་སྐོར་གྱི། །འཕེལ་འགྲིབ་ཆགས་ཆེན་བསལ་བའི་ཕྱིར། །ཞིབ་མོར་གཏན་ལ་དབབ་པ་གཅེས། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །ལོ་གཅིག་མཁྱུད་སྐོར་གྱི་རྩིས་ཀྱི་ལེའུ་སྟེ་ལྔ་པའོ། །
+
+"The results so reckoned are, the works of the learned say, in the
+commentary of the *All-Gathering Trunk* (སྡོང་པོ་ཀུན་འདུས, sdong po kun
+'dus; KD's print, p. 509, leaf 528, «སྡོང་པོ་དགུ་འདུས», the
+*Nine-Gathering Trunk*) called the *Heart Nail of the Hidden* (གབ་པའི་སྙིང་གཟེར,
+gab pa'i snying gzer; KD's print «སྙིང་ཟེར», its etext «གྲུབ་པའི་སྙིང་ཟེར»). Yet
+for ease at the time, the verdicts examined for life, illness, food,
+merit and demons and curses by the five, life force, body, power, luck
+and mewa, may be gathered into five general totals and decided by any
+result of the same kind. So, to clear the year's great faults of
+increase and decrease, settling it in detail is what matters. From the
+*Moonbeams*: the chapter of the reckoning of the one year's round, the
+fifth." (This print «ཆགས་ཆེན» and «མཁྱུད», KD's print «ཆག་ཆེན», great
+loss, and «ཁྱུད».)
+
+**Ch. 6, the order and the close** (f. 24a, img. 051, l. 4–6; f. 24b,
+img. 052, l. 4–5; f. 25b, img. 054, l. 2–6; f. 26a, img. 055, l. 1–3,
+on the scan). It opens: «འབྱུང་བ་འཁྲུགས་དང་རྣམ་རྟོག་གིས། །བསྐྱེད་པའི་ནད་འདྲེས་གདུངས་པའམ། །བཙས་མ་དག་གི་བྱིས་པའི་ཆེད། །རྡེའུ་བཅུ་དགུ་བོར་བར་བྱ།», for one tormented by illness and
+spirits that disturbed elements and thoughts produced, or for a newborn
+child, lay nineteen pebbles (KD «བཙས་མ་ཐག», just born); and after the
+nineteen (f. 24b, l. 4–5): «དེ་ལྟར་བརྩིས་པའི་འབྲས་བུའང་། །རྩ་འགྲེལ་ཉི་ཤུ་པ་སོགས་ལྟོས།», for the results so reckoned see the
+root and commentary in twenty and the rest. Then the illness reckoning
+*Thang shing* (ཐང་ཤིང, thang shing), base first: «ཐོག་མར་བརྩི་གཞི་ངོས་བཟུང་བྱ། །དེ་ལས་རྩིས་འགོ་བཅོ་ལྔ་སྟེ།», first identify the base;
+from it, fifteen starting points (f. 24b, l. 5; KD «རྩིས་མགོ»), a sixteenth
+after them (f. 25b, l. 1), as WB's ch. 25 has fifteen and a sixteenth
+([health.md](health.md)); and the deciding (f. 25b,
+img. 054, l. 2–6):
+
+> …དེ་ལྟར་རྩིས་གཞི་གར་བབས་ཀྱི། །སྲོག་ལུས་དབང་ཐང་ཀླུང་རྟ་ལ། །བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་གིས། །འཐབས་པའི་རྡེའུ་བཞི་བཞི་སྟེ། །དཀར་ནག་གཏན་རྩིས་བཞིན་དུ་བོར། །དེ་ནས་དཀར་ནག་བགྲངས་བྱས་ལ། །སོ་སོའི་བཟང་ངན་སྟངས་གཅོད་བྱ། །དེ་རྗེས་རྩིས་མིག་བཅུ་དྲུག་ཀྱང་། །རྩིས་ཆེན་བདུན་དུ་དྲིལ་ལ་བརྟག །དེ་ཡང་ཐང་ཤིང་རིང་མོ་དང་། །གསེར་ཟམ་གཡུ་ཤུག་དཔག་བསམ་ལྗོན། །དཔལ་བྱུར་ཁྱིམ་དང་གཤིན་གསོན་མིག །ལིང་རྩེ་བརྒལ་ལམ་མ་བརྒལ་བལྟ། །དེ་དག་རྡེའུ་ལྔ་ཚན་ལྔར། །བཅད་ལ་དང་པོ་སྐྱེས་པའི་ས། །བར་པ་བུད་མེད་ཐ་བྱིས་པ། །རིམ་བཞིན་སོ་སོའི་ས་རུ་བརྟག །
+
+"… four pebbles each, the person's life force, body, power and luck
+fighting those of the place the base fell on, laid white and black as
+in the fixed reckoning. Then count white and black and decide the good
+or bad of each. After that the sixteen reckoning eyes are rolled into
+seven great reckonings and examined: the long *thang shing*, the golden
+bridge, the turquoise juniper, the wish-granting tree, the house of
+glory and misfortune, the eye of the dead and living, and whether the
+*ling* top is crossed or not. These are cut into five sets of five
+pebbles: the first the man's place, the middle the woman's, the last the
+child's, each examined in its place." Then «ད་ལྟའི་ཕྱག་བཞེས», present practice
+(f. 25b, l. 6), and the close (f. 26a, img. 055, l. 1–3):
+
+> …གཞན་ཡང་ལོག་མེན་སྤར་སྨེ་དང་། །ཉི་མའི་ནད་གདོན་བརྟག་པ་སོགས། །རྒྱ་ཆེན་གཞུང་ལས་ཤེས་པར་བྱ། །དེ་ལྟར་ནད་ཀྱིས་གདུངས་པའི་འགྲོར། །ཕན་པའི་ལྷག་བསམ་དྲག་པོ་ཡིས། །ལེགས་པར་བརྩིས་ལ་ཁ་དམར་རྣམས། །རང་རང་འགྲེལ་པས་སྟངས་བཅད་དེ། །འཁྲུགས་པ་བཅོས་ཤིང་གུད་པ་གསོ། །རྣམ་རྟོག་འདྲེ་གདོན་བསལ་བར་བྱ། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །སྲིའུ་དང་ནད་པའི་རྩིས་ཀྱི་ལེའུ་སྟེ་དྲུག་པའོ། །
+
+"The progressed sign, trigram and mewa, the examination of the day's
+illness and demons and the rest are to be known from the great texts.
+So, for beings tormented by illness, with a strong wish to help, reckon
+well, decide the verdicts each by its own commentary, set right what is
+disturbed, restore what declined, and clear the demons that thoughts
+produce. From the *Moonbeams*: the chapter of the reckoning for children
+(སྲིའུ, sri'u) and the sick, the sixth."
+
+**Ch. 7, the order** (f. 26a, img. 055, l. 3–6; f. 26b, img. 056, l. 6,
+to f. 27a, img. 057, l. 1; f. 27a, l. 5–6, to f. 27b, img. 058, l. 1, on
+the scan):
+
+> …དུར་མཛོད་རྩིས་ལ་གསུམ་ཡིན་ཏེ། །གསོན་གྱི་ཁོག་ནས་གཤིན་དབྱུང་དང་། །གཤིན་གྱི་ཁོག་ནས་གསོན་འདོན་པ། །གཤིན་གྱི་འདུར་ཤིད་བརྟག་པའོ། །
+
+"The grave-treasury reckoning has three parts: taking the dead out of
+the living's household, taking the living out of the dead's, and
+examining the dead's burial and funeral." The first, twenty pebbles,
+closes (f. 26b, l. 6, to f. 27a, l. 1):
+
+> …དེ་ལྟ་རྡེའུ་ཉི་ཤུའོ། །རྒྱས་པར་ཀེག་རྩིས་བཞིན་དུ་བོར། །སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས། །གསོན་གྱི་ཆགས་བཟློག་རིམ་གྲོ་དང་། །གཤིན་ལ་འགོ་གཤེད་ལ་སོགས་པ། །རིག་པས་མ་ནོར་སྟངས་གཅོད་གཅེས། །
+
+"So, twenty pebbles. In full, lay them as in the obstacle reckoning.
+Lay the general and the particular verdicts; deciding without error, by
+reason, the rites turning back the living's great faults and, for the
+dead, the guiding and the like, is what matters." (This print «ཆགས་བཟློག»
+and «འགོ་གཤེད»; KD's etext «ཆག་བཟློག», turning back loss, and «འགོ་གཤིད».)
+The second, the la pebbles (བླ་རྡེལ, bla rdel), closes (f. 27a, l. 5–6):
+«…རྡེའུ་དང་བསྟུན་ཁ་དམར་ནི། །སྤྱི་དང་བྱེ་བྲག་ཁྱད་པར་གྱི། །དུར་སའི་སྐྱོན་ཡོན་གང་ཟློས་བརྟགས། །ཐམས་ཅད་དྲིལ་ལ་སྟངས་གཅོད་བྱ།», for the verdict following the
+pebbles, examine which faults and virtues of the burial ground, general,
+particular and special, recur, roll everything together and decide. The
+third: «གསུམ་པ་གཤིན་གྱི་འདུར་ཤིད་ཀྱི། །རྡེའུ་བརྒྱ་དང་གོ་དགུ་སྟེ། …དེ་ལྟར་སྡེ་ཚན་བཅུ་གཉིས་སོ།», the dead's burial and funeral,
+199 pebbles in twelve sections: the dead's life force, body, power, luck
+and element; trigram; recurrences; the five tombs; the kinds of corpse;
+the direction of taking out; rebirth; the ritual offering.
+
+**Ch. 7, the twelfth section and the verdicts** (f. 28b, img. 060,
+l. 3–6, to f. 29a, img. 061, l. 5; on the scan):
+
+> …བཅུ་གཉིས་མཇུག་གཅོད་གཏོ་ཆོག་ནི། །གནམ་ལོ་ལོག་མེན་སྨེ་བ་དང་། །སྤར་ཁ་དར་གུད་ཟླ་ཞག་དུས། །གཟའ་སྐར་ཉམས་རྣམས་བཅོས་པ་དང་། །གསོན་རྡེལ་ཆགས་ཆེར་གྱུར་ན་འཆོས། །དེ་ཡང་བཅོས་ཐབས་གང་དགོས་ལ། །རྡེལ་ནག་དེ་ལྡོག་དཀར་པོར་བོར། །དེ་ལྟར་དྲིལ་བས་འདུར་ཤིད་ཀྱི། །རྡེའུ་བརྒྱ་དང་བརྒྱད་ཅུ་བདུན། །དེ་ནས་སྡེ་ཚན་བཅུ་གཉིས་ལ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གྱི། །རྡེའུ་བཅུ་གཉིས་ལོགས་སུ་བོར། །
+
+"Twelfth, the ritual offering that cuts off the sequel: correct what is
+impaired in the present year, the progressed sign, the mewa, the
+trigram, the stages, the month, day and hour, the planet and mansion,
+and correct the living's pebbles where they have become a great fault;
+for whatever means of correcting is needed, turn the black pebble over
+and lay it white. So rolled together, the burial and funeral have 187
+pebbles. Then count white and black in the twelve sections and lay the
+twelve verdict pebbles apart." Then the tie, «མཉམ་ན་ཕྱེད་མ», even a
+half (O18, above), and, after the special verdicts of burning or
+keeping, of the kinds of corpse and the rebirth (f. 29a, img. 061,
+l. 2–5):
+
+> …གཏོ་ཆོག་རྡེལ་གྲངས་བསྟུན་པ་གཅེས། །དེ་ལྟར་སྟངས་གཅོད་རྡེའུ་ཡི། །ཁ་དོག་དང་བསྟུན་ཁ་དམར་ཀྱང་། །སྲོག་གིས་འཆི་དུས་ལུས་དུར་ས། །དབང་ཐང་ཟས་སྐལ་ཀླུང་རྡེལ་ཡིས། །ཤིད་ཀྱི་ཡལ་ག་རུས་ཁམས་རྗེས། །འདུར་ཐང་ཆེ་ཆུང་སྤར་ཁ་ཡིས། །ལེ་ལན་ར་བསེས་ཟློས་པ་དང་། །འབྱུང་དུར་སིལ་བུས་སྲེག་སྒྲུབ་བརྩི། །རོ་རིགས་བཞག་པ་འདོན་ཕྱོགས་ཀྱིས། །དྲང་ཕྱོགས་གནས་རྗེས་གར་སྐྱེ་བརྟག །གཞུག་གཅོད་གཏོ་ཡིས་ཤི་གཞུག་བཅད། །
+
+"Fitting the ritual offering to the number of pebbles is what matters.
+So the verdict too follows the colour of the deciding pebbles: by the
+life force the time of death, by the body the burial ground, by the power
+the share of food, by the luck pebble the branches of the funeral, by
+the element pebble the extent of the burial, by the trigram the account
+due, by the recurrences the repetition, by the scattered element-tombs
+whether to burn or keep, by the kinds of corpse where it is laid, by the
+direction of taking out the direction to lead it, by the pebble of the
+place where it will be born; and by the ritual offering that cuts off
+the sequel, the sequel of death is cut off." (The print «རུས་ཁམས་རྗེས» and «གནས་རྗེས», read
+here as «རྡེས», by the pebble, as Yigdzin-1 has it; MITRA and the scan
+«རྗེས»; KD's etext «རུས་ཁམས་དེས», «གནས་རྗེས».) Each verdict has its
+domain, and the last section is itself the remedy. The chapter's close,
+after the *ro len* pebbles (f. 29b, img. 062, l. 5–6, to f. 30a, img.
+063, l. 1):
+
+> …དེ་ལྟར་བོར་རྡེལ་རང་འགྲེལ་སོགས། །ཟང་ཀྱམ་མན་ངག་ཡི་གེ་ལྟར། །འདུར་ལུགས་སྲེག་སྒྲུབ་གང་བཟང་དང་། །འགྲམ་ཟློས་ཤི་གཞུག་གཅོད་ཐབས་སོགས། །གཤིན་དང་གསོན་ལ་ཕན་སེམས་ཀྱིས། །ཀུན་ནས་བསླངས་ཏེ་བཅོས་པ་གཅེས། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །ཟང་ཀྱམ་གྱི་རྩིས་ཀྱི་ལེའུ་སྟེ་བདུན་པའོ། །
+
+"So, as the own commentary and the written instructions of the *zang
+kyam* (ཟང་ཀྱམ, zang kyam, the copper vessel; WB's «ཟངས་ཀྱམ») give the
+pebbles laid: the way of burial, whether burning or keeping is better,
+the means of cutting off the repetition and the sequel of death and the
+rest; moved throughout by a mind to help the dead and the living,
+correcting is what matters. From the *Moonbeams*: the chapter of the
+reckoning of the copper vessel, the seventh."
+
+### 3. The colophon: an abridgement of the laying only (f. 30a, img. 063)
+
+f. 30a, img. 063, l. 1–6, on the scan:
+
+> …གཞན་ཡང་གསོན་གཤིན་གཉིས་ཀ་ལ། །གཅེས་པའི་ས་བཅད་བརྟག་ཐབས་དང་། །གྱིམ་ཤང་འཕུང་བཤིག་རྣམ་པ་བཞིས། །འགལ་བྱེད་དགྲ་བོ་བརླག་པ་དང་། །རང་ཀེག་གཞན་ལ་སྤོ་བ་སོགས། །བཤད་མོད་ཤེས་འདོད་ལྡན་པ་དག །རྒྱ་ཆེན་གཞུང་དུ་བལྟ་བར་གྱིས། །འདིར་ནི་བློ་ལྡན་འགའ་ཞིག་གིས། །ཉེ་བར་བསྐུལ་ཞིང་རང་ཉིད་ཀྱིའང་། །དྲན་ཐོར་བསྐོར་འགོ་རྡེལ་བོར་གྱི། །རྩ་བ་ཙམ་ཞིག་བསྡུས་འདིའང་། །བན་ཆུང་དྷརྨ་ཤྲཱི་ཡིས། །དམ་ཆོས་སྒྲུབ་པར་མ་ནུས་པའི། །ཞག་འགའི་ཉི་རིང་འཕུལ་ཕྱིར་བྲིས། །ནོངས་གྱུར་མཁས་རྣམས་བཟོད་པར་བཞེས། …འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་དྲུག་ཅུ་སྐོར་བཅུ་གཉིས་པའི་མགོར་སྨྱོས་ཀྱི་བན་ཆུང་གིས་སློབ་དཔོན་མཁས་པ་རྣམས་ཀྱི་དྲིན་ལས་ཅུང་ཟད་ངེས་པ་རྣམས་ཟིན་ཐུན་སུག་རིས་སུ་བགྱིས་པ་དགེ་ལེགས་སུ་གྱུར་ཅིག །
+
+"Besides, for both the living and the dead, the precious ways of
+examining the ground, the destruction of enemies who obstruct by the
+four kinds of *gyim shang* ruin, the transfer of one's own obstacle to
+another and the like are taught; those who wish to know them should look
+in the great texts. This, a condensation of no more than the root of the
+starting points and the laying of pebbles, as a memorandum for myself
+and urged by some intelligent people, the minor monk Dharmaśrī wrote to
+pass the long days of a few days when he could not practise the holy
+dharma; may the learned bear with its faults. … The *Moonbeams* of the
+element reckoning's instructions, made at the head of the twelfth
+sixty-year cycle by the minor monk of Smyos, the little he was sure of by
+the kindness of learned masters set down as a notebook in his own hand."
+The twelfth cycle begins in 1687 (the first in 1027, eleven cycles of
+sixty on). KD's print (p. 536) has the same.
+
+So the *Moonbeams* states its own limit: it gives the starting points and
+the laying of the pebbles, "the root alone"; the readings, the rites and
+the rest are in the commentaries and the great texts.
+
+### 4. Against WB
+
+**WB names the system the *Moonbeams* abridges.** WB's chapter 20 lists
+the books of the element reckoning (vol. 1, p. 248; the Gser thang
+reprint img. 243, l. 13–20, on the scan; the 1996 edition img. 258 by
+Yigdzin-1): the *Clear Lamp*'s system has five rounds, the expanded text,
+the condensed instructions, the secret key of the *Hidden
+Finger-Pointing* (gsang ba lde mig sbas mdzub tshugs), and the round of
+the essential sheets («ཡང་འགྱུར་གསལ་སྒྲོན་ཞེས་གྲགས་ལ། །སྤྲོས་པ་གཞུང་དང་བསྡུས་མན་ངག །གསང་བ་ལྡེ་མིག་སྦས་མཛུབ་ཚུགས། །ཉིང་ཁུ་ཤོག་ཁྲའི་སྐོར་དང་ལྔ།»);
+its treatises are a root in five topics and a commentary in twenty
+(«རྩ་བ་སྐབས་དོན་ལྔ་པ་(༡)་དང་། །འགྲེལ་པ་རྩ་འགྲེལ་ཉི་ཤུ་པ་(༢)»), the twenty
+named one by one, among them the third «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» (the deciding),
+the fourth «གཉེན་སྦྱོར་འགྲེལ་པ་མཐུན་སྦྱོར་བཅུ» (the marriage match), the fifth
+«བག་འགྲེལ་འགྲོ་ལམ་བཀྲ་ཤིས» (the bride's road), the fourteenth «བླ་རྡེལ་འགྲེལ་པ་ཟངས་ཀྱམ་གསལ» (the la
+pebbles). So the *Moonbeams*' "root" is the *Clear Lamp*, its "commentary
+in twenty" WB's «རྩ་འགྲེལ་ཉི་ཤུ་པ», and its "commentary's fourth chapter" for the
+match's results and "fifth" for the bride's road are WB's fourth and fifth
+of the twenty, the marriage and the bride commentaries; the *Hidden
+Finger-Pointing* it cites in ch. 3, 4 and 5 is the third round. WB's
+ch. 26 colophon keeps "the commentary *The Magic Sieve*" for the thirty
+(vol. 1, p. 472, [reckonings.md](reckonings.md)), the same commentary the
+*Moonbeams* decides the thirty by.
+
+**The condensed instructions have the *Moonbeams*' sizes and order.** WB
+p. 249 (Gser thang img. 244, l. 9–18, on the scan; the numbers already
+read on three prints, [reckonings.md](reckonings.md), RD11):
+
+> བསྡུས་པ་མན་ངག་སྐོར་དྲུག་དེ། །དོན་སྐོར་བཞི་བརྒྱ་ཞེ་གཉིས་ཀྱིས། །སྤྲོས་པའི་མཐའ་བཅད་བཅོ་ལྔ་ཡིས། །ཁོག་ཕུབ་ངན་ཀླུང་སྐྱོན་ངོས་བཟུང་། །རྩུབ་ཀེག་སྤྲོས་ཀྱིས་བརྗོད་སྐང་གྲིལ། །དར་ཆགས་རྣམ་ལྔས་དགོས་དོན་བསྡུ། །སྣ་ཚོགས་ཐབས་ཀྱིས་ཉེས་སྐྱོན་བསལ། །དེ་ལ་སྤྲོས་པའི་མཐའ་གཅོད་གྲངས། །གཏན་རྩིས་རྡེའུ་བརྒྱ་སོ་དྲུག །ཀེག་ལ་ཞེ་བདུན་གཉེན་སྦྱོར་ལ། །བཅུ་གསུམ་ནང་སྲི་བཅུ་དགུ་དང་། །གསོན་ཁོང་གཤིན་འདོན་ཉི་ཤུ་ཐམ། །བླ་རྡེལ་བཅུ་གཉིས་གཤིན་འདུར་ཤིད། །གཉིས་ལ་ཉིས་བརྒྱ་བཅོ་ལྔའོ། …སྣ་ཚོགས་བཅོས་ཀྱིས་ཉེས་པ་སེལ། །བསྡུས་པ་མན་ངག་སྐོར་དུ་འདོད།།
+
+The six rounds of the condensed instructions: the frame by the fifteen
+that end the expansion, the faults of bad luck identified, the harsh
+obstacles, the purpose gathered by the five stages, the faults cleared
+by various means; the counts, the fixed reckoning 136, the obstacles 47,
+the match 13, illness and *sri* 19, taking the dead out of the living
+household 20, the la pebbles 12 and the dead's burial and funeral 215
+(… "faults cleared by various corrections: held to be the round of
+condensed instructions"). These are the *Moonbeams*' own counts, chapter
+by chapter: 136 (ch. 3), 47 (ch. 5), 13 (ch. 4), 19 (ch. 6), 20 (ch. 7,
+first part), the la pebbles and 199 for the burial and funeral (ch. 7;
+WB's 215 and its total are open question 21), and the *Moonbeams*'
+six particular reckonings are WB's six rounds. WB's order of a condensed
+reckoning, frame, faults, harsh obstacles, stages, then the faults
+cleared by remedies, is the order every *Moonbeams* chapter follows and
+the close every one of them has.
+
+**WB expands where the *Moonbeams* keeps the root.** WB's birth takes the
+*Clear Lamp*'s root pebbles and gathers its scattered chapters (vol. 1,
+p. 262, img. 272, on the scan, [year-of-life.md](year-of-life.md)):
+«གསལ་སྒྲོན་རྩ་བའི་རྡེལ་བབས་ཏེ། །ལེ་ལག་འཐོར་བ་རྣམས་བསྡུས་ཤིང་།», to 3,773 pebbles of
+result and sign, with 150 of the life force and the rest by the five
+relations and the stages, where the *Moonbeams* gives 136 and names 150
+only as a variant (f. 17b, img. 038, l. 3–5, Yigdzin-1 and MITRA). WB's own sizes are in
+[reckonings.md](reckonings.md), *The sizes at a glance*: the year of age
+137 result pebbles against the *Moonbeams*' 47, the illness 403 against
+19, the dead 1,008.
+
+**WB reads; the *Moonbeams* sends to the commentary.** WB lays the
+verdicts in the same place in the order and then reads them, beginning
+with the four precious pebbles' verdict (p. 262: «རྡེལ་བབས་བལྟས་ལ་ཁ་དམར་གདགས། …དེ་ཡང་ཁ་དམར་རིམ་པ་དང་། །རྡེལ་ཕྲན་ངོ་ཐོག་བཅས་པ་རྣམས། །རིམ་པར་བཀོད་ལ་ཐོག་མར་ནི། །གཅེས་རྡེལ་བཞི་ཡི་ཁ་དམར་ལ།», look at where the pebbles fell and lay
+the verdict; set out the verdicts and the small pebbles in order, first
+the four precious pebbles' verdict); and it gives each chapter a rule
+for the whole or a close of its own: the birth by the force and number of
+the good and bad results (p. 349, RD19 above), the year of age with the
+black pebbles of the chief aspect treated in earnest (pp. 415–416, RD24
+above), the illness by the element that is most (p. 435, RD22), the dead
+by the thirteenth point over the twelve (vol. 2, p. 50, RD23). The
+*Moonbeams* gives none of these: a chapter closes on the verdict laid and
+the commentary named, and on the purpose, remedy. Where WB has the
+dead's thirteenth point gathering the twelve, the *Moonbeams* has twelve
+sections whose twelfth is the ritual offering, turning black pebbles
+white (f. 28b), and twelve verdicts each read for its own domain (f. 29a).
+
+**One shortcut the two share.** The *Moonbeams*' five general totals for
+the year of age (f. 24a), life, illness, food, merit and demons by the
+life force, body, power, luck and mewa, are the five domains WB gives the
+verdicts of the small reckonings of ch. 27 (vol. 2, p. 22: the life force
+the adversities of life, the body illness, the power wealth, the luck
+merit, the mewa gods and demons; etext only, above; RD23 reads it on the
+scan). The *Moonbeams* allows it "for ease at the time"; WB does not name
+it for ch. 24.
+
+**KD's copy.** KD vol. 3 adds a heading to each chapter (pp. 486, 498,
+501, 506, 509–510 on the lent scans; DZ has only the closing lines) and
+differs in a few words, each given above where it falls: «ནམ་གཞག»,
+«མཐའ་རྩིས», «སྡོང་པོ་དགུ་འདུས», «སྙིང་ཟེར», «ཆག་ཆེན», «ཁྱུད», «བཙས་མ་ཐག», and in the
+etext only «ཆག་བཟློག», «འགོ་གཤིད». Nothing in the order or the closes
+differs.
+
+### What the *Moonbeams* gives, in short
+
+- **The order of a reckoning**: its size stated first, part by part; the
+  base or the cloth; the root pebbles; the pebbles fought against them;
+  the stages; the deciding and verdict pebbles, counted white and black;
+  the harsh pebbles and small obstacles; the other masters' ways after
+  the main one.
+- **The close**: no reading and no rule for the whole. Each chapter sends
+  the results to the *Clear Lamp*'s commentary in twenty (its fourth and
+  fifth chapters for the match and the road), the *Magic Sieve*, the
+  *Black Drop* and other works, and ends on the purpose: correct the
+  faults, cure and restore, clear the demons, help the dead and the living.
+  The dead's last section is itself the rite; the year of age may be
+  gathered into five general totals and decided "by any result of the
+  same kind".
+- **Against WB**: the *Moonbeams* is the *Clear Lamp*'s condensed
+  instructions as WB describes them (p. 249), counts and order alike; WB
+  expands the same order and reads its pebbles, adding a rule for the
+  whole in its own chapters; on the readings and the whole the
+  *Moonbeams* defers to the commentaries WB lists (p. 248).
+
+### Open
+
+- Question: does the *Clear Lamp*'s commentary in twenty that WB lists (vol. 1, p. 248), whose fourth and fifth parts the *Moonbeams* cites for the match's results and the bride's road (DZ f. 20b, f. 21a), survive, in BDRC or elsewhere? (With RD25.)
+- Question: which works are *Dmar chung*, *Stag mgo* (DZ f. 19b, f. 22b), the commentary *The Black Drop* (f. 23a), the *Precious Road* (f. 21a) and the *Heart Nail of the Hidden* of the *All-Gathering* or *Nine-Gathering Trunk* (f. 23b–24a, KD «དགུ་འདུས»)? (Narrows open question 190.)
+- Question: in the *Moonbeams*' reckoning for the dead, what is the "general" verdict as against the "particular" (f. 26b–27a, «སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས»), and in its Chinese pebble round, what is laying white and black "as in general" (f. 22b, «དཀར་ནག་རེ་རེ་སྤྱི་ལྟར་བོར»)?
+- Question: is the *Moonbeams*' gathering of the year of age into five general totals by life, illness, food, merit and demons (f. 24a) the same reading WB gives ch. 27's five verdicts by domain (vol. 2, p. 22), and may it stand for ch. 24?
+- Doubts left on the scan (no agy crop taken): f. 19b, img. 042, l. 4, «མཐར་རྩིས» (KD «མཐའ་རྩིས») read as the print shows it; f. 15b, img. 034, l. 2, «དགོས་རྡེ» beside «སྒོས་རྡེ».
+
+### Searched and not found
+
+- 2026-10-21, the *Moonbeams* whole (DZ img. 005–064, Yigdzin-1, the
+  closes on the scan; KD vol. 3 etext pp. 506–536): no rule that weighs one
+  reckoning against another, and no single verdict of a whole reckoning
+  but ch. 5's five general totals (f. 24a) and ch. 7's "roll everything
+  together and decide" for the la pebbles (f. 27a); «སྤྱི་བསྡོམས» only on
+  f. 24a; «གང་མང» only on f. 17a (Drogtön's way, the stage pebbles gathered
+  into one by the majority); «རིམ་གྲོ» only on f. 26b; «མཉམ» only on f. 20a
+  (the match's sibling pebbles) and f. 28b (the dead's tie); no readings of
+  the pebbles beyond the names of the meetings (the children of gods,
+  glory, demons, f. 17b–18a) and the dead's verdicts by domain (f. 29a).
+- 2026-10-21, KD vol. 3's print, pp. 486, 498, 501, 506, 509–510 (lent
+  scans): no line in the closes beyond DZ's; the differences are the
+  headings and the words named above.
 
 
 ## The illness identified: the element that is most (RD22)
