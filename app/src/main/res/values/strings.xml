@@ -125,6 +125,11 @@
     <string name="section_almanac">Almanac</string>
     <!-- The works' verdicts (ROADMAP U6): the haircut's row, above the Almanac -->
     <string name="section_works">Works</string>
+    <!-- The Works section's chooser (ROADMAP U19): the heading's pin, read aloud, and the chooser's title -->
+    <string name="works_pin">Pin works</string>
+    <string name="works_pin_note">The works you tick stand first under Works, each as the day\'s weighing gives it: good first, then to avoid, then those no reading names that day.</string>
+    <!-- a pinned work no reading names on the day shown, in place of its voices -->
+    <string name="works_unnamed">Not named today</string>
     <string name="section_your_day">Your day</string>
     <string name="section_also_today">Also today</string>
     <!-- "Vitality  ○○": the aspect, then the pebbles -->

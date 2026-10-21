@@ -123,6 +123,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
     // The person being changed in PersonDialog: an index, or -1 for a new one; null while it is closed.
     var editing by remember { mutableStateOf<Int?>(null) }
     var kigaku by remember { mutableStateOf(settings.kigaku) }
+    var pinnedWorks by remember { mutableStateOf(settings.pinnedWorks) }
     val activity = LocalContext.current as Activity
     val language = remember { AppLanguage.current(activity) }
     var languageDialog by remember { mutableStateOf(false) }
@@ -503,6 +504,11 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
                             reckoningsYear = it
                             reckoningsOpened = Reckoning.YEAR_OF_AGE
                             screen = Screen.RECKONINGS
+                        },
+                        pinned = pinnedWorks,
+                        onPinned = {
+                            pinnedWorks = it
+                            settings.pinnedWorks = it
                         },
                     ) { work ->
                         electionWork = work

@@ -96,6 +96,9 @@
     <string name="detail_also_called">Также называется</string>
     <string name="section_almanac">Альманах</string>
     <string name="section_works">Дела</string>
+    <string name="works_pin">Закрепить дела</string>
+    <string name="works_pin_note">Отмеченные дела стоят первыми в разделе «Дела», каждое так, как его даёт взвешивание дня: сначала хорошие, затем те, которых следует избегать, затем те, которых не называет ни одно толкование.</string>
+    <string name="works_unnamed">Сегодня не названо</string>
     <string name="section_your_day">Ваш день</string>
     <string name="section_also_today">Также сегодня</string>
     <string name="pebble_row_title">%1$s  %2$s</string>

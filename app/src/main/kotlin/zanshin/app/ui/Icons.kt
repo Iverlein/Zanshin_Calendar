@@ -21,6 +21,8 @@ object Icons {
     val Close = stroke("M6 6l12 12M18 6 6 18")
     val Check = stroke("M5 12l5 5 9-10", 2.2f)
     val Info = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M12 11v6M12 7.5v.5")
+    /** A push pin, for the works pinned to the Works section (ROADMAP U19); [Pin] is a place's. */
+    val Pushpin = stroke("M9 3.5h6M10 3.5l-.8 6.5L6 13.5h12l-3.2-3.5-.8-6.5M12 13.5V21", 1.7f)
     val Pin = stroke("M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21zM12 7a2.5 2.5 0 1 0 0 5a2.5 2.5 0 1 0 0-5")
     val Crosshair = stroke("M12 5a7 7 0 1 0 0 14a7 7 0 1 0 0-14M12 10a2 2 0 1 0 0 4a2 2 0 1 0 0-4M12 2v3M12 19v3M2 12h3M19 12h3")
     val Search = stroke("M11 5a6 6 0 1 0 0 12a6 6 0 1 0 0-12M20 20l-4.5-4.5", 2f)

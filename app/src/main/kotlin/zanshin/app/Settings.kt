@@ -7,6 +7,7 @@ package zanshin.app
 import android.content.Context
 import zanshin.app.ui.AppTheme
 import zanshin.core.astro.Place
+import zanshin.core.texts.Activity
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.ZoneId
@@ -107,6 +108,15 @@ class Settings(context: Context) {
 
     private fun menuGroupKey(group: MenuGroup) = "menu_" + group.name.lowercase(Locale.ROOT)
 
+    /**
+     * The works pinned to the Tibetan page's Works section (SPEC §10.3, ROADMAP U19); none on a
+     * fresh install. A name no longer among the works is dropped.
+     */
+    var pinnedWorks: List<Activity>
+        get() = prefs.getString(KEY_PINNED_WORKS, null).orEmpty().split(',')
+            .mapNotNull { name -> Activity.entries.firstOrNull { it.name == name } }
+        set(value) = prefs.edit().putString(KEY_PINNED_WORKS, value.joinToString(",") { it.name }).apply()
+
     /** The colour theme (SPEC §10.5, ROADMAP A1): Ink on every install until another is chosen (D5). */
     var theme: AppTheme
         get() = prefs.getString(KEY_THEME, null)
@@ -148,6 +158,7 @@ class Settings(context: Context) {
         private const val KEY_NOTICE_TIME = "notice_time"
         private const val KEY_NOTICE_NEXT = "notice_next"
         private const val KEY_THEME = "theme"
+        private const val KEY_PINNED_WORKS = "pinned_works"
         private const val KEY_BIRTH = "birth"
         private const val KEY_PEOPLE = "people"
         private const val KEY_PERSON = "person"

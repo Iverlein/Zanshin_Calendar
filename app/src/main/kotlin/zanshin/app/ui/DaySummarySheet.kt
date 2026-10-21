@@ -38,7 +38,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
@@ -355,50 +358,85 @@ private fun Block(title: String, content: @Composable () -> Unit) {
  */
 @Composable
 private fun WorkBlock(title: String, notes: List<ActivityNote>, color: Color, good: Boolean, tibetan: Boolean, now: HourNow?, onElect: ((Activity) -> Unit)?) {
-    val until = now?.let { untilOf(it.hour) }
-    val side = stringResource(if (good) R.string.good_for else R.string.avoid)
-    val choose = stringResource(R.string.election_choose)
     if (notes.isEmpty()) return
     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text(title, style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = color))
-        for (n in notes) {
-            // A work the present hour decides has the hour as its one voice (SPEC §10.3): the day's are outweighed.
-            val voices = n.period?.let { sign ->
-                val tone = (n.good + n.avoid).first().tone
-                listOf(SummaryEntry(stringResource(R.string.brief_by_the_hour, sign.english), stringResource(R.string.brief_period_kind), tone, null, latin = true))
-            } ?: if (good) n.good else n.avoid
-            BoxWithConstraints {
-                // The label takes its own width up to 55% of the row and wraps by words past
-                // that; the annotations fill the rest, right-aligned. Without the cap a wide
-                // set of annotations squeezed the label into a one-letter column.
-                val labelMax = maxWidth * 0.55f
-                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    CueIcon(CueGlyphs.FAMILY.getValue(n.activity.family), if (n.disputed) Palette.mixed else color, 22.dp)
-                    val elect = if (tibetan) onElect else onElect?.takeIf { n.activity in KyurekiElection.OFFERED }
-                    val opens = tibetan || elect != null
-                    var open by remember { mutableStateOf(false) }
-                    Column(Modifier.widthIn(max = labelMax).then(if (opens) Modifier.clickable(role = Role.Button) { open = !open } else Modifier)) {
-                        Text(n.activity.english, style = body.copy(fontSize = 16.sp))
-                        if (open && opens) {
-                            Balloon(
-                                listOf(BalloonRow(side, n.activity.english)) + (
-                                    n.period?.let { sign -> listOf(BalloonRow(stringResource(R.string.brief_period_kind), stringResource(R.string.brief_period_until, sign.english, until.orEmpty()))) }
-                                        ?: voices.map { BalloonRow(it.english, it.kanji) }
-                                    ),
-                                preferAbove = true,
-                                actions = listOfNotNull(elect?.let { BalloonAction(choose) { it(n.activity) } }),
-                                onDismiss = { open = false },
-                            )
-                        }
-                        if (n.disputed) {
-                            Text(
-                                stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
-                                style = body.copy(fontSize = 12.sp, color = Palette.mixed),
-                            )
-                        }
-                    }
-                    Terms(voices, small = true, modifier = Modifier.weight(1f), end = true)
+        for (n in notes) WorkLine(n.activity, n, good, color, tibetan, now, onElect)
+    }
+}
+
+/**
+ * One work in the brief's form, as [WorkBlock] describes it, on [good]'s side in [color]. [n] is null for a
+ * pinned work no voice names today (ROADMAP U19): its glyph in [color], "Not named today" in place of its
+ * voices, its balloon the way to its election only. The side is spoken after the work, which on the Works
+ * section has no side's heading over it. [title] is the work's name as the row shows it: capitalised on the Works
+ * section, where it stands among rows that are.
+ */
+@Composable
+internal fun WorkLine(
+    activity: Activity,
+    n: ActivityNote?,
+    good: Boolean,
+    color: Color,
+    tibetan: Boolean,
+    now: HourNow?,
+    onElect: ((Activity) -> Unit)?,
+    title: String = activity.english,
+) {
+    val until = now?.let { untilOf(it.hour) }
+    val unnamed = stringResource(R.string.works_unnamed)
+    val side = if (n == null) unnamed else stringResource(if (good) R.string.good_for else R.string.avoid)
+    val choose = stringResource(R.string.election_choose)
+    // A work the present hour decides has the hour as its one voice (SPEC §10.3): the day's are outweighed.
+    val period = n?.period
+    val voices = when {
+        n == null -> emptyList()
+        period != null -> {
+            val tone = (n.good + n.avoid).first().tone
+            listOf(SummaryEntry(stringResource(R.string.brief_by_the_hour, period.english), stringResource(R.string.brief_period_kind), tone, null, latin = true))
+        }
+        good -> n.good
+        else -> n.avoid
+    }
+    BoxWithConstraints {
+        // The label takes its own width up to 55% of the row and wraps by words past
+        // that; the annotations fill the rest, right-aligned. Without the cap a wide
+        // set of annotations squeezed the label into a one-letter column.
+        val labelMax = maxWidth * 0.55f
+        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            CueIcon(CueGlyphs.FAMILY.getValue(activity.family), if (n?.disputed == true) Palette.mixed else color, 22.dp)
+            val elect = if (tibetan) onElect else onElect?.takeIf { activity in KyurekiElection.OFFERED }
+            val opens = tibetan || elect != null
+            var open by remember { mutableStateOf(false) }
+            Column(
+                Modifier
+                    .widthIn(max = labelMax)
+                    .then(if (opens) Modifier.clickable(role = Role.Button) { open = !open } else Modifier)
+                    .semantics { stateDescription = side },
+            ) {
+                Text(title, style = body.copy(fontSize = 16.sp))
+                if (open && opens) {
+                    Balloon(
+                        listOf(BalloonRow(side, activity.english)) + (
+                            period?.let { sign -> listOf(BalloonRow(stringResource(R.string.brief_period_kind), stringResource(R.string.brief_period_until, sign.english, until.orEmpty()))) }
+                                ?: voices.map { BalloonRow(it.english, it.kanji) }
+                            ),
+                        preferAbove = true,
+                        actions = listOfNotNull(elect?.let { BalloonAction(choose) { it(activity) } }),
+                        onDismiss = { open = false },
+                    )
                 }
+                if (n?.disputed == true) {
+                    Text(
+                        stringResource(if (good) R.string.brief_also_avoid else R.string.brief_also_good),
+                        style = body.copy(fontSize = 12.sp, color = Palette.mixed),
+                    )
+                }
+            }
+            if (n == null) {
+                Text(unnamed, style = body.copy(fontSize = 13.sp, color = Palette.faint, textAlign = TextAlign.End), modifier = Modifier.weight(1f).clearAndSetSemantics {})
+            } else {
+                Terms(voices, small = true, modifier = Modifier.weight(1f), end = true)
             }
         }
     }

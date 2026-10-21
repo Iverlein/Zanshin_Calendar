@@ -32,6 +32,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
@@ -115,6 +117,9 @@ fun TibetanPage(
     onHealth: () -> Unit = {},
     /** Opens the person's year of age in the Reckonings, at the Tibetan year given, from the year's balloon (SPEC §10.11). */
     onYearOfAge: (Int) -> Unit = {},
+    /** The works pinned to the Works section (ROADMAP U19), and what the section's chooser sets them to. */
+    pinned: List<Activity> = emptyList(),
+    onPinned: (List<Activity>) -> Unit = {},
     onElect: (Activity) -> Unit = {},
 ) {
     val day = info.tibetan
@@ -123,6 +128,7 @@ fun TibetanPage(
     var balloon by remember(day.jd) { mutableStateOf<TibetanBalloon?>(null) }
     var sheet by remember(day.jd) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
+    var pinning by remember { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
     // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
     var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
@@ -258,6 +264,7 @@ fun TibetanPage(
         val forBirthYear = stringResource(R.string.tib_for_birth_year)
         val pairSubtitle = stringResource(R.string.tib_element_pair_subtitle, day.elementPair.english)
         val haircutTitle = stringResource(R.string.tib_haircut)
+        val pinLabel = stringResource(R.string.works_pin)
         // The haircut as the brief weighs it (SPEC §5.12): the side, and the factors standing on it, strongest first.
         val haircutSide = summary.sideOf(Activity.HAIRCUTS)
         val haircutStanding = haircutSide?.second.orEmpty()
@@ -724,7 +731,40 @@ fun TibetanPage(
                 parts = listOf(dateDay),
             )
         }
-        SectionTitle(stringResource(R.string.section_works))
+        // The works pinned (ROADMAP U19) stand first, in the brief's form and as it gives them, the hour's on today's page;
+        // the haircut, always shown, after them. The heading's pin opens the chooser: the title stays where the other
+        // sections' stand, the pin beside it, its touch target reaching below.
+        Row(verticalAlignment = Alignment.Top) {
+            Box(Modifier.weight(1f)) { SectionTitle(stringResource(R.string.section_works)) }
+            Box(
+                Modifier
+                    .size(48.dp)
+                    .clickable(role = Role.Button) { pinning = true }
+                    .semantics { contentDescription = pinLabel },
+                contentAlignment = Alignment.TopCenter,
+            ) {
+                Icon(
+                    Icons.Pushpin,
+                    contentDescription = null,
+                    tint = if (pinned.isEmpty()) Palette.faint else Palette.muted,
+                    modifier = Modifier.padding(top = 7.dp).size(18.dp),
+                )
+            }
+        }
+        val pinnedNotes = remember(brief, pinned) { brief.pinned(pinned) }
+        if (pinnedNotes.isNotEmpty()) {
+            Column(Modifier.padding(bottom = 8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                for ((work, n) in pinnedNotes) {
+                    val good = n?.good?.isNotEmpty() == true
+                    val colour = when {
+                        n == null -> Palette.faint
+                        good -> Palette.good
+                        else -> Palette.bad
+                    }
+                    WorkLine(work, n, good, colour, tibetan = true, now = brief.now, onElect = onElect, title = work.english.replaceFirstChar { it.uppercase(labels.locale) })
+                }
+            }
+        }
         AnnotationRow(haircutRow) { a -> sheet = a }
 
         // The Almanac's heading names what decides the day; among its rows only that voice's dot is solid,
@@ -955,6 +995,7 @@ fun TibetanPage(
     }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, summary, place, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
+    if (pinning) PinWorksSheet(pinned, onPinned) { pinning = false }
 }
 
 /**

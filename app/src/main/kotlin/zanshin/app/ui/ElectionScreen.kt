@@ -25,6 +25,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -126,9 +127,17 @@ fun ElectionScreen(
     }
 }
 
-/** The works by family, each family opening its works, and a search over their names in the app's language. */
+/**
+ * The works by family, each family opening its works, and a search over their names in the app's language,
+ * under [prompt]. With [checked] a work is ticked rather than picked: the Works section's chooser (ROADMAP U19).
+ */
 @Composable
-private fun WorkPicker(offered: Map<ActivityFamily, List<Activity>>, onWork: (Activity) -> Unit) {
+internal fun WorkPicker(
+    offered: Map<ActivityFamily, List<Activity>>,
+    onWork: (Activity) -> Unit,
+    prompt: String = stringResource(R.string.election_pick),
+    checked: Set<Activity>? = null,
+) {
     var query by rememberSaveable { mutableStateOf("") }
     var open by rememberSaveable { mutableStateOf<String?>(null) }
     val locale = LocalLabels.current.locale
@@ -139,7 +148,7 @@ private fun WorkPicker(offered: Map<ActivityFamily, List<Activity>>, onWork: (Ac
     LazyColumn(Modifier.fillMaxSize(), contentPadding = androidx.compose.foundation.layout.PaddingValues(start = 24.dp, end = 24.dp, bottom = 32.dp)) {
         item {
             Column(Modifier.padding(bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                Text(stringResource(R.string.election_pick), style = body.copy(fontSize = 16.sp, color = Palette.muted))
+                Text(prompt, style = body.copy(fontSize = 16.sp, color = Palette.muted))
                 Row(
                     Modifier
                         .fillMaxWidth()
@@ -168,13 +177,13 @@ private fun WorkPicker(offered: Map<ActivityFamily, List<Activity>>, onWork: (Ac
         }
         if (query.isNotBlank()) {
             if (matches.isEmpty()) item { Text(stringResource(R.string.election_no_match), style = body.copy(color = Palette.faint)) }
-            items(matches) { WorkRow(it, onWork) }
+            items(matches) { WorkRow(it, onWork, checked = checked?.contains(it)) }
         } else {
             for ((family, works) in offered) {
                 item(key = "family ${family.name}") {
                     FamilyRow(family, works.size, open == family.name) { open = if (open == family.name) null else family.name }
                 }
-                if (open == family.name) items(works, key = { "work ${it.name}" }) { WorkRow(it, onWork, indent = true) }
+                if (open == family.name) items(works, key = { "work ${it.name}" }) { WorkRow(it, onWork, indent = true, checked = checked?.contains(it)) }
             }
         }
     }
@@ -197,19 +206,46 @@ private fun FamilyRow(family: ActivityFamily, count: Int, open: Boolean, onToggl
     }
 }
 
+/**
+ * The Works section's chooser (ROADMAP U19, SPEC §10.3): the election's works by family and by search, each
+ * ticked to pin it and kept at once; the haircut is not offered, since the section always holds it.
+ */
 @Composable
-private fun WorkRow(work: Activity, onWork: (Activity) -> Unit, indent: Boolean = false) {
+fun PinWorksSheet(pinned: List<Activity>, onPinned: (List<Activity>) -> Unit, onDismiss: () -> Unit) {
+    val offered = remember { Election.WORKS.mapValues { (_, works) -> works - Activity.HAIRCUTS }.filterValues { it.isNotEmpty() } }
+    Sheet(onDismiss) {
+        Text(
+            stringResource(R.string.works_pin),
+            style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold),
+            modifier = Modifier.padding(start = 24.dp, end = 24.dp, bottom = 12.dp),
+        )
+        WorkPicker(
+            offered,
+            { w -> onPinned(if (w in pinned) pinned - w else pinned + w) },
+            prompt = stringResource(R.string.works_pin_note),
+            checked = pinned.toSet(),
+        )
+    }
+}
+
+/** A work to pick, or with [checked] not null a work to tick, its tick at the end. */
+@Composable
+private fun WorkRow(work: Activity, onWork: (Activity) -> Unit, indent: Boolean = false, checked: Boolean? = null) {
     Row(
         Modifier
             .fillMaxWidth()
             .heightIn(min = 48.dp)
-            .clickable(role = Role.Button) { onWork(work) }
+            .then(
+                if (checked == null) Modifier.clickable(role = Role.Button) { onWork(work) }
+                else Modifier.toggleable(checked, role = Role.Checkbox) { onWork(work) },
+            )
             .padding(start = if (indent) 38.dp else 0.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         if (!indent) CueIcon(CueGlyphs.FAMILY.getValue(work.family), Palette.muted, 20.dp)
-        Text(withTibetan(work.english.replaceFirstChar { it.uppercase() }), style = body.copy(fontSize = 15.sp))
+        Text(withTibetan(work.english.replaceFirstChar { it.uppercase() }), style = body.copy(fontSize = 15.sp), modifier = Modifier.weight(1f))
+        if (checked == true) Icon(Icons.Check, contentDescription = null, tint = Palette.saffron, modifier = Modifier.size(20.dp))
     }
 }
 
