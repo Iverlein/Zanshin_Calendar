@@ -4814,4 +4814,235 @@ nong* (ཁ་ཡན་ཁོང་ནོང, kha yan khong nong) (2), the twelve
 
 ## Written reckonings: the practitioners' form (RD28)
 
-Nothing read yet: RD28's passages, with the English beside them, go here.
+Read 2026-10-21. BDRC's full-text search (`bdrc_search.py`, every result
+page) for «ཀེག་རྩིས», «སྐྱེས་རྩིས», «རྩིས་ཡིག», «ལོ་རྩིས», «རྩིས་བྱང», «བཙས་རྩིས»,
+«རྩིས་ཤོག», «ཤོག་ཁྲ», «འཁྲུངས་རྩིས», «ཚེ་རྩིས», «རྩིས་དཔེ» and the closing
+phrases below, and the catalogue records (`ldspdi.bdrc.io/resource/…`) of
+the works the titles named. One set of written reckonings was read on the
+scan: Kun dga' rig 'dzin's sheets in KD vol. 3, pp. 713–729, on the lent
+scans (`bdrc-W28845-2`, leaves 732–748; leaf = printed page + 19, checked
+on every leaf by its printed number), each leaf read by eye at 1–2× and the
+prose at 4×, with Yigdzin-1 over leaves 732 and 748 and KD's etext
+(VEIE0OPI2F246A26_I4717, etext page = printed page + 20) beside. The loan
+was returned and its cookie file deleted the same hour. The sheets are a
+modern author's (KD, Chengdu 1998): they are described here and quoted no
+further than their headings and their one passage of prose. Two written
+reckonings with open scans, a manuscript reckoning for the dead and the
+Lhasa Mentsikhang's (སྨན་རྩིས་ཁང, sman rtsis khang) print of reckoning
+models, could not be fetched: BDRC's image server answered 503, or 200
+with an empty body, for every image from 11:18 on (below, *Not read*).
+They are a witness below WB in any case (sources rule): what follows adds
+only where WB and Mipham are silent.
+
+### 1. What the catalogue holds
+
+Works whose titles name a written reckoning, a sheet or a model of one,
+by BDRC's search, 2026-10-21 (Bon works left out, sources rule):
+
+| Work | What it is | Access |
+| --- | --- | --- |
+| *Sheets of Some Needed Examples* (ཉེར་མཁོའི་དཔེར་བརྗོད་ཁག་ཅིག་གི་ཤོག་ཁྲ, nyer mkho'i dper brjod khag cig gi shog khra), Kun dga' rig 'dzin (ཀུན་དགའ་རིག་འཛིན, kun dga' rig 'dzin) | worked sheets for every reckoning; KD vol. 3, pp. 713–729 (MW28845_B881BE) | lent scans; good etext. **Read** (section 2) |
+| *A Written Reckoning of the Dead, Set Out Briefly on a Sheet* (གཤིན་རྩིས་ཉུང་བསྡུས་སུ་ཤོག་ཕྲར་བཀོད་པའི་རྩིས་ཡིག, gshin rtsis nyung bsdus su shog phrar bkod pa'i rtsis yig) | a manuscript in the Library of Tibetan Works and Archives' (བོད་ཀྱི་དཔེ་མཛོད་ཁང, bod kyi dpe mdzod khang) volume I1LT0800, img. 359–401 (MW1LT0800_O1LT0800_D13407) | open, 3929 px; not served on 2026-10-21 |
+| *The Life Reckoning with Its Results Set Out Clearly, The Source of All Wellbeing, and Some Reckoning Books* (ཚེ་རྩིས་འབྲས་བཤད་བཅས་གསལ་བར་བཀོད་པ་བདེ་ལེགས་ཀུན་འབྱུང་སོགས་རྩིས་དཔེ་ཁག་ཅིག, tshe rtsis 'bras bshad bcas gsal bar bkod pa bde legs kun 'byung sogs rtsis dpe khag cig) | Lhasa Mentsikhang blockprint, 1987 (MW1KG12790; I1KG12897, 656 images, 1169 px) | open, no etext; not served |
+| *The Life Reckoning's Results, Delighting New Minds* (ཚེ་རྩིས་འབྲས་བུ་བློ་གསར་དགའ་སྐྱེད, tshe rtsis 'bras bu blo gsar dga' skyed), ed. Lha dbang tshe ring (ལྷ་དབང་ཚེ་རིང, lha dbang tshe ring) | Dharamsala Mentsikhang, 1998 (MW1KG5006) | in copyright; its etext IE1KG5006 answers 404 |
+| *How to Make the Year Reckoning, Complete in Benefit* (ལོ་རྩིས་བྱ་ཚུལ་ཕན་པ་ཀུན་ལྡན, lo rtsis bya tshul phan pa kun ldan), Blo lhun (བློ་ལྷུན, blo lhun) | National Library of Mongolia manuscript, ff. 1a–10a (MW1NLM2622_O1NLM2622_007); its colophon calls it the year reckoning "taught in the Kālacakra tantra" (དུས་འཁོར་གྱི་རྒྱུད, dus 'khor gyi rgyud), the Indian reckoning, not WB's elemental one | open; not read |
+| *Written Reckoning of the Eight Trigrams* (སྤར་ཁ་བརྒྱད་ཀྱི་རྩིས་ཡིག, spar kha brgyad kyi rtsis yig) | NLM manuscript, ff. 1a–12b, incomplete (MW1NLM3131_O1NLM3131_010) | open; not read |
+| *The Mewa's Year Reckoning of Lives* (སྨེ་བ་ཚེ་རབས་ལོ་རྩིས, sme ba tshe rabs lo rtsis), 19 ff. (MW3MS155_CBAC40); *Year Reckoning* (ལོ་རྩིས, lo rtsis), Tshe brtan (ཚེ་བརྟན, tshe brtan), pp. 103–106 (MW20844_ACF732); *How to Reckon the Year* (ལོ་རྩིས་ཚུལ, lo rtsis tshul), 1 f. (MW2PD17514_9C974C) | short pieces in collections | open; not read |
+| *The Sheet of the Pebble Ground of the Chinese Reckoning* (གཙུག་ལག་རྩིས་ཀྱི་རྡེའུ་གཞིའི་ཤོག་ཁྲ, gtsug lag rtsis kyi rde'u gzhi'i shog khra), 10 ff. (MW3PD446_17A116, the Sera (སེ་ར, se ra) library's Nyingma (རྙིང་མ, rnying ma) volumes, vol. 9) | a blank form, by its title | open; not read |
+| sheets of the marriage tables (བག་རྩིས་ཀྱི་རེའུ་མིག་བལྟས་ཆོག་ཀུན་གསལ་བའི་ཤོག་ཁྲ, bag rtsis kyi re'u mig bltas chog kun gsal ba'i shog khra) in several NLM manuscripts, and *The Sheet Book of the White Beryl* (བཻ་ཌཱུ་ར་དཀར་པོའི་ཤོག་ཁྲ་མ, bai DU ra dkar po'i shog khra ma), ff. 1a–47a (MW1NLM8186_O1NLM8186_002) | look-up tables and WB's charts, by their titles | open; not read |
+| *Laying the Pebbles of the Chinese Reckoning and Their Results* (ནག་རྩིས་རྡེལ་འགྲེམ་འབྲས་བཤད, nag rtsis rdel 'grem 'bras bshad), Lhamo Tsultrim (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims) | a manual of laying and results (MW1KG21818, etext I1KG21886; the Labrang (བླ་བྲང, bla brang) print MW8LS73586) | etext read (section 3) |
+
+### 2. Kun dga' rig 'dzin's sheets (KD vol. 3, pp. 713–729)
+
+The title leaf, p. 713 (leaf 732), on the scan:
+
+> ཉེར་མཁོའི་དཔེར་བརྗོད་ཁག་ཅིག་གི་ཤོག་ཁྲ། ༄༅། །ལྔ་བསྡུས་དང་། དུས་སྦྱོར། གཟའ་དགུ་སོགས་ནམ་ཞག་གཏན་གྱི་མཐའ་རྩིས་དང་། བག་རྩིས། ཀེག་རྩིས་རྒྱས་འབྲིང་བསྡུས་གསུམ། ནད་རྩིས་རྒྱས་བསྡུས། གཤིན་རྩིས་ཀྱི་ལོ་ཟླ་ཞག་དུས་བཞིའི་རྡེལ་ཁྲའི་སྐོར་གྱི་དཔེར་བརྗོད་བཅས་བཞུགས། ། ཀུན་དགའ་རིག་འཛིན་གྱིས་བྲིས།
+
+Sheets of some needed examples: the five factors (ལྔ་བསྡུས, lnga bsdus),
+the conjunctions (དུས་སྦྱོར, dus sbyor), the nine planets and the other
+final reckonings that hold for all time; the marriage reckoning (བག་རྩིས,
+bag rtsis); the obstacle reckoning (ཀེག་རྩིས, keg rtsis) in full, middling
+and brief; the illness reckoning (ནད་རྩིས, nad rtsis) in full and brief; and
+examples of the pebble charts (རྡེལ་ཁྲ, rdel khra) of the reckoning for the
+dead (གཤིན་རྩིས, gshin rtsis) by its four, the year, month, day and hour.
+Written (drawn) by Kun dga' rig 'dzin. (The etext's «རྒྱུས་འབྲིང» is «རྒྱས་འབྲིང»
+on the scan.)
+
+The sheets, page by page, by their headings on the scan (each is a ruled
+chart; the cells hold names of elements and signs, numbers and pebbles drawn
+as white and black dots):
+
+| Page (leaf) | Heading on the scan | What the sheet holds |
+| --- | --- | --- |
+| 715 (734) | «འཁྲུངས་ཉིན་གྱི་གྲུབ་རྩིས་ལྔ་བསྡུས།» | the birth day's calculated five factors: weekday, mansion, yoga, karaṇa, lunar day, with their numbers; a sample birth date in the corner |
+| 716 (735) | «ཟླ་ཁྱིམ་དུས་སྦྱོར།», «འཁྲུངས་དུས་ཀྱི་དུས་སྦྱོར།», «རྡོ་རྗེ་རྒྱ་གྲམ་སྐྱེས་བུའི་སྲོག་[མྱུ]་རྩིས།» and below them «གཅེས་པའི་རྡེལ་བཞི།» | the moon's house and the birth time's conjunction as squares; the man's life reckoning (སྲོག, srog) on the vajra cross (རྡོ་རྗེ་རྒྱ་གྲམ, rdo rje rgya gram) with its pebbles; the four precious pebbles (གཅེས་པའི་རྡེལ་བཞི, gces pa'i rdel bzhi) of the birth year, month, day and hour |
+| 717 (736) | «དར་གུད་ཞག་མལ་བཞི།», «ལྷ་དཔལ་འདྲེ་བདུད་སྤར།», «ལྷ་དཔལ་འདྲེ་བདུད་སྨེ།» | the four stages of rise and decline (དར་གུད, dar gud), and the trigram's and the mewa's god, glory, demon and devil (ལྷ་དཔལ་འདྲེ་བདུད, lha dpal 'dre bdud) of the birth, each named with a word of result (a treasure found, long-lasting, cut off) and its pebbles; a box of the nine squares |
+| 718–719 (737–738) | «གཙུག་ལག་སྤོར་ཐང་ལས་བརྒྱ་འདྲེའི་རྡེའུའི་ཁྲ་མ།», «གཙུག་ལག་སྤོར་ཐང་ལས་སྦས་པ་མཛུབ་ཚུགས་རྡེལ་ཁྲ།» | the chart of the hundred mixed pebbles: the four aspects' twenty-five each (life, body, power, luck, «༢༥» each, in columns of self, mother, son, friend and enemy), by the *Spor thang* (གཙུག་ལག་སྤོར་ཐང, gtsug lag spor thang); the pebble chart of the *Hidden Pointing Finger* (སྦས་པ་མཛུབ་ཚུགས, sbas pa mdzub tshugs) |
+| 720 (739) | (no heading; the etext's lines) | a son and a daughter with their mothers' years: the marriage reckoning's life pebbles, birth months, birth trigrams and mothers' mewas, and the «ཎི་ཤ» (Ni sha, the match's sixth point, [marriage.md](marriage.md)) of their ages and year signs |
+| 721 (740) | «ལོ་གཅིག་ཁྱུད་སྐོར་ཀེག་རྩིས་ལས་རྡེལ་གྲངས་ཞེ་བདུན་མ་བཞུགས་སོ།» | the year's obstacle reckoning of forty-seven pebbles: the year's pebbles, the seven harsh pebbles, the small obstacles of trigram and mewa, the reversed sign's branch, the nine-multiple and the tomb |
+| 722 (741) | «ལོ་གཅིག་ཁྱུད་སྐོར་ཀེག་རྩིས་ལས་རྡེལ་གྲངས་སོ་གཅིག་མ་བཞུགས་སོ།» | the same of thirty-one pebbles: the four aspects fought by the four, rows for the trigram and mewa, the nine-multiples in a column, and a last row, «སྟངས་གཅོད་རྡེལ་བཞི།», the four deciding pebbles |
+| 723–725 (742–744) | «སྤང་རྒྱན་ལོ་མའི་སྐོར་གསུམ་ལས་དང་པོ་གསེར་ལོ་ཅན་གྱི་རྡེལ།», «…གཉིས་པ་གཡུ་ལོ་ཅན་གྱི་རྡེལ།», «…གསུམ་པ་དུང་ལོ་ཅན་གྱི་རྡེལ།» | the meadow's ornament (སྤང་རྒྱན, spang rgyan; WB ch. 27, RD23 above) in its three rounds, of the golden, turquoise and conch years: four years set against the one reckoned (his own year, its seventh, the sixth and the fourth counted down), five columns each (life, body, power, luck, mewa), rows for his four aspects and his mewa, and a last row, «ཁ་དམར་རྡེལ།», the verdict pebbles |
+| 726 (745) | «གཙུག་ལག་སྤོར་ཐང་རྩིས་གཞུང་ལས་ཁྱིམ་མི་གཅིག་བསྡུས་རྒྱ་ནག་རྡེལ་སྐོར་གྱི་ཁྲ་མ་བཞུགས་སོ།» | a household gathered into one: each member's year, the pebbles laid in the places of gods, men, house, enemies and so on, and a line «ཕྲེང་འདི་དག་དོར་བར་བྱ།», these rows to be discarded |
+| 727 (746) | «འབྱུང་བ་འཁྲུགས་དང་རྣམ་རྟོག་གིས་བསྐྱེད་པའི་ནད་དམ་བཅས་མ་ཐག་པའི་བྱིས་པའི་ཆེད་ནད་རྩིས་རྡེའུ་བཅུ་དགུ།» | the illness reckoning of nineteen pebbles, for an illness from disturbed elements and thought, or for a newborn child: the year, month, day and hour of the illness, the stages of life and body |
+| 728 (747) | «གཙུག་ལག་རྩིས་གཞུང་ལས་ནད་རྩིས་ཐང་ཤིང་བཞུགས་སོ།» | the illness reckoning's plank-trees (ཐང་ཤིང, thang shing) by the reckoning's text |
+| 729 (748) | the reckoning for the dead (below) | the dead's pebble chart and the order of its results: the only sheet with prose |
+
+The verdict row of the meadow's ornament, p. 724 (leaf 743, the turquoise
+round; read at 3×), twenty cells, five to each year, counted by the
+pebbles drawn: three white, one black, white and black, white and black,
+one white | two white, one white, white and black, white and black, two
+white | two white, one white, white and black, white and black, one white
+| two white, one white, one white, one white, one white. The verdict is
+drawn with a count, as a root pebble is (three, two or one white; white
+and black; one black), not as a single colour; the sheet does not say how
+the count was taken.
+
+The dead's sheet, p. 729 (leaf 748), read on the scan at 2–4×; Yigdzin-1
+agrees but for «ལྔ་ལམ» (the scan «ལྷ་ལམ») and «མདུན་ཚོས» (the scan «མདུན་ཆོས»):
+
+> ༄༅། །གཤིན་པོ་མེ་རྟ་དགུང་གྲངས་དགུ་བཅུའི་སྟེང་ཕེབས་པ་ཤིང་ཕག་གནམ་ལོའི་ཟླ་བ་དགུ་པའི་ཚེས་བཞི་ཕྱེད་ཡོལ་ལུག་ཐོག་འཇིག་རྟེན་འདི་ནས་ཕྱི་མའི་ལྷ་ལམ་དུ་གྱུར་པའི་འདུར་རྩིས་བསྐོར་བའི་རྡེལ་ཁྲ་དང་གོ་རིམ་རྣམས་བཀོད་པ།
+
+The pebble chart and the order of the funeral reckoning (འདུར་རྩིས,
+'dur rtsis) cast for a dead man of the fire horse year, past ninety, who
+went from this world to the path of the gods in a wood pig year, on the
+fourth of the ninth month, at the sheep hour in the afternoon. Below it a
+chart of five columns, the dead's year, and the year, month, day and hour
+of the death, each fought against his body, life, power and luck, the
+last column headed «སྟངས་གཅོད», the deciding pebble (stangs gcod). Then:
+
+> ༄༅། །སྲོག་གི་སྟངས་གཅོད་ནག་པས་ན། །སྲོག་གི་འགིང་ཤིང་ཆག་པ་སྟེ། །ཚེ་ཡི་འཁོར་ལོ་ཞིག་པ་དང་། །བྱ་ནག་སྟེང་ལྡིང་ཁྱི་ནག་ཟུགས། །རོ་འཛིན་ལག་རྗེས་བླ་ཚེ་འདི། །བདུད་ཀྱིས་སྔོན་ནས་བཅད་ཟིན་པས། །འཆི་བའི་དུས་སུ་བབས་པ་ཡིན། །ལུས་ཀྱི་སྟངས་གཅོད་དཀར་བས་ན། །ལུས་འབྱུང་དཔག་བསམ་སྡོང་པོ་ལ། །གཅོད་པའི་སྟར་ཐོགས་མི་ཡོང་སྙམ། །འཆིང་བའི་ཞགས་ཐོགས་མི་ཡོང་སྙམ། །ལྷ་ས་འདྲེ་ཡིས་འཕྲོག་པས་ལན། །དུར་མི་འདོད་ལ་འཆི་བ་འོ། །དབང་ཐང་སྟངས་གཅོད་དཀར་བས་ན། ཁ་གང་ཟས་དང་རྒྱབ་གང་གོས། །མ་ཟད་པ་ལ་གློ་བུར་ཆད། །ཀླུ་རྟའི་སྟངས་གཅོད་ནག་པ་ན། །ཀླུང་རྟ་བསོད་ནམས་རྒྱལ་མཚན་འགྱེལ། །ཉི་ཟླ་ནམ་མཁའི་མཐོངས་ནས་ནུབ། །སྔ་མ་བསགས་པའི་བསོད་ནམས་ཟད། །ཕྱི་མ་གསོག་པར་གསོག་ལོང་མེད། །འཆི་བའི་དུས་སུ་སླེབས་པའོ། །ཞེས་རྡེལ་ཁྲར་གཞིགས་ནས་འབྲས་བུ་བཏོན་དགོས་སོ། །
+>
+> དེ་ནས་རིམ་བཞིན་བབས་སྤར་ཁོན་དང་། རེས་གཟའ་ལྷག་པ། སྐར་མ་ལྷ་མཚམས། དུས་ཚོད་སོགས་ཀྱི་འབྲས་བུ་གཙོར་བཏོན་གྱིས་གཏོ་བཅོས་ཁག་དང་། མདུན་ཆོས། ཕུང་པོ་འདྲེན་པའི་དུས་ཚོད། དུར་རྫོངས། ཤུལ་འཕྱག །རྒྱབ་ཆོས། ར་མདའ་དགེ་རྩའི་ཁྱད་པར་གྱིས་ཕྱི་མ་གང་དུ་སྐྱེ་བ་སོགས་ཀྱིས་རྩིས་འབྲས་འདོན་དགོས་པ་བཅས་ཡིན་ནོ།།
+
+The life's deciding pebble black: the life's post is broken, the wheel of
+life undone, a black bird hovers above and a black dog has its teeth in;
+this life, held as a corpse and marked by the hand, was cut beforehand by
+the demon, and the time of death has come. The body's deciding pebble
+white: one thought no axe would come for the wish-granting tree of the
+body, no noose to bind it; the god's place was robbed by a demon in
+return, and he died unwilling to die. The power's deciding pebble white:
+the mouthful of food and the back's cover of clothes were not used up,
+yet were cut off suddenly. The luck's deciding pebble black: the
+wind-horse's banner of merit fell, sun and moon set from the sky's
+opening, the merit gathered before is spent and nothing is laid by for
+later; the time of death has come. **So, looking at the pebble chart, the
+results are to be drawn out.**
+
+**Then, in order, the results above all of the trigram that fell, Khon (ཁོན,
+khon), the weekday Wednesday, the mansion, the hour and the
+rest are drawn out, and with them the reckoning's result must be given:
+the several rites of remedy (གཏོ་བཅོས, gto bcos), the rites before the
+funeral (མདུན་ཆོས, mdun chos), the hour for carrying out the body, the
+sending to the burial place (དུར་རྫོངས, dur rdzongs), the sweeping of the
+traces (ཤུལ་འཕྱག, shul 'phyag), the rites after (རྒྱབ་ཆོས, rgyab chos), and,
+by the help (ར་མདའ, ra mda') of roots of virtue, where he will be born
+next.**
+
+The four verses are WB's own lines for the deciding pebbles (བཏང་གཅོད,
+btang gcod) of the reckoning for the dead, the life and luck almost word
+for word (vol. 2, p. 56, etext img. 64: «…ཀླུང་རྟ་བསོད་ནམས་རྒྱལ་མཚན་འགྲེལ། །ཉི་ཟླ་ནམ་མཁའི་མཐོངས་སུ་ནུབ། །སྔ་མ་བསགས་པའི་བསོད་ནམས་ཟད། །ཕྱི་མ་བསོག་པར་གསོག་ལོང་མེད།…», etext
+only; the body's «ལྷ་ས་འདྲེ་ཡིས་འཕྲོག་པས་ལན། །དུར་མི་འདོད་པར་ཤི་བའོ།» on the
+same etext page): the sheet rests on WB for its readings. «ཀླུ་རྟའི» in the
+third verse is the print's (the eye at 3× reads no ང; the next line has
+«ཀླུང་རྟ»).
+
+What the sheets give, as the practitioners' form of a written reckoning:
+
+- **A sheet per reckoning**, headed by what is reckoned and for whom (the
+  dead's heading gives his year, age, and the date and hour of death), the
+  inputs set out first (the five factors, the four precious pebbles, the
+  years fought), then the pebbles in a ruled chart (ཁྲ་མ, khra ma), aspect by
+  aspect, and last the row of the deciding or verdict pebbles («སྟངས་གཅོད་རྡེལ་བཞི», «ཁ་དམར་རྡེལ»).
+- **No written conclusion on the charts.** Every sheet but the dead's
+  closes on its last row of pebbles, on the scan and in the etext: no
+  sentence of result, no rule for the whole, no rite (p. 726 has only an
+  instruction to discard rows).
+- **The dead's sheet closes in words**, in a fixed order: the deciding
+  pebbles of the four aspects read one by one (WB's lines), "the results
+  drawn out by looking at the chart", then the other results "above all"
+  (the trigram Khon, weekday, mansion, hour), and with them the rites and
+  arrangements, ending on the next birth. The result given is the
+  results with their rites, not one verdict.
+- This is the form Mipham describes (vol. 2, p. 539; RD26 above): the
+  chart, the results good and bad, and the rites on one sheet.
+
+### 3. Lhamo Tsultrim's manual: how its reckonings close (etext only)
+
+The etext of *Laying the Pebbles of the Chinese Reckoning and Their
+Results* (VEIE0OPI9C5B1B35_I1KG21886; not read on the scan: the image
+server was down) closes its reckonings in a stock line. After the year of
+age's stages and harsh pebbles (etext pp. 20–21):
+
+> …ལོག་མེན་དགུ་མིག་སྐོར་འགོ་སོགས། ། རྒྱས་པ་རྩིས་གཞུང་དག་ལས་རྟོགས། ། རྩིས་འབྲས་བླང་དོར་ལག་ཏུ་ལོངས།
+
+…the reversed sign, the nine-multiple, the starting points and the rest:
+learn them at length from the reckoning texts; take the reckoning's
+results, what to adopt and what to reject, into practice.
+
+For the meadow's ornament (etext p. 26), «ཉེར་ལྔ་ཅན་རེའི་བར་མཚམས་སུ། ། ཁ་དམར་ལྔ་རེ་བོར་བ་ལ། ། སྤང་བླང་འབྲས་བུ་ཀེག་རྩིས་སྤྱིའི། །ལུགས་བཞིན་མ་ནོར་བརྗོད་པར་བྱ།»: five
+verdicts laid between each set of twenty-five, the results of what to
+give up and what to take are told without error after the way of the
+obstacle reckoning in general (RD23's "five verdicts to each
+twenty-five", from the manual's side); for the household (etext p. 29),
+«རྩིས་འབྲས་ཀེག་རྩིས་སྤྱི་ལྟར་བརྗོད།», the results told as in the obstacle
+reckoning in general. The close of a reckoning is the results told as
+what to adopt and reject, by the general readings; no single verdict. Its
+colophon (etext p. 81) names the writer Rdo rams pa Blo bzang tshul khrims
+rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་ཁྲིམས་རྒྱ་མཚོ, rdo rams pa blo bzang tshul khrims rgya mtsho), of Labrang Tashi Khyil (བླ་བྲང་བཀྲ་ཤིས་འཁྱིལ, bla brang bkra shis 'khyil), at the age of twenty-six.
+
+### 4. Not read
+
+- The manuscript reckoning for the dead on a sheet (I1LT0800, img.
+  359–401) and the Lhasa Mentsikhang's reckoning books (I1KG12897): open
+  scans, but BDRC's image server answered 503 for full size and an empty
+  200 for any width on 2026-10-21 from 11:18; nothing fetched. These are
+  the two written reckonings of the catalogue that would show a whole
+  practitioner's reckoning rather than KD's examples.
+- The Kālacakra year reckoning (MW1NLM2622_007) and the short year
+  reckonings of section 1: the Indian reckoning or of unknown school,
+  left for a later reading.
+
+### What the written reckonings give, in short
+
+- The practitioners write a reckoning as a sheet of charts, one per
+  reckoning: the inputs, the pebbles aspect by aspect, a last row of
+  deciding or verdict pebbles (KD vol. 3, pp. 715–728).
+- The verdict on a sheet is drawn with its count (three, two or one white;
+  white and black; one black), not as a bare colour (p. 724).
+- Where words follow the chart (the dead, p. 729), they read each aspect's
+  deciding pebble by WB's lines, then the other results "above all", then
+  the rites and arrangements; the result given is results with remedies,
+  as Mipham's p. 539 has it. No sheet and no manual found gives one verdict
+  for a whole reckoning.
+
+### Open
+
+- Question: On Kun dga' rig 'dzin's sheet of the meadow's ornament (KD vol. 3, p. 724) the verdict row lays counts (three white, two white, one white, white and black, one black), not one colour; is the verdict pebble laid with a count in practice, and from what is the count taken?
+- Question: Which work is the *Spor thang* (གཙུག་ལག་སྤོར་ཐང) that the sheets cite for the hundred pebbles and the household (KD vol. 3, pp. 718, 726), and does it rest on WB?
+- Question: Is the sheets' «སྟངས་གཅོད» (pp. 722, 729) WB's «བཏང་གཅོད», the deciding pebble, in another spelling?
+- Question: Who is Kun dga' rig 'dzin, the writer of the sheets?
+- Doubts left on the scan (no agy turn): p. 716, «སྲོག་[མྱུ]་རྩིས» (the etext «མྱུ»; the eye at 4× cannot tell མྱུ from ཕྱུ); p. 729, «ཀླུ་རྟའི» as printed.
+
+### Searched and not found
+
+- 2026-10-21, BDRC's full-text search, no hit: «སྐྱེས་རྩིས་ཀྱི་ཡི་གེ»,
+  «རྩིས་ཡིག་འབྲི་ཚུལ», «རྩིས་ཡིག་བྲི་ཚུལ», «སྐྱེས་རྩིས་འབྲི་ཚུལ», «ཀེག་རྩིས་ཀྱི་ཡི་གེ»,
+  «ལོ་རྩིས་ཀྱི་ཡི་གེ», «ལོ་བབས་རྩིས», «སྐྱེས་རྩིས་ཡིག», «དཔེར་བརྗོད་ཀྱི་ཤོག་ཁྲ»: no
+  manual for writing a reckoning by those names.
+- 2026-10-21, BDRC's search, titles: «སྐྱེས་རྩིས» (56 hits) names one work,
+  a manuscript on the thirty sounding elements (ཁ་སྲོག, kha srog) and the birth's good and bad
+  (MW2PD19899_9CC3D5); «བཙས་རྩིས» (12) and «འཁྲུངས་རྩིས» (28) no title;
+  «རྩིས་བྱང» (138) as a title only in the Bon Kanjur and Katen (བོན་གྱི་བཀའ་བརྟེན, bon gyi bka' brten; MW30498), not a
+  source; «ཚེ་རྩིས» (191) titles mostly the svarodaya's (དབྱངས་འཆར, dbyangs 'char; Indian) life
+  reckoning; «རྩིས་དཔེ» (145) means a reckoning book, not a model, in the
+  titles seen; «ཤོག་ཁྲར་བཀོད», «ཤོག་ཕྲར་བཀོད», «རྡེལ་ཁྲར་གཞིགས» lead only to WB's
+  notes p. 539, the dead's written reckoning (I1LT0800) and KD's p. 729.
+- 2026-10-21, KD's etext, vols. 1–3 (I4715–I4717): «རྩིས་ཡིག» only for the
+  Chinese calendar of the Ming (vol. 1, etext p. 574); «རྩིས་བྱང» only as
+  part of «གྲུབ་རྩིས་བྱང་བགྲོད» (vol. 2); «དཔེར་བརྗོད» in vol. 2 only the
+  conjunctions' worked examples (etext pp. 150–161); «ཤོག་ཁྲ» in vol. 3 only
+  the sheets (etext pp. 733–751) and p. 13; «སྦྱིན་བདག» in vol. 3 only p. 163:
+  no instruction for writing a reckoning for a patron.
+- 2026-10-21, Lhamo Tsultrim's etext (I1KG21886): «མྱོང་བྱང», «རྩིས་ཡིག»,
+  «རྩིས་བྱང», «སྦྱིན་བདག», «ཡི་གེར», «འབྲི་ཚུལ», «བྲི་ཚུལ», «དཔེར་བརྗོད», «ཟིན་བྲིས»,
+  «སྤྱི་བསྡོམ» none; «ཤོག་ཁྲ» only for look-up tables (etext pp. 12, 194–195).
