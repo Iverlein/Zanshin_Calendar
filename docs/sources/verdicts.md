@@ -2701,3 +2701,18 @@ set up (two of the same animal, or the same element in year and aspects),
   «གཟའ་སྐར་འབྲས་བུ» (vol. 1, pp. 438–439; vol. 2, pp. 51, 316) and on
   p. 351; «བག་ལམ» on vol. 1, p. 368 (*spar kha'i bag lam*, the departure)
   and the notes, pp. 523, 526.
+
+
+## Dharmaśrī's *Moonbeams*: how the abridgement orders and closes a reckoning (RD27)
+
+Nothing read yet: RD27's passages, with the English beside them, go here.
+
+
+## The illness identified: the element that is most (RD22)
+
+Nothing read yet: RD22's passages, with the English beside them, go here.
+
+
+## The verdicts of the dead, the thirty, the circles and the moment (RD23)
+
+Nothing read yet: RD23's passages, with the English beside them, go here.
