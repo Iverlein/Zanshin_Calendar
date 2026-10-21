@@ -1313,3 +1313,53 @@ the one the reverse of the other."
   Chinese-derived reckoning (WB's and Mipham's «གཙུག་ལག་སྤོར་ཐང»), and *gtsug
   lag rig byed* in the lexicons the worldly sciences, the four Vedas
   among them; which is meant here is not said.
+
+## The illness identified: the five pebbles of the time of onset (RD22)
+
+Read 2026-10-21 on the scan: WB vol. 1, p. 435 (img. 445 of the 1996
+scan; the Gser thang reprint (གསེར་ཐང, gser thang) I3CN5028 img. 430, read
+in half-line crops at 1.5–2×), with p. 436 (img. 446) and p. 425 (img.
+435; reprint img. 420) beside it, and the notes' section 3 (vol. 2,
+pp. 495–499). The passages, whole, with the notes that join the fifteen
+starting points into one illness, are in [verdicts.md](verdicts.md),
+*The illness identified: the element that is most (RD22)*; the facts
+that concern the body are here.
+
+- **What names the illness.** WB's chapter has two counts for the sick,
+  and they answer different questions. The fifteen starting points and
+  their sixteen rows (above, RD12) give the plank-trees' (ཐང་ཤིང, thang
+  shing) verdicts: whether the aspects stand, how grave the case, whether
+  it comes from karma, conditions or spirits, and the rites. The
+  illness itself, its element, is named apart, "the main part, the
+  illness identified" (དངོས་གཞི་ནད་ཀྱི་ངོས་བཟུང, dngos gzhi nad kyi ngos
+  bzung, p. 435): from the life-force elements of the year, month, day
+  and hour, and one pebble more, the element of the trigram (སྤར་ཁ, spar
+  kha) that is most among the four times' trigrams. Five element pebbles.
+- **The elements' humours** (p. 435): wood is wind (རླུང, rlung), fire
+  blood (ཁྲག, khrag), earth bile (མཁྲིས་པ, mkhris pa), iron phlegm (བད་ཀན,
+  bad kan), water cold (གྲང་བ, grang ba). Told at length the illnesses are
+  1,200, 404 and more; gathered, they come to the five elements, and when
+  all gather, the gathered illness (འདུས་པའི་ནད, 'dus pa'i nad).
+- **The shares are counted in fives.** Pp. 435–436 name an illness for
+  each split of the five pebbles between two elements: fire four and
+  earth one, fire three and earth two, fire one and wind four, fire two
+  and earth three, fire four and wind one, fire one and earth four, fire
+  two and wind three (the fevers, ཚད་པ, tshad pa, p. 435); fire four and
+  iron one, fire three and iron two, fire three and water two, fire three
+  and wind two, fire four and water one, fire two and iron three, water
+  four and earth one, water three and earth two, water four and iron one,
+  water three and iron two, iron four and water one, iron three and water
+  two, earth three and water two, earth four and water one, wood three
+  and water two, wood two and water three, water four and wood one, water
+  four and fire one, water five alone (a great chronic cold illness),
+  water one and wood four (p. 436, Yigdzin-1 only); then the thirty
+  harmful illnesses, beginning with iron four and earth one, illness of
+  the head and body. Each has its signs: the face, the tongue, the urine,
+  the pain, the hour it worsens.
+- **WB's rule for the shares** (p. 438, above): half and half, the two
+  illnesses are weighed together; a third and two thirds, an illness of
+  spirits and conditions; otherwise the element that is most is taken as
+  chief. The notes (vol. 2, p. 497) count seven elements, the six of the
+  time of falling ill and the sick person's kind, and give the example
+  wood two, fire two, iron three: iron is "a third and a little more",
+  and the illness is iron's, the greater share.

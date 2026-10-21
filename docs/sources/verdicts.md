@@ -3220,7 +3220,552 @@ differs.
 
 ## The illness identified: the element that is most (RD22)
 
-Nothing read yet: RD22's passages, with the English beside them, go here.
+Read 2026-10-21 on the scan. WB vol. 1 on BDRC's scan of the 1996 print
+(I1KG12906, image = page + 10 here) and the Gser thang reprint of the
+same typesetting (གསེར་ཐང, gser thang; I3CN5028, image = page − 5:
+img. 420 = p. 425, 430 = p. 435, 446–447 = pp. 451–452, the printed
+numbers read on img. 430 and 446–447); the notes (vol. 2, I1KG12907,
+image = page + 8) on the 1996 scan and the Gser thang reprint (I3CN5029,
+image = page + 6: img. 501–505 = pp. 495–499, the printed numbers read on
+img. 501, 503, 505). Yigdzin-1 over the 1996 vol. 1 img. 444–446 and
+461–462 and vol. 2 img. 505–506 (img. 503, 504, 507 and vol. 1 img. 435
+already read), and over the reprint's vol. 1 img. 420, 430, 446–447 and
+vol. 2 img. 501–505; MITRA as witness over the 1996 vol. 1 img. 435,
+445, 461–462 and vol. 2 img. 504–506. The two prints' Yigdzin-1
+readings agree on 98–100% of the syllables of the pages quoted (93% on
+p. 496, whose pebble figures break the lines); every disagreement in
+the lines quoted was read on the reprint, and the lines this section
+rests on were read word by word in half-line crops at 1.5–2×. The etext
+(IE0OPI51524892) loses words on p. 497 that the scan carries; the
+passage quoted for the illness in *Found 2026-10-20* above («ཤིང་གཉིས་མེ་
+… གསུམ») reads on the scan «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ», two wood, two fire,
+three iron (§3).
+
+The chapter has two counts for the sick, and the notes keep them apart.
+The fifteen starting points (རྩིས་འགོ, rtsis 'go) and the sixteenth,
+laid against the four aspects, give verdicts (ཁ་དམར, kha dmar): whether
+each aspect's plank-tree (ཐང་ཤིང, thang shing) stands, the seven great
+reckonings read off the board, and from the count of white and black
+among the fifteen whether the illness comes from karma, from conditions
+or from spirits, each with its rites (§4, §5). The illness itself, its
+element and so its kind, is named by a second count, of the time of
+falling ill: five element pebbles, the element that is most taken as
+chief (§1–§3). The rites follow the plank-trees, the trigram and the
+household (§6), and the chapter closes on rites sized to the case and a
+warning against guessing (§7–§8).
+
+### 1. The illness identified (WB vol. 1, p. 435, img. 445)
+
+Lines 4–28 (the lines before end a list of rites); read on the reprint (img. 430),
+where Yigdzin-1 of the 1996 scan reads «ཁོ», «འཇོག», «སྲིད», «རྩལ» the
+reprint shows «ལོ», «འཛེག», «སྦྲིད», «ཅལ», written so below:
+
+> དེ་ཡང་ལོ་ཟླ་ཞག་དུས་སྨེ། །འཐབས་པའི་ལོ་ཡིས་ལོ་བཟང་ངན། །ཟླ་བས་རོ་ཡང་འདོད་མི་འདོད། །ཞག་གིས་ཚེ་ཡི་རིང་ཐུང་དང་། །དུས་ཚོད་དུར་ཁ་ལངས་མི་ལངས། །དེ་རྣམས་གསལ་བར་བྱེད་པ་ལ། །ལོ་དང་སྤར་སྨེ་དེ་ཡི་ནི། །ལོ་ཟླ་ཞག་དུས་བཞི་ལ་བླངས། །དར་གུད་བརྩིས་ལ་ཁ་སྤྲང་གདགས། །ནད་ངོས་ཁྱད་པར་འཛིན་པ་བཤད། །གདོན་གྱི་ནད་ལྔ་སྨྱོ་བརྗེད་གྲིབ། །གཟའ་ཀླུའི་ནད་ལྔ་དུག་ནད་ནི། །རེག་སྦྱོར་ཤ་དུག་མ་འཕྲོད་དང་། །བཙན་དུག་ནད་ལྔ་མཆེ་ནད་ལྔ། །གཅན་གཟན་སྦྲུལ་སྲིན་སྦྲང་སྡིག་ལྔ། །རྫུ་འཕྲུལ་ཅན་གྱི་ནད་སོགས་ལ། །སྤྱོད་ལམ་ངན་པས་འཇུག་པའི་ཚུལ། །ལུས་ལ་གཅུས་བརྡབས་འཆུས་གམ་འཁྱོར། །བསྡང་བ་ཡུན་རིངས་སྨྲ་བ་དྲག །འདོད་ཆགས་ཞེ་སྡང་འཇིགས་ཚོགས་དང་། །སྲོག་གཅོད་སྣ་ཚོགས་ནད་འཇུག་རྒྱུ། །རྐྱེན་ནི་ཟས་རྩུབ་བཅུད་མེད་སྲབ། །ཚ་དང་བཀག་དང་གནོད་ཀྱིས་བཙིར། །མཚན་མོ་མི་ཉལ་དྲག་ཤུལ་དང་། །སྐད་ཆེར་སྨྲ་ཞིང་མྱ་ངན་འཇིགས། །སེམས་ལས་བུད་མེད་དྲགས་དང་ནི། །ཉིན་གཉིད་རྡབས་དྲག་རློན་སོགས་སྦྱོར། །ནད་འཇུག་རྐྱེན་ཡིན་ཆུ་ཆེན་རྐྱལ། །མི་མང་དུར་ཁྲོད་ནད་ས་འགྲོ། །ཐེ་ཚོམ་ཅན་གྱི་གྲུ་རྫིངས་དང་། །བཞེན་པ་མི་བསྲུན་བཞིན་དུ་འཛེག །མཚན་མོ་ཤིང་དྲུང་སུམ་མདོ་དང་། །གྲོག་སྟོང་དུར་ཁྲོད་ཉིན་ཡང་སྤང་། །སྦྲིད་པ་གད་མོ་གཡལ་བ་དང་། །ཁ་གདངས་སོགས་ཀྱིས་གདོན་རིགས་འཇུག །དངོས་གཞི་ནད་ཀྱི་ངོས་བཟུང་ནི། །ལོ་ཟླ་ཞག་དུས་སྲོག་ཁམས་བཞི། །སྟག་རྟ་ཁྱི་གསུམ་ལིར་བརྩིས་པའི། །ལོ་ཟླ་ཞག་དུས་བཞི་ཡི་ཁམས། །གང་མང་གཅིག་གི་ཁམས་རྡེལ་ལྔ། །རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན། །ཤིང་རླུང་མེ་ཁྲག་ས་མཁྲིས་པ། །ལྕགས་བད་ཆུ་ནི་གྲང་བ་ཡིན། །རྒྱས་པར་སྟོང་དང་ཉིས་བརྒྱ་དང་། །བཞི་བརྒྱ་རྩ་བཞི་ལ་སོགས་པ། །བཤད་ཚུལ་མང་ཡང་བསྡུ་བ་ན། །འབྱུང་བ་ལྔ་ལ་འདུས་པ་སྟེ། །ཐམས་ཅད་འདུས་ན་འདུས་པའི་ནད། །ནད་རིགས་དགུ་བཅུ་ཕྲག་གཅིག་བཤད། །བད་རླུང་སྨུག་པོ་འདུས་པའི་ནད། །རོ་རྒྱབ་སྦྲགས་ན་མས་མིག་དང་། །རུས་པ་སྒལ་ཚིགས་ཕོ་མཆིན་ན། །ལུད་པ་དམར་སེར་དུད་ཁུ་དང་། །ནད་ཀྱི་དྲི་མ་ངད་པ་ཡིན། །མེ་དུས་མ་སྨིན་ཚ་བའི་ནད། །སྲོད་ལ་མི་བདེ་ཚིགས་པ་དང་། །[ཉ]་བཞི་ན་ལ་ཁ་ནད་ལྕེར། །རླུང་འབྲུམ་དམར་ཙག་ཅན་དུ་འོང་། །མེ་བཞི་ས་གཅིག་སྟོབས་རྒྱས་པ། །ཚ་ནད་གདོང་སྣུམ་དྲོད་ཆེ་ཞིང་། །ལུད་པ་དུད་ཁུ་ནད་དྲི་མནམ། །ལྕེ་ཡི་གཞུང་ནི་སེར་བ་འོང་། །མེ་གསུམ་ས་གཉིས་སྟོངས་ཚད་ནད། །ལྕེ་སྐམ་གཟེར་འཕོ་བསིལ་བསྟེན་ན། །ཚང་སྐྱེ་གཉིད་ཆུང་སྲོད་ཐོའི་དུས། །ཅལ་ཅོལ་བག་ཙམ་སྨྲ་བ་ཡིན། །༧མེ་གཅིག་རླུང་བཞི་གབ་པའི་ཚད། །ངོ་སྣུམ་དང་ག་མི་བདེ་ཞིང་། །དྲོད་དང་བཅུད་བསྲིངས་རྐྱེན་གྱིས་ནད། །སློང་ཞིང་མགོ་ལྕི་ཉི་དྲོས་ན། ༧ །མེ་གཉིས་ས་གསུམ་རྙིངས་ཚད་ནད། །ཡུན་རིང་ཤ་སྐམ་དྲེག་པ་ཆགས། །མདོག་སྔོ་དྲོད་བཅུད་དུག་ཏུ་འགྱུར། །༧མེ་བཞི་རླུང་གཅིག་[རྙོངས]་ཚད་ནད། །རྡུལ་མང་པགས་རྩེ་སྣ་ཁྲག་འོང་། །ལྕེ་སྐྱ་བོལ་འཕར་མིག་དབྱིབས་ཡོ། །མེ་གཅིག་ས་བཞི་འགྲམས་ཚད་ནད། །དྲག་ཤུལ་རྐྱེན་བྱས་ཤ་རྒྱས་ལ། །པགས་འགྲམས་གཞི་ཅན་[རུས]་ལ་ཞེན། །༧མེ་གཉིས་རླུང་གསུམ་འཁྲུགས་ཚད་ནད། །ཟུག་ཆེ་རྔམ་ཐུང་རྒྱུས་འཁྲུགས་གཟེར། །
+
+Further, the year, month, day, hour and mewa (སྨེ་བ, sme ba) are fought: the year tells
+whether the year is good or bad, the month whether a corpse is wanted
+again or not, the day the length of life, the hour whether the grave's
+mouth has risen. To make these clear, the year and its trigram (སྤར་ཁ,
+spar kha) and mewa are taken onto the four, year, month, day and hour,
+the rise and decline (དར་གུད, dar gud) reckoned, and what the harm seizes
+(ཁ་སྤྲང, kha sprang; p. 442) laid. Then the illness
+is identified in particular: the five illnesses of spirits (madness,
+forgetting, shades), the five of the planets and nāgas, the poisons (by
+contact, compounded, of meat, of bad combinations), the five poisons
+of the btsan spirits (བཙན, btsan), the five fang illnesses, the five of beasts, snakes, insects,
+bees and scorpions, the illnesses of those with magic; how they enter by
+bad conduct (blows to the body, long anger, harsh speech, desire,
+hatred, fear, killing); the conditions (rough food, without nourishment
+or thin, heat, holding back, pressure, not sleeping at night, violence,
+loud talk, grief and fear, too much of women, daytime sleep, sudden
+strain, damp); and the places to avoid (swimming great rivers, crowds,
+charnel grounds, the sick person's room, an unsafe boat, climbing a
+wild horse, at night under trees and at crossroads, empty ruins and
+charnel grounds by day too; sneezing, laughing, yawning and gaping let
+spirits in).
+
+**The illness identified, the main part** (དངོས་གཞི་ནད་ཀྱི་ངོས་བཟུང,
+dngos gzhi nad kyi ngos bzung): the life-force (སྲོག, srog) elements of
+the four, year, month, day and hour; and, counted with the tiger, horse
+and dog on Li (ལི, li; the fire trigram), of the four times' elements,
+the element of the one that is most: five element pebbles. It is the
+trigram of the date in its own month (the line «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན»,
+read so on the reprint; see *Open*). Wood is wind (རླུང, rlung), fire
+blood (ཁྲག, khrag), earth bile (མཁྲིས་པ, mkhris pa), iron phlegm (བད་ཀན,
+bad kan), water cold. Told at length, 1,200, 404 and more; however many
+the ways of telling, gathered they come to the five elements, and when
+all gather, the gathered illness (འདུས་པའི་ནད, 'dus pa'i nad), of which
+ninety kinds are told; the gathered illness of phlegm and wind is the
+maroon (སྨུག་པོ, smug po; its seats and signs follow). Then the fevers
+(ཚད་པ, tshad pa) by the split of the five: fire four and earth one, the
+fever grown strong (སྟོབས་རྒྱས, stobs rgyas); fire three and earth two, the empty fever (སྟོངས་ཚད, stongs tshad); fire one
+and wind four, the hidden fever (གབ་པའི་ཚད, gab pa'i tshad); fire two and earth three, the old fever (རྙིངས་ཚད, rnyings tshad);
+fire four and wind one, a fever printed «[རྙོངས]» (the stack not made out
+on either print; see *Open*); fire one and earth four, the scattered
+fever (འགྲམས་ཚད, 'grams tshad); fire two and wind three, the disturbed fever (འཁྲུགས་ཚད, 'khrugs tshad); each with its signs
+(the face, the tongue, the urine, the pain). P. 436 (img. 446, Yigdzin-1
+only) goes on with every other split of five: fire four and iron one,
+water four and earth one, water five alone, and so on to water one and
+wood four ([health.md](health.md), *The illness identified (RD22)*).
+
+So the illness's element is a count of five pebbles, and its kind is
+named by the split.
+
+### 2. WB's rule for the split (p. 438, img. 448)
+
+Read on the scan by RD12, the doubtful phrase on the Taikhang print
+(question 50; [health.md](health.md), *The five times of onset*):
+
+> …དེ་ཡང་ནད་ཀྱི་ངོས་འཛིན་བྱེད། །ལོ་ཟླ་ཞག་དུས་སྤར་སྨེ་བསྟུན། །མན་ངག་འདི་ལྟར་ཤེས་པར་བྱ༑ ༑མི་རིགས་མེ་ཡིན་མེ་དུས་བརྩི། །མཁྲིས་པ་འཕེལ་བས་ནད་ཚ་བ། །གློ་བུར་ཡང་ན་རྨ་ཁྲག་ངོ། །ཡང་ན་ཆ་རྒྱས་དོན་སྣོད་མེ། །འབྱུང་བ་ཕྱེད་མ་ནད་གཉིས་འདོམ། །སུམ་ཆ་སུམ་གཉིས་གདོན་རྐྱེན་ནད། །དེ་མིན་གང་མང་གཙོ་བོར་བཟུང་།།
+
+These identify the illness, the year, month, day and hour taken with the
+trigram and mewa; know the instruction so: if the person's kind (མི་རིགས,
+mi rigs) is fire, reckon the fire time; bile grows, so a hot illness,
+sudden, or wound and blood, or, the share grown, fire in the organs.
+**Elements half and half: the two illnesses weighed together. A third
+and two thirds: an illness of spirits and conditions. Otherwise the one
+that is most is taken as chief.** This is WB's whole rule for joining
+the shares into one illness.
+
+### 3. The notes: five pebbles, then seven, and the shares counted (vol. 2, p. 497, img. 505)
+
+Mipham's (མི་ཕམ, mi pham) notes, ll. 1–15, read on the reprint (img. 503)
+line by line; the two prints' Yigdzin-1 readings differ in four
+syllables («སྤ/སྤུ», a dropped «ན», «བཙུན/བསྟུན», «ཆོད/ཚོད»), each read
+on the reprint as written below. The print's dots under «ལོ་ཡི་སྲོག་དང་
+སྐྱེས་པའི་སྤར་» (l. 1) mark the root text's words:
+
+> པའམ་དར་གུད་ཀྱིས་བརྟག་ལ། ལོ་ཡིས་ལོ་བཟང་ངན་སོགས་བརྟག་དེ་ཅི་ལྟར་ན་རང་ལོ་ཡི་སྲོག་དང་སྐྱེས་པའི་སྤར་སྨེ་གསུམ་གྱི་ཁམས་དབུགས་སྤྱི་ལྟར་བླངས་ལན་པའི་དུས་ཀྱི་ལོ་ཟླ་ཞག་དུས་སྟེང་ཁྱེར་བས་ཤེས་སོ། །ནད་ངོས་བཟུང་ལ། ནམ་ན་བའི་ལོ་ཟླ་ཞག་དུས་ཀྱི་སྲོག་ཁམས་བཞི་དང་། དེ་སྟེང་ལོ་ཟླ་ཞག་དུས་བཞི་གང་ཡིན་ཀྱང་། སྟག་རྟ་ཁྱི་གསུམ་ལིར་བརྩིས་པ་སོགས་བྱས་པས་བཞི་པོ་དེ་ནང་སྤར་ཁ་གང་གི་འབྱུང་ཁམས་མང་ཤས་ཆེ་བ་དེའི་ཁམས་……རྡེལ་གཅིག་སྟེ་ལྔས་ཤེས་པར་བྱ་སྟེ་གཞུང་བཞིན་ནོ། །ལོ་སོགས་སྤར་ཁ་ཁམས་མི་གཅིག་པ་བཞི་རེད་ན་འདི་བྱ་ཞེས་བཤད་མི་འདུག དེའི་བཤད་པ་སྤྱི་ལྟར་ཤིང་རླུང་སོགས་ཡིན་ལ་བྱེ་བྲག་ཐམས་ཅད་འདུས་ན་སོགས་གཞུང་བཞིན་ལ། གཞུང་ན་ཐམས་ཅད་ཚང་བ་མེད་པས་དངོས་བསྟན་ཁ་དམར་མེད་པའང་ཡོད་འདུག ཤིང་ནས་བཟུང་སྟེ་ཉིན་ལྔ་མཚན་ལྔའི་དུས་ཀྱི་འབྱུང་བ་ལས་ནམ་ན་ན་འབྱུང་བའི་ན་དུས་ཀྱི་བཤད་པ་གཞུང་བཞིན་བལྟ། ལོ་ཟླ་ཞག་དུས་སྤར་སྨེ་བསྟུན་ཞེས་པ། ནམ་ན་དུས་ཀྱི་ལོ་ཟླ་ཞག་གི་སྲོག དུས་ཀྱི་དབང་ཐང་བབ་སྤར་བབ་སྨེའི་ཁམས་ལས་བརྟག་ཅེས་སོ། །དེ་ནི་ནད་པ་བཙས་ཀླུང་མི་རིགས་མེ་ཡིན་ལ། བརྩི་དུས་ཏེ་གོང་བཤད་ལོ་སོགས་མེ་ཡིན་ན་ཞེས་པ་ལས། རྩིས་བྱེད་པའི་དུས་ཚོད་མི་དགོས་པའི་དོན་མིན་ཞེས་བཤད། དེ་ལྟར་ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ་ལ་འབྱུང་ཁམས་གང་མང་ཤས་ཆེ་བའི་ནད་དུ་ངོས་བཟུང་། ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ་ལྟ་བུ་བྱུང་ན། མེ་སུམ་ཆ་གཅིག །ཤིང་སུམ་ཆ་གཅིག ལྕགས་སུམ་གཅིག་དྲག་ཙམ་བྱུང་བས་ལྕགས་ནད་ཤས་ཆེ་བར་བཤད། དེས་འགྲེ་གཞུང་ལྟར་བརྟག གཟའ་སྐར་ནད་ཕོག་དུས་ཀྱི་དེའོ། །འཐབ་ན་གཟའ་སྐར་གྱི་ཁམས་ལ་ནད་པའི་སྲོག་གིས་འཐབས་ལ་མ་བུ་དགྲ་གྲོགས་བརྩིའོ། །ན་ལུགས་སོགས་རྩ་བས་གོ།
+
+"…or examined by the rise and decline: the year tells the year's good or
+bad and so on. How? It is known by carrying the elements of one's own
+year's life force and of the birth's trigram and mewa, the three, whose
+breath was taken in the general way, onto the year, month, day and hour
+of the time (the words «བླངས་ལན་པའི», as printed, not made out word by
+word). **For the illness identified:** the four life-force elements of
+the year, month, day and hour of falling ill; and upon them, whatever the
+year, month, day and hour are, by counting the tiger, horse and dog on
+Li and so on, among those four, the element of whichever trigram's
+element is most and greatest in share, one pebble: so it is known by
+five, as the root text says. **If the four, the year and the rest, have
+trigrams of four different elements, what to do is not said.** Its
+account in general is wood wind and so on, and in particular 'when all
+gather' and so on, as the root text says; since the root text does not
+have everything complete, **there are also cases with no verdict taught
+explicitly.** Look, as the root text says, at the account of the time of
+falling ill, from the elements of the times of the five day-parts and
+five night-parts beginning with wood, by the element in which one fell
+ill. 'The year, month, day and hour taken with the trigram and mewa'
+means: examine by the life force of the year, month and day of the time
+of falling ill, the power (དབང་ཐང, dbang thang) of the hour, and the
+elements of the descending trigram (བབ་སྤར, bab spar) and descending
+mewa (བབ་སྨེ, bab sme). That is: 'the sick person's birth luck (བཙས་ཀླུང,
+btsas klung), the person's kind, is fire, and the time of reckoning, that
+is, the year and the rest told above, is fire'; from this it is said
+that the hour at which the reckoning is made is not without need. **So,
+with the year and the rest and the person's kind, seven, the element
+most and greatest in share is identified as the illness. Where it comes
+as two wood, two fire and three iron: fire a third, wood a third, iron a
+third and a little more, so the illness is said to be iron's, the
+greater share.** By this, examine the rest as the root text says. The
+planets and mansions are those of the time the illness struck; when they
+fight, the sick person's life force fights the planet's element, and
+mother, son, enemy and friend are counted. The ways of falling ill and
+the rest are understood from the root."
+
+What the notes add to WB:
+
+- **The five** of p. 435 are four life-force elements of the time of
+  falling ill and one trigram pebble, the element most found among the
+  four times' trigrams. Where the four trigrams are of four elements, no
+  rule is given.
+- **The seven** of p. 438: the life force of the year, month and day of
+  falling ill, the power of the hour, the descending trigram and mewa,
+  six, and the sick person's kind (his birth luck's element), seven. (Our
+  reading of «ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ» against the gloss just
+  before it; the notes do not list the seven one by one.) And the time of
+  reckoning counts too: the hour at which the reckoning is made is
+  needed (open question 181).
+- **The shares**: the element most and greatest in share is the illness,
+  by a plain majority. The example (two, two, three of seven) does not
+  apply p. 438's "a third and two thirds" as an illness of spirits and
+  conditions: the notes call each of the three "a third" and give the
+  illness to the one a little over.
+- **Silence is admitted**: some cases have no verdict in the root text.
+
+### 4. The fifteen on the board: sixteen rows, four across, three fives (the notes, pp. 495–496, img. 503–504)
+
+The notes' section 3 opens (p. 495, ll. 5–21, read on the reprint, img.
+501; ll. 5–7 and 15–16 quoted by O19 above, *D16: WB, the notes and the
+manuals*; the two prints differ in «ཕོ/ཟོ», «སྟོད» dropped, «ལྔའམ/སྔའམ»,
+«རྩིས/ཀྱིས», «ལིང/ཡིར», «བྱུར/གྱུར», read on the reprint: «ཕོ», «སྟོད»,
+«ལྔའམ», «ཀྱིས», «ལིང», «བྱུར»):
+
+> སྐབས་གསུམ་པ་ནད་རྩིས་ལ། རྡེལ་ཕྲེང་བཅུ་དྲུག་པོ་གཞུང་བཞིན་གར་བབ་དང་བརྩི་བྱའི་སྲོག་སོགས་འཐབས་ལ་མ་གྲོགས་ཕྲད་ན་དཀར། བུ་ཁྲ། དགྲ་ནག །ནང་ཕྲད་ས་ཆུ་དཀར། གཞན་ནག །འོག་ཏུ་ཁ་དམར་བཅུ་དྲུག་དང་འཕྲེད་ལ་བཞི་བཞག །བརྩི་བྱའི་དབང་གི་ཁམས་དང་མ་བུ་སོགས་ནས་སྒྲུབ་བཀེན་བྱ་བ་ལས་ཕོ་མོའི་ཁྱད་མེད། བཅུ་དྲུག་པ་ལ་ལུགས་གཉིས་ཡོད་གཉིས་ཀའང་བརྟག །དེ་ལ་བརྩི་བྱའི་སྲོག་སོགས་བཞིས་གནམ་ལོའི་སྲོག་སྨེ་སོགས་ལ་འཐབས་པའམ། བརྩི་བྱའི་ཡང་སྲོག་སྨེ་སོགས་ཀྱིས་འཐབས་པ་གཉིས་སོ། །གཞན་བཞེད་གཞུང་ལྟར་དང་དེའི་རྡེལ་སྒོ་ན་བའི་སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔས་ལོ་ཟླ་ཞག་དུས་བཞིའི་དེ་ལྔ་ལ་འཐབས་པའོ། །ལུགས་དེའི་མ་ལ་དཀར་གསུམ་སོགས་བཞག་འདུག །བླ་ནི་སྲོག་མའོ། །རྡེལ་གཞུང་ལོ་ཟླ་ཞག་གསུམ་གྱི་མ་སོགས་ལ་འཐབ་ཅིང་། ཡང་ནི་རྡེལ་སྒོ་ལ་དུས་ཚོད་ཀྱང་བརྟག་ཅེས་པའི་ཚིག་འབྲུ་མནན་ན་དཀའ་ཙམ་དུ་མ་གཞུང་འདིའི་རྩོམ་གཤིས་ལ་འདུག་པ་སྐབས་འདིར་མ་ཟད་ཀུན་ལ་ཤེས་དགོས། བྱེ་བྲག་ནད་ཀྱི་ཁམས་ལས་ཐང་ཤིང་ཁྱད་པར་པ་གཞུང་གིས་ལ། བཅུ་དྲུག་པ་སྨེ་བ་ལ་འཐབས་ན་གནམ་ལོའི་ཚབ་ལ་གནམ་ལོ་དང་སྨེ་ཕྲེང་མཐུན་པ། བརྩི་བྱ་ལའང་དེ་འདྲ་བར་ལུས་སྨེ་ངོས་བཟུང་ནས་དེ་བརྟེན་གཞན་གསུམ་ཀྱང་ངོས་བཟུང་ལ་འཐབ་བོ། །རྡེལ་དཔྱད་སྐབས་ཐང་ཤིང་ཆགས་ཞེས་བཏང་གཅོད་དཀར་ན་ཆགས་ནག་ན་ཆག་ཞེས་ས་མཐའ་ཡོད་མེད་ཀྱི་གོ་བའོ། །རིང་མོ་ཆག་ན་ཞེས་ཀླུང་གི་ཐང་ཤིང་ཆག་པ་ཡང་འདིར་ཞོར་བཤད་བྱས་པའོ། །རྡེལ་སྒོ་སྤངས་པའི་བཅོ་ལྔ་པོ་ཚོ་གསུམ་བྱས་པ་གཅིག་ནས་ལྔ་པར་དང་པོ་སོགས་སོ། །ཁྱད་པར་ཀླུང་རྟའི་སྒེར་འབྲས་བཅས་སོ།། ⁝ གྱེན་དུ་དཀར་བཞི་བརྩེགས་ན་གསེར་ཟམ་ཆགས། [figure] ནག་པོ་འགྱེལ། ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད། རགས་པར་འགྱེལ་ལ་བརྩི། དེ་ལ་རྡེལ་སྒོ་མ་གཏོགས་བཅོ་ལྔ་འོང་སྲིད་པས་བཅོ་ལྔ་ཞེས་སོ། །སྟོད་སྨད་བར་ནི་ལྔ་ཁྲམ་དང་པོ་སོགས་སོ། །ཕོ་མོའི་བར་ལྔའམ་དྲུག་ལ་ཡིན་སོགས་འགྲེ། གྲངས་ཀྱིས་གཞུང་གཅིག་དང་གཉིས་སོགས་ཆགས་ནའོ། །
+
+"Section three, the illness reckoning. The sixteen rows of pebbles, where
+they fall as the text says, fought against the life force and the rest
+of the one reckoned: a meeting with the mother or friend white, the son
+speckled, the enemy black, a meeting with itself white for earth and
+water, black for the others. **Below lay sixteen verdicts, and across,
+four.** Counting up and down from the power's element, the mother, the
+son and the rest of the one reckoned, man and woman make no difference.
+The sixteenth has two ways, and both are examined: the four, life force
+and the rest of the one reckoned, fighting the sky year's (གནམ་ལོ, gnam lo) life force,
+mewa and the rest, or fighting the one reckoned's own life force, mewa
+and the rest. Another view, as the root text gives it: the life force,
+body, power, luck and the la, the life-spirit (བླ, bla), of the sick person, five, fight those
+five of the year, month, day and hour; that tradition lays three white
+for the mother and so on; the la is the life force's mother. That the
+root's pebbles fight the mother and the rest of the year, month and day,
+and that 'the pebble door is examined by the hour too', are hard if the
+words are pressed; such is the style of this treatise, and it must be
+known everywhere, not here only. The root text gives special
+plank-trees by the illness's element (the five classes, pp. 420–421).
+If the sixteenth is fought on the mewa, in place of the sky year the sky
+year and its mewa row agree; for the one reckoned likewise, the body's
+mewa is identified and from it the other three, and they fight. In the
+examination of the pebbles, 'the plank-tree stands' means the deciding
+pebble (བཏང་གཅོད, btang gcod) is white, 'broken' that it is black, in
+the sense of the ground's edge there or not. 'If the long one breaks' is
+the luck's plank-tree broken, told here in passing. **The fifteen,
+leaving out the pebble door (རྡེལ་སྒོ, rdel sgo), are made three groups: one to five the
+first, and so on**; above all the luck's own results with them. Four
+white stacked upward, the golden bridge (གསེར་ཟམ, gser zam) stands
+[figure]; black, it falls; a speckled one has no «སྔོ་བགྲང» (open question
+196); roughly it is counted fallen. Leaving out the pebble door, fifteen
+can come, so it is called the fifteen [golden bridges]. The upper, lower
+and middle are the first five-row (ལྔ་ཁྲམ, lnga khram) and the rest;
+between man and woman is at the fifth or sixth, and so on. In number,
+'one stands, two' and so on as the root text says."
+
+Then p. 495, l. 22–29 (the turquoise juniper, the wish-tree, the houses
+of glory and misfortune, the life and death eyes; quoted by O19 above)
+and p. 496, ll. 1–6 (img. 504; read on the reprint, img. 502):
+
+> …ཡིན་གྱི། དོན་དུ་ཐང་ཤིང་གསེར་ཟམ་གཡུ་ཤུག་དཔག་བསམ་ཆག་པ་དང་། བྱུར་ཁྱིམ་དཀར་པོ་ཤི་མིག་དྲུག་ཚང་ན་ཞེས་སོ། །ལུས་རྡེལ་ཤིན་ཏུ་དཀར་ནའང་མི་བཟང་། སུམ་ཆས་ལྷག་དཀར་སོགས་ནི། རྡེལ་སྒོ་མ་བརྩིས་པའི་བཅོ་ལྔ་ལས་དྲུག་དཀར་དགུ་ནག་ན་སུམ་ཆས་ལྷག་ནག དེ་ལྡོག་གསུམ་ཆའི་ལྷག་དཀར་དང་ལྔ་དཀར་གཞན་ནག་ན་ལྔ་ཆས་ལྷག་ནག་སོགས་འགྲེ། དཀར་ནག་སྙོམས་ཁར་དཀར་བཞི་ལྷག་ན་བཞི་ཆས་ལྷག་སོགས་སྦྱོར་དགོས་ཏེ་གཞན་དུ་ལྔ་ནག་བཅུ་དཀར་ན་སུམ་ཆས་ལྷག་དཀར་སོགས་སྦྱར་དགོས་ནའང་དེ་ལྟར་བརྩིས་མི་འདུག་པས་སོ་ཟེར་ཀྱང་དོན་ལ་དཀར་པོ་གསུམ་མང་ན་སུམ་ཆ་བཞི་བཞི་ཆ་སོགས་དང་འདྲ་བར་འདུག །
+
+"…but in fact [the boundary (ལིང་ཚེ, ling tshe), the seventh great
+reckoning, is crossed] when the six are complete: the plank-tree, golden
+bridge, turquoise juniper (གཡུ་ཤུག, g.yu shug) and wish-tree (དཔག་བསམ,
+dpag bsam) broken, the house of misfortune (བྱུར་ཁྱིམ, byur khyim), and
+the white death-eye (ཤི་མིག, shi mig). [WB's] 'the body's pebbles very
+white' is not good either. 'A third more white' and the rest: of the
+fifteen, the pebble door not counted, six white and nine black is 'a
+third more black'; the reverse, 'a third more white'; and five white,
+the rest black, 'a fifth more black', and so on. Some say that 'four
+more white' and so on must be joined on top of white and black being
+even, since otherwise five black and ten white would have to be called
+'a third more white', which is not how it is counted; **but in fact,
+three more white is like 'a third', four like 'a fourth', and so on.**"
+
+So the fifteen starting points are not one count but a board. Each of
+the four aspects (life force, body, power, luck) is fought at each of
+the sixteen rows; below each row a verdict, sixteen in all, and across,
+four, one for each aspect's plank-tree (WB p. 419, p. 422, O19). The
+fifteen without the pebble door are three fives: the first for the man,
+the middle for the woman, the last for the children (WB p. 423, «ལྔ་ཁྲམ་
+དང་པོ་སྐྱེས་པ་ཕོ། །ལྔ་ཁྲམ་བར་པ་བུད་མེད་ས། །ལྔ་ཁྲམ་ཐ་མ་བུ་ཚའི་ས།», etext
+p. 433, not read on the scan in this reading). The seven great
+reckonings (p. 422, O19) are read off this board, and the seventh,
+whether the boundary is crossed, is the other six all bad. And the
+white and black among the fifteen are counted as a difference: N more
+of one colour than the other is "N-fold more", the name WB's p. 425
+uses for its classes (§5).
+
+### 5. The fifteen counted into a kind of illness (WB p. 425, img. 435)
+
+Ll. 6–20 (1996 img. 435), read on the reprint (img. 420) in line crops at
+1.5×. Yigdzin-1 of the 1996 scan (O19's file) drops a line here: after
+«དྲུག་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན།» the reprint carves «བླ་བསླུ་བརྒྱ་བཞི་ཁྲོ་རོལ་དང་། །ཕྱིར་བཟློག་ཁྲ་བོའི་ཁྲ་བོ་ཡིན། །སོར་འབྲང་ཕྱིར་བཟློག་རིགས་ལྔ་ཡི། །སཱཙྪ་འདེབས་ལ་གདོན་རྐྱེན་གྱིས། །འདྲེས་པའི་ནད་བཟློག་ཁྲ་བོའི་ནག །ལྔ་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན།» (the etext has it with gaps), written in below; the
+reprint's «ཆུང་ཟད» for Yigdzin-1's «ཅུང་ཟད» likewise. The print dots the
+name of each class («སུམ་ཆས», «བཞི་ཆས», …):
+
+> …ནད་པའི་ལུས་རྡེལ་ཤིན་ཏུ་དཀར། །གདགས་སྲིབས་གོ་ལོག་ཐང་ཤིང་འབྲས། །མ་བབས་གཏོ་ནག་བཅོས་ཁ་བསྒྱུར། །སུམ་ཆས་ལྷག་དཀར་ལས་ཀྱི་ནད། །དཀར་པོ་ལས་སྒྲིབ་རྒྱུན་གཅོད་མདོ། །ཡོན་ཏན་བསམ་མི་ཁྱབ་པའི་མདོ། །གཙུག་ཏོར་དཔུང་རྒྱན་དྲི་མེད་མདོ། །གསུམ་སྒྲིལ་ལོ་གྲངས་དགུ་འགྱུར་ཀློག །ལས་སྒྲིབ་ནད་རྣམས་འཕྱག་པ་སྟེ། །དཀོན་ཅོག་གསུམ་པོ་མཆོད་རྣམས་སོ། །བཞི་ཆས་ལྷག་དཀར་རྐྱེན་གྱིས་ན། །གླང་རུ་ལུང་བསྟན་སྟོང་ཆེན་དང་། །གསེར་འོད་དམ་པ་མང་དུ་བཀླག །ལྔ་སུམ་གཅིག་གི་ནད་རྣམས་ཞི། །ཆུང་ཟད་ཁྲ་དང་དཀར་ཁྲ་ཡན། །ལྔ་ཆས་ལྷག་དཀར་རྐྱེན་གྱིས་ན། །དཀར་པོའི་ནག་པོ་ཀུན་རྒྱལ་མདོ། །རྨ་བྱ་ཆེན་མོ་རྣམ་འཇོམས་དང་། །གདུགས་དཀར་ཕྱི་ནང་སྒྲུབ་མཆོད་འདོན། །དྲུག་ཆས་ལྷག་དཀར་རྐྱེན་གྱིས་ན། །བཀའ་འགྱུར་སཱཙྪ་རྐྱེན་བཟློག་འགྱུར། །འདི་ཡང་དཀར་པོའི་ནག་གཅིག་འགྲོ། །དཀར་ནག་ཕྱེད་མ་རྐྱེན་གྱིས་ན། །ཕྱི་ནང་ལྷ་གསོལ་འབུམ་ཐང་ཀློག །ཉི་ཁྲི་དྲག་སྔགས་བསྒྲུབ་པ་ཡིས། །ལས་དང་འཕྲལ་རྐྱེན་དེས་སྐྱོན་བཟློག །རྡེལ་དཀར་ཁྲ་བོའི་དཀར་པོ་ཡིན། །དྲུག་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན། །བླ་བསླུ་བརྒྱ་བཞི་ཁྲོ་རོལ་དང་། །ཕྱིར་བཟློག་ཁྲ་བོའི་ཁྲ་བོ་ཡིན། །སོར་འབྲང་ཕྱིར་བཟློག་རིགས་ལྔ་ཡི། །སཱཙྪ་འདེབས་ལ་གདོན་རྐྱེན་གྱིས། །འདྲེས་པའི་ནད་བཟློག་ཁྲ་བོའི་ནག །ལྔ་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན། །སྤར་ཁའི་ཆོས་བརྒྱད་མདོས་གང་བབས། །མྱང་འདས་ཐང་ཀློག་ནག་པོའི་དཀར། །གདོན་ཤས་ཆེ་བའི་ནད་རྣམས་བཟློག །བཞི་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན། །སྨེ་བའི་འདྲེ་དང་ཀེག་ཀླུང་བཅོས། །ཤི་གླུད་གཏོང་ཞིང་གཏོ་ནག་བྱེད། །གཉན་པས་མགྱོགས་པར་གོང་གནོན་གཏོང་། །ལས་ཀླུང་གཉན་ཕྲད་ནད་རྣམས་བཟློག །སུམ་ཆས་ནག་ཅིང་རྐྱེན་གྱིས་ན། །སྤར་ཁའི་གཏོ་ནག་བརྗེ་བའི་གཏོ། །གཏོ་ནག་གསུམ་སྒྲིལ་ཁ་ཆིངས་བྱེད། །ཀེག་ཀླུང་གདོན་བསྐྱོད་ཐམས་ཅད་སེལ། །གོང་གནོན་གཏོ་བཅོས་མྱུར་དུ་བྱེད། །རྐྱེན་ངན་ཕ་ལམ་ཇི་བཞིན་འཇོམས། །བུ་ཕྲད་དཀར་ནག་སྣ་ཚོགས་པ། །བསྔོ་རུ་མ་བཏུབ་གྱུར་པ་ན། །མ་བབས་འདི་ལ་ཕྱི་ཆགས་ཡོད། །ཚོགས་གསོག་སྦྱིན་གཏོང་བྱེས་ཕྱིན་ཕན། །
+
+"…The sick person's body pebbles very white, [yet] laid, hidden or
+turned about: the plank-tree's result has not come down; change the
+treatment with the black ransom (our reading of a terse line; the notes
+on p. 496: 'the body pebbles very white is not good either'). **A third
+more white** (སུམ་ཆས་ལྷག་དཀར, sum chas lhag dkar): **an illness of
+karma** (ལས་ཀྱི་ནད, las kyi nad); read the white sūtra that cuts the stream
+of karmic obscuration, the sūtra of inconceivable qualities and the
+stainless sūtra of the crown ornament, the three together, nine times
+the number of years; the illnesses of karmic obscuration are swept away;
+offer to the Three Jewels. **A fourth more white, by conditions** (རྐྱེན,
+rkyen): read the *Ox-Horn Prophecy*, the *Great Thousand* and the
+*Sublime Golden Light* many times; the illnesses of «ལྔ་སུམ་གཅིག» are
+stilled; a little speckled, the white speckled. **A fifth more white, by
+conditions**: the white one's black, the all-victorious sūtra, the Great
+Peahen (Mahāmāyūrī), the Vanquisher and the White Umbrella, outer and
+inner, practised and offered. **A sixth more white, by conditions**: the
+Kangyur and clay images (སཱཙྪ, sA ts+tsha) turn the conditions; this too
+goes as the white one's one black. **White and black half, by
+conditions**: offerings to the outer and inner gods, the *'Bum* and the
+*Thang* read, the twenty thousand and fierce mantras accomplished; so the
+faults of karma and passing conditions are turned back; it is the white
+of the speckled pebbles. **A sixth more black, by conditions**: the
+la-ransom, the *Four Hundred* (བརྒྱ་བཞི, brgya bzhi), the wrathful
+play and the turning back: the speckled of the speckled; clay images of
+the five families of the *sor 'brang* turning back are planted; by
+spirits and conditions, the mixed illness turned back: the black of the
+speckled. **A fifth more black, by conditions**: the trigram's eight
+dharmas' ransom, whichever falls; the *Nirvāṇa* sūtra and the *Thang*
+read: the white of the black; **the illnesses in which spirits are the
+greater share** are turned back. **A fourth more black, by conditions**:
+treat the mewa's demons and the obstacle and luck; send the ransom of
+the dead and do the black ransoms; for the virulent send the pressing
+down quickly; the illnesses of karma, luck and the *gnyan* (གཉན, gnyan)
+meeting are turned back. **A third more black, by conditions**: the
+trigram's black ransom, the exchange ransom, three black ransoms bound
+together; all obstacle, luck and stirred spirits cleared; the pressing
+down and ransom done quickly; bad conditions conquered as they come. When
+son meetings of white and black of every kind leave it unresolved, it has
+not come down, an after-attachment remains: gathering merit, giving and
+going abroad help."
+
+So the fifteen are counted, white against black, into a scale of nine
+classes, from a third more white to a third more black with half and half
+in the middle; each class names where the illness comes from, karma at
+the white end, conditions through the middle, spirits growing toward the
+black, and each its rites. WB lists them in order, a third, a fourth, a
+fifth, a sixth more white, half, a sixth to a third more black, so the
+classes run in one direction from the whitest to the blackest; how the
+notes' counting by the difference (§4) yields "a fourth" and "a sixth"
+from fifteen is open. The lines that follow (ll. 20–25, quoted by RD12
+in its outline of p. 425) name the spirit by the number of black pebbles
+of the body's plank-tree, one to fifteen.
+
+### 6. The rite: by the plank-trees, the trigram, the hour and the household (the notes, p. 498, img. 506)
+
+Ll. 13–28, read on the reprint (img. 504) from l. 18 to l. 27 in
+half-line crops; ll. 13–17 and 28 as the two prints' Yigdzin-1 readings
+agree. The reprint's small circle after «དགྲ་ངན» (l. 26), where the 1996
+etext has «༤», is a mark, not a letter:
+
+> …གཏོ་རྣམས་བྱེད་དུས་རང་ལོའི་མ་སོགས་བཟང་འཕྲད་ཀྱི་ཉི་མ་དུས་ཚོད་བདུན་ཟུར་དགྲ་དུར་སོགས་མེད་པ་བཟང་ངོ། །སྲོག་སོགས་ཀྱི་དར་རྒུད་གུད་པ་ན་བ་ཤི་བ་དུར་ཞུགས་དང་། དགྲ་འཕྲད་མང་བ་དགྲ་ཆེན་ལངས་པ་སོགས་ངན། བདུད་གཅོད་ཞི་བ་ཞེས་རྩུབ་པར་མ་ཤར་ནའོ། །ནད་གཡོག་སོགས་ལྔ་བརྩི་བྱའི་སྲོག་གི་མ་བུ་སོགས་ཡིན་ནོ། །དེ་ཡང་བདུན་ཟུར་དུར་གཤེད་སོགས་སྐྱོན་གཞན་མེད་པ་དགོས་སོ། །རྡེའུ་བཅུ་དགུ་མ་བརྩི་བྱའི་སྲོག་ལུས་ཀྱིས་ན་དུས་ཀྱི་ལོ་ཟླ་ཞག་དུས་ཀྱི་སྲོག་ལུས་ལ་འཐབ་པ་དང་སྲོག་ལུས་དར་གུད་ལོ་ཟླ་ཞག་དུས་སྟེང་ཁྱེར་བ་བཅུ་དྲུག་དང་། ན་ཉིན་གྱི་ཚེས་གཟའ་སྐར་མའི་ངོས་འཛིན་རྡེལ་གསུམ་སྟེ་བཅུ་དགུའོ། །འཐབ་ཟླའི་ཁ་དམར་གཞུང་བཞིན་གསལ། གཟའ་སྐར་ནི་དངོས་འབྲལ་ལས་འཐབ་རྒྱུ་མེད། ཚེས་ནི་འདིར་མེད་ཚེས་རྩིས་གཞན་ལས་བླང་བར་བྱ་ཞེས་བཤད། དོན་དུ་འོག་གི་ལྷ་མོ་བརྒྱད་རྩིས་ཀྱང་ཚེས་རྩིས་ཡིན་པས་དེ་ནས་བླང་། སྤར་ཁའི་ལན་སྐྱོན་ཀྱང་ཞར་ལ་བཤད་དོ། །སྲོག་གུད་སོགས་གཞན་གྱི་སྲོག་མི་བཅད་སོགས་ནི། གོང་གི་ཐང་ཤིང་དང་བཏང་གཅོད་ནག་ན་དང་། སྲོག་སོགས་གུད་གཏོ་སྤྱི་རྒྱུག་ཡིན། ལྷ་མོ་བརྒྱད་རྩིས་ནི་རགས་པར་ཚེས་ཁོ་ནར་སྦྱར་བ་དང་། ཞིབ་པར་ཚེས་འཆར་སྤར་ཁ་དང་སྦྱར་བ། ལི་འོད་འབར་ཁོན་བརྟན་མ་སོགས་སྦྱར་ཏེ་དེ་རྣམས་འཆར་ལུགས་གཞུང་ན་གསལ། མིག་རྣ་སོགས་ན་བར་ལྷ་མོས་དོན་བྱེད་པ་ཡིན་ནམ་སྙམ་བརྟག ཡང་ནད་ཐེབས་དུས་ལོ་ཟླ་ཞག་དུས་སྤར་ཁ་རྣམས་དགྲ་གཤེད་དང་ལོ་བདུན་ཟུར་བཞི་གཤེད་དུར་སོགས་ཐུག་མིན་……བརྟག ཞག་དུས་ཀྱི་ཀེག་ལ་བདུན་ཟུར་བཞི་གཤེད་གཙོ་ཆེ་ལ། ལྷག་པར་ཐང་ཤིང་སྐབས་འདིར་བཞི་གཤེད་གཙོ་བོར་གསུངས། གང་ཤར་དེ་དག་གི་དབང་ཐང་དང་སྤྲད་པས་དགྲ་ངན་∘བཟང་། བུ་གྲོགས་འབྲིང་སོགས་གཞུང་ལྟར་བརྟག བཞི་གཤེད་ཀྱི་ལོ་སོགས་ལ་ནད་བྱུང་ན་ངན། ལོ་སོགས་བཞི་ཀ་ཀེག་དུས་ལ་བབ་ན་ངན། …
+
+"…When the ransom rites (གཏོ, gto) are done, a day and hour of a good
+meeting, the mother and the rest of one's own year, without the
+seven-corner (བདུན་ཟུར, bdun zur), the enemy's tomb and the like, is
+good. The life force and the rest at decline in their rise and decline,
+ill, dead or entered the tomb, many enemy meetings, the great enemy
+risen, are bad; 'the demon-cutting calmed' means it has not arisen
+harsh. The five, the nurse and the rest, are the mother, son and the
+rest of the one reckoned's life force; they must also be without the
+other faults, the seven-corner, the tomb-slayer and so on. **The
+nineteen pebbles**: the one reckoned's life force and body fought
+against the life force and body of the year, month, day and hour of the
+time of falling ill, and the life force's and body's rise and decline
+carried onto the year, month, day and hour, sixteen; and three
+identifying pebbles of the date, weekday and mansion of the day of
+falling ill: nineteen. The verdicts of the fights are clear as the root
+text says; the planets and mansions are not fought, being taken as they
+actually come; the date is not here, 'to be taken from another date
+reckoning', it says; in fact the eight goddesses' reckoning below is a
+date reckoning too, so take it from there; the trigram's faults are told
+in passing. 'Life force in decline, and the others' life not cut' and
+the rest: **where the plank-tree and the deciding pebble above are black,
+and where the life force and the rest are in decline, it is the general
+ransom.** The eight goddesses' reckoning is joined roughly to the date
+alone, and finely to the date's rising trigram, Li joined to the Blazing One
+(འོད་འབར་མ, 'od 'bar ma), Khon (ཁོན, khon) to the Steadfast One (བརྟན་མ, brtan ma) and so on,
+their rising as the root text makes clear; when the eyes, ears and the
+rest hurt, consider whether the goddess is at work. **Further, examine
+whether at the time the illness struck the trigrams of the year, month,
+day and hour meet the enemy-slayer, the year's seven-corner, the four
+slayers (བཞི་གཤེད, bzhi gshed), the tomb and so on; for the obstacle of the
+day and hour the seven-corner and the four slayers are chief, and above
+all here, in the plank-tree, the four slayers are taught as chief.**
+Whatever arises, set against their power: the enemy bad, [the mother]
+good, son and friend middling and so on, as the root text says; illness
+coming in the year and the rest of the four slayers, bad; the year and
+the rest, all four, falling at the time of an obstacle, bad. …"
+
+The notes' section closes on p. 499 (img. 507; the reprint's img. 505, ll. 9–14, Yigdzin-1 of both prints):
+each of the household is examined against each other, husband and wife,
+father, mother, children, master and disciples; of the twelve kinds of
+death one is dying at one's time and eleven are by conditions, all of
+which means and rites can clear, so strive in the rites aimed at them
+(the close quoted whole by RD26 above, *Mipham's notes on condensing*,
+§2).
+
+### 7. WB's close: the twelve deaths and the rites sized (p. 451, img. 461)
+
+Ll. 8–16, read on the reprint (img. 446) in half-line crops; the 1996
+etext loses «ཆེ་རུ་བསྐྱེད་ལ» (l. 15):
+
+> …གཤེད་ཀྱི་ཚེ་ལེན་བརྟགས་ཏེ་བསྲུང་། །སྐྱེས་པ་ནད་ཀྱིས་བཏབ་པ་ལ། །བུད་མེད་ཁྱོ་ཤི་ཡོད་མེད་བརྟག །བུད་མེད་ནད་ཀྱིས་བཏབ་པ་ལ། །ཆུང་ཤིའི་ལོ་ཟླ་ཡོད་མེད་བརྟག །བྱིས་པ་ནད་ཀྱིས་བཏབ་པ་ལ། ཕ་མ་མྱ་ངན་ཨེ་འཁོར་བརྩི། །སློབ་དཔོན་ནད་ཀྱིས་བཏབ་པ་ན། །ཉེ་གནས་ཆགས་སྒོ་ཆེ་ཆུང་ལྟོས། །ཤི་ཐབས་རྣམ་པ་བཅུ་གཉིས་ལ། །བཅུ་གཅིག་རྐྱེན་གྱིས་འཆི་བར་བཤད། །རྐྱེན་གྱིས་འཆི་བ་ཐམས་ཅད་ལ། །ཐབས་དང་བཅོས་ཁ་རིམ་གྲོས་ཕན། །ཐབས་དང་རིམ་གྲོར་འབད་པ་གཅེས། །ལ་ལ་ཡུལ་གྱི་སྲོལ་དང་བསྟུན། །ཡུལ་དེར་རིམ་གྲོ་གང་འབེབས་དང་། །ལ་ལ་མི་ཡི་རིགས་དང་བསྟུན། །བཙུན་པ་རྣམས་ལ་ཚོགས་གསོག་བྱ། །སྔགས་པ་རྣམས་ལ་བསྐང་བ་ཕོབ། །རིམ་གྲོ་ཀུན་ལ་དེ་བཞིན་བྱ། །འགྲུབ་དང་མི་འགྲུབ་རྩོལ་བས་ཏེ། །གཅེས་དང་མི་གཅེས་དག་ཀྱང་བལྟ། །རིམ་གྲོ་སྔ་དུས་ཆུང་བ་ན། །ཆེ་རུ་བསྐྱེད་ལ་ཕན་པར་བྱ། །དེ་སྔོན་རིམ་གྲོ་ཆེ་བས་ན། །ཆུང་ལ་དམིགས་སུ་འགྲོ་བར་བྱ། །གཡག་དང་ལུག་གི་ཁལ་བཞིན་བཅོས། །
+
+"…Examine the life-taker of the slayer and guard against it. When a man
+is struck by illness, examine whether there is [a year in which] his
+wife's husband dies; when a woman, whether there is a year and month
+of the wife's death; when a child, reckon whether the parents' grief
+comes round; when a teacher falls ill, look at the attendants' door of
+attachment, great or small. **Of the twelve ways of dying, eleven are
+told as dying by conditions; for all deaths by conditions, means,
+treatment and rites (རིམ་གྲོ, rim gro) help; striving in means and rites
+is precious.** Some follow the custom of the land, whatever rite falls to
+that land; some follow the kind of person: for monks, gathering merit;
+for mantra-holders (སྔགས་པ, sngags pa), the fulfilment rite; do so with
+all rites. Whether they succeed or not is by effort; look also at what
+is dear and what is not. **If the rites before were small, make them
+greater and help; if the rites before were great, aim at a small one;
+treat as the load of a yak and of a sheep.**"
+
+So WB closes the illness with a rule for the rite, not for the verdict:
+one death in twelve is of its time, the rest can be turned, and the rite
+is fitted to the land, the person and what was done before, as a load is
+fitted to the animal.
+
+### 8. The colophon: no verdict by one or two results, none by guesswork (pp. 451–452, img. 461–462)
+
+P. 451, l. 16 to p. 452 (the reprint, img. 446–447; Yigdzin-1 of both
+prints, 99–100% agreeing; p. 452, ll. 1–3 and 15–20 read on the reprint
+in half-line crops). The prose names the chapter, *the long plank-tree*
+(ཐང་ཤིང་རིང་མོ, thang shing ring mo), and its sources: the many
+commentaries, some nine Tibetan ones and notes of every view, against
+which WB keeps the tradition of the scholar Pelgön Trinlepa
+(དཔལ་མགོན་འཕྲིན་ལས་པ, dpal mgon 'phrin las pa) unchanged, the
+starting points of the year and the like hidden in the ordinary text,
+and, where the traditions of Nyakben Narawa (གཉགས་བན་ན་ར་བ, gnyags ban na ra ba) and Dumpo Dönwang
+(ལྡུམ་པོ་དོན་དབང, ldum po don dbang) differ a little in some starting points, both
+given at the ninth and the sixteenth. Then the
+critique (p. 451, ll. 27–28; p. 452, ll. 1–3):
+
+> …ཕོ་མོ་གདོང་རྩལ་ཆེ་བ་རྣམས་འབྱུང་པོ་སོགས་ཀྱིས་བརླམས་པར་བརྫུ་བའི་ལ་ལ་ངག་ར་འདོན་ལུག་འདོན་གྱི་བརྗོད་རིགས་སྣ་ཚོགས་པར་གླེང་པས་བདེན་རྫུན་ཀྱང་ཇི་སྙེད་ཅིག་འབྱུང་བར་……བདེན་པ་དང་འགྲིག་པ་རེ་གཉིས་ལ་ཀུན་གྱིས་ངོ་མཚར་དུ་འཛིན་ཅིང་། ལ་ལ་དག་གང་ཡང་བཟང་ངན་སྦོམ་ཆར་ལས་མི་སྨྲ་བའི་འཕྱི་སྒོམ་ལྟར་ལ་རིམ་གྲོ་གང་ཐོན་རེ་འབེབས་པའི་དྲི་ཡུལ། གཙུག་ལག་འདི་ག་ཡང་ཚུལ་བཞིན་མི་ཤེས་པར་ཧ་ལམ་གྱི་ཁ་དམར་མཁན་དང་། …
+
+"…Some men and women of bold face, feigning to be seized by spirits,
+talk in all kinds of ways, and true and false come out in plenty;
+**everyone marvels at one or two that come out true and fit. Some, who
+say nothing about anything but a rough good or bad, like an owl's
+meditation, become the ones consulted and lay down whatever rite comes to
+hand; not knowing this treatise properly, they are verdict-makers by
+guesswork** (ཧ་ལམ་གྱི་ཁ་དམར་མཁན, ha lam gyi kha dmar mkhan)…" (the
+reprint prints «སྦོམ», the 1996 etext «སྤོམ»; «འཕྱི་སྒོམ», read "an owl's
+meditation", is not found glossed).
+
+The page goes on against the Bon (བོན, bon) histories' claims for this
+reckoning and those who read the *Svarodaya* (སྭ་རོ་དྷ་ཡ, swa ro dha
+ya; in Tibetan དབྱངས་འཆར, dbyangs 'char) by guesswork, and ends with what WB has put into
+the chapter (p. 452, ll. 14–20):
+
+> …སྭ་རོ་དྷ་ཡའི་རྒྱུད་ནས་གསུངས་པ་རྣམས་བཀའ་རྒྱ་ཤིན་ཏུ་དམ་པས་བཀོད་པར་མ་ནུས་རུང་ནད་ཀྱི་ཟུག་རྔུས་གཙེས་པས་མཚོན་འགྲོ་བ་ཀུན་ལ་ཕན་པའི་ཆེད་གཙུག་ལག་ཐང་ཤིང་འདིར་དུས་……རམས་པ་འཆི་མེད་བདེ་བའི་ལུགས་སོགས་ཞལ་རྒྱུན་ཤིན་ཏུ་ཟབ་པའི་གནད་ལ་བརྟེན་པའི་སྐོར་འགོའི་བསྒྱུར་ཁ་དང་ནད་སོ་སོའི་རྡེལ་ནག་བཟོ་བ། སྤར་སྨེའི་གཏོ་ཕྲན་དང་སྤར་ཁའི་གདོན་སྤོས་སོགས་ཀྱི་ཟབ་གནད་ཀྱིས་མཚོན་ལུགས་གཞན་ནས་ཀྱང་ལེགས་ཆ་བསྡུས་པའི་ཚུལ་བཞིན་བརྩི་མཁན་དང་དྲི་མིས་ཉམས་བླངས་ན་ལྐོག་གྱུར་མངོན་སུམ་དུ་སྟོན་པའི་རྩིས་དང་། གཞན་ཡང་ནང་པ་སྲིའུའི་ཆེད་ཀྱི་རྡེལ་ཕྲན་འབྲས་བུ་དང་བཅས་པར་སྐབས་བདེ་མེད་ཀྱི་རྐང་ཆད་པར་ཉེ་བ་ཡང་ཆ་མཚུངས་སུ་འདུག་པས་འདིར་བཀོད་པ་བཅས་པའི་ལེའུ་སྟེ་ཉེར་ལྔ་པའོ།།
+
+"…Though what the *Svarodaya* tantra teaches could not be set down, its
+seal being very strict, for the good of all beings, those tormented by
+the pain of illness first, into this plank-tree treatise [is put], on
+the very profound points of the oral lineage, the tradition of [the
+scholar, Rabjampa (རབ་འབྱམས་པ, rab 'byams pa)?] Chime Dewa (འཆི་མེད་བདེ་བ, 'chi med bde ba) and others: **the
+changes of the starting points, the making of each illness's black
+pebbles, the small ransoms of the trigram and mewa, the sending of the
+trigram's spirits and the like**, the good parts gathered from other
+traditions too: a reckoning that, if the reckoner and the one who asks
+practise it so, shows the hidden openly; and besides, the small pebbles
+with their results for the infants of Buddhists (སྲིའུ, sri'u), near to
+being lost for want of use, are set down here too. The twenty-fifth
+chapter."
+
+The illness reckoning's conclusion, then, is to be drawn from the whole,
+not from one or two results that happen to fit, nor as a rough good or
+bad with a rite picked at random: the chapter's own example of how not
+to conclude.
+
+### What the illness reckoning's conclusion rests on, in short
+
+- **Two counts.** The board of the fifteen starting points and the
+  sixteenth against the four aspects gives verdicts; the illness's
+  element is a separate count of the time of falling ill (WB p. 435; the
+  notes, pp. 495, 497).
+- **The board.** Sixteen verdicts below and four across, one for each
+  aspect's plank-tree (the notes, p. 495). The more white the better,
+  four white very good; mixed and unresolved, the plank-tree has not come
+  down and the reckoning has not reached a decision; black the more,
+  rites; all four black, the rites of each starting point (WB p. 419,
+  O19). The fifteen are three fives, man, woman, children (p. 423; the
+  notes, p. 495); the seven great reckonings are read off them, the
+  seventh the other six all bad (the notes, p. 496).
+- **Karma, conditions or spirits.** The difference between white and
+  black among the fifteen names "N-fold more white" or "black", each a
+  kind of illness with its rites (WB p. 425; the notes, p. 496; §5).
+- **The element.** Five pebbles in WB (the four times' life forces and
+  the most-found trigram), seven in the notes (the year's, month's and
+  day's life force, the hour's power, the descending trigram and mewa,
+  and the person's kind); the element most and greatest in share is
+  the illness (WB pp. 435, 438; the notes, p. 497). Half and half, both
+  weighed; a third and two thirds, spirits and conditions (WB p. 438);
+  near thirds, the one a little over (the notes' example). Four
+  different trigrams: no rule; some cases: no verdict in the root text.
+- **The split names the illness**: fire four earth one a strong fever,
+  water five a great chronic cold, and so on through every split of five
+  (pp. 435–436), with its seat, door and signs (p. 439, RD12).
+- **The time of reckoning** is needed as well as the time of falling ill
+  (the notes, p. 497).
+- **The rite**: by the bad plank-tree's class (p. 421, RD12), by the
+  fraction (p. 425), by the black plank-tree and deciding pebble and the
+  aspects in decline, the general ransom (the notes, p. 498); done on a
+  day and hour of a good meeting without the seven-corner or tomb; the
+  four slayers chief in the plank-tree (p. 498). Fitted to the land, the
+  kind of person and the rites done before, as a yak's load and a
+  sheep's (WB p. 451). Eleven deaths in twelve are by conditions and can
+  be turned (WB p. 451; the notes, p. 499).
+- **Not by one or two results, not by guesswork** (WB p. 452).
+
+### Open
+
+- Question: «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན» (WB vol. 1, p. 435, l. 16–17,
+  img. 445; the reprint img. 430): is the trigram of the fifth pebble
+  "the trigram of the date in its own month", and how is the tiger,
+  horse and dog "counted on Li" for each of the year, month, day and
+  hour (the notes, p. 497, repeat the words and add «སོགས»)?
+- Question: which are the notes' seven (vol. 2, p. 497, l. 11,
+  «ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the life force of the year, month and
+  day of falling ill, the hour's power, the descending trigram and mewa
+  and the person's kind, as the gloss just before suggests, or WB's five
+  of p. 435 with the person's kind and the time of reckoning?
+- Question: how do p. 438's "a third and two thirds: an illness of
+  spirits and conditions" and the notes' example (two, two, three of
+  seven: iron's illness, the greater share) agree; is the rule of p. 438
+  for two elements only?
+- Question: what are WB's classes «སུམ་ཆས», «བཞི་ཆས», «ལྔ་ཆས», «དྲུག་ཆས»
+  «ལྷག་དཀར» / «ནག» and «དཀར་ནག་ཕྱེད་མ» (vol. 1, p. 425) as counts of the
+  fifteen? The notes (vol. 2, p. 496) give six white and nine black as
+  «སུམ་ཆས་ལྷག་ནག» and say "three more is like a third, four like a
+  fourth"; but a difference among fifteen is always odd, and WB lists the
+  classes from a third more white through a sixth, half, and a sixth to a
+  third more black, an order that runs from the whitest to the blackest
+  only if "a third more" is more than "a sixth more". With the pebble
+  door counted, with speckled pebbles left out, or by "joining on top of
+  an even split" as the view the notes report has it?
+- Question: what do p. 425's labels say, «ཁྲ་བོའི་དཀར་པོ», «ཁྲ་བོའི་ཁྲ་བོ»,
+  «ཁྲ་བོའི་ནག», «ནག་པོའི་དཀར», «དཀར་པོའི་ནག», «དཀར་ཁྲ» (the white, speckled
+  and black of the white, speckled and black: a grade of each class?),
+  and what are «ལྔ་སུམ་གཅིག་གི་ནད» (p. 425, l. 10) and the line
+  «གདགས་སྲིབས་གོ་ལོག་ཐང་ཤིང་འབྲས། །མ་བབས་…» (l. 6–7)?
+- Question: the fever printed «[རྙོངས]» (p. 435, l. 26; Yigdzin-1 of the
+  reprint «སྟོངས»): is it the turbid fever (རྙོགས་ཚད, rnyogs tshad), and
+  is «[ཉ]་བཞི་ན་ལ» (l. 21; etext «ཞྭ་བཞི») a word for the four limbs or
+  joints?
+- Question: «བླངས་ལན་པའི» (the notes, p. 497, l. 2): what does the phrase
+  say of the breath taken?
+- Doubt, not settled on the scan: p. 435, l. 28, «[རུས]་ལ་ཞེན» (both
+  prints' Yigdzin-1 «རུས», MITRA «དུས», the reprint's stack not clear);
+  l. 21, «[ཉ]་བཞི་ན» (Yigdzin-1 «ཉ་བཞིན», MITRA and the etext «ཞྭ་བཞི་ན»); p. 452, l. 15–16, the name broken over
+  the line end, «…རམས་པ་འཆི་མེད་བདེ་བ», read "the Rabjampa Chime Dewa"
+  as a guess.
+
+### Searched and not found
+
+- 2026-10-21, the WB etext, vol. 1, pp. 417–452, and the notes, pp.
+  495–499: «ཤས་ཆེ», «གང་མང», «སུམ་ཆ», «ཕྱེད་མ», «ཆས་ལྷག», «ཁ་དམར»: no
+  rule for the whole reckoning beyond those quoted; «གང་མང» in ch. 25
+  only on pp. 435, 438 and 445 (where to read the crown dhāraṇīs, གཙུག་ཏོར, gtsug tor), «ཆས་ལྷག»
+  only on p. 425; no rule for four trigrams of four elements and no rule
+  tying the five-pebble element to the board's verdicts.
+- 2026-10-21, no worked example of the illness identified (a year,
+  month, day and hour with their trigrams and the five pebbles laid), in
+  ch. 25 or the notes: the notes' «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ» is a split
+  only, with no times.
 
 
 ## The verdicts of the dead, the thirty, the circles and the moment (RD23)
