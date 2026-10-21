@@ -2829,3 +2829,24 @@ the text, not about the app.
      into four, or three topics into four? Nor brang repeats the words
      («སྐབས་གསུམ་བཞི་རུ་བགོས»). [verdicts.md](verdicts.md), "Ch. 20's
      classes of texts and the deciding texts" (RD25).
+243. **The verdict laid with a count (KD vol. 3, p. 724).**
+     On Kun dga' rig 'dzin's sheet of the meadow's ornament the verdict
+     row lays counts (three white, two white, one white, white and
+     black, one black), not one colour; is the verdict pebble laid with
+     a count in practice, and from what is the count taken?
+     [verdicts.md](verdicts.md), "Written reckonings: the practitioners'
+     form" (RD28).
+244. **The *Spor thang* (KD vol. 3, pp. 718, 726).**
+     Which work is the *Spor thang* (གཙུག་ལག་སྤོར་ཐང) that the sheets
+     cite for the hundred pebbles and the household, and does it rest on
+     WB? [verdicts.md](verdicts.md), "Written reckonings: the
+     practitioners' form" (RD28).
+245. **«སྟངས་གཅོད» and «བཏང་གཅོད» (KD vol. 3, pp. 722, 729).**
+     Is the sheets' «སྟངས་གཅོད» WB's «བཏང་གཅོད», the deciding pebble, in
+     another spelling? (BDRC's search gives «སྟངས་གཅོད» 90 hits and no
+     catalogued title, RD25.) [verdicts.md](verdicts.md), "Written
+     reckonings: the practitioners' form" (RD28).
+246. **Kun dga' rig 'dzin (KD vol. 3, pp. 713–729).**
+     Who is Kun dga' rig 'dzin, the writer of the *Sheets of Some Needed
+     Examples* (MW28845_B881BE)? [verdicts.md](verdicts.md), "Written
+     reckonings: the practitioners' form" (RD28).

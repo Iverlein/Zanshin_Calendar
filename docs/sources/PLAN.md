@@ -797,3 +797,21 @@ Searched and found wanting, so not to be repeated:
   dmar» or «'phrul gyi sgron me». BDRC's image server answered 503
   (I4PD636, I1KG1710) or empty images (I1GS66247) all through
   2026-10-21: try again before calling those scans missing.
+- **A manual for writing a reckoning** (RD28, 2026-10-21): BDRC's
+  full-text search, no hit: «སྐྱེས་རྩིས་ཀྱི་ཡི་གེ», «རྩིས་ཡིག་འབྲི་ཚུལ»,
+  «རྩིས་ཡིག་བྲི་ཚུལ», «སྐྱེས་རྩིས་འབྲི་ཚུལ», «ཀེག་རྩིས་ཀྱི་ཡི་གེ», «ལོ་རྩིས་ཀྱི་ཡི་གེ»,
+  «ལོ་བབས་རྩིས», «སྐྱེས་རྩིས་ཡིག», «དཔེར་བརྗོད་ཀྱི་ཤོག་ཁྲ». Titles: «སྐྱེས་རྩིས» (56)
+  names one work, a manuscript on the thirty sounding elements (ཁ་སྲོག,
+  kha srog; MW2PD19899_9CC3D5); «བཙས་རྩིས» (12), «འཁྲུངས་རྩིས» (28) no title;
+  «རྩིས་བྱང» (138) as a title only in the Bon Kanjur and Katen (MW30498),
+  not a source; «ཚེ་རྩིས» (191) mostly the svarodaya's (དབྱངས་འཆར, dbyangs
+  'char) life reckoning; «རྩིས་དཔེ» (145) a reckoning book, not a model;
+  «ཤོག་ཁྲར་བཀོད», «ཤོག་ཕྲར་བཀོད», «རྡེལ་ཁྲར་གཞིགས» only WB's notes p. 539,
+  I1LT0800 and KD vol. 3, p. 729. KD's etext, vols. 1–3 (I4715–I4717):
+  «རྩིས་ཡིག» only for the Ming calendar (vol. 1, etext p. 574); «རྩིས་བྱང»
+  only in «གྲུབ་རྩིས་བྱང་བགྲོད» (vol. 2); «དཔེར་བརྗོད» in vol. 2 only the
+  conjunctions' examples (etext pp. 150–161); «ཤོག་ཁྲ» in vol. 3 only the
+  sheets (etext pp. 733–751) and p. 13; «སྦྱིན་བདག» in vol. 3 only p. 163.
+  Lhamo Tsultrim's etext (I1KG21886): «མྱོང་བྱང», «རྩིས་ཡིག», «རྩིས་བྱང»,
+  «སྦྱིན་བདག», «ཡི་གེར», «འབྲི་ཚུལ», «བྲི་ཚུལ», «དཔེར་བརྗོད», «ཟིན་བྲིས»,
+  «སྤྱི་བསྡོམ» none; «ཤོག་ཁྲ» only look-up tables (etext pp. 12, 194–195).

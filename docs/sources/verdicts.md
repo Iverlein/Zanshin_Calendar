@@ -5017,11 +5017,12 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 
 ### Open
 
-- Question: On Kun dga' rig 'dzin's sheet of the meadow's ornament (KD vol. 3, p. 724) the verdict row lays counts (three white, two white, one white, white and black, one black), not one colour; is the verdict pebble laid with a count in practice, and from what is the count taken?
-- Question: Which work is the *Spor thang* (གཙུག་ལག་སྤོར་ཐང) that the sheets cite for the hundred pebbles and the household (KD vol. 3, pp. 718, 726), and does it rest on WB?
-- Question: Is the sheets' «སྟངས་གཅོད» (pp. 722, 729) WB's «བཏང་གཅོད», the deciding pebble, in another spelling?
-- Question: Who is Kun dga' rig 'dzin, the writer of the sheets?
+- Open question 243 ([open-questions.md](open-questions.md)): the verdict laid with a count.
+- Open question 244 ([open-questions.md](open-questions.md)): the *Spor thang*.
+- Open question 245 ([open-questions.md](open-questions.md)): «སྟངས་གཅོད» and «བཏང་གཅོད».
+- Open question 246 ([open-questions.md](open-questions.md)): Kun dga' rig 'dzin.
 - Doubts left on the scan (no agy turn): p. 716, «སྲོག་[མྱུ]་རྩིས» (the etext «མྱུ»; the eye at 4× cannot tell མྱུ from ཕྱུ); p. 729, «ཀླུ་རྟའི» as printed.
+- Left, not read (BDRC's image server down 2026-10-21): the LTWA's *Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401) and the Lhasa Mentsikhang's 1987 blockprint of life reckonings and reckoning books (I1KG12897); [RD29](../ROADMAP.md#rd29).
 
 ### Searched and not found
 
