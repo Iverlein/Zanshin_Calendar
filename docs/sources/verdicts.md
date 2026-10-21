@@ -2715,4 +2715,694 @@ Nothing read yet: RD22's passages, with the English beside them, go here.
 
 ## The verdicts of the dead, the thirty, the circles and the moment (RD23)
 
-Nothing read yet: RD23's passages, with the English beside them, go here.
+Read 2026-10-21 on BDRC's scans of the 1996 print (vol. 1 I1KG12906,
+image = page + 10; vol. 2 I1KG12907, image = page + 8, checked on the
+printed numbers of vol. 2 img. 30, 31, 112, 113, 180, 525, 541), every
+quoted line by eye in half-line crops at 3× and the doubtful syllables at
+5–7×, beside Yigdzin-1's reading (`wb/yigdzin/`, `wb/vol1/yigdzin/`) and
+MITRA's as witness, run for this on vol. 2 img. 30, 31, 112, 113, 122,
+171, 180, 509, 511, 517, 525, 541, 542 and vol. 1 img. 478, 479 (MITRA's
+earlier reading of img. 58 used; its earlier reading of img. 508 loops on
+one syllable after line 5, so the quoted lines of p. 500 rest on the eye;
+img. 516, 526 and 528 by eye only, one line each). Every `disagree.py`
+flag in the quoted lines was settled on the scan. Where a passage was
+already read on the scan for another section, that section is named and
+its reading kept. The passages were found in BDRC's etext of WB
+(IE0OPI51524892) and Yigdzin-1's reading of the chapters, searched for
+the words of the verdict and the rite («ཁ་དམར», «བཏང་གཅོད», «ཁྲ་བོ»,
+«རྡེལ་ཁྲ», «ཐམས་ཅད་དཀར», «ཐམས་ཅད་ནག», «གཏོ་དཀར», «གཏོ་ནག», «ཆེ་ཆུང»,
+«འབྲིང», «རྒྱས་དང་བསྡུས»).
+
+The words, named once here: the verdict (ཁ་དམར, kha dmar); the deciding
+pebble (བཏང་གཅོད, btang gcod); the life force (སྲོག, srog), the body
+(ལུས, lus), the power (དབང་ཐང, dbang thang), the luck (ཀླུང་རྟ, klung
+rta), the element (ཁམས, khams), the la, the life-spirit (བླ, bla); the
+trigram (སྤར་ཁ, spar kha) and the mewa (སྨེ་བ, sme ba); the sky year, the
+year now running (གནམ་ལོ, gnam lo); the progressed sign (ལོག་མེན, log
+men); the remedy (བཅོས, bcos); the rite (གཏོ, gto) and the rites as a
+whole (གཏོ་རིམ, gto rim); the thread-cross (མདོས, mdos); the ransom
+(གླུད, glud); the earth lords (ས་བདག, sa bdag); the harmful spirits of
+the dead (སྲི, sri); speckled (ཁྲ་བོ, khra bo).
+
+### 1. The dead: the thirteenth point gathers the twelve (vol. 2, p. 50, img. 58)
+
+The passage was read on the scan for RD16 ([reckonings.md](reckonings.md),
+*The sizes*) and RD18 (above); read again here, l. 22–28, with MITRA's
+reading of img. 58 (its flags, «ཉེས» for «ཉིས» and «རྒོང» for «གོང», are
+its own; the line Yigdzin-1 drops, l. 28, it has, with «ཁ་སྤྲང»):
+
+> ས་དཔྱད་བཅུ་གསུམ་མཇུག་གཅོད་གཏོའི། །རྡེལ་གྲངས་ཉིས་བརྒྱ་ཉེར་བདུན་བོར། །དེ་ཡང་འབྲས་རྡེལ་ཉེར་ལྔ་དང་། །ངོས་འཛིན་རྡེའུ་ཉིས་བརྒྱ་གཉིས། །རྩ་བའི་རྡེའུ་བཅུ་གཅིག་ནི། །དེ་ནི་གོང་གི་སྲོག་ལུས་དབང་། །ཀླུང་རྟ་ཁམས་ཀྱི་ཁ་དམར་རྣམས། །དཀར་ན་དཀར་པོ་ནག་ན་ནག །སྤར་ཁའི་ལེ་ལན་གཉན་མི་གཉན། །རྭ་བསེའི་ཟློས་པ་ཡོད་དམ་མེད། །སིལ་བུའི་དུར་ལྔ་གང་ཐོབ་རྡེལ། །སྐྱེ་གནས་བཟང་ངན་རྡེའུ་དང་། །རོ་རིགས་བཞག་ས་བསྟན་ལ་གཅིག །དྲང་ཕྱོགས་འཇམ་རྩུབ་རྡེའུ་དང་། །མཇུག་གཅོད་མང་ཉུང་འཇམ་རྩུབ་རྡེལ། །དཀར་མང་དཀར་པོ་ནག་པོ་མང་། །ནག་རྡེལ་སྙོམས་ན་དཀར་ནག་ཟུང་། །གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།
+
+The thirteenth examination, the rite that cuts off the end (མཇུག་གཅོད་གཏོ,
+mjug gcod gto): 227 pebbles are laid, 25 of result and 202 identifying.
+The eleven root pebbles: the verdicts of the life force, body, power,
+luck and element above, white where white, black where black; the
+trigram's reason (ལེ་ལན, le lan), dangerous or not; the repetition (ར་བསེ,
+ra bse), there or not; the pebble of whichever of the five scattered
+graves was found; the pebble of the rebirth, good or bad; one for the
+kind of corpse and the place shown for it; the pebble of the direction it
+is carried, smooth or rough; and the pebble of the cutting off, much or
+little, smooth or rough. More white, a white one; black more, a black
+one; the black pebbles even, a pair of white and black: how great, small
+or middling the rites must be, this account (ཁ་སྨྲང, kha smrang) tells.
+
+What the lines give:
+
+- The thirteenth point is a verdict laid over verdicts. Its first five
+  roots are the verdicts of the five aspects laid in the examinations
+  before it, taken over as they fell; the next six are findings of those
+  examinations put as one pebble each, good white and bad black: the
+  trigram, the repetition, the grave, the rebirth, the corpse and its
+  place, the direction.
+- The pebble of "the cutting off, much or little, smooth or rough" is
+  laid on the eleven by the count every verdict uses: more white white,
+  more black black, even a pair. The notes count it as the twelfth, the
+  verdict (p. 517, §2 below).
+- That verdict says how large the rites must be: great, middling or
+  small. The lines do not say which colour asks for which.
+- «ཁ་སྨྲང» stands in the same shape twice more: WB p. 114 (§3) and the
+  notes p. 518, «རང་རང་ཁ་སྨྲང་སྐབས་བཤད», "each one's account told in its
+  place" (img. 526, l. 18, read on the scan); there too it reads as the
+  account, as the dictionaries give it (open question 174;
+  [reckonings.md](reckonings.md), RD16's *Open*).
+
+### 2. The dead: the notes on the thirteenth (vol. 2, p. 517, img. 525, l. 3–16)
+
+> འགྲམ་བཅོས་ལ། རྩ་རྡེལ་བཅུ་གཅིག ཡན་ལག་བཏང་བཅས་ཉིས་བརྒྱ་ཉེར་བདུན་ཡོད་པ་ལས། དང་པོ་སྲོག་ལུས་དབང་ཀླུང་ཁམས་རྡེལ་རྣམས་ནག་ན་བཅོས་དགོས་པ་དང་། སྤར་ཁ་ནག་མིན་དང་། ར་བསེ་སྐོར་གཅིག འབྱུང་དུར། སྐྱེ་གནས། བཞག་ས། དྲངས་ཕྱོགས་འཇམ་རྩུབ་རྣམས་ནག་ན་བཅོས་དགོས། དེ་ཀུན་བགྲང་བས་ཁ་དམར་བཅས་བཅུ་གཉིས་སོ། །སྒོས་བཅོས་མི་ལུས་པའི་རྡེལ་ཕྲན་ལས། སྤར་བཅོས་བཅུ་བཞི་ལ་ལི་སོགས་བརྒྱད་སོ་སོའི་བཅོས་ལ། སྤྱིར་ངོས་འཛིན་བརྒྱད། དེ་ནང་གང་ཡིན་དེའི་བཅོས་སྤྱི་དང་། དེའི་ཐེམས་བསྡོམ། གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི། མགར་གྱི་ཤོག་དྲིལ་བཅོས་བཅས་དྲུག་རེ་བརྩིས་པས་བཅོ་ལྔའོ། །ལོ་སྤར་སྦྲག་མའི་བཅོས་བྱ་སྤྲེལ་ལི་ཤིའི་བཅོས་སོགས་བཅུ། རོ་ཡི་ཤུལ་ཕྱགས་མའི་བཅོས་ཉེར་བཞི་རྟ་སོགས་སོ། །སྤུད་པ་དགུ་རྒྱུག་དྲུག་ནི་གཤེད་བཞི་ཟིན་ཤི་དང་། དུར་ཞུགས་དང་གཉིས་ཀུ་ཀུང་ལ་གསུམ་ན་ཤི་འགྲམ་བཅས་སོ། །སྨེ་བཅོས་དགུ་གཅིག་དཀར་སོགས། བཅོས་ཀྱི་རྡེལ་ཕྲན་ཉི་ཤུ། ངན་ཀླུང་བཅུ་གཉིས་ཀྱི་བཅོས། གནམ་རྩ་རྡེལ་དང་ར་བསེ་ངན་པ་སོགས་གནམ་ལོ་ངན་བཅོས། ཟླ་བ་ངན་སོགས་སོ། །རྩ་བར་སྦྲུལ་ཤད་ཅན་བརྩི་ཞིང་། ཐེམ་སྡོམ་ལ་རུས་ལྔར་ཕྱེ་བས་འགྲིག་གོ། །ཟླ་ལོ་ཞག་དུས་ཀྱི་བཅོས་བཅུ་གསུམ་ར་བཅོས་བཞི་སོགས་གཞུང་ལྟར། ཚེས་སུམ་ཅུའི་བཅོས་གཞུང་བཞིན། གཟའ་བཅོས་བརྒྱད་སྐར་བཅོས་ཉེར་བདུན། སྐར་འགོ་བཞི་བཅོས་སོགས་བཅུ་བདུན། སྐར་དུར་ལྔ་ལོ་སྐར་སྦྱར་བ་ཉེར་བཞི་བཅས་སོ། །དེ་ལྟར་བཅོས་སྡེ་ཚན་བཅུ་གསུམ་ལ་ནང་གི་གྲངས་ཉིས་བརྒྱ་གཉིས། རྩ་རྡེལ་བཅུ་གཅིག ངོས་འཛིན་བཅུ་གསུམ་གྱི་ཁ་དམར། དེ་ཡི་བཏང་བཅས་འབྲས་རྡེལ་ཉེར་ལྔ། ཁྱོན་བསྡོམ་ཉིས་བརྒྱ་ཉེར་བདུན་དུ་བགྲང་བའོ། །
+
+On the remedy of the strike (འགྲམ་བཅོས, 'gram bcos), which has eleven root
+pebbles and, with the limbs and the deciding pebble, 227: first, the life
+force, body, power, luck and element pebbles must be remedied if black;
+and the trigram, black or not; the repetition, one round; the grave by
+the element, the rebirth, the place it is set down, the direction it is
+carried, smooth or rough: these, if black, must be remedied. Counting all
+of them, with the verdict, twelve. Of the small pebbles of the particular
+remedies, which are not to be left out: the trigram's remedies, fourteen:
+for each of the eight, *li* and the rest, its remedy, in general eight
+identifying pebbles; and for whichever of them it is, its general remedy,
+its sum of slips (ཐེམ་བུ, them bu), the white, black and speckled rites
+counted one each, with the smith's paper-roll remedy: six each counted,
+fifteen. The remedies of the year's trigram in pairs, for a bird or a
+monkey dying on *li* and the like, ten; the remedies of sweeping the
+corpse's traces, twenty-four, the horse and the rest. The nine *spud pa*
+and six *rgyug* (སྤུད་པ, རྒྱུག; not understood): death on the four
+executioners and on *zin*, two with entering the grave, three on
+*kung kung*, with the strike. The mewa's remedies, nine, 1 white and the
+rest. The small remedy pebbles, twenty: the remedies of the twelve bad
+lucks; of a bad sky year, its root pebble, a bad repetition and the like;
+of a bad month and the rest. In the root text those marked with a snake
+mark (སྦྲུལ་ཤད, sbrul shad) are counted, and the sum of slips agrees when
+divided into the five clans. The remedies of month, year, day and hour,
+thirteen, the four *ra* remedies and the rest, as the text has; the
+remedies of the thirty dates as the text; of the planets eight, of the
+mansions twenty-seven; of the first mansions, four, and the like,
+seventeen; the five mansion graves, with the year's mansions joined,
+twenty-four. So the remedies in thirteen classes hold 202; the eleven
+root pebbles; the verdicts of the thirteen identifying classes; with its
+deciding pebble, 25 result pebbles; 227 counted in all.
+
+What the notes add:
+
+- A remedy follows each black root, one by one: each of the eleven that
+  falls black "must be remedied". The verdict laid over them (the
+  twelfth) is counted beside them, not instead of them.
+- The 202 identifying pebbles of the thirteenth point are remedies, in
+  thirteen classes, and each class has its own verdict: 11 roots, 13
+  verdicts and one deciding pebble make the 25 result pebbles (WB's
+  «རྡེལ་ཕྲན་བཏང་བཅས་བཅུ་བཞི», thirteen small pebbles with the deciding
+  one, p. 50). So the rites are reckoned class by class, the trigram's,
+  the mewa's, the dates', the planets' and the mansions' remedies each
+  judged by a verdict of its own.
+- The white, black and speckled rites are three pebbles among the
+  trigram's remedies, one each.
+- The trigram's remedies are fourteen at the head of the line and in
+  WB (p. 50), fifteen at its end («བཅོ་ལྔའོ»).
+
+### 3. The dead: the rites in the chapter (vol. 2, pp. 104–105, img. 112–113; p. 114, img. 122)
+
+**The opening** (p. 104, img. 112, l. 27–28, to p. 105, img. 113, l. 1):
+
+> ས་དཔྱད་བཅུ་གསུམ་ཤི་འགྲམས་སྐབ། །བཅད་པར་བྱ་བའི་ཐབས་གནད་དག །མ་སྦས་བཀླགས་པས་དོན་གྲུབ་བཀོད། །ཐོག་མར་སྤར་ཁའི་སྐབ་བཅད་ཐབས། །དཀྱུས་བཅོས་ཐེམ་བུ་དུར་བཅག་ལུགས། །ཁོག་འགྲམས་ལ་སོགས་ [p. 105] ཆགས་ཆེན། །གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག་དང་། །གལ་འགག་ཨུར་མནན་བསྟན་པར་བྱ།
+
+The thirteenth examination: the means and key points for cutting off
+the run of deaths (ཤི་འགྲམས་སྐབ, shi 'grams skab; on p. 55 «ཤི་སྒབ»), set
+down without concealment so that reading them accomplishes the purpose.
+First, the trigram's means of cutting off the run: the ordinary remedy
+(དཀྱུས་བཅོས, dkyus bcos), the slip, the way of breaking the grave, the
+inner strike (ཁོག་འགྲམས, khog 'grams) and the like, the great attachment
+(ཆགས་ཆེན, chags chen; not understood); the white rite, the speckled rite
+and the black rite (གཏོ་དཀར, གཏོ་ཁྲ, གཏོ་ནག; gto dkar, gto khra, gto nag),
+and the crucial pressing-down (ཨུར་མནན, ur mnan) are shown. (The print has
+«སྐབ» both times, sa over ka, as MITRA reads it; Yigdzin-1 «སྒབ».)
+
+**The three rites of *li*** (p. 105, img. 113, l. 7–11):
+
+> གཏོ་དཀར་ཞར་བ་མིག་ཚག་གི །མཆོད་གནས་བཀུག་ལ་ལྷོ་ཕྱོགས་སུ། །གཙུག་ཏོར་ལྷ་མོ་རོལ་བ་སྒྲོག །ཁྲེ་ཟན་མགོ་ཤ་བཅོས་ལ་བྱིན། །ཡོན་དུ་མགོ་ནོར་ཞྭ་མོ་དང་། །གཡུ་དང་ཕྱིང་པ་དེ་ལ་བྱིན། །ཁྲ་བོའི་གཏོ་ནི་འདི་ལྟ་སྟེ། །བོན་དུ་མདེ་ཐུང་གཞོབ་སེལ་དང་། །ཟོར་མདོས་གླིང་བཞི་སྤྱི་མདོས་བཏང་། །གཏོ་ནག་འདི་ལྟར་བྱ་བ་ཡིན། །ཞུགས[?]་པ་རྟ་སྦྲུལ་གང་རིགས་ཐོད། །ས་བདག་ལི་ཡི་འཁོར་ལོ་བཅུག །ལྷོ་ཕྱོགས་གྲུ་གསུམ་ལམ་དུ་མནན། །བུ་མོ་རྣམས་ཀྱིས་ཐོ་ལེས་གདབ།
+
+As the white rite: call a blind or squint-eyed offering-recipient (མཆོད་གནས,
+mchod gnas) to the south, recite the Uṣṇīṣa goddess (གཙུག་ཏོར་ལྷ་མོ,
+gtsug tor lha mo), give him millet dough and a prepared head of meat,
+and as his fee give him the head valuables, a hat, turquoise and felt.
+The speckled rite is this: in the Bon way the short arrow and the
+clearing (གཞོབ་སེལ, gzhob sel; not understood), and send the *zor*
+thread-cross and the general thread-cross of the four continents. The
+black rite is done so: the skull of a horse or a snake, whichever kind
+fits («ཞུགས[?]་པ», not understood), with the earth lords' wheel of *li*
+put inside, is pressed down on a three-cornered road
+in the south, and the girls strike it with *tho le* (ཐོ་ལེ; not understood).
+(«བོན་དུ», ba, as MITRA reads it, at 5×; Yigdzin-1 «ཁོན་དུ». «ཚག» on the
+scan, MITRA «ཆག».)
+
+So for the trigram of death *li* the three rites are three kinds: the
+white an offering with a fee, the speckled a thread-cross, the black a
+pressing-down. The other trigrams follow the same order in Yigdzin-1's
+reading (*khon* from p. 105, img. 113, l. 16; not read on the scan).
+
+**The size by the household's means** (p. 114, img. 122, l. 4–9):
+
+> བསྒྲུབ་མནན་ཆས་གཞུག་ལ་སོགས་པ། །སླ་བཅོས་རང་བཟོས་མ་གོས་པར། །ལག་ལེན་དཀྱུས་སུ་བསྙེགས་ལ་བྱ། །རོ་ཆགས་ཆེ་ལ་རོ་གླུད་གཏོང་། །སྤར་སྨེའི་གཏོ་མདོས་རྒྱས་དང་བསྡུས། །འབྱོར་པའི་གོ་བབས་ཕྱེ་ལ་འབོགས། །གཡོ་འཁྲུག་གྱེར་གཏོ་འབྱོར་ན་བཏང་། །མ་འབྱོར་རང་རང་རྩ་གཏོ་གྱེར། །མཇུག་ཏུ་བྱུར་འབུད་དཔལ་བསྐྱེད་ཅིང་། །སྡུག་གི་ཨ་ཐག་རྐང་བྲོས་བཅད། །འདི་ལ་རྟེན་འབྲེལ་གནད་འགག་ཆེའི། །ལོ་རྒྱུས་རིམ་པ་བཤད་རྒྱུ་མཆིས། །གླེན་པའི་འཕྱ་གླེང་བྱ་མི་རུང་། །དགུ་མིག་གྲངས་ཀྱི་འགྲམས་པ་ན། །རང་རང་ཁ་སྨྲང་སྐབས་བཤད་དང་། །སྤྱི་རུ་འདི་བཞིན་ཤེས་པར་བྱ།
+
+The *bsgrub* pressing-down, putting in the equipment and the rest, are
+done following the ordinary practice, untainted by easy fixes and one's
+own inventions. Where the corpse's attachment (རོ་ཆགས, ro chags) is great,
+send a corpse ransom (རོ་གླུད, ro glud). The trigram's and mewa's rites
+and thread-crosses, full and short, are given by dividing them according
+to the rank of the means (འབྱོར་པ, 'byor pa): if the means suffice, send
+the *g.yo 'khrug* and the *gyer* rite (གཡོ་འཁྲུག, གྱེར་གཏོ); if not, chant
+each one's root rite. At the end, expel the *byur* (བྱུར, a misfortune
+spirit) and raise glory, and cut misery's *a thag* and "fleeing foot"
+(not understood). In this there is a history of the key points of
+interdependence to be told: fools must not mock it. When the number of
+the nine-eye strikes, each one's account is told in its place, and in
+general it is to be known so. (Yigdzin-1 «ཁ་སྤང», MITRA «ཁ་སྦྲང»; the
+print has the same stack as p. 50's «ཁ་སྨྲང», read with doubt.)
+
+What the chapter adds:
+
+- Each trigram has its white, speckled and black rite, three kinds; WB
+  names them together, «གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག», as one item of the
+  trigram's means, and does not say on these pages that the verdict's
+  colour chooses one of them.
+- How full a rite is turns also on the household's means: the full form
+  where they suffice, each one's root rite where they do not (p. 114).
+  The verdict of p. 50 says what the dead and the living need; the means
+  say what of it is given.
+
+### 4. The dead: the other gatherings in the notes (vol. 2, pp. 500–509, img. 508–517)
+
+**The year's rise and decline, and the funeral share** (p. 500, img. 508,
+l. 14–15, 18–21; the start of l. 14 read for RD16):
+
+> སྲོག་སོགས་ལྔ་པོའི་དར་གུད་གནམ་ལོ་ཁོ་ནར་གཏུགས། བཟང་དྲུག་དཀར་ངན་དྲུག་ནག་མ་འཕྲད་དཀར་གསུམ་སོགས་སྤྱི་བཞིན་བོར། ཁ་དམར་ཀྱང་སྤྱི་ལྟར་རོ། … འདུར་ཐང་སྐབས་དབང་ཐང་དང་ཁམས་རྡེལ་གྱི་བཏང་གཅོད་གཉིས་ཀ་དཀར་ན་དཀར་པོ་བོར། གཉིས་ཀ་ནག་ན་ནག་པོ། གཅིག་དཀར་གཅིག་ནག་ན་ཁྲ་བོ་བོར་ཏེ། དཀར་པོ་ལ་འདུར་ཐང་ཆེ་བ་ཐོབ། ཁྲ་ལ་འབྲིང་། ནག་པོར་མི་ཐོབ་ཅེས་སོ། །འདུར་ཞེས་རོ་ཆས་དུར་ས་ཟན་གཏད་སོགས་ཆེན་པོ་མི་ཉན་པ་ལ་ཟེར་གྱི་དགེ་རྩ་མི་ཉན་པ་ལྟ་བུ་མིན་ནོ། །
+
+The rise and decline of the five, the life force and the rest, are set
+against the sky year only: the six good stages white, the six bad black,
+no meeting white, the mother three white and so on, laid as in general;
+the verdict too as in general. … For the funeral share (འདུར་ཐང, 'dur
+thang): if both deciding pebbles, of the power and of the element, are
+white, a white one is laid; both black, a black one; one white and one
+black, a speckled one. With the white a large funeral share is obtained,
+with the speckled a middling one, with the black none. "Funeral" means
+the large things, the corpse's goods, the grave site, the food offered
+and the like, that are not to be had; it does not mean that the merit
+(དགེ་རྩ, dge rtsa) is not to be had.
+
+**The rebirth: twelve roots, one verdict** (p. 500, img. 508, l. 26–27, to
+p. 501, img. 509, l. 4; l. 4 read for RD18 too):
+
+> སྐྱེ་གནས་དཔྱད་ལ་གོང་གི་རྩ་བ་བཅུའི་སྲོག་དབང་ཁམས་ཀྱི་བཏང་གཅོད་གསུམ་བབ་སྤར་བབ་སྨེ་ལ་ཀེག་རྩིས་ལྟར་རྩུབ་མེད་ན་དཀར། ཡོད་ན་ནག་པའི་རྡེལ་གཉིས་ལོ་ཟླ་སྟོད་དཀར་ [p. 501] སྨད་ནག་གི་རྡེལ་གཉིས། ཉིན་དཀར་མཚན་ནག་གི་རྡེལ་གཅིག གཟའ་སྐར་བཟང་དཀར་ངན་ནག་གི་རྡེལ་གཉིས། རོ་བདག་ཀེག་ཆེ་ཆུང་ཞེས་པ། གཤིན་པོར་རྩུབ་བདུན་དགུ་དུར་སོགས་ཀེག་རྩུབ་ཆེ་ན་ནག་ཆུང་ན་དཀར་བའི་རྡེལ་གཅིག་སྟེ་བཅུ་གཅིག་དང་། དེ་སྟེང་གཙོ་ཆེ་བ་དབང་ཐང་དང་ཁམས་རྡེལ་འདུར་ཤིད་སྐབས་ལྟར་བྱས་པའི་རྡེལ་གཅིག་སྟེ་བཅུ་གཉིས་པོ་རྩ་རྡེལ་བཅུ་གཉིས་ཏེ། དེ་ཐམས་ཅད་དཀར་ནག་བགྲངས་པས་ཁ་དམར་རྡེའུ་བཞག
+
+For the examination of the rebirth: the three deciding pebbles of the
+life force, power and element of the ten roots above; on the descended
+trigram and descended mewa, two pebbles, white if there is no roughness
+as in the obstacle reckoning (ཀེག་རྩིས, keg rtsis), black if there is;
+two of the year and the month, the upper white and the lower black; one,
+day white and night black; two, planet and mansion, good white and bad
+black; "the corpse-owner's obstacle great or small": one pebble, black if
+the roughness of the dead's obstacles, the rough seventh, the nine
+graves and the like, is great, white if small: eleven. And above them the
+most important, one pebble made of the power and the element as at the
+funeral share: twelve, the twelve root pebbles. All of them counted white
+and black, the verdict pebble is laid.
+
+**The time of death: twenty, one general verdict** (p. 503, img. 511,
+l. 3–6; l. 5–6 read for RD18):
+
+> དེ་ལྟར་སྤར་སྨེ་ལོ་གསུམ་དང་སྲོག་སོགས་དར་གུད་བཞི། རྐྱང་པའི་དགུ་མིག་སྦྲགས་མིའི་དགུ་མིག་གཉིས་དང་། སྲོག་དུར་ཞུགས་སོགས་བླ་བར་ལྔ་དང་། སྤར་ཁ་དང་སྨེ་བའི་དགུ་མིག་གཉིས། རུས་ཁམས་ཀྱི་གཅིག ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ་སྟེ་ཉི་ཤུ་ཐམ་པ་དང་། ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས་པའི་སྤྱིའི་ཁ་དམར་རྡེལ་གཅིག་སྟེ་བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག་ལ་འཆི་དུས་རྡེལ་ཕྲན་ཉེར་གཅིག་ཏུ་འཇོག་པ་འདྲ་སྟེ་བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག
+
+So: trigram, mewa and year, three; the rise and decline of the life force
+and the rest, four; the single nine-eye and the joined nine-eye, two; the
+life force entering the grave and the like, five («བླ་བར», as Yigdzin-1
+reads it, or «ཟླ་བར», as MITRA does: the stack is not clear at 5×); the
+nine-eyes of the trigram and of the mewa, two; one of the clan's element;
+three of the year, month and day: twenty in all. And one general verdict
+pebble of the twenty counted white and black: twenty-one deciding
+pebbles, laid as it seems as the time of death's twenty-one small
+pebbles; so it stands in the book's table (ཁྲ་མ, khra ma).
+
+**The repetition read from the verdicts** (p. 508, img. 516, l. 20–21):
+
+> དགྲ་འགྲམ་བཞི་ནི་གཤིན་གྱི་སྲོག་སོགས་བཞི་ལ་དགྲ་དར་བ་སྟེ། གོང་རྡེལ་སྤྱི་དང་རྩ་བ་བཅུའི་ཁ་དམར་ལས་བརྟག
+
+The four enemy strikes are the enemy rising on the dead's life force and
+the other three: examine them from the general pebbles above and the
+verdicts of the ten roots.
+
+**The sounding: twenty-five verdicts** (p. 509, img. 517, l. 17–21):
+
+> འཕྲེད་དུ་ཉེར་ལྔ་ཐུར་དུ་སྲོག་ལུས་དབང་ཀླུང་བཞི་ཡོད་པས་ཁ་དམར་ལ་རུས་ཀྱི་རང་རྡེལ་སོགས་ལྔ་དང་ལོའི་རང་རྡེལ་སོགས་ལྔ། དེ་བཞིན་ཞག་དུས་ཀྱི་ལྔ་ལྔ་སྟེ་ཉེར་ལྔ་ཡོད་དོ། །རྡེའུ་བོར་ལུགས་སྐབས་དེར་གསལ། གཤིན་པོ་ཕམ་ན་ངན་ཏེ་རུས་རྡེལ་དང་པོ་ནག་ན་སོགས་ཁ་དམར་གཞུང་བཞིན་རིམ་པར་བརྩིའོ། །སྤྱིར་ན་འདི་ལྟར་ཤེས་པར་བྱ་ཞེས་སོགས་ནི་རྡེའུ་དཀར་གཉིས་སོགས་གང་དུ་བྱུང་ཡང་སྤྱིར་བཤད་པའོ། །བདུད་པོ་གང་བབ་ཞེས་སོགས་དང་ལྷ་ཆེན་མི་ལ་བུ་སོགས་ནི་འབྲས་བཤད་དོ། །
+
+Twenty-five across and four down, the life force, body, power and luck:
+so for the verdicts there are the clan's own pebble and the rest, five,
+the year's own pebble and the rest, five, and likewise five each of the
+month, day and hour: twenty-five. How the pebbles are laid is clear in
+its place. If the dead is defeated it is bad: the first clan pebble
+black and so on; count the verdicts one after another as the text has
+them. "In general know it so" and the like is said in general, wherever
+two white pebbles or the like come. "Whichever demon has fallen" and "the
+great gods, a man, a son" and the like are the readings of the results.
+
+What the notes give for the dead:
+
+- Each examination lays its verdict by the same count, "as in general"
+  (p. 500): the time of death over twenty pebbles (p. 503), the rebirth
+  over twelve (p. 501), the sounding twenty-five verdicts (p. 509).
+- A verdict sizes what follows from it where the notes say so: the
+  funeral share by its two deciding pebbles, white a large one, speckled
+  a middling one, black none (p. 500). This is the plainest rule in the
+  chapter's notes of a verdict turned into a measure.
+- Later examinations read the earlier verdicts again: the enemy strikes
+  of the repetition from the general pebbles and the ten roots' verdicts
+  (p. 508), and the thirteenth point from the five aspects' verdicts and
+  the other findings (§1).
+
+### 5. The thirty starting points (vol. 1, ch. 26)
+
+**The twenty-fifth, its set readings** (p. 468, img. 478, l. 18–25; the
+eight checks of the grave site good or bad):
+
+> གཅིག་དཀར་ཕ་མེས་དུར་མི་འགྲོ།། ནག་ན་དུར་དུ་འགྲོ་བས་ངན། །གཉིས་དཀར་གསོན་པོ་བཀྲ་ཤིས་ཤིང་། །ནག་ན་གསོན་ལ་ཅུང་ཞིག་ངན། །གསུམ་དཀར་ནལ་མ་རྒྱན་མ་བཏགས། །ནག་ན་ནལ་མ་རྒྱན་བཏགས་ངན། །བཞི་དཀར་བདག་ཉིད་རྒྱན་རྒྱལ་ཞིང་། །ནག་ན་བྱུར་འདྲེ་རྒྱལ་བས་ངན། །ལྔ་དཀར་བྱིས་པའི་བླ་མ་བརྐུས། །ནག་ངན་ཆུང་སྲི་ཆུང་གླུད་གཏོང་། །དྲུག་དཀར་དུར་སྲི་མཁར་མ་ཞུགས། །དུར་སྲིས་སྲིད་ལ་མ་བརྐུས་བཟང་། །ནག་ན་བརྐུས་པས་དུར་སྐྱས་བྱ། །བདུན་པ་གསོན་རྡེལ་དཀར་བ་དང་། །གཤིན་རྡེལ་ནག་ན་འཕུང་སྲི་གནོད། །འཕུང་སྲི་སྐྱས་འདེབས་ལ་སོགས་བྱ། །རྡེལ་ཁྲ་ས་བདག་འཁྲུགས་གཏོ་བྱ། །རྡེའུ་ཐམས་ཅད་ནག་པ་ན། །རུ་ཏྲའི་གཏོ་ནག་མགོན་པོ་ཡི། །གཡུལ་བཟློག་དགྲ་འདུལ་དགྲ་ཟོར་བྱ། །བརྒྱད་དཀར་དུར་ས་མི་ཕྱེ་ཞིང་། །ནག་ན་ཕྱེ་བས་འཕུང་སྐྱས་འདེབས།།
+
+First white: (the dead) does not go to the forebears' grave; black: it
+goes into the grave, bad. Second white: the living are auspicious; black:
+somewhat bad for the living. Third white: the *nal ma*'s (ནལ་མ; not
+identified) ornament is not tied; black: it is tied, bad. Fourth white:
+one's own ornament wins; black: the *byur* demon wins, bad. Fifth white:
+the child's la is not stolen; black, bad: send the small sri (ཆུང་སྲི,
+chung sri) the small ransom. Sixth white: the grave sri (དུར་སྲི, dur sri)
+has not entered the castle and has not stolen (the household's)
+existence, good; black: it has stolen, do the grave's *skyas* (དུར་སྐྱས,
+dur skyas; a rite against the grave sri). Seventh: the living's pebble
+white and the dead's pebble black: the ruin sri (འཕུང་སྲི, 'phung sri)
+harms; do the ruin sri's *skyas 'debs* and the like. The pebbles
+speckled: do the rite for disturbed earth lords (ས་བདག་འཁྲུགས་གཏོ, sa
+bdag 'khrugs gto). All the pebbles black: the black rite of Rudra
+(རུ་ཏྲ, ru tra), the Protector's (མགོན་པོ, mgon po) turning back of war,
+taming of enemies and weapon-rite (ཟོར, zor) against enemies. Eighth
+white: the grave site is not opened; black: it is opened, lay the ruin's
+*skyas*. (The print «ཕྱེ་བས», Yigdzin-1 «བྱེ་བས».)
+
+**The twenty-sixth: the rites themselves reckoned** (p. 468, img. 478,
+l. 26–28, to p. 469, img. 479, l. 9):
+
+> ཉེར་དྲུག་ས་བདག་མགོ་གསུམ་པའི། །ཁ་ནས་གཏོ་ནི་དཀར་དང་ནག །ཁྲ་གསུམ་རྩིས་འགོ་རྣམ་པ་བརྒྱད། །དང་པོ་གཏོ་དཀར་ས་བདག་ནི། །མཆོད་དམ་མ་མཆོད་གཉིས་ཁྲ་བོས། །ས་བདག་འཁྲུགས་སམ་མ་འཁྲུགས་པ། །གསུམ་པ་ནག་པོས་རུ་ཏྲ་ནི། །བསྒྲལ་ལམ་མ་བསྒྲལ་བཞི་པ་དེ། །མཚན་སྒྲས་དགྲ་བོ་བཏུལ་མ་བཏུལ། །ལྔ་པ་མི་ཁ་གླེང་ [p. 469] གཏོ་ཡང་། །བཏང་ངམ་མ་བཏང་དྲུག་པར་ཡང་། །ཕོ་བརྒྱུད་ཁྲོམ་བཟློག་བྱས་མ་བྱས། །བདུན་པ་མོ་བརྒྱུད་ཐུན་བཟློག་ཡང་། །བྱས་སམ་མ་བྱས་བརྒྱད་པ་ཡང་། །ས་བདག་འགྲོ་ལམ་བཅོས་མ་བཅོས། །ཞེས་བྱ་རྣམ་པ་བརྒྱད་དུ་བརྩི། །གཅིག་དཀར་ས་བདག་རྒྱལ་པོ་མཆོད། །ནག་ན་རྒྱལ་པོ་མ་མཆོད་པས། །ས་བདག་རྒྱལ་པོ་མཆོད་ཅིང་གཟབ། །གཉིས་དཀར་ས་བདག་མ་འཁྲུགས་བཟང་། །ནག་ན་ས་བདག་འཁྲུགས་པ་ཡི། །འཁྲུགས་གཏོ་ཆེན་པོ་བྱ་བ་གཅེས། །གསུམ་དཀར་རུ་ཏྲ་བསྒྲལ་བས་བཟང་། །ནག་ན་རུ་ཏྲ་མ་བསྒྲལ་བའི། །དགྲ་བཟློག་དགྲ་གཏོ་ནག་པོ་བྱ། །བཞི་དཀར་དགྲ་བོ་ཐུལ་བས་བཟང་། །ནག་ན་མ་ཐུལ་དགྲ་སྲི་མནན། །ལྔ་དཀར་མི་ཁ་གླིང་གཏོ་གཏང་། །ཉེས་མེད་ལྷ་དང་ཕྲད་པ་ཡིན། །ནག་ན་མི་ཁའི་གཏོ་མ་བཏང་། །མི་ཁ་ཁྲོམ་བསྒྱུར་ཁྲོམ་བཟློག་དང་། །སླ་ང་ལྔ་པའི་གཏོ་ཡང་བྱ། །དྲུག་དཀར་ཕོ་བརྒྱུད་ཁྲོམ་བཟློག་བཟང་། །ནག་ན་ཕོ་བརྒྱུད་བཟློག་པར་འབད། །བདུན་དཀར་མཐུན་བཟློག་བྱས་པས་བཟང་། །ནག་ན་མོ་བརྒྱུད་མཐུན་བཟློག་གི། །བཟློག་པའི་རིགས་ལ་འབད་པར་བྱ། །བརྒྱད་དཀར་ས་བདག་འགྲོ་ལམ་བཅོས། །ནག་ན་མ་བཅོས་གཏོ་རིམ་འབད།།
+
+Twenty-sixth, from the mouth of the three-headed earth lord: the rites,
+white, black and speckled, eight checks. First, by the white rite,
+whether the earth lords have been offered to or not; second, by the
+speckled, whether the earth lords are disturbed or not; third, by the
+black, whether Rudra has been liberated or not; fourth, whether the
+enemy has been tamed by the name-sound (མཚན་སྒྲ, mtshan sgra) or not;
+fifth, whether the rite for gossip (མི་ཁ, mi kha) has been sent or not;
+sixth, whether the male line's turning back of the crowd (ཁྲོམ་བཟློག,
+khrom bzlog) has been done or not; seventh, whether the female line's
+turning back has been done or not; eighth, whether the earth lords' path
+has been mended or not: reckon it in these eight. One white: the earth
+lord king is offered to; black: the king is not offered to, so offer to
+the earth lord king and take care. Two white: the earth lords are not
+disturbed, good; black: they are, and the great rite for the disturbed
+is precious. Three white: Rudra liberated, good; black: not liberated, do
+the black rites against enemies and to turn them back. Four white: the
+enemy tamed, good; black: not tamed, press down the enemy sri. Five
+white: the rite for gossip has been sent, there is no fault, one has met
+the gods; black: it has not been sent, turn and turn back the crowd's
+gossip and do the rite of the fifth *sla nga* (སླ་ང; not understood). Six
+white: the male line's turning back done, good; black: strive to turn
+back for the male line. Seven white: the turning back done, good; black:
+strive at the kinds of turning back for the female line. Eight white: the
+earth lords' path mended; black: not mended, strive at the rites. (The
+print «ཐུན་བཟློག» in l. 1 and «མཐུན་བཟློག» in l. 8, as printed; «ལྔ་དཀར་མི་ཁ»,
+Yigdzin-1 «མེ་ཁ».)
+
+**Each one's general board** (p. 471, img. 481, l. 15–28): read on the
+scan for RD24 (above, *Whose aspect, which part of life, and the
+reckonings with each other*, §2). Its readings by place end in
+rites as these do: the middle black under a white upper and lower, press
+down the sri of prosperity and do the rite of the loss dagger; all white,
+read the *'Bum*, take empowerment, clear the narrow paths; all black, the
+secret *Kun 'dus* as rite and the king's ground as thread-cross; and
+between them, «དེ་ཡང་གང་བརྩི་སོ་སོ་ལ། །རིག་པས་དཔྱད་དེ་ཁ་དམར་གདགས།», for
+each thing reckoned, examine with intelligence and lay the verdict.
+
+**The notes: in a group of three, the greater share** (vol. 2, p. 533,
+img. 541, l. 1–7):
+
+> … དེ་ཡང་གང་ཟག་ཕོ་མོ་ལ་མི་ལྟོས་པར་ལོ་ཕོ་མོ་གང་ཡིན་སྦུབ་བཀེན་བྱས་ནས་གར་བབ་ཀྱི་སྲོག་སོགས་དང་བརྩི་བྱའི་སྲོག་སོགས་ནང་མཐུན་དུ་འཐབ་པའོ། །འབྲས་བུ་གཞུང་ན་གསལ་ཁྱུང་ལུགས་ཞལ་ཤེས་ལ་རེ་མིག་དགུ་ལ་དབུས་སུ་ཁྱུང་གཟུགས་བྲི་ཞིང་། སྤར་ཁ་ཁམ་གྱི་ཕྱོགས་ནས་གཡས་བསྐོར་གཅིག་ལ་སོགས་པ་འགོད་པ་ཞིག་ཀྱང་འདུག་མོད། སྔོན་གྱི་ཞལ་ཤེས་ཟམ་མ་ཆད་པ་ལས། དང་པོ་གསུམ་པ་ལྔ་པ་གསུམ་ལ་ཕ་མེས་དང་ཚེ་སྟོད་ཀྱི་ས་སྟེ་ཡར་གསུམ་ཞེས་བྱ། གཉིས་བཞི་དྲུག་ལ་མར་གསུམ། བདུན་བརྒྱད་ལ་བར་དུ་བརྩི་བར་གསུངས། དེ་ཡང་དང་པོ་གསུམ་ལ་དཀར་གཉིས་ནག་གཅིག་བྱུང་ན། ཁྲ་ལ་དཀར་ཤས་ཆེ་བས་བཟང་བ་སོགས་སོ། །འདི་ལ་ལོག་མིན་མི་སྐོར་བར་འཐབ་པ་ནི་ལས་རྩིས་སུ་འགྲོ་བ་ལྟ་བུའི་ལུགས་ཀྱང་གཞན་ན་སྣང་།
+
+And, whatever the person's sex, the year is counted downward if male and
+upward if female, and the life force and the rest of where it falls fight
+the reckoned person's, each its own kind. The results are clear in the
+text. In Khyung's (ཁྱུང, khyung) oral tradition there is also a way that
+draws a garuḍa in the middle of a nine-square board and sets the trigrams
+round it clockwise from *kham*; but from the unbroken oral tradition of
+old: the first, third and fifth, three, are the place of the forebears
+and of the first part of life, called the upper three; the second,
+fourth and sixth the lower three; the seventh and eighth are reckoned as
+the middle. And where the first three come out two white and one black,
+for the mixed the white share is greater, so it is good, and so on. A way
+of fighting these without the progressed sign, as if it went into the
+reckoning of karma, is found elsewhere too.
+
+(«ཁྲ་ལ», with ra under kha, read at 7×; Yigdzin-1 «ཁྭ་ལ».)
+
+What the passages give for the thirty:
+
+- Each check is one pebble with its reading, and a black one names its
+  rite (RD17's first starting point, [reckonings.md](reckonings.md)).
+- Above the single checks the board is read as a set in two ways: by
+  place, upper, lower and middle (p. 471; the notes, p. 533), and whole,
+  speckled or all black or all white (pp. 468, 471). The set readings
+  carry rites of their own: speckled, the rite for disturbed earth lords;
+  all black, Rudra's black rite (p. 468).
+- Within a group of three the greater share decides: two white and one
+  black reads good (the notes, p. 533). This is the count of the verdict
+  applied to a part of the board.
+- One starting point is a reckoning of the rites themselves: the
+  twenty-sixth asks whether the white, speckled and black rites have been
+  done, the earth lords offered to and the turning back made, and each
+  black check names the rite still to do (pp. 468–469).
+
+### 6. The circles and the small reckonings (vol. 2, ch. 27)
+
+**The meadow's ornament leaves** (p. 22, img. 30, l. 5–22):
+
+> སྤང་རྒྱན་ལོ་མ་ཞེས་བྱའམ། །བརྒྱ་གསུམ་ཁ་སྤྲོད་ཅེས་པའམ། །དཀར་ནག་རྒྱ་འདྲ་ཞེས་བྱ་འཆད། །དེ་ལ་གསེར་ལོ་གཡུ་ལོ་དང་། །དུང་ལོ་ཅན་དེ་རེ་རེར་ཡང་། །རྡེའུ་བརྒྱ་དང་ཉི་ཤུ་རེ། །ཡོངས་དྲིལ་སུམ་བརྒྱ་དྲུག་ཅུ་ཡོད། །དེ་ལ་གསེར་ལོ་ཅན་གྱི་རྡེལ། །གནམ་ལོ་གང་ཤར་རྣམ་ལྔ་དང་། །རང་གི་སྲོག་ལུས་དབང་ཀླུང་དང་། །སྨེ་བ་ལྔ་འཐབ་རྡེལ་ཉེར་ལྔ། །དཀར་ནག་བགྲངས་པའི་ཁ་དམར་གདགས། །གནམ་ལོའི་བདུན་ཟུར་རྣམ་ལྔ་དང་། །གོང་ལྟར་སྲོག་ལུས་དབང་ཀླུང་སྨེ། །འཐབས་པའི་ཉེར་ལྔ་ཁ་དམར་གདགས། །དེ་བཞིན་གནམ་ལོའི་མར་དྲུག་འགྲས། །རྣམ་པ་ལྔ་འཐབས་རྡེལ་ཉེར་ལྔ། །དཀར་ནག་ཁ་དམར་རྣམ་པ་ལྔ། །གནམ་ལོའི་མར་གྱི་བཞི་གཤེད་དང་། །གོང་བཞིན་འཐབས་པའི་རྡེལ་ཉེར་ལྔ། །ཁ་དམར་ལྔ་བཅས་གསེར་ལོ་ཚང་། །གཡུ་ལོ་ཅན་ནི་ཕོ་མོ་ཡི། །ལོག་མེན་དང་ནི་གོང་བཞིན་འཐབས། །ཁམས་ལྔའི་དབང་གིས་རྡེལ་ཉེར་ལྔ། །ལོག་མེན་དེ་ཡི་བདུན་ཟུར་དང་། །འཐབས་པས་གོང་ལྟར་རྡེལ་ཉེར་ལྔ། །དེ་བཞིན་དྲུག་འགྲས་བཞི་གཤེད་དང་། །འཐབས་པའི་རྡེའུ་ཉེར་ལྔ་རེ། །ཁ་དམར་ལྔ་ལྔ་གཡུ་ལོ་ཚང་། །༧དུང་ལོ་གང་ཤར་ཟླ་ལྔ་དང་། །གོང་བཞིན་བརྩི་བྱའི་སྲོག་ལུས་དབང་། །ཀླུང་སྨེ་ལྔར་འཐབས་ཉི་ཤུ་ལྔ། །ཁ་དམར་ལྔ་དང་ཟླ་བ་ཡི། །བདུན་ཟུར་ལྔ་དང་གོང་བཞིན་འཐབས། །ཉི་ཤུ་རྩ་ལྔ་ཁ་དམར་ལྔ། །ཟླ་དེའི་དྲུག་འགྲས་བཞི་གཤེད་དང་། །འཐབས་པའི་རྡེའུ་ཉི་ཤུ་ལྔ། །ཁ་དམར་ལྔ་རེ་དུང་ལོ་ཚང་། །ཡོངས་དྲིལ་རྡེའུ་སུམ་བརྒྱ་དང་། །དྲུག་ཅུ་ཐམ་པའི་རྡེའུ་དང་། །བསྟུན་པའི་ཁ་དམར་འབྲས་བུ་བརྗོད། །རགས་པར་སྲོག་ལ་ཚེའི་འགལ་རྐྱེན། །ལུས་ནད་དབང་ནོར་ཀླུང་བསོད་ནམས། །སྨེ་བ་ལྷ་འདྲེའི་ཁྲོམ་བྱད་སོགས། །དཀར་ནག་ཁ་དམར་དང་བསྟུན་བརྗོད། །ངན་ན་སྲོག་བསྐྱེད་ཚེ་བསྲིང་ཐབས། །ལུས་ཀྱི་ནད་སྡུག་བཟློག་པ་དང་། །དབང་ཐང་ཕྱྭ་གཡང་འབྱོར་པ་སྤེལ། །ཀླུང་རྟ་བསོད་ནམས་སྟོབས་བསྐྱེད་ཅིང་། །མི་ཁ་དགྲ་བཟློག་སྨེ་བ་ལ། །དེ་བསྟུན་ལྷ་འདྲེ་བཅོ་བ་སོགས། །ཆོས་སྔགས་བོན་གཏོ་ལ་སོགས་ནས། །བཤད་པའི་དམིགས་སྟོན་རིམ་གྲོ་སོགས། །རིག་པའི་མདའ་བསྣུན་རྒྱས་པར་ན། །རང་གཞུང་འགྲེལ་པ་དག་ལས་ཤེས། །
+
+It is called the meadow's ornament leaves (སྤང་རྒྱན་ལོ་མ, spang rgyan lo
+ma), or the joining of three hundred (བརྒྱ་གསུམ་ཁ་སྤྲོད, brgya gsum kha
+sprod), or "white and black like the Chinese" (དཀར་ནག་རྒྱ་འདྲ, dkar nag
+rgya 'dra). In it the gold year, the turquoise year and the conch year
+(གསེར་ལོ, གཡུ་ལོ, དུང་ལོ; gser lo, g.yu lo, dung lo) have a hundred and
+twenty pebbles each, three hundred and sixty in all. The gold year's
+pebbles: the five of whichever sky year has risen, fought by one's own
+life force, body, power, luck and mewa, five: twenty-five pebbles; count
+white and black and lay the verdict. The sky year's seventh, its five,
+fought by the life force, body, power, luck and mewa as above:
+twenty-five, lay the verdict. Likewise the sky year's sixth downward, its
+five, fought: twenty-five pebbles, five white and black verdicts. The
+sky year's fourth executioner downward, fought as above: twenty-five
+pebbles; with the five verdicts the gold year is complete. The turquoise
+year: the man's or the woman's progressed sign, fought as above, by the
+power of the five elements: twenty-five pebbles; that progressed sign's
+seventh, fought as above: twenty-five; likewise its sixth and fourth
+executioner fought, twenty-five pebbles each; five verdicts each: the
+turquoise year is complete. The conch year: the five of whichever month
+has risen, fought as above by the reckoned person's life force, body,
+power, luck and mewa, five: twenty-five; five verdicts; and the month's
+seventh, its five, fought as above: twenty-five, five verdicts; that
+month's sixth and fourth executioner fought: twenty-five pebbles, five
+verdicts each: the conch year is complete. With the three hundred and
+sixty pebbles in all, tell the results that accord with the verdicts.
+Roughly: for the life force the adversities of life (ཚེའི་འགལ་རྐྱེན, tshe'i
+'gal rkyen); for the body illness; for the power wealth; for the luck
+merit; for the mewa gods and demons, a crowd's curse (ཁྲོམ་བྱད, khrom byad)
+and the like: tell them as the white and black verdicts fall. If bad:
+the means to raise the life force and lengthen life; to turn back the
+body's illness and pain; to increase the power's fortune (ཕྱྭ་གཡང, phywa
+g.yang) and wealth; to strengthen the luck's merit and force; to turn
+back gossip and enemies; and for the mewa, to treat the gods and demons
+as it accords: the visualisations, rites and the like taught in the
+Dharma, in mantra, in Bon rites and elsewhere. In full, striking with the
+arrow of insight, know them from one's own texts and commentaries.
+
+The notes (p. 534, img. 542, l. 1–2, read on the scan) close the gold
+year: «…འཐབ་པའི་རྡེལ་ཉེར་ལྔ། ཁ་དམར་ལྔ། དེ་བཞིན་བདུན་ཟུར་ཆུ་འབྲུག་གཙོའི་འབྲུག་ལྔ། དྲུག་འགྲམ་ལྕགས་ཡོས་སོགས་ཡོས་སྡེ་ལྔ་བཞི་གཤེད་ས་གླང་གཙོར་བྱས་གླང་སྡེ་ལྔ་ལ་འཐབ་པས་རྡེའུ་བརྒྱའོ།», twenty-five pebbles fought,
+five verdicts; likewise the seventh, the five dragons headed by the water
+dragon, the sixth, the five of the hare's group, the iron hare and the
+rest, and the fourth executioner, the five of the ox's group headed by
+the earth ox, fought: a hundred pebbles. So each year holds four groups
+of twenty-five fighting pebbles and five verdicts to each: 4 × (25 + 5)
+= 120, three such years 360, the sixty verdicts counted among the
+pebbles.
+
+**Sprugtön's obstacle reckoning** (p. 22, img. 30, l. 23–28, to p. 23,
+img. 31, l. 13):
+
+> མཁས་པ་སྤུག་སྟོན་རྗེས་འབྲང་བའི། །གཙང་རྩིས་པར་གྲགས་ཀེག་རྩིས་འཆད། །འདི་ལ་རྒྱས་འབྲིང་རྣམ་པ་གསུམ། །དང་པོ་རྒྱས་འབྲིང་ཁང[?]་གྲངས་ལ། །རྡེལ་རྩ་བཅུ་ཡིས་གཏན་ལ་འབེབས། །གནམ་ལོ་རྒྱལ་པོ་སྤར་ཁ་སྨེ། །ཕྱི་གཟའ་འཇུ་རྟེན་གནམ་སའི་རྒྱང་། །དར་གུད་དུས་ཚོད་དག་དང་བཅུ། །རེ་རེ་ལ་ཡང་ལྔ་ལྔ་ནི། །སྲོག་ལུས་དབང་ཀླུང་བླ་དང་ལྔ། །ཡན་ལག་བཅུ་དྲུག་འདི་ལྟར་བརྩི། །རང་ཀེག་བདུན་ཟུར་མཐུན་གསུམ་དང་། །བཞི་གཤེད་ལོ་སྐར་རྣམ་པ་ལྔ། །དགུ་དུར་[དུས]་མིག་གསུམ་སྟེ་བརྒྱད། །མ་ཀླུངས་ཚང་ཚུད་འབྱུང་དགྲ་རྩུབ། །དུར་ཀེག་རྒྱ་མདའ་ཡུལ་མལ་ཀེག །ཁང་ཀེག་རྒྱལ་སྒོ་འགགས་པ་དང་། །ཁ་དམར་རྡེལ་ལྔ་གཅེས་རྡེལ་བཞི། །དེ་ལ་འདི་ལྟར་ཤེས་པར་བྱ། [p. 23] །གནམ་ལོའི་སྲོག་ལུས་དབང་ཀླུང་བླར། །བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་བླས། །སོ་སོར་འཐབས་པའི་རྡེའུ་ལྔ། །དེ་བཞིན་སྲོག་ལུས་དབང་ཀླུང་བླ། །སྤར་ཁ་དང་འཐབས་རྡེའུ་ལྔ། །དེ་བཞིན་སྨེ་བ་དང་འཐབས་ལྔ། །སོ་སོའི་དར། ཁྱུད་སྐོར་རྡེལ་ལྔ། །ལོག་མེན་བླ་བཅས་ལྔར་འཐབས་ལྔ། །ཡར་ལྔའི་ལོ་དང་མར་ལྔའི་ལོ། །ཡར་བརྒྱད་ལོ་དང་མར་བརྒྱད་ལོར། །གོང་ལྟར་འཐབས་པའི་རྡེལ་ལྔ་རེ། །འཇུ་ཐག་བརྟེན་ཕུར་རྒྱང་གཉིས་ཡིན། །འདི་ལུགས་དུས་ཚོད་སྲོག་ལུས་དབང་། །ཀླུང་བླ་ལྔར་འཐབས་རྡེའུ་ལྔ། །སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་པོར། །དཀར་ནག་བགྲངས་པའི་ཁ་དམར་རེ། །ཡན་ལག་བཅུ་དྲུག་རང་ཀེག་དང་། །བདུན་ཟུར་མཐུན་གསུམ་ཡས་མས་ཀྱི། །བཞི་གཤེད་ལོ་སྐར་བྱི་བས་ཡོས། །རྟ་སྒལ་བྱས་འཐོག་བྱ་ཚང་སྤྲུལ། །གླང་སྟག་རྩོད་དང་ཁྱི་སྦྲུལ་འདེད། །ཕག་རོ་འབྲུག་ལ་བཀལ་བ་དང་། །དགུ་མིག་རྒྱང་སྦྲགས་སྤར་ཁ་སྨེ། །སྲོག་དང་སྤར་སྤྲད་དུར་གྱི་མིག །རྟ་སྦྲུལ་ལི་སོགས་རང་ཐོག་ཕྱིན། །[དུས]་མིག་ཅེས་གྲགས་ཡན་ལག་བརྒྱད། །མ་ཀླུངས་རང་སྐྱེས་སྤར་ཁའི་ཐོག །འབྱུང་དགྲ་སྟག་ཡོས་དྭ་ཡི་ཐོག །སླེབས་སོགས་སྤར་ཁ་དགྲ་ཐོག་དང་། །གནམ་ལོ་རང་ལོའི་དུར་ལོར་ཤར། །དེ་ལ་དུར་ཀེག་ཅེས་བྱ་སྟེ། །རྒྱ་མདའ་བཟའ་མི་སྤར་གཅིག་འཛོམ། །ཡུལ་ཀེག་སྨེ་ནག་མལ་གྱི་ཀེག །སྐྱེས་སྨེར་ཕྱིན་དང་ཁང་ཀེག་ནི། །གནམ་ལོའི་སྨེ་ཐོག་རྒྱལ་སྒོ་འགགས། །སྐྱེས་སྨེའི་དགྲ་ཐོག་བབས་པ་ཡིན། །དེ་དག་བབས་ན་རྡེལ་ནག་དང་། །མ་བབ་རྡེའུ་དཀར་པོར་བོར། །ཁ་དམར་སྤྱི་ལྟར་གདགས་པར་བྱ། །
+
+The obstacle reckoning (ཀེག་རྩིས, keg rtsis) known as the Tsang reckoners'
+(གཙང་རྩིས་པ, gtsang rtsis pa), following the learned Sprugtön (སྤུག་སྟོན,
+spug ston, as printed here; སྤྲུག་སྟོན in the colophon, p. 25), is told.
+It has three sizes, full, middling (and short). First, for the full and
+middling: it is settled by ten root pebbles, the sky year as king, the
+trigram, the mewa, the outer planet, the rope and stake, the sky's and
+the earth's distance, the rise and decline, and the moment, ten; each of
+them with five, the life force, body, power, luck and la. The sixteen
+limbs (ཡན་ལག་བཅུ་དྲུག, yan lag bcu drug) are counted so: one's own
+obstacle, the seventh, the three in accord, the fourth executioner, the
+year's mansion, five; the nine graves and the *dus mig* or *rus mig*
+(below), three, making eight; the mother-luck, the entering of the nest,
+the element enemy, the rough; the grave obstacle, the Chinese arrow, the
+country obstacle, the bed obstacle, the house obstacle, the king's gate
+blocked; and five verdict pebbles and four cherished pebbles (གཅེས་རྡེལ,
+gces rdel). Know them so. The sky year's life force, body, power, luck
+and la fought one by one by the reckoned person's life force, body,
+power, luck and la: five pebbles; likewise the life force, body, power,
+luck and la fought with the trigram: five; likewise fought with the
+mewa: five; the rounds of each one's rise and decline (the print «དར།
+ཁྱུད», for «དར་གུད»?): five pebbles; the progressed sign fought with the
+five, the la included: five; the years five up and five down, the years
+eight up and eight down, fought as above, five pebbles each: these are
+the rope and stake and the two distances. In this way the moment fights
+the life force, body, power, luck and la, five: five pebbles. To each of
+the five, the life force, body, power, luck and la, one verdict of the
+counted white and black. The sixteen limbs: one's own obstacle, the
+seventh, the three in accord above and below, the fourth executioner;
+the year's mansions, named in pairs of animals (the rat and the hare,
+the ox and the tiger quarrelling, the dog chasing the snake, the pig
+and the dragon, and others); the
+nine-eye joined with the distance, the trigram, the mewa; the life force
+and the trigram meeting, the eye of the grave; horse and snake reaching
+their own place on *li* and the rest: the eight limbs. The mother-luck on
+one's own birth trigram; the element enemy, tiger and hare on *dwa*; the
+trigram arriving on the enemy's place and the like; the sky year rising
+on one's own year's grave year: this is called the grave obstacle; the
+Chinese arrow, the household's members together on one trigram; the
+country obstacle, the black mewa; the bed obstacle, reaching the birth
+mewa; and the house obstacle, the king's gate blocked, on the sky year's
+mewa, fallen on the enemy of the birth mewa. Where these fall, lay a
+black pebble; where they do not, a white one; and lay the verdict as in
+general.
+
+(«གདགས་པར་བྱ།», which RD18 took from the etext, is on the scan, a short
+line of its own, l. 13. The print «དྭ», Yigdzin-1 «དཱ», MITRA «ཏུ». «ཁང[?]་གྲངས»: the
+print's stack reads as ཁ, Yigdzin-1 «རྐང». «[དུས]་མིག» on both pages:
+MITRA reads «དུས» on p. 22, Yigdzin-1, the etext and the notes' etext
+«རུས་མིག»; at this scan's size the print's ར and ད under the u sign look
+alike (compare «དུས་ཚོད» on p. 22, l. 25, and «གཏོ་རུ» on p. 105, l. 23),
+so the scan does not settle it; the other prints were not looked at.)
+
+Then the four cherished pebbles for the lord, the king and the two
+queens, each with its white and black reading, read from the five
+groups of the monkey by the progressed sign (p. 23, l. 13 on; not read
+here), and the chapter's close names whose aspect matters most for whom
+(p. 25, read on the scan for RD17, [reckonings.md](reckonings.md)): for
+the king, the chief, mantrins, monks and the skilled the luck; for men
+the life force; for children the body; for women the power.
+
+**The notes on the circles** (p. 533, img. 541, l. 8–14):
+
+> གཉིས་པ་བལ་མོ་ལྡིང་སྐོར་ནི། གང་བརྩི་བའི་ལོ་དེ་དག་བརྩི་བྱའི་ཁམས་སྟེ་དབང་ཐང་གི་དགྲ་སོགས་ནས་བསྐོར་བ་སྟེ། དེ་ཡང་ཐམས་ཅད་གྱེན་དུ་ལོ་གྲངས་དུ་ལོན་པར་བཀེན་པའི་གར་བབ་དེ་ཡི་སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔ་ལ། བརྩི་བྱའི་དེ་ལྔས་འཐབ་པའོ། །སྨེ་བ་ནི་བརྩི་བྱའི་ལུས་སྨེ་དང་དེ་དང་སྨེ་ཕྲེང་མཐུན་པའི་སྐོར་མགོའི་སྨེ་བ་ནས་ཡར་བགྲང་བའི་གང་བབ་སྨེ་བར་འཐབ་བོ། །བཅུ་པར་རགས་ཞིབ་གཉིས། ཞིབ་པར་སྟག་རྟ་ཁྱི་གསུམ་སྟག་ནས་བརྩི་བ་སོགས་གཞུང་བཞིན་འདི་དང་རྒྱ་བོད་སྐོར་མགོའི་བྲན་དེ་བྲན་རང་གི་ལོ་ལས་བརྩི་རྒྱུ་འདྲ་ཡང་བདག་པོའི་ལོ་ལས་བརྩིས་སྣང་། བཅུ་གསུམ་པ་ལ་དར་གུད་ཟེར་ཀྱང་སྤྱི་འགྲེ་ལྟར་འཐབ་པ་ལས་དར་གུད་བསྐོར་མི་འདུག འཐབ་དགྲ་བཟང་ངན་ལ་དར་གུད་དུ་བརྟག་པ་འདྲ། དེས་ན་བལ་མོ་ལྡིང་སྐོར་རམ་དཔྱད་ལྡིང་བཅུ་གསུམ་པ་རྫོགས།
+
+Second, the circles of Balmo (བལ་མོ་ལྡིང་སྐོར, bal mo lding skor): the
+years reckoned are turned from the enemy of the reckoned person's
+element, that is of the power, and the like; all counted upward by the
+years lived, and where it falls, its life force, body, power, luck and
+mewa, five, are fought by the reckoned person's five. The mewa: fought
+with the mewa reached by counting upward from the reckoned person's body
+mewa and from the starting point's mewa that agrees with it in the mewa
+sequence. The tenth has a rough and a fine way; in the fine, tiger,
+horse and dog are counted from the tiger and so on, as the text has; and
+though here, as with the servant among the Chinese and Tibetan starting
+points, the servant would be reckoned from his own year, it appears to
+be reckoned from the master's. The thirteenth is said to be of rise and
+decline, but it is fought as the general rule goes, with no round of
+rise and decline: the rise and decline seems to be examined by the good
+or bad of the fighting enemies. So the circles of Balmo, the thirteen
+circles of examination, are complete. (Yigdzin-1 «དེས་པེ», the print
+«དེས་ན».)
+
+What the passages give for ch. 27:
+
+- The thirteen circles are read pebble by pebble, five to a circle,
+  each with its reading and a rite for black (RD17); neither WB's
+  circles nor the notes lay a verdict over a circle.
+- The meadow's ornament lays a verdict over every group of twenty-five,
+  five verdicts to each, and tells the results by aspect, the life force
+  for life's adversities, the body for illness, the power for wealth, the
+  luck for merit, the mewa for gods, demons and curses, each with its
+  kind of remedy if bad. Five verdicts to twenty-five, read by aspect,
+  come to a verdict for each aspect over the five years or months it
+  fights; the lines say "five verdicts" and do not say over which five.
+- Sprugtön's reckoning lays one verdict for each of the five, the life
+  force, body, power, luck and la, over the ten roots, and the sixteen
+  limbs are black where they fall and white where not, "the verdict laid
+  as in general". Its sizes add up: ten roots of five, 50, the sixteen
+  limbs, the five verdicts and the four cherished pebbles: 75, the close's
+  «ཀེག་རྩིས་རྡེའུ་དོན་ལྔ» (p. 25).
+- The domains and remedies by aspect of p. 22 are, among the pages read
+  here, the one place where the aspects' verdicts are turned into kinds
+  of remedy in a list: life lengthened, illness turned back, fortune increased,
+  merit strengthened, gossip and enemies turned back, gods and demons
+  treated.
+
+### 7. The moment (vol. 2, ch. 30)
+
+**The mewa's cutting, by place** (p. 163, img. 171, l. 3–13):
+
+> ཞིབ་ཚགས་རྦད་ཆོད་རྣམ་གཉིས་ཏེ། །ཞིབ་ཚགས་མཛུབ་ཚུགས་སྐྱོན་ཀུན་བཟུང་། །རྦད་ཆོད་ཚེ་སྟོད་ཚེ་སྨད་ཀྱི། །ཁ་དམར་དེ་ཡིས་བརྟག་པར་བྱ། །མི་ནི་གན་རྐྱལ་ཉལ་བ་ལ། །མགོ་ནུབ་རྐང་པ་ཤར་དུ་བསྟན། །སྤྱི་སྟེང་སློབ་དཔོན་ས་ཡིན་ཏེ། །དཔེའུ་ཆུང་ལྟར་ཤེས་པར་བྱ། །གང་ཤར་འགོ་མའི་ཁ་དམར་གདགས། །མ་ལ་བུ་ཚེས་ཤེས་པར་བྱ། །ད་ནི་རྦད་ཆོད་བརྩི་བ་ལ། །སྟོད་གསུམ་ཕ་ཁུ་ཟངས་མར་བརྩི། །གཡས་གསུམ་ཕ་སྤུན་ཟངས་མར་བརྩི། །མདུན་གསུམ་མ་སྲུ་ཟངས་མར་བརྩི། །འཕྲེད་གསུམ་རང་གི་སྐྱིད་སྡུག་ས། །གཞུང་གསུམ་བུ་ཚའི་སྐྱེས་འཕེལ་ས། །ཕྲག་གཡོན་ཕ་ཁུའི་ཚེ་སྟོད་ལ། །སྤྱི་རྟེན་ཚེ་ཡི་སྒང་དུ་བརྩི། །ཕྲག་གཡས་ཚེ་ཡི་ཞབས་སུ་བརྩི། །ཕྲག་གཡས་ཕ་སྤུན་ཚེ་སྟོད་ས། །གློ་གཡས་ཚེ་སྒང་རྐང་གཡས་ཞབས། །རྐང་གཡས་མ་སྲུའི་ཚེ་སྟོད་ལ། །མདུན་དབུས་ཚེ་སྒང་རྐང་གཡོན་ཞབས། །རྐང་གཡོན་ཞང་པོའི་ཚེ་འགོ་ལ། །གློ་གཡོན་ཚེ་སྒང་ཕྲག་གཡོན་ཞབས། །སྤྱི་རྟེན་བུ་ཚའི་ཚེ་སྟོད་ལ། །དབུས་ནི་ཚེ་སྒང་མདུན་ནི་ཕུགས། །གློ་གཡས་རང་གི་ཚེ་སྟོད་དོ། །དབུས་ནི་ཚེ་སྒང་གློ་གཡོན་སྨད། །ཚེ་སྟོད་ཚེ་སྨད་དེ་རྣམས་ཀྱི། །མ་གྲོགས་གསོ་བ་དེ་རུ་བཟང་། །གང་ལ་བཅད་དང་མདངས་ཤོར་ངན། །ནང་ཕྲད་རྣམས་ནི་འཕར་འབུབ་ཡིན། །རམ་གྱིས་འབར་ནས་ཐུམ་གྱིས་ཤི། །ནམ་ཕུགས་ཙ་ན་ཞན་པའོ། །ཕ་ཁུ་ལ་སོགས་དེ་ལྟར་བརྩི། །ས་དཔྱད་གོང་བཞིན་བརྩིས་པ་ལ། །ཁ་དམར་མ་ནོར་སོ་སོར་གདགས།
+
+There are two, the fine sieve and the cutting (རྦད་ཆོད, rbad chod): by the
+fine sieve every fault is caught to a finger's breadth; by the cutting
+examine the verdicts of the first and the last part of life. A man lying
+on his back, the head to the west and the feet shown to the east; the
+crown is the teacher's place: know it as in the little figure. Lay the
+verdict of whichever (mewa) has risen first, and know it by mother and
+son and their dates. Now, to reckon the cutting: the upper three are
+reckoned as the father's and uncles' copper vessel, the right three as
+the father's brothers', the front three as the mother's kin's; the three
+across are the place of one's own joys and sorrows, the three down the
+place of the children's birth and growth. The left shoulder is the
+father's and uncles' first part of life, the crown the middle of life,
+the right shoulder its end; the right shoulder the first part of the
+father's brothers' life, the right side the middle, the right foot the
+end; the right foot the first part of the mother's kin's life, the front
+centre the middle, the left foot the end; the left foot the start of the
+maternal uncle's life, the left side the middle, the left shoulder the
+end; the crown the first part of the children's life, the centre the
+middle, the front the final; the right side one's own first part of
+life, the centre the middle, the left side the last. In these first and
+last parts of life, where a mother or a friend nourishes, it is good;
+where cut or faded, bad; the inner meetings rise and fall, "blazing with
+the *ram*, dying with the *thum*" (not understood), weak at the very end.
+Reckon the father and uncles and the others so. Reckoning the ground as
+above, lay each verdict without error.
+(The first «རྦད་ཆོད» is Yigdzin-1's «རྦ་ཆོད», MITRA «བྲ་ཚོད», not clear on the
+scan; «སྐྱོན་ཀུན» on the scan, Yigdzin-1 «སྐྱོན་ཀྱང».)
+
+**The last count** (p. 172, img. 180, l. 19–22; read on the scan for
+O10d, [reckonings.md](reckonings.md), and again here):
+
+> ༧ འཐབ་དགྲ་རྣམས་ནི་བརྩི་དུས་ཀྱི། །བརྩི་བྱའི་ལོ་བྱས་བརྩི་བ་ཡིན། །དེ་ཡང་སྲོག་ལུས་དབང་ཀླུང་འཐབ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས། །འདི་དང་ཆ་མཐུན་གོང་གི་ལེའུ། །ཉེར་བདུན་ནང་དུའང་བཤད་མོད་ཀྱང་། །འདི་ནི་དུས་རྩིས་སྒོས་ཆོས་ཡིན།
+
+The fighting enemies are reckoned taking the time of reckoning as the
+year of the one reckoned: the life force, body, power and luck fight;
+count white and black and lay the verdict. Its like is told in the
+twenty-seventh chapter above too, but this is the reckoning of the
+moment's own.
+
+The rows before it on pp. 171–172 (Yigdzin-1, not quoted) each give one
+pair of years counted down and up and name a harm where the moment
+"cuts inward" (ཚུར་བཅད, tshur bcad); none names a rite. The chapter's
+colophon (pp. 172–173, [reckonings.md](reckonings.md)) calls the reckoning
+of the moment "most precious and strong", to be reckoned for every
+starting point.
+
+What the passages give for ch. 30:
+
+- The moment's verdicts are laid place by place, each for a kin and a
+  part of life on the figure of a man lying down (p. 163): the board of
+  ch. 26 (p. 471) laid on the body, with the part of life by place.
+- The last count lays one verdict over the asker's four aspects fought
+  by the moment, as ch. 27's small reckonings do with the sky year
+  (p. 172).
+- No passage of pp. 163 or 172 turns the verdict into a rite; the
+  chapter's remedies stand with its readings by the hour, its element and
+  the moment's trigram (pp. 156–162, RD17's outline, not read here).
+
+### What the passages give, in short
+
+- **No verdict of a whole reckoning** in ch. 26, 27, 29 or 30. Each
+  examination, starting point, circle or group lays its own verdict by
+  the one count, more white white, more black black, even a pair or a
+  speckled one; where WB gathers further, it does so by the same count
+  over named pebbles: the thirteenth point of the dead over the five
+  aspects' verdicts and six findings (p. 50), the time of death over
+  twenty (the notes, p. 503), the rebirth over twelve (p. 501).
+- **A verdict sizes what follows** where WB or the notes say so: the
+  thirteenth point the rites, great, middling or small (p. 50); the
+  funeral share, white large, speckled middling, black none (the notes,
+  p. 500). Which colour of the thirteenth asks for which size is not
+  stated.
+- **The remedies follow the black pebbles one by one**: each black root
+  of the thirteenth "must be remedied" (the notes, p. 517), each black
+  check of a starting point names its rite (ch. 26), each bad verdict of
+  the meadow's ornament its kind of remedy by aspect (p. 22). The rites
+  themselves are reckoned: the thirteenth's 202 identifying pebbles are
+  remedies in thirteen classes, each with its verdict (p. 517); the
+  twenty-sixth starting point asks which rites have been done (p. 468).
+- **Set readings carry rites**: a speckled board, the rite for disturbed
+  earth lords; all black, Rudra's black rite (p. 468); all white and all
+  black on each one's board (p. 471, RD24).
+- **The rites come in three kinds and in sizes**: white, speckled and
+  black for each trigram (pp. 104–105; the notes, p. 517), full or short
+  by the household's means (p. 114).
+- **The aspects' domains** (p. 22): life force, life's adversities;
+  body, illness; power, wealth; luck, merit; mewa, gods, demons and
+  curses; with the remedy of each.
+
+### Open
+
+- Question: In the reckoning for the dead, does a white verdict of the
+  thirteenth point (WB vol. 2, p. 50) ask for small rites, a pair for
+  middling and a black one for great, and is that the order «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང» means?
+- Question: Do the white, speckled and black rites of each trigram
+  (pp. 104–105, «གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག») answer the colour of the
+  thirteenth point's verdict, or are they three pebbles judged one by one,
+  as the notes count them (p. 517, «གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི»)?
+- Question: The notes count the trigram's remedies of the thirteenth
+  point fourteen and then fifteen in one line (p. 517, l. 6–8, «སྤར་བཅོས་བཅུ་བཞི» … «བཅོ་ལྔའོ»), WB fourteen (p. 50): which is the count, and what is the
+  fifteenth?
+- Question: In the twenty-fifth starting point (vol. 1, p. 468),
+  «རྡེལ་ཁྲ་ས་བདག་འཁྲུགས་གཏོ་བྱ»: is "the pebbles speckled" a reading of the
+  whole board of eight, beside "all the pebbles black", or of the seventh
+  check's two pebbles, the living's and the dead's, when they differ?
+- Question: In the meadow's ornament (vol. 2, p. 22), are the five
+  verdicts of each twenty-five one for each aspect (life force, body,
+  power, luck, mewa) over the five years, or one for each year over the
+  five aspects?
+- Question: In Sprugtön's reckoning (p. 23), are the sixteen limbs'
+  pebbles counted into the five verdicts of the life force, body, power,
+  luck and la, or given a verdict of their own («ཁ་དམར་སྤྱི་ལྟར་གདགས»)?
+- Question: «ཁང[?]་གྲངས» (p. 22, l. 24): is it «ཁང་གྲངས» or «རྐང་གྲངས», and
+  what are the three sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»?
+- Question: «དུས་མིག» or «རུས་མིག» (p. 22, l. 27; p. 23, l. 8): which
+  is the limb's name?
+- Question: «སོ་སོའི་དར། ཁྱུད་སྐོར» (p. 23, l. 2): is «ཁྱུད» a slip for
+  «གུད», the rounds of rise and decline?
+- Question: «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ» (p. 104, l. 27–28): is the print's
+  «སྐབ» the «སྒབ» of p. 55, the run of deaths?
+- Doubt: the thirteenth's rites for the trigrams after *li* (pp. 105–125)
+  and the notes' p. 517, l. 17 on, are outlined from Yigdzin-1 only.
+
+### Searched and not found
+
+- 2026-10-21, Yigdzin-1's reading of vol. 2, img. 112–134 (the
+  thirteenth's rites, pp. 104–126): no line ties the white, speckled or
+  black rite to the colour of a verdict; «ཆེ་ཆུང» does not occur there,
+  «འབྲིང» only in «འབྲིང་བཞི» (pp. 112, 115), «རྒྱས་དང་བསྡུས» only on p. 114.
+- 2026-10-21, BDRC's etext of vol. 1, pp. 453–472, vol. 2, pp. 3–25 and
+  144–172 and the notes, pp. 532–535: «ཁ་དམར» in ch. 26 only on p. 471, in
+  ch. 27 only on pp. 22–23, in ch. 30 on pp. 163, 166, 168 and 172; no
+  verdict laid over all thirty starting points, over all thirteen
+  circles or over a whole reckoning of the moment; «རྡེལ་ཁྲ» and «ཐམས་ཅད་ནག» in ch. 26 only on p. 468, «ཐམས་ཅད་དཀར» only on p. 471.

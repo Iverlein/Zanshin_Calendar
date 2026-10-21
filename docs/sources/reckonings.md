@@ -2084,3 +2084,53 @@ craving, feeling and aging and death, Zinphung's days, Tuesday, Bharaṇī,
   stack with ད's descender, as «དེ་དང» beside it. The word is the
   author's, not the 1996 setting's; the second, «རུས་ཁམས», was not found
   on f. 2a in the time given.
+
+## The verdicts gathered and turned into remedies (RD23)
+
+Read 2026-10-21 on the scan for R4; the passages, in Tibetan with the
+English, are in [verdicts.md](verdicts.md), *The verdicts of the dead,
+the thirty, the circles and the moment (RD23)*. What they add to the
+chapters above:
+
+- **Ch. 29, the thirteenth examination.** Its eleven root pebbles are
+  the five aspects' verdicts and six findings of the earlier
+  examinations; the twelfth, "the cutting off, much or little", is their
+  verdict (vol. 2, p. 50; the notes, p. 517). Its 202 identifying
+  pebbles are remedies in thirteen classes (the trigram's, the year's
+  trigram, sweeping the traces, the mewa's, the small remedies, month,
+  year, day and hour, the dates, planets, mansions, first mansions, the
+  mansion graves), each class with its own verdict: 11 + 13 + 1 = 25
+  result pebbles (the notes, p. 517, img. 525). Its results open with
+  the trigram's means of cutting off the run of deaths and the white,
+  speckled and black rite of each trigram (pp. 104–105, img. 112–113:
+  for *li* an offering with a fee, a thread-cross in the Bon way, a
+  pressing-down), and give the trigram's and mewa's rites full or short
+  by the household's means (p. 114, img. 122). For the run of deaths the
+  print sets «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ» on p. 104, where p. 55 has
+  «ཤི་སྒབ».
+- **Ch. 29, the funeral share** (the notes, p. 500, img. 508): the
+  deciding pebbles of the power and the element, both white, a large
+  funeral; one of each, speckled, a middling one; both black, none.
+- **Ch. 26.** The twenty-fifth starting point (the grave site) reads its
+  board whole besides its eight checks: speckled, the rite for disturbed
+  earth lords; all black, Rudra's black rite (vol. 1, p. 468, img. 478).
+  The twenty-sixth (the three-headed earth lord) reckons the rites
+  themselves, white, speckled and black, in eight checks (pp. 468–469,
+  img. 478–479). The notes read a group of three by its greater share
+  (vol. 2, p. 533, img. 541).
+- **Ch. 27, the small reckonings of pp. 22–23** (img. 30–31, read whole
+  on the scan). The meadow's ornament leaves (*spang rgyan lo ma*), also
+  "the joining of three hundred": the gold, turquoise and conch years,
+  each four groups of twenty-five fighting pebbles with five verdicts to
+  a group, 4 × (25 + 5) = 120, 360 in all (the notes, p. 534, the
+  hundred fighting pebbles of the gold year); the verdicts read by
+  aspect and, if bad, remedied by aspect. Sprugtön's obstacle reckoning
+  of the Tsang reckoners: ten roots of five (life force, body, power,
+  luck, la), sixteen limbs black where they fall, five verdicts, one for
+  each aspect, and four cherished pebbles: 50 + 16 + 5 + 4 = 75, the
+  close's 75 (p. 25). RD18's bracket «[གདགས་པར་བྱ།]» (p. 23) is on the
+  scan, a short line.
+- **Ch. 30.** The moment's mewa is "cut" on the figure of a man lying
+  down, each place a kin and a part of life with its verdict (vol. 2,
+  p. 163, img. 171); the last count lays one verdict over the asker's
+  four aspects fought by the moment (p. 172). Neither page names a rite.
