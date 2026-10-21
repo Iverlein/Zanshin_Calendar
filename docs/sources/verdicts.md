@@ -3363,35 +3363,16 @@ What the passages give for ch. 30:
 
 ### Open
 
-- Question: In the reckoning for the dead, does a white verdict of the
-  thirteenth point (WB vol. 2, p. 50) ask for small rites, a pair for
-  middling and a black one for great, and is that the order «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང» means?
-- Question: Do the white, speckled and black rites of each trigram
-  (pp. 104–105, «གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག») answer the colour of the
-  thirteenth point's verdict, or are they three pebbles judged one by one,
-  as the notes count them (p. 517, «གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི»)?
-- Question: The notes count the trigram's remedies of the thirteenth
-  point fourteen and then fifteen in one line (p. 517, l. 6–8, «སྤར་བཅོས་བཅུ་བཞི» … «བཅོ་ལྔའོ»), WB fourteen (p. 50): which is the count, and what is the
-  fifteenth?
-- Question: In the twenty-fifth starting point (vol. 1, p. 468),
-  «རྡེལ་ཁྲ་ས་བདག་འཁྲུགས་གཏོ་བྱ»: is "the pebbles speckled" a reading of the
-  whole board of eight, beside "all the pebbles black", or of the seventh
-  check's two pebbles, the living's and the dead's, when they differ?
-- Question: In the meadow's ornament (vol. 2, p. 22), are the five
-  verdicts of each twenty-five one for each aspect (life force, body,
-  power, luck, mewa) over the five years, or one for each year over the
-  five aspects?
-- Question: In Sprugtön's reckoning (p. 23), are the sixteen limbs'
-  pebbles counted into the five verdicts of the life force, body, power,
-  luck and la, or given a verdict of their own («ཁ་དམར་སྤྱི་ལྟར་གདགས»)?
-- Question: «ཁང[?]་གྲངས» (p. 22, l. 24): is it «ཁང་གྲངས» or «རྐང་གྲངས», and
-  what are the three sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»?
-- Question: «དུས་མིག» or «རུས་མིག» (p. 22, l. 27; p. 23, l. 8): which
-  is the limb's name?
-- Question: «སོ་སོའི་དར། ཁྱུད་སྐོར» (p. 23, l. 2): is «ཁྱུད» a slip for
-  «གུད», the rounds of rise and decline?
-- Question: «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ» (p. 104, l. 27–28): is the print's
-  «སྐབ» the «སྒབ» of p. 55, the run of deaths?
+- Open question 212 ([open-questions.md](open-questions.md)): the thirteenth's verdict and the size of the rites.
+- Open question 213 ([open-questions.md](open-questions.md)): the trigram's white, speckled and black rites.
+- Open question 214 ([open-questions.md](open-questions.md)): fourteen or fifteen remedies.
+- Open question 215 ([open-questions.md](open-questions.md)): «རྡེལ་ཁྲ» on p. 468.
+- Open question 216 ([open-questions.md](open-questions.md)): the meadow's ornament's five verdicts.
+- Open question 217 ([open-questions.md](open-questions.md)): Sprugtön's sixteen limbs.
+- Open question 218 ([open-questions.md](open-questions.md)): «ཁང་གྲངས» or «རྐང་གྲངས».
+- Open question 219 ([open-questions.md](open-questions.md)): «དུས་མིག» or «རུས་མིག».
+- Open question 220 ([open-questions.md](open-questions.md)): «ཁྱུད་སྐོར».
+- Open question 221 ([open-questions.md](open-questions.md)): «སྐབ» or «སྒབ» on p. 104.
 - Doubt: the thirteenth's rites for the trigrams after *li* (pp. 105–125)
   and the notes' p. 517, l. 17 on, are outlined from Yigdzin-1 only.
 

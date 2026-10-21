@@ -2405,6 +2405,7 @@ the text, not about the app.
 174. **«ཁ་སྨྲང» (WB vol. 2, ch. 29, p. 50, img. 58, l. 28).** What is «ཁ་སྨྲང» in
      «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»? The print and the etext agree.
      [verdicts.md](verdicts.md) (RD18).
+     *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD23, on the scan): the same shape stands on WB vol. 2, p. 114 (img. 122) and in the notes, p. 518 (img. 526), where it reads "each one's account told in its place".*
 175. **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
      P. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
      reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
@@ -2617,3 +2618,59 @@ the text, not about the app.
      stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And
      l. 4, «ཤིད་དུར» or «ཤིང་དུར» (Mipham's print by Yigdzin-1 only)?
      [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
+212. **A white verdict, small rites? (WB vol. 2, p. 50).**
+     In the reckoning for the dead, does a white verdict of the
+     thirteenth point ask for small rites, a pair for middling and a
+     black one for great, and is that the order «གཏོ་རིམ་ཆེ་ཆུང་འབྲིང»
+     means? [verdicts.md](verdicts.md), "The verdicts of the dead, the
+     thirty, the circles and the moment" (RD23).
+213. **The trigram's three rites (WB vol. 2, pp. 104–105; the notes, p. 517).**
+     Do the white, speckled and black rites of each trigram
+     («གཏོ་དཀར་གཏོ་ཁྲ་གཏོ་ནག») answer the colour of the thirteenth
+     point's verdict, or are they three pebbles judged one by one, as
+     the notes count them («གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི»)?
+     [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
+     the circles and the moment" (RD23).
+214. **Fourteen or fifteen remedies (the notes, vol. 2, p. 517, ll. 6–8).**
+     The notes count the trigram's remedies of the thirteenth point
+     fourteen and then fifteen in one line («སྤར་བཅོས་བཅུ་བཞི» …
+     «བཅོ་ལྔའོ»), WB fourteen (p. 50): which is the count, and what is
+     the fifteenth? [verdicts.md](verdicts.md), "The verdicts of the
+     dead, the thirty, the circles and the moment" (RD23).
+215. **«རྡེལ་ཁྲ» in the twenty-fifth starting point (WB vol. 1, p. 468).**
+     «རྡེལ་ཁྲ་ས་བདག་འཁྲུགས་གཏོ་བྱ»: is "the pebbles speckled" a reading
+     of the whole board of eight, beside "all the pebbles black", or of
+     the seventh check's two pebbles, the living's and the dead's, when
+     they differ? [verdicts.md](verdicts.md), "The verdicts of the dead,
+     the thirty, the circles and the moment" (RD23).
+216. **The meadow's ornament's five verdicts (WB vol. 2, p. 22).**
+     Are the five verdicts of each twenty-five one for each aspect (life
+     force, body, power, luck, mewa) over the five years, or one for
+     each year over the five aspects? [verdicts.md](verdicts.md), "The
+     verdicts of the dead, the thirty, the circles and the moment"
+     (RD23).
+217. **Sprugtön's sixteen limbs (WB vol. 2, p. 23).**
+     In Sprugtön's reckoning, are the sixteen limbs' pebbles counted
+     into the five verdicts of the life force, body, power, luck and la,
+     or given a verdict of their own («ཁ་དམར་སྤྱི་ལྟར་གདགས»)?
+     [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
+     the circles and the moment" (RD23).
+218. **«ཁང་གྲངས» or «རྐང་གྲངས» (WB vol. 2, p. 22, l. 24).**
+     «ཁང[?]་གྲངས»: is it «ཁང་གྲངས» or «རྐང་གྲངས», and what are the three
+     sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»? [verdicts.md](verdicts.md), "The
+     verdicts of the dead, the thirty, the circles and the moment"
+     (RD23).
+219. **«དུས་མིག» or «རུས་མིག» (WB vol. 2, p. 22, l. 27; p. 23, l. 8).**
+     Which is the limb's name, «དུས་མིག» or «རུས་མིག»? The ད/ར cannot be
+     told on this scan; WBZ and the other prints were not checked.
+     [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
+     the circles and the moment" (RD23).
+220. **«ཁྱུད་སྐོར» (WB vol. 2, p. 23, l. 2).**
+     «སོ་སོའི་དར། ཁྱུད་སྐོར»: is «ཁྱུད» a slip for «གུད», the rounds of
+     rise and decline? [verdicts.md](verdicts.md), "The verdicts of the
+     dead, the thirty, the circles and the moment" (RD23).
+221. **«སྐབ» or «སྒབ» on p. 104 (WB vol. 2, p. 104, ll. 27–28).**
+     «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ»: is the print's «སྐབ» the «སྒབ» of
+     p. 55, «ཤི་སྒབ», the run of deaths? (Compare question 175.)
+     [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
+     the circles and the moment" (RD23).

@@ -734,3 +734,14 @@ Searched and found wanting, so not to be repeated:
   «བཏང་གཅོད», «ཤས་ཆེ», «མང་ཉུང» give no rule for the whole match. WB's
   etext: «སྐར་འབྲས» only as «གཟའ་སྐར་འབྲས་བུ» (vol. 1, pp. 438–439; vol. 2,
   pp. 51, 316) and on p. 351.
+- **A verdict over a whole reckoning in ch. 26, 27, 29 and 30** (RD23,
+  2026-10-21): BDRC's etext of vol. 1, pp. 453–472, vol. 2, pp. 3–25 and
+  144–172 and the notes, pp. 532–535: «ཁ་དམར» in ch. 26 only on p. 471, in
+  ch. 27 only on pp. 22–23, in ch. 30 on pp. 163, 166, 168 and 172; no
+  verdict laid over all thirty starting points, over all thirteen
+  circles or over a whole reckoning of the moment; «རྡེལ་ཁྲ» and
+  «ཐམས་ཅད་ནག» in ch. 26 only on p. 468, «ཐམས་ཅད་དཀར» only on p. 471.
+  Yigdzin-1's reading of vol. 2, img. 112–134 (the thirteenth's rites,
+  pp. 104–126): no line ties the white, speckled or black rite to the
+  colour of a verdict; «ཆེ་ཆུང» nowhere there, «འབྲིང» only in «འབྲིང་བཞི»
+  (pp. 112, 115), «རྒྱས་དང་བསྡུས» only on p. 114.
