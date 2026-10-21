@@ -1185,3 +1185,246 @@ karma reckoning overrules a good match (WB p. 364; the notes, p. 526, read
 whole with p. 527 to the departure). On p. 355 the Zhol print (WBZ img.
 464, l. 5) carves «དགྲའི། །ཆུང་མར་འདོད», a spouse of enmity, where the
 1996 typesetting prints «ཆུ་མར» (above, *The match*, point 3).
+
+## Open questions 161–165 (O16)
+
+Read 2026-10-21 for open questions 161 and 165 (162 and 163 are in
+[year-of-life.md](year-of-life.md), 164 in [reckonings.md](reckonings.md)).
+WB vol. 1 by the 1996 print (I1KG12906, image = page + 10) and the Gser
+thang reprint (གསེར་ཐང, gser thang; I3CN5028, image = page − 5); the notes,
+Mipham's (མི་ཕམ, mi pham), by the 1996 vol. 2 (I1KG12907, image = page + 8)
+and the Gser thang reprint of vol. 2 (I3CN5029, image = page + 6); the
+*Moonbeams* (ཟླ་བའི་འོད་ཟེར, zla ba'i 'od zer; DZ) in Dharmaśrī's print
+(I2533, Yigdzin-1, the lines quoted read by eye on the scan).
+
+### 161. The hidden: which mewa stands for each aspect, and the body-cut wheel
+
+**The four mewa.** WB gives the rule with a worked example in ch. 21
+(vol. 1, p. 255, img. 265, read on the scan in O10d; quoted whole in
+[year-of-life.md](year-of-life.md), *The signs*), the same words the
+hidden opens with:
+
+> ད་ལྟའི་རབ་ཉིའི་མེ་ཡོས་འདི། །སྨེ་ཁྲིད་དང་པོར་རྒྱུ་བ་ལ། །ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །ཞེས་པས་སྲོག་སྨེ་བཞི་ལྗང་ལ། །དབང་སྨེ་གཅིག་དཀར་ཀླུང་རྟའི་སྨེ། །གཉིས་ནག་སྐྱེས་སྨེ་བདུན་དམར་ཏེ།
+
+"This fire hare of the present sixty-year cycle (རབ་བྱུང, rab byung), which
+goes first as the leader of the mewa: by 'four up for the life force,
+four down for power, the birth mewa for the body, the three in concord
+for the luck', its life-force mewa is 4 green, its power mewa 1 white,
+the luck's mewa 2 black and the birth mewa 7 red." And p. 256 (img. 266,
+read on the scan in O10d): «སྐྱེས་སྨེ་གསུམ་པོ་རང་རང་གི། །སྲོག་ལུས་དབང་ཐང་སྨེ་བ་ཡིན།», the
+three birth mewa of each group of animals (2, 5, 8 the first four; 1, 4,
+7 the middle four; 3, 6, 9 the last four) are each other's life-force,
+body and power mewa.
+
+The *Moonbeams* says the same with its own example (DZ img. 017, l. 6, to
+img. 018, l. 4; KD vol. 3, p. 492, etext p. 512):
+
+> དེ་ཡང་ཡར་བཞི་སྲོག་སྨེ་སྟེ། །མར་བཞི་དབང་སྨེ་གང་སྐྱེས་ལུས། །མཐུན་གསུམ་ཀླུང་རྟའི་སྲོག་སྨེར་སྦྱར། །དཔེར་ན་ད་ལྟའི་ཤིང་བྱི་ཡི། །ལུས་སྨེ་གཅིག་དཀར་ལ་བབས་དུས། །ཡར་བཞི་བདུན་དམར་སྲོག་སྨེ་དང་། །མར་བཞི་བཞི་ལྗང་དབང་སྨེ་སྟེ། །ཀླུང་སྨེ་ཤིང་སྟག་སྲོག་སྨེར་སྦྱར། །དེ་དག་གླིང་དགུ་ལས་འཚོལ་ན། །སྐྱེས་པའི་སྨེ་བ་དབུས་བཞག་པས། །སྲོག་ནི་ལྷོ་ནུབ་མཚམས་ན་གནས། །དབང་ཐང་བྱང་ཤར་ལུས་ནི་དབུས། །བསྐོར་སྨེ་ཁྲ་བོ་གླིང་དགུ་སྟེ། །ལྔ་སེར་རུས་སྦལ་ལྟོ་ལ་གབ། །ལི་ལ་དགུ་དམར་ཁོན་གཉིས་ནག །དྭ་ལ་བདུན་[དམར་ཁེན་ལ་དྲུག …]
+
+"Four up is the life-force mewa, four down the power mewa, the birth mewa
+the body; the luck is set on the life-force mewa of the wind-horse of the
+three in concord. For example, when the body mewa of the present wood
+rat falls on 1 white, four up, 7 red, is the life-force mewa, four down,
+4 green, the power mewa, and the luck's mewa is set on the wood tiger's
+life-force mewa. Sought in the nine islands (the square), with the birth
+mewa in the middle the life force stands at the south-west corner, power
+at the north-east, the body in the middle; the nine islands of the
+speckled mewa, the five yellow hidden in the turtle's belly; to li 9 red,
+to khon 2 black, to dwa 7 [red, to khen 6 …]" (the rest from the etext:
+«ཁམ་ལ་གཅིག་དང་གིན་བརྒྱད་དཀར། །ཟིན་མཐིང་ཟོན་ལ་བཞི་ལྗང་སྟེ།», kham 1, gin 8 white, zin
+the blue, zon 4 green). The notes count «མར་བཞི» the same way for the
+mewa of an hour (vol. 2, p. 536, img. 544, l. 8, read on the scan):
+
+> དེ་ལ་དུས་ཀྱི་དབང་སྨེས་སོ་སོར་འཐབ་སྟེ། ད་ལམ་དུས་སྨེ་ལྔ་སེར་གྱི་མར་བཞི་བརྒྱད་དཀར་ཡིན་པས། དེས་དབུས་བཞི་ལྗང་ལ་འཐབ་པས་གྲོགས་ཕྲད།
+
+"The hour's power mewa fights each of them: the hour's mewa now being 5
+yellow, its four down is 8 white, and it fights the 4 green in the middle,
+a friend meeting" (iron on wood).
+
+In our words, the three examples agree on one count: the body's mewa is
+the birth mewa; **four up** is the fourth mewa counting the birth mewa as
+the first in the direction the years run (the year's mewa falls by one a
+year), that is the birth mewa less three (7 → 4, 1 → 7); **four down** is
+the fourth the other way, the birth mewa plus three (7 → 1, 1 → 4, 5 → 8),
+the numbers running round from 9 to 1. The three are the birth mewa of
+the animal's group of four (p. 256), and on the square with the birth
+mewa in the middle the life force falls south-west and power north-east
+(the *Moonbeams*).
+
+**The luck, "the three in concord".** The wind-horse (ཀླུང་རྟ, klung rta) of
+the three animals in concord (མཐུན་གསུམ, mthun gsum) is WB's p. 254
+(img. 264; read with both readers, [earth-lord-courses.md](earth-lord-courses.md)):
+«སྟག་རྟ་ཁྱི་གསུམ་ཀླུང་སྤྲེལ་ལྕགས། །ཕག་ལུག་ཡོས་གསུམ་ཀླུང་སྦྲུལ་མེ། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཀླུང་སྟག་ཤིང་། །བྱ་གླང་སྦྲུལ་གསུམ་ཀླུང་ཕག་ཆུ།», the
+tiger, horse and dog's the iron monkey, the pig, sheep and hare's the
+fire snake, the mouse, dragon and monkey's the wood tiger, the bird, ox
+and snake's the water pig. The luck's mewa is the mewa of that year. The
+*Moonbeams* takes its life-force mewa ("set on the wood tiger's life-force
+mewa"); Dpal bsdus (དཔལ་བསྡུས, dpal bsdus), restating the *Moonbeams*, gives
+the numbers and names a second way (*'Byung rtsis dpyad don rmad byung*,
+BDRC etext VEIE0OPI6328F058_I4767, pp. 27–28; etext only):
+«མཐུན་གསུམ་ཀླུང་སྨེ་སྟག་རྟ་[…] གཉིས་ནག་བྱི་འབྲུག་སྤྲེལ་བྱ་གླང་། །སྦྲུལ་བརྒྱད་ཡོས་ལུག་ཕག་ལྔ་སེར། … ཀླུང་སྨེ་ཤིང་སྟག་བརྒྱད་དཀར་སྦྱོར། འདི་ལ་མཐུན་གསུམ་སྲོག་ལུས་ཀྱི། ཀླུང་སྨེ་སྦྱར་བའི་ལུགས་གཉིས་ཡོད།»,
+"the luck mewa of the three in concord: tiger, horse [and dog] 2 black;
+mouse, dragon, monkey, bird, ox and snake 8; hare, sheep and pig 5
+yellow … the luck mewa set on the wood tiger's 8 white. There are two
+ways of setting the luck mewa, by the life force or by the body of [the
+year of] the three in concord." (The etext runs the line together; which
+number goes with which triad is read so because the arithmetic below
+gives the same.)
+
+Counted (our arithmetic, from WB's own frame, the fire hare of 1687 at 7
+and one less a year): in the sixty of the wood rat (1627–1686) the
+wind-horse years are the wood tiger 1674 (birth mewa 2, life force 8),
+the fire snake 1677 (8, 5), the iron monkey 1680 (5, 2) and the water pig
+1683 (2, 8), and their life-force mewa are Dpal bsdus's 8, 5, 2, 8 by
+triad, the wood tiger's 8 white the *Moonbeams*' example. In WB's sixty
+(1687–1746) the fire hare's wind-horse year is the fire snake 1737, birth
+mewa 2, life force 8: WB's "luck's mewa 2 black" is that year's birth
+(body) mewa, Dpal bsdus's second way. So the luck's mewa is the mewa of
+the triad's wind-horse year within the person's sixty; WB's example takes
+its birth mewa, the *Moonbeams* its life-force mewa.
+
+**The five.** «སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།» (p. 357): the 5
+yellow sits in the middle and has no trigram, so on the wheels a man's 5
+counts as 2 (khon) and a woman's as 7 (dwa). The notes put it under the
+body (vol. 2, p. 524, img. 532; quoted above, *The notes' section 6*):
+«ལུས་ནི་སྐྱེས་པའི་ལྔ་སེར་གཉིས་ནག་དང་བུད་མེད་ལྔ་སེར་བདུན་དམར་བྱས་ནས་གནམ་སྨན་སོགས་གང་བབ་གཞུང་ལྟར་བརྟག», and
+fit the mewa to the trigrams by the square with the 5 in the middle
+(«ལྔ་སེར་དབུས་བཞག་གི་ལི་དང་དགུ་དམར་སོགས་སྦྱར»): li 9, khon 2, dwa 7, khen 6, kham 1,
+gin 8, zin 3, zon 4, the numbers bracketed over the trigrams on p. 358.
+
+**The body-cut wheel.** The notes draw the nine wheels the hidden is
+tried on (vol. 2, p. 524; read on the Gser thang reprint I3CN5029
+img. 530 at 3×, the 1996 img. 532 the same typesetting): each a frame
+with the wheel's name in the middle and two trigrams on each side with
+their mewa, the pairs facing each other on one side:
+
+| Wheel | Pairs drawn |
+| --- | --- |
+| the sky goddess (གནམ་སྨན, gnam sman) | li 9–kham 1; zon 4–zin 3; khon 2–khen 6; gin 8–dwa 7 |
+| life (སྲོག་འཚོ, srog 'tsho) | li 9–zin 3; zon 4–kham 1; khon 2–gin 8; khen 6–dwa 7 |
+| raising glory (དཔལ་སྐྱེད, dpal skyed) | li 9–zon 4; zin 3–kham 1; khon 2–dwa 7; gin 8–khen 6 |
+| luck gained (ཕྱྭ་ལོན, phywa lon) | li–li; khen–khen; gin–gin; dwa–dwa |
+| luck equal (ཕྱྭ་མཉམ, phywa mnyam) | kham–kham; zon–zon; khon–khon; zin–zin |
+| harm (གནོད་པ, gnod pa) | li 9–gin 8; zon 4–khen 6; khon 2–zin 3; kham 1–dwa 7 |
+| the five demons (འདྲེ་ལྔ, 'dre lnga) | li 9–dwa 7; khen 6–zin 3; khon 2–zon 4; kham 1–gin 8 |
+| the demon's cut (བདུད་གཅོད, bdud gcod) | li 9–khen 6; zon 4–gin 8; khon 2–kham 1; zin 3–dwa 7 |
+| the body cut (ལུས་ཆད, lus chad) | li–khon 2; zon 4–dwa 7; gin 8–zin 3; kham 1–khen 6 |
+
+Every wheel but the last is ch. 21's (pp. 256–257) and p. 358's; the nine
+together hold each of the 36 pairs of the eight trigrams once, so the body
+cut is the four pairs no other wheel holds. **The body cut pairs li with
+khon (fire and earth, 9 and 2), zon with dwa (wind and iron, 4 and 7),
+gin with zin (mountain and wood, 8 and 3), kham with khen (water and sky,
+1 and 6).** The drawing prints ༧ under li, where every other wheel has ༩:
+a slip of the notes' typesetting, li being 9 throughout.
+
+WB's turtle (p. 358, read again on the Gser thang reprint, img. 353, at
+3×: «མགོ(༩)དང་ལག་གཡོན(༢)རྐང(༨)གློ་གཡས(༣)། །གཞོགས་གཡོན(༦)ལག་གཡས(༤)རྐང་གཡོན(༥)མཇུག(༡)», as the
+1996 print) names the parts in pairs as they stand in the verse: head
+and left hand (9, 2), the [right] leg and right lung (8, 3), left side and
+right hand, left leg and tail. The first two pairs are the drawing's. Laid
+on the square with the head at the south (9), the left hand falls
+south-west (2), the right hand south-east (4), the right side east (3),
+the right leg north-east (8), the tail north (1), and so the left side
+west (7) and the left leg north-west (6): then the last two pairs are 7
+with 4 and 6 with 1, the drawing's. The print's ༦ and ༥ for the left side
+and the left leg stand one place off: 5 is the middle, no trigram, and
+7 is missing from the verse's eight.
+
+### 165. Point 10: grave and four-executioner between the spouses' times
+
+The notes gloss point 10 (vol. 2, p. 525, img. 533; quoted above):
+«བུ་སྐྱེས་དུས་ཀྱི་ཟླ་ཞག་དུས་གསུམ་པོའང་ཕན་ཚུན་དགྲ་དང་བདུན་ཟུར་སོགས་མ་ཐུག་ན་བཟང་ངོ་།།», "the three,
+month, day and hour, of the son's [and the bride's] births are good if
+they do not meet each other as enemy, seventh and the like": the
+relations are mutual, between the man's month and the woman's, his day
+and hers, his hour and hers. WB defines each elsewhere.
+
+**Four-executioner** (བཞི་གཤེད, bzhi gshed): ch. 20 (vol. 1, p. 235, img. 245,
+ll. 9–11, read on the scan):
+
+> …ཡོས་ཀྱི་ཕྲུ་གུ་བྱ་ཡིས་ཁྱེར། །ཁྱི་ཡི་རྐེད་པ་འབྲུག་གིས་བཅག །གདུག་པ་སྦྲུལ་དེ་ཕག་གིས་ཟོས། །ཡར་གྱི་བཞི་གཤེད་ཡོས་བུ་དེ། །དེ་ནི་ཕྱི་དཀར་ཚུལ་དུ་བསྡུས། །མར་གྱི་བཞི་གཤེད་བྱ་དེ་ནི། །ནང་དཀར་ཚུལ་དུ་བསྡུས་པ་ཡིན།
+
+"… the bird carried off the hare's young, the dragon broke the dog's
+waist, the pig ate the vicious snake (the six pairs of the seventh). The
+upward four-executioner, the hare, is gathered as the outer white; the
+downward four-executioner, the bird, as the inner white." From the
+mouse, which heads the list, the hare is the fourth animal counting up
+and the bird the fourth counting down (the notes, p. 524, make mouse and
+hare the great white year). So the four-executioners of an animal are the
+two animals three places from it either way: of the pig the tiger and
+the monkey.
+
+**Grave** (དུར, dur): the tomb of an element (ch. 21, p. 258, img. 268, read
+on the scan; quoted in [year-of-life.md](year-of-life.md)):
+«ཤིང་དུར་ལུག་ལ་མེ་དུར་ཁྱི། །ལྕགས་དུར་གླང་ལ་ས་ཆུ་འབྲུག །དུར་ཞུགས་ཆད་ཆེན་གཙོ་བོ་ཡིན། །བདུན་ཟུར་ཆད་ཆུང་མནའ་མ་ཡིན།»,
+wood's grave the sheep, fire's the dog, iron's the ox, earth's and
+water's the dragon; entering the grave the great penalty, its seventh
+the small. Between two people's animals the element is the life force's:
+the notes on the match's first point (vol. 2, p. 524, img. 532, l. 2;
+quoted above) «ཕན་ཚུན་རང་དུར་དུར་གཤེད་ཐུག་ཅེས་པ་ཕོ་ཆུ་བྱི་ལ་མོ་ཆུ་འབྲུག་དང་ཕོ་ཆུ་འབྲུག་ལ་མོ་ཆུ་བྱི་ལྟ་བུར་དུར་གཤེད་དང་རང་གཤེད་དུར་ཆུང་སོགས་དེས་འདྲེ།»,
+"meeting each other on their own grave or the grave-executioner: a water
+mouse man with a water dragon woman, a water dragon man with a water
+mouse woman" (the mouse's life force is water, water's grave the dragon);
+and on the departure (p. 531, img. 539; the Gser thang reprint I3CN5029
+img. 537, l. 1, Yigdzin-1, the 1996 etext the same)
+«དེ་ཡང་གཤེད་ནི་སྲོག་གི་དགྲ་ལོ་དང་དུར་ནི་དུར་ཞུགས་ཀྱི་ལོའོ།», "the executioner is the year that
+is the life force's enemy, the grave the year of entering the grave".
+The same page applies all of them to the hours of a pig-year bride
+(I3CN5029 img. 537, ll. 9–12, Yigdzin-1):
+
+> …ནི་བག་མའི་རུས་ཁམས་དང་ལོ་ཡི་མའམ་གྲོགས་སུ་གྱུར་པའི་དུས་སུ་སྟེ། རུས་ཤིང་ལ་བྱི་ཕག་གི་དུས་ལྟ་བུ་དང་ཁྱད་པར་ཆུ་ཡི་བྱི་ཕག་ལྟ་བུ་ས་ཡི་ཁྱི་འབྲུག་ལྟ་བུའི་གྲོགས་བཟང་། གླང་ལུག་གྲོགས་ཡིན་ཀྱང་དུར་ལོར་གྱུར་པས་འཛེམ། སྲོག་ལ་མཚོན་ནས་ཕག་ལོ་མ་ལ་སྲོག་མ་བྱ་དང་དབང་མ་མེ་བྱ་ལྟ་བུ་དགོས། སྤྲེལ་སྲོག་མ་ཡིན་ཡང་བཞི་གཤེད་དུ་གྱུར་པས་འཛེམ། གྲོགས་རྟ་དང་ཁྱད་པར་ཆུ་རྟ་བཟང་། སྦྲུལ་གྲོགས་ཡིན་ཀྱང་བདུན་ཟུར་ཡིན་སྟབས་འཛེམ།
+
+"[The hour] at a time that is the mother or friend of the bride's clan
+element and of her year: for a wood clan the mouse and pig hours, above
+all the water mouse or pig, and the earth dog or dragon, friends, are
+good; the ox and sheep, though friends, are grave years and are avoided.
+By the life force, a pig-year woman needs the bird, the life force's
+mother, and the fire bird, power's mother; the monkey, though the life
+force's mother, has become the four-executioner and is avoided; the
+friend, the horse, above all the water horse, is good; the snake, though
+a friend, is the seventh and is avoided."
+
+In our words, for point 10: two births' months, days or hours, taken as
+animals, are **seventh** when they stand opposite (six apart), **four-
+executioner** when they are three apart either way, **grave** when one
+falls on the grave of the other's life-force element (the sheep for the
+tiger and hare, the dog for the snake and horse, the ox for the monkey
+and bird, the dragon for the mouse, pig, ox, dragon, sheep and dog), the
+small grave its seventh, and **enemy** when one's life-force element
+overcomes the other's. The life force's element of an animal is its
+direction's: tiger and hare wood, snake and horse fire, monkey and bird
+iron, mouse and pig water, the rest earth (the four aspects,
+[year-of-life.md](year-of-life.md)).
+
+### Open
+
+- Question: The 1996 print's p. 358 numbers the turtle's left side ༦ and
+  left leg ༥, where the square and the notes' drawing give 7 and 6; do
+  the blocks (the Taikhang print I5877 img. 485, the Zhol print WBZ
+  img. 468) carve the same digits? Neither was served on 2026-10-21
+  (BDRC answered with empty images and 503).
+- Question: WB's p. 255 sets the luck's mewa on the birth mewa of the
+  wind-horse year, the *Moonbeams* on its life-force mewa, and Dpal bsdus
+  says both ways exist; WB counts above the *Moonbeams*, but its rule
+  rests on one example. Does a reader of the tradition take WB's example
+  as the rule, and is the wind-horse year the one within the person's
+  own sixty, as both examples have it?
+- Question: In point 10, is «དགྲ་དུར» two relations, enemy and grave (the
+  notes' gloss names enemy and the seventh, «ཕན་ཚུན་དགྲ་དང་བདུན་ཟུར་སོགས»), or one,
+  the enemy's grave, as WB writes «སྤར་ཁ་དགྲ་དུར» (vol. 2, p. 98) and the notes
+  «སྲོག་གི་དགྲ་དུར» (pp. 480, 488)?
+- Doubt: the notes put the man's 5 as 2 and the woman's 5 as 7 under the
+  body; WB's line on p. 357 names no aspect, and the other aspects'
+  mewa can be 5 too (the life force of birth mewa 8).
+
+### Searched and not found
+
+- A worked example of the luck's mewa beyond WB's fire hare (p. 255) and
+  the *Moonbeams*' wood rat: WB's etext (both volumes) for «ཀླུང་རྟའི་སྨེ»,
+  «ཀླུང་སྨེ», «ཀླུང་གི་སྨེ» followed by a colour: none but p. 255 (the model
+  almanac's tables, pp. 105–125, give the wind-horse's element, not its
+  mewa); the notes for «ཀླུང་རྟའི་སྨེ», «སྨེ་ཁྲིད», «མཐུན་གསུམ» with a mewa: none.
+- «དགྲ་དུར» defined: WB's etext uses it for trigrams and aspects
+  (vol. 1, pp. 306, 313–314, 331, 347; vol. 2, pp. 98, 129–132, the notes
+  pp. 478, 480, 488, 498, 505) and never explains it.

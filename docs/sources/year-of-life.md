@@ -3036,3 +3036,111 @@ classes' verdicts gathered" worked out obstacle by obstacle.
 - The notes' section 4 (vol. 2, p. 502, img. 510), on the reckoning for
   the dead: the own year white and the seventh black "examined from the
   general shape reckoned for the household" («བཟའ་ཚང་ལ་བརྩིས་པའི་སྤྱི་དབྱིབས»). RD23's chapter.
+
+## Open questions 161–165 (O16)
+
+Read 2026-10-21 for open questions 162 and 163, both on p. 348 (161 and
+165 are in [marriage.md](marriage.md), 164 in [reckonings.md](reckonings.md)).
+P. 348 read on the Gser thang reprint (གསེར་ཐང, gser thang; I3CN5028,
+img. 343, image = page − 5) at 2–6×; the notes, Mipham's (མི་ཕམ, mi pham),
+on the 1996 vol. 2 (I1KG12907, image = page + 8) and the Gser thang
+reprint (I3CN5029, image = page + 6).
+
+### 162. «དཱ་ཟླ» is the orphaning month (དྭ་ཟླ, dwa zla)
+
+On the Gser thang scan the letter of the three «…ཡི་དཱ་ཟླ་ཡིན» (img. 343,
+l. 1) is the same glyph, ད with the same wedge below it, as the trigram
+dwa four lines on (para. 2, l. 1: «སྤར་ཁའི་གསོ་བ་དཀའ་སླ་ནི། །བྱ་སྤྲེལ་ལི་ལ་སྟག་ཡོས་དྭ།»),
+compared side by side at 2× and 6×: the wedge is the subscript wa
+(ཝ་ཟུར, wa zur), and the word is «དྭ་ཟླ». BDRC's own etext of the 1996
+print reads «dwa zla» in two of the three lines and in the example's
+«ma yi dwa zla» («dA zla» once; full-text search, 2026-10-21), and a
+manuscript copy of WB in the *Bod lugs gso rig rtsa che'i dpe rnying kun
+btus* has «pha yi dwa zla yin» (search snippet). So the line reads:
+
+> ཟླ་བ་དག་ཀྱང་དེ་བཞིན་ཏེ། །དུར་ཞུགས་ཕ་ཡི་དྭ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དྭ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དྭ་ཟླ་ཡིན།
+
+The orphan (དྭ, dwa) is WB's own word in this chapter: «བུ་ཚ་ལྷག་ཆད་འོང་བ་དང་། །དྭ་བོར་ལུས་པའི་བརྒྱུད་ཡིན་ཏེ།»,
+a line left orphaned (p. 271), «ཆུང་དུས་དྭ་ཕྲུག་བབས་ཉེན་ཡོད», "in childhood
+there is the risk of becoming an orphan" (p. 277), «དྭ་ཕྲུག་བྱམས་སྐྱོང», caring
+for orphans (p. 291) (etext only), and the *Great Dictionary* (ཚིག་མཛོད་ཆེན་མོ, tshig mdzod chen mo) defines
+«དྭ་ཕྲུག» as «ཆུང་དུས་ནས་ཕ་མ་ཤི་བའི་ཕྲུ་གུ», a child whose parents died
+when it was small (quoted for the word). In our words: the months are
+like the years: the month of the tomb is the father's orphaning month,
+the month of the womb the mother's, the months of illness and death the
+child's own (the child's life force counted onto the birth month's
+animal; the example of the mouse child, above, *Raising a child hard to
+raise*).
+
+The notes use the word twice on the chapter (vol. 2, p. 488, img. 496,
+ll. 18–19; read on the Gser thang reprint, I3CN5029 img. 494, at 1–2×):
+
+> གསོ་དཀའ་སླ་སྐྱེས་དུས་ལོ་སོགས་ལས་བརྟག་སྟེ་གཞུང་ན་གསལ། ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།
+
+"Hard or easy to raise is examined from the year and the rest at the
+birth; it is clear in the root text. By the father's orphaning month,
+[…] dies; by the child's, both die." And p. 489 (img. 497, ll. 5–6,
+Yigdzin-1; BDRC's etext of the Gser thang reprint «dwa zla»), on the
+child of the father's ogre: «དེ་ཡང་དྭ་ཟླ་ནི་སྐབས་འདིར་ཕར་ངན་པ་མའི་དྭ་ཟླ་གོང་བཤད་ལྟར་དང་།», "the
+orphaning month here is the mother's orphaning month as explained above,
+bad for the father".
+
+### 163. The four accomplishing mansions of p. 348
+
+The Gser thang reprint reads «ནམ་གྲུ» (settled 2026-10-19). The words
+«འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་» are a saying of the Chinese reckoning that
+others quote whole: Stag tshang lo tsā ba Shes rab rin chen
+(སྟག་ཚང་ལོ་ཙཱ་བ་ཤེས་རབ་རིན་ཆེན, stag tshang lo tsA ba shes rab rin chen), *Dus 'khor spyi don*
+(BDRC MW2DB4577, search snippet): «རྒྱ་ནག་གི་གཞུང་ལས། འགྲུབ་སྐར་བཞི་ལ་གང་ཡང་བཟང་། །རྨེ་སྐར་བཞི་ལ་གང་ཡང་ངན། །གཡང་སྐར་བཞི་ལ་ནོར་མི་བཏང་། །དགྲ་སྐར་བཞི་ལ་དགྲ་ལ་རྒལ།»,
+"from the Chinese texts: on the four accomplishing mansions anything is
+good, on the four *rme* mansions anything bad, on the four wealth mansions
+give no wealth away, on the four enemy mansions attack the enemy". WB
+names the four in its mansion verses (vol. 2, ch. 31; [mansion-verses.md](mansion-verses.md)),
+each «འགྲུབ་སྐར»: Puṣya (རྒྱལ, rgyal, p. 317: «མེ་ཁམས་འགྲུབ་སྐར»), Viśākhā (ས་ག,
+sa ga, p. 322: «འགྲུབ་སྐར་མེ་ཁམས»), Uttarāṣāḍhā (ཆུ་སྨད, chu smad, p. 324:
+«འགྲུབ་སྐུར་རབ་བརྟན», so the etext) and Revatī (ནམ་གྲུ, nam gru, p. 328: «ཆུ་ཁམས་འགྲུབ་སྐར་མི་བརྟན་འགྱུར»),
+and so does a manual of results, 'Bro'i sbyin pa's (འབྲོའི་སྦྱིན་པ, 'bro'i sbyin pa) *'Bras rtsis bar gsal
+li dwangs ma'i me long* (Lanzhou 2006, BDRC MW1KG21827, search snippet):
+«ས་ག་ཆུ་སྨད་ནམ་གྲུ་རྒྱལ། །གྲུབ་སྐར་བཞི་ཡིན་གང་ཡང་བཟང་། །བྲ་ཉེ་མགོ་གྲེ་སྣུབས་བཞི་ནི། །དམེ་སྐར་ཡིན་ཏེ་གང་ཡང་ངན།».
+**So p. 348's four are Puṣya, Viśākhā, Uttarāṣāḍhā and Revatī**, and Revatī
+stands in the passage twice, among the very bad and among the four.
+
+WB's other set of four is not these: the general classes of ch. 31
+(vol. 2, p. 329, img. 337; the 1996 etext and the Gser thang etext, not
+read on the scan) give «བརྟན་(བརྟན་པའི་དོན་གྲུབ་སྐར་མ་ལྟར་བྲ་ཉེ་འདྲེན་པ་ཕལ་ཆེར་ལ་འདུག་ཀྱང་འབྲས་བུའི་སྐབས་བཞག་པའི་བཞི་འཐད་པར་སེམས།)གྲུབ་སྐར་མ་བཞི། །མཆུ(༩)གྲེ(༡༠)ཆུ་སྟོད(༡༩)ཁྲུམས་སྟོད(༢༤)བཞི།»,
+the four of stable accomplishment, Maghā, Pūrvaphalgunī, Pūrvāṣāḍhā and
+Pūrvabhādrapadā (with a bracketed note: "most [copies of] the
+bride-receiving have them as the mansions of stable accomplished aim, but
+I think the four set in the results section right"; the Gser thang
+etext «… དོན་གྲུབ་སྐར་མ་ལྔར …», five, «… དོན་གྲུབ་སྐར་མ་བཞི»); their
+verses call each «བརྟན་པའི་དོན་གྲུབ» or "stable and accomplishing". Lha mo
+tshul khrims (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims), *Nag rtsis rdel 'grem
+'bras bshad* (MW1KG21818, search snippet), restates p. 348 without
+resolving it: «སྐར་མ་ནག་པ་ས་རི་གྲོ་བཞིན་ནམ་གྲུ་བཞི་ལ་ཤིན་ཏུ་ངན། འགྲུབ་སྐར་བཞི་ལ་བཟང་།». The notes on
+the chapter say only «སྐར་མ་རུས་ཀྱི་དུར་སྐར་དགྲ་སྐར་སོགས་མིན་ན་བཟང་» (vol. 2, p. 488,
+img. 496, l. 19, on the scan): the mansion is good if it is not the
+clan's grave or enemy mansion and the like.
+
+### Open
+
+- Question: In the notes' «ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།» (vol. 2, p. 488), is
+  «མ» the mother ("by the father's orphaning month the mother dies") or
+  the negative ("[the child] does not die"), and who are "both" in the
+  child's own month?
+- Question: A child born on Revatī: p. 348 puts it among the very bad and
+  among the four accomplishing mansions, good for anything. Which line
+  rules for a birth, and is the four accomplishing a general good that
+  the birth's own list of the very bad overrides?
+
+### Searched and not found
+
+- «དྭ་ཟླ» or «དཱ་ཟླ» elsewhere: WB's etext of both volumes, the *Moonbeams*
+  (KD vol. 3), Dpal bsdus's *'Byung rtsis dpyad don rmad byung*, the
+  *Removing the Tarnish* (I5876) and the Bhutan collection (I1KG11905):
+  only p. 348 and the notes, pp. 488–489; BDRC's full-text search, «དྭ་ཟླ»
+  (5 hits), «དཱ་ཟླ» (10), «ཕ་ཡི་དྭ་ཟླ» (2), «དྭ་ཟླ་ཡིན» (3): WB's prints and
+  copies only, the rest unrelated (a trigram's three months, a moon of
+  poetry).
+- A list naming WB's four «འགྲུབ་སྐར» together in WB: none in the etext
+  («ས་ག་ཆུ་སྨད», «ཆུ་སྨད་ནམ་གྲུ», «འགྲུབ་སྐར་བཞི», «གྲུབ་སྐར་བཞི» only p. 348 and the
+  classes of vol. 2, p. 329); BDRC's search, «བརྟན་གྲུབ་སྐར», no hit.

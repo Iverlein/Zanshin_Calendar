@@ -2134,3 +2134,110 @@ chapters above:
   down, each place a kin and a part of life with its verdict (vol. 2,
   p. 163, img. 171); the last count lays one verdict over the asker's
   four aspects fought by the moment (p. 172). Neither page names a rite.
+
+## Open questions 161–165 (O16)
+
+Read 2026-10-21 for open question 164 (161 and 165 are in
+[marriage.md](marriage.md), 162 and 163 in [year-of-life.md](year-of-life.md)).
+WB vol. 2, pp. 156 and 162 are quoted above (*Ch. 30*, read on the scan
+in RD17); the notes, Mipham's (མི་ཕམ, mi pham), p. 535, read on the Gser
+thang reprint (གསེར་ཐང, gser thang; I3CN5029, img. 541, image = page + 6)
+at 1.6–2×, the 1996 vol. 2 img. 543 by its etext; the *Moonbeams*
+(ཟླ་བའི་འོད་ཟེར, zla ba'i 'od zer; DZ) in Dharmaśrī's print (I2533,
+img. 019–022) by Yigdzin-1, the lines quoted checked against KD vol. 3's
+etext (pp. 493–494, etext pp. 513–514).
+
+### 164. The moment's trigram and mewa
+
+**The notes on p. 156** (vol. 2, p. 535, ll. 11–18 of I3CN5029 img. 541;
+a run of dots in the print marked […]):
+
+> དེ་ལ་དུས་ནི་ནམ་ལངས་ཡོས་སོགས་དང་དེའི་དབང་ཐང་ནི་ཞག་དབང་གི་བུ་ནས་ལུགས་འབྱུང་རྐྱང་འདེད་སྤྱི་ལྟར་རོ། །སྤར་ཁ་ནི་སྟག་རྟ་ཁྱི་གསུམ་ཟླ་བ་ལི་ཡིས་ཚེས། དེ་བཞིན་ཕག་ལུག་ཡོས་གསུམ་ཟིན། བྱ་གླང་སྦྲུལ་གསུམ་དྭ། བྱི་འབྲུག་སྤྲེལ་གསུམ་ཁམ་གྱིས་ཚེས་པས་དེ་ནས་བཟུང་ལུགས་འབྱུང་དུ་སྦྱར་བའི་ཚེས་དེའི་སྤར་ཁ་དང་པོར་བྱས་ནས་ཉིན་ཚད་བརྒྱད་དུ་བགོས་པའི་ཆ་རེ་རེ་ལ་སྤར་ཁ་རེ་[…]འཆར་མཚན་ལའང་དེ་བཞིན་ནོ། །སྨེ་བ་ར་བཞིར་གཅིག་དཀར། འབྲིང་བཞིར་བཞི་ལྗང་། ཐ་ཆུང་བཞི་བདུན་དམར་གྱིས་ཚེས་པས། ཞག་གི་སྨེ་བ་གང་ཡིན་དང་པོར་བྱས་ནས་ཉིན་དགུ་མཚན་དགུར་འཆར་བའོ། །སྨེ་བའི་ཤ་རྩིས་ལ་དུས་ཚོད་དུམ་གསུམ་གསིལ་ཞེས་པ་ཉིན་གྱི་དུས་དྲུག་པོ་གསུམ་དུ་གསིལ་བས་དུས་ཀྱི་སུམ་ཆ་གཉིས་རེ་སྨེ་བ་རེའི་ཡུན་ཡིན་ཞེས་སོ། །དོན་ལ་ཉིན་ཚད་མཚན་ཚད་དགུས་བགོས་ཐོབ་སྨེ་བ་རེའི་རྒྱུ་ཡུན་ཡིན་ནོ།
+
+"The time is dawn, the hare and so on, and its power is the son of the
+day's power, the single one following on in the order of arising, as in
+general. The trigram: the months of the tiger, horse and dog are dawned
+on by li; likewise the pig, sheep and hare by zin, the bird, ox and snake
+by dwa, the mouse, dragon and monkey by kham; from that, set on in the
+order of arising, the trigram of the date is made the first, and on each
+part of the day's length divided in eight one trigram […] rises; by night
+the same. The mewa: the four first (months) are dawned on by 1 white,
+the middle four by 4 green, the last four by 7 red; whatever the day's
+mewa is is made the first, and nine rise by day and nine by night. In the
+mewa's flesh reckoning, 'an hour split in three' means the day's six hours
+split in three, two thirds of an hour being each mewa's span, so it is
+said; in fact each mewa's run is the day's or the night's length divided
+by nine."
+
+**The *Moonbeams*** gives both counts as verse (DZ img. 021, l. 6, to
+img. 022, l. 1; KD p. 494):
+«སྟག་རྟ་ཁྱི་གསུམ་ལི་ཡིས་ཚེས། །བྱི་འབྲུག་སྤྲེལ་གསུམ་ཁམ་གྱིས་ཚེས། །བྱ་གླང་སྦྲུལ་གསུམ་དྭ་ཡིས་ཚེས། །ཕག་ལུག་ཡོས་གསུམ་ཟིན་གྱིས་ཚེས། །རིམ་བཞིན་དེད་པས་ཚེས་ལ་འཆར། །གང་ཚེས་ཉིན་མཚན་ཐོག་མ་ནས། །ཉིན་བརྒྱད་མཚན་བརྒྱད་དུས་ལ་སྦྱར།»,
+"tiger, horse and dog are dawned on by li, mouse, dragon and monkey by
+kham, bird, ox and snake by dwa, pig, sheep and hare by zin; driven on
+in order, they rise on the dates; from whichever dawns, at the start of
+day and night, eight by day and eight by night are set on the hours";
+and for the mewa (DZ img. 019, l. 6, to img. 020, l. 1; KD p. 493):
+«ར་བ་བཞི་པོ་གཅིག་དཀར་ཚེས། །འབྲིང་པོ་བཞི་ལ་བཞི་ལྗང་ཚེས། །ཐ་ཆུང་བཞི་ལ་བདུན་དམར་ཚེས། །རིམ་པར་དེད་པས་ཚེས་ལ་འཁོར། །ཉིན་མཚན་དུས་གཉིས་ཐོག་མ་ལ། །ཚེས་སྨེ་སྦྱར་ནས་དེད་པ་ཡིས། །ཉིན་དགུ་མཚན་དགུ་དུས་ལ་འཆར།»,
+"the four first are dawned on by 1 white, the four middle by 4 green, the
+four last by 7 red; driven on in order they turn on the dates; at the
+start of the two times, day and night, the date's mewa is set and driven
+on, and nine by day and nine by night rise on the hours". The trigrams'
+order is the *Moonbeams*' and WB's own (DZ img. 020, l. 1; WB vol. 1,
+p. 256): «ལྷོ་ནས་གཡས་བསྐོར་རིམ་པ་བཞིན། །ལི་མེ་ཁོན་ས་དྭ་ལྕགས་དང་། །ཁེན་གནམ་ཁམ་ཆུ་གིན་རི་དང་། །ཟིན་ཤིང་ཟོན་རླུང་…»,
+from the south clockwise: li, khon, dwa, khen, kham, gin, zin, zon.
+
+**The order, settled by the counts.** A month has thirty dates. Counted
+forward in that order, one trigram a date, a tiger month that starts on
+li ends on gin and the next, a hare month, starts on zin (30 = 3 × 8 + 6),
+then kham for the dragon, dwa for the snake, li again for the horse:
+exactly the months' starts the notes and the *Moonbeams* give, round the
+whole year. The mewa likewise: rising by one a date (1, 2, 3 …), a first
+month that starts on 1 starts the middle month on 4 and the last on 7,
+and the next first month on 1 again (30 = 3 × 9 + 3); falling by one a
+date, the middle month would start on 7. **So the date's trigram runs
+forward, li to khon to dwa, and the date's mewa runs up, one a date,
+the whole year, with no turn at the solstices**; the months' groups are
+the animals of the month (the first of each season, tiger, snake, monkey
+and pig, the middle, the last). Our arithmetic; neither text says "up".
+
+**Within the day.** The date's trigram stands at dawn and the eight run on
+"in order" through the day, eight again through the night; the date's mewa
+the same, nine and nine (the same word, «དེད», driven on). The span is
+the day's length (ཉིན་ཚད, nyin tshad) in water-hours (ཆུ་ཚོད, chu tshod)
+divided by eight for the trigrams and by nine for the mewa, and the
+night's length the same by night: p. 162's three quarters and two thirds
+of an hour are the rough form («རགས་པར»), and the notes say "in fact" the
+day's or night's length divided by nine. Of the twelve hours, each 5
+water-hours, three quarters make 3¾ and two thirds 3⅓, eight and nine
+times which are 30: the rough spans are the division on a day of 30
+water-hours, which WB's day length gives at the equinox (vol. 1, p. 51,
+img. 61, Yigdzin-1, the etext the same: «ཉ་དང་བུ་མོ་ནི། །ཉིན་མཚན་ཆུ་ཚོད་མཁའ་མེར་(༣༠)མཉམ།», the sun
+in Pisces and Virgo, day and night equal at 30 water-hours).
+
+**Dawn.** The count starts at «ནམ་ལངས», which p. 156 and the notes make the
+hare, the first of the day's six hours (the *Moonbeams*, KD p. 495, etext only: «ནམ་ལངས་ཡོས་ལ་ཉི་ཤར་འབྲུག», dawn
+the hare, sunrise the dragon), and WB divides a day's length
+from it elsewhere too (vol. 2, p. 403, img. 411, etext only: «རགས་པ་ཉིན་ཚད་ཁྱིམ་གྱིས་བགོས། །ནམ་ལངས་ནས་བཟུང་ཕྱེད་པ་ཡི། །གཟའ་རེ་འཆར་བའི་ཚད་ཡིན»,
+"roughly, the day's length divided by the twelve signs, from dawn, is the
+span of each planet's rising"). The day's length that is divided is the
+daytime of WB's table, equal to the night at the equinox.
+
+### Open
+
+- Question: The day divided in eight and nine is WB's day's length, the
+  daytime equal to the night at the equinox, and the count starts at
+  «ནམ་ལངས»; is that dawn the start of the hare hour at a fixed clock time, or
+  the start of the daytime the length measures (sunrise), when the two
+  differ?
+- Question: Within the day, do the eight trigrams and nine mewa run on in
+  the same direction as from date to date (forward, and up)? Neither the
+  notes nor the *Moonbeams* says, beyond «རིམ་པར་དེད» and «ལུགས་འབྱུང».
+- Doubt: the notes' line on the trigram's parts has a run of dots in the
+  print after «སྤར་ཁ་རེ» (img. 541, l. 15); the sentence closes «འཆར», rises.
+
+### Searched and not found
+
+- A day's mewa that turns at the solstices in WB, the notes or the
+  *Moonbeams*: none; the date's mewa start by the month's group (1, 4, 7)
+  and run on (the notes, p. 535; DZ img. 019–020); «ཉི་ལྡོག» with «སྨེ» in
+  WB's etext of vol. 2, ch. 30, and the notes' section 8: none.
