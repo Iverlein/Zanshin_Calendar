@@ -75,8 +75,9 @@ reading that settles the rest.
   karma" being "the reckoning bad in general". RD21.
 - **The illness reckoning** (ch. 25; H2, not built). Its conclusion is the
   illness itself: the element that is most among the year, month, day,
-  hour and life force (p. 435, etext), in shares by the notes (two wood and
-  three fire, a third of each named, p. 497, etext), then its door, its
+  hour and life force (p. 435), in shares by the notes (two wood, two fire
+  and three iron of seven, iron's the illness, p. 497 on the scan; RD22),
+  then its door, its
   signs, its place and its rite ([health.md](health.md)). RD22.
 - **The reckoning for the dead** (ch. 29; not built). Its thirteenth point
   gathers the verdicts of the twelve, white where white, black where black,
@@ -197,7 +198,9 @@ that one; told in many ways, gathered they come to the five elements, and
 when all gather, a gathered illness (འདུས་པའི་ནད, 'dus pa'i nad). The notes
 (vol. 2, p. 497, img. 505): «འབྱུང་ཁམས་གང་མང་ཤས་ཆེ་བའི་ནད་དུ་ངོས་བཟུང་། ཤིང་གཉིས་མེ་ … གསུམ་ལྟ་བུ་བྱུང་ན།», the
 element most and greatest in share is taken as the illness; where two
-wood and three fire come, the shares are named.
+wood and three fire come, the shares are named. *Corrected 2026-10-21
+(RD22, on the scan): the elided words read «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ», two
+wood, two fire, three iron, iron's the illness by its greater share.*
 
 **The thirty starting points** (vol. 1, p. 471, img. 481): «དེ་ཡང་གང་བརྩི་སོ་སོ་ལ། །རིག་པས་དཔྱད་དེ་ཁ་དམར་གདགས། །གཞན་ཡང་ཡར་གྱི་རྡེའུ་དཀར། །མར་རྡེལ་ནག་པར་གྱུར་པ་ན། །ཕ་མེས་བཟང་ཡང་རང་མགོ་ཞན། … །ཚེ་སྟོད་བཟང་ཡང་ཚེ་སྨད་ངན།»: for each
 reckoned, lay the verdict examining with intelligence; and where the
@@ -3713,41 +3716,13 @@ to conclude.
 
 ### Open
 
-- Question: «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན» (WB vol. 1, p. 435, l. 16–17,
-  img. 445; the reprint img. 430): is the trigram of the fifth pebble
-  "the trigram of the date in its own month", and how is the tiger,
-  horse and dog "counted on Li" for each of the year, month, day and
-  hour (the notes, p. 497, repeat the words and add «སོགས»)?
-- Question: which are the notes' seven (vol. 2, p. 497, l. 11,
-  «ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the life force of the year, month and
-  day of falling ill, the hour's power, the descending trigram and mewa
-  and the person's kind, as the gloss just before suggests, or WB's five
-  of p. 435 with the person's kind and the time of reckoning?
-- Question: how do p. 438's "a third and two thirds: an illness of
-  spirits and conditions" and the notes' example (two, two, three of
-  seven: iron's illness, the greater share) agree; is the rule of p. 438
-  for two elements only?
-- Question: what are WB's classes «སུམ་ཆས», «བཞི་ཆས», «ལྔ་ཆས», «དྲུག་ཆས»
-  «ལྷག་དཀར» / «ནག» and «དཀར་ནག་ཕྱེད་མ» (vol. 1, p. 425) as counts of the
-  fifteen? The notes (vol. 2, p. 496) give six white and nine black as
-  «སུམ་ཆས་ལྷག་ནག» and say "three more is like a third, four like a
-  fourth"; but a difference among fifteen is always odd, and WB lists the
-  classes from a third more white through a sixth, half, and a sixth to a
-  third more black, an order that runs from the whitest to the blackest
-  only if "a third more" is more than "a sixth more". With the pebble
-  door counted, with speckled pebbles left out, or by "joining on top of
-  an even split" as the view the notes report has it?
-- Question: what do p. 425's labels say, «ཁྲ་བོའི་དཀར་པོ», «ཁྲ་བོའི་ཁྲ་བོ»,
-  «ཁྲ་བོའི་ནག», «ནག་པོའི་དཀར», «དཀར་པོའི་ནག», «དཀར་ཁྲ» (the white, speckled
-  and black of the white, speckled and black: a grade of each class?),
-  and what are «ལྔ་སུམ་གཅིག་གི་ནད» (p. 425, l. 10) and the line
-  «གདགས་སྲིབས་གོ་ལོག་ཐང་ཤིང་འབྲས། །མ་བབས་…» (l. 6–7)?
-- Question: the fever printed «[རྙོངས]» (p. 435, l. 26; Yigdzin-1 of the
-  reprint «སྟོངས»): is it the turbid fever (རྙོགས་ཚད, rnyogs tshad), and
-  is «[ཉ]་བཞི་ན་ལ» (l. 21; etext «ཞྭ་བཞི») a word for the four limbs or
-  joints?
-- Question: «བླངས་ལན་པའི» (the notes, p. 497, l. 2): what does the phrase
-  say of the breath taken?
+- Open question 226 ([open-questions.md](open-questions.md)): the fifth pebble's trigram.
+- Open question 227 ([open-questions.md](open-questions.md)): the notes' seven elements.
+- Open question 228 ([open-questions.md](open-questions.md)): a third and two thirds.
+- Open question 229 ([open-questions.md](open-questions.md)): the nine classes as counts of the fifteen.
+- Open question 230 ([open-questions.md](open-questions.md)): p. 425's labels.
+- Open question 231 ([open-questions.md](open-questions.md)): «རྙོངས» and «ཉ་བཞི».
+- Open question 232 ([open-questions.md](open-questions.md)): «བླངས་ལན་པའི».
 - Doubt, not settled on the scan: p. 435, l. 28, «[རུས]་ལ་ཞེན» (both
   prints' Yigdzin-1 «རུས», MITRA «དུས», the reprint's stack not clear);
   l. 21, «[ཉ]་བཞི་ན» (Yigdzin-1 «ཉ་བཞིན», MITRA and the etext «ཞྭ་བཞི་ན»); p. 452, l. 15–16, the name broken over

@@ -2434,6 +2434,7 @@ the text, not about the app.
      P. 349, «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར», which reckoning is meant?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
      *Narrowed 2026-10-20 ([verdicts.md](verdicts.md), RD24, on the scan): the same line closes ch. 24 too (p. 416, img. 426, l. 2), before each chapter's colophon; the notes call the year of age's sixth root pebble "the hour at the time the reckoning is made" (vol. 2, p. 490), and the illness notes ask for the time of reckoning too (p. 497, etext).*
+     *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD22, on the scan): the illness notes' call for the hour of reckoning (vol. 2, p. 497) reads so on the Gser thang reprint too.*
 182. **«འཛོམས» or «འཇོམས» (the notes, vol. 2, p. 484).**
      The notes, p. 484, «ཉ་སྐར་དང་[འཛོམས]་པ་སྟེ་ཚེས་བཅོ་ལྔ་ལ་བཙས་པ»: «འཛོམས»
      or «འཇོམས» (the 1996 reading), the full moon meeting its mansion or not?
@@ -2701,3 +2702,55 @@ the text, not about the app.
      gives ch. 27's five verdicts by domain, and may it stand for ch.
      24? [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
+226. **The fifth pebble's trigram (WB vol. 1, p. 435, ll. 16–17, img. 445).**
+     «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན»: is the trigram of the fifth pebble "the
+     trigram of the date in its own month", and how is the tiger, horse
+     and dog "counted on Li" for each of the year, month, day and hour
+     (the notes, p. 497, repeat the words and add «སོགས»)?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).
+227. **The notes' seven elements (the notes, vol. 2, p. 497, l. 11).**
+     Which are the notes' seven («ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the
+     life force of the year, month and day of falling ill, the hour's
+     power, the descending trigram and mewa and the person's kind, as
+     the gloss just before suggests, or WB's five of p. 435 with the
+     person's kind and the time of reckoning?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).
+228. **A third and two thirds (WB vol. 1, p. 438; the notes, vol. 2, p. 497).**
+     How do p. 438's "a third and two thirds: an illness of spirits and
+     conditions" and the notes' example (two wood, two fire, three iron
+     of seven: iron's illness, the greater share) agree; is the rule of
+     p. 438 for two elements only? [verdicts.md](verdicts.md), "The
+     illness identified: the element that is most" (RD22).
+229. **The nine classes as counts of the fifteen (WB vol. 1, p. 425; the notes, vol. 2, p. 496).**
+     What are WB's classes «སུམ་ཆས», «བཞི་ཆས», «ལྔ་ཆས», «དྲུག་ཆས»
+     «ལྷག་དཀར» / «ནག» and «དཀར་ནག་ཕྱེད་མ» as counts of the fifteen? The
+     notes give six white and nine black as «སུམ་ཆས་ལྷག་ནག» and say
+     "three more is like a third, four like a fourth"; but a difference
+     among fifteen is always odd, and WB lists the classes from a third
+     more white through a sixth, half, and a sixth to a third more
+     black, an order that runs from the whitest to the blackest only if
+     "a third more" is more than "a sixth more". With the pebble door
+     counted, with speckled pebbles left out, or by "joining on top of
+     an even split" as the view the notes report has it?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).
+230. **P. 425's labels (WB vol. 1, p. 425, ll. 6–10).**
+     What do p. 425's labels say, «ཁྲ་བོའི་དཀར་པོ», «ཁྲ་བོའི་ཁྲ་བོ»,
+     «ཁྲ་བོའི་ནག», «ནག་པོའི་དཀར», «དཀར་པོའི་ནག», «དཀར་ཁྲ» (the white,
+     speckled and black of the white, speckled and black: a grade of
+     each class?), and what are «ལྔ་སུམ་གཅིག་གི་ནད» (l. 10) and the line
+     «གདགས་སྲིབས་གོ་ལོག་ཐང་ཤིང་འབྲས། །མ་བབས་…» (ll. 6–7)?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).
+231. **«རྙོངས» and «ཉ་བཞི» (WB vol. 1, p. 435, ll. 21, 26).**
+     The fever printed «[རྙོངས]» (Yigdzin-1 of the reprint «སྟོངས»): is
+     it the turbid fever (རྙོགས་ཚད, rnyogs tshad), and is «[ཉ]་བཞི་ན་ལ»
+     (etext «ཞྭ་བཞི») a word for the four limbs or joints?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).
+232. **«བླངས་ལན་པའི» (the notes, vol. 2, p. 497, l. 2).**
+     What does the phrase «བླངས་ལན་པའི» say of the breath taken?
+     [verdicts.md](verdicts.md), "The illness identified: the element
+     that is most" (RD22).

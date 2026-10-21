@@ -756,3 +756,12 @@ Searched and found wanting, so not to be repeated:
   (f. 17b–18a) and the dead's verdicts by domain (f. 29a). KD vol. 3's
   print, pp. 486, 498, 501, 506, 509–510 (lent scans): nothing in the
   closes beyond DZ's; it differs in headings and a few words only.
+- **A rule for the whole illness reckoning** (RD22, 2026-10-21): the WB
+  etext, vol. 1, pp. 417–452, and the notes, pp. 495–499: «ཤས་ཆེ», «གང་མང»,
+  «སུམ་ཆ», «ཕྱེད་མ», «ཆས་ལྷག», «ཁ་དམར»: no rule beyond those quoted in
+  verdicts.md (RD22); «གང་མང» in ch. 25 only on pp. 435, 438 and 445,
+  «ཆས་ལྷག» only on p. 425; no rule for four trigrams of four elements and
+  none tying the five-pebble element to the board's verdicts. No worked
+  example of the illness identified (times, trigrams and the five
+  pebbles laid) in ch. 25 or the notes: «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ» (p. 497)
+  is a split only.
