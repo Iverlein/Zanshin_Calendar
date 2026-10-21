@@ -4421,7 +4421,401 @@ What the passages give for ch. 30:
 
 ## Ch. 20's classes of texts and the deciding texts (RD25)
 
-Nothing read yet: RD25's passages, with the English beside them, go here.
+Read 2026-10-21. WB vol. 1, pp. 242–250 (the 1996 edition, img. 252–260):
+Yigdzin-1 over all nine pages (from RD10), MITRA over all nine as
+witness, `disagree.py`'s flags within the passages quoted below read on
+the scan (those outside them not), and the passages read line by line on
+the Gser thang reprint of the same typesetting
+(I3CN5028, img. 237–245, image = page − 5, 2,058 px; its page numbers
+242, 245, 247, 248, 249 and 250 checked on the scan); a few lines again
+on the 1996 scan (img. 253, 255, 258). Where the reprint and the machine
+readings part, the reprint is given. The titles were then looked up in
+BDRC's catalogue and full-text search, and the parts of the collections
+that hold old Chinese-reckoning texts listed from BDRC's outlines. Nor
+brang O rgyan's (ནོར་བྲང་ཨོ་རྒྱན, nor brang o rgyan) history of the Chinese
+reckoning, the *Essence of Mañjughoṣa's Intent* (འཇམ་མགོན་དགོངས་བཅུད, 'jam mgon
+dgongs bcud), a modern prose restatement of this
+chapter (KD vol. 1, pp. 637–645, etext pp. 653–662), is used only where it
+settles how a line of WB is to be parsed, and is not quoted beyond that.
+
+The *Moonbeams*' side of these pages (the condensed instructions in six
+rounds, p. 249, and the *Clear Lamp*'s root and commentary named) is
+RD27's, part 4 above; it is not repeated here.
+
+### 1. The five classes and the six summaries (p. 242, img. 252; p. 243, img. 253)
+
+At the close of the Chinese starting points (the last four lines of
+p. 242 and the first two of p. 243; reprint img. 237–238, on the scan):
+
+> འདི་དང་མི་མཐུན་རྒྱས་པ་ཡི། །རྒྱ་བོད་སྐོར་འགོ་བརྒྱད་མ་གཉིས། །སྔོན་བྱོན་མཁས་པས་མཛད་པར་མངོན། །གཞན་ཡང་མི་འདྲའི་ཚུལ་ནི་མང་། །རྩིས་ཀྱི་སྒོ་མ་བརྒྱད་ཁྲི་དང་། །བཞི་སྟོང་ཡོད་མོད་མདོར་བསྡུ་ན། །རྒྱུད་སྡེ་སུམ་བརྒྱ་དྲུག་ཅུ་དང་། །དེ་ཡང་ཉེ་བར་བསྡུས་པ་ལྔ། །ཕྱི་རྒྱུད་ནང་རྒྱུད་གསང་རྒྱུད་གསུམ། །ཡང་གསང་ཐུགས་ཀྱི་རྒྱུད་དང་བཞི། །སྤྱི་རུ་ལོངས་པའི་རྒྱུད་དང་ལྔ། །འབྱུང་བའི་སྐོར་འགོའི་གྲངས་ཚིག་སྟོང་། །དྲུག་བརྒྱ་དང་ནི་རྩ་བཞི་སྟེ། །དེ་ཡང་བསྡུས་པ་རྣམ་པ་དྲུག །སྤར་ཁ་སྨེ་བ་དར་གུད་དང་། །ལོ་ཟླ་གཟའ་སྐར་ཟངས་ཀྱམ་དྲུག །དེ་ཡང་འབྱུང་བ་ལྔ་ལ་འདུས། །མ་ལུས་ཀོང་ཙེ་འཕྲུལ་རྒྱལ་ལ། །གསུངས་ཤིང་…
+
+Unlike this, an expanded set of two eights of Chinese and Tibetan
+starting points is seen to be the work of earlier scholars, and there
+are many other ways. The doors of reckoning are 84,000; in brief, 360
+classes of tantra (རྒྱུད་སྡེ, rgyud sde), and these gathered closer still
+into five: the outer, inner and secret tantras, three; the most secret
+tantra of the mind, four; and the tantra that gathers them in general,
+five. The starting points of the elements number 1,604, and these gathered
+are six: the trigram (སྤར་ཁ, spar kha), the mewa (སྨེ་བ, sme ba), rise and
+decline (དར་གུད, dar gud), the year and month, the planets and mansions,
+and the copper vessel (ཟངས་ཀྱམ, zangs kyam); and these gather into the
+five elements, all of it taught to Confucius (ཀོང་ཙེ་འཕྲུལ་རྒྱལ, kong tse
+'phrul rgyal; open question 21).
+
+So the "five classes" are classes of tantras, not of works on the
+reckoning's steps, and the "six summaries" here are six fields of
+reckoning (trigram, mewa, rise and decline, year and month, planets and
+mansions, copper vessel). **No deciding or verdict is among either.**
+The reprint and the 1996 scan read «སྒོ་མ», «དར་གུད» and «ཟངས་ཀྱམ» (Yigdzin-1
+«ཟངས་ཀྱུམ»); Nor brang restates the six in the same order (KD vol. 1,
+etext p. 654, l. 3–4). The word itself is in the chapter once before
+these pages, in WB's gloss of the word for the science of reckoning, *gtsug lag*
+(གཙུག་ལག, gtsug lag) (p. 238, img. 248, etext only:
+«ལག་ནི་གཡབ་མོས་བཏང་གཅོད་ཕྱིར», "*lag*, because it decides by beckoning"),
+the deciding as what the reckoning does. Pp. 243–247 (img. 253–257) list
+the translations wave by wave and the treasure texts; on p. 244
+(img. 254, Yigdzin-1 and MITRA, not read on the scan) no title names the
+deciding, and the lines of pp. 245–247 quoted below are the only ones
+that do.
+
+### 2. The deciding among the translated tantras (p. 245, img. 255; p. 246, img. 256)
+
+WB lists what each wave of translation brought. The first of the middle
+translation (བར་འགྱུར, bar 'gyur), from a Chinese abbot at a Tibetan
+scholar's request (p. 245, l. 1–10; reprint
+img. 240, on the scan, the editors' numbers as printed):
+
+> བར་འགྱུར་ཐོག་མ་རྒྱ་ནག་གི། །མཁན་པོ་ཤེས་རབ་བླ་མ་ལ། །མཁས་པ་བེར་སྔོན་ཅན་གྱིས་ཞུས། །སྤར་ཁའི་རྒྱུད་བརྒྱད་གསེར་འགྲེལ(༡)དང་། །ཕུང་གྱོད་ལེ་ལེན(༢)སྡོམ་ཚིག་རྒྱུད(༣)། །འབྲུ་འགྲེལ་མདོ་གཅོད(༤)བཏང་གཅོད(༥)དང་། །འབྱམས་ཡིག་མདོ་འགྲེལ(༦)འབྱུང་སྡེ་བརྒྱད(༧)། །འཕྲུལ་ཡིག་རྩ་བའི་རྒྱུད(༨)དང་བརྒྱད། །སྨེ་བའི་དགུ་ལ་དགུ་ལི་གསང(༡)། །ཧ་ལོ་འབར་བ(༢)རྒྱའི་དར་ཚགས(༣)། །ཁྲ་བོ་ཚོལ་པ(༤)དམར་ནག་ཁྲོམ(༥)། །དཀར་པོ་སྤྱི་གཅོད(༦)སེར་ནག་འབར(༧)། །ཁྲ་བོ་མེ་འབར(༨)མེ་ལོང་ཁྲ(༩)། །ལོ་རྒྱུས་ལྔ་ལ་གཙུག་ལག་འཕྲུལ(༡)། །གློག་ཕྲེང(༢)མཁའ་འགྲོའི་གཙུག་ལག(༣)དང་། །འབྱུང་བ་དཔའ་ཆད(༤)སུམ་བརྒྱ་དང་། །དྲུག་ཅུ་སྲོག་རྒྱུད(༥)རྩ་བ་ཡི། །རྒྱུད་དང་ལེ་ཞུར་བཅུ་གཉིས་ལ། །སོ་སོ་ལ་ཡང་རྒྱུད་རེ་དང་། །དར་གུད་ལ་ནི་རྒྱུད་གསུམ་སྟེ། །འཕྲུལ་གྱི་གོ་བྱེད་བཏང་གཅོད་ནག །མེ་ལོང་གསལ་བ་དང་གསུམ་མོ། །གཏོ་ལ་གཏོ་རྒྱུད་ནག་པོ་དང་། །གཤིན་ལ་དྲ་བ་གློག་འགྱུ་དང་། །གཟེར་བུ་ནག་པོ་ཞེས་བྱ་བ། །ས་ལ་དྲ་བ་འགྲེལ་ཆེན་དང་། །འཕྲུལ་ལེ་བརྟག་དང་ཐུགས་གའུ། །གཟའ་ལ་སྒྲོ་ར་འདོད་སོགས་བརྒྱད། །སྐར་མར་འཕྲུལ་སྣང་ལ་སོགས་བརྒྱད། །འབྱུང་ལྔར་ཕྱག་ན་རྡོ་རྗེ་ཡི། །ཞུ་ལེན་ལྔ་དང་དེའི་འགྲེལ་པ། །…
+
+The eight tantras of the trigram: the golden commentary (1), two more
+(2, 3), the word commentary that settles the sūtras (4), **the deciding**
+(བཏང་གཅོད, btang gcod; 5), a sūtra commentary (6), the eight classes of
+elements (7) and the root tantra of the magic letters (8): eight. Then
+the mewa's nine, and five histories, the tantras of the root; for the
+twelve further chapters (ལེ་ཞུར, le zhur), a tantra each. **For rise and
+decline, three tantras: the *Magic Explainer* (འཕྲུལ་གྱི་གོ་བྱེད, 'phrul gyi go
+byed), the *Black Deciding* (བཏང་གཅོད་ནག, btang gcod nag) and the *Clear
+Mirror* (མེ་ལོང་གསལ་བ, me long gsal ba).** For the rites, the *Black Rite
+Tantra*; for the dead, the *Net of Moving Lightning* and the *Black
+Nail*; for the ground, the *Great Commentary Net*, the *'Phrul le
+brtag* and the *Heart Amulet*; for the planets eight, for the mansions
+eight, for the five elements Vajrapāṇi's five questions and answers with
+their commentary.
+
+Nor brang parses the rise-and-decline line the same way, three titles,
+writing the second in full: «དར་གུད་འཕྲུལ་གྱི་གོ་བྱེད། བཏང་གཅོད་ནག་པོ། མེ་ལོང་གསལ་བ་སྟེ་དར་གུད་གྱི་རྒྱུད་གསུམ།» (KD vol. 1, etext pp. 653–654), and the
+trigram's fifth as «བཏང་གཅོད» alone. Two prints of the blocks keep the line,
+by BDRC's OCR only: the Zhol print (WBZ etext, "'phrul gyi go byed btang
+yod/ ga zhag") and its other impression (MW4CZ74207, "'phrul gyi go byed
+btang gcod pa dang / bde leng gsal ba"); the scans could not be fetched
+(BDRC's image server answered 503 on 2026-10-21), so whether a block
+print reads «བཏང་གཅོད་པ» for «བཏང་གཅོད་ནག» stays a doubt.
+
+In the later middle translation's list (p. 245, last line, to p. 246,
+l. 1; reprint img. 240–241, on the scan) a text named for the verdict
+itself:
+
+> …བཀྲ་རྟགས་གསེར་ལེ་བསམ་ཀ་གསུམ། །ཁ་དམར་བསམ་ཀ་བི་ཧོ་དང་། །ས་དཔྱད་ཀཾ་ཀ་བི་ཤ་དང་། །གཤིན་རྩིས་སྡེ་ཆེན་སྡེ་ཆུང་སོགས། །བསྒྱུར་ནས་སྤལ་གྲགས་སེང་གེ་དང་། །སྙན་པ་ཡེ་ཤེས་སེང་གེར་བཤད།
+
+… three works of auspicious signs, a work of the verdict (ཁ་དམར, kha dmar)
+named *Bsam ka bi ho* (བསམ་ཀ་བི་ཧོ, bsam ka bi ho; a transcription whose sense WB does not
+give), one of geomancy, the greater and lesser classes of the reckoning for the dead
+and others were translated and taught to two Tibetan disciples. WB says
+nothing more of it; BDRC has it only in WB's
+prints (below).
+
+So WB knows three deciding texts by name, all among the Chinese works
+translated before its own lineage: the fifth tantra of the trigram, the
+*Black Deciding* among the three tantras of rise and decline, and the
+verdict text *Bsam ka bi ho*; and a fourth in the *Clear Lamp*'s commentary
+(part 4).
+
+### 3. The *Clear Lamp* and its six summaries (pp. 247–248, img. 257–258)
+
+Duhar Nagpo (དུ་ཧར་ནག་པོ, du har nag po), the Chinese master who saw
+Mañjuśrī, gathered the *Precious Clear Lamp* (རིན་ཅེན་གསལ་བའི་སྒྲོན་མེ, rin chen
+gsal ba'i sgron me) out of all the tantras (p. 247, last lines, to p. 248,
+l. 6; reprint img. 242–243, on the scan):
+
+> …དེ་དག་རྣམས་ལས་ཁྱད་ཆེ་བའི། །རིན་ཅེན་གསལ་བའི་སྒྲོན་མེ་ནི། །སློབ་དཔོན་དུ་ཧར་ནག་པོ་ཞེས། །ཕུན་ཚོགས་ཡོན་ཏན་དུ་མས་ཕྱུག །འཕགས་པ་འཇམ་དཔལ་ཞལ་གཟིགས་པ། །དྲང་སྲོང་བཀའ་ལུང་མ་ལུས་ཐོབ། …(p. 248)… །དབྱེ་ལ་གཙུག་ལག་གཞུང་ལུགས་ནས། །ཞོ་ལས་མར་དཀྲོགས་ཇི་བཞིན་དུ། །རྒྱུད་སྡེ་ཀུན་ལས་བསྡུས་པ་ཡི། །རིན་ཅེན་གསལ་བའི་སྒྲོན་མེ་ཞེས། །བསྡུས་དོན་རྣམ་པ་དྲུག་ཏུ་འདུས། །ཀེག་དང་བག་མ་གསོན་ལས་ཀྱི། །བྱིས་པ་བཙས་ཀླུངས་བརྩི་བ་དང་། །གཤིན་ཕུགས་ཟངས་ཀྱམ་ས་དཔྱད་དང་། །དགྲ་གཤེད་དང་བཅས་དྲུག་པ་སྟེ། །མདོ་དོན་རྒྱ་ནག་སྐོར་འགོ་ནི། །བཅོ་ལྔ་མཛད་ཅིང་དུ་ཧར་གྱིས། །…
+
+Greater than all those is the *Precious Clear Lamp*: the master Duhar
+Nagpo, rich in qualities, who saw the noble Mañjuśrī's face and received
+the sages' word entire, … from the treatises of the *gtsug lag*, as butter
+is churned from curd, gathered from all the tantras the *Precious Clear
+Lamp*, which comes to six summaries (བསྡུས་དོན, bsdus don): the obstacles,
+the bride, the living's karma reckoning of a child's birth luck, the dead's
+fate by the copper vessel, geomancy, and the enemy-slayer, six; and he
+made the fifteen Chinese starting points of the sūtras' meaning … Nor
+brang names the six as reckonings, settling the count (keg rtsis; bag
+rtsis; gson gyi las rtsis byis pa btsas klungs; gshin gyi zangs kyam
+rtsis; sa dpyad kyi rtsis; dgra gshed kyi rtsis; KD vol. 1, etext p. 659).
+**Again no summary is the deciding**: the six are the reckonings the
+deciding is done within.
+
+### 4. The *Clear Lamp*'s books: the five great tantras, the six treatises, the twenty commentaries (pp. 248–249, img. 258–259)
+
+The *Clear Lamp* of the later translation in its five rounds, the
+expanded text first (p. 248, l. 11 to the end, and p. 249, l. 1–4;
+reprint img. 243–244, on the scan, the editors' numbers as printed):
+
+> ཡང་འགྱུར་གསལ་སྒྲོན་ཞེས་གྲགས་ལ། །སྤྲོས་པ་གཞུང་དང་བསྡུས་མན་ངག །གསང་བ་ལྡེ་མིག་སྦས་མཛུབ་ཚུགས། །ཉིང་ཁུ་ཤོག་ཁྲའི་སྐོར་དང་ལྔ། །ཞེས་པ་སྤྲོས་པའི་གཞུང་སྐོར་ལ། །བཀའ་དང་བསྟན་བཅོས་གཉིས་ཡོད་པའི། །བཀའ་ལ་རྒྱུད་ཆེན་ལྔ་བཞུགས་ཏེ། །འབྱུང་བ་གསལ་བའི་སྒྲོན་མའི་རྒྱུད། །ཕྱི་མ་དང་ནི་བཅས་པ་སྟེ། །བཤད་རྒྱུད་གསོན་པོའི་རྩིས་ཀྱི་རྒྱུད། །དགོས་འདོད་འབྱུང་བ་གཤིན་རྩིས་ལ། །དུར་མཛོད་གསང་བ་ས་དཔྱད་ཀྱི། །རིན་ཅེན་སྤུངས་པ་དགྲ་གཤེད་རྒྱུད། །གྱིམ་ཤང་ནག་པོ་རྣམ་པ་ལྔ། །དེ་བརྟེན་དུ་ཧར་ནག་པོ་ཡི། །བསྟན་བཅོས་རྣམ་པ་དྲུག་ཡོད་པ། །རྩ་བ་སྐབས་དོན་ལྔ་པ(༡)དང་། །འགྲེལ་པ་རྩ་འགྲེལ་ཉི་ཤུ་པ(༢)། །མན་ངག་གནད་བསྡུས་གསང་བ་ཡི། །ཊཱི་ཀ་བཅུ་གཅིག(༣)གནས་སྐབས་ཀྱི། །གེགས་སེལ་རིན་ཅེན་མཆོང་ཡང་གསུམ(༤)། །གཏོ་རྒྱབ་སྤྱི་ཡི་ཆོ་ག་གསུམ(༥)། །སྲོག་དཔལ་སྲིད་གསུམ་གཟུགས་པ་ཡི། །དགོས་ཕུར་གསུམ་མོ(༦)དེ་ཉིད་ལ། །རྩ་བ་ལྔ་སྟེ་སྐོར་འགོ་སྤྱི། །དར་གུད་བརྩི་དང་དུར་མཛོད་རྩིས། །བཟང་ངན་ས་དཔྱད་ངན་ཐབས་ཀྱི། །དགྲ་གཤེད་བརྩི་དང་ལྔ་རུ་འདོད། །འགྲེལ་པ་ཉི་ཤུ་རིམ་པ་ལྟར། །སྤྱི་ཚང་འགྲེལ་པ་མདོ་དོན་བདུན(༡)། །སྐྱེས་སྨེའི་འགྲེལ་པ་འབྱུང་རིན་ཅེན། །སྐྱེ་གནས་ཚང་གསལ་ཞེས་བྱ(༢)དང་། །བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ(༣)དང་། །གཉེན་སྦྱོར་འགྲེལ་པ་མཐུན་སྦྱོར་བཅུ(༤)། །བག་འགྲེལ་འགྲོ་ལམ་བཀྲ་ཤིས(༥)དང་། །རྩུབ་འགྲེལ(༦)རྩ་བའི་རྡེལ(༧)བཞི་འགྲེལ། །ཕྱི་སྐོར་འགྲེལ་པ་དྲི་མེད་སྒྲོན(༨)། །སྨེ་བར་འགྲེལ་པ་ཁྲ་གླིང་གསལ(༩)། །སྤར་ཁའི་རང་འགྲེལ་བརྒྱད་པ(༡༠)དང་། །གསང་སྐོར་དར་གུད་འགྲེལ་པ་ནི། །འཕྲུལ་གྱི་མེ་ལོང(༡༡)ནད་འདྲེའི་འགྲེལ། །མཐོང་བའི་མེ་ལོང་བུ་ཀླུངས(༡༢)ཀྱི། །འགྲེལ་པ་འབྱུང་བ་འདུས་པ(༡༣)དང་། །བླ་རྡེལ་འགྲེལ་པ་ཟངས་ཀྱམ་གསལ(༡༤)། །རོ་འགྲེལ་ནག་པོ(༡༥)ཆུང་དུར་གྱི། །འགྲེལ་པ་གསང་བ་ཡང་འཁོལ(༡༦)དང་། །རོ་ལམ་འགྲེལ་པ་ལྷ་རྒྱུད(༡༧)གསལ། །གཏོ་ཆོག་གསོ་གཅོད་སྣང་བའི་འགྲེལ(༡༨)། །ས་དཔྱད་འགྲེལ་པ(༡༩)མཐོང་སྒོ་དབྱེ། །ངན་ཐབས་འགྲེལ་པ་གསང་བ་ཡི། །དགྲ་གཤེད་ཉི་ཤུ་ཐམ་པའོ(༢༠)།། ཊཱི་ཀའི་རིམ་པ་མན་ངག་ནི། །བཅུ་གཅིག་གནད་བསྡུ་གཏན་ཚིགས(༡)དང་། །གཉེན་སྦྱོར(༢)བག་མ(༣)སྤར་ཁ(༤)གཏོ(༥)། །བུ་ཀླུངས(༦)གཤིན(༧)དང་ཆུང་དུར(༨)དང་། །ས་དཔྱད(༩)དགྲ་གཤེད(༡༠)སྤྱིར་གཅེས་པའི། །གལ་གྱི་མིག་ཚགས(༡༡)བཅས་པ་དང་། །མཆོང་གསུམ་གསད་པ་ལས་མཐའི་མཆོང(༡)། །ར་ལ་བརྟེན་ནས་བཟློག་པའི་མཆོང(༢)། །གཤིན་ལ་ཕན་གདགས་ལས་ཀྱི་མཆོང(༣)།། གཏོ་རྒྱབ་སྤྱི་ཡི་ཆོ་ག་གསུམ། །མཁའ་འགྲོ་ལས་ཀྱི་མཐའ་བརྒྱད(༡)དང་། །ས་བདག་དོང་ཙེ(༢)འབྱུང་གྱེར་གཏོ(༣)། །…
+
+The five rounds: the expanded text, the condensed instructions, the
+secret key, the hidden finger-pointing (སྦས་མཛུབ་ཚུགས, sbas mdzub tshugs)
+and the round of the essence sheets. (WB gives the secret key and the
+finger-pointing a paragraph each on p. 249, and Nor brang counts them as
+two rounds, etext p. 659, so the five are these; RD27 above read the
+third line as one round.) The expanded text is the Word and the
+treatises. The Word is five great tantras: the tantra of the *Lamp that
+Clears the Elements* (འབྱུང་བ་གསལ་བའི་སྒྲོན་མ, 'byung ba gsal ba'i sgron ma)
+with its later tantra; the explanatory tantra of the reckoning of the
+living, the *Source of Needs and Wishes*; for the reckoning of the dead,
+the *Secret Treasury of Graves*; for geomancy, the *Heap of Jewels*; the
+enemy-slayer's tantra, the *Black Gyimshang* (གྱིམ་ཤང, gyim shang): five. On them rest Duhar
+Nagpo's six treatises: (1) the root in five topics; (2) the commentary,
+the root's commentary in twenty; (3) the instructions gathering the key
+points, the eleven secret ṭīkā; (4) for occasions, the obstacle-clearing
+precious leaps (མཆོང, mchong), three; (5) the general rites of the *gto
+rgyab* (གཏོ་རྒྱབ, gto rgyab), three; (6) the purpose-pegs (དགོས་ཕུར, dgos phur) planting life,
+glory and existence, three. The root's five are the general starting
+points, the reckoning of rise and decline, the reckoning of the treasury
+of graves, good and bad geomancy, and the reckoning of the enemy-slayer of
+harmful means. **The twenty commentaries in order:** (1) the general
+commentary, the *Seven Meanings of the Sūtras*; (2) the commentary on
+the birth mewa, *Precious Elements, the Birth Places All Made Clear*; (3)
+**the *Lamp of the Magic of Deciding* (བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ, btang gcod
+'phrul gyi sgron me)**; (4) the marriage commentary, the *Ten Harmonies*;
+(5) the bride's commentary, the *Auspicious Road*; (6) the commentary on
+the harsh; (7) the commentary on the four root pebbles; (8) the outer
+round's commentary, the *Stainless Lamp*; (9) for the mewa, the *Speckled
+Continent Made Clear*; (10) the trigram's own commentary in eight; (11)
+for the secret round, the commentary on rise and decline, the *Magic
+Mirror*; (12) the commentary on illness and demons, the *Mirror of
+Seeing*; (13) the commentary on the children's luck, *Elements Gathered*;
+(14) the commentary on the la pebbles (བླ་རྡེལ, bla rdel), *The Copper
+Vessel Made Clear*; (15) the commentary on corpses, the *Black*; (16) the
+commentary on the small graves, *Secret and Again Servant*; (17) the
+commentary on the corpse's road, *The Divine Lineage Made Clear*; (18)
+the commentary on the rites that heal and cut, *Appearance*; (19) the
+geomancy commentary, *Opening the Door of Seeing*; (20) the secret
+commentary on harmful means, the *Enemy-Slayer*: twenty in all. The
+eleven ṭīkā of instructions: the reasons (1), the marriage (2), the bride
+(3), the trigram (4), the rites (5), the children's luck (6), the dead
+(7), the small graves (8), geomancy (9), the enemy-slayer (10), and the
+*Important Sieve* (གལ་གྱི་མིག་ཚགས, gal gyi mig tshags), precious in general
+(11). The three leaps are for killing, turning back by the ram, and
+helping the dead; the three general rites, the *ḍākinīs*' eight
+activities, the earth lord *dong tse* (དོང་ཙེ, dong tse) and the elements' chanted rite.
+
+**The deciding has a commentary of its own, the third of the twenty,
+and nowhere else in the *Clear Lamp*'s books is it named**: not among the
+five tantras, the five roots, the eleven ṭīkā or the six summaries. Its
+place, after the general commentary and the birth mewa and before the
+marriage and the bride, suggests a step common to the reckonings rather
+than a reckoning of its own; WB says nothing of what it contains. Nor brang lists
+the same twenty in the same order (KD vol. 1, etext pp. 659–660). The reprint (and the 1996 etext) read «ཁྲ་གླིང་གསལ» for the ninth (Yigdzin-1
+«ཁུ་གླིང»; Nor brang «ཁྲ་མོ་གླིང་གསལ»).
+
+### 5. What was hidden, and what WB withholds (pp. 249–250, img. 259–260)
+
+After the essence sheets (p. 249, l. 21 to the end, and p. 250, l. 1–6;
+reprint img. 244–245, on the scan):
+
+> …དེ་སོགས་གཅེས་དོན་མན་ངག་ཚོགས། །མ་བུ་ཆ་ལག་ཀུན་ཚང་རྣམས། །ལོ་ཙཱ་ཁམས་པ་ཁྲ་མོ་དེས། །མཁས་པ་རལ་བྷཻ་ར་བཛྲ། །ཞེས་པ་འཕན་ཡུལ་བྱུང་ལ་གསུངས། །དེ་ཡིས་རུ་མཚམས་ཤོངས་པ་བ། །སྨོན་ལམ་ལ་བཤད་དེ་ཉིད་ཀྱིས། །ཀུན་ལ་སྤེལ་བར་མ་བཟོད་པར། །རྒྱུད་ཆེན་ལྔ་བཏོན་སྦས་པ་དང་། །རྩ་བ་སྐབས་དོན་ལྔ་པ་ཡི། །གལ་ཆེའི་སྐོར་འགོ་གཅིག་དོར་ཞིང་། །སྐབས་གསུམ་བཞིར་བགོས་ས་དཔྱད་ཀྱི། །རྩ་བ་གཉིས་ནི་གཅིག་ལ་བསྒྲིལ། །སྤར་ཁ་ས་བདག་འགྲེལ་གསུམ་བགོས། །ནད་འདྲེ་གཤིན་དང་གཏོ་ཡི་འགྲེལ། །སྦས་ཤིང་རྩ་འགྲེལ་དཀྲུགས་པ་དང་། །ཤོག་ཁྲ་གལ་ཆེ་གྱེར་གཏོ་ཆེན། །ས་བདག་དོང་ཙེ་ལྷན་ཐབས་ལྔ། །རྩ་བའི་ས་གཅོད་མེ་ལོང་གཅིག །བཅད་སོགས་དྲུག་ཅུ་སྐོར་བ་འམ། །སྦས་བཅད་ཅན་གྱི་ལུགས་ཞེས་པའི། །གསལ་སྒྲོན་མ་དག་རྩིས་ཀྱི་རྒྱུད། །ཡ་ཙ་བ་དང་ལྷོ་བྲག་པ། །མར་པ་སྦྲུལ་མགོ་ལ་སོགས་པས། །ཡོངས་ལ་བསྒྲགས་ཤིང་དར་རྒྱས་མཛད། །སྦས་བཅད་མེད་པའི་དག་པའི་ལུགས། །འཕན་ཡུལ་ར་ལ་བྷེར་བཛྲ། །མལ་ཟེ་གླན་དང་སེ་སྟོན་ཁྲི། །མྱོས་སྟོན་རྒྱང་ཡོད་རྒྱ་སྟོན་དང་། །ཞང་དང་དེ་ཡི་མཁས་པའི་མཆོག །ཁྱུང་ནག་ཤཱཀ་དར་ལ་གསུངས་ཤིང་། །…
+
+These precious instructions, mothers, sons and parts complete, the
+translator Khampa Tramo (ཁམས་པ་ཁྲ་མོ, khams pa khra mo) taught to a scholar
+of 'Phan yul, who taught a disciple of Ru mtshams, who, not bearing to spread it to all, took out and hid the five
+great tantras, dropped one important starting point of the root in five
+topics, split the topics («སྐབས་གསུམ་བཞིར་བགོས», the third into four, or three
+into four: below, *Open*), bound geomancy's two roots into one, divided
+the trigram and earth lord commentary into three, hid the commentaries
+on illness and demons, the dead and the rites and scrambled root and
+commentary, and cut the important sheets, the great chanted rite, the
+five supplements of the earth lord *dong tse*, the one mirror of the
+root's ground-cutting and the rest, some sixty rounds: the tradition
+"with the hidden and the cut" (སྦས་བཅད་ཅན, sbas bcad can), an impure tantra
+of the *Clear Lamp*'s reckoning, which three named masters proclaimed and spread. The pure tradition,
+without them, went from the same scholar of 'Phan yul through six masters
+to their best, Khyungnak Shakdar (ཁྱུང་ནག་ཤཱཀ་དར, khyung nag shAk dar), and on
+to the Phugpa line. Nor brang reads «སྦས» (hid) as the reprint does (Yigdzin-1 «སྤས» on the
+1996 page), and the 'Phan yul scholar's name «རལ་བྷེ་ར་བཛྲ», where the reprint's
+p. 249 looks like «རལ་བྷཻ» (KD vol. 1, etext pp. 661–662).
+
+The chapter's close (p. 250, l. 14–20; reprint img. 245, on the scan):
+
+> …འོན་ཀྱང་གྱིམ་ཤང་ལ་བརྟེན་པའི། །ངན་བྱེད་གཏོ་བཅོས་དུ་མ་དང་། །རྩ་བའི་ས་གཅོད་མེ་ལོང་སོགས། །སྙིང་འདྲའི་ཤིན་ཏུ་གཅེས་པ་ཡི། །མན་ངག་ཟབ་པ་འགའ་ཡོད་ཀྱང་། །རང་ཚུགས་བཟུང་ལ་རྩུ་བག་གི། །ཟོག་པོ་གཏད་ཁྲོམ་ཆོད་མྱུལ་བའི། །ལག་ཏུ་ཤོར་དོགས་འདིར་སྦས་ཤིང་། །དམ་གཙང་སྙིང་འདྲའི་སློབ་བུ་ལ། །འཆང་བའི་ཡིག་ཆ་ལོགས་སུ་བསྟན། །ཞེས་… ཁམས་པ་ཁྲ་མོས་མཛད་པའི་ལོ་རྒྱུས་རིན་ཆེན་རྩ་ཕྲེང་དང་། ཁྱུང་ནག་ཤཱཀ་དར་གྱིས་མཛད་པའི་ལོ་རྒྱུས་རིན་ཆེན་རྩ་ཕྲེང་། ཕུག་པ་མི་ཉག་རྒྱལ་མཚན་དཔལ་བཟང་གིས་མཛད་པའི་སྟོང་ཐུན། ཕུག་པ་ཆོས་རྗེ་བསོད་ནམས་ཚེ་འཛིན་པས་མཛད་པའི་ཁོག་འབུབས་འཆི་མེད་དགའ་བ། ཞང་གི་ཁོག་དོན་གསལ་སྒྲོན་རྣམས་ལ་གཞི་བཅོལ…
+
+Yet there are some deep instructions, dear as the heart, many harmful
+rites resting on the *gyimshang*, the mirror of the root's ground-cutting
+and the like; for fear they fall into the hands of cheats who keep their
+own way and go about deceiving crowds, they are hidden here, and the
+documents to be held by pure-vowed students dear as the heart are taught
+apart. The colophon then names what the chapter rests on: the two
+*Precious Root Garlands of History* (ལོ་རྒྱུས་རིན་ཆེན་རྩ་ཕྲེང, lo rgyus rin
+chen rtsa phreng) of Khampa Tramo and Khyungnak Shakdar, and three more
+accounts of the system's background (ཁོག་འབུབས, khog 'bubs) by Phugpa
+masters and Zhang: histories, not the *Clear Lamp*'s commentaries.
+
+So by WB's own account the *Clear Lamp* came down in a cut and scrambled
+form beside the pure one, and WB itself keeps some of its deepest
+instructions out of the book.
+
+### 6. Whether a deciding text survives
+
+Searched 2026-10-21 in BDRC's catalogue and full-text search
+(`bdrc_search.py`; title records rank before the etext hits), and in
+BDRC's outlines of the two collections that print old Chinese-reckoning
+texts: the *Rare Old Texts of Tibetan Medicine and Astrology*
+(བོད་ཀྱི་སྨན་རྩིས་ཀྱི་དཔེ་དཀོན་དཔེ་རྙིང་ཕྱོགས་བསྒྲིགས, bod kyi sman rtsis kyi dpe dkon dpe rnying
+phyogs bsgrigs; MW2PD17476) and the *Collected Old Texts of Tibetan
+Medicine* (བོད་ལུགས་གསོ་རིག་རྩ་ཆེའི་དཔེ་རྙིང་ཀུན་བཏུས, bod lugs gso rig rtsa che'i dpe rnying
+kun btus; MW2PD17386), whose volumes 73–74 and 28 print the same set.
+
+- **The deciding texts themselves: none found.** No work in BDRC's
+  catalogue carries «བཏང་གཅོད», «སྟངས་གཅོད» or «ཁ་དམར་བསམ་ཀ» in its title. The
+  *Lamp of the Magic of Deciding* is found only in WB's prints (the 1996
+  edition, the Gser thang reprint, the Zhol print, the copy in the
+  *Collected Old Texts*) and in Nor brang's restatement (in KD and in his
+  collected writings, MW1GS66291); the *Black Deciding* and the *Magic
+  Explainer* likewise, with one more restatement in a collection of
+  twelve sections (MW1KG2733, search only). Outside these titles «བཏང་གཅོད»
+  in BDRC is the word for deciding: in the reckoners' manuals (the
+  deciding pebbles, RD18) and in the Four Tantras' chapter on children's
+  illness, «འཚོ་འཆི་བཏང་གཅོད་ཁ་དམར་གདགས», the verdict laid deciding life or death
+  (the Lcags po ri print, MW1KG13115, and MW3CN5036; search snippets).
+- **The *Clear Lamp*'s root in five topics survives as a title**: the
+  *Root in Five Topics, the Lamp Clarifying the Background of the Gtsug
+  lag* (རྩ་བ་སྐབས་དོན་ལྔ་པ་གཙུག་ལག་ཁོག་དོན་གསལ་བའི་སྒྲོན་མེ, rtsa ba skabs don lnga pa gtsug
+  lag khog don gsal ba'i sgron me), 3 ff., in the *Rare Old Texts*
+  (MW2PD17476_B43210, vol. 74, img. 413–418, beside a *Clear Lamp
+  Example* (གསལ་སྒྲོན་དཔེ, gsal sgron dpe) and the *Clear Lamp*'s special
+  instructions) and in the *Collected Old Texts* (MW2PD17386_6117E1,
+  vol. 28, pp. 376–378). By WB its five roots do not include the
+  deciding.
+- **The commentary in twenty survives at least as a title** (open
+  question 222). The Lhasa Mentsikhang's catalogue of its *Great
+  Treasury of Medicine and Astrology* (སྨན་རྩིས་རིག་མཛོད་ཆེན་མོ, sman rtsis rig
+  mdzod chen mo; the catalogue MW4CZ354964, Pe cin 2017, search only)
+  lists under the *Precious Clear Lamp of the Elements* its books: book 1
+  the root in five topics, translated by the Chinese paṇḍita Zla ba nag
+  po and Khampa Tramo; book 4 the *Clear Lamp of the Living* and book 5
+  the *Scattered Clear Lamp*, a translator's name between them; **book 6
+  the commentary in twenty (རྩ་འགྲེལ་ཉི་ཤུ, rtsa 'grel nyi shu), again
+  ascribed to Zla ba nag po and a translator** (the snippet breaks off).
+  One entry's source copy was fetched from the Potala, with a cursive
+  manuscript. Whether book 6 holds a third part on the deciding the
+  snippets do not show.
+- **A commentary in twenty-one chapters ascribed to Duhar Nagpo** is
+  catalogued as the *Little Red Tiger-Head, a Tantra Commentary*
+  (རྒྱུད་འགྲེལ་དམར་ཆུང་སྟག་མགོ, rgyud 'grel dmar chung stag mgo), other title the
+  *Precious Clear Lamp of the Elements* (འབྱུང་བ་རིན་པོ་ཆེ་གསལ་བའི་སྒྲོན་མེ, 'byung ba
+  rin po che gsal ba'i sgron me) (MW1GS66241; 45 ff., in cursive (དབུ་མེད, dbu med), "scanned
+  from a manuscript borrowed by Edward Henning from Zhe chen monastery";
+  scans I1GS66247, which answered empty images on 2026-10-21). BDRC's
+  outline gives its chapters: the year (1), a Chinese reckoning, *kha yan khong
+nong* (ཁ་ཡན་ཁོང་ནོང, kha yan khong nong) (2), the twelve links (3), the *Golden Razor* (4), planting the
+  mewa (5), the trigram's birth places (6), bad luck (7), the condensed
+  instructions (8), the five stones of luck (9), **the four root pebbles
+  (10)**, the trigram's own commentary in eighteen (11), the mewa's
+  *Speckled Continent Made Clear* (12), **rise and decline, the *Magic
+  Sieve* (འཕྲུལ་གྱི་མིག་ཚགས, 'phrul gyi mig tshags; 13)**, the progressed sign's
+  *Stainless Lamp* (14), the seven harsh (15), the nine-multiples and
+  graves (16), a full reckoning for one person (17), the reckoning tree
+  (18), **the Chinese pebble round, *The Black Drop* (ཐིག་ལེ་ནག་པོ, thig le
+  nag po; 19)**, the sky dog (20), the four rounds of the magic eye (21).
+  Five chapter titles match WB's twenty (the four root pebbles, the
+  trigram's own commentary, the *Speckled Continent*, the *Stainless
+  Lamp*, the harsh); **none is the deciding**, and the marriage, the
+  bride, the la pebbles and the dead are not among them.
+- For open question 223, from the same searches: *Dmar chung stag mgo* is
+  that manuscript's own title, one work; *The Black Drop* is its
+  nineteenth chapter, on the Chinese pebble round; the *Magic Sieve* its
+  thirteenth, on rise and decline (and a separate *Magic Sieve of Rise
+  and Decline*, 7 ff., is in both collections, MW2PD17476 vol. 73,
+  img. 419–432, and MW2PD17386 vol. 28, pp. 180–184; WB's ch. 26
+  colophon, vol. 1, p. 472, etext only, ascribes the *Magic Sieve* to
+  Khyung); the *Rolled Ridge* (སྒང་སྒྲིལ, sgang sgril) is Khyungnak Shakdar's
+  work in three sizes, whose meaning WB's ch. 21 says it takes (vol. 1,
+  p. 258, img. 268, etext only), and a practice manual of the *Rolled
+  Ridge* from the *Clear Lamp*, translated by Khampa Tramo in Khyung's
+  tradition, is in the *Collected Old Texts* (MW2PD17386_02A969). The
+  *Nine-Gathering Trunk* (སྡོང་པོ་དགུ་འདུས, sdong po dgu 'dus) is in WB as the
+  general tantra «སྤྱི་རྒྱུད་སྡོང་དགུ་འདུས» translated in the first wave (p. 243,
+  etext) and the root tantra «རྩ་རྒྱུད་སྡོང་པོ་དགུ་འདུས» of the colophon (p. 250, on
+  the scan); no *Heart Nail of the Hidden* was found as a title.
+- Among WB's twenty, the fourth's title survives as the *Ten Harmonies
+  of the Bride Reckoning* (བག་རྩིས་མཐུན་སྦྱོར་བཅུ་པ, bag rtsis mthun sbyor bcu pa),
+  4 ff. in the *Rare Old Texts* (vol. 66, img. 359–380) and 11 ff. in the
+  *Collected Old Texts* (vol. 25, pp. 348–355), among late almanac-makers'
+  tables; whether it is the *Clear Lamp*'s commentary or a later work of
+  that name is not known. WB's source, the *Precious Root Garland of
+  History*, may be the *Precious Root Garland of the Background*
+  (ཁོག་དོན་རིན་ཆེན་རྩར་ཕྲེང, khog don rin chen rtsar phreng) in both collections
+  (MW2PD17476 vol. 73, img. 87–114; MW2PD17386 vol. 28, pp. 64–73).
+- None of these was read: the collections' etexts are search only, and
+  BDRC's image server answered 503, or empty images, for I1GS66247,
+  I4PD636 and WBZ on 2026-10-21.
+
+### What the passages give, in short
+
+- Ch. 20's "five classes" are five classes of tantra (outer, inner,
+  secret, most secret, general) and its "six summaries" six fields of
+  reckoning (trigram, mewa, rise and decline, year and month, planets
+  and mansions, copper vessel; p. 242–243); the *Clear Lamp*'s own six
+  summaries are six reckonings (obstacles, bride, the living's birth
+  luck, the dead's copper vessel, geomancy, enemy-slayer; p. 248).
+  Neither is a step of the deciding.
+- WB names four deciding texts: the trigram's fifth tantra «བཏང་གཅོད» and
+  the *Black Deciding*, one of the three tantras of rise and decline
+  (p. 245), the verdict text *Bsam ka bi ho* (p. 246), and the *Lamp of the
+  Magic of Deciding*, third of the *Clear Lamp*'s twenty commentaries,
+  after the general and the birth-mewa commentaries (p. 248). It
+  says nothing of their content.
+- WB records that the *Clear Lamp* came down hidden and scrambled in one
+  line and whole in another, and that it keeps some instructions out of
+  the book, taught apart to chosen students (pp. 249–250).
+- No deciding text is in BDRC. The *Clear Lamp*'s root survives as a
+  3-folio text in two collections; its commentary in twenty as a title
+  in the Mentsikhang's collection, and a 21-chapter commentary of Duhar
+  Nagpo's in a Zhe chen manuscript with no chapter on the deciding. The
+  rules for the deciding remain those WB's reckoning chapters and Mipham's
+  notes state (RD18, RD26).
+
+### Open
+
+- Question: Is the "commentary in twenty" (rtsa 'grel nyi shu, book 6 of
+  the *Precious Clear Lamp of the Elements*) in the Lhasa Mentsikhang's
+  *Great Treasury of Medicine and Astrology* (its catalogue MW4CZ354964) the commentary in twenty WB lists (vol. 1, p. 248), and
+  does it hold a third part, the *Lamp of the Magic of Deciding*? Under
+  which record is that collection held?
+- Question: Is the Zhe chen manuscript *Little Red Tiger-Head* (MW1GS66241) the *Clear
+  Lamp*'s commentary in another arrangement, and does any of its 21
+  chapters (the four root pebbles, ch. 10; the *Magic Sieve*, ch. 13; the
+  full reckoning for one person, ch. 17) teach the deciding pebble? Its
+  scans (I1GS66247) answered empty images on 2026-10-21.
+- Question: In «སྐབས་གསུམ་བཞིར་བགོས» (vol. 1, p. 249, the hiding of the root in
+  five topics), was the third topic split into four, or three topics
+  into four? Nor brang repeats the words («སྐབས་གསུམ་བཞི་རུ་བགོས»).
+- Doubt, not read on a block print (BDRC's image server down): whether
+  the Zhol print reads «བཏང་གཅོད་ནག» or «བཏང་གཅོད་པ» on p. 245 (its etext and that
+  of MW4CZ74207 are poor). Doubt on the reprint: p. 249 «རལ་བྷཻ» (p. 250 and
+  Nor brang «བྷེ»); p. 249 «རྡིལ་བོར་ཁ་སྤྲང» (cf. open question 67's «ཁ་སྨྲང»), and
+  «གཏོ་ཆོག» where Yigdzin-1 has «གཏོ་ཚོག».
+
+### Searched and not found
+
+- 2026-10-21, BDRC full-text search and catalogue, exact phrases: «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ»
+  (3 hits: WB 1996, Nor brang in KD and in MW1GS66291), «བཏང་གཅོད་འཕྲུལ» (4, the
+  same and the Gser thang WB), «བཏང་གཅོད་ནག་པོ» (3: Nor brang twice, MW1KG2733), «འཕྲུལ་གྱི་གོ་བྱེད» (5: three WB prints, Nor brang, MW1KG2733), «ཁ་དམར་བསམ་ཀ» (4, WB prints only), «སྦས་མཛུབ» (6) and «ཉིང་ཁུ་ཤོག་ཁྲ»
+  (2), WB and its restatements only; «བཏང་གཅོད» (69), «བཏང་གཅོད་ཀྱི» (8) and «སྟངས་གཅོད»
+  (90): no catalogued title; «གཤིན་རིན་པོ་ཆེ་གསལ་སྒྲོན» (0); «གབ་པའི་སྙིང་གཟེར» (3: the
+  *Moonbeams*' copies and Gyurme Dorje), no title; «ཐིག་ལེ་ནག་པོ» (321) not
+  walked, too common.
+- 2026-10-21, BDRC's outlines of MW2PD17476 vols. 66, 73, 74 and
+  MW2PD17386 vols. 25, 28 (the old Chinese-reckoning texts): no title
+  with «btang gcod», «kha dmar» or «'phrul gyi sgron me».
 
 
 ## Written reckonings: the practitioners' form (RD28)
