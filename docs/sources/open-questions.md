@@ -2490,6 +2490,7 @@ the text, not about the app.
      «དམར་ཆུང»; the tiger-head, «སྟག་མགོ»; the rolled ridge, «སྒང་སྒྲིལ»);
      which works are these, and does any of them read it?
      [verdicts.md](verdicts.md), "D16: the Moonbeams" (O18).
+     *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD27, on the scan): WB vol. 1, pp. 248–249 name the *Clear Lamp*'s root in five topics and commentary in twenty, and give the *Moonbeams*' own counts as the "condensed instructions in six rounds"; the works still to identify are question 223.*
 191. **The speckled predictive pebble and WB's "white and black, two" (WB vol. 1, pp. 381–385; the *Good Vase*; the Drukpa *Mirror*).**
      Does the year of age's speckled predictive pebble take the decisive
      pebbles' "white and black, two" reading (WB vol. 1, pp. 381–384), as the
@@ -2674,3 +2675,29 @@ the text, not about the app.
      p. 55, «ཤི་སྒབ», the run of deaths? (Compare question 175.)
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
+222. **The *Clear Lamp*'s commentary in twenty (WB vol. 1, p. 248; DZ f. 20b, f. 21a).**
+     Does the *Clear Lamp*'s commentary in twenty that WB lists, whose
+     fourth and fifth parts the *Moonbeams* cites for the match's
+     results and the bride's road, survive, in BDRC or elsewhere? (With
+     RD25.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how
+     the abridgement orders and closes a reckoning" (RD27).
+223. **The works the *Moonbeams* sends its results to (DZ ff. 19b–24a).**
+     Which works are *Dmar chung*, *Stag mgo* (f. 19b, f. 22b), the
+     commentary *The Black Drop* (f. 23a), the *Precious Road* (f. 21a)
+     and the *Heart Nail of the Hidden* of the *All-Gathering* or *Nine-
+     Gathering Trunk* (f. 23b–24a, KD «དགུ་འདུས»)? (Narrows question
+     190.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
+     abridgement orders and closes a reckoning" (RD27).
+224. **The general and the particular verdict (DZ f. 26b–27a, f. 22b).**
+     In the *Moonbeams*' reckoning for the dead, what is the "general"
+     verdict as against the "particular" («སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས»),
+     and in its Chinese pebble round, what is laying white and black "as
+     in general" («དཀར་ནག་རེ་རེ་སྤྱི་ལྟར་བོར»)?
+     [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
+     abridgement orders and closes a reckoning" (RD27).
+225. **The year of age's five general totals (DZ f. 24a; WB vol. 2, p. 22).**
+     Is the *Moonbeams*' gathering of the year of age into five general
+     totals by life, illness, food, merit and demons the same reading WB
+     gives ch. 27's five verdicts by domain, and may it stand for ch.
+     24? [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
+     abridgement orders and closes a reckoning" (RD27).

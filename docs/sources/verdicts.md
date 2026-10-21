@@ -3195,10 +3195,10 @@ differs.
 
 ### Open
 
-- Question: does the *Clear Lamp*'s commentary in twenty that WB lists (vol. 1, p. 248), whose fourth and fifth parts the *Moonbeams* cites for the match's results and the bride's road (DZ f. 20b, f. 21a), survive, in BDRC or elsewhere? (With RD25.)
-- Question: which works are *Dmar chung*, *Stag mgo* (DZ f. 19b, f. 22b), the commentary *The Black Drop* (f. 23a), the *Precious Road* (f. 21a) and the *Heart Nail of the Hidden* of the *All-Gathering* or *Nine-Gathering Trunk* (f. 23b–24a, KD «དགུ་འདུས»)? (Narrows open question 190.)
-- Question: in the *Moonbeams*' reckoning for the dead, what is the "general" verdict as against the "particular" (f. 26b–27a, «སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས»), and in its Chinese pebble round, what is laying white and black "as in general" (f. 22b, «དཀར་ནག་རེ་རེ་སྤྱི་ལྟར་བོར»)?
-- Question: is the *Moonbeams*' gathering of the year of age into five general totals by life, illness, food, merit and demons (f. 24a) the same reading WB gives ch. 27's five verdicts by domain (vol. 2, p. 22), and may it stand for ch. 24?
+- Open question 222 ([open-questions.md](open-questions.md)): the *Clear Lamp*'s commentary in twenty.
+- Open question 223 ([open-questions.md](open-questions.md)): the works the results are sent to.
+- Open question 224 ([open-questions.md](open-questions.md)): the general and the particular verdict.
+- Open question 225 ([open-questions.md](open-questions.md)): the year of age's five general totals.
 - Doubts left on the scan (no agy crop taken): f. 19b, img. 042, l. 4, «མཐར་རྩིས» (KD «མཐའ་རྩིས») read as the print shows it; f. 15b, img. 034, l. 2, «དགོས་རྡེ» beside «སྒོས་རྡེ».
 
 ### Searched and not found

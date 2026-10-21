@@ -745,3 +745,14 @@ Searched and found wanting, so not to be repeated:
   pp. 104–126): no line ties the white, speckled or black rite to the
   colour of a verdict; «ཆེ་ཆུང» nowhere there, «འབྲིང» only in «འབྲིང་བཞི»
   (pp. 112, 115), «རྒྱས་དང་བསྡུས» only on p. 114.
+- **A rule for the whole in the *Moonbeams*** (RD27, 2026-10-21): DZ
+  img. 005–064 (Yigdzin-1, the closes on the scan) and KD vol. 3's etext,
+  pp. 506–536: no rule that weighs one reckoning against another, and no
+  single verdict of a whole reckoning but ch. 5's five general totals
+  (f. 24a) and ch. 7's "roll everything together and decide" for the la
+  pebbles (f. 27a); «སྤྱི་བསྡོམས» only on f. 24a; «གང་མང» only on f. 17a
+  (Drogtön's way); «རིམ་གྲོ» only on f. 26b; «མཉམ» only on f. 20a and
+  f. 28b; no readings of the pebbles beyond the names of the meetings
+  (f. 17b–18a) and the dead's verdicts by domain (f. 29a). KD vol. 3's
+  print, pp. 486, 498, 501, 506, 509–510 (lent scans): nothing in the
+  closes beyond DZ's; it differs in headings and a few words only.
