@@ -319,6 +319,27 @@ data class DaySummary(
      */
     val combinationTone: Tone? get() = verdict?.takeIf { it.by == VerdictBy.COMBINATION }?.tone
 
+    /**
+     * The works [pinned] in the Works section (ROADMAP U19, SPEC §10.3), each as the brief gives it: its note,
+     * null where no voice names it. On a day of [avoidAll] every work is to be avoided (WB vol. 2, p. 338), so a
+     * work the day names good or not at all stands on the person's day. Good first, then to avoid, then the
+     * unnamed, each in the families' order and within a family in the works' own.
+     */
+    fun pinned(pinned: Collection<Activity>): List<Pair<Activity, ActivityNote?>> {
+        val notes = activities.associateBy { it.activity }
+        fun note(a: Activity): ActivityNote? {
+            val n = notes[a]
+            return if (avoidAll.isEmpty() || n?.avoid?.isNotEmpty() == true) n else ActivityNote(a, good = emptyList(), avoid = avoidAll)
+        }
+        fun side(n: ActivityNote?) = when {
+            n == null -> 2
+            n.good.isNotEmpty() -> 0
+            else -> 1
+        }
+        return pinned.distinct().map { it to note(it) }
+            .sortedWith(compareBy<Pair<Activity, ActivityNote?>> { side(it.second) }.thenBy { it.first.family }.thenBy { it.first })
+    }
+
     /** The works named good, for the reader: none on a day of [avoidAll]. */
     val good: List<ActivityNote> get() = if (avoidAll.isNotEmpty()) emptyList() else activities.filter { it.good.isNotEmpty() }
     val avoid: List<ActivityNote> get() = activities.filter { it.avoid.isNotEmpty() }

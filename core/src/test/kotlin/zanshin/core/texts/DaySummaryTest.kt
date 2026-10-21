@@ -459,6 +459,43 @@ class DaySummaryTest {
         october.forEach { assertTrue(DaySummary.of(TibetanCalendar.of(it)).avoidAll.isEmpty()) }
     }
 
+    /**
+     * ROADMAP U19: the pinned works as the brief gives them, good first, then to avoid, then those no voice names,
+     * each in the families' order; on the person's day of every work to avoid, every pinned work is to avoid.
+     */
+    @Test
+    fun `the pinned works stand as the brief gives them`() {
+        var date = LocalDate.of(2026, 1, 1)
+        while (date.year == 2026) {
+            val s = DaySummary.of(TibetanCalendar.of(date))
+            val named = s.activities.associateBy { it.activity }
+            val unnamed = Activity.entries.filter { it !in named }.take(2)
+            val pinned = s.pinned(s.activities.map { it.activity }.reversed() + unnamed + unnamed)
+            // Each once, with the brief's own note, the unnamed with none.
+            assertEquals(s.activities.size + unnamed.size, pinned.size, "$date")
+            pinned.forEach { (a, n) -> assertEquals(named[a], n, "$date $a") }
+            val sides = pinned.map { (_, n) -> if (n == null) 2 else if (n.good.isNotEmpty()) 0 else 1 }
+            assertEquals(sides.sorted(), sides, "$date")
+            for (side in 0..2) {
+                val works = pinned.filterIndexed { i, _ -> sides[i] == side }.map { it.first }
+                assertEquals(works.sortedWith(compareBy<Activity> { it.family }.thenBy { it }), works, "$date")
+            }
+            date = date.plusDays(1)
+        }
+        // 8 October 2026 is Thursday, the enemy weekday of the test birth date (above).
+        val born = TibetanCalendar.of(LocalDate.of(1976, 6, 1))
+        val d = TibetanCalendar.of(LocalDate.of(2026, 10, 8))
+        val enemy = DaySummary.of(d, personalDay(born.yearAnimal, d.weekday), personalMansions(born.yearAnimal, d.mansion), ownDays(born, d))
+        val good = enemy.activities.first { it.good.isNotEmpty() }.activity
+        val avoid = enemy.activities.first { it.avoid.isNotEmpty() }
+        val unnamed = Activity.entries.first { a -> enemy.activities.none { it.activity == a } }
+        val pinned = enemy.pinned(listOf(good, avoid.activity, unnamed)).toMap()
+        assertEquals(avoid, pinned[avoid.activity])
+        assertEquals(enemy.avoidAll, pinned.getValue(good)!!.avoid)
+        assertEquals(enemy.avoidAll, pinned.getValue(unnamed)!!.avoid)
+        assertTrue(pinned.values.all { it!!.good.isEmpty() })
+    }
+
     @Test
     fun `the hours above the Tibetan day of 1 November 2026`() {
         // The 9th month, a Sunday: Libra rises at daybreak (KP §9), and Jupiter rules the 6th half by day and the 2nd and 9th by night
