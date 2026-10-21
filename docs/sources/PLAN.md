@@ -783,3 +783,17 @@ Searched and found wanting, so not to be repeated:
   «བརྟན་གྲུབ་སྐར», no hit. A day's mewa that turns at the solstices in WB,
   the notes or the *Moonbeams*: none («ཉི་ལྡོག» with «སྨེ» in vol. 2, ch. 30,
   and the notes' section 8, none).
+- **A surviving deciding text** (RD25, 2026-10-21): BDRC's full-text
+  search and catalogue, exact phrases: «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» (3 hits: WB
+  1996, Nor brang in KD and in MW1GS66291), «བཏང་གཅོད་འཕྲུལ» (4, the same
+  and the Gser thang WB), «བཏང་གཅོད་ནག་པོ» (3: Nor brang twice, MW1KG2733),
+  «འཕྲུལ་གྱི་གོ་བྱེད» (5: three WB prints, Nor brang, MW1KG2733),
+  «ཁ་དམར་བསམ་ཀ» (4, WB prints only), «སྦས་མཛུབ» (6) and «ཉིང་ཁུ་ཤོག་ཁྲ» (2),
+  WB and its restatements only; «བཏང་གཅོད» (69), «བཏང་གཅོད་ཀྱི» (8) and
+  «སྟངས་གཅོད» (90): no catalogued title; «གཤིན་རིན་པོ་ཆེ་གསལ་སྒྲོན» (0);
+  «གབ་པའི་སྙིང་གཟེར» (3: the *Moonbeams*' copies and Gyurme Dorje), no title;
+  «ཐིག་ལེ་ནག་པོ» (321) not walked. BDRC's outlines of MW2PD17476 vols. 66,
+  73, 74 and MW2PD17386 vols. 25, 28: no title with «btang gcod», «kha
+  dmar» or «'phrul gyi sgron me». BDRC's image server answered 503
+  (I4PD636, I1KG1710) or empty images (I1GS66247) all through
+  2026-10-21: try again before calling those scans missing.

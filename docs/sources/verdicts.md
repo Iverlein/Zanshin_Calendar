@@ -3095,7 +3095,11 @@ reprint img. 243, l. 13–20, on the scan; the 1996 edition img. 258 by
 Yigdzin-1): the *Clear Lamp*'s system has five rounds, the expanded text,
 the condensed instructions, the secret key of the *Hidden
 Finger-Pointing* (gsang ba lde mig sbas mdzub tshugs), and the round of
-the essential sheets («ཡང་འགྱུར་གསལ་སྒྲོན་ཞེས་གྲགས་ལ། །སྤྲོས་པ་གཞུང་དང་བསྡུས་མན་ངག །གསང་བ་ལྡེ་མིག་སྦས་མཛུབ་ཚུགས། །ཉིང་ཁུ་ཤོག་ཁྲའི་སྐོར་དང་ལྔ།»);
+the essential sheets (*corrected 2026-10-21, RD25: the secret key and the
+hidden finger-pointing are two rounds, each with its own paragraph on
+p. 249 and counted two by Nor brang, so the five are the expanded text,
+the condensed instructions, the secret key, the hidden finger-pointing
+and the essence sheets*) («ཡང་འགྱུར་གསལ་སྒྲོན་ཞེས་གྲགས་ལ། །སྤྲོས་པ་གཞུང་དང་བསྡུས་མན་ངག །གསང་བ་ལྡེ་མིག་སྦས་མཛུབ་ཚུགས། །ཉིང་ཁུ་ཤོག་ཁྲའི་སྐོར་དང་ལྔ།»);
 its treatises are a root in five topics and a commentary in twenty
 («རྩ་བ་སྐབས་དོན་ལྔ་པ་(༡)་དང་། །འགྲེལ་པ་རྩ་འགྲེལ་ཉི་ཤུ་པ་(༢)»), the twenty
 named one by one, among them the third «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» (the deciding),
@@ -4785,19 +4789,9 @@ nong* (ཁ་ཡན་ཁོང་ནོང, kha yan khong nong) (2), the twelve
 
 ### Open
 
-- Question: Is the "commentary in twenty" (rtsa 'grel nyi shu, book 6 of
-  the *Precious Clear Lamp of the Elements*) in the Lhasa Mentsikhang's
-  *Great Treasury of Medicine and Astrology* (its catalogue MW4CZ354964) the commentary in twenty WB lists (vol. 1, p. 248), and
-  does it hold a third part, the *Lamp of the Magic of Deciding*? Under
-  which record is that collection held?
-- Question: Is the Zhe chen manuscript *Little Red Tiger-Head* (MW1GS66241) the *Clear
-  Lamp*'s commentary in another arrangement, and does any of its 21
-  chapters (the four root pebbles, ch. 10; the *Magic Sieve*, ch. 13; the
-  full reckoning for one person, ch. 17) teach the deciding pebble? Its
-  scans (I1GS66247) answered empty images on 2026-10-21.
-- Question: In «སྐབས་གསུམ་བཞིར་བགོས» (vol. 1, p. 249, the hiding of the root in
-  five topics), was the third topic split into four, or three topics
-  into four? Nor brang repeats the words («སྐབས་གསུམ་བཞི་རུ་བགོས»).
+- Open question 240 ([open-questions.md](open-questions.md)): the Mentsikhang's commentary in twenty.
+- Open question 241 ([open-questions.md](open-questions.md)): the *Little Red Tiger-Head*.
+- Open question 242 ([open-questions.md](open-questions.md)): «སྐབས་གསུམ་བཞིར་བགོས».
 - Doubt, not read on a block print (BDRC's image server down): whether
   the Zhol print reads «བཏང་གཅོད་ནག» or «བཏང་གཅོད་པ» on p. 245 (its etext and that
   of MW4CZ74207 are poor). Doubt on the reprint: p. 249 «རལ་བྷཻ» (p. 250 and

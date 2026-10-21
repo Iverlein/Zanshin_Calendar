@@ -2411,6 +2411,7 @@ the text, not about the app.
      «དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད»? The print and the etext agree.
      [verdicts.md](verdicts.md) (RD18).
      *Narrowed 2026-10-21 ([verdicts.md](verdicts.md), RD23, on the scan): the same shape stands on WB vol. 2, p. 114 (img. 122) and in the notes, p. 518 (img. 526), where it reads "each one's account told in its place".*
+     *See question 67 (answered 2026-10-18): «ཁ་སྨྲང», speech, an account.*
 175. **«སྐབ» or «སྒབ» (WB vol. 1, ch. 22, p. 331).**
      P. 331, «བོང་བུ་[སྐབ]་མི་འཕེལ» (the luck's friend black): the reprint
      reads «སྐབ», p. 330 has «སྒབ་འཕེལ»; is «སྒབ» meant?
@@ -2687,6 +2688,7 @@ the text, not about the app.
      results and the bride's road, survive, in BDRC or elsewhere? (With
      RD25.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how
      the abridgement orders and closes a reckoning" (RD27).
+     *Narrowed 2026-10-21 (RD25, [verdicts.md](verdicts.md), *Ch. 20's classes*, by BDRC's catalogue and search, no text read): the root in five topics survives, three folios, in MW2PD17476 vol. 74 (img. 413–418) and MW2PD17386 vol. 28 (pp. 376–378); the Lhasa Mentsikhang's catalogue (MW4CZ354964) lists "rtsa 'grel nyi shu" as book 6 of the *Precious Clear Lamp of the Elements* (question 240); WB's fourth commentary survives as *Bag rtsis mthun sbyor bcu pa* in both collections; the Zhe chen *Rgyud 'grel dmar chung stag mgo* (MW1GS66241) is a commentary in 21 chapters, five of whose titles WB's twenty share, none on the deciding (question 241).*
 223. **The works the *Moonbeams* sends its results to (DZ ff. 19b–24a).**
      Which works are *Dmar chung*, *Stag mgo* (f. 19b, f. 22b), the
      commentary *The Black Drop* (f. 23a), the *Precious Road* (f. 21a)
@@ -2694,6 +2696,7 @@ the text, not about the app.
      Gathering Trunk* (f. 23b–24a, KD «དགུ་འདུས»)? (Narrows question
      190.) [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
+     *Narrowed 2026-10-21 (RD25, [verdicts.md](verdicts.md), *Ch. 20's classes*, BDRC's catalogue and outlines): *Dmar chung stag mgo* is one work, the Zhe chen manuscript MW1GS66241, whose ch. 19 is *The Black Drop* and ch. 13 the *Magic Sieve* (a separate *Dar gud 'phrul gyi mig tshags* in MW2PD17476 and MW2PD17386, ascribed by WB p. 472, etext, to Khyung); *Sgang sgril* is Khyungnak Shakdar's work in three sizes (WB p. 258, etext), a practice manual of it in MW2PD17386_02A969; the *Nine-Gathering Trunk* is named by WB (p. 243, etext; p. 250 on the scan); no *Heart Nail of the Hidden* as a title. None was read.*
 224. **The general and the particular verdict (DZ f. 26b–27a, f. 22b).**
      In the *Moonbeams*' reckoning for the dead, what is the "general"
      verdict as against the "particular" («སྤྱི་དང་བྱེ་བྲག་ཁ་དམར་གདགས»),
@@ -2805,3 +2808,24 @@ the text, not about the app.
      notes nor the *Moonbeams* says, beyond «རིམ་པར་དེད» and
      «ལུགས་འབྱུང». [reckonings.md](reckonings.md), "Open questions
      161–165" (O16).
+240. **The Mentsikhang's commentary in twenty (MW4CZ354964; WB vol. 1, p. 248).**
+     Is the "commentary in twenty" (rtsa 'grel nyi shu, book 6 of the
+     *Precious Clear Lamp of the Elements*) in the Lhasa Mentsikhang's
+     *Great Treasury of Medicine and Astrology* (its catalogue
+     MW4CZ354964) the commentary in twenty WB lists, and does it hold a
+     third part, the *Lamp of the Magic of Deciding*? Under which record
+     is that collection held? [verdicts.md](verdicts.md), "Ch. 20's
+     classes of texts and the deciding texts" (RD25).
+241. **The *Little Red Tiger-Head* (MW1GS66241).**
+     Is the Zhe chen manuscript *Little Red Tiger-Head* the *Clear
+     Lamp*'s commentary in another arrangement, and does any of its 21
+     chapters (the four root pebbles, ch. 10; the *Magic Sieve*, ch. 13;
+     the full reckoning for one person, ch. 17) teach the deciding
+     pebble? Its scans (I1GS66247) answered empty images on 2026-10-21.
+     [verdicts.md](verdicts.md), "Ch. 20's classes of texts and the
+     deciding texts" (RD25).
+242. **«སྐབས་གསུམ་བཞིར་བགོས» (WB vol. 1, p. 249).**
+     In the hiding of the root in five topics, was the third topic split
+     into four, or three topics into four? Nor brang repeats the words
+     («སྐབས་གསུམ་བཞི་རུ་བགོས»). [verdicts.md](verdicts.md), "Ch. 20's
+     classes of texts and the deciding texts" (RD25).
