@@ -1344,8 +1344,8 @@ voices, so that the tone and the lists cannot go separate ways.
   2026-10-09): the page runs in the order of strength. First the hours
   (§5.13), the one factor the texts put above every factor of the day, as
   a "Hours" row above the brief; then the day in brief; then "Works", the
-  verdicts on single works (the haircut), which are results of the
-  weighing and not voices in it; then the Almanac section, which holds
+  verdicts on single works (the works pinned and the haircut), which are
+  results of the weighing and not voices in it; then the Almanac section, which holds
   what is weighed, after the monthly observance: the voices in rank order
   (the combination, Rāhu, weekday, mansion, special days, lunar date,
   karaṇa, yoga), each voice one row, so that the named combination and
@@ -2621,6 +2621,29 @@ canvas "Zanshin Calendar — basic design".
   (ROADMAP T2.15, [sources/hair-dates.md](sources/hair-dates.md)). Until
   U6 the haircut was the Almanac's last row, the one row whose dot was a
   verdict among rows whose dots are the voices' tones.
+
+  **Pinned works** (ROADMAP U19, built 2026-10-21, the design the
+  owner's of that day): the works the reader cares about stand first in
+  the section, above the haircut, each as the brief gives it
+  (`DaySummary.pinned`): in the brief's own row (the family's glyph in the
+  side's colour, mixed where the work is also named the other way, the
+  work, the voices that decide it right-aligned), on today's page as the
+  hour now stands (`DaySummary.atHour`, "by the hour · Aries"), and tapped
+  for a balloon with its side and voices and "Choose a day for it", the
+  election (§10.8). A pinned work no reading names on the day stays, its
+  glyph grey and "Not named today" for its voices, its balloon the way to
+  its election only. Good first, then to avoid, then the unnamed, each in
+  the families' order and within a family in the works' own: the order
+  follows the day, not the order of pinning. On the person's day of every
+  work to avoid (§5.12) every pinned work is to avoid, a work the day
+  names good or names not at all standing on the person's day ("Enemy
+  weekday"), as WB vol. 2, p. 338 says "every work is to be avoided". A pin
+  at the heading's right ("Pin works") opens the chooser, a sheet with the
+  election's works by family and by search (§10.8), a tick for each work
+  pinned, kept at once; the haircut is not offered, since the section
+  always holds it. The pins are kept on the device across days and
+  restarts (`pinned_works`, the works' names), none on a fresh install, so
+  the store screenshots show the section as before but for its pin.
 - **Almanac:** what is weighed (§5.12, *Order on the page*). The monthly
   observance; the festival is the headline and opens its reading from
   there, so the Almanac does not repeat it. On the day of an eclipse

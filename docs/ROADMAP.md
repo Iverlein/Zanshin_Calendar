@@ -40,7 +40,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16; X6, block 45, 2026-10-17; X7, X8 and X9, blocks 46 to 48, and X3–X4, block 43, 2026-10-18, the last); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
 | 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D9; a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
-| 22 | U19 Pinned works | S | The works one cares about first in the Works section, left by U6 as a later item | — |
+| 22 | U19 Pinned works — built 2026-10-21 | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 
 ## Blocks
@@ -111,7 +111,7 @@ moves up as soon as it is unblocked.
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
 | <a id="block-54"></a>54 | [K5](#k5) The direction gods | K3-R; K4's 天一神 course for the daily directions | [53](#block-53) (D9) | Build block 54: K5, the year's direction gods as D9 settles it. |
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
-| <a id="block-55"></a>55 | [U19](#u19) Pinned works | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
+| <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 | <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
@@ -1944,7 +1944,7 @@ hour).
   mansion), and "By the hour" moves before the works. The clock icon on
   the Almanac's heading is gone. No side or tone changes. Pinned works in
   the Works section, each with its deciding factor, are a later item: a
-  chooser and a preference.
+  chooser and a preference (U19, built 2026-10-21).
 
 U6 was checked on the emulator (Kyoto, clock set so the Bird hour is the
 present one) in English and Russian: unlucky by the combination
@@ -2298,7 +2298,7 @@ W1 build on them (below).
   Checked from a fresh counter: three opens of each page show it, the
   fourth not, a tap puts it away; English and Russian.
 
-#### <a id="u19"></a>U19 Pinned works — planned 2026-10-13
+#### <a id="u19"></a>U19 Pinned works — planned 2026-10-13, built 2026-10-21 (SPEC §10.3)
 
 - **Gap.** U6 left it as a later item (2026-10-09): the works a reader
   cares about are found by scrolling the Works section, each time.
@@ -2310,6 +2310,27 @@ W1 build on them (below).
 - **Block.** [55](#block-55); no reading.
 - **Done when.** Pinning, unpinning and the order on the emulator in
   both languages; a fresh install with none pinned; SPEC §10.3.
+- **Built 2026-10-21** (block 55). The owner's design of that day: each
+  pinned work in the brief's own row, not the haircut's (glyph in the
+  side's colour, the work, the deciding voices; a balloon with "Choose a
+  day for it"); a work no reading names stays, grey, "Not named today";
+  good first, then to avoid, then the unnamed, re-sorted every day, each
+  in the families' order; the chooser from a pin on the heading, the
+  election's works by family and search, the haircut not offered.
+  `DaySummary.pinned` gives the rows, on the person's day of every work to
+  avoid every work to avoid; the brief's work row is `WorkLine`, shared;
+  the preference `pinned_works`. Checked: `DaySummaryTest` (every day of
+  2026, the sides' order and the families' within each, the notes the
+  brief's own; the enemy weekday of 8 October 2026), `:core:test`,
+  `:app:testDebugUnitTest`; the emulator in English and Russian (a fresh
+  install with the pin and no rows; ticking by family and by search,
+  "hair" finding only washing the hair; good, to avoid by the hour and
+  unnamed in that order; the pins kept over a restart; a row's balloon
+  and its election; unpinning; Thursday 22 October 2026, the test birth
+  date's enemy weekday, every pinned work to avoid by it; font scale 2.0
+  and landscape), the release build (the pins read, both languages, no
+  raw keys). Store shots 1 and 8 retaken for the heading's pin, and 3 with
+  them, whose reading had grown since; the rest unchanged.
 
 #### <a id="u20"></a>U20 The haircut in the hour — built 2026-10-15 (SPEC §10.3)
 
