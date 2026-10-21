@@ -3897,3 +3897,13 @@ What the passages give for ch. 30:
   ch. 27 only on pp. 22–23, in ch. 30 on pp. 163, 166, 168 and 172; no
   verdict laid over all thirty starting points, over all thirteen
   circles or over a whole reckoning of the moment; «རྡེལ་ཁྲ» and «ཐམས་ཅད་ནག» in ch. 26 only on p. 468, «ཐམས་ཅད་དཀར» only on p. 471.
+
+
+## Ch. 20's classes of texts and the deciding texts (RD25)
+
+Nothing read yet: RD25's passages, with the English beside them, go here.
+
+
+## Written reckonings: the practitioners' form (RD28)
+
+Nothing read yet: RD28's passages, with the English beside them, go here.
