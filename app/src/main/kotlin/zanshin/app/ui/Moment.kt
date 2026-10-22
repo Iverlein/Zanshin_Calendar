@@ -38,6 +38,21 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, onOpen: (Annotation) -> U
             labels.string(R.string.moment_subtitle, day.weekday.english.replaceFirstChar(Char::uppercase), labels.ordinal(day.day), labels.ordinal(day.monthNames.number), "%d:%02d".format(minutes / 60, minutes % 60)),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
+        val period = MomentReckoning.period(minutes)
+        if (period == null) {
+            Text(stringResource(R.string.moment_period_night), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        } else {
+            AnnotationRow(
+                Annotation(
+                    title = labels.string(R.string.moment_period_title, period.english),
+                    english = "",
+                    tone = Tone.NEUTRAL,
+                    reading = Texts.momentPeriod(period),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
         AnnotationRow(
             Annotation(
                 title = labels.string(R.string.moment_trigram_title, Ewts.named(trigram.english, trigram.wylie)),

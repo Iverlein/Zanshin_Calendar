@@ -956,6 +956,12 @@ the page (`MomentReckoning`, core `tibetan/Moment.kt`; `Reckonings.moment`).
   minutes), eight and nine through the twelve hours of day, and again from
   the date's own through the twelve of night. The notes' finer form
   divides the day's and the night's length; it is not used.
+- **The time of day** (pp. 156–157, read on the scan): seven readings
+  headed by times of day, dawn, sunrise, the sun's warmth, noon, past
+  noon, late afternoon and sunset, set on the hours of the hare to the
+  bird from 05:00 (p. 156 counts "the six of the day" from the hare; the
+  seventh, sunset, falls in the bird's hour): which god leads for the
+  asker, what the house is like, the spirits that harm. By night none.
 - **The readings** (pp. 161–162, read on the scan): by the moment's
   trigram, the asker's door, livestock and woman, the harm and its remedy
   where WB gives them; by the moment's mewa, who is concerned, what
@@ -964,11 +970,12 @@ the page (`MomentReckoning`, core `tibetan/Moment.kt`; `Reckonings.moment`).
 
 The screen (§10.11): "The moment" in the Reckonings list ("Now: earth
 (ཁོན, khon) · mewa 9"); on it, the weekday, the lunar date, the month and
-the time since dawn, the moment's trigram and mewa, each opening its
-reading, and a closing note on what is reckoned.
+the time since dawn, the time of day ("The time of day · late afternoon", or a line by night),
+the moment's trigram and mewa, each opening its reading, and a closing
+note on what is reckoned.
 
-**Not calculated** yet: the readings by the six periods of the day and by
-the hour's element (pp. 156–161, machine-read only), the mewa as shapes
+**Not calculated** yet: the readings by the hour's element (pp. 157–161,
+machine-read only), the mewa as shapes
 and places, the asker's year fighting the moment (p. 172), the signs,
 dreams and implements, the small reckonings (pp. 163–172).
 

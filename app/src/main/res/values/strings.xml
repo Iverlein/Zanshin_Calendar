@@ -971,7 +971,9 @@
     <string name="moment_subtitle">%1$s, the %2$s date of the %3$s month, %4$s after dawn</string>
     <string name="moment_trigram_title">The moment\'s trigram · %1$s</string>
     <string name="moment_mewa_title">The moment\'s mewa · %1$d %2$s</string>
-    <string name="moment_note">Of the reckoning of the moment, the trigram and the mewa are reckoned: the date\'s own at dawn, 05:00, then one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the twelve hours of day and again from the date\'s own through the night. The readings by the hour and its element, the asker\'s year fighting the moment, and the signs and dreams are not reckoned.</string>
+    <string name="moment_period_title">The time of day · %1$s</string>
+    <string name="moment_period_night">By night the time of day has no reading of its own.</string>
+    <string name="moment_note">Of the reckoning of the moment, the time of day, the trigram and the mewa are reckoned: the date\'s own at dawn, 05:00, then one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the twelve hours of day and again from the date\'s own through the night. The readings by the hour\'s element, the asker\'s year fighting the moment, and the signs and dreams are not reckoned.</string>
     <string name="reckonings_dead_subtitle">The time of death of %1$d who have died</string>
     <string name="reckonings_dead_needed">Needs a relative who has died, with a birth year and the date of death</string>
     <string name="dead_none">No relative of this person is entered as having died. Enter one in People with a birth year, a gender and the date of death.</string>

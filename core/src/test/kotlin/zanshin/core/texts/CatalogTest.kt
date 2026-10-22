@@ -65,6 +65,7 @@ import zanshin.core.tibetan.BirthSet
 import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.HundredKin
+import zanshin.core.tibetan.MomentPeriod
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
@@ -215,6 +216,7 @@ class CatalogTest {
         out += Texts.deadCourse()
         Trigram.entries.forEach { out += Texts.momentTrigram(it) }
         (1..9).forEach { out += Texts.momentMewa(it) }
+        MomentPeriod.entries.forEach { out += Texts.momentPeriod(it) }
         LineStage.entries.forEach { s -> LineGroup.entries.forEach { out += Texts.birthLine(s, it) } }
         MatchReckoning.ASPECTS.forEach { f -> MatchMeeting.entries.forEach { out += Texts.matchAspect(f, it) } }
         out += Texts.matchKarma()
@@ -574,7 +576,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "MomentTrigram", "MomentMewa"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "MomentTrigram", "MomentMewa", "MomentPeriod"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

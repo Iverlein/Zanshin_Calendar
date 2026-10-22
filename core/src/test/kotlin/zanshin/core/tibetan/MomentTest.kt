@@ -36,4 +36,13 @@ class MomentTest {
         assertEquals(9, MomentReckoning.mewa(Animal.TIGER, 1, 719))
         assertEquals(1, MomentReckoning.mewa(Animal.TIGER, 1, 1439 - 640))
     }
+
+    /** P. 156's seven headings on the hours from the hare: dawn at 05:00, sunset in the bird's hour, none after 19:00. */
+    @Test
+    fun `the periods of the day`() {
+        assertEquals(MomentPeriod.DAWN, MomentReckoning.period(0))
+        assertEquals(MomentPeriod.NOON, MomentReckoning.period(6 * 60 + 30))
+        assertEquals(MomentPeriod.SUNSET, MomentReckoning.period(12 * 60 + 59))
+        assertEquals(null, MomentReckoning.period(14 * 60))
+    }
 }
