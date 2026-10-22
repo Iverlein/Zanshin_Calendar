@@ -845,3 +845,31 @@ Searched and found wanting, so not to be repeated:
   «བཏང་གཅོད» under that OCR (RD18 found «བཏང་གཅོད» once on its poor p. 16).
   - 2026-10-22, Mipham's own print (I2029, img. 656–676, Yigdzin-1): no
   «སྟངས་གཅོད».
+- **Kun dga' rig 'dzin, the writer of KD's sheets** (open question 246, 2026-10-22). Method notes: BDRC's osearch results page paginates by a plain `&page=N`, while `bdrc_search.py` reads page 1 only and cuts at 8000 characters, so hits past about twenty are missed; a restricted volume's open preview images can carry its front matter (KD vol. 3's board of editors and contents, I4717 img. 5, 13), read without the loan.
+  - 2026-10-22, BDRC's records: MW28845_B881BE, WA0XLB881BE5C3B6D,
+  MW28845_CD1540, _EA5BB4, _FFD448 and every other node of KD's outline:
+  no creator link but the compiler's (P4853) on MW28845.
+  - 2026-10-22, BDRC's person search: library.bdrc.io/search, persons,
+  the exact name in Wylie, 0 results; osearch with the person
+  filter, the name unquoted, six persons, none of them he (above).
+  - 2026-10-22, KD's etext, vols. 1–5 (I4715–I4719): the name only on the
+  boards of editors, vol. 2's contents and its sections 10, 17, 18 and
+  19, and vol. 3's contents and the sheets; no life of him (vol. 1's
+  appendix holds the two chief editors' only), no Chinese text in any
+  volume's front matter; vol. 3's preface (etext pp. 17–20) names no
+  editor.
+  - 2026-10-22, the 1986 article's close (MW1KG21754, etext pp. 432–433):
+  verses of dedication, no colophon on the writer.
+  - 2026-10-22, BDRC's full-text search, no hit: «སྨན་རྩིས་ཀུན་དགའ་རིག་འཛིན»,
+  «རྩིས་པ་ཀུན་དགའ་རིག་འཛིན», «ཀུན་དགའ་རིག་འཛིན་ནས», «ཀུན་དགའ་རིག་འཛིན་གྱི»,
+  «སློབ་དཔོན་ཀུན་དགའ་རིག་འཛིན»; in the chained searches «ནན་ཅིང་ཙེ་ཅིན་ཧྲན་གནམ་རིག་བལྟ་ཁང»,
+  «རྒྱུགས་འབྲས་བྱ་དགའ་ཐོབ», «སློབ་ཐོན་དཔེ་བཟང་གི་གཟི་བརྗིད་དཔང་ཡིག», «ཚེས་ཉེར་བརྒྱད་ནས་ཨ་མདོའི་བཀྲ་ཤིས་དབང་ཕྱུག»:
+  the memoir's year, the Golog physician's name and the interview's body
+  not reached. The bare name has 35 hits in all, every one read (sections
+  3–4).
+  - 2026-10-22, `etextchunks` 403 (search only) for the memoir
+  (IE0OPI156B76B6), the Golog history (IE0OPI4C49C33E), the Tibet
+  University volume (IE0OPIE8EEAEB9), Bsod nams dpal ldan's book
+  (IE0OPI9442689C) and the 2013 almanac (IE0OPI0559C226).
+  - 2026-10-22, the web, «"Kunga Rigzin" OR "Kunga Rindzin" Tibetan
+  astrology Mentsikhang Lhasa»: no English notice of him.

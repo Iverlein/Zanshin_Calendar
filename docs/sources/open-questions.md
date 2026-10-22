@@ -2855,7 +2855,16 @@ the text, not about the app.
      another spelling? (BDRC's search gives «སྟངས་གཅོད» 90 hits and no
      catalogued title, RD25.) [verdicts.md](verdicts.md), "Written
      reckonings: the practitioners' form" (RD28).
-246. **Kun dga' rig 'dzin (KD vol. 3, pp. 713–729).**
+246. ~~**Kun dga' rig 'dzin (KD vol. 3, pp. 713–729).**~~
+     *Answered as far as the sources go, 2026-10-22 ([verdicts.md](verdicts.md),
+     "Kun dga' rig 'dzin, the writer of the sheets"): the editor of KD's
+     board "of the Tibet Autonomous Region's Tibetan Medical College"
+     (vol. 3, img. 5, on the scan), the board's only man of the name, whose
+     other KD work is all reckoning. That he is also the Lhasa
+     Mentsikhang's astronomer and teacher of other publications and the
+     national heritage register rests on name, field, institution and
+     period agreeing; no source states it. BDRC has no person record for
+     him. Questions 249–252.* The question as it stood:
      Who is Kun dga' rig 'dzin, the writer of the *Sheets of Some Needed
      Examples* (MW28845_B881BE)? [verdicts.md](verdicts.md), "Written
      reckonings: the practitioners' form" (RD28).
@@ -2872,3 +2881,24 @@ the text, not about the app.
      and the copies taken from it? An older manuscript of the *Moonbeams*,
      if one survives, would show it. [verdicts.md](verdicts.md),
      "«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble" (question 245).
+249. **The *Xizang tianwen lisuan zonghui* and KD.** Is the *Xizang tianwen
+     lisuan zonghui* (《西藏天文历算总汇》) of which the national register makes 贡嘎仁增
+     "one of the main writers" KD itself, whose Chinese title in BDRC's
+     record is *Zang chuan li suan xue da quan*? KD's Chinese title page and
+     colophon (lent scans) would settle it. [verdicts.md](verdicts.md), "Kun
+     dga' rig 'dzin, the writer of the sheets" (question 246).
+250. **The Tibet University interview.** What does the interview with the
+     elder Kun dga' rig 'dzin in Tibet University's journal (reprinted in
+     MW1KG25692, Beijing 2016; scans lent on archive.org) say of his
+     teachers, his training and the sheets? [verdicts.md](verdicts.md), "Kun
+     dga' rig 'dzin, the writer of the sheets" (question 246).
+251. **When the sheets were drawn.** When, and for what use, were the sheets
+     drawn: for KD (1995–1998), or earlier as teaching material? The year
+     reckoned on the obstacle reckoning's sheets is a wood rat (ཤིང་བྱི,
+     shing byi) year; no date is written on them.
+     [verdicts.md](verdicts.md), "Kun dga' rig 'dzin, the writer of the
+     sheets" (question 246).
+252. **«ལྔ་པ་འཕྲོད» in 1989.** What is «ལྔ་པ་འཕྲོད» that Tshul khrims rgyal
+     mtshan taught a Kun dga' rig 'dzin in 1989, and is he the writer?
+     [verdicts.md](verdicts.md), "Kun dga' rig 'dzin, the writer of the
+     sheets" (question 246).

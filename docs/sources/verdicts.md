@@ -5020,7 +5020,7 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 - Open question 243 ([open-questions.md](open-questions.md)): the verdict laid with a count.
 - Open question 244 ([open-questions.md](open-questions.md)): the *Spor thang*.
 - Open question 245 ([open-questions.md](open-questions.md)): «སྟངས་གཅོད» and «བཏང་གཅོད»; answered 2026-10-22, the same pebble (section *«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble* below).
-- Open question 246 ([open-questions.md](open-questions.md)): Kun dga' rig 'dzin.
+- Open question 246 ([open-questions.md](open-questions.md)): Kun dga' rig 'dzin; answered as far as the sources go 2026-10-22, KD's own editor (section *Kun dga' rig 'dzin, the writer of the sheets* below).
 - Doubts left on the scan (no agy turn): p. 716, «སྲོག་[མྱུ]་རྩིས» (the etext «མྱུ»; the eye at 4× cannot tell མྱུ from ཕྱུ); p. 729, «ཀླུ་རྟའི» as printed.
 - Left, not read (BDRC's image server down 2026-10-21): the LTWA's *Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401) and the Lhasa Mentsikhang's 1987 blockprint of life reckonings and reckoning books (I1KG12897); [RD29](../ROADMAP.md#rd29).
 
@@ -5601,19 +5601,19 @@ the register gives only his birth year and county.
 
 ### Open
 
-- Question: Is the *Xizang tianwen lisuan zonghui* (《西藏天文历算总汇》) of
+- Open question 249 ([open-questions.md](open-questions.md)): is the *Xizang tianwen lisuan zonghui* (《西藏天文历算总汇》) of
   which the national register makes 贡嘎仁增 "one of the main writers" KD
   itself, whose Chinese title in BDRC's record is *Zang chuan li suan xue
   da quan*? KD's Chinese title page and colophon (lent scans) would settle
   it.
-- Question: What does the interview with the elder Kun dga' rig 'dzin in
+- Open question 250 ([open-questions.md](open-questions.md)): what does the interview with the elder Kun dga' rig 'dzin in
   Tibet University's journal (reprinted in MW1KG25692, Beijing 2016; scans
   lent on archive.org) say of his teachers, his training and the sheets?
-- Question: When, and for what use, were the sheets drawn: for KD
+- Open question 251 ([open-questions.md](open-questions.md)): when, and for what use, were the sheets drawn: for KD
   (1995–1998), or earlier as teaching material? The year reckoned on the
   obstacle reckoning's sheets is a wood rat (ཤིང་བྱི, shing byi) year;
   no date is written on them.
-- Question: What is «ལྔ་པ་འཕྲོད» that Tshul khrims rgyal mtshan taught a
+- Open question 252 ([open-questions.md](open-questions.md)): what is «ལྔ་པ་འཕྲོད» that Tshul khrims rgyal mtshan taught a
   Kun dga' rig 'dzin in 1989, and is he the writer?
 
 ### Searched and not found
