@@ -112,6 +112,79 @@ class BirthTest {
         assertNull(MatchReckoning.niSha(1976, Animal.DRAGON, 1978, Animal.HORSE))
     }
 
+    /**
+     * The four aspects' mewas (ch. 21, p. 255): WB's fire hare of 1687, life force 4, destiny 1, the luck 2 (the fire
+     * snake of 1737), body 7; the *Moonbeams*' wood rat of 1684, body 1, life force 7, destiny 4, its wind-horse the
+     * wood tiger of 1674; the notes' four down of a 5, 8 (vol. 2, p. 536).
+     */
+    @Test
+    fun `the four aspects' mewas`() {
+        assertEquals(listOf(4, 7, 1, 2), listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK).map { MatchReckoning.aspectMewa(1687, it) })
+        assertEquals(1737, MatchReckoning.windHorseYear(1687))
+        assertEquals(listOf(7, 1, 4), listOf(Force.VITALITY, Force.BODY, Force.DESTINY).map { MatchReckoning.aspectMewa(1684, it) })
+        assertEquals(1674, MatchReckoning.windHorseYear(1684))
+        val five = (1900..1910).first { YearOfLife.yearSmeBa(it) == 5 }
+        assertEquals(8, MatchReckoning.aspectMewa(five, Force.DESTINY))
+        assertEquals(2, MatchReckoning.aspectMewa(five, Force.VITALITY))
+    }
+
+    /** The hidden's nine wheels (pp. 357–358; the notes, p. 524) hold each pair of trigrams once, a trigram with itself on the two of fortune. */
+    @Test
+    fun `the hidden's wheels hold every pair once`() {
+        val pairs = Trigram.entries.flatMap { a -> Trigram.entries.filter { it.ordinal >= a.ordinal }.map { a to it } }
+        assertEquals(36, pairs.size)
+        for ((a, b) in pairs) assertEquals(1, HiddenWheel.entries.count { it.holds(a, b) }, "$a $b")
+        assertEquals(HiddenWheel.LUS_CHAD, MatchReckoning.wheel(Trigram.LI, Trigram.KHON))
+        assertEquals(HiddenWheel.SROG_TSHO, MatchReckoning.wheel(Trigram.KHAM, Trigram.ZON))
+        assertEquals(HiddenWheel.PHYWA_LON, MatchReckoning.wheel(Trigram.GIN, Trigram.GIN))
+        assertEquals(HiddenWheel.PHYWA_MNYAM, MatchReckoning.wheel(Trigram.ZIN, Trigram.ZIN))
+        // The five: a man's as the two-black, a woman's as the seven-red (p. 357).
+        assertEquals(Trigram.KHON, MatchReckoning.mewaTrigram(5, man = true))
+        assertEquals(Trigram.DWA, MatchReckoning.mewaTrigram(5, man = false))
+        // The deeper hidden draws 1 and 2, 3 and 9, 4 and 8; 5, 6 and 7 stay (p. 359).
+        assertEquals(listOf(2, 1, 9, 8, 5, 6, 7, 4, 3), (1..9).map { MatchReckoning.drawn(it) })
+    }
+
+    /** The hidden for the fire hare man of 1687 and the wood rat woman of 1684: each aspect's two mewas on their wheel. */
+    @Test
+    fun `the hidden of two worked years`() {
+        val h = MatchReckoning.hidden(1687, 1684)
+        assertEquals(listOf(4 to 7, 7 to 1, 1 to 4), h.take(3).map { it.second })
+        // Life force 4 and 7: wind and lake, the body cut; body 7 and 1: lake and water, harm; destiny 1 and 4: water and wind, sustaining life.
+        assertEquals(listOf(HiddenWheel.LUS_CHAD, HiddenWheel.GNOD_PA, HiddenWheel.SROG_TSHO), h.take(3).map { it.third })
+        val d = MatchReckoning.hidden(1687, 1684, deeper = true)
+        // The woman's 7 stays, her 1 is drawn to 2, her 4 to 8.
+        assertEquals(listOf(4 to 7, 7 to 2, 1 to 8), d.take(3).map { it.second })
+    }
+
+    /** Point 7 (p. 359; the notes, p. 525): five counts summed, the larger wins, equal is good; even together agrees. */
+    @Test
+    fun `the siblings' number`() {
+        // 1976, the fire dragon: life force earth 2, body earth 2, destiny fire 4, luck, and the six-white mewa as iron 5.
+        val f = Forces.of(Element.FIRE, Animal.DRAGON)
+        assertEquals(2 + MatchReckoning.siblingsPebbles(f.body) + 4 + MatchReckoning.siblingsPebbles(f.luck) + 5, MatchReckoning.siblings(1976))
+        assertEquals(Element.EARTH, f.vitality)
+        assertEquals(SiblingsWin.EQUAL, MatchReckoning.siblingsWin(14, 14))
+        assertEquals(SiblingsWin.WOMAN, MatchReckoning.siblingsWin(13, 14))
+        assert(MatchReckoning.siblingsAgree(13, 15))
+        assert(!MatchReckoning.siblingsAgree(13, 14))
+    }
+
+    /** The kinds of spouse (p. 355; reply 113) and the couple's bad-year pebble (the notes, pp. 523–524). */
+    @Test
+    fun `the kinds of spouse and the bad-year pebble`() {
+        assertEquals(SpouseKind.KARMA, MatchReckoning.kind(Element.FIRE, Element.WOOD))
+        assertEquals(SpouseKind.KARMA, MatchReckoning.kind(Element.FIRE, Element.EARTH))
+        assertEquals(SpouseKind.KIN, MatchReckoning.kind(Element.FIRE, Element.IRON))
+        assertEquals(SpouseKind.ENMITY, MatchReckoning.kind(Element.FIRE, Element.WATER))
+        assertEquals(SpouseKind.KARMA, MatchReckoning.kind(Element.WATER, Element.WATER))
+        assertEquals(SpouseKind.KIN, MatchReckoning.kind(Element.FIRE, Element.FIRE))
+        assertEquals(BadYearPebble.BLACK, MatchReckoning.badYearPebble(man = true, woman = true))
+        assertEquals(BadYearPebble.SPECKLED_WOMAN, MatchReckoning.badYearPebble(man = false, woman = true))
+        assertEquals(BadYearPebble.SPECKLED_MAN, MatchReckoning.badYearPebble(man = true, woman = false))
+        assertEquals(BadYearPebble.WHITE, MatchReckoning.badYearPebble(man = false, woman = false))
+    }
+
     /** The line of births' examples, pp. 297–299: for each forefather's year, the child's years that crowd, empty, stay and tear the line. */
     @Test
     fun `the line of births as WB lists it`() {

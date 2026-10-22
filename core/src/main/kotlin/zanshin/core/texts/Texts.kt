@@ -17,6 +17,10 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
+import zanshin.core.tibetan.BadYearPebble
+import zanshin.core.tibetan.HiddenWheel
+import zanshin.core.tibetan.SiblingsWin
+import zanshin.core.tibetan.SpouseKind
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.LineGroup
@@ -418,6 +422,20 @@ object Sources {
     val WHITE_BERYL_MATCH_PLANET = whiteBeryl("chapter 23, p. 360", volume = 1)
     /** The marriage match (ROADMAP R3, docs/sources/marriage.md). */
     val WHITE_BERYL_MATCH = whiteBeryl("chapter 23, pp. 355–357 and 359", volume = 1)
+    /** The marriage match's hidden and deeper hidden (ROADMAP R3, docs/sources/marriage.md, open question 161). */
+    val WHITE_BERYL_MATCH_HIDDEN = whiteBeryl("chapter 21, p. 255, and chapter 23, pp. 357–359, with the notes in vol. 2, p. 524", volume = 1)
+    /** The marriage match's siblings' number (ROADMAP R3, docs/sources/verdicts.md, RD21). */
+    val WHITE_BERYL_MATCH_SIBLINGS = whiteBeryl("chapter 23, p. 359, with the notes in vol. 2, p. 525", volume = 1)
+    /** The marriage match's bad years for the couple (ROADMAP R3, docs/sources/verdicts.md, RD21). */
+    val WHITE_BERYL_MATCH_PEBBLE = whiteBeryl("chapter 23, pp. 353–354, with the notes in vol. 2, pp. 523–524", volume = 1)
+    /** The kinds of spouse, aspect by aspect (ROADMAP R3, docs/sources/verdicts.md, RD21). */
+    val WHITE_BERYL_SPOUSE_KIND = whiteBeryl("chapter 23, p. 355, with the notes in vol. 2, p. 524", volume = 1)
+    /** Sangye Gyatso's replies on WB; reply 113 places the inner meetings among the kinds of spouse (docs/sources/verdicts.md, RD21). */
+    val REMOVING_THE_TARNISH = Source(
+        "Removing the Tarnish (གཡའ་སེལ, g.ya' sel), Desi Sangye Gyatso (སྡེ་སྲིད་སངས་རྒྱས་རྒྱ་མཚོ, sde srid sangs rgyas rgya mtsho), reply 113",
+        "BDRC MW8226",
+        "https://library.bdrc.io/show/bdr:MW8226",
+    )
     /** The line of births (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_BIRTH_LINE = whiteBeryl("chapter 22, pp. 297–299, with the notes in vol. 2, p. 476", volume = 1)
     /** Glory and misfortune against the parents' years (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2078,6 +2096,26 @@ object Texts {
 
     /** The wife of karma: all four aspects met as mother and son (WB vol. 1, ch. 23, p. 355). */
     fun matchKarma(): Reading = Reading(key = "reading.MatchAspect", arg = "reading.MatchAspect.KARMA", source = Sources.WHITE_BERYL_MATCH)
+
+    /** The wheel [w] two mewas fall on in the hidden, or with [deeper] the deeper hidden (WB vol. 1, ch. 23, pp. 357–359). */
+    fun matchHidden(w: HiddenWheel, deeper: Boolean = false): Reading =
+        Reading(key = if (deeper) "reading.MatchDeepHidden" else "reading.MatchHidden", arg = "reading.MatchHidden.${w.name}", source = Sources.WHITE_BERYL_MATCH_HIDDEN)
+
+    /** Point 7's comparison [w] of the two sums (WB vol. 1, ch. 23, p. 359). */
+    fun matchSiblings(w: SiblingsWin): Reading =
+        Reading(key = "reading.MatchSiblings", arg = "reading.MatchSiblings.${w.name}", source = Sources.WHITE_BERYL_MATCH_SIBLINGS)
+
+    /** Point 7's agreement on the two sums together (WB vol. 1, ch. 23, p. 359). */
+    fun matchSiblingsAgree(agree: Boolean): Reading =
+        Reading(key = "reading.MatchSiblings", arg = "reading.MatchSiblings.${if (agree) "AGREE" else "DISAGREE"}", source = Sources.WHITE_BERYL_MATCH_SIBLINGS)
+
+    /** The couple's deciding pebble [p] over the bad years (WB vol. 1, ch. 23, pp. 353–354, and the notes). */
+    fun badYearPebble(p: BadYearPebble): Reading =
+        Reading(key = "reading.BadYearPebble", arg = "reading.BadYearPebble.${p.name}", source = Sources.WHITE_BERYL_MATCH_PEBBLE)
+
+    /** The kind of spouse [k] an aspect makes (WB vol. 1, ch. 23, p. 355; *Removing the Tarnish*, reply 113). */
+    fun spouseKind(k: SpouseKind): Reading =
+        Reading(key = "reading.SpouseKind", arg = "reading.SpouseKind.${k.name}", source = Sources.WHITE_BERYL_SPOUSE_KIND, also = listOf(Sources.REMOVING_THE_TARNISH))
 
     /** The two destinies' elements [pair] set together (WB vol. 1, ch. 23, p. 357). */
     fun matchDestiny(pair: Pair<Element, Element>): Reading =

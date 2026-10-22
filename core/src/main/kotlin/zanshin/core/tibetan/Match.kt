@@ -212,6 +212,43 @@ enum class MatchPlanet { SATURDAY, SUN_TUE, THURSDAY, MON_WED, FRIDAY }
 /** The *ni sha* reckoning (p. 359): the man of a male year and older, the woman of a female year and younger. */
 enum class NiSha { GOOD, REVERSED }
 
+/**
+ * The nine wheels the hidden sets two mewas on (pp. 357–358, each mewa by its trigram; the wheels as the notes draw
+ * them, vol. 2, p. 524), in WB's order: the first three like the sun rising in a cloudless sky, the next three like
+ * the sun between clouds, the last three like frost on the ground. Together they hold each pair of trigrams once, a
+ * trigram with itself on the two wheels of luck. Life's fourth pair, water and wind, the natal trigrams' list leaves
+ * out ([MatchTrigramKind.SROG_TSHO]); the hidden's verse names it («ཆུ(༡)སྲོག་རླུང(༤)»).
+ */
+enum class HiddenWheel(val good: Boolean, val pairs: List<Pair<Trigram, Trigram>>) {
+    GNAM_SMAN(true, trigramPairs("LI KHAM", "KHON KHEN", "DWA GIN", "ZIN ZON")),
+    SROG_TSHO(true, trigramPairs("LI ZIN", "KHON GIN", "DWA KHEN", "KHAM ZON")),
+    DPAL_BSKYED(true, trigramPairs("LI ZON", "DWA KHON", "KHEN GIN", "KHAM ZIN")),
+    PHYWA_LON(true, trigramPairs("LI LI", "GIN GIN", "DWA DWA", "KHEN KHEN")),
+    PHYWA_MNYAM(true, trigramPairs("KHAM KHAM", "KHON KHON", "ZIN ZIN", "ZON ZON")),
+    GNOD_PA(false, trigramPairs("LI GIN", "KHEN ZON", "DWA KHAM", "ZIN KHON")),
+    DRE_LNGA(false, trigramPairs("DWA LI", "KHEN ZIN", "GIN KHAM", "KHON ZON")),
+    BDUD_GCOD(false, trigramPairs("LI KHEN", "KHON KHAM", "DWA ZIN", "GIN ZON")),
+    LUS_CHAD(false, trigramPairs("LI KHON", "ZON DWA", "GIN ZIN", "KHAM KHEN"));
+
+    /** 0 the cloudless sun, 1 the sun between clouds, 2 the frost. */
+    val tier: Int get() = ordinal / 3
+
+    fun holds(a: Trigram, b: Trigram): Boolean = pairs.any { (x, y) -> x == a && y == b || x == b && y == a }
+}
+
+/** Point 7's comparison of the two sums (p. 359; the notes, p. 525): equal is good, and whoever has more wins. */
+enum class SiblingsWin { EQUAL, MAN, WOMAN }
+
+/** The couple's one deciding pebble over the bad years (the notes, vol. 2, pp. 523–524): black for both, speckled for one, white for neither. */
+enum class BadYearPebble { BLACK, SPECKLED_WOMAN, SPECKLED_MAN, WHITE }
+
+/**
+ * The kind of spouse one aspect makes (p. 355; Sangye Gyatso's *Removing the Tarnish*, reply 113; the notes,
+ * vol. 2, p. 524), in grades: of karma the best (mother and son, or earth or water meeting itself), of kin the
+ * middling (friends, or fire, iron or wood meeting itself), of enmity the last (enemies).
+ */
+enum class SpouseKind { KARMA, KIN, ENMITY }
+
 object MatchReckoning {
     /** The aspects the single match reads, in its order; the life force and luck are the man's set against the woman's, the body and destiny the woman's against the man's. */
     val ASPECTS = listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK)
@@ -324,6 +361,123 @@ object MatchReckoning {
         man.animal.gender == Gender.MALE && woman.animal.gender == Gender.MALE -> YearSexes.MALE_MALE
         man.animal.gender == Gender.FEMALE && woman.animal.gender == Gender.FEMALE -> YearSexes.FEMALE_FEMALE
         else -> YearSexes.MIXED
+    }
+
+    /** The kind of spouse [own] meeting [other] makes in one aspect (p. 355; *Removing the Tarnish*, reply 113). */
+    fun kind(own: Element, other: Element): SpouseKind = when (Forces.kinship(own, other)) {
+        Kinship.MOTHER, Kinship.SON -> SpouseKind.KARMA
+        Kinship.FRIEND -> SpouseKind.KIN
+        Kinship.ENEMY -> SpouseKind.ENMITY
+        Kinship.IDENTITY -> if (own == Element.EARTH || own == Element.WATER) SpouseKind.KARMA else SpouseKind.KIN
+    }
+
+    /** Each aspect's kind of spouse, set as the single match sets it ([manLeads]). */
+    fun kinds(man: YearForces, woman: YearForces): List<Pair<Force, SpouseKind>> = ASPECTS.map { f ->
+        f to if (manLeads(f)) kind(man[f], woman[f]) else kind(woman[f], man[f])
+    }
+
+    /**
+     * The mewa of the aspect [force] of one born in the Tibetan year [year] (ch. 21, p. 255, «ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་།»;
+     * marriage.md, *Open questions 161–165*): the body's is the birth mewa; the life force's "four up", the birth
+     * mewa less three; destiny's "four down", plus three, round 1–9; the luck's the birth mewa of the wind-horse year
+     * of the animal's triad in the same sixty years, as WB's own fire hare counts it.
+     */
+    fun aspectMewa(year: Int, force: Force): Int {
+        val birth = YearOfLife.yearSmeBa(year)
+        return when (force) {
+            Force.BODY -> birth
+            Force.VITALITY -> Math.floorMod(birth - 4, 9) + 1
+            Force.DESTINY -> Math.floorMod(birth + 2, 9) + 1
+            Force.LUCK -> YearOfLife.yearSmeBa(windHorseYear(year))
+        }
+    }
+
+    /**
+     * The wind-horse year of the triad the year [year]'s animal is in (ch. 21, p. 254), within the same sixty years,
+     * counted from the fire hare of 1027.
+     */
+    fun windHorseYear(year: Int): Int {
+        val start = 1027 + 60 * Math.floorDiv(year - 1027, 60)
+        val horse = when (YearOfLife.yearSign(year).animal) {
+            Animal.TIGER, Animal.HORSE, Animal.DOG -> Sign(Element.IRON, Animal.MONKEY)
+            Animal.PIG, Animal.SHEEP, Animal.RABBIT -> Sign(Element.FIRE, Animal.SNAKE)
+            Animal.MOUSE, Animal.DRAGON, Animal.MONKEY -> Sign(Element.WOOD, Animal.TIGER)
+            Animal.BIRD, Animal.OX, Animal.SNAKE -> Sign(Element.WATER, Animal.PIG)
+        }
+        return (start until start + 60).first { YearOfLife.yearSign(it) == horse }
+    }
+
+    /**
+     * The trigram a mewa [mewa] stands for on the hidden's wheels (p. 358; the notes, p. 524): the square with the 5
+     * in the middle; a man's 5 counts as 2, a woman's as 7 (p. 357).
+     */
+    fun mewaTrigram(mewa: Int, man: Boolean): Trigram = when (mewa) {
+        9 -> Trigram.LI
+        2 -> Trigram.KHON
+        7 -> Trigram.DWA
+        6 -> Trigram.KHEN
+        1 -> Trigram.KHAM
+        8 -> Trigram.GIN
+        3 -> Trigram.ZIN
+        4 -> Trigram.ZON
+        5 -> if (man) Trigram.KHON else Trigram.DWA
+        else -> throw IllegalArgumentException("no mewa $mewa")
+    }
+
+    /** The wheel the two trigrams [a] and [b] fall on (pp. 357–358). */
+    fun wheel(a: Trigram, b: Trigram): HiddenWheel = HiddenWheel.entries.first { it.holds(a, b) }
+
+    /**
+     * Point 4, the hidden (pp. 357–358): each aspect's mewa of the man, born in the Tibetan year [manYear], and of the
+     * woman, born in [womanYear], set on the wheels. With [deeper], point 5, the deeper hidden (p. 359): the man's
+     * mewa stays, the woman's is drawn, 1 and 2, 3 and 9, 4 and 8 to each other, 5, 6 and 7 not drawn.
+     */
+    fun hidden(manYear: Int, womanYear: Int, deeper: Boolean = false): List<Triple<Force, Pair<Int, Int>, HiddenWheel>> = ASPECTS.map { f ->
+        val man = aspectMewa(manYear, f)
+        val woman = aspectMewa(womanYear, f).let { if (deeper) drawn(it) else it }
+        Triple(f, man to woman, wheel(mewaTrigram(man, man = true), mewaTrigram(woman, man = false)))
+    }
+
+    /** The deeper hidden's drawing of the woman's mewa (p. 359). */
+    fun drawn(mewa: Int): Int = when (mewa) {
+        1 -> 2; 2 -> 1; 3 -> 9; 9 -> 3; 4 -> 8; 8 -> 4
+        else -> mewa
+    }
+
+    /** The pebbles an element counts in point 7 (p. 359): wood one, earth two, water three, fire four, iron five. */
+    fun siblingsPebbles(e: Element): Int = when (e) {
+        Element.WOOD -> 1
+        Element.EARTH -> 2
+        Element.WATER -> 3
+        Element.FIRE -> 4
+        Element.IRON -> 5
+    }
+
+    /**
+     * Point 7, the siblings' number of the elements (p. 359; the notes, p. 525), of one born in the Tibetan year
+     * [year]: the pebbles of the life force's, body's, destiny's and luck's elements and the birth mewa's, summed.
+     */
+    fun siblings(year: Int): Int {
+        val forces = YearOfLife.yearSign(year).let { Forces.of(it.element, it.animal) }
+        return ASPECTS.sumOf { siblingsPebbles(forces[it]) } + siblingsPebbles(smeBaElement(YearOfLife.yearSmeBa(year)))
+    }
+
+    /** Point 7's comparison of the man's sum [man] and the woman's [woman]. */
+    fun siblingsWin(man: Int, woman: Int): SiblingsWin = when {
+        man == woman -> SiblingsWin.EQUAL
+        man > woman -> SiblingsWin.MAN
+        else -> SiblingsWin.WOMAN
+    }
+
+    /** Point 7's agreement, read once on the two sums together (the notes, p. 525): even agrees. */
+    fun siblingsAgree(man: Int, woman: Int): Boolean = (man + woman) % 2 == 0
+
+    /** The couple's deciding pebble over the bad years, from whether the man and the woman are born in any (the notes, pp. 523–524). */
+    fun badYearPebble(man: Boolean, woman: Boolean): BadYearPebble = when {
+        man && woman -> BadYearPebble.BLACK
+        woman -> BadYearPebble.SPECKLED_WOMAN
+        man -> BadYearPebble.SPECKLED_MAN
+        else -> BadYearPebble.WHITE
     }
 
     /** The two destinies' elements as a pair, the earlier in [Element]'s order first (p. 357). */
