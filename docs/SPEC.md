@@ -669,7 +669,31 @@ on the scan that follow from the years alone. `BirthReckoning`
   gender and, for a son, the father's year. The sheet's own birth is
   `BirthTest`'s vector, cell by cell.
 
-**Not calculated** yet: the pebble of the time (p. 261); the line of births' other counts; the readings of p. 326 that need the order of
+- **The birth together** (ROADMAP R4; [sources/verdicts.md](sources/verdicts.md),
+  *The birth read whole*): atop the screen, the hundred's twenty
+  deciding pebbles weighed by p. 349's rule, good where the good are
+  more, bad where the bad, middling where even, no one or two results
+  deciding, the rites of the moment able to turn the bad
+  (`BirthReckoning.whole`, the good counted by `Hundred.good`); the
+  Remedy rows of the bad deciding pebbles and the bad sets gathered into
+  its own. Then the sets of p. 338 that hold on the deciding pebbles: the
+  four mothers (the notes, p. 484: the life force's, body's, destiny's and
+  luck's) white, black, or two and two; many white or many black among the
+  twenty (ten each gives neither); the four sons and the four friends
+  white, black or mixed; the life force's, destiny's and luck's own
+  deciding pebble white with its enemy's black, rising, good, or the
+  reverse, bad, the life force's ending by the blade (rising read as the
+  pebble white, as the notes read the five doors, p. 484, and as Lha mo
+  tshul khrims restates the sets in pebble colours). Then how the board
+  is read whole (p. 331), as a reading beside the drawn board, its
+  patterns not counted. The twenty-one children (pp. 338–340) are not
+  named: each is defined by conditions together, several of them the
+  mother's obstacle reckoning at the birth or observations, and no text
+  names a child on part of them ([sources/claims/birth-children-no-count.md](sources/claims/birth-children-no-count.md)).
+  `BirthTest` holds the sets and the whole of the sheet's birth.
+
+**Not calculated** yet: the pebble of the time (p. 261); the
+twenty-one children; the general verdict's patterns counted; the line of births' other counts; the readings of p. 326 that need the order of
 the siblings or end "and the like" (an earlier child on li and a later
 on khen; mother and child on enemy trigrams); the five by the year
 (p. 347), another count of the same five, not shown beside p. 294's.
@@ -3601,7 +3625,11 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   on the points read. Without a gender or a spouse's year, what it needs
   and the way to People.
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's
-  name; the person's birth year and its life force; under "The natal
+  name; the person's birth year and its life force; under "Together" the
+  birth together ("The birth together · weighs bad", "Of the twenty
+  deciding pebbles 8 good, 12 bad"), each set that holds ("The four
+  friends black") and "Reading the board", or a line that it needs the
+  gender and a son's father's year; under "The natal
   trigram" its row (as in the year of age), the child it makes them and
   the same five for the body, destiny and the luck ("Body · the
   children's glory · Body earth · natal trigram lake (དྭ, dwa), iron");

@@ -114,7 +114,7 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
-| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text), the birth's next | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
 ## Readings
 
@@ -3959,13 +3959,28 @@ groups it shows (`tools/emulator/store_shots.py`).
   `BirthTest`, `CatalogTest`, `:app:testDebugUnitTest`, the emulator in
   English (a fire dragon man and an earth sheep woman, all of karma, the
   gathered remedies) and Russian (a water pig man and an earth sheep
-  woman, mixed), the release build (no raw keys). Not built: the birth's
-  Together (waited on the hundred pebbles' board and the twenty-one
-  children's count, open questions 184 and 185, answered 2026-10-22:
-  [claims/birth-hundred-board.md](sources/claims/birth-hundred-board.md),
-  [claims/birth-children-no-count.md](sources/claims/birth-children-no-count.md)), the year of
-  age's beyond Y1's, the karma reckoning reckoned over the match (open
-  question 210).
+  woman, mixed), the release build (no raw keys). **The birth's Together built
+  2026-10-22** (block 58, SPEC §5.9.2), after open questions 184 and 185
+  ([claims/birth-hundred-board.md](sources/claims/birth-hundred-board.md),
+  [claims/birth-children-no-count.md](sources/claims/birth-children-no-count.md))
+  and R2m: a "Together" section atop the birth, the hundred's twenty
+  deciding pebbles weighed by p. 349's rule (good, bad or even by the
+  good pebbles' number) with the bad pebbles' and bad sets' remedies
+  gathered, the sets of p. 338 that hold (the four mothers, many white
+  or black, the four sons and friends, own against enemy for the life
+  force, destiny and luck; rising read as the pebble white by the notes'
+  gloss of the five doors, p. 484, and Lha mo tshul khrims's
+  restatement), and how the board is read whole (p. 331) as a reading
+  beside the drawn board; families `BirthTogether`, `BirthSet`,
+  `BirthBoard` (item R2), English and Russian. Checked: `BirthTest` (the
+  sheet's birth: mothers two and two, many black, sons mixed, friends
+  black, 8 good of 20, weighs bad), `CatalogTest`, `:app:testDebugUnitTest`,
+  the emulator in English and Russian (the sheet's birth: the section,
+  the gathered remedies, the board's reading). Not built: the twenty-one
+  children (each by conditions together, several the mother's obstacle
+  reckoning at the birth or observations; no text names one on part of
+  them), the board's patterns counted, the year of age's beyond Y1's,
+  the karma reckoning reckoned over the match (open question 210).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
