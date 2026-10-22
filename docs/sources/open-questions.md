@@ -2841,7 +2841,16 @@ the text, not about the app.
      cite for the hundred pebbles and the household, and does it rest on
      WB? [verdicts.md](verdicts.md), "Written reckonings: the
      practitioners' form" (RD28).
-245. **«སྟངས་གཅོད» and «བཏང་གཅོད» (KD vol. 3, pp. 722, 729).**
+245. ~~**«སྟངས་གཅོད» and «བཏང་གཅོད» (KD vol. 3, pp. 722, 729).**~~
+     *Answered 2026-10-22 ([verdicts.md](verdicts.md), "«སྟངས་གཅོད» and
+     «བཏང་གཅོད», the deciding pebble"): the same word for the same pebble.
+     The *Moonbeams*, its supplement and the sheets write «སྟངས་གཅོད» in the
+     very places where WB writes «བཏང་གཅོད» (vol. 1, pp. 260, 385, 468;
+     vol. 2, pp. 46, 55–56); the spellings cross between copies of one
+     line; the one dictionary with the word («གཏང་གཅོད», *Ocean of Word
+     Treasures*) makes it a chart's summing row, one with the verdict.
+     Which spelling is the original stays open (questions 247, 248).*
+     The question as it stood:
      Is the sheets' «སྟངས་གཅོད» WB's «བཏང་གཅོད», the deciding pebble, in
      another spelling? (BDRC's search gives «སྟངས་གཅོད» 90 hits and no
      catalogued title, RD25.) [verdicts.md](verdicts.md), "Written
@@ -2850,3 +2859,16 @@ the text, not about the app.
      Who is Kun dga' rig 'dzin, the writer of the *Sheets of Some Needed
      Examples* (MW28845_B881BE)? [verdicts.md](verdicts.md), "Written
      reckonings: the practitioners' form" (RD28).
+247. **The older spelling of the deciding pebble.** Which spelling of the
+     deciding is the older, «བཏང་གཅོད» (WB and its prints, Mipham),
+     «སྟངས་གཅོད» (Dharmaśrī's *Moonbeams* and its followers), «གཏང་གཅོད» (the
+     *Mirror of Magic*, the *Good Vase*, the *Ocean of Word Treasures*) or
+     the old «སྟོང་གཅོད» that the word lists give for deciding is or is not;
+     and is «སྟངས» here the "manner" word or a sound-spelling of «བཏང»?
+     [verdicts.md](verdicts.md), "«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding
+     pebble" (question 245).
+248. **Dharmaśrī's own spelling.** Is «སྟངས་གཅོད» Dharmaśrī's own spelling,
+     or only that of the print of his collected works read here (I2533)
+     and the copies taken from it? An older manuscript of the *Moonbeams*,
+     if one survives, would show it. [verdicts.md](verdicts.md),
+     "«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble" (question 245).

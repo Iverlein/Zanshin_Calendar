@@ -815,3 +815,33 @@ Searched and found wanting, so not to be repeated:
   Lhamo Tsultrim's etext (I1KG21886): «མྱོང་བྱང», «རྩིས་ཡིག», «རྩིས་བྱང»,
   «སྦྱིན་བདག», «ཡི་གེར», «འབྲི་ཚུལ», «བྲི་ཚུལ», «དཔེར་བརྗོད», «ཟིན་བྲིས»,
   «སྤྱི་བསྡོམ» none; «ཤོག་ཁྲ» only look-up tables (etext pp. 12, 194–195).
+- **«སྟངས་གཅོད» and «བཏང་གཅོད», a gloss or a text naming both** (open question 245, 2026-10-22):
+  - 2026-10-22, Steinert's 64 dictionaries (`locate.py dict`, Wylie
+  headwords): «btang gcod», «stangs gcod», «stang gcod», «btangs gcod»,
+  «stangs bcad», «btang bcad» no headword; «gtang gcod» only in the
+  *Ocean of Word Treasures*; «thag gcod» in seven, none tied to the
+  reckoning.
+  - 2026-10-22, BDRC's full-text search, exact phrases, no hit:
+  «གཡབ་མོས་སྟངས་གཅོད», «སྟངས་གཅོད་ཉེར་བཞི», «བཏང་གཅོད་ཉེར་བཞི», «འཚོ་འཆི་སྟངས་གཅོད»,
+  «དགེ་སྡིག་གི་བཏང་གཅོད», «གཏང་གཅོད་ཁ་དམར», «སྟངས་གཅོད་ནི», «གཏང་གཅོད་ནི»,
+  «བཏང་གཅོད་ཅེས», «སྟངས་གཅོད་ཅེས», «བསྲེག་སྒྲུབ་བཏང་གཅོད», «བསྲེག་སྒྲུབ་གཏང་བཅད»,
+  «སྟངས་གཅོད་དཀར་ན་ཆགས»: no gloss of «སྟངས་གཅོད» anywhere, and no text that names
+  the two spellings together. Hits counted but not all read (first page
+  of results only): «སྟངས་གཅོད» 90, «བཏང་གཅོད» 69, «སྟོང་གཅོད» 43 (most of them
+  «རྡུལ་ཕྲན་སྟོང་གཅོད», cutting a thousand atoms, another phrase), «སྟངས་བཅད» 23
+  (mostly "posture taken", «འདུག་སྟངས་བཅད»), «བཏང་བཅད» 16 (mostly medical
+  recipes, "given, it stops", another phrase), «གཏང་གཅོད» 12, «སྟང་གཅོད» 10,
+  «བཏང་གཅོད་ཁ་དམར» 17 (the Four Tantras and their commentaries),
+  «བཏངས་གཅོད» 1 (Gyurme Dorje's book only); «སྟང་གཅོད» outside the
+  reckoning mostly political («ཞང་བློན་སྟང་གཅོད», ministers' rulings).
+  - 2026-10-22, the etexts: WB's 1996 etext has no «སྟངས་གཅོད», «སྟང་གཅོད»,
+  «བཏངས་གཅོད» or «སྟངས་བཅད» in either volume; the Zhol, second Zhol and
+  Sde dge etexts none either (poor OCR). KD vol. 3's etext has
+  «སྟངས་གཅོད» only in the *Moonbeams*, Kun bzang blo gros's supplement and
+  the sheets, and «བཏང་གཅོད» only in the supplement's verses of the dead
+  (pp. 706–707). Dpal bsdus's *'Byung rtsis dpyad don rmad byung* (I4767)
+  has «བཏང་གཅོད» once (etext p. 216) and «རྣོ་སྟངས་གཅོད», a sharp deciding, twice
+  (pp. 232, 307), no gloss. The *Removing the Tarnish* (I5876) etext: no «སྟངས་གཅོད» and no
+  «བཏང་གཅོད» under that OCR (RD18 found «བཏང་གཅོད» once on its poor p. 16).
+  - 2026-10-22, Mipham's own print (I2029, img. 656–676, Yigdzin-1): no
+  «སྟངས་གཅོད».

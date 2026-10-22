@@ -5019,7 +5019,7 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 
 - Open question 243 ([open-questions.md](open-questions.md)): the verdict laid with a count.
 - Open question 244 ([open-questions.md](open-questions.md)): the *Spor thang*.
-- Open question 245 ([open-questions.md](open-questions.md)): «སྟངས་གཅོད» and «བཏང་གཅོད».
+- Open question 245 ([open-questions.md](open-questions.md)): «སྟངས་གཅོད» and «བཏང་གཅོད»; answered 2026-10-22, the same pebble (section *«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble* below).
 - Open question 246 ([open-questions.md](open-questions.md)): Kun dga' rig 'dzin.
 - Doubts left on the scan (no agy turn): p. 716, «སྲོག་[མྱུ]་རྩིས» (the etext «མྱུ»; the eye at 4× cannot tell མྱུ from ཕྱུ); p. 729, «ཀླུ་རྟའི» as printed.
 - Left, not read (BDRC's image server down 2026-10-21): the LTWA's *Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401) and the Lhasa Mentsikhang's 1987 blockprint of life reckonings and reckoning books (I1KG12897); [RD29](../ROADMAP.md#rd29).
@@ -5250,13 +5250,13 @@ same pebble.
 
 ### Open
 
-- Question: Which spelling of the deciding is the older, «བཏང་གཅོད» (WB and
+- Open question 247 ([open-questions.md](open-questions.md)): which spelling of the deciding is the older, «བཏང་གཅོད» (WB and
   its prints, Mipham), «སྟངས་གཅོད» (Dharmaśrī's *Moonbeams* and its
   followers), «གཏང་གཅོད» (the *Mirror of Magic*, the *Good Vase*, the
   *Ocean of Word Treasures*) or the old «སྟོང་གཅོད» that the word lists give
   for deciding is or is not; and is «སྟངས» here the "manner" word or a
   sound-spelling of «བཏང»?
-- Question: Is «སྟངས་གཅོད» Dharmaśrī's own spelling, or only that of the
+- Open question 248 ([open-questions.md](open-questions.md)): is «སྟངས་གཅོད» Dharmaśrī's own spelling, or only that of the
   print of his collected works read here (I2533) and the copies taken
   from it? An older manuscript of the *Moonbeams*, if one survives, would
   show it.
