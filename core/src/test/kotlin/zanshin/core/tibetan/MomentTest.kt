@@ -45,4 +45,12 @@ class MomentTest {
         assertEquals(MomentPeriod.SUNSET, MomentReckoning.period(12 * 60 + 59))
         assertEquals(null, MomentReckoning.period(14 * 60))
     }
+
+    /** The hour's power follows on by sons from the day's: a wood day's dawn is fire, its sunrise earth, its late afternoon fire again. */
+    @Test
+    fun `the hour's element`() {
+        assertEquals(Element.FIRE, MomentReckoning.hourElement(Element.WOOD, MomentPeriod.DAWN))
+        assertEquals(Element.EARTH, MomentReckoning.hourElement(Element.WOOD, MomentPeriod.SUNRISE))
+        assertEquals(Element.FIRE, MomentReckoning.hourElement(Element.WOOD, MomentPeriod.LATE))
+    }
 }

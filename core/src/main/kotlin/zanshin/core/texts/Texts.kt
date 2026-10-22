@@ -461,7 +461,7 @@ object Sources {
     /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
     /** The moment's trigram and mewa (ROADMAP R2o, docs/sources/reckonings.md, RD17). */
-    val WHITE_BERYL_MOMENT = whiteBeryl("chapter 30, pp. 156–157 and 161–162, with the notes on p. 535")
+    val WHITE_BERYL_MOMENT = whiteBeryl("chapter 30, pp. 156–162, with the notes on p. 535")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
@@ -2122,6 +2122,9 @@ object Texts {
 
     /** The general verdict read from where the hundred lie on the board (WB vol. 1, ch. 22, p. 331). */
     fun birthBoard(): Reading = Reading(key = "reading.BirthBoard", source = Sources.WHITE_BERYL_BIRTH_WHOLE)
+
+    /** The element [e] of the moment's hour (WB vol. 2, ch. 30, pp. 157–161). */
+    fun momentElement(e: Element): Reading = Reading(key = "reading.MomentElement", arg = "reading.MomentElement.${e.name}", source = Sources.WHITE_BERYL_MOMENT)
 
     /** The moment's period of the day [p] (WB vol. 2, ch. 30, pp. 156–157). */
     fun momentPeriod(p: MomentPeriod): Reading = Reading(key = "reading.MomentPeriod", arg = "reading.MomentPeriod.${p.name}", source = Sources.WHITE_BERYL_MOMENT)

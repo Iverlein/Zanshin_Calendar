@@ -17,6 +17,8 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.Forces
+import zanshin.core.texts.gloss
 import zanshin.core.tibetan.MomentReckoning
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.TibetanDay
@@ -48,6 +50,17 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, onOpen: (Annotation) -> U
                     english = "",
                     tone = Tone.NEUTRAL,
                     reading = Texts.momentPeriod(period),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+            val element = MomentReckoning.hourElement(Forces.signs(day).date.element, period)
+            AnnotationRow(
+                Annotation(
+                    title = labels.string(R.string.moment_element_title, gloss(element, "inText")),
+                    english = "",
+                    tone = Tone.NEUTRAL,
+                    reading = Texts.momentElement(element),
                     titleIsKanji = false,
                 ),
                 onOpen,

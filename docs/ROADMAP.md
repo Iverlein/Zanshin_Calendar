@@ -3974,8 +3974,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   `CatalogTest`, the emulator in English and Russian (22:30 at Kyoto on
   the 11th of the 9th month: khon and 9, by hand), the release build. The readings by the
   time of day (pp. 156–157, read on the scan) added the same day, family
-  `MomentPeriod`. Not built: the readings by the hour's element (pp.
-  157–161, machine-read), the asker's year, the small reckonings.
+  `MomentPeriod`. The readings by the
+  hour's element (pp. 157–161) added the same day, family
+  `MomentElement`. Not built: the asker's year, the small reckonings.
 - **R4 Combining the readings — planned 2026-10-20** (block
   [58](#block-58); [sources/verdicts.md](sources/verdicts.md)). The
   owner (2026-10-20): the reckonings show each section with its pebbles

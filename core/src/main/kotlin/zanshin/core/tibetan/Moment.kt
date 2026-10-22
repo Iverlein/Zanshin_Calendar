@@ -21,6 +21,12 @@ object MomentReckoning {
     /** The period of the day [minutes] after dawn: the hare's hour dawn, the dragon's sunrise, on to the bird's sunset; null by night. */
     fun period(minutes: Int): MomentPeriod? = MomentPeriod.entries.getOrNull(minutes / 120)
 
+    /**
+     * The element of the hour's power in [period] (p. 156, «ཉིན་དྲུག་བུ་འདེད་ཁམས་སྦྱར»; the notes, p. 535): the son of the
+     * day's power [day] at dawn, each period's the son of the one before.
+     */
+    fun hourElement(day: Element, period: MomentPeriod): Element = Element.entries[(day.ordinal + period.ordinal + 1) % 5]
+
     /** The trigram that dawns on a month's first date, by the month's animal. */
     fun monthTrigram(month: Animal): Trigram = when (month) {
         Animal.TIGER, Animal.HORSE, Animal.DOG -> Trigram.LI
