@@ -802,14 +802,15 @@
     <string name="year_detail_mother_born">Mother\'s birth year</string>
     <string name="year_log_men_title">Progressed sign (ལོག་མེན, log men): %1$s</string>
     <string name="year_section_pebbles">The pebbles</string>
-    <string name="year_tally">White · black</string>
+    <string name="year_tally">White · black places</string>
     <string name="year_tally_value">%1$d · %2$d</string>
     <string name="year_cell_subtitle">Your %2$s against the %1$s</string>
     <string name="year_detail_yours">%1$s, your %2$s</string>
     <string name="year_predictive_title">%1$s: %2$s</string>
     <string name="year_predictive_white">predictive pebble white</string>
     <string name="year_predictive_black">predictive pebble black</string>
-    <string name="year_predictive_even">even, no predictive pebble</string>
+    <string name="year_predictive_speckled">predictive pebble speckled</string>
+    <string name="year_places_value">White places %1$d · black places %2$d</string>
     <string name="year_predictive_incomplete">not all six pebbles are reckoned</string>
     <string name="year_all_white">All four predictive pebbles white</string>
     <string name="year_all_black">All four predictive pebbles black</string>

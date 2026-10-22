@@ -40,6 +40,7 @@ import zanshin.core.tibetan.DecisivePebble
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Force
+import zanshin.core.tibetan.PebbleColour
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.HarshYear
 import zanshin.core.tibetan.HourSign
@@ -118,14 +119,14 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         }
         if (r.complete) {
             val all = Force.entries.map { r.predictive(it) }.distinct()
-            if (all.size == 1 && all[0] != null) {
-                val white = all[0]!!
+            if (all.size == 1 && all[0] != PebbleColour.SPECKLED) {
+                val white = all[0] == PebbleColour.WHITE
                 AnnotationRow(
                     Annotation(
                         title = stringResource(if (white) R.string.year_all_white else R.string.year_all_black),
                         english = "",
                         tone = if (white) Tone.MIXED else Tone.BAD,
-                        reading = Texts.yearPredictive(null, white),
+                        reading = Texts.yearPredictive(null, all[0]!!),
                         titleIsKanji = false,
                     ),
                     onOpen,
@@ -200,7 +201,7 @@ private fun PebbleGrid(r: YearReckoning, labels: Labels, onOpen: (Annotation) ->
         Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             Text(stringResource(R.string.year_tally), style = body.copy(fontSize = 12.sp, color = Palette.muted), modifier = Modifier.weight(1.3f))
             Force.entries.forEach {
-                val t = r.tally(it)
+                val t = r.places(it)
                 Text(stringResource(R.string.year_tally_value, t.white, t.black), style = body.copy(fontSize = 13.sp, color = Palette.muted), textAlign = TextAlign.Center, modifier = Modifier.weight(1f))
             }
         }
@@ -259,25 +260,26 @@ private fun cellAnnotation(r: YearReckoning, p: DecisivePebble, labels: Labels):
 }
 
 private fun predictiveAnnotation(r: YearReckoning, force: Force, care: Care, labels: Labels): Annotation {
-    val t = r.tally(force)
+    val t = r.places(force)
     val side = r.predictive(force)
     val aspect = force.english.replaceFirstChar(Char::uppercase)
-    val value = when {
-        !r.complete -> labels.string(R.string.year_predictive_incomplete)
-        side == null -> labels.string(R.string.year_predictive_even)
-        side -> labels.string(R.string.year_predictive_white)
-        else -> labels.string(R.string.year_predictive_black)
+    val value = when (side) {
+        null -> labels.string(R.string.year_predictive_incomplete)
+        PebbleColour.WHITE -> labels.string(R.string.year_predictive_white)
+        PebbleColour.BLACK -> labels.string(R.string.year_predictive_black)
+        PebbleColour.SPECKLED -> labels.string(R.string.year_predictive_speckled)
     }
     return Annotation(
         title = labels.string(R.string.year_predictive_title, aspect, value),
         english = "",
         tone = when (side) {
-            true -> Tone.GOOD
-            false -> Tone.BAD
+            PebbleColour.WHITE -> Tone.GOOD
+            PebbleColour.BLACK -> Tone.BAD
+            PebbleColour.SPECKLED -> Tone.MIXED
             null -> Tone.NEUTRAL
         },
         reading = side?.let { Texts.yearPredictive(force, it) },
-        subtitle = labels.string(R.string.year_tally_value, t.white, t.black) +
+        subtitle = labels.string(R.string.year_places_value, t.white, t.black) +
             if (care.force == force) " · " + labels.string(R.string.year_matters_most) else "",
         titleIsKanji = false,
     )

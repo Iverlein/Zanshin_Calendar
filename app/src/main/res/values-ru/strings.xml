@@ -666,14 +666,15 @@
     <string name="year_detail_mother_born">Год рождения матери</string>
     <string name="year_log_men_title">Смещённый знак (ལོག་མེན, log men): %1$s</string>
     <string name="year_section_pebbles">Камни</string>
-    <string name="year_tally">Белые · чёрные</string>
+    <string name="year_tally">Места: белые · чёрные</string>
     <string name="year_tally_value">%1$d · %2$d</string>
     <string name="year_cell_subtitle">Ваш аспект «%2$s» против знака «%1$s»</string>
     <string name="year_detail_yours">%1$s, ваш аспект «%2$s»</string>
     <string name="year_predictive_title">%1$s: %2$s</string>
     <string name="year_predictive_white">предсказательный камень белый</string>
     <string name="year_predictive_black">предсказательный камень чёрный</string>
-    <string name="year_predictive_even">поровну, предсказательного камня нет</string>
+    <string name="year_predictive_speckled">предсказательный камень пёстрый</string>
+    <string name="year_places_value">Белых мест %1$d · чёрных мест %2$d</string>
     <string name="year_predictive_incomplete">не все шесть камней рассчитаны</string>
     <string name="year_all_white">Все четыре предсказательных камня белые</string>
     <string name="year_all_black">Все четыре предсказательных камня чёрные</string>
