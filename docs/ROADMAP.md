@@ -1566,6 +1566,21 @@ verdict, and the owner's decisions of 2026-10-10:
   comes, roughly with the bad (vol. 2, p. 495, said of the illness
   reckoning's pebbles; named so). Questions 172, 190 and 191 stay open
   for a reader of the tradition; the build does not wait on them.
+- **D17, open (2026-10-22): the year of age's obstacles read through the aspect they meet** ([RD20](#rd20),
+  [verdicts.md](sources/verdicts.md), *The year of age gathered*; R4, block
+  [58](#block-58)): Mipham's notes (vol. 2, pp. 492–495) read each obstacle
+  of the year through the person's aspects: a harsh year is harsh or not
+  "by fighting that year against one's own year's vitality and the rest";
+  a tomb year met as the own tomb itself or the slayer's tomb as enemy is
+  a great danger, as mother, friend or son a small one; the undertakers are
+  bad when they meet an aspect as enemy; the *dza zor* without cutting the
+  vitality seems to be no fault; the nine-multiples' tomb years bad as
+  oneself or enemy, mild otherwise. The app shows every obstacle WB lists
+  for the year, each with its reading. Whether the year of age's Together
+  grades or leaves out an obstacle by the notes' meeting, and for the harsh
+  years which meeting makes one harsh (the notes name the fight but not
+  its count), is the owner's; the household round waits besides on open
+  question 258 (its zigzag and fold for a household other than five).
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
@@ -3979,7 +3994,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   the gathered remedies, the board's reading). Not built: the twenty-one
   children (each by conditions together, several the mother's obstacle
   reckoning at the birth or observations; no text names one on part of
-  them), the board's patterns counted, the year of age's beyond Y1's,
+  them), the board's patterns counted, the year of age's beyond Y1's (its obstacles graded by the notes' meeting, D17; the household round, open question 258),
   the karma reckoning reckoned over the match (open question 210).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
