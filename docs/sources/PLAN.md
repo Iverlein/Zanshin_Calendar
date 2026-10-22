@@ -41,6 +41,11 @@ every model they start, even when killed.
 
 A reading session fills `docs/sources/`; nothing it learns is left in the
 conversation or in a scratch directory (the owner, 2026-10-11).
+Where in `docs/sources/` it goes, and in what shape, is [STRUCTURE.md](STRUCTURE.md):
+since 2026-10-22 a new reading writes its passages into the corpus file of
+its chapter (`corpus/<siglum>/<chapter>.md`), each passage with its id and
+`*Read:*` line, its facts as claims and its questions as question files;
+an old topic file is split into those when next touched.
 
 - **The text itself, in Tibetan.** Every passage read for the app goes
   into its topic file in Tibetan script as it reads on the scan, with
@@ -111,6 +116,11 @@ scratch directory, not in the repository:
   run now and how many at once the card and the memory bear, their
   prompts and topic-file stubs, and the GPU slot lock every model run
   goes through ([PROTOCOL.md](PROTOCOL.md)).
+- `kb.py check|coverage|passage|cites|questions|next|search|orphans|graph` —
+  the index of the knowledge pool (STRUCTURE.md): what the files get wrong,
+  each source's pages by the state they were read in, who cites a passage,
+  what to read next by what waits on it, full text; `--json` for an agent.
+  Run `check` with `SourcesTest` before a reading is marked done.
 - `bdrc_ocr.py APP setup|run` — BDRC's older app models (CPU, seconds a
   page), a quicker but weaker witness.
 - `score_reading.py TRUTH READING…` and `ocr_bench.py pick|score` — a

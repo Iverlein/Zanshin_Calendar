@@ -16,7 +16,8 @@ once before the first plan.
    `--no-gpu`, `--agents` if needed. It writes the slot count for
    `schedule.py slot`.
 3. **Stubs.** `python3 tools/sources/schedule.py stubs`; fix a poor
-   title; `./gradlew :core:test --tests 'zanshin.core.SourcesTest'`;
+   title; `./gradlew :core:test --tests 'zanshin.core.SourcesTest'`
+   and `python3 tools/sources/kb.py check`;
    commit `docs: topic file stubs for <ids>`; fast-forward into `main`.
 4. **Prompts.** `python3 tools/sources/schedule.py prompts DIR` (DIR in
    the scratch directory); read each; add what the row lacks.
@@ -30,7 +31,7 @@ once before the first plan.
    put each change for a build it reports into ROADMAP's T2.28 (an
    owner's decision named there),
    extend docs/sources/wb/README.md's *Images done*; `./gradlew
-   :core:test`; commit `docs: RD<n> done, <what it settled>`;
+   :core:test` and `python3 tools/sources/kb.py check`; commit `docs: RD<n> done, <what it settled>`;
    fast-forward; remove the subagent's worktree and branch and its
    scratch; then `schedule.py plan` again and launch what it frees
    (steps 3–5 for those).

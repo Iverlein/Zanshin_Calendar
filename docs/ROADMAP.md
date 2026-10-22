@@ -42,6 +42,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works — built 2026-10-21 | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
+| 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
 
 ## Blocks
 
@@ -4422,6 +4423,32 @@ Weblate and GitHub, with the owner's accounts:
   Wikipedia's CC BY-SA wording may, with attribution.
 - The app itself gains no network access: translations arrive in the source
   and ship with a release.
+
+## The knowledge pool
+
+#### <a id="c1"></a>C1 The knowledge pool in layers — planned 2026-10-22
+
+- **Gap.** `docs/sources/` is 42 topic files and 450 000 words that mix
+  the corpus (the Tibetan with its page and image) with what is drawn from
+  it; a claim cites a file, not a passage; the questions are one numbered
+  file; a source's coverage is prose in README's *State* column. The pool
+  will grow to several medicine and tantra sources and thousands of pages
+  (the owner, 2026-10-22), and that shape does not bear it.
+- **Work.** The layers of [docs/sources/STRUCTURE.md](sources/STRUCTURE.md):
+  the registry `sources.yaml`, a corpus file per source chapter with
+  passage ids and reading states, claims citing passage ids, a file per
+  question, and the index `tools/sources/kb.py` that reads both the old
+  and the new shape (built 2026-10-22: the registry, the note, the index
+  with `check`, `coverage`, `passage`, `cites`, `questions`, `next`,
+  `search`, `orphans`, `graph`; `schedule.py stubs` and `SourcesTest`
+  accept a topic file in a subdirectory). What remains: every new reading
+  written in the layers; each old topic file split when next touched
+  (first step allowed: anchor its passages with ids); then README's Files
+  table and *State* column generated from the frontmatter, `SourcesTest`
+  covering the layers, `open-questions.md` emptied into `questions/`.
+- **Check.** `kb.py check` clean with no warnings; `kb.py coverage wb`
+  agrees with `wb-contents.md`; a claim's `cites:` resolve to passages
+  with a state; `SourcesTest` passes.
 
 ## Later
 

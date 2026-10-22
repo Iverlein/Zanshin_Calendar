@@ -1,0 +1,268 @@
+# The sources registry: one entry per siglum (docs/sources/STRUCTURE.md, *Sources*).
+# The prose of each edition stays in README.md's Editions table; this file holds what a
+# tool needs: the BDRC identifiers, the volumes with their page-to-image offsets and
+# chapters, the licence, the rank among the sources and the role. `kb.py check` fails
+# when the two lists of sigla differ.
+#
+# Keys. `title`, `author`: the work. `bdrc`: `work`, `etext`, `scans` (one per volume
+# where volumes exist). `volumes`: per printed volume, `scan`, `image_offset`
+# (image = printed page + offset; a list of exceptions where the print's numbering
+# breaks), `chapters` (number: first page, from the contents pages; a chapter runs to
+# the next one's first page), `pages` (the printed extent). `locator`: what a passage
+# id counts by when there is no printed page: `image`, `folio`, `box`. `licence`:
+# public-domain, or the licence of a modern work. `rank`: 1 WB, 2 Mipham's notes and
+# writings, 3 the rest (rules .agents/rules/sources.md). `role`: source, or witness
+# (read to check WB, never built or cited alone).
+
+wb:
+  title: "Phug lugs rtsis kyi legs bshad mkhas pa'i mgul rgyan bai DUr dkar po'i do shal (White Beryl, 1685)"
+  author: "Sde srid Sangs rgyas rgya mtsho"
+  edition: "Krung go'i bod kyi shes rig dpe skrun khang, Pe cin 1996/1997, 2 vols"
+  bdrc: {work: MW2CZ8040, etext: IE0OPI51524892}
+  licence: public-domain
+  rank: 1
+  role: source
+  volumes:
+    1:
+      scan: I1KG12906
+      image_offset: 10
+      offset_exceptions: "img. 438–441 are pp. 430, 431, 430, 431 (wb-contents.md, ch. 25)"
+      pages: [3, 473]
+      chapters: {1: 3, 2: 14, 3: 22, 4: 29, 5: 34, 6: 37, 7: 42, 8: 51, 9: 56, 10: 70, 11: 79, 12: 91, 13: 104, 14: 174, 15: 180, 16: 184, 17: 190, 18: 198, 19: 213, 20: 218, 21: 252, 22: 259, 23: 351, 24: 380, 25: 417, 26: 453}
+    2:
+      scan: I1KG12907
+      image_offset: 8
+      pages: [3, 454]
+      chapters: {27: 3, 28: 26, 29: 44, 30: 144, 31: 174, 32: 241, 33: 297, 34: 378, 35: 429}
+      notes: "Mipham's notes on WB are pp. 474–541 (rank 2 when cited as his word)"
+
+wb2:
+  title: "White Beryl, Sakya Centre edition (from 18th-century Sde dge prints)"
+  edition: "Dehradun 1978, 2 vols"
+  bdrc: {work: MW1KG12714, etext: IE0OPI0BA3A0E0, scans: [I1KG12739, I1KG12740]}
+  licence: public-domain
+  rank: 1
+  role: witness
+  locator: image
+  notes: "etext page = image number; scans about 1210 px wide, too small for the interlinear numerals"
+
+wbz:
+  title: "White Beryl, Zhol print (Lhasa blocks)"
+  edition: "Zhol par khang, Lhasa, 633 ff."
+  bdrc: {work: MW1KG1617, etext: IE0OPI7850CC9C, scans: [I1KG1710]}
+  licence: public-domain
+  rank: 1
+  role: witness
+  locator: image
+  notes: "3752 px, the interlinear numerals legible; the same blocks in MW4CZ74207 (I4CZ74285, 2000 px); the Taikhang reproduction MW30116 (I5877–I5878, 8280 px, the sharpest; vol. 2 img. 468 = 1996 vol. 2 p. 330)"
+
+nm:
+  title: "'Bras rtsis rab gsal nor bu'i me long (Sakya)"
+  edition: "Dpal ldan sa skya pa'i gsung rab, vol. 7, rtsis gzhung stod cha, Mi rigs dpe skrun khang, Pe cin 2004"
+  bdrc: {work: MW29978_8B19DD, etext: IE0OPI8BBA1CDB}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "scans stream-only"
+
+sy:
+  title: "Skar yig blo gsal dga' bskyed blang dor gsal ba'i me long, chapter skar khra 'bras bshad"
+  author: "Nam mkha' seng ge"
+  edition: "Nam mkha' seng ge'i sman rtsis, pp. 289–393"
+  bdrc: {work: MW2DB13644_565451, etext: IE0OPI0000249F}
+  licence: public-domain
+  rank: 3
+  role: source
+
+kp:
+  title: "'Bras rtsis bai dkar dgongs don dri med kun phan me long"
+  edition: "Mtho las dgon print, A mdo, 120 images"
+  bdrc: {work: MW4CZ65561, scans: [I4CZ65599]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  pages: [1, 120]
+  notes: "no etext; the activity tables are cited by box number (kp:box12)"
+
+kp2:
+  title: "Kun phan me long, a second dbu can print"
+  bdrc: {work: MW3CN12069_4F9795, scans: [I3CN12074]}
+  licence: public-domain
+  rank: 3
+  role: witness
+  locator: image
+  pages: [218, 345]
+  notes: "vol. 4 of the collection; has boxes 50–51"
+
+rabten:
+  title: "Tibetan Calendar 2026"
+  edition: "Edition Rabten"
+  licence: "cited for its facts only (modern, copyrighted)"
+  rank: 3
+  role: source
+  locator: page
+
+bs:
+  title: "Tsi na'i rtsis la 'jug pa'i yi ge 'jam dbyangs mchod pa'i me tog"
+  author: "Blo bzang sbyin pa (b. 1918)"
+  edition: "Gsung 'bum, Kan su'u mi rigs dpe skrun khang, Lan kru'u 2003, vol. 3 (second group, pp. 9–102)"
+  bdrc: {work: MW25151_4E0A69}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext search only; scans lent on archive.org (bdrc-W25151, vol. 3 = file bdrc-W25151-2), tools/sources/archive_lend.py"
+
+mk:
+  title: "A text on Chinese reckoning, in Yul mdo khams stod kyi mkhas grub rnam pa'i gsung bcud bdud rtsi'i thigs phreng, vol. 10"
+  edition: "Bod ljongs dpe rnying dpe skrun khang, Lha sa 2012"
+  bdrc: {work: MW1PD152297, etext: VEIE0OPI8D89959A_I2PD18783}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "search only; scans lent on archive.org (bdrc-W1PD152297, vol. 10 = file -9, printed page = leaf − 19 at p. 306)"
+
+kd:
+  title: "Bod kyi rtsis rig kun 'dus chen mo (a collection of rtsis texts)"
+  edition: "Si khron mi rigs dpe skrun khang, Chengdu 1998"
+  bdrc: {work: MW28845, etext: IE0OPI2F246A26}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    1: {etext: VEIE0OPI2F246A26_I4715, etext_offset: 16, loan_leaf_offset: 16, notes: "Tshul khrims rgyal mtshan's weighing at pp. 498–499; printed page = etext page − 16 at p. 498"}
+    2: {loan_file: bdrc-W28845-1, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 223–315"}
+    3: {etext: VEIE0OPI2F246A26_I4717, etext_offset: 20, notes: "Mkhyen rab nor bu's digest of WB's fifth section from p. 730; DZ at etext pp. 506–536; PL at etext pp. 21–505"}
+
+dz:
+  title: "'Byung rtsis man ngag zla ba'i 'od zer (the five great clans, the five relations of each aspect)"
+  author: "Smin gling lo chen Dharmaśrī (1654–1718)"
+  edition: "Gsung 'bum, vol. 5 (ca), 30 ff."
+  bdrc: {work: MW9140_5BD26B, scans: [I2533]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "the text at img. 5–64, 4800 px; also KD vol. 3, etext pp. 506–536; another print MW29569"
+
+pl:
+  title: "Dpal g.yul las rnam par rgyal ba … dbyangs 'char ba'i rgya cher 'grel pa (the birth mansion, ch. 3; a person's six mansions, ch. 5)"
+  author: "Phug pa Lhun grub rgya mtsho"
+  edition: "dbu can print, 341 ff., National Library of Mongolia"
+  bdrc: {work: MW1NLM5184, scans: [I1NLM5184_001]}
+  licence: public-domain
+  rank: 3
+  role: source
+  locator: image
+  notes: "2450 px; KD vol. 3 pp. 218–221 = img. 312–316; also KD vol. 3, etext pp. 21–505"
+
+jl:
+  title: "Skar rtsis kyi rig pa la 'jug pa go la'i rna rgyan (an astronomy in verse)"
+  author: "'Jigs med gling pa (1729/30–1798)"
+  edition: "in his Gtam tshogs"
+  bdrc: {work: MW20559_D891C0, etext: IE0OPI436D66B7}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext volume I4984, good OCR, the eclipses pp. 88–93; another print MW1KG10193_52806A (I1KG10198, 1221 px, etext IE0OPI7753427C, poor)"
+
+os:
+  title: "Phug lugs rtsis kyi bstan bcos legs par bshad pa rigs ldan mchod pa'i 'od snang (a Phugpa manual in verse, 1867)"
+  author: "Brag dgon Dkon mchog bstan pa rab rgyas"
+  edition: "Gangs ljongs rig bcu'i snying bcud chen mo, Bzo rtsis zlos gar vol. 2, Mi rigs dpe skrun khang, Pe cin (Rtsis rig 'od phreng 31)"
+  bdrc: {work: MW1PD95727, etext: VEIE0OPI51EA6051_I2PD16001}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext search only (the API answers 403); scans lent on archive.org (bdrc-W1PD95727, vol. 2 = file bdrc-W1PD95727-1, leaf = printed page + 55 at pp. 1302–1303)"
+
+cn:
+  title: "A rtsis manual in verse that cites WB"
+  author: "Co ne Grags pa bshad sgrub (1675–1748)"
+  edition: "Gsung 'bum, Krung go'i bod rig pa dpe skrun khang, 18 vols"
+  bdrc: {work: MW1PD90129, etext: VE1PD90129_017}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "etext unaligned; the eclipses at etext pp. 19–21; scans on archive.org, not read"
+
+sn:
+  title: "Gtsug lag rtsis kyi rig pa nag rtsis snang srid me long dang 'bras rtsis bden don snying po (Bon)"
+  author: "Mkhas grub Lung rtogs rgya mtsho"
+  edition: "G.yung drung bon gyi bshad sgrub 'dus sde, Khotla-Panjola (H.P.), 21 + 277 pp."
+  bdrc: {work: MW1KG13780, etext: IE0OPI0BF3377F, scans: [W1KG13780]}
+  licence: public-domain
+  rank: 0
+  role: witness
+  notes: "a Bon text: a witness to WB only, never built or cited alone (.agents/rules/sources.md)"
+
+# The Four Tantras and the modern works read for the Health screen (health.md, RD7–RD10).
+# A modern work is cited for its facts only, never its wording (SPEC §8).
+
+st:
+  title: "Rgyud bzhi, the Four Tantras, Serthang edition"
+  bdrc: {work: MW3CN5036, etext: IE0OPIFEF6EACA, scans: [I3CN5038]}
+  licence: public-domain
+  rank: 1
+  role: source
+  notes: "above WB on medicine (.agents/rules/sources.md); 2072 px; printed page = image − 13 up to img. 39 and − 12 from img. 59"
+
+gt:
+  title: "Rgyud bzhi, the Four Tantras, Drathang woodblock print with interlinear notes"
+  bdrc: {work: MW4CZ321183, scans: [I4CZ327131]}
+  licence: public-domain
+  rank: 1
+  role: witness
+  locator: image
+  notes: "2650 px, one folio side an image"
+
+mp:
+  title: "'Dod pa'i bstan bcos (Treatise on Passion), in the Collected Works"
+  author: "'Ju Mi pham"
+  bdrc: {scans: [I1KG8551]}
+  licence: public-domain
+  rank: 2
+  role: source
+  notes: "printed page = image − 11"
+
+dm:
+  title: "Rin chen phreng ba (Precious Garland)"
+  author: "De'u dmar dge bshes Bstan 'dzin phun tshogs"
+  edition: "Xining 1993"
+  bdrc: {work: MW21588, etext: IE0OPIF1422D74}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "scans lent on archive.org (bdrc-W21588, leaf = printed page + 15)"
+
+kl:
+  title: "Manual of Massage (Bsku mnye'i lag deb, 2001)"
+  author: "Nyida Heruka Chenagtsang"
+  bdrc: {scans: [I1KG21795]}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+
+gc:
+  title: "Nyida's Selected Essays on Medicine (1999)"
+  author: "Nyida Chenagtsang"
+  bdrc: {scans: [I1KG21894]}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+
+rs:
+  title: "Collected Star Texts of the Rebkong Ngakmang (2007/2008)"
+  bdrc: {work: MW1KG6014}
+  licence: "modern, copyrighted: facts only"
+  rank: 3
+  role: source
+
+gd:
+  title: "Tibetan Elemental Divination Paintings (2001)"
+  author: "Gyurme Dorje"
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  locator: page
+  notes: "cited as \"Gyurme Dorje, p. N\" or \"Dorje's chart N\"; its pages are its own, not WB's"

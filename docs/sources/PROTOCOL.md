@@ -73,7 +73,9 @@ next report launches them. So the process is a pool, not fixed waves.
    plan, and every existing file two launched readings share, a section
    per reading, `## <reading> (RDn)`, far enough apart that two
    subagents' writing never meets in one hunk, and a new file its row in
-   README.md's index. Correct a new file's title if the file name made a
+   README.md's index; a new file under `corpus/` gets the frontmatter of
+   [STRUCTURE.md](STRUCTURE.md), and the reading's row names it so
+   (`corpus/<siglum>/<chapter>.md`). Correct a new file's title if the file name made a
    poor one. Commit, `docs: topic file stubs for <RDa, RDb, …>`, merge
    fast-forward into `main`.
 4. **The prompts.** `schedule.py prompts DIR` writes one prompt per
@@ -95,7 +97,8 @@ next report launches them. So the process is a pool, not fixed waves.
      note of what is left, or a new O… row; its questions numbered on
      from the last one into `open-questions.md`, each with its topic
      file linked, and the "Question:" lines in the topic file replaced
-     by the numbers; its dead ends appended to PLAN.md's *Dead ends*
+     by the numbers (a question written as a file under `questions/`
+     keeps its file and gets its number there); its dead ends appended to PLAN.md's *Dead ends*
      with the date; every change for a build it reports (a list entry
      or a reading the scan reads otherwise) added to the roadmap's
      corrections item, [T2.28](../ROADMAP.md#t2-28), with its row and
@@ -244,6 +247,7 @@ licence, no personal data.
 
 ```bash
 cd $W && ./gradlew :core:test --tests 'zanshin.core.SourcesTest'
+cd $W && python3 tools/sources/kb.py check
 python3 tools/sources/gpu.py
 ```
 

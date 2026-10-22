@@ -5,7 +5,9 @@ Tibetan as printed and its content restated in English (SPEC §8: facts in
 our own words). How to read them is in [PLAN.md](PLAN.md), and how several
 are read at once, a subagent each, in [PROTOCOL.md](PROTOCOL.md);
 what is still to be read, and why, in the work plan of
-[ROADMAP.md](../ROADMAP.md) (T2).
+[ROADMAP.md](../ROADMAP.md) (T2). The layout the pool grows into (a corpus file
+per source chapter, claims, question files, passage ids) and the index that
+reads it, `tools/sources/kb.py`, are in [STRUCTURE.md](STRUCTURE.md).
 
 ## Files
 
@@ -99,6 +101,25 @@ WB does not state) enters the app, its catalog or its `Sources`; the app
 cites WB. The same holds for any other Bon text, among them Khyung sprul's
 *dpyad gsum dag rtsis*, a reformed calendar arithmetic not used at all
 ([tibetastromed.md](tibetastromed.md)).
+
+The Four Tantras and the modern works read for the Health screen, cited by
+siglum in [health.md](health.md) and [verdicts.md](verdicts.md) (a modern
+work for its facts only, never its wording):
+
+| Siglum | Work | Access |
+| --- | --- | --- |
+| **ST** | *Rgyud bzhi*, the Four Tantras, Serthang edition | BDRC MW3CN5036, scans I3CN5038 |
+| **GT** | the Four Tantras, Drathang woodblock print with interlinear notes, a witness | BDRC MW4CZ321183, scans I4CZ327131 |
+| **MP** | Ju Mipham, *Treatise on Passion* (*'Dod pa'i bstan bcos*), in his Collected Works | BDRC I1KG8551 |
+| **DM** | Deumar Geshe Tenzin Phuntsok, *Precious Garland* (*Rin chen phreng ba*), Xining 1993 | BDRC MW21588, lent scans |
+| **KL** | Nyida Heruka Chenagtsang, *Manual of Massage* (2001) | BDRC I1KG21795 |
+| **GC** | Nyida Chenagtsang, *Selected Essays on Medicine* (1999) | BDRC I1KG21894 |
+| **RS** | *Collected Star Texts of the Rebkong Ngakmang* (2007/2008) | BDRC MW1KG6014 |
+| **GD** | Gyurme Dorje, *Tibetan Elemental Divination Paintings* (2001); cited as "Gyurme Dorje, p. N" | — |
+
+The machine-readable registry of every siglum (identifiers, volumes, page-to-image
+offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two
+lists are kept equal by `tools/sources/kb.py check` ([STRUCTURE.md](STRUCTURE.md)).
 
 ## Numbering
 
