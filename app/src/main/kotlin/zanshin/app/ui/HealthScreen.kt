@@ -65,6 +65,7 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DayLetters
 import zanshin.core.tibetan.ElementQuarter
 import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.Health
 import zanshin.core.tibetan.Humour
@@ -426,7 +427,31 @@ private fun MedicineTab(open: (Annotation) -> Unit) {
         val named = Ewts.named(s.english, s.wylie)
         AnnotationRow(Annotation(s.english, named, Tone.NEUTRAL, Texts.MEDICAL_SEASON.getValue(s), titleIsKanji = false, details = listOf(tibetanLabel to named)), open)
     }
+    // The White Beryl's illness chapter (ROADMAP H2a): each element's illness, its seat and door.
+    SectionTitle(stringResource(R.string.health_section_element_illness))
+    Text(stringResource(R.string.health_element_illness_note), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.faint))
+    for (e in listOf(Element.WOOD, Element.FIRE, Element.EARTH, Element.IRON, Element.WATER)) {
+        AnnotationRow(
+            Annotation(
+                stringResource(R.string.health_element_illness_title, gloss(e, "inText")),
+                stringResource(ELEMENT_ILLNESS_SEAT.getValue(e)),
+                Tone.NEUTRAL,
+                Texts.ELEMENT_ILLNESS.getValue(e),
+                titleIsKanji = false,
+            ),
+            open,
+        )
+    }
 }
+
+/** Each element's illness's seat and door in brief (WB vol. 1, p. 439), the row's second line. */
+private val ELEMENT_ILLNESS_SEAT = mapOf(
+    Element.WOOD to R.string.health_element_illness_wood,
+    Element.FIRE to R.string.health_element_illness_fire,
+    Element.EARTH to R.string.health_element_illness_earth,
+    Element.IRON to R.string.health_element_illness_iron,
+    Element.WATER to R.string.health_element_illness_water,
+)
 
 /** A row that leads to another screen: its title, a line under it, and a chevron. */
 @Composable

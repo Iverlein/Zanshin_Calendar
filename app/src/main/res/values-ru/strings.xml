@@ -796,6 +796,14 @@
     <string name="health_work_avoid">избегать сегодня, по: %1$s</string>
     <string name="health_medicine_note">Из «Четырёх тантр» медицины: они не называют дел, и взвешивание альманаха их не считает, поэтому их точки серые.</string>
     <string name="health_section_humours">Три жизненных начала</string>
+    <string name="health_section_element_illness">Болезни стихий</string>
+    <string name="health_element_illness_note">Где лежит болезнь каждой стихии, её дверь и её признаки; взвешивание альманаха их не считает, поэтому их точки серые.</string>
+    <string name="health_element_illness_title">Болезнь стихии: %1$s</string>
+    <string name="health_element_illness_wood">Ветер · желудок и печень · глаз</string>
+    <string name="health_element_illness_fire">Кровь · сердце и кишки · язык</string>
+    <string name="health_element_illness_earth">Желчь · селезёнка и кишки · губы</string>
+    <string name="health_element_illness_iron">Слизь · лёгкие · нос</string>
+    <string name="health_element_illness_water">Холод · почки · ухо</string>
     <string name="health_section_seasons">Шесть сезонов</string>
 
     <!-- The Reckonings (SPEC §10.5, §10.11; ROADMAP R1) -->
