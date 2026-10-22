@@ -28,7 +28,7 @@ class ReckoningsTest {
     @Test
     fun `the list needs a person`() {
         assertEquals(emptyList<Reckoning>(), Reckonings.built(null))
-        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE, Reckoning.DEAD), Reckonings.built(person))
+        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE, Reckoning.DEAD, Reckoning.MOMENT), Reckonings.built(person))
     }
 
     /**
@@ -48,6 +48,18 @@ class ReckoningsTest {
         val early = father.copy(death = Moment.of(LocalDate.of(1995, 10, 28), java.time.LocalTime.of(4, 30)))
         val e = Reckonings.dead(person.copy(relatives = Relatives(listOf(early))))[0].second!!
         assertEquals(r.date, e.date)
+    }
+
+    /** The moment's day turns at dawn: 04:30 belongs to the day before, 05:00 starts the new one at minute 0. */
+    @Test
+    fun `the moment turns at dawn`() {
+        val zone = java.time.ZoneId.of("Asia/Tokyo")
+        val before = Reckonings.moment(java.time.ZonedDateTime.of(2026, 10, 22, 4, 30, 0, 0, zone))
+        val after = Reckonings.moment(java.time.ZonedDateTime.of(2026, 10, 22, 5, 0, 0, 0, zone))
+        assertEquals(TibetanCalendar.of(LocalDate.of(2026, 10, 21)), before.first)
+        assertEquals(1410, before.second)
+        assertEquals(TibetanCalendar.of(LocalDate.of(2026, 10, 22)), after.first)
+        assertEquals(0, after.second)
     }
 
     @Test

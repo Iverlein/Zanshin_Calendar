@@ -819,6 +819,12 @@
     <string name="reckonings_year_after">Следующий год</string>
     <string name="birth_title">Рождение</string>
     <string name="dead_title">Умершие</string>
+    <string name="moment_title">Мгновение</string>
+    <string name="reckonings_moment_subtitle">Сейчас: %1$s · мева %2$d</string>
+    <string name="moment_subtitle">%1$s, %2$s число %3$s месяца, %4$s после рассвета</string>
+    <string name="moment_trigram_title">Триграмма мгновения · %1$s</string>
+    <string name="moment_mewa_title">Мева мгновения · %1$d %2$s</string>
+    <string name="moment_note">Из расчёта мгновения считаются триграмма и мева: собственные триграмма и мева даты на рассвете, в 05:00, затем по триграмме каждые полтора часа и по меве каждые восемьдесят минут, восемь и девять за двенадцать часов дня и снова от собственных даты за ночь. Чтения по часу и его стихии, борьба года спрашивающего с мгновением, знаки и сны не считаются.</string>
     <string name="reckonings_dead_subtitle">Время смерти — умерших: %1$d</string>
     <string name="reckonings_dead_needed">Нужен умерший родственник с годом рождения и датой смерти</string>
     <string name="dead_none">У этого человека не указано ни одного умершего родственника. Укажите его в разделе «Люди» с годом рождения, полом и датой смерти.</string>

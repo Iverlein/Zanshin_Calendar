@@ -42,6 +42,7 @@ import zanshin.app.Reckonings
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
+import zanshin.core.tibetan.MomentReckoning
 import java.time.ZoneId
 
 /**
@@ -67,11 +68,12 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
     ) {
         val open: (Annotation) -> Unit = { sheet = it }
         when (shown) {
-            null -> ReckoningList(person, shownYear, onPeople, back) { shown = it }
+            null -> ReckoningList(person, shownYear, zone, onPeople, back) { shown = it }
             Reckoning.BIRTH -> BirthView(person, onPeople, back, open)
             Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
+            Reckoning.MOMENT -> MomentView(person, zone, back, open)
         }
     }
     sheet?.let { ReadingSheet(it) { sheet = null } }
@@ -111,7 +113,7 @@ private fun NoPerson(onPeople: () -> Unit) {
 
 /** The list of the reckonings built, each a row leading to its own view, with the person's value for [year]. */
 @Composable
-private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Reckoning) -> Unit) {
+private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Reckoning) -> Unit) {
     val labels = LocalLabels.current
     Header(stringResource(R.string.menu_reckonings), person?.let { personLabel(it) } ?: stringResource(R.string.menu_no_one_chosen), onBack)
     Body {
@@ -142,6 +144,16 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.MOMENT -> {
+                val (day, minutes) = Reckonings.moment(java.time.ZonedDateTime.now(zone))
+                val animal = day.monthNames.animal
+                ScreenLinkRow(
+                    stringResource(R.string.moment_title),
+                    labels.string(R.string.reckonings_moment_subtitle, Ewts.named(MomentReckoning.trigram(animal, day.day, minutes).let { it.english }, MomentReckoning.trigram(animal, day.day, minutes).wylie), MomentReckoning.mewa(animal, day.day, minutes)),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.DEAD -> {
                 val n = Reckonings.dead(person).count { it.second != null }
                 ScreenLinkRow(
@@ -166,6 +178,13 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
             }
         }
     }
+}
+
+/** The reckoning of the moment (SPEC §5.9.5, ROADMAP R2o), now at [zone]. */
+@Composable
+private fun MomentView(person: Person?, zone: ZoneId, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    Header(stringResource(R.string.moment_title), person?.let { personLabel(it) }, onBack)
+    Body { MomentReckoningView(remember { Reckonings.moment(java.time.ZonedDateTime.now(zone)) }, onOpen) }
 }
 
 /** The reckoning for the dead (SPEC §5.9.4, ROADMAP R2n) of [person]'s relatives who have died, or what it needs. */

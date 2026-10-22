@@ -28,7 +28,7 @@ import zanshin.core.tibetan.YearReckoning
  * The element reckonings built, as the Reckonings screen lists them (SPEC §10.11, ROADMAP R1), in the order of
  * docs/sources/reckonings.md's inventory. Each one built after R1 (R2…) is added here.
  */
-enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD }
+enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD, MOMENT }
 
 /**
  * The reckoning of [person]'s birth as far as it is built (ROADMAP R2): the natal trigram, their [mother]'s trigram in
@@ -145,6 +145,16 @@ object Reckonings {
             }
             DeadReckoning.of(birth.tibetanYear, gender, day, hour)
         }
+    }
+
+    /**
+     * The moment at [now] (ROADMAP R2o): the Tibetan day it falls in, the day turning at dawn, 05:00, and the minutes
+     * since that dawn; the moment's trigram and mewa follow from them ([MomentReckoning]).
+     */
+    fun moment(now: java.time.ZonedDateTime): Pair<zanshin.core.tibetan.TibetanDay, Int> {
+        val dayStart = if (now.toLocalTime() < LocalTime.of(5, 0)) now.toLocalDate().minusDays(1) else now.toLocalDate()
+        val minutes = java.time.Duration.between(dayStart.atTime(5, 0).atZone(now.zone), now).toMinutes().toInt().coerceIn(0, 1439)
+        return TibetanCalendar.of(dayStart) to minutes
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */
