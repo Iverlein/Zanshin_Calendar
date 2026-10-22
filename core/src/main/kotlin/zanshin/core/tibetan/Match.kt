@@ -249,6 +249,13 @@ enum class BadYearPebble { BLACK, SPECKLED_WOMAN, SPECKLED_MAN, WHITE }
  */
 enum class SpouseKind { KARMA, KIN, ENMITY }
 
+/**
+ * The match together (ROADMAP R4; WB p. 355, reply 113 and the notes, vol. 2, pp. 523–526; verdicts.md, RD21): the
+ * kinds of wife the four aspects make, all of one kind or mixed. The whole is judged "in general", with no count of
+ * the kinds: a mixed match has no grade of its own (open question 209).
+ */
+enum class MatchWhole { KARMA, KIN, ENMITY, MIXED }
+
 object MatchReckoning {
     /** The aspects the single match reads, in its order; the life force and luck are the man's set against the woman's, the body and destiny the woman's against the man's. */
     val ASPECTS = listOf(Force.VITALITY, Force.BODY, Force.DESTINY, Force.LUCK)
@@ -369,6 +376,14 @@ object MatchReckoning {
         Kinship.FRIEND -> SpouseKind.KIN
         Kinship.ENEMY -> SpouseKind.ENMITY
         Kinship.IDENTITY -> if (own == Element.EARTH || own == Element.WATER) SpouseKind.KARMA else SpouseKind.KIN
+    }
+
+    /** The match together from each aspect's kind [kinds]: all four of one kind, or mixed. */
+    fun together(kinds: List<Pair<Force, SpouseKind>>): MatchWhole = when (kinds.map { it.second }.distinct().singleOrNull()) {
+        SpouseKind.KARMA -> MatchWhole.KARMA
+        SpouseKind.KIN -> MatchWhole.KIN
+        SpouseKind.ENMITY -> MatchWhole.ENMITY
+        null -> MatchWhole.MIXED
     }
 
     /** Each aspect's kind of spouse, set as the single match sets it ([manLeads]). */

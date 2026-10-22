@@ -19,6 +19,7 @@ import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BadYearPebble
 import zanshin.core.tibetan.HiddenWheel
+import zanshin.core.tibetan.MatchWhole
 import zanshin.core.tibetan.SiblingsWin
 import zanshin.core.tibetan.SpouseKind
 import zanshin.core.tibetan.BirthShare
@@ -430,6 +431,8 @@ object Sources {
     val WHITE_BERYL_MATCH_SIBLINGS = whiteBeryl("chapter 23, p. 359, with the notes in vol. 2, p. 525", volume = 1)
     /** The marriage match's bad years for the couple (ROADMAP R3, docs/sources/verdicts.md, RD21). */
     val WHITE_BERYL_MATCH_PEBBLE = whiteBeryl("chapter 23, pp. 353–354, with the notes in vol. 2, pp. 523–524", volume = 1)
+    /** The match together (ROADMAP R4, docs/sources/verdicts.md, RD21). */
+    val WHITE_BERYL_MATCH_TOGETHER = whiteBeryl("chapter 23, pp. 351, 355 and 364, with the notes in vol. 2, pp. 523–526", volume = 1)
     /** The kinds of spouse, aspect by aspect (ROADMAP R3, docs/sources/verdicts.md, RD21). */
     val WHITE_BERYL_SPOUSE_KIND = whiteBeryl("chapter 23, p. 355, with the notes in vol. 2, p. 524", volume = 1)
     /** Sangye Gyatso's replies on WB; reply 113 places the inner meetings among the kinds of spouse (docs/sources/verdicts.md, RD21). */
@@ -2122,6 +2125,16 @@ object Texts {
     /** The couple's deciding pebble [p] over the bad years (WB vol. 1, ch. 23, pp. 353–354, and the notes). */
     fun badYearPebble(p: BadYearPebble): Reading =
         Reading(key = "reading.BadYearPebble", arg = "reading.BadYearPebble.${p.name}", source = Sources.WHITE_BERYL_MATCH_PEBBLE)
+
+    /**
+     * The match together [w] (ROADMAP R4): the kinds of wife read as a whole, in general, and over them the karma
+     * reckoning (WB p. 364; the notes, vol. 2, pp. 524 and 526); [remedies] the catalog keys of the rows below whose
+     * Remedy rows are gathered into its own.
+     */
+    fun matchTogether(w: MatchWhole, remedies: List<String>): Reading = Reading(
+        key = "reading.MatchTogether", arg = "reading.MatchTogether.${w.name}", source = Sources.WHITE_BERYL_MATCH_TOGETHER,
+        also = listOf(Sources.REMOVING_THE_TARNISH), alsoRows = remedies,
+    )
 
     /** The kind of spouse [k] an aspect makes (WB vol. 1, ch. 23, p. 355; *Removing the Tarnish*, reply 113). */
     fun spouseKind(k: SpouseKind): Reading =
