@@ -5056,7 +5056,324 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 
 ## Written reckonings on the open scans (RD29)
 
-Nothing read yet: RD29's passages, with the English beside them, go here.
+Read 2026-10-22. Both works were served this time (BDRC's image server
+answered 200; one image of the print, img. 438, came at the second try
+after an HTTP 429). All images went into the shared cache
+(`~/ai/tibetan-ocr/scans/I1LT0800`, img. 359–401, 3929 × 1272 px;
+`~/ai/tibetan-ocr/scans/I1KG12897`, img. 003–656, 1169–1233 px wide; the
+image group has no img. 001–002). Yigdzin-1 read every image of both
+(43 + 654), MITRA the manuscript's img. 360, 377, 381–383, 386 and 400.
+The manuscript is in cursive (དབུ་མེད, dbu med) script, which both readers
+read only roughly: its passages below are Yigdzin-1's text, marked as
+such, with the words that carry the structure (the heads «༈ … རྡེའུ་ནག་ན»,
+«ཟློས་ཡོད», «ཟློས་མེད») checked by eye on the scan at about 2×. The print
+was mapped from Yigdzin-1 over every image and contact sheets of all 654
+images by eye; its title leaves, colophons and the passages quoted were read
+on the scan at 3–4×. agy was tried on three crops (img. 362's head row of
+the manuscript, the print's img. 004 and img. 089's title) and gave nothing
+(*Searched and not found*). Both are witnesses below WB (sources rule):
+what follows records their form and says where they rest on WB.
+
+### 1. The manuscript: *A Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401)
+
+**The volume.** BDRC's outline of the Library of Tibetan Works and
+Archives' volume (MW1LT0800, «snga dus pad dkar bu ston lugs gnas sngon
+'gro'i lde mig sogs», publisher and place not given) has eight parts; this
+work is the sixth (MW1LT0800_O1LT0800_D13407, img. 359–401). Next to it
+stand a reckoning of lives and karma (ཚེ་རབ་ལས་རྩིས, tshe rab las rtsis; part
+5, img. 216–358) and *The Young Sun Opening the Lotus of What to Adopt and
+Reject in the Reckoning of the Dead* (གཤིན་རྩིས་བླང་དོར་འདབ་རྒྱ་བཞད་པའི་ཉི་གཞོན,
+gshin rtsis blang dor 'dab rgya bzhad pa'i nyi gzhon; part 7, img.
+402–451), by the outline only; neither was read.
+
+**Its parts, image by image** (the cover by eye, the rest from Yigdzin-1
+with the layout seen on the scan):
+
+| Images | What the leaves hold |
+| --- | --- |
+| 359 | The cover: «༈ གཤིན་བརྩིས་ཉུང་སྡུས་སུ་ཤོག་ཕྲར་བཀོད་པའི་…» (Yigdzin-1; the last word, which the catalogue gives as «རྩིས་ཡིག», is not clear on the scan) |
+| 360–376 | Ruled sheets of four columns and two rows a leaf, pink lines, each cell a reading under a key written above it: by the animal of the time of death («དུས་ལ་ཤི་ན», died in the hour of …; «ཉི་མར་ཤི་ན», died on the day of …), with the life exhausted or remaining by age (img. 360, 362), the slayer's direction (img. 360, 362), the previous life (img. 361, 363, 365) and a rite; by the trigrams (img. 366, the heads «ལི», «ཁོན», «དྭ», «ཁེན», li, khon, dwa, khen, seen on the scan); cells numbered 1–9 (img. 370–372) and 13–30 (img. 373–376), each naming whom the death harms («… ལ་ངན», bad for a …). Read only for their layout; the cells were not read one by one |
+| 377–379 | Prose: the hal dog (ཧལ་ཁྱི, hal khyi) of the year, month, day and hour of death by direction; who may carry the corpse by birth year; the black hours of the seasons, against which no remedy avails («དུས་ཚོད་ནག་ལ་བཅོས་ཐབ་མེད», img. 378); the reckoning for a small child (བྱིས་པ་ཆུང་གི་གཤིན་རྩིས), where the body is laid by its age in years, months and days |
+| 380–383 | The four deciding pebbles, life, body, power and luck, each read black, white and speckled (section 1a below), closed by one rule over all of them |
+| 383–384 | The earth lords' (ས་བདག, sa bdag) places by the year, month, day and hour, to be avoided |
+| 384–385 | The rebirth by the animal of the day of death («འཆི་དུས་ཉི་མའི་སྐྱེས་བརྟག»): the body taken before and the birth to come, and by the twelve hours the six realms |
+| 385–386 | The rites by the trigram of death («སྤར་ཁའི་ཁྲོ་བཙོས», Yigdzin-1): for each of the eight a thread-cross (མདོས, mdos), recitations and offerings; the sheet ends here, img. 387 being blank |
+| 388–398 | Another matter: the character of one born on each trigram and mewa (སྤར་ཁའི་སྐྱེ་ཚོད, spar kha'i skye tshod; སྨེ་བའི་སྐྱེ་ཚོད, sme ba'i skye tshod), the mewa in nine items each (previous life, marks, harms, wealth, later life, next birth, the bodily sign); parts of it are written to "you" («ཁྱོད་ལ», «ཁྱེད་རང», img. 391, 397) |
+| 399–400 | A table of grave directions and dates; an offering to the nāgas (ཀླུ་མཆོད, klu mchod), ending «…བཅས་བཀོད» (img. 400) |
+
+So the "sheet" is a reckoning for the dead brought to a reference sheet:
+look-up cells for every time of death, trigram, mewa and date, then the
+deciding pebbles' readings, the burial and rebirth and the rites, for any
+dead person. There is no dead person's name, no inputs and no pebble chart
+on any leaf: it is a model to read a reckoning from, not a reckoning
+written for one death.
+
+**1a. The four deciding pebbles and the rule that closes them** (img.
+380, l. 5 – img. 383, l. 6; Yigdzin-1, MITRA on img. 381–383 beside it;
+the heads, «ཟློས་ཡོད/མེད» and the closing rule checked by eye on the scan;
+the word for life, «སྲོག», is read «སྟོན» or «སྟོནའི» by Yigdzin-1 and «རྟོག» by MITRA, the cursive form not settled by eye, and is left as Yigdzin-1 reads it):
+
+> …གཤིན་གྱིས་སྟོན་དྲེའུ་ནག་པོ་ལ་བབ་ན་ ཚེ་ཟད་རྒྱ་ཟད་ … ཚེ་ཟད་མི་དུས་ཡིན་ བན་བོན་དང་མོ་མ་རྒྱ་འཛོཾ་ཀྱང་ … སྐྱེས་པའི་དར་མའི་ས་ནས་བཟློས་ཡོད་དོ་ སྟོན་བདུད་གིས་བཅད་ … ཆོས་གླང་རུ་ལུང་བསྟག་དང་ དྲི་མེད་བཤཌ་རྒྱུད་འདོན་ན་ཉི་མ་ནུབ་དུ་ … སྐྱེས་ དེ་མིན་ངན་སོང་བས་སྙིང་རེ་རྗེ་ དེ་མིན་ན་ཚེ་དབང་དང་ཚེ་མཆོག་རྒྱས་པར་བྱའོ་ ལུས་ཀྱིས་རྟེའུ་ནག་ན་ ལུས་ལ་འབྱུང་བཞི་འདུས་པའི་ནད་ཀྱིས་གཏབ་ ལུས་དུར་འདོད་ … འཆི་དུས་ལ་སླེབ་ ཡར་[རྒན]་པ་དང་མར་གཞོན་པའི་ས་ན་ཟློས་ཡོད་དོ་ གཙུག་ཏོར་དཀར་ནག་འདོན་ ༈ དབང་ཐང་གིས་རྟེའུ་ནག་ན་ … མ་བུ་སྟེང་ལ་ཟློས་ཆེ་ བཟློག་པ་དང་འབུཾ་རྒྱས་འབྲིང་འདོན་ ༈ རླུང་རྟའི་ལྡེའུ་ནག་ན་ … མི་ཁ་བྱུང་བས་ལེན་ ཞང་ཉེའི་ས་ནས་ཟློས་ཡོད་ མི་ཁ་ … གཙུག་ཏོར་དཀར་ནག་ … གཏོར་བཟློག་རྒྱས་པར་བྱ་ ༈ སྟོནའི་རྟེའུ་དཀར་ན་ཚེ་མ་ཟད་ … ཉི་མ་ནཾཁའི་དཀྱིལ་དུ་ནུབ་ སའི་[མེ་ཏོག]་གསད་ཀྱིས་ཁྱེར་ … སྐྱེས་དར་མའི་ཡ་རུ་ཟློས་མེད་དོ་ ཆོས་གླེག་བཾ་གཞེངས་ཀློག་བྱས་ན་ཉི་མ་ཤར་ཕྱོཌ་སུ་ … སྐྱེས་སོ། ལུས་ཀྱིས་རྡེའུ་དཀར་ན་ ལུས་དུར་མི་འདོད་ … ཡར་རྒན་པ་དང་མར་གཞོན་པའི་ཡ་ནས་བཟློས་མེད་དོ་ ༈ དབང་ཐང་ཀི་རྡེའུ་དཀར་ན་ … བཟློས་མེད་དཾ་ ༈ རླུང་རྟའི་རྡེའུ་དཀར་ན་ … ཞང་ཉེའི་ཡ་ནས་ཟློས་མེད་དཾ་ ༈ སྟོན་ཀི་རྡེའུ་ཁྲ་ན་ཚེ་ཟད་ནས་ཞག་ཉིས་སོང་ ཁ་ལྷོ་རུ་གསད་ནས་འཆི་ གཤེད་མ་ནུབྱང་ནས་བྱུང་ … དགེ་བ་མྱུར་དུ་གྱིས་ དེ་ལྟར་བྱས་ན་མཐོ་རིཌ་སུ་སྐྱེས་ ༈ ལུས་ཀྱི་རྡེའུ་ཁྲ་ན་ ལུས་ལ་དྲང་བའི་ནད་ཀྱི་ཁྱེར་ ནད་ཡུན་སོང་ནས་འཆི་ … ༈ དབང་ཐང་རྡེའུ་ཁྲ་ན་ … གཏོར་མ་གཏང་ བླཾ་བཟང་པོ་ལ་བསྔོ་བ་ཞུ་ … རླུང་རྟའི་རྡེའུ་ཁྲ་ན་ … ཁ་བྱང་ལ་བལྟས་ནས་འཆི་ དེ་ཡང་ན་རྡེའུ་དཀར་ན་ཟློས་ཆུ[ང] རྡེའུ་ནག་ན་ཟློས་ཆེ དཀར་ནག་འདྲེས་བར་དོ་རུ་འཁྱམ མདོས་ཆེན་བཀའ་རྒྱས་འབྲིང་རྣཾས་གསུཾ རྒྱ་ནག་པའི་ལྷོ་མཆོག་བྱའོ
+
+(… marks the stretches where the readers' text makes no sense and the eye
+could not settle it.) If the dead's life pebble falls black, the life is
+spent, the time of death; though Buddhist and Bon priests and diviners
+gather, it is not turned back; a repetition comes from those of his own
+prime; reciting the *Prophecy of Ox Horn* (གླང་རུ་ལུང་བསྟན, glang ru lung bstan) and the *Stainless Confession
+Tantra* (དྲི་མེད་བཤགས་རྒྱུད, dri med bshags rgyud) he is born in the west …,
+otherwise a bad rebirth, so do the long-life empowerment and rites at
+length. Body black: struck by an illness of the four elements gathered,
+the body wanted the grave, the time of death came; repetition from elders
+above and the young below; recite the white and black *gtsug tor*
+(གཙུག་ཏོར, gtsug tor). Power black: repetition great on mother and son;
+recite reversals and the *Hundred Thousand* (འབུམ, 'bum) in full or middling. Luck black: taken
+through gossip; repetition from the maternal kin; rites against gossip,
+the *gtsug tor*, the torma of reversal at length. Life white: the life was
+not spent; the sun set at midday, the flower of the earth taken by frost
+(WB's image, vol. 2, p. 57); no repetition; if the scriptures are copied
+and read, born in the east. Body white: the body did not want the grave;
+no repetition on old or young. Power and luck white: no repetition. Life
+speckled: died two days after the life was spent, killed facing south, the
+slayer from the north-west; do virtue quickly and he is born in the higher
+realms. Body speckled: carried off by a long illness. Power speckled: give
+the torma, ask a good lama for the dedication. Luck speckled: died looking
+north. **Then one rule for all four: white pebbles, a small repetition;
+black, a great one; white and black mixed, he wanders in the intermediate
+state (བར་དོ, bar do); do the great thread-cross in full, middling or
+short, three, and the Chinese reckoner's offering to the gods** (the last
+words, Yigdzin-1's and MITRA's «ལྷོ་མཆོག», read as «ལྷ་མཆོད», doubtful).
+
+**Against WB.** Each deciding pebble is read through several of WB's
+fifteen examinations at once (vol. 2, p. 55, above in *reckonings.md*):
+whether it was the time of death (the first), the cause (the second), the
+repetition and on whom (the tenth), the rebirth (the fifth), with the rite.
+WB's lines for the deciding pebbles of the dead read white and black only
+(vol. 2, pp. 55–56, etext img. 63–64, the life verse on p. 55); the
+manuscript adds a third, speckled reading for each aspect, and a rule for
+the four together by their colours (white, black, mixed), which WB's lines
+there do not have (questions below). Its close is the rule of repetition
+and the rites, then burial, rebirth and the trigram's rites: no verdict
+for the whole, no row of pebbles.
+
+### 2. The Lhasa Mentsikhang's blockprint of 1987 (I1KG12897, MW1KG12790)
+
+**No outline.** BDRC's record (MW1KG12790) gives the title, the Lhasa
+Mentsikhang (ལྷ་ས་སྨན་རྩིས་ཁང, lha sa sman rtsis khang), 1987, woodblock,
+one volume, and no parts; the volume was mapped from its own title leaves.
+The *Catalogue of the Great Treasury of Tibetan Medical and Astronomical
+Texts* (MW4CZ354964, search only) lists the same pieces in a row (its
+snippets, by BDRC's full-text search): «…dus gzer lag len gser gyi pa tra
+/ tshe rtsis 'bras bshad bcas gsal bar bkod pa bde legs kun 'byung /
+bstan bcos bai dkar dgongs don spor thang las rtsis rde'u brgya[d] dang so
+drug gtso bor bzung ba'i 'bras bu 'don bder bkod pa nor bu'i phreng mdzes…».
+
+**Its parts** (title leaves read on the scan at 3–4×; contents from
+Yigdzin-1 over every image, checked on the contact sheets):
+
+| Images | Title on the scan | What it holds; how it closes |
+| --- | --- | --- |
+| 003–088 | «ཚེ་རྩིས་འབྲས་བཤད་བཅས་གསལ་བར་བཀོད་པ་བདེ་ལེགས་ཀུན་འབྱུང་ཞེས་བྱ་བ་བཞུགས་སོ།» (img. 003) | *The Life Reckoning with Its Results, the Source of All Wellbeing*: the Indian star reckoning of a birth (སྐར་རྩིས, skar rtsis), from the opening (img. 004, below): the weekday (006–011), the mansion (013–040), the sign (041–052), the *tatkāla* conjunction (053–064), the twelve links (065–076), the planets ruling the years (077–085), the life span of the *Rising of the Vowels* (དབྱངས་འཆར, dbyangs 'char) with its remedies against untimely death (087–088) |
+| 089–226 | «བསྟན་བཅོས་བཻ་དཀར་དགོངས་དོན་སྤོར་ཐང་ལས་རྩིས་རྡེའུ་བརྒྱ་དང་སོ་དྲུག་གཙོ་བོར་བཟུང་བའི་འབྲས་བུ་འདོན་བདེར་བཀོད་པ་ནོར་བུའི་ཕྲེང་མཛེས་ཞེས་བྱ་བ་བཞུགས་སོ།» (img. 089; «བདེར», «བརྒྱ» as the scan shows them; the catalogue snippet «བརྒྱད») | *The Beautiful Rosary of Jewels*: the results of WB's birth reckoning set out for easy use, by the 136 pebbles: the four precious pebbles (img. 090, WB vol. 1, p. 262), the year signs by life and element (091–126), the thirty sounding elements (ཁ་སྲོག, kha srog; 127–142), the trigrams and mewa (143–180), life, body, power and luck (181–208), a table of their readings (210), the pebbles of each aspect by self, mother, son, friend and enemy (211–224); it closes on «རྡེའུ་སྤྱི་ཡི་ཁ་དམར», the general verdict of the pebbles by their pattern on the board (img. 225–226), and the colophon (img. 227) |
+| 229–269 | «ཀུན་ཕན་གོ་བདེའི་ཀེག་རྩིས་ཀྱི་འབྲས་བུ་གཏན་ལ་ཕབ་པ་ལེགས་བཤད་འོད་ཀྱི་སྣང་བ་ཞེས་བྱ་བ་བཞུགས་སོ།» (img. 229) | *The Light of Good Explanation*: the obstacle reckoning's results, starting from the life pebble's counts («སྲོག་རྡེལ་དཀར་པོ་གཉིས་བབས་པས…», img. 231); it closes on remedies: the rites by the mewa that falls, the nine-multiple's and the grave-eye's remedies, «དེ་ལྟར་སྤྱི་འབྲས་མདོར་བསྡུས་ཡིན།», the household's trigram clashes, ending «གཏོ་ཅོག་བྱས་ན་ཉེས་པ་ཞི། །ཤུ་བྷཾ།» (img. 269, Yigdzin-1) |
+| 271/273–385 | «བཻ་དཀར་དགོངས་དོན་གཤིན་རྩིས་འཁྱེར་བདེར་གཅེས་པར་བཏུས་པ་ཕན་བདེའི་དཔལ་འབྱེད་རིན་ཆེན་ལྡེ་མིག་ཅེས་བྱ་བ་བཞུགས་སོ།» (img. 271, again 273) | *The Precious Key Opening the Glory of Benefit and Bliss*: WB's reckoning for the dead gathered for easy use (section 2b); colophon img. 381–385, «པར་འདི་ལྷ་ལྡན་སྨན་རྩིས་ཁང་དུ་བཞུགས» |
+| 387–415 | «ལྔ་པ་འཕྲོད་དང་སྦྱོར་བྱེད་རྟེན་འབྲེལ་ཉི་མ་སྤར་སྨེ་ཚེས་ཀྱི་ས་བདག་ཐེབས་བཟློག་གནམ་སྒོ་དྲང་སྲོང་ཡན་ཀྭོང་བཅས་ཀྱི་འབྲས་བུ་གསལ་བར་བཏུས་པ་བཞུགས་སོ།» (img. 387, Yigdzin-1) | the results of the five factors, conjunctions, the day's trigram, mewa and date's earth lords and the like, for the almanac; closes on a Mentsikhang reprint note (img. 415) |
+| 417/419–537 | «འབྲས་རྩིས་བཻ་དཀར་དགོངས་དོན་དྲི་མེད་ཀུན་ཕན་མེ་ལོང་བཞུགས་སོ།» (img. 419) | *The Stainless Mirror Benefiting All*: an elections manual, planets, mansions and their combinations by work, tables and pictured charts (img. 437–520); colophon img. 537 |
+| 539–575 | «སྐར་རྩིས་སྔོན་འགྲོ་ལེགས་བཤད་ངག་གི་སྒྲོན་མེ་ཞེས་བྱ་བ་བཞུགས་སོ།» (img. 539) | a primer of the star reckoning; closes «…ཞེས་ཕུག་ལུགས་རྩིས་ཀྱི་ལེགས་བཤད་… བཻ་ཌཱུར་དཀར་པོའི་དོ་ཤལ་དཔྱོད་ལྡན་སྙིང་ནོར་ལས་…» (img. 575, Yigdzin-1) |
+| 577/579–656 | «འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།» (img. 579) | the *Moonbeams* (RD27, read there on DZ), another print; it ends «…བན་ཆུང་དྷརྨཱ་ཤྲཱི་ཡིས།…» (img. 656, Yigdzin-1) |
+
+Read by eye: the title leaves above, img. 004, 090, 210, 225–227, 278–279,
+382–384; the rest was mapped, not read.
+
+**2a. Reckoning books with blanks.** The opening of the first piece (img.
+004, Yigdzin-1: «…དེ་ཡང་བ་ལོ་པ་རབ་ལོ་དང་། མ་ལོ་མ་རབ་ལོ་ཁར་སོན་པ་གཉིས་ལ་ཟླ་ཚེས་འདི་སྐྱེས་བདེ་ཉིན་གཟའ་…
+རྩིས་བཟང་ངན་འབྲས་བུའི་རིམ་པ་རྣམས་ཆུ་འབར་དུ་བསྟར་བ་ལ།») has empty spaces in the
+carving where the father's and mother's years and ages and the birth
+month and date go (seen on the scan, img. 004, ll. 3–5): the heading of a
+written reckoning for one child, to be filled in. Several leaves end in an
+empty ruled box (img. 048, 147, 160). The colophon of the life reckoning
+(img. 227, Yigdzin-1, checked on the scan at 4× where the print allows) says why:
+
+> …།ཅེས་གངས་ལྗོངས་སྨན་རྩིས་བསྟན་པའི་མགོན་པོ་གང་ཉིད་ཀྱིས་ཚེ་རྩིས་དཔེ་ཐུང་འདི་མཛད་རྗེས་འགྲོ་དོན་རྒྱ་ཆེར་སྤེལ་བ་དང་། འདིའི་ནང་སྟོང་མང་དག་ཅིག་འཇོག་གནང་ཡོད་པ་དེ་ནི་སྐར་ནག་དབྱངས་འཆར་སོགས་ཀྱི་རྩིས་འབྲས་ཞལ་སྐོར་མཛད་རྒྱུའི་དགོངས་འདུན་ཡོད་རུང་འགྲོ་ཕན་མཛད་འཕྲིན་ཆེས་ཆེར་རྒྱས་སྟབས་ཀྱིས་འཕྲོར་ལུས་པ་ཞིག་ཡིན་ཞིང་། དེ་སྔའི་བར་ཤིང་རྣམས་དུས་དབང་གི་རྐྱེན་པས་མེ་ལྷའི་ཞལ་དུ་བསྟབས་ཟིན་པར་བརྟེན་… བོད་ལྗོངས་སྨན་རྩིས་ཁང་ནས། རབ་བྱུང་བཅུ་བདུན་པའི་ཐོག་མ་མེ་ཡོས་གནམ་ལོར་བར་སློག་གསར་བརྐོས་གནང་བར་ཕྲན་བསྟན་འཛིན་བཀྲ་ཤིས་ཀྱིས་…བྲིས་པའོ།།
+
+The guardian of the snow land's medicine and reckoning, the Mentsikhang
+teacher Khyenrab Norbu (མཁྱེན་རབ་ནོར་བུ, mkhyen rab nor bu; named in the
+verse just before), made this short life-reckoning book (ཚེ་རྩིས་དཔེ་ཐུང,
+tshe rtsis dpe thung); the many blanks left in it were meant to be filled
+with the results of the star, Chinese and *Rising of the Vowels*
+reckonings, but his work grew so great that it stayed unfinished. The old
+blocks having been burnt, the Tibet Mentsikhang carved them anew in the
+fire hare year, the first of the seventeenth cycle (1987, the catalogue's
+date); written by Tenzin Tashi (བསྟན་འཛིན་བཀྲ་ཤིས, bstan 'dzin bkra shis). So
+the book is a model in the sense the title gives it, a reckoning book
+(རྩིས་དཔེ, rtsis dpe) with spaces for one person's results, and its blanks
+are partly unfinished matter.
+
+**How the life reckoning closes** (img. 225–226, Yigdzin-1, the head
+«རྡེའུ་སྤྱི་ཡི་ཁ་དམར་ནི» and the line breaks checked on the scan). After
+the readings of each pebble the book reads the board as a whole, by where
+the white and black lie: a white cell set at the edge with black in the
+middle, black four-sided groups, white at the top (the early life), the
+middle (the prime) or the bottom (old age):
+
+> …༧་དཀར་པོ་བཞི་གླིང་ … མང་བ་ནི། །སྣང་སྲིད་སྐྱིད་ཀྱི་ར་བ་ཡིན། །སྟོད་ལ་བྱུང་ན་ཚེ་སྟོད་ན[ི]། …བྱམས་ཤིང་སྐྱིད་པ་ཡིན། …སྨད་དུ་བྱུང་ན་རྒས་ཁར་སྐྱིད།། ཉི་མ་རྒས་ཁར་དྲོ་བ་ཡིན། །…ནག་པོ་གྲུ་བཞི་མང་བ་ན། །རབ་ཆད་ཁྱིམ་ཡིན་…
+
+These lines are WB's own, word for word as far as the reader's text goes,
+with WB's bracketed notes on the pattern (vol. 1, p. 331, etext img. 341:
+«…དཀར་པོ་བཞི་གླིང་མང་བ་ནི། །སྣང་སྲིད་སྐྱིད་ཀྱི་ར་བ་ཡིན། །སྟོད་ལ་བྱུང་ན་ཚེ་སྟོད་ནི། །ཕ་མ་བྱམས་ཤིང་སྐྱིད་པ་ཡིན། །བར་དུ་བྱུང་ན་བཙན་ཕྱུག་ལྡན། །སྨད་དུ་བྱུང་ན་རྒས་ཁར་སྐྱིད།…», etext): the print's
+general verdict is WB's general verdict of the birth reckoning (RD19 above
+has it as "the general verdict by place"). The book's 136 pebbles are WB's
+own count for the fixed reckoning (vol. 1, p. 333, etext img. 343,
+«བསྟན་རྩིས་གཙུག་ལག་རྒྱ་མཚོ་ལས། །རྡེའུ་བརྒྱ་དང་སོ་དྲུག་པོའི། །དགོས་དོན་ཚང་བའི་འགྲེལ་པ་བསྡུས།», Yigdzin-1; *reckonings.md*,
+p. 249's 136): the second piece rests on WB throughout.
+
+**2b. The reckoning for the dead, *The Precious Key*** (img. 271–385). Its
+opening verse (img. 274, Yigdzin-1) gives its aim: «…ཀྱེ་མ་འདི་ནས་ཕར་འདས་གཤིན་པོའི་
+རྩིས། །མེད་ཐབས་མེད་པ་སྙིང་པོར་རབ་གསལ་བྱ།», the reckoning for one who has passed
+from here, made clear in its essence, what cannot be done without. Its
+order, from Yigdzin-1 with img. 278–279 read on the scan at 3×:
+
+1. The dead's life, body, power and luck fought against the year, month,
+   day and hour of death, the pebbles laid as in the obstacle reckoning
+   («…སྲོག་སོགས་བཞི་ལ་འཐབས་པ་ཡིས། །རྗེའུ་ཀེག་རྩིས་བཞིན་དུ་བོར།», img. 275); the
+   deciding pebbles read in WB's lines (img. 275–277: «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། །སྲོག་གི་འགིང་ཤིང་ཆག་པ་སྟེ། …བདུད་ཀྱིས་བཅད་ནས་ལོ་གསུམ་ལོན།», as WB vol. 2, p. 55, etext,
+   where KD's sheet has «བདུད་ཀྱིས་སྔོན་ནས་བཅད་ཟིན་པས», RD28 above), then the
+   life remaining by the hour of death (img. 278).
+2. The living household taken out (གསོན་ཁོག་གཤིན་འདོན, img. 278, read on the
+   scan):
+
+   > སྤྲོ་ན་གསོན་ཁོག་གཤིན་འདོན་རྩིས། །གཡས་སུ་ཕྱིང་དཀར་བཏིང་བའི་སྟེང་། །ཕོ་བརྒྱུད་ནས་བཟུང་བཟའ་མིའི་གྲངས། །ཅི་ཡོད་ཕྱེད་བཅད་མི་རེ་ལ། །གླིང་རེ་བྱས་ལ་ངེས་ཅན་གྱི། །རྡེའུ་ཉི་ཤུ་བོར་བ་ནི། …དེ་དག་སོ་སོའི་ཁ་དམར་ནི། །སྤར་སྨེ་རོ་འདོད་འདོམ་ཆེ་ཆུང་། །ལ་སོགས་བརྟག་སྟེ་ཀེག་རྩིས་ལས། །འབྲས་བུ་བརྗོད་ཅིང་ཁྱད་པར་དུ། །སྲོག་གི་རྡེལ་རྩར་ནག་པ་ན། །བསླུས་ལ་སྲོག་གི་རིམ་གྲོ་བྱ། །ལུས་ཀྱི་རྡེལ་རྩར་ནག་པ་ན། །ཕ་ཚན་སྡེ་ལ་དལ་ཡམས་འཕོག །འཆི་ཟློག་གསུང་རབ་ཐང་འབུམ་སྒྲོགས། །དབང་ཐང་ནག་ན་ནོར་གོད་འོང་། །དབང་བསྐྱེད་གཏོ་བཅོས་བྱ་བ་གཅེས། །ཀླུང་རྟ་ནག་ན་ཁ་སྨྲས་དང་། །མི་ཐེག་ཁུར་པོ་ནང་འཁྲུག་འོང་། །དགྲ་སྲི་མནན་ཅིང་དགྲ་བཟློག་བྱ།
+
+   If one would go further, the reckoning of the living household with the
+   dead taken out: on a white felt spread on the right, the household
+   counted from the male line, each living member given a place and twenty
+   fixed pebbles … each one's verdict examined by trigram and mewa, the
+   corpse's wanting, the size of the meeting and the like, and the results
+   told from the obstacle reckoning; above all, a black root pebble of life
+   calls for a ransom and the life's rites; of the body, an epidemic strikes
+   the father's kin, so recite the scriptures against death; of power, loss
+   of wealth, so do the rites that raise it; of luck, gossip and strife
+   within, so press down the enemy spirits and turn back enemies. (The
+   twenty are WB's «གསོན་ཁོང་གཤིན་འདོན་ཉི་ཤུ», vol. 1, p. 249; *reckonings.md*.)
+3. The dead taken out of the living (img. 279, read on the scan):
+
+   > ༈ དེ་ནས་གཤིན་ཁོག་གསོན་དབྱུང་སྟེ། །གཡོན་དུ་རྩིས་གདན་ནག་པོའི་སྟེང་། །གཤིན་གྱི་རྡེའུ་བོར་བ་ནི། །གཤིན་པོའི་སྲོག་ལུས་དབང་ཀླུང་ཁམས། །རྩ་བ་བཅུ་དང་འཐབ་པ་སྟེ། …དཀར་ནག་བགྲང་ལ་བཏང་གཅོད་བོར། །འབྲས་བུ་གོང་བཞིན་བརྗོད་པའི་ཐོག །ལོ་སྟེང་འབེབས་པའི་ལུགས་ཀྱང་ཡོད། །ཁམས་རྡེལ་ནག་པོར་གྱུར་པ་ན། །འདུར་ཐང་ཆུང་ལས་ཐོབ་མི་བྱ། །དཀར་ན་འདུར་ཐང་རྒྱ་ཆེར་ཐོབ།
+
+   Then the dead taken out of the living: on a black reckoning cloth on the
+   left, the dead's life, body, power, luck and element fought against the
+   ten roots (the notes' p. 500, *reckonings.md*); count the white and
+   black and lay the deciding pebble; the results are told as above, and
+   there is also a way of laying them on the year; if the element pebble is
+   black, the funeral share is no more than small, if white, large (WB vol.
+   2, p. 56).
+4. The second examination onward (img. 280–381): the causes (ལེ་ལན, le lan), the
+   rest of WB's fifteen in order, with tables (img. 321–323, 338–342,
+   354–356), to the grave's account (དུར་སྨྲང, dur smrang, img. 381).
+
+**Its close** (img. 381–385; img. 382–384 read on the scan at 3×). The
+closing verses say why it was written:
+
+> …གལ་ཆེར་ཐུག་ཚེ་འོལ་སྤྱི་ཙམ་དུ་ཟད། ༣ །དེ་ཕྱིར་གཤིན་རྩིས་བླང་དོར་མེད་ལྟར་གྱིས། །གསོན་གཤིན་ཀུན་ལ་ངན་དགུའི་སྒོ་ཕྱེ་ཡང་། །འོལ་ཚོད་བླང་དོར་འདྲི་དང་སྟོན་ཁུལ་ལ། །ཆོག་པ་འདི་འདྲ་མཐོང་ཚེ་ཀྱེ་མ་བླུན། ༤ །ཧ་ཅང་སྤྲོས་པའང་ཡོན་མཆོད་ཕལ་མོ་ཆེས། །བླང་དོར་[ཕུག]་པའི་རྩེ་མོར་ལེན་དཀའ་ཡང་། །མེད་ཐབས་མེད་པ་ཀུན་གྱིས་རྟོགས་སླ་བའི། །གནད་དོན་སྙིང་པོར་བཏུས་པ་འདི་འབད་དོ། ༥
+
+When it matters, [the reckoning in use] comes down to a rough generality.
+So, with the dead's reckoning treated as if it had nothing to adopt or
+reject, the door to every ill is opened for the living and the dead; when
+one sees people content to ask and show what to adopt and reject by rough
+guess, alas, the fools. Since most patrons and priests find it hard to take
+up what to adopt and reject at its fullest, the indispensable points are
+gathered here in essence, easy for all to understand. The prose colophon
+(img. 383–384, read on the scan) adds that the reckoning for the dead,
+taught at great length in WB, had lately, for ease, lost even the names of
+the burning rites, the great harms called *'grams* (འགྲམས, 'grams) and the repetition, so that
+where the rites for bad planets and mansions, *'grams* and repetition are
+not done thoroughly, untimely deaths come one after another to the
+survivors and the land; at the request of Prajñāmaṇi (པྲཛྙཱ་མ་ཎི, prad+nyA ma Ni), the
+head teacher of the government's Mentsikhang, and of fellow students, it
+was gathered from WB's reckoning for the dead and filled out from the star
+reckoning with planets, mansions and the hour's gods, by Yeshe Chöphel (ཡེ་ཤེས་ཆོས་འཕེལ,
+ye shes chos 'phel), a reckoning student of Nyemo Gyaljé Gön (སྙེ་མོ་རྒྱལ་བྱེད་དགོན,
+snye mo rgyal byed dgon), a water bird year (Yigdzin-1; the year's cycle
+not settled on the scan). The block was kept at the Lhasa Mentsikhang (img.
+385).
+
+### What the two give, in short
+
+- **Neither is a reckoning written for one person.** The manuscript is a
+  reference sheet for any death (look-up cells, the deciding pebbles'
+  readings, burial, rebirth, rites); the print's pieces are digests of WB
+  "for easy use" with, in the life reckoning, spaces left for one child's
+  data and results (img. 004, 048, 147, 160; the colophon, img. 227).
+  KD's sheets (RD28) remain the only worked sheets found.
+- **They close as KD's dead sheet and Mipham's p. 539 do: results with
+  rites.** The manuscript closes each deciding pebble on its rite and the
+  four together on one rule of repetition by colour (white small, black
+  great, mixed the intermediate state) with the thread-cross; then burial,
+  rebirth and the trigram's rites. The print's obstacle book closes on its
+  remedies (img. 266–269); its dead's book lays the deciding pebbles,
+  reads them by WB's lines, sizes the funeral share and runs through the
+  fifteen examinations to the grave's account, and its colophon makes the
+  rites the point: a reckoning that skips them "opens the door to every
+  ill".
+- **The one reading of a whole board** is the life reckoning's general
+  verdict of the pebbles by their pattern and place on the board (img.
+  225–226), and that is WB's own (vol. 1, p. 331). It reads where the white
+  and black lie (top, middle, bottom for early life, prime, old age), not a
+  single colour.
+- **Where they leave WB:** the manuscript's speckled reading for each of
+  the four deciding pebbles and its rule over the four by colour; the
+  print's dead book's adding of the star reckoning's planets, mansions and
+  hour gods (its colophon says so). Elsewhere both rest on WB: the 136
+  pebbles, the four precious pebbles, the general verdict, the deciding
+  pebbles' verses (with WB's «…ལོ་གསུམ་ལོན», not KD's wording), the twenty
+  pebbles of the living household, the ten roots and the funeral share.
+
+### Open
+
+- Question: the manuscript reads each of the dead's four deciding pebbles
+  black, white and speckled (I1LT0800, img. 380–383); WB's lines for them
+  (vol. 2, pp. 55–56) read black and white only. Where does a speckled
+  deciding pebble of the dead get a reading of its own, in WB's results
+  elsewhere, the notes or another manual?
+- Question: the manuscript's rule over the four deciding pebbles (img.
+  383, Yigdzin-1 «རྡེའུ་དཀར་ན་ཟློས་ཆུ[ང] རྡེའུ་ནག་ན་ཟློས་ཆེ དཀར་ནག་འདྲེས་བར་དོ་རུ་འཁྱམ»):
+  does WB's tenth examination (the repetition) or the notes give the
+  repetition by the colours of the four together, and the mixed case as
+  wandering in the intermediate state?
+- Question: the keys of the manuscript's numbered cells, 1–9 (img.
+  370–372) and 13–30 (img. 373–376): are they the nine mewa and the dates
+  of the month of death, and to which of WB's examinations do their
+  entries ("bad for a …") belong?
+- Question: the life reckoning's colophon (I1KG12897, img. 227) says
+  Khyenrab Norbu left many blanks to be filled with the star, Chinese and
+  *Rising of the Vowels* results; are the empty ruled boxes (img. 048,
+  147, 160) and the blanks of the opening sentence (img. 004) those, or
+  spaces for the reckoner to write one child's data and results?
+- Question: who is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི), "head teacher of the
+  government's Mentsikhang", at whose request *The Precious Key* was
+  gathered (img. 383), and which water bird year is its date (img. 384)?
+- Doubts left on the scan: the manuscript's cover title after «…བཀོད་པའི»
+  (img. 359); the last words of its closing rule, «རྒྱ་ནག་པའི་ལྷོ་མཆོག་བྱའོ»
+  (img. 383; read here «ལྷ་མཆོད»); the stretches marked … in section 1a; *The Precious Key*'s
+  «[ཕུག]་པའི་རྩེ་མོར» (img. 382; Yigdzin-1 «སུག»).
+
+### Searched and not found
+
+- 2026-10-22, BDRC's full-text search (`bdrc_search.py`): «འབྲས་བུ་འདོན་པ་དེར་བཀོད་པ»,
+  «སློང་ཐང་ལས», «ཞིབ་པ་རེའུ་མིག་འདི་ཡིས་ཤེས» no hit; «རྩིས་དཔེ་ཁག་ཅིག» only the
+  print's own record (MW1KG12790); «ཚེ་རྩིས་འབྲས་བཤད་བཅས་གསལ་བར་བཀོད་པ» and
+  «སོ་དྲུག་གཙོ་བོར་བཟུང་བའི» only that record and the *Catalogue of the Great
+  Treasury* (MW4CZ354964, search only); «ནོར་བུའི་ཕྲེང་མཛེས» (259 hits) and
+  «ཕྲེང་མཛེས་ཞེས་བྱ་བ་བཞུགས» (154) no other copy of *The Beautiful Rosary* in
+  the first results; «གཤིན་རྩིས་ཉུང་བསྡུས» 2 hits, the manuscript's record and
+  a line of 'Bro'i sbyin pa's (འབྲོའི་སྦྱིན་པ, 'bro'i sbyin pa) *Clear Mirror of
+  Results* (MW1KG21827, search only, not read); «ཤོག་ཕྲར་བཀོད» only the
+  manuscript.
+- 2026-10-22, BDRC's catalogue: MW1KG12790 has no outline (no parts); the
+  image group I1KG12897 starts at img. 003.
+- 2026-10-22, agy for single crops: `agy_read.py`'s model, "Gemini 3.1 Pro
+  (High)", is no longer offered by agy ("not recognized"); run by hand with
+  "Gemini 4 Argon (High)", img. 362's head row and img. 089's title timed
+  out at 20 minutes with no text, and img. 004 was refused by the model's
+  filter. No agy reading was used.
 
 
 ## «སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble (open question 245)
