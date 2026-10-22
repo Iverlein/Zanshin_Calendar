@@ -435,6 +435,11 @@ class BirthTest {
             }
         }
         assertEquals(PebbleColour.WHITE, h.deciding(Force.VITALITY, HundredKin.ENEMY))
+        // P. 338's sets on the sheet's deciding pebbles: the mothers two and two, the sons mixed, the friends all black,
+        // eight white of twenty; no aspect's own and enemy part. Eight good of twenty: the birth weighs bad (p. 349).
+        assertEquals(listOf(BirthSet.MOTHERS_HALF, BirthSet.MANY_BLACK, BirthSet.SONS_MIXED, BirthSet.FRIENDS_BLACK), BirthReckoning.sets(h))
+        assertEquals(8, BirthReckoning.goodCount(h))
+        assertEquals(BirthWhole.BAD, BirthReckoning.whole(h))
         assertNull(BirthReckoning.hundred(Sign(Element.WOOD, Animal.MOUSE), 1984, Sign(Element.WATER, Animal.MONKEY), Gender.MALE, 1958, null))
     }
 }

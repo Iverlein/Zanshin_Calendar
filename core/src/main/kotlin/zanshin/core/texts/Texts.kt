@@ -24,6 +24,8 @@ import zanshin.core.tibetan.SiblingsWin
 import zanshin.core.tibetan.SpouseKind
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
+import zanshin.core.tibetan.BirthSet
+import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.HundredKin
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
@@ -454,6 +456,8 @@ object Sources {
     val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
+    /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
+    val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
     val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2099,6 +2103,19 @@ object Texts {
         arg = "reading.BirthAspect.${share.name}.${kind.name}" + if (kind == BirthChild.DEMON) ".${against.name}" else "",
         source = Sources.WHITE_BERYL_BIRTH_SHARES,
     )
+
+    /**
+     * The birth together [w] (ROADMAP R4): the hundred's deciding pebbles weighed by force and number (WB vol. 1, ch. 22,
+     * p. 349); [remedies] the catalog keys of the readings whose Remedy rows are gathered into its own.
+     */
+    fun birthTogether(w: BirthWhole, remedies: List<String>): Reading =
+        Reading(key = "reading.BirthTogether", arg = "reading.BirthTogether.${w.name}", source = Sources.WHITE_BERYL_BIRTH_WHOLE, alsoRows = remedies)
+
+    /** A set [set] of the hundred's deciding pebbles read whole (WB vol. 1, ch. 22, p. 338; the notes, vol. 2, p. 484). */
+    fun birthSet(set: BirthSet): Reading = Reading(key = "reading.BirthSet", arg = "reading.BirthSet.${set.name}", source = Sources.WHITE_BERYL_BIRTH_WHOLE)
+
+    /** The general verdict read from where the hundred lie on the board (WB vol. 1, ch. 22, p. 331). */
+    fun birthBoard(): Reading = Reading(key = "reading.BirthBoard", source = Sources.WHITE_BERYL_BIRTH_WHOLE)
 
     /** The deciding pebble of the hundred's column [kin] of [force], of colour [colour] (WB vol. 1, ch. 22, pp. 329–331). */
     fun hundredPebble(force: Force, kin: HundredKin, colour: PebbleColour): Reading = Reading(

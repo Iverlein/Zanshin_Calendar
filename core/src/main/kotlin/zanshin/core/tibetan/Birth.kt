@@ -213,6 +213,25 @@ data class Hundred(val lucks: Map<UnchangingLuck, YearForces>, val birth: YearFo
     fun good(force: Force, kin: HundredKin): Boolean = (deciding(force, kin) == PebbleColour.WHITE) != (kin == HundredKin.ENEMY)
 }
 
+/**
+ * The sets of p. 338 read on the hundred's deciding pebbles (ROADMAP R4): the four mothers white, black or half and
+ * half (the notes, p. 484: the mothers of the life force, body, destiny and luck); many white or many black among the
+ * four aspects; the four sons and the four friends white, black or mixed; the life force's, destiny's and luck's own
+ * rising with its enemy declining, or the reverse (rising is the pebble white, as the notes read the five doors).
+ */
+enum class BirthSet(val good: Boolean?) {
+    MOTHERS_WHITE(true), MOTHERS_BLACK(false), MOTHERS_HALF(null),
+    MANY_WHITE(true), MANY_BLACK(false),
+    SONS_WHITE(true), SONS_BLACK(false), SONS_MIXED(null),
+    FRIENDS_WHITE(true), FRIENDS_BLACK(false), FRIENDS_MIXED(null),
+    VITALITY_RISES(true), VITALITY_FALLS(false), DESTINY_RISES(true), DESTINY_FALLS(false), LUCK_RISES(true), LUCK_FALLS(false);
+
+    val english: String get() = gloss(this)
+}
+
+/** The birth weighed whole by p. 349's rule: the good results greater and more, the bad, or even. */
+enum class BirthWhole { GOOD, BAD, EVEN; val english: String get() = gloss(this) }
+
 /** Whom the birth month bears on, by the child's life force counted onto it (p. 348). */
 enum class RaisingMonth { FATHER, MOTHER, OWN, GOOD; val english: String get() = gloss(this) }
 
@@ -466,6 +485,41 @@ object BirthReckoning {
             birth.forces,
         )
     }
+
+    /** The sets of p. 338 that hold on [h]'s deciding pebbles, in WB's order. */
+    fun sets(h: Hundred): List<BirthSet> = buildList {
+        fun of(kin: HundredKin) = Force.entries.map { h.deciding(it, kin) }
+        val mothers = of(HundredKin.MOTHER)
+        when (mothers.count { it == PebbleColour.WHITE }) {
+            4 -> add(BirthSet.MOTHERS_WHITE)
+            0 -> add(BirthSet.MOTHERS_BLACK)
+            2 -> add(BirthSet.MOTHERS_HALF)
+        }
+        val white = Force.entries.sumOf { f -> HundredKin.entries.count { h.deciding(f, it) == PebbleColour.WHITE } }
+        if (white > 10) add(BirthSet.MANY_WHITE) else if (white < 10) add(BirthSet.MANY_BLACK)
+        for ((kin, sets) in listOf(
+            HundredKin.SON to Triple(BirthSet.SONS_WHITE, BirthSet.SONS_BLACK, BirthSet.SONS_MIXED),
+            HundredKin.FRIEND to Triple(BirthSet.FRIENDS_WHITE, BirthSet.FRIENDS_BLACK, BirthSet.FRIENDS_MIXED),
+        )) {
+            add(when (of(kin).count { it == PebbleColour.WHITE }) { 4 -> sets.first; 0 -> sets.second; else -> sets.third })
+        }
+        for ((force, sets) in listOf(
+            Force.VITALITY to (BirthSet.VITALITY_RISES to BirthSet.VITALITY_FALLS),
+            Force.DESTINY to (BirthSet.DESTINY_RISES to BirthSet.DESTINY_FALLS),
+            Force.LUCK to (BirthSet.LUCK_RISES to BirthSet.LUCK_FALLS),
+        )) {
+            val own = h.deciding(force, HundredKin.OWN)
+            val enemy = h.deciding(force, HundredKin.ENEMY)
+            if (own == PebbleColour.WHITE && enemy == PebbleColour.BLACK) add(sets.first)
+            if (own == PebbleColour.BLACK && enemy == PebbleColour.WHITE) add(sets.second)
+        }
+    }
+
+    /** How many of [h]'s twenty deciding pebbles are good ([Hundred.good]). */
+    fun goodCount(h: Hundred): Int = Force.entries.sumOf { f -> HundredKin.entries.count { h.good(f, it) } }
+
+    /** The birth weighed whole (p. 349) on [h]'s twenty deciding pebbles: good where the good are more, bad where the bad, even. */
+    fun whole(h: Hundred): BirthWhole = goodCount(h).let { if (it > 10) BirthWhole.GOOD else if (it < 10) BirthWhole.BAD else BirthWhole.EVEN }
 
     /** The father's trigram in the Tibetan year [birthYear] of the birth, for a father born in [fatherBirthYear]; null if not born before. */
     fun fatherTrigram(fatherBirthYear: Int, birthYear: Int): Trigram? {
