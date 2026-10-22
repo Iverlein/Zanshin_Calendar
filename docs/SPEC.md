@@ -688,6 +688,10 @@ relatives (the spouse taken as the other sex where theirs is not set).
   `MatchPairList` and `MatchPairLine`. The lists disagree in places (the
   ox and sheep bring many children and failed harvests); each reading is
   shown.
+  Then one deciding pebble for the couple over all the bad years
+  (Mipham's notes, vol. 2, pp. 523–524): black when both are born in
+  them, speckled when one is, white when neither; a woman's bad year
+  above all is bad (`MatchReckoning.badYearPebble`, `BadYearPebble`).
 - **The birth mewas** (point 12, p. 363): the man's and the woman's
   birth mewas, "the main one" though all four aspects' may be compared
   (`MatchReckoning.mewaMeetings`, family `MatchMewa`): born on one mewa,
@@ -695,8 +699,28 @@ relatives (the spouse taken as the other sex where theirs is not set).
   'dus*); as mother and son, good; as enemies, bad, and the man on the
   seven-red with the woman on the three-blue the mewa's demon, not
   joined, with its rite. Two mewas of one element that are not one meet
-  in none of these ways. Not built: the four aspects' mewas (open
-  question 161) and the white and black shares.
+  in none of these ways. Not built: the white and black shares.
+- **The hidden** (point 4, pp. 357–358) and **the deeper hidden** (point
+  5, p. 359): each aspect's mewa (`MatchReckoning.aspectMewa`, ch. 21,
+  p. 255: the body's the birth mewa, the life force's "four up", the
+  birth mewa less three, destiny's "four down", plus three, round 1–9;
+  the luck's the birth mewa of the wind-horse year of the animal's triad
+  in the same sixty years, counted from the fire hare of 1027, as WB's
+  fire hare of 1687 counts it; the *Moonbeams* takes that year's life
+  force mewa, open question 234), the man's against the woman's, each
+  mewa by its trigram on the square (9 li, 2 khon, 7 dwa, 6 khen, 1 kham,
+  8 gin, 3 zin, 4 zon; a man's 5 as 2, a woman's as 7), on one of nine
+  wheels (`HiddenWheel`, as the notes draw them, p. 524): the sky
+  goddess, sustaining life and increasing glory, the first three, a
+  cloudless sun; fortune gained (one mewa of 9, 8, 7 or 6) and equal
+  fortune (1, 2, 3 or 4), good, and harm, the sun between clouds; the
+  five demons, the demon's cut and the body cut, frost on the ground,
+  each with its result and the rites WB gives; family `MatchHidden`. The
+  deeper hidden keeps the man's mewas and draws the woman's, 1 and 2, 3
+  and 9, 4 and 8 to each other (`MatchReckoning.drawn`), on the same
+  wheels with their readings, under its own note (family
+  `MatchDeepHidden`). Not built: the hidden's progressed signs fighting
+  (*log men*, p. 358–359).
 - **The natal trigrams** (point 11, pp. 361–362): each spouse's natal
   trigram, the mother's luck trigram at the birth (Mipham's notes), from
   the person's mother and the spouse's mother entered under the spouse
@@ -746,10 +770,24 @@ relatives (the spouse taken as the other sex where theirs is not set).
   element agrees for earth and water and is middling for fire, iron and
   wood; each aspect's agreement and disagreement with its reading, the
   disagreement with WB's rite. All four meeting as mother and son: the
-  wife of karma (*las kyi chung ma*).
+  wife of karma (*las kyi chung ma*). Otherwise each aspect's kind of
+  wife (p. 355, read on the Zhol print; Sangye Gyatso's *Removing the
+  Tarnish*, reply 113; the notes, p. 524): of karma the best (mother and
+  son, or earth or water meeting itself), of kin the middling (friends,
+  or fire, iron or wood meeting itself), of enmity the last (enemies),
+  one row for each kind with its aspects (`MatchReckoning.kinds`,
+  `SpouseKind`); the whole is judged "in general", no kind summed.
 - **The two destinies together** (p. 357): the fifteen pairs of the
   destinies' elements, with the children born and the household's
   fortune.
+- **The siblings' number** (point 7, p. 359; the notes, p. 525): each
+  spouse's life force, body, destiny, luck and birth mewa counted by
+  element, wood 1, earth 2, water 3, fire 4, iron 5 (the mewa by its
+  element, the three white as iron), and summed
+  (`MatchReckoning.siblings`); the larger sum wins, equal is good, the
+  man defeated hangs Mañjuśrī's wheel (`SiblingsWin`); and the two sums
+  together even agree, odd disagree, with WB's results (family
+  `MatchSiblings`). No aspect is counted alone.
 - **The same planet of birth** (p. 360): husband and wife born on the
   same weekday (the Tibetan day's, as the birth weekday, §5.12) are
   joined in its planet, Saturday, Sunday or Tuesday, Thursday, Monday or
@@ -3492,9 +3530,17 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   bad year ("The man's year · a harsh year · Fire Dragon"), or a line
   that there is none; under "The single match"
   each aspect ("Vitality · agrees · The man's earth · the woman's
-  earth") and the wife of karma where it holds; under "The two
+  earth") and the wife of karma where it holds, or each kind of wife
+  with its aspects ("A wife of kin · destiny, luck"); after the years the
+  couple's pebble ("The bad years for the couple · a black pebble");
+  under "The hidden" and "The deeper hidden" each aspect's wheel
+  ("Luck · the sky goddess · The man's mewa 8 white · the woman's mewa 5
+  yellow"); under "The two
   destinies" their pair; "Both born on a Tuesday" where the weekdays
-  meet; *ni sha* where it is good or reversed; a line
+  meet; *ni sha* where it is good or reversed; under "The siblings'
+  number" the comparison ("Siblings' number · the man defeated · The man
+  counts 14 · the woman 15") and the agreement ("Siblings' number ·
+  disagrees · Both together 29"); a line
   on the points read. Without a gender or a spouse's year, what it needs
   and the way to People.
 - **The birth** (§5.9.2): Back, the title "The birth" and the person's

@@ -1169,6 +1169,23 @@ given only as setting the earth lords right. Not built: «བུད་མེད�
 «ས་ཡི་གཤེད་བཞི་ཟིན་ལ་སྐྱེས», «ཆུ་ཡི་བྱི་ཕག་ཁོན་གིན་སྐྱེས། །ཁྱོ་བོ་གདོང་ལ་འཇུག་པ», whose
 subject or sense is not settled.
 
+## Built, 2026-10-22 (ROADMAP R3n–R3q)
+
+The hidden (point 4) and the deeper hidden (point 5) from O16's reading
+below: `MatchReckoning.aspectMewa`, `mewaTrigram`, `hidden`, `drawn`,
+`HiddenWheel`, families `MatchHidden` and `MatchDeepHidden`. The wheels'
+results are pp. 357–358's lines in our words; left out where the words
+are not settled: life's «ལྷ་ལ་གདགས་ཤིང་རྒྱན་ཆས་བྱེད», glory's «རྐང་འགྲོས» (read only
+as "wealth increases") and «མིང་སྲིང་ལྔས་འདུར», harm's «བཟའ་མི་སྙིང་རིང», the demon's
+cut's «སྟོང་འབབ་ཕ་ཞིང་མི་ལ་འཚོར», and of the rites the five demons' «རྒྱལ་པོ་ཆགས་པ་དགུ་སྐོར»,
+«འདྲེ་གདོན་ཟ་ཁ་སྤོ་ཚོག», «གྲེ་མོ་སྐྱས་འདེབས་བོང་ར་འགྱེད», «འབུམ་ཆུང་སྡེ་ལྔ་ལྕགས་མཆུ་འདོན» and the body cut's
+«མོད་མང་གསུང་སྒྲོག་འཕུང་སྲི་གནོན། །རྒྱལ་པོ་དཀོར་མདོས་ཐེའུ་བྲང་བཀར། །བསེན་མདོས་བྱང་སྨན་བོང་ར་བྱ། །རྒྱ་མ་སྲིད་ཀྱི་གོང་ཕུར་སོགས།» (named rites
+and texts not identified); harm's «བོན་པོ་ལྔ» is given as "five priests".
+Point 7 (`siblings`, `SiblingsWin`, family `MatchSiblings`), the
+couple's bad-year pebble (`BadYearPebble`) and the kinds of wife
+(`SpouseKind`) from RD21 ([verdicts.md](verdicts.md)). Not built: point
+10's relations (open question 235), the hidden's progressed signs.
+
 ## The match concluded (RD21)
 
 Read 2026-10-20; the passages and their English are in
