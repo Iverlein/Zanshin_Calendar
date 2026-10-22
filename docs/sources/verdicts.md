@@ -5047,3 +5047,18 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 - 2026-10-21, Lhamo Tsultrim's etext (I1KG21886): «མྱོང་བྱང», «རྩིས་ཡིག»,
   «རྩིས་བྱང», «སྦྱིན་བདག», «ཡི་གེར», «འབྲི་ཚུལ», «བྲི་ཚུལ», «དཔེར་བརྗོད», «ཟིན་བྲིས»,
   «སྤྱི་བསྡོམ» none; «ཤོག་ཁྲ» only for look-up tables (etext pp. 12, 194–195).
+
+
+## Written reckonings on the open scans (RD29)
+
+Nothing read yet: RD29's passages, with the English beside them, go here.
+
+
+## «སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble (open question 245)
+
+Nothing read yet: question 245's passages, with the English beside them, go here.
+
+
+## Kun dga' rig 'dzin, the writer of the sheets (open question 246)
+
+Nothing read yet: question 246's passages, with the English beside them, go here.
