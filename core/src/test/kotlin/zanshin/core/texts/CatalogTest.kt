@@ -151,7 +151,7 @@ class CatalogTest {
             Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
             Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR,
             Texts.MEDICAL_SEASON,
-        ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE +
+        ).flatMap { it.values } + Texts.ELEMENT_ILLNESS.values + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
@@ -385,7 +385,7 @@ class CatalogTest {
             Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL,
             Texts.EARTH_LORD, Texts.BLA_MKHYEN, Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON, Texts.RAHU_MONTH,
             Texts.WORKS_SIGN, Texts.SEASON_SIGN, Texts.DATE_SME_BA, Texts.TWELVE_LINK, Texts.HUNDRED_FEET, Texts.HOUR_HIDDEN,
-            Texts.HOUR_WORKS, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR, Texts.MEDICAL_SEASON,
+            Texts.HOUR_WORKS, Texts.ELEMENT_QUARTER, Texts.GRAVE_MANSION, Texts.HUMOUR, Texts.MEDICAL_SEASON, Texts.ELEMENT_ILLNESS,
         ).flatMap { it.values } + Texts.LA_ELEMENT + Texts.LA_HOURS + Texts.SEVEN_RED_YEAR + Texts.DUS_SBYOR.values.map { it.second } + Texts.HAIRCUT + Texts.HAIRCUT_LIST +
             Texts.LUNAR_DATE + Texts.BURNING_DATE + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values +
             Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values +
@@ -567,6 +567,7 @@ class CatalogTest {
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
+            "H2" to listOf("ElementIllness"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
         /**

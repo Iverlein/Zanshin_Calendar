@@ -395,6 +395,8 @@ object Sources {
     val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–416", volume = 1)
     /** A bad stage of the energy: its rank (ch. 21), the aspect in decline (ch. 24, p. 409) and the stage's spirits and rite (ch. 25, pp. 440–442). */
     val WHITE_BERYL_YEAR_STAGES = whiteBeryl("chapter 21, p. 258, chapter 24, p. 409, and chapter 25, pp. 440–442", volume = 1)
+    /** Each element's illness, its seat, door and signs (ROADMAP H2a, docs/sources/health.md, RD12, RD22). */
+    val WHITE_BERYL_ELEMENT_ILLNESS = whiteBeryl("chapter 25, pp. 435 and 438–439", volume = 1)
     /** The predictive pebbles (ch. 24, pp. 380–385), each place counted once by its colour and a tie speckled by Mipham's notes (vol. 2, pp. 490 and 495; D16). */
     val WHITE_BERYL_PREDICTIVE = whiteBeryl("chapter 24, pp. 380–385, with the notes in vol. 2, pp. 490 and 495", volume = 1)
     /** Whose aspect matters most (ch. 20, p. 242) and the black pebbles to be treated in earnest (ch. 24, pp. 415–416). */
@@ -1921,6 +1923,15 @@ object Texts {
 
     /** The Root Tantra's humours: each one's season and hours, its people and its country, and its conduct (ch. 3 and 6). */
     val HUMOUR: Map<Humour, Reading> = keyed(*Humour.entries.map { it to Reading(source = Sources.FOUR_TANTRAS_ROOT) }.toTypedArray())
+
+    /**
+     * Each element's illness (ROADMAP H2a; WB vol. 1, ch. 25, pp. 435 and 438–439, read on the scan, health.md): its
+     * humour, its outer field, the organ within, its door and the signs once it has entered, the ground its sick
+     * avoid, and as an Illness row the signs when it takes hold at its own time.
+     */
+    val ELEMENT_ILLNESS: Map<Element, Reading> = Element.entries.associateWith {
+        Reading(key = "reading.ElementIllness", arg = "reading.ElementIllness.${it.name}", source = Sources.WHITE_BERYL_ELEMENT_ILLNESS)
+    }
 
     /** The Explanatory Tantra's six seasons, their food and conduct (ch. 14). */
     val MEDICAL_SEASON: Map<MedicalSeason, Reading> =
