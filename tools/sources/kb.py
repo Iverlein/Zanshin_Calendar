@@ -38,6 +38,7 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -168,13 +169,24 @@ class Index:
         for s, d in self.sources.items():
             self.rows["source"].append((s, d.get("title"), d.get("rank"), d.get("role"), d.get("locator", "page")))
         self.read_roadmap()                         # first: a heading naming a reading takes its volume
+        ignored = self.gitignored()
         for path in sorted(self.sources_dir.rglob("*.md")):
             rel = path.relative_to(self.root).as_posix()
-            if any(part.startswith(".") for part in path.relative_to(self.sources_dir).parts):
+            if any(part.startswith(".") for part in path.relative_to(self.sources_dir).parts) or rel in ignored:
                 continue
             self.read_file(path, rel)
         self.read_questions()
         self.read_readme_sigla()
+
+    def gitignored(self):
+        """The pool's files git ignores (docs/sources/wb/, the machine transcriptions kept
+        locally): not part of the pool, not indexed."""
+        try:
+            out = subprocess.run(["git", "-C", str(self.root), "ls-files", "--others", "--ignored", "--exclude-standard", "--", "docs/sources"],
+                                 capture_output=True, text=True, check=True).stdout
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            return set()
+        return set(out.split())
 
     def read_file(self, path, rel):
         text = path.read_text()
