@@ -903,6 +903,15 @@ relation's) and a whole date of death (`DeadReckoning`, core
   the body black, it wanted the grave, white, it did not; destiny black,
   the count of food filled, white, not; the luck black, the branch broken,
   white, not. A speckled one is named, with no reading.
+- **The mewa and the course of the years** (p. 56, the first
+  examination's sixth and seventh tests): the dead's mewa of the year of
+  age at the year of death on its four small obstacles, of the house, the
+  bed, the land and the royal gate (§5.9.1), the time of death, none of
+  them untimely; and the course of the years, the year of age's obstacles
+  of that year among those WB names here (one's own year, its seventh,
+  the triad, the fourth up and down, the progressed sign's demon cut, the
+  nine-multiples, the grave-eye) and the aspects on a bad stage of rise
+  and decline: where any holds, the time of death had come.
 - **The whole** (pp. 56–57): three or four of the four deciding pebbles
   black, the life was spent; three or four white, an untimely death, a
   harmful spirit carrying off one not due to die.
@@ -921,8 +930,8 @@ listing each root's pebbles, or a line for a speckled one; a line asking
 for what is missing; a closing note on what is reckoned.
 
 **Not calculated** yet: the element's pebble and the funeral share (the
-fourth examination), the trigram's, mewa's and the years' tests of the
-first examination (its parts 5–7), the other fourteen examinations, the
+fourth examination), the trigram's test of the first examination (its
+part 5: the trigram's enemy or own place, demon door and *'phung chags*), the other fourteen examinations, the
 living household.
 
 #### 5.9.5 The moment

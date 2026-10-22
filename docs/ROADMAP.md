@@ -3956,9 +3956,11 @@ groups it shows (`tools/emulator/store_shots.py`).
   four places; on WB's eight, destiny speckled), `ReckoningsTest` (the
   relative's dates, the 04:30 death on the day before), `CatalogTest`,
   the emulator in English and Russian (the sheet's dead man as a father,
-  a sister without a full date of death), the release build. Not built:
-  the element's pebble and funeral share, parts 5–7 of the first
-  examination, the other fourteen examinations, the living household.
+  a sister without a full date of death), the release build. Parts 6
+  and 7 (the mewa's small obstacles and the course of the years, p. 56)
+  added the same day, families `DeadMewa` and `DeadCourse`. Not built:
+  the element's pebble and funeral share, part 5 (the trigram's test),
+  the other fourteen examinations, the living household.
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough
