@@ -925,6 +925,44 @@ fourth examination), the trigram's, mewa's and the years' tests of the
 first examination (its parts 5–7), the other fourteen examinations, the
 living household.
 
+#### 5.9.5 The moment
+
+WB vol. 2, ch. 30, the reckoning of the moment (ROADMAP R2o;
+[sources/reckonings.md](sources/reckonings.md), RD17, O16 and question
+164; [sources/corpus/wb/ch30.md](sources/corpus/wb/ch30.md)), as far as it
+is built: the trigram and the mewa of the present moment, at the zone of
+the page (`MomentReckoning`, core `tibetan/Moment.kt`; `Reckonings.moment`).
+
+- **The date's own** (the notes, vol. 2, p. 535; the *Moonbeams*): a
+  month's first date dawns on li for the tiger, horse and dog months, zin
+  for the pig, sheep and hare, dwa for the bird, ox and snake, kham for
+  the mouse, dragon and monkey, and the trigram runs forward one a date;
+  the mewa dawns on 1 white for a season's first month, 4 green for its
+  middle, 7 red for its last, and runs up one a date. `MomentTest` holds
+  O16's check: a thirty-day month ends where the next month's group
+  begins, round the year.
+- **Through the day** (p. 162, WB's rough form, read on the scan): from
+  dawn, 05:00, the Tibetan day's turn (§10), one trigram every three
+  quarters of an hour (1½ hours) and one mewa every two thirds (80
+  minutes), eight and nine through the twelve hours of day, and again from
+  the date's own through the twelve of night. The notes' finer form
+  divides the day's and the night's length; it is not used.
+- **The readings** (pp. 161–162, read on the scan): by the moment's
+  trigram, the asker's door, livestock and woman, the harm and its remedy
+  where WB gives them; by the moment's mewa, who is concerned, what
+  wealth, and the spirit (as persons, as wealth, as spirits). Words not
+  clear on the scan are left out (corpus file).
+
+The screen (§10.11): "The moment" in the Reckonings list ("Now: earth
+(ཁོན, khon) · mewa 9"); on it, the weekday, the lunar date, the month and
+the time since dawn, the moment's trigram and mewa, each opening its
+reading, and a closing note on what is reckoned.
+
+**Not calculated** yet: the readings by the six periods of the day and by
+the hour's element (pp. 156–161, machine-read only), the mewa as shapes
+and places, the asker's year fighting the moment (p. 172), the signs,
+dreams and implements, the small reckonings (pp. 163–172).
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*

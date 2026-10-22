@@ -1711,7 +1711,7 @@ page; the parts marked read on the scan):
   earth, iron and water, what the asker's father and uncles are like,
   the house's door, the dog and horse, the women, the food, the field
   and the grave site, the demon and the rite.
-- *By the moment's trigram* (pp. 161–162, img. 169–170): for each of the eight
+- *By the moment's trigram* (pp. 161–162, img. 169–170; read on the scan 2026-10-22, R2o: [corpus/wb/ch30.md](corpus/wb/ch30.md#wb-2-p161-162)): for each of the eight
   trigrams (ལི li, ཁོན khon, དྭ dwa, ཁེན khen, ཁམ kham, གིན gin, ཟིན zin,
   ཟོན zon), the door's direction, the
   horses and livestock, the women, the harm and its remedy. Then

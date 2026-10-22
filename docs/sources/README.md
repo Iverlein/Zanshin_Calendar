@@ -67,10 +67,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
-| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 3 passages: 3 scan |
+| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 0 passages: nothing read yet |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 1 passages: 1 scan |
+| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 0 passages: nothing read yet |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 
 <!-- end pool index -->
