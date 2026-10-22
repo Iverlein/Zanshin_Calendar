@@ -5,6 +5,7 @@
 package zanshin.core.tibetan
 
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Test
 
 /** The signs of the years of life (WB vol. 1, pp. 255–258; docs/sources/year-of-life.md). */
@@ -101,7 +102,15 @@ class YearOfLifeTest {
         }
         assertEquals(listOf(Sector.ILLNESS, Sector.ILLNESS, Sector.BIRTH, Sector.WORKING), r.sectors.map { it.sector })
         assertEquals(Pebbles(8, 5), r.tally(Force.VITALITY))
-        assertEquals(true, r.predictive(Force.VITALITY))
+        // Each place once by its colour (the notes, p. 490), a son's meeting for neither (D16): the vitality's three
+        // white and three black places tie, speckled; the body 4:2 white; the destiny 3:2 white, where Dorje prints
+        // a white and a black (his son meeting black, which the notes' table, p. 489, rules out); the luck 2:3 black.
+        assertEquals(listOf(Pebbles(3, 3), Pebbles(4, 2), Pebbles(3, 2), Pebbles(2, 3)), Force.entries.map { r.places(it) })
+        assertEquals(
+            listOf(PebbleColour.SPECKLED, PebbleColour.WHITE, PebbleColour.WHITE, PebbleColour.BLACK),
+            Force.entries.map { r.predictive(it) },
+        )
+        assertNull(r.copy(hour = null).predictive(Force.VITALITY))
     }
 
     @Test

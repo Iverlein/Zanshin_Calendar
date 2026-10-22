@@ -185,7 +185,8 @@ class CatalogTest {
             if (r.nineMultiple) out += Texts.nineMultiple(gender!!, r.age)
             Texts.yearMewa(r.natalSmeBa, r.currentSmeBa)?.let { out += it }
         }
-        for (f in Force.entries + listOf(null)) for (w in listOf(true, false)) out += Texts.yearPredictive(f, w)
+        for (f in Force.entries) for (c in PebbleColour.entries) out += Texts.yearPredictive(f, c)
+        for (c in listOf(PebbleColour.WHITE, PebbleColour.BLACK)) out += Texts.yearPredictive(null, c)
         Trigram.entries.forEach { out += Texts.natalTrigram(it) }
         KinObstacle.entries.forEach { out += Texts.kinObstacle(it) }
         BirthChild.entries.forEach { c -> Element.entries.forEach { out += Texts.birthChild(c, it) } }

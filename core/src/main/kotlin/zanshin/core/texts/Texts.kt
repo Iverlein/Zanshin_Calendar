@@ -394,6 +394,8 @@ object Sources {
     val WHITE_BERYL_YEAR_OF_LIFE = whiteBeryl("chapter 21, pp. 255–258, and chapter 24, pp. 380–416", volume = 1)
     /** A bad stage of the energy: its rank (ch. 21), the aspect in decline (ch. 24, p. 409) and the stage's spirits and rite (ch. 25, pp. 440–442). */
     val WHITE_BERYL_YEAR_STAGES = whiteBeryl("chapter 21, p. 258, chapter 24, p. 409, and chapter 25, pp. 440–442", volume = 1)
+    /** The predictive pebbles (ch. 24, pp. 380–385), each place counted once by its colour and a tie speckled by Mipham's notes (vol. 2, pp. 490 and 495; D16). */
+    val WHITE_BERYL_PREDICTIVE = whiteBeryl("chapter 24, pp. 380–385, with the notes in vol. 2, pp. 490 and 495", volume = 1)
     /** Whose aspect matters most (ch. 20, p. 242) and the black pebbles to be treated in earnest (ch. 24, pp. 415–416). */
     val WHITE_BERYL_YEAR_CARE = whiteBeryl("chapter 20, p. 242, and chapter 24, pp. 415–416", volume = 1)
     /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
@@ -1970,9 +1972,17 @@ object Texts {
     /** What the pebbles of [force] foretell (WB vol. 1, pp. 380–384). */
     fun yearPebble(force: Force, p: Pebbles): Reading = yearOfLife("YearPebble", "${force.name}.${pebbleGroup(p)}")
 
-    /** The predictive pebble of [force], white or black; with [force] null, all four alike (pp. 384–385). */
-    fun yearPredictive(force: Force?, white: Boolean): Reading =
-        yearOfLife("YearPredictive", if (force == null) (if (white) "ALL_WHITE" else "ALL_BLACK") else "${force.name}.${if (white) "WHITE" else "BLACK"}")
+    /**
+     * The predictive pebble of [force], white, black or speckled (pp. 384–385; a speckled one reads p. 381–384's one
+     * white and one black, D16); with [force] null, all four white or all four black.
+     */
+    fun yearPredictive(force: Force?, colour: PebbleColour): Reading =
+        Reading(
+            key = "reading.YearPredictive",
+            arg = "reading.YearPredictive." + if (force == null) "ALL_${colour.name}" else "${force.name}.${colour.name}",
+            source = Sources.WHITE_BERYL_PREDICTIVE,
+            also = listOf(Sources.MOONBEAMS),
+        )
 
     /**
      * A stage of the energy; an aspect in one of the six bad stages also reads its decline (WB vol. 1, p. 409), whose

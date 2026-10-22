@@ -432,18 +432,26 @@ data class YearReckoning(
         .fold(Pebbles(0, 0)) { a, p -> Pebbles(a.white + p.pebbles.white, a.black + p.pebbles.black) }
 
     /**
-     * Where the predictive pebble of [force] goes: on whichever are more, the
-     * white (true) or the black (false), "counting the white and black that
-     * are there, not the threes and twos" (WB vol. 1, p. 381); null when they
-     * are even or the reckoning is not [complete].
+     * The places of [force] counted once each by their colour (Mipham's notes, vol. 2, p. 490: a mother's three white
+     * count as one, an enemy's two black as one): [Pebbles.white] the places of white alone, [Pebbles.black] of black
+     * alone. A place with both colours, a son's meeting or the breath-taking and womb stages, is speckled and counts
+     * for neither (the notes, pp. 495 and 502; D16, decided 2026-10-20).
      */
-    fun predictive(force: Force): Boolean? {
+    fun places(force: Force): Pebbles = pebbles.filter { it.force == force }.map { it.pebbles }
+        .let { ps -> Pebbles(ps.count { it.white > 0 && it.black == 0 }, ps.count { it.black > 0 && it.white == 0 }) }
+
+    /**
+     * The predictive pebble of [force]: on whichever [places] are more, white or black, "counting the white and black
+     * of the faces, not the threes and twos" (WB vol. 1, p. 381); a speckled one when they are even (the notes,
+     * p. 490); null when the reckoning is not [complete].
+     */
+    fun predictive(force: Force): PebbleColour? {
         if (!complete) return null
-        val t = tally(force)
+        val t = places(force)
         return when {
-            t.white > t.black -> true
-            t.black > t.white -> false
-            else -> null
+            t.white > t.black -> PebbleColour.WHITE
+            t.black > t.white -> PebbleColour.BLACK
+            else -> PebbleColour.SPECKLED
         }
     }
 
