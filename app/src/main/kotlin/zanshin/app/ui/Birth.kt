@@ -6,6 +6,12 @@ package zanshin.app.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
@@ -34,6 +40,9 @@ import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.GroupCut
+import zanshin.core.tibetan.Hundred
+import zanshin.core.tibetan.HundredKin
+import zanshin.core.tibetan.UnchangingLuck
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.smeBaElement
@@ -100,7 +109,93 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
                 onOpen,
             )
         }
+        HundredSection(person, b, onOpen)
         Text(stringResource(R.string.birth_note), style = muted)
+    }
+}
+
+/**
+ * The hundred pebbles (pp. 261, 329–331): the board as Kun dga' rig 'dzin's sheet lays it (KD vol. 3, p. 718), the
+ * five unchanging lucks top to bottom against the four aspects' own, mother, son, friend and enemy, the deciding
+ * pebbles below; then each deciding pebble with its reading. A son's needs his father's year.
+ */
+@Composable
+private fun HundredSection(person: Person, b: BirthReading, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    Section(stringResource(R.string.birth_section_hundred))
+    val gender = person.gender
+    val born = TibetanCalendar.of(person.birth)
+    val month = Forces.signs(born).month
+    val h = gender?.let { BirthReckoning.hundred(b.birth, b.birthYear, month, it, b.mother.birthYear!!, b.father?.birth) }
+    if (h == null) {
+        Text(stringResource(R.string.birth_hundred_needed), style = muted)
+        return
+    }
+    HundredBoard(h)
+    val motherAge = YearOfLife.age(b.mother.birthYear!!, b.birthYear)
+    val natalMewa = YearOfLife.yearSmeBa(b.birthYear)
+    val rows = listOf(
+        stringResource(if (gender == Gender.FEMALE) R.string.birth_hundred_mother_year else R.string.birth_hundred_father_year) to
+            signName(if (gender == Gender.FEMALE) b.mother.birth!! else b.father!!.birth!!, labels),
+        UnchangingLuck.MOTHER_LOG_MEN.english to signName(YearOfLife.logMen(b.mother.birth!!.element, Gender.FEMALE, motherAge), labels),
+        UnchangingLuck.TRIGRAM.english to trigramName(b.natal),
+        UnchangingLuck.MEWA.english to "$natalMewa ${Catalog.text("Colour.${SME_BA_COLOURS[natalMewa - 1]}")}",
+        UnchangingLuck.MONTH.english to signName(month, labels),
+    )
+    rows.forEachIndexed { i, (luck, value) -> Text(labels.string(R.string.birth_hundred_row, i + 1, luck, value), style = muted) }
+    Text(stringResource(R.string.birth_hundred_columns), style = muted)
+    Force.entries.forEach { force ->
+        HundredKin.entries.forEach { kin ->
+            val colour = h.deciding(force, kin)
+            val white = UnchangingLuck.entries.count { h.cell(it, force, kin) == PebbleColour.WHITE }
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(
+                        R.string.birth_share_title, "${gloss(force).replaceFirstChar(Char::uppercase)} · ${kin.english}",
+                        stringResource(if (colour == PebbleColour.WHITE) R.string.birth_precious_white else R.string.birth_precious_black),
+                    ),
+                    english = "",
+                    tone = if (h.good(force, kin)) Tone.GOOD else Tone.BAD,
+                    reading = Texts.hundredPebble(force, kin, colour),
+                    subtitle = labels.string(R.string.birth_hundred_subtitle, gloss(h.column(force, kin), "inText"), white, 5 - white),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+        }
+    }
+}
+
+/** The hundred's board: a block of five columns for each aspect, a row for each unchanging luck, the deciding row below a rule. */
+@Composable
+private fun HundredBoard(h: Hundred) {
+    val pebble = { c: PebbleColour -> if (c == PebbleColour.WHITE) "○" else "×" }
+    val cell = body.copy(fontSize = 12.sp, lineHeight = 16.sp)
+    Column(verticalArrangement = Arrangement.spacedBy(1.dp)) {
+        Row(Modifier.fillMaxWidth()) {
+            Box(Modifier.weight(1f))
+            Force.entries.forEach {
+                Text(gloss(it), style = body.copy(fontSize = 11.sp, color = Palette.muted, lineHeight = 14.sp), textAlign = TextAlign.Center, maxLines = 1, modifier = Modifier.weight(5f))
+            }
+        }
+        UnchangingLuck.entries.forEachIndexed { i, luck ->
+            Row(Modifier.fillMaxWidth()) {
+                Text("${i + 1}", style = cell.copy(color = Palette.muted), modifier = Modifier.weight(1f))
+                Force.entries.forEach { force ->
+                    HundredKin.entries.forEach { kin -> Text(pebble(h.cell(luck, force, kin)), style = cell, textAlign = TextAlign.Center, modifier = Modifier.weight(1f)) }
+                }
+            }
+        }
+        HorizontalDivider(color = Palette.faint)
+        Row(Modifier.fillMaxWidth()) {
+            Box(Modifier.weight(1f))
+            Force.entries.forEach { force ->
+                HundredKin.entries.forEach { kin ->
+                    Text(pebble(h.deciding(force, kin)), style = cell.copy(color = if (h.good(force, kin)) Palette.good else Palette.bad), textAlign = TextAlign.Center, modifier = Modifier.weight(1f))
+                }
+            }
+        }
     }
 }
 

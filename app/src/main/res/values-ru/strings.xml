@@ -832,7 +832,7 @@
     <string name="birth_father_needed">Если указать год рождения отца среди родственников, будут прочитаны и те чтения, что спрашивают его триграмму.</string>
     <string name="birth_gender_needed">Часть чтений триграмм родителей — для сына или для дочери: укажите пол в разделе «Люди», чтобы увидеть их.</string>
     <string name="birth_parents_none">Ни одно из чтений о триграммах родителей не выпадает на это рождение.</string>
-    <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из одних лет и рода: могущество, тройка удачи и место года, отсечение его аспектов, пятеро по триграмме рождения, особый камень и триграммы родителей при рождении. Прочие камни года, месяца, дня и часа рождения пока не считаются.</string>
+    <string name="birth_note">Из расчёта рождения здесь считаются части, которые следуют из одних лет и рода: могущество, тройка удачи и место года, отсечение его аспектов, пятеро по триграмме рождения, особый камень, сто камешков и триграммы родителей при рождении. Прочие камни года, месяца, дня и часа рождения пока не считаются.</string>
     <string name="reckonings_birth_subtitle">Триграмма рождения: %1$s · %2$s</string>
     <string name="reckonings_birth_needed">Нужен год рождения матери</string>
     <string name="birth_section_clan">Род</string>
@@ -940,6 +940,13 @@
     <string name="birth_section_precious">Драгоценные камни</string>
     <string name="birth_precious_white">белый</string>
     <string name="birth_precious_black">чёрный</string>
+    <string name="birth_section_hundred">Сто камешков</string>
+    <string name="birth_hundred_needed">Для ста камешков нужен ваш пол в разделе «Люди», а для сына — год рождения отца среди родственников.</string>
+    <string name="birth_hundred_columns">Ряды сверху вниз — пять неизменных удач. В каждом аспекте пять столбцов: своё, мать, сын, друг, враг. Под чертой — решающий камешек каждого столбца.</string>
+    <string name="birth_hundred_row">%1$d · %2$s · %3$s</string>
+    <string name="birth_hundred_father_year">год отца</string>
+    <string name="birth_hundred_mother_year">год матери</string>
+    <string name="birth_hundred_subtitle">%1$s · белых %2$d, чёрных %3$d</string>
     <string name="birth_precious_speckled">%1$s, по животному «%2$s», пёстрый: наполовину белый, наполовину чёрный.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
