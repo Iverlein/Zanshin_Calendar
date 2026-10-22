@@ -23,14 +23,14 @@ readings and blocks in docs/sources/ and docs/ROADMAP.md, built into SQLite and 
 Every command takes --json (machine output) and --root DIR (the repository, default the
 current directory). The structure the index reads, both the topic files as they are and the
 layered layout they migrate to, is docs/sources/STRUCTURE.md; the registry of sigla it
-resolves citations against is docs/sources/sources.yaml. The judgement about what to read
-and what a finding means stays with the `readings` skill and the reader; this script makes
-no model call.
+resolves citations against is docs/sources/sources.yaml. The write side is pool.py. The judgement
+about what to read and what a finding means stays with the `readings` and `sources` skills
+(.claude/skills/); this script makes no model call.
 
 Passage ids: `<siglum>[.<volume>]:<locator>` with the locator `p<page>[-<page>]` for a
 printed page, `i<image>[-<image>]` for a scan image, `box<n>` for a numbered table and
-`f<folio>[ab]` for a folio; a lowercase letter after a single page (`wb.2:p331b`) tells
-passages on one page apart. `wb.1:p351-379`, `wb.2:p331`, `kp:i66`, `kp:box12`,
+`f<folio>[ab]` for a folio; a lowercase letter after the pages (`wb.2:p331b`) tells
+passages on the same pages apart. `wb.1:p351-379`, `wb.2:p331`, `kp:i66`, `kp:box12`,
 `wbz:i1058-1064`.
 """
 import argparse
@@ -52,7 +52,7 @@ import schedule  # noqa: E402  the roadmap's Readings table, parsed once there
 STATES = ("scan", "machine", "etext")       # from the best witness to the weakest
 STATE_RANK = {s: i for i, s in enumerate(STATES)}
 DASH = "[-–]"
-PID = re.compile(r"^(?P<sig>[a-z][a-z0-9]*)(?:\.(?P<vol>\d+))?:(?P<loc>(?:p\d+(?:" + DASH + r"\d+)?[a-z]?|i\d+(?:" + DASH + r"\d+)?|box\d+|f\d+[ab]?))$")
+PID = re.compile(r"^(?P<sig>[a-z][a-z0-9]*)(?:\.(?P<vol>\d+))?:(?P<loc>(?:p\d+(?:" + DASH + r"\d+)?[a-z]?|i\d+(?:" + DASH + r"\d+)?[a-z]?|box\d+|f\d+[ab]?))$")
 HEADING = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
 ANCHOR = re.compile(r'<a id="([^"]+)"></a>\s*')
 FRONT = re.compile(r"\A---\n(.*?)\n---\n", re.S)

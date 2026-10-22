@@ -205,7 +205,7 @@ You are one of several readers working at once; follow docs/sources/PROTOCOL.md,
 Your worktree is ../Zanshin_Calendar-wt/{r.id.lower()}, branch work/{r.id.lower()}, from main at {head}.
 Pages: {pages}.
 Your topic file: {r.topic}{'; ' + sections if sections else ''}.
-Resources: {role}. A model runs only through `python3 tools/sources/schedule.py slot -- ...`,
+{"Your topic file is a corpus file (docs/sources/STRUCTURE.md): write each passage with `python3 tools/sources/pool.py passage <id> --title ... --state ... --tibetan F --english F` and the facts as claims with `pool.py claim`; the method is .claude/skills/sources/SKILL.md." + chr(10) if "corpus/" in r.topic else ""}Resources: {role}. A model runs only through `python3 tools/sources/schedule.py slot -- ...`,
 which waits for a free GPU slot. The archive.org loan is {'yours' if r.loan else 'not yours'};
 agy is {'your turn, for single crops the readers and the eye leave unsettled' if 'agy' in r.role else 'not your turn: write doubts down as doubts'}.
 Do not merge, push, edit the main checkout, number questions, edit ROADMAP.md, PLAN.md
