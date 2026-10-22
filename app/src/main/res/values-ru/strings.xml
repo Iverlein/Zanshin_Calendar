@@ -910,6 +910,8 @@
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
     <string name="match_planet_title">Оба рождены: %1$s</string>
+    <string name="match_section_together">Вместе</string>
+    <string name="match_together_title">Союз в целом</string>
     <string name="match_pebble_title">Дурные годы для пары · %1$s</string>
     <string name="match_section_hidden">Скрытое</string>
     <string name="match_section_deep_hidden">Глубже скрытое</string>

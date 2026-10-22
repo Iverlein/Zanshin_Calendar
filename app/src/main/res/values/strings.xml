@@ -1057,6 +1057,8 @@
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
     <string name="match_planet_title">Both born on a %1$s</string>
+    <string name="match_section_together">Together</string>
+    <string name="match_together_title">The match together</string>
     <string name="match_pebble_title">The bad years for the couple · %1$s</string>
     <string name="match_section_hidden">The hidden</string>
     <string name="match_section_deep_hidden">The deeper hidden</string>
