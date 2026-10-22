@@ -397,4 +397,44 @@ class BirthTest {
         assert(all.isNotEmpty())
         assert(all.all { it in GroupCut.entries })
     }
+
+    /**
+     * Kun dga' rig 'dzin's worked sheet (KD vol. 3, pp. 716–718, docs/sources/corpus/kd/v3-sheets.md): a son of the wood
+     * mouse year 1984 born in the water monkey month, his father a wood sheep, his mother of 1958 (an earth dog,
+     * whose progressed sign at 27 is the iron horse and trigram dwa), natal mewa seven. Every cell of the hundred
+     * and every deciding pebble as the sheet draws them, the enemy's drawn by its meaning.
+     */
+    @Test
+    fun `the hundred pebbles as Kun dga' rig 'dzin's sheet lays them`() {
+        val h = BirthReckoning.hundred(
+            Sign(Element.WOOD, Animal.MOUSE), 1984, Sign(Element.WATER, Animal.MONKEY), Gender.MALE, 1958, Sign(Element.WOOD, Animal.SHEEP),
+        )!!
+        assertEquals(Sign(Element.IRON, Animal.HORSE), YearOfLife.logMen(Element.EARTH, Gender.FEMALE, 27))
+        // Rows top to bottom, each the four blocks' own, mother, son, friend, enemy: 1 black, 0 white.
+        val sheet = listOf(
+            "10010 11010 11010 10101",
+            "01110 00101 10011 10011",
+            "01101 11010 10011 10011",
+            "01110 10011 10101 10101",
+            "01101 11010 00101 11010",
+        )
+        UnchangingLuck.entries.forEachIndexed { row, luck ->
+            val blocks = sheet[row].split(" ")
+            Force.entries.forEachIndexed { b, force ->
+                HundredKin.entries.forEachIndexed { k, kin ->
+                    val drawn = if (blocks[b][k] == '1') PebbleColour.BLACK else PebbleColour.WHITE
+                    assertEquals(drawn, h.cell(luck, force, kin), "$luck $force $kin")
+                }
+            }
+        }
+        // The sixth row, drawn white for a good pebble: the enemy's by its meaning.
+        val decided = "01111 11011 10010 10010"
+        Force.entries.forEachIndexed { b, force ->
+            HundredKin.entries.forEachIndexed { k, kin ->
+                assertEquals(decided.split(" ")[b][k] == '0', h.good(force, kin), "$force $kin")
+            }
+        }
+        assertEquals(PebbleColour.WHITE, h.deciding(Force.VITALITY, HundredKin.ENEMY))
+        assertNull(BirthReckoning.hundred(Sign(Element.WOOD, Animal.MOUSE), 1984, Sign(Element.WATER, Animal.MONKEY), Gender.MALE, 1958, null))
+    }
 }

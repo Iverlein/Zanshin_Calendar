@@ -163,6 +163,56 @@ enum class PreciousPebble { YEAR, MONTH, DAY, HOUR; val english: String get() = 
 /** A pebble's colour; speckled where white and black are even (WB vol. 2, p. 46, «ཕྱེད་མ་ཁྲ་བོར་བོར»). */
 enum class PebbleColour { WHITE, BLACK, SPECKLED }
 
+/**
+ * The five unchanging lucks (*mi 'gyur klung*, p. 261), the hundred's rows from the top as Kun dga' rig 'dzin's worked
+ * sheet lays them (KD vol. 3, pp. 717–718): the father's year, for a daughter the mother's; the mother's progressed
+ * sign at the birth; the trigram and the mewa fallen at the birth; the birth month.
+ */
+enum class UnchangingLuck { PARENT_YEAR, MOTHER_LOG_MEN, TRIGRAM, MEWA, MONTH; val english: String get() = gloss(this) }
+
+/** An aspect's five columns in the hundred, in the sheet's order: its own element, its mother, son, friend and enemy. */
+enum class HundredKin { OWN, MOTHER, SON, FRIEND, ENEMY; val english: String get() = gloss(this) }
+
+/**
+ * The hundred pebbles of the birth (pp. 261, 329–331; the board, docs/sources/claims/birth-hundred-board.md): each
+ * of the five unchanging lucks [lucks], by the same aspect's element of it, met by each aspect of [birth] split into
+ * its own element and that element's mother, son, friend and enemy. Five rows of twenty, one pebble a cell, and a
+ * deciding pebble under each column.
+ */
+data class Hundred(val lucks: Map<UnchangingLuck, YearForces>, val birth: YearForces) {
+    /** The element of the column [kin] of the aspect [force]. */
+    fun column(force: Force, kin: HundredKin): Element = birth[force].let { e ->
+        when (kin) {
+            HundredKin.OWN -> e
+            HundredKin.MOTHER -> Element.entries.first { it.feeds == e }
+            HundredKin.SON -> e.feeds
+            HundredKin.FRIEND -> e.overcomes
+            HundredKin.ENEMY -> Element.entries.first { it.overcomes == e }
+        }
+    }
+
+    /**
+     * The pebble where [luck]'s row meets the column (the notes, vol. 2, p. 475): white where the row's element is the
+     * column's mother or friend, black where it is its son or enemy; the same element black for fire, iron and wood,
+     * white for earth and water.
+     */
+    fun cell(luck: UnchangingLuck, force: Force, kin: HundredKin): PebbleColour {
+        val own = column(force, kin)
+        return when (Forces.kinship(own, lucks.getValue(luck)[force])) {
+            Kinship.MOTHER, Kinship.FRIEND -> PebbleColour.WHITE
+            Kinship.SON, Kinship.ENEMY -> PebbleColour.BLACK
+            Kinship.IDENTITY -> if (own == Element.EARTH || own == Element.WATER) PebbleColour.WHITE else PebbleColour.BLACK
+        }
+    }
+
+    /** The deciding pebble (*btang gcod*, p. 261) under the column: the greater of its five. */
+    fun deciding(force: Force, kin: HundredKin): PebbleColour =
+        if (UnchangingLuck.entries.count { cell(it, force, kin) == PebbleColour.WHITE } >= 3) PebbleColour.WHITE else PebbleColour.BLACK
+
+    /** Whether the deciding pebble is a good one: white, but for the enemy, whose black is the good pebble (pp. 329–331). */
+    fun good(force: Force, kin: HundredKin): Boolean = (deciding(force, kin) == PebbleColour.WHITE) != (kin == HundredKin.ENEMY)
+}
+
 /** Whom the birth month bears on, by the child's life force counted onto it (p. 348). */
 enum class RaisingMonth { FATHER, MOTHER, OWN, GOOD; val english: String get() = gloss(this) }
 
@@ -391,6 +441,30 @@ object BirthReckoning {
         Element.FIRE -> 9
         Element.WATER -> 6
         Element.EARTH -> 3
+    }
+
+    /**
+     * The hundred pebbles of a child of [gender] born in the Tibetan year [birthYear] of sign [birth], in the month of
+     * sign [month], to a mother born in [motherYear] and a father of year sign [father] (p. 261): the father's year
+     * for a son and the mother's for a daughter, the mother's progressed sign at her year of age at the birth, the
+     * natal trigram and natal mewa, the birth month. Null where a son's father is not known or the mother is not
+     * born before.
+     */
+    fun hundred(birth: Sign, birthYear: Int, month: Sign, gender: Gender, motherYear: Int, father: Sign?): Hundred? {
+        val motherAge = YearOfLife.age(motherYear, birthYear)
+        if (motherAge < 1) return null
+        val parent = if (gender == Gender.FEMALE) YearOfLife.yearSign(motherYear) else father ?: return null
+        val one = { e: Element -> YearForces(e, e, e, e) }
+        return Hundred(
+            mapOf(
+                UnchangingLuck.PARENT_YEAR to parent.forces,
+                UnchangingLuck.MOTHER_LOG_MEN to YearOfLife.logMen(YearOfLife.yearSign(motherYear).element, Gender.FEMALE, motherAge).forces,
+                UnchangingLuck.TRIGRAM to one(YearOfLife.trigramElement(YearOfLife.currentTrigram(Gender.FEMALE, motherAge))),
+                UnchangingLuck.MEWA to one(smeBaElement(YearOfLife.yearSmeBa(birthYear))),
+                UnchangingLuck.MONTH to month.forces,
+            ),
+            birth.forces,
+        )
     }
 
     /** The father's trigram in the Tibetan year [birthYear] of the birth, for a father born in [fatherBirthYear]; null if not born before. */

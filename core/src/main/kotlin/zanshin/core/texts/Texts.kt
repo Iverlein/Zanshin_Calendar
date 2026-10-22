@@ -24,6 +24,7 @@ import zanshin.core.tibetan.SiblingsWin
 import zanshin.core.tibetan.SpouseKind
 import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
+import zanshin.core.tibetan.HundredKin
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
@@ -453,6 +454,8 @@ object Sources {
     val WHITE_BERYL_PRECIOUS = whiteBeryl("chapter 22, pp. 260 and 262, with vol. 2, pp. 46 and 476", volume = 1)
     /** Raising a child hard to raise (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
+    /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
+    val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
     val WHITE_BERYL_RISE_DECLINE = whiteBeryl("chapter 22, pp. 331–333, with the notes in vol. 2, p. 475", volume = 1)
     /** The births on each natal mewa (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2095,6 +2098,13 @@ object Texts {
         key = "reading.BirthAspect",
         arg = "reading.BirthAspect.${share.name}.${kind.name}" + if (kind == BirthChild.DEMON) ".${against.name}" else "",
         source = Sources.WHITE_BERYL_BIRTH_SHARES,
+    )
+
+    /** The deciding pebble of the hundred's column [kin] of [force], of colour [colour] (WB vol. 1, ch. 22, pp. 329–331). */
+    fun hundredPebble(force: Force, kin: HundredKin, colour: PebbleColour): Reading = Reading(
+        key = "reading.HundredPebble",
+        arg = "reading.HundredPebble.${force.name}.${kin.name}.${colour.name}",
+        source = Sources.WHITE_BERYL_HUNDRED,
     )
 
     /** Glory and misfortune [result] of one's aspect [force], of element [element] (WB vol. 1, ch. 22, pp. 295–297). */
