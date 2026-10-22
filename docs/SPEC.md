@@ -370,14 +370,25 @@ bathing and dressing two, body complete and birth one; breath-taking and
 the womb one of each, decline and illness one black, death and the tomb
 two black, the Moonbeams, KD vol. 3, pp. 496 and 507), and the hour of reckoning, the
 present two-hour period (§5.9, its sign against each aspect). For each
-aspect the white and black are counted, "not the threes and twos but
-those that are there", and the predictive pebble goes on whichever are
-more (p. 381); even, none. Gyurme Dorje's chart 6.2 lays its predictive
-pebbles otherwise; WB's rule is followed.
+aspect the white and black are counted, "not the threes and twos" but the
+faces (p. 381): each sign's place once by its colour, a mother's three
+white as one white and an enemy's two black as one black (Mipham's notes,
+vol. 2, p. 490); a place of both colours (a son's meeting, the
+breath-taking and the womb) is speckled and counts for neither side (the
+notes, pp. 495, 502; D16, decided 2026-10-20). The predictive pebble goes
+on whichever places are more, and on a tie a speckled one is laid (p. 490)
+(`YearReckoning.places`, `predictive`). Gyurme Dorje's chart 6.2 counts a
+son's meeting black, which the notes' own table (p. 489) rules out; on his
+chart the count gives the vitality speckled (3:3), the body white, the
+destiny white where he prints a white and a black, and the luck black.
 
 **Readings.** Each pebble cell reads WB's prediction for that many white or
 black on that aspect (pp. 380–384); each predictive pebble, white or black,
-its own, and all four alike theirs (pp. 384–385). The sectors read p. 258;
+its own, and all four alike theirs (pp. 384–385); a speckled one reads
+WB's one white and one black on that aspect, the ordinary verdict, with its
+rites, and that a speckled pebble, counted for neither side, is somewhat
+weak, leaning to the bad (the notes, p. 495, said of the illness
+reckoning's pebbles; D16). The sectors read p. 258;
 the progressed sign its animal's place, the sky and earth doors (a man's
 dog and pig, a woman's dragon and snake), the five ruins (ox, sheep),
 separations (bird, monkey), lineage-cuttings (mouse, horse) and gains
@@ -3596,7 +3607,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   stage"); all four alike; then the pebbles as a grid, drawn as the
   charts draw them (○ white, × black), a row for each basic sign and a
   column for each aspect as chart 6.2 lays them, the white and black
-  counted under it, and the hour of reckoning, the present one whatever
+  places counted under it ("White · black places"), each predictive
+  pebble white, black or speckled with its places ("Destiny: predictive
+  pebble speckled · White places 3 · black places 3"), and the hour of reckoning, the present one whatever
   the year, named; and the year's obstacles, or a line saying there are
   none. Every row and cell opens its reading with its
   workings. Without a gender a note asks for it in People. A year

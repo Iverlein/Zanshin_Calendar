@@ -120,7 +120,11 @@ The heart of the forty-seven, the colours by meeting, and the predictive pebble 
 not the threes and twos, and lay it on whichever are more. Dorje's chart
 6.2 lays its predictive pebbles otherwise (vitality ○× with 8 white to 5
 black); no rule we can find gives his column, and WB's words are
-followed.
+followed. Since 2026-10-22 (ROADMAP T2.28, D16) the build counts the faces
+as Mipham's notes read them (vol. 2, p. 490; [verdicts.md](verdicts.md),
+*What is counted*): each place once by its colour, a mixed place for
+neither side, a speckled pebble on a tie; on chart 6.2 that gives the
+vitality speckled (3:3), the column Dorje prints as ○×.
 
 **Readings of the pebbles** (pp. 380–384, img. 390–394): for each of
 vitality, body, destiny and luck (and the la, after Kun 'byung A lo,

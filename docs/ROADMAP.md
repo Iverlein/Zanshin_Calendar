@@ -87,7 +87,7 @@ moves up as soon as it is unblocked.
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
-| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
+| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — waits (2026-10-22): the board's counts start from "the sky-year's earth" (གནམ་ལོའི་ས), which ch. 25 does not define, most of pp. 421–452 are read only in outline (RD12), and the element count's fifth pebble and shares are open questions 226–228 with no worked example | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
@@ -105,7 +105,7 @@ moves up as soon as it is unblocked.
 | <a id="block-47"></a>47 | [X8](#x8) Your day — built 2026-10-18 | — | [42](#block-42) | Build block 47: X8, Your day's readings in the shape, the app's mechanics left to the notes, with their Russian. |
 | <a id="block-48"></a>48 | [X9](#x9) The hours panel — built 2026-10-18 | — | [42](#block-42) | Build block 48: X9, the hours panel's readings in the shape, with their Russian. |
 | <a id="block-49"></a>49 | [X10](#x10) The rest — built 2026-10-16 | — | [42](#block-42) | Built ahead of 43–48 at the owner's word: the astrologer spirit, the date's mewa and the haircut in the shape, X10's allowance line deleted. (The year sheet went with Y1, block 57.) |
-| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner, and the year of age's predictive pebble (RD18, added 2026-10-20; D16 for its mixed places) | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
+| <a id="block-50"></a>50 | [T2.28](#t2-28) Corrections from the readings — built 2026-10-15 but for D11's three lunar dates and D13, which wait on the owner; the year of age's predictive pebble (RD18, D16) built 2026-10-22; the match's entries built with block 31 (R3n–R3q) but point 10, the orphaning month and the moment | [O1](#o1), [O2](#o2), [O3](#o3), [O7](#o7), [O8](#o8) | — (D11 for the three lunar dates) | Build block 50: T2.28, the corrections the O readings found: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; the lunar dates 1, 3 and 6 once D11 is settled. |
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order | K3-R, the 暦林問答集 (kyureki.md) | — (D8) | Build block 53: K3, the old texts' order for the 旧暦 readings as D8 settles it, in SPEC §7.5 and §8.1 and on the 三箇の悪日. |
@@ -1461,7 +1461,7 @@ verdict, and the owner's decisions of 2026-10-10:
     p. 232 reads «སྦྲུལ་ཐེབས་བཅོ་ལྔའི་ཚེས་ལའང་ཐེབས»; `reading.EarthLord.SDE_BRGYAD`'s
     "and on the 15th too" gains "at the snake hour", the Russian to match.
     No date changes.
-  - **The year of age's predictive pebble** ([RD18](#rd18),
+  - **The year of age's predictive pebble** — built 2026-10-22 ([RD18](#rd18),
     [verdicts.md](sources/verdicts.md), *What is counted* and *What a tie
     lays*): `YearOfLife.predictive()` counts every pebble and lays none on
     a tie (SPEC §5.9.1, "even, none"). The notes (vol. 2, p. 490), Mipham's
@@ -1599,6 +1599,16 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s and the election's counts updated; `CatalogTest`;
   SPEC §5.10 where it describes the boxes; Tuesday, the 9th hair date and
   a horse day on the emulator in both languages.
+- **Built** 2026-10-22 (block 50): the year of age's predictive pebble
+  by places (`YearReckoning.places`, `predictive` now white, black or
+  speckled), a speckled pebble reading WB's one white and one black of its
+  aspect with its rites and the notes' "somewhat weak" (four new readings,
+  English and Russian); the grid's count and each predictive row now by
+  places. Checked: `YearOfLifeTest` (chart 6.2 recounted: vitality
+  speckled 3:3, body and destiny white, luck black), `CatalogTest`,
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
+  dragon man, 2026 and 2030, the speckled destiny's sheet). No release
+  build: no enum key added.
 - **Built** 2026-10-15 (block 50), every entry above but D11's and D13's:
   - The print's boxes (`Electional.PRINT`) as O1's table and O10f's
     bullets read them: the links of boxes 5, 7, 20, 50, 53 and 59, the
