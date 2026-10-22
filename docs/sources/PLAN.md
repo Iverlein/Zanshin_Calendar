@@ -873,3 +873,21 @@ Searched and found wanting, so not to be repeated:
   (IE0OPI9442689C) and the 2013 almanac (IE0OPI0559C226).
   - 2026-10-22, the web, «"Kunga Rigzin" OR "Kunga Rindzin" Tibetan
   astrology Mentsikhang Lhasa»: no English notice of him.
+- **Other copies and records of the two written reckonings on open scans** (RD29, 2026-10-22):
+  - 2026-10-22, BDRC's full-text search (`bdrc_search.py`): «འབྲས་བུ་འདོན་པ་དེར་བཀོད་པ»,
+  «སློང་ཐང་ལས», «ཞིབ་པ་རེའུ་མིག་འདི་ཡིས་ཤེས» no hit; «རྩིས་དཔེ་ཁག་ཅིག» only the
+  print's own record (MW1KG12790); «ཚེ་རྩིས་འབྲས་བཤད་བཅས་གསལ་བར་བཀོད་པ» and
+  «སོ་དྲུག་གཙོ་བོར་བཟུང་བའི» only that record and the *Catalogue of the Great
+  Treasury* (MW4CZ354964, search only); «ནོར་བུའི་ཕྲེང་མཛེས» (259 hits) and
+  «ཕྲེང་མཛེས་ཞེས་བྱ་བ་བཞུགས» (154) no other copy of *The Beautiful Rosary* in
+  the first results; «གཤིན་རྩིས་ཉུང་བསྡུས» 2 hits, the manuscript's record and
+  a line of 'Bro'i sbyin pa's (འབྲོའི་སྦྱིན་པ, 'bro'i sbyin pa) *Clear Mirror of
+  Results* (MW1KG21827, search only, not read); «ཤོག་ཕྲར་བཀོད» only the
+  manuscript.
+  - 2026-10-22, BDRC's catalogue: MW1KG12790 has no outline (no parts); the
+  image group I1KG12897 starts at img. 003.
+  - 2026-10-22, agy for single crops: `agy_read.py`'s model, "Gemini 3.1 Pro
+  (High)", is no longer offered by agy ("not recognized"); run by hand with
+  "Gemini 4 Argon (High)", img. 362's head row and img. 089's title timed
+  out at 20 minutes with no text, and img. 004 was refused by the model's
+  filter. No agy reading was used.

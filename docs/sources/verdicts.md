@@ -5027,7 +5027,7 @@ rgya mtsho (རྡོ་རམས་པ་བློ་བཟང་ཚུལ་�
 - Open question 245 ([open-questions.md](open-questions.md)): «སྟངས་གཅོད» and «བཏང་གཅོད»; answered 2026-10-22, the same pebble (section *«སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble* below).
 - Open question 246 ([open-questions.md](open-questions.md)): Kun dga' rig 'dzin; answered as far as the sources go 2026-10-22, KD's own editor (section *Kun dga' rig 'dzin, the writer of the sheets* below).
 - Doubts left on the scan (no agy turn): p. 716, «སྲོག་[མྱུ]་རྩིས» (the etext «མྱུ»; the eye at 4× cannot tell མྱུ from ཕྱུ); p. 729, «ཀླུ་རྟའི» as printed.
-- Left, not read (BDRC's image server down 2026-10-21): the LTWA's *Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401) and the Lhasa Mentsikhang's 1987 blockprint of life reckonings and reckoning books (I1KG12897); [RD29](../ROADMAP.md#rd29).
+- The LTWA's *Written Reckoning of the Dead, Set Out Briefly on a Sheet* (I1LT0800, img. 359–401) and the Lhasa Mentsikhang's 1987 blockprint of life reckonings and reckoning books (I1KG12897), left 2026-10-21 with BDRC's image server down, were read 2026-10-22: section *Written reckonings on the open scans (RD29)* below.
 
 ### Searched and not found
 
@@ -5328,26 +5328,26 @@ not settled on the scan). The block was kept at the Lhasa Mentsikhang (img.
 
 ### Open
 
-- Question: the manuscript reads each of the dead's four deciding pebbles
+- Open question 253 ([open-questions.md](open-questions.md)): the manuscript reads each of the dead's four deciding pebbles
   black, white and speckled (I1LT0800, img. 380–383); WB's lines for them
   (vol. 2, pp. 55–56) read black and white only. Where does a speckled
   deciding pebble of the dead get a reading of its own, in WB's results
   elsewhere, the notes or another manual?
-- Question: the manuscript's rule over the four deciding pebbles (img.
+- Open question 254 ([open-questions.md](open-questions.md)): the manuscript's rule over the four deciding pebbles (img.
   383, Yigdzin-1 «རྡེའུ་དཀར་ན་ཟློས་ཆུ[ང] རྡེའུ་ནག་ན་ཟློས་ཆེ དཀར་ནག་འདྲེས་བར་དོ་རུ་འཁྱམ»):
   does WB's tenth examination (the repetition) or the notes give the
   repetition by the colours of the four together, and the mixed case as
   wandering in the intermediate state?
-- Question: the keys of the manuscript's numbered cells, 1–9 (img.
+- Open question 255 ([open-questions.md](open-questions.md)): the keys of the manuscript's numbered cells, 1–9 (img.
   370–372) and 13–30 (img. 373–376): are they the nine mewa and the dates
   of the month of death, and to which of WB's examinations do their
   entries ("bad for a …") belong?
-- Question: the life reckoning's colophon (I1KG12897, img. 227) says
+- Open question 256 ([open-questions.md](open-questions.md)): the life reckoning's colophon (I1KG12897, img. 227) says
   Khyenrab Norbu left many blanks to be filled with the star, Chinese and
   *Rising of the Vowels* results; are the empty ruled boxes (img. 048,
   147, 160) and the blanks of the opening sentence (img. 004) those, or
   spaces for the reckoner to write one child's data and results?
-- Question: who is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི), "head teacher of the
+- Open question 257 ([open-questions.md](open-questions.md)): who is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི), "head teacher of the
   government's Mentsikhang", at whose request *The Precious Key* was
   gathered (img. 383), and which water bird year is its date (img. 384)?
 - Doubts left on the scan: the manuscript's cover title after «…བཀོད་པའི»

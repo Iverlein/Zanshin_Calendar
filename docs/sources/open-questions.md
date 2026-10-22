@@ -2902,3 +2902,37 @@ the text, not about the app.
      mtshan taught a Kun dga' rig 'dzin in 1989, and is he the writer?
      [verdicts.md](verdicts.md), "Kun dga' rig 'dzin, the writer of the
      sheets" (question 246).
+253. **A speckled deciding pebble of the dead (I1LT0800, img. 380–383).**
+     The manuscript reads each of the dead's four deciding pebbles black,
+     white and speckled; WB's lines for them (vol. 2, pp. 55–56) read black
+     and white only. Where does a speckled deciding pebble of the dead get a
+     reading of its own, in WB's results elsewhere, the notes or another
+     manual? [verdicts.md](verdicts.md), "Written reckonings on the open
+     scans" (RD29).
+254. **The repetition by the four deciding pebbles together (I1LT0800, img.
+     383).** The manuscript's rule over the four deciding pebbles (Yigdzin-1
+     «རྡེའུ་དཀར་ན་ཟློས་ཆུ[ང] རྡེའུ་ནག་ན་ཟློས་ཆེ
+     དཀར་ནག་འདྲེས་བར་དོ་རུ་འཁྱམ»): does WB's tenth examination (the
+     repetition) or the notes give the repetition by the colours of the four
+     together, and the mixed case as wandering in the intermediate state?
+     [verdicts.md](verdicts.md), "Written reckonings on the open scans"
+     (RD29).
+255. **The manuscript's numbered cells (I1LT0800, img. 370–376).** Are the
+     keys of the numbered cells, 1–9 (img. 370–372) and 13–30 (img.
+     373–376), the nine mewa and the dates of the month of death, and to
+     which of WB's examinations do their entries ("bad for a …") belong?
+     [verdicts.md](verdicts.md), "Written reckonings on the open scans"
+     (RD29).
+256. **The life reckoning's blanks (I1KG12897, img. 004, 048, 147, 160,
+     227).** The colophon (img. 227) says Khyenrab Norbu left many blanks to
+     be filled with the star, Chinese and *Rising of the Vowels* results;
+     are the empty ruled boxes (img. 048, 147, 160) and the blanks of the
+     opening sentence (img. 004) those, or spaces for the reckoner to write
+     one child's data and results? [verdicts.md](verdicts.md), "Written
+     reckonings on the open scans" (RD29).
+257. **Prajñāmaṇi and *The Precious Key*'s date (I1KG12897, img. 383–384).**
+     Who is Prajñāmaṇi (པྲཛྙཱ་མ་ཎི), "head teacher of the government's
+     Mentsikhang", at whose request *The Precious Key* was gathered (img.
+     383), and which water bird year is its date (img. 384)?
+     [verdicts.md](verdicts.md), "Written reckonings on the open scans"
+     (RD29).
