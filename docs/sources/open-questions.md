@@ -2659,6 +2659,7 @@ the text, not about the app.
      each year over the five aspects? [verdicts.md](verdicts.md), "The
      verdicts of the dead, the thirty, the circles and the moment"
      (RD23).
+     *Narrowed 2026-10-22 ([corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md#kd-3-p723), on the lent scan): Kun dga' rig 'dzin's worked sheet (KD vol. 3, p. 723) lays each group as one year's own five, life force, body, destiny, luck and mewa, as columns against the reckoned person's five as rows, and one verdict under each column; Mipham's notes (vol. 2, p. 534) take a group's five as the five years of one animal. Which the app follows, and how the verdicts fall under the notes' reading, is open; Mipham ranks above KD (sources rule).*
 217. **Sprugtön's sixteen limbs (WB vol. 2, p. 23).**
      In Sprugtön's reckoning, are the sixteen limbs' pebbles counted
      into the five verdicts of the life force, body, power, luck and la,

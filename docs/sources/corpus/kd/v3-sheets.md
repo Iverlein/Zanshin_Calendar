@@ -3,7 +3,7 @@ kind: corpus
 source: kd
 volume: 3
 chapter: sheets
-pages: 716–718
+pages: 716–723
 read: scan
 ---
 # KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles
@@ -133,3 +133,29 @@ corners of the board.
 The lower chart of the page («གཙུག་ལག་སྤོར་ཐང་ལས་གཙོ་སྐྱོབ་སྐྱིད་ཀྱི་ཁྲ་མ།»,
 the chart of the chief, protector and happiness, with «སྐུ་ཚེའི་སྒང» and «ཚེ་སྨད»)
 belongs to another reckoning and was not read.
+
+## <a id="kd-3-p723"></a>kd.3:p723 The meadow's ornament, the golden round
+
+*Read: scan, 2026-10-22.*
+
+> སྤང་རྒྱན་ལོ་མའི་སྐོར་གསུམ་ལས་དང་པོ་གསེར་ལོ་ཅན་གྱི་རྡེལ། བརྩི་བྱ་ཤིང་བྱི། གནམ་ལོ་ཤིང་བྱི། སྲོག ལུས། དབང་། ཀླུང་། སྨེ། ཁ་དམར་རྡེལ།
+
+The first of the meadow's ornament's (སྤང་རྒྱན་ལོ་མ, spang rgyan lo ma; WB
+vol. 2, p. 22) three rounds, the golden year's pebbles (leaf 742; the
+reader's screenshot at 1002 px, cells read at 2×). The one reckoned is a
+wood mouse, his life force, body, destiny, luck and mewa the five rows
+(ཆ, ཅ, ཤ, ཤ and «༧»); the columns are four groups of five, each group
+one year's own life force, body, destiny, luck and mewa with their
+elements beneath: the sky year, a wood mouse; the sky year's seventh; the
+sixth counted down; the fourth executioner counted down (the three later
+headings name a sign and «རང་ལོ» with a number, not settled at this
+size; by their elements a horse of iron destiny, a snake of earth
+destiny with luck water, a hare with fire destiny and luck). Each cell
+holds the meeting's pebbles as in the year of age (three white, two
+white, white and black, two black, one white or one black), and the last
+row, «ཁ་དམར་རྡེལ», one verdict under each of the twenty columns. So the
+sheet lays the five verdicts of each twenty-five one for each of the
+year's five aspects, counted down the reckoned person's five. Mipham's
+notes (vol. 2, p. 534) instead take each group's five as the five years
+of one animal ("the seventh, the five dragons headed by the water
+dragon"): open question 216, narrowed, not settled.
