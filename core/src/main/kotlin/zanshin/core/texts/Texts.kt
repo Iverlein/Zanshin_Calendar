@@ -26,6 +26,7 @@ import zanshin.core.tibetan.BirthShare
 import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.BirthSet
 import zanshin.core.tibetan.BirthWhole
+import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.HundredKin
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
@@ -458,6 +459,8 @@ object Sources {
     val WHITE_BERYL_RAISING = whiteBeryl("chapter 22, pp. 347–348", volume = 1)
     /** The birth read whole: its sets, its board and the rule for the whole (ROADMAP R4, docs/sources/verdicts.md, RD19). */
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
+    /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
+    val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
     val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2116,6 +2119,13 @@ object Texts {
 
     /** The general verdict read from where the hundred lie on the board (WB vol. 1, ch. 22, p. 331). */
     fun birthBoard(): Reading = Reading(key = "reading.BirthBoard", source = Sources.WHITE_BERYL_BIRTH_WHOLE)
+
+    /** The dead's deciding pebble of [force], [colour] white or black: has the time of death come (WB vol. 2, ch. 29, pp. 55–56). */
+    fun deadPebble(force: Force, colour: PebbleColour): Reading =
+        Reading(key = "reading.DeadPebble", arg = "reading.DeadPebble.${force.name}.${colour.name}", source = Sources.WHITE_BERYL_DEAD_TIME)
+
+    /** The dead's first examination read whole [w] (WB vol. 2, ch. 29, pp. 56–57). */
+    fun deadWhole(w: DeadWhole): Reading = Reading(key = "reading.DeadWhole", arg = "reading.DeadWhole.${w.name}", source = Sources.WHITE_BERYL_DEAD_TIME)
 
     /** The deciding pebble of the hundred's column [kin] of [force], of colour [colour] (WB vol. 1, ch. 22, pp. 329–331). */
     fun hundredPebble(force: Force, kin: HundredKin, colour: PebbleColour): Reading = Reading(
