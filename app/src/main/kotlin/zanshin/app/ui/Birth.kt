@@ -30,6 +30,7 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthChild
+import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.ClanYear
 import zanshin.core.tibetan.Forces
@@ -70,6 +71,8 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
             stringResource(R.string.birth_subtitle, personLabel(person), signName(b.birth, labels), gloss(b.vitality, "inText")),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
+        val h = person.gender?.let { BirthReckoning.hundred(b.birth, b.birthYear, Forces.signs(TibetanCalendar.of(person.birth)).month, it, b.mother.birthYear!!, b.father?.birth) }
+        TogetherSection(h, onOpen)
         Section(stringResource(R.string.birth_section_natal))
         AnnotationRow(natalTrigramAnnotation(b.birthYear, b.natal, b.mother, labels), onOpen)
         AnnotationRow(childAnnotation(b, labels), onOpen)
@@ -109,7 +112,7 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
                 onOpen,
             )
         }
-        HundredSection(person, b, onOpen)
+        HundredSection(person, b, h, onOpen)
         Text(stringResource(R.string.birth_note), style = muted)
     }
 }
@@ -120,15 +123,13 @@ fun BirthReckoningView(person: Person, b: BirthReading, onOpen: (Annotation) -> 
  * pebbles below; then each deciding pebble with its reading. A son's needs his father's year.
  */
 @Composable
-private fun HundredSection(person: Person, b: BirthReading, onOpen: (Annotation) -> Unit) {
+private fun HundredSection(person: Person, b: BirthReading, h: Hundred?, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
     val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
     Section(stringResource(R.string.birth_section_hundred))
     val gender = person.gender
-    val born = TibetanCalendar.of(person.birth)
-    val month = Forces.signs(born).month
-    val h = gender?.let { BirthReckoning.hundred(b.birth, b.birthYear, month, it, b.mother.birthYear!!, b.father?.birth) }
-    if (h == null) {
+    val month = Forces.signs(TibetanCalendar.of(person.birth)).month
+    if (h == null || gender == null) {
         Text(stringResource(R.string.birth_hundred_needed), style = muted)
         return
     }
@@ -165,6 +166,62 @@ private fun HundredSection(person: Person, b: BirthReading, onOpen: (Annotation)
             )
         }
     }
+}
+
+/**
+ * The birth together (ROADMAP R4; docs/sources/verdicts.md, RD19): the hundred's twenty deciding pebbles weighed by
+ * force and number (p. 349), with the remedies of the bad ones and of the sets gathered; the sets of p. 338 that hold;
+ * how the board is read whole (p. 331). Without the hundred, a line saying what it needs.
+ */
+@Composable
+private fun TogetherSection(h: Hundred?, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Section(stringResource(R.string.match_section_together))
+    if (h == null) {
+        Text(stringResource(R.string.birth_together_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+        return
+    }
+    val sets = BirthReckoning.sets(h)
+    val bad = Force.entries.flatMap { f -> HundredKin.entries.filter { !h.good(f, it) }.map { Texts.hundredPebble(f, it, h.deciding(f, it)) } } +
+        sets.filter { it.good == false }.map { Texts.birthSet(it) }
+    val remedies = bad.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }
+    val whole = BirthReckoning.whole(h)
+    val good = BirthReckoning.goodCount(h)
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.birth_share_title, stringResource(R.string.birth_together_title), whole.english),
+            english = "",
+            tone = when (whole) {
+                BirthWhole.GOOD -> Tone.GOOD
+                BirthWhole.EVEN -> Tone.MIXED
+                BirthWhole.BAD -> Tone.BAD
+            },
+            reading = Texts.birthTogether(whole, remedies),
+            subtitle = labels.string(R.string.birth_together_subtitle, good, 20 - good),
+            titleIsKanji = false,
+        ),
+        onOpen,
+    )
+    sets.forEach { set ->
+        AnnotationRow(
+            Annotation(
+                title = set.english.replaceFirstChar(Char::uppercase),
+                english = "",
+                tone = when (set.good) {
+                    true -> Tone.GOOD
+                    false -> Tone.BAD
+                    null -> Tone.MIXED
+                },
+                reading = Texts.birthSet(set),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    AnnotationRow(
+        Annotation(title = stringResource(R.string.birth_board_title), english = "", tone = Tone.NEUTRAL, reading = Texts.birthBoard(), titleIsKanji = false),
+        onOpen,
+    )
 }
 
 /** The hundred's board: a block of five columns for each aspect, a row for each unchanging luck, the deciding row below a rule. */
