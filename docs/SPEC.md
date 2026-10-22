@@ -874,6 +874,57 @@ wheels (4), whose rule for each aspect's mewa is not settled.
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
 
+#### 5.9.4 The dead
+
+WB vol. 2, ch. 29, the copper vessel, the reckoning for the dead (*gshin
+rtsis*; ROADMAP R2n; [sources/reckonings.md](sources/reckonings.md),
+RD16; [sources/corpus/wb/ch29.md](sources/corpus/wb/ch29.md)), as far as
+it is built: the first of its fifteen examinations, whether the time of
+death had come (pp. 55–57, read on the scan), for each relative of the
+person entered as dead with a birth year, a gender (a parent's is the
+relation's) and a whole date of death (`DeadReckoning`, core
+`tibetan/Dead.kt`; `Reckonings.dead`).
+
+- **The pebbles** (pp. 45–46, with the notes, vol. 2, p. 500): the dead's
+  vitality, body, destiny and luck fight the year of death, the dead's
+  progressed sign, trigram and mewa of the year of age, the rise and
+  decline on the year of death, the month and the day of death and, where
+  its time is known, the hour of death, the Tibetan day turning at 05:00
+  and the hours counted from the hare's; each root's pebbles by the
+  kinship colours of the year of age (§5.9.1). WB's planet and mansion
+  roots, fought by element alone, are not reckoned: WB gives the
+  weekdays' elements in the four of fire, water, wind and earth (vol. 2,
+  pp. 308–312), which the five-element kinships do not take.
+- **The deciding pebble** of each aspect: each root a place counted once
+  by its colour, as the notes count the year of age (p. 490), white on
+  more white places, black on more black, speckled when even (p. 45: «དཀར་མང་དཀར་ལ་ནག་མང་ནག ཕྱེད་མ་ཁྲ་བོར»). White or black
+  takes its reading of pp. 55–56: the life force black, the time of
+  death had come, white, it had not, a demon carrying one off unnoticed;
+  the body black, it wanted the grave, white, it did not; destiny black,
+  the count of food filled, white, not; the luck black, the branch broken,
+  white, not. A speckled one is named, with no reading.
+- **The whole** (pp. 56–57): three or four of the four deciding pebbles
+  black, the life was spent; three or four white, an untimely death, a
+  harmful spirit carrying off one not due to die.
+
+Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
+four places only, the year, month, day and hour of death; on those four
+the colours here give its four deciding pebbles, which `DeadTest` holds;
+on WB's eight its destiny comes out speckled.
+
+The screen (§10.11): "The dead" in the Reckonings list ("The time of
+death of 1 who have died", or what it needs); on it, for each relative who
+has died, a heading with the relation, the name and the dates, the whole
+where it holds ("The time of death · the life spent"), each aspect's
+deciding pebble ("Vitality · black", "0 places white, 4 black"), its sheet
+listing each root's pebbles, or a line for a speckled one; a line asking
+for what is missing; a closing note on what is reckoned.
+
+**Not calculated** yet: the element's pebble and the funeral share (the
+fourth examination), the trigram's, mewa's and the years' tests of the
+first examination (its parts 5–7), the other fourteen examinations, the
+living household.
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*

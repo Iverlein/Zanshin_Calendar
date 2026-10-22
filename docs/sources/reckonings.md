@@ -1053,7 +1053,7 @@ examination gives a single number.
   years, by the number of persons, by age, by the month of illness, by the
   manner of death and by direction, each with its remedy, and the general
   rite "when the death's mouth is open" (p. 55).
-- **1, the time of death** (pp. 55–57, img. 63–65). Seven tests: life
+- **1, the time of death** (pp. 55–57, img. 63–65; read on the scan 2026-10-22, R2n: [corpus/wb/ch29.md](corpus/wb/ch29.md#wb-2-p55-57)). Seven tests: life
   force (black: the life's tree is broken, the death came at its time),
   body (black sweat: the body wanted the grave), power (the food count
   filled), luck (the branch broken), trigram (death on the trigram's
