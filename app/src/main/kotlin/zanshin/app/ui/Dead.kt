@@ -80,6 +80,30 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
                     )
                 }
             }
+            val mewa = r.mewaObstacles
+            AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.dead_mewa_title),
+                    english = "",
+                    tone = Tone.NEUTRAL,
+                    reading = Texts.deadMewa(mewa.isNotEmpty()),
+                    subtitle = mewa.joinToString(", ") { it.english }.ifEmpty { null },
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+            val course = r.course.map { it.english } + listOfNotNull(r.badStages.takeIf { it.isNotEmpty() }?.let { fs -> labels.string(R.string.dead_course_stage, fs.joinToString(", ") { gloss(it) }) })
+            if (course.isNotEmpty()) AnnotationRow(
+                Annotation(
+                    title = stringResource(R.string.dead_course_title),
+                    english = "",
+                    tone = Tone.NEUTRAL,
+                    reading = Texts.deadCourse(),
+                    subtitle = course.joinToString(", "),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }

@@ -833,6 +833,9 @@
     <string name="dead_places">белых мест %1$d, чёрных %2$d</string>
     <string name="dead_speckled">%1$s: пёстрый, белых мест столько же, сколько чёрных; текст читает только белый или чёрный камешек.</string>
     <string name="dead_whole_title">Время смерти</string>
+    <string name="dead_mewa_title">Мева в год смерти</string>
+    <string name="dead_course_title">Ход годов</string>
+    <string name="dead_course_stage">%1$s на дурной стадии</string>
     <string name="dead_note">Из расчёта для умершего считается первое из пятнадцати исследований: пришло ли время смерти — по году, смещённому знаку, триграмме, меве, подъёму и упадку, месяцу, дню и, если известно время, часу смерти. Планета и созвездие, сражающиеся стихией, и остальные четырнадцать исследований не считаются.</string>
     <string name="birth_subtitle">%1$s · год рождения: %2$s, жизненная сила (སྲོག, srog): %3$s</string>
     <string name="birth_section_natal">Триграмма рождения</string>

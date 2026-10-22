@@ -980,6 +980,9 @@
     <string name="dead_places">%1$d places white, %2$d black</string>
     <string name="dead_speckled">%1$s: speckled, as many places white as black; the text reads only a white or a black pebble.</string>
     <string name="dead_whole_title">The time of death</string>
+    <string name="dead_mewa_title">The mewa in the year of death</string>
+    <string name="dead_course_title">The course of the years</string>
+    <string name="dead_course_stage">%1$s on a bad stage</string>
     <string name="dead_note">Of the reckoning for the dead, the first of its fifteen examinations is reckoned: whether the time of death had come, from the year, the progressed sign, the trigram, the mewa, the rise and decline, the month, the day and, where its time is known, the hour of death. The planet and the mansion, fought by element, and the other fourteen examinations are not reckoned.</string>
     <string name="birth_subtitle">%1$s · born in the %2$s year, life force (སྲོག, srog) %3$s</string>
     <string name="birth_section_natal">The natal trigram</string>
