@@ -20,6 +20,10 @@ import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BadYear
+import zanshin.core.tibetan.BadYearPebble
+import zanshin.core.tibetan.Force
+import zanshin.core.tibetan.SiblingsWin
+import zanshin.core.tibetan.SpouseKind
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Forces
 import zanshin.core.tibetan.MatchMeeting
@@ -152,6 +156,24 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
+        val pebble = MatchReckoning.badYearPebble(
+            man = bad.any { it.first == R.string.match_man_year } || pathYears.any { it.first == R.string.match_man_year },
+            woman = bad.any { it.first == R.string.match_woman_year } || pathYears.any { it.first == R.string.match_woman_year },
+        )
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.match_pebble_title, gloss(pebble)),
+                english = "",
+                tone = when (pebble) {
+                    BadYearPebble.BLACK, BadYearPebble.SPECKLED_WOMAN -> Tone.BAD
+                    BadYearPebble.SPECKLED_MAN -> Tone.MIXED
+                    BadYearPebble.WHITE -> Tone.GOOD
+                },
+                reading = Texts.badYearPebble(pebble),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
         if (bad.isEmpty() && pathYears.isEmpty() && MatchReckoning.sameKind(m.man, m.woman) == null && sameAnimal == null && sameElement == null && pairLists.isEmpty() && pairLines.isEmpty()) Text(stringResource(R.string.match_years_none), style = muted)
         Section(stringResource(R.string.match_section_single))
         MatchReckoning.aspects(man, woman).forEach { (force, meeting) ->
@@ -176,6 +198,41 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 Annotation(title = stringResource(R.string.match_karma_title), english = "", tone = Tone.GOOD, reading = Texts.matchKarma(), titleIsKanji = false),
                 onOpen,
             )
+        }
+        if (!MatchReckoning.karma(man, woman)) {
+            MatchReckoning.kinds(man, woman).groupBy({ it.second }, { it.first }).toSortedMap().forEach { (kind, forces) ->
+                AnnotationRow(
+                    Annotation(
+                        title = stringResource(R.string.birth_share_title, gloss(kind).replaceFirstChar(Char::uppercase), forces.joinToString(", ") { gloss(it) }),
+                        english = "",
+                        tone = when (kind) {
+                            SpouseKind.KARMA -> Tone.GOOD
+                            SpouseKind.KIN -> Tone.MIXED
+                            SpouseKind.ENMITY -> Tone.BAD
+                        },
+                        reading = Texts.spouseKind(kind),
+                        titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+        }
+        val mewaName = { n: Int -> labels.string(R.string.match_mewa_name, n, Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")) }
+        listOf(false to R.string.match_section_hidden, true to R.string.match_section_deep_hidden).forEach { (deeper, section) ->
+            Section(stringResource(section))
+            MatchReckoning.hidden(m.manYear, m.womanYear, deeper).forEach { (force, mewas, wheel) ->
+                AnnotationRow(
+                    Annotation(
+                        title = stringResource(R.string.birth_share_title, gloss(force).replaceFirstChar(Char::uppercase), gloss(wheel)),
+                        english = "",
+                        tone = if (wheel.good) Tone.GOOD else Tone.BAD,
+                        reading = Texts.matchHidden(wheel, deeper),
+                        subtitle = labels.string(R.string.match_aspect_subtitle, mewaName(mewas.first), mewaName(mewas.second)),
+                        titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
         }
         Section(stringResource(R.string.match_section_destiny))
         AnnotationRow(
@@ -214,6 +271,32 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
                 onOpen,
             )
         }
+        Section(stringResource(R.string.match_section_siblings))
+        val (manSiblings, womanSiblings) = MatchReckoning.siblings(m.manYear) to MatchReckoning.siblings(m.womanYear)
+        val win = MatchReckoning.siblingsWin(manSiblings, womanSiblings)
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.match_siblings_title, gloss(win)),
+                english = "",
+                tone = when (win) { SiblingsWin.EQUAL -> Tone.GOOD; SiblingsWin.MAN -> Tone.NEUTRAL; SiblingsWin.WOMAN -> Tone.BAD },
+                reading = Texts.matchSiblings(win),
+                subtitle = labels.string(R.string.match_siblings_subtitle, manSiblings, womanSiblings),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+        val agree = MatchReckoning.siblingsAgree(manSiblings, womanSiblings)
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.match_siblings_title, stringResource(if (agree) R.string.match_siblings_agree else R.string.match_siblings_disagree)),
+                english = "",
+                tone = if (agree) Tone.GOOD else Tone.BAD,
+                reading = Texts.matchSiblingsAgree(agree),
+                subtitle = labels.string(R.string.match_siblings_together, manSiblings + womanSiblings),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
         Section(stringResource(R.string.match_section_rise))
         listOf(
             Triple(R.string.match_rise_man, man.vitality, m.woman),
@@ -262,7 +345,6 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
         if (parentRows.isEmpty()) Text(stringResource(R.string.match_parents_needs), style = muted)
         val manMewa = YearOfLife.yearSmeBa(m.manYear)
         val womanMewa = YearOfLife.yearSmeBa(m.womanYear)
-        val mewaName = { n: Int -> labels.string(R.string.match_mewa_name, n, Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")) }
         Section(stringResource(R.string.match_section_mewa))
         MatchReckoning.mewaMeetings(manMewa, womanMewa).forEach { meeting ->
             AnnotationRow(

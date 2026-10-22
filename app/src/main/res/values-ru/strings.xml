@@ -909,6 +909,15 @@
     <string name="match_woman_year">Год женщины</string>
     <string name="match_years_none">Ни один год не входит в дурные годы, и оба не одного вида.</string>
     <string name="match_planet_title">Оба рождены: %1$s</string>
+    <string name="match_pebble_title">Дурные годы для пары · %1$s</string>
+    <string name="match_section_hidden">Скрытое</string>
+    <string name="match_section_deep_hidden">Глубже скрытое</string>
+    <string name="match_section_siblings">Число братьев</string>
+    <string name="match_siblings_title">Число братьев · %1$s</string>
+    <string name="match_siblings_subtitle">У мужчины: %1$d · у женщины: %2$d</string>
+    <string name="match_siblings_together">Вместе: %1$d</string>
+    <string name="match_siblings_agree">согласно</string>
+    <string name="match_siblings_disagree">несогласно</string>
     <string name="birth_rise_year">%1$s, отсчитано до года рождения</string>
     <string name="birth_rise_month">%1$s, отсчитано до месяца рождения</string>
     <string name="birth_rise_day">%1$s, отсчитано до дня рождения</string>

@@ -1056,6 +1056,15 @@
     <string name="match_woman_year">The woman\'s year</string>
     <string name="match_years_none">Neither year is among the bad years, and the two are not of one kind.</string>
     <string name="match_planet_title">Both born on a %1$s</string>
+    <string name="match_pebble_title">The bad years for the couple · %1$s</string>
+    <string name="match_section_hidden">The hidden</string>
+    <string name="match_section_deep_hidden">The deeper hidden</string>
+    <string name="match_section_siblings">The siblings\' number</string>
+    <string name="match_siblings_title">Siblings\' number · %1$s</string>
+    <string name="match_siblings_subtitle">The man counts %1$d · the woman %2$d</string>
+    <string name="match_siblings_together">Both together %1$d</string>
+    <string name="match_siblings_agree">agrees</string>
+    <string name="match_siblings_disagree">disagrees</string>
     <string name="birth_rise_year">%1$s, counted onto the birth year</string>
     <string name="birth_rise_month">%1$s, counted onto the birth month</string>
     <string name="birth_rise_day">%1$s, counted onto the birth day</string>
