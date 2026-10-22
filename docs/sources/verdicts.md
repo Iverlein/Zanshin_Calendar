@@ -5299,4 +5299,349 @@ same pebble.
 
 ## Kun dga' rig 'dzin, the writer of the sheets (open question 246)
 
-Nothing read yet: question 246's passages, with the English beside them, go here.
+Read 2026-10-22. BDRC's catalogue records (`ldspdi.bdrc.io/resource/…`)
+of the sheets, of KD and of every part of KD's outline (439 nodes walked),
+its person search, KD's etext, all five volumes (IE0OPI2F246A26,
+I4715–I4719), BDRC's full-text search (`bdrc_search.py`, both result
+pages of the bare name, then chained phrases for the search-only hits),
+the open etexts of two works that name him, and the national register of
+intangible heritage of the People's Republic of China (ihchina.cn, read in
+a headed browser). On the scan: KD vol. 3's board of editors (front
+matter, BDRC I4717 img. 5, one of the restricted volume's open preview
+images) and its contents page (p. 7, img. 13), each line read by eye at
+3×; the title leaf's «ཀུན་དགའ་རིག་འཛིན་གྱིས་བྲིས།» was read on the lent
+scans by RD28 (p. 713, leaf 732). Everything else is etext or catalogue,
+marked so. He is a modern author, perhaps living: what follows is what the
+publications state, quoted no further than the facts need.
+
+### 1. The catalogue
+
+The sheets' record, MW28845_B881BE (work WA0XLB881BE5C3B6D), carries the
+authorship statement «ཀུན་དགའ་རིག་འཛིན་གྱིས་བྲིས།» (catalogue), "written (drawn) by
+Kun dga' rig 'dzin (ཀུན་དགའ་རིག་འཛིན, kun dga' rig 'dzin)", and **no
+link to a person record**: neither the instance nor the work has a
+creator. KD's only creator link is the compiler (ཕྱོགས་སྒྲིག་པ, phyogs
+sgrig pa, role R0ER0015) Byams pa 'phrin las (བྱམས་པ་འཕྲིན་ལས, byams pa
+'phrin las), P4853, 1928–2011. BDRC has **no person record of the name**
+(below, *Searched and not found*). Walking KD's whole outline, the name
+stands in four authorship statements, all in vols. 2–3, three of them
+shared with Phur bu don grub (ཕུར་བུ་དོན་གྲུབ, phur bu don grub):
+
+| Part | Where | Authorship statement (catalogue) | What he did |
+| --- | --- | --- | --- |
+| MW28845_CD1540, the empty-entering (སྟོང་འཇུག, stong 'jug), section 10 | vol. 2, pp. 176–209 | «ཀུན་དགའ་རིག་འཛིན་དང་ཕུར་བུ་དོན་གྲུབ་གཉིས་ཀྱིས་བརྩམས།» | wrote it, with Phur bu don grub |
+| MW28845_EA5BB4, Sde gzhung Chos 'phel's (སྡེ་གཞུང་ཆོས་འཕེལ, sde gzhung chos 'phel) manual of the seven special qualities, section 17 | vol. 2, pp. 424–516 | «སྡེ་གཞུང་ཆོས་འཕེལ་གྱིས་མཛད། ཀུན་དགའ་རིག་འཛིན་དང་ཕུར་བུ་དོན་གྲུབ་གཉིས་ཀྱིས་རྩིས་འགོ་སྤོས།» | moved its epoch (རྩིས་འགོ, rtsis 'go) to the fire hare of the 17th sixty-year cycle, 1987 |
+| MW28845_FFD448, the manual of the corrected reckoning of the three examinations (དཔྱད་གསུམ་དག་རྩིས, dpyad gsum dag rtsis) by G.yung drung rgyal mtshan (the etext «གཡང་དྲུང་རྒྱལ་མཚན», g.yang drung rgyal mtshan), section 18 | vol. 2, pp. 517–570 | «… ཀུན་དགའ་རིག་འཛིན་དང་ཕུར་བུ་དོན་གྲུབ་གཉིས་ཀྱིས་རྩིས་འགོ་སྤོས།» | moved its epoch (a Bon reckoning, README.md: not a source) |
+| MW28845_B881BE, the *Sheets of Some Needed Examples* | vol. 3, pp. 713–729 | «ཀུན་དགའ་རིག་འཛིན་གྱིས་བྲིས།» | drew them, alone |
+
+The etext adds a fifth that the outline does not credit: the colophon of
+Mkhyen rab nor bu's (མཁྱེན་རབ་ནོར་བུ, mkhyen rab nor bu) Chinese reckoning
+of eclipses, *The Powerful King that Fulfils Wishes* (བསམ་འཕེལ་དབང་རྒྱལ, bsam 'phel
+dbang rgyal), section 19 (MW28845_4E5192), KD vol. 2, etext p. 617 =
+p. 597, etext only:
+
+> རྒྱ་རྩིས་བསམ་འཕེལ་དབང་རྒྱལ་རབ་རྒྱལ་་མེ་ཡོས་ལོ་ནས་རབ་བྱུང་བཅུ་བདུན་པའི་མེ་ཡོས་ལོར་ཀུན་དགའ་རིག་འཛིན་དང་། ཕུར་བུ་དོན་གྲུབ་ཀྱིས་རྩིས་འགོ་སྨོས་པའོ། །
+
+The Chinese reckoning *The Powerful King that Fulfils Wishes*: its epoch moved by Kun
+dga' rig 'dzin and Phur bu don grub from the fire hare year of «རབ་རྒྱལ»
+to the fire hare year of the 17th sixty-year cycle (རབ་བྱུང, rab byung).
+(«སྨོས» for «སྤོས» as the etext has it.)
+
+### 2. KD itself: the board of editors and his own works
+
+**The board.** Every volume of KD prints its editors with their
+institutions on a front-matter page (etext p. 5 of vols. 1, 3, 4, 5; p. 6
+of vol. 2). Vol. 3's, on the scan (BDRC I4717 img. 5), the lines that
+concern him:
+
+> རྩོམ་སྒྲིག་པ་གཙོ་བོ། བྱམས་པ་འཕྲིན་ལས་(བོད་ལྗོངས་སྨན་རྩིས་ཁང་)། རྩོམ་སྒྲིག་པ་གཙོ་བོ་གཞོན་པ། ཁྲོ་རུ་ཚེ་རྣམ་(བོད་ལྗོངས་གསོ་རིག་སློབ་གྲྭ་ཆེན་མོ)། ཚུལ་ཁྲིམས་རྒྱལ་མཚན་(བོད་ལྗོངས་སྨན་རྩིས་ཁང་)། […] རྩོམ་སྒྲིག་པ། […] ཀུན་དགའ་རིག་འཛིན(བོད་ལྗོངས་གསོ་རིག་སློབ་གྲྭ་ཆེན་མོ)། […] ཕུར་བུ་དོན་གྲུབ(མངའ་རིས་སྨན་རྩིས་ཁང་)། […]
+
+Chief editor (རྩོམ་སྒྲིག་པ་གཙོ་བོ, rtsom sgrig pa gtso bo): Byams pa
+'phrin las (of the Tibet Autonomous Region's Mentsikhang (བོད་ལྗོངས་སྨན་རྩིས་ཁང,
+bod ljongs sman rtsis khang)). Deputy chief editors: Khro ru Tshe rnam
+(ཁྲོ་རུ་ཚེ་རྣམ, khro ru tshe rnam; of the Tibet Autonomous Region's
+Tibetan Medical College (བོད་ལྗོངས་གསོ་རིག་སློབ་གྲྭ་ཆེན་མོ, bod ljongs gso
+rig slob grwa chen mo)) and Tshul khrims rgyal mtshan (ཚུལ་ཁྲིམས་རྒྱལ་མཚན,
+tshul khrims rgyal mtshan; of the Mentsikhang). Editors (རྩོམ་སྒྲིག་པ,
+rtsom sgrig pa), eighteen, among them **Kun dga' rig 'dzin, of the Tibet
+Autonomous Region's Tibetan Medical College**, the fourth, and Phur bu don
+grub, of the Ngari Mentsikhang (མངའ་རིས་སྨན་རྩིས་ཁང, mnga' ris sman rtsis
+khang). The board holds one Kun dga' rig 'dzin only. (The vol. 1 etext
+splits the name «ཀུན་ད་གའ»; the scan of vol. 3 reads «ཀུན་དགའ».)
+
+**The contents page**, vol. 3, p. 7 (img. 13), on the scan: the sheets
+are the last item but one of the volume, outside its numbered sections,
+followed by Mkhyen rab nor bu's digest of WB:
+
+> ཉེར་མཁོའི་དཔེར་བརྗོད་ཁག་ཅིག་གི་ཤོག་ཁྲ།……ཀུན་དགའ་རིག་འཛིན།(713)
+> བེ་དཀར་ལས་འཕྲོད་སྦྱོར་སོགས་ཀྱི་འབྲས་བུ་ཟུར་དུ་བཀོལ་བ།……མཁྱེན་རབ་ནོར་བུ།(730)
+
+**The preface** (སྔོན་འགྲོའི་བརྗོད་གཏམ, sngon 'gro'i brjod gtam) of vol. 3 (etext pp. 17–20,
+etext only), signed by Byams pa 'phrin las in the wood pig year of the
+17th cycle (1995), names no editor but says how the board was made:
+specialists invited from the Mentsikhang's astronomy research institute
+and the Mentsikhangs of Shigatse (གཞིས་རྩེ, gzhis rtse), Ngari, Lhokha (ལྷོ་ཁ, lho kha),
+Chamdo (ཆབ་མདོ, chab mdo), Nagchu (ནག་ཆུ, nag chu) and Sog county (སོག་རྫོང, sog rdzong), two county hospitals, the Tibetan Medical College and the
+Academy of Social Sciences; and of the Chinese reckoning (ནག་རྩིས, nag
+rtsis) in this volume, etext p. 20:
+
+> ནག་རྩིས་སྐོར་ལ་མཚོན་ནའང་འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་གཞིར་བྱས་བཻ་དཀར་ལ་ཁུངས་གཏུགས་ཤིང་། ནག་རྩིས་ཨུཏྤལ་སྔོན་པོའི་དོ་ཤལ་སོགས་ལ་ཟུར་དུ་དཔྱད་དེ་རྡེའུ་འགྲེམས་ལུགས་རྒྱས་འབྲིང་བསྡུས་གསུམ་གྱིས་ལེགས་པར་བརྒྱན་ནས་བཀོད་ཡོད་པ
+
+As for the Chinese reckoning, it is set out on the basis of the
+*Moonbeams* (DZ), traced to WB, checked besides against the *Blue Lotus
+Garland* of the Chinese reckoning (ཨུཏྤལ་སྔོན་པོའི་དོ་ཤལ, utpal sngon po'i
+do shal) and others, and adorned with ways of laying the pebbles in full,
+middling and brief. The sheets' title promises the obstacle reckoning
+"in full, middling and brief" in the same words: the preface's
+description fits them, without naming them or him.
+
+**His other KD writing**, vol. 2, etext pp. 196 and 229 (= pp. 176 and
+209), etext only: the heading «ས་བཅད་བཅུ་པ། སྟོང་འཇུག་རི་མོའི་ལག་ལེན་གོ་དོན་དང་བཅས་པའི་རྣམ་བཤད། ཀུན་དགའ་རིག་འཛིན་དང་ཕུར་བུ་དོན་གྲུབ་གཉིས་ཀྱིས་བརྩམས།»
+(section 10: an explanation of the practice of the empty-entering's
+drawing (རི་མོ, ri mo), with its meaning, written by the two), and its
+close:
+
+> ཅེས་སྟོང་འཇུག་རི་མོའི་ལག་ལེན་གོ་དོན་དང་བཅས་པའི་རྣམ་བཤད་འདི་ནི་ཀུན་དགའ་རིག་འཛིན་དང་ཕུར་བུ་དོན་གྲུབ་ཀྱིས་པད་དཀར་ཞལ་ལུང་གི་སྟོང་འཇུག་རྒྱས་བཤད་གོ་བདེར་ཚིགས་སུ་བཅད་ནས་ཕྱོགས་བསྒྲིགས་ཞུས་པའོ།། །།
+
+This explanation was compiled by Kun dga' rig 'dzin and Phur bu don grub,
+putting the full account of the empty-entering in the *Oral Instruction
+of Pundarīka* (པད་དཀར་ཞལ་ལུང, pad dkar zhal lung) into easy verse. No
+page of KD gives his dates, birthplace or teachers; vol. 1's appendix
+(ཟུར་བཀོད, zur bkod, pp. 648–661) holds short lives of the two chief editors only.
+
+### 3. Outside KD: the same name in the same field
+
+**His article, 1986.** *Collected Articles on Tibetan Medicine and
+Reckoning* (བོད་ཀྱི་སྨན་རྩིས་ཆེད་རྩོམ་ཕྱོགས་བསྡུས, bod kyi sman rtsis ched rtsom
+phyogs bsdus), "written by the Tibet Autonomous Region's Mentsikhang",
+Tibet People's Publishing House (བོད་ལྗོངས་མི་དམངས་དཔེ་སྐྲུན་ཁང, bod ljongs mi
+dmangs dpe skrun khang), Lhasa (ལྷ་ས, lha sa) 1986 (BDRC
+MW1KG21754; etext IE0OPID02049E0, volume I1KG21849, excellent), pp.
+393–421 (etext pp. 405–433, printed = etext − 12 by the contents), etext
+only; its title and byline:
+
+> རྒྱ་བོད་རྩིས་ཀྱི་ཉི་ཟླ་འཛིན་ཚུལ་དང་། ལྔ་སྒྲ་གཟའ་ལྔ་སོགས་ས་རིས་དང་འཕྲུལ་འཁོར་བརྩི་ཐབས་ཟུང་འབྲེལ་གྱིས་རྒྱུ་མཚན་འདྲེན་པ་ཕུག་པའི་དགོངས་རྒྱན་ཞེས་བྱ་བ་བཞུགས་སོ།། ཀུན་དགའ་རིག་འཛིན།
+
+*The Ornament of Phugpa's Intent*, which gives the reasons of the eclipses
+of the Chinese and the Tibetan reckonings, the five factors, the five
+planets and the rest by the board (ས་རིས, sa ris) and the machine
+reckoning (འཕྲུལ་འཁོར, 'phrul 'khor, reckoning by machine) together; by Kun dga' rig 'dzin. It closes on a worked lunar
+eclipse timed in Beijing hours, "made clear by machine reckoning
+following the *Heart Drop of the Kalkin* (རིགས་ལྡན་སྙིང་ཐིག, rigs ldan snying thig)", and verses of dedication; no
+colophon on its writer. A reckoner of the Phugpa (ཕུག་པ, phug pa) school
+writing for the Lhasa Mentsikhang's collection, then.
+
+**A teacher of the Mentsikhang sent to observatories.** Byams pa 'phrin
+las's memoir, *Memories of Tibetan Medicine* (བྱམས་པ་འཕྲིན་ལས་མཆོག་གི་བོད་ལུགས་གསོ་རིག་གི་དྲན་གསོས,
+byams pa 'phrin las mchog gi bod lugs gso rig gi dran gsos; compiled by Tshe
+brtan 'jigs med (ཚེ་བརྟན་འཇིགས་མེད, tshe brtan 'jigs med), Nationalities
+Publishing House (མི་རིགས་དཔེ་སྐྲུན་ཁང, mi rigs dpe skrun khang), Beijing 2006,
+2013; MW00PD1011326; etext IE0OPI156B76B6, search only, `etextchunks`
+403), BDRC's search snippet (shown in Wylie, put in script):
+
+> ཕྱིན་ཆད་གནའ་རབས་གནམ་རིག་སྐར་རྩིས་རིག་པ་དང་དེང་རབས་གནམ་དཔྱད་རིག་པ་ཟུང་འབྲེལ་བྱས་ནས་ཚན་རིག་གི་རང་བཞིན་དེ་བས་ཆེ་རུ་འགྲོ་རྒྱུར་ཡིད་ཆེས་དང་འབྲེལ་བྱ་སྤྱོད་ངོ་མའི་ཐོག་ནས་སྔ་ཕྱིར་སོའོ་ཀྲང་གཞོན་པ་ངག་དབང་བཟང་པོ་ལགས་དང་དགེ་རྒན་ཀུན་དགའ་རིག་འཛིན་ལགས་སོགས་མི་དྲུག་ནན་ཅིང་ཙེ་ཅིང་ཧྲན་གནམ་རིག་བལྟ་ཁང་དང་པེ་ཅིན་དུ་ཡོད་པའི་ཀྲུང་གོ་ཚན་རིག་ཁང་ཁོངས་རང་བྱུང་ཚན་རིག་ཞིབ་འཇུག་སོའོ་བཅས་པར་སློབ་སྦྱོང་ལ་བཏང་སྟེ
+
+So that, joining the old astronomy and reckoning with modern astronomy,
+it might become more scientific, six persons at one time or another,
+among them the vice-director Ngag dbang bzang po (ངག་དབང་བཟང་པོ, ngag
+dbang bzang po) and the teacher (དགེ་རྒན, dge rgan) Kun dga' rig 'dzin,
+were sent to study at the Zijinshan observatory of Nanjing and the
+Academy of Sciences' natural-science institute in Beijing. No year in the
+snippets read.
+
+**An astronomer of the Lhasa Mentsikhang, a teacher of others.** The
+history of medicine and reckoning in Golog (མགོ་ལོག, mgo log), *A Garland of
+Jewel Waves* (མགོ་ལོག་སྨན་རྩིས་རིག་པའི་ལོ་རྒྱུས་ནོར་བུའི་རླབས་ཕྲེང, mgo log sman
+rtsis rig pa'i lo rgyus nor bu'i rlabs phreng), Qinghai (མཚོ་སྔོན, mtsho sngon)
+Nationalities Publishing House, Xining 2000 (MW21932, parts _8D1F54 and _F4C207;
+etext IE0OPI4C49C33E, search only), of a Golog physician who made
+mercury preparations at Dpal yul (དཔལ་ཡུལ, dpal yul) monastery:
+
+> 1993ལོར་སླར་ཡང་བོད་ལྗོངས་བོད་སྨན་སློབ་གྲྭ་ཆེན་མོའི་དགེ་རྒན་བསམ་གཏན་ལས་རྩ་བཤད་གཉིས་དང་ཕྱི་རྒྱུད་རྩ་ཆུའི་ལེའུ་སོགས་བསླབས། 1996ལོར་ལྷ་ལྡན་སྨན་རྩིས་ཁང་གི་གནམ་རིག་པ་ཀུན་དགའ་རིག་འཛིན་ལས་གྲུབ་རྩིས་ལྔ་བསྡུས་གཟའ་ལྔ་རྒྱ་རྩིས་འབྱུང་རྩིས་སོགས་བསླབས།
+
+In 1993 he studied the Root and Explanatory Tantras and the Last Tantra's
+chapter on the pulse and urine with Bsam gtan (བསམ་གཏན, bsam gtan), teacher at the Tibet
+Autonomous Region's Tibetan Medical College; in 1996 he learned the true
+reckoning (གྲུབ་རྩིས, grub rtsis), the five factors, the five planets,
+the Chinese reckoning and the elemental reckoning (འབྱུང་རྩིས, 'byung
+rtsis) from Kun dga' rig 'dzin, astronomer (གནམ་རིག་པ, gnam rig pa) of
+the Lhasa Mentsikhang (ལྷ་ལྡན་སྨན་རྩིས་ཁང, lha ldan sman rtsis khang).
+(The years are Arabic numerals in the snippet; the next words run "from
+1983 to 1985", so the order is the book's or the OCR's.)
+
+**Teacher of a KD colleague.** Bsod nams dpal ldan (བསོད་ནམས་དཔལ་ལྡན, bsod
+nams dpal ldan), on KD's board for the Chamdo Mentsikhang, in his book on
+arthritis, China Tibetology Publishing House (ཀྲུང་གོའི་བོད་རིག་པ་དཔེ་སྐྲུན་ཁང,
+krung go'i bod rig pa dpe skrun khang), Beijing 2007 (MW1GS88140;
+etext IE0OPI9442689C, search only), p. 304:
+
+> རྩིས་རིག་མཁས་དབང་དགེ་རྒན་དྲིན་པོ་ཆེ་རྒན་ཀུན་དགའ་རིག་འཛིན་མཆོག་གཙོས་པའི་དགེ་རྒན་དམ་པ་བཅུ་ཕྲག་ལྷག་ཙམ་ལས་གངས་ཅན་སྨན་རྩིས་སྲོལ་རྒྱུན་ཞལ་ནས་ཞལ་དུ་བརྒྱུད་པའི་བཀའ་སློབ་ཅུང་ཟད་ཐོབ
+
+From more than ten holy teachers headed by the expert in reckoning, the
+kind teacher, the elder (རྒན, rgan) Kun dga' rig 'dzin, [the author]
+received some of the teaching of the Tibetan tradition of medicine and
+reckoning handed down from mouth to mouth.
+
+**A national first-grade expert, interviewed.** *Selected Tibetological
+Articles from the Journal of Tibet University* (བོད་ལྗོངས་སློབ་གྲྭ་ཆེན་མོའི་རིག་དེབ་ཀྱི་བོད་རིག་པའི་ཞིབ་འཇུག་དཔྱད་རྩོམ་གཅེས་བཏུས,
+bod ljongs slob grwa chen mo'i rig deb kyi bod rig pa'i zhib 'jug dpyad rtsom
+gces btus), ed. Lhag pa tshe ring (ལྷག་པ་ཚེ་རིང, lhag pa tshe ring),
+Nationalities Publishing House, Beijing 2016 (MW1KG25692; etext IE0OPIE8EEAEB9,
+search only), a line of its contents:
+
+> གནམ་རིག་སྐར་རྩིས་ཀྱི་འབྲེལ་ཡོད་ཤེས་བྱ་ཕྲན་ཚེགས། སྐར་ནག་རྩིས་ཀྱི་མཁྱེན་པའི་དབང་ཕྱུག་རྒྱལ་ཁབ་རིམ་པའི་རིགས་གཅིག་མཁས་དབང་རྒན་ཀུན་དགའ་རིག་འཛིན་ལགས་ལ་བཅར་འདྲི་ཞུས་པའི་ཟིན་ཐོ།
+
+Some knowledge of astronomy and astrology: notes of an interview with
+the elder Kun dga' rig 'dzin, master of the astronomical and elemental
+reckonings (སྐར་ནག་རྩིས, skar nag rtsis), a national first-grade expert
+(རྒྱལ་ཁབ་རིམ་པའི་རིགས་གཅིག་མཁས་དབང, rgyal khab rim pa'i rigs gcig mkhas
+dbang). The interview itself was not reached (search only; scans lent on
+archive.org, not this reading's).
+
+**Editor and proofreader, later.** The experimental textbooks of Tibetan
+medicine for the 21st century (Nationalities Publishing House, Beijing 2004,
+revised 2011–2019; MW1KG5258, MW1KG5260, MW1KG5261, MW8LS18526,
+MW8LS18538, MW8LS18556, MW8LS68325, MW1PD159451), in their list of the
+series, search only: «གནམ་རིག་སྐར་རྩིས། གཙོ་སྒྲིག་པ། བསམ་གྲུབ་རྒྱ་མཚོ། གཙོ་སྒྲིག་གཞོན་པ། ཀུན་དགའ་རིག་འཛིན།»,
+the volume on astronomy and reckoning, chief editor Bsam grub rgya mtsho
+(བསམ་གྲུབ་རྒྱ་མཚོ, bsam grub rgya mtsho), deputy chief editor Kun dga' rig
+'dzin. The Mentsikhang's almanac for 2013 (Sichuan Nationalities Publishing
+House (སི་ཁྲོན་མི་རིགས་དཔེ་སྐྲུན་ཁང, si khron mi rigs dpe skrun khang), Chengdu 2012; MW1PD159386, search only): «ཞུ་དག་པ། ཀུན་དགའ་རིག་འཛིན། ཡུམ་པ།»,
+proofreaders (ཞུ་དག་པ, zhu dag pa) Kun dga' rig 'dzin, Yum pa (ཡུམ་པ, yum pa) and others.
+
+**The Sakya (ས་སྐྱ, sa skya) volume.** In *Reckoning Texts* (རྩིས་གཞུང, rtsis gzhung; the
+Sakya *Collected Scriptures* (དཔལ་ལྡན་ས་སྐྱ་པའི་གསུང་རབ, dpal ldan sa skya pa'i gsung
+rab) vol. 7, Nationalities Publishing House, Beijing 2004; MW29978), the
+supplement to the *Sun's Rays* by Li thang Sde gzhung sprul sku
+(ལི་ཐང་སྡེ་གཞུང་སྤྲུལ་སྐུ, li thang sde gzhung sprul sku), *A Needed Supplement to
+the Sun's Rays of Astronomy* (སྐར་རྩིས་ཉི་མའི་འོད་ཟེར་གྱི་ཉེར་མཁོའི་ཁ་སྐོང, skar
+rtsis nyi ma'i 'od zer gyi nyer mkho'i kha skong; MW29978_8624A4, pp. 223–243), closes, etext I5721
+p. 273 (= p. 243), etext only: «དགེའོ། ། སརྦ་མངྒ་ལཾ། ཀུན་དགའ་རིག་འཛིན་གྱིས་རྩིས་མགོ་སྤོས་པ་ཡིན»,
+"Kun dga' rig 'dzin moved the epoch": the same work he did on KD's
+manuals.
+
+**The national register.** The register of representative transmitters
+of national intangible cultural heritage of the People's Republic of
+China (ihchina.cn, record 3653, read 2026-10-22), no. 03-1488, 贡嘎仁增
+(Gongga Renzeng, the usual Chinese rendering of Kun dga' rig 'dzin), for
+the item Ⅹ-121, Tibetan astronomy and calendar reckoning (藏族天文历算),
+listed 2008, its keeper the Tibet Autonomous Region's Tibetan Medicine
+Hospital. The record states: male, Tibetan, born 1942 in Doilungdêqên
+county (堆龙德庆县; སྟོད་ལུང་བདེ་ཆེན, stod lung bde chen; now a district of Lhasa); representative transmitter
+of the third batch; of a family of reckoners for generations; a
+well-known reckoner and calendar maker of the hospital's institute of
+astronomy and calendar reckoning; to the Mentsikhang (门孜康) to learn
+astronomy and reckoning in 1952; deputy secretary-general of the
+astronomy and calendar society founded in Lhasa in 1981; «《西藏天文历算总汇》一书的主笔之一»,
+"one of the main writers of the book *Xizang tianwen lisuan zonghui*";
+author of articles, among them one on the relation of Tibetan medicine to
+astronomy and reckoning; teacher of more than five hundred farmers' and
+herders' students, and at the Tibetan Medical College and Tibet
+University.
+
+### 4. Others of the name
+
+Not he, by date, place or calling (BDRC's search, 2026-10-22):
+
+- Stag rtse Kun dga' rig 'dzin (སྟག་རྩེ་ཀུན་དགའ་རིག་འཛིན, stag rtse kun dga'
+  rig 'dzin), at whose request a Sakya colophon in the
+  collections of the Path and its Fruit (ལམ་འབྲས, lam 'bras) was written by Sa skya pa Kun dga' blo gros
+  (ས་སྐྱ་པ་ཀུན་དགའ་བློ་གྲོས, sa skya pa kun dga' blo gros): «ས་སྐྱ་པ་ཀུན་དགའ་བློ་གྲོས་ལ་སྟག་རྩེ་ཀུན་དགའ་རིག་འཛིན་གྱིས་བསྐུལ་དོན་བཞིན་སྦྱར་ཏེ»
+  (MW2PD19769, MW23648, MW3PD184; snippets).
+- Sa skya pa Kun dga' rig 'dzin (ས་སྐྱ་པ་ཀུན་དགའ་རིག་འཛིན), writer of a
+  manuscript ritual in the Sakya Gorum (སྒོ་རུམ, sgo rum) library's
+  catalogue (MW3CN8601, 2018).
+- Kun dga' rig 'dzin of Khri ka (ཁྲི་ཀ, khri ka), in a list of yogins in
+  Zhabs dkar Tshogs drug rang grol's (ཞབས་དཀར་ཚོགས་དྲུག་རང་གྲོལ, zhabs dkar
+  tshogs drug rang grol) autobiography (MW23893_91FEAF).
+- Lama Kun dga' rig 'dzin, retreat master (སྒྲུབ་བླ, sgrub bla) of a Ngari
+  monastery before 1959, in a history of Ngari (MW4CZ296089, Dharamsala
+  2016).
+- A name in a list of Taksham Nuden Dorje's (སྟག་ཤམ་ནུས་ལྡན་རྡོ་རྗེ, stag
+  sham nus ldan rdo rje) *Gathered Intent of the Yidam* (ཡི་དམ་དགོངས་འདུས, yi dam
+  dgongs 'dus; MW4PD1180, poor OCR).
+- BDRC's person records found by the name, none of them he: P4909,
+  P5064 (b. 1786), P8842 (b. 1955), P8LS13727, P3JM101 (1897–1959),
+  P10MS14669 (1874–1950): other names that hold «kun dga'» and «rig 'dzin».
+
+One mention is doubtful: Tshul khrims rgyal mtshan's life, *Medicine
+Nourishing Faith* (དད་པའི་གསོས་སྨན, dad pa'i gsos sman; MW1KG10375_E55D6D, search only), in 1989: «ས་སྦྲུལ (1989)ལོའི་ཟླ་དང་པོའི་ཚེས་བཅོ་ལྔ་ནས་ཕུན་ཚོགས་དབང་མོ་ལ་སྨན་གྱི་རྩ་རྒྱུད་དང་། ཕྱི་རྒྱུད་རྩ་ཆུའི་མདོ་གནང་། ཚེས་བཅོ་བརྒྱད་ནས་འབྱུང་རྩིས་ཟླ་བའི་འོད་ཟེར་ཁྲིད། ཚེས་ཉེར་བཞི་ནས་ཀུན་དགའ་རིག་འཛིན་ལ་ལྔ་པ་འཕྲོད་ཁྲིད།»:
+from the fifteenth of the first month of the earth snake year he gave
+Phun tshogs dbang mo (ཕུན་ཚོགས་དབང་མོ, phun tshogs dbang mo) the Root Tantra and the Last Tantra's pulse and
+urine, from the eighteenth taught the *Moonbeams*, from the twenty-fourth
+taught Kun dga' rig 'dzin «ལྔ་པ་འཕྲོད» (unexplained). KD's deputy chief
+editor teaching a reckoner of that name fits the writer, but the snippet
+does not say who he is.
+
+### Answer
+
+**Answered as far as the sources go.** The writer of the *Sheets of Some
+Needed Examples* is the Kun dga' rig 'dzin of KD's own board of editors,
+"of the Tibet Autonomous Region's Tibetan Medical College" (vol. 3, img.
+5, on the scan): the board holds one man of the name, the sheets are
+signed by that name inside the board's own compilation, and his other
+KD work is all reckoning (the empty-entering, written with Phur bu don
+grub of the Ngari Mentsikhang, and four manuals whose epochs the two
+moved to 1987). That much rests on KD alone.
+
+That he is the same man as the Lhasa Mentsikhang's astronomer and
+teacher of the 1986 article, the memoir, the Golog history, Bsod nams
+dpal ldan's book, the textbook series, the 2013 almanac and the Tibet
+University interview, and as the 贡嘎仁增 of the national register (born
+1942, at the Mentsikhang from 1952, its hospital's institute of astronomy
+and calendar reckoning, teaching at the Medical College and Tibet
+University, "one of the main writers" of a Tibetan compendium of
+astronomy and calendar reckoning) rests on the name, the field, the
+institutions and the period agreeing, and on the epoch-moving that the
+Sakya volume and KD both credit to him; no source states the
+identification in so many words. No other Kun dga' rig 'dzin of the
+period works in reckoning in any source found. BDRC has no person record
+for him, so his teachers, students and dates are not in its catalogue;
+the register gives only his birth year and county.
+
+### Open
+
+- Question: Is the *Xizang tianwen lisuan zonghui* (《西藏天文历算总汇》) of
+  which the national register makes 贡嘎仁增 "one of the main writers" KD
+  itself, whose Chinese title in BDRC's record is *Zang chuan li suan xue
+  da quan*? KD's Chinese title page and colophon (lent scans) would settle
+  it.
+- Question: What does the interview with the elder Kun dga' rig 'dzin in
+  Tibet University's journal (reprinted in MW1KG25692, Beijing 2016; scans
+  lent on archive.org) say of his teachers, his training and the sheets?
+- Question: When, and for what use, were the sheets drawn: for KD
+  (1995–1998), or earlier as teaching material? The year reckoned on the
+  obstacle reckoning's sheets is a wood rat (ཤིང་བྱི, shing byi) year;
+  no date is written on them.
+- Question: What is «ལྔ་པ་འཕྲོད» that Tshul khrims rgyal mtshan taught a
+  Kun dga' rig 'dzin in 1989, and is he the writer?
+
+### Searched and not found
+
+- 2026-10-22, BDRC's records: MW28845_B881BE, WA0XLB881BE5C3B6D,
+  MW28845_CD1540, _EA5BB4, _FFD448 and every other node of KD's outline:
+  no creator link but the compiler's (P4853) on MW28845.
+- 2026-10-22, BDRC's person search: library.bdrc.io/search, persons,
+  the exact name in Wylie, 0 results; osearch with the person
+  filter, the name unquoted, six persons, none of them he (above).
+- 2026-10-22, KD's etext, vols. 1–5 (I4715–I4719): the name only on the
+  boards of editors, vol. 2's contents and its sections 10, 17, 18 and
+  19, and vol. 3's contents and the sheets; no life of him (vol. 1's
+  appendix holds the two chief editors' only), no Chinese text in any
+  volume's front matter; vol. 3's preface (etext pp. 17–20) names no
+  editor.
+- 2026-10-22, the 1986 article's close (MW1KG21754, etext pp. 432–433):
+  verses of dedication, no colophon on the writer.
+- 2026-10-22, BDRC's full-text search, no hit: «སྨན་རྩིས་ཀུན་དགའ་རིག་འཛིན»,
+  «རྩིས་པ་ཀུན་དགའ་རིག་འཛིན», «ཀུན་དགའ་རིག་འཛིན་ནས», «ཀུན་དགའ་རིག་འཛིན་གྱི»,
+  «སློབ་དཔོན་ཀུན་དགའ་རིག་འཛིན»; in the chained searches «ནན་ཅིང་ཙེ་ཅིན་ཧྲན་གནམ་རིག་བལྟ་ཁང»,
+  «རྒྱུགས་འབྲས་བྱ་དགའ་ཐོབ», «སློབ་ཐོན་དཔེ་བཟང་གི་གཟི་བརྗིད་དཔང་ཡིག», «ཚེས་ཉེར་བརྒྱད་ནས་ཨ་མདོའི་བཀྲ་ཤིས་དབང་ཕྱུག»:
+  the memoir's year, the Golog physician's name and the interview's body
+  not reached. The bare name has 35 hits in all, every one read (sections
+  3–4).
+- 2026-10-22, `etextchunks` 403 (search only) for the memoir
+  (IE0OPI156B76B6), the Golog history (IE0OPI4C49C33E), the Tibet
+  University volume (IE0OPIE8EEAEB9), Bsod nams dpal ldan's book
+  (IE0OPI9442689C) and the 2013 almanac (IE0OPI0559C226).
+- 2026-10-22, the web, «"Kunga Rigzin" OR "Kunga Rindzin" Tibetan
+  astrology Mentsikhang Lhasa»: no English notice of him.
