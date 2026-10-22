@@ -35,6 +35,9 @@ class DeadTest {
         assertEquals(Pebbles(3, 3), r.places(Force.DESTINY))
         assertEquals(8, r.pebbles.count { it.force == Force.LUCK })
         assertNull(r.whole)
+        // The sixth and seventh tests at the year of death, the 90th year of the fire horse: what the year of age gives.
+        assertEquals(r.year.smeBaObstacles.filter { it.name in setOf("HOUSE", "BED", "LAND", "ROYAL_GATE") }, r.mewaObstacles)
+        assert(r.course.all { h -> r.year.harsh.any { it.year == h } })
         // Without the hour of death the seven other roots are reckoned.
         assertEquals(7, DeadReckoning.of(1906, Gender.MALE, day, null)!!.pebbles.count { it.force == Force.LUCK })
         assertNull(DeadReckoning.of(1996, Gender.MALE, day, hour))

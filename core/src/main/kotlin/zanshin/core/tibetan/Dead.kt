@@ -13,7 +13,7 @@ import zanshin.core.texts.gloss
  * progressed sign, trigram and mewa of the year of age, the rise and decline on the year of death, the month and the
  * day of death and the hour of death; the planet and the mansion, fought by element, are not reckoned. Each root is a
  * place counted once by its colour, as the notes count the year of age (p. 490), and each aspect's deciding pebble
- * lies on the more.
+ * lies on the more. Its sixth and seventh tests read the year of age's mewa obstacles and course at the year of death.
  */
 
 /** The roots of the dead's pebbles (the notes, vol. 2, p. 500), in the notes' order, the planet and mansion left out. */
@@ -66,7 +66,29 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
         }
     }
 
+    /**
+     * The first examination's sixth test (p. 56): the dead's mewa of the year of age at the year of death on its four
+     * small obstacles, of the house, the bed, the land and the royal gate: the time of death; none of them, untimely.
+     */
+    val mewaObstacles: List<SmeBaObstacle> get() = year.smeBaObstacles.filter { it in SMALL_OBSTACLES }
+
+    /**
+     * The seventh test (p. 56): the course of the years at the year of death, the obstacles of the year of age that
+     * hold then of those it names: one's own year, its seventh, the triad, the fourth up and down, the progressed sign's
+     * demon cut, the nine-multiples and the grave-eye; and the aspects whose rise and decline falls on a bad stage.
+     */
+    val course: List<HarshYear> get() = year.harsh.map { it.year }.filter { it in COURSE }.distinct()
+
+    /** The aspects whose rise and decline stands on one of the bad six stages in the year of death. */
+    val badStages: List<Force> get() = year.sectors.filter { !it.sector.good }.map { it.force }
+
     companion object {
+        private val SMALL_OBSTACLES = setOf(SmeBaObstacle.HOUSE, SmeBaObstacle.BED, SmeBaObstacle.LAND, SmeBaObstacle.ROYAL_GATE)
+        private val COURSE = setOf(
+            HarshYear.OWN_YEAR, HarshYear.SEVENTH, HarshYear.TRIAD, HarshYear.FOURTH_UP, HarshYear.FOURTH_DOWN, HarshYear.LOG_MEN_ENEMY,
+            HarshYear.COMBINED_NINE, HarshYear.NINE_TOMB, HarshYear.TRIGRAM_NINE, HarshYear.MEWA_NINE, HarshYear.TOMB_SIGN,
+        )
+
         /**
          * The first examination of one of [gender] born in the Tibetan year [birthYear], who died on the Tibetan day
          * [death], in the hour [hour] where it is known; null if the death is not after the birth.

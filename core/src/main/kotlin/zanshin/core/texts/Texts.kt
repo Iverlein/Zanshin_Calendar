@@ -2132,6 +2132,12 @@ object Texts {
     fun deadPebble(force: Force, colour: PebbleColour): Reading =
         Reading(key = "reading.DeadPebble", arg = "reading.DeadPebble.${force.name}.${colour.name}", source = Sources.WHITE_BERYL_DEAD_TIME)
 
+    /** The dead's mewa test, [time] whether its small obstacles fell (WB vol. 2, ch. 29, p. 56). */
+    fun deadMewa(time: Boolean): Reading = Reading(key = "reading.DeadMewa", arg = "reading.DeadMewa.${if (time) "TIME" else "NONE"}", source = Sources.WHITE_BERYL_DEAD_TIME)
+
+    /** The dead's course of the years, fallen on its obstacles (WB vol. 2, ch. 29, p. 56). */
+    fun deadCourse(): Reading = Reading(key = "reading.DeadCourse", arg = "reading.DeadCourse.TIME", source = Sources.WHITE_BERYL_DEAD_TIME)
+
     /** The dead's first examination read whole [w] (WB vol. 2, ch. 29, pp. 56–57). */
     fun deadWhole(w: DeadWhole): Reading = Reading(key = "reading.DeadWhole", arg = "reading.DeadWhole.${w.name}", source = Sources.WHITE_BERYL_DEAD_TIME)
 
