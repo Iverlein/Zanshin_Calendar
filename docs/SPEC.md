@@ -2360,6 +2360,7 @@ name both. Sewing tents is a third, beside pitching them.
 | The earth lords that move by date, Rāhu's among them | The White Beryl, Beijing 1996, vol. 2, pp. 226–235, with the results pp. 364 and 368–369, and the model almanac, vol. 1, pp. 154–171 (BDRC MW2CZ8040) |
 | The element's mansions and grave mansions | The White Beryl, Beijing 1996, vol. 2, p. 330 and the tables pp. 345–346, with vol. 1, p. 232 for Abhijit (BDRC MW2CZ8040) |
 | The la's element, course and the illness of the day; the year of age on the seven-red | The White Beryl, Beijing 1996, vol. 1, pp. 253 and 403–404, vol. 2, pp. 297–304, 308–312 and 351–356 (BDRC MW2CZ8040) |
+| The elements' illnesses (the Health screen's Medicine tab) | The White Beryl, Beijing 1996, vol. 1, ch. 25, pp. 435 and 438–439 (BDRC MW2CZ8040) |
 | The humours and the seasons (the Health screen's Medicine tab) | The Four Tantras (རྒྱུད་བཞི, rgyud bzhi), the Serthang print, Root Tantra ch. 3 and 6, Explanatory Tantra ch. 14 (BDRC MW3CN5036) |
 | Weighing the day | *'Bras rtsis bai dkar dgongs don kun phan me long*, img. 13–14 (BDRC W4CZ65561), with the White Beryl, vol. 2, pp. 333 and 337 |
 | Tenth day | Jigme Lingpa, tr. Rigpa Translations 2013, Lotsawa House |
@@ -3504,7 +3505,17 @@ the readings are the tradition's, not medical advice.
   6), and the six seasons' food and conduct (Explanatory Tantra
   ch. 14), read on the Serthang print (RD9). Neither names works, so
   neither enters the weighing. Which season a Tibetan month is in is
-  not reckoned: no source read gives the seasons' months.
+  not reckoned: no source read gives the seasons' months. Then "The
+  elements' illnesses" (ROADMAP H2a, 2026-10-22; WB vol. 1, ch. 25,
+  pp. 435 and 438–439, read on the scan, health.md), grey too: for each
+  element its humour (wood wind, fire blood, earth bile, iron phlegm,
+  water cold), its outer field, the organ within and its door ("Illness
+  of wood · Wind · the stomach and liver · the eye"), the signs once it
+  has entered and the ground its sick avoid, and as an Illness row the
+  signs when it takes hold at its own time (`Texts.ELEMENT_ILLNESS`).
+  Which time of the day or night is whose element is not reckoned: the
+  five day-parts and five night-parts are the *dbyangs 'char*'s, and
+  which comes first is not settled (open question 48).
 
 Not built: Dr. Nida Chenagtsang's own tables, which are WB's but for the
 six moxa dates and the syllables (RD7–RD9), the la pulse (a sign read at

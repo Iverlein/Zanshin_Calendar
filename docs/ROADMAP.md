@@ -87,7 +87,7 @@ moves up as soon as it is unblocked.
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
-| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — waits (2026-10-22): the board's counts start from "the sky-year's earth" (གནམ་ལོའི་ས), which ch. 25 does not define, most of pp. 421–452 are read only in outline (RD12), and the element count's fifth pebble and shares are open questions 226–228 with no worked example | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
+| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — H2a, the elements' illnesses, built 2026-10-22; the reckoning itself waits: the board's counts start from "the sky-year's earth" (གནམ་ལོའི་ས), which ch. 25 does not define, most of pp. 421–452 are read only in outline (RD12), and the element count's fifth pebble and shares are open questions 226–228 with no worked example | [RD12](#rd12), [RD8](#rd8) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
@@ -3398,6 +3398,20 @@ show them too. What WB has and what the readings found is in
   [26](#block-26) (the screen) and [28](#block-28) (R1's pebbles).
 - **Done when.** Vectors where Dorje or WB give a worked example;
   `CatalogTest`; SPEC; both languages.
+- **H2a The elements' illnesses — built 2026-10-22** (block 32, SPEC
+  §10.10): pp. 435 and 438–439, read on the scan (RD12, RD22): each
+  element's humour, outer field, organ, door and signs of entry, the
+  ground its sick avoid, and the signs of its time of onset as an
+  Illness row, five rows on the Health screen's Medicine tab with the
+  grey dot; family `ElementIllness` (item H2), English and Russian.
+  Checked: `CatalogTest`, `:app:testDebugUnitTest`, the emulator in
+  English and Russian (the section, the wood and iron sheets). No
+  release build: no enum key added. Not built, and why: the board of the
+  fifteen starting points counts from "the sky-year's earth" (གནམ་ལོའི་ས),
+  which ch. 25 does not define, and pp. 421–452 are read in outline only;
+  the illness identified by five pebbles waits on open questions 226–228
+  (the fifth pebble's trigram, the notes' seven, the shares) and has no
+  worked example; the time of onset's element on open question 48.
 
 ### <a id="h3"></a>H3. The menu's groups collapsible — built 2026-10-15 (SPEC §10.5)
 

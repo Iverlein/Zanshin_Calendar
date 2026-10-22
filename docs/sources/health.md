@@ -345,6 +345,15 @@ The example is the only worked one in the chapter; the pebble reckoning of the f
   «མོན་དྲེ» is WB's Dhaniṣṭhā. The editors number «སྒྲོག» 23 beside «མོན་གྲུ» 23
   again on vol. 2, p. 337 (etext).
 
+### Built, 2026-10-22 (ROADMAP H2a)
+
+The elements' illnesses of pp. 438–439 and the humours of p. 435, as
+read above, are the readings `ElementIllness` on the Health screen's
+Medicine tab, in our words. Left out: «གཉན» before wind (open question
+50), fire's "of the *ya ma* kind", earth's *bla brdol*, and the mixtures
+and the planets' and mansions' results, which need the time of onset's
+element (open question 48).
+
 ### Open
 
 **The count word, read 2026-10-18 (question 47).** The dictionaries of

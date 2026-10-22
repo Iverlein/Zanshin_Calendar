@@ -52,7 +52,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   la sits by the date and moves through the day; the day's mansion as a
   quarter of your element, the la's element, the vitality and body of
   the date and the year of age on the seven-red; the medical works as
-  the day is weighed; and the Four Tantras' humours and seasons. The
+  the day is weighed; the Four Tantras' humours and seasons; and each
+  element's illness, where it lies, its door and its signs. The
   tradition's readings, not medical advice.
 - **旧暦:** month and day with the moon's age, 六曜, the current solar term
   with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
