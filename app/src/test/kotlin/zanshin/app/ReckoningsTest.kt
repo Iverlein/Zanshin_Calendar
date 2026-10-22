@@ -28,7 +28,26 @@ class ReckoningsTest {
     @Test
     fun `the list needs a person`() {
         assertEquals(emptyList<Reckoning>(), Reckonings.built(null))
-        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE), Reckonings.built(person))
+        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE, Reckoning.DEAD), Reckonings.built(person))
+    }
+
+    /**
+     * The reckoning for the dead (ROADMAP R2n) from a relative entered as dead: Kun dga' rig 'dzin's dead man of the
+     * fire horse year, died on 27 October 1995 (the 4th of the 9th month) at 14:30, the sheep hour; the same at 04:30
+     * on the 28th falls on the 27th's Tibetan day; one without a date of death is not reckoned.
+     */
+    @Test
+    fun `the dead are reckoned from their relatives' dates`() {
+        val father = Relative(1, null, Relation.FATHER, birth = Moment(1906), died = true, death = Moment.of(LocalDate.of(1995, 10, 27), java.time.LocalTime.of(14, 30)))
+        val sister = Relative(2, null, Relation.SIBLING, gender = Gender.FEMALE, birth = Moment(1950), died = true, death = Moment(1990))
+        val dead = Reckonings.dead(person.copy(relatives = Relatives(listOf(father, sister))))
+        val r = dead[0].second!!
+        assertEquals(zanshin.core.tibetan.Animal.SHEEP, r.year.hour!!.sign.animal)
+        assertEquals(listOf("BLACK", "WHITE", "SPECKLED", "BLACK"), zanshin.core.tibetan.Force.entries.map { r.deciding(it).name })
+        assertNull(dead[1].second)
+        val early = father.copy(death = Moment.of(LocalDate.of(1995, 10, 28), java.time.LocalTime.of(4, 30)))
+        val e = Reckonings.dead(person.copy(relatives = Relatives(listOf(early))))[0].second!!
+        assertEquals(r.date, e.date)
     }
 
     @Test

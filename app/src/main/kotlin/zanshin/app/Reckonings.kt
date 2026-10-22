@@ -18,6 +18,8 @@ import zanshin.core.tibetan.KinReckoning
 import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.TibetanCalendar
+import zanshin.core.tibetan.DeadReckoning
+import java.time.LocalTime
 import zanshin.core.tibetan.Trigram
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.YearReckoning
@@ -26,7 +28,7 @@ import zanshin.core.tibetan.YearReckoning
  * The element reckonings built, as the Reckonings screen lists them (SPEC §10.11, ROADMAP R1), in the order of
  * docs/sources/reckonings.md's inventory. Each one built after R1 (R2…) is added here.
  */
-enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE }
+enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD }
 
 /**
  * The reckoning of [person]'s birth as far as it is built (ROADMAP R2): the natal trigram, their [mother]'s trigram in
@@ -122,6 +124,27 @@ object Reckonings {
         val theirTrigram = mother(spouse.id)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, theirs.first) }
         val (manTrigram, womanTrigram) = if (gender == Gender.MALE) ownTrigram to theirTrigram else theirTrigram to ownTrigram
         return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays, manTrigram, womanTrigram, manParents, womanParents)
+    }
+
+    /**
+     * The reckoning for the dead (ROADMAP R2n) of each relative of [person] who has died with a birth year, a gender
+     * (a parent's is the relation's) and a whole date of death; the hour of death where its time is known, from the
+     * hare hour at 05:00, the Tibetan day turning at dawn.
+     */
+    fun dead(person: Person): List<Pair<Relative, DeadReckoning?>> = person.relatives.list.filter { it.died }.map { r ->
+        val date = r.death?.date
+        val gender = r.sex
+        val birth = r.birth
+        r to if (date == null || gender == null || birth == null) null else {
+            val time = r.death.time
+            val dayDate = if (time != null && time < LocalTime.of(5, 0)) date.minusDays(1) else date
+            val day = TibetanCalendar.of(dayDate)
+            val hour = time?.let {
+                val minutes = Math.floorMod(it.hour * 60 + it.minute - 300, 1440)
+                Forces.hours(Forces.signs(day).date)[(minutes / 120).coerceIn(0, 11)]
+            }
+            DeadReckoning.of(birth.tibetanYear, gender, day, hour)
+        }
     }
 
     /** How [person]'s birth year stands to their clan, the special pebble (ROADMAP R2); null while the clan is not set. */

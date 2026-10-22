@@ -965,6 +965,16 @@
     <string name="reckonings_year_before">Year before</string>
     <string name="reckonings_year_after">Year after</string>
     <string name="birth_title">The birth</string>
+    <string name="dead_title">The dead</string>
+    <string name="reckonings_dead_subtitle">The time of death of %1$d who have died</string>
+    <string name="reckonings_dead_needed">Needs a relative who has died, with a birth year and the date of death</string>
+    <string name="dead_none">No relative of this person is entered as having died. Enter one in People with a birth year, a gender and the date of death.</string>
+    <string name="dead_needed_one">Needs the birth year, the gender and the whole date of death.</string>
+    <string name="dead_section">%1$s · born %2$s, died %3$s</string>
+    <string name="dead_places">%1$d places white, %2$d black</string>
+    <string name="dead_speckled">%1$s: speckled, as many places white as black; the text reads only a white or a black pebble.</string>
+    <string name="dead_whole_title">The time of death</string>
+    <string name="dead_note">Of the reckoning for the dead, the first of its fifteen examinations is reckoned: whether the time of death had come, from the year, the progressed sign, the trigram, the mewa, the rise and decline, the month, the day and, where its time is known, the hour of death. The planet and the mansion, fought by element, and the other fourteen examinations are not reckoned.</string>
     <string name="birth_subtitle">%1$s · born in the %2$s year, life force (སྲོག, srog) %3$s</string>
     <string name="birth_section_natal">The natal trigram</string>
     <string name="birth_section_parents">The parents\' trigrams</string>

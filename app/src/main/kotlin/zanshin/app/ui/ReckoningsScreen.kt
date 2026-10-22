@@ -71,6 +71,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.BIRTH -> BirthView(person, onPeople, back, open)
             Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
+            Reckoning.DEAD -> DeadView(person, onPeople, back, open)
         }
     }
     sheet?.let { ReadingSheet(it) { sheet = null } }
@@ -141,6 +142,15 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.DEAD -> {
+                val n = Reckonings.dead(person).count { it.second != null }
+                ScreenLinkRow(
+                    stringResource(R.string.dead_title),
+                    if (n == 0) stringResource(R.string.reckonings_dead_needed) else labels.string(R.string.reckonings_dead_subtitle, n),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.YEAR_OF_AGE -> {
                 val sign = YearOfLife.yearSign(year)
                 ScreenLinkRow(
@@ -155,6 +165,19 @@ private fun ReckoningList(person: Person?, year: Int, onPeople: () -> Unit, onBa
                 )
             }
         }
+    }
+}
+
+/** The reckoning for the dead (SPEC §5.9.4, ROADMAP R2n) of [person]'s relatives who have died, or what it needs. */
+@Composable
+private fun DeadView(person: Person?, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    Header(stringResource(R.string.dead_title), person?.let { personLabel(it) }, onBack)
+    Body {
+        if (person == null) {
+            NoPerson(onPeople)
+            return@Body
+        }
+        DeadReckoningView(person, remember(person) { Reckonings.dead(person) }, onPeople, onOpen)
     }
 }
 
