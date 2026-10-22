@@ -26,7 +26,7 @@ class SourcesTest {
         val cells = row.split(" | ")
         val id = Regex("""RD\d+""").find(cells[0])!!.value
         val done = Regex("""— done \d{4}-\d{2}-\d{2}""").containsMatchIn(cells[1])
-        val files = Regex("""([\w-]+\.md)( \(new\))?""").findAll(cells[5]).map { it.groupValues[1] to it.groupValues[2].isNotEmpty() }.toList()
+        val files = Regex("""([\w/-]+\.md)( \(new\))?""").findAll(cells[5]).map { it.groupValues[1].removePrefix("sources/") to it.groupValues[2].isNotEmpty() }.toList()
         Reading(id, done, files)
     }
 

@@ -70,8 +70,9 @@ class Reading:
         self.needs = re.findall(r"RD\d+", hard)
         self.after = re.findall(r"RD\d+", soft)
         files = {}                      # a link names its file twice, as text and as target
-        for m in re.finditer(r"([\w-]+\.md)( \(new\))?", self.topic):
-            files[m.group(1)] = files.get(m.group(1), False) or bool(m.group(2))
+        for m in re.finditer(r"([\w/-]+\.md)( \(new\))?", self.topic):
+            f = m.group(1).removeprefix("sources/")         # the roadmap links from docs/
+            files[f] = files.get(f, False) or bool(m.group(2))
         self.files = list(files.items())
         self.gpu = any(w in self.source for w in GPU_WORDS)
         self.loan = any(w in self.source for w in LOAN_WORDS)
@@ -296,8 +297,14 @@ def cmd_stubs(args):
     for f, heads in files.items():
         path = SOURCES / f
         if not path.exists():
-            title = f[:-3].replace("-", " ").capitalize()
-            path.write_text(f"# {title}\n\nSigla, numbering and quoting rules are in [README.md](README.md).\n")
+            title = Path(f).stem.replace("-", " ").capitalize()
+            path.parent.mkdir(parents=True, exist_ok=True)
+            up = "../" * (len(Path(f).parts) - 1)
+            front = ""
+            if f.startswith("corpus/"):             # the layered layout (STRUCTURE.md): a corpus file names its source
+                sig = Path(f).parts[1]
+                front = f"---\nkind: corpus\nsource: {sig}\nread: machine\n---\n"
+            path.write_text(f"{front}# {title}\n\nSigla, numbering and quoting rules are in [README.md]({up}README.md).\n")
             ids = ", ".join(rid for rid, _ in heads)
             row = f"| [{f}]({f}) | {title}: the sections below, one per reading | {ids} | Stub: nothing read yet |\n"
             index_text = index_row(index_text, row)
