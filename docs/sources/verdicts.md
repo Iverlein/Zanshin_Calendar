@@ -769,7 +769,7 @@ of the moment can turn the bad, passing conditions the good.
 | --- | --- |
 | 2, the verdict of a part | The hundred pebbles' verdicts, each of the twenty-five (life force, body, power, luck, and the mewa or element, each own, mother, son, friend and enemy) white or black with its own reading (pp. 329–331); the enemy pebble reads the other way, black the good one. "Gather it well and state the verdict without error" (p. 335) |
 | 3, sets | Twenty joined readings that name several pebbles of several aspects with the trigram and mewa together (pp. 334–335); the four mothers, the four sons, the four friends, many white or many black over the four aspects, and own against enemy (p. 338). A set outweighs the single readings: "nine goods told turn to nine ills", "told good, it goes wrong", "whatever bad times are told, senses whole" |
-| 4, which part of life | The general verdict of the hundred (རྡེའུ་སྤྱི་ཡི་ཁ་དམར, rde'u spyi yi kha dmar, p. 331): read from where white and black lie, white making the four continents above the first part of life, in the middle power and wealth, below old age; black likewise; images by the layout (white in a row where the sons lie, the corners black, white above and black below). The domains of each of the twenty-five (p. 334): mother "the coat at one's back", son "the staff in front", friend "the fold of fortune", enemy "an iron she-wolf" |
+| 4, which part of life | (The board, from KD vol. 3, pp. 716–718: [claims/birth-hundred-board.md](claims/birth-hundred-board.md).) The general verdict of the hundred (རྡེའུ་སྤྱི་ཡི་ཁ་དམར, rde'u spyi yi kha dmar, p. 331): read from where white and black lie, white making the four continents above the first part of life, in the middle power and wealth, below old age; black likewise; images by the layout (white in a row where the sons lie, the corners black, white above and black below). The domains of each of the twenty-five (p. 334): mother "the coat at one's back", son "the staff in front", friend "the fold of fortune", enemy "an iron she-wolf" |
 | 5, the whole | The twenty-one children (pp. 338–340) are kinds a birth falls into, good, middling or bad, each named by its conditions together, without a count; the groups' results (p. 340). The close (p. 349): weigh all, the rites can turn it. The notes (p. 489, on the scan): the child's own luck by the parents' years "is the sum of what was shown above; there is nothing to reckon apart", and the planets' and mansions' life reckoning of the Kālacakra and the *Arising of the Vowels* is good to examine too |
 | Conditions | The luck rules the rest: if the luck's tomb is not known, help and harm do not fit; "the luck is chief among conditions and turns it"; the birth luck does not change, the obstacle reckoning's rise and decline does, applied to month, day and hour (p. 335; the notes, p. 484) |
 
@@ -793,14 +793,20 @@ several conditions, and no rule says how many must hold.
 
 ### Open
 
-- Open question 184 ([open-questions.md](open-questions.md)): the board on which p. 331's general verdict is read.
-- Open question 185 ([open-questions.md](open-questions.md)): how many of a child's conditions must hold.
+- Open question 184, answered 2026-10-22: the board is five rows of twenty, the five unchanging lucks against the four aspects' own, mother, son, friend and enemy, the twenty deciding pebbles below ([claims/birth-hundred-board.md](claims/birth-hundred-board.md), from KD vol. 3, pp. 716–718 on the lent scan).
+- Open question 185, answered 2026-10-22 as far as the sources go: no text counts a child's conditions; each child is named by its conditions together ([claims/birth-children-no-count.md](claims/birth-children-no-count.md)).
 
 ### Searched and not found
 
 - A count or weight for the twenty-one children, or a rule for when two
   children's conditions both hold (pp. 338–340, the notes pp. 484–485, on
   the scan): none.
+- The same in the manuals and BDRC's full text, 2026-10-22: Lha mo
+  tshul khrims (LT, printed pp. 158, 167) restates the three groups'
+  results and sends the rest to WB; the *Utpala Garland* (UT) and the
+  Bhutan collection (I1KG11905) do not treat the children; BDRC's search
+  for «རང་བཞིན་ཆགས་པའི་བུ», «ལས་ཅན་རིགས་རྙེད», «བསོད་ནམས་ལྷུན་གྲུབ་བུ», «བཤན་པ་བདུད་འབེབས»,
+  «འབྱུང་བ་གསོ་བསྐྱེད», «མདུང་ཤུལ་སྲིན་མོ» finds WB's prints, LT and Gyurme Dorje only.
 - A rule ranking the sets of pp. 334–335 and p. 338 against the hundred's
   single readings, beyond the sets' own wording: none in ch. 22 or the
   notes' section 1.

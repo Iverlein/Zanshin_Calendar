@@ -368,6 +368,18 @@ Searched and found wanting, so not to be repeated:
   2026-09-29): none of the personal-mansion names, no Viṣṭi, none of the
   eight unconfirmed yoga and mansion names. It is a collection of treasure
   texts, not a calculation manual.
+- **A drawn board of the birth's hundred, 2026-10-22** (open question
+  184): *The Beautiful Rosary* in the Lhasa Mentsikhang print (I1KG12897,
+  img. 205–226) tabulates the readings by aspect and relation (img. 210–224)
+  and closes on WB's general verdict (img. 225–226) with no drawn board; the
+  Sera *Sheet of the Pebble Ground* (MW3PD446_17A116, vol. 9 = I2PD17138,
+  img. 555–576, pp. 553–572) is a cursive manuscript of columns with one
+  pebble each, then number tables and prose, no board of a hundred. The
+  board is KD vol. 3, p. 718 (the corpus file `corpus/kd/v3-sheets.md`).
+  The *Utpala Garland* (UT) was cited in this file as Dpal bsdus's: he
+  edited it; BDRC names Dge rtse 'Gyur med bstan pa'i rnam rgyal as its
+  author. `archive_lend.py view` needs playwright 1.62.0 for the cached
+  chromium-1234; the system Python's 1.64.0 asks for another download.
 - **The Derge reprint of WB** (BDRC MW1KG12714): its OCR garbles the verse
   passages; use the 1996 edition.
 - **Tsadra wikis** (rtz, rywiki): a static fetch gets HTTP 403. A headed

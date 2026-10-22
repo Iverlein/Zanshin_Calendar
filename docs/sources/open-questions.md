@@ -2449,15 +2449,17 @@ the text, not about the app.
      P. 342, son 1 with mother 3 «ང་བཞི་བརྒལ», 54, where the run of the
      forty, two years less at each step, gives 50: a slip of the print?
      [year-of-life.md](year-of-life.md), *The birth read whole* (RD19).
-184. **The board of the hundred pebbles (WB vol. 1, ch. 22, p. 331).**
+184. ~~**The board of the hundred pebbles (WB vol. 1, ch. 22, p. 331).**
      The general verdict of p. 331 reads the hundred as they lie on the board
      (above, middle, below, the four corners, where the sons lie); how are
-     the hundred laid out on it? Ch. 22 and the notes' section 1 do not say.
+     the hundred laid out on it? Ch. 22 and the notes' section 1 do not say.~~
      [verdicts.md](verdicts.md), *The birth read whole* (RD19).
-185. **How many conditions make a child (pp. 338–340).**
+     *Answered 2026-10-22 ([claims/birth-hundred-board.md](claims/birth-hundred-board.md); [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md#kd-3-p718), on the lent scan): Kun dga' rig 'dzin's worked sheet (KD vol. 3, pp. 716–718) lays them as five rows of twenty, the five unchanging lucks top to bottom (the father's year, the mother's progressed sign, the trigram, the mewa, the birth month), the life force, body, power and luck blocks left to right, each own, mother, son, friend, enemy, the twenty deciding pebbles in a row below; every cell follows Mipham's colour rule (vol. 2, p. 475) from p. 717's five lucks.*
+185. ~~**How many conditions make a child (pp. 338–340).**
      Must every condition of a child hold for the birth to be that child, or
-     do most of them make it? Pp. 338–340 and the notes give no count.
+     do most of them make it? Pp. 338–340 and the notes give no count.~~
      [verdicts.md](verdicts.md), *The birth read whole* (RD19).
+     *Answered 2026-10-22 as far as the sources go ([claims/birth-children-no-count.md](claims/birth-children-no-count.md)): no text counts them. BDRC's full-text search for six of the children's names finds only WB's prints, Lha mo tshul khrims (LT, who sends the children back to WB) and Gyurme Dorje; Mipham glosses the conditions and adds nothing on a count. Each child is named by its conditions together; the frame for the whole is p. 349 (weigh good and bad by force and number) and, for any board, the* Utpala Garland*'s many white good, many black bad (UT, p. 108).*
 186. **A son meeting in the year of age's verdict: the notes' table against Dorje's chart (WB vol. 2, p. 489; Gyurme Dorje, chart 6.2).**
      In the year of age's verdict (WB vol. 1, p. 381; the notes, vol. 2, p.
      490), how does a son meeting, one white and one black, count? The notes'

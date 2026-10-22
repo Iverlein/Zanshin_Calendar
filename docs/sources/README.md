@@ -116,6 +116,8 @@ work for its facts only, never its wording):
 | **GC** | Nyida Chenagtsang, *Selected Essays on Medicine* (1999) | BDRC I1KG21894 |
 | **RS** | *Collected Star Texts of the Rebkong Ngakmang* (2007/2008) | BDRC MW1KG6014 |
 | **GD** | Gyurme Dorje, *Tibetan Elemental Divination Paintings* (2001); cited as "Gyurme Dorje, p. N" | — |
+| **LT** | Lha mo tshul khrims, *Nag rtsis rdel 'grem 'bras bshad* (2003), a manual of laying the pebbles and their results; facts only | BDRC MW1KG21818, etext IE0OPI9C5B1B35 (printed page = etext page − 8) |
+| **UT** | Dge rtse 'Gyur med bstan pa'i rnam rgyal, *'Byung rtsis dpyad don rmad byung ut+pal sngon po'i do shal*, ed. Dpal bsdus (Mi rigs dpe skrun khang); facts only | BDRC MW25167, etext IE0OPI6328F058 (printed page = etext page − 22) |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

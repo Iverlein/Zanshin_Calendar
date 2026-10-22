@@ -132,7 +132,7 @@ kd:
   volumes:
     1: {etext: VEIE0OPI2F246A26_I4715, etext_offset: 16, loan_leaf_offset: 16, notes: "Tshul khrims rgyal mtshan's weighing at pp. 498–499; printed page = etext page − 16 at p. 498"}
     2: {loan_file: bdrc-W28845-1, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 223–315"}
-    3: {etext: VEIE0OPI2F246A26_I4717, etext_offset: 20, notes: "Mkhyen rab nor bu's digest of WB's fifth section from p. 730; DZ at etext pp. 506–536; PL at etext pp. 21–505"}
+    3: {etext: VEIE0OPI2F246A26_I4717, etext_offset: 20, loan_file: bdrc-W28845-2, loan_leaf_offset: 19, notes: "leaf = printed page + 19 at pp. 716–719; Mkhyen rab nor bu's digest of WB's fifth section from p. 730; DZ at etext pp. 506–536; PL at etext pp. 21–505"}
 
 dz:
   title: "'Byung rtsis man ngag zla ba'i 'od zer (the five great clans, the five relations of each aspect)"
@@ -266,3 +266,25 @@ gd:
   role: source
   locator: page
   notes: "cited as \"Gyurme Dorje, p. N\" or \"Dorje's chart N\"; its pages are its own, not WB's"
+
+lt:
+  title: "Nag rtsis rdel 'grem 'bras bshad (laying the pebbles of the Chinese reckoning and their results)"
+  author: "Dge bshes Lha mo tshul khrims"
+  edition: "[s.n.], 2003, 185 pp."
+  bdrc: {work: MW1KG21818, etext: IE0OPI9C5B1B35, scans: [I1KG21886]}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: source
+  etext_offset: 8
+  notes: "printed page = etext page − 8 (p. 28 = etext p. 36); the Labrang print MW8LS73586"
+
+ut:
+  title: "'Byung rtsis dpyad don rmad byung ut+pal sngon po'i do shal (the element reckoning's examination, a garland of blue utpalas)"
+  author: "Dge rtse 'Gyur med bstan pa'i rnam rgyal; edited by Dpal bsdus"
+  edition: "Mi rigs dpe skrun khang, Pe cin, first edition, 339 pp."
+  bdrc: {work: MW25167, etext: IE0OPI6328F058}
+  licence: "modern edition: facts only, never its wording"
+  rank: 3
+  role: source
+  etext_offset: 22
+  notes: "printed page = etext page − 22 (p. 108 = etext p. 130); cited before 2026-10-22 as Dpal bsdus's"

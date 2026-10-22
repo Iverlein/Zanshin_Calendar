@@ -2712,8 +2712,8 @@ Kālacakra (དུས་འཁོར, dus 'khor) and the *Arising of the Vowels*
 - Open question 182 ([open-questions.md](open-questions.md)): the notes' «འཛོམས» or «འཇོམས» (p. 484).
 - Open question 183 ([open-questions.md](open-questions.md)): p. 342's 54 in the birth wind's run.
 - The general verdict of p. 331 reads the pebbles as laid on the board;
-  the board's layout is asked in [verdicts.md](verdicts.md), section of
-  the same name.
+  the board's layout, open question 184, was found on KD vol. 3, pp.
+  716–718 (2026-10-22): [claims/birth-hundred-board.md](claims/birth-hundred-board.md).
 
 ### Searched and not found
 
@@ -2721,7 +2721,8 @@ Kālacakra (དུས་འཁོར, dus 'khor) and the *Arising of the Vowels*
   one), in pp. 338–340 and the notes, pp. 484–485 (on the scan): none; each
   is named by its conditions together.
 - The board's layout for the general verdict of p. 331, in ch. 22 and
-  the notes' section 1 (Yigdzin-1 and the scan): none.
+  the notes' section 1 (Yigdzin-1 and the scan): none. Found since in Kun dga' rig 'dzin's worked sheet (KD vol. 3, p. 718),
+  above.
 
 
 ## The year of age gathered: the four classes and the household (RD20)
