@@ -5056,7 +5056,245 @@ Nothing read yet: RD29's passages, with the English beside them, go here.
 
 ## «སྟངས་གཅོད» and «བཏང་གཅོད», the deciding pebble (open question 245)
 
-Nothing read yet: question 245's passages, with the English beside them, go here.
+Read 2026-10-22. The question: is the «སྟངས་གཅོད» of Kun dga' rig 'dzin's
+sheets (KD vol. 3, pp. 722, 729; RD28 above) WB's «བཏང་གཅོད», the deciding
+pebble, in another spelling? Read for it: every «བཏང་གཅོད» and «གཏང་གཅོད» of
+WB's 1996 etext (both volumes, the notes included) on the 1996 scans
+(I1KG12906, I1KG12907) by eye at 3–4×, from the Yigdzin-1 files already in
+`wb/`; the same places on the Zhol print (WBZ, I1KG1710, img. 324, 704,
+995, by eye at 2–4×, placed by its etext's lines) and on the Gser thang
+(གསེར་ཐང, gser thang) reprint (I3CN5029, img. 269); Mipham's
+(མི་ཕམ, mi pham) notes on his own print (I2029, img. 656–676 by Yigdzin-1,
+the two hits read by eye at 2–3×); the *Moonbeams*' count line on its
+own print (DZ, I2533, img. 034, by eye at 2×); the etexts of WB (the
+1996, Zhol, second Zhol impression, Sde dge (སྡེ་དགེ, sde dge) prints),
+KD vol. 3, Lhamo Tsultrim's, Dpal bsdus's (དཔལ་བསྡུས, dpal bsdus) and the
+Bhutan collection's manuals and the *Removing the Tarnish*
+(I5876); BDRC's full-text search (`bdrc_search.py`, 54 phrases, the
+first page of results for each); and Steinert's 64 dictionaries. KD's
+scans are lent and were not opened: what is quoted from KD beyond RD28's
+sheets is etext only. The spellings, named once here: «བཏང་གཅོད» (btang
+gcod), «སྟངས་གཅོད» (stangs gcod), «གཏང་གཅོད» (gtang gcod), «སྟང་གཅོད»
+(stang gcod), «སྟོང་གཅོད» (stong gcod), the past forms «བཏང་བཅད» (btang
+bcad), «སྟངས་བཅད» (stangs bcad) and «གཏང་བཅད» (gtang bcad); all are
+"deciding" below.
+
+### 1. WB, its prints and Mipham's notes: «བཏང་གཅོད»
+
+Every use of the word in WB, read on the 1996 scan, with the other prints
+where they were read:
+
+| Place | As read on the scan | English | Other prints |
+| --- | --- | --- | --- |
+| Vol. 1, p. 260 (img. 270, l. 25–26), the life-long reckoning's 136 pebbles, from the *Clear Lamp* | «…མེད་དུ་མི་རུང་རྡེལ་གཉིས་ཏེ། །མི་འགྱུར་ཀླུང་གི་རྡེལ་ལྔ་ཡིན། །རྒྱ་འདྲེའི་རྡེལ་གྲངས་བརྒྱ་ཕྲག་གཅིག །བཏང་གཅོད་རྡེལ་ནི་ཉི་ཤུ་བཞི། །སྤྱིར་བསྡུས་བརྒྱ་དང་སུམ་ཅུ་དྲུག །» | …two pebbles that cannot be done without, five pebbles of the unchanging luck, one hundred mixed pebbles, twenty-four deciding pebbles: 136 in all | WBZ img. 324, l. 3, on the scan: «བཏང་གཅོད་རྡེལ་ནི་ཉི་ཤུ་བཞི»; the Gser thang reprint's and the *Collected Old Texts*' copy's (I1KG81102) etexts the same. The 1996 etext garbles this line («བཏང་གཅོད་ པ་བརྒྱ་དང་སུམ་ཅུ་དྲུག»); the scan has it whole |
+| Vol. 1, p. 261 (img. 271, l. 25), the same reckoning | «བཏང་གཅོད་རྡེའུ་ཉི་ཤུ་ལ། །སྲོག་གི་རྡེའུ་དཀར་ནག་བགྲངས། །» | for the twenty deciding pebbles, count the white and black pebbles of the life force (སྲོག, srog) [and of body, power and luck] | the Sde dge print's etext (I1KG12739, p. 335): «བཏང་གཅོད་རྡེའུ་ཉི་ཤུལ»; its 1210-px scan not read |
+| Vol. 1, p. 385 (img. 395, l. 19), the household's Chinese pebble round | «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་གི། །བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ་དང་། །སྨེ་བ་ཁམས་རྡེལ་ལྔ་བོར་ལ། །» | for each one's life force, body, power and luck one deciding verdict pebble (ཁ་དམར, kha dmar), and lay five pebbles of the mewa's (སྨེ་བ, sme ba) element | WBZ etext p. 505 «བཏང་གཅོད་ཁ་དགར» (poor OCR; not read on the scan) |
+| Vol. 1, p. 468 (img. 478, l. 1), the dead: whether to burn the body | «…ཁ་ནས་ཕུང་པོ་བསྲེག་སྒྲུབ་ཀྱི། །བཏང་གཅོད་རྩིས་འགོ་རྣམ་བརྒྱད་ལ། །» | the eight starting points that decide burning or keeping the body | WBZ etext p. 622 the same (not read on the scan) |
+| Vol. 2, p. 46 (img. 54, l. 5), the dead's deciding pebbles | «དཀར་ནག་བགྲངས་པའི་བཏང་གཅོད་རྡེལ། །དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི། །» | the deciding pebble of the white and black counted: white for more white, black for more black, a speckled one for half and half | — |
+| Vol. 2, p. 55 (img. 63, l. 26 and 28), the life force | «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། …། །སྲོག་གི་བཏང་གཅོད་དཀར་བ་ན། །» | when the life force's deciding pebble is black …; when it is white … | WBZ img. 704, l. 3–4, on the scan: «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན», «སྲོག་གི་བཏང་གཅོད་དཀར་བ་ན» |
+| Vol. 2, p. 56 (img. 64, l. 8, 10, 13), the power and the luck | «བཏང་གཅོད་ནག་ན་ཟན་གངས་ཐེམས། …། །བཏང་གཅོད་དཀར་ན་འཆི་དུས་སུ། །མ་སླེབ་… །བཏང་གཅོད་ནག་ན་ཡལ་ག་ཆག །ཀླུང་རྟ་བསོད་ནམས་རྒྱལ་མཚན་འགྱེལ། །» | if the deciding pebble is black, the lot of food is used up; if white, the time of death has not come; if black, the branch is broken and the banner of the luck's (ཀླུང་རྟ, klung rta) merit falls | WBZ img. 704, l. 7, on the scan: «བཏང་གཅོད་ནག་ན་ཟན་…» |
+| Vol. 2, p. 70 (img. 78, l. 13), the rebirth | «སྐྱེ་གནས་བཏང་གཅོད་རྡེའུ་དཀར། །གཤིན་པོ་ལྷར་སྐྱེ་…» | the rebirth's deciding pebble white: the dead is born a god … | — |
+| Vol. 2, p. 263 (img. 271, l. 13–15), geomancy, the shapes of mountains | «…དམངས་སོགས་བྱེ་དྲག་མི་འདྲའི་ཚུལ། །དུ་མའི་བཤད་མང་ཡོད་ནའང་། །བཟང་ངན་གཏང་གཅོད་དབྱེ་དཀའ་ལ། །ཀུན་ཀྱང་ངན་པར་འཁུམས་འགྱུར་ཞིང་། །འབྱམས་ཀླས་ལག་ཏུ་ལེན་དཀའ་བས། །འདིར་ནི་དགོས་དོན་སྙིང་པོ་རུ། །དྲིལ་ཏེ་བཀོད་པ་དེ་ཙམ་མོ། །» | though there are many accounts of the kinds (mountains like commoners and the rest), it is hard to tell good from bad by deciding; all would come to look bad and be endless and hard to use, so only the needful core is gathered here | the Gser thang reprint (img. 269, the same typesetting), on the scan: «གཏང་གཅོད»; **WBZ img. 995, l. 2, on the scan: «བཟང་ངན་བཏང་གཅོད་དབྱེ་དཀའ»**; the *Collected Old Texts*' copy's etext «btang gcod» |
+
+Besides these, the 1996 etext has «བཏང་གཅོད» at vol. 1, p. 238 («ལག་ནི་གཡབ་མོས་བཏང་གཅོད་ཕྱིར», the name *gtsug lag* (གཙུག་ལག, gtsug lag): *lag*
+because it decides by beckoning; RD25), p. 245 (a text's name, RD25) and
+p. 248 (the *Lamp of the Magic of Deciding*, RD25), and in vol. 2 at
+p. 147 (the arrow of decision, RD18) and p. 150 («བཟང་ངན་ཁ་སྨང་གི། །བཏང་གཅོད་དཔྱད་རིགས», the kinds of examination that decide good or
+bad), etext only. WB's own lines never write «སྟངས་གཅོད».
+
+**Mipham's notes** (vol. 2, pp. 474–521 in the 1996 etext, img. 482–529)
+write «བཏང་གཅོད» at every use (pp. 474–476, 489–490, 495, 498, 500–504,
+510, 513), and so does his own print, read on the scan:
+
+- I2029, img. 661, l. 6 (the notes' p. 495): «…ཞེས་བཏང་གཅོད་དཀར་ན་ཆགས» (Yigdzin-1 «རྡེལ་དཔྱད་སྐབས་ཐང་ཤིང་ཚོགས་ཞེས་བཏང་གཅོད་དཀར་ན་ཆགས»; the 1996 «ཆགས་ཞེས»), "standing" means the deciding pebble is white;
+- I2029, img. 668, l. 1 (p. 498): «གོང་གི་ཐང་ཤིང་དང་བཏང་གཅོད་ནག་ན་དང་།», the plank-tree (ཐང་ཤིང, thang shing) above and "if the deciding pebble is black".
+
+Sde srid's own *Supplement* (ལྷན་ཐབས, lhan thabs) on the Four Tantras
+writes it the same, «འཚོ་འཆི་བཏང་གཅོད་ཁ་དམར་གདགས་པ་ནི» (BDRC snippets of two
+copies, etext only).
+
+So in WB the spelling is «བཏང་གཅོད» in every print read; the one
+«གཏང་གཅོད» (p. 263) is the 1996 typesetting's, which the Zhol blocks do not
+have.
+
+### 2. «སྟངས་གཅོད» stands where WB has «བཏང་གཅོད»
+
+The same count, the same rule and the same verses, written with the
+other spelling:
+
+| WB («བཏང་གཅོད») | The other text («སྟངས་གཅོད») | Where read |
+| --- | --- | --- |
+| Vol. 1, p. 260: «རྒྱ་འདྲེའི་རྡེལ་གྲངས་བརྒྱ་ཕྲག་གཅིག །བཏང་གཅོད་རྡེལ་ནི་ཉི་ཤུ་བཞི། །སྤྱིར་བསྡུས་བརྒྱ་དང་སུམ་ཅུ་དྲུག» | *Moonbeams* f. 15b (I2533, img. 034, l. 3): «…བརྒྱ་འདྲེའི་རྡེའུ་བརྒྱ་ཕྲག་གཅིག །སྟངས་གཅོད་རྡེའུ་ཉི་ཤུ་བཞི། །སྤྱི་བསྡུས་བརྒྱ་དང་སུམ་ཅུ་དྲུག» | DZ on the scan (the deciding word checked again 2026-10-22 at 2×; the line as quoted from this print above); its copies in KD (etext p. 521), the *Treasury of Sūtra and Tantra* (མདོ་རྒྱུད་མཛོད, mdo rgyud mdzod; MW28955_E5A009; its school not checked here) and Nalendra Tshul khrims rgyal mtshan's (ན་ལེནྡྲའི་མཁན་པོ་ཚུལ་ཁྲིམས་རྒྱལ་མཚན, na lendra'i mkhan po tshul khrims rgyal mtshan) writings (MW1KG10375_747F39) the same; the *Great Treasure Good Vase* (གཏེར་ཆེན་བུམ་བཟང, gter chen bum bzang), a word commentary on the same *Treasury* (MW28955_2515DB), «stang gcod rde'u nyer bzhi» (BDRC snippets) |
+| Vol. 1, p. 261: «བཏང་གཅོད་རྡེའུ་ཉི་ཤུ་ལ། །སྲོག་གི་རྡེའུ་དཀར་ནག་བགྲངས།» | *Moonbeams* (KD etext p. 522): «…དེ་ལྟར་ངེས་པར་བྱས་ནས་ཀྱང་། །རྡེའུ་ཉེར་བཞིས་སྟངས་གཅོད་དོ། །» | DZ, as quoted above from its print; KD etext |
+| Vol. 1, p. 385: «སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་གི། །བཏང་གཅོད་ཁ་དམར་རྡེལ་རེ་དང་།» | Kun bzang blo gros's (ཀུན་བཟང་བློ་གྲོས, kun bzang blo gros) supplement to the *Moonbeams*, the *Garland of Mansions* (རྒྱུ་སྐར་ཕྲེང་བ, rgyu skar phreng ba; KD vol. 3, p. 664, etext p. 684), WB's verses taken over whole: «…བཟའ་ཚང་ཁྱིམ་གཅིག་མི་དུ་ཡོད། །སོ་སོའི་སྲོག་ལུས་དབང་ཀླུང་གི །སྟངས་གཅོད་ཁ་དམར་རྡེལ་རེ་དང་། ། སྨེ་བ་ཁམས་རྡེལ་ལྔ་བོར་ལ། །» | KD etext only |
+| Vol. 1, p. 468: «བསྲེག་སྒྲུབ་ཀྱི། །བཏང་གཅོད་རྩིས་འགོ་རྣམ་བརྒྱད» | *Moonbeams* ch. 2 (KD p. 500, etext p. 520): «རོ་ཡི་སྲེག་སྒྲུབ་སྟངས་གཅོད་བརྩི།», reckon the deciding of burning or keeping the corpse; Tshul khrims rgyal mtshan's *Mirror Clarifying the Divination Chart of Chinese Reckoning* (རྒྱ་ནག་རྩིས་ཀྱི་གབ་ཙེ་གསལ་བའི་མེ་ལོང, rgya nag rtsis kyi gab tse gsal ba'i me long; MW1KG10408): «མི་རོ་དམར་པོ་ནི་རོ་ཡི་བསྲེག་སྒྲུབ་སྟངས་གཅོད་ཀྱི་རྩིས་གཞི», the red corpse is the reckoning base for deciding burning or keeping | KD etext; BDRC snippet |
+| Vol. 2, p. 46: «དཀར་ནག་བགྲངས་པའི་བཏང་གཅོད་རྡེལ། །དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི།» | a text in the collection of Upper Dokham's (མདོ་ཁམས་སྟོད, mdo khams stod) scholars (MK's, MW1PD152297): «དཀར་ནག་བགྲངས་པའི་སྟངས་གཅོད་རྡེལ། དཀར་མང་དཀར། ནག་མང་ནག ཕྱེད་མར་ཁྲ་བོ་བོར་གསུངས།» | BDRC snippet (search only) |
+| Vol. 2, pp. 55–56: «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། །སྲོག་གི་འགེལ་ཤིང་ཆག་པ་སྟེ།» and the power's and luck's lines | Kun dga' rig 'dzin's sheet (KD p. 729, on the lent scan, RD28): «སྲོག་གི་སྟངས་གཅོད་ནག་པས་ན། །སྲོག་གི་འགིང་ཤིང་ཆག་པ་སྟེ། …། །ཀླུ་རྟའི་སྟངས་གཅོད་ནག་པ་ན།», and the chart's last column headed «སྟངས་གཅོད»; p. 722 «སྟངས་གཅོད་རྡེལ་བཞི།» | RD28, on the scan |
+| Vol. 2, p. 70: «སྐྱེ་གནས་བཏང་གཅོད་རྡེའུ་དཀར།» | *Moonbeams* f. 29a (I2533, img. 061, l. 2–3, on the scan, O18 above): «དེ་ལྟར་སྟངས་གཅོད་རྡེའུ་ཡི། །ཁ་དོག་དང་བསྟུན་ཁ་དམར་ཀྱང་།», the verdicts follow the colour of the deciding pebbles (of the rebirth and the rest) | DZ on the scan |
+
+**One work, both spellings.** Kun bzang blo gros's supplement, which
+takes WB's verses over whole, writes the household's line with
+«སྟངས་གཅོད» (KD p. 664, above) and WB's verses of the dead with
+«བཏང་གཅོད» (KD p. 706, etext p. 726): «དང་པོ་སྲོག་གི་རྡེལ་ཚན་འབྲས། །སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། །སྲོག་གི་འགི་ཤིང་ཆོག་པ་སྟེ། …། །སྲོག་གི་བཏང་གཅོད་དཀར་བ་ན། །འཆི་བའི་དུས་ལ་མ་བབས་ཞེས།»
+(etext only). Its own words elsewhere have «སྟངས་གཅོད» (pp. 519, 546,
+572: «སྟངས་གཅོད་འབྲས་བཤད», «སྟངས་གཅོད་ཁ་དམར་འདི་ལྟར་དཔྱད», «དཀར་ནག་གི །སྟངས་གཅོད་མཛད་པའི་ལུགས»), and the past
+form «སྟངས་བཅད» stands in the *Moonbeams* (KD pp. 506, 512, «ལེགས་ཉེས་འབྲས་བུས་སྟངས་བཅད་དོ», «འགྲེལ་པས་སྟངས་བཅད་དེ»). Likewise
+Tshul khrims rgyal mtshan writes «སྟངས་གཅོད» in his *Mirror* and in his
+copy of the *Moonbeams*, while his annotation to the *Moonbeams*' line on
+the twenty-four (BDRC snippet, MW1KG10375_747F39) glosses the place with
+the other spelling: «…རང་མ་བུ་གྲོགས་རྩིས་ལ་འོག་ཏུ་གཏང་གཅོད་དཀར་ན་བཟང་།», for the
+self, mother, son and friend, white deciding pebbles below are good.
+
+**Restatements of the *Moonbeams*' count with WB's spelling.** Lhamo
+Tsultrim's manual (I1KG21886, etext p. 35): «…མི་འགྱུར་རྩ་བའི་རྡེལ་ལྔ་དང་། ། རྒྱ་འདྲེའི་རྡེལ་གྲུངས་བརྒྱ་ཕྲག་གཅིག ། བཏང་གཅོད་རྡེའུ་ཉེར་བཞི་སྟེ། །སྤྱི་བསྡུས་བརྒྱུ་དང་སོ་དྲུག་གོ།» (etext only;
+«གྲུངས», «བརྒྱུ» the OCR's), the same count in the same words, and the
+dead's lines with «བཏང་གཅོད» (etext p. 54); the same lines in a
+manual of laying the pebbles in the Geluk (དགེ་ལྡན, dge ldan) masters'
+practice (རྒྱ་རྩིས་དགེ་ལྡན་མཁས་པའི་ཕྱག་རྒྱུན་དུ་བསྟར་བའི་རྡེལ་འགྲེམ, rgya rtsis dge ldan mkhas pa'i phyag
+rgyun du bstar ba'i rdel 'grem; BDRC's snippet cuts the title) and in the
+*Crafts, Reckoning and Drama* (བཟོ་རྩིས་ཟློས་གར, bzo rtsis zlos gar) vol. 2
+(BDRC snippets). The Bhutan collection (I1KG11905, etext pp. 491–496)
+writes WB's verses of the dead with «བཏང་གཅོད» too. Zhe chen
+Rgyal tshab 'Gyur med padma rnam rgyal (ཞེ་ཆེན་རྒྱལ་ཚབ་འགྱུར་མེད་པདྨ་རྣམ་རྒྱལ, zhe chen
+rgyal tshab 'gyur med pad+ma rnam rgyal): «རྡེའུ་ཉེར་བཞི་བཏང་གཅོད་ཁ་དམར་བཞི།» (snippet).
+
+**A third spelling in the reckoning itself, «གཏང་གཅོད».** The reckoning for
+the dead of the *Mirror of Magic* (སྲིད་པ་འཕྲུལ་གྱི་མེ་ལོང, srid pa 'phrul gyi
+me long; in the Drukpa (འབྲུག་པ, 'brug pa) *Treasury of Dharma* (ཆོས་མཛོད, chos
+mdzod), MW3CN2232_D26879):
+«འགྲམས་ལ་གཏང་གཅོད་རྡེལ་ནག་དག་དང་ནི། །ལོ་ཟླ་ཞག་དུས་སྤར་སྨེ་གཟའ་སྐར་དང་།», among the
+faults (འགྲམས, 'grams) black deciding pebbles, and those of year, month,
+day, hour, trigram, mewa, planet and mansion; the *Good Vase* (above,
+in the Bhutan collection; its copy MW30023_79E1C5, which BDRC ascribes to
+Si tu dbon Karma nges legs bstan 'dzin (སི་ཏུ་དབོན་ཀརྨ་ངེས་ལེགས་བསྟན་འཛིན, si tu dbon karma
+nges legs bstan 'dzin)): «གཏང་གཅོད་འགྲེམ་པས་ང་ལྔའོ།», laying the deciding pebbles
+makes fifty-five (WB's fifty-five, vol. 2, p. 46), and «སིལ་བུལ་སྲེག་སྒྲུབ་གཏང་བཅད་པ།»,
+the scattered (pebbles) decide burning or keeping (the Bhutan collection,
+I1KG11905, etext p. 72, and the copy); BDRC
+snippets, etext only.
+
+### 3. The word outside the pebbles
+
+The same verb, "to decide good from bad", is written all these ways
+outside the reckoning, often in copies of one line:
+
+- the judge of the dead: «ལས་ཀྱི་རྡེའུ་དཀར་ནག་བཀྲམ་ནས་དགེ་སྡིག་གི་སྟངས་གཅོད་པ་དང་།», the white and black pebbles of karma are spread out and virtue and sin decided (the *Liberation by Hearing in the Bardo* (བར་དོ་ཐོས་གྲོལ, bar do thos grol) and its copy in the *Treasury of Precious Termas* (རིན་ཆེན་གཏེར་མཛོད, rin chen gter mdzod); «དགེ་སྡིག་གི་སྟངས་གཅོད» has 9 hits, all on the Lord of Death); Zhu chen Tshul khrims rin chen (ཞུ་ཆེན་ཚུལ་ཁྲིམས་རིན་ཆེན, zhu chen tshul khrims rin chen) writes the Lord of Death's office «དགེ་སྡིག་གི་སྟོང་གཅོད» in one place and a protector's «ལེགས་ཉེས་སྟངས་གཅོད» in another (BDRC snippets);
+- the protector who decides good and bad: «ལེགས་ཉེས་སྟངས་གཅོད་དམ་ཚིག་སྐྱོང»,
+  «ལེགས་ཉེས་ཀུན་གྱི་སྟངས་གཅོད་མ», «ལེགས་ཉེས་བཏང་གཅོད་ཕན་གནོད་སྦྱིན», «དགེ་སྡིག་གཉིས་ཀྱི་སྟང་གཅོད་མ» (snippets);
+- G.yu thog's (གཡུ་ཐོག, g.yu thog) praise of the physician who sees life and
+  death without divination, one line in three places: «འཚོ་འཆི་ལེགས་ཉེས་སྟངས་གཅོད་ཡོད།» in the *Treasury of Precious Termas* and in one volume of a collection of the *Heart Essence of G.yu thog* (གཡུ་ཐོག་སྙིང་ཐིག, g.yu thog snying thig; I4PD2078),
+  «འཚོ་འཆི་ལེགས་ཉེས་སྟོང་གཅོད་ཡོད།» in another volume of the same collection (I4PD2077) (snippets);
+- the Four Tantras' children's illnesses: «འཚོ་འཆི་བཏང་གཅོད་ཁ་དམར་གདགས» (17 hits), glossed by three commentaries: Skyem pa Tshe dbang (སྐྱེམ་པ་ཚེ་དབང, skyem pa tshe dbang), «འཚོ་འཆི་བཏང་བཅད་ཁ་དམར་གདགས་པ་གསུམ་ཞེས། … འཚོའམ་འཆི་བའི་བཏང་བཅད་དེ་ཁ་དམར་གདགས་པའམ་ཁས་འཆེ་བ», deciding whether he lives or dies, that is, laying the verdict or pronouncing it (*Rgyud bzhi'i rnam bshad*, I4711); an anonymous commentary, «འཚོ་འཆི་བཏང་གཅོད་ནི། འཚོ་འཆི་ཤན་དབྱེ་བའམ», deciding life and death is telling life and death apart (I8LS18171); and Lung rigs bstan dar's (ལུང་རིགས་བསྟན་དར, lung rigs bstan dar) glossary on Sde srid's *Supplement*, «བཏང་གཅོད་ནི་ཤན་ཕྱེད», deciding is telling apart (I1KG6219, I1PD403) (snippets).
+
+### 4. The dictionaries
+
+Of Steinert's 64 dictionaries (Wylie headwords, `locate.py dict`):
+
+- only the *Ocean of Word Treasures* (ཚིག་གཏེར་རྒྱ་མཚོ, tshig gter rgya mtsho)
+  has the reckoning's word, under the spelling «གཏང་གཅོད»: «འབྱུང་རྩིས་ཀྱི་ཐ་སྙད་དེ། རེའུ་མིག་མཇུག་གི་བསྡོམས་རྩིས་ཀྱི་རེའུ་མིག་གི་མིང་། ཁ་དམར་དང་དོན་གཅིག», a term of the
+  elemental reckoning (འབྱུང་རྩིས, 'byung rtsis): the name of the summing
+  row at the end of a chart, one in meaning with the verdict. That is
+  the sheets' last row («སྟངས་གཅོད་རྡེལ་བཞི», p. 722) and their last column
+  (p. 729);
+- no dictionary has «བཏང་གཅོད», «སྟངས་གཅོད» or «སྟང་གཅོད» as a headword;
+- «སྟོང་གཅོད» is an old word (རྙིང, rnying), "deciding whether a thing is
+  or is not" (the *Great Tibetan-Chinese Dictionary* (བོད་རྒྱ་ཚིག་མཛོད་ཆེན་མོ,
+  bod rgya tshig mdzod chen mo) and the *Ocean of Word Treasures*), from
+  A lag sha Bstan dar's (ཨ་ལག་ཤ་བསྟན་དར, a lag sha bstan dar) word list,
+  the *Throat Ornament of the Clear-Minded* (བརྡའ་ཡིག་བློ་གསལ་མགྲིན་རྒྱན, brda' yig
+  blo gsal mgrin rgyan), whose line BDRC holds (I4CZ45291):
+  «སྟངས་འཛིན་དང་སྟོང་གཅོད་ནི་ཡིན་མིན་གྱི་དོན་ཐག་བཅད་པའོ།», *stangs 'dzin* and *stong
+  gcod* mean deciding whether a thing is or is not;
+- Sgom sde's dictionary (སྒོམ་སྡེ་ཚིག་མཛོད་ཆེན་མོ, sgom sde tshig mdzod chen mo), under
+  «སྟངས་འཛིན», reports the pair «སྟངས» and «བཏང» disputed in a neighbouring
+  word: Zam gdong Rin po che (ཟམ་གདོང་རིན་པོ་ཆེ, zam gdong rin po che) held
+  «སྟངས་འཛིན» a spread misspelling of «བཏང་འཛིན», and the dictionary rejects
+  that, deriving «སྟངས» from "manner" (*za stangs*, the way of eating). It
+  says nothing of «སྟངས་གཅོད».
+
+Gyurme Dorje's English edition of WB's paintings (MW1KG6061, under
+copyright, search only) renders «stangs-gcod rde'u» (from the
+*Moonbeams*) and «btang-gcod rde'u» (from WB) the same way, and
+transliterates captions of the rebirth's pebbles as «gtang-gcod»; the
+snippets do not show which captions.
+
+### The answer
+
+**Answered: yes.** «སྟངས་གཅོད» is WB's «བཏང་གཅོད», the same word for the
+same thing, the deciding pebble laid by counting white against black.
+Three things show it. (1) The *Moonbeams*, its copies, Kun bzang blo
+gros's supplement and the sheets put «སྟངས་གཅོད» in the very places where
+WB has «བཏང་གཅོད»: the twenty-four of the 136-pebble reckoning (WB vol. 1,
+p. 260; DZ f. 15b), the household's verdict pebble (vol. 1, p. 385; KD
+p. 664), burning or keeping the corpse (vol. 1, p. 468; KD p. 500), the
+rule for white, black and speckled (vol. 2, p. 46; MK), and the four
+verses of the dead (vol. 2, pp. 55–56; KD p. 729). (2) The spellings
+cross between copies of one line: the *Moonbeams*' count appears with
+«སྟངས», «སྟང» and «བཏང» (DZ, the *Great Treasure Good Vase*, Lhamo Tsultrim);
+one supplement and one annotator use two spellings each; and outside
+the reckoning one line of G.yu thog's has «སྟངས» and «སྟོང». (3) The only
+dictionary that has the reckoning's word («གཏང་གཅོད») makes it the summing
+row of a chart, one with the verdict, which is the sheets' row and
+column. The spelling divides by line of transmission: WB, its Zhol,
+Sde dge and Gser thang prints, Mipham's notes, Sde srid's *Supplement*,
+Lhamo Tsultrim and the Bhutan collection's verses of the dead write
+«བཏང»; Dharmaśrī's
+*Moonbeams*, its supplement, the KD sheets and Tshul khrims rgyal mtshan
+write «སྟངས»; «གཏང» stands in the *Mirror of Magic*, the *Good Vase*, the
+*Ocean of Word Treasures* and the 1996 WB's p. 263 (a typesetting's: the
+Zhol blocks have «བཏང»). **Not settled:** which spelling is the original;
+no source states the two to be one word or calls one a misspelling of
+the other, and no dictionary has «སྟངས་གཅོད» or «བཏང་གཅོད» at all. WB's
+«བཏང་གཅོད» stays the name in these files; the sheets' «སྟངས་གཅོད» is the
+same pebble.
+
+### Open
+
+- Question: Which spelling of the deciding is the older, «བཏང་གཅོད» (WB and
+  its prints, Mipham), «སྟངས་གཅོད» (Dharmaśrī's *Moonbeams* and its
+  followers), «གཏང་གཅོད» (the *Mirror of Magic*, the *Good Vase*, the
+  *Ocean of Word Treasures*) or the old «སྟོང་གཅོད» that the word lists give
+  for deciding is or is not; and is «སྟངས» here the "manner" word or a
+  sound-spelling of «བཏང»?
+- Question: Is «སྟངས་གཅོད» Dharmaśrī's own spelling, or only that of the
+  print of his collected works read here (I2533) and the copies taken
+  from it? An older manuscript of the *Moonbeams*, if one survives, would
+  show it.
+- Doubt, not read on a print: the Taikhang reproduction (I5878) of
+  vol. 2, p. 263, against the 1996 «གཏང» and the Zhol «བཏང» (not fetched;
+  the Zhol print already differs from the typesetting).
+
+### Searched and not found
+
+- 2026-10-22, Steinert's 64 dictionaries (`locate.py dict`, Wylie
+  headwords): «btang gcod», «stangs gcod», «stang gcod», «btangs gcod»,
+  «stangs bcad», «btang bcad» no headword; «gtang gcod» only in the
+  *Ocean of Word Treasures*; «thag gcod» in seven, none tied to the
+  reckoning.
+- 2026-10-22, BDRC's full-text search, exact phrases, no hit:
+  «གཡབ་མོས་སྟངས་གཅོད», «སྟངས་གཅོད་ཉེར་བཞི», «བཏང་གཅོད་ཉེར་བཞི», «འཚོ་འཆི་སྟངས་གཅོད»,
+  «དགེ་སྡིག་གི་བཏང་གཅོད», «གཏང་གཅོད་ཁ་དམར», «སྟངས་གཅོད་ནི», «གཏང་གཅོད་ནི»,
+  «བཏང་གཅོད་ཅེས», «སྟངས་གཅོད་ཅེས», «བསྲེག་སྒྲུབ་བཏང་གཅོད», «བསྲེག་སྒྲུབ་གཏང་བཅད»,
+  «སྟངས་གཅོད་དཀར་ན་ཆགས»: no gloss of «སྟངས་གཅོད» anywhere, and no text that names
+  the two spellings together. Hits counted but not all read (first page
+  of results only): «སྟངས་གཅོད» 90, «བཏང་གཅོད» 69, «སྟོང་གཅོད» 43 (most of them
+  «རྡུལ་ཕྲན་སྟོང་གཅོད», cutting a thousand atoms, another phrase), «སྟངས་བཅད» 23
+  (mostly "posture taken", «འདུག་སྟངས་བཅད»), «བཏང་བཅད» 16 (mostly medical
+  recipes, "given, it stops", another phrase), «གཏང་གཅོད» 12, «སྟང་གཅོད» 10,
+  «བཏང་གཅོད་ཁ་དམར» 17 (the Four Tantras and their commentaries),
+  «བཏངས་གཅོད» 1 (Gyurme Dorje's book only); «སྟང་གཅོད» outside the
+  reckoning mostly political («ཞང་བློན་སྟང་གཅོད», ministers' rulings).
+- 2026-10-22, the etexts: WB's 1996 etext has no «སྟངས་གཅོད», «སྟང་གཅོད»,
+  «བཏངས་གཅོད» or «སྟངས་བཅད» in either volume; the Zhol, second Zhol and
+  Sde dge etexts none either (poor OCR). KD vol. 3's etext has
+  «སྟངས་གཅོད» only in the *Moonbeams*, Kun bzang blo gros's supplement and
+  the sheets, and «བཏང་གཅོད» only in the supplement's verses of the dead
+  (pp. 706–707). Dpal bsdus's *'Byung rtsis dpyad don rmad byung* (I4767)
+  has «བཏང་གཅོད» once (etext p. 216) and «རྣོ་སྟངས་གཅོད», a sharp deciding, twice
+  (pp. 232, 307), no gloss. The *Removing the Tarnish* (I5876) etext: no «སྟངས་གཅོད» and no
+  «བཏང་གཅོད» under that OCR (RD18 found «བཏང་གཅོད» once on its poor p. 16).
+- 2026-10-22, Mipham's own print (I2029, img. 656–676, Yigdzin-1): no
+  «སྟངས་གཅོད».
 
 
 ## Kun dga' rig 'dzin, the writer of the sheets (open question 246)
