@@ -11,7 +11,11 @@ once before the first plan.
 
 1. **Worktree.** Main checkout clean on `main`; `git worktree list`.
    Make `work/readings` as AGENTS.md says and work there.
-2. **Plan.** `python3 tools/sources/schedule.py plan`. Check what it
+2. **Plan.** `python3 tools/sources/kb.py next` first: the readings whose
+   needs are met, ranked by what waits on them, and the chapters with
+   open questions and no reading planned; a chapter worth a reading gets
+   its RD row in the roadmap (topic file `corpus/<siglum>/<chapter>.md`)
+   before the plan. Then `python3 tools/sources/schedule.py plan`. Check what it
    assumed (card, loan) against the rows; rerun with `--gpu`,
    `--no-gpu`, `--agents` if needed. It writes the slot count for
    `schedule.py slot`.
@@ -26,8 +30,10 @@ once before the first plan.
    emulator while they run.
 6. **Each report**: merge `--ff-only work/rd<n>` from the main checkout
    (rebase in its worktree if refused); in `work/readings`: mark the
-   row done only after reading the topic file's section, number its
-   questions into open-questions.md, append its dead ends to PLAN.md,
+   row done only after reading the topic file's section, make each of
+   its questions a file with `python3 tools/sources/pool.py question`
+   (the sources skill; never into open-questions.md any more), append
+   its dead ends to PLAN.md,
    put each change for a build it reports into ROADMAP's T2.28 (an
    owner's decision named there),
    extend docs/sources/wb/README.md's *Images done*; `./gradlew

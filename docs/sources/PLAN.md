@@ -121,6 +121,9 @@ scratch directory, not in the repository:
   each source's pages by the state they were read in, who cites a passage,
   what to read next by what waits on it, full text; `--json` for an agent.
   Run `check` with `SourcesTest` before a reading is marked done.
+- `pool.py stub|passage|claim|question|answer|anchor|split|index` — writing
+  to the pool in its layers, validated against the registry and the index;
+  driven by the `sources` skill (`.claude/skills/sources/SKILL.md`).
 - `bdrc_ocr.py APP setup|run` — BDRC's older app models (CPU, seconds a
   page), a quicker but weaker witness.
 - `score_reading.py TRUTH READING…` and `ocr_bench.py pick|score` — a

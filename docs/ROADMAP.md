@@ -4443,7 +4443,10 @@ Weblate and GitHub, with the owner's accounts:
   and the new shape (built 2026-10-22: the registry, the note, the index
   with `check`, `coverage`, `passage`, `cites`, `questions`, `next`,
   `search`, `orphans`, `graph`; `schedule.py stubs` and `SourcesTest`
-  accept a topic file in a subdirectory). What remains: every new reading
+  accept a topic file in a subdirectory; the same evening `pool.py`, the
+  write side — `stub`, `passage`, `claim`, `question`, `answer`, `anchor`,
+  `split`, `index` — and the `sources` skill as the method, the `readings`
+  skill planning with `kb.py next` and numbering questions as files). What remains: every new reading
   written in the layers; each old topic file split when next touched
   (first step allowed: anchor its passages with ids); then README's Files
   table and *State* column generated from the frontmatter, `SourcesTest`

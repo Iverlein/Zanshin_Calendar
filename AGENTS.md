@@ -18,7 +18,7 @@ hand before working there:
 
 | Working in | Read | Holds |
 | --- | --- | --- |
-| `docs/sources/`, `tools/sources/`, the texts catalog, the `readings` skill | `.agents/rules/sources.md` | Readings: published sources only, naming Tibetan words, the shape of a reading, the knowledge pool, WB above all and no Bon, the reading tools |
+| `docs/sources/`, `tools/sources/`, the texts catalog, the `readings` and `sources` skills | `.agents/rules/sources.md` | Readings: published sources only, naming Tibetan words, the shape of a reading, the knowledge pool, WB above all and no Bon, the reading tools |
 | `app/`, `core/`, `cli/`, `tools/emulator/`, `tools/subset_fonts.py` | `.agents/rules/app.md` | Kanji gloss, font rebuilds, calendar vectors, the emulator tools and emulator-only testing |
 | `fastlane/`, `website/`, `docs/fdroid/`, `app/build.gradle.kts`, `app/proguard-rules.pro`, `README.md` | `.agents/rules/release.md` | Docs on every feature merge in full, screenshots, the website, the GitHub description, the release-build check, releases |
 
@@ -35,7 +35,7 @@ goes into the rule file for its paths, or here when no path catches it.
 | `app/` | Compose UI. Package `zanshin.app`, application id `io.github.iverlein.zanshin`; interface text in `res/values/strings.xml`, translations via Weblate ([docs/weblate.md](docs/weblate.md)); `bell/` the meditation timer and mindfulness bell (SPEC §10.9), and the morning notice on its alarms (§10.5); `widget/` the home-screen widget in two sizes (§10.6). |
 | `fastlane/metadata/android/` | F-Droid store listing per language: texts, icon, screenshots, `changelogs/<versionCode>.txt`. |
 | `website/` | Hugo site, English and Russian, deployed to the VPS by `.github/workflows/website.yml` on pushes to `main`; reads its texts from the `fastlane/` listings. |
-| `docs/sources/` | The knowledge pool behind the readings: one topic per file, growing into the layers of `STRUCTURE.md` (`corpus/`, `claims/`, `questions/`, the registry `sources.yaml`, indexed by `tools/sources/kb.py`), `wb-contents.md`, `PLAN.md` (how to read and record), `PROTOCOL.md` (readings in parallel; the `readings` skill in `.claude/skills/`); `docs/ROADMAP.md` *Readings* lists what is still to be read. |
+| `docs/sources/` | The knowledge pool behind the readings: one topic per file, growing into the layers of `STRUCTURE.md` (`corpus/`, `claims/`, `questions/`, the registry `sources.yaml`, indexed by `tools/sources/kb.py`), `wb-contents.md`, `PLAN.md` (how to read and record), `PROTOCOL.md` (readings in parallel; the `readings` skill in `.claude/skills/`, and `sources`, the method of finding and recording facts in the pool); `docs/ROADMAP.md` *Readings* lists what is still to be read. |
 | `docs/fdroid/` | A copy of the fdroiddata recipe; the app is on F-Droid since 2026-10-02 (SPEC §12). |
 | `tools/` | Python generators (VSOP87 table, city list, font subsets, vector extraction, `release_apks.py`); `tools/sources/` the reading tools; `tools/emulator/` driving the app on the `zanshin-test` emulator. Each is described in its rule file. |
 

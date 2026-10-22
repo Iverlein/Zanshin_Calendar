@@ -97,8 +97,10 @@ next report launches them. So the process is a pool, not fixed waves.
      note of what is left, or a new O… row; its questions numbered on
      from the last one into `open-questions.md`, each with its topic
      file linked, and the "Question:" lines in the topic file replaced
-     by the numbers (a question written as a file under `questions/`
-     keeps its file and gets its number there); its dead ends appended to PLAN.md's *Dead ends*
+     by the numbers: since 2026-10-22 each question becomes a file,
+     `python3 tools/sources/pool.py question --title … --cites … --waits …`,
+     numbered on from the last question anywhere, and `open-questions.md`
+     is not extended; its dead ends appended to PLAN.md's *Dead ends*
      with the date; every change for a build it reports (a list entry
      or a reading the scan reads otherwise) added to the roadmap's
      corrections item, [T2.28](../ROADMAP.md#t2-28), with its row and
@@ -212,7 +214,14 @@ answer judged against the scan, not taken.
 ### 5. The writing
 
 Into the reading's own section of its topic file (the whole file, when
-the file is its alone):
+the file is its alone). **A topic file under `corpus/`** is a corpus file of
+[STRUCTURE.md](STRUCTURE.md): there each passage is written with
+`python3 tools/sources/pool.py passage <id> --title … --state … --tibetan F
+--english F` (its id the printed pages, its state what was really done), the
+facts in our own words as claims with `pool.py claim`, and the points
+below apply to the claims' bodies; the `sources` skill
+(`.claude/skills/sources/SKILL.md`) is the method. In a topic file of the
+old shape:
 
 - each passage in Tibetan script as it reads on the scan, with edition,
   page and image number, and the English beside it, the whole passage
@@ -303,6 +312,8 @@ docs/sources/PLAN.md for how to read. Your worktree is
 ../Zanshin_Calendar-wt/rd<n>, branch work/rd<n>, from main at <hash>.
 Pages: <the row's source cell>.
 Your topic file: <file>; section "<heading>" in <file>.
+[when the topic file is under corpus/:] Your topic file is a corpus file:
+each passage with `pool.py passage`, the facts as claims (the sources skill).
 Resources: <card | etext>, <loan>, <agy>, <best after RDm>. A model
 runs only through `python3 tools/sources/schedule.py slot -- ...`, which
 waits for a free GPU slot. The archive.org loan is <yours | not yours>;
