@@ -48,6 +48,8 @@ AGENT_RSS = 2048         # a subagent's Gradle test run
 VRAM_MARGIN = 1024
 RAM_MARGIN = 4096
 MAX_SLOTS = 4            # more readers than this only share the card's compute
+MIN_AGENTS = 3           # the floor (the owner, 2026-10-22): three readings at once whenever three rows are
+                         # ready and the machine bears three; the plan says why when it launches fewer
 GPU_WORDS = ("img.", "scan", "crop", "box")
 LOAN_WORDS = ("lent", "archive.org")
 
@@ -137,7 +139,8 @@ def print_machine(m):
     print(f"a reader: {READER_VRAM} MiB of the card, {READER_RSS} MiB of RAM, capped at {READER_CAP};"
           f" margins {VRAM_MARGIN} MiB and {RAM_MARGIN} MiB")
     print(f"GPU slots: {m['slots']} (by the card {m['slots_by_vram']}, by RAM {m['slots_by_ram']}, at most {MAX_SLOTS})")
-    print(f"subagents at once: {m['agents']} (the slots, and {AGENT_RSS} MiB of RAM for each one more)")
+    print(f"subagents at once: {m['agents']} (the slots, and {AGENT_RSS} MiB of RAM for each one more); "
+          f"the floor of {MIN_AGENTS} {'holds' if m['agents'] >= MIN_AGENTS else 'does not hold: the machine bears ' + str(m['agents'])}")
 
 
 # --- the plan --------------------------------------------------------------------------------
@@ -231,6 +234,12 @@ def cmd_plan(args):
     print_machine(m)
     print(f"\ndone: {', '.join(sorted(done, key=lambda s: (not s.startswith("RD"), int(re.search(r"\d+", s).group())))) or 'none'}")
     print(f"\nlaunch now ({len(launch)}):")
+    if len(launch) < MIN_AGENTS:
+        ready_n = len(launch) + len(held)
+        why = ("the cap --agents %d" % args.agents if args.agents and args.agents < MIN_AGENTS
+               else "only %d ready: make rows for what `kb.py next` names before launching fewer than %d" % (ready_n, MIN_AGENTS)
+               if ready_n < MIN_AGENTS else "the machine bears %d" % m["agents"])
+        print(f"  fewer than the floor of {MIN_AGENTS} ({why})")
     for r, role in launch:
         print(f"  {r.id:5} {r.name[:60]:60} gates {r.gates}  [{', '.join(role)}]  -> {', '.join(f for f, _ in r.files)}")
     if held:

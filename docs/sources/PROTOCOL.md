@@ -2,7 +2,9 @@
 
 How the open readings of the roadmap's *Readings* table
 ([ROADMAP.md](../ROADMAP.md#rd1)) are run several at a time, as many as
-the machine bears. One session, the **launcher**, picks the readings
+the machine bears and **three at the least** (the owner, 2026-10-22: the
+machine's resources are used in full, never one reading alone while
+another could run beside it). One session, the **launcher**, picks the readings
 that can start, gives each to a subagent of its own, and does the
 bookkeeping that many hands cannot share; the subagents read. The rules
 of reading are [PLAN.md](PLAN.md)'s and are not repeated here. The
@@ -69,6 +71,15 @@ next report launches them. So the process is a pool, not fixed waves.
    card and the loan; rerun with `--gpu`/`--no-gpu`/`--agents` if the
    table's words misled it. The plan writes the slot count to
    `$XDG_RUNTIME_DIR/zanshin-gpu-slots`, which `schedule.py slot` reads.
+   **Three at once is the floor.** The plan launches at least three
+   whenever three rows are ready and the machine bears three
+   (`schedule.py machine` says whether the floor holds; card readings
+   beyond the slots queue on the lock). Fewer than
+   three only when fewer rows are ready, and then not before rows have
+   been made for what `kb.py next` names (the chapters with open
+   questions and no reading planned, the O rows left open), or when the
+   machine cannot hold three, which the report says. `--agents N` below
+   three is for a machine busy with something else, not a habit.
 3. **The stubs.** `schedule.py stubs` gives every new topic file of the
    plan, and every existing file two launched readings share, a section
    per reading, `## <reading> (RDn)`, far enough apart that two
