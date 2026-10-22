@@ -243,6 +243,11 @@ WB's rule for the whole, good, middling or bad with its reasons named
 source, one *Remedy* row as Y1 has it. No number is shown that WB does
 not count. The sections stay as they are, below it.
 
+Built for the marriage match on 2026-10-22 (ROADMAP R4, block 58): the
+kinds of wife read whole, the overruling stated, the remedies gathered;
+not for the birth, whose hundred pebbles and twenty-one children wait on
+open questions 184–185.
+
 ## The readings
 
 RD18–RD28 in the roadmap's *Readings* table, in the order of the ladder:

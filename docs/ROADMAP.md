@@ -113,7 +113,7 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
-| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; the birth's waits on open questions 184–185 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
 ## Readings
 
@@ -3919,7 +3919,20 @@ groups it shows (`tools/emulator/store_shots.py`).
   number WB does not count; the sections below unchanged. First the
   birth (RD19) and the match (RD21), then the year of age (RD20), the
   others as they are built (H2 takes the illness's, RD22). **Done when**
-  as R2… above.
+  as R2… above. **The match's Together built 2026-10-22**
+  (block 58, SPEC §5.9.3): a "Together" section atop the match, its kinds
+  of wife read whole (all four of karma, kin or enmity, or mixed, weighed
+  in general, no count), the bad karma reckoning's overruling stated, and
+  the Remedy rows of every bad or mixed point below gathered into one;
+  family `MatchTogether` (item R3), English and Russian. Checked:
+  `BirthTest`, `CatalogTest`, `:app:testDebugUnitTest`, the emulator in
+  English (a fire dragon man and an earth sheep woman, all of karma, the
+  gathered remedies) and Russian (a water pig man and an earth sheep
+  woman, mixed), the release build (no raw keys). Not built: the birth's
+  Together (the hundred pebbles' board is not built, and the twenty-one
+  children's conditions are open questions 184 and 185), the year of
+  age's beyond Y1's, the karma reckoning reckoned over the match (open
+  question 210).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs

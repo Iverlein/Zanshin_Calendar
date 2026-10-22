@@ -665,6 +665,20 @@ birth years, for a person with a gender and a spouse entered among their
 relatives (the spouse taken as the other sex where theirs is not set).
 `MatchReckoning` (core `tibetan/Match.kt`):
 
+- **Together** (ROADMAP R4, 2026-10-22; [sources/verdicts.md](sources/verdicts.md),
+  RD21): atop the points, the match read whole as WB and its notes read it:
+  the four aspects' kinds of wife (below, *The single match*), all four of
+  karma the best grade, all of kin the middling, all of enmity the last,
+  or mixed, weighed "in general" with no count of kinds (the notes,
+  p. 524; open question 209), with the couple's one pebble over the bad
+  years and the siblings' number; and over the match, that those whose
+  life or vitality is spent, the chronically ill, the poor, those in
+  danger of ill speech and those of bad karma are bad even when it agrees
+  (WB p. 364; the notes, p. 526), stated, not reckoned (open question
+  210). Its Remedy row gathers the Remedy rows of every bad or mixed
+  point shown below (`MatchReckoning.together`, `MatchWhole`, family
+  `MatchTogether`).
+
 - **The years** (pp. 351–354): two spouses of the same kind of year by
   destiny against life force (*kha yan*, *khong nong*, *se zhig*, *kha
   ral*, *'dun khur*, §5.9.2) are not joined, each kind with its harm and
@@ -3521,7 +3535,10 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   by one as R2… (ROADMAP R), in the order of the inventory (RD11, RD17);
   `Reckoning` in the app lists them.
 - **The marriage match** (§5.9.3): Back, the title and the person's
-  name; the man's and the woman's birth years; under "The years" the
+  name; the man's and the woman's birth years; under "Together" the match
+  together ("The match together · kinds mixed · a wife of karma · luck ·
+  a wife of kin · vitality, destiny"), its sheet with the remedies of the
+  points below gathered; under "The years" the
   same kind ("Both of one kind · life force and destiny one"), the same
   animal ("Both of one animal · Dragon") and the same element ("Both of
   one element · Fire · a male and a female year"), each named list of
