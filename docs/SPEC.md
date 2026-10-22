@@ -648,10 +648,28 @@ on the scan that follow from the years alone. `BirthReckoning`
   reading (*mtha' rtsis*, pp. 284–286). `BirthTest` holds the table. It
   needs no relative: without the mother's year the clan is still read.
 
-**Not calculated** yet: the pebbles of the birth (the pebble of the time, the
-five of unchanging luck, the hundred, the rise and decline, the decisive
-twenty, pp. 259–262), whose colours and readings past p. 262 are not
-read on the scan; the line of births' other counts; the readings of p. 326 that need the order of
+- **The hundred pebbles** (*rgya 'dre*, pp. 261, 329–331, with the notes'
+  colour rule, vol. 2, p. 475; the board from Kun dga' rig 'dzin's worked
+  sheet, KD vol. 3, pp. 716–718, [sources/claims/birth-hundred-board.md](sources/claims/birth-hundred-board.md)):
+  the five unchanging lucks, top to bottom, the father's year (for a
+  daughter the mother's), the mother's progressed sign at the birth, the
+  natal trigram, the natal mewa and the birth month, each by the same
+  aspect's element of it, met by the life force, body, destiny and luck,
+  each split into its own element and that element's mother, son, friend
+  and enemy: five rows of twenty, one pebble a cell, white where the
+  row's element is the column's mother or friend, black for its son or
+  enemy, the same element black for fire, iron and wood and white for
+  earth and water (`BirthReckoning.hundred`, `Hundred`). Under each
+  column the deciding pebble, the greater of its five, with its reading
+  of pp. 329–331 for its colour; a white enemy pebble is the bad one, and
+  each row's tone says which. The board is drawn as the sheet lays it
+  (○ ×), the deciding row below a rule in good and bad colours, with the
+  five lucks named; the twenty deciding pebbles follow, each opening its
+  reading with WB's remedy where it gives one. It needs the person's
+  gender and, for a son, the father's year. The sheet's own birth is
+  `BirthTest`'s vector, cell by cell.
+
+**Not calculated** yet: the pebble of the time (p. 261); the line of births' other counts; the readings of p. 326 that need the order of
 the siblings or end "and the like" (an earlier child on li and a later
 on khen; mother and child on enemy trigrams); the five by the year
 (p. 347), another count of the same five, not shown beside p. 294's.
@@ -3616,8 +3634,14 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   asking for the clan, shown also when the mother's year is missing;
   under "The parents' trigrams" each reading that holds, or a line that
   none does, with notes asking for the gender and the father's birth year
-  where they are missing; a closing note on what of the reckoning is
-  reckoned. Each row opens its reading, whose workings give the life
+  where they are missing; under "The hundred pebbles" the board, a
+  header of the four aspects over five rows of twenty ○ ×, a rule, and
+  the twenty deciding pebbles in good and bad colours, then the five
+  lucks numbered ("2 · the mother's progressed sign · Iron Horse"), a
+  line on the rows and columns, and the twenty deciding pebbles as rows
+  ("Vitality · own · white", "water · 4 white, 1 black"), or a line
+  asking for the gender and a son's father's year; a closing note on
+  what of the reckoning is reckoned. Each row opens its reading, whose workings give the life
   force, the trigram and its element, a demon's age, both parents'
   trigrams and years and the one born. Without the mother's birth year,
   a line that the birth is reckoned from her trigram and the way to
