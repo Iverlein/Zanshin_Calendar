@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD34 (2026-10-23): WB vol. 2, pp. 94–104 and 126–128, on the Gser thang reprint where marked; the notes' pp. 519–522 in [notes-4.md](notes-4.md).
+
 ## <a id="wb-2-p94-96"></a>wb.2:p94-96 The twelfth examination: how long the remains are kept, and the ten roads
 
 *Read: machine, 2026-10-23.*

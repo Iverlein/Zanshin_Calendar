@@ -924,3 +924,12 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, the notes give no identification for the la pebbles' general-verdict images ("not seen in the commentary and the like"; WB vol. 2, p. 502): they are judged from the board's shape only.
   - 2026-10-23, the six lamps' inputs (earlier dead with their dates, ages, causes and places of death; the living's journeys) are not among the reckoning's ten roots in WB or the notes, pp. 499–503.
   - 2026-10-23, agy for single crops: `agy_read.py` hard-codes "Gemini 3.1 Pro (High)", which agy no longer offers (it lists Gemini 4 Argon, Gemini 3.8 Flash); no crop was read.
+- **The third examination of the dead in the notes (WB vol. 2, pp. 499–522)** (RD31, 2026-10-23):
+  - 2026-10-23, Mipham's notes, section 4 (pp. 499–522, etext), searched for ཟ་འདྲེ, ཐོད, ཞག་དུས and the weekday states: only the sentence of p. 503 (wb.2:p503b) treats the third examination; no gloss of the eating demon, the skulls, or a weekday's dar, gud, zhud and gyod. The heart-crushings (སྙིང་འགྲམ) are explained only under the thirteenth examination (pp. 506–507).
+- **Rāhu and the assembly reckoning in the dead's twelfth and fourteenth examinations** (RD34, 2026-10-23):
+  - 2026-10-23, Rāhu in the twelfth examination's own text: «ཁྱབ་འཇུག», «སྒྲ་གཅན», «རཱ་ཧུ» searched in the etext and the Yigdzin-1 and MITRA readings of WB vol. 2, pp. 94–104, and p. 97 read by eye on the Gser thang reprint. Not found, although the sizes on p. 50 count Rāhu's twelve result pebbles.
+  - 2026-10-23, «ཁྲོམ་རྩིས» in the etexts of both WB volumes: only p. 126 and p. 451's list of works. No text of the eighty-chapter assembly reckoning was found.
+- **The rites' colours in the dead's thirteenth examination (WB vol. 2, pp. 104–126)** (RD35, 2026-10-23):
+  - 2026-10-23, WB vol. 2, pp. 104–126 read through on the Gser thang reprint: no line ties the white, speckled or black rite to the colour of the thirteenth point's verdict, nor says which colour asks for great or small rites.
+- **The thirty's fighting pebbles and checks (WB vol. 1, ch. 26)** (RD37, 2026-10-23):
+  - 2026-10-23, WB ch. 26 (pp. 453–472) and the notes' pp. 532–533 searched for a statement pairing the eight fighting pebbles of p. 453 with each point's eight checks: none; the only link is the notes' grouping of the checks into upper, lower and middle.

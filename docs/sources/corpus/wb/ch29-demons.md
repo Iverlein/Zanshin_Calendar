@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD31 (2026-10-23): WB vol. 2, pp. 58–68, on the Gser thang reprint; the notes' p. 503 in [notes-4.md](notes-4.md).
+
 ## <a id="wb-2-p58-60"></a>wb.2:p58-60 The third examination by the dead's year animal
 
 *Read: scan, 2026-10-23.*

@@ -224,6 +224,31 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | open; cites wb.2:p70-72 |
 | [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | open; cites wb.2:p70-72 |
 | [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
+| [questions/q0282.md](questions/q0282.md) | question q282 | How the death day's planet's state is found | open; cites wb.2:p63-65 |
+| [questions/q0283.md](questions/q0283.md) | question q283 | «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended | open; cites wb.2:p503b |
+| [questions/q0284.md](questions/q0284.md) | question q284 | «སྤྲོ» for U. Phalgunī among the mansions | open; cites wb.2:p65-66 |
+| [questions/q0285.md](questions/q0285.md) | question q285 | The months of the day's-animal entries | open; cites wb.2:p63 |
+| [questions/q0286.md](questions/q0286.md) | question q286 | «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry | open; cites wb.2:p65-66 |
+| [questions/q0287.md](questions/q0287.md) | question q287 | Objects and rites of the third examination left unexplained | open; cites wb.2:p58-60, wb.2:p60-62, wb.2:p63-65, wb.2:p65-66, wb.2:p66-68 |
+| [questions/q0288.md](questions/q0288.md) | question q288 | «གནམ་གྱི་བྱི་ལམ» or «བྱ་ལམ»: the sky's road | open; cites wb.2:p94-96 |
+| [questions/q0289.md](questions/q0289.md) | question q289 | The five parts of each direction on the grid of the sun and moon | open; cites wb.2:p96-97 |
+| [questions/q0290.md](questions/q0290.md) | question q290 | «ས་བདག་ཁྲུ་ལུ» and the khar bu of p. 224 | open; cites wb.2:p96-97 |
+| [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | open; cites wb.2:p97-100, wb.2:p126-128 |
+| [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | open; cites wb.2:p126-128 |
+| [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | open; cites wb.2:p104 |
+| [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | open; cites wb.2:p104 |
+| [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | open; cites wb.2:p112 |
+| [questions/q0296.md](questions/q0296.md) | question q296 | The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 | open; cites wb.2:p122 |
+| [questions/q0297.md](questions/q0297.md) | question q297 | Mipham's thirteen remedy classes against the chapter's twelve | open; cites wb.2:p517 |
+| [questions/q0298.md](questions/q0298.md) | question q298 | The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ» | open; cites wb.2:p109-111, wb.2:p111-112, wb.2:p517 |
+| [questions/q0299.md](questions/q0299.md) | question q299 | The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan | open; cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114 |
+| [questions/q0300.md](questions/q0300.md) | question q300 | The five clans of the strikes, p. 114 | open; cites wb.2:p112-114, wb.2:p114-115 |
+| [questions/q0301.md](questions/q0301.md) | question q301 | How the thirty's count runs through the years | open; cites wb.1:p453-454, wb.2:p532-533 |
+| [questions/q0302.md](questions/q0302.md) | question q302 | The thirty pairs and the thirty readings in one order | open; cites wb.1:p453-454, wb.1:p454, wb.2:p532-533 |
+| [questions/q0303.md](questions/q0303.md) | question q303 | Whose year serves for the son and bride and the points the notes pass over | open; cites wb.2:p532-533 |
+| [questions/q0304.md](questions/q0304.md) | question q304 | The thirty's 241st pebble | open; cites wb.1:p453-454 |
+| [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454 |
+| [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
 
 <!-- end pool index -->
 
