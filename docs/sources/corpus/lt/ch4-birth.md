@@ -14,7 +14,16 @@ bzhi pa) sets out the practice of the life reckoning (ཚེ་རྩིས་�
 rtsis kyi lag len). A modern work (2003): quoted no further than its facts
 need (README, *How the files quote*). BDRC's etext (VEIE0OPI9C5B1B35_I1KG21886,
 "excellent quality"; printed page = etext page − 8), read 2026-10-22 for open
-questions 184 and 185; the scans were not read.
+questions 184 and 185; the scans were not read. RD45 (2026-10-23) added the clan element's
+twelve years for the five clans, pp. 26–28, from the same etext.
+
+## <a id="lt-p26-28"></a>lt:p26-28 The clan element's twelve years for each of the five clans
+
+*Read: scan, 2026-10-23.*
+
+> …དེ་ཡང་ས་ཁམས་ཀུངས་ཡིན་ན། ། ཆད་ཆེན་འབྲུག་ལ་ཆད་ཆུང་ནི། ། ཁྱི་ཡིན་དབང་ལོ་གླང་ལུག་གཉིས། ། རྟ་སྦྲུལ་མ་ལ་བྱ་སྤྲེལ་ནི། ། བུ་ཡིན་བྱི་ཕག་གཉིས་པོ་གྲོགས། །སྟག་ཡོས་གཉིས་པོ་དགྲ་ཡིན་ནོ། །ཇི་མེར་ཁྱི་འབྲུག་ཆད་ཆེ་ཆུང༌། །དབང་ལོ་རྟ་སྦྲུལ་སྟག་ཡོས་མ། ། གླང་ལུག་བུ་ལ་བྱ་སྤྲེལ་གྲོགས། །བྱི་ཕག་གཉིས་ནི་དགྲ་ཡིན་ནོ། །ཀེག་ཤིང་ལ་ནི་ཆད་ཆེན་ལུག།ཆད་ཆུང་གླང་ལ་སྟག་ཡོས་དབང་། །བྱི་ཕག་མ་ལ་རྟ་སྦྲུལ་བུ། །ཁྱི་འབྲུག་གྲོགས་ལ་བྱ་སྤྲེལ་དགྲ། །འུ་ཆུ་ཁམས་པར་ཆད་ཆེན་འབྲུག ། ཆད་ཆུང་ཁྱི་ལ་བྱི་ཕག་དབང་། །བྱ་སྤྲེལ་མ་ལ་སྟག་ཡོས་བུ།།རྟ་སྦྲུལ་གྲོགས་ཡིན་གླང་ལུག་དགྲ། །ཤངས་ལྕགས་ཁམས་པར་ཆད་ཆེན་གླང་། ། ཆད་ཆུང་ལུག་ལ་བྱ་སྤྲེལ་དབང་། །ཁྱི་འབྲུག་མ་ལ་བྱི་ཕག་བུ། །སྟག་ཡོས་གྲོགས་ཡིན་རྟ་སྦྲུལ་དགྲ། …
+
+LT's fourth branch, the special pebble (སྒོས་རྡེལ, sgos rdel) of the birth's reckoning: whichever of the clan element's great cut-off, small cut-off, mother year, son year, friend year and enemy year the birth falls on (etext pp. 35–36, printed pp. 27–28). The lines quoted were read 2026-10-23 on BDRC's scan (I1KG21886, image = printed page + 8: img. 034–036) at full size against the etext: the scan has «ཆད་ཆེན་འབྲུག་ལ» (etext «ལོ») and «ཆད་ཆེན་གླང» (etext «གླིང»). The clan elements are named by the clans: earth *kungs*, fire *ji*, wood *keg*, water *'u*, iron *shangs*. Earth: great cut-off the dragon year, small the dog; power years ox and sheep; mother horse and snake; son bird and monkey; friend rat and pig; enemy tiger and hare. Fire: dog and dragon the great and small cut-off; power horse and snake; mother tiger and hare; son ox and sheep; friend bird and monkey; enemy rat and pig. Wood: great cut-off the sheep, small the ox; power tiger and hare; mother rat and pig; son horse and snake; friend dog and dragon; enemy bird and monkey. Water: great cut-off the dragon, small the dog; power rat and pig; mother bird and monkey; son tiger and hare; friend horse and snake; enemy ox and sheep. Iron: great cut-off the ox, small the sheep; power bird and monkey; mother dog and dragon; son rat and pig; friend tiger and hare; enemy horse and snake. The same branch lays the pebbles «ཆད་ཆེན་ལ་ནི་ནག་པོ་གསུམ། … མ་ལོ་དཀར་གསུམ་དབང་ལོ་གཉིས། །བུ་ལོ་དཀར་གཅིག་གྲོགས་ལོ་ཕྱེད། །དགྲ་ལོ་ནག་པོ་གསུམ་དུ་བཞག» (etext p. 34): three black at the great cut-off, two black at the small, three white at the mother year, two at the power year, one white at the son year, half and half at the friend year, three black at the enemy year.
 
 ## <a id="lt-p27-29"></a>lt:p27-29 The hundred, as the reckoning is laid
 

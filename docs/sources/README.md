@@ -99,6 +99,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/circle-13-livestock.md](claims/circle-13-livestock.md) | claim, table | The circles: the thirteenth, the wild yak, for livestock | cites wb.2:p13, wb.2:p533b; feeds block-31 |
 | [claims/circles-colour-rule.md](claims/circles-colour-rule.md) | claim, rule | The circles: the rule of colour, the son black | cites wb.2:p3; feeds block-31 |
 | [claims/circles-count.md](claims/circles-count.md) | claim, rule | The circles: the starting point, the count and the five pebbles | cites wb.2:p3, wb.2:p3-4, wb.2:p10-11, wb.2:p533b; feeds block-31 |
+| [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
+| [claims/dead-burial-root-pebbles.md](claims/dead-burial-root-pebbles.md) | claim, rule | The dead's burial reckoning: eleven root pebbles of time, the mewa and trigram among them | cites dz:i057-061; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-outer.md](claims/dead-cause-outer.md) | claim, table | The second examination: the outer reason by the four deciding pebbles and the elements | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
@@ -132,6 +134,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-la-specific-verdict.md](claims/dead-la-specific-verdict.md) | claim, table | The la pebbles' specific verdict: empty and filled places | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-life-cut-by-day-animal.md](claims/dead-life-cut-by-day-animal.md) | claim, table | The day's animal of death: the month the life was cut | cites wb.2:p63; feeds block-31, R2 |
 | [claims/dead-living-twenty-one.md](claims/dead-living-twenty-one.md) | claim, rule | The living household: each living member's twenty-one pebbles | cites wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-living-twenty-pebbles.md](claims/dead-living-twenty-pebbles.md) | claim, rule | The living's twenty pebbles in the dead's reckoning: descended mewa and birth mewa | cites dz:i055-057, wb.2:p499-500; feeds block-31 |
 | [claims/dead-mewa-copper-vessel.md](claims/dead-mewa-copper-vessel.md) | claim, table | The mewa's copper vessel: the household's birth mewa | cites wb.2:p54-55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-old-kinds-by-age.md](claims/dead-old-kinds-by-age.md) | claim, table | The nine kinds of old men and of old women by age at death | cites wb.2:p77-80; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-old-not-made.md](claims/dead-old-not-made.md) | claim, rule | Who is not made an old one, and the Clear Lamp's kinds | cites wb.2:p77-80, wb.2:p80-82; feeds SPEC §5.9.4, block-31 |
@@ -160,7 +163,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-strike-nine-eye.md](claims/dead-strike-nine-eye.md) | claim, table | The nine-eye strike by the dead's age | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-wrong-deeds.md](claims/dead-strike-wrong-deeds.md) | claim, rule | The strike of wrong deeds, and who the strikes reach | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-third-examination-inputs.md](claims/dead-third-examination-inputs.md) | claim, rule | The third examination's inputs: the dead's year, the death year's trigram and mewa, day, weekday, mansion, hour | cites wb.2:p58-60, wb.2:p503b; feeds block-31, R2 |
+| [claims/dead-trigram-descended.md](claims/dead-trigram-descended.md) | claim, rule | UT reads the dead's descended trigram | cites ut:p69-70; feeds block-31 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
+| [claims/dz-dead-board-rows.md](claims/dz-dead-board-rows.md) | claim, rule | The Moonbeams' board of the living out of the dead: four rows by kin, five columns by age and sex | cites dz:i061-063, wb.2:p52-54; feeds block-31 |
+| [claims/earth-four-executioners.md](claims/earth-four-executioners.md) | claim, note | The four executioners and the four earth years | cites ut:p56, lt:p26-28, wb.2:p499-500, wb.2:p52-54; feeds block-31 |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
@@ -174,10 +180,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/household-round-zigzag.md](claims/household-round-zigzag.md) | claim, rule | The household round: the order of taking, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
 | [claims/illness-board-three-fives.md](claims/illness-board-three-fives.md) | claim, rule | The illness board's three five-rows: man, woman, children | cites wb.1:p422-423, wb.1:p423, wb.2:p495; feeds block-32 |
 | [claims/illness-death-verdict.md](claims/illness-death-verdict.md) | claim, rule | The illness reckoning's last verdict: death or not; the five people | cites wb.1:p445, wb.2:p497-499; feeds block-32 |
+| [claims/illness-heads-years-lived.md](claims/illness-heads-years-lived.md) | claim, rule | The plank-tree's heads count the years lived from fixed signs | cites dz:i052-055, lt:p43-44, wb.2:p171-172; feeds block-32, block-31 |
 | [claims/illness-mewa-of-onset.md](claims/illness-mewa-of-onset.md) | claim, table | The mewa of falling ill: illness, spirits, ransom and the spirit's kind | cites wb.1:p431-433, wb.1:p433-435; feeds block-32 |
 | [claims/illness-nineteen-pebbles.md](claims/illness-nineteen-pebbles.md) | claim, rule | The nineteen pebbles of the sick | cites wb.1:p445-447, wb.2:p497-499; feeds block-32 |
 | [claims/illness-plank-trees.md](claims/illness-plank-trees.md) | claim, table | The illness reckoning: the four plank-trees read | cites wb.1:p422-423; feeds block-32 |
 | [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
+| [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
 | [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md) | claim, rule | The karma reckoning over the match is each spouse's birth reckoning | cites wb.1:p364, wb.2:p526, wb.2:p474, wb.2:p478, wb.2:p489, wb.1:p261; feeds block-58 |
@@ -191,12 +199,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-thirteen-gates.md](claims/moment-thirteen-gates.md) | claim, table | The thirteen gates of the General Tantra of Brahmā | cites wb.2:p170-171; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-three-mewa.md](claims/moment-three-mewa.md) | claim, table | The three mewa joined and the nine eyes | cites wb.2:p165; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
+| [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-places-not-allowed.md](claims/remains-places-not-allowed.md) | claim, table | The twenty-six places not allowed even if clean | cites wb.2:p104; feeds block-31 |
 | [claims/remains-roads.md](claims/remains-roads.md) | claim, list | The remains are sent after four days, checked by ten roads | cites wb.2:p94-96, wb.2:p96-97; feeds block-31 |
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
+| [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -234,10 +244,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
-| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the household round and the birth's hundred | 2 passages: 2 scan |
+| [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
+| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the household round, the birth's hundred, the sick and the dead | 7 passages: 7 scan |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
-| [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
+| [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
+| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 5 passages: 5 scan |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
+| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 3 passages: 3 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 32 passages: 16 scan, 16 machine |
