@@ -944,3 +944,9 @@ Searched and found wanting, so not to be repeated:
 - **The match's grave and in-law words, and a name for mixed kinds** (RD42, 2026-10-23):
   - 2026-10-23, WB's etext of both volumes and the notes: «ཤིད་དུར» only at the notes p. 526 (and «གཤིད་དུར» at WB p. 354, «ཕན་ཚུན་རང་དུར་གཤིད་དུར་ཐུག», glossed by the notes p. 524 as «རང་དུར་དུར་གཤེད»); «གནས་སྐྱུག» or «གནས་སྒྱུག» only at WB p. 362, the notes p. 526 and ch. 30 p. 152; no gloss of «དགྲ་དུར» in point 10 itself, only the notes' gloss of the same compound in the household reckoning (p. 478).
   - 2026-10-23, the pages read (WB pp. 355, 358, 360, 362, 364; the notes pp. 524–526): no rule that turns a match of mixed kinds into one name.
+- **The illness reckoning's nineteen pebbles and p. 425's labels** (RD41, 2026-10-23):
+  - 2026-10-23, WB vol. 1, pp. 445–447, and the notes, vol. 2, pp. 497–499: no worked example of the nineteen pebbles laid, and no count of white and black that names their verdict beyond "good and smooth white, rough and bad black" and the readings pebble by pebble; the date's pebble has no reading in WB (the notes send it to the goddesses).
+  - 2026-10-23, the notes, vol. 2, pp. 495–499: no gloss of p. 425's labels «ཁྲ་བོའི་དཀར་པོ» and the like (open question 230) and none of «ལྔ་སུམ་གཅིག».
+- **Ch. 27 in Mipham's notes** (RD38, 2026-10-23):
+  - 2026-10-23, a note on ch. 27's small reckonings in Mipham's section eight (vol. 2, pp. 535–538 read whole on the reprint, I3CN5029 img. 541–544): none; the section glosses ch. 30's moment and ch. 28's omens and closes the notes. Its only words on the circles are section seven's (p. 533).
+  - 2026-10-23, a worked example of any circle (ch. 27 and the notes, pp. 533–538): none.

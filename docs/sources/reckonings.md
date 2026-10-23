@@ -41,8 +41,13 @@ img. 427, read on the scan):
 Lay a white pebble where the element meets its mother or its friend, a
 black one where it meets its enemy, a white and a black where it meets
 its son; where it meets its own element, white for earth and water,
-black for wood, iron and fire. Ch. 27 opens with the same rule (vol. 2,
-p. 3, img. 11, read on the scan).
+black for wood, iron and fire. Ch. 27 opens with a rule of its own (vol. 2,
+p. 3, read on the Gser thang reprint, I3CN5029 img. 9, ll. 10–11, by RD38,
+2026-10-23): «འདི་ཡང་རྡེལ་བོར་མ་གྲོགས་དང་། །ས་ཆུ་ནང་ཕྲད་དཀར་པོ་སྟེ། །བུ་དགྲ་ཤིང་ལྕགས་མེ་གསུམ་པོ། །ནང་ཕྲད་ནག་པོ»,
+mother and friend, and earth and water meeting themselves, white; son and enemy,
+and wood, iron and fire meeting themselves, black: the son one black pebble, as
+the notes lay him in the birth's hundred (p. 475), not a white and a black
+([corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p3)).
 
 So the answer to R1's question "what is a casting" is: within ch. 20–30
 no reckoning is decided by chance, as Mo is (one exception: ch. 25's p. 442 gives a second way for the twelve stages that is a pebble cast, *mo*; [health.md](health.md), RD12). What a reckoning cannot

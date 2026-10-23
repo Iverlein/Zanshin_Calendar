@@ -2683,15 +2683,18 @@ the text, not about the app.
      sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»? [verdicts.md](verdicts.md), "The
      verdicts of the dead, the thirty, the circles and the moment"
      (RD23).
+     *Answered 2026-10-23 (RD38, [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22-23)): the Gser thang reprint reads «རྐང་གྲངས» (img. 28, l. 23).*
 219. **«དུས་མིག» or «རུས་མིག» (WB vol. 2, p. 22, l. 27; p. 23, l. 8).**
      Which is the limb's name, «དུས་མིག» or «རུས་མིག»? The ད/ར cannot be
      told on this scan; WBZ and the other prints were not checked.
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
+     *Answered 2026-10-23 (RD38, [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22-23)): the reprint reads «རུས་མིག» at both places (img. 28, l. 26; img. 29, l. 8), the ra set against the da of «དུར» beside it.*
 220. **«ཁྱུད་སྐོར» (WB vol. 2, p. 23, l. 2).**
      «སོ་སོའི་དར། ཁྱུད་སྐོར»: is «ཁྱུད» a slip for «གུད», the rounds of
      rise and decline? [verdicts.md](verdicts.md), "The verdicts of the
      dead, the thirty, the circles and the moment" (RD23).
+     *Answered 2026-10-23 (RD38, [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22-23)): the print reads «སོ་སོའི་དར་གུད་སྐོར», each one's round of rise and decline, not «དར། ཁྱུད» (img. 29, l. 2).*
 221. **«སྐབ» or «སྒབ» on p. 104 (WB vol. 2, p. 104, ll. 27–28).**
      «ཤི་འགྲམས་སྐབ» and «སྤར་ཁའི་སྐབ»: is the print's «སྐབ» the «སྒབ» of
      p. 55, «ཤི་སྒབ», the run of deaths? (Compare question 175.)

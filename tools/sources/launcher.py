@@ -35,6 +35,7 @@ import tempfile
 from pathlib import Path
 
 CONF = re.compile(r"^<<<<<<< [^\n]*\n(.*?)^=======\n(.*?)^>>>>>>> [^\n]*\n", re.S | re.M)
+NUMBERED = re.compile(r"^- Question \d+ \(\[q\d+\]\([^)]*\)\): ")
 PASSAGE = re.compile(r"^## <a id=\"[^\"]+\"></a>\S+?:[pi](\d+)(?:-(\d+))?", re.M)
 INTRO = "text's order, each under its id, with its `*Read:*` line.\n"
 def main_checkout():
@@ -71,7 +72,12 @@ def _corpus(m):
         head = p.splitlines()[0]
         if head in seen and not head.startswith("## <a"):
             i = seen[head]
-            out[i] = out[i].rstrip("\n") + "\n" + "\n".join(p.splitlines()[1:]).strip("\n") + "\n\n"
+            have = out[i].splitlines()
+            numbered = {NUMBERED.sub("", l).lower() for l in have if NUMBERED.match(l)}
+            add = [l for l in p.splitlines()[1:] if l not in have
+                   and not (l.startswith("- Question: ") and l[12:].strip().lower() in numbered)]
+            if add:
+                out[i] = out[i].rstrip("\n") + "\n" + "\n".join(add).strip("\n") + "\n\n"
             continue
         seen[head] = len(out)
         out.append(p.rstrip("\n") + "\n\n")

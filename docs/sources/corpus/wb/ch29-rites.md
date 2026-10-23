@@ -436,4 +436,6 @@ Further, even where it reckoned well above, if the corpse's force and the later 
 - Question 298 ([q0298](../../questions/q0298.md)): The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ».
 - Question 299 ([q0299](../../questions/q0299.md)): The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan.
 - Question 300 ([q0300](../../questions/q0300.md)): The five clans of the strikes, p. 114.
-- Question: WB vol. 2 carves «བསྒྲུབ» in the list of the five graves, «སྲེག་སྐྱེལ་སྦ་ཞིང་བསྒྲུབ» (p. 124, l. 23), and again in «བསྒྲུབ་ཏུ་མི་རུང་བསྒྲུབ་པ་ན» (p. 125, l. 12), where the five graves of p. 74 want sinking (བསྣུབ). Is «བསྒྲུབ» a misprint for བསྣུབ, or another name for that grave (wb.2:p124-125)?
+- Question 333 ([q0333](../../questions/q0333.md)): «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth.
+- Question 334 ([q0334](../../questions/q0334.md)): the word read «ལྷང» on p. 106.
+- Question 370 ([q0370](../../questions/q0370.md)): WB vol. 2 carves «བསྒྲུབ» in the list of the five graves, «སྲེག་སྐྱེལ་སྦ་ཞིང་བསྒྲུབ» (p. 124, l. 23), and again in «བསྒྲུབ་ཏུ་མི་རུང་བསྒྲུབ་པ་ན» (p. 125, l. 12), where the five graves of p. 74 want sinking (བསྣུབ). Is «བསྒྲུབ» a misprint for བསྣུབ, or another name for that grave (wb.2:p124-125)?

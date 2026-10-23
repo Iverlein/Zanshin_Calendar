@@ -249,7 +249,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 5 scan, 1 machine |
-| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 12 scan, 7 machine |
+| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 2 passages: 2 scan |
@@ -359,6 +359,19 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
 | [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | open; cites wb.2:p526 |
 | [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | open; cites wb.1:p355 |
+| [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | open; cites wb.1:p445-447, wb.1:p445 |
+| [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
+| [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | open; cites wb.1:p428-429 |
+| [questions/q0361.md](questions/q0361.md) | question q361 | The sky year of p. 426's table | open; cites wb.1:p425-426, wb.1:p426-427 |
+| [questions/q0362.md](questions/q0362.md) | question q362 | The time «མྱུར་སྨད» of sending the ransoms | open; cites wb.1:p431-433, wb.1:p443-444 |
+| [questions/q0363.md](questions/q0363.md) | question q363 | The la's wandering of the snake and horse, the rat and pig | open; cites wb.2:p16 |
+| [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | open; cites wb.2:p20 |
+| [questions/q0365.md](questions/q0365.md) | question q365 | For whom the four reckonings of «བརྗེ» are | open; cites wb.2:p23-25 |
+| [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | open; cites wb.2:p9, wb.2:p17 |
+| [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | open; cites wb.2:p10-11 |
+| [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
+| [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | open; cites wb.2:p3-4 |
+| [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125 |
 
 <!-- end pool index -->
 

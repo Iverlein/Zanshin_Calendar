@@ -105,6 +105,3 @@ All of it must be known: for any work of the living or the dead, done by the rec
 - Question 352 ([q0352](../../questions/q0352.md)): On p. 538, is the gold reckoning's grid «རྒྱ་ཁང» (Yigdzin-1) or «གྱོ་ཁང» (the etext, question 125)? The Gser thang reprint is not clear.
 - Question 353 ([q0353](../../questions/q0353.md)): In the hand reckoning (pp. 538–539), what are the watch (ཐུན, thun) and the *kung* (the scan «ཐུན་ཀུང», Yigdzin-1 «ཐུན་ཀླུང») counted after the year, and what do the results *mung*, *krung* and *kyis* mean?
 
-- Question: The thirty *'bri wang* (or *brda than*, p. 538): what are the thirty, in order, from the starting emblems the note gives (father tortoise, treasury of wealth, blue water dragon, white monkey carrying fire, Chinese dog-headed horn-skull, reed-bamboo comb, peacock with crossed necks, nāga face), and which text gives their results ("as the text says")?
-- Question: On p. 538, is the gold reckoning's grid «རྒྱ་ཁང» (Yigdzin-1) or «གྱོ་ཁང» (the etext, question 125)? The Gser thang reprint is not clear.
-- Question: In the hand reckoning (pp. 538–539), what are the watch (ཐུན, thun) and the *kung* (the scan «ཐུན་ཀུང», Yigdzin-1 «ཐུན་ཀླུང») counted after the year, and what do the results *mung*, *krung* and *kyis* mean?
