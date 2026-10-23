@@ -152,6 +152,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/household-round-member-pebbles.md](claims/household-round-member-pebbles.md) | claim, conflict | The household round: each member's four deciding pebbles, not the year's four meetings | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
 | [claims/household-round-places.md](claims/household-round-places.md) | claim, table | The household round: the readings of each place by colour | cites wb.1:p385-387; feeds block-58, R4 |
 | [claims/household-round-zigzag.md](claims/household-round-zigzag.md) | claim, rule | The household round: the order of taking, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
+| [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-eight-places.md](claims/moment-eight-places.md) | claim, table | The moment's eight places: house, field, grave and one's own place | cites wb.2:p166, wb.2:p167-168; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-mewa-kin.md](claims/moment-mewa-kin.md) | claim, table | The moment's mewa in the centre: kin's places and the forefathers' readings | cites wb.2:p163-164, wb.2:p162-163; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-mewa-spirits.md](claims/moment-mewa-spirits.md) | claim, table | The moment's mewa as spirits claiming their share | cites wb.2:p164-165; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-sixty-pairs.md](claims/moment-sixty-pairs.md) | claim, table | The ogre's, the demon's and the sixty-year counts cut by the moment | cites wb.2:p171-172, wb.2:p172-173; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-thirteen-gates.md](claims/moment-thirteen-gates.md) | claim, table | The thirteen gates of the General Tantra of Brahmā | cites wb.2:p170-171; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-three-mewa.md](claims/moment-three-mewa.md) | claim, table | The three mewa joined and the nine eyes | cites wb.2:p165; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-places-not-allowed.md](claims/remains-places-not-allowed.md) | claim, table | The twenty-six places not allowed even if clean | cites wb.2:p104; feeds block-31 |
@@ -212,14 +220,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 5 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 12 scan, 7 machine |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
-| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
+| [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 1 passages: 1 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 2 passages: 2 scan |
-| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
+| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 4 passages: 3 scan, 1 machine |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
