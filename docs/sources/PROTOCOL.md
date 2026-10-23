@@ -98,6 +98,8 @@ next report launches them. So the process is a pool, not fixed waves.
    prompt. Then wait; nothing is built from this session meanwhile, so
    the emulator and the build stay free for other sessions.
 6. **On each report**, in the order they arrive:
+   The mechanical part of what follows is `tools/sources/launcher.py`
+   (`merge`, `bookkeep`, `resolve`); judging the report stays the launcher's.
    - **Merge**: from the main checkout, `git merge --ff-only work/rd<n>`.
      A refusal means `main` moved: rebase in that subagent's worktree
      keeping both sides, run `SourcesTest` there, merge again.

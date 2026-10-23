@@ -31,11 +31,16 @@ once before the first plan.
 5. **Launch** each prompt as a background general-purpose subagent, one
    per reading, all at once. Do nothing else that builds or uses the
    emulator while they run.
-6. **Each report**: merge `--ff-only work/rd<n>` from the main checkout
+6. **Each report**: `python3 tools/sources/launcher.py merge RD<n>` from
+   `work/readings` (it rebases the reader's branch, resolves README, the corpus
+   files and wb-contents.md keeping both sides, tests and fast-forwards
+   `main`), or merge `--ff-only work/rd<n>` from the main checkout by hand
    (rebase in its worktree if refused); in `work/readings`: mark the
    row done only after reading the topic file's section, make each of
    its questions a file with `python3 tools/sources/pool.py question`
-   (the sources skill; never into open-questions.md any more), append
+   (the sources skill; never into open-questions.md any more; `launcher.py
+   bookkeep SPEC.json` does this, the row, the topic file's naming and the
+   dead ends from one JSON, its shape in the script's docstring), append
    its dead ends to PLAN.md,
    put each change for a build it reports into ROADMAP's T2.28 (an
    owner's decision named there),
