@@ -430,6 +430,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0379.md](questions/q0379.md) | question q379 | «ལྷ་ཁང་འགོའི» or «ལྷ་གང», «བསྔོས་ཚང» or «བསྡུས་ཚད» | open; cites dz:i029-034 |
 | [questions/q0380.md](questions/q0380.md) | question q380 | «spo» and «spo smad»: the Phalgunī mansions | open; cites wbz:i720, wbz:i805 |
 | [questions/q0381.md](questions/q0381.md) | question q381 | The household round's «སྐྱེད་པུར» and «མ་ཏྲཾ» | open; cites wbz:i506 |
+| [questions/q0382.md](questions/q0382.md) | question q382 | The Lord Lama's replies and the iron bird and monkey | open; cites ys:i494-496 |
+| [questions/q0383.md](questions/q0383.md) | question q383 | The old text of the servants' fine start | open; cites ys:i497-498 |
+| [questions/q0384.md](questions/q0384.md) | question q384 | «དཀར་ནག་བསྔོ་མེད», «རྦད་ཁམ», «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» | open; cites ys:i496, ys:i497-498, ys:i498-499 |
 
 <!-- end pool index -->
 

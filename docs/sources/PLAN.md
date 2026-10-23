@@ -965,3 +965,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, WBZ img. 473, l. 6 (vol. 1, p. 362, the in-laws' «གནས་སྐྱུག»): ཀ or ག not visible at 6×.
   - 2026-10-23, WBZ img. 506, l. 5 (vol. 1, p. 386, the syllable before «བཟློག»): not legible at 4×.
   - 2026-10-23, Mipham's print of the notes (I2029, 3400 px, about 33 px a line): img. 654 holds the household round's division (vol. 2, p. 491, question 317), but at 3× its letters run together; Yigdzin-1 reads «རྡེའུ་གྲངས་གསུམ་གྱིས་བགོས་པས».
+- **Removing the Tarnish's replies on ch. 26–27** (RD47, 2026-10-23):
+  - 2026-10-23, the *Removing the Tarnish* etexts (I5875, I5876): «བརྒྱ་སོ་བདུན», «བརྒྱ་སོ་བརྒྱད», «བརྒྱ་སོ་དགུ», «བརྒྱ་བཞི་བཅུ» no hit, the OCR writing «བརྒྱུ་སོ», «བཅས་བརྒྱད», «བརྒྱས»; the questions run in WB's chapter order (135–136 ch. 25, 137–142 ch. 26–27, 143 ch. 28), so no other question on ch. 26–27 stands among them; the replies say nothing of which element picks the thirty's pairs, of whether the birth year counts as one, or of the circles' mewa.

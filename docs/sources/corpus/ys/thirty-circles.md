@@ -94,9 +94,9 @@ The doubt: is Sprug's obstacle reckoning set out as one way because of its root 
 
 ## Open
 
-- Question: Reply 137 cites "the precious Lord Lama's replies on the reckoning of stars and the Chinese reckoning" («རྗེ་བླ་མའི་རྩིས་སྐར་ནག་གི་དྲི་ལན»), which say the thirty are "turned from upon the iron bird and monkey": whose replies are these, where are they found, and is the iron bird and monkey a fixed starting pair or an example?
-- Question: The old text of reply 140, which hides the servants' fine start at its end as four nails with fixed years (the earth male tiger, the water male dragon, the wood female pig, the fire female bird): which text is it, Khyung's root pebbles or *The Magic Sieve* (འཕྲུལ་གྱི་མིག་ཚགས, 'phrul gyi mig tshags) of WB's colophon, and are its years an example for a wood person, as WB's relations make them?
-- Question: What do «དཀར་ནག་བསྔོ་མེད» (reply 138, the speckled in the *thang shing*), «རྦད་ཁམ» (reply 140) and «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» (reply 141) mean?
+- Question 382 ([q0382](../../questions/q0382.md)): Reply 137 cites "the precious Lord Lama's replies on the reckoning of stars and the Chinese reckoning" («རྗེ་བླ་མའི་རྩིས་སྐར་ནག་གི་དྲི་ལན»), which say the thirty are "turned from upon the iron bird and monkey": whose replies are these, where are they found, and is the iron bird and monkey a fixed starting pair or an example?
+- Question 383 ([q0383](../../questions/q0383.md)): The old text of reply 140, which hides the servants' fine start at its end as four nails with fixed years (the earth male tiger, the water male dragon, the wood female pig, the fire female bird): which text is it, Khyung's root pebbles or *The Magic Sieve* (འཕྲུལ་གྱི་མིག་ཚགས, 'phrul gyi mig tshags) of WB's colophon, and are its years an example for a wood person, as WB's relations make them?
+- Question 384 ([q0384](../../questions/q0384.md)): What do «དཀར་ནག་བསྔོ་མེད» (reply 138, the speckled in the *thang shing*), «རྦད་ཁམ» (reply 140) and «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» (reply 141) mean?
 
 ## Searched and not found
 
