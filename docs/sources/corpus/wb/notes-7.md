@@ -23,6 +23,44 @@ The first: the starting points of the king and the others are turned from the ra
 
 And, without regard to whether the person is a man or a woman, by whichever the year is, male or female, count down or up, and the life force and the rest of where it falls fight the life force and the rest of the one reckoned, each its own kind. The results are clear in the text. In Khyung's (ཁྱུང, khyung) oral tradition there is also a way that draws a garuḍa in the middle of a nine-square board and sets the trigrams (སྤར་ཁ, spar kha) round it clockwise from *kham*; but by the unbroken oral tradition of old, the first, third and fifth are the place of the forebears and the first part of life, called the upper three; the second, fourth and sixth the lower three; the seventh and eighth are reckoned as the middle. And where the first three come out two white and one black, for the speckled the white share is greater, so it is good, and so on. A way of fighting these without turning the progressed year (ལོག་མིན, log min), as if it went into the reckoning of karma (ལས་རྩིས, las rtsis), is found elsewhere too.
 
+## <a id="wb-2-p533b"></a>wb.2:p533b The notes on the circles of Balmo: whose element, the count, the mewa
+
+*Read: scan, 2026-10-23.*
+
+> གཉིས་པ་བལ་མོ་ལྡིང་སྐོར་ནི། གང་བརྩི་བའི་ལོ་དེ་དག་བརྩི་བྱའི་ཁམས་སྟེ་དབང་ཐང་གི་དགྲ་སོགས་ནས་བསྐོར་བ་སྟེ། དེ་ཡང་ཐམས་ཅད་གྱེན་དུ་ལོ་གྲངས་དུ་ལོན་པར་བཀེན་པའི་གར་བབ་དེ་ཡི་སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔ་ལ། བརྩི་བྱའི་དེ་ལྔས་འཐབ་པའོ། །སྨེ་བ་ནི་བརྩི་བྱའི་ལུས་སྨེ་དང་དེ་དང་སྨེ་ཕྲེང་མཐུན་པའི་སྐོར་མགོའི་སྨེ་བ་ནས་ཡར་བགྲང་བའི་གང་བབ་སྨེ་བར་འཐབ་བོ། །བཅུ་པར་རགས་ཞིབ་གཉིས། ཞིབ་པར་སྟག་རྟ་ཁྱི་གསུམ་སྟག་ནས་བརྩི་བ་སོགས་གཞུང་བཞིན་འདི་དང་རྒྱ་བོད་སྐོར་མགོའི་བྲན་དེ་བྲན་རང་གི་ལོ་ལས་བརྩི་རྒྱུ་འདྲ་ཡང་བདག་པོའི་ལོ་ལས་བརྩིས་སྣང་། བཅུ་གསུམ་པ་ལ་དར་གུད་ཟེར་ཀྱང་སྤྱི་འགྲེ་ལྟར་འཐབ་པ་ལས་དར་གུད་བསྐོར་མི་འདུག འཐབ་དགྲ་བཟང་ངན་ལ་དར་གུད་དུ་བརྟག་པ་འདྲ། དེས་ན་བལ་མོ་ལྡིང་སྐོར་རམ་དཔྱད་ལྡིང་བཅུ་གསུམ་པ་རྫོགས།
+
+The notes on the circles of Balmo (WB vol. 2, p. 533, img. 541, l. 8–14; read on the scan by RD23, 2026-10-21, and on the Gser thang reprint, I3CN5029 img. 539, l. 8–14, for RD38; the English as RD23 gave it in verdicts.md).
+
+Second, the circles of Balmo (བལ་མོ་ལྡིང་སྐོར, bal mo lding skor): the
+years reckoned are turned from the enemy of the reckoned person's
+element, that is of the power, and the like; all counted upward by the
+years lived, and where it falls, its life force, body, power, luck and
+mewa, five, are fought by the reckoned person's five. The mewa: fought
+with the mewa reached by counting upward from the reckoned person's body
+mewa and from the starting point's mewa that agrees with it in the mewa
+sequence. The tenth has a rough and a fine way; in the fine, tiger,
+horse and dog are counted from the tiger and so on, as the text has; and
+though here, as with the servant among the Chinese and Tibetan starting
+points, the servant would be reckoned from his own year, it appears to
+be reckoned from the master's. The thirteenth is said to be of rise and
+decline, but it is fought as the general rule goes, with no round of
+rise and decline: the rise and decline seems to be examined by the good
+or bad of the fighting enemies. So the circles of Balmo, the thirteen
+circles of examination, are complete. (Yigdzin-1 «དེས་པེ», the print
+«དེས་ན».)
+
+## <a id="wb-2-p535"></a>wb.2:p535 Section seven closes: the earth lords' places and the reckoning of results
+
+*Read: scan, 2026-10-23.*
+
+> དོན་གཉིས་ནི་ཤར་སྟོད་སྟག་སྡེ་ལྔ། ཤར་སྨད་ཡོས་སྡེ་ལྔ། དེ་གཉིས་ཀྱི་བར་ཤར་དབུས་སུ་ཤིང་གི་ཆ་སྟོང་པ་ཆ་གཉིས།དེ་བཞིན་ཕྱོགས་བཞིར་དབུས་ཆ་གཉིས། མཚམས་བཞིའི་དབུས་དྲང་པོར་ས་ཡི་ཆ་རེ་རེ་སྟེ་ཁྱོན་དོན་གཉིས་སུ་བཤད།གཞན་མི་འཕོ་བ་སོགས་དང་ལོ་འཁོར་སོགས་ནི་ཕྱོགས་གང་ལ་གནས། ཀོ་ལོང་ཅི་ལ་སྡོམ། ཉམས་ན་སྒྲིབ་ཐབས་དང་།བཅོས་ཇི་ལྟར་བྱ་བ་རྣམས་བཻ་ཌཱུར་ལེའུ་སོ་གཅིག་པ་ལས་ཞིབ་ཏུ་ཤེས་པར་བྱ་ཞིང་། ཁྲ་མ་ལས་ཀྱང་རྟོགས་པར་བྱས་ལ། བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།།བཞི་པ་འབྲས་རྩིས་ནི་ལེའུ་སོ་གསུམ་པ་དང་སོ་བཞི་པ་བཞིན་ཏུ། ཚེས་གཟའ་སྐར་མ་བྱེད་སྦྱོར་འཕྲོད་ཆེ་ཆུང་དུས་སྦྱོར་ལ་སོགས་པ་སྤྱི་ཡི་བཟང་ངན་དང་། ཁྱད་པར་ལས་སོ་སོ་ལ་བཟང་ངན་དམིགས་སུ་བསལ་བའི་རྩིས་རིགས་རྣམས་ཚུལ་བཞིན་ཁོང་དུ་ཆུབ་པར་བྱ་བ་ནི་སྤྱི་ལ་གལ་ཆེའོ། །སྤྱི་རྩིས་ཀྱི་སྐབས་སོ།།
+
+The close of section seven: the earth lords' places and the reckoning of results (WB vol. 2, p. 535, img. 543, l. 1–8; read on the Gser thang reprint, I3CN5029 img. 541, l. 1–8, against Yigdzin-1 and MITRA; the l. 6–8 closing the fourth part were read on the scan before for reckonings.md).
+
+[...] the sixty-two: the tiger's group of five in the upper east, the hare's group of five in the lower east, between them in the middle of the east two empty parts of wood; likewise two middle parts in each of the four directions, and in the middle of each of the four intermediate directions one part of earth: sixty-two in all, it is said. The others, those that do not move, the year's round and the rest: in which direction they stay, what their *ko long* ends in, how to obscure them when they decline and how to treat them: know these in detail from the White Beryl's chapter thirty-one, and understand them from the chart («ཁྲ་མ») too; when any work is done it is important to reckon in detail.
+
+The fourth, the reckoning of results (འབྲས་རྩིས, 'bras rtsis), as in chapters thirty-three and thirty-four: the general good and bad of the dates, planets, mansions, karaṇas and yogas, the great and small combinations, the combination periods and the rest, and in particular the kinds of reckoning that single out good and bad for each work: to understand these properly is important in general. The section on the general reckoning.
+
 ## <a id="wb-2-p537"></a>wb.2:p537 The notes on ch. 28: the omens of the time
 
 *Read: scan, 2026-10-23.*

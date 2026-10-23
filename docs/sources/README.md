@@ -68,6 +68,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
+| [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
+| [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
+| [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
+| [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
 | [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
 | [claims/ch28-bird-days.md](claims/ch28-bird-days.md) | claim, table | The sky-bird's days after the winter solstice | cites wb.2:p29-30, wb.2:p28-29; feeds block-31 |
@@ -80,6 +84,21 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
 | [claims/ch28-spring-hand.md](claims/ch28-spring-hand.md) | claim, table | The year read on three spring dates by the moon on the hand | cites wb.2:p26-27, wb.2:p26; feeds block-31 |
+| [claims/circle-01-king.md](claims/circle-01-king.md) | claim, table | The circles: the first, the white garuḍa, for the king | cites wb.2:p3-4, wb.2:p533b; feeds block-31 |
+| [claims/circle-02-spiritual-friends.md](claims/circle-02-spiritual-friends.md) | claim, table | The circles: the second, the white snow lioness, for spiritual friends | cites wb.2:p4-5, wb.2:p533b; feeds block-31 |
+| [claims/circle-03-mantrins.md](claims/circle-03-mantrins.md) | claim, table | The circles: the third, the yellow snake, for mantra-holders | cites wb.2:p5-6, wb.2:p533b; feeds block-31 |
+| [claims/circle-04-bon-priests.md](claims/circle-04-bon-priests.md) | claim, table | The circles: the fourth, the turquoise dragon, for the Bon priests | cites wb.2:p6-7, wb.2:p533b; feeds block-31 |
+| [claims/circle-05-ministers.md](claims/circle-05-ministers.md) | claim, table | The circles: the fifth, the elephant, for ministers and officials | cites wb.2:p7, wb.2:p533b; feeds block-31 |
+| [claims/circle-06-young-men.md](claims/circle-06-young-men.md) | claim, table | The circles: the sixth, the striped iron tiger, for young men | cites wb.2:p7-8, wb.2:p533b; feeds block-31 |
+| [claims/circle-07-women.md](claims/circle-07-women.md) | claim, table | The circles: the seventh, the red bird, for noble ladies | cites wb.2:p8-9, wb.2:p533b; feeds block-31 |
+| [claims/circle-08-children.md](claims/circle-08-children.md) | claim, table | The circles: the eighth, the blazing jewel, for children | cites wb.2:p9, wb.2:p533b; feeds block-31 |
+| [claims/circle-09-young-women.md](claims/circle-09-young-women.md) | claim, table | The circles: the ninth, the blue peacock, for young women | cites wb.2:p10, wb.2:p533b; feeds block-31 |
+| [claims/circle-10-servants.md](claims/circle-10-servants.md) | claim, table | The circles: the tenth, the golden rat, for servants | cites wb.2:p10-11, wb.2:p533b; feeds block-31 |
+| [claims/circle-11-land.md](claims/circle-11-land.md) | claim, table | The circles: the eleventh, the divine sheep, for land and treasury | cites wb.2:p11-12, wb.2:p533b; feeds block-31 |
+| [claims/circle-12-stored-goods.md](claims/circle-12-stored-goods.md) | claim, table | The circles: the twelfth, the golden vase, for stored goods | cites wb.2:p12-13, wb.2:p533b; feeds block-31 |
+| [claims/circle-13-livestock.md](claims/circle-13-livestock.md) | claim, table | The circles: the thirteenth, the wild yak, for livestock | cites wb.2:p13, wb.2:p533b; feeds block-31 |
+| [claims/circles-colour-rule.md](claims/circles-colour-rule.md) | claim, rule | The circles: the rule of colour, the son black | cites wb.2:p3; feeds block-31 |
+| [claims/circles-count.md](claims/circles-count.md) | claim, rule | The circles: the starting point, the count and the five pebbles | cites wb.2:p3, wb.2:p3-4, wb.2:p10-11, wb.2:p533b; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-outer.md](claims/dead-cause-outer.md) | claim, table | The second examination: the outer reason by the four deciding pebbles and the elements | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
@@ -223,7 +242,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 32 passages: 16 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 28 passages: 28 scan |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
@@ -238,8 +257,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
-| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 2 passages: 2 scan |
-| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 4 passages: 3 scan, 1 machine |
+| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
+| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
