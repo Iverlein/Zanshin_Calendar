@@ -60,5 +60,5 @@ LT, the close of the illness plank-tree and the second nineteen (etext pp. 51–
 
 ## Open
 
-- Question: LT's great and small cut-off for a fire clan (dog great, dragon small) and an iron clan (ox great, sheep small) (lt:p26-28) go against the notes' rule that dragon and sheep are great and dog and ox small (wb.2:p499-500): which holds on the la board for those clans?
-- Question: The planets "rise" on triads of animals (lt:p9-11): is the animal the day's, the month's or the year's, and how is the state of the Sun, Mercury and Venus found, when only Saturn, the Moon, Jupiter and Mars are named as rising?
+- Question 375 ([q0375](../../questions/q0375.md)): LT's great and small cut-off for a fire clan (dog great, dragon small) and an iron clan (ox great, sheep small) (lt:p26-28) go against the notes' rule that dragon and sheep are great and dog and ox small (wb.2:p499-500): which holds on the la board for those clans?
+- Question 376 ([q0376](../../questions/q0376.md)): The planets "rise" on triads of animals (lt:p9-11): is the animal the day's, the month's or the year's, and how is the state of the Sun, Mercury and Venus found, when only Saturn, the Moon, Jupiter and Mars are named as rising?

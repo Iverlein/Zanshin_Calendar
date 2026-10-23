@@ -282,7 +282,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
 | [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
 | [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
-| [questions/q0267.md](questions/q0267.md) | question q267 | The la places' cut-off and friend years for the other four clans | open; cites wb.2:p499-500, wb.2:p52-54 |
+| [questions/q0267.md](questions/q0267.md) | question q267 | The la places' cut-off and friend years for the other four clans | answered; cites wb.2:p499-500, wb.2:p52-54, lt:p26-28, lt:p12, ut:p56 |
 | [questions/q0268.md](questions/q0268.md) | question q268 | Which white and which red in the household's birth mewa | open; cites wb.2:p51-52, wb.2:p54-55 |
 | [questions/q0269.md](questions/q0269.md) | question q269 | The four executioners' pebble door among the la places | open; cites wb.2:p52-54 |
 | [questions/q0270.md](questions/q0270.md) | question q270 | The upper, lower and middle pebbles of the la board | open; cites wb.2:p51-52, wb.2:p52-54 |
@@ -373,7 +373,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
 | [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | open; cites wb.2:p526 |
 | [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | open; cites wb.1:p355 |
-| [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | open; cites wb.1:p445-447, wb.1:p445 |
+| [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | answered; cites wb.1:p445-447, wb.1:p445, lt:p43-44, lt:p20, dz:i051-052 |
 | [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
 | [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | open; cites wb.1:p428-429 |
 | [questions/q0361.md](questions/q0361.md) | question q361 | The sky year of p. 426's table | open; cites wb.1:p425-426, wb.1:p426-427 |
@@ -386,6 +386,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
 | [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | open; cites wb.2:p3-4 |
 | [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125 |
+| [questions/q0371.md](questions/q0371.md) | question q371 | The root text's count for the la board: the Moonbeams' or LT's | open; cites dz:i055-057, lt:p26-28, wb.2:p499-500 |
+| [questions/q0372.md](questions/q0372.md) | question q372 | Whose mewa and trigram among the burial reckoning's eleven roots | open; cites dz:i057-061 |
+| [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |
+| [questions/q0374.md](questions/q0374.md) | question q374 | The plank-tree's fifteenth and sixteenth heads, «ལྔ་ཐུན» and «དྲུག་འབྲས» | open; cites dz:i052-055 |
+| [questions/q0375.md](questions/q0375.md) | question q375 | Fire and iron clans' great and small cut-off: LT against the notes | open; cites lt:p26-28, wb.2:p499-500 |
+| [questions/q0376.md](questions/q0376.md) | question q376 | Which animal a planet rises on, and the Sun, Mercury and Venus | open; cites lt:p9-11 |
 
 <!-- end pool index -->
 

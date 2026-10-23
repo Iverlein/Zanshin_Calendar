@@ -99,10 +99,10 @@ So the *Moonbeams*' own board for the living out of the dead lays four rows from
 
 ## Open
 
-- Question: The *Moonbeams*' la pebbles (dz:i055-057) put half and half at the son year, black at the enemy year and two white and one black at the friend, where LT's special pebble of the birth (lt:p26-28) puts one white at the son year, half and half at the friend and three black at the enemy: which is the "root text's" count the notes refer to for the la board ("three black for the great cut-off and so on", wb.2:p499-500)?
-- Question: In the eleven root pebbles of the *Moonbeams*' burial reckoning (dz:i057-061), «གནམ་ལོ་ལོག་མེན་སྨེ་བ་དང་། །སྤར་ཁ་…»: are the mewa and the trigram those of the year of death as the almanac gives them, or the dead's descended ones in that year?
-- Question: What is «ར་བར» (dz:i055-057, f. 26b, l. 1), where the living's year pebble is laid, two of middling size?
-- Question: From which places below the sky year do the plank-tree's fifteenth and sixteenth heads start, «ལྔ་ཐུན» and «དྲུག་འབྲས» as the scan prints them (KD «ལྔ་མཐུན», «དྲུག་འགྲུས»; dz:i052-055)?
+- Question 371 ([q0371](../../questions/q0371.md)): The *Moonbeams*' la pebbles (dz:i055-057) put half and half at the son year, black at the enemy year and two white and one black at the friend, where LT's special pebble of the birth (lt:p26-28) puts one white at the son year, half and half at the friend and three black at the enemy: which is the "root text's" count the notes refer to for the la board ("three black for the great cut-off and so on", wb.2:p499-500)?
+- Question 372 ([q0372](../../questions/q0372.md)): In the eleven root pebbles of the *Moonbeams*' burial reckoning (dz:i057-061), «གནམ་ལོ་ལོག་མེན་སྨེ་བ་དང་། །སྤར་ཁ་…»: are the mewa and the trigram those of the year of death as the almanac gives them, or the dead's descended ones in that year?
+- Question 373 ([q0373](../../questions/q0373.md)): What is «ར་བར» (dz:i055-057, f. 26b, l. 1), where the living's year pebble is laid, two of middling size?
+- Question 374 ([q0374](../../questions/q0374.md)): From which places below the sky year do the plank-tree's fifteenth and sixteenth heads start, «ལྔ་ཐུན» and «དྲུག་འབྲས» as the scan prints them (KD «ལྔ་མཐུན», «དྲུག་འགྲུས»; dz:i052-055)?
 
 ## Searched and not found
 

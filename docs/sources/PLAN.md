@@ -950,3 +950,8 @@ Searched and found wanting, so not to be repeated:
 - **Ch. 27 in Mipham's notes** (RD38, 2026-10-23):
   - 2026-10-23, a note on ch. 27's small reckonings in Mipham's section eight (vol. 2, pp. 535–538 read whole on the reprint, I3CN5029 img. 541–544): none; the section glosses ch. 30's moment and ch. 28's omens and closes the notes. Its only words on the circles are section seven's (p. 533).
   - 2026-10-23, a worked example of any circle (ch. 27 and the notes, pp. 533–538): none.
+- **The dead's and the sick's open inputs in the manuals (DZ ch. 6–7, LT, UT)** (RD45, 2026-10-23):
+  - 2026-10-23, the age at which the nine-eye strikes and the start of the male and female rounds to the executioner (question 308): not in the *Moonbeams* ch. 6–7 (img. 051–063), nor in LT's or UT's reckonings for the dead (etexts, «དགུ་མིག»: only the year-course and the pebble lists).
+  - 2026-10-23, «ཛ་མོ» and «རྫ་མོ» (question 311), «རྔ་ཞོན» (question 343) and «སྔས་བསྲུང» (question 359): no hit in the etexts of LT and UT, nor in the *Moonbeams* ch. 6–7.
+  - 2026-10-23, the day's illness of WB pp. 428–429 (question 360): the *Moonbeams* names "the examination of the day's illness and spirits" only as a matter of the extensive texts (dz:i052-055); «ཉི་མའི་ནད» has no hit in LT's or UT's etext.
+  - 2026-10-23, why iron male dog and earth female sheep stand twice among WB's sixty-year signs (question 344): the *Moonbeams*' and LT's plank-trees use other fixed years and give no such pairs.
