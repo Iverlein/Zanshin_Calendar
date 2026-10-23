@@ -923,7 +923,7 @@ Searched and found wanting, so not to be repeated:
 - **The dead's living household and second examination (WB vol. 2, pp. 51–58; the notes, pp. 499–503)** (RD30, 2026-10-23):
   - 2026-10-23, the notes give no identification for the la pebbles' general-verdict images ("not seen in the commentary and the like"; WB vol. 2, p. 502): they are judged from the board's shape only.
   - 2026-10-23, the six lamps' inputs (earlier dead with their dates, ages, causes and places of death; the living's journeys) are not among the reckoning's ten roots in WB or the notes, pp. 499–503.
-  - 2026-10-23, agy for single crops: `agy_read.py` hard-codes "Gemini 3.1 Pro (High)", which agy no longer offers (it lists Gemini 4 Argon, Gemini 3.8 Flash); no crop was read.
+  - 2026-10-23, agy for single crops: `agy_read.py` hard-codes "Gemini 3.1 Pro (High)", which agy no longer offers (it lists Gemini 4 Argon, Gemini 3.8 Flash); no crop was read. Switched the same day (a84618a) to "Gemini 3.8 Flash (Medium)", the owner's choice for pictures: a four-line crop of I3CN5029 img. 009 read right in about ten minutes, agy cutting and zooming the crop itself and leaving its helper images in the output folder.
 - **The third examination of the dead in the notes (WB vol. 2, pp. 499–522)** (RD31, 2026-10-23):
   - 2026-10-23, Mipham's notes, section 4 (pp. 499–522, etext), searched for ཟ་འདྲེ, ཐོད, ཞག་དུས and the weekday states: only the sentence of p. 503 (wb.2:p503b) treats the third examination; no gloss of the eating demon, the skulls, or a weekday's dar, gud, zhud and gyod. The heart-crushings (སྙིང་འགྲམ) are explained only under the thirteenth examination (pp. 506–507).
 - **Rāhu and the assembly reckoning in the dead's twelfth and fourteenth examinations** (RD34, 2026-10-23):
