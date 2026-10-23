@@ -939,3 +939,8 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, speckled (ཁྲ་བོ, khra bo) or half (ཕྱེད་མ, phyed ma) pebbles in the household round: none in WB pp. 385–387, the notes pp. 490–491 or the *Moonbeams* ff. 22b–23a, whose «རྡེལ་ཁྲ» names the mixing of the pebbles, not a speckled pebble.
 - **Ch. 28's terms elsewhere in WB** (RD39, 2026-10-23):
   - 2026-10-23, BDRC's etext of WB vol. 1 and vol. 2 (IE0OPI51524892): «རྐང་ཕྲན་ནག» occurs only in ch. 28 (vol. 2, p. 38; vol. 1, p. 405 has «རྐང་ཕྲན» in another sense); «སྐྱ་ཐིག» only in ch. 28; «ཉ་དྲུག» as the six full moons and «བྱ་ཞག» only in ch. 28 and the notes, p. 537: no other passage of WB explains them.
+- **The moment's sixty fixed signs (WB vol. 2, pp. 171–172)** (RD40, 2026-10-23):
+  - 2026-10-23, which year the fixed sixty-year signs of pp. 171–172 count: not stated on those pages nor in the notes' pp. 536–538 (Yigdzin-1 on the 1996 scan, the lines on the asker's year read on the Gser thang reprint).
+- **The match's grave and in-law words, and a name for mixed kinds** (RD42, 2026-10-23):
+  - 2026-10-23, WB's etext of both volumes and the notes: «ཤིད་དུར» only at the notes p. 526 (and «གཤིད་དུར» at WB p. 354, «ཕན་ཚུན་རང་དུར་གཤིད་དུར་ཐུག», glossed by the notes p. 524 as «རང་དུར་དུར་གཤེད»); «གནས་སྐྱུག» or «གནས་སྒྱུག» only at WB p. 362, the notes p. 526 and ch. 30 p. 152; no gloss of «དགྲ་དུར» in point 10 itself, only the notes' gloss of the same compound in the household reckoning (p. 478).
+  - 2026-10-23, the pages read (WB pp. 355, 358, 360, 362, 364; the notes pp. 524–526): no rule that turns a match of mixed kinds into one name.

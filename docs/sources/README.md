@@ -317,6 +317,23 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135 |
 | [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | open; cites wb.2:p504-512 |
 | [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | open; cites wb.2:p504-512 |
+| [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | open; cites wb.2:p165 |
+| [questions/q0342.md](questions/q0342.md) | question q342 | The five of the thirteen gates' fifth and sixth, and the own-element signs | open; cites wb.2:p170-171 |
+| [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | open; cites wb.2:p170-171 |
+| [questions/q0344.md](questions/q0344.md) | question q344 | Which year the sixty fixed signs count | open; cites wb.2:p171-172 |
+| [questions/q0345.md](questions/q0345.md) | question q345 | The right shoulder and «ཡམས་སྐུད» on p. 163 | open; cites wb.2:p163 |
+| [questions/q0346.md](questions/q0346.md) | question q346 | The marks' line of p. 170 and the earth hour's hair | open; cites wb.2:p170 |
+| [questions/q0347.md](questions/q0347.md) | question q347 | «ཀླུམ་མནན» or «གྲུམ་མནན» on p. 169 | open; cites wb.2:p168-169, wb.2:p169-170 |
+| [questions/q0348.md](questions/q0348.md) | question q348 | «རྨི་ལྟས» or «ཕྱི་ལྟས» at the foot of p. 144 | open; cites wb.2:p144 |
+| [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | open; cites wb.2:p166 |
+| [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | open; cites wb.2:p164-165, wb.2:p163-164 |
+| [questions/q0351.md](questions/q0351.md) | question q351 | The thirty 'bri wang and their results | open; cites wb.2:p538 |
+| [questions/q0352.md](questions/q0352.md) | question q352 | «རྒྱ་ཁང» or «གྱོ་ཁང» of the gold reckoning | open; cites wb.2:p538 |
+| [questions/q0353.md](questions/q0353.md) | question q353 | The watch and the kung of the hand reckoning, and mung, krung, kyis | open; cites wb.2:p538-539 |
+| [questions/q0354.md](questions/q0354.md) | question q354 | A name for a match of mixed kinds | open; cites wb.1:p355, wb.2:p524 |
+| [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
+| [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | open; cites wb.2:p526 |
+| [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | open; cites wb.1:p355 |
 
 <!-- end pool index -->
 

@@ -1524,7 +1524,7 @@ the text, not about the app.
      (p. 539, img. 547, read on the scan; the Gser thang etext alike), and
      Mipham's colophon follows. Its three results, *mung*, *krung* and
      *kyis*, are not explained. Which text «གཞུང» means is still not found.*
-
+     *2026-10-23 (RD40, [corpus/wb/notes-8.md](corpus/wb/notes-8.md)): the scan reads «ལུ་བཞིན» and «ཐུན་ཀུང»; the meaning of mung, krung and kyis is question 353.*
 102. **Answered 2026-10-18. «བྱི་ཉི» and «ཟིན་ཕུང».** WB vol. 2, p. 146 (img. 154): which days are
     «བྱི་ཉི» and «ཟིན་ཕུང» among the days to avoid for reckoning? «བྱི་ཉི»
     might be the rat as the day's animal, «ཟིན་ཕུང» the trigram *zin* with
@@ -2535,6 +2535,7 @@ the text, not about the app.
      decision (vol. 2, p. 495); [health.md](health.md) renders the line "will
      not take the offering". [verdicts.md](verdicts.md), "D16: WB, the notes
      and the manuals" (O19).
+     *Read 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): the Gser thang reprint carves «བསྔོ་མ་བཏུབ» on p. 423, l. 25 (at 3×), the 1996 Yigdzin-1 «བསྡོ»; the notes gloss «ཐང་ཤིང་མ་བབ» as a reckoning not come to a decision (vol. 2, pp. 495–496).*
 196. **«སྔོ་བགྲང» (the notes, vol. 2, p. 495, img. 503).**
      What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p.
      495, img. 503), and is it related to p. 419's «བསྔོ»?
@@ -2632,11 +2633,13 @@ the text, not about the app.
      which of its findings count as "life exhausted", "power small" and
      "the reckoning bad in general"? [verdicts.md](verdicts.md), "The
      marriage match concluded" (RD21).
+     *Mostly answered 2026-10-23 (RD42, [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md)): «ལས་རྩིས» names the notes' section on ch. 22 (opening p. 474, closing p. 489), and p. 526 says "as in the section of the karma reckoning": the karma reckoning over the match is each spouse's own birth reckoning; which of its findings make an aspect bad is question 355.*
 211. **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
      The in-laws, «གནས་སྐྱུག» or «གནས་སྒྱུག»? The Gser thang reprint's
      stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And
      l. 4, «ཤིད་དུར» or «ཤིང་དུར» (Mipham's print by Yigdzin-1 only)?
      [verdicts.md](verdicts.md), "The marriage match concluded" (RD21).
+     *In part 2026-10-23 (RD42, [claims/match-trigram-grave.md](claims/match-trigram-grave.md)): Mipham's own print carves «ཤིང་དུར», wood's grave, where the setting prints «ཤིད་དུར»; WB p. 362 joins zin with sheep, dwa with ox, li with dog, kham with dragon. «སྐྱུག» or «སྒྱུག» stays open (question 356).*
 212. **A white verdict, small rites? (WB vol. 2, p. 50).**
      In the reckoning for the dead, does a white verdict of the
      thirteenth point ask for small rites, a pair for middling and a
@@ -2770,6 +2773,7 @@ the text, not about the app.
      (etext «ཞྭ་བཞི») a word for the four limbs or joints?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Narrowed 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): p. 436 prints «ཉ་དང་ཚིགས་བཞི་ན་བ», the «ཉ» and the four joints, for «ཉ» against the etext's «ཞྭ» on p. 435.*
 232. **«བླངས་ལན་པའི» (the notes, vol. 2, p. 497, l. 2).**
      What does the phrase «བླངས་ལན་པའི» say of the breath taken?
      [verdicts.md](verdicts.md), "The illness identified: the element
@@ -2781,6 +2785,7 @@ the text, not about the app.
      468) carve the same digits? Neither was served on 2026-10-21 (BDRC
      answered with empty images and 503). [marriage.md](marriage.md),
      "Open questions 161–165" (O16).
+     *Answered 2026-10-23 (RD42, [claims/hidden-body-cut-turtle.md](claims/hidden-body-cut-turtle.md)): the Lhasa blocks, in the Zhol print (WBZ I1KG1710 img. 468) and the Taikhang print (I5877 img. 485), carve the left side ༧ and the left leg ༦, where the 1996 setting prints ༦ and ༥; with 7 and 6 the pairs are the notes' drawing (li–khon, gin–zin, dwa–zon, khen–kham), as built.*
 234. **The luck's mewa: the birth mewa or the life force's (WB vol. 1, p. 255; the *Moonbeams*).**
      WB's p. 255 sets the luck's mewa on the birth mewa of the wind-
      horse year, the *Moonbeams* on its life-force mewa, and Dpal bsdus
@@ -2795,6 +2800,7 @@ the text, not about the app.
      enemy's grave, as WB writes «སྤར་ཁ་དགྲ་དུར» (vol. 2, p. 98) and the
      notes «སྲོག་གི་དགྲ་དུར» (pp. 480, 488)? [marriage.md](marriage.md),
      "Open questions 161–165" (O16).
+     *Answered 2026-10-23 (RD42, [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md)): the notes gloss the same compound in the household reckoning (vol. 1, p. 306; the notes, p. 478) by both its parts, enemy and grave, so point 10 tests four relations, enemy, grave, seventh and four-executioner, between the spouses' months, days and hours.*
 236. **«ཕ་ཡི་དྭ་ཟླས་མ་འཆི» (the notes, vol. 2, p. 488).**
      In the notes' «ཕ་ཡི་དྭ་ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།», is «མ»
      the mother ("by the father's orphaning month the mother dies") or
