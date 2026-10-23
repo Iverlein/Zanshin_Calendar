@@ -288,3 +288,14 @@ ut:
   role: source
   etext_offset: 22
   notes: "printed page = etext page − 22 (p. 108 = etext p. 130); cited before 2026-10-22 as Dpal bsdus's"
+
+zg:
+  title: "Bal mo lding skor gyi rdel bshad ut+pal dkar po'i phreng ba (the pebbles of the circles of Balmo, a garland of white utpalas)"
+  author: "Zhe chen rgyal tshab 'Gyur med padma rnam rgyal (Zhe chen pa 'Jam dbyangs blo gros rgya mtsho, 1871–1926)"
+  edition: "in his Gsung 'bum (MW1PD133163), the volume I4PD2444, pp. 303–313"
+  bdrc: {work: MW1PD133163, etext: IE0OPIDB78C0F0, scans: [I4PD2444]}
+  licence: public-domain
+  rank: 3
+  role: source
+  etext_offset: 44
+  notes: "printed page = etext page − 44 (p. 303 = etext p. 347, VEIE0OPIDB78C0F0_I4PD2444); written as a branch of his table manual Ku mu da'i rdzing bu"
