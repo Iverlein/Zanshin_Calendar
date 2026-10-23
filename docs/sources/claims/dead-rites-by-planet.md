@@ -10,7 +10,7 @@ open: []
 
 # Death on each planet: the wheel's skull and place
 
-WB vol. 2, pp. 118–119 (Yigdzin-1 read through on the Gser thang reprint; the last line of p. 118 from the reprint). For a death on a weekday's planet (གཟའ, gza') a figure is drawn above and something below, a short mantra said, and the wheel put into a skull and pressed at a place:
+WB vol. 2, pp. 118–119 (read line by line on the Gser thang reprint, 2026-10-23; the spells in full in the passage). For a death on a weekday's planet (གཟའ, gza') a figure is drawn above and something below, a short mantra said, and the wheel put into a skull and pressed at a place:
 
 | Planet | Above / below | Skull; place |
 | --- | --- | --- |

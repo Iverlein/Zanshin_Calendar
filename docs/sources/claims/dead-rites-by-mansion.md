@@ -10,9 +10,9 @@ open: []
 
 # Death on each lunar mansion, and by element and year
 
-WB vol. 2, pp. 119–122 (Yigdzin-1 read through on the Gser thang reprint; the full table is in the passage). For a death on each of the mansions (རྒྱུ་སྐར, rgyu skar) WB says what it portends, what is done, and the skull and place for the wheel. The portents a reading would name:
+WB vol. 2, pp. 119–122 (read on the Gser thang reprint 2026-10-23; the full table is in the passage). For a death on each of the mansions (རྒྱུ་སྐར, rgyu skar) WB says what it portends, what is done, and the skull and place for the wheel. The portents a reading would name:
 
-- bad, or bad for a count: *smin drug*, *snar ma*, *nabs so* and *rgyal*, *skag*, *me bzhi* (bad for seven), *sa ga* (the ruin-maker, not allowed; bad for three), *lha mtshams* (bad for five), *chu stod* (bad for small children; luck spoiled, it wants human corpses), *chu smad* (bad for people and livestock), *mon dre*, *nam gru* (bad for luck and light), *bra nye* (the dead goes to a bad rebirth); *mgo* "six heads"; *lag* "the hand used up"; *sa ri* the planet-king angered; *gro bzhin* and *byi bzhin* "grazing on the wealth"; *snron* "a mishap";
+- bad, or bad for a count: *smin drug*, *snar ma*, *nabs so* and *rgyal*, *skag* (printed «སྐྲག»), *me bzhi* (bad for seven), *sa ga* (the ruin-maker, not allowed; bad for three), *lha mtshams* (bad for five), *chu stod* (bad for small children; luck spoiled, it wants human corpses), *chu smad* (bad for people and livestock), *mon dre*, *nam gru* (bad for luck and light), *bra nye* (the dead goes to a bad rebirth); *mgo* "six heads"; *lag* "the hand used up"; *sa ri* the planet-king angered; *gro bzhin* and *byi bzhin* "grazing on the wealth"; *snron* "a mishap";
 - no repetition: *nag pa*; good for the dead: *dbyu gu* ("the heart of all");
 - the four first and four last mansions take readings in the four directions; a death on a bad planet and mansion is best kept secret for the land's sake.
 

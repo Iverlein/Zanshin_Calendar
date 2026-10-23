@@ -10,7 +10,7 @@ open: []
 
 # The five clans' strikes and slips by element
 
-WB vol. 2, p. 114 (Yigdzin-1 read through on the Gser thang reprint) gives the strikes of the clan (རུས, rus) for five clans named by syllable, and their slips; the slips' makers and cutters show which element each clan is:
+WB vol. 2, p. 114 (read line by line on the Gser thang reprint, 2026-10-23; each clan's slip mantra, OṂ MA MA with its own seed syllables, in the passage) gives the strikes of the clan (རུས, rus) for five clans named by syllable, and their slips; the slips' makers and cutters show which element each clan is:
 
 | Clan | Element (by the slip) | What is laid on the corpse | Slip's maker; what cuts it |
 | --- | --- | --- | --- |
