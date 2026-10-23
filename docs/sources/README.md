@@ -68,6 +68,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
+| [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
+| [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
+| [claims/ch28-bird-days.md](claims/ch28-bird-days.md) | claim, table | The sky-bird's days after the winter solstice | cites wb.2:p29-30, wb.2:p28-29; feeds block-31 |
+| [claims/ch28-black-small-feet.md](claims/ch28-black-small-feet.md) | claim, table | The twelve black small feet by year, month, hour and link | cites wb.2:p38-39; feeds block-31 |
+| [claims/ch28-building-doors.md](claims/ch28-building-doors.md) | claim, table | Building: the doors of sky and earth and their remedies | cites wb.2:p42; feeds block-31 |
+| [claims/ch28-links-day-times.md](claims/ch28-links-day-times.md) | claim, table | The twelve links on the times of the day, with their readings | cites wb.2:p37-38; feeds block-31 |
+| [claims/ch28-roof-leak-day.md](claims/ch28-roof-leak-day.md) | claim, rule | The day of the rite against a leaking roof | cites wb.2:p37; feeds block-31 |
+| [claims/ch28-seasonal-marks.md](claims/ch28-seasonal-marks.md) | claim, table | The seasons' marks counted from the solstices | cites wb.2:p27-28b; feeds block-31 |
+| [claims/ch28-signs-by-time.md](claims/ch28-signs-by-time.md) | claim, note | The observed signs read by the hour and by the day's link | cites wb.2:p32-34, wb.2:p34-35, wb.2:p35-37; feeds block-31 |
+| [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
+| [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
+| [claims/ch28-spring-hand.md](claims/ch28-spring-hand.md) | claim, table | The year read on three spring dates by the moon on the hand | cites wb.2:p26-27, wb.2:p26; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-outer.md](claims/dead-cause-outer.md) | claim, table | The second examination: the outer reason by the four deciding pebbles and the elements | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
@@ -192,7 +204,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 0 passages: nothing read yet |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
-| [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 0 passages: nothing read yet |
+| [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 4 scan, 6 machine |
@@ -206,7 +218,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 9 scan, 4 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
-| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 1 passages: 1 scan |
+| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 2 passages: 2 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
