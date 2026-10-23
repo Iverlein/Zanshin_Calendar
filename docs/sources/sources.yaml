@@ -300,13 +300,13 @@ zg:
   etext_offset: 44
   notes: "printed page = etext page − 44 (p. 303 = etext p. 347, VEIE0OPIDB78C0F0_I4PD2444); written as a branch of his table manual Ku mu da'i rdzing bu"
 ys:
-  title: "Vaiḍūrya g.ya' sel (Removing the Tarnish from the White Beryl), replies to questions on it"
+  title: "Vaiḍūrya g.ya' sel (Removing the Tarnish from the White Beryl), replies to questions on it, with the questions (snyan sgron nyis brgya brgyad pa)"
   author: "Sde srid Sangs rgyas rgya mtsho (1653–1705)"
-  edition: "the Taikhang reproduction of a Lhasa print, New Delhi, BDRC image group I5875"
-  bdrc: {scans: [I5875]}
+  edition: "T. Tsepal Taikhang, New Delhi 1971, reproduced from prints in the collection of Tsepon W. D. Shakabpa, 2 vols (BDRC MW8226)"
+  bdrc: {work: MW8226, scans: [I5875, I5876], etext: IE0OPIF790A4DF}
   licence: public-domain
   rank: 2
   role: source
   locator: image
-  notes: "the author of WB answering questions on it; reply 113 at img. 469 (RD21); replies 137–140 on the thirty and the circles near etext pp. 100–101 and 494–498 (RD44); the work id and etext to confirm"
+  notes: "the author of WB answering questions on it; vol. 1 (I5875, 548 images) holds the questions (from img. 9) and the replies; etext page = image number (VEIE0OPIF790A4DF_I5875; questions 137–142 img. 100–101, replies 494–499, RD47; reply 113 img. 469, RD21); vol. 2 (I5876, etext VEIE0OPIF790A4DF_I5876) holds replies as well (reply 106 on its etext pp. 23–24) and was not read for RD47; another print MW2PD17386_474815, search only"
 
