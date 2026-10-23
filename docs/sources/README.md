@@ -131,6 +131,21 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
 | [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
 | [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
+| [questions/q0267.md](questions/q0267.md) | question q267 | The la places' cut-off and friend years for the other four clans | open; cites wb.2:p499-500, wb.2:p52-54 |
+| [questions/q0268.md](questions/q0268.md) | question q268 | Which white and which red in the household's birth mewa | open; cites wb.2:p51-52, wb.2:p54-55 |
+| [questions/q0269.md](questions/q0269.md) | question q269 | The four executioners' pebble door among the la places | open; cites wb.2:p52-54 |
+| [questions/q0270.md](questions/q0270.md) | question q270 | The upper, lower and middle pebbles of the la board | open; cites wb.2:p51-52, wb.2:p52-54 |
+| [questions/q0271.md](questions/q0271.md) | question q271 | «དགྲ་དར» or «དགྲ་ལོ» in the special verdict | open; cites wb.2:p52-54 |
+| [questions/q0272.md](questions/q0272.md) | question q272 | Which mewa the second examination reads | open; cites wb.2:p57-58, wb.2:p503 |
+| [questions/q0273.md](questions/q0273.md) | question q273 | «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ» | open; cites wb.2:p57-58, wb.2:p55, wb.2:p54-55 |
+| [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | open; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
+| [questions/q0275.md](questions/q0275.md) | question q275 | «སེར་གསུམ» in the rebirth by the mewa | open; cites wb.2:p70-72, wb.2:p500-501 |
+| [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | open; cites wb.2:p68-70, wb.2:p503-504 |
+| [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | open; cites wb.2:p68-70 |
+| [questions/q0278.md](questions/q0278.md) | question q278 | Unidentified things of the funeral share and the corpse kinds | open; cites wb.2:p68-70, wb.2:p72, wb.2:p72-74 |
+| [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | open; cites wb.2:p70-72 |
+| [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | open; cites wb.2:p70-72 |
+| [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
 
 <!-- end pool index -->
 

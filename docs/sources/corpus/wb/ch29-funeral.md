@@ -104,3 +104,13 @@ The eighth examination, the five elements: which grave of the scattered reckonin
 **Not to be cast into water:** a year of horse or snake, fire, on Sunday (ཉི་མ, nyi ma) or Tuesday (མིག་དམར, mig dmar), the *li* trigram, the two red mewa, the southern mansions; heart illness, burns and other hot illnesses; a barbarian's (ཀླ་ཀློ, kla klo), dropsy, kidney illness; a son killed by a blade, stomach swelling, an old one or an infant, a *thon bu*, one killed by water, a widow's corpse; mouse, wild boar, the dull; in the summer months, *ra* or *'bring*; the fire element, three generations of horses and snakes; whose power is fire: not cast into water. **Good to cast:** the year of death and the dead tiger or hare, mouse or pig, trigram and mewa water or wood, the living's years the four executioners.
 
 **Not to be sent to the mountain:** a year of ox, sheep, dog or dragon, the earth; the four corner trigrams, the five yellow mewa; Saturday (སྤེན་པ, spen pa), the four corner mansions; the four last months of the seasons; the blocking blade, spleen illness, the *rbab* blade, one killed by a bird, cast into a pit, caused by a tiger, donkey or wild ass; a madman's corpse, an old one or an infant: they too may not be sent to the mountain; the earth element, four executioners, three generations; whose power is earth: not the wood grave. **Good to send:** the year of death and the dead horse or snake, tiger or hare, trigram and mewa fire or wood, the living bird and monkey.
+
+## Open
+
+- Question 275 ([q0275](../../questions/q0275.md)): «སེར་གསུམ» in the rebirth by the mewa.
+- Question 276 ([q0276](../../questions/q0276.md)): The thirteen who may not be offered food.
+- Question 277 ([q0277](../../questions/q0277.md)): «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares.
+- Question 278 ([q0278](../../questions/q0278.md)): Unidentified things of the funeral share and the corpse kinds.
+- Question 279 ([q0279](../../questions/q0279.md)): The dog day's former and next life.
+- Question 280 ([q0280](../../questions/q0280.md)): The auspicious thing taken at death, p. 71.
+- Question 281 ([q0281](../../questions/q0281.md)): The thirteen kinds of blade.

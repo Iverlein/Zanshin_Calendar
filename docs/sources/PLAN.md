@@ -920,3 +920,7 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, a calculation of the grave's site in "searching for the ground" (pp. 133–135, from Mañjuśrī's turtle): none; the part is a rite. Its only reckoned items are the remedies of the year's trigram, planet and mansion (p. 133; the notes, p. 522). The ground reckoning proper is the notes' section 5 (ས་རྩིས, sa rtsis, 5,600 pebbles, from p. 522) and ch. 32.
   - 2026-10-23, a verdict or reading of the fifteenth examination's own (pp. 128–143 and the notes, p. 522): none; its 4 result pebbles (p. 51) are rites chosen by the trigram, the grave kind and the dead.
   - 2026-10-23, MITRA on one GPU slot shared by eight readers: no slot within twenty minutes; the pages were read by eye on the Gser thang reprint (I3CN5029, image = page + 6 for pp. 128–143).
+- **The dead's living household and second examination (WB vol. 2, pp. 51–58; the notes, pp. 499–503)** (RD30, 2026-10-23):
+  - 2026-10-23, the notes give no identification for the la pebbles' general-verdict images ("not seen in the commentary and the like"; WB vol. 2, p. 502): they are judged from the board's shape only.
+  - 2026-10-23, the six lamps' inputs (earlier dead with their dates, ages, causes and places of death; the living's journeys) are not among the reckoning's ten roots in WB or the notes, pp. 499–503.
+  - 2026-10-23, agy for single crops: `agy_read.py` hard-codes "Gemini 3.1 Pro (High)", which agy no longer offers (it lists Gemini 4 Argon, Gemini 3.8 Flash); no crop was read.
