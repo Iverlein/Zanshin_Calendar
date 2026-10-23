@@ -304,8 +304,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
 | [questions/q0261.md](questions/q0261.md) | question q261 | The sealing trigram of each provision block, and khon's missing seal | open; cites wb.2:p129-132 |
-| [questions/q0262.md](questions/q0262.md) | question q262 | Dwa's food on p. 130 | open; cites wb.2:p129-132 |
-| [questions/q0263.md](questions/q0263.md) | question q263 | «སྒོམ» or «སྒོ» in the fifteenth's heading | open; cites wb.2:p128-129 |
+| [questions/q0262.md](questions/q0262.md) | question q262 | Dwa's food on p. 130 | open; cites wb.2:p129-132, wbz:i817 |
+| [questions/q0263.md](questions/q0263.md) | question q263 | «སྒོམ» or «སྒོ» in the fifteenth's heading | answered; cites wb.2:p128-129, wbz:i814 |
 | [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
 | [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
 | [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
@@ -328,15 +328,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0283.md](questions/q0283.md) | question q283 | «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended | open; cites wb.2:p503b |
 | [questions/q0284.md](questions/q0284.md) | question q284 | «སྤྲོ» for U. Phalgunī among the mansions | open; cites wb.2:p65-66 |
 | [questions/q0285.md](questions/q0285.md) | question q285 | The months of the day's-animal entries | open; cites wb.2:p63 |
-| [questions/q0286.md](questions/q0286.md) | question q286 | «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry | open; cites wb.2:p65-66 |
+| [questions/q0286.md](questions/q0286.md) | question q286 | «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry | answered; cites wb.2:p65-66, wbz:i720 |
 | [questions/q0287.md](questions/q0287.md) | question q287 | Objects and rites of the third examination left unexplained | open; cites wb.2:p58-60, wb.2:p60-62, wb.2:p63-65, wb.2:p65-66, wb.2:p66-68 |
 | [questions/q0288.md](questions/q0288.md) | question q288 | «གནམ་གྱི་བྱི་ལམ» or «བྱ་ལམ»: the sky's road | open; cites wb.2:p94-96 |
 | [questions/q0289.md](questions/q0289.md) | question q289 | The five parts of each direction on the grid of the sun and moon | open; cites wb.2:p96-97 |
 | [questions/q0290.md](questions/q0290.md) | question q290 | «ས་བདག་ཁྲུ་ལུ» and the khar bu of p. 224 | open; cites wb.2:p96-97 |
 | [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | open; cites wb.2:p97-100, wb.2:p126-128 |
 | [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | open; cites wb.2:p126-128 |
-| [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | open; cites wb.2:p104 |
-| [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | open; cites wb.2:p104 |
+| [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | open; cites wb.2:p104, wbz:i777 |
+| [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | open; cites wb.2:p112 |
 | [questions/q0296.md](questions/q0296.md) | question q296 | The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 | open; cites wb.2:p122 |
 | [questions/q0297.md](questions/q0297.md) | question q297 | Mipham's thirteen remedy classes against the chapter's twelve | open; cites wb.2:p517 |
@@ -347,7 +347,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0302.md](questions/q0302.md) | question q302 | The thirty pairs and the thirty readings in one order | answered; cites wb.1:p453-454, wb.1:p454, wb.2:p532-533, dz:i029-034 |
 | [questions/q0303.md](questions/q0303.md) | question q303 | Whose year serves for the son and bride and the points the notes pass over | open; cites wb.2:p532-533 |
 | [questions/q0304.md](questions/q0304.md) | question q304 | The thirty's 241st pebble | open; cites wb.1:p453-454 |
-| [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454 |
+| [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454, wbz:i605-607, wbz:i608-627 |
 | [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
 | [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | open; cites wb.2:p90-93 |
 | [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | open; cites wb.2:p86-90, wb.2:p77-80 |
@@ -370,22 +370,22 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0325.md](questions/q0325.md) | question q325 | The sky-bird's parts and «སོ་གཉིས་བར་དུ» | open; cites wb.2:p29-30 |
 | [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
 | [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | open; cites wb.2:p37 |
-| [questions/q0328.md](questions/q0328.md) | question q328 | The black small feet's months, links and times | open; cites wb.2:p38-39 |
+| [questions/q0328.md](questions/q0328.md) | question q328 | The black small feet's months, links and times | open; cites wb.2:p38-39, wbz:i680 |
 | [questions/q0329.md](questions/q0329.md) | question q329 | Whether a black small foot needs year, month and hour together | open; cites wb.2:p38-39 |
 | [questions/q0330.md](questions/q0330.md) | question q330 | The doors of sky and earth and the black days, p. 42 | open; cites wb.2:p42 |
-| [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43 |
+| [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43, wbz:i686 |
 | [questions/q0332.md](questions/q0332.md) | question q332 | The trigrams and «བོན་བཞི» of ordination, p. 39 | open; cites wb.2:p39b |
-| [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | open; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108 |
+| [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | open; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784 |
 | [questions/q0334.md](questions/q0334.md) | question q334 | The word read «ལྷང» on p. 106 | open; cites wb.2:p106-107 |
 | [questions/q0335.md](questions/q0335.md) | question q335 | «གཤེད་བཞི་ཤར་དུ་མི་གཏོང»: the east, or where the four slayers rise | open; cites wb.2:p97-100 |
-| [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | open; cites wb.2:p97-100 |
+| [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | answered; cites wb.2:p97-100, wbz:i768 |
 | [questions/q0337.md](questions/q0337.md) | question q337 | «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing | open; cites wb.2:p97-100 |
-| [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135 |
+| [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135, wbz:i826 |
 | [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | open; cites wb.2:p504-512 |
 | [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | open; cites wb.2:p504-512 |
 | [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | open; cites wb.2:p165 |
 | [questions/q0342.md](questions/q0342.md) | question q342 | The five of the thirteen gates' fifth and sixth, and the own-element signs | open; cites wb.2:p170-171 |
-| [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | open; cites wb.2:p170-171 |
+| [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | answered; cites wb.2:p170-171, wbz:i880 |
 | [questions/q0344.md](questions/q0344.md) | question q344 | Which year the sixty fixed signs count | open; cites wb.2:p171-172 |
 | [questions/q0345.md](questions/q0345.md) | question q345 | The right shoulder and «ཡམས་སྐུད» on p. 163 | open; cites wb.2:p163 |
 | [questions/q0346.md](questions/q0346.md) | question q346 | The marks' line of p. 170 and the earth hour's hair | open; cites wb.2:p170 |
@@ -399,7 +399,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0354.md](questions/q0354.md) | question q354 | A name for a match of mixed kinds | open; cites wb.1:p355, wb.2:p524 |
 | [questions/q0355.md](questions/q0355.md) | question q355 | Which findings make an aspect bad in the karma reckoning | open; cites wb.2:p526, wb.2:p478 |
 | [questions/q0356.md](questions/q0356.md) | question q356 | «གནས་སྐྱུག» or «གནས་སྒྱུག» on higher-resolution blocks | open; cites wb.2:p526 |
-| [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | open; cites wb.1:p355 |
+| [questions/q0357.md](questions/q0357.md) | question q357 | The iron dog or the iron rat among the best years, p. 355 | answered; cites wb.1:p355, wbz:i464 |
 | [questions/q0358.md](questions/q0358.md) | question q358 | «ཟ་མ» and whom the nineteen pebbles are for | answered; cites wb.1:p445-447, wb.1:p445, lt:p43-44, lt:p20, dz:i051-052 |
 | [questions/q0359.md](questions/q0359.md) | question q359 | The pillow-guard among the five people the sick need | open; cites wb.1:p445 |
 | [questions/q0360.md](questions/q0360.md) | question q360 | The day's animal or the birth's in the twelve, pp. 428–429 | open; cites wb.1:p428-429 |
@@ -411,8 +411,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | open; cites wb.2:p9, wb.2:p17 |
 | [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | open; cites wb.2:p10-11 |
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
-| [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | open; cites wb.2:p3-4 |
-| [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125 |
+| [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | answered; cites wb.2:p3-4, wbz:i631 |
+| [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125, wbz:i809 |
 | [questions/q0371.md](questions/q0371.md) | question q371 | The root text's count for the la board: the Moonbeams' or LT's | open; cites dz:i055-057, lt:p26-28, wb.2:p499-500 |
 | [questions/q0372.md](questions/q0372.md) | question q372 | Whose mewa and trigram among the burial reckoning's eleven roots | open; cites dz:i057-061 |
 | [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |
@@ -422,6 +422,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0377.md](questions/q0377.md) | question q377 | The Moonbeams' readings 28 and 29 exchanged | open; cites dz:i029-034, wb.1:p453-454 |
 | [questions/q0378.md](questions/q0378.md) | question q378 | The Moonbeams' eight pebbles without the progressed year | open; cites dz:i029-034, wb.2:p532-533 |
 | [questions/q0379.md](questions/q0379.md) | question q379 | «ལྷ་ཁང་འགོའི» or «ལྷ་གང», «བསྔོས་ཚང» or «བསྡུས་ཚད» | open; cites dz:i029-034 |
+| [questions/q0380.md](questions/q0380.md) | question q380 | «spo» and «spo smad»: the Phalgunī mansions | open; cites wbz:i720, wbz:i805 |
+| [questions/q0381.md](questions/q0381.md) | question q381 | The household round's «སྐྱེད་པུར» and «མ་ཏྲཾ» | open; cites wbz:i506 |
 
 <!-- end pool index -->
 

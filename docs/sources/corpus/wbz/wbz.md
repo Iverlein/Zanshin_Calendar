@@ -439,8 +439,8 @@ WB vol. 2, p. 170, the heading of the thirteenth gate (the 1996 print), on the Z
 
 ## Open
 
-- Question: WB vol. 2 carves the same kind of stack, ས over a square-headed letter with the vowel o, for the twelfth mansion of p. 65 (where U. Phalgunī, དབོ, dbo, stands in the order; the reprint «སྤྲོ») and for the dragon's mansion of p. 122 («སྤོ»), and on the Zhol blocks the snake's mansion of p. 122 is that stack with «སྨད», "lower" («སྤོ་སྨད», where the 1996 print has «སྦ་སྨད»): is «spo» (or «spro») a name of the Phalgunī mansions, «spo smad» the lower of them, and which of the two does each line mean?
-- Question: The household round's remedies (WB vol. 1, p. 386) name «སྐྱེད་པུར» or «སྐྱེད་བུར» on the Zhol blocks (a square-headed letter, not ཕ) beside the white broth, and the demon ransom with «མ་ཏྲཾ» (read with doubt): what are the two offerings?
+- Question 380 ([q0380](../../questions/q0380.md)): WB vol. 2 carves the same kind of stack, ས over a square-headed letter with the vowel o, for the twelfth mansion of p. 65 (where U. Phalgunī, དབོ, dbo, stands in the order; the reprint «སྤྲོ») and for the dragon's mansion of p. 122 («སྤོ»), and on the Zhol blocks the snake's mansion of p. 122 is that stack with «སྨད», "lower" («སྤོ་སྨད», where the 1996 print has «སྦ་སྨད»): is «spo» (or «spro») a name of the Phalgunī mansions, «spo smad» the lower of them, and which of the two does each line mean?
+- Question 381 ([q0381](../../questions/q0381.md)): The household round's remedies (WB vol. 1, p. 386) name «སྐྱེད་པུར» or «སྐྱེད་བུར» on the Zhol blocks (a square-headed letter, not ཕ) beside the white broth, and the demon ransom with «མ་ཏྲཾ» (read with doubt): what are the two offerings?
 
 ## Searched and not found
 

@@ -960,3 +960,8 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, the thirty or the circles in UT (etext IE0OPI6328F058, «སྐོར་འགོ», «ལྡིང», «བལ་མོ», «དཔྱད་ལྡིང», «བྱ་ཁྱུང»): only the general starting points (ut:p4, ut:p5) and the dead's thirteen examinations; the *Moonbeams*' six reckonings hold no circles.
   - 2026-10-23, a worked thirty: BDRC's full-text search for «ཤིང་གི་བྱི་གླང་སྟེང་ནས་བརྩི», «བརྩི་བྱའི་ཁམས་མཐུན་པའི», «སྐོར་འགོ་ཀུན་ལ་རྡེལ་བརྒྱད», «སྐོར་འགོ་སུམ་ཅུའི», «རྒྱ་བོད་སྐོར་འགོ»: WB's prints, LT and its reprints, the *Moonbeams*' prints (I2533, KD, I2PD18783, I1KG10408) and catalogues, no thirty worked for a person.
   - 2026-10-23, the circles' mewa in a phrase: «ལུས་སྨེ་ནས་གྱེན», «སྨེ་འཕྲེང་མཐུན་པའི», «དགྲའི་བྱ་ནས་གྱེན», «ཁམས་ཀྱི་དགྲའི་བྱ་ནས»: no hits.
+- **WB's doubtful words on the Lhasa blocks** (RD46, 2026-10-23):
+  - 2026-10-23, WBZ img. 701, l. 2 (p. 53, «བྲག་དམར་ན་ལ») and img. 817, ll. 2–3 (p. 130, dwa's food): the Zhol folio is worn there and gives nothing at 4–5×.
+  - 2026-10-23, WBZ img. 473, l. 6 (vol. 1, p. 362, the in-laws' «གནས་སྐྱུག»): ཀ or ག not visible at 6×.
+  - 2026-10-23, WBZ img. 506, l. 5 (vol. 1, p. 386, the syllable before «བཟློག»): not legible at 4×.
+  - 2026-10-23, Mipham's print of the notes (I2029, 3400 px, about 33 px a line): img. 654 holds the household round's division (vol. 2, p. 491, question 317), but at 3× its letters run together; Yigdzin-1 reads «རྡེའུ་གྲངས་གསུམ་གྱིས་བགོས་པས».
