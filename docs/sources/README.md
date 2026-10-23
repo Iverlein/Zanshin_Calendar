@@ -102,6 +102,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-rebirth-by-mewa.md](claims/dead-rebirth-by-mewa.md) | claim, table | The rebirth by the mewa of death, with the image that turns it | cites wb.2:p70-72, wb.2:p503-504; feeds block-31 |
 | [claims/dead-rebirth-by-posture.md](claims/dead-rebirth-by-posture.md) | claim, list | The rebirth by the manner of dying and the posture | cites wb.2:p70-72; feeds block-31 |
 | [claims/dead-rebirth-verdict.md](claims/dead-rebirth-verdict.md) | claim, rule | The rebirth's deciding pebble and its twelve roots | cites wb.2:p70-72, wb.2:p500-501; feeds block-31 |
+| [claims/dead-rites-by-date.md](claims/dead-rites-by-date.md) | claim, table | Death on each lunar date: whom it falls on and what is done | cites wb.2:p116-118, wb.2:p111-112, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-by-mansion.md](claims/dead-rites-by-mansion.md) | claim, table | Death on each lunar mansion, and by element and year | cites wb.2:p119-122, wb.2:p122, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-by-mewa.md](claims/dead-rites-by-mewa.md) | claim, table | Death on a bad mewa: the skull and the place by the mewa | cites wb.2:p112, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-by-planet.md](claims/dead-rites-by-planet.md) | claim, table | Death on each planet: the wheel's skull and place | cites wb.2:p118-119, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-by-trigram.md](claims/dead-rites-by-trigram.md) | claim, table | The rites for a death on each trigram | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108; feeds block-31 |
+| [claims/dead-rites-clans.md](claims/dead-rites-clans.md) | claim, table | The five clans' strikes and slips by element | cites wb.2:p114-115, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-colours-together.md](claims/dead-rites-colours-together.md) | claim, note | The white, speckled and black rites are parts of one trigram's rite, not a choice by colour | cites wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wb.2:p112-114, wb.2:p517; feeds block-31, block-58 |
+| [claims/dead-rites-eyes-horns.md](claims/dead-rites-eyes-horns.md) | claim, table | Death on a trigram by the dead's year: the four eyes and the four horns | cites wb.2:p109-111, wb.2:p517; feeds block-31 |
+| [claims/dead-rites-notes-classes.md](claims/dead-rites-notes-classes.md) | claim, list | Mipham's thirteen classes of remedy and the chapter's sections | cites wb.2:p517, wb.2:p104-105; feeds block-31, block-58 |
+| [claims/dead-rites-order.md](claims/dead-rites-order.md) | claim, rule | The order of the rites against a run of deaths, and the grave rule by date | cites wb.2:p111-112, wb.2:p112-114, wb.2:p114-115, wb.2:p124, wb.2:p124-125, wb.2:p125-126; feeds block-31 |
 | [claims/dead-six-lamps.md](claims/dead-six-lamps.md) | claim, table | The six great lamps: deaths that repeat in a household | cites wb.2:p55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-third-examination-inputs.md](claims/dead-third-examination-inputs.md) | claim, rule | The third examination's inputs: the dead's year, the death year's trigram and mewa, day, weekday, mansion, hour | cites wb.2:p58-60, wb.2:p503b; feeds block-31, R2 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
@@ -130,13 +140,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 4 scan, 6 machine |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 0 passages: nothing read yet |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 3 scan, 3 machine |
-| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 0 passages: nothing read yet |
+| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 machine |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 0 passages: nothing read yet |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 0 passages: nothing read yet |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
-| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 10 passages: 8 scan, 2 machine |
+| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 0 passages: nothing read yet |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
