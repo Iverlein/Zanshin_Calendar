@@ -438,6 +438,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0382.md](questions/q0382.md) | question q382 | The Lord Lama's replies and the iron bird and monkey | open; cites ys:i494-496 |
 | [questions/q0383.md](questions/q0383.md) | question q383 | The old text of the servants' fine start | open; cites ys:i497-498 |
 | [questions/q0384.md](questions/q0384.md) | question q384 | «དཀར་ནག་བསྔོ་མེད», «རྦད་ཁམ», «སྤང་གནས་ཀྱི་རྩིས་ལོག་མིན་པ» | open; cites ys:i496, ys:i497-498, ys:i498-499 |
+| [questions/q0385.md](questions/q0385.md) | question q385 | The do gcig of the trigram repetition | open; cites ys:i513-514, wb.2:p86-90, wb.2:p504-512 |
+| [questions/q0386.md](questions/q0386.md) | question q386 | «ཡི་བམ» and «འབྱུང་ཆུང» in reply 152 | open; cites ys:i513-514 |
+| [questions/q0387.md](questions/q0387.md) | question q387 | «སྟོངས», an empty aspect, in reply 148 | open; cites ys:i506-508 |
+| [questions/q0388.md](questions/q0388.md) | question q388 | Reply 111's verdict pebble and «ངན་ཐ་ཆད» | open; cites ys:i467-468 |
+| [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | open; cites ys:i491, wb.2:p497 |
 
 <!-- end pool index -->
 

@@ -2735,6 +2735,7 @@ the text, not about the app.
      (the notes, p. 497, repeat the words and add «སོགས»)?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Narrowed 2026-10-23 (RD48, [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md#ys-i491)): the regent's reply 133 names the five pebbles as the trigram elements of the year, month, day and hour of falling ill («དེ་བཞིའི་སྤར་ཁམས»), with the commonest element among them the fifth; the notes (p. 497) take the four life-force elements instead (question 389).*
 227. **The notes' seven elements (the notes, vol. 2, p. 497, l. 11).**
      Which are the notes' seven («ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the
      life force of the year, month and day of falling ill, the hour's

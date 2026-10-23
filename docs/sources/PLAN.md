@@ -156,7 +156,7 @@ scratch directory, not in the repository:
   *G.ya' sel* (MW2PD17386_474815, and in the etext group
   VEIE0OPID552C050), are search-only there, but one copy has a full
   etext: `bdrc.py etext DIR VEIE0OPIF790A4DF_I5876` (546 pages, found
-  2026-10-19; the 106th reply on etext pp. 23–24). The replies answer
+  2026-10-19; the 165th reply on etext pp. 23–24, the 168th on p. 25; the 106th is in vol. 1, I5875 img. 461, RD48, 2026-10-23). The replies answer
   WB's own puzzles (open question 33 came from one); search a question's
   key words with «ཞེས» to reach them. A search-only text can be read
   further by chaining: search the last words of one snippet, and the next
@@ -967,3 +967,7 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, Mipham's print of the notes (I2029, 3400 px, about 33 px a line): img. 654 holds the household round's division (vol. 2, p. 491, question 317), but at 3× its letters run together; Yigdzin-1 reads «རྡེའུ་གྲངས་གསུམ་གྱིས་བགོས་པས».
 - **Removing the Tarnish's replies on ch. 26–27** (RD47, 2026-10-23):
   - 2026-10-23, the *Removing the Tarnish* etexts (I5875, I5876): «བརྒྱ་སོ་བདུན», «བརྒྱ་སོ་བརྒྱད», «བརྒྱ་སོ་དགུ», «བརྒྱ་བཞི་བཅུ» no hit, the OCR writing «བརྒྱུ་སོ», «བཅས་བརྒྱད», «བརྒྱས»; the questions run in WB's chapter order (135–136 ch. 25, 137–142 ch. 26–27, 143 ch. 28), so no other question on ch. 26–27 stands among them; the replies say nothing of which element picks the thirty's pairs, of whether the birth year counts as one, or of the circles' mewa.
+- **Removing the Tarnish on the dead, the sick, the moment and the match** (RD48, 2026-10-23):
+  - 2026-10-23, the *Removing the Tarnish*, questions 101–136 and 143–160 (I5875 img. 90–108, Yigdzin-1): none asks which places of the la board are upper, lower and middle (q270), how the death day's planet's state is found (q282), from what age the nine-eye strike and the old kinds are counted (q308), which year the illness table of WB vol. 1, p. 426 calls the sky year (q361), which mewa the second examination's mewa reason reads (q272), or the fire and iron clans' great and small cut-off (q375); nor does any question or reply of ch. 23 (107–119) give a name or rule for a couple whose aspects fall into different kinds (q209, q354).
+  - 2026-10-23, the *Removing the Tarnish* etext of vol. 1 (VEIE0OPIF790A4DF_I5875), pp. 450–546: «ཞུད», «གྱོད», «དགུ་མིག», «བླ་རྡེལ», «ཤི་ལོ», «བབ་སྤར» give nothing on the reckoning for the dead's inputs; the etext's ordinals are mostly misread, so the replies were found by Yigdzin-1's reading of the images.
+  - 2026-10-23, WB's etext (IE0OPI51524892), vol. 1, for «ཁ་འཕངས» / «ཞལ་འཕངས» of question and reply 111: no hit; the term is the regent's and his questioner's, not WB's.
