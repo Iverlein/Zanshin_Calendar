@@ -299,3 +299,14 @@ zg:
   role: source
   etext_offset: 44
   notes: "printed page = etext page − 44 (p. 303 = etext p. 347, VEIE0OPIDB78C0F0_I4PD2444); written as a branch of his table manual Ku mu da'i rdzing bu"
+ys:
+  title: "Vaiḍūrya g.ya' sel (Removing the Tarnish from the White Beryl), replies to questions on it"
+  author: "Sde srid Sangs rgyas rgya mtsho (1653–1705)"
+  edition: "the Taikhang reproduction of a Lhasa print, New Delhi, BDRC image group I5875"
+  bdrc: {scans: [I5875]}
+  licence: public-domain
+  rank: 2
+  role: source
+  locator: image
+  notes: "the author of WB answering questions on it; reply 113 at img. 469 (RD21); replies 137–140 on the thirty and the circles near etext pp. 100–101 and 494–498 (RD44); the work id and etext to confirm"
+
