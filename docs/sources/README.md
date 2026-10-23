@@ -67,11 +67,25 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
+| [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-cause-outer.md](claims/dead-cause-outer.md) | claim, table | The second examination: the outer reason by the four deciding pebbles and the elements | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-cause-trigram.md](claims/dead-cause-trigram.md) | claim, table | The second examination: the inner reason by the trigram of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-fifteenth-parts.md](claims/dead-fifteenth-parts.md) | claim, rule | The dead's fifteenth examination: its parts and what selects each | cites wb.2:p128-129, wb.2:p129-132, wb.2:p133-135, wb.2:p135-137, wb.2:p137-138, wb.2:p139-140, wb.2:p141-142, wb.2:p522; feeds block-31 |
 | [claims/dead-five-graves-lands.md](claims/dead-five-graves-lands.md) | claim, list | The five graves' chants: land and wish | cites wb.2:p135-137; feeds block-31 |
 | [claims/dead-grave-provisions-by-trigram.md](claims/dead-grave-provisions-by-trigram.md) | claim, table | The grave provisions, by the dead's trigram | cites wb.2:p129-132, wb.2:p522; feeds block-31 |
 | [claims/dead-ground-elements-kin.md](claims/dead-ground-elements-kin.md) | claim, list | Searching for the ground: the elements' gods and the kin each one shields | cites wb.2:p133-135; feeds block-31 |
+| [claims/dead-household-birth-mewa.md](claims/dead-household-birth-mewa.md) | claim, table | The living household's birth mewa many on one colour | cites wb.2:p51-52; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-household-years-together.md](claims/dead-household-years-together.md) | claim, table | The household's years counted together | cites wb.2:p54-55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-joined-hands-omens.md](claims/dead-joined-hands-omens.md) | claim, rule | The road omens after cutting the joined hands | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
+| [claims/dead-kin-element-years.md](claims/dead-kin-element-years.md) | claim, table | The dead's paternal kin by element and the members' years | cites wb.2:p51-52; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-general-verdict.md](claims/dead-la-general-verdict.md) | claim, table | The la pebbles' general verdict: the board's shape | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-pebbles-layout.md](claims/dead-la-pebbles-layout.md) | claim, rule | The twelve la pebbles: the board and how each living member is laid | cites wb.2:p52-54, wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-special-verdict.md](claims/dead-la-special-verdict.md) | claim, table | The la pebbles' special verdict: black or half before each place | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-specific-verdict.md](claims/dead-la-specific-verdict.md) | claim, table | The la pebbles' specific verdict: empty and filled places | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-living-twenty-one.md](claims/dead-living-twenty-one.md) | claim, rule | The living household: each living member's twenty-one pebbles | cites wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-mewa-copper-vessel.md](claims/dead-mewa-copper-vessel.md) | claim, table | The mewa's copper vessel: the household's birth mewa | cites wb.2:p54-55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-six-lamps.md](claims/dead-six-lamps.md) | claim, table | The six great lamps: deaths that repeat in a household | cites wb.2:p55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
@@ -88,12 +102,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 0 passages: nothing read yet |
 | [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 0 passages: nothing read yet |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 0 passages: nothing read yet |
-| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 1 passages: 1 scan |
+| [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 0 passages: nothing read yet |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 0 passages: nothing read yet |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
-| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 1 passages: 1 scan |
+| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 4 passages: 4 scan |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 0 passages: nothing read yet |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
