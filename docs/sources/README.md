@@ -66,6 +66,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | --- | --- | --- | --- |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
+| [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
@@ -133,6 +134,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
 | [claims/funeral-palace-45.md](claims/funeral-palace-45.md) | claim, table | The forty-five pebbles of the palace: a scale of fathoms | cites wb.2:p521; feeds block-31 |
+| [claims/household-mewa-verdicts.md](claims/household-mewa-verdicts.md) | claim, table | The household's general verdicts when many share a mewa of the year | cites wb.1:p407-408; feeds block-58, R4 |
+| [claims/household-round-fold.md](claims/household-round-fold.md) | claim, rule | The household round: the fold, the refold and the places, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
+| [claims/household-round-inputs.md](claims/household-round-inputs.md) | claim, rule | The household round: who is counted and what each brings | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
+| [claims/household-round-member-pebbles.md](claims/household-round-member-pebbles.md) | claim, conflict | The household round: each member's four deciding pebbles, not the year's four meetings | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
+| [claims/household-round-places.md](claims/household-round-places.md) | claim, table | The household round: the readings of each place by colour | cites wb.1:p385-387; feeds block-58, R4 |
+| [claims/household-round-zigzag.md](claims/household-round-zigzag.md) | claim, rule | The household round: the order of taking, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-places-not-allowed.md](claims/remains-places-not-allowed.md) | claim, table | The twenty-six places not allowed even if clean | cites wb.2:p104; feeds block-31 |
@@ -176,11 +183,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
+| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the household round and the birth's hundred | 2 passages: 2 scan |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 0 passages: nothing read yet |
-| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 0 passages: nothing read yet |
+| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 0 passages: nothing read yet |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
@@ -193,8 +201,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 machine |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
-| [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 0 passages: nothing read yet |
-| [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 0 passages: nothing read yet |
+| [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 1 passages: 1 scan |
+| [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 9 scan, 4 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
