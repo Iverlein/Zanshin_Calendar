@@ -308,5 +308,8 @@ ys:
   rank: 2
   role: source
   locator: image
-  notes: "the author of WB answering questions on it; vol. 1 (I5875, 548 images) holds the questions (from img. 9) and the replies; etext page = image number (VEIE0OPIF790A4DF_I5875; questions 137–142 img. 100–101, replies 494–499, RD47; reply 113 img. 469, RD21); vol. 2 (I5876, etext VEIE0OPIF790A4DF_I5876) holds replies as well (reply 106 on its etext pp. 23–24) and was not read for RD47; another print MW2PD17386_474815, search only"
+  volumes:
+    1: {scan: I5875}
+    2: {scan: I5876}
+  notes: "the author of WB answering questions on it; vol. 1 (I5875, 548 images) holds the questions (from img. 9) and the replies; etext page = image number (VEIE0OPIF790A4DF_I5875; questions 137–142 img. 100–101, replies 494–499, RD47; reply 113 img. 469, RD21); vol. 2 (I5876, etext VEIE0OPIF790A4DF_I5876, title page img. 8) carries the replies on: reply 153 runs on to img. 14, replies 154–160 on ch. 30 are img. 14–18 (RD48), reply 161 opens ch. 31 on img. 18, and replies 165 and 168 stand on etext pp. 22–25 (the 'reply 106' once noted there is 165 misread); vol. 1's replies 101–153 on ch. 22–29 are img. 454–546 (RD48); passage ids of vol. 2 carry the volume, ys.2:iN, those of vol. 1 none; another print MW2PD17386_474815, search only"
 
