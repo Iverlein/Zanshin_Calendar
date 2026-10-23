@@ -125,6 +125,42 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-roads.md](claims/remains-roads.md) | claim, list | The remains are sent after four days, checked by ten roads | cites wb.2:p94-96, wb.2:p96-97; feeds block-31 |
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
+| [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
+| [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
+| [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
+| [claims/thirty-04-bon-priests.md](claims/thirty-04-bon-priests.md) | claim, table | The thirty: the fourth point, the turquoise dragon, for the reckoning of the Bon priests | cites wb.1:p456; feeds block-31 |
+| [claims/thirty-05-elders.md](claims/thirty-05-elders.md) | claim, table | The thirty: the fifth point, the elephant of the earth, for the chief elders | cites wb.1:p456-457; feeds block-31 |
+| [claims/thirty-06-young-men.md](claims/thirty-06-young-men.md) | claim, table | The thirty: the sixth point, the striped Chinese tiger, for young men | cites wb.1:p457-458; feeds block-31 |
+| [claims/thirty-07-wives.md](claims/thirty-07-wives.md) | claim, table | The thirty: the seventh point, the red copper ogress, for wives and women | cites wb.1:p458; feeds block-31 |
+| [claims/thirty-08-small-children.md](claims/thirty-08-small-children.md) | claim, table | The thirty: the eighth point, the five-pointed golden vajra, for small children | cites wb.1:p458-459; feeds block-31 |
+| [claims/thirty-09-girls.md](claims/thirty-09-girls.md) | claim, table | The thirty: the ninth point, the adorned parrot, for young women and girls | cites wb.1:p459; feeds block-31 |
+| [claims/thirty-10-subjects.md](claims/thirty-10-subjects.md) | claim, table | The thirty: the tenth point, the palace of the nine continents, for subjects, retinue and servants | cites wb.1:p459-460, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-11-horses.md](claims/thirty-11-horses.md) | claim, table | The thirty: the eleventh point, the precious supreme horse, for horses: the eight horse reckonings | cites wb.1:p460, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-12-livestock.md](claims/thirty-12-livestock.md) | claim, table | The thirty: the twelfth point, the young wild yak of the north on the blue goat, for wealth and livestock, goats, sheep and the rest | cites wb.1:p460-461; feeds block-31 |
+| [claims/thirty-13-couple.md](claims/thirty-13-couple.md) | claim, table | The thirty: the thirteenth point, the golden vase, for husband and wife together | cites wb.1:p461-462; feeds block-31 |
+| [claims/thirty-14-bride.md](claims/thirty-14-bride.md) | claim, table | The thirty: the fourteenth point, the Chinese peacock with crossed necks, for the bride's going | cites wb.1:p462, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-15-house.md](claims/thirty-15-house.md) | claim, table | The thirty: the fifteenth point, the garuḍa head on the temple's Chinese roof, for house and household, by the eight directions | cites wb.1:p462-463, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-16-ground.md](claims/thirty-16-ground.md) | claim, table | The thirty: the sixteenth point, the eight golden continents, the ground, for merit and the means of work: the ground, the trees, the site of a castle | cites wb.1:p463; feeds block-31 |
+| [claims/thirty-17-armour-vessel.md](claims/thirty-17-armour-vessel.md) | claim, table | The thirty: the seventeenth point, the blazing jewel, for armour and the copper vessel | cites wb.1:p463-464, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-18-la-tree.md](claims/thirty-18-la-tree.md) | claim, table | The thirty: the eighteenth point, the tree in full leaf, for the la tree good or bad, or a child's existence | cites wb.1:p464-465; feeds block-31 |
+| [claims/thirty-19-helping-god.md](claims/thirty-19-helping-god.md) | claim, table | The thirty: the nineteenth point, the divine owl, for which god helps | cites wb.1:p465; feeds block-31 |
+| [claims/thirty-20-harming-spirit.md](claims/thirty-20-harming-spirit.md) | claim, table | The thirty: the twentieth point, the black grave bird, for which harming spirit | cites wb.1:p465-466; feeds block-31 |
+| [claims/thirty-21-old.md](claims/thirty-21-old.md) | claim, table | The thirty: the twenty-first point, the great deer, for the old | cites wb.1:p466, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-22-sick.md](claims/thirty-22-sick.md) | claim, table | The thirty: the twenty-second point, the sick lying askew, for the sick | cites wb.1:p466-467; feeds block-31 |
+| [claims/thirty-23-dead.md](claims/thirty-23-dead.md) | claim, table | The thirty: the twenty-third point, the red corpse, for the dead | cites wb.1:p467, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-24-burning.md](claims/thirty-24-burning.md) | claim, table | The thirty: the twenty-fourth point, the pale wooden box, for the deciding pebbles for burning or keeping the remains | cites wb.1:p468, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-25-grave-site.md](claims/thirty-25-grave-site.md) | claim, table | The thirty: the twenty-fifth point, the nine stacked skulls, for the grave site good or bad | cites wb.1:p468b, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-26-rites.md](claims/thirty-26-rites.md) | claim, table | The thirty: the twenty-sixth point, the three-headed earth lord, for the rites, white, black and speckled | cites wb.1:p468-469; feeds block-31 |
+| [claims/thirty-27-men-life-force.md](claims/thirty-27-men-life-force.md) | claim, table | The thirty: the twenty-seventh point, the golden crossed vajra, for men, at the place of the life force | cites wb.1:p469; feeds block-31 |
+| [claims/thirty-28-children-body.md](claims/thirty-28-children-body.md) | claim, table | The thirty: the twenty-eighth point, the eight-spoked wheel, for small children, at the place of the body | cites wb.1:p469-470; feeds block-31 |
+| [claims/thirty-29-women-power.md](claims/thirty-29-women-power.md) | claim, table | The thirty: the twenty-ninth point, the coiled swastika, for wives and women, at the place of the power | cites wb.1:p470; feeds block-31 |
+| [claims/thirty-30-great-men-luck.md](claims/thirty-30-great-men-luck.md) | claim, table | The thirty: the thirtieth point, the eight-petalled lotus, for great men, the learned and the craftsmen, at the place of the luck | cites wb.1:p470-471; feeds block-31 |
+| [claims/thirty-board-groups.md](claims/thirty-board-groups.md) | claim, rule | The thirty: the eight pebbles in three groups, and the order of the checks | cites wb.1:p453-454, wb.1:p471-472, wb.2:p532-533; feeds block-31, block-58 |
+| [claims/thirty-count.md](claims/thirty-count.md) | claim, rule | The thirty: how the year of a starting point is reached | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-eight-fighters.md](claims/thirty-eight-fighters.md) | claim, table | The thirty: the eight fighting pebbles and their colours | cites wb.1:p453-454; feeds block-31 |
+| [claims/thirty-general-board.md](claims/thirty-general-board.md) | claim, table | The thirty: each starting point's board read whole | cites wb.1:p471-472, wb.1:p468b; feeds block-31, block-58 |
+| [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
@@ -132,7 +168,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 0 passages: nothing read yet |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 0 passages: nothing read yet |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 0 passages: nothing read yet |
-| [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 0 passages: nothing read yet |
+| [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 0 passages: nothing read yet |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
@@ -148,7 +184,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 12 passages: 9 scan, 3 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
-| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 0 passages: nothing read yet |
+| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 1 passages: 1 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
