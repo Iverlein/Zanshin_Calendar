@@ -70,8 +70,27 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 3 passages: 3 etext |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
+| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 0 passages: nothing read yet |
+| [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 0 passages: nothing read yet |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 0 passages: nothing read yet |
+| [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 0 passages: nothing read yet |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
+| [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 0 passages: nothing read yet |
+| [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 0 passages: nothing read yet |
+| [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 0 passages: nothing read yet |
+| [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 0 passages: nothing read yet |
+| [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 0 passages: nothing read yet |
+| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 0 passages: nothing read yet |
+| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 0 passages: nothing read yet |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 1 passages: 1 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
+| [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 0 passages: nothing read yet |
+| [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 0 passages: nothing read yet |
+| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
+| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 0 passages: nothing read yet |
+| [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
+| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 0 passages: nothing read yet |
+| [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 
