@@ -249,6 +249,22 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
+| [claims/wbz-p104-je-ngan.md](claims/wbz-p104-je-ngan.md) | claim, note | The eighth place not allowed is «je ngan je chung», and the fourteenth «rmang por», on the Zhol blocks | cites wbz:i777, wb.2:p104; feeds block-31 |
+| [claims/wbz-p122-spo-mansions.md](claims/wbz-p122-spo-mansions.md) | claim, note | P. 122's dragon and snake mansions are «spo» and «spo smad» on the blocks | cites wbz:i805, wb.2:p122; feeds block-31 |
+| [claims/wbz-p124-bsgrub.md](claims/wbz-p124-bsgrub.md) | claim, note | The five graves' «bsgrub» is carved so on the blocks | cites wbz:i809, wb.2:p124-125; feeds block-31 |
+| [claims/wbz-p128-sgo.md](claims/wbz-p128-sgo.md) | claim, note | The fifteenth's heading reads «sgo dbye» on the blocks | cites wbz:i814, wb.2:p128-129; feeds block-31 |
+| [claims/wbz-p130-dwa-food.md](claims/wbz-p130-dwa-food.md) | claim, note | Dwa's food on the Taikhang: «bya sha ju rtse skyur/sgur rtsib g.yon» | cites wbz:i817, wb.2:p129-132; feeds block-31 |
+| [claims/wbz-p135-pha-gu.md](claims/wbz-p135-pha-gu.md) | claim, note | The kin of wood are «pha gu mes» on the blocks | cites wbz:i826, wb.2:p133-135; feeds block-31 |
+| [claims/wbz-p171-rta-heading.md](claims/wbz-p171-rta-heading.md) | claim, note | The thirteenth gate: horse in the heading, bird in the result, on the blocks | cites wbz:i880, wb.2:p170-171; feeds block-31 |
+| [claims/wbz-p355-iron-dog.md](claims/wbz-p355-iron-dog.md) | claim, note | The Lhasa blocks carve the iron dog in p. 355's fourth pair | cites wbz:i464, wb.1:p355; feeds block-58 |
+| [claims/wbz-p38-black-small-feet.md](claims/wbz-p38-black-small-feet.md) | claim, note | The blocks carve the black small feet's month, links and time as the 1996 print | cites wbz:i680, wb.2:p38-39; feeds block-31 |
+| [claims/wbz-p4-klung-gso.md](claims/wbz-p4-klung-gso.md) | claim, remedy | The first circle's broken syllable is the luck, «klung gso 'dzugs» | cites wbz:i631, wb.2:p3-4; feeds block-31 |
+| [claims/wbz-p42-phyi-rtsis.md](claims/wbz-p42-phyi-rtsis.md) | claim, note | The boasters' reckoning is the «phyi rtsis», and the fifth and sixth years fight the life force on the blocks | cites wbz:i686, wb.2:p42-43; feeds block-31 |
+| [claims/wbz-p53-55-syllables.md](claims/wbz-p53-55-syllables.md) | claim, note | The doubtful syllables of WB vol. 2, pp. 53–55 on the Taikhang and Zhol blocks | cites wbz:i700, wbz:i703, wb.2:p52-54, wb.2:p54-55, wb.2:p55; feeds block-31 |
+| [claims/wbz-p66-g-yang-rjen.md](claims/wbz-p66-g-yang-rjen.md) | claim, note | U. Phalgunī's entry: one stack with o, and «g.yang rjen», on the blocks | cites wbz:i720, wb.2:p65-66; feeds block-31 |
+| [claims/wbz-p98-bkra-ro.md](claims/wbz-p98-bkra-ro.md) | claim, note | P. 98's «bkra ngo» is «bkra ro» on the blocks | cites wbz:i768, wb.2:p97-100; feeds block-31 |
+| [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
+| [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 8 passages: 8 scan |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
@@ -280,7 +296,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
-| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 0 passages: nothing read yet |
+| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 21 passages: 20 scan, 1 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 0 passages: nothing read yet |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 0 passages: nothing read yet |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 1 passages: 1 scan |
