@@ -25,7 +25,7 @@ from pathlib import Path
 
 from PIL import Image
 
-MODEL = "Gemini 3.1 Pro (High)"  # --model works only before -p
+MODEL = "Gemini 3.8 Flash (Medium)"  # --model works only before -p; the owner, 2026-10-23: medium effort is enough for pictures
 TYPESET = (
     "This is a page of a public-domain Tibetan treatise of 1685 (Sde srid Sangs rgyas rgya mtsho, "
     "White Beryl, chapter on astrology), in the typeset Beijing edition of 1996, needed for a "
