@@ -99,6 +99,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
+| [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
+| [questions/q0261.md](questions/q0261.md) | question q261 | The sealing trigram of each provision block, and khon's missing seal | open; cites wb.2:p129-132 |
+| [questions/q0262.md](questions/q0262.md) | question q262 | Dwa's food on p. 130 | open; cites wb.2:p129-132 |
+| [questions/q0263.md](questions/q0263.md) | question q263 | «སྒོམ» or «སྒོ» in the fifteenth's heading | open; cites wb.2:p128-129 |
+| [questions/q0264.md](questions/q0264.md) | question q264 | What the road omens of the joined hands say | open; cites wb.2:p139-140 |
+| [questions/q0265.md](questions/q0265.md) | question q265 | «བུ་ནས་གཟུགས་དང་མར་བཅོས» in the notes, p. 522 | open; cites wb.2:p522 |
+| [questions/q0266.md](questions/q0266.md) | question q266 | The colophon's authorities and Ldum po's figure | open; cites wb.2:p142-143 |
 
 <!-- end pool index -->
 

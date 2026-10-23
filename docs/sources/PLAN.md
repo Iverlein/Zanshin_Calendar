@@ -916,3 +916,7 @@ Searched and found wanting, so not to be repeated:
   "Gemini 4 Argon (High)", img. 362's head row and img. 089's title timed
   out at 20 minutes with no text, and img. 004 was refused by the model's
   filter. No agy reading was used.
+- **The fifteenth examination of the dead (WB vol. 2, pp. 128–143)** (RD36, 2026-10-23):
+  - 2026-10-23, a calculation of the grave's site in "searching for the ground" (pp. 133–135, from Mañjuśrī's turtle): none; the part is a rite. Its only reckoned items are the remedies of the year's trigram, planet and mansion (p. 133; the notes, p. 522). The ground reckoning proper is the notes' section 5 (ས་རྩིས, sa rtsis, 5,600 pebbles, from p. 522) and ch. 32.
+  - 2026-10-23, a verdict or reading of the fifteenth examination's own (pp. 128–143 and the notes, p. 522): none; its 4 result pebbles (p. 51) are rites chosen by the trigram, the grave kind and the dead.
+  - 2026-10-23, MITRA on one GPU slot shared by eight readers: no slot within twenty minutes; the pages were read by eye on the Gser thang reprint (I3CN5029, image = page + 6 for pp. 128–143).
