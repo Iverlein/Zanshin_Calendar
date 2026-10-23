@@ -2547,6 +2547,15 @@ the text, not about the app.
      Is p. 475's line the birth's own rule, or a short way of writing
      that the notes correct elsewhere? [verdicts.md](verdicts.md),
      "Mipham's notes on condensing" (RD26).
+     *Answered 2026-10-23 (RD43, [corpus/wb/notes-1.md](corpus/wb/notes-1.md#wb-2-p475),
+     [corpus/dz/dz.md](corpus/dz/dz.md)): the birth hundred's own rule, not a
+     short way of writing. The* Moonbeams *gives the same rule for the same
+     hundred, «མ་གྲོགས་དཀར་ལ་དགྲ་བུ་ནག» (mother and friend white, enemy and son
+     black), one pebble a meeting (DZ f. 16b); WB's own count of the hundred
+     (vol. 1, pp. 260–261) gives no colour rule. The white-and-black pair
+     belongs to the reckonings that weigh a meeting by its pebbles, ch. 24's
+     la pebbles (p. 380) and the illness (p. 417);
+     [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md).*
 198. **The marks of the notes' worked table (WB vol. 2, p. 475, img. 483).**
      What are the two marks of p. 475's worked table, the small circle
      and the cross; is the circle white? [verdicts.md](verdicts.md),

@@ -267,6 +267,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | open; cites wb.2:p86-90 |
 | [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | open; cites wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0316.md](questions/q0316.md) | question q316 | The mansions of the sounding's examination under other names | open; cites wb.2:p90-93 |
+| [questions/q0317.md](questions/q0317.md) | question q317 | «གསུམ་གྱིས་བགོས» or «བཞི»: dividing the household's pebbles | open; cites wb.2:p490-491 |
+| [questions/q0318.md](questions/q0318.md) | question q318 | A speckled deciding pebble in the household round | open; cites wb.1:p385-387, wb.2:p490-491, dz:i048-049 |
+| [questions/q0319.md](questions/q0319.md) | question q319 | The wealth's places among the household's rows | open; cites wb.1:p385-387, wb.2:p490-491 |
+| [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | open; cites wb.2:p490-491 |
 
 <!-- end pool index -->
 

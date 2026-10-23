@@ -933,3 +933,7 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-23, WB vol. 2, pp. 104–126 read through on the Gser thang reprint: no line ties the white, speckled or black rite to the colour of the thirteenth point's verdict, nor says which colour asks for great or small rites.
 - **The thirty's fighting pebbles and checks (WB vol. 1, ch. 26)** (RD37, 2026-10-23):
   - 2026-10-23, WB ch. 26 (pp. 453–472) and the notes' pp. 532–533 searched for a statement pairing the eight fighting pebbles of p. 453 with each point's eight checks: none; the only link is the notes' grouping of the checks into upper, lower and middle.
+- **The household round and the son meeting (WB vol. 1, ch. 24; the notes, sections 1–2; DZ)** (RD43, 2026-10-23):
+  - 2026-10-23, a household round laid out for any count but five: none in WB ch. 24 (pp. 385–387), the notes' section 2 (pp. 489–495) or the *Moonbeams* (DZ ff. 22b–23a; KD vol. 3's etext pp. 528–529); the notes' laying (p. 490) and fold (p. 491) are of five people only.
+  - 2026-10-23, a colour rule of WB's own for the birth's hundred: none on vol. 1, pp. 260–261 (Yigdzin-1 of img. 270–271 searched for «ནང་ཕྲད», «མ་གྲོགས», «བུ་ལ» and «དཀར་ནག»); the rule is the notes' (p. 475) and the *Moonbeams*' (f. 16b).
+  - 2026-10-23, speckled (ཁྲ་བོ, khra bo) or half (ཕྱེད་མ, phyed ma) pebbles in the household round: none in WB pp. 385–387, the notes pp. 490–491 or the *Moonbeams* ff. 22b–23a, whose «རྡེལ་ཁྲ» names the mixing of the pebbles, not a speckled pebble.
