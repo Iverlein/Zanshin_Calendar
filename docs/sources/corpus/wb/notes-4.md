@@ -59,6 +59,16 @@ Mipham's notes on the second examination's reasons (WB vol. 2, p. 503, img. 511)
 
 In the reasons, "the life force's enemy rising", "the body's pebble black" and the like are judged from the deciding pebbles (བཏང་གཅོད, btang gcod) of the ten roots. In particular, from the pebbles within, iron meeting its enemy fire many times and the like, judge "iron cut by fire" and the rest. In particular, it is said, judge by the current year: died in a tiger year, the demon cut [the la, the life-spirit (བླ, bla)] in a monkey year, the la carried off; likewise, whatever month, day or hour one died, the demon cut before, at that month's, day's or hour's seventh. In the root text: whatever year one died, the demon cut in the month that is its seventh. Having examined the four, year and the rest, take the reason most in accord with what came before. The trigram's reason: as in the obstacle reckoning's trigram part, the protections neglected, or the illness and demons (གདོན, gdon) told there struck, a fault of the time; without that, a sudden mishap; judge it in accord with this part's third general point. For li (ལི, li), "the demon cut from the north-west and harmed", and so on. From the year of death's trigram and mewa, which demon carried it off and the rest are clear (the opening of the notes on the third examination).
 
+## <a id="wb-2-p503b"></a>wb.2:p503b The notes on the third examination: its inputs
+
+*Read: scan, 2026-10-23.*
+
+> ཤི་ལོའི་སྤར་སྨེ་ལས་འདྲེ་གདོན་སུས་ཁྱེར་སོགས་གསལ། གཤིན་པོའི་ལོ་གང་ཡིན་ལས་གཤེད་གབ་ལུགས་སོགས་དང་། ཞག་དུས་གཟའ་སྐར་གང་ལ་ཤི་འབྲས་གཞུང་ན་གསལ།
+
+Mipham's note on ch. 29's third examination, the whole of it: the sentence after the note on the second examination's trigram (on *li*, a demon cut it from the north-west) and before the fourth examination's funeral shares. Read 2026-10-23 on the Gser thang reprint (I3CN5029 img. 509 = p. 503, the sixth to fourth lines from the foot), the etext beside it (IE0OPI51524892, img. 511); no machine reading. Its first clause also closes [wb.2:p503](#wb-2-p503).
+
+Who of the harmful spirits (འདྲེ་གདོན, 'dre gdon) carried the dead off, and the like, is clear from the trigram and mewa of the year of death (ཤི་ལོའི་སྤར་སྨེ, shi lo'i spar sme); how the executioner (གཤེད, gshed) hides, and the like, from whichever year the dead was born in (གཤིན་པོའི་ལོ, gshin po'i lo); and the results of the day, the hour, the weekday and the mansion on which one died are clear in the root text. The note adds nothing to the tables; it names their inputs.
+
 ## <a id="wb-2-p503-504"></a>wb.2:p503-504 The notes on the fourth to eighth examinations
 
 *Read: scan, 2026-10-23.*
