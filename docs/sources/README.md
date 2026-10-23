@@ -249,6 +249,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0304.md](questions/q0304.md) | question q304 | The thirty's 241st pebble | open; cites wb.1:p453-454 |
 | [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454 |
 | [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
+| [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | open; cites wb.2:p90-93 |
+| [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | open; cites wb.2:p86-90, wb.2:p77-80 |
+| [questions/q0309.md](questions/q0309.md) | question q309 | The ages with no old kind | open; cites wb.2:p77-80 |
+| [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | open; cites wb.2:p86-90 |
+| [questions/q0311.md](questions/q0311.md) | question q311 | «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding | open; cites wb.2:p90-93 |
+| [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
+| [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | open; cites wb.2:p80-82 |
+| [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | open; cites wb.2:p86-90 |
+| [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | open; cites wb.2:p86-90, wb.2:p504-512 |
+| [questions/q0316.md](questions/q0316.md) | question q316 | The mansions of the sounding's examination under other names | open; cites wb.2:p90-93 |
 
 <!-- end pool index -->
 

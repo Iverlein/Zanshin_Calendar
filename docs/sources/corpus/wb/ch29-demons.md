@@ -162,3 +162,12 @@ The eating demon (ཟ་འདྲེ, za 'dre), the executioner (གཤེད, g
 10. **Midnight, the rat hour** (ནམ་ཕྱེད་བྱི་བའི་དུས): a male demon (བདུད་ཕོ, bdud pho) carried off; the eating demon came from the east and south; on the pretext of a white horse and white ox, it took the body of a white horse, white ox or child, was born there; to a neighbour of four, or the fourth month, or one going fourteen years, or twentieth or thirty-fourth, a woman wearing black clothes: the eating demon goes there. Bad for horse- and snake-year persons, it clings greatly; the ritual is done, and afterwards the wrathful averting acts striven at.
 11. **Past midnight, the ox hour** (ཕྱེད་ཡོལ་གླང་དུས): on the pretext of yellow and black things it came, and a female demon (བདུད་མོ, bdud mo) carried off; the eating demon went south or west; it hides in gold, brass, yellow things, a shiny «ཐེར་པོ» (ther po, not explained here) and the like, and came following them. Bad for a sheep-year person; it goes to one household member, of male or female kind, of one's own year, or one month, or eleven, twenty-one, the like: the ritual suffices.
 12. **Daybreak, the tiger hour** (ཐོ་རེངས་སྟག་དུས): a spirit carried it east; a planet and a king spirit came; the eating demon hides in a bag (སྐྱེ, skye) or a sack (ཕད་བུ, phad bu): carry it to a crossroads in the east. It goes to two of the household, two house members, the second year, two months, twelve, twenty, men and women with a mole on the face and with «སྨེན་པ» (smen pa, not explained here); it clings greatly, or it went to a place with cattle and a hero. Bad for monkey-year persons. The corpse is covered with red and white clothes; the ritual and the rite are sent to the east.
+
+## Open
+
+- Question 282 ([q0282](../../questions/q0282.md)): How the death day's planet's state is found.
+- Question 283 ([q0283](../../questions/q0283.md)): «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended.
+- Question 284 ([q0284](../../questions/q0284.md)): «སྤྲོ» for U. Phalgunī among the mansions.
+- Question 285 ([q0285](../../questions/q0285.md)): The months of the day's-animal entries.
+- Question 286 ([q0286](../../questions/q0286.md)): «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry.
+- Question 287 ([q0287](../../questions/q0287.md)): Objects and rites of the third examination left unexplained.

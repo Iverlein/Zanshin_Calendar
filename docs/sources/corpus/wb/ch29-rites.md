@@ -427,3 +427,12 @@ If burning was good but hiding is needed: turn the fire's mouth to another and d
 **The white protection, for those who cannot complete the remedies.** Even where the strikes and attachment are great, for people who cannot accomplish the sequence of remedies the work of white protection (བསྲུང་བ་དཀར་པོ, bsrung ba dkar po) is taught: on cloth or birch bark draw a wheel in nine rings. In the centre, the figure of the *gnyan* of the year of whoever repeats (the death); second, the mewa's nine islands; third, the trigram's eight petals; fourth, the year's houses; fifth, the twelve months; sixth, twelve, the petals of the days; seventh, the twelve hours; eighth, the mansions; ninth, the planets' seven houses; on the outer ring the turtle's limbs; all of them shaped as islands or as a lotus. If only one repeats, everything is turned into the colour of his own life-mother (སྲོག་མ, srog ma); if three or more repeat, each in its own colour. Write the mantras and names of the year and the rest with "protect this one", and the *Eight Appearances* heart-mantra on the middle rings; after a consecration as usual, hang it at the neck at the mother's time. Or in the centre of the chakra draw the figure of whoever repeats, in the colour of the friend of whom it repeats, and hang it with names and mantras written. Each one's mantras are not set down here, since they are as well known as the wind.
 
 Further, even where it reckoned well above, if the corpse's force and the later power prosper and the strikes grow greater below, reverse it and burn it, or do whatever is not wrong. So: the means of cutting the run of deaths has many differing versions; the instruction with the essence drawn out is set down here.
+
+## Open
+
+- Question 295 ([q0295](../../questions/q0295.md)): The 8 white's direction in the mewa rite.
+- Question 296 ([q0296](../../questions/q0296.md)): The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122.
+- Question 297 ([q0297](../../questions/q0297.md)): Mipham's thirteen remedy classes against the chapter's twelve.
+- Question 298 ([q0298](../../questions/q0298.md)): The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ».
+- Question 299 ([q0299](../../questions/q0299.md)): The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan.
+- Question 300 ([q0300](../../questions/q0300.md)): The five clans of the strikes, p. 114.

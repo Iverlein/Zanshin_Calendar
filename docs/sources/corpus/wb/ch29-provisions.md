@@ -237,3 +237,16 @@ Each factor looks at its own people: the life force at the household lord and th
 The joined hands of the dead and the living (ཤི་གསོན་ལག་སྦྲེལ, shi gson lag sbrel): whichever of the first, middle or last [four years] died, it is bad for its own group; a death in the prime, the seventh is bad, especially a seventh whose life force is in decline; for the old, the triad in accord whose power declines; for children, those whose illness or body declines; a horse or snake dying in the horse or snake year, month, day or hour, the horse and snake and the rest (some say). The triad in accord, as grave-men, lead the corpse. When one of the four executioners dies it is bad for the middle; beyond that it strikes the first; the first's strike is bad for the middle; beyond that, the last; when one of the last four dies, the line of deaths is cut; the triad in accord is examined at its own place (so taught too). The bird's eight sending places: dying on *kham*, the eye goes to the grandmother and elders; on *khon*, nephews; *li*, fathers and uncles; *khen*, daughters and middle women; *dwa*, grandsons; *zin*, young men; *gin*, daughters, old women and daughters-in-law; *zon*, sons-in-law and husbands. The seat of the *gnyan*, kin, enemy and demon: dying on *khen*, the eye looks to *li*; the same rule for all.
 
 The bad kinds of death's eye: an old one dying is bad for a *sri'u* (སྲིའུ, a small child; sri.md), a *sri'u* dying bad for the old; "the upper guard could not hold" is bad for the lower path. Years of a venomous root (iron-four, fire-eight, the six small whites, the four great executioners): the oldest living of such a year dying, "the upper guard could not hold", is bad for the young; the youngest living of such a year dying, "the lower path could not hold", bad for the old: these two bad make the verdict pebble black. The joined hands of dead and living: where dead and living meet on one seat of trigram and mewa; rites to cut it are striven for. The leftover pebble (རྡེལ་རོ, rdel ro, p. 49) not coming out is good; if it comes out, its result is told.
+
+## Open
+
+- Question 307 ([q0307](../../questions/q0307.md)): Over which pebbles the sounding's black and white are counted.
+- Question 308 ([q0308](../../questions/q0308.md)): The age of the nine-eye and the old kinds, and the rounds to the executioner.
+- Question 309 ([q0309](../../questions/q0309.md)): The ages with no old kind.
+- Question 310 ([q0310](../../questions/q0310.md)): «ཇ་ལ་རྩུབ» at the nine-eye of 27.
+- Question 311 ([q0311](../../questions/q0311.md)): «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding.
+- Question 312 ([q0312](../../questions/q0312.md)): Unidentified provisions of the trigrams and the old.
+- Question 313 ([q0313](../../questions/q0313.md)): The old one sri'u by the mewa, p. 80.
+- Question 314 ([q0314](../../questions/q0314.md)): The grave days' two accounts.
+- Question 315 ([q0315](../../questions/q0315.md)): The eight places that open death for khen, gin and zon.
+- Question 316 ([q0316](../../questions/q0316.md)): The mansions of the sounding's examination under other names.
