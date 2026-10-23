@@ -207,16 +207,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
-| [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 4 scan, 6 machine |
+| [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |
-| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 3 scan, 3 machine |
-| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 machine |
+| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 5 scan, 1 machine |
+| [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 12 scan, 7 machine |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 3 passages: 3 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 1 passages: 1 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
-| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 9 scan, 4 machine |
+| [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 0 passages: nothing read yet |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 2 passages: 2 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the thirteen circles and the moment | 0 passages: nothing read yet |
@@ -283,6 +283,26 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0318.md](questions/q0318.md) | question q318 | A speckled deciding pebble in the household round | open; cites wb.1:p385-387, wb.2:p490-491, dz:i048-049 |
 | [questions/q0319.md](questions/q0319.md) | question q319 | The wealth's places among the household's rows | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | open; cites wb.2:p490-491 |
+| [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | open; cites wb.2:p26, wb.2:p537 |
+| [questions/q0322.md](questions/q0322.md) | question q322 | The parts of the hand of stars on p. 28's figure | open; cites wb.2:p26-27, wb.2:p27-28 |
+| [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | open; cites wb.2:p27-28 |
+| [questions/q0324.md](questions/q0324.md) | question q324 | «ནམ་མཇུག», the tail of the year, and the bird «འོལ་བ» | open; cites wb.2:p27-28, wb.2:p28-29, wb.2:p29-30 |
+| [questions/q0325.md](questions/q0325.md) | question q325 | The sky-bird's parts and «སོ་གཉིས་བར་དུ» | open; cites wb.2:p29-30 |
+| [questions/q0326.md](questions/q0326.md) | question q326 | The first winter month's falling and inner strife, p. 31 | open; cites wb.2:p30-31, wb.2:p31 |
+| [questions/q0327.md](questions/q0327.md) | question q327 | The fifty water-hours and the fourth system, p. 37 | open; cites wb.2:p37 |
+| [questions/q0328.md](questions/q0328.md) | question q328 | The black small feet's months, links and times | open; cites wb.2:p38-39 |
+| [questions/q0329.md](questions/q0329.md) | question q329 | Whether a black small foot needs year, month and hour together | open; cites wb.2:p38-39 |
+| [questions/q0330.md](questions/q0330.md) | question q330 | The doors of sky and earth and the black days, p. 42 | open; cites wb.2:p42 |
+| [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43 |
+| [questions/q0332.md](questions/q0332.md) | question q332 | The trigrams and «བོན་བཞི» of ordination, p. 39 | open; cites wb.2:p39b |
+| [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | open; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108 |
+| [questions/q0334.md](questions/q0334.md) | question q334 | The word read «ལྷང» on p. 106 | open; cites wb.2:p106-107 |
+| [questions/q0335.md](questions/q0335.md) | question q335 | «གཤེད་བཞི་ཤར་དུ་མི་གཏོང»: the east, or where the four slayers rise | open; cites wb.2:p97-100 |
+| [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | open; cites wb.2:p97-100 |
+| [questions/q0337.md](questions/q0337.md) | question q337 | «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing | open; cites wb.2:p97-100 |
+| [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135 |
+| [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | open; cites wb.2:p504-512 |
+| [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | open; cites wb.2:p504-512 |
 
 <!-- end pool index -->
 

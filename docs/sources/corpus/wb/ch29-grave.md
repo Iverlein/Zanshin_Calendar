@@ -159,7 +159,7 @@ The colophon of ch. 29 (pp. 142–143, img. 150–151; read on the reprint I3CN5
 - Question 264 ([q0264](../../questions/q0264.md)): the road omens that close cutting the joined hands (p. 140, ll. 27–28): meeting a person of another clan talking, or a man and woman whose line was cut, "takes hold" («ཐེབས»); a horse, donkey, widow or driven sheep is "the omen of turning back" («ལྡོག་པའི་ལ་ཉེ»); none, "wandering" («འབྱམས»). What takes hold, turns back or wanders (the cutting, the dead, the run of deaths), and is anything done after each?
 - Question 265 ([q0265](../../questions/q0265.md)): in Mipham's notes (p. 522) «བུ་ནས་གཟུགས་དང་མར་བཅོས་གསུངས», after the year's trigram, planet and mansion "reckoned each from its form": what does it say?
 - Question 266 ([q0266](../../questions/q0266.md)): who are the colophon's «ཆོམས་ཁྱུང་ནག་ཤཱཀ་དར» (the *Thirteen Points of Summary*), «དུས་རམས་པ་འཆི་མེད་བདེ་བ» of the Smon 'gro paṇ chen's tradition, and the «སྤྱུག་སྟོན» (or «སྤྲུག་སྟོན»; Yigdzin-1 «སྤྱག») whose manner of the earlier and later reckonings for the dead was used (p. 143)? Is the last the Sprug ston of ch. 27's sixteen limbs? And what is the figure «ཁྲུང་ཁྲུང་དང་མཇུག་རྩེའི་དཔེ» said of Ldum po's document (p. 142)?
-- Question: Searching for the ground (WB vol. 2, p. 135, l. 17, wb.2:p133-135) prints «ཤིང་གི་ཕ་གུ་མེས་གསུམ» for the kin of wood; is ཕ་གུ a misprint for ཕ་ཁུ (father and paternal uncle), as the sense suggests, or a word of its own?
+- Question 338 ([q0338](../../questions/q0338.md)): Searching for the ground (WB vol. 2, p. 135, l. 17, wb.2:p133-135) prints «ཤིང་གི་ཕ་གུ་མེས་གསུམ» for the kin of wood; is ཕ་གུ a misprint for ཕ་ཁུ (father and paternal uncle), as the sense suggests, or a word of its own?
 
 ## Searched and not found
 

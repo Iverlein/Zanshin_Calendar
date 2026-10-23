@@ -178,5 +178,5 @@ Mipham's notes on the fifteenth examination, at the close of section 4 (p. 522, 
 
 ## Open
 
-- Question: The notes print «ལུག་ལོ་ཁོ་ན་ཤི» (WB vol. 2, p. 506, l. 11, I3CN5029 img. 512; wb.2:p504-512) among the demon's belly strikes, where the root text (p. 86) has a sheep dying on *khon*. Is «ཁོ་ན» a typesetting of «ཁོན་ཤི» ("a sheep-year one dying on *khon*"), or "the sheep year alone"?
-- Question: In the notes' list of names that a bad trigram touches (WB vol. 2, p. 508, l. 17, img. 514; wb.2:p504-512), the women are «སྲུ་མོ་སྨྱུག་མོ་ཚ་མོ» and the men end «མི་དང་ཚོས་སོགས». What kin are «སྨྱུག་མོ» and «ཚོས»?
+- Question 339 ([q0339](../../questions/q0339.md)): The notes print «ལུག་ལོ་ཁོ་ན་ཤི» (WB vol. 2, p. 506, l. 11, I3CN5029 img. 512; wb.2:p504-512) among the demon's belly strikes, where the root text (p. 86) has a sheep dying on *khon*. Is «ཁོ་ན» a typesetting of «ཁོན་ཤི» ("a sheep-year one dying on *khon*"), or "the sheep year alone"?
+- Question 340 ([q0340](../../questions/q0340.md)): In the notes' list of names that a bad trigram touches (WB vol. 2, p. 508, l. 17, img. 514; wb.2:p504-512), the women are «སྲུ་མོ་སྨྱུག་མོ་ཚ་མོ» and the men end «མི་དང་ཚོས་སོགས». What kin are «སྨྱུག་མོ» and «ཚོས»?

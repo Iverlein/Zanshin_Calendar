@@ -165,6 +165,6 @@ The fourteenth examination, the reckoning of the funeral feast's assembly (ཤ�
 - Question 292 ([q0292](../../questions/q0292.md)): Two pegs on the nine-red, none on the eight-white.
 - Question 293 ([q0293](../../questions/q0293.md)): «རྨང་པོར་འགྲོ» among the places not allowed.
 - Question 294 ([q0294](../../questions/q0294.md)): «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ».
-- Question: WB vol. 2, p. 99, l. 8 (wb.2:p97-100) reads «གཤེད་བཞི་ཤར་དུ་མི་གཏོང་ངོ»: is ཤར་དུ "to the east" (and why the east for all four slayer directions) or "where the four slayers rise", and what are "the four slayers" here?
-- Question: WB vol. 2, p. 98, l. 5 (wb.2:p97-100) prints «གཅིག་དཀར་སྟེང་དུ་བཀྲ་ངོ་བཟང» where every following line has རོ, "corpse": is ངོ a misprint for རོ (the Zhol or Taikhang blocks would settle it)?
-- Question: WB vol. 2, pp. 99, ll. 25–26 (wb.2:p97-100): the corpse's facing is headed «སྤྲ་སྒོ་རོ་ཡི་ཁ་ཕྱོགས» and avoids «རྨེ[?]་བདུན་ཤར་བའི་གདོང»; what are spra sgo and rme bdun (is rme for sme, the mewa)?
+- Question 335 ([q0335](../../questions/q0335.md)): WB vol. 2, p. 99, l. 8 (wb.2:p97-100) reads «གཤེད་བཞི་ཤར་དུ་མི་གཏོང་ངོ»: is ཤར་དུ "to the east" (and why the east for all four slayer directions) or "where the four slayers rise", and what are "the four slayers" here?
+- Question 336 ([q0336](../../questions/q0336.md)): WB vol. 2, p. 98, l. 5 (wb.2:p97-100) prints «གཅིག་དཀར་སྟེང་དུ་བཀྲ་ངོ་བཟང» where every following line has རོ, "corpse": is ངོ a misprint for རོ (the Zhol or Taikhang blocks would settle it)?
+- Question 337 ([q0337](../../questions/q0337.md)): WB vol. 2, pp. 99, ll. 25–26 (wb.2:p97-100): the corpse's facing is headed «སྤྲ་སྒོ་རོ་ཡི་ཁ་ཕྱོགས» and avoids «རྨེ[?]་བདུན་ཤར་བའི་གདོང»; what are spra sgo and rme bdun (is rme for sme, the mewa)?
