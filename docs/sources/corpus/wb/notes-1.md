@@ -18,3 +18,15 @@ Mipham's notes (vol. 2, p. 475, img. 483), the text between the page's two table
 In this fight (of the birth's hundred), lay one white pebble each for a mother and for a friend, one black pebble each for a son and for an enemy; for a meeting with itself (ནང་ཕྲད, nang phrad), one black each where fire, iron or wood meets itself, and lay a white where earth or water meets itself. The four pebbles of rise and decline (དར་རྒུད, dar rgud) on the day's bed (ཞག་མལ, zhag mal): the rise and decline of the life force, body, power and luck set against one's own birth year, month, day and hour; the good six white, the bad six black.
 
 So the notes give the hundred one pebble a meeting and a son meeting black, as the *Moonbeams* does for the same hundred (DZ f. 16b, img. 036, in corpus/dz/dz.md), and unlike the pair of white and black that WB lays for a son where a meeting is weighed by its pebbles (the illness reckoning, vol. 1, p. 417; ch. 24's la pebbles, p. 380; ch. 27, vol. 2, p. 3).
+
+## <a id="wb-2-p478"></a>wb.2:p478 The household's power: enemy and demon, enemy and grave
+
+*Read: scan, 2026-10-23.*
+
+> …དབང་ཐང་དགྲ་བདུད་མང་ཞེས་པ། བཟའ་ཚང་ཕན་ཚུན་དབང་ཐང་དགྲ་གྲོགས་སུ་འཕྲད་པ་མང་བ་དང་། སྟག་ཡོས་ལོ་པའི་དུར་ལོ་ལུག་ཡིན་པས་སྟག་ཡོས་ལུག་གསུམ་ཚོགས་པ་ལྟ་བུ་ལ་ངོས་བཟུང་སྣང་། དབང་ཐང་དགྲ་དུར་ལ་སྐྱེས་པ་མང་བ་ནི། ལས་རྩིས་བརྒྱ་རྡེལ་གྱི་དབང་ཐང་ལ་དགྲ་མང་བ་ཅན་གྱི་མི་ངོ་མང་དུ་ཡོད་པ་དང་། གཟའ་ཚང་གི་མི་རྣམས་སྐྱེས་དུས་སྲོག་དང་དབང་ཐང་གི་དུར་ལོ་དུར་སྤར་འདོམས་པ་མང་བ་ལ་བཞེད་ཀྱང་བུ་ཡིག་ན་ཡང་བརྟག་གཞིར་མཛད་འདུག་པས་དཔྱད།…
+
+Read on the scan of the Gser thang reprint (I3CN5029 img. 484, image = page + 6), ll. 3–7, at 0.75× in a stack and the doubtful words at 3× («དགྲ་བདུད», «བུ་ཡིག»), beside Yigdzin-1 on the 1996 print (I1KG12907 img. 486, `wb/yigdzin/`), whose «ལས་ཅིས» the scan reads «ལས་རྩིས». The passage is a part of the page: the notes' gloss of two lines of WB's household reckoning (vol. 1, p. 306, img. 316, ll. 3 and 5: «གསོན་པོའི་དབང་ཐང་དགྲ་བདུད་མང་།» and «[དབང་]ཐང་དགྲ་དུར་སྐྱེས་པ་མང་།»).
+
+"«Many with the power's enemy and demon» (དགྲ་བདུད, dgra bdud): it seems to be identified as the household's members meeting one another's power as enemies and friends many times, and, the grave year of the tiger- and hare-year people being the sheep, as tiger, hare and sheep gathered. «Many born on the power's enemy and grave» (དབང་ཐང་དགྲ་དུར, dbang thang dgra dur): this is held to be many persons in the household whose power, in the hundred pebbles of the karma reckoning (ལས་རྩིས་བརྒྱ་རྡེལ, las rtsis brgya rdel), has many enemies, and many of the household's members meeting, at their birth, the grave year and the grave trigram of their life force and power; but as the *bu yig* (བུ་ཡིག, as printed) also makes it a ground of examination, consider it."
+
+So the notes read «དགྲ་དུར» as two things, enemy (དགྲ) and grave (དུར): the power with enemies, and a birth on the grave year or grave trigram of the life force and power. And «ལས་རྩིས» is here the name of the reckoning whose hundred pebbles are the birth's (ch. 22, p. 261).
