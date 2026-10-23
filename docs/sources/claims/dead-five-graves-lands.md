@@ -8,8 +8,7 @@ open: []
 ---
 # The five graves' chants: land and wish
 
-The five graves' chants (WB vol. 2, pp. 135–137, machine reading, the
-etext's disagreements looked up on the scan) tie each kind of grave to a land
+The five graves' chants (WB vol. 2, pp. 135–137, read on the scan) tie each kind of grave to a land
 and a wish for those left behind:
 
 | Grave | Land | Wish for the living |

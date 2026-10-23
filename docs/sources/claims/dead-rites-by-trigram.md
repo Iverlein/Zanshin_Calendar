@@ -10,7 +10,7 @@ open: []
 
 # The rites for a death on each trigram
 
-The dead's trigram of death (སྤར་ཁ, spar kha) selects one of eight rites (WB vol. 2, pp. 105–108, Yigdzin-1 read through on the Gser thang reprint). Each has the same parts: an ordinary remedy on the corpse with another trigram's seal drawn on a stone, the grave's mouth broken with two animals, a slip (ཐེམ་བུ, them bu) of a named craftsman pressed at a place, then a white rite (an offering-recipient marked by a defect reads named texts and is fed and paid), a speckled rite (thread-crosses, མདོས, mdos) and a black rite (the trigram's earth-lord wheel in a skull pressed on a road, a stupa built on it). The last line names how many years of the run of deaths it cuts.
+The dead's trigram of death (སྤར་ཁ, spar kha) selects one of eight rites (WB vol. 2, pp. 105–108, read line by line on the Gser thang reprint, 2026-10-23). Each has the same parts: an ordinary remedy on the corpse with another trigram's seal drawn on a stone, the grave's mouth broken with two animals, a slip (ཐེམ་བུ, them bu) of a named craftsman pressed at a place, then a white rite (an offering-recipient marked by a defect reads named texts and is fed and paid), a speckled rite (thread-crosses, མདོས, mdos) and a black rite (the trigram's earth-lord wheel in a skull pressed on a road, a stupa built on it). The last line names how many years of the run of deaths it cuts.
 
 | Trigram of death | Name of the death | Seal drawn on the stone | Slip's maker; where pressed | White rite's recipient; direction | Black rite: skull; road; stupa | Years cut |
 | --- | --- | --- | --- | --- | --- | --- |

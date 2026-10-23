@@ -10,7 +10,7 @@ open: []
 
 # Death on each lunar date: whom it falls on and what is done
 
-WB vol. 2, pp. 116–118 (Yigdzin-1, read through on the Gser thang reprint; the full table with the beings and the spells' names is in the passage). For a death on any month's date, the line names a being met or set out, the person after the dead on whom it falls rough or bad, beings to be held prisoner, a spell, and an act on the corpse. In short:
+WB vol. 2, pp. 116–118 (read line by line on the Gser thang reprint, 2026-10-23; the spells in full in the passage; the full table with the beings and the spells' names is in the passage). For a death on any month's date, the line names a being met or set out, the person after the dead on whom it falls rough or bad, beings to be held prisoner, a spell, and an act on the corpse. In short:
 
 | Date | Falls on | Act on or beside the corpse |
 | --- | --- | --- |
@@ -34,7 +34,7 @@ WB vol. 2, pp. 116–118 (Yigdzin-1, read through on the Gser thang reprint; the
 | 18 | a lama or geshe | a golden ornament tied on |
 | 19 | a young man | clay votive images struck on the corpse |
 | 20 | a woman | fumigated with all fragrances |
-| 21 | a bride | fine flowers offered |
+| 21 | a young son (*bus pa shar ba*, as read on the scan, 2026-10-23) | fine flowers offered |
 | 22 | a mother or old woman | (spell only) |
 | 23 | a mother or a man in his prime | the four continents' general circuit |
 | 24 | a corpse-companion of the paternal kin | thirteen *sri* objects tied on |

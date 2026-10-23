@@ -16,7 +16,7 @@ one group of the patrons' kin:
 
 | Element | Direction, throne | Kin |
 | --- | --- | --- |
-| wood | east | the father, paternal uncle and grandfather («ཕ་ཁུ་མེས་གསུམ») |
+| wood | east | the father, paternal uncle and grandfather (printed «ཕ་གུ་མེས་གསུམ», read as ཕ་ཁུ, pha khu) |
 | fire | (south), horse and snake | one's own children and grandchildren |
 | iron | west, bird and monkey | maternal uncles and close friends |
 | water | north, rat and pig | the wife and the in-laws |

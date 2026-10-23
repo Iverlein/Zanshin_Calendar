@@ -8,7 +8,7 @@ open: []
 ---
 # The trigram's road of the remains
 
-The trigram's road of the remains (སྤར་ཁའི་རོ་ཡི་ལམ, spar kha'i ro yi lam, WB vol. 2, p. 98; machine-read, the trigram names and the corpses checked on the Gser thang reprint, the passage not read through on the scan):
+The trigram's road of the remains (སྤར་ཁའི་རོ་ཡི་ལམ, spar kha'i ro yi lam, WB vol. 2, p. 98; read on the scan, the Gser thang reprint, 2026-10-23):
 
 - **In general** the directions of the four good ones, one's own and the mother are auspicious; the four bad are avoided. In particular the corpse is not sent toward the dead's or the corpse-bearer's demon-cut (བདུད་གཅོད, bdud gcod) direction; one who died on li is not sent onto kham; onto the trigram's enemy-grave (དགྲ་དུར, dgra dur) is bad. Some say: sent onto the enemy kham, bad for horse and snake years; sent onto kham, the six-fire is bad for the six-earth; the wind-horse sent to li, bad for horse and snake; again, bad for the life force's friend, the body's son, the power's wealth, the luck's enemy: endless such, but the life force is chief, and it is bad where the survivors are rough. If the death-mouth (ཤི་ཁ, shi kha) is not closed, the corpse is sent onto the enemy and the grave.
 - **Corpses not sent onto a trigram**, lest that illness strike:

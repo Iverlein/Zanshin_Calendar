@@ -24,4 +24,4 @@ WB vol. 2, p. 112 (Yigdzin-1, read through on the Gser thang reprint): for a dea
 | 8 white | horse | the north-east corner |
 | 9 red | man | a mountain in the south |
 
-Five and eight both go to the north-east as Yigdzin-1 reads them; the eighth's direction was not checked on the scan. Mipham's notes count nine mewa remedies (p. 517).
+Five and eight both go to the north-east; both are so on the scan (the Gser thang reprint, p. 112, ll. 13 and 15, read 2026-10-23). Mipham's notes count nine mewa remedies (p. 517).
