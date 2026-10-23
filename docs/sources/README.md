@@ -153,6 +153,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/household-round-member-pebbles.md](claims/household-round-member-pebbles.md) | claim, conflict | The household round: each member's four deciding pebbles, not the year's four meetings | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
 | [claims/household-round-places.md](claims/household-round-places.md) | claim, table | The household round: the readings of each place by colour | cites wb.1:p385-387; feeds block-58, R4 |
 | [claims/household-round-zigzag.md](claims/household-round-zigzag.md) | claim, rule | The household round: the order of taking, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
+| [claims/illness-board-three-fives.md](claims/illness-board-three-fives.md) | claim, rule | The illness board's three five-rows: man, woman, children | cites wb.1:p422-423, wb.1:p423, wb.2:p495; feeds block-32 |
+| [claims/illness-death-verdict.md](claims/illness-death-verdict.md) | claim, rule | The illness reckoning's last verdict: death or not; the five people | cites wb.1:p445, wb.2:p497-499; feeds block-32 |
+| [claims/illness-mewa-of-onset.md](claims/illness-mewa-of-onset.md) | claim, table | The mewa of falling ill: illness, spirits, ransom and the spirit's kind | cites wb.1:p431-433, wb.1:p433-435; feeds block-32 |
+| [claims/illness-nineteen-pebbles.md](claims/illness-nineteen-pebbles.md) | claim, rule | The nineteen pebbles of the sick | cites wb.1:p445-447, wb.2:p497-499; feeds block-32 |
+| [claims/illness-plank-trees.md](claims/illness-plank-trees.md) | claim, table | The illness reckoning: the four plank-trees read | cites wb.1:p422-423; feeds block-32 |
+| [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
 | [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md) | claim, rule | The karma reckoning over the match is each spouse's birth reckoning | cites wb.1:p364, wb.2:p526, wb.2:p474, wb.2:p478, wb.2:p489, wb.1:p261; feeds block-58 |
@@ -215,7 +221,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
-| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 0 passages: nothing read yet |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 32 passages: 16 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 0 passages: nothing read yet |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
@@ -229,7 +235,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 2 passages: 2 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
-| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 0 passages: nothing read yet |
+| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 2 passages: 2 scan |
