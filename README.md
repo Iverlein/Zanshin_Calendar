@@ -36,7 +36,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   mewa, trigram and progressed sign, the aspect that matters most for the
   person, the pebbles with their predictions, the stage of each aspect's
   energy, and the year's obstacles, each with the remedies the White
-  Beryl gives for it; with the relatives
+  Beryl gives for it, and the year read together, its obstacles graded
+  against the four aspects and its remedies gathered; with the relatives
   entered for a person, the natal trigram and the obstacles a spouse, a
   parent or a son brings; and the birth: what the natal trigram makes of each
   aspect, glory and misfortune against the parents, the

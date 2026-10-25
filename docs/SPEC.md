@@ -464,6 +464,40 @@ most, to one's means, the place and the time (pp. 415–416). So:
   (one white and one black on the destiny, the progressed sign's three
   meetings, the black undertakers), none is written.
 
+**Together** (ROADMAP R4 and D17, 2026-10-25; [sources/verdicts.md](sources/verdicts.md),
+*The year of age gathered*, RD20). Atop the year, the year read whole as
+WB closes its verdicts: "though the obstacles of the mewa, the trigram and
+the rest are many, in brief they come to four; above all, the verdicts of
+the four classes are gathered" (p. 385). With all six signs reckoned, a
+row reads the four predictive pebbles by the one that matters most
+("The year together · black", "Vitality: white · Body: black · …"), white
+read beside the others, black or speckled to be mended first; its Remedy
+row gathers the Remedy rows of every black or speckled predictive pebble
+(the one that matters most first), all four black, every bad stage, every
+obstacle the notes do not clear, the plain nine-multiple, the mewa's
+small obstacles and the obstacles with relatives (family `YearTogether`).
+Then each obstacle of the year graded by Mipham's notes (vol. 2,
+pp. 492–494; `YearReckoning.graded`, `together`, `ObstacleClass`,
+`ObstacleGrade`, family `YearGrade`), its year (the progressed sign's
+for the progressed sign's own) fought against the four aspects, the
+vitality first:
+
+| Obstacles | Grade |
+| --- | --- |
+| The own year, the seventh, the triad, the fourths, the progressed sign on the own and the seventh and against the vitality | harsh where the year meets an aspect as enemy (the notes gloss the triad's "in decline" as meeting the enemy, p. 492); cleared otherwise |
+| The four tomb years, the progressed sign on a tomb | a great danger where the year meets the vitality as itself or its enemy, a small one as mother, friend or son (p. 493) |
+| The combined nine-multiple (once for its elements), the nine-multiple meeting the tomb | the aspects fought against the year's destiny: bad as itself or enemy, mild otherwise, by the vitality (p. 494) |
+| The black undertaker | bad where the year meets an aspect as enemy (p. 494); cleared otherwise |
+
+An obstacle cleared, and the own year and the seventh at their mother
+(WB's glory), are left out of the Together, as outweighed factors are left
+out of the brief; the trigram's and the mewa's nine-multiples and the tomb
+sign, which the notes do not weigh by a meeting, stay in its Remedy row
+ungraded. The obstacles are graded, not summed. Below, the sections show
+every obstacle WB lists, each with its reading, as before. Not built: the
+*dza zor* (not among the obstacles built), the household round (open
+question 258), the la's own six.
+
 **With the relatives** (§10.5; ROADMAP P2, `Kin.kt`, `KinReckoning`;
 `Reckonings.kin` takes the mother, father, spouses and children entered
 under the person, and anyone of the household further out). The **natal
@@ -3787,7 +3821,9 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   Tibetan year as its sign and civil span ("Fire Horse year ·
   2026–2027"), and the year before and after; the year before the
   person's birth year cannot be reached. Under it: the person's age and
-  signs; the signs of the year (the mewa of the year of age with the
+  signs; under "Together" the year together and each graded obstacle
+  ("Your great tomb · a great danger", "meets your vitality as
+  identity"), or a line that it needs the gender; the signs of the year (the mewa of the year of age with the
   natal one, and with a gender the trigram and the progressed sign with
   its place); under the pebbles, first what matters most for the person
   (§5.9.1, *What to do*), then for each aspect its predictive pebble, the

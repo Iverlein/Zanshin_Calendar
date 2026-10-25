@@ -114,7 +114,7 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
-| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together buildable since D17 (2026-10-25, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
 ## Readings
 
@@ -4077,8 +4077,25 @@ groups it shows (`tools/emulator/store_shots.py`).
   the gathered remedies, the board's reading). Not built: the twenty-one
   children (each by conditions together, several the mother's obstacle
   reckoning at the birth or observations; no text names one on part of
-  them), the board's patterns counted, the year of age's beyond Y1's (its obstacles graded by the notes' meeting, D17 decided 2026-10-25, buildable; the household round waits on open question 258),
+  them), the board's patterns counted, the year of age's household round (open question 258),
   the karma reckoning reckoned over the match (open question 210).
+  **The year of age's Together built 2026-10-25** (block 58, SPEC
+  §5.9.1, D17): a "Together" section atop the year, the four classes'
+  verdicts gathered (p. 385) and read by the aspect that matters most,
+  with the Remedy rows of every black or speckled pebble, bad stage and
+  standing obstacle gathered into one; then each obstacle graded by the
+  notes' meeting with the four aspects (vol. 2, pp. 492–494): the harsh
+  years and the undertaker where the year meets an aspect as enemy, the
+  tombs a great or small danger by the vitality's meeting, the
+  nine-multiples' tomb years bad or mild against the year's destiny; the
+  cleared ones and WB's two glories left out. `YearReckoning.graded`,
+  `together`, `standing`, families `YearTogether` and `YearGrade` (item
+  R2), English and Russian. Checked: `YearOfLifeTest` (a fire dragon of
+  1976: the water dog's seventh harsh by the destiny's enemy, the fire
+  dog's own great tomb a great danger, the iron mouse's combined
+  nine-multiple once and mild; across 1977–2070 a harsh year cleared
+  exactly where no aspect meets an enemy), `CatalogTest`,
+  `:app:testDebugUnitTest`. Not built: the *dza zor*, the la's own six.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
