@@ -43,6 +43,7 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.Circles
+import zanshin.core.tibetan.Thirty
 import zanshin.core.tibetan.MomentReckoning
 import zanshin.core.tibetan.PebbleColour
 import java.time.ZoneId
@@ -75,6 +76,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
+            Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
             Reckoning.MOMENT -> MomentView(person, zone, back, open)
         }
@@ -157,6 +159,16 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.THIRTY -> {
+                val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
+                val points = Thirty.all(Reckonings.birthSign(person), age)
+                ScreenLinkRow(
+                    stringResource(R.string.thirty_title),
+                    labels.string(R.string.reckonings_circles_subtitle, labels.ordinal(age), points.sumOf { p -> p.pebbles.count { it == PebbleColour.WHITE } }, points.sumOf { p -> p.pebbles.count { it == PebbleColour.BLACK } }),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.CIRCLES -> {
                 val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
                 val circles = Circles.all(Reckonings.birthSign(person), age)
@@ -190,6 +202,21 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                 )
             }
         }
+    }
+}
+
+/** The thirty starting points of [person] in the present year (SPEC §5.9.7, ROADMAP R2v). */
+@Composable
+private fun ThirtyScreen(person: Person?, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    Header(stringResource(R.string.thirty_title), person?.let { personLabel(it) }, onBack)
+    Body {
+        if (person == null) {
+            NoPerson(onPeople)
+            return@Body
+        }
+        val birth = Reckonings.birthSign(person)
+        val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
+        ThirtyView(person, birth, age, remember(person, age) { Thirty.all(birth, age) }, onOpen)
     }
 }
 

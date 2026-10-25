@@ -1646,6 +1646,22 @@ verdict, and the owner's decisions of 2026-10-10:
   the four settled pebbles of each circle, life force, body, power and
   luck, are built with their readings; the mewa pebble waits until how
   its two mewas are joined is read.
+- **D21–D23, decided 2026-10-25 (the owner): the thirty starting points as the circles** (open questions 259, 301, 306;
+  [claims/thirty-circles-whose-element.md](sources/claims/thirty-circles-whose-element.md),
+  [claims/thirty-count-years.md](sources/claims/thirty-count-years.md),
+  [claims/thirty-board-groups.md](sources/claims/thirty-board-groups.md)):
+  D21, each point's pair of years is taken in the element related to the
+  person's power, the birth year's own element, as the notes gloss the
+  same phrase for the circles; D22, the count from the pair's year runs
+  inclusively, the pair's year the first, down from its male year for a
+  male birth year and up from its female year for a female one; D23, each
+  point's check n is the eight fighting pebbles' pebble n of p. 453, as
+  the notes' grouping of the checks (1, 3, 5; 2, 4, 6; 7, 8) fits.
+- **D24, decided 2026-10-25 (the owner): the moment's element is the present hour's power** ([claims/moment-asker-year.md](sources/claims/moment-asker-year.md),
+  [claims/moment-eight-places.md](sources/claims/moment-eight-places.md)):
+  the *bya ra* of ch. 30's later reckonings (pp. 166–170), which the notes
+  gloss as the moment's power, is the element of the present two-hour
+  sign, the one the hour's element readings already reckon.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
@@ -4083,6 +4099,23 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
+  D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
+  each point from its pair in the element related to the power, counted
+  down from the male year or up from the female by the birth year's sex,
+  inclusively, eight pebbles as the point's eight checks, the board read
+  whole; `Thirty`, `ThirtyPoint`, `ThirtyPebble`, `ThirtyBoard`,
+  families `ThirtyCheck` and `ThirtyBoard` (item R2), English and Russian;
+  "The thirty starting points" in the Reckonings list. Points 21 and
+  23–25 (a dead person's year) not shown in the person's view. Checked:
+  `ThirtyTest` (the pairs of p. 453, the count by the birth year's sex
+  both ways, the eight places, the board's groups and patterns),
+  `CatalogTest` (480 check readings, 170 remedies, the board's twelve,
+  written by a subagent from the claims, the unsettled words left out),
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
+  dragon in his 51st year: the lords' point from the fire mouse to the
+  fire dog, upper ○×○, lower ×××, middle ××), the release build (no raw
+  keys, the board's titles included).
 - **R2u The thirteen circles — built 2026-10-25** (SPEC §5.9.6, D19,
   D20): ch. 27's circles (vol. 2, pp. 3–21, RD38 on the scan; RD44, RD47
   for whose element, the count and the servant's start), from the birth

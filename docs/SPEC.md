@@ -1139,6 +1139,43 @@ note on what is reckoned.
 the circles' small reckonings, the meadow's ornament and Sprugtön's
 obstacle reckoning (pp. 13–25).
 
+#### 5.9.7 The thirty starting points
+
+WB vol. 1, ch. 26, the thirty starting points (སྐོར་འགོ, skor 'go; ROADMAP
+R2v, 2026-10-25; [sources/corpus/wb/ch26.md](sources/corpus/wb/ch26.md),
+RD37, RD44, RD47; `Thirty`, core `tibetan/Thirty.kt`), for the person in
+the present year, from the birth year alone, by the owner's decisions
+D21–D23 (open questions 259, 301, 306):
+
+- **The pairs** (p. 453): the fifteen Chinese points from the rat and ox,
+  two animals a point, the fifteen Tibetan from the horse and sheep, each
+  in the element standing to the person's power as own, son, friend,
+  enemy, mother, and again ([claims/thirty-starting-pairs.md](sources/claims/thirty-starting-pairs.md)).
+- **The count** (p. 453; the notes, p. 532): a male birth year from the
+  pair's male year downward, a female one from its female year upward,
+  as many places as the years of age, the pair's year the first.
+- **The eight pebbles** (pp. 453–454): from the year reached, the fourth
+  up against the vitality, the fourth down against the body, the
+  eleventh up against the destiny, the eleventh down against the luck,
+  the seventh up and down against the vitality and the body, the year
+  itself against the destiny and the luck, coloured as the circles'
+  (§5.9.6); each is the point's check of the same number (family
+  `ThirtyCheck`, a black check's remedy as its Remedy row).
+- **The board** (pp. 471–472; the notes, p. 533): checks 1, 3, 5 the upper
+  three, the forebears and the first part of life; 2, 4, 6 the lower,
+  oneself and the last part; 7, 8 the middle, spirits and wealth; a group
+  by its greater share, the middle only when alike; all white or all
+  black alone, else the groups and the patterns the commentary names
+  (`Thirty.board`, `ThirtyBoard`, family `ThirtyBoard`).
+
+Points 21 and 23–25 (the old who died, the dead, the burning, the grave
+site) reckon a dead person's year and age and are not shown in the
+person's own view. The screen (§10.11): "The thirty starting points" in
+the Reckonings list with the year's white and black count; a row for each
+point, its pebbles drawn by groups ("upper ○×○ · lower ××○ · middle ○○"),
+its sheet giving the eight checks' readings and then the board's. Tested
+by `ThirtyTest`.
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*

@@ -28,7 +28,7 @@ class ReckoningsTest {
     @Test
     fun `the list needs a person`() {
         assertEquals(emptyList<Reckoning>(), Reckonings.built(null))
-        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE, Reckoning.DEAD, Reckoning.CIRCLES, Reckoning.MOMENT), Reckonings.built(person))
+        assertEquals(listOf(Reckoning.BIRTH, Reckoning.MATCH, Reckoning.YEAR_OF_AGE, Reckoning.DEAD, Reckoning.THIRTY, Reckoning.CIRCLES, Reckoning.MOMENT), Reckonings.built(person))
     }
 
     /**

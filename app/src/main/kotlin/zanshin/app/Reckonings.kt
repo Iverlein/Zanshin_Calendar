@@ -28,7 +28,7 @@ import zanshin.core.tibetan.YearReckoning
  * The element reckonings built, as the Reckonings screen lists them (SPEC §10.11, ROADMAP R1), in the order of
  * docs/sources/reckonings.md's inventory. Each one built after R1 (R2…) is added here.
  */
-enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD, CIRCLES, MOMENT }
+enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD, THIRTY, CIRCLES, MOMENT }
 
 /**
  * The reckoning of [person]'s birth as far as it is built (ROADMAP R2): the natal trigram, their [mother]'s trigram in
