@@ -2767,6 +2767,7 @@ the text, not about the app.
      an even split" as the view the notes report has it?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Narrowed 2026-10-25 (RD53, [claims/illness-classes-by-difference.md](claims/illness-classes-by-difference.md)): the notes (p. 496) name the nine classes by the difference of white and black among the fifteen, pebble door not counted: six white and nine black is «a third more black», five and ten «a fifth more black»; "three more is like a third, four like a fourth" and the fraction-of-fifteen reading is rejected. Open: whether speckled pebbles count, since a difference among fifteen of two colours is odd yet WB names a «fourth» and a «sixth»; WB's order is not one of rising whiteness.*
 230. **P. 425's labels (WB vol. 1, p. 425, ll. 6–10).**
      What do p. 425's labels say, «ཁྲ་བོའི་དཀར་པོ», «ཁྲ་བོའི་ཁྲ་བོ»,
      «ཁྲ་བོའི་ནག», «ནག་པོའི་དཀར», «དཀར་པོའི་ནག», «དཀར་ཁྲ» (the white,
@@ -2775,6 +2776,7 @@ the text, not about the app.
      «གདགས་སྲིབས་གོ་ལོག་ཐང་ཤིང་འབྲས། །མ་བབས་…» (ll. 6–7)?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Narrowed 2026-10-25 (RD53, [claims/illness-class-labels.md](claims/illness-class-labels.md)): the labels grade each class by a colour of a colour; seven of the nine classes carry one (white's black the fifth and sixth white, the speckled's white the half, the speckled's speckled and black the sixth black, black's white the fifth black; the third white and the fourth and third black none); a scheme of three zones of three grades is not taken, the text not saying it. «གདགས་སྲིབས་གོ་ལོག» is the sunny and shady sides turned about, as in ch. 26 (wb.1:p462-463). «ལྔ་སུམ་གཅིག་གི་ནད» is glossed nowhere.*
 231. **«རྙོངས» and «ཉ་བཞི» (WB vol. 1, p. 435, ll. 21, 26).**
      The fever printed «[རྙོངས]» (Yigdzin-1 of the reprint «སྟོངས»): is
      it the turbid fever (རྙོགས་ཚད, rnyogs tshad), and is «[ཉ]་བཞི་ན་ལ»
@@ -2782,10 +2784,12 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
      *Narrowed 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): p. 436 prints «ཉ་དང་ཚིགས་བཞི་ན་བ», the «ཉ» and the four joints, for «ཉ» against the etext's «ཞྭ» on p. 435.*
+     *Narrowed 2026-10-25 (RD53, [claims/illness-identified-words-on-scan.md](claims/illness-identified-words-on-scan.md)): «ཉ་བཞི» reads «ཉ» on the reprint (img. 430, 3×), agreeing with p. 436; «[རྙོངས]་ཚད» is an ink clot on the reprint, unsettled between རྙོངས, སྟོངས and རྟོངས (the line above has «སྟོངས་ཚད», weakly favouring a different word).*
 232. **«བླངས་ལན་པའི» (the notes, vol. 2, p. 497, l. 2).**
      What does the phrase «བླངས་ལན་པའི» say of the breath taken?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Narrowed 2026-10-25 (RD53): «བླངས་ལན་པའི» reads as printed on the reprint (img. 503, l. 2); the sense of «ལན» is not settled and no gloss was found.*
 233. **The turtle's left side and left leg on p. 358 (WB vol. 1, p. 358).**
      The 1996 print's p. 358 numbers the turtle's left side ༦ and left
      leg ༥, where the square and the notes' drawing give 7 and 6; do the
