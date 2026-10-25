@@ -229,6 +229,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
+| [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-places-not-allowed.md](claims/remains-places-not-allowed.md) | claim, table | The twenty-six places not allowed even if clean | cites wb.2:p104; feeds block-31 |
@@ -236,6 +237,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
+| [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -315,7 +317,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 3 passages: 3 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
-| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 33 passages: 17 scan, 16 machine |
+| [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 28 passages: 28 scan |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
@@ -329,7 +331,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
-| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 5 passages: 2 scan, 3 machine |
+| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
