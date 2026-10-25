@@ -48,3 +48,8 @@ block; by the same board the life force, body and luck would be read on
 their blocks' deciding pebbles (pp. 261, 329–331), a reading, not a
 statement. "Flaws of the year" (ལོ་སྐྱོན) names the harsh years of the
 year of age, not the birth.
+
+Since 2026-10-25 the passages that bear on it (Mipham's "decline" a black verdict,
+wb.2:p483; WB's own black readings of the four aspects; a manual's karma
+reckoning with one verdict for each aspect) are gathered in
+[karma-reckoning-aspect-bad](karma-reckoning-aspect-bad.md).

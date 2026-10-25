@@ -197,7 +197,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-nineteen-pebbles.md](claims/illness-nineteen-pebbles.md) | claim, rule | The nineteen pebbles of the sick | cites wb.1:p445-447, wb.2:p497-499; feeds block-32 |
 | [claims/illness-plank-trees.md](claims/illness-plank-trees.md) | claim, table | The illness reckoning: the four plank-trees read | cites wb.1:p422-423; feeds block-32 |
 | [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
+| [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
+| [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
 | [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md) | claim, rule | The karma reckoning over the match is each spouse's birth reckoning | cites wb.1:p364, wb.2:p526, wb.2:p474, wb.2:p478, wb.2:p489, wb.1:p261; feeds block-58 |
@@ -217,6 +219,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-start-phugpa.md](claims/moment-trigram-start-phugpa.md) | claim, rule | The moment's trigram starts as the Phugpa practice has it, not the General Tantra's halves of the year | cites ys.2:i016-017, wb.2:p535-537, wb.2:p161-162; feeds block-31 |
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
+| [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
@@ -298,6 +301,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 5 passages: 5 scan |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
+| [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 3 passages: 3 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
@@ -314,7 +318,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
-| [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 2 passages: 2 scan |
+| [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 5 passages: 2 scan, 3 machine |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
@@ -322,7 +326,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
-| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 21 passages: 7 scan, 14 machine |
+| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 23 passages: 9 scan, 14 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 1 passages: 1 scan |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |

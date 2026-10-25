@@ -23,6 +23,16 @@ The answer: what comes from the *General Tantra* and the like is a pure tantra; 
 
 The reading is by the scan (a running hand): lines 1–4 of img. 17 were read in quarters at native size against Yigdzin-1 and agree with it in every clause quoted; Yigdzin-1 prints «སྦར་ཁ» for «སྤར་ཁ» in the *Vaiḍūrya* line, and the scan's first letter there is not told from either at this size; the opening, «བརྒྱ་ང་བདུན་པ» at the foot of img. 16, was not read on the scan (Yigdzin-1 gives «བརྒྱ་ད་»), and the reply's first clause about the *General Tantra*, «ཁོ་ན་སོགས», is taken as Yigdzin-1 has it.
 
+## <a id="ys-i090"></a>ys:i090 Question 102 opens: ch. 22 called the life reckoning
+
+*Read: scan, 2026-10-25.*
+
+> །།བརྒྱ་གཉིས་པ་ཚེ་རྩིས་ཀྱི་ཐོག་མར། སྐྱེས་ཆེན་འགྲོ་བའི་དོན་ཕེབས་དང་། །དེ་ལས་…
+
+Read on the scan: I5875 img. 90, l. 7 (the last line), from the head of question 102 to «དེ་ལས», at native size (8280 px) by eye; the rest of the question is in the outline below (ys:i090-108, machine).
+
+The questioner's hundred and second: "at the beginning of the life reckoning (ཚེ་རྩིས, tshe rtsis), 'the great beings come for the sake of beings, and, turned from them, …'", which are the opening words of WB's ch. 22, the reckoning of lives and karma (ཚེ་རབས་ལས་རྩིས, tshe rabs las rtsis; vol. 1, p. 259, «དེ་ནས་ཚེ་རབས་ལས་རྩིས་ནི། །སྐྱེས་ཆེན་འགྲོ་བའི་དོན་ཕེབས་དང་།»). So the questioner, and the regent who answers him in his terms, call WB's ch. 22 "the life reckoning"; question and reply 111 (ys:i467-468) speak of the bad findings "told in the life reckoning" in that sense.
+
 ## <a id="ys-i090-108"></a>ys:i090-108 Questions 101–136 and 143–160, on ch. 22–25 and 28–30
 
 *Read: machine, 2026-10-23.*
@@ -38,6 +48,16 @@ The questions sent to the regent by Ngawang (ངག་དབང, ngag dbang) of 
 - **Ch. 28, small signs**, 143–145: the solstice sky, the rough seasons by the almanac's days, the bird days.
 - **Ch. 29, the reckoning for the dead** (གཤིན་རྩིས, gshin rtsis), 146–153: 146, the chapter, and the forty-seven or twenty pebbles for taking the living out of the dead; 147, the birth mewa's results there and in taking the dead out of the living, and the six lamps; 148, the first section's refuted view, the second section's «སྲོག་ལ་དགྲ་དར་ཤི་བ་ན», "died with the enemy rising on the life force" and "met with the mother or friend", which give two results for the enemy and none for the son, the demons "or else an enemy and a sudden mishap", and the third section's months cutting the life; 149, the funeral share; 150, the best rebirth; 151, the five graves and the old years and trigrams that forbid burning; 152, the "six twins" of the repetition, «བྱི་འབྲུག་སྤྲེལ་གསུམ་ལི་ཁམ་ཐོག», "born rat, dragon or monkey, on li or kham" (a man born rat, dragon or monkey who dies on li or kham is not struck by the "three Tuesdays"), and the trigram repetition «དོ་གཅིག་ལ་བབས་པ … ལོ་ཟླ་ཞག་དུས་བཞི་བརྩེགས་ན», "fallen on the *do gcig* (དོ་གཅིག, do gcig, not translated) … year, month, day and hour, four, stacked"; 153, the three and a half days of fainting after death.
 - **Ch. 30, the reckoning of the moment** (དུས་ཚོད་རྩིས, dus tshod rtsis), 154–160: 154, the signs of the time; 155, the mantra of *a kar ṣa* («ཨ་ཀར་ཥ»); 156, the preliminary invocation; 157, the moment's trigram by season; 158, the mewa of year, month, day and hour; 159, the elements of the time with the days of the month; 160, the thirteen gates, which end at «འཕུང་རྟ་རྔ་ཞོན», the ruin-horse riding the drum, followed by the sky and earth doors.
+
+## <a id="ys-i094"></a>ys:i094 Question 115: the body cut of the mewa called utterly bad
+
+*Read: scan, 2026-10-25.*
+
+> …ཁུག་པའི་སྐབས་བརྒྱད་དཀར་ལྕགས་ཀྱི་བུ་གསུམ་མཐིང་དང་། བཞི་ལྗང་ཤིང་གི་བུ་བདུན་དམར་ལུས་ཆད་ངན་པ་ཐ་ཆད…
+
+Read on the scan: I5875 img. 94, l. 6, from «ཁུག་པའི» to «ཐ་ཆད», at native size by eye; the question's head on l. 5 and its end («…དུ་བཤད་པ་སོགས་པའི་སྐབས་ངག་དགོངས་པ་འགལ་འདུ་ལྟ་བུ་འདུག…») are Yigdzin-1's reading and BDRC's etext, which agree, not read on the scan.
+
+The questioner's hundred and fifteenth, on the match's mewa (WB vol. 1, pp. 357–358): in the mewa's section mewa meeting as mother and son are called good, but in the section of the hidden *gi gong* (གི་གོང་ཁུག་པ, gi gong khug pa) "eight white, iron's son, with three blue, and four green, wood's son, with seven red" are told as the body cut (ལུས་ཆད, lus chad), "utterly bad" (ངན་པ་ཐ་ཆད, ngan pa tha chad): how are the two not in contradiction? The questioner's words for the lowest class of the match's mewa meetings are the same as the regent's for the lives barred in reply 111 (ys:i467-468): «ཐ་ཆད» names the bottom of a graded set, a class, not a count of pebbles.
 
 ## <a id="ys-i454-461"></a>ys:i454-461 Replies 101–106, on ch. 22: outline
 
