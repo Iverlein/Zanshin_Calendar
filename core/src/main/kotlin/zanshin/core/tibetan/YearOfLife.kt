@@ -330,6 +330,30 @@ enum class HarshYear {
 data class Harsh(val year: HarshYear, val kinship: Kinship? = null, val element: Element? = null, val nth: Int? = null)
 
 /**
+ * How Mipham's notes weigh an obstacle of the year against the one reckoned (vol. 2, pp. 492–494; ROADMAP D17):
+ * the harsh years, the tombs, the nine-multiples' tomb years and the undertakers, each by its own meeting.
+ */
+enum class ObstacleClass {
+    /** Harsh where its year meets an aspect as enemy, not otherwise (p. 492). */
+    HARSH,
+    /** A great danger met as itself or as enemy, a small one as mother, friend or son (p. 493). */
+    TOMB,
+    /** The vitality and the rest fighting the tomb year's destiny: itself or enemy bad, the others mild (p. 494). */
+    NINE_TOMB,
+    /** Bad where it meets an aspect as enemy (p. 494). */
+    UNDERTAKER;
+}
+
+/** The grade the notes give an obstacle that holds: the graver one, or the milder. */
+enum class ObstacleGrade { GRAVE, MILD; val english: String get() = gloss(this) }
+
+/**
+ * An obstacle of the year graded by the notes: [met] the aspects whose meeting makes it grave, the vitality first;
+ * [vitality] what the obstacle's year is to the vitality, where the grade goes by it.
+ */
+data class GradedObstacle(val harsh: Harsh, val kind: ObstacleClass, val grade: ObstacleGrade, val met: List<Force>, val vitality: Kinship?)
+
+/**
  * Whose aspect is held the most precious, reckoned first and mended first (WB vol. 1, ch. 20, p. 242; ch. 24,
  * p. 416): a man's vitality, a child's body, a woman's destiny; with no gender, all three are named. WB gives
  * no age for a child: one counts as a child below the 18th year, the first in which WB's nine-multiples call
@@ -480,6 +504,45 @@ data class YearReckoning(
         if (present == YearOfLife.tombYears(birth.element)[HarshYear.TOMB_OWN_GREAT] && birth.element != Element.EARTH) add(Harsh(HarshYear.BLACK_UNDERTAKER))
         if (trigram != null && trigram == YearOfLife.tombTrigram(forces.vitality)) add(Harsh(HarshYear.TOMB_SIGN))
     }
+
+    /**
+     * The obstacle [h] graded by the notes (vol. 2, pp. 492–494; ROADMAP D17): its year, the progressed sign for the
+     * progressed sign's own, fought against the four aspects. Null where the notes clear it (no enemy meeting for a
+     * harsh year or an undertaker), where WB reads it good (the own year and the seventh at their mother), and for
+     * the obstacles the notes do not weigh so (the trigram's and mewa's nine-multiples, the tomb sign).
+     */
+    fun graded(h: Harsh): GradedObstacle? {
+        if (h.kinship == Kinship.MOTHER && h.year in setOf(HarshYear.OWN_YEAR, HarshYear.SEVENTH)) return null
+        val sign = if (h.year.name.startsWith("LOG_MEN")) logMen ?: return null else present
+        fun meets(f: Force) = Forces.kinship(forces[f], sign.forces[f])
+        val enemies = Force.entries.filter { meets(it) == Kinship.ENEMY }
+        return when (h.year) {
+            HarshYear.OWN_YEAR, HarshYear.SEVENTH, HarshYear.TRIAD, HarshYear.FOURTH_UP, HarshYear.FOURTH_DOWN,
+            HarshYear.LOG_MEN_OWN, HarshYear.LOG_MEN_SEVENTH, HarshYear.LOG_MEN_ENEMY ->
+                if (enemies.isEmpty()) null else GradedObstacle(h, ObstacleClass.HARSH, ObstacleGrade.GRAVE, enemies, null)
+            HarshYear.BLACK_UNDERTAKER ->
+                if (enemies.isEmpty()) null else GradedObstacle(h, ObstacleClass.UNDERTAKER, ObstacleGrade.GRAVE, enemies, null)
+            HarshYear.TOMB_OWN_GREAT, HarshYear.TOMB_OWN_SMALL, HarshYear.TOMB_SLAYER_GREAT, HarshYear.TOMB_SLAYER_SMALL, HarshYear.LOG_MEN_TOMB -> {
+                val met = Force.entries.filter { meets(it) == Kinship.IDENTITY || meets(it) == Kinship.ENEMY }
+                GradedObstacle(h, ObstacleClass.TOMB, if (Force.VITALITY in met) ObstacleGrade.GRAVE else ObstacleGrade.MILD, met, meets(Force.VITALITY))
+            }
+            HarshYear.COMBINED_NINE, HarshYear.NINE_TOMB -> {
+                val power = present.forces.destiny
+                val met = Force.entries.filter { Forces.kinship(forces[it], power).let { k -> k == Kinship.IDENTITY || k == Kinship.ENEMY } }
+                GradedObstacle(h, ObstacleClass.NINE_TOMB, if (Force.VITALITY in met) ObstacleGrade.GRAVE else ObstacleGrade.MILD, met, Forces.kinship(forces.vitality, power))
+            }
+            HarshYear.TRIGRAM_NINE, HarshYear.MEWA_NINE, HarshYear.TOMB_SIGN -> null
+        }
+    }
+
+    /**
+     * The year's own obstacles as the Together reads them (ROADMAP R4, D17): each the notes grade and do not clear,
+     * the combined nine-multiple once for all its elements.
+     */
+    val together: List<GradedObstacle> get() = harsh.distinctBy { it.year }.mapNotNull(::graded)
+
+    /** The obstacles the notes do not clear (D17): those [graded], and those they do not weigh by a meeting. */
+    val standing: List<Harsh> get() = harsh.filter { graded(it) != null || it.year in setOf(HarshYear.TRIGRAM_NINE, HarshYear.MEWA_NINE, HarshYear.TOMB_SIGN) }
 
     /** Where the progressed sign's animal stands among the doors and the fives; null for a man's dragon or snake, a woman's dog or pig. */
     val logMenPlace: LogMenPlace? = logMen?.let { YearOfLife.logMenPlace(it.animal, gender!!) }

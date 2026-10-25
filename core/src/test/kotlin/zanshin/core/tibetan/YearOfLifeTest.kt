@@ -186,4 +186,35 @@ class YearOfLifeTest {
         val c = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(2020), 2020, Gender.MALE, null)
         assertEquals(listOf(Element.EARTH to 4, Element.FIRE to 4, Element.WOOD to 4), c.harsh.filter { it.year == HarshYear.COMBINED_NINE }.map { it.element to it.nth })
     }
+
+    /** Mipham's notes grade each obstacle against the one reckoned's aspects (vol. 2, pp. 492–494; ROADMAP D17). */
+    @Test
+    fun `the obstacles graded by the notes' meetings`() {
+        fun year(y: Int) = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(y), y, Gender.MALE, null)
+        // 1982, the water dog: the seventh, the year's destiny water against his fire destiny, its enemy; his earth vitality meets the dog's earth as itself.
+        val seventh = year(1982).together.single { it.harsh.year == HarshYear.SEVENTH }
+        assertEquals(ObstacleClass.HARSH, seventh.kind)
+        assertEquals(ObstacleGrade.GRAVE, seventh.grade)
+        assertEquals(true, Force.DESTINY in seventh.met && Force.VITALITY !in seventh.met)
+        // 2006, the fire dog: his great tomb; the dog's earth vitality meets his own as itself, the own tomb, a great danger.
+        val tomb = year(2006).together.single { it.harsh.year == HarshYear.TOMB_OWN_GREAT }
+        assertEquals(ObstacleGrade.GRAVE, tomb.grade)
+        assertEquals(Kinship.IDENTITY, tomb.vitality)
+        // 2020, the iron mouse, his 45th: the combined nine-multiple once; the year's iron destiny is his earth vitality's son, mild, and his wood luck's enemy.
+        val nine = year(2020).together.filter { it.harsh.year == HarshYear.COMBINED_NINE }
+        assertEquals(1, nine.size)
+        assertEquals(ObstacleGrade.MILD, nine[0].grade)
+        assertEquals(Kinship.SON, nine[0].vitality)
+        assertEquals(listOf(Force.LUCK), nine[0].met)
+        // The own year and the seventh at their mother are WB's glory, no obstacle; a harsh year without an enemy meeting is cleared.
+        for (y in 1977..2070) {
+            val r = year(y)
+            r.harsh.filter { it.kinship == Kinship.MOTHER }.forEach { assertNull(r.graded(it)) }
+            r.harsh.filter { it.year == HarshYear.TRIAD || it.year == HarshYear.FOURTH_UP || it.year == HarshYear.FOURTH_DOWN }.forEach { h ->
+                val enemy = Force.entries.any { Forces.kinship(r.forces[it], r.present.forces[it]) == Kinship.ENEMY }
+                assertEquals(enemy, r.graded(h) != null, "$y ${h.year}")
+            }
+            r.harsh.filter { it.year == HarshYear.TOMB_SIGN || it.year == HarshYear.TRIGRAM_NINE }.forEach { assertNull(r.graded(it)) }
+        }
+    }
 }

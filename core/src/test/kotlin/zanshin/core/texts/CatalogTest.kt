@@ -185,6 +185,7 @@ class CatalogTest {
             r.pebbles.forEach { out += Texts.yearPebble(it.force, it.pebbles) }
             r.sectors.forEach { out += Texts.yearSector(it.sector, it.force) }
             r.harsh.forEach { out += Texts.harsh(it) }
+            r.together.forEach { out += Texts.yearGrade(it) }
             r.smeBaObstacles.forEach { out += Texts.mewaObstacle(it) }
             r.trigram?.let { out += Texts.yearTrigram(it) }
             if (r.logMen != null) out += Texts.logMen(r.logMenPlace)
@@ -193,6 +194,7 @@ class CatalogTest {
         }
         for (f in Force.entries) for (c in PebbleColour.entries) out += Texts.yearPredictive(f, c)
         for (c in listOf(PebbleColour.WHITE, PebbleColour.BLACK)) out += Texts.yearPredictive(null, c)
+        PebbleColour.entries.forEach { out += Texts.yearTogether(it, emptyList()) }
         Trigram.entries.forEach { out += Texts.natalTrigram(it) }
         KinObstacle.entries.forEach { out += Texts.kinObstacle(it) }
         BirthChild.entries.forEach { c -> Element.entries.forEach { out += Texts.birthChild(c, it) } }
@@ -264,7 +266,7 @@ class CatalogTest {
         }.toSet()
         val families = listOf(
             "YearCare", "YearPebble", "YearPredictive", "YearSector", "YearDecline", "LogMen", "Harsh", "NineMultiple", "MewaObstacle", "YearTrigram", "YearMewa",
-            "NatalTrigram", "KinObstacle",
+            "NatalTrigram", "KinObstacle", "YearTogether", "YearGrade",
         )
         val written = english.keys.filter { k -> families.any { k == "reading.$it" || k.startsWith("reading.$it.") } }
         assertEquals(emptyList<String>(), written.filter { it !in shown }.sorted())
@@ -577,7 +579,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

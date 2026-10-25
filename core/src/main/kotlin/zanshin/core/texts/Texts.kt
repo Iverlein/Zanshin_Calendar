@@ -15,6 +15,7 @@ import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
+import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BadYearPebble
@@ -406,6 +407,8 @@ object Sources {
     val WHITE_BERYL_PREDICTIVE = whiteBeryl("chapter 24, pp. 380–385, with the notes in vol. 2, pp. 490 and 495", volume = 1)
     /** Whose aspect matters most (ch. 20, p. 242) and the black pebbles to be treated in earnest (ch. 24, pp. 415–416). */
     val WHITE_BERYL_YEAR_CARE = whiteBeryl("chapter 20, p. 242, and chapter 24, pp. 415–416", volume = 1)
+    /** The year of age together: the four classes' verdicts gathered (ch. 24, p. 385) and each obstacle weighed by Mipham's notes (vol. 2, pp. 492–495; D17). */
+    val WHITE_BERYL_YEAR_TOGETHER = whiteBeryl("chapter 24, p. 385, with the notes in vol. 2, pp. 492–495", volume = 1)
     /** Vol. 1, chapter 22's natal trigram and the births on each trigram (ROADMAP P2, docs/sources/year-of-life.md, RD13–RD14). */
     val WHITE_BERYL_BIRTH = whiteBeryl("chapter 22, pp. 261 and 286–288, with the notes in vol. 2, p. 476", volume = 1)
     /** The birth reckoning's five children by the natal trigram (ROADMAP R2, docs/sources/year-of-life.md, RD13). */
@@ -2051,6 +2054,18 @@ object Texts {
             else -> yearOfLife("Harsh", item)
         }
     }
+
+    /**
+     * The year of age together (ROADMAP R4, D17): the four classes' verdicts gathered, read by the [colour] of the
+     * aspect that matters most (WB vol. 1, ch. 24, p. 385); [remedies] the catalog keys whose Remedy rows join its own.
+     */
+    fun yearTogether(colour: PebbleColour, remedies: List<String>): Reading = Reading(
+        key = "reading.YearTogether", arg = "reading.YearTogether.${colour.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER, alsoRows = remedies,
+    )
+
+    /** An obstacle of the year graded by Mipham's notes (vol. 2, pp. 492–494; D17). */
+    fun yearGrade(g: GradedObstacle): Reading =
+        Reading(key = "reading.YearGrade", arg = "reading.YearGrade.${g.kind.name}.${g.grade.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER)
 
     /** A year of the nine-multiples, by gender and age (pp. 410–411), with the nine-multiples' remedies (p. 414). */
     fun nineMultiple(gender: Gender, age: Int): Reading = yearOfLife("NineMultiple", "${gender.name}.$age", listOf(NINE_REMEDIES))
