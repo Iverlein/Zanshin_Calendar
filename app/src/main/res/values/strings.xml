@@ -986,7 +986,12 @@
     <string name="dead_mewa_title">The mewa in the year of death</string>
     <string name="dead_course_title">The course of the years</string>
     <string name="dead_course_stage">%1$s on a bad stage</string>
-    <string name="dead_note">Of the reckoning for the dead, the first of its fifteen examinations is reckoned: whether the time of death had come, from the year, the progressed sign, the trigram, the mewa, the rise and decline, the month, the day and, where its time is known, the hour of death. The planet and the mansion, fought by element, and the other fourteen examinations are not reckoned.</string>
+    <string name="dead_note">Of the reckoning for the dead, the first two of its fifteen examinations are reckoned: whether the time of death had come, from the year, the progressed sign, the trigram, the mewa, the rise and decline, the month, the day and, where its time is known, the hour of death; and the reason the death met, by the deciding pebbles, the elements\' cuts among them and the year, month, day and hour of death. The planet and the mansion, fought by element, the reasons by the trigram and the mewa, and the other thirteen examinations are not reckoned.</string>
+    <string name="dead_cause_head">The reason the death met</string>
+    <string name="dead_cause_title">Reason by the %1$s</string>
+    <string name="dead_cut_title">The elements\' cut</string>
+    <string name="dead_time_title">%1$s of death · %2$s</string>
+    <string name="dead_time_subtitle">the la cut in the %1$s month</string>
     <string name="birth_subtitle">%1$s · born in the %2$s year, life force (སྲོག, srog) %3$s</string>
     <string name="birth_section_natal">The natal trigram</string>
     <string name="birth_section_parents">The parents\' trigrams</string>

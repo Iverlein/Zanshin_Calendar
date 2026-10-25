@@ -19,6 +19,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DeadReckoning
+import zanshin.core.tibetan.DeadTime
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.PebbleColour
@@ -104,7 +105,61 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
                 ),
                 onOpen,
             )
+            CauseRows(r, onOpen)
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }
 }
+
+/**
+ * The second examination (SPEC §5.9.4, ROADMAP R2p): the reason the death met, by each aspect's deciding pebble
+ * white or black, by the elements' cut met most often among the pebbles, and by the animal of the year, month, day and
+ * hour of death, the nearest in time last. The reasons by the trigram and the mewa wait on which of them is meant.
+ */
+@Composable
+private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Text(stringResource(R.string.dead_cause_head), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    Force.entries.forEach { force ->
+        val colour = r.deciding(force).takeIf { it != PebbleColour.SPECKLED } ?: return@forEach
+        AnnotationRow(
+            Annotation(
+                title = stringResource(
+                    R.string.birth_share_title, labels.string(R.string.dead_cause_title, gloss(force)),
+                    stringResource(if (colour == PebbleColour.WHITE) R.string.birth_precious_white else R.string.birth_precious_black),
+                ),
+                english = "",
+                tone = Tone.NEUTRAL,
+                reading = Texts.deadCause(force, colour),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    r.cuts.filter { it.read }.forEach { cut ->
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, stringResource(R.string.dead_cut_title), cut.english),
+                english = "",
+                tone = Tone.NEUTRAL,
+                reading = Texts.deadCut(cut),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    r.times.forEach { (time, animal) ->
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.dead_time_title, time.english.replaceFirstChar(Char::uppercase), gloss(animal).lowercase()),
+                english = "",
+                tone = Tone.NEUTRAL,
+                reading = Texts.deadCauseTime(animal),
+                subtitle = labels.string(R.string.dead_time_subtitle, gloss(DeadReckoning.cutMonth(animal), "of")),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+}
+
