@@ -1092,6 +1092,53 @@ note on what is reckoned.
 and places, the asker's year fighting the moment (p. 172), the signs,
 dreams and implements, the small reckonings (pp. 163–172).
 
+#### 5.9.6 The thirteen circles
+
+WB vol. 2, ch. 27, the thirteen circles (དཔྱད་ལྡིང, dpyad lding; ROADMAP R2u,
+2026-10-25; [sources/corpus/wb/ch27.md](sources/corpus/wb/ch27.md), RD38,
+RD44, RD47; `Circles`, core `tibetan/Circles.kt`), for the person in the
+present year, from the birth year alone:
+
+| Circle | For | Starts from |
+| --- | --- | --- |
+| the white garuḍa | the king | the bird of the power's enemy element |
+| the white snow lioness | spiritual friends | the hare of the enemy |
+| the yellow snake | mantra-holders | the snake of the friend |
+| the turquoise dragon | the Bon priests | the dragon of the mother |
+| the elephant | ministers and officials | the ox of the friend |
+| the striped iron tiger | young men | the tiger of the enemy |
+| the red bird | noble ladies | the rat of the mother |
+| the blazing jewel | small children | the tiger of the enemy |
+| the blue peacock | young women | the dog of the mother |
+| the golden rat | servants | by the four nails: born tiger, horse or dog, the tiger of the friend; rat, dragon or monkey, the dragon of the mother; pig, sheep or hare, the pig of the same; bird, ox or snake, the bird of the son (pp. 10–11; the regent's reply 140) |
+| the divine sheep | land and treasury | the pig of the enemy |
+| the golden vase | stored goods | the pig of the friend |
+| the wild yak | livestock | the ox of the mother |
+
+The element is set against the person's power, the birth year's own
+element (the notes, vol. 2, p. 533; Zhechen Gyaltsab's worked king, a wood
+monkey from the iron bird). Each circle is counted upward through the
+sixty years by the years lived, man or woman alike (reply 139), the
+starting year the first (the owner, 2026-10-25, D19); the year reached is
+fought against the person's vitality, body, destiny and luck, one pebble
+each by ch. 27's rule (p. 3): mother or friend white, son or enemy black,
+earth or water met by itself white, wood, iron or fire black; no
+speckled pebble. Each white or black pebble reads its circle's line for
+that aspect, a black one its remedy as a Remedy row (family
+`CirclePebble`). Tested by `CirclesTest` (the worked king, the inclusive
+count, a wood person's starts, the four nails as the older text's fixed
+years seen from wood, the colours).
+
+The screen (§10.11): "The thirteen circles" in the Reckonings list ("Your
+51st year · 30 white, 22 black"); on it the person's age, birth year and
+power, a row for each circle with its four pebbles drawn ○ × and the
+years counted, its sheet giving each pebble's reading in turn; a closing
+note on what is reckoned.
+
+**Not calculated**: the fifth pebble, the mewa (D20, open question 368);
+the circles' small reckonings, the meadow's ornament and Sprugtön's
+obstacle reckoning (pp. 13–25).
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*

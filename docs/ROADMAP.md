@@ -4083,6 +4083,26 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R2u The thirteen circles — built 2026-10-25** (SPEC §5.9.6, D19,
+  D20): ch. 27's circles (vol. 2, pp. 3–21, RD38 on the scan; RD44, RD47
+  for whose element, the count and the servant's start), from the birth
+  year's power, counted upward inclusively, four pebbles each by p. 3's
+  colours; `Circles`, `Circle`, `CircleReading`, family `CirclePebble`
+  (item R2), English and Russian; "The thirteen circles" in the
+  Reckonings list. Checked: `CirclesTest` (Zhechen Gyaltsab's wood-monkey
+  king from the iron bird, life force meeting itself, body the son, power
+  the enemy; the four nails equal to reply 140's fixed years seen from
+  wood), `CatalogTest`, `:app:testDebugUnitTest`, the emulator in English
+  and Russian (a fire dragon in his 51st year: 29 white and 23 black pebbles, the
+  king's from the water bird to the water pig; the sheet with each
+  pebble's reading and remedy), the release build (no raw keys). The
+  readings leave out what the claims mark unsettled or leave unnamed (the
+  nine-eye condition, «…» quoted words, Wylie-only titles without their
+  script), and name the sri spirits and other terms anew where the
+  catalog had none (the grave spirits, the spirits of the prime, of
+  enmity, of losses, of small children, the mother's, the horse spirits).
+  Not built: the mewa pebble (D20), the small reckonings, the meadow's
+  ornament, Sprugtön's.
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough

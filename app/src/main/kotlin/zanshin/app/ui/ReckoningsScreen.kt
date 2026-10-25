@@ -42,7 +42,9 @@ import zanshin.app.Reckonings
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
+import zanshin.core.tibetan.Circles
 import zanshin.core.tibetan.MomentReckoning
+import zanshin.core.tibetan.PebbleColour
 import java.time.ZoneId
 
 /**
@@ -73,6 +75,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
+            Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
             Reckoning.MOMENT -> MomentView(person, zone, back, open)
         }
     }
@@ -154,6 +157,16 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.CIRCLES -> {
+                val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
+                val circles = Circles.all(Reckonings.birthSign(person), age)
+                ScreenLinkRow(
+                    stringResource(R.string.circles_title),
+                    labels.string(R.string.reckonings_circles_subtitle, labels.ordinal(age), circles.sumOf { c -> c.pebbles.values.count { it == PebbleColour.WHITE } }, circles.sumOf { c -> c.pebbles.values.count { it == PebbleColour.BLACK } }),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.DEAD -> {
                 val n = Reckonings.dead(person).count { it.second != null }
                 ScreenLinkRow(
@@ -177,6 +190,21 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                 )
             }
         }
+    }
+}
+
+/** The thirteen circles of [person] in the present year (SPEC §5.9.6, ROADMAP R2u). */
+@Composable
+private fun CirclesScreen(person: Person?, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    Header(stringResource(R.string.circles_title), person?.let { personLabel(it) }, onBack)
+    Body {
+        if (person == null) {
+            NoPerson(onPeople)
+            return@Body
+        }
+        val birth = Reckonings.birthSign(person)
+        val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
+        CirclesView(person, birth, age, remember(person, age) { Circles.all(birth, age) }, onOpen)
     }
 }
 

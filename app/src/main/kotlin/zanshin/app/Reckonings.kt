@@ -28,7 +28,7 @@ import zanshin.core.tibetan.YearReckoning
  * The element reckonings built, as the Reckonings screen lists them (SPEC §10.11, ROADMAP R1), in the order of
  * docs/sources/reckonings.md's inventory. Each one built after R1 (R2…) is added here.
  */
-enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD, MOMENT }
+enum class Reckoning { BIRTH, MATCH, YEAR_OF_AGE, DEAD, CIRCLES, MOMENT }
 
 /**
  * The reckoning of [person]'s birth as far as it is built (ROADMAP R2): the natal trigram, their [mother]'s trigram in
@@ -71,6 +71,12 @@ data class MatchReading(
 object Reckonings {
     /** The reckonings the section lists for [person]: all of them need a birth date, so none without one. */
     fun built(person: Person?): List<Reckoning> = if (person == null) emptyList() else Reckoning.entries
+
+    /** The sign of the Tibetan year [person] was born in. */
+    fun birthSign(person: Person): Sign = TibetanCalendar.of(person.birth).let { Sign(it.yearElement, it.yearAnimal) }
+
+    /** The Tibetan year of today's date. */
+    fun presentYear(): Int = TibetanCalendar.of(java.time.LocalDate.now()).year
 
     /** The Tibetan year [person] was born in, which is their first year of age. */
     fun birthYear(person: Person): Int = TibetanCalendar.of(person.birth).year
