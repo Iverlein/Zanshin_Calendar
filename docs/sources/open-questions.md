@@ -2737,6 +2737,7 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
      *Narrowed 2026-10-23 (RD48, [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md#ys-i491)): the regent's reply 133 names the five pebbles as the trigram elements of the year, month, day and hour of falling ill («དེ་བཞིའི་སྤར་ཁམས»), with the commonest element among them the fifth; the notes (p. 497) take the four life-force elements instead (question 389).*
+     *Mostly answered 2026-10-25 (question 389, [claims/illness-first-four-pebbles-life-force.md](claims/illness-first-four-pebbles-life-force.md), [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md)): every print, the Zhol and Taikhang blocks on the scan, carves the line as the 1996 print; the first four pebbles are the life-force elements, as WB's words and the notes have it; «རང་ཟླར་ཚེས་པའི་སྤར་ཁ» is WB's almanac rule (p. 178): in tiger, horse and dog months the first date begins with li, the day's trigram counted on from its own month's first, the hour's from the day's. Li for the year itself is question 390.*
 227. **The notes' seven elements (the notes, vol. 2, p. 497, l. 11).**
      Which are the notes' seven («ལོ་སོགས་དང་མི་རིགས་བཅས་བདུན་པོ»): the
      life force of the year, month and day of falling ill, the hour's
@@ -2745,12 +2746,14 @@ the text, not about the app.
      person's kind and the time of reckoning?
      [verdicts.md](verdicts.md), "The illness identified: the element
      that is most" (RD22).
+     *Mostly answered 2026-10-25 ([claims/illness-seven-elements.md](claims/illness-seven-elements.md)): the seven follow the notes' own gloss just before them: the life force of the year, month and day of falling ill, the hour's power, the descending trigram and mewa, and the kind of person, glossed by the notes as the birth luck (བཙས་ཀླུང, btsas klung); the notes make "the time of reckoning" the year and the rest told above, not a seventh. The regent's question 134 (ys:i099) takes the kind as the element of the birth's «སྲོག་རླུང» (question 399); reply 134 (ys:i491-492, on the scan) keeps the clan element as "rough" only, adding shape and colour (question 400).*
 228. **A third and two thirds (WB vol. 1, p. 438; the notes, vol. 2, p. 497).**
      How do p. 438's "a third and two thirds: an illness of spirits and
      conditions" and the notes' example (two wood, two fire, three iron
      of seven: iron's illness, the greater share) agree; is the rule of
      p. 438 for two elements only? [verdicts.md](verdicts.md), "The
      illness identified: the element that is most" (RD22).
+     *Narrowed 2026-10-25 ([claims/illness-shares-halves-thirds.md](claims/illness-shares-halves-thirds.md)): the notes' two, two and three of seven is a split among three elements with no half and no two thirds, so it falls under "otherwise the most taken as chief", not under the thirds; a few lines on, p. 438 itself names humoral illnesses for third and two-thirds splits (water two thirds, earth a third; water a third, fire two thirds; wood two thirds with earth and iron a third), so the thirds are shares of a split, not limited to two elements, and "spirits and conditions" does not replace the humoral illness. What it adds, question 401. The Taikhang print carves «གསུམ་ཆ», the same word.*
 229. **The nine classes as counts of the fifteen (WB vol. 1, p. 425; the notes, vol. 2, p. 496).**
      What are WB's classes «སུམ་ཆས», «བཞི་ཆས», «ལྔ་ཆས», «དྲུག་ཆས»
      «ལྷག་དཀར» / «ནག» and «དཀར་ནག་ཕྱེད་མ» as counts of the fifteen? The

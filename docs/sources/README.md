@@ -466,7 +466,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0386.md](questions/q0386.md) | question q386 | «ཡི་བམ» and «འབྱུང་ཆུང» in reply 152 | open; cites ys:i513-514 |
 | [questions/q0387.md](questions/q0387.md) | question q387 | «སྟོངས», an empty aspect, in reply 148 | open; cites ys:i506-508 |
 | [questions/q0388.md](questions/q0388.md) | question q388 | Reply 111's verdict pebble and «ངན་ཐ་ཆད» | open; cites ys:i467-468 |
-| [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | open; cites ys:i491, wb.2:p497 |
+| [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | answered; cites ys:i491, wb.2:p497, wb.1:p435 |
 | [questions/q0390.md](questions/q0390.md) | question q390 | The Vaiḍūrya line on the moment's trigram: year or month, and the later dates | open; cites ys.2:i016-017 |
 | [questions/q0391.md](questions/q0391.md) | question q391 | The meaning of «རྟ་ཞག་སྔོན་པོ» and «ཐེ་ཁྱིམ་བཙུན་མོ» | open; cites wb.1:p460, wb.1:p462 |
 | [questions/q0392.md](questions/q0392.md) | question q392 | Does a middling life reckoning bar the match | open; cites ys:i467-468, wb.1:p349 |
@@ -476,6 +476,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0396.md](questions/q0396.md) | question q396 | A white enemy pebble in the karma reckoning: good or bad | open; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
 | [questions/q0397.md](questions/q0397.md) | question q397 | The son text that lays a trigram pebble in the household round | open; cites lt:p20-25 |
 | [questions/q0398.md](questions/q0398.md) | question q398 | The Spor thang sheet of seven members: fold, leftovers and colours | open; cites kd.3:p726, wb.2:p490-491 |
+| [questions/q0399.md](questions/q0399.md) | question q399 | «བཙས་པ་སྲོག་རླུང» in question 134: the life-wind or the life force and wind-horse | open; cites ys:i099, wb.2:p497 |
+| [questions/q0400.md](questions/q0400.md) | question q400 | «དཔྱད་འགོག་བྱེད་དུ» in reply 134 | open; cites ys:i491-492 |
+| [questions/q0401.md](questions/q0401.md) | question q401 | What spirits and conditions add to a split of a third and two thirds | open; cites wb.1:p438 |
 
 <!-- end pool index -->
 
