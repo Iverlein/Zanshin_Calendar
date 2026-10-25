@@ -183,7 +183,7 @@ private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     row(labels.string(R.string.dead_demon_year, gloss(born).lowercase()), Texts.deadDemonYear(born))
     r.demonDay?.let { row(labels.string(R.string.dead_time_title, DeadTime.DAY.english.replaceFirstChar(Char::uppercase), gloss(it).lowercase()), Texts.deadDemonDay(it)) }
     r.weekday?.let { row(labels.string(R.string.dead_demon_weekday, gloss(it, "inText")), Texts.deadDemonWeekday(it)) }
-    r.mansion?.let { row(labels.string(R.string.dead_demon_mansion, it.english), Texts.deadDemonMansion(it)) }
+    r.mansion?.let { row(labels.string(R.string.dead_demon_mansion, gloss(it, "sanskrit")), Texts.deadDemonMansion(it)) }
     r.year.hour?.let { h -> row(labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), Texts.deadDemonHour(h.sign.animal)) }
 }
 

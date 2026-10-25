@@ -1628,6 +1628,23 @@ verdict, and the owner's decisions of 2026-10-10:
   brief; the sections below still show every obstacle WB lists, each
   with its reading. No count the notes do not make: the obstacles are
   graded, not summed. The household round still waits on question 258.
+- **D18, decided 2026-10-25 (the owner): the dead's trigram and mewa are the descended ones at death** (open questions 260, 272;
+  [claims/dead-trigram-fallen-to.md](sources/claims/dead-trigram-fallen-to.md)):
+  where ch. 29 says "died on li" or "the trigram and mewa of death" without
+  saying whose, the build takes the dead's trigram and mewa of the year of
+  age at the year of death, as the regent's reply 152 reads the tenth
+  examination and as the first examination's roots already do (the notes,
+  p. 500). The questions stay open for a reader of the tradition.
+- **D19, decided 2026-10-25 (the owner): the circles count the years inclusively** (open question 301;
+  [claims/circles-zg-worked.md](sources/claims/circles-zg-worked.md)):
+  "as many years as lived" from a circle's starting year is the app's age,
+  the starting year itself the first, so the year reached is the start
+  plus the age less one, as Zhechen Gyaltsab's worked example and UT's
+  count of years fit.
+- **D20, decided 2026-10-25 (the owner): the circles are built without their mewa pebble** (open question 368):
+  the four settled pebbles of each circle, life force, body, power and
+  luck, are built with their readings; the mewa pebble waits until how
+  its two mewas are joined is read.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
@@ -4020,7 +4037,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   (item R2), English and Russian. Checked: `DeadTest` (the seventh months;
   KD's dead man of the fire horse: the year pig, the hour sheep, three
   times without the hour; the cuts the most-met fights), `CatalogTest`,
-  `:app:testDebugUnitTest`. Not built: the reasons by the trigram and the
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a father
+  of 1906 dead on 1995-10-27 at 14:00: three reasons, fire cut by water,
+  the four times), the release build. Not built: the reasons by the trigram and the
   mewa (open questions 260, 272), two waters within («ཁང་ནག་བཤུས» not
   settled).
 - **R2q Which spirit carried the dead off — built 2026-10-25** (SPEC
@@ -4031,7 +4050,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   `DeadReckoning.weekday`, `demonDay`, families `DeadDemonYear`,
   `DeadDemonDay`, `DeadDemonWeekday`, `DeadDemonHour` (item R2), English
   and Russian. Checked: `DeadTest` (the weekday and the named day on KD's
-  dead man), `CatalogTest`, `:app:testDebugUnitTest`. Not built: by the
+  dead man), `CatalogTest`, `:app:testDebugUnitTest`, the emulator in
+  English and Russian (the same father: born in the horse year, a Friday,
+  Anurādhā, the sheep hour), the release build. Not built: by the
   trigram and the mewa (open question 260), by the weekday's planet's
   state (how it is found not said). **R2r, the mansion of death, built the
   same day**: the 27 mansions' entries (pp. 65–66; Abhijit's not reached,
@@ -4044,7 +4065,8 @@ groups it shows (`tools/emulator/store_shots.py`).
   `DeadReckoning.rebirthByHour`, `DeadRebirth`, families
   `DeadRebirthDay`, `DeadRebirthHour`, `DeadVirtue` (item R2), English and
   Russian. Checked: `DeadTest` (two hours to each realm), `CatalogTest`,
-  `:app:testDebugUnitTest`. Not built: the rebirth's deciding pebble (the
+  `:app:testDebugUnitTest`, the emulator in English and Russian (the sheep
+  hour, a hungry ghost; the pig year's texts), the release build. Not built: the rebirth's deciding pebble (the
   element's pebble, also the fourth examination's funeral share, is not
   yet reckoned), by the mewa (open question 272), by the aspects and the
   stage (whose not said).
@@ -4135,7 +4157,11 @@ groups it shows (`tools/emulator/store_shots.py`).
   dog's own great tomb a great danger, the iron mouse's combined
   nine-multiple once and mild; across 1977–2070 a harsh year cleared
   exactly where no aspect meets an enemy), `CatalogTest`,
-  `:app:testDebugUnitTest`. Not built: the *dza zor*, the la's own six.
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
+  dragon man in 2020: white together, the progressed sign's seventh harsh,
+  its tomb a great danger, the combined nine-multiple mild; the gathered
+  remedies; 2026 with none graded), the release build (no raw keys). Not
+  built: the *dza zor*, the la's own six.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
