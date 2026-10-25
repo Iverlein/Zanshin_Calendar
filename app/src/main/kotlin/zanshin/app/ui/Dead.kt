@@ -106,6 +106,7 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
                 onOpen,
             )
             CauseRows(r, onOpen)
+            DemonRows(r, onOpen)
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }
@@ -161,5 +162,26 @@ private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
             onOpen,
         )
     }
+}
+
+/**
+ * The third examination (SPEC §5.9.4, ROADMAP R2q): which spirit carried the dead off and its rite, by the dead's year
+ * animal, the day's animal where p. 63 names it, the weekday and the hour of death where it is known. By the trigram,
+ * the mewa and the mansion it is not yet reckoned.
+ */
+@Composable
+private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Text(stringResource(R.string.dead_demon_head), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    @Composable
+    fun row(title: String, reading: zanshin.core.texts.Reading) = AnnotationRow(
+        Annotation(title = title, english = "", tone = Tone.NEUTRAL, reading = reading, titleIsKanji = false),
+        onOpen,
+    )
+    val born = r.year.birth.animal
+    row(labels.string(R.string.dead_demon_year, gloss(born).lowercase()), Texts.deadDemonYear(born))
+    r.demonDay?.let { row(labels.string(R.string.dead_time_title, DeadTime.DAY.english.replaceFirstChar(Char::uppercase), gloss(it).lowercase()), Texts.deadDemonDay(it)) }
+    r.weekday?.let { row(labels.string(R.string.dead_demon_weekday, gloss(it, "inText")), Texts.deadDemonWeekday(it)) }
+    r.year.hour?.let { h -> row(labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), Texts.deadDemonHour(h.sign.animal)) }
 }
 
