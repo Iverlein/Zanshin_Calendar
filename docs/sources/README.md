@@ -69,10 +69,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
+| [claims/ch27-brje-set-is-the-monk.md](claims/ch27-brje-set-is-the-monk.md) | claim, note | Ch. 27: the set of four headed «བརྗེ» is the monk's | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
+| [claims/ch27-la-wandering-directions.md](claims/ch27-la-wandering-directions.md) | claim, conflict | Ch. 27: the la's wandering by the year, three prints agree | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
+| [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
 | [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
 | [claims/ch28-bird-days.md](claims/ch28-bird-days.md) | claim, table | The sky-bird's days after the winter solstice | cites wb.2:p29-30, wb.2:p28-29; feeds block-31 |
