@@ -49,6 +49,7 @@ import zanshin.core.tibetan.KinReckoning
 import zanshin.core.tibetan.KinRole
 import zanshin.core.tibetan.Kinship
 import zanshin.core.tibetan.LogMenPlace
+import zanshin.core.tibetan.ObstacleGrade
 import zanshin.core.tibetan.Pebbles
 import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.Sign
@@ -78,6 +79,7 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         )
 
         val kin = Reckonings.kin(person)
+        YearTogetherSection(r, person, kin, labels, onOpen)
         Section(stringResource(R.string.year_section_signs))
         AnnotationRow(mewaAnnotation(r, labels), onOpen)
         if (r.gender == null) {
@@ -150,6 +152,82 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
         }
     }
 }
+
+/**
+ * The year together (ROADMAP R4, D17; docs/sources/verdicts.md, RD20): the four classes' verdicts gathered, read by
+ * the aspect that matters most (WB vol. 1, p. 385), with the remedies of every black or speckled pebble, bad stage
+ * and obstacle the notes do not clear gathered; then each obstacle the notes grade by its meeting with the four
+ * aspects (vol. 2, pp. 492–494), the cleared ones left out.
+ */
+@Composable
+private fun YearTogetherSection(r: YearReckoning, person: Person, kin: List<Kin>, labels: Labels, onOpen: (Annotation) -> Unit) {
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    Section(stringResource(R.string.match_section_together))
+    val chief = Care.of(r.gender, r.age).force
+    if (!r.complete || chief == null) {
+        Text(stringResource(R.string.year_together_needed), style = muted)
+    } else {
+        val colours = Force.entries.associateWith { r.predictive(it)!! }
+        val bad = buildList {
+            (listOf(chief) + Force.entries.filter { it != chief }).forEach { f ->
+                colours.getValue(f).takeIf { it != PebbleColour.WHITE }?.let { add(Texts.yearPredictive(f, it)) }
+            }
+            if (colours.values.all { it == PebbleColour.BLACK }) add(Texts.yearPredictive(null, PebbleColour.BLACK))
+            r.sectors.filter { !it.sector.good }.forEach { add(Texts.yearSector(it.sector, it.force)) }
+            r.standing.forEach { add(Texts.harsh(it)) }
+            if (r.nineMultiple) add(Texts.nineMultiple(r.gender!!, r.age))
+            r.smeBaObstacles.forEach { add(Texts.mewaObstacle(it)) }
+            KinReckoning.obstacles(r, kin).forEach { add(Texts.kinObstacle(it.obstacle)) }
+        }
+        val remedies = bad.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }
+        val first = colours.getValue(chief)
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.birth_share_title, labels.string(R.string.year_together_title), colourWord(first, labels)),
+                english = "",
+                tone = when (first) {
+                    PebbleColour.WHITE -> Tone.GOOD
+                    PebbleColour.BLACK -> Tone.BAD
+                    PebbleColour.SPECKLED -> Tone.MIXED
+                },
+                reading = Texts.yearTogether(first, remedies),
+                subtitle = Force.entries.joinToString(" · ") { labels.string(R.string.year_predictive_title, it.english.replaceFirstChar(Char::uppercase), colourWord(colours.getValue(it), labels)) },
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    val graded = r.together
+    graded.forEach { g ->
+        val also = g.met.filter { it != Force.VITALITY }
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.birth_share_title, g.harsh.year.english.replaceFirstChar(Char::uppercase), gloss(g.grade, g.kind.name)),
+                english = "",
+                tone = if (g.grade == ObstacleGrade.GRAVE) Tone.BAD else Tone.MIXED,
+                reading = Texts.yearGrade(g),
+                subtitle = when (val v = g.vitality) {
+                    null -> labels.string(R.string.year_grade_enemy, g.met.joinToString(", ") { it.english })
+                    else -> listOfNotNull(
+                        labels.string(R.string.year_grade_vitality, v.english),
+                        also.takeIf { it.isNotEmpty() }?.let { fs -> labels.string(R.string.year_grade_also, fs.joinToString(", ") { it.english }) },
+                    ).joinToString(" · ")
+                },
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    if (graded.isEmpty() && r.harsh.isNotEmpty() && r.standing.isEmpty()) Text(stringResource(R.string.year_together_clear), style = muted)
+}
+
+private fun colourWord(c: PebbleColour, labels: Labels): String = labels.string(
+    when (c) {
+        PebbleColour.WHITE -> R.string.year_colour_white
+        PebbleColour.BLACK -> R.string.year_colour_black
+        PebbleColour.SPECKLED -> R.string.year_colour_speckled
+    },
+)
 
 /** The present two-hour period, from the hare hour at 05:00, of the Tibetan day it falls in: the hour of reckoning. */
 internal fun hourOfReckoning(zone: ZoneId): HourSign {

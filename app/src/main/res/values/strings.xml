@@ -1120,6 +1120,15 @@
     <string name="birth_together_subtitle">Of the twenty deciding pebbles %1$d good, %2$d bad</string>
     <string name="birth_board_title">Reading the board</string>
     <string name="birth_together_needed">The birth is read together from its hundred pebbles, which need your gender and a son\'s father\'s year.</string>
+    <string name="year_together_title">The year together</string>
+    <string name="year_together_needed">The year is read together from its four predictive pebbles, which need your gender.</string>
+    <string name="year_together_clear">None of the year\'s obstacles below meets your aspects so as to weigh against them.</string>
+    <string name="year_colour_white">white</string>
+    <string name="year_colour_black">black</string>
+    <string name="year_colour_speckled">speckled</string>
+    <string name="year_grade_enemy">enemy of your %1$s</string>
+    <string name="year_grade_vitality">meets your vitality as %1$s</string>
+    <string name="year_grade_also">also %1$s</string>
     <string name="birth_precious_speckled">%1$s, by the %2$s, is speckled, half white and half black.</string>
     <string name="birth_triad_title">The year\'s luck triad</string>
     <string name="birth_triad_subtitle">%1$s · luck %2$s</string>

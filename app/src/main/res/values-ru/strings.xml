@@ -973,6 +973,15 @@
     <string name="birth_together_subtitle">Из двадцати решающих камешков добрых %1$d, дурных %2$d</string>
     <string name="birth_board_title">Как читать доску</string>
     <string name="birth_together_needed">Рождение читается в целом по ста камешкам, а для них нужен ваш пол и, для сына, год отца.</string>
+    <string name="year_together_title">Год в целом</string>
+    <string name="year_together_needed">Год читается в целом по четырём предсказательным камням, а для них нужен ваш пол.</string>
+    <string name="year_together_clear">Ни одно из препятствий года ниже не встречает ваши аспекты так, чтобы лечь против них.</string>
+    <string name="year_colour_white">белый</string>
+    <string name="year_colour_black">чёрный</string>
+    <string name="year_colour_speckled">пёстрый</string>
+    <string name="year_grade_enemy">враг для: %1$s</string>
+    <string name="year_grade_vitality">встречает жизненную силу как: %1$s</string>
+    <string name="year_grade_also">также: %1$s</string>
     <string name="birth_precious_speckled">%1$s, по животному «%2$s», пёстрый: наполовину белый, наполовину чёрный.</string>
     <string name="birth_triad_title">Тройка удачи года</string>
     <string name="birth_triad_subtitle">%1$s · конь ветра: %2$s</string>
