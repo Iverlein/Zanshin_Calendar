@@ -1002,3 +1002,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-25, the regent's replies 133–136 and their questions (I5875 img. 99, 491–494): no reply speaks of the shares (halves, thirds) or of the notes' seven.
 - **The illness identified, the classes and labels (RD53)** (RD53, 2026-10-25):
   - 2026-10-25: the pool (kb.py) and the 1996 print's Yigdzin-1 of vol. 1 and 2 for «ཁྲ་བོའི་», «ལྔ་སུམ་གཅིག», «བླངས་ལན» and «རྙོངས་ཚད»: «ཁྲ་བོའི་» stands only in p. 425; none of the four has a gloss; «གདགས་སྲིབས» stands in ch. 26 only.
+- **The plank-tree's offering line (RD55)** (RD55, 2026-10-25):
+  - 2026-10-25, BDRC full-text search: «བསྔོ་རུ་མ་བཏུབ» (7 etexts), «བསྔོ་མ་བཏུབ» (5), «བསྔོར་མ་བཏུབ» (KD only), also with «ཅེས» or «ཞེས» and the variants «བསྔོ་རུ་མི་བཏུབ», «བསྔོ་མི་བཏུབ», «བསྔོ་མ་བཏུབ་པ»: every hit is the verse itself, copied; none is a gloss.
+  - 2026-10-25, the etexts of YS I5875, WB2 vol. 2, UT I4767, LT, ZG, the Bhutan collection and the Gser thang vols. 1 and 2: «བསྔོ་རུ», «བསྔོ་མ་བཏུབ», «བསྔོར» and «སྔོ་བགྲང» have no hit other than the verse and the notes' own line; Steinert's dictionaries were not consulted (the clone is not on this machine); YS I5876 and the Zhol blocks for pp. 423–425 (img. 559–562) were not read.

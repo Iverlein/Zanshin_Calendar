@@ -2536,10 +2536,12 @@ the text, not about the app.
      not take the offering". [verdicts.md](verdicts.md), "D16: WB, the notes
      and the manuals" (O19).
      *Read 2026-10-23 (RD41, [corpus/wb/ch25.md](corpus/wb/ch25.md)): the Gser thang reprint carves «བསྔོ་མ་བཏུབ» on p. 423, l. 25 (at 3×), the 1996 Yigdzin-1 «བསྡོ»; the notes gloss «ཐང་ཤིང་མ་བབ» as a reckoning not come to a decision (vol. 2, pp. 495–496).*
+     *Answered as far as the sources go 2026-10-25 (RD55, [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md)): every print and copy found spells «བསྔོ་རུ་མ་བཏུབ» (pp. 419, 425) or «བསྔོ་མ་བཏུབ» (pp. 423–424) alike; the 1996 etext's «བསྡོ» is its OCR of the reprint's «བསྔོ»; no text glosses it. «བསྔོ་རུ» occurs once more in WB (vol. 1 p. 282) as a noun of «བསྔོ» (to dedicate, assign), so "cannot be assigned" is an inference; health.md's "will not take the offering" has no source.*
 196. **«སྔོ་བགྲང» (the notes, vol. 2, p. 495, img. 503).**
      What is «སྔོ་བགྲང» in the notes' «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད» (WB vol. 2, p.
      495, img. 503), and is it related to p. 419's «བསྔོ»?
      [verdicts.md](verdicts.md), "D16: WB, the notes and the manuals" (O19).
+     *Answered 2026-10-25 (RD55, [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md)): «སྔོ་བགྲང», with no prefix on the reprint at 8×, is not related to p. 419's «བསྔོ»; the notes' next sentence glosses it: a speckled pebble "is counted nowhere, outside or in, but if it comes it is somewhat weaker".*
 197. **A son meeting in the birth's hundred pebbles (WB vol. 2, the notes, p. 475, img. 483).**
      The notes lay a son meeting as one black pebble in the birth's
      hundred pebbles («བུ་དགྲ་ལ་ནག་པོ་རེ་རེ», p. 475, on both prints),
