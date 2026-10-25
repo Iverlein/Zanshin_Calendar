@@ -3,7 +3,7 @@ kind: corpus
 source: kd
 volume: 3
 chapter: sheets
-pages: 716–723
+pages: 716–726
 read: scan
 ---
 # KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles
@@ -159,3 +159,13 @@ year's five aspects, counted down the reckoned person's five. Mipham's
 notes (vol. 2, p. 534) instead take each group's five as the five years
 of one animal ("the seventh, the five dragons headed by the water
 dragon"): open question 216, narrowed, not settled.
+
+## <a id="kd-3-p726"></a>kd.3:p726 The Spor thang's household round of seven members (etext only)
+
+*Read: etext, 2026-10-25.*
+
+> གཙུག་ལག་སྤོར་ཐང་རྩིས་གཞུང་ལས་ཁྱིམ་མི་གཅིག་བསྡུས་རྒྱ[རྒྱུ]་ནག་རྡེལ་སྐོར་གྱི་ཁྲ་མ་བཞུགས་སོ། … ཕྲེང་འདི་དག་དོར་བར་བྱ། … རྡེལ་མཇུག … རྡེལ་རོ། … མི་ས་ … ༣༣ ༣༢ ༣༡ ༣༠ ཁུག་པ[ང] … ༢༡ ཁྱིམ་ས་ ༢༢ ༢༣ ༢༤ ༢༥ ༢༦ ༢༧ ཡང་ཁུག … གསང་བ་ ༡༤ ༡ ༡༢ … དགྲ་ས … ཡང་ཁུག
+
+The sheet "of the Chinese pebble round of one household's members gathered together, from the *Spor thang* (གཙུག་ལག་སྤོར་ཐང, gtsug lag spor thang) reckoning text", in Kun dga' rig 'dzin's (ཀུན་དགའ་རིག་འཛིན, kun dga' rig 'dzin) *Sheets of Some Needed Examples*, KD vol. 3, p. 726 (lent scans, leaf 745; BDRC's etext p. 746). **Etext only**: the lent scans were not read (another session held the loan), and the etext keeps the headings and some numbers of the charts but loses most cells and every drawn pebble. Nothing here may be built on; the sheet is the one worked household round found for a household other than five, and is to be read on the scan.
+
+What the etext lets be seen: seven members, each named by a year (fire snake, water monkey, fire hare and water sheep legible, a dog and two others not); a laying chart of rows body, life force, power, luck and mewa, each cell an element letter and the order of taking. The mewa row's numbers read ༩ ༡༩ ༢༩ ༣༢ ༢༢ ༡༢ ༢ from the first member to the seventh, with the mewa colours white, red, blue, red, yellow, yellow, white; the power row ༥, ༡༥, ༢༥, ༣༥, ༢༦; the life force row ༡༣, ༢༣, ༢༨, ༡༨; the luck row ༢༤, ༡༤, ༤; the body row ༡, ༡༡. Every number legible is the one the zigzag of claims/household-round-zigzag.md gives for seven members (the mewa row 9, 19, 29, 32, 22, 12, 2; the middle member's power 35). Then the fold: a box "these rows to be cast off"; the tail pebble and the leftover (རྡེལ་རོ, rdel ro); the people's row with ༣༣ ༣༢ ༣༡ ༣༠ and the label «ཁུག་པ», fold; the house's row with ༢༡ … ༢༧ and «ཡང་ཁུག», refold; the enemy's row; the word «གསང་བ», secret (the name a modern account gives the refold's leftover, MW1KG6061, search only), near ༡༤ ༡ ༡༢; and «ཡང་ཁུག» once more under the enemy's row. Thirty-five pebbles leave three over when divided by four and two when divided by three; the etext's labels of both a fold and a refold leftover agree with the first, but the cells that would show it are lost.

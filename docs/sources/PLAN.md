@@ -145,7 +145,7 @@ scratch directory, not in the repository:
   tables and charts more cleanly than the Mtho las print: the nectar
   tables on img. 306–307, the Rāhu charts on img. 301; check a doubtful
   KP numeral there first. WB's notes are Mipham's *Nag rtsis brjed byang*
-  and have his own print (I2029, img. 621–750). For a medical line of the
+  and have his own print (I2029, img. 621–750) and a clean typeset one, open, in the Chengdu Collected Works (MW2DB16631_DB4BAA, vol. 1, I1PD34647 img. 529–694; WB's notes p. 491 is its p. 525, img. 571; 2026-10-25); Zhechen Gyaltsab's table manual, the *Lotus Pond* (ZG's volume I4PD2444, from p. 262), restates the notes in verse with their charts. For a medical line of the
   Four Tantras, Khro ru Tshe rnam's *Rgyud bzhi'i 'grel chen* (MW29701,
   etexts) and the *Phyi ma rgyud kyi 'grel ba phyogs bsgrigs*
   (MW1KG14623) explain it word by word. The reckoners' manuals with full
@@ -987,3 +987,11 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-25: «སྔས་བསྲུང་པ» occurs only in WB p. 445 (Gser thang and Sakya prints) and the regent's question 135, without a gloss; no text glosses whose animal pp. 428–429's twelve are in a clause of its own.
   - 2026-10-25: no print of the *Vaiḍūrya* volume or of the *Speckled Sheet* carrying the clause on the moment's trigram was found; the line appears only in the two prints of the regent's replies (the second, MW2PD17386_474815, is search only and answers 403); «བཻ་ཌཱུརྻའི་གླེགས་བུ» occurs only in an unrelated Shākya mchog ldan passage.
   - 2026-10-25: no rule for the moment's trigram beyond the first date and first hour in the *Garland of Stars* or the Dpal bsdus, apart from the notes' «turning in the order».
+- **The household round's division and a speckled member pebble (questions 317, 318)** (2026-10-25):
+  - 2026-10-25, a print of the notes reading «བཞིས» or «བཞི» for the household round's division (WB vol. 2, p. 491): none; Mipham's own print (I2029 img. 654, at 4× with the contrast raised) and the typeset Chengdu Collected Works (MW2DB16631_DB4BAA, I1PD34647 img. 571) read «གསུམ» like the 1996 and Gser thang prints.
+  - 2026-10-25, BDRC's full-text search, no hit: «རྡེའུ་གྲངས་བཞིས་བགོས», «རྡེའུ་གྲངས་བཞི་ཡིས་བགོས», «ལྷ་སར་ཁྲ་བོ», «མི་སར་ཁྲ་བོ», «ཁྱིམ་སར་ཁྲ་བོ», «རྡེལ་ཁྲ་བྱུང», «ལྷ་སར་རྡེལ་ཁྲ», «ཁྲ་བོ་བབས་ན་ལྷ་ས»; «རྡེའུ་གྲངས་གསུམ་གྱིས་བགོས» only the Gser thang WB; WB p. 385's «གོང་མའི་ལུས་དང་འོག་མ», «བཟའ་ཚང་ཁྱིམ་གཅིག་མི་དུ་ཡོད» and «ཁྱིམ་སའི་རྡེལ་རོའི་ཁ་དམར» only WB's prints and KD vol. 3 (etext p. 685, Mkhyen rab nor bu's digest restating WB's verses); «ཁྱིམ་མི་གཅིག་བསྡུས» only KD's sheet (kd.3:p726); «རྡེལ་གྲངས་ཚན་པ་བཞི» and «གསུམ་ལས་ལྷག་པ་འབྱུང་མི་སྲིད» only LT's two prints and the *Bzo rtsis zlos gar* (MW1PD95727, the same text).
+  - 2026-10-25, the *Removing the Tarnish*, questions and replies 120–130 (I5875 img. 093–100, 475–489, Yigdzin-1, searched for «ཁུག», «རྡེལ་རོ», «ཁྱིམ་ས», «བཟའ་མི», «བཟའ་ཚང», «ཁྲ»): nothing on the household round's laying, fold, leftovers or colours; question and reply 123 only ask and defend whether the round is Phugpa's (ys:i096, ys:i478-479).
+  - 2026-10-25, UT's etext (IE0OPI6328F058): «རྡེལ་སྐོར» only on etext pp. 96 and 170, each naming the household round among the reckonings it leaves out; no «ཁྱིམ་རྩིས».
+  - 2026-10-25, the Bhutan collection (VEIE0OPI1829B6AF_I1KG11905): its *Good Vase* is the preliminaries only (pp. 1–78); no «རྡེལ་སྐོར», «ཡང་ཁུག» or «བཞིས་བགོས» in the volume. The *Good Vase*'s household round (MW30023_79E1C5) is search only and was read in its snippets.
+  - 2026-10-25, a laying for any count but three, five and seven, or a stated rule for the order of taking with an even number of members: none in LT, SN, ZG, KD vol. 3's etext or the *Good Vase*'s snippets. KD vol. 3's sheet of seven (p. 726, leaf 745 of the loan) was not read on the scan: the loan was another session's.
+  - 2026-10-25, a speckled pebble in the household round or its readings: none in LT (pp. 20–25), SN (pp. 70–71), ZG (pp. 285–286), KD vol. 3's digest (etext p. 685) or the *Removing the Tarnish*'s replies 120–130.
