@@ -20,7 +20,9 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
 import zanshin.core.kyureki.Gogyo
+import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
+import zanshin.core.texts.family
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.IndianElement
@@ -110,6 +112,78 @@ object CueGlyphs {
     fun of(e: Element): CueGlyph = ELEMENTS.getValue(if (e == Element.IRON) "metal" else e.name.lowercase())
 
     fun of(e: IndianElement): CueGlyph = ELEMENTS.getValue(e.name.lowercase())
+
+    private val DHARMA_WHEEL = CueGlyph("M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0M9.5 12a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0M14.5 12H20M13.8 13.8L17.7 17.7M12 14.5V20M10.2 13.8L6.3 17.7M9.5 12H4M10.2 10.2L6.3 6.3M12 9.5V4M13.8 10.2L17.7 6.3")
+    private val TALK = CueGlyph("M3 4.5h11v7H8.5l-3 2.5v-2.5H3zM16.5 9.5H21v7h-2.5V19l-3-2.5H10V14")
+    private val STARS = CueGlyph("M13 3.5a8.5 8.5 0 1 0 7.5 12.5a7 7 0 0 1 -7.5 -12.5zM17.5 4l.7 1.8l1.8 .7l-1.8 .7l-.7 1.8l-.7 -1.8l-1.8 -.7l1.8 -.7z", dots = listOf(Offset(20.5f, 11f)))
+    private val HAMMER = CueGlyph("M6.5 4h7.5c2 0 4 1 5 3h-12.5zM10 7v13a1.5 1.5 0 0 0 3 0V7")
+    private val GIFT = CueGlyph("M4 8.5h16v4H4zM5.5 12.5h13v8h-13zM12 8.5v12M12 8.5C10 4.5 6.5 4.5 6.5 6.7S10 8.5 12 8.5C14 8.5 17.5 9 17.5 6.7S14 4.5 12 8.5")
+    private const val HAND = "M2.5 14h3.5l3.5-1.5h4.5a1.5 1.5 0 0 1 0 3H11M14 15.5l5-2.8a1.5 1.5 0 0 1 2 2.1L15 19.5H6l-3.5 1"
+
+    /**
+     * Works whose family glyph draws them badly, each with its own: the breakdown and the election show a
+     * work by this glyph where it has one, by its family's otherwise. The In brief row keeps the families.
+     */
+    val WORK: Map<Activity, CueGlyph> = mapOf(
+        Activity.BETROTHAL to GIFT,
+        Activity.DOWRY to GIFT,
+        Activity.HORSE_RACING to CueGlyph("M 10 21 L 10 16 L 5 16 C 3 16 3 13 5 12 L 11 6 C 13 4 15 5 15 7 L 16 21 M 12 6 L 11 3 L 14 6 M 4 15 L 7 15 M18.5 9h3.5M19 13h2.5M18.5 17h3.5", dots = listOf(Offset(10.5f, 10f))),
+        Activity.SPECTACLES to CueGlyph("M4.5 3.5h15v7c0 5.5-3.4 10-7.5 10s-7.5-4.5-7.5-10zM7 9q1.5-1.5 3 0M14 9q1.5-1.5 3 0M8.5 14.5q3.5 3 7 0"),
+        Activity.GAMES to CueGlyph("M7 4.5h10a2.5 2.5 0 0 1 2.5 2.5v10a2.5 2.5 0 0 1 -2.5 2.5H7a2.5 2.5 0 0 1 -2.5 -2.5V7A2.5 2.5 0 0 1 7 4.5z", dots = listOf(Offset(8.7f, 8.7f), Offset(15.3f, 8.7f), Offset(12f, 12f), Offset(8.7f, 15.3f), Offset(15.3f, 15.3f))),
+        Activity.GOOD_FORTUNE to CueGlyph("M12 5L19 12L12 19L5 12ZM14.33 7.33L7.33 14.33M16.67 9.67L9.67 16.67M9.67 7.33L16.67 14.33M7.33 9.67L14.33 16.67M10.83 6.17C9 4.5 10 2.5 12 2.5S15 4.5 13.17 6.17M17.83 10.83C19.5 9 21.5 10 21.5 12S19.5 15 17.83 13.17M13.17 17.83C15 19.5 14 21.5 12 21.5S9 19.5 10.83 17.83M6.17 13.17C4.5 15 2.5 14 2.5 12S4.5 9 6.17 10.83"),
+        Activity.MAKING_THINGS to HAMMER,
+        Activity.DRIVING_NAILS to HAMMER,
+        Activity.CLIMBING_HIGH to CueGlyph("M6 21L10 3M14 21L18 3M6.9 17h8M7.8 13h8M8.7 9h8M9.6 5h8"),
+        Activity.STONE_WALLS to CueGlyph("M3 6h18v13.5H3zM3 10.5h18M3 15h18M9 6v4.5M15 6v4.5M6 10.5V15M12 10.5V15M18 10.5V15M9 15v4.5M15 15v4.5"),
+        Activity.PITCHING_TENTS to CueGlyph("M5 19.5L12 7l7 12.5M2.5 19.5h19M12 7V4M10 19.5l2-5l2 5M12 7L3 13M12 7l9 6"),
+        Activity.SEWING_TENTS to CueGlyph("M4 20L17 7M17 7l2.5-2.5a1.2 1.2 0 0 1 1.7 1.7L18.5 8.7L17 7zM19 6.5c-3 1-4 4-7 5s-6 0-7.5-2M3 22h2.5M8 22h2.5M13 22h2.5M18 22h2.5"),
+        Activity.HEARTH to CueGlyph("M3.5 20.5h17M5 20.5V12h14v8.5M9.5 20.5v-3a2.5 2.5 0 0 1 5 0v3M7.5 12c0-2.2 1.8-3.5 4.5-3.5s4.5 1.3 4.5 3.5M12 6.5c-1-1 1-2 0-3"),
+        Activity.DAMS to CueGlyph("M11 5h3l6.5 15.5H11zM2.5 20.5h19M3 9q2-1.5 4 0t4 0M3 13q2-1.5 4 0t4 0M3 17q2-1.5 4 0t4 0"),
+        Activity.FELLING_TREES to CueGlyph("M16.5 20.5v-4M16.5 4L12 16.5h9zM3.5 21L8 5M7.7 6L11.5 6.6Q11.3 9.3 10.4 11.6L6.6 10"),
+        Activity.CUTTING_GRASS to CueGlyph("M8.5 17C6 10 10 4.5 18.5 5C13 6.5 10 10.5 10.5 16.5M8.5 17L5 21M14 21c0-3 1-5 2.5-6.5M17.5 21c0-2 .5-4 2-5M20.5 21c0-2-.5-3-1-4"),
+        Activity.OPENING_RICE_BALES to CueGlyph("M6 7h12M6 17h12M6 7a2.5 5 0 0 0 0 10M18 7a2.5 5 0 1 0 0 10a2.5 5 0 1 0 0 -10M9.5 7q-1 5 0 10M13.5 7q-1 5 0 10"),
+        Activity.RAISING_DOGS to ANIMAL.getValue(Animal.DOG),
+        Activity.CATTLE_WORK to ANIMAL.getValue(Animal.OX),
+        Activity.DAIRY to CueGlyph("M8 7.5h8v13H8zM8 11h8M8 17h8M12 7.5V2.5M10 2.5h4M10.5 5h3"),
+        Activity.GIVING_OUT to CueGlyph(HAND + "M14.5 4.5a3 3 0 1 0 0 6a3 3 0 1 0 0 -6"),
+        Activity.HELPING_OTHERS to CueGlyph(HAND + "M14.5 10.5s-4-2.4-4-5a2 2 0 0 1 4 -.6a2 2 0 0 1 4 .6c0 2.6-4 5-4 5z"),
+        Activity.MOVING_GOODS to CueGlyph("M3 5.5h12v9.5H3zM15 11h3.5l2.5 2.5v1.5h-6M3 9.5h12M6.5 17.5a2 2 0 1 0 0 .01M17.5 17.5a2 2 0 1 0 0 .01"),
+        Activity.CONSULTATIONS to TALK,
+        Activity.NEGOTIATIONS to TALK,
+        Activity.ANNOUNCEMENTS to CueGlyph("M3 9.5v5h3l11 5.5V4L6 9.5zM7 14.5l1.5 6h3L10 15.5"),
+        Activity.DIVINATION to STARS,
+        Activity.LEARNING_ASTROLOGY to STARS,
+        Activity.LEARNING_ARTS to CueGlyph("M9 18V6l10-2v12M7 16a2 2 0 1 0 0 4a2 2 0 1 0 0 -4M17 14a2 2 0 1 0 0 4a2 2 0 1 0 0 -4M9 9.5l10-2"),
+        Activity.TEACHING_DHARMA to DHARMA_WHEEL,
+        Activity.HEARING_DHARMA to DHARMA_WHEEL,
+        Activity.ACUPUNCTURE to CueGlyph("M2.5 18.5h19M7 18.5V9M12 18.5V6M17 18.5V9", dots = listOf(Offset(7f, 7.6f), Offset(12f, 4.6f), Offset(17f, 7.6f))),
+        Activity.SURGERY to CueGlyph("M3 19.5l8-8l1.5 1.5l-8 8zM11 11.5L17 5.5c2-1.5 4-.5 3 1.5c-1.5 3-4 4.5-7.5 6"),
+        Activity.BLOODLETTING to CueGlyph("M9 20.5a4.5 4.5 0 0 1 -4.5 -4.5c0 -3 4.5 -8.5 4.5 -8.5s4.5 5.5 4.5 8.5a4.5 4.5 0 0 1 -4.5 4.5zM20.5 3.5L16 8M16 8l-2.8 .4l-.4 2.8l2.8 -.4z"),
+        Activity.VISITING_THE_SICK to CueGlyph("M3 6.5v14M3 16h18v4.5M3 12.5h6v3.5M10.5 11.5H19a2 2 0 0 1 2 2V16M6 7.5a2 2 0 1 0 0 4a2 2 0 1 0 0 -4"),
+        Activity.MAKING_MEDICINE to CueGlyph("M4 11h16c0 4.5-3.6 7.5-8 7.5S4 15.5 4 11zM8.5 20.5h7M12 18.5v2M12.5 11l5.5 -7.5"),
+        Activity.PROSTRATIONS to CueGlyph("M12 3.5c-1.8 1.5-3 4-3 7.5v3L5.5 18.5L8 21l4-4l4 4l2.5-2.5L15 14v-3c0-3.5-1.2-6-3-7.5zM12 3.5V17"),
+        Activity.AMULETS to CueGlyph("M8 3.5c0 3 1.5 5 4 5.5M16 3.5c0 3-1.5 5-4 5.5M6.5 9h11v11.5h-11zM10 18v-4.5l2-2.5l2 2.5V18z"),
+        Activity.RECITATION to CueGlyph("M2.5 8h19v8.5h-19zM5 11h14M5 13.5h10M2.5 19h19M2.5 5.5h19"),
+        Activity.MANTRAS to CueGlyph("M7 6h9v8H7zM8.5 6l1-1.8h4l1 1.8M11.5 4.2V2.5M7 8.5h9M7 11.5h9M11.5 14v7.5M16 9.5l3.5 2", dots = listOf(Offset(20f, 12.8f))),
+        Activity.SMOKE_OFFERINGS to CueGlyph("M7 16h10l-1.5 4h-7zM10 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5M14 13c-1.5-1.5 1.5-3 0-4.5s1.5-3 0-4.5"),
+        Activity.BANNERS to CueGlyph("M12 2.5v19M8 7h8v8.5l-2 1.5l-2 -1.5l-2 1.5l-2 -1.5zM8 7a4 2.5 0 0 1 8 0M8 11h8"),
+        Activity.FIRE_OFFERINGS to CueGlyph("M4 14.5h16c-.8 3.6-4 6-8 6s-7.2-2.4-8-6zM12 13c-2.6-2.4-2.4-5.5 0-9c2.4 3.5 2.6 6.6 0 9zM8 13c-1.3-1.4-1.1-3 0-4.5M16 13c1.3-1.4 1.1-3 0-4.5"),
+        Activity.RAINMAKING to CueGlyph("M7 14a4 4 0 0 1 -.5 -8a5.5 5.5 0 0 1 10.5 1a3.5 3.5 0 0 1 .5 7zM8.5 17l-1 3.5M12.5 17l-1 3.5M16.5 17l-1 3.5"),
+        Activity.EMPOWERMENT to CueGlyph("M9 8.5h6M10 8.5c-3.5 1-4.5 4.5-4 7.5c.5 2.5 2.5 4 6 4s5.5-1.5 6-4c.5-3-.5-6.5-4-7.5M10.5 8.5V6.5h3v2M12 6.5c-1.2-1-1.6-2.6 0-4c1.6 1.4 1.2 3 0 4M8 20.5h8"),
+        Activity.ORNAMENTS to CueGlyph("M4 3.5c0 7 3.5 10.5 8 10.5s8-3.5 8-10.5M12 14l-2.5 3l2.5 4l2.5 -4z"),
+        Activity.PERFUME to CueGlyph("M12 20.5V10M6.5 20.5h11M9 20.5l1-3h4l1 3M12 10c-2-2 2-3 0-5.5c-1-1.2 0-2 1-2"),
+        Activity.BREWING to CueGlyph("M7 4h10c1.5 5.3 1.5 10.7 0 16H7c-1.5-5.3-1.5-10.7 0-16zM5.9 9h12.2M5.9 15h12.2"),
+        Activity.HUNTING to CueGlyph("M6 3.5c7.5 1 13.5 7 14.5 14.5M6 3.5L20.5 18M4 20l11-11M15 9h-3.5M15 9v3.5M4 20l-.5-2.5M4 20l2.5.5"),
+        Activity.POISON to CueGlyph("M10 3h4M10.5 3v4.5c-3 1-4.5 3.5-4.5 6.5c0 4 2.7 6.5 6 6.5s6-2.5 6-6.5c0-3-1.5-5.5-4.5-6.5V3M10 12l4 4M14 12l-4 4"),
+        Activity.HASTE to CueGlyph("M15 7a7 7 0 1 0 0 14a7 7 0 1 0 0 -14M15 10.5V14l2.5 1.5M13 3.5h4M15 3.5V7M2.5 10h4M3.5 14h3M2.5 18h4.5"),
+        Activity.CARELESS_WORDS to CueGlyph("M3.5 4.5h17v11h-9l-4.5 4v-4H3.5zM13 6.5l-2.5 3.5h3.5l-2.5 3.5"),
+        Activity.HEAVY_EATING to CueGlyph("M3.5 12.5h17c0 4.5-3.8 7.5-8.5 7.5s-8.5-3-8.5-7.5zM6 12.5c0-3 2.6-5 6-5s6 2 6 5M14.5 9L20.5 3M16.5 10l5-5"),
+        Activity.LASTING_WORK to CueGlyph("M2.5 19.5h19M3.5 19.5L10 7.5l4 6l2-3l4.5 9M8.2 10.8l1.8 1.5l1.6-1.4"),
+        Activity.MOVING_WORK to ELEMENTS.getValue("wind"),
+    )
+
+    /** The glyph a work is drawn with: its own where it has one, its family's otherwise. */
+    fun of(a: Activity): CueGlyph = WORK[a] ?: FAMILY.getValue(a.family)
 }
 
 /** A cue glyph at [size]; [description] is what a screen reader says, null when the text beside it says it. */

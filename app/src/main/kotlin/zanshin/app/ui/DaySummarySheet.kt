@@ -404,7 +404,7 @@ internal fun WorkLine(
         // set of annotations squeezed the label into a one-letter column.
         val labelMax = maxWidth * 0.55f
         Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            CueIcon(CueGlyphs.FAMILY.getValue(activity.family), if (n?.disputed == true) Palette.mixed else color, 22.dp)
+            CueIcon(CueGlyphs.of(activity), if (n?.disputed == true) Palette.mixed else color, 22.dp)
             val elect = if (tibetan) onElect else onElect?.takeIf { activity in KyurekiElection.OFFERED }
             val opens = tibetan || elect != null
             var open by remember { mutableStateOf(false) }

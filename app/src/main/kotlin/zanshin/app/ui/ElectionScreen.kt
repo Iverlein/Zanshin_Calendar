@@ -68,7 +68,6 @@ import zanshin.core.texts.KyurekiSpan
 import zanshin.core.texts.SummaryEntry
 import zanshin.core.texts.PeriodRun
 import zanshin.core.texts.VerdictBy
-import zanshin.core.texts.family
 import java.time.LocalDate
 
 /** The spans offered, in Tibetan months from the shown day's (ROADMAP E2). */
@@ -243,7 +242,7 @@ private fun WorkRow(work: Activity, onWork: (Activity) -> Unit, indent: Boolean 
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        if (!indent) CueIcon(CueGlyphs.FAMILY.getValue(work.family), Palette.muted, 20.dp)
+        if (!indent) CueIcon(CueGlyphs.of(work), Palette.muted, 20.dp)
         Text(withTibetan(work.english.replaceFirstChar { it.uppercase() }), style = body.copy(fontSize = 15.sp), modifier = Modifier.weight(1f))
         if (checked == true) Icon(Icons.Check, contentDescription = null, tint = Palette.saffron, modifier = Modifier.size(20.dp))
     }
@@ -336,7 +335,7 @@ private fun KyurekiResult(
 @Composable
 private fun WorkHeading(work: Activity, accent: androidx.compose.ui.graphics.Color, onChange: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        CueIcon(CueGlyphs.FAMILY.getValue(work.family), accent, 26.dp)
+        CueIcon(CueGlyphs.of(work), accent, 26.dp)
         Text(
             withTibetan(work.english.replaceFirstChar { it.uppercase() }),
             style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold),
