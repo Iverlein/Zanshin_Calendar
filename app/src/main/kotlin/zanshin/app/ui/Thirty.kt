@@ -33,50 +33,56 @@ import zanshin.core.tibetan.ThirtyReading
 fun ThirtyView(person: Person, birth: Sign, age: Int, points: List<ThirtyReading>, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
     fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
-    fun drawn(p: List<PebbleColour>) = p.joinToString("") { if (it == PebbleColour.WHITE) "○" else "×" }
-    val tone = { p: PebbleColour -> if (p == PebbleColour.WHITE) Tone.GOOD else Tone.BAD }
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(
             labels.string(R.string.circles_subtitle, personLabel(person), labels.ordinal(age), name(birth), gloss(birth.forces.destiny, "inText")),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
-        points.forEach { r ->
-            val checks = r.pebbles.mapIndexed { i, p ->
-                Annotation(
-                    title = labels.string(
-                        R.string.birth_share_title, labels.string(R.string.thirty_check, i + 1),
-                        stringResource(if (p == PebbleColour.WHITE) R.string.birth_precious_white else R.string.birth_precious_black),
-                    ),
-                    english = "",
-                    tone = tone(p),
-                    reading = Texts.thirtyCheck(r.point, i + 1, p),
-                    titleIsKanji = false,
-                )
-            }
-            val board = Thirty.board(r).map { b ->
-                Annotation(
-                    title = b.english.replaceFirstChar(Char::uppercase),
-                    english = "",
-                    tone = boardTone(b),
-                    reading = Texts.thirtyBoard(b),
-                    titleIsKanji = false,
-                )
-            }
-            AnnotationRow(
-                Annotation(
-                    title = r.point.english.replaceFirstChar(Char::uppercase),
-                    english = labels.string(R.string.circles_counted, name(r.start), name(r.reached)),
-                    tone = sharedTone(checks.map { it.tone }),
-                    reading = null,
-                    subtitle = labels.string(R.string.thirty_drawn, drawn(r.upper), drawn(r.lower), drawn(r.middle)),
-                    titleIsKanji = false,
-                    parts = checks + board,
-                ),
-                onOpen,
-            )
-        }
+        points.forEach { r -> ThirtyRow(r, onOpen) }
         Text(stringResource(R.string.thirty_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
+}
+
+/** One point's row (ROADMAP R2v): its pebbles drawn by groups, its sheet the eight checks and then the board. */
+@Composable
+internal fun ThirtyRow(r: ThirtyReading, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
+    fun drawn(p: List<PebbleColour>) = p.joinToString("") { if (it == PebbleColour.WHITE) "○" else "×" }
+    val tone = { p: PebbleColour -> if (p == PebbleColour.WHITE) Tone.GOOD else Tone.BAD }
+    val checks = r.pebbles.mapIndexed { i, p ->
+        Annotation(
+            title = labels.string(
+                R.string.birth_share_title, labels.string(R.string.thirty_check, i + 1),
+                stringResource(if (p == PebbleColour.WHITE) R.string.birth_precious_white else R.string.birth_precious_black),
+            ),
+            english = "",
+            tone = tone(p),
+            reading = Texts.thirtyCheck(r.point, i + 1, p),
+            titleIsKanji = false,
+        )
+    }
+    val board = Thirty.board(r).map { b ->
+        Annotation(
+            title = b.english.replaceFirstChar(Char::uppercase),
+            english = "",
+            tone = boardTone(b),
+            reading = Texts.thirtyBoard(b),
+            titleIsKanji = false,
+        )
+    }
+    AnnotationRow(
+        Annotation(
+            title = r.point.english.replaceFirstChar(Char::uppercase),
+            english = labels.string(R.string.circles_counted, name(r.start), name(r.reached)),
+            tone = sharedTone(checks.map { it.tone }),
+            reading = null,
+            subtitle = labels.string(R.string.thirty_drawn, drawn(r.upper), drawn(r.lower), drawn(r.middle)),
+            titleIsKanji = false,
+            parts = checks + board,
+        ),
+        onOpen,
+    )
 }
 
 /**

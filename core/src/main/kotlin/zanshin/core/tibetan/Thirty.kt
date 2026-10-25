@@ -105,6 +105,9 @@ object Thirty {
         return ThirtyReading(point, start, reached, pebbles)
     }
 
+    /** The points read for one who died, born in [birth], in the [age]th year of age at death (the notes, vol. 2, pp. 532–533). */
+    fun forTheDead(birth: Sign, age: Int): List<ThirtyReading> = ThirtyPoint.entries.filter { it.forTheDead }.map { reckon(it, birth, age) }
+
     /** The points the asker reads for themself: all but those that reckon a dead person's year. */
     fun all(birth: Sign, age: Int): List<ThirtyReading> = ThirtyPoint.entries.filter { !it.forTheDead }.map { reckon(it, birth, age) }
 }

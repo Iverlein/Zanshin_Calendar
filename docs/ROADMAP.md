@@ -4124,7 +4124,11 @@ groups it shows (`tools/emulator/store_shots.py`).
   `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
   dragon in his 51st year: the lords' point from the fire mouse to the
   fire dog, upper ○×○, lower ×××, middle ××), the release build (no raw
-  keys, the board's titles included).
+  keys, the board's titles included). The four points for the dead
+  followed the same day in the dead's view (`Thirty.forTheDead`, the
+  dead's year and age at death), checked on the emulator in English and
+  Russian (the 1906 father: the great deer, the red corpse, the pale
+  wooden box, the nine stacked skulls).
 - **R2u The thirteen circles — built 2026-10-25** (SPEC §5.9.6, D19,
   D20): ch. 27's circles (vol. 2, pp. 3–21, RD38 on the scan; RD44, RD47
   for whose element, the count and the servant's start), from the birth

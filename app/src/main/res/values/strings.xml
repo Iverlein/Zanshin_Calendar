@@ -1015,6 +1015,7 @@
     <string name="dead_mewa_of_death">Mewa of death</string>
     <string name="dead_rebirth_head">Where the dead is reborn, and help by virtue</string>
     <string name="dead_virtue_title">Help by virtue · died in the %1$s year</string>
+    <string name="dead_thirty_head">The thirty starting points for the dead</string>
     <string name="birth_subtitle">%1$s · born in the %2$s year, life force (སྲོག, srog) %3$s</string>
     <string name="birth_section_natal">The natal trigram</string>
     <string name="birth_section_parents">The parents\' trigrams</string>

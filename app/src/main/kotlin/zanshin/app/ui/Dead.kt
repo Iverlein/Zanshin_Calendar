@@ -111,6 +111,9 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
             CauseRows(r, onOpen)
             DemonRows(r, onOpen)
             RebirthRows(r, onOpen)
+            // The thirty's points read for the dead (ROADMAP R2v): the dead's year and age at death.
+            Text(stringResource(R.string.dead_thirty_head), style = muted)
+            zanshin.core.tibetan.Thirty.forTheDead(r.year.birth, r.year.age).forEach { ThirtyRow(it, onOpen) }
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }

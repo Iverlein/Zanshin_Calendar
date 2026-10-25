@@ -1181,8 +1181,10 @@ D21–D23 (open questions 259, 301, 306):
   (`Thirty.board`, `ThirtyBoard`, family `ThirtyBoard`).
 
 Points 21 and 23–25 (the old who died, the dead, the burning, the grave
-site) reckon a dead person's year and age and are not shown in the
-person's own view. The screen (§10.11): "The thirty starting points" in
+site) reckon a dead person's year and age (the notes, pp. 532–533): they
+stand in the dead's view (§5.9.4), for each relative who has died, from
+the dead's birth year and year of age at death, under "The thirty
+starting points for the dead". The screen (§10.11): "The thirty starting points" in
 the Reckonings list with the year's white and black count; a row for each
 point, its pebbles drawn by groups ("upper ○×○ · lower ××○ · middle ○○"),
 its sheet giving the eight checks' readings and then the board's. Tested
