@@ -114,7 +114,7 @@ moves up as soon as it is unblocked.
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
-| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together buildable since D17 (2026-10-25, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 
 ## Readings
 
@@ -1589,7 +1589,7 @@ verdict, and the owner's decisions of 2026-10-10:
   comes, roughly with the bad (vol. 2, p. 495, said of the illness
   reckoning's pebbles; named so). Questions 172, 190 and 191 stay open
   for a reader of the tradition; the build does not wait on them.
-- **D17, open (2026-10-22): the year of age's obstacles read through the aspect they meet** ([RD20](#rd20),
+- **D17, decided 2026-10-25 (the owner: by Mipham, as D16): the year of age's obstacles read through the aspect they meet** ([RD20](#rd20),
   [verdicts.md](sources/verdicts.md), *The year of age gathered*; R4, block
   [58](#block-58)): Mipham's notes (vol. 2, pp. 492–495) read each obstacle
   of the year through the person's aspects: a harsh year is harsh or not
@@ -1604,6 +1604,22 @@ verdict, and the owner's decisions of 2026-10-10:
   years which meeting makes one harsh (the notes name the fight but not
   its count), is the owner's; the household round waits besides on open
   question 258 (its zigzag and fold for a household other than five).
+  **Decided** (the owner, 2026-10-25): the notes decide, as in D16. The
+  year of age's Together grades each obstacle by the meeting the notes
+  give it, the vitality first: a tomb year met as itself or as enemy a
+  great danger, as mother, friend or son a small one (p. 493); the
+  nine-multiples' tomb years bad as itself or enemy, mild otherwise
+  (p. 494); the undertakers bad where they meet an aspect as enemy, and
+  the *dza zor* a fault only where it cuts the vitality (p. 494). The
+  harsh years are graded by the same fight: the notes gloss the triad's
+  "in decline" as "meeting the enemy" and have the thirteenth examined
+  for whether the current year cuts the body and the power (p. 492), so
+  a harsh year is harsh where the current year meets the aspect as enemy,
+  not otherwise. An obstacle the notes clear (no fault, no enemy meeting)
+  is left out of the Together, as outweighed factors are left out of the
+  brief; the sections below still show every obstacle WB lists, each
+  with its reading. No count the notes do not make: the obstacles are
+  graded, not summed. The household round still waits on question 258.
 - **D13, the owner's word first** ([O10](#o10), open question 150,
   [month-entries.md](sources/month-entries.md), *Kikang's black month*):
   `reading.EarthLord.KI_KANG_ZLA_NAG.RABBIT` and `.BIRD` say "at sunrise"
@@ -4053,7 +4069,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   the gathered remedies, the board's reading). Not built: the twenty-one
   children (each by conditions together, several the mother's obstacle
   reckoning at the birth or observations; no text names one on part of
-  them), the board's patterns counted, the year of age's beyond Y1's (its obstacles graded by the notes' meeting, D17; the household round, open question 258),
+  them), the board's patterns counted, the year of age's beyond Y1's (its obstacles graded by the notes' meeting, D17 decided 2026-10-25, buildable; the household round waits on open question 258),
   the karma reckoning reckoned over the match (open question 210).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
