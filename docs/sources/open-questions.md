@@ -2634,6 +2634,7 @@ the text, not about the app.
      "the reckoning bad in general"? [verdicts.md](verdicts.md), "The
      marriage match concluded" (RD21).
      *Mostly answered 2026-10-23 (RD42, [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md)): «ལས་རྩིས» names the notes' section on ch. 22 (opening p. 474, closing p. 489), and p. 526 says "as in the section of the karma reckoning": the karma reckoning over the match is each spouse's own birth reckoning; which of its findings make an aspect bad is question 355.*
+     *Narrowed 2026-10-25 ([claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md), [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md)): an aspect is bad when its block's verdict on the hundred is black, as Mipham's notes on the birth define decline (wb.2:p483) and WB's black readings of the four aspects' own pebbles match p. 364's words (wb.1:p329-331); "the reckoning bad in general" is WB's verdict on the whole birth (wb.1:p349), the regent's one verdict pebble of reply 111. A reading, not stated of the match; questions 355, 388, 392–394.*
 211. **«གནས་སྐྱུག» or «གནས་སྒྱུག»; «ཤིད་དུར» or «ཤིང་དུར» (the notes, vol. 2, p. 526, ll. 2, 4).**
      The in-laws, «གནས་སྐྱུག» or «གནས་སྒྱུག»? The Gser thang reprint's
      stack is blotted; ch. 30 (vol. 2, p. 152) prints «གནས་སྒྱུག». And

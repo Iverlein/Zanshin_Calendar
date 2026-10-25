@@ -463,6 +463,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | open; cites ys:i491, wb.2:p497 |
 | [questions/q0390.md](questions/q0390.md) | question q390 | The Vaiḍūrya line on the moment's trigram: year or month, and the later dates | open; cites ys.2:i016-017 |
 | [questions/q0391.md](questions/q0391.md) | question q391 | The meaning of «རྟ་ཞག་སྔོན་པོ» and «ཐེ་ཁྱིམ་བཙུན་མོ» | open; cites wb.1:p460, wb.1:p462 |
+| [questions/q0392.md](questions/q0392.md) | question q392 | Does a middling life reckoning bar the match | open; cites ys:i467-468, wb.1:p349 |
+| [questions/q0393.md](questions/q0393.md) | question q393 | «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck | open; cites wb.2:p483 |
+| [questions/q0394.md](questions/q0394.md) | question q394 | A white enemy pebble in the karma reckoning: good or bad | open; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
 
 <!-- end pool index -->
 
