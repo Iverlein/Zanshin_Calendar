@@ -73,7 +73,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
 | [claims/ch27-la-wandering-directions.md](claims/ch27-la-wandering-directions.md) | claim, conflict | Ch. 27: the la's wandering by the year, three prints agree | cites wb.2:p16-17; feeds block-31 |
+| [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md) | claim, conflict | Ch. 27: the meadow's ornament lays one verdict under each of a group's five | cites wb.2:p22, wb.2:p533-534, kd.3:p723, kd.3:p723b; feeds block-31 |
+| [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md) | claim, note | Ch. 27: the limb is «རུས་མིག», the bone-eye, on the reprint and the Zhol etext | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
+| [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md) | claim, note | Ch. 27: Sprugtön's sixteen limbs are sixteen pebbles beside the five verdict pebbles (75 = 50 + 16 + 5 + 4) | cites wb.2:p22-23, wb.2:p23-25, wb.2:p25; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
@@ -175,6 +178,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-trigram-fallen-to.md](claims/dead-trigram-fallen-to.md) | claim, rule | The dead's trigram in ch. 29 is the trigram fallen to: the descended trigram at death | cites ys:i513-514, wb.2:p86-90, wb.2:p504-512, wb.2:p75-77; feeds block-31 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
 | [claims/dz-dead-board-rows.md](claims/dz-dead-board-rows.md) | claim, rule | The Moonbeams' board of the living out of the dead: four rows by kin, five columns by age and sex | cites dz:i061-063, wb.2:p52-54; feeds block-31 |
+| [claims/dz-five-totals-and-ch27-domains.md](claims/dz-five-totals-and-ch27-domains.md) | claim, note | The Moonbeams' five general totals and ch. 27's five domains: same pairing, third domain differs | cites dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/earth-four-executioners.md](claims/earth-four-executioners.md) | claim, note | The four executioners and the four earth years | cites ut:p56, lt:p26-28, wb.2:p499-500, wb.2:p52-54; feeds block-31 |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
@@ -206,6 +210,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
+| [claims/kd3-p726-household-round-not-read.md](claims/kd3-p726-household-round-not-read.md) | claim, note | KD vol. 3, p. 726: the household round of seven members, what the lent scan shows and what it does not | cites kd.3:p726, kd.3:p726b; feeds block-31 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
@@ -286,6 +291,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-subjects-horses-whose-year.md](claims/thirty-subjects-horses-whose-year.md) | claim, rule | Whose year for the thirty's subjects and horses | cites ys:i494-496, ys:i496, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
+| [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbz-p104-je-ngan.md](claims/wbz-p104-je-ngan.md) | claim, note | The eighth place not allowed is «je ngan je chung», and the fourteenth «rmang por», on the Zhol blocks | cites wbz:i777, wb.2:p104; feeds block-31 |
 | [claims/wbz-p122-spo-mansions.md](claims/wbz-p122-spo-mansions.md) | claim, note | P. 122's dragon and snake mansions are «spo» and «spo smad» on the blocks | cites wbz:i805, wb.2:p122; feeds block-31 |
 | [claims/wbz-p124-bsgrub.md](claims/wbz-p124-bsgrub.md) | claim, note | The five graves' «bsgrub» is carved so on the blocks | cites wbz:i809, wb.2:p124-125; feeds block-31 |
@@ -303,8 +309,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
-| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 8 passages: 8 scan |
-| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 5 passages: 4 scan, 1 etext |
+| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 9 passages: 9 scan |
+| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 7 passages: 5 scan, 1 machine, 1 etext |
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the illness reckoning's identification | 2 passages: 2 etext |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
@@ -334,7 +340,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
-| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
+| [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 27 passages: 12 scan, 15 machine |

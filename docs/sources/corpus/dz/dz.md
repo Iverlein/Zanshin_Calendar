@@ -91,6 +91,18 @@ The *Moonbeams*, ch. 5, the one year's obstacle (the year of age): the Chinese p
 
 So the *Moonbeams* lays each member's four as the current year's meetings directly, the way Mipham's notes name and reject (WB vol. 2, p. 491), and names three places, the god's, people's and house's, with no wealth's or enemy's place; its fold is "in half" from the tail, the same fold as the notes'.
 
+## <a id="dz-i050-051"></a>dz:i050-051 Ch. 5's close: the verdicts gathered into five general totals
+
+*Read: scan, 2026-10-25.*
+
+> ནི། །གབ་པའི་སྙིང་གཟེར་ཞེས་བྱ་བར། །ཡོད་ཅེས་མཁས་པའི་གཞུང་ལས་འབྱུང་། །འོན་ཀྱང་གནས་སྐབས་བྱ་སླའི་ཆེད། །སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔས། །ཚེ་དང་ནད་དང་ཟ་ཐང་དང་། །བསོད་ནམས་གདོན་བྱད་ལ་བརྟགས་པའི། །ཁ་དམར་སྤྱི་བསྡོམས་ལྔར་བསྡུས་ལ། །རིགས་མཐུན་འབྲས་བུ་གང་རུང་གིས། །སྟངས་གཅོད་བྱས་ཀྱང་ཆོག་པར་ངེས། །དེ་ལྟར་ལོ་གཅིག་མཁྱུད་སྐོར་གྱི། །འཕེལ་འགྲིབ་ཆགས་ཆེན་བསལ་བའི་ཕྱིར། །ཞིབ་མོར་གཏན་ལ་དབབ་པ་གཅེས། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །ལོ་གཅིག་མཁྱུད་སྐོར་གྱི་རྩིས་ཀྱི་ལེའུ་སྟེ་ལྔ་པའོ། །
+
+The close of the *Moonbeams*' fifth chapter, the year of age (f. 23b-24a, img. 050-051, line 1 to the chapter's colophon; BDRC's open scan I2533, 4800 px; read on the scan by RD27 (verdicts.md) and again by RD54, 2026-10-25, the lines of the totals (img. 051, l. 1-2) in crops against Yigdzin-1, which agrees syllable for syllable; the lines before «ནི» are in the earlier passage dz:i048-049).
+
+[...] it is called the *Heart Nail of the Hidden*; so the works of the learned say. Yet for ease at the time, the verdicts (ཁ་དམར, kha dmar) examined for life, illness, food (ཟ་ཐང, za thang), merit and demons and curses (གདོན་བྱད, gdon byad) by the five, life force, body, power, luck and mewa, may be gathered into five general totals (སྤྱི་བསྡོམས, spyi bsdoms) and decided by any result of the same kind. So, to clear the year's great faults of increase and decrease, settling it in detail is what matters. From the *Moonbeams*: the chapter of the reckoning of the one year's round, the fifth.
+
+(The pairing in the lines: life force with life, body with illness, power with food, luck with merit, mewa with demons and curses, in the order of the two lists.)
+
 ## <a id="dz-i051-052"></a>dz:i051-052 Ch. 6, the sick and the newborn: the nineteen pebbles
 
 *Read: scan, 2026-10-23.*

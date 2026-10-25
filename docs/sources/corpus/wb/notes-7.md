@@ -49,6 +49,18 @@ or bad of the fighting enemies. So the circles of Balmo, the thirteen
 circles of examination, are complete. (Yigdzin-1 «དེས་པེ», the print
 «དེས་ན».)
 
+## <a id="wb-2-p533-534"></a>wb.2:p533-534 The notes on the meadow's ornament: each group is the five of one animal
+
+*Read: scan, 2026-10-25.*
+
+> སྤང་རྒྱན་ལོ་མ་གསེར་ལོ་ལ་གནམ་ལོ། མེ་ཁྱི་ཤར་ན་མེ་ཁྱི་ཤིང་ཁྱི་སོགས་ཁྱི་ལྔའི་སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔ་ལ་བརྩི་བྱའི་དེ་ལྔས་[p. 534] འཐབ་པའི་རྡེལ་ཉེར་ལྔ། ཁ་དམར་ལྔ། དེ་བཞིན་བདུན་ཟུར་ཆུ་འབྲུག་གཙོའི་འབྲུག་ལྔ། དྲུག་འགྲམ་ལྕགས་ཡོས་སོགས་ཡོས་སྡེ་ལྔ་བཞི་གཤེད་ས་གླང་གཙོར་བྱས་གླང་སྡེ་ལྔ་ལ་འཐབ་པས་རྡེའུ་བརྒྱའོ། །གཡུ་ལོ་ནི་བརྩི་བྱའི་ལོག་མིན་གང་བབ་དེ་གཙོ་བའི་སྡེ་ལྔ་དེའི་བདུན་ཟུར་དྲུག་འགྲམ་བཞི་གཤེད་ལྔ་ལྔ་ལ་འཐབ། དུང་ལོ་གང་ཕྱིའི་ཟླ་བ་ལྔ་དང་དེའི་བདུན་ཟུར་སོགས་ལ་འཐབ།
+
+The notes on the meadow's ornament leaves (WB vol. 2, p. 533, img. 541, l. 27-28, to p. 534, img. 542, l. 1-3; read on the Gser thang reprint, I3CN5029 img. 539 and 540, the last two lines of p. 533 and the first three of p. 534 by eye against Yigdzin-1, whose «བདུན་ཅུར» in p. 534 l. 1 is «བདུན་ཟུར» on the scan).
+
+The meadow's ornament leaves (སྤང་རྒྱན་ལོ་མ, spang rgyan lo ma): in the gold year the sky year; if the fire dog has risen, the life force, body, power, luck and mewa, five, of the five dogs, the fire dog, the wood dog and the rest, are fought by the reckoned person's five: twenty-five pebbles fought, five verdicts. Likewise the seventh, the five dragons headed by the water dragon; the sixth, the five of the hare's group beginning with the iron hare; the fourth executioner, the five of the ox's group headed by the earth ox: fought, so a hundred pebbles. The turquoise year: the progressed sign of the reckoned person, where it has fallen, the group of five headed by it, its seventh, sixth and fourth executioner, five against five each, are fought. The conch year: the five months of whatever has risen outside, and their seventh and the rest, are fought.
+
+(The notes call a group «ཁྱི་ལྔ», «སྡེ་ལྔ», "the five dogs", "the group of five", and name its head with «གཙོ»: the five of one animal, one in each element.)
+
 ## <a id="wb-2-p535"></a>wb.2:p535 Section seven closes: the earth lords' places and the reckoning of results
 
 *Read: scan, 2026-10-23.*

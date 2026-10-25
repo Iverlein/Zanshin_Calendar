@@ -160,6 +160,25 @@ notes (vol. 2, p. 534) instead take each group's five as the five years
 of one animal ("the seventh, the five dragons headed by the water
 dragon"): open question 216, narrowed, not settled.
 
+## <a id="kd-3-p723b"></a>kd.3:p723b The meadow's ornament, the golden round: headings and the verdict row
+
+*Read: scan, 2026-10-25.*
+
+> སྤང་རྒྱན་ལོ་མའི་སྐོར་གསུམ་ལས་དང་པོ་གསེར་ལོ་ཅན་གྱི་རྡེལ། བརྩི་བྱ་ཤིང་བྱི། གནམ་ལོ་ཤིང་བྱི། སྲོག ལུས། དབང་། ཀླུང་། སྨེ། ཁ་དམར་རྡེལ།
+
+The golden round of the meadow's ornament (KD vol. 3, p. 723, leaf 742; the reader's screenshot at 1002 px, the table enlarged 3 times and read cell by cell, RD54, 2026-10-25), read again for the verdict row. The page's words are those of kd.3:p723 (above); the headings of the four groups, each over five columns, read: the sky year, a wood mouse, with no number; the sky year's seventh and the sixth and fourth executioner counted downward, each with a sign and «རང་ལོ» and a number (55, 56 and 58 as the digits read at this size). The left column carries the reckoned person's five, life force, body, power, luck and mewa fallen (the rows); the two header rows over each group name the year's own life force, body, power, luck and mewa and its element letter. The first group's letters (ཆ, ཅ, ཤ, ཤ, and «༧» for the mewa) are the wood mouse's own four forces and the mewa, the same as the person's own rows, because the person is born in that year.
+
+The last row, «ཁ་དམར་རྡེལ», one cell under each of the twenty columns, reads (○ white, ● black):
+
+| Group | col. 1 | col. 2 | col. 3 | col. 4 | col. 5 |
+| --- | --- | --- | --- | --- | --- |
+| sky year, wood mouse | ○○○ | ○ | ● | ● | ○○ |
+| its seventh | ○○○ | ●● | ●● | ●● | ○ |
+| sixth downward | ○○ | ○ | ○ | ○ | ○ |
+| fourth executioner | ○○○ | ●● | ●● | ●● | ○ |
+
+So the sheet lays one verdict under every column, five to a group, twenty in all: the five of the fought-against group, each against the person's five rows.
+
 ## <a id="kd-3-p726"></a>kd.3:p726 The Spor thang's household round of seven members (etext only)
 
 *Read: etext, 2026-10-25.*
@@ -169,3 +188,15 @@ dragon"): open question 216, narrowed, not settled.
 The sheet "of the Chinese pebble round of one household's members gathered together, from the *Spor thang* (གཙུག་ལག་སྤོར་ཐང, gtsug lag spor thang) reckoning text", in Kun dga' rig 'dzin's (ཀུན་དགའ་རིག་འཛིན, kun dga' rig 'dzin) *Sheets of Some Needed Examples*, KD vol. 3, p. 726 (lent scans, leaf 745; BDRC's etext p. 746). **Etext only**: the lent scans were not read (another session held the loan), and the etext keeps the headings and some numbers of the charts but loses most cells and every drawn pebble. Nothing here may be built on; the sheet is the one worked household round found for a household other than five, and is to be read on the scan.
 
 What the etext lets be seen: seven members, each named by a year (fire snake, water monkey, fire hare and water sheep legible, a dog and two others not); a laying chart of rows body, life force, power, luck and mewa, each cell an element letter and the order of taking. The mewa row's numbers read ༩ ༡༩ ༢༩ ༣༢ ༢༢ ༡༢ ༢ from the first member to the seventh, with the mewa colours white, red, blue, red, yellow, yellow, white; the power row ༥, ༡༥, ༢༥, ༣༥, ༢༦; the life force row ༡༣, ༢༣, ༢༨, ༡༨; the luck row ༢༤, ༡༤, ༤; the body row ༡, ༡༡. Every number legible is the one the zigzag of claims/household-round-zigzag.md gives for seven members (the mewa row 9, 19, 29, 32, 22, 12, 2; the middle member's power 35). Then the fold: a box "these rows to be cast off"; the tail pebble and the leftover (རྡེལ་རོ, rdel ro); the people's row with ༣༣ ༣༢ ༣༡ ༣༠ and the label «ཁུག་པ», fold; the house's row with ༢༡ … ༢༧ and «ཡང་ཁུག», refold; the enemy's row; the word «གསང་བ», secret (the name a modern account gives the refold's leftover, MW1KG6061, search only), near ༡༤ ༡ ༡༢; and «ཡང་ཁུག» once more under the enemy's row. Thirty-five pebbles leave three over when divided by four and two when divided by three; the etext's labels of both a fold and a refold leftover agree with the first, but the cells that would show it are lost.
+
+## <a id="kd-3-p726b"></a>kd.3:p726b The household round for seven members: the sheet of the black pebbles' round
+
+*Read: machine, 2026-10-25.*
+
+> གཙུག་ལག་སྤོར་ཐང་རྩིས་གཞུང་ལས་ཁྱིམ་མི་གཅིག་བསྡུས་རྒྱུ་ནག་རྡེལ་སྐོར་གྱི་ཁྲ་མ་བཞུགས་སོ། །
+
+The sheet of the household round for seven members (KD vol. 3, p. 726, leaf 745; the reader's screenshot at 1002 px, the table enlarged 3 times; RD54, 2026-10-25). The heading is quoted from BDRC's etext (VEIE0OPI2F246A26_I4717, etext p. 746), which the scan's lines agree with where they can be told apart: "From the *Spor thang* reckoning text: the chart of the round of black pebbles for gathering the people of one household into one." (The *Spor thang* is named on p. 718 above.)
+
+What the scan shows. A table of seven member-columns, each headed by a sign and a number (the etext gives the signs as the fire snake, water monkey, a dog, a horse, the fire hare and the water sheep, the seventh not read; the numbers, two digits each, are not settled at this size), and under each, five numbered cells, one for each of four aspects and the fallen mewa (the row labels «སྲོག», «ལུས», «དབང», «ཀླུང», «བབས་སྨེ»), the number written in the print's small digits, the pebbles drawn in the cell beside it: seven times five, thirty-five numbered cells. The pebbles are drawn as on the other sheets, white as an empty circle and black as a filled one: one white, two white, three white as a cluster of three circles, one black, two black, one white and one black. The last row of each member reads a number and a colour word (the etext: «དཀར», «དམར», «མཐིང», «སེར») for the fallen mewa.
+
+Under it a second table of four rows, each row with three small boxes labelled «དང་པོ།», «གཉིས་པ།», «གསུམ་པ།» (first, second, third) with a number and a pebble each, then five numbered pebble cells, eight cells to a row; over the right-hand cells of the top row a line which the etext gives as «ཕྲེང་འདི་དག་དོར་བར་བྱ» (these strings are to be cast away); the right-hand labels («རྗེལ་མཇུག», the tail, and the like) are not all read. The numbers of the eight cells, read at 3 times from the 1002-px screenshot and agreeing with the etext's «༣༣ ༣༢ ༣༡ ༣༠» and «༢༡ … ༢༧» of the people's and the house's rows: the first row 1 to 8; the people's row 35 down to 28; the house's row 20 up to 27; the enemy's row 16 down to 9. So the page lays the pebbles in four runs of eight, two of them running down, and 17, 18 and 19 do not stand in the table. The digits of the upper table's numbered cells (the print's «༡», «༧», «༩», «༣» and «༥» look alike at 1002 px) are not settled one by one.
