@@ -975,3 +975,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-25: BDRC full-text search for «རྩིན་འཁོར་ལོ་རྩིབས་བརྒྱད་དང་» (with «རྩིན» contracted) and «བུད་མེད་དབང་ཐང་རྩིས། བྱེད་ན་གཡུང་དྲུང་འཁྱིལ་པ་དང་» gave 0 hits, since the prints write «རྩི་ན» and punctuate otherwise; the shorter «བཅུ་གསུམ་བྱིས་པ་ཆུང་ངུའི་ལུས» (4 hits) and «བཅུ་བཞི་བུད་མེད་དབང་ཐང་རྩིས» (2–3 hits) found the printings of the *Moonbeams*.
   - 2026-10-25: the WBZ and Sakya (WB2) etexts do not match «རྡེལ་གྲངས་ཉིས་བརྒྱ» exactly (OCR); the Zhol line was found by «གཏན་འབེབས་ཡིན» with «བཅུ» in the line, and the Sakya etext gave nothing.
   - 2026-10-25: no text read (WB, the notes, the *Moonbeams*, UT) names a 241st pebble or an extra "general" pebble.
+- **The circles' small reckonings (RD51)** (RD51, 2026-10-25):
+  - 2026-10-25, a parallel verse for the la's wandering by the year: none in the etexts of the Bhutan collection (I1KG11905), the *G.ya' sel* (I5875, I5876) and Dpal bsdus's manual (I4767), searched for «ཕྱོགས་སུ་འཁྱམས» and «བླ་འཁྱམས».
+  - 2026-10-25, a gloss of «ཚད་ཟླ», «ན་ཟླ» and «རྟ་ཞག་སྔོན་པོ» in the same etexts: none.

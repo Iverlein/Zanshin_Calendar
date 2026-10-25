@@ -454,6 +454,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0388.md](questions/q0388.md) | question q388 | Reply 111's verdict pebble and «ངན་ཐ་ཆད» | open; cites ys:i467-468 |
 | [questions/q0389.md](questions/q0389.md) | question q389 | The illness's first four pebbles: the regent's trigram elements or the notes' life force | open; cites ys:i491, wb.2:p497 |
 | [questions/q0390.md](questions/q0390.md) | question q390 | The Vaiḍūrya line on the moment's trigram: year or month, and the later dates | open; cites ys.2:i016-017 |
+| [questions/q0391.md](questions/q0391.md) | question q391 | The meaning of «རྟ་ཞག་སྔོན་པོ» and «ཐེ་ཁྱིམ་བཙུན་མོ» | open; cites wb.1:p460, wb.1:p462 |
 
 <!-- end pool index -->
 
