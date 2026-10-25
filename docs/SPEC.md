@@ -1175,10 +1175,16 @@ hell, the rest *re 'jam*; water the rat, horse, ox and sheep garuḍa, the
 rest nāga; earth the four earth animals turtle, the rest earth lord),
 drawn by its identifying pebbles, its reading and rites (`TurtleClass`,
 family `TurtleClass`). `CirclesTest` holds the classes' counts over the
-sixty years to the text's own, sixty in all.
+sixty years to the text's own, sixty in all. Under it, for each living
+relative entered with a birth year (§10.5): a parent or child of the
+person's own class among the five the text names (both nāga, both asura,
+hell, hungry ghost or animal; family `TurtleKin`), and a relative whose
+class and the person's are each other's executioners (planet and nāga,
+ogre and *re 'jam*, garuḍa and earth lord, garuḍa and nāga; family
+`TurtleEnemy`), "With Father · a nāga year".
 
 **Not calculated**: the fifth pebble, the mewa (D20, open question 368);
-the turtle's household agreement, the circles' other small reckonings,
+the turtle's agreement among the relatives themselves, the circles' other small reckonings,
 the meadow's ornament and Sprugtön's obstacle reckoning (pp. 13–25).
 
 #### 5.9.7 The thirty starting points

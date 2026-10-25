@@ -986,6 +986,7 @@
     <string name="circles_subtitle">%1$s · %2$s year of age · born in the %3$s year, its power %4$s</string>
     <string name="circles_counted">from the %1$s year, reached the %2$s</string>
     <string name="circles_turtle_title">The golden turtle · %1$s</string>
+    <string name="circles_turtle_with">With %1$s · %2$s</string>
     <string name="circles_note">Each circle starts from its animal in an element set against your power, the element of your birth year: the enemy, the friend, the mother or the same. It is counted upward through the sixty years by the years you have lived, the starting year the first, man or woman alike, and the year reached is fought against your vitality, body, destiny and luck, one pebble each: mother or friend white, son or enemy black, the same element white for earth and water, black for wood, iron and fire. The servants\' circle starts by the four nails, from your own year. The fifth pebble, the mewa, is not reckoned.</string>
     <string name="thirty_title">The thirty starting points</string>
     <string name="thirty_check">Check %1$d</string>

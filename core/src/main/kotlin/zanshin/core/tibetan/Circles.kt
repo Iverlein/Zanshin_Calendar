@@ -106,6 +106,16 @@ enum class TurtleClass(val white: Int, val black: Int) {
 
         fun enemies(a: TurtleClass, b: TurtleClass): Boolean = (a to b) in ENEMIES || (b to a) in ENEMIES
 
+        /** The executioner pair [a] and [b] form, in the order of [ENEMIES]; null if they are none. */
+        fun enemyPair(a: TurtleClass, b: TurtleClass): Pair<TurtleClass, TurtleClass>? = ENEMIES.firstOrNull { it == a to b || it == b to a }
+
+        /**
+         * Parents and a child of one class (p. 21): both nāga, the nāgas' illness; asura, fighting; hell, illness;
+         * hungry ghost, poverty; animal, dullness; other fathers' and sons' years alike, middling.
+         */
+        fun sameWithChild(parent: TurtleClass, child: TurtleClass): TurtleClass? =
+            parent.takeIf { it == child && it in setOf(KLU, ASURA, HELL, HUNGRY_GHOST, ANIMAL) }
+
         /**
          * The class of the year [s] (p. 20): wood the male rat god, the ox man, the sheep the cow, the other nine
          * srin po; fire the male monkey animal, the female snake hungry ghost, the female bird hell, the male dragon

@@ -2255,6 +2255,13 @@ object Texts {
     /** The golden turtle's class [c] of a birth year, its pebbles, strength and rites (WB vol. 2, ch. 27, pp. 20–22). */
     fun turtleClass(c: TurtleClass): Reading = Reading(key = "reading.TurtleClass", arg = "reading.TurtleClass.${c.name}", source = Sources.WHITE_BERYL_CIRCLES)
 
+    /** A parent and child both of the class [c] (WB vol. 2, ch. 27, p. 21). */
+    fun turtleKin(c: TurtleClass): Reading = Reading(key = "reading.TurtleKin", arg = "reading.TurtleKin.${c.name}", source = Sources.WHITE_BERYL_CIRCLES)
+
+    /** Two of a household whose classes [pair] are each other's executioners (WB vol. 2, ch. 27, p. 21). */
+    fun turtleEnemy(pair: Pair<TurtleClass, TurtleClass>): Reading =
+        Reading(key = "reading.TurtleEnemy", arg = "reading.TurtleEnemy.${pair.first.name}_${pair.second.name}", source = Sources.WHITE_BERYL_CIRCLES)
+
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(
         key = "reading.CirclePebble", arg = "reading.CirclePebble.${circle.name}.${force.name}.${colour.name}", source = Sources.WHITE_BERYL_CIRCLES,

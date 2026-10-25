@@ -91,6 +91,9 @@ class CirclesTest {
         assertEquals(expected, counts)
         assertEquals(true, TurtleClass.enemies(TurtleClass.KLU, TurtleClass.GARUDA))
         assertEquals(false, TurtleClass.enemies(TurtleClass.COW, TurtleClass.TURTLE))
+        assertEquals(TurtleClass.GARUDA to TurtleClass.KLU, TurtleClass.enemyPair(TurtleClass.KLU, TurtleClass.GARUDA))
+        assertEquals(TurtleClass.KLU, TurtleClass.sameWithChild(TurtleClass.KLU, TurtleClass.KLU))
+        assertEquals(null, TurtleClass.sameWithChild(TurtleClass.GOD, TurtleClass.GOD))
     }
 }
 

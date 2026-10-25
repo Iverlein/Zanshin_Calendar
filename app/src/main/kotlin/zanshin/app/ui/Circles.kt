@@ -14,6 +14,9 @@ import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
 import zanshin.app.Person
+import zanshin.app.Reckonings
+import zanshin.core.tibetan.KinRole
+import zanshin.core.tibetan.YearOfLife
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
@@ -52,6 +55,31 @@ fun CirclesView(person: Person, birth: Sign, age: Int, circles: List<CircleReadi
             ),
             onOpen,
         )
+        // With the household (p. 21): a parent or child of the same class among the five, and the classes that are
+        // each other's executioners, for each living relative entered with a birth year.
+        Reckonings.kin(person).filter { it.living && it.birthYear != null }.forEach { k ->
+            val theirs = TurtleClass.of(YearOfLife.yearSign(k.birthYear!!))
+            val who = person.relatives.byId(k.tag)?.let { relativeLabel(person.relatives, it, labels) } ?: return@forEach
+            val parentOrChild = k.role == KinRole.MOTHER || k.role == KinRole.FATHER || k.role == KinRole.CHILD
+            TurtleClass.sameWithChild(turtle, theirs)?.takeIf { parentOrChild }?.let { same ->
+                AnnotationRow(
+                    Annotation(
+                        title = labels.string(R.string.circles_turtle_with, who, same.english),
+                        english = "", tone = Tone.BAD, reading = Texts.turtleKin(same), titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+            TurtleClass.enemyPair(turtle, theirs)?.let { pair ->
+                AnnotationRow(
+                    Annotation(
+                        title = labels.string(R.string.circles_turtle_with, who, theirs.english),
+                        english = "", tone = Tone.BAD, reading = Texts.turtleEnemy(pair), titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+        }
         circles.forEach { c ->
             val tone = { p: PebbleColour -> if (p == PebbleColour.WHITE) Tone.GOOD else Tone.BAD }
             val parts = Force.entries.map { f ->

@@ -4106,8 +4106,11 @@ groups it shows (`tools/emulator/store_shots.py`).
   classes' counts over the sixty years equal the text's, god 2 … ogre 9,
   the four earth executioners' years the turtle's four), `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
-  dragon: an asura year), the release build (no raw keys). Not built: the household's
-  agreement by classes.
+  dragon: an asura year), the release build (no raw keys). The household's
+  agreement followed the same day: a parent or child of the same class
+  among the five and the executioner pairs, with each living relative
+  (families `TurtleKin`, `TurtleEnemy`); not built: the relatives'
+  agreement among themselves.
 - **R2x The dead's provisions, strikes and rites — built 2026-10-25**
   (SPEC §5.9.4, D18): the ninth and fifteenth examinations' provisions by
   the trigram of death, the tenth's nine-eye and grave-day strikes, the
