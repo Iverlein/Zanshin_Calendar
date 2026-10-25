@@ -70,6 +70,15 @@ class DeadTest {
         // D18: the dead's trigram and mewa at death are those of the year of age at the year of death.
         assertEquals(r.year.trigram, r.trigram)
         assertEquals(r.year.currentSmeBa, r.mewa)
+        // The tenth examination's strikes (pp. 87–88): the sheet's man died in his 90th year, a nine-multiple; on the 4th, no grave day.
+        assertEquals(day.day, r.lunarDate)
+        assertNull(r.nineEye)
+        assertEquals(false, r.graveDay)
+        // By the Chinese seasons the 11th month is a season's first, the 12th its middle, the 1st its last (p. 88).
+        assertEquals(true, r.copy(lunarDate = 6, monthNumber = 11).graveDay)
+        assertEquals(true, r.copy(lunarDate = 16, monthNumber = 12).graveDay)
+        assertEquals(true, r.copy(lunarDate = 26, monthNumber = 1).graveDay)
+        assertEquals(false, r.copy(lunarDate = 6, monthNumber = 12).graveDay)
         assertEquals(r.date.animal.takeIf { it in setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY) }, r.demonDay)
         // His vitality's deciding pebble is black, so the cuts are read: those met most often among the fights.
         val counts = r.pebbles.mapNotNull { p -> p.other?.let { Forces.kinship(r.year.forces[p.force], it) to r.year.forces[p.force] } }

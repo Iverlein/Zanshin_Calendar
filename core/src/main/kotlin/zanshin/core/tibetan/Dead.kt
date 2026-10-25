@@ -53,7 +53,16 @@ enum class DeadTime { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(
  * the year of death, its hour the hour of death where it is known), [month] and [date] the signs of the month and the
  * lunar date of the death.
  */
-data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sign, val weekday: Weekday? = null, val mansion: Mansion? = null) {
+data class DeadReckoning(
+    val year: YearReckoning,
+    val month: Sign,
+    val date: Sign,
+    val weekday: Weekday? = null,
+    val mansion: Mansion? = null,
+    /** The lunar date of death, 1–30, and its Hor month, 1–12. */
+    val lunarDate: Int? = null,
+    val monthNumber: Int? = null,
+) {
     val pebbles: List<DeadPebble> = buildList {
         val roots = mapOf(
             BasicSign.PRESENT_YEAR to DeadRoot.DEATH_YEAR, BasicSign.LOG_MEN to DeadRoot.LOG_MEN, BasicSign.TRIGRAM to DeadRoot.TRIGRAM,
@@ -143,6 +152,21 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
     /** The day's animal of death, where the third examination names it (p. 63): the ox, tiger, snake, horse, sheep and monkey; the other days hold no good or bad. */
     val demonDay: Animal? get() = date.animal.takeIf { it in DEMON_DAYS }
 
+    /**
+     * The nine-eye strike (the tenth examination, WB vol. 2, pp. 87–88): the dead's year of age a multiple of nine,
+     * the 9th to the 81st; null otherwise. The year of age is the app's own, the birth year the first.
+     */
+    val nineEye: Int? get() = year.age.takeIf { it in 9..81 && it % 9 == 0 }
+
+    /**
+     * The grave-day strike (p. 88): the 6th of each season's first month, the 16th of its middle, the 26th of its
+     * last, by the Chinese seasons WB's elemental chapters count.
+     */
+    val graveDay: Boolean get() {
+        val m = monthNumber ?: return false
+        return lunarDate == listOf(6, 16, 26)[SeasonReckoning.CHINESE.season(m) % 3]
+    }
+
     companion object {
         private val DEMON_DAYS = setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY)
 
@@ -176,7 +200,7 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
             if (YearOfLife.age(birthYear, death.year) < 1) return null
             val signs = Forces.signs(death)
             val year = YearReckoning(YearOfLife.yearSign(birthYear), birthYear, signs.year, death.year, gender, hour)
-            return DeadReckoning(year, signs.month, signs.date, death.weekday, death.mansion)
+            return DeadReckoning(year, signs.month, signs.date, death.weekday, death.mansion, death.day, death.month)
         }
     }
 }

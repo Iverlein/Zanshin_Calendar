@@ -482,6 +482,8 @@ object Sources {
     val WHITE_BERYL_THIRTY = whiteBeryl("chapter 26, pp. 453–473, with the notes in vol. 2, pp. 532–533", volume = 1)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
+    /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
+    val WHITE_BERYL_DEAD_LATER = whiteBeryl("chapter 29, pp. 75–132, with the notes, pp. 505–517", volume = 2)
     /** The dead's fifth and sixth examinations, the rebirth and help by virtue (ch. 29, pp. 70–72). */
     val WHITE_BERYL_DEAD_REBIRTH = whiteBeryl("chapter 29, pp. 70–72", volume = 2)
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
@@ -2223,6 +2225,31 @@ object Texts {
 
     /** A point's board read whole [b] (WB vol. 1, ch. 26, pp. 471–472; the notes, vol. 2, p. 533). */
     fun thirtyBoard(b: ThirtyBoard): Reading = Reading(key = "reading.ThirtyBoard", arg = "reading.ThirtyBoard.${b.name}", source = Sources.WHITE_BERYL_THIRTY)
+
+    /** The corpse's provisions by the dead's trigram [t] at death (the ninth examination, WB vol. 2, ch. 29, p. 75; D18). */
+    fun deadProvisions(t: Trigram): Reading = Reading(key = "reading.DeadProvisions", arg = "reading.DeadProvisions.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The grave provisions by the dead's trigram [t] (the fifteenth examination, WB vol. 2, ch. 29, pp. 129–132; D18). */
+    fun deadGraveProvisions(t: Trigram): Reading =
+        Reading(key = "reading.DeadGraveProvisions", arg = "reading.DeadGraveProvisions.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The nine-eye strike at the dead's year of age [age] (the tenth examination, WB vol. 2, ch. 29, pp. 87–88). */
+    fun deadNineEye(age: Int): Reading = Reading(key = "reading.DeadNineEye", arg = "reading.DeadNineEye.$age", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The grave-day strike (the tenth examination, WB vol. 2, ch. 29, p. 88). */
+    fun deadGraveDay(): Reading = Reading(key = "reading.DeadGraveDay", arg = "reading.DeadGraveDay.STRIKE", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The thirteenth examination's rites for a death on the lunar date [d] (WB vol. 2, ch. 29, pp. 116–118). */
+    fun deadRitesDate(d: Int): Reading = Reading(key = "reading.DeadRitesDate", arg = "reading.DeadRitesDate.$d", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The thirteenth examination's wheel for a death on the weekday [w]'s planet (WB vol. 2, ch. 29, pp. 118–119). */
+    fun deadRitesPlanet(w: Weekday): Reading = Reading(key = "reading.DeadRitesPlanet", arg = "reading.DeadRitesPlanet.${w.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The thirteenth examination's wheel for a death on the mewa [n] (WB vol. 2, ch. 29, p. 112; D18). */
+    fun deadRitesMewa(n: Int): Reading = Reading(key = "reading.DeadRitesMewa", arg = "reading.DeadRitesMewa.$n", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The thirteenth examination's white and black rites for a death on the trigram [t] (WB vol. 2, ch. 29, pp. 104–108; D18). */
+    fun deadRitesTrigram(t: Trigram): Reading = Reading(key = "reading.DeadRitesTrigram", arg = "reading.DeadRitesTrigram.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
 
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(
