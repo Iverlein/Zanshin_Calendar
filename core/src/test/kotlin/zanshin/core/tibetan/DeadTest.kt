@@ -59,6 +59,9 @@ class DeadTest {
         assertEquals(listOf(DeadTime.YEAR to Animal.PIG, DeadTime.MONTH to Forces.signs(day).month.animal), r.times.take(2))
         assertEquals(DeadTime.HOUR to Animal.SHEEP, r.times.last())
         assertEquals(3, DeadReckoning.of(1906, Gender.MALE, day, null)!!.times.size)
+        // The third examination's inputs (pp. 58–68): the weekday of death, and the day's animal only where p. 63 names it.
+        assertEquals(day.weekday, r.weekday)
+        assertEquals(r.date.animal.takeIf { it in setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY) }, r.demonDay)
         // His vitality's deciding pebble is black, so the cuts are read: those met most often among the fights.
         val counts = r.pebbles.mapNotNull { p -> p.other?.let { Forces.kinship(r.year.forces[p.force], it) to r.year.forces[p.force] } }
             .filter { it.first == Kinship.ENEMY || it.first == Kinship.IDENTITY }.groupingBy { it }.eachCount()

@@ -470,6 +470,8 @@ object Sources {
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
     val WHITE_BERYL_DEAD_CAUSE = whiteBeryl("chapter 29, pp. 57–58, with the notes, p. 503", volume = 2)
+    /** The dead's third examination, which demon carried the dead off (ch. 29, pp. 58–68; the notes, p. 503). */
+    val WHITE_BERYL_DEAD_DEMON = whiteBeryl("chapter 29, pp. 58–68, with the notes, p. 503", volume = 2)
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
     val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2171,6 +2173,22 @@ object Texts {
 
     /** The reason by the elements' cut [c] found most often among the dead's pebbles (WB vol. 2, ch. 29, p. 57; the notes, p. 503). */
     fun deadCut(c: DeadCut): Reading = Reading(key = "reading.DeadCut", arg = "reading.DeadCut.${c.name}", source = Sources.WHITE_BERYL_DEAD_CAUSE)
+
+    /** Which demon carried off one born in [animal]'s year, where it hides and its rite (WB vol. 2, ch. 29, pp. 58–60). */
+    fun deadDemonYear(animal: Animal): Reading =
+        Reading(key = "reading.DeadDemonYear", arg = "reading.DeadDemonYear.${animal.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** What the day's animal [animal] of death says (WB vol. 2, ch. 29, p. 63). */
+    fun deadDemonDay(animal: Animal): Reading =
+        Reading(key = "reading.DeadDemonDay", arg = "reading.DeadDemonDay.${animal.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** Where the devouring spirit hides on the weekday [w] of death, on whom the death repeats, and the rite (WB vol. 2, ch. 29, pp. 63–65). */
+    fun deadDemonWeekday(w: Weekday): Reading =
+        Reading(key = "reading.DeadDemonWeekday", arg = "reading.DeadDemonWeekday.${w.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** The hour of death, of [animal]: the month the life was cut, the devouring spirit and its rite (WB vol. 2, ch. 29, pp. 66–68). */
+    fun deadDemonHour(animal: Animal): Reading =
+        Reading(key = "reading.DeadDemonHour", arg = "reading.DeadDemonHour.${animal.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
 
     /** The reason by the animal [animal] of a time of death, the demon's cut in its seventh month (WB vol. 2, ch. 29, p. 58). */
     fun deadCauseTime(animal: Animal): Reading =

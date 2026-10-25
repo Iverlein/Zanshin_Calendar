@@ -14,6 +14,8 @@ import zanshin.core.texts.gloss
  * day of death and the hour of death; the planet and the mansion, fought by element, are not reckoned. Each root is a
  * place counted once by its colour, as the notes count the year of age (p. 490), and each aspect's deciding pebble
  * lies on the more. Its sixth and seventh tests read the year of age's mewa obstacles and course at the year of death.
+ * The second examination reads the reason the death met (pp. 57–58), the third which demon carried it off (pp. 58–68)
+ * by the dead's year animal, the day's animal, the weekday and the hour of death.
  */
 
 /** The roots of the dead's pebbles (the notes, vol. 2, p. 500), in the notes' order, the planet and mansion left out. */
@@ -47,7 +49,7 @@ enum class DeadTime { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(
  * the year of death, its hour the hour of death where it is known), [month] and [date] the signs of the month and the
  * lunar date of the death.
  */
-data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sign) {
+data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sign, val weekday: Weekday? = null) {
     val pebbles: List<DeadPebble> = buildList {
         val roots = mapOf(
             BasicSign.PRESENT_YEAR to DeadRoot.DEATH_YEAR, BasicSign.LOG_MEN to DeadRoot.LOG_MEN, BasicSign.TRIGRAM to DeadRoot.TRIGRAM,
@@ -124,7 +126,12 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
         year.hour?.let { DeadTime.HOUR to it.sign.animal },
     )
 
+    /** The day's animal of death, where the third examination names it (p. 63): the ox, tiger, snake, horse, sheep and monkey; the other days hold no good or bad. */
+    val demonDay: Animal? get() = date.animal.takeIf { it in DEMON_DAYS }
+
     companion object {
+        private val DEMON_DAYS = setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY)
+
         /** The month in which the demon cut the la of one who died in [animal]'s time: its seventh (p. 58). */
         fun cutMonth(animal: Animal): Animal = Animal.entries[(animal.ordinal + 6) % 12]
 
@@ -142,7 +149,7 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
             if (YearOfLife.age(birthYear, death.year) < 1) return null
             val signs = Forces.signs(death)
             val year = YearReckoning(YearOfLife.yearSign(birthYear), birthYear, signs.year, death.year, gender, hour)
-            return DeadReckoning(year, signs.month, signs.date)
+            return DeadReckoning(year, signs.month, signs.date, death.weekday)
         }
     }
 }
