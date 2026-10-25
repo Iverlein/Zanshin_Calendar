@@ -69,6 +69,18 @@ Question 123 of the *Two Hundred and Eight Requests* (སྙན་སྒྲོ�
 
 The question: WB gives "the Chinese pebble round" (རྒྱ་ནག་རྡེལ་སྐོར, rgya nag rdel skor). A written tradition of this kind is seen, but its very name is not known to most who hold the Phugpa (ཕུག་པ, phug pa) way; since the work that gives it here is chiefly of the Phugpa way, the asker suspects a contradiction. It asks nothing about how the round is laid, folded or read.
 
+## <a id="ys-i099"></a>ys:i099 Question 134: the kind of person as the birth's life-wind element, or the clan's
+
+*Read: machine, 2026-10-25.*
+
+> ༈ བརྒྱ་སོ་བཞི་པ་ཡང་ནད་ངོས་འཛིན་པ་དང་བཅས་རྩིས་དུས་བརྟག་པ་ལ་མཁོ་བའི་འབྱུང་བའི་མི་རིགས་འདི། བཙས་པ་སྲོག་རླུང་གི་འབྱུང་བ་དང་ཆ་ཉེར་སྟོན་པ་གོ་བར་བྱུང་བ། རུས་ཁམས་རགས་པ་ཡང་མི་རིགས་ལ་བརྟག་པར་གནང་བས། འདིའི་སྲོག་རླུང་དང་རུས་ཁམས་གཅིག་མི་གཅིག །གཅིག་པར་ཤར་ཚེ་རུས་ཤིང་ཁམས་པའི་མི་རིགས་ཐམས་ཅད་དང་སོ་སྐྱེ་སྲིད་ཆགས་སྐབས། ཕ་མའི་རླུང་རྒྱུ་ཐམས་ཅད་གཅིག་དགོས་པ་དང་། དེ་གཅིག་ན་ནད་རྩིས་སོགས་པའི་སྐབས་མི་རིགས་ཀྱི་དབྱིབས་ལུགས་བརྟག་མི་དགོས་པར་རུས་ཀྱི་སྒོ་ནས་རྩིས་ཆོག་པ་དང་རུས་མཚན་དེའི་མི་རིགས་ཀྱི་དབྱིབས་མདོག་གཅིག་ཏུ་འོང་བའི་དོགས་པ་འདུག་ལགས་པ་སྙན་སྒྲོན་དུ་ཕུལ།
+
+Question 134 of the *Two Hundred and Eight Requests* (I5875 img. 99, ll. 3–5, by Yigdzin-1; on the scan, whose lines run in two tiers, the clauses «ཡང་ནད་ངོས་འཛིན་པ་དང་བཅས་རྩིས», «དུས་བརྟག་པ་ལ་མཁོ་བའི་འབྱུང་བའི་མི་རིགས་འདི», «བཙས་པ་སྲོག་རླུང་གི་འབྱུང», «འབྱུང་བ་དང་ཆ་ཉེར་སྟོན་པ་གོ་བར་བྱུང་བ། རུས་ཁམས་རགས་པ་ཡང་མི་རིགས་ལ་བརྟག་པར» were checked at native size; «བཅས་རྩིས» is the print's spelling of the birth reckoning, བཙས་རྩིས, btsas rtsis). Yigdzin-1 reads «ནང་ངོས» where the scan has «ནད་ངོས».
+
+"This kind of person by element, needed in identifying the illness and in examining the time of the birth reckoning, was understood to show, near enough, the element of the birth's life-wind (བཙས་པ་སྲོག་རླུང, btsas pa srog rlung); [WB] also grants that the rough clan element be examined for the kind of person: are this life-wind and the clan element one or not? If they come out one, must all of a wood-element clan have had one descent from the parents when they came to birth; if one, may the illness reckoning and the like be reckoned by the clan, without examining the shape of the kind of person; and will the people of that clan be of one shape and colour? This doubt is offered as a request."
+
+The questioner, Ngawang of Chongye (ys:i090-108), reads WB's kind of person (མི་རིགས, mi rigs) as the element of the birth's life-wind; whether «སྲོག་རླུང» is one word, the life-wind, or the pair of the life force and the wind-horse (སྲོག, srog; རླུང་རྟ, rlung rta) is not settled by these lines.
+
 
 ## <a id="ys-i454-461"></a>ys:i454-461 Replies 101–106, on ch. 22: outline
 
@@ -166,13 +178,27 @@ The answer: "the element of the five constitutions for the illness of the four t
 
 So the four pebbles of the identification are the elements of the trigrams of the year, month, day and hour *in which one fell ill* («གང་གི་ཐོག་ཏུ་ན་བ»), counted with li on tiger, horse and dog years, and the fifth is the element most common among the four.
 
+## <a id="ys-i491-492"></a>ys:i491-492 Reply 134: the kind of person by element and the rough clan element
+
+*Read: scan, 2026-10-25.*
+
+> བརྒྱ་སོ་བཞི་པ་ཡང་ནད་ངོས་འཛིན་པ་དང་བཙས་རྩིས་སུ་སུ་ཞུགས་དུས་ལ་མཁོ་བའི་འབྱུང་བའི་མི་རིགས་བརྟག་པ་དང་། རུས་ཁམས་རགས་པ་གཉིས་གཅིག་ན་དཔེར་ན་རུས་ཤིང་ཁམས་པའི་མི་རིགས་ཐམས་ཅད་དང་པོ་སྐྱེ་སྲིད་ཆགས་སྐབས་ཕ་མའི་[རླུང]་རྒྱུ་ཐམས་ཅད་གཅིག་དགོས་པ་དང་། དེ་གཅིག་ན་ནད་རྩིས་སྐབས་རུས་ཁམས་ནས་ཀྱང་བརྩིས་ཆོག་པ་དང་། རུས་ཚན་དེའི་མི་རིགས་ཐམས་ཅད་ཁ་དོག་དབྱིབས་རིགས་གཅིག་དགོས་པར་དོགས་པའི་ལན་ནི། དོགས་པ་དེ་ནི་[གནད]་འགག་ཆེ་ཞིང་སྐྱེ་བ་ཡང་བདེན་མོད། ཡིན་ཀྱང་རུས་ཁམས་ནི་རུས་མིང་གི་བརྗོད་པའི་སྒོ་ནས་བརྟག་དགོས་ཤིང་། དེ་ནི་དེང་སང་བོད་ཀྱི་རུས་ཚང་འཐོར་བའི་དབང་གིས་ལྷོ་རྒྱུད་ལ་རུས་ཀྱི་ཀ་བ་བཞི་དང་གདུང་བརྒྱད་དུ་གྲགས་པ་དང་། ཨེ་རོང་འབྲོག་རིགས་སོགས་ཐོར་ཆགས་ལས་བོད་བྱིངས་མངས་ལ་འདི་ཡིན་འཆད་རྒྱུ་མི་སྣང་ཞིང་། དེ་ལ་རྩིས་ཐམས་ཅད་ལ་རུས་དགོས་པ་ཞིག་གི་དབང་གིས་ནས་[དཔྱད་འགོག]་བྱེད་དུ་ལ་ལ་སྤར་ཁ་རུས་པའི་རྩིས་ཡིན་པའི་དབང་གིས་སྐྱེས་སྤར་ལ་ངོས་འཛིན་པ་དང་། དེར་ཀྱང་མིང་ཡང་ཁམས་ཞེས་རྣམ་དབྱེ་བྱེད་ཅིང་། དེ་ནི་རུས་ཚན་གཅིག་ལ་ཁམས་མི་གཅིག་པ་མང་དུ་འབྱུང་ཞིང་དེས་ན་བླ་རི་སོགས་དུ་མ་འབྱུང་སྐྱོན་དང་། དེས་ན་དོན་མཚུངས་མི་དབྱིབས་ཀྱི་ནང་ཚན་བརྗོད་པ་བརྗོད་ལུགས་ཀྱི་དབྱིབས་མི་རིགས་ཕལ་ཆེར་ཆ་མཚུངས་སུ་ཡང་འབྱུང་ཉེའི་དབང་གིས་ཕྱག་ལེན་འགར་ཡང་སྣང་བ་དང་བཅས་ཅུང་ཉེ་བ་ནས་དེ་ལྟར་བཀོད་ཅིང་། དེ་ཡང་ལུང་གི་ཤེས་བྱེད་དབེན་པས་ན་རགས་པ་ཞེས་བརྗོད་པ་ཡིན་གྱི། སྲོག་རླུང་ལ་བརྗོད་པ་ལས་མང་བའི་ད་དུང་གཟུགས་དབྱིབས་ཁ་དོག་སོགས་ཀྱི་སྒོ་ནས་བརྟག་རྒྱུ་ཡོད་པས་སྐྱོན་ཆུང་བར་སེམས་ཏེ་ཚོམ་པ་མི་འཚལ་ལོ།།
+
+The answer to the hundred and thirty-fourth (I5875 img. 491, l. 5, to img. 492, l. 4), read on the scan in eighths of each line at native size against Yigdzin-1 (the running hand of the regent's replies; see ys:i491). Bracketed: «[རླུང]» (img. 491, l. 6; Yigdzin-1 «རླུང་རྒྱུ», the stack's foot not made out at 2×), «[གནད]» (Yigdzin-1 «གནང»), «[དཔྱད་འགོག]» (img. 492, l. 2; the words are clear, their sense in the clause is not); «རུས་ཁམས་ནི» at the turn of img. 491 to 492 is read so on the scan where Yigdzin-1 has «དུས་ཁམས».
+
+The question as the reply restates it (its own wording is ys:i099): the kind of person by element (འབྱུང་བའི་མི་རིགས, 'byung ba'i mi rigs) needed when someone comes for the identification of the illness and for the birth reckoning is examined; if it and the "rough" clan element (རུས་ཁམས་རགས་པ, rus khams rags pa) are one, must everyone of, say, a wood clan have had one and the same descent from the parents at their first birth; if they are one, may the illness reckoning be reckoned from the clan element as well; and must every person of that clan be of one colour, shape and kind?
+
+The answer, in our words: the doubt is weighty and arises fairly. But the clan element has to be examined by the clan's name as it is stated, and today Tibet's clans are scattered: the four pillars and eight lineages (ཀ་བ་བཞི་གདུང་བརྒྱད, ka ba bzhi gdung brgyad) known in the south, the E-rong (ཨེ་རོང, e rong) nomad kinds and others are dispersed, and Tibetan stock is mixed, so no one can say "this clan is that element". Since every reckoning wants a clan, some take the trigram as the reckoning of the "bone" (རུས, rus, clan) and identify the clan element with the birth trigram (སྐྱེས་སྤར, skyes spar), and there too tell the name from the element; but one clan then holds many different elements, with the fault that many la-mountains (བླ་རི, bla ri) and the like arise. Because people's shapes and kinds mostly come out alike within a clan, and because some practice has it, it is set down so as being near enough. It is called "rough" because it has no scriptural proof; beyond what is said of the life-wind (སྲོག་རླུང, srog rlung; in the question, the birth's), there remains the examination by form, shape and colour, so the fault is small.
+
+So the regent keeps the rough clan element as a stand-in only, names no rule that makes the kind of person equal to the clan's element, and leaves the life-wind element of the birth, which the question had taken as the kind of person, unchallenged.
+
 ## <a id="ys-i491-494"></a>ys:i491-494 Replies 134–136, on ch. 25: outline
 
 *Read: machine, 2026-10-23.*
 
 > བརྒྱ་སོ་བཞི་པ་ཡང་ནད་ངོས་འཛིན་པ་དང་བཙས་རྩིས་སུ་སུ་ཞུགས་དུས་ལ་མཁོ་བའི་འབྱུང་བའི་མི་རིགས་… བརྒྱ་སོ་ལྔ་པ་དགོས་པའི་མི་ལྔ་འདི་ལྟར་བསྟེན། ཞེས་སོགས་པ་འདི་མ་བུ་དགྲ་གྲོགས་ལ་… འདི་ནི་སྲོག་ཁམས་གཙོ་བོར་བྱེད་པ་སོར་བཞག་གི་དབང་གིས་མ་གྲོགས་སོགས་པའི་རིམ་པ་དེ་ལྟར་འབྱུང་ཞིང་། … བརྒྱ་སོ་དྲུག་པ་རྡེའུ་བཅུ་དགུ་མའི་བཅོས་རིམ་སོགས་རྩ་འགྲེལ་ཇི་བཞིན་པར་བཀོད་པ་…
 
-Replies 134–136 (I5875 img. 491, l. 5, to img. 494, l. 3), by Yigdzin-1 only. Reply 134, read through in the machine reading: the kind of person (མི་རིགས, mi rigs) by element, needed in identifying the illness and in the birth reckoning, is the element of the life force; the "rough" clan element (རུས་ཁམས, rus khams) is given only because Tibet's clans are scattered and a clan holds people of several elements, so it is called rough, and shape and colour can be examined besides. Reply 135: the five people needed for the sick (WB vol. 1, p. 445) are reckoned by the life force's element, the main one, as the nurse is the mother, the physician the son and so on; the source is Duhar Nagpo's (དུ་ཧར་ནག་པོ, du har nag po) *Speckled Elements* plank-tree instructions. Reply 136: the nineteen pebbles' remedies and the eight goddesses' reckoning.
+Replies 134–136 (I5875 img. 491, l. 5, to img. 494, l. 3), by Yigdzin-1 only. Reply 134, read through in the machine reading: the kind of person (མི་རིགས, mi rigs) by element, needed in identifying the illness and in the birth reckoning, and the "rough" clan element (རུས་ཁམས, rus khams), which is given only because Tibet's clans are scattered and a clan holds people of several elements, so it is called rough, and shape and colour can be examined besides. (Read on the scan 2026-10-25, ys:i491-492: the reply does not itself say the kind of person is the life force's element; the question, ys:i099, took it as the element of the birth's life-wind, and the reply leaves that standing.) Reply 135: the five people needed for the sick (WB vol. 1, p. 445) are reckoned by the life force's element, the main one, as the nurse is the mother, the physician the son and so on; the source is Duhar Nagpo's (དུ་ཧར་ནག་པོ, du har nag po) *Speckled Elements* plank-tree instructions. Reply 136: the nineteen pebbles' remedies and the eight goddesses' reckoning.
 
 ## <a id="ys-i492-493"></a>ys:i492-493 Reply 135: the five people needed, by the life force's element
 

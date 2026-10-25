@@ -314,7 +314,10 @@ The example is the only worked one in the chapter; the pebble reckoning of the f
   image, which places it on WB p. 438 by its shingles. So the 1996 «ཆ་རྒྱས»
   stands, and WBZ's unclear stack is ཆ. The passage counts each element's
   share (ཆ, cha) of an illness, «ཕྱེད་མ», half, «གསུམ་ཆ», a third, «སུམ་གཉིས»,
-  two thirds, and «མེ་ནི་སུམ་གཅིག» and «ཆུ་ནི་སུམ་གཉིས་ས་སུམ་གཅིག» follow. In
+  two thirds, and «མེ་ནི་སུམ་གཅིག» and «ཆུ་ནི་སུམ་གཉིས་ས་སུམ་གཅིག» follow. The
+  Taikhang's «གསུམ་ཆ» (for the 1996 «སུམ་ཆ», the same word, a third) was read
+  by eye on 2026-10-25 (I5877 img. 598, l. 3), and Yigdzin-1 reads it so on
+  the Zhol print too (I1KG1710 img. 581, l. 2); the sense does not change. In
   that setting the line reads: for one of the fire class, reckoned by the
   fire time, bile increases and the illness is fever; sudden, or a sign of
   wounds and blood; or, the [fire's] share grown, fire in the organs (དོན་སྣོད,
