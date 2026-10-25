@@ -4032,8 +4032,11 @@ groups it shows (`tools/emulator/store_shots.py`).
   `DeadDemonDay`, `DeadDemonWeekday`, `DeadDemonHour` (item R2), English
   and Russian. Checked: `DeadTest` (the weekday and the named day on KD's
   dead man), `CatalogTest`, `:app:testDebugUnitTest`. Not built: by the
-  trigram and the mewa (open question 260), by the mansion (27 entries,
-  next), by the weekday's planet's state (how it is found not said).
+  trigram and the mewa (open question 260), by the weekday's planet's
+  state (how it is found not said). **R2r, the mansion of death, built the
+  same day**: the 27 mansions' entries (pp. 65–66; Abhijit's not reached,
+  the calendar counting 27), `DeadReckoning.mansion`, family
+  `DeadDemonMansion`, English and Russian; checked as R2q.
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough

@@ -166,8 +166,8 @@ private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
 
 /**
  * The third examination (SPEC §5.9.4, ROADMAP R2q): which spirit carried the dead off and its rite, by the dead's year
- * animal, the day's animal where p. 63 names it, the weekday and the hour of death where it is known. By the trigram,
- * the mewa and the mansion it is not yet reckoned.
+ * animal, the day's animal where p. 63 names it, the weekday, the mansion and the hour of death where it is known. By
+ * the trigram and the mewa it is not yet reckoned.
  */
 @Composable
 private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
@@ -182,6 +182,7 @@ private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     row(labels.string(R.string.dead_demon_year, gloss(born).lowercase()), Texts.deadDemonYear(born))
     r.demonDay?.let { row(labels.string(R.string.dead_time_title, DeadTime.DAY.english.replaceFirstChar(Char::uppercase), gloss(it).lowercase()), Texts.deadDemonDay(it)) }
     r.weekday?.let { row(labels.string(R.string.dead_demon_weekday, gloss(it, "inText")), Texts.deadDemonWeekday(it)) }
+    r.mansion?.let { row(labels.string(R.string.dead_demon_mansion, it.english), Texts.deadDemonMansion(it)) }
     r.year.hour?.let { h -> row(labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), Texts.deadDemonHour(h.sign.animal)) }
 }
 

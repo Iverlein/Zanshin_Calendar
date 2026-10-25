@@ -982,7 +982,10 @@ relation's) and a whole date of death (`DeadReckoning`, core
   family `DeadDemonDay`); by the weekday, its general entry, where the
   spirit hides, on whom the death repeats and what is laid on the corpse
   (pp. 63–65, family `DeadDemonWeekday`; the entries by the planet's
-  state are not shown, WB not saying how the state is found); and by the
+  state are not shown, WB not saying how the state is found); by the
+  mansion of death, its cause or carrier, who is at risk and what is laid
+  on or under the corpse (pp. 65–66, the 27 mansions the calendar counts,
+  Abhijit's entry not reached; family `DeadDemonMansion`); and by the
   hour of death where its time is known, the month the life was cut in,
   where the spirit came from and whom it goes to (pp. 66–68, family
   `DeadDemonHour`). Each rite is a Remedy row; the words the text leaves
@@ -1004,14 +1007,14 @@ vitality · black"), the elements' cut ("The elements' cut · iron cut by
 fire") and each time of death ("Hour of death · sheep", "the la cut in the
 ox month"); under "Which spirit carried the dead off" the dead's year
 ("Born in the horse year"), the day where it is named, the weekday ("Died
-on a Tuesday") and the hour; a line asking
+on a Tuesday"), the mansion ("Died under Kṛttikā") and the hour; a line asking
 for what is missing; a closing note on what is reckoned.
 
 **Not calculated** yet: the element's pebble and the funeral share (the
 fourth examination), the trigram's test of the first examination (its
 part 5: the trigram's enemy or own place, demon door and *'phung chags*),
 the second examination's reasons by the trigram and the mewa, the third's
-spirits by the trigram, the mewa and the mansion and by the weekday's
+spirits by the trigram and the mewa and by the weekday's
 planet's state, the other twelve examinations, the living household.
 
 #### 5.9.5 The moment
