@@ -968,6 +968,25 @@ relation's) and a whole date of death (`DeadReckoning`, core
   (`DeadReckoning.times`, `cutMonth`, family `DeadCauseTime`). The
   reasons by the trigram and by the mewa are not shown until which
   trigram and mewa is settled (open questions 260, 272).
+- **Which spirit carried the dead off** (the third examination,
+  pp. 58–68, read on the scan; ROADMAP R2q;
+  [sources/corpus/wb/ch29-demons.md](sources/corpus/wb/ch29-demons.md),
+  [claims/dead-demon-by-year-animal.md](sources/claims/dead-demon-by-year-animal.md),
+  [dead-demon-by-weekday.md](sources/claims/dead-demon-by-weekday.md),
+  [dead-demon-by-hour.md](sources/claims/dead-demon-by-hour.md),
+  [dead-life-cut-by-day-animal.md](sources/claims/dead-life-cut-by-day-animal.md)):
+  by the dead's own year animal, where the devouring spirit hides, whom it
+  leads on to and when it returns if the rite is not done (pp. 58–60,
+  family `DeadDemonYear`); by the day's animal of death, the six days
+  p. 63 names, the other days holding no good or bad (`DeadReckoning.demonDay`,
+  family `DeadDemonDay`); by the weekday, its general entry, where the
+  spirit hides, on whom the death repeats and what is laid on the corpse
+  (pp. 63–65, family `DeadDemonWeekday`; the entries by the planet's
+  state are not shown, WB not saying how the state is found); and by the
+  hour of death where its time is known, the month the life was cut in,
+  where the spirit came from and whom it goes to (pp. 66–68, family
+  `DeadDemonHour`). Each rite is a Remedy row; the words the text leaves
+  unexplained stay in the topic files.
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four
@@ -983,14 +1002,17 @@ listing each root's pebbles, or a line for a speckled one; under "The
 reason the death met" each white or black aspect's reason ("Reason by the
 vitality · black"), the elements' cut ("The elements' cut · iron cut by
 fire") and each time of death ("Hour of death · sheep", "the la cut in the
-ox month"); a line asking
+ox month"); under "Which spirit carried the dead off" the dead's year
+("Born in the horse year"), the day where it is named, the weekday ("Died
+on a Tuesday") and the hour; a line asking
 for what is missing; a closing note on what is reckoned.
 
 **Not calculated** yet: the element's pebble and the funeral share (the
 fourth examination), the trigram's test of the first examination (its
 part 5: the trigram's enemy or own place, demon door and *'phung chags*),
-the second examination's reasons by the trigram and the mewa, the other
-thirteen examinations, the living household.
+the second examination's reasons by the trigram and the mewa, the third's
+spirits by the trigram, the mewa and the mansion and by the weekday's
+planet's state, the other twelve examinations, the living household.
 
 #### 5.9.5 The moment
 

@@ -4023,6 +4023,17 @@ groups it shows (`tools/emulator/store_shots.py`).
   `:app:testDebugUnitTest`. Not built: the reasons by the trigram and the
   mewa (open questions 260, 272), two waters within («ཁང་ནག་བཤུས» not
   settled).
+- **R2q Which spirit carried the dead off — built 2026-10-25** (SPEC
+  §5.9.4, §10.11): ch. 29's third examination (vol. 2, pp. 58–68, read on
+  the scan; [sources/corpus/wb/ch29-demons.md](sources/corpus/wb/ch29-demons.md))
+  by the dead's year animal, the day's animal (the six p. 63 names), the
+  weekday's general entry and the hour of death, each rite a Remedy row;
+  `DeadReckoning.weekday`, `demonDay`, families `DeadDemonYear`,
+  `DeadDemonDay`, `DeadDemonWeekday`, `DeadDemonHour` (item R2), English
+  and Russian. Checked: `DeadTest` (the weekday and the named day on KD's
+  dead man), `CatalogTest`, `:app:testDebugUnitTest`. Not built: by the
+  trigram and the mewa (open question 260), by the mansion (27 entries,
+  next), by the weekday's planet's state (how it is found not said).
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough
