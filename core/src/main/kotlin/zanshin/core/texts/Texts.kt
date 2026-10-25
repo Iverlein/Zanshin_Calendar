@@ -2186,6 +2186,10 @@ object Texts {
     fun deadDemonWeekday(w: Weekday): Reading =
         Reading(key = "reading.DeadDemonWeekday", arg = "reading.DeadDemonWeekday.${w.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
 
+    /** The mansion [m] of death: the cause or carrier, who is at risk, and what is laid on the corpse (WB vol. 2, ch. 29, pp. 65–66). */
+    fun deadDemonMansion(m: Mansion): Reading =
+        Reading(key = "reading.DeadDemonMansion", arg = "reading.DeadDemonMansion.${m.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
     /** The hour of death, of [animal]: the month the life was cut, the devouring spirit and its rite (WB vol. 2, ch. 29, pp. 66–68). */
     fun deadDemonHour(animal: Animal): Reading =
         Reading(key = "reading.DeadDemonHour", arg = "reading.DeadDemonHour.${animal.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
