@@ -188,8 +188,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/household-round-places.md](claims/household-round-places.md) | claim, table | The household round: the readings of each place by colour | cites wb.1:p385-387; feeds block-58, R4 |
 | [claims/household-round-zigzag.md](claims/household-round-zigzag.md) | claim, rule | The household round: the order of taking, for any number of members | cites wb.1:p385-387, wb.2:p490-491, dz:i048-049; feeds block-58, R4 |
 | [claims/illness-board-three-fives.md](claims/illness-board-three-fives.md) | claim, rule | The illness board's three five-rows: man, woman, children | cites wb.1:p422-423, wb.1:p423, wb.2:p495; feeds block-32 |
+| [claims/illness-day-animal-of-onset.md](claims/illness-day-animal-of-onset.md) | claim, rule | The day animals of WB pp. 428–429 are those of the day of falling ill | cites wb.1:p428-429, wb.1:p450, wb.1:p431-433, ys:i491, wb.2:p497-499, kd.3:p693, kd.3:p701; feeds block-32 |
 | [claims/illness-death-verdict.md](claims/illness-death-verdict.md) | claim, rule | The illness reckoning's last verdict: death or not; the five people | cites wb.1:p445, wb.2:p497-499; feeds block-32 |
 | [claims/illness-five-by-time-of-falling-ill.md](claims/illness-five-by-time-of-falling-ill.md) | claim, rule | The illness's five pebbles: the trigrams of the time of falling ill and the commonest element | cites ys:i491, wb.1:p435, wb.2:p497; feeds block-32 |
+| [claims/illness-five-people-pillow-guard.md](claims/illness-five-people-pillow-guard.md) | claim, note | The five people the sick need: the pillow-guard's relation and what «མཐུན་གསུམ་རང་དང་ལྔ» counts | cites wb.1:p445, wb.2:p497-499, ys:i492-493; feeds block-32 |
 | [claims/illness-heads-years-lived.md](claims/illness-heads-years-lived.md) | claim, rule | The plank-tree's heads count the years lived from fixed signs | cites dz:i052-055, lt:p43-44, wb.2:p171-172; feeds block-32, block-31 |
 | [claims/illness-mewa-of-onset.md](claims/illness-mewa-of-onset.md) | claim, table | The mewa of falling ill: illness, spirits, ransom and the spirit's kind | cites wb.1:p431-433, wb.1:p433-435; feeds block-32 |
 | [claims/illness-nineteen-pebbles.md](claims/illness-nineteen-pebbles.md) | claim, rule | The nineteen pebbles of the sick | cites wb.1:p445-447, wb.2:p497-499; feeds block-32 |
@@ -211,6 +213,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-sixty-pairs.md](claims/moment-sixty-pairs.md) | claim, table | The ogre's, the demon's and the sixty-year counts cut by the moment | cites wb.2:p171-172, wb.2:p172-173; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-thirteen-gates.md](claims/moment-thirteen-gates.md) | claim, table | The thirteen gates of the General Tantra of Brahmā | cites wb.2:p170-171; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-three-mewa.md](claims/moment-three-mewa.md) | claim, table | The three mewa joined and the nine eyes | cites wb.2:p165; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-trigram-month-and-the-later-dates.md](claims/moment-trigram-month-and-the-later-dates.md) | claim, note | The moment's trigram: the month's triad, and the later dates, against the Vaiḍūrya's «ལོ་ལ» | cites ys.2:i016-017, wb.2:p535-537, wb.1:p450; feeds block-31 |
 | [claims/moment-trigram-start-phugpa.md](claims/moment-trigram-start-phugpa.md) | claim, rule | The moment's trigram starts as the Phugpa practice has it, not the General Tantra's halves of the year | cites ys.2:i016-017, wb.2:p535-537, wb.2:p161-162; feeds block-31 |
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
@@ -289,6 +292,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 8 passages: 8 scan |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 4 passages: 4 scan |
+| [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the illness reckoning's identification | 2 passages: 2 etext |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
@@ -318,7 +322,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
-| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 20 passages: 7 scan, 13 machine |
+| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 21 passages: 7 scan, 14 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 1 passages: 1 scan |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
