@@ -17,6 +17,8 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.Circle
+import zanshin.core.tibetan.ThirtyBoard
+import zanshin.core.tibetan.ThirtyPoint
 import zanshin.core.tibetan.DeadCut
 import zanshin.core.tibetan.DeadRebirth
 import zanshin.core.tibetan.Animal
@@ -474,6 +476,8 @@ object Sources {
     val WHITE_BERYL_DEAD_CAUSE = whiteBeryl("chapter 29, pp. 57–58, with the notes, p. 503", volume = 2)
     /** The dead's third examination, which demon carried the dead off (ch. 29, pp. 58–68; the notes, p. 503). */
     val WHITE_BERYL_DEAD_DEMON = whiteBeryl("chapter 29, pp. 58–68, with the notes, p. 503", volume = 2)
+    /** The thirty starting points of ch. 26 (pp. 453–473), as the circles by D21–D23 (the notes, vol. 2, pp. 532–533). */
+    val WHITE_BERYL_THIRTY = whiteBeryl("chapter 26, pp. 453–473, with the notes in vol. 2, pp. 532–533", volume = 1)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's fifth and sixth examinations, the rebirth and help by virtue (ch. 29, pp. 70–72). */
@@ -2203,6 +2207,14 @@ object Texts {
     /** The realm [r] the dead is born into by the hour of death (WB vol. 2, ch. 29, p. 71). */
     fun deadRebirthHour(r: DeadRebirth): Reading =
         Reading(key = "reading.DeadRebirthHour", arg = "reading.DeadRebirthHour.${r.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
+
+    /** Check [n] (1–8) of the thirty's [point], of colour [colour], and for a black one its remedy (WB vol. 1, ch. 26, pp. 454–471; D23). */
+    fun thirtyCheck(point: ThirtyPoint, n: Int, colour: PebbleColour): Reading = Reading(
+        key = "reading.ThirtyCheck", arg = "reading.ThirtyCheck.${point.name}.$n.${colour.name}", source = Sources.WHITE_BERYL_THIRTY,
+    )
+
+    /** A point's board read whole [b] (WB vol. 1, ch. 26, pp. 471–472; the notes, vol. 2, p. 533). */
+    fun thirtyBoard(b: ThirtyBoard): Reading = Reading(key = "reading.ThirtyBoard", arg = "reading.ThirtyBoard.${b.name}", source = Sources.WHITE_BERYL_THIRTY)
 
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(
