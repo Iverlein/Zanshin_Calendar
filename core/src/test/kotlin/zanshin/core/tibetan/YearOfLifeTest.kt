@@ -217,4 +217,17 @@ class YearOfLifeTest {
             r.harsh.filter { it.year == HarshYear.TOMB_SIGN || it.year == HarshYear.TRIGRAM_NINE }.forEach { assertNull(r.graded(it)) }
         }
     }
+
+    /** Building a house (WB vol. 2, ch. 28, p. 42): the sky years dog and dragon, the earth years pig and snake, the mewa and the trigrams on the doors. */
+    @Test
+    fun `building on the doors of sky and earth`() {
+        assertEquals(BuildingDoor.SKY, Building.yearDoor(Animal.DOG))
+        assertEquals(BuildingDoor.EARTH, Building.yearDoor(Animal.SNAKE))
+        assertNull(Building.yearDoor(Animal.HORSE))
+        assertEquals(listOf(null, BuildingDoor.EARTH, BuildingDoor.SKY, BuildingDoor.EARTH, BuildingDoor.SKY, BuildingDoor.SKY, null, null, null), (1..9).map(Building::mewaDoor))
+        // A fire dragon man in 2024, a wood dragon year: the year itself on the sky door.
+        val r = YearReckoning(Sign(Element.FIRE, Animal.DRAGON), 1976, YearOfLife.yearSign(2024), 2024, Gender.MALE, null)
+        assertEquals(BuildingSign.YEAR to BuildingDoor.SKY, Building.of(r).first())
+    }
 }
+

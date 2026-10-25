@@ -564,3 +564,41 @@ data class YearReckoning(
         }
     }
 }
+
+/** The doors of sky and earth for building a house or fort (WB vol. 2, ch. 28, p. 42). */
+enum class BuildingDoor { SKY, EARTH; val english: String get() = gloss(this) }
+
+/** What stands on a door for building in a year: the year itself, or the owner's progressed sign, mewa or trigram (p. 42). */
+enum class BuildingSign { YEAR, LOG_MEN, MEWA, TRIGRAM; val english: String get() = gloss(this) }
+
+object Building {
+    /** The sky years dog and dragon, the earth years pig and snake (p. 42). */
+    fun yearDoor(a: Animal): BuildingDoor? = when (a) {
+        Animal.DOG, Animal.DRAGON -> BuildingDoor.SKY
+        Animal.PIG, Animal.SNAKE -> BuildingDoor.EARTH
+        else -> null
+    }
+
+    /** The mewa on the doors: 3, 5 and 6 the sky's, 2 and 4 the earth's (p. 42). */
+    fun mewaDoor(n: Int): BuildingDoor? = when (n) {
+        3, 5, 6 -> BuildingDoor.SKY
+        2, 4 -> BuildingDoor.EARTH
+        else -> null
+    }
+
+    /** The trigrams on the doors as far as the print is plain: khen the sky's, khon the earth's (p. 42; its other letters doubtful). */
+    fun trigramDoor(t: Trigram): BuildingDoor? = when (t) {
+        Trigram.KHEN -> BuildingDoor.SKY
+        Trigram.KHON -> BuildingDoor.EARTH
+        else -> null
+    }
+
+    /** What stands on a door for one building in the year of [r]: the year, and the owner's progressed sign, mewa and trigram. */
+    fun of(r: YearReckoning): List<Pair<BuildingSign, BuildingDoor>> = listOfNotNull(
+        yearDoor(r.present.animal)?.let { BuildingSign.YEAR to it },
+        r.logMen?.let { lm -> yearDoor(lm.animal)?.let { BuildingSign.LOG_MEN to it } },
+        mewaDoor(r.currentSmeBa)?.let { BuildingSign.MEWA to it },
+        r.trigram?.let { t -> trigramDoor(t)?.let { BuildingSign.TRIGRAM to it } },
+    )
+}
+

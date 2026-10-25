@@ -4099,6 +4099,15 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R3c Building a house this year — built 2026-10-25** (SPEC §5.9.1):
+  ch. 28's doors of sky and earth (vol. 2, p. 42) for the year and the
+  owner's progressed sign, mewa and trigram, a section of the year of
+  age; `Building`, family `Building` (item R2), English and Russian.
+  Checked: `YearOfLifeTest`, `CatalogTest`, `:app:testDebugUnitTest`, the
+  emulator in English and Russian (2024, a wood dragon year: the year on
+  the sky door, the mewa on the earth door). Ch. 28's other
+  parts read observed signs (weather, sneezes, birds, the moon on the
+  hand) or wait on readings (the 360 starting points' starts).
 - **R2y The golden turtle — built 2026-10-25** (SPEC §5.9.6): ch. 27's
   classes of years (pp. 20–22), the birth year's class with its pebbles,
   reading and rites atop the circles; `TurtleClass`, family `TurtleClass`

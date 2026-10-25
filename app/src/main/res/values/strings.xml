@@ -806,6 +806,7 @@
     <string name="year_detail_mother_born">Mother\'s birth year</string>
     <string name="year_log_men_title">Progressed sign (ལོག་མེན, log men): %1$s</string>
     <string name="year_section_pebbles">The pebbles</string>
+    <string name="year_section_building">Building a house this year</string>
     <string name="year_tally">White · black places</string>
     <string name="year_tally_value">%1$d · %2$d</string>
     <string name="year_cell_subtitle">Your %2$s against the %1$s</string>

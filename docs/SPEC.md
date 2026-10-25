@@ -498,6 +498,16 @@ every obstacle WB lists, each with its reading, as before. Not built: the
 *dza zor* (not among the obstacles built), the household round (open
 question 258), the la's own six.
 
+**Building a house this year** (ROADMAP R3c, 2026-10-25; WB vol. 2,
+ch. 28, p. 42; [claims/ch28-building-doors.md](sources/claims/ch28-building-doors.md)):
+where the year stands on a door of sky or earth (the dog and dragon years
+the sky's, the pig and snake the earth's), or the person's progressed
+sign by its animal, mewa of the year of age (3, 5, 6 the sky's; 2, 4 the
+earth's) or trigram (khen the sky's, khon the earth's, the print's other
+letters doubtful), a section lists each with its harm and remedy
+(`Building`, `BuildingSign`, `BuildingDoor`, family `Building`); none
+there, no section.
+
 **With the relatives** (§10.5; ROADMAP P2, `Kin.kt`, `KinReckoning`;
 `Reckonings.kin` takes the mother, father, spouses and children entered
 under the person, and anyone of the household further out). The **natal

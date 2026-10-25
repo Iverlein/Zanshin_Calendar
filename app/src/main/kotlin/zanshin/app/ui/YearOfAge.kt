@@ -143,6 +143,21 @@ fun YearOfAge(person: Person, r: YearReckoning, onOpen: (Annotation) -> Unit) {
             )
         }
 
+        // Building a house this year (ROADMAP R3c; WB vol. 2, ch. 28, p. 42): the year and the owner's signs on the doors.
+        val building = zanshin.core.tibetan.Building.of(r)
+        if (building.isNotEmpty()) {
+            Section(stringResource(R.string.year_section_building))
+            building.forEach { (sign, door) ->
+                AnnotationRow(
+                    Annotation(
+                        title = labels.string(R.string.birth_share_title, sign.english.replaceFirstChar(Char::uppercase), door.english),
+                        english = "", tone = Tone.BAD, reading = Texts.building(sign, door), titleIsKanji = false,
+                    ),
+                    onOpen,
+                )
+            }
+        }
+
         Section(stringResource(R.string.year_section_obstacles))
         val obstacles = obstacleAnnotations(r, labels) + kinObstacleAnnotations(r, person, kin, labels)
         if (obstacles.isEmpty()) {

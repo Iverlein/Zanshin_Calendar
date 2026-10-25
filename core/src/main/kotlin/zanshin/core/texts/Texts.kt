@@ -16,6 +16,8 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
+import zanshin.core.tibetan.BuildingDoor
+import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
 import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
@@ -481,6 +483,8 @@ object Sources {
     val WHITE_BERYL_DEAD_DEMON = whiteBeryl("chapter 29, pp. 58–68, with the notes, p. 503", volume = 2)
     /** The thirty starting points of ch. 26 (pp. 453–473), as the circles by D21–D23 (the notes, vol. 2, pp. 532–533). */
     val WHITE_BERYL_THIRTY = whiteBeryl("chapter 26, pp. 453–473, with the notes in vol. 2, pp. 532–533", volume = 1)
+    /** Ch. 28's small signs: building a house (p. 42). */
+    val WHITE_BERYL_SMALL_SIGNS = whiteBeryl("chapter 28, p. 42", volume = 2)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
@@ -2261,6 +2265,10 @@ object Texts {
     /** Two of a household whose classes [pair] are each other's executioners (WB vol. 2, ch. 27, p. 21). */
     fun turtleEnemy(pair: Pair<TurtleClass, TurtleClass>): Reading =
         Reading(key = "reading.TurtleEnemy", arg = "reading.TurtleEnemy.${pair.first.name}_${pair.second.name}", source = Sources.WHITE_BERYL_CIRCLES)
+
+    /** A building sign [s] on the door [d] (WB vol. 2, ch. 28, p. 42). */
+    fun building(s: BuildingSign, d: BuildingDoor): Reading =
+        Reading(key = "reading.Building", arg = "reading.Building.${s.name}.${d.name}", source = Sources.WHITE_BERYL_SMALL_SIGNS)
 
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(
