@@ -4008,6 +4008,21 @@ groups it shows (`tools/emulator/store_shots.py`).
   added the same day, families `DeadMewa` and `DeadCourse`. Not built:
   the element's pebble and funeral share, part 5 (the trigram's test),
   the other fourteen examinations, the living household.
+- **R2p The reason the death met — built 2026-10-25** (SPEC §5.9.4,
+  §10.11): ch. 29's second examination (vol. 2, pp. 57–58, read on the
+  scan; [sources/corpus/wb/ch29.md](sources/corpus/wb/ch29.md)) as far as
+  it is settled: the outer reason by each aspect's deciding pebble white
+  or black (the notes, p. 503; the regent's reply 148), the elements' cut
+  met most often among the roots' fights where a pebble is black, and the
+  demon's cut of the la in the seventh month of the year's, month's,
+  day's and hour's animal. `DeadReckoning.cuts`, `times`, `cutMonth`,
+  `DeadCut`, `DeadTime`, families `DeadCause`, `DeadCut`, `DeadCauseTime`
+  (item R2), English and Russian. Checked: `DeadTest` (the seventh months;
+  KD's dead man of the fire horse: the year pig, the hour sheep, three
+  times without the hour; the cuts the most-met fights), `CatalogTest`,
+  `:app:testDebugUnitTest`. Not built: the reasons by the trigram and the
+  mewa (open questions 260, 272), two waters within («ཁང་ནག་བཤུས» not
+  settled).
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough

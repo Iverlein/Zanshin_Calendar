@@ -949,6 +949,25 @@ relation's) and a whole date of death (`DeadReckoning`, core
 - **The whole** (pp. 56–57): three or four of the four deciding pebbles
   black, the life was spent; three or four white, an untimely death, a
   harmful spirit carrying off one not due to die.
+- **The reason the death met** (the second examination, pp. 57–58, read
+  on the scan; ROADMAP R2p; [sources/claims/dead-cause-outer.md](sources/claims/dead-cause-outer.md),
+  [dead-cause-by-time.md](sources/claims/dead-cause-by-time.md),
+  [dead-outer-reason-colours.md](sources/claims/dead-outer-reason-colours.md)):
+  the outer reason by each aspect's deciding pebble, white or black (the
+  notes, p. 503: the first examination's own pebbles; the regent's reply
+  148: black where the enemy, a son or an inner meeting falls, white the
+  mother and friend), a speckled one with none (family `DeadCause`); where
+  a deciding pebble is black, the elements' cut met most often among the
+  roots' fights, an element met by its enemy or by itself ("iron meeting
+  its enemy fire many times within the pebbles", the notes), all those
+  tied for most, two waters within counted but not read, its words not
+  settled (`DeadReckoning.cuts`, `DeadCut`, family `DeadCut`); and by the
+  animal of the year, month, day and, where known, hour of death, the
+  demon's cut of the la in that animal's seventh month with its reason
+  and carrier, the four shown, "the one nearest in time" weighing most
+  (`DeadReckoning.times`, `cutMonth`, family `DeadCauseTime`). The
+  reasons by the trigram and by the mewa are not shown until which
+  trigram and mewa is settled (open questions 260, 272).
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four
@@ -960,13 +979,18 @@ death of 1 who have died", or what it needs); on it, for each relative who
 has died, a heading with the relation, the name and the dates, the whole
 where it holds ("The time of death · the life spent"), each aspect's
 deciding pebble ("Vitality · black", "0 places white, 4 black"), its sheet
-listing each root's pebbles, or a line for a speckled one; a line asking
+listing each root's pebbles, or a line for a speckled one; under "The
+reason the death met" each white or black aspect's reason ("Reason by the
+vitality · black"), the elements' cut ("The elements' cut · iron cut by
+fire") and each time of death ("Hour of death · sheep", "the la cut in the
+ox month"); a line asking
 for what is missing; a closing note on what is reckoned.
 
 **Not calculated** yet: the element's pebble and the funeral share (the
 fourth examination), the trigram's test of the first examination (its
-part 5: the trigram's enemy or own place, demon door and *'phung chags*), the other fourteen examinations, the
-living household.
+part 5: the trigram's enemy or own place, demon door and *'phung chags*),
+the second examination's reasons by the trigram and the mewa, the other
+thirteen examinations, the living household.
 
 #### 5.9.5 The moment
 
