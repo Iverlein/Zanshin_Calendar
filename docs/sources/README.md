@@ -523,6 +523,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | open; cites wb.2:p224-225 |
 | [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | open; cites wb.2:p236-237 |
 | [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | open; cites wb.2:p378-384 |
+| [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
 
 <!-- end pool index -->
 

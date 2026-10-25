@@ -1012,3 +1012,6 @@ Searched and found wanting, so not to be repeated:
 - **The unopened pages of ch. 31 and ch. 34 (RD56)** (RD56, 2026-10-25):
   - 2026-10-25: the mansion numerals in the brackets of pp. 380–382 and 424 (21, 22, 26, 27) were not settled syllable by syllable: Yigdzin-1 gives 21 and 22 twice and 26 is missing; the doubling is the Śravaṇa–Abhijit one white-beryl-ch34.md already notes.
   - 2026-10-25: Rāhu's «ནུ་རུ» course for the 11th and 12th in p. 237's finer form was translated from the machine reading and not checked on the scan; the join of p. 237 to p. 240 («ནོར» then «རིགས») is not settled; p. 386 (img. 394) is not in this reading.
+- **Ch. 27 on the Taikhang block (RD57)** (RD57, 2026-10-25):
+  - agy on p. 17, l. 26 (RD57, 2026-10-25): the crops of the Taikhang (I5878 img. 33, line 1, two sizes) and of the Zhol print (I1KG1710 img. 651, line 1) all answered «blocked by Gemini's filters», the line speaking of sieges and raids; not tried again.
+  - Which impression the Taikhang reproduces (RD57): not found in what the README holds on MW30116, which names a Lhasa print and the New Delhi 1972 reproduction only; no catalogue was searched for it.
