@@ -42,4 +42,27 @@ class DeadTest {
         assertEquals(7, DeadReckoning.of(1906, Gender.MALE, day, null)!!.pebbles.count { it.force == Force.LUCK })
         assertNull(DeadReckoning.of(1996, Gender.MALE, day, hour))
     }
+
+    /** The second examination (WB vol. 2, pp. 57–58): the reason by the times of death and by the elements' cuts. */
+    @Test
+    fun `the reason the death met`() {
+        // Each animal's demon cuts the la in its seventh month: the tiger in the monkey's, the ox in the sheep's (p. 58).
+        assertEquals(Animal.MONKEY, DeadReckoning.cutMonth(Animal.TIGER))
+        assertEquals(Animal.SHEEP, DeadReckoning.cutMonth(Animal.OX))
+        assertEquals(Animal.MOUSE, DeadReckoning.cutMonth(Animal.HORSE))
+        var d = LocalDate.of(1995, 10, 15)
+        while (TibetanCalendar.of(d).let { !(it.month == 9 && it.day == 4) }) d = d.plusDays(1)
+        val day = TibetanCalendar.of(d)
+        val hour = Forces.hours(Forces.signs(day).date).first { it.sign.animal == Animal.SHEEP }
+        val r = DeadReckoning.of(1906, Gender.MALE, day, hour)!!
+        // The sheet's man died in a wood pig year, at the sheep hour.
+        assertEquals(listOf(DeadTime.YEAR to Animal.PIG, DeadTime.MONTH to Forces.signs(day).month.animal), r.times.take(2))
+        assertEquals(DeadTime.HOUR to Animal.SHEEP, r.times.last())
+        assertEquals(3, DeadReckoning.of(1906, Gender.MALE, day, null)!!.times.size)
+        // His vitality's deciding pebble is black, so the cuts are read: those met most often among the fights.
+        val counts = r.pebbles.mapNotNull { p -> p.other?.let { Forces.kinship(r.year.forces[p.force], it) to r.year.forces[p.force] } }
+            .filter { it.first == Kinship.ENEMY || it.first == Kinship.IDENTITY }.groupingBy { it }.eachCount()
+        val most = counts.values.max()
+        assertEquals(counts.filterValues { it == most }.keys.map { (k, e) -> e to (k == Kinship.IDENTITY) }.toSet(), r.cuts.map { it.own to it.inner }.toSet())
+    }
 }

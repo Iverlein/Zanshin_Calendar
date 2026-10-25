@@ -16,6 +16,7 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
+import zanshin.core.tibetan.DeadCut
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BadYearPebble
@@ -467,6 +468,8 @@ object Sources {
     val WHITE_BERYL_MOMENT = whiteBeryl("chapter 30, pp. 156–162, with the notes on p. 535")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
+    /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
+    val WHITE_BERYL_DEAD_CAUSE = whiteBeryl("chapter 29, pp. 57–58, with the notes, p. 503", volume = 2)
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
     val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2159,6 +2162,19 @@ object Texts {
 
     /** The dead's course of the years, fallen on its obstacles (WB vol. 2, ch. 29, p. 56). */
     fun deadCourse(): Reading = Reading(key = "reading.DeadCourse", arg = "reading.DeadCourse.TIME", source = Sources.WHITE_BERYL_DEAD_TIME)
+
+    /** The reason the death met by [force]'s deciding pebble of colour [colour] (WB vol. 2, ch. 29, p. 57; *Removing the Tarnish*, reply 148). */
+    fun deadCause(force: Force, colour: PebbleColour): Reading = Reading(
+        key = "reading.DeadCause", arg = "reading.DeadCause.${force.name}.${colour.name}", source = Sources.WHITE_BERYL_DEAD_CAUSE,
+        also = listOf(Sources.REMOVING_THE_TARNISH),
+    )
+
+    /** The reason by the elements' cut [c] found most often among the dead's pebbles (WB vol. 2, ch. 29, p. 57; the notes, p. 503). */
+    fun deadCut(c: DeadCut): Reading = Reading(key = "reading.DeadCut", arg = "reading.DeadCut.${c.name}", source = Sources.WHITE_BERYL_DEAD_CAUSE)
+
+    /** The reason by the animal [animal] of a time of death, the demon's cut in its seventh month (WB vol. 2, ch. 29, p. 58). */
+    fun deadCauseTime(animal: Animal): Reading =
+        Reading(key = "reading.DeadCauseTime", arg = "reading.DeadCauseTime.${animal.name}", source = Sources.WHITE_BERYL_DEAD_CAUSE)
 
     /** The dead's first examination read whole [w] (WB vol. 2, ch. 29, pp. 56–57). */
     fun deadWhole(w: DeadWhole): Reading = Reading(key = "reading.DeadWhole", arg = "reading.DeadWhole.${w.name}", source = Sources.WHITE_BERYL_DEAD_TIME)

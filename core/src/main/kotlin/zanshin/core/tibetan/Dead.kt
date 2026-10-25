@@ -22,8 +22,25 @@ enum class DeadRoot { DEATH_YEAR, LOG_MEN, TRIGRAM, SME_BA, SECTOR, MONTH, DATE,
 /** The whole of the first examination (pp. 56–57): the black pebbles many, the life spent; the white many, an untimely death. */
 enum class DeadWhole { SPENT, UNTIMELY; val english: String get() = gloss(this) }
 
-/** One root's pebbles for one aspect. */
-data class DeadPebble(val root: DeadRoot, val force: Force, val pebbles: Pebbles)
+/** One root's pebbles for one aspect; [other] the root's element for the aspect, null for the rise and decline. */
+data class DeadPebble(val root: DeadRoot, val force: Force, val pebbles: Pebbles, val other: Element? = null)
+
+/**
+ * The second examination's cuts (WB vol. 2, p. 57): an element cut by its enemy, or met within by itself. The two
+ * waters' meeting within is counted but not read (its words, «ཁང་ནག་བཤུས», not settled).
+ */
+enum class DeadCut(val own: Element, val inner: Boolean) {
+    IRON_CUT(Element.IRON, false), FIRE_CUT(Element.FIRE, false), EARTH_CUT(Element.EARTH, false),
+    WATER_CUT(Element.WATER, false), WOOD_CUT(Element.WOOD, false),
+    FIRE_INNER(Element.FIRE, true), WOOD_INNER(Element.WOOD, true), WATER_INNER(Element.WATER, true),
+    IRON_INNER(Element.IRON, true), EARTH_INNER(Element.EARTH, true);
+
+    val read: Boolean get() = this != WATER_INNER
+    val english: String get() = gloss(this)
+}
+
+/** The four times of the second examination's reason by time (p. 58): the year, month, day and hour of death. */
+enum class DeadTime { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(this) }
 
 /**
  * The dead's first examination: [year] the year of age reckoning of the dead at the year of death (its present year
@@ -36,12 +53,12 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
             BasicSign.PRESENT_YEAR to DeadRoot.DEATH_YEAR, BasicSign.LOG_MEN to DeadRoot.LOG_MEN, BasicSign.TRIGRAM to DeadRoot.TRIGRAM,
             BasicSign.SME_BA to DeadRoot.SME_BA, BasicSign.SECTOR to DeadRoot.SECTOR, BasicSign.HOUR to DeadRoot.HOUR,
         )
-        year.pebbles.filter { it.basic != BasicSign.HOUR }.forEach { add(DeadPebble(roots.getValue(it.basic), it.force, it.pebbles)) }
+        year.pebbles.filter { it.basic != BasicSign.HOUR }.forEach { add(DeadPebble(roots.getValue(it.basic), it.force, it.pebbles, it.other)) }
         for ((root, sign) in listOf(DeadRoot.MONTH to month, DeadRoot.DATE to date)) Force.entries.forEach { f ->
             val own = year.forces[f]
-            add(DeadPebble(root, f, Forces.pebbles(Forces.kinship(own, sign.forces[f]), own)))
+            add(DeadPebble(root, f, Forces.pebbles(Forces.kinship(own, sign.forces[f]), own), sign.forces[f]))
         }
-        year.pebbles.filter { it.basic == BasicSign.HOUR }.forEach { add(DeadPebble(DeadRoot.HOUR, it.force, it.pebbles)) }
+        year.pebbles.filter { it.basic == BasicSign.HOUR }.forEach { add(DeadPebble(DeadRoot.HOUR, it.force, it.pebbles, it.other)) }
     }
 
     /** The places of [force] counted once each: of white alone, of black alone; a place of both colours counts for neither. */
@@ -82,7 +99,35 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
     /** The aspects whose rise and decline stands on one of the bad six stages in the year of death. */
     val badStages: List<Force> get() = year.sectors.filter { !it.sector.good }.map { it.force }
 
+    /**
+     * The second examination's cuts (p. 57; the notes, p. 503: "iron meeting its enemy fire many times within the
+     * pebbles"): over all the roots' fights, how often each element of the dead is cut by its enemy or met by itself,
+     * and those found most often; none unless a deciding pebble turned black ("where the pebbles turned black").
+     */
+    val cuts: List<DeadCut> get() {
+        if (Force.entries.none { deciding(it) == PebbleColour.BLACK }) return emptyList()
+        val counts = pebbles.mapNotNull { p ->
+            val own = year.forces[p.force]
+            when (p.other?.let { Forces.kinship(own, it) }) {
+                Kinship.ENEMY -> DeadCut.entries.first { it.own == own && !it.inner }
+                Kinship.IDENTITY -> DeadCut.entries.first { it.own == own && it.inner }
+                else -> null
+            }
+        }.groupingBy { it }.eachCount()
+        val most = counts.values.maxOrNull() ?: return emptyList()
+        return DeadCut.entries.filter { counts[it] == most }
+    }
+
+    /** The animals of the year, month, day and hour of death (p. 58), the hour where it is known. */
+    val times: List<Pair<DeadTime, Animal>> get() = listOfNotNull(
+        DeadTime.YEAR to year.present.animal, DeadTime.MONTH to month.animal, DeadTime.DAY to date.animal,
+        year.hour?.let { DeadTime.HOUR to it.sign.animal },
+    )
+
     companion object {
+        /** The month in which the demon cut the la of one who died in [animal]'s time: its seventh (p. 58). */
+        fun cutMonth(animal: Animal): Animal = Animal.entries[(animal.ordinal + 6) % 12]
+
         private val SMALL_OBSTACLES = setOf(SmeBaObstacle.HOUSE, SmeBaObstacle.BED, SmeBaObstacle.LAND, SmeBaObstacle.ROYAL_GATE)
         private val COURSE = setOf(
             HarshYear.OWN_YEAR, HarshYear.SEVENTH, HarshYear.TRIAD, HarshYear.FOURTH_UP, HarshYear.FOURTH_DOWN, HarshYear.LOG_MEN_ENEMY,
