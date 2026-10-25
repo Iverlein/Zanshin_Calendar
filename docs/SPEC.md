@@ -1088,9 +1088,21 @@ the time since dawn, the time of day ("The time of day · late afternoon", or a 
 the moment's trigram and mewa, each opening its reading, and a closing
 note on what is reckoned.
 
-**Not calculated** yet: the mewa as shapes
-and places, the asker's year fighting the moment (p. 172), the signs,
-dreams and implements, the small reckonings (pp. 163–172).
+**The later reckonings** (ROADMAP R2w, 2026-10-25; D24): by day, the
+asker's wealth, illness and harming spirit by the moment's element, which
+the notes gloss as the moment's power (p. 536) and the owner took as the
+hour's element above (pp. 168–170; [claims/moment-wealth-sick-demon.md](sources/claims/moment-wealth-sick-demon.md);
+family `MomentWealth`, its spirits, illnesses and rite as rows,
+"Wealth, illness and spirit by water"); and the moment's mewa as a
+spirit claiming its share, with the harm it sends unpaid and its rite
+(pp. 164–165; [claims/moment-mewa-spirits.md](sources/claims/moment-mewa-spirits.md);
+family `MomentSpirit`, "The spirit claiming its share · 9 red").
+
+**Not calculated** yet: the mewa as shapes, food and kin's places, the
+asker's year fighting the moment in house, field and grave (pp. 166–168,
+its branches not read clearly enough), the three mewa joined, whether
+wealth, the sick and the demon are present, the signs, dreams and
+implements, the small reckonings (pp. 163–172).
 
 #### 5.9.6 The thirteen circles
 

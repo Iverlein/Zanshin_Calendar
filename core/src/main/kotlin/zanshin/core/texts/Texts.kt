@@ -470,6 +470,8 @@ object Sources {
     val WHITE_BERYL_BIRTH_WHOLE = whiteBeryl("chapter 22, pp. 331, 338 and 349, with the notes in vol. 2, p. 484", volume = 1)
     /** The moment's trigram and mewa (ROADMAP R2o, docs/sources/reckonings.md, RD17). */
     val WHITE_BERYL_MOMENT = whiteBeryl("chapter 30, pp. 156–162, with the notes on p. 535")
+    /** The moment's later reckonings: the mewa as spirits, wealth, illness and demon by the moment's element (D24). */
+    val WHITE_BERYL_MOMENT_LATER = whiteBeryl("chapter 30, pp. 164–170, with the notes on p. 536")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
@@ -2155,6 +2157,12 @@ object Texts {
 
     /** The element [e] of the moment's hour (WB vol. 2, ch. 30, pp. 157–161). */
     fun momentElement(e: Element): Reading = Reading(key = "reading.MomentElement", arg = "reading.MomentElement.${e.name}", source = Sources.WHITE_BERYL_MOMENT)
+
+    /** The moment's mewa [n] as a spirit claiming its share, its harm and rite (WB vol. 2, ch. 30, pp. 164–165). */
+    fun momentSpirit(n: Int): Reading = Reading(key = "reading.MomentSpirit", arg = "reading.MomentSpirit.$n", source = Sources.WHITE_BERYL_MOMENT_LATER)
+
+    /** Wealth, illness and the harming spirit by the moment's element [e], the hour's power (WB vol. 2, ch. 30, pp. 168–170; D24). */
+    fun momentWealth(e: Element): Reading = Reading(key = "reading.MomentWealth", arg = "reading.MomentWealth.${e.name}", source = Sources.WHITE_BERYL_MOMENT_LATER)
 
     /** The moment's period of the day [p] (WB vol. 2, ch. 30, pp. 156–157). */
     fun momentPeriod(p: MomentPeriod): Reading = Reading(key = "reading.MomentPeriod", arg = "reading.MomentPeriod.${p.name}", source = Sources.WHITE_BERYL_MOMENT)

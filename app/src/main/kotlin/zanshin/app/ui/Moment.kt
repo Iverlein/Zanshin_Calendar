@@ -65,6 +65,17 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, onOpen: (Annotation) -> U
                 ),
                 onOpen,
             )
+            // The moment's element is the hour's power (D24): the asker's wealth, illness and harming spirit by it.
+            AnnotationRow(
+                Annotation(
+                    title = labels.string(R.string.moment_wealth_title, gloss(element, "inText")),
+                    english = "",
+                    tone = Tone.NEUTRAL,
+                    reading = Texts.momentWealth(element),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
         }
         AnnotationRow(
             Annotation(
@@ -82,6 +93,16 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, onOpen: (Annotation) -> U
                 english = "",
                 tone = Tone.NEUTRAL,
                 reading = Texts.momentMewa(mewa),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.moment_spirit_title, mewa, colour),
+                english = "",
+                tone = Tone.NEUTRAL,
+                reading = Texts.momentSpirit(mewa),
                 titleIsKanji = false,
             ),
             onOpen,

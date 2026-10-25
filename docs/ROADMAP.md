@@ -4099,6 +4099,15 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R2w The moment's later reckonings — built 2026-10-25** (SPEC §5.9.5,
+  D24): wealth, illness and harming spirit by the moment's element, the
+  hour's (pp. 168–170), and the moment's mewa as a spirit claiming its
+  share (pp. 164–165); families `MomentWealth`, `MomentSpirit` (item R2),
+  English and Russian. Checked: `CatalogTest`, `:app:testDebugUnitTest`,
+  the emulator in English and Russian with the clock set to day (water
+  hour, nine red). No release build: no enum added. Not built: the house,
+  field and grave against the asker's aspects (pp. 166–168), the three
+  mewa joined, the mewa as kin's places, the small reckonings.
 - **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
   D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
   each point from its pair in the element related to the power, counted

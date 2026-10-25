@@ -978,7 +978,9 @@
     <string name="moment_period_title">The time of day · %1$s</string>
     <string name="moment_element_title">The hour\'s element · %1$s</string>
     <string name="moment_period_night">By night the time of day has no reading of its own.</string>
-    <string name="moment_note">Of the reckoning of the moment, the time of day and its element, the trigram and the mewa are reckoned: the date\'s own at dawn, 05:00, then one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the twelve hours of day and again from the date\'s own through the night. The asker\'s year fighting the moment, and the signs and dreams are not reckoned.</string>
+    <string name="moment_note">Of the reckoning of the moment, the time of day and its element, the trigram and the mewa are reckoned: the date\'s own at dawn, 05:00, then one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the twelve hours of day and again from the date\'s own through the night. With them the asker\'s wealth, illness and harming spirit by the hour\'s element, the moment\'s, and the mewa as the spirit claiming its share. The asker\'s year fighting the moment in house, field and grave, and the signs and dreams are not reckoned.</string>
+    <string name="moment_wealth_title">Wealth, illness and spirit by %1$s</string>
+    <string name="moment_spirit_title">The spirit claiming its share · %1$d %2$s</string>
     <string name="circles_title">The thirteen circles</string>
     <string name="reckonings_circles_subtitle">Your %1$s year · %2$d white, %3$d black</string>
     <string name="circles_subtitle">%1$s · %2$s year of age · born in the %3$s year, its power %4$s</string>
