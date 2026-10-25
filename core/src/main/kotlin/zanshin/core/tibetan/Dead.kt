@@ -130,6 +130,16 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
         year.hour?.let { DeadTime.HOUR to it.sign.animal },
     )
 
+    /**
+     * The dead's trigram at death, where ch. 29 says "died on li" without saying whose: the trigram of the year of age
+     * at the year of death, the one fallen to, as the regent's reply 152 reads the tenth examination (the owner,
+     * 2026-10-25, ROADMAP D18; open question 260).
+     */
+    val trigram: Trigram get() = year.trigram!!
+
+    /** The dead's mewa at death, the mewa of the year of age at the year of death, likewise (D18; open question 272). */
+    val mewa: Int get() = year.currentSmeBa
+
     /** The day's animal of death, where the third examination names it (p. 63): the ox, tiger, snake, horse, sheep and monkey; the other days hold no good or bad. */
     val demonDay: Animal? get() = date.animal.takeIf { it in DEMON_DAYS }
 

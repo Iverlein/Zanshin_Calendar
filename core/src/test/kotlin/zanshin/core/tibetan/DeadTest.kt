@@ -67,6 +67,9 @@ class DeadTest {
         // The third examination's inputs (pp. 58–68): the weekday of death, and the day's animal only where p. 63 names it.
         assertEquals(day.weekday, r.weekday)
         assertEquals(day.mansion, r.mansion)
+        // D18: the dead's trigram and mewa at death are those of the year of age at the year of death.
+        assertEquals(r.year.trigram, r.trigram)
+        assertEquals(r.year.currentSmeBa, r.mewa)
         assertEquals(r.date.animal.takeIf { it in setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY) }, r.demonDay)
         // His vitality's deciding pebble is black, so the cuts are read: those met most often among the fights.
         val counts = r.pebbles.mapNotNull { p -> p.other?.let { Forces.kinship(r.year.forces[p.force], it) to r.year.forces[p.force] } }

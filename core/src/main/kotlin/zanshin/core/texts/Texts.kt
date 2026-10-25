@@ -2201,6 +2201,23 @@ object Texts {
     fun deadRebirthHour(r: DeadRebirth): Reading =
         Reading(key = "reading.DeadRebirthHour", arg = "reading.DeadRebirthHour.${r.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
 
+    /** The inner reason by the dead's trigram [t] at death (WB vol. 2, ch. 29, p. 58; D18). */
+    fun deadCauseTrigram(t: Trigram): Reading =
+        Reading(key = "reading.DeadCauseTrigram", arg = "reading.DeadCauseTrigram.${t.name}", source = Sources.WHITE_BERYL_DEAD_CAUSE)
+
+    /** The speckled middle reason by the dead's mewa [n] at death (WB vol. 2, ch. 29, p. 58; D18). */
+    fun deadCauseMewa(n: Int): Reading = Reading(key = "reading.DeadCauseMewa", arg = "reading.DeadCauseMewa.$n", source = Sources.WHITE_BERYL_DEAD_CAUSE)
+
+    /** The spirit that carried the dead off by its trigram [t] at death, and the rite (WB vol. 2, ch. 29, pp. 60–62; D18). */
+    fun deadDemonTrigram(t: Trigram): Reading =
+        Reading(key = "reading.DeadDemonTrigram", arg = "reading.DeadDemonTrigram.${t.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** The reading by the dead's mewa [n] at death, the devouring spirit and the rite (WB vol. 2, ch. 29, pp. 62–63; D18). */
+    fun deadDemonMewa(n: Int): Reading = Reading(key = "reading.DeadDemonMewa", arg = "reading.DeadDemonMewa.$n", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** The rebirth by the dead's mewa [n] at death, with the image that turns it (WB vol. 2, ch. 29, p. 71; D18). */
+    fun deadRebirthMewa(n: Int): Reading = Reading(key = "reading.DeadRebirthMewa", arg = "reading.DeadRebirthMewa.$n", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
+
     /** Help by virtue for one who died in [animal]'s year (WB vol. 2, ch. 29, p. 72). */
     fun deadVirtue(animal: Animal): Reading =
         Reading(key = "reading.DeadVirtue", arg = "reading.DeadVirtue.${animal.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
