@@ -208,6 +208,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-sixty-pairs.md](claims/moment-sixty-pairs.md) | claim, table | The ogre's, the demon's and the sixty-year counts cut by the moment | cites wb.2:p171-172, wb.2:p172-173; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-thirteen-gates.md](claims/moment-thirteen-gates.md) | claim, table | The thirteen gates of the General Tantra of Brahmā | cites wb.2:p170-171; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-three-mewa.md](claims/moment-three-mewa.md) | claim, table | The three mewa joined and the nine eyes | cites wb.2:p165; feeds SPEC §5.9.5, block-31 |
+| [claims/moment-trigram-start-phugpa.md](claims/moment-trigram-start-phugpa.md) | claim, rule | The moment's trigram starts as the Phugpa practice has it, not the General Tantra's halves of the year | cites ys.2:i016-017, wb.2:p535-537, wb.2:p161-162; feeds block-31 |
+| [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
@@ -308,7 +310,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 21 passages: 20 scan, 1 machine |
-| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 19 passages: 6 scan, 13 machine |
+| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 20 passages: 7 scan, 13 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 1 passages: 1 scan |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
