@@ -78,6 +78,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md) | claim, note | Ch. 27: the limb is «རུས་མིག», the bone-eye, on the reprint and the Zhol etext | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
 | [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md) | claim, note | Ch. 27: Sprugtön's sixteen limbs are sixteen pebbles beside the five verdict pebbles (75 = 50 + 16 + 5 + 4) | cites wb.2:p22-23, wb.2:p23-25, wb.2:p25; feeds block-31 |
+| [claims/ch27-taikhang-doubtful-letters.md](claims/ch27-taikhang-doubtful-letters.md) | claim, note | Ch. 27: the doubtful letters of pp. 9 and 17 on the Taikhang | cites wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p9, wb.2:p17; feeds block-31 |
+| [claims/ch27-taikhang-la-wandering.md](claims/ch27-taikhang-la-wandering.md) | claim, note | Ch. 27: the la's wandering carved on the Taikhang as on the other prints | cites wb.2:p16b, wb.2:p16-17; feeds block-31 |
+| [claims/ch27-taikhang-turtle-ten.md](claims/ch27-taikhang-turtle-ten.md) | claim, note | Ch. 27: the turtle's wood verse carves ten srin po on the Taikhang and the Zhol print | cites wb.2:p20b, wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
@@ -348,7 +351,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 28 passages: 28 scan |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 33 passages: 28 scan, 5 machine |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
