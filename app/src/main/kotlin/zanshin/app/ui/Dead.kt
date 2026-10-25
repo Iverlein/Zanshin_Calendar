@@ -111,6 +111,7 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
             CauseRows(r, onOpen)
             DemonRows(r, onOpen)
             RebirthRows(r, onOpen)
+            LaterRows(r, onOpen)
             // The thirty's points read for the dead (ROADMAP R2v): the dead's year and age at death.
             Text(stringResource(R.string.dead_thirty_head), style = muted)
             zanshin.core.tibetan.Thirty.forTheDead(r.year.birth, r.year.age).forEach { ThirtyRow(it, onOpen) }
@@ -231,5 +232,30 @@ private fun RebirthRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     row(mewaTitle(r), Texts.deadRebirthMewa(r.mewa))
     val year = r.year.present.animal
     row(labels.string(R.string.dead_virtue_title, gloss(year).lowercase()), Texts.deadVirtue(year))
+}
+
+/**
+ * The later examinations (SPEC §5.9.4, ROADMAP R2x): the ninth's provisions by the trigram of death; the tenth's
+ * nine-eye and grave-day strikes where they hold; the thirteenth's rites by the trigram, the mewa, the weekday's
+ * planet and the lunar date; the fifteenth's grave provisions by the trigram. Each rite is a Remedy row.
+ */
+@Composable
+private fun LaterRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Text(stringResource(R.string.dead_later_head), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    @Composable
+    fun row(title: String, reading: zanshin.core.texts.Reading, tone: Tone = Tone.NEUTRAL) = AnnotationRow(
+        Annotation(title = title, english = "", tone = tone, reading = reading, titleIsKanji = false),
+        onOpen,
+    )
+    val trigram = Ewts.named(r.trigram.english, r.trigram.wylie)
+    row(labels.string(R.string.dead_provisions_title, trigram), Texts.deadProvisions(r.trigram))
+    r.nineEye?.let { row(labels.string(R.string.dead_nine_eye_title, labels.ordinal(it)), Texts.deadNineEye(it), Tone.BAD) }
+    if (r.graveDay) row(stringResource(R.string.dead_grave_day_title), Texts.deadGraveDay(), Tone.BAD)
+    row(labels.string(R.string.dead_rites_trigram_title, trigram), Texts.deadRitesTrigram(r.trigram))
+    row(labels.string(R.string.dead_rites_mewa_title, r.mewa), Texts.deadRitesMewa(r.mewa))
+    r.weekday?.let { row(labels.string(R.string.dead_rites_planet_title, gloss(it, "planet")), Texts.deadRitesPlanet(it)) }
+    r.lunarDate?.let { row(labels.string(R.string.dead_rites_date_title, labels.ordinal(it)), Texts.deadRitesDate(it)) }
+    row(labels.string(R.string.dead_grave_provisions_title, trigram), Texts.deadGraveProvisions(r.trigram))
 }
 

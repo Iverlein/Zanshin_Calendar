@@ -1001,7 +1001,7 @@
     <string name="dead_mewa_title">The mewa in the year of death</string>
     <string name="dead_course_title">The course of the years</string>
     <string name="dead_course_stage">%1$s on a bad stage</string>
-    <string name="dead_note">Of the reckoning for the dead, the first three of its fifteen examinations and parts of the fifth and sixth are reckoned: whether the time of death had come, from the year, the progressed sign, the trigram, the mewa, the rise and decline, the month, the day and, where its time is known, the hour of death; the reason the death met, by the deciding pebbles, the elements\' cuts among them, the year, month, day and hour, the trigram and the mewa; which spirit carried the dead off, by the dead\'s year, the day, the weekday, the mansion, the trigram, the mewa and the hour; the rebirth by the day, the hour and the mewa, and help by virtue by the year of death. The trigram and the mewa of death are those of the year of age at the year of death, the ones fallen to. The planet and the mansion, fought by element, the rebirth by the deciding pebble and the aspects, and the other examinations are not reckoned.</string>
+    <string name="dead_note">Of the reckoning for the dead\'s fifteen examinations these are reckoned: whether the time of death had come; the reason the death met; which spirit carried the dead off; where it is reborn and help by virtue; the corpse\'s and the grave\'s provisions; the nine-eye and grave-day strikes; and the rites by the trigram, the mewa, the planet and the date, each from the dead\'s birth year and the date and, where known, the hour of death. The trigram and the mewa of death are those of the year of age at the year of death, the ones fallen to. The planet and the mansion fought by element, the funeral share, the rebirth by the deciding pebble, the strikes that need the household, and the observed signs are not reckoned.</string>
     <string name="dead_cause_head">The reason the death met</string>
     <string name="dead_cause_title">Reason by the %1$s</string>
     <string name="dead_cut_title">The elements\' cut</string>
@@ -1016,6 +1016,15 @@
     <string name="dead_rebirth_head">Where the dead is reborn, and help by virtue</string>
     <string name="dead_virtue_title">Help by virtue · died in the %1$s year</string>
     <string name="dead_thirty_head">The thirty starting points for the dead</string>
+    <string name="dead_later_head">Provisions, strikes and rites</string>
+    <string name="dead_provisions_title">The corpse\'s provisions · %1$s</string>
+    <string name="dead_nine_eye_title">The nine-eye strike · %1$s year of age</string>
+    <string name="dead_grave_day_title">The grave-day strike</string>
+    <string name="dead_rites_trigram_title">Rites for a death on %1$s</string>
+    <string name="dead_rites_mewa_title">The wheel for a death on mewa %1$d</string>
+    <string name="dead_rites_planet_title">The wheel for a death on the day of %1$s</string>
+    <string name="dead_rites_date_title">Death on the %1$s date</string>
+    <string name="dead_grave_provisions_title">The grave\'s provisions · %1$s</string>
     <string name="birth_subtitle">%1$s · born in the %2$s year, life force (སྲོག, srog) %3$s</string>
     <string name="birth_section_natal">The natal trigram</string>
     <string name="birth_section_parents">The parents\' trigrams</string>

@@ -4099,6 +4099,20 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R2x The dead's provisions, strikes and rites — built 2026-10-25**
+  (SPEC §5.9.4, D18): the ninth and fifteenth examinations' provisions by
+  the trigram of death, the tenth's nine-eye and grave-day strikes, the
+  thirteenth's rites by trigram, mewa, planet and lunar date;
+  `DeadReckoning.lunarDate`, `monthNumber`, `nineEye`, `graveDay`, eight
+  families (item R2), English and Russian, the texts written by a
+  subagent from the claims. Checked: `DeadTest` (the grave day by the
+  Chinese seasons, no nine-eye at 90), `CatalogTest`,
+  `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
+  father: earth trigram, mewa 3, Venus's day, the 4th). No release build:
+  no enum added. Not built: the old dead's kinds by age and
+  the mansions' portents (gaps in their tables), the strikes that need the
+  household, the death's eye, the funeral share and feast, the remains'
+  roads and earth lords.
 - **R2w The moment's later reckonings — built 2026-10-25** (SPEC §5.9.5,
   D24): wealth, illness and harming spirit by the moment's element, the
   hour's (pp. 168–170), and the moment's mewa as a spirit claiming its

@@ -1015,6 +1015,24 @@ relation's) and a whole date of death (`DeadReckoning`, core
   element's pebble), by the aspects and by the stage of rise and decline (whose, not
   said), by the manner of dying (observed, not reckoned).
 
+- **Provisions, strikes and rites** (the later examinations; ROADMAP R2x,
+  2026-10-25; the claims dead-provisions-by-trigram, dead-strike-nine-eye,
+  dead-strike-grave-days, dead-rites-by-trigram, -mewa, -planet, -date,
+  dead-grave-provisions-by-trigram): the ninth examination's provisions
+  laid with the corpse by the trigram of death (p. 75); the tenth's
+  nine-eye strike where the dead's year of age is a multiple of nine to
+  the 81st (pp. 87–88) and its grave-day strike on the 6th of a season's
+  first month, the 16th of its middle and the 26th of its last by the
+  Chinese seasons (p. 88; `DeadReckoning.nineEye`, `graveDay`); the
+  thirteenth's rites for a death on the trigram, the mewa, the weekday's
+  planet and the lunar date (pp. 104–119); and the fifteenth's grave
+  provisions by the trigram (pp. 129–132); families `DeadProvisions`,
+  `DeadNineEye`, `DeadGraveDay`, `DeadRitesTrigram`, `DeadRitesMewa`,
+  `DeadRitesPlanet`, `DeadRitesDate`, `DeadGraveProvisions`, each rite a
+  Remedy row, no spell written out. The old dead's nine kinds by age and
+  the mansions' portents are not shown: their tables leave ages and
+  mansions unnamed.
+
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four
 the colours here give its four deciding pebbles, which `DeadTest` holds;
