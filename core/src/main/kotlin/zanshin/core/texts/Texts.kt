@@ -17,6 +17,7 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.DeadCut
+import zanshin.core.tibetan.DeadRebirth
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.BirthReckoning
 import zanshin.core.tibetan.BadYearPebble
@@ -472,6 +473,8 @@ object Sources {
     val WHITE_BERYL_DEAD_CAUSE = whiteBeryl("chapter 29, pp. 57–58, with the notes, p. 503", volume = 2)
     /** The dead's third examination, which demon carried the dead off (ch. 29, pp. 58–68; the notes, p. 503). */
     val WHITE_BERYL_DEAD_DEMON = whiteBeryl("chapter 29, pp. 58–68, with the notes, p. 503", volume = 2)
+    /** The dead's fifth and sixth examinations, the rebirth and help by virtue (ch. 29, pp. 70–72). */
+    val WHITE_BERYL_DEAD_REBIRTH = whiteBeryl("chapter 29, pp. 70–72", volume = 2)
     /** The hundred pebbles' deciding pebbles (ROADMAP R2m, docs/sources/claims/birth-hundred-board.md). */
     val WHITE_BERYL_HUNDRED = whiteBeryl("chapter 22, pp. 261 and 329–331, with the notes in vol. 2, p. 475", volume = 1)
     /** The four of rise and decline at the birth (ROADMAP R2, docs/sources/year-of-life.md). */
@@ -2189,6 +2192,18 @@ object Texts {
     /** The mansion [m] of death: the cause or carrier, who is at risk, and what is laid on the corpse (WB vol. 2, ch. 29, pp. 65–66). */
     fun deadDemonMansion(m: Mansion): Reading =
         Reading(key = "reading.DeadDemonMansion", arg = "reading.DeadDemonMansion.${m.name}", source = Sources.WHITE_BERYL_DEAD_DEMON)
+
+    /** The dead's former and next life by the day's animal [animal] of death (WB vol. 2, ch. 29, p. 71). */
+    fun deadRebirthDay(animal: Animal): Reading =
+        Reading(key = "reading.DeadRebirthDay", arg = "reading.DeadRebirthDay.${animal.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
+
+    /** The realm [r] the dead is born into by the hour of death (WB vol. 2, ch. 29, p. 71). */
+    fun deadRebirthHour(r: DeadRebirth): Reading =
+        Reading(key = "reading.DeadRebirthHour", arg = "reading.DeadRebirthHour.${r.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
+
+    /** Help by virtue for one who died in [animal]'s year (WB vol. 2, ch. 29, p. 72). */
+    fun deadVirtue(animal: Animal): Reading =
+        Reading(key = "reading.DeadVirtue", arg = "reading.DeadVirtue.${animal.name}", source = Sources.WHITE_BERYL_DEAD_REBIRTH)
 
     /** The hour of death, of [animal]: the month the life was cut, the devouring spirit and its rite (WB vol. 2, ch. 29, pp. 66–68). */
     fun deadDemonHour(animal: Animal): Reading =

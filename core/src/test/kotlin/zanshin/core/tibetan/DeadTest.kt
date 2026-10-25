@@ -50,6 +50,11 @@ class DeadTest {
         assertEquals(Animal.MONKEY, DeadReckoning.cutMonth(Animal.TIGER))
         assertEquals(Animal.SHEEP, DeadReckoning.cutMonth(Animal.OX))
         assertEquals(Animal.MOUSE, DeadReckoning.cutMonth(Animal.HORSE))
+        // The fifth examination's hours (p. 71): two to a realm, the hare and tiger gods, the monkey and bird hell.
+        assertEquals(DeadRebirth.entries.toSet(), Animal.entries.map(DeadReckoning::rebirthByHour).toSet())
+        DeadRebirth.entries.forEach { r -> assertEquals(2, Animal.entries.count { DeadReckoning.rebirthByHour(it) == r }) }
+        assertEquals(DeadRebirth.GOD, DeadReckoning.rebirthByHour(Animal.TIGER))
+        assertEquals(DeadRebirth.HELL, DeadReckoning.rebirthByHour(Animal.BIRD))
         var d = LocalDate.of(1995, 10, 15)
         while (TibetanCalendar.of(d).let { !(it.month == 9 && it.day == 4) }) d = d.plusDays(1)
         val day = TibetanCalendar.of(d)

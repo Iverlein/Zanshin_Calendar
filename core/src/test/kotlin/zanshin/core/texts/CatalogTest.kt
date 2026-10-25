@@ -64,6 +64,7 @@ import zanshin.core.tibetan.DpalByur
 import zanshin.core.tibetan.BirthSet
 import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.DeadCut
+import zanshin.core.tibetan.DeadRebirth
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.HundredKin
 import zanshin.core.tibetan.MomentPeriod
@@ -224,6 +225,8 @@ class CatalogTest {
         listOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY).forEach { out += Texts.deadDemonDay(it) }
         Weekday.entries.forEach { out += Texts.deadDemonWeekday(it) }
         Mansion.entries.forEach { out += Texts.deadDemonMansion(it) }
+        Animal.entries.forEach { out += Texts.deadRebirthDay(it); out += Texts.deadVirtue(it) }
+        DeadRebirth.entries.forEach { out += Texts.deadRebirthHour(it) }
         Trigram.entries.forEach { out += Texts.momentTrigram(it) }
         (1..9).forEach { out += Texts.momentMewa(it) }
         MomentPeriod.entries.forEach { out += Texts.momentPeriod(it) }
@@ -587,7 +590,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

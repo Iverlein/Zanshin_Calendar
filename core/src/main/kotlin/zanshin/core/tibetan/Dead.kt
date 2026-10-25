@@ -15,7 +15,8 @@ import zanshin.core.texts.gloss
  * place counted once by its colour, as the notes count the year of age (p. 490), and each aspect's deciding pebble
  * lies on the more. Its sixth and seventh tests read the year of age's mewa obstacles and course at the year of death.
  * The second examination reads the reason the death met (pp. 57–58), the third which demon carried it off (pp. 58–68)
- * by the dead's year animal, the day's animal, the weekday, the mansion and the hour of death.
+ * by the dead's year animal, the day's animal, the weekday, the mansion and the hour of death; the fifth the rebirth by
+ * the day's animal and the hour (pp. 70–72), the sixth help by virtue by the year of death (p. 72).
  */
 
 /** The roots of the dead's pebbles (the notes, vol. 2, p. 500), in the notes' order, the planet and mansion left out. */
@@ -40,6 +41,9 @@ enum class DeadCut(val own: Element, val inner: Boolean) {
     val read: Boolean get() = this != WATER_INNER
     val english: String get() = gloss(this)
 }
+
+/** The six kinds of birth the fifth examination reads (p. 71). */
+enum class DeadRebirth { GOD, ASURA, HUMAN, ANIMAL, HUNGRY_GHOST, HELL; val english: String get() = gloss(this) }
 
 /** The four times of the second examination's reason by time (p. 58): the year, month, day and hour of death. */
 enum class DeadTime { YEAR, MONTH, DAY, HOUR; val english: String get() = gloss(this) }
@@ -131,6 +135,19 @@ data class DeadReckoning(val year: YearReckoning, val month: Sign, val date: Sig
 
     companion object {
         private val DEMON_DAYS = setOf(Animal.OX, Animal.TIGER, Animal.SNAKE, Animal.HORSE, Animal.SHEEP, Animal.MONKEY)
+
+        /**
+         * The rebirth by the double hour of death (p. 71): the hare and tiger, gods; dragon and ox, asuras; snake and
+         * mouse, humans; horse and pig, animals; sheep and dog, hungry ghosts; monkey and bird, hell.
+         */
+        fun rebirthByHour(animal: Animal): DeadRebirth = when (animal) {
+            Animal.RABBIT, Animal.TIGER -> DeadRebirth.GOD
+            Animal.DRAGON, Animal.OX -> DeadRebirth.ASURA
+            Animal.SNAKE, Animal.MOUSE -> DeadRebirth.HUMAN
+            Animal.HORSE, Animal.PIG -> DeadRebirth.ANIMAL
+            Animal.SHEEP, Animal.DOG -> DeadRebirth.HUNGRY_GHOST
+            Animal.MONKEY, Animal.BIRD -> DeadRebirth.HELL
+        }
 
         /** The month in which the demon cut the la of one who died in [animal]'s time: its seventh (p. 58). */
         fun cutMonth(animal: Animal): Animal = Animal.entries[(animal.ordinal + 6) % 12]
