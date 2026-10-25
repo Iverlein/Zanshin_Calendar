@@ -1,13 +1,14 @@
 ---
-description: The app, the engines and the CLI — kanji gloss on tap, font rebuilds for new kanji, calendar changes need a vector, emulator-only testing and the tools in tools/emulator/
+description: The app, the engines and the CLI — kanji gloss on tap, font rebuilds for new kanji, calendar changes need a vector, emulator-only testing and the tools in tools/emulator/, drawing cue glyphs
 trigger: glob
-globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/tools/subset_fonts.py'
+globs: '**/app/**, **/core/**, **/cli/**, **/tools/emulator/**, **/tools/subset_fonts.py, **/tools/glyph_sheet.py'
 paths:
 - app/**
 - core/**
 - cli/**
 - tools/emulator/**
 - tools/subset_fonts.py
+- tools/glyph_sheet.py
 ---
 
 # The app, the engines and the CLI
@@ -42,6 +43,13 @@ paths:
   rebuild: its script is generated from the Wylie at run time
   (`core/.../tibetan/Ewts.kt`) and the Noto Serif Tibetan subset keeps the
   whole Tibetan block (`subset_fonts.py --tibetan`).
+- **Draw a glyph and look at it.** Cue glyphs (`ui/CueGlyphs.kt`, SPEC
+  §10.7) are paths on a 24-unit grid, stroke 1.4, round caps, inside 2.5
+  to 21.5. `tools/glyph_sheet.py --out X.png` renders the work glyphs
+  beside their families' (`--set family|animal`, `--only A,B`, `--dark`),
+  large and at 22 px; look at every new one at 22 px before building. A
+  work gets its own glyph (`CueGlyphs.WORK`) only where its family's
+  draws it badly; the In brief row keeps the families.
 - **Calendar changes need a vector**, not only a passing build. The 2033
   leap-month choice is a named constant in `Kyureki.kt`, citing the 暦文協's
   2015 recommendation of 閏11月; the general intercalation rule stays open

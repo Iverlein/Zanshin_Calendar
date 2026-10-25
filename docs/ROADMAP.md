@@ -115,6 +115,7 @@ moves up as soon as it is unblocked.
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 | <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
+| <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
 
 ## Readings
 
@@ -4454,6 +4455,30 @@ groups it shows (`tools/emulator/store_shots.py`).
   moves but the strip's labels and the dial's 20 dp. The release build
   checked at 2.0 and in landscape (names, no raw keys). Store shots 1–5
   and 8 retaken in both languages (the strip's labels).
+
+### <a id="a3"></a>A3. Glyphs of their own for the works — built 2026-10-25 (SPEC §10.7)
+
+- **Gap.** Every work was drawn by its family's glyph, 180 works on 38
+  glyphs: the breakdown showed the throne-less roof frame before
+  "climbing high" and "pitching tents", the feast cup before "games" and
+  "horse racing", the horseshoe before "raising dogs" and "dairy work",
+  the meditating figure before "haste" and "careless words", the book
+  before "astrology and divination" and "learning music or dance", the
+  gourd before "surgery" and "visiting the sick", the mala before
+  "mantras" and "prostrations".
+- **Work.** A glyph per work where its family's fits badly, drawn in the
+  same style; the families stay what the In brief row counts and shows.
+- **Block.** [59](#block-59); no reading.
+- **Built** 2026-10-25 (`CueGlyphs.WORK`, `CueGlyphs.of(Activity)`): 53
+  works with 47 drawings, listed in SPEC §10.7; the dog's and the ox's
+  heads, the wind and the smoke offering reused from the animals, the
+  elements and the festivals. The breakdown, the election's work list
+  (the search results and the rows outside a family) and the election's
+  heading draw a work by its own glyph. `CueGlyphsTest` holds that each
+  parses and differs from its family's; `tools/glyph_sheet.py` (new)
+  renders every work glyph beside its family's, large and at 22 px.
+  Checked on the emulator: a Tibetan day's breakdown and the election's
+  picker and result.
 
 ## Widget and notices
 

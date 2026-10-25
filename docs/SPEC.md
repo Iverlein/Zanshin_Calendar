@@ -3486,7 +3486,29 @@ last tapped, today's at first (§10.1: every kanji shows its English on tap).
   *Tibetan Elemental Divination Paintings*, 2001, glossary, *burnt
   offerings*, after Klong chen pa and Beyer, *The Cult of Tārā*, pp.
   264–275). The rites' vajra is drawn upright, as it read as a chain of rings
-  at 22 dp. The breakdown puts each activity's family glyph before it.
+  at 22 dp. The breakdown puts each activity's glyph before it, and the
+  election's work list and its result show it too: the family's glyph, or
+  the work's own where the family's draws it badly (`CueGlyphs.WORK`, 53
+  works with 47 drawings, ROADMAP A3, built 2026-10-25): gifts for
+  betrothal gifts and dowries; a horse at the gallop, a mask, a die and
+  the endless knot among the celebrations; a hammer, a ladder, a stone
+  wall, a tent, a needle and a clay stove among the building works; a dam;
+  an axe by a tree, a sickle and a rice bale among the field works; the
+  dog's and the ox's heads and a butter churn among the livestock; an open
+  hand with a coin for giving out and with a heart for helping others, a
+  cart for moving goods; two speech bubbles for consultations and
+  negotiations, a horn for announcements; the moon and a star for
+  astrology and divination, notes for music and dance, the wheel for
+  teaching and hearing the dharma; needles, a scalpel, a lancet by a
+  drop, a sickbed and a mortar among the medical works; joined palms for
+  prostrations, an amulet box, a pecha, a prayer wheel, the smoke offering
+  of the festivals, a victory banner, a fire in its hearth for fire
+  offerings, a rain cloud, the vase of empowerment, a necklace, an incense
+  stick, a barrel, a bow, a poison flask, a stopwatch, a jagged word, a
+  heaped bowl, a mountain for lasting work and the wind for work on the
+  move. The In brief row keeps the families, since it stands for them. A
+  test holds that every work glyph parses and differs from its family's;
+  `tools/glyph_sheet.py` draws them beside their families' to look at.
 - **In brief line.** Both pages alike (ROADMAP U16, built 2026-10-11): one
   row of glyphs, the families named good, then those to avoid, each side
   under its word and its count in its tone ("good 53", "avoid 36"; on the
