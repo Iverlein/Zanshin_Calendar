@@ -469,6 +469,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0393.md](questions/q0393.md) | question q393 | «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck | open; cites wb.2:p483 |
 | [questions/q0394.md](questions/q0394.md) | question q394 | Whether «མཐུན་གསུམ་རང་དང་ལྔ་འཛོམ་ན» counts the sick person's own triad | open; cites wb.1:p445 |
 | [questions/q0395.md](questions/q0395.md) | question q395 | Where the day of falling ill turns at night | open; cites wb.1:p428-429 |
+| [questions/q0396.md](questions/q0396.md) | question q396 | A white enemy pebble in the karma reckoning: good or bad | open; cites ut:p153-155, wb.1:p329-331, wb.2:p483 |
+| [questions/q0397.md](questions/q0397.md) | question q397 | The son text that lays a trigram pebble in the household round | open; cites lt:p20-25 |
+| [questions/q0398.md](questions/q0398.md) | question q398 | The Spor thang sheet of seven members: fold, leftovers and colours | open; cites kd.3:p726, wb.2:p490-491 |
 
 <!-- end pool index -->
 
