@@ -107,6 +107,7 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
             )
             CauseRows(r, onOpen)
             DemonRows(r, onOpen)
+            RebirthRows(r, onOpen)
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }
@@ -184,5 +185,27 @@ private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     r.weekday?.let { row(labels.string(R.string.dead_demon_weekday, gloss(it, "inText")), Texts.deadDemonWeekday(it)) }
     r.mansion?.let { row(labels.string(R.string.dead_demon_mansion, it.english), Texts.deadDemonMansion(it)) }
     r.year.hour?.let { h -> row(labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), Texts.deadDemonHour(h.sign.animal)) }
+}
+
+/**
+ * The fifth and sixth examinations (SPEC §5.9.4, ROADMAP R2s): the rebirth by the day's animal of death and, where
+ * the hour is known, by the hour; then help by virtue by the year of death, its texts and works a Remedy row.
+ */
+@Composable
+private fun RebirthRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Text(stringResource(R.string.dead_rebirth_head), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    @Composable
+    fun row(title: String, reading: zanshin.core.texts.Reading) = AnnotationRow(
+        Annotation(title = title, english = "", tone = Tone.NEUTRAL, reading = reading, titleIsKanji = false),
+        onOpen,
+    )
+    row(labels.string(R.string.dead_time_title, DeadTime.DAY.english.replaceFirstChar(Char::uppercase), gloss(r.date.animal).lowercase()), Texts.deadRebirthDay(r.date.animal))
+    r.year.hour?.let { h ->
+        val realm = DeadReckoning.rebirthByHour(h.sign.animal)
+        row(labels.string(R.string.birth_share_title, labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), realm.english), Texts.deadRebirthHour(realm))
+    }
+    val year = r.year.present.animal
+    row(labels.string(R.string.dead_virtue_title, gloss(year).lowercase()), Texts.deadVirtue(year))
 }
 

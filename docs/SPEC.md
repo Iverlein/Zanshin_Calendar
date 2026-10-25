@@ -990,6 +990,21 @@ relation's) and a whole date of death (`DeadReckoning`, core
   where the spirit came from and whom it goes to (pp. 66–68, family
   `DeadDemonHour`). Each rite is a Remedy row; the words the text leaves
   unexplained stay in the topic files.
+- **Where the dead is reborn, and help by virtue** (the fifth and sixth
+  examinations, pp. 70–72, read on the scan; ROADMAP R2s;
+  [claims/dead-rebirth-by-day-and-hour.md](sources/claims/dead-rebirth-by-day-and-hour.md),
+  [dead-virtue-by-year.md](sources/claims/dead-virtue-by-year.md)): by the
+  day's animal of death, the life before and the life after (family
+  `DeadRebirthDay`); by the hour of death where known, the realm, two
+  hours to each of the six (`DeadReckoning.rebirthByHour`, `DeadRebirth`,
+  family `DeadRebirthHour`), the four lower with WB's closing counsel to
+  strive at virtue as their Remedy row; and by the year of death, the
+  texts and works of help by virtue as a Remedy row, with WB's own word
+  that the list has no pure, certain source (family `DeadVirtue`). Not
+  shown: the rebirth's deciding pebble (its twelve roots need the
+  element's pebble), by the mewa of death (which mewa, open question
+  272), by the aspects and by the stage of rise and decline (whose, not
+  said), by the manner of dying (observed, not reckoned).
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
 four places only, the year, month, day and hour of death; on those four
@@ -1007,7 +1022,9 @@ vitality · black"), the elements' cut ("The elements' cut · iron cut by
 fire") and each time of death ("Hour of death · sheep", "the la cut in the
 ox month"); under "Which spirit carried the dead off" the dead's year
 ("Born in the horse year"), the day where it is named, the weekday ("Died
-on a Tuesday"), the mansion ("Died under Kṛttikā") and the hour; a line asking
+on a Tuesday"), the mansion ("Died under Kṛttikā") and the hour; under "Where the dead is reborn, and
+help by virtue" the day, the hour with its realm ("Hour of death · sheep ·
+a hungry ghost") and the year's help by virtue; a line asking
 for what is missing; a closing note on what is reckoned.
 
 **Not calculated** yet: the element's pebble and the funeral share (the
@@ -1015,7 +1032,8 @@ fourth examination), the trigram's test of the first examination (its
 part 5: the trigram's enemy or own place, demon door and *'phung chags*),
 the second examination's reasons by the trigram and the mewa, the third's
 spirits by the trigram and the mewa and by the weekday's
-planet's state, the other twelve examinations, the living household.
+planet's state, the fifth's other parts, the other examinations from the
+fourth and the seventh on, the living household.
 
 #### 5.9.5 The moment
 

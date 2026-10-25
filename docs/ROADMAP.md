@@ -4037,6 +4037,17 @@ groups it shows (`tools/emulator/store_shots.py`).
   same day**: the 27 mansions' entries (pp. 65–66; Abhijit's not reached,
   the calendar counting 27), `DeadReckoning.mansion`, family
   `DeadDemonMansion`, English and Russian; checked as R2q.
+- **R2s Where the dead is reborn, and help by virtue — built 2026-10-25**
+  (SPEC §5.9.4): the fifth examination by the day's animal and the hour
+  of death, the sixth by the year of death (vol. 2, pp. 70–72, read on
+  the scan; [sources/corpus/wb/ch29-funeral.md](sources/corpus/wb/ch29-funeral.md)),
+  `DeadReckoning.rebirthByHour`, `DeadRebirth`, families
+  `DeadRebirthDay`, `DeadRebirthHour`, `DeadVirtue` (item R2), English and
+  Russian. Checked: `DeadTest` (two hours to each realm), `CatalogTest`,
+  `:app:testDebugUnitTest`. Not built: the rebirth's deciding pebble (the
+  element's pebble, also the fourth examination's funeral share, is not
+  yet reckoned), by the mewa (open question 272), by the aspects and the
+  stage (whose not said).
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough
