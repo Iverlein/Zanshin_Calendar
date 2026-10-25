@@ -1005,3 +1005,7 @@ Searched and found wanting, so not to be repeated:
 - **The plank-tree's offering line (RD55)** (RD55, 2026-10-25):
   - 2026-10-25, BDRC full-text search: «བསྔོ་རུ་མ་བཏུབ» (7 etexts), «བསྔོ་མ་བཏུབ» (5), «བསྔོར་མ་བཏུབ» (KD only), also with «ཅེས» or «ཞེས» and the variants «བསྔོ་རུ་མི་བཏུབ», «བསྔོ་མི་བཏུབ», «བསྔོ་མ་བཏུབ་པ»: every hit is the verse itself, copied; none is a gloss.
   - 2026-10-25, the etexts of YS I5875, WB2 vol. 2, UT I4767, LT, ZG, the Bhutan collection and the Gser thang vols. 1 and 2: «བསྔོ་རུ», «བསྔོ་མ་བཏུབ», «བསྔོར» and «སྔོ་བགྲང» have no hit other than the verse and the notes' own line; Steinert's dictionaries were not consulted (the clone is not on this machine); YS I5876 and the Zhol blocks for pp. 423–425 (img. 559–562) were not read.
+- **The circles' verdicts (RD54)** (RD54, 2026-10-25):
+  - 2026-10-25, a second print's reading of «རུས་མིག»: the Sakya etext (VEIE0OPI0BA3A0E0) answers 403; the Zhol scan (WBZ img. 657) does not tell ra from da at the crops' size; the Taikhang reproduction was not opened.
+  - 2026-10-25, a worked example of the meadow's ornament in Mipham's notes: none beyond the three lines of pp. 533–534; pp. 535–538 do not speak to it.
+  - 2026-10-25, a note on Sprugtön's limbs or on «རྡེལ་ཁྲ» in the notes, pp. 532–538: none.

@@ -2668,6 +2668,7 @@ the text, not about the app.
      the seventh check's two pebbles, the living's and the dead's, when
      they differ? [verdicts.md](verdicts.md), "The verdicts of the dead,
      the thirty, the circles and the moment" (RD23).
+     *Narrowed 2026-10-25 (RD54, [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md)): the scan reads «རྡེལ་ཁྲ» (Yigdzin-1 «རྡེའུ་ཁྲ»); with the next line's «རྡེའུ་ཐམས་ཅད་ནག» it matches the 26th point's speckled and black kinds, so it reads as the mixed board of the eight checks against the all-black board, not only the seventh check's pair: likely, not proved.*
 216. **The meadow's ornament's five verdicts (WB vol. 2, p. 22).**
      Are the five verdicts of each twenty-five one for each aspect (life
      force, body, power, luck, mewa) over the five years, or one for
@@ -2675,12 +2676,14 @@ the text, not about the app.
      verdicts of the dead, the thirty, the circles and the moment"
      (RD23).
      *Narrowed 2026-10-22 ([corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md#kd-3-p723), on the lent scan): Kun dga' rig 'dzin's worked sheet (KD vol. 3, p. 723) lays each group as one year's own five, life force, body, destiny, luck and mewa, as columns against the reckoned person's five as rows, and one verdict under each column; Mipham's notes (vol. 2, p. 534) take a group's five as the five years of one animal. Which the app follows, and how the verdicts fall under the notes' reading, is open; Mipham ranks above KD (sources rule).*
+     *Narrowed 2026-10-25 (RD54, [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md)): Mipham (WB vol. 2, pp. 533–534) calls each group the five of one animal and puts five verdicts after each twenty-five; KD's golden-round sheet (p. 723) has a verdict cell under each of the twenty columns. Both lay one verdict under each of a group's five, not one per aspect of the reckoned person; they differ on what the five are (one year's forces in KD, five of an animal in Mipham, who ranks higher).*
 217. **Sprugtön's sixteen limbs (WB vol. 2, p. 23).**
      In Sprugtön's reckoning, are the sixteen limbs' pebbles counted
      into the five verdicts of the life force, body, power, luck and la,
      or given a verdict of their own («ཁ་དམར་སྤྱི་ལྟར་གདགས»)?
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
+     *Narrowed 2026-10-25 (RD54, [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md)): the colophon's 75 pebbles = 50 roots + 16 limbs + 5 verdict pebbles + 4 cherished, so the limbs are sixteen pebbles beside the five verdicts, not counted into them; this rests on the sum and the order, no sentence states it, the notes are silent.*
 218. **«ཁང་གྲངས» or «རྐང་གྲངས» (WB vol. 2, p. 22, l. 24).**
      «ཁང[?]་གྲངས»: is it «ཁང་གྲངས» or «རྐང་གྲངས», and what are the three
      sizes, «རྒྱས་འབྲིང་རྣམ་པ་གསུམ»? [verdicts.md](verdicts.md), "The
@@ -2693,6 +2696,7 @@ the text, not about the app.
      [verdicts.md](verdicts.md), "The verdicts of the dead, the thirty,
      the circles and the moment" (RD23).
      *Answered 2026-10-23 (RD38, [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22-23)): the reprint reads «རུས་མིག» at both places (img. 28, l. 26; img. 29, l. 8), the ra set against the da of «དུར» beside it.*
+     *Narrowed 2026-10-25 (RD54, [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md)): «རུས་མིག» stands on the reprint (both places) and in the Zhol etext (OCR), and the Zhol p. 525 verse «སྤར་ཁ་རང་གི་ལོ་ཐོག་ཕྱིན། དེ་ལ་རུས་མིག་ཞེས་བྱ་སྟེ…» names the same limb; the Zhol scan does not settle ra against da.*
 220. **«ཁྱུད་སྐོར» (WB vol. 2, p. 23, l. 2).**
      «སོ་སོའི་དར། ཁྱུད་སྐོར»: is «ཁྱུད» a slip for «གུད», the rounds of
      rise and decline? [verdicts.md](verdicts.md), "The verdicts of the
@@ -2731,6 +2735,7 @@ the text, not about the app.
      gives ch. 27's five verdicts by domain, and may it stand for ch.
      24? [verdicts.md](verdicts.md), "Dharmaśrī's *Moonbeams*: how the
      abridgement orders and closes a reckoning" (RD27).
+     *Narrowed 2026-10-25 (RD54, [claims/dz-five-totals-and-ch27-domains.md](claims/dz-five-totals-and-ch27-domains.md)): the *Moonbeams*' five totals pair aspect and domain as WB ch. 27 does (life, illness, merit, demons and curses match); the third is «ཟ་ཐང» food for the power in DZ and «དབང་ནོར» power and wealth in WB; WB nowhere names a gathering into five totals for ch. 24.*
 226. **The fifth pebble's trigram (WB vol. 1, p. 435, ll. 16–17, img. 445).**
      «རང་ཟླར་ཚེས་པའི་སྤར་ཁ་ཡིན»: is the trigram of the fifth pebble "the
      trigram of the date in its own month", and how is the tiger, horse
