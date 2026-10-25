@@ -16,10 +16,13 @@ import zanshin.app.LocalLabels
 import zanshin.app.Person
 import zanshin.app.Relative
 import zanshin.core.kyureki.Tone
+import zanshin.core.texts.Catalog
 import zanshin.core.texts.Texts
 import zanshin.core.texts.gloss
 import zanshin.core.tibetan.DeadReckoning
 import zanshin.core.tibetan.DeadTime
+import zanshin.core.tibetan.Ewts
+import zanshin.core.tibetan.SME_BA_COLOURS
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.PebbleColour
@@ -113,10 +116,22 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
     }
 }
 
+/** "Trigram of death · lake (དྭ, dwa)": the dead's descended trigram at death (ROADMAP D18). */
+@Composable
+private fun trigramTitle(r: DeadReckoning): String =
+    stringResource(R.string.birth_share_title, stringResource(R.string.dead_trigram_title), Ewts.named(r.trigram.english, r.trigram.wylie))
+
+/** "Mewa of death · 8 white": the dead's descended mewa at death (ROADMAP D18). */
+@Composable
+private fun mewaTitle(r: DeadReckoning): String = stringResource(
+    R.string.birth_share_title, stringResource(R.string.dead_mewa_of_death),
+    "${r.mewa} " + Catalog.text("Colour.${SME_BA_COLOURS[r.mewa - 1]}"),
+)
+
 /**
  * The second examination (SPEC §5.9.4, ROADMAP R2p): the reason the death met, by each aspect's deciding pebble
  * white or black, by the elements' cut met most often among the pebbles, and by the animal of the year, month, day and
- * hour of death, the nearest in time last. The reasons by the trigram and the mewa wait on which of them is meant.
+ * hour of death, the nearest in time last; the inner reason by the trigram and the middle one by the mewa at death (D18).
  */
 @Composable
 private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
@@ -150,6 +165,9 @@ private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
             onOpen,
         )
     }
+    for ((title, reading) in listOf(trigramTitle(r) to Texts.deadCauseTrigram(r.trigram), mewaTitle(r) to Texts.deadCauseMewa(r.mewa))) {
+        AnnotationRow(Annotation(title = title, english = "", tone = Tone.NEUTRAL, reading = reading, titleIsKanji = false), onOpen)
+    }
     r.times.forEach { (time, animal) ->
         AnnotationRow(
             Annotation(
@@ -168,7 +186,7 @@ private fun CauseRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
 /**
  * The third examination (SPEC §5.9.4, ROADMAP R2q): which spirit carried the dead off and its rite, by the dead's year
  * animal, the day's animal where p. 63 names it, the weekday, the mansion and the hour of death where it is known. By
- * the trigram and the mewa it is not yet reckoned.
+ * the dead's trigram and mewa at death too (D18).
  */
 @Composable
 private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
@@ -184,6 +202,8 @@ private fun DemonRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
     r.demonDay?.let { row(labels.string(R.string.dead_time_title, DeadTime.DAY.english.replaceFirstChar(Char::uppercase), gloss(it).lowercase()), Texts.deadDemonDay(it)) }
     r.weekday?.let { row(labels.string(R.string.dead_demon_weekday, gloss(it, "inText")), Texts.deadDemonWeekday(it)) }
     r.mansion?.let { row(labels.string(R.string.dead_demon_mansion, gloss(it, "sanskrit")), Texts.deadDemonMansion(it)) }
+    row(trigramTitle(r), Texts.deadDemonTrigram(r.trigram))
+    row(mewaTitle(r), Texts.deadDemonMewa(r.mewa))
     r.year.hour?.let { h -> row(labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), Texts.deadDemonHour(h.sign.animal)) }
 }
 
@@ -205,6 +225,7 @@ private fun RebirthRows(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
         val realm = DeadReckoning.rebirthByHour(h.sign.animal)
         row(labels.string(R.string.birth_share_title, labels.string(R.string.dead_time_title, DeadTime.HOUR.english.replaceFirstChar(Char::uppercase), gloss(h.sign.animal).lowercase()), realm.english), Texts.deadRebirthHour(realm))
     }
+    row(mewaTitle(r), Texts.deadRebirthMewa(r.mewa))
     val year = r.year.present.animal
     row(labels.string(R.string.dead_virtue_title, gloss(year).lowercase()), Texts.deadVirtue(year))
 }

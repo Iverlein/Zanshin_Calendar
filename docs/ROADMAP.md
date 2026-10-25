@@ -4071,6 +4071,18 @@ groups it shows (`tools/emulator/store_shots.py`).
   element's pebble, also the fourth examination's funeral share, is not
   yet reckoned), by the mewa (open question 272), by the aspects and the
   stage (whose not said).
+- **R2t The dead's trigram and mewa — built 2026-10-25** (SPEC §5.9.4,
+  D18): the second examination's inner reason by the trigram and middle
+  reason by the mewa (p. 58), the third's spirit by the trigram and by the
+  mewa (pp. 60–63), the fifth's rebirth by the mewa with the image that
+  turns it (p. 71), each on the dead's trigram and mewa of the year of age
+  at the year of death; `DeadReckoning.trigram`, `mewa`, families
+  `DeadCauseTrigram`, `DeadCauseMewa`, `DeadDemonTrigram`,
+  `DeadDemonMewa`, `DeadRebirthMewa` (item R2), English and Russian; the
+  words the text leaves unread («སྐྱུར», «ལྷོག», the bracketed ones) left in
+  the topic files. Checked: `DeadTest`, `CatalogTest`,
+  `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
+  father: earth trigram, three blue). No release build: no enum added.
 - **R2o The moment's trigram and mewa — built 2026-10-22** (SPEC §5.9.5,
   §10.11): ch. 30's clock part, the date's trigram and mewa by the notes'
   months (O16, question 164), run through day and night by WB's rough

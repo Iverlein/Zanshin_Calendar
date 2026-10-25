@@ -965,9 +965,15 @@ relation's) and a whole date of death (`DeadReckoning`, core
   animal of the year, month, day and, where known, hour of death, the
   demon's cut of the la in that animal's seventh month with its reason
   and carrier, the four shown, "the one nearest in time" weighing most
-  (`DeadReckoning.times`, `cutMonth`, family `DeadCauseTime`). The
-  reasons by the trigram and by the mewa are not shown until which
-  trigram and mewa is settled (open questions 260, 272).
+  (`DeadReckoning.times`, `cutMonth`, family `DeadCauseTime`); the inner
+  reason by the trigram of death and the speckled middle one by its mewa
+  (families `DeadCauseTrigram`, `DeadCauseMewa`).
+- **The dead's trigram and mewa** (ROADMAP D18, the owner, 2026-10-25):
+  where ch. 29 says "died on li" or "the trigram and mewa of death"
+  without saying whose, the trigram and mewa of the dead's year of age at
+  the year of death, the ones fallen to, as the regent's reply 152 reads
+  the tenth examination (`DeadReckoning.trigram`, `mewa`); open questions
+  260 and 272 stay open for a reader of the tradition.
 - **Which spirit carried the dead off** (the third examination,
   pp. 58–68, read on the scan; ROADMAP R2q;
   [sources/corpus/wb/ch29-demons.md](sources/corpus/wb/ch29-demons.md),
@@ -988,7 +994,9 @@ relation's) and a whole date of death (`DeadReckoning`, core
   Abhijit's entry not reached; family `DeadDemonMansion`); and by the
   hour of death where its time is known, the month the life was cut in,
   where the spirit came from and whom it goes to (pp. 66–68, family
-  `DeadDemonHour`). Each rite is a Remedy row; the words the text leaves
+  `DeadDemonHour`); and by the trigram and the mewa of death, the spirit
+  that carried the dead off, where the devouring spirit hides and the rite
+  (pp. 60–63, families `DeadDemonTrigram`, `DeadDemonMewa`). Each rite is a Remedy row; the words the text leaves
   unexplained stay in the topic files.
 - **Where the dead is reborn, and help by virtue** (the fifth and sixth
   examinations, pp. 70–72, read on the scan; ROADMAP R2s;
@@ -998,12 +1006,13 @@ relation's) and a whole date of death (`DeadReckoning`, core
   `DeadRebirthDay`); by the hour of death where known, the realm, two
   hours to each of the six (`DeadReckoning.rebirthByHour`, `DeadRebirth`,
   family `DeadRebirthHour`), the four lower with WB's closing counsel to
-  strive at virtue as their Remedy row; and by the year of death, the
+  strive at virtue as their Remedy row; by the mewa of death, the birth
+  and the image that turns it as its Remedy row (family `DeadRebirthMewa`);
+  and by the year of death, the
   texts and works of help by virtue as a Remedy row, with WB's own word
   that the list has no pure, certain source (family `DeadVirtue`). Not
   shown: the rebirth's deciding pebble (its twelve roots need the
-  element's pebble), by the mewa of death (which mewa, open question
-  272), by the aspects and by the stage of rise and decline (whose, not
+  element's pebble), by the aspects and by the stage of rise and decline (whose, not
   said), by the manner of dying (observed, not reckoned).
 
 Kun dga' rig 'dzin's worked sheet for the dead (KD vol. 3, p. 729) fights
@@ -1030,8 +1039,7 @@ for what is missing; a closing note on what is reckoned.
 **Not calculated** yet: the element's pebble and the funeral share (the
 fourth examination), the trigram's test of the first examination (its
 part 5: the trigram's enemy or own place, demon door and *'phung chags*),
-the second examination's reasons by the trigram and the mewa, the third's
-spirits by the trigram and the mewa and by the weekday's
+the third's spirits by the weekday's
 planet's state, the fifth's other parts, the other examinations from the
 fourth and the seventh on, the living household.
 
