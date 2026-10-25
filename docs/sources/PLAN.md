@@ -1009,3 +1009,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-10-25, a second print's reading of «རུས་མིག»: the Sakya etext (VEIE0OPI0BA3A0E0) answers 403; the Zhol scan (WBZ img. 657) does not tell ra from da at the crops' size; the Taikhang reproduction was not opened.
   - 2026-10-25, a worked example of the meadow's ornament in Mipham's notes: none beyond the three lines of pp. 533–534; pp. 535–538 do not speak to it.
   - 2026-10-25, a note on Sprugtön's limbs or on «རྡེལ་ཁྲ» in the notes, pp. 532–538: none.
+- **The unopened pages of ch. 31 and ch. 34 (RD56)** (RD56, 2026-10-25):
+  - 2026-10-25: the mansion numerals in the brackets of pp. 380–382 and 424 (21, 22, 26, 27) were not settled syllable by syllable: Yigdzin-1 gives 21 and 22 twice and 26 is missing; the doubling is the Śravaṇa–Abhijit one white-beryl-ch34.md already notes.
+  - 2026-10-25: Rāhu's «ནུ་རུ» course for the 11th and 12th in p. 237's finer form was translated from the machine reading and not checked on the scan; the join of p. 237 to p. 240 («ནོར» then «རིགས») is not settled; p. 386 (img. 394) is not in this reading.
