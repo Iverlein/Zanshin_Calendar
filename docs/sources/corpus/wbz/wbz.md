@@ -257,6 +257,16 @@ WB vol. 1, p. 386 (the 1996 print, about ll. 6, 12 and 14), the household round'
 
 … the demon ransom (བདུད་མདོས, bdud mdos), «ma tram» [?], and the blood ransom (ཁྲག་མདོས, khrag mdos) are sent; … the «skyed pur» [?] and the white broth (ཁུ་དཀར, khu dkar) are offered; … the rite of the mother goddesses (མ་མོ, ma mo) for turning back […] is done.
 
+## <a id="wbz-i602"></a>wbz:i602 WB vol. 1, pp. 453–454: the thirty's count of pebbles on the Zhol print (question 304)
+
+*Read: machine, 2026-10-25.*
+
+> …སུམ་སྟོང་བརྒྱ་དང་ལྔ་བཅུ་རུ། །འབྱོར་ཀྱང་སྤྲོས་དོར་སྙིང་པོ་ནི། །རྩ་རྡེལ་ཉིས་བརྒྱ་བཞི་བཅུ་དང་། །ཁྱུང་གི་ཞལ་ཤེས་མན་ངག་གི། །རྡེའུ་སུམ་བརྒྱ་དགུ་བཅུ་ཐམ། །བསྡོམས་པས་དྲུག་བརྒྱ་སུམ་ཅུ་རུ། །མ་ནོར་གཏན་ཕབ་དེ་ཡང་ནི། … དེ་ལྟར་རྡེལ་གྲངས་ཉིས་བརྒྱ་དང་། །བཞི་བཅུ་རྩ་གཅིག་གཏན་འབེབས་ཡིན། །
+
+… to 3,150, if spread out; but dropping the spreading and keeping the essence, the root pebbles are two hundred and forty, and the pebbles of Khyung's oral instruction three hundred and ninety, in all six hundred and thirty, settled without error … So the count of the pebbles is settled at two hundred and forty-one.
+
+WB vol. 1, p. 453, l. 3 to p. 454, l. 2 (the 1996 print), on the Zhol blocks: WBZ img. 602 (I1KG1710, 3758 px; folio lines 1 and 6; p. 454 begins at l. 6), read by Yigdzin-1 (RD50, 2026-10-25) and the last line looked at by eye at 2.5×, where the cursive letters of «བཞི་བཅུ་རྩ་གཅིག» fit the machine reading but are not read stroke by stroke: hence *machine*. It is the same wording as the 1996 print and the Gser thang reprint (I3CN5028 img. 449, l. 2, read by eye at 3×): «ཉིས་བརྒྱ་དང་། བཞི་བཅུ་རྩ་གཅིག», not «བཞི་བཅུ་ཐམ» (forty full) as in the 390, and the tens-and-one form WB writes elsewhere (the 1996 etext: «ལྔ་བཅུ་རྩ་གསུམ» 53, «དྲུག་ཅུ་རྩ་གཅིག» 61, «བདུན་ཅུ་རྩ་གཅིག» 71). Three prints, one count: the 241 is not a misprint of one of them.
+
 ## <a id="wbz-i605-607"></a>wbz:i605-607 WB vol. 1, pp. 455 and 457: the thirty's «ban de sngags pha» and «lnga 'dra» (question 305)
 
 *Read: scan, 2026-10-23.*

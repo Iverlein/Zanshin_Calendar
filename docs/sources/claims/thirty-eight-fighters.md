@@ -23,4 +23,4 @@ The eight fighting pebbles of each starting point (WB vol. 1, pp. 453–454), co
 
 The colour of each pebble is the relation of the place's element to the reckoned person's element of the same aspect: mother or friend, and earth or water meeting its own element, white; son or enemy, and wood, iron or fire meeting its own element, black (p. 454). One pebble a contest; the son is black here, unlike ch. 25's pair (question 98).
 
-30 points × 8 = 240 root pebbles; WB says 241 (p. 454) and gives no account of the one more.
+30 points × 8 = 240 root pebbles; WB says 241 (p. 454) and gives no account of the one more; the *Moonbeams* says 240 (claim thirty-241-pebbles).

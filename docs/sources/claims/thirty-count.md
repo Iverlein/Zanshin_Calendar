@@ -15,6 +15,6 @@ How the year of a starting point is reached (WB vol. 1, p. 453; the notes, vol. 
 3. Count as many places as the years of the one reckoned (the notes, p. 532: «བརྩི་ལོ་གྲངས་དུ་ཡིན་པར»). Where the count falls is like the progressed year (ལོག་མེན, log men) of the obstacle reckoning (p. 453).
 4. From that year lay the eight fighting pebbles (claim thirty-eight-fighters).
 
-Not stated in the text: whether "as many as the years" counts the birth year as one (the year of age counted inclusively) or the full years lived; and whether the count runs through the sixty years with their elements or through the twelve animals only. The notes' «ལོ་གྲངས་དུ་ཡིན་པར» reads as the person's age; the text leaves the choice open, a question for a reader of the tradition.
+Not stated in the text: whether "as many as the years" counts the birth year as one (the year of age counted inclusively) or the full years lived; and whether the count runs through the sixty years with their elements or through the twelve animals only. The notes' «ལོ་གྲངས་དུ་ཡིན་པར» reads as the person's age; the text leaves the choice open, a question for a reader of the tradition. What the manuals add (UT's count of years, one in the year of birth; the sixty through the starting years' elements) is in claim thirty-count-years, as an inference.
 
 A way of fighting the pebbles without progressing the year at all, as in the reckoning of karma (ལས་རྩིས, las rtsis), is reported "elsewhere" by the notes (p. 533), not taken by WB.

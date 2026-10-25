@@ -243,6 +243,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-22-sick.md](claims/thirty-22-sick.md) | claim, table | The thirty: the twenty-second point, the sick lying askew, for the sick | cites wb.1:p466-467; feeds block-31 |
 | [claims/thirty-23-dead.md](claims/thirty-23-dead.md) | claim, table | The thirty: the twenty-third point, the red corpse, for the dead | cites wb.1:p467, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-24-burning.md](claims/thirty-24-burning.md) | claim, table | The thirty: the twenty-fourth point, the pale wooden box, for the deciding pebbles for burning or keeping the remains | cites wb.1:p468, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-241-pebbles.md](claims/thirty-241-pebbles.md) | claim, conflict | The thirty's 241 pebbles against 240 | cites wb.1:p453-454, wbz:i602, dz:i029-034, wb.1:p471-472; feeds block-31 |
 | [claims/thirty-25-grave-site.md](claims/thirty-25-grave-site.md) | claim, table | The thirty: the twenty-fifth point, the nine stacked skulls, for the grave site good or bad | cites wb.1:p468b, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-26-rites.md](claims/thirty-26-rites.md) | claim, table | The thirty: the twenty-sixth point, the three-headed earth lord, for the rites, white, black and speckled | cites wb.1:p468-469; feeds block-31 |
 | [claims/thirty-27-men-life-force.md](claims/thirty-27-men-life-force.md) | claim, table | The thirty: the twenty-seventh point, the golden crossed vajra, for men, at the place of the life force | cites wb.1:p469; feeds block-31 |
@@ -251,12 +252,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-30-great-men-luck.md](claims/thirty-30-great-men-luck.md) | claim, table | The thirty: the thirtieth point, the eight-petalled lotus, for great men, the learned and the craftsmen, at the place of the luck | cites wb.1:p470-471; feeds block-31 |
 | [claims/thirty-board-groups.md](claims/thirty-board-groups.md) | claim, rule | The thirty: the eight pebbles in three groups, and the order of the checks | cites wb.1:p453-454, wb.1:p471-472, wb.2:p532-533; feeds block-31, block-58 |
 | [claims/thirty-board-places-speckled.md](claims/thirty-board-places-speckled.md) | claim, rule | The thirty's board read by its places, and all speckled is good | cites ys:i496, wb.1:p471-472, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-check-order-yar-mar.md](claims/thirty-check-order-yar-mar.md) | claim, note | The thirty's check order and the pebbles counted up and down | cites wb.1:p453-454, wb.1:p471-472, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-circles-two-reckonings.md](claims/thirty-circles-two-reckonings.md) | claim, rule | The thirty and the circles are two reckonings | cites ys:i494-496, wb.1:p453-454; feeds block-31 |
 | [claims/thirty-circles-whose-element.md](claims/thirty-circles-whose-element.md) | claim, note | The thirty and the circles: whose element, in the manuals | cites dz:i029-034, zg:p303-304, lt:p65-67, wb.2:p533b; feeds block-31 |
+| [claims/thirty-count-years.md](claims/thirty-count-years.md) | claim, note | The thirty's count of years: the notes' wording and the manuals' count | cites wb.1:p453-454, wb.2:p532-533, wb.2:p533b, ut:p4, dz:i029-034; feeds block-31 |
 | [claims/thirty-count.md](claims/thirty-count.md) | claim, rule | The thirty: how the year of a starting point is reached | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
+| [claims/thirty-dz-28-29-exchange.md](claims/thirty-dz-28-29-exchange.md) | claim, note | The Moonbeams' readings 28 and 29 exchanged in every print found | cites dz:i029-034, wb.1:p453-454; feeds block-31 |
 | [claims/thirty-dz-bases.md](claims/thirty-dz-bases.md) | claim, table | The thirty: the Moonbeams joins each reading to its pair | cites dz:i029-034, wb.1:p453-454, lt:p65-67; feeds block-31 |
 | [claims/thirty-dz-eight.md](claims/thirty-dz-eight.md) | claim, rule | The thirty: the Moonbeams' eight pebbles, without the progressed year | cites dz:i029-034, wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-eight-fighters.md](claims/thirty-eight-fighters.md) | claim, table | The thirty: the eight fighting pebbles and their colours | cites wb.1:p453-454; feeds block-31 |
+| [claims/thirty-element-same-phrase.md](claims/thirty-element-same-phrase.md) | claim, note | The thirty's element: the same phrase as the circles, and the year-horse | cites wb.1:p453-454, wb.2:p532-533, wb.2:p533b; feeds block-31 |
 | [claims/thirty-general-board.md](claims/thirty-general-board.md) | claim, table | The thirty: each starting point's board read whole | cites wb.1:p471-472, wb.1:p468b; feeds block-31, block-58 |
 | [claims/thirty-starting-pairs.md](claims/thirty-starting-pairs.md) | claim, table | The thirty starting points' pairs of years | cites wb.1:p453-454, wb.2:p532-533; feeds block-31 |
 | [claims/thirty-subjects-horses-whose-year.md](claims/thirty-subjects-horses-whose-year.md) | claim, rule | Whose year for the thirty's subjects and horses | cites ys:i494-496, ys:i496, wb.2:p532-533; feeds block-31 |
@@ -309,7 +314,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 4 passages: 4 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
-| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 21 passages: 20 scan, 1 machine |
+| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 20 passages: 7 scan, 13 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 1 passages: 1 scan |
