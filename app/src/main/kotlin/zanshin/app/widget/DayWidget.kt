@@ -41,6 +41,9 @@ import zanshin.core.texts.DaySummary
 import zanshin.core.texts.HoursShortForm
 import zanshin.core.texts.Texts
 import zanshin.core.texts.VerdictBy
+import zanshin.core.texts.sharedTone
+import zanshin.core.astro.SunTimes
+import zanshin.core.tibetan.PersonalDay
 import zanshin.core.tibetan.risingSign
 import java.time.Duration
 import java.time.Instant
@@ -138,14 +141,16 @@ object DayWidget {
     /**
      * One size's views, full and, from Android 12, compact for a cell the full one does not fit, which the launcher
      * picks by the widget's size as it stands: a landscape home screen's cells are far shorter and narrower than a
-     * portrait one's. Before Android 12 the full one stands at every size.
+     * portrait one's; and for the wide size a tall variant where the cell has height to spare (ROADMAP W2), with the
+     * sun's times above and the person's own day below. Before Android 12 the full one stands at every size.
      */
     private fun sized(context: Context, wide: Boolean, now: Instant): RemoteViews {
         val full = views(context, wide, now, compact = false)
         if (Build.VERSION.SDK_INT < 31) return full
         val compact = views(context, wide, now, compact = true)
         return if (wide) {
-            RemoteViews(mapOf(SizeF(250f, 150f) to full, SizeF(110f, 80f) to compact))
+            val tall = views(context, wide = true, now, compact = false, tall = true)
+            RemoteViews(mapOf(SizeF(250f, TALL_HEIGHT) to tall, SizeF(250f, 150f) to full, SizeF(110f, 80f) to compact))
         } else {
             RemoteViews(mapOf(SizeF(110f, 105f) to full, SizeF(110f, 50f) to compact))
         }
@@ -157,7 +162,7 @@ object DayWidget {
      * padding's height, the 旧暦's counts on one line; on the wide size the reason beside the tone, set on a line of its own, the clock hours under
      * the strip and the present period's line, the mark under the strip still showing it.
      */
-    private fun views(context: Context, wide: Boolean, now: Instant, compact: Boolean): RemoteViews {
+    private fun views(context: Context, wide: Boolean, now: Instant, compact: Boolean, tall: Boolean = false): RemoteViews {
         val settings = Settings(context)
         val labels = Labels(context.resources)
         Catalog.locale = labels.locale
@@ -194,6 +199,23 @@ object DayWidget {
             v.setViewVisibility(R.id.widget_kyureki, shown(!tibetan))
             v.setViewVisibility(R.id.widget_clocks, shown(!compact))
             v.setViewVisibility(R.id.widget_now_row, shown(!compact))
+            v.setViewVisibility(R.id.widget_yours_row, View.GONE)
+            // The tall variant's two lines more take their room from the padding's height: 10 dp a side, 4 in it.
+            val dp = context.resources.displayMetrics.density
+            val vertical = ((if (tall) 4 else 10) * dp).toInt()
+            v.setViewPadding(R.id.widget_column, (16 * dp).toInt(), vertical, (16 * dp).toInt(), vertical)
+            // The tall variant's sun line (ROADMAP W2), on both calendars, where a place is set.
+            val sun = settings.place?.place?.takeIf { tall }?.let { SunTimes.of(date, it) }
+            v.setViewVisibility(R.id.widget_sun, shown(sun != null))
+            if (sun != null) {
+                val line = labels.string(
+                    R.string.widget_sun,
+                    sun.sunrise?.format(labels.clock) ?: "—", sun.transit.format(labels.clock), sun.sunset?.format(labels.clock) ?: "—",
+                )
+                v.setTextViewText(R.id.widget_sun, line)
+                paint.text(R.id.widget_sun) { it.muted }
+                spoken += line
+            }
         } else {
             v.setViewVisibility(R.id.widget_top, shown(!compact))
             v.setViewVisibility(R.id.widget_reason, shown(tibetan && !compact))
@@ -241,6 +263,7 @@ object DayWidget {
                     spoken += text
                 }
                 if (wide) spoken += hours(v, paint, labels, summary, day.month, WidgetPlan.period(date, zone, now))
+                if (wide && tall) spoken += yours(v, paint, labels, info)
             }
             CalendarKind.KYUREKI -> {
                 val day = info.kyureki
@@ -332,6 +355,27 @@ object DayWidget {
         return spoken
     }
 
+    /**
+     * The tall variant's Your day line (ROADMAP W2): the person's own day as the page's Your day rows name it, the
+     * weekday's roles, the personal mansions and the birth mansion's day, with their shared tone; hidden on a day that
+     * is none of them or with no birth date. Returns what a screen reader hears of it.
+     */
+    private fun yours(v: RemoteViews, paint: Paint, labels: Labels, info: DayInfo): List<String> {
+        val parts = buildList {
+            info.personalDay?.let { add(it.english to if (it == PersonalDay.ANTI) Tone.BAD else Tone.GOOD) }
+            info.ownDays.filter { it.isWeekday }.forEach { add(it.english to Texts.ownDayTone(it)) }
+            info.personalMansions.forEach { add(it.english to Texts.personalMansionTone(it)) }
+            info.ownDays.filter { !it.isWeekday }.forEach { add(it.english to Texts.ownDayTone(it)) }
+        }
+        v.setViewVisibility(R.id.widget_yours_row, if (parts.isEmpty()) View.GONE else View.VISIBLE)
+        if (parts.isEmpty()) return emptyList()
+        val line = labels.string(R.string.widget_your_day, parts.joinToString(" · ") { it.first })
+        v.setTextViewText(R.id.widget_yours, line)
+        paint.text(R.id.widget_yours) { it.text }
+        paint.tint(R.id.widget_yours_dot) { toneColor(it, sharedTone(parts.map { p -> p.second })) }
+        return listOf(line)
+    }
+
     private fun Int.two() = toString().padStart(2, '0')
 
     private fun toneColor(c: ZanshinColors, tone: Tone): Color = when (tone) {
@@ -340,6 +384,9 @@ object DayWidget {
         Tone.MIXED -> c.mixed
         Tone.NEUTRAL -> c.faint
     }
+
+    /** The height from which a wide widget's launcher shows the tall variant (ROADMAP W2), in dp: its two lines more fit. */
+    private const val TALL_HEIGHT = 195f
 
     /** The largest font scale the widget's text follows (ROADMAP W1): the wide size's lines fit a 4 × 2 cell at it in Russian, the longer of the two. */
     private const val MAX_FONT_SCALE = 1.15f
@@ -356,6 +403,7 @@ object DayWidget {
         R.id.widget_clock_0 to 11f, R.id.widget_clock_1 to 11f, R.id.widget_clock_2 to 11f, R.id.widget_clock_3 to 11f,
         R.id.widget_now to 12f, R.id.widget_against_label to 12f, R.id.widget_against to 12f,
         R.id.widget_rokuyo to 14f, R.id.widget_mark to 13f, R.id.widget_good_count to 13f, R.id.widget_avoid_count to 13f,
+        R.id.widget_sun to 12f, R.id.widget_yours to 12f,
     )
 
     private val CELLS = intArrayOf(

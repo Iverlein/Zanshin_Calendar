@@ -335,6 +335,10 @@
     <string name="widget_preview_date">Fri 16 Oct</string>
     <string name="widget_preview_month">9th month</string>
     <string name="widget_preview_now">now 13–15 · Aquarius rises · to be accomplished</string>
+    <string name="widget_sun">sunrise %1$s · noon %2$s · sunset %3$s</string>
+    <string name="widget_preview_sun">sunrise 06:11 · noon 11:41 · sunset 17:10</string>
+    <string name="widget_your_day">your day: %1$s</string>
+    <string name="widget_preview_yours">your day: Luck day · Mother weekday</string>
     <string name="widget_preview_against" translatable="false">05–09 · 11–13 · 17–19 · 23–01</string>
     <string name="menu_language">Language</string>
     <string name="language_system">Phone\'s language</string>

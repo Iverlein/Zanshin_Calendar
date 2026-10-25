@@ -284,6 +284,10 @@
     <string name="widget_preview_date">пт 16 окт.</string>
     <string name="widget_preview_month">9-й месяц</string>
     <string name="widget_preview_now">сейчас 13–15 · восходит Водолей · его используют</string>
+    <string name="widget_sun">восход %1$s · полдень %2$s · закат %3$s</string>
+    <string name="widget_preview_sun">восход 06:11 · полдень 11:41 · закат 17:10</string>
+    <string name="widget_your_day">ваш день: %1$s</string>
+    <string name="widget_preview_yours">ваш день: День удачи · День недели матери</string>
     <string name="menu_language">Язык</string>
     <string name="language_system">Язык телефона</string>
     <string name="menu_theme">Тема</string>

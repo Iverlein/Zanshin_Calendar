@@ -89,7 +89,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   and language: Day, the date, the day and its tone with the factor that
   decides it (on the 旧暦, the works good and to avoid); Day and hours,
   with the twelve hours of the Tibetan day in their verdict's colours,
-  the present one marked and the hours against the tone, or the 旧暦's
+  the present one marked and the hours against the tone (and, where the
+  cell is tall enough, the sun's times and your own day), or the 旧暦's
   六曜 and day mark. A tap opens the day.
 - Dates from 1900 to 2100, any month three taps away in the date picker's
   years and months. No internet permission: everything is computed on

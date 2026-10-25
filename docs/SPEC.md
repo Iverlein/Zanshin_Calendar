@@ -3437,6 +3437,19 @@ page does (`DayInfo`, `DaySummary`), nothing weighed anew:
   where there is one ("受死日 black day — the worst of all") and the
   counts.
 
+- **Day and hours, tall** (ROADMAP W2, 2026-10-25; the owner's choice):
+  from Android 12, where the wide size's cell is 195 dp high or more, as
+  an upright 4 × 2 cell is (201 dp on the emulator), the launcher shows a
+  third variant: above the date line the sun's times at the place,
+  "sunrise 06:11 · noon 11:41 · sunset 17:10", as the page's sun row
+  (`SunTimes`), on both calendars where a place is set; under the hours,
+  on the Tibetan page, the person's own day as the page's Your day rows
+  name it, the weekday's roles, the personal mansions and the birth
+  mansion's day, with their shared tone's dot ("your day: Luck day ·
+  Mother weekday"), hidden on a day that is none of them. Its vertical
+  padding is 4 dp a side instead of 10, so that both lines fit at the
+  widget's largest font scale in Russian.
+
 The widget takes the app's theme (§10.5): its page, text and tones are
 the theme's, the strip's tones laid over the page as the hours row lays
 them. System follows the phone's dark setting by itself from Android 12

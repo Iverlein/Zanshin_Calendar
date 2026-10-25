@@ -4545,6 +4545,20 @@ changed that when built.
   (names, no raw keys). No store shot changes: shot 5 leaves the
   Settings group closed.
 
+### <a id="w2"></a>W2. The wide widget's free space — asked and built 2026-10-25 (SPEC §10.6)
+
+- **Why.** The owner (2026-10-25): the wide widget leaves free space above
+  and below on an upright home screen; asked what goes there, the owner
+  chose the sun's times above and the person's own day below.
+- **Built 2026-10-25**: a tall variant of the wide size from 195 dp of
+  height (`DayWidget.TALL_HEIGHT`), with `widget_sun` and
+  `widget_yours_row` in `widget_wide.xml`, the padding cut to 4 dp. Checked:
+  `:app:testDebugUnitTest`; on the emulator in English and Russian, the
+  Tibetan page and the 旧暦 (sun line only), at font scale 1.0 and 1.15
+  (the first try cut the Your day line at 1.15; the padding and margins
+  were cut until it fit); store shots retaken in both languages (9 shows
+  the tall widget, 7 the year of age's Together).
+
 ### <a id="w1"></a>W1. The widget — planned 2026-10-11, built 2026-10-16 (SPEC §10.6)
 
 - **Gap.** SPEC §10.6 defers the widget's sizes and content. For a

@@ -20,6 +20,7 @@
         android:tint="#FF111311" />
 
     <LinearLayout
+        android:id="@+id/widget_column"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
@@ -28,6 +29,20 @@
         android:paddingTop="10dp"
         android:paddingEnd="16dp"
         android:paddingBottom="10dp">
+
+        <!-- The tall variant's sun line (ROADMAP W2): sunrise, solar noon and sunset at the place, as the page's sun row. -->
+        <TextView
+            android:id="@+id/widget_sun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/figtree"
+            android:maxLines="1"
+            android:text="@string/widget_preview_sun"
+            android:textColor="#FFA6A99F"
+            android:textSize="12sp"
+            android:visibility="gone" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -355,6 +370,38 @@
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </LinearLayout>
+        </LinearLayout>
+
+        <!-- The tall variant's Your day line (ROADMAP W2): the person's own day as the page's Your day rows name it. -->
+        <LinearLayout
+            android:id="@+id/widget_yours_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/widget_yours_dot"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:importantForAccessibility="no"
+                android:src="@drawable/widget_dot"
+                android:tint="#FF9CCB98" />
+
+            <TextView
+                android:id="@+id/widget_yours"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/figtree"
+                android:maxLines="1"
+                android:text="@string/widget_preview_yours"
+                android:textColor="#FFECE8DF"
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

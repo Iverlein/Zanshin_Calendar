@@ -52,7 +52,7 @@ Large fonts and wide screens: the pages follow the phone's font size up to twice
 
 A morning notice, if you turn it on: once a day at the time you set, silently, the day in brief of the calendar you last read. On the Tibetan page, the day's tone and the factor that decides it, how many works it names good and to avoid, and the hours that run against it; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
 
-Two home-screen widgets for the calendar you last read, in the app's theme and language. Day: the date, the day and its tone with the factor that decides it; on the 旧暦 page, how many works the day names good and to avoid. Day and hours: the same, with the twelve hours of the Tibetan day in the colours of their verdict, the present hour marked, and the hours that run against the day; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
+Two home-screen widgets for the calendar you last read, in the app's theme and language. Day: the date, the day and its tone with the factor that decides it; on the 旧暦 page, how many works the day names good and to avoid. Day and hours: the same, with the twelve hours of the Tibetan day in the colours of their verdict, the present hour marked, and the hours that run against the day, and where it is tall enough the sun's times and your own day; on the 旧暦 page, the rokuyō and the day's mark. A tap opens the day.
 
 <b>Computed on the phone</b>
 Everything is calculated on the device for any date from 1900 to 2100: Tibetan dates with Svante Janson's published arithmetic, new moons and solar terms with Jean Meeus's algorithms and the VSOP87 solar theory. The results are checked against Edward Henning's Tibetan calendars and the National Astronomical Observatory of Japan.
