@@ -17,6 +17,7 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.Circle
+import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
 import zanshin.core.tibetan.ThirtyPoint
 import zanshin.core.tibetan.DeadCut
@@ -2250,6 +2251,9 @@ object Texts {
 
     /** The thirteenth examination's white and black rites for a death on the trigram [t] (WB vol. 2, ch. 29, pp. 104–108; D18). */
     fun deadRitesTrigram(t: Trigram): Reading = Reading(key = "reading.DeadRitesTrigram", arg = "reading.DeadRitesTrigram.${t.name}", source = Sources.WHITE_BERYL_DEAD_LATER)
+
+    /** The golden turtle's class [c] of a birth year, its pebbles, strength and rites (WB vol. 2, ch. 27, pp. 20–22). */
+    fun turtleClass(c: TurtleClass): Reading = Reading(key = "reading.TurtleClass", arg = "reading.TurtleClass.${c.name}", source = Sources.WHITE_BERYL_CIRCLES)
 
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(

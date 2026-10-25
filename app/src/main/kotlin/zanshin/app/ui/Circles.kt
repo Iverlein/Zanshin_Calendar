@@ -22,6 +22,7 @@ import zanshin.core.tibetan.CircleReading
 import zanshin.core.tibetan.Force
 import zanshin.core.tibetan.PebbleColour
 import zanshin.core.tibetan.Sign
+import zanshin.core.tibetan.TurtleClass
 
 /**
  * The thirteen circles (SPEC §5.9.6, ROADMAP R2u) of [person] in their [age]th year of age, born in [birth]: a row for
@@ -37,6 +38,19 @@ fun CirclesView(person: Person, birth: Sign, age: Int, circles: List<CircleReadi
         Text(
             labels.string(R.string.circles_subtitle, personLabel(person), labels.ordinal(age), name(birth), gloss(birth.forces.destiny, "inText")),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
+        )
+        // The golden turtle (ROADMAP R2y): the class the birth year falls in, with its identifying pebbles (p. 20).
+        val turtle = TurtleClass.of(birth)
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.circles_turtle_title, turtle.english),
+                english = "",
+                tone = Tone.NEUTRAL,
+                reading = Texts.turtleClass(turtle),
+                subtitle = "○".repeat(turtle.white) + "×".repeat(turtle.black),
+                titleIsKanji = false,
+            ),
+            onOpen,
         )
         circles.forEach { c ->
             val tone = { p: PebbleColour -> if (p == PebbleColour.WHITE) Tone.GOOD else Tone.BAD }

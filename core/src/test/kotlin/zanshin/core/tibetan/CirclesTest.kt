@@ -74,4 +74,23 @@ class CirclesTest {
         assertEquals(PebbleColour.WHITE, Circles.colour(Element.EARTH, Element.EARTH))
         assertEquals(PebbleColour.BLACK, Circles.colour(Element.FIRE, Element.FIRE))
     }
+
+    /**
+     * The golden turtle's classes (p. 20; claims/ch27-turtle-wood-sheep-and-element.md): over the sixty years the
+     * counts of each class come to the text's own, god 2, man 1, cow 1, asura 2, animal 1, hungry ghost 1, hell 2,
+     * planet 8, re 'jam 9, garuḍa 4, klu 8, turtle 4, earth lord 8, srin po 9.
+     */
+    @Test
+    fun `the golden turtle's classes of the sixty years`() {
+        val counts = (0 until 60).map { TurtleClass.of(YearOfLife.signOf(it)) }.groupingBy { it }.eachCount()
+        val expected = mapOf(
+            TurtleClass.GOD to 2, TurtleClass.MAN to 1, TurtleClass.COW to 1, TurtleClass.ASURA to 2, TurtleClass.ANIMAL to 1,
+            TurtleClass.HUNGRY_GHOST to 1, TurtleClass.HELL to 2, TurtleClass.PLANET to 8, TurtleClass.RE_JAM to 9, TurtleClass.GARUDA to 4,
+            TurtleClass.KLU to 8, TurtleClass.TURTLE to 4, TurtleClass.EARTH_LORD to 8, TurtleClass.SRIN_PO to 9,
+        )
+        assertEquals(expected, counts)
+        assertEquals(true, TurtleClass.enemies(TurtleClass.KLU, TurtleClass.GARUDA))
+        assertEquals(false, TurtleClass.enemies(TurtleClass.COW, TurtleClass.TURTLE))
+    }
 }
+

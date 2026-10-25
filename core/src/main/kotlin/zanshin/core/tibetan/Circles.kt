@@ -85,3 +85,57 @@ object Circles {
     /** All thirteen circles for one born in [birth] in the [age]th year of age. */
     fun all(birth: Sign, age: Int): List<CircleReading> = Circle.entries.map { reckon(it, birth, age) }
 }
+
+/**
+ * The golden turtle's classes of years (WB vol. 2, ch. 27, pp. 20–22; claims/ch27-turtle-classes.md,
+ * ch27-turtle-wood-sheep-and-element.md): each year "becomes" its own element and falls in a class, with its
+ * identifying pebbles, [white] and [black].
+ */
+enum class TurtleClass(val white: Int, val black: Int) {
+    GOD(4, 0), MAN(3, 0), COW(2, 0), SRIN_PO(0, 3),
+    ANIMAL(1, 1), HUNGRY_GHOST(0, 2), HELL(0, 4), ASURA(1, 2), PLANET(0, 7),
+    RE_JAM(5, 0),
+    GARUDA(0, 1), KLU(1, 0),
+    TURTLE(0, 6), EARTH_LORD(0, 5);
+
+    val english: String get() = gloss(this)
+
+    companion object {
+        /** The classes that are each other's executioners (p. 21): planet and klu, srin po and re 'jam, garuḍa and earth lord, garuḍa and klu. */
+        val ENEMIES = setOf(PLANET to KLU, SRIN_PO to RE_JAM, GARUDA to EARTH_LORD, GARUDA to KLU)
+
+        fun enemies(a: TurtleClass, b: TurtleClass): Boolean = (a to b) in ENEMIES || (b to a) in ENEMIES
+
+        /**
+         * The class of the year [s] (p. 20): wood the male rat god, the ox man, the sheep the cow, the other nine
+         * srin po; fire the male monkey animal, the female snake hungry ghost, the female bird hell, the male dragon
+         * asura, the other eight planet; iron the male tiger god, the male monkey asura, the female bird hell, the
+         * other nine re 'jam; water the rat, horse, ox and sheep garuḍa, the other eight klu; earth the four earth
+         * animals' years, the four executioners (dragon, dog, ox, sheep), turtle, the other eight earth lord.
+         */
+        fun of(s: Sign): TurtleClass = when (s.element) {
+            Element.WOOD -> when (s.animal) {
+                Animal.MOUSE -> GOD
+                Animal.OX -> MAN
+                Animal.SHEEP -> COW
+                else -> SRIN_PO
+            }
+            Element.FIRE -> when (s.animal) {
+                Animal.MONKEY -> ANIMAL
+                Animal.SNAKE -> HUNGRY_GHOST
+                Animal.BIRD -> HELL
+                Animal.DRAGON -> ASURA
+                else -> PLANET
+            }
+            Element.IRON -> when (s.animal) {
+                Animal.TIGER -> GOD
+                Animal.MONKEY -> ASURA
+                Animal.BIRD -> HELL
+                else -> RE_JAM
+            }
+            Element.WATER -> if (s.animal in setOf(Animal.MOUSE, Animal.HORSE, Animal.OX, Animal.SHEEP)) GARUDA else KLU
+            Element.EARTH -> if (s.animal in setOf(Animal.DRAGON, Animal.DOG, Animal.OX, Animal.SHEEP)) TURTLE else EARTH_LORD
+        }
+    }
+}
+

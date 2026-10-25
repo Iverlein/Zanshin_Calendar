@@ -1165,9 +1165,21 @@ power, a row for each circle with its four pebbles drawn ○ × and the
 years counted, its sheet giving each pebble's reading in turn; a closing
 note on what is reckoned.
 
+**The golden turtle** (pp. 20–22; ROADMAP R2y, 2026-10-25;
+[claims/ch27-turtle-classes.md](sources/claims/ch27-turtle-classes.md)),
+atop the circles: the birth year's class by the element it becomes, its
+own (wood the rat god, the ox man, the sheep the cow, the rest ogre; fire
+the monkey animal, the snake hungry ghost, the bird hell, the dragon
+asura, the rest planet; iron the tiger god, the monkey asura, the bird
+hell, the rest *re 'jam*; water the rat, horse, ox and sheep garuḍa, the
+rest nāga; earth the four earth animals turtle, the rest earth lord),
+drawn by its identifying pebbles, its reading and rites (`TurtleClass`,
+family `TurtleClass`). `CirclesTest` holds the classes' counts over the
+sixty years to the text's own, sixty in all.
+
 **Not calculated**: the fifth pebble, the mewa (D20, open question 368);
-the circles' small reckonings, the meadow's ornament and Sprugtön's
-obstacle reckoning (pp. 13–25).
+the turtle's household agreement, the circles' other small reckonings,
+the meadow's ornament and Sprugtön's obstacle reckoning (pp. 13–25).
 
 #### 5.9.7 The thirty starting points
 

@@ -4099,6 +4099,15 @@ groups it shows (`tools/emulator/store_shots.py`).
   the topic files. Checked: `DeadTest`, `CatalogTest`,
   `:app:testDebugUnitTest`, the emulator in English and Russian (the 1906
   father: earth trigram, three blue). No release build: no enum added.
+- **R2y The golden turtle — built 2026-10-25** (SPEC §5.9.6): ch. 27's
+  classes of years (pp. 20–22), the birth year's class with its pebbles,
+  reading and rites atop the circles; `TurtleClass`, family `TurtleClass`
+  (item R2), English and Russian. Checked: `CirclesTest` (the fourteen
+  classes' counts over the sixty years equal the text's, god 2 … ogre 9,
+  the four earth executioners' years the turtle's four), `CatalogTest`,
+  `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
+  dragon: an asura year), the release build (no raw keys). Not built: the household's
+  agreement by classes.
 - **R2x The dead's provisions, strikes and rites — built 2026-10-25**
   (SPEC §5.9.4, D18): the ninth and fifteenth examinations' provisions by
   the trigram of death, the tenth's nine-eye and grave-day strikes, the
