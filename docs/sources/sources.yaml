@@ -69,10 +69,11 @@ sy:
   title: "Skar yig blo gsal dga' bskyed blang dor gsal ba'i me long, chapter skar khra 'bras bshad"
   author: "Nam mkha' seng ge"
   edition: "Nam mkha' seng ge'i sman rtsis, pp. 289–393"
-  bdrc: {work: MW2DB13644_565451, etext: IE0OPI0000249F}
+  bdrc: {work: MW2DB13644_565451, etext: IE0OPI0000249F, scans: [I1PD30933]}
   licence: public-domain
   rank: 3
   role: source
+  notes: "scans I1PD30933 open (808 px); image = etext page, printed page = image − 28 at pp. 389–392"
 
 kp:
   title: "'Bras rtsis bai dkar dgongs don dri med kun phan me long"

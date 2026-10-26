@@ -79,6 +79,16 @@ The *Moonbeams*, ch. 3, the fixed reckoning of the birth (f. 16a, img. 035, l. 5
 
 So the *Moonbeams* lays the birth's hundred one pebble a meeting, a son black, as Mipham's notes do (WB vol. 2, p. 475); its year of age, by contrast, lays a son meeting as a half (ཕྱེད་མ, phyed ma; f. 22a, img. 047, read by O18).
 
+## <a id="dz-i045"></a>dz:i045 Ch. 4's close: the bride sent by ten, the earth lord the last
+
+*Read: scan, 2026-10-26.*
+
+> …ཁྱོ་འཆི་བ་དང་རབས་ཆད་དང་། །བྱེ་བྲལ་ཉི་ཤུ་བཅད་པར་བྱ། །གཉིས་པ་ལོ་སྨེ་སྤར་ཁ་དང་། །དར་གུད་ཟླ་བ་ཞག་དང་དུས། །གཟའ་སྐར་ས་བདག་བཅུ་ཡིས་རྫོང་། །གསུམ་པ་དགོས་པའི་མི་ལྔ་ཡང་། །མཉེ་བོ་མཐུན་གསུམ་ལོ་པ་དང་། །ལུས་མཐུན་རྟ་ཁྲིད་སྲོག་མས་བྱ། །སྲོག་མཐུན་ཟླ་མོ་སྲོག་གྲོགས་སམ། །དབང་ཐང་མ་ཡིས་ཟས་དྲངས་ལ། །བདུན་ཟུར་དགྲ་ལོས་སྣ་ཚོགས་བྱ། །རྒྱས་པར་རིན་ཆེན་འགྲོ་ལམ་དང་། །འགྲེལ་པའི་ལེའུ་ལྔ་པ་སོགས། །ཞིབ་མོར་བལྟས་ཏེ་གཏན་ལ་དབབ། །འབྱུང་རྩིས་མན་ངག་ཟླ་བའི་འོད་ཟེར་ལས། །གི་གོང་མཐུན་སྦྱོར་བཤད་པའི་ལེའུ་སྟེ་བཞི་པའོ། །
+
+The *Moonbeams*, the close of ch. 4, the match of a marriage (མཐུན་སྦྱོར, mthun sbyor): f. 21a, img. 045, ll. 1–5, read by eye on BDRC's open scan (I2533, 4800 px) in crops of a third of a line at native size, against Yigdzin-1 (run over the whole text, img. 005–064, for this reading). The chapter's three heads for sending a bride end here: first the twenty to be cut, of which the line before closes the list (the husband's death, the line cut off, separation); second, «send her by the ten» (བཅུ་ཡིས་རྫོང, bcu yis rdzong): the year, the mewa (སྨེ་བ, sme ba), the trigram (སྤར་ཁ, spar kha), rise and decline (དར་གུད, dar gud), the month, the day and the hour, the planet and the mansion (གཟའ་སྐར, gza' skar), and the earth lord (ས་བདག, sa bdag); third, the five persons the going needs (the bride's escort of a year in harmony, the one whose body agrees leading the horse, and so on). For the full treatment the reader is sent to the *Precious Road* (རིན་ཆེན་འགྲོ་ལམ, rin chen 'gro lam) and the commentary's fifth chapter. The ten are named in one line with no order of weight and no rule for when they disagree.
+
+Readings: the scan has «སྣ་ཚོགས་བྱ» (img. 045, l. 4) where KD vol. 3's print of the text (printed p. 506, etext p. 526) has «སྣ་ཆོག་བྱ», the nose rite; and «རྒྱས་པར» where KD's etext reads «རྒྱུས་པ». The earth lords occur in the whole of the *Moonbeams* only four times (Yigdzin-1 over img. 005–064 and KD's etext agree): the nine mewa as the mirrors of the gods, *bdud*, *bsen mo*, *klu*, earth lords and so on (img. 017), the reckoning of «the earth lord, the king» as the first of the fifteen Chinese starting points and «the three-headed earth lord» of the eleventh Tibetan one (img. 029–034, dz:i029-034), and this line.
+
 ## <a id="dz-i048-049"></a>dz:i048-049 Ch. 5, the year of age: the household round
 
 *Read: scan, 2026-10-23.*
