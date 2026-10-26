@@ -79,6 +79,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
             Reckoning.MOMENT -> MomentView(person, zone, back, open)
+            Reckoning.ILLNESS -> IllnessView(person, zone, onPeople, back, open)
         }
     }
     sheet?.let { ReadingSheet(it) { sheet = null } }
@@ -159,6 +160,7 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.ILLNESS -> ScreenLinkRow(stringResource(R.string.illness_title), stringResource(R.string.reckonings_illness_subtitle), onClick = { onOpen(r) }, icon = Icons.Pebbles)
             Reckoning.THIRTY -> {
                 val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
                 val points = Thirty.all(Reckonings.birthSign(person), age)
@@ -233,6 +235,22 @@ private fun CirclesScreen(person: Person?, onPeople: () -> Unit, onBack: () -> U
         val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
         CirclesView(person, birth, age, remember(person, age) { Circles.all(birth, age) }, onOpen)
     }
+}
+
+/**
+ * WB's illness reckoning (SPEC §10.10, ROADMAP H2b), the Health screen's Illness tab on a day of its own: today to
+ * begin with at the present time, stepped day by day.
+ */
+@Composable
+private fun IllnessView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    var date by rememberSaveable { mutableStateOf(java.time.LocalDate.now(zone)) }
+    var time by rememberSaveable { mutableStateOf(java.time.LocalTime.now(zone).withSecond(0).withNano(0)) }
+    Header(stringResource(R.string.illness_title), date.format(labels.headerDate), onBack) {
+        IconButton(onClick = { date = date.minusDays(1) }) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.health_day_before), tint = Palette.muted) }
+        IconButton(onClick = { date = date.plusDays(1) }) { Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.health_day_after), tint = Palette.muted) }
+    }
+    Body { IllnessReckoningView(person, date, time, zone, { time = it }, onPeople, onOpen) }
 }
 
 /** The reckoning of the moment (SPEC §5.9.5, ROADMAP R2o), now at [zone]. */

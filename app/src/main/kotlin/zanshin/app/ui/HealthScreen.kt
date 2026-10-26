@@ -81,6 +81,7 @@ import java.time.ZoneId
 private enum class HealthTab(val label: Int) {
     TODAY(R.string.health_tab_today),
     YOU(R.string.health_tab_you),
+    ILLNESS(R.string.health_tab_illness),
     TREATMENT(R.string.health_tab_treatment),
     MEDICINE(R.string.health_tab_medicine),
 }
@@ -98,6 +99,8 @@ fun HealthScreen(from: LocalDate, zone: ZoneId, person: Person?, onPeople: () ->
     var date by rememberSaveable { mutableStateOf(from) }
     var tab by rememberSaveable { mutableStateOf(HealthTab.TODAY) }
     var sheet by remember { mutableStateOf<Annotation?>(null) }
+    // The time of falling ill on the shown day, for the illness reckoning (H2b); the present time to begin with.
+    var illTime by rememberSaveable { mutableStateOf(java.time.LocalTime.now(zone).withSecond(0).withNano(0)) }
     val info = remember(date, zone, person) { DayInfo.of(date, zone, person?.birth) }
     Column(
         Modifier
@@ -127,6 +130,7 @@ fun HealthScreen(from: LocalDate, zone: ZoneId, person: Person?, onPeople: () ->
             when (tab) {
                 HealthTab.TODAY -> TodayTab(info, labels, open)
                 HealthTab.YOU -> YouTab(info, person, labels, onPeople, open)
+                HealthTab.ILLNESS -> IllnessReckoningView(person, date, illTime, zone, { illTime = it }, onPeople, open)
                 HealthTab.TREATMENT -> TreatmentTab(info, open)
                 HealthTab.MEDICINE -> MedicineTab(open)
             }
