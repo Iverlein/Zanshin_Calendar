@@ -300,6 +300,39 @@ with the madness demon, 27 the nine-eye, 28 the one ruling the husband,
 29 the black man-eater, 30 the one whose power is cut, 31 the black
 wealth-eater, 32 the bride whose power is spent; each with its rite.
 
+**The ages 17–32 with their rites, read 2026-10-26** for the departure's
+readings (ROADMAP P3), on the Gser thang reprint (I3CN5028 img. 367, p. 372,
+ll. 3–20, by eye at about 1.4×); the 1996 etext breaks up on this page, and
+the Zhol and Sakya Centre etexts (WBZ, WB2) were used only to find the lines.
+Doubtful readings in square brackets:
+
+> བག་མའི་ལོ་སྐྱོན་འདི་ལྟར་ཡིན། །བཅུ་བདུན་གདོང་མོ་སྣ་དམར་མ། །ཁྱོ་ལ་ངན་པས་ཞུར་ནག་འཐེན། །བཅོ་བརྒྱད་ནག་མོ་རལ་པ་ཅན། །འཁོར་ལ་ངན་པས་ཐོད་དཀར་གྱོན། །བཅུ་དགུ་དགུ་[གེག]་དམེ་ཤ་ཅན། །རང་ལ་ངན་པས་སེར་ཆས་གྱིས། །ཉི་ཤུ་བྲེ་ཡི་ཁ་གཅོད་མ། །འགྲོགས་ཡུན་ཐུང་བས་[ཕོད་]དང་ནི། །[བྱ་རུ་]བཙུགས་ན་ཉེས་པ་མེད། །རྩ་གཅིག་བྲུབ་ཁུང་ཆེན་མོ་ཡིན། །དེ་ཉིད་རང་ལ་ངན་པ་སྟེ། །རྟེན་འབྲེལ་སྙིང་པོའི་གཟུངས་སྔགས་གདགས། །རྩ་གཉིས་བྱེ་བྲལ་ཀུན་གྱི་མ། །བྱེ་བྲལ་ལན་གཅིག་འབྱུང་འགྱུར་བས། །སྣང་བརྒྱད་བཏགས་ན་འགྲོགས་ཡུན་རིང་། །ཉེར་གསུམ་ཁྱོ་མེད་སྲང་ལག་གཡབ། །ཕ་མིང་ཁྱོ་ལ་གནོད་པས་ན། །དེ་ལ་གདུགས་དཀར་སྣང་བརྒྱད་འདོན། །རྩ་བཞི་ངོ་ནག་ཁྱིམ་མེད་མ། །རང་དང་ཁྱོར་ངན་ཕྱིང་དཀར་གྱོན། །ཉེར་ལྔ་[ཇ་ཟོར་]ཕྱི་མིག་མ། །ཕྱིར་འོང་འགྲོ་ཕྱོགས་མདོ་ལྔ་འདོན། །རྩ་དྲུག་སྟོང་ལྡོག་སྨྱོ་འདྲེ་ཅན། །རྒྱལ་འགོང་གནོད་པས་[སྣ་ཚོགས་གཅུན]། །རྩ་བདུན་དགུ་མིག་ཁ་མོ་ཆེ། །[དངུར་ཆེ་སྣ་ལ་མེ་བཙས་བསྲེག]། །རྩ་བརྒྱད་ཁྱོ་ལ་དབང་བྱེད་མ། །ཁྱོ་ལ་གཟན་པས་[སློབ་གདོང་]དུ། །ཁྱོ་ཡིས་བྱོལ་བས་ཉེས་པ་ཐུབ། །ཡང་ན་མཚན་བརྗོད་བཏགས་ལ་འགྲོ། །རྩ་དགུ་ནག་མོ་མི་ཟན་མ། །འཁོར་ལ་སྡུག་བསྔལ་བསྐྱེད་པས་ངན། །དེ་ལ་འཇམ་དཔལ་སྣང་བརྒྱད་འདོན། །གསེར་གྱི་མདོ་[ཞིག་]མགོ་གསུམ་གཏོ། །[ཞིང་སར་]ཟ་འདྲེ་ཁ་བསྒྱུར་བྱེད། །སུམ་ཅུ་ལ་བབས་ཐང་ཆད་མ། །ཕ་ཁྱིམ་ལྡོག་པས་ཆབ་གཏོར་ཐོང་། །སོ་གཅིག་ནག་མོ་ནོར་ཟན་མ། །གོད་ཁ་འོང་བས་ལྷ་མཆོད་དང་། །གཡང་བསྐྱབ་ནོར་ལྷ་མཆོད་པར་བྱ། །སོ་གཉིས་བག་མའི་དབང་ཐང་ཟད། །མི་ཁ་འོང་བས་མི་ཁ་བསྐྱལ། །དེ་ལྟར་རྟེན་འབྲེལ་དེ་རྣམས་ཀྱིས། །ཉེས་ཀུན་སེལ་བར་ཐེ་ཚོམ་མེད།།
+
+The bride's faults of age: 17, the red-nosed woman, bad for the husband,
+she pulls a black «ཞུར» (not settled); 18, the black woman with matted
+hair, bad for the household, she wears a white head-cloth; 19, the woman
+of nine obstacles with «དམེ» flesh, bad for herself, she wears yellow; 20,
+she who cuts the measure's mouth, companionship short, a rite with
+«ཕོད» and «བྱ་རུ» (not settled) and no fault; 21, the great pit, bad for
+herself, tie on the dhāraṇī of the heart of dependent arising; 22, the
+mother of all separations, a separation comes once, the *Snang brgyad*
+tied on and the companionship is long; 23, the husbandless one waving her
+hand in the street, harming father, brothers and husband, recite the
+*Gdugs dkar* and the *Snang brgyad*; 24, the black-faced homeless one, bad
+for herself and the husband, she wears white felt; 25, the one looking back
+(«ཇ་ཟོར», not settled), she comes back, recite the five sūtras toward where
+she goes; 26, the one with the madness demon, the gyalpo and gongpo harm,
+its rite not settled; 27, the big-mouthed nine-multiple, its line not
+settled; 28, she who rules the husband and devours him, the husband stepping
+aside overcomes it, or she goes with the *Mtshan brjod* tied on; 29, the
+black man-eater, suffering on the household, recite Mañjuśrī and the *Snang
+brgyad*, a golden sūtra and a three-headed *gto*, turn the face of the
+eating demon; 30, she whose power is cut, the father's house declines, send
+water tormas; 31, the black wealth-eater, losses come, worship the gods,
+protect the fortune and worship the wealth gods; 32, the bride whose power
+is spent, gossip comes, send the gossip away. "By these, every fault is
+cleared, without doubt."
+
 #### 7. The month (pp. 372–373, img. 382–383)
 
 > བདུན་པ་ཟླ་བའི་རྫོང་ལུགས་ནི། །ཕོ་ལོ་མདུན་དང་མོ་ལོ་རྒྱབ། །རང་རང་ཟླ་བས་བག་མ་འཆི། །གཉིས་པ་བཟང་ཞིང་བཀྲ་ཤིས་པ། །གསུམ་པ་ཐོན་བུ་གཉེན་ལ་ངན། །བཞི་པ་བག་མའི་ཚང་ཟླ་དང་། །གྱོས་སྐྱུག་གཉན་ཁ་ནེ་ནེར་ངན།།ལྔ་པ་ཕ་མ་དག་ལ་འཛེར། །དྲུག་པ་ཁྱོ་འཆི་ཆེ་ལ་གཟན། །བདུན་པ་རང་དང་འདྲ་བར་བཤད། །ངན་པའི་ཟླ་བར་རྫོང་དགོས་ན། །དང་པོར་ཕོ་ཆས་ཕྱི་ནས་བརྫངས། །བག་མའི་ཐུ་བར་བཅའ་ཡོས་བླུགས། །ལམ་བྱེད་སླེབ་ནས་རྒྱབ་ཏུ་བོར། །ཟླ་བ་བཅུ་གཉིས་ཀེག་བཟློག་བྱ། །གསུམ་པ་ངན་ན་ཁྱི་གུ་དང་། །རེའུ་ལུ་གུའི་རོ་གང་རུང་། །བག་མའི་ལག་ཏུ་སྐྱེས་པས་གཏད། །བུ་ཤི་བྱས་ལ་སླ་བ་འམ། །ཁྱོད་ཀྱི་བུ་སྐལ་གྱིས་ཤིག་ཟེར། །ཡང་ན་བྱི་འམ་སྲེ་མོང་གི། །ཐོད་པར་བག་མའི་སྲིན་ལག་ཁྲག །བྱུགས་ལ་བུ་རྒོད་མ་བོར་བྲི། །གཟའ་སྐར་བཟང་ལ་མལ་འོག་སྦ། །བཞི་པའི་གཏོ་ལ་གྱོས་སྨྱུག་གིས། །སླེབ་གདོང་ས་གཏོར་གཞན་དུ་བྲོས། །ལྔ་པ་རྟེན་འབྲེལ་བག་མ་ནི། །ཕྱི་ནས་བརྫངས་ལ་ལུག་ཐོད་གཅིག །ལྷོ་ནུབ་མཚམས་སུ་བོར་བས་ཐུབ། །ཕག་ཕྲུག་དང་ནི་ཁྱི་རོ་གཉིས། །བག་མའི་མཆན་ཁུང་ཞག་གཅིག་བཞག །བུ་ཤི་བྱས་ལ་ཕྱོགས་བཟང་སྦ། །ཡང་ན་བག་མའི་ཐུ་བ་ནི། །ཕ་ཡི་ཐུ་བས་ལན་གསུམ་སྤྲུག །ང་ལ་མེད་ཅེས་རྐང་འགྲོ་ན། །ཕྱོགས་བསྐོར་རྟ་ཡིན་གཡོན་ནས་ཞོན། །དྲུག་པ་ཁྱོ་ཡི་གདོང་མི་བསྟན། །ཐོད་ངན་གསུམ་དང་མགལ་པ་གསུམ། །བག་མའི་གདོང་དུ་བོར་བར་བྱ། །དེ་ཡིས་ངན་པ་བཟློག་པ་ཡིན། །དང་པོ་སྐྱེས་པའི་ཟླ་བ་དང་། །དེ་ཡི་བདུན་ཟུར་ངན་པ་སྟེ། །འགྲོ་ན་རྒྱས་པ་བཅུ་གསུམ་གཏོང་། །ཕག་ལུག་ཡོས་གསུམ་ལུག་ལ་ངན། །སྟག་རྟ་ཁྱི་གསུམ་ཁྱི་ལ་ངན། །བྱ་གླང་སྦྲུལ་གསུམ་གླང་ལ་ངན། །བྱི་འབྲུག་སྤྲེལ་གསུམ་འབྲུག་ལ་ངན། །དེ་དག་དུར་ཁ་རལ་བ་དེ། །འགྲོ་ན་དུར་ལྔ་འདོན་པ་བྱེད། །བཞི་གཤེད་གོང་མ་ཕུང་ཟླ་དང་། །འོག་མ་རབས་ཆད་ཟླ་བ་ཡིན། །འགྲོ་ན་དོང་ཙེ་འབྲིང་པོ་བྱེད། །ཟླ་ནག་འཆི་བའི་དུར་ས་དང་། །རང་དུར་གཤེད་དུར་དེ་དག་ལ། །བག་མ་བརྫངས་ན་འཆི་བས་སྤང་། །དེ་ཡང་དབང་མེད་རྫོང་དགོས་ན། །ཟླ་བ་ནག་ལ་དཀར་མེ་དང་། །སཱཙྪ་ལོ་གྲངས་རང་བཅོས་བྱ། །དུར་ལ་དུར་འདོན་མཚུན་གསོལ་བྱ།།དེ་དག་སྤྱི་བཅོས་འདི་བཞིན་ཏེ། །ཕ་མ་དག་ལ་ངན་པ་ན། །ཁྱིམ་གཞན་ཞིག་ནས་བརྫངས་པས་ཐུབ། །བག་མ་ལ་ངན་འཁོར་གསུམ་བཏགས། །སྐྱེ་ཆོས་བྱས་པས་ངན་སྐྱོན་ཞི།།

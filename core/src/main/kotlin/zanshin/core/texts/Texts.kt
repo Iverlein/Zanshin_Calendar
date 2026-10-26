@@ -92,6 +92,8 @@ import zanshin.core.tibetan.AnimalFall
 import zanshin.core.tibetan.CourseFall
 import zanshin.core.tibetan.EveryMonthFall
 import zanshin.core.tibetan.HourFall
+import zanshin.core.tibetan.DepartureFall
+import zanshin.core.tibetan.SeasonMonth
 import zanshin.core.tibetan.AnimalPlace
 import zanshin.core.tibetan.ChineseHours
 import zanshin.core.tibetan.nectarHours
@@ -280,6 +282,7 @@ fun fallLine(f: Fall): String {
         )
         is EveryMonthFall -> Catalog.format("CourseFall.everyMonth", dateList(f.dates), dateOrdinal(f.date))
         is HourFall -> Catalog.format("HourFall.${f.rule}", *f.terms.map(::fallTerm).toTypedArray())
+        is DepartureFall -> Catalog.format("DepartureFall.${f.rule}", *f.terms.map(::fallTerm).toTypedArray())
     }
     val at = f.at?.let { key ->
         key.removePrefix("CourseAt.hour.").takeIf { it != key }?.let { Catalog.format("CourseAt.hour", animalOf(Animal.valueOf(it))) } ?: Catalog.text(key)
@@ -301,6 +304,7 @@ private fun animalOf(a: Animal): String = Catalog.text(glossKey(a, "of"))
 private fun fallTerm(t: Any): String = when (t) {
     is Animal -> animalOf(t)
     is AnimalPlace -> Catalog.text(glossKey(t.animal, "place"))
+    is SeasonMonth -> Catalog.text("CourseFall.month.${t.season}")
     is Enum<*> -> Catalog.textOrNull(glossKey(t, "inText")) ?: Catalog.text(glossKey(t))
     is List<*> -> joined(t.map { fallTerm(it!!) })
     else -> t.toString()
@@ -556,6 +560,8 @@ object Sources {
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
     /** The year's earth lords that go round with the year (ch. 31, pp. 174–198; docs/sources/year-month-earth-lords.md, RD3). */
     val WHITE_BERYL_YEAR_EARTH_LORDS = whiteBeryl("chapter 31, pp. 174–198")
+    /** The bride's departure, the second examination of the marriage chapter (vol. 1, ch. 23, pp. 365–377; docs/sources/marriage.md, RD15). */
+    val WHITE_BERYL_DEPARTURE = whiteBeryl("chapter 23, pp. 365–377", volume = 1)
     /** The month's earth lords (ch. 31, pp. 199–223; docs/sources/year-month-earth-lords.md, RD4). */
     val WHITE_BERYL_MONTH_EARTH_LORDS = whiteBeryl("chapter 31, pp. 199–223")
     /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */

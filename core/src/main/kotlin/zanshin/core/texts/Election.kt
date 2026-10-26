@@ -5,6 +5,9 @@
 package zanshin.core.texts
 
 import zanshin.core.kyureki.Tone
+import zanshin.core.tibetan.Couple
+import zanshin.core.tibetan.Departure
+import zanshin.core.tibetan.DepartureDay
 import zanshin.core.tibetan.TibetanCalendar
 import zanshin.core.tibetan.TibetanDay
 import zanshin.core.tibetan.ZodiacSign
@@ -125,6 +128,13 @@ class Election(val work: Activity, val months: List<ElectionMonth>) {
             Activity.entries.filter { it in named }.groupBy { it.family }.toSortedMap().toMap()
         }
 
+        /**
+         * The bride's works (ROADMAP P3, SPEC §5.14): for these, with a spouse set, the screen shows the couple's
+         * departure ([ElectionSpan.departure]) beside the day's own side, which it does not change: the departure is
+         * its own reckoning, with no weighing against the day's voices (WB vol. 1, p. 377).
+         */
+        val BRIDE_WORKS: Set<Activity> = setOf(Activity.WEDDING)
+
         /** The works of [WORKS], whatever their family. */
         val OFFERED: Set<Activity> by lazy { WORKS.values.flatten().toSet() }
 
@@ -201,6 +211,9 @@ class ElectionSpan private constructor(val from: LocalDate, val months: Int, val
         }
         return Election(work, months)
     }
+
+    /** The couple's departure on each day of the span ([Departure.of]), for the bride's works ([Election.BRIDE_WORKS]). */
+    fun departure(couple: Couple): Map<LocalDate, DepartureDay> = days.associate { it.date to Departure.of(couple, it.day) }
 
     companion object {
         fun of(from: LocalDate, months: Int, birth: LocalDate? = null): ElectionSpan {

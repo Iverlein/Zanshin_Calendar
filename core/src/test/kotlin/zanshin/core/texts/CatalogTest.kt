@@ -21,6 +21,9 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.Couple
+import zanshin.core.tibetan.Departure
+import zanshin.core.tibetan.Spouse
 import zanshin.core.tibetan.YearLord
 import zanshin.core.tibetan.YearMonthEarthLords
 import zanshin.core.tibetan.YearStanding
@@ -183,6 +186,7 @@ class CatalogTest {
             // The year's and the month's earth lords: every lord in every year of a sixty and every month's animal.
             (1984 until 2044).flatMap { y -> YearLord.entries.mapNotNull { l -> YearMonthEarthLords.seats(l, y).takeIf { it.isNotEmpty() }?.let { LordTexts.year(YearStanding(l, y, java.time.LocalDate.of(y - 1, 12, 21), it)) } } } +
             Animal.entries.flatMap { m -> YearMonthEarthLords.month(m).map(LordTexts::month) } +
+            departureReadings +
             yearOfLifeReadings()
         (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values + Texts.TRIGRAM.values + Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.COMBINATION_DAY.values + Texts.RAHU.values).forEach { present(it.key) }
         for (r in readings) {
@@ -478,10 +482,45 @@ class CatalogTest {
             }.distinct() +
             (1984 until 2044).flatMap { y -> YearLord.entries.mapNotNull { l -> YearMonthEarthLords.seats(l, y).takeIf { it.isNotEmpty() }?.let { LordTexts.year(YearStanding(l, y, java.time.LocalDate.of(y - 1, 12, 21), it)) } } } +
             Animal.entries.flatMap { m -> YearMonthEarthLords.month(m).map(LordTexts::month) } +
+            departureReadings +
             yearOfLifeReadings()
     }
 
     private val rowKeys = ReadingRow.entries.map { it.key }.toSet()
+
+    /** ROADMAP P3: every reading the departure can show has its paragraph, its rows' keys and its *How it falls* line. */
+    @Test
+    fun `every departure reading has its text`() {
+        val missing = sortedSetOf<String>()
+        for (r in departureReadings) {
+            if (english[r.key] == null) missing += r.key
+            for (f in r.falls) runCatching { fallLines(listOf(f)) }.onFailure { missing += "line of ${r.key}: ${it.message}" }
+        }
+        for (p in zanshin.core.tibetan.DeparturePart.entries) if (english["DeparturePart.${p.name}"] == null) missing += "DeparturePart.${p.name}"
+        for (rule in Departure.FALL_RULES.keys) if (english["DepartureFall.$rule"] == null) missing += "DepartureFall.$rule"
+        assertEquals("", missing.joinToString("\n"))
+    }
+
+    /** Every reading of the bride's departure over a year, for a few couples, with hours and directions (ROADMAP P3). */
+    private val departureReadings: List<Reading> by lazy {
+        // Brides of every year from 1975 to 2012 with their mothers, over a twelve-year span, so that every case is reached.
+        val couples = listOf(
+            Couple(Spouse(1992), Spouse.born(java.time.LocalDate.of(1995, 11, 4))),
+            Couple(Spouse(1984), Spouse(2000)), Couple(Spouse(1976), Spouse(1979)), Couple(Spouse(2001), Spouse(2003)),
+            // A bride on the wind trigram in 2026: the female sky dog and her mule.
+            Couple(Spouse(1995), Spouse(1997)),
+        ) + (1975..2012).map { b -> Couple(Spouse(b - 3 + b % 5, motherBirthYear = b - 30 + b % 7), Spouse(b, motherBirthYear = b - 18 - b % 13)) }
+        val out = linkedSetOf<Reading>()
+        var d = java.time.LocalDate.of(2026, 1, 1)
+        var step = 0
+        while (d < java.time.LocalDate.of(2038, 1, 1)) {
+            for (c in couples) Departure.of(c, d, hour = Animal.entries[step % 12], direction = zanshin.core.tibetan.Direction.entries[step % 8])
+                .findings.forEach { out += DepartureTexts.reading(it) }
+            d = d.plusDays(3)
+            step++
+        }
+        out.toList()
+    }
 
     private fun isRow(key: String) = key.startsWith("reading.") && key.substringAfterLast('.') in rowKeys
 
@@ -629,7 +668,7 @@ class CatalogTest {
             "X4" to listOf("Weekday", "Trigram"),
             "X5" to listOf("GreatCombination", "ElementPair", "CombinationDay", "SpecialDay", "GtsugLagDay", "BurningDate", "TibetanFestival"),
             "X6" to listOf("Yoga", "Mansion", "Karana", "Electional"),
-            "X7" to listOf("EarthLord", "Rahu", "RahuGeneral", "RahuMonth", "RahuSeason", "GreatBlackDay", "Eclipse", "SeasonSign", "Comet", "YearLord", "MonthLord"),
+            "X7" to listOf("EarthLord", "Rahu", "RahuGeneral", "RahuMonth", "RahuSeason", "GreatBlackDay", "Eclipse", "SeasonSign", "Comet", "YearLord", "MonthLord", "Departure"),
             "X8" to listOf("PersonalDay", "OwnDay", "PersonalMansion", "Kinship", "HundredFeet", "Spear", "GreatSpear"),
             "X9" to listOf(
                 "DusSbyor", "WorksSign", "HourWorks", "HourHidden", "HourEarthLords", "HourGnamKhyi", "HourBlaMkhyen", "HourSaRgyal",
