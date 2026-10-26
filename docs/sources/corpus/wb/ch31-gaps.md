@@ -86,6 +86,18 @@ The lord of the north: the one called Beu-byin, with the water noose (1) [as pri
 
 Those that dwell between the quarters: in the south-east, the one called Piling Pharma (པི་ལིང་འཕར་མ) (7); in the south-west the earth lord Grubnyan Lagpa-can (གྲུབ་སྙན་ལག་པ་ཅན) (8); in the north-west the straight, great man (9); in the north-east the earth lord Golden Sun-man (གསེར་ཉི་བོ) (10). Further: in the east the Black Wheel (འཁོར་ནག, 'khor nag) (11); in the south the Yellow Banner (བ་དན་སེར་པོ) (12); in the west the Tiger's Tail (གཟིག་གི་མཇུག་མ) (13); in the north the earth lord Zeba-can (ཟེ་བ་ཅན) (14); the field's ... (ཞིང་གི་ཚས་པ) (15) [the line goes on, p. 177].
 
+## <a id="wb-2-p189b"></a>wb.2:p189b The black years: a work that cannot be put off, and its rite on a day good by planet, mansion and concord
+
+*Read: scan, 2026-10-26.*
+
+> …རྔམ་ཆེན་དྲག་ཤུལ་བྱ་བ་ཡང་། །སྤང་བ་དགོངས་དོན་ཤུགས་ཀྱིས་བསྟན། །སྤྱིར་རྩུབ་ལོ་ནག་ཆེ་ཆུང་དུས། །སྔོན་གྱི་ལས་འཕྲོ་ཡོད་པ་འམ། །དབང་མེད་ཤུགས་ཀྱིས་བྱ་དགོས་ཚེ། །ཟབ་ཆོས་འདི་ལྟར་ཉམས་སུ་[ལོང]། །གཟའ་སྐར་འཕྲོད་སྦྱོར་བཟང་པོའི་ཉིན། །ཤོག་བུར་ནག་པོ་ཆེན་པོའི་གཟུགས། །ཞལ་གཅིག་ཕྱག་གཉིས་གཡས་ཐོད་ཁྲག །…
+
+WB vol. 2, ch. 31, p. 189 (1996 edition, img. 197), in the black years (ལོ་ནག, lo nag): read on the scan of the Gser thang reprint (I3CN5029 img. 195, three lines at 1.7×), which is the 1996 typesetting. «ལོང» is the etext's; the scan's letter could be ཡ or ལ at this size.
+
+"… that grave and violent works too are to be avoided is shown by implication. In general, in the time of the rough black years, great and small, if one has a residue of past karma, or must act under compulsion without choice, practise this profound rite thus: on a day good by planet, mansion and concord (གཟའ་སྐར་འཕྲོད་སྦྱོར, gza' skar 'phrod sbyor), [draw] on paper the form of the Great Black One (ནག་པོ་ཆེན་པོ, nag po chen po), one face, two hands, the right holding a skull of blood …"
+
+What it shows: when a work cannot be put off in a black year, the earth lord is not cancelled by a good day; the good day is the day on which its rite is done. The day's factors and the earth lord are not set against each other here; each has its own use.
+
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
 *Read: machine, 2026-10-25.*

@@ -300,15 +300,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-birth-by-twelve-links.md](claims/wb-birth-by-twelve-links.md) | claim, table | Birth by the twelve links of dependent arising | cites wb.2:p378-384; feeds — |
 | [claims/wb-birth-by-weekday.md](claims/wb-birth-by-weekday.md) | claim, table | Birth by the weekday | cites wb.2:p378-384; feeds — |
 | [claims/wb-birth-life-by-moon-star-hour.md](claims/wb-birth-life-by-moon-star-hour.md) | claim, rule | The measure of life from the moon-star's hour at birth | cites wb.2:p378-384; feeds — |
+| [claims/wb-black-year-rite-good-day.md](claims/wb-black-year-rite-good-day.md) | claim, remedy | A black year's rite is done on a day good by planet, mansion and concord | cites wb.2:p189b; feeds T2.26 |
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
 | [claims/wb-ch34-list-65-works.md](claims/wb-ch34-list-65-works.md) | claim, list | The numbered list of ch. 34's works and the sixty-five examinations | cites wb.2:p378-384; feeds — |
+| [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
 | [claims/wb-day-animal-house-lord.md](claims/wb-day-animal-house-lord.md) | claim, rule | The day animal's earth lord in the house and the dead's burial | cites wb.2:p224-225; feeds — |
 | [claims/wb-digging-earth-figure.md](claims/wb-digging-earth-figure.md) | claim, rule | Breaking the ground: the earth figure, the measures and the signs | cites wb.2:p387; feeds — |
 | [claims/wb-earth-kings-times-black-times.md](claims/wb-earth-kings-times-black-times.md) | claim, rule | The times of the earth kings and the black times | cites wb.2:p236-237; feeds — |
 | [claims/wb-earth-lords-family-sum.md](claims/wb-earth-lords-family-sum.md) | claim, note | WB's sum of the earth-lord families before the fixed list | cites wb.2:p175-176; feeds — |
 | [claims/wb-eight-appearances-quarter-lords.md](claims/wb-eight-appearances-quarter-lords.md) | claim, list | The Eight Appearances and the quarter and corner lords of p. 175–176 | cites wb.2:p175-176; feeds — |
+| [claims/wb-fierce-works-facing-seat.md](claims/wb-fierce-works-facing-seat.md) | claim, rule | On the earth lords' best day for fierce works, the place facing them is still shunned | cites wb.2:p427b, wb.2:p364-365; feeds T2.26 |
 | [claims/wb-five-days-gya-bdud.md](claims/wb-five-days-gya-bdud.md) | claim, rule | The five days: Gyā, Jung-wa, Yangdag, Nectar, Destroyer, Demon | cites wb.2:p224-225; feeds — |
 | [claims/wb-fixed-earth-lords-72.md](claims/wb-fixed-earth-lords-72.md) | claim, list | The seventy-two fixed earth lords by quarter and element | cites wb.2:p175-176; feeds — |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
@@ -317,6 +320,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
 | [claims/wb-twelve-earth-lords-by-day.md](claims/wb-twelve-earth-lords-by-day.md) | claim, list | The twelve earth lords by the day's animal and the corpse's path to shun | cites wb.2:p224-225; feeds — |
+| [claims/wb-work-result-checklist.md](claims/wb-work-result-checklist.md) | claim, list | Ch. 34's closing verse: what is examined before a work's result is foretold, the earth lords among them | cites wb.2:p428b; feeds T2.26 |
+| [claims/wb-ys-no-rank-earth-lords-results.md](claims/wb-ys-no-rank-earth-lords-results.md) | claim, note | WB and the regent's replies give no rank between the earth lords and the day's factors | cites wb.2:p428b, wb.2:p369, ys:i108-111, ys:i113-116, wb.2:p377; feeds T2.26 |
 | [claims/wb1-p468-rdel-khra-whole-board.md](claims/wb1-p468-rdel-khra-whole-board.md) | claim, note | WB vol. 1, p. 468: «རྡེལ་ཁྲ» is the speckled board, whose rite is the 26th's speckled rite | cites wb.1:p468b, wb.1:p468-469; feeds block-31 |
 | [claims/wbz-p104-je-ngan.md](claims/wbz-p104-je-ngan.md) | claim, note | The eighth place not allowed is «je ngan je chung», and the fourteenth «rmang por», on the Zhol blocks | cites wbz:i777, wb.2:p104; feeds block-31 |
 | [claims/wbz-p122-spo-mansions.md](claims/wbz-p122-spo-mansions.md) | claim, note | P. 122's dragon and snake mansions are «spo» and «spo smad» on the blocks | cites wbz:i805, wb.2:p122; feeds block-31 |
@@ -334,6 +339,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-p98-bkra-ro.md](claims/wbz-p98-bkra-ro.md) | claim, note | P. 98's «bkra ngo» is «bkra ro» on the blocks | cites wbz:i768, wb.2:p97-100; feeds block-31 |
 | [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
+| [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 9 passages: 9 scan |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 7 passages: 5 scan, 1 machine, 1 etext |
@@ -361,8 +367,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 18 scan, 5 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 4 passages: 4 machine |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 4 passages: 4 machine |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 5 passages: 1 scan, 4 machine |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 3 passages: 2 scan, 1 etext |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 6 passages: 2 scan, 4 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
@@ -371,6 +378,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 7 passages: 6 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
+| [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 27 passages: 12 scan, 15 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 2 passages: 2 scan |
