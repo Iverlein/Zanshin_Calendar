@@ -22,6 +22,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   name it for, and the twelve links counted from the month's middle term,
   each day's link with its works, directions and remedy; the fangs of the hundred feet on the birth mansion, and the spear
   and great spear on the moon's mansion; the
+  bride's going for a person and their spouse, its seventeen checks on a
+  day and on the election for a wedding; the
   earth lords of the year and the month on a compass, each with the works
   it bars in its place and its remedy, not weighed; the
   hours with the combination period, the earth lords of the hour, the

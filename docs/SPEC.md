@@ -918,6 +918,42 @@ wheels (4), whose rule for each aspect's mewa is not settled.
 Supported range: 1900–2100 Gregorian, for both engines. In 1.0 the date picker
 does not offer dates outside it (§10.2).
 
+**The bride's departure** (WB vol. 1, ch. 23, pp. 365–377, the second
+examination; [sources/marriage.md](sources/marriage.md), RD15; ROADMAP P3,
+built 2026-10-26). `Departure` reckons, for the person and the first spouse
+entered under them (the groom and the bride by their genders, each one's
+birth date where known, their mothers' birth years for the natal trigram),
+every check of the seventeen the inputs make calculable on a day of
+departure: *kham yu*, the twenty brides of misfortune whose condition the
+births and the year give, the trigram, the mewa with Barma's nine gods and
+the named meetings, the coincidences, the year (her bad ages, the white
+years, the progressed sign, the aspects against the year), the month, the
+date and its animal, the weekday, the mansion and the combination days, the
+earth lords ch. 23 names (the date's, the year's and the month's), the hour
+and the direction where given, the sky dog's own reckoning, the five people
+and receiving the bride. Each finding has its reading, its remedy where WB
+gives one, and its *How it falls* line (`DepartureTexts`).
+- **The verdict, a stated choice**: WB ranks none of the seventeen above
+  another, and each bad finding has its remedy. A day counts bad for the
+  going if any weighed finding of its month or day is bad, good if one is
+  good and none bad, middling otherwise; what holds over the whole year (her
+  age, her trigram, mewa and progressed sign of the year, the year's sign) is
+  shown apart, since it is the same on every day of the year. **Not weighed**
+  (D4): the earth lords and the sky dog, which ch. 31 counts among the year's
+  lords; nor the five people and receiving the bride, which name people.
+  Anurādhā with Tuesday in a fire year, which p. 377 says has no remedy, is
+  flagged.
+- **Left out**: what needs the bride's mother's marriage year or the
+  groom's father's house year (twenty brides 1–3, 18's first way, 19's
+  first way), the parents' birth mewa, the *rgya ma* and the twelve bad
+  *klung*, the second *kham yu* count, part 3's other learned views, where she
+  is placed (part 17), the hour by clan element; and "fortune gained" among
+  the directions, which the engine does not yet name.
+- **Where it shows** (§10.3, §10.8): a row in Your day, "The bride's going",
+  with the day's and the year's verdicts, its sheet every finding; and on the
+  election for a wedding a grid of the couple's days for each month, beside
+  the days' sides and not in them.
+
 #### 5.9.4 The dead
 
 WB vol. 2, ch. 29, the copper vessel, the reckoning for the dead (*gshin

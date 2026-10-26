@@ -86,7 +86,7 @@ moves up as soon as it is unblocked.
 | <a id="block-27"></a>27 | [P1](#p1) Relatives — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
-| <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
+| <a id="block-30"></a>30 | [P3](#p3) The bride's departure — built 2026-10-26 | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22; R2m the hundred pebbles, R2n the dead's time of death and R2o the moment's trigram and mewa built 2026-10-22 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — built: H2a, the elements' illnesses, 2026-10-22; H2b–H2g, the reckoning itself, 2026-10-26 (the moment of falling ill, the five pebbles, the nineteen, the year, the household, the board of the fifteen starting points), with stated choices where the texts are silent (SPEC §5.9.8); left out: the nine classes (229), the masters' reckonings off the board, the verdict on death, the pillow-guard (359), the rites for aspects in decline | [RD12](#rd12), [RD8](#rd8), [RD22](#rd22), [RD41](#rd41), [RD52](#rd52) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
@@ -3749,7 +3749,7 @@ groups it shows (`tools/emulator/store_shots.py`).
   gloss of its own; store shot 7 retaken in both languages with a mother
   entered; the release build checked.
 
-### <a id="p3"></a>P3. The bride's departure — planned 2026-10-11
+### <a id="p3"></a>P3. The bride's departure — planned 2026-10-11, built 2026-10-26 (SPEC §5.9.3)
 
 - **Gap.** WB's chapter 23 (vol. 1, pp. 351–379, img. 361–389, the
   marriage and road reckonings) has three parts: whether two people
@@ -3771,6 +3771,20 @@ groups it shows (`tools/emulator/store_shots.py`).
 - **Block.** [30](#block-30); reads [RD15](#rd15), with [RD3](#rd3)'s sky dog of
   brides; waits on [27](#block-27) (P1) and [25](#block-25) (T2.26, for
   its earth lords and the sky dog).
+- **Built 2026-10-26.** `Departure` (core) reckons every check the couple's
+  births make calculable (SPEC §5.9.3), by an engine and four writers of its
+  readings in parallel; a row in Your day and a grid on the election for a
+  wedding. Stated choices for the owner: the verdict by the month's and the
+  day's findings, any bad one making the day bad; the sky dog not weighed, as
+  D4 keeps the earth lords out (ch. 31 counts it among them). Checked:
+  `DepartureTest` (Mipham's worked *kham yu*, the bad ages, the coupling dates,
+  the notes' hours, the directions, a month of a couple's days worked by hand),
+  `CatalogTest` over every case for 42 couples over twelve years,
+  `:core:test` and `:app:testDebugUnitTest`; the row and its sheet on the
+  emulator in English. Not checked on the emulator: the election's grid. Doubts
+  for a reader (the engine's report): Kṛttikā in p. 377's no-remedy meeting,
+  the coupling year, the sky dog's food days in ch. 23 against ch. 31, «ར་བ་བཞི»,
+  the ages 17–32, «ཕྱྭ་ལོན» among the directions.
 - **Done when.** A vector of a couple's good and bad days for the
   departure; `ElectionTest`; SPEC §5.14, §10.8; both languages.
 
