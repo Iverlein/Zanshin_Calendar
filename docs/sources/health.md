@@ -357,6 +357,24 @@ Medicine tab, in our words. Left out: «གཉན» before wind (open question
 and the planets' and mansions' results, which need the time of onset's
 element (open question 48).
 
+### Built, 2026-10-26 (ROADMAP H2b–H2g)
+
+The rest of the chapter as far as the corpus file ([corpus/wb/ch25.md](corpus/wb/ch25.md))
+and the notes ([corpus/wb/notes-3.md](corpus/wb/notes-3.md)) hold it, on
+the Health screen's Illness tab, in our words: the trigram's, the day
+animal's, the mewa's and the planet's readings of the moment of falling
+ill, the kind of spirit, the five pebbles and their splits, the sixteen
+fought pebbles, the progressed sign, the power by the sky year, the
+ransoms by the year animal and by the trigram, the rite of fleeing, the
+helpers, the twelve stages and the board of the fifteen starting points
+above with its plank-trees, the spirit by the body's black and the
+pebble door. How each is reckoned, and the choices made where the text
+is silent: SPEC §5.9.8. Every word the corpus marks «» or doubtful is
+left out of the readings; so are the household numbers, looks and
+personal names of the trigrams' houses, the omens of pp. 433–435's
+danger column, and the splits whose illness names are not read (ten of
+pp. 435–436).
+
 ### Open
 
 **The count word, read 2026-10-18 (question 47).** The dictionaries of

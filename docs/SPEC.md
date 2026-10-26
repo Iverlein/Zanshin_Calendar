@@ -1236,6 +1236,101 @@ point, its pebbles drawn by groups ("upper ○×○ · lower ××○ · middle �
 its sheet giving the eight checks' readings and then the board's. Tested
 by `ThirtyTest`.
 
+#### 5.9.8 The illness reckoning
+
+WB vol. 1, ch. 25, the illness reckoning (*nad rtsis*; ROADMAP H2,
+built 2026-10-26 but for the parts below; [sources/health.md](sources/health.md),
+[sources/corpus/wb/ch25.md](sources/corpus/wb/ch25.md), the notes in
+[corpus/wb/notes-3.md](sources/corpus/wb/notes-3.md)), reckoned for an
+illness that came on at a given time, and with a person chosen for the
+sick person (`IllnessReckoning`, core `tibetan/Illness.kt`; `IllnessTest`).
+WB gives one worked example, the twelve stages' (p. 442), which the test
+holds; the other parts are tested on days worked by hand.
+
+- **The moment of falling ill** (H2b): the Tibetan day turns at dawn,
+  05:00, and the moment's trigram and mewa are found as the moment's are
+  (§5.9.5), the date's own at dawn run on through the day. That the
+  trigram and mewa "under which one fell ill" (p. 431) are the moment's,
+  not the year's or the month's, is a stated choice: ch. 25 names the
+  time as the year, month, day and hour (p. 450), and the notes join the
+  trigram and mewa to those four (vol. 2, p. 497). Read by them: the
+  trigram's illness, spirits, the house they come from and the rite
+  (pp. 427–428), and what the illness repays (pp. 447–448), its ransom
+  and the rite of fleeing (pp. 443–445); the day animal's, the lunar
+  date's animal as on the day page (§5.10, pp. 428–429; question 360);
+  the mewa's illness, spirits, rites and ransom (pp. 431–433); and the
+  spirit by the planet of the weekday (p. 447).
+- **The kind of spirit** (pp. 433–435): the birth mewa fought against
+  the descending mewa, the moment's: the descending one's element the
+  mother of the birth mewa's, or the same, the going god; the enemy or
+  the son, the debt demon; the friend, the tertsok demon; each of the
+  nine mewas with its three.
+- **The five pebbles** (H2c, p. 435; the notes, p. 497; questions 226,
+  389): the life force of the year, month, day and hour of falling ill,
+  and the element most among the four times' trigrams. The day's trigram
+  is the date's (the almanac rule, vol. 1, p. 178), the hour's the
+  moment's, the month's the one its first date begins with, the year's
+  found by the same triads on the year's animal (li for a tiger, horse or
+  dog year), as the *Speckled Elements*' line reads (question 390): the
+  last two stated choices. Where no one element is most among the four
+  trigrams (two and two, or four apart, on which the notes say nothing is
+  taught), only four pebbles are laid. The element most among them is
+  the illness, wood wind, fire blood, earth bile, iron phlegm, water cold,
+  opening its reading of §10.10 (H2a); two sharing the most, both, as
+  p. 438 weighs "half and half"; a split of two elements that pp. 435–436
+  names opens its own illness (seventeen of them; the splits whose names
+  are not read are left out, `IllnessReckoning.SPLITS`).
+- **The year** (H2e): where the progressed sign (§5.9.1) of the year of
+  falling ill reaches, the life force fought against its life force (the
+  notes, p. 496): own, enemy, mother or friend, son (p. 426); the spirit
+  by the power and the sky year's pair of animals (pp. 426–427, thirty
+  readings; the sky year is the year of falling ill, question 361); the
+  ransom sent by the birth year's animal (pp. 429–431).
+- **The nineteen pebbles** (H2d, pp. 445–447; the notes, p. 498): the
+  life force and the body fought against the year's, month's, day's and
+  hour's, white as the circles' pebbles (§5.9.6), and each one's rise
+  and decline carried onto the time's animal, white on the six good
+  stages: sixteen, each with its white or black reading, and their count
+  (no text gives a verdict by the count). The date's pebble is its
+  goddess (§5.11, already on the Today tab), the weekday's the planet's
+  spirit above; the mansion of falling ill (p. 447) is left out, its
+  mansions' names being read by machine only.
+- **The household** (H2f): the people the sick need by the life force's
+  element (p. 445): the nurse its mother, the physician its son, the
+  messenger its friend; the pillow-guard's relation is in no text read
+  (question 359). The hearth-keeper's stage: the twelve stages of rise
+  and decline of the power of whoever keeps the hearth and food, carried
+  onto the hour of asking (pp. 440–442; the notes, p. 498), reckoned for
+  the person chosen at the present hour; WB's worked example, a wood rat
+  woman at sunrise on decline, is `IllnessTest`'s.
+- **The board of the fifteen starting points** (H2g, pp. 417–425): each
+  point counts from its start as many years as lived, the start the
+  first (D19), and the year reached's life force, body, power and luck
+  are fought against the person's: mother and friend white, enemy black,
+  son speckled ("a white and a black"), itself white for earth and water
+  and black for wood, iron and fire (p. 417). The starts are signs in an
+  element related to the power (as D21 takes "the reckoned's element"),
+  or places from the sky year: "the sky-year's earth" (གནམ་ལོའི་ས) is read
+  as the sky year's place, as the *Moonbeams*' plank-tree counts from the
+  sky year's thirteenth and fifth above and below; point 9's "mother's
+  hare or son's" is the mother's. "Down" (ཐུར) runs forward through the
+  sixty, as the progressed year's count does (p. 387): counted backward,
+  point 1, from the sky year down by the years lived, would land on the
+  birth year itself every time. Each aspect's fifteen pebbles are its
+  plank-tree, all white standing, all black broken, else mostly white,
+  mostly black or even (speckled), a stated grading of the five verdicts
+  pp. 422–423 read; the body's black pebbles name the spirit (p. 425).
+  The pebble door, the sixteenth, fights the person's four against the
+  sky year's: a black door is blocked. All of these are stated choices
+  of a reckoning WB gives no worked example of.
+- **Not built:** the nine classes of the fifteen (p. 425; question 229:
+  a difference among fifteen pebbles of two colours is odd, yet WB names
+  a fourth and a sixth), the reckonings read off the board by the masters
+  (pp. 423–425), the verdict on death (p. 445), whose conditions name no
+  time or count, the rites for the aspects in decline and in enemy rise
+  (pp. 444, 448–449), which no pebble of the board says are met, and the
+  time of onset's element (question 48).
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*
@@ -3911,7 +4006,7 @@ The Tibetan day's illness, the la and the person's element on a screen
 of their own (ROADMAP H1, built 2026-10-15; [sources/health.md](sources/health.md)),
 opened from the menu (§10.5) and from Your day's last row (§10.3) on
 the day shown there. Its header has Back, the title and the date, and
-the day before and after. Under it four tabs by subject, and a line:
+the day before and after. Under it five tabs by subject, and a line:
 the readings are the tradition's, not medical advice.
 
 - **Today:** "Falling ill today", one row whose sheet gives in turn the
@@ -3933,6 +4028,29 @@ the readings are the tradition's, not medical advice.
   says they will be done; born under the two-black, p. 405 in the year
   sheet makes moxa good and bloodletting bad, and WB says not which
   leads).
+- **Illness** (ROADMAP H2, 2026-10-26): WB's illness reckoning (§5.9.8)
+  for an illness that came on on the shown day. Its first row, "Fell
+  ill at", is the time, the present time to begin with, which opens a
+  clock (before 05:00 the illness falls in the Tibetan day before), with
+  the Tibetan date under it. Then "The moment of falling ill": the
+  trigram, what it repays, its ransom and the rite of fleeing, the day
+  animal, the mewa and the planet, each a row opening its reading; "The
+  illness by five pebbles": the five drawn as elements, the split's
+  illness where p. 436 names it, and the element most, opening its
+  H2a reading. With a person chosen (else the way to People): "The
+  harmful spirit", the kind by the birth mewa against the moment's, the
+  progressed sign's reach (with the person's gender), the power and the
+  sky year, and the ransom of the birth year; "The nineteen pebbles",
+  the count of the sixteen and a row for each, white lucky and black
+  unlucky; "The household", the nurse, physician and messenger by their
+  life force's element, and the hearth-keeper's stage at the present
+  hour; "The board of the fifteen starting points", each plank-tree with
+  its verdict and its pebbles drawn by the man's, woman's and children's
+  five, the spirit by the body's black, the blocked doors, and the fifteen
+  points with the year reached and their four pebbles drawn ○ × ◐. A
+  note says what is reckoned, by which clock and choices, and what is
+  not. The same view stands in the Reckonings (§10.11) on a day of its
+  own.
 - **Treatment:** the medical works (`ActivityFamily.MEDICINE`) as the
   person's day page gives them (§5.12), each with the voices on its
   side and their readings; on the person's day of every work avoided
@@ -3958,8 +4076,8 @@ the readings are the tradition's, not medical advice.
 
 Not built: Dr. Nida Chenagtsang's own tables, which are WB's but for the
 six moxa dates and the syllables (RD7–RD9), the la pulse (a sign read at
-the pulse, not by date), WB's illness reckoning (H2) and the mansion of
-conception.
+the pulse, not by date), the parts of WB's illness reckoning §5.9.8
+lists, and the mansion of conception.
 
 ### 10.11 The Reckonings
 
@@ -4095,6 +4213,11 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   stepped to is reckoned from its place in the sixty-year cycle
   (`YearOfLife.yearSign`), the same as from any day in it
   (`ReckoningsTest`).
+- **The illness reckoning** (§5.9.8, ROADMAP H2): the list's last row,
+  "By the moment of falling ill"; its view has Back, the title, the date
+  and the day before and after, and under them the Health screen's
+  Illness tab (§10.10) for that day, today and the present time to begin
+  with.
 - **Back** leads the way it came: from a reckoning to the list, or, from the year of age,
   when the year's balloon opened it, to the page; from the list out of
   the section.

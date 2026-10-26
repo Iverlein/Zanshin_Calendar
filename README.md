@@ -54,8 +54,14 @@ readings of that day and sunrise, solar noon and sunset for your place.
   quarter of your element, the la's element, the vitality and body of
   the date and the year of age on the seven-red; the medical works as
   the day is weighed; the Four Tantras' humours and seasons; and each
-  element's illness, where it lies, its door and its signs. The
-  tradition's readings, not medical advice.
+  element's illness, where it lies, its door and its signs; and the
+  illness reckoning for an illness that came on at a given time: the
+  trigram, day animal, mewa and planet of that moment with their
+  spirits, ransoms and rites, the illness named by five pebbles, the
+  kind of harmful spirit, the progressed sign and the sky year, the
+  nineteen pebbles, the people the sick need, and the board of the
+  fifteen starting points with its four plank-trees, also among the
+  Reckonings. The tradition's readings, not medical advice.
 - **旧暦:** month and day with the moon's age, 六曜, the current solar term
   with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
   九星 of the day, month and year, 選日 and 暦注下段 (with the lower band's

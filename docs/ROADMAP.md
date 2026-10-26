@@ -30,7 +30,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | A1 Light theme and colour themes — built 2026-10-15: System, Ink, Paper and Night (block 33), Maroon and Sepia (block 38) | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
 | 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, their works counted (the owner, 2026-10-11) | D4, how they are counted |
-| 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 open | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
+| 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 built 2026-10-26 (H2a 2026-10-22) | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
 | 15 | U8–U18 The UX review of 2026-10-11 | M | Eleven small items, each S, none changing a side, a tone or a reading: the sky line as one line, the date picker's jump, the brief's rows in the 旧暦 brief's form, the hours in short form, dots that read, second lines that state the fact, the election's civil dates, the calendar toggle, the two briefs alike, the bell's time picker, a first-run line; all eleven built 2026-10-11, blocks 34 to 37 | — |
@@ -88,7 +88,7 @@ moves up as soon as it is unblocked.
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
 | <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22; R2m the hundred pebbles, R2n the dead's time of death and R2o the moment's trigram and mewa built 2026-10-22 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
-| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — H2a, the elements' illnesses, built 2026-10-22; the reckoning itself: every reading it waits on is done (RD41 read pp. 421–452 on the scan 2026-10-23, RD52 the day animal and the five people 2026-10-25); what stays open are questions the texts read leave unanswered, to be built with a stated choice or left out: "the sky-year's earth" (གནམ་ལོའི་ས), which ch. 25 does not define, the fifth pebble's trigram and the notes' seven (226, 227, 389), the shares (228–230), the pillow-guard (359) | [RD12](#rd12), [RD8](#rd8), [RD22](#rd22), [RD41](#rd41), [RD52](#rd52) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
+| <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — built: H2a, the elements' illnesses, 2026-10-22; H2b–H2g, the reckoning itself, 2026-10-26 (the moment of falling ill, the five pebbles, the nineteen, the year, the household, the board of the fifteen starting points), with stated choices where the texts are silent (SPEC §5.9.8); left out: the nine classes (229), the masters' reckonings off the board, the verdict on death, the pillow-guard (359), the rites for aspects in decline | [RD12](#rd12), [RD8](#rd8), [RD22](#rd22), [RD41](#rd41), [RD52](#rd52) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
 | <a id="block-35"></a>35 | [U9](#u9) + [U17](#u17) — the pickers — built 2026-10-11 | — | — | Build block 35: U9 and U17, the date picker's year and month jump and the bell's time picker. |
@@ -3482,7 +3482,7 @@ show them too. What WB has and what the readings found is in
   date. The owner's word: had the difference come from the Four
   Tantras it would be followed; since it does not, WB counts higher.
 
-### <a id="h2"></a>H2. The illness reckoning — planned 2026-10-11
+### <a id="h2"></a>H2. The illness reckoning — planned 2026-10-11, built 2026-10-26 (SPEC §5.9.8, §10.10, §10.11)
 
 - **Gap.** WB's illness reckoning (*nad rtsis*, vol. 1, ch. 25,
   pp. 417–452, img. 427–462): its fifteen starting points, and the
@@ -3509,6 +3509,73 @@ show them too. What WB has and what the readings found is in
   the illness identified by five pebbles waits on open questions 226–228
   (the fifth pebble's trigram, the notes' seven, the shares) and has no
   worked example; the time of onset's element on open question 48.
+
+- **H2b–H2g The illness reckoning — built 2026-10-26** (block 32,
+  SPEC §5.9.8, §10.10, §10.11): the Health screen's fifth tab, Illness,
+  and the same view in the Reckonings, for an illness that came on at a
+  time set on a clock (the present time to begin with) on the shown day;
+  `IllnessReckoning`, core `tibetan/Illness.kt`. H2b, the moment of
+  falling ill: its trigram (illness, spirits and house, what it repays,
+  its ransom and the rite of fleeing; pp. 427–428, 443–448), the day
+  animal (pp. 428–429), the mewa (pp. 431–433), the planet of the
+  weekday (p. 447), and the kind of spirit by the birth mewa against the
+  moment's (pp. 433–435). H2c, the five pebbles (pp. 435–436): the life
+  force of the year, month, day and hour of falling ill and the element
+  most among their trigrams; the element most opens its H2a illness, and
+  seventeen splits of two elements open their own. H2d, the sixteen
+  fought pebbles of the nineteen (pp. 445–447). H2e, the progressed
+  sign's reach, the power by the sky year's pair (thirty readings) and
+  the ransom of the birth year (pp. 426–431). H2f, the nurse, physician
+  and messenger (p. 445) and the hearth-keeper's stage at the hour of
+  asking (pp. 440–442). H2g, the board of the fifteen starting points:
+  sixty pebbles, the four plank-trees and their verdicts, the spirit by
+  the body's black, the pebble door (pp. 417–425). Families
+  `IllnessTrigram`, `IllnessTrigramCause`, `IllnessTrigramRansom`,
+  `IllnessFlee`, `IllnessDay`, `IllnessMewa`, `IllnessSpirit`,
+  `IllnessPlanet`, `IllnessSplit`, `IllnessPebble`, `IllnessReach`,
+  `IllnessYear`, `IllnessRansom`, `IllnessStage`, `IllnessHelper`,
+  `IllnessPoint`, `IllnessDoor`, `IllnessTree`, `IllnessBlack` (item
+  H2), English and Russian, written from the corpus passages; words
+  printed doubtful or not identified are left out of them.
+- **Stated choices** (SPEC §5.9.8, for the owner to overrule): the
+  trigram and mewa of falling ill are the moment's, as R2o finds them;
+  the year's trigram for the fifth pebble by the month's triads on the
+  year's animal (question 390), the month's the one its first date
+  begins with; four pebbles only where the four trigrams give no single
+  most element; the sky year is the year of falling ill (question 361);
+  the twelve stages are the chosen person's power at the present hour;
+  on the board, "the reckoned's element" is the power (as D21), "the
+  sky-year's earth" the sky year's place (the *Moonbeams*' heads count
+  from the sky year's thirteenth and fifth), "down" forward through the
+  sixty (point 1 counted backward would land on the birth year every
+  time), the count inclusive (D19), the son a speckled pebble, point 9
+  from the mother's hare, and the five verdicts graded all white, mostly
+  white, even, mostly black, all black.
+- **Checked.** `IllnessTest`: WB's worked example of the twelve stages
+  (p. 442: a wood rat woman at sunrise on decline); a day worked by hand
+  (15 October 2026, 06:45: the four times' signs, the trigrams li, kham,
+  li, khon, the pebbles fire, water, fire, wood, fire); the sixteen
+  pebbles and the board for a fire dragon born 1976 in 2026 (points 1,
+  2 and 10, the door); the spirit's kind, the helpers, the progressed
+  sign. `CatalogTest` (no allowance), `:app:testDebugUnitTest`
+  (`ReckoningsTest` with the new entry), `kb.py check`. On the emulator in
+  English and Russian (26 October 2026, a man born 1976-06-01): every row
+  of the tab, the sheets of the trigram, the spirit's kind, the illness
+  by five pebbles, a fought pebble, the hearth-keeper, a point, a
+  plank-tree, the spirit by the body's black and a blocked door; the
+  Reckonings' row and view; the clock, 04:14 falling in the 14th, the
+  Tibetan day before. No release build: the new enums are top-level,
+  kept by `-keepnames enum zanshin.core.**`.
+- **Left out, and why.** The nine classes of the fifteen (question 229);
+  the masters' reckonings read off the board (pp. 423–425: the golden
+  bridges, the turquoise juniper, the wish-tree, the houses of glory and
+  misfortune, the death- and life-eye, the boundary), whose rules name
+  rows and pairs the text does not fix; the verdict on death (p. 445),
+  whose conditions name no time or count; the pillow-guard (question
+  359); the rites for the aspects in decline and in enemy rise
+  (pp. 444, 448–449), which no pebble says are met; the mansion of
+  falling ill (p. 447), its mansions' names read by machine only; the
+  time of onset's element (question 48).
 
 ### <a id="h3"></a>H3. The menu's groups collapsible — built 2026-10-15 (SPEC §10.5)
 
