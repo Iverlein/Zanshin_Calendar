@@ -2036,7 +2036,11 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   can check and is the test's witness (`EarthLordCoursesTest`). Shown and
   not weighed: WB's order of strength (vol. 2, p. 376) ranks the seven
   factors and the combination period and gives the earth lords no place
-  (§5.12). One row in "Also today" (§10.3).
+  (§5.12). No text weighs them; the *kun phan me long* closes the
+  weighing and meets the earth lords by screening and remedy "as the
+  occasion comes" (img. 14), and every earth lord stays outside the
+  weighing, shown with its remedy (D4, the owner, 2026-10-26;
+  [sources/weighing.md](sources/weighing.md)). One row in "Also today" (§10.3).
 - **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
   the *kun phan me long* §10: each double hour is halved, each half ruled
   by a planet, counted from the weekday's own planet six on by day (from

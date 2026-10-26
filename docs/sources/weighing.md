@@ -697,6 +697,9 @@ mewa and the link. A lord that names whom it harms might instead count
 as a particular case (*dmigs bsal*) that leads (question 409). The
 questions these searches raise are 408–419.
 
+**Settled by the owner, 2026-10-26 (D4):** the earth lords stay outside
+the weighing and are met by their remedies only (ROADMAP T2.26).
+
 ## The earth lords against the results in WB and the regent's replies (D4, A, 2026-10-26)
 
 Read for the owner's D4 (ROADMAP T2.26), reader A of three: WB itself beyond its notes, and the regent Sangye Gyatso's (སངས་རྒྱས་རྒྱ་མཚོ, sangs rgyas rgya mtsho) replies on it, *Removing the Tarnish* (བཻ་ཌཱུརྻ་གཡའ་སེལ, bai DUrya g.ya' sel; YS). The search covered WB vol. 2, ch. 31 (pp. 174–240), ch. 33 (pp. 297–377) and ch. 34 (pp. 378–428) in the 1996 etext, with ch. 29–30 (pp. 44–173) for the earth lords' lines; vol. 1, ch. 13–14 (pp. 104–190) and ch. 23's departure (pp. 365–379); and YS's questions 161–193 (vol. 1, I5875 img. 108–117) and the replies 161–190 (vol. 2, I5876 img. 18–52), by Yigdzin-1 over every one of those images. Every passage quoted is in the corpus layer under its id, with its reading state; the passages read on the scan were read on the Gser thang reprint of WB (I3CN5029, image = page + 6, the 1996 typesetting) and on the Taikhang YS.
