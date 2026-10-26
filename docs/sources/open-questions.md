@@ -729,6 +729,14 @@ the text, not about the app.
     «ས་བདག་གཙོ་བོ», «ས་བདག་ཉིད་གཙོ» and others). The notes keep the two as
     separate heads (the third and the fourth of the general reckoning), and
     their «དམིགས་སུ་བསལ་བ» belongs to the fourth, the results of each work.*
+    *Answered as far as the sources go, 2026-10-26 ([weighing.md](weighing.md),
+    *What the three searches give D4*): no text weighs them. KP closes the
+    weighing and sends "the earth lords and the other bad kinds" to screening
+    and remedy, "applied as the occasion comes" (img. 14, read on the scan);
+    SY does the same; WB, the regent's replies, the manuals, the ground rites
+    and the Men-Tsee-Khang almanac bar the lord's place, direction or time
+    whatever the day's good, and never set it against the date's results.
+    Questions 408–419 follow from it.*
 
 42. **Answered as far as the sources go, 2026-10-19. WB's notes vol. 2, p. 534 (img. 542): «བྱ་བ་གང་བྱེད་དུས་ཞིབ་པར་བརྩི་བ་གལ་ཆེའོ།».**
     Does it mean the hour's earth lords (the 37) are to be reckoned at the

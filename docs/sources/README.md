@@ -545,6 +545,18 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | open; cites wb.2:p236-237 |
 | [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | open; cites wb.2:p378-384 |
 | [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
+| [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | open; cites wb.2:p428b |
+| [questions/q0409.md](questions/q0409.md) | question q409 | Is the departure's «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ» the weighing's dmigs bsal, leading over the day? | open; cites wb.1:p373-375, wb.2:p376 |
+| [questions/q0410.md](questions/q0410.md) | question q410 | Does the slight source of the date's earth lords not in ch. 31 touch their prohibitions too? | open; cites wb.2:p377 |
+| [questions/q0411.md](questions/q0411.md) | question q411 | Is the place shunned in the fierce rites the seat one would face? | open; cites wb.2:p427b |
+| [questions/q0412.md](questions/q0412.md) | question q412 | Does ch. 23's rule of joining good and bad «ཐམས་ཅད་ཀུན་ལ» reach the earth lords? | open; cites wb.1:p370 |
+| [questions/q0413.md](questions/q0413.md) | question q413 | What are KP's «འགྲོ་བདེ་གཉིས», and does screening a bad planet-mansion meeting leave its result? | open; cites kp:i14 |
+| [questions/q0414.md](questions/q0414.md) | question q414 | Are the earth lords' screenings after KP's weighing applied whatever the weighing gives? | open; cites kp:i14 |
+| [questions/q0415.md](questions/q0415.md) | question q415 | Does the supplement set the sky dog above the other nine checks of a bride's going? | open; cites kd.3:p641-642 |
+| [questions/q0416.md](questions/q0416.md) | question q416 | DZ «སྣ་ཚོགས་བྱ» or KD's «སྣ་ཆོག་བྱ», the nose rite: which is meant? | open; cites dz:i045 |
+| [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | open; cites — |
+| [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
+| [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | open; cites sdp:p238-241 |
 
 <!-- end pool index -->
 

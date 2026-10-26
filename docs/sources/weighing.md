@@ -467,7 +467,10 @@ weight? **None found.** Searched: WB's notes (vol. 2, pp. 474–541, the
 etext, every place of «ས་བདག», «སྟོབས», «ནུས་པ», «ཆེ་ཆུང», «དམིགས་བསལ»,
 «གཙོ་བོ»), the three readers of WB in KD (vol. 1, 2 and 3, the etext), and KP's
 prose (img. 13–14, the passage above, read on the scan 2026-10-04 and
-2026-10-06: it does not contain «ས་བདག»). What the texts do say is
+2026-10-06: it does not contain «ས་བདག»; **corrected 2026-10-26**: the
+quotation above stops short of the sentence's end, which on img. 14 does
+name them, sending them to screening and remedy, *The earth lords against
+the results in the manuals* below). What the texts do say is
 below, and none of it is a rank.
 
 ### WB's notes: the earth lords are a section of their own, beside the results
@@ -564,9 +567,12 @@ the results of ch. 33–34.
   pp. 604, 615–616, of DZ below) and an unrelated passage, where the
   earth lords are weighed against nothing.
 
-A text outside the readers of WB, in the same volume: Dharmaśrī's
-*'Byung rtsis man ngag zla ba'i 'od zer* (DZ; KD vol. 3, etext pp. 654,
-661–662), a verse manual, sets the earth lords as one entry in lists, not
+A text outside the readers of WB, in the same volume, taken here for
+Dharmaśrī's *'Byung rtsis man ngag zla ba'i 'od zer* (DZ; KD vol. 3,
+etext pp. 654, 661–662) and **corrected 2026-10-26** to Kun bzang blo
+gros's supplement to it (printed pp. 634, 641–642, after DZ's colophon
+on p. 516; the print reads «འཛེམ» where the etext has «འཛིམ»; read on the
+scan in *The earth lords against the results in the manuals* below), a verse manual, sets the earth lords as one entry in lists, not
 over the others: the ten that complete a bride's departure, «ལོ་དང་སྨེ་བ་སྤར་ཁ་དང་། །དར་གུད་ཟླ་བ་ཞག་དུས་ཚོད། །གཟའ་སྐར་ས་བདག་བཅུ་ཡིན་ཏེ།»,
 and the rules of what to avoid, «གཟའ་དང་ཚེས་གཉན་རྒྱུ་བའི་དུས། །ས་བདག་རྒྱུ་དུས་མི་བཏང་འཛིམ། །…
 ས་བདག་ངན་པ་སྤང་བླང་ལ། །…ཚེས་ལ་འཆར་བའི་ས་བདག་དག །གདུག་ཅིང་རྩུབ་པའི་རིགས་ལ་བྱོལ།»
@@ -607,6 +613,89 @@ bear on the choice, and are inferences, not statements of any text:
 - BDRC's full text, 2026-10-19 (open question 41): «ཚེས་གཟའ་བཟང་ཡང་ས་བདག»,
   «ས་བདག་ངན་ན», «ས་བདག་གི་ཀོ་ལོང་ཆེ», «ས་བདག་གཙོ་བོ», «ས་བདག་ལ་མ་ལྟོས»,
   «ས་བདག་ཉིད་གཙོ»: no manual sets an earth lord against the date's results.
+
+## What the three searches give D4 (2026-10-26)
+
+RD6 searched WB's notes, KD's readers of WB and KP's prose. On
+2026-10-26 three readers took the search further, each recorded in its
+own section below: WB itself and the regent's replies (A); the manuals
+(B); the earth rites, the almanacs and modern works (C). Their
+*Searched and not found* lists say what was covered. **No text ranks
+the earth lords against the seven of the order of strength or against
+the combination period.** The silence is now general: WB ch. 13, 23,
+29–31, 33 and 34; the regent's replies 161–193; KP, SY, DZ and its
+supplement, LT, UT, ZG, NM, JL, CN and KD vols. 1–3; Kongtrul's
+*Treasury*; the Kālacakra and Guhyagarbha ground rites; the
+Men-Tsee-Khang almanac of 2000; Gyurme Dorje. What the texts say
+instead agrees across all three readers:
+
+1. **The weighing is the day's results; the earth lords stand beside it
+   and are met by remedy.** KP closes its weighing of the seven and the
+   combination period (img. 14, read on the scan), then turns to "the
+   earth lords and the other bad kinds". For these "one must know how to
+   apply, as the occasion comes", the screenings and remedies (སྒྲིབ་བཅོས, sgrib bcos), in full or in
+   short ([kp:i14](corpus/kp/kp.md#kp-i14)). SY copies the weighing and
+   turns at once to "the earth lords' general screening"
+   ([sy:p389-392](corpus/sy/sy.md)). WB's notes keep the two as separate
+   heads, as RD6 found. WB's own lists of what to examine before a work
+   name the earth lords beside the day's factors, with no order between
+   them (wb.2:p428b, wb.2:p369, wb.1:p365).
+2. **An earth lord bars a place, a direction or a time for a work, and a
+   good day does not lift the bar.**
+   - In the fierce rites the lord's own days are "the best", yet "the
+     place facing it is shunned" (wb.2:p427b, scan).
+   - The black-year lord is answered by a rite done on a day good by
+     planet, mansion and concord (wb.2:p189b, scan): the good day serves
+     the remedy and does not outweigh the lord.
+   - The Men-Tsee-Khang almanac says "avoid that direction" for the empty
+     vase and puts work in the clean directions (mta:p52-53, scan).
+   - Tshul khrims rgyal mtshan: "no important work is begun in their
+     places or in the empty vase" (kd.1:p493, etext).
+   - The ground rites name where to dig, the serpent's belly and never its
+     head, apart from choosing the day (lcm:p181-182, sdp:p238-241, etext).
+   - A bride's manuals give the earth lords as one check of ten: each is
+     avoided where it can be and mended by its own rite where it cannot
+     (dz:i045, kd.3:p634, kd.3:p641-642, lt:p38-41 on the scan; ut:p240-243
+     etext).
+3. **The date's earth lords are among the day's results, not under the
+   year's and month's rule.**
+   - WB treats them inside ch. 33's results (p. 359, etext), the results
+     whose closing verse names «ས་བདག» (p. 376). It grades by source those
+     that are not in ch. 31: they were written down only because other
+     books carry them (wb.2:p377, scan).
+   - The almanac writes them as entries of the day (kd.1:p495, etext).
+   - The rites name them as a quality of the time, beside the fierce
+     planets.
+   - Still no text gives them a place in the order.
+4. **A work avoided in one direction is kept apart from the day.** Every
+   text meets it by choosing the place or the facing: work facing the
+   clean direction, keep the lord at one's back, or dig at the belly. No
+   text counts it for or against the day's good or bad.
+5. **The only ranks are within the earth lords:**
+   - the month's sky dog above the day's and hour's (WB's notes);
+   - the sky dog of particular weight for a bride (the supplement), with
+     the day's and month's sky dog as the chief (UT);
+   - a report of Kham custom, from search snippets only: "for a corpse and
+     a bride the earth lords are held chief" (SPD). It does not say chief
+     over what (question 417).
+
+**For the owner's choice.** The texts do not rank the earth lords, so
+any rank remains a choice and not a reading. What the texts do support,
+as an inference that no text states in these words, is a model with no
+rank at all:
+- the year's and month's earth lords stay out of the weighing of the
+  day's good and bad;
+- each bars its works in its own place, direction or time whatever the
+  day's verdict, with its remedy beside;
+- a direction-only bar counts for neither side of the day.
+
+This differs from the owner's rule of 2026-10-11 ("Counted": the works an
+earth lord names are counted in the weighing). If that rule stands, the
+texts' nearest place for an earth lord is beside the day's other entries
+that are not in the order of strength, such as the trigram, the date's
+mewa and the link. A lord that names whom it harms might instead count
+as a particular case (*dmigs bsal*) that leads (question 409). The
+questions these searches raise are 408–419.
 
 ## The earth lords against the results in WB and the regent's replies (D4, A, 2026-10-26)
 
@@ -652,11 +741,11 @@ The other replies on ch. 31 (161, the chapter's size; 163–173, counts, circuit
 
 ### Open
 
-- Question: ch. 34's closing verse lists «ས་བདག་བཟང་ངན» and then «ཁྱད་པར་དུ། །ལས་བརྩམས་གང་ཟག་དེའི་དར་གུད། །དེ་ལ་གནོད་པའི་སྐྱོན་ལ་སོགས།» (WB vol. 2, p. 428). Does «ཁྱད་པར་དུ» rank the person's own rise and decline above everything listed before it, or only mark it as the last and most particular item to examine?
-- Question: in the departure (WB vol. 1, p. 375) the earth lords that harm the father's line, the husband or the bride are introduced «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ་ནི». Is this the *dmigs bsal* of the weighing (p. 376, «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»), so that such a lord leads over the departure's general good, or only "in particular, the following"?
-- Question: ch. 33's closing note (WB vol. 2, p. 377) calls the forms and courses of the date's earth lords not in ch. 31 «རྟོག་བཟོ་ལྟ་བུ་ཁུངས་ཧ་ཅང་མི་ཆེ». Does the slight source touch only their forms (གཟུགས, for visualisation and the charts) or also the works they forbid, so that their prohibitions count for less than ch. 31's lords?
-- Question: for the fierce rites (WB vol. 2, p. 427) «ཟིན་ཕུང་བིཥྚི་མཆོག་ཡིན་ཀྱང་། །གདོང་ཐུག་གནས་ལ་འཛེམ་པར་བྱ།»: is the place shunned the lord's seat that one would face, so that the work is done with the lord behind or beside, as ch. 34 says of other works «རྒྱུ་བའི་གདོང་ཐུག་མིན་ཕྱིན་པའི» (p. 423)?
-- Question: ch. 23's «ངན་པ་གཉིས་ཕྲད་ཤིན་ཏུ་རྩུབ། །ངན་དང་བཟང་ཕྲད་འབྲིང་པོ་ཙམ། …ཐམས་ཅད་ཀུན་ལ་ཤེས་པར་བྱ།» (WB vol. 1, p. 370): does "for all" extend this rule of joining to every part of the departure, earth lords included, or to the nine gods and mewa only?
+- Question 408 ([q0408](questions/q0408.md)): ch. 34's closing verse lists «ས་བདག་བཟང་ངན» and then «ཁྱད་པར་དུ། །ལས་བརྩམས་གང་ཟག་དེའི་དར་གུད། །དེ་ལ་གནོད་པའི་སྐྱོན་ལ་སོགས།» (WB vol. 2, p. 428). Does «ཁྱད་པར་དུ» rank the person's own rise and decline above everything listed before it, or only mark it as the last and most particular item to examine?
+- Question 409 ([q0409](questions/q0409.md)): in the departure (WB vol. 1, p. 375) the earth lords that harm the father's line, the husband or the bride are introduced «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ་ནི». Is this the *dmigs bsal* of the weighing (p. 376, «དམིགས་བསལ་བྱུང་ན་དེ་ཉིད་གཙོ»), so that such a lord leads over the departure's general good, or only "in particular, the following"?
+- Question 410 ([q0410](questions/q0410.md)): ch. 33's closing note (WB vol. 2, p. 377) calls the forms and courses of the date's earth lords not in ch. 31 «རྟོག་བཟོ་ལྟ་བུ་ཁུངས་ཧ་ཅང་མི་ཆེ». Does the slight source touch only their forms (གཟུགས, for visualisation and the charts) or also the works they forbid, so that their prohibitions count for less than ch. 31's lords?
+- Question 411 ([q0411](questions/q0411.md)): for the fierce rites (WB vol. 2, p. 427) «ཟིན་ཕུང་བིཥྚི་མཆོག་ཡིན་ཀྱང་། །གདོང་ཐུག་གནས་ལ་འཛེམ་པར་བྱ།»: is the place shunned the lord's seat that one would face, so that the work is done with the lord behind or beside, as ch. 34 says of other works «རྒྱུ་བའི་གདོང་ཐུག་མིན་ཕྱིན་པའི» (p. 423)?
+- Question 412 ([q0412](questions/q0412.md)): ch. 23's «ངན་པ་གཉིས་ཕྲད་ཤིན་ཏུ་རྩུབ། །ངན་དང་བཟང་ཕྲད་འབྲིང་པོ་ཙམ། …ཐམས་ཅད་ཀུན་ལ་ཤེས་པར་བྱ།» (WB vol. 1, p. 370): does "for all" extend this rule of joining to every part of the departure, earth lords included, or to the nine gods and mewa only?
 
 ### Searched and not found
 
@@ -737,10 +826,10 @@ Ngag dbang bzang po's *Laying out the Almanac, Full, Middling and Short* (ངག
 
 ### Open
 
-- Question: KP img. 14, ll. 2–3, «གཟའ་སྐར་ཕྲད་འབྲས་ངན་ན་གཟའ་སྐར་དེ་གཉིས་ཀྱི་སྒྲིབ་བཅོས་ཀྱང་འགྲོ་བདེ་གཉིས་ཀྱི་འབྲས་བུ་ལས་ལོག་འགྱུར་མེད་ཅིང་།» (the Bhutan reprint has the same): what are the «འགྲོ་བདེ་གཉིས», and does the clause say that the screening of a bad planet-and-mansion meeting does not turn its result away?
-- Question: KP's «སྐབས་ཐོབ་སྦྱར་ཤེས་པ་དགོས» after the weighing: are the earth lords' screenings applied whatever the weighing gives, so that an earth lord never changes the day's verdict but always asks for its remedy, or only where the weighing has already let the work go ahead?
-- Question: the supplement's «ཁྱད་པར་བག་མར་གལ་ཆེ་བ། །གནམ་ཁྱིའི་སྒོས་དོན» (KD vol. 3 p. 642): is the sky dog thereby set above the other nine checks of a bride's going, or only given more detail?
-- Question: DZ img. 045 has «བདུན་ཟུར་དགྲ་ལོས་སྣ་ཚོགས་བྱ», KD's print «…སྣ་ཆོག་བྱ», the nose rite: which is meant?
+- Question 413 ([q0413](questions/q0413.md)): KP img. 14, ll. 2–3, «གཟའ་སྐར་ཕྲད་འབྲས་ངན་ན་གཟའ་སྐར་དེ་གཉིས་ཀྱི་སྒྲིབ་བཅོས་ཀྱང་འགྲོ་བདེ་གཉིས་ཀྱི་འབྲས་བུ་ལས་ལོག་འགྱུར་མེད་ཅིང་།» (the Bhutan reprint has the same): what are the «འགྲོ་བདེ་གཉིས», and does the clause say that the screening of a bad planet-and-mansion meeting does not turn its result away?
+- Question 414 ([q0414](questions/q0414.md)): KP's «སྐབས་ཐོབ་སྦྱར་ཤེས་པ་དགོས» after the weighing: are the earth lords' screenings applied whatever the weighing gives, so that an earth lord never changes the day's verdict but always asks for its remedy, or only where the weighing has already let the work go ahead?
+- Question 415 ([q0415](questions/q0415.md)): the supplement's «ཁྱད་པར་བག་མར་གལ་ཆེ་བ། །གནམ་ཁྱིའི་སྒོས་དོན» (KD vol. 3 p. 642): is the sky dog thereby set above the other nine checks of a bride's going, or only given more detail?
+- Question 416 ([q0416](questions/q0416.md)): DZ img. 045 has «བདུན་ཟུར་དགྲ་ལོས་སྣ་ཚོགས་བྱ», KD's print «…སྣ་ཆོག་བྱ», the nose rite: which is meant?
 
 ### Searched and not found
 
@@ -958,9 +1047,9 @@ lord says *where* (or which way), the day's factors say *when*.
 
 ### Open
 
-- Question: Bsod nams dpal ldan reports of Khams «རོ་བག་མ་ལ་ས་བདག་གཙོ་བོ་འཛིན་པ»: does "the earth lords are held chief for a corpse and a bride" mean they outweigh the day's other factors for those two works, or only that they are the main thing reckoned for them?
-- Question: *A General Account of Tibet* (BSB) says the serpent's body stretches, curls and turns "with the course of the planets and mansions" (pp. 435–436): is the place of the first stroke reckoned by the day's mansion, as Chos kyi grags pa's serpent walks one cell a day, or only by the season, as Longchenpa and Sādhuputra give it?
-- Question: what is «འཇུག་ཕོད» in Sādhuputra's ground rite, a time to be free of with the fierce planets (etext p. 238)? Viṣṭi, or another?
+- Question 417 ([q0417](questions/q0417.md)): Bsod nams dpal ldan reports of Khams «རོ་བག་མ་ལ་ས་བདག་གཙོ་བོ་འཛིན་པ»: does "the earth lords are held chief for a corpse and a bride" mean they outweigh the day's other factors for those two works, or only that they are the main thing reckoned for them?
+- Question 418 ([q0418](questions/q0418.md)): *A General Account of Tibet* (BSB) says the serpent's body stretches, curls and turns "with the course of the planets and mansions" (pp. 435–436): is the place of the first stroke reckoned by the day's mansion, as Chos kyi grags pa's serpent walks one cell a day, or only by the season, as Longchenpa and Sādhuputra give it?
+- Question 419 ([q0419](questions/q0419.md)): what is «འཇུག་ཕོད» in Sādhuputra's ground rite, a time to be free of with the fierce planets (etext p. 238)? Viṣṭi, or another?
 
 ### Searched and not found
 

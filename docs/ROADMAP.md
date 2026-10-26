@@ -1359,6 +1359,25 @@ verdict, and the owner's decisions of 2026-10-10:
   today) are counted by the same rule; and how a work avoided in one
   direction counts, as a work qualified by a direction weighs for neither
   side today (SPEC §5.10).
+  **Searched for D4, 2026-10-26** ([weighing.md](sources/weighing.md),
+  *What the three searches give D4*): no text ranks the earth lords, so
+  each of the three is still the owner's choice. The texts searched were
+  WB itself, the regent's replies, the manuals, the ground rites, the
+  Men-Tsee-Khang almanac and modern works. What they agree on:
+  - KP and SY close the weighing of the day's results and then send the
+    earth lords to screening and remedy "as the occasion comes".
+  - An earth lord bars its place, direction or time whatever the day's
+    good, and a good day serves its rite without lifting the bar.
+  - The date's earth lords stand among the day's results.
+  - A work avoided in one direction is met by place or facing, and is
+    never counted against the day.
+
+  The inference closest to the texts is a model with no rank: the year's
+  and month's lords stay out of the weighing and bar their works in their
+  place with the remedy beside them. That differs from *Counted* above.
+  If *Counted* stands, "last, beside the trigram, mewa and link" fits the
+  texts best. Questions 408–419 follow from the search, 409 (a lord that
+  names whom it harms as a *dmigs bsal*) above all.
 - **Work.** Read ch. 31, pp. 175–221, on the scans (PLAN.md) into a topic
   file: each earth lord with its course (by the year's or month's animal,
   the season or the year's mewa), its place, works and remedy, and what
