@@ -58,6 +58,8 @@ import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
 import zanshin.core.texts.ActivityFamily
 import zanshin.core.texts.Election
+import zanshin.core.tibetan.Couple
+import zanshin.core.tibetan.DepartureDay
 import zanshin.core.texts.ElectionDay
 import zanshin.core.texts.ElectionMonth
 import zanshin.core.texts.ElectionSpan
@@ -104,6 +106,8 @@ fun ElectionScreen(
     kyureki: Boolean,
     work: Activity?,
     onWork: (Activity?) -> Unit,
+    /** The person and their spouse, for the bride's going on the bride's works (ROADMAP P3); none without a spouse. */
+    couple: Couple? = null,
     onOpenDay: (LocalDate) -> Unit,
     onBack: () -> Unit,
 ) {
@@ -121,7 +125,7 @@ fun ElectionScreen(
         when {
             work == null -> WorkPicker(if (kyureki) KyurekiElection.WORKS else Election.WORKS, onWork)
             kyureki -> KyurekiResult(from, birth, work, months, { months = it }, onChange = { onWork(null) }, onOpenDay)
-            else -> Result(from, birth, work, months, { months = it }, onChange = { onWork(null) }, onOpenDay)
+            else -> Result(from, birth, work, months, { months = it }, onChange = { onWork(null) }, onOpenDay, couple)
         }
     }
 }
@@ -258,11 +262,17 @@ private fun Result(
     onMonths: (Int) -> Unit,
     onChange: () -> Unit,
     onOpenDay: (LocalDate) -> Unit,
+    couple: Couple? = null,
 ) {
     // Weighed off the main thread; a year takes a moment on a phone.
     val election by produceState<Election?>(null, from, months, birth, work) {
         value = null
         value = withContext(Dispatchers.Default) { Spans.of(from, months, birth).election(work) }
+    }
+    // The couple's departure on each day, for the bride's works (ROADMAP P3): beside the days' sides, not in them.
+    val departure by produceState<Map<LocalDate, DepartureDay>?>(null, from, months, birth, work, couple) {
+        value = null
+        if (couple != null && work in Election.BRIDE_WORKS) value = withContext(Dispatchers.Default) { Spans.of(from, months, birth).departure(couple) }
     }
     LazyColumn(
         Modifier.fillMaxSize(),
@@ -277,6 +287,11 @@ private fun Result(
             return@LazyColumn
         }
         items(e.months, key = { "month ${it.first.jd}" }) { MonthBlock(it, from) }
+        departure?.let { dep ->
+            item { SectionTitle(stringResource(R.string.departure_election_title)) }
+            items(e.months, key = { "departure ${it.first.jd}" }) { DepartureBlock(it, dep, from) }
+            item { Text(withTibetan(stringResource(R.string.departure_election_note)), style = note) }
+        }
         if (birth != null && e.days.any { it.avoidAll.isNotEmpty() }) {
             item { Text(withTibetan(stringResource(R.string.election_for_you_note)), style = note) }
         }
@@ -498,6 +513,31 @@ private fun MonthBlock(m: ElectionMonth, from: LocalDate) {
         }
         Hours(stringResource(R.string.election_hours_good), Tone.GOOD, m.good)
         Hours(stringResource(R.string.election_hours_avoid), Tone.BAD, m.avoid)
+    }
+}
+
+/** The couple's departure over one month of the span (ROADMAP P3): each day's verdict of its month and day, as a grid. */
+@Composable
+private fun DepartureBlock(m: ElectionMonth, departure: Map<LocalDate, DepartureDay>, from: LocalDate) {
+    val labels = LocalLabels.current
+    val month = labels.month(m.first.month, m.first.leapMonth)
+    val days = m.days.mapNotNull { d -> departure[d.date]?.let { d to it } }
+    if (days.isEmpty()) return
+    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        MonthHeading(month, m.days.first().date, m.days.last().date, from)
+        WorkGrid(
+            heading = null,
+            cells = days.map { (d, dep) -> WorkCell(d.day.day, tone(dep.dayVerdict), marked = d.date == from, civil = d.date.dayOfMonth) },
+            key = "departure ${m.first.jd}",
+            initial = -1,
+        ) { k ->
+            val (d, dep) = days[k]
+            val bad = dep.findings.filter { it.weighed && it.tone == zanshin.core.tibetan.DepartureTone.BAD && it.scope != zanshin.core.tibetan.DepartureScope.YEAR }
+            stringResource(
+                R.string.departure_cell, d.date.format(labels.headerDate), d.day.day, toneLabel(tone(dep.dayVerdict)),
+                bad.joinToString(", ") { zanshin.core.texts.DepartureTexts.part(it.part) }.ifEmpty { "—" },
+            )
+        }
     }
 }
 

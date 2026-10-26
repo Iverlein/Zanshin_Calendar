@@ -1308,4 +1308,12 @@
     <string name="brief_earth_lords">Earth lords of the year and month</string>
     <string name="brief_earth_lords_line">%1$s: not towards %2$s</string>
     <string name="brief_earth_lords_note">Not weighed: the year\'s and the month\'s earth lords bar these works in these places, whatever the day.</string>
+    <!-- The bride's going (ROADMAP P3): the row in Your day and the election's block -->
+    <string name="departure_title">The bride\'s going</string>
+    <string name="departure_subtitle">this day: %1$s · the year: %2$s</string>
+    <string name="departure_note">The bride\'s going for you and your spouse: each check of the seventeen that falls on this day, the month or the year. No check is ranked above another; a day counts as bad for the going if any check of its month or day is bad, as good if one is good and none bad. Each bad check has its remedy.</string>
+    <string name="departure_not_weighed">Shown, not counted: it bars the going and is met by its remedy, or names the people the going needs.</string>
+    <string name="departure_election_title">The bride\'s going for you and your spouse</string>
+    <string name="departure_election_note">The bride\'s going, its own reckoning beside the day\'s sides above: each day by the checks of its month and day. What holds over the whole year stands on the day page.</string>
+    <string name="departure_cell">%1$s, %2$d of the Tibetan month: %3$s for the bride\'s going; bad by %4$s</string>
 </resources>

@@ -347,6 +347,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
                     kyureki = electionKyureki,
                     work = electionWork,
                     onWork = { electionWork = it },
+                    couple = people.current?.let(zanshin.app.Reckonings::couple),
                     onOpenDay = {
                         chooseCalendar(if (electionKyureki) CalendarKind.KYUREKI else CalendarKind.TIBETAN)
                         openDay = it

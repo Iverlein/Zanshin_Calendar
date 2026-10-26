@@ -47,6 +47,8 @@ import androidx.compose.ui.res.stringResource
 import zanshin.app.DayInfo
 import zanshin.app.Labels
 import zanshin.app.LocalLabels
+import zanshin.app.Reckonings
+import zanshin.core.tibetan.Departure
 import io.github.iverlein.zanshin.R
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Activity
@@ -784,10 +786,14 @@ fun TibetanPage(
         // The vitality and body of the date stand on the Health screen with the person's element and the la
         // (ROADMAP H1); Your day ends with the way there.
         val birth = info.birthSign
-        if (yours.isNotEmpty() || birth != null) {
+        // The bride's going for the person and their spouse (ROADMAP P3): its own reckoning, not the day's weighing.
+        val departure = remember(person, day.jd) { person?.let(Reckonings::couple)?.let { Departure.of(it, day) } }
+        if (yours.isNotEmpty() || birth != null || departure != null) {
             SectionTitle(stringResource(R.string.section_your_day))
             Column {
                 yours.forEach { AnnotationRow(it) { a -> sheet = a } }
+                // The row shows the day's dot alone; its many findings are in the sheet, not as dots in the row.
+                departure?.let { d -> departureAnnotation(d).let { full -> AnnotationRow(full.copy(parts = emptyList())) { sheet = full } } }
                 if (birth != null) ScreenLinkRow(stringResource(R.string.menu_health), stringResource(R.string.your_day_health), onHealth)
             }
         }

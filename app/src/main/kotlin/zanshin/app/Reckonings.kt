@@ -4,6 +4,8 @@
 
 package zanshin.app
 
+import zanshin.core.tibetan.Couple
+import zanshin.core.tibetan.Spouse
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.BirthChild
@@ -130,6 +132,23 @@ object Reckonings {
         val theirTrigram = mother(spouse.id)?.let { KinReckoning.natalTrigram(it.birth!!.tibetanYear, theirs.first) }
         val (manTrigram, womanTrigram) = if (gender == Gender.MALE) ownTrigram to theirTrigram else theirTrigram to ownTrigram
         return MatchReading(spouse.name, man.first, man.second, woman.first, woman.second, weekdays, manTrigram, womanTrigram, manParents, womanParents)
+    }
+
+    /**
+     * The couple of [person] and the first spouse entered under them whose birth year is known, for the bride's
+     * departure (ROADMAP P3): the groom and the bride by their genders, as [match] takes them; each one's birth date
+     * where known, and their mother's birth year where entered, which gives the natal trigram.
+     */
+    fun couple(person: Person): Couple? {
+        val gender = person.gender ?: return null
+        val spouse = person.relatives.list.firstOrNull { it.of == null && it.relation == Relation.SPOUSE && it.birth != null } ?: return null
+        val spouseGender = spouse.sex ?: if (gender == Gender.MALE) Gender.FEMALE else Gender.MALE
+        if (spouseGender == gender) return null
+        val mother = { of: Int? -> person.relatives.list.firstOrNull { it.of == of && it.relation == Relation.MOTHER && it.birth != null }?.birth?.tibetanYear }
+        val own = Spouse.born(person.birth, mother(null))
+        val birth = spouse.birth!!
+        val theirs = birth.date?.let { Spouse.born(it, mother(spouse.id)) } ?: Spouse(birth.tibetanYear, motherBirthYear = mother(spouse.id))
+        return if (gender == Gender.MALE) Couple(own, theirs) else Couple(theirs, own)
     }
 
     /**
