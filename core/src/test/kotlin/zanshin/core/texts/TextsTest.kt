@@ -30,6 +30,9 @@ import zanshin.core.tibetan.SpecialDay
 import zanshin.core.tibetan.TibetanFestival
 import zanshin.core.tibetan.Weekday
 import zanshin.core.tibetan.Yoga
+import zanshin.core.tibetan.YearLord
+import zanshin.core.tibetan.YearMonthEarthLords
+import zanshin.core.tibetan.YearStanding
 
 /** SPEC §8.1: nothing is shown without a published source. */
 class TextsTest {
@@ -44,7 +47,10 @@ class TextsTest {
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
         // The earth lords that move by date: a reading for every course on every day it can fall.
-        (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct()
+        (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +
+        // The year's and the month's earth lords: every lord in every year of a sixty and every month's animal.
+        (1984 until 2044).flatMap { y -> YearLord.entries.mapNotNull { l -> YearMonthEarthLords.seats(l, y).takeIf { it.isNotEmpty() }?.let { LordTexts.year(YearStanding(l, y, java.time.LocalDate.of(y - 1, 12, 21), it)) } } } +
+        Animal.entries.flatMap { m -> YearMonthEarthLords.month(m).map(LordTexts::month) }
 
     @Test
     fun `every annotation has a sourced reading`() {

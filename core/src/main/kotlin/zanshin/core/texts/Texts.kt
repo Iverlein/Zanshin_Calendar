@@ -554,6 +554,10 @@ object Sources {
     val WHITE_BERYL_LINKS = whiteBeryl("pp. 351–356")
     /** The earth lords that move by date (ch. 31), with their results in ch. 33 (the strikes p. 364, the sky doors pp. 368–369). */
     val WHITE_BERYL_EARTH_LORD_COURSES = whiteBeryl("pp. 226–235, with the results p. 364 and the sky doors' pp. 368–369")
+    /** The year's earth lords that go round with the year (ch. 31, pp. 174–198; docs/sources/year-month-earth-lords.md, RD3). */
+    val WHITE_BERYL_YEAR_EARTH_LORDS = whiteBeryl("chapter 31, pp. 174–198")
+    /** The month's earth lords (ch. 31, pp. 199–223; docs/sources/year-month-earth-lords.md, RD4). */
+    val WHITE_BERYL_MONTH_EARTH_LORDS = whiteBeryl("chapter 31, pp. 199–223")
     /** The times within the day: the almanac's day entries (vol. 1, pp. 177–178) and chapter 15 on the sun's terms (docs/sources/almanac-page.md). */
     val WHITE_BERYL_TIMES = whiteBeryl("pp. 177–178, and chapter 15, pp. 180–182", volume = 1)
     /** The black months and the *ki kang* black months (p. 212), with the black month's results (p. 359) (docs/sources/month-entries.md). */

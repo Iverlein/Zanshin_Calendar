@@ -1133,6 +1133,93 @@ object Activities {
         "going_to_anothers_wife" to of(),
         "keeping_silence" to of(),
         "welcoming_women_and_friends" to of(FRIENDSHIP),
+
+        // The year's and the month's earth lords (pp. 177–185; ROADMAP T2.26): the new wordings of their Avoid lists.
+        // (block A)
+        "promotions" to of(TAKING_UP_OFFICE),
+        "the_kings_affairs" to of(STATECRAFT),
+        "moving_into_a_fort" to of(MOVING_HOUSE),
+        "rites_of_increase" to of(INCREASING),
+        "harmful_works" to of(),
+        "mediating_in_fights" to of(RECONCILIATION),
+        "giving_and_taking_cats" to of(),
+        "building_horse_pens_and_stables" to of(BUILDING, HORSES),
+        "horse_works" to of(HORSES),
+        "spreading_seats" to of(),
+        "setting_boundary_stakes" to of(),
+        "taking_in_cats" to of(),
+
+        // The year's and the month's earth lords (pp. 186–197; ROADMAP T2.26): the new wordings of their Avoid lists.
+        // (block B)
+        //
+        "mustering_troops" to of(WAR),
+        "works_of_a_grave" to of(BURIAL, BUILDING_GRAVES),
+        "shows" to of(SPECTACLES),
+        "pulling_down_an_old_fort" to of(BUILDING),
+        "raising_great_supports" to of(SACRED_SUPPORTS),
+        "levelling_hills" to of(MOVING_EARTH),
+        "sharpening_weapons" to of(MAKING_WEAPONS),
+        "violent_deeds" to of(BLOODSHED),
+        "a_young_persons_corpse" to of(FUNERALS),
+        "a_womans_corpse" to of(FUNERALS),
+        "childrens_feasts" to of(FEASTS),
+        "sounding_music" to of(),
+        "felling_nyen_trees" to of(FELLING_TREES),
+        "corpse_of_an_epidemic_or_naga_illness" to of(FUNERALS),
+        "building_a_mandala_or_a_palace" to of(BUILDING),
+        "fierce_fire_offerings" to of(FIRE_OFFERINGS),
+        "corpse_of_bile_disorder_or_dropsy" to of(FUNERALS),
+        "a_monks_corpse" to of(FUNERALS),
+        "a_bon_priests_corpse" to of(FUNERALS),
+        "cremating_after_smallpox" to of(FUNERALS),
+        "red_work" to of(BLOODSHED),
+        "a_corpse_killed_by_a_blade" to of(FUNERALS),
+        "a_stake_for_a_lepers_corpse" to of(FUNERALS),
+        "a_widows_or_criminals_corpse" to of(FUNERALS),
+        "corpse_of_the_auspicious_or_prosperous" to of(FUNERALS),
+        //
+
+        // The year's and the month's earth lords (pp. 199–207; ROADMAP T2.26): the new wordings of their Avoid lists.
+        // (block C)
+        "hiding_a_corpse" to of(BURIAL),
+        "moving_the_storeroom_or_hearth" to of(HEARTH, BUILDING_STOREHOUSES),
+        "corpse_work" to of(FUNERALS),
+        "using_the_hand_mill" to of(),
+        "work_on_the_storeroom" to of(BUILDING_STOREHOUSES),
+        "work_on_the_hearth" to of(HEARTH),
+        "giving_wealth_and_food" to of(GIVING_OUT),
+        "theft" to of(ROBBERY),
+        "setting_out_offerings" to of(OFFERINGS),
+        "dividing_a_brides_goods" to of(DOWRY),
+        "giving_or_taking_cattle" to of(BUYING_LIVESTOCK, GIVING_OUT),
+        "moving_a_great_fire" to of(FIRE),
+        "burying_a_woman" to of(BURIAL),
+        "taking_a_small_child_out_of_the_door" to of(),
+        "the_corpse_road" to of(FUNERALS),
+        "laying_down_a_corpse" to of(FUNERALS),
+        "moving_or_setting_up_a_hearth" to of(HEARTH),
+        "slaughter_and_cooking_meat" to of(KILLING),
+        "a_childs_feast" to of(FEASTS),
+        "giving_birth" to of(),
+        "burying_a_small_child" to of(BURIAL),
+        //
+        //
+
+        // The year's and the month's earth lords (pp. 207–215; ROADMAP T2.26): the new wordings of their Avoid lists.
+        // (block D)
+        "digging_a_grave" to of(BUILDING_GRAVES, DIGGING),
+        "showing_weapons" to of(),
+        "setting_up_a_mortar_or_hand_mill" to of(BUILDING),
+        "hearth_and_hand_mill" to of(HEARTH),
+        "bon_thread_crosses" to of(BON_RITES),
+        "pointing_a_ladle" to of(),
+        "most_works" to of(EVERYTHING),
+
+        // The year's and the month's earth lords (pp. 216–223; ROADMAP T2.26): the new wordings of their Avoid lists.
+        // (block E)
+        "a_corpses_road" to of(FUNERALS),
+        "cooking_on_the_hearth" to of(),
+        "great_works" to of(EVERYTHING),
     )
 
     /** The rokuyō's hours, by wording key. */

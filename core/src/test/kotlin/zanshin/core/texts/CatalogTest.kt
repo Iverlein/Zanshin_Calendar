@@ -21,6 +21,9 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourses
+import zanshin.core.tibetan.YearLord
+import zanshin.core.tibetan.YearMonthEarthLords
+import zanshin.core.tibetan.YearStanding
 import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.IllnessSpiritKind
 import zanshin.core.tibetan.IllnessReckoning
@@ -177,6 +180,9 @@ class CatalogTest {
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +
             // The earth lords that move by date: a reading for every course on every day it can fall.
             (1..12).flatMap { m -> (1..30).flatMap { d -> Animal.entries.flatMap { a -> EarthLordCourses.of(m, d, a).map(Texts::earthLord) } } }.distinct() +
+            // The year's and the month's earth lords: every lord in every year of a sixty and every month's animal.
+            (1984 until 2044).flatMap { y -> YearLord.entries.mapNotNull { l -> YearMonthEarthLords.seats(l, y).takeIf { it.isNotEmpty() }?.let { LordTexts.year(YearStanding(l, y, java.time.LocalDate.of(y - 1, 12, 21), it)) } } } +
+            Animal.entries.flatMap { m -> YearMonthEarthLords.month(m).map(LordTexts::month) } +
             yearOfLifeReadings()
         (Texts.YOGA.values + Texts.LUNAR_DATE + Texts.PERSONAL_MANSION.values + Texts.WEEKDAY.values + Texts.TRIGRAM.values + Texts.GREAT_COMBINATION.values + Texts.ELEMENT_PAIR.values + Texts.COMBINATION_DAY.values + Texts.RAHU.values).forEach { present(it.key) }
         for (r in readings) {
@@ -470,6 +476,8 @@ class CatalogTest {
             (1..12).flatMap { m ->
                 (1..30).flatMap { d -> Animal.entries.flatMap { a -> (Animal.entries + null).flatMap { y -> EarthLordCourses.of(m, d, a, y).map(Texts::earthLord) } } }
             }.distinct() +
+            (1984 until 2044).flatMap { y -> YearLord.entries.mapNotNull { l -> YearMonthEarthLords.seats(l, y).takeIf { it.isNotEmpty() }?.let { LordTexts.year(YearStanding(l, y, java.time.LocalDate.of(y - 1, 12, 21), it)) } } } +
+            Animal.entries.flatMap { m -> YearMonthEarthLords.month(m).map(LordTexts::month) } +
             yearOfLifeReadings()
     }
 
@@ -621,7 +629,7 @@ class CatalogTest {
             "X4" to listOf("Weekday", "Trigram"),
             "X5" to listOf("GreatCombination", "ElementPair", "CombinationDay", "SpecialDay", "GtsugLagDay", "BurningDate", "TibetanFestival"),
             "X6" to listOf("Yoga", "Mansion", "Karana", "Electional"),
-            "X7" to listOf("EarthLord", "Rahu", "RahuGeneral", "RahuMonth", "RahuSeason", "GreatBlackDay", "Eclipse", "SeasonSign", "Comet"),
+            "X7" to listOf("EarthLord", "Rahu", "RahuGeneral", "RahuMonth", "RahuSeason", "GreatBlackDay", "Eclipse", "SeasonSign", "Comet", "YearLord", "MonthLord"),
             "X8" to listOf("PersonalDay", "OwnDay", "PersonalMansion", "Kinship", "HundredFeet", "Spear", "GreatSpear"),
             "X9" to listOf(
                 "DusSbyor", "WorksSign", "HourWorks", "HourHidden", "HourEarthLords", "HourGnamKhyi", "HourBlaMkhyen", "HourSaRgyal",
