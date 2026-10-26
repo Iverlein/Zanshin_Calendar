@@ -38,6 +38,11 @@ import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.DeadWhole
 import zanshin.core.tibetan.HundredKin
 import zanshin.core.tibetan.MomentPeriod
+import zanshin.core.tibetan.IllnessSpiritKind
+import zanshin.core.tibetan.IllnessPebble
+import zanshin.core.tibetan.IllnessYearPair
+import zanshin.core.tibetan.IllnessHelper
+import zanshin.core.tibetan.IllnessTreeVerdict
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
@@ -411,6 +416,20 @@ object Sources {
     val WHITE_BERYL_YEAR_STAGES = whiteBeryl("chapter 21, p. 258, chapter 24, p. 409, and chapter 25, pp. 440–442", volume = 1)
     /** Each element's illness, its seat, door and signs (ROADMAP H2a, docs/sources/health.md, RD12, RD22). */
     val WHITE_BERYL_ELEMENT_ILLNESS = whiteBeryl("chapter 25, pp. 435 and 438–439", volume = 1)
+    /** The illness and spirit by the trigram, the day and the mewa of falling ill (ROADMAP H2b, corpus/wb/ch25.md). */
+    val WHITE_BERYL_ILLNESS_ONSET = whiteBeryl("chapter 25, pp. 427–435", volume = 1)
+    /** The board of the fifteen starting points, the pebble door, the plank-trees and the spirit by black count (ROADMAP H2g). */
+    val WHITE_BERYL_ILLNESS_BOARD = whiteBeryl("chapter 25, pp. 417–425", volume = 1)
+    /** The illness named by five element pebbles and their split (ROADMAP H2c). */
+    val WHITE_BERYL_ILLNESS_FIVE = whiteBeryl("chapter 25, pp. 435–436, with the notes in vol. 2, p. 497", volume = 1)
+    /** The nineteen pebbles, the weekday's planet and the trigram's reward (ROADMAP H2d). */
+    val WHITE_BERYL_ILLNESS_NINETEEN = whiteBeryl("chapter 25, pp. 445–448, with the notes in vol. 2, p. 498", volume = 1)
+    /** The trigram's ransom and the rite of fleeing (ROADMAP H2d). */
+    val WHITE_BERYL_ILLNESS_RITES = whiteBeryl("chapter 25, pp. 443–445", volume = 1)
+    /** The progressed year, the sky year and the ransom by the year animal (ROADMAP H2e). */
+    val WHITE_BERYL_ILLNESS_YEAR = whiteBeryl("chapter 25, pp. 426–427 and 429–431, with the notes in vol. 2, p. 496", volume = 1)
+    /** The twelve stages of the hearth-keeper and the people the sick need (ROADMAP H2f). */
+    val WHITE_BERYL_ILLNESS_STAGES = whiteBeryl("chapter 25, pp. 440–442 and 445, with the notes in vol. 2, p. 498", volume = 1)
     /** The predictive pebbles (ch. 24, pp. 380–385), each place counted once by its colour and a tie speckled by Mipham's notes (vol. 2, pp. 490 and 495; D16). */
     val WHITE_BERYL_PREDICTIVE = whiteBeryl("chapter 24, pp. 380–385, with the notes in vol. 2, pp. 490 and 495", volume = 1)
     /** Whose aspect matters most (ch. 20, p. 242) and the black pebbles to be treated in earnest (ch. 24, pp. 415–416). */
@@ -2179,6 +2198,73 @@ object Texts {
 
     /** The moment's mewa [n] (WB vol. 2, ch. 30, p. 162). */
     fun momentMewa(n: Int): Reading = Reading(key = "reading.MomentMewa", arg = "reading.MomentMewa.$n", source = Sources.WHITE_BERYL_MOMENT)
+
+    /** The illness, spirits and rite of the trigram [t] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 427–428). */
+    fun illnessTrigram(t: Trigram): Reading = Reading(key = "reading.IllnessTrigram", arg = "reading.IllnessTrigram.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
+
+    /** The illness, spirits and rite of the day animal [a] of falling ill (ROADMAP H2b; WB vol. 1, ch. 25, pp. 428–429). */
+    fun illnessDay(a: Animal): Reading = Reading(key = "reading.IllnessDay", arg = "reading.IllnessDay.${a.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
+
+    /** The illness, spirits, rites and ransom of the mewa [n] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 431–433). */
+    fun illnessMewa(n: Int): Reading = Reading(key = "reading.IllnessMewa", arg = "reading.IllnessMewa.$n", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
+
+    /** The spirit of [kind] under the mewa [n] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 433–435). */
+    fun illnessSpirit(n: Int, kind: IllnessSpiritKind): Reading =
+        Reading(key = "reading.IllnessSpirit", arg = "reading.IllnessSpirit.$n.${kind.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
+
+    /** The illness of the five pebbles' [split], keyed `FIRE4_EARTH1` (ROADMAP H2c; WB vol. 1, ch. 25, pp. 435–436). */
+    fun illnessSplit(split: String): Reading = Reading(key = "reading.IllnessSplit", arg = "reading.IllnessSplit.$split", source = Sources.WHITE_BERYL_ILLNESS_FIVE)
+
+    /** One of the sixteen fought pebbles, white or black (ROADMAP H2d; WB vol. 1, ch. 25, pp. 445–447). */
+    fun illnessPebble(p: IllnessPebble): Reading = Reading(
+        key = "reading.IllnessPebble",
+        arg = "reading.IllnessPebble.${p.time.name}.${p.aspect.name}.${if (p.white) "WHITE" else "BLACK"}",
+        source = Sources.WHITE_BERYL_ILLNESS_NINETEEN,
+    )
+
+    /** The spirit by the planet of the weekday [w] of falling ill (ROADMAP H2d; WB vol. 1, ch. 25, p. 447). */
+    fun illnessPlanet(w: Weekday): Reading = Reading(key = "reading.IllnessPlanet", arg = "reading.IllnessPlanet.${w.name}", source = Sources.WHITE_BERYL_ILLNESS_NINETEEN)
+
+    /** What an illness on the trigram [t] repays, and its spirits (ROADMAP H2d; WB vol. 1, ch. 25, pp. 447–448). */
+    fun illnessTrigramCause(t: Trigram): Reading =
+        Reading(key = "reading.IllnessTrigramCause", arg = "reading.IllnessTrigramCause.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_NINETEEN)
+
+    /** The ransom sent for an illness on the trigram [t] (ROADMAP H2d; WB vol. 1, ch. 25, pp. 443–444). */
+    fun illnessTrigramRansom(t: Trigram): Reading =
+        Reading(key = "reading.IllnessTrigramRansom", arg = "reading.IllnessTrigramRansom.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_RITES)
+
+    /** Where the sick flee, and the rite, for an illness on the trigram [t] (ROADMAP H2d; WB vol. 1, ch. 25, pp. 444–445). */
+    fun illnessFlee(t: Trigram): Reading = Reading(key = "reading.IllnessFlee", arg = "reading.IllnessFlee.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_RITES)
+
+    /** Where the progressed year reaches, the life force against its life force [k] (ROADMAP H2e; WB vol. 1, ch. 25, p. 426). */
+    fun illnessReach(k: Kinship): Reading = Reading(key = "reading.IllnessReach", arg = "reading.IllnessReach.${k.name}", source = Sources.WHITE_BERYL_ILLNESS_YEAR)
+
+    /** The spirit by the power [e] and the sky year's pair [pair] (ROADMAP H2e; WB vol. 1, ch. 25, pp. 426–427). */
+    fun illnessYear(e: Element, pair: IllnessYearPair): Reading =
+        Reading(key = "reading.IllnessYear", arg = "reading.IllnessYear.${e.name}.${pair.name}", source = Sources.WHITE_BERYL_ILLNESS_YEAR)
+
+    /** The ransom sent for a sick person of the year animal [a] (ROADMAP H2e; WB vol. 1, ch. 25, pp. 429–431). */
+    fun illnessRansom(a: Animal): Reading = Reading(key = "reading.IllnessRansom", arg = "reading.IllnessRansom.${a.name}", source = Sources.WHITE_BERYL_ILLNESS_YEAR)
+
+    /** The harmer of the hearth-keeper's stage [s] (ROADMAP H2f; WB vol. 1, ch. 25, pp. 440–442). */
+    fun illnessStage(s: Sector): Reading = Reading(key = "reading.IllnessStage", arg = "reading.IllnessStage.${s.name}", source = Sources.WHITE_BERYL_ILLNESS_STAGES)
+
+    /** The starting point [n] of the board (ROADMAP H2g; WB vol. 1, ch. 25, pp. 417–419). */
+    fun illnessPoint(n: Int): Reading = Reading(key = "reading.IllnessPoint", arg = "reading.IllnessPoint.$n", source = Sources.WHITE_BERYL_ILLNESS_BOARD)
+
+    /** The pebble door of [force] blocked, or all four with null (ROADMAP H2g; WB vol. 1, ch. 25, p. 419). */
+    fun illnessDoor(force: Force?): Reading = Reading(key = "reading.IllnessDoor", arg = "reading.IllnessDoor.${force?.let { DOOR.getValue(it) } ?: "ALL"}", source = Sources.WHITE_BERYL_ILLNESS_BOARD)
+    private val DOOR = mapOf(Force.VITALITY to "LIFE", Force.BODY to "BODY", Force.DESTINY to "POWER", Force.LUCK to "LUCK")
+
+    /** The verdict [v] of [force]'s plank-tree (ROADMAP H2g; WB vol. 1, ch. 25, pp. 422–423). */
+    fun illnessTree(force: Force, v: IllnessTreeVerdict): Reading =
+        Reading(key = "reading.IllnessTree", arg = "reading.IllnessTree.${force.name}.${v.name}", source = Sources.WHITE_BERYL_ILLNESS_BOARD)
+
+    /** The spirit named by [n] black pebbles in the body's plank-tree (ROADMAP H2g; WB vol. 1, ch. 25, p. 425). */
+    fun illnessBlack(n: Int): Reading = Reading(key = "reading.IllnessBlack", arg = "reading.IllnessBlack.$n", source = Sources.WHITE_BERYL_ILLNESS_BOARD)
+
+    /** The helper [h] the sick need (ROADMAP H2f; WB vol. 1, ch. 25, p. 445). */
+    fun illnessHelper(h: IllnessHelper): Reading = Reading(key = "reading.IllnessHelper", arg = "reading.IllnessHelper.${h.name}", source = Sources.WHITE_BERYL_ILLNESS_STAGES)
 
     /** The dead's deciding pebble of [force], [colour] white or black: has the time of death come (WB vol. 2, ch. 29, pp. 55–56). */
     fun deadPebble(force: Force, colour: PebbleColour): Reading =

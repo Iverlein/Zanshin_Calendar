@@ -22,6 +22,14 @@ import zanshin.core.tibetan.HundredFeet
 import zanshin.core.tibetan.CourseEvent
 import zanshin.core.tibetan.EarthLordCourses
 import zanshin.core.tibetan.Animal
+import zanshin.core.tibetan.IllnessSpiritKind
+import zanshin.core.tibetan.IllnessReckoning
+import zanshin.core.tibetan.IllnessTime
+import zanshin.core.tibetan.IllnessAspect
+import zanshin.core.tibetan.IllnessPebble
+import zanshin.core.tibetan.IllnessYearPair
+import zanshin.core.tibetan.IllnessHelper
+import zanshin.core.tibetan.IllnessTreeVerdict
 import zanshin.core.tibetan.Care
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Sign
@@ -253,6 +261,21 @@ class CatalogTest {
         (1..9).forEach { out += Texts.momentMewa(it) }
         MomentPeriod.entries.forEach { out += Texts.momentPeriod(it) }
         Element.entries.forEach { out += Texts.momentElement(it) }
+        Trigram.entries.forEach { out += Texts.illnessTrigram(it) }
+        Animal.entries.forEach { out += Texts.illnessDay(it) }
+        (1..9).forEach { n -> out += Texts.illnessMewa(n); IllnessSpiritKind.entries.forEach { out += Texts.illnessSpirit(n, it) } }
+        IllnessReckoning.SPLITS.forEach { out += Texts.illnessSplit(it) }
+        IllnessTime.entries.forEach { t -> IllnessAspect.entries.forEach { a -> listOf(true, false).forEach { out += Texts.illnessPebble(IllnessPebble(t, a, it)) } } }
+        Weekday.entries.forEach { out += Texts.illnessPlanet(it) }
+        Trigram.entries.forEach { out += Texts.illnessTrigramCause(it); out += Texts.illnessTrigramRansom(it); out += Texts.illnessFlee(it) }
+        listOf(Kinship.IDENTITY, Kinship.ENEMY, Kinship.MOTHER, Kinship.FRIEND, Kinship.SON).forEach { out += Texts.illnessReach(it) }
+        Element.entries.forEach { e -> IllnessYearPair.entries.forEach { out += Texts.illnessYear(e, it) } }
+        Animal.entries.forEach { out += Texts.illnessRansom(it) }
+        Sector.entries.forEach { out += Texts.illnessStage(it) }
+        IllnessHelper.entries.forEach { out += Texts.illnessHelper(it) }
+        (1..15).forEach { out += Texts.illnessPoint(it); out += Texts.illnessBlack(it) }
+        (Force.entries + listOf(null)).forEach { out += Texts.illnessDoor(it) }
+        Force.entries.forEach { f -> IllnessTreeVerdict.entries.forEach { out += Texts.illnessTree(f, it) } }
         LineStage.entries.forEach { s -> LineGroup.entries.forEach { out += Texts.birthLine(s, it) } }
         MatchReckoning.ASPECTS.forEach { f -> MatchMeeting.entries.forEach { out += Texts.matchAspect(f, it) } }
         out += Texts.matchKarma()
@@ -619,7 +642,7 @@ class CatalogTest {
             "K6" to listOf("SolarTerm"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
-            "H2" to listOf("ElementIllness"),
+            "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
         /**
