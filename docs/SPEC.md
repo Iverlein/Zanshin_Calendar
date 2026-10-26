@@ -2041,6 +2041,54 @@ glyphs (§10.3). `DaySummaryTest` keeps these numbers.
   occasion comes" (img. 14), and every earth lord stays outside the
   weighing, shown with its remedy (D4, the owner, 2026-10-26;
   [sources/weighing.md](sources/weighing.md)). One row in "Also today" (§10.3).
+- **The year's and the month's earth lords** (WB vol. 2, ch. 31, pp. 174–223,
+  [sources/year-month-earth-lords.md](sources/year-month-earth-lords.md), RD3 and
+  RD4 on the scan; ROADMAP T2.26, built 2026-10-26). `YearMonthEarthLords` places
+  44 of the year's lords and 55 of the month's, each by WB's own course only (the
+  owner, 2026-10-11), and `LordTexts` gives each its reading: a paragraph, the works
+  it bars as its *Avoid* list, its *Remedy* row and a *How it falls* row naming the
+  place it holds on the shown day. **Not weighed** (D4, the owner, 2026-10-26): a
+  lord bars the works it names in its own place, whatever the day's verdict, and is
+  met by its remedy; a work barred in one direction weighs for neither side.
+  - **The year's lords move at the winter solstice** with the year of the Chinese
+    reckoning, not at Losar (question 34): each takes the place of the year that the
+    solstice opens on its own entry day, counted from the solstice, from 24 days
+    before it (Hangphen) to 124 after (Kala the corpse-eater). A lord whose entry WB
+    does not give moves at the solstice itself. The solstice is the day at whose end,
+    in Lhasa's mean solar time, the Sun has passed 270° (as the day's sme ba, §5.11).
+    The year's sme ba for the sme ba's nine gods and the black years is that year's
+    (`YearOfLife.yearSmeBa`).
+  - **Places.** An animal's place (one of twelve, the mouse in the north, WB vol. 1,
+    p. 254), counted from the year's or the month's animal as the chapter counts:
+    upward on through mouse, ox, tiger, the seventh opposite, the four-slayers three
+    either side. Or one of the eight directions, the triad's wind-horse, a table by
+    the animal, the sme ba's square for the nine gods, or a place in the house (the
+    threshold, the hearth, the courtyard …). Where WB places a head, a mouth and a
+    tail apart, or a group's members, each is its own seat; the se demon and the
+    stump-hand move along a line; the black years hold the whole year.
+  - **The month's lords** arise on the 1st (p. 199) and are placed by the month's
+    animal (the tiger month Hor 11, as the chapter's season-months count). The
+    empty vase (*bum stong*) follows its first way, by the month's animal, one
+    direction for the month, as the model almanac's twelve heads write it, not the
+    sun's sign within the month (vol. 1, p. 135). The model almanac's heads are the
+    test's vectors for the empty vase, the five gods and the nine
+    (`YearMonthEarthLordsTest`).
+  - **Choices stated where the text is silent**, for the owner to overrule: the *se
+    ba bla mkhyen* at its outer place only, the year's seventh (its inner and secret
+    places are not reckoned in the text); "following" with one year between counted
+    as the year behind (WB's note on no. 12), for the great queen and the black one
+    without a husband.
+  - **Left out**: the lords whose place the text does not fix (Seshar of the year
+    and the slayer who buries, on a wind-horse's tomb; the hal khyi's mothers and
+    sons; Pilang; the horse demon of children; Jama Gunggyal; the month's *bla
+    mkhyen*; the speckled *gnyan*; the light-clearer; the cheek's crawler; Gogku,
+    whose course WB spells out for wood and earth only; Rāhu of the middle);
+    Wangkhyi (question 29); the palace gods, spread over every sme ba; the sky dogs
+    of a bride (ROADMAP P3) and the sky dog's joining date; and the month's lords
+    that fall on dates (the fierce date of nine corpses, the raven of the dead, the
+    fanged, the five gods of Grolbu's gathering, the earth's destroyer, the
+    nāga-planet), which are date courses for a later block. The black months and
+    Kikang's stand among the date's courses above.
 - **Jupiter's nectar periods** ([sources/nectar-periods.md](sources/nectar-periods.md)),
   the *kun phan me long* §10: each double hour is halved, each half ruled
   by a planet, counted from the weekday's own planet six on by day (from
@@ -3367,6 +3415,18 @@ canvas "Zanshin Calendar — basic design".
   month's subtitle its black dates, Kikang's its work. Then, on their seven
   days, the sage's and the pig's seven days (§5.11), "day 3 of 7", the
   pig's unlucky.
+  Then the earth lords of the year and the month (§5.13, ROADMAP T2.26), one
+  row with a compass, "42 of the year · 50 of the month", opening their sheet:
+  a Year and a Month tab, each with its heading (the year whose place the
+  lords hold, the month's animal), a note that they are not weighed, a
+  compass of twelve animals' places round eight directions shaded and
+  numbered by the lords on each, and every lord as a row, its title, its
+  place as the second line, its sheet the reading. The year's balloon and
+  the month's carry the same sheet as an action, "Earth lords of the year"
+  and "of the month", opening it at its own tab. The day in brief's sheet
+  lists, after its works, those of them the lords bar and where ("Funerals:
+  not towards the horse's place, lower south, east"), under "Earth lords of
+  the year and month", with a note that they are not weighed.
   The nectar periods have no row on the page: the brief's "By the hour"
   and the hours panel give them (§5.13).
 - **Hours of the day:** a clock icon on the Almanac header opens the

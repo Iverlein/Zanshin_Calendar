@@ -22,6 +22,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   name it for, and the twelve links counted from the month's middle term,
   each day's link with its works, directions and remedy; the fangs of the hundred feet on the birth mansion, and the spear
   and great spear on the moon's mansion; the
+  earth lords of the year and the month on a compass, each with the works
+  it bars in its place and its remedy, not weighed; the
   hours with the combination period, the earth lords of the hour, the
   black hours, what each hour is good for, the four rough times at
   sunrise, noon, sunset and midnight, and the works an hour turns

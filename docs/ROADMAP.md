@@ -29,7 +29,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 8 | U The Tibetan page's UX | M | Five small items, all built: the deciding factor named (U2), the combination as one row (U1), the page in weighed / yours / also-today sections (U3), the brief grouped by voices (U4), the hours on the In brief row (U5); no side or tone changes | — |
 | 9 | T2.27 WB's days of the twelve links — built 2026-10-15 | S | WB's own reading of each link's day (vol. 2, pp. 351–356), found unread on 2026-10-11: works, directions, illness, remedy; it joins the link's lists | — |
 | 10 | A1 Light theme and colour themes — built 2026-10-15: System, Ink, Paper and Night (block 33), Maroon and Sepia (block 38) | L | The palette is one dark `Palette` object, read about 510 times in 20 files, 29 of them in Canvas code; it becomes a theme chosen in Settings, with a light theme and dark and light alternatives, every tone and printed colour kept legible on each; the checks of the review of 2026-10-11 in its section | — (D5 settled 2026-10-11); U8–U18 and X2 first, so the screenshots are retaken once |
-| 11 | T2.26 The year's and the month's earth lords | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, outside the weighing with their remedies (D4, the owner, 2026-10-26) | — |
+| 11 | T2.26 The year's and the month's earth lords — built 2026-10-26 | L | WB's almanac writes them at the head of the year and of each month, and ch. 31's pp. 175–221 are unread; Year and Month tabs, outside the weighing with their remedies (D4, the owner, 2026-10-26) | — |
 | 12 | H1–H3 The health screen, and the menu's groups collapsible — H1 and H3 built 2026-10-15, H2 built 2026-10-26 (H2a 2026-10-22) | L | A screen of its own from the menu, with Tibetan medicine beside WB (Dr. Nida Chenagtsang, trusted by the owner): the element's mansions by the life force (left by T2.19), the la's place, vitality and body, the day's illness readings, then WB's illness reckoning; with it the menu's groups collapsible, closed by default, each remembering its last state (H3, S), since the screen is the first of several that lengthen the menu | T2.27; R1 for H2 |
 | 13 | P1–P3 Relatives, the obstacles that need them, the bride's departure — P1 built 2026-10-15 | L | The readings T4 left for want of other people's dates, and WB ch. 23's bride's departure, on relatives added to each saved person | P1 first |
 | 14 | R The reckonings, a section of their own — R1 built 2026-10-15 | XL | WB's pebble divinations, chapters 20–30, in a menu section as Meditation has; the section is open with the year of age in it (R1), the reckonings one by one follow (R2…) | R1 first; P1 for those that need relatives |
@@ -81,7 +81,7 @@ moves up as soon as it is unblocked.
 | <a id="block-22"></a>22 | [T2.24](#t2-24) The day animals by WB — built 2026-10-10 | — | — | Build block 22: T2.24, read WB's results of the twelve day animals on the scan and join them to the day animal's lists. |
 | <a id="block-23"></a>23 | [T2.25](#t2-25) The Lunar day section by use — built 2026-10-10, released as 2.4.1 | — | — | Build block 23: T2.25, keep in the Lunar day section only what can be used or weighed, the hundred feet in Your day. |
 | <a id="block-24"></a>24 | [T2.27](#t2-27) WB's days of the twelve links — built 2026-10-15 | [RD1](#rd1) | [42](#block-42), the shape its readings are written in | Build block 24: T2.27, join WB's days of the twelve links (RD1) to the day's link. |
-| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26) settled 2026-10-26) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, outside the weighing with their remedies as D4 says. |
+| <a id="block-25"></a>25 | [T2.26](#t2-26) The year's and the month's earth lords — built 2026-10-26 | [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6) | [42](#block-42), the shape its readings are written in ([D4](#t2-26) settled 2026-10-26) | Build block 25: T2.26, the Year and Month tabs from RD2–RD6, outside the weighing with their remedies as D4 says. |
 | <a id="block-26"></a>26 | [H1](#h1) The health screen + [H3](#h3) The menu's groups collapsible — built 2026-10-15 ([D14](#h1) decided the same day) | [RD1](#rd1), [RD7](#rd7), [RD8](#rd8), [RD9](#rd9), [RD10](#rd10) | [42](#block-42), the shape its readings are written in | Build block 26: H1, the Health screen from RD1 and RD7–RD10, with the element's mansions, and H3, the menu's groups collapsible, closed by default, each remembering its last state. |
 | <a id="block-27"></a>27 | [P1](#p1) Relatives — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14), [RD15](#rd15), [RD16](#rd16) | — | Build block 27: P1, the relatives of each saved person. |
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
@@ -1306,7 +1306,7 @@ verdict, and the owner's decisions of 2026-10-10:
   `DaySummaryTest`'s days against their tone 2,018 to 2,006. Emulator in
   English and Russian (10 and 19 October 2026).
 
-#### <a id="t2-26"></a>T2.26 The year's and the month's earth lords — planned 2026-10-11
+#### <a id="t2-26"></a>T2.26 The year's and the month's earth lords — planned 2026-10-11, built 2026-10-26 (SPEC §5.13, §10.3)
 
 - **Gap.** WB's almanac writes, at the head of each month, the month's
   wheel and the charts of its scattered earth lords (vol. 1, p. 176,
@@ -1395,6 +1395,30 @@ verdict, and the owner's decisions of 2026-10-10:
   their remedies, not in the works' verdicts (D4).
 - **Block.** [25](#block-25); reads [RD2](#rd2), [RD3](#rd3), [RD4](#rd4), [RD5](#rd5), [RD6](#rd6); waits on [42](#block-42) (built) for the shape its readings are written in ([X1](#x1)).
   [30](#block-30) (P3) waits on it.
+- **Built 2026-10-26.** `YearMonthEarthLords` (core) places 44 of the
+  year's lords by the year the last winter solstice opens, each on its own
+  entry day (question 34), and 55 of the month's by the month's animal;
+  `LordTexts` gives each a reading in the shape, written from RD3 and RD4
+  by five writers in parallel (the works it bars as wordings, *Remedy*,
+  *How it falls* by the engine), not weighed (D4). The app's sheet has a
+  Year and a Month tab with a compass of the lords on the twelve animals'
+  places and the eight directions; the year's and the month's balloons
+  open it at their tab, a row in Also today opens it, and the day in
+  brief lists the day's works the lords bar and where. Choices stated in
+  SPEC §5.13 for the owner to overrule (the *se ba bla mkhyen*'s outer
+  place only; "following" as the year behind; *bum stong* by the month's
+  animal). Not built: the lords whose place the text does not fix, the
+  palace gods, Gogku, the bride's sky dogs (P3) and the month's lords that
+  fall on dates (SPEC §5.13, *Left out*); the KP boxes' *se byi*, *hang
+  phan* and the like stay "not calculated", since D4 keeps the lords out
+  of the weighing the boxes feed. Checked: `YearMonthEarthLordsTest` (the
+  model almanac's twelve heads for the empty vase, the five gods and the
+  nine; the move at the solstice; the black years by the year's sme ba),
+  `CatalogTest` and `TextsTest` over every lord in a sixty and every
+  month, `:core:test` and `:app:testDebugUnitTest` in full; the emulator
+  in English and Russian (both tabs, readings, the brief's block, the
+  balloon action), at font scale 2.0 and in landscape; the release build
+  for raw keys.
 - **Done when.** Vectors from the model almanac's month heads (vol. 1,
   pp. 154–171) where it draws them; `DaySummaryTest`'s counts updated;
   `CatalogTest`; SPEC §5.12, §5.13, §10.3; both tabs and the page checked
@@ -1787,7 +1811,7 @@ verdict, and the owner's decisions of 2026-10-10:
    then T2.20 (built 2026-10-09), T2.21 (built 2026-10-10) and T2.22 (built 2026-10-10), T2.24 (found and built 2026-10-10); T2.23 built 2026-10-10; T2.25 built 2026-10-10.
 7. T2.19 built 2026-10-08; with it E6's "For you" half has its enemy weekday.
 8. Found 2026-10-11, checking the page against WB's own almanac and
-   chapters: T2.27 (built 2026-10-15), then T2.26 (D4 settled 2026-10-26).
+   chapters: T2.27 (built 2026-10-15), then T2.26 (D4 settled and built 2026-10-26).
 9. Found 2026-10-12 and 2026-10-13 by the O readings: T2.28, before the
    X blocks that reword the same readings; built 2026-10-15 but for D11 and D13.
 
