@@ -314,3 +314,67 @@ ys:
     2: {scan: I5876}
   notes: "the author of WB answering questions on it; vol. 1 (I5875, 548 images) holds the questions (from img. 9) and the replies; etext page = image number (VEIE0OPIF790A4DF_I5875; questions 137–142 img. 100–101, replies 494–499, RD47; reply 113 img. 469, RD21); vol. 2 (I5876, etext VEIE0OPIF790A4DF_I5876, title page img. 8) carries the replies on: reply 153 runs on to img. 14, replies 154–160 on ch. 30 are img. 14–18 (RD48), reply 161 opens ch. 31 on img. 18, and replies 165 and 168 stand on etext pp. 22–25 (the 'reply 106' once noted there is 165 misread); vol. 1's replies 101–153 on ch. 22–29 are img. 454–546 (RD48); passage ids of vol. 2 carry the volume, ys.2:iN, those of vol. 1 none; another print MW2PD17386_474815, search only"
 
+
+mta:
+  title: "Rnam gnon zhes pa 'byung ba bzhi ldan lcags 'brug lo'i lo tho rgyas pa dpag bsam 'bras bu'i dga' ba (the full almanac of the iron dragon year, 2000)"
+  author: "Astrological department, Tibetan Medical and Astro. Institute (Men-Tsee-Khang)"
+  edition: "Dharamsala 2000, 221 pp."
+  bdrc: {work: MW2CZ9145, scans: [I1PD98360]}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: witness
+  notes: "a printed Phugpa almanac, read as a witness to how an almanac sets the year's directions beside the day (D4, C, 2026-10-26); printed page = image number − 4 (p. 52 = img. 56); the front matter img. 3–80 machine-read by Yigdzin-1 in scratch; other Men-Tsee-Khang almanacs on BDRC: MW2CZ9132 (1987, I1PD98329), MW2CZ9147, MW2CZ9094; the Lhasa 2013 almanac MW1PD159386 (I4PD4388)"
+
+bsb:
+  title: "Bod spyi bshad (a general account of Tibet), ch. 29, Bzo bkod rig gnas (building)"
+  edition: "Kan su'u mi rigs dpe skrun khang, Lanzhou 2008, Qinghai Nationalities University series 55"
+  bdrc: {work: MW1PD53271, etext: VEIE0OPIA4D97CA4_I1PD53306}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: witness
+  etext_offset: 18
+  notes: "printed page = etext page − 18 (p. 435 = etext p. 453); scans on archive.org only; the house-building rites as practised in Gcan tsha, Reb gong and Chab cha (A mdo), citing a Sa dpyad phyogs bsgrigs and a Bod kyi dmangs srol dang 'brel ba'i skar rtsis"
+
+lcm:
+  title: "Klong chen rab 'byams pa Dri med 'od zer, Dpal gsang ba'i snying po de kho na nyid nges pa'i rgyud kyi 'grel pa phyogs bcu'i mun pa thams cad rnam par sel ba (Dispelling the Darkness of the Ten Directions, on the Guhyagarbha)"
+  edition: "Gsung 'bum, Dpal brtsegs, Mes po'i shul bzhag (MW1KG4884)"
+  bdrc: {work: MW1KG4884_3C5394, etext: VE1KG4884_023}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "page = the etext page of the volume VE1KG4884_023; the rite of the ground (sa chog) at etext pp. 181–182, quoting the Bam brgyad kyi 'grel pa on the serpent; other copies MW1PD100944_8DC4DF, MW3CN7099 (etext)"
+
+sdp:
+  title: "Sādhuputra (Sa dhu pu tra), Dpal dus kyi 'khor lo'i dkyil 'khor gyi cho ga (the Kālacakra maṇḍala rite)"
+  edition: "Bstan 'gyur, Sde dge print (MW23703)"
+  bdrc: {work: MW23703_1359, etext: VE23703_1330}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "an Indian rite in the Tengyur, read as a witness to the Indian ground rite; page = the etext page of VE23703_1330 (the ground rite at pp. 238–241); another copy MW1PD95844_0256 (VEIE0OPIA3E40644_I1PD95852)"
+
+spd:
+  title: "Bsod nams dpal ldan, Bod lugs sman rtsis skor gyi dpyad rtsom mes po'i zhal rgyun (essays on Tibetan medicine and astrology)"
+  author: "Bsod nams dpal ldan (Chab mdo Men-Tsee-Khang)"
+  bdrc: {work: MW1GS88136, etext: VEIE0OPI4337C4F2_I1GS88139}
+  licence: "modern, copyrighted: facts only, never its wording"
+  rank: 3
+  role: witness
+  notes: "search only (the etext API answers 403); scans on archive.org; the passage on the reckoners' customs in Khams at character 62 697, read by chaining BDRC's search snippets (D4, C, 2026-10-26); its printed page is not known"
+
+ckg:
+  title: "'Bri gung Chung tshang Chos kyi grags pa, Gsung 'bum"
+  bdrc: {work: MW22082, etext: [VE22082_004, VE22082_011]}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "vol. 4, Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa kun sel (pp. 483–496 by the outline; its etext holds only the opening, etext p. 2); vol. 11, a fierce rite whose timing names the earth lords and the serpent (etext p. 6 of the text, at character 795 039 of VE22082_011); page = the etext page"
+
+sll:
+  title: "Sa skya'i lam 'bras (the Sakya Lamdre collection), a biography in vol. I2PD19940 on the building of an assembly hall"
+  edition: "Rdzong sar lnga rig slob gling, Sde dge 2007, 41 vols (MW2PD19769)"
+  bdrc: {work: MW2PD19769, etext: VEIE0OPI336B7478_I2PD19940}
+  licence: public-domain
+  rank: 3
+  role: witness
+  notes: "printed page = etext page − 7 (p. 414 = etext p. 421); the line at character 646 102"

@@ -186,6 +186,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/earth-four-executioners.md](claims/earth-four-executioners.md) | claim, note | The four executioners and the four earth years | cites ut:p56, lt:p26-28, wb.2:p499-500, wb.2:p52-54; feeds block-31 |
 | [claims/earth-lords-beside-the-weighing.md](claims/earth-lords-beside-the-weighing.md) | claim, rule | KP and SY close the weighing by sending the earth lords to screening and remedy | cites kp:i14, sy:p389-392; feeds T2.26, D4 |
 | [claims/earth-lords-bride-ten-checks.md](claims/earth-lords-bride-ten-checks.md) | claim, list | A bride is sent by ten checks, the earth lords one of them, unranked | cites dz:i045, kd.3:p634, kd.3:p641-642, lt:p38-41; feeds T2.26, D4 |
+| [claims/earth-lords-place-beside-day.md](claims/earth-lords-place-beside-day.md) | claim, note | The earth lords decide the place, the day is chosen apart | cites mta:p52-53, bsb:p435-436, lcm:p181-182, sdp:p238-241, kd.1:p493, kd.1:p495; feeds T2.26 |
 | [claims/funeral-feast-day.md](claims/funeral-feast-day.md) | claim, rule | The funeral feast's council, omen beer, day and seats | cites wb.2:p126-128, wb.2:p519-520, wb.2:p521; feeds block-31 |
 | [claims/funeral-feast-pegs.md](claims/funeral-feast-pegs.md) | claim, table | The pegs and works on each mewa at the funeral feast | cites wb.2:p126-128, wb.2:p521, wb.2:p522a; feeds block-31 |
 | [claims/funeral-feast-whether.md](claims/funeral-feast-whether.md) | claim, rule | Whether the funeral feast is held | cites wb.2:p126-128, wb.2:p519-520; feeds block-31 |
@@ -344,15 +345,20 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
+| [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 10 passages: 10 scan |
+| [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 7 passages: 5 scan, 1 machine, 1 etext |
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 4 passages: 2 scan, 2 etext |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
+| [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 6 passages: 6 scan |
+| [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
+| [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
@@ -582,6 +588,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | **CN** | Co ne Grags pa bshad sgrub (1675–1748), a rtsis manual in verse that cites WB («བཻ་དཀར») | in his *Gsung 'bum*, Krung go'i bod rig pa dpe skrun khang, 18 vols | BDRC MW1PD90129, etext volume VE1PD90129_017 (unaligned; the eclipses from «ཉི་མ་སྒྲ་གཅན་འཇུག་པའི་ཚུལ», etext pp. 19–21); scans on archive.org, not read |
 
 | **SN** | Mkhas grub Lung rtogs rgya mtsho, *Gtsug lag rtsis kyi rig pa nag rtsis snang srid me long dang 'bras rtsis bden don snying po* (Bon: the Chinese reckoning and its results, 45 works one by one). **A witness to WB only** (below) | G.yung drung bon gyi bshad sgrub 'dus sde, Khotla-Panjola (H.P.), 21 + 277 pp. | BDRC MW1KG13780 (work WA1KG13780; scans W1KG13780, open; etext IE0OPI0BF3377F, good). Nyi ma bstan 'dzin's *snang srid me long* (MW1KG89128, scans only) is unread |
+| **MTA** | Men-Tsee-Khang, *Rnam gnon zhes pa 'byung ba bzhi ldan lcags 'brug lo'i lo tho rgyas pa dpag bsam 'bras bu'i dga' ba* (the full almanac of the iron dragon year, 2000). A witness to an almanac's practice; facts only | Astrological department, Tibetan Medical and Astro. Institute, Dharamsala 2000, 221 pp. | BDRC MW2CZ9145 (scans I1PD98360; printed page = image − 4) |
+| **BSB** | *Bod spyi bshad* (a general account of Tibet), ch. 29 on building, the rites of a new house in A mdo. A witness to practice; facts only | Kan su'u mi rigs dpe skrun khang, Lanzhou 2008 | BDRC MW1PD53271 (etext VEIE0OPIA4D97CA4_I1PD53306, printed page = etext page − 18; scans on archive.org) |
+| **LCM** | Klong chen rab 'byams pa, *Phyogs bcu'i mun pa thams cad rnam par sel ba* (on the Guhyagarbha tantra), its rite of the ground. A witness | Gsung 'bum, Dpal brtsegs, Mes po'i shul bzhag | BDRC MW1KG4884_3C5394 (etext VE1KG4884_023; page = etext page) |
+| **SDP** | Sādhuputra, *Dpal dus kyi 'khor lo'i dkyil 'khor gyi cho ga* (the Kālacakra maṇḍala rite, Tengyur), its rite of the ground. A witness | Sde dge Bstan 'gyur | BDRC MW23703_1359 (etext VE23703_1330; page = etext page) |
+| **SPD** | Bsod nams dpal ldan, *Bod lugs sman rtsis skor gyi dpyad rtsom mes po'i zhal rgyun* (essays). A witness to practice; facts only | — | BDRC MW1GS88136 (etext VEIE0OPI4337C4F2_I1GS88139, search only) |
+| **CKG** | 'Bri gung Chos kyi grags pa, *Gsung 'bum*: the treatise on the earth lord serpent (vol. 4) and a fierce rite (vol. 11). A witness | — | BDRC MW22082 (etexts VE22082_004, VE22082_011; page = etext page) |
+| **SLL** | *Sa skya'i lam 'bras*, a biography on the building of an assembly hall. A witness | Rdzong sar 2007 | BDRC MW2PD19769 (etext VEIE0OPI336B7478_I2PD19940, printed page = etext page − 7) |
 
 **SN is a witness, never a source** (the owner, 2026-10-08). It may confirm
 a reading of WB or raise a question about one, and a topic file may quote

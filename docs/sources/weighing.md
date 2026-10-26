@@ -807,4 +807,166 @@ manuals' «གུང་གཉིས་ཟེར་གཉིས»: midnight and n
 
 ## The earth lords against the results in the earth rites, the almanacs and modern works (D4, C, 2026-10-26)
 
-*Stub: the sa chog and building manuals, the printed almanacs' prefaces, modern scholarship. Filled by its reader.*
+Read for the owner's D4 (ROADMAP T2.26) in reader C's territory: the rites
+of the ground (ས་ཆོག, sa chog) and building, the printed almanacs (ལོ་ཐོ, lo tho) and
+how they are explained, and modern works. Searched with BDRC's full-text
+search (`bdrc_search.py`, 14 runs of up to six phrases), the etexts it
+pointed to, the scans of one Men-Tsee-Khang almanac, Gyurme Dorje's book
+(GD, the archive.org OCR) and the web. The passages are in the corpus
+(below, by id); what they share is the claim
+[earth-lords-place-beside-day](claims/earth-lords-place-beside-day.md).
+**No text in this territory ranks an earth lord (ས་བདག, sa bdag) against
+the day's factors of WB's order or against the combination.** What the
+texts do is keep two tests apart and ask that both be passed: the earth
+lord says *where* (or which way), the day's factors say *when*.
+
+### The rites of the ground: the serpent says where to dig, the day is chosen apart
+
+- **Longchenpa (ཀློང་ཆེན་པ, klong chen pa), *Dispelling the Darkness of the
+  Ten Directions* (LCM), etext pp. 181–182**
+  ([lcm:p181-182](corpus/lcm/lcm.md#lcm-p181-182), etext): the rite of the
+  ground for a maṇḍala opens the ground "from the side of the earth lord,
+  the serpent (ལྟོ་འཕྱེ, lto 'phye)", whose head turns with the seasons
+  (quoted from the commentary on the *Bam brgyad* (བམ་བརྒྱད, bam brgyad)): «དེའང་མགོ་ལ་ཕོག་ན་སློབ་དཔོན་འཆི་ཞིང༌། མཇུག་མ་ལ་ཕོག་ན་སློབ་མ་འཆི་བས་ལྟོ་བ་ནས་བརྐོས་ཏེ་བྱའོ།»,
+  "if it strikes the head the master dies, if the tail the disciple dies,
+  so dig from the belly". A prohibition of place with a death as its
+  penalty, stated with no reference to any day. The same lines stand in
+  three other prints of the commentary (BDRC search, «སྐྱེས་བུ་ཆེན་པོ་ལྟོ་འཕྱེ», 5 hits).
+- **Sādhuputra's Kālacakra maṇḍala rite (SDP), Tengyur, etext pp. 238–241**
+  ([sdp:p238-241](corpus/sdp/sdp.md#sdp-p238-241), etext), the Indian
+  witness: first the time, «དཔྱིད་ཟླ་འབྲིང་པོ་དང་དཔྱིད་ཟླ་ཐ་ཆུངས་སམ། ཟླ་བ་གཞན་རྣམས་ཀྱི་ཚེས་ལྔའམ་བཅུ་ལ། གདུག་པའི་གཟའ་ལ་འཇུག་ཕོད་ལ་སོགས་པ་དང་བྲལ་བའི་དུས་ཀྱི་སྔ་དྲོ་ལ།»
+  (the middle or last spring month, or the 5th or 10th of another month,
+  the morning of a time free of fierce planets), then, as a later step,
+  the serpent's lie by the sun's course and the digging from beside its
+  navel. Two steps of one rite, neither weighed against the other.
+- **Chos kyi grags pa of Drigung (འབྲི་གུང་ཆོས་ཀྱི་གྲགས་པ, 'bri gung chos kyi grags pa; CKG), a fierce rite, vol. 11, etext p. 6**
+  (etext): the rite is timed for «གཟའ་སྐར་གདུག་ཅིང་རྩུབ་པ་དང༌། གཟའ་དང་ས་བདག་དྲག་པོ་འགྱུ་བའི་དུས», "fierce and rough
+  planets and mansions, and a time when fierce planets and earth lords
+  move", and then «ས་རྐོ་བའི་དུས་ལྟོ་འཕྱེའི་ཁ་ལྟ་ཕྱོགས་བརྟག་པར་བྱ།», "at the time of digging, examine
+  the direction the serpent faces". Here the moving earth lords are a
+  quality of the *time*, named with the planets (as DZ's «ས་བདག་རྒྱུ་དུས»
+  above), and the serpent a test of *place*. His treatise on the serpent
+  (CKG vol. 4, *Sa bdag lto 'phye chen po brtag pa'i rab tu byed pa nyes pa
+  kun sel*; the etext holds only its opening, etext p. 2) gives the
+  serpent's seasons in several systems and a body of 360 cells it walks
+  one a day, and says nothing in that part of any day's factor.
+- **A Sakya biography (SLL), p. 414 (etext p. 421)** (etext), on building an
+  assembly hall: «ལྷག་པ་ལྷ་མཚམས་འགྲུབ་སྦྱོར་གཟའ་སྐར་དགེ་བའི་ཉིན་འདུ་ཁང་གི་ས་བརྟག་སློང་དང་ས་བདག་ལྟོ་འཕྱེ་ཚད་ལྡན་བྱས་ནས», "on a
+  Wednesday, an accomplishing combination, a day of good planets and
+  mansions, the examination and asking of the hall's ground and [the
+  reckoning of] the earth lord serpent were done in due measure". The
+  practice joins the two: a good day *and* the serpent.
+- **Practice in Amdo (ཨ་མདོ, a mdo), *A General Account of Tibet* (བོད་སྤྱི་བཤད, bod spyi bshad; BSB), pp. 435–436**
+  ([bsb:p435-436](corpus/bsb/bsb.md#bsb-p435-436), etext; a modern work,
+  facts only): the work on a new house begins on a day of an
+  "accomplishing mansion" (འགྲུབ་སྐར, 'grub skar); the first stroke falls best
+  on the serpent's armpit, middling on its belly, never its head or limbs;
+  "once the day of good planets and mansions is fixed" the first earth is
+  dug. Again both, and the serpent's body is said to move "with the course
+  of the planets and mansions", so the place of the stroke follows the day
+  rather than outweighing it.
+
+### The almanacs: the earth lords print as places, the day's results apart
+
+- **The Men-Tsee-Khang's almanac of the iron dragon year 2000 (MTA),
+  pp. 52–53** ([mta:p52-53](corpus/mta/mta.md#mta-p52-53), read on the
+  scan): the empty vase (བུམ་སྟོང, bum stong) stands in a direction for a span
+  of dates, «ཕྱོགས་དེར་འཛེམས», "avoid that direction"; in the sky year's clean
+  directions (གནམ་ལོའི་ཕྱོགས་གཙང, gnam lo'i phyogs gtsang) beginning works great and
+  small is auspicious; and the year's first opening of the earth, digging
+  of channels and starting of water is set on a named date and part of
+  the morning, *facing the clean direction*. The almanac composes the
+  rule of place with the chosen time; it never sets one against the
+  other. Its front matter (img. 3–80, machine-read) has no instruction on
+  weighing anything; the year's earth lords' wheels are drawings.
+- **Tshul khrims rgyal mtshan's account of the almanac (KD vol. 1),
+  pp. 493 and 495** ([kd.1:p493](corpus/kd/v1-almanac.md#kd-1-p493),
+  [kd.1:p495](corpus/kd/v1-almanac.md#kd-1-p495), etext): the month head
+  carries «ཟླ་འཁོར་ས་བདག་གི་ཤོག་ཁྲ», the sheet of the month's earth lords (drawn in a
+  full almanac, left out in his example), and for the month's hal dog (ཧལ་ཁྱི, hal khyi)
+  and the dragon lord (འབྲུག་རྗེ, 'brug rje) «དེ་དག་གནས་ཕྱོགས་དང་བུམ་སྟོང་ལ་བྱ་བ་གལ་ཆེའི་རིགས་ཀྱི་ལས་སྣེ་གཏོད་མི་རུང་།», "in their places and in
+  the empty vase no beginning of important works may be made". The day's
+  entry lists the date's earth lords (Rāhu among those that go by the
+  date, then the black day (ཉི་ནག, nyi nag), Piling (པི་ལིང, pi ling), Zinphung (ཟིན་འཕུང, zin 'phung) and the rest, the eight classes'
+  times, the strikes and turnings) among the day's results, "written as
+  the *Vaiḍūrya dkar po* sets them". He gives them no weight; his weighing
+  (pp. 498–499, above) names none.
+- **Leads not read in full** (search only, BDRC snippets): Blo bzang sbyin
+  pa's (བློ་བཟང་སྦྱིན་པ, blo bzang sbyin pa) manual of composing the almanac, *Skar rtsis 'byung rtsis zung sdeb
+  kyi li tho sbyor tshul* (BDRC MW25151_3AAD6E, etext VEIE0OPI8673634D_I01JW179
+  at 324 844), restates in verse «ལོ་འཁོར་ས་བདག་ཐེ་སེ་དང་། །བླ་མཁྱེན་ཙང་ཀུན་གནམ་ཁྱི་སོགས། །གདུག་པའི་ས་བདག་གནས་ཕྱོགས་འཛེམས།», "of the
+  year's earth lords, the king Tese (ཐེ་སེ, the se), the astrologer (བླ་མཁྱེན, bla mkhyen), the minister Tsangkun (ཙང་ཀུན, tsang kun), the sky dog (གནམ་ཁྱི, gnam khyi) and
+  the rest: avoid the places of the fierce earth lords", then the sky
+  dog's limbs, a place rule again (read from the snippets' Wylie, put in
+  script here). A talk in BDRC (MW8LS67656) says the full Men-Tsee-Khang
+  almanac prints a drawing as the general remedy of the earth lords
+  (ས་བདག་སྤྱིའི་བཅོས་ཐབས, sa bdag spyi'i bcos thabs), the nine squares on the turtle.
+
+### Practice: the closest statement to a rank
+
+- **Bsod nams dpal ldan (བསོད་ནམས་དཔལ་ལྡན, bsod nams dpal ldan; SPD), essays, at character 62 697** (search only;
+  read by chaining four snippets): among the reckoners' customs heard of
+  in Khams (ཁམས, khams), «རོ་བག་མ་ལ་ས་བདག་གཙོ་བོ་འཛིན་པ། བག་མ་ལ་ཧལ་ཁྱི་བརྩི་བ། མཁར་ལས་སྐབས་དགོན་སྡེ་ཆེ་ཁག་གིས་ས་བདག་ལྟོ་འཕྱེ་བརྩི་བ།» (put in script from the
+  snippets' Wylie), "for a corpse and a bride, the earth lords are held
+  as the chief thing; for a bride the hal dog is
+  reckoned; when building, the great monasteries reckon the earth lord
+  serpent". Beside it: when moving camp the hal dog is watched, and when
+  the dragon lord is at the door, wealth is not taken out. This is the only
+  line found that says an earth lord leads, and it is a report of local
+  custom for two works (the corpse's road and the bride's going), not a
+  rule; "chief" over what is not said.
+- **Gyurme Dorje (GD), p. 120**, in our words: the favourable sectors of
+  the years, months, days and hours are those the earth lords do not
+  occupy; an activity that coincides with an earth lord's presence in a
+  place may be undertaken only with the counteracting rites. A modern
+  summary of WB ch. 31 (reader A's text): a rule of place with its remedy,
+  not a rank among the day's factors. The same page keeps the earth
+  lords' obstacles and passages (འགག་འགྲོ་ལམ, 'gag 'gro lam) as a cartouche of their
+  own beside the year's other aspects.
+- **Petra Maurer**: her chapter on time in geomancy (ས་དཔྱད, sa dpyad) ("Landscaping Time,
+  Timing Landscapes", in *Glimpses of Tibetan Divination*, Brill 2019,
+  pp. 89–117) was not reachable (LMU's repository holds no full text;
+  Brill's page answered with a human check). The abstract of her talk of
+  2025-03-25 (CIUHCT, Lisbon) describes the same order as the texts above:
+  the site first by the land, then the astrologer's reckoning of the date.
+
+### What this gives D4
+
+1. **The rank.** Nothing found ranks the year's or month's earth lords
+   against WB's seven or the combination. The texts treat them as a test
+   of place beside the test of time, both to be passed: the serpent's
+   head, the empty vase, the month's hal dog forbid a *place or
+   direction*, on any day, and a good day does not lift them (LCM, SDP,
+   MTA, KD p. 493); a bad place has its remedy (GD p. 120; WB's notes,
+   above). The closest to "above all" is SPD's report of Khams custom
+   ("for a corpse and a bride the earth lords are held chief"), local and
+   unsourced. So, for the app, an inference and not a reading: an earth
+   lord does not enter the weighing of the day's good and bad; it bars or
+   allows the work *in its direction or place*, whatever the day's
+   verdict, as a veto of place, not of the day.
+2. **The date's earth lords.** The almanac writes them as entries of the
+   day among the other results (KD p. 495); the rites name them as a
+   quality of the time with the fierce planets (CKG vol. 11; SDP's "free
+   of fierce planets"; DZ above). So they count as the day's own factors,
+   not by the place rule; no text gives them a rank either.
+3. **A work avoided in one direction.** Every text here meets it by
+   choosing the place or the facing, not by counting it against the day:
+   avoid the direction, work facing the clean one on the chosen day
+   (MTA), dig at the belly (LCM, SDP, BSB). Such a work therefore weighs
+   for neither side of the day in these sources; it is a condition on how
+   the work is done.
+
+### Open
+
+- Question: Bsod nams dpal ldan reports of Khams «རོ་བག་མ་ལ་ས་བདག་གཙོ་བོ་འཛིན་པ»: does "the earth lords are held chief for a corpse and a bride" mean they outweigh the day's other factors for those two works, or only that they are the main thing reckoned for them?
+- Question: *A General Account of Tibet* (BSB) says the serpent's body stretches, curls and turns "with the course of the planets and mansions" (pp. 435–436): is the place of the first stroke reckoned by the day's mansion, as Chos kyi grags pa's serpent walks one cell a day, or only by the season, as Longchenpa and Sādhuputra give it?
+- Question: what is «འཇུག་ཕོད» in Sādhuputra's ground rite, a time to be free of with the fierce planets (etext p. 238)? Viṣṭi, or another?
+
+### Searched and not found
+
+- BDRC's full-text search, 2026-10-26, no hit: «གཟའ་སྐར་བཟང་ཡང», «ཚེས་གྲངས་བཟང་ཡང», «ས་བདག་གལ་ཆེ», «ཟླ་བ་གསུམ་གསུམ་ལྟོ་འཕྱེ», «ལྟོ་འཕྱེའི་རྒྱུ་ཕྱོགས», «ལྟོ་འཕྱེ་གཙོ་བོ», «ས་བདག་ལ་གཙོ་བོ», «ས་བདག་མི་ཕྱོགས», «ས་ཆོག་བྱ་བའི་དུས», «ས་ཆོག་གི་གཟའ་སྐར», «ས་བདག་ཕྱོགས་སུ་འགྲོ་དགོས», «ཕྱོགས་ངན་དུ་འགྲོ་དགོས», «ཕྱོགས་ངན་ལ་འགྲོ་དགོས», «ཉིན་བཟང་ཡང་ཕྱོགས», «ཕྱོགས་ངན་པ་ལ་མི་འགྲོ», «ཕྱོགས་སུ་ས་རྐོ», «ས་རྐོ་ཁང་རྩིག», «ས་བདག་གི་གནས་ཕྱོགས་སུ», «ས་བདག་གི་ཕྱོགས་སུ», «ལོ་ཐོ་ལྟ་ཚུལ», «ལོ་ཐོའི་སྔོན་གླེང», «ལོ་ཐོ་དཔྱད་གཞི», «ལོ་ཐོ་བཀོད་ཚུལ», «ཁམས་ཕྱོགས་སུ་རུ་སྐྱ».
+- BDRC's full-text search, hits without a rank: «ས་བདག་གཙོ་བོར» (5: the nāgas and earth lords "chief among" harmful spirits, in rites), «ཉི་མ་བཟང་ཡང» (WB's own line only), «ལྟོ་འཕྱེའི་མགོ» (22), «ལྟོ་འཕྱེ་ཉལ» (13), «ལྟོ་འཕྱེའི་ལྟོ་བ» (13), «ས་བདག་ལྟོ་འཕྱེ» (153), «ལྟོ་འཕྱེ་བརྩི» (5), «ས་བསླང་བའི་དུས» (7), «རྐོ་བའི་དུས» (26), «ས་ཆོག་གི་དུས» (38), «ཟླ་འཁོར་ས་བདག» (11), «གཟའ་སྐར་དགེ་བའི་ཉིན» (92, almost all colophons and biographies): rites and almanac lines that place the serpent or the month's earth lords and choose the day apart; none weighs one against the other.
+- The etexts of the *Sakya bka' 'bum* (VE00EGS…) and of Blo bzang sbyin pa's and Bsod nams dpal ldan's works answer 403 (search only); Chos kyi grags pa's serpent treatise has only its opening in the etext (vol. 4, pp. 483–496 by the outline, scans not read).
+- The Men-Tsee-Khang almanac of 2000 (MTA), img. 3–80 machine-read: no user's instruction, no weighing; the earth lords' wheels are drawings. Its other almanacs on BDRC (1987, 1942, 1959, 1962; Lhasa 2013) not opened.
+- Gyurme Dorje's book (archive.org OCR): no rank, «precedence», «priority», «more important», «override» near the earth lords.
+- Not reached: Maurer's chapter (2019) and her 2009 book on WB ch. 32; Cornu's *Tibetan Astrology*, Schuh's works on the calendar and the almanac, Henning's *Kālacakra and the Tibetan Calendar*, the Men-Tsee-Khang's English books and Dr. Jampa Kelsang's writings: no copy at hand; a web search found nothing on earth lords against the day in them.
