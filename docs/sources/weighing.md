@@ -608,6 +608,10 @@ bear on the choice, and are inferences, not statements of any text:
   «ས་བདག་ངན་ན», «ས་བདག་གི་ཀོ་ལོང་ཆེ», «ས་བདག་གཙོ་བོ», «ས་བདག་ལ་མ་ལྟོས»,
   «ས་བདག་ཉིད་གཙོ»: no manual sets an earth lord against the date's results.
 
+## The earth lords against the results in WB and the regent's replies (D4, A, 2026-10-26)
+
+*Stub: WB itself beyond the notes (ch. 31's opening and closing, ch. 13, ch. 23's departure, ch. 33–34) and YS. Filled by its reader.*
+
 ## On the prints and in BDRC's search, 2026-10-18 night (open questions 127, 130)
 
 - **130, the seasons.** Longchenpa (ཀློང་ཆེན་པ, klong chen pa) glosses the
@@ -638,6 +642,10 @@ bear on the choice, and are inferences, not statements of any text:
   the sun's rising and setting (above), all four rough times are
   stretches of the day, not instants; no text found defines the *gung* by
   the sun's culmination.
+
+## The earth lords against the results in the manuals (D4, B, 2026-10-26)
+
+*Stub: DZ, LT, UT, ZG, OS, CN, JL, KD's other texts, Kongtrul, Mipham's other writings. Filled by its reader.*
 
 ## Settled, 2026-10-19 (open questions 128, 129)
 
@@ -692,3 +700,7 @@ noon and ནམ་ཕྱེད for midnight), the *Rin chen gter mdzod*'s six se
 writing ནམ་ཕྱེད where its four have ནམ་གུང, and the Vajrabhairava manual's
 «ཉིན་མཚན་གྱི་གུང་གཉིས» (read on the scan above), WB's «ཕྱེད་གཉིས་ཟེར་གཉིས» is the
 manuals' «གུང་གཉིས་ཟེར་གཉིས»: midnight and noon, and the two rays.
+
+## The earth lords against the results in the earth rites, the almanacs and modern works (D4, C, 2026-10-26)
+
+*Stub: the sa chog and building manuals, the printed almanacs' prefaces, modern scholarship. Filled by its reader.*
