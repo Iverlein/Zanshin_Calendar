@@ -3781,7 +3781,9 @@ groups it shows (`tools/emulator/store_shots.py`).
   the notes' hours, the directions, a month of a couple's days worked by hand),
   `CatalogTest` over every case for 42 couples over twelve years,
   `:core:test` and `:app:testDebugUnitTest`; the row and its sheet on the
-  emulator in English. Not checked on the emulator: the election's grid. Doubts
+  emulator in English and Russian, and the election's grid for a wedding
+  (a test couple whose bride's birth month makes the whole 9th month bad, as
+  the month's check gives it). Doubts
   for a reader (the engine's report): Kṛttikā in p. 377's no-remedy meeting,
   the coupling year, the sky dog's food days in ch. 23 against ch. 31, «ར་བ་བཞི»,
   the ages 17–32, «ཕྱྭ་ལོན» among the directions.
