@@ -47,6 +47,8 @@ object Icons {
     val Bowl = stroke("M3 9.5h18M3 9.5c0 4.7 4 8.5 9 8.5s9-3.8 9-8.5M8.5 20.5h7M15.5 3.5l3 4", 1.7f)
 
     /** A heart with the beat of a pulse, for the Health screen. */
+    /** The earth lords' row (ROADMAP T2.26): a compass. */
+    val Compass = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18zM14.8 9.2l-1.6 4-4 1.6 1.6-4z", 1.7f)
     val Pulse = stroke("M12 20s-7.5-4.6-7.5-10.3A4.2 4.2 0 0 1 12 7.2a4.2 4.2 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20zM7.5 12h2.2l1.2-2.2 2 4.2 1.2-2h2.4", 1.7f)
 
     /** The 3×3 board of the nine stars. */

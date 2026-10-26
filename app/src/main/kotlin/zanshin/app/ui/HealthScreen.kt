@@ -117,7 +117,7 @@ fun HealthScreen(from: LocalDate, zone: ZoneId, person: Person?, onPeople: () ->
             IconButton(onClick = { date = date.minusDays(1) }) { Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.health_day_before), tint = Palette.muted) }
             IconButton(onClick = { date = date.plusDays(1) }) { Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.health_day_after), tint = Palette.muted) }
         }
-        Tabs(tab) { tab = it }
+        SegmentTabs(HealthTab.entries.map { stringResource(it.label) }, tab.ordinal) { tab = HealthTab.entries[it] }
         Column(
             Modifier
                 .weight(1f)
@@ -139,60 +139,6 @@ fun HealthScreen(from: LocalDate, zone: ZoneId, person: Person?, onPeople: () ->
     sheet?.let { ReadingSheet(it) { sheet = null } }
 }
 
-/**
- * The tabs as one row of segments, the chosen one filled; screen readers get them as tabs. Where the four do not
- * fit as equal segments (a large font, ROADMAP A2), each is as wide as its name and the row scrolls sideways.
- */
-@Composable
-private fun Tabs(tab: HealthTab, onTab: (HealthTab) -> Unit) {
-    val style = body.copy(fontSize = 13.sp, fontWeight = FontWeight.SemiBold)
-    val names = HealthTab.entries.map { stringResource(it.label) }
-    val measurer = rememberTextMeasurer()
-    val density = LocalDensity.current
-    BoxWithConstraints(Modifier.fillMaxWidth().padding(horizontal = 16.dp)) {
-        val gap = 6.dp
-        val widest = remember(names, density) { with(density) { names.maxOf { measurer.measure(it, style, maxLines = 1).size.width }.toDp() } }
-        val equal = (widest + 24.dp) * names.size + gap * (names.size - 1) <= maxWidth
-        Row(
-            Modifier
-                .fillMaxWidth()
-                .then(if (equal) Modifier else Modifier.horizontalScroll(rememberScrollState()))
-                .heightIn(min = 44.dp)
-                .height(IntrinsicSize.Min)
-                .selectableGroup(),
-            horizontalArrangement = Arrangement.spacedBy(gap),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            HealthTab.entries.forEachIndexed { i, t ->
-                val selected = t == tab
-                val shape = RoundedCornerShape(18.dp)
-                Box(
-                    Modifier
-                        .then(if (equal) Modifier.weight(1f) else Modifier)
-                        .fillMaxHeight()
-                        .selectable(selected = selected, role = Role.Tab) { onTab(t) },
-                    contentAlignment = Alignment.Center,
-                ) {
-                    Box(
-                        Modifier
-                            .then(if (equal) Modifier.fillMaxWidth() else Modifier)
-                            .heightIn(min = 34.dp)
-                            .then(if (selected) Modifier.background(Palette.saffron, shape) else Modifier.border(1.dp, Palette.line, shape)),
-                        contentAlignment = Alignment.Center,
-                    ) {
-                        Text(
-                            names[i],
-                            style = style.copy(color = if (selected) Palette.onAccent else Palette.muted),
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                            modifier = Modifier.padding(horizontal = if (equal) 4.dp else 14.dp, vertical = 4.dp),
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
 
 /**
  * The day's illness and the la (ROADMAP H1): what falling ill today means by the date's round of eight, the

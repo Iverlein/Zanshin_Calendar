@@ -72,6 +72,7 @@ import zanshin.core.texts.Catalog
 import zanshin.core.texts.DaySummary
 import zanshin.core.texts.DayTime
 import zanshin.core.texts.Texts
+import zanshin.core.tibetan.Animal
 import zanshin.core.tibetan.Direction
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.ElementPair
@@ -431,6 +432,47 @@ fun BlaMkhyenCompass(direction: Direction, size: Dp, caption: String, small: Boo
             }
         }
         if (!small) Caption(caption)
+    }
+}
+
+/**
+ * Where the earth lords of the year or the month stand (ROADMAP T2.26), north at the top as Rāhu's compass: the twelve
+ * animals' places in the outer ring, the mouse at the north (WB vol. 1, p. 254), the eight directions in the inner ring,
+ * each sector shaded and numbered by how many lords hold it ([animals], [directions]).
+ */
+@Composable
+fun LordsCompass(animals: Map<Animal, Int>, directions: Map<Direction, Int>, size: Dp, caption: String) {
+    val measurer = rememberTextMeasurer()
+    val letters = stringResource(R.string.compass_letters).split(' ')
+    val description = stringResource(R.string.desc_lords_compass, caption)
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Canvas(Modifier.size(size).semantics { contentDescription = description }) {
+            val c = center
+            val r = this.size.minDimension / 2 - 16.dp.toPx()
+            val mid = r * 0.6f
+            val inner = r * 0.22f
+            val numbers = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = Palette.text)
+            fun shade(n: Int) = Palette.bad.copy(alpha = (0.12f + 0.1f * n).coerceAtMost(0.62f))
+            for (a in Animal.entries) {
+                val b = a.ordinal * 30f
+                val n = animals[a] ?: 0
+                if (n > 0) drawPath(sector(c, mid, r, b - 15f, b + 15f), shade(n))
+                drawLine(Palette.line, polar(c, mid, b + 15f), polar(c, r, b + 15f), 1.dp.toPx())
+                if (n > 0) label(measurer, "$n", polar(c, (mid + r) / 2, b), numbers)
+            }
+            for (d in Direction.entries.filter { it != Direction.CENTRE }) {
+                val b = d.ordinal * 45f
+                val n = directions[d] ?: 0
+                if (n > 0) drawPath(sector(c, inner, mid, b - 22.5f, b + 22.5f), shade(n))
+                drawLine(Palette.line, polar(c, inner, b + 22.5f), polar(c, mid, b + 22.5f), 1.dp.toPx())
+                if (n > 0) label(measurer, "$n", polar(c, (inner + mid) / 2, b), numbers)
+            }
+            for (radius in listOf(inner, mid, r)) drawCircle(Palette.lineStrong, radius, c, style = Stroke(1.dp.toPx()))
+            letters.take(4).forEachIndexed { i, l ->
+                label(measurer, l, polar(c, r + 9.dp.toPx(), i * 90f), body.copy(fontSize = 11.sp, fontWeight = FontWeight.SemiBold, color = Palette.muted))
+            }
+        }
+        Caption(caption)
     }
 }
 

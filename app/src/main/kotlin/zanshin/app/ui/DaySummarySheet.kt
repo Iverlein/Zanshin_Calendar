@@ -185,6 +185,8 @@ fun DaySummarySheet(
     festival: Boolean = false,
     onHour: (Int) -> Unit = {},
     onElect: ((Activity) -> Unit)? = null,
+    /** The works the year's and the month's earth lords bar, with their places (ROADMAP T2.26): shown, not weighed (D4). */
+    barred: Map<Activity, List<String>> = emptyMap(),
     onDismiss: () -> Unit,
 ) {
     Sheet(onDismiss) {
@@ -264,6 +266,22 @@ fun DaySummarySheet(
 
             WorkBlock(stringResource(R.string.good_for), s.good, Palette.good, good = true, tibetan = s.verdict != null, s.now, onElect)
             WorkBlock(stringResource(R.string.avoid), s.avoid, Palette.bad, good = false, tibetan = s.verdict != null, s.now, onElect)
+
+            // The earth lords of the year and the month beside the day's works they bar (ROADMAP T2.26, D4).
+            val lords = (s.good + s.avoid).mapNotNull { n -> barred[n.activity]?.let { n.activity to it } }
+            if (lords.isNotEmpty()) {
+                Block(stringResource(R.string.brief_earth_lords)) {
+                    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        for ((work, places) in lords) {
+                            Text(
+                                stringResource(R.string.brief_earth_lords_line, work.english.replaceFirstChar { it.uppercase() }, places.joinToString(", ")),
+                                style = body.copy(fontSize = 14.sp, lineHeight = 20.sp),
+                            )
+                        }
+                        Text(stringResource(R.string.brief_earth_lords_note), style = body.copy(fontSize = 12.sp, lineHeight = 17.sp, color = Palette.muted))
+                    }
+                }
+            }
 
             Block(stringResource(R.string.brief_by_tone)) {
                 for (tone in listOf(Tone.GOOD, Tone.MIXED, Tone.BAD)) {

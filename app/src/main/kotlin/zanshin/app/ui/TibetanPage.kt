@@ -130,6 +130,10 @@ fun TibetanPage(
     var summaryOpen by remember(day.jd) { mutableStateOf(false) }
     var pinning by remember { mutableStateOf(false) }
     var hoursOpen by remember(day.jd) { mutableStateOf(false) }
+    // The earth lords of the year and the month (ROADMAP T2.26): their sheet, at the tab it was opened at.
+    var lordsOpen by remember(day.jd) { mutableStateOf<LordsTab?>(null) }
+    val yearLords = yearLordEntries(info.date)
+    val monthLords = monthLordEntries(day)
     // The hour the panel opens at when the brief opens it; the clock icon opens it at the present hour.
     var hoursFrom by remember(day.jd) { mutableStateOf<Int?>(null) }
     val summary = remember(day.jd, labels.locale, info.personalDay, info.personalMansions, info.ownDays) {
@@ -223,6 +227,7 @@ fun TibetanPage(
                     BalloonRow(stringResource(R.string.row_season_chinese), day.monthNames.chineseSeason),
                     BalloonRow(stringResource(R.string.row_element), gloss(info.signs.month.element)),
                 ) + monthEntryRows(day, labels) + aspectRows(info.signs.month.forces, info.birthSign?.forces, listOf(Force.VITALITY, Force.BODY)),
+                actions = listOf(BalloonAction(stringResource(R.string.earth_lords_month_action)) { balloon = null; lordsOpen = LordsTab.MONTH }),
             )
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             CueIcon(CueGlyphs.of(day.yearElement), Palette.muted, 20.dp)
@@ -241,6 +246,7 @@ fun TibetanPage(
                     BalloonRow(stringResource(R.string.row_rabjung), stringResource(R.string.tib_rabjung, labels.ordinal(day.rabjungCycle), day.rabjungYear)),
                 ) + aspectRows(Forces.of(day.yearElement, day.yearAnimal), info.birthSign?.forces, Force.entries),
                 actions = listOfNotNull(
+                    BalloonAction(stringResource(R.string.earth_lords_year_action)) { balloon = null; lordsOpen = LordsTab.YEAR },
                     person?.let { p ->
                         val age = YearOfLife.age(TibetanCalendar.of(p.birth).year, day.year)
                         if (age >= 1) BalloonAction(stringResource(R.string.year_action, labels.ordinal(age))) { onYearOfAge(day.year) } else null
@@ -875,6 +881,14 @@ fun TibetanPage(
             ),
         ) { a -> sheet = a }
 
+        // The year's and the month's earth lords (ROADMAP T2.26): one row, its sheet the two tabs; not weighed (D4).
+        ScreenLinkRow(
+            stringResource(R.string.earth_lords_title),
+            stringResource(R.string.earth_lords_row_subtitle, yearLords.size, monthLords.size),
+            { lordsOpen = LordsTab.YEAR },
+            icon = Icons.Compass,
+        )
+
         // The seasonal signs of the month heading that last seven days (ROADMAP T2.21): shown, not weighed.
         for (sign in MonthEntries.SeasonSign.entries) {
             MonthEntries.signDay(day, sign)?.let { k ->
@@ -991,9 +1005,11 @@ fun TibetanPage(
             festival = day.holiday != null || day.specialDay != null,
             onHour = { hoursFrom = it; hoursOpen = true },
             onElect = onElect,
+            barred = remember(yearLords, monthLords) { barredWorks(yearLords + monthLords) },
         ) { summaryOpen = false }
     }
     if (hoursOpen) HoursSheet(info.date, day, info.birthSign, info.signs, zone, summary, place, visti = visti, initial = hoursFrom, onOpen = { sheet = it }) { hoursOpen = false }
+    lordsOpen?.let { EarthLordsSheet(info.date, day, it, onElect) { lordsOpen = null } }
     sheet?.let { ReadingSheet(it, onElect = onElect) { sheet = null } }
     if (pinning) PinWorksSheet(pinned, onPinned) { pinning = false }
 }

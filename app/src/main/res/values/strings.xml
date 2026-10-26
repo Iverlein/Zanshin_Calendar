@@ -1292,4 +1292,20 @@
     <string name="relation_brother_of">brother</string>
     <string name="relation_sister_of">sister</string>
     <string name="relation_household_of">member of the household</string>
+    <!-- The year's and the month's earth lords (ROADMAP T2.26): their sheet, its rows and the brief's block -->
+    <string name="earth_lords_title">Earth lords of the year and month</string>
+    <string name="earth_lords_tab_year">Year</string>
+    <string name="earth_lords_tab_month">Month</string>
+    <string name="earth_lords_year_head">The year of the %1$s, as its lords stand on this day</string>
+    <string name="earth_lords_month_head">The month of the %1$s</string>
+    <string name="earth_lords_note">Not weighed: each earth lord (ས་བདག, sa bdag) bars the works it names in its own place, whatever the day, and is met by its remedy. The year\'s lords move at the winter solstice, each on its own day; the month\'s arise on its first.</string>
+    <string name="earth_lords_compass_caption">%1$d places held on the twelve animals\' places (the outer ring, the mouse in the north) and the eight directions (the inner ring)</string>
+    <string name="earth_lords_compass_elsewhere">%1$s; %2$d in the house or along a line</string>
+    <string name="desc_lords_compass">Compass of the earth lords\' places: %1$s</string>
+    <string name="earth_lords_year_action">Earth lords of the year</string>
+    <string name="earth_lords_month_action">Earth lords of the month</string>
+    <string name="earth_lords_row_subtitle">%1$d of the year · %2$d of the month</string>
+    <string name="brief_earth_lords">Earth lords of the year and month</string>
+    <string name="brief_earth_lords_line">%1$s: not towards %2$s</string>
+    <string name="brief_earth_lords_note">Not weighed: the year\'s and the month\'s earth lords bar these works in these places, whatever the day.</string>
 </resources>

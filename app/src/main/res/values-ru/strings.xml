@@ -1145,4 +1145,20 @@
     <string name="relation_brother_of">брата</string>
     <string name="relation_sister_of">сестры</string>
     <string name="relation_household_of">домочадца</string>
+    <!-- Земные владыки года и месяца (ROADMAP T2.26) -->
+    <string name="earth_lords_title">Владыки земли года и месяца</string>
+    <string name="earth_lords_tab_year">Год</string>
+    <string name="earth_lords_tab_month">Месяц</string>
+    <string name="earth_lords_year_head">Год %1$s: где его владыки стоят в этот день</string>
+    <string name="earth_lords_month_head">Месяц %1$s</string>
+    <string name="earth_lords_note">Не взвешиваются: каждый владыка земли (ས་བདག, sa bdag) запрещает названные им дела на своём месте, каким бы ни был день, и устраняется своим средством. Владыки года переходят в зимнее солнцестояние, каждый в свой день; владыки месяца возникают в его первое число.</string>
+    <string name="earth_lords_compass_caption">Занятых мест на местах двенадцати животных (внешнее кольцо, мышь на севере) и восьми сторонах (внутреннее кольцо): %1$d</string>
+    <string name="earth_lords_compass_elsewhere">%1$s; в доме или на линии: %2$d</string>
+    <string name="desc_lords_compass">Компас мест владык земли: %1$s</string>
+    <string name="earth_lords_year_action">Владыки земли года</string>
+    <string name="earth_lords_month_action">Владыки земли месяца</string>
+    <string name="earth_lords_row_subtitle">года: %1$d · месяца: %2$d</string>
+    <string name="brief_earth_lords">Владыки земли года и месяца</string>
+    <string name="brief_earth_lords_line">%1$s — избегать: %2$s</string>
+    <string name="brief_earth_lords_note">Не взвешиваются: владыки земли года и месяца запрещают эти дела в этих местах, каким бы ни был день.</string>
 </resources>
