@@ -6593,3 +6593,216 @@ else on the print differs from Yigdzin-1 in these lines.
   class of the illness.
 - 2026-10-27, img. 511 l. 4: a crop of the three syllables sent to agy twice
   was refused by the model; nothing was drawn from it.
+
+### The third reading of RD58 (2026-10-27): Mipham's own print and the typeset Collected Works
+
+The points the 1996 print left open (question 424 to 429) were put to two
+witnesses not opened for them before. **Mipham's own print of the notes**
+(I2029, the block print behind BDRC's MW23468_1D3C15; 3400 px, six lines to the
+image, bitonal and tilted, letters about 25 px high) holds the notes on
+img. 621–750 in the order of the 1996 print and, as far as read, in the same
+words. Image numbers of the passages here: the notes' pp. 495–496 are img.
+662–663, the end of p. 502 and p. 503 img. 675–677, the moment's close, the
+worked example and the colophon (pp. 537–538) img. 740–743. **The Collected
+Works in the typeset edition** (Chengdu; MW2DB16631_DB4BAA, vol. 1, I1PD34647;
+a clean modern setting, printed page = image − 46: p. 554 is img. 600, p. 555
+img. 601, p. 636 img. 682, p. 639 img. 685) holds the same notes: pp. 495–496
+on img. 581–583, p. 503 on img. 600–601, the moment's close on img. 682–685.
+
+What was done: scans of I2029 img. 677–711 and 731–750 and of I1PD34647 img.
+581–592, 593–607, 608–628, 676–694 fetched with `bdrc.py` (the rest was on
+disk); Yigdzin-1 over I2029 img. 654–750 and I1PD34647 img. 575–628 and 676–694
+(through `schedule.py slot`, 11–15 s an image, no MITRA: the typeset needs no
+witness, I2029's flags were read by eye instead); the doubtful words and
+lines read on the images in crops of 2× to 12×, the typeset at 1× to 4×.
+`wb/` carries no I2029 reading, the readings were made in scratch; nothing but
+the quoted lines is kept. Yigdzin-1's reading of I2029 is noisy at this size
+(it reads «ཙ་བ» for «ཚབ», «ཞལ་གྱི་སྐོར» for «བཞི་ལོ་སྐར», «ལུམ» for «སུམ»): every
+quotation below says what was read by eye.
+
+The words named once: the time takes the place of the year (ལོ་ཚབ, lo tshab);
+the three up (ཡར་གསུམ, yar gsum); the life force (སྲོག, srog), body (ལུས,
+lus), power (དབང་ཐང, dbang thang) and luck (ཀླུང་རྟ, klung rta); the la, the
+life-spirit (བླ, bla); the counterpart (ཟླ, zla); the own grave (རང་དུར, rang
+dur) and the executioner's grave (གཤེད་དུར, gshed dur); the speckled (ཁྲ་བོ,
+khra bo); the deciding pebble (བཏང་གཅོད, btang gcod); the pebble door
+(རྡེལ་སྒོ, rdel sgo); the fighting enemies (འཐབ་དགྲ, 'thab dgra); "inner
+agreeing" (ནང་མཐུན, nang mthun); the Collected Works (གསུང་འབུམ, gsung 'bum).
+
+#### A. The notes' sentence on the three up (p. 537) and the 360 starting points (p. 538)
+
+I2029 img. 740, rows 4–6, as Yigdzin-1 reads them and as the rows run on the
+image (the sentence is the same words in the same place, after the worked
+example's first lines and before «དུས་རྩིས་སོ»):
+«མོ་ཆུ་གླང་ལ་རང་མདུན་ཉེ་བ་ཡོས། དེ་ཡང་བུ་ཡོས་དགོས་པས་ཤིང་ཡོས་ནས་བཀེན་པའོ། །ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཙ་བ་བྱའོ། །དུས་རྩིས་སོ།»
+(for the female water ox, "the one near before oneself" is the hare; and since a
+son must be the hare, wood hare, then propped; for the three up and the rest,
+the four, life force, body, power and luck, fight; the time takes the place of
+the year of the one reckoned; the reckoning of the moment ends). Typeset, CW
+p. 636 (img. 682, 3×): «… ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ། ༈ །དུས་རྩིས་སོ། །དེ་ནས་དུས་ལྟས་ལ།»
+with «ལོ་ཚབ» as the 1996 print has it; I2029's «ཙ་བ» is Yigdzin-1's, and
+at 8× on the print the letters of that syllable are not distinct enough to
+choose (the first is a ca-shape, the second small): not read.
+
+- **The words: nothing new.** The sentence has no addition, no gloss and no
+  numeral on either witness; what stands before it (the worked example's start)
+  and after it (the omens) is the same. Question 424 stays open on the words.
+- **The nearest statement of which aspects meet**, found in the same notes and
+  already in [corpus/wb/notes-8.md](corpus/wb/notes-8.md) (*wb.2:p535-537*) but
+  not drawn on above: the paragraph on the place's cutting, I2029 img. 739, row
+  5, and the 1996 print (img. 544): «བརྩི་བྱ་དང་དུས་ཀྱི་སྲོག་སོགས་ནང་མཐུན་པར་འཐབ་བོ།»
+  (the life force and the rest of the one reckoned and of the moment fight, each
+  in agreement with its own kind, «ནང་མཐུན»; the reading of «ནང་མཐུན» as "each
+  with its like" is the one the next sentence of the passage, «མ་བུ་ཀེ་ག་དང་རོ་འདོད་མེད་ཅེས་པ་མ་བུ་ཕྲད་ན་ཀེག་…»,
+  the mother-and-son meetings, needs, but it does not say so). It stands under
+  «ཁང་ས་བརྩི་ན…» (the house) and the cutting, not under p. 172's counts: so
+  for the moment's reckoning the notes' only statement is like with like, and
+  nothing carries it to «ཡར་གསུམ་སོགས» by name.
+- **«ཡར་གསུམ» has its own meaning in these notes**, a few pages earlier
+  (I2029 img. 733, Yigdzin-1; the same in the 1996 print, [corpus/wb/notes-7.md](corpus/wb/notes-7.md)),
+  on the thirty's board: «དང་པོ་གསུམ་པ་ལྔ་པ་གསུམ་ལ་ཕ་མེས་དང་ཚེ་སྟོད་ཀྱིས་སྟེ་ཡར་གསུམ་ཞེས་བྱ། གཉིས་པ་ནི་སྨུག་ལ་མར་གསུམ། བདུན་བརྒྱད་ལ་བར་དུ་བརྩི་བར་གསུངས།»
+  (the first, third and fifth, the forefathers and the early life: "the three
+  up"; the second with the dusky, "the three down"; the seventh and eighth are
+  counted between). The same notes therefore use «ཡར་གསུམ» for the board's
+  upper three. Which of the two the sentence at p. 537 means is not decided by
+  the print: the board's is not excluded (as the first reading said), and the
+  position under the counts of p. 172 is still the only reason for the other.
+- **The 360 and the six.** I2029 img. 742, row 2 (x about 1150–1750): the
+  print is blotted there and the list of the six cannot be read by eye at
+  3.3×; Yigdzin-1 reads the stretch otherwise («ལུམ་བརྒྱ་དྲུག་ཅུའི་སྒོར་མགོ་ཞེས་བསྲོག་ལུས་དབང་ཀླུང་དང་དགྲ་རང་དུར་གཤེད་དུར་བཅས་དྲུག་གིས་འཐབ་ཟླ་ལོ་དྲུག་ཅུས་བསྒྲེས་པས་སུམ་བརྒྱ་དྲུག་ཅུ་འོང་བ་ཡིན་ཅེས་འདུག་གོ»),
+  which is noise, not a variant. The typeset gives it clean, CW p. 639 (img.
+  685, by eye at 1× to 3×): «… སུམ་བརྒྱ་དྲུག་ཅུའི་སྐོར་མགོ་ཞེས་པ་སྲོག་ལུས་དབང་ཀླུང་དབང་»
+  and, on the next line, «བླ་རང་དུར་གཤེད་དུར་བཅས་དྲུག་གིས་འཐབ་… ལོ་དྲུག་ཅུས་བསྐེས་པས་སུམ་བརྒྱ་དྲུག་ཅུ་འོང་བ་ཡིན་ཅེས་འདུག་གོ»
+  (three hundred and sixty starting points: life force, body, power, luck,
+  power, la, own grave, executioner's grave, the six that fight [times] the
+  sixty make 360): the **eight words with «དབང» twice are on the typeset as
+  on the 1996 print**, and in both the repeated word ends a line, with «བླ»
+  at the start of the next. So the doubling is not the 1996 print's alone; it
+  is not settled which six are meant, and the worked example before it still
+  uses the life force, body, power, la, own grave and executioner's grave and
+  not the luck. One more note on the typeset: the head of the stack before
+  «ལོ་དྲུག་ཅུས» ("the sixty years") has, at 6×, the two-bar head of the
+  typeset's «བླ» (as «བླ་དཔོན», img. 586) and not the three-bar head of its
+  «ཟླ» («ཟླ་ཞག», img. 600), where the 1996 reading has «འཐབ་ཟླ» "the
+  fighting counterpart"; one place counted, not decided.
+- **How far the count runs** (question 425): not in the notes' moment section
+  on either witness (img. 739–743 of I2029, img. 682–685 of the typeset); the
+  years-lived counts of the thirty and the circles in the notes (I2029 img.
+  732–733) are of ch. 26 and 27 and name no count for p. 172.
+
+#### B. P. 503 on Mipham's own print and on the typeset
+
+Img. 675 (the end, the twelve times of death, l. 5–6) and img. 676 (the six
+tests and the twenty, l. 1–6) of I2029; CW p. 554 (img. 600) and p. 555 (img. 601).
+
+- **«བླ་བར» "up to the la" (l. 4).** I2029 img. 676, row 2: Yigdzin-1
+  «སྲོག་དུར་ཞུགས་སོགས་བླ་བར་ལྔ་དང་།», and on the print the stack after
+  «སོགས་» is not decided at 7× to 12× (noise: the head's strokes break up; set
+  beside the print's «བླ» of «བླ་ཁྱེར» and «ཟླ» of «ཟླ་ཞག་དུས་གང་ལ» on img.
+  677, row 2, the stack is not shown to be either). **On the typeset it is
+  decided:** CW p. 554 (img. 600, 4×) prints «སྲོག་དུར་ཞུགས་སོགས་བླ་བར་ལྔ་དང་།»
+  with a stack of the same two-bar head as the typeset's «བླ» («བླ་དཔོན», img.
+  586) and unlike its three-bar «ཟླ» («ཟླ་ཞག་དུས་གསུམ», img. 600).
+  The reading «བླ་བར» "up to the la" is the Collected Works' editors' letter;
+  Mipham's own print does not show it. Together with the sense (the five of the
+  group are «སྲོག་ལུས་དབང་ཀླུང་བླ»), it stands.
+- **«ཡོས», l. 13–14.** I2029 img. 676, row 5 (4.5×): «… ཡིན་ན་དུས་ཚོད་ཡོས་དུས་ཤི་ན་ཚེ་ལྷག་…»
+  as the 1996 print has it (Yigdzin-1 reads «དུས་ཚེ་དེ་ཡོས» there, a misreading
+  of «ཚོད»); typeset, CW p. 555 (img. 601, 1×): «དེ་ཡང་དུས་མིན་ཡིན་ན་དུས་ཚོད་ཡོས་དུས་ཤི་ན་ཚེ་ལྷག་ལོ་གསུམ་སོགས་ཡོད་པ་དང་།»
+  (and if it is an untimely death, the one who dies at "the time-hare" [?]
+  time has a remaining span of three years and so on). The letters are settled
+  as «ཡོས»; what it is, the print does not say, and the translation of the
+  phrase is not claimed. The words after it on I2029 (the end of row 5, at the
+  frame) are blurred: «ལོ་གསུམ» of the typeset and the 1996 print against
+  Yigdzin-1's «ལོག་དུས» not decided there.
+- **«ལོག་མུ་ཅོར», l. 14.** I2029 img. 676, row 6 (4.2×): «དེ་གོ་ལོག་མུ་ཅོར་ཡིན་ཏེ།»;
+  typeset CW p. 555 (img. 601): «… ཞེས་འབྲས་བུ་སྟོན་པ་ནི། དེ་གོ་ལོག་མུ་ཅོར་ཡིན་ཏེ། གོང་གི་ཚེ་ཚད་དང་ཚེ་ལྷག་མི་འགྲིག་པ་སོགས་བརྩི་དུས་དངོས་སུ་སྣང་བས་གནོད་ཅེས་བུར་བཤད་འདུག»
+  — the letters agree on all three witnesses; what the words mean the notes
+  do not say (they follow with "does not fit the span and the remainder above
+  and so on, the reckoning's time appears in fact, so it harms, the *bu* says"):
+  not settled; the dictionaries (Steinert's 64) were not opened this time.
+- **The six tests (l. 1).** I2029 img. 676, row 1 (2.6×) has the six as
+  «རང་བདུན་མཐུན་བཞི་ལོ་སྐར་ཆེ་ཆུང་བཅས་ཐུག་མིན་དང་བཅས་བརྟག» without the
+  numerals (Yigdzin-1's «པའི་ཞལ་གྱི་སྐོར» is a misreading); the 1996 print and
+  the typeset (CW p. 554, img. 600) put (༡)–(༦) after them. The
+  numbering of the six is the later editions', not shown on Mipham's own print.
+- The rest of the page (the twenty, the twenty-one, «བུ་དཔེའི་ཁྲ་མར» and the
+  other systems) is word for word the 1996 print's, as far as Yigdzin-1's
+  noise lets it be compared.
+
+#### C. The notes' pp. 495–496 on Mipham's own print and on the typeset
+
+I2029 img. 662–663; typeset CW img. 581–583.
+
+- **The speckled and the patterns.** I2029 img. 662 holds, in this order and
+  by eye at 1.6× to 2.2× in rows 2–4, the sentences «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད། རགས་པར་འགྱེལ་ལ་བརྩི།»,
+  «ཁྲ་བོ་བཏང་སྙོམས། གནས་གང་དུའང་དཀར་པོ་བཞི་ལིང་བྱུང་ན་དཔལ་ཁྱིམ།»,
+  «ནག་པོ་བཞི་ལིང་བྱུར་ཁྱིམ། ཁྲ་བོ་མི་བརྩི། རགས་པར་བྱུར་ཁྱིམ།» and then, after
+  a paragraph mark with its dotted leader, «དཀར་པོ་བསྡུ་ཞེས་སོགས་རྡེལ་རོ་ཡིན་པས་…»
+  (the speckled has no *sngo* count, roughly it is counted as toppling; the
+  speckled set aside; ... the speckled not counted, roughly a ruin house; "gather
+  the whites" and the like are of the dead pebble). **Three sentences of the
+  1996 print are not there:** «འདི་ལྟ་བུ་ལ་དཔལ་ཁྱིམ་གཉིས་ཡོད་གསུམ་མི་རྩི།», «དཀར་པོ་བཞི་དཀྱིལ་ནག་གཅིག་ནག་པོ་ཤི་བ་སྟེ་ལ་ལར་གསོན་མིག་ཅེས་སུ་བཤད། དེ་ལྡོག་ནི་དཀར་པོ་ཤི་བ་སྟེ་ཤི་མིག་ཀྱང་ཟེར།»
+  and **«ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན།»**
+  ("the speckled is not counted as outer or inner but, if it comes, somewhat
+  weak"). Yigdzin-1 over img. 654–750 finds none of them, and none of
+  «གསོན་མིག», «ཅུང་ཞན», «དཔལ་ཁྱིམ་གཉིས» in that sense anywhere in the print
+  (two unrelated «ཅུང་ཞན» in img. 721 and 725). The 1996 print and the
+  typeset have all three (CW img. 581 «ཁྲ་བོ་མི་བརྩི། རགས་པར་བྱུར་ཁྱིམ་ … འདི་ལྟ་བུ་ལ་དཔལ་»,
+  img. 582 «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན། དཀར་པོ་བསྡུ་ཞེས་»).
+  So **"somewhat weak" is not in Mipham's own print**; it stands in two later
+  editions of the notes and the print gives no ground to say whose it is.
+  Question 428's «ཅུང་ཞན» (the narrowing of the second reading) holds only for
+  the 1996 and Chengdu editions; for Mipham's own words the print says that the
+  speckled has no count and is laid aside. The checks on the absence are Yigdzin-1
+  and the rows by eye (not every syllable of rows 3–4 at 4×): the absence is
+  likely, not proved to the letter.
+- **The classes.** I2029 img. 663 (rows 1–2) has the sentence on the nine
+  classes' names as the 1996 print and the typeset (CW img. 582)
+  have it, «སུམ་ཆས་ལྷག་དཀར་སོགས་ནི། རྡེལ་སྒོ་མ་བརྩིས་པའི་བཅོ་ལྔ་ལས་དྲུག་དཀར་དགུ་ནག་ན་སུམ་ཆས་ལྷག་ནག …»
+  (Yigdzin-1's «རྡེལ་སྒོམ» is noise), word for word, and after it the runs of
+  pebbles (the whirl, the banner, the river) as the 1996 print's p. 496,
+  l. 7–9. No class for a difference of one, two or seven and more, and no word on
+  whether a speckled pebble is among the fifteen: img. 661–664 of I2029 and
+  img. 581–584 of the typeset searched for «ལྷག», «ཆས», «ཁྲ་བོ»; the speckled
+  stands at the places above only. Question 428 is not settled.
+
+#### D. The questions re-judged
+
+- **424** (which aspects fight; what «ཡར་གསུམ་སོགས» counts): narrowed. The
+  words of the sentence are the same on Mipham's own print and the typeset
+  («ལོ་ཚབ» on the typeset); the notes' only like-with-like statement for the
+  moment is under the place's cutting («ནང་མཐུན་པར་འཐབ་བོ»); «ཡར་གསུམ» is the
+  board's term in the notes' ch. 26 passage. Open.
+- **425** (how far the count runs): not touched by any new line. Open.
+- **426** (which six): the typeset confirms the eight words with «དབང» twice
+  (so the 1996 print is not alone); I2029 is blotted at the list. Open.
+- **427** (a place's verdict): pp. 166–170 are in vol. 2's body; no new witness
+  was opened for them. Unchanged.
+- **428** (the classes, the speckled): narrowed in a new way: the three sentences
+  that make the speckled "somewhat weak" and name the living-eye and the
+  death-eye are not in Mipham's own print; classes unchanged. Open.
+- **429** (the year and the three; «བླ་བར»): the letter «བླ» of «བླ་བར» is
+  decided on the typeset, not on Mipham's print; the other part open.
+
+### Searched and not found (third reading)
+
+- 2026-10-27, I2029 img. 739–743 and the typeset's img. 682–685: no line
+  that says which aspects of the moment's and the one reckoned's years meet in
+  the counts of p. 172, no line that gives how many years the counts run, none
+  that names the six of the 360 otherwise than the eight words.
+- 2026-10-27, I2029 img. 654–750 (Yigdzin-1) and the typeset's img. 581–584:
+  no class of the nine for a difference of one, two or seven and more; no word
+  on the speckled in the fifteen; the sentences «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན»,
+  «དཀར་པོ་བཞི་དཀྱིལ་ནག་གཅིག་ནག་པོ་ཤི་བ་སྟེ་ལ་ལར་གསོན་མིག་ཅེས་སུ་བཤད»
+  and «འདི་ལྟ་བུ་ལ་དཔལ་ཁྱིམ་གཉིས་ཡོད་གསུམ་མི་རྩི» are not on I2029 img. 662.
+- 2026-10-27, I2029 img. 676, row 2 (7× to 12×): the stacked head letter of
+  «བླ་བར»; the print's «བླ» (img. 677, «བླ་ཁྱེར») and «ཟླ» (img. 677,
+  «ཟླ་ཞག་དུས») were set beside it and the stack is not shown to be either.
+- 2026-10-27, I2029 img. 740, row 5–6 at 8×: the syllable of «ལོ་ཚབ»
+  (Yigdzin-1 «ཙ་བ»): not distinct on the print.
+- 2026-10-27, I2029 img. 742, row 2 (3.3×): the list of the six in the 360
+  sentence is blotted and cannot be read by eye.
+- 2026-10-27, «ཡོས» and «ལོག་མུ་ཅོར» (p. 503): the letters are the same on
+  Mipham's print and the typeset; no gloss in the notes; Steinert's
+  dictionaries not opened.
