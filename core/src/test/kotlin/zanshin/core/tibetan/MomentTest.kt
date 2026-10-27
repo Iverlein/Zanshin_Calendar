@@ -53,4 +53,68 @@ class MomentTest {
         assertEquals(Element.EARTH, MomentReckoning.hourElement(Element.WOOD, MomentPeriod.SUNRISE))
         assertEquals(Element.FIRE, MomentReckoning.hourElement(Element.WOOD, MomentPeriod.LATE))
     }
+
+    /**
+     * The notes' moment of an iron snake (vol. 2, p. 536): a wood day's snake hour, the sun's warmth, has the power
+     * iron; its life force fire, body iron, luck water; oneself in the west, the paternal kin in the south, the maternal
+     * uncle in the west, the maid in the east, the lord in the north, the enemy in the south; iron on the snake falls on
+     * birth, a good stage, so friends and no enemy.
+     */
+    @Test
+    fun `the notes' iron snake`() {
+        val moment = MomentPlaces.sign(Element.WOOD, 4 * 60 + 10)!!
+        assertEquals(Sign(Element.IRON, Animal.SNAKE), moment)
+        assertEquals(YearForces(Element.FIRE, Element.IRON, Element.IRON, Element.WATER), moment.forces)
+        assertEquals(
+            listOf(
+                OwnPlaceRole.ASKER to Direction.WEST, OwnPlaceRole.PATERNAL_KIN to Direction.SOUTH, OwnPlaceRole.MATERNAL_UNCLE to Direction.WEST,
+                OwnPlaceRole.MAID to Direction.EAST, OwnPlaceRole.LORD to Direction.NORTH, OwnPlaceRole.ENEMY to Direction.SOUTH,
+            ),
+            MomentPlaces.ownPlace(moment),
+        )
+        assertEquals(Sector.BIRTH, MomentPlaces.kinStage(moment))
+        assertEquals(null, MomentPlaces.sign(Element.WOOD, 14 * 60))
+    }
+
+    /** The notes' three mewa joined (p. 536): the day's 4 green in the centre, the year's 8 white meets it as a friend, the east's 2 black as a son, the north-east's 7 red as an enemy. */
+    @Test
+    fun `the notes' three mewa`() {
+        val squares = MomentPlaces.squares(dayMewa = 4, yearMewa = 8).associateBy { it.square }
+        assertEquals(4, squares.getValue(MomentSquare.CENTRE).mewa)
+        assertEquals(Kinship.FRIEND, squares.getValue(MomentSquare.CENTRE).kinship)
+        assertEquals(2, squares.getValue(MomentSquare.EAST).mewa)
+        assertEquals(Kinship.SON, squares.getValue(MomentSquare.EAST).kinship)
+        assertEquals(7, squares.getValue(MomentSquare.NORTH_EAST).mewa)
+        assertEquals(Kinship.ENEMY, squares.getValue(MomentSquare.NORTH_EAST).kinship)
+        assertEquals(SquareFate.CUT, squares.getValue(MomentSquare.NORTH_EAST).fate)
+        assertEquals(PebbleColour.BLACK, squares.getValue(MomentSquare.CENTRE).colour)
+        assertEquals(SquareGuard.DEMONS, squares.getValue(MomentSquare.CENTRE).guard)
+        assertEquals(null, squares.getValue(MomentSquare.CENTRE).fate)
+        assertEquals((1..9).toSet(), squares.values.map { it.mewa }.toSet())
+    }
+
+    /** The notes' figure (p. 535): with 5 yellow in the centre, 7 red falls in the forefathers' place, the crown to the west. */
+    @Test
+    fun `the forefathers' place`() {
+        assertEquals(7, MomentPlaces.forefathers(5))
+        assertEquals(DaySmeBa.directionOf(MomentPlaces.forefathers(1), 1), Direction.WEST)
+    }
+
+    /** The asker's places fight like with like; the grave has WB's readings only (pp. 167–168). */
+    @Test
+    fun `the asker's places`() {
+        val asker = Forces.of(Element.FIRE, Animal.HORSE)
+        val moment = Sign(Element.IRON, Animal.SNAKE)
+        val house = MomentPlaces.meet(AskerPlace.HOUSE, asker, moment)
+        assertEquals(Element.FIRE to Element.FIRE, house.asker to house.moment)
+        assertEquals(Kinship.IDENTITY, house.kinship)
+        val field = MomentPlaces.meet(AskerPlace.FIELD, asker, moment)
+        assertEquals(Kinship.FRIEND, field.kinship)
+        assertEquals("SAME.WOOD", MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.WOOD, Element.WOOD)))
+        assertEquals(null, MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.EARTH, Element.EARTH)))
+        assertEquals("FIRE_WATER", MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.FIRE, Element.WATER)))
+        assertEquals("FIRE_IRON", MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.FIRE, Element.IRON)))
+        assertEquals(null, MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.WOOD, Element.EARTH)))
+        assertEquals("KIN", MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.WOOD, Element.WATER)))
+    }
 }

@@ -70,6 +70,9 @@ data class DaySmeBa(
         /** Where [n] stands in the square whose middle holds [centre]. */
         fun directionOf(n: Int, centre: Int): Direction = PLACES[BASE.indexOf(amod(n - centre + 5, 9))]
 
+        /** The sme ba standing at [direction] in the square whose middle holds [centre]. */
+        fun at(direction: Direction, centre: Int): Int = amod(BASE[PLACES.indexOf(direction)] + centre - 5, 9)
+
         fun of(date: LocalDate): DaySmeBa {
             // The wood-mouse days are the Julian day numbers 11 mod 60 (TibetanCalendar's dayElement, dayAnimal).
             val back = Math.floorMod(date.julianDayNumber() - 11, 60L)

@@ -14,6 +14,12 @@ import zanshin.core.kyureki.SolarTerm
 import zanshin.core.kyureki.StarRelation
 import zanshin.core.kyureki.Tone
 import zanshin.core.kyureki.Zassetsu
+import zanshin.core.tibetan.AskerMeet
+import zanshin.core.tibetan.AskerPlace
+import zanshin.core.tibetan.MomentPlaces
+import zanshin.core.tibetan.MomentSquare
+import zanshin.core.tibetan.SquareFate
+import zanshin.core.tibetan.SquareGuard
 import zanshin.core.tibetan.ZodiacSign
 import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.BuildingDoor
@@ -498,6 +504,8 @@ object Sources {
     val WHITE_BERYL_MOMENT = whiteBeryl("chapter 30, pp. 156–162, with the notes on p. 535")
     /** The moment's later reckonings: the mewa as spirits, wealth, illness and demon by the moment's element (D24). */
     val WHITE_BERYL_MOMENT_LATER = whiteBeryl("chapter 30, pp. 164–170, with the notes on p. 536")
+    /** The moment's places: the mewa as places, the forefathers', the three mewa joined, the asker's house, field and grave (ROADMAP R2z). */
+    val WHITE_BERYL_MOMENT_PLACES = whiteBeryl("chapter 30, pp. 162–168, with the notes on pp. 535–536")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
@@ -2208,6 +2216,46 @@ object Texts {
 
     /** The moment's mewa [n] (WB vol. 2, ch. 30, p. 162). */
     fun momentMewa(n: Int): Reading = Reading(key = "reading.MomentMewa", arg = "reading.MomentMewa.$n", source = Sources.WHITE_BERYL_MOMENT)
+
+    /** The moment's mewa [n] as a place and a shape, with its foods (WB vol. 2, ch. 30, pp. 162–166; ROADMAP R2z). */
+    fun momentMewaPlace(n: Int): Reading = Reading(key = "reading.MomentMewaPlace", arg = "reading.MomentMewaPlace.$n", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The mewa [n] falling in the forefathers' place (WB vol. 2, ch. 30, pp. 163–164; the notes, p. 535). */
+    fun momentForefathers(n: Int): Reading = Reading(key = "reading.MomentForefathers", arg = "reading.MomentForefathers.$n", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The fate of the kin of square [square] in the three mewa joined (WB vol. 2, ch. 30, p. 165). */
+    fun momentSquare(square: MomentSquare, fate: SquareFate): Reading =
+        Reading(key = "reading.MomentSquare", arg = "reading.MomentSquare.${square.number}.${fate.name}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The guardians a square's meeting shows (WB vol. 2, ch. 30, p. 165; the notes, p. 536). */
+    fun momentGuard(guard: SquareGuard): Reading = Reading(key = "reading.MomentGuard", arg = "reading.MomentGuard.${guard.name}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /**
+     * The asker's house, field or grave fought by the moment (WB vol. 2, ch. 30, pp. 166–168; the notes, p. 536): by
+     * what the moment's aspect is to the asker's, an element meeting itself by that element; null for a grave WB
+     * gives no reading of.
+     */
+    fun askerPlace(m: AskerMeet): Reading? {
+        val family = when (m.place) {
+            AskerPlace.HOUSE -> "MomentHouse"
+            AskerPlace.FIELD -> "MomentField"
+            AskerPlace.GRAVE -> "MomentGrave"
+        }
+        val part = if (m.place == AskerPlace.GRAVE) MomentPlaces.graveKey(m) ?: return null
+        else if (m.kinship == Kinship.IDENTITY) "SAME.${m.asker.name}" else m.kinship.name
+        return Reading(key = "reading.$family", arg = "reading.$family.$part", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+    }
+
+    /** Whether there is a field, by the asker's power's stage at the moment (WB vol. 2, ch. 30, p. 167). */
+    fun momentFieldThere(there: Boolean): Reading =
+        Reading(key = "reading.MomentFieldThere", arg = "reading.MomentFieldThere.${if (there) "YES" else "NO"}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The grave's luck declining at the moment (WB vol. 2, ch. 30, p. 168). */
+    fun momentGraveDecline(): Reading = Reading(key = "reading.MomentGraveDecline", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** Kin and enemy at one's own place, by the moment's power's stage (WB vol. 2, ch. 30, p. 168; the notes, p. 536). */
+    fun momentKin(good: Boolean): Reading =
+        Reading(key = "reading.MomentKin", arg = "reading.MomentKin.${if (good) "GOOD" else "BAD"}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
 
     /** The illness, spirits and rite of the trigram [t] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 427–428). */
     fun illnessTrigram(t: Trigram): Reading = Reading(key = "reading.IllnessTrigram", arg = "reading.IllnessTrigram.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
