@@ -17,7 +17,13 @@ import zanshin.core.kyureki.Zassetsu
 import zanshin.core.tibetan.AskerMeet
 import zanshin.core.tibetan.AskerPlace
 import zanshin.core.tibetan.MomentPlaces
+import zanshin.core.tibetan.BeerDrunk
+import zanshin.core.tibetan.BeerGiven
+import zanshin.core.tibetan.EatenCount
+import zanshin.core.tibetan.MomentGate
+import zanshin.core.tibetan.SickLife
 import zanshin.core.tibetan.MomentSquare
+import zanshin.core.tibetan.SixtyCount
 import zanshin.core.tibetan.SquareFate
 import zanshin.core.tibetan.SquareGuard
 import zanshin.core.tibetan.ZodiacSign
@@ -506,6 +512,10 @@ object Sources {
     val WHITE_BERYL_MOMENT_LATER = whiteBeryl("chapter 30, pp. 164–170, with the notes on p. 536")
     /** The moment's places: the mewa as places, the forefathers', the three mewa joined, the asker's house, field and grave (ROADMAP R2z). */
     val WHITE_BERYL_MOMENT_PLACES = whiteBeryl("chapter 30, pp. 162–168, with the notes on pp. 535–536")
+    /** The thirteen gates and the counts after them (ROADMAP R2z). */
+    val WHITE_BERYL_MOMENT_GATES = whiteBeryl("chapter 30, pp. 170–172, with the notes on p. 536")
+    /** The moment's small examinations: wealth, beer, the houses, the sick, food, hair and trade (ROADMAP R2z). */
+    val WHITE_BERYL_MOMENT_SIGNS = whiteBeryl("chapter 30, pp. 168–170, with the notes on p. 536")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
@@ -2256,6 +2266,47 @@ object Texts {
     /** Kin and enemy at one's own place, by the moment's power's stage (WB vol. 2, ch. 30, p. 168; the notes, p. 536). */
     fun momentKin(good: Boolean): Reading =
         Reading(key = "reading.MomentKin", arg = "reading.MomentKin.${if (good) "GOOD" else "BAD"}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The nine eyes: who the mewa [n] falling in a place shows near it (WB vol. 2, ch. 30, p. 165; the notes, p. 536). */
+    fun momentEye(n: Int): Reading = Reading(key = "reading.MomentEye", arg = "reading.MomentEye.$n", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** Where the grave's back faces, by the moment's element (WB vol. 2, ch. 30, p. 168). */
+    fun momentGraveBack(): Reading = Reading(key = "reading.MomentGraveBack", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /**
+     * [gate]'s year at [offset] from the year reached: its harm where [cuts], else the gate's harm not coming (WB vol. 2,
+     * ch. 30, pp. 170–171); the king's and the fire ox's years up and down are read apart.
+     */
+    fun momentGate(gate: MomentGate, offset: Int, cuts: Boolean): Reading {
+        val part = when {
+            !cuts -> "CLEAR"
+            gate.checks.size > 1 -> "${gate.name}.${if (offset > 0) "UP" else "DOWN"}"
+            else -> gate.name
+        }
+        return Reading(key = "reading.MomentGate", arg = "reading.MomentGate.$part", source = Sources.WHITE_BERYL_MOMENT_GATES)
+    }
+
+    /** A count after the gates falling on the asker (WB vol. 2, ch. 30, pp. 171–172). */
+    fun momentSixty(count: SixtyCount): Reading = Reading(key = "reading.MomentSixty", arg = "reading.MomentSixty.${count.name}", source = Sources.WHITE_BERYL_MOMENT_GATES)
+
+    /** The moment's small examinations of the asker (WB vol. 2, ch. 30, pp. 168–170; the notes, p. 536; ROADMAP R2z). */
+    fun momentWealthThere(present: Boolean): Reading = Reading(key = "reading.MomentWealthThere", arg = "reading.MomentWealthThere.${if (present) "PRESENT" else "ABSENT"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentDemonMeet(k: Kinship): Reading = Reading(key = "reading.MomentDemonMeet", arg = "reading.MomentDemonMeet.${k.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentBeer(there: Boolean): Reading = Reading(key = "reading.MomentBeer", arg = "reading.MomentBeer.${if (there) "THERE" else "NONE"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentBeerGiven(g: BeerGiven): Reading = Reading(key = "reading.MomentBeerGiven", arg = "reading.MomentBeerGiven.${g.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentBeerDrunk(d: BeerDrunk): Reading = Reading(key = "reading.MomentBeerDrunk", arg = "reading.MomentBeerDrunk.${d.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentBeerTaste(e: Element): Reading = Reading(key = "reading.MomentBeerTaste", arg = "reading.MomentBeerTaste.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentHouses(): Reading = Reading(key = "reading.MomentHouses", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentSickCause(e: Element): Reading = Reading(key = "reading.MomentSickCause", arg = "reading.MomentSickCause.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentSickLife(l: SickLife): Reading = Reading(key = "reading.MomentSickLife", arg = "reading.MomentSickLife.${l.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentSickBed(): Reading = Reading(key = "reading.MomentSickBed", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentEaten(e: Element): Reading = Reading(key = "reading.MomentEaten", arg = "reading.MomentEaten.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentEatenCount(c: EatenCount): Reading = Reading(key = "reading.MomentEatenCount", arg = "reading.MomentEatenCount.${c.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentIllnessSeat(): Reading = Reading(key = "reading.MomentIllnessSeat", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    /** The asker's hair by the moment's element; none for earth, whose word the scan leaves doubtful. */
+    fun momentHair(e: Element): Reading? = if (e == Element.EARTH) null else Reading(key = "reading.MomentHair", arg = "reading.MomentHair.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentTrade(win: Boolean): Reading = Reading(key = "reading.MomentTrade", arg = "reading.MomentTrade.${if (win) "WIN" else "LOSE"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+    fun momentDispute(win: Boolean): Reading = Reading(key = "reading.MomentDispute", arg = "reading.MomentDispute.${if (win) "WIN" else "LOSE"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
 
     /** The illness, spirits and rite of the trigram [t] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 427–428). */
     fun illnessTrigram(t: Trigram): Reading = Reading(key = "reading.IllnessTrigram", arg = "reading.IllnessTrigram.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)

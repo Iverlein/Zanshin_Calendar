@@ -117,4 +117,83 @@ class MomentTest {
         assertEquals(null, MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.WOOD, Element.EARTH)))
         assertEquals("KIN", MomentPlaces.graveKey(AskerMeet(AskerPlace.GRAVE, Element.WOOD, Element.WATER)))
     }
+
+    /** The notes' example of the third gate (p. 536): a wood rat counts from the fire male tiger, a wood ox from the fire female hare. */
+    @Test
+    fun `the third gate's start`() {
+        assertEquals(Sign(Element.FIRE, Animal.TIGER), MomentGates.start(MomentGate.FIRE_OX, Sign(Element.WOOD, Animal.MOUSE), male = true))
+        assertEquals(Sign(Element.FIRE, Animal.RABBIT), MomentGates.start(MomentGate.FIRE_OX, Sign(Element.WOOD, Animal.OX), male = false))
+    }
+
+    /** The count runs through the sixty, the start the first year: a man down, a woman up; the king's gate down for all. */
+    @Test
+    fun `the gates' count`() {
+        val start = Sign(Element.WOOD, Animal.MOUSE)
+        assertEquals(start, MomentGates.counted(start, 1, down = true))
+        assertEquals(Sign(Element.WATER, Animal.PIG), MomentGates.counted(start, 2, down = true))
+        assertEquals(Sign(Element.WOOD, Animal.OX), MomentGates.counted(start, 2, down = false))
+        val moment = Sign(Element.IRON, Animal.SNAKE)
+        val gates = MomentGates.gates(Sign(Element.FIRE, Animal.DRAGON), 51, male = false, moment)
+        val king = gates.first { it.gate == MomentGate.KING }
+        assertEquals(Sign(Element.FIRE, Animal.MOUSE), king.start)
+        assertEquals(MomentGates.counted(king.start, 51, down = true), king.reached)
+        assertEquals(2, king.years.size)
+        gates.flatMap { it.years }.forEach { assertEquals(it.year.element == Element.FIRE, it.cuts) }
+    }
+
+    /** A door falls by its landing, not by a cut (p. 172): from the iron dragon, eight up landing on a dog or a dragon. */
+    @Test
+    fun `the doors`() {
+        val moment = Sign(Element.IRON, Animal.SNAKE)
+        (1..80).forEach { age ->
+            val door = MomentGates.sixty(Sign(Element.FIRE, Animal.DRAGON), age, male = true, moment).any { it.count == SixtyCount.SKY_DOOR }
+            val reached = MomentGates.counted(Sign(Element.IRON, Animal.DRAGON), age, down = true)
+            assertEquals(YearOfLife.signOf(YearOfLife.sexagenary(reached) + 7).animal in setOf(Animal.DOG, Animal.DRAGON), door, "$age")
+        }
+    }
+
+    /** The kin's places on the figure (the notes, p. 535): with 5 yellow in the centre, 7 red at the forefathers', 2 black at the father's. */
+    @Test
+    fun `the kin's places`() {
+        val places = MomentPlaces.kinPlaces(5).toMap()
+        assertEquals(5, places.getValue(KinPlace.HOUSEHOLD))
+        assertEquals(7, places.getValue(KinPlace.FOREFATHERS))
+        assertEquals(2, places.getValue(KinPlace.FATHER))
+    }
+
+    /**
+     * WB's wood moment (p. 169): to the right a white house (iron, the enemy), behind a blue one (water, the mother), in
+     * front a red one (fire, the son); and the sick one at a wood moment (p. 170): a red pillow (fire, the son), a white
+     * mat (iron, the enemy), fried pastry eaten (earth, the friend).
+     */
+    @Test
+    fun `WB's wood moment`() {
+        val houses = MomentSigns.houses(Sign(Element.WOOD, Animal.TIGER)).toMap()
+        assertEquals(Element.WOOD, houses.getValue(HouseSide.CENTRE))
+        assertEquals(Element.IRON, houses.getValue(HouseSide.RIGHT))
+        assertEquals(Element.EARTH, houses.getValue(HouseSide.LEFT))
+        assertEquals(Element.WATER, houses.getValue(HouseSide.BEHIND))
+        assertEquals(Element.FIRE, houses.getValue(HouseSide.FRONT))
+        val bed = MomentSigns.sickBed(Sign(Element.WOOD, Animal.TIGER)).toMap()
+        assertEquals(Element.FIRE, bed.getValue(Kinship.SON))
+        assertEquals(Element.IRON, bed.getValue(Kinship.ENEMY))
+        assertEquals(Element.EARTH, bed.getValue(Kinship.FRIEND))
+    }
+
+    /** The small examinations follow the stages: the sick one's life, food eaten and the organs (p. 170). */
+    @Test
+    fun `the small examinations`() {
+        val moment = Sign(Element.IRON, Animal.SNAKE)
+        Element.entries.forEach { e ->
+            val f = YearForces(e, e, e, e)
+            val stage = MomentPlaces.stage(e, moment)
+            val life = MomentSigns.sickLife(f, moment)
+            assertEquals(stage.good, life == SickLife.LIVES, "$e")
+            assertEquals(stage == Sector.TAKING_BREATH || stage == Sector.IN_THE_WOMB, life == SickLife.HARD, "$e")
+        }
+        assertEquals(Organ.entries.filter { !MomentPlaces.stage(it.element, moment).good }, MomentSigns.illnessSeat(moment))
+        assertEquals(BeerDrunk.NOT_FINISHED, MomentSigns.beerDrunk(Sign(Element.FIRE, Animal.SHEEP), moment))
+        assertEquals(BeerDrunk.HALF, MomentSigns.beerDrunk(Sign(Element.FIRE, Animal.DRAGON), moment))
+        assertEquals(BeerDrunk.FINISHED, MomentSigns.beerDrunk(Sign(Element.FIRE, Animal.DRAGON), Sign(Element.IRON, Animal.MONKEY)))
+    }
 }
