@@ -6804,5 +6804,38 @@ I2029 img. 662–663; typeset CW img. 581–583.
 - 2026-10-27, I2029 img. 742, row 2 (3.3×): the list of the six in the 360
   sentence is blotted and cannot be read by eye.
 - 2026-10-27, «ཡོས» and «ལོག་མུ་ཅོར» (p. 503): the letters are the same on
-  Mipham's print and the typeset; no gloss in the notes; Steinert's
-  dictionaries not opened.
+  Mipham's print and the typeset; no gloss in the notes (the words are
+  glossed in Steinert's dictionaries, see the fourth reading below).
+
+### The fourth reading of RD58: the dictionaries and the stack of the 360
+
+Read 2026-10-27. Steinert's 64 dictionaries (a clone of
+github.com/christiansteinert/tibetan-dictionary, `locate.py dict`) for the two
+words of p. 503 (img. 511, l. 13–14) that no earlier reading could gloss, and
+the 1996 scan of img. 546, l. 3, at 6× for the stack before «ལོ་དྲུག་ཅུས».
+
+- **«ཡོས» (yos)**: the hare (the year or the hour of the hare) and, as a
+  grain, parched or popped barley; Valby's dictionary names it "one of the 12
+  dus tshod", the twelve time-divisions of the day, and Ives Waldo, Dan Martin
+  and Barron give the hare, a rabbit year in astrology. In «དུས་ཚོད་ཡོས་དུས་ཤི་ན»
+  it is therefore the hare's time-division: one who dies in the hare's hour of
+  the day, the note says, has remaining life of three years and the like (the
+  note's own result, which it calls a muddle just after).
+- **«ལོག་མུ་ཅོར» (log mu cor)**: «མུ་ཅོར» (mu cor) is nonsense, falsity, talk
+  with nothing to rest on (Rangjung Yeshe "nonsense", Hopkins "foolishness",
+  the *Tshig mdzod chen mo* «རྫུན» (falsehood) and «ཁ་གཏོང་བ», a new standard dictionary
+  "a word with no ground to rest on"); with «ལོག» (perverse), "perverse
+  nonsense". The note therefore calls the conversion of the life-span by years,
+  months, days and hours, and the results shown by it, perverse nonsense, which
+  is the sense already read.
+- **The stack before «ལོ་དྲུག་ཅུས» (img. 546, l. 3, 6×)**: on the 1996 scan the
+  head of the stack after «འཐབ་» is the flat head of «ཟླ», as Yigdzin-1 and
+  MITRA both read; the sense agrees: «འཐབ་ཟླ» (a fighting partner, an
+  opponent), "the six that fight and the sixty years, multiplied, make 360".
+  The typeset's two-bar head that the third reading saw is not on this print;
+  the reading «འཐབ་ཟླ» stands.
+
+### Searched and not found (fourth reading)
+
+- 2026-10-27, Steinert's 64 dictionaries for «ལོག་མུ་ཅོར» as a whole: no
+  headword of that length; read as «ལོག» and «མུ་ཅོར» (above).
