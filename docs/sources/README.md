@@ -557,6 +557,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0417.md](questions/q0417.md) | question q417 | Do Kham's reckoners hold the earth lords chief over the day's factors for a corpse and a bride? | open; cites — |
 | [questions/q0418.md](questions/q0418.md) | question q418 | Is the serpent's place for the first stroke reckoned by the day's mansion or by the season? | open; cites bsb:p435-436, sdp:p238-241 |
 | [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | open; cites sdp:p238-241 |
+| [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
+| [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
 
 <!-- end pool index -->
 

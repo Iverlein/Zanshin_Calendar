@@ -1149,8 +1149,19 @@ the page (`MomentReckoning`, core `tibetan/Moment.kt`; `Reckonings.moment`).
 The screen (§10.11): "The moment" in the Reckonings list ("Now: earth
 (ཁོན, khon) · mewa 9"); on it, the weekday, the lunar date, the month and
 the time since dawn, the time of day ("The time of day · late afternoon", or a line by night) and the hour's element ("The hour's element · water"),
-the moment's trigram and mewa, each opening its reading, and a closing
-note on what is reckoned.
+the moment's trigram and mewa, each opening its reading, the mewa's place
+("The mewa's place · 1 white") and the forefathers' ("The forefathers'
+place · 3 blue"); under "The asker's places", by day and for the person
+chosen, a line naming the moment's sign and the asker's year, the house,
+the field and the grave ("The house", "the moment's fire against the
+asker's wood · son"), "A field · birth stage", "The grave's luck · death
+stage" where it declines, "Kin and enemy · working stage" and the six
+people of one's own place with their directions ("The maid · east"), or a
+line by night or with no one chosen; under "The three mewa joined" a line
+naming the year's and the day's mewa and a row for each of the nine
+squares ("East · 2 black", "son · speckled pebble"), its sheet the
+square's kin and its gods or demons; and a closing note on what is
+reckoned.
 
 **The later reckonings** (ROADMAP R2w, 2026-10-25; D24): by day, the
 asker's wealth, illness and harming spirit by the moment's element, which
@@ -1162,11 +1173,79 @@ spirit claiming its share, with the harm it sends unpaid and its rite
 (pp. 164–165; [claims/moment-mewa-spirits.md](sources/claims/moment-mewa-spirits.md);
 family `MomentSpirit`, "The spirit claiming its share · 9 red").
 
-**Not calculated** yet: the mewa as shapes, food and kin's places, the
-asker's year fighting the moment in house, field and grave (pp. 166–168,
-its branches not read clearly enough), the three mewa joined, whether
-wealth, the sick and the demon are present, the signs, dreams and
-implements, the small reckonings (pp. 163–172).
+**The moment's places** (ROADMAP R2z, 2026-10-27; WB pp. 162–168, read on
+the scan, with Mipham's notes, pp. 535–536; [claims/moment-eight-places.md](sources/claims/moment-eight-places.md),
+[moment-three-mewa.md](sources/claims/moment-three-mewa.md),
+[moment-mewa-kin.md](sources/claims/moment-mewa-kin.md),
+[moment-asker-year.md](sources/claims/moment-asker-year.md); `MomentPlaces`,
+core `tibetan/Moment.kt`):
+
+- **The mewa as a place and the forefathers' place** (pp. 162–166): the
+  moment's mewa as a place and a shape, with its foods (family
+  `MomentMewaPlace`); and, the moment's mewa set in the centre of the nine
+  squares and the others laid out from it in the square's order, the mewa
+  that falls in the west, the crown of the figure of a man lying head to the
+  west, read as the forefathers' line (family `MomentForefathers`; the
+  notes' example: 5 yellow in the centre, 7 red in the forefathers' place).
+- **The moment's sign** (the notes, p. 536): the hour's animal with the
+  hour's power; the notes' moment of an iron snake has the power iron, the
+  life force fire, the body iron and the luck water, the iron snake year's
+  aspects. By night, when the hour has no power (p. 156), the asker's places
+  are not reckoned.
+- **The asker's house, field and grave** (pp. 166–168): the asker is the
+  person chosen; the moment's aspects fight the asker's, each its own (the
+  notes: «ནང་མཐུན་པར་འཐབ»): the house by the life force, the field by the
+  power, the grave by the luck. What the moment's aspect is to the asker's
+  names the reading: the enemy cuts inward, the friend is cut outward, the
+  mother generates inward, the son outward (the notes); an element meeting
+  itself is read by its element (families `MomentHouse`, `MomentField`).
+  The house's third reading is the asker's life force generating the
+  moment («སྲོག་གི་དུས་ཚོད་བསྐྱེད་པ», on the scan), the son, the house
+  rebuilt and in danger of collapse; the fourth the moment generating the
+  asker, the mother, the good house, as the field's order runs. The
+  grave has WB's readings of the lucks of one element (wood, fire, iron,
+  water), of three cutting pairs (fire and water, iron and wood, iron and
+  fire) and of a mother or son; for earth meeting itself and the pairs of
+  wood and earth or earth and water WB gives none, and the row says so
+  (family `MomentGrave`). Whether there is a field, by the asker's power's
+  stage of rise and decline on the moment's animal, good or bad
+  (`MomentFieldThere`), and the grave's luck declining, by the asker's
+  luck's (`MomentGraveDecline`).
+- **One's own place** (p. 168; the notes, p. 536): kin and enemy present by
+  the moment's power's stage on the moment's animal, friends and no enemy on
+  a good one, enemies and no friend on a bad (family `MomentKin`; the
+  notes' iron on the snake falls on birth); and where each stands, oneself
+  at the direction of the moment's power, the paternal kin at its life
+  force's, the maternal uncle at its body's, the maid at its friend's, the
+  lord at its luck's, the enemy at its enemy's: wood the east, fire the
+  south, iron the west, water the north. *Stated choice*: earth, which the
+  notes' example does not place, stands in the centre, where the square
+  sets the five yellow.
+- **The three mewa joined** (p. 165; the notes, p. 536): the day's mewa of
+  the sixty-day count (§5.11) in the centre of the nine squares, the others
+  laid out from it, WB's places 1 the centre, 2 the east, on round by the
+  south-east to 9 the north-east; the year's mewa, the one reckoned (WB's
+  «དུས་ལོའི་སྨེ་བ»), fights each square. The notes' example holds: the
+  day's 4 green in the centre, the year's 8 white meets it as a friend, the
+  east's 2 black as a son, the north-east's 7 red as an enemy. A square's
+  mewa cutting the year's inward, its enemy, its kin's harm happened; any
+  other meeting, not; the seventh's seat of luck stands where its mewa
+  generates the year's, and has no reading otherwise (family `MomentSquare`).
+  A mother shows good going gods, a friend harmful demons, any other meeting
+  neither (family `MomentGuard`); the pebble as the notes lay it: a mother
+  white, an enemy, a friend and wood or iron meeting itself black, a son and
+  earth or water meeting itself speckled; fire meeting itself, which the
+  notes do not name, black with wood and iron.
+
+**Not calculated** yet: the kin's places on the figure other than the
+forefathers', and the cutting of the first and last parts of life on it
+(they need the kin's years); the nine eyes at the door (which mewa stands at
+the door is not said); the forefathers' year against the moment and the
+grave's back by the moment's element (given for wood only); the casting's
+grain; the thirteen gates and the sixty-year counts that follow them (where
+gates 5 and 6, the "own element" signs and the counted year start is not
+settled: questions 343, 344); the signs, dreams and implements, observed
+rather than reckoned; the small reckonings (pp. 163–172).
 
 #### 5.9.6 The thirteen circles
 
