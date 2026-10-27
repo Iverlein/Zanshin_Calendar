@@ -1027,3 +1027,9 @@ Searched and found wanting, so not to be repeated:
   - Vol. 2 pp. 166–168 (img. 174–176, the lines of the three) and the notes' p. 536: no line says that a place's verdict is a count of white and black, or how the cutting and rise and decline are ranked.
   - Vol. 1 p. 425 and the notes p. 496 (img. 435, 504): no class for a difference of one, two or seven and more; no statement whether the speckled counts to the fifteen.
   - P. 503 img. 511: the print does not tell «བླ» from «ཟླ» in the fifth group; no other print of the notes (Mipham's own, I2029, or the Chengdu Collected Works) was opened for the letter.
+- **RD58's third reading: Mipham's own print and the typeset Collected Works** (RD58, 2026-10-27):
+  - I2029 img. 739–743 and the typeset's img. 682–685: no line that says which aspects of the moment's and the one reckoned's years meet in the counts of p. 172, none that gives how many years the counts run, none that names the six of the 360 otherwise than the eight words.
+  - I2029 img. 654–750 (Yigdzin-1) and the typeset's img. 581–584: no class of the nine for a difference of one, two or seven and more; no word on the speckled in the fifteen; three sentences of the 1996 notes p. 495 («ཁྲ་བོ་ནི་ཕྱི་ནང་…ཅུང་ཞན» and two others) are not on I2029 img. 662.
+  - I2029 img. 676, row 2 (7× to 12×): the head letter of «བླ་བར» is not shown to be «བླ» or «ཟླ» on the block print (the typeset reads «བླ»).
+  - I2029 img. 740, row 5–6 at 8×: the syllable of «ལོ་ཚབ» is not distinct (Yigdzin-1 «ཙ་བ»); I2029 img. 742, row 2: the list of the six in the 360 sentence is blotted.
+  - «ཡོས» and «ལོག་མུ་ཅོར» (p. 503): the letters are the same on Mipham's print and the typeset; no gloss in the notes; Steinert's dictionaries not opened.
