@@ -5973,3 +5973,317 @@ the register gives only his birth year and county.
   (IE0OPI9442689C) and the 2013 almanac (IE0OPI0559C226).
 - 2026-10-22, the web, «"Kunga Rigzin" OR "Kunga Rindzin" Tibetan
   astrology Mentsikhang Lhasa»: no English notice of him.
+
+
+## The summing rules left for the moment, the dead and the illness (RD58)
+
+Read 2026-10-27 on BDRC's scans of the 1996 print (vol. 1 I1KG12906,
+image = page + 10; vol. 2 I1KG12907, image = page + 8, checked on the
+printed numbers of vol. 2 img. 545 «537» and on p. 172's colophon): the
+fighting enemies, vol. 2 p. 172 (img. 180, l. 1–21) with the notes p. 537
+(img. 545, l. 2 and 17–25) and p. 538 (img. 546, l. 1–5); the dead's twenty
+roots, the notes p. 503 (img. 511, l. 1–8) with the end of p. 502 (img.
+510); the nine classes of the illness, vol. 1 p. 425 (img. 435) and the
+notes p. 496 (img. 504). Yigdzin-1's readings of these images were already
+in `wb/yigdzin/` and MITRA's of img. 180, 511 and 545 in `wb/mitra/` (no
+new model run); the quoted lines were read by eye on the scan in 3× crops
+and the doubtful letters of img. 511 at 8× and 12×. Pages already read
+for other sections are named there: the moment's small examinations
+([corpus/wb/ch30.md](corpus/wb/ch30.md), pp. 166–172), the notes' worked
+example ([corpus/wb/notes-8.md](corpus/wb/notes-8.md)), the nine classes'
+rites ([corpus/wb/ch25.md](corpus/wb/ch25.md), p. 425), the dead's roots
+([corpus/wb/notes-4.md](corpus/wb/notes-4.md), pp. 499–503). Etext of the
+volume and BDRC's search were not used again: every phrase needed was in
+the files already read.
+
+The words, named once here: the fighting enemies (འཐབ་དགྲ, 'thab dgra); the
+time of reckoning (དུས, dus); the one reckoned (བརྩི་བྱ, brtsi bya); the
+life force (སྲོག, srog), the body (ལུས, lus), the power (དབང་ཐང, dbang
+thang) and the luck (ཀླུང་རྟ, klung rta); the verdict (ཁ་དམར, kha dmar);
+the cutting (གཅོད་འདྲལ, gcod 'dral); rise and decline (དར་གུད, dar gud);
+the sky year, the year now running (གནམ་ལོ, gnam lo); the progressed sign
+(ལོག་མེན, log men); the nine-eye (དགུ་མིག, dgu mig) and the grave-eye
+(དུར་མིག, dur mig); the la, the life-spirit (བླ, bla); the pebble door
+(རྡེལ་སྒོ, rdel sgo); speckled (ཁྲ་བོ, khra bo); the deciding pebble
+(བཏང་གཅོད, btang gcod).
+
+### 1. The fighting enemies (vol. 2, p. 172, img. 180, l. 20–22; the notes, p. 537, img. 545, l. 2)
+
+> འཐབ་དགྲ་རྣམས་ནི་བརྩི་དུས་ཀྱི། །བརྩི་བྱའི་ལོ་བྱས་བརྩི་བ་ཡིན། །དེ་ཡང་སྲོག་ལུས་དབང་ཀླུང་འཐབ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས། །འདི་དང་ཆ་མཐུན་གོང་གི་ལེའུ། །ཉེར་བདུན་ནང་དུའང་བཤད་མོད་ཀྱང་། །འདི་ནི་དུས་རྩིས་སྒོས་ཆོས་ཡིན།
+
+The fighting enemies are reckoned by making the time of reckoning the year of
+the one reckoned; the life force, body, power and luck fight; count the white
+and black and lay the verdict. Its like is told in chapter 27 above, but this
+is the time reckoning's own. Directly before it (p. 171, l. 14 to p. 172,
+l. 19, img. 179–180) stand the counts it ends: the ogre's seven up and the
+demon's seven down from the moment's year, then from fixed years of the sixty
+the male counted down (སྦུབ, sbub) and the female "propped" (བཀེན, bken),
+fought with the moment (དུས་འཐབ), the cut «ཚུར་བཅད» naming the harm; at the
+end «ཡར་བརྒྱད་བགྲངས་པའི་སར། །ཁྱི་འབྲུག་བབས་ན་གནམ་སྒོ་བྱེ», where eight
+are counted up it lands on dog or dragon and the sky door opens;
+«མར་བརྒྱད་ཕག་སྦྲུལ་ས་སྒོ་བྱེ», eight down on pig or snake, the earth door;
+«ས་ནས་ཡར་གསུམ་བགྲངས་པའི་སར། །བྱ་སྤྲེལ་བྱུང་ན་བྱེ་བྲལ་བབས», three up from
+the earth, on bird or monkey, parting; «ས་ནས་མར་གསུམ་གླང་ལུག་བབས», three
+down, ox or sheep, quarrels and lawsuits (the whole in
+[corpus/wb/ch30.md](corpus/wb/ch30.md), *wb.2:p171-172*, and
+[claims/moment-sixty-pairs.md](claims/moment-sixty-pairs.md)).
+
+The notes, p. 537, l. 2, the whole sentence, closing the reckoning of the
+moment («དུས་རྩིས་སོ»):
+
+> ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ།
+
+For the three up and the rest, the four, life force, body, power and luck,
+fight; the time takes the place of the year of the one reckoned.
+
+What the scan gives:
+
+- **«ཡར་གསུམ་སོགས» is the "three up" of p. 172's own counts**, "and the
+  rest" the three down, eight up, eight down, and with them seven up and
+  down: those are the only «ཡར»/«མར» counts on pp. 171–172. This settles the
+  doubt of ROADMAP RD58's row, which also read it as ch. 26's board of
+  three (vol. 1, p. 471, «ཡར་གསུམ», [claims/thirty-check-order-yar-mar.md](claims/thirty-check-order-yar-mar.md)):
+  the same words stand there for the board's upper three; that the notes
+  mean the board is not excluded by the wording, but the notes' sentence
+  stands under the counts it follows and p. 172 names ch. 27, not ch. 26, as
+  its like (see Open).
+- **Which years count:** the years landed on by those counts, from the
+  signs they start at: for the ogre and the demon the moment's year itself;
+  for the sixty-year pairs the fixed years the lines name (iron male dog,
+  earth female sheep, and so on), male counted down and female up; and the
+  eight and three counts from iron dragon, water pig, fire ox and wood ox.
+  The landed year is what "fights" and is "cut inward" or not.
+- **Which aspects fight which:** the four, life force, body, power, luck,
+  and only these four (not the mewa and not the la, which chapter 27's
+  circles add as a fifth, [claims/circles-count.md](claims/circles-count.md));
+  the verse says "fight" and does not say which of the two years' aspects
+  meet. By the like in ch. 26 and 27, which the verse names, an aspect meets
+  the same aspect of the other year (claim [thirty-eight-fighters](claims/thirty-eight-fighters.md),
+  question 97; [circles-count](claims/circles-count.md)): the life force the
+  life force, body body, power power, luck luck. The colours would be ch.
+  27's (mother and friend, earth with earth and water with water white; son,
+  enemy, wood, iron and fire with their own black, [claims/circles-colour-rule.md](claims/circles-colour-rule.md)),
+  but the notes on the moment (p. 536) report another usage for ch. 30
+  (son and the inner meetings of earth and water speckled): not said for
+  this verse.
+- **The time in place of the one reckoned's year:** the notes' «ལོ་ཚབ» "takes
+  the place of the year". Two readings fit the words and the pool does not
+  choose between them: (a) the moment's year stands where ch. 26 and 27
+  put the person's own, so the moment's four aspects are the ones that
+  fight the landed year (the counts' lines say «དུས་འཐབ», "fights with the
+  moment"); (b) only the starting sign is taken from the moment, and the
+  asker's own aspects fight. The notes' worked example, which follows at
+  once (p. 537, l. 19 to p. 538, l. 4, [corpus/wb/notes-8.md](corpus/wb/notes-8.md),
+  *wb.2:p537-538*), reads as (b): the sky year is the wood ox of the east
+  season, the one reckoned a water rat of fourteen; "the life force's enemy
+  is sought": the sky year's wood has earth for its enemy, so earth is
+  needed; the one reckoned is a male year, so a male year; of the earth
+  years the dog agrees in life force and power; from the earth dog the years
+  are counted down by his fourteen and fall on the iron pig, and the one
+  reckoned's life force fights it, «ཆུ་ནང་ཕྲད», a water inner meeting. The
+  count checks on the sixty (earth dog the 35th, iron pig the 48th:
+  thirteen steps on, the first place being the starting year, so fourteen
+  places), and the body and power the same from the wood tiger (the 51st)
+  to the fire hare (the 4th: thirteen steps over the sixty). The sixty-year
+  pairs' lines say "fought with the moment"; how this and the example fit
+  is the open question below.
+- **How the count is laid:** the example fixes it for a male: the starting
+  year, counted down (སྦུབ) through the number of his years lived, the
+  starting year the first (iron pig is thirteen on from earth dog, for
+  fourteen); a female is "propped" (བཀེན, bken) in the verses, which sets
+  her the other way as ch. 26 has it (a female counted up); no line of ch.
+  30 states how many years the pairs' count runs. The same example finds
+  the la as the life force's mother (here iron) from the earth dog (the
+  "fourth executioner") to the iron pig, and the own grave of the water rat
+  (the water dragon) and the executioner's grave (the earth dragon) by the
+  dog, so that these are fought as the life force; and it closes on "the
+  three hundred and sixty starting points": «སྲོག་ལུས་དབང་ཀླུང་དབང་བླ་རང་དུར་གཤེད་དུར་བཅས་དྲུག་གིས་འཐབ་ཟླ་ལོ་དྲུག་ཅུས་བསྐེས་པས་སུམ་བརྒྱ་དྲུག་ཅུ»,
+  six that fight times the sixty make 360 (img. 546, l. 2–4; the line lists
+  eight words, «སྲོག་ལུས་དབང་ཀླུང་དབང་བླ་རང་དུར་གཤེད་དུར», for its six; read
+  so on the scan at 5×, the second «དབང» as printed).
+- **The verdict:** «དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས», count white and black and lay
+  the verdict: the larger colour decides, as in ch. 27 and 26; no line of
+  p. 172 says what a tie reads or sizes the verdict.
+
+### 2. The place's three: cutting, rise and decline, verdict (pp. 166–170; question 423)
+
+pp. 166–168 were read on the scan for RD40 ([corpus/wb/ch30.md](corpus/wb/ch30.md),
+*wb.2:p166*, *wb.2:p167-168*) and the lines below were set again beside
+img. 174 (p. 166) at 3×. The root (p. 166): «བྱ་ར་དང་ནི་བྱེད་ཡོར་གྱི། །འབྱུང་བ་རྣམ་པ་ལྔ་པོ་ལ། །རེ་རེ་ལའང་གཅོད་འདྲལ་དང་། །དར་གུད་ཁ་དམར་གསུམ་གསུམ་ཡོད། །རེ་རེ་ལའང་ཁང་ས་དང་། །ཞིང་ས་དུར་ས་རང་ས་དང་། །ཉེ་བའི་ས་དང་ལོངས་སྤྱོད་ས། །ནད་ས་གདོན་ས་བརྒྱད་བརྒྱད་ཡོད།»:
+for each of the five elements of the moment (བྱ་ར, bya ra) and of the one
+reckoned (བྱེད་ཡོར, byed yor) there are three, the cutting (གཅོད་འདྲལ),
+rise and decline and the verdict, and for each eight places: house, field,
+grave, one's own place, the near one's, enjoyment's, illness's and the
+demon's. The head of the passage says how they are made: «དེ་ཡི་འབྱུང་བ་ངོས་བཟུང་ལ། །གང་ཡིན་དེ་ཡི་ཁ་སྨྲང་བཏགས», find the element of
+it and lay its verdict (ཁ་སྨྲང, kha smrang).
+
+What the pages show of how the three make a place's verdict:
+
+- **The cutting** is the five relations of the asker's aspect to the moment's
+  element: the notes, p. 535–536 (img. 543, read for RD40; corpus/wb/notes-8.md):
+  «ཁང་ས་བརྩི་ན་འདྲི་དུས་ཀྱི་སྲོག་གིས་བརྩི་བྱའི་སྲོག་བཅད་པ་སྟེ་དགྲར་གྱུར་ན་ཞེས་སོགས་གཞུང་བཞིན། ཕར་བཅད་ན་གྲོགས་ཕྲད། ཚུར་བསྐྱེད་མ། ཕར་བསྐྱེད་བུ། ནང་ཕྲད་སོ་སོའི་བཤད་པ་གཞུང་བཞིན།»:
+  the moment's life force cutting the one reckoned's is the enemy; cutting
+  outward, a friend meets; generating inward, a mother; generating outward, a
+  son; the same element, an inner meeting, each as the text tells. This is
+  the house's list (p. 166): moment cuts the asker, the asker cuts the
+  moment, each generates the other, the same; and each of the five elements
+  has its own reading for the inner meeting. So the cutting gives the
+  place's reading by relation, and by element where the elements meet.
+- **Rise and decline** gives presence or absence, not a second reading of
+  the cutting: the field, «བརྩི་བྱའི་དབང་ཐང་གང་ཡིན་དེ། །དུས་ཚོད་སྟེང་དུ་དར་གུད་སྦྱར། །དར་ཡོད་གུད་ན་མེད་པར་དཔྱད», the one reckoned's power, whichever it is,
+  put on the moment's element for rise and decline: rising, there is a
+  field, declining, none (p. 167, img. 175); the grave, «ཀླུང་རྟའི་དར་གུད་དུས་སྟེངས་ཁྱེར། །གུད་ན་ལམ་གྲོག་ས་དགྲ་ཡོད», the luck's rise and decline
+  carried on the moment: declining, a road, ravine or ground enemy (p.
+  168); the own place, «དར་གུད་བཟང་དྲུག་ཤར་ན་ཡོད། །ངན་པ་དྲུག་ལ་མེད་པར་ཤོད», the good six of rise and decline, if in the east, there
+  is [the kin or enemy], the bad six, none (p. 168); wealth (p. 168, l. 4 of
+  img. 176): «བརྩི་བྱའི་ལུས་དང་དབང་ཐང་གཉིས། །དུས་ཚོད་དང་སྦྱར་དར་གུད་བརྩི། །དར་ཡོད་གུད་ན་མེད་ལུང་སྟོན། །བྱ་རས་ལུས་དབང་གཅོད་ཀྱང་མེད། །དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས»:
+  body and power put on the moment for rise and decline, rising there is,
+  declining the prophecy is none; and if the moment cuts body and power,
+  none also; where these two agree, lay the verdict.
+- **The verdict** is therefore laid on what the cutting and the rise and
+  decline agree on: the line of wealth says it outright («དེ་གཉིས་བསྟུན་ལ»,
+  where the two accord); for the other places the two are read side by
+  side in the place's own lines and the verdict is named only at p. 166's
+  head. The six good and six bad of rise and decline are the twelve stages
+  of the chapters on the dead and the year ([claims/dead-living-twenty-one.md](claims/dead-living-twenty-one.md):
+  the good six white, the bad six black). No line of pp. 166–170 counts
+  white and black for a place, as p. 172 does for the fighting enemies, and
+  none ranks the three above one another.
+- Question 423's items, as the lines give them: **wealth** there when the
+  asker's body and power both rise on the moment and the moment cuts
+  neither (the two agreeing: «བསྟུན»); **beer** (p. 169) likewise body and
+  power both; **the sick one's life** by rise, decline and cutting (p. 169),
+  rising no death, declining the cutting also reckoned, in between a long
+  illness; **trade** and disputes (p. 170) by two aspects (power with luck)
+  named for both; the casting's grain (the notes, p. 536) by the moment's life
+  force against the asker's power. All of these are read from the pages
+  already in [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md);
+  nothing on these pages shows any of them read otherwise.
+
+### 3. The dead's twenty roots (the notes, vol. 2, p. 503, img. 511, l. 1–8; the end of p. 502, img. 510)
+
+The end of p. 502 (img. 510, last six lines, Yigdzin-1, the scan not
+re-read there): the dead's time of death by the first examination's
+pebbles, «ལོ་འགྲོས་འཆི་དུས་བཅུ་གཉིས་ནི། རང་ཀེག བདུན་ཟུར། མཐུན་གསུམ། བཞི་གཤེད། ཁྱིམ་མཚེས། རྒྱ་མདའ་ཐུག་པ། སྲི་ངན། གསང་ཀེག ལོ་སྐར་ཆེ་བ། ཆུང་བ། ལོག་མིན་བདུད་གཅོད། བླ་འཁྱམས་བཅས་སོ། །དེ་ཡང་ལོ་ཟླ་ཞག་དུས་ལ་བརྟག་ཅེས་འདུག་གོ། །དར་གུད་ནི་སྲོག་སོགས་བཞི་གནམ་ལོར་གཏུགས་པའི་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག། དགུ་མིག་རྐྱང་པ་དང་། གཤེད་འདོམས་སྦྲགས་མ་ཀེག་རྩིས་བཞིན་དང་། དུར་མིག་ཚུད་པ་ལ་གཤིན་པོའི་སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་རང་མ་བུ་གྲོགས་དགྲ་ལྔར་ཕྱེ་ནས་སོ་སོའི་དགུ་མིག་ཡིན་མིན་ལྔ་སྟེ་སྲོག་གི་རང་མ་སོགས་ལྔ་ཀའི་བཏང་གཅོད་གཅིག་ཏུ་བསྡུ་སོགས་འགྲེ། སྤར་ཁའི་དགུ་མིག་ཕོ་ལི་མོ་ཁམ་ལ་ཐུག་མིན། སྨེ་བའི་དབུས་བབ་དང་བྱིས་པ་གཅིག་དཀར་ལ་བབ་སོགས་ཡོད་མེད། རུས་ཁམས་རང་མ་བུ་གྲོགས་དགྲ་ལྔའི་དུར་མིག་ཡིན་མིན་ལས་བཏང་།»
+(the sentence runs over to p. 503): the twelve "times of death by the
+course of the years": one's own obstacle, the seventh, the triad, the four
+executioners, the house-and-kin («ཁྱིམ་མཚེས»), meeting the Chinese arrow,
+the bad sri, the secret obstacle, the year's mansion great and small, the
+progressed sign's demon cut, and the la's wandering, examined on the year,
+month, day and hour; rise and decline: the life force and the other three
+set against the sky year, the six good white, the six bad black; the
+nine-eye of the single, and the executioner's and the joined ones as in the
+obstacle reckoning; for the grave-eye falling in, the dead's life force,
+body, power, luck and la, each divided into five (own, mother, son,
+friend, enemy), whether each of the five falls in its nine-eye, five, the
+life force's own, mother and the rest of all five gathered into one
+deciding pebble; the trigram's nine-eye, whether it meets the male, the
+*li*, the female or the *kham*; the mewa, whether it falls in the centre
+or on the child's one white, and so on, there or not; the clan element's
+five (own, mother, son, friend, enemy) whether in the grave-eye, from
+which the deciding pebble [is taken].
+
+Then p. 503, l. 1–8, read on the scan:
+
+> གཅོད་བཞག ཟླ་ཞག་དུས་གསུམ། རང(༡) བདུན(༢) མཐུན(༣) བཞི(༤) ལོ་སྐར་ཆེ(༥) ཆུང(༦) བཅས་ཐུག་མིན་དང་བཅས་བརྟག དེ་རྣམས་ལས་སྤར་ཁའི་འཆི་དུས་ལྔ་ལྟ་བུ་ལས་གང་རུང་བྱུང་ན་འཆི་དུས་ཡིན་པས་རྡེའུ་ནག་པ་ལྟ་བུ་ཀུན་ལ་འགྲེ། དེ་ལྟར་སྤར་སྨེ་ལོ་གསུམ་དང་སྲོག་སོགས་དར་གུད་བཞི། རྐྱང་པའི་དགུ་མིག་སྦྲགས་མིའི་དགུ་མིག་གཉིས་དང་། སྲོག་དུར་ཞུགས་སོགས་བླ་བར་ལྔ་དང་། སྤར་ཁ་དང་སྨེ་བའི་དགུ་མིག་གཉིས། རུས་ཁམས་ཀྱི་གཅིག ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ་སྟེ་ཉི་ཤུ་ཐམ་པ་དང་། ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས་པའི་སྤྱིའི་ཁ་དམར་རྡེལ་གཅིག་སྟེ། བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག་ལ་འཆི་དུས་རྡེལ་ཕྲན་ཉེར་གཅིག་ཏུ་འཇོག་པ་འདྲ།
+
+The first line, set: the month, day and time, three: [the six marked] 1 own,
+2 seventh, 3 triad, 4 four [executioners], 5 the year's mansion great and 6
+small, with the not-meeting, are examined; if any of these like the
+trigram's five times of death arises, it is the time of death, laid
+as a black pebble, and so for all. So, **the twenty**: the trigram, mewa and
+year, three; the rise and decline of the life force and the other three,
+four; the single's nine-eye and the joined man's nine-eye, two; the life
+force's grave-entering and the rest, up to the la, five; the nine-eyes of
+the trigram and the mewa, two; the clan element's one; the three of the
+three, year, month and day: twenty in all (3+4+2+5+2+1+3 = 20); counting
+the white and black of the twenty, the general verdict, one pebble: the
+deciding pebble's twenty-one are laid as twenty-one small pebbles of the
+time of death, "as it seems". Lines 6–8 (from «ཉི་ཤུ་པོ») were read from
+Yigdzin-1 and MITRA, which agree but for «ཁྲ་མར» (Yigdzin-1) and «ཁྭ་མར»
+(MITRA) at the sentence's end, «བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག»: not understood,
+not read on the scan.
+
+Reading, letter by letter: «བླ་བར» in the fifth group is «བླ་བར» in Yigdzin-1
+and «ཟླ་བར» in MITRA; on the scan (img. 511, l. 4, 8× and 12×) the stacked
+letter is the same shape as the «ཟླ» of l. 1 («ཟླ་ཞག») and as the «བླ» of
+l. 19 («བླ་ཁྱེར»); the print does not tell them apart at this size. The sense
+decides: the sentence of p. 502's end names the five as «སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ»
+(life force, body, power, luck, la), so «བླ་བར་ལྔ» is "up to the la, five"
+and «ཟླ་བར», "in the month", would leave the group of five without its fifth;
+the count of twenty holds with either. The fifth line's «རུས་ཁམས» is read so
+(the clan element, the same word as p. 500's «རུས་ཁམས་རང་མ་བུ་གྲོགས་དགྲ»),
+MITRA's «དུས་ཁམས» is its own.
+
+What the twenty are, as the passages give them, against the roots of the
+first examination: pp. 45–46 and the notes, p. 500, name roots of the dead's
+pebbles (the year of death, the progressed sign, trigram, mewa, rise and decline, month, day, hour),
+four aspects fought on each (RD16, RD23, [reckonings.md](reckonings.md));
+p. 503's twenty are another cut of the same examination: seven groups
+counted as pebbles (the trigram, mewa and year; the four rises and declines;
+two nine-eyes; five grave-eyes by aspect; two nine-eyes of trigram and mewa;
+the clan element; the three of year, month and day), and the twelve times
+of death by the course of the years (the end of p. 502) stand beside them as
+the tests of the time, not as pebbles of the twenty. How the notes lay the
+twenty and the twelve together («ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས»: the twenty counted
+white and black) is as a pebble of the general verdict, the twenty-first,
+which the notes call «བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག», the deciding pebble's twenty-one.
+
+### 4. The illness's nine classes from the fifteen (vol. 1, p. 425, img. 435; the notes, p. 496, img. 504, l. 2–9)
+
+The nine classes of p. 425 read on the scan for RD22 and RD41 and
+[corpus/wb/ch25.md](corpus/wb/ch25.md) (*wb.1:p425*) gives them whole with
+their rites; the 1996 print's Yigdzin-1 drops the line of the fifth black
+(«ལྔ་ཆས་ནག»); the reprint has it. In WB's order: a third more white, a
+fourth, a fifth, a sixth more white, white and black half, a sixth, a
+fifth, a fourth, a third more black. The notes, p. 496 (img. 504, l. 2–9; the
+sentence read on the Gser thang reprint for RD53):
+
+> རྡེལ་སྒོ་མ་བརྩིས་པའི་བཅོ་ལྔ་ལས་དྲུག་དཀར་དགུ་ནག་ན་སུམ་ཆས་ལྷག་ནག དེ་ལྡོག་གསུམ་ཆའི་ལྷག་དཀར་དང་། ལྔ་དཀར་གཞན་ནག་ན་ལྔ་ཆས་ལྷག་ནག་སོགས་འགྲེ། དཀར་ནག་སྙོམས་ཁར་དཀར་བཞི་ལྷག་ན་བཞི་ཆས་ལྷག་སོགས་སྦྱོར་དགོས་ཏེ། གཞན་དུ་ལྔ་ནག་བཅུ་དཀར་ན་སུམ་ཆས་ལྷག་དཀར་སོགས་སྦྱར་དགོས་ནའང་དེ་ལྟར་བརྩིས་མི་འདུག་པས་སོ་ཟེར་ཀྱང་། དོན་ལ་དཀར་པོ་གསུམ་མང་ན་སུམ་ཆ་བཞི་བཞི་ཆ་སོགས་དང་འདྲ་བར་འདུག
+
+Of the fifteen without the pebble door: six white and nine black, a third more
+black; the reverse, a third more white; five white and the rest black, a fifth
+more black, and so on. Over an even split of white and black, four more white,
+a fourth more, and the rest must be joined; otherwise five black and ten white
+would have to be joined as a third more white, which is not counted so, they
+say; but in fact three more white is like a third, four more like a fourth.
+
+How the class follows from the fifteen, as the passages give it (claim
+[illness-classes-by-difference](claims/illness-classes-by-difference.md), RD53):
+count the white and the black of the fifteen, the pebble door left out; the
+class is named by how many more of one colour there are: three more, «སུམ་ཆས»;
+four, «བཞི་ཆས»; five, «ལྔ་ཆས»; six, «དྲུག་ཆས»; the two colours even,
+«དཀར་ནག་ཕྱེད་མ». The notes' two examples, six against nine and five against
+ten, are the differences three and five; they do not give the third's
+fraction. What this reading adds, arithmetic on those words and not a line of
+the notes: the fifteen are laid in three rows of five (the notes, p. 495, img. 503, Yigdzin-1 only,
+«རྡེལ་སྒོ་སྤངས་པའི་བཅོ་ལྔ་པོ་ཚོ་གསུམ་བྱས་པ་གཅིག་ནས་ལྔ་བར་དང་པོ་སོགས»), and the
+notes say the speckled is counted neither "outer" nor "inner" in the reading
+of the houses (p. 495, img. 503, Yigdzin-1 only, «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན»); with
+white and black alone the difference of fifteen is always odd (three, five),
+so WB's even classes, "four more", "six more" and "even", can arise only if
+some of the fifteen are speckled and belong to neither colour; the classes
+cover differences 0, 3, 4, 5 and 6 on either side and say nothing of 1, 2
+and seven or more.
+
+The order on the page is not one of rising white: the white classes stand as
+three, four, five, six more, then half, then the black as six, five, four,
+three more: a fold at the half. The labels at the ends of the rites are in
+[claims/illness-class-labels.md](claims/illness-class-labels.md) (RD53); no
+new reading of them.
+
+### Open
+
+- Question: the notes' «ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ» (vol. 2, p. 537): are «ཡར་གསུམ་སོགས» the three up, three down, eight up and eight down of p. 172's own counts (img. 180, l. 16–19), whose landed years the four aspects fight; and does «དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱ» put the moment's year, with its four aspects, where the asker's is, so that the moment's aspects fight the landed year (the lines' «དུས་འཐབ»), or does the moment only give the element the starting sign is sought by, as the notes' worked example (p. 537, the water rat of fourteen and the wood ox's sky year) has it, the asker's own aspects fighting?
+- Question: how many years does p. 171–172's count of the sixty-year pairs and of the ogre's and demon's seven up and down run (the asker's years lived, as in the worked example, or one place), and is a female counted up as in ch. 26 («བཀེན» "propped")?
+- Question: in the notes' close on the 360 starting points (vol. 2, p. 538, img. 546, l. 2–4) the six that fight are written as «སྲོག་ལུས་དབང་ཀླུང་དབང་བླ་རང་དུར་གཤེད་དུར»: eight words; which six are meant, and is the second «དབང» a slip, the luck among them though the worked example does not use it?
+- Question: p. 166's «གཅོད་འདྲལ། དར་གུད། ཁ་དམར» three to each element: is the verdict (ཁ་དམར) of a place laid, as p. 168 says of wealth, where the cutting and the rise and decline agree (white, a good place; black, a bad), and is there a white-and-black count for each of the eight places, as p. 172 says of the fighting enemies, which the lines of pp. 166–168 do not give?
+- Question: in the nine classes (vol. 1, p. 425; the notes, p. 496), what does a difference of one, two, or seven and more of the fifteen read, and is the speckled counted in the fifteen but in neither colour (an arithmetic inference), so that "four more" and "six more" arise?
+- Question: in p. 503's twenty, whose are «ལོ་» and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ»: the year, month and day of death with the twelve times of death's tests, or the dead's own year; and is the group's «བླ་བར» (in the notes' sentence the la, up to which the five are counted) as it is read here?
+
+### Searched and not found
+
+- 2026-10-27, the notes' pp. 503 and 537 (img. 511, 545, 546) and vol. 2 p. 172 (img. 180) on the scan: no sentence says which aspect of the landed year each of the four fights, nor how many years the sixty-year pairs' count runs; ch. 27 «ཉེར་བདུན» is named as the like, but its circles count the asker's years lived upward, with five aspects (circles-count).
+- 2026-10-27, vol. 2 pp. 166–168 (img. 174–176, the lines of the three) and the notes' p. 536: no line says that a place's verdict is a count of white and black, or how the cutting and rise and decline are ranked.
+- 2026-10-27, vol. 1 p. 425 and the notes p. 496 (img. 435, 504): no class for a difference of one, two or seven and more; no statement whether the speckled counts to the fifteen.
+- 2026-10-27, p. 503 img. 511: the print does not tell «བླ» from «ཟླ» in the fifth group; no other print of the notes (Mipham's own, I2029, or the Chengdu Collected Works) was opened for the letter.
