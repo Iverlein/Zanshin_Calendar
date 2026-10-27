@@ -26,6 +26,12 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BeerGiven
 import zanshin.core.tibetan.EatenCount
 import zanshin.core.tibetan.Element
+import zanshin.core.tibetan.GrainMeasure
+import zanshin.core.tibetan.KinGroup
+import zanshin.core.tibetan.LifeVerdict
+import zanshin.core.tibetan.MomentKin
+import zanshin.app.Relation
+import zanshin.app.Relative
 import zanshin.core.tibetan.MomentSigns
 import zanshin.core.tibetan.SickLife
 import zanshin.core.tibetan.Gender
@@ -131,6 +137,7 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
             onOpen,
         )
         MewaPlaces(mewa, onOpen)
+        person?.let { LifeParts(it, mewa, onOpen) }
         AskerPlaces(day, minutes, person, onPeople, onOpen)
         ThreeMewa(day, onOpen)
         Text(stringResource(R.string.moment_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
@@ -152,6 +159,56 @@ private fun MewaPlaces(mewa: Int, onOpen: (Annotation) -> Unit) {
     Section(stringResource(R.string.moment_kin_section))
     MomentPlaces.kinPlaces(mewa).forEach { (place, n) ->
         MomentRow(labels.string(R.string.moment_kin_place_title, place.english.replaceFirstChar(Char::uppercase), n, colour(n)), Texts.momentForefathers(n), onOpen, english = place.direction.english)
+    }
+}
+
+/**
+ * The cutting on the figure (p. 163; the notes, pp. 535–536): for the person chosen and each relative entered with a
+ * birth year whose group the figure reads, the father and paternal grandfather, the father's brothers, the mother and
+ * maternal grandmother, the mother's brothers and the children, their life force against the mewa in each of their
+ * three places, the moment's mewa [mewa] in the centre.
+ */
+@Composable
+private fun LifeParts(person: Person, mewa: Int, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    fun colour(n: Int) = Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")
+    val tree = person.relatives
+    val all = tree.list
+    val father = all.firstOrNull { it.of == null && it.relation == Relation.FATHER }
+    val mother = all.firstOrNull { it.of == null && it.relation == Relation.MOTHER }
+    val kin: List<Pair<KinGroup, Relative>> = listOfNotNull(father?.let { KinGroup.FATHERS to it }) +
+        all.filter { father != null && it.of == father.id && it.relation == Relation.FATHER }.map { KinGroup.FATHERS to it } +
+        all.filter { father != null && it.of == father.id && it.relation == Relation.SIBLING && it.gender == Gender.MALE }.map { KinGroup.FATHERS_BROTHERS to it } +
+        listOfNotNull(mother?.let { KinGroup.MOTHERS to it }) +
+        all.filter { mother != null && it.of == mother.id && it.relation == Relation.MOTHER }.map { KinGroup.MOTHERS to it } +
+        all.filter { mother != null && it.of == mother.id && it.relation == Relation.SIBLING && it.gender == Gender.MALE }.map { KinGroup.MATERNAL_UNCLES to it } +
+        all.filter { it.of == null && it.relation == Relation.CHILD }.map { KinGroup.CHILDREN to it }
+    val partTitles = listOf(R.string.moment_life_early, R.string.moment_life_middle, R.string.moment_life_late)
+    Section(stringResource(R.string.moment_life_section))
+    val own = TibetanCalendar.of(person.birth).let { Sign(it.yearElement, it.yearAnimal) }
+    val rows = listOf(Triple(KinGroup.ONESELF, personLabel(person), own)) +
+        kin.mapNotNull { (g, r) -> r.birth?.let { b -> Triple(g, labels.string(R.string.moment_life_kin, relativeLabel(tree, r, labels), r.name), YearOfLife.yearSign(b.tibetanYear)) } }
+    rows.forEach { (group, title, sign) ->
+        val parts = MomentKin.lifeParts(group, sign.forces.vitality, mewa)
+        AnnotationRow(
+            Annotation(
+                title = title.trimEnd(' ', '·'),
+                english = parts.joinToString(" · ") { "${it.mewa} ${colour(it.mewa)}" },
+                tone = Tone.NEUTRAL, reading = null, titleIsKanji = false,
+                parts = parts.map { p ->
+                    Annotation(
+                        title = labels.string(partTitles[p.part.ordinal], p.mewa, colour(p.mewa)),
+                        english = "", titleIsKanji = false,
+                        tone = when (p.verdict) { LifeVerdict.GOOD -> Tone.GOOD; LifeVerdict.RISE_FALL -> Tone.MIXED; LifeVerdict.BAD -> Tone.BAD },
+                        reading = Texts.momentLifePart(p.part, p.verdict),
+                    )
+                },
+            ),
+            onOpen,
+        )
+    }
+    if (kin.none { it.second.birth != null }) {
+        Text(stringResource(R.string.moment_life_needed), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
 }
 
@@ -194,6 +251,16 @@ private fun AskerPlaces(day: TibetanDay, minutes: Int, person: Person?, onPeople
             AskerPlace.GRAVE -> {
                 if (MomentPlaces.graveDeclining(born.forces, moment)) {
                     MomentRow(labels.string(R.string.moment_grave_decline_title, MomentPlaces.stage(born.forces.luck, moment).english), Texts.momentGraveDecline(), onOpen, tone = Tone.BAD)
+                }
+                // The forefathers' year (p. 168): the paternal grandfather's, else the father's, as entered.
+                val forefather = person.relatives.list.let { all ->
+                    val father = all.firstOrNull { it.of == null && it.relation == Relation.FATHER }
+                    all.firstOrNull { father != null && it.of == father.id && it.relation == Relation.FATHER && it.birth != null } ?: father?.takeIf { it.birth != null }
+                }
+                forefather?.birth?.let { YearOfLife.yearSign(it.tibetanYear) }?.let { y ->
+                    MomentKin.forefathersYear(y, moment)?.let { fault ->
+                        MomentRow(labels.string(R.string.moment_forefathers_year_title, name(y)), Texts.momentForefathersYear(fault), onOpen, tone = if (fault) Tone.BAD else Tone.GOOD)
+                    }
                 }
                 // WB gives the grave's back for the four elements of the directions; earth has none.
                 if (moment.element != Element.EARTH) {
@@ -276,6 +343,12 @@ private fun SmallExaminations(born: Sign, moment: Sign, onOpen: (Annotation) -> 
     )
     Section(stringResource(R.string.moment_more_section))
     Texts.momentHair(moment.element)?.let { MomentRow(stringResource(R.string.moment_hair_title), it, onOpen, english = gloss(moment.element, "inText")) }
+    Texts.momentMarks(moment.element)?.let { MomentRow(stringResource(R.string.moment_marks_title), it, onOpen, english = gloss(moment.element, "inText")) }
+    val grain = MomentKin.grain(moment)
+    MomentRow(labels.string(R.string.moment_grain_title, MomentPlaces.stage(moment.forces.vitality, moment).english), Texts.momentGrain(grain), onOpen,
+        tone = when (grain) { GrainMeasure.FULL -> Tone.GOOD; GrainMeasure.MIDDLING -> Tone.MIXED; GrainMeasure.LITTLE -> Tone.BAD })
+    MomentRow(labels.string(R.string.moment_grain_from_title, MomentKin.grainFrom(moment).joinToString(" · ") { it.english }), Texts.momentGrainVessel(), onOpen,
+        english = Catalog.text("Element.${moment.element.name}.colour"))
     val trade = MomentSigns.trade(a, moment)
     MomentRow(labels.string(R.string.moment_trade_title, up(a.destiny).english), Texts.momentTrade(trade), onOpen, tone = tone(trade))
     val dispute = MomentSigns.dispute(a, moment)
