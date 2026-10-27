@@ -6988,3 +6988,178 @@ All on 2026-10-27, BDRC's full-text search, exact phrase, hits in brackets.
   not opened, and the 403 hits (I5775, I1KG81102, I1KG21916, I1KG10408, I4992,
   I1KG6078, I4265) were read by their snippets only where the results page gave
   one.
+
+### The sixth reading of RD58 (2026-10-27): the lent scans of the two snippets' books
+
+Read 2026-10-27 on archive.org's loan (the owner's login through `secret-run`,
+one-hour browse loans, the reader's page only, each leaf screenshot at 3×),
+for the passages that the fifth reading's search-only snippets pointed at. Of
+the four books only two are lent: MW23671 (item `bdrc-W23671`, 510 leaves) and
+MW3CN6027 (`bdrc-W3CN6027`, 428 leaves); MW21880 (`bdrc-W21880`) and MW28959
+(`bdrc-W28959`) hold BDRC's bare archive zip and no reader images, and the
+loan answers HTTP 400 for both (see the searched list below). Both lent books
+are modern manuals (rank 3 in [sources.yaml](sources.yaml)): facts only, none
+of their wording is taken beyond the short lines quoted here as evidence. The
+single-volume leaf is the printed page plus a constant (MW3CN6027: page =
+leaf − 22; MW23671: leaf 172 = p. 115, so page = leaf − 57); each leaf's
+characters were read by Yigdzin-1 through `schedule.py slot` and the sentences
+below checked against the screenshot by eye (MW23671's pages are served at
+1002 px, so the lines of leaf 172 are legible but small; the table of leaf 173
+was not re-read by eye and is described, not quoted). The leaves were found by
+the search's character offsets (`startChar`) turned into pages at about 1,450
+characters a page, then by Yigdzin-1 over a run of leaves for the phrase.
+
+#### A. MW3CN6027 (Rme'u Tsha bstan 'dzin rnam rgyal, *Gna' bo'i bon grong zhig gi shes rig*, Lhasa 2016), leaves 79–87 = pp. 57–65, for questions 424–426
+
+BDRC's subject line gives the book the subject of a village; its title names a
+"Bon village" (བོན་གྲོང, bon grong), and it quotes the Bon *Snang srid me long*
+(SN) on p. 60: this book is **a witness only, never a source**; nothing below is
+to be built on. What its p. 58–60 (leaves 80–82) do is show how a modern
+reckoner lays the fight of the four against the four, quoting a *Forefather's
+Account* (*Nag rtsis sngon 'gro mes po'i rtogs brjod*, ནག་རྩིས་སྔོན་འགྲོ་མེས་པོའི་རྟོགས་བརྗོད,
+nag rtsis sngon 'gro mes po'i rtogs brjod) for its verses. The section is on
+the two persons of a pair, called "the reckoned son" and "the reckoned
+daughter" (བརྩི་བྱ་བུ, brtsi bya bu; བརྩི་བྱ་བུ་མོ, brtsi bya bu mo), whose
+pebbles of white and black (རྡེལ་དཀར་ནག, rdel dkar nag) are cast.
+
+- p. 58 (leaf 80), read by eye: «བུ་ཡི་སྲོག་ལུས་དབང་ཀླུང་བཞིས། །བུ་མོའི་སྲོག་ལུས་དབང་ཀླུང་འཐབ། །དེ་བཞིན་བུ་ཡི་སྲོག་སོགས་བཞིས། །བུ་མོའི་སྲོག་སོགས་བཞི་ལ་འཐབ། །ཕན་ཚུན་རྡེའུ་དཀར་ནག་དང་། །རྒྱལ་ཕམ་ལས་སོགས་བརྟག་པའི་གཞི།»
+  The son's four, life force (སྲོག, srog), body (ལུས, lus), power (དབང, dbang)
+  and luck (ཀླུང་, klung), fight the daughter's life force, body, power and
+  luck; likewise the son's life force and the rest, four, fight the daughter's
+  life force and the rest, four; the pebbles of each, white and black, are the
+  ground to examine victory and defeat and the works. The commentary adds
+  that the daughter's four then fight the son's four the same way, and that
+  the pebbles are compared kind with kind in turn («སྲོག་རྡེལ་དང་སྲོག་རྡེལ། ལུས་རྡེལ་དང་ལུས་རྡེལ། དབང་རྡེལ་དང་དབང་རྡེལ། ཀླུང་རྡེལ་དང་ཀླུང་རྡེལ་རིམ་བཞིན་བསྡུར»,
+  "life pebble with life pebble, body with body, power with power, luck with
+  luck, in order"; Yigdzin-1 beside the screenshot).
+- The same page's rule of casting, by eye, from the *Forefather's Account*:
+  «མ་འཕྲད་དཀར་གསུམ་གྲོགས་ལ་གཉིས། །ས་ཆུ་ནང་འཕྲད་དཀར་པོ་གཅིག །བུ་འཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ། །ཤིང་ལྕགས་མེ་གསུམ་ནག་གཅིག་བོར།»
+  Meeting the mother, three white; meeting the friend, two white; earth and
+  water in the inner meeting, one white; meeting the son, half and half
+  (ཕྱེད་མ, phyed ma); the enemy, two black; wood, iron and fire, one black is
+  laid. The commentary (Yigdzin-1; the first lines of leaf 81 checked
+  on the screenshot, the rest of the example not re-read by eye) spells «བུ་དང་འཕྲད» as "one white and one black together", and works the
+  example of a water-dog son and a fire-hare daughter on the sixty-year
+  table (the son's elements earth, water, water, iron for life force, body,
+  power, luck; the daughter's wood, fire, fire, fire): life force earth
+  against wood, enemy, two black; body water against fire, friend, two
+  white; power water against fire, friend, two white; luck iron against
+  fire, enemy, two black; then the daughter's four against the son's four,
+  wood with earth friends two white, fire with water enemy two black, fire
+  with water enemy two black, fire with iron friends two white. The sum of
+  white and black decides the pair's friendship, wealth and success.
+- p. 60 (leaf 82), by eye, a verse the book quotes from the Bon *Snang srid me long*
+  (witness only): «སྐྱེས་པའི་སྲོག་དང་ཀླུང་རྟ་ཡིས། །བག་མའི་སྲོག་དང་ཀླུང་རྟར་འཐབ། །བག་མའི་ལུས་དང་དབང་ཐང་གིས། །སྐྱེས་པའི་ལུས་དང་དབང་ཐང་འཐབ།»
+  The man's life and luck-horse fight the bride's life and luck-horse; the
+  bride's body and power fight the man's body and power: again kind against
+  kind.
+- pp. 61–63 (leaves 83–85), the verses by eye, the rest Yigdzin-1: the
+  *Forefather's Account* sets the mansions (སྨེ་བ, sme ba): four up from the
+  body's mansion the life mansion, four down the power mansion
+  («ཡར་བཞི་སྲོག་སྨེ་སྟེ། །མར་བཞི་དང་སྨེ་གང་སྐྱེས་ལུས།», "four up is the life
+  mansion, four down the power, and the mansion where one is born the body"),
+  the luck's mansion by the year's triad (tiger, horse, dog two black; mouse,
+  dragon, monkey eight white; bird, ox, snake one white; pig, sheep, hare five
+  yellow), and the manual's example counts four up from a seven-red body
+  mansion to a one-white life mansion and four down to a four-green power
+  mansion. That is another use of «ཡར་བཞི» ("four up") as a count on the board of the
+  mansions, from the body's mansion, which is the nearest this book comes to
+  the notes' «ཡར་གསུམ».
+
+What this says of the questions (modern manual, a witness; the *Utpala
+Garland* of the fifth reading stays the better witness for question 424):
+
+- **Question 424.** Here the fight is of two persons' own four, each aspect
+  against the same kind of the other person, and the pebbles are not taken
+  from one person's own four against landed years. It is a third way of
+  laying a fight (the others being WB's counts and the *Utpala Garland*'s),
+  and it agrees with the notes' only statement of which aspects meet
+  («བརྩི་བྱ་དང་དུས་ཀྱི་སྲོག་སོགས་ནང་མཐུན་པར་འཐབ་བོ», p. 536: each with its own
+  kind), but it has no moment, no landed year and no «ཡར་གསུམ». Narrowed:
+  nothing against the reading that the moment's four fight the asker's four
+  kind with kind.
+- **Question 425.** Nothing: no count of years, no sixty-year pairs, no male
+  down and female up on these pages; the years enter only as the element of the
+  sixty-year table (the sixty's «རེའུ་མིག», re'u mig).
+- **Question 426.** The fight is of four, each in its own kind, never of six;
+  no list of «འཐབ་ཟླ་དྲུག» or of eight words, and «རང་དུར་གཤེད་དུར» does not
+  occur on pp. 57–65. Nothing.
+
+#### B. MW23671 (*Bod ljongs nags shod 'bri ru'i lo rgyus rab rim sā la'i ljon shing*, Lhasa 2002), leaves 165–174 = pp. 108–117, for question 429
+
+BDRC's contents list shows this book is a gazetteer of Driru county in
+Nagchu, not a Bon work (its monasteries are Gelug, Kagyu, Nyingma and one named
+Bon, the chapter in question lists the way of the dead's rites after the
+marriage customs). The snippet's sentence is on p. 115 (leaf 172), in a
+section headed «རྩིས་འབྲས་རྟོག་ཚུལ» (the way of examining the results of
+the reckoning), under the county's funeral customs (headed «འདས་འཇུག་བྱ་ཚུལ»,
+"how the passing is done", leaf 165). By eye (leaf 172, lines 11–19):
+
+- «གཟའ་ཆེན་ཉི་མར་རྐྱེན་ལམ་དུ་སོང་བ་ཡིན་ན་ཉི་མ་དགུ་ཁྲིད་ཅེས་འཚུབ་པར། གྲོང་ཚོ་སྤྱིའི་གསོན་པོར་གནས་པའི་སྐྱེ་བོ་ཚོར་འཚུབ་པར་བྱ་བའི་ཆག་སྒོ་མི་ཡོང་ཆེད་རིམ་གྲོ་དང་དུར་ཁ་གཅོད་པའི་ཚུལ་དུ་གཏོ་བཅོས་བྱེད་དགོས། ཤི་བའི་ལོ་ཟླ་ཞག་དུས་བཞི་དང་སྤར་མེ་རོ་འདོན་ལ་སོགས་རྩིས་འབྲས་ལ་བརྟག་པར་བྱ།»
+  (the first line is the weekday rule: if the dead one passed on the sun's day
+  it "leads nine suns", and the living of the village are troubled, so that
+  the door of that trouble not open, a rite of the rim-gro, the order of
+  service, and the cutting of the grave's mouth (དུར་ཁ་གཅོད་པ) is to be done.)
+  «ཤི་བའི་ལོ་ཟླ་ཞག་དུས་བཞི་དང་སྤར་མེ་རོ་འདོན་ལ་སོགས་རྩིས་འབྲས་ལ་བརྟག་པར་བྱ།»
+  "The four of the dying's year, month, day and time, the trigram and mansion
+  (སྤར་སྨེ, spar sme, here printed with «མེ») of taking the body out and the rest are
+  to be examined in the results of the reckoning."
+- The next sentence separates the dead's own year-sign from that: «ལྷག་ཏུ་འདས་པོའི་ལོ་རྟགས་དང་དེ་མིན་ནང་མིའི་ལོ་རྟགས་བཅས་མི་མཐུན་པར་འཛེམས་བྱ་དགོས་པ་དེ་ཡང་། དཔེར་ན། འདས་པོའི་ལོ་རྟགས་བྱི་བ་ལོ་པ་ཞིག་ཡིན་ན། ནང་མིའི་ལོ་རྟགས་འབྲུག རྟ། སྤྲེལ་གསུམ་གྱིས་སྐྱེ་བོས་ཕུང་པོ་འདྲེན་རེག་བྱ་མི་རུང་།»
+  "Above all the dead's year-sign (འདས་པོའི་ལོ་རྟགས) and the year-signs of
+  the household (ནང་མི) are to be kept from disagreeing; for example, if the
+  dead was born in the mouse year, the household of the dragon, horse and
+  monkey years may not lead the body or touch it." Leaf 173's table goes on
+  through the twelve signs, three of the household for each (Yigdzin-1, not
+  re-read by eye), and then the day's good and bad dates by the lunar date
+  (good and bad lunar dates, Yigdzin-1 only), the weekday's results and a
+  funeral wrapping by the trigram (leaf 174, Yigdzin-1 only).
+
+What this says of the question, as a witness (a modern manual, rank 3, facts
+only): a reckoner of a Gelug region examines for a death "the four of the
+dying's year, month, day and time" as the time of death's own reckoning
+(«ཤི་བའི» "of the dying"), and keeps the dead's birth year-sign apart as a
+different thing («འདས་པོའི་ལོ་རྟགས»). That favours reading p. 503's
+«ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» year as the year of death with the month and day,
+in the group's three, not the dead's own birth year; it does not name the
+group's three, and it is a county custom, not WB's twenty. **Question 429
+narrowed, not settled.** Mipham's *Deathless Elixir* (the fifth reading's
+section B) has the same phrase, which this book takes as the dying's year; the
+gazetteer gives no source.
+
+#### C. The questions re-judged
+
+| Question | Before | Now |
+| --- | --- | --- |
+| 424 | open, narrowed | Open; a modern pair-reckoning lays kind against kind between two persons (MW3CN6027 pp. 58–60), no moment, no landed year, no «ཡར་གསུམ»; witness only, nothing built. |
+| 425 | open, narrowed | Open; nothing on how far a count runs in MW3CN6027; MW28959 not lent. |
+| 426 | open, narrowed | Open; the fight is of four in the book, never six. |
+| 428 | open, narrowed | Open; MW21880 is not lent and its passage cannot be read; a modern book's rule of white and black by element meeting (MW3CN6027 p. 58) is of two persons' pebbles, not the illness's fifteen. |
+| 429 | open, narrowed | Narrowed: a regional manual separates «ཤི་བའི་ལོ་ཟླ་ཞག་དུས་བཞི» (the dying's four) from «འདས་པོའི་ལོ་རྟགས» (the dead's year-sign), which favours the year of death; the group's three not named. |
+
+### Searched and not found (sixth reading)
+
+All on 2026-10-27.
+
+- MW21880 (*Mo dpe dang sa dpyad rmi lam brtag thabs*, I4992) and MW28959
+  (*Bod kyi 'byung rtsis rnam gzhag*, I5775): the archive.org items `bdrc-W21880`
+  and `bdrc-W28959` have no `_jp2.zip` or PDF (their file lists are BDRC's
+  `_bdrc.zip`, marc and torrent only); `borrow` answers `browse_book HTTP 400`
+  and the page list `HTTP 400`. So the passage with «གསེར་ཟམ་བཅོ་ལྔ» and
+  «སྲོག་རྡེལ་བཅོ་ལྔ་ནི་སྲོག་གི་ཐང་ཤིང་» (question 428) and MW28959's copy
+  of the four-against-four verse could not be read; MW3CN6027 (the same
+  author's later book) has the verse and was read instead (section A).
+- MW3CN6027 leaves 79–87 (pp. 57–65) for the six fighters, a count of years
+  or the speckled pebble: none; the fight is of four, the years only an
+  element of the sixty-year table, the pebbles white and black with no
+  speckled.
+- MW23671 leaves 165–177 (pp. 108–120) for the examination of the dying's
+  four (beyond its one sentence and the household's year-signs), for the
+  group's three, or for any twenty or nine pebbles of the dead: none; the
+  funeral custom has no pebble reckoning. Leaves 160, 175–177 held no further
+  mention; leaf 150 (the marriage custom) has «སྲོག་དང་ལུས་དང་དབང་ཀླུང་བཞི། སྤར་སྨེ་»
+  in a line of the marriage's matching of year and element (Yigdzin-1 only,
+  not read further).
+- Search: `bdrc_search.py` for «ཤི་བའི་ལོ་ཟླ་ཞག་དུས» (5), «སྲོག་ལུས་དབང་ཀླུང་འཐབ» (8),
+  «བུ་མོའི་སྲོག་ལུས་དབང་ཀླུང་འཐབ» (2), «སྲོག་རྡེལ་བཅོ་ལྔ» (1): the same hits as
+  the fifth reading; the character offsets used were I4265 180897,
+  I3CN6029 99918.
