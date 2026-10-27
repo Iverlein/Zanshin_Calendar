@@ -218,4 +218,14 @@ class MomentTest {
         assertEquals(true, MomentKin.forefathersYear(Sign(Element.WOOD, Animal.HORSE), Sign(Element.IRON, Animal.SNAKE)))
         assertEquals(null, MomentKin.forefathersYear(Sign(Element.EARTH, Animal.HORSE), Sign(Element.IRON, Animal.SNAKE)))
     }
+
+    /** The fighting enemies (p. 172): six landed years, four aspects each, twenty-four pebbles, the verdict the larger colour. */
+    @Test
+    fun `the fighting enemies`() {
+        val moment = Sign(Element.IRON, Animal.SNAKE)
+        val (pebbles, verdict) = MomentGates.fight(Sign(Element.FIRE, Animal.DRAGON), 51, male = true, moment)
+        assertEquals(24, pebbles.size)
+        val white = pebbles.count { it == PebbleColour.WHITE }
+        assertEquals(if (white > 12) PebbleColour.WHITE else if (white < 12) PebbleColour.BLACK else PebbleColour.SPECKLED, verdict)
+    }
 }

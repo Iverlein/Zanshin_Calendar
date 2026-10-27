@@ -387,6 +387,31 @@ object MomentGates {
         else -> if (male) count.male!! else count.female!!
     }
 
+    /** The six counts after the gates that go up or down from their start, which the fighting enemies fight (p. 172; the notes, p. 537). */
+    val FIGHTING = listOf(SixtyCount.OGRE, SixtyCount.DEMON, SixtyCount.SKY_DOOR, SixtyCount.EARTH_DOOR, SixtyCount.SEPARATION, SixtyCount.RUIN)
+
+    /**
+     * The fighting enemies (p. 172: «འཐབ་དགྲ་རྣམས་ནི་བརྩི་དུས་ཀྱི། །བརྩི་བྱའི་ལོ་བྱས་བརྩི་བ་ཡིན། །དེ་ཡང་སྲོག་ལུས་དབང་ཀླུང་འཐབ། །དཀར་ནག་བགྲངས་ལ་ཁ་དམར་གདགས»; the
+     * notes, p. 537, «ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ»): the year each of the six up and down counts
+     * lands on, counted as the gates count, its four aspects fought by the moment's four, like with like, in the place
+     * of the asker's year; each a white or black pebble by chapter 27's colours ([Circles.colour]); the verdict the
+     * larger colour, a tie speckled. Stated choices (questions 424, 425): the moment's aspects fight, not the asker's;
+     * chapter 27's colours, not the notes' moment colours of p. 536.
+     */
+    fun fight(sky: Sign, age: Int, male: Boolean, moment: Sign): Pair<List<PebbleColour>, PebbleColour> {
+        val pebbles = FIGHTING.flatMap { c ->
+            val landed = at(counted(start(c, sky, male, moment), age, male), c.after)
+            Force.entries.map { f -> Circles.colour(moment.forces[f], landed.forces[f]) }
+        }
+        val white = pebbles.count { it == PebbleColour.WHITE }
+        val black = pebbles.size - white
+        return pebbles to when {
+            white > black -> PebbleColour.WHITE
+            black > white -> PebbleColour.BLACK
+            else -> PebbleColour.SPECKLED
+        }
+    }
+
     /** The counts after the gates that fall on the asker at the moment: a cut inward, or a door's landing. */
     fun sixty(sky: Sign, age: Int, male: Boolean, moment: Sign): List<SixtyReading> = SixtyCount.entries.mapNotNull { c ->
         val start = start(c, sky, male, moment)

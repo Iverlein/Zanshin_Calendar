@@ -519,6 +519,8 @@ object Sources {
     val WHITE_BERYL_MOMENT_GATES = whiteBeryl("chapter 30, pp. 170–172, with the notes on p. 536")
     /** The moment's small examinations: wealth, beer, the houses, the sick, food, hair and trade (ROADMAP R2z). */
     val WHITE_BERYL_MOMENT_SIGNS = whiteBeryl("chapter 30, pp. 168–170, with the notes on p. 536")
+    /** The moment's observed signs: dreams, the asker, the road, the place, oath and implements, voices and callers, posture (ROADMAP R2z). */
+    val WHITE_BERYL_MOMENT_OBSERVED = whiteBeryl("chapter 30, pp. 144–151 and 170")
     /** The reckoning for the dead's first examination (ROADMAP R2n, docs/sources/reckonings.md, RD16). */
     val WHITE_BERYL_DEAD_TIME = whiteBeryl("chapter 29, pp. 45–46 and 55–57, with the notes on pp. 500–501")
     /** The dead's second examination, the reason the death met (ch. 29, pp. 57–58; the notes, p. 503; the regent's reply 148 on the colours). */
@@ -2326,6 +2328,13 @@ object Texts {
     fun momentGrainVessel(): Reading = Reading(key = "reading.MomentGrainVessel", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
 
     /** The marks on the body by the moment's element, iron and water only, the rest of the line unsettled (WB vol. 2, ch. 30, p. 170). */
+    /** The fighting enemies' verdict (WB vol. 2, ch. 30, p. 172; the notes, p. 537). */
+    fun momentFight(verdict: PebbleColour): Reading = Reading(key = "reading.MomentFight", arg = "reading.MomentFight.${verdict.name}", source = Sources.WHITE_BERYL_MOMENT_GATES)
+
+    /** A sign met at the reckoning of the moment, of [group] (WB vol. 2, ch. 30, pp. 144–151, 170; ROADMAP R2z). */
+    fun momentSign(group: String, key: String): Reading =
+        Reading(key = "reading.MomentSign", arg = "reading.MomentSign.$group.$key", source = Sources.WHITE_BERYL_MOMENT_OBSERVED)
+
     fun momentMarks(e: Element): Reading? =
         if (e == Element.IRON || e == Element.WATER) Reading(key = "reading.MomentMarks", arg = "reading.MomentMarks.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS) else null
 
