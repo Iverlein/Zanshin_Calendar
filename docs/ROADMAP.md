@@ -4327,9 +4327,12 @@ groups it shows (`tools/emulator/store_shots.py`).
   writers in parallel (`ObservedSigns`, family `MomentSign`), with the
   fighting enemies of p. 172 from RD58 (`MomentGates.fight`, `MomentFight`;
   stated choices on questions 424, 425); checked in core and app tests and
-  on the emulator in both languages. Nothing of ch. 30 is left unbuilt but
-  the words and signs the scan leaves unsettled, listed in the passages'
-  notes.
+  on the emulator in both languages. **Closed by the owner, 2026-10-27**:
+  the moment is complete as built; the words and signs the print leaves
+  unsettled (the marks for wood and fire, q346; «འཇག», «གྱེར་པོ», «སྐེས» and
+  the words the readers marked not understood) stay in the passages' notes
+  and questions until a reader of the tradition settles them, and are not
+  part of R2z; the stated choices of questions 420–425 kept as built.
 - **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
   D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
   each point from its pair in the element related to the power, counted
