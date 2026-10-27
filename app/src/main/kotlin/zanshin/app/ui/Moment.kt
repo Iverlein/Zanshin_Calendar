@@ -23,7 +23,16 @@ import zanshin.core.tibetan.DaySmeBa
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Forces
 import zanshin.core.texts.gloss
+import zanshin.core.tibetan.BeerGiven
+import zanshin.core.tibetan.EatenCount
+import zanshin.core.tibetan.Element
+import zanshin.core.tibetan.MomentSigns
+import zanshin.core.tibetan.SickLife
+import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Kinship
+import zanshin.core.tibetan.MomentGates
+import zanshin.core.tibetan.gender
+import zanshin.core.tibetan.kinPlaces
 import zanshin.core.tibetan.MomentPlaces
 import zanshin.core.tibetan.MomentReckoning
 import zanshin.core.tibetan.PebbleColour
@@ -134,14 +143,16 @@ private fun MomentRow(title: String, reading: zanshin.core.texts.Reading, onOpen
     AnnotationRow(Annotation(title = title, english = english, tone = tone, reading = reading, titleIsKanji = false, parts = parts), onOpen)
 }
 
-/** The moment's mewa as a place and a shape, with its foods, and the mewa falling in the forefathers' place (pp. 162–166). */
+/** The moment's mewa as a place and a shape, with its foods, and the mewa falling in each kin's place on the figure (pp. 162–166; the notes, p. 535). */
 @Composable
 private fun MewaPlaces(mewa: Int, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
     fun colour(n: Int) = Catalog.text("Colour.${SME_BA_COLOURS[n - 1]}")
     MomentRow(labels.string(R.string.moment_mewa_place_title, mewa, colour(mewa)), Texts.momentMewaPlace(mewa), onOpen)
-    val forefathers = MomentPlaces.forefathers(mewa)
-    MomentRow(labels.string(R.string.moment_forefathers_title, forefathers, colour(forefathers)), Texts.momentForefathers(forefathers), onOpen)
+    Section(stringResource(R.string.moment_kin_section))
+    MomentPlaces.kinPlaces(mewa).forEach { (place, n) ->
+        MomentRow(labels.string(R.string.moment_kin_place_title, place.english.replaceFirstChar(Char::uppercase), n, colour(n)), Texts.momentForefathers(n), onOpen, english = place.direction.english)
+    }
 }
 
 /**
@@ -180,8 +191,14 @@ private fun AskerPlaces(day: TibetanDay, minutes: Int, person: Person?, onPeople
                 val stage = MomentPlaces.stage(born.forces.destiny, moment)
                 MomentRow(labels.string(R.string.moment_field_there_title, stage.english), Texts.momentFieldThere(stage.good), onOpen, tone = if (stage.good) Tone.GOOD else Tone.BAD)
             }
-            AskerPlace.GRAVE -> if (MomentPlaces.graveDeclining(born.forces, moment)) {
-                MomentRow(labels.string(R.string.moment_grave_decline_title, MomentPlaces.stage(born.forces.luck, moment).english), Texts.momentGraveDecline(), onOpen, tone = Tone.BAD)
+            AskerPlace.GRAVE -> {
+                if (MomentPlaces.graveDeclining(born.forces, moment)) {
+                    MomentRow(labels.string(R.string.moment_grave_decline_title, MomentPlaces.stage(born.forces.luck, moment).english), Texts.momentGraveDecline(), onOpen, tone = Tone.BAD)
+                }
+                // WB gives the grave's back for the four elements of the directions; earth has none.
+                if (moment.element != Element.EARTH) {
+                    MomentRow(labels.string(R.string.moment_grave_back_title, MomentPlaces.direction(moment.element).english), Texts.momentGraveBack(), onOpen)
+                }
             }
             AskerPlace.HOUSE -> {}
         }
@@ -192,6 +209,124 @@ private fun AskerPlaces(day: TibetanDay, minutes: Int, person: Person?, onPeople
         MomentPlaces.ownPlace(moment).joinToString("\n") { (role, direction) -> labels.string(R.string.moment_own_place, role.english.replaceFirstChar(Char::uppercase), direction.english) },
         style = muted,
     )
+    SmallExaminations(born, moment, onOpen)
+    Gates(born, TibetanCalendar.of(person.birth).year, day.year, moment, onOpen)
+}
+
+/**
+ * The moment's small examinations of the asker (pp. 168–170; the notes, p. 536): wealth, the demon, beer, the
+ * neighbouring houses, the asker as the sick one, what was eaten, where the illness is, hair, trade and disputes.
+ */
+@Composable
+private fun SmallExaminations(born: Sign, moment: Sign, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    val a = born.forces
+    fun tone(good: Boolean) = if (good) Tone.GOOD else Tone.BAD
+    fun up(e: Element) = MomentPlaces.stage(e, moment)
+    Section(stringResource(R.string.moment_small_section))
+    val wealth = MomentSigns.wealthPresent(a, moment)
+    MomentRow(stringResource(if (wealth) R.string.moment_wealth_present else R.string.moment_wealth_absent), Texts.momentWealthThere(wealth), onOpen,
+        english = labels.string(R.string.moment_body_power, up(a.body).english, up(a.destiny).english), tone = tone(wealth))
+    val demon = MomentSigns.demonMeet(a, moment)
+    MomentRow(labels.string(R.string.moment_demon_title, gloss(demon)), Texts.momentDemonMeet(demon), onOpen,
+        english = labels.string(R.string.moment_place_meet, gloss(moment.element, "inText"), gloss(a.body, "inText"), gloss(demon)), tone = placeTone(demon))
+    val beer = MomentSigns.beerThere(a, moment)
+    val given = MomentSigns.beerGiven(a, moment)
+    val drunk = MomentSigns.beerDrunk(born, moment)
+    fun part(title: String, t: Tone, r: zanshin.core.texts.Reading) = Annotation(title = title, english = "", tone = t, reading = r, titleIsKanji = false)
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.moment_beer_title),
+            english = labels.string(R.string.moment_body_power, up(a.body).english, up(a.destiny).english),
+            tone = Tone.NEUTRAL, reading = null, titleIsKanji = false,
+            parts = listOf(
+                part(stringResource(if (beer) R.string.moment_beer_there else R.string.moment_beer_none), tone(beer), Texts.momentBeer(beer)),
+                part(stringResource(R.string.moment_beer_given), when (given) { BeerGiven.GIVEN, BeerGiven.OWN_SIDE -> Tone.GOOD; BeerGiven.HALF -> Tone.MIXED; BeerGiven.NOT_GIVEN -> Tone.BAD }, Texts.momentBeerGiven(given)),
+                part(stringResource(R.string.moment_beer_drunk), Tone.NEUTRAL, Texts.momentBeerDrunk(drunk)),
+                part(stringResource(R.string.moment_beer_taste), Tone.NEUTRAL, Texts.momentBeerTaste(moment.element)),
+            ),
+        ),
+        onOpen,
+    )
+    MomentRow(stringResource(R.string.moment_houses_title), Texts.momentHouses(), onOpen)
+    Text(
+        MomentSigns.houses(moment).joinToString("\n") { (side, e) -> labels.string(R.string.moment_own_place, side.english.replaceFirstChar(Char::uppercase), Catalog.text("Element.${e.name}.house")) },
+        style = muted,
+    )
+    Section(stringResource(R.string.moment_sick_section))
+    val life = MomentSigns.sickLife(a, moment)
+    MomentRow(labels.string(R.string.moment_sick_life_title, up(a.vitality).english), Texts.momentSickLife(life), onOpen,
+        tone = when (life) { SickLife.LIVES -> Tone.GOOD; SickLife.HARD -> Tone.MIXED; SickLife.DECLINE -> Tone.BAD })
+    MomentRow(stringResource(R.string.moment_sick_cause_title), Texts.momentSickCause(moment.element), onOpen, english = gloss(moment.element, "inText"))
+    MomentRow(stringResource(R.string.moment_sick_bed_title), Texts.momentSickBed(), onOpen)
+    val bed = mapOf(Kinship.MOTHER to R.string.moment_bed_clothing, Kinship.SON to R.string.moment_bed_pillow, Kinship.ENEMY to R.string.moment_bed_mat, Kinship.FRIEND to R.string.moment_bed_food)
+    Text(
+        MomentSigns.sickBed(moment).joinToString("\n") { (k, e) -> labels.string(R.string.moment_own_place, labels.string(bed.getValue(k)), Catalog.text("Element.${e.name}.colour")) },
+        style = muted,
+    )
+    MomentRow(stringResource(R.string.moment_eaten_title), Texts.momentEaten(moment.element), onOpen, english = gloss(moment.element, "inText"))
+    MomentSigns.eaten(born, moment)?.let { c ->
+        MomentRow(stringResource(when (c) { EatenCount.TWICE -> R.string.moment_eaten_twice; EatenCount.ONCE -> R.string.moment_eaten_once; EatenCount.NONE -> R.string.moment_eaten_none }), Texts.momentEatenCount(c), onOpen)
+    }
+    val seat = MomentSigns.illnessSeat(moment)
+    MomentRow(
+        labels.string(R.string.moment_seat_title, if (seat.isEmpty()) stringResource(R.string.moment_seat_none) else seat.joinToString { it.english }),
+        Texts.momentIllnessSeat(), onOpen,
+    )
+    Section(stringResource(R.string.moment_more_section))
+    Texts.momentHair(moment.element)?.let { MomentRow(stringResource(R.string.moment_hair_title), it, onOpen, english = gloss(moment.element, "inText")) }
+    val trade = MomentSigns.trade(a, moment)
+    MomentRow(labels.string(R.string.moment_trade_title, up(a.destiny).english), Texts.momentTrade(trade), onOpen, tone = tone(trade))
+    val dispute = MomentSigns.dispute(a, moment)
+    MomentRow(labels.string(R.string.moment_dispute_title, up(a.luck).english), Texts.momentDispute(dispute), onOpen, tone = tone(dispute))
+}
+
+/**
+ * The thirteen gates and the counts after them (pp. 170–172; the notes, p. 536): the asker's years counted from each
+ * gate's year, a man down and a woman up by the birth year's sex, as the thirty count (D22); a row for each gate, its
+ * sheet each year fought against the moment; then the counts after the gates that fall.
+ */
+@Composable
+private fun Gates(born: Sign, birthYear: Int, year: Int, moment: Sign, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
+    val age = YearOfLife.age(birthYear, year)
+    val male = born.animal.gender == Gender.MALE
+    Section(stringResource(R.string.moment_gates_section))
+    Text(
+        labels.string(R.string.moment_gates_subtitle, labels.ordinal(age), stringResource(if (male) R.string.moment_gates_down else R.string.moment_gates_up)),
+        style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
+    )
+    MomentGates.gates(born, age, male, moment).forEach { g ->
+        val parts = g.years.map { y ->
+            val title = when {
+                y.offset > 0 -> labels.string(R.string.moment_gate_up, y.offset + 1, name(y.year))
+                y.offset < 0 -> labels.string(R.string.moment_gate_down, -y.offset + 1, name(y.year))
+                else -> labels.string(R.string.moment_gate_reached, name(y.year))
+            }
+            Annotation(title = title, english = "", tone = if (y.cuts) Tone.BAD else Tone.GOOD, reading = Texts.momentGate(g.gate, y.offset, y.cuts), titleIsKanji = false)
+        }
+        AnnotationRow(
+            Annotation(
+                title = labels.string(R.string.moment_gate_title, g.gate.ordinal + 1, g.gate.english.replaceFirstChar(Char::uppercase)),
+                english = labels.string(R.string.moment_gate_counted, name(g.start), name(g.reached)),
+                tone = Tone.NEUTRAL,
+                reading = null,
+                titleIsKanji = false,
+                parts = parts,
+            ),
+            onOpen,
+        )
+    }
+    Section(stringResource(R.string.moment_sixty_section))
+    val falling = MomentGates.sixty(born, age, male, moment)
+    if (falling.isEmpty()) {
+        Text(stringResource(R.string.moment_sixty_none), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    }
+    falling.forEach { r ->
+        MomentRow(labels.string(R.string.moment_sixty_title, name(r.start)), Texts.momentSixty(r.count), onOpen, english = labels.string(R.string.moment_sixty_reached, name(r.reached)), tone = Tone.BAD)
+    }
 }
 
 /** The tone of a place's meeting: the mother and the friend cut outward good, the enemy and the son bad, an element meeting itself mixed. */
@@ -224,6 +359,7 @@ private fun ThreeMewa(day: TibetanDay, onOpen: (Annotation) -> Unit) {
             SquareGuard.NEITHER -> Tone.NEUTRAL
         }
         val guard = Annotation(title = stringResource(R.string.moment_square_guard), english = "", tone = guardTone, reading = Texts.momentGuard(s.guard), titleIsKanji = false)
+        val eye = Annotation(title = stringResource(R.string.moment_square_eye), english = "", tone = Tone.NEUTRAL, reading = Texts.momentEye(s.mewa), titleIsKanji = false)
         val fate = s.fate?.let {
             Annotation(title = stringResource(R.string.moment_square_fate), english = "", tone = if (it == SquareFate.CUT) Tone.BAD else Tone.GOOD, reading = Texts.momentSquare(s.square, it), titleIsKanji = false)
         }
@@ -234,7 +370,7 @@ private fun ThreeMewa(day: TibetanDay, onOpen: (Annotation) -> Unit) {
                 tone = Tone.NEUTRAL,
                 reading = null,
                 titleIsKanji = false,
-                parts = listOfNotNull(fate, guard),
+                parts = listOfNotNull(fate, guard, eye),
             ),
             onOpen,
         )
