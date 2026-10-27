@@ -6839,3 +6839,152 @@ the 1996 scan of img. 546, l. 3, at 6× for the stack before «ལོ་དྲ�
 
 - 2026-10-27, Steinert's 64 dictionaries for «ལོག་མུ་ཅོར» as a whole: no
   headword of that length; read as «ལོག» and «མུ་ཅོར» (above).
+
+### The fifth reading of RD58 (2026-10-27): BDRC's full-text search for a witness other than the 1996 print
+
+Read 2026-10-27 with `bdrc_search.py` (BDRC's exact-phrase full-text search,
+31 searches, listed below) for a witness to the four sentences that the
+1996 print, Mipham's own print (I2029) and the typeset Collected Works
+(I1PD34647) leave silent. Every phrase of the notes and of p. 172 itself
+found only WB's own etexts (the 1996 etext MW2CZ8040, the Gser thang reprint
+MW3CN5026, the Zhol print I1KG1710, and two poor OCRs of WB) and, for the
+notes, the same prints of vol. 2; none finds the notes' sentences outside WB. Two
+other manuals of the same family answered in part, both by their etext
+(published, modern editions: facts only, never their wording, rank 3 in
+[sources.yaml](sources.yaml)): the *Utpala Garland* (*'Byung rtsis dpyad don
+rmad byung ut+pal sngon po'i do shal*, MW25167, I4767, by Dge rtse 'Gyur med
+bstan pa'i rnam rgyal), in its second chapter on the layouts of the pebbles
+(etext inline page numbers 38–51), and the Bhutanese anthology *Dkar rtsis dang
+nag rtsis kyi gzhung* (MW26041, I1KG11905; Kunsang Topgyal, Thimphu 1981; the
+OCR is rough and only its clear lines are used).
+
+#### A. The Utpala Garland's fight, for questions 424 and 425
+
+The *Utpala Garland* does not give WB's counts of the sixty-year pairs, the
+ogre's and the demon's seven, the three up and the eight up; its own counts
+are of the sky year (གནམ་ལོ, gnam lo, the year of the time reckoned by,
+as in the notes' example «གནམ་ལོ་ཤིང་གླིང་ཤར»). But it states, in words, which
+aspects fight and how far the counts run:
+
+- «བརྩི་བྱའི་སྲོག་ལུས་དབང་ཀླུང་བླས། གནམ་ལོའི་སྲོག་སོགས་ལྔ་པོར་འཐབ། དེ་བཞིན་སྤར་ཁ་ལྔ་ལའང་འཐབ།»
+  The reckoned one's life force (སྲོག, srog), body (ལུས, lus), power (དབང,
+  dbang), luck (ཀླུང་རྟ, klung rta) and la-life-spirit (བླ, bla) fight the
+  five, life force and the rest, of the sky year; likewise they fight the five
+  of the trigram (སྤར་ཁ, spar kha).
+- «ལོ་གྲངས་ཟད་མཚམས་ལོ་རྟའི། སྲོག་ལུས་དབང་ཀླུང་བཞི་པོ་ལ། ནད་པའི་སྲོག་སོགས་བཞིས་འཐབ།»
+  Where the count of years runs out, the four, life force, body, power and
+  luck, of that year's horse (ལོ་རྟ, lo rta) are fought by the four of the
+  patient (ནད་པ, nad pa), life force and the rest.
+- «ལོ་གྲངས་དུ་ལོན་བར་དུ་བགྲངས། གང་བབས་དེ་ཡི་སྲོག་ལུས་དབང་། ཀླུང་རྟ་བཞི་ལ་ནད་པ། སྲོག་ལུས་དབང་ཀླུང་འཐབ་པར་བྱ།»
+  Count up to the years lived; the life force, body, power and luck-horse of
+  the year it lands on, four: let the patient's life force, body, power and luck
+  fight them.
+- «དེ་ནས་གནམ་ལོའི་སྲོག་སྨེ་དང་། ལུས་སྨེ་དབང་སྨེ་ཀླུང་སྨེ་བཞིར། ནད་པའི་འཕུར་སྨེ་བཞིས་འཐབ་པའི། རྡེལ་ཕྲེང་བཅུ་བདུན་དེ་དག་ལ། ཁ་དམར་རྐེད་ནས་ཐུར་དུ་ནི། བཅུ་བདུན་དང་ནི་བཞི་བཞག་པས། རྡེལ་ཕྲེང་ཉི་ཤུ་རྩ་གཅིག་འབྱུང་།»
+  Then, for the sky year's four mansions (སྨེ་བ, sme ba), of life force, body,
+  power and luck, the pebble chain of seventeen in which the patient's four
+  flying mansions fight them: from the red-mouth (ཁ་དམར, kha dmar) down, with
+  seventeen and four set, a chain of twenty-one pebbles arises.
+- «སྐྱེས་པ་གནམ་ལོའི་བུ་ཐོག་ནས། སྟག་ནས་དུ་ལོན་ཐུར་དུ་སྦུབས། བུད་མེད་མ་ཡི་སྤྲེལ་ནས་བཀན།»
+  The male, from the sky year's child, from the tiger, down (སྦུབས, sbubs) by
+  the years lived; the female from the mother's monkey, propped up (བཀན, bkan;
+  WB spells it བཀེན).
+
+What this says of the questions:
+
+- **Question 424.** In the *Utpala Garland* the four that do the fighting are
+  the reckoned one's (the patient's) own, and what is fought is the four of the
+  year the count lands on and the four of the sky year; the moment's year gives
+  the start of the counts and its own aspects, and never the aspects that
+  attack. This is the second of the question's two readings (the asker's own
+  aspects fight; the time gives the year to start from), and the notes' worked
+  example (the water rat of fourteen and the sky year of the wood ox) is of
+  that shape. The manual is another system with its own counts (thirteen up,
+  thirteen down, five up, five down, six up), so it narrows how the family
+  reckons and does not read p. 172's «ཡར་གསུམ་སོགས».
+- **Question 425.** The *Utpala Garland* runs its counts to the years lived of
+  the reckoned one, not for one place, and counts the male down and the female
+  up (བཀན). The same line is in the anthology (MW26041, I1KG11905): «ལོ་གྲངས་དུ་ལོན་བར་དུ་བགྲངས»
+  at its birth-mansion count. For the sixty-year pairs and the seven of the
+  ogre and demon themselves no other print gives a length.
+
+#### B. The other hits
+
+- **Question 426.** The words «རང་དུར་གཤེད་དུར» (own grave, rang dur; slayer's grave, gshed dur) occur
+  in WB (I1KG12906, character 739240, its Gser thang reprint and a poor OCR of
+  it, I4CZ74285), in the *Utpala Garland* (I4767, character 232964) and in a
+  verse manual of year pairings (I4717, title not established), in the lines «དེ་དག་ལོ་ཡི་བསྡེབས་ཚུལ་གྱི། ཕན་ཚུན་རང་དུར་གཤེད་དུར་ཐུག»,
+  "of these ways of putting years together, they meet each other's own grave and
+  slayer's grave": the two are names of how two years stand to one another, in
+  the marriage chapters, not aspects of one year. This is a hint that the last
+  two words of the eight are relations and the first six aspects; it does not
+  say which six the 360 starting points count, and the word «འཐབ་ཟླ» ("fighting partner")
+  with «དྲུག» is in no etext outside WB.
+- **Question 428.** One search-only etext, the Gansu folk collection *Mo dpe dang
+  sa dpyad rmi lam brtag thabs* (MW21880, by Sha bo Tshe ring 'brug rgyal
+  mkhar, 1997), has in its snippet "gser zam bco lnga zhes pa yang 'di la zer
+  zhing / srog rdel bco lnga ni srog gi thang shing yin la / de bzhin du lus
+  dbang ...": the "golden bridge of fifteen" is another name of the life's
+  fifteen pebbles, the life's counting stick (ཐང་ཤིང་, thang shing), and the
+  body's and power's are the same; the snippet stops there (the etext answers
+  403) and gives no class for a difference of one, two or seven, nor the
+  speckled.
+- **Question 429.** The phrase «ཤི་བའི་ལོ་ཟླ་ཞག་དུས» ("the dead's year, month, day
+  and time") occurs in WB's ch. 29 (the 1996 etext and the Gser
+  thang reprint: nine pebbles identified, the dead's bone, the birth's year,
+  month, day, time and the death's year, month, day, time), in Mipham's
+  *Deathless Elixir* (the work of the section above, MW5062_B6190A, scans I1KG8550;
+  the OCR of the closing summary is too poor to quote beyond «ཤི་བའི་ལོ་ཟླ་ཞག་དུས་དང་»
+  and «འཐབ་རྡོ་བཀོད»: "the dead's year, month, day and time", "fighting
+  stones set") and, in search-only snippets, in a
+  history of Nagshod Drirutso (MW23671, ch. 2: "the four of the death's year,
+  month, day and time and the trigram and mansion of the funeral recitation are
+  examined for the reckoning's result") and in an English book on the White
+  Beryl's paintings, which is not used. None says whose year the last group
+  of p. 503 counts.
+- **Question 424, the two-person fight.** A modern book on the black
+  reckoning (Rme'u Tsha bstan 'dzin rnam rgyal, MW3CN6027 and MW28959, both
+  search-only snippets of the *Nag rtsis sngon 'gro mes po'i rtogs brjod*) has
+  «bu yi srog lus dbang klung bzhis / bu mo'i srog lus dbang klung 'thab»,
+  "the son's four, life force, body, power and luck, fight the daughter's
+  four": each of two persons' four fight the other's four. It is of two
+  persons' pebbles, not of the moment, and only shows that the fight is
+  between the fours.
+
+#### C. The questions re-judged
+
+| Question | Before | Now |
+| --- | --- | --- |
+| 424 | open, narrowed | Narrowed again: the *Utpala Garland* has the reckoned one's own four fight the landed year's four and the sky year's; the moment's aspects are not the attackers there. Not settled for WB's counts. |
+| 425 | open | Narrowed: the *Utpala Garland* runs its counts to the years lived, the male down and the female up; no length for the sixty-year pairs. |
+| 426 | open, narrowed | Open; a hint that «རང་དུར་གཤེད་དུར» are relations of years. |
+| 428 | open, narrowed | Open; nothing on the classes or the speckled. |
+| 429 | open, narrowed | Open; nothing on the last group's year. |
+
+### Searched and not found (fifth reading)
+
+All on 2026-10-27, BDRC's full-text search, exact phrase, hits in brackets.
+
+- «དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ» (2), «འཐབ་ཟླ་ལོ་དྲུག་ཅུས» (2), «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» (2), «སྲོག་ལུས་དབང་ཀླུང་དབང་བླ་རང་དུར་གཤེད་དུར» (2):
+  WB vol. 2 in the 1996 etext (I1KG12907) and the Gser thang reprint
+  (I3CN5029) only.
+- «བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག» (0), «འཐབ་ཟླ་དྲུག» (0), «དཀར་པོ་བཞི་དཀྱིལ་ནག་གཅིག་ནག་པོ་ཤི་བ» (0),
+  «གསོན་མིག་ཤི་མིག» (0), «དཔལ་ཁྱིམ་གཉིས་ཡོད་གསུམ་མི་རྩི» (0), «ནད་ཀྱི་རིགས་དགུ» (0),
+  «ཕྱི་ནང་གི་རྡེའུ་བཅོ་ལྔ» (0), «ཁྲ་བོ་རྡེལ་དཀར་ནག» (0), «གཤིན་རྩིས་ལོ་ཟླ་ཞག་དུས» (0): nowhere.
+- «རྡེལ་སྒོ་མ་བརྩིས་པའི་བཅོ་ལྔ» (1, the Gser thang reprint), «ཁྲ་བོ་བཏང་སྙོམས» (1),
+  «ཁྲ་བོ་མི་བརྩི» (1), «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང» (2), «དུས་ཚོད་ཡོས་དུས་ཤི་ན» (1),
+  «ལོག་མུ་ཅོར» (2): WB vol. 2's prints only; no gloss elsewhere.
+- «འཐབ་དགྲ་རྣམས་ནི་བརྩི་དུས་ཀྱི» (2), «བརྩི་བྱའི་ལོ་བྱས་བརྩི་བ» (3), «ཡར་བརྒྱད་བགྲངས་པའི་སར» (3),
+  «ས་ནས་ཡར་གསུམ་བགྲངས་པའི་སར» (2), «སྲོག་ལུས་དབང་ཀླུང་འཐབ» (8): WB's prints (the 1996 etext,
+  the Gser thang, the Zhol I1KG1710, MW4CZ74207, MW1KG1617) and the hits of
+  section A and B; the Bon village history MW3CN6027 is not a source.
+- «སྲོག་ལུས་དབང་ཀླུང་བླ་གཟའ» (1, *Utpala Garland*), «ལོ་གྲངས་དུ་ལོན་བར་དུ་བགྲངས» (2, the
+  *Utpala Garland* and the anthology), «རང་དུར་གཤེད་དུར» (7), «རྡེལ་བཅོ་ལྔ» (1),
+  «ཤི་བའི་ལོ་ཟླ་ཞག་དུས» (5): section A and B.
+- «ལོ་ཟླ་ཞག་དུས་བཞི» (36 hits): too common, the windows not read except in
+  the five hits of the previous line.
+- No line of Mipham's other works, no *Moonbeams*, no Tsurphu or Phugpa
+  manual and no essay of KD's turned up for any phrase of the four
+  sentences; the lent scans of MW21880, MW23671, MW28959 and MW3CN6027 were
+  not opened, and the 403 hits (I5775, I1KG81102, I1KG21916, I1KG10408, I4992,
+  I1KG6078, I4265) were read by their snippets only where the results page gave
+  one.
