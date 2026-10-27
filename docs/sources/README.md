@@ -559,6 +559,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0419.md](questions/q0419.md) | question q419 | What is «འཇུག་ཕོད» in Sādhuputra's ground rite? | open; cites sdp:p238-241 |
 | [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
 | [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
+| [questions/q0422.md](questions/q0422.md) | question q422 | How are the thirteen gates counted? | open; cites wb.2:p170-171 |
+| [questions/q0423.md](questions/q0423.md) | question q423 | How are the moment's small examinations of the asker combined? | open; cites wb.2:p168-169, wb.2:p169-170, wb.2:p170 |
 
 <!-- end pool index -->
 

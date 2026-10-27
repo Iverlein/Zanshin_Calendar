@@ -1150,18 +1150,27 @@ The screen (§10.11): "The moment" in the Reckonings list ("Now: earth
 (ཁོན, khon) · mewa 9"); on it, the weekday, the lunar date, the month and
 the time since dawn, the time of day ("The time of day · late afternoon", or a line by night) and the hour's element ("The hour's element · water"),
 the moment's trigram and mewa, each opening its reading, the mewa's place
-("The mewa's place · 1 white") and the forefathers' ("The forefathers'
-place · 3 blue"); under "The asker's places", by day and for the person
+("The mewa's place · 1 white"); under "The kin's places" a row for each
+place on the figure ("The forefathers · 3 blue", "west"); under "The
+asker's places", by day and for the person
 chosen, a line naming the moment's sign and the asker's year, the house,
 the field and the grave ("The house", "the moment's fire against the
 asker's wood · son"), "A field · birth stage", "The grave's luck · death
 stage" where it declines, "Kin and enemy · working stage" and the six
 people of one's own place with their directions ("The maid · east"), or a
-line by night or with no one chosen; under "The three mewa joined" a line
-naming the year's and the day's mewa and a row for each of the nine
-squares ("East · 2 black", "son · speckled pebble"), its sheet the
-square's kin and its gods or demons; and a closing note on what is
-reckoned.
+line by night or with no one chosen; then "Wealth, beer and the houses"
+(the wealth, the demon, the beer with its four parts, the neighbouring
+houses listed by side), "The sick" (the sick one's life, where the illness
+came from, the bed listed, what was eaten and how often, where the illness
+is), "Hair, trade and disputes", "The thirteen gates" (a line with the
+year of age and the way counted, a row for each gate, "1 · The king's
+command", "from fire mouse to water dog", its sheet each year fought) and
+"The counts after the gates" (only those that fall, "From iron dog",
+"reached wood horse", or a line when none does); under "The three mewa
+joined" a line naming the year's and the day's mewa and a row for each of
+the nine squares ("East · 2 black", "son · speckled pebble"), its sheet
+the square's kin, its gods or demons and its eye at the door; and a
+closing note on what is reckoned.
 
 **The later reckonings** (ROADMAP R2w, 2026-10-25; D24): by day, the
 asker's wealth, illness and harming spirit by the moment's element, which
@@ -1180,13 +1189,20 @@ the scan, with Mipham's notes, pp. 535–536; [claims/moment-eight-places.md](so
 [moment-asker-year.md](sources/claims/moment-asker-year.md); `MomentPlaces`,
 core `tibetan/Moment.kt`):
 
-- **The mewa as a place and the forefathers' place** (pp. 162–166): the
-  moment's mewa as a place and a shape, with its foods (family
+- **The mewa as a place and the kin's places** (pp. 162–166; the notes,
+  p. 535): the moment's mewa as a place and a shape, with its foods (family
   `MomentMewaPlace`); and, the moment's mewa set in the centre of the nine
   squares and the others laid out from it in the square's order, the mewa
-  that falls in the west, the crown of the figure of a man lying head to the
-  west, read as the forefathers' line (family `MomentForefathers`; the
-  notes' example: 5 yellow in the centre, 7 red in the forefathers' place).
+  falling in each kin's place on the figure of a man lying head to the
+  west, read as that line ("so for every place", p. 164; family
+  `MomentForefathers`): one's own household the centre, the forefathers the
+  crown (west), the father the right shoulder (south-west, the notes), the
+  maternal uncle the left (north-west), the father's brothers the right
+  side (south), the brothers and dependants the right foot (south-east),
+  the servants and the field the left foot (north-east), the mother and
+  spouse the lap (east). The notes' example holds: 5 yellow in the centre,
+  7 red at the forefathers', 2 black at the father's. The left side,
+  «ཡམས་སྐུད», WB does not explain, and it is not read.
 - **The moment's sign** (the notes, p. 536): the hour's animal with the
   hour's power; the notes' moment of an iron snake has the power iron, the
   life force fire, the body iron and the luck water, the iron snake year's
@@ -1207,7 +1223,9 @@ core `tibetan/Moment.kt`):
   water), of three cutting pairs (fire and water, iron and wood, iron and
   fire) and of a mother or son; for earth meeting itself and the pairs of
   wood and earth or earth and water WB gives none, and the row says so
-  (family `MomentGrave`). Whether there is a field, by the asker's power's
+  (family `MomentGrave`); the grave's back faces the direction of the
+  moment's element, wood east, fire south, iron west, water north, earth
+  given none (p. 168, `MomentGraveBack`). Whether there is a field, by the asker's power's
   stage of rise and decline on the moment's animal, good or bad
   (`MomentFieldThere`), and the grave's luck declining, by the asker's
   luck's (`MomentGraveDecline`).
@@ -1221,6 +1239,33 @@ core `tibetan/Moment.kt`):
   south, iron the west, water the north. *Stated choice*: earth, which the
   notes' example does not place, stands in the centre, where the square
   sets the five yellow.
+- **The small examinations of the asker** (pp. 168–170, read on the scan;
+  `MomentSigns`; question 423 for the combinations chosen): the wealth
+  there where the asker's body and power both rise on the moment's animal
+  and the moment's element cuts neither (`MomentWealthThere`); the demon by
+  the asker's body against the moment's power, a cut inward a harmful
+  demon, generated inward the going gods, an element meeting itself its
+  element's demon (`MomentDemonMeet`); beer there where body and power
+  rise (`MomentBeer`), given by the moment's power against the asker's
+  (`MomentBeerGiven`), the drinking finished where the moment's and the
+  asker's animals are both male, not where both female, half where mixed
+  (`MomentBeerDrunk`), its taste by the moment's element
+  (`MomentBeerTaste`); the neighbouring houses, the moment's element's
+  enemy to the right, friend to the left, mother behind and son in front,
+  each of its element's colour and shape (`MomentHouses`); the asker as the
+  sick one, the life force rising lives, on the breath-taking or the womb
+  hard, on the other bad stages declining (`MomentSickLife`), where the
+  illness came from by the moment's element (`MomentSickCause`), the
+  clothing, pillow, mat and food by the moment's element's mother, son,
+  enemy and friend, as WB's sick one at a wood moment (`MomentSickBed`), what was eaten by the moment's element
+  (`MomentEaten`) and how often, the moment's power on the asker's year
+  and the asker's year on the moment, both rising twice, the asker's alone
+  once, both declining not (`MomentEatenCount`; the moment's alone, which
+  WB does not read, shows none), the organs declining on the moment as the
+  seat of the illness (`MomentIllnessSeat`, the five solid organs); the
+  hair by the moment's element, earth's word doubtful on the scan and not
+  shown (`MomentHair`); trade by the asker's power and disputes by the luck
+  rising or declining (`MomentTrade`, `MomentDispute`).
 - **The three mewa joined** (p. 165; the notes, p. 536): the day's mewa of
   the sixty-day count (§5.11) in the centre of the nine squares, the others
   laid out from it, WB's places 1 the centre, 2 the east, on round by the
@@ -1235,17 +1280,51 @@ core `tibetan/Moment.kt`):
   neither (family `MomentGuard`); the pebble as the notes lay it: a mother
   white, an enemy, a friend and wood or iron meeting itself black, a son and
   earth or water meeting itself speckled; fire meeting itself, which the
-  notes do not name, black with wood and iron.
+  notes do not name, black with wood and iron. Each square shows also its
+  eye at the door, who the mewa falling there shows near that place (p. 165;
+  the notes, p. 536: «ཉི་མའི་སྨེ་བ་དབུས་བཞག … འབྲས་བུ་ས་དེ་དག་ལ་སྦྱར»;
+  family `MomentEye`).
+- **The thirteen gates** (pp. 170–171, read on the scan; the notes,
+  p. 536; [claims/moment-thirteen-gates.md](sources/claims/moment-thirteen-gates.md);
+  `MomentGates`): the sky year is the asker's birth year (the notes); each
+  gate starts from its year of the sixty, counts the asker's years of age,
+  the start the first, down for a male birth year and up for a female, as
+  the thirty count (D22), and fights the year reached, or for the king's
+  command eight up and down from it and for the fire ox three up and
+  down, against the moment's sign: a year whose element overcomes the
+  moment's cuts it inward, and the gate's harm comes (family `MomentGate`).
+  The starts: the king's command the rat of the asker's element, counted
+  down for all («ཐུར་དུ་སྦུབ»); the minister's the son element's tiger for
+  a man, its monkey for a woman; the fire ox the year two animals on in
+  the son element (the notes: a wood rat from the fire tiger, a wood ox
+  from the fire hare); the sky the son element's ox, thirteen down; the
+  swastika the son element's monkey, five down for a man and up for a
+  woman; the sun the friend element's hare; the demon-cutting the enemy
+  element's bird; gods and demons the mother element's horse; the thief
+  the own element's ox, the sheep's seventh; the peacock the own monkey,
+  thirteen up; the sky's and the earth's wanderings the own pig,
+  twenty-five up and down; the ruin-horse the own rat, thirteen down.
+  *Stated choices* (question 422): «ལྔ་ནས» after the start in gates 6,
+  10, 11 and 13 is read as no count, the swastika alone giving its five as
+  one; "eight up" counts inclusively, the year reached the first.
+- **The counts after the gates** (pp. 171–172; [claims/moment-sixty-pairs.md](sources/claims/moment-sixty-pairs.md)):
+  from the moment's sign seven up and down (the ogre and the demon), from
+  fixed years, and for a man and a woman from two (the male and female
+  change from the son element's tiger and the mother element's monkey),
+  the asker's years counted as the gates count; a count falls where the
+  year reached cuts the moment inward, and the four doors where the year
+  eight or three on lands on the animals named (family `MomentSixty`).
+  Whose years are counted WB does not say (question 344); the asker's, the
+  gates' small reckonings as the regent's reply 160 calls them.
 
-**Not calculated** yet: the kin's places on the figure other than the
-forefathers', and the cutting of the first and last parts of life on it
-(they need the kin's years); the nine eyes at the door (which mewa stands at
-the door is not said); the forefathers' year against the moment and the
-grave's back by the moment's element (given for wood only); the casting's
-grain; the thirteen gates and the sixty-year counts that follow them (where
-gates 5 and 6, the "own element" signs and the counted year start is not
-settled: questions 343, 344); the signs, dreams and implements, observed
-rather than reckoned; the small reckonings (pp. 163–172).
+**Not calculated**, by the app's rules rather than for want of a reading:
+the cutting of the first and last parts of life on the figure and the
+forefathers' year against the moment, which need the kin's birth years
+the reckoning does not ask; the casting's grain (a casting, not built, as
+Mo is not); the asker's arrival, gestures, words and dreams, the omens of
+the road, the voices at the reckoning, the implements and the asker's
+posture (observed, not reckoned; pp. 144–151, 170); and the marks on the
+body (p. 170), whose line the scan does not settle.
 
 #### 5.9.6 The thirteen circles
 

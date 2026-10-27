@@ -87,7 +87,7 @@ moves up as soon as it is unblocked.
 | <a id="block-28"></a>28 | [R1](#r) The Reckonings section — built 2026-10-15 | [RD11](#rd11) | — | Build block 28: R1, open the Reckonings section from RD11's inventory, with the year of age moved into it. |
 | <a id="block-29"></a>29 | [P2](#p2) The natal trigram and the obstacles — built 2026-10-15 | [RD13](#rd13), [RD14](#rd14) | [27](#block-27), [28](#block-28) | Build block 29: P2, the natal trigram and the spouses' and the dead's obstacles. |
 | <a id="block-30"></a>30 | [P3](#p3) The bride's departure — built 2026-10-26 | [RD15](#rd15), [RD3](#rd3) | [25](#block-25), [27](#block-27) | Build block 30: P3, the bride's departure for a couple, from RD15. |
-| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22; R2m the hundred pebbles, R2n the dead's time of death and R2o the moment's trigram and mewa built 2026-10-22; R2z the moment's places built 2026-10-27 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
+| <a id="block-31"></a>31 | [R2](#r)… The reckonings one by one — the birth's parts R2a–R2l (the year's nature, body, mewa, aspects, glory and misfortune, line of births, rise and decline, raising, the precious pebbles) and the marriage match's points R3a–R3m built 2026-10-19; the release build checked over them the same day; R3n–R3q (the hidden and the deeper hidden, the siblings' number, the couple's bad-year pebble, the kinds of wife) built 2026-10-22; R2m the hundred pebbles, R2n the dead's time of death and R2o the moment's trigram and mewa built 2026-10-22; R2z the moment built whole 2026-10-27 | [RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17), each for its reckoning | [28](#block-28); [27](#block-27) for those that need relatives | Build block 31: the next reckoning of R1's list. |
 | <a id="block-32"></a>32 | [H2](#h2) The illness reckoning — built: H2a, the elements' illnesses, 2026-10-22; H2b–H2g, the reckoning itself, 2026-10-26 (the moment of falling ill, the five pebbles, the nineteen, the year, the household, the board of the fifteen starting points), with stated choices where the texts are silent (SPEC §5.9.8); left out: the nine classes (229), the masters' reckonings off the board, the verdict on death, the pillow-guard (359), the rites for aspects in decline | [RD12](#rd12), [RD8](#rd8), [RD22](#rd22), [RD41](#rd41), [RD52](#rd52) | [26](#block-26), [28](#block-28) | Build block 32: H2, the illness reckoning on the Health screen, from RD12. |
 | <a id="block-33"></a>33 | [A1](#a1) Light theme and colour themes, the first four — built 2026-10-15 | — | [34](#block-34), [42](#block-42), so the screenshots are retaken once | Build block 33: A1, the palette as a theme chosen in Settings: System, Ink (the default), Paper and Night, with the review's checks, the light screen first. |
 | <a id="block-34"></a>34 | [U8](#u8) + [U12](#u12) + [U13](#u13) + [U15](#u15) + [U16](#u16) + [U18](#u18) — the day page — built 2026-10-11 | — | — | Build block 34: the day page's review items, the sky line as one line, dots that read, second lines that state the fact, the calendar toggle, the two briefs alike and the first-run line. |
@@ -4273,39 +4273,44 @@ groups it shows (`tools/emulator/store_shots.py`).
   the emulator in English and Russian with the clock set to day (water
   hour, nine red). No release build: no enum added. The house, field and
   grave, the three mewa joined and the mewa's places followed as R2z.
-- **R2z The moment's places — built 2026-10-27** (SPEC §5.9.5): the rest
-  of ch. 30 that the texts settle (vol. 2, pp. 162–168, read on the scan,
-  with Mipham's notes, pp. 535–536, whose three worked examples are
-  `MomentTest`'s vectors: the iron snake moment's aspects and own place,
-  the three mewa with the day's 4 green and the year's 8 white, 5 yellow's
-  7 red in the forefathers' place): the moment's mewa as a place, a shape
-  and food; the mewa in the forefathers' place; the moment's sign, the
-  hour's animal with the hour's power, fighting the person chosen as the
-  asker, like with like, for the house, the field and the grave, with
-  whether there is a field and the grave's luck declining; kin and enemy at
-  one's own place and the six people's directions; the three mewa joined,
-  nine squares with their pebbles, kin and gods or demons. `MomentPlaces`,
-  `AskerPlace`, `MomentSquare`; families `MomentMewaPlace`,
-  `MomentForefathers`, `MomentSquare`, `MomentGuard`, `MomentHouse`,
-  `MomentField`, `MomentFieldThere`, `MomentGrave`, `MomentGraveDecline`,
-  `MomentKin` (item R2), English and Russian, written by four writers in
-  parallel. Stated choices for the owner to overrule (questions 420, 421):
-  the year's mewa fights the squares around the day's of the sixty-day
-  count; earth stands in the centre of one's own place. The corpus's
-  English of p. 166 corrected: the house's third reading is the life force
-  generating the moment, as the scan reads. Checked: `MomentTest`
-  (the notes' three examples), `CatalogTest`, `:app:testDebugUnitTest`,
-  the emulator in English and Russian (Lhasa at 16:17, a water monkey hour,
-  against a fire dragon man: the house a son, the field an enemy, no field,
-  the grave wood on wood with its luck declining, kin present; the nine
-  squares with the year's 1 white around the day's 2 black; every new
-  sheet opened; by night the line instead of the places), the release
-  build in both languages (no raw keys). Not on the phone (not connected). Not built:
-  the kin's other places on the figure and the cutting of the parts of
-  life (the kin's years), the nine eyes (the door's mewa not said), the
-  forefathers' year and the grave's back, the casting's grain, the
-  thirteen gates and the sixty-year counts (questions 343, 344), the signs
-  and the small reckonings.
+- **R2z The moment, built whole — 2026-10-27** (SPEC §5.9.5): every part
+  of ch. 30 that can be reckoned from the moment and the person chosen as
+  the asker (vol. 2, pp. 162–172, read on the scan, with Mipham's notes,
+  pp. 535–536, whose worked examples are `MomentTest`'s vectors: the iron
+  snake moment's aspects and own place, the three mewa with the day's 4
+  green and the year's 8 white, 5 yellow's 7 red at the forefathers' and 2
+  black at the father's, the third gate's start from a wood rat and a wood
+  ox; and WB's wood moment's houses and sick bed). Built in two passes the
+  same day (6c1a8f7, then this): the moment's mewa as a place, a shape and
+  food; the kin's places on the figure; the moment's sign, the hour's
+  animal with the hour's power, fighting the asker like with like for the
+  house, the field and the grave, with whether there is a field, the
+  grave's luck and its back; kin and enemy at one's own place and the six
+  people's directions; the small examinations (wealth there, the demon,
+  beer there, given, drunk and its taste, the neighbouring houses, the
+  sick one's life, where the illness came from, bed, food eaten and how
+  often, the organs where it sits, hair, trade, disputes); the three mewa
+  joined with each square's kin, gods or demons and eye at the door; the
+  thirteen gates and the thirty-three counts after them. `MomentPlaces`,
+  `MomentSigns`, `MomentGates`; 30 families (`MomentMewaPlace` …
+  `MomentDispute`, item R2), English and Russian, written by eight writers
+  in parallel. Stated choices for the owner to overrule (questions 420,
+  421, 422, 423): the year's mewa fights the squares around the day's of
+  the sixty-day count; earth in the centre of one's own place; the gates'
+  «ལྔ་ནས» read as no count, inclusive counts and the birth year's sex as
+  D22; the small examinations' combinations. Corrected in the corpus: p.
+  166's third house reading is the life force generating the moment, as
+  the scan reads. Checked: `MomentTest`
+  (14, the notes' and WB's examples), `CatalogTest` and all core tests
+  (345), `:app:testDebugUnitTest` (72), the emulator in English and
+  Russian (Lhasa in the monkey and bird hours against a fire dragon man:
+  every section, every new family's sheet opened, by night the line
+  instead of the asker's parts), the release build in both languages (no
+  raw keys). Not on the phone (not connected). Left out by the app's rules only: what
+  needs the kin's birth years (the parts of life on the figure, the
+  forefathers' year), the casting's grain, what is observed (arrival,
+  gestures, dreams, omens, voices, implements, posture), and the marks on
+  the body, whose line the scan does not settle.
 - **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
   D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
   each point from its pair in the element related to the power, counted
