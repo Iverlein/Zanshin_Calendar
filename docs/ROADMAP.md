@@ -43,6 +43,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 22 | U19 Pinned works — built 2026-10-21 | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
+| 25 | R5 The Together everywhere WB sums up | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
 
 ## Blocks
 
@@ -116,6 +117,7 @@ moves up as soon as it is unblocked.
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 | <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 | <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
+| <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
 
 ## Readings
 
@@ -191,6 +193,7 @@ check them on the scans.
 | <a id="rd55"></a>RD55 | «བསྔོ་རུ་མ་བཏུབ» and «སྔོ་བགྲང»: the plank-tree's offering line — done 2026-10-25: «བསྔོ་རུ་མ་བཏུབ» spelled alike on every print and glossed by no text (q195, "cannot be assigned" an inference), «སྔོ་བགྲང» glossed by the notes' next sentence as a speckled pebble counted nowhere (q196); two claims | WB vol. 1, pp. 419, 423–425 and the notes, vol. 2, pp. 495–496 (Gser thang reprint I3CN5029, image = page − 5, and I5877/WBZ for the other blocks), the regent's replies on the plank-tree (YS I5875) | RD52 | [32](#block-32) | corpus/wb/ch25.md | Read RD55: what «བསྔོ་རུ་མ་བཏུབ» (q195) and «སྔོ་བགྲང» (q196) say, on every print and in the manuals that gloss the plank-tree; where no gloss is found, write the search down as a dead end. |
 | <a id="rd56"></a>RD56 | The pages of WB ch. 31 and ch. 34 no reading has opened — done 2026-10-25: the 22 pages no reading had opened in ch. 31 (pp. 175–176, 224–225, 236–237, 240: the fixed earth lords, the day animal's lord, the earth kings' times, Rāhu's course, the closing note) and ch. 34 (pp. 378–384, 387, 407–411, 415–416: the list of works, birth by the hour and mansion, the digging rite, the marriage wheels, examining the sick) written out in machine state (Yigdzin-1 and MITRA, set right by eye where they disagreed; not scan-checked syllable by syllable); no contradiction with earth-lords.md, year-month-earth-lords.md or white-beryl-ch34.md; 22 claims | WB vol. 2, ch. 31 pp. 175–176, 224–225, 236–237, 240 and ch. 34 pp. 378–384, 387, 407–411, 415–416 (1996 scan img. = page + 8; Gser thang reprint I3CN5029, image = page + 6); `kb.py coverage wb` lists them | — | [25](#block-25) | corpus/wb/ch31-gaps.md (new) | Read RD56: on the scan, each of these pages, passage by passage with its Tibetan and English; say what each adds to the earth lords of ch. 31 and the works of ch. 34, and which of the topic files (year-month-earth-lords.md, white-beryl-ch34.md) it corrects. |
 | <a id="rd57"></a>RD57 | Ch. 27's residual doubts on the Taikhang block and in single crops — done 2026-10-25: the Taikhang block (I5878) and the Zhol print read for ch. 27's doubts: the la's wandering carved as the other prints (snake, horse north, pig south), the turtle's wood verse «ལྷག་མ་བཅུ་པོ» ten with པ, p. 9 l. 6 «མག་རྒུད» on the Taikhang, p. 17 l. 9 «རྔམས» likely, p. 17 l. 26 a box-shaped བ or འ never ཞ (agy blocked); the Taikhang and Zhol differ in the machine's reading on three lines | WB vol. 2, ch. 27 pp. 9, 16, 17, 20 (the la's wandering, the golden turtle's verse, the doubtful letters) on the Taikhang reproduction (I5877, the block's own page numbers) and the Zhol print (WBZ I1KG1710), with agy for single crops; the 1996 scan img. = page + 8 | RD51, RD54 | [31](#block-31) | corpus/wb/ch27.md | Read RD57: on the Taikhang block and the Zhol scan, whether the la's wandering of the snake, horse, rat and pig is carved as the reprint has it (q363), whether the turtle's wood verse reads «བཅུ་པོ» or nine (q364), and the doubtful letters of p. 17 ll. 9 and 26 and p. 9 (q366); where a block is not served, write the search down as a dead end. |
+| <a id="rd58"></a>RD58 | The summing rules left for the moment, the dead and the illness | WB vol. 2, ch. 30, p. 172 (img. 180), the fighting enemies, with the notes, p. 537 (img. 545, «ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ»: "the upper three" of ch. 26's board, vol. 1, pp. 471–472, or "three up" as claims/moment-asker-year.md has it), and ch. 27's like reckoning it names; pp. 166 and 168, how a place's cutting and its rise and decline make its verdict (question 423); the notes, p. 503 (img. 511), the time of death's twenty roots, «བླ་བར» or «ཟླ་བར» in the fifth group; WB vol. 1, p. 425 and the notes, pp. 495–496, the illness's nine classes (question 229) | [RD23](#rd23), [RD40](#rd40) | [60](#block-60) | verdicts.md | Read RD58: on the scan, which years the moment's fighting enemies count, which of their aspects fight which of the asker's and how the count is laid; how p. 166's three make a place's verdict; which of the dead's twenty roots of p. 503 the dead's view already reckons; and the illness's nine classes from fifteen pebbles. |
 
 ### Left open in built work
 
@@ -4444,12 +4447,64 @@ groups it shows (`tools/emulator/store_shots.py`).
   its tomb a great danger, the combined nine-multiple mild; the gathered
   remedies; 2026 with none graded), the release build (no raw keys). Not
   built: the *dza zor*, the la's own six.
+- **R5 The Together everywhere WB sums up — planned 2026-10-27** (block
+  [60](#block-60); [sources/verdicts.md](sources/verdicts.md)). The owner
+  (2026-10-27): wherever WB gives a summary, the reckoning shows it at
+  the top, as the birth, the match and the year of age already do (R4).
+  WB sums no whole reckoning (RD23); what it does give, reckoning by
+  reckoning, beyond the three built:
+  - **The moment** (SPEC §5.9.5; built whole in R2z, with no summary).
+    The chapter closes on one count, the moment's own: "the fighting
+    enemies are reckoned taking the time of reckoning as the year of the
+    one reckoned: the life force, body, power and luck fight; count white
+    and black and lay the verdict" (vol. 2, p. 172, on the scan); the
+    notes (p. 537) lay it as ch. 26's and 27's like reckonings, the
+    moment in the place of the asker's year. And each of the eight
+    places has three, the cutting, the rise and decline and the verdict
+    (p. 166), "the verdict laid by the two together" (p. 168; question
+    423). **To build**: the fighting enemies, a section of their own
+    with their pebbles, as RD58 reads them; a *Together* atop the moment
+    with their verdict, white, black or a pair by the count (p. 50's
+    rule, RD18), read by the aspects' domains (vol. 2, p. 22) and, if
+    RD58 finds ch. 26's board in it, by its groups and parts of life
+    (vol. 1, p. 471); each place's verdict where both its cutting and its
+    rise and decline are reckoned; the Remedy rows below gathered (the
+    time of day's, the hour's element's, the trigram's). Ch. 30 turns no
+    verdict into a rite (RD23): none is added to the verdicts.
+  - **The dead** (SPEC §5.9.4). The whole (pp. 56–57) stands among each
+    dead's rows: it moves into a *Together* atop each dead, with the
+    time of death's one general verdict over its twenty roots (the
+    notes, p. 503), counted white and black, where RD58 finds the twenty
+    reckoned, and the rites and provisions below gathered into one
+    Remedy row. Each of the others joins it when its roots are built: the
+    thirteenth point's verdict over its eleven roots, which sizes the
+    rites (p. 50; question 212), needs the element's pebble and the
+    trigram's test; the rebirth over twelve (the notes, p. 501) and the
+    funeral share (p. 500) the element's pebble.
+  - **The illness** (SPEC §5.9.8, §10.10). WB names the illness by the
+    element that is most (p. 435), the spirit by the body's black
+    pebbles (p. 425), each plank-tree's verdict (pp. 422–423) and the
+    class by the white against the black of the fifteen (p. 425).
+    **To build**: a *Together* under "Fell ill at": the illness named,
+    the harmful spirit, the four plank-trees' verdicts and the blocked
+    doors in one place, the remedies below gathered; the nine classes
+    when RD58 settles question 229.
+  - **None**: the thirty starting points and the thirteen circles, which
+    WB never sums over all thirty or all thirteen (RD23): each point and
+    circle keeps its own board and pebbles. The meadow's ornament and
+    Sprugtön's reckoning bring their five verdicts by aspect (p. 22) when
+    they are built. Left with R4: the birth's twenty-one children, the
+    year of age's household round (question 258).
+  - **Done when** as R2… above, with each *Together*'s rule cited in the
+    SPEC section of its reckoning, no number WB does not count, the
+    sections below unchanged.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
   relatives, on [27](#block-27) (P1). [29](#block-29) (P2) and [32](#block-32) (H2) wait
   on R1. R4 is [58](#block-58), reading [RD18](#rd18)–[RD28](#rd28) and
-  waiting on [31](#block-31).
+  waiting on [31](#block-31). R5 is [60](#block-60), reading
+  [RD58](#rd58) and waiting on 58.
 - **Done when** (each item): its readings in the catalog with WB as their
   source; vectors from Dorje's charts where they exist; `CatalogTest`;
   SPEC; both languages on the emulator; the release build checked.
