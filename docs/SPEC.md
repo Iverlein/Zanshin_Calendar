@@ -1317,14 +1317,30 @@ core `tibetan/Moment.kt`):
   Whose years are counted WB does not say (question 344); the asker's, the
   gates' small reckonings as the regent's reply 160 calls them.
 
-**Not calculated**, by the app's rules rather than for want of a reading:
-the cutting of the first and last parts of life on the figure and the
-forefathers' year against the moment, which need the kin's birth years
-the reckoning does not ask; the casting's grain (a casting, not built, as
-Mo is not); the asker's arrival, gestures, words and dreams, the omens of
-the road, the voices at the reckoning, the implements and the asker's
-posture (observed, not reckoned; pp. 144–151, 170); and the marks on the
-body (p. 170), whose line the scan does not settle.
+- **The parts of life, the forefathers' year, the grain and the marks**
+  (pp. 163, 168, 170; the notes, pp. 535–536; `MomentKin`): for the person
+  chosen and each relative entered with a birth year whose group the
+  figure reads (the father and paternal grandfather; the father's
+  brothers; the mother and maternal grandmother; the mother's brothers;
+  the children), the life force against the mewa in each of the group's
+  three places for the first, middle and last part of life, the moment's
+  mewa in the centre: a mother or friend good, the same element rise and
+  fall, an enemy or son bad (the notes' example: the fire father and
+  grandfather, 6 white, 7 red, 2 black; family `MomentLifePart`); the
+  forefathers' year, the paternal grandfather's or else the father's,
+  cutting the moment no fault in the grave, cut by it a fault
+  (`MomentForefathersYear`); the casting's grain by the moment's life
+  force's stage, full, middling on the breath-taking or the womb, or
+  little (`MomentGrain`), brought from the direction of the moment's
+  element or its enemy in a vessel of its colour (`MomentGrainVessel`);
+  the marks on the body for iron, a mole in the armpit, and water, a
+  harelip (`MomentMarks`), the line's other elements unsettled on the scan
+  (question 346).
+
+**Not calculated**: what is only observed, not reckoned: the asker's
+arrival, gestures, words and dreams, the omens of the road, the voices
+at the reckoning, the implements' signs (pp. 144–151, read so far by
+machine only) and the asker's posture (p. 170).
 
 #### 5.9.6 The thirteen circles
 

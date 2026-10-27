@@ -4309,11 +4309,17 @@ groups it shows (`tools/emulator/store_shots.py`).
   Russian (Lhasa in the monkey and bird hours against a fire dragon man:
   every section, every new family's sheet opened, by night the line
   instead of the asker's parts), the release build in both languages (no
-  raw keys). Not on the phone (not connected). Left out by the app's rules only: what
-  needs the kin's birth years (the parts of life on the figure, the
-  forefathers' year), the casting's grain, what is observed (arrival,
-  gestures, dreams, omens, voices, implements, posture), and the marks on
-  the body, whose line the scan does not settle.
+  raw keys). Not on the phone (not connected). A third pass the same day added the
+  parts of life on the figure for the person and the relatives entered
+  (the notes' fire father and grandfather as `MomentTest`'s vector), the
+  forefathers' year, the casting's grain and the marks for iron and water
+  (`MomentKin`; families `MomentLifePart`, `MomentForefathersYear`,
+  `MomentGrain`, `MomentGrainVessel`, `MomentMarks`), checked in core and
+  app tests and on the emulator with a father, grandfather, mother,
+  maternal uncle and daughter entered; the corpus's "freckle" on p. 170
+  corrected to harelip («ཤོ་རེ», the dictionaries and WB ch. 23). Left out:
+  what is only observed (pp. 144–151, machine-read, and the posture,
+  p. 170).
 - **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
   D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
   each point from its pair in the element related to the power, counted
