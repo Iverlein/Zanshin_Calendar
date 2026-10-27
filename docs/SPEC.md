@@ -1169,8 +1169,11 @@ command", "from fire mouse to water dog", its sheet each year fought) and
 "reached wood horse", or a line when none does); under "The three mewa
 joined" a line naming the year's and the day's mewa and a row for each of
 the nine squares ("East · 2 black", "son · speckled pebble"), its sheet
-the square's kin, its gods or demons and its eye at the door; and a
-closing note on what is reckoned.
+the square's kin, its gods or demons and its eye at the door; "The
+fighting enemies · 11 white, 13 black" under the counts after the gates,
+its pebbles drawn by count; under "Signs to watch" a row for each of the
+fifteen groups ("Dreams before the reckoning", "13 signs"), its sheet each
+sign with its tone and reading; and a closing note on what is reckoned.
 
 **The later reckonings** (ROADMAP R2w, 2026-10-25; D24): by day, the
 asker's wealth, illness and harming spirit by the moment's element, which
@@ -1337,10 +1340,27 @@ core `tibetan/Moment.kt`):
   harelip (`MomentMarks`), the line's other elements unsettled on the scan
   (question 346).
 
-**Not calculated**: what is only observed, not reckoned: the asker's
-arrival, gestures, words and dreams, the omens of the road, the voices
-at the reckoning, the implements' signs (pp. 144–151, read so far by
-machine only) and the asker's posture (p. 170).
+- **The fighting enemies** (p. 172; the notes, p. 537; RD58,
+  [verdicts.md](sources/verdicts.md)): the years the six up and down
+  counts after the gates land on (the ogre's seven up, the demon's seven
+  down, the sky door's eight up, the earth door's eight down, three up and
+  three down), each fought by the moment's four aspects like with like,
+  the moment in the place of the asker's year, a white or black pebble each
+  by chapter 27's colours; the verdict (ཁ་དམར, kha dmar) the larger colour,
+  a tie speckled (`MomentGates.fight`, family `MomentFight`). *Stated
+  choices* (questions 424, 425): the moment's aspects fight, not the
+  asker's; chapter 27's colours.
+- **Signs to watch** (pp. 144–151 and 170, read on the scan by RD59–RD61;
+  `ObservedSigns`, family `MomentSign`): what is met rather than reckoned,
+  as readings to be read against what was met, in fifteen groups: the
+  dreams before the reckoning, how the asker comes, his words and
+  gestures, the omens of the road, the place, time and seat, the one
+  swearing, the reckoning cloth, the grain, the meat, the arrow, the
+  mirror, beer, butter and flour, the smoke, the voices during the
+  reckoning, those who come in, and the asker's posture; 242 signs, each
+  with its verdict as its tone. A sign whose meaning rests on a word the
+  scan leaves unsettled or not understood is not shown (the passages'
+  notes list them).
 
 #### 5.9.6 The thirteen circles
 

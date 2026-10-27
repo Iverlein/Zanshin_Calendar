@@ -4320,9 +4320,16 @@ groups it shows (`tools/emulator/store_shots.py`).
   `MomentGrain`, `MomentGrainVessel`, `MomentMarks`), checked in core and
   app tests and on the emulator with a father, grandfather, mother,
   maternal uncle and daughter entered; the corpus's "freckle" on p. 170
-  corrected to harelip («ཤོ་རེ», the dictionaries and WB ch. 23). Left out:
-  what is only observed (pp. 144–151, machine-read, and the posture,
-  p. 170).
+  corrected to harelip («ཤོ་རེ», the dictionaries and WB ch. 23). Then, the
+  owner's word the same day ("read and build them"): RD59–RD61 read pp.
+  144–151 and p. 170's posture on the scan, and the observed signs were
+  built as "Signs to watch", 242 signs in fifteen groups written by six
+  writers in parallel (`ObservedSigns`, family `MomentSign`), with the
+  fighting enemies of p. 172 from RD58 (`MomentGates.fight`, `MomentFight`;
+  stated choices on questions 424, 425); checked in core and app tests and
+  on the emulator in both languages. Nothing of ch. 30 is left unbuilt but
+  the words and signs the scan leaves unsettled, listed in the passages'
+  notes.
 - **R2v The thirty starting points — built 2026-10-25** (SPEC §5.9.7,
   D21–D23): ch. 26 (vol. 1, pp. 453–473, RD37 on the scan; RD44, RD47),
   each point from its pair in the element related to the power, counted
