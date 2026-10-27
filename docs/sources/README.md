@@ -561,6 +561,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
 | [questions/q0422.md](questions/q0422.md) | question q422 | How are the thirteen gates counted? | open; cites wb.2:p170-171 |
 | [questions/q0423.md](questions/q0423.md) | question q423 | How are the moment's small examinations of the asker combined? | open; cites wb.2:p168-169, wb.2:p169-170, wb.2:p170 |
+| [questions/q0424.md](questions/q0424.md) | question q424 | Whose aspects fight the landed year of the moment's counts, and what do the notes' «ཡར་གསུམ་སོགས» count? | open; cites wb.2:p171-172, wb.2:p537-538 |
+| [questions/q0425.md](questions/q0425.md) | question q425 | How far does the count of the sixty-year pairs and of the ogre's and demon's seven run? | open; cites wb.2:p171-172, wb.2:p537-538 |
+| [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
+| [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
+| [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | open; cites wb.1:p425, wb.2:p496 |
+| [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
 
 <!-- end pool index -->
 
