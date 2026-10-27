@@ -6135,14 +6135,15 @@ What the pages show of how the three make a place's verdict:
   field, declining, none (p. 167, img. 175); the grave, «ཀླུང་རྟའི་དར་གུད་དུས་སྟེངས་ཁྱེར། །གུད་ན་ལམ་གྲོག་ས་དགྲ་ཡོད», the luck's rise and decline
   carried on the moment: declining, a road, ravine or ground enemy (p.
   168); the own place, «དར་གུད་བཟང་དྲུག་ཤར་ན་ཡོད། །ངན་པ་དྲུག་ལ་མེད་པར་ཤོད», the good six of rise and decline, if in the east, there
-  is [the kin or enemy], the bad six, none (p. 168); wealth (p. 168, l. 4 of
-  img. 176): «བརྩི་བྱའི་ལུས་དང་དབང་ཐང་གཉིས། །དུས་ཚོད་དང་སྦྱར་དར་གུད་བརྩི། །དར་ཡོད་གུད་ན་མེད་ལུང་སྟོན། །བྱ་རས་ལུས་དབང་གཅོད་ཀྱང་མེད། །དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས»:
+  is [the kin or enemy], the bad six, none (p. 168); wealth (p. 168, printed
+  lines 15–16 of img. 176, not l. 4, which holds the grave's «ཀླུང་རྟའི་དར་གུད»;
+  see section E of the second reading below): «བརྩི་བྱའི་ལུས་དང་དབང་ཐང་གཉིས། །དུས་ཚོད་དང་སྦྱར་དར་གུད་བརྩི། །དར་ཡོད་གུད་ན་མེད་ལུང་སྟོན། །བྱ་རས་ལུས་དབང་གཅོད་ཀྱང་མེད། །དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས»:
   body and power put on the moment for rise and decline, rising there is,
   declining the prophecy is none; and if the moment cuts body and power,
   none also; where these two agree, lay the verdict.
 - **The verdict** is therefore laid on what the cutting and the rise and
-  decline agree on: the line of wealth says it outright («དེ་གཉིས་བསྟུན་ལ»,
-  where the two accord); for the other places the two are read side by
+  decline agree on: the line of wealth names it («དེ་གཉིས་བསྟུན་ལ»,
+  where "those two" accord; which two, section E of the second reading below); for the other places the two are read side by
   side in the place's own lines and the verdict is named only at p. 166's
   head. The six good and six bad of rise and decline are the twelve stages
   of the chapters on the dead and the year ([claims/dead-living-twenty-one.md](claims/dead-living-twenty-one.md):
@@ -6162,8 +6163,8 @@ What the pages show of how the three make a place's verdict:
 
 ### 3. The dead's twenty roots (the notes, vol. 2, p. 503, img. 511, l. 1–8; the end of p. 502, img. 510)
 
-The end of p. 502 (img. 510, last six lines, Yigdzin-1, the scan not
-re-read there): the dead's time of death by the first examination's
+The end of p. 502 (img. 510, last six lines; first read from Yigdzin-1,
+then on the scan, section B of the second reading below, no word changed): the dead's time of death by the first examination's
 pebbles, «ལོ་འགྲོས་འཆི་དུས་བཅུ་གཉིས་ནི། རང་ཀེག བདུན་ཟུར། མཐུན་གསུམ། བཞི་གཤེད། ཁྱིམ་མཚེས། རྒྱ་མདའ་ཐུག་པ། སྲི་ངན། གསང་ཀེག ལོ་སྐར་ཆེ་བ། ཆུང་བ། ལོག་མིན་བདུད་གཅོད། བླ་འཁྱམས་བཅས་སོ། །དེ་ཡང་ལོ་ཟླ་ཞག་དུས་ལ་བརྟག་ཅེས་འདུག་གོ། །དར་གུད་ནི་སྲོག་སོགས་བཞི་གནམ་ལོར་གཏུགས་པའི་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག། དགུ་མིག་རྐྱང་པ་དང་། གཤེད་འདོམས་སྦྲགས་མ་ཀེག་རྩིས་བཞིན་དང་། དུར་མིག་ཚུད་པ་ལ་གཤིན་པོའི་སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་རང་མ་བུ་གྲོགས་དགྲ་ལྔར་ཕྱེ་ནས་སོ་སོའི་དགུ་མིག་ཡིན་མིན་ལྔ་སྟེ་སྲོག་གི་རང་མ་སོགས་ལྔ་ཀའི་བཏང་གཅོད་གཅིག་ཏུ་བསྡུ་སོགས་འགྲེ། སྤར་ཁའི་དགུ་མིག་ཕོ་ལི་མོ་ཁམ་ལ་ཐུག་མིན། སྨེ་བའི་དབུས་བབ་དང་བྱིས་པ་གཅིག་དཀར་ལ་བབ་སོགས་ཡོད་མེད། རུས་ཁམས་རང་མ་བུ་གྲོགས་དགྲ་ལྔའི་དུར་མིག་ཡིན་མིན་ལས་བཏང་།»
 (the sentence runs over to p. 503): the twelve "times of death by the
 course of the years": one's own obstacle, the seventh, the triad, the four
@@ -6199,10 +6200,11 @@ the trigram and the mewa, two; the clan element's one; the three of the
 three, year, month and day: twenty in all (3+4+2+5+2+1+3 = 20); counting
 the white and black of the twenty, the general verdict, one pebble: the
 deciding pebble's twenty-one are laid as twenty-one small pebbles of the
-time of death, "as it seems". Lines 6–8 (from «ཉི་ཤུ་པོ») were read from
-Yigdzin-1 and MITRA, which agree but for «ཁྲ་མར» (Yigdzin-1) and «ཁྭ་མར»
-(MITRA) at the sentence's end, «བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག»: not understood,
-not read on the scan.
+time of death, "as it seems". Lines 5–6 (from «ཉི་ཤུ་པོ») were first read
+from Yigdzin-1 and MITRA, which agree but for «ཁྲ་མར» (Yigdzin-1) and
+«ཁྭ་མར» (MITRA) at the sentence's end, «བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག»; they
+and the rest of the page were read on the scan afterwards (the second
+reading below: «ཁྲ་མར» is the print's, with the ra-tail, on both prints).
 
 Reading, letter by letter: «བླ་བར» in the fifth group is «བླ་བར» in Yigdzin-1
 and «ཟླ་བར» in MITRA; on the scan (img. 511, l. 4, 8× and 12×) the stacked
@@ -6256,10 +6258,11 @@ four, «བཞི་ཆས»; five, «ལྔ་ཆས»; six, «དྲུག་�
 «དཀར་ནག་ཕྱེད་མ». The notes' two examples, six against nine and five against
 ten, are the differences three and five; they do not give the third's
 fraction. What this reading adds, arithmetic on those words and not a line of
-the notes: the fifteen are laid in three rows of five (the notes, p. 495, img. 503, Yigdzin-1 only,
+the notes: the fifteen are laid in three rows of five (the notes, p. 495, img. 503, l. 17, read on the scan in the second
+reading below,
 «རྡེལ་སྒོ་སྤངས་པའི་བཅོ་ལྔ་པོ་ཚོ་གསུམ་བྱས་པ་གཅིག་ནས་ལྔ་བར་དང་པོ་སོགས»), and the
 notes say the speckled is counted neither "outer" nor "inner" in the reading
-of the houses (p. 495, img. 503, Yigdzin-1 only, «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན»); with
+of the houses (p. 495, img. 503, l. 25–26, read on the scan in the second reading below, «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན»); with
 white and black alone the difference of fifteen is always odd (three, five),
 so WB's even classes, "four more", "six more" and "even", can arise only if
 some of the fifteen are speckled and belong to neither colour; the classes
@@ -6286,4 +6289,307 @@ new reading of them.
 - 2026-10-27, the notes' pp. 503 and 537 (img. 511, 545, 546) and vol. 2 p. 172 (img. 180) on the scan: no sentence says which aspect of the landed year each of the four fights, nor how many years the sixty-year pairs' count runs; ch. 27 «ཉེར་བདུན» is named as the like, but its circles count the asker's years lived upward, with five aspects (circles-count).
 - 2026-10-27, vol. 2 pp. 166–168 (img. 174–176, the lines of the three) and the notes' p. 536: no line says that a place's verdict is a count of white and black, or how the cutting and rise and decline are ranked.
 - 2026-10-27, vol. 1 p. 425 and the notes p. 496 (img. 435, 504): no class for a difference of one, two or seven and more; no statement whether the speckled counts to the fifteen.
-- 2026-10-27, p. 503 img. 511: the print does not tell «བླ» from «ཟླ» in the fifth group; no other print of the notes (Mipham's own, I2029, or the Chengdu Collected Works) was opened for the letter.
+- 2026-10-27, p. 503 img. 511: the print does not tell «བླ» from «ཟླ» in the fifth group; no other print of the notes (Mipham's own, I2029, or the Chengdu Collected Works) was opened for the letter. The Gser thang reprint was opened for it later the same day and does not tell them apart either (second reading, section A).
+
+### The second reading of RD58 (2026-10-27): the gaps closed on the scan
+
+The first reading of this section left five places machine-read or read from
+another reading. They were read again by eye on the 1996 print (vol. 2
+I1KG12907, image = page + 8) in crops of 4× to 6× and the doubtful letters at
+8× to 16×, beside the machine readings (Yigdzin-1 and MITRA of `wb/`; MITRA
+newly run on img. 175 and 176, the only pages of the five it had not read) and,
+for the notes' p. 503, beside the Gser thang reprint (I3CN5029 img. 509). The
+28 flags of Yigdzin-1 against MITRA on img. 511 (`disagree.py`) were each set
+beside the scan, and `agy_choose.py` put to agy (Gemini 3.8 Flash, medium
+effort, one call) as a third opinion; agy read the print as the eye did
+on 25 of the 28 and answered "other" or "unclear" on three (below). A crop
+of the three syllables of the doubtful letter (img. 511, l. 4, l. 1 and l. 18)
+sent to `agy_read.py` was refused twice by the model and gave nothing.
+
+#### A. The notes' p. 503, img. 511, l. 6–28: Mipham's note on the other systems (གཞན་ལུགས, gzhan lugs) of the dead's examination
+
+**The line that ends the twenty (l. 5–6).** On the scan, and on the reprint:
+«… ཉི་ཤུ་པོ་དཀར་ནག་བགྲངས་པའི་སྤྱིའི་ཁ་དམར་རྡེལ་གཅིག་སྟེ། བཏང་གཅོད་རྡེའུ་ཉེར་གཅིག་ལ་འཆི་དུས་རྡེལ་ཕྲན་ཉེར་གཅིག་ཏུ་འཇོག་པ་འདྲ་སྟེ་བུ་དཔེའི་ཁྲ་མར་དེ་ལྟར་འདུག»
+(the twenty counted white and black, the general verdict, one pebble; the
+deciding pebbles' twenty-one are laid as twenty-one small pebbles of the time of
+death, as it seems; so it stands in the table (ཁྲ་མ, khra ma) of the *bu dpe*
+(བུ་དཔེ, bu dpe)). **«ཁྲ་མར» is settled: the second letter carries the
+ra-tail of «ཁྲ» (kha with a subjoined ra) on the 1996 print at 12× and on the
+reprint, not the «ཁྭ» (kha with a subjoined wa) of MITRA**, and agy chose the
+same; the word is «ཁྲ་མ» "table", the word of the almanac's tables
+(«དུས་ཚོད་རྒྱུ་བའི་ཁྲ་མ», [almanac-page.md](almanac-page.md)) and not «ཁྲ་བོ»
+"speckled". What «བུ་དཔེ» is the print does not say: «བུ» alone stands at
+l. 15 and in the end of p. 502 («བུ་ཡིག»), a text the notes cite and do not
+identify (the same as question 397's «བུ་ཡིག», unproven).
+
+**«བླ་བར» or «ཟླ་བར» (l. 4), by eye: not settled by the letters.** The
+stacked head letter of the fifth group is the same square, flat-headed shape on
+the 1996 print at 8× and 12× as the «ཟླ» of l. 1 («ཟླ་ཞག») and as the «བླ» of
+l. 18 («བླ་ཁྱེར») and of p. 502's «དབང་ཀླུང་བླ་ལྔ» (img. 510, l. 26); on the
+reprint, at 3×, the three look the same again; agy answered "unclear". Two
+prints do not tell them apart, so the doubt is stated and not decided by the
+letters. The reading kept is «བླ་བར» "up to the la", for the sense given in the
+first reading (the five «སྲོག་ལུས་དབང་ཀླུང་བླ» of p. 502, l. 25–26, with the
+la as the fifth); «ཟླ་བར» "to the month" is the other reading, and the count
+of twenty holds with either.
+
+**Line 1 as printed.** «གཅོད་བཞག ཟླ་ཞག་དུས་གསུམ། རང(༡) བདུན(༢) མཐུན(༣) བཞི(༤) ལོ་སྐར་ཆེ(༥) ཆུང(༦) བཅས་ཐུག་མིན་དང་བཅས་བརྟག»
+with the six numbers in brackets in the print (Yigdzin-1 read the ༣ as «ན» and
+dropped the ༡'s bracket, MITRA read «འདྲ» for the numbers and «ཁོ» for «ལོ»;
+agy answered "other (༢)" and "other (༣)", the numbers). The month, day and
+time, three, are examined by the six numbered (own, seventh, triad, four,
+the year's mansion great and small) and by meeting or not meeting.
+
+**The flags.** The twenty-eight, each by eye (Y = Yigdzin-1, M = MITRA, agy's
+answer last):
+
+| Flag, line | Y / M | The print | agy |
+| --- | --- | --- | --- |
+| 1, 2 (l. 1) | «རང ༡་བདུན ༢་མཐུན་ན་» / «རང་༡་བདུན་འདྲ་མཐུན་འདྲ་» | the numbers (༡) to (༦) in brackets after each of the six words | "other" (the numbers) |
+| 3, 4, 5 (l. 1) | «ལོ» «ཆུང» «ཐུག» / «ཁོ» «ཞིང་རླུང» «དྲུག» | «ལོ་སྐར་ཆེ(༥) ཆུང(༦) བཅས་ཐུག་མིན» as Y | Y |
+| 6 (l. 2) | «ལྔ ལྟ་བུ» / «ལྟ» | «འཆི་དུས་ལྔ་ལྟ་བུ»: both syllables | Y |
+| 7, 9 (l. 3, 4) | «སྨེ» / «སྨྲེ» | «སྨེ» (mewa, སྨེ་བ, sme ba) | Y |
+| 8 (l. 4) | «བླ» / «ཟླ» | not told apart (above) | unclear |
+| 10 (l. 4) | «རུས་ཁམས» / «དུས་ཁམས» | «རུས་ཁམས», the clan element: ra under the same u sign as «རུས» of p. 502, l. 28 | Y |
+| 11 (l. 6) | «ཁྲ» / «ཁྭ» | «ཁྲ» | Y |
+| 12, 13 (l. 7, 8) | «ཤི» «ཕ» / «ཤེ» «པ» | «ཤི་ལོའི་བབ་སྤར», «ཕ་ཀླུང» | Y |
+| 14, 15 (l. 11) | «རུས་མིག་ཏུ་བྱེད་པ་མི་འཐད་ཅེས་དང་། གཞན་ཡང་གཤིན་སྲོག» / «དུས་མིག་…» and a line repeated from l. 10 | «འཆི་བའི་རུས་མིག་ཏུ་བྱེད་པ་མི་འཐད་ཅེས་དང་། གཞན་ཡང་གཤིན་སྲོག་»: Y; the reprint has «རུས» (ra) at this place too, MITRA's repeated half-line is its own | Y |
+| 16 (l. 12) | «ཚོད» / «ཚད» | «དུས་ཚོད» (the vowel is ོ) | Y |
+| 17, 18 (l. 13) | «བསྒྱུར» «བྱིས» / «བསྣུར» «ཕྱིས» | «བསྒྱུར», «བྱིས» | Y |
+| 19 (l. 15) | «པུར» / «བུར» | «བུར»; Y's «པུར» is wrong | B (བུར) |
+| 20, 21 (l. 16) | «ཞེ་འདོད» «ལེ་ལན» / «འདོད» (no «ཞེ») «ལ་ལན» | «ཕྱོགས་སྔའི་ཞེ་འདོད… ལེ་ལན» as Y | Y |
+| 22 (l. 16) | «ལུས་རྡེལ་ནག» / «ལྡེལ་རྡེལ» | «ལུས་རྡེལ་ནག» (the body's pebble black) | Y |
+| 23, 24 (l. 17) | «ལྕགས་དགྲ་མེ» «ཁྱད་པར» / «མི» «བྱེད་པར» | «ལྕགས་དགྲ་མེ་འཕྲད་མང་», «ཁྱད་པར་གནམ་ལོར་བརྟག» | Y |
+| 25, 26 (l. 18) | «སྟག» «སྤྲེལ» / «ལྟག» «སྦྲེལ» | «ལོ་སྟག་ལོ་ཤི་ན་སྤྲེལ་ལོ་ལ་བདུད་བཅད» | Y |
+| 27 (l. 18) | «བླ་ཁྱེར» / «ཟླ་བྱེར» | «བླ་ཁྱེར» (the head is the same shape as in flag 8, the sense, the la carried off, decides) | Y |
+| 28 (l. 21) | «ཀེག་རྩིས» / «ཀེག་ཅེས» | «ཀེག་རྩིས་སྤར་ཁའི་སྐབས་ལྟར» | Y |
+
+**The note, whole, from «འདི་སྐབས» (l. 6, end) to l. 28.**
+
+> འདི་སྐབས་གཞན་ལུགས་ལ། གཤིན་པོ་རང་སྐྱེས་དུས་ཀྱི་ཕ་ཡི་བབ་སྤར་དང་། ཤི་ལོའི་བབ་སྤར་གཅིག་པའམ། ཁེན་ལ་བབ་ཀྱང་ཕ་ཀླུང་གི་འཆི་དུས་ཡིན་ཞེས་དང་། བཙས་དུས་མ་ཡི་ཕྱི་ལོག་མིན་ནང་བབ་སྤར་གསང་བ་བབ་སྨེ་བཅས་དང་། གཤིན་པོ་ཤི་དུས་ཕྱི་གསང་བ་གཅིག་ན་དང་། ཡང་ཁོན་ལ་བབ་དུས་མ་ཀླུང་གི་འཆི་དུས་ཡིན་ཅེས་པ་དང་། རྟ་སྦྲུལ་ལི་སོགས་རང་ཐོག་དང་། རང་ལོ་དང་ལོག་མིན་གཅིག་དུས་འཆི་དུས་ཡིན་ཞེས་སོགས་རང་བཟོ་སྦྱར་བ་ལ་སྙིང་པོ་མེད་དེ། ལོག་མིན་དེ་གཉན་པ་ཡིན་གྱི་འཆི་བའི་རུས་མིག་ཏུ་བྱེད་པ་མི་འཐད་ཅེས་དང་། གཞན་ཡང་གཤིན་སྲོག་དང་དེའི་ཕ་མའི་སྲོག་སྤྲད་པའི་ཚེ་ཚད་ཀྱི་དུས་ལས་གཞན་དུ་ཤི་ན་དུས་མིན་དང་། དེ་ཡང་དུས་མིན་ཡིན་ན་དུས་ཚོད་ཡོས་དུས་ཤི་ན་ཚེ་ལྷག་ལོ་གསུམ་སོགས་ཡོད་པ་དང་། ཟབ་གནད་ལ་དར་མ་ཤི་ན་ཚེ་ཚད་མི་བསྒྱུར། རྒན་བྱིས་ཡིན་ན་བསྒྱུར་ཏེ། ལོ་གྲངས་ཟླ་བ། ཟླ་བ་ཞག་ཞག་དུས་དང་། དུས་ལོ་རུ་བསྒྱུར་ཞེས་འབྲས་བུ་སྟོན་པ་ནི། དེ་གོ་ལོག་མུ་ཅོར་ཡིན་ཏེ། གོང་གི་ཚེ་ཚད་དང་ཚེ་ལྷག་མི་འགྲིག་པ་སོགས་བརྩི་དུས་དངོས་སུ་སྣང་བས་གནོད་ཅེས་བུར་བཤད་འདུག ཕྱོགས་སྔའི་ཞེ་འདོད་གསལ་བར་བཀྲལ་མི་འདུག
+
+In this connection, in the other systems (གཞན་ལུགས): "when the father's
+fallen trigram (བབ་སྤར, bab spar) at the dead's own birth and the fallen
+trigram of the year of death are one, or fall on *khen* (ཁེན, khen), it is the
+time of death of the father's luck (ཀླུང, klung)"; "the mother's outer
+progressed sign (ལོག་མིན, log min; printed so here, ལོག་མེན in WB's verse),
+the inner fallen trigram, the secret obstacle (གསང་བ, gsang ba) and the fallen
+mewa at the birth, and the dead's outer secret obstacle at death coinciding"
+and "again, on falling on *khon* (ཁོན, khon), it is the time of death of the
+mother's luck"; and "the horse, snake, *li* and the like by themselves, and the
+own year and the progressed sign at one time is a time of death": such
+self-made joinings have no core, since the progressed sign is the gnyan's
+(གཉན, gnyan) and to make it the dying's bone-eye (རུས་མིག, rus mig) is not
+fitting. Further: if the dead dies at any time other than the time of the
+life-span (ཚེ་ཚད, tshe tshad) given out by the life force of the dead and of
+his father and mother, it is untimely (དུས་མིན, dus min); and if untimely, one
+who dies in the hour «ཡོས» has remaining life, three years and the like [the
+sense of «དུས་ཚོད་ཡོས་དུས» is not clear]; "at the vital point, one in his prime
+who dies has the life-span not converted, an elder or a child has it converted:
+the count of years to months, months to days, days to hours, hours to years",
+the result thus shown is a muddle (ལོག་མུ་ཅོར, log mu cor; the second word
+not understood): the life-span above and the remaining life not agreeing and
+the like, harm is seen in the time of the reckoning itself, it is said in the
+*bu* (བུ, bu). The earlier side's (ཕྱོགས་སྔ, phyogs snga) intent is not
+explained clearly.
+
+> ལེ་ལན་སྐབས་སྲོག་དགྲ་དར་དང་ལུས་རྡེལ་ནག་ན་སོགས་ནི་རྩ་བ་བཅུའི་བཏང་གཅོད་ལས་བརྟག བྱེ་བྲག་རྡེལ་ཁོང་དེར་ལྕགས་དགྲ་མེ་འཕྲད་མང་སོགས་ལས་ལྕགས་ལ་མེས་བཅད་སོགས་བརྟག ཁྱད་པར་གནམ་ལོར་བརྟག་ཟེར། ལོ་སྟག་ལོ་ཤི་ན་སྤྲེལ་ལོ་ལ་བདུད་བཅད་ཅེས་བླ་ཁྱེར། དེ་བཞིན་ཟླ་ཞག་དུས་གང་ལ་ཤི་བ་དེ། སྔར་ཟླ་ཞག་དུས་དེའི་བདུན་ཟུར་ལ་བདུད་བཅད་ཅེས་སོ། །རྩ་བར་ལོ་གང་ཤི་དེའི་བདུན་ཟུར་ཟླ་བར་བདུད་བཅད་ཅེས་པའོ། །ལོ་སོགས་བཞིར་བརྟགས་ནས་ལེ་ལན་སྔར་ཡོང་དང་མཐུན་ཤས་ཆེ་བ་དེ་འཛིན་ཞེས་བཤད། སྤར་ཁའི་ལེ་ལན་ནི་ཀེག་རྩིས་སྤར་ཁའི་སྐབས་ལྟར་བསྲུང་བྱ་ཉམས་པའམ། དེར་བཤད་ནད་གདོན་ཕོག་ན་དུས་ཀྱིས་སྐྱོན་དང་། དེ་མེད་ན་འཕྲལ་རྐྱེན་ཡིན་ལ། འདི་སྐབས་ཀྱི་སྤྱི་དོན་གསུམ་པ་དང་བསྟུན་ནས་བརྟག་ཅེས་སོ། །ལི་ལ་ནུབ་བྱང་མཚམས་ནས་བདུད་བཅད་དེ་གནོད་པ་ཡིན་ཞེས་སོགས་འགྲེ། ཤི་ལོའི་སྤར་སྨེ་ལས་འདྲེ་གདོན་སུས་ཁྱེར་སོགས་གསལ། གཤིན་པོའི་ལོ་གང་ཡིན་ལས་གཤེད་གབ་ལུགས་སོགས་དང་། ཞག་དུས་གཟའ་སྐར་གང་ལ་ཤི་འབྲས་གཞུང་ན་གསལ། འདུར་ཐང་བཅོ་བརྒྱད་ཀྱི་ཡིད་ཚང་འདུར་ཐང་སོགས་གཞུང་གིས་གསལ། འདུར་ལུགས་བཅུ་གསུམ་ནི་རོ་བདག་གི་གཤིན་པོ་འདུར་ལུགས་ལས་བཏགས། འདུར་ཐང་སོགས་གང་མིན་པ་དེར་རྡེལ་ནག་ཡིན་པ་ལ་རྡེལ་དཀར་བཞག་འདུག་ཀྱང་སྤྲོས་པ་ཙམ་སྟེ། དོན་ལ་འདུར་ཐང་སོགས་གང་ཐོབ་ལྟར་བྱ་དགོས་ཀྱི་གཞན་མི་འོས་སོ། །ཟན་གཏད་མི་རུང་བཅུ་གསུམ་ནི་ཞེས་པ། བཅུ་གསུམ་ཟན་གཏད་མི་རུང་བ་ནི་ཞེས་པའི་དོན་ཏོ། །སྤྱིར་
+
+From l. 16 («ལེ་ལན་སྐབས») to the foot the text is that of
+[corpus/wb/notes-4.md](corpus/wb/notes-4.md) (*wb.2:p503*, *wb.2:p503b*,
+*wb.2:p503-504*, read there on the reprint): the 1996 scan agrees with it word
+for word, line by line, and the flags of l. 16–28 above all fall on the side
+of Yigdzin-1, which that corpus already used. In English (the corpus has the
+whole): in the second examination's reasons the life force's enemy rising,
+the body's pebble black and the like are judged from the deciding pebbles of
+the ten roots; iron meeting its enemy fire many times and the like gives
+"iron cut by fire"; the particular is judged on the year of the sky: one who
+dies in a tiger year, the demon cut in the monkey year, the la carried off
+(བླ་ཁྱེར, bla khyer); likewise for the month, day and hour, at its seventh;
+in the root text the demon cuts in the month that is the seventh of the year
+of death (img. 511, l. 19–20, «ཟླ་བར»: the print here is the month's, «ཟླ»,
+with the ra); the year and the three others examined, the reason most in
+accord with the earlier one is taken; the trigram's reason as in the
+obstacle reckoning's trigram part; *li* (ལི, li): the demon cut from the
+north-west; who carried the dead off is clear from the trigram and mewa of the
+year of death; the executioner's hiding by the dead's year; the day's
+results in the root text; the eighteen funeral shares (འདུར་ཐང་བཅོ་བརྒྱད, 'dur
+thang bcu brgyad) and the thirteen ways of funeral (འདུར་ལུགས་བཅུ་གསུམ, 'dur
+lugs bcu gsum) are in the root text and the ways named from the corpse's
+owner's way; where none of the shares is had a black pebble is right and a
+white laid there is only elaboration; and «ཟན་གཏད་མི་རུང་བཅུ་གསུམ་ནི» means
+"the thirteen to whom food may not be offered" (the notes' only gloss of
+question 276's phrase).
+
+What the note adds to which roots the dead's examination counts, and how the
+twenty and the twelve are laid:
+
+- **No root is added; three are refused.** The other systems' roots (the
+  father's and mother's «བབ་སྤར» matched to the year of death, a time of
+  death of the father's or the mother's luck, the mother's outer progressed
+  sign, inner trigram, secret obstacle and fallen mewa together, a horse,
+  snake or *li* alone, the own year with the progressed sign) are named only to
+  be called self-made joinings "with no core". So the twenty of l. 5 (3+4+2+5+
+  2+1+3) and the twelve times of death of p. 502 are the notes' own and are not
+  widened: the dead's own birth, his father's and his mother's fallen trigrams
+  are not roots, and the progressed sign (ལོག་མིན) stands among the twelve as
+  a test of the time («ལོག་མིན་བདུད་གཅོད», p. 502, l. 23) but is expressly
+  not made the dying's «རུས་མིག», the bone-eye. «རུས་མིག» is the word printed
+  here, with the ra on the reprint, not the grave-eye (དུར་མིག, dur mig) of
+  p. 502, l. 25–28, which counts the five aspects of the dead and the clan
+  element in the twenty; MITRA's «དུས་མིག» is its own.
+- **A second test of the time, from the same note, is rejected as a rule of
+  the roots.** Death outside the life-span given by the life force of the dead
+  and of his father and mother is untimely, and the conversion of the life-span
+  by years, months, days and hours (the "result thus shown") is called a muddle:
+  the pebbles of the first examination (the course of the years, p. 502) are
+  not scaled by an age at death. The note says nothing of how the twenty are
+  weighed beyond what l. 1–6 say.
+- **How the twelve and the twenty lie together, from l. 1–6 only:** the six
+  numbered tests (own, seventh, triad, four, year's mansion great and small)
+  are laid against the month, the day and the time with meeting or not
+  meeting; if one falls as the trigram's five times of death fall, it is the
+  time of death, a black pebble, "and so for all"; of the twelve of p. 502
+  the notes number these six only, and the other six (the house-kin, meeting
+  the Chinese arrow, the bad sri, the secret obstacle, the progressed sign's
+  demon cut, the la's wandering) are not numbered on p. 503. The twenty are
+  counted white and black for one general verdict, and the deciding pebbles'
+  twenty-one are laid as twenty-one small pebbles of the time of death
+  «འདྲ» "as it seems": the note does not say what the verdict of the twenty
+  decides, and the other systems' roots do not enter the count.
+
+**Question 429 narrowed** (section F) (its «བླ་བར» half stays open: two prints do not tell
+«བླ» from «ཟླ»): l. 1 names the three the six tests are laid on as the month,
+day and time («ཟླ་ཞག་དུས»), l. 5 names the last group of the twenty as «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ»,
+with the year where l. 1 has the time, and p. 502 names the four the first
+examination is laid on, «ལོ་ཟླ་ཞག་དུས»; the year of the trigram-mewa-year
+group is the year of death. Whether the group's year, month and day are the
+death's three with the time left out, or the three tested by the six, the
+text does not say.
+
+#### B. The end of p. 502 (img. 510, l. 22–28), on the scan
+
+Read at 5× against Yigdzin-1 and MITRA (their disagreements on these lines are
+«བདུན/བདུད», «མཚེས/མཆིས», «ཟླ/བླ», «མིན» dropped): no word of the first
+reading changes. «རང་ཀེག བདུན་ཟུར། མཐུན་གསུམ། བཞི་གཤེད། ཁྱིམ་མཚེས། རྒྱ་མདའ་ཐུག་པ། སྲི་ངན། གསང་ཀེག ལོ་སྐར་ཆེ་བ། ཆུང་བ། ལོག་མིན་བདུད་གཅོད། བླ་འཁྱམས་བཅས་སོ། །དེ་ཡང་ལོ་ཟླ་ཞག་དུས་ལ་བརྟག་ཅེས་འདུག་གོ །»:
+«བདུན་ཟུར» (not MITRA's «བདུད་ཟུར»), «ཁྱིམ་མཚེས» with ཚ and the e sign (not
+«མཆིས» with the i sign) at 12×, «ལོག་མིན» with the ni sign, the year,
+month, day and hour at the end. «དར་གུད་ནི་སྲོག་སོགས་བཞི་གནམ་ལོར་གཏུགས་པའི་བཟང་དྲུག་དཀར་པོ་ངན་དྲུག་ནག །དགུ་མིག་རྐྱང་པ་དང་། གཤེད་འདོམས་སྦྲགས་མ་ཀེག་རྩིས་བཞིན་དང་། དུར་མིག་ཚུད་པ་ལ་གཤིན་པོའི་སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་རང་མ་བུ་གྲོགས་དགྲ་ལྔར་ཕྱེ་ནས་སོ་སོའི་དགུ་མིག་ཡིན་མིན་ལྔ་སྟེ་སྲོག་གི་རང་མ་སོགས་ལྔ་ཀའི་བཏང་གཅོད་གཅིག་ཏུ་བསྡུ་སོགས་འགྲེ། སྤར་ཁའི་དགུ་མིག་ཕོ་ལི་མོ་ཁམ་ལ་ཐུག་མིན། སྨེ་བའི་དབུས་བབ་དང་བྱིས་པ་གཅིག་དཀར་ལ་བབ་སོགས་ཡོད་མེད། རུས་ཁམས་རང་མ་བུ་གྲོགས་དགྲ་ལྔའི་དུར་མིག་ཡིན་མིན་ལས་བཏང་»
+is the print's text (the sentence ends at the foot with a row of leader dots
+and continues on p. 503 with «གཅོད་བཞག»): the dead's «བཏང་གཅོད» is the
+deciding pebble. The fifth of the five aspects is «བླ» on this page too, in the
+same flat shape as in the doubtful place of p. 503.
+
+#### C. The notes' p. 495 (img. 503), on the scan
+
+The two places, read at 5× to 8× in the lines and beside the 4×4 grids the
+print sets between them: l. 17, «རྡེལ་སྒོ་སྤངས་པའི་བཅོ་ལྔ་པོ་ཚོ་གསུམ་བྱས་པ་གཅིག་ནས་ལྔ་བར་དང་པོ་སོགས་སོ། །»
+(the fifteen, the pebble door left out, made three sets: from one to five the
+first, and so on); and l. 19, «ཁྲ་བོ་ལ་སྔོ་བགྲང་མེད། རགས་པར་འགྱེལ་ལ་བརྩི། དེ་ལ་རྡེལ་སྒོ་མ་གཏོགས་བཅོ་ལྔ་འོང་སྲིད་པས་བཅོ་ལྔ་ཞེས་སོ།»
+(the speckled (ཁྲ་བོ, khra bo) has no *sngo* count (the word of
+[claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md)); roughly,
+count it as toppling; since fifteen, the pebble door excepted, can come, it
+says fifteen). The line on the speckled, l. 25–26: «ཁྲ་བོ་ནི་ཕྱི་ནང་གང་དུའང་བགྲང་བ་མེད་ཀྱང་བྱུང་ན་ཅུང་ཞན།»
+(the speckled is not counted as outer or inner anywhere, but if it comes it is
+somewhat weak). The first reading's paraphrase, "counted neither outer nor
+inner", is right but drops the last clause: a speckled pebble that falls is
+**somewhat weak** («ཅུང་ཞན»), not nothing. Between them, on the same page, the
+patterns' rules lay the speckled aside in each: «ཁྲ་བོ་བཏང་སྙོམས། གནས་གང་དུའང་དཀར་པོ་བཞི་ལིང་བྱུང་ན་དཔལ་ཁྱིམ།» (the speckled
+set aside; in any place four whites in a square, a glory house) and
+«ནག་པོ་བཞི་ལིང་བྱུར་ཁྱིམ། ཁྲ་བོ་མི་བརྩི། རགས་པར་བྱུར་ཁྱིམ།» (four blacks in a
+square, a ruin house; the speckled not counted; roughly, a ruin house), then
+«འདི་ལྟ་བུ་ལ་དཔལ་ཁྱིམ་གཉིས་ཡོད་གསུམ་མི་རྩི།» (of such a one two glory
+houses may stand, a third is not counted) and «དཀར་པོ་བཞི་དཀྱིལ་ནག་གཅིག་ནག་པོ་ཤི་བ་སྟེ་ལ་ལར་གསོན་མིག་ཅེས་སུ་བཤད། དེ་ལྡོག་ནི་དཀར་པོ་ཤི་བ་སྟེ་ཤི་མིག་ཀྱང་ཟེར།»
+(four whites round one black in the middle: the black dead, which some call
+the living-eye; the reverse, a white dead, also called the death-eye; l.
+23–25). So on this page the speckled is never one of the two colours and
+never settles a pattern. The «བཅོ་ལྔ» of l. 19 is explained as what can come
+when the pebble door is left out; the page does not say that a speckled pebble
+is among the fifteen or how the nine classes count one, and the sense of
+«རགས་པར་འགྱེལ་ལ་བརྩི» is not settled.
+
+#### D. Vol. 2 p. 496 (img. 504, l. 1–9), on the 1996 scan itself
+
+Read at 5× in four crops of the print, line by line. The sentence the first
+reading quoted from the reprint stands word for word on the 1996 print, and its
+head, not quoted there, is on the print too: «ཡིན་གྱི། དོན་དུ་ཐང་ཤིང་གསེར་ཟམ་གཡུ་ཤུག་དཔག་བསམ་ཆག་པ་དང་། བྱུར་ཁྱིམ་དཀར་པོ་ཤི་མིག་དྲུག་ཚང་ན་ཞེས་སོ། །ལུས་རྡེལ་ཤིན་ཏུ་དཀར་ནའང་མི་བཟང་། སུམ་ཆས་ལྷག་དཀར་སོགས་ནི། རྡེལ་སྒོ་མ་བརྩིས་པའི་བཅོ་ལྔ་ལས་དྲུག་དཀར་དགུ་ནག་ན་སུམ་ཆས་ལྷག་ནག་དེ་ལྡོག་གསུམ་ཆའི་ལྷག་དཀར་དང་ལྔ་དཀར་གཞན་ནག་ན་ལྔ་ཆས་ལྷག་ནག་སོགས་འགྲེ། དཀར་ནག་སྙོམས་ཁར་དཀར་བཞི་ལྷག་ན་བཞི་ཆས་ལྷག་སོགས་སྦྱོར་དགོས་ཏེ་གཞན་དུ་ལྔ་ནག་བཅུ་དཀར་ན་སུམ་ཆས་ལྷག་དཀར་སོགས་སྦྱར་དགོས་ནའང་དེ་ལྟར་བརྩིས་མི་འདུག་པས་སོ་ཟེར་ཀྱང་དོན་ལ་དཀར་པོ་གསུམ་མང་ན་སུམ་ཆ་བཞི་བཞི་ཆ་སོགས་དང་འདྲ་བར་འདུག»
+Differences from the reprint's sentence as quoted in section 4 of the first reading above: only
+the shads (the 1996 print has none after «ལྷག་དཀར་དང»). New: the sentence is
+the gloss of the words «སུམ་ཆས་ལྷག་དཀར་སོགས» (the third-more white and the
+rest, the nine classes' own names, vol. 1, p. 425), and follows two lines on
+the posts (ཐང་ཤིང, thang shing: «གསེར་ཟམ་གཡུ་ཤུག་དཔག་བསམ», the golden bridge, the
+turquoise plank, the wish-granting tree) broken and on a white ruin house
+with all six death-eyes, and the line «ལུས་རྡེལ་ཤིན་ཏུ་དཀར་ནའང་མི་བཟང་»
+(the body's pebble very white is not good). The page gives the classes' names
+no other explanation. The dotted grids that follow (l. 7–9, with
+«རྡེའུ་དཀར་པོ་ཕྱོགས་གཅིག་མང་བ་གཡང་མོ་འཁྱིལ་འདྲ། དར་དཀར་ཕྱར་འདྲ་ཡིན། ཆུ་ཀླུང་འབབ་འདྲ་ནི།…»,
+whites many on one side like a whirl, a flying white banner, a falling
+river…) picture runs of white pebbles and are not the classes.
+
+#### E. Vol. 2 pp. 167–168 (img. 175–176), the place's three and wealth, on the scan
+
+Read at 4× to 5×, beside Yigdzin-1 and a MITRA run (newly made); the lines
+the first reading took from RD40's reading are on the print as quoted: the
+field «ཞིང་ས་ཡོད་མེད་བརྟག་པ་ནི། །བརྩི་བྱའི་དབང་ཐང་གང་ཡིན་དེ། །དུས་ཚོད་སྟེང་དུ་དར་གུད་སྦྱར། །དར་ཡོད་གུད་ན་མེད་པར་དཔྱད།»
+(img. 175, l. 12–13); the grave, with the line before it that was not quoted,
+«ཕ་མེས་ལོ་ཡིས་དུས་བཅད་ན། །དུར་ལ་སྐྱོན་མེད་ཚུར་བཅད་སྐྱོན། །ཀླུང་རྟའི་དར་གུད་དུས་སྟེངས་ཁྱེར། །གུད་ན་ལམ་གྲོག་ས་དགྲ་ཡོད། །དུས་ཚོད་དབང་ཁམས་ཤིང་ཡིན་ན། །དུར་དེའི་རྒྱབ་ནི་ཤར་དུ་བསྟན། །དེས་འགྲེ་གཡས་གཡོན་ཤེས་པར་འགྱུར།»
+(img. 176, l. 3–5; the forefathers' year cutting the moment, no fault in the
+grave, cutting inward, a fault; the luck's rise and decline carried onto the
+moment, declining a road, ravine or ground enemy; if the moment's power
+element is wood, the grave's back faces east, and from that right and left are
+known); the own place, whole, «རང་ས་དུས་ཚོད་དབང་འབྱུང་དངོས། །ཕ་ཚན་སྲོག་ལ་ཞང་པོ་ལུས། །བྱན་མོ་གྲོགས་ལ་རྗེ་དཔོན་ཀླུང་། །གང་ཤར་གང་ལ་དགྲ་དེ་དགྲ། །འཁྲུགས་པ་བསྡེབས་ལ་ཤིང་མེ་ས། །ལྕགས་ཆུའི་འབྲས་བུ་གོང་ལྟར་བཤད། །གཉེན་དང་དགྲ་དེ་ཡོད་མེད་ནི། །དུས་ཚོད་སྟེང་དུ་རང་བྱུང་ཕོབ། །དར་གུད་བཟང་དྲུག་ཤར་ན་ཡོད། །ངན་པ་དྲུག་ལ་མེད་པར་ཤོད།»
+(img. 176, l. 5–8: the own place is the moment and the power's element itself;
+the kin by the life force, the maternal uncle by the body, the servant by the
+friend, the lord by the luck; whichever is struck by whichever is the enemy;
+troubles gathered by wood, fire and earth, the results of iron and water as
+above; whether kin and enemy there are or not, put the own element on the
+moment; the good six of rise and decline, if east, there are; the bad six,
+none), and wealth «བརྩི་བྱའི་ལུས་དང་དབང་ཐང་གཉིས། །དུས་ཚོད་དང་སྦྱར་དར་གུད་བརྩི། །དར་ཡོད་གུད་ན་མེད་ལུང་སྟོན། །བྱ་རས་ལུས་དབང་གཅོད་ཀྱང་མེད། །དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས།»
+(printed lines 15–16; img. 176's file l. 16–17). Two corrections of the first
+reading follow. (1) **The wealth lines are printed lines 15–16 of img. 176**, not
+l. 4 (l. 3–4 hold the grave). (2) **«དེ་གཉིས» "those two" is not fixed by the
+line:** its nearest two are «ལུས་དང་དབང་ཐང» "the body and the power" of the
+line before; the first reading said "the line of wealth says outright that the
+verdict is laid where the cutting and the rise and decline accord", but the
+two that accord can as well be the body and the power, each tested by rise and
+decline and by the moment's cutting («བྱ་རས་ལུས་དབང་གཅོད་ཀྱང་མེད»). Nothing
+else on the print differs from Yigdzin-1 in these lines.
+
+#### F. The questions re-judged
+
+- **Question 424, 425, 426** (the fighting enemies, vol. 2 pp. 171–172, 537,
+  538): not touched, none of their lines was among the gaps; their state and
+  text stand.
+- **Question 427** (a place's verdict laid where the cutting and the rise and
+  decline agree): narrowed, as section E says: the print's «དེ་གཉིས་བསྟུན་ལ»
+  of wealth names "those two", which are at least as likely to be the body and
+  the power as the two methods; the grave's cutting is read apart from its rise
+  and decline (the forefathers' year cuts the moment: no fault; inward: a fault).
+  Still open: no line counts white and black for a place.
+- **Question 428** (what one, two and seven or more of the fifteen read; the
+  speckled among the fifteen): narrowed a little: p. 495 says the speckled is
+  not counted outer or inner but, if it falls, "somewhat weak", and sets it
+  aside in each pattern's rule; p. 496's sentence is the same on the 1996
+  print and is the gloss of the classes' own names. No class for one, two or
+  seven and more has appeared; whether the classes count the speckled stays
+  an inference.
+- **Question 429** (whose are the year and the three of the group; the
+  «བླ་བར» letter): narrowed in section A: the print is printed «བླ/ཟླ» alike
+  on two prints, and the three days or hours in l. 1 and l. 5 are named
+  differently. Open.
+- **Nothing newly read settles a question.**
+
+### Searched and not found (second reading)
+
+- 2026-10-27, vol. 2 p. 503 (img. 511) l. 6–28 on the scan and the reprint: no
+  explanation of «བུ་དཔེ» or «བུ» as a work, no author, no mention of the
+  page of its «ཁྲ་མ»; no line that adds a root to the twenty or the twelve; no
+  statement what «ཟབ་གནད» (the vital point) and «དར་མ» are in the life-span
+  passage beyond the words given. The words «ཡོས» (l. 13) and «ཅོར» (l. 14) of
+  that passage were read on the print and are not understood.
+- 2026-10-27, pp. 167–168 (img. 175–176) and p. 495 (img. 503): no line says
+  how the place's cutting and its rise and decline are ranked or that a place
+  is counted white and black; no line says what a speckled pebble does to a
+  class of the illness.
+- 2026-10-27, img. 511 l. 4: a crop of the three syllables sent to agy twice
+  was refused by the model; nothing was drawn from it.
