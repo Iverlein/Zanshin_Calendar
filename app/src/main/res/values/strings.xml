@@ -979,7 +979,7 @@
     <string name="moment_period_title">The time of day · %1$s</string>
     <string name="moment_element_title">The hour\'s element · %1$s</string>
     <string name="moment_period_night">By night the time of day has no reading of its own.</string>
-    <string name="moment_note">Of the reckoning of the moment, everything that can be reckoned from the clock and the person chosen as the asker: the time of day and its element, the trigram and the mewa, counted from the date\'s own at dawn, 05:00, one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the day and again through the night; the mewa as spirit, place and kin\'s places; by day the moment\'s sign, the hour\'s animal with its element, against the asker\'s year for house, field and grave, own place, wealth, beer, the houses, the sick, food, hair and trade; the three mewa joined, the day\'s mewa of the sixty-day count in the centre, the year\'s against each square; the thirteen gates and the counts after them; the parts of life of the person and of the relatives entered with a birth year, the forefathers\' year, the grain and the marks. What is only observed (arrival, dreams, omens, posture) is not reckoned.</string>
+    <string name="moment_note">Of the reckoning of the moment, everything that can be reckoned from the clock and the person chosen as the asker: the time of day and its element, the trigram and the mewa, counted from the date\'s own at dawn, 05:00, one trigram every hour and a half and one mewa every eighty minutes, eight and nine through the day and again through the night; the mewa as spirit, place and kin\'s places; by day the moment\'s sign, the hour\'s animal with its element, against the asker\'s year for house, field and grave, own place, wealth, beer, the houses, the sick, food, hair and trade; the three mewa joined, the day\'s mewa of the sixty-day count in the centre, the year\'s against each square; the thirteen gates and the counts after them; the parts of life of the person and of the relatives entered with a birth year, the forefathers\' year, the grain and the marks; the fighting enemies. What is met rather than reckoned, the dreams, the asker\'s coming and posture, the road, the oath and its implements, the voices and callers, stands under Signs to watch, to be read against what was met.</string>
     <string name="moment_wealth_title">Wealth, illness and spirit by %1$s</string>
     <string name="moment_spirit_title">The spirit claiming its share · %1$d %2$s</string>
     <string name="moment_mewa_place_title">The mewa\'s place · %1$d %2$s</string>
@@ -1016,6 +1016,7 @@
     <string name="moment_sixty_none">None of the counts after the gates falls on the asker at this moment.</string>
     <string name="moment_sixty_title">From %1$s</string>
     <string name="moment_sixty_reached">reached %1$s</string>
+    <string name="moment_fight_title">The fighting enemies · %1$d white, %2$d black</string>
     <string name="moment_small_section">Wealth, beer and the houses</string>
     <string name="moment_wealth_present">The wealth · there</string>
     <string name="moment_wealth_absent">The wealth · not there</string>
@@ -1056,6 +1057,9 @@
     <string name="moment_marks_title">Marks on the body</string>
     <string name="moment_grain_title">The casting\'s grain · %1$s</string>
     <string name="moment_grain_from_title">Whence the grain · %1$s</string>
+    <string name="moment_signs_section">Signs to watch</string>
+    <string name="moment_signs_note">What is met rather than reckoned: the dreams before asking, how the asker comes and sits, what is met on the road, the place, the oath and the implements, the voices and those who come in. Open a group and read the sign that was met.</string>
+    <string name="moment_signs_count">%1$d signs</string>
     <string name="health_tab_illness">Illness</string>
     <string name="illness_title">The illness reckoning</string>
     <string name="reckonings_illness_subtitle">By the moment of falling ill</string>

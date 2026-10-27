@@ -26,6 +26,7 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.BeerGiven
 import zanshin.core.tibetan.EatenCount
 import zanshin.core.tibetan.Element
+import zanshin.core.tibetan.ObservedSigns
 import zanshin.core.tibetan.GrainMeasure
 import zanshin.core.tibetan.KinGroup
 import zanshin.core.tibetan.LifeVerdict
@@ -140,6 +141,7 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
         person?.let { LifeParts(it, mewa, onOpen) }
         AskerPlaces(day, minutes, person, onPeople, onOpen)
         ThreeMewa(day, onOpen)
+        ObservedSignsSection(onOpen)
         Text(stringResource(R.string.moment_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
 }
@@ -400,6 +402,13 @@ private fun Gates(born: Sign, birthYear: Int, year: Int, moment: Sign, onOpen: (
     falling.forEach { r ->
         MomentRow(labels.string(R.string.moment_sixty_title, name(r.start)), Texts.momentSixty(r.count), onOpen, english = labels.string(R.string.moment_sixty_reached, name(r.reached)), tone = Tone.BAD)
     }
+    val (pebbles, verdict) = MomentGates.fight(born, age, male, moment)
+    MomentRow(
+        labels.string(R.string.moment_fight_title, pebbles.count { it == PebbleColour.WHITE }, pebbles.count { it == PebbleColour.BLACK }),
+        Texts.momentFight(verdict), onOpen,
+        english = pebbles.chunked(4).joinToString(" ") { c -> c.joinToString("") { if (it == PebbleColour.WHITE) "○" else "×" } },
+        tone = when (verdict) { PebbleColour.WHITE -> Tone.GOOD; PebbleColour.BLACK -> Tone.BAD; PebbleColour.SPECKLED -> Tone.MIXED },
+    )
 }
 
 /** The tone of a place's meeting: the mother and the friend cut outward good, the enemy and the son bad, an element meeting itself mixed. */
@@ -458,3 +467,30 @@ private fun pebble(c: PebbleColour): String = stringResource(
         PebbleColour.SPECKLED -> R.string.year_colour_speckled
     },
 )
+
+/**
+ * The signs WB lists for the moment that are met, not reckoned (pp. 144–151, 170; ROADMAP R2z): the dreams, the
+ * asker's arrival, gestures and posture, the road's omens, the place, time and oath, the implements and the smoke, the
+ * voices and callers; a row for each group, its sheet each sign with its reading.
+ */
+@Composable
+private fun ObservedSignsSection(onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    Section(stringResource(R.string.moment_signs_section))
+    Text(stringResource(R.string.moment_signs_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    ObservedSigns.GROUPS.forEach { (group, signs) ->
+        AnnotationRow(
+            Annotation(
+                title = Catalog.text("MomentSign.$group"),
+                english = labels.string(R.string.moment_signs_count, signs.size),
+                tone = Tone.NEUTRAL,
+                reading = null,
+                titleIsKanji = false,
+                parts = signs.map { (key, tone) ->
+                    Annotation(title = Catalog.text("MomentSign.$group.$key"), english = "", tone = tone, reading = Texts.momentSign(group, key), titleIsKanji = false)
+                },
+            ),
+            onOpen,
+        )
+    }
+}
