@@ -78,7 +78,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
             Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
-            Reckoning.MOMENT -> MomentView(person, zone, back, open)
+            Reckoning.MOMENT -> MomentView(person, zone, onPeople, back, open)
             Reckoning.ILLNESS -> IllnessView(person, zone, onPeople, back, open)
         }
     }
@@ -255,9 +255,9 @@ private fun IllnessView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onB
 
 /** The reckoning of the moment (SPEC §5.9.5, ROADMAP R2o), now at [zone]. */
 @Composable
-private fun MomentView(person: Person?, zone: ZoneId, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+private fun MomentView(person: Person?, zone: ZoneId, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
     Header(stringResource(R.string.moment_title), person?.let { personLabel(it) }, onBack)
-    Body { MomentReckoningView(remember { Reckonings.moment(java.time.ZonedDateTime.now(zone)) }, onOpen) }
+    Body { MomentReckoningView(remember { Reckonings.moment(java.time.ZonedDateTime.now(zone)) }, person, onPeople, onOpen) }
 }
 
 /** The reckoning for the dead (SPEC §5.9.4, ROADMAP R2n) of [person]'s relatives who have died, or what it needs. */
