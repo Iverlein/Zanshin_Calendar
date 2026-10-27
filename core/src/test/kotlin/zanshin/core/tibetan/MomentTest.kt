@@ -196,4 +196,26 @@ class MomentTest {
         assertEquals(BeerDrunk.HALF, MomentSigns.beerDrunk(Sign(Element.FIRE, Animal.DRAGON), moment))
         assertEquals(BeerDrunk.FINISHED, MomentSigns.beerDrunk(Sign(Element.FIRE, Animal.DRAGON), Sign(Element.IRON, Animal.MONKEY)))
     }
+
+    /**
+     * The notes' cutting (p. 535): 5 yellow in the centre, the father and grandfather of horse and snake years (fire):
+     * early life 6 white, a friend, good; middle 7 red, rise and fall; late 2 black, an enemy, bad. The mother of a bird
+     * year (iron) meets 4 green in her early life.
+     */
+    @Test
+    fun `the notes' cutting`() {
+        val fathers = MomentKin.lifeParts(KinGroup.FATHERS, Element.FIRE, 5)
+        assertEquals(listOf(6, 7, 2), fathers.map { it.mewa })
+        assertEquals(listOf(LifeVerdict.GOOD, LifeVerdict.RISE_FALL, LifeVerdict.BAD), fathers.map { it.verdict })
+        assertEquals(4, MomentKin.lifeParts(KinGroup.MOTHERS, Element.IRON, 5).first().mewa)
+    }
+
+    /** A wood moment's grain comes from the east or the west (p. 170); the forefathers' year cuts or is cut (p. 168). */
+    @Test
+    fun `the grain and the forefathers' year`() {
+        assertEquals(listOf(Direction.EAST, Direction.WEST), MomentKin.grainFrom(Sign(Element.WOOD, Animal.TIGER)))
+        assertEquals(false, MomentKin.forefathersYear(Sign(Element.FIRE, Animal.HORSE), Sign(Element.IRON, Animal.SNAKE)))
+        assertEquals(true, MomentKin.forefathersYear(Sign(Element.WOOD, Animal.HORSE), Sign(Element.IRON, Animal.SNAKE)))
+        assertEquals(null, MomentKin.forefathersYear(Sign(Element.EARTH, Animal.HORSE), Sign(Element.IRON, Animal.SNAKE)))
+    }
 }

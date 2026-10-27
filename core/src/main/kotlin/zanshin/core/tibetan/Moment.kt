@@ -512,3 +512,73 @@ object MomentSigns {
     /** Whether disputes are won (p. 170): the asker's luck rising on the moment. */
     fun dispute(asker: YearForces, moment: Sign): Boolean = up(asker.luck, moment)
 }
+
+/** The first, middle and last part of a life, as the cutting on the figure reads them (p. 163). */
+enum class LifePart { EARLY, MIDDLE, LATE }
+
+/** How a part of life goes (p. 163; the notes, p. 536): a mother or friend nourishes, good; an element meeting itself rises and falls; cut or faded, bad. */
+enum class LifeVerdict { GOOD, RISE_FALL, BAD }
+
+/**
+ * The kin whose parts of life the cutting reads, with the three places on the figure for their first, middle and last
+ * part (p. 163, read on the scan; the figure as [KinPlace] lays it): the father and uncles the left shoulder, crown and
+ * right shoulder; the father's brothers the right shoulder, right side and right foot; the mother's kin the right foot,
+ * the front and the left foot; the maternal uncles the left foot, left side and left shoulder; the children the crown,
+ * centre and front; oneself the right side, centre and left side.
+ */
+enum class KinGroup(val places: List<Direction>) {
+    FATHERS(listOf(Direction.NORTH_WEST, Direction.WEST, Direction.SOUTH_WEST)),
+    FATHERS_BROTHERS(listOf(Direction.SOUTH_WEST, Direction.SOUTH, Direction.SOUTH_EAST)),
+    MOTHERS(listOf(Direction.SOUTH_EAST, Direction.EAST, Direction.NORTH_EAST)),
+    MATERNAL_UNCLES(listOf(Direction.NORTH_EAST, Direction.NORTH, Direction.NORTH_WEST)),
+    CHILDREN(listOf(Direction.WEST, Direction.CENTRE, Direction.EAST)),
+    ONESELF(listOf(Direction.SOUTH, Direction.CENTRE, Direction.NORTH)),
+}
+
+/** One part of a kin's life: the mewa standing in its place and how the kin's life force meets it. */
+data class LifePartReading(val part: LifePart, val mewa: Int, val kinship: Kinship, val verdict: LifeVerdict)
+
+/** What the grain brought for the casting shows (p. 170), by the moment's life force's stage. */
+enum class GrainMeasure { FULL, MIDDLING, LITTLE }
+
+object MomentKin {
+    /** How a life force meets a mewa (the notes, p. 536: «མ་གྲོགས་བཟང་དགྲ་དང་མདངས་ཤོར་ཏེ་བུ་ངན། ནང་འཕྲད་འཕར་འབུབ་ཆེ»). */
+    fun verdict(k: Kinship): LifeVerdict = when (k) {
+        Kinship.MOTHER, Kinship.FRIEND -> LifeVerdict.GOOD
+        Kinship.IDENTITY -> LifeVerdict.RISE_FALL
+        Kinship.ENEMY, Kinship.SON -> LifeVerdict.BAD
+    }
+
+    /**
+     * The three parts of life of a kin of [group] whose life force is [lifeForce], the moment's mewa [mewa] in the centre
+     * of the figure. The notes' example (p. 535): 5 yellow in the centre, the father and grandfather of horse and snake
+     * years, fire: early life 6 white, a friend, good; middle 7 red, fire itself, rise and fall; late 2 black, an
+     * enemy, bad.
+     */
+    fun lifeParts(group: KinGroup, lifeForce: Element, mewa: Int): List<LifePartReading> = LifePart.entries.map { part ->
+        val m = DaySmeBa.at(group.places[part.ordinal], mewa)
+        val k = Forces.kinship(lifeForce, smeBaElement(m))
+        LifePartReading(part, m, k, verdict(k))
+    }
+
+    /** The forefathers' year against the moment (p. 168): cutting the moment, no fault in the grave; cut by it inward, a fault; else null. */
+    fun forefathersYear(year: Sign, moment: Sign): Boolean? = when {
+        year.element.overcomes == moment.element -> false
+        moment.element.overcomes == year.element -> true
+        else -> null
+    }
+
+    /** The grain of the casting (p. 170): the moment's life force rising full, on the breath-taking or the womb middling, declining little. */
+    fun grain(moment: Sign): GrainMeasure {
+        val stage = MomentPlaces.stage(moment.forces.vitality, moment)
+        return when {
+            stage == Sector.TAKING_BREATH || stage == Sector.IN_THE_WOMB -> GrainMeasure.MIDDLING
+            stage.good -> GrainMeasure.FULL
+            else -> GrainMeasure.LITTLE
+        }
+    }
+
+    /** Where the grain is brought from (p. 170): the direction of the moment's element or of its enemy; a wood moment, east or west. */
+    fun grainFrom(moment: Sign): List<Direction> =
+        listOf(MomentPlaces.direction(moment.element), MomentPlaces.direction(Element.entries.first { it.overcomes == moment.element }))
+}

@@ -28,6 +28,9 @@ import zanshin.core.tibetan.Departure
 import zanshin.core.tibetan.BeerDrunk
 import zanshin.core.tibetan.BeerGiven
 import zanshin.core.tibetan.EatenCount
+import zanshin.core.tibetan.GrainMeasure
+import zanshin.core.tibetan.LifePart
+import zanshin.core.tibetan.LifeVerdict
 import zanshin.core.tibetan.MomentGate
 import zanshin.core.tibetan.SickLife
 import zanshin.core.tibetan.MomentSquare
@@ -307,6 +310,11 @@ class CatalogTest {
         SickLife.entries.forEach { out += Texts.momentSickLife(it) }
         EatenCount.entries.forEach { out += Texts.momentEatenCount(it) }
         out += Texts.momentHouses(); out += Texts.momentSickBed(); out += Texts.momentIllnessSeat()
+        LifePart.entries.forEach { p -> LifeVerdict.entries.forEach { out += Texts.momentLifePart(p, it) } }
+        listOf(true, false).forEach { out += Texts.momentForefathersYear(it) }
+        GrainMeasure.entries.forEach { out += Texts.momentGrain(it) }
+        out += Texts.momentGrainVessel()
+        Element.entries.forEach { e -> Texts.momentMarks(e)?.let { out += it } }
         Trigram.entries.forEach { out += Texts.illnessTrigram(it) }
         Animal.entries.forEach { out += Texts.illnessDay(it) }
         (1..9).forEach { n -> out += Texts.illnessMewa(n); IllnessSpiritKind.entries.forEach { out += Texts.illnessSpirit(n, it) } }
@@ -718,7 +726,7 @@ class CatalogTest {
             ),
             // The year of age's readings with relatives (block 29), written in the shape: no allowance.
             "P2" to listOf("NatalTrigram", "KinObstacle"),
-            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "DeadCauseTrigram", "DeadCauseMewa", "DeadDemonTrigram", "DeadDemonMewa", "DeadRebirthMewa", "CirclePebble", "ThirtyCheck", "ThirtyBoard", "TurtleClass", "TurtleKin", "TurtleEnemy", "Building", "MomentSpirit", "MomentWealth", "DeadProvisions", "DeadGraveProvisions", "DeadNineEye", "DeadGraveDay", "DeadRitesDate", "DeadRitesPlanet", "DeadRitesMewa", "DeadRitesTrigram", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement", "MomentMewaPlace", "MomentForefathers", "MomentSquare", "MomentGuard", "MomentHouse", "MomentField", "MomentFieldThere", "MomentGrave", "MomentGraveDecline", "MomentKin", "MomentEye", "MomentGraveBack", "MomentGate", "MomentSixty", "MomentWealthThere", "MomentDemonMeet", "MomentBeer", "MomentBeerGiven", "MomentBeerDrunk", "MomentBeerTaste", "MomentHouses", "MomentSickCause", "MomentSickLife", "MomentSickBed", "MomentEaten", "MomentEatenCount", "MomentIllnessSeat", "MomentHair", "MomentTrade", "MomentDispute"),
+            "R2" to listOf("BirthChild", "BirthOmen", "ClanYear", "PowerYear", "PowerYearOf", "LuckTriad", "YearPlace", "YearPlaceFull", "BirthCut", "GroupCut", "YearNature", "SixtyYear", "BodyNature", "KhaSrog", "BirthMewa", "BirthAspect", "DpalByur", "BirthLine", "RiseDecline", "RaisingMonth", "RaisingDay", "PreciousPebble", "HundredPebble", "BirthTogether", "BirthSet", "BirthBoard", "YearTogether", "YearGrade", "DeadPebble", "DeadWhole", "DeadMewa", "DeadCourse", "DeadCause", "DeadCut", "DeadCauseTime", "DeadDemonYear", "DeadDemonDay", "DeadDemonWeekday", "DeadDemonMansion", "DeadDemonHour", "DeadRebirthDay", "DeadRebirthHour", "DeadVirtue", "DeadCauseTrigram", "DeadCauseMewa", "DeadDemonTrigram", "DeadDemonMewa", "DeadRebirthMewa", "CirclePebble", "ThirtyCheck", "ThirtyBoard", "TurtleClass", "TurtleKin", "TurtleEnemy", "Building", "MomentSpirit", "MomentWealth", "DeadProvisions", "DeadGraveProvisions", "DeadNineEye", "DeadGraveDay", "DeadRitesDate", "DeadRitesPlanet", "DeadRitesMewa", "DeadRitesTrigram", "MomentTrigram", "MomentMewa", "MomentPeriod", "MomentElement", "MomentMewaPlace", "MomentForefathers", "MomentSquare", "MomentGuard", "MomentHouse", "MomentField", "MomentFieldThere", "MomentGrave", "MomentGraveDecline", "MomentKin", "MomentEye", "MomentGraveBack", "MomentGate", "MomentSixty", "MomentWealthThere", "MomentDemonMeet", "MomentBeer", "MomentBeerGiven", "MomentBeerDrunk", "MomentBeerTaste", "MomentHouses", "MomentSickCause", "MomentSickLife", "MomentSickBed", "MomentEaten", "MomentEatenCount", "MomentIllnessSeat", "MomentHair", "MomentTrade", "MomentDispute", "MomentLifePart", "MomentForefathersYear", "MomentGrain", "MomentGrainVessel", "MomentMarks"),
             // The marriage match (block 31), written in the shape: no allowance.
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.

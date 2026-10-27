@@ -20,6 +20,9 @@ import zanshin.core.tibetan.MomentPlaces
 import zanshin.core.tibetan.BeerDrunk
 import zanshin.core.tibetan.BeerGiven
 import zanshin.core.tibetan.EatenCount
+import zanshin.core.tibetan.GrainMeasure
+import zanshin.core.tibetan.LifePart
+import zanshin.core.tibetan.LifeVerdict
 import zanshin.core.tibetan.MomentGate
 import zanshin.core.tibetan.SickLife
 import zanshin.core.tibetan.MomentSquare
@@ -2307,6 +2310,24 @@ object Texts {
     fun momentHair(e: Element): Reading? = if (e == Element.EARTH) null else Reading(key = "reading.MomentHair", arg = "reading.MomentHair.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
     fun momentTrade(win: Boolean): Reading = Reading(key = "reading.MomentTrade", arg = "reading.MomentTrade.${if (win) "WIN" else "LOSE"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
     fun momentDispute(win: Boolean): Reading = Reading(key = "reading.MomentDispute", arg = "reading.MomentDispute.${if (win) "WIN" else "LOSE"}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+
+    /** A part of a kin's life by the cutting on the figure (WB vol. 2, ch. 30, p. 163; the notes, pp. 535–536). */
+    fun momentLifePart(part: LifePart, verdict: LifeVerdict): Reading =
+        Reading(key = "reading.MomentLifePart", arg = "reading.MomentLifePart.${part.name}.${verdict.name}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The forefathers' year against the moment: a fault in the grave or none (WB vol. 2, ch. 30, p. 168). */
+    fun momentForefathersYear(fault: Boolean): Reading =
+        Reading(key = "reading.MomentForefathersYear", arg = "reading.MomentForefathersYear.${if (fault) "FAULT" else "NO_FAULT"}", source = Sources.WHITE_BERYL_MOMENT_PLACES)
+
+    /** The grain of the casting by the moment's life force (WB vol. 2, ch. 30, p. 170). */
+    fun momentGrain(g: GrainMeasure): Reading = Reading(key = "reading.MomentGrain", arg = "reading.MomentGrain.${g.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+
+    /** Where the casting's grain comes from and its vessel (WB vol. 2, ch. 30, p. 170). */
+    fun momentGrainVessel(): Reading = Reading(key = "reading.MomentGrainVessel", source = Sources.WHITE_BERYL_MOMENT_SIGNS)
+
+    /** The marks on the body by the moment's element, iron and water only, the rest of the line unsettled (WB vol. 2, ch. 30, p. 170). */
+    fun momentMarks(e: Element): Reading? =
+        if (e == Element.IRON || e == Element.WATER) Reading(key = "reading.MomentMarks", arg = "reading.MomentMarks.${e.name}", source = Sources.WHITE_BERYL_MOMENT_SIGNS) else null
 
     /** The illness, spirits and rite of the trigram [t] one fell ill under (ROADMAP H2b; WB vol. 1, ch. 25, pp. 427–428). */
     fun illnessTrigram(t: Trigram): Reading = Reading(key = "reading.IllnessTrigram", arg = "reading.IllnessTrigram.${t.name}", source = Sources.WHITE_BERYL_ILLNESS_ONSET)
