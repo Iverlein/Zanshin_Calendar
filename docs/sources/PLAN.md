@@ -1039,3 +1039,7 @@ Searched and found wanting, so not to be repeated:
   - «རང་མཐོ་བཅུ་པ» and «མཐོ་ཕྱེད» as a phrase in the Bhutan digest and Dpal bsdus's Rmad byung (locate.py find): no hit; the Bhutan digest says «མཐོ་བཅུ་པ» alone.
   - The closing verse's lines «ལས་བརྩམས་གང་ཟག་དེའི་དར་གུད» and «ཁ་དམར་སྨྲ» after «ཁྱད་པར་དུ» in the same two etexts: not found in the closing verse's own wording; only Dpal bsdus p. 317 has «ཁ་དམར་སྨྲ» after rise and decline, in its own chapter.
   - «སྦ་ཕྱར», «སྦྲ་ཕྱར» and «ཤྭ་རགས» in the Bhutan digest and Dpal bsdus: no gloss; the first is garbled in the Bhutan digest's list (p. 357), the third not present.
+- **RD63 (2026-10-28)** (RD63, 2026-10-28):
+  - «སྤྲ་ཁྱིམ»/«སྦྲ་ཁྱིམ» searched in the three local WB etexts (1996 print, Zhol print I4CZ74285, Sakya Centre print I1KG1710): it occurs only in this line and in a garbled Zhol passage on setting up a door, with no gloss (RD63).
+  - «སྦྲང་མ་ཕུད» / «ཡོལ་བས་སྒྲིབ»: the other WB prints' etexts repeat the same text, so they are no independent witness (RD63).
+  - No BDRC full-text search was made for p. 224 and p. 236's words (no browser, etext-only reading) (RD63).

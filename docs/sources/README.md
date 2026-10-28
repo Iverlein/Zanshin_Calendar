@@ -581,6 +581,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
 | [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | open; cites wb.2:p378 |
 | [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | open; cites wb.2:p387 |
+| [questions/q0432.md](questions/q0432.md) | question q432 | What is the sun's klung (ཉི་མའི་ཀླུང) in Langging's list | open; cites wb.2:p186b |
+| [questions/q0433.md](questions/q0433.md) | question q433 | Where the black hal khyi's five mothers and five sons sit | open; cites wb.2:p185b |
+| [questions/q0434.md](questions/q0434.md) | question q434 | Does Langging's list put the dragon year on the dog or the mouse | open; cites wb.2:p186b |
 
 <!-- end pool index -->
 
