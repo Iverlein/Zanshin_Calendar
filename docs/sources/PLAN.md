@@ -1043,3 +1043,6 @@ Searched and found wanting, so not to be repeated:
   - «སྤྲ་ཁྱིམ»/«སྦྲ་ཁྱིམ» searched in the three local WB etexts (1996 print, Zhol print I4CZ74285, Sakya Centre print I1KG1710): it occurs only in this line and in a garbled Zhol passage on setting up a door, with no gloss (RD63).
   - «སྦྲང་མ་ཕུད» / «ཡོལ་བས་སྒྲིབ»: the other WB prints' etexts repeat the same text, so they are no independent witness (RD63).
   - No BDRC full-text search was made for p. 224 and p. 236's words (no browser, etext-only reading) (RD63).
+- **RD67 (2026-10-28): other prints and manuals on ch. 27's unread words** (RD67, 2026-10-28):
+  - BDRC's exact-phrase search for «ཚད་ཟླ་མག་རྒུད», «ལྕོང་མོའི་རྔམས», «ལྕོང་མོའི་རྔམས་རྒྱ་མཚོ་དཀྲུགས», «ཡན་ལག་ས་བདག་ཐུགས་པ་སྦལ» found nothing; «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «བླ་ལྷོར་འཁྱམས», «ཤིང་ལུག་པ», «འུར་ཞོགས» only in WB's prints and unrelated works, none a gloss; the Sakya, Zhol and Taikhang-copy etexts and Zhechen Gyaltsab's volume (I4PD2441-2451) give no gloss of the golden turtle, the sixteen limbs, «ལྕོང་མོ» or «བརྗེའི» as the monk.
+  - The Zhol print's «བརྗེའི» (WBZ img. 658, last line) is too small to tell from «རྗེའི» at 4 times; the rare-texts print MW2PD17386 has no scan open.
