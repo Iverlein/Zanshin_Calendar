@@ -72,13 +72,16 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-is-the-monk.md](claims/ch27-brje-set-is-the-monk.md) | claim, note | Ch. 27: the set of four headed «བརྗེ» is the monk's | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-zg-spiritual-friend.md](claims/ch27-brje-set-zg-spiritual-friend.md) | claim, note | Ch. 27: ZG puts the «བརྗེ» set at the spiritual friend's | cites wb.2:p23-25, zg:p348-349, wb.2:p195; feeds block-31 |
+| [claims/ch27-brje-twice-same-stack.md](claims/ch27-brje-twice-same-stack.md) | claim, note | Ch. 27: «བརྗེ» twice in its set, the same stack on both scans, the begging verse a syllable short | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-element-two-manuals.md](claims/ch27-element-two-manuals.md) | claim, note | Whose element: two manuals' example of the thirty, wood rat from the iron tiger | cites wb.1:p453, wb.2:p533b, zg:p303-304; feeds block-31 |
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
+| [claims/ch27-la-rat-south-on-1996-scan.md](claims/ch27-la-rat-south-on-1996-scan.md) | claim, note | Ch. 27: the rat's la goes south («ལྷོར») on the 1996 print's scan | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-la-wandering-directions.md](claims/ch27-la-wandering-directions.md) | claim, conflict | Ch. 27: the la's wandering by the year, three prints agree | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md) | claim, conflict | Ch. 27: the meadow's ornament lays one verdict under each of a group's five | cites wb.2:p22, wb.2:p533-534, kd.3:p723, kd.3:p723b; feeds block-31 |
 | [claims/ch27-mewa-triads-zg.md](claims/ch27-mewa-triads-zg.md) | claim, note | The circles' mewa: Zhechen Gyaltsab's verse puts the years in triads, each with its own mewa sequence | cites wb.2:p533b, zg:p303-304, wb.2:p10-11; feeds block-31 |
 | [claims/ch27-other-prints-and-etexts.md](claims/ch27-other-prints-and-etexts.md) | claim, note | Ch. 27's unread words on the Sakya, Zhol, rare-texts etexts: none changes a reading | cites wb.2:p16b, wb.2:p20b, wb.2:p9b, wb.2:p17c, wb.2:p23-25; feeds block-31 |
+| [claims/ch27-reckonings-in-four-letters.md](claims/ch27-reckonings-in-four-letters.md) | claim, note | Ch. 27: «དཀར་པ་ན», «སྤ་འཁར» and «ལྕུག་ཕྲན» in the reckonings in four, read on the 1996 scan | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md) | claim, note | Ch. 27: the limb is «རུས་མིག», the bone-eye, on the reprint and the Zhol etext | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-rus-nag-north-turtle.md](claims/ch27-rus-nag-north-turtle.md) | claim, definition | «རུས་ནག» of the tenth circle is the north's black turtle | cites wb.2:p10-11, wb.2:p133-135, wb.2:p138-139; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
@@ -87,6 +90,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-taikhang-la-wandering.md](claims/ch27-taikhang-la-wandering.md) | claim, note | Ch. 27: the la's wandering carved on the Taikhang as on the other prints | cites wb.2:p16b, wb.2:p16-17; feeds block-31 |
 | [claims/ch27-taikhang-turtle-ten.md](claims/ch27-taikhang-turtle-ten.md) | claim, note | Ch. 27: the turtle's wood verse carves ten srin po on the Taikhang and the Zhol print | cites wb.2:p20b, wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
+| [claims/ch27-turtle-others-paired.md](claims/ch27-turtle-others-paired.md) | claim, rule | Ch. 27: the turtle's other classes, paired («བསྡེབས་པ»), have no enemy-executioner | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-words-in-steinert-dictionaries.md](claims/ch27-words-in-steinert-dictionaries.md) | claim, note | Ch. 27: the unread words in Steinert's 64 dictionaries, and ZG's «ཚང་ཟླ» | cites wb.2:p9, wb.2:p17, wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p20-22, wb.2:p23-25, zg:p352; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
@@ -428,7 +432,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 33 passages: 28 scan, 5 machine |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 35 passages: 30 scan, 5 machine |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
@@ -441,7 +445,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 37 passages: 21 scan, 16 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 9 passages: 4 scan, 5 machine |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 9 passages: 9 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
