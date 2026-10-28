@@ -105,6 +105,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch32-lto-phye-ninth-part-digging.md](claims/ch32-lto-phye-ninth-part-digging.md) | claim, rule | Ch. 32: digging in the part where Lto-'phye lies | cites wb.2:p282, wb.2:p281; feeds block-31 |
 | [claims/ch32-outer-door-places.md](claims/ch32-outer-door-places.md) | claim, table | Ch. 32: the outer door by its place on each side | cites wb.2:p287; feeds block-31 |
 | [claims/ch32-rooms-by-direction.md](claims/ch32-rooms-by-direction.md) | claim, list | Ch. 32: the rooms and works of a house by direction | cites wb.2:p287; feeds block-31 |
+| [claims/ch35-grammar-days-to-beware.md](claims/ch35-grammar-days-to-beware.md) | claim, list | WB p. 432: the dates to beware of for grammar (machine) | cites wb.2:p432; feeds — |
+| [claims/ch35-star-reckoning-refers-to-ch1.md](claims/ch35-star-reckoning-refers-to-ch1.md) | claim, note | WB ch. 35 sends the history of star reckoning back to chapter 1 | cites wb.2:p433; feeds — |
+| [claims/ch35-what-the-chapter-holds.md](claims/ch35-what-the-chapter-holds.md) | claim, note | WB ch. 35 is the account of the fields of knowledge; star reckoning is one of five minor fields | cites wb.2:p429, wb.2:p432, wb.2:p433; feeds — |
 | [claims/circle-01-king.md](claims/circle-01-king.md) | claim, table | The circles: the first, the white garuḍa, for the king | cites wb.2:p3-4, wb.2:p533b; feeds block-31 |
 | [claims/circle-02-spiritual-friends.md](claims/circle-02-spiritual-friends.md) | claim, table | The circles: the second, the white snow lioness, for spiritual friends | cites wb.2:p4-5, wb.2:p533b; feeds block-31 |
 | [claims/circle-03-mantrins.md](claims/circle-03-mantrins.md) | claim, table | The circles: the third, the yellow snake, for mantra-holders | cites wb.2:p5-6, wb.2:p533b; feeds block-31 |
@@ -436,7 +439,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
-| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 0 passages: nothing read yet |
+| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 9 passages: 9 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
