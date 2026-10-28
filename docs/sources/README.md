@@ -616,8 +616,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0439.md](questions/q0439.md) | question q439 | What is the «ཡོ» of the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (p. 224), and whose is the «འདྲེན» | open; cites wb.2:p224c |
 | [questions/q0440.md](questions/q0440.md) | question q440 | Which first portion does «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» scatter, and what does the cloth screen | open; cites wb.2:p224c |
 | [questions/q0441.md](questions/q0441.md) | question q441 | Why is a tent drawn at the door's right against the black times (p. 236) | open; cites wb.2:p236c |
-| [questions/q0442.md](questions/q0442.md) | question q442 | Does «ཉི་དུས» in Wangkhyi's lines mean the daytime hours of the animal's day or its double-hour | open; cites wb.2:p210c |
+| [questions/q0442.md](questions/q0442.md) | question q442 | Does «ཉི་དུས» in Wangkhyi's lines mean the daytime hours of the animal's day or its double-hour | answered; cites wb.2:p210c, wb.2:p210a |
 | [questions/q0443.md](questions/q0443.md) | question q443 | Which animal does the «དུར» of «དུར་གྱི་སྟེང» name for each of the four first months of the seasons | open; cites wb.2:p219c |
+| [questions/q0444.md](questions/q0444.md) | question q444 | Does the light-clearer's «དུར» follow the element of the month's animal or the triads of ch. 23 | open; cites wb.2:p219c |
+| [questions/q0445.md](questions/q0445.md) | question q445 | Must Wangkhyi's animal day and animal hour fall together | open; cites wb.2:p210a |
 
 <!-- end pool index -->
 

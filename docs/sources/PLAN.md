@@ -1078,3 +1078,8 @@ Searched and found wanting, so not to be repeated:
 - **RD73 (2026-10-28)** (RD73, 2026-10-28):
   - The head letter of the stack under «བཟོ་» of work 50 on the Gser thang reprint at 6×: a blot, ka or ga not told.
   - «ཁྱད་པར་དུ» with a stated weight over the other members of a list in WB's etext (about 30 occurrences): none.
+- **RD72 (2026-10-28)** (RD72, 2026-10-28):
+  - Steinert's 64 dictionaries (locate.py dict, Wylie headwords): «nyi dus», «nyi ma dus tshod», «nyi ma'i klung», «wang khyi», «wang ging», «lang ging», «ma lnga bu lnga», «dur nyi», «dur gyi steng», «dur lo», «gshed bzhi» have no headword that glosses them; «dur mig», «rang dur» and «klung rta» only in no. 62.
+  - BDRC's full-text search: «ཉི་དུས» (299 hits, almost all run-ons of other words), «ཉི་མ་དུས་ཚོད», «ཉི་མའི་དུས་ཚོད», «ཝང་ཁྱི», «ཝང་གིང», «དུར་ཉི»: none glosses Wangkhyi's «ཉི་དུས» or the light-clearer's «དུར».
+  - The year charts of vol. 1 pp. 116–121 (Yigdzin-1 on I3CN5028 img. 123–128): names only, no mothers and sons, no sun's klung, no day counts.
+  - The commentary Dpyod ldan snying nor stays search-only: its snippets are WB's own words.
