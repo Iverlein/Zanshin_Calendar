@@ -691,6 +691,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | open; cites wb.2:p442 |
 | [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | open; cites wb.2:p440 |
 | [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | open; cites wb.2:p443 |
+| [questions/q0479.md](questions/q0479.md) | question q479 | Is the bare «ཁམས» of the circles and of p. 17 the power's element throughout | open; cites wb.2:p3, wb.2:p17 |
+| [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
+| [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
 
 <!-- end pool index -->
 

@@ -1123,3 +1123,7 @@ Searched and found wanting, so not to be repeated:
   - A gloss on ch. 27 pp. 16, 20 and 23–25 (both scans, 2026-10-28): no interlinear note names the la's directions, the wood sheep's class or the person of «བརྗེ».
 - **RD84 (2026-10-28)** (RD84, 2026-10-28):
   - A rule, list or figure of the calendar (lunar days, weekdays, mansions, yogas, planets, a date count) in WB vol. 2 pp. 438–454 (img. 444–460 of the Gser thang reprint): none by the keywords ཚེས, ཟླ་ངོ, ཉི་མ, སྐར་མ, ཞག and the page-by-page machine text.
+- **RD90 (2026-10-28)** (RD90, 2026-10-28):
+  - A gloss of «ཇི་ནོང» (BDRC's etext of the 1996 print and the G.ya' sel, for «ཇི་ནོང», «ཟི་ནོང», «ཞི་ནོང», 2026-10-28): only p. 3's gloss itself; no other use.
+  - «འུར་ཞོགས», «རྔ་མས» and «ཚད་ཟླ» elsewhere in WB's 1996 etext (2026-10-28): «འུར་ཞོགས» not found (the etext's p. 17 l. 26 is garbled); «རྔ་མས» only at p. 17 l. 9; «ཚད་ཟླ» only at p. 9 l. 6, «ཚང་ཟླ» once in the marriage reckoning, which does not gloss «ཚད».
+  - A word for an element other than «དབང» as a start (ch. 27 pp. 3, 9, 17, both scans, 2026-10-28): none names the life force's, the body's or the luck's element.
