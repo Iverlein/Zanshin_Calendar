@@ -1105,3 +1105,5 @@ Searched and found wanting, so not to be repeated:
   - Whole-page Yigdzin-1 on I3CN5028 img. 140 reads five characters; the cells were cropped one by one.
   - An etext of the tables: the 1996 etext has no text for the cells; the only «ཆང་རྫ་ལ་གནས» hit is the verse of vol. 2, p. 367.
   - A gloss of «ཁ་ཡོ» or «སྦྲང་མ» in the tables: none; no cell of either table names them. The Bhutan second table's cells and BDRC full-text search were not redone.
+- **RD81 (2026-10-28)** (RD81, 2026-10-28):
+  - A rank of the Lto-'phye's parts by name (head, belly, back, tail) beyond p. 282's ninth part, back and tail: not found on pp. 276–294; p. 281's figure is the only place the parts are drawn.

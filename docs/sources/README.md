@@ -653,6 +653,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
 | [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 | [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
+| [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | open; cites wb.2:p287 |
+| [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | open; cites wb.2:p282 |
+| [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | open; cites wb.2:p283-285, wb.2:p291-294 |
 
 <!-- end pool index -->
 
