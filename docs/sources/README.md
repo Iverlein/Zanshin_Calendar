@@ -326,6 +326,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-digging-figure-measure.md](claims/wb-ch34-digging-figure-measure.md) | claim, rule | Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep | cites wb.2:p387, wb.2:p281; feeds block-25 |
 | [claims/wb-ch34-digging-figure-sums-agree.md](claims/wb-ch34-digging-figure-sums-agree.md) | claim, note | Ch. 32's and ch. 34's counts of the digging figure sum to four mtho at the navel if one mtho is twelve finger-breadths | cites wb.2:p281, wb.2:p387; feeds block-25 |
 | [claims/wb-ch34-gdong-thug-shunned.md](claims/wb-ch34-gdong-thug-shunned.md) | claim, rule | གདོང་ཐུག་གནས in the fierce rites is the lord's seat that one would face | cites wb.2:p427b; feeds block-25 |
+| [claims/wb-ch34-gud-sbas-hidden-part.md](claims/wb-ch34-gud-sbas-hidden-part.md) | claim, note | «གུད་སྦས» is WB's word for the profound part it sets down apart, and ch. 34's colophon says it did so under each work | cites wb.2:p378-384, wb.2:p428c; feeds block-25 |
 | [claims/wb-ch34-khyad-par-du-closing.md](claims/wb-ch34-khyad-par-du-closing.md) | claim, note | ཁྱད་པར་དུ in the closing verse singles out the person's rise and decline, no ranking stated | cites wb.2:p428b; feeds block-25 |
 | [claims/wb-ch34-list-65-works.md](claims/wb-ch34-list-65-works.md) | claim, list | The numbered list of ch. 34's works and the sixty-five examinations | cites wb.2:p378-384; feeds — |
 | [claims/wb-ch34-list-of-works-names.md](claims/wb-ch34-list-of-works-names.md) | claim, definition | The names skyas, sba phyar, shwa rags and sen in ch. 34's list of works | cites wb.2:p378-384; feeds block-25 |
@@ -333,6 +334,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-ninth-hair-date-other-witnesses.md](claims/wb-ch34-ninth-hair-date-other-witnesses.md) | claim, note | The 9th hair date's result has no other witness than the haircut verses; the words judge nothing | cites wb.2:p404; feeds block-25 |
 | [claims/wb-ch34-ninth-hair-date.md](claims/wb-ch34-ninth-hair-date.md) | claim, note | The 9th hair date stands bad by ch. 33; its result is company of young women | cites wb.2:p404; feeds block-25 |
 | [claims/wb-ch34-sbra-phyar-tents-and-covers.md](claims/wb-ch34-sbra-phyar-tents-and-covers.md) | claim, definition | Work 17 is the sewing of tents and covering sheets: sbra is a yak-hair tent, phyar a covering; phya ther stays unglossed | cites wb.2:p378-384; feeds block-25 |
+| [claims/wb-ch34-work17-stack-and-kp-title.md](claims/wb-ch34-work17-stack-and-kp-title.md) | claim, note | Work 17 on p. 378: the stack before «ཕྱར» has the height of a two-tier stack; KP's title lists «སྦྲ» and «ཕྱ་ཐེར» as two things | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
 | [claims/wb-day-animal-house-lord.md](claims/wb-day-animal-house-lord.md) | claim, rule | The day animal's earth lord in the house and the dead's burial | cites wb.2:p224-225; feeds — |
 | [claims/wb-digest-steng-gnas-for-sun-klung.md](claims/wb-digest-steng-gnas-for-sun-klung.md) | claim, conflict | A digest of Langging's table has «སྟེང་གནས» where WB has the sun's klung | cites wb.2:p186d, wb.2:p186c; feeds — |
@@ -439,7 +441,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 37 passages: 21 scan, 16 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 9 passages: 4 scan, 5 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 9 passages: 9 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
