@@ -1114,3 +1114,7 @@ Searched and found wanting, so not to be repeated:
 - **RD87 (2026-10-28)** (RD87, 2026-10-28):
   - A seat, a direction or an order of the pairs for the hal khyi's mothers and sons in the verse, the note and the remedy lines to the foot of p. 185 (Gser thang reprint img. 191, read line by line by eye, 2026-10-28): none; the lines say only 22 days to each pair and 110 in all.
   - The word of the sun's klung explained in the four blocks of p. 186 (img. 192, by eye, 2026-10-28): the block of Langging gives the table of twelve year-pairs and the line «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད» and no gloss.
+- **RD88 (2026-10-28)** (RD88, 2026-10-28):
+  - KP's list of contents (I4CZ65599 img. 9), box 24 «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ»: not found on the woodblock by eye at 2× (2026-10-28); the machine readings stand.
+  - The subjoined ra under work 17's stack on the Gser thang reprint (img. 384) at 10× (2026-10-28): not told.
+  - A gloss of «ཨ་འཐས» in the 1996 etext (locate.py find, 2026-10-28): the verse (p. 436) and p. 475 of the notes, no gloss at either.

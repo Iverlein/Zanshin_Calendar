@@ -668,6 +668,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | open; cites wb.2:p370 |
 | [questions/q0469.md](questions/q0469.md) | question q469 | Is the east line's «དང་» of the door table on p. 287 the first place cut short, and from which side are the places counted | open; cites wb.2:p287 |
 | [questions/q0470.md](questions/q0470.md) | question q470 | Which places do the nine numbers 17–25 after the hal khyi's mothers and sons count on p. 185 | open; cites wb.2:p185e |
+| [questions/q0471.md](questions/q0471.md) | question q471 | Does work 17's stack on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» when KP's contents list has «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites wb.2:p378 |
+| [questions/q0472.md](questions/q0472.md) | question q472 | What is «ཨ་འཐས» in ch. 34's closing verse (p. 428) | open; cites wb.2:p428c |
+| [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
 
 <!-- end pool index -->
 
