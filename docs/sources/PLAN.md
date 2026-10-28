@@ -1075,3 +1075,6 @@ Searched and found wanting, so not to be repeated:
   - A text laying out the circles' two mewas: «ལུས་སྨེ་དང་སྨེ་ཕྲེང་མཐུན» and «བརྩི་བྱའི་ལོ་རྟ» 0 hits; the nine hits of «བརྩི་བྱའི་ཁམས་ཀྱི་དགྲ» are WB's circles and their digests, none on the mewa.
   - Sprugtön's limbs: «སྤྲུག་སྟོན་གྱི་རྩིས», «སྤྲུག་སྟོན་ཡན་ལག», «རྡེའུ་ལྔ་བཅུ་ཡན་ལག་བཅུ་དྲུག» 0 hits each; «སྤྲུག་སྟོན» in ZG, the Bhutan collection and the G.ya' sel etexts: 0.
   - The typeset notes' p. 533 was not located in I1PD34647 (img. 605–624; printed page = image − 46 does not hold there).
+- **RD73 (2026-10-28)** (RD73, 2026-10-28):
+  - The head letter of the stack under «བཟོ་» of work 50 on the Gser thang reprint at 6×: a blot, ka or ga not told.
+  - «ཁྱད་པར་དུ» with a stated weight over the other members of a list in WB's etext (about 30 occurrences): none.
