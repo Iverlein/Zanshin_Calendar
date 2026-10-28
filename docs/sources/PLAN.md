@@ -1060,3 +1060,8 @@ Searched and found wanting, so not to be repeated:
 - **RD70 (2026-10-28)** (RD70, 2026-10-28):
   - A gloss of «ཉེར་ཐམ» as a word: none; BDRC's exact-phrase search (26 hits in 19 etexts) gives uses, not a definition; Steinert's dictionaries were not searched.
   - ZG's meadow lines in another work: «ཡོངས་དྲིལ་རྩ་གཅོད» 1 hit (ZG only), «གསེར་ལོ་གཡུ་ལོ་དུང་ལོ» 1 hit (unrelated); «ཁ་དམར་སྤྱི་བསྡོམས» 5 hits, the Moonbeams' line again, three of them search-only works; no further manual gives the totals' use.
+- **RD69 (2026-10-28)** (RD69, 2026-10-28):
+  - BDRC full-text search: «འབྲུག་ལོ་བྱི་ལ་སྦྲུལ་ལོ་བྱ» 0 hits; the line with «ཁྱི» only in WB's prints and the digest MW1KG21827.
+  - «སྣང་སེལ་དུར་གྱི» and «སྣང་སེལ་ཐ་ཆུང་» 0 hits; «སྣང་སེལ་ཁྲབ་གྱོན», «ཉི་དུས་བྱང་ཕྱོགས་ངན», «དུར་ཉིར་ཁ་མི་སྟོན», «གནས་པའི་ཉི་དུས་འཛིན» only in WB's prints and the commentary's etexts, no gloss.
+  - «དམག་མི་ཝང་ཁྱི», «ཝང་གིང་ལང་གིང», «ལང་གིང་དམར་པོ», «ཧལ་ཁྱི་ནག་པོ་མ་ལྔ» 0 hits; the G.ya' sel etext and Mipham's notes (pp. 474–545) have nothing on the light-clearer, Wangkhyi, the sun's klung or the hal khyi's mothers and sons.
+  - The Bhutan collection's year tables (I1KG11905 img. 446–452) are too small to read and their etext is garbled: no witness for q28 or q29.

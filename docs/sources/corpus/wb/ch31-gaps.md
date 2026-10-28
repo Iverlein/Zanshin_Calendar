@@ -7,6 +7,8 @@ read: machine
 
 Sigla, numbering and quoting rules are in [README.md](../../README.md).
 
+RD69 (2026-10-28) read p. 186, pp. 210, 219 and 185 on the scan and the etexts (passages `wb.2:p186d`, `p219c`, `p210c`, `p185d`).
+
 
 ## The pages of WB ch. 31 and ch. 34 no reading has opened (RD56)
 

@@ -596,7 +596,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | answered; cites wb.2:p387 |
 | [questions/q0432.md](questions/q0432.md) | question q432 | What is the sun's klung (ཉི་མའི་ཀླུང) in Langging's list | open; cites wb.2:p186b |
 | [questions/q0433.md](questions/q0433.md) | question q433 | Where the black hal khyi's five mothers and five sons sit | open; cites wb.2:p185b |
-| [questions/q0434.md](questions/q0434.md) | question q434 | Does Langging's list put the dragon year on the dog or the mouse | open; cites wb.2:p186b |
+| [questions/q0434.md](questions/q0434.md) | question q434 | Does Langging's list put the dragon year on the dog or the mouse | answered; cites wb.2:p186b, wb.2:p186d |
 | [questions/q0435.md](questions/q0435.md) | question q435 | What is «ཉེར་ཐམ» in Zhechen Gyaltsab's sums of the meadow's ornament | answered; cites zg:p300-301 |
 | [questions/q0436.md](questions/q0436.md) | question q436 | Does the 9th hair date's result «ན་ཆུང་མོད་འགྱུར» count as a gain or a warning | open; cites wb.2:p378 |
 | [questions/q0437.md](questions/q0437.md) | question q437 | Does work 17's first syllable on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» | open; cites wb.2:p378 |
@@ -604,6 +604,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0439.md](questions/q0439.md) | question q439 | What is the «ཡོ» of the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (p. 224), and whose is the «འདྲེན» | open; cites wb.2:p224c |
 | [questions/q0440.md](questions/q0440.md) | question q440 | Which first portion does «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» scatter, and what does the cloth screen | open; cites wb.2:p224c |
 | [questions/q0441.md](questions/q0441.md) | question q441 | Why is a tent drawn at the door's right against the black times (p. 236) | open; cites wb.2:p236c |
+| [questions/q0442.md](questions/q0442.md) | question q442 | Does «ཉི་དུས» in Wangkhyi's lines mean the daytime hours of the animal's day or its double-hour | open; cites wb.2:p210c |
+| [questions/q0443.md](questions/q0443.md) | question q443 | Which animal does the «དུར» of «དུར་གྱི་སྟེང» name for each of the four first months of the seasons | open; cites wb.2:p219c |
 
 <!-- end pool index -->
 
