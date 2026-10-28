@@ -1118,3 +1118,6 @@ Searched and found wanting, so not to be repeated:
   - KP's list of contents (I4CZ65599 img. 9), box 24 «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ»: not found on the woodblock by eye at 2× (2026-10-28); the machine readings stand.
   - The subjoined ra under work 17's stack on the Gser thang reprint (img. 384) at 10× (2026-10-28): not told.
   - A gloss of «ཨ་འཐས» in the 1996 etext (locate.py find, 2026-10-28): the verse (p. 436) and p. 475 of the notes, no gloss at either.
+- **RD89 (2026-10-28)** (RD89, 2026-10-28):
+  - The rat verse's stack on the Gser thang reprint (I3CN5029 img. 22, l. 23, at 6×, 2026-10-28): a solid blot, ལྷ against ལྟ not told there; the 1996 scan settles it.
+  - A gloss on ch. 27 pp. 16, 20 and 23–25 (both scans, 2026-10-28): no interlinear note names the la's directions, the wood sheep's class or the person of «བརྗེ».

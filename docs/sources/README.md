@@ -675,6 +675,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0471.md](questions/q0471.md) | question q471 | Does work 17's stack on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» when KP's contents list has «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites wb.2:p378 |
 | [questions/q0472.md](questions/q0472.md) | question q472 | What is «ཨ་འཐས» in ch. 34's closing verse (p. 428) | open; cites wb.2:p428c |
 | [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
+| [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | open; cites wb.2:p23-25 |
+| [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | open; cites wb.2:p23-25 |
 
 <!-- end pool index -->
 
