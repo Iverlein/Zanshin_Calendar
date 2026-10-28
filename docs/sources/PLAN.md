@@ -1052,3 +1052,8 @@ Searched and found wanting, so not to be repeated:
   - Mipham's notes in the 1996 volume ([p482]–[p549]) for «སྐྱས», «ཤྭ», «ཁྱད་པར་དུ» and the length of a mtho: nothing.
   - The digging figure's mtho in LT, UT and the Bhutan digest outside p. 314: nothing beyond the digest's p. 314, the same words as ch. 32.
   - The Taikhang reproduction (I5878) not opened for p. 378 and the Zhol print's list not read on the scan; Steinert's dictionaries not searched for «སྐྱས», «ཕྱར», «ཕྱ་ཐེར».
+- **RD65 (2026-10-28): ch. 31's four open passages on the other prints** (RD65, 2026-10-28):
+  - Mipham's notes of vol. 2 (pp. 474–545) searched for «སྦྲང་མ», «ཡོལ་བས་སྒྲིབ», «ཐེམ་བུར», «སྦྲ་ཁྱིམ», «སྤྲ་ཁྱིམ», «ཉི་མའི་ཀླུང», «མ་ལྔ་བུ་ལྔ», «ཧལ་ཁྱི»: no gloss of any of the four passages (the notes cover the black reckoning only).
+  - The Sakya Centre print (I1KG12739–40): etext too corrupt for phrase search, scans 1210 px wide, not read.
+  - BDRC full-text search of the four passages' phrases: only copies of WB and the outline etext of the commentary Dpyod ldan snying nor (search only, no gloss) carry them.
+  - Not searched: the hal khyi's year charts of vol. 1 pp. 116–121 and the Steinert dictionaries.

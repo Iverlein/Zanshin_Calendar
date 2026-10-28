@@ -561,7 +561,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0402.md](questions/q0402.md) | question q402 | What «བཞི་བརྒྱ་དོན་བཞི» counts among the earth lords' comings | answered; cites wb.2:p175-176, wb.2:p175b |
 | [questions/q0403.md](questions/q0403.md) | question q403 | The measure of the digging rite's earth figure | answered; cites wb.2:p387 |
 | [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | open; cites wb.2:p224-225 |
-| [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | open; cites wb.2:p236-237 |
+| [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | answered; cites wb.2:p236-237, wb.2:p236c |
 | [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | answered; cites wb.2:p378-384 |
 | [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
 | [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | open; cites wb.2:p428b |
@@ -595,6 +595,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0436.md](questions/q0436.md) | question q436 | Does the 9th hair date's result «ན་ཆུང་མོད་འགྱུར» count as a gain or a warning | open; cites wb.2:p378 |
 | [questions/q0437.md](questions/q0437.md) | question q437 | Does work 17's first syllable on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» | open; cites wb.2:p378 |
 | [questions/q0438.md](questions/q0438.md) | question q438 | How many finger-breadths is one mtho at the digging figure's navel (p. 387) | open; cites wb.2:p387 |
+| [questions/q0439.md](questions/q0439.md) | question q439 | What is the «ཡོ» of the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (p. 224), and whose is the «འདྲེན» | open; cites wb.2:p224c |
+| [questions/q0440.md](questions/q0440.md) | question q440 | Which first portion does «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» scatter, and what does the cloth screen | open; cites wb.2:p224c |
+| [questions/q0441.md](questions/q0441.md) | question q441 | Why is a tent drawn at the door's right against the black times (p. 236) | open; cites wb.2:p236c |
 
 <!-- end pool index -->
 
