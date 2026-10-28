@@ -101,6 +101,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
 | [claims/ch28-spring-hand.md](claims/ch28-spring-hand.md) | claim, table | The year read on three spring dates by the moon on the hand | cites wb.2:p26-27, wb.2:p26; feeds block-31 |
+| [claims/ch32-ground-signs-when-dug.md](claims/ch32-ground-signs-when-dug.md) | claim, list | Ch. 32: the signs of a dug ground | cites wb.2:p282, wb.2:p283-285; feeds block-31 |
+| [claims/ch32-lto-phye-ninth-part-digging.md](claims/ch32-lto-phye-ninth-part-digging.md) | claim, rule | Ch. 32: digging in the part where Lto-'phye lies | cites wb.2:p282, wb.2:p281; feeds block-31 |
+| [claims/ch32-outer-door-places.md](claims/ch32-outer-door-places.md) | claim, table | Ch. 32: the outer door by its place on each side | cites wb.2:p287; feeds block-31 |
+| [claims/ch32-rooms-by-direction.md](claims/ch32-rooms-by-direction.md) | claim, list | Ch. 32: the rooms and works of a house by direction | cites wb.2:p287; feeds block-31 |
 | [claims/circle-01-king.md](claims/circle-01-king.md) | claim, table | The circles: the first, the white garuḍa, for the king | cites wb.2:p3-4, wb.2:p533b; feeds block-31 |
 | [claims/circle-02-spiritual-friends.md](claims/circle-02-spiritual-friends.md) | claim, table | The circles: the second, the white snow lioness, for spiritual friends | cites wb.2:p4-5, wb.2:p533b; feeds block-31 |
 | [claims/circle-03-mantrins.md](claims/circle-03-mantrins.md) | claim, table | The circles: the third, the yellow snake, for mantra-holders | cites wb.2:p5-6, wb.2:p533b; feeds block-31 |
@@ -429,7 +433,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 35 passages: 19 scan, 16 machine |
-| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 1 passages: 1 machine |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 46 passages: 3 scan, 42 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 0 passages: nothing read yet |
