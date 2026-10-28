@@ -358,6 +358,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
 | [claims/wb-p133-tables-do-not-gloss-kha-yo.md](claims/wb-p133-tables-do-not-gloss-kha-yo.md) | claim, note | The tables of p. 133 do not gloss «ཁ་ཡོ» or «སྦྲང་མ» | cites wb.1:p133b, wb.2:p224b; feeds — |
 | [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
+| [claims/wb-print-numbers-16-29-nine-places.md](claims/wb-print-numbers-16-29-nine-places.md) | claim, note | The print numbers the hal khyi's group 16–25 and Dkar-sham 26; Langging is 28 in the print | cites wb.2:p185e, wb.2:p186e; feeds — |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
 | [claims/wb-rahu-nuru-by-date.md](claims/wb-rahu-nuru-by-date.md) | claim, table | Rāhu's course by the lunar date, the general counsel | cites wb.2:p236-237; feeds — |
 | [claims/wb-rat-day-first-portion.md](claims/wb-rat-day-first-portion.md) | claim, note | The rat day's remedy lines on p. 224 are read, their sense is not settled | cites wb.2:p224b; feeds — |
@@ -435,7 +436,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 35 passages: 19 scan, 16 machine |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 37 passages: 21 scan, 16 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |

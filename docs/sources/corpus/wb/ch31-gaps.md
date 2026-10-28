@@ -9,6 +9,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md).
 
 RD72 (2026-10-28) read p. 99, p. 210's opening lines, p. 376 and the notes' pp. 498, 515, 530 for the day-time and the grave (passages `wb.2:p99c`, `p210a`, `p376c`, `p498b`, `p515b`, `p530b`) and the year charts of vol. 1 (`wb.1:p116-121`).
 
+RD87 (2026-10-28) read pp. 185–186 line by line by eye on the Gser thang reprint (passages `wb.2:p185e`, `p186e`; claim `wb-print-numbers-16-29-nine-places`).
+
 RD69 (2026-10-28) read p. 186, pp. 210, 219 and 185 on the scan and the etexts (passages `wb.2:p186d`, `p219c`, `p210c`, `p185d`).
 
 
@@ -169,6 +171,14 @@ The black hal khyi's five mothers and five sons (WB vol. 2, p. 185) on the other
 
 Ruling the four years of the malicious one. When the days are twenty-two and twenty-two, when mother and son [go] two by two, the days come to a full hundred and ten. [Note in small type:] «The Rin chen kun 'dus and the Lung kun 'dus, and the Lha rgyud gsal sgron, give a hundred and four days; the Stong shes says likewise.» The lines and the note of the hal khyi's five mothers and five sons (WB vol. 2, p. 185, the last lines of the lord), read again on the Gser thang reprint (I3CN5029 img. 191) in crops at 2x: they stand as RD63 has them at p185b, the note's «རྩ་བཞི» ("and four") clear; the verb after «མ་བུ་གཉིས་གཉིས» reads «སྐྱ་བས» on this crop, and the Taikhang reproduction's machine reading has «བསྐྱབས» (p185c): which is the print's word is not settled, the sense ("when mother and son go, or are sent, two by two") is the same. No seat of any mother or son stands in the lines or the note.
 
+## <a id="wb-2-p185e"></a>wb.2:p185e The hal khyi's page read line by line: the nine numbers, no seat for any mother or son (RD87)
+
+*Read: scan, 2026-10-28.*
+
+> ༈ ཧལ་ཁྱི་ནག་པོ(༡༦)རྒྱལ་པོའི་ཁྱི། །མི་ལུས་ཁྱི་མགོ་སྦྲུལ་མཇུག་ཅན། །ལྕགས་ཀྱི་བྱ་གཤོག་སྐུ་མདོག་ནག །བྱ་སྡེར་རུ་མཚོན་ནག་པོ་ཐོགས། །མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ། (༡༧ ༡༨ ༡༩ ༢༠ ༢༡ ༢༢ ༢༣ ༢༤ ༢༥)། སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང་། །གདུག་པ་ཅན་གྱི་ལོ་བཞི་དབང་། །ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས་ན། །མ་བུ་གཉིས་གཉིས་སྐྱ་བས་ན། །ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར། (རིན་ཆེན་ཀུན་འདུས་དང་། ལུང་ཀུན་འདུས་ལྷ་རྒྱུད་གསལ་སྒྲོན་ནས་ཞག་བརྒྱ་དང་རྩ་བཞི། (སྟོང་ཤེས་ལས་ཀྱང་དེ་ལྟར་བཤད།)) ཚ་གྲང་འབྲུག་གི་སྒྲ་དང་བཅས། །གཡས་སྐོར་ཧལ་ཁྱིས་སྐྱས་གཞུག་རྫོགས། །ལས་ནི་རོ་བག་དམག་འདྲེན་ཤིང་། །
+
+The first twelve lines of p. 185, the black hal khyi, the king's dog (ཧལ་ཁྱི་ནག་པོ, hal khyi nag po; the print's number 16), read line by line on the Gser thang reprint (I3CN5029 img. 191), crops at 1x to 2.8x. Man's body, dog's head, snake's tail, iron bird's wings, black body, a black weapon of horn in the wings' hollow; "with its five mothers and five sons" and then, in brackets, nine numbers; "on the previous year's wind-horse, ruling the four years of the malicious one; when the days are twenty-two and twenty-two, when mother and son [go] two by two, the days come to a full hundred and ten" [note in small type: other texts give a hundred and four]; "with heat, cold and the dragon's roar; turning to the right the hal khyi brings the round to its end"; the work: corpse, bride, army-leading. Lines 13–23 are the work, what to avoid and the remedies (read by eye for any word of seat or place; none).
+
 ## <a id="wb-2-p186b"></a>wb.2:p186b Langging the red enters with the sun's klung (RD63)
 
 *Read: scan, 2026-10-28.*
@@ -206,6 +216,17 @@ Langging the red's line (WB vol. 2, p. 186) on the Taikhang print, the neighbour
 > > «དམག་མི་ཝང་གིང་ཞེས་བྱ་བ། །བྱི་ལོ་སྟག་ལ་གླང་ལོ་ལུག །སྟག་ལོ་ཡོས་ལ་ཡོས་ལོ་བྱི། །འབྲུག་ལོ་ཁྱི་ལ་སྦྲུལ་ལོ་བྱ། །རྟ་ལོ་སྤྲེལ་ལ་ལུག་ལོ་རྟ། །སྤྲེལ་ལོ་འབྲུག་ལ་བྱ་ལོ་ཡོས། །ཁྱི་ལོ་གླང་ལ་ཕག་ལོ་སྦྲུལ། །སྟེང་གནས་དམག་ཇག་རྩོད་པ་འཛུགས། །»
 
 The hare year's pair and the dragon year's pair of Langging the red's table (WB vol. 2, p. 186, no. 19): «year of the hare, the hare [is paired with] the mouse; year of the dragon, the dragon [is paired with] the dog, the snake with the bird». The syllable after «འབྲུག་ལོ» is «ཁྱི» (dog): a stack with a long left stem that runs down past the line, the head of ka, the subjoined ya and the gigu; the mouse's «བྱི» in the line above has a round head of ba and no stem. Read on the Gser thang reprint (I3CN5029 img. 192, at 10x, the hare's «བྱི» beside it at 10x) and on the Taikhang reproduction (I5878 img. 279, line 4, at 6x: the same stem and loop). The digest below carries the same table and names its lord before it: «དམག་མི་ཝང་གིང་» ("the soldier Wang-ging"). The digest (by 'Bro'i sbyin pa, Kan su'u mi rigs dpe skrun khang, 2006; search-only, its OCR's snippet read in BDRC's search on 2026-10-28) has the dragon pair as «ཁྱི» too, and in place of WB's «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །ལས་ཐབས་…» it reads «སྟེང་གནས་དམག་ཇག་རྩོད་པ་འཛུགས» ("abiding above, it sets up war, raids and strife"): the sun's klung line is not there.
+
+## <a id="wb-2-p186e"></a>wb.2:p186e p. 186's four headings with the print's numbers 26–29 and the seat lines (RD87)
+
+*Read: scan, 2026-10-28.*
+
+> ༈ རྒྱལ་པོའི་བུ་མོ་དཀར་ཤམ(༢༦)ནི། … ཧལ་ཁྱི་ཉིད་དང་གདན་ས་གཅིག །གཡོན་སྐོར་ཞག་གསུམ་རྗེས་སུ་བསྐྱེད། །
+> ༈ དེ་ཡི་མག་པ་སྦལ་ཏེ(༢༧)ནི། … དཀར་ཤམ་ཉིད་དང་གདན་སྐྱས་གཅིག །
+> ༈ དམག་གི་ལང་གིང་དམར་པོ(༢༨)ནི། … ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །
+> ༈ དམག་དཔོན་ཙང་ཀུན་བྱ་བ(༢༩)སྟེ། … གཡོན་སྐོར་བཅུ་དྲུག་རྟིང་ལ་བསྐྱེད། །
+
+The four headings of p. 186 on the Gser thang reprint (I3CN5029 img. 192, headings at 2x, the lines at 1x), with the lines that say where a lord sits and when it comes: Dkar-sham the king's daughter (དཀར་ཤམ, dkar sham; print no. 26) "on the same seat as the hal khyi himself; produced three days after, turning to the left"; her husband Sbal-te (སྦལ་ཏེ, sbal te; no. 27) "on the same seat as Dkar-sham" [the word before «གཅིག» is read as the machine gave it, «སྐྱས»]; Langging the red, of war (དམག་གི་ལང་གིང་དམར་པོ, dmag gi lang ging dmar po; no. 28), whose table of twelve year-pairs is followed by "he is produced together with the sun's klung" (ཉི་མའི་ཀླུང, nyi ma'i klung); the general Tsang-kun the bird (ཙང་ཀུན་བྱ་བ, tsang kun bya ba; no. 29), "turning to the left, produced sixteen [days] after". Only the headings and the seat lines are given; the rest of each block is as at p186b–d and the machine reading.
 
 ## <a id="wb-2-p189b"></a>wb.2:p189b The black years: a work that cannot be put off, and its rite on a day good by planet, mansion and concord
 
@@ -743,3 +764,16 @@ Question: Does a reckoner's own gloss (a living almanac maker's, the *Moonbeams*
 - The Sakya Centre print's scans (I1KG12740, 1210 px wide, 190 px high a page): Yigdzin-1 gives a garbled text of the page (img. 295, 296 are other pages; img. 309 holds Wangkhyi), and p. 219 (img. ~317-319) was not fetched: the print is unreadable at that size beyond what the etext shows, which is the same corruption as RD65 found.
 - The model almanac's year charts of vol. 1 (1996 print pp. 138-147): the cell texts name the lords and, for Wangkhyi, the animal's day-time with a direction (p. 140); no cell names the light-clearer's grave animal, none names mothers or sons of the hal khyi; the 1996 etext of pp. 148-157 (printed 138-147) has «དུར་ལེན», «སྣང་སེལ» as names only.
 - The Taikhang reproduction's year charts (I5877, vol. 1, img. 170, 178 and 186 under Yigdzin-1, img. 172 returned nothing; the hand is native, the page 8700 px wide): the hal khyi's cell reads «ཧལ་ཁྱི། བུ་མོ།» (the hal khyi and the girl) as in the 1996 chart; no «མ་ལྔ» or «བུ་ལྔ» occurs in the pages read. The almanac's charts of img. 182 and 184 were not read by the machine; the cell of the dragon's day-time was not looked for further than one chart of img. 184, and the machine reading of those two images was not finished.
+
+## Open and searched (RD87)
+
+RD87, 2026-10-28: pp. 185–186 line by line on the Gser thang reprint (I3CN5029 img. 191–192, crops 1x to 2.8x; no model run, no new scan). Settled by the scan: the print's numbers: hal khyi 16, a bracket of nine numbers 17–25, then Dkar-sham 26, Sbal-te 27, Langging 28, Tsang-kun 29 (the pool's «no. 19» for Langging is its own order); «ཀླུང» in Langging's line stands again; no line of p. 185 gives a seat to any mother or son. Not settled: the seats and the order of the mothers and sons, the meaning of the nine numbers, the sun's klung.
+
+**Open**
+
+Question: On p. 185 the print carves nine numbers (17–25) after «མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ» and the next lord, Dkar-sham, is 26, although five mothers and five sons are ten: which places do the nine numbers count, and does the hal khyi's own place or one of the sons share one?
+
+**Searched and not found**
+
+- A seat, a direction or an order of the pairs for the hal khyi's mothers and sons in the verse, the note and the remedy lines to the foot of p. 185 (Gser thang reprint img. 191, read line by line by eye, 2026-10-28): none; the lines say only 22 days to each pair and 110 in all.
+- The word of the sun's klung explained in the four blocks of p. 186 (img. 192, by eye): the block of Langging gives the table of twelve year-pairs and the line «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད» and no gloss; Dkar-sham and Sbal-te give a seat and a turn (to the left, three days after), Tsang-kun a turn sixteen days after.
