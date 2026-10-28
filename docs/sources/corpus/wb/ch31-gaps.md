@@ -7,6 +7,8 @@ read: machine
 
 Sigla, numbering and quoting rules are in [README.md](../../README.md).
 
+RD72 (2026-10-28) read p. 99, p. 210's opening lines, p. 376 and the notes' pp. 498, 515, 530 for the day-time and the grave (passages `wb.2:p99c`, `p210a`, `p376c`, `p498b`, `p515b`, `p530b`) and the year charts of vol. 1 (`wb.1:p116-121`).
+
 RD69 (2026-10-28) read p. 186, pp. 210, 219 and 185 on the scan and the etexts (passages `wb.2:p186d`, `p219c`, `p210c`, `p185d`).
 
 
@@ -15,6 +17,26 @@ RD69 (2026-10-28) read p. 186, pp. 210, 219 and 185 on the scan and the etexts (
 Read for RD56, 2026-10-25: WB vol. 2, ch. 31 pp. 175–176, 224–225, 236–237 and 240 (1996 print, I1KG12907 img. 183–184, 232–233, 244–245, 248; the Gser thang reprint I3CN5029, image = page + 6, img. 181–182, 230–231, 242–243, 246), the pages `kb.py coverage wb` listed as unread. Yigdzin-1 over every image (img. 245 and 248 new, the rest from the shared folder) and MITRA over every image, as witness; the two compared with `disagree.py`: nearly all of the flags are MITRA's own errors (its «ཉ», «ཅ», «ཀྱཻ» for the print's markers and numbers, «ལྟ» for «ལྷ»). On the Gser thang reprint by eye, in crops: p. 176's last lines with the bracketed numbers (Yigdzin-1's «༡༠༡» is «(༡༠)»), p. 236's line of eleven bracketed numbers (Yigdzin-1 ran them together; read «(༥ ༦ ༧ ༨ ༩ ༡༠ ༡༡ ༡༢ ༡༣ ༡༤ ༡༥)»). The rest of the pages is the machine reading with those corrections, so each passage stands as **machine**; the bracketed numbers of the print are mostly lost in Yigdzin-1's reading and are written as it gave them, with the places named in the English where they matter. The English is a plain rendering of the sense; where a word or a line is not settled it says so in square brackets, and the page is to be read again before any reading is built on it. Pages 175–176 and 224–225 are the end of the fixed earth lords' list and the earth lords of the day's animal in the house; 236–237 the last two lords and the times, with Rāhu's course by the lunar date; 240 the chapter's close.
 
 Ch. 34's pages (pp. 378–384, 387, 407–411, 415–416) are in [ch34.md](ch34.md), read in the same run.
+
+## <a id="wb-2-p99c"></a>wb.2:p99c The corpse: the general slayers ox, sheep, dog, dragon, the slayer on the grave's year, and the day-time held chief
+
+*Read: scan, 2026-10-28.*
+
+> རང་དང་བདུན་ཟུར་དབང་ཐང་དགྲ། །སྤྱི་གཤེད་གླང་ལུག་ཁྱི་འབྲུག་དང་། །སྒོས་གཤེད་དུར་གྱི་ལོ་ཡི་ཐོག །… ཁྱད་པར་ཉི་དུས་གཙོ་བར་བཟུང་། །
+
+[The year, month, day and hour of] one's own, the seventh corner, the power's enemy; the general slayers (སྤྱི་གཤེད, spyi gshed), ox, sheep, dog and dragon; and, in particular, the slayer on the grave's year (སྒོས་གཤེད་དུར་གྱི་ལོ, sgos gshed dur gyi lo) … in particular the day-time (ཉི་དུས, nyi dus) is held chief.
+
+WB vol. 2, p. 99, in the passage of the corpse's door and slayer directions and what is avoided in sending it out (wb.2:p97-100 in ch29-remains.md). The lines are read on the Gser thang reprint (I3CN5029 img. 105, lines 20–22, crops at 1.5x): «རང་དང་བདུན་ཟུར་དབང་ཐང་དགྲ། །སྤྱི་གཤེད་གླང» ends line 19's tail and «ལུག་ཁྱི་འབྲུག་དང་། །སྒོས་གཤེད་དུར་གྱི་ལོ་ཡི་ཐོག» begins line 20; «ཁྱད་པར་ཉི་དུས་གཙོ་བར་བཟུང་» stands in line 22 (the etext reads «ཉི་དུས་ ་བར་བཟུང་», a word dropped). The line before them, «ལོ་ཟླ་ཞག་དུས་ལོ་རྟ་དག །རུས་ཀྱི་དགྲ་དུར་གཤིན་པོ་ཡི།» is Yigdzin-1's reading, not read by eye. The «…» is a few lines on the planets and mansions that repeat, the dead's mouse, bird and monkey years and the like.
+
+## <a id="wb-1-p116-121"></a>wb.1:p116-121 The year charts of ch. 13: the lords' names in the cells, no mothers and sons, no sun's klung
+
+*Read: machine, 2026-10-28.*
+
+> ༄༅། །བྱ་ར་བ། ཧལ་ཁྱི། བུ་མོ། སེ་བ་བླ་མཁྱེན། སེ་ཤར། ཙང་ཀུན། སེའུ་རང་ཏ། ཏ་ཁྲིད། པི་ལིང། བློན་པོ་ཙང་ཀུན། དམར་པོ། ཐེ་སེ་རྒྱལ་པོ། ཧང་ནི། གདན་འདིངས། ས་རྒྱལ་བཅུ་གཅིག བླ་མཁྱེན་ནང། སེ་བྱ་དུས་འཛིན། ཀུངས་མ་སྤྲུལ། ཐེ་ཁྱིམ། དྲག་དཔོན། གཉན་ལྡང།
+
+The names written in the cells of the first year chart of the page, round the year's animal, as Yigdzin-1 read them and left untranslated where the sense is not known: Bya ra ba (as printed), the hal khyi (ཧལ་ཁྱི, hal khyi), the girl (བུ་མོ, bu mo), the sme ba (སེ་བ, se ba) the life-knower (བླ་མཁྱེན, bla mkhyen), Se-shar (སེ་ཤར) and Tsang-kun (ཙང་ཀུན, tsang kun), Pi-ling (པི་ལིང, pi ling), the king Tese (ཐེ་སེ་རྒྱལ་པོ, the se rgyal po), Hang-ni (ཧང་ནི, hang ni), the eleven earth kings (ས་རྒྱལ་བཅུ་གཅིག, sa rgyal bcu gcig), the time-holder (དུས་འཛིན, dus 'dzin), Kungs-ma-sprul (ཀུངས་མ་སྤྲུལ), Thekhyim (ཐེ་ཁྱིམ, the khyim), the war-chief (དྲག་དཔོན, drag dpon, as read) and Nyan-ldang (གཉན་ལྡང, as read). The names only, no words of an account.
+
+The page of the year charts of WB vol. 1, p. 116 (the first two charts of the twelve; ch. 13, the almanac's fixed matter), on the Gser thang reprint of vol. 1 (I3CN5028 img. 123; image = page + 7; the page before, img. 122, is the table p. 115). Yigdzin-1's reading of the cells' words in the order it gave them, **machine**, not read by eye except that the page was viewed whole: each cell holds a name or two and no sentence. The same names, with «ལྦང་གིང་དམར་པོ» / «ལང་གིང» / «ཝང་གིང་དམར་པོ» (Langging the red, written three ways) and «ཀུངས་མ་རྒྱལ», «ཏེ་སོ་སྲས་པོ», «བྱ་ཁྱུང་ཀ་རུ» besides, stand in the cells of the next pages (img. 124–128, Yigdzin-1: pp. 117–121): the name and a word of place («མགོ། ལྦང་གིང», "head, Lbang-ging"), never the lord's mothers and sons nor «ཉི་མའི་ཀླུང». A search of the five pages' machine reading for «མ་བུ», «ཀླུང», «ཉི་མ», «ཉི་དུས», «དུར» found none of these.
 
 ## <a id="wb-2-p175b"></a>wb.2:p175b The sum of the year, month, day and time gods: 474 (RD63)
 
@@ -203,6 +225,16 @@ From the general account of the earth lords (ས་བདག་སྤྱི་�
 > སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉིར་ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན། །
 
 In general, on the days of the four last months one does not turn the face toward the bad direction; in particular one does not show the face on the grave days (དུར་ཉི, dur nyi); and more particularly one holds the day-time of where [Wangkhyi] stays (གནས་པའི་ཉི་དུས, gnas pa'i nyi dus). The close of the Wangkhyi paragraph (WB vol. 2, p. 210), read on the Gser thang reprint (I3CN5029 img. 216) in crops at 2x: the four lines are as the machine reading of RD63 gave them; the ox's own line («གླང་གི་ཉི་མ་དུས་ཚོད་ལ») was not read again by eye. What the other texts add. (1) «X-འི་ཉི་མ» is a day named by the animal in the other manuals too: the Bhutan collection (I1KG11905 etext p. 481, machine reading, not read on the scan) has «གླང་གི་ཉི་མར་ཟའདྲེ་ཤར་དུ་གོམ་པ་བཅུའི་སར་སོང་» ("on the ox's day the flesh-eating spirit goes ten paces east"), a rite of its own, where «གླང་གི་ཉི་མ» can only be the ox day. (2) The Bhutan collection's tables of the lords by year (etext p. 445, a cell of garbled letters, machine reading) put «ཝང་ཁྱི་འབྲུག་ཉི་དུས» ("Wangkhyi, the dragon's day-time") into one cell: the animal and «ཉི་དུས» are written as one name, as WB's «འབྲུག་གི་ཉི་དུས» is. (3) BDRC's search for the lines' own words (to «དུར་ཉིར་ཁ་མི་སྟོན», «ཉི་དུས་བྱང་ཕྱོགས་ངན», «གནས་པའི་ཉི་དུས་འཛིན») finds only the four copies of WB and the commentary's etexts, which have the same words; no text glosses «ཉི་དུས».
+
+## <a id="wb-2-p210a"></a>wb.2:p210a Wangkhyi's first lines: the black day-time is the direction of the mouth
+
+*Read: scan, 2026-10-28.*
+
+> ས་བདག་ཝང་ཁྱི་བྱ་བ་ནི། །ཐ་ཆུང་བཞི་ཡི་ཟླ་བ་ཞོན། །བཞོན་པའི་གཡང་གཞིའི་རྒྱལ་མཚན་འཕྱར། །ཁ་མིག་སྤར་གཟས་འཇིགས་པར་བྱས། །ཉི་དུས་ནག་པོ་ཁ་ཡི་ཕྱོགས། །ཞེས་དང་ས་བདག་སྤྱི་རྒྱུད་ལས། །
+
+The earth lord called Wangkhyi (ཝང་ཁྱི, wang khyi) rides the moon [month] of the four last [months]; the luck-base of his mount raises a banner; mouth and eyes are made fearful («སྤར་གཟས» as printed, not rendered); "the black day-time (ཉི་དུས, nyi dus) is the direction of the mouth"; and so [the text] says, and in the general account of the earth lords (ས་བདག་སྤྱི་རྒྱུད, sa bdag spyi rgyud) [the lines of p210b follow].
+
+The opening lines of the Wangkhyi paragraph (WB vol. 2, p. 210), the lines before the quotation of p210b, which earlier readings did not quote. Read on the Gser thang reprint (I3CN5029 img. 216, the paragraph beside the woodcut, its third line at 1.5x: «ཉི་དུས་ནག་པོ་ཁ་ཡི་ཕྱོགས། །ཞེས་དང་ས་»); the lines before it are Yigdzin-1's reading, which agrees with the 1996 etext (p. 218) except its «ལ༷ང་ཁྱི» for «ཝང་ཁྱི» and a number «༤» where the etext has the bracketed «(༤༩)». So WB's own verse already speaks of «the black ཉི་དུས» as a thing with a direction its mouth faces; the lines that follow (p210b) are the other source's account of the same.
 
 ## <a id="wb-2-p219b"></a>wb.2:p219b The light-clearer: behind the grave, the lower neighbour, the upper slayer (RD63)
 
@@ -470,8 +502,65 @@ Question: On p. 185, where do the black hal khyi's five mothers and five sons si
 
 ## Ch. 31's Wangkhyi day-time, the «དུར» of the light-clearer and the sun's klung in the commentaries (RD72)
 
-Nothing read yet: RD72's passages, with the English beside them, go here.
+RD72's passages (pages 99, 210, 376, the notes' 498, 515, 530, the year charts) and its closing section follow.
 
+## <a id="wb-2-p376c"></a>wb.2:p376c The day and the hour written side by side, and the hour rules
+
+*Read: scan, 2026-10-28.*
+
+> ཉི་མ་དུས་ཚོད་མི་འདྲ་ན། །དུས་ཚོད་མཚོན་ཆ་རྣོ་བས་གཙོ། །
+
+If the day (ཉི་མ, nyi ma) and the hour (དུས་ཚོད, dus tshod) do not agree, the hour, whose weapon (མཚོན་ཆ, mtshon cha) is sharp, rules.
+
+WB vol. 2, p. 376, the rule on weighing the factors of a work, the day and the hour named side by side as two things that can disagree. Read on the Gser thang reprint (I3CN5029 img. 382), the line at 1.5x; the page is quoted at weighing.md (wb-2-p376). Here only for the pairing: «ཉི་མ» is the day (the day's animal), «དུས་ཚོད» the hour, and WB writes them together as «ཉི་མ་དུས་ཚོད».
+
+## <a id="wb-2-p498b"></a>wb.2:p498b The notes: a rite on the sheep's day and hour, free of the seventh corner, enemy and grave
+
+*Read: scan, 2026-10-28.*
+
+> …གསོ་བ་ལུག་གི་ཉི་མ་དང་དུས་ཚོད་ལ་མིང་གསར་བཏགས་གོས་སེར་པོར་བསྒྱུར་བ་ལྟ་བུའོ། །གཏོ་རྣམས་བྱེད་དུས་རང་ལོའི་མ་སོགས་བཟང་འཕྲད་ཀྱི་ཉི་མ་དུས་ཚོད་བདུན་ཟུར་དགྲ་དུར་སོགས་མེད་པ་བཟང་ངོ། །
+
+"… [for example] to heal, on the sheep's day and hour (ལུག་གི་ཉི་མ་དང་དུས་ཚོད, lug gi nyi ma dang dus tshod) a new name is given and the clothes changed to yellow. When the gto rites (གཏོ, gto) are done, a day and hour that meet well, such as with one's own year's mother, are good if they are free of the seventh corner (བདུན་ཟུར, bdun zur), the enemy (དགྲ, dgra), the grave (དུར, dur) and the like."
+
+From Mipham's notes on WB, vol. 2, p. 498 (the notes' section 4, on the reckoning for the dead), the lines after the trigram-«gud pa» sentence. Read on the Gser thang reprint (I3CN5029 img. 504), three crops at 1.5x (lines 11, 12 and 13 of the page; the first words «གསོ་བ་ལུག་གི་ཉི» end line 11 and «མ་དང་དུས་ཚོད་ལ» begin line 12); the sense of the first sentence, which begins on the line before, is not rendered whole. What matters: the rite is done «on the sheep's day and hour» (ཉི་མ་དང་དུས་ཚོད), and the next sentence calls the same thing «ཉི་མ་དུས་ཚོད» with the same animal-evils to be absent from it: seventh corner, enemy, grave.
+
+## <a id="wb-2-p515b"></a>wb.2:p515b The notes: the grave-eye is the grave year of the life force, and the klung road the klung-horse year
+
+*Read: scan, 2026-10-28.*
+
+> དུར་མིག་ཐོག་ཞེས་གཤིན་པའི་སྲོག་གི་དུར་ལོ་གནས་པ་སྟེ། སྟག་ཡོས་ལོ་པའི་ལྷོ་ནུབ་ལུག་ལྟ་བུ། ཀླུང་ལམ་ཞེས་པ་གཞུང་གི་དཔེ་བརྗོད་ལྟར་རང་རང་གི་ཀླུང་རྟའི་ལོ་ཐོག གྲོགས་ཐོག་སྤང་བ་ནི་གཞུང་ན་གསལ།
+
+"«On top of the grave-eye» (དུར་མིག་ཐོག, dur mig thog) is where the grave year of the dead's life force (སྲོག, srog) stands: for a tiger or hare person, the south-west, the sheep, for instance. «The klung road» (ཀླུང་ལམ, klung lam) is, as the text's example has it, on the year of each one's own klung-horse (ཀླུང་རྟ, klung rta); avoiding the friend's top is clear in the text."
+
+Mipham's notes on WB (vol. 2, p. 515, the notes' section 4, on the lines of p. 99's list «དུར་མིག་ཐོག་དང་ཀླུང་ལམ་ཞེས»), read on the Gser thang reprint (I3CN5029 img. 521, lines 15–16 at 1.5x). Two facts: the grave of a life force is a single animal, for the tiger and hare the sheep; and «klung» in WB's reckoning for the dead is the person's klung-horse year, an animal.
+
+## <a id="wb-2-p530b"></a>wb.2:p530b The notes: the bride's own grave and slayer's grave by her life force, and the slayer's-grave day
+
+*Read: scan, 2026-10-28.*
+
+> རང་དུར་གཤེད་དུར་བག་ལོའི་སྲོག་དང་བསྟུན་པ་སྟེ་དཔེར་ན་ས་ཕག་ལོ་མར་རང་དུར་ཆེ་བ་ས་འབྲུག་ཆུང་བ་ས་ཁྱི་གཤེད་ཆེན་ཤིང་འབྲུག་ཆུང་བ་ཤིང་ཁྱིའི་ཟླ་བ་ལ་བརྫང་ན་ངན་པ་ལྟ་བུའོ། །བག་མ་རང་སྐྱེ་དུས་ཀྱི་ཉི་མ་གང་ཡིན་ལ་བག་ལ་སོང་ན་ངན་པ་སོགས་གོ་སླ། །གཤེད་དུར་ཉི་མ་བག་མའི་སྲོག་དང་སྦྱར་ཏེ་བལྟའོ། །
+
+"The own grave (རང་དུར, rang dur) and the slayer's grave (གཤེད་དུར, gshed dur) go with the bride year's life force (སྲོག, srog): for example for an earth-pig bride the own grave is great, earth-dragon, small, earth-dog; the great slayer wood-dragon, the small wood-dog; if she is sent in the month of those it is bad. If the bride goes [to the groom's house] on the day and hour of her own birth, whatever it is, that is bad, and so on, easily understood. The slayer's-grave day (གཤེད་དུར་ཉི་མ, gshed dur nyi ma) is looked at joined with the bride's life force."
+
+Mipham's notes on WB (vol. 2, p. 530, the notes' section on the bride's departure, the three last sentences of the paragraph on the bride's months), read on the Gser thang reprint (I3CN5029 img. 536, lines 26–28 at 1.5x). The sentences before them (the triad's own grave, the «ཡར་མར་བཞི་གཤེད» upper and lower four slayers of the birth month, from line 22 on) are Yigdzin-1's reading only: «བག་མ་ཕག་ལུག་ཡོས་གསུམ་ལུག་གི་ཟླ་བ་ལ་བརྫང་ན་ངན་ཏེ་མཐུན་གསུམ་རང་རང་གི་ནང་གི་དུར་ལོ་དེ་ལ་ངན་པའོ། །བག་མ་རང་གི་སྐྱེས་ཟླའི་ཡར་མར་བཞི་གཤེད་ཀྱང་ངན། ཟླ་ནག་གནམ་ལོའི་ཡར་བཞི་མར་བཞི་སྟེ་སྤྱི་ལྟར་རོ།» ("a pig, sheep or hare bride sent in the sheep's month is bad; each of the triad is bad for its own inner grave year; the upper and lower four slayers of her birth month are bad too; the black month, the sky year's upper four and lower four, as in general"). Facts: the grave of a bride's life force is a pair of great and small animals within the dragon-dog-ox-sheep four (for an earth-pig bride the dragon and the dog, in earth and in wood); «གཤེད་དུར་ཉི་མ» is a day, the slayer's-grave day, and is read with the life force; and «ཉི་མ» is again the day by itself: «རང་སྐྱེ་དུས་ཀྱི་ཉི་མ», the day of one's own birth hour.
+
+
+## Open and searched (RD72)
+
+RD72, 2026-10-28: questions 442, 443, 439, 28, 29, 35 and 36 against WB's own other uses of the words, the notes, the year charts of vol. 1 and Steinert's dictionaries. Passages p99c, p210a, p376c, p498b, p515b, p530b (scan) and wb.1:p116-121 (machine); claims `wb-nyi-dus-is-the-day-and-hour`, `wb-dur-is-one-of-the-four-slayer-animals`, `wb-year-charts-hold-names-only`, `wb-klung-is-the-klung-horse-year`. Settled in sense: «ཉི་དུས» is the day and the hour (q442, q29). Narrowed: the «དུར» is one of ox, sheep, dog, dragon, the count for the months not said (q443, q28); the klung is an animal (q35). Not settled: the mothers' and sons' seats (q36), q439.
+
+**Open**
+
+Question: On p. 219 does the light-clearer's «དུར» in the tiger, snake, monkey and pig months follow the element of the month's animal (sheep, dog, ox, dragon: wood, fire, iron, water; the rule of the dictionaries and of the notes' tiger-hare example) or the triads of ch. 23 (dog, ox, dragon, sheep)?
+
+Question: On p. 210, when Wangkhyi's «གླང་གི་ཉི་མ་དུས་ཚོད» is "the ox's day and hour", must the ox day and the ox hour fall together (the notes' «ལུག་གི་ཉི་མ་དང་དུས་ཚོད»), or is the ox day at any hour, or the ox hour on any day, enough?
+
+**Searched and not found**
+
+- Steinert's 64 dictionaries (`locate.py dict`, a fresh clone, Wylie headwords), 2026-10-28: «nyi dus», «nyi ma dus tshod», «nyi ma'i dus tshod», «nyi ma'i klung», «wang khyi» (Hopkins only: a sa bdag monster), «wang ging», «lang ging», «ma lnga bu lnga», «dur nyi», «dur gyi steng», «dur lo», «dur mi», «gshed bzhi», «dur 'phrod» have no headword that glosses them; «dur mig», «rang dur» and «klung rta» only in no. 62 (used in the claims).
+- BDRC's full-text search, 2026-10-28: «ཉི་དུས» (299 hits, almost all run-ons of other words in sadhanas, e.g. «pad nyi dus mtshan», not this term; the astrological hits are WB's copies), «ཉི་མ་དུས་ཚོད» and «ཉི་མའི་དུས་ཚོད» (51 and 68 hits: WB's own pages, the *Rin chen gter mdzod* («phyogs ngan nyi ma dus tshod ngan pa zlog», the bad direction's day-time turned back), Karma chags med's «zla ba nyi ma dus tshod dang», the month, the day and the hour, listed in a row), «ཝང་ཁྱི» (WB's copies, the Bhutan collection, the 1996 and Gser thang etexts), «ཝང་གིང», «དུར་ཉི» (54 hits, WB's pages and Bon scriptures): none gives a gloss of Wangkhyi's «ཉི་དུས» or of the light-clearer's «དུར».
+- The year charts of vol. 1 pp. 116–121 (the hal khyi's chart, Yigdzin-1 on I3CN5028 img. 123–128): names only, no mothers and sons, no sun's klung, no day counts.
+- The commentary *Dpyod ldan snying nor* stays search-only: its snippets are WB's own words.
 
 ## Ch. 31's «ཡོ་ནས» of the rat day and the herdsman's tent in the dictionaries and the Bhutan tables (RD74)
 
