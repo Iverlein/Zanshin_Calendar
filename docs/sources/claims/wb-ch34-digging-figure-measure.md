@@ -1,0 +1,15 @@
+---
+kind: claim
+type: rule
+terms: [mtho, klu-brgyad, khru-gang]
+cites: ['wb.2:p387']
+feeds: [block-25]
+open: []
+---
+# Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep
+
+On p. 387 the digging rite's figure is drawn as large as the plot examined, and its length is ten *mtho* (མཐོ, *mtho*), a unit of length taken from the figure itself, not a fixed number of feet or one's own body. WB's «རང་མཐོ་བཅུ་པའི་ཚད» is read "the measure of its own ten *mtho*"; the same page then gives the parts in *mtho*: the measuring stake half a *mtho*, the face one, the chest the same, the navel one *mtho* and six finger-breadths, the secret place the centre of the plot, and from there down the tail. The Bhutan digest of WB (*'Bras rtsis bai dkar dgongs don*, in the *Collected Astrological and Prognosticatory Texts from Bhutan*, Thimphu 1981, etext p. 314) states the sizes plainly: «ལུས་ཀྱི་དཀྱུས་སུ་མཐོ་བཅུ་པ། ཞེང་ལ་རང་ཞལ་དོ་ཡི་ཚད།», the body's length ten *mtho*, the width the measure of its own face and chest; «གདེངས་ཀ་ཞལ་སྙིང་ག་ལྟེ་བ་གསང་གནས་མཐོ་རེ་ལྔ། དེ་བཞིན་སྤྲུལ་མཇུག་མཐོ་ལྔར་འདོད།», the stake, face, heart, navel and secret place five *mtho* in all, and the tail likewise five. So the figure is ten *mtho* long, five of body and five of tail, and because it is scaled to the plot every plot gets the same proportions.
+
+«གླུ་བརྒྱད» of «དེ་ཡི་ལུས་ལ་གླུ་བརྒྱད་ཚང་» is the eight nāgas (ཀླུ་བརྒྱད, *klu brgyad*): the body is complete with the eight, and the lines that follow name exactly eight, each at a part of the body: Rigs-ldan at the tail, the strength-source at the secret place, the conch-guardian (Dung-skyong) at the navel, Padma-chen at the arms, Nor-rgyas at the heart, 'Jog-po at the throat, Padma-dkar-po at the ears, Mtha'-yas at the crown. The Bhutan digest has the same at the same place: «ལུས་ལ་ཀླུ་བརྒྱུད་འོག་འཆད་བཞིན།», on the body the nāgas as told below, and the same list of eight (its p. 315–316). On the Gser thang reprint the head letter of the stack (img. 393, line 1, last syllable) cannot be told as ga or ka at the size of the scan; the sense and the Bhutan digest give ཀླུ, and the word is not a "song".
+
+«ཁྲུ་གང» is a cubit: the Bhutan digest has «དེ་ཡང་ཁྲུ་གང་ཙམ་བརྐོས་ལ།», "and having dug about a cubit" (p. 317), before the same signs, so the depth of the dug hole is one cubit. Not settled: the length of one *mtho* in feet, which neither text gives.
