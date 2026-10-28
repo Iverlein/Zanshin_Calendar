@@ -624,6 +624,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0443.md](questions/q0443.md) | question q443 | Which animal does the «དུར» of «དུར་གྱི་སྟེང» name for each of the four first months of the seasons | open; cites wb.2:p219c |
 | [questions/q0444.md](questions/q0444.md) | question q444 | Does the light-clearer's «དུར» follow the element of the month's animal or the triads of ch. 23 | open; cites wb.2:p219c |
 | [questions/q0445.md](questions/q0445.md) | question q445 | Must Wangkhyi's animal day and animal hour fall together | open; cites wb.2:p210a |
+| [questions/q0446.md](questions/q0446.md) | question q446 | What is «ཡོ» («ཁ་ཡོ») in the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» and what is served or led from it | open; cites wb.1:p133, wb.2:p224b |
+| [questions/q0447.md](questions/q0447.md) | question q447 | What does «སྦྲང་མ» stand for in «སྦྲང་མ་ཕུད་གཏོར» on p. 224 | open; cites wb.2:p224b |
 
 <!-- end pool index -->
 

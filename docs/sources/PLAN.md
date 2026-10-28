@@ -1086,3 +1086,8 @@ Searched and found wanting, so not to be repeated:
 - **RD75 (2026-10-28)** (RD75, 2026-10-28):
   - Steinert's 64 dictionaries on ch. 27's words: «ཚད་ཟླ» only in Valby (brother); «མག་རྒུད», «མག་སྐུད», «བུ་ཚར», «བུར་ཞོགས», «ཞུར་ཞོགས», «བརྗེ» as monk or spiritual friend, «ཤིང་ལུག་པ» as the cow's class, «རྔམས» or «རྔ་མས» in the tadpole line: no headword settles any of them.
   - ZG on p. 9 l. 16 and p. 17: «ཟླ་སྟོན», «ཞག་བཅུ་ཚུན», «ལྕོང་མོ», «རུས་པ» as a bone of the turtle: 0 hits in ZG's etext; ZG does not quote the children's circle's remedy lines nor the soldiers' reckoning.
+- **RD74 (2026-10-28)** (RD74, 2026-10-28):
+  - Steinert's 64 dictionaries: no headword «ཡོ་ནས», «ཁ་ཡོ་ནས», «ཧལ་ཁྱི», «ཉི་མའི་ཀླུང», «མ་ལྔ་བུ་ལྔ»; «ཁ་ཡོ» only in Valby (mouth crooked); «ཁ་ཡོག» is a false charge.
+  - BDRC full-text search: «ཁ་ཡོ་ནས་འདྲེན» 0 hits; «ཁ་ཡེ་ནས་འདྲེན» 1 (the Bhutan table); «ཡོ་ནས་འདྲེན» 8 (WB's five copies, the Bhutan collection, two copies of a sentence of Ngawang Kunga Sonam); «ཁ་ཡོ་ནས» 3, all the Bon Klu 'bum collections; no text glosses WB's pair.
+  - The Bhutan collection's tables (I1KG11905 img. 571, etext pp. 451, 570): no gloss beside the table; the second table's OCR is too corrupt past the dog and rat days.
+  - The other cells of WB vol. 1 p. 133's twelve-day table, the Sakya Centre print and the «ཁ་ཡོ» 628-hit list were not read.
