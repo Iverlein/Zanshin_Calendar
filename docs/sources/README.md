@@ -309,7 +309,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
-| [claims/wb-ch34-digging-figure-measure.md](claims/wb-ch34-digging-figure-measure.md) | claim, rule | Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep | cites wb.2:p387; feeds block-25 |
+| [claims/wb-ch34-digging-figure-measure.md](claims/wb-ch34-digging-figure-measure.md) | claim, rule | Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep | cites wb.2:p387, wb.2:p281; feeds block-25 |
 | [claims/wb-ch34-gdong-thug-shunned.md](claims/wb-ch34-gdong-thug-shunned.md) | claim, rule | གདོང་ཐུག་གནས in the fierce rites is the lord's seat that one would face | cites wb.2:p427b; feeds block-25 |
 | [claims/wb-ch34-khyad-par-du-closing.md](claims/wb-ch34-khyad-par-du-closing.md) | claim, note | ཁྱད་པར་དུ in the closing verse singles out the person's rise and decline, no ranking stated | cites wb.2:p428b; feeds block-25 |
 | [claims/wb-ch34-list-65-works.md](claims/wb-ch34-list-65-works.md) | claim, list | The numbered list of ch. 34's works and the sixty-five examinations | cites wb.2:p378-384; feeds — |
@@ -395,6 +395,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 13 passages: 6 scan, 7 machine |
+| [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 1 passages: 1 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 3 passages: 2 scan, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 7 passages: 3 scan, 4 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |

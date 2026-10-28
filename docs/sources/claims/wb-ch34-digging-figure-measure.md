@@ -2,7 +2,7 @@
 kind: claim
 type: rule
 terms: [mtho, klu-brgyad, khru-gang]
-cites: ['wb.2:p387']
+cites: ['wb.2:p387', 'wb.2:p281']
 feeds: [block-25]
 open: []
 ---
@@ -12,4 +12,4 @@ On p. 387 the digging rite's figure is drawn as large as the plot examined, and 
 
 «གླུ་བརྒྱད» of «དེ་ཡི་ལུས་ལ་གླུ་བརྒྱད་ཚང་» is the eight nāgas (ཀླུ་བརྒྱད, *klu brgyad*): the body is complete with the eight, and the lines that follow name exactly eight, each at a part of the body: Rigs-ldan at the tail, the strength-source at the secret place, the conch-guardian (Dung-skyong) at the navel, Padma-chen at the arms, Nor-rgyas at the heart, 'Jog-po at the throat, Padma-dkar-po at the ears, Mtha'-yas at the crown. The Bhutan digest has the same at the same place: «ལུས་ལ་ཀླུ་བརྒྱུད་འོག་འཆད་བཞིན།», on the body the nāgas as told below, and the same list of eight (its p. 315–316). On the Gser thang reprint the head letter of the stack (img. 393, line 1, last syllable) cannot be told as ga or ka at the size of the scan; the sense and the Bhutan digest give ཀླུ, and the word is not a "song".
 
-«ཁྲུ་གང» is a cubit: the Bhutan digest has «དེ་ཡང་ཁྲུ་གང་ཙམ་བརྐོས་ལ།», "and having dug about a cubit" (p. 317), before the same signs, so the depth of the dug hole is one cubit. Not settled: the length of one *mtho* in feet, which neither text gives.
+«ཁྲུ་གང» is a cubit: the Bhutan digest has «དེ་ཡང་ཁྲུ་གང་ཙམ་བརྐོས་ལ།», "and having dug about a cubit" (p. 317), before the same signs, so the depth of the dug hole is one cubit. The length of one *mtho* (RD66, 2026-10-28): it is not a length in feet at all but a tenth of the plot. WB's ch. 32 gives the same figure of the earth lord Lto-'phye (ལྟོ་འཕྱེ, *lto 'phye*) on p. 281 (wb.2:p281, Gser thang reprint img. 287): the extent of the figure equals the extent of the plot («ཆེ་ཚད་འཛིན་མའི་ཁྱོན་མཉམ»); the plot is divided each way into ten great parts («ཆ་ཆེན་བཅུ་བཅུར་ཕྱེ»), each holding nine small parts («ཆ་ཕྲན་དགུ་རེ»), ninety squares to a side; the body is ten *mtho* long («ལུས་ཀྱི་དཀྱུས་སུ་མཐོ་བཅུ་པ»), the stake, face, heart, navel and secret place one *mtho* each and the tail five; and the worked example counts the stake, face and heart as three great parts, twenty-seven small parts. So one *mtho* is one great part of the plot's length, whatever the plot's size. This is the reading «རང་མཐོ་བཅུ་པའི་ཚད» of p. 387 asks for, and the Bhutan digest's lines are the same words. What stays unsettled: p. 387's own example makes the stake half a *mtho* and the navel a *mtho* and «སོར་དྲུག» (six finger-breadths), where ch. 32's count gives the stake a whole *mtho*; the six finger-breadths are not given as a fraction of a *mtho* anywhere read (the only finger count of a *mtho* read, «མཐོ་རེར་སོར་ཕྱེད་བཅུ་གསུམ», twelve and a half, is the measure of a Buddha's image in the 1996 etext's [p444], a different thing and not applied to a plot).
