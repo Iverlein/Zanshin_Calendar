@@ -1091,3 +1091,5 @@ Searched and found wanting, so not to be repeated:
   - BDRC full-text search: «ཁ་ཡོ་ནས་འདྲེན» 0 hits; «ཁ་ཡེ་ནས་འདྲེན» 1 (the Bhutan table); «ཡོ་ནས་འདྲེན» 8 (WB's five copies, the Bhutan collection, two copies of a sentence of Ngawang Kunga Sonam); «ཁ་ཡོ་ནས» 3, all the Bon Klu 'bum collections; no text glosses WB's pair.
   - The Bhutan collection's tables (I1KG11905 img. 571, etext pp. 451, 570): no gloss beside the table; the second table's OCR is too corrupt past the dog and rat days.
   - The other cells of WB vol. 1 p. 133's twelve-day table, the Sakya Centre print and the «ཁ་ཡོ» 628-hit list were not read.
+- **RD77 (2026-10-28)** (RD77, 2026-10-28):
+  - A third look at the three Taikhang syllables of pp. 9 and 17: the first letter of «[?]ུར» (p. 17 l. 26, img. 33 line 1, at 4 and 5 times), the stack after «ལྕོང་མོའི» (p. 17 l. 9, img. 32, 4 times) and the stack after «མག» (p. 9 l. 6, img. 20, 4 times) are fused ink on the Taikhang and are told by neither head nor foot; no crop settled them.
