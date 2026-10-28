@@ -71,6 +71,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-is-the-monk.md](claims/ch27-brje-set-is-the-monk.md) | claim, note | Ch. 27: the set of four headed «བརྗེ» is the monk's | cites wb.2:p23-25; feeds block-31 |
+| [claims/ch27-brje-set-zg-spiritual-friend.md](claims/ch27-brje-set-zg-spiritual-friend.md) | claim, note | Ch. 27: ZG puts the «བརྗེ» set at the spiritual friend's | cites wb.2:p23-25, zg:p348-349, wb.2:p195; feeds block-31 |
 | [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-element-two-manuals.md](claims/ch27-element-two-manuals.md) | claim, note | Whose element: two manuals' example of the thirty, wood rat from the iron tiger | cites wb.1:p453, wb.2:p533b, zg:p303-304; feeds block-31 |
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
@@ -87,6 +88,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-taikhang-turtle-ten.md](claims/ch27-taikhang-turtle-ten.md) | claim, note | Ch. 27: the turtle's wood verse carves ten srin po on the Taikhang and the Zhol print | cites wb.2:p20b, wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
+| [claims/ch27-words-in-steinert-dictionaries.md](claims/ch27-words-in-steinert-dictionaries.md) | claim, note | Ch. 27: the unread words in Steinert's 64 dictionaries, and ZG's «ཚང་ཟླ» | cites wb.2:p9, wb.2:p17, wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p20-22, wb.2:p23-25; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
 | [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
 | [claims/ch28-bird-days.md](claims/ch28-bird-days.md) | claim, table | The sky-bird's days after the winter solstice | cites wb.2:p29-30, wb.2:p28-29; feeds block-31 |
@@ -431,7 +433,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 27 passages: 12 scan, 15 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
-| [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 3 passages: 2 scan, 1 machine |
+| [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 4 passages: 2 scan, 1 machine, 1 etext |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |

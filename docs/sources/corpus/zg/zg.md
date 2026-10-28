@@ -46,3 +46,20 @@ It has three parts: the basis, the way of reckoning and the results. The basis, 
 Second, the way of reckoning. For example, if the earth lord is a wood monkey, from the iron bird, the enemy of his element: from whatever each one's basis is, count upward the years of the one reckoned, as many as he has lived (དུ་ལོན, du lon); here there is no difference of male, female or the like. The life force, body, power, luck and mewa of the year where it falls are fought by the life force, body, power, luck and body mewa (ལུས་སྨེ, lus sme) of the one reckoned. For example, a wood monkey and an iron bird: the life force meets itself, the body is the son, the power becomes the enemy. A meeting of mother or friend, and of earth or water with itself, lays a white pebble; of son or enemy, and of wood, iron or fire with itself, a black one.
 
 So the *Garland* starts the first circle of a wood-monkey king from the iron bird, iron being wood's enemy, and the wood is the king's power (the wood of the wood monkey, the element the year is named by); it is his luck too (a monkey's luck is wood), so the example alone does not choose between the two, but the tenth circle's fine way names the power (དབང་ཁམས) outright, as the notes do (vol. 2, p. 533). It counts upward by the years lived for every person, man or woman; and it fights the reached year's mewa with the reckoned person's body mewa (claim circles-zg-worked).
+
+## <a id="zg-p348-349"></a>zg:p348-349 The second set of ch. 27's cherished pebbles in ZG: the spiritual friend's
+
+*Read: etext, 2026-10-28.*
+
+> གཉིས་པ་དགེ་བའི་བཤེས་ཀྱི་སྐུ་སྲོག་རྡེལ། །དཀར་ན་གསེར་རྡོར་གནམ་དུ་མ་ཡལ་བཟང་། །ནག་ན་སྐུ་ཚེའི་བར་ཆད་འབྱུང་ཉེ་བས། །སྤོང་དག་འབུམ་བཀླགས་བསྙེན་སྒྲུབ་ལས་མཐར་དབྱུང་། །ལུས་དཀར་དབང་བུམ་ཕྱག་ནས་མ་ཤོར་བཟང་། །ནག་ན་སྣོད་མིན་འཁོར་འདུ་ཆོས་བཅུད་ཉུང་། །ལྷུན་གྱིས་ཟིན་ངོ་གཟུངས་སྒྲུབ་བདུད་བཟློག་དང་། །སྡོམ་པ་བསླར་བསྐྱར་ཏོག་གཟུངས་བརྒྱ་རྩ་འདོན། །དབང་དཀར་ཤེལ་ཕྲེང་ཐག་པ་མ་ཆད་བཟང་། །ནག་ན་གཞན་དོན་བར་ཆད་མཛད་ཕྲིན་གུད། །ཀླུང་དཀར་གཡུ་ཡི་མཎྜལ་མ་གྲུབ་བཟང་། །ནག་ན་མི་ཁ་གཤེ་བསྐུར་ལྕེ་ཡིས་འཇིགས། །སྨེ་དཀར་སེང་ཁྲི་མ་སྟོང་བརྟན་ཅིང་དགེ། །ནག་ན་བཞུགས་ཡུལ་འཕོ་སྐྱས་སྐུ་ཚེར་གཟན། །གསུམ་པ་རིག་འཛིན་སྔགས་འཆང་སྐུ་སྲོག་རྡེལ། །དཀར་ན་གསེར་རྡོར་མཁའ་ལ་མ་ཡར་བཟང་། །
+
+(Etext of ZG, I4PD2444 p. 348 last line to p. 349; the verse's first and second lines, p. 348 last line and p. 349 line 1, read on the scan, img. 348-349; the rest etext only, typeset and clear, not read on the scan.)
+The second set, "the life-force pebble of the spiritual friend (དགེ་བའི་བཤེས, dge ba'i bshes)": life force white, the golden vajra does not vanish in the sky, good; black, obstacles to the body's life are near, so purification, the hundred-thousand reading and a retreat. Body white, the empowerment vase is not lost from the hand; black, a vessel unfit, the assembly's following and the teaching's essence small. Power white, the crystal rosary's string unbroken; black, the work for others obstructed and the activity declining. Luck white, the turquoise maṇḍala not undone; black, rumour and the tongue's fear. Mewa white, the lion throne not empty, firm and virtuous; black, change of seat and harm to the body's life. Third: "the life-force pebble of the awareness-holder, the mantra-holder (རིག་འཛིན་སྔགས་འཆང, rig 'dzin sngags 'chang)": white, the golden vajra rises in the sky.
+
+## <a id="zg-p352"></a>zg:p352 ZG's verse on the black water-spirit pebble: «ཚང་ཟླ་མག་སྐུད»
+
+*Read: scan, 2026-10-28.*
+
+> ཀླུང་དཀར་སྲིད་ཀྱི་ཆུ་མིག་མ་སྐམ་བཟང་། །ནག་ན་ཚང་ཟླ་མག་སྐུད་བུ་ཚར་ངན། །
+
+(ZG p. 352, I4PD2444 img. 352, lines 3-4; the second line's «ནག་ན་ཚང་ཟླ་མག» end of line 3 and «སྐུད་བུ་ཚར་ངན» start of line 4 read on the scan at 3.5 times.) Luck white: the water source of existence is not dried, good. Black: the household's comrades, the line of sons-in-law (མག་སྐུད, mag skud) and the child's side (བུ་ཚར) bad.
