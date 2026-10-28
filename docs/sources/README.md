@@ -428,7 +428,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 33 passages: 20 scan, 13 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 1 passages: 1 machine |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 37 passages: 2 scan, 34 machine, 1 etext; RD80 (2026-10-28): 9 passages on pp. 303–307, 334–336, 341–347, 349–350, machine reading only (tables not read) |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 46 passages: 3 scan, 42 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
@@ -638,6 +638,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0451.md](questions/q0451.md) | question q451 | What does «མ་རྒྱབ་གྲོགས་མདུན་གཏད་པ་གཅེས» ask for on p. 313 | open; cites wb.2:p313 |
 | [questions/q0452.md](questions/q0452.md) | question q452 | Is the mansion verses' ransom noun «རྗེན་ཕྱེ» or «རྫེན» in print | open; cites wb.2:p313b |
 | [questions/q0453.md](questions/q0453.md) | question q453 | Do the third triad's «ཕུང» and the editors' note on Bharaṇī (p. 329) rest on a nameable source | open; cites wb.2:p313, wb.2:p328-329 |
+| [questions/q0454.md](questions/q0454.md) | question q454 | Do the Kālacakra seed letters on the joints and the Phugpa Khadbon list of p. 303–304 agree date by date | open; cites wb.2:p303-304 |
+| [questions/q0455.md](questions/q0455.md) | question q455 | Which planet and mansion meet which vowel letter in p. 305's four meetings | open; cites wb.2:p305 |
+| [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | open; cites wb.2:p335-336, wb.2:p341-342 |
+| [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | open; cites wb.2:p349-350 |
+| [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | open; cites wb.2:p349-350 |
 
 <!-- end pool index -->
 
