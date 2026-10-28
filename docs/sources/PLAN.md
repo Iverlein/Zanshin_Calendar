@@ -1107,3 +1107,5 @@ Searched and found wanting, so not to be repeated:
   - A gloss of «ཁ་ཡོ» or «སྦྲང་མ» in the tables: none; no cell of either table names them. The Bhutan second table's cells and BDRC full-text search were not redone.
 - **RD81 (2026-10-28)** (RD81, 2026-10-28):
   - A rank of the Lto-'phye's parts by name (head, belly, back, tail) beyond p. 282's ninth part, back and tail: not found on pp. 276–294; p. 281's figure is the only place the parts are drawn.
+- **RD86 (2026-10-28)** (RD86, 2026-10-28):
+  - The direction of counting the eight places of a door side: not stated on p. 287 (img. 293, read by eye), nor in the page's own lines before and after the table; no commentary in the pool.
