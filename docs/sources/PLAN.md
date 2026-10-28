@@ -1111,3 +1111,6 @@ Searched and found wanting, so not to be repeated:
   - The direction of counting the eight places of a door side: not stated on p. 287 (img. 293, read by eye), nor in the page's own lines before and after the table; no commentary in the pool.
 - **RD85 (2026-10-28)** (RD85, 2026-10-28):
   - On the printed page itself (img. 319) nothing names the planet behind «ཕུང», the planet for «ཆུ་བདག», or the direction in which the friend is put; no gloss, note or interlinear word; the etext and other books were not searched.
+- **RD87 (2026-10-28)** (RD87, 2026-10-28):
+  - A seat, a direction or an order of the pairs for the hal khyi's mothers and sons in the verse, the note and the remedy lines to the foot of p. 185 (Gser thang reprint img. 191, read line by line by eye, 2026-10-28): none; the lines say only 22 days to each pair and 110 in all.
+  - The word of the sun's klung explained in the four blocks of p. 186 (img. 192, by eye, 2026-10-28): the block of Langging gives the table of twelve year-pairs and the line «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད» and no gloss.

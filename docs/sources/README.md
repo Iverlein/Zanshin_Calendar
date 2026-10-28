@@ -665,6 +665,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | open; cites wb.2:p366-368 |
 | [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | open; cites wb.2:p370 |
 | [questions/q0469.md](questions/q0469.md) | question q469 | Is the east line's «དང་» of the door table on p. 287 the first place cut short, and from which side are the places counted | open; cites wb.2:p287 |
+| [questions/q0470.md](questions/q0470.md) | question q470 | Which places do the nine numbers 17–25 after the hal khyi's mothers and sons count on p. 185 | open; cites wb.2:p185e |
 
 <!-- end pool index -->
 
