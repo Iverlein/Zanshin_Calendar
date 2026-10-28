@@ -75,6 +75,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
 | [claims/ch27-la-wandering-directions.md](claims/ch27-la-wandering-directions.md) | claim, conflict | Ch. 27: the la's wandering by the year, three prints agree | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md) | claim, conflict | Ch. 27: the meadow's ornament lays one verdict under each of a group's five | cites wb.2:p22, wb.2:p533-534, kd.3:p723, kd.3:p723b; feeds block-31 |
+| [claims/ch27-other-prints-and-etexts.md](claims/ch27-other-prints-and-etexts.md) | claim, note | Ch. 27's unread words on the Sakya, Zhol, rare-texts etexts: none changes a reading | cites wb.2:p16b, wb.2:p20b, wb.2:p9b, wb.2:p17c, wb.2:p23-25; feeds block-31 |
 | [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md) | claim, note | Ch. 27: the limb is «རུས་མིག», the bone-eye, on the reprint and the Zhol etext | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
 | [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md) | claim, note | Ch. 27: Sprugtön's sixteen limbs are sixteen pebbles beside the five verdict pebbles (75 = 50 + 16 + 5 + 4) | cites wb.2:p22-23, wb.2:p23-25, wb.2:p25; feeds block-31 |
@@ -357,6 +358,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
+| [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 10 passages: 10 scan |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
@@ -406,7 +408,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 27 passages: 12 scan, 15 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
-| [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 2 passages: 2 scan |
+| [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 3 passages: 2 scan, 1 machine |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
 | [questions/q0259.md](questions/q0259.md) | question q259 | Whose element starts the thirty and the thirteen circles | open; cites wb.1:p453, wb.2:p3, wb.2:p532-533 |
 | [questions/q0260.md](questions/q0260.md) | question q260 | Which trigram of the dead picks the grave provisions | open; cites wb.2:p129-132, wb.2:p522 |
