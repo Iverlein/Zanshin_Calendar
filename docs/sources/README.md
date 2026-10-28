@@ -593,7 +593,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0432.md](questions/q0432.md) | question q432 | What is the sun's klung (ཉི་མའི་ཀླུང) in Langging's list | open; cites wb.2:p186b |
 | [questions/q0433.md](questions/q0433.md) | question q433 | Where the black hal khyi's five mothers and five sons sit | open; cites wb.2:p185b |
 | [questions/q0434.md](questions/q0434.md) | question q434 | Does Langging's list put the dragon year on the dog or the mouse | open; cites wb.2:p186b |
-| [questions/q0435.md](questions/q0435.md) | question q435 | What is «ཉེར་ཐམ» in Zhechen Gyaltsab's sums of the meadow's ornament | open; cites zg:p300-301 |
+| [questions/q0435.md](questions/q0435.md) | question q435 | What is «ཉེར་ཐམ» in Zhechen Gyaltsab's sums of the meadow's ornament | answered; cites zg:p300-301 |
 | [questions/q0436.md](questions/q0436.md) | question q436 | Does the 9th hair date's result «ན་ཆུང་མོད་འགྱུར» count as a gain or a warning | open; cites wb.2:p378 |
 | [questions/q0437.md](questions/q0437.md) | question q437 | Does work 17's first syllable on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» | open; cites wb.2:p378 |
 | [questions/q0438.md](questions/q0438.md) | question q438 | How many finger-breadths is one mtho at the digging figure's navel (p. 387) | open; cites wb.2:p387 |

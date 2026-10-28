@@ -1057,3 +1057,6 @@ Searched and found wanting, so not to be repeated:
   - The Sakya Centre print (I1KG12739–40): etext too corrupt for phrase search, scans 1210 px wide, not read.
   - BDRC full-text search of the four passages' phrases: only copies of WB and the outline etext of the commentary Dpyod ldan snying nor (search only, no gloss) carry them.
   - Not searched: the hal khyi's year charts of vol. 1 pp. 116–121 and the Steinert dictionaries.
+- **RD70 (2026-10-28)** (RD70, 2026-10-28):
+  - A gloss of «ཉེར་ཐམ» as a word: none; BDRC's exact-phrase search (26 hits in 19 etexts) gives uses, not a definition; Steinert's dictionaries were not searched.
+  - ZG's meadow lines in another work: «ཡོངས་དྲིལ་རྩ་གཅོད» 1 hit (ZG only), «གསེར་ལོ་གཡུ་ལོ་དུང་ལོ» 1 hit (unrelated); «ཁ་དམར་སྤྱི་བསྡོམས» 5 hits, the Moonbeams' line again, three of them search-only works; no further manual gives the totals' use.
