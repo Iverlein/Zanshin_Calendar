@@ -434,7 +434,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 35 passages: 19 scan, 16 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 13 passages: 13 machine |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 50 passages: 3 scan, 46 machine, 1 etext (RD82, 2026-10-28: pp. 360–363, 366–368, 370 machine-read) |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 0 passages: nothing read yet |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
@@ -656,6 +656,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0462.md](questions/q0462.md) | question q462 | Which numerals and direction of counting does the outer door table of ch. 32 p. 287 carry | open; cites wb.2:p287 |
 | [questions/q0463.md](questions/q0463.md) | question q463 | What are «མཇུག་མ་གླང་ཆེན་རྟ་མ་ཉེ» on p. 282 and the ninth part of Lto-'phye | open; cites wb.2:p282 |
 | [questions/q0464.md](questions/q0464.md) | question q464 | What are «བུད་མེད་བུས་པ» on p. 283 and «ཁྱི་སྤྱང་བྲང་ཤུལ» on p. 294 | open; cites wb.2:p283-285, wb.2:p291-294 |
+| [questions/q0465.md](questions/q0465.md) | question q465 | Which earth lords of the date follow the Black Moon on pp. 361–363, and in what order | open; cites wb.2:p362-363 |
+| [questions/q0466.md](questions/q0466.md) | question q466 | Does the machine's order of hours against animals on pp. 360–361 hold on the scan | open; cites wb.2:p360-361 |
+| [questions/q0467.md](questions/q0467.md) | question q467 | Are the sky doors of pp. 367–368 fixed to dates or to days of the week, and who are the riders and skulls | open; cites wb.2:p366-368 |
+| [questions/q0468.md](questions/q0468.md) | question q468 | Which names do the year's, month's, day's and hour's earth lords carry in p. 370's invocations | open; cites wb.2:p370 |
 
 <!-- end pool index -->
 
