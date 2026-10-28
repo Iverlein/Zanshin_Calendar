@@ -466,3 +466,13 @@ Question: On p. 185, where do the black hal khyi's five mothers and five sons si
 - BDRC full-text search, 2026-10-28: «སྦྲང་མ་ཕུད་གཏོར» (2 hits: the 1996 print and the commentary *Dpyod ldan snying nor*), «སྦང་མ་ཕུད་གཏོར» (0), «ཐེམ་བུར་མི་འཚག» (3: the 1996 print, the Gser thang etext MW3CN5026, the Bhutan collection MW26041), «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག» (1: WB), «སྤྲ་ཁྱིམ་སྒོ་གཡས» (0) and «སྦྲ་ཁྱིམ་སྒོ་གཡས» (3: WB's prints, the commentary's outline etext), «ཉི་མའི་ཀླུང་རྟ» (0), «ཧལ་ཁྱིའི་མ་བུ» and «ཧལ་ཁྱི་མ་བུ» (0), «མ་ལྔ་བུ་ལྔ་བཅས» (1: the Gser thang etext), «ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར» (4: WB's four copies): no text other than a copy of WB carries these lines, and none explains them.
 - The commentary *Dpyod ldan snying nor* (MW2PD17386_D19206) is an outline etext open to search only (the etext API answers 403, scans not available): its snippets give WB's own words, no gloss.
 - Taikhang img. 362–363 and 374–375 were read by Yigdzin-1 on a wrong guess of the page numbers (the rat day is on img. 323, the black times on img. 339) and not used.
+
+
+## Ch. 31's Wangkhyi day-time, the «དུར» of the light-clearer and the sun's klung in the commentaries (RD72)
+
+Nothing read yet: RD72's passages, with the English beside them, go here.
+
+
+## Ch. 31's «ཡོ་ནས» of the rat day and the herdsman's tent in the dictionaries and the Bhutan tables (RD74)
+
+Nothing read yet: RD74's passages, with the English beside them, go here.
