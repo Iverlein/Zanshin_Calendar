@@ -1127,3 +1127,7 @@ Searched and found wanting, so not to be repeated:
   - A gloss of «ཇི་ནོང» (BDRC's etext of the 1996 print and the G.ya' sel, for «ཇི་ནོང», «ཟི་ནོང», «ཞི་ནོང», 2026-10-28): only p. 3's gloss itself; no other use.
   - «འུར་ཞོགས», «རྔ་མས» and «ཚད་ཟླ» elsewhere in WB's 1996 etext (2026-10-28): «འུར་ཞོགས» not found (the etext's p. 17 l. 26 is garbled); «རྔ་མས» only at p. 17 l. 9; «ཚད་ཟླ» only at p. 9 l. 6, «ཚང་ཟླ» once in the marriage reckoning, which does not gloss «ཚད».
   - A word for an element other than «དབང» as a start (ch. 27 pp. 3, 9, 17, both scans, 2026-10-28): none names the life force's, the body's or the luck's element.
+- **RD91 (2026-10-28)** (RD91, 2026-10-28):
+  - The verb after «ཡ་ཐེམ» on p. 294 (I3CN5029 img. 300, l. 7, at 7×; I1KG12907 img. 302 at 12×, 2026-10-28): a blot with sa on top; «སྤྲས» not told from «སྦས».
+  - The Sde-dge print (WB2, I1KG12740 img. 408) as a third witness for p. 282 (2026-10-28): the scan carves the letters at about ten pixels, «ཧེ» not told from «དེ» at 5×; its etext is garbled on the line and has no hit for «བུད་མེད་བུས», «བྲང་ཤུལ» or «ཡ་ཐེམ་སྦས/སྤྲས».
+  - «བྲང་ཤུལ» as one word (Steinert's public dictionaries, 64 sets, and WB's two etext volumes, 2026-10-28): no headword; only on p. 294; «ཁྱི་སྤྱང» elsewhere only in vol. 1 etext img. 284, which does not decide one animal or two.

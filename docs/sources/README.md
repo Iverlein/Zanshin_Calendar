@@ -695,6 +695,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0479.md](questions/q0479.md) | question q479 | Is the bare «ཁམས» of the circles and of p. 17 the power's element throughout | open; cites wb.2:p3, wb.2:p17 |
 | [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
+| [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
+| [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | open; cites wb.2:p291-294 |
 
 <!-- end pool index -->
 
