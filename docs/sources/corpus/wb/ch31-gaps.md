@@ -14,6 +14,14 @@ Read for RD56, 2026-10-25: WB vol. 2, ch. 31 pp. 175–176, 224–225, 236–237
 
 Ch. 34's pages (pp. 378–384, 387, 407–411, 415–416) are in [ch34.md](ch34.md), read in the same run.
 
+## <a id="wb-2-p175b"></a>wb.2:p175b The sum of the year, month, day and time gods: 474 (RD63)
+
+*Read: scan, 2026-10-28.*
+
+> «འདིར་ལོགས་སུ་བྱེད་རཱ་ཧུ(༡)བཅས། །ལོ་ཟླ་ཞག་དུས་ལྷའི་ཁྱོན་གྲངས། །བཞི་བརྒྱ་དོན་བཞི་ཡོད་པ་ལས། །»
+
+Set apart here, with Rāhu (རཱ་ཧུ, rā hu) counted as one (1): the sum of the year, month, day and time gods (ལོ་ཟླ་ཞག་དུས་ལྷའི་ཁྱོན་གྲངས) is «four hundred and four» (བཞི་བརྒྱ་དོན་བཞི, bzhi brgya don bzhi) of those there are. The word «དོན» (don) is a number word, not "meaning": the same page writes the seventy-two that dwell as «གནས་པ་བདུན་ཅུ་རྩ་གཉིས» and p. 174 as «གནས་པ་དོན་གཉིས», so «དོན་བཞི» is seventy-four, and the sum is 474, not 404. Read on the Gser thang reprint (I3CN5029 img. 181), a crop at 1.2x; the first word of the middle line is «ཁྱོན»; RD56's machine reading gave «བྱོན».
+
 ## <a id="wb-2-p175-176"></a>wb.2:p175-176 The fixed earth lords: the seventy-two that dwell, the Eight Appearances and the lords of the quarters
 
 *Read: machine, 2026-10-25.*
@@ -86,6 +94,31 @@ The lord of the north: the one called Beu-byin, with the water noose (1) [as pri
 
 Those that dwell between the quarters: in the south-east, the one called Piling Pharma (པི་ལིང་འཕར་མ) (7); in the south-west the earth lord Grubnyan Lagpa-can (གྲུབ་སྙན་ལག་པ་ཅན) (8); in the north-west the straight, great man (9); in the north-east the earth lord Golden Sun-man (གསེར་ཉི་བོ) (10). Further: in the east the Black Wheel (འཁོར་ནག, 'khor nag) (11); in the south the Yellow Banner (བ་དན་སེར་པོ) (12); in the west the Tiger's Tail (གཟིག་གི་མཇུག་མ) (13); in the north the earth lord Zeba-can (ཟེ་བ་ཅན) (14); the field's ... (ཞིང་གི་ཚས་པ) (15) [the line goes on, p. 177].
 
+## <a id="wb-2-p177"></a>wb.2:p177 The earth lords of the place and the nine levels under the earth (RD63)
+
+*Read: machine, 2026-10-28.*
+
+> «གནས་པ་ཡུལ་གྱི་ས་བདག(༢༡)ཅེས། །ཀླུ་གཉན་གཅན་དང་བསེན་མོ་སོགས། །མདོར་ན་ཡུལ་གནས་དེ་ཕྱོགས་སུ། །རོ་བག་མདོས་གཏོར་དྲག་རྩུབ་ལས། །ཐབ་གཞོབ་མི་གཙང་ལ་སོགས་འཛེམ། །ཉམས་ན་བསངས་སེལ་ལ་སོགས་བྱ།།
+> ༈ ས་འོག་རིམ་དགུའི་ས་བདག་ནི། །ལྷ་མོ་བསྟན་མ(༡)སླ་བླ་མགོན(༢)། །སྟོང་གསུམ་རྒྱལ་བ(༣)ས་སྲིན་དམངས(༤)། །བར་རྗེ་ཁྲ་བོ(༥)འགོག་ཆེན་དྲུག(༦)། །སྣང་སེལ་མཆེད་དྲུག(༧)བེ་སྣ་རྒྱལ(༨)། །ཁྲི་ལ་ཁྲི་འབུམ(༩)ལ་སོགས་པ། །རིམ་པར་གནས་པའི་ཚད་པ་སོགས། །»
+
+The earth lords called those that dwell by the place (21): nāgas, gnyan, gcan and bsen-mo and the like; in short, toward the place where they stay one avoids corpse-bringing, the dough-ransom scattering, fierce and rough deeds, and the dirty hearth and the like; if harmed, a purification offering and the like is made. Then the earth lords of the nine levels under the earth, nine in number, numbered (1)–(9) in the print: the goddess Tenma (བསྟན་མ) first, then Slabla-mgon, Stong-gsum-rgyal-ba, the earth-srin Dmangs, Bar-rje Khra-bo, the six Great Obstructors (འགོག་ཆེན་དྲུག), the six brothers of the light-clearer, Be-sna-rgyal, and Khri-la Khri-'bum, in the order they stay. Machine reading (Yigdzin-1, I3CN5029 img. 183); the numbers in brackets are written as the print numbers them: Yigdzin-1 ran «(༢)» into «༢༨» and read «(༤)» as «༤?», corrected here from the sequence and not yet read on the scan.
+
+## <a id="wb-2-p185b"></a>wb.2:p185b The hal khyi's five mothers and five sons: 22 days each, 110 in all (RD63)
+
+*Read: machine, 2026-10-28.*
+
+> «མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ། (༡༧ ༡༨ ༡༩ ༢༠ ༢༡ ༢༢ ༢༣ ༢༤ ༢༥)། སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང་། །གདུག་པ་ཅན་གྱི་ལོ་བཞི་དབང་། །ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས་ན། །མ་བུ་གཉིས་གཉིས་སྐྱ་བས་ན། །ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར། (རིན་ཆེན་ཀུན་འདུས་དང་། ལུང་ཀུན་འདུས་ལྷ་རྒྱུད་གསལ་སྒྲོན་ནས་ཞག་བརྒྱ་དང་རྩ་བཞི། སྟོང་ཤེས་ལས་ཀྱང་དེ་ལྟར་བཤད།) ཚ་གྲང་འབྲུག་གི་སྒྲ་དང་བཅས། །གཡས་སྐོར་ཧལ་ཁྱིས་སྐྱས་གཞུག་རྫོགས། །»
+
+With its five mothers and five sons (the print numbers nine places, 17 to 25, after the hal khyi's own 16; each number carries an overline), on the previous year's wind-horse, ruling the four years of the malicious one. When the days are twenty-two and twenty-two, since mother and son go two by two, the days come to a full hundred and ten. In small type: «The Rin chen kun 'dus and the Lung kun 'dus, and the Lha rgyud gsal sgron, give a hundred and four days [«རྩ་བཞི», "and four"; the stack is small]; the Stong shes says likewise.» With heat, cold and the dragon's roar; turning to the right, the hal khyi brings the whole round to its end. Numbers and the note read on the Gser thang reprint (I3CN5029 img. 191), crops at 1x; the rest of the passage as Yigdzin-1 gave it and RD3 read it.
+
+## <a id="wb-2-p186b"></a>wb.2:p186b Langging the red enters with the sun's klung (RD63)
+
+*Read: scan, 2026-10-28.*
+
+> «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །»
+
+He is sent forth together with the sun's klung (ཉི་མའི་ཀླུང, nyi ma'i klung). The print has «ཀླུང» (the head ཀ with a subjoined ལ, then ུ and ང), not «གླང» (ox): read on the Gser thang reprint (I3CN5029 img. 192), a crop at 2x, the line of Langging the red, of war (no. 19). RD3 and the open question took it for «གླང»; the machine reading of the 1996 print (Yigdzin-1) already gave «ཀླུང».
+
 ## <a id="wb-2-p189b"></a>wb.2:p189b The black years: a work that cannot be put off, and its rite on a day good by planet, mansion and concord
 
 *Read: scan, 2026-10-26.*
@@ -97,6 +130,30 @@ WB vol. 2, ch. 31, p. 189 (1996 edition, img. 197), in the black years (ལོ�
 "… that grave and violent works too are to be avoided is shown by implication. In general, in the time of the rough black years, great and small, if one has a residue of past karma, or must act under compulsion without choice, practise this profound rite thus: on a day good by planet, mansion and concord (གཟའ་སྐར་འཕྲོད་སྦྱོར, gza' skar 'phrod sbyor), [draw] on paper the form of the Great Black One (ནག་པོ་ཆེན་པོ, nag po chen po), one face, two hands, the right holding a skull of blood …"
 
 What it shows: when a work cannot be put off in a black year, the earth lord is not cancelled by a good day; the good day is the day on which its rite is done. The day's factors and the earth lord are not set against each other here; each has its own use.
+
+## <a id="wb-2-p210b"></a>wb.2:p210b Wangkhyi at the day-time of the four last months (RD63)
+
+*Read: machine, 2026-10-28.*
+
+> «ས་བདག་སྤྱི་རྒྱུད་ལས། །དབྱར་ཐར་གླང་ནག་བཞོན་པ་ཅན། །ལུག་ནག་གཡང་གཞི་འབྱར་བར་བྱེད། །ཁེན་གིན་མཆེ་བྱས་ཁམ་ནི་ལྕེ། །སྤེན་པ་མིག་དམར་མིག་བྱས་ཤིང་། །གླང་གི་ཉི་མ་དུས་ཚོད་ལ། །ལྷོར་བལྟ་དེ་རུ་ཁ་མི་བསྟན། །དགུན་ཐ་ལུག་ནག་བཞོན་པ་ཅན། །གླང་ནག་གཡང་གཞི་འཕྱར་བ་དང་། །ཁོན་ཐོན་མཆེ་བྱས་ལི་ཡིས་ཁ། །ཉི་མ་སྤེན་པས་མིག་བྱས་ཤིང་། །ལུག་གི་ཉི་དུས་བྱང་ཕྱོགས་ངན། །སྟོན་ཐ་འབྲུག་གི་བཞོན་པ་ཅན། །ཁྱི་ཡི་གཡང་གཞིའི་རྒྱལ་མཚན་འཕྱར། །ཐོན་གིན་མཆེ་བྱས་ཟིན་གྱིས་ཁ། །མིག་དམར་ལྷག་པའི་མིག་དང་ལྡན། །འབྲུག་གི་ཉི་དུས་ནུབ་ཕྱོགས་ངན། །དཔྱིད་ཐ་ཁྱི་ནག་རྟ་རུ་ཞོན། །འབྲུག་གི་གཡང་གཞི་འཕྱར་བར་བྱེད། །ཁེན་ཁོན་མཆེ་བ་དྭ་ཡིས་ལྕེ། །མིག་དམར་ལག་པས་མིག་བྱས་ཤིང་། །ཁྱི་ཡི་ཉི་དུས་ཤར་ཕྱོགས་ངན། །དེ་ལྟར་དབྱར་ཐ་ལྷོ་ཡི་ཕྱོགས། །དགུན་ཐ་བྱང་ལ་སྟོན་ཐ་ནུབ། །དཔྱིད་ཐ་ཤར་དུ་ཁ་བལྟས་ནས། །སྤྱི་དང་ཁྱད་པར་མནའ་མི་བསྐྱལ། །འདི་ནི་མནའ་ཡི་གཤེད་མ་ཡིན། །སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉིར་ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན། །ཉམས་ན་བཅོས་སྒྲིབ་སྤྱི་ལྟར་བྱ།།»
+
+From the general account of the earth lords (ས་བདག་སྤྱི་རྒྱུད): in the last month of summer [Wangkhyi] rides a black ox; a black sheep is joined to the luck-base; fangs of Khen-gin, tongue of Kham, eyes of Saturn and Mars. «On the ox's day, at its time (གླང་གི་ཉི་མ་དུས་ཚོད་ལ), one does not turn the face toward the south.» In the last month of winter he rides a black sheep; a black ox raises the luck-base; «the sheep's day-time (ལུག་གི་ཉི་དུས) the north is bad». In the last month of autumn he rides the dragon; the dog raises the luck-base; «the dragon's day-time the west is bad». In the last month of spring, a black dog on a horse; the dragon raises the luck-base; «the dog's day-time the east is bad». So summer south, winter north, autumn west, spring east: one does not face it, and in general and in particular does not send the oath-bringers (མནའ་མི). This is the oath-killer. In general, on the days of the four last months one does not face the bad direction; in particular one does not face it on the grave days (དུར་ཉི); and most of all one holds the day-time of where he stays (གནས་པའི་ཉི་དུས). If it is harmed, remedy and screening as in general. Machine reading (Yigdzin-1, I3CN5029 img. 216), not read by eye: the four seasons repeat the same words, so a slip is unlikely in the words that matter; the short «ཉི་དུས» in the other three seasons is the same «ཉི་མ་དུས་ཚོད» as the ox's.
+
+## <a id="wb-2-p219b"></a>wb.2:p219b The light-clearer: behind the grave, the lower neighbour, the upper slayer (RD63)
+
+*Read: scan, 2026-10-28.*
+
+> «ར་བ་བཞི་ལ་དུར་གྱི་རྟིང་། །འབྲིང་པོ་མར་གྱི་ཁྱིམ་མཚེས་ལ། །ཐ་ཆུང་ཡར་གྱི་གཤེད་ལ་གནས། །»
+
+For the four first months, at the back of the grave (དུར, dur); for the middle ones, on the lower neighbour (མར་གྱི་ཁྱིམ་མཚེས, mar gyi khyim mtshes); the last ones he stays on the upper slayer (ཡར་གྱི་གཤེད, yar gyi gshed). The light-clearer's (སྣང་སེལ, snang sel, no. 15) three lines, read on the Gser thang reprint (I3CN5029 img. 225, p. 219), crops at 1.3x to 3x: «ར་བ་བཞི་ལ» is clear; the third syllable after «དུར་གྱི» is blotted and reads «རྟིང» (back, behind); Yigdzin-1 dropped the paragraph's first lines (woodcut beside them) and gave only the last.
+
+## <a id="wb-2-p224b"></a>wb.2:p224b The rat day: the beer jar, the first portion and the threshold (RD63)
+
+*Read: scan, 2026-10-28.*
+
+> «ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །»
+
+The rat day (the earth lord stays at the beer jar; the dead's beer poured on it is bad for children who have not drunk beer): «a bee's [?] first portion (སྦྲང་མ་ཕུད) scattered, and screened with a cloth (ཡོལ་བ); not laid on the threshold (ཐེམ་བུ), [it is] led out from the «ཡོ»…». Read on the Gser thang reprint (I3CN5029 img. 230, which is p. 224, not p. 225 as the question has it), crops at 1x to 2.5x: the three lines are as the 1996 print's etext gives them. The second line's first word has a subjoined ra in the print («སྦྲང»); RD56's machine reading gave «སྤང». The sense of «སྦྲང་མ་ཕུད» and of «ཡོ་ནས» is not settled.
 
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
@@ -174,6 +231,14 @@ Further, the Piling Pharma [see p. 176] and the small "wheels", the Rat's path a
 Also, the five days: each of the great bones has its own good and bad, reckoned. As a by-product, this teaching: for any work whatever: one's own element (རང་ཁམས) male day, the day of Gyā (རྒྱ, "the stock"); female day, the day of Jung-wa (འབྱུང་བ); mother's element male day, Yangdag (ཡང་དག); female day, the Nectar day (བདུད་རྩི); enemy's element male day, the Destroying day (འཇིག་ཉི); female day, the Demon day (བདུད་ཉི). Gyā is only good; Jung-wa better than that; Yangdag better still; Nectar-summit's day is the best. Jig-ni is bad, and the Demon day worse than that. On such a day, if the death-feast is held, the grass will not dry [i.e. no rest]; if war or plunder begin, ruin and loss follow; for executioners, children and friends there are certain deep points; see the secret book on the reckoning of war. The Tibetan scholars Mipham and Gelek and others join this only to the reckoning for the dead, and mix it with fabrications of unsourced thought. From the sky-dog and Silma's inner group, the lunar-date Gnyan, the dead's crow, and the tusked Gogku are examined as above.
 
 Further, on the days where the twelve earth lords' day-courses are made known, the twelve earth lords are to be told. On the rat day the Gnyan-tra (གཉན་ཁྲ) goes about; there the dead die a third time over; sending out the corpse by the lower north brings fault. On the ox day the Green Gnyan (གཉན་ལྗང) goes about; if one dies, it repeats; no cemetery is dug; the wake is also shunned. On the tiger day the white garuda goes about; a corpse is not burned; the corpse path is not sent out by the upper east. On the hare day the earth tortoise goes about; the wake's path is not shown to the lower east. On the dragon day the Gnyan-tra Banner (བ་དན) (also called the Yellow Banner) goes; shun the grief-cry; the corpse path is not sent to the south-east. On the snake day the earth lord Tsangkun goes about; shun the cleansing and the wake's door, the upper stomach; the corpse-top is good on the great road. On the horse day the earth lord descends on the rat path [the north]; the dead repeat; the cemetery is shunned when the barley is carried; barley, wake door and horse-top are shunned. On the sheep day the earth lord Besna (བེ་སྣ) (also "Great Weapon") holds power; the dead repeat and the earth's mouth opens; seven die; the grave is bad; shun the corpse and wake door in the south-west. On the monkey day the earth lord Tiger's Tail goes about; do not make the wake's meeting; the wake's path is not shown to the upper west. On the bird day Hethon (ཧེ་ཐོན) descends as king; if a wake is held, it is bad for wealth; the corpse and wake are not sent to the lower west. On the dog day the one also called "Byi-dur" (བྱི་དུར) goes about, Thekhyim; the dead repeat, and the path of the corpse and wake is not shown to the north-west. On the pig day the Gnyan-be ... [the text goes on, p. 226].
+
+## <a id="wb-2-p236b"></a>wb.2:p236b The black times' remedy: «སྤྲ་ཁྱིམ» at the door's right (RD63)
+
+*Read: scan, 2026-10-28.*
+
+> «བཅོས་ཐབས་སྤྲ་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས། །དེ་ཡིས་ཐུབ་པར་བཤད་པ་ཡིན། །»
+
+The remedy: «སྤྲ་ཁྱིམ» (spra khyim) at the door's right; at the left a swastika (གཡུང་དྲུང, g.yung drung), and the sun and the moon drawn; by this it can be withstood, it is said. The black times (no. 11), p. 236, read on the Gser thang reprint (I3CN5029 img. 242), crops at 1.2x and 4x: the line is as Yigdzin-1 gave it; the first letter of the stack in «སྤྲ» is a blot and reads as sa with a subjoined ra over a head letter that is not settled (sbra or spra); the 1996 print's etext reads «སྦྲ་ཁྱིམ», the Sakya Centre print's «སྤྱི་ཁྱིམ». Not settled.
 
 ## <a id="wb-2-p236-237"></a>wb.2:p236-237 The earth lords Khang-brtsegs and Mtsho-sngon, the times of the earth kings and the black times, Rāhu's course by the date
 
