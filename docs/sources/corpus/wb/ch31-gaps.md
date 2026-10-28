@@ -609,3 +609,8 @@ Question: On p. 224 «ཕུད་གཏོར་ཡོལ་བས་སྒྲ�
 ## Ch. 31's Wangkhyi day and hour, the light-clearer's «དུར» and the mothers and sons on the other prints and the almanac cells (RD76)
 
 Nothing read yet: RD76's passages, with the English beside them, go here.
+
+
+## WB vol. 1 p. 133, the table of the twelve days: the other cells and the la-knower lines (RD78)
+
+Nothing read yet: RD78's passages, with the English beside them, go here.
