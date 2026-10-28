@@ -1070,3 +1070,8 @@ Searched and found wanting, so not to be repeated:
   - «ན་ཆུང་མོད» in the Zhol print's etext (garbled), its second impression, UT, LT and the Bhutan digest: no hit (only the 1996 etext p. 412).
   - A length for the digging figure's mtho in the digging rite itself (Bhutan digest, UT, LT, the Zhol etexts): «མཐོ་གང» occurs only in WB's rites (stakes, a «ཤེར་ཤིང», a Buddha's image), not as a plot's measure.
   - The lines of works 24, 49 and 50 on the Taikhang print were not read by eye (too small at 1.3x); the Zhol print's cartouches still unread.
+- **RD71 (2026-10-28)** (RD71, 2026-10-28):
+  - A gloss of «རུས་ནག»: BDRC's exact search (61 hits, WB's grave chapter and unrelated rites), «བྱང་ཕྱོགས་རུས་ནག» 0 hits; the etexts of ZG, the Bhutan collection and the G.ya' sel define the word only by the set it stands in.
+  - A text laying out the circles' two mewas: «ལུས་སྨེ་དང་སྨེ་ཕྲེང་མཐུན» and «བརྩི་བྱའི་ལོ་རྟ» 0 hits; the nine hits of «བརྩི་བྱའི་ཁམས་ཀྱི་དགྲ» are WB's circles and their digests, none on the mewa.
+  - Sprugtön's limbs: «སྤྲུག་སྟོན་གྱི་རྩིས», «སྤྲུག་སྟོན་ཡན་ལག», «རྡེའུ་ལྔ་བཅུ་ཡན་ལག་བཅུ་དྲུག» 0 hits each; «སྤྲུག་སྟོན» in ZG, the Bhutan collection and the G.ya' sel etexts: 0.
+  - The typeset notes' p. 533 was not located in I1PD34647 (img. 605–624; printed page = image − 46 does not hold there).

@@ -535,7 +535,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0364.md](questions/q0364.md) | question q364 | The golden turtle's wood sheep and how a year becomes an element | open; cites wb.2:p20 |
 | [questions/q0365.md](questions/q0365.md) | question q365 | For whom the four reckonings of «བརྗེ» are | open; cites wb.2:p23-25 |
 | [questions/q0366.md](questions/q0366.md) | question q366 | «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «ཞུར/འུར་ཞོགས», «ལྕོང་མོའི་ཛ་མས» | open; cites wb.2:p9, wb.2:p17 |
-| [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | open; cites wb.2:p10-11 |
+| [questions/q0367.md](questions/q0367.md) | question q367 | «རུས་ནག», the black bone of the tenth circle | answered; cites wb.2:p10-11 |
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
 | [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | answered; cites wb.2:p3-4, wbz:i631 |
 | [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125, wbz:i809 |
