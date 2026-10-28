@@ -565,3 +565,8 @@ Question: On p. 210, when Wangkhyi's «གླང་གི་ཉི་མ་ད�
 ## Ch. 31's «ཡོ་ནས» of the rat day and the herdsman's tent in the dictionaries and the Bhutan tables (RD74)
 
 Nothing read yet: RD74's passages, with the English beside them, go here.
+
+
+## Ch. 31's Wangkhyi day and hour, the light-clearer's «དུར» and the mothers and sons on the other prints and the almanac cells (RD76)
+
+Nothing read yet: RD76's passages, with the English beside them, go here.
