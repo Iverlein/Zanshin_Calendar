@@ -1035,3 +1035,7 @@ Searched and found wanting, so not to be repeated:
   - «ཡོས» and «ལོག་མུ་ཅོར» (p. 503): the letters are the same on Mipham's print and the typeset; no gloss in the notes; Steinert's dictionaries not opened.
 - **RD62 (2026-10-28)** (RD62, 2026-10-28):
   - Re-reading ch. 27's doubtful letters (p. 9 l. 6 སྐུད/རྒུད, p. 17 l. 9 ཛ/རྔ, the rat's ལྷོར/ལྟོར) on the 1-bit Gser thang reprint at 5–6×: the scan does not settle them by eye (RD62, 2026-10-28); a different, sharper print would be needed.
+- **RD64 (2026-10-28)** (RD64, 2026-10-28):
+  - «རང་མཐོ་བཅུ་པ» and «མཐོ་ཕྱེད» as a phrase in the Bhutan digest and Dpal bsdus's Rmad byung (locate.py find): no hit; the Bhutan digest says «མཐོ་བཅུ་པ» alone.
+  - The closing verse's lines «ལས་བརྩམས་གང་ཟག་དེའི་དར་གུད» and «ཁ་དམར་སྨྲ» after «ཁྱད་པར་དུ» in the same two etexts: not found in the closing verse's own wording; only Dpal bsdus p. 317 has «ཁ་དམར་སྨྲ» after rise and decline, in its own chapter.
+  - «སྦ་ཕྱར», «སྦྲ་ཕྱར» and «ཤྭ་རགས» in the Bhutan digest and Dpal bsdus: no gloss; the first is garbled in the Bhutan digest's list (p. 357), the third not present.

@@ -387,7 +387,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 5 passages: 1 scan, 4 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 3 passages: 2 scan, 1 etext |
-| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 6 passages: 2 scan, 4 machine |
+| [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 7 passages: 3 scan, 4 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
@@ -572,6 +572,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
 | [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | open; cites wb.1:p425, wb.2:p496 |
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
+| [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | open; cites wb.2:p378 |
+| [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | open; cites wb.2:p387 |
 
 <!-- end pool index -->
 
