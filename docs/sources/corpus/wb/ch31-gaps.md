@@ -642,7 +642,90 @@ Nothing read yet: RD76's passages, with the English beside them, go here.
 
 ## WB vol. 1 p. 133, the table of the twelve days: the other cells and the la-knower lines (RD78)
 
-Nothing read yet: RD78's passages, with the English beside them, go here.
+*Read: machine (Yigdzin-1 and MITRA on each cell cropped at 3x), the cells read by eye on the Gser thang scan and the Bhutan table, 2026-10-28. The 1996 print (I1KG12906 img. 143, 670 px wide, the reverse page showing through) has the same two tables with the same figures; its cell text is too small to read cell by cell and was used for the layout only.*
+
+RD78 reads the rest of p. 133 after RD74's rat cell (passage wb.1:p133). The page holds two tables of the same shape, each a ring of twelve cells round a picture of the day's rider; the upper is the table of the twelve days, the lower the table of the twelve times of the day. The rat day's cell is in the upper table, the lower row's cell third from the right (second from the left), not "the second from the right" as the passage at wb.1:p133 has it.
+
+## <a id="wb-1-p133b"></a>wb.1:p133b The first table of the twelve days: seat, harm and remedy of each day animal
+
+*Read: machine, 2026-10-28.*
+
+> > Gser thang reprint (I3CN5028 img. 140 = printed p. 133), the first table, the twelve cells of the ring, one day each, from the lower row's second cell from the left (the ox) round to the rat; Yigdzin-1 on each cell cropped at 3x, MITRA beside it, the Bhutan table (I1KG11905 img. 571) for comparison. Where the two readers or the prints differ, both are given.
+> >
+> > ཆང་རྫ་ལ་གནས། ཆང་མ་ལ་ངན། ཁ་ཡོ་ / ནས་འདྲེན། (rat; the third item, the hearth god's side and the last name: «ཐབ་ལྷ་…» «གཉན་ཁྲ»/«གཉན་ཁྱ», not settled)
+> > བང་པ་ལ་གནས། བྲེ་ཁ་པར་ངན། ཕྱོགས་བཞིར་ནས་གཏོར། (ox; last name «གཉན་སྣང་» Yigdzin-1, «གཉན་ལྷང་» MITRA)
+> > སྒོ་ལ་གནས། རོ་བདག་ལ་ངན། ཕྱོགས་གཞན་དུ་བཏང་། (tiger; last name «བྱ་ཁྱུང་»)
+> > གཡག་ཤིང་ལ་གནས། རོ་ཁུར་ལ་ངན། ངེས་མི་རག (hare; the Bhutan table «དེས་མི་རེག»; last name «རུས་སྦྲུལ»)
+> > རང་འཐག་ལ་གནས། བྱེ་འཐག་མཁན་ལ་ངན། བྱེ་གནས་དུ་གཏོར། (dragon; last name «པ་དན»/«བ་དན»)
+> > ཐག་པ་ལ་གནས། རོ་ཁུར་ལ་ངན། གྲིས་གཏུབ། (snake; last name «ཙང་ཀུན»)
+> > རྟ་སྒ་ལ་གནས། བང་ཆེན་ལ་ངན། སྒ་མེད་བྱ། (horse; last name «པྱི་ལམ»/«བྱི་ལམ»)
+> > གཞོང་པ་ལ་གནས། ཐན་མ་ལ་ངན། ཟངས་སུ་བཙོ། (sheep; MITRA «བརྔོ», the Bhutan table «བརྫི»; last name «བེ་དབང»)
+> > རྟ་གྲི་ལ་གནས། ཤ་པ་ལ་ངན། མེས་བསྲེག (monkey; Yigdzin-1 on this print «ཤེས», MITRA and the Bhutan table «མེས»; last name «གཅིག་མཇུག»)
+> > ཟེར་མ་ལ་གནས། འདྲེན་པ་ལ་ངན། ཟེར་མེད་བྱེད། (bird; MITRA «སྡེར་མ», «སྡེར་མེད»; last name «ཧེ་ཐོན»)
+> > ཐེམ་པར་གནས། རོ་ཁུར་ལ་ངན། བྱ་རས་བསྒྲིལ། (dog; MITRA «ཕྱ་རམ», the Bhutan table «ཕྱ་རས»; last name «ཇཻ་ཁྱིས»/«ཐེ་ཁྱིམ»)
+> > འཇོར་ལ་གནས། ས་བརྐོ་མཁན་ལ་ངན། ཤ་རུས་ས་བརྐོ། (pig; last name «གཉན་བེ»)
+
+The first table of vol. 1, p. 133 is a ring of twelve cells, one for each day of the twelve animals. Each cell has the same items in the same order: the seat of the earth lord of the day's animal («…ལ་གནས», "stays at …"), what or whom it is bad for («…ལ་ངན», "bad for …"), a remedy that is a verb of its own, then the side of the hearth god («ཐབ་ལྷ», thab lha) and a last name of the «གཉན» (gnyan) kind. Read round from the ox, the lower row's cell second from the left, to the rat:
+
+- rat: stays at the beer jar; bad for the beer(-maker, «ཆང་མ»); remedy «ཁ་ཡོ་ནས་འདྲེན».
+- ox: stays at «བང་པ»; bad for the «བྲེ་ཁ་པ»; remedy: scatter [it] from the four directions.
+- tiger: stays at the door; bad for the owner of the corpse; remedy: send [it] to another direction.
+- hare: stays at the «གཡག་ཤིང» (the Bhutan table: «གཡག་ཤིང» also); bad for the corpse-bearer («རོ་ཁུར»); remedy: "certainly not touching" (print), "not touching" (Bhutan).
+- dragon: stays at the «རང་འཐག»; bad for the «བྱེ་འཐག་མཁན»; remedy: scatter [it] at the «བྱེ་གནས».
+- snake: stays at the rope («ཐག་པ»); bad for the corpse-bearer; remedy: cut with a knife («གྲིས་གཏུབ»).
+- horse: stays at the «རྟ་སྒ»; bad for the «བང་ཆེན»; remedy: make [it] without «སྒ» (noise or hide, not settled).
+- sheep: stays at the trough («གཞོང་པ»); bad for the «ཐན་མ»; remedy: boil in copper («བཙོ»; Bhutan «བརྫི»).
+- monkey: stays at the «རྟ་གྲི»; bad for the «ཤ་པ» (hunter); remedy: burn with fire («མེས་བསྲེག»).
+- bird: stays at the «ཟེར་མ»; bad for the leader («འདྲེན་པ», the conductor of a corpse); remedy: make [it] without «ཟེར» (ray; not settled).
+- dog: stays at the threshold («ཐེམ་པ»); bad for the corpse-bearer; remedy: wrap in cloth («བསྒྲིལ»).
+- pig: stays at the «འཇོར»; bad for the earth-digger («ས་བརྐོ་མཁན»); remedy: dig the flesh and bones into the earth.
+
+The remedies are acts done to the thing at the seat: scatter, send, cut, boil, burn, wrap, dig. The rat day's «འདྲེན» stands among them as one more such act, "lead, draw, serve". The words not glossed here are not in the dictionaries searched by RD74 as names of house parts.
+
+## <a id="wb-1-p133c"></a>wb.1:p133c The second table of the twelve times: la-knower and earth king of each
+
+*Read: machine, 2026-10-28.*
+
+> > Gser thang reprint (I3CN5028 img. 140), the second table of the page, twelve cells in the same ring, each headed by a time of the day and giving the la-knower and the earth king of that time; Yigdzin-1 on each cell cropped at 3x, MITRA beside it; the animal words are the doubtful ones and are marked.
+> >
+> > ནམ་ཕྱེད། བླ་མཁྱེན་སྟག ཁང་མཚོ། ས་རྒྱལ་ཡོས། གཉན་ཁྱ། (midnight, the rat's)
+> > ཁྱེད་ཡོལ། བླ་མཁྱེན་ཕག ས་རྒྱལ་འབྲུག ཁང་མཚོ། གཉན་ལྗང་། (the ox's)
+> > ཐོ་རེངས། བླ་མཁྱེན་སྤྲེལ ཁང་མཚོ། ས་རྒྱལ་སྤྲུལ། བྱ་ཁྱུང་། (the tiger's; Yigdzin-1 «ཁྲེལ», MITRA «སྦྲེལ»)
+> > ནམ་ལངས། བླ་མཁྱེན་སྤྲུལ། ཁང་མཚོ། ས་རྒྱལ་ས། རུས་སྤྲུལ། (the hare's; the animal words unclear)
+> > ཉི་ཤར། བླ་མཁྱེན་སྟག ཁང་མཚོ། ས་རྒྱལ་ལུག བ་དག། (the dragon's; MITRA «ལྕག», «བ་དན»)
+> > ཉི་དྲོས། བླ་མཁྱེན་ཕག ཁང་མཚོ། ས་སྤྲུལ་སྤྲེལ། ཙང་ཀུན། (the snake's)
+> > ཉི་ཕྱེད། བླ་མཁྱེན་སྦྲེལ། ཁང་མཚོ། ས་རྒྱལ་བྱ། བྱི་ལམ། (the horse's)
+> > བྱེད་ཡོལ། བླ་མཁྱེན་སྤྲུལ། ཁང་མཚོ། ས་སྤྲུལ་ཁྲི། བེ་སྤྲུ་དབང་། (the sheep's)
+> > ཉི་མབར། བླ་མཁྱེན་སྤྲེལ། ཁང་མཚོ། ས་རྒྱལ་ཕག གཟིག་མཇུག། (the monkey's)
+> > ཉི་ནུབ། བླ་མཁྱེན་ཕག ཁང་མཚོ། ས་རྒྱལ་བྱི། ཧེ་ཐོན། (the bird's; MITRA «ལག», «བྱེ»)
+> > ས་སྲོས། བླ་མ་ལྡན་རྗེས་པ། ཁང་མཚོ། ས་སྐྱའ་གླང་ རྗེ་ཁྱིམ། (the dog's; not settled: the la-knower's animal is not legible)
+> > སྲོད་འཁོར། བླ་མཁྱེན་སྤྲུལ། ཁང་མཚོ། ས་སྤྲུལ་ཕྱག གཉན་པེ། (the pig's)
+
+The second table of p. 133 is a ring of twelve cells like the first, but each is headed by one of twelve times of the day (midnight «ནམ་ཕྱེད», dawn «ཐོ་རེངས», and so on) and has four items: the la-knower («བླ་མཁྱེན», bla mkhyen, "the one who knows the life-spirit") with an animal, «ཁང་མཚོ» (khang mtsho, the same word in every cell), the earth king («ས་རྒྱལ», sa rgyal) with an animal, and a name of the «གཉན» kind that is the same as the last name of the first table's cell of that animal (tiger: «བྱ་ཁྱུང»; hare: «རུས་སྦྲུལ»/«རུས་སྤྲུལ»; dragon: «པ་དན»/«བ་དན»; snake: «ཙང་ཀུན»; horse: «པྱི་ལམ»/«བྱི་ལམ»; monkey: «གཅིག་མཇུག»/«གཟིག་མཇུག»; bird: «ཧེ་ཐོན»; pig: «གཉན་བེ»/«གཉན་པེ»). So the times are the animals' and the tables are one scheme read twice. The la-knower's animal is a tiger at midnight and at sunrise, a pig for the ox, the snake and the bird, a monkey for the horse, the sheep, the monkey and the pig, in what both readers agree on; the hare's and the dog's cells are not legible enough to give one. How the la-knower's animal relates to the cell's own animal is not stated in the cell.
+
+**The Bhutan table (I1KG11905 img. 571, printed p. 561) is the first table with the times of the second set under it.** Twelve columns, headed by the twelve directions (north-lower «བྱང་སྨད», north-east «བྱང་ཤར», east-upper «ཤར་སྟོད», east-lower «ཤར་སྨད», east-south «ཤར་ལྷོ», south-upper «ལྷོ་སྟོད», south-lower «ལྷོ་སྨད», south-west «ལྷོ་ནུབ», west-upper «ནུབ་སྟོད», west-lower «ནུབ་སྨད», west-north «ནུབ་བྱང», north-upper «བྱང་སྟོད»; Yigdzin-1 on each header), the body of each column being the first table's seat, harm and remedy of one animal, and under it the time of the day (midnight «ནམ་ཕྱེད» under the rat, then «ཕྱེད་ཡོལ», dawn «ཐོ་རེངས», «ནམ་ལངས», sunrise «ཉི་ཤར», «ཉི་དྲོས», noon «ཉི་ཕྱེད», «ཕྱེད་ཡོལ», «ཉི་མབར», sunset «ཉི་ནུབ», «ས་སྲོས», «སྲོད་འཁོར»). It has no hearth god, no gnyan name, no la-knower. Where it differs from the Gser thang cell the two are given in passage wb.1:p133b: the hare's «དེས་མི་རེག» against «ངེས་མི་རག»; the sheep's «བརྫི» against «བཙོ»; the monkey's «མེས» against «ཤེས»; the dog's «ཕྱ་རས» against «ཕྱ་རམ»/«བྱ་རས». The rat's column is the same wording as the Gser thang cell, the Bhutan hand writing «ཁ་ཡོ་ནས། འདྲེན།» with the break after «ནས».
+
+**What the table says on q446.** The rat's cell gives «ཁ་ཡོ་ནས་འདྲེན» as the remedy among eleven other remedies that are each an act on the thing at the seat (scatter, send away, cut, boil, burn, wrap, dig); no cell glosses «ཁ་ཡོ». The thing «bad for» in the rat's cell, «ཆང་མ», stands in the place where the other cells have a person or a part of the rite (the corpse-bearer «རོ་ཁུར», the leader «འདྲེན་པ», the sand-weavers, the earth-diggers, the hunter «ཤ་པ»), so the beer is probably the beer-maker (a person) and not the beer; the earlier reading "bad for the beer" is left, as «ཆང་མ» is not in the dictionaries as a person. The table does not settle that the beer of the dead is meant, nor the sense of «ཡོ»; it shows that «འདྲེན» is the remedy's verb in WB's own short form, as at p. 224.
+
+**What it says on q447.** «སྦྲང་མ» (bee) is in no cell of either table; it is in p. 224's lines only. The table does not bear on it.
+
+**The la-knower.** The la-knower («བླ་མཁྱེན») is a name in the second table's cells and carries an animal in each; the first table has none. The la-knower of vol. 2, pp. 224–225 may be the one of these cells; the cell does not say, and no link is made here.
+
+**Open**
+
+Question: In the lower table of WB vol. 1, p. 133, each time of the day names its la-knower («བླ་མཁྱེན») with an animal (tiger at midnight and at sunrise; pig for the ox, snake and bird; monkey for the horse, sheep, monkey and pig), but how is that animal chosen, and does the day's own animal or the time's animal give the la-knower of a day?
+
+Question: In the upper table each cell ends with a name of the «གཉན» kind (rat «གཉན་ཁྲ», ox «གཉན་སྣང», pig «གཉན་བེ», and for the other animals a name without «གཉན»: «བྱ་ཁྱུང», «རུས་སྦྲུལ», «པ་དན», «ཙང་ཀུན», «བྱི་ལམ», «བེ་དབང», «གཅིག་མཇུག», «ཧེ་ཐོན», «ཇཻ་ཁྱིས»): what are these names, and is the earth lord named by them?
+
+Question: In the upper table the hearth god's side («ཐབ་ལྷ་…») is read by the machine readers as east, south, west or «ཐབ་འོག» with disagreements («ཐབ་ལྷ་སྲུང» for the rat); which side is it in each cell?
+
+**Searched and not found**
+
+- The 1996 print's cells (I1KG12906 img. 143, p. 133): 670 px wide, the text of each cell about 12 px high with the reverse page showing through; not read, the layout only compared with the Gser thang page (2026-10-28).
+- Whole-page Yigdzin-1 on I3CN5028 img. 140: five characters («༄༅། །»), the model reads no table cell on the full page; the cells were cropped one by one.
+- An etext of the tables: the 1996 etext (VEIE0OPI51524892) has no text for the cells; the only «ཆང་རྫ་ལ་གནས» hit is the verse of vol. 2, p. 367 («ཆང་རྫ་ལ་གནས་བྱིས་པར་ངན། ཡོལ་བ་བཏང་བས་ཉེས་པ་ཞི།», the beer jar as a seat, bad for a child, the cloth the remedy) (locate.py find, 2026-10-28).
+- A gloss of «ཁ་ཡོ» or «སྦྲང་མ» in the second table: none; no cell of either table names them.
+- agy was not asked: the two readers and the eye agree on every syllable of the rat's cell; the other cells' doubts are left as doubts.
 
 RD76, 2026-10-28: questions 445, 444 and 36 on the other prints. The Zhol print (I1KG1710) and the Taikhang reproduction (I5878 vol. 2, I5877 vol. 1) were read with Yigdzin-1 over the pages and by eye at the syllables that matter; the Sakya Centre print (I1KG12740) is too small to read; the almanac cells of vol. 1 (pp. 138-140) on the Gser thang reprint (I3CN5028 img. 145-147) by eye. Passages `wb.2:p210d`, `wb.2:p219d`, `wb.1:p138-140`; claims `wb-wangkhyi-lines-on-zhol-and-taikhang`, `wb-light-clearer-steng-on-zhol-and-taikhang`, `wb-almanac-cell-dragon-nyi-dus-west`.
 
