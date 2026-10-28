@@ -1046,3 +1046,9 @@ Searched and found wanting, so not to be repeated:
 - **RD67 (2026-10-28): other prints and manuals on ch. 27's unread words** (RD67, 2026-10-28):
   - BDRC's exact-phrase search for «ཚད་ཟླ་མག་རྒུད», «ལྕོང་མོའི་རྔམས», «ལྕོང་མོའི་རྔམས་རྒྱ་མཚོ་དཀྲུགས», «ཡན་ལག་ས་བདག་ཐུགས་པ་སྦལ» found nothing; «ཚད་ཟླ་མག་སྐུད», «ན་ཟླ་སྟོན་མོ», «བླ་ལྷོར་འཁྱམས», «ཤིང་ལུག་པ», «འུར་ཞོགས» only in WB's prints and unrelated works, none a gloss; the Sakya, Zhol and Taikhang-copy etexts and Zhechen Gyaltsab's volume (I4PD2441-2451) give no gloss of the golden turtle, the sixteen limbs, «ལྕོང་མོ» or «བརྗེའི» as the monk.
   - The Zhol print's «བརྗེའི» (WBZ img. 658, last line) is too small to tell from «རྗེའི» at 4 times; the rare-texts print MW2PD17386 has no scan open.
+- **RD66 (2026-10-28): ch. 34's list of works, the mtho and the closing verse** (RD66, 2026-10-28):
+  - Every occurrence of «སྐྱས» in the 1996 etext (pp. 300–470), LT, UT and the Bhutan digest read for a bride's portion or dowry: none says so; each is a gift or offering.
+  - «ཤྭ་རགས», «ཤུ་རགས» and «སྦ་ཕྱར» in the Sakya Centre etext (I1KG12739/12740): no hit, its OCR too broken.
+  - Mipham's notes in the 1996 volume ([p482]–[p549]) for «སྐྱས», «ཤྭ», «ཁྱད་པར་དུ» and the length of a mtho: nothing.
+  - The digging figure's mtho in LT, UT and the Bhutan digest outside p. 314: nothing beyond the digest's p. 314, the same words as ch. 32.
+  - The Taikhang reproduction (I5878) not opened for p. 378 and the Zhol print's list not read on the scan; Steinert's dictionaries not searched for «སྐྱས», «ཕྱར», «ཕྱ་ཐེར».

@@ -558,7 +558,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0403.md](questions/q0403.md) | question q403 | The measure of the digging rite's earth figure | answered; cites wb.2:p387 |
 | [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | open; cites wb.2:p224-225 |
 | [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | open; cites wb.2:p236-237 |
-| [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | open; cites wb.2:p378-384 |
+| [questions/q0406.md](questions/q0406.md) | question q406 | «སྐྱས», «སྦ་ཕྱར», «ཤྭ་རགས» and «སེན» in ch. 34's list of works | answered; cites wb.2:p378-384 |
 | [questions/q0407.md](questions/q0407.md) | question q407 | Are the Taikhang reproduction and the Zhol print two impressions of different blocks? | open; cites wb.2:p9b, wb.2:p17c |
 | [questions/q0408.md](questions/q0408.md) | question q408 | Does «ཁྱད་པར་དུ» in ch. 34's closing verse rank the person's rise and decline above the rest? | open; cites wb.2:p428b |
 | [questions/q0409.md](questions/q0409.md) | question q409 | Is the departure's «ཁྱད་པར་དམིགས་ཀྱིས་བསལ་བ» the weighing's dmigs bsal, leading over the day? | open; cites wb.1:p373-375, wb.2:p376 |
@@ -582,12 +582,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0427.md](questions/q0427.md) | question q427 | Is a place's verdict laid where the cutting and the rise and decline agree? | open; cites wb.2:p166, wb.2:p167-168 |
 | [questions/q0428.md](questions/q0428.md) | question q428 | What do differences of one, two and seven and more read in the illness's nine classes? | open; cites wb.1:p425, wb.2:p496 |
 | [questions/q0429.md](questions/q0429.md) | question q429 | Whose are the year and the three of the group «ལོ་ཟླ་ཞག་གསུམ་གྱི་གསུམ» in p. 503's twenty? | open; cites wb.2:p502, wb.2:p503 |
-| [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | open; cites wb.2:p378 |
-| [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | open; cites wb.2:p387 |
+| [questions/q0430.md](questions/q0430.md) | question q430 | Is «སྐྱས» (work 24) gifts alone, or also the bride's dowry | answered; cites wb.2:p378 |
+| [questions/q0431.md](questions/q0431.md) | question q431 | How long is one mtho of the digging rite's figure | answered; cites wb.2:p387 |
 | [questions/q0432.md](questions/q0432.md) | question q432 | What is the sun's klung (ཉི་མའི་ཀླུང) in Langging's list | open; cites wb.2:p186b |
 | [questions/q0433.md](questions/q0433.md) | question q433 | Where the black hal khyi's five mothers and five sons sit | open; cites wb.2:p185b |
 | [questions/q0434.md](questions/q0434.md) | question q434 | Does Langging's list put the dragon year on the dog or the mouse | open; cites wb.2:p186b |
 | [questions/q0435.md](questions/q0435.md) | question q435 | What is «ཉེར་ཐམ» in Zhechen Gyaltsab's sums of the meadow's ornament | open; cites zg:p300-301 |
+| [questions/q0436.md](questions/q0436.md) | question q436 | Does the 9th hair date's result «ན་ཆུང་མོད་འགྱུར» count as a gain or a warning | open; cites wb.2:p378 |
+| [questions/q0437.md](questions/q0437.md) | question q437 | Does work 17's first syllable on p. 378 carry a subjoined ra, and what are «ཕྱར» and «ཕྱ་ཐེར» | open; cites wb.2:p378 |
+| [questions/q0438.md](questions/q0438.md) | question q438 | How many finger-breadths is one mtho at the digging figure's navel (p. 387) | open; cites wb.2:p387 |
 
 <!-- end pool index -->
 
