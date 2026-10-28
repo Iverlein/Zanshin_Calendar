@@ -227,6 +227,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/match-kinds-in-general.md](claims/match-kinds-in-general.md) | claim, rule | A match of mixed kinds is judged in general; no text counts the kinds into one | cites wb.1:p355, wb.2:p524; feeds block-58 |
 | [claims/match-trigram-grave.md](claims/match-trigram-grave.md) | claim, table | The trigram's grave joined: a broken line | cites wb.1:p362, wb.2:p526, wb.1:p258; feeds block-58 |
 | [claims/match-two-bad-lives.md](claims/match-two-bad-lives.md) | claim, rule | The match barred by two utterly bad lives, each judged by one verdict pebble | cites ys:i467-468, wb.2:p526; feeds block-58 |
+| [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-eight-places.md](claims/moment-eight-places.md) | claim, table | The moment's eight places: house, field, grave and one's own place | cites wb.2:p166, wb.2:p167-168; feeds SPEC §5.9.5, block-31 |
@@ -363,8 +364,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
+| [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
-| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 10 passages: 10 scan |
+| [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 7 passages: 5 scan, 1 machine, 1 etext |
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 4 passages: 2 scan, 2 etext |

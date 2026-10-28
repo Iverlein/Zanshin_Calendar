@@ -101,6 +101,18 @@ The *Moonbeams*, ch. 5, the one year's obstacle (the year of age): the Chinese p
 
 So the *Moonbeams* lays each member's four as the current year's meetings directly, the way Mipham's notes name and reject (WB vol. 2, p. 491), and names three places, the god's, people's and house's, with no wealth's or enemy's place; its fold is "in half" from the tail, the same fold as the notes'.
 
+## <a id="dz-i050"></a>dz:i050 Ch. 5: the meadow's ornament leaves' sums, 120, 360 and 600
+
+*Read: scan, 2026-10-28.*
+
+> …ཡི། །སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ་ལྔས། །འཐབས་པའི་རྡེའུ་ཉེར་ལྔ་དང་། །ཁ་དམར་ལྔ་སྟེ་སུམ་ཅུའོ། །དེ་བཞིན་གནམ་ལོའི་བདུན་ཟུར་དང་། །མར་གྱི་དྲུག་འགྲས་བཞི་གཤེད་ཀྱི། །སྲོག་སོགས་ལྔ་ལ་བརྩི་བྱའི་ལྔས། །འཐབས་པའི་རྡེལ་དང་ཁ་དམར་བཅས། །རེ་རེར་སུམ་ཅུ་སུམ་ཅུ་སྟེ། །ཁྱོན་དྲིལ་བརྒྱ་དང་ཉི་ཤུའོ། །གཡུ་ལོ་ཅན་གྱི་འགྲེམས་ལུགས་ནི། །རང་གི་ལོག་མེན་གར་བབས་དང་། །དེ་ཡི་བདུན་ཟུར་མར་དྲུག་འགྲམས། །བཞི་གཤེད་བཞི་ཡི་སྲོག་སོགས་ལྔར། །རང་གི་སྲོག་སོགས་ལྔས་འཐབས་པའི། །གཅོད་འདྲལ་སྟངས་གཅོད་དྲིལ་བ་ཡི། །རྡེའུ་བརྒྱ་དང་ཉི་ཤུའོ། །དུང་ལོ་ཅན་གྱི་འགྲེམས་ཐབས་ལ། །གང་ཤར་ཟླ་བ་དེའི་བདུན་ཟུར། །མར་བགྲངས་དྲུག་འགྲམས་བཞི་གཤེད་བཞིར། །སྔར་བཞིན་འཐབས་པའི་བརྒྱ་ཉི་ཤུ། །དེ་ལྟར་ཡོངས་བསྡོམས་རྡེའུ་ནི། །སུམ་བརྒྱ་དྲུག་ཅུར་འགྲེམས་ཚུལ་ཏེ། །མར་སྟོན་ཇོ་སྨོན་གདམས་པ་ཡིན། །དེ་སྟེང་ཞག་དང་དུས་ཚོད་ལའང་། །རྡེའུ་བརྒྱ་དང་ཉི་ཤུ་རེ། །བཀྲམ་པས་དྲུག་བརྒྱར་འགྱུར་རོ་ཞེས། །ཁྱུང་ལྷས་གཞོན་ནུ་བསོད་ནམས་བཞེད། །དེ་ལྟར་བརྩིས་པའི་འབྲས་བུ་ཡང་། །སྡོང་པོ་དགུ་འདུས་འགྲེལ་པ་ནི། …
+
+The *Moonbeams*, ch. 5 (the year of age), the meadow's ornament leaves' sums (f. 23b, img. 050, l. 1-6, the whole folio; BDRC's open scan I2533, 4800 px, read by eye in crops of a line's half at 0.9×, the lines of the sums at 1.0×; KD vol. 3's etext of the same text, pp. 528-529, beside, which it matches; the leaves' first lines, on img. 049 and the start of img. 050, are not quoted here). The folio opens in the middle of the gold year.
+
+[…] its five, the life force, body, power, luck and mewa (སྲོག་ལུས་དབང་ཀླུང་སྨེ་བ, srog lus dbang klung sme ba): the pebbles of fighting are twenty-five and the verdicts (ཁ་དམར, kha dmar) five, so thirty. Likewise the sky year's seventh and its down-count, the sixth, and the fourth executioner (བདུན་ཟུར་དྲུག་འགྲམ་བཞི་གཤེད, bdun zur drug 'gram bzhi gshed): the life force and the rest, five, against the reckoned person's five; the fighting pebbles with the verdicts are thirty and thirty each; the whole sum is a hundred and twenty. The turquoise year's way of laying: the person's own progressed sign where it has fallen, its seventh, the down-count's six neighbours and the fourth executioner, the four, each with the life force and the rest, five, fought by one's own life force and the rest: the cutting and tearing and the stance-cutting gathered, a hundred and twenty pebbles. The conch year's way of laying: the month that has risen, its seventh, the down-count's six neighbours and the fourth executioner, four, fought as before: a hundred and twenty. So the whole sum of pebbles is laid out as three hundred and sixty (the instruction of Mar ston Jo smon (མར་སྟོན་ཇོ་སྨོན, mar ston jo smon)). Over that, for the days and the hours too, a hundred and twenty pebbles each; laid out, it comes to six hundred: so Khyung lha Gzhon nu bsod nams (ཁྱུང་ལྷས་གཞོན་ནུ་བསོད་ནམས, khyung lhas gzhon nu bsod nams) held. The results so reckoned are in the commentary on the *Nine Gathered* (སྡོང་པོ་དགུ་འདུས, sdong po dgu 'dus), […]
+
+The *Moonbeams* writes the sums with the plain «ཉི་ཤུ» (twenty) where Zhechen Gyaltsab's verse on the same leaves writes «ཉེར་ཐམ» (zg:p300-301); and the three years' sums (120 each) added to the days' and hours' 120 each give its 600 (360 + 120 + 120).
+
 ## <a id="dz-i050-051"></a>dz:i050-051 Ch. 5's close: the verdicts gathered into five general totals
 
 *Read: scan, 2026-10-25.*
