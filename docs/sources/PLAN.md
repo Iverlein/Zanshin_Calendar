@@ -1109,3 +1109,5 @@ Searched and found wanting, so not to be repeated:
   - A rank of the Lto-'phye's parts by name (head, belly, back, tail) beyond p. 282's ninth part, back and tail: not found on pp. 276–294; p. 281's figure is the only place the parts are drawn.
 - **RD86 (2026-10-28)** (RD86, 2026-10-28):
   - The direction of counting the eight places of a door side: not stated on p. 287 (img. 293, read by eye), nor in the page's own lines before and after the table; no commentary in the pool.
+- **RD85 (2026-10-28)** (RD85, 2026-10-28):
+  - On the printed page itself (img. 319) nothing names the planet behind «ཕུང», the planet for «ཆུ་བདག», or the direction in which the friend is put; no gloss, note or interlinear word; the etext and other books were not searched.
