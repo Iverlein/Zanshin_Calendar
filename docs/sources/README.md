@@ -349,8 +349,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-light-clearer-steng-on-zhol-and-taikhang.md](claims/wb-light-clearer-steng-on-zhol-and-taikhang.md) | claim, note | The Zhol and Taikhang prints read «དུར་གྱི་སྟེང» for the light-clearer and name no animal for the grave | cites wb.2:p219d; feeds block-25 |
 | [claims/wb-mansions-in-seven-classes.md](claims/wb-mansions-in-seven-classes.md) | claim, list | WB's seven classes of the 28 mansions: the works each class is good for, its rain and the birth on it | cites wb.2:p328-329; feeds — |
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
-| [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
 | [claims/wb-p133-tables-do-not-gloss-kha-yo.md](claims/wb-p133-tables-do-not-gloss-kha-yo.md) | claim, note | The tables of p. 133 do not gloss «ཁ་ཡོ» or «སྦྲང་མ» | cites wb.1:p133b, wb.2:p224b; feeds — |
+| [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
 | [claims/wb-rahu-nuru-by-date.md](claims/wb-rahu-nuru-by-date.md) | claim, table | Rāhu's course by the lunar date, the general counsel | cites wb.2:p236-237; feeds — |
 | [claims/wb-rat-day-first-portion.md](claims/wb-rat-day-first-portion.md) | claim, note | The rat day's remedy lines on p. 224 are read, their sense is not settled | cites wb.2:p224b; feeds — |
@@ -428,7 +428,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
-| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 33 passages: 20 scan, 13 machine |
+| [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 35 passages: 19 scan, 16 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 1 passages: 1 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 46 passages: 3 scan, 42 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
@@ -645,6 +645,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0456.md](questions/q0456.md) | question q456 | Which digits do pp. 335–336's day-combinations and pp. 341–342's tables carry | open; cites wb.2:p335-336, wb.2:p341-342 |
 | [questions/q0457.md](questions/q0457.md) | question q457 | Does p. 349's verdict on the yogas count the 27 yogas or a shorter list | open; cites wb.2:p349-350 |
 | [questions/q0458.md](questions/q0458.md) | question q458 | Which line is missing for Sesame-pounding among the eleven karaṇas of pp. 349–350 | open; cites wb.2:p349-350 |
+| [questions/q0459.md](questions/q0459.md) | question q459 | How is the la-knower's animal chosen in the lower table of WB vol. 1 p. 133 | open; cites wb.1:p133c |
+| [questions/q0460.md](questions/q0460.md) | question q460 | What are the «གཉན»-kind last names ending each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
+| [questions/q0461.md](questions/q0461.md) | question q461 | Which side is the hearth god's in each cell of the upper table of WB vol. 1 p. 133 | open; cites wb.1:p133b |
 
 <!-- end pool index -->
 

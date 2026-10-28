@@ -1100,3 +1100,8 @@ Searched and found wanting, so not to be repeated:
   - The Taikhang reproduction's year charts (I5877 vol. 1, img. 170, 178, 186): the hal khyi's cell reads «ཧལ་ཁྱི། བུ་མོ།» as in the 1996 chart; no «མ་ལྔ» or «བུ་ལྔ»; the charts of img. 182 and 184 were not read.
 - **RD79 (2026-10-28)** (RD79, 2026-10-28):
   - The planets' directions and the weekday's date triads of p. 313: docs/sources/ searched for the opening words «ཉི་མ་པ་སངས», «ཐད་ཀར་ངན་པས», «གཟའ་ཡི་ཚེས་ལུགས»; nothing found (the pool had never quoted them); BDRC full text not searched.
+- **RD78 (2026-10-28)** (RD78, 2026-10-28):
+  - The 1996 print's cells (I1KG12906 img. 143, p. 133): 670 px wide, cell text about 12 px high with show-through; not read.
+  - Whole-page Yigdzin-1 on I3CN5028 img. 140 reads five characters; the cells were cropped one by one.
+  - An etext of the tables: the 1996 etext has no text for the cells; the only «ཆང་རྫ་ལ་གནས» hit is the verse of vol. 2, p. 367.
+  - A gloss of «ཁ་ཡོ» or «སྦྲང་མ» in the tables: none; no cell of either table names them. The Bhutan second table's cells and BDRC full-text search were not redone.
