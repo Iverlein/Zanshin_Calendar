@@ -1083,3 +1083,6 @@ Searched and found wanting, so not to be repeated:
   - BDRC's full-text search: «ཉི་དུས» (299 hits, almost all run-ons of other words), «ཉི་མ་དུས་ཚོད», «ཉི་མའི་དུས་ཚོད», «ཝང་ཁྱི», «ཝང་གིང», «དུར་ཉི»: none glosses Wangkhyi's «ཉི་དུས» or the light-clearer's «དུར».
   - The year charts of vol. 1 pp. 116–121 (Yigdzin-1 on I3CN5028 img. 123–128): names only, no mothers and sons, no sun's klung, no day counts.
   - The commentary Dpyod ldan snying nor stays search-only: its snippets are WB's own words.
+- **RD75 (2026-10-28)** (RD75, 2026-10-28):
+  - Steinert's 64 dictionaries on ch. 27's words: «ཚད་ཟླ» only in Valby (brother); «མག་རྒུད», «མག་སྐུད», «བུ་ཚར», «བུར་ཞོགས», «ཞུར་ཞོགས», «བརྗེ» as monk or spiritual friend, «ཤིང་ལུག་པ» as the cow's class, «རྔམས» or «རྔ་མས» in the tadpole line: no headword settles any of them.
+  - ZG on p. 9 l. 16 and p. 17: «ཟླ་སྟོན», «ཞག་བཅུ་ཚུན», «ལྕོང་མོ», «རུས་པ» as a bone of the turtle: 0 hits in ZG's etext; ZG does not quote the children's circle's remedy lines nor the soldiers' reckoning.
