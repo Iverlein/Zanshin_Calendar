@@ -111,6 +111,23 @@ The earth lords called those that dwell by the place (21): nāgas, gnyan, gcan a
 
 With its five mothers and five sons (the print numbers nine places, 17 to 25, after the hal khyi's own 16; each number carries an overline), on the previous year's wind-horse, ruling the four years of the malicious one. When the days are twenty-two and twenty-two, since mother and son go two by two, the days come to a full hundred and ten. In small type: «The Rin chen kun 'dus and the Lung kun 'dus, and the Lha rgyud gsal sgron, give a hundred and four days [«རྩ་བཞི», "and four"; the stack is small]; the Stong shes says likewise.» With heat, cold and the dragon's roar; turning to the right, the hal khyi brings the whole round to its end. Numbers and the note read on the Gser thang reprint (I3CN5029 img. 191), crops at 1x; the rest of the passage as Yigdzin-1 gave it and RD3 read it.
 
+## <a id="wb-2-p185c"></a>wb.2:p185c The hal khyi's mothers and sons on the other prints and the digests (RD65)
+
+*Read: machine, 2026-10-28.*
+
+> > Taikhang reproduction (I5878 img. 278, Yigdzin-1's reading; the same words as the 1996 print and the Gser thang reprint):
+> > «མ་ལྔ་བུ་ལྔ་བཅས་པ་སྟེ། །སྔ་ལོའི་ཀླུང་རྟ་དག་གི་སྟེང་། །གདུག་པ་ཅན་གྱི་ལོ་བཞི་དབང་། །ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས་ན། །མ་བུ་གཉིས་གཉིས་བསྐྱབས་ན། །ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པ། །»
+> >
+> > The next lord, p. 186 (Taikhang img. 279 line 1, Yigdzin-1's reading): «དཀར་ཤམ་ནི། །… ཧལ་ཁྱི་ཉིད་དང་གདན་ས་གཅིག །གཡོན་སྐོར་ཞག་གསུམ་རྗེས་སུ་བསྐྱེད། །»
+
+The black hal khyi's five mothers and five sons (WB vol. 2, p. 185) on the other prints and in the digests; the passage at p185b has the lines read on the Gser thang reprint.
+
+**The prints agree.** The Zhol print (img. 896) and the Taikhang print (img. 278) carve the lines as the 1996 print and the Gser thang reprint do: five mothers and five sons on the previous year's wind-horse, the four years ruled, twenty-two days for each, two by two, a hundred and ten days. The commentary's etext *Dpyod ldan snying nor* (MW2PD17386_D19206, outline etext, search-only) has the same words with the note «རིན་ཆེན་ཀུན་འདུས་དང་ལུང་ཀུན་འདུས་ལྷ་རྒྱུད་གསལ་སྒྲོན་ནས་ཞག་བརྒྱ་དང་རྩ་བཞི» as part of the verse. No print gives a seat for any mother or son.
+
+**What the numbers are.** The nine numbers «༡༧ … ༢༥» the print carves after the hal khyi's own «༡༦» count nine places for what are called five mothers and five sons, that is ten; the verse does not say what the numbers refer to (the lords of ch. 31 are numbered through the chapter, and no. 17 is not named on the page: the lord named next, Dkar-sham the white, is numbered 26). The next lord, Dkar-sham, "sits on the hal khyi's own seat and is produced three days later, turning to the left"; so after the hal khyi's own course the next lord follows on the left, but whether the mothers and sons follow that turn is not said. The year charts of vol. 1, pp. 116–121 (the year's lords round the year's animal, RD2 and RD3) were laid out with their cells not read, and were not opened here.
+
+**Searched elsewhere.** BDRC's full-text search for «མ་ལྔ་བུ་ལྔ་བཅས», «ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར», «ཧལ་ཁྱིའི་མ་བུ» and «ཧལ་ཁྱི་མ་བུ» finds only the four copies of WB (the 1996 print, the Gser thang reprint, the Zhol print, the commentary's etext). The Bhutan collection's tables of the year's earth lords (I1KG11905 etext pp. 437–444) list the hal khyi with the girl and the rest and give no mothers or sons.
+
 ## <a id="wb-2-p186b"></a>wb.2:p186b Langging the red enters with the sun's klung (RD63)
 
 *Read: scan, 2026-10-28.*
@@ -118,6 +135,25 @@ With its five mothers and five sons (the print numbers nine places, 17 to 25, af
 > «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །»
 
 He is sent forth together with the sun's klung (ཉི་མའི་ཀླུང, nyi ma'i klung). The print has «ཀླུང» (the head ཀ with a subjoined ལ, then ུ and ང), not «གླང» (ox): read on the Gser thang reprint (I3CN5029 img. 192), a crop at 2x, the line of Langging the red, of war (no. 19). RD3 and the open question took it for «གླང»; the machine reading of the 1996 print (Yigdzin-1) already gave «ཀླུང».
+
+## <a id="wb-2-p186c"></a>wb.2:p186c Langging the red's line on the Taikhang print, and where else the sun's klung stands (RD65)
+
+*Read: machine, 2026-10-28.*
+
+> > Taikhang reproduction (I5878 img. 279, line 4, Yigdzin-1's reading; the stack of the third syllable read by eye at 3.5x):
+> > «བྱི་ལོ་སྟག་ལ་གླང་ལོ་ལུག །སྟག་ལོ་ཡོས་ལ་ཡོས་ལོ་བྱི། །འབྲུག་ལོ་ཁྱི་ལ་སྦྲུལ་ལོ་བྱ། །རྟ་ལོ་སྤྲེལ་ལ་ལུག་ལོ་རྟ། །སྤྲེལ་ལོ་འབྲུག་ལ་བྱ་ལོ་ཡོས། །ཁྱི་ལོ་གླང་ལ་ཕག་ལོ་སྦྲུལ། །ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །»
+> >
+> > The twelve-day verse's own «ཉི་མ» (WB vol. 2, p. 223 of the 1996 print, I1KG12907 etext p. 232): «ས་བདག་ཁར་བུ་ཞེས་བྱའམ། །ཉི་མའི་གདུག་པ་བཅུ་གཉིས་སམ། །གནམ་གྱི་འཁོར་བུ་ཞེས་པ་སོགས། །»
+> >
+> > KD vol. 2 (BDRC MW28845, I4716 etext p. 565, "Skar rtsis kyi skor", a verse on the peahen's drawing by the breath taken): «དབུགས་ཐོབ་ཉི་མའི་དབང་ཐང་མགོ་མདོག་དང་། །… བློན་པོའི་འབྱུང་བས་རྐང་སྡེར་ཁ་དོག་བསྒྱུར། །དབུགས་ཐོབ་ཉི་མའི་ཀླུང་རྟས་ནོར་བུ་འཆང་། །»
+
+Langging the red's line (WB vol. 2, p. 186) on the Taikhang print, the neighbours of its words in WB and in the digests (the line itself is read on the Gser thang reprint at p186b).
+
+**The prints.** The Taikhang print carves the whole table of twelve pairs and the line after it as the 1996 print has them; the third syllable of the line is a stack of ka with a subjoined la, with the vowel and the final nga after it, so «ཀླུང» as on the Gser thang reprint, with Yigdzin-1's «ཀླུངས» (an extra sa) not seen on the 3.5x crop. The Zhol print's machine readings (img. 897) are garbled in this line (the etext «ཉེས་ཀུངས»), and no eye reading was made on it.
+
+**The table before the line**, read in order: year of the rat, the tiger; ox, sheep; tiger, hare; hare, rat; dragon, dog; snake, bird; horse, monkey; sheep, horse; monkey, dragon; bird, hare; dog, ox; pig, snake. It is a table of year to animal, not the klung of the triads of vol. 1, p. 254 (rat, dragon and monkey all share the wood tiger there).
+
+**Where else "the sun's klung" stands.** BDRC's full-text search for «ཉི་མའི་ཀླུང» (5 hits) finds: WB's line; KD vol. 2's verse on drawing the peahen by the time the breath is taken (etext only, not read on the scan), where the sun's power (ཉི་མའི་དབང་ཐང) colours the head and the sun's wind-horse (ཉི་མའི་ཀླུང་རྟ) "holds the jewel", beside the year's king-planet and the minister's element; and three Bon scriptures with a formula that says "in the sky the sun's klung is good" (a witness only, no source: SPEC §8.1). In WB's own text the sun's name also stands for the day: p. 223's «ཉི་མའི་གདུག་པ་བཅུ་གཉིས» is the twelve cruel earth lords of the day. So the sun's klung is a klung-horse (ཀླུང་རྟ, wind-horse) counted by the sun, probably the day's, the same family as the month's «ཟླ་བའི་ཀླུང་རྟ» that a Bhutan reckoning of marriage (MW3CN2232_8F6F6B) sets for the month. That is an inference from words, not a statement of any text. Which klung Langging the red is "produced together with" is not stated, and the table before the line is by years, so the sense of the whole line stays unsettled; no search found a text that explains the line.
 
 ## <a id="wb-2-p189b"></a>wb.2:p189b The black years: a work that cannot be put off, and its rite on a day good by planet, mansion and concord
 
@@ -154,6 +190,33 @@ For the four first months, at the back of the grave (དུར, dur); for the mi
 > «ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །»
 
 The rat day (the earth lord stays at the beer jar; the dead's beer poured on it is bad for children who have not drunk beer): «a bee's [?] first portion (སྦྲང་མ་ཕུད) scattered, and screened with a cloth (ཡོལ་བ); not laid on the threshold (ཐེམ་བུ), [it is] led out from the «ཡོ»…». Read on the Gser thang reprint (I3CN5029 img. 230, which is p. 224, not p. 225 as the question has it), crops at 1x to 2.5x: the three lines are as the 1996 print's etext gives them. The second line's first word has a subjoined ra in the print («སྦྲང»); RD56's machine reading gave «སྤང». The sense of «སྦྲང་མ་ཕུད» and of «ཡོ་ནས» is not settled.
+
+## <a id="wb-2-p224c"></a>wb.2:p224c The rat day's lines on the Zhol print, the Taikhang print and the Bhutan collection (RD65)
+
+*Read: machine, 2026-10-28.*
+
+> > Zhol print (WBZ, I1KG1710 img. 941, Yigdzin-1's reading), the rat day's lines:
+> > «ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྦང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །»
+> >
+> > Taikhang reproduction (I5878 img. 323, Yigdzin-1's reading, the same):
+> > «ཆང་མ་བྱིས་པ་དག་ལ་ངན། །སྦང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །»
+> >
+> > Bhutan collection (Thimphu 1981, I1KG11905 etext p. 570 = printed p. 560), a shortened verse of the same lords:
+> > «བྱི་ཉི་བྱང་སྨད་ཆང་རྫ་གནས། །དེ་ལ་གཤིན་གྱི་ཆད་བཙགས་ན། །ཆང་མ་ལ་ངན་ཉམས་པ་ན། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །དེས་འགྲེ་གནས་ཕྱོགས་ངན་པའི་ས། །ཉམས་ན་བཅོས་སོགས་རིམ་པ་བཞིན། །»
+> >
+> > The same collection's table of the twelve days (img. 571 = printed p. 561, the rat's column, read on the scan at 6x):
+> > «ཆང་རྫ་ལ་གནས། ཆང་མ་ལ་ངན། ཁ་ཡོ་ནས། འདྲེན།»
+> >
+> > The dog day's lines on the Zhol print (img. 941, the same machine reading):
+> > «ཁྱི་ཉིར་ཡ་ཐེམ་མཐེམ་གནས། །ཐེམ་པར་རོ་ཐུག་ཕ་ཁུར་ངན། །ཡང་ན་རོ་འཁུར་དེ་ཉིད་འཆི། །ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ། །»
+
+The rat day's three lines (WB vol. 2, p. 224) on three more witnesses; the words of the first print this reading stands on are in the passage at p224b.
+
+**Zhol print and Taikhang.** Both carve the same three lines as the Gser thang reprint and the 1996 print, word for word, except for the second line's first word, which Yigdzin-1 reads «སྦང» (sbang, no subjoined ra) on both; on the Taikhang crop (img. 323, line 1, 4x) the stack has the head letter and the subjoined ba, and no ra can be told apart from the ba's foot, and on the Zhol print (img. 941, 4x) the stack is too small to tell. The Gser thang reprint read by eye at 2.5x in RD63 shows the ra, and the 1996 etext has it: so the word is «སྦྲང་མ» (sbrang ma, bee) on two prints and not told on two. Everything else in the line, «ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ», «ཐེམ་བུར་མི་འཚག», «ཡོ་ནས་འདྲེན», is as before.
+
+**Bhutan collection.** A compendium of astrological manuals (Thimphu 1981; BDRC MW26041, I1KG11905; machine reading, its list of contents on etext pp. 7–10) carries a shortened verse of the same earth lords: on the mouse day the lord dwells at the beer jar, in the north lower; if the dead's beer is poured on it, and it is harmed, then «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» (the very words of WB), it is explained by "the place of the bad direction", and when harmed the remedies follow in order. The first-portion and cloth lines are not in it. Its table of the twelve days (img. 571, the first column of the second row, read on the scan at 2.4x and 6x) gives the rat's entry in four short lines: the beer jar is the seat; bad for the beer; «ཁ་ཡོ་ནས» (the first syllable read ཁ, kha, on the crop; the etext has «ཁ་ཡེ་ནས»); «འདྲེན» (led out). So the copy adds a syllable before «ཡོ་ནས» and confirms «ཡོ་ནས» as the printed pair and «འདྲེན» as the verb: the corpse, not the beer, is what is "led out".
+
+**The dog day beside it.** On the dog day (same page, machine reading of both the Zhol print and the Gser thang etext) the lord stays at the threshold: a corpse laid on the threshold is bad for «ཕ་ཁུར» (the sense of the two syllables is not settled; they read as a bearer of the corpse), or that bearer dies; the remedy is to wrap the threshold in a cloth («ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ»). So «ཐེམ་བུ/ཐེམ་པ» is the house threshold, as elsewhere in the page, and the rat day's «ཐེམ་བུར་མི་འཚག» says the corpse is not set on it.
 
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
@@ -240,6 +303,23 @@ Further, on the days where the twelve earth lords' day-courses are made known, t
 
 The remedy: «སྤྲ་ཁྱིམ» (spra khyim) at the door's right; at the left a swastika (གཡུང་དྲུང, g.yung drung), and the sun and the moon drawn; by this it can be withstood, it is said. The black times (no. 11), p. 236, read on the Gser thang reprint (I3CN5029 img. 242), crops at 1.2x and 4x: the line is as Yigdzin-1 gave it; the first letter of the stack in «སྤྲ» is a blot and reads as sa with a subjoined ra over a head letter that is not settled (sbra or spra); the 1996 print's etext reads «སྦྲ་ཁྱིམ», the Sakya Centre print's «སྤྱི་ཁྱིམ». Not settled.
 
+## <a id="wb-2-p236c"></a>wb.2:p236c The black times' remedy «སྤྲ་ཁྱིམ» on the other prints and where else the tent is named (RD65)
+
+*Read: machine, 2026-10-28.*
+
+> > Taikhang reproduction (I5878 img. 339, line 5, Yigdzin-1's reading, the stack read by eye at 3x):
+> > «བཅོས་ཐབས་སྤྲ་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས། །དེ་ཡིས་ཐུབ་པར་བཤད་པ་ཡིན། །»
+> >
+> > Zhol print (WBZ, I1KG1710 img. 957, line 5, Yigdzin-1's reading): «བཅོས་ཐབས་སྒྲ་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས། །དེ་ཡིས་ཐུབ་པར་བཤད་པ་ཡིན། །»
+> >
+> > Gser thang reprint, BDRC's own etext (I3CN5029, p. 242): «བཅོས་ཐབས་སྦྲ་ཁྱིམ་སྒོ་གཡས་སུ། །གཡུང་དྲུང་གཡོན་དུ་ཉི་ཟླ་བྲིས། །»
+
+The black times' remedy (WB vol. 2, p. 236) on the other prints; the passage at p236b has the Gser thang reprint read by eye.
+
+**The word.** The Taikhang print's stack at the head of the first word reads, on a 3x crop of its line 5, as sa with pa and ra below: «སྤྲ». Yigdzin-1 gives the same on it; on the Zhol print it gives «སྒྲ» (img. 957), which on its small letters is not told apart from «སྤྲ»/«སྦྲ» by eye or by the machine. BDRC's etext of the Gser thang reprint, of the 1996 print and of the outline etext of the commentary *Dpyod ldan snying nor* (MW2PD17386_D19206) all read «སྦྲ». So the prints differ only in whether the letter under the head is pa or ba; the second syllable and the rest of the three lines are the same on all. The letter changes nothing in the sense: BDRC's full-text search for «སྦྲ་ཁྱིམ» (306 hits) and «སྤྲ་ཁྱིམ» (13 hits) finds the two spellings used for the same compound, the herdsmen's tent (the poles of a «སྦྲ་ཁྱིམ» in the *Rin chen gter mdzod*; «སྦྲ་ཁྱིམ་པ» opposed to «ས་ཁྱིམ་པ», "dweller in a tent" against "dweller in an earth house", in Rang byung rdo rje's verse; «སྤྲ་ཁྱིམ་དུ་མ་ཚུད་གོང» in a biography of a herdsman clan, "before he had entered the tent"). WB itself uses the pair in its lists of good works, where «སྦྲ་ཁྱིམ་འབུབས» (the tent pitched, 'bubs) stands beside sowing and travel (pp. 322–329, 1996 etext), and the Zhol impression MW4CZ74207's etext has «spra khyim 'bubs» in the mansion list.
+
+**What is drawn.** So the figure at the door's right is a tent; at the left a swastika (གཡུང་དྲུང, g.yung drung), and the sun and the moon. No text found says why a tent is the remedy of the black times, nor how it is drawn; the printed verb is «བྲིས» (drawn).
+
 ## <a id="wb-2-p236-237"></a>wb.2:p236-237 The earth lords Khang-brtsegs and Mtsho-sngon, the times of the earth kings and the black times, Rāhu's course by the date
 
 *Read: machine, 2026-10-25.*
@@ -325,3 +405,27 @@ The 4th: at sunset he enters the west; going in the east at dusk, he is for seek
 > འདུག་པས་དོར་ཏེ་བགྱིས་པའི་ལེའུ་སྟེ་སོ་གཅིག་པའོ།། །།
 
 [p. 240] [The closing note begins with «རིགས» after the last word of p. 237, «ནོར»; whether «ནོར་རིགས» is one phrase is not settled.] Those of a doubtful kind: those that rest in the sources of the tantras, such as the Sky, Earth and Eight Appearances and the Vajra Crown-Protuberance, and so on; and the "Precious Elements, All Gathered, Appearance-Clear" and the others, filled in from other sources where the translation is missing; and the practice of the Monlam-going Paṇa (the great one), the Crown-Protuberance Precious Treasury Lamp's commentary, "Light Rays Pervading All": for these, the visualizations from the sources that stand are set down. As for the Nine Black Women's circle, the Thesé and others' patched-in ones, and the visualizations of the earth lords of the lunar date's course: they are not set down here. They are only contrivances of unsourced thought; the "repair-of-nature" and the like and all of them, as there is no virtue and great harm in them, were thrown away and not set down. This is the thirty-first chapter.
+
+## Open and searched (RD65)
+
+RD65, 2026-10-28: questions 404, 405, 432 and 433 on the other witnesses (the Zhol print I1KG1710 and the Taikhang print I5878 over the passages, Yigdzin-1 on each, the doubtful stacks by eye; the 1996, Sakya Centre, Zhol-impression and Gser thang etexts; the Bhutan collection I1KG11905; BDRC's full-text search by `bdrc_search.py`). Passages p224c, p236c, p186c and p185c above; claims `wb-rat-day-lines-on-all-prints`, `wb-spra-khyim-is-a-tent`, `wb-sun-klung-is-the-days-klung-rta`, `wb-hal-khyi-pairs-no-seat-on-any-print`. Settled: the word of p. 236 is a tent. Narrowed: the rat day's «ཡོ་ནས» (a syllable «ཁ» stands before it in the Bhutan table), the sun's klung (a klung-horse counted by the sun, probably the day's). Not settled: «སྦྲང་མ་ཕུད», the sense of «ཡོ་ནས», why a tent, the seats of the hal khyi's mothers and sons.
+
+**Open**
+
+Question: On p. 224 the rat day's remedy ends «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན»; a Bhutan table of the twelve days gives the same as «ཁ་ཡོ་ནས། འདྲེན།» — what is the «ཡོ» (with or without the «ཁ» before it), the place the corpse is led out from, and is the «འདྲེན» the corpse's or the beer's?
+
+Question: In the line before it, «སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ» (the Zhol and Taikhang prints perhaps «སྦང་མ»), which first portion is scattered, the bee's (wax, honey) or another, and is the cloth screening the jar or the threshold?
+
+Question: On p. 236 the black times' remedy draws a tent («སྤྲ་ཁྱིམ»/«སྦྲ་ཁྱིམ») at the door's right, with the swastika and the sun and moon at the left: why a tent, and is it a picture of a tent or of the herdsman's black tent in particular?
+
+Question: On p. 186 Langging the red is produced «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག»: is the sun's klung the klung-horse of the day (as «ཉི་མའི་གདུག་པ» of p. 223 is the day's twelve), and how does the table of year animals before the line give the animal it is "together with"?
+
+Question: On p. 185, where do the black hal khyi's five mothers and five sons sit in their twenty-two-day turns, and what do the nine numbers «༡༧ … ༢༥» after the hal khyi's own «༡༦» number?
+
+**Searched and not found**
+
+- Notes of vol. 2 (pp. 474–545; the 1996 etext p. 480 ff.; Mipham's black-reckoning notes, whose close, p. 538, says they cover WB's black reckoning only): searched for «སྦྲང་མ», «ཡོལ་བས་སྒྲིབ», «ཐེམ་བུར», «སྦྲ་ཁྱིམ», «སྤྲ་ཁྱིམ», «ཉི་མའི་ཀླུང», «མ་ལྔ་བུ་ལྔ», «ཧལ་ཁྱི»: no gloss of any of ch. 31's four passages; «ཧལ་ཁྱི» occurs on pp. 526, 529, 539 in the notes' own matters (the funeral earth lords, the marriage), «ཐེམ་བུ» on p. 530 in the potter's threshold rite, both not about these lines.
+- Sakya Centre print (WB2, I1KG12739–40, BDRC etext IE0OPI0BA3A0E0): its etext is too corrupt for a phrase search (the four phrases do not occur in it as typed), its scans are 1210 px wide: not read.
+- BDRC full-text search, 2026-10-28: «སྦྲང་མ་ཕུད་གཏོར» (2 hits: the 1996 print and the commentary *Dpyod ldan snying nor*), «སྦང་མ་ཕུད་གཏོར» (0), «ཐེམ་བུར་མི་འཚག» (3: the 1996 print, the Gser thang etext MW3CN5026, the Bhutan collection MW26041), «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག» (1: WB), «སྤྲ་ཁྱིམ་སྒོ་གཡས» (0) and «སྦྲ་ཁྱིམ་སྒོ་གཡས» (3: WB's prints, the commentary's outline etext), «ཉི་མའི་ཀླུང་རྟ» (0), «ཧལ་ཁྱིའི་མ་བུ» and «ཧལ་ཁྱི་མ་བུ» (0), «མ་ལྔ་བུ་ལྔ་བཅས» (1: the Gser thang etext), «ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར» (4: WB's four copies): no text other than a copy of WB carries these lines, and none explains them.
+- The commentary *Dpyod ldan snying nor* (MW2PD17386_D19206) is an outline etext open to search only (the etext API answers 403, scans not available): its snippets give WB's own words, no gloss.
+- Taikhang img. 362–363 and 374–375 were read by Yigdzin-1 on a wrong guess of the page numbers (the rat day is on img. 323, the black times on img. 339) and not used.
