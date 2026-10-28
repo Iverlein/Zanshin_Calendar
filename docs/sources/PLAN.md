@@ -1093,3 +1093,8 @@ Searched and found wanting, so not to be repeated:
   - The other cells of WB vol. 1 p. 133's twelve-day table, the Sakya Centre print and the «ཁ་ཡོ» 628-hit list were not read.
 - **RD77 (2026-10-28)** (RD77, 2026-10-28):
   - A third look at the three Taikhang syllables of pp. 9 and 17: the first letter of «[?]ུར» (p. 17 l. 26, img. 33 line 1, at 4 and 5 times), the stack after «ལྕོང་མོའི» (p. 17 l. 9, img. 32, 4 times) and the stack after «མག» (p. 9 l. 6, img. 20, 4 times) are fused ink on the Taikhang and are told by neither head nor foot; no crop settled them.
+- **RD76 (2026-10-28)** (RD76, 2026-10-28):
+  - Zhol print, Taikhang reproduction (vol. 2) and Sakya Centre print: the ox's line of p. 210 and the light-clearer's of p. 219 (Zhol img. 925 and 935, Taikhang img. 307 and 317, Sakya img. 309): the words are those of the 1996 print; no variant separates the day from the hour, no animal named for the grave in any month.
+  - The Sakya Centre print's scans (I1KG12740, 1210 × 190 px a page): unreadable beyond what the etext shows; p. 219 not fetched.
+  - The model almanac's year charts of vol. 1 (1996 print pp. 138–147): no cell names the light-clearer's grave animal, none the hal khyi's mothers or sons; «དུར་ལེན», «སྣང་སེལ» are names only.
+  - The Taikhang reproduction's year charts (I5877 vol. 1, img. 170, 178, 186): the hal khyi's cell reads «ཧལ་ཁྱི། བུ་མོ།» as in the 1996 chart; no «མ་ལྔ» or «བུ་ལྔ»; the charts of img. 182 and 184 were not read.

@@ -629,6 +629,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0445.md](questions/q0445.md) | question q445 | Must Wangkhyi's animal day and animal hour fall together | open; cites wb.2:p210a |
 | [questions/q0446.md](questions/q0446.md) | question q446 | What is «ཡོ» («ཁ་ཡོ») in the rat day's «ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན» and what is served or led from it | open; cites wb.1:p133, wb.2:p224b |
 | [questions/q0447.md](questions/q0447.md) | question q447 | What does «སྦྲང་མ» stand for in «སྦྲང་མ་ཕུད་གཏོར» on p. 224 | open; cites wb.2:p224b |
+| [questions/q0448.md](questions/q0448.md) | question q448 | Does a reckoner's own gloss say whether Wangkhyi's «ཉི་མ་དུས་ཚོད» is met only when day and hour are both the animal's, or by either | open; cites wb.2:p210d |
 
 <!-- end pool index -->
 
