@@ -1033,3 +1033,5 @@ Searched and found wanting, so not to be repeated:
   - I2029 img. 676, row 2 (7× to 12×): the head letter of «བླ་བར» is not shown to be «བླ» or «ཟླ» on the block print (the typeset reads «བླ»).
   - I2029 img. 740, row 5–6 at 8×: the syllable of «ལོ་ཚབ» is not distinct (Yigdzin-1 «ཙ་བ»); I2029 img. 742, row 2: the list of the six in the 360 sentence is blotted.
   - «ཡོས» and «ལོག་མུ་ཅོར» (p. 503): the letters are the same on Mipham's print and the typeset; no gloss in the notes; Steinert's dictionaries not opened.
+- **RD62 (2026-10-28)** (RD62, 2026-10-28):
+  - Re-reading ch. 27's doubtful letters (p. 9 l. 6 སྐུད/རྒུད, p. 17 l. 9 ཛ/རྔ, the rat's ལྷོར/ལྟོར) on the 1-bit Gser thang reprint at 5–6×: the scan does not settle them by eye (RD62, 2026-10-28); a different, sharper print would be needed.
