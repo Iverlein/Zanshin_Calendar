@@ -683,6 +683,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
 | [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | open; cites wb.2:p23-25 |
 | [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | open; cites wb.2:p23-25 |
+| [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | open; cites wb.2:p442 |
+| [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | open; cites wb.2:p440 |
+| [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | open; cites wb.2:p443 |
 
 <!-- end pool index -->
 

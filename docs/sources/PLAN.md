@@ -1121,3 +1121,5 @@ Searched and found wanting, so not to be repeated:
 - **RD89 (2026-10-28)** (RD89, 2026-10-28):
   - The rat verse's stack on the Gser thang reprint (I3CN5029 img. 22, l. 23, at 6×, 2026-10-28): a solid blot, ལྷ against ལྟ not told there; the 1996 scan settles it.
   - A gloss on ch. 27 pp. 16, 20 and 23–25 (both scans, 2026-10-28): no interlinear note names the la's directions, the wood sheep's class or the person of «བརྗེ».
+- **RD84 (2026-10-28)** (RD84, 2026-10-28):
+  - A rule, list or figure of the calendar (lunar days, weekdays, mansions, yogas, planets, a date count) in WB vol. 2 pp. 438–454 (img. 444–460 of the Gser thang reprint): none by the keywords ཚེས, ཟླ་ངོ, ཉི་མ, སྐར་མ, ཞག and the page-by-page machine text.
