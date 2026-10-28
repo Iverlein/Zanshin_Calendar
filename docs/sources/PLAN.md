@@ -1098,3 +1098,5 @@ Searched and found wanting, so not to be repeated:
   - The Sakya Centre print's scans (I1KG12740, 1210 × 190 px a page): unreadable beyond what the etext shows; p. 219 not fetched.
   - The model almanac's year charts of vol. 1 (1996 print pp. 138–147): no cell names the light-clearer's grave animal, none the hal khyi's mothers or sons; «དུར་ལེན», «སྣང་སེལ» are names only.
   - The Taikhang reproduction's year charts (I5877 vol. 1, img. 170, 178, 186): the hal khyi's cell reads «ཧལ་ཁྱི། བུ་མོ།» as in the 1996 chart; no «མ་ལྔ» or «བུ་ལྔ»; the charts of img. 182 and 184 were not read.
+- **RD79 (2026-10-28)** (RD79, 2026-10-28):
+  - The planets' directions and the weekday's date triads of p. 313: docs/sources/ searched for the opening words «ཉི་མ་པ་སངས», «ཐད་ཀར་ངན་པས», «གཟའ་ཡི་ཚེས་ལུགས»; nothing found (the pool had never quoted them); BDRC full text not searched.
