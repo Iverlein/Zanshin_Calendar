@@ -608,9 +608,55 @@ Question: On p. 224 «ཕུད་གཏོར་ཡོལ་བས་སྒྲ�
 
 ## Ch. 31's Wangkhyi day and hour, the light-clearer's «དུར» and the mothers and sons on the other prints and the almanac cells (RD76)
 
-Nothing read yet: RD76's passages, with the English beside them, go here.
+## <a id="wb-1-p138-140"></a>wb.1:p138-140 The model almanac's year charts: the cell «འབྲུག་གྱི་ཉི་དུས། ནུབ་བལྟ།»
 
+*Read: scan, 2026-10-28.*
+
+> …འབྲུག་གྱི་ཉི་དུས། ནུབ་བལྟ།
+
+[the cell reads, at its fourth line:] «… the dragon's day-time (འབྲུག་གྱི་ཉི་དུས, 'brug gyi nyi dus); [he] looks west (ནུབ་བལྟ, nub blta)».
+
+WB vol. 1, the model almanac's pages with the twelve year charts and their woodcuts (the 1996 print pp. 138-147 = I1KG12906 img. 148-157; the Gser thang reprint I3CN5028 img. 145-147 = pp. 138-140 are the first three pages). The cell is the right-hand middle cell of the top chart of p. 140 (img. 147; the 1996 etext, p. 150 of its numbering, carries its last two lines): four lines in the print's small uneven script, read at 4x. Lines 1 to 3 are not read (the first words look like «འབྲུག་ལ་…» and «…ཁྱི་འབྲུག» at the end of line 3, but the letters are the print's own forms, many of them not the usual ones); line 4 reads «…གྱི་ཉི་དུས། ནུབ་བལྟ།» at 4x, the «ཉི་དུས» clear, with the direction in the same cell. On p. 138, the bottom chart's top-middle cell ends its fourth line in «…གི་ཉི་དུས།» (the 1996 etext: «ཙི་ལྟུང་གི་ཉི་དུས།»), without a direction. So the almanac's year charts write Wangkhyi's day-time as an animal and «ཉི་དུས», as WB's p. 210 does, with the direction its mouth faces, and give no hour and no day count. The woodcut-and-cell pages of the print are a font of the 1996 setting with many invented letters («□□» and «++» stand in the cells for signs): a reading from them is a witness to the sense, not to the spelling. The Taikhang reproduction (I5877 img. 182, 184 for these pages, 8700 px wide, in a hand) was not read cell by cell: its cells are in a small cursive hand, one chart (the middle chart of img. 184, a tiger-headed figure with scales) was looked at and is not the dragon's cell's chart; the others were not.
+
+## <a id="wb-2-p210d"></a>wb.2:p210d Wangkhyi's day-time lines on the Zhol and Taikhang prints
+
+*Read: machine, 2026-10-28.*
+
+> གླང་གི་ཉི་མ་དུས་ཚོད་ལ། །ལྷོར་བལྟ་དེ་རུ་ཁ་མི་བསྟན། །… ཉི་མ་སྤེན་པས་མིག་བྱས་ཤིང་། །ལུག་གི་ཉི་དུས་བྱང་ཕྱོགས་ངན། །… མིག་དམར་ལྷག་པའི་མིག་དང་ལྡན། །འབྲུག་གི་ཉི་དུས་ནུབ་ཕྱོགས་ངན། །… མིག་དམར་ལག་པས་མིག་བྱས་ཤིང་། །ཁྱི་ཡི་ཉི་དུས་ཤར་ཕྱོགས་ངན། །… སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉི(ར) ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན། །
+
+On the ox's day, at its time (གླང་གི་ཉི་མ་དུས་ཚོད, glang gi nyi ma dus tshod), one does not turn the face toward the south; the sheep's day-time (ལུག་གི་ཉི་དུས, lug gi nyi dus) the north is bad; the dragon's day-time (འབྲུག་གི་ཉི་དུས, 'brug gi nyi dus) the west is bad; the dog's day-time (ཁྱི་ཡི་ཉི་དུས, khyi yi nyi dus) the east is bad. In general, on the days of the four last months one does not face the bad direction; in particular one does not show the face on the grave days; and most of all one holds the day-time of where [Wangkhyi] stays.
+
+WB vol. 2, p. 210, Wangkhyi (ཝང་ཁྱི, wang khyi), the lines the other readers quoted (p210b, p210c). Zhol print (I1KG1710 img. 925, 3756 px wide) and Taikhang reproduction (I5878 img. 307, folio 297, woodcut beside the lines): Yigdzin-1 over the Zhol page, and over a crop of the Taikhang page, because over the whole page it returned nothing (the woodcut page). Both prints carve the paragraph as the 1996 print and the Gser thang reprint do: the ox's line with «ཉི་མ་དུས་ཚོད» in full, and the other three seasons with the short «ཉི་དུས», the direction after each. The machine's slips, read against the scan: the autumn luck-base (the dog's, «ཁྱི་ཡི་གཡང་གཞིའི་རྒྱལ་མཚན») is «བྱི་ཡི» in both machine readings, but on the Zhol crop (4x) its first syllable is «ཁྱི» with the ཁ's loop; the spring line «ཁྱི་ཡི་ཉི་དུས» is «བྱི་ཡི» in the Taikhang machine reading and «ཁྱི» on the crop (2x, a heavy print, the letter is the ཁ with a subjoined ya). «སྟོན་ཐ་འབྲུག་གི་བཞོན་པ་ཅན» is «སྟོན་པ་འཐུག་གི…» in the Taikhang machine reading, an obvious slip. The Zhol heading before the paragraph reads «ལྕང་ཁྱི» and the Taikhang one «ཝང་ཁྱི» (machine only, the Zhol word not read on the scan). The Sakya Centre print (I1KG12740 img. 309, 1210 px wide and 190 px high, Yigdzin-1 only; most of the page is garbled by the small size) has «འབྲུག་གི་ཉི་དུས་ནུབ་ཕྱོགས་ངན» and «…ཡི་ཉི་དུས་ཤར་ཕྱོགས་ངན» with the short «ཉི་དུས», and its opening line «ཉི་དུས་ནག་པོ…»: the same words, not read on the scan. Of «དུར་ཉིར» (Gser thang, by eye at RD72) the Zhol machine reading has «དུར་ཉིད» and the Taikhang one «དུར་ཉིག»: which letter each print carves is not settled; the sense, "on the grave day", is the same whichever.
+
+## <a id="wb-2-p219d"></a>wb.2:p219d The light-clearer on the Zhol and Taikhang prints: «དུར་གྱི་སྟེང»
+
+*Read: scan, 2026-10-28.*
+
+> སྣང་སེལ་ཁྲབ་གྱོན་མི་སེར་ཞོན། །ལག་ན་གྲི་མདུང་གཡས་སུ་འཁོར། །ར་བ་བཞི་ལ་དུར་གྱི་སྟེང། །འབྲིང་པོར་མར་གྱི་ཁྱིམ་མཚེས་ལ། །ཐ་ཆུང་ཡར་གྱི་གཤེད་ལ་གནས། །གོ་ཆ་མཚོན་ལས་དམག་ལ་ངན། །
+
+The light-clearer (སྣང་སེལ, snang sel, no. 15), a yellow man in armour; in his hand a knife and spear, going round to the right. For the four first months [he stays] on top of the grave (དུར, dur); for the middle ones on the lower neighbour (མར་གྱི་ཁྱིམ་མཚེས, mar gyi khyim mtshes); the last ones he stays on the upper slayer (ཡར་གྱི་གཤེད, yar gyi gshed). Armour, weapons, works of war are bad.
+
+WB vol. 2, p. 219. Zhol print (I1KG1710 img. 935, Yigdzin-1, the line «ར་བ་བཞི་ལ་དུར་གྱི་སྟེང།» then read on the scan at 4x: the last syllable is «སྟེང», the vowel an arch, ending in nga; the page's text is Yigdzin-1's, the lines after «སྟེང» as it gave them). Taikhang reproduction (I5878 img. 317, folio 307, two woodcuts, Yigdzin-1 over the whole page dropped the lines of the lords 14 and 15, and over a crop of its lower half read them: «ར་བ་བཞི་ལ་དུར་གྱི་སྟེང། འབྲིང་པོར་མར་གྱི་ཁྱིམ་མཚོས་ལ། བ་ཆུང་ཡར་གྱི་གཤེད་ལ་གནས།» with slips in «མཚོས» and «བ་ཆུང»; the line was read on the scan at 1.1x: «ར་བ་བཞི་ལ་དུར་གྱི་…» and «འབྲིང་པོ་མར་གྱི་ཁྱིམ་མཚེས་ལ།» are legible, the last syllable of the first line has the vowel ེ and ends in nga, so it is «སྟེང» and not «རྟིང»; the top letter of the stack is not clear on the Taikhang crop, clear (ས) on the Zhol). So both prints give «དུར་གྱི་སྟེང»; neither says which animal the grave is in each month.
+
+Nothing read yet: RD76's passages, with the English beside them, go here.
 
 ## WB vol. 1 p. 133, the table of the twelve days: the other cells and the la-knower lines (RD78)
 
 Nothing read yet: RD78's passages, with the English beside them, go here.
+
+RD76, 2026-10-28: questions 445, 444 and 36 on the other prints. The Zhol print (I1KG1710) and the Taikhang reproduction (I5878 vol. 2, I5877 vol. 1) were read with Yigdzin-1 over the pages and by eye at the syllables that matter; the Sakya Centre print (I1KG12740) is too small to read; the almanac cells of vol. 1 (pp. 138-140) on the Gser thang reprint (I3CN5028 img. 145-147) by eye. Passages `wb.2:p210d`, `wb.2:p219d`, `wb.1:p138-140`; claims `wb-wangkhyi-lines-on-zhol-and-taikhang`, `wb-light-clearer-steng-on-zhol-and-taikhang`, `wb-almanac-cell-dragon-nyi-dus-west`.
+
+## Open and searched (RD76)
+
+RD76, 2026-10-28: questions 445, 444 and 36. Passages p210d, p219d (Zhol and Taikhang, scan and machine) and wb.1:p138-140 (the almanac cell, scan); claims `wb-wangkhyi-lines-on-zhol-and-taikhang`, `wb-light-clearer-steng-on-zhol-and-taikhang`, `wb-almanac-cell-dragon-nyi-dus-west`. Narrowed: all prints carve the same lines on p. 210 and p. 219, so the open points are not misprints but WB's own meaning; the almanac writes Wangkhyi's day-time as an animal with a direction. Not settled: whether the ox day and ox hour must coincide (q445), the grave's animal by month (q444), the seats of the mothers and sons (q36).
+
+**Open**
+
+Question: Does a reckoner's own gloss (a living almanac maker's, the *Moonbeams*', the Sde-srid's replies) say whether Wangkhyi's «ཉི་མ་དུས་ཚོད» of p. 210 is met only when the day and the hour are both the animal's, or by either?
+
+**Searched and not found**
+
+- Zhol print, Taikhang reproduction (vol. 2) and Sakya Centre print: the ox's line of p. 210 and the light-clearer's of p. 219 (Zhol img. 925 and 935, Taikhang img. 307 and 317, Sakya img. 309): the words are those of the 1996 print and the Gser thang reprint; no variant that separates the day from the hour, no animal named for the grave in any month.
+- The Sakya Centre print's scans (I1KG12740, 1210 px wide, 190 px high a page): Yigdzin-1 gives a garbled text of the page (img. 295, 296 are other pages; img. 309 holds Wangkhyi), and p. 219 (img. ~317-319) was not fetched: the print is unreadable at that size beyond what the etext shows, which is the same corruption as RD65 found.
+- The model almanac's year charts of vol. 1 (1996 print pp. 138-147): the cell texts name the lords and, for Wangkhyi, the animal's day-time with a direction (p. 140); no cell names the light-clearer's grave animal, none names mothers or sons of the hal khyi; the 1996 etext of pp. 148-157 (printed 138-147) has «དུར་ལེན», «སྣང་སེལ» as names only.
+- The Taikhang reproduction's year charts (I5877, vol. 1, img. 170, 178 and 186 under Yigdzin-1, img. 172 returned nothing; the hand is native, the page 8700 px wide): the hal khyi's cell reads «ཧལ་ཁྱི། བུ་མོ།» (the hal khyi and the girl) as in the 1996 chart; no «མ་ལྔ» or «བུ་ལྔ» occurs in the pages read. The almanac's charts of img. 182 and 184 were not read by the machine; the cell of the dragon's day-time was not looked for further than one chart of img. 184, and the machine reading of those two images was not finished.
