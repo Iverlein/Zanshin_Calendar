@@ -347,7 +347,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-light-clearer-behind-the-grave.md](claims/wb-light-clearer-behind-the-grave.md) | claim, note | The light-clearer sits behind the grave in the first months, then on the lower neighbour and the upper slayer | cites wb.2:p219b; feeds — |
 | [claims/wb-light-clearer-on-top-of-the-grave.md](claims/wb-light-clearer-on-top-of-the-grave.md) | claim, note | The light-clearer stands on top of the grave («དུར་གྱི་སྟེང»), not behind it | cites wb.2:p219c, wb.2:p219b; feeds — |
 | [claims/wb-light-clearer-steng-on-zhol-and-taikhang.md](claims/wb-light-clearer-steng-on-zhol-and-taikhang.md) | claim, note | The Zhol and Taikhang prints read «དུར་གྱི་སྟེང» for the light-clearer and name no animal for the grave | cites wb.2:p219d; feeds block-25 |
+| [claims/wb-mansions-in-seven-classes.md](claims/wb-mansions-in-seven-classes.md) | claim, list | WB's seven classes of the 28 mansions: the works each class is good for, its rain and the birth on it | cites wb.2:p328-329; feeds — |
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
+| [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
 | [claims/wb-rahu-nuru-by-date.md](claims/wb-rahu-nuru-by-date.md) | claim, table | Rāhu's course by the lunar date, the general counsel | cites wb.2:p236-237; feeds — |
 | [claims/wb-rat-day-first-portion.md](claims/wb-rat-day-first-portion.md) | claim, note | The rat day's remedy lines on p. 224 are read, their sense is not settled | cites wb.2:p224b; feeds — |
@@ -363,6 +365,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-wangkhyi-close-on-the-scan.md](claims/wb-wangkhyi-close-on-the-scan.md) | claim, note | Wangkhyi's close read on the scan, and the animal's day in other manuals | cites wb.2:p210c, wb.2:p210b; feeds — |
 | [claims/wb-wangkhyi-day-time.md](claims/wb-wangkhyi-day-time.md) | claim, rule | Wangkhyi turns his face away at the day-time of the animal's day in each last month of a season | cites wb.2:p210b; feeds — |
 | [claims/wb-wangkhyi-lines-on-zhol-and-taikhang.md](claims/wb-wangkhyi-lines-on-zhol-and-taikhang.md) | claim, note | Wangkhyi's day-time lines on the Zhol and Taikhang prints are the 1996 print's, and say nothing of day against hour | cites wb.2:p210d; feeds block-25 |
+| [claims/wb-weekday-date-rise-by-animal-triad.md](claims/wb-weekday-date-rise-by-animal-triad.md) | claim, rule | The rough way of the planets' dates: four triads of day animals rise with a planet, and the date is rising, withdrawing, contested or declining | cites wb.2:p313; feeds — |
 | [claims/wb-work-result-checklist.md](claims/wb-work-result-checklist.md) | claim, list | Ch. 34's closing verse: what is examined before a work's result is foretold, the earth lords among them | cites wb.2:p428b; feeds T2.26 |
 | [claims/wb-year-charts-hold-names-only.md](claims/wb-year-charts-hold-names-only.md) | claim, note | The year charts of ch. 13 carry the lords' names only | cites wb.1:p116-121; feeds block-25 |
 | [claims/wb-yo-nas-in-the-dictionaries.md](claims/wb-yo-nas-in-the-dictionaries.md) | claim, note | «ཡོ་ནས» in the dictionaries: crooked or aslant, no place; «འདྲེན» serves or leads | cites wb.1:p133, wb.2:p224c; feeds — |
@@ -425,7 +428,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
 | [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md) | corpus | Ch31 gaps | 33 passages: 20 scan, 13 machine |
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 1 passages: 1 machine |
-| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 3 passages: 2 scan, 1 etext |
+| [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 37 passages: 2 scan, 34 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 8 passages: 4 scan, 4 machine |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
