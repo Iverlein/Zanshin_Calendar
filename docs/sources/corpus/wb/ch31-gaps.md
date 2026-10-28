@@ -128,6 +128,14 @@ The black hal khyi's five mothers and five sons (WB vol. 2, p. 185) on the other
 
 **Searched elsewhere.** BDRC's full-text search for «མ་ལྔ་བུ་ལྔ་བཅས», «ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར», «ཧལ་ཁྱིའི་མ་བུ» and «ཧལ་ཁྱི་མ་བུ» finds only the four copies of WB (the 1996 print, the Gser thang reprint, the Zhol print, the commentary's etext). The Bhutan collection's tables of the year's earth lords (I1KG11905 etext pp. 437–444) list the hal khyi with the girl and the rest and give no mothers or sons.
 
+## <a id="wb-2-p185d"></a>wb.2:p185d The hal khyi's mothers and sons: the lines and the note read again
+
+*Read: scan, 2026-10-28.*
+
+> གདུག་པ་ཅན་གྱི་ལོ་བཞི་དབང་། །ཞག་ནི་ཉེར་གཉིས་ཉེར་གཉིས་ན། །མ་བུ་གཉིས་གཉིས་སྐྱ་བས་ན། །ཞག་ནི་བརྒྱ་དང་བཅུ་ཐམ་པར། །(རིན་ཆེན་ཀུན་འདུས་དང་། ལུང་ཀུན་འདུས་ལྷ་རྒྱུད་གསལ་སྒྲོན་ནས་ཞག་བརྒྱ་དང་རྩ་བཞི། (སྟོང་ཤེས་ལས་ཀྱང་དེ་ལྟར་བཤད།)
+
+Ruling the four years of the malicious one. When the days are twenty-two and twenty-two, when mother and son [go] two by two, the days come to a full hundred and ten. [Note in small type:] «The Rin chen kun 'dus and the Lung kun 'dus, and the Lha rgyud gsal sgron, give a hundred and four days; the Stong shes says likewise.» The lines and the note of the hal khyi's five mothers and five sons (WB vol. 2, p. 185, the last lines of the lord), read again on the Gser thang reprint (I3CN5029 img. 191) in crops at 2x: they stand as RD63 has them at p185b, the note's «རྩ་བཞི» ("and four") clear; the verb after «མ་བུ་གཉིས་གཉིས» reads «སྐྱ་བས» on this crop, and the Taikhang reproduction's machine reading has «བསྐྱབས» (p185c): which is the print's word is not settled, the sense ("when mother and son go, or are sent, two by two") is the same. No seat of any mother or son stands in the lines or the note.
+
 ## <a id="wb-2-p186b"></a>wb.2:p186b Langging the red enters with the sun's klung (RD63)
 
 *Read: scan, 2026-10-28.*
@@ -155,6 +163,17 @@ Langging the red's line (WB vol. 2, p. 186) on the Taikhang print, the neighbour
 
 **Where else "the sun's klung" stands.** BDRC's full-text search for «ཉི་མའི་ཀླུང» (5 hits) finds: WB's line; KD vol. 2's verse on drawing the peahen by the time the breath is taken (etext only, not read on the scan), where the sun's power (ཉི་མའི་དབང་ཐང) colours the head and the sun's wind-horse (ཉི་མའི་ཀླུང་རྟ) "holds the jewel", beside the year's king-planet and the minister's element; and three Bon scriptures with a formula that says "in the sky the sun's klung is good" (a witness only, no source: SPEC §8.1). In WB's own text the sun's name also stands for the day: p. 223's «ཉི་མའི་གདུག་པ་བཅུ་གཉིས» is the twelve cruel earth lords of the day. So the sun's klung is a klung-horse (ཀླུང་རྟ, wind-horse) counted by the sun, probably the day's, the same family as the month's «ཟླ་བའི་ཀླུང་རྟ» that a Bhutan reckoning of marriage (MW3CN2232_8F6F6B) sets for the month. That is an inference from words, not a statement of any text. Which klung Langging the red is "produced together with" is not stated, and the table before the line is by years, so the sense of the whole line stays unsettled; no search found a text that explains the line.
 
+## <a id="wb-2-p186d"></a>wb.2:p186d Langging's table: the dragon year's pair is the dog, and the line after it in a digest
+
+*Read: scan, 2026-10-28.*
+
+> སྟག་ལོ་ཡོས་ལ་ཡོས་ལོ་བྱི། །འབྲུག་ལོ་ཁྱི་ལ་སྦྲུལ་ལོ་བྱ། །
+> 
+> > Digest 'Bras rtsis bar gsal li dwangs ma'i me long (MW1KG21827, BDRC search snippet, the OCR's Wylie put into script):
+> > «དམག་མི་ཝང་གིང་ཞེས་བྱ་བ། །བྱི་ལོ་སྟག་ལ་གླང་ལོ་ལུག །སྟག་ལོ་ཡོས་ལ་ཡོས་ལོ་བྱི། །འབྲུག་ལོ་ཁྱི་ལ་སྦྲུལ་ལོ་བྱ། །རྟ་ལོ་སྤྲེལ་ལ་ལུག་ལོ་རྟ། །སྤྲེལ་ལོ་འབྲུག་ལ་བྱ་ལོ་ཡོས། །ཁྱི་ལོ་གླང་ལ་ཕག་ལོ་སྦྲུལ། །སྟེང་གནས་དམག་ཇག་རྩོད་པ་འཛུགས། །»
+
+The hare year's pair and the dragon year's pair of Langging the red's table (WB vol. 2, p. 186, no. 19): «year of the hare, the hare [is paired with] the mouse; year of the dragon, the dragon [is paired with] the dog, the snake with the bird». The syllable after «འབྲུག་ལོ» is «ཁྱི» (dog): a stack with a long left stem that runs down past the line, the head of ka, the subjoined ya and the gigu; the mouse's «བྱི» in the line above has a round head of ba and no stem. Read on the Gser thang reprint (I3CN5029 img. 192, at 10x, the hare's «བྱི» beside it at 10x) and on the Taikhang reproduction (I5878 img. 279, line 4, at 6x: the same stem and loop). The digest below carries the same table and names its lord before it: «དམག་མི་ཝང་གིང་» ("the soldier Wang-ging"). The digest (by 'Bro'i sbyin pa, Kan su'u mi rigs dpe skrun khang, 2006; search-only, its OCR's snippet read in BDRC's search on 2026-10-28) has the dragon pair as «ཁྱི» too, and in place of WB's «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད། །ལས་ཐབས་…» it reads «སྟེང་གནས་དམག་ཇག་རྩོད་པ་འཛུགས» ("abiding above, it sets up war, raids and strife"): the sun's klung line is not there.
+
 ## <a id="wb-2-p189b"></a>wb.2:p189b The black years: a work that cannot be put off, and its rite on a day good by planet, mansion and concord
 
 *Read: scan, 2026-10-26.*
@@ -175,6 +194,14 @@ What it shows: when a work cannot be put off in a black year, the earth lord is 
 
 From the general account of the earth lords (ས་བདག་སྤྱི་རྒྱུད): in the last month of summer [Wangkhyi] rides a black ox; a black sheep is joined to the luck-base; fangs of Khen-gin, tongue of Kham, eyes of Saturn and Mars. «On the ox's day, at its time (གླང་གི་ཉི་མ་དུས་ཚོད་ལ), one does not turn the face toward the south.» In the last month of winter he rides a black sheep; a black ox raises the luck-base; «the sheep's day-time (ལུག་གི་ཉི་དུས) the north is bad». In the last month of autumn he rides the dragon; the dog raises the luck-base; «the dragon's day-time the west is bad». In the last month of spring, a black dog on a horse; the dragon raises the luck-base; «the dog's day-time the east is bad». So summer south, winter north, autumn west, spring east: one does not face it, and in general and in particular does not send the oath-bringers (མནའ་མི). This is the oath-killer. In general, on the days of the four last months one does not face the bad direction; in particular one does not face it on the grave days (དུར་ཉི); and most of all one holds the day-time of where he stays (གནས་པའི་ཉི་དུས). If it is harmed, remedy and screening as in general. Machine reading (Yigdzin-1, I3CN5029 img. 216), not read by eye: the four seasons repeat the same words, so a slip is unlikely in the words that matter; the short «ཉི་དུས» in the other three seasons is the same «ཉི་མ་དུས་ཚོད» as the ox's.
 
+## <a id="wb-2-p210c"></a>wb.2:p210c Wangkhyi: the close of the paragraph on the scan, and where else the animal's day is named
+
+*Read: scan, 2026-10-28.*
+
+> སྤྱིར་ན་ཐ་ཆུང་བཞིའི་ཉི་མར། །ངན་པའི་ཕྱོགས་དེར་ཁ་མི་བསྟན། །སྒོས་སུ་དུར་ཉིར་ཁ་མི་སྟོན། །ཡང་སྒོས་གནས་པའི་ཉི་དུས་འཛིན། །
+
+In general, on the days of the four last months one does not turn the face toward the bad direction; in particular one does not show the face on the grave days (དུར་ཉི, dur nyi); and more particularly one holds the day-time of where [Wangkhyi] stays (གནས་པའི་ཉི་དུས, gnas pa'i nyi dus). The close of the Wangkhyi paragraph (WB vol. 2, p. 210), read on the Gser thang reprint (I3CN5029 img. 216) in crops at 2x: the four lines are as the machine reading of RD63 gave them; the ox's own line («གླང་གི་ཉི་མ་དུས་ཚོད་ལ») was not read again by eye. What the other texts add. (1) «X-འི་ཉི་མ» is a day named by the animal in the other manuals too: the Bhutan collection (I1KG11905 etext p. 481, machine reading, not read on the scan) has «གླང་གི་ཉི་མར་ཟའདྲེ་ཤར་དུ་གོམ་པ་བཅུའི་སར་སོང་» ("on the ox's day the flesh-eating spirit goes ten paces east"), a rite of its own, where «གླང་གི་ཉི་མ» can only be the ox day. (2) The Bhutan collection's tables of the lords by year (etext p. 445, a cell of garbled letters, machine reading) put «ཝང་ཁྱི་འབྲུག་ཉི་དུས» ("Wangkhyi, the dragon's day-time") into one cell: the animal and «ཉི་དུས» are written as one name, as WB's «འབྲུག་གི་ཉི་དུས» is. (3) BDRC's search for the lines' own words (to «དུར་ཉིར་ཁ་མི་སྟོན», «ཉི་དུས་བྱང་ཕྱོགས་ངན», «གནས་པའི་ཉི་དུས་འཛིན») finds only the four copies of WB and the commentary's etexts, which have the same words; no text glosses «ཉི་དུས».
+
 ## <a id="wb-2-p219b"></a>wb.2:p219b The light-clearer: behind the grave, the lower neighbour, the upper slayer (RD63)
 
 *Read: scan, 2026-10-28.*
@@ -182,6 +209,14 @@ From the general account of the earth lords (ས་བདག་སྤྱི་�
 > «ར་བ་བཞི་ལ་དུར་གྱི་རྟིང་། །འབྲིང་པོ་མར་གྱི་ཁྱིམ་མཚེས་ལ། །ཐ་ཆུང་ཡར་གྱི་གཤེད་ལ་གནས། །»
 
 For the four first months, at the back of the grave (དུར, dur); for the middle ones, on the lower neighbour (མར་གྱི་ཁྱིམ་མཚེས, mar gyi khyim mtshes); the last ones he stays on the upper slayer (ཡར་གྱི་གཤེད, yar gyi gshed). The light-clearer's (སྣང་སེལ, snang sel, no. 15) three lines, read on the Gser thang reprint (I3CN5029 img. 225, p. 219), crops at 1.3x to 3x: «ར་བ་བཞི་ལ» is clear; the third syllable after «དུར་གྱི» is blotted and reads «རྟིང» (back, behind); Yigdzin-1 dropped the paragraph's first lines (woodcut beside them) and gave only the last.
+
+## <a id="wb-2-p219c"></a>wb.2:p219c The light-clearer: on top of the grave, read again, and the same place in the nine black ones
+
+*Read: scan, 2026-10-28.*
+
+> ར་བ་བཞི་ལ་དུར་གྱི་སྟེང་། །འབྲིང་པོ་མར་གྱི་ཁྱིམ་མཚེས་ལ། །ཐ་ཆུང་ཡར་གྱི་གཤེད་ལ་གནས། །
+
+For the four first months [the light-clearer, no. 15, stays] on top of the grave (དུར, dur); for the middle ones on the lower neighbour (མར་གྱི་ཁྱིམ་མཚེས, mar gyi khyim mtshes); the last ones he stays on the upper slayer (ཡར་གྱི་གཤེད, yar gyi gshed). Read again on the Gser thang reprint (I3CN5029 img. 225, p. 219, the end of the second line of the paragraph) at 8x to 9x: the syllable after «དུར་གྱི» is blotted, but its vowel is the arch of «ེ» and the subjoined «ྟ» is there with its tail, so the word is «སྟེང» (on top of), not the «རྟིང» (behind) of RD63; the letter above the «ྟ» (sa or ra) cannot be told by the stroke alone. Every etext of the line that BDRC's search shows reads «སྟེང» (steng): the 1996 print, the Gser thang reprint and the commentary's two etexts (MW1KG1617_A9DE66, MW2PD17386_D19206). The same words stand as the place of the lord in WB's own list of the nine black ones, in the 1996 etext at image 200, printed p. 192 (machine reading, not read on the scan): «ནད་བདུད་མགོ་གཅོད་དུར་གྱི་ཐོག» (the disease-demon "head-cutter" [sits] on the grave) and «སྟག་གཟིག་མར་གྱི་བཞི་གཤེད་ཐོག» (the tiger-leopard on the lower four-slayers), with «ཐོག» (on top of) in the place of «སྟེང»: so the grave, the lower neighbour and the slayer are named places that a lord stands on; which animal each is, WB does not say here.
 
 ## <a id="wb-2-p224b"></a>wb.2:p224b The rat day: the beer jar, the first portion and the threshold (RD63)
 
