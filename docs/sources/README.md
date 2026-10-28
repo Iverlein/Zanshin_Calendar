@@ -551,7 +551,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0399.md](questions/q0399.md) | question q399 | «བཙས་པ་སྲོག་རླུང» in question 134: the life-wind or the life force and wind-horse | open; cites ys:i099, wb.2:p497 |
 | [questions/q0400.md](questions/q0400.md) | question q400 | «དཔྱད་འགོག་བྱེད་དུ» in reply 134 | open; cites ys:i491-492 |
 | [questions/q0401.md](questions/q0401.md) | question q401 | What spirits and conditions add to a split of a third and two thirds | open; cites wb.1:p438 |
-| [questions/q0402.md](questions/q0402.md) | question q402 | What «བཞི་བརྒྱ་དོན་བཞི» counts among the earth lords' comings | open; cites wb.2:p175-176 |
+| [questions/q0402.md](questions/q0402.md) | question q402 | What «བཞི་བརྒྱ་དོན་བཞི» counts among the earth lords' comings | answered; cites wb.2:p175-176, wb.2:p175b |
 | [questions/q0403.md](questions/q0403.md) | question q403 | The measure of the digging rite's earth figure | answered; cites wb.2:p387 |
 | [questions/q0404.md](questions/q0404.md) | question q404 | Two rites of the day's twelve for the dead, p. 225 | open; cites wb.2:p224-225 |
 | [questions/q0405.md](questions/q0405.md) | question q405 | «སྤྲ་ཁྱིམ» at the door's right against the black times | open; cites wb.2:p236-237 |
