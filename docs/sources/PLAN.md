@@ -1065,3 +1065,8 @@ Searched and found wanting, so not to be repeated:
   - «སྣང་སེལ་དུར་གྱི» and «སྣང་སེལ་ཐ་ཆུང་» 0 hits; «སྣང་སེལ་ཁྲབ་གྱོན», «ཉི་དུས་བྱང་ཕྱོགས་ངན», «དུར་ཉིར་ཁ་མི་སྟོན», «གནས་པའི་ཉི་དུས་འཛིན» only in WB's prints and the commentary's etexts, no gloss.
   - «དམག་མི་ཝང་ཁྱི», «ཝང་གིང་ལང་གིང», «ལང་གིང་དམར་པོ», «ཧལ་ཁྱི་ནག་པོ་མ་ལྔ» 0 hits; the G.ya' sel etext and Mipham's notes (pp. 474–545) have nothing on the light-clearer, Wangkhyi, the sun's klung or the hal khyi's mothers and sons.
   - The Bhutan collection's year tables (I1KG11905 img. 446–452) are too small to read and their etext is garbled: no witness for q28 or q29.
+- **RD68 (2026-10-28)** (RD68, 2026-10-28):
+  - «ཕྱ་ཐེར», «ཕྱི་ཐེར», «ཤྭ་རགས» and «མཐོ་ཕྱེད» as headwords in Steinert's 64 dictionaries: none.
+  - «ན་ཆུང་མོད» in the Zhol print's etext (garbled), its second impression, UT, LT and the Bhutan digest: no hit (only the 1996 etext p. 412).
+  - A length for the digging figure's mtho in the digging rite itself (Bhutan digest, UT, LT, the Zhol etexts): «མཐོ་གང» occurs only in WB's rites (stakes, a «ཤེར་ཤིང», a Buddha's image), not as a plot's measure.
+  - The lines of works 24, 49 and 50 on the Taikhang print were not read by eye (too small at 1.3x); the Zhol print's cartouches still unread.
