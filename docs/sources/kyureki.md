@@ -963,7 +963,8 @@ above):
   birth year.
 - So the 1414 text cannot confirm the personal reading; it is a third
   view of the same days: a monthly sutra rule, of weight only for the
-  Three Jewels. Which to show is D8's.
+  Three Jewels. D8 (the owner, 2026-10-30): the 簠簋内伝's table and its
+  "everything to avoid" stay; the 1414 days are not shown.
 
 **Ranking (question 6).** The work has no rule of precedence between the
 almanac's annotations of the kind asked for (which band overrides
