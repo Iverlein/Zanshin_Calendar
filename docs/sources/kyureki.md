@@ -2667,4 +2667,364 @@ Nothing read yet: RD93's passages, with the English beside them, go here.
 
 ## The daily directions: 天一神's and 日遊神's (RD94)
 
-Nothing read yet: RD94's passages, with the English beside them, go here.
+Read 2026-10-31, by eye on the NDL scans (IIIF images, no model); the
+NDL Digital Collections' machine full text used only to find pages.
+天一天上 itself (whether today's almanac prints it) stays K4's; this section is the direction of each day and what is avoided
+towards it.
+
+**The texts read.**
+
+- **GR**, the 暦林問答集 in the 群書類從 woodblock (pid 14488380; *K3-R*
+  above): §43 日遊, img. 46, left page; §53 天一, img. 49 left page to
+  img. 50 right page, read again against K3-R's transcription.
+- **MS**, the manuscript ちニ-5 (pid 2533201): searched in the NDL's
+  machine full text for 違, 方違, 違方, 方忌 and 避 (below), not read.
+- **KK**, 『欽定協紀辨方書』 36 卷, «清允祿等奉敕撰», «内府刊朱墨套印», 乾隆6
+  (1741) by the catalogue, call number さ-88, NDL pid 2574120 (the
+  catalogue's volume [2]), 卷三 義例一, the article 日遊神 with its figure
+  (img. 59, left page) and text (img. 60–62); and the 附鶴神圖 heading
+  that follows (img. 62). A Qing imperial work.
+- **KR**, 『古事類苑』 方技部 (神宮司庁古事類苑出版事務所 編, 神宮司庁,
+  [明42] = 1909 by the catalogue), a compendium that quotes older texts
+  under their titles: vol. 方技部１, pid 897742, 陰陽道中, the entry
+  日遊, pp. 115–116 (img. 62–63); vol. 方技部２, pid 897743, 陰陽道下, the
+  entries 天一方 (pp. 177–178, img. 11–12), 方忌 (p. 188, img. 17) and
+  方違 (pp. 190–191, img. 18). The quoted works (簾中抄, 拾芥抄, 倭名類聚抄,
+  江次第抄, 台記, 頭書長暦, 貞丈雜記) are read only as KR prints them;
+  their own editions were not opened, and no date is given for them here
+  because none was taken from a catalogue.
+- Three popular almanac-books of the Meiji years, for what later
+  books made of the two gods: 『独占易学全書』 3冊 (開運館 編, 又間精華堂,
+  明34 = 1901), pid 760755, img. 19–20 (pp. 32–34, 家相鑑定法); 『永代万暦大雑書』
+  (手塚貞彦 編, 松田文書堂, 明16 = 1883), pid 759984, img. 48 (p. 28);
+  『万暦大雑書三世相大全 : 明治新刻』 (塚田為徳 編, 文江堂, 明17 = 1884), pid
+  760747, img. 19 (p. 10).
+- The digests, in the headed browser: koyomi8.com, 「暦注の説明（その２）」
+  (https://koyomi8.com/sub/rekicyuu_doc02.html), 「方塞がり（かたふたがり）と方違え（かたたがえ）」
+  (日刊☆こよみのページ 2011/12/18, https://koyomi8.com/doc/mlwa/201112180.html)
+  and 「天一天上と塞がり」 (2011/12/19, https://koyomi8.com/doc/mlwa/201112190.html);
+  NAOJ 暦Wiki 「暦注」 (https://eco.mtk.nao.ac.jp/koyomi/wiki/CEF1C3ED.html,
+  last modified 2022-07-25).
+
+### 天一神: what is avoided towards it
+
+**GR §53, img. 50, right page, the last four columns** (read again on the
+scan; it agrees with K3-R's text):
+
+> 其天一遊行方角百事犯向之大凶戰鬪向之弩弓折産乳向之死傷尤大凶東北維艮方正東卯方也餘倣之
+
+"In the direction where 天一 wanders, anything done facing it is very
+bad: in battle facing it the crossbow breaks; in childbirth facing it
+there is death and harm, worst of all. The north-east corner is the 艮
+direction, due east the 卯 direction; the rest after this pattern."
+
+The section ends there. **The 暦林問答集 has no word on a 方違え, the
+changing of direction**: §53 names the harm of facing 天一's direction
+and no remedy; the machine full text of MS has 違 four times (the
+preface, «天数不違»; §17; and twice in a passage on day and night), none
+of them on directions, and no 方違, 違方 or 方忌; 避 (seven times) is
+used for the birth room in §43, the 下食 hour in §52 and the earth god's
+place in §55, never for 天一. (The machine text was not checked against
+the scan beyond these hits' snippets: a reading of the whole manuscript
+might still find a word it missed.)
+
+**The 天一 entry of KR (方技部２, 陰陽道下, p. 177, img. 11, left page)**
+quotes, before the 暦林問答集's §53:
+
+> 〔簾中抄下方違附土忌〕天一〈五日づゝふたがる〉乙卯の日より、五日は卯のかたにあり、卯といふは東なり、そののちしだいにめぐる、こよみにつきたり、そなたにとゞまらず、大かたいむことも、大將軍の方のごとし、
+
+"The 簾中抄 (book 2, 'changing direction, with the earth taboos'): 天一
+— it blocks five days at a time. From the 乙卯 day, for five days, it is
+in the 卯 direction; 卯 means east. After that it goes round in order;
+the almanac carries it. One does not stay [the night] in that direction;
+what is avoided is in general as for the direction of 大將軍."
+
+> 〔倭名類聚抄二神靈〕天一神〈和名、奈加加美〉百鬼經云、天一神、天女化身也、
+
+"The 倭名類聚抄: 天一神, in Japanese *nakagami*; the 百鬼經 says 天一神 is
+a heavenly woman's transformation body."
+
+So in the 簾中抄 as KR prints it, the course was in the almanac
+(«こよみにつきたり»), and the thing avoided is staying overnight towards
+it, with the rest "as for 大將軍". Its "five days at a time", starting
+at 乙卯 in the east, is not the 暦林問答集's six days in each corner
+from 己酉.
+
+**KR, p. 176, img. 11, right page**, the 拾芥抄 on how far "the direction"
+reaches:
+
+> 〔拾芥抄下末方角〕天一太白方事　件方可忌正方一辰也、假令十丈者、以一丈五尺六寸六分爲正方、此外非忌限、大將軍王相諸禁忌方角皆同之、天一太白自大將軍王相八卦忌方重可忌避、是件大將軍方等日數久之故也、見保憲勘文之由、宗明朝臣所談也、
+
+"The 拾芥抄: on the directions of 天一 and 太白. In that direction what
+is to be avoided is the true direction, one branch [of the twelve]: if
+the distance is ten 丈, then 1 丈 5 尺 6 寸 6 分 is the true direction;
+outside it is not within the taboo. The directions of 大將軍, 王相 and
+the other taboos are all the same. 天一 and 太白 are to be avoided more
+strictly than the taboo directions of 大將軍, 王相 and the 八卦, because
+those last many days; 宗明 朝臣 said this is in 保憲's report."
+(«自» read as "than"; the sentence could also be taken otherwise.)
+
+**KR, p. 178, img. 12, right page**: the course itself, as the 江次第抄
+gives it for the New Year's 四方拜, agrees with the 暦林問答集's:
+
+> 〔江次第抄正月〕四方拜〈略〉天一　己酉至甲寅六日在艮方、乙卯至己未五日在卯方、庚申至乙丑六日在巽方、丙寅至寅午五日在午方、辛未至丙子六日在坤方、丁丑至辛巳五日在酉方、壬午至丁亥六日在乾方、戊子至壬辰五日在子方、癸巳至戊申十六日在天上、天一在天上之時、向乾拜之、爲秘事也、
+
+"天一: 己酉 to 甲寅, six days, in the 艮 direction; 乙卯 to 己未, five, 卯;
+庚申 to 乙丑, six, 巽; 丙寅 to 庚午 (printed «寅午»), five, 午; 辛未 to
+丙子, six, 坤; 丁丑 to 辛巳, five, 酉; 壬午 to 丁亥, six, 乾; 戊子 to 壬辰,
+five, 子; 癸巳 to 戊申, sixteen days, in heaven. While 天一 is in heaven,
+one bows towards 乾: this is a secret matter." And the diary 台記 (same
+page): «久安六年十二月二十八日庚午、自冷泉參東三條、〈略〉是夜須留宿、而依天一方歸冷泉»
+— he should have stayed the night at 東三條, but went back to 冷泉
+because of 天一's direction. 庚午 is the fifth day of 丙寅–庚午, 天一 in
+the south.
+
+**KR, p. 188, img. 17, right page**: what is done when one cannot keep
+out of 天一's direction for the night:
+
+> 〔拾芥抄上本諸頌〕方塞夜誦〈天一神角六方五、謂之誦〉大威德功德自在通王佛〈天一神方塞夜、禮拜誦十反、卽無咎、〉又內典華嚴經文云、件誦云、迷故三界常　悟故十方空　本來無東西　奈所有南北〈已上謂之天一神頌〉
+
+"The 拾芥抄, the verses: the verse for a night with the direction
+blocked (天一神, six in a corner, five on a side; this is called the
+verse). 'Buddha 大威德功德自在通王' — on a night when 天一神 blocks the
+direction, bow and recite it ten times, and there is no harm. Also from
+the 華嚴經: 'Deluded, the three worlds are fixed; awakened, the ten
+directions are empty; from the first there is no east or west; what
+south or north is there?' — this is called the 天一神 verse."
+
+### How a 方違え is made
+
+**KR, 方違, p. 190, img. 18, right page**, from the 貞丈雜記:
+
+> 〔貞丈雜記十六神佛〕一方違と云は、たとへば明日東の方へ行かんとおもふに、東の方其年の金神に當ル歟、又は臨時に天一神、太白神などに當り、其方へ行ば凶しと云時は、前日の宵に出て、人の方へ行て、一夜とまりて、明日其所より行けば、方角凶しからず、物まいる方へ行也、方角を引たがへて行く故、方違と云也、
+
+"A 方違え is this: if one means to go east tomorrow, and the east falls
+on that year's 金神, or for the time being on 天一神, 太白神 or the like,
+so that going that way is bad, then one leaves on the evening before,
+goes to someone's house [in another direction], stays one night, and
+the next day sets out from there: then the direction is not bad. One
+goes [first] the other way; because the direction is turned aside, it
+is called 方違." («物まいる方へ行也» and the small note after «方違と云也»
+are not read with certainty on the scan.)
+
+The same page, the 簾中抄 on 大將軍 (the eight generals are RD92's): its
+方違え is a night away from home before the 節分 and one night in
+forty-five elsewhere, «方違のことは、節分のまへの夜より、我家に、一夜もとゞまらず、又人の家もしは我家なれど本所にあらざるところにては、四十五日に、一夜[たがふべきなり]»;
+and **p. 191, img. 18, left page**, the 拾芥抄 on the night itself:
+
+> 〔拾芥抄下末方角〕〈略〉方違所、過亥時、畢可還、不得至天明云〈光平說、一夜方違、次日歸本所〉
+
+"At the place of the 方違え, once the hour of the boar is past one may
+go back; one need not stay till dawn (光平's view: a one-night 方違え,
+and back home the next day)."
+
+So the old texts KR prints make the 方違え one night spent away, in a
+house that lies in another direction, before setting out; for 天一神
+the 拾芥抄 also gives a verse recited ten times on a night when the
+direction cannot be avoided. Neither is in the 暦林問答集.
+
+### 日遊神: where it is when it is not in the house
+
+**GR §43, img. 46, left page** (read again on the scan; K3-R's text
+stands, «巳酉» on the block for 己酉 and «戊巳» for 戊己, the 巳/己 of
+this print):
+
+> 自癸巳日至巳酉日十七日在屋内又戊巳日居屋舎内餘日皆運轉八方今暦所載者只在屋舎内耳八方遊行者皆略之
+
+"From 癸巳 to 己酉, seventeen days, it is inside the house; on 戊 and 己
+days too it dwells in the house; **on the other days it goes round the
+eight directions**. What the almanac of today carries is only its
+being in the house; its wandering in the eight directions is all left
+out."
+
+The 暦林問答集 names the wandering and gives no course: the almanac of
+1414 already left it out.
+
+**KK 卷三 義例一 日遊神, img. 60, right page.** The Qing almanac's handbook
+quotes the 曆例 and then argues:
+
+> 曆例曰癸巳至丁酉日在房内北戊戌己亥日在房内中庚子辛丑壬寅日在房内南癸卯日在房内西甲辰至丁未日在房内東戊申日又在中己酉日出遊四十四日遊神所在之方不宜安產室掃舍宇設牀帳其義未明
+> 今按日遊神載於時憲書明代承元授時曆即有之其前則莫可考矣曆例曰其義未明自來未有爲之說者然俗所遵信南方民俗又有所謂鶴神方者出行忌抵向之
+
+"The 曆例: from 癸巳 to 丁酉 it is in the north of the room; on 戊戌 and
+己亥 in the middle of the room; 庚子, 辛丑, 壬寅 in the south; 癸卯 in the
+west; 甲辰 to 丁未 in the east; on 戊申 in the middle again; on 己酉 it
+goes out and wanders for forty-four days. In the direction where the
+wandering god is, it is not fitting to set up a birth room, sweep the
+house or put up bed curtains; the reason is not clear.
+Note: 日遊神 is printed in the 時憲書 [the Qing almanac]; the Ming, which
+took over the Yuan's 授時曆, had it already; before that it cannot be
+traced. The 曆例 says its reason is not clear, and nobody has explained
+it. But what common people believe — in the south the folk also have
+what they call the direction of 鶴神, which one avoids facing when
+setting out."
+
+**Img. 60, left page**, the 鶴神's course, from 婁元禮's 田家五行 as KK
+quotes it: «鶴神己酉日下地東北方乙卯轉正東庚申轉東南丙寅轉正南辛未轉西南丁丑轉正西壬午轉
+[img. 61] 西北戊子轉正北癸巳上天» — 己酉 down to earth in the north-east,
+乙卯 east, 庚申 south-east, 丙寅 south, 辛未 south-west, 丁丑 west, 壬午
+north-west, 戊子 north, 癸巳 up to heaven: the 暦林問答集's course of 天一,
+day for day. KK's own count on the same page: six days in a corner,
+five on a side, «凡居四維則六日而去居四正則五日而去».
+
+**Img. 61, right page**, KK's conclusion:
+
+> 今紬繹之暗與日遊神相應蓋日遊神以癸巳日在室共十六日至己酉日而出遊四方共四十四日鶴神以癸巳日上天亦共十六日至己酉而下地巡歷四方亦共四十四日此以爲在室則彼以爲在天其在四方則同此四十四日也
+
+"Drawing it out now, it tallies closely with 日遊神: 日遊神 is in the
+room from 癸巳, sixteen days in all, and on 己酉 goes out and wanders the
+four quarters, forty-four days in all; 鶴神 goes up to heaven on 癸巳,
+also sixteen days, and on 己酉 comes down to earth and goes round the
+four quarters, also forty-four days. Where the one is said to be in the
+room, the other is said to be in heaven; in the four quarters it is the
+same forty-four days."
+
+**Img. 62, left page:**
+
+> 故室中之象似之而細區其方仍始自北由北而南而西而東即日遊神所在之方也安產室安牀則不宜抵向日遊神出行則不宜犯鶴神總以其爲陰煞之氣故忌之也
+
+"So the room's figure resembles it, and divides its directions finely,
+again from the north: from the north to the south, the west and the
+east — these are the places of 日遊神. When setting up a birth room or a
+bed, do not face 日遊神; when setting out, do not offend 鶴神: both are
+avoided because they are the breath of yin killing." (It then takes
+the name 鶴 for a corruption of 噩, «意者鶴爲噩字之訛», and the god for
+something like 金神, «噩神猶金神歟».)
+
+So the one old text read that gives 日遊神 a course outside the house
+is KK, a Chinese handbook of 1741, and it gives it by **identifying**
+the outside course with 鶴神's, which is 天一's course of the 暦林問答集;
+its own source, the 曆例, says only "forty-four days out" and "the
+reason is not clear". KK's sixteen days in the room (癸巳–戊申, with a
+place in the room for each day) are not the 暦林問答集's seventeen
+(癸巳–己酉) and every 戊 and 己 day.
+
+**The Japanese house positions: KR 方技部１, 日遊, p. 115 (img. 62, left
+page) to p. 116 (img. 63, right page)**, after the 暦林問答集's §43:
+
+> 〔頭書長暦上〕天一神遊行ノ方ハ、万事ニ凶ベシ、就中此ノ方ニ向テ、具ヲ立テ、敵ヲ追、對決、臨產、殺生ニキラフナリ、本文ニ產婦遁家臨產ノ時、常宅ヲノガレテ產屋ヘ入ル折節、天一遊行ノ方ニ向テ行座スルコトヲ凶義ナリ、サテ天一天上シ玉フハ、癸巳ヨリ戊申マデ十六日ノアイダナリ、此內ニハ、方角ノ祟リハナケレドモ、天一ノ臣下、日遊神、娑婆ニ下リテ、人家ヲ塞グ故ヘ、家內ニ於テ其所座ノ方ヲバ不可汚、總而不淨騒動ノ義ニ凶也、
+> 日遊神、民家ニ於テ所座ノ方、
+> 癸巳ヨリ五日ノ間ハ家內ノ北方　戊戌ヨリ二日ノ間ハ同中央　庚子ヨリ三日ノ間ハ同南方　癸卯一日ハ同西方　甲辰ヨリ四日ノ間ハ同東方　戊申一日ハ同中央　以上十六日ノ間ハ天一天上也、
+
+"The 頭書長暦: the direction where 天一神 wanders is bad for everything;
+above all, facing it one avoids setting up arms (具, read *tsunae*),
+pursuing an enemy, a confrontation, childbirth and killing. The main
+text means that a woman who leaves her usual house to give birth in a
+birth hut must not go and sit facing the direction where 天一 wanders.
+天一 is in heaven sixteen days, from 癸巳 to 戊申; in these there is no
+curse of direction, but 天一's servant 日遊神 comes down to the world and
+blocks the houses of men, so inside the house the place where it sits
+must not be soiled; any impurity or commotion is bad. Where 日遊神 sits
+in a commoner's house: five days from 癸巳, the north of the house; two
+days from 戊戌, the middle; three days from 庚子, the south; 癸卯, one
+day, the west; four days from 甲辰, the east; 戊申, one day, the middle.
+These sixteen days are 天一天上."
+
+The 頭書長暦's places in the house are KK's places in the room, day for
+day; it says nothing of where 日遊神 is on the other forty-four days.
+
+**The Meiji almanac-books** say the same and no more: 日遊神 is 天一神's
+servant, «天一神の臣下に日遊神と申すあり天一天上の間は日遊神地を守る此神人間の家に住する神にて不淨を嫌ふにより天一天上十六日の間は家の内とりわけ掃淨め清淨にすべし»
+(独占易学全書, img. 19, right page, p. 32: "during 天一天上 日遊神
+guards the earth; it lives in men's houses and hates impurity, so for
+the sixteen days the house above all is to be swept and kept clean"),
+and the 永代万暦大雑書 of 1883 (img. 48) has the same wording (compared on the whole page, not word by word); the 1884
+大雑書 (img. 19) words it otherwise («天一天上十六日の間ハ家内を掃除し万事清浄にすべし»,
+read in a cursive print, not with certainty word by word). These books
+turn the 暦林問答集's «此日勿掃屋舎内», "do not sweep inside the house",
+into "sweep it clean" (the modern reading found in K3-R's *Open*), and
+none gives 日遊神 a course outside the house.
+
+The same books give 天一神's course with five days in each direction
+from 庚戌: «天一神地を巡る方角は庚戌日より甲寅日まで五日が間艮の方にあり乙卯日より己未日まで五日が間東にあり庚申日より甲子日まで五日が間巽にあり余は次の圖にてしるべし»
+(独占易学全書, img. 19, left page, p. 33; its figure, p. 34, img. 20,
+is an empty frame with the caption «天一神方位圖» and the warning «此方に向ひ万つゝしむべし軍を出せば弓をれ産をすれば死す其余談合かけ合ことゞ皆調はず»
+— "facing it be careful in everything: lead out an army and the bows
+break, give birth and die; any other talk or bargaining all fails");
+the 1884 book has «庚戌の日より甲寅の日まで五日艮にあり乙卯日より己未の日まで東にあり»
+and in its figure «丙寅より庚午迄五日» for the south (its other labels
+not read with certainty). Five days from 庚戌 in the north-east and
+from 庚申 in the south-east are the 暦林問答集's six from 己酉 and from
+庚申 with a day lost; eight times five is 40, not 44, and the books do
+not say where the other days go. A difference stated, not settled.
+
+### Whether today's almanac carries either daily
+
+- **The old texts.** The 暦林問答集 (1414): the almanac of its day
+  printed 日遊's days in the house and left out its course
+  («今暦所載者只在屋舎内耳»). The 簾中抄 as KR prints it: 天一's course
+  «こよみにつきたり», the almanac carried it. KK (1741): 日遊神 is
+  printed in the Qing 時憲書.
+- **koyomi8**, 「暦注の説明（その２）」: 天一天上 among the 選日, «方角に関する禁忌を生み出す天一神が天上に去る為、方角に関する禁忌が無くなる期間と考えられた。「方違え」の多くは地上に天一神が在る場合の方角の禁忌を避けるもの。»
+  (天一神, which makes the direction taboos, goes to heaven, so the
+  taboos lapse; most 方違え were to avoid the taboo of 天一神 on earth).
+  「天一天上と塞がり」 gives the course with the 暦林問答集's dates (己酉
+  NE 6 … 戊子 N 5) and calls 天一神 «十二神将の主将で、中神（なかがみ）»,
+  the chief of the twelve generals; it says the site's own day data
+  marks «天一天上の終わり», nothing of a printed almanac's daily
+  direction. 「方塞がりと方違え」: the 方違え as a night in another's
+  house in another direction, later shortened «泊まらないといけない　→　行くだけでいい　→　いったふりだけでいい».
+  Neither page names 日遊神.
+- **The NAOJ 暦Wiki** 「暦注」 page has none of 天一, 日遊, 方違, 方位,
+  方角 or 選日.
+- So the digests read say nothing on whether today's printed almanac
+  shows the day's 天一神 direction or 日遊神 outside the house; the
+  paper 高島暦 (D12) is still what settles it.
+
+### What the readings would rest on
+
+- 天一神's daily direction: the 暦林問答集's §53 course (己酉 NE six days,
+  乙卯 E five, 庚申 SE six, 丙寅 S five, 辛未 SW six, 丁丑 W five, 壬午 NW
+  six, 戊子 N five; 癸巳–戊申 in heaven), the 江次第抄 the same; avoided
+  towards it: "anything done facing it", battle, childbirth (§53); in
+  the 頭書長暦 also pursuing an enemy, a confrontation and killing; in
+  the 簾中抄 staying the night in its direction.
+- The 方違え: not in the 暦林問答集; in the texts KR quotes, a night
+  spent in a house in another direction before setting out (貞丈雜記,
+  簾中抄), one may go home after the hour of the boar (拾芥抄); for a
+  night that cannot be avoided, the 天一神 verse ten times (拾芥抄).
+- 日遊神 outside the house: no Japanese text read gives a course; the
+  暦林問答集 says it goes round the eight directions and the almanac
+  leaves this out; only KK (Chinese, 1741) gives one, and only by
+  equating it with 鶴神's, which is 天一's.
+
+### Open
+
+- Question: the 暦林問答集 keeps 日遊 in the house seventeen days, 癸巳 to
+  己酉, and on every 戊 and 己 day besides; the 曆例 (in the 協紀辨方書)
+  and the 頭書長暦 keep it sixteen days, 癸巳 to 戊申, with a place in the
+  house for each day and nothing of 戊 and 己. Which does an onmyōdō
+  practitioner follow, and does the printed almanac mark the 戊・己 days
+  as 日遊 days?
+- Question: is 日遊神's course outside the house, on the forty-four days,
+  reckoned in Japan at all? The 協紀辨方書 makes it 鶴神's, which is 天一's;
+  the 暦林問答集 says only that it goes round the eight directions. Is
+  there a Japanese reckoning, or is the day's 日遊神 only "in the house
+  or not"?
+- Question: the 簾中抄, as 古事類苑 prints it, has 天一 block "five days
+  at a time" from 乙卯 in the east, and the Meiji 大雑書 have five days
+  each from 庚戌 in the north-east; the 暦林問答集 and the 江次第抄 have
+  six days in each corner from 己酉. Is the five-day count a different
+  reckoning, or a shortening of the same?
+- Question: the 拾芥抄's sentence «天一太白自大將軍王相八卦忌方重可忌避»:
+  are 天一 and 太白 to be avoided more strictly than the 大將軍, 王相 and
+  八卦 directions, or is the sense another?
+- Question: does the printed 高島暦 (or 神宮館's almanac) of today show
+  the day's 天一神 direction in its day columns, and 日遊神 on any day
+  other than the 天一天上 days? (D12.)
+
+### Searched and not found
+
+- 方違え in the 暦林問答集: no 方違, 違方 or 方忌 in the NDL machine full
+  text of MS (pid 2533201, 2026-10-31); 違 four times, none on
+  directions. GR has no machine full text.
+- 日遊神's course outside the house in a Japanese text: not in GR §43, in
+  the 頭書長暦 or 簾中抄 as 古事類苑 prints them, nor in the three Meiji
+  almanac-books (pid 760755, 759984, 760747); the NDL full-text search
+  for 日遊所在 (2026-10-31) found, besides KK and these, only diaries and
+  modern studies (玉葉, 吾妻鏡, 鎌倉遺文, studies of birth rooms; most
+  of them NDL premises only), all on 日遊 in the house at a birth.
+- 日遊神 on koyomi8.com: not named on 「暦注の説明（その２）」, 「方塞がりと方違え」
+  or 「天一天上と塞がり」; a site search returned no page for it.
+- 天一, 日遊, 方違 on the NAOJ 暦Wiki: not on the 「暦注」 page; the wiki's
+  own search page (`?cmd=search`) returned only the front page.
