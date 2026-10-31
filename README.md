@@ -69,7 +69,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
 - **旧暦:** month and day with the moon's age, 六曜, the current solar term
   with its reading and the whole ring of the 24, moon phase, 十二直, 二十八宿,
   九星 of the day, month and year, 選日 and 暦注下段 (with the lower band's
-  own rules), 雑節, 干支 and 恵方; every row opens its reading or its facts,
+  own rules), 雑節, 干支 and 恵方 with the year's eight direction gods (八将神) on a compass; every row opens its reading or its facts,
   read after the 暦林問答集 of 1414 where it speaks, and the mansion's good
   days counted only where stem and branch are good, as it ranks them.
 - **Choose a day:** the best days for a work over one to twelve months,

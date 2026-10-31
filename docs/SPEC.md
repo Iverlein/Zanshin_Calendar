@@ -39,7 +39,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 | In v1 | Later |
 | --- | --- |
 | Tibetan: date, leap month, skipped/repeated day, weekday and planet, day element/gender/animal, year name and rabjung number, festivals; the almanac entries of §5.8 — lunar mansion, element pair, yoga, karaṇa, lunar-day cycles, hair-cutting day, monthly observances, personal days; the four aspects of the year and the pebbles of the day, month and year (§5.9); the lunar mansion's reading and the activity lists (§5.10) | Tsurphu version |
-| Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方, personal bad days | 神吉日, 凶会日, 五墓日, 時下食 |
+| Kyūreki: date, leap month, rokuyō, solar term of the day and current term, kanshi (干支), seasonal festivals; the 暦注 of §7.5 — 十二直, 二十八宿, 九星, 選日 and 暦注下段, 雑節, 恵方 and the year's eight direction gods (八将神), personal bad days | 金神 and the daily directions (天一神's course, 日遊神) until the owner decides on them (ROADMAP D9); 神吉日, 凶会日, 五墓日, 時下食 |
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | |
 | Screen with date navigation, home-screen widget, location setting; the morning notice, one a day with the day in brief (§10.5) | Other notifications |
 | Meditation timer and mindfulness bell, a screen of their own (§10.9) | |
@@ -2653,6 +2653,29 @@ also counts 庚申 and 己巳 among the 選日; the app lists each day once, und
 | Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch, everything to avoid («萬事不用»), as the 簠簋内伝 gives them (巻上「三箇悪日」, NDL pid 1911335, img. 20; koyomi8 その３ has the same table); needs a birth date |
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
+| 八将神 | by the branch of the year from 立春 (the eight gods below) |
+
+**The year's eight direction gods** (八将神, ROADMAP K5, D9; `YearGods`;
+[sources/kyureki.md](sources/kyureki.md), RD92), the printed almanac's
+方位吉凶図, each in one of the twelve branch directions by the year's
+branch, the year from 立春 as the 恵方's (a stated choice; the 暦林問答集
+does not say where their year begins, question 491). The 暦林問答集 gives
+the rule for 太歳 (the year's branch, §6), 太陰 (two behind, §9), 歳破
+(opposite, §11, its harm none in a season's first branch, light in the
+middle, heavy in the last) and 豹尾 (opposite the 黄幡, §14); for the
+others it gives the range and no rule, so the printed almanac's table
+after Japanese Wikipedia「八将神」stands (§8.1, the digests where the old
+text is silent): 大将軍 亥子丑 → 酉, 寅卯辰 → 子, 巳午未 → 卯, 申酉戌 → 午 (§8:
+three years in each 仲), 歳殺 申子辰 → 未, 巳酉丑 → 辰, 寅午戌 → 丑, 亥卯未 → 戌
+(§12: among 丑未辰戌), 黄幡 at the grave of the year's triad, 辰 丑 戌 未
+(§13 with §10 and §46). The 歳刑 is the almanac's one branch, 卯 戌 巳 子 辰
+申 午 丑 寅 酉 未 亥 for the years 子 to 亥, inside the quarter §10 bars. The
+大将軍 bars its whole quarter (§8). Each god's reading is the 暦林問答集's:
+what is avoided facing it, what is allowed, its star as *Also called*;
+no lists, since the works are barred towards a direction, not on a day,
+and nothing is weighed (`YearGodsTest`, the twelve years against the
+table). 金神 (only in the 簠簋内伝, RD93) and the daily directions (RD94)
+wait on the owner.
 
 **九星気学 (optional, personal).** The 本命星 is the year star of the birth date,
 the year reckoned from 立春. Its relation to the day star follows the stars'
@@ -3140,7 +3163,7 @@ name both. Sewing tents is a third, beside pitching them.
 | Set | Source |
 | --- | --- |
 | 六曜, 十二直, 二十八宿 | こよみ博物館, 株式会社トーダン (an almanac publisher) |
-| 選日 and 暦注下段, 九星, 恵方, 庚申 | Japanese Wikipedia; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子; 『独占易学全書』 (1901, NDL) for 歳下食, a second witness to Wikipedia's table |
+| 選日 and 暦注下段, 九星, 恵方, 八将神, 庚申 | The 暦林問答集 (NDL pid 14488380) where it speaks (§8.1); Japanese Wikipedia, its 八将神 for the directions the old text gives no rule for; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子; 『独占易学全書』 (1901, NDL) for 歳下食, a second witness to Wikipedia's table |
 | 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
@@ -3817,7 +3840,14 @@ canvas "Zanshin Calendar — basic design".
 - **暦注:** in the order of a printed almanac — the middle band (中段, the
   十二直 alone), the 二十八宿, the lower band (暦注下段), the selected days
   (選日), the deity days (縁日), the 雑節, then 干支 of day and year, the
-  solar month, month and year stars, the day star and the 恵方. Each 干支
+  solar month, month and year stars, the day star and the 恵方, whose row
+  opens the year's directions: the year's 干支, a compass of the twelve
+  branches with each god's mark in its branch (歳 in the good colour, the
+  others in the bad), the 大将軍's quarter as an arc and the 恵方's needle,
+  a tapped branch naming its gods below; then the 恵方's row and the eight
+  gods' rows in the almanac's order, each opening its reading with its
+  direction, the 大将軍's barred quarter and the 歳破's harm this year as
+  details (ROADMAP K5). Each 干支
   row opens a balloon (ROADMAP K6): the stem with its element and
   polarity, the branch with its animal, the pair's place in the sixty;
   the solar month's balloon its branch, its first and last day and what

@@ -38,7 +38,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 17 | A2 Large font and landscape — built 2026-10-16 | M | The page at font scale 1.5 and 2.0, in landscape and on a tablet: labels at 12 sp least, label columns measured, two columns or a capped width, diagrams that scale | U8–U18 and X2, so the rows and the sheets' label column it measures are final |
 | 18 | W1 The widget — built 2026-10-16 | M | A widget in two sizes with the day's tone, its reason and the hours, plain RemoteViews rather than Glance; SPEC §10.6 written | A1 (the theme), U8–U18 (the header and rows), U11 (the hours' short form) |
 | 19 | X1–X10 The readings' wording | L | Every reading of the Tibetan page's sheets in one shape: the ruling first in a paragraph of 20–60 words, the rest as labelled rows in a fixed order, *How it falls* today's line only, boilerplate once, one vocabulary, the verse's headword as an image; the catalog carries rows and `CatalogTest` holds the shape (X1–X2, block 42, built 2026-10-11; X10 and the year sheet, blocks 49 and 57, built 2026-10-16; X5, block 44, built 2026-10-16; X6, block 45, 2026-10-17; X7, X8 and X9, blocks 46 to 48, and X3–X4, block 43, 2026-10-18, the last); 459 readings, family by family, the Russian with each; no side, tone or list changes | — for X1–X2; X1–X2 for the rest; L3's read-through (block 15) waits on all of it, A1 and A2 on X2's sheet |
-| 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 (K3 built 2026-10-31) | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D8 and D9 settled 2026-10-30 but for their open points; RD92–RD94 for the direction gods; a paper 高島暦 (D12) |
+| 20 | K1–K6 The 旧暦 page after the expert's review of 2026-10-12 (K3 and K5's year sheet built 2026-10-31) | M | The Russian terms by the scholarly literature (K1), the festivals' names she corrected (K2, built 2026-10-14), the old texts behind the readings (K3, her advice: 暦林問答集 over 簠簋内伝), the claims to settle on the sources (K4, with 天一天上 and 歳徳神 as printed today), the direction gods (K5), every row opening as on the Tibetan page (K6, planned 2026-10-14: the solar term with its reading, details and full ring, 2026-10-16, the 干支 rows, the month and year stars, the date and moon); the purpose and the frame are settled (SPEC §7: the printed almanac's set, read by the old texts; her second answer, 2026-10-14) | D8 and D9 settled 2026-10-30 but for their open points (the 十二直's lists, the terms' voice; 金神 and the daily directions, read in RD93–RD94); a paper 高島暦 (D12) |
 | 21 | T2.28 Corrections from the readings | S | Five entries the O readings found otherwise on the scan than the app has them: KP's table, ch. 34's marriage and learning, the 9th hair date, Tuesday's saddling, the horse day's witness; three lunar dates wait on the owner (D11) | — (D11 for the lunar dates) |
 | 22 | U19 Pinned works — built 2026-10-21 | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
@@ -111,7 +111,7 @@ moves up as soon as it is unblocked.
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order — D8 settled 2026-10-30, built 2026-10-31 but for D8's open points | K3-R, the 暦林問答集 (kyureki.md) | — (D8's open points: the 十二直's lists, the solar terms' voice) | Build block 53: K3 as D8 settled it: the 暦林問答集 first in SPEC §8.1, §64's ranking in §7.5 and the election, 日遊's wording, the 三箇の悪日 kept from the 簠簋内伝. |
-| <a id="block-54"></a>54 | [K5](#k5) The direction gods — D9 settled 2026-10-30: a year sheet | [RD92](#rd92); [RD93](#rd93), [RD94](#rd94) for 金神 and the daily rows | [53](#block-53) (D9's open points: 金神, the daily directions) | Build block 54: K5, the year sheet of the 八将神 from the 恵方 row, from RD92; 金神 and the daily directions as the owner decides on RD93 and RD94. |
+| <a id="block-54"></a>54 | [K5](#k5) The direction gods — D9 settled 2026-10-30: a year sheet, built 2026-10-31; 金神 and the daily rows wait on the owner | [RD92](#rd92); [RD93](#rd93), [RD94](#rd94) for 金神 and the daily rows | [53](#block-53) (D9's open points: 金神, the daily directions) | Build block 54: K5, the year sheet of the 八将神 from the 恵方 row, from RD92; 金神 and the daily directions as the owner decides on RD93 and RD94. |
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
@@ -511,7 +511,7 @@ as a dead end (sources/PLAN.md).
   (the 本命星 reading, the 六曜 line, SPEC §10.4's red writing), as
   [31](#block-31) builds the reckonings one by one.
 
-#### <a id="k5"></a>K5 The direction gods — the owner's decision
+#### <a id="k5"></a>K5 The direction gods — the year sheet built 2026-10-31 (SPEC §7.5, §10.4); 金神 and the daily directions the owner's decision
 
 - **Her counter-question.** Which direction gods beyond 天一神 and 歳徳神
   does the app compute or plan? None: 天一天上 and 恵方 are all it has, no
@@ -536,6 +536,27 @@ as a dead end (sources/PLAN.md).
 - **Block.** [54](#block-54), after [53](#block-53) (the old text's
   order) and RD92; 金神 and the daily rows join it when RD93 and RD94
   are reported and decided.
+- **Built 2026-10-31** (block 54): `YearGods` (core) gives the eight by
+  the year's branch from 立春, the 暦林問答集's rules where it has them and
+  the printed almanac's table (Japanese Wikipedia「八将神」) where it gives
+  only the range, the 歳刑 as the almanac's one branch, the 大将軍's
+  quarter and the 歳破's weight; `YearGodsTest` holds the twelve years
+  against the table. `Texts.YEAR_GOD`, eight readings in the shape from
+  the 暦林問答集 in both languages, the star as *Also called*. The 恵方 row
+  opens the year's directions: the compass of the twelve branches with
+  the gods' marks, the quarter's arc and the 恵方's needle, then the
+  恵方 and the eight rows (SPEC §10.4). Font subset rebuilt (the gods'
+  kanji, and 78 characters missing since earlier blocks). Checked on the
+  emulator in English and Russian, at font scale 2.0 and in landscape.
+  **For the owner** (D9's open points), on RD93 and RD94: **金神** is
+  found only in the 簠簋内伝 (two year tables by the stem, §5 and §6, the
+  遊行 and the 間日; today's digests blend the two tables), never in the
+  暦林問答集, and the 陰陽道 of 1173 did not use it: show it from the
+  簠簋内伝, as the 三箇の悪日 are, or leave it out? **The daily
+  directions**: 天一神's 44-day course is the 暦林問答集's (§53, every work
+  facing it very bad), 日遊神 has no recorded course outside the house,
+  and whether today's printed almanac shows either waits on the paper
+  高島暦 (D12): a daily 天一 row, or none?
 
 #### <a id="k6"></a>K6 Every 旧暦 row opens — planned 2026-10-14, built 2026-10-18 (SPEC §10.4)
 
@@ -662,7 +683,8 @@ as a dead end (sources/PLAN.md).
   avoided towards it, as the printed almanac's 方位吉凶図. Not settled
   until their readings report: **金神** (RD93; the 暦林問答集's contents
   do not name it) and **the daily directions**, 天一神's and 日遊神's
-  (RD94).
+  (RD94). The year sheet is built (block 54, 2026-10-31); both
+  readings reported the same day, their questions under K5's *Built*.
 - **D10 What to ask the expert to work on first**, her question before
   pricing — settled 2026-10-14: nothing is commissioned; the remaining
   points (K1, K2, K4, K5) are investigated here, on the sources and the
