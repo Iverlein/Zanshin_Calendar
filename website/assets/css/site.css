@@ -185,6 +185,7 @@ a:hover { color: var(--text); }
   border-radius: 20px; background: var(--surface);
 }
 .card h2 { margin: 0 0 16px; font: 500 26px/1.25 var(--serif); }
+@media (max-width: 480px) { .card { padding: 22px 18px 14px; } }
 .card.saffron h2 { color: var(--saffron); }
 .card.vermilion h2 { color: var(--vermilion); }
 .card ul { margin: 0; padding: 0; list-style: none; }
@@ -196,13 +197,34 @@ a:hover { color: var(--text); }
 }
 .card.saffron li::before { background: var(--saffron); }
 .card.vermilion li::before { background: var(--vermilion); }
+/* A long feature: its head, with the details folded under a tap; a long
+   list: its first features, the rest behind "N more". */
+.fold summary, .more > summary { cursor: pointer; list-style: none; }
+.fold summary::-webkit-details-marker,
+.more > summary::-webkit-details-marker { display: none; }
+.fold summary::after {
+  content: "+"; display: inline-block; margin-left: .45em;
+  color: var(--faint); font-weight: 600; transition: transform .15s;
+}
+.fold details[open] summary::after { transform: rotate(45deg); }
+.fold summary:hover, .fold summary:focus-visible { color: var(--text); }
+.fold summary:hover::after, .fold summary:focus-visible::after { color: var(--text); }
+.fold details p { margin: 6px 0 2px; font-size: 15px; color: var(--faint); }
+.card .more > ul > li:first-child { border-top: 1px solid var(--line); }
+.more > summary {
+  display: inline-block; margin-top: 10px; padding: 6px 14px;
+  border: 1px solid var(--line-strong); border-radius: 999px;
+  font-size: 14px; color: var(--muted);
+}
+.more > summary:hover, .more > summary:focus-visible { color: var(--text); border-color: var(--muted); }
+.more[open] > summary { display: none; }
 /* The meditation timer: under both calendars, in neither's colour. */
 .card.practice { grid-column: 1 / -1; }
 .card.practice h2 { color: var(--text); }
 .card.practice li::before { background: var(--muted); }
 
 .paragraphs { padding-top: 24px; padding-bottom: 24px; }
-.paragraphs p { margin: 0 0 12px; max-width: 46em; color: var(--muted); }
+.paragraphs > div { margin: 0 0 12px; max-width: 46em; color: var(--muted); }
 
 /* Principles */
 .principles { display: grid; gap: 32px; padding-top: 48px; padding-bottom: 72px; }

@@ -1,0 +1,15 @@
+{{- /* Splits a feature text into a head and its details: at the first ": "
+   or at the end of the first sentence, whichever comes first, when what
+   follows runs past 100 characters; otherwise the text stays whole and the
+   details are empty. */ -}}
+{{- $t := strings.TrimSpace . -}}
+{{- $head := $t -}}
+{{- $rest := "" -}}
+{{- with findRESubmatch `(?s)^(.*?)(?:: |(\.) )(.*)$` $t 1 -}}
+  {{- $m := index . 0 -}}
+  {{- if gt (len (index $m 3)) 100 -}}
+    {{- $head = print (index $m 1) (index $m 2) -}}
+    {{- $rest = index $m 3 -}}
+  {{- end -}}
+{{- end -}}
+{{- return dict "head" $head "rest" $rest -}}

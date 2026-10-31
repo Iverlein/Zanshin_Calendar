@@ -33,7 +33,12 @@ On every merge of a feature, in the same branch:
 5. **The F-Droid listing**, both languages,
    `fastlane/metadata/android/{en-US,ru-RU}/`: `full_description.txt`
    (each part a `<b>` block; a block with a list becomes a card on the
-   website) and `short_description.txt` (80 characters at most). F-Droid
+   website). The website folds them: an item or a plain paragraph whose
+   text after its first ": " or first sentence runs past 100 characters
+   shows that head with the rest under a tap, and a card of more than
+   eight items shows six with the rest behind "N more"
+   (`website/layouts/_partials/fold.html`). So start a long item with a
+   short head and a colon and `short_description.txt` (80 characters at most). F-Droid
    shows them from the next release's build, the website at once.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they

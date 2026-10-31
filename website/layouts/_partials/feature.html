@@ -1,0 +1,10 @@
+{{- /* One feature, as a list item or a block (.tag: li or div; a p cannot
+   hold the details): its head, with long details folded under a tap. The
+   tag is spliced in as text, since the template escapes a "<" before an
+   action. */ -}}
+{{- $f := partial "fold.html" .text -}}
+{{- if $f.rest -}}
+{{- printf `<%s class="fold"><details><summary>%s</summary><p>%s</p></details></%s>` .tag $f.head (strings.FirstUpper $f.rest) .tag | safeHTML -}}
+{{- else -}}
+{{- printf `<%s>%s</%s>` .tag $f.head .tag | safeHTML -}}
+{{- end -}}

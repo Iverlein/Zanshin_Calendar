@@ -1,6 +1,8 @@
 {{- /* The F-Droid listing, parsed once: title, short description, the lead
    paragraph, the two calendars and the meditation timer (blocks with a list), the principles (other
-   titled blocks), plain paragraphs, and the version with its changelog. */ -}}
+   titled blocks), plain paragraphs, and the version with its changelog.
+   The calendars keep their list items as plain texts, which the page
+   folds (fold.html). */ -}}
 {{- $dir := printf "listing/%s/" site.Params.listing -}}
 {{- $full := (resources.Get (print $dir "full_description.txt")).Content | strings.TrimSpace -}}
 {{- $blocks := split (replaceRE `\r` "" $full) "\n\n" -}}
@@ -12,11 +14,14 @@
   {{- if hasPrefix $b "<b>" -}}
     {{- $title := replaceRE `(?s)^<b>(.*?)</b>.*$` "$1" $b -}}
     {{- $body := replaceRE `(?s)^<b>.*?</b>\s*` "" $b -}}
-    {{- $item := dict "title" $title "body" $body -}}
     {{- if strings.Contains $body "<ul>" -}}
-      {{- $calendars = $calendars | append $item -}}
+      {{- $items := slice -}}
+      {{- range findRESubmatch `(?s)<li>(.*?)</li>` $body -}}
+        {{- $items = $items | append (index . 1) -}}
+      {{- end -}}
+      {{- $calendars = $calendars | append (dict "title" $title "items" $items) -}}
     {{- else -}}
-      {{- $principles = $principles | append $item -}}
+      {{- $principles = $principles | append (dict "title" $title "body" $body) -}}
     {{- end -}}
   {{- else if not (hasPrefix $b "<a ") -}}
     {{- $paragraphs = $paragraphs | append $b -}}

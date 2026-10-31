@@ -27,14 +27,30 @@
   {{- range $i, $c := $l.calendars }}
   <article class="card {{ cond (eq $i 0) "saffron" (cond (eq $i 1) "vermilion" "practice") }}">
     <h2>{{ $c.title | safeHTML }}</h2>
-    {{ $c.body | safeHTML }}
+    {{- /* A long list shows its first six features, the rest behind "N more". */}}
+    {{- $n := cond (gt (len $c.items) 8) 6 (len $c.items) }}
+    <ul>
+      {{- range first $n $c.items }}
+      {{ partial "feature.html" (dict "text" . "tag" "li") }}
+      {{- end }}
+    </ul>
+    {{- with after $n $c.items }}
+    <details class="more">
+      <summary>{{ i18n "more" (len .) }}</summary>
+      <ul>
+        {{- range . }}
+        {{ partial "feature.html" (dict "text" . "tag" "li") }}
+        {{- end }}
+      </ul>
+    </details>
+    {{- end }}
   </article>
   {{- end }}
 </section>
 
 <section class="paragraphs wrap">
   {{- range $l.paragraphs }}
-  <p>{{ . | safeHTML }}</p>
+  {{ partial "feature.html" (dict "text" . "tag" "div") }}
   {{- end }}
 </section>
 
