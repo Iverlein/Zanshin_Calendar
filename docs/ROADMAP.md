@@ -44,6 +44,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
 | 25 | R5 The Together everywhere WB sums up — built 2026-10-31 (block 60); the dead's twenty roots and q428's differences left | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
+| 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6 built 2026-10-31 (block 61) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
 
 ## Blocks
 
@@ -118,6 +119,7 @@ moves up as soon as it is unblocked.
 | <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 | <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
 | <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness — built 2026-10-31; the dead's general verdict over its twenty roots and a class for q428's differences left | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
+| <a id="block-61"></a>61 | [R6](#r6) Ch. 27's small reckonings by the year — built 2026-10-31 | — (read: RD38, RD51, RD89, RD90) | [28](#block-28) | Build block 61: R6, the small reckonings of ch. 27 pp. 16–17 and 20 in a view of their own, stepped by year: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power. |
 
 ## Readings
 
@@ -4688,6 +4690,31 @@ groups it shows (`tools/emulator/store_shots.py`).
     Checked on the emulator: the illness of a 1976 fire dragon man, 74
     rites in English and 73 in Russian, thread-crosses and tormas first,
     the belt for a fisherman last.
+- <a id="r6"></a>**R6 Ch. 27's small reckonings by the year — planned and built 2026-10-31** (block
+  [61](#block-61), SPEC §5.9.9; [sources/corpus/wb/ch27.md](sources/corpus/wb/ch27.md)).
+  The goal of 2026-10-31 ("implement 3 upgrade blocks, one at a time,
+  with investigation and reading if needed") found no block left that
+  waits on nothing; ch. 27's small reckonings are read on the scan (RD38,
+  RD51, RD89, RD90) and named in the colophon, and SPEC §5.9.6 listed
+  them as not calculated. Built: `SmallReckonings` (core), the four
+  starting points of p. 17 (`StartingPoint`, `StartingCheck`), the la's
+  wandering and decline (`LaWander`, `LaDecline`), the grave entered
+  with its gentle or rough by sex, the end of the womb (`WombEnd`), the
+  birth by the year's power; six families (`StartingCut`, `LaWander`,
+  `LaDecline`, `GraveEntered`, `WombEnd`, `BirthPower`, item R6) in
+  English and Russian; "The small reckonings" in the Reckonings list,
+  stepped by year. Stated choices: the count down inclusive as the
+  circles' up (D19); the checks counted inclusively and fought like with
+  like; the bare «ཁམས» the power's (question 479). Left out: the black
+  nine-eye (question 506), the household's trigrams (pp. 14–15, 17), the
+  bones' reckoning (a casting), the rounds of pp. 17–19 (R7).
+  Checked: `SmallReckoningsTest` (the starts of a wood person, the count
+  down, the four checks from the wood rat and their cuts, the la's
+  triads, the grave and its sex, the womb's end), `CatalogTest` (six
+  families, item R6), `:app:testDebugUnitTest`, the emulator in English
+  and Russian (a man of 1990, an iron horse, in 2026: the la wanders
+  north, six checks cut, the support peg's sheet; in 2027 none), at font
+  scale 2.0 and in landscape.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs

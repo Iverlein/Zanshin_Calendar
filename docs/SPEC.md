@@ -1632,6 +1632,79 @@ holds; the other parts are tested on days worked by hand.
   (pp. 444, 448–449), which no pebble of the board says are met, and the
   time of onset's element (question 48).
 
+#### 5.9.9 The small reckonings
+
+WB vol. 2, ch. 27, the small reckonings (རྩིས་ཕྲན, rtsis phran) that the
+chapter gathers after the circles (ROADMAP R6, block 61, 2026-10-31;
+[sources/corpus/wb/ch27.md](sources/corpus/wb/ch27.md), pp. 16–17 and
+20, read on the scan by RD38, RD51, RD89, RD90; `SmallReckonings`, core
+`tibetan/SmallReckonings.kt`; `SmallReckoningsTest`), for the person in
+a year stepped from their first; the regent keeps them apart from the
+essentials so as not to scatter them, not to give them up (replies 141
+and 142):
+
+- **The four starting points** (p. 17, "drawn from the limbs of the
+  secret reckoning"): the great spiritual friend's ("which king falls",
+  for a great chief) from the rat of the person's own element, the
+  ministers' from the tiger of the power's friend, the soldiers' from
+  the dragon of the power's mother, the weapons' from the horse of the
+  agreeing element; the element is the power's, as the circles take
+  the bare «ཁམས» (question 479) and the thirty «ཁམས་མཐུན»
+  ([claims/ch27-start-element-wording.md](sources/claims/ch27-start-element-wording.md)).
+  Each is counted down («ཐུར་སྦུབ») through the sixty by the years of
+  age, the start the first, as the circles count up (D19, a stated
+  choice); from the year reached, the eighteenth up against the life
+  force (the rope of the sky), the tenth up against the power (the god's
+  sale), the eighteenth down against the luck (the supporting dagger)
+  and the tenth down against the body (the ogre's purchase), each
+  counted inclusively, the check year's aspect against the person's
+  like with like, as the moment's (Mipham's notes, pp. 535–536). A check
+  year whose element overcomes the person's cuts inward («ཚུར་བཅད»),
+  read by its family `StartingCut`; the weapons' cut reads alike on all
+  four. "When the points meet" stays a sentence of the reading: WB does
+  not say how many.
+- **The la's wandering and decline** (pp. 16–17): in a sky year of the
+  rat, dragon or monkey the la of one born in a rat year wanders south;
+  of the bird, ox or snake a snake year's north; of the tiger, horse or
+  dog a horse year's north; of the pig, sheep or hare a pig year's
+  south, as every print reads (question 363), enemies rising from there
+  (`LaWander`). In the rat's triad one born in a tiger year declines,
+  in the bird's a monkey year, in the hare's a bird year, each with what
+  to avoid (`LaDecline`); the horse's triad names none.
+- **The grave entered** (p. 16, the flesh's secret reckoning): the
+  year's trigram on the grave of the life force's element, the year of
+  age's tomb sign (§5.9.1, p. 415); a wood grave gentle for a man and
+  bad for a woman, fire the reverse, iron bad for a man and fit for a
+  woman, earth the reverse; the water grave names neither
+  (`GraveEntered`).
+- **The end of the womb** (p. 20): born on the fire trigram and the
+  year's trigram back on it in a horse or snake year, or born on the
+  earth trigram and back on it in a sheep year, with the rite of each
+  (`WombEnd`). The other six trigrams "follow from this" without their
+  animals, and the rat's line («ཡིར[?]») is not settled: not reckoned.
+- **A birth by the sky year's power** (p. 17): a son or daughter born
+  in an iron, earth, wood or fire year (`BirthPower`); the water year's
+  son rests on a line not settled and its daughter is not named.
+
+The screen (§10.11): "The small reckonings" in the Reckonings list
+("Your 51st year · 3 checks cut"), stepped by year as the year of age
+is; under "The four starting points" a row for each with its start, the
+year reached and its four checks ○ ×, the sheet giving each cut's
+reading; under "In the Fire Horse year" the la's wandering or decline,
+the grave entered and the end of the womb where they fall, or a line
+that none does, and what the trigrams need (the gender, the mother's
+birth year); under "Your birth" the birth by the year's power; a closing
+note on what is reckoned.
+
+**Not calculated**: the black nine-eye of p. 16, a table of the twelve
+sky years from the wood rat to the wood pig (1984–1995, again from
+2044) whose print reads «མི་སྟག» and «ས་ཡོས» where the run wants the fire
+tiger and the fire hare and leaves out the dragon (question 506); the
+household's trigrams (the golden four legs, the eight turquoise beams,
+the turtle's back, the trigram piled up, pp. 14–15 and 17); the bones'
+reckoning by the hour of a casting (pp. 15–16), a throw of chance; the
+other rounds of pp. 17–19.
+
 ### 5.10 Electional lists: the mansion and the day's activities
 
 Edward Henning, *Horary and electional astrology of the five components*
@@ -4685,6 +4758,8 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
   stepped to is reckoned from its place in the sixty-year cycle
   (`YearOfLife.yearSign`), the same as from any day in it
   (`ReckoningsTest`).
+- **The small reckonings** (§5.9.9, ROADMAP R6): after the circles,
+  stepped by year as the year of age is; its rows as §5.9.9 gives them.
 - **The illness reckoning** (§5.9.8, ROADMAP H2): the list's last row,
   "By the moment of falling ill"; its view has Back, the title, the date
   and the day before and after, and under them the Health screen's

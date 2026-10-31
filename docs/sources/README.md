@@ -247,6 +247,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-spirit-by-black-count.md](claims/illness-spirit-by-black-count.md) | claim, table | The spirit by the number of black pebbles in the body's plank-tree | cites wb.1:p425b; feeds block-32 |
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
+| [claims/kd-meadow-sheet-not-reproduced.md](claims/kd-meadow-sheet-not-reproduced.md) | claim, note | KD's meadow sheet: the first group reproduced, the other three not | cites kd.3:p723, kd.3:p723b, wb.2:p533-534; feeds — |
 | [claims/kd3-p726-household-round-not-read.md](claims/kd3-p726-household-round-not-read.md) | claim, note | KD vol. 3, p. 726: the household round of seven members, what the lent scan shows and what it does not | cites kd.3:p726, kd.3:p726b; feeds block-31 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
@@ -720,6 +721,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | open; cites wb.2:p453 |
 | [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | open; cites wb.2:p448 |
 | [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | open; cites wb.2:p450 |
+| [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | open; cites wb.2:p16 |
 
 <!-- end pool index -->
 
