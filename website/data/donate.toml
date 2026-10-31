@@ -21,7 +21,9 @@ network = "Tron · TRC-20"
 address = "TRfGE7xfXVgiN26K77HqtYYL1E4vWjVqs5"
 
 [[coin]]
-name = "Toncoin"
-ticker = "TON"
+# Toncoin was renamed Gram (GRAM) on 2026-06-15; the chain is still TON
+# and the address is unchanged.
+name = "Gram"
+ticker = "GRAM"
 network = "TON"
 address = "UQCwxVpOReNn3xoLYMhjWGlvkgcaRkt0czPDQ9RecW_gmfN-"
