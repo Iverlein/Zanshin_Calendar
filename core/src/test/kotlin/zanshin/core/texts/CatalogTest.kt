@@ -52,6 +52,7 @@ import zanshin.core.tibetan.IllnessPebble
 import zanshin.core.tibetan.IllnessYearPair
 import zanshin.core.tibetan.IllnessHelper
 import zanshin.core.tibetan.IllnessTreeVerdict
+import zanshin.core.tibetan.IllnessClass
 import zanshin.core.tibetan.Care
 import zanshin.core.tibetan.Element
 import zanshin.core.tibetan.Sign
@@ -334,6 +335,8 @@ class CatalogTest {
         (1..15).forEach { out += Texts.illnessPoint(it); out += Texts.illnessBlack(it) }
         (Force.entries + listOf(null)).forEach { out += Texts.illnessDoor(it) }
         Force.entries.forEach { f -> IllnessTreeVerdict.entries.forEach { out += Texts.illnessTree(f, it) } }
+        IllnessClass.entries.forEach { out += Texts.illnessClass(it) }
+        out += Texts.illnessTogether(emptyList()); out += Texts.momentTogether(emptyList()); out += Texts.deadTogether(emptyList())
         LineStage.entries.forEach { s -> LineGroup.entries.forEach { out += Texts.birthLine(s, it) } }
         MatchReckoning.ASPECTS.forEach { f -> MatchMeeting.entries.forEach { out += Texts.matchAspect(f, it) } }
         out += Texts.matchKarma()
@@ -739,6 +742,8 @@ class CatalogTest {
             "K5" to listOf("HasshoGod"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
+            // The Together of the moment, the dead and the illness, and the illness's nine classes (block 60), written in the shape: no allowance.
+            "R5" to listOf("MomentTogether", "DeadTogether", "IllnessTogether", "IllnessClass"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 

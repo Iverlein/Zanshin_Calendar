@@ -46,6 +46,32 @@ enum class IllnessHelper(val relation: Kinship) { NURSE(Kinship.MOTHER), PHYSICI
 /** A plank-tree's verdict (pp. 422–423): all white it stands, all black it is broken, between them by the greater colour or even. */
 enum class IllnessTreeVerdict { STANDS, MOSTLY_WHITE, SPECKLED, MOSTLY_BLACK, BROKEN }
 
+/**
+ * The nine classes of the fifteen (WB vol. 1, p. 425; the notes, vol. 2, p. 496; claims/illness-classes-by-difference.md),
+ * in WB's order: named by how many more of one colour the fifteen pebbles hold, the pebble door left out, [white] the
+ * colour that is more (null for the even class) and [more] by how many.
+ */
+enum class IllnessClass(val white: Boolean?, val more: Int) {
+    WHITE_THIRD(true, 3), WHITE_FOURTH(true, 4), WHITE_FIFTH(true, 5), WHITE_SIXTH(true, 6),
+    HALF(null, 0),
+    BLACK_SIXTH(false, 6), BLACK_FIFTH(false, 5), BLACK_FOURTH(false, 4), BLACK_THIRD(false, 3);
+
+    val english: String get() = gloss(this)
+
+    companion object {
+        /**
+         * The class of [fifteen] pebbles: the white and the black counted, a speckled one in neither (the notes, p. 495:
+         * the speckled is counted neither outer nor inner), and the class named by the difference, three, four, five or
+         * six more of one colour, or none, the even class (the notes, p. 496: "three more white is like a third, four
+         * like a fourth"). A difference of one, two, or seven and more WB names no class for (question 428): null.
+         */
+        fun of(fifteen: List<PebbleColour>): IllnessClass? {
+            val d = fifteen.count { it == PebbleColour.WHITE } - fifteen.count { it == PebbleColour.BLACK }
+            return entries.firstOrNull { c -> c.more == kotlin.math.abs(d) && (c.white == null || c.white == d > 0) }
+        }
+    }
+}
+
 /** One starting point of the board (pp. 417–419), its year reached and its four pebbles, life force, body, power and luck. */
 data class IllnessPoint(val n: Int, val reached: Sign, val pebbles: List<PebbleColour>)
 
@@ -73,6 +99,14 @@ data class IllnessBoard(val points: List<IllnessPoint>, val door: List<PebbleCol
 
     /** The black pebbles of the body's plank-tree, which name the spirit (p. 425). */
     val bodyBlack: Int get() = tree(Force.BODY).count { it == PebbleColour.BLACK }
+
+    /**
+     * The class of the body's fifteen (p. 425), null where the difference names none. That the class is counted on the
+     * body's fifteen is a stated choice: p. 425 opens the classes on "the sick person's body pebbles very white" and the
+     * notes (vol. 2, p. 496) gloss them after "the body's pebbles very white is not good either", and no line says
+     * whose fifteen they are.
+     */
+    val bodyClass: IllnessClass? get() = IllnessClass.of(tree(Force.BODY))
 }
 
 /** The moment someone fell ill: the Tibetan day it falls in, the day turning at dawn, and the minutes since that dawn. */

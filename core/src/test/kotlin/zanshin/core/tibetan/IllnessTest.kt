@@ -127,6 +127,35 @@ class IllnessTest {
         assertEquals(15, board.tree(Force.BODY).size)
     }
 
+    /**
+     * The nine classes (WB vol. 1, p. 425; the notes, vol. 2, p. 496): named by how many more of one colour the fifteen
+     * hold, a speckled pebble in neither. The notes' own examples: six white and nine black, a third more black; the
+     * reverse, a third more white; five white and ten black, a fifth more black. Even, with the speckled between, the
+     * half; four and six more only with speckled ones. One, two, or seven and more WB names no class for (question 428).
+     */
+    @Test
+    fun `the nine classes by the difference`() {
+        fun fifteen(white: Int, black: Int) =
+            List(white) { PebbleColour.WHITE } + List(black) { PebbleColour.BLACK } + List(15 - white - black) { PebbleColour.SPECKLED }
+        assertEquals(IllnessClass.BLACK_THIRD, IllnessClass.of(fifteen(6, 9)))
+        assertEquals(IllnessClass.WHITE_THIRD, IllnessClass.of(fifteen(9, 6)))
+        assertEquals(IllnessClass.BLACK_FIFTH, IllnessClass.of(fifteen(5, 10)))
+        assertEquals(IllnessClass.WHITE_FIFTH, IllnessClass.of(fifteen(10, 5)))
+        assertEquals(IllnessClass.HALF, IllnessClass.of(fifteen(5, 5)))
+        assertEquals(IllnessClass.HALF, IllnessClass.of(fifteen(0, 0)))
+        assertEquals(IllnessClass.WHITE_FOURTH, IllnessClass.of(fifteen(6, 2)))
+        assertEquals(IllnessClass.BLACK_FOURTH, IllnessClass.of(fifteen(3, 7)))
+        assertEquals(IllnessClass.WHITE_SIXTH, IllnessClass.of(fifteen(8, 2)))
+        assertEquals(IllnessClass.BLACK_SIXTH, IllnessClass.of(fifteen(2, 8)))
+        assertEquals(null, IllnessClass.of(fifteen(7, 8)))
+        assertEquals(null, IllnessClass.of(fifteen(6, 4)))
+        assertEquals(null, IllnessClass.of(fifteen(11, 4)))
+        assertEquals(null, IllnessClass.of(fifteen(15, 0)))
+        // The board above: the body's fifteen of a fire dragon of 1976 in 2026.
+        val board = IllnessReckoning.board(Sign(Element.FIRE, Animal.DRAGON), 1976, 2026)
+        assertEquals(IllnessClass.of(board.tree(Force.BODY)), board.bodyClass)
+    }
+
     /** The day of falling ill turns at dawn, 05:00, and the moment is counted from that dawn. */
     @Test
     fun `the moment of falling ill`() {

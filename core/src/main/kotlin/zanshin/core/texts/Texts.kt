@@ -59,6 +59,7 @@ import zanshin.core.tibetan.IllnessPebble
 import zanshin.core.tibetan.IllnessYearPair
 import zanshin.core.tibetan.IllnessHelper
 import zanshin.core.tibetan.IllnessTreeVerdict
+import zanshin.core.tibetan.IllnessClass
 import zanshin.core.tibetan.LineGroup
 import zanshin.core.tibetan.LineStage
 import zanshin.core.tibetan.BadYear
@@ -459,6 +460,8 @@ object Sources {
     val WHITE_BERYL_ILLNESS_RITES = whiteBeryl("chapter 25, pp. 443–445", volume = 1)
     /** The progressed year, the sky year and the ransom by the year animal (ROADMAP H2e). */
     val WHITE_BERYL_ILLNESS_YEAR = whiteBeryl("chapter 25, pp. 426–427 and 429–431, with the notes in vol. 2, p. 496", volume = 1)
+    /** The nine classes of the fifteen and their rites (ROADMAP R5, docs/sources/verdicts.md, RD58; claims/illness-classes-by-difference.md). */
+    val WHITE_BERYL_ILLNESS_CLASSES = whiteBeryl("chapter 25, p. 425, with the notes in vol. 2, pp. 495–496", volume = 1)
     /** The twelve stages of the hearth-keeper and the people the sick need (ROADMAP H2f). */
     val WHITE_BERYL_ILLNESS_STAGES = whiteBeryl("chapter 25, pp. 440–442 and 445, with the notes in vol. 2, p. 498", volume = 1)
     /** The predictive pebbles (ch. 24, pp. 380–385), each place counted once by its colour and a tie speckled by Mipham's notes (vol. 2, pp. 490 and 495; D16). */
@@ -2251,6 +2254,12 @@ object Texts {
     /** Wealth, illness and the harming spirit by the moment's element [e], the hour's power (WB vol. 2, ch. 30, pp. 168–170; D24). */
     fun momentWealth(e: Element): Reading = Reading(key = "reading.MomentWealth", arg = "reading.MomentWealth.${e.name}", source = Sources.WHITE_BERYL_MOMENT_LATER)
 
+    /**
+     * The moment together (ROADMAP R5): the rites the moment's own readings lay, by the hour's element and the trigram
+     * (WB vol. 2, ch. 30, pp. 156–161), gathered; [remedies] the catalog keys whose Remedy rows join its own.
+     */
+    fun momentTogether(remedies: List<String>): Reading = Reading(key = "reading.MomentTogether", source = Sources.WHITE_BERYL_MOMENT, alsoRows = remedies)
+
     /** The moment's period of the day [p] (WB vol. 2, ch. 30, pp. 156–157). */
     fun momentPeriod(p: MomentPeriod): Reading = Reading(key = "reading.MomentPeriod", arg = "reading.MomentPeriod.${p.name}", source = Sources.WHITE_BERYL_MOMENT)
 
@@ -2430,6 +2439,17 @@ object Texts {
     /** The spirit named by [n] black pebbles in the body's plank-tree (ROADMAP H2g; WB vol. 1, ch. 25, p. 425). */
     fun illnessBlack(n: Int): Reading = Reading(key = "reading.IllnessBlack", arg = "reading.IllnessBlack.$n", source = Sources.WHITE_BERYL_ILLNESS_BOARD)
 
+    /** The class [c] of the body's fifteen pebbles, with its rites (ROADMAP R5; WB vol. 1, ch. 25, p. 425; the notes, vol. 2, p. 496). */
+    fun illnessClass(c: IllnessClass): Reading =
+        Reading(key = "reading.IllnessClass", arg = "reading.IllnessClass.${c.name}", source = Sources.WHITE_BERYL_ILLNESS_CLASSES)
+
+    /**
+     * The illness together (ROADMAP R5): the rites the reckonings of the illness lay, gathered; [remedies] the catalog keys
+     * whose Remedy rows join its own (WB vol. 1, ch. 25).
+     */
+    fun illnessTogether(remedies: List<String>): Reading =
+        Reading(key = "reading.IllnessTogether", source = Sources.WHITE_BERYL_ILLNESS_ONSET, also = listOf(Sources.WHITE_BERYL_ILLNESS_BOARD), alsoRows = remedies)
+
     /** The helper [h] the sick need (ROADMAP H2f; WB vol. 1, ch. 25, p. 445). */
     fun illnessHelper(h: IllnessHelper): Reading = Reading(key = "reading.IllnessHelper", arg = "reading.IllnessHelper.${h.name}", source = Sources.WHITE_BERYL_ILLNESS_STAGES)
 
@@ -2559,6 +2579,14 @@ object Texts {
 
     /** The dead's first examination read whole [w] (WB vol. 2, ch. 29, pp. 56–57). */
     fun deadWhole(w: DeadWhole): Reading = Reading(key = "reading.DeadWhole", arg = "reading.DeadWhole.${w.name}", source = Sources.WHITE_BERYL_DEAD_TIME)
+
+    /**
+     * The dead together (ROADMAP R5): the rites and provisions the examinations lay for one dead, gathered (WB vol. 2,
+     * ch. 29, pp. 58–132); [remedies] the catalog keys whose Remedy rows join its own.
+     */
+    fun deadTogether(remedies: List<String>): Reading = Reading(
+        key = "reading.DeadTogether", source = Sources.WHITE_BERYL_DEAD_DEMON, also = listOf(Sources.WHITE_BERYL_DEAD_LATER), alsoRows = remedies,
+    )
 
     /** The deciding pebble of the hundred's column [kin] of [force], of colour [colour] (WB vol. 1, ch. 22, pp. 329–331). */
     fun hundredPebble(force: Force, kin: HundredKin, colour: PebbleColour): Reading = Reading(
