@@ -35,6 +35,11 @@ import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.BuildingDoor
 import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
+import zanshin.core.tibetan.LaDecline
+import zanshin.core.tibetan.LaWander
+import zanshin.core.tibetan.StartingCheck
+import zanshin.core.tibetan.StartingPoint
+import zanshin.core.tibetan.WombEnd
 import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
 import zanshin.core.tibetan.ThirtyPoint
@@ -556,6 +561,8 @@ object Sources {
     val WHITE_BERYL_THIRTY = whiteBeryl("chapter 26, pp. 453–473, with the notes in vol. 2, pp. 532–533", volume = 1)
     /** Ch. 28's small signs: building a house (p. 42). */
     val WHITE_BERYL_SMALL_SIGNS = whiteBeryl("chapter 28, p. 42", volume = 2)
+    /** Ch. 27's small reckonings by the year: the starting points of p. 17, the la, the grave, the womb, the birth (pp. 16–17, 20). */
+    val WHITE_BERYL_SMALL_RECKONINGS = whiteBeryl("chapter 27, pp. 16–17 and 20", volume = 2)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
@@ -2558,6 +2565,33 @@ object Texts {
     /** A building sign [s] on the door [d] (WB vol. 2, ch. 28, p. 42). */
     fun building(s: BuildingSign, d: BuildingDoor): Reading =
         Reading(key = "reading.Building", arg = "reading.Building.${s.name}.${d.name}", source = Sources.WHITE_BERYL_SMALL_SIGNS)
+
+    /** A starting point of p. 17 [p] cut inward on its check [c]; the weapons' cut reads alike on all four (WB vol. 2, ch. 27, p. 17). */
+    fun startingCut(p: StartingPoint, c: StartingCheck): Reading = Reading(
+        key = "reading.StartingCut",
+        arg = if (p == StartingPoint.WEAPONS) "reading.StartingCut.WEAPONS" else "reading.StartingCut.${p.name}.${c.name}",
+        source = Sources.WHITE_BERYL_SMALL_RECKONINGS,
+    )
+
+    /** The la wandering in the sky year (WB vol. 2, ch. 27, p. 16). */
+    fun laWander(w: LaWander): Reading = Reading(key = "reading.LaWander", arg = "reading.LaWander.${w.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
+
+    /** The la and life in decline in the sky year (WB vol. 2, ch. 27, pp. 16–17). */
+    fun laDecline(d: LaDecline): Reading = Reading(key = "reading.LaDecline", arg = "reading.LaDecline.${d.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
+
+    /** The grave of [grave] entered by one of [gender]; the water grave alike for both (WB vol. 2, ch. 27, p. 16). */
+    fun graveEntered(grave: Element, gender: Gender?): Reading = Reading(
+        key = "reading.GraveEntered",
+        arg = if (grave == Element.WATER || gender == null) "reading.GraveEntered.${grave.name}" else "reading.GraveEntered.${grave.name}.${gender.name}",
+        source = Sources.WHITE_BERYL_SMALL_RECKONINGS,
+    )
+
+    /** The inner end of the womb reached (WB vol. 2, ch. 27, p. 20). */
+    fun wombEnd(w: WombEnd): Reading = Reading(key = "reading.WombEnd", arg = "reading.WombEnd.${w.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
+
+    /** A son or daughter born in a year of the power [element] (WB vol. 2, ch. 27, p. 17). */
+    fun birthPower(element: Element, gender: Gender): Reading =
+        Reading(key = "reading.BirthPower", arg = "reading.BirthPower.${element.name}.${gender.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
 
     /** The pebble of [force] in [circle], of colour [colour], and for a black one its remedy (WB vol. 2, ch. 27, pp. 3–21). */
     fun circlePebble(circle: Circle, force: Force, colour: PebbleColour): Reading = Reading(

@@ -97,6 +97,12 @@ import zanshin.core.tibetan.BirthWhole
 import zanshin.core.tibetan.BuildingDoor
 import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
+import zanshin.core.tibetan.SmallReckonings
+import zanshin.core.tibetan.LaDecline
+import zanshin.core.tibetan.LaWander
+import zanshin.core.tibetan.StartingCheck
+import zanshin.core.tibetan.StartingPoint
+import zanshin.core.tibetan.WombEnd
 import zanshin.core.tibetan.TurtleClass
 import zanshin.core.tibetan.ThirtyBoard
 import zanshin.core.tibetan.ThirtyPoint
@@ -283,6 +289,12 @@ class CatalogTest {
         (1..9).forEach { out += Texts.momentSpirit(it) }
         Element.entries.forEach { out += Texts.momentWealth(it) }
         Circle.entries.forEach { c -> Force.entries.forEach { f -> listOf(PebbleColour.WHITE, PebbleColour.BLACK).forEach { out += Texts.circlePebble(c, f, it) } } }
+        StartingPoint.entries.forEach { p -> StartingCheck.entries.forEach { out += Texts.startingCut(p, it) } }
+        LaWander.entries.forEach { out += Texts.laWander(it) }
+        LaDecline.entries.forEach { out += Texts.laDecline(it) }
+        Element.entries.forEach { e -> listOf(Gender.MALE, Gender.FEMALE).forEach { out += Texts.graveEntered(e, it) } }
+        WombEnd.entries.forEach { out += Texts.wombEnd(it) }
+        Element.entries.filter { SmallReckonings.birthPower(it) }.forEach { e -> Gender.entries.forEach { out += Texts.birthPower(e, it) } }
         (1..9).forEach { out += Texts.deadCauseMewa(it); out += Texts.deadDemonMewa(it); out += Texts.deadRebirthMewa(it) }
         Trigram.entries.forEach { out += Texts.momentTrigram(it) }
         (1..9).forEach { out += Texts.momentMewa(it) }
@@ -744,6 +756,8 @@ class CatalogTest {
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
             // The Together of the moment, the dead and the illness, and the illness's nine classes (block 60), written in the shape: no allowance.
             "R5" to listOf("MomentTogether", "DeadTogether", "IllnessTogether", "IllnessClass"),
+            // Ch. 27's small reckonings by the year (block 61), written in the shape: no allowance.
+            "R6" to listOf("StartingCut", "LaWander", "LaDecline", "GraveEntered", "WombEnd", "BirthPower"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
