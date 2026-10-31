@@ -35,6 +35,7 @@ import zanshin.core.tibetan.GradedObstacle
 import zanshin.core.tibetan.BuildingDoor
 import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
+import zanshin.core.tibetan.AskingSign
 import zanshin.core.tibetan.LaDecline
 import zanshin.core.tibetan.LaWander
 import zanshin.core.tibetan.StartingCheck
@@ -563,6 +564,8 @@ object Sources {
     val WHITE_BERYL_SMALL_SIGNS = whiteBeryl("chapter 28, p. 42", volume = 2)
     /** Ch. 27's small reckonings: the starting points of p. 17, the la, the grave, the womb, the birth, the rounds by age (pp. 16–20). */
     val WHITE_BERYL_SMALL_RECKONINGS = whiteBeryl("chapter 27, pp. 16–20", volume = 2)
+    /** Ch. 27's reckonings of the time of asking: Brahmā's month for one gone abroad (pp. 13–14) and the signs of p. 19. */
+    val WHITE_BERYL_ASKING = whiteBeryl("chapter 27, pp. 13–14 and 19", volume = 2)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
@@ -2578,6 +2581,12 @@ object Texts {
 
     /** A round's sign, by its [key] (WB vol. 2, ch. 27, pp. 18–19). */
     fun roundSign(key: String): Reading = Reading(key = "reading.RoundSign", arg = "reading.RoundSign.$key", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
+
+    /** One gone abroad: an aspect met by the month of asking, by [key], or the month's element, "MONTH.<element>" (WB vol. 2, ch. 27, pp. 13–14). */
+    fun abroad(key: String): Reading = Reading(key = "reading.Abroad", arg = "reading.Abroad.$key", source = Sources.WHITE_BERYL_ASKING)
+
+    /** A sign of the time of asking (WB vol. 2, ch. 27, p. 19). */
+    fun askingSign(s: AskingSign): Reading = Reading(key = "reading.AskingSign", arg = "reading.AskingSign.${s.name}", source = Sources.WHITE_BERYL_ASKING)
 
     /** The la wandering in the sky year (WB vol. 2, ch. 27, p. 16). */
     fun laWander(w: LaWander): Reading = Reading(key = "reading.LaWander", arg = "reading.LaWander.${w.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)

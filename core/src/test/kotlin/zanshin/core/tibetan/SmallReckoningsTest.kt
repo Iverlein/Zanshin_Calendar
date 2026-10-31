@@ -146,4 +146,38 @@ class SmallReckoningsTest {
         assertTrue(Rounds.rhinoInner(Trigram.KHEN))
         assertFalse(Rounds.rhinoInner(Trigram.KHAM))
     }
+
+    /**
+     * Brahmā's month (pp. 13–14): the wood monkey's life force iron, body water, destiny wood, luck wood; a fire month
+     * cuts the iron life force, is the son of the wood destiny and luck (empty), and the water body's friend.
+     */
+    @Test
+    fun `the month for one gone abroad`() {
+        val m = Asking.abroad(woodMonkey, Sign(Element.FIRE, Animal.TIGER)).associateBy { it.force }
+        assertEquals(AbroadMeet.CUT, m.getValue(Force.VITALITY).meet)
+        assertEquals("CUT.VITALITY", m.getValue(Force.VITALITY).key)
+        assertEquals(AbroadMeet.FRIEND, m.getValue(Force.BODY).meet)
+        assertEquals(AbroadMeet.EMPTY, m.getValue(Force.DESTINY).meet)
+        val same = Asking.abroad(woodMonkey, Sign(Element.WOOD, Animal.TIGER)).associateBy { it.force }
+        assertEquals("SAME.WOOD", same.getValue(Force.DESTINY).key)
+        assertEquals(AbroadMeet.MOTHER, same.getValue(Force.VITALITY).let { Asking.meet(Element.FIRE, Element.WOOD) })
+        val fire = Asking.abroad(Sign(Element.FIRE, Animal.HORSE), Sign(Element.FIRE, Animal.SNAKE)).associateBy { it.force }
+        assertEquals("SAME.FIRE.VITALITY", fire.getValue(Force.VITALITY).key)
+    }
+
+    /** p. 19: the demons' door for an executioner year asking in an executioner month and date; the goat horns by the hour. */
+    @Test
+    fun `the signs of the time of asking`() {
+        val earthDog = Sign(Element.EARTH, Animal.DOG)
+        val signs = Asking.signs(earthDog, Sign(Element.IRON, Animal.DRAGON), Sign(Element.WATER, Animal.SHEEP), Sign(Element.IRON, Animal.MONKEY))
+        assertTrue(AskingSign.DEMONS_DOOR in signs)
+        assertTrue(AskingSign.HOUR_RHINO in signs)
+        assertTrue(AskingSign.GOAT_HORN_CORPSES in signs)
+        assertFalse(AskingSign.GOAT_HORN_GOOD in signs)
+        assertTrue(AskingSign.DEMONS_DOOR !in Asking.signs(woodMonkey, Sign(Element.IRON, Animal.DRAGON), Sign(Element.WATER, Animal.SHEEP), Sign(Element.IRON, Animal.MONKEY)))
+        val letters = Asking.signs(Sign(Element.EARTH, Animal.MOUSE), Sign(Element.WOOD, Animal.TIGER), Sign(Element.WOOD, Animal.RABBIT), Sign(Element.WOOD, Animal.HORSE))
+        assertTrue(AskingSign.LINKED_LETTERS in letters)
+        assertTrue(AskingSign.GOAT_HORN_GOOD in Asking.signs(woodMonkey, Sign(Element.WOOD, Animal.TIGER), Sign(Element.WOOD, Animal.TIGER), Sign(Element.FIRE, Animal.DOG)))
+        assertTrue(AskingSign.YELLOW_LIGHT in Asking.signs(woodMonkey, Sign(Element.EARTH, Animal.TIGER), Sign(Element.EARTH, Animal.HORSE), Sign(Element.WATER, Animal.PIG)))
+    }
 }

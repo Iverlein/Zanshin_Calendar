@@ -262,3 +262,92 @@ object Rounds {
     /** The rhinoceros's inner sign (p. 19), a man's: the year's trigram on the fire or the sky trigram. */
     fun rhinoInner(trigram: Trigram): Boolean = trigram == Trigram.LI || trigram == Trigram.KHEN
 }
+
+/*
+ * The small reckonings of the time of asking (ROADMAP R8; WB vol. 2, ch. 27, pp. 13–14 and 19; docs/sources/corpus/wb/
+ * ch27.md): Brahmā's reckoning of the month for one gone abroad, and the signs the month, the date and the hour of the
+ * asking show against the one reckoned.
+ */
+
+/** How the month of asking meets one aspect of one gone abroad (pp. 13–14), by what the month is to the aspect. */
+enum class AbroadMeet {
+    /** The month's element overcomes the aspect: the month cuts it. */
+    CUT,
+
+    /** The aspect overcomes the month, the friend: the one reckoned cuts the month outward. */
+    FRIEND,
+
+    /** The month generates the aspect. */
+    MOTHER,
+
+    /** The aspect generates the month: «སྟོངས», empty, the one relation of the five the passage leaves unnamed otherwise (a stated choice). */
+    EMPTY,
+
+    /** One element, «ནང་ཕྲད», meeting within: read by the element. */
+    SAME,
+}
+
+/** One aspect of the one gone abroad met by the month of asking: the meeting, and the catalog key of its reading. */
+data class AbroadAspect(val force: Force, val meet: AbroadMeet, val key: String)
+
+/** A sign of the time of asking (p. 19) that falls on the one reckoned. */
+enum class AskingSign {
+    /** The demons' door opened: one born in a year of the four executioners asking in a month and on a date of them. */
+    DEMONS_DOOR,
+
+    /** The linked letters fall over: month, date and hour all wood, asked by one whose destiny is earth. */
+    LINKED_LETTERS,
+
+    /** The yellow light of li: a water hour, the month and date of earth. */
+    YELLOW_LIGHT,
+
+    /** The rhinoceros planted: an hour of wood or iron for one born in an executioner year, or a fire hour for one born in a fire horse or snake year. */
+    HOUR_RHINO,
+
+    /** The good goat horn: the hour an executioner of earth or fire. */
+    GOAT_HORN_GOOD,
+
+    /** The hour a tiger or monkey of iron or water: many corpses come; rough for one born in an executioner year. */
+    GOAT_HORN_CORPSES;
+
+    val english: String get() = gloss(this)
+}
+
+object Asking {
+    /** What the month's element [month] is to the aspect's [own]. */
+    fun meet(own: Element, month: Element): AbroadMeet = when (Forces.kinship(own, month)) {
+        Kinship.ENEMY -> AbroadMeet.CUT
+        Kinship.FRIEND -> AbroadMeet.FRIEND
+        Kinship.MOTHER -> AbroadMeet.MOTHER
+        Kinship.SON -> AbroadMeet.EMPTY
+        Kinship.IDENTITY -> AbroadMeet.SAME
+    }
+
+    /**
+     * Brahmā's reckoning (pp. 13–14) for one born in [birth], asked about in a month of [month]: each of the four
+     * aspects met by the month's element. Meeting within, fire and earth read aspect by aspect, water, wood and iron one
+     * reading for all four.
+     */
+    fun abroad(birth: Sign, month: Sign): List<AbroadAspect> = Force.entries.map { f ->
+        val own = birth.forces[f]
+        val m = meet(own, month.element)
+        val key = when (m) {
+            AbroadMeet.SAME -> if (own == Element.FIRE || own == Element.EARTH) "SAME.${own.name}.${f.name}" else "SAME.${own.name}"
+            else -> "${m.name}.${f.name}"
+        }
+        AbroadAspect(f, m, key)
+    }
+
+    /** The signs of the time of asking (p. 19) for one born in [birth], asking in [month], on [date], in [hour]. */
+    fun signs(birth: Sign, month: Sign, date: Sign, hour: Sign): List<AskingSign> = buildList {
+        val executioner = birth.animal in EXECUTIONERS
+        if (executioner && month.animal in EXECUTIONERS && date.animal in EXECUTIONERS) add(AskingSign.DEMONS_DOOR)
+        if (month.element == Element.WOOD && date.element == Element.WOOD && hour.element == Element.WOOD && birth.forces.destiny == Element.EARTH) add(AskingSign.LINKED_LETTERS)
+        if (hour.element == Element.WATER && month.element == Element.EARTH && date.element == Element.EARTH) add(AskingSign.YELLOW_LIGHT)
+        if ((executioner && (hour.element == Element.WOOD || hour.element == Element.IRON)) ||
+            (birth.element == Element.FIRE && birth.animal in setOf(Animal.HORSE, Animal.SNAKE) && hour.element == Element.FIRE)
+        ) add(AskingSign.HOUR_RHINO)
+        if (hour.animal in EXECUTIONERS && (hour.element == Element.EARTH || hour.element == Element.FIRE)) add(AskingSign.GOAT_HORN_GOOD)
+        if (hour.animal in setOf(Animal.TIGER, Animal.MONKEY) && (hour.element == Element.IRON || hour.element == Element.WATER)) add(AskingSign.GOAT_HORN_CORPSES)
+    }
+}

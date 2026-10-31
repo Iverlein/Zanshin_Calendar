@@ -99,6 +99,8 @@ import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
 import zanshin.core.tibetan.SmallReckonings
 import zanshin.core.tibetan.Round
+import zanshin.core.tibetan.AbroadMeet
+import zanshin.core.tibetan.AskingSign
 import zanshin.core.tibetan.LaDecline
 import zanshin.core.tibetan.LaWander
 import zanshin.core.tibetan.StartingCheck
@@ -295,6 +297,11 @@ class CatalogTest {
         LaDecline.entries.forEach { out += Texts.laDecline(it) }
         Element.entries.forEach { e -> listOf(Gender.MALE, Gender.FEMALE).forEach { out += Texts.graveEntered(e, it) } }
         WombEnd.entries.forEach { out += Texts.wombEnd(it) }
+        listOf(AbroadMeet.CUT, AbroadMeet.FRIEND, AbroadMeet.MOTHER, AbroadMeet.EMPTY).forEach { m -> Force.entries.forEach { out += Texts.abroad("${m.name}.${it.name}") } }
+        listOf(Element.FIRE, Element.EARTH).forEach { e -> Force.entries.forEach { out += Texts.abroad("SAME.${e.name}.${it.name}") } }
+        listOf(Element.WATER, Element.WOOD, Element.IRON).forEach { out += Texts.abroad("SAME.${it.name}") }
+        Element.entries.forEach { out += Texts.abroad("MONTH.${it.name}") }
+        AskingSign.entries.forEach { out += Texts.askingSign(it) }
         Round.entries.flatMap { r -> r.checks.map { it.key } }.distinct().forEach { out += Texts.roundCut(it) }
         listOf("YUNGDRUNG", "YELLOW_LORD", "BLACK_TRAIL", "RHINO", "RHINO.INNER", "RHINO.FEMALE").forEach { out += Texts.roundSign(it) }
         Element.entries.filter { SmallReckonings.birthPower(it) }.forEach { e -> Gender.entries.forEach { out += Texts.birthPower(e, it) } }
@@ -763,6 +770,8 @@ class CatalogTest {
             "R6" to listOf("StartingCut", "LaWander", "LaDecline", "GraveEntered", "WombEnd", "BirthPower"),
             // The rounds by age of pp. 18–19 (block 62), written in the shape: no allowance.
             "R7" to listOf("RoundCut", "RoundSign"),
+            // The reckonings of the time of asking (block 63), written in the shape: no allowance.
+            "R8" to listOf("Abroad", "AskingSign"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 
