@@ -184,7 +184,7 @@ private fun TogetherSection(h: Hundred?, onOpen: (Annotation) -> Unit) {
     val sets = BirthReckoning.sets(h)
     val bad = Force.entries.flatMap { f -> HundredKin.entries.filter { !h.good(f, it) }.map { Texts.hundredPebble(f, it, h.deciding(f, it)) } } +
         sets.filter { it.good == false }.map { Texts.birthSet(it) }
-    val remedies = bad.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }
+    val remedies = gatheredRemedies(bad)
     val whole = BirthReckoning.whole(h)
     val good = BirthReckoning.goodCount(h)
     AnnotationRow(

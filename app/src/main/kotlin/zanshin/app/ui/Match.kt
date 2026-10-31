@@ -396,8 +396,7 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
         }
     }
     val kinds = MatchReckoning.kinds(man, woman)
-    val remedies = items.filterIsInstance<Annotation>().filter { it.tone == Tone.BAD || it.tone == Tone.MIXED }
-        .mapNotNull { it.reading }.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }
+    val remedies = gatheredRemedies(items.filterIsInstance<Annotation>().filter { it.tone == Tone.BAD || it.tone == Tone.MIXED }.mapNotNull { it.reading })
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(
             labels.string(R.string.match_subtitle, signName(m.man, labels), signName(m.woman, labels)),

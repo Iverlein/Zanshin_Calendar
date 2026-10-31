@@ -48,18 +48,8 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
                 Text(stringResource(R.string.dead_needed_one), style = muted)
                 return@forEach
             }
-            r.whole?.let { w ->
-                AnnotationRow(
-                    Annotation(
-                        title = stringResource(R.string.birth_share_title, stringResource(R.string.dead_whole_title), w.english),
-                        english = "",
-                        tone = if (w == DeadWhole.SPENT) Tone.NEUTRAL else Tone.BAD,
-                        reading = Texts.deadWhole(w),
-                        titleIsKanji = false,
-                    ),
-                    onOpen,
-                )
-            }
+            DeadTogether(r, onOpen)
+            Text(stringResource(R.string.dead_time_head), style = muted)
             Force.entries.forEach { force ->
                 val colour = r.deciding(force)
                 val places = r.places(force)
@@ -118,6 +108,70 @@ fun DeadReckoningView(person: Person, dead: List<Pair<Relative, DeadReckoning?>>
         }
         if (dead.isNotEmpty()) Text(stringResource(R.string.dead_note), style = muted)
     }
+}
+
+/**
+ * The dead together (ROADMAP R5; docs/sources/verdicts.md, RD58): the whole of the first examination (pp. 56–57), many
+ * black the life spent, many white an untimely death, where three or four deciding pebbles agree; then the Remedy rows
+ * of every reading shown below for this dead, the rites and the provisions, gathered into one. The time of death's
+ * general verdict over its twenty roots (the notes, p. 503) is not laid: most of the twenty are not reckoned.
+ */
+@Composable
+private fun DeadTogether(r: DeadReckoning, onOpen: (Annotation) -> Unit) {
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    Text(stringResource(R.string.match_section_together), style = muted)
+    val w = r.whole
+    if (w == null) {
+        Text(stringResource(R.string.dead_whole_none), style = muted)
+    } else {
+        AnnotationRow(
+            Annotation(
+                title = stringResource(R.string.birth_share_title, stringResource(R.string.dead_whole_title), w.english),
+                english = "",
+                tone = if (w == DeadWhole.SPENT) Tone.NEUTRAL else Tone.BAD,
+                reading = Texts.deadWhole(w),
+                titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    val remedies = gatheredRemedies(shownReadings(r))
+    if (remedies.isNotEmpty()) {
+        AnnotationRow(
+            Annotation(title = stringResource(R.string.together_remedies), english = "", tone = Tone.NEUTRAL, reading = Texts.deadTogether(remedies), titleIsKanji = false),
+            onOpen,
+        )
+    }
+}
+
+/**
+ * The readings the rows below show for the dead [r], in their order: the deciding pebbles, the mewa and the course, the
+ * second, third, fifth and sixth examinations and the later ones; the thirty's points keep their own.
+ */
+private fun shownReadings(r: DeadReckoning): List<zanshin.core.texts.Reading> = buildList {
+    Force.entries.forEach { f -> r.deciding(f).takeIf { it != PebbleColour.SPECKLED }?.let { add(Texts.deadPebble(f, it)) } }
+    add(Texts.deadMewa(r.mewaObstacles.isNotEmpty()))
+    if (r.course.isNotEmpty() || r.badStages.isNotEmpty()) add(Texts.deadCourse())
+    Force.entries.forEach { f -> r.deciding(f).takeIf { it != PebbleColour.SPECKLED }?.let { add(Texts.deadCause(f, it)) } }
+    r.cuts.filter { it.read }.forEach { add(Texts.deadCut(it)) }
+    add(Texts.deadCauseTrigram(r.trigram)); add(Texts.deadCauseMewa(r.mewa))
+    r.times.forEach { (_, animal) -> add(Texts.deadCauseTime(animal)) }
+    add(Texts.deadDemonYear(r.year.birth.animal))
+    r.demonDay?.let { add(Texts.deadDemonDay(it)) }
+    r.weekday?.let { add(Texts.deadDemonWeekday(it)) }
+    r.mansion?.let { add(Texts.deadDemonMansion(it)) }
+    add(Texts.deadDemonTrigram(r.trigram)); add(Texts.deadDemonMewa(r.mewa))
+    r.year.hour?.let { add(Texts.deadDemonHour(it.sign.animal)) }
+    add(Texts.deadRebirthDay(r.date.animal))
+    r.year.hour?.let { add(Texts.deadRebirthHour(DeadReckoning.rebirthByHour(it.sign.animal))) }
+    add(Texts.deadRebirthMewa(r.mewa)); add(Texts.deadVirtue(r.year.present.animal))
+    add(Texts.deadProvisions(r.trigram))
+    r.nineEye?.let { add(Texts.deadNineEye(it)) }
+    if (r.graveDay) add(Texts.deadGraveDay())
+    add(Texts.deadRitesTrigram(r.trigram)); add(Texts.deadRitesMewa(r.mewa))
+    r.weekday?.let { add(Texts.deadRitesPlanet(it)) }
+    r.lunarDate?.let { add(Texts.deadRitesDate(it)) }
+    add(Texts.deadGraveProvisions(r.trigram))
 }
 
 /** "Trigram of death · lake (དྭ, dwa)": the dead's descended trigram at death (ROADMAP D18). */

@@ -194,7 +194,7 @@ private fun YearTogetherSection(r: YearReckoning, person: Person, kin: List<Kin>
             r.smeBaObstacles.forEach { add(Texts.mewaObstacle(it)) }
             KinReckoning.obstacles(r, kin).forEach { add(Texts.kinObstacle(it.obstacle)) }
         }
-        val remedies = bad.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }
+        val remedies = gatheredRemedies(bad)
         val first = colours.getValue(chief)
         AnnotationRow(
             Annotation(
@@ -252,6 +252,13 @@ internal fun hourOfReckoning(zone: ZoneId): HourSign {
     val signs = Forces.signs(TibetanCalendar.of(dayStart))
     return Forces.hours(signs.date)[(minutes / 120).coerceIn(0, 11)]
 }
+
+/**
+ * The catalog keys of [readings]' rows that hold a Remedy row, in the readings' order, each remedy once (ROADMAP R4,
+ * R5): what a Together gathers into its one Remedy row through `alsoRows`.
+ */
+internal fun gatheredRemedies(readings: List<zanshin.core.texts.Reading>): List<String> =
+    readings.flatMap { it.rowKeys }.distinct().filter { Catalog.textOrNull("$it.remedy") != null }.distinctBy { Catalog.text("$it.remedy") }
 
 @Composable
 internal fun Section(title: String) {

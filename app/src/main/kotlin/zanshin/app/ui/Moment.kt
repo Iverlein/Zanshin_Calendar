@@ -70,6 +70,8 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
             labels.string(R.string.moment_subtitle, day.weekday.english.replaceFirstChar(Char::uppercase), labels.ordinal(day.day), labels.ordinal(day.monthNames.number), "%d:%02d".format(minutes / 60, minutes % 60)),
             style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp),
         )
+        MomentTogether(day, minutes, person, trigram, onOpen)
+        Section(stringResource(R.string.moment_time_section))
         val period = MomentReckoning.period(minutes)
         if (period == null) {
             Text(stringResource(R.string.moment_period_night), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
@@ -144,6 +146,37 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
         ObservedSignsSection(onOpen)
         Text(stringResource(R.string.moment_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
+}
+
+/**
+ * The moment together (ROADMAP R5; docs/sources/verdicts.md, RD58): with the person chosen and a moment by day, the
+ * fighting enemies' verdict (vol. 2, p. 172), which closes the chapter, and the wealth's, the one place whose verdict
+ * WB lays (p. 168: the body and the power both rising on the moment and the moment cutting neither), as the sections
+ * below reckon them; then the Remedy rows of the time of day, the hour's element and the trigram gathered into one.
+ * Ch. 30 turns no verdict into a rite, and none is added.
+ */
+@Composable
+private fun MomentTogether(day: TibetanDay, minutes: Int, person: Person?, trigram: zanshin.core.tibetan.Trigram, onOpen: (Annotation) -> Unit) {
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    Section(stringResource(R.string.match_section_together))
+    val moment = MomentPlaces.sign(Forces.signs(day).date.element, minutes)
+    when {
+        person == null -> Text(stringResource(R.string.moment_together_needed), style = muted)
+        moment == null -> Text(stringResource(R.string.moment_together_night), style = muted)
+        else -> {
+            val born = TibetanCalendar.of(person.birth).let { Sign(it.yearElement, it.yearAnimal) }
+            FightRow(born, TibetanCalendar.of(person.birth).year, day.year, moment, onOpen)
+            WealthRow(born.forces, moment, onOpen)
+        }
+    }
+    val period = MomentReckoning.period(minutes)
+    val readings = listOfNotNull(
+        period?.let { Texts.momentPeriod(it) },
+        period?.let { Texts.momentElement(MomentReckoning.hourElement(Forces.signs(day).date.element, it)) },
+        Texts.momentTrigram(trigram),
+    )
+    val remedies = gatheredRemedies(readings)
+    if (remedies.isNotEmpty()) MomentRow(stringResource(R.string.together_remedies), Texts.momentTogether(remedies), onOpen)
 }
 
 /** A row opening [reading], titled [title] with [english] beneath (ROADMAP R2z). */
@@ -294,9 +327,7 @@ private fun SmallExaminations(born: Sign, moment: Sign, onOpen: (Annotation) -> 
     fun tone(good: Boolean) = if (good) Tone.GOOD else Tone.BAD
     fun up(e: Element) = MomentPlaces.stage(e, moment)
     Section(stringResource(R.string.moment_small_section))
-    val wealth = MomentSigns.wealthPresent(a, moment)
-    MomentRow(stringResource(if (wealth) R.string.moment_wealth_present else R.string.moment_wealth_absent), Texts.momentWealthThere(wealth), onOpen,
-        english = labels.string(R.string.moment_body_power, up(a.body).english, up(a.destiny).english), tone = tone(wealth))
+    WealthRow(a, moment, onOpen)
     val demon = MomentSigns.demonMeet(a, moment)
     MomentRow(labels.string(R.string.moment_demon_title, gloss(demon)), Texts.momentDemonMeet(demon), onOpen,
         english = labels.string(R.string.moment_place_meet, gloss(moment.element, "inText"), gloss(a.body, "inText"), gloss(demon)), tone = placeTone(demon))
@@ -402,7 +433,24 @@ private fun Gates(born: Sign, birthYear: Int, year: Int, moment: Sign, onOpen: (
     falling.forEach { r ->
         MomentRow(labels.string(R.string.moment_sixty_title, name(r.start)), Texts.momentSixty(r.count), onOpen, english = labels.string(R.string.moment_sixty_reached, name(r.reached)), tone = Tone.BAD)
     }
-    val (pebbles, verdict) = MomentGates.fight(born, age, male, moment)
+    FightRow(born, birthYear, year, moment, onOpen)
+}
+
+/** Whether the wealth is there (p. 168), the asker's [a] body and power on the [moment]. */
+@Composable
+private fun WealthRow(a: zanshin.core.tibetan.YearForces, moment: Sign, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val wealth = MomentSigns.wealthPresent(a, moment)
+    MomentRow(stringResource(if (wealth) R.string.moment_wealth_present else R.string.moment_wealth_absent), Texts.momentWealthThere(wealth), onOpen,
+        english = labels.string(R.string.moment_body_power, MomentPlaces.stage(a.body, moment).english, MomentPlaces.stage(a.destiny, moment).english),
+        tone = if (wealth) Tone.GOOD else Tone.BAD)
+}
+
+/** The fighting enemies (p. 172; the notes, p. 537): their pebbles and verdict for one born in [born] in the Tibetan year [birthYear], in [year]. */
+@Composable
+private fun FightRow(born: Sign, birthYear: Int, year: Int, moment: Sign, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val (pebbles, verdict) = MomentGates.fight(born, YearOfLife.age(birthYear, year), born.animal.gender == Gender.MALE, moment)
     MomentRow(
         labels.string(R.string.moment_fight_title, pebbles.count { it == PebbleColour.WHITE }, pebbles.count { it == PebbleColour.BLACK }),
         Texts.momentFight(verdict), onOpen,

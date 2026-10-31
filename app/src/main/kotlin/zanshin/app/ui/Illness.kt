@@ -65,6 +65,7 @@ fun IllnessReckoningView(person: Person?, date: LocalDate, time: LocalTime, zone
         onClick = { clock = true },
         icon = Icons.Clock,
     )
+    IllnessTogether(onset, person, now, onOpen)
     SectionTitle(stringResource(R.string.illness_section_moment))
     val trigram = onset.trigram
     AnnotationRow(
@@ -261,18 +262,146 @@ private fun FivePebbles(pebbles: List<Element>, onOpen: (Annotation) -> Unit) {
             onOpen,
         )
     }
-    IllnessReckoning.chief(pebbles).forEach { e ->
+    IllnessReckoning.chief(pebbles).forEach { AnnotationRow(chiefAnnotation(it), onOpen) }
+}
+
+/** The illness of the element [e] that is most among the five pebbles (p. 435). */
+@Composable
+private fun chiefAnnotation(e: Element): Annotation = Annotation(
+    title = LocalLabels.current.string(R.string.illness_chief_title, gloss(e, "inText")),
+    english = "",
+    tone = Tone.NEUTRAL,
+    reading = Texts.ELEMENT_ILLNESS.getValue(e),
+    titleIsKanji = false,
+)
+
+/** [f]'s plank-tree on [board] with its verdict (pp. 422–423), its pebbles drawn by the three five-rows. */
+@Composable
+private fun treeAnnotation(board: IllnessBoard, f: Force): Annotation {
+    val labels = LocalLabels.current
+    val tree = board.tree(f)
+    val verdict = board.verdict(f)
+    return Annotation(
+        title = labels.string(R.string.illness_tree_title, gloss(f).replaceFirstChar(Char::uppercase), stringResource(VERDICT.getValue(verdict))),
+        english = "",
+        tone = toneOf(tree),
+        reading = Texts.illnessTree(f, verdict),
+        subtitle = labels.string(R.string.illness_tree_drawn, drawn(tree.take(5)), drawn(tree.subList(5, 10)), drawn(tree.drop(10))),
+        titleIsKanji = false,
+    )
+}
+
+/** The spirit the body's [n] black pebbles name (p. 425). */
+@Composable
+private fun blackAnnotation(n: Int): Annotation =
+    Annotation(title = LocalLabels.current.string(R.string.illness_black_title, n), english = "", tone = Tone.BAD, reading = Texts.illnessBlack(n), titleIsKanji = false)
+
+/** The blocked pebble doors of [board] (p. 419): one row each, or one for all four. */
+@Composable
+private fun doorAnnotations(board: IllnessBoard): List<Annotation> {
+    val labels = LocalLabels.current
+    val blocked = Force.entries.filter { board.door[it.ordinal] == PebbleColour.BLACK }
+    return (if (blocked.size == 4) listOf(null) else blocked).map { f ->
+        Annotation(
+            title = if (f == null) stringResource(R.string.illness_door_all) else labels.string(R.string.illness_door_title, gloss(f)),
+            english = "",
+            tone = Tone.BAD,
+            reading = Texts.illnessDoor(f),
+            titleIsKanji = false,
+        )
+    }
+}
+
+/**
+ * The illness together (ROADMAP R5; docs/sources/verdicts.md, RD58), under the time of falling ill: the illness named
+ * by the element that is most (p. 435); with the sick person chosen, the spirit the body's black pebbles name (p. 425),
+ * the four plank-trees' verdicts (pp. 422–423), the blocked pebble doors (p. 419) and the class of the body's fifteen
+ * (p. 425; the notes, vol. 2, p. 496), each as the sections below reckon it; then the Remedy rows of the readings
+ * shown, gathered into one (a starting point mostly white left out, its rite answering a point lost).
+ */
+@Composable
+private fun IllnessTogether(onset: zanshin.core.tibetan.IllnessOnset, person: Person?, now: zanshin.core.tibetan.IllnessOnset, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val muted = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp)
+    SectionTitle(stringResource(R.string.match_section_together))
+    IllnessReckoning.chief(onset.pebbles).forEach { AnnotationRow(chiefAnnotation(it), onOpen) }
+    val shown = mutableListOf<zanshin.core.texts.Reading>()
+    if (person == null) {
+        Text(stringResource(R.string.illness_together_needed), style = muted)
+    } else {
+        val birth = Reckonings.birthSign(person)
+        val board = IllnessReckoning.board(birth, Reckonings.birthYear(person), onset.day.year)
+        board.bodyBlack.takeIf { it > 0 }?.let { AnnotationRow(blackAnnotation(it), onOpen) }
+        val trees = Force.entries.map { treeAnnotation(board, it) }
         AnnotationRow(
             Annotation(
-                title = labels.string(R.string.illness_chief_title, gloss(e, "inText")),
-                english = "",
-                tone = Tone.NEUTRAL,
-                reading = Texts.ELEMENT_ILLNESS.getValue(e),
-                titleIsKanji = false,
+                title = stringResource(R.string.illness_trees_title),
+                english = Force.entries.map { labels.string(R.string.illness_trees_one, gloss(it), stringResource(VERDICT.getValue(board.verdict(it)))) }.joinToString(" · "),
+                tone = Tone.NEUTRAL, reading = null, titleIsKanji = false, parts = trees,
             ),
             onOpen,
         )
+        doorAnnotations(board).forEach { AnnotationRow(it, onOpen) }
+        val fifteen = board.tree(Force.BODY)
+        val white = fifteen.count { it == PebbleColour.WHITE }
+        val black = fifteen.count { it == PebbleColour.BLACK }
+        val c = board.bodyClass
+        if (c == null) {
+            Text(labels.string(R.string.illness_class_none, white, black), style = muted)
+        } else {
+            Text(labels.string(R.string.illness_class_counts, white, black), style = muted)
+            AnnotationRow(
+                Annotation(
+                    title = labels.string(R.string.illness_class_title, c.english),
+                    english = "",
+                    tone = when (c.white) { true -> Tone.GOOD; false -> Tone.BAD; null -> Tone.MIXED },
+                    reading = Texts.illnessClass(c),
+                    titleIsKanji = false,
+                ),
+                onOpen,
+            )
+            shown += Texts.illnessClass(c)
+        }
+        shown += personReadings(person, onset, now, board)
     }
+    val remedies = gatheredRemedies(onsetReadings(onset) + shown)
+    if (remedies.isNotEmpty()) {
+        AnnotationRow(
+            Annotation(title = stringResource(R.string.together_remedies), english = "", tone = Tone.NEUTRAL, reading = Texts.illnessTogether(remedies), titleIsKanji = false),
+            onOpen,
+        )
+    }
+}
+
+/** The readings of the moment of falling ill and of the five pebbles, as the view below shows them. */
+private fun onsetReadings(onset: zanshin.core.tibetan.IllnessOnset): List<zanshin.core.texts.Reading> = buildList {
+    val t = onset.trigram
+    add(Texts.illnessTrigram(t)); add(Texts.illnessTrigramCause(t)); add(Texts.illnessTrigramRansom(t)); add(Texts.illnessFlee(t))
+    add(Texts.illnessDay(onset.dayAnimal)); add(Texts.illnessMewa(onset.mewa)); add(Texts.illnessPlanet(onset.day.weekday))
+    IllnessReckoning.split(onset.pebbles)?.takeIf { it in IllnessReckoning.SPLITS }?.let { add(Texts.illnessSplit(it)) }
+    IllnessReckoning.chief(onset.pebbles).forEach { add(Texts.ELEMENT_ILLNESS.getValue(it)) }
+}
+
+/**
+ * The readings the view shows for [person] as the sick one, in its order, the starting points mostly white left out;
+ * [now] the moment of asking, for the hearth-keeper's stage.
+ */
+private fun personReadings(person: Person, onset: zanshin.core.tibetan.IllnessOnset, now: zanshin.core.tibetan.IllnessOnset, board: IllnessBoard): List<zanshin.core.texts.Reading> = buildList {
+    val day = onset.day
+    val birth = Reckonings.birthSign(person)
+    val birthYear = Reckonings.birthYear(person)
+    add(Texts.illnessSpirit(onset.mewa, IllnessReckoning.spiritKind(YearOfLife.yearSmeBa(birthYear), onset.mewa)))
+    person.gender?.let { add(Texts.illnessReach(IllnessReckoning.reach(birth, birthYear, it, day.year))) }
+    add(Texts.illnessYear(birth.element, IllnessYearPair.of(day.yearAnimal)))
+    add(Texts.illnessRansom(birth.animal))
+    IllnessReckoning.nineteen(birth, onset).forEach { add(Texts.illnessPebble(it)) }
+    Force.entries.forEach { add(Texts.illnessTree(it, board.verdict(it))) }
+    board.bodyBlack.takeIf { it > 0 }?.let { add(Texts.illnessBlack(it)) }
+    Force.entries.filter { board.door[it.ordinal] == PebbleColour.BLACK }.let { b -> (if (b.size == 4) listOf(null) else b).forEach { add(Texts.illnessDoor(it)) } }
+    board.points.filter { toneOf(it.pebbles) != Tone.GOOD }.forEach { add(Texts.illnessPoint(it.n)) }
+    IllnessHelper.entries.forEach { add(Texts.illnessHelper(it)) }
+    val hour = Forces.hours(Forces.signs(now.day).date)[now.minutes / 120].sign.animal
+    add(Texts.illnessStage(IllnessReckoning.stage(birth, hour)))
 }
 
 /** The sixteen fought pebbles of the nineteen (ROADMAP H2d), with the count of white and black, each opening its reading. */
@@ -317,46 +446,10 @@ private fun Board(board: IllnessBoard, onOpen: (Annotation) -> Unit) {
     val labels = LocalLabels.current
     fun name(s: Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
     SectionTitle(stringResource(R.string.illness_section_board))
-    Force.entries.forEach { f ->
-        val tree = board.tree(f)
-        val verdict = board.verdict(f)
-        AnnotationRow(
-            Annotation(
-                title = labels.string(R.string.illness_tree_title, gloss(f).replaceFirstChar(Char::uppercase), stringResource(VERDICT.getValue(verdict))),
-                english = "",
-                tone = toneOf(tree),
-                reading = Texts.illnessTree(f, verdict),
-                subtitle = labels.string(R.string.illness_tree_drawn, drawn(tree.take(5)), drawn(tree.subList(5, 10)), drawn(tree.drop(10))),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
-    board.bodyBlack.takeIf { it > 0 }?.let { n ->
-        AnnotationRow(
-            Annotation(
-                title = labels.string(R.string.illness_black_title, n),
-                english = "",
-                tone = Tone.BAD,
-                reading = Texts.illnessBlack(n),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
+    Force.entries.forEach { AnnotationRow(treeAnnotation(board, it), onOpen) }
+    board.bodyBlack.takeIf { it > 0 }?.let { AnnotationRow(blackAnnotation(it), onOpen) }
     val blocked = Force.entries.filter { board.door[it.ordinal] == PebbleColour.BLACK }
-    (if (blocked.size == 4) listOf(null) else blocked).forEach { f ->
-        AnnotationRow(
-            Annotation(
-                title = if (f == null) stringResource(R.string.illness_door_all) else labels.string(R.string.illness_door_title, gloss(f)),
-                english = "",
-                tone = Tone.BAD,
-                reading = Texts.illnessDoor(f),
-                titleIsKanji = false,
-            ),
-            onOpen,
-        )
-    }
+    doorAnnotations(board).forEach { AnnotationRow(it, onOpen) }
     if (blocked.isEmpty()) Text(stringResource(R.string.illness_door_open), style = body.copy(fontSize = 14.sp, color = Palette.muted, lineHeight = 20.sp))
     board.points.forEach { p ->
         AnnotationRow(
