@@ -209,16 +209,26 @@ data class RekichuDay(
      * The annotations the almanac does not count today, each with the one
      * that sets it aside (SPEC §7.5, Japanese Wikipedia 暦注下段): on 受死日
      * and 十死日 the lower band printed nothing else, and 歳下食, a light bad
-     * day, need not be kept when another annotation names the day good and
-     * none other names it bad.
+     * day, need not be kept when stem and branch are good ([goodByStemAndBranch]).
      */
     val setAside: Map<Senjitsu, Senjitsu>
         get() {
             val lead = senjitsu.firstOrNull { it in SUPPRESSING }
             if (lead != null) return senjitsu.filter { it.band == Band.KAGEDAN && it != lead }.associateWith { lead }
-            if (Senjitsu.SAIGEJIKI !in senjitsu || heavierWith.isNotEmpty()) return emptyMap()
-            val lifting = senjitsu.firstOrNull { it.tone == Tone.GOOD && it.band != Band.ENNICHI } ?: return emptyMap()
-            return mapOf(Senjitsu.SAIGEJIKI to lifting)
+            if (Senjitsu.SAIGEJIKI !in senjitsu || !goodByStemAndBranch) return emptyMap()
+            return mapOf(Senjitsu.SAIGEJIKI to senjitsu.first { it.tone == Tone.GOOD && it.band != Band.ENNICHI })
+        }
+
+    /**
+     * Whether stem and branch are good on the day, «支干吉并» (SPEC §7.5; the 暦林問答集 §51 and §64): an
+     * annotation of the lower band or the 選日 other than 歳下食 names the day good and none names it bad.
+     * A stated choice, the one the lower band's rule for 歳下食 already made: the old text names no list.
+     * The 十二直, the 二十八宿, the rokuyō and the 縁日 are not among them.
+     */
+    val goodByStemAndBranch: Boolean
+        get() {
+            val counted = senjitsu.filter { it.band != Band.ENNICHI && it != Senjitsu.SAIGEJIKI }
+            return counted.any { it.tone == Tone.GOOD } && counted.none { it.tone == Tone.BAD }
         }
 
     /** The other bad days that make 歳下食 heavier (Japanese Wikipedia 暦注下段); empty when it is set aside. */

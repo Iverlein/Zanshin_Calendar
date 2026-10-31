@@ -386,6 +386,15 @@ object Sources {
         "国立国会図書館デジタルコレクション (NDL)",
         "https://dl.ndl.go.jp/pid/1911335/1/20",
     )
+    /**
+     * The 旧暦 page's first voice (SPEC §8.1, ROADMAP D8): 賀茂在方's questions and answers of 1414, read on the
+     * NDL's scan of the 群書類從 woodblock (docs/sources/kyureki.md, K3-R); public domain.
+     */
+    val RYAKURIN = Source(
+        "Questions and Answers from the Forest of the Calendar (暦林問答集, Rekirin mondōshū), 賀茂在方, 1414, in 群書類從 vol. 506",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/14488380",
+    )
     /** 歳下食 by the year's branch, a second witness to Wikipedia's table, read on the NDL scan. */
     val DOKUSEN_EKIGAKU = Source(
         "The Complete Book of Divination (独占易学全書, Dokusen ekigaku zensho), ed. 開運館,「歳下食日」, 又間精華堂, Osaka 1901, p. 54",
@@ -837,29 +846,27 @@ object Texts {
         )
     }
 
-    /** Where the birth-year rule of the three personal bad days is stated (SPEC §7.5). */
-    private val PERSONAL_BAD_DAYS = listOf(Sources.FUKI_NAIDEN, Sources.KOYOMI8_GEDAN)
-
     val SENJITSU: Map<Senjitsu, Reading> = keyed(
-        Senjitsu.TENSHA to Reading(goodKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.TENSHA to Reading(goodKeys = listOf("everything"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
         Senjitsu.ICHIRYU_MANBAI to Reading(goodKeys = listOf("beginnings"), source = Sources.WP_ICHIRYU, license = License.CC_BY_SA),
         Senjitsu.DAIMYO to Reading(goodKeys = listOf("building", "moving_house", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.TENON to Reading(goodKeys = listOf("celebrations"), avoidKeys = listOf("mourning"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.BOSO to Reading(goodKeys = listOf("marriage", "building"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        // The 暦林問答集 names no works for 天恩 (§32): the lists are the digest's, where the old text is silent (D8).
+        Senjitsu.TENON to Reading(goodKeys = listOf("celebrations"), avoidKeys = listOf("mourning"), source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_KAGEDAN)),
+        Senjitsu.BOSO to Reading(goodKeys = listOf("everything"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
         Senjitsu.SETTOKU to Reading(goodKeys = listOf("extending_a_house", "earthworks"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.KISHUKU to Reading(goodKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.TORA to Reading(avoidKeys = listOf("weddings"), source = Sources.KB_TORA),
         Senjitsu.MI to Reading(source = Sources.KB_MI),
         Senjitsu.TSUCHINOTO_MI to Reading(source = Sources.KB_MI),
         Senjitsu.KINOE_NE to Reading(source = Sources.KB_KINOENE),
-        Senjitsu.TENICHI_TENJO to Reading(goodKeys = listOf("journeys_in_any_direction"), avoidKeys = listOf("an_unclean_house"), source = Sources.WP_TENICHI, license = License.CC_BY_SA),
+        Senjitsu.TENICHI_TENJO to Reading(goodKeys = listOf("journeys_in_any_direction"), avoidKeys = listOf("sweeping_the_house"), source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_TENICHI)),
         Senjitsu.JUSHI to Reading(avoidKeys = listOf("visiting_the_sick", "taking_medicine", "acupuncture", "travel"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.JISSHI to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.KIKO to Reading(avoidKeys = listOf("long_journeys", "coming_home", "moving_house", "bringing_in_a_bride", "lending_or_borrowing_money"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.CHIIMI to Reading(avoidKeys = listOf("acupuncture", "bloodshed", "hunting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.KIKO to Reading(avoidKeys = listOf("long_journeys", "coming_home", "moving_house", "bringing_in_a_bride"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
+        Senjitsu.CHIIMI to Reading(avoidKeys = listOf("acupuncture", "bloodshed"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
         Senjitsu.TENKA to Reading(avoidKeys = listOf("raising_the_ridgepole", "roofing", "house_repairs", "moving_house"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
         Senjitsu.JIKA to Reading(avoidKeys = listOf("moving_earth", "laying_foundations", "raising_pillars", "digging_wells", "sowing", "building_graves", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.OMO to Reading(avoidKeys = listOf("long_journeys", "taking_up_office", "moving_house", "weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        Senjitsu.OMO to Reading(avoidKeys = listOf("long_journeys", "leading_an_army"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
         Senjitsu.FUJOJU to Reading(avoidKeys = listOf("weddings", "opening_a_shop", "naming_a_child", "moving_house", "contracts", "starting_lessons", "making_wishes"), source = Sources.WP_FUJOJU, license = License.CC_BY_SA),
         Senjitsu.SANRINBO to Reading(avoidKeys = listOf("raising_the_ridgepole", "breaking_ground", "any_building_work", "climbing_high"), source = Sources.WP_SANRINBO, license = License.CC_BY_SA),
         Senjitsu.JIPPOGURE to Reading(avoidKeys = listOf("new_ventures"), source = Sources.WP_JIPPO, license = License.CC_BY_SA),
@@ -868,13 +875,17 @@ object Texts {
         Senjitsu.OTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
         Senjitsu.KOTSUCHI to Reading(avoidKeys = listOf("digging", "wells", "sowing", "earthworks", "felling_trees", "ground_breaking_rites"), source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
         Senjitsu.TSUCHI_MABI to Reading(source = Sources.WP_TSUCHI, license = License.CC_BY_SA),
-        Senjitsu.SAIGEJIKI to Reading(avoidKeys = listOf("eating_and_drinking_heavily", "sowing", "opening_rice_bales", "planting"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = listOf(Sources.DOKUSEN_EKIGAKU)),
-        Senjitsu.JUNICHI to Reading(avoidKeys = listOf("weddings", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
-        Senjitsu.FUKUNICHI to Reading(avoidKeys = listOf("weddings"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA),
+        // The 暦林問答集 names no works for 歳下食 (§51): the lists are the digest's, where the old text is silent (D8).
+        Senjitsu.SAIGEJIKI to Reading(avoidKeys = listOf("eating_and_drinking_heavily", "sowing", "opening_rice_bales", "planting"), source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_KAGEDAN, Sources.DOKUSEN_EKIGAKU)),
+        // «更不可為凶事» (§40): the ill deed is the funeral; good works "as the matter allows", none named to avoid.
+        Senjitsu.JUNICHI to Reading(avoidKeys = listOf("funerals"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
+        // «吉凶皆同重日也» (§41).
+        Senjitsu.FUKUNICHI to Reading(avoidKeys = listOf("funerals"), source = Sources.RYAKURIN, also = listOf(Sources.WP_KAGEDAN)),
         Senjitsu.KANOE_SARU to Reading(source = Sources.WP_KOSHIN, license = License.CC_BY_SA),
-        Senjitsu.TAIKA to Reading(avoidKeys = listOf("careless_words", "house_repairs", "building_gates", "sea_voyages", "funerals"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
-        Senjitsu.ROSHAKU to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
-        Senjitsu.METSUMON to Reading(avoidKeys = listOf("everything"), source = Sources.WP_KAGEDAN, license = License.CC_BY_SA, also = PERSONAL_BAD_DAYS),
+        // The 簠簋内伝's own reading of the three, «萬事不用», kept by D8 point 2.
+        Senjitsu.TAIKA to Reading(avoidKeys = listOf("everything"), source = Sources.FUKI_NAIDEN, also = listOf(Sources.KOYOMI8_GEDAN)),
+        Senjitsu.ROSHAKU to Reading(avoidKeys = listOf("everything"), source = Sources.FUKI_NAIDEN, also = listOf(Sources.KOYOMI8_GEDAN)),
+        Senjitsu.METSUMON to Reading(avoidKeys = listOf("everything"), source = Sources.FUKI_NAIDEN, also = listOf(Sources.KOYOMI8_GEDAN)),
     )
 
     val ZASSETSU: Map<Zassetsu, Reading> = keyed(
@@ -882,12 +893,12 @@ object Texts {
         Zassetsu.HIGAN_IRI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HIGAN to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HIGAN_AKE to Reading(source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.SHANICHI to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.SHANICHI to Reading(source = Sources.RYAKURIN, also = listOf(Sources.NAOJ_ZASSETSU)),
         Zassetsu.HACHIJUHACHIYA to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.NYUBAI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.HANGESHO to Reading(source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.DOYO_IRI to Reading(source = Sources.NAOJ_ZASSETSU),
-        Zassetsu.DOYO to Reading(source = Sources.NAOJ_ZASSETSU),
+        Zassetsu.DOYO_IRI to Reading(source = Sources.RYAKURIN, also = listOf(Sources.NAOJ_ZASSETSU)),
+        Zassetsu.DOYO to Reading(source = Sources.RYAKURIN, also = listOf(Sources.NAOJ_ZASSETSU)),
         Zassetsu.DOYO_USHI to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.NIHYAKUTOKA to Reading(source = Sources.NAOJ_ZASSETSU),
         Zassetsu.NIHYAKUHATSUKA to Reading(source = Sources.NAOJ_ZASSETSU),
@@ -905,7 +916,7 @@ object Texts {
     )
 
     val EHOU: Map<Ehou, Reading> = Ehou.entries.associateWith {
-        Reading(key = "reading.Ehou", source = Sources.WP_TOSHITOKU, license = License.CC_BY_SA)
+        Reading(key = "reading.Ehou", source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_TOSHITOKU))
     }
 
     /**

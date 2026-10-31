@@ -41,7 +41,12 @@ class DaySummaryTest {
                 n.avoid.forEach { assertTrue(n.activity in Activities.of(it.reading!!.avoidKeys), "$date ${n.activity} ${it.kanji}") }
                 assertEquals(n.good.isNotEmpty() && n.avoid.isNotEmpty(), n.disputed)
             }
-            val named = s.byTone.values.flatten().flatMap { e -> e.reading?.let { Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) }.orEmpty() }.toSet()
+            // A held mansion names its works to avoid only (the 暦林問答集 §64).
+            val held = s.held.map { it.kanji }.toSet()
+            assertEquals(!rk.goodByStemAndBranch && Texts.SHUKU[rk.shuku]!!.goodKeys.isNotEmpty(), held.isNotEmpty(), "$date")
+            val named = s.byTone.values.flatten().flatMap { e ->
+                e.reading?.let { (if (e.kanji in held) emptyList() else Activities.of(it.goodKeys)) + Activities.of(it.avoidKeys) }.orEmpty()
+            }.toSet()
             assertEquals(named, s.activities.map { it.activity }.toSet(), "$date: activities left out")
             val aside = s.setAside.values.flatten()
             assertEquals(rk.setAside.size, aside.size, "$date")
@@ -62,12 +67,14 @@ class DaySummaryTest {
     fun `the summary line shows the families of 23 October 2026`() {
         val date = LocalDate.of(2026, 10, 23)
         val s = DaySummary.of(Kyureki.of(date), Rekichu.of(date))
-        // 先負, 成, 牛宿, 一粒万倍日, 大明日, 母倉日, 三隣亡, 大犯土: 11 named good, 12 to avoid, building both ways;
-        // the disputes 牛宿 avoids are drawn apart from agreements.
-        assertEquals(11, s.good.size)
+        // 先負, 成, 牛宿, 一粒万倍日, 大明日, 母倉日, 三隣亡, 大犯土: 10 named good, 12 to avoid, building both ways;
+        // the disputes 牛宿 avoids are drawn apart from agreements. 三隣亡 and 大犯土 leave stem and branch not good,
+        // so 牛宿's weddings do not count (the 暦林問答集 §64).
+        assertEquals(listOf("牛宿"), s.held.map { it.kanji })
+        assertEquals(10, s.good.size)
         assertEquals(12, s.avoid.size)
         assertEquals(
-            listOf(ActivityFamily.EVERYTHING, ActivityFamily.WEDDING, ActivityFamily.JOURNEY, ActivityFamily.MOVING_HOUSE,
+            listOf(ActivityFamily.EVERYTHING, ActivityFamily.JOURNEY, ActivityFamily.MOVING_HOUSE,
                 ActivityFamily.BUILDING, ActivityFamily.TRADE, ActivityFamily.BEGINNING, ActivityFamily.CONDUCT),
             s.goodFamilies,
         )
@@ -81,9 +88,9 @@ class DaySummaryTest {
     @Test
     fun `the 旧暦 line takes four families a side, a side's spare places to the other`() {
         val busy = LocalDate.of(2026, 10, 23).let { DaySummary.of(Kyureki.of(it), Rekichu.of(it)) }
-        // Eight good and six to avoid: four each, in family order, building on both sides as the breakdown has it.
+        // Seven good and six to avoid: four each, in family order, building on both sides as the breakdown has it.
         assertEquals(
-            listOf(ActivityFamily.EVERYTHING, ActivityFamily.WEDDING, ActivityFamily.JOURNEY, ActivityFamily.MOVING_HOUSE) to
+            listOf(ActivityFamily.EVERYTHING, ActivityFamily.JOURNEY, ActivityFamily.MOVING_HOUSE, ActivityFamily.BUILDING) to
                 listOf(ActivityFamily.BUILDING, ActivityFamily.EARTH, ActivityFamily.WELL, ActivityFamily.FIELD),
             busy.familyRow(),
         )

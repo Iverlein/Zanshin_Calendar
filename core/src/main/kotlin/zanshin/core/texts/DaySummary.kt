@@ -207,6 +207,11 @@ data class DaySummary(
     val verdict: DayVerdict? = null,
     /** The 旧暦 annotations the almanac does not count today, with the one that sets them aside (SPEC §7.5). */
     val setAside: Map<SummaryEntry, List<SummaryEntry>> = emptyMap(),
+    /**
+     * The 旧暦 annotations of the 宿曜経 whose good side does not count today, stem and branch not being
+     * good (SPEC §7.5, the 暦林問答集 §64): their avoid lists stand.
+     */
+    val held: List<SummaryEntry> = emptyList(),
     /** The Tibetan day's combination periods and nectar periods, shown and not weighed (SPEC §5.13). */
     val hours: DayHours? = null,
     /**
@@ -415,17 +420,23 @@ data class DaySummary(
             val shukuReading = Texts.SHUKU[rk.shuku]
             fun entry(s: Senjitsu) = SummaryEntry(s.kanji, s.english, s.tone, Texts.SENJITSU[s])
             val setAside = rk.setAside
+            val shuku = SummaryEntry("${rk.shuku.kanji}宿", rk.shuku.english, toneOf(shukuReading), shukuReading)
+            // The 暦林問答集 §64: the 宿曜経's good days count only where stem and branch are good too.
+            val held = listOfNotNull(shuku.takeIf { !rk.goodByStemAndBranch && shukuReading?.goodKeys?.isNotEmpty() == true })
             val entries = buildList {
                 add(SummaryEntry(day.rokuyo.kanji, day.rokuyo.english, rokuyoTone(day.rokuyo), Texts.ROKUYO[day.rokuyo]))
                 add(SummaryEntry(rk.choku.kanji, rk.choku.english, rk.choku.tone, Texts.CHOKU[rk.choku]))
-                add(SummaryEntry("${rk.shuku.kanji}宿", rk.shuku.english, toneOf(shukuReading), shukuReading))
+                add(shuku)
                 rk.senjitsu.filter { it !in setAside }.forEach { add(entry(it)) }
             }
+            // A held entry stands by its avoid list alone.
+            fun shown(e: SummaryEntry) = if (e in held) e.copy(tone = if (e.reading?.avoidKeys.isNullOrEmpty()) Tone.NEUTRAL else Tone.BAD) else e
 
             return DaySummary(
                 mark = rk.mark,
-                byTone = entries.filter { it.tone != Tone.NEUTRAL }.groupBy { it.tone },
-                activities = activities(entries),
+                byTone = entries.map(::shown).filter { it.tone != Tone.NEUTRAL }.groupBy { it.tone },
+                activities = activities(entries, held),
+                held = held,
                 personal = entries.filter { e -> PERSONAL.any { it.kanji == e.kanji } },
                 affinity = birthStar?.let { Kigaku.affinity(it, rk.dayStar) },
                 setAside = setAside.entries.groupBy({ entry(it.value) }, { entry(it.key) }),
@@ -648,13 +659,14 @@ data class DaySummary(
         }
 
         /** Activities with the entries that name them, in order of first mention, so the list follows the almanac's own order. */
-        private fun activities(entries: List<SummaryEntry>): List<ActivityNote> {
+        /** The works [entries] name, each with the entries on either side; the good lists of [held] do not count. */
+        private fun activities(entries: List<SummaryEntry>, held: List<SummaryEntry> = emptyList()): List<ActivityNote> {
             val order = LinkedHashSet<Activity>()
-            entries.forEach { e -> e.reading?.let { order += Activities.of(it.goodKeys) + Activities.of(it.avoidKeys) } }
+            entries.forEach { e -> e.reading?.let { order += Activities.of(if (e in held) emptyList() else it.goodKeys) + Activities.of(it.avoidKeys) } }
             return order.map { a ->
                 ActivityNote(
                     a,
-                    good = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.goodKeys) },
+                    good = entries.filter { e -> e.reading != null && e !in held && a in Activities.of(e.reading.goodKeys) },
                     avoid = entries.filter { e -> e.reading != null && a in Activities.of(e.reading.avoidKeys) },
                 )
             }

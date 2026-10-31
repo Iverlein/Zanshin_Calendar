@@ -111,7 +111,7 @@ enum class Activity {
     THROWING_AWAY,
     PUTTING_IN_ORDER,
     MAKING_THINGS,
-    UNCLEAN_HOUSE,
+    SWEEPING_HOUSE,
     HELPING_OTHERS,
 
     BLADES,
@@ -307,7 +307,7 @@ val Activity.family: ActivityFamily
         NEW_CLOTHES, FIRST_WEARING -> ActivityFamily.CLOTHES
         HAIRCUTS -> ActivityFamily.HAIRCUT
         NAMING -> ActivityFamily.NAME
-        CLEARING_OUT, THROWING_AWAY, PUTTING_IN_ORDER, UNCLEAN_HOUSE -> ActivityFamily.HOUSEHOLD
+        CLEARING_OUT, THROWING_AWAY, PUTTING_IN_ORDER, SWEEPING_HOUSE -> ActivityFamily.HOUSEHOLD
         BLADES, BLOODSHED, HUNTING, MAKING_WEAPONS -> ActivityFamily.BLADE
         FIRE -> ActivityFamily.FIRE
         CALM, HASTE, CARELESS_WORDS, HEAVY_EATING, HELPING_OTHERS -> ActivityFamily.CONDUCT
@@ -367,7 +367,6 @@ object Activities {
         "coming_home" to of(COMING_HOME),
         "boarding_ships" to of(SEA_TRAVEL),
         "sea_travel" to of(SEA_TRAVEL),
-        "sea_voyages" to of(SEA_TRAVEL),
         "moving_house" to of(MOVING_HOUSE),
         "setting_up_a_branch_family" to of(BRANCH_FAMILY),
         "retiring" to of(RETIRING),
@@ -380,7 +379,6 @@ object Activities {
         "raising_pillars" to of(RAISING_PILLARS),
         "raising_the_ridgepole" to of(RIDGEPOLE),
         "roofing" to of(ROOFING),
-        "building_gates" to of(BUILDING_GATES),
         "opening_gates" to of(OPENING_GATES),
         "building_stone_walls" to of(STONE_WALLS),
         "building_storehouses" to of(BUILDING_STOREHOUSES),
@@ -414,7 +412,6 @@ object Activities {
         "acquiring_things" to of(ACQUIRING),
         "receiving_money" to of(RECEIVING_MONEY),
         "money_talks" to of(MONEY_TALKS),
-        "lending_or_borrowing_money" to of(LENDING_MONEY),
         "storing" to of(STORING),
         "collecting" to of(COLLECTING),
 
@@ -433,7 +430,6 @@ object Activities {
         "starting_school" to of(STARTING_SCHOOL),
         "starting_lessons" to of(STARTING_LESSONS),
         "entrance_exams" to of(ENTRANCE_EXAMS),
-        "taking_up_office" to of(TAKING_UP_OFFICE),
         "announcements" to of(ANNOUNCEMENTS),
 
         "taking_medicine" to of(TAKING_MEDICINE),
@@ -469,7 +465,7 @@ object Activities {
         "throwing_things_away" to of(THROWING_AWAY),
         "putting_things_in_order" to of(PUTTING_IN_ORDER),
         "making_things" to of(MAKING_THINGS),
-        "an_unclean_house" to of(UNCLEAN_HOUSE),
+        "sweeping_the_house" to of(SWEEPING_HOUSE),
         "helping_others" to of(HELPING_OTHERS),
 
         "blades" to of(BLADES),
@@ -477,7 +473,6 @@ object Activities {
         "hunting" to of(HUNTING),
         "fire" to of(FIRE),
         "eating_and_drinking_heavily" to of(HEAVY_EATING),
-        "careless_words" to of(CARELESS_WORDS),
         "haste" to of(HASTE),
         "calm" to of(CALM),
 

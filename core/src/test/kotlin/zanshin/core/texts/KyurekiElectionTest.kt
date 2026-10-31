@@ -58,21 +58,26 @@ class KyurekiElectionTest {
     /**
      * Weddings from 1 October 2026 to the end of the 8th month: each annotation by the rules of SPEC
      * §7.5, checked in `RekichuTest`; 天赦日 on 戊申 in autumn (1 Oct), 不成就日 on the 8th month's 26th,
-     * the rokuyō by (month + day) mod 6, 大安 on 8/22 and 8/28.
+     * the rokuyō by (month + day) mod 6, 大安 on 8/22 and 8/28. Under the 暦林問答集 (ROADMAP D8): 母倉日
+     * names every work and 重日 avoids funerals, not weddings (8/24, 8/30); the mansion's good list counts
+     * only where stem and branch are good (§64), so 婁宿 on 8/22, with 天火日, and 胃宿 on 8/23, with
+     * 血忌日, do not speak.
      */
     @Test
     fun `weddings in the 8th month of 2026`() {
         val e = KyurekiSpan.of(LocalDate.of(2026, 10, 1), 1).election(Activity.WEDDING)
         fun days(list: List<KyurekiElectionDay>) = list.map { it.day.day }
-        assertEquals("21± 22+ 23+ 24± 25. 26± 27- 28+ 29+ 30±", e.days.joinToString(" ") { d ->
+        assertEquals("21± 22+ 23+ 24+ 25. 26± 27- 28+ 29+ 30+", e.days.joinToString(" ") { d ->
             "${d.day.day}${when (d.side) { Tone.GOOD -> "+"; Tone.BAD -> "-"; Tone.MIXED -> "±"; else -> "." }}"
         })
-        assertEquals(listOf(22, 23, 28, 29), days(e.good))
-        assertEquals(listOf(21, 24, 26, 30), days(e.disputed))
+        assertEquals(listOf(22, 23, 24, 28, 29, 30), days(e.good))
+        assertEquals(listOf(21, 26), days(e.disputed))
         val first = e.days.first()
         assertEquals(listOf("天赦日"), first.good.map { it.kanji })
         assertEquals(listOf("仏滅"), first.avoid.map { it.kanji })
-        assertEquals(listOf("大安", "婁宿", "建"), e.days[1].good.map { it.kanji })
+        assertEquals(listOf("大安", "建"), e.days[1].good.map { it.kanji })
+        assertEquals(listOf("婁宿"), e.days[1].summary.held.map { it.kanji })
+        assertEquals(listOf("母倉日"), e.days[2].good.map { it.kanji })
         assertTrue("不成就日" in e.days[5].avoid.map { it.kanji })
     }
 
