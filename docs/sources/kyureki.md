@@ -2662,7 +2662,327 @@ against MS «来»; §15 GR «蒸陽起» (the character uncertain) against MS
 
 ## 金神: which old text gives it, and how the printed almanac reckons it (RD93)
 
-Nothing read yet: RD93's passages, with the English beside them, go here.
+Read 2026-10-31, by eye on the NDL scans, no model. Which old text gives
+金神 (konjin, the metal god), its directions by the year's stem, its
+遊行 (yugyō, its excursions, when it leaves its seat for a few days) and
+what is avoided towards it; whether the 暦林問答集 names it; and the
+modern reckoning against it.
+
+**Answer in short.** The 簠簋内伝 is the only old text found that gives
+the reckoning: 巻一, §5–§9, read in the 寛永9 (1632) printing and in a
+later impression of the 文榮堂 blocks (1919). The 暦林問答集 does not name
+金神 anywhere. The 古事類苑 (1909) gathers what the court diaries say of
+it from 1093 on, and one of them (玉海, 1173) records the 陰陽道's own
+answer: the 金神 taboo is not in the 新撰陰陽書, the office's model, and
+the 陰陽道 does not use it. The modern digests give the 簠簋内伝's
+遊行 and 間日 unchanged, and a year table that is neither of its two
+year tables but a blend of them (below).
+
+### The texts and the scans
+
+- **簠簋内伝, 1632.** 『三國相傳陰陽輨轄簠簋内傳金烏玉兎集』 5巻, catalogued
+  «安部博士晴明朝臣 撰», 中野市右衛門, 寛永9 [1632], call number ろ-14,
+  NDL **pid 2533009** (https://dl.ndl.go.jp/pid/2533009), 79 images,
+  PDM. Cited as **HK1632**. The 金神 sections: img. 15 (§5, §6, §7, the
+  start of §8) and img. 16 (the end of §8, §9). The oldest printing found
+  in the NDL.
+- **簠簋内伝, 1919.** The same title, catalogued «安倍晴明 撰», 田中太右衛門,
+  1919.8, call number 特2-1726, **pid 1911335**, 24 images, PDM: 巻上 only,
+  its title page «天文博士安部晴明朝臣撰 / 簠簋内傳 / 大阪 前川文榮堂藏»,
+  its blocks marked 改正 and 新板 in the margins. Cited as **HK1919**.
+  巻第一's table of contents (img. 2) lists: 一 天道神方, 二 歳徳神方,
+  三 八将神方, 四 天德神方, **五 金神七殺方, 六 金神七殺之異説事, 七 金神毎月遊行,
+  八 金神四季遊行, 九 金神四季間日事**, 十 月塞之方事, 十一 日塞之方事, 十二 時塞之方事,
+  十三 三鏡之方事. The 金神 sections: img. 11 (§5–§7) and img. 12 (§7's
+  last line, §8, §9).
+- **簠簋内伝, «[18--]».** The 文榮堂 impression, pid 1901824 (call number
+  VF7-W38): its img. 11 and 12 are the same blocks as HK1919's img. 11
+  and 12, line for line; not read separately. Its catalogue date is
+  «[18--]» (nineteenth century); the «1800» the search returns is only
+  the machine form of that date.
+- The catalogue gives no date of composition for the 簠簋内伝; only the
+  attribution to 安倍晴明, which is the books' own.
+- **古事類苑**, 方技部三, 陰陽道下, 方位吉凶, the article 金神方, pp. 181–185:
+  『古事類苑. 方技部２』 (the NDL's volume 2 of the 方技部, which holds 方技部三
+  and 四), 神宮司庁, 1909, **pid 897743**, PDM; p. 181 is img. 13 (left
+  page), pp. 182–183 img. 14, pp. 184–185 img. 15. Cited as **KJ**. A
+  typeset compilation quoting its sources; the quotations below are read
+  on KJ's page, not on the diaries' own manuscripts.
+- **暦林問答集**, GR (pid 14488380) as in *K3-R* above, and the second
+  copy of the same 群書類従 blocks (pid 2559255) and the manuscript MS
+  (pid 2533201), for the search.
+
+### 簠簋内伝 巻一 §5: 金神七殺方 (HK1919 img. 11; HK1632 img. 15)
+
+> 五　金神七殺之方
+> 甲己歳午未申酉方　　乙庚歳辰巳戌亥方
+> 戊癸歳子丑申酉方　　丙辛歳子丑寅卯方
+> 丁壬歳寅卯戌亥方
+> 右此金神者巨旦大王精魂也七魂遊行而殺戮南閻浮提諸衆生故尤可厭者也
+
+(HK1919, right page of img. 11 to the left page; a small note beside
+七魂 reads «金ハ七ツナル故也». HK1632 img. 15, right page: the same
+directions, the stems written 庚乙 and 壬丁, and «七魄» with the kana
+ハク where HK1919 has «七魂»; no note. HK1632 carries handwritten notes:
+beside 丙辛 «午未加テ六方», beside 庚乙 «寅卯加テ六方» (adding 午未, and 寅卯:
+six directions), and in the top margin «金神土用ノ遊行 / 四金神土ハ丑未辰戌»,
+the second line not read with certainty. They are a reader's, not the
+print.)
+
+"The 金神's seven-killing directions. In a 甲 or 己 year, the 午 未 申 酉
+directions; in an 乙 or 庚 year, 辰 巳 戌 亥; in a 丙 or 辛 year, 子 丑 寅 卯;
+in a 丁 or 壬 year, 寅 卯 戌 亥; in a 戊 or 癸 year, 子 丑 申 酉. This 金神 is
+the spirit of King Kotan (巨旦大王); its seven spirits wander about and
+slaughter the beings of Jambudvīpa (南閻浮提), and so it is above all to
+be shunned." [The note: "because metal is seven."]
+
+### §6: 金神七殺之異説事, the other view (HK1919 img. 11; HK1632 img. 15)
+
+> 六　金神七殺之異説事　此説暦出
+> 甲己歳午未申酉　　乙庚歳寅卯辰巳
+> 丙辛歳子丑午未　　丁壬歳寅卯戌亥
+> 戊癸歳申酉子丑
+
+(HK1632 the same, headed «金神七殺異説之事 六», «此ノ説暦ニ出».)
+
+"The other view of the 金神's seven killings — this view appears in the
+calendar(s): 甲己 years 午未申酉; 乙庚 寅卯辰巳; 丙辛 子丑午未; 丁壬 寅卯戌亥;
+戊癸 申酉子丑."
+
+The two tables agree for 甲己, 丁壬 and 戊癸 and differ for 乙庚 (§5
+辰巳戌亥, §6 寅卯辰巳) and 丙辛 (§5 子丑寅卯, §6 子丑午未). §6's «暦» does not
+say which calendars.
+
+### §7: 金神毎月遊行, the excursions by the day (HK1919 img. 11–12; HK1632 img. 15)
+
+> 七　金神毎月遊行
+> 甲寅　五日間在南方〔巳午〕
+> 丙寅　五日間在西方〔申酉〕
+> 戊寅　五日間在中央〔丑未辰戌〕○世間傳云十方塞非也
+> 庚寅　五日間在北方〔亥子〕
+> 壬寅　五日間在東方〔寅卯〕
+
+(〔〕 small characters under the direction. HK1632 heads it «金神遊行事 七»,
+without «毎月», without the small branches and without the note on 十方塞;
+a reader has written beside each the last of the five days: 戊午, 庚午,
+壬午, 甲午, 丙午.)
+
+"The 金神's monthly excursions. From the 甲寅 day, five days in the south
+(巳午); from 丙寅, five days in the west (申酉); from 戊寅, five days in
+the centre (丑未辰戌) — what the world hands down, that [then] all ten
+directions are blocked (十方塞), is wrong; from 庚寅, five days in the
+north (亥子); from 壬寅, five days in the east (寅卯)."
+
+The five starting days are the five 寅 days of the sixty-day cycle, twelve
+days apart. The 暦林問答集's 大將軍遊行 (§54, GR img. 50, read for this
+comparison) has the same shape on the five 子 days: 甲子 five days east,
+戊子 the centre, 丙子 south, 庚子 west, 壬子 north.
+
+### §8: 金神四季遊行, the excursions by the season (HK1919 img. 12; HK1632 img. 15–16)
+
+> 八　金神四季遊行
+> 春乙卯〔ヨリ〕五日在東方〔卯〕　夏丙午　五日在南方〔午〕
+> 秋辛酉　五日在西方〔酉〕　冬壬子　五日在北方〔子〕
+
+"In spring, from the 乙卯 day, five days in the east (卯); in summer, from
+丙午, five days in the south (午); in autumn, from 辛酉, five days in the
+west (酉); in winter, from 壬子, five days in the north (子)." HK1632 the
+same, without the small branches.
+
+### §9: 金神四季間日事, the free days (HK1919 img. 12; HK1632 img. 16)
+
+> 九　金神四季間日事　又云月金神
+> 春丑日　夏申日　秋未日　冬酉日
+
+"The 金神's free days (間日, mabi) by the season — also called the month's
+金神: in spring the 丑 days, in summer the 申 days, in autumn the 未 days,
+in winter the 酉 days." HK1632 has the heading without «又云月金神».
+
+The section gives the days only; it does not say what may be done on
+them. What is avoided towards the 金神 is said only in §5, and only as
+"to be shunned above all" (尤可厭).
+
+### What is avoided: the later texts in KJ (pp. 181–182, img. 13–14)
+
+KJ quotes, before the 簠簋内伝, a 「假名暦略註」:
+
+> 金神　正説なし、或説に、庚申の神是を金神といふ、七殺とは、西方純金の氣を主どる方位也、金は殺伐を事とす、其數は七つ也、故に七殺といふ、此方より土を取或造作し、又は土藏を作る等に大に惡し、尤愼ずんばあるべからず、凡金神に、天金神有、地金神有、天金神は陽なるがゆへに其禍輕し、地金神は陰なるが故に其災大に重しといへり、但輕き造作修理等のことは、遊行の内にして苦しからず、雜書に間日を書は誤なり、
+
+"金神: there is no orthodox account. One view calls the god of 庚申 the
+金神. 七殺 is the direction ruled by the pure metal breath of the west;
+metal's business is killing, its number is seven, hence 'seven killings'.
+Taking earth from this direction, building towards it, or building a
+storehouse (土藏) is very bad and must be avoided above all. There is a
+heaven 金神 and an earth 金神: the heaven one, being yang, brings light
+harm; the earth one, being yin, very heavy harm. Light building and
+repairs are no trouble during the 遊行. The miscellanies (雜書) that print
+free days are wrong."
+
+The NDL catalogue has 『假名暦本名頒暦畧註』 (subtitle «寳暦甲戌元暦»), 塙保己一,
+1806 (pid 14487066, 13589337); that this is KJ's «假名暦略註» is likely
+from the title, not checked on its scan.
+
+KJ then quotes the 「寛永板大雜書」 (a 大雑書 of the 寛永 era; not identified
+in the catalogue):
+
+> 金神七せつの方大にわろき事
+> きのえつちのとの年は　むま、ひつじ、さる、とりの方也
+> きのとかのえの年は　たつ、いぬの方なり、
+> ひのえかのとの年は　とら、う、むま、ひつじの方也、
+> ひのとみづのえの年は　とら、う、いぬ、ゐの方なり、
+> つちのえみづのとの年は　さる、とり、子、丑の方也、
+> 右、此方へこえて在所をたて、家を作り、又は堂作り候へば、七人ころすべし、此方をよく〳〵つゝしむべし、
+
+"The 金神's seven-killing directions are very bad. 甲己 years: 午 未 申 酉;
+乙庚: 辰 戌; 丙辛: 寅 卯 午 未; 丁壬: 寅 卯 戌 亥; 戊癸: 申 酉 子 丑. Whoever
+crosses into these directions and sets up a dwelling, builds a house or
+builds a hall will have seven killed; be very careful of these
+directions." Its 乙庚 (辰戌) and 丙辛 (寅卯午未) are neither of the 簠簋内伝's
+tables; whether that is the 大雑書's own or KJ's setting is not seen on
+KJ's page.
+
+### The court diaries in KJ (pp. 182–184, img. 14–15)
+
+Read on KJ's typeset page; the era dates as KJ prints them, the
+Gregorian year added.
+
+- 「後二條關白記」 (the catalogue: 藤原師通著), 寛治七年 [1093] 四月五日:
+  «金神七殺方、北方當否相論事、不付兩說、被付左大辨說造作候之由所聞也者、今年者北方吉也»
+  — a dispute whether the north was the 金神 七殺 direction that year,
+  settled by one official's view so that the building went ahead. The
+  oldest dated mention KJ gives.
+- 「中右記」, 永久二年 [1114] 四月十二日: «今年金神方在南» — this year the
+  金神 is in the south — and the courtier's 方違 (katatagae, the
+  detour that breaks a direction taboo) for 45 days at a time: «金神已准大將軍方、有四十五日方違也».
+  The same, 八月五日: «於金神忌者、陰陽道雖不知、近代依被忌所申也» —
+  "the 金神 taboo: although the 陰陽道 does not know it, it is avoided
+  these days, so [the diviner] reported it."
+- 「台記別記」, 久安四年 [1148] 十月廿九日: «今明兩年金神在酉、於壞壁定有其忌»
+  — this year and next the 金神 is at 酉, and breaking a wall falls under
+  its taboo; but if 酉 is a 三白 or 九紫 [direction], that cancels the
+  harm, so the 直講 信憲 is to be asked whether it is; a small note after
+  his name reads «陰陽道不知之», its sense not settled here.
+- 「百練抄」, 保元二年 [1157] 十二月二十三日: «諸卿定申諸道勘申金神方忌可被棄哉否事、件方角、永長定俊眞人依申出、三四代所忌來也»
+  — the lords debate whether the 金神 taboo can be dropped; it was raised
+  by 定俊眞人 in 永長 [1096–1097] and kept for three or four reigns.
+- 「玉海」, 承安三年 [1173] 正月十三日:
+  > 余問曰、金神七殺方可憚哉否、如何、申云、更不可忌避、但百忌暦文云、犯一神殺七人云々、因茲賴隆眞人已下、彼家之輩、申可有忌之由、然而陰陽道所不用也、當道之習、以新撰陰陽書爲規模、而金神方忌事、不載彼書、又想如此之諸忌、不可勝計、悉忌避者、何方可造作哉、度々雖有沙汰、遂以被弃了、就中上古、保憲晴明之時、全無此沙汰云々、
+
+  "I asked: is the 金神 七殺 direction to be feared or not? He said: it
+  need not be avoided at all. The 百忌暦 does say 'offend the one god and
+  seven people are killed', and so 賴隆眞人 and those of his house say
+  there is a taboo; but the 陰陽道 does not use it. Our office's custom
+  takes the 新撰陰陽書 as its model, and the 金神 direction taboo is not in
+  that book. Taboos of this kind are past counting; if every one were
+  avoided, in what direction could one build? It has been debated again
+  and again and in the end set aside. Above all, in the old days of
+  保憲 and 晴明 there was no such talk at all."
+
+KJ's 金神方 article quotes no passage of the 暦林問答集, while its 歳徳方,
+八将神方 and 土公方 articles on the same pages quote it.
+
+### The 暦林問答集
+
+Not named anywhere in it. The NDL's own machine text of two copies,
+the 群書類従 blocks (pid 2559255, the work on img. 58–112) and the
+manuscript (pid 2533201), was searched for 金神, 七殺 and 七煞: no hit; 金
+occurs 69 and 67 times, never before 神. That text is the NDL's OCR,
+used only to search; the places where 金神 would be expected were read on
+GR by eye: §12 歳殺 (GR img. 16), a section that ties a year god to
+metal — «歳殺陰氣尤毒害方謂之殺金曜之精專主致氣万物滅方也故丑未辰戌方運轉而不居於餘方不吉方也»,
+"the 歳殺 is the direction where the yin breath is most poisonous, called
+'killing'; it is the essence of the metal star [Venus] … it turns among
+the 丑未辰戌 directions" — a god of the 丑未辰戌 corners, not the 金神's
+stem table; and §54 大將軍遊行 and §55 土公 (GR img. 50), the
+excursion sections, with no 金神.
+
+### The modern reckoning against it (read 2026-10-31)
+
+- **こよみのページ** (koyomi8.com), «暦と方位神１・金神» and «暦と方位神２・金神の間日»
+  (https://koyomi8.com/doc/mlwa/200905280.html, …/200905290.html, the
+  issues of 2009-05-28 and -29): the 金神 is the essence of Venus (太白),
+  ruling slaughter and war, its direction very bad. By the year's stem:
+  甲己 午未申酉; 乙庚 辰巳; 丙辛 子丑寅卯午未; 丁壬 寅卯戌亥; 戊癸 午未申酉.
+  The free arrangements: (A) 甲寅–戊午 south, 丙寅–庚午 west, 戊寅–壬午
+  the centre ("inside the house"), 庚寅–甲午 north, 壬寅–丙午 east; (B)
+  spring 乙卯–己未 east, summer 丙午–庚戌 south, autumn 辛酉–乙丑 west,
+  winter 壬子–丙辰 north, spring from 立春 to the day before 立夏 and so
+  on; (C) the free days
+  spring 丑, summer 申, autumn 未, winter 酉 — "金神の間日" in the narrow
+  sense; (D) a lucky god in the same direction overcoming it, by school.
+  It notes that A and B contradict each other on such a day as 丙午.
+- **Japanese Wikipedia**, «金神» (read the same day): the same stem table
+  but 戊癸 子丑申酉; the same A, B and C, B's seasons «立春から春の土用まで»;
+  what is avoided: everything, above all moving earth, building,
+  repairs, moving house and travel, and «七殺»: seven of the household
+  die. It adds 大金神 and 姫金神 by the year's branch, "set up later".
+- **古文書ネット** (komonjyo.net/konjin.html, after 伊東和彦『暦を知る事典』,
+  2006): the same table as Wikipedia (戊癸 子丑申酉), the same A and B, and
+  that the 伊勢暦 and 引札暦 almost always print it; avoided: building
+  and earthworks, moving, travel, marriage.
+- The NAOJ's 暦Wiki has no page on 金神 (searched).
+
+**Against the 簠簋内伝:**
+
+| Year stem | 簠簋内伝 §5 | §6 «此説暦出» | Today (Wikipedia, 古文書ネット) |
+| --- | --- | --- | --- |
+| 甲己 | 午未申酉 | 午未申酉 | 午未申酉 |
+| 乙庚 | 辰巳戌亥 | 寅卯辰巳 | 辰巳 |
+| 丙辛 | 子丑寅卯 | 子丑午未 | 子丑寅卯午未 |
+| 丁壬 | 寅卯戌亥 | 寅卯戌亥 | 寅卯戌亥 |
+| 戊癸 | 子丑申酉 | 申酉子丑 | 子丑申酉 |
+
+Where §5 and §6 agree, today's row is theirs. Where they differ, today
+takes for 丙辛 both (six directions) and for 乙庚 only the two they share
+(辰巳): neither text's row. HK1632's reader added 午未 to 丙辛 and 寅卯 to
+乙庚 by hand, six directions each, so the 丙辛 union is at least that old
+in one reader's hand; the 乙庚 intersection was not found in any old text.
+koyomi8's 戊癸 午未申酉 repeats its 甲己 row and stands against the
+簠簋内伝, Wikipedia and 古文書ネット; it is stated, not settled. Today's A, B
+and C are the 簠簋内伝's §7, §8 and §9 unchanged, with the five days
+spelt out. The 大金神 and 姫金神 are not in 巻一's 金神 sections.
+
+**So:** the 簠簋内伝 is the only old text found that gives 金神's
+directions, its 遊行 and its free days. The 暦林問答集 does not have it;
+the 陰陽道 of 1173 said it was not in its model book and was not used;
+the diaries show the courts observing it from 1093. What is to be avoided
+towards it is said in the 簠簋内伝 only as "above all to be shunned"; the
+later texts name taking earth, building, storehouses and halls.
+
+### Open
+
+- Question: Which of the 簠簋内伝's two year tables (§5, or §6, "which
+  appears in the calendars") did the printed almanac of the Edo period
+  follow, and where does today's 乙庚 = 辰巳 alone come from, a row
+  neither table has?
+- Question: Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉, or does some
+  printed almanac give it?
+- Question: §7 (by the 寅 days) and §8 (by the seasons) can put the 金神
+  in two places on the same day (koyomi8's example, a 丙午 day in
+  summer). Does the 簠簋内伝 or any old almanac say which wins?
+- Question: The 1919 printing says of the 戊寅 days in the centre that
+  the world's "all ten directions blocked" is wrong (absent in 1632).
+  Does that mean every outer direction is free on those five days?
+- Question: What is the 「假名暦略註」 KJ quotes, and is it 塙保己一's
+  『假名暦本名頒暦畧註』 (1806)?
+- Question: Does the paper 高島暦 (D12) print the 金神's year directions
+  with §5's, §6's or the blended table, and does it print the 遊行 and the
+  間日?
+
+### Searched and not found
+
+- The NDL catalogue (`ndl.py`, 2026-10-31) for 金神, 金神七殺, 金神遊行,
+  大金神, 金神方, «金神 方位 暦», and 金神 with 簠簋, 拾芥抄, 陰陽雑書, 二中暦, 暦林,
+  群書類従, 古事類苑, 方忌, 尅: no digitised work older than the 簠簋内伝 of
+  1632; 『安部懐中伝暦』 (1642, record R100000094-I212793) has no pid, not
+  read; 『大将軍則覧并修法篇金神七殺則覧並修法篇』 (峰本天籟, manuscript, no date,
+  no pid), 『文政新刻金神方位重寶記』 (松樹菴, 1824, no pid), 『歳々明方金神八將神方位早繰』
+  (no date, no pid) not read; the rest are Meiji almanacs and 方鑑 books.
+- The 暦林問答集: 金神, 七殺, 七煞 in the NDL's machine text of pid
+  2559255 and 2533201 (pid 14488380 is refused by the NDL Lab API); none.
+- The NAOJ 暦Wiki: no page on 金神 (DuckDuckGo, site eco.mtk.nao.ac.jp).
+- The rest of the 簠簋内伝 (巻一 after §9, 巻二–五) was not searched for
+  further mentions of 金神.
 
 
 ## The daily directions: 天一神's and 日遊神's (RD94)
