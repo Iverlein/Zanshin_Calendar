@@ -98,6 +98,7 @@ import zanshin.core.tibetan.BuildingDoor
 import zanshin.core.tibetan.BuildingSign
 import zanshin.core.tibetan.Circle
 import zanshin.core.tibetan.SmallReckonings
+import zanshin.core.tibetan.Round
 import zanshin.core.tibetan.LaDecline
 import zanshin.core.tibetan.LaWander
 import zanshin.core.tibetan.StartingCheck
@@ -294,6 +295,8 @@ class CatalogTest {
         LaDecline.entries.forEach { out += Texts.laDecline(it) }
         Element.entries.forEach { e -> listOf(Gender.MALE, Gender.FEMALE).forEach { out += Texts.graveEntered(e, it) } }
         WombEnd.entries.forEach { out += Texts.wombEnd(it) }
+        Round.entries.flatMap { r -> r.checks.map { it.key } }.distinct().forEach { out += Texts.roundCut(it) }
+        listOf("YUNGDRUNG", "YELLOW_LORD", "BLACK_TRAIL", "RHINO", "RHINO.INNER", "RHINO.FEMALE").forEach { out += Texts.roundSign(it) }
         Element.entries.filter { SmallReckonings.birthPower(it) }.forEach { e -> Gender.entries.forEach { out += Texts.birthPower(e, it) } }
         (1..9).forEach { out += Texts.deadCauseMewa(it); out += Texts.deadDemonMewa(it); out += Texts.deadRebirthMewa(it) }
         Trigram.entries.forEach { out += Texts.momentTrigram(it) }
@@ -758,6 +761,8 @@ class CatalogTest {
             "R5" to listOf("MomentTogether", "DeadTogether", "IllnessTogether", "IllnessClass"),
             // Ch. 27's small reckonings by the year (block 61), written in the shape: no allowance.
             "R6" to listOf("StartingCut", "LaWander", "LaDecline", "GraveEntered", "WombEnd", "BirthPower"),
+            // The rounds by age of pp. 18–19 (block 62), written in the shape: no allowance.
+            "R7" to listOf("RoundCut", "RoundSign"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
         ).flatMap { (item, families) -> families.map { it to item } }.toMap()
 

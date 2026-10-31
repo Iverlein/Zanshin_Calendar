@@ -561,8 +561,8 @@ object Sources {
     val WHITE_BERYL_THIRTY = whiteBeryl("chapter 26, pp. 453–473, with the notes in vol. 2, pp. 532–533", volume = 1)
     /** Ch. 28's small signs: building a house (p. 42). */
     val WHITE_BERYL_SMALL_SIGNS = whiteBeryl("chapter 28, p. 42", volume = 2)
-    /** Ch. 27's small reckonings by the year: the starting points of p. 17, the la, the grave, the womb, the birth (pp. 16–17, 20). */
-    val WHITE_BERYL_SMALL_RECKONINGS = whiteBeryl("chapter 27, pp. 16–17 and 20", volume = 2)
+    /** Ch. 27's small reckonings: the starting points of p. 17, the la, the grave, the womb, the birth, the rounds by age (pp. 16–20). */
+    val WHITE_BERYL_SMALL_RECKONINGS = whiteBeryl("chapter 27, pp. 16–20", volume = 2)
     /** The thirteen circles of ch. 27 (pp. 3–21), counted from the power by the notes (vol. 2, p. 533; D19, D20). */
     val WHITE_BERYL_CIRCLES = whiteBeryl("chapter 27, pp. 3–21, with the notes, p. 533", volume = 2)
     /** The dead's later examinations: provisions, strikes, rites (ch. 29, pp. 75–132; the notes, pp. 505–517; D18 for the trigram and mewa). */
@@ -2572,6 +2572,12 @@ object Texts {
         arg = if (p == StartingPoint.WEAPONS) "reading.StartingCut.WEAPONS" else "reading.StartingCut.${p.name}.${c.name}",
         source = Sources.WHITE_BERYL_SMALL_RECKONINGS,
     )
+
+    /** A round's check cut inward, by its [key] (WB vol. 2, ch. 27, pp. 18–19). */
+    fun roundCut(key: String): Reading = Reading(key = "reading.RoundCut", arg = "reading.RoundCut.$key", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
+
+    /** A round's sign, by its [key] (WB vol. 2, ch. 27, pp. 18–19). */
+    fun roundSign(key: String): Reading = Reading(key = "reading.RoundSign", arg = "reading.RoundSign.$key", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)
 
     /** The la wandering in the sky year (WB vol. 2, ch. 27, p. 16). */
     fun laWander(w: LaWander): Reading = Reading(key = "reading.LaWander", arg = "reading.LaWander.${w.name}", source = Sources.WHITE_BERYL_SMALL_RECKONINGS)

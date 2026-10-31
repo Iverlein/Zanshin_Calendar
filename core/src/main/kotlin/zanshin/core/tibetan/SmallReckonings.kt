@@ -140,3 +140,125 @@ object SmallReckonings {
      */
     fun birthPower(element: Element): Boolean = element != Element.WATER
 }
+
+/** A check of a round (pp. 18–19): the year [step] from the year reached (inclusive), its [other] aspect against the person's [own]; [key] names its reading. */
+data class RoundCheck(val step: Int, val own: Force, val other: Force, val key: String)
+
+/**
+ * The rounds by age of pp. 18–19 (ROADMAP R7, WB vol. 2, ch. 27): each starts from its [animal] in the element standing
+ * as [relation] to the person's power, and is counted by the years of age, the start the first, [down] or up; a man
+ * reckons the man's round ([male] true), a woman the woman's, both the rounds with [male] null. A round with [checks]
+ * reads each check that cuts inward; the others read a sign the year reached shows ([SmallReckonings.roundSign]).
+ */
+enum class Round(val animal: Animal, val relation: Kinship, val male: Boolean?, val down: Boolean, val checks: List<RoundCheck> = emptyList()) {
+    /** The wheel's full depth (འཁོར་ལོ་གཏིང་རྫོགས), the man's: from the ox of his own element, down. */
+    WHEEL_MALE(
+        Animal.OX, Kinship.IDENTITY, true, true,
+        listOf(RoundCheck(0, Force.DESTINY, Force.DESTINY, "WHEEL.DESTINY"), RoundCheck(11, Force.BODY, Force.BODY, "WHEEL.BODY"), RoundCheck(-5, Force.VITALITY, Force.VITALITY, "WHEEL.VITALITY")),
+    ),
+
+    /** The woman's: piled up from the sheep of the enemy; "the results as for a man". */
+    WHEEL_FEMALE(
+        Animal.SHEEP, Kinship.ENEMY, false, false,
+        listOf(RoundCheck(0, Force.DESTINY, Force.DESTINY, "WHEEL.DESTINY"), RoundCheck(5, Force.VITALITY, Force.VITALITY, "WHEEL.VITALITY"), RoundCheck(-9, Force.BODY, Force.BODY, "WHEEL.BODY")),
+    ),
+
+    /** The gods' and demons' trade, the man's: from the hare of his own friend element, down. */
+    TRADE_MALE(Animal.RABBIT, Kinship.FRIEND, true, true, listOf(RoundCheck(0, Force.VITALITY, Force.VITALITY, "TRADE.VITALITY"), RoundCheck(-6, Force.BODY, Force.BODY, "TRADE.BODY"))),
+
+    /** The woman's: from the hare of the mother, up. */
+    TRADE_FEMALE(Animal.RABBIT, Kinship.MOTHER, false, false, listOf(RoundCheck(0, Force.VITALITY, Force.VITALITY, "TRADE.VITALITY"), RoundCheck(-6, Force.BODY, Force.BODY, "TRADE.BODY"))),
+
+    /** The peacock with crossed necks, the man's: from the snake of his own element, down; the life force cut, the bird of ruin rides too. */
+    PEACOCK_MALE(
+        Animal.SNAKE, Kinship.IDENTITY, true, true,
+        listOf(RoundCheck(0, Force.VITALITY, Force.VITALITY, "PEACOCK.VITALITY"), RoundCheck(0, Force.BODY, Force.BODY, "PEACOCK"), RoundCheck(0, Force.DESTINY, Force.DESTINY, "PEACOCK")),
+    ),
+
+    /** The woman's, "reckoned as above": cut chiefly by the power; the power cutting her life force, the bird of ruin. */
+    PEACOCK_FEMALE(
+        Animal.SNAKE, Kinship.IDENTITY, false, true,
+        listOf(RoundCheck(0, Force.DESTINY, Force.DESTINY, "PEACOCK.FEMALE"), RoundCheck(0, Force.VITALITY, Force.DESTINY, "RUIN_BIRD.FEMALE")),
+    ),
+
+    /** The yungdrung's five rounds: from the snake of the friend, down; the year reached against the power, the 5th up against the life force. */
+    YUNGDRUNG(Animal.SNAKE, Kinship.FRIEND, null, true),
+
+    /** The yellow lord of men, the man's: from the bird of the friend, down. */
+    YELLOW_LORD_MALE(Animal.BIRD, Kinship.FRIEND, true, true),
+
+    /** The woman's: from the pig of the mother, up. */
+    YELLOW_LORD_FEMALE(Animal.PIG, Kinship.MOTHER, false, false),
+
+    /** The cock's black trail, the man's: from the ox of his own element, down by his own years. */
+    BLACK_TRAIL_MALE(Animal.OX, Kinship.IDENTITY, true, true),
+
+    /** The woman's: from the ox of her own friend element, down. */
+    BLACK_TRAIL_FEMALE(Animal.OX, Kinship.FRIEND, false, true),
+
+    /** The rhinoceros year, the outer, the man's: from the dog of his own element, down. */
+    RHINO_MALE(Animal.DOG, Kinship.IDENTITY, true, true),
+
+    /** The woman's: down from the horse of her own son. */
+    RHINO_FEMALE(Animal.HORSE, Kinship.SON, false, true);
+
+    val english: String get() = gloss(this)
+
+    /** Whether one of [gender] reckons this round. */
+    fun reckonedBy(gender: Gender): Boolean = male == null || male == (gender == Gender.MALE)
+}
+
+/** A round reckoned: its start, the year reached, the cuts of its checks, and the sign it reads (a [RoundCheck.key] or a sign key), if any. */
+data class RoundReading(val round: Round, val start: Sign, val reached: Sign, val cut: List<RoundCheck>, val sign: String?)
+
+/** The four executioners, the earth animals (the golden turtle's turtle years, WB vol. 2, p. 20). */
+val EXECUTIONERS = setOf(Animal.DRAGON, Animal.DOG, Animal.OX, Animal.SHEEP)
+
+object Rounds {
+    /** Where [round] starts for one born in [birth]. */
+    fun start(round: Round, birth: Sign): Sign = Sign(Circles.element(birth.forces.destiny, round.relation), round.animal)
+
+    /**
+     * [round] for one born in [birth] in the [age]th year of age: the start counted by the years of age, the start the
+     * first; each check's year counted from the year reached, inclusively; the sign read off the year reached.
+     */
+    fun reckon(round: Round, birth: Sign, age: Int): RoundReading {
+        val start = start(round, birth)
+        val at = YearOfLife.sexagenary(start) + if (round.down) -(age - 1) else age - 1
+        val reached = YearOfLife.signOf(at)
+        val own = birth.forces
+        val cut = round.checks.filter { c -> SmallReckonings.cutsInward(own[c.own], YearOfLife.signOf(at + c.step).forces[c.other]) }
+        return RoundReading(round, start, reached, cut, sign(round, birth, at))
+    }
+
+    /**
+     * The sign a round without checks reads (pp. 18–19), only as the text prints it: the yungdrung destroyed, a
+     * person whose power and life force are both water, the year reached cutting the power and its 5th up the life
+     * force, both earth; the power lost, a wood person reaching the earth ox or sheep; the black trail, an ox year or an
+     * earth year reached; the rhinoceros's horn broken, an earth year reached; the woman's, a year of the four
+     * executioners or of iron or water reached.
+     */
+    private fun sign(round: Round, birth: Sign, at: Int): String? {
+        val reached = YearOfLife.signOf(at)
+        val own = birth.forces
+        return when (round) {
+            Round.YUNGDRUNG -> "YUNGDRUNG".takeIf {
+                own.destiny == Element.WATER && own.vitality == Element.WATER &&
+                    reached.forces.destiny == Element.EARTH && YearOfLife.signOf(at + 4).forces.vitality == Element.EARTH
+            }
+            Round.YELLOW_LORD_MALE, Round.YELLOW_LORD_FEMALE -> "YELLOW_LORD".takeIf {
+                birth.element == Element.WOOD && reached.element == Element.EARTH && reached.animal in setOf(Animal.OX, Animal.SHEEP)
+            }
+            Round.BLACK_TRAIL_MALE, Round.BLACK_TRAIL_FEMALE -> "BLACK_TRAIL".takeIf { reached.animal == Animal.OX || reached.element == Element.EARTH }
+            Round.RHINO_MALE -> "RHINO".takeIf { reached.element == Element.EARTH }
+            Round.RHINO_FEMALE -> "RHINO.FEMALE".takeIf { reached.animal in EXECUTIONERS || reached.element == Element.IRON || reached.element == Element.WATER }
+            else -> null
+        }
+    }
+
+    /** The rounds one of [gender] reckons, born in [birth], in the [age]th year of age. */
+    fun all(birth: Sign, gender: Gender, age: Int): List<RoundReading> = Round.entries.filter { it.reckonedBy(gender) }.map { reckon(it, birth, age) }
+
+    /** The rhinoceros's inner sign (p. 19), a man's: the year's trigram on the fire or the sky trigram. */
+    fun rhinoInner(trigram: Trigram): Boolean = trigram == Trigram.LI || trigram == Trigram.KHEN
+}

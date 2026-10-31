@@ -100,4 +100,50 @@ class SmallReckoningsTest {
         assertFalse(SmallReckonings.birthPower(Element.WATER))
         assertTrue(SmallReckonings.birthPower(Element.IRON))
     }
+
+    /** pp. 18–19: the wheel starts from the ox of one's own element for a man, the sheep of the enemy for a woman, counted up. */
+    @Test
+    fun `the wheel's starts and the woman's count up`() {
+        assertEquals(Sign(Element.WOOD, Animal.OX), Rounds.start(Round.WHEEL_MALE, woodMonkey))
+        assertEquals(Sign(Element.IRON, Animal.SHEEP), Rounds.start(Round.WHEEL_FEMALE, woodMonkey))
+        assertEquals(Sign(Element.WATER, Animal.BIRD), Rounds.reckon(Round.WHEEL_FEMALE, woodMonkey, 3).reached)
+        assertEquals(Sign(Element.WATER, Animal.PIG), Rounds.reckon(Round.WHEEL_MALE, woodMonkey, 3).reached)
+        assertEquals(Sign(Element.FIRE, Animal.HORSE), Rounds.start(Round.RHINO_FEMALE, woodMonkey))
+    }
+
+    /** A check cuts where the check year's aspect overcomes the person's; the woman's bird of ruin sets the power against the life force. */
+    @Test
+    fun `the rounds' cuts`() {
+        (1..60).forEach { age ->
+            Round.entries.forEach { round ->
+                val r = Rounds.reckon(round, woodMonkey, age)
+                val at = YearOfLife.sexagenary(r.reached)
+                round.checks.forEach { c ->
+                    val other = YearOfLife.signOf(at + c.step).forces[c.other]
+                    assertEquals(other.overcomes == woodMonkey.forces[c.own], c in r.cut, "$round $age $c")
+                }
+            }
+        }
+        assertEquals(listOf(Round.WHEEL_MALE, Round.TRADE_MALE, Round.PEACOCK_MALE, Round.YUNGDRUNG, Round.YELLOW_LORD_MALE, Round.BLACK_TRAIL_MALE, Round.RHINO_MALE),
+            Rounds.all(woodMonkey, Gender.MALE, 1).map { it.round })
+    }
+
+    /** The signs as printed: the yungdrung only for one whose power and life force are water, both cut by earth. */
+    @Test
+    fun `the rounds' signs`() {
+        val waterMouse = Sign(Element.WATER, Animal.MOUSE)
+        val hits = (1..60).filter { Rounds.reckon(Round.YUNGDRUNG, waterMouse, it).sign == "YUNGDRUNG" }
+        assertTrue(hits.isNotEmpty())
+        hits.forEach { age ->
+            val r = Rounds.reckon(Round.YUNGDRUNG, waterMouse, age)
+            assertEquals(Element.EARTH, r.reached.forces.destiny)
+        }
+        (1..60).forEach { assertNull(Rounds.reckon(Round.YUNGDRUNG, woodMonkey, it).sign) }
+        (1..60).forEach { age ->
+            val r = Rounds.reckon(Round.BLACK_TRAIL_MALE, woodMonkey, age)
+            assertEquals(r.reached.animal == Animal.OX || r.reached.element == Element.EARTH, r.sign == "BLACK_TRAIL")
+        }
+        assertTrue(Rounds.rhinoInner(Trigram.KHEN))
+        assertFalse(Rounds.rhinoInner(Trigram.KHAM))
+    }
 }
