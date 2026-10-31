@@ -1136,3 +1136,8 @@ Searched and found wanting, so not to be repeated:
   - koyomi8.com (2026-10-31): the 暦注計算 page, its three 「暦注の説明」 pages, the 「暦と天文の雑学」 index and the 恵方 article have nothing on the 八将神; its 方位神 articles (金神, 金神の間日, 2009-05-28/29) name them without directions.
   - rekichu.com, takao-hospital.net/koyomi and 神宮館's 「運勢のページ」 (2026-10-31): nothing on the 八将神; the 高島暦 令和8年's text is not online (Kinokuniya lists its contents only).
   - The 暦林問答集 §6, §8–§15 (GR img. 11–17, MS img. 11–15): no stem rule for any of the eight, no anchor year for the 大將軍, no branch rule for the 歳殺, no start of the year, no 遊行 but the 大將軍's (§54).
+- **RD94 (2026-10-31)** (RD94, 2026-10-31):
+  - 方違え in the 暦林問答集: no 方違, 違方 or 方忌 in the NDL machine full text of MS (pid 2533201, 2026-10-31); 違 four times, none on directions. GR has no machine full text.
+  - 日遊神's course outside the house in a Japanese text: not in GR §43, in the 頭書長暦 or 簾中抄 as 古事類苑 prints them, nor in the three Meiji almanac-books (pid 760755, 759984, 760747); the NDL full-text search for 日遊所在 (2026-10-31) found, besides these, only diaries and modern studies, all on 日遊 in the house at a birth.
+  - 日遊神 on koyomi8.com: not named on 「暦注の説明（その２）」, 「方塞がりと方違え」 or 「天一天上と塞がり」; a site search returned no page for it.
+  - 天一, 日遊, 方違 on the NAOJ 暦Wiki: not on the 「暦注」 page; the wiki's own search returned only the front page.

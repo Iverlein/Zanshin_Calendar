@@ -2990,26 +2990,26 @@ not say where the other days go. A difference stated, not settled.
 
 ### Open
 
-- Question: the 暦林問答集 keeps 日遊 in the house seventeen days, 癸巳 to
+- Question 492 ([q0492](questions/q0492.md)): the 暦林問答集 keeps 日遊 in the house seventeen days, 癸巳 to
   己酉, and on every 戊 and 己 day besides; the 曆例 (in the 協紀辨方書)
   and the 頭書長暦 keep it sixteen days, 癸巳 to 戊申, with a place in the
   house for each day and nothing of 戊 and 己. Which does an onmyōdō
   practitioner follow, and does the printed almanac mark the 戊・己 days
   as 日遊 days?
-- Question: is 日遊神's course outside the house, on the forty-four days,
+- Question 493 ([q0493](questions/q0493.md)): is 日遊神's course outside the house, on the forty-four days,
   reckoned in Japan at all? The 協紀辨方書 makes it 鶴神's, which is 天一's;
   the 暦林問答集 says only that it goes round the eight directions. Is
   there a Japanese reckoning, or is the day's 日遊神 only "in the house
   or not"?
-- Question: the 簾中抄, as 古事類苑 prints it, has 天一 block "five days
+- Question 494 ([q0494](questions/q0494.md)): the 簾中抄, as 古事類苑 prints it, has 天一 block "five days
   at a time" from 乙卯 in the east, and the Meiji 大雑書 have five days
   each from 庚戌 in the north-east; the 暦林問答集 and the 江次第抄 have
   six days in each corner from 己酉. Is the five-day count a different
   reckoning, or a shortening of the same?
-- Question: the 拾芥抄's sentence «天一太白自大將軍王相八卦忌方重可忌避»:
+- Question 495 ([q0495](questions/q0495.md)): the 拾芥抄's sentence «天一太白自大將軍王相八卦忌方重可忌避»:
   are 天一 and 太白 to be avoided more strictly than the 大將軍, 王相 and
   八卦 directions, or is the sense another?
-- Question: does the printed 高島暦 (or 神宮館's almanac) of today show
+- Question 496 ([q0496](questions/q0496.md)): does the printed 高島暦 (or 神宮館's almanac) of today show
   the day's 天一神 direction in its day columns, and 日遊神 on any day
   other than the 天一天上 days? (D12.)
 
