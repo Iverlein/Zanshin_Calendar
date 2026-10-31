@@ -27,6 +27,8 @@ import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.Gender
 import zanshin.core.tibetan.Sign
 import zanshin.core.tibetan.SmallReckonings
+import zanshin.core.tibetan.Round
+import zanshin.core.tibetan.Rounds
 import zanshin.core.tibetan.StartingCheck
 import zanshin.core.tibetan.YearOfLife
 
@@ -44,6 +46,7 @@ fun SmallReckoningsView(person: Person, year: Int, onOpen: (Annotation) -> Unit)
     val age = YearOfLife.age(Reckonings.birthYear(person), year)
     val risen = YearOfLife.yearSign(year)
     val gender = person.gender
+    val trigramOfYear = gender?.let { YearOfLife.currentTrigram(it, age) }
     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(
             labels.string(R.string.circles_subtitle, personLabel(person), labels.ordinal(age), name(birth), gloss(birth.forces.destiny, "inText")),
@@ -64,13 +67,7 @@ fun SmallReckoningsView(person: Person, year: Int, onOpen: (Annotation) -> Unit)
             }
             if (r.cut.isEmpty()) {
                 // No check cuts inward: nothing to read, the row only states it.
-                Row(Modifier.padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    ToneDot(Tone.GOOD, false)
-                    Column(Modifier.weight(1f)) {
-                        Text(r.point.english.replaceFirstChar(Char::uppercase), style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.Medium))
-                        Text(marks + " · " + stringResource(R.string.small_none_cut), style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
-                    }
-                }
+                QuietRow(r.point.english.replaceFirstChar(Char::uppercase), marks + " · " + stringResource(R.string.small_none_cut))
             } else {
                 val parts = StartingCheck.entries.filter { it in r.cut }.map { c ->
                     Annotation(
@@ -97,9 +94,49 @@ fun SmallReckoningsView(person: Person, year: Int, onOpen: (Annotation) -> Unit)
             }
         }
 
+        // The rounds by age of pp. 18–19, the man's or the woman's: each check that cuts, or the sign the year reached shows.
+        if (gender != null) {
+            SectionTitle(stringResource(R.string.small_section_rounds))
+            Rounds.all(birth, gender, age).forEach { r ->
+                val counted = labels.string(if (r.round.down) R.string.small_counted else R.string.small_counted_up, name(r.start), name(r.reached))
+                val marks = if (r.round.checks.isEmpty()) counted else counted + " · " + r.round.checks.joinToString(" ") { if (it in r.cut) "×" else "○" }
+                val title = r.round.english.replaceFirstChar(Char::uppercase)
+                when {
+                    r.cut.isNotEmpty() -> AnnotationRow(
+                        Annotation(
+                            title = title, english = counted, tone = Tone.BAD, reading = null, subtitle = marks, titleIsKanji = false,
+                            parts = r.cut.distinctBy { it.key }.map { c ->
+                                Annotation(
+                                    title = labels.string(R.string.small_check_title, gloss(c.own).replaceFirstChar(Char::uppercase), stringResource(R.string.small_cut)),
+                                    english = labels.string(R.string.small_check_year, name(YearOfLife.signOf(YearOfLife.sexagenary(r.reached) + c.step)), gloss(c.own)),
+                                    tone = Tone.BAD, reading = Texts.roundCut(c.key), titleIsKanji = false,
+                                )
+                            },
+                        ),
+                        onOpen,
+                    )
+                    r.sign != null -> AnnotationRow(
+                        Annotation(title = title, english = counted, tone = Tone.BAD, reading = Texts.roundSign(r.sign!!), titleIsKanji = false),
+                        onOpen,
+                    )
+                    else -> QuietRow(title, marks + " · " + stringResource(if (r.round.checks.isEmpty()) R.string.small_round_none else R.string.small_none_cut))
+                }
+                if (r.round == Round.RHINO_MALE && trigramOfYear != null && Rounds.rhinoInner(trigramOfYear)) {
+                    AnnotationRow(
+                        Annotation(
+                            title = stringResource(R.string.small_rhino_inner_title),
+                            english = labels.string(R.string.small_rhino_inner_line, Ewts.named(trigramOfYear.english, trigramOfYear.wylie)),
+                            tone = Tone.BAD, reading = Texts.roundSign("RHINO.INNER"), titleIsKanji = false,
+                        ),
+                        onOpen,
+                    )
+                }
+            }
+        }
+
         // What the sky year does to this person: the la, the grave, the womb (pp. 16–17, 20).
         SectionTitle(labels.string(R.string.small_section_year, name(risen)))
-        val trigram = gender?.let { YearOfLife.currentTrigram(it, age) }
+        val trigram = trigramOfYear
         val natal = Reckonings.birth(person)?.natal
         val wander = SmallReckonings.laWander(birth.animal, risen.animal)
         val decline = SmallReckonings.laDecline(birth.animal, risen.animal)
@@ -164,5 +201,17 @@ fun SmallReckoningsView(person: Person, year: Int, onOpen: (Annotation) -> Unit)
             )
         }
         Text(stringResource(R.string.small_note), style = muted)
+    }
+}
+
+/** A row with nothing to read: a good dot, the title and a line, not tappable. */
+@Composable
+private fun QuietRow(title: String, line: String) {
+    Row(Modifier.padding(vertical = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        ToneDot(Tone.GOOD, false)
+        Column(Modifier.weight(1f)) {
+            Text(title, style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.Medium))
+            Text(line, style = body.copy(fontSize = 13.sp, lineHeight = 18.sp, color = Palette.muted))
+        }
     }
 }

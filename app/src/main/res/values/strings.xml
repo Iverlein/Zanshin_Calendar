@@ -1155,6 +1155,11 @@
     <string name="small_not_cut">not cut</string>
     <string name="small_check_year">the %1$s year against your %2$s</string>
     <string name="small_counted">from the %1$s year, down to the %2$s</string>
+    <string name="small_section_rounds">The rounds by age</string>
+    <string name="small_counted_up">from the %1$s year, up to the %2$s</string>
+    <string name="small_round_none">nothing falls</string>
+    <string name="small_rhino_inner_title">The rhinoceros, the inner</string>
+    <string name="small_rhino_inner_line">your trigram of the year %1$s</string>
     <string name="small_section_year">In the %1$s year</string>
     <string name="small_la_wanders">The la, the life-spirit (བླ, bla), wanders %1$s</string>
     <string name="small_born_in">born in a %1$s year, in the %2$s year</string>
@@ -1170,7 +1175,7 @@
     <string name="small_birth_title">Born a %1$s · the year\'s power %2$s</string>
     <string name="small_son">son</string>
     <string name="small_daughter">daughter</string>
-    <string name="small_note">These are the small reckonings gathered after the thirteen circles. Each starting point starts from its animal in an element set against your power: the same for the spiritual friend and the weapons, the friend for the ministers, the mother for the soldiers. It is counted down through the sixty years by the years you have lived, the start the first. From the year reached, the 18th and the 10th up and down fight your life force, power, luck and body, aspect against aspect; a check year whose element overcomes yours cuts inward. The la, the life-spirit (བླ, bla), goes by your birth animal and the year\'s, the grave by your trigram of the year and your life force, the womb by your trigram of birth. Left out: the black nine-eye, which falls only in the years from the wood rat to the wood pig, and whose print is in doubt; the household\'s trigrams; the other rounds of pages 17 to 19.</string>
+    <string name="small_note">These are the small reckonings gathered after the thirteen circles. Each starting point starts from its animal in an element set against your power: the same for the spiritual friend and the weapons, the friend for the ministers, the mother for the soldiers. It is counted down through the sixty years by the years you have lived, the start the first. From the year reached, the 18th and the 10th up and down fight your life force, power, luck and body, aspect against aspect; a check year whose element overcomes yours cuts inward. The la, the life-spirit (བླ, bla), goes by your birth animal and the year\'s, the grave by your trigram of the year and your life force, the womb by your trigram of birth. Left out: the black nine-eye, which falls only in the years from the wood rat to the wood pig, and whose print is in doubt; the household\'s trigrams; the rounds of the Chinese lord\'s banner and of the ogre, whose terms are not read.</string>
     <string name="thirty_title">The thirty starting points</string>
     <string name="thirty_check">Check %1$d</string>
     <string name="thirty_drawn">upper %1$s · lower %2$s · middle %3$s</string>
