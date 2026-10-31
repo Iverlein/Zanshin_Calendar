@@ -43,7 +43,7 @@ class TextsTest {
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
         Texts.OWN_DAY, Texts.GREAT_BLACK_DAY, Texts.RAHU_SEASON,
-    ).flatMap { it.values } + Texts.DUS_SBYOR.values.map { it.second } + Texts.ELECTIONAL_MONTH_DATE.values +
+    ).flatMap { it.values } + Texts.KONJIN + Texts.TENICHI + Texts.DUS_SBYOR.values.map { it.second } + Texts.ELECTIONAL_MONTH_DATE.values +
         Texts.HAIRCUT + Texts.LUNAR_DATE + Texts.BURNING_DATE +
         Texts.DATE_SME_BA.values + Texts.TWELVE_LINK.values + Texts.HUNDRED_FEET.values + Texts.SPEAR.values + Texts.GREAT_SPEAR.values + Texts.HOUR_EARTH_LORDS.values + Texts.BLACK_HOUR + Texts.HOUR_BLA_MKHYEN.values + Texts.HOUR_SA_RGYAL.values + Texts.HOUR_GNAM_KHYI.values + Texts.HOUR_HIDDEN.values +
         Texts.HOUR_WORKS.values + Texts.ROUGH_TIME + Texts.OWN_YEAR_HOUR + Texts.HOUR_OVER_DAY +

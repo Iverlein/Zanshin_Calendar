@@ -46,4 +46,16 @@ class YearGodsTest {
         assertEquals(SaihaWeight.NONE, YearGods.of(5).first { it.god == HasshoGod.SAIHA }.weight)
         assertEquals(SaihaWeight.HEAVY, YearGods.of(4).first { it.god == HasshoGod.SAIHA }.weight)
     }
+
+    /** The 簠簋内伝 巻一 §5's table by the year's stem (docs/sources/kyureki.md, RD93), read on the 1919 and 1632 printings. */
+    @Test
+    fun `金神 holds four directions by the year's stem`() {
+        val table = listOf("午未申酉", "辰巳戌亥", "子丑寅卯", "寅卯戌亥", "子丑申酉")
+        for (stem in 0 until 10) {
+            assertEquals(table[stem % 5], YearGods.konjin(stem).joinToString("") { BRANCHES[it].toString() }, "stem $stem")
+        }
+        // 2026 is 丙午 from 立春: 子丑寅卯; the day before, still 乙巳: 辰巳戌亥.
+        assertEquals(listOf(0, 1, 2, 3), YearGods.konjin(LocalDate.of(2026, 10, 31)))
+        assertEquals(listOf(4, 5, 10, 11), YearGods.konjin(LocalDate.of(2026, 2, 3)))
+    }
 }

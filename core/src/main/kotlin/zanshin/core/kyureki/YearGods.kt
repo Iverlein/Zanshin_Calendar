@@ -88,4 +88,16 @@ object YearGods {
     fun yearBranch(date: LocalDate): Int = Math.floorMod(Rekichu.setsuYearOf(date) - 4, 12)
 
     fun of(date: LocalDate): List<YearGod> = of(yearBranch(date))
+
+    /**
+     * 金神's four directions by the year's stem (0 = 甲), as the 簠簋内伝 gives them (巻一 §5, docs/sources/kyureki.md,
+     * RD93; the owner's choice of 2026-10-31, D9): 甲己 午未申酉, 乙庚 辰巳戌亥, 丙辛 子丑寅卯, 丁壬 寅卯戌亥, 戊癸 子丑申酉.
+     * The 暦林問答集 does not name it.
+     */
+    private val KONJIN = arrayOf(intArrayOf(6, 7, 8, 9), intArrayOf(4, 5, 10, 11), intArrayOf(0, 1, 2, 3), intArrayOf(2, 3, 10, 11), intArrayOf(0, 1, 8, 9))
+
+    fun konjin(yearStem: Int): List<Int> = KONJIN[Math.floorMod(yearStem, 5)].toList()
+
+    /** 金神's directions in the year [date] falls in, from 立春. */
+    fun konjin(date: LocalDate): List<Int> = konjin(Math.floorMod(Rekichu.setsuYearOf(date) - 4, 10))
 }

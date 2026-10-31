@@ -181,6 +181,8 @@ enum class ReadingRow(val key: String) {
     PLANET("planet"),
     FOODS("foods"),
     THROUGH_DAY("through_day"),
+    WANDERS("wanders"),
+    FREE_DAYS("free_days"),
     FALLS("falls"),
     ;
 
@@ -218,6 +220,8 @@ data class Reading(
      * that bears on the entry (a bad stage's rite beside its aspect's decline).
      */
     val alsoRows: List<String> = emptyList(),
+    /** A Together's Remedy row: [rowKeys]' remedies listed rite by rite, the most general first ([Rites]), not joined. */
+    val listsRites: Boolean = false,
 ) {
     val summary: String
         get() = Catalog.textOrNull(key)?.let { fill(it) } ?: ""
@@ -242,7 +246,7 @@ data class Reading(
     val rows: List<Pair<ReadingRow, String>>
         get() = ReadingRow.entries.mapNotNull { row ->
             rowKeys.mapNotNull { k -> Catalog.textOrNull("$k.${row.key}") }.takeIf { it.isNotEmpty() }
-                ?.joinToString("; ")
+                ?.let { texts -> if (listsRites && row == ReadingRow.REMEDY) Rites.list(texts).joinToString("\n") { "• $it" } else texts.joinToString("; ") }
                 ?.let { row to fill(it) }
                 ?: (row to fallLines(falls)).takeIf { row == ReadingRow.FALLS && falls.isNotEmpty() }
         }
@@ -389,6 +393,12 @@ object Sources {
         "The Hoki Naiden, Collection of the Golden Crow and the Jade Hare (三國相傳陰陽輨轄簠簋内傳金烏玉兎集, Sangoku sōden on'yō kankatsu hoki naiden kin'u gyokuto shū), vol. 1,「三箇悪日」, 田中太右衛門, 1919",
         "国立国会図書館デジタルコレクション (NDL)",
         "https://dl.ndl.go.jp/pid/1911335/1/20",
+    )
+    /** 金神's directions by the year's stem, its wanderings and its free days: the same printing, vol. 1, §5, §7–§9. */
+    val FUKI_NAIDEN_KONJIN = Source(
+        "The Hoki Naiden, Collection of the Golden Crow and the Jade Hare (三國相傳陰陽輨轄簠簋内傳金烏玉兎集, Sangoku sōden on'yō kankatsu hoki naiden kin'u gyokuto shū), vol. 1,「金神七殺方」to「金神四季間日事」, 田中太右衛門, 1919",
+        "国立国会図書館デジタルコレクション (NDL)",
+        "https://dl.ndl.go.jp/pid/1911335/1/11",
     )
     /**
      * The 旧暦 page's first voice (SPEC §8.1, ROADMAP D8): 賀茂在方's questions and answers of 1414, read on the
@@ -934,6 +944,12 @@ object Texts {
             )
         }.toTypedArray(),
     )
+
+    /** 金神, the year's metal god, from the 簠簋内伝 alone (ROADMAP K5, D9: the owner's choice of 2026-10-31): no works named, so no lists. */
+    val KONJIN = Reading(key = "reading.Konjin", source = Sources.FUKI_NAIDEN_KONJIN)
+
+    /** 天一神's daily direction and course, the 暦林問答集 §53 (ROADMAP K5, D9: the owner's choice of 2026-10-31): "anything done facing it", so no lists. */
+    val TENICHI = Reading(key = "reading.Tenichi", source = Sources.RYAKURIN)
 
     val EHOU: Map<Ehou, Reading> = Ehou.entries.associateWith {
         Reading(key = "reading.Ehou", source = Sources.RYAKURIN, license = License.CC_BY_SA, also = listOf(Sources.WP_TOSHITOKU))
@@ -2167,7 +2183,7 @@ object Texts {
      * aspect that matters most (WB vol. 1, ch. 24, p. 385); [remedies] the catalog keys whose Remedy rows join its own.
      */
     fun yearTogether(colour: PebbleColour, remedies: List<String>): Reading = Reading(
-        key = "reading.YearTogether", arg = "reading.YearTogether.${colour.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER, alsoRows = remedies,
+        key = "reading.YearTogether", arg = "reading.YearTogether.${colour.name}", source = Sources.WHITE_BERYL_YEAR_TOGETHER, alsoRows = remedies, listsRites = true,
     )
 
     /** An obstacle of the year graded by Mipham's notes (vol. 2, pp. 492–494; D17). */
@@ -2237,7 +2253,7 @@ object Texts {
      * p. 349); [remedies] the catalog keys of the readings whose Remedy rows are gathered into its own.
      */
     fun birthTogether(w: BirthWhole, remedies: List<String>): Reading =
-        Reading(key = "reading.BirthTogether", arg = "reading.BirthTogether.${w.name}", source = Sources.WHITE_BERYL_BIRTH_WHOLE, alsoRows = remedies)
+        Reading(key = "reading.BirthTogether", arg = "reading.BirthTogether.${w.name}", source = Sources.WHITE_BERYL_BIRTH_WHOLE, alsoRows = remedies, listsRites = true)
 
     /** A set [set] of the hundred's deciding pebbles read whole (WB vol. 1, ch. 22, p. 338; the notes, vol. 2, p. 484). */
     fun birthSet(set: BirthSet): Reading = Reading(key = "reading.BirthSet", arg = "reading.BirthSet.${set.name}", source = Sources.WHITE_BERYL_BIRTH_WHOLE)
@@ -2258,7 +2274,7 @@ object Texts {
      * The moment together (ROADMAP R5): the rites the moment's own readings lay, by the hour's element and the trigram
      * (WB vol. 2, ch. 30, pp. 156–161), gathered; [remedies] the catalog keys whose Remedy rows join its own.
      */
-    fun momentTogether(remedies: List<String>): Reading = Reading(key = "reading.MomentTogether", source = Sources.WHITE_BERYL_MOMENT, alsoRows = remedies)
+    fun momentTogether(remedies: List<String>): Reading = Reading(key = "reading.MomentTogether", source = Sources.WHITE_BERYL_MOMENT, alsoRows = remedies, listsRites = true)
 
     /** The moment's period of the day [p] (WB vol. 2, ch. 30, pp. 156–157). */
     fun momentPeriod(p: MomentPeriod): Reading = Reading(key = "reading.MomentPeriod", arg = "reading.MomentPeriod.${p.name}", source = Sources.WHITE_BERYL_MOMENT)
@@ -2448,7 +2464,7 @@ object Texts {
      * whose Remedy rows join its own (WB vol. 1, ch. 25).
      */
     fun illnessTogether(remedies: List<String>): Reading =
-        Reading(key = "reading.IllnessTogether", source = Sources.WHITE_BERYL_ILLNESS_ONSET, also = listOf(Sources.WHITE_BERYL_ILLNESS_BOARD), alsoRows = remedies)
+        Reading(key = "reading.IllnessTogether", source = Sources.WHITE_BERYL_ILLNESS_ONSET, also = listOf(Sources.WHITE_BERYL_ILLNESS_BOARD), alsoRows = remedies, listsRites = true)
 
     /** The helper [h] the sick need (ROADMAP H2f; WB vol. 1, ch. 25, p. 445). */
     fun illnessHelper(h: IllnessHelper): Reading = Reading(key = "reading.IllnessHelper", arg = "reading.IllnessHelper.${h.name}", source = Sources.WHITE_BERYL_ILLNESS_STAGES)
@@ -2585,7 +2601,7 @@ object Texts {
      * ch. 29, pp. 58–132); [remedies] the catalog keys whose Remedy rows join its own.
      */
     fun deadTogether(remedies: List<String>): Reading = Reading(
-        key = "reading.DeadTogether", source = Sources.WHITE_BERYL_DEAD_DEMON, also = listOf(Sources.WHITE_BERYL_DEAD_LATER), alsoRows = remedies,
+        key = "reading.DeadTogether", source = Sources.WHITE_BERYL_DEAD_DEMON, also = listOf(Sources.WHITE_BERYL_DEAD_LATER), alsoRows = remedies, listsRites = true,
     )
 
     /** The deciding pebble of the hundred's column [kin] of [force], of colour [colour] (WB vol. 1, ch. 22, pp. 329–331). */
@@ -2642,7 +2658,7 @@ object Texts {
      */
     fun matchTogether(w: MatchWhole, remedies: List<String>): Reading = Reading(
         key = "reading.MatchTogether", arg = "reading.MatchTogether.${w.name}", source = Sources.WHITE_BERYL_MATCH_TOGETHER,
-        also = listOf(Sources.REMOVING_THE_TARNISH), alsoRows = remedies,
+        also = listOf(Sources.REMOVING_THE_TARNISH), alsoRows = remedies, listsRites = true,
     )
 
     /** The kind of spouse [k] an aspect makes (WB vol. 1, ch. 23, p. 355; *Removing the Tarnish*, reply 113). */
