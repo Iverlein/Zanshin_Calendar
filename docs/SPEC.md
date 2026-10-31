@@ -2572,7 +2572,9 @@ living practice; the calendar the shrines hand out with the 神宮大麻, the
 and correct the digests; an annotation the almanac has dropped is not
 revived from them (the expert, 2026-10-14; [sources/kyureki.md](sources/kyureki.md),
 *Her second answer*). The rules below come from modern digests of the old
-rules; which old text speaks first where they differ is ROADMAP K3.
+rules; the order of the texts where they differ is §8.1's (ROADMAP D8):
+the 暦林問答集 first for what it covers, the days as the printed almanac
+reckons them.
 
 ### 7.1 Rules
 
@@ -2648,7 +2650,7 @@ also counts 庚申 and 己巳 among the 選日; the app lists each day once, und
 | 暦注下段 | 天赦日, 大明日, 天恩日, 母倉日, 節徳日, 鬼宿日, 受死日, 十死日, 帰忌日, 血忌日, 天火日, 地火日, 往亡日, 歳下食, 重日, 復日 |
 | 選日 | 一粒万倍日, 不成就日 (by kyūreki month and day), 三隣亡, 十方暮, 八専 and its 間日, 大犯土, 小犯土 and their 間日, 天一天上 |
 | 縁日 | 寅の日, 巳の日, 己巳, 甲子, 庚申 |
-| Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch, as the 簠簋内伝 gives them (巻上「三箇悪日」, NDL pid 1911335, img. 20; koyomi8 その３ has the same table); needs a birth date |
+| Personal (暦注下段) | 大禍日・狼藉日・滅門日, only in the solar month of one's birth-year branch, everything to avoid («萬事不用»), as the 簠簋内伝 gives them (巻上「三箇悪日」, NDL pid 1911335, img. 20; koyomi8 その３ has the same table); needs a birth date |
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
 
@@ -2663,19 +2665,43 @@ table prints 九紫火星 under 六白金星's 金剋木; the row's heading and 
 row give 三碧木星 and 四緑木星 there, which the app follows. All 81 pairs are a
 test vector.
 
-**The lower band's own rules** (Japanese Wikipedia 暦注下段, read 2026-10-04;
-[sources/kyureki.md](sources/kyureki.md)). No source ranks one kind of
-annotation above another; within the lower band three rules act:
+**The readings of the 暦林問答集** (ROADMAP K3, D8; [sources/kyureki.md](sources/kyureki.md),
+*K3-R*). Where it has a section on an annotation the page shows, its
+reading is the one given, the digest's lists standing only where it names
+no works: 天赦日 (§33), 天恩日 (§32; its lists the digest's), 母倉日 (§34,
+every undertaking good; the days stay the printed almanac's 丑辰未戌 in
+autumn, where the old text has 丑未), 帰忌日 (§35: journeys, coming home,
+moving house, marriage), 血忌日 (§36: acupuncture and moxa, bloodshed),
+往亡日 (§42: long journeys, an army's setting out), 重日 and 復日 (§40–§41:
+no ill deed, the funeral, good works as the matter allows), 歳下食 (§51;
+its lists the digest's), 天一天上 with 日遊 (§53, §43: do not sweep the
+house), 土用 (§25: no earthworks), 社日 (§27) and the 恵方 (§7). The
+十二直's lists stay the modern ones and the 二十八宿's the later almanac's
+until the owner decides (D8's open points); the 三箇の悪日 are the
+簠簋内伝's, not the 暦林問答集's monthly days of the 宿曜経 (D8 point 2).
+
+**Ranking** (the 暦林問答集 §64, ROADMAP D8 point 3). One kind stands
+below another: the 宿曜経's annotations, of which the page shows the
+二十八宿, count their good days only where stem and branch are good too
+(«不并支干之吉者勿用之»). **Stem and branch are good** on a day when an
+annotation of the lower band or the 選日 other than 歳下食 names it good
+and none names it bad, the 縁日 not among them: a stated choice, the one
+§51's «支干吉并» already gives 歳下食 below; the 十二直, the 二十八宿 and the
+rokuyō are not read into it. On any other day the mansion's good list
+does not count and its avoid list stands (`RekichuDay.goodByStemAndBranch`,
+`DaySummary.held`). No other rule ranks the kinds; within the lower band
+three rules act:
 
 - 受死日 and 十死日 were printed alone in the lower band («他のものと重複して
   記載されず»). On either day the day's other 下段 annotations are set aside:
   they stay on the page, marked so, and do not count in the day in brief. The
   two never fall on one day. The 選日 and 縁日 are separate lists and stay.
-- 歳下食 is a light bad day: with another annotation naming the day good it
-  need not be kept, and with another bad day it weighs more. The app takes the
-  good and bad days of the lower band and the 選日 (not the 縁日); with a bad
-  one it is heavier, else with a good one it is set aside. The 1901 table's
-  condition (no other bad day) agrees on the bad side.
+- 歳下食 is a light bad day: where stem and branch are good it need not be
+  kept («支干吉并者用之無咎», the 暦林問答集 §51), and with another bad day it
+  weighs more. The app takes the good and bad days of the lower band and the
+  選日 (not the 縁日); with a bad one it is heavier, else with a good one it is
+  set aside. The 1901 table's condition (no other bad day) agrees on the bad
+  side.
 - 重日 and 復日 double what is done, good or bad; their tone is mixed.
 
 Left out, because their full rules cannot be recovered or need more than a date:
@@ -2707,15 +2733,17 @@ and adds no rule: the almanac gives no order, and the election gives none.
   disputed, with both sides shown; by none, blank, not neutral.
 - **The days given:** those named good, then apart those disputed, each in
   date order, with the annotations on each side; the days to avoid have no
-  list. No day is "best": no published rule ranks one kind of annotation
-  above another (§7.5), and the Qing 協紀辨方書's six grades are not used,
-  since nothing ties them to the Japanese almanac ([sources/kyureki.md](sources/kyureki.md)).
+  list. No day is "best": the one rank the texts give, §64's, decides only
+  whether the mansion's good list counts on a day (§7.5), and the Qing
+  協紀辨方書's six grades are not used, since nothing ties them to the
+  Japanese almanac ([sources/kyureki.md](sources/kyureki.md)).
 - **No hours:** the rokuyō's times of day name no work, and the hourly
   時下食 is left out (§7.5).
 - **Vector:** weddings from 1 October 2026 to the end of the 8th month,
-  each annotation by the rules of §7.5: good on 8/22, 8/23, 8/28 and 8/29;
-  disputed on 8/21 (天赦日 against 仏滅), 8/24, 8/26 (不成就日 among the
-  avoid side) and 8/30 (`KyurekiElectionTest`). On 2020–2039 every day's
+  each annotation by the rules of §7.5: good on 8/22, 8/23, 8/24, 8/28,
+  8/29 and 8/30; disputed on 8/21 (天赦日 against 仏滅) and 8/26 (不成就日
+  among the avoid side); 婁宿 on 8/22 and 胃宿 on 8/23 held by §64, 天火日
+  and 血忌日 leaving stem and branch not good (`KyurekiElectionTest`). On 2020–2039 every day's
   sides are its breakdown's, and with a 子-year birth date every work
   offered is named on some day. For a 辰-year birth, 大禍日 falls on the 辰
   month's 丑 days, which are its 十死日, so the lower band always sets it
@@ -3148,6 +3176,18 @@ name both. Sewing tents is a third, beside pitching them.
 
 The 2033 resolution: 暦文協, 2015-08-28 (§7.1). The birth-year rule of the
 三箇の悪日: the 簠簋内伝 on the NDL's scan, with koyomi8 (§7.5).
+
+**The 旧暦 page's order of texts** (the owner, D8, 2026-10-30): **the
+暦林問答集** (賀茂在方, 1414, the 群書類從 woodblock on the NDL's scan, pid
+14488380) speaks first for every annotation it has a section on; the
+modern digests (Japanese Wikipedia after 岡田・阿久根, koyomi8, Todan, the
+NAOJ) only where it is silent, as for the 六曜, the day's 九星 and most
+選日, and for the works where its section names none; the **簠簋内伝** for
+the 三箇の悪日 alone, its table and its "everything to avoid". One voice
+per reading, as on the Tibetan page. The days are reckoned as the printed
+almanac of today reckons them (母倉日's autumn), the wording taken from
+the old text; its §64 ranking applies (§7.5). The 1414 text's own monthly
+三箇悪日 of the 宿曜経 are not shown.
 
 ## 9. Test vectors
 
@@ -3748,11 +3788,14 @@ canvas "Zanshin Calendar — basic design".
   with the annotations that name it, the annotations by tone, the day mark, and
   for the owner the 三箇の悪日 and the 九星気学 relation, and the annotations
   set aside by the lower band's rules (§7.5) under the one that sets them
-  aside. It is a listing, never a verdict: no published rule ranks one kind of
-  annotation above another (下段 over 中段, 二十八宿 over 十二直), so the kinds
-  are not weighed, and where annotations disagree both sides are shown. A row
-  set aside says so ("set aside"), and its reading names what set it aside; a
-  heavier 歳下食 names the bad days that make it so.
+  aside, and the mansion whose good list §64 holds today under "Good side not
+  counted". It is a listing, never a verdict: beyond §64, which only holds
+  the mansion's good list where stem and branch are not good, no rule ranks
+  one kind of annotation above another (下段 over 中段), so the kinds are not
+  weighed, and where annotations disagree both sides are shown. A row set
+  aside says so ("set aside"), and its reading names what set it aside; a
+  heavier 歳下食 names the bad days that make it so; the 二十八宿 row held by
+  §64 says "good side not counted today", its details why.
 - **Solar term:** always shown — "秋分 · until 8 Oct"; highlighted
   on the day a new one begins. The box opens the term's sheet (ROADMAP
   K6, the owner's rule of 2026-10-14 that every row of this page opens a
