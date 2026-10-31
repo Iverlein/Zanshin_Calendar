@@ -992,9 +992,23 @@ relation's) and a whole date of death (`DeadReckoning`, core
   the triad, the fourth up and down, the progressed sign's demon cut, the
   nine-multiples, the grave-eye) and the aspects on a bad stage of rise
   and decline: where any holds, the time of death had come.
-- **The whole** (pp. 56–57): three or four of the four deciding pebbles
-  black, the life was spent; three or four white, an untimely death, a
-  harmful spirit carrying off one not due to die.
+- **Together** (ROADMAP R5, block 60, 2026-10-31;
+  [sources/verdicts.md](sources/verdicts.md), RD58), atop each dead: the
+  whole of the first examination (pp. 56–57), many black the life was
+  spent, many white an untimely death, a harmful spirit carrying off one
+  not due to die; "many" is three or four of the four deciding pebbles, a
+  stated choice, and where neither colour has three a line says the whole
+  falls on neither (WB reads no whole on two and two). Below it one
+  Remedy row gathers the Remedy rows of every reading the dead's view
+  shows (the spirits' rites, help by virtue, the provisions, strikes and
+  rites of the later examinations), each remedy once, in the view's order
+  (family `DeadTogether`, the thirty's points keeping their own). Not
+  laid: the time of death's general verdict over its twenty roots (the
+  notes, vol. 2, p. 503: the trigram, mewa and year, the four rises and
+  declines, two nine-eyes, five grave-eyes by aspect, the trigram's and
+  mewa's nine-eyes, the clan element, the year, month and day, counted
+  white and black into one pebble), since the view reckons only part of
+  the twenty; it joins the Together when they are built.
 - **The reason the death met** (the second examination, pp. 57–58, read
   on the scan; ROADMAP R2p; [sources/claims/dead-cause-outer.md](sources/claims/dead-cause-outer.md),
   [dead-cause-by-time.md](sources/claims/dead-cause-by-time.md),
@@ -1086,8 +1100,10 @@ on WB's eight its destiny comes out speckled.
 
 The screen (§10.11): "The dead" in the Reckonings list ("The time of
 death of 1 who have died", or what it needs); on it, for each relative who
-has died, a heading with the relation, the name and the dates, the whole
-where it holds ("The time of death · the life spent"), each aspect's
+has died, a heading with the relation, the name and the dates; under
+"Together" the whole where it holds ("The time of death · the life
+spent") or the line that it falls on neither, and "The remedies
+together"; under "Whether the time of death had come" each aspect's
 deciding pebble ("Vitality · black", "0 places white, 4 black"), its sheet
 listing each root's pebbles, or a line for a speckled one; under "The
 reason the death met" each white or black aspect's reason ("Reason by the
@@ -1148,7 +1164,8 @@ the page (`MomentReckoning`, core `tibetan/Moment.kt`; `Reckonings.moment`).
 
 The screen (§10.11): "The moment" in the Reckonings list ("Now: earth
 (ཁོན, khon) · mewa 9"); on it, the weekday, the lunar date, the month and
-the time since dawn, the time of day ("The time of day · late afternoon", or a line by night) and the hour's element ("The hour's element · water"),
+the time since dawn; under "Together" the fighting enemies, the wealth and
+"The remedies together"; under "The hour, the trigram and the mewa" the time of day ("The time of day · late afternoon", or a line by night) and the hour's element ("The hour's element · water"),
 the moment's trigram and mewa, each opening its reading, the mewa's place
 ("The mewa's place · 1 white"); under "The kin's places" a row for each
 place on the figure ("The forefathers · 3 blue", "west"); under "The
@@ -1350,6 +1367,21 @@ core `tibetan/Moment.kt`):
   a tie speckled (`MomentGates.fight`, family `MomentFight`). *Stated
   choices* (questions 424, 425): the moment's aspects fight, not the
   asker's; chapter 27's colours.
+- **Together** (ROADMAP R5, block 60, 2026-10-31; [verdicts.md](sources/verdicts.md),
+  RD58), atop the moment under its subtitle: with a person chosen and a
+  moment by day, the fighting enemies' verdict, the count that closes the
+  chapter (p. 172: "this is the time reckoning's own"), and the wealth's,
+  the one place whose verdict WB lays (p. 168: the asker's body and power
+  both rising on the moment and the moment cutting neither, "where those
+  two agree, lay the verdict"), the same rows as the gates' and the small
+  examinations' below; with no one chosen, or by night, a line saying
+  what the verdict needs. Then one Remedy row gathering the Remedy rows
+  of the time of day, the hour's element and the trigram (pp. 156–161),
+  each remedy once (family `MomentTogether`). *Stated choices*: no other
+  place's verdict joins it, since WB lays none by count (question 427);
+  ch. 30 turns no verdict into a rite, so none is added to the verdicts;
+  the mewa's spirit and the hour's power keep their rites in their own
+  rows, outside the three readings ROADMAP R5 names.
 - **Signs to watch** (pp. 144–151 and 170, read on the scan by RD59–RD61;
   `ObservedSigns`, family `MomentSign`): what is met rather than reckoned,
   as readings to be read against what was met, in fifteen groups: the
@@ -1553,9 +1585,39 @@ holds; the other parts are tested on days worked by hand.
   The pebble door, the sixteenth, fights the person's four against the
   sky year's: a black door is blocked. All of these are stated choices
   of a reckoning WB gives no worked example of.
-- **Not built:** the nine classes of the fifteen (p. 425; question 229:
-  a difference among fifteen pebbles of two colours is odd, yet WB names
-  a fourth and a sixth), the reckonings read off the board by the masters
+- **The nine classes** (ROADMAP R5, block 60, 2026-10-31; p. 425, the
+  notes, vol. 2, pp. 495–496; RD53, RD58; [claims/illness-classes-by-difference.md](sources/claims/illness-classes-by-difference.md)):
+  the white and the black of the fifteen counted, the pebble door left
+  out and a speckled pebble in neither colour (the notes, p. 495: the
+  speckled is counted neither outer nor inner), and the class named by how
+  many more of one colour there are: three, four, five or six more white
+  or black, or the two even, "three more white is like a third, four like
+  a fourth" (p. 496); each class with its kind (an illness of karma for a
+  third more white, of conditions for the rest) and its rites as a
+  Remedy row, as p. 425 gives them; the labels at the rites' ends («ནག་པོའི་དཀར»
+  and the like, [claims/illness-class-labels.md](sources/claims/illness-class-labels.md))
+  are not shown, the text not saying what they mean (`IllnessClass`,
+  `IllnessBoard.bodyClass`, family `IllnessClass`; `IllnessTest`).
+  *Stated choices*: the class is counted on the body's fifteen, since
+  p. 425 opens the classes on "the sick person's body pebbles very white"
+  and the notes gloss them after "the body's pebbles very white is not
+  good either", and no line says whose fifteen they are; a difference of
+  one, two, or seven and more WB names no class for (question 428), and
+  none is shown, a line saying so. On the board as built about half the
+  birth years of 1960–1990 reckoned in 2026 fall on such a difference.
+- **Together** (ROADMAP R5, block 60, 2026-10-31; [verdicts.md](sources/verdicts.md),
+  RD58), under "Fell ill at": the illness named by the element that is
+  most (p. 435); with the sick person chosen, the spirit the body's black
+  pebbles name (p. 425), the four plank-trees' verdicts (pp. 422–423) in
+  one row whose sheet holds the four, the blocked pebble doors (p. 419)
+  and the class (p. 425), each as the sections below reckon it; then one
+  Remedy row gathering the Remedy rows of every reading the view shows,
+  the class's rites with them, each remedy once (family
+  `IllnessTogether`). *Stated choice*: a starting point of the board
+  mostly white gives no remedy to the row, its rite answering a point
+  lost; the plank-trees' rites are WB's for each verdict, the mostly
+  white included, and join.
+- **Not built:** the reckonings read off the board by the masters
   (pp. 423–425), the verdict on death (p. 445), whose conditions name no
   time or count, the rites for the aspects in decline and in enemy rise
   (pp. 444, 448–449), which no pebble of the board says are met, and the
@@ -4399,7 +4461,13 @@ the readings are the tradition's, not medical advice.
   for an illness that came on on the shown day. Its first row, "Fell
   ill at", is the time, the present time to begin with, which opens a
   clock (before 05:00 the illness falls in the Tibetan day before), with
-  the Tibetan date under it. Then "The moment of falling ill": the
+  the Tibetan date under it. Under it "Together" (§5.9.8): the illness
+  named, then with a person chosen the spirit, "The four plank-trees"
+  with each aspect's verdict (its sheet the four), the blocked doors, a
+  line with the body's white and black and "The class · a fourth more
+  white" (or a line that the text names no class for the difference),
+  and "The remedies together"; with no one chosen a line saying what
+  the rest needs. Then "The moment of falling ill": the
   trigram, what it repays, its ransom and the rite of fleeing, the day
   animal, the mewa and the planet, each a row opening its reading; "The
   illness by five pebbles": the five drawn as elements, the split's

@@ -43,7 +43,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 22 | U19 Pinned works — built 2026-10-21 | S | The works one cares about first in the Works section, left by U6 as a later item | — |
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
-| 25 | R5 The Together everywhere WB sums up | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
+| 25 | R5 The Together everywhere WB sums up — built 2026-10-31 (block 60); the dead's twenty roots and q428's differences left | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
 
 ## Blocks
 
@@ -117,7 +117,7 @@ moves up as soon as it is unblocked.
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
 | <a id="block-58"></a>58 | [R4](#r) Combining the readings: each reckoning's verdicts, its sets read whole, what to do — the match's Together built 2026-10-22; open questions 184–185 answered 2026-10-22 (the hundred's board from KD vol. 3, pp. 716–718; no count of a child's conditions in any text) and the birth's Together built the same day, its twenty-one children not named; the year of age's Together built 2026-10-25 by D17 (the four classes gathered, its obstacles graded by Mipham's meetings), its household round waiting on question 258 | [RD18](#rd18), [RD19](#rd19), [RD20](#rd20), [RD21](#rd21), [RD23](#rd23), [RD24](#rd24), [RD25](#rd25), [RD26](#rd26), [RD27](#rd27), [RD28](#rd28), [RD29](#rd29); [RD22](#rd22) with H2 | [31](#block-31) | Build block 58: R4, a Together part atop each reckoning built, from RD18–RD28: the verdicts, the sets, whose aspect and which part of life, the rule for the whole and the remedies gathered. |
 | <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
-| <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
+| <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness — built 2026-10-31; the dead's general verdict over its twenty roots and a class for q428's differences left | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
 
 ## Readings
 
@@ -3740,7 +3740,9 @@ show them too. What WB has and what the readings found is in
   Reckonings' row and view; the clock, 04:14 falling in the 14th, the
   Tibetan day before. No release build: the new enums are top-level,
   kept by `-keepnames enum zanshin.core.**`.
-- **Left out, and why.** The nine classes of the fifteen (question 229);
+- **Left out, and why.** The nine classes of the fifteen (question 229;
+  built with R5, block 60, 2026-10-31, but for the differences of
+  question 428);
   the masters' reckonings read off the board (pp. 423–425: the golden
   bridges, the turquoise juniper, the wish-tree, the houses of glory and
   misfortune, the death- and life-eye, the boundary), whose rules name
@@ -4637,6 +4639,42 @@ groups it shows (`tools/emulator/store_shots.py`).
   - **Done when** as R2… above, with each *Together*'s rule cited in the
     SPEC section of its reckoning, no number WB does not count, the
     sections below unchanged.
+  - **Built 2026-10-31** (block 60, SPEC §5.9.4, §5.9.5, §5.9.8, §10.10).
+    *The moment*: a Together under the subtitle with, for the person
+    chosen by day, the fighting enemies' verdict (p. 172) and the wealth's
+    (p. 168), the same rows as below, and one Remedy row gathering the time
+    of day's, the hour's element's and the trigram's (family
+    `MomentTogether`); no other place's verdict, WB laying none by count
+    (question 427), and no rite added. *The dead*: the whole (pp. 56–57)
+    moved into a Together atop each dead, a line where neither colour has
+    three of the four, and one Remedy row gathering every reading's rites
+    and provisions shown for that dead (family `DeadTogether`). *The
+    illness*: a Together under "Fell ill at" with the illness named
+    (p. 435), the spirit by the body's black (p. 425), the four
+    plank-trees in one row (pp. 422–423), the blocked doors (p. 419) and
+    the nine classes (p. 425; the notes, p. 496), counted on the body's
+    fifteen (a stated choice) by the difference of white and black, a
+    speckled pebble in neither, each class with its rites; one Remedy row
+    gathering the view's (a starting point mostly white left out)
+    (families `IllnessClass`, `IllnessTogether`; `IllnessClass.of`,
+    `IllnessBoard.bodyClass`). Checked: `IllnessTest` (the nine classes
+    by the notes' examples and the even and unread differences),
+    `CatalogTest` (the four families in the shape, item R5),
+    `:app:testDebugUnitTest`, the emulator in English and Russian (a fire
+    dragon man of 1976 at 18:43 on 2026-10-31: 18 white and 6 black, the
+    wealth not there, the trigram's rite gathered; a father who died
+    2001-07-10, an untimely death, and one of 2001-05-10 and a mother of
+    2019-11-02 on neither whole, their rites gathered; the illness at
+    that hour with its four plank-trees, two blocked doors and a fourth
+    more white of the body's eight white and four black; a birth of 1965
+    with six and four, no class; no one chosen, the line asking for the
+    sick person). **Left**: the dead's general verdict over its twenty
+    roots (the notes, p. 503), most of which the view does not reckon
+    (the nine-eyes, the five grave-eyes by aspect, the clan element), and
+    with it the thirteenth point's and the rebirth's verdicts; a class for
+    a difference of one, two, or seven and more (question 428), which
+    about half the birth years reckoned in 2026 fall on; the meadow's
+    ornament and Sprugtön's reckoning, not built.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
