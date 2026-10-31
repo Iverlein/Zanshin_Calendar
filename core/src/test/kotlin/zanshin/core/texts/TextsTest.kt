@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
+import zanshin.core.kyureki.HasshoGod
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.Ehou
 import zanshin.core.kyureki.KyuSei
@@ -37,7 +38,7 @@ import zanshin.core.tibetan.YearStanding
 /** SPEC §8.1: nothing is shown without a published source. */
 class TextsTest {
     private val all = listOf(
-        Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM, Texts.EHOU,
+        Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM, Texts.EHOU, Texts.YEAR_GOD,
         Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.PERSONAL_DAY, Texts.KIGAKU, Texts.PEBBLES,
         Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE, Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM,
         Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY, Texts.TRIGRAM, Texts.GREAT_COMBINATION, Texts.COMBINATION_DAY, Texts.GTSUG_LAG_DAY, Texts.RAHU, Texts.RAHU_GENERAL, Texts.EARTH_LORD, Texts.BLA_MKHYEN,
@@ -63,6 +64,7 @@ class TextsTest {
         complete(Senjitsu.entries, Texts.SENJITSU)
         complete(Zassetsu.entries, Texts.ZASSETSU)
         complete(SolarTerm.entries, Texts.SOLAR_TERM)
+        complete(HasshoGod.entries, Texts.YEAR_GOD)
         complete(Ehou.entries, Texts.EHOU)
         complete(ElementPair.entries, Texts.ELEMENT_PAIR)
         complete(SpecialDay.entries, Texts.SPECIAL_DAY)

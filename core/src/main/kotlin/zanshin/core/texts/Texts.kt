@@ -6,6 +6,7 @@ package zanshin.core.texts
 
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.Ehou
+import zanshin.core.kyureki.HasshoGod
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
 import zanshin.core.kyureki.Senjitsu
@@ -379,6 +380,8 @@ object Sources {
     val WP_KYUSEI = Source("九星", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星")
     val WP_KIGAKU = Source("九星気学", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/九星気学")
     val WP_TOSHITOKU = Source("歳徳神", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/歳徳神")
+    /** The 八将神's directions by the year where the 暦林問答集 gives no rule (ROADMAP K5, RD92); facts only. */
+    val WP_HASSHO = Source("八将神", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/八将神")
     val WP_OBON = Source("お盆", "Japanese Wikipedia", "https://ja.wikipedia.org/wiki/お盆")
     /** The 三箇の悪日 by birth year: the classical text, read on the NDL scan, and koyomi8's table of it. */
     val FUKI_NAIDEN = Source(
@@ -912,6 +915,20 @@ object Texts {
     val SOLAR_TERM: Map<SolarTerm, Reading> = keyed(
         *SolarTerm.entries.map {
             it to Reading(source = Sources.NAOJ_SEKKI, also = listOf(Sources.KOYOMI_BINRAN, Sources.NAOJ_SEKKI_WIKI, Sources.KOYOMI8_SEKKI, Sources.NAOJ_ZASSETSU))
+        }.toTypedArray(),
+    )
+
+    /**
+     * The year's eight direction gods (ROADMAP K5): what the 暦林問答集 says is avoided towards each and allowed, its
+     * star as Also called (§6, §8–§14). Their directions where it gives no rule are the printed almanac's, after
+     * Japanese Wikipedia (`YearGods`); no lists, since the works are barred towards a direction, not on a day.
+     */
+    val YEAR_GOD: Map<HasshoGod, Reading> = keyed(
+        *HasshoGod.entries.map {
+            it to Reading(
+                source = Sources.RYAKURIN,
+                also = if (it in setOf(HasshoGod.TAISAI, HasshoGod.TAION, HasshoGod.SAIHA)) emptyList() else listOf(Sources.WP_HASSHO),
+            )
         }.toTypedArray(),
     )
 

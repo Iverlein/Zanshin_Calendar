@@ -10,6 +10,8 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.Ehou
+import zanshin.core.kyureki.HasshoGod
+import zanshin.core.kyureki.SaihaWeight
 import zanshin.core.kyureki.Gogyo
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
@@ -153,7 +155,7 @@ class CatalogTest {
             IndianElement.entries, Weekday.entries, Mansion.entries, Yoga.entries, Karana.entries, ElementPair.entries,
             Trigram.entries, SpecialDay.entries, TibetanFestival.entries, PersonalDay.entries, Force.entries, Kinship.entries,
             Rokuyo.entries, SolarTerm.entries, Gogyo.entries, Choku.entries, Shuku.entries, KyuSei.entries,
-            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
+            StarRelation.entries, Senjitsu.entries, Zassetsu.entries, Ehou.entries, HasshoGod.entries, SaihaWeight.entries, Activity.entries, ActivityFamily.entries, License.entries, ElectionalFactor.entries, DayFactor.entries, HundredFeet.Holder.entries, GreatCombination.entries, CombinationDay.entries,
             LunarDayClass.entries, PersonalMansion.entries, OwnDay.entries, LetterElement.entries, SenseObject.entries, LifeStage.entries, Link.entries,
             BasicSign.entries, Sector.entries, HarshYear.entries, LogMenPlace.entries, SmeBaObstacle.entries, KinObstacle.entries, ReadingRow.entries,
             ElementQuarter.entries, GraveMansion.entries, Humour.entries, MedicalSeason.entries, LaHour.entries,
@@ -185,7 +187,7 @@ class CatalogTest {
     @Test
     fun `every reading's text is in the catalog`() {
         val readings = listOf(
-            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM,
+            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM, Texts.YEAR_GOD,
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
             Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA,
@@ -509,7 +511,7 @@ class CatalogTest {
     /** Every reading the engines can show, for the shape's checks: the readings above and those shown only by the page. */
     private val allReadings: List<Reading> by lazy {
         listOf(
-            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM,
+            Texts.ROKUYO, Texts.CHOKU, Texts.SHUKU, Texts.KYUSEI, Texts.KIGAKU, Texts.SENJITSU, Texts.ZASSETSU, Texts.SOLAR_TERM, Texts.YEAR_GOD,
             Texts.EHOU, Texts.ELEMENT_PAIR, Texts.SPECIAL_DAY, Texts.TIBETAN_FESTIVAL, Texts.JAPANESE_FESTIVAL,
             Texts.PERSONAL_DAY, Texts.PEBBLES, Texts.MANSION, Texts.ELECTIONAL_WEEKDAY, Texts.ELECTIONAL_DATE,
             Texts.ELECTIONAL_ANIMAL, Texts.ELECTIONAL_TRIGRAM, Texts.YOGA, Texts.KARANA, Texts.PERSONAL_MANSION, Texts.WEEKDAY,
@@ -733,6 +735,8 @@ class CatalogTest {
             "R3" to listOf("MatchAspect", "MatchDestiny", "MatchNiSha", "BadYear", "MatchSameKind", "MatchPlanet", "MatchSameAnimal", "MatchSameElement", "MatchPairList", "MatchPairLine", "MatchMewa", "MatchTrigram", "MatchTrigramChildren", "MatchHandWaver", "MatchRiseDecline", "MatchParentStage", "MewaPathYear", "MatchTrigramLine", "MatchHidden", "MatchDeepHidden", "MatchSiblings", "BadYearPebble", "SpouseKind", "MatchTogether"),
             // The 旧暦 page's solar terms (K6, block 56), the one 旧暦 family written in the shape: no allowance.
             "K6" to listOf("SolarTerm"),
+            // The year's eight direction gods (K5, block 54), written in the shape: no allowance.
+            "K5" to listOf("HasshoGod"),
             // The Health screen's own readings (block 26), written in the shape: no allowance.
             "H1" to listOf("ElementQuarter", "GraveMansion", "LaElement", "LaHours", "SevenRedYear", "Humour", "MedicalSeason"),
             "H2" to listOf("ElementIllness", "IllnessTrigram", "IllnessDay", "IllnessMewa", "IllnessSpirit", "IllnessSplit", "IllnessPebble", "IllnessPlanet", "IllnessTrigramCause", "IllnessTrigramRansom", "IllnessFlee", "IllnessReach", "IllnessYear", "IllnessRansom", "IllnessStage", "IllnessHelper", "IllnessPoint", "IllnessDoor", "IllnessTree", "IllnessBlack"),
