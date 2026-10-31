@@ -1141,3 +1141,8 @@ Searched and found wanting, so not to be repeated:
   - 日遊神's course outside the house in a Japanese text: not in GR §43, in the 頭書長暦 or 簾中抄 as 古事類苑 prints them, nor in the three Meiji almanac-books (pid 760755, 759984, 760747); the NDL full-text search for 日遊所在 (2026-10-31) found, besides these, only diaries and modern studies, all on 日遊 in the house at a birth.
   - 日遊神 on koyomi8.com: not named on 「暦注の説明（その２）」, 「方塞がりと方違え」 or 「天一天上と塞がり」; a site search returned no page for it.
   - 天一, 日遊, 方違 on the NAOJ 暦Wiki: not on the 「暦注」 page; the wiki's own search returned only the front page.
+- **RD93 (2026-10-31)** (RD93, 2026-10-31):
+  - The NDL catalogue (`ndl.py`, 2026-10-31) for 金神, 金神七殺, 金神遊行, 大金神, 金神方, «金神 方位 暦», and 金神 with 簠簋, 拾芥抄, 陰陽雑書, 二中暦, 暦林, 群書類従, 古事類苑, 方忌, 尅: no digitised work older than the 簠簋内伝 of 1632; 『安部懐中伝暦』 (1642, record R100000094-I212793) has no pid, not read; 『大将軍則覧并修法篇金神七殺則覧並修法篇』 (峰本天籟, manuscript, no date), 『文政新刻金神方位重寶記』 (松樹菴, 1824) and 『歳々明方金神八將神方位早繰』 (no date) have no pid, not read; the rest are Meiji almanacs and 方鑑 books.
+  - The 暦林問答集: 金神, 七殺, 七煞 in the NDL's machine text of pid 2559255 and 2533201 (pid 14488380 is refused by the NDL Lab API); none.
+  - The NAOJ 暦Wiki: no page on 金神 (DuckDuckGo, site eco.mtk.nao.ac.jp).
+  - Not searched: the rest of the 簠簋内伝 (巻一 after §9, 巻二–五) for further mentions of 金神.

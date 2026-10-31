@@ -86,7 +86,7 @@ each column labelled with the birth year it applies to (寅人, 卯人, 辰人 �
 koyomi8's table and the app's, and the birth-year reading is printed in
 the text, not koyomi8's guess, so the app's reading states it without
 koyomi8's hedge «らしい». Two older printings, read on the NDL's scans on 2026-10-04:
-the 寛政12 (1800) printing (pid 1901824, img. 20,
+the printing the NDL catalogue dates «[18--]» (pid 1901824, img. 20; once given here as 寛政12, 1800, which the catalogue does not say: RD93),
 https://dl.ndl.go.jp/pid/1901824/1/20) has the same table, headed 正節切,
 with the small labels 寅人 … 丑人 over the columns and the same three rows;
 the 寛永9 (1632) edition (pid 2533009, img. 26,
@@ -94,7 +94,7 @@ https://dl.ndl.go.jp/pid/2533009/1/26) has the same three rows, marked 正
 for the solar months, but no birth-year labels on the columns. Its top
 margin carries a handwritten note giving 狼藉日 by groups of birth years
 (寅午戌年人 …), a reader's addition, not the print. So the birth-year
-reading is printed at least from 1800; the oldest printing seen gives the
+reading is printed at least from the nineteenth century; the oldest printing seen gives the
 table by solar month alone.
 
 The text adds that the three days stand for the three gods of poverty,
@@ -229,7 +229,7 @@ checked here. What follows from it is ROADMAP K1–K5.
    (above), so the app's 閏11月 is the society's recommendation, as she asks.
 2. **三箇の悪日, personal or general.** "Needs searching." — Found since
    the dossier (above): the birth-year reading is printed in the 簠簋内伝
-   from 1800 at least, by solar month alone in the 1632 edition. But see
+   from the nineteenth century at least, by solar month alone in the 1632 edition. But see
    6: she would not take the 簠簋内伝 as a source.
 3. **The year boundary of the year's 干支.** Needs checking; in China it
    is usually given from 旧正月.
@@ -958,8 +958,8 @@ above):
   birth year. It knows the three days only as the 宿曜經's "three bad
   days in each month", with the harm each brings.
 - Its writer limits them to Buddhist matters and calls them harmless for
-  everything else. The 簠簋内伝 (1632, 1800, 1919 printings) says they are
-  used for nothing («萬事不用») and, from 1800, binds each column to a
+  everything else. The 簠簋内伝 (1632, [18--] and 1919 printings) says they are
+  used for nothing («萬事不用») and, from the [18--] printing, binds each column to a
   birth year.
 - So the 1414 text cannot confirm the personal reading; it is a third
   view of the same days: a monthly sutra rule, of weight only for the
@@ -2951,21 +2951,21 @@ later texts name taking earth, building, storehouses and halls.
 
 ### Open
 
-- Question: Which of the 簠簋内伝's two year tables (§5, or §6, "which
+- Question 497 ([q0497](questions/q0497.md)): Which of the 簠簋内伝's two year tables (§5, or §6, "which
   appears in the calendars") did the printed almanac of the Edo period
   follow, and where does today's 乙庚 = 辰巳 alone come from, a row
   neither table has?
-- Question: Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉, or does some
+- Question 498 ([q0498](questions/q0498.md)): Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉, or does some
   printed almanac give it?
-- Question: §7 (by the 寅 days) and §8 (by the seasons) can put the 金神
+- Question 499 ([q0499](questions/q0499.md)): §7 (by the 寅 days) and §8 (by the seasons) can put the 金神
   in two places on the same day (koyomi8's example, a 丙午 day in
   summer). Does the 簠簋内伝 or any old almanac say which wins?
-- Question: The 1919 printing says of the 戊寅 days in the centre that
+- Question 500 ([q0500](questions/q0500.md)): The 1919 printing says of the 戊寅 days in the centre that
   the world's "all ten directions blocked" is wrong (absent in 1632).
   Does that mean every outer direction is free on those five days?
-- Question: What is the 「假名暦略註」 KJ quotes, and is it 塙保己一's
+- Question 501 ([q0501](questions/q0501.md)): What is the 「假名暦略註」 KJ quotes, and is it 塙保己一's
   『假名暦本名頒暦畧註』 (1806)?
-- Question: Does the paper 高島暦 (D12) print the 金神's year directions
+- Question 502 ([q0502](questions/q0502.md)): Does the paper 高島暦 (D12) print the 金神's year directions
   with §5's, §6's or the blended table, and does it print the 遊行 and the
   間日?
 

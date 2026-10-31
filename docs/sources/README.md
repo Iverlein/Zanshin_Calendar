@@ -710,6 +710,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | open; cites — |
 | [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | open; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
+| [questions/q0497.md](questions/q0497.md) | question q497 | Which of the 簠簋内伝's two 金神 year tables did the Edo almanac follow | open; cites — |
+| [questions/q0498.md](questions/q0498.md) | question q498 | Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉 | open; cites — |
+| [questions/q0499.md](questions/q0499.md) | question q499 | When the 金神's two 遊行 meet on one day, which wins | open; cites — |
+| [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | open; cites — |
+| [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | open; cites — |
+| [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
 
 <!-- end pool index -->
 
