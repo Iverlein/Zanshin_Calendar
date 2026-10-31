@@ -312,6 +312,13 @@ fun DaySummarySheet(
                 }
             }
 
+            if (s.held.isNotEmpty()) {
+                Block(stringResource(R.string.brief_held)) {
+                    Text(stringResource(R.string.brief_held_why), style = body.copy(fontSize = 14.sp, color = Palette.muted))
+                    Terms(s.held, small = true)
+                }
+            }
+
             if (s.personal.isNotEmpty() || s.affinity != null) {
                 Block(stringResource(R.string.brief_for_you)) {
                     if (s.verdict != null) {

@@ -248,7 +248,7 @@ fun KyurekiPage(
 
         SectionTitle(stringResource(R.string.section_shuku))
         Column {
-            AnnotationRow(shukuAnnotation(rk.shuku, labels)) { sheet = it }
+            AnnotationRow(shukuAnnotation(rk.shuku, rk, labels)) { sheet = it }
         }
 
         SenjitsuSection(stringResource(R.string.section_kagedan), rk, Band.KAGEDAN, labels) { sheet = it }
@@ -385,9 +385,20 @@ private fun branchRow(branch: Int, labels: Labels) =
 private fun chokuAnnotation(c: Choku, labels: Labels) =
     Annotation(c.kanji, labels.string(R.string.kyu_choku_gloss, c.reading, c.english), c.tone, Texts.CHOKU[c], diagram = { DiagramFrame { ChokuDial(c, 240.dp) } })
 
-private fun shukuAnnotation(s: Shuku, labels: Labels): Annotation {
+/**
+ * The day's mansion; its good list does not count where stem and branch are not good (SPEC §7.5, the
+ * 暦林問答集 §64), and the row says so.
+ */
+private fun shukuAnnotation(s: Shuku, rk: RekichuDay, labels: Labels): Annotation {
     val reading = Texts.SHUKU[s]
-    return Annotation("${s.kanji}宿", labels.string(R.string.kyu_shuku_gloss, s.reading, s.english), toneOf(reading), reading, diagram = { DiagramFrame { ShukuRing(s, 280.dp) } })
+    val gloss = labels.string(R.string.kyu_shuku_gloss, s.reading, s.english)
+    val held = !rk.goodByStemAndBranch && reading?.goodKeys?.isNotEmpty() == true
+    return Annotation(
+        "${s.kanji}宿", gloss, toneOf(reading), reading,
+        subtitle = if (held) labels.string(R.string.kyu_shuku_held, gloss) else null,
+        details = if (held) listOf(labels.string(R.string.detail_shuku_held) to labels.string(R.string.detail_shuku_held_why)) else emptyList(),
+        diagram = { DiagramFrame { ShukuRing(s, 280.dp) } },
+    )
 }
 
 private fun senjitsuAnnotation(s: Senjitsu) = Annotation(s.kanji, "${s.reading} — ${s.english}", s.tone, Texts.SENJITSU[s])
