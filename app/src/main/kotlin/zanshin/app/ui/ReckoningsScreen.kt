@@ -43,6 +43,7 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.Circles
+import zanshin.core.tibetan.SmallReckonings
 import zanshin.core.tibetan.Thirty
 import zanshin.core.tibetan.MomentReckoning
 import zanshin.core.tibetan.PebbleColour
@@ -78,6 +79,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
             Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
+            Reckoning.SMALL -> SmallView(person, shownYear, onYear = { shownYear = it }, onPeople, back, open)
             Reckoning.MOMENT -> MomentView(person, zone, onPeople, back, open)
             Reckoning.ILLNESS -> IllnessView(person, zone, onPeople, back, open)
         }
@@ -181,6 +183,16 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.SMALL -> {
+                val age = YearOfLife.age(Reckonings.birthYear(person), year)
+                val cut = SmallReckonings.startingPoints(Reckonings.birthSign(person), age).sumOf { it.cut.size }
+                ScreenLinkRow(
+                    stringResource(R.string.small_title),
+                    labels.string(R.string.reckonings_small_subtitle, labels.ordinal(age), cut),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.DEAD -> {
                 val n = Reckonings.dead(person).count { it.second != null }
                 ScreenLinkRow(
@@ -234,6 +246,31 @@ private fun CirclesScreen(person: Person?, onPeople: () -> Unit, onBack: () -> U
         val birth = Reckonings.birthSign(person)
         val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
         CirclesView(person, birth, age, remember(person, age) { Circles.all(birth, age) }, onOpen)
+    }
+}
+
+/** Ch. 27's small reckonings (SPEC §5.9.9, ROADMAP R6) of [person] in the Tibetan year [year], stepped a year at a time from their first. */
+@Composable
+private fun SmallView(person: Person?, year: Int, onYear: (Int) -> Unit, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val sign = YearOfLife.yearSign(year)
+    Header(
+        stringResource(R.string.small_title),
+        labels.string(R.string.reckonings_year_header, labels.string(R.string.element_animal, gloss(sign.element), gloss(sign.animal)), year, year + 1),
+        onBack,
+    ) {
+        if (person != null) {
+            val first = Reckonings.birthYear(person)
+            IconButton(onClick = { onYear(year - 1) }, enabled = year > first) {
+                Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.reckonings_year_before), tint = if (year > first) Palette.muted else Palette.faint)
+            }
+            IconButton(onClick = { onYear(year + 1) }) {
+                Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.reckonings_year_after), tint = Palette.muted)
+            }
+        }
+    }
+    Body {
+        if (person == null) NoPerson(onPeople) else SmallReckoningsView(person, year, onOpen)
     }
 }
 
