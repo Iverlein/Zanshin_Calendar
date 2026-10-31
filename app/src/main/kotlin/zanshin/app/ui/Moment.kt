@@ -4,6 +4,11 @@
 
 package zanshin.app.ui
 
+import zanshin.app.Reckonings
+import zanshin.core.texts.sharedTone
+import zanshin.core.tibetan.AskingSign
+import zanshin.core.tibetan.AbroadMeet
+import zanshin.core.tibetan.Asking
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
@@ -143,6 +148,7 @@ fun MomentReckoningView(moment: Pair<TibetanDay, Int>, person: Person?, onPeople
         person?.let { LifeParts(it, mewa, onOpen) }
         AskerPlaces(day, minutes, person, onPeople, onOpen)
         ThreeMewa(day, onOpen)
+        person?.let { AskingSection(day, minutes, it, onOpen) }
         ObservedSignsSection(onOpen)
         Text(stringResource(R.string.moment_note), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
     }
@@ -541,4 +547,68 @@ private fun ObservedSignsSection(onOpen: (Annotation) -> Unit) {
             onOpen,
         )
     }
+}
+
+/**
+ * Ch. 27's reckonings of the time of asking (SPEC §5.9.5, ROADMAP R8) for [person]: Brahmā's month for one gone abroad,
+ * each aspect met by the month of asking with the month's own element, then the signs the month, the date and, by day,
+ * the hour show against them (pp. 13–14, 19).
+ */
+@Composable
+private fun AskingSection(day: TibetanDay, minutes: Int, person: Person, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val signs = Forces.signs(day)
+    val birth = Reckonings.birthSign(person)
+    fun name(s: zanshin.core.tibetan.Sign) = labels.string(R.string.element_animal, gloss(s.element), gloss(s.animal))
+    Section(stringResource(R.string.asking_abroad_section))
+    val aspects = Asking.abroad(birth, signs.month)
+    val tone = { m: AbroadMeet ->
+        when (m) {
+            AbroadMeet.CUT, AbroadMeet.EMPTY -> Tone.BAD
+            AbroadMeet.FRIEND, AbroadMeet.MOTHER -> Tone.GOOD
+            AbroadMeet.SAME -> Tone.MIXED
+        }
+    }
+    val parts = aspects.map { a ->
+        Annotation(
+            title = labels.string(R.string.asking_aspect_title, gloss(a.force).replaceFirstChar(Char::uppercase), labels.string(when (a.meet) {
+                AbroadMeet.CUT -> R.string.asking_meet_cut
+                AbroadMeet.FRIEND -> R.string.asking_meet_friend
+                AbroadMeet.MOTHER -> R.string.asking_meet_mother
+                AbroadMeet.EMPTY -> R.string.asking_meet_empty
+                AbroadMeet.SAME -> R.string.asking_meet_same
+            })),
+            english = labels.string(R.string.asking_aspect_line, gloss(birth.forces[a.force], "inText"), gloss(signs.month.element, "inText")),
+            tone = tone(a.meet), reading = Texts.abroad(a.key), titleIsKanji = false,
+        )
+    } + Annotation(
+        title = labels.string(R.string.asking_month_title, gloss(signs.month.element, "inText")),
+        english = name(signs.month), tone = Tone.NEUTRAL, reading = Texts.abroad("MONTH.${signs.month.element.name}"), titleIsKanji = false,
+    )
+    AnnotationRow(
+        Annotation(
+            title = stringResource(R.string.asking_abroad_title),
+            english = labels.string(R.string.asking_abroad_line, name(signs.month)),
+            tone = sharedTone(parts.dropLast(1).map { it.tone }),
+            reading = null, titleIsKanji = false, parts = parts,
+        ),
+        onOpen,
+    )
+    val hour = MomentPlaces.sign(signs.date.element, minutes)
+    val found = Asking.signs(birth, signs.month, signs.date, hour ?: zanshin.core.tibetan.Sign(signs.date.element, zanshin.core.tibetan.Animal.MOUSE))
+        .filter { hour != null || it == AskingSign.DEMONS_DOOR }
+    Section(stringResource(R.string.asking_signs_section))
+    found.forEach { sgn ->
+        AnnotationRow(
+            Annotation(
+                title = sgn.english.replaceFirstChar(Char::uppercase),
+                english = labels.string(R.string.asking_signs_line, name(signs.month), name(signs.date), hour?.let { name(it) } ?: "—"),
+                tone = if (sgn == AskingSign.GOAT_HORN_GOOD) Tone.GOOD else Tone.BAD,
+                reading = Texts.askingSign(sgn), titleIsKanji = false,
+            ),
+            onOpen,
+        )
+    }
+    if (found.isEmpty()) Text(stringResource(R.string.asking_signs_none), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
+    if (hour == null) Text(stringResource(R.string.asking_signs_night), style = body.copy(fontSize = 13.sp, color = Palette.muted, lineHeight = 19.sp))
 }
