@@ -697,6 +697,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | open; cites wb.2:p291-294 |
+| [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | open; cites — |
+| [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | open; cites — |
+| [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | open; cites — |
+| [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | open; cites — |
+| [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | open; cites — |
+| [questions/q0489.md](questions/q0489.md) | question q489 | The 歳破 and livestock: forbidden or good | open; cites — |
+| [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | open; cites — |
+| [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | open; cites — |
 
 <!-- end pool index -->
 

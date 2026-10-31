@@ -1131,3 +1131,8 @@ Searched and found wanting, so not to be repeated:
   - The verb after «ཡ་ཐེམ» on p. 294 (I3CN5029 img. 300, l. 7, at 7×; I1KG12907 img. 302 at 12×, 2026-10-28): a blot with sa on top; «སྤྲས» not told from «སྦས».
   - The Sde-dge print (WB2, I1KG12740 img. 408) as a third witness for p. 282 (2026-10-28): the scan carves the letters at about ten pixels, «ཧེ» not told from «དེ» at 5×; its etext is garbled on the line and has no hit for «བུད་མེད་བུས», «བྲང་ཤུལ» or «ཡ་ཐེམ་སྦས/སྤྲས».
   - «བྲང་ཤུལ» as one word (Steinert's public dictionaries, 64 sets, and WB's two etext volumes, 2026-10-28): no headword; only on p. 294; «ཁྱི་སྤྱང» elsewhere only in vol. 1 etext img. 284, which does not decide one animal or two.
+- **RD92 (2026-10-31)** (RD92, 2026-10-31):
+  - The NAOJ (2026-10-31, in the browser): the 暦Wiki's page list has no page on the 八将神, the 方位神 or any year direction; its 「暦注」 page names only the three bands; the こよみ用語解説 index has nothing on directions.
+  - koyomi8.com (2026-10-31): the 暦注計算 page, its three 「暦注の説明」 pages, the 「暦と天文の雑学」 index and the 恵方 article have nothing on the 八将神; its 方位神 articles (金神, 金神の間日, 2009-05-28/29) name them without directions.
+  - rekichu.com, takao-hospital.net/koyomi and 神宮館's 「運勢のページ」 (2026-10-31): nothing on the 八将神; the 高島暦 令和8年's text is not online (Kinokuniya lists its contents only).
+  - The 暦林問答集 §6, §8–§15 (GR img. 11–17, MS img. 11–15): no stem rule for any of the eight, no anchor year for the 大將軍, no branch rule for the 歳殺, no start of the year, no 遊行 but the 大將軍's (§54).

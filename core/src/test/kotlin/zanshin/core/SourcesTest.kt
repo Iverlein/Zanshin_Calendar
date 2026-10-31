@@ -18,6 +18,8 @@ class SourcesTest {
     private val index = File(sources, "README.md").readText()
     private val roadmap = File("../docs/ROADMAP.md").readText()
     private val tibetan = Regex("[ༀ-࿿]")
+    /** The 旧暦 readings quote Japanese texts: their passages are in kanji, not Tibetan script. */
+    private val kanji = Regex("[一-鿿]")
 
     private data class Reading(val id: String, val done: Boolean, val files: List<Pair<String, Boolean>>)
 
@@ -59,7 +61,7 @@ class SourcesTest {
                 assertTrue(file.exists(), "${r.id} is done, but $name does not exist")
                 val text = file.readText()
                 assertTrue(Regex("""\b${r.id}\b""").containsMatchIn(text), "${r.id} is done, but $name does not name it")
-                assertTrue(tibetan.containsMatchIn(text), "${r.id} is done, but $name holds no Tibetan")
+                assertTrue(tibetan.containsMatchIn(text) || name == "kyureki.md" && kanji.containsMatchIn(text), "${r.id} is done, but $name holds no passage in its script")
             }
         }
     }

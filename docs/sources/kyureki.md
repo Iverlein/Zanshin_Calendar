@@ -2603,35 +2603,35 @@ quotes; Wikipedia's notes):
 
 ### Open
 
-- Question: Which years put the 大將軍 in which 仲? The 暦林問答集 (§8,
+- Question 484 ([q0484](questions/q0484.md)): Which years put the 大將軍 in which 仲? The 暦林問答集 (§8,
   §54) gives four 仲 and three years in each, with no anchor; the modern
   table (亥子丑 west, 寅卯辰 north, 巳午未 east, 申酉戌 south) is the
   digests'. Which old text gives the assignment?
-- Question: Which old text gives the 歳殺's branch by the year (the modern
+- Question 485 ([q0485](questions/q0485.md)): Which old text gives the 歳殺's branch by the year (the modern
   申子辰 → 未, 巳酉丑 → 辰, 寅午戌 → 丑, 亥卯未 → 戌)? The 暦林問答集 §12 gives
   only that it moves among 丑未辰戌.
-- Question: Is the 黄幡, "the grave of the 大歳" (§13), the grave of the
+- Question 486 ([q0486](questions/q0486.md)): Is the 黄幡, "the grave of the 大歳" (§13), the grave of the
   year's triad (as the modern table has it) or of the year branch's own
   agent? The 暦林問答集 states neither; §10 and §46 read together give the
   triad's.
-- Question: The 暦林問答集 places the 歳刑 in a whole quarter by the triad
+- Question 487 ([q0487](questions/q0487.md)): The 暦林問答集 places the 歳刑 in a whole quarter by the triad
   (§10); the modern table in one branch of it. Does an old text give the
   single branch for the 子, 寅, 卯, 巳, 午, 申, 酉, 亥 years (RM's earth line
   gives it for 丑, 辰, 未, 戌 only, and as an explanation), and does the
   printed 方位吉凶図 shade the quarter or the branch?
-- Question: How wide is each god's direction on the printed 方位吉凶図?
+- Question 488 ([q0488](questions/q0488.md)): How wide is each god's direction on the printed 方位吉凶図?
   The 暦林問答集 rules for the 大將軍 that 寅, 甲, 卯, 乙 and 辰 are avoided
   together (§8); is that kept today, and for the other gods?
-- Question: The 歳破 and livestock: the 暦林問答集 (§11) forbids seeking
+- Question 489 ([q0489](questions/q0489.md)): The 歳破 and livestock: the 暦林問答集 (§11) forbids seeking
   (MS: bringing) horses and cattle from its direction; the NDL's
   exhibition says acquiring livestock there is good. Which does the
   printed almanac say (the paper 高島暦, D12)? And the 暦林問答集's own §31
   calls the 歳對, the same place, harmless; does any text reconcile them?
-- Question: Does the printed almanac keep the 大將軍's five-day outings
+- Question 490 ([q0490](questions/q0490.md)): Does the printed almanac keep the 大將軍's five-day outings
   (§54) and the freeing of its own direction during them? And when an
   outing goes to the direction it already holds (甲子–戊辰 to 卯 in its
   eastern years), what does the old rule mean?
-- Question: Where does the year of the 八将神 begin, 立春 or the new
+- Question 491 ([q0491](questions/q0491.md)): Where does the year of the 八将神 begin, 立春 or the new
   year? None of §6, §8–§14 says.
 
 Doubts in the text, not settled by the two witnesses: §12 GR «專主斂氣»
