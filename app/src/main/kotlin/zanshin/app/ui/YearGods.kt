@@ -51,6 +51,8 @@ private fun direction(branch: Int): String = "${BRANCHES[branch]} · ${Catalog.t
 fun YearGodsSheet(rk: RekichuDay, ehou: Annotation, onDismiss: () -> Unit) {
     var open by remember { mutableStateOf<Annotation?>(null) }
     val gods = YearGods.of(rk.date)
+    val konjin = YearGods.konjin(rk.date)
+    val konjinName = Catalog.text("Konjin")
     val year = Kanshi.ofYear(Rekichu.setsuYearOf(rk.date))
     val detailDirection = stringResource(R.string.detail_direction)
     val detailQuarter = stringResource(R.string.detail_year_god_quarter)
@@ -76,16 +78,19 @@ fun YearGodsSheet(rk: RekichuDay, ehou: Annotation, onDismiss: () -> Unit) {
                 Text(stringResource(R.string.year_gods_title), style = body.copy(fontSize = 22.sp, fontWeight = FontWeight.SemiBold))
                 Text(stringResource(R.string.year_gods_head, year.kanji), style = body.copy(fontSize = 16.sp))
                 val caption = { b: Int ->
-                    val here = gods.filter { it.branch == b }.joinToString(", ") { "${it.god.kanji} ${it.god.english}" }
+                    val here = (gods.filter { it.branch == b }.map { "${it.god.kanji} ${it.god.english}" } + listOfNotNull("金神 $konjinName".takeIf { b in konjin })).joinToString(", ")
                     if (here.isEmpty()) direction(b) else "${direction(b)}: $here"
                 }
                 DiagramFrame {
                     YearGodsCompass(
-                        gods.map { Triple(mark(it.god), it.branch, it.god == HasshoGod.TAISAI) },
+                        gods.map { Triple(mark(it.god), it.branch, it.god == HasshoGod.TAISAI) } + konjin.map { Triple("金", it, false) },
                         gods.first { it.god == HasshoGod.DAISHOGUN }.bearing,
                         rk.ehou.bearing,
                         240.dp,
-                        stringResource(R.string.desc_year_gods_compass, gods.joinToString("; ") { "${it.god.english}: ${Catalog.text("BranchDirection.${it.branch}")}" }),
+                        stringResource(
+                            R.string.desc_year_gods_compass,
+                            (gods.map { "${it.god.english}: ${Catalog.text("BranchDirection.${it.branch}")}" } + "$konjinName: ${konjin.joinToString(", ") { Catalog.text("BranchDirection.$it") }}").joinToString("; "),
+                        ),
                         start = gods.first { it.god == HasshoGod.TAISAI }.branch,
                         named = caption,
                     )
@@ -94,6 +99,17 @@ fun YearGodsSheet(rk: RekichuDay, ehou: Annotation, onDismiss: () -> Unit) {
                 Column {
                     AnnotationRow(ehou) { open = it }
                     gods.forEach { g -> AnnotationRow(annotation(g)) { open = it } }
+                    // 金神 after the eight, from the 簠簋内伝 (D9, the owner's choice of 2026-10-31).
+                    AnnotationRow(
+                        Annotation(
+                            "金神",
+                            "konjin — $konjinName",
+                            Tone.BAD,
+                            Texts.KONJIN,
+                            subtitle = stringResource(R.string.year_gods_konjin, konjin.joinToString(" ") { BRANCHES[it].toString() }, year.stemKanji),
+                            details = listOf(detailDirection to konjin.joinToString("\n") { direction(it) }),
+                        ),
+                    ) { open = it }
                 }
             }
         }

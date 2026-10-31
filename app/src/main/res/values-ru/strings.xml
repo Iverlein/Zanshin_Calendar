@@ -187,9 +187,15 @@
     <string name="kyu_day_star">звезда дня: %1$s</string>
     <string name="kyu_birth_star">ваша звезда рождения: %1$s · %2$s</string>
     <string name="kyu_ehou">счастливое направление года: %1$s</string>
-    <string name="kyu_ehou_gods">%1$s · и восемь богов года</string>
+    <string name="kyu_ehou_gods">%1$s · и боги года</string>
+    <string name="kyu_tenichi">Тэнъити-дзин сегодня: %1$s</string>
+    <string name="kyu_tenichi_heaven">Тэнъити-дзин сегодня: на небе</string>
+    <string name="kyu_tenichi_stay">%1$s — %2$s · с %3$s по %4$s</string>
+    <string name="kyu_tenichi_above">на небе</string>
+    <string name="desc_tenichi_compass">Компас направления Тэнъити-дзина сегодня: %1$s</string>
+    <string name="year_gods_konjin">%1$s · по стволу года %2$s</string>
     <string name="year_gods_title">Направления года</string>
-    <string name="year_gods_head">Год %1$s, от 立春: 恵方 и восемь богов года (八将神), где стоит каждый.</string>
+    <string name="year_gods_head">Год %1$s, от 立春: 恵方, восемь богов года (八将神) и 金神, где стоит каждый.</string>
     <string name="year_gods_note">Того, чего избегают, избегают лицом к направлению бога или в его сторону весь год; 大将軍 закрывает всю свою четверть, она показана дугой. Нажмите на ветвь, чтобы узнать, какие боги в ней.</string>
     <string name="desc_year_gods_compass">Компас богов года: %1$s</string>
     <string name="detail_direction">Направление</string>

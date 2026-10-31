@@ -330,7 +330,7 @@ fun TermRingDetail(current: SolarTerm, day: Int, days: Int, size: Dp) {
 
 /** A compass rose of the 24 directions, north at the top, with the year's lucky bearing as a needle. */
 @Composable
-fun Compass(bearing: Int, size: Dp, description: String) {
+fun Compass(bearing: Int, size: Dp, description: String, color: Color = Palette.vermilion) {
     Canvas(Modifier.size(size).semantics { contentDescription = description }) {
         val c = center
         val r = this.size.minDimension / 2 - 2.dp.toPx()
@@ -353,8 +353,8 @@ fun Compass(bearing: Int, size: Dp, description: String) {
         val needle = Path().apply {
             moveTo(tip.x, tip.y); lineTo(left.x, left.y); lineTo(tail.x, tail.y); lineTo(right.x, right.y); close()
         }
-        drawPath(needle, Palette.vermilion.copy(alpha = 0.18f))
-        drawPath(needle, Palette.vermilion, style = Stroke(1.4.dp.toPx()))
+        drawPath(needle, color.copy(alpha = 0.18f))
+        drawPath(needle, color, style = Stroke(1.4.dp.toPx()))
         drawCircle(Palette.text, 1.8.dp.toPx(), c)
     }
 }

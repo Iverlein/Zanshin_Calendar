@@ -378,7 +378,20 @@ private fun DetailsBlock(rows: List<Pair<String, String>>, labelWidth: Dp) {
             // Label and value share their first baseline: a value with Tibetan script has a taller line.
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text(label, style = rowLabelStyle, modifier = Modifier.width(labelWidth).alignByBaseline())
-                Text(withTibetan(value), style = body.copy(fontSize = 14.sp, lineHeight = 20.sp), modifier = Modifier.weight(1f).alignByBaseline())
+                val style = body.copy(fontSize = 14.sp, lineHeight = 20.sp)
+                if (value.startsWith("• ")) {
+                    // A Together's rites, one to a line, each wrapping under its own text.
+                    Column(Modifier.weight(1f).alignByBaseline(), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                        value.split('\n').forEach { line ->
+                            Row {
+                                Text("•", style = style, modifier = Modifier.width(14.dp))
+                                Text(withTibetan(line.removePrefix("• ")), style = style)
+                            }
+                        }
+                    }
+                } else {
+                    Text(withTibetan(value), style = style, modifier = Modifier.weight(1f).alignByBaseline())
+                }
             }
         }
     }

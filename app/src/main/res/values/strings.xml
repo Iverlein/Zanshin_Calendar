@@ -225,9 +225,15 @@
     <string name="kyu_day_star">day star: %1$s</string>
     <string name="kyu_birth_star">your birth star %1$s · %2$s</string>
     <string name="kyu_ehou">lucky direction of the year: %1$s</string>
-    <string name="kyu_ehou_gods">%1$s · and the year\'s eight gods</string>
+    <string name="kyu_ehou_gods">%1$s · and the year\'s gods</string>
+    <string name="kyu_tenichi">Ten\'ichi-jin today: %1$s</string>
+    <string name="kyu_tenichi_heaven">Ten\'ichi-jin today: in heaven</string>
+    <string name="kyu_tenichi_stay">%1$s — %2$s · from %3$s to %4$s</string>
+    <string name="kyu_tenichi_above">in heaven</string>
+    <string name="desc_tenichi_compass">Compass of Ten\'ichi-jin\'s direction today: %1$s</string>
+    <string name="year_gods_konjin">%1$s · by the year\'s stem %2$s</string>
     <string name="year_gods_title">The year\'s directions</string>
-    <string name="year_gods_head">The year %1$s, from 立春: the 恵方 and the eight gods of the year (八将神), where each stands.</string>
+    <string name="year_gods_head">The year %1$s, from 立春: the 恵方, the eight gods of the year (八将神) and 金神, where each stands.</string>
     <string name="year_gods_note">What is avoided is avoided facing the god\'s direction or towards it, all the year; the 大将軍 bars its whole quarter, drawn as the arc. Tap a branch to name the gods in it.</string>
     <string name="desc_year_gods_compass">Compass of the year\'s gods: %1$s</string>
     <string name="detail_direction">Direction</string>

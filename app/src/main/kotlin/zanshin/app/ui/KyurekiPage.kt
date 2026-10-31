@@ -54,6 +54,7 @@ import zanshin.core.kyureki.Kanshi
 import zanshin.core.kyureki.RekichuDay
 import zanshin.core.kyureki.Senjitsu
 import zanshin.core.kyureki.Shuku
+import zanshin.core.kyureki.Tenichi
 import zanshin.core.kyureki.Tone
 import zanshin.core.texts.Catalog
 import zanshin.core.texts.Reading
@@ -337,6 +338,24 @@ fun KyurekiPage(
         )
         // The row opens the year's directions, the 恵方 first among them (ROADMAP K5).
         AnnotationRow(ehou.copy(subtitle = stringResource(R.string.kyu_ehou_gods, ehou.subtitle!!))) { yearGods = ehou }
+        // 天一神's direction of the day, the 暦林問答集 §53 (ROADMAP K5, D9: the owner's choice of 2026-10-31).
+        val tenichi = Tenichi.of(rk.dayKanshi)
+        val (stayFrom, stayTo) = Tenichi.stay(rk.dayKanshi)
+        val tenichiLine = tenichi?.let { stringResource(R.string.kyu_tenichi, it.direction.english) } ?: stringResource(R.string.kyu_tenichi_heaven)
+        val tenichiCompass = tenichi?.let { stringResource(R.string.desc_tenichi_compass, it.direction.english) }
+        AnnotationRow(
+            Annotation(
+                "天一神",
+                tenichiLine,
+                if (tenichi == null) Tone.GOOD else Tone.BAD,
+                Texts.TENICHI,
+                subtitle = stringResource(
+                    R.string.kyu_tenichi_stay, tenichi?.kanji ?: "天上", tenichi?.direction?.english ?: stringResource(R.string.kyu_tenichi_above), stayFrom.kanji, stayTo.kanji,
+                ),
+                lead = tenichi?.let { t -> { Compass(t.bearing, 56.dp, tenichiCompass!!, Palette.bad) } },
+                diagram = tenichi?.let { t -> { DiagramFrame { Compass(t.bearing, 160.dp, tenichiCompass!!, Palette.bad) } } },
+            ),
+        ) { sheet = it }
     }
 
     sheet?.let { ReadingSheet(it, onElect = onElect, offered = KyurekiElection.OFFERED) { sheet = null } }
