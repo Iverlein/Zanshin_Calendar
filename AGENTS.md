@@ -55,8 +55,8 @@ adb -s <serial> install -r app/build/outputs/apk/debug/app-debug.apk
 The toolchain on MONOLITH (JDK 21 pin, SDK in `~/Android/Sdk`, the
 `zanshin-test` emulator) is described in `~/RUNBOOK.md` §7. Always pass
 `-s <serial>` to adb: the phone and the emulator are often attached together.
-**Test on the emulator only**, never on the owner's phone; **install every
-new build on the phone** when it is connected, without being asked.
+**Test on the emulator only**, never on the owner's phone; nothing is
+installed on the phone either: since 3.0 it takes the app from F-Droid only.
 
 ## One worktree per session
 
@@ -80,7 +80,7 @@ each other's builds. So every session, from its first edit:
    The vectors are gitignored third-party tables: without the copy their
    tests are skipped, not run. Every build, test and edit happens in `$W`.
 2. **Commits its work without asking** once it is verified (the tests, and
-   the emulator, phone and release checks below where they apply) and,
+   the emulator and release checks below where they apply) and,
    for a feature, its docs are current (*Docs on every feature merge*): in the
    repository's style, separate `core:` / `app:` / `docs:` commits with
    substantive bodies, no assistant signature.

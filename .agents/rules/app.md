@@ -23,9 +23,8 @@ paths:
   changed dates, preferences and languages all go to `zanshin-test`. The
   emulator is one for all sessions: queue for `emulator-5554` by message and
   restore the snapshot's preferences and language when done.
-- **Install every new build on the phone** when it is connected (`adb
-  devices`), after each update, without being asked, so it always runs the
-  latest build. Always pass `-s <serial>`.
+- **Nothing is installed on the phone**: since 3.0 it takes the app from
+  F-Droid only (the owner, 2026-10-31). Always pass `-s <serial>` to adb.
 - **Check a layout change at font scale 2.0 and in landscape** (SPEC §10.1,
   ROADMAP A2): `tools/emulator/scales.py OUTDIR s20,land`, and `tab` for a
   page's columns, in both languages, every PNG looked at. A row of fixed
