@@ -115,7 +115,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch32-lto-phye-ninth-part-digging.md](claims/ch32-lto-phye-ninth-part-digging.md) | claim, rule | Ch. 32: digging in the part where Lto-'phye lies | cites wb.2:p282, wb.2:p281; feeds block-31 |
 | [claims/ch32-outer-door-places.md](claims/ch32-outer-door-places.md) | claim, table | Ch. 32: the outer door by its place on each side | cites wb.2:p287; feeds block-31 |
 | [claims/ch32-rooms-by-direction.md](claims/ch32-rooms-by-direction.md) | claim, list | Ch. 32: the rooms and works of a house by direction | cites wb.2:p287; feeds block-31 |
-| [claims/ch35-grammar-days-to-beware.md](claims/ch35-grammar-days-to-beware.md) | claim, list | WB p. 432: the dates to beware of for grammar (machine) | cites wb.2:p432; feeds — |
+| [claims/ch35-grammar-days-to-beware.md](claims/ch35-grammar-days-to-beware.md) | claim, list | WB p. 432: the dates to beware of for grammar | cites wb.2:p432; feeds — |
+| [claims/ch35-khyung-nag-shak-dar-phugpa.md](claims/ch35-khyung-nag-shak-dar-phugpa.md) | claim, note | WB ch. 35 pp. 450–451: Khyung nag Shākya dar the Phugpa named for the practice of black reckoning | cites wb.2:p450, wb.2:p451; feeds — |
 | [claims/ch35-manjushri-voice-parts-of-reckoning.md](claims/ch35-manjushri-voice-parts-of-reckoning.md) | claim, note | WB ch. 35 p. 449: the parts of reckoning read as the parts of Mañjuśrī | cites wb.2:p449; feeds — |
 | [claims/ch35-pp438-454-no-calendar-rule.md](claims/ch35-pp438-454-no-calendar-rule.md) | claim, note | WB ch. 35 pp. 438–454: no calendar rule stands in these pages | cites wb.2:p438, wb.2:p447, wb.2:p454; feeds — |
 | [claims/ch35-reckoner-gto-bcos-and-tantras.md](claims/ch35-reckoner-gto-bcos-and-tantras.md) | claim, note | WB ch. 35 pp. 449–451: the reckoner's rites of the earth lords and the reckoning tantras named | cites wb.2:p449, wb.2:p450, wb.2:p451; feeds — |
@@ -458,7 +459,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch32.md](corpus/wb/ch32.md) | corpus | WB ch. 32 | 14 passages: 1 scan, 13 machine |
 | [corpus/wb/ch33.md](corpus/wb/ch33.md) | corpus | WB ch. 33, the results: the passages read for D4 | 51 passages: 4 scan, 46 machine, 1 etext |
 | [corpus/wb/ch34.md](corpus/wb/ch34.md) | corpus | WB ch. 34, the works one by one: the pages RD56 read | 10 passages: 5 scan, 5 machine |
-| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 machine |
+| [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
 | [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
@@ -689,9 +690,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0473.md](questions/q0473.md) | question q473 | Which works of ch. 34 carry the «དམར་ནག» kinds set down «གུད་སྦས་ལས་སོ་སོའི་ཐད་དུ», and is «ས་རོད་ཡའི་རྒྱུད» the Svarodaya | open; cites wb.2:p428c |
 | [questions/q0474.md](questions/q0474.md) | question q474 | Which syllable has dropped from the black pebble's power verse «ནག་ནང་བརྗེ་གྲོང་སྤྲང་བྱེད» on p. 23, and does «བརྗེ» name a kind of religious person | open; cites wb.2:p23-25 |
 | [questions/q0475.md](questions/q0475.md) | question q475 | Is «གོས་ལེགས་ཚོང་ལེགས» on p. 24 a slip for «གྲོས་ལེགས» | open; cites wb.2:p23-25 |
-| [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | open; cites wb.2:p442 |
+| [questions/q0476.md](questions/q0476.md) | question q476 | Do the Four Tantras' chapter counts on p. 442 join the next page's first line | answered; cites wb.2:p442, wb.2:p443 |
 | [questions/q0477.md](questions/q0477.md) | question q477 | Is the feat of the body on p. 440 «ཟོར་ཚུགས» or «ཐོར་ཚུགས» | open; cites wb.2:p440 |
-| [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | open; cites wb.2:p443 |
+| [questions/q0478.md](questions/q0478.md) | question q478 | Is «པདྨ་ཀ་ར» on p. 443 Padmasambhava | answered; cites wb.2:p443, wb.2:p442 |
 | [questions/q0479.md](questions/q0479.md) | question q479 | Is the bare «ཁམས» of the circles and of p. 17 the power's element throughout | open; cites wb.2:p3, wb.2:p17 |
 | [questions/q0480.md](questions/q0480.md) | question q480 | Is «ཚད་ཟླ» on p. 9 a word of its own or a slip for «ཚང་ཟླ» | open; cites wb.2:p9 |
 | [questions/q0481.md](questions/q0481.md) | question q481 | Who or what is «ཇི་ནོང» glossed beside Mañjuśrī on p. 3 | open; cites wb.2:p3 |
