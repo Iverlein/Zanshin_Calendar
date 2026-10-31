@@ -44,7 +44,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
 | 25 | R5 The Together everywhere WB sums up — built 2026-10-31 (block 60); the dead's twenty roots and q428's differences left | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
-| 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6 and R7 built 2026-10-31 (blocks 61, 62) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
+| 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6, R7 and R8 built 2026-10-31 (blocks 61–63) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
 
 ## Blocks
 
@@ -121,6 +121,7 @@ moves up as soon as it is unblocked.
 | <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness — built 2026-10-31; the dead's general verdict over its twenty roots and a class for q428's differences left | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
 | <a id="block-61"></a>61 | [R6](#r6) Ch. 27's small reckonings by the year — built 2026-10-31 | — (read: RD38, RD51, RD89, RD90) | [28](#block-28) | Build block 61: R6, the small reckonings of ch. 27 pp. 16–17 and 20 in a view of their own, stepped by year: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power. |
 | <a id="block-62"></a>62 | [R7](#r7) The rounds by age of pp. 18–19 — built 2026-10-31 | — (read: RD38, RD51, RD90) | [61](#block-61) | Build block 62: R7, the rounds by age of ch. 27 pp. 18–19 in the small reckonings, the man's or the woman's: their cuts and the signs as printed. |
+| <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
 
 ## Readings
 
@@ -4734,6 +4735,28 @@ groups it shows (`tools/emulator/store_shots.py`).
   (a man of 1990: the black trail on the wood ox, its sheet) and Russian
   (women of 1985–1994: the wheel's life force cut by the earth mouse,
   its sheet; the peacock, the black trail, the rhinoceros).
+- <a id="r8"></a>**R8 The reckonings of the time of asking — planned and built 2026-10-31** (block
+  [63](#block-63), SPEC §5.9.9). Brahmā's month for one gone abroad
+  (pp. 13–14, read on the scan by RD38), each aspect against the month
+  of asking with the month's element, and the signs of p. 19 (the
+  demons' door, the linked letters, the yellow light of li, the hour's
+  rhinoceros, the goat horn) on the moment's view, for the person
+  chosen; `Asking` (core), families `Abroad`, `AskingSign` (item R8),
+  English and Russian. Stated choice: «སྟོངས», empty, is the son. Left
+  out: the red and black star, the inner goat horn, the casting's hour.
+  It replaces the meadow's ornament, first planned as R8: KD's sheet
+  does not settle it (claims/kd-meadow-sheet-not-reproduced.md).
+  Checked: `SmallReckoningsTest` (the wood monkey's aspects against a
+  fire and a wood month, the fire meeting within by aspect; the demons'
+  door, the hour's rhinoceros and both goat horns, the linked letters,
+  the yellow light), `CatalogTest` (two families and the signs' names,
+  item R8), `:app:testDebugUnitTest`, the emulator in English (a man of
+  1990 by night: the earth mouse month, his life force empty, only the
+  demons' door reckoned) and Russian (women of 1958 and 1970 at 17:30 in
+  Kyoto: the hour's rhinoceros on the wood bird hour). The release
+  build, signed with the debug key, over blocks 61–63 in both
+  languages: the small reckonings, the rounds and the moment's new
+  section, no raw catalog keys.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs

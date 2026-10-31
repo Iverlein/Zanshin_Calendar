@@ -1710,6 +1710,28 @@ and 142):
   in an iron, earth, wood or fire year (`BirthPower`); the water year's
   son rests on a line not settled and its daughter is not named.
 
+- **The time of asking** (pp. 13–14, 19; ROADMAP R8, block 63), shown
+  on the moment's view (§5.9.5) for the person chosen, at the present
+  time (`Asking`): Brahmā's reckoning of the month for one gone abroad,
+  the month of asking (the month's sign, `Forces.signs`) against each
+  of the four aspects: the month cutting it, the aspect cutting the
+  month outward (the friend, "he returns quickly"), the mother, the son
+  read as «སྟོངས», empty (a stated choice: the one relation of the five
+  the passage does not name otherwise), and one element, fire and earth
+  aspect by aspect, water, wood and iron alike for all four; then the
+  month's own element (family `Abroad`). The signs of p. 19 (family
+  `AskingSign`): the demons' door, one born in a year of the four
+  executioners asking in a month and on a date of them; the linked
+  letters, month, date and hour all wood for one whose destiny is
+  earth; the yellow light of li, a water hour in an earth month and on
+  an earth date; the hour's rhinoceros, a wood or iron hour for an
+  executioner year or a fire hour for a fire horse or snake year; the
+  goat horn, good on an executioner hour of earth or fire, many corpses
+  on a tiger or monkey hour of iron or water. The hour is the moment's
+  sign (§5.9.5), so by night only the demons' door is reckoned. Not
+  reckoned: the red and black star («དེ་སོགས», "and the like", names no
+  rule), the inner goat horn, the casting's water hour (a casting).
+
 The screen (§10.11): "The small reckonings" in the Reckonings list
 ("Your 51st year · 3 checks cut"), stepped by year as the year of age
 is; under "The four starting points" a row for each with its start, the
