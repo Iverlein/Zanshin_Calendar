@@ -476,6 +476,15 @@ row gathers the Remedy rows of every black or speckled predictive pebble
 (the one that matters most first), all four black, every bad stage, every
 obstacle the notes do not clear, the plain nine-multiple, the mewa's
 small obstacles and the obstacles with relatives (family `YearTogether`).
+Every Together's Remedy row (the year, the birth, the match, the moment,
+the dead, the illness) lists its rites one to a line, each once, the most
+general first (the owner, 2026-10-31; `Rites`): a gathered Remedy row is
+split where a comma, a semicolon or an "and" opens a new imperative,
+never inside brackets or quotation marks, a rite that refers back
+("dress it in old clothes") staying with the one before; the rites are
+ranked by how many remedy rows of the whole catalog name what they name,
+by the rarest Tibetan term they bracket or, without one, by the rows
+that hold all their words, ties in the order gathered.
 Then each obstacle of the year graded by Mipham's notes (vol. 2,
 pp. 492–494; `YearReckoning.graded`, `together`, `ObstacleClass`,
 `ObstacleGrade`, family `YearGrade`), its year (the progressed sign's
@@ -2716,6 +2725,8 @@ also counts 庚申 and 己巳 among the 選日; the app lists each day once, und
 | 雑節 | 節分, 彼岸 (equinox ± 3 days), 社日 (the 戊 day nearest the equinox; a tie goes to the one nearer the equinox instant), 八十八夜, 入梅 (80°), 半夏生 (100°), 土用 (from 297°, 27°, 117°, 207°) and its Ox days, 二百十日, 二百二十日 |
 | 恵方 | by the stem of the year from 立春 |
 | 八将神 | by the branch of the year from 立春 (the eight gods below) |
+| 金神 | by the stem of the year from 立春, from the 簠簋内伝 (below) |
+| 天一神 | by the day's 干支, its direction on the forty-four days and 天上 on the sixteen (below) |
 
 **The year's eight direction gods** (八将神, ROADMAP K5, D9; `YearGods`;
 [sources/kyureki.md](sources/kyureki.md), RD92), the printed almanac's
@@ -2736,8 +2747,29 @@ three years in each 仲), 歳殺 申子辰 → 未, 巳酉丑 → 辰, 寅午戌
 what is avoided facing it, what is allowed, its star as *Also called*;
 no lists, since the works are barred towards a direction, not on a day,
 and nothing is weighed (`YearGodsTest`, the twelve years against the
-table). 金神 (only in the 簠簋内伝, RD93) and the daily directions (RD94)
-wait on the owner.
+table).
+
+**金神** (the owner's choice of 2026-10-31, D9; `YearGods.konjin`;
+[sources/kyureki.md](sources/kyureki.md), RD93), from the 簠簋内伝 alone,
+as the 三箇の悪日 are: the 暦林問答集 never names it. Its four directions by
+the year's stem are 巻一 §5's (甲己 午未申酉, 乙庚 辰巳戌亥, 丙辛 子丑寅卯,
+丁壬 寅卯戌亥, 戊癸 子丑申酉), not §6's other table nor today's blend of
+the two (questions 497, 502). Its reading is §5's, "above all to be
+shunned", with its wanderings by the 寅 days and by the seasons (§7, §8)
+and its free days (§9) as rows; no lists, and nothing is computed by
+the day (the text gives no season boundaries, and §7 and §8 can
+disagree, question 499).
+
+**天一神's daily direction** (the owner's choice of 2026-10-31, D9;
+`Tenichi`; RD94), the 暦林問答集 §53, the 江次第抄 the same: from 己酉
+six days in the north-east (艮), five due east (卯), six south-east
+(巽), five due south (午), six south-west (坤), five due west (酉), six
+north-west (乾), five due north (子); from 癸巳 to 戊申 in heaven, the
+sixteen days of 天一天上. Its reading is §53's: whatever is done facing
+it is very bad, battle and childbirth above all; no lists (`TenichiTest`,
+the course against the 江次第抄 and 天上 against 天一天上). 日遊神 has no
+course outside the house in any Japanese text read, so it has no row
+(question 493).
 
 **九星気学 (optional, personal).** The 本命星 is the year star of the birth date,
 the year reckoned from 立春. Its relation to the day star follows the stars'
@@ -3225,7 +3257,8 @@ name both. Sewing tents is a third, beside pitching them.
 | Set | Source |
 | --- | --- |
 | 六曜, 十二直, 二十八宿 | こよみ博物館, 株式会社トーダン (an almanac publisher) |
-| 選日 and 暦注下段, 九星, 恵方, 八将神, 庚申 | The 暦林問答集 (NDL pid 14488380) where it speaks (§8.1); Japanese Wikipedia, its 八将神 for the directions the old text gives no rule for; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子; 『独占易学全書』 (1901, NDL) for 歳下食, a second witness to Wikipedia's table |
+| 金神 | The 簠簋内伝, 巻一 §5, §7–§9 (NDL pid 1911335, img. 11–12) |
+| 選日 and 暦注下段, 九星, 恵方, 八将神, 天一神, 庚申 | The 暦林問答集 (NDL pid 14488380) where it speaks (§8.1); Japanese Wikipedia, its 八将神 for the directions the old text gives no rule for; Kotobank (精選版 日本国語大辞典, 日本大百科全書) for 寅の日, 巳の日, 甲子; 『独占易学全書』 (1901, NDL) for 歳下食, a second witness to Wikipedia's table |
 | 九星気学 relations and school | Japanese Wikipedia 九星 (九星の関係) and 九星気学 |
 | 縁日 as a group | Japanese Wikipedia 縁日 |
 | Colours of the sme ba | Berzin, *Details of Tibetan Astrology 4* (Study Buddhism) |
@@ -3909,7 +3942,11 @@ canvas "Zanshin Calendar — basic design".
   a tapped branch naming its gods below; then the 恵方's row and the eight
   gods' rows in the almanac's order, each opening its reading with its
   direction, the 大将軍's barred quarter and the 歳破's harm this year as
-  details (ROADMAP K5). Each 干支
+  details, and 金神 last, its four branches marked 金 on the compass and
+its directions as one detail (ROADMAP K5). Below the 恵方's row, the
+天一神 row: the day's direction with a compass needle in the bad colour,
+"酉 — west · from 丁丑 to 辛巳", or "天上 — in heaven" with the days of
+its stay, opening §53's reading with the course as a row. Each 干支
   row opens a balloon (ROADMAP K6): the stem with its element and
   polarity, the branch with its animal, the pair's place in the sixty;
   the solar month's balloon its branch, its first and last day and what

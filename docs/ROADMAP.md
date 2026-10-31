@@ -111,7 +111,7 @@ moves up as soon as it is unblocked.
 | <a id="block-51"></a>51 | [K1](#k1) The 旧暦 terms by the literature (K2 built 2026-10-14) — built 2026-10-19 but for D15, the owner's choices | K1's reading (kyureki.md) | — (D15 for the months, the mansions and 重陽) | Build block 51: K1, the Russian terms by the literature. |
 | <a id="block-52"></a>52 | [K4](#k4)… The 旧暦 claims one by one — 二十七宿, the red writing and the 六曜 settled 2026-10-19 | K4's, each for its claim | — (D12 for 天一天上 and the 選日/下段 check) | Build block 52: the next K4 claim whose reading is in kyureki.md. |
 | <a id="block-53"></a>53 | [K3](#k3) The old texts behind the 旧暦 readings, in order — D8 settled 2026-10-30, built 2026-10-31 but for D8's open points | K3-R, the 暦林問答集 (kyureki.md) | — (D8's open points: the 十二直's lists, the solar terms' voice) | Build block 53: K3 as D8 settled it: the 暦林問答集 first in SPEC §8.1, §64's ranking in §7.5 and the election, 日遊's wording, the 三箇の悪日 kept from the 簠簋内伝. |
-| <a id="block-54"></a>54 | [K5](#k5) The direction gods — D9 settled 2026-10-30: a year sheet, built 2026-10-31; 金神 and the daily rows wait on the owner | [RD92](#rd92); [RD93](#rd93), [RD94](#rd94) for 金神 and the daily rows | [53](#block-53) (D9's open points: 金神, the daily directions) | Build block 54: K5, the year sheet of the 八将神 from the 恵方 row, from RD92; 金神 and the daily directions as the owner decides on RD93 and RD94. |
+| <a id="block-54"></a>54 | [K5](#k5) The direction gods — D9 settled 2026-10-30: a year sheet, built 2026-10-31; 金神 and the daily 天一 row decided and built the same day | [RD92](#rd92); [RD93](#rd93), [RD94](#rd94) for 金神 and the daily rows | [53](#block-53) (D9's open points: 金神, the daily directions) | Build block 54: K5, the year sheet of the 八将神 from the 恵方 row, from RD92; 金神 and the daily directions as the owner decides on RD93 and RD94. |
 | <a id="block-56"></a>56 | [K6](#k6) Every 旧暦 row opens — built 2026-10-18 | K6-R, the 24 terms' readings (kyureki.md) | — | Build block 56: K6, a sheet for the solar term from K6-R with its reading, details and the full ring, balloons on the 干支 rows and on the date and moon, the month and year stars opening their own sheets. |
 | <a id="block-55"></a>55 | [U19](#u19) Pinned works — built 2026-10-21 | — | — | Build block 55: U19, pinned works in the Works section, with a chooser and a preference. |
 | <a id="block-57"></a>57 | [Y1](#y1) The year of age read for action — built 2026-10-16 | WB vol. 1, ch. 25, pp. 440–442, the twelve stages' spirits and rites (read in the block, health.md) | — | Built: Y1, the year sheet in the shape with its remedies as rows, what matters most, the stages named as the energy's. |
@@ -548,15 +548,17 @@ as a dead end (sources/PLAN.md).
   恵方 and the eight rows (SPEC §10.4). Font subset rebuilt (the gods'
   kanji, and 78 characters missing since earlier blocks). Checked on the
   emulator in English and Russian, at font scale 2.0 and in landscape.
-  **For the owner** (D9's open points), on RD93 and RD94: **金神** is
-  found only in the 簠簋内伝 (two year tables by the stem, §5 and §6, the
-  遊行 and the 間日; today's digests blend the two tables), never in the
-  暦林問答集, and the 陰陽道 of 1173 did not use it: show it from the
-  簠簋内伝, as the 三箇の悪日 are, or leave it out? **The daily
-  directions**: 天一神's 44-day course is the 暦林問答集's (§53, every work
-  facing it very bad), 日遊神 has no recorded course outside the house,
-  and whether today's printed almanac shows either waits on the paper
-  高島暦 (D12): a daily 天一 row, or none?
+- **D9's open points decided 2026-10-31** (the owner, on RD93 and RD94):
+  "show" 金神 from the 簠簋内伝, and "add" the daily 天一 row. **Built the
+  same day**: `YearGods.konjin`, §5's four directions by the year's stem,
+  the sheet's last row with 金 on the compass, its reading with the
+  wanderings (§7, §8) and the free days (§9) as rows, nothing reckoned by
+  the day; `Tenichi`, §53's course, a row under the 恵方's with the day's
+  direction and the stay's first and last day, 天上 on the sixteen days
+  (SPEC §7.5, §10.4; `YearGodsTest`, `TenichiTest`; new rows *Wanders*
+  and *Free days*). No 日遊神 row: no Japanese course outside the house
+  (question 493). Checked on the emulator in English and Russian, at
+  font scale 2.0 and in landscape; fonts rebuilt (680 characters).
 
 #### <a id="k6"></a>K6 Every 旧暦 row opens — planned 2026-10-14, built 2026-10-18 (SPEC §10.4)
 
@@ -4675,6 +4677,17 @@ groups it shows (`tools/emulator/store_shots.py`).
     a difference of one, two, or seven and more (question 428), which
     about half the birth years reckoned in 2026 fall on; the meadow's
     ornament and Sprugtön's reckoning, not built.
+  - **The rites listed 2026-10-31** (the owner, on the illness's long
+    Remedy row: "keep it, list the rites, sort them from most popular and
+    general to more peculiar and specific"). Every Together's Remedy row,
+    R4's and R5's, lists its rites one to a line, each once, ranked by how
+    many remedy rows of the catalog name what they name (`Rites`, SPEC
+    §5.9.1's *Together*; `RitesTest`, every remedy row of both languages
+    split into whole rites). One Russian row mended to carry its
+    pronouns as the English does («уложите её в постель и отошлите её»).
+    Checked on the emulator: the illness of a 1976 fire dragon man, 74
+    rites in English and 73 in Russian, thread-crosses and tormas first,
+    the belt for a fisherman last.
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs
