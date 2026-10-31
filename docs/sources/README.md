@@ -717,6 +717,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | open; cites — |
 | [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | open; cites — |
 | [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
+| [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | open; cites wb.2:p453 |
+| [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | open; cites wb.2:p448 |
+| [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | open; cites wb.2:p450 |
 
 <!-- end pool index -->
 

@@ -1146,3 +1146,5 @@ Searched and found wanting, so not to be repeated:
   - The 暦林問答集: 金神, 七殺, 七煞 in the NDL's machine text of pid 2559255 and 2533201 (pid 14488380 is refused by the NDL Lab API); none.
   - The NAOJ 暦Wiki: no page on 金神 (DuckDuckGo, site eco.mtk.nao.ac.jp).
   - Not searched: the rest of the 簠簋内伝 (巻一 after §9, 巻二–五) for further mentions of 金神.
+- **RD84 (2026-10-31)** (RD84, 2026-10-31):
+  - A rule, list or figure of the calendar in WB vol. 2 pp. 429–454, by the eye pass of 2026-10-31 (every line read on the scan): none but p. 432's days to beware of for grammar; the letters and names the eye corrected bring none in.
