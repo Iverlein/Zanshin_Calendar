@@ -88,6 +88,7 @@ fun KyurekiPage(
     var dateOpen by remember(day.date) { mutableStateOf(false) }
     var sheet by remember(day.date) { mutableStateOf<Annotation?>(null) }
     var summaryOpen by remember(day.date) { mutableStateOf(false) }
+    var yearGods by remember(day.date) { mutableStateOf<Annotation?>(null) }
     val summary = remember(day.date, birthStar) { DaySummary.of(day, rk, birthStar) }
     val kanjiStyle = TextStyle(fontFamily = Mincho, fontWeight = FontWeight.Bold, color = Palette.text)
     val labels = LocalLabels.current
@@ -325,21 +326,22 @@ fun KyurekiPage(
             ) { sheet = it }
         }
         val ehouLine = stringResource(R.string.kyu_ehou, rk.ehou.english)
-        AnnotationRow(
-            Annotation(
-                "恵方",
-                ehouLine,
-                Tone.GOOD,
-                Texts.EHOU[rk.ehou],
-                subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}",
-                lead = { Compass(rk.ehou.bearing, 56.dp, ehouLine) },
-                diagram = { DiagramFrame { Compass(rk.ehou.bearing, 160.dp, ehouLine) } },
-            ),
-        ) { sheet = it }
+        val ehou = Annotation(
+            "恵方",
+            ehouLine,
+            Tone.GOOD,
+            Texts.EHOU[rk.ehou],
+            subtitle = "${rk.ehou.kanji} — ${rk.ehou.english}",
+            lead = { Compass(rk.ehou.bearing, 56.dp, ehouLine) },
+            diagram = { DiagramFrame { Compass(rk.ehou.bearing, 160.dp, ehouLine) } },
+        )
+        // The row opens the year's directions, the 恵方 first among them (ROADMAP K5).
+        AnnotationRow(ehou.copy(subtitle = stringResource(R.string.kyu_ehou_gods, ehou.subtitle!!))) { yearGods = ehou }
     }
 
     sheet?.let { ReadingSheet(it, onElect = onElect, offered = KyurekiElection.OFFERED) { sheet = null } }
     if (summaryOpen) DaySummarySheet(summary, onElect = onElect) { summaryOpen = false }
+    yearGods?.let { YearGodsSheet(rk, it) { yearGods = null } }
 }
 
 /**

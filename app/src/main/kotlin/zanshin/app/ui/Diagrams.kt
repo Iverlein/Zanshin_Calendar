@@ -60,6 +60,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.iverlein.zanshin.R
 import zanshin.app.LocalLabels
+import zanshin.core.kyureki.BRANCHES
 import zanshin.core.kyureki.Choku
 import zanshin.core.kyureki.KyuSei
 import zanshin.core.kyureki.Rokuyo
@@ -473,6 +474,63 @@ fun LordsCompass(animals: Map<Animal, Int>, directions: Map<Direction, Int>, siz
             }
         }
         Caption(caption)
+    }
+}
+
+/**
+ * The year's 方位吉凶図 (ROADMAP K5): the twelve branches round a ring from 子 at the top (north), each holding the
+ * mark of the gods standing in it ([gods]: the god's one-kanji mark, its branch, whether it is good), the 大将軍's
+ * whole quarter drawn as an arc ([quarter], the bearing it centres on), and the 恵方's needle at [ehou]. Tapping a
+ * branch names its gods in the caption; [named] gives a branch's caption, today's year god's at first.
+ */
+@Composable
+fun YearGodsCompass(gods: List<Triple<String, Int, Boolean>>, quarter: Int, ehou: Int, size: Dp, description: String, start: Int, named: (Int) -> String) {
+    var selected by remember(start) { mutableIntStateOf(start) }
+    val measurer = rememberTextMeasurer()
+    Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
+        Canvas(
+            Modifier
+                .size(size)
+                .semantics { contentDescription = description }
+                .pointerInput(Unit) {
+                    detectTapGestures { p ->
+                        val c = Offset(this.size.width / 2f, this.size.height / 2f)
+                        selected = (((bearingOf(c, p) + 15f) % 360f) / 30f).toInt()
+                    }
+                },
+        ) {
+            val c = center
+            val r1 = this.size.minDimension / 2 - 8.dp.toPx()
+            val r0 = r1 * 0.78f
+            for (b in 0 until 12) {
+                val a = b * 30f
+                val here = gods.filter { it.second == b }
+                val fill = when {
+                    here.any { !it.third } -> Palette.bad.copy(alpha = 0.22f)
+                    here.isNotEmpty() -> Palette.good.copy(alpha = 0.22f)
+                    else -> Palette.surface
+                }
+                val path = sector(c, r0, r1, a - 14.2f, a + 14.2f)
+                drawPath(path, if (b == selected) Palette.raised else fill)
+                if (b == selected && here.isNotEmpty()) drawPath(path, fill)
+                drawPath(path, if (b == selected) Palette.vermilion else Palette.lineStrong, style = Stroke((if (b == selected) 1.6f else 0.9f).dp.toPx()))
+                label(measurer, BRANCHES[b].toString(), polar(c, (r0 + r1) / 2, a), kanjiStyle.copy(fontSize = 12.sp, color = Palette.muted))
+                here.forEachIndexed { i, (mark, _, good) ->
+                    label(measurer, mark, polar(c, r0 - (14 + 17 * i).dp.toPx(), a), kanjiStyle.copy(fontSize = 13.sp, color = if (good) Palette.good else Palette.bad))
+                }
+            }
+            arcStroke(c, r1 + 4.dp.toPx(), quarter - 45f + 1f, quarter + 45f - 1f, Palette.bad, 2.dp.toPx(), StrokeCap.Round)
+            val e = ehou.toFloat()
+            val tip = polar(c, r0 * 0.3f, e)
+            val left = polar(c, r0 * 0.05f, e - 90f)
+            val right = polar(c, r0 * 0.05f, e + 90f)
+            val tail = polar(c, r0 * 0.12f, e + 180f)
+            val needle = Path().apply { moveTo(tip.x, tip.y); lineTo(left.x, left.y); lineTo(tail.x, tail.y); lineTo(right.x, right.y); close() }
+            drawPath(needle, Palette.vermilion.copy(alpha = 0.18f))
+            drawPath(needle, Palette.vermilion, style = Stroke(1.4.dp.toPx()))
+            drawCircle(Palette.text, 1.8.dp.toPx(), c)
+        }
+        Caption(named(selected))
     }
 }
 
