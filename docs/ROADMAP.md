@@ -44,7 +44,7 @@ with the one that gives it a use. "Later" is not ranked.
 | 23 | R4 Combining the readings | M | Each reckoning's sections joined by WB's own ladder (the verdict of each aspect, the sets, whose aspect and which part of life, the rule for the whole) into a conclusion read for action, with its remedies; planned 2026-10-20, the readings first | RD18–RD28; block 31 |
 | 24 | [C1](#c1) The knowledge pool in layers | M | The structure of docs/sources/STRUCTURE.md, decided 2026-10-22 and indexed by `tools/sources/kb.py`, applied to the files: the topic files split into corpus files with passage ids, claims and question files, README's index and State column generated from their frontmatter, `SourcesTest` covering the layers; done file by file as each is next touched, and this item closes the remainder | — |
 | 25 | R5 The Together everywhere WB sums up — built 2026-10-31 (block 60); the dead's twenty roots and q428's differences left | M | The moment, each of the dead and the illness get a Together atop, by WB's own summing rules, as the birth, the match and the year of age have one (R4); planned 2026-10-27 | RD58; R4 |
-| 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6 built 2026-10-31 (block 61) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
+| 26 | R6–R8 Ch. 27's small reckonings: by the year, the rounds by age, and those of the asking time — R6 and R7 built 2026-10-31 (blocks 61, 62) | M | What WB gathers at the end of the circles' chapter and the app left out: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power (R6); the rounds by age of pp. 18–19 (R7); the month for one gone abroad and the reckonings of the asking time, pp. 13–14 and 19 (R8). The meadow's ornament (p. 22) stays out: what the five of a group are is open (question 216), and KD's worked sheet, recomputed, fits its first group only (claims/kd-meadow-sheet-not-reproduced.md) | R6 first |
 
 ## Blocks
 
@@ -120,6 +120,7 @@ moves up as soon as it is unblocked.
 | <a id="block-59"></a>59 | [A3](#a3) Glyphs of their own for the works their family draws badly — built 2026-10-25 | — | — | Built: A3, `CueGlyphs.WORK`, 53 works with glyphs of their own in the breakdown and the election. |
 | <a id="block-60"></a>60 | [R5](#r) The Together everywhere WB sums up: the moment, the dead, the illness — built 2026-10-31; the dead's general verdict over its twenty roots and a class for q428's differences left | [RD58](#rd58) | [58](#block-58) | Build block 60: R5, a Together section atop the moment, atop each of the dead and under the illness's first row, by WB's summing rules as RD58 reads them, the remedies below gathered; the thirty and the circles keep none. |
 | <a id="block-61"></a>61 | [R6](#r6) Ch. 27's small reckonings by the year — built 2026-10-31 | — (read: RD38, RD51, RD89, RD90) | [28](#block-28) | Build block 61: R6, the small reckonings of ch. 27 pp. 16–17 and 20 in a view of their own, stepped by year: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power. |
+| <a id="block-62"></a>62 | [R7](#r7) The rounds by age of pp. 18–19 — built 2026-10-31 | — (read: RD38, RD51, RD90) | [61](#block-61) | Build block 62: R7, the rounds by age of ch. 27 pp. 18–19 in the small reckonings, the man's or the woman's: their cuts and the signs as printed. |
 
 ## Readings
 
@@ -4715,6 +4716,24 @@ groups it shows (`tools/emulator/store_shots.py`).
   and Russian (a man of 1990, an iron horse, in 2026: the la wanders
   north, six checks cut, the support peg's sheet; in 2027 none), at font
   scale 2.0 and in landscape.
+- <a id="r7"></a>**R7 The rounds by age of pp. 18–19 — planned and built 2026-10-31** (block
+  [62](#block-62), SPEC §5.9.9). The wheel's full depth, the gods' and
+  demons' trade and the peacock with crossed necks by their cuts; the
+  yungdrung, the yellow lord, the cock's black trail and the
+  rhinoceros, outer, inner and the woman's, by the signs printed;
+  `Round`, `Rounds` (core), families `RoundCut`, `RoundSign` (item R7),
+  English and Russian; a section "The rounds by age" in the small
+  reckonings. Stated choices: the man's or the woman's round by the
+  person's sex; the woman's peacock counted down "as above". Left out:
+  the Chinese lord's banner and the ogre's round (their terms unread),
+  the element enemies left "to intelligence".
+  Checked: `SmallReckoningsTest` (the wheel's starts, the woman's count
+  up, every check's cut over sixty years, the swastika's sign only for a
+  water life force and destiny, the black trail's), `CatalogTest` (two
+  families, item R7), `:app:testDebugUnitTest`, the emulator in English
+  (a man of 1990: the black trail on the wood ox, its sheet) and Russian
+  (women of 1985–1994: the wheel's life force cut by the earth mouse,
+  its sheet; the peacock, the black trail, the rhinoceros).
 - **Blocks.** R1 is [28](#block-28), reading [RD11](#rd11) and waiting on no
   build; R2… is [31](#block-31), each reckoning reading its own
   ([RD12](#rd12), [RD13](#rd13), [RD15](#rd15), [RD16](#rd16), [RD17](#rd17)) and waiting on 28 and, for what needs

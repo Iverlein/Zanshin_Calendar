@@ -1663,6 +1663,30 @@ and 142):
   read by its family `StartingCut`; the weapons' cut reads alike on all
   four. "When the points meet" stays a sentence of the reading: WB does
   not say how many.
+- **The rounds by age** (pp. 18–19; ROADMAP R7, block 62), a man's
+  round for a man and a woman's for a woman (the person's sex, a stated
+  choice: the woman's rounds name noble ladies and the pregnant), each
+  from its animal in an element against the power, counted down or up
+  by the years of age as the text says, the start the first (`Round`,
+  `Rounds`): the wheel's full depth (the man's from the ox of his own
+  element down, the year reached against the destiny, the 12th up
+  against the body, the 6th down against the life force; the woman's
+  from the sheep of the enemy up, the 6th up and 10th down), the gods'
+  and demons' trade (from the hare of the friend down, or of the mother
+  up; the year reached against the life force, the 7th down against the
+  body), the peacock with crossed necks (from the snake of one's own
+  element, the year reached against the life force, body and destiny;
+  the woman's by the destiny, and its destiny against her life force,
+  the bird of ruin), read by family `RoundCut` where a check cuts
+  inward. Four rounds read a sign of the year reached, only as printed
+  (`RoundSign`): the yungdrung destroyed (life force and destiny both
+  water, both cut by earth), the destiny lost (a wood person on the
+  earth ox or sheep), the cock's black trail (an ox or earth year), the
+  rhinoceros's horn broken (an earth year; the woman's, a year of the
+  four executioners, iron or water), and the inner rhinoceros, a man's
+  trigram of the year on the fire or sky trigram. The woman's peacock
+  is counted down "as above"; the yellow lord's woman's round reads as
+  the man's.
 - **The la's wandering and decline** (pp. 16–17): in a sky year of the
   rat, dragon or monkey the la of one born in a rat year wanders south;
   of the bird, ox or snake a snake year's north; of the tiger, horse or
@@ -1690,7 +1714,9 @@ The screen (§10.11): "The small reckonings" in the Reckonings list
 ("Your 51st year · 3 checks cut"), stepped by year as the year of age
 is; under "The four starting points" a row for each with its start, the
 year reached and its four checks ○ ×, the sheet giving each cut's
-reading; under "In the Fire Horse year" the la's wandering or decline,
+reading; under "The rounds by age" a row for each of the person's
+rounds, its cuts or its sign opening their readings, a round with
+nothing falling a quiet row; under "In the Fire Horse year" the la's wandering or decline,
 the grave entered and the end of the womb where they fall, or a line
 that none does, and what the trigrams need (the gender, the mother's
 birth year); under "Your birth" the birth by the year's power; a closing
@@ -1703,7 +1729,9 @@ tiger and the fire hare and leaves out the dragon (question 506); the
 household's trigrams (the golden four legs, the eight turquoise beams,
 the turtle's back, the trigram piled up, pp. 14–15 and 17); the bones'
 reckoning by the hour of a casting (pp. 15–16), a throw of chance; the
-other rounds of pp. 17–19.
+Chinese lord's banner (p. 17, «ཕྱི་གཟའ», the outer planet, not read) and
+the ogre's round (p. 18, «ཁ་སྲོག» not read); the other element enemies
+of the yungdrung and the yellow lord, which WB leaves "to intelligence".
 
 ### 5.10 Electional lists: the mansion and the day's activities
 
