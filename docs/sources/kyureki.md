@@ -2213,7 +2213,451 @@ Russian.
 
 ## The 暦林問答集's year direction gods: the 八将神 for the year sheet (RD92)
 
-Nothing read yet: RD92's passages, with the English beside them, go here.
+What the 暦林問答集 (RM below; GR the 群書類從 print, MS the manuscript,
+as in *K3-R* above) says of the year's eight direction gods, the 八将神 of
+the printed almanac's 方位吉凶図: for each, its direction by the year's
+branch, what is avoided towards it, what is allowed, and any time limit;
+then each against the modern digests. Read 2026-10-31, by eye on the NDL
+scans, no model: GR (pid 14488380) img. 11–17 (§6–§15), with img. 41–42
+(§31, the four year positions), 47–48 (§46, the five graves) and 50
+(§54, the 大將軍's 遊行) beside them; MS (pid 2533201) img. 11–15 (§6–§15)
+and 42 (§54) as witness, every passage compared character by character
+where GR's reading was doubtful. Each IIIF image fetched at full size
+(`https://dl.ndl.go.jp/api/iiif/<pid>/R<7-digit image>/full/full/0/default.jpg`,
+with `curl -L`) and read in page crops at about 80 pixels a character.
+GR prints 巳 for the stem 己 and 尒 for 爾 throughout; 〔〕 marks a small
+double-line note; «云〻» is 云云.
+
+### The passages
+
+#### §6 大歳 (GR img. 11 left page – img. 12 right page; MS img. 11–12)
+
+> 釋大歳第六
+> 或問大歳者何也　答曰暦例云大歳者歳星之精降天地之間觀察万物臨見八方故名歳之君慎之者保逆之者亡巡行於十二支也子歳在正北丑歳在丑餘方皆尒十有二年運終而後始其方主歳故為一年之君有福最吉方也更不可犯作凶事殊出軍討敵向之大凶若向此方舉凶事疫病起也
+
+MS: «終而復始» for «終而後始», and «更不可犯向凶事» where GR has «犯作凶事»
+(GR's 作 is clear on the scan; both give the same sense).
+
+"The 暦例 says: the 大歳 is the essence of the year star (Jupiter). It
+comes down between heaven and earth, surveys the ten thousand things and
+looks over the eight directions; so it is called the lord of the year.
+Who respects it is kept safe; who goes against it perishes. It goes round
+the twelve branches: in a 子 year it is due north, in a 丑 year at 丑,
+and the other directions likewise; in twelve years the round ends and
+begins again. Its direction rules the year, so it is the lord of one
+year, holds blessing and is the luckiest direction. Moreover nothing bad
+may be done offending it; above all, to lead out an army and attack an
+enemy facing it is greatly bad. If one does bad things facing this
+direction, epidemics arise."
+
+#### §8 大將軍 (GR img. 13 right page – left page; MS img. 12 left page – img. 13 right page)
+
+> 釋大將軍第八
+> 或問大將軍者何也　答曰新撰陰陽書云大將軍者太白之精天之上客太一紫微宮方伯之神也不居四孟常行四仲以正四方三歳一移百事不可犯〔云云〕其太白西方星金精也降地而三歳之間為方伯之神十有二年運四方終而後始矣金者禁也主裁斷故犯之者必受殃其居礎立柱上棟修造移徙嫁娶塗竈掘井築垣出軍葬埋起土百事犯用之太凶於是大將軍常行四仲以正四方三歳一移〔云云〕以此文在東方者只卯方可忌之寅甲乙辰之四神者無忌之昔者雖有其說先喆之所不用也紫微宮方伯之神也伯長也正也礼云千里之外設方伯〔云云〕在卯者寅甲乙辰四神相兼可忌之餘之方皆尒也今為決後生之疑引舊勘聊記之耳非愚所謂也
+
+The character after «終而後始» (GR img. 13, last column of the right
+page) is the same form as the «矣» that closes §11 (img. 15); MS has
+«終而復始矣». MS writes «堀井» for «掘井», abbreviates 寅 to a form like
+«刀», and reads «寅甲乙辰四神者无忌之旨昔者», with a «旨» GR lacks
+("…the purport that the four are not avoided; formerly…").
+
+"The 新撰陰陽書 says: the 大將軍 is the essence of Venus (太白), the high
+guest of heaven, the 方伯 (governor of a quarter) god of the purple
+palace of Taiyi. It does not stay in the four 孟 [寅巳申亥] but always
+goes in the four 仲 [子卯午酉], to set the four quarters right; it moves
+once in three years; nothing may be done offending it. Venus is the star
+of the west, the essence of metal; it comes down to earth and for three
+years is the 方伯 god; in twelve years it goes round the four quarters
+and begins again. Metal means prohibition and rules over judgement, so
+whoever offends it is sure to meet disaster: laying the foundation stones,
+setting up pillars, raising the ridgepole, building and repairing, moving
+house, marrying, plastering a hearth, digging a well, building a wall,
+leading out an army, burial, breaking ground — any of these done
+offending it is greatly bad. Now, since the 大將軍 always goes in the four
+仲 to set the four quarters right and moves once in three years, [some
+have read] this text [to mean] that when it is in the east only the 卯
+direction is to be avoided, and the four 寅, 甲, 乙 and 辰 not. Though
+there was such a teaching formerly, earlier sages did not use it. It is
+the 方伯 god of the purple palace; 伯 means chief and means to set right;
+the Rites say 'beyond a thousand li a 方伯 is set up'. When it is in 卯,
+the four 寅, 甲, 乙 and 辰 are to be avoided together with it; the other
+directions likewise. I have now cited the old reports briefly to settle
+later students' doubts; this is not my own saying."
+
+#### §9 大陰 (GR img. 13 left page – img. 14 right page; MS img. 13 left page)
+
+> 釋大陰第九
+> 或問大陰者何也　答曰暦例云大陰鎮星之精歳之皇后也常居歳後之二辰故子歳者大陰在戌丑歳者在亥餘例皆尒大歳皇后移居之方也故悪婦人事也妊者移其方産期犯向凶
+
+MS agrees.
+
+"The 暦例 says: the 大陰 is the essence of Saturn (鎮星), the empress of
+the year. It always stays two branches behind the year: so in a 子 year
+the 大陰 is at 戌, in a 丑 year at 亥, and the other years likewise. It is
+the direction the empress of the 大歳 moves to and lives in; so it
+abhors women's affairs. For a pregnant woman to move to that direction,
+or to face it offending it at the time of birth, is bad."
+
+#### §10 歳刑 (GR img. 14 right page – img. 15 right page; MS img. 13 left page – img. 14 left page)
+
+> 釋歳刑第十
+> 或問歳刑者何也　答曰金匱經云刑凡有三第一衰謝之刑有五謂金木水火土之刑第二制御之刑有十謂十干之刑第三不遜之刑有三謂十二支之刑也今之暦所載之歳刑者謂衰謝之刑制御不遜之兩刑者不載故略之第一云衰謝刑者金對也刑自在西方火猛也刑自在南方木落歸根刑在北方水流皈末而不皈刑在東方土王於四季故天能刑之今按巳酉丑金之位也金以對強之故陽氣入而挫之故巳酉丑之刑自在西方申酉戌之位也寅午戌火之位也火以強猛故陰氣来而挫之故寅午戌之歳刑自在南方巳午未之位也亥卯未木之位也木雖恃榮觀陰氣来而殺之故亥卯未歳刑在北方亥子丑之位也申子辰水之位也水雖恃陰浮之智陽氣往而刑之故申子辰之歳刑在東方寅卯辰之位也土五行之王也天能刑之未丑辰戌土之位也各相刑之未刑丑也戌刑未也辰之刑辰也丑之刑戌也於是金雖對火挫之火雖猛水挫之木雖榮觀陰氣殺之水雖恃智陽刑之金木水火各雖有對猛榮智之德莫不刑之也土五行之王天刑之尚書暦云歳刑者天之陰精水曜精也一名法曹司馬以殺罰為名是五行各一方刑之也夫寒暑推移應時而動不失其節者獨雖無受刑治不可不刑也呂氏春秋云刑罰不可伏於國鞭笞不可廢於家其歳刑者一歳之中受刑殺方也故多禍少福百事不可觸犯之大公兵書云舉事善則天應之以德悪則天應之以刑也
+
+GR prints «對» four times where the sense wants "hard"; MS has «剛» at
+each («金剛也», «金以剛強之», «金雖剛», «剛猛榮智»), which is followed in
+the English. MS also: «今暦所載之歳刑謂» (no 之, no 者), «西方大猛也» (大
+for 火), «辰刑辰也丑刑戌也» (no 之), «獨雖无受刑者治».
+
+"The 金匱經 says: punishments are of three kinds. First, the punishment
+of decline, of five: those of metal, wood, water, fire and earth. Second,
+the punishment of control, of ten: those of the ten stems. Third, the
+punishment of insolence, of three: those of the twelve branches. The 歳刑
+that today's calendar prints is the punishment of decline; the other two
+are not printed and are left out here. The first says: metal is hard,
+its punishment is in the west; fire is fierce, its punishment is in the
+south; wood falls and returns to the root, its punishment is in the
+north; water flows to its end and does not return, its punishment is in
+the east; earth rules the four 季, so heaven can punish it. My view: 巳酉丑
+is the place of metal. Because metal is hard and strong, yang breath
+enters and breaks it; so the punishment of 巳酉丑 is in the west, the
+place of 申酉戌. 寅午戌 is the place of fire. Because fire is strong and
+fierce, yin breath comes and breaks it; so the 歳刑 of 寅午戌 is in the
+south, the place of 巳午未. 亥卯未 is the place of wood. Though wood
+trusts in its flourishing, yin breath comes and kills it; so the 歳刑 of
+亥卯未 is in the north, the place of 亥子丑. 申子辰 is the place of water.
+Though water trusts in the wisdom of yin floating, yang breath goes and
+punishes it; so the 歳刑 of 申子辰 is in the east, the place of 寅卯辰.
+Earth is king of the five agents, and heaven can punish it. 未丑辰戌 are
+the places of earth, and they punish one another: 未 punishes 丑, 戌
+punishes 未, 辰's punishment is 辰, 丑's punishment is 戌. … Of the five
+agents none escapes punishment; earth, their king, heaven punishes. The
+尚書暦 says: the 歳刑 is heaven's yin essence, the essence of Mercury;
+another name is 法曹司馬, named for killing and penalty. So each of the
+five agents is punished in one direction. … The 呂氏春秋 says: penalties
+may not lie hidden in a state, nor the whip be laid aside in a house. The
+歳刑 is the direction that receives punishment and killing within the
+year: so it has much misfortune and little blessing, and nothing at all
+may be done offending it. The 太公兵書 says: when an undertaking is good,
+heaven answers it with virtue; when bad, with punishment."
+
+#### §11 歳破 (GR img. 15 left page; MS img. 14 left page – img. 15 right page)
+
+> 釋歳破第十一
+> 或問歳破者何也　答曰暦例云歳破土曜之精大歳所對衝方也一歳之中為大歳見衝破故云破子歳破者在午丑歳破者在未餘例皆尒於是破有輕重故寅申巳亥方破者四孟為五行生也子午卯酉方破者四仲為五行盛壯也丑未辰戌方破者四季為五行衰老也故歳破在寅申巳亥者無咎在子午卯酉者輕凶在丑未辰戌者在衰老無生盛重凶也起土移徙不可犯向之又馬牛之類不可於其方求矣
+
+MS: «子歳者破在午丑歳者破在未», «在丑未辰戌者有衰老无生盛» (有 for GR's
+second 在), and «不可於其方来矣» (来, "be brought", for GR's 求, "be
+sought"; on MS img. 15 the form is 来).
+
+"The 暦例 says: the 歳破 is the essence of Saturn (土曜), the direction
+facing the 大歳 across; within the year it is struck and broken by the
+大歳, so it is called 破. In a 子 year the 歳破 is at 午, in a 丑 year at
+未, and the other years likewise. Its breaking is light or heavy: the
+breaking in 寅申巳亥 is in the four 孟, where the agents are born; in
+子午卯酉, the four 仲, where they are at their full strength; in 丑未辰戌,
+the four 季, where they decline and age. So a 歳破 in 寅申巳亥 is without
+blame; in 子午卯酉 it is lightly bad; in 丑未辰戌, being in decline and
+age, without birth or strength, it is heavily bad. Breaking ground and
+moving house may not be done offending it by facing it; and horses,
+cattle and the like may not be sought (MS: brought) from that direction."
+
+#### §12 歳殺 (GR img. 16 right page; MS img. 15 right page)
+
+> 釋歳殺第十二
+> 或問歳殺者何也　答曰暦例云歳殺陰氣尤毒害方謂之殺金曜之精專主斂氣万物滅方也故丑未辰戌方運轉而不居於餘方不吉方也
+
+MS: «歳煞», «謂之煞», and «專主殺无万物滅方也» where GR has «專主斂氣»
+(the MS character after 殺 is not certain).
+
+"The 暦例 says: the 歳殺 is the direction where yin breath is most
+poisonous and harmful; it is called 殺. It is the essence of Venus (金曜),
+rules over the gathering-in of breath, the direction where the ten
+thousand things perish. So it goes round the directions 丑未辰戌 and does
+not stay in the others; it is an unlucky direction."
+
+#### §13 黄旛 (GR img. 16 right page – left page; MS img. 15)
+
+> 釋黄幡第十三
+> 或問黄幡何也　答曰暦例云黄幡羅睺星之精大歳之墓也万物皆有生死故有墓其物皆皈於土常運轉於丑未辰戌方不行餘方主於土色故名黄又幡者旗也其形如樹幡故云幡又五行墓皆以丑未辰戌日為五墓日是主土之故也向其方立門取土不吉餘無咎也
+
+MS: «皆皈於土故常運轉», «立门», «余无咎».
+
+"The 暦例 says: the 黄幡 is the essence of Rāhu (羅睺星), the grave of the
+大歳. All things have birth and death, so they have a grave, and all
+return to the earth: so it always goes round the directions 丑未辰戌 and
+does not go to the others. It rules the colour of earth, so it is called
+yellow; and 幡 is a banner, its shape like a banner set up. The graves of
+the five agents all fall on 丑未辰戌 days, the five grave days, because
+these rule earth. Setting up a gate or taking earth facing that direction
+is unlucky; the rest is without blame."
+
+#### §14 豹尾 (GR img. 16 left page; MS img. 15 left page)
+
+> 釋豹尾第十四
+> 或問豹尾者何也　答曰暦例云豹尾計都星之精黄幡對向之方也故幡在辰方尾在戌方相對餘歳亦尒其幡尾之指靡形変動而速疾似豹尾之動又豹以有君子之喩故象之馬牛犬之有尾類不可於其方来也餘無妨
+
+MS: «不可於其於来也余无妨» (於 for 方, a copyist's slip).
+
+"The 暦例 says: the 豹尾 is the essence of Ketu (計都星), the direction
+facing the 黄幡 across: when the banner is at 辰, the tail is at 戌,
+opposite; the other years likewise. The banner's and the tail's
+fluttering shapes move and change quickly, like the movement of a
+leopard's tail; and the leopard stands as a figure of the noble man, so
+it is taken as the image. Horses, cattle, dogs and other tailed beasts
+may not be brought from that direction; nothing else is harmed."
+
+#### §15 歳名 (GR img. 16 left page – img. 17 left page; MS img. 15 left page)
+
+> 釋歳名第十五
+> 或問歳名何也　答曰尒雅云寅名攝提格之歳格起也万物蒸陽起也卯名單閼之歳閼止也言陽氣推万物而起陰氣盡止也辰名執徐之歳執蟄也徐舒也言伏蟄之物皆散舒而出也巳名大荒洛之歳荒大也言万物熾盛而大落而布散也午名敦牂之歳言万物盛壯也未名協洽之歳協叶和也洽合也申名涒灘之歳涒灘大脩也言万物皆脩其精氣酉名作噩之歳噩落也言万物脩其隨落〔若〕也戌名閹茂之歳閹大也言万物皆大冒也亥名大淵獻之歳淵藏也言万物終亥也大小深窟伏以迎陽也子名困敦之歳困混也敦沌也言陽氣混沌万物垂孽也丑名赤奮若之歳奮起也言陽氣奮迅而起赤陽之色也自攝提格至赤奮若皆十二支名也故曰歳名
+
+Uncertain: «蒸» (艹 over a form ending in 灬; MS «承陽起»), «垂孽»; the
+〔若〕 is boxed in GR, an editor's mark.
+
+"The 爾雅 says: 寅 is called the year 攝提格, … 丑 the year 赤奮若; from
+攝提格 to 赤奮若 are the names of the twelve branches, hence 'year
+names'." (Each name is glossed as a stage of yang breath and the growth
+of things.) The section names no direction and no god: it is not a
+direction god and gives no direction.
+
+#### Beside them: §31, §46, §54
+
+§31 (GR img. 41 left page – img. 42 right page):
+
+> 釋歳位歳前歳對歳後第三十一
+> 或問歳位歳前對後四種何也　答曰陰陽書云四種者皆主五行大歳之位同之子歳者大歳位子也前丑對午也後亥也餘例皆尒也歳位者王者之位歳前公侯之位歳對卿大夫位歳後庶人之位但無吉凶故皆通無妨也
+
+"The 陰陽書 says: the four all rule the five agents and share the
+大歳's place: in a 子 year the year's position is 子, the one before 丑,
+the one facing 午, the one behind 亥, and the other years likewise. The
+year's position is the king's, the one before the lords', the one facing
+the ministers', the one behind the commoners'; but they carry no luck or
+ill, so all may be passed through without harm." The 歳對, so reckoned,
+is the 歳破's place (§11), which §11 calls bad.
+
+§46 (GR img. 47 left page – img. 48 right page), the graves the 黄幡's
+"grave of the 大歳" refers to:
+
+> 或問五墓者何也　答曰五行大義云五墓者木生於亥死於午墓於未火生於寅死於酉墓於戌金生於巳死於子墓於丑水生於申死於卯墓於辰土生於卯死於戌墓於辰…
+
+"The 五行大義 says: wood is born at 亥, dies at 午, has its grave at 未;
+fire is born at 寅, dies at 酉, grave at 戌; metal born at 巳, dies at 子,
+grave at 丑; water born at 申, dies at 卯, grave at 辰; earth born at 卯,
+dies at 戌, grave at 辰. …"
+
+§54 大將軍遊行 (GR img. 50 right page – left page; MS img. 42 right page):
+
+> 釋大將軍遊行第五十四
+> 或問大將軍遊行者何也　答曰大將軍從甲子日至戊辰日五日遊卯方從戊子日至壬辰日五日入来中宮〔中宮屋内〕從中子日至庚辰日五日出遊午方從庚子日至甲辰日五日出遊酉方從壬子日至丙辰日五日出遊子方每巳日還本所者大將軍云在卯方三歳間云東方也餘方皆尒於是遊行五日之間雖大塞方致修造無咎但遊行方五日之間犯之大凶
+
+GR's «從中子日» is a misprint: MS has «從丙子日», and 丙子 to 庚辰 is the
+five days the others have. MS also: «五日出遊卯方», «還本所〻〻者大將軍在卯方者三歳之間云東方也»
+("returns to its own place. Its own place: when the 大將軍 is in the 卯
+direction, for those three years it is called the east"), «无咎».
+
+"The 大將軍 goes out from 甲子 to 戊辰, five days, to the 卯 direction;
+from 戊子 to 壬辰, five days, it comes into the centre (the centre is
+inside the house); from 丙子 to 庚辰, five days, it goes out to 午; from
+庚子 to 甲辰, five days, to 酉; from 壬子 to 丙辰, five days, to 子. On
+each 巳 day it returns to its own place: when the 大將軍 is said to be in
+卯 for three years, that is the east; the other directions likewise. So
+during the five days of its going out, building and repairing towards
+even the direction it blocks is without blame; but offending the
+direction it has gone to, during those five days, is greatly bad."
+
+### Each god: its direction, what is avoided, its time
+
+The year's branch decides every god; RM names no stem for any of the
+eight (the stem gives only §7's 歳徳). RM does not say where the year
+begins for them.
+
+| God | Its star (RM) | Direction by the year's branch (RM) | Section, GR img. |
+| --- | --- | --- | --- |
+| 大歳 | Jupiter (歳星) | The year's own branch: 子→子 (due north), 丑→丑, … | §6, img. 11–12 |
+| 大將軍 | Venus (太白) | One of the four 仲 (子, 卯, 午, 酉), three years in each, round the four in twelve; which years put it where is **not given** | §8, img. 13; §54, img. 50 |
+| 大陰 | Saturn (鎮星) | Two branches behind the year: 子→戌, 丑→亥, … | §9, img. 13–14 |
+| 歳刑 | Mercury (水曜) | A quarter by the year's triad: 申子辰 → east (寅卯辰); 寅午戌 → south (巳午未); 巳酉丑 → west (申酉戌); 亥卯未 → north (亥子丑) | §10, img. 14–15 |
+| 歳破 | Saturn (土曜) | Opposite the year: 子→午, 丑→未, … | §11, img. 15 |
+| 歳殺 | Venus (金曜) | Only 丑, 未, 辰 or 戌; which in which year is **not given** | §12, img. 16 |
+| 黄幡 | Rāhu (羅睺星) | The 大歳's grave, only 丑, 未, 辰 or 戌; no table (see below) | §13, img. 16; §46, img. 47–48 |
+| 豹尾 | Ketu (計都星) | Opposite the 黄幡 (幡 at 辰 → 尾 at 戌) | §14, img. 16 |
+
+As a table for the twelve branches, from RM's own rules where it states
+one ("—" where it gives none):
+
+| Year | 大歳 | 大將軍 | 大陰 | 歳刑 (quarter) | 歳破 | 歳殺 | 黄幡 | 豹尾 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 子 | 子 | — | 戌 | 寅卯辰 (E) | 午 | — | — | — |
+| 丑 | 丑 | — | 亥 | 申酉戌 (W) | 未 | — | — | — |
+| 寅 | 寅 | — | 子 | 巳午未 (S) | 申 | — | — | — |
+| 卯 | 卯 | — | 丑 | 亥子丑 (N) | 酉 | — | — | — |
+| 辰 | 辰 | — | 寅 | 寅卯辰 (E) | 戌 | — | — | — |
+| 巳 | 巳 | — | 卯 | 申酉戌 (W) | 亥 | — | — | — |
+| 午 | 午 | — | 辰 | 巳午未 (S) | 子 | — | — | — |
+| 未 | 未 | — | 巳 | 亥子丑 (N) | 丑 | — | — | — |
+| 申 | 申 | — | 午 | 寅卯辰 (E) | 寅 | — | — | — |
+| 酉 | 酉 | — | 未 | 申酉戌 (W) | 卯 | — | — | — |
+| 戌 | 戌 | — | 申 | 巳午未 (S) | 辰 | — | — | — |
+| 亥 | 亥 | — | 酉 | 亥子丑 (N) | 巳 | — | — | — |
+
+What RM gives besides, towards a full table:
+
+- **歳刑 in the earth years.** §10's line on the earth branches, «未刑丑也
+  戌刑未也辰之刑辰也丑之刑戌也» (未 punishes 丑, 戌 punishes 未, 辰 itself,
+  丑 punishes 戌), names one branch for each of 丑, 辰, 未, 戌, each inside
+  the quarter its triad gives; RM offers it as the reason earth is
+  punished, not as the 歳刑's place.
+- **黄幡.** RM calls it the 大歳's grave and §46 gives the graves by agent
+  (wood 未, fire 戌, metal 丑, water 辰, earth 辰); §10 gives the agents of
+  the triads (巳酉丑 metal, 寅午戌 fire, 亥卯未 wood, 申子辰 water). Read
+  together they give 申子辰 → 辰, 巳酉丑 → 丑, 寅午戌 → 戌, 亥卯未 → 未, and
+  §14's example (幡 at 辰, 尾 at 戌) fits a 申子辰 year. RM itself never
+  joins the two; by the single branch's own agent (寅 wood → 未, 丑 earth →
+  辰) the grave would fall elsewhere.
+- **The 大將軍's anchor.** §54's "when it is in 卯 for three years, that is
+  the east" names the east as one of its stays and no year.
+
+**What is avoided towards each, and what is allowed** (RM's own lists):
+
+| God | Avoided | Allowed, or its grade | Where |
+| --- | --- | --- | --- |
+| 大歳 | Doing anything bad offending it; above all leading an army against an enemy facing it (greatly bad); bad deeds facing it raise epidemics | The luckiest direction, "lord of the year", holding blessing; who respects it is kept safe | §6 |
+| 大將軍 | Everything: laying foundation stones, setting up pillars, raising the ridgepole, building and repairing, moving house, marrying, plastering a hearth, digging a well, building a wall, leading out an army, burial, breaking ground — greatly bad. The avoided arc is the whole quarter: in 卯, the 寅, 甲, 乙 and 辰 directions with it (RM's ruling from the old reports, against a reading that spared them) | During its five-day outings (§54) building towards its own blocked direction is without blame; the direction it has gone to is greatly bad for those five days | §8, §54 |
+| 大陰 | Women's affairs: a pregnant woman moving to it, or facing it at birth | — | §9 |
+| 歳刑 | Everything ("nothing may be done offending it"); much misfortune, little blessing | — | §10 |
+| 歳破 | Breaking ground and moving house facing it; seeking (MS: bringing) horses, cattle and the like from it | Graded: in 寅申巳亥 without blame; in 子午卯酉 lightly bad; in 丑未辰戌 heavily bad | §11 |
+| 歳殺 | An unlucky direction, where things perish; no work named | — | §12 |
+| 黄幡 | Setting up a gate, taking earth, facing it | "The rest is without blame" | §13 |
+| 豹尾 | Bringing horses, cattle, dogs or other tailed beasts from it | "Nothing else is harmed" | §14 |
+
+**Time limits.** Only the 大將軍 has one: three years in each 仲, twelve
+for the round (§8); within that, five-day outings fixed by the day's
+cycle (甲子 卯, 丙子 午, 戊子 the centre inside the house, 庚子 酉, 壬子 子),
+returning on each 巳 day, during which its own direction is free and the
+one it visits is greatly bad (§54). The 大歳, 大陰, 歳刑 and 歳破 move with
+the year; the 歳殺 and 黄幡 "go round" 丑未辰戌 and stay nowhere else (§12,
+§13). No 遊行 is given for the other seven.
+
+### Against the modern digests
+
+The modern side, read 2026-10-31 in the browser:
+
+- the NDL's online exhibition 『日本の暦』, chapter 3, 「干支②方位神」
+  (https://www.ndl.go.jp/koyomi/chapter3/s2.html): the 八将神 head the
+  almanac and are placed by the year's branch; for each, a notation as an
+  old 仮名暦 printed it and a gloss;
+- Japanese Wikipedia, 「八将神」 (https://ja.wikipedia.org/wiki/八将神,
+  CC BY-SA; facts only), whose table of the twelve years cites 『陰陽道の本』
+  (学習研究社, 1994).
+
+koyomi8 and the NAOJ have no page on the 八将神 (*Searched and not
+found*); the 高島暦's own text is not online, only its contents, which
+list «方位吉凶図・目次», «方位吉凶の説明», «八将神・金神の説明» and «方位の見方と調べ方»
+(Kinokuniya's listing of the 令和8年 edition). So the printed almanac's
+reckoning is not seen; what follows compares RM with the two digests,
+differences stated, not settled.
+
+| God | Wikipedia's table (years 子 … 亥) | Against RM |
+| --- | --- | --- |
+| 大歳 | the year's branch | Same. |
+| 大將軍 | 酉 酉 子 子 子 卯 卯 卯 午 午 午 酉 (亥子丑 → 酉, 寅卯辰 → 子, 巳午未 → 卯, 申酉戌 → 午) | Within RM's rule (the four 仲, three years each); RM gives no anchor year, so the assignment is the digest's only. |
+| 大陰 | 戌 亥 子 丑 寅 卯 辰 巳 午 未 申 酉 | Same (two behind). |
+| 歳刑 | 卯 戌 巳 子 辰 申 午 丑 寅 酉 未 亥 | Each branch lies inside RM's quarter; RM places the 歳刑 in the quarter, the digest in one branch. For 丑, 辰, 未, 戌 the digest's branch is the one RM's earth line names. |
+| 歳破 | 午 未 申 酉 戌 亥 子 丑 寅 卯 辰 巳 | Same (opposite). RM's grading by 孟, 仲, 季 is in neither digest. |
+| 歳殺 | 未 辰 丑 戌 未 辰 丑 戌 未 辰 丑 戌 (申子辰 → 未, 巳酉丑 → 辰, 寅午戌 → 丑, 亥卯未 → 戌) | RM: only 丑未辰戌, no rule; the assignment is the digest's only. |
+| 黄幡 | 辰 丑 戌 未 辰 丑 戌 未 辰 丑 戌 未 | The triad's grave, as §10 and §46 give when read together; RM does not join them. |
+| 豹尾 | 戌 未 辰 丑 戌 未 辰 丑 戌 未 辰 丑 | Opposite the 黄幡, as RM. |
+
+On what is avoided and allowed (NDL's glosses, with the 仮名暦 notation it
+quotes; Wikipedia's notes):
+
+- **大歳**: NDL «此方ニむかひて万よし 但木をきらす», all good facing it but
+  felling trees; Wikipedia: moving and building good, lawsuits and felling
+  bad. RM: the luckiest direction, and nothing bad to be done facing it;
+  trees, lawsuits and moving are not named.
+- **大將軍**: NDL «ことしまて三年ふさかり», "three years blocked", its
+  direction bad; Wikipedia: everything greatly bad. As RM; neither names
+  the quarter's width or the 遊行.
+- **大陰**: NDL «此方ニむかひてさんをせす», marriage and birth facing it
+  bad; Wikipedia: marriage talks and birth. RM: women's affairs,
+  pregnancy and birth; marriage is not named.
+- **歳刑**: NDL «むかひてたねまかす», bad for everything, ploughing and
+  sowing above all; Wikipedia: ploughing. RM: everything; sowing not
+  named.
+- **歳破**: NDL «むかひてわたましせす ふねのりはしめす», moving house,
+  travel and boarding a ship bad, **acquiring livestock good**; Wikipedia:
+  moving and travel bad. RM: breaking ground and moving house bad, and
+  horses and cattle **not** to be sought (MS: brought) from it — the
+  opposite of NDL's gloss on livestock. RM's own §31 calls the facing
+  position (the 歳對) harmless.
+- **歳殺**: NDL «此方よりよめとらす», no bride taken from this direction,
+  marriage and birth bad; Wikipedia: marriage bad, Buddhist rites good.
+  RM: unlucky, no work named.
+- **黄幡**: NDL «むかひて弓はしめよし», moving earth bad, the first archery
+  good; Wikipedia: martial arts good, moving and building bad. RM: a gate
+  or taking earth bad, the rest without blame; archery not named.
+- **豹尾**: NDL «むかひて大小へんせす くるいもとめす», no urinating or
+  defecating facing it, no acquiring livestock; Wikipedia: livestock,
+  urinating and defecating. RM: tailed beasts not brought from it;
+  urinating and defecating not named.
+
+### Open
+
+- Question: Which years put the 大將軍 in which 仲? The 暦林問答集 (§8,
+  §54) gives four 仲 and three years in each, with no anchor; the modern
+  table (亥子丑 west, 寅卯辰 north, 巳午未 east, 申酉戌 south) is the
+  digests'. Which old text gives the assignment?
+- Question: Which old text gives the 歳殺's branch by the year (the modern
+  申子辰 → 未, 巳酉丑 → 辰, 寅午戌 → 丑, 亥卯未 → 戌)? The 暦林問答集 §12 gives
+  only that it moves among 丑未辰戌.
+- Question: Is the 黄幡, "the grave of the 大歳" (§13), the grave of the
+  year's triad (as the modern table has it) or of the year branch's own
+  agent? The 暦林問答集 states neither; §10 and §46 read together give the
+  triad's.
+- Question: The 暦林問答集 places the 歳刑 in a whole quarter by the triad
+  (§10); the modern table in one branch of it. Does an old text give the
+  single branch for the 子, 寅, 卯, 巳, 午, 申, 酉, 亥 years (RM's earth line
+  gives it for 丑, 辰, 未, 戌 only, and as an explanation), and does the
+  printed 方位吉凶図 shade the quarter or the branch?
+- Question: How wide is each god's direction on the printed 方位吉凶図?
+  The 暦林問答集 rules for the 大將軍 that 寅, 甲, 卯, 乙 and 辰 are avoided
+  together (§8); is that kept today, and for the other gods?
+- Question: The 歳破 and livestock: the 暦林問答集 (§11) forbids seeking
+  (MS: bringing) horses and cattle from its direction; the NDL's
+  exhibition says acquiring livestock there is good. Which does the
+  printed almanac say (the paper 高島暦, D12)? And the 暦林問答集's own §31
+  calls the 歳對, the same place, harmless; does any text reconcile them?
+- Question: Does the printed almanac keep the 大將軍's five-day outings
+  (§54) and the freeing of its own direction during them? And when an
+  outing goes to the direction it already holds (甲子–戊辰 to 卯 in its
+  eastern years), what does the old rule mean?
+- Question: Where does the year of the 八将神 begin, 立春 or the new
+  year? None of §6, §8–§14 says.
+
+Doubts in the text, not settled by the two witnesses: §12 GR «專主斂氣»
+against MS «專主殺无» (the MS character after 殺 uncertain); §11 GR «求»
+against MS «来»; §15 GR «蒸陽起» (the character uncertain) against MS
+«承陽起», and «垂孽».
+
+### Searched and not found
+
+- **The NAOJ** (2026-10-31, in the browser): the 暦Wiki's page list
+  (https://eco.mtk.nao.ac.jp/koyomi/wiki/list.html) has no page on the
+  八将神, the 方位神 or any year direction; its 「暦注」 page names only the
+  three bands; the こよみ用語解説 index has nothing on directions. The
+  wiki's own search returns the front page.
+- **koyomi8.com** (2026-10-31): the 暦注計算 page and its three 「暦注の説明」
+  pages, the 「暦と天文の雑学」 index and the 恵方 article (doc_0430) have
+  nothing on the 八将神; its only 方位神 articles, 「暦と方位神1・金神」 and
+  「暦と方位神2・金神の間日」 (日刊☆こよみのページ, 2009-05-28 and -29), name
+  the 八将神 but give no directions (the series stops at two).
+- **The other calendar sites** (2026-10-31): rekichu.com's 「暦注とは」 pages,
+  takao-hospital.net/koyomi and 神宮館's 「運勢のページ」 have nothing on the
+  八将神; the 高島暦 令和8年's text is not online (Kinokuniya's listing
+  gives its contents only).
+- **The 暦林問答集** §6, §8–§15: no stem rule for any of the eight, no
+  anchor year for the 大將軍, no branch rule for the 歳殺, no start of the
+  year, no 遊行 but the 大將軍's (§54).
 
 
 ## 金神: which old text gives it, and how the printed almanac reckons it (RD93)
