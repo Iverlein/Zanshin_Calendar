@@ -2209,3 +2209,18 @@ Russian.
   repository's record, no text.
 - WebSearch in Russian for the 十二直 (建除), 社日 and 暦注 terms: only
   fortune-telling and travel sites, not read.
+
+
+## The 暦林問答集's year direction gods: the 八将神 for the year sheet (RD92)
+
+Nothing read yet: RD92's passages, with the English beside them, go here.
+
+
+## 金神: which old text gives it, and how the printed almanac reckons it (RD93)
+
+Nothing read yet: RD93's passages, with the English beside them, go here.
+
+
+## The daily directions: 天一神's and 日遊神's (RD94)
+
+Nothing read yet: RD94's passages, with the English beside them, go here.
