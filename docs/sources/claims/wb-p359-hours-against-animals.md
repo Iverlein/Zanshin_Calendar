@@ -1,0 +1,11 @@
+---
+kind: claim
+type: note
+terms: []
+cites: ['wb.2:p359']
+feeds: []
+open: []
+---
+# WB p. 359: the twelve double-hours against the animals run Hare, Dragon at sunrise, Snake, Horse at midday and so on, the Bird omitted; the hour is a sharp weapon
+
+Read 2026-11-01 on the 1996 scan (I1KG12907 img. 367, 2.5x, the lower half by eye) beside the 1996 etext (IE0OPI51524892, its marker [p367] = img. 367 = printed p. 359). The question's page is wrong: the hours against the twelve animals stand at the end of p. 359 (img. 367), not on pp. 360-361, and are "the twelve double-hours of the Chinese reckoning" (རྒྱ་རྩིས་དུས་ཚོད་བཅུ་གཉིས, rgya rtsis dus tshod bcu gnyis). The order on the scan, each hour with the work it favours: Hare, keeping curd and beer; Dragon at sunrise (ཉི་ཤར, nyi shar), calling the luck-gathering (phywa g.yang); Snake at the forenoon sun (ཉི་དྲོས, nyi dros), reciting the mantras that subdue the earth lords; Horse at midday (ཉི་ཕྱེད, nyi phyed, "the sun's half"; not "half past noon"), the fierce reversing recitation; Sheep after midday (ཕྱེད་ཡོལ, phyed yol), the madness-and-contagion taming works; Monkey in the late afternoon (མྱུར་སྨད, myur smad), expelling what is against one, and the guardians' pacifying and increasing offerings; Dog at dusk (ས་སྲོད, sa srod), binding the rhinoceros-hide (bse rags) mouth; Pig at the turn of the evening (སྲིད་འཁོར, srid 'khor), taming the throat-demon (gre mo); Rat at midnight, calling the luck by mantra; Ox after midnight (ཕྱེད་ཡོལ), the fierce mantras succeed; Tiger, killing the enemy and drawing the mantra-power; and the Hare's own hour at dawn (རང་ཉིད་ལོ་ཡི་དུས་ཤར་ཚེ) is bad for fierce, rough and clashing works. The Bird (Rooster) is not named: after the Monkey the page goes straight to the Dog, on the scan as in the etext. Then comes the warning about the "pit-and-hollow" hours and the four demons' roving hours, and the closing line that the hour is a sharp weapon (དུས་ཚོད་མཚོན་ཆ་རྣོ་བ་ཡིན). So the machine's order (Dragon at sunrise, Snake at noon, Horse half past noon) holds in its sequence, with "noon" read as the forenoon and "half past noon" as midday. The names were read on the scan against the etext; the works were taken from the etext and not read word by word on the scan.
