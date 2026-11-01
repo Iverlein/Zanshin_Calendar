@@ -1220,3 +1220,6 @@ Searched and found wanting, so not to be repeated:
   - The 歳破's «livestock good»: not in the kana almanacs (dozens of copies, 1712–1860s), the 簠簋内伝, 拾芥抄 or 古事類苑.
   - The 歳殺's, 黄幡's and 歳刑's branches in a triad rule in an old text: the 暦林問答集 gives the 歳刑 by quarter, the 簠簋内伝 only the table.
   - The 假名暦略註's own text: NDL pids 14487066 and 13589337 have no machine text and no open images.
+- **RD104 dead ends** (RD104, 2026-11-01):
+  - The list of 208 questions searched by string: no hit for the sky dog (q415), «འཇུག་ཕོད» (q419), «རིགས་དགུ» (q428), «དགྲ་རྡེལ» (q396) or the moment's small examinations (q423).
+  - «དཔྱད་འགོག» and «སྟོངས» have no second occurrence in img. 9–108 and 467–514.
