@@ -9,6 +9,20 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD48 (2026-10-23): the regent's *Removing the Tarnish* (BDRC MW8226), the questions 101–136 and 143–160 (vol. 1, I5875 img. 90–108) and the replies to them, on WB's ch. 22–25 and 28–30 (vol. 1 img. 454–546, vol. 2, I5876 img. 14–18), by Yigdzin-1 over every image; read on the scan, line by line, the replies that bear on the dead's trigram, the illness's inputs, the match and the moment: 111, 133, 148, 152 and 160 (reply 113 was read on the scan by RD21). The replies run in WB's chapter order; reply 153 runs from the end of vol. 1 into vol. 2, whose replies 154–160 close ch. 30. The Taikhang copy prints its own page numbers in the left margin (img. 467 is its p. 458). The other replies are given here in outline from the machine reading, and say so. Reply 157, on the moment's trigram, was read on the scan by RD49 (2026-10-25), under ys.2:i016-017. Question and reply 123, on the household round, were read on the scan on 2026-10-25 (ys:i096, ys:i478-479).
 
+Read again by RD104 (2026-11-01): Yigdzin-1 over the whole list of questions (I5875 img. 9–135) and over question 134 (img. 99), the replies of img. 467–468, 491–514 and vol. 2 img. 16–17, for the open questions 271, 382–388, 390, 393, 396, 397, 399 and 400; the clauses of those replies that bear on them were compared with the earlier scan readings (and img. 506, l. 4 and img. 99 by eye on crops), and each is answered or narrowed in its question file. The new passages ys:i087, ys:i092, ys:i094b and ys.2:i016 are machine readings, quoted for one word each.
+
+## <a id="ys-2-i016"></a>ys.2:i016 Reply 156: the Supreme Guide's replies on the star and Chinese reckonings
+
+*Read: machine, 2026-11-01.*
+
+> … ༧རྣམ་འདེན་མཆོག་གི་རྩིས་སྐར་ནག་གི་དྲི་ལན་དུ། ཡང་ནག་རྩིས་པ་ཞིག་གིས་གཤིན་གསོན་གྱི་ རྩིས་རྣམས་སྐྱབས་འགྲོ་དང་སེམས་བསྐྱེད་ཀྱི་རྩིས་ཟིན་པའི་སྒོ་ནས་བྱས་ན་སངས་རྒྱས་ཐོབ་པའི་རྒྱུར་འགྱུར་པའི་རྒྱུ་མཚན་ཞེས་སོགས་དང་། འདི་དང་དགོངས་པ་མཐུན་པར་སྟག་ཚང་ལོ་ཆེན་གྱི་དཔལ་འབྱོར་རྒྱ་མཚོར་ཡང་གསུངས་པ་ལྟར་རང་གིས་གང་བྱ་བ་དེ་ཉིད་ཀྱི་སྔོན་དུ་སྐྱབས་སེམས་ཀྱི་རྩིས་ཟིན་པའི་སྒོ་ནས་འདོད་པའི་ལྷར་གསོལ་མཆོད་ བདར་ཡང་སྔོན་དུ་བྱུང་ན་ལས་དེ་མཐར་སོན་པ་སོགས་པའི་རྒྱུ་འབྲས་བསླུ་མེད་ཀྱི་སྒོ་ནས་དགོས་པ་ཁྱད་པར་ཅན་དང་། …
+
+From reply 156 (vol. 2, I5876 img. 16, ll. 3–4; Yigdzin-1 only, not read on the scan). The reply's opening restates a question on the offerings called «བདར་ཡང» (bdar yang) and the chapter-heads; its sense is not taken here, only its citations.
+
+The reply quotes the *Replies on the Star and Chinese Reckonings* of "the Supreme Guide" (རྣམ་འདེན་མཆོག, rnam 'dren mchog; the mark ༧ stands before the name): "again, if a Chinese-reckoner does the reckonings of the dead and of the living by way of refuge and the generation of the mind of awakening, [this is] the reason that it becomes the cause of reaching Buddhahood", and so on; and, in agreement, as Taktsang Lotsawa's *Ocean of Glory* (སྟག་ཚང་ལོ་ཆེན་གྱི་དཔལ་འབྱོར་རྒྱ་མཚོ) also says, whatever one does, if the request-offering to the wished-for deity is made first by way of refuge and the mind of awakening, the work comes to its end, through the unfailing way of cause and fruit: a special need.
+
+The title is the one that reply 137 gives, in the form «༧རྗེ་བླ་མའི་རྩིས་སྐར་ནག་གི་དྲི་ལན» (ys:i494-496): the same replies, each time under a mark of honour and named by title only.
+
 ## <a id="ys-2-i016-017"></a>ys.2:i016-017 Reply 157: the moment's trigram, the General Tantra and the Speckled Sheet
 
 *Read: scan, 2026-10-25.*
@@ -22,6 +36,18 @@ The question, as the reply restates it: the trigram reckoning is told in the *Ge
 The answer: what comes from the *General Tantra* and the like is a pure tantra; but of the ways of the black reckoning that unfolded like leaves, the practice that is as the fruit, the essence, goes no further than Duhar Nagpo's *Clear Lamp* (གསལ་སྒྲོན, gsal sgron), and all, one's own and others', must wish it. Therefore from the *Speckled Sheet* (ཤོག་ཁྲ, shog khra), its very essence: "the tiger, horse and dog begin their dates with li, and the first time of the date's day is li too"; and, besides, from the first translation of the *Speckled Elements*, the *Vaiḍūrya* volume: "for the three, tiger, horse and dog, the year's trigram is li, so the month too is li, the first date li, the hour of dawn li." Since that same [text] is especially great by way of its marrow or essence, there is no cause for doubt.
 
 The reading is by the scan (a running hand): lines 1–4 of img. 17 were read in quarters at native size against Yigdzin-1 and agree with it in every clause quoted; Yigdzin-1 prints «སྦར་ཁ» for «སྤར་ཁ» in the *Vaiḍūrya* line, and the scan's first letter there is not told from either at this size; the opening, «བརྒྱ་ང་བདུན་པ» at the foot of img. 16, was not read on the scan (Yigdzin-1 gives «བརྒྱ་ད་»), and the reply's first clause about the *General Tantra*, «ཁོ་ན་སོགས», is taken as Yigdzin-1 has it.
+
+## <a id="ys-i087"></a>ys:i087 Question 94: the boast «རྦད་ཁམས་སྒྲོག» of those who call a way Phugpa's
+
+*Read: machine, 2026-11-01.*
+
+> ༈ །།བརྒྱ་ད་བཞི་པ་ཡང་དེང་སང་གོང་ས་ཡས་ཕྱིན་གྱིས་དབུས་མཁྱེན་ལྡན་རྣམས་ཀྱིས་ཕུག་པའི་རིང་ལུགས་ལ་གཅེས་སྤྲས་བཀའ་དྲིན་བསྐྱངས་གཤིས། བདག་འདྲ་བྲེ་གང་རྡེལ་དྲུག་གི་སྐོར་འགོའི་་ མཚན་ཉིད་ཙམ་ཀྱང་མི་ཕྱེད་པ་རྣམས་ཀྱིས་ཀྱང་། ལས་སྒོ་དང་རྔ་མའི་དཔེ་བཞིན་ལུགས་འདི་ཕུག་པའི་མན་ངག་ཐེམ་མི་འདར་གཏོགས་ཞེས་ང་མཁས་ང་བཙུན་གྱི་རྦད་ཁམས་སྒྲོག་ཀྱང་། ཕུག་པ་བ་ལ་རིགས་རུས་ཆོ་འབྲང་གི་སྒོ་ནས་ཆེ་བའི་ཡོན་ཏན། མཛད་པ་འཕྲིན་ལས་ཀྱི་ཡོན་ཏན་ཇི་ལྟར་ཞེས་འདྲིན་ལྗགས་རྩ་ཐུང་ …
+
+Question 94 of the *Two Hundred and Eight Requests* (I5875 img. 87, last lines; Yigdzin-1 only, which prints the number as «གོ་བཞི་པ»; the question runs on to img. 88).
+
+"Today the highest ones above, and those of Central Tibet who know, give their care and kindness to Phugpa's own tradition. Yet even those like me, who cannot tell even the definition of the starting points of the six-pebble round of the *bre gang* [?], proclaim a swagger («རྦད་ཁམས་སྒྲོག», rbad khams sgrog) of 'I am learned, I am venerable': 'this way, like the example of a work-door and a drum-mother [«ལས་སྒོ་དང་རྔ་མའི་དཔེ་བཞིན», not understood], belongs to Phugpa's unbreakable oral instruction'. But what are the great qualities of Phugpa's people by lineage, clan and succession, and the qualities of their works and deeds? [The question goes on.]"
+
+So in the questioner's own wording «རྦད་ཁམས» is a boast or swagger, something one "proclaims" («སྒྲོག»).
 
 ## <a id="ys-i090"></a>ys:i090 Question 102 opens: ch. 22 called the life reckoning
 
@@ -49,6 +75,16 @@ The questions sent to the regent by Ngawang (ངག་དབང, ngag dbang) of 
 - **Ch. 29, the reckoning for the dead** (གཤིན་རྩིས, gshin rtsis), 146–153: 146, the chapter, and the forty-seven or twenty pebbles for taking the living out of the dead; 147, the birth mewa's results there and in taking the dead out of the living, and the six lamps; 148, the first section's refuted view, the second section's «སྲོག་ལ་དགྲ་དར་ཤི་བ་ན», "died with the enemy rising on the life force" and "met with the mother or friend", which give two results for the enemy and none for the son, the demons "or else an enemy and a sudden mishap", and the third section's months cutting the life; 149, the funeral share; 150, the best rebirth; 151, the five graves and the old years and trigrams that forbid burning; 152, the "six twins" of the repetition, «བྱི་འབྲུག་སྤྲེལ་གསུམ་ལི་ཁམ་ཐོག», "born rat, dragon or monkey, on li or kham" (a man born rat, dragon or monkey who dies on li or kham is not struck by the "three Tuesdays"), and the trigram repetition «དོ་གཅིག་ལ་བབས་པ … ལོ་ཟླ་ཞག་དུས་བཞི་བརྩེགས་ན», "fallen on the *do gcig* (དོ་གཅིག, do gcig, not translated) … year, month, day and hour, four, stacked"; 153, the three and a half days of fainting after death.
 - **Ch. 30, the reckoning of the moment** (དུས་ཚོད་རྩིས, dus tshod rtsis), 154–160: 154, the signs of the time; 155, the mantra of *a kar ṣa* («ཨ་ཀར་ཥ»); 156, the preliminary invocation; 157, the moment's trigram by season; 158, the mewa of year, month, day and hour; 159, the elements of the time with the days of the month; 160, the thirteen gates, which end at «འཕུང་རྟ་རྔ་ཞོན», the ruin-horse riding the drum, followed by the sky and earth doors.
 
+## <a id="ys-i092"></a>ys:i092 Question 106: the life-wind beside year, month, day and hour
+
+*Read: machine, 2026-11-01.*
+
+> ༈ །།བརྒྱ་དྲུག་པ་འཇུག་དུས་སྲོག་རླུང་དང་ལོ་ཟླ་ཞག་དུས་མ་བུ་དགྲ་གྲོགས་ཀྱི་འབྲས་བུའི་་་་་རྩིས་གཞི་འདིར་མ་གསལ་བའི་མ་བུ་དགྲ་གྲོགས་ཀྱི་འཕྲད་ཁ་གཞན་ཡང་འབྱུང་བ། དེ་ལྷག་འབྱུང་བརྩེགས་རྡེའུ་རྣམས། །བུས་པ་ཆགས་ན་མངལ་དུ་ཅང། །ཅེས་པས་འབྲས་བུ་ ཆད་མེད་དུ་བྱུང་ལགས་ཀྱང་། དེ་འཕྲོས་རང་གི་འབྱུང་བའི་ཟླ་གྲངས་ལ། །མངལ་དུ་འཆི་བར་འགྱུར་བ་ཡིན། །ཞེས་པ་འབྲས་བུ་ཀུན་སྲོག་རླུང་ལོ་ཟླ་ཞག་དུས་ནས་སྟོན་པའི་དབང་གིས་ན། འདིའི་སྐབས་འབྱུང་བ་རྣམ་གྲངས་གསུམ་ཙམ་གྱི་དཔེར་ན་ལྕགས། མེ༏ ཆུ་ལྟ་བུ་བྱུང་ན། ལྕགས་ལ་ལྔ། མེར་བཞི། ཆུ་གསུམ་ བཅས་གྲངས་ཁྱོན་བཅུ་གཉིས་འབྱུང་བ། དེའི་ཟླ་གྲངས་ཀྱི་མངལ་དུ་གནས་དགོས་པ་བུམ་པ་མའི་ལྟོར་ཟླ་བ་བཅུ་གཉིས་སོགས་དགུ་འདས་པ་སྲས་སྒྲ་གཅན་འཛིན་ལྟ་བུ་ལས་འབྲས་ཀྱི་ཆེ་བརྗོད་དུ་མཛད་པ་བསྟན་པ་ཙམ་ལས་གནས་དགོས་མི་འདུག་པ་སྐྱོན་ཆེ་བའི་དོགས་པ་ཤར་བ་སྙན་སྒྲོན་དུ་ཕུལ།།
+
+Question 106 (I5875 img. 92, l. 1, to img. 93; Yigdzin-1 only). On the enemy-and-friend meetings that the pebble pool of the birth reckoning does not show, for "the life-wind (སྲོག་རླུང, srog rlung) and the year, month, day and hour": the verse "the rest of the element stacks of pebbles: if the child is formed, it dies in the womb" gives the result without a limit; and the next, "by the months of one's own element count, one dies in the womb", since all results are shown from the life-wind and from the year, month, day and hour, with three elements in the example, iron, fire and water, iron five, fire four, water three, twelve in all: the months in the womb would be twelve, against the nine of the mother's belly; the doubt that this is a great fault is offered as a request.
+
+The text is cited for one point only: the questioner sets «སྲོག་རླུང» (srog rlung) as one factor beside year, month, day and hour, the five from which "all results are shown".
+
 ## <a id="ys-i094"></a>ys:i094 Question 115: the body cut of the mewa called utterly bad
 
 *Read: scan, 2026-10-25.*
@@ -58,6 +94,16 @@ The questions sent to the regent by Ngawang (ངག་དབང, ngag dbang) of 
 Read on the scan: I5875 img. 94, l. 6, from «ཁུག་པའི» to «ཐ་ཆད», at native size by eye; the question's head on l. 5 and its end («…དུ་བཤད་པ་སོགས་པའི་སྐབས་ངག་དགོངས་པ་འགལ་འདུ་ལྟ་བུ་འདུག…») are Yigdzin-1's reading and BDRC's etext, which agree, not read on the scan.
 
 The questioner's hundred and fifteenth, on the match's mewa (WB vol. 1, pp. 357–358): in the mewa's section mewa meeting as mother and son are called good, but in the section of the hidden *gi gong* (གི་གོང་ཁུག་པ, gi gong khug pa) "eight white, iron's son, with three blue, and four green, wood's son, with seven red" are told as the body cut (ལུས་ཆད, lus chad), "utterly bad" (ངན་པ་ཐ་ཆད, ngan pa tha chad): how are the two not in contradiction? The questioner's words for the lowest class of the match's mewa meetings are the same as the regent's for the lives barred in reply 111 (ys:i467-468): «ཐ་ཆད» names the bottom of a graded set, a class, not a count of pebbles.
+
+## <a id="ys-i094b"></a>ys:i094b Question 114: the birth's «བཙས་ཀླུངས» trigram
+
+*Read: machine, 2026-11-01.*
+
+> ༈ །།བརྒྱ་བཅུ་བཞི་པ་སྤར་ཁའི་སྐབས། བཙས་ཀླུངས་སྤར་ཁ་ བཟང་བཞིར་བབས། །ནམ་ཕུགས་བུ་དང་ཚ་ལ་ཤིས། །ཞེས་བཟང་བ་དང་། འོག་ཏུ་ལི་སྐྱེས་ནང་བསྡེབྶ་ཁ་བུབ་ལ་སོགས་སྤར་ཁ་ནང་བསྡེབས་ངན་པར་བཤད་པ་གཉིས་ཇི་ལྟར་མི་འགལ་ལ་དོགས་པ་འདུག་པ་སྙན་སྒྲོན་དུ་ཕུལ།།
+
+Question 114 (I5875 img. 94, ll. 3–4; Yigdzin-1 only): "In the trigram section [WB] says: «the birth's *klungs* trigram has fallen on the four good: south-north [?], son and nephew find joy», good; and below, the two said to be bad, the born li's inner joining, the *kha bub* and the like, the trigram's inner joining. How do they not conflict? This doubt is offered as a request."
+
+Cited for the form «བཙས་ཀླུངས» (btsas klungs) and its spelling: the questioner uses it, with the final ས, for the birth's luck trigram, apart from «བཙས་པ་སྲོག་རླུང» of question 134.
 
 ## <a id="ys-i096"></a>ys:i096 Question 123: the household round in the Phugpa way
 
@@ -305,6 +351,8 @@ So the regent, too, names the thirteenth gate the ruin-*horse* riding the drum (
 
 - Narrowed by RD52 (2026-10-25), question 390: the notes' and WB's almanac rule take the tiger, horse and dog as the month's animals, with the date's trigram turning forward date by date and the day's eight parts in the same order; the *Vaiḍūrya* line's «ལོ་ལ» stays a doubt, read as the year's it would make the first month li only in the years of that triad, which no other text says (`claims/moment-trigram-month-and-the-later-dates.md`).
 
+- Narrowed by RD104 (2026-11-01), questions 385–388, 390, 399, 400, 271, 393, 396, 397: 385, the *do gcig* is what falls onto a trigram and in the regent's example falls on the birth trigram's own; 386, «ཡི་བམ» is «ལི་ཁམ» and the «འབྱུང་ཆུང» the year animal's small element, WB's own term of the letters; 387, the black verdict has three meetings in the reply's own list and «སྟོངས» is not shown to be a fourth state; 388, re-read, the narrowing stands; 390, the *Speckled Sheet* clause is built like the *General Tantra*'s, the triad where the tantra has the months, the *Vaiḍūrya*'s «ལོ་ལ» still a doubt; 399, one word, the life-wind (`claims/life-wind-srog-rlung-and-the-clan-stopgap.md`); 400, a stopgap; 271, «དགྲ་དར» is a term of the dead's reckoning; 393, in part; 396, searched, none; 397, the son text is a class of accompanying text, not one work (`claims/son-text-hidden-text.md`).
+
 ## Searched and not found
 
 - 2026-10-23, the *Removing the Tarnish*, questions 101–136 and 143–160 (I5875 img. 90–108, Yigdzin-1): none asks which places of the la board are upper, lower and middle (q270), how the death day's planet's state is found (q282), from what age the nine-eye strike and the old kinds are counted (q308), which year the illness table of WB vol. 1, p. 426 calls the sky year (q361), which mewa the second examination's mewa reason reads (q272), or the fire and iron clans' great and small cut-off (q375); so no reply speaks to them. Nor does any question or reply of ch. 23 (107–119) give a name or rule for a couple whose aspects fall into different kinds (q209, q354).
@@ -312,3 +360,8 @@ So the regent, too, names the thirteenth gate the ruin-*horse* riding the drum (
 - 2026-10-23, WB's etext (IE0OPI51524892), vol. 1, for the term «ཁ་འཕངས» / «ཞལ་འཕངས» of question and reply 111 ("rejected" pairings of two bad lives): no hit; the term is the regent's and his questioner's, not WB's.
 - 2026-10-25, the *Vaiḍūrya* volume of the *Speckled Elements* (ཁམས་ཁྲ་དང་པོའི་འགྱུར་བཻ་ཌཱུརྻའི་གླེགས་བུ), for q390: BDRC's full-text search for the line's clauses («ཚེས་ཀྱང་གཅིག་ལ་ལི», «ཟླ་བ་ཡང་ལི། ཚེས་ཀྱང་གཅིག», «དུས་ཚོད་ཀྱང་ནམ་ལངས་ལི», «ཚེས་པའི་ཞག་གི་ཐོག་མའི་དུས»; «སྟག་རྟ་ཁྱི་གསུམ་ལོ་ལ་སྤར་ཁ་ལི» alone) finds the line only in the regent's replies (this volume, and another print of them, MW2PD17386_474815 and its etext group VEIE0OPID552C050, search only, 403 to the etext API); the phrase «བཻ་ཌཱུརྻའི་གླེགས་བུ» occurs only in an unrelated passage of Shākya mchog ldan's collected works, and the other print's snippet only names the volume's inner part, "the examination of beings in twelve". No print of the *Vaiḍūrya* volume or of the *Speckled Sheet* (ཤོག་ཁྲ) with the clause is on BDRC.
 - 2026-10-25, the *Garland of Stars* (kd.3:p693–p701, etext) and the *Dpal bsdus* (I4767) for the three dates after the first: no text gives a rule for the moment's trigram beyond the first date and the first hour other than the notes' "turning in the order" (wb.2:p535-537).
+- 2026-11-01, the list of the 208 questions (I5875 img. 9–135, Yigdzin-1 over every image, machine text; the quoted Tibetan words of the open questions searched in it by string, spelling apart from the tsheg): no hit for the sky dog («གནམ་གྱི་ཁྱི», q415), «འཇུག་ཕོད» (q419), the illness's nine classes («རིགས་དགུ», q428), the enemy pebble («དགྲ་རྡེལ», q396) or the small examinations of the moment (q423); hits that bear on an open question are given in the sections above (q271, q384, q385, q386, q387, q397, q399); the list's questions 1–100 are on WB's first twenty-one chapters, the Kālacakra calendar, and 101–208 follow WB's chapters 22–35 in order.
+- 2026-11-01, «བཙས་པ་སྲོག་རླུང», «དཔྱད་འགོག» and «སྟོངས» in the whole of img. 9–108 and 467–514: «དཔྱད་འགོག» and «སྟོངས» have no second occurrence; «སྲོག་རླུང» occurs in questions 106, 107 and 134 and reply 134.
+- 2026-11-01, Steinert's 64 dictionaries (`locate.py dict`): not opened, the clone is not on this machine, for «རྦད་ཁམ», «བསྔོ་མེད», «འབྱུང་ཆུང», «དཔྱད་འགོག»; BDRC's full-text search (`bdrc_search.py`): not run, the work browser's Chromium (chromium-1248) is not installed on this machine, for the title «རྩིས་སྐར་ནག་གི་དྲི་ལན» of questions 382.
+- 2026-11-01, not read: the replies to questions 1–100 (vol. 1 img. about 130–453) and 161–208 (vol. 2 img. 18 on), outside this reading's pages; the questions that bear on open ones, found by their text in the list: 170 (the Lto-'phye's shrouding wood, q463, q482), 174 and 177–180 (the ground-cutting and the mountain's back and front, ch. 32), 190–195 (ch. 34's results by direction, q408, q409, q472, q473), and 70, 71 (the *Dus 'khor dbyangs 'char* as a work, whose «དབྱངས་འཆར་རྒྱུད» bears on q473); their replies are the next reading's.
+
