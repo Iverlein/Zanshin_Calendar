@@ -881,6 +881,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | open; cites — |
 | [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | open; cites — |
 | [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
+| [questions/q0543.md](questions/q0543.md) | question q543 | Does the colophon's «དམར་ནག་སོགས་ཆེས་ཟབ» mean the red-black verdicts of the reckonings | open; cites — |
+| [questions/q0544.md](questions/q0544.md) | question q544 | What is «ཕྱ་ཐེར» in KP's «སྦྲ་དང་ཕྱ་ཐེར་འཚེམ་པ» | open; cites — |
+| [questions/q0545.md](questions/q0545.md) | question q545 | The saying «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ», the palm turned into a road | open; cites — |
+| [questions/q0546.md](questions/q0546.md) | question q546 | Which root tantra gives «རང་གིས་གོ་ཆ་མ་བརྩམས་ན། །རང་གིས་བྱས་པ་རང་ལ་བརྡེག» | open; cites — |
 
 <!-- end pool index -->
 

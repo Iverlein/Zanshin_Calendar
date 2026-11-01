@@ -1232,3 +1232,10 @@ Searched and found wanting, so not to be repeated:
   - «གཅོད་འདྲལ», «འདྲལ་འགྱེད» as a circuit's name in the dictionaries: the verbs only.
   - The faint letters of the Deathless Elixir img. 809 on a 2370 px scan at 3–5×: not legible.
   - The pairs of the six bad stages by name in Mipham, the Good Vase and Zhechen Gyaltsab: none; the pairing is by order.
+- **RD113 dead ends** (RD113, 2026-11-01):
+  - «ཕྱ་ཐེར», «phya the», «phya thir» as headwords in the 64 dictionaries: none.
+  - «ས་རོད་ཡ» / «སཱ་རོད་ཡ» as a tantra's name in the pool's etexts: only the colophon.
+  - «དམར་ནག» between p. 386 and p. 436 of the 1996 etext: only the colophon.
+  - The two lines of the Mūlatantra in every etext of the pool: only WB's p. 450.
+  - «ཏ་ལ་ལམ་དུ་བསྒྱུར» in the pool's etexts: only WB (1996 and Zhol); no dictionary has the saying.
+  - «ཟོར་ཚུགས» as a word: none; the print has «ཐོར་ཚུགས».
