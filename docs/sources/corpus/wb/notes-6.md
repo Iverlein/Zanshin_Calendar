@@ -79,4 +79,5 @@ Nothing read yet: RD105's passages, with the English beside them, go here.
 
 ## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
 
-Nothing read yet: RD101's passages, with the English beside them, go here.
+
+A reading of 2026-11-01 (RD101): the notes' sentence on the inner meeting at p. 524 ("earth and water the karma spouse, the other three the kin's, said in the *G.ya' sel*") is the reading of reply 113 (I5875 img. 469) and is the whole of what the tradition says on the kinds beyond WB's verse; see [wb-mixed-kinds-other-manuals](../../claims/wb-mixed-kinds-other-manuals.md).

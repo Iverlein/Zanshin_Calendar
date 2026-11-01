@@ -227,6 +227,14 @@ vol. 2: its img. 102 (folio 92) has seven lines to WBZ's six.
 | 2 | 174 | 883, l. 3 | 265 |
 | 2 | 175 | 885, l. 1 | 267 |
 
+## <a id="wbz-i433"></a>wbz:i433 The Zhol print's «རྟ» in «དར་གུད་རྟ་ལ་བསྐྱོན»
+
+*Read: scan, 2026-11-01.*
+
+> དགྲ་ཡིས་གྲི་རུ་འཆི་མི་འཆི། །དར་གུད་རྟ་ལ་བསྐྱོན་ནས་བརྩི། །ལུས་ཀྱི་ན་ཚ་དཀོན་མོད་བརྟག
+
+The Zhol print (Lhasa blocks, BDRC I1KG1710, image 433 = 1996 vol. 1 p. 334), the clause that stands after the life force's enemy: "whether one dies by the blade; reckon rise and decline mounted on the horse (རྟ, rta); the body's illness, rare or frequent, examine." Read by eye on the scan at 3× (the block's cursive hand): the letter is the stacked རྟ, not ཏ. BDRC's etext of the Zhol print and of the manuscript copy in the *Bod lugs gso rig rtsa che'i dpe rnying kun btus* (MW2PD17386_D19206) read «རྟ» too (full-text search, 2026-11-01); the 1996 print and the Gser thang reprint read «ཏ».
+
 ## <a id="wbz-i464"></a>wbz:i464 WB vol. 1, p. 355: the best years of the three in concord (question 357)
 
 *Read: scan, 2026-10-23.*

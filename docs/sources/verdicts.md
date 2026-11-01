@@ -7304,7 +7304,25 @@ Read 2026-11-01 (RD100): WB vol. 1, p. 472 again by eye on the Gser thang reprin
 
 ## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
 
-Nothing read yet: RD101's passages, with the English beside them, go here.
+Read 2026-11-01 (RD101), the same pages and prints as in [year-of-life.md](year-of-life.md), *The birth's and the match's open questions*, and the notes on the Gser thang reprint (I3CN5029, image = printed page + 6): wb.2:p483 (img. 489, the last four lines), wb.2:p488 (img. 494, the lines on the orphaning month, read again), the Zhol print and BDRC's full-text search. The match and the karma reckoning over it (the facts as claims):
+
+- 396 (the white enemy pebble): [wb-white-enemy-pebble-is-the-bad-one](claims/wb-white-enemy-pebble-is-the-bad-one.md), a conflict claim: WB (wb.1:p329-331) and Mipham (wb.2:p483, «དགྲ་དར་ཞེས་སོ་སོའི་དགྲ་རྡེལ་དཀར་ནའོ») read it as the bad one; UT's «white enemy good» (ut:p153-155) stands aside. Answered.
+- 393 (the doubled «མ་མ» of «སྲོག་མ་མ་གུད་པ»): [wb-enemy-rising-needs-company](claims/wb-enemy-rising-needs-company.md): the enemy's rise alone is not bad; it needs company; the grammar of the doubled མ is not settled by the scan.
+- 392 (a middling life reckoning): [life-reckoning-middling-does-not-bar](claims/life-reckoning-middling-does-not-bar.md): by the letter of reply 111 only "utterly bad" bars.
+- 354 and 209 (a match of mixed kinds): [wb-mixed-kinds-other-manuals](claims/wb-mixed-kinds-other-manuals.md): UT, the Bhutan manual, the G.ya' sel's reply 113 and the notes give each aspect's kind and result and no name for the couple; a dead end for a single name.
+- 355 and 210 (which findings make an aspect bad): the older [karma-reckoning-aspect-bad](claims/karma-reckoning-aspect-bad.md) stands; what this reading adds is the white enemy pebble (396) and the company the enemy's rise needs (393).
+- 236 (the notes' «ཕ་ཡི་དྭ་ཟླས་མ་འཆི», vol. 2, p. 488): read again on the reprint (img. 494, the line break after «དྭ་»: «ཕ་ཡི་དྭ་» / «ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ»). «མ» is the mother, not the negative: the father's orphaning month kills the mother, the child's own both (p. 489 says of the father's ogre child: «དྭ་ཟླ་ནི་སྐབས་འདིར་ཕར་ངན་པ་མའི་དྭ་ཟླ་གོང་བཤད་ལྟར་དང་», the mother's orphaning month is the one bad for the father). Claim [orphaning-month-kills-the-other-parent](claims/orphaning-month-kills-the-other-parent.md); a reading from the pair, no gloss says it.
+
+### Open
+
+- Question: does a bad but not utterly bad life reckoning bar the match in reply 111 (the regent's wording «ངན་ཐ་ཆད» names the lowest class only)?
+- Question: is «སྲོག་མ་མ་གུད་པ» (wb.2:p483) "the life force's mother, not declined" or a doubled མ for «སྲོག་མ་གུད་པ», "in decline", and who are the «ངན་དྲུག» of p. 484's «དགྲ་དར་ཞེས་ངན་དྲུག་ལ་བབ་པའོ»?
+- Question: is «སྐར་འབྲས» (p. 351) the results of the planets and mansions (points 14 and 15) or of the match as a whole?
+
+### Searched and not found
+
+- A name for the couple of mixed kinds: the Bhutan manual, UT, the G.ya' sel's reply 113 and the notes (2026-11-01, etexts).
+- BDRC's full-text search for «ལས་རྩིས་བྱས་པས་གཉིས་ཀ་ངན་པ»: the 1996 and Gser thang prints of the notes only.
 
 
 ## The lent scans: KD vol. 3 and the Sakya volume on the eclipse clause, the sheets, the supplement; KD's title page and the Tibet University interview (RD108)

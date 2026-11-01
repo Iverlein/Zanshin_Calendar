@@ -3146,7 +3146,33 @@ clan's grave or enemy mansion and the like.
 
 ## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
 
-Nothing read yet: RD101's passages, with the English beside them, go here.
+Read 2026-11-01 (RD101): open questions 176–178, 180, 181, 183, 205, 207, 208 and the birth's side of 209, 210, 354, 355, 392, 393, 396, on the Gser thang reprint of vol. 1 (I3CN5028, image = printed page − 5 in this range: p. 329 = img. 324, p. 334 = img. 329, p. 339 = img. 334, p. 342 = img. 337, p. 349 = img. 344, p. 351 = img. 346) and of vol. 2 (I3CN5029, image = printed page + 6: p. 483 = img. 489, p. 488 = img. 494), the Zhol print (I1KG1710 img. 433 = p. 334, img. 435 = p. 335) and BDRC's full-text search of the 1996, Gser thang, Zhol and Sakya Centre prints and the manuscript copy in the *Bod lugs gso rig rtsa che'i dpe rnying kun btus*. By eye on the reprint and the Zhol block; no model ran (the card's slots were full for the Taikhang reproduction, I5877 img. 458–466, fetched and not read). Passages in [corpus/wb/ch22.md](corpus/wb/ch22.md) (wb.1:p334, wb.1:p339, wb.1:p342), [corpus/wb/ch23.md](corpus/wb/ch23.md) (wb.1:p351b) and [corpus/wbz/wbz.md](corpus/wbz/wbz.md) (wbz:i433); the facts as claims:
+
+- 176: [wb-dar-gud-rta-la-bskyon](claims/wb-dar-gud-rta-la-bskyon.md): the Zhol print and the manuscript copy read «རྟ», the horse; the 1996 «ཏ» is a slip. Answered.
+- 177: [wb-be-lug-sa-ru-lta](claims/wb-be-lug-sa-ru-lta.md): «ས་རུ་བལྟ» is WB's "look to the place of"; «བེ་ལུག» not glossed anywhere; the young of the herd as a reading.
+- 178: [wb-rag-mi-la-white-many](claims/wb-rag-mi-la-white-many.md): read against the black half's "must serve others"; not glossed.
+- 180: [wb-gza-rgod-is-a-date-of-the-month](claims/wb-gza-rgod-is-a-date-of-the-month.md): the fierce planet's day of ch. 31's list, a date the calendar gives (the printed page is 339).
+- 181: [wb-dus-tshod-tshang-reading](claims/wb-dus-tshod-tshang-reading.md): WB's own closing formula; the hour of the time of reckoning and the household of ch. 24.
+- 183: [wb-wind-item-15-prints-54](claims/wb-wind-item-15-prints-54.md): every print reads 54 at item 15; the run asks for 50; no witness gives it.
+- 205: [wb-luck-dur-phugs-variant](claims/wb-luck-dur-phugs-variant.md): the Zhol block reads «དུར་ལུགས», the luck's tomb, not a stage of its rise.
+- 207: [birth-and-year-of-age-no-ranking](claims/birth-and-year-of-age-no-ranking.md): no reader ranks the two; the weighing of p. 349 over both.
+- 208: [wb-skar-bras-spyi-sdom-counts](claims/wb-skar-bras-spyi-sdom-counts.md): «སྤྱི་སྡོམ» heads the counts.
+
+The match's side (209, 210, 354, 355, 392, 393, 396) is in verdicts.md, the same section.
+
+### Open
+
+- Question: the Zhol print's etext (I1KG1710 p. 433) reads «བུ་ལུག» (a lamb) for the body's friend where the 1996 print and the Gser thang reprint read «བེ་ལུག»: which does the Zhol block carry, and is the body's friend the young of the herd?
+- Question: «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» (p. 335): which letter does the Zhol block carry (img. 435, line 5), and what is the luck's tomb (དུར) that the line asks one to know?
+- Question: item 15 of the forty of the birth wind (p. 342) prints «ང་བཞི» (54) in every print; is it a slip for fifty, and does the Taikhang reproduction (I5877, about img. 462) read it so?
+
+### Searched and not found
+
+- «བེ་ལུག» in Steinert's 64 dictionaries (headwords «be lug», «bu lug», «be'u lug»): none; BDRC's full-text search for «གྲོགས་ཀྱིས་བེ་ལུག»: the 1996 print and the Gser thang reprint only (2026-11-01).
+- «རག་མི་ལ» in the notes and the other etexts read (WB, UT, the Bhutan collection, the G.ya' sel, I4767, I1KG11905): none beside WB's own line; BDRC's search: twenty hits, WB's prints and prayer and ritual texts without bearing.
+- «ཀླུང་གི་དུར» outside WB p. 335 in the etexts read: none.
+- A rule for which verdict stands when the birth and the year of age disagree: none in WB, the notes, the G.ya' sel, UT, the Bhutan collection (etexts, «སྔ་མ་མི་འགྱུར»).
+- The forty of the birth wind (p. 342) in any other manual read: none.
 
 
 ## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)

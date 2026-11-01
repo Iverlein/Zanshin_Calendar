@@ -65,6 +65,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 
 | File | Kind | Title | State |
 | --- | --- | --- | --- |
+| [claims/birth-and-year-of-age-no-ranking.md](claims/birth-and-year-of-age-no-ranking.md) | claim, note | No reader ranks the birth reckoning against the year of age for one year | cites wb.1:p349, wb.2:p483; feeds block-58 |
 | [claims/birth-children-no-count.md](claims/birth-children-no-count.md) | claim, rule | The twenty-one children are named by their conditions together; no text counts them | cites wb.1:p338-340, wb.1:p349, wb.2:p484-485, wb.2:p489, lt:p158, lt:p167, ut:p108; feeds SPEC §5.9.2, block-58 |
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
@@ -287,6 +288,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
+| [claims/life-reckoning-middling-does-not-bar.md](claims/life-reckoning-middling-does-not-bar.md) | claim, note | A middling life reckoning does not bar the match by reply 111's letter | cites ys:i467-468, wb.1:p349; feeds block-58 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
 | [claims/lt-clan-table-is-wb.md](claims/lt-clan-table-is-wb.md) | claim, conflict | LT's clan table of cut-offs is WB's birth table and conflicts with the notes' corner rule for fire and iron | cites lt:p26-28, wb.1:p260-261, wb.2:p499-500, lt:p12; feeds block-31 |
 | [claims/lt-planet-rise-by-date-and-element.md](claims/lt-planet-rise-by-date-and-element.md) | claim, rule | A planet rises on the day's animal; the Sun, Mercury and Venus are reached through their elements | cites lt:p10-11; feeds block-31 |
@@ -315,6 +317,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
 | [claims/notes-trigram-count-fourteen-fifteen.md](claims/notes-trigram-count-fourteen-fifteen.md) | claim, note | Mipham's counts of the trigram remedies and of his thirteen classes: what the arithmetic allows | cites wb.2:p517, wb.2:p104-105; feeds block-31 |
 | [claims/omen-words-la-nye.md](claims/omen-words-la-nye.md) | claim, note | «ལ་ཉེ», «ཐེབས», «འབྱམས»: the road omens of p. 140 | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
+| [claims/orphaning-month-kills-the-other-parent.md](claims/orphaning-month-kills-the-other-parent.md) | claim, note | The father's orphaning month kills the mother, the child's both | cites wb.2:p489, wb.2:p488; feeds block-58 |
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
@@ -390,6 +393,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/thirty-whose-year.md](claims/thirty-whose-year.md) | claim, table | The thirty: whose year each starting point reckons | cites wb.2:p532-533; feeds block-31 |
 | [claims/wb-almanac-cell-dragon-nyi-dus-west.md](claims/wb-almanac-cell-dragon-nyi-dus-west.md) | claim, note | The model almanac's chart writes «འབྲུག་གྱི་ཉི་དུས། ནུབ་བལྟ།» in a cell: the day-time as an animal with a direction | cites wb.1:p138-140; feeds block-25 |
 | [claims/wb-bdrc-search-ch29-phrases-2026-11-01.md](claims/wb-bdrc-search-ch29-phrases-2026-11-01.md) | claim, note | BDRC's full-text search for the phrases of RD95's second part: only WB, one search-only manual | cites wb.2:p63-65, wb.2:p503; feeds block-31 |
+| [claims/wb-be-lug-sa-ru-lta.md](claims/wb-be-lug-sa-ru-lta.md) | claim, note | «བེ་ལུག་ས་རུ་བལྟ»: a place to be looked at; the word itself is not glossed | cites wb.1:p334, wb.1:p339; feeds block-58 |
 | [claims/wb-birth-body-wheel.md](claims/wb-birth-body-wheel.md) | claim, table | The birth wheel: stars on a boy's body | cites wb.2:p378-384; feeds — |
 | [claims/wb-birth-by-house.md](claims/wb-birth-by-house.md) | claim, table | Birth by the zodiac house | cites wb.2:p378-384; feeds — |
 | [claims/wb-birth-by-mansion.md](claims/wb-birth-by-mansion.md) | claim, table | Birth by the lunar mansion | cites wb.2:p378-384; feeds — |
@@ -419,6 +423,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-ch34-sbra-phyar-tents-and-covers.md](claims/wb-ch34-sbra-phyar-tents-and-covers.md) | claim, definition | Work 17 is the sewing of tents and covering sheets: sbra is a yak-hair tent, phyar a covering; phya ther stays unglossed | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-ch34-work17-stack-and-kp-title.md](claims/wb-ch34-work17-stack-and-kp-title.md) | claim, note | Work 17 on p. 378: the stack before «ཕྱར» has the height of a two-tier stack; KP's title lists «སྦྲ» and «ཕྱ་ཐེར» as two things | cites wb.2:p378-384; feeds block-25 |
 | [claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md) | claim, definition | «ཁ་སྨྲང» and «ངོ་ཐེག» at p. 381: the count by account and by place | cites wb.1:p381b; feeds block-58 |
+| [claims/wb-dar-gud-rta-la-bskyon.md](claims/wb-dar-gud-rta-la-bskyon.md) | claim, note | The «ཏ» of «དར་གུད་ཏ་ལ་བསྐྱོན» is the horse (རྟ) | cites wb.1:p334, wbz:i433; feeds block-58 |
 | [claims/wb-date-earth-lords-source-grade.md](claims/wb-date-earth-lords-source-grade.md) | claim, note | The date's earth lords outside ch. 31 are kept by custom, their source slight | cites wb.2:p377, wb.2:p240; feeds T2.26 |
 | [claims/wb-day-animal-house-lord.md](claims/wb-day-animal-house-lord.md) | claim, rule | The day animal's earth lord in the house and the dead's burial | cites wb.2:p224-225; feeds — |
 | [claims/wb-day-months-agree-with-hour-months.md](claims/wb-day-months-agree-with-hour-months.md) | claim, note | p. 63: the day's life-cutting months agree with the hour entries where both are given | cites wb.2:p63, wb.2:p66-68; feeds block-31 |
@@ -426,10 +431,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-digest-steng-gnas-for-sun-klung.md](claims/wb-digest-steng-gnas-for-sun-klung.md) | claim, conflict | A digest of Langging's table has «སྟེང་གནས» where WB has the sun's klung | cites wb.2:p186d, wb.2:p186c; feeds — |
 | [claims/wb-digging-earth-figure.md](claims/wb-digging-earth-figure.md) | claim, rule | Breaking the ground: the earth figure, the measures and the signs | cites wb.2:p387; feeds — |
 | [claims/wb-dur-is-one-of-the-four-slayer-animals.md](claims/wb-dur-is-one-of-the-four-slayer-animals.md) | claim, note | «དུར» is one of the four slayer animals, ox, sheep, dog, dragon; the count for the light-clearer's months is not said | cites wb.2:p99c, wb.2:p515b, wb.2:p530b, wb.2:p219c, wb.2:p210c; feeds block-25 |
+| [claims/wb-dus-tshod-tshang-reading.md](claims/wb-dus-tshod-tshang-reading.md) | claim, note | «དུས་ཚོད་ཚང་གི་རྩིས»: the hour of the reckoning and the household, ch. 22's line carried over from ch. 24 | cites wb.1:p349; feeds block-58 |
 | [claims/wb-earth-kings-times-black-times.md](claims/wb-earth-kings-times-black-times.md) | claim, rule | The times of the earth kings and the black times | cites wb.2:p236-237; feeds — |
 | [claims/wb-earth-lords-474-sum.md](claims/wb-earth-lords-474-sum.md) | claim, definition | The sum of the earth lords of year, month, day and time is 474 and leaves out the 102 that never move | cites wb.2:p175b; feeds — |
 | [claims/wb-earth-lords-family-sum.md](claims/wb-earth-lords-family-sum.md) | claim, note | WB's sum of the earth-lord families before the fixed list | cites wb.2:p175-176; feeds — |
 | [claims/wb-eight-appearances-quarter-lords.md](claims/wb-eight-appearances-quarter-lords.md) | claim, list | The Eight Appearances and the quarter and corner lords of p. 175–176 | cites wb.2:p175-176; feeds — |
+| [claims/wb-enemy-rising-needs-company.md](claims/wb-enemy-rising-needs-company.md) | claim, note | The enemy rising makes an aspect bad only with company: the grammar of «སྲོག་མ་མ་གུད་པ» | cites wb.2:p483; feeds block-58 |
 | [claims/wb-fierce-works-facing-seat.md](claims/wb-fierce-works-facing-seat.md) | claim, rule | On the earth lords' best day for fierce works, the place facing them is still shunned | cites wb.2:p427b, wb.2:p364-365; feeds T2.26 |
 | [claims/wb-five-days-gya-bdud.md](claims/wb-five-days-gya-bdud.md) | claim, rule | The five days: Gyā, Jung-wa, Yangdag, Nectar, Destroyer, Demon | cites wb.2:p224-225; feeds — |
 | [claims/wb-fixed-earth-lords-72.md](claims/wb-fixed-earth-lords-72.md) | claim, list | The seventy-two fixed earth lords by quarter and element | cites wb.2:p175-176; feeds — |
@@ -437,6 +444,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-four-executioners-door-follows-the-great-cut-off.md](claims/wb-four-executioners-door-follows-the-great-cut-off.md) | claim, note | p. 53: the four executioners' door has the great cut-off place's consequence and position | cites wb.2:p52-54; feeds block-31 |
 | [claims/wb-funeral-shares-chol-ba-irregular.md](claims/wb-funeral-shares-chol-ba-irregular.md) | claim, note | The six «འཆོལ་བ» funeral shares are the irregular ones | cites wb.2:p68-70; feeds block-31 |
 | [claims/wb-grave-slayer-and-wangkhyi-day-are-the-four-gshed.md](claims/wb-grave-slayer-and-wangkhyi-day-are-the-four-gshed.md) | claim, note | The grave, the slayer and Wangkhyi's day-time animal are the same four animals: ox, sheep, dragon, dog | cites wb.2:p210b, wb.2:p219c; feeds — |
+| [claims/wb-gza-rgod-is-a-date-of-the-month.md](claims/wb-gza-rgod-is-a-date-of-the-month.md) | claim, rule | «གཟའ་རྒོད་འདོམ»: a birth on the fierce planet's day, a day the calendar gives | cites wb.1:p339; feeds block-58 |
 | [claims/wb-hal-khyi-mothers-sons-are-element-pairs.md](claims/wb-hal-khyi-mothers-sons-are-element-pairs.md) | claim, note | The hal khyi's five mothers and sons are probably the five elements' mother-son pairs | cites wb.2:p185b, wb.2:p185e; feeds — |
 | [claims/wb-hal-khyi-mothers-sons-days.md](claims/wb-hal-khyi-mothers-sons-days.md) | claim, rule | The black hal khyi's five mothers and five sons hold 22 days each, 110 in all | cites wb.2:p185b; feeds — |
 | [claims/wb-hal-khyi-pairs-no-seat-on-any-print.md](claims/wb-hal-khyi-pairs-no-seat-on-any-print.md) | claim, note | No print or digest gives a seat to the hal khyi's mothers and sons | cites wb.2:p185b, wb.2:p185c; feeds — |
@@ -453,7 +461,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-light-clearer-behind-the-grave.md](claims/wb-light-clearer-behind-the-grave.md) | claim, note | The light-clearer sits behind the grave in the first months, then on the lower neighbour and the upper slayer | cites wb.2:p219b; feeds — |
 | [claims/wb-light-clearer-on-top-of-the-grave.md](claims/wb-light-clearer-on-top-of-the-grave.md) | claim, note | The light-clearer stands on top of the grave («དུར་གྱི་སྟེང»), not behind it | cites wb.2:p219c, wb.2:p219b; feeds — |
 | [claims/wb-light-clearer-steng-on-zhol-and-taikhang.md](claims/wb-light-clearer-steng-on-zhol-and-taikhang.md) | claim, note | The Zhol and Taikhang prints read «དུར་གྱི་སྟེང» for the light-clearer and name no animal for the grave | cites wb.2:p219d; feeds block-25 |
+| [claims/wb-luck-dur-phugs-variant.md](claims/wb-luck-dur-phugs-variant.md) | claim, note | «ཀླུང་གི་དུར་ཕུགས»: the Zhol print reads «དུར་ལུགས»; the luck's tomb, not a stage of its rise | cites wb.1:p339, wb.1:p342; feeds block-58 |
 | [claims/wb-mansions-in-seven-classes.md](claims/wb-mansions-in-seven-classes.md) | claim, list | WB's seven classes of the 28 mansions: the works each class is good for, its rain and the birth on it | cites wb.2:p328-329; feeds — |
+| [claims/wb-mixed-kinds-other-manuals.md](claims/wb-mixed-kinds-other-manuals.md) | claim, note | UT and the Bhutan marriage manual too give each aspect's kind and result, and no name for a mixed couple | cites wb.1:p355, wb.2:p524; feeds block-58 |
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
 | [claims/wb-other-verdicts-as-each-fits-gathered.md](claims/wb-other-verdicts-as-each-fits-gathered.md) | claim, rule | «ཁ་དམར་ཅི་རིགས་གདགས»: other verdicts laid as each fits, then gathered into the four | cites wb.1:p385b; feeds block-58 |
 | [claims/wb-p133-tables-do-not-gloss-kha-yo.md](claims/wb-p133-tables-do-not-gloss-kha-yo.md) | claim, note | The tables of p. 133 do not gloss «ཁ་ཡོ» or «སྦྲང་མ» | cites wb.1:p133b, wb.2:p224b; feeds — |
@@ -461,6 +471,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
 | [claims/wb-planets-mansions-1874-against-1828.md](claims/wb-planets-mansions-1874-against-1828.md) | claim, conflict | The planets-and-mansions round: 1,874 in WB closes the twelfth, 1,828 is Mipham's | cites wb.2:p50, wb.2:p513; feeds block-31 |
 | [claims/wb-print-numbers-16-29-nine-places.md](claims/wb-print-numbers-16-29-nine-places.md) | claim, note | The print numbers the hal khyi's group 16–25 and Dkar-sham 26; Langging is 28 in the print | cites wb.2:p185e, wb.2:p186e; feeds — |
+| [claims/wb-rag-mi-la-white-many.md](claims/wb-rag-mi-la-white-many.md) | claim, note | «རག་མི་ལ» in the white sum of the four aspects: a reading from the line's pair | cites wb.1:p334; feeds block-58 |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
 | [claims/wb-rahu-nuru-by-date.md](claims/wb-rahu-nuru-by-date.md) | claim, table | Rāhu's course by the lunar date, the general counsel | cites wb.2:p236-237; feeds — |
 | [claims/wb-rat-day-first-portion.md](claims/wb-rat-day-first-portion.md) | claim, note | The rat day's remedy lines on p. 224 are read, their sense is not settled | cites wb.2:p224b; feeds — |
@@ -474,6 +485,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-seven-red-year-list-and-natal-list.md](claims/wb-seven-red-year-list-and-natal-list.md) | claim, rule | The seven-red: the year's list and the two-black-born's list | cites wb.1:p403-405; feeds block-58 |
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
+| [claims/wb-skar-bras-spyi-sdom-counts.md](claims/wb-skar-bras-spyi-sdom-counts.md) | claim, note | «སྐར་འབྲས་སྤྱི་སྡོམ» heads the match's counts of pebbles; «སྐར་འབྲས» itself stays open | cites wb.1:p351b, wb.1:p355; feeds block-58 |
 | [claims/wb-spra-khyim-black-times.md](claims/wb-spra-khyim-black-times.md) | claim, remedy | The black times' remedy at the door's right is «སྤྲ་ཁྱིམ»; the first letter of the stack is not settled | cites wb.2:p236b; feeds — |
 | [claims/wb-spra-khyim-is-a-tent.md](claims/wb-spra-khyim-is-a-tent.md) | claim, definition | The black times' door figure «སྤྲ་ཁྱིམ» is a tent | cites wb.2:p236b, wb.2:p236c; feeds — |
 | [claims/wb-sun-klung-is-the-days-klung-rta.md](claims/wb-sun-klung-is-the-days-klung-rta.md) | claim, note | The sun's klung of p. 186 is a klung-horse counted by the sun, probably the day's | cites wb.2:p186b, wb.2:p186c; feeds — |
@@ -488,6 +500,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-wangkhyi-lines-on-zhol-and-taikhang.md](claims/wb-wangkhyi-lines-on-zhol-and-taikhang.md) | claim, note | Wangkhyi's day-time lines on the Zhol and Taikhang prints are the 1996 print's, and say nothing of day against hour | cites wb.2:p210d; feeds block-25 |
 | [claims/wb-wealth-place-with-the-house-row.md](claims/wb-wealth-place-with-the-house-row.md) | claim, rule | The wealth's place is read with the house's row | cites wb.2:p491-492, wb.1:p386b; feeds block-58 |
 | [claims/wb-weekday-date-rise-by-animal-triad.md](claims/wb-weekday-date-rise-by-animal-triad.md) | claim, rule | The rough way of the planets' dates: four triads of day animals rise with a planet, and the date is rising, withdrawing, contested or declining | cites wb.2:p313; feeds — |
+| [claims/wb-white-enemy-pebble-is-the-bad-one.md](claims/wb-white-enemy-pebble-is-the-bad-one.md) | claim, conflict | A white enemy pebble is the bad one in WB and in Mipham; UT's «white enemy good» differs | cites wb.2:p483, wb.1:p329-331, ut:p153-155; feeds block-58 |
+| [claims/wb-wind-item-15-prints-54.md](claims/wb-wind-item-15-prints-54.md) | claim, note | Item 15 of the forty kinds of the birth wind is printed «ང་བཞི» (54) on every print found; the run asks for 50 | cites wb.1:p342; feeds block-58 |
 | [claims/wb-work-result-checklist.md](claims/wb-work-result-checklist.md) | claim, list | Ch. 34's closing verse: what is examined before a work's result is foretold, the earth lords among them | cites wb.2:p428b; feeds T2.26 |
 | [claims/wb-year-charts-hold-names-only.md](claims/wb-year-charts-hold-names-only.md) | claim, note | The year charts of ch. 13 carry the lords' names only | cites wb.1:p116-121; feeds block-25 |
 | [claims/wb-yo-nas-in-the-dictionaries.md](claims/wb-yo-nas-in-the-dictionaries.md) | claim, note | «ཡོ་ནས» in the dictionaries: crooked or aslant, no place; «འདྲེན» serves or leads | cites wb.1:p133, wb.2:p224c; feeds — |
@@ -534,7 +548,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
 | [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 4 passages: 1 machine, 3 etext |
-| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
+| [corpus/wb/ch22.md](corpus/wb/ch22.md) | corpus | WB ch. 22 | 3 passages: 1 scan, 2 machine |
+| [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 4 passages: 4 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 8 passages: 3 scan, 5 machine |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
@@ -560,7 +575,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 4 passages: 3 scan, 1 machine |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 9 passages: 8 scan, 1 machine |
-| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 22 passages: 20 scan, 2 machine |
+| [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 23 passages: 21 scan, 2 machine |
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
 | [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 27 passages: 12 scan, 15 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
