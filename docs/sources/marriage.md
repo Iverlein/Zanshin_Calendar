@@ -1485,3 +1485,7 @@ Read 2026-11-01 (RD122) for the open question 161, on the Zhol print (I1KG1710, 
 ### Searched and not found
 
 - A second worked example of the luck's mewa in the Zhol print's pp. 255–258 or the hidden's page: none (the page's own lines were read).
+
+## The in-laws' «གནས་སྒྱུག» and «ཤིད་དུར» (RD125)
+
+WB's verse on the match (vol. 1, p. 362, img. 372) reads «སོ་ནམ་མི་བཏུབ་བྱ་བ་བཟློག །གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན།» in the 1996 typeset etext, "the in-laws' trigrams fighting is bad"; the Zhol print's last line of img. 473 shows «གནས» and a tall stack with «ྱུ» below whose root letter cannot be told. Mipham's note on it (vol. 2, p. 526) has «སྒྱུག་མོ» in the etext where the scan's blotted stack was read «སྐྱུག་མོ». The reading and the evidence are in [verdicts.md](verdicts.md), section "The trigram's three rites and fourteen or fifteen remedies; the in-laws' «གནས་སྐྱུག» and «ཤིད་དུར» (RD125)"; the broken line's «ཤིད་དུར» stays likelier «ཤིང་དུར» (match-trigram-grave).

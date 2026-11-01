@@ -8207,8 +8207,60 @@ Question 569 ([q0569](questions/q0569.md)): Is the hour's sky dog forty-three (�
 
 ## The trigram's three rites and fourteen or fifteen remedies; the in-laws' «གནས་སྐྱུག» and «ཤིད་དུར» (RD125)
 
-Nothing read yet: RD125's passages, with the English beside them, go here.
+Read 2026-11-01 for open questions 211, 213 and 214. Pages: WB vol. 2, pp. 104–105 (img. 112–113) and p. 50–51 (img. 58–59), the notes p. 517 (img. 525 of the 1996 scan; the Gser thang reprint I3CN5029 img. 523, read by eye at 2×) and p. 526 (img. 534; reprint img. 532, at 4×). Readers: Yigdzin-1 and MITRA (the files already in `wb/`, RD23 and RD21) on the 1996 scan, Yigdzin-1 only on a Chengdu page (I1PD34647 img. 572, a different leaf from p. 526: it holds none of the words) and on ten Taikhang images (I5877 img. 464–486; the verse of question 211 is not among them); by eye the reprint's pp. 517 and 526, the Zhol print I1KG1710 img. 473–474, Mipham's print I2029 img. 720.
 
+### Question 213 and 214: the trigram's remedies in the notes (vol. 2, p. 517, ll. 6–8, img. 525)
+
+The count of the thirteenth point's remedies, by the Gser thang reprint (img. 523, ll. 5–8, read by eye at 2×; both readers of the 1996 scan agree with it but for «ཐེམས་བསྡོམ», Yigdzin-1 «བསྡོམ», MITRA «བཅོམ»: the reprint has «བསྡོམ»):
+
+> སྒོས་བཅོས་མི་ལུས་པའི་རྡེལ་ཕྲན་ལས། སྤར་བཅོས་བཅུ་བཞི་ལ་ལི་སོགས་བརྒྱད་སོ་སོའི་བཅོས་ལ། སྤྱིར་ངོས་འཛིན་བརྒྱད། དེ་ནང་གང་ཡིན་དེའི་བཅོས་སྤྱི་དང་། དེའི་ཐེམས་བསྡོམ། གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི། མགར་གྱི་ཤོག་དྲིལ་བཅོས་བཅས་དྲུག་རེ་བརྩིས་པས་བཅོ་ལྔའོ། །
+
+Of the small pebbles of the particular remedies (སྒོས་བཅོས, sgos bcos), which are not to be left out: the trigram's remedies, fourteen: for the remedy of each of the eight, *li* and the rest, in general eight identifying pebbles; of whichever of them it is, its general remedy, its sum of slips (ཐེམས་བསྡོམ, thems bsdom), the white, black and speckled (གཏོ་དཀར་ནག་ཁྲ, gto dkar nag khra) three, each counted from one to one (རེ་རེ་ནས་བརྩི), the smith's paper-roll with its remedy (མགར་གྱི་ཤོག་དྲིལ་བཅོས་བཅས, mgar gyi shog dril bcos bcas): counted six each, fifteen.
+
+The same count in the root text, at the turn of the page (WB p. 50, last words, and p. 51, l. 1, img. 58–59; MITRA reads «སྤར་བཅོས», Yigdzin-1 «སླར་བཅོས»):
+
+> རྡེལ་ཕྲན་བཏང་ བཅས་བཅུ་བཞི་ཡི། །ངོས་འཛིན་རྡེའུ་སྤར་བཅོས་ལ། །བཅུ་བཞི་ལོ་སྤར་སྤྲོད་སོགས་བཅུ། །ཤུལ་འཕྱག་ལ་ནི་ཉེར་བཞི་དང་། །རྒྱ་ཡི་སྤུད་དྲུག་སྨེ་བར་དགུ། །བཅོས་ཀྱི་རྡེལ་ཕྲན་ལ་ཉི་ཤུ།
+
+The small pebbles with the deciding one, fourteen: the identifying pebbles for the trigram's remedy fourteen, the year's trigram and its handing over and the like ten, the sweeping of the corpse's traces twenty-four, the nine *spud pa* and six *rgyug* (not understood), the mewa nine, the small remedy pebbles twenty.
+
+What is settled by the eye and the arithmetic:
+
+- The notes' sentence is a sum in two parts: eight identifying pebbles (one for each trigram, "in general") and, for the trigram found, a set counted «དྲུག་རེ», six each. The six are the general remedy, the sum of slips, the three rites (one each), and the smith's paper-roll with its remedy: 1 + 1 + 3 + 1. So 8 + 6 gives fourteen, the number at the head of the sentence and in the root text (p. 51, l. 1), where it is the trigram's count and the first of the list of classes (14, 10, 24, 15, 9, 20, 13 and so on).
+- The «བཅོ་ལྔའོ» at the end is the sentence's own result on the print, so the notes do not say how it is reached. With «བཅོས་བཅས» taken as one item the count is fourteen, as WB's; a fifteenth appears only if the paper-roll and "its remedy" are two items (8 + 7), or the found trigram's verdict is counted with the six (as «བཅས» does in the count of twelve just before it: the roots and the verdict). The two readings cannot be told apart on the page; the Gser thang reprint and the 1996 scan carry «བཅོ་ལྔ» alike. Question 214 is narrowed: the trigram's remedies are fourteen in WB and in the notes' first number, and the notes' fifteen is a different count of the same items, not a fifteenth item named.
+- Question 213: the notes' «གཏོ་དཀར་ནག་ཁྲ་གསུམ་རེ་རེ་ནས་བརྩི» counts the white, black and speckled rites as three separate items of the trigram's remedy, each reckoned by itself; it does not make one of them the answer to the colour of the verdict. WB's own pages (below) set the three beside one another in each trigram's passage, with no condition of colour. Narrowed: three rites in each trigram, counted one by one; that the verdict's colour (white, speckled or black) picks one of them is stated nowhere on these pages.
+
+### The three rites of each trigram (WB vol. 2, pp. 104–105, img. 112–113)
+
+*Li*'s three rites are the passage already quoted above (§3, p. 105, l. 7–11). The next trigram, *khon*, from p. 105, l. 16 (img. 113, Yigdzin-1 on the 1996 scan; not read by eye, only its three headings checked on the scan's lines 20–26), has them in the same order and the same three kinds:
+
+> གཏོ་དཀར་སྐུར་པོའམ་དལ་རྒན་ཅན། །མཆོད་གནས་བོས་ལ་ལྷོ་ནུབ་མཚམས། །… ཁྲ་བོར་མདོས་ནི་ས་བདག་གི །འཁྲུགས་གཏོ་གུང་ཕུར་བཏང་བའམ། །… ནག་པོ་རྒན་མོའམ་ཡུག་ཕྲོ་མོའི། །ཐོད་པར་ཙཀྲ་བཅུག་བྱས་ལ། །ལྷོ་ནུབ་མཚམས་ཀྱི་ལམ་ཁར་མནན།
+
+The white rite (གཏོ་དཀར): call an offering-recipient, a person with a skin disease or an old woman, to the south-west corner; the speckled rite (ཁྲ་བོ, khra bo): the earth lords' wrath rite with a peg sent out; the black rite: put the wheel in the skull of an old black woman or a she-yak and press it down on the road of the south-west corner. So *li* and *khon* each have all three, and the order of the rites in the text is white, speckled, black; the text of these pages gives no rule that the verdict's colour picks the rite, and p. 114's rule for size is by the household's means (§3).
+
+### Question 211: «གནས་སྐྱུག» or «གནས་སྒྱུག», «ཤིད་དུར» or «ཤིང་དུར»
+
+Not settled by the scan; narrowed by the other places the words stand.
+
+- **The notes' p. 526 on the Gser thang reprint** (img. 532, l. 2, at 4×): the second syllable of the first word is a blob in which the stack's upper and middle parts run together; the lower «ུ» and «ག» are clear, the root is not (as at 3× before). The line of «ཤིད་དུར» (l. 4) prints «ཤིད» with the final «ད»; no other word for it.
+- **Mipham's own print** (I2029 img. 720, p. 100 of the print, 3400 px, six lines): at 3× the lines are too faint to read; the earlier reading «ཤིང་དུར» (RD42) is neither confirmed nor refuted here.
+- **The root verse the notes comment on** (WB vol. 1, p. 362, img. 372, the etext's page 372; the 1996 typeset etext, BDRC IE0OPI51524892, which the 1996 print was set from): «སོ་ནམ་མི་བཏུབ་བྱ་བ་བཟློག །གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན། །» "farming is not possible, the like is to be turned back; the in-laws' trigrams fighting is bad". So the root text's word is «གནས་སྒྱུག» in the etext (the same spelling as ch. 30, p. 152). The notes' etext (vol. 2, the etext's page 534, the scan's p. 526) has «སྒྱུག་མོ» where the scan reading of RD21 had «སྐྱུག་མོ»: the etext and the scan of one print disagree on a blotted stack, and the etext (typeset from the same type) agrees with the root text. A second place in the etext of vol. 2 (the etext's page 344, a marriage verse after the planets' meetings: «སྒྱུག་མོ་ལ་ངན་ཤིད་བྱས་ན། བག་མ་བུ་སྲིང་ལ་ངན་ནོ», "if the bad is done to the «སྒྱུག་མོ», it is bad for the bride, the son and the sister") has «སྒྱུག་མོ» too. No place in the 1996 etexts has «གནས་སྐྱུག» or «སྐྱུག་མོ».
+- **The Zhol print** (I1KG1710, the root verse at the end of img. 473, last line, 8×): «གནས» then one tall stack with «ྱུ» below; the root letter (ཀ or ག) of the stack cannot be told on this photograph (a grey manuscript-like leaf, 3726 px wide for a whole page). Its etext is noisy and has both («སྐྱུག་མོལ» and «སྒྱུག་མོར», p. 1094).
+- **«ཤིད་དུར» or «ཤིང་དུར»**: both words stand in WB itself. The root text (WB vol. 1, the etext's page 364, print p. 354) says «ཕན་ཚུན་རང་དུར་གཤིད་དུར་ཐུག» "each one's own grave and the executioner's grave (གཤིད་དུར, gshid dur) meet", and the typeset etext's page 422 (print p. 412) has «ཤིང་དུར་ལུག» "wood's grave, the sheep". The notes' sentence, «ཤིང་ལུག་སོགས་ལུག་ལོ་མ་འོང་ན་ཤིད་དུར་ལུག་ཡིན་པས་ངན», makes sense with either; for the wood trigram *zin* and the sheep year the grave of wood is the sheep (WB p. 362, [claims/match-trigram-grave.md](claims/match-trigram-grave.md)), so «ཤིང་དུར» is the one that explains the example; «ཤིད་དུར» would be the executioner's grave, which is not the sheep for every trigram. Likely «ཤིང་དུར» (RD42's reading of Mipham's own print), not proved.
+
+What stays: the first word's root letter on the blocks and on Mipham's own print, which a sharper photograph, or the Taikhang print of the verse, would give.
+
+### Open
+
+Question: Does the notes' «བཅོ་ལྔའོ» (vol. 2, p. 517, l. 8), after "six each counted", count the smith's paper-roll and its remedy as two items, or the found trigram's verdict with the six, where WB (p. 51, l. 1) and the head of the same sentence say fourteen?
+
+Question: Which page of the Taikhang print (I5877/I5878) holds the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» (WB vol. 1, p. 362, img. 372)? Ten images of I5877 (img. 464–486) were read by Yigdzin-1 and the verse is not among them, and the Zhol print's leaf (img. 473) is too grey to give the root of the stack.
+
+### Searched and not found
+
+- «གནས་སྐྱུག» as a spelling in the 1996 typeset etexts of both volumes (BDRC IE0OPI51524892): no hit; «གནས་སྒྱུག» and «སྒྱུག་མོ» stand there (vol. 1 img. 372; vol. 2 img. 344 and 534).
+- The verse of p. 362 and the notes' p. 526 in the Chengdu typeset notes (I1PD34647 img. 571–573, Yigdzin-1): not on those leaves (they hold other parts of the notes); the leaf was not found.
+- BDRC's full-text search for «གནས་སྒྱུག་སྤར་ཁ» and «ཤིང་དུར་ལུག» was not run: `bdrc_search.py` did not start (the cached Chromium 1248 is missing; the tool's note says 1234 for the lent scans' playwright).
+- A rule that the verdict's colour picks one of the trigram's three rites, in WB pp. 104–105 (li's and khon's passages) and the notes' p. 517 (Yigdzin-1, MITRA, the reprint by eye): none.
 
 ## The *Moonbeams*' half place, its «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར», the reading of a half verdict, the general and the particular verdict (RD127)
 
