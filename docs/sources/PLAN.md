@@ -1268,3 +1268,7 @@ Searched and found wanting, so not to be repeated:
   - A sentence in WB pp. 22–23 that says how many verdicts the limbs have or that they are counted into the five: none, read line by line on the scan (img. 30–31, 3×).
   - The first two groups' count of verdicts in words: «ཁ་དམར་གདགས» only, no numeral; the numeral stands from the third group on (p. 22).
   - A gathering of the meadow's verdicts into five totals in WB pp. 22–23: none; the Moonbeams (f. 24a) and Zhechen Gyaltsab's verse alone give it.
+- **RD122 dead ends** (RD122, 2026-11-01):
+  - A word-by-word gloss of p. 349's «རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་» in the notes' pp. 488–489: none (the notes name only «ཕ་ཡི་དྭ་ཟླས»).
+  - A second worked example of the luck's mewa in the Zhol print's pp. 255–258 or the hidden's page: none.
+  - Doubt on the scan: img. 467, l. 4, «ཡར» and «ལྔ་སྨེ» read at 2× only; a 6× crop of both syllables would settle them.

@@ -930,6 +930,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | open; cites wb.1:p331 |
 | [questions/q0563.md](questions/q0563.md) | question q563 | The five columns of a meadow's ornament group | open; cites wb.2:p22 |
 | [questions/q0564.md](questions/q0564.md) | question q564 | The limbs' verdict in Sprugtön's reckoning | open; cites wb.2:p23 |
+| [questions/q0565.md](questions/q0565.md) | question q565 | Revatī among p. 348's very bad and accomplishing mansions | open; cites wb.1:p348 |
+| [questions/q0566.md](questions/q0566.md) | question q566 | p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན»: the clan element's months and the executioner year | open; cites wb.1:p349 |
 
 <!-- end pool index -->
 

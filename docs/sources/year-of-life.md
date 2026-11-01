@@ -3266,8 +3266,8 @@ Img. 454, ll. 2–3 (Yigdzin-1):
 
 ### Open
 
-- Question: p. 348 and the notes (p. 489) name Revatī among the very bad mansions for a birth and, with Puṣya, Viśākhā and Uttarāṣāḍhā, among the four accomplishing, good for anything; does a reader of the tradition take the birth's own list of the very bad as the rule over the general good?
-- Question: p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན། རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་»: which months are the clan element's, and is the executioner year here the four-executioner or the element's grave?
+- Question 565 ([q0565](questions/q0565.md)): p. 348 and the notes (p. 489) name Revatī among the very bad mansions for a birth and, with Puṣya, Viśākhā and Uttarāṣāḍhā, among the four accomplishing, good for anything; does a reader of the tradition take the birth's own list of the very bad as the rule over the general good?
+- Question 566 ([q0566](questions/q0566.md)): p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན། རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་»: which months are the clan element's, and is the executioner year here the four-executioner or the element's grave?
 
 ### Searched and not found
 
