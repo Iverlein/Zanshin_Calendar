@@ -7262,3 +7262,8 @@ Nothing read yet: RD100's passages, with the English beside them, go here.
 ## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
 
 Nothing read yet: RD101's passages, with the English beside them, go here.
+
+
+## The lent scans: KD vol. 3 and the Sakya volume on the eclipse clause, the sheets, the supplement; KD's title page and the Tibet University interview (RD108)
+
+Nothing read yet: RD108's passages, with the English beside them, go here.
