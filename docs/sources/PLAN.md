@@ -1163,3 +1163,8 @@ Searched and found wanting, so not to be repeated:
   - «ཆོམས་ཁྱུང་ནག»: 2 hits, both WB. «མཇུག་རྩེའི་དཔེ»: 3 hits, all WB. «སྤྱུག་སྟོན»: 0 hits. «ཤ་རུ»: 1417 hits, not sifted.
   - «སྤོ་སྨད» as a mansion: 43 hits, all the place Po or unrelated; no dictionary has it as a mansion.
   - «sha ri bhyo», «ma tram», «gung phur», «gzhob sel» as rites: no dictionary headword.
+- **RD99 dead ends** (RD99, 2026-11-01):
+  - p. 28's figure labels are not legible in any copy (reprint at 2×, the 1996 scan, the Zhol print at 3–4×, WBZ img. 664).
+  - «རྐང་ཕྲན་ནག»: BDRC full-text search 3 hits, all WB; no dictionary entry.
+  - «ཤོལ་པོ», «སྨྱུང་མོ», «བུད་མེད་མི་འབྲུ་སྙི», «རྡེལ་འགོ་དྲོས», «འབལ་དྲོས»: none in Steinert's dictionaries in the senses needed.
+  - «ཁེན་ཐོག» (p. 42) and «ལུགས་གཞན་བཞི་པ» (p. 37): BDRC search returns only WB copies.
