@@ -1190,3 +1190,8 @@ Searched and found wanting, so not to be repeated:
   - «སྐྱེད་པུར་ཁུ་དཀར» 0 hits; no dictionary entry for «སྐྱེད་པུར», «སྐྱེད་བུར», «མ་ཏྲི», «ཁ་སྦྲང».
   - The wealth's place's pebbles: «ནོར་ས» with «རབ་འབྲིང་ཐ་གསུམ» finds only WB's prints, KD and a Bhutan collection's copy; no manual lays it out.
   - A household round for any count but five: nothing new.
+- **RD109 dead ends** (RD109, 2026-11-01):
+  - Steinert's dictionaries, no gloss of the lines: snang sel (only the meditation on impermanence), mar gyi khyim mtshes, yar gyi gshed, dur gshed (a term of black reckoning, no gloss), sbrang ma phud, gnas pa'i nyi dus, nyi ma'i glang, khar bu, gtong shes, sa bdag gtong shes.
+  - BDRC full-text: «ཡོལ་བས་སྒྲིབ» (82 hits, mandala curtain), «སྣང་སེལ་དུར» (2), «ཉི་དུས་ནག་པོ» (3, WB's etexts), «ཧལ་ཁྱི་ནག་པོ» (68, not read through): no gloss of the mothers and sons, the light-clearer's grave or Wangkhyi's day-time.
+  - The Bon students' textbook (I4PD3282): none of ch. 31's lines for «ཡོ་ནས», «སྦྲང་མ», «ཕུད་གཏོར», «ཉི་མའི་ཀླུང», «ཉི་དུས», «སྣང་སེལ»; the rat cell has no remedy there.
+  - Q441 (why a tent): no source; RD65's dead end stands.

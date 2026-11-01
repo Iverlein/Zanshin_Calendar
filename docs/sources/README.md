@@ -822,6 +822,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | open; cites wb.2:p47 |
 | [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | open; cites wb.1:p390 |
 | [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | open; cites wb.1:p381 |
+| [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
+| [questions/q0516.md](questions/q0516.md) | question q516 | The la-knower's animals in the second table of p. 133: tiger, pig, monkey, snake | open; cites wb.2:p224d |
+| [questions/q0517.md](questions/q0517.md) | question q517 | The hal khyi's five mothers and five sons as the five elements' pairs | open; cites wb.2:p224d |
 
 <!-- end pool index -->
 
