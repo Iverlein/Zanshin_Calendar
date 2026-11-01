@@ -38,3 +38,13 @@ The fold (p. 491, the table at the head; the reprint img. 497):
 | ༡༢ «དགྲ་ས» enemy's place | ༡༡ | ༡༠ | ༩ | ༨ | *༧ | |
 
 A box above the fourth and fifth columns reads «ཕྲེང་འདི་[…]་དོར།», "this row … cast off" (the middle word not settled on the reprint at 3×; the Chengdu edition's table, I1PD34647 img. 570, its p. 524, read at full size on 2026-10-25, has «ཕྲེང་བ་འདི་གཉིས་དོར», "these two rows cast off"). Footnotes: «* ཁུག་པ་ཡང་ཁུག་གི་རྡེལ་རོ་འགྲེམ་ལུགས།», how the fold's and refold's leftovers are laid out; «** ད་ལྟ་ཡང་ཁུག་རྡེལ་རོ་མེད།», here there is no leftover of the refold.
+
+
+## The notes' doubtful stacks on Mipham's own print, and the notes' last pages (RD105)
+
+Nothing read yet: RD105's passages, with the English beside them, go here.
+
+
+## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)
+
+Nothing read yet: RD102's passages, with the English beside them, go here.
