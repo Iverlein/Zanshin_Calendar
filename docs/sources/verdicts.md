@@ -7349,4 +7349,149 @@ Nothing read yet: RD116's passages, with the English beside them, go here.
 
 ## The practitioners' manuscripts: the dead's speckled deciding pebble, the numbered cells, the life reckoning's blanks (RD106)
 
-Nothing read yet: RD106's passages, with the English beside them, go here.
+Read 2026-11-01 from BDRC's etext of WB vol. 2 (1996, I1KG12907; the
+etext page is the printed page + 8), the passages below etext only, not read
+syllable by syllable on the scan: one crop of p. 58 (img. 066) was looked at
+and is too small at this size to settle a syllable by eye. Nothing was run on
+the card. The manuscript and the print were not read again; their images are
+those of RD29's section above. The four questions answered here are those of
+open questions 253–256, narrowed from WB's own text; question 257 is a dead
+end.
+
+### 1. A speckled deciding pebble of the dead (open question 253)
+
+WB's first examination, whether it is the time of death (vol. 2, pp. 55–56),
+reads each of the four deciding pebbles of the dead, life, body, power and
+luck, black and white only: «སྲོག་གི་བཏང་གཅོད་ནག་པ་ན། །… བདུད་ཀྱིས་བཅད་ནས་ལོ་གསུམ་ལོན། །འཆི་བའི་དུས་ལ་བབས་པ་ཡིན།»
+(life's deciding pebble black: the life's plank-tree broken … cut by the
+demon, three years have passed, the time of death has come) and, on p. 56,
+«རྡེལ་དཀར་མང་འཛོམ་ཤི་བ་ན། །ཉི་ཟླ་ནམ་མཁའི་མཐོངས་སུ་ནུབ། །… ཚེ་མ་ཟད་པར་ཤི་ཞེས་བཤད།» (many white pebbles
+gathered and he dies: sun and moon set in the height of the sky … it is told
+that he died with the life not spent; etext). So the speckled reading of
+each of the four has no verse of its own in the first examination. What WB
+gives elsewhere:
+
+- **A speckled pebble exists by a rule of laying** (p. 46, ch. 29's list of
+  the deciding): the white and black are counted, the more numerous colour is
+  laid, and a half laid as speckled (བཏང་གཅོད་རྡེལ། །དཀར་མང་དཀར་ལ་ནག་མང་ནག །ཕྱེད་མ་ཁྲ་བོར་བོར་བ་ཡི། །;
+  «གཉིས་ཀ་དཀར་ན་དཀར་པོ་དང༌། །གཉིས་ཀ་ནག་ན་ནག་པོར་བོར། །གཅིག་དཀར་གཅིག་ནག་ཁྲ་བོར་བོར།»: if both are white, white; both
+  black, black; one white and one black, laid speckled; etext). The
+  speckled deciding pebble of the dead is thus the pair's tie, a half
+  (the *Moonbeams*' «མཉམ་ན་ཕྱེད་མ», f. 28b, RD23 above).
+- **The second examination (the cause, p. 57)** is divided in three, the
+  outer circle of the years, the inner circle of the trigrams and the
+  speckled (ཁྲ་བོ, khra bo): «ལོ་སྐོར་ཕྱི་ཡི་ལེ་ལན་དང་། །སྤར་ཁ་ནང་གི་ལེ་ལན་དང་། །ཁྲ་བོ་བར་གསུམ།» The third, the speckled cause (p. 58, «གསུམ་པ་ཁྲ་[བོའི་ལེ་]ལན་གསོན་རྩིས་བསྲུང་བྱ་ཉམས། །ཁྱད་པར་གཅིག་དཀར་ལ་ཤི་ན།…», the
+  etext has a gap), lists seven or nine numbered cases, among them one
+  white and one black; it is a class of cause, not a reading of a deciding
+  pebble.
+- **The notes' section on the dead's inputs** (vol. 2, p. 502, «གྲོགས་ལོ་ཆེ་དཀར་ཆུང་ནག་ལྟ་བུ་ཁྲ་བོར་གཏོགས», a friend's year
+  great white, small black belongs to the speckled; etext; read on the scan at RD18, above) puts
+  a friend's year of that kind in the speckled class, as an input of the
+  dead's reckoning, not a reading of a deciding pebble.
+
+So the manuscript's speckled readings (RD29 §1a) are its own extension of
+WB's black and white lines, joined to the tie rule above; none matches an
+existing WB or notes line, and its wording (the life speckled: two days
+after the life was spent, killed facing south) was not found in WB's etext
+(searched 2026-11-01, see *Searched and not found*). Narrowed: the place is
+the second examination's speckled class, pp. 57–58, for the cases of
+one-white-one-black, and the tie rule of p. 46; the manuscript's per-aspect
+speckled lines remain without a source.
+
+### 2. The repetition by the four together (open question 254)
+
+WB's tenth examination, whether there is repetition (ས་དཔྱད་བཅུ་པ་ཟློས་པ་ནི། །ཡོད་མེད་བརྟག་ལ་རྡེའུ་གྲངས།, p. 48; also
+p. 55, «ཟློས་པ་ཡོད་མེད་བསྟན་དང་བཅུ། »; etext), is not read from the colours of
+the four deciding pebbles. The notes' key says what its pebbles are
+(vol. 2, p. 505, etext: «ཟློས་པ་ཡོད་མེད་ལ། རྭ་བསེའི་རྩ་རྡེལ་བཅུ་གཅིག །འགྲམ་ཕྲན་བརྒྱ་སོ་དྲུག སྒྲ་འབྱིན་བརྒྱ་ང་གསུམ། འདུག་སྟངས་རྡེལ་བཞི་བཅས་ལས།»):
+eleven root pebbles of the *rwa bse* (རྭ་བསེ, rwa bse; the repetition's
+cause), 136 small 'grams (འགྲམས, 'grams, harms) and 153 sounds, with four
+sitting pebbles. Pp. 88–90 (etext) carry the verses: the repetition falls by
+the year, month, day and hour of death, by trigram and mewa, by the harmful
+planets, and by the black count of the five element pebbles of the dead:
+«སྲོག་ལུས་དབང་ཀླུང་དགྲ་དར་ཟློས།» (life, body, power, luck, enemy rising:
+repetition; p. 89), and «གསོན་རྩིས་གཉིས་ཀ་ཆགས་ཆེ་ཟློས།» (both reckonings
+joined, the repetition great; p. 90). So WB's repetition is great where the
+meetings pile on one person, by many sources at once, which is not the
+manuscript's colour rule. The manuscript's closing rule (white small, black
+great, white and black mixed wandering in the intermediate state) has no
+line in WB's etext of pp. 55–56 or 88–90; nor did the grep of «ཟློས་ཆེ» and
+«ཟློས་ཆུང» find it in the dead's chapter (pp. 44–100: only p. 321 and later
+chapters on births). The mixed case as wandering (བར་དོ་རུ་འཁྱམ) is the fifth
+examination's business, where the rebirth is read (p. 70, «བར་དོའི་སེམས་ཅན»,
+the intermediate-state being). Narrowed: the colour rule is the manuscript's
+own, joined from the first, fifth and tenth examinations.
+
+### 3. The numbered cells (open question 255)
+
+The notes name the mewa and dates in the dead's examinations (vol. 2, p. 505
+and the verses of pp. 88–93; etext) but the manuscript's numbers 1–9
+and 13–30 were not matched: the nine mewa's «bad for a …» entries would
+match the verse's nine ('grams by the mewa, p. 89, «གཉིས་ནག་ཆང་མ་ཡུགས་དོ་བདག། །གསུམ་མཐིང་སྐྱེས་པ་སྒབ་མེད་དང་།…དགུ་དམར་དོ་བདག་ཞང་པོར་འགྲམས།»:
+two black harms the wife, three blue the man …, nine red the owner and the
+maternal uncle; etext), which is the same shape ("bad for a …") as the
+manuscript's cells 1–9. That makes cells 1–9 the nine mewa's harms by WB's
+tenth examination (the *'grams* of the mewa). Cells 13–30 were not placed:
+WB's lunar dates are 30, and 13–30 would be the days' harms, but the first
+twelve are not on the images read (img. 373–376 not re-read). Narrowed, not
+answered.
+
+### 4. The blanks (open question 256)
+
+The colophon read in RD29 (img. 227) already answers the blanks of the
+whole book: Khyenrab Norbu left many blanks meant for the results of the
+star, Chinese and *Rising of the Vowels* reckonings, and the work stayed
+unfinished. The opening sentence's blanks (img. 004: where father's and
+mother's years and the birth month and date stand) are the child's data
+spaces, a different kind, by the sentence's own words (RD29 §2a). The empty
+ruled boxes (img. 048, 147, 160) were not read again: whether they are
+the colophon's unfinished results or a form for the child's results is
+not settled by the text, and no catalogue note says. Left: the two uses
+are both attested in the text, each for its own place.
+
+### 5. Prajñāmaṇi and the water bird year (open question 257)
+
+BDRC's record of the print (MW1KG12790, fetched 2026-11-01, 2.8 kB JSON)
+carries title, press and date of the carving only; no person Prajñāmaṇi
+and no date of *The Precious Key*. No local etext of the reckoning
+manuals holds the name (grep of the machine's etexts, in Sanskritised
+spellings, nothing). The name was not found in the catalogue (BDRC's
+person search needs the browser, not run: no time). The water bird year
+can only be counted, not read: a water bird year falls every sixty years
+(rab byung cycle years are fixed by the year's element and animal); of
+those, the print of 1987 was carved anew from old blocks burnt, so the
+year lies before 1987; the candidates are the water bird
+years of the sixteenth (1933) and the fifteenth cycle (1873). Which of the
+two is not settled by anything read; the Mentsikhang's own founding date
+(1916) would exclude 1873 but is not in a source read here, so it is not
+used.
+
+### Open
+
+- Question: the manuscript's speckled readings of the dead's four deciding
+  pebbles (I1LT0800, img. 380–383; WB vol. 2, pp. 55–56 read them black and
+  white only): is there a manual that gives the dead's speckled life, body,
+  power and luck, perhaps the *Good Vase* (བུམ་བཟང, bum bzang) or the
+  Bhutan collection's dead reckoning (I1KG11905)? WB's own place for a
+  speckled case is the tie rule of p. 46 and the second examination's
+  speckled class, pp. 57–58.
+- Question: the numbered cells 13–30 of the manuscript (I1LT0800, img.
+  373–376): are they the lunar dates' harms of the dead (the thirty days),
+  and what do cells 1–9, if the nine mewa's harms of vol. 2, p. 89, say for
+  each mewa beside WB's verses? Needs the cells read one by one.
+- Question: which water bird year dates *The Precious Key* (I1KG12897, img.
+  384), 1873 or 1933, and who is Prajñāmaṇi, head teacher of the
+  government's Mentsikhang? A catalogue of Mentsikhang teachers or the
+  cycle's number in the colophon, read on the scan at 4×, would settle it.
+
+### Searched and not found
+
+- WB's etext, vol. 2, 2026-11-01: «ཟློས་ཆེ» and «ཟློས་ཆུང» with the four
+  deciding pebbles, none in the dead's chapter (pp. 44–100); the
+  manuscript's speckled lines for life, body, power and luck: none by
+  word; «དཀར་ནག་འདྲེས» with «བར་དོ»: none.
+- BDRC's catalogue record MW1KG12790: no Prajñāmaṇi, no date of the
+  *Precious Key*.
+- The machine's etexts (`~/ai/tibetan-ocr`): «པྲཛྙཱ་མ་ཎི» in the spellings
+  པྲཛྙཱ་མ་ཎི, པྲཛྙཱ་མ་ནི, པྲཛྙ་མ་ཎི: nowhere.
+
