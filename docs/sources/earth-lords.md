@@ -568,3 +568,29 @@ four:
 ## RD109, 2026-11-01 (open questions 123, 125, 290)
 
 The last names of p. 133's cells are the day's earth lords' names ([wb-table-last-names-are-the-day-lords](claims/wb-table-last-names-are-the-day-lords.md)), the cells' hearth god sides are this section's table ([wb-table-hearth-god-sides-are-p224s](claims/wb-table-hearth-god-sides-are-p224s.md)), the la-knower's animals of the time cells run in a cycle of four ([wb-la-knower-animals-cycle-of-four](claims/wb-la-knower-animals-cycle-of-four.md)), and p. 97's «ཁྲུ་ལུ» is most likely the khar bu ([wb-khru-lu-is-the-khar-bu](claims/wb-khru-lu-is-the-khar-bu.md)). Questions 123 and 125: nothing new. See [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md), *Open and searched (RD109)*.
+
+## RD118, 2026-11-01 (open questions 32 and 41)
+
+Pages: WB vol. 2, pp. 203, 205–206, 214–215 (img. 211, 213–214, 222–223) and the notes pp. 534–535 (img. 542–543), read again as Yigdzin-1's machine text beside the earlier scan readings of [year-month-earth-lords.md](year-month-earth-lords.md) and [weighing.md](weighing.md); no new scan reading of those pages was made. New witnesses: the Bhutan collection of 1981 (I1KG11905, etext only, printed pp. 436–456 on img. 441–456, two of its leaves looked at on the scan) and the regent's replies (I5876) and Lha mo tshul khrims (I1KG21886) searched in full for the old couple, the blue mouse road and the belly-crawler.
+
+### Question 32: which view the almanacs follow
+
+What WB itself says. For the belly-crawler WB names its main sources: the *Lamp of Clear Jewels* and the *Hidden Magic Wheel* are the main ones and the sky dogs are reckoned as said above (p. 215, img. 223, «དེས་ན་རིན་ཆེན་གསལ་སྒྲོན་དང་། །གབ་པ་འཕྲུལ་འཁོར་དགོངས་དོན་གཙོ། །»; Yigdzin-1 on the 1996 scan; the Zhol and Taikhang prints are in the earlier section). For the old couple (p. 203) the verse gives its own course and then "a common view" with the spring first month on the monkey, the second on the bird and so on, with no word on which is chief; for the blue mouse road (pp. 205–206) it gives its own and then three others (the *Gathering of Jewels*, the *Knowing What to Send*, the *Clear Light, Mother and Son*), closing "here too many discordant places", again with no chief named. So for these two lords WB's own course, the first given, is the only one the text itself prefers.
+
+What a later Phugpa-side text does. The Bhutan collection (etext, machine text, not read on the scan) has a digest of WB's results whose remedies for the month's lords follow WB's wording lord by lord (p. 455 of the print): «རྒན་རྒོན་སྤྱང་ཐོད་ཤོག་ཕྲེང་སྒྲིབ།» (the old couple: a wolf's skull and a paper garland as screen, as WB p. 203) and «བྱི་ལམ་སྔོན་མོ་གནས་ཕྱོགས་སུ། །ལུག་མཆིན་ … སྒྲིབ།» (the blue mouse road: a sheep's liver at its place, as WB p. 206). Its leaf shows that the digest takes WB's list of lords and screens whole; it states no course for either lord in its verses. The courses stand, if anywhere, in its twelve hand-drawn month wheels (pp. 436–446, img. 441–452): each leaf is a figure with cells by direction naming lords, in cursive script that Yigdzin-1 turns into broken syllables («རྒན་རྒོན། མགོ་ནུབ།», "old couple, head west", on p. 441–442 is the only line that came out, and it is not settled whether it is the old couple of WB or another lord of the wheel). Whether the wheels agree with WB's first course was not decided.
+
+Result: **narrowed**. The almanac-side texts reachable here (Lha mo tshul khrims, the regent's replies, the Bhutan digest's verses) give no course of the old couple or the blue mouse road that could be set against WB's, and the digest takes WB's own lords and screens; the only text so far that follows one of WB's several views is the Sakya chart for the belly-crawler (year-month-earth-lords.md).
+
+### Question 41: the earth lords against the results
+
+The notes' third and fourth heads of the general reckoning are read again (p. 534, img. 542, last paragraph, and img. 543, ll. 1–8): the third head is «གསུམ་པ་གང་ལའང་མཁོ་བ་ས་བདག་གི་སྐོར་ལ།» "third, the earth lords, needed for any work", ending with the sum of 474 lords «དྲེགས་པའི་གཙོ་བོ་མི་རྩིར་མི་རུང་བ་རྣམས» "the proud chiefs that may not be left out of the reckoning"; the fourth, «བཞི་པ་འབྲས་རྩིས་ནི་ལེའུ་སོ་གསུམ་པ་དང་སོ་བཞི་པ་བཞིན་ཏུ།» "fourth, the results, as in chapters 33 and 34", takes the date's factors and the «དམིགས་སུ་བསལ་བ» of each work. The two are heads side by side; neither refers to the other. Searching the three etexts above for an earth lord named beside the date's good or bad factors (the lord's name with «བཟང་», «ངན་», «གཙོ», «འཛེམ» and «ཚེས», «གཟའ», «སྐར» within a clause) gave nothing. Result: **unchanged**, answered as far as the sources go (weighing.md): no text found sets the earth lords against the results.
+
+### Open
+
+Question: the Bhutan collection's month wheels (pp. 436–446, 1981, hand-drawn): does the old couple, or the blue mouse road, stand in them on the places WB's first course gives for the month? A reader of the cursive script is needed, or the leaves read on a clean print.
+
+### Searched and not found
+
+- The old couple's course in Lha mo tshul khrims (I1KG21886 etext, «རྒན་རྒོན» nine times) and the regent's replies (I5876 etext, once): no seats by month; the names occur in lists of kin and corpses. The blue mouse road, «བྱི་ལམ» and «ལམ་སྔོ»: none in either.
+- The Bhutan collection's verses (etext, «རྒན་རྒོན», «བྱི་ལམ», «ལམ་སྔོ»): remedies (p. 455), a corpse-rite entry (pp. 506, 509, 546) and the wheels' garbled lines; no verse course.
+- An earth lord set against the date's results, in the same three etexts: none.
