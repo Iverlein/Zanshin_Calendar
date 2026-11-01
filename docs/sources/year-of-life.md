@@ -5,6 +5,8 @@ mewa, trigram and progressed sign of the year of age, the twenty-four
 decisive pebbles and the predictive ones, the sectors of growth and
 decline, and the year's obstacles, each with its reading.
 
+Read by RD115 (2026-11-01): WB ch. 20–21's open questions (the older system's 440, p. 257's circuits); findings in verdicts.md.
+
 **Texts.** WB, Beijing 1996, vol. 1 (BDRC MW2CZ8040, scans I1KG12906, open;
 **printed page = image − 10**, the etext's `[pN]` = image N): chapter 21,
 *nag rtsis kyi skor 'go dang sgang sgril* (pp. 252–258, img. 262–268), and

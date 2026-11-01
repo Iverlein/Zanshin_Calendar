@@ -2,6 +2,8 @@
 
 Sigla, numbering and quoting rules are in [README.md](README.md).
 
+Read by RD115 (2026-11-01): findings in verdicts.md and the corpus files of its row.
+
 ## WB's illness reckoning (RD12)
 
 WB vol. 1, chapter 25, *The Illness Reckoning* (ནད་རྩིས་ཀྱི་སྐོར, nad rtsis kyi skor), printed pp. 417–452, img. 427–462 of the 1996 edition (BDRC I1KG12906; etext IE0OPI51524892, etext page = image number). Read 2026-10-12. Sigla: WB, WBZ (README.md).
