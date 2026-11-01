@@ -7844,3 +7844,8 @@ Question 564 ([q0564](questions/q0564.md)): Is the limbs' verdict in Sprugtön's
 ## The year of age's son place: a place with both colours, a son meeting, a pair or speckled (RD123)
 
 Nothing read yet: RD123's passages, with the English beside them, go here.
+
+
+## KP's third square for Rāhu, ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར», «བསྔོ་རུ་མ་བཏུབ» (RD124)
+
+Nothing read yet: RD124's passages, with the English beside them, go here.
