@@ -810,3 +810,11 @@ Question: The hal khyi's five mothers and five sons (p. 185), if the five elemen
 - BDRC's full-text search, 2026-11-01: «ཡོལ་བས་སྒྲིབ» (82 hits, nearly all of the mandala or the sadhanas' curtain, none an earth-lord text beyond WB's copies and the Bhutan collection), «སྣང་སེལ་དུར» (2: the 1996 etext's list of the scattered lords, and an English book on the White Beryl's elemental divination paintings), «ཉི་དུས་ནག་པོ» (3: WB's three etexts), «ཧལ་ཁྱི་ནག་པོ» (68: the *Rin chen gter mdzod*'s and Karma chags med's lists of the dead's lords and WB's copies; not read through). No gloss of the mothers and sons, the light-clearer's grave or Wangkhyi's day-time.
 - The Bon students' textbook (I4PD3282, 338,000 characters): searched for «ཡོ་ནས», «སྦྲང་མ», «ཕུད་གཏོར», «ཉི་མའི་ཀླུང», «ཉི་དུས», «སྣང་སེལ»: none of ch. 31's lines; it has Wangkhyi's «ཝང་གི་ངན་པ་རྒྱུ་དུས་མནའ་བསྐྱལ་འཛེམ» (the oath-bringers avoided in his travelling time) only.
 - Question 441 (why a tent): no source searched this session; RD65's dead end stands. Question 123's «གཏོང་ཤེས» and 125's «ལོ»: nothing new.
+
+## Open and searched (RD109, second part)
+
+RD109, second part, 2026-11-01: questions 470 and 404, 439, 440, 446, 447 read by eye on the Gser thang reprint (I3CN5029 img. 191 and 230) and in the shared dictionary clone. Claims `wb-sbang-ma-is-the-beer-mash`, `wb-hal-khyi-numbers-17-25-are-nine`.
+
+Narrowed: 440, 447 (and 404's second half): the reprint reads «སྦང་མ» as the Zhol and Taikhang do, the beer's mash, scattered as the first portion with a cloth over it; no bee. 470: the nine numbers 17–25 are on the reprint too, each under an arc. 439, 446 (the «ཡོ»): crooked or all, the dictionaries give nothing for «ཡོ་ནས» itself.
+
+Not reached or not settled: 32, 35, 432 (the sun's klung; the reprint's p. 186 was looked at, the line and its four blocks as RD65 and RD74 found, no gloss), 123, 125, 441, 445, 448 (no new source), 404's first half.
