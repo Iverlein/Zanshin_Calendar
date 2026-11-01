@@ -2394,3 +2394,7 @@ follow (p. 223, «ཞག་གི་ས་བདག», [earth-lords.md](earth-lo
   the right hand, "right" by its turner while the stone goes the common
   left way: «…བརྩི་བ་པོ་དཔྱད་མཁན་གྱི་ལག་བརྡ་ན་དུ་བསྐོར་བའི་ལག་གཡས་ཀོ་པ་གཡོན་ཕྱོགས་སུ་འ་ར་བས་སྐོར་བ་པོའི་དབང་གིས་གཡས་སྐོར་དང་། གཡོན་གྱིས་སྐོར་བ་དེ་གཡས་ཕྱོགས་སུ་འཁོར་བས་གཡོན་སྐོར་ཞེས་བརྡ་ཆད་དུ་མཛད་དོ།།» (open
   question 33).
+
+## RD109, 2026-11-01 (open questions 28, 29, 32, 35, 36)
+
+The grave, the slayer and Wangkhyi's day-time animal are the same four animals, ox, sheep, dragon and dog (claim [wb-grave-slayer-and-wangkhyi-day-are-the-four-gshed](claims/wb-grave-slayer-and-wangkhyi-day-are-the-four-gshed.md)); the hal khyi's mothers and sons are probably the five elements' mother-son pairs ([wb-hal-khyi-mothers-sons-are-element-pairs](claims/wb-hal-khyi-mothers-sons-are-element-pairs.md)). Questions 32 and 35 (which view; the sun's ox or klung): nothing new. The searches and what remains open: [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md), *Open and searched (RD109)*.

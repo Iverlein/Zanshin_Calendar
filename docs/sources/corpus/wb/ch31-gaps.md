@@ -317,6 +317,16 @@ The rat day's three lines (WB vol. 2, p. 224) on three more witnesses; the words
 
 **The dog day beside it.** On the dog day (same page, machine reading of both the Zhol print and the Gser thang etext) the lord stays at the threshold: a corpse laid on the threshold is bad for «ཕ་ཁུར» (the sense of the two syllables is not settled; they read as a bearer of the corpse), or that bearer dies; the remedy is to wrap the threshold in a cloth («ཐེམ་པ་ཕྱ་རས་གྲིལ་བས་ཐུབ»). So «ཐེམ་བུ/ཐེམ་པ» is the house threshold, as elsewhere in the page, and the rat day's «ཐེམ་བུར་མི་འཚག» says the corpse is not set on it.
 
+## <a id="wb-2-p224d"></a>wb.2:p224d The earth lord of the day's animal is Khar-bu, the sun's twelve; the Bhutan text names Khru-lu before the same seats (RD109)
+
+*Read: etext, 2026-11-01.*
+
+> > «འདི་ཉིད་ནང་གནས་ཚུལ། །ས་བདག་ཁར་བུ་ཞེས་བྱའམ། །ཉི་མའི་གདུག་པ་བཅུ་གཉིས་སམ། །གནམ་གྱི་འཁོར་བུ་ཞེས་པ་སོགས། །ངོ་བོ་གཅིག་ཡིན་འདི་ལྟར་རོ། །བྱི་བའི་ཉི་མར་ཆང་རྫར་གནས། །དེ་ལ་གཤིན་གྱི་ཆང་བཙགས་ན། །»
+> 
+> > The Bhutan collection (I1KG11905, etext p. 570, machine text, not read on the scan): «ཞག་ལྷ་གསེར་མཛོད་སེར་པོ་དང་། །ས་བདག་ཁྲུ་ལུ་ལི་བྱི་ནག །… བྱི་ཉི་བྱང་སྨད་ཆང་རྫ་གནས། །དེ་ལ་གཤིན་གྱི་ཆང་བཙགས་ན། །ཆང་མ་ལ་ངན་ཉམས་པ་ན། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། །»
+
+How this earth lord stands in the house: the earth lord called Khar-bu (ཁར་བུ, khar bu), or the twelve of the sun's harm (ཉི་མའི་གདུག་པ་བཅུ་གཉིས, nyi ma'i gdug pa bcu gnyis), or the sky's wheel-son (གནམ་གྱི་འཁོར་བུ, gnam gyi 'khor bu) and the like, are one in essence; then the rat day's seat at the beer jar follows. The Bhutan collection's verse puts "the day god, the yellow golden treasury, and the earth lord Khru-lu" (ས་བདག་ཁྲུ་ལུ, sa bdag khru lu) directly before the same seat, the mouse day (lower north) at the beer jar, with the same strained-beer line and the remedy as p. 224. The page-224 part is the 1996 print's etext (I1KG12907 etext p. 232), the Bhutan part its machine text; neither read on the scan in this session.
+
 ## <a id="wb-2-p224-225"></a>wb.2:p224-225 The earth lord of the day's animal in the house, the day's la-knower, the hearth god, the five days and the twelve earth lords' courses
 
 *Read: machine, 2026-10-25.*
@@ -777,3 +787,26 @@ Question: On p. 185 the print carves nine numbers (17–25) after «མ་ལྔ
 
 - A seat, a direction or an order of the pairs for the hal khyi's mothers and sons in the verse, the note and the remedy lines to the foot of p. 185 (Gser thang reprint img. 191, read line by line by eye, 2026-10-28): none; the lines say only 22 days to each pair and 110 in all.
 - The word of the sun's klung explained in the four blocks of p. 186 (img. 192, by eye): the block of Langging gives the table of twelve year-pairs and the line «ཉི་མའི་ཀླུང་དང་ལྷན་ཅིག་བསྐྱེད» and no gloss; Dkar-sham and Sbal-te give a seat and a turn (to the left, three days after), Tsang-kun a turn sixteen days after.
+
+## Open and searched (RD109)
+
+RD109, 2026-11-01: questions 28, 29, 32, 35, 36, 123, 125, 148, 290, 404, 432, 433, 439–441, 443–448, 459–461 and 470, the dictionaries and BDRC's full-text search first (Steinert's 64 dictionaries by `locate.py dict`; `bdrc_search.py` over six new phrases; the Bhutan collection's and a Bon students' textbook's etexts read at the hits), then the pool's own pages. No page image was read again. Passage `wb.2:p224d`; claims `wb-table-last-names-are-the-day-lords`, `wb-table-hearth-god-sides-are-p224s`, `wb-la-knower-animals-cycle-of-four`, `wb-khru-lu-is-the-khar-bu`, `wb-grave-slayer-and-wangkhyi-day-are-the-four-gshed`, `wb-hal-khyi-mothers-sons-are-element-pairs`, `kp-box78-square-is-not-the-nu-ru-course`.
+
+Answered: question 460 (the last names are the day's earth lords' names; the ox's is «གཉན་ལྗང»), question 461 (the hearth god's sides are p. 224's). Narrowed: 459 (a cycle of four, tiger, pig, monkey, snake, by the time's place), 290 (Khru-lu is Khar-bu by the seats), 28, 29, 443, 444 (the grave, the slayer and Wangkhyi's day are the same four animals; only the assignment to the first months open), 36, 433 (element pairs), 148 (not the nu ru course, not the detailed one). Not settled: 32, 35, 432, 123's «གཏོང་ཤེས» (work found in the lde mig catalogue only), 125, 404, 439, 440, 441, 445, 446, 447, 448, 470.
+
+A finding from the new searches that does not change a question: BDRC's search for «ཆང་མ་བྱིས་པ་དག་ལ་ངན» has two hits only, WB's 1996 and Gser thang etexts; «ཆང་རྫ་ལ་གནས» has seven: WB's etexts, the Bhutan collection, a Bon astrology work (MW1KG13780, a witness only), the Bon students' textbook (I4PD3282), a chapter of an etext whose outline copies WB (MW1KG2733_B72D03, search-only) and the commentary *Dpyod ldan snying nor*; none glosses «ཡོ་ནས» or «སྦྲང་མ». In the Bon textbook's table the rat cell carries no remedy at all (seat, harm, name), so it does not bear on the rat day's «འདྲེན».
+
+**Open**
+
+Question: The grave («དུར») of the light-clearer in the tiger, snake, monkey and pig months is one of ox, sheep, dragon and dog (WB's ch. 23 triads: dog, ox, dragon, sheep; Lha mo tshul khrims' elements: sheep, dog, ox, dragon): which assignment does p. 219 mean? (narrows 443, 444, 28)
+
+Question: The la-knower's animals in the second table of p. 133 run tiger, pig, monkey, snake by the time's place: why those four, and what does the monkey's time (tiger expected, monkey read) and the dog's (illegible) hold on the scan? (narrows 459)
+
+Question: The hal khyi's five mothers and five sons (p. 185), if the five elements' mother-son pairs: in which order do the pairs follow, and where does each sit, with nine numbers carved for ten beings? (narrows 36, 433, 470)
+
+**Searched and not found**
+
+- Steinert's 64 dictionaries (`locate.py dict`, the shared clone, 2026-11-01), headwords «snang sel» (only the Buddhist meditation on impermanence, no. 58), «mar gyi khyim mtshes», «yar gyi gshed», «dur gshed» (a term of black reckoning, no. 62, no gloss; an abbreviation «gshedur» in the Dzongkha list), «sbrang ma phud», «gnas pa'i nyi dus», «nyi ma'i glang», «khar bu», «gtong shes», «sa bdag gtong shes»: none glosses the lines. «sbrang ma» is the bee, and in no. 58 also a fly that haunts the unclean; «phud gtor» the first portion of a torma, «yol ba» the curtain: as RD74 found.
+- BDRC's full-text search, 2026-11-01: «ཡོལ་བས་སྒྲིབ» (82 hits, nearly all of the mandala or the sadhanas' curtain, none an earth-lord text beyond WB's copies and the Bhutan collection), «སྣང་སེལ་དུར» (2: the 1996 etext's list of the scattered lords, and an English book on the White Beryl's elemental divination paintings), «ཉི་དུས་ནག་པོ» (3: WB's three etexts), «ཧལ་ཁྱི་ནག་པོ» (68: the *Rin chen gter mdzod*'s and Karma chags med's lists of the dead's lords and WB's copies; not read through). No gloss of the mothers and sons, the light-clearer's grave or Wangkhyi's day-time.
+- The Bon students' textbook (I4PD3282, 338,000 characters): searched for «ཡོ་ནས», «སྦྲང་མ», «ཕུད་གཏོར», «ཉི་མའི་ཀླུང», «ཉི་དུས», «སྣང་སེལ»: none of ch. 31's lines; it has Wangkhyi's «ཝང་གི་ངན་པ་རྒྱུ་དུས་མནའ་བསྐྱལ་འཛེམ» (the oath-bringers avoided in his travelling time) only.
+- Question 441 (why a tent): no source searched this session; RD65's dead end stands. Question 123's «གཏོང་ཤེས» and 125's «ལོ»: nothing new.

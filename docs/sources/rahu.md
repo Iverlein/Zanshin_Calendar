@@ -328,3 +328,7 @@ reads as quoted, «ཐོ་རེངས་ནམ་ལོངས» and «འཛ�
 ## Open
 
 - Open question 148 ([open-questions.md](open-questions.md)).
+
+## RD109, 2026-11-01 (open question 148)
+
+The square of KP img. 78 (Bhutan print img. 426) is tested date by date against the general nu ru course and the detailed course and fits neither by direction of setting out or of ending ([kp-box78-square-is-not-the-nu-ru-course](claims/kp-box78-square-is-not-the-nu-ru-course.md)); what it counts stays open.

@@ -564,3 +564,7 @@ four:
   another sense in the Kālacakra reckoners, the year of civil days
   («ཉིན་ཞག་གི་ལོ», Co ne Grags pa bshad sgrub, BDRC snippet), which does not
   fit a lord's seat. BDRC's search finds «ཞག་གི་ལོ་སྟེང» in WB's prints alone.
+
+## RD109, 2026-11-01 (open questions 123, 125, 290)
+
+The last names of p. 133's cells are the day's earth lords' names ([wb-table-last-names-are-the-day-lords](claims/wb-table-last-names-are-the-day-lords.md)), the cells' hearth god sides are this section's table ([wb-table-hearth-god-sides-are-p224s](claims/wb-table-hearth-god-sides-are-p224s.md)), the la-knower's animals of the time cells run in a cycle of four ([wb-la-knower-animals-cycle-of-four](claims/wb-la-knower-animals-cycle-of-four.md)), and p. 97's «ཁྲུ་ལུ» is most likely the khar bu ([wb-khru-lu-is-the-khar-bu](claims/wb-khru-lu-is-the-khar-bu.md)). Questions 123 and 125: nothing new. See [corpus/wb/ch31-gaps.md](corpus/wb/ch31-gaps.md), *Open and searched (RD109)*.
