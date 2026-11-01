@@ -944,6 +944,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | open; cites wb.2:p395 |
 | [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | open; cites wb.1:p380 |
 | [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | open; cites dz:i046 |
+| [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
+| [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | open; cites dz:i056 |
 
 <!-- end pool index -->
 

@@ -8228,8 +8228,8 @@ Read 2026-11-01 (RD127): the *Moonbeams* (DZ, I2533) f. 21b–22a (img. 046–04
 
 ### Open
 
-- Question: In the *Moonbeams*' year of age, when the stage and place pebbles of one aspect include a half, is the count «དཀར་ནག་མང་ཉུང་བགྲང» made on whole white and black pebbles only, with the half not counted, or does a half count as one of each?
-- Question: Are the *Moonbeams*' general (སྤྱི), particular (བྱེ་བྲག) and special (ཁྱད་པར) verdicts of f. 26b–27a the same three that WB lays for the dead, and which of the four verdict pebbles (ཁ་དམར) is each?
+- Question 574 ([q0574](questions/q0574.md)): In the *Moonbeams*' year of age, when the stage and place pebbles of one aspect include a half, is the count «དཀར་ནག་མང་ཉུང་བགྲང» made on whole white and black pebbles only, with the half not counted, or does a half count as one of each?
+- Question 575 ([q0575](questions/q0575.md)): Are the *Moonbeams*' general (སྤྱི), particular (བྱེ་བྲག) and special (ཁྱད་པར) verdicts of f. 26b–27a the same three that WB lays for the dead, and which of the four verdict pebbles (ཁ་དམར) is each?
 
 ### Searched and not found
 

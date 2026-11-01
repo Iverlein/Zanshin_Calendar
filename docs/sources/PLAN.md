@@ -1287,3 +1287,5 @@ Searched and found wanting, so not to be repeated:
   - A sentence in the notes pp. 489–491 that says how a son meeting or a half counts toward the white and black of the place: none, read on the Gser thang reprint (img. 495–497).
   - The son meeting's count in the Clear Mirror beyond «ཁྲ»: the verse of etext p. 334 gives the place's count only.
   - Gyurme Dorje's own text on the son (pp. 226–230): not read this time (no loan).
+- **RD127 dead ends** (RD127, 2026-11-01):
+  - The Moonbeams f. 21b–22b and f. 26b–27a (DZ img. 046–048, 056–057), by eye and in the pool's text: a rule for a half in the count of the four verdict pebbles; a definition of the general and the particular verdict; a reading of a half verdict of the year of age: none.
