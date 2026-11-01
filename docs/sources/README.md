@@ -297,6 +297,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/lord-lama-replies-on-star-and-chinese-reckonings.md](claims/lord-lama-replies-on-star-and-chinese-reckonings.md) | claim, note | The Lord Lama's replies on the star and Chinese reckonings, and the iron bird and monkey | cites ys:i494-496, ys.2:i016; feeds block-31 |
 | [claims/lt-clan-table-is-wb.md](claims/lt-clan-table-is-wb.md) | claim, conflict | LT's clan table of cut-offs is WB's birth table and conflicts with the notes' corner rule for fire and iron | cites lt:p26-28, wb.1:p260-261, wb.2:p499-500, lt:p12; feeds block-31 |
 | [claims/lt-planet-rise-by-date-and-element.md](claims/lt-planet-rise-by-date-and-element.md) | claim, rule | A planet rises on the day's animal; the Sun, Mercury and Venus are reached through their elements | cites lt:p10-11; feeds block-31 |
+| [claims/lto-phye-shrouding-wood-rahu.md](claims/lto-phye-shrouding-wood-rahu.md) | claim, note | Lto-'phye's shrouding wood draws a Rahu on the elephant's head: the earth's Rahu, not Vishnu's | cites ys.2:i026; feeds block-25 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
 | [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md) | claim, rule | The karma reckoning over the match is each spouse's birth reckoning | cites wb.1:p364, wb.2:p526, wb.2:p474, wb.2:p478, wb.2:p489, wb.1:p261; feeds block-58 |
@@ -603,7 +604,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/notes-8.md](corpus/wb/notes-8.md) | corpus | Mipham's notes on WB, section 8: the scattered small reckonings, the moment and the omens | 9 passages: 8 scan, 1 machine |
 | [corpus/wbz/wbz.md](corpus/wbz/wbz.md) | corpus | WB, the Zhol print and the Taikhang reproduction: doubtful words on the blocks | 23 passages: 21 scan, 2 machine |
 | [corpus/ys/earth-lords-results.md](corpus/ys/earth-lords-results.md) | corpus | Removing the Tarnish: the questions and replies on the earth lords and the results | 5 passages: 1 scan, 4 machine |
-| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 31 passages: 12 scan, 19 machine |
+| [corpus/ys/other-reckonings.md](corpus/ys/other-reckonings.md) | corpus | Removing the Tarnish: the regent's replies on the dead, the sick, the moment and the match | 32 passages: 12 scan, 20 machine |
 | [corpus/ys/thirty-circles.md](corpus/ys/thirty-circles.md) | corpus | Removing the Tarnish: the regent's replies on the thirty and the circles | 7 passages: 6 scan, 1 machine |
 | [corpus/zg/zg.md](corpus/zg/zg.md) | corpus | ZG, Zhechen Gyaltsab's *Garland of White Utpalas*: the pebbles of the thirteen circles | 5 passages: 3 scan, 1 machine, 1 etext |
 | [questions/q0258.md](questions/q0258.md) | question q258 | The household round for a household other than five | open; cites wb.1:p385-387, wb.2:p490-491 |
