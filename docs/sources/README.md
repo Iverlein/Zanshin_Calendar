@@ -920,6 +920,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0552.md](questions/q0552.md) | question q552 | The colour words in the cells of the seven members' round on KD vol. 3 p. 726 and at 19 | open; cites — |
 | [questions/q0553.md](questions/q0553.md) | question q553 | Why does the second column of the first group on KD vol. 3 p. 724 carry one black pebble | open; cites — |
 | [questions/q0554.md](questions/q0554.md) | question q554 | Is KD's Chinese title the one Kun dga' rig 'dzin's register entry means | open; cites — |
+| [questions/q0555.md](questions/q0555.md) | question q555 | The second and third result names «ཀླུང» and «ཀྱཱིས» on Mipham's print | open; cites — |
+| [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | open; cites — |
+| [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
 
 <!-- end pool index -->
 

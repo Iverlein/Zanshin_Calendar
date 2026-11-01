@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD105 (2026-11-01): Mipham's own print I2029 img. 621–750 and the Chengdu typeset I1PD34647.
+
 ## <a id="wb-2-p475"></a>wb.2:p475 The birth's hundred: one pebble a meeting, the son black
 
 *Read: scan, 2026-10-23.*

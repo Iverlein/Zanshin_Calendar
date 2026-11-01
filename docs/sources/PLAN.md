@@ -1251,3 +1251,7 @@ Searched and found wanting, so not to be repeated:
   - archive.org: the Sakya volume with the Seven Special Qualities (BDRC W29978, bdrc-W29978) is stream_only; the loan call answers HTTP 400 and the reader gives no page image. It cannot be lent or read.
   - archive.org bdrc-W1KG25692 (the Tibet University journal's selected articles, 715 leaves, printed pp. 1–567): none of its entries is the interview with Kun dga' rig 'dzin; the interview is in a volume archive.org does not carry. Question 250 stays open.
   - KD vol. 3 front and last leaves (1–7, 768–773): the title leaf is the work's calligraphy and a signature; the Tibetan colophon gives publisher data and no writer; the Chinese title is in vol. 5's colophon only.
+- **RD105 dead ends** (RD105, 2026-11-01):
+  - Strip-wise Yigdzin runs (one line at a time) of I2029 img. 744 hallucinate repeating text.
+  - I2029 pages are 3400 px wide at about 33 px a line, so single stacks stay indistinct at 9–12×.
+  - BDRC search «དྲུང་མཁས་པ་རཏྣ» and «དྲུང་མཁས་པ་རཀྵ»: 0 hits; «འབྲི་ཝང་སུམ་ཅུ»: 0 hits; «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས» only WB's two prints.
