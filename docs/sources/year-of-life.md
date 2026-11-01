@@ -3272,3 +3272,55 @@ Img. 454, ll. 2–3 (Yigdzin-1):
 ### Searched and not found
 
 - A word-by-word gloss of p. 349's «རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་» in the notes' pp. 488–489: none (the notes name only «ཕ་ཡི་དྭ་ཟླས»).
+
+
+## The year of age's obstacles on the Zhol print: «ཁ་སྨྲང» and «ངོ་ཐོག», «མ་སྤར», the seven-red's two readings (RD126)
+
+Read 2026-11-01 (RD126) for the open questions 81, 91 and 173, on the Zhol print (བཞོལ, zhol; I1KG1710, WBZ; each image one folio side of six lines): WB vol. 1, p. 381 = img. 499 (ll. 2–3), p. 390 = img. 512 (l. 4, running to the end of the line), p. 403 = img. 531 (ll. 1–2), p. 405 = img. 533 (ll. 2–3; the lines found by the text, not by an offset). Yigdzin-1 over img. 498–540 as the base, the passages below by eye at 2–4× crops; no MITRA, no agy. The Gser thang reprint and the 1996 scans were not reread here.
+
+### 173: «ཁ་སྨྲང» and «ངོ་ཐོག» on the blocks
+
+P. 381, Zhol img. 499, l. 2, by eye at 4×:
+
+> ཤིང་ལྕགས་མེ་གསུམ་ནག་པོར་བོར། །དེ་ལ་ཁ་སྨྲང་རྡེལ་འགྲེ་མ་ལུགས། །མི་མཐུན་མང་ཡང་དཀར་ནག་གི། །གསུམ་གཉིས་ལ་སོགས་མི་འདྲེན་པར། །ངོ་ཐོག་དཀར་ནག་བགྲངས་པ་ཡི། །གང་མང་ཁ་དམར་རྡེལ་བོར་བ།
+
+"Wood, iron and fire, the three, are laid on the black. On that, the manner of laying out the pebbles by account (ཁ་སྨྲང, kha smrang); though the unlike are many, white and black are not drawn in threes and twos and the like; whichever is the more of the white and black counted by place, the verdict pebble is laid that."
+
+- «ཁ་སྨྲང»: the stack after ཁ་ is ས over མ with ra-btags, clear at 4× on the blocks where the Gser thang reprint has a blot; Yigdzin-1 reads the same. So not «ཁ་སྦྲང»; the word is «ཁ་སྨྲང», speech, an account, as the questions 174 and 67 read it ([claims/wb-count-by-place-kha-smrang.md](claims/wb-count-by-place-kha-smrang.md)).
+- The block's words run «རྡེལ་འགྲེ་མ་ལུགས» as Yigdzin-1 writes them; by eye the ma stands against the following ལུགས, whether «འགྲེམ་ལུགས» (the reading of the other prints) or a separate syllable is not told at 4×: a doubt, the sense is the same.
+- «ངོ་ཐ…ག»: the second syllable is ཐ with a small vowel sign above and ག below; Yigdzin-1 reads «ཐོག», the 1996 print and the Gser thang «ཐེག». The sign is a short stroke on the cursive block and **was not settled between ེ and ོ** at 4×. If «ཐོག», «ངོ་ཐོག» is "the face, the top": the whites and blacks counted by their place (face) on the top. Narrowed, not answered; no dictionary or text has either word as a term.
+
+### 91: «མ་སྤར» on the blocks
+
+P. 390, Zhol img. 512, l. 4, by eye at 3×, the clause reads on the blocks (Yigdzin-1 and the eye agree except at the stack of the first «སྤར»):
+
+> གསང་ཀེག་རྐུན་པོ་རང་སྐྱེས་ཀྱི། །སྤར་སྟེང་སླེབ་དང་མ་སྤར་ལི། །བུ་ལ་གསང་ཀེག་མ་སྤར་ཁམ། །བུ་མོར་གསང་ཀེག་ཚོར་བ་དཀའ། །དངངས་སྐྲག་ངལ་ཡམས་…
+
+"The secret obstacle, the thief: the one's own birth [trigram] reached by the progressed [sign], and the «མ་སྤར» li: for a son a secret obstacle; the «མ་སྤར» kham: for a daughter a secret obstacle, hard to perceive; fear, fright, weariness and epidemics…" (the sense of the last two lines by Yigdzin-1 and the eye together). The block has «མ་སྤར» in both clauses, «ལི» and «ཁམ» as the 1996 print; no gloss of «མ» and no word "mother" beside it. The first clause's stack is read «སྤར» by eye (the Yigdzin-1 «སྤང» is a misreading of the cursive). The block adds the daughter's line's close, «ཚོར་བ་དཀའ», "hard to feel", which the question's quotation left out. Nothing here decides between the mother's trigram and the reckoned one's; the question stays **narrowed** as before ([claims/wb-secret-obstacle-ma-spar-in-the-manuals.md](claims/wb-secret-obstacle-ma-spar-in-the-manuals.md)).
+
+### 81: the seven-red's two lists on the blocks
+
+P. 403, Zhol img. 531, ll. 1–2, by eye at 4× for the last line:
+
+> བདུན་དམར་སྟེང་དུ་བབས་པའི་མི། །བཙན་དང་གྲེ་བོ་བསྡོངས་པ་འམ། །ཀླུ་དང་བཙན་དུ་བསྡོངས་པ་གནོད། །བུད་མེད་ཟླ་རྡིབ་ནད་ཡང་གཟེར། །བཙན་གཟེར་ཁྲག་ནད་ཕོལ་མིག་དང་། །མཁྲིས་ནད་ཚ་བའི་ནད་ཀྱང་ཡོང་། །རི་དམར་འཛེག་དང་ལུང་དམར་འགྲིམ། །དམར་བཤས་འདུ་ལོང་གཏར་སྲེག་འཛེམ།
+
+"One come on the seven-red: a *btsan* and a *gre bo* strike, or the *klu* and the *btsan* strike; for a woman a «ཟླ་རྡིབ» illness stabs; the *btsan*'s stab, a blood illness, an eye disease, bile and fever come; do not climb red hills or walk red valleys; of red meat, «འདུ་ལོང» [?], beware of bloodletting and moxa (གཏར་སྲེག་འཛེམ, gtar sreg 'dzem)." The close is clear on the block: **both avoided**, with «ཟླ་རྡིབ» (Yigdzin-1 and the eye; the 1996 print's «ཟླ་རིབ») and «འདུ་ལོང» (the u read at 4×, the question 83's «འདི་ལོང» doubtful).
+
+P. 405, Zhol img. 533, ll. 2–3. The head the 1996 etext and MITRA drop is **on the block**, read by eye at 2.2×, l. 2, after the previous section's last line «དམར་མི་དབྱུང་ཞིང་བན་མི་འཐབ»:
+
+> ནག་སྐྱེས་བདུན་དམར་བབས་པ་ན། །གཅན་གཟན་བཟུང་དང་མཚོན་འབོག་དང་། །རྨ་ཁྲག་ངོ་སྟེ་དམ་སྲི་གནོད། །ནད་ནི་སྟོད་མི་བདེ་ཞིང་སྐྱུག །མེ་བཙའ་བཟང་ལ་གཏར་ཁ་ངན། །བྱང་ཤར་བརྗེ་དང་མི་འཐབ།
+
+"Born on the black, the seven-red arriving: wild beasts seize and weapons strike; a wound's blood shows, a *dam sri* harms; the illness sits in the upper body, discomfort and vomiting; moxa good, the bloodletting place bad (མེ་བཙའ་བཟང་ལ་གཏར་ཁ་ངན); in the north-east do not fight over exchanges." The line's end, «བརྗེ» (Yigdzin-1 «བནྡེ», the monk: "do not fight with monks"), the first letters are ba over a ra-headed stack, nearer «བརྗེ» of the other prints; not settled at 2.2×.
+
+What follows for question 81: on the Zhol print p. 405's lines sit under the head «ནག་སྐྱེས», with the other colours on the next lines of the same list (img. 533, ll. 4–6: «ནག་སྐྱེས་གཅིག་བརྒྱད་བབས…», «ནག་སྐྱེས་དགུ་དམར་ལ་བབས་ན»), so it is a list of **the natal mewa's** readings, one per mewa, set apart from the year's list of p. 403 (which stands with the household's year readings, not under a natal head). That agrees with the narrowing of 2026-10-19: two lists, not two readings of one; no sentence on the block says which prevails. **Narrowed, not answered.**
+
+### Open
+
+- Question: P. 381's «ངོ་ཐོག» or «ངོ་ཐེག» (Zhol img. 499, l. 2): the blocks' vowel sign over ཐ is not told at 4× and Yigdzin-1 reads ོ; does another impression of the blocks, or a reader of the tradition, carry «ཐོག», the top, or «ཐེག»?
+- Question: P. 390, «མ་སྤར་ལི» for the son and «མ་སྤར་ཁམ» for the daughter (Zhol img. 512, l. 4): the line's close «ཚོར་བ་དཀའ», "hard to feel", is the daughter's secret obstacle's own; is that why the daughter's is named last and with no symptoms?
+
+### Searched and not found
+
+- «མ་སྤར» glossed beside the clause on the Zhol print or in the lines around it (img. 512, ll. 3–6): none; the block reads as the 1996 print and gives no word for «མ» (2026-11-01).
+- A gloss of «ངོ་ཐོག» or «ངོ་ཐེག» in the lines of img. 498–500: none (2026-11-01).
+- p. 403's «འདུ་ལོང» or «འདི་ལོང» on the Taikhang reproduction: not fetched.
