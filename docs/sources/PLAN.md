@@ -1183,3 +1183,10 @@ Searched and found wanting, so not to be repeated:
   - The commentary's continuation after WB's closing verse (search-only MW1KG10375, MW1PD152297): only the Moonbeams' own lines on the base and the count; no word on 241.
   - The Zhol print's p. 472 l. 1–2 (WBZ img. 628): too cursive at 1.3× to tell ཁོན from བོན.
   - A statement of whose year serves for points 12–13, 16, 18–20, 22, 26–30, and a worked example of the thirty with a number of years: none in the Garland, the Moonbeams (KD) or the search-only texts.
+- **RD102 dead ends** (RD102, 2026-11-01):
+  - «ངོ་ཐེག» in Steinert's 64 dictionaries, and in BDRC's full text (55 hits, WB's prints and copies only).
+  - «ཕ་མེས་ཤི་བའི་སྲི་དུས» outside WB's prints and the Zhol print's copy; «མ་སྤར་ལི» outside WB's prints and KD's note.
+  - A gloss of «ཅི་རིགས་གདགས» or «བཟའ་ཚང་སྤྱི་རྡེལ» in the notes pp. 489–495 or any other work: none; the second only in WB's prints and KD's copy (3 hits).
+  - «སྐྱེད་པུར་ཁུ་དཀར» 0 hits; no dictionary entry for «སྐྱེད་པུར», «སྐྱེད་བུར», «མ་ཏྲི», «ཁ་སྦྲང».
+  - The wealth's place's pebbles: «ནོར་ས» with «རབ་འབྲིང་ཐ་གསུམ» finds only WB's prints, KD and a Bhutan collection's copy; no manual lays it out.
+  - A household round for any count but five: nothing new.

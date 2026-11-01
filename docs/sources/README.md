@@ -432,16 +432,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-fierce-works-facing-seat.md](claims/wb-fierce-works-facing-seat.md) | claim, rule | On the earth lords' best day for fierce works, the place facing them is still shunned | cites wb.2:p427b, wb.2:p364-365; feeds T2.26 |
 | [claims/wb-five-days-gya-bdud.md](claims/wb-five-days-gya-bdud.md) | claim, rule | The five days: Gyā, Jung-wa, Yangdag, Nectar, Destroyer, Demon | cites wb.2:p224-225; feeds — |
 | [claims/wb-fixed-earth-lords-72.md](claims/wb-fixed-earth-lords-72.md) | claim, list | The seventy-two fixed earth lords by quarter and element | cites wb.2:p175-176; feeds — |
+| [claims/wb-forefathers-tomb-is-their-own-death-trigram.md](claims/wb-forefathers-tomb-is-their-own-death-trigram.md) | claim, definition | The forefathers' tomb obstacle: the trigram, mewa and progressed sign of the forefathers' death | cites wb.2:p491-492, wb.1:p390; feeds block-58 |
 | [claims/wb-four-executioners-door-follows-the-great-cut-off.md](claims/wb-four-executioners-door-follows-the-great-cut-off.md) | claim, note | p. 53: the four executioners' door has the great cut-off place's consequence and position | cites wb.2:p52-54; feeds block-31 |
 | [claims/wb-funeral-shares-chol-ba-irregular.md](claims/wb-funeral-shares-chol-ba-irregular.md) | claim, note | The six «འཆོལ་བ» funeral shares are the irregular ones | cites wb.2:p68-70; feeds block-31 |
 | [claims/wb-hal-khyi-mothers-sons-days.md](claims/wb-hal-khyi-mothers-sons-days.md) | claim, rule | The black hal khyi's five mothers and five sons hold 22 days each, 110 in all | cites wb.2:p185b; feeds — |
 | [claims/wb-hal-khyi-pairs-no-seat-on-any-print.md](claims/wb-hal-khyi-pairs-no-seat-on-any-print.md) | claim, note | No print or digest gives a seat to the hal khyi's mothers and sons | cites wb.2:p185b, wb.2:p185c; feeds — |
-| [claims/wb-household-mewa-white-red-by-the-vessel.md](claims/wb-household-mewa-white-red-by-the-vessel.md) | claim, note | The household's white is the three whites, its red the seven red (p. 52 against the vessel) | cites wb.2:p51-52, wb.2:p54-55; feeds block-31 |
-| [claims/wb-forefathers-tomb-is-their-own-death-trigram.md](claims/wb-forefathers-tomb-is-their-own-death-trigram.md) | claim, definition | The forefathers' tomb obstacle: the trigram, mewa and progressed sign of the forefathers' death | cites wb.2:p491-492, wb.1:p390; feeds block-58 |
-| [claims/wb-funeral-shares-chol-ba-irregular.md](claims/wb-funeral-shares-chol-ba-irregular.md) | claim, note | The six «འཆོལ་བ» funeral shares are the irregular ones | cites wb.2:p68-70; feeds block-31 |
-| [claims/wb-hal-khyi-mothers-sons-days.md](claims/wb-hal-khyi-mothers-sons-days.md) | claim, rule | The black hal khyi's five mothers and five sons hold 22 days each, 110 in all | cites wb.2:p185b; feeds — |
-| [claims/wb-hal-khyi-pairs-no-seat-on-any-print.md](claims/wb-hal-khyi-pairs-no-seat-on-any-print.md) | claim, note | No print or digest gives a seat to the hal khyi's mothers and sons | cites wb.2:p185b, wb.2:p185c; feeds — |
 | [claims/wb-household-general-pebbles-black-the-more.md](claims/wb-household-general-pebbles-black-the-more.md) | claim, rule | The household's general pebbles: black the more, and whose element is dear | cites wb.1:p415-416; feeds block-58 |
+| [claims/wb-household-mewa-white-red-by-the-vessel.md](claims/wb-household-mewa-white-red-by-the-vessel.md) | claim, note | The household's white is the three whites, its red the seven red (p. 52 against the vessel) | cites wb.2:p51-52, wb.2:p54-55; feeds block-31 |
 | [claims/wb-household-ransoms-ma-tri-and-skyed-pur.md](claims/wb-household-ransoms-ma-tri-and-skyed-pur.md) | claim, definition | The household round's «མ་ཏྲི» ransom and the white offering at the «སྐྱེད་པུར» | cites wb.1:p386b; feeds block-58 |
 | [claims/wb-khyad-par-du-singles-out.md](claims/wb-khyad-par-du-singles-out.md) | claim, note | WB's «ཁྱད་པར་དུ» singles out the case that counts most in its line, no weights | cites wb.2:p428b, wb.2:p387; feeds block-25 |
 | [claims/wb-khyi-gu-dog-day-and-glu-chung.md](claims/wb-khyi-gu-dog-day-and-glu-chung.md) | claim, note | p. 71: the dog day's puppy and the auspicious little song at death | cites wb.2:p70-72, wb.2:p71a; feeds block-31 |
@@ -467,8 +464,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-rd56-additions.md](claims/wb-rd56-additions.md) | claim, note | What RD56 adds to and settles in the topic files | cites wb.2:p175-176, wb.2:p387, wb.2:p378-384, wb.2:p236-237, wb.2:p240; feeds — |
 | [claims/wb-rough-years-lo-rta-snang-par.md](claims/wb-rough-years-lo-rta-snang-par.md) | claim, definition | «ལོ་རྟ» and «སྣང་པར་བཤད»: the rough years and the rough seven as they appear | cites wb.1:p391; feeds block-58 |
 | [claims/wb-sbo-is-dbo-uttara-phalguni.md](claims/wb-sbo-is-dbo-uttara-phalguni.md) | claim, definition | «སྦོ» on p. 65 is U. Phalgunī's second spelling, not a misprint | cites wb.2:p65-66; feeds block-31 |
-| [claims/wb-ser-gsum-is-one-class-label.md](claims/wb-ser-gsum-is-one-class-label.md) | claim, note | p. 70: «དམར་གཉིས་སེར་གསུམ» is one of four classes of mewa, as Mipham's note counts them | cites wb.2:p70-72; feeds block-31 |
 | [claims/wb-secret-obstacle-ma-spar-in-the-manuals.md](claims/wb-secret-obstacle-ma-spar-in-the-manuals.md) | claim, definition | The secret obstacle's «མ་སྤར»: the mother's trigram among the four relatives, in other manuals | cites wb.1:p390, wb.2:p491-492; feeds block-58 |
+| [claims/wb-ser-gsum-is-one-class-label.md](claims/wb-ser-gsum-is-one-class-label.md) | claim, note | p. 70: «དམར་གཉིས་སེར་གསུམ» is one of four classes of mewa, as Mipham's note counts them | cites wb.2:p70-72; feeds block-31 |
 | [claims/wb-seven-red-year-list-and-natal-list.md](claims/wb-seven-red-year-list-and-natal-list.md) | claim, rule | The seven-red: the year's list and the two-black-born's list | cites wb.1:p403-405; feeds block-58 |
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
@@ -816,6 +813,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
 | [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | open; cites wb.2:p47 |
+| [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | open; cites wb.1:p390 |
+| [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | open; cites wb.1:p381 |
 
 <!-- end pool index -->
 
