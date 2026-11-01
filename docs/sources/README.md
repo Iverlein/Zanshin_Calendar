@@ -908,6 +908,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | open; cites — |
 | [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | open; cites — |
 | [questions/q0551.md](questions/q0551.md) | question q551 | Which Sanskrit yogas are WB's good «self-born three, five, seven and two, eight, six» | open; cites — |
+| [questions/q0552.md](questions/q0552.md) | question q552 | The colour words in the cells of the seven members' round on KD vol. 3 p. 726 and at 19 | open; cites — |
+| [questions/q0553.md](questions/q0553.md) | question q553 | Why does the second column of the first group on KD vol. 3 p. 724 carry one black pebble | open; cites — |
+| [questions/q0554.md](questions/q0554.md) | question q554 | Is KD's Chinese title the one Kun dga' rig 'dzin's register entry means | open; cites — |
 
 <!-- end pool index -->
 

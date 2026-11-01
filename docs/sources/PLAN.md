@@ -1247,3 +1247,7 @@ Searched and found wanting, so not to be repeated:
   - BDRC full-text: «ཟླ་ནག་ས་བདག» no hit; «ཁ་དབོན» only in the Bon Kanjur catalogue, unrelated; «ལི་ནི་བཤན་པའི་ཐོད་པ» in WB's etexts and a Nyingma ritual collection (MW1KG2733, search only: not opened).
   - Dictionaries: «གནམ་སྒོ», «ཟླ་ནག», «ཁ་དབོན», «གཟའ་རྒོད» not listed; «ཧལ་ཁྱི» only inside an abbreviation list.
   - Dhaniṣṭhā-yoga: the editors' note on Bharaṇī (p. 329) was not reached; no dictionary lists «ཕུང» as a planet.
+- **RD108 dead ends** (RD108, 2026-11-01):
+  - archive.org: the Sakya volume with the Seven Special Qualities (BDRC W29978, bdrc-W29978) is stream_only; the loan call answers HTTP 400 and the reader gives no page image. It cannot be lent or read.
+  - archive.org bdrc-W1KG25692 (the Tibet University journal's selected articles, 715 leaves, printed pp. 1–567): none of its entries is the interview with Kun dga' rig 'dzin; the interview is in a volume archive.org does not carry. Question 250 stays open.
+  - KD vol. 3 front and last leaves (1–7, 768–773): the title leaf is the work's calligraphy and a signature; the Tibetan colophon gives publisher data and no writer; the Chinese title is in vol. 5's colophon only.
