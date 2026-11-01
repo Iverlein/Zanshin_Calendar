@@ -926,6 +926,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | open; cites wb.2:p215 |
 | [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
+| [questions/q0561.md](questions/q0561.md) | question q561 | p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge | open; cites wb.2:p104 |
+| [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | open; cites wb.1:p331 |
 
 <!-- end pool index -->
 

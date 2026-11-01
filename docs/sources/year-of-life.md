@@ -3232,8 +3232,8 @@ p. 349: the Zhol block (img. 456, l. 2, at 5×) opens «…ཚང་གི་ར
 
 ### Open
 
-- Question: p. 104 (vol. 2), l. 27, «ཤི་འགྲམས་སྒབ» is hidden by a red smudge on the Zhol block (WBZ img. 778, end of l. 3); does the Taikhang reproduction (I5878, about img. 160) or another impression of the Zhol blocks (I4CZ74285) carry «སྒབ» there?
-- Question: the Gser thang reprint's stack in p. 331's «བོང་བུ་?བ་མི་འཕེལ» (img. 326, l. 4) is a solid blot; does the Taikhang's (img. 446, l. 2) carry ས over ག with a bowl, as the Zhol block does?
+- Question 561 ([q0561](questions/q0561.md)): p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge; does the Taikhang or another Zhol impression carry it?
+- Question 562 ([q0562](questions/q0562.md)): the Gser thang reprint's blot in p. 331's stack; does the Taikhang (img. 446) carry ས over ག?
 
 ### Searched and not found
 

@@ -1261,3 +1261,6 @@ Searched and found wanting, so not to be repeated:
   - An earth lord set against the date's results, in the three etexts: none.
 - **RD120 dead ends** (RD120, 2026-11-01):
   - BDRC full-text search for «མི་ཧྲེང་མདུང་ཐོགས», «གཏོང་ཤེས་ལས་བཤད» and «ཚེས་དགུ་ན་ཆུང་མོད»: not run; bdrc_search.py stopped at the launch of its Chromium (chromium-1248 missing on this machine).
+- **RD119 dead ends** (RD119, 2026-11-01):
+  - The Taikhang's lines of pp. 338 and 349 (I5877 img. 456 and 473 by the offset): fetched (img. 442–475), not read, no slot taken for them.
+  - The corpus heading for wbz:i778 says p. 105; the line read is p. 104 l. 28 (p. 105 begins at img. 778 l. 5): a slip to correct.
