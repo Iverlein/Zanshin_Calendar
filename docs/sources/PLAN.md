@@ -1264,3 +1264,7 @@ Searched and found wanting, so not to be repeated:
 - **RD119 dead ends** (RD119, 2026-11-01):
   - The Taikhang's lines of pp. 338 and 349 (I5877 img. 456 and 473 by the offset): fetched (img. 442–475), not read, no slot taken for them.
   - The corpus heading for wbz:i778 says p. 105; the line read is p. 104 l. 28 (p. 105 begins at img. 778 l. 5): a slip to correct.
+- **RD121 dead ends** (RD121, 2026-11-01):
+  - A sentence in WB pp. 22–23 that says how many verdicts the limbs have or that they are counted into the five: none, read line by line on the scan (img. 30–31, 3×).
+  - The first two groups' count of verdicts in words: «ཁ་དམར་གདགས» only, no numeral; the numeral stands from the third group on (p. 22).
+  - A gathering of the meadow's verdicts into five totals in WB pp. 22–23: none; the Moonbeams (f. 24a) and Zhechen Gyaltsab's verse alone give it.

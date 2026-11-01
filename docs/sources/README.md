@@ -928,6 +928,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
 | [questions/q0561.md](questions/q0561.md) | question q561 | p. 104's «ཤི་འགྲམས་སྒབ» under the Zhol block's smudge | open; cites wb.2:p104 |
 | [questions/q0562.md](questions/q0562.md) | question q562 | The Gser thang reprint's blot in p. 331's «བོང་བུ་?བ་མི་འཕེལ» | open; cites wb.1:p331 |
+| [questions/q0563.md](questions/q0563.md) | question q563 | The five columns of a meadow's ornament group | open; cites wb.2:p22 |
+| [questions/q0564.md](questions/q0564.md) | question q564 | The limbs' verdict in Sprugtön's reckoning | open; cites wb.2:p23 |
 
 <!-- end pool index -->
 

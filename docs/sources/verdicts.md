@@ -7830,9 +7830,9 @@ Where these fall, black; where not, white; lay the verdict as in general. The sc
 
 *Open*
 
-Question: In the meadow's ornament leaves, does WB's «ཁ་དམར་ལྔ» of each group stand one for each of the five aspects in the order of the paragraph on the results (life force, body, power, luck, mewa), and are the five columns of a group one year's own five forces or five animals of a kind (the notes, vol. 2, pp. 533–534)?
+Question 563 ([q0563](questions/q0563.md)): In the meadow's ornament leaves, does WB's «ཁ་དམར་ལྔ» of each group stand one for each of the five aspects in the order of the paragraph on the results (life force, body, power, luck, mewa), and are the five columns of a group one year's own five forces or five animals of a kind (the notes, vol. 2, pp. 533–534)?
 
-Question: Is the limbs' verdict in Sprugtön's reckoning (p. 23, l. 13, «ཁ་དམར་སྤྱི་ལྟར་གདགས») a verdict of its own over the sixteen, laid by the general rule for a run, or only the reading of the run for the rites?
+Question 564 ([q0564](questions/q0564.md)): Is the limbs' verdict in Sprugtön's reckoning (p. 23, l. 13, «ཁ་དམར་སྤྱི་ལྟར་གདགས») a verdict of its own over the sixteen, laid by the general rule for a run, or only the reading of the run for the rites?
 
 *Searched and not found*
 
