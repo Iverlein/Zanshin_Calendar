@@ -942,6 +942,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0569.md](questions/q0569.md) | question q569 | The hour's sky dog 43 in the twelfth's and fourteenth's blocks | open; cites wb.2:p50, wb.2:p51 |
 | [questions/q0570.md](questions/q0570.md) | question q570 | Which course gives each date its one direction in KP's square for Rāhu | open; cites kp:i078 |
 | [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | open; cites wb.2:p395 |
+| [questions/q0572.md](questions/q0572.md) | question q572 | The Zhol print's son line: «དཀར་ནག་ཟུང་དུ» or «དཀར་ན་གཟུང་དུ» | open; cites wb.1:p380 |
+| [questions/q0573.md](questions/q0573.md) | question q573 | The Moonbeams' son line: a half, or the etext's «བྱེད་མ» | open; cites dz:i046 |
 
 <!-- end pool index -->
 

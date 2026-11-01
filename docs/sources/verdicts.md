@@ -8007,9 +8007,9 @@ is the reading, is the pair. Whether the notes' "as the root text says"
 
 ### Open
 
-Question: Does the Zhol print (WBZ I1KG1710 img. 498, line 7) read «བུ་ཕྲད་དཀར་ནག་ཟུང་དུ་བོར», as its three machine readings do, where the 1996 and the Taikhang (img. 515) read «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར», and does a better crop of the Zhol or another print (the Sakya Centre I1KG12739–40, the Gser thang reprint I3CN5028 img. 375) settle which letters stand after དཀར?
+Question 572 ([q0572](questions/q0572.md)): Does the Zhol print (WBZ I1KG1710 img. 498, line 7) read «བུ་ཕྲད་དཀར་ནག་ཟུང་དུ་བོར», as its three machine readings do, where the 1996 and the Taikhang (img. 515) read «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར», and does a better crop of the Zhol or another print (the Sakya Centre I1KG12739–40, the Gser thang reprint I3CN5028 img. 375) settle which letters stand after དཀར?
 
-Question: In the *Moonbeams* (KD vol. 3, etext p. 527) is the son's line «བུ་འཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ» (a half, the enemy two black), as O18's scan reading of DZ f. 21b would have it, and not «བུ་འཕྲད་པ་བྱེད་མ…» as the etext prints, and does the leaf of KD itself (vol. 3 p. 507) show the half?
+Question 573 ([q0573](questions/q0573.md)): In the *Moonbeams* (KD vol. 3, etext p. 527) is the son's line «བུ་འཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ» (a half, the enemy two black), as O18's scan reading of DZ f. 21b would have it, and not «བུ་འཕྲད་པ་བྱེད་མ…» as the etext prints, and does the leaf of KD itself (vol. 3 p. 507) show the half?
 
 ### Searched and not found
 

@@ -1282,3 +1282,8 @@ Searched and found wanting, so not to be repeated:
   - A relation of the square's directions (Bhutan reset) to the nu ru setting-out or arrival direction, or to the inner, tho brgal or hidden course of WB p. 238: none; compared date by date.
   - A bare-pair run in the 1996 etext other than work 14's two lines and the notes' «ཐིག་དང་གཅིག་ནས་ཉེར་ལྔའི་བར»: none.
   - Correction owed to claims/plank-tree-bsngo-ru.md: p. 425 continues «མ་བབས་འདི་ལ་ཕྱི་ཆགས་ཡོད» with no «ཐང་ཤིང་»; only p. 419 has «ཐང་ཤིང་མ་བབས».
+- **RD123 dead ends** (RD123, 2026-11-01):
+  - «དཀར་ན་གཟུང་དུ་བོར» or «ཕྲད་དཀར་ན» as a son meeting's rule in the Moonbeams (KD vol. 3), UT, LT, the Bhutan collection and the Clear Mirror (their etexts, searched for «བུ་ཕྲད», «བུ་འཕྲད», «ཕྲད་དཀར་ན»): none; every other manual gives a mixed place, a pair, a half or a speckled one.
+  - A sentence in the notes pp. 489–491 that says how a son meeting or a half counts toward the white and black of the place: none, read on the Gser thang reprint (img. 495–497).
+  - The son meeting's count in the Clear Mirror beyond «ཁྲ»: the verse of etext p. 334 gives the place's count only.
+  - Gyurme Dorje's own text on the son (pp. 226–230): not read this time (no loan).
