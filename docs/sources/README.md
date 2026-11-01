@@ -286,8 +286,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/illness-trigram-of-own-month.md](claims/illness-trigram-of-own-month.md) | claim, rule | The trigram of the date in its own month: the four times' trigrams by WB's almanac rule | cites wb.1:p435, wb.1:p174-178, wb.2:p535-537, wb.2:p497, lt:p9-11, ys.2:i016-017; feeds block-32 |
 | [claims/illness-words-dictionary-rd111.md](claims/illness-words-dictionary-rd111.md) | claim, note | Illness words: «བསྔོ», «བླངས་ལན», «གདོན་རྐྱེན» in the dictionaries and BDRC's search | cites wb.1:p419, wb.1:p438, wb.2:p497; feeds block-32 |
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
+| [claims/kd-chinese-title.md](claims/kd-chinese-title.md) | claim, note | KD's Chinese title is 藏传历算学大全, by a compilers' group; no 西藏天文历算总汇 | cites kd.5:i812-813; feeds block-58 |
 | [claims/kd-meadow-sheet-not-reproduced.md](claims/kd-meadow-sheet-not-reproduced.md) | claim, note | KD's meadow sheet: the first group reproduced, the other three not | cites kd.3:p723, kd.3:p723b, wb.2:p533-534; feeds — |
 | [claims/kd3-p726-household-round-not-read.md](claims/kd3-p726-household-round-not-read.md) | claim, note | KD vol. 3, p. 726: the household round of seven members, what the lent scan shows and what it does not | cites kd.3:p726, kd.3:p726b; feeds block-31 |
+| [claims/kd3-p726-leftovers-named.md](claims/kd3-p726-leftovers-named.md) | claim, note | KD's seven-member round: quarter-runs of eight, the three leftovers named 17, 18, 19 | cites kd.3:p726c, kd.3:p726b; feeds block-31 |
+| [claims/kd3-verdict-count-sum.md](claims/kd3-verdict-count-sum.md) | claim, rule | KD's sheets lay the verdict with a count: the white-minus-black sum of the five cells | cites kd.3:p723, kd.3:p723b, kd.3:p724; feeds block-58 |
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/kp-box78-square-is-not-the-nu-ru-course.md](claims/kp-box78-square-is-not-the-nu-ru-course.md) | claim, note | KP's square on img. 78 matches neither the general nor the detailed course by direction | cites wb.2:p236-237; feeds — |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
@@ -347,6 +350,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/son-text-hidden-text.md](claims/son-text-hidden-text.md) | claim, note | The son text and the hidden text as classes of the tradition's texts | cites ys:i492-493, ys:i094b; feeds block-32 |
 | [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/spo-is-uttaraphalguni.md](claims/spo-is-uttaraphalguni.md) | claim, note | «སྤོ» is a name of U. Phalgunī; «ལག་སོར» is lha mtshams | cites wb.2:p65-66, wb.2:p122, wbz:i720, wbz:i805; feeds block-31 |
+| [claims/spor-thang-name.md](claims/spor-thang-name.md) | claim, note | The Spor thang is the Chinese reckoning's tradition that WB, Mipham and KD's charts all name | cites kd.3:p718, kd.3:p726c; feeds block-58 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
 | [claims/thirty-03-mantrins.md](claims/thirty-03-mantrins.md) | claim, table | The thirty: the third point, the poisonous snake of existence, for mantra-holders and vajra-holders | cites wb.1:p455-456; feeds block-31 |
@@ -557,8 +561,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
-| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 7 passages: 5 scan, 1 machine, 1 etext |
-| [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 11 passages: 2 scan, 9 etext |
+| [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 9 passages: 7 scan, 1 machine, 1 etext |
+| [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 12 passages: 2 scan, 1 machine, 9 etext |
+| [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |

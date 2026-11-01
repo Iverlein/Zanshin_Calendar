@@ -179,6 +179,19 @@ The last row, «ཁ་དམར་རྡེལ», one cell under each of the twe
 
 So the sheet lays one verdict under every column, five to a group, twenty in all: the five of the fought-against group, each against the person's five rows.
 
+## <a id="kd-3-p724"></a>kd.3:p724 The meadow's ornament, the second round: the verdict row and its cells
+
+*Read: scan, 2026-11-01.*
+
+> སྤང་རྒྱན་ལོ་མའི་སྐོར་གསུམ་ལས་གཉིས་པ་[ ]་ལོ་ཅན་གྱི་རྡེལ། ཁ་དམར་རྡེལ།
+
+KD vol. 3, p. 724 (leaf 743; the reader's screenshot at 1002 px, the table enlarged 2 times and read cell by cell, RD108, 2026-11-01). The heading: "Of the meadow's ornament's (spang rgyan lo ma) three rounds, the second, the pebbles of the [word not told apart at this size] year"; the first word of the year's name is not settled. Same board as p. 723 (kd.3:p723, kd.3:p723b): four groups of five columns (the headings give a number each, read 52 to 58 at this size), the reckoned person's five rows (life force, body, power, luck, mewa fallen) and the verdict row «ཁ་དམར་རྡེལ» below. Cell by cell (C a cluster of three white, WW two white, W one white, M one white and one black, B one black, BB two black), the five rows of each column from the top, then the verdict:
+
+Group 1: c1 M WW WW C W, verdict C; c2 WW BB BB B M, verdict B; c3 B M M BB C, verdict M; c4 B M M BB C, verdict M; c5 C B B WW BB, verdict W.
+Group 2: c1 C C W M BB, verdict WW; c2 B B M WW C, verdict W; c3 BB BB C B WW, verdict M; c4 BB BB C B WW, verdict M; c5 WW WW BB C M, verdict WW.
+Group 3: c1 BB BB C WW C, verdict WW; c2 C C B BB B, verdict W; c3 WW WW BB M BB, verdict M; c4 WW WW BB M BB, verdict M; c5 M M WW B WW, verdict W.
+Group 4: c1 WW M BB W C, verdict WW; c2 BB WW C M B, verdict W; c3 M B WW C BB, verdict W; c4 M B WW C BB, verdict W; c5 B C M BB WW, verdict W.
+
 ## <a id="kd-3-p726"></a>kd.3:p726 The Spor thang's household round of seven members (etext only)
 
 *Read: etext, 2026-10-25.*
@@ -200,3 +213,21 @@ The sheet of the household round for seven members (KD vol. 3, p. 726, leaf 745;
 What the scan shows. A table of seven member-columns, each headed by a sign and a number (the etext gives the signs as the fire snake, water monkey, a dog, a horse, the fire hare and the water sheep, the seventh not read; the numbers, two digits each, are not settled at this size), and under each, five numbered cells, one for each of four aspects and the fallen mewa (the row labels «སྲོག», «ལུས», «དབང», «ཀླུང», «བབས་སྨེ»), the number written in the print's small digits, the pebbles drawn in the cell beside it: seven times five, thirty-five numbered cells. The pebbles are drawn as on the other sheets, white as an empty circle and black as a filled one: one white, two white, three white as a cluster of three circles, one black, two black, one white and one black. The last row of each member reads a number and a colour word (the etext: «དཀར», «དམར», «མཐིང», «སེར») for the fallen mewa.
 
 Under it a second table of four rows, each row with three small boxes labelled «དང་པོ།», «གཉིས་པ།», «གསུམ་པ།» (first, second, third) with a number and a pebble each, then five numbered pebble cells, eight cells to a row; over the right-hand cells of the top row a line which the etext gives as «ཕྲེང་འདི་དག་དོར་བར་བྱ» (these strings are to be cast away); the right-hand labels («རྗེལ་མཇུག», the tail, and the like) are not all read. The numbers of the eight cells, read at 3 times from the 1002-px screenshot and agreeing with the etext's «༣༣ ༣༢ ༣༡ ༣༠» and «༢༡ … ༢༧» of the people's and the house's rows: the first row 1 to 8; the people's row 35 down to 28; the house's row 20 up to 27; the enemy's row 16 down to 9. So the page lays the pebbles in four runs of eight, two of them running down, and 17, 18 and 19 do not stand in the table. The digits of the upper table's numbered cells (the print's «༡», «༧», «༩», «༣» and «༥» look alike at 1002 px) are not settled one by one.
+
+## <a id="kd-3-p726c"></a>kd.3:p726c The seven members' household round: the lower table, its rows and its three leftovers
+
+*Read: scan, 2026-11-01.*
+
+> གཙུག་ལག་སྤོར་ཐང་རྩིས་གཞུང་ལས་ཁྱིམ་མི་གཅིག་བསྡུས་རྒྱུ་ནག་རྡེལ་སྐོར་གྱི་ཁྲ་མ་བཞུགས་སོ། །
+> ལྷ་ས་དང་པོ། ལྷ་ས་གཉིས་པ། ལྷ་ས་གསུམ་པ། མི་ས་དང་པོ། ཁྱིམ་ས་དང་པོ། དགྲ་ས་དང་པོ། ཕྲེང་འདི་དག་དོར་བར་བྱ། རྡེལ་རོ། ཁུག་པ། ཡང་ཁུག གསང་བ་ཡང་ཁུག
+
+KD vol. 3, p. 726 (leaf 745; the reader's screenshot at 1002 px, the lower table enlarged 2 and 3 times and read cell by cell, RD108, 2026-11-01). The heading, its second line as the scan prints it, is the one of kd.3:p726b: "From the *Spor thang* reckoning text: the chart of the black-pebble round of gathering one household's people into one." The upper table is read in kd.3:p726b; its seven member-columns are headed by a sign and a number, the signs on the scan as the fire snake, water monkey, fire dog, fire horse, fire hare, water sheep and a seventh of which the first word is not told apart (wood?), the numbers (two digits each) not settled; the right-hand column of its last row is the fallen mewa with a colour word.
+
+The lower table, read whole. Four rows, each of three small boxes (labelled "first", "second", "third" after the row's name) and five cells, eight pebbles to a row, numbered (C a cluster of three white, WW two white, W one white, M one white with one black, B one black, BB two black, w a colour word in place of a pebble):
+
+- «ལྷ་ས», the gods' place: 1 M, 2 w, 3 BB, 4 WW, 5 C, 6 B, 7 M, 8 BB;
+- «མི་ས», the people's place: 35 C, 34 WW, 33 BB, 32 w, 31 C, 30 WW, 29 w, 28 C;
+- «ཁྱིམ་ས», the house's place: 20 BB, 21 M, 22 w, 23 WW, 24 C, 25 C, 26 C, 27 WW;
+- «དགྲ་ས», the enemy's place: 16 M, 15 M, 14 C, 13 M, 12 w, 11 B, 10 B, 9 w.
+
+Over the right-hand cells of the first row, a line «ཕྲེང་འདི་དག་དོར་བར་བྱ།», "these strings are to be cast away", beginning over the fourth cell and ending before the eighth, which stands under its own label «རྡེལ་རོ», "the leftover". In a column to the right of the four rows, three more numbered pebbles, each with a label: «ཁུག་པ», "the fold", 17 and one black pebble; «ཡང་ཁུག», "the refold", 18 and two white; «གསང་བ་ཡང་ཁུག», "the secret refold", 19 and a colour word. So the thirty-five pebbles are laid in four runs of eight (1–8, 35–28, 20–27, 16–9) and the three over, 17, 18 and 19, are written on the right with their names. Which colour the words at 19 and in the cells name (they are written in the small print and look like «དམར», red, and «མཐིང», blue) is not told apart at this size; the digits of the numbers are as the print's numerals read at 3 times, 17, 18 and 19 included.
