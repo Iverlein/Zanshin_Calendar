@@ -849,6 +849,17 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0521.md](questions/q0521.md) | question q521 | Does a bad but not utterly bad life reckoning bar the match (reply 111) | open; cites wb.1:p351b |
 | [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | open; cites wb.1:p351b |
 | [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
+| [questions/q0524.md](questions/q0524.md) | question q524 | A manual that gives the dead's speckled life, body, power and luck | open; cites wb.2:p46 |
+| [questions/q0525.md](questions/q0525.md) | question q525 | The manuscript's numbered cells 13–30 and the nine mewa's harms | open; cites wb.2:p46 |
+| [questions/q0526.md](questions/q0526.md) | question q526 | Which water bird year dates The Precious Key, and who is Prajñāmaṇi | open; cites wb.2:p46 |
+| [questions/q0527.md](questions/q0527.md) | question q527 | The Brahmā lineage's count of the steelyard's rope | open; cites wb.2:p165e |
+| [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | open; cites wb.2:p165e |
+| [questions/q0529.md](questions/q0529.md) | question q529 | Does UT's chase over the fifteen places read the notes' «ཡར་གསུམ་སོགས» | open; cites wb.2:p144e |
+| [questions/q0530.md](questions/q0530.md) | question q530 | Does today's 高島暦 shade the 歳刑's quarter or its one branch; the Edo wheel's sectors | open; cites — |
+| [questions/q0531.md](questions/q0531.md) | question q531 | The 拾芥抄's 天一太白 sentence: «more strictly than» by the tradition itself | open; cites — |
+| [questions/q0532.md](questions/q0532.md) | question q532 | The dates of the 簠簋内伝's 八将神 table and the 拾芥抄's 金神七殺方 | open; cites — |
+| [questions/q0533.md](questions/q0533.md) | question q533 | Livestock at the 歳破 in the 暦林問答集 against the 簠簋内伝 and the kana almanacs | open; cites — |
+| [questions/q0534.md](questions/q0534.md) | question q534 | The five-day 天一 from 庚戌 in the Meiji 大雑書 | open; cites — |
 
 <!-- end pool index -->
 

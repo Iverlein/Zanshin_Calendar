@@ -1206,3 +1206,17 @@ Searched and found wanting, so not to be repeated:
 - **RD111 dead ends** (RD111, 2026-11-01):
   - BDRC full-text: «བླངས་ལན་པ» and «མཚན་མོ་ནད་ཕོག་པ» 0 hits; «ནམ་ཕྱེད་འདས་ན་ཞག», «ནམ་ལངས་ནས་ཞག་ཕྱི་མ», «ནད་པའི་ནམ་མཁའི་ལོ», «ནམ་མཁའི་ལོ་ལས», «སྲོག་གི་དགྲ་ཡིས་ནམ་མཁའི» 0 hits; «ནད་ཕོག་པའི་ཞག» only a Tibetan-Mongolian dictionary; «གདོན་རྐྱེན་ནད» only WB's reprint. Nothing on where the day of falling ill turns at night, on the sky year of p. 426, on the thirds' spirits and conditions.
   - Steinert's dictionaries: no entry for the compounds «མྱུར་སྨད», «བསྔོ་རུ», «བླངས་ལན», «གདོན་རྐྱེན»; the parts only.
+- **RD106 dead ends** (RD106, 2026-11-01):
+  - WB's etext vol. 2: «ཟློས་ཆེ» and «ཟློས་ཆུང» with the four deciding pebbles none in the dead's chapter (pp. 44–100); the manuscript's speckled lines by word none; «དཀར་ནག་འདྲེས» with «བར་དོ» none.
+  - BDRC's catalogue record MW1KG12790: no Prajñāmaṇi, no date of the Precious Key.
+  - The machine's etexts: «པྲཛྙཱ་མ་ཎི» in three spellings nowhere.
+- **RD110 dead ends** (RD110, 2026-11-01):
+  - «ཡམས་སྐུད», «རྒྱ་མའི་ཐག་པ་», «མཚོལ», «ཀླུམ་མནན», «གྲུམ་མནན», «དོ་གཅིག», «ལྷས་ངན», «ཕྱི་ལྟས» are not headwords in Steinert's 64 dictionaries; «ཤ་མཚན་ཤའི་ལྔ», «ལྷས་ངན་བབས», «རིམ་པར་དེད» no hit in the Sakya, UT or LT etexts beyond the verse.
+  - The Gser thang etext and other search-only etexts answer 403 to bdrc.py etext; only snippets read.
+  - The thirteen gates, the sixty pairs' length and the 360 starting points occur in no etext found, with «ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས», «རང་དུར་གཤེད་དུར» and the gates' own lines.
+- **RD107 dead ends** (RD107, 2026-11-01):
+  - 日遊's outer course in a Japanese text: not in the 暦林問答集 §43, the 拾芥抄, the 簠簋内伝, the 古事類苑, the 大唐陰陽書, the 具注暦 of 応安七, the 御堂関白記 and the 満済准后日記 (only 日遊在内); NDL full-text queries 日遊在東/南/西/北, 日遊遊行, 日遊神遊行: no page.
+  - A text that says which 金神遊行 wins: not in the 簠簋内伝, 拾芥抄, three Meiji almanac-books or the 古事類苑.
+  - The 歳破's «livestock good»: not in the kana almanacs (dozens of copies, 1712–1860s), the 簠簋内伝, 拾芥抄 or 古事類苑.
+  - The 歳殺's, 黄幡's and 歳刑's branches in a triad rule in an old text: the 暦林問答集 gives the 歳刑 by quarter, the 簠簋内伝 only the table.
+  - The 假名暦略註's own text: NDL pids 14487066 and 13589337 have no machine text and no open images.

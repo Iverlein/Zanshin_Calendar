@@ -2,6 +2,8 @@
 
 Sigla, numbering and quoting rules are in [README.md](README.md).
 
+Read by RD110 (2026-11-01): the moment's gates and signs, WB vol. 2 pp. 144–172; findings in [corpus/wb/notes-8.md](corpus/wb/notes-8.md) and verdicts.md.
+
 
 ## The reckonings' inventory (RD11)
 
