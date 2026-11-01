@@ -7849,3 +7849,77 @@ Nothing read yet: RD123's passages, with the English beside them, go here.
 ## KP's third square for Rāhu, ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར», «བསྔོ་རུ་མ་བཏུབ» (RD124)
 
 Nothing read yet: RD124's passages, with the English beside them, go here.
+
+## The dead's totals counted again: the first examination's own line, the three parts that do not close, the 87, the 1,874, the order of the rites (RD117)
+
+Read 2026-11-01 for open questions 65, 66, 200 and 212 (WB vol. 2, pp. 44–51, img. 52–59, and the notes' pp. 513 and 522, img. 521 and 530). Readers: Yigdzin-1 and MITRA over img. 52–59, 521 and 530 as RD16 and RD26 left them (`wb/yigdzin/`, `wb/mitra/`), and a new Yigdzin-1 run over the Taikhang print I5878 img. 075–079 (pp. 47–51, in scratch); by eye, the Gser thang reprint I3CN5029 img. 051 (the foot of p. 45, fetched for it), 052, 056 (p. 50: the 1,874, the hour's and the day's lines, the last three lines), 057 (p. 51) and 519 (the notes' p. 513, line 1), and the 1996 scan's img. 54 (p. 46) and 521. No agy turn: nothing the eye and the two readers left unsettled needed one. The Zhol (WBZ) and Sakya Centre etexts were fetched and are too corrupt at these count lines to serve (below). Passage [wb.2:p45](corpus/wb/ch29.md#wb-2-p45); claims [wb-ch29-first-count-on-p45-foot](claims/wb-ch29-first-count-on-p45-foot.md), [wb-ch29-parts-recounted-from-the-verses](claims/wb-ch29-parts-recounted-from-the-verses.md), [wb-ch29-bsgril-bas-is-a-sum-of-the-list](claims/wb-ch29-bsgril-bas-is-a-sum-of-the-list.md), [wb-1874-and-1828-each-on-its-prints](claims/wb-1874-and-1828-each-on-its-prints.md), [wb-p50-size-order-is-not-wbs-usual-order](claims/wb-p50-size-order-is-not-wbs-usual-order.md).
+
+### What the machine reading had lost
+
+Yigdzin-1 stops two lines short at the foot of p. 45 (img. 53) and again at the end of p. 50 (img. 58, before «གཏོ་རིམ»); MITRA has both. The foot of p. 45 is the first examination's own count, read on the reprint:
+
+> ཐོག་མར་ས་དཔྱད་དང་པོ་ལ། །རྩ་བ་འབྲས་རྡེལ་གྱ་བདུན་དང་། །ངོས་འཛིན་སུམ་བརྒྱ་སོ་བརྒྱད་བཅས། །བསྡོམས་པས་བཞི་བརྒྱ་ཉེར་ལྔ་འབྱུང་། །རྩ་བ་གནམ་ལོ་ལ་སོགས་བཅུ། །གོང་བཞིན་ངོས་འཛིན་བརྒྱ་གྱ་ལྔ། །བརྩི་
+
+First, for the first examination (ས་དཔྱད, sa dpyad): the roots and result pebbles (རྩ་བ་འབྲས་རྡེལ, rtsa ba 'bras rdel) eighty-seven, the identifying pebbles (ངོས་འཛིན, ngos 'dzin) three hundred and thirty-eight; the sum comes to four hundred and twenty-five; the roots are the ten, the year of death and the rest, and their identifying pebbles as above a hundred and eighty-five. So the table's first row (87, 338, 425, in [reckonings.md](reckonings.md)) is a line of WB's, and it closes from p. 46's verses: 10 roots + 55 fighting + 22 small = 87; 185 + 10 + 143 = 338. The first's figures are not among the gap of question 65.
+
+### Question 65: the parts, counted from their verses
+
+Every sub-count of pp. 44–51 added again; Yigdzin-1 and MITRA agree in each figure used, the Taikhang print has them all as the 1996 print has them (Yigdzin-1), and the reprint was read at the key lines.
+
+| Part | Stated (result + identifying) | Its pieces add to |
+| --- | --- | --- |
+| 1 the time of death | 87 + 338 | 87 and 338, exactly |
+| 4 the funeral share | 16 + 50 | 16 = 11 roots + 5 key points |
+| 5 rebirth | 63 + 155 | 12 + 51 and 7 + 148, exactly |
+| 7 the corpse's kinds | 13 + 135 | identifying 57 + 6 + 17 (the blades' 13 with the 4 they are gathered into) + 26 + 21 + 8 = 135, exactly |
+| 8 the five graves | 80 + 180 | 8 + 9 + 40 + 29 + 32 + 33 + 29 = 180, exactly |
+| 9 equipment | 14 + 177 | 8 + 11 + 10 + 25 + 15 + 13 + 83 + 12 = 177, exactly |
+| 10 repetition | 304 + 1,952 | results 11 + 136 + 153 + 4 = 304, exactly; identifying 1,950 (110 for the roots, 1,422 for the strikes with the heaven-earth-between-mountain 72, 418 for the sounding), 1,961 if the verdict's 11 is added |
+| 11 the death's eye | 39 + 55 | 13 + 5 + 20 + 1 = 39; 5 + 23 + 8 + 4 + 6 + 9 = 55, exactly: the leftover pebble's 1 and 9 are inside the 94 |
+| 12 where to send | 151 + 3,035 | ten blocks 3,176 (below), against 3,186 |
+| 13 cutting off the sequel | 25 + 202 | 11 roots + 13 verdicts + 1 deciding pebble = 25 (Mipham's p. 517 says so); 14 + 10 + 24 + 6 + 9 + 20 + 13 + 30 + 8 + 27 + 17 + 24 = 202, exactly |
+| 14 the funeral assembly | 136 + 2,784 | results 88 + 30 + 12 + 13 = 143; identifying 1,936 + 597 + 119 + 116 = 2,768 (the earth lords' pieces 227 + 225 + 72 + 79 = 603 where the verse says 597) |
+| 15 the grave | 4 + 54 | 8 + 11 + 23 + 12 = 54, exactly |
+
+Nine parts close; the tenth, twelfth and fourteenth do not, and none misses by more than 16 in its pieces or 10 in the whole of the part. The twelfth, block by block, each block as WB's last line of it counts it: the sky's round 78 + 1,874 = 1,952; the year's earth lords 299 (287 + 12); the month's 229 (220 + 9); the day's 86 (22 + 29 + 8 + 13 + 8 = 80 and 6 result); the hour's 74; Rahu's 133 (3 + 3 + 4 + 30 + 16 + 23 + 6 + 3 + 5 + 9 + 10 + 9 = 121 and 12 result, the same on the 1996 and Taikhang prints); the small pebbles 199; the bearer 32; the setting-down 132; the three of «བསྒྲིལ་བས་རྡེའུ་བཞི་བཅུ» 40 (5 + 26 + 6 identifying and 3 result): together 3,176, ten short of the stated 3,186. Mipham (p. 513, img. 521) reads the day's 86, the hour's 74 and Rahu's 133 as identifying counts with the deciding pebbles beside them; on that reading the identifying come to 3,040 and the results to 158 (stated 3,035 and 151). The earlier finding that the twelfth's identifying close exactly at 3,035 (RD95, [wb-ch29-counts-recomputed](claims/wb-ch29-counts-recomputed.md)) holds only with the reckoner's la-stone's 5 left out, which the verse's own «རྡེའུ་བཞི་བཅུ» counts in. The hour's block closes on neither reading (17 + 43 + 6 + 13 = 79; «ཞེ་གསུམ», forty-three, read by eye on the reprint, and the same in the fourteenth).
+
+So the 57 pebbles (15 result, 42 identifying) are in none of the sixteen parts' pieces: the pieces of the three parts that do not close are, if anything, slightly short of their stated counts, not over them. The gap stays in the opening line's own totals, 1,008 and 9,363, which the Taikhang print and Mipham (p. 522, «རྡེའུ་ཁྲི་ཕྲག་གཅིག་དང་སུམ་བརྒྱ་བདུན་ཅུ་རྩ་གཅིག», 10,371) repeat. The coincidence of the earlier reading stands as one: 42 is the six lamps' 59 less the preliminary's 17; and 15 is the twelve la pebbles and three; neither is a reading of the verse.
+
+### Question 66: the fourth's 87
+
+«བསྒྲིལ་བས» (བསྒྲིལ་བ, bsgril ba, "to roll together") occurs twice in pp. 44–143 and the notes: at the fourth's close (p. 47: "with the verdict, eleven pebbles; rolled together, 87") and at the twelfth's (p. 50: «བསྒྲིལ་བས་རྡེའུ་བཞི་བཅུ་འབྱུང་», "rolled together, forty come, with the three's result pebbles"), where it is exactly the sum of the three items just listed with their results, 5 + 26 + 6 + 3. Where it can be tested, then, it sums the list before it. The fourth's list adds to 11 (with the verdict) or, with the roots and key points, 66; neither is 87. The 87 is stated in the first examination at the foot of p. 45 in other words (གྱ་བདུན, gya bdun) and in the fourth as «བརྒྱུད་ཅུ་བདུན» (the spelling with u, as the reprint has it); the Taikhang print reads the fourth the same. Mipham's notes (pp. 499–522) do not mention the fourth's total. Narrowed: the 87 is not a sum of the fourth's pebbles, is the first examination's number, and no text explains why it stands at the fourth's close.
+
+### Question 200: 1,874 against 1,828
+
+WB's line on three prints, 1996 (img. 58), the reprint (img. 056, read at 1.7×) and Taikhang (img. 077, Yigdzin-1):
+
+> དོན་བརྒྱད་ངོས་འཛིན་སྟོང་བརྒྱད་བརྒྱ། །བདུན་བཞི་བོར་བར་བྱ་བའོ།
+
+Seventy-eight result pebbles and, identifying, a thousand eight hundred and seventy-four are to be laid (བདུན་བཞི, bdun bzhi, "seven-four", for seventy-four). Mipham's note, on the 1996 scan (img. 521) and the reprint (img. 519, line 1, read at 1.6×), the same words on both:
+
+> སྤྱིར་བསྡོམས་གཟའ་སྐར་རྩིས་སྐོར་ལ་ངོས་འཛིན་སྟོང་བརྒྱད་བརྒྱ་ཉེར་བརྒྱད་བགྲང་འདུག་ཀྱང་རྒྱས་སྤྲོས་ཙམ་སྟེ་གནད་ལག་ཏུ་ལེན་པ་ལ་མདོར་བསྡུས་ཏེ་དོན་སྙིང་པོར་དྲིལ་བ་ལེགས་སོ།
+
+In sum, for the planets-and-mansions reckoning (the sky's round) 1,828 identifying pebbles are seen counted (ཉེར་བརྒྱད, nyer brgyad, twenty-eight), but this is only elaboration; for taking the key points in hand it is good to condense it to the essential meaning. Neither numeral is a misreading of the other on any print: WB's and Mipham's are each as printed. With 1,874 the twelfth's blocks add to 3,176 against 3,186, with 1,828 to 3,130; the stated total is nearer WB's figure but not closed by it (so the earlier "closes exactly with 1,874", [wb-planets-mansions-1874-against-1828](claims/wb-planets-mansions-1874-against-1828.md), is narrowed). The results pages (pp. 52–151) give no sub-counts of the sky's round to check either against (searched). Narrowed, not answered: WB's 1,874 is the text's figure; Mipham's 1,828 is his recount, without a reason for the 46.
+
+### Question 212: the order «ཆེ་ཆུང་འབྲིང»
+
+The last lines of p. 50, read by eye on the reprint (img. 056, last three lines; Yigdzin-1 stops before them, MITRA has them):
+
+> དཀར་མང་དཀར་པོ་ནག་པོ་མང་། །ནག་རྡེལ་སྙོམས་ན་དཀར་ནག་ཟུང་། །གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།
+
+Many white, a white pebble; many black, black; even, the white-black pair; how large, small or middling the order of the rites (གཏོ་རིམ, gto rim) is to be, this account tells, as needed. New against the RD95 finding that the line is a list of the sizes: where WB gives the three sizes elsewhere it writes them great, middling, small («ཆེ་འབྲིང་ཆུང», che 'bring chung: vol. 1 img. 338 twice, and the notes, img. 490), so «ཆེ་ཆུང་འབྲིང» is not the usual order; read against the colours before it (white, black, pair) it would make white great and black small, which no text says and the sense forbids. So it is no pairing; the unusual order is likelier the seven-syllable line's. The pairing white small, black great and mixed middling is the LTWA manuscript's (RD29). Mipham's p. 517 counts the thirteenth's remedies (11 roots, 13 verdicts, 1 deciding, 25 results; 202 identifying) and does not size the rites by colour in the lines read. Narrowed as before: the verse does not say it; the answer, if there is one, is in a reader of the tradition.
+
+### Open
+
+Question: Is the heaven-earth-between-mountain «རྡེལ་དོན་གཉིས» of the tenth examination's strikes (p. 48, 72 pebbles) one of its identifying pebbles, as «ངོས་རྡེལ» (the 1,200 that follows it) is, or one of its 136 result pebbles; with the 72 among the identifying the tenth's pieces add to 1,950 against 1,952, without it to 1,878?
+
+Question: Why does Mipham (p. 513) take the twelfth's day (86), hour (74) and Rahu (133) as identifying counts with deciding pebbles beside them (6, 4, 12), when WB's own items of p. 50 add to 80, to 79 against 70 and to 121 with those results already inside the block's total?
+
+Question: Is the hour's sky dog forty-three («ཞེ་གསུམ») in the twelfth's block of 74 and the fourteenth's of 597, as printed on all three prints, or does a figure in the block (the gods' 15 or 17, the hidden's 13) account for the 9 by which the twelfth's pieces and the 6 by which the fourteenth's earth lords' pieces are over?
+
+### Searched and not found
+
+- The fourth examination's 87 explained: in Mipham's notes (pp. 499–522) by Yigdzin-1's reading searched for «བརྒྱད་ཅུ་བདུན» and «གྱ་བདུན» (only the year's 287 on p. 513), in the 1996 etext's other occurrences of «བསྒྲིལ་བས» (two, above): none.
+- The sub-counts of the sky's round (the 78 and 1,874) in the results pages (Yigdzin-1 over img. 60–151, «བྱ་ལམ», «སྟོང་བརྒྱད་བརྒྱ», «ཉེར་བརྒྱད»): none; the one hit of «ཉེར་བརྒྱད» is twenty-eight recitations of the Heart Sutra (p. 121).
+- The count lines on the Zhol print and the Sakya Centre print by their BDRC etexts (IE0OPI7850CC9C, IE0OPI0BA3A0E0, fetched 2026-11-01): the etexts are corrupt at these lines («རྡེའུ་བརྒྱད་ཅུ་བདུན», «ཉིས་བརྒྱ་གྱ་བདུན», «སུམ་སྟོང་བརྒྱ་གྱ་དྲུག» have no hit; the only «སྟོང་བརྒྱད་བརྒྱ» are chapter 21's counts); the Zhol scans' leaf for p. 50 not looked for.
+- A rule sizing the rites by the colour of the thirteenth's verdict in the notes' p. 517 (Yigdzin-1's reading): none.
