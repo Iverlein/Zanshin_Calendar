@@ -107,14 +107,24 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch27-turtle-wood-sheep-and-element.md](claims/ch27-turtle-wood-sheep-and-element.md) | claim, rule | Ch. 27: the turtle's years by element, and the wood sheep as the cow | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-ur-zhogs-on-both-scans.md](claims/ch27-ur-zhogs-on-both-scans.md) | claim, note | Ch. 27, p. 17, l. 26: «འུར་ཞོགས», an alarm, on the reprint and the 1996 scan | cites wb.2:p17, wb.2:p17c; feeds block-31 |
 | [claims/ch27-words-in-steinert-dictionaries.md](claims/ch27-words-in-steinert-dictionaries.md) | claim, note | Ch. 27: the unread words in Steinert's 64 dictionaries, and ZG's «ཚང་ཟླ» | cites wb.2:p9, wb.2:p17, wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p20-22, wb.2:p23-25, zg:p352; feeds block-31 |
+| [claims/ch28-360-six-aspects.md](claims/ch28-360-six-aspects.md) | claim, rule | The 360's six aspects by the notes; the word phyi rtsis | cites wb.2:p42-43, wb.2:p537; feeds block-31 |
 | [claims/ch28-360-starting-points.md](claims/ch28-360-starting-points.md) | claim, rule | The 360 starting points done rightly | cites wb.2:p42-43; feeds block-31 |
 | [claims/ch28-attendants.md](claims/ch28-attendants.md) | claim, table | A lama's attendants chosen by the elements of their years | cites wb.2:p39; feeds block-31 |
+| [claims/ch28-ban-bon-bzhi.md](claims/ch28-ban-bon-bzhi.md) | claim, definition | The four of bon and the four of ban: WB's groups of the eight trigrams | cites wb.2:p39b, wb.1:p256, wb.1:p218-251; feeds block-31 |
+| [claims/ch28-bird-days-forty.md](claims/ch28-bird-days-forty.md) | claim, definition | The sky-bird's days: forty, the kite and she mo | cites wb.2:p29-30, wb.2:p27-28b; feeds block-31 |
 | [claims/ch28-bird-days.md](claims/ch28-bird-days.md) | claim, table | The sky-bird's days after the winter solstice | cites wb.2:p29-30, wb.2:p28-29; feeds block-31 |
+| [claims/ch28-black-feet-pattern.md](claims/ch28-black-feet-pattern.md) | claim, conflict | The black small feet: the table's own pattern and its three misfits | cites wb.2:p38-39; feeds block-31 |
 | [claims/ch28-black-small-feet.md](claims/ch28-black-small-feet.md) | claim, table | The twelve black small feet by year, month, hour and link | cites wb.2:p38-39; feeds block-31 |
 | [claims/ch28-building-doors.md](claims/ch28-building-doors.md) | claim, table | Building: the doors of sky and earth and their remedies | cites wb.2:p42; feeds block-31 |
+| [claims/ch28-doors-by-mewa.md](claims/ch28-doors-by-mewa.md) | claim, note | The doors of sky and earth: trigrams by the mewa, the se zhig years, the black days | cites wb.2:p42; feeds block-31 |
+| [claims/ch28-fifty-water-hours.md](claims/ch28-fifty-water-hours.md) | claim, note | The fifty water-hours of the leaking-roof day | cites wb.2:p37; feeds block-31 |
+| [claims/ch28-first-winter-snow.md](claims/ch28-first-winter-snow.md) | claim, note | First winter's snow-rain verse: inner strife on the 5th | cites wb.2:p31; feeds block-31 |
 | [claims/ch28-links-day-times.md](claims/ch28-links-day-times.md) | claim, table | The twelve links on the times of the day, with their readings | cites wb.2:p37-38; feeds block-31 |
+| [claims/ch28-nam-mjug.md](claims/ch28-nam-mjug.md) | claim, definition | The tail of the year (nam mjug): the end of autumn | cites wb.2:p27-28b, wb.2:p30-31, wb.2:p31; feeds block-31 |
+| [claims/ch28-nya-drug-pleiades.md](claims/ch28-nya-drug-pleiades.md) | claim, definition | The six full moons are the Pleiades (nya drug) | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-roof-leak-day.md](claims/ch28-roof-leak-day.md) | claim, rule | The day of the rite against a leaking roof | cites wb.2:p37; feeds block-31 |
 | [claims/ch28-seasonal-marks.md](claims/ch28-seasonal-marks.md) | claim, table | The seasons' marks counted from the solstices | cites wb.2:p27-28b; feeds block-31 |
+| [claims/ch28-seasons-chinese-count.md](claims/ch28-seasons-chinese-count.md) | claim, rule | Chapter 28's seasons are the Chinese reckoning's (Hor 11 the first spring month) | cites wb.2:p26-27, wb.2:p537; feeds block-31 |
 | [claims/ch28-signs-by-time.md](claims/ch28-signs-by-time.md) | claim, note | The observed signs read by the hour and by the day's link | cites wb.2:p32-34, wb.2:p34-35, wb.2:p35-37; feeds block-31 |
 | [claims/ch28-six-full-moons.md](claims/ch28-six-full-moons.md) | claim, rule | The Pleiades against the full moon of the tenth month | cites wb.2:p27-28; feeds block-31 |
 | [claims/ch28-snow-rain-dates.md](claims/ch28-snow-rain-dates.md) | claim, table | Snow-rain and frost on set lunar dates | cites wb.2:p31, wb.2:p30; feeds block-31 |
