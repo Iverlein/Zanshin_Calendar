@@ -7793,3 +7793,13 @@ Question: Why does the sum of the older system say 440 (p. 249) when the parts w
 - «གཅོད་འདྲལ», «འདྲལ་འགྱེད» as a circuit's name in the dictionaries (Rangjung Yeshe, Ives Waldo, Jim Valby, the *Great Tibetan Dictionary*, Steinert's clone in scratch/rd97b): the verbs only, no circuit.
 - The faint letters of the *Deathless Elixir* img. 809 on a 2370 px scan at 3–5×: not legible; the leaf's other copies (I1KG8550 is the only one fetched) not looked for.
 - The pairs of the six bad stages by name in Mipham, the *Good Vase* and Zhechen Gyaltsab: none; the pairing is by order.
+
+
+## The reckoning for the dead's totals: the pebbles unaccounted for, the fourth examination's 87, the planets-and-mansions round's count, the white verdict's rites (RD117)
+
+Nothing read yet: RD117's passages, with the English beside them, go here.
+
+
+## The year of age's five verdicts and sixteen limbs: the meadow's ornament, Sprugtön, the *Moonbeams*' five general totals (RD121)
+
+Nothing read yet: RD121's passages, with the English beside them, go here.
