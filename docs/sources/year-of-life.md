@@ -3151,4 +3151,35 @@ Nothing read yet: RD101's passages, with the English beside them, go here.
 
 ## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)
 
-Nothing read yet: RD102's passages, with the English beside them, go here.
+Read 2026-11-01 for the open questions 81, 90, 91, 168, 169, 173, 206, 258, 319 and 381. The passages are in the corpus files [corpus/wb/ch24.md](corpus/wb/ch24.md) (`wb.1:p403-405`, `p381b`, `p385b`, `p386b`, `p391`, `p415-416`) and [corpus/wb/notes-2.md](corpus/wb/notes-2.md) (`wb.2:p491-492`), the facts in the claims `wb-seven-red-year-list-and-natal-list`, `wb-forefathers-tomb-is-their-own-death-trigram`, `wb-secret-obstacle-ma-spar-in-the-manuals`, `wb-household-general-pebbles-black-the-more`, `wb-other-verdicts-as-each-fits-gathered`, `wb-count-by-place-kha-smrang`, `wb-rough-years-lo-rta-snang-par`, `wb-wealth-place-with-the-house-row` and `wb-household-ransoms-ma-tri-and-skyed-pur`.
+
+Sources of the day: the 1996 etext and its scans (WB vol. 1 img. 391–426), the Gser thang reprint (I3CN5028 img. 376, 400 and neighbours, fetched for this reading) for the lines of pp. 381 and 405 read by crop, **Mipham's notes on the typeset Chengdu Collected Works** (I1PD34647 img. 568–574, Yigdzin-1 over the clean typeset pages: pp. 491–492 read cleanly there, which the 1996 etext and the Gser thang OCR do not give), KD vol. 3's copy of WB's chapter (the cached etext, printed p. 679), BDRC's full-text search (three batches, 18 phrases) and Steinert's 64 dictionaries. Doubts are written as doubts.
+
+### What the questions came to
+
+- **81, the seven-red.** The two lists are the year's (p. 403: beware of bloodletting and moxa both) and the natal mewa's (p. 405, under the heading «རང་སྐྱེས་སྨེ་བའི་བྱེ་བྲག་དང་། བསྟན་པའི་བབས་འབྲས་འདི་ལྟར་བརྗོད», the particulars of the natal mewa: for the two-black-born moxa good, bloodletting bad). The second is introduced as the natal particular of the first; no rule between them is stated. Narrowed, not answered.
+- **90, the forefathers' tomb.** The typeset notes read «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན་ལ་སླེབས་ན་སྲི་ཀེག་གོ»: the forefathers' own trigram, mewa and progressed sign of their death. The 1996 print's «ག་གོ» is a slip. Answered as far as the sources go.
+- **91, «མ་སྤར».** Three manuals' verse names the mother's trigram among a tiger or hare's four relatives (mother kham, child li, enemy dwa, friends the four corners): «མ་སྤར» is a term of that set, 'mother' by the generating cycle. Why li for a son and kham for a daughter stays unsaid. Narrowed.
+- **168, the household's general pebbles.** The verse continues with who holds which of the four dear and «རྡེལ་ནག་ནན་གྱིས་བཅོས»: the line is a condition, the remedies follow it. Answered.
+- **169, «ཁ་དམར་ཅི་རིགས་གདགས».** Others are laid as each fits, then gathered into the four by the next lines. Narrowed.
+- **173, «ཁ་སྦྲང» and «ངོ་ཐེག».** The word is «ཁ་སྨྲང», an account; «ངོ་ཐེག» counts white and black by place, in no dictionary. Narrowed.
+- **206, «ལོ་རྟ» and «སྣང་པར་བཤད».** Years (the year as a counted horse), and 'told as they appear'. Answered as far as the sources go.
+- **258 and 319, the household round for other counts and the wealth's place.** Nothing new for other counts (searched again, below); the notes read the wealth's place with the house's row. 319 narrowed.
+- **381.** «མ་ཏྲི» (the 1996 print's and the manuals' reading; the Zhol print's «ཏྲཾ» is RD46's doubt) is a ransom named with the blood ransom; the white offering is «ཁུ་དཀར་གསོལ» at the «སྐྱེད་པུར», a hearth stand on the Tsolho evidence. Narrowed.
+
+### Open
+
+- Question: The secret obstacle (WB vol. 1, p. 390): the manuals' relatives make «མ་སྤར» the mother's trigram of one's own, kham for a tiger or hare's; which own trigrams have li and which kham for their «མ་སྤར», and what makes li the son's secret obstacle and kham the daughter's?
+- Question: «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381): no dictionary or text gives it; is it the counting of a place by its pebbles, as «ངོ» is the face or place counted?
+- Doubt (scan): p. 381, the stack after ཁ་ in «ཁ་སྨྲང» is a solid blot on the Gser thang scan at 7×; the Zhol print (WBZ img. about 500–506, not read) would show it.
+- Doubt (scan): p. 405, the head «ནག་སྐྱེས་བདུན་དམར་བབས་པ་ན» is Yigdzin-1's alone on the 1996 print; the etext and MITRA drop it; not read on the Gser thang scan (img. 400, the lines run otherwise there).
+- Doubt (scan): p. 386, «མ་ཏྲི» is the 1996 print's and the manuals' reading, while RD46 read «མ་ཏྲཾ» with doubt on the Zhol print (WBZ img. 506); the Zhol print was not reread here.
+
+### Searched and not found
+
+- «ངོ་ཐེག» in Steinert's 64 dictionaries (ngo theg), BDRC's full text (55 hits, WB's prints and copies only; the others are «ངོ» and «ཐེག་པ» run together) (2026-11-01).
+- «ཕ་མེས་ཤི་བའི་སྲི་དུས» outside WB's prints and the Zhol print's copy; «མ་སྤར་ལི» outside WB's prints and KD's note (2026-11-01).
+- A gloss of «ཅི་རིགས་གདགས» or of «བཟའ་ཚང་སྤྱི་རྡེལ» in the notes' pp. 489–495 (typeset read), or any other work: none; «བཟའ་ཚང་སྤྱི་རྡེལ» only in WB's prints and KD's copy (3 hits).
+- «སྐྱེད་པུར་ཁུ་དཀར» (0 hits as written); a dictionary entry for «སྐྱེད་པུར», «སྐྱེད་བུར», «མ་ཏྲི» or «ཁ་སྦྲང»: none in the 64 dictionaries (2026-11-01).
+- The wealth's place's pebbles: BDRC's full text for «ནོར་ས» with «རབ་འབྲིང་ཐ་གསུམ» finds only WB's prints, KD and a Bhutan collection's poor copy; no manual lays it out (2026-11-01).
+- A household round for any count but five: nothing new, again (the typeset notes p. 491, read whole, give only the five's laying and the quarter rule).

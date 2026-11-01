@@ -39,11 +39,22 @@ The fold (p. 491, the table at the head; the reprint img. 497):
 
 A box above the fourth and fifth columns reads «ཕྲེང་འདི་[…]་དོར།», "this row … cast off" (the middle word not settled on the reprint at 3×; the Chengdu edition's table, I1PD34647 img. 570, its p. 524, read at full size on 2026-10-25, has «ཕྲེང་བ་འདི་གཉིས་དོར», "these two rows cast off"). Footnotes: «* ཁུག་པ་ཡང་ཁུག་གི་རྡེལ་རོ་འགྲེམ་ལུགས།», how the fold's and refold's leftovers are laid out; «** ད་ལྟ་ཡང་ཁུག་རྡེལ་རོ་མེད།», here there is no leftover of the refold.
 
+## <a id="wb-2-p491-492"></a>wb.2:p491-492 The notes: the places of the rows with the wealth's place, the forefathers' death and the secret obstacle
+
+*Read: machine, 2026-11-01.*
+
+> དེ་འོག་མི་ས། དེ་འོག་བཞི་ཁྱིམ་དང་ནོར་ས། ཕྲེང་ཀུན་གྱི་འོག་མ་དགྲ་ས་སྟེ། དེ་དག་རྡེལ་རོ་དང་བཅས་པའི་ཁ་དམར་གཞུང་བཞིན་ནོ།
+> ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན་ལ་སླེབས་ན་སྲི་ཀེག་གོ། །གསང་ཀེག་ནི་རང་སྐྱེས་སྤར་སྟེང་སླེབས་པ་དང་། བརྩི་བྱ་ལི་ལ་བབ་དུས་བུ་ལ་གསང་ཀེག་དང་། ཁམ་ལ་བབ་དུས་བུ་མོར་ཀེག་ཡིན་པས། མ་ད་ལྟ་ཡོད་ན་མ་ཀླུང་དང་བསྟུན་པའི་སྤར་སྨེ་སོགས་བཅོས། མ་མེད་ན་མ་ཡི་དགེ་རྩ་དང་མིང་བྱང་ལ་བརྟེན་པའི་ཀླུང་ཆོག་བྱ་ཞེས་སོ།
+
+Mipham's notes on WB, vol. 2, pp. 491–492, on the typeset Chengdu Collected Works (BDRC I1PD34647, img. 571 and 573; Yigdzin-1 on the clean typeset page, not reread by eye; the 1996 etext, img. 500, reads «ཕ་མེས་ཤི་དུས་ཀྱི་སྤར་སྨེ་ལོག་མིན་ག་གོ», a slip for «… ལ་སླེབས་ན་སྲི་ཀེག་གོ»):
+
+P. 491: "Below it the people's place (མི་ས, mi sa); below that the four houses and the wealth's place (བཞི་ཁྱིམ་དང་ནོར་ས, bzhi khyim dang nor sa); below all the rows the enemy's place (དགྲ་ས, dgra sa): these with their leftover pebbles are the verdicts as in the text."
+
+P. 492: "If one reaches the trigram, mewa and progressed sign of the forefathers' time of death (ཕ་མེས་ཤི་དུས, pha mes shi dus), it is the *sri* obstacle (སྲི་ཀེག, sri keg). The secret obstacle (གསང་ཀེག, gsang keg): when one reaches one's natal trigram, and when the one reckoned falls on li it is the secret obstacle for a son, on kham for a daughter; so if the mother is now living, the trigram and mewa in accord with the mother's luck are remedied; if there is no mother, a luck rite (ཀླུང་ཆོག, klung chog) resting on the mother's root of virtue and the name-list."
 
 ## The notes' doubtful stacks on Mipham's own print, and the notes' last pages (RD105)
 
 Nothing read yet: RD105's passages, with the English beside them, go here.
-
 
 ## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)
 
