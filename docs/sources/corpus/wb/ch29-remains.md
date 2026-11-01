@@ -172,7 +172,9 @@ The fourteenth examination, the reckoning of the funeral feast's assembly (ཤ�
 
 ## The dead's open questions, pp. 97–143: the doors and the bearer, the thirteenth examination's rites, the grave provisions (RD97)
 
-Nothing read yet: RD97's passages, with the English beside them, go here.
+Read by RD97 (2026-11-01), by eye, line crops at 1.3× of the Gser thang reprint (I3CN5029, image = page + 6) beside Yigdzin-1 on the 1996 scan; no model was run, no passage newly quoted whole (the passages of pp. 97–143 are already above and in [ch29-rites.md](ch29-rites.md) and [ch29-grave.md](ch29-grave.md)). Claims: [sgab-one-word-everywhere](../../claims/sgab-one-word-everywhere.md) (questions 175, 221, 333: one word at every place, the reprint's stack not telling ka from ga at this size, the Zhol blocks' «སྒབ»), [mewa-8-white-north-east](../../claims/mewa-8-white-north-east.md) (295: the print has «བྱང་ཤར» at both), [pha-gu-as-printed](../../claims/pha-gu-as-printed.md) (338: «ཕ་གུ» as printed), [slayers-east-and-facing](../../claims/slayers-east-and-facing.md) (335, 337: the print's lines confirmed, narrowed), [kha-smrang-an-account](../../claims/kha-smrang-an-account.md) (174, 349: an account, by the dictionaries of 2026-10-18), [bsgrub-all-prints](../../claims/bsgrub-all-prints.md) (370: «བསྒྲུབ» in every print read).
+
+Not reached in this reading, and so still open: questions 213, 214, 260–262, 264, 266, 291–293, 296–300, 334 (the stack of «ལྷང» did not resolve at 1.3×), 380 and 284 (the dictionaries' full clone and BDRC's full-text search were not run).
 
 
 ## The dead's open questions, pp. 75–97: the provisions, the old kinds, the nine-eye, the sounding, the grave days (RD96)

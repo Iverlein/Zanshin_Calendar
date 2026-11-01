@@ -69,6 +69,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-hundred-board.md](claims/birth-hundred-board.md) | claim, rule | The board of the birth's hundred pebbles | cites kd.3:p716, kd.3:p717, kd.3:p718, wb.1:p261, wb.1:p329-331, wb.2:p475; feeds SPEC §5.9.2, block-31, block-58 |
 | [claims/birth-hundred-son-black.md](claims/birth-hundred-son-black.md) | claim, rule | The birth's hundred: one pebble a meeting, a son meeting black | cites wb.2:p475, dz:i035-036, wb.1:p454; feeds block-58, R4 |
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
+| [claims/bsgrub-all-prints.md](claims/bsgrub-all-prints.md) | claim, note | The five graves' «བསྒྲུབ» is carved the same in all prints read | cites wb.2:p124-125, wbz:i809; feeds block-31 |
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-is-the-monk.md](claims/ch27-brje-set-is-the-monk.md) | claim, note | Ch. 27: the set of four headed «བརྗེ» is the monk's | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-zg-spiritual-friend.md](claims/ch27-brje-set-zg-spiritual-friend.md) | claim, note | Ch. 27: ZG puts the «བརྗེ» set at the spiritual friend's | cites wb.2:p23-25, zg:p348-349, wb.2:p195; feeds block-31 |
@@ -249,6 +250,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/karma-reckoning-aspect-bad.md](claims/karma-reckoning-aspect-bad.md) | claim, rule | An aspect is bad in the karma reckoning when its block's verdict is black | cites wb.2:p526, wb.2:p483, wb.2:p478, wb.1:p329-331, wb.1:p349, ut:p153-155, ut:p175; feeds block-58 |
 | [claims/kd-meadow-sheet-not-reproduced.md](claims/kd-meadow-sheet-not-reproduced.md) | claim, note | KD's meadow sheet: the first group reproduced, the other three not | cites kd.3:p723, kd.3:p723b, wb.2:p533-534; feeds — |
 | [claims/kd3-p726-household-round-not-read.md](claims/kd3-p726-household-round-not-read.md) | claim, note | KD vol. 3, p. 726: the household round of seven members, what the lent scan shows and what it does not | cites kd.3:p726, kd.3:p726b; feeds block-31 |
+| [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
@@ -258,6 +260,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/match-trigram-grave.md](claims/match-trigram-grave.md) | claim, table | The trigram's grave joined: a broken line | cites wb.1:p362, wb.2:p526, wb.1:p258; feeds block-58 |
 | [claims/match-two-bad-lives.md](claims/match-two-bad-lives.md) | claim, rule | The match barred by two utterly bad lives, each judged by one verdict pebble | cites ys:i467-468, wb.2:p526; feeds block-58 |
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
+| [claims/mewa-8-white-north-east.md](claims/mewa-8-white-north-east.md) | claim, note | P. 112: the 5 yellow and the 8 white both go to the north-east corner in the print | cites wb.2:p112; feeds block-31 |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-eight-places.md](claims/moment-eight-places.md) | claim, table | The moment's eight places: house, field, grave and one's own place | cites wb.2:p166, wb.2:p167-168; feeds SPEC §5.9.5, block-31 |
@@ -272,6 +275,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/moment-trigram-vaidurya-year.md](claims/moment-trigram-vaidurya-year.md) | claim, note | The Vaidurya volume sets the moment's li on the year's tiger, horse and dog: year or month | cites ys.2:i016-017, wb.2:p535-537; feeds block-31 |
 | [claims/moment-wealth-sick-demon.md](claims/moment-wealth-sick-demon.md) | claim, table | Wealth, the sick and the demon by the moment's element | cites wb.2:p168-169, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/ngan-tha-chad-bottom-class.md](claims/ngan-tha-chad-bottom-class.md) | claim, definition | «ངན་པ་ཐ་ཆད», utterly bad, is the bottom class, not a count | cites wb.2:p39-41, wb.2:p331-333, wb.2:p391-393, ys:i094, ys:i467-468; feeds block-58 |
+| [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
@@ -280,8 +284,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-roads.md](claims/remains-roads.md) | claim, list | The remains are sent after four days, checked by ten roads | cites wb.2:p94-96, wb.2:p96-97; feeds block-31 |
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
+| [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |
+| [claims/slayers-east-and-facing.md](claims/slayers-east-and-facing.md) | claim, note | P. 99: the four slayers' directions, the corpse's facing and «རྨེ་བདུན» | cites wb.2:p97-100; feeds block-31 |
 | [claims/speckled-sngo-bgrang.md](claims/speckled-sngo-bgrang.md) | claim, note | The notes' «སྔོ་བགྲང»: the speckled pebble has no count of its own | cites wb.2:p495c, wb.2:p495-496; feeds block-32 |
 | [claims/thirty-01-lords.md](claims/thirty-01-lords.md) | claim, table | The thirty: the first point, the garuḍa, for lords, rulers and kings | cites wb.1:p454; feeds block-31 |
 | [claims/thirty-02-spiritual-friends.md](claims/thirty-02-spiritual-friends.md) | claim, table | The thirty: the second point, the white snow lioness, for spiritual friends | cites wb.1:p454-455; feeds block-31 |
@@ -452,7 +458,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |
-| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 6 passages: 5 scan, 1 machine |
+| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 5 scan, 3 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
