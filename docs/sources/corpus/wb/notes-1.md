@@ -19,6 +19,29 @@ In this fight (of the birth's hundred), lay one white pebble each for a mother a
 
 So the notes give the hundred one pebble a meeting and a son meeting black, as the *Moonbeams* does for the same hundred (DZ f. 16b, img. 036, in corpus/dz/dz.md), and unlike the pair of white and black that WB lays for a son where a meeting is weighed by its pebbles (the illness reckoning, vol. 1, p. 417; ch. 24's la pebbles, p. 380; ch. 27, vol. 2, p. 3).
 
+## <a id="wb-2-p475b"></a>wb.2:p475b The worked table's heads, rows and marks, on the typeset and on Mipham's own print
+
+*Read: scan, 2026-11-01.*
+
+> སྲོག་གི་དར་གུད་ཁ་དམར་བཅས་སུམ་ཅུ། ལུས་ཀྱི་སུམ་ཅུ་སོགས། རང། མ། བུ། གྲོགས། དགྲ། རང། མ། ཁ་དམར།
+>
+> སོ་སོའི་རང་རྡེལ། མ་རྡེལ། བུ་རྡེལ། གྲོགས་རྡེལ། དགྲ་རྡེལ། བཏང་གཅོད།
+
+The heads and row labels of the worked table at the foot of p. 475, read on the Chengdu typeset edition (MW2DB16631_DB4BAA, I1PD34647 img. 534, its p. 488, at 1.2×, every cell) and on Mipham's own print (I2029 img. 625, the same table at the centre of the page, at 2–5×, every cell): over the columns, "the life force's rise and decline with the verdicts (ཁ་དམར, kha dmar), thirty" and "the body's thirty and so on"; the columns, own (རང), mother (མ), son (བུ), friend (གྲོགས), enemy (དགྲ) for the life force, own and mother for the body, and a last column headed «ཁ་དམར», the verdict, whose cell in every row is only its label; the rows, each one's own pebble (the typeset prints «སོ་སོའི་རང་རྡེལ» plainly; the first two syllables on Mipham's print, at 8×, are compact and read «སོ་སོ», not blotted as on the 1996 print and the Gser thang reprint), the mother pebble, the son pebble, the friend pebble, the enemy pebble, and the deciding pebble (བཏང་གཅོད, btang gcod). The text on the page does not say which of the circle and the cross is the white: the sentence after the table opens "the results of these are:" and goes to the next page.
+
+The cells, a small circle (○) or a cross (×):
+
+| Row | life force: own | mother | son | friend | enemy | body: own | mother |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| own pebble | ○ | ○ | ○ | ○ | ○ | ○ | ○ |
+| mother pebble | ○ | ○ | ○ | × | × | × | × |
+| son pebble | × | × | ○ | (×) | ○ | ○ | ○ |
+| friend pebble | × | ○ | ○ | (×) | ○ | × | ○ |
+| enemy pebble | ○ | ○ | × | × | ○ | × | ○ |
+| deciding pebble | ○ | ○ | ○ | × | ○ | × | ○ |
+
+The cells equal RD26's table in verdicts.md, with two differences between the prints: the typeset leaves the friend column's cells in the son and friend rows empty (marked (×) here), where Mipham's print carves a cross in both, and with them the friend column holds four crosses and one circle above the deciding cross, as the deciding cross asks; and the deciding pebble of the son column is a filled dot (●) on Mipham's print, where every other print shows an open circle (the column holds four circles and one cross, so a circle; the dot is ink).
+
 ## <a id="wb-2-p478"></a>wb.2:p478 The household's power: enemy and demon, enemy and grave
 
 *Read: scan, 2026-10-23.*
@@ -42,3 +65,13 @@ Read on the scan: the Gser thang (གསེར་ཐང, gser thang) reprint of 
 The notes on WB's five doors of bad luck (ངན་ཀླུང་སྒོ་ལྔ, ngan klung sgo lnga; vol. 1, p. 331), which join a birth trigram and mewa to an aspect "in decline with its enemy rising". The trigram and mewa are those of the birth. "Rise and decline" (དར་གུད, dar gud) here means the pebbles of the hundred's own readings (བརྒྱ་འགྲེལ, brgya 'grel, WB vol. 1, pp. 329–331): the life force's own pebble, the power's own, mother, son and friend, and the body's own and friend; where their verdict (ཁ་དམར, kha dmar) is black, that is called decline (གུད, gud), and the root text makes it clear. "The enemy rising" (དགྲ་དར, dgra dar) is each one's enemy pebble white. Even when the life force's enemy rises, it is no great fault unless the life force's mother is in decline and a bad trigram and mewa come together with it; if they come together, it is bad. (Then: "the four earths are the four corners …")
 
 So Mipham reads an aspect's "decline" in the birth reckoning as a black verdict on that aspect's pebbles of the hundred, the deciding pebbles under its columns (wb.2:p475; WB vol. 1, p. 261), and judges a bad finding by several coming together, not one alone.
+
+## <a id="wb-2-p484"></a>wb.2:p484 The birth's children: the moon's face and the moon's light, on Mipham's own print and the typeset
+
+*Read: machine, 2026-11-01.*
+
+> ཟླ་བའི་གདོང་ཞེས་ཡར་ངོ་སྤྱི་དང་ཁྱད་པར་ཉ་སྐར་དང་འཛོམས་པ་སྟེ་ཚེས་བཅྭ་ལྔ་ལ་བཙས་པ། མངལ་དུ་ཞུགས་ནས་ཁྱིམ་དེར་བྱ་བྱེད་བཟང་པོ་བྱུང་བ་སོགས་སོ། …ཉི་མ་ཤར་བའི་སྣ་ལ་སྐྱེས་པ། ཟླ་བའི་སྣང་ཞེས་བཅུ་གཅིག་ནས་ཉི་ཤུ་བར་རོ། །བུ་རང་བྱ་བྱེད་བཟང་བའོ།
+
+Mipham's notes (vol. 2, p. 484), glosses of the birth's children of WB p. 339: "«The moon's face» (ཟླ་བའི་གདོང, zla ba'i gdong) is the waxing half in general and in particular a birth on the fifteenth day, the full moon, meeting its mansion (ཉ་སྐར, nya skar); after the conception, good deeds are done in that house, and so on." Then, of the child born at the sun's rising («ཉི་མ་ཤར་བའི་སྣ་ལ…», the stack read doubtfully): "«the moon's light» (ཟླ་བའི་སྣང, zla ba'i snang), as it is called, is the eleventh to the twentieth day; the son himself does good deeds."
+
+Machine reading (Yigdzin-1) of Mipham's own print, I2029 img. 641 (the sentence on the full moon, in the page's last line) and img. 642 (the sentence on the moon's light, last line, from the left); the Chengdu typeset edition (MW2DB16631_DB4BAA, I1PD34647 img. 554 and 556, its p. 510) read in the same machine way, the word «སྣང» also on the typeset's image at 6×. Yigdzin-1 reads the moon's word «སྒང» on both prints and «སྣ» for the sun's; the subscript on the typeset image is a closed «ན»-shaped foot, so «སྣང» is the print's word; the moon's stack on Mipham's own print at 9× is not distinct (question 179).

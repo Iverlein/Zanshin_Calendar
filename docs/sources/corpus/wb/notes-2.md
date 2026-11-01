@@ -54,7 +54,7 @@ P. 492: "If one reaches the trigram, mewa and progressed sign of the forefathers
 
 ## The notes' doubtful stacks on Mipham's own print, and the notes' last pages (RD105)
 
-Nothing read yet: RD105's passages, with the English beside them, go here.
+Read on Mipham's own print (I2029 img. 621-750, Yigdzin-1 over all, 2026-11-01) and the Chengdu typeset (I1PD34647 img. 532-652): passages wb.2:p475b and wb.2:p484 in notes-1.md, wb.2:p538-539b in notes-8.md; claims notes-p475-table-cells, notes-p484-moon-words, household-fold-box-print, in-laws-skyug-sgyug, notes-ratna-secretary, notes-hand-reckoning-three-results, notes-gold-grid-gyo-khang, notes-thirty-bri-wang-emblems, notes-collection-not-found (RD105).
 
 ## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)
 
