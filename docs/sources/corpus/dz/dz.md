@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD103 (2026-11-01): The Moonbeams, LT pp. 9–11, 20–28, WB vol. 1 pp. 453–454 and the notes.
+
 Read by RD45 (2026-10-23): ch. 6 and 7, f. 24a–30a (img. 051–063), on the scan,
 for the trigram, mewa and year the manuals take where WB's illness and dead
 reckonings leave them open, and for how they lay the la board.

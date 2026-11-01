@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD103 (2026-11-01): The Moonbeams, LT pp. 9–11, 20–28, WB vol. 1 pp. 453–454 and the notes.
+
 Lha mo tshul khrims (ལྷ་མོ་ཚུལ་ཁྲིམས, lha mo tshul khrims), *Laying the
 Pebbles of the Chinese Reckoning and Their Results* (ནག་རྩིས་རྡེལ་འགྲེམ་འབྲས་བཤད,
 nag rtsis rdel 'grem 'bras bshad): the preliminaries of its third branch (ཡལ་འདབ,

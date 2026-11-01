@@ -1154,4 +1154,7 @@ Searched and found wanting, so not to be repeated:
   - «གྲོས་ལེགས» in either etext: none; «གོས་ལེགས་ཚོང་ལེགས» only at p. 24, l. 16.
 - **RD95 dead ends** (RD95, 2026-11-01):
   - No headword in Steinert's 64 dictionaries for «ཁྲ་བོ་བློ་ཐུབ» as a pair, «བསེ་རགས», «བྱེ་ཐག», «ཏིང་མཉྫི», «སླ་ང་རྩེས», «སྟེང་འཁོར», «ཟོ་བ་ཞབས་བརྡོལ», «སིག་ལྐོགས», «སྐྱར་མ», «སེལ་གོག», «བང་ས་དུ་རུ་ཅན», «ཕན་ངོན», «ཐལ་ཤལ», «གསང་ཤིད་ཟུ», «ཕྱི་གུ»; «རགས» is a bare syllable with no headword.
-
+- **RD103 dead ends** (RD103, 2026-11-01):
+  - BDRC title catalogue (autosuggest): no title «རིན་ཆེན་འགྲོ་ལམ» (Precious Road) and none «གབ་པའི་སྙིང་གཟེར» (Heart Nail of the Hidden).
+  - «བུ་ཡིག» is a class of texts, not a single catalogued title.
+  - «ར་བར»: no sense found in WB or the notes' pages on the dead's living pebbles.
