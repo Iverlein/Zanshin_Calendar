@@ -7948,8 +7948,8 @@ img. 559) was not read on the scan.
 
 ### Open
 
-- Question: in the *nu ru* course's square of KP img. 78 and the Bhutan reset, which course gives each of the thirty dates its one direction (the square's east holds the 2nd, 4th, 19th and 27th)?
-- Question: is the 14th in work 14 bad (in «དྲུག་ནས་བཅུ་བཞིའི་བར») or good (the good line's «བཅུ་བཞི་དང་»), and does the 21st to 25th run or are the 21st and 25th two dates, when the 1996 editors number the bare pair «བཅུ་དྲུག་བཅུ་དགུའི་བར» as a run and «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as two dates?
+- Question 570 ([q0570](questions/q0570.md)): in the *nu ru* course's square of KP img. 78 and the Bhutan reset, which course gives each of the thirty dates its one direction (the square's east holds the 2nd, 4th, 19th and 27th)?
+- Question 571 ([q0571](questions/q0571.md)): is the 14th in work 14 bad (in «དྲུག་ནས་བཅུ་བཞིའི་བར») or good (the good line's «བཅུ་བཞི་དང་»), and does the 21st to 25th run or are the 21st and 25th two dates, when the 1996 editors number the bare pair «བཅུ་དྲུག་བཅུ་དགུའི་བར» as a run and «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as two dates?
 
 ### Searched and not found
 

@@ -940,6 +940,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0567.md](questions/q0567.md) | question q567 | The tenth examination's «རྡེལ་དོན་གཉིས» of the strikes | open; cites wb.2:p48 |
 | [questions/q0568.md](questions/q0568.md) | question q568 | Mipham's reading of the twelfth's day, hour and Rahu as identifying counts | open; cites wb.2:p50 |
 | [questions/q0569.md](questions/q0569.md) | question q569 | The hour's sky dog 43 in the twelfth's and fourteenth's blocks | open; cites wb.2:p50, wb.2:p51 |
+| [questions/q0570.md](questions/q0570.md) | question q570 | Which course gives each date its one direction in KP's square for Rāhu | open; cites kp:i078 |
+| [questions/q0571.md](questions/q0571.md) | question q571 | Work 14: the 14th, and the 21st to 25th as a run or two dates | open; cites wb.2:p395 |
 
 <!-- end pool index -->
 

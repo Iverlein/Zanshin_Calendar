@@ -1277,3 +1277,8 @@ Searched and found wanting, so not to be repeated:
   - The sub-counts of the sky's round (the 78 and 1,874) in the results pages (Yigdzin-1 over img. 60–151): none; the one hit of «ཉེར་བརྒྱད» is twenty-eight recitations of the Heart Sutra (p. 121).
   - The count lines on the Zhol print and the Sakya Centre print by their BDRC etexts (IE0OPI7850CC9C, IE0OPI0BA3A0E0): corrupt at these lines; the Zhol scans' leaf for p. 50 not looked for.
   - A rule sizing the rites by the colour of the thirteenth's verdict in the notes' p. 517: none.
+- **RD124 dead ends** (RD124, 2026-11-01):
+  - A gloss of «བསྔོ་རུ་མ་བཏུབ» or a variant spelling of it on the Zhol print, img. 553, 560, 562 (p. 419, pp. 423–424, p. 425): none, the three lines read alike.
+  - A relation of the square's directions (Bhutan reset) to the nu ru setting-out or arrival direction, or to the inner, tho brgal or hidden course of WB p. 238: none; compared date by date.
+  - A bare-pair run in the 1996 etext other than work 14's two lines and the notes' «ཐིག་དང་གཅིག་ནས་ཉེར་ལྔའི་བར»: none.
+  - Correction owed to claims/plank-tree-bsngo-ru.md: p. 425 continues «མ་བབས་འདི་ལ་ཕྱི་ཆགས་ཡོད» with no «ཐང་ཤིང་»; only p. 419 has «ཐང་ཤིང་མ་བབས».
