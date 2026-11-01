@@ -924,6 +924,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | open; cites — |
 | [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
 | [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | open; cites wb.2:p215 |
+| [questions/q0559.md](questions/q0559.md) | question q559 | The gtong shes cited on p. 224 for the hours' avoidances | open; cites wb.2:p224 |
+| [questions/q0560.md](questions/q0560.md) | question q560 | The day's lo for the rejected lords Pi ling, 'Khor chung and Byi lam | open; cites wb.2:p225 |
 
 <!-- end pool index -->
 

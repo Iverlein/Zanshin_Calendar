@@ -1259,3 +1259,5 @@ Searched and found wanting, so not to be repeated:
   - The old couple's course in Lha mo tshul khrims (I1KG21886 etext, «རྒན་རྒོན» nine times) and the regent's replies (I5876 etext, once): no seats by month; the blue mouse road «བྱི་ལམ», «ལམ་སྔོ»: none in either.
   - The Bhutan collection's verses (etext): remedies (p. 455), a corpse-rite entry (pp. 506, 509, 546) and the wheels' garbled lines; no verse course.
   - An earth lord set against the date's results, in the three etexts: none.
+- **RD120 dead ends** (RD120, 2026-11-01):
+  - BDRC full-text search for «མི་ཧྲེང་མདུང་ཐོགས», «གཏོང་ཤེས་ལས་བཤད» and «ཚེས་དགུ་ན་ཆུང་མོད»: not run; bdrc_search.py stopped at the launch of its Chromium (chromium-1248 missing on this machine).

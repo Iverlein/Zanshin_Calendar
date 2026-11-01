@@ -611,8 +611,8 @@ Not a text question about the verse but about how WB's good and bad sides are ma
 
 ### Open
 
-- Question: the *gtong shes* (གཏོང་ཤེས), the text WB p. 224 cites for the hours' avoidances, in which collection is it, and what does it say of the lone man with a spear?
-- Question: does a reckoner's text say what "the day's *lo*" (ཞག་གི་ལོ) is for the lords Pi ling, 'Khor chung and Byi lam, whom p. 225 rejects?
+- Question 559 ([q0559](questions/q0559.md)): the *gtong shes* (གཏོང་ཤེས), the text WB p. 224 cites for the hours' avoidances, in which collection is it, and what does it say of the lone man with a spear?
+- Question 560 ([q0560](questions/q0560.md)): does a reckoner's text say what "the day's *lo*" (ཞག་གི་ལོ) is for the lords Pi ling, 'Khor chung and Byi lam, whom p. 225 rejects?
 
 ### Searched and not found
 
