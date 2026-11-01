@@ -8208,3 +8208,8 @@ Question 569 ([q0569](questions/q0569.md)): Is the hour's sky dog forty-three (�
 ## The trigram's three rites and fourteen or fifteen remedies; the in-laws' «གནས་སྐྱུག» and «ཤིད་དུར» (RD125)
 
 Nothing read yet: RD125's passages, with the English beside them, go here.
+
+
+## The *Moonbeams*' half place, its «དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར», the reading of a half verdict, the general and the particular verdict (RD127)
+
+Nothing read yet: RD127's passages, with the English beside them, go here.
