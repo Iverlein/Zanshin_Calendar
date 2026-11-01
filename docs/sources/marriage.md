@@ -1466,3 +1466,22 @@ iron, mouse and pig water, the rest earth (the four aspects,
 - «དགྲ་དུར» defined: WB's etext uses it for trigrams and aspects
   (vol. 1, pp. 306, 313–314, 331, 347; vol. 2, pp. 98, 129–132, the notes
   pp. 478, 480, 488, 498, 505) and never explains it.
+
+
+## The hidden's verse on the Zhol print (RD122)
+
+Read 2026-11-01 (RD122) for the open question 161, on the Zhol print (I1KG1710, WBZ img. 467, l. 4, and img. 468, ll. 3–4; Yigdzin-1 over the images, the lines by eye at 2×). The verse of p. 357 stands on the blocks as in the 1996 print and the Gser thang reprint:
+
+> ཡར་བཞི་སྲོག་ལ་མར་བཞི་དབང་། །གང་སྐྱེས་ལུས་སྨེ་མཐུན་གསུམ་ཀླུང་། །སྐྱེས་པ་ལྔ་སྨེ་གཉིས་དང་ནི། །བུད་མེད་ལྔ་སྨེ་བདུན་ལ་བརྩི།
+
+(Yigdzin-1 reads «ཡང་བཞི» for «ཡར་བཞི» and «ལྔ་མེད» for «ལྔ་སྨེ», twice; on the block the first is ya with the ra-sign, the second a stack like the «ལུས་སྨེ» of the line above, in a cursive hand that at 2× I could not settle letter by letter: the readings stand as doubts, the sense is fixed by the parallel lines of p. 255.) The page's turtle (img. 468, l. 4) is as RD42 read it (the left side ༧, the left leg ༦). Nothing new on which mewa stands for each aspect: four up, four down, the body and the luck are as answered 2026-10-21 and 2026-10-23.
+
+**Narrowed**: the Zhol print carries the same verse; the only open point, the luck's mewa (question 234), is not decided by any print.
+
+### Open
+
+- Doubt (scan): img. 467, l. 4, «ཡར» and «ལྔ་སྨེ» read at 2× only; a 6× crop of both syllables would settle them.
+
+### Searched and not found
+
+- A second worked example of the luck's mewa in the Zhol print's pp. 255–258 or the hidden's page: none (the page's own lines were read).

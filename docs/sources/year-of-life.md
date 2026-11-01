@@ -3238,3 +3238,37 @@ p. 349: the Zhol block (img. 456, l. 2, at 5×) opens «…ཚང་གི་ར
 ### Searched and not found
 
 - The Taikhang's lines of pp. 338 and 349 (I5877 img. 456 and 473 by the offset): fetched (img. 442–475), not read, no slot taken for them.
+
+
+## «དྭ་ཟླ» and Revatī on the Zhol print (RD122)
+
+Read 2026-11-01 (RD122) for the open questions 162 and 163, on the Zhol print (བཞོལ, zhol; I1KG1710, WBZ; image = one folio side of six lines; p. 348 = img. 453, l. 5, to img. 454, l. 3; p. 349 = img. 454, l. 4, to img. 455, l. 4, found by the text, not by an offset). Yigdzin-1 over img. 453–457, 464–468; the passages below by eye at 2–3× (the block's cursive hand is small at that size, so the stack under ད was judged by its shape and by the three-times agreement of the reader, not by a 6× crop). No MITRA run, no agy.
+
+### 162: the Zhol print's «དྭ་ཟླ»
+
+On img. 453, ll. 5–6, all three lines and the example's «མ་ཡི་དྭ་ཟླ» have ད with a subscript under it before ཟླ, and Yigdzin-1 reads «དྭ» in all four, as the Gser thang reprint's wa-zur and BDRC's etext do:
+
+> ཟླ་བ་དག་ཀྱང་དེ་བཞིན་ཏེ། །དུར་ཞུགས་ཕ་ཡི་དྭ་ཟླ་ཡིན། །མངལ་གནས་མ་ཡི་དྭ་ཟླ་ཡིན། །ན་ཤི་རང་གི་དྭ་ཟླ་ཡིན།
+
+The word stands once more, on p. 349 (Zhol img. 455, ll. 4–5; the 1996 print, img. 359, the same words), where the section "the finer points, set aside in the oral instruction" (ཞིབ་པ་མན་ངག་ཟུར་དུ་བཀོལ) opens with the conditions under which the child cuts the father:
+
+> ལོ་ཟླ་ཞག་དུས་ལོག་མེན་གྱི། །སྲོག་དང་ཀླུང་རྟས་ཕ་ལ་གཅོད། །དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན། །རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་། །སྤར་ཁའི་གདན་ནི་ཕ་ལ་གཅོད།
+
+"By the life force and the luck of the year, month, day and hour and the «ལོག་མེན» [not glossed here], [the child] cuts the father; when the orphaning month is the clan element's month, it has gone to the executioner year of the great clan element; the trigram's seat cuts the father." So «དྭ་ཟླ» is a fixed term of the chapter, the month that falls on the father's side of the child's reckoning, and p. 349 uses it beside the executioner (གཤེད, gshed) year: the month of the clan's own element that is also the clan element's executioner. **Answered** on the Zhol print: «དྭ་ཟླ», the orphaning month, as 2026-10-21. The earlier "Searched and not found" («དྭ་ཟླ» only p. 348 and the notes) is corrected: p. 349 has it.
+
+### 163: «ནམ་གྲུ» on the Zhol print
+
+Img. 454, ll. 2–3 (Yigdzin-1):
+
+> སྐར་མ་འདི་བཞིན་ཤེས་པར་བྱ། །ནག་པས་རི་གྲོ་བཞིན་དང་། །ནམ་གྲུ་རྣམས་ནི་ཤིན་ཏུ་ངན། །འགྲུབ་སྐར་བཞི་ནི་གང་ཡང་བཟང་། །ལྷག་མ་རྣམས་ནི་དར་གུད་དང་། །རུས་ཆེན་དག་དང་བསྟུན་ཏེ་བྱ།
+
+"Know the mansions so: the black one, the Rohiṇī-like and Revatī are very bad; the four accomplishing are good for anything; the rest follow rise and decline and the great clan." The Zhol print reads «ནམ་གྲུ» too (Yigdzin-1, one reading, not checked at a crop), and «ནག་པས» where the 1996 print has «ནག་པ་ས» (the word division of the line is a doubt, left as such); «ནམ་གྲུ་རྣམས» keeps the plural. All three prints agree on Revatī among the very bad; the four accomplishing mansions are not named on the page. **Narrowed, not answered**: the sources give no reason to read the line otherwise, and the four of the Chinese saying include Revatī (above, 2026-10-21).
+
+### Open
+
+- Question: p. 348 and the notes (p. 489) name Revatī among the very bad mansions for a birth and, with Puṣya, Viśākhā and Uttarāṣāḍhā, among the four accomplishing, good for anything; does a reader of the tradition take the birth's own list of the very bad as the rule over the general good?
+- Question: p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན། རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་»: which months are the clan element's, and is the executioner year here the four-executioner or the element's grave?
+
+### Searched and not found
+
+- A word-by-word gloss of p. 349's «རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་» in the notes' pp. 488–489: none (the notes name only «ཕ་ཡི་དྭ་ཟླས»).
