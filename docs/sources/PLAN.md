@@ -1168,3 +1168,8 @@ Searched and found wanting, so not to be repeated:
   - «རྐང་ཕྲན་ནག»: BDRC full-text search 3 hits, all WB; no dictionary entry.
   - «ཤོལ་པོ», «སྨྱུང་མོ», «བུད་མེད་མི་འབྲུ་སྙི», «རྡེལ་འགོ་དྲོས», «འབལ་དྲོས»: none in Steinert's dictionaries in the senses needed.
   - «ཁེན་ཐོག» (p. 42) and «ལུགས་གཞན་བཞི་པ» (p. 37): BDRC search returns only WB copies.
+- **RD96 dead ends** (RD96, 2026-11-01):
+  - Q289: «ཡངས་ཆ», «ཤར་སྟོད་སྟག་ལ་རྣམ་ལྔ», «གཞན་བཞི་ཡངས་སྟེང», «ཐིག་བཏབ» appear only in WB's own prints (BDRC full-text search; etexts of WB, LT, UT, ZG; Mipham's notes).
+  - Q311: «འཕུང་སྲི་ཛ་མོ» no hit; «འཕུང་སྲི་རྫ་མོ» one hit, in WB's etext; «རྫ་མོ», «ཛ་མོ», «འཕུང་སྲི» in none of Steinert's 64 dictionaries.
+  - «ཇ་ལ», «ཇུ་ཚེར», «ཚ་རགས», «སོག་པ་སྲང», «ཕུག་དར», «བྱ་འུ», «ནོར་ཕྱུགས» as mansion names: in none of Steinert's dictionaries.
+  - The animals for khen, gin and zon as places that open death are named by no source (notes, LT, UT).
