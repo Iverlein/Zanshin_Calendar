@@ -7840,3 +7840,7 @@ Question 564 ([q0564](questions/q0564.md)): Is the limbs' verdict in Sprugtön's
 - The first two groups' count of verdicts in words: «ཁ་དམར་གདགས» only, no numeral; the numeral stands from the third group on (p. 22).
 - A gathering of the meadow's verdicts into five totals in WB: none on pp. 22–23; the *Moonbeams* (f. 24a) and Zhechen Gyaltsab's verse alone give it (searches of RD54 and RD70, not repeated).
 
+
+## The year of age's son place: a place with both colours, a son meeting, a pair or speckled (RD123)
+
+Nothing read yet: RD123's passages, with the English beside them, go here.
