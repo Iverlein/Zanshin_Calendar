@@ -791,6 +791,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | open; cites wb.2:p16 |
 | [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | open; cites wb.2:p23c |
 | [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | open; cites wb.2:p16c |
+| [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | open; cites wb.2:p48 |
+| [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
+| [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
+| [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | open; cites wb.2:p47 |
 
 <!-- end pool index -->
 

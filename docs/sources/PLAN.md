@@ -1173,3 +1173,7 @@ Searched and found wanting, so not to be repeated:
   - Q311: «འཕུང་སྲི་ཛ་མོ» no hit; «འཕུང་སྲི་རྫ་མོ» one hit, in WB's etext; «རྫ་མོ», «ཛ་མོ», «འཕུང་སྲི» in none of Steinert's 64 dictionaries.
   - «ཇ་ལ», «ཇུ་ཚེར», «ཚ་རགས», «སོག་པ་སྲང», «ཕུག་དར», «བྱ་འུ», «ནོར་ཕྱུགས» as mansion names: in none of Steinert's dictionaries.
   - The animals for khen, gin and zon as places that open death are named by no source (notes, LT, UT).
+- **RD95 part 2 dead ends** (RD95, 2026-11-01):
+  - «བུ་ནས་གཟུགས་དང་མར་བཅོས», «ཤི་ལོའི་སྤར་སྨེ», «ཟན་བརྣངས་ལར་ན», «ཟན་གཏད་མི་རུང་བཅུ་གསུམ», «གཤེད་བཞིའི་རྡེལ་སྒོ», «ཐོག་གྲི་རྐུན་པོ», «ལྟོང་དམར་ཆུ་གྲི», «གྲི་རིགས་བཅུ་གསུམ», «སྤྲེ་ཤལ་བཟེད་རབས་ཆད»: no text but WB's in BDRC's full-text search.
+  - «ཚེ་སྔོན་ཕྱི་གུ», «གཅོད་གྲི་བཅུ་གསུམ»: no hit. «བརྡེ» as a headword: none in Steinert's 64 dictionaries; «བརྗེ» only.
+  - No other list of the thirteen blades in BDRC's search (q281).

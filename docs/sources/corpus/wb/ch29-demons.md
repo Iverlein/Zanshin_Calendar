@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD95 (2026-11-01): WB vol. 2, pp. 44–75 and the notes.
+
 Read by RD31 (2026-10-23): WB vol. 2, pp. 58–68, on the Gser thang reprint; the notes' p. 503 in [notes-4.md](notes-4.md).
 
 ## <a id="wb-2-p47"></a>wb.2:p47 The fourth examination's close: eleven pebbles, rolled together 87
