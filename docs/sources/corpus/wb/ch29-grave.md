@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD97 (2026-11-01): WB vol. 2, pp. 97–143, by eye and in the dictionaries; its findings are in [ch29-remains.md](ch29-remains.md) and verdicts.md.
+
 Read for RD36 (2026-10-23): pp. 128–143 (img. 136–151) and Mipham's notes on
 this part, p. 522 (img. 530, in [notes-4.md](notes-4.md#wb-2-p522)). The
 1996 scan is 703 px wide; the reading by eye was made on the Gser thang
