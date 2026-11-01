@@ -281,3 +281,8 @@ the app (§11 as the personal mansions and weekdays).
 ## Open
 
 - Open question 140 ([open-questions.md](open-questions.md)), answered as far as the sources go 2026-10-18.
+
+
+## KP's third square for Rāhu (RD124)
+
+Read 2026-11-01 (RD124), question 148: the third chart beside KP's two compasses of boxes for Rāhu (img. 78) is the Bhutan reset's square, six of eight cells agreeing by eye; it is none of WB's courses of p. 238, and KP's own digits are still unread. The reading is in [verdicts.md](verdicts.md), section *KP's third square for Rāhu* (RD124); the open question is 570.
