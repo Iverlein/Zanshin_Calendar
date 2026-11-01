@@ -7344,8 +7344,249 @@ Read by RD111 (2026-11-01), by search and not on the page images: the dictionari
 
 ## Catalogue questions: the *Clear Lamp*'s commentary, the *Little Red Tiger-Head*, the deciding pebble's spelling, the sheets' date (RD116)
 
-Nothing read yet: RD116's passages, with the English beside them, go here.
+Read 2026-11-01. Questions 222, 240, 241, 247, 248, 251 and 252. Read for
+them: BDRC's records (`ldspdi.bdrc.io/resource/…`) of the Lhasa
+Mentsikhang's catalogue (MW4CZ354964), the *Little Red Tiger-Head*
+(MW1GS66241) and its twenty-one parts, and of the copies of the
+*Moonbeams* (MW29569, MW1LT2427, MW1NLM6115, MW2PD17476_45ED2D,
+MW9140_5BD26B, MW2PD17386_01BBA3); BDRC's full-text search
+(`bdrc_search.py`, 20 phrases, the first page of results of each, the
+snippets read); the etexts of WB vol. 1 (I1KG12906, p. 258 = WB p. 248)
+and of KD vol. 3 (I4717, etext pp. 736–761). No scan was read: a model run
+for the NLM woodblock of the *Moonbeams* (MW1NLM6115, img. 20–45) waited for
+a free slot past the time of the session and was not used. Everything
+below is catalogue, snippet or etext, marked so. The titles are as the
+catalogue gives them; the Tibetan is the etext's, unchecked on a scan.
 
+### 1. The commentary in twenty (questions 222, 240)
+
+**The work exists as a book of the Mentsikhang's treasury.** The snippet of
+the catalogue of the Lhasa Mentsikhang's *Great Treasury of Medicine and
+Astrology* (སྨན་རྩིས་རིག་མཛོད་ཆེན་མོ, sman rtsis rig mdzod chen mo; MW4CZ354964,
+Beijing 2017, search only; the hit is in its etext volume I4CZ355100, offset
+486024), the run of books under the *Precious Clear Lamp of the Elements*,
+as the search engine prints it (Latin, its transliteration):
+
+> dpe tshan 5 kha thor gsal sgron (56–111) · dpe tshan 6 rtsa 'grel nyi shu
+> (…) rgya nag gi paN+Di ta zla ba nag po dang lo tsA ba khams pa khra mos
+> bsgyur (–133) · dpe tshan 7 rtsa 'grel nyi shu cung mi 'dra (123–245) ·
+> dpe tshan 8 gsang Tika bcu gcig (161–319) · dpe tshan 9 gsang Tika bcu
+> gcig cung mi 'dra
+
+Book 6 is the commentary in twenty (རྩ་འགྲེལ་ཉི་ཤུ, rtsa 'grel nyi shu), by
+the Chinese paṇḍita Zla ba nag po (the Chinese master Du har nag po) in the
+translation of Khams pa Khra mo (the translator Khampa Tramo); **book 7 is a
+second copy, "the commentary in twenty, a little different"** (རྩ་འགྲེལ་ཉི་ཤུ་ཅུང་མི་འདྲ,
+rtsa 'grel nyi shu cung mi 'dra), and books 8 and 9 the *Secret
+Commentary in eleven* (གསང་ཊཱིཀ་བཅུ་གཅིག, gsang ṭīka bcu gcig) and its "a little
+different" copy. The pairs are the catalogue's own mark of two versions of
+one text. So much is the catalogue's; the pages 123–245 and 161–319 of book 7
+and 8 show how long the books are (about 120 and 160 pages), not their
+parts.
+
+**It is the work WB means.** WB's list of the six treatises of the Chinese
+master Du har nag po (WB vol. 1, p. 248, etext p. 258) opens «རྩ་བ་སྐབས་དོན་ལྔ་པ(༡)
+དང་། འགྲེལ་པ་རྩ་འགྲེལ་ཉི་ཤུ…» (the root in five topics; the commentary,
+the commentary in twenty; the secret *Ṭīkā* in eleven; the *Obstacle
+Remover*, the three leaps; …), and Nor brang o rgyan's (ནོར་བྲང་ཨོ་རྒྱན, nor
+brang o rgyan) history of the Chinese reckoning says the same in the same
+order (MW1GS66291_01A0F2, snippet: «རྩ་བ་སྐབས་དོན་ལྔ་པ། འགྲེལ་པ་རྩ་འགྲེལ་ཉི་ཤུ་པ།
+མན་ངག་གནད་བསྡུས་གསང་ཊིག་བཅུ་གཅིག…»). The *Moonbeams* (the
+snippet «རྩ་འགྲེལ་ཉི་ཤུ་པ་སོགས་ལྟོས», "see the commentary in twenty and the
+rest", after the pebbles' results), Lha mo tshul khrims's and 'Gyur med
+rnam rgyal's manuals and Sde srid's *White Beryl* itself (on the earth
+examination, «རྩ་འགྲེལ་ཉི་ཤུ་སོགས་སུ…») all use the one name for this one
+commentary. The Mentsikhang's book 6 is therefore a copy of the work WB
+lists, translated (the catalogue says) by Khams pa Khra mo; question 222 is
+answered "it survives, as a book of the Mentsikhang's treasury in two
+versions".
+
+**Not shown:** whether the book holds the third of its twenty, the *Lamp of
+the Magic of Deciding* (བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ, btang gcod 'phrul gyi
+sgron me; WB p. 248, third in its list). The catalogue's snippet gives books
+and page spans only; the exact phrase «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» has one
+hit in BDRC's search (WB's own list, 562 characters of snippet), «བཏང་གཅོད་ཀྱི་འཕྲུལ་གྱི་སྒྲོན་མེ»
+none. A reader with the 2017 catalogue or the treasury itself can see book 6's contents. **Whose it is**
+(the second half of 240): the catalogue is the Mentsikhang's catalogue and
+the books are its holdings ("fetched from the Potala", RD25); nothing in the
+snippets makes the *commentary* the Mentsikhang's own composition, and none
+of its lines says which collection holds the books. Question 240 is
+narrowed to: the commentary in twenty is in the treasury in two versions;
+the third part, and the holding record, need the catalogue itself.
+
+### 2. The *Little Red Tiger-Head* (question 241)
+
+BDRC's outline of MW1GS66241 (the 21 parts walked, 2026-11-01) gives each
+part's own title; every one but the first, the sixth and the last three is
+a "commentary" (འགྲེལ་པ, 'grel pa) on one topic of the root:
+
+| Ch. | Title in the outline (catalogue, Wylie) | In WB's twenty (p. 248) |
+| --- | --- | --- |
+| 10 | rtsa ba'i rde'u bzhi'i 'grel pa 'byung ba rin po che don gsal sgron me | the root pebbles' commentary, WB 7 «རྩ་བའི་རྡེལ» |
+| 11 | spar kha'i 'grel pa rang 'grel bco brgyad pa | the trigram's own commentary in eighteen, WB 10 «སྤར་ཁའི་རང་འགྲེལ་བརྒྱད་པ» |
+| 12 | sme ba'i 'grel pa khra bo gling gsal | the mewa's commentary *Speckled Continent Made Clear*, WB 9 «སྨེ་བར་འགྲེལ་པ་ཁྲ་གླིང་གསལ» |
+| 13 | dar gud kyi 'grel pa 'phrul gyi mig tshags | rise and decline, WB 11 «དར་གུད་འགྲེལ་པ་འཕྲུལ་གྱི་མེ་ལོང» (a different title) |
+| 15 | rtsub bdun gyi 'grel pa rin po che zla zer | the seven harsh, WB 6 «རྩུབ་འགྲེལ» |
+| 17 | mi gcig la rtsis rgyas par bstan pa stag mo 'dzum shor | the full reckoning for one person; none in WB's list |
+| 19 | rgya nag rde skor gyi 'grel pa thig le nag po | the Chinese pebble round, *The Black Drop*; WB 15 is «རོ་འགྲེལ་ནག་པོ» (the corpse's *Black*, not this) |
+| 20 | gnam khyi'i 'grel pa bkra shis mthong lam | the sky dog; WB 19–20 are the earth and the enemy-slayer, the sky dog is not listed |
+
+(The matches by title are the table's own reading of the two lists, with
+WB's list read from the etext, whose bracketed numbers are partly broken in
+the line of items 5–8; the mapping is by title words, not by the numbers.)
+
+**Answer, narrowed.** The manuscript is a commentary series of the same
+kind and the same school as WB's twenty, with **four titles in common
+(WB 6, 7, 9, 10)** and the same habit of naming each chapter "a commentary
+on X"; but its order differs from WB's, it has chapters that WB's list does
+not (the year, the twelve links, the *Golden Razor*, the five stones of
+luck, the reckoning tree, the four rounds of the magic eye) and it lacks
+what WB's first five commentaries are: the household's general and birth
+commentaries, **the deciding (WB 3)**, the marriage and the bride. So it is
+not the *Clear Lamp*'s commentary in another arrangement, but a sibling
+series that overlaps it, and **none of its twenty-one chapters is the
+deciding pebble's**; the four root pebbles' commentary (ch. 10) and the
+full reckoning for one person (ch. 17) might lay it, which only the pages
+show. The scans (I1GS66247) now answer an image: img. 3 was fetched
+2026-11-01 (3.5 MB), img. 1–2 did not come; the manuscript is cursive
+(དབུ་མེད, dbu med), which neither reader reads well, and no page of it was
+read.
+
+### 3. The spelling of the deciding pebble (questions 247, 248)
+
+BDRC's search for the spellings, first pages (hit counts: «སྟངས་གཅོད» 90,
+«བཏང་གཅོད་ཁ་དམར» 17, «སྟངས་གཅོད་ཁ་དམར» 1, «སྟངས་གཅོད་རྡེའུ» 9,
+«སྟོང་གཅོད་ཁ་དམར» 0, «སྟོང་གཅོད་རྡེའུ» 0, «སྟོང་གཅོད» 43):
+
+- **The medical word is «བཏང་གཅོད» in every Four Tantras print the search
+  reaches.** «འཚོ་འཆི་བཏང་གཅོད་ཁ་དམར་གདགས་དང་གསུམ།» (the verdict
+  laid, deciding life or death) stands in the Gser thang print (MW3CN5036),
+  the Lcags po ri print of 1952 (MW1KG13115), the Lhasa print of 1982
+  (MW16778), the 'Bri gung commentary (MW1KG24729), and the Lhan thabs
+  (Sde srid's *Supplement*, MW20041 and MW1PD4_408035), the Four Tantras'
+  line being where the phrase «ཁ་དམར» ("red mouth", the verdict laid) stands in the prints read. None of these reads «སྟངས་གཅོད་ཁ་དམར»; the one hit with that
+  string is the *Moonbeams* as KD prints it (MW28845: «སྟངས་གཅོད་ཁ་དམར་གཞན་འཆོད་ཀྱང་», the
+  deciding verdict "red mouth"). So **the older of the two spellings in the
+  line from the Four Tantras to WB is «བཏང་གཅོད»**: it is the Tantras' own (as the prints read here have it),
+  hence older than either Sde srid or Dharmaśrī (the dates of their
+  persons are not in the catalogue records read, and are not needed:
+  the Tantras are older than both). The reckoners that write «སྟངས་གཅོད»
+  write the same word in a second spelling; «སྟངས» is a sound-spelling of «བཏང» in all likelihood, since the *Moonbeams* and WB lay the same twenty-four pebbles in the same verse (open question 245's §2) and the *Moonbeams* has the past form «སྟངས་བཅད» where the others have «བཏང་བཅད»; that is a reading of the lines, not a find.
+- **«སྟངས་གཅོད» is also an older phrase in its own right**, unrelated to
+  the pebbles: «ལེགས་ཉེས་སྟངས་གཅོད» (deciding the good and the bad,
+  the manner of a thing) in rites, vows and doctrinal works (Padma dkar po's
+  collected works MW10736, the Zhe chen *Treasury* MW1KG14, Chos kyi grags
+  pa MW22082, the Dzogchen texts MW21019, and the Yuthog heart-essence
+  collection MW4PD2074: «མོ་དང་རྩིས་ལ་མ་ལྟོས་པར། འཚོ་འཆི་ལེགས་ཉེས་སྟངས་གཅོད་ཡོད།»,
+  "without looking to divination and reckoning there is a deciding of life
+  and death, good and bad"). That last line is the medical hand using
+  «སྟངས་གཅོད» of the verdict on life and death, the very sense of the
+  Four Tantras' «འཚོ་འཆི་བཏང་གཅོད»; so the second spelling is not the
+  reckoners' invention: it is a spelling of the same verdict word, in
+  circulation in the medical and the doctrinal works. The
+  question whether «སྟངས» is "manner" or a sound-spelling stays a
+  reading of the lines, not a find: both uses mean "the decision".
+- **«སྟོང་གཅོད» (the word lists' spelling)**: 43 hits, none with
+  «ཁ་དམར» or «རྡེའུ»; the page of results is dictionary and doctrinal
+  prose, not one pebble. No evidence that it was ever the pebbles' spelling.
+- **Other witnesses to «སྟངས་གཅོད་རྡེའུ»** besides KD: the *Collected Works* of
+  Tshul khrims rgyal mtshan (MW1KG10375_747F39, «སྟངས་གཅོད་རྡེའུ་ཉི་ཤུ»,
+  "the twenty deciding pebbles", his commentary on the *Moonbeams*), a
+  collection of twelve sections (MW1KG2733_8F02A0, _8D5ABE: «སྟངས་གཅོད་རྡེའུ་ཉེར་བཞི་བཅས་རྡེའུ་བཅས་སོ»),
+  and the Bzo rtsis volume (MW1PD95727, the verse «སྟངས་གཅོད་རྡེའུ་ཉེར་ལྔ་བཅས། བརྒྱ་དང་ལྔ་བཅུ་ཐམ་པར་འགྱུར།» at a count of 125 and 25, 150 in all, the same verse as KD's).
+  All are late or undated; none is older than the print of the
+  *Moonbeams* read in open question 245.
+
+**Dharmaśrī's own spelling (248).** BDRC holds six copies or prints of
+the *Moonbeams*: MW29569 (Leh, Dondup Tashi, 1976, 69 p., "reproduced from prints from the 1927 Lhasa blocks"), MW1NLM6115
+(the NLM woodblock, `dbu can`, a single text of the volume), MW1LT2427
+(a cursive manuscript volume, 1 v., the part D25370), MW1LT0150 (part 003827),
+MW2PD17476_45ED2D (*Rare Old Texts*) and MW2PD17386_01BBA3 (*Collected Old
+Texts*), besides the copy in Tshul khrims rgyal mtshan's works and KD's.
+MW1LT2427 is a cursive manuscript and MW1NLM6115 a woodblock without a date in its record; either may be older than the 1927 blocks, and the records do not say which is the oldest. None was read; the model run for the NLM block did not get a slot. **Open, narrowed to the manuscript MW1LT2427 and the NLM block**: look at the 24-pebble count line (the *Moonbeams* f. 15b) in them. (MW1LT0150 is another Library of Tibet volume, not read.)
+
+### 4. When the sheets were drawn (question 251)
+
+No date on the sheets' scan (RD28). In KD's etext of the sheets (vol. 3,
+pp. 716–727 = etext pp. 736–747, machine-read, the figures broken) **the wood rat
+(ཤིང་བྱི, shing byi) stands as the year of the person reckoned for
+(«བརྩི་བྱ་ཤིང་བྱི»)** beside a changing "sky year" (གནམ་ལོ, gnam lo) of each
+sheet (iron horse «ལྕགས་རྟ», earth snake «ས་སྦྲུལ», fire hare…), on the
+etext's pp. 736, 741, 743, 745 and 747. A wood rat is also the stock
+example of the tradition's own texts: WB's worked example of the twelve
+stages (vol. 1, p. 442, «བྱན་མོ་ཤིང་བྱི་ལོ་མ་ཡིན»), the *Moonbeams*' wood-rat example (O16, [marriage.md](marriage.md)). **Narrowed: the wood rat is the sheets'
+example birth year, not the date they were made**, as in the texts they
+follow, so it does not date them. The remaining evidence is that the
+epoch-moving of KD's manuals to the fire hare of 1987 is credited to Kun
+dga' rig 'dzin and Phur bu don grub in the same volumes; the sheets say
+nothing of it. A date must come from the interview (question 250) or the
+lent title leaf.
+
+### 5. «ལྔ་པ་འཕྲོད» (question 252)
+
+**Answered as to what it is.** «ལྔ་པ་འཕྲོད» (lnga pa 'phrod) is the short
+name of a standard text of the Chinese reckoning: BDRC lists it under the
+long title (catalogue, Wylie) *lnga pa 'phrod dang sbyor byed rten 'brel
+nyi ma spar sme tshes kyi sa bdag thebs bzlog gnam sgo drang srong yan
+kwong bcas kyi 'bras bu gsal bar btus pa*, "the results of the fifth
+meeting (ལྔ་པ་འཕྲོད) and the joiners, dependent origination, the sun,
+the trigram, the mewa, the date's earth lord, the turning back, the sky
+door and the Drang srong Yan kong, gathered clearly", in these records:
+the Lhasa Mentsikhang's print of 1980 (MW8LS73577, 15 + 40 + 18 ff.), a part of the Dung dkar Chos rje collection (MW1KG13989_C2CACD), a part of Bkra dge's collection of rare old texts (MW2PD17515_B27D7C), a part of a Library of Tibet volume (MW1LT0150_003830) and in KD vol. 3 (MW28845_217C42), where it is
+Mkhyen rab nor bu's (མཁྱེན་རབ་ནོར་བུ, mkhyen rab nor bu) digest from the
+White Beryl, *Bringing the Results of the Meeting and the Joinings of the
+White Beryl Apart* (བཻ་དཀར་ལས་འཕྲོད་སྦྱོར་སོགས་ཀྱི་འབྲས་བུ་ཟུར་དུ་བཀོལ་བ), KD vol. 3,
+p. 730 (contents; etext p. 750).
+
+The etext of KD (I4717, p. 750, machine reading) opens it:
+
+> ལྔ་པ་འཕྲོད་དང་སྦྱོར་བྱེད་རྟེན་འབྲེལ་ཉི་མ་སྤར་སྨེ་ཚེས་ཀྱི་ས་བདག་ཐེབས་བཟློག་གནམ་སྒོ་དྲང་སྲོང་ཡན་ཀོང་བཅས་ཀྱི་འབྲས་བུ་གསལ་བར་བཏུས་པ་བཞུགས་སོ། །མཁྱེན་རབ་ནོར་བུས་མཛད། … ལྔ་པ་འཕྲོད་ལ་སྐར་རྩིས་དང་། །འབྱུང་རྩིས་པ་ཡི་ལུགས་གཉིས་ཡོད། །
+
+The results of the fifth meeting and the joiners … gathered, by Mkhyen rab
+nor bu: "the fifth meeting has two ways, the star reckoning (སྐར་རྩིས,
+skar rtsis) and the reckoner of the elements' ('byung rtsis pa)", the star reckoning's common set giving each planet an element (the sun and Mars fire, the moon and Mercury water, Jupiter and Rahu wind, and so on). Its close (etext p.
+761) names its purpose: «…རྒྱལ་དབང་སྐུ་ཕྲེང་བཅུ་གསུམ་པ་ཆེན་པོའི་བླ་སྨན་པ་མཁྱེན་རབ་ནོར་བུ་མཆོག་གིས་སློབ་བུ་རྣམས་ལ་བློ་འཛིན་བདེ་ཁྱད་ལྔ་པ་འཕྲོད་འདི་ཟུར་བཀོལ་གྱིས་ཞལ་སྐོང་མཛད་དེ་སྨན་རྩིས་ཁང་ནས་པར་དུ་བསྐྲུན་པའི…»,
+the physician of the thirteenth Dalai Lama, Mkhyen rab nor bu, set this
+"fifth meeting" apart as an appendix **for his pupils, to be easier to
+learn by heart**, and the Mentsikhang printed it. So it is **the
+Mentsikhang's pupils' learning text** on the results of the meetings
+(compatibility) and the joined days, drawn from WB, which Tshul khrims rgyal
+mtshan taught in 1989 after the *Moonbeams* and the Root Tantra: a normal
+course of a young astrologer. Whether the Kun dga' rig 'dzin so taught is
+the writer of the sheets is **not settled**: the catalogue's snippet
+(RD28) names only the pupil. One fact agrees with it and decides nothing: the text stands in KD vol. 3, whose board of editors names one Kun dga' rig 'dzin.
+
+### Open
+
+- Question: does the Mentsikhang's book 6 (the commentary in twenty) hold
+  the *Lamp of the Magic of Deciding* as its third part, and under which
+  record is the treasury held? (A reader with the 2017 catalogue or the
+  treasury; question 240.)
+- Question: does the *Little Red Tiger-Head*'s chapter 10 or 17 lay the
+  deciding pebble? (Its scans: I1GS66247, img. 3 answers; the manuscript is
+  cursive and was not read; question 241.)
+- Question: does the oldest copy of the *Moonbeams* (the manuscripts
+  MW1LT2427, MW1LT0150, the NLM block MW1NLM6115) write «སྟངས་གཅོད» in the
+  count of the 24 pebbles, f. 15b? (Question 248.)
+- Question: when were the sheets drawn? The wood rat does not say; the
+  interview in Tibet University's journal (question 250), or the lent
+  title leaf, may. (Question 251.)
+- Question: is the Kun dga' rig 'dzin who learned the *Fifth Meeting* in 1989
+  the writer of the sheets? Only his own account or a colleague's says
+  (question 252, as before).
+
+### Searched and not found
+
+- 2026-11-01, BDRC's full-text search: «བཏང་གཅོད་ཀྱི་འཕྲུལ་གྱི་སྒྲོན་མེ» 0 hits;
+  «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» 1 (WB's list); «འབྱུང་བ་རིན་པོ་ཆེ་གསལ་བའི་སྒྲོན་མེ» 1
+  (the *Little Red Tiger-Head*'s other title, the record itself); «སྟོང་གཅོད་ཁ་དམར»
+  and «སྟོང་གཅོད་རྡེའུ» 0.
+- 2026-11-01, the Mentsikhang catalogue's snippet shows books and page spans,
+  not the contents of book 6; the catalogue is search only (`etextchunks`
+  403).
+- 2026-11-01, no person record gave dates for the authors of the
+  Four Tantras commentaries named above; the dating of the spellings rests
+  on the Tantras being older than both reckoners.
 
 ## The practitioners' manuscripts: the dead's speckled deciding pebble, the numbered cells, the life reckoning's blanks (RD106)
 
