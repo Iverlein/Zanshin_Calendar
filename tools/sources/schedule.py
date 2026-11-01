@@ -165,7 +165,8 @@ def plan(args):
     ready.sort(key=lambda x: (x[0].filler, -x[0].gates, int(re.search(r"\d+", x[0].id).group())))
     launch, held, loan_taken, agy_taken, slots_left = [], [], False, False, m["slots"]
     # first the card's slots, then whatever else fits, then more card readings (they queue on the locks)
-    order = [x for x in ready if x[0].gpu and not x[0].filler] + [x for x in ready if not x[0].gpu and not x[0].filler] \
+    card = [x for x in ready if x[0].gpu and not x[0].filler]
+    order = card[:m["slots"]] + [x for x in ready if not x[0].gpu and not x[0].filler] + card[m["slots"]:] \
         + [x for x in ready if x[0].filler]
     seen = set()
     for r, _ in order:
