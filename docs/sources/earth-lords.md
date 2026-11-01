@@ -594,3 +594,26 @@ The notes' third and fourth heads of the general reckoning are read again (p. 53
 - The old couple's course in Lha mo tshul khrims (I1KG21886 etext, «རྒན་རྒོན» nine times) and the regent's replies (I5876 etext, once): no seats by month; the names occur in lists of kin and corpses. The blue mouse road, «བྱི་ལམ» and «ལམ་སྔོ»: none in either.
 - The Bhutan collection's verses (etext, «རྒན་རྒོན», «བྱི་ལམ», «ལམ་སྔོ»): remedies (p. 455), a corpse-rite entry (pp. 506, 509, 546) and the wheels' garbled lines; no verse course.
 - An earth lord set against the date's results, in the same three etexts: none.
+
+## RD120, 2026-11-01 (open questions 123, 125 and 119)
+
+Pages: WB vol. 2, pp. 224–225 on the Gser thang reprint (I3CN5029, img. 230–231, 1905 px; the 1996 scan I1KG12907, img. 232–233, beside it with Yigdzin-1 and MITRA as the earlier machine readings); the two places below enlarged 1× and 3× and read by eye. No new model run; no agy.
+
+**The seats' closing remedy, p. 224, last line of the day animals' lines (reprint img. 230, 3× crop).** Read on the scan: «སྒྲིབ་ན་བ་ཐོད་འཕྱར་ལ་སྒྲིབ། །ཡང་ན་གསེར་མཛོད་ཇི་བཞིན་ནོ། །ཡང་ན་མི་ཧྲེང་མདུང་ཐོགས་སྒྲིབ།།» (the last line, the one asked about, is clear on the scan and agrees with Yigdzin-1's reading; the stack ཧྲེང with ྲ under ཧ and the vowel above): "to screen it, screen with a cow's skull set up; or as in the *Gser mdzod*; or a lone man (མི་ཧྲེང, *mi hreng*) holding a spear is the screen." The closing remedy lists three screens, the third a figure set at the door.
+
+**Question 123, the man *hreng*: answered.** A lone man, one without companion: the dictionary gloss (Tshig mdzod chen mo, «ཟླ་གྲོགས་མེད་པའི་མི») and Mipham's own gloss in WB's notes (p. 517, «ཕོ་ཧྲིང་མོ་ཧྲིང་ནི་ཕོ་རེང་མོ་རེང་སྟེ་ཟླ་གྲོགས་མེད་པ་གཅིག་པུའི་མིང་།») are in the sections above; the line on the scan has no variant spelling. The word is settled. Of the *gtong shes* (གཏོང་ཤེས), the work cited for the hours in the line before (p. 224, «འཛེམ་པར་གཏོང་ཤེས་ལས་བཤད་དོ»), nothing is added: the translated earth-lord text «ས་བདག་གཏོང་ཤེས», not found, stays as narrowed 2026-10-19.
+
+**Question 125, the *lo* of the day, p. 225 (reprint img. 231, 1× crop).** Read on the scan, with four emphasis dots under the first words as the print has them: «གཞན་ཡང་པི་ལིང་འཁོར་ཆུང་དང་། །བྱི་ལམ་ལ་སོགས་རང་རང་གི །ཞག་གི་ལོ་སྟེང་གནས་ཞེས་ཀྱང་། །རྣམ་པར་དག་པའི་ཁུངས་ཀྱིས་དབེན།།» — "Besides, that Pi ling, 'Khor chung, Byi lam and the others each dwell on the day's *lo*, is also without a pure source." The 1996 scan's MITRA reading has «སྟོང» and «ཁྱི་ལམ», slips; the reprint has «སྟེང» and «བྱི་ལམ». The wording is «ལོ་སྟེང», "on the *lo*"; which *lo* a day has is read, as on 2026-10-19, from p. 538's «ཞག་གི་ལོ་འབྱུང» (the day's animal and element), not from this page. Result: **narrowed, not settled**: the reading of 2026-10-19 stands with the scan's confirmation of the words; no text glosses the line, and the search of BDRC's full text could not be repeated in this session (see below).
+
+### Question 119: the 9th hair date ([hair-dates.md](hair-dates.md), *The 9th's «མོད་འགྱུར» (O3)*)
+
+Not a text question about the verse but about how WB's good and bad sides are made: the table of that file sets WB's result beside its side for all thirty dates. The side follows chapter 33's verdict on washing the hair on every date but two (14th, 27th), and not the result: five dates have a result that reads against their side (the 6th, «complexion fades», and the 16th, illness, and the 18th, loss of wealth, are on the good side; the 9th, young women many, and the 14th, wealth, are on the bad side). Chapter 33 itself puts the 9th among the bad dates for washing the hair, for servants, funeral rites and marriage, and chapter 34's marriage entry adds the 9th as bad ([white-beryl-ch34.md](white-beryl-ch34.md), O2). So WB's result for the 9th is a statement of what comes, not its verdict: **narrowed**, the date stands bad by chapter 33 whatever the result's tone, and whether the many young women are a gain (company) or a distraction is not said in WB; SN, the Drigung compendium and the Drigung divination verse give it as a meeting or company, the neutral wording, with no verdict either.
+
+### Open
+
+- Question: the *gtong shes* (གཏོང་ཤེས), the text WB p. 224 cites for the hours' avoidances, in which collection is it, and what does it say of the lone man with a spear?
+- Question: does a reckoner's text say what "the day's *lo*" (ཞག་གི་ལོ) is for the lords Pi ling, 'Khor chung and Byi lam, whom p. 225 rejects?
+
+### Searched and not found
+
+- BDRC's full-text search for «མི་ཧྲེང་མདུང་ཐོགས», «གཏོང་ཤེས་ལས་བཤད» and «ཚེས་དགུ་ན་ཆུང་མོད»: not run; `bdrc_search.py` stopped at the launch of its Chromium (the cached browser, chromium-1248, is missing on this machine), and no other way of opening a browser was tried.
