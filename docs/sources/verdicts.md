@@ -7843,7 +7843,180 @@ Question 564 ([q0564](questions/q0564.md)): Is the limbs' verdict in Sprugtön's
 
 ## The year of age's son place: a place with both colours, a son meeting, a pair or speckled (RD123)
 
-Nothing read yet: RD123's passages, with the English beside them, go here.
+Read 2026-11-01. WB vol. 1, pp. 380–381 (1996 img. 390–391, Yigdzin-1 over
+both; the son's line also on the Zhol print, I1KG1710 img. 498, and the
+Taikhang reproduction, I5877 img. 515, each by Yigdzin-1 on a strip of the
+line and by eye) and the notes, vol. 2, p. 490 (Gser thang reprint, I3CN5029
+img. 496, by eye, with the 1996 Yigdzin-1 img. 498 beside it). The rest of
+vol. 1 pp. 382–385 and the notes' pp. 489 and 491 were not read again: the
+tables of p. 489 are RD20's and O17's (above, *D16: the worked examples*)
+and the pebbles' readings of pp. 384–385 do not touch the son. Witnesses on
+etext, not on the scan, except where said: the *Moonbeams* in KD vol. 3 (etext
+p. 527), Dge rtse's digest (UT, etext pp. 39, 102), the Bhutan collection
+(etext p. 73), Lha mo tshul khrims (LT, etext p. 177) and the *Clear Mirror*
+(ZG's volume I4PD2444, etext p. 333 = printed p. 289; the line read by eye on
+the typeset scan, img. 333). Gyurme Dorje's chart 6.2 and his text were not
+read again: the archive.org loan was not this reading's, so what stands about
+them is RD18's and O17's reading (above). No agy.
+
+### WB's rule of the pebbles of a meeting (vol. 1, pp. 380–381)
+
+Yigdzin-1 on the 1996 scan (img. 390; the enemy's line runs over to the top of
+img. 391):
+
+> །ཀུན་འབྱུང་ཨ་ལོའི་བཞེད་པ་ཡི། །བླ་རྡེལ་དྲུག་འབྱུང་དེ་དག་རྣམས། །མ་དང་ཕྲད་ན་དཀར་པོ་གསུམ། །གྲོགས་དང་ཕྲད་ན་དཀར་པོ་གཉིས། །བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར། །དགྲ་ཕྲད་ནག་པོ་གཉིས་སུ་བོར། །ནང་ཕྲད་ས་ཆུ་དཀར་པོ་སྟེ། །དེ་ཡང་ལུས་ཀྱི་གཅོད་འདྲལ་སྐབས། །ཤིང་གཅིག་ས་ལ་མི་གནོད་སོགས། །འབྱུང་ཆུང་གདམས་པ་དྲན་པར་བྱ། །ཤིང་ལྕགས་མེ་གསུམ་ནག་པོར་བོར། །དེ་ལ་ཁ་སྦྲང་རྡེལ་འགྲེམ་ལུགས། །མི་མཐུན་མང་ཡང་དཀར་ནག་གི། །གསུམ་གཉིས་ལ་སོགས་མི་འདྲེན་པར། །ངོ་ཐེག་དཀར་ནག་བགྲངས་པ་ཡི། །གང་མང་ཁ་དམར་རྡེལ་བོར་བ།
+
+English: the six pebbles of the la (བླ, bla), by the wish of Kun 'byung A lo:
+meeting the mother, three white; meeting a friend, two white; meeting the son,
+«dkar na gzung du bor» (the line in question, below); meeting the enemy, lay
+two black; meeting its own kind, earth and water white; for the body's
+decisive pebbles keep in mind the warning "one wood does not harm earth";
+wood, iron and fire lay black. As for the pebbles of the red mouth (ཁ་དམར, kha
+dmar) as others lay them out, many and unlike, do not draw three or two of
+white and black, but count the white and black of the place and lay the red
+mouth's pebble by whichever is more.
+
+### The notes on how a place counts (vol. 2, p. 490, img. 498)
+
+Read by eye on the Gser thang reprint (img. 496, lines 6–7 of the page); the
+1996 Yigdzin-1 is the same word for word:
+
+> རྡེའུ་བོར་ལུགས་གཞུང་བཞིན། ཁ་དམར་ནི་མ་འཕྲད་དཀར་གསུམ་ལྟ་བུའང་གཅིག་ལ་བརྩི། དགྲ་འཕྲད་ནག་གཉིས་ཀྱང་སོ་སོར་མི་བརྩི་བར་གནས་དེའི་དཀར་ནག་བསྒྲངས་ལ་དཀར་མང་དཀར་པོ། ནག་མང་ནག་པོ། མཉམ་ན་ཁྲ་བོ་བཞག
+
+English: the manner of laying the pebbles is as the root text; the red mouth
+counts even the mother's three white as one, and the enemy's two black are not
+counted one by one either: the white and black of that place are counted, more
+white laying white, more black black, an equal number a speckled (ཁྲ་བོ, khra
+bo) pebble. The sentence says what a pure place counts as; it names no son and
+no half.
+
+### The son's line on the three prints (the point of question 187)
+
+The line's seven syllables fall one by one the same on all prints: bu phrad
+dkar [na / nag] [gzung / zung] du bor.
+
+- **1996 (img. 390)**: «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»: Yigdzin-1 over the page, and
+  O17's reading by eye at 4× and 9× (above).
+- **Taikhang (I5877 img. 515, folio 505, line 6)**: Yigdzin-1 over the page
+  and over a strip of the line, both «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»; by eye
+  the seven glyph groups are the same in number and place as the 1996's,
+  but the ink runs together at 3–5× and the ན and the stack before the
+  hooked ཟུང་ cannot be told apart.
+- **Zhol (WBZ I1KG1710 img. 498, line 7, a woodblock with cursive hand)**:
+  Yigdzin-1 on two strips of the line reads «བུ་ཕྲད་དཀར་ནག་ཟུང་དུ་ཕོར»
+  (the last word, ཕོར, a misreading of བོར), and the etext's OCR of the folio, which is noisy throughout, has
+  «དབུ་ཕུད་དཀར་ནག་ཟུང་དུ་འོང»: so all three machine readings of the
+  Zhol give «དཀར་ནག་ཟུང», "white and black, a pair". By eye at 6–9× the
+  Zhol's glyph after དཀར is a wide cluster; a cap stands above the stack
+  that carries the hooked ུ, which would suit a ག over ཟ (the 1996's
+  གཟུང), but the ink is too heavy to settle it. The Zhol and the 1996
+  and Taikhang may therefore differ here, or one reading may be the
+  model's habit: Yigdzin-1 leans to the common spelling, and
+  «དཀར་ནག་ཟུང་དུ» is the more expected one in the sense. A doubt,
+  written down as a doubt.
+
+The meaning in either spelling: «དཀར་ནག་ཟུང་དུ་བོར», lay it as a pair of
+white and black, is what the other uses of WB show (below); «དཀར་ན་གཟུང་དུ་བོར»
+is, read word by word, "where it is white, lay it as grasped" and no other
+text, among those searched, has it.
+
+### Others' lines on the son meeting
+
+- **Zhechen Gyaltsab's volume, the *Clear Mirror* (printed p. 289, img. 333,
+  read by eye, 1.5×)**:
+
+  > དེ་ཡང་མར་འཕྲད་དཀར་གསུམ་གྲོགས་ལ་གཉིས། །ས་ཆུ་ནང་ཕྲད་དཀར་གཅིག་བུར་འཕྲད་ཁྲ། །ཤིང་ལྕགས་མེ་ནང་ནག་གཅིག་དགྲར་འཕྲད་གཉིས།
+
+  The mother's meeting three white, a friend's two; own earth and water one
+  white; the son's meeting speckled (ཁྲ); own wood, iron and fire one black;
+  the enemy's two. The verse goes on: the red mouth's pebbles are not laid by
+  their own three or two but by the many or few of the place's number, more
+  white white, more black black (etext p. 334).
+- **The Bhutan collection (etext p. 73, a typeset reset, not on the scan)**:
+  «མ་ཕྲད་དཀར་གཉིས་བུ་ཕྲད་ཁྲ། །དགྲ་ཕྲད་ནག་གཉིས་གྲོགས་ཕྲད་གཅིག» (the mother
+  two white, the son speckled, the enemy two black, a friend one): another
+  count, the same speckled son.
+- **The *Moonbeams* (KD vol. 3, etext p. 527, not on the scan)**:
+  «མ་འཕྲད་དཀར་གསུམ་གྲོགས་ལ་གཉིས། །ས་ཆུ་ནང་འཕྲད་དཀར་པོ་གཅིག །བུ་འཕྲད་པ་བྱེད་མ་ནག་གཉིས་དགྲ །ཤིང་ལྕགས་མེ་གསུམ་ནག་གཅིག་བོར།»:
+  the son's line is garbled by the OCR («པ་བྱེད་མ»); with the half laid
+  for the son in O18 (above, from the scan of DZ f. 21b) it reads «བུ་འཕྲད་ཕྱེད་མ། ནག་གཉིས་དགྲ» ("the son's meeting a
+  half, the enemy two black"), which the same verse's later words support: «ངན་དྲུག་རབ་འབྲིང་ཐ་གསུམ་མ། ཕྱེད་མ་ནག་གཅིག་ནག་གཉིས་སོ།» (the
+  best, middle and worst of the six bad: a half, one black, two black).
+  The verse then says: «ཁ་དམར་རྡེལ་བཞི་ཡང་། །དཀར་ནག་མང་ཉུང་བགྲངས་བྱས་ལ། །དཀར་གསུམ་དཀར་གཉིས་སོགས་སུ་བོར།»
+  (the four red mouths too: count the more and fewer of white and black, and lay
+  as three white, two white and so on).
+- **Dge rtse's digest (UT, etext pp. 39, 102, a typeset reset, not on the
+  scan)**: two lists. For the dead: «མ་འཕྲད་དཀར་གཉིས་བུ་འཕྲད་ནག་པོ་གཅིག །དགྲ་འཕྲད་ནག་གཉིས་གྲོགས་འཕྲད་དཀར་པོ་གཅིག»
+  (mother two white, son one black, enemy two black, friend one white). For the
+  living: «དཀར་གསུམ་བུ་འཕྲད་དཀར་ནག་གཉིས། མེ་ཤིང་ལྕགས་གསུམ་ནང་འཕྲད་ལ། ནག་པོ་གཅིག་སོགས་བཞེད་ཚུལ་མང་།»
+  (three white, the son meeting white and black, two; wood, fire, iron own
+  meeting one black, and so on: many views). So the one list that lays the
+  living's son as «དཀར་ནག་གཉིས», a pair, is a late digest, and it
+  calls the views many.
+- **Lha mo tshul khrims (LT, etext p. 177)**: «བུ་ཕྲད་དཀར་ནག་སྣ་ཚོགས་བྱུང་ན་ཚོགས་བསགས་སྦྱིན་གཏོང་བྱ།»
+  (if the son's meetings come mixed, white and black, gather merit and give
+  alms): the same words stand in KD vol. 3 (etext p. 712); the
+  son's place is a mixed one there, with no count.
+
+### What each question comes to
+
+**Question 171** (a place with both colours in the count of the year of age).
+The notes (p. 490) count a place once and name only the pure places: the
+mother's three white as one, the enemy's two black as one, more places of
+one colour laying that colour, equal numbers speckled. A son meeting and
+the breath-taking and womb stages are not named in that sentence. The
+*Clear Mirror* lays the son's meeting speckled, in its own count of the
+mother, friend and enemy; the *Moonbeams* lay it a half. Neither lays it
+black or white. So: **narrowed**; the notes' rule leaves the mixed place
+out of its sentence, the two manuals that name it make it a speckled or half
+place, and the second half of the question (the breath-taking and the womb)
+is still the *Moonbeams*' halves (question 188). No source read says how
+many a speckled or half place adds to either colour; counting it for neither
+is what the notes' table (O17, cases (c), (d)) allows, and no more.
+
+**Question 186** (the notes' table against Dorje's chart 6.2). Not answered:
+Dorje's chart was not read again. What the new witnesses give is a reason
+the two may differ: the one count under which a son is not black is the
+*Clear Mirror*'s and the *Moonbeams*', both of which lay it as neither white
+nor black; Dorje quotes the *Moonbeams* (O17) and yet his chart comes out
+only if the son counts black. **Narrowed** to Dorje's chart (an error in
+the chart, or a counting of a half as black that the *Moonbeams*' own verse
+does not give); the notes' table is consistent with every manual read here.
+
+**Question 187** («བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར»). **Narrowed, not settled**. The
+1996 and the Taikhang (machine and eye) have «ན་གཟུང»; the Zhol's three
+machine readings have «ནག་ཟུང», and that is the reading that says "white
+and black as a pair" in WB's own manner (WB p. 417 lays the son as a pair in
+the illness reckoning, O19; the *Moonbeams*' son is a half and the *Clear
+Mirror*'s speckled, both mixed places). No searched text has «དཀར་ན་གཟུང»,
+and the other manuals that gather a son meeting from this verse (above) read
+it as a mixed place. So the sense is a mixed place, and the spelling in the
+1996 and the Taikhang is either a variant, or a misprint of «དཀར་ནག་ཟུང»
+(a ག dropped and a ག prefixed to the next syllable). To settle it the Zhol's
+line needs a crop with better light than this scan gives.
+
+**Question 192** (a pair or speckled). **Narrowed**. WB's line (any of the
+three spellings) and the notes' own table do not make the place speckled
+(O17: the notes' table fits it not counted black); the *Clear Mirror* and
+the Bhutan collection make it a speckled place (ཁྲ), the *Moonbeams* a half,
+and the one digest that gives a pair (UT, for the living) names the views
+many. So three names (a pair, a speckled, a half) are three schools'
+names for one place, one white and one black; WB's own, when «དཀར་ནག་ཟུང»
+is the reading, is the pair. Whether the notes' "as the root text says"
+(p. 490) means the pair is the same question as 187.
+
+### Open
+
+Question: Does the Zhol print (WBZ I1KG1710 img. 498, line 7) read «བུ་ཕྲད་དཀར་ནག་ཟུང་དུ་བོར», as its three machine readings do, where the 1996 and the Taikhang (img. 515) read «བུ་ཕྲད་དཀར་ན་གཟུང་དུ་བོར», and does a better crop of the Zhol or another print (the Sakya Centre I1KG12739–40, the Gser thang reprint I3CN5028 img. 375) settle which letters stand after དཀར?
+
+Question: In the *Moonbeams* (KD vol. 3, etext p. 527) is the son's line «བུ་འཕྲད་ཕྱེད་མ་ནག་གཉིས་དགྲ» (a half, the enemy two black), as O18's scan reading of DZ f. 21b would have it, and not «བུ་འཕྲད་པ་བྱེད་མ…» as the etext prints, and does the leaf of KD itself (vol. 3 p. 507) show the half?
+
+### Searched and not found
+
+- «དཀར་ན་གཟུང་དུ་བོར» or «ཕྲད་དཀར་ན» as a son meeting's rule in the *Moonbeams* (KD vol. 3), UT, LT, the Bhutan collection and the *Clear Mirror* (their etexts, searched for «བུ་ཕྲད», «བུ་འཕྲད», «ཕྲད་དཀར་ན»): none; every other manual gives a mixed place, a pair, a half or a speckled one.
+- A sentence in the notes pp. 489–491 that says how a son meeting or a half counts toward the white and black of the place: none, read on the Gser thang reprint (img. 495–497); the sentence on p. 490 names only the mother's three and the enemy's two.
+- The son meeting's count in the *Clear Mirror* beyond «ཁྲ»: the verse of etext p. 334 gives the place's count only (white many, black many), with no number for a speckled place.
+- Gyurme Dorje's own text on the son (pp. 226–230): not read this time (no loan).
 
 
 ## KP's third square for Rāhu, ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར», «བསྔོ་རུ་མ་བཏུབ» (RD124)
