@@ -7802,4 +7802,41 @@ Nothing read yet: RD117's passages, with the English beside them, go here.
 
 ## The year of age's five verdicts and sixteen limbs: the meadow's ornament, Sprugtön, the *Moonbeams*' five general totals (RD121)
 
-Nothing read yet: RD121's passages, with the English beside them, go here.
+Read 2026-11-01 (RD121): WB vol. 2, pp. 22–23 (img. 30–31 of the 1996 scan, I1KG12907, 690×1006 and 712×1013 px) by eye, enlarged 3×, every line of the meadow's ornament leaves and of Sprugtön's reckoning against the text already written in [corpus/wb/ch27.md](corpus/wb/ch27.md#wb-2-p22) and [#wb-2-p22-23](corpus/wb/ch27.md#wb-2-p22-23); the colophon (p. 25, img. 33, l. 5–11) looked at again for the count. No machine reader was run (the pages are the pool's already, read on the scan twice and against the Gser thang reprint); the *Moonbeams* f. 23b–24a is in [corpus/dz/dz.md](corpus/dz/dz.md#dz-i050-051), read on the scan, and was read here from the pool, not again. The scan agrees with the pool's text at every place the three questions rest on; nothing in it needed correcting.
+
+What the scan shows, line by line, for the three questions:
+
+**The meadow's ornament (question 216).** The four groups of the gold year end each in a verdict, and the print is not uniform in saying how many:
+
+> དཀར་ནག་བགྲངས་པའི་ཁ་དམར་གདགས། (p. 22, the first group) · འཐབས་པའི་ཉེར་ལྔ་ཁ་དམར་གདགས། (the second) · དཀར་ནག་ཁ་དམར་རྣམ་པ་ལྔ། (the third) · ཁ་དམར་ལྔ་བཅས་གསེར་ལོ་ཚང་། (the fourth, "complete with the five verdicts")
+
+The first two groups say "lay the verdict" with no number, the third and fourth say five; the turquoise and conch years say «ཁ་དམར་ལྔ་ལྔ» and «ཁ་དམར་ལྔ་རེ» ("five each"). So WB's own wording is "five verdicts to each twenty-five" in every group after the second, and the first two are read as the same five by the pattern. What assigns the five to the aspects is the paragraph that follows the sum of 360 (p. 22, the last lines of the leaves):
+
+> རགས་པར་སྲོག་ལ་ཚེའི་འགལ་རྐྱེན། །ལུས་ནད་དབང་ནོར་ཀླུང་བསོད་ནམས། །སྨེ་བ་ལྷ་འདྲེའི་ཁྲོམ་བྱད་སོགས། །དཀར་ནག་ཁ་དམར་དང་བསྟུན་བརྗོད། །
+
+Roughly: for the life force (སྲོག, srog) the adversities of life, for the body (ལུས, lus) illness, for the power (དབང, dbang) wealth, for the luck (ཀླུང་རྟ, klung rta) merit, for the mewa (སྨེ་བ, sme ba) gods and demons, a crowd's curse and the like; tell them in accord with the white and black verdicts. Five domains in the order of the five aspects, each told "in accord with the verdict": the only way five verdicts can be told by five domains is one verdict to one domain, that is, one verdict to each aspect of the group's five. This is WB's own, on the scan, and it is the same assignment, in the same order, that the pool's earlier readings found in KD's sheet (one verdict under each column) and in Mipham's notes (five verdicts after each group). What WB does not say is whether a group's five columns are one year's own five forces (KD) or the five animals of one kind (Mipham), and the page has no worked example. So the question narrows from "per aspect or per year" to: per aspect, by WB's own paragraph (likely, not stated in a sentence); and what the five of a group are, left to the notes' reading (Mipham ranks first).
+
+**Sprugtön's sixteen limbs (question 217).** On p. 23 the five verdicts are tied to the five aspects with the distributive «རེ», one each:
+
+> སྲོག་ལུས་དབང་ཀླུང་བླ་ལྔ་པོར། །དཀར་ནག་བགྲངས་པའི་ཁ་དམར་རེ། (p. 23, img. 31, shortly before the limbs)
+
+For each of the five, the life force, body, power, luck and la (བླ, bla), one verdict of the counted white and black. The limbs follow, and the passage ends, on a short line of its own (l. 13), with:
+
+> ཡན་ལག་བཅུ་དྲུག་རང་ཀེག་དང་། …… ཁ་དམར་སྤྱི་ལྟར་གདགས་པར་བྱ། ། 
+
+Where these fall, black; where not, white; lay the verdict as in general. The scan has no pebble count of the limbs and no sentence that puts the limbs into the five; the verb «གདགས» ("lay, set") is the verb of the ordinary verdict everywhere in the chapter (p. 22), and «སྤྱི་ལྟར» ("as in general") sends it to the general rule for a run of white and black pebbles. The verse's own list of what makes the seventy-five (the verse at the foot of p. 22, in the pool's reading: ten roots, the sixteen limbs, «ཁ་དམར་རྡེལ་ལྔ» and «གཅེས་རྡེལ་བཞི») names the five verdict pebbles as a separate item after the sixteen limbs; with the roots' own aspect-by-aspect verdicts (the «རེ» above) counted into the five, the sum 50 + 16 + 5 + 4 = 75 leaves no seventy-sixth pebble for a verdict of the limbs. So the limbs are laid as a run and read "as in general", most simply by the general rule for a run (a majority of white or black; question 167), but the print does not say that the result is a pebble of its own, and no sentence says it is not. Narrowed, as RD54 had it: not counted into the five (by the sum, likely); the form of the limbs' verdict is the general rule's, not stated.
+
+**The *Moonbeams*' five general totals (question 225).** Read in place (dz:i050 and dz:i050-051): the five totals stand at the very close of the *Moonbeams*' fifth chapter, f. 23b–24a, directly after the meadow's ornament leaves' sums (120 + 120 + 120 = 360; plus 120 for days and 120 for hours, 600) and the sentence that the results of the verdicts are in the commentary on the *Nine Gathered*; the verdicts so gathered are the meadow's, "examined for life, illness, food, merit and demons and curses by the life force, body, power, luck and mewa". They are not a gathering of the year of age's household round, which ends earlier in the same chapter (f. 22b–23a) with its own places (the god's, the people's, the house's). WB p. 22 gives the same five domains in the same order for the same verdicts (above), with wealth where the *Moonbeams* has food. So the answer to the question as asked: the *Moonbeams*' five totals are not "the year of age gathered" but the meadow's ornament's verdicts gathered by aspect and domain, and they match WB p. 22's pairing; WB p. 22 has no word of gathering the sixty into five; and that the same may stand for WB ch. 24 is not in either text: ch. 24's year of age (vol. 1, p. 385) has its own gathering, by place.
+
+*Open*
+
+Question: In the meadow's ornament leaves, does WB's «ཁ་དམར་ལྔ» of each group stand one for each of the five aspects in the order of the paragraph on the results (life force, body, power, luck, mewa), and are the five columns of a group one year's own five forces or five animals of a kind (the notes, vol. 2, pp. 533–534)?
+
+Question: Is the limbs' verdict in Sprugtön's reckoning (p. 23, l. 13, «ཁ་དམར་སྤྱི་ལྟར་གདགས») a verdict of its own over the sixteen, laid by the general rule for a run, or only the reading of the run for the rites?
+
+*Searched and not found*
+
+- A sentence in WB pp. 22–23 that says how many verdicts the limbs have or that they are counted into the five: none, read line by line on the scan (img. 30–31, 3×).
+- The first two groups' count of verdicts in words: «ཁ་དམར་གདགས» only, no numeral; the numeral stands from the third group on (p. 22).
+- A gathering of the meadow's verdicts into five totals in WB: none on pp. 22–23; the *Moonbeams* (f. 24a) and Zhechen Gyaltsab's verse alone give it (searches of RD54 and RD70, not repeated).
+
