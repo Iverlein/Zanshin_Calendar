@@ -7848,7 +7848,114 @@ Nothing read yet: RD123's passages, with the English beside them, go here.
 
 ## KP's third square for Rāhu, ch. 34's «ཉེར་གཅིག་ཉེར་ལྔའི་བར», «བསྔོ་རུ་མ་བཏུབ» (RD124)
 
-Nothing read yet: RD124's passages, with the English beside them, go here.
+Read 2026-11-01 for open questions 148, 156 and 195: KP (BDRC I4CZ65599)
+img. 78 right-hand square by eye at 3×, the Bhutan reset of KP's square
+(I1KG11905 img. 426, read 2026-10-19) beside it; the Zhol print (WBZ,
+I1KG1710) img. 1159 (vol. 2, p. 395 of the 1996 print, work 14's good
+line), img. 553 (vol. 1, p. 419), img. 560 (pp. 423–424) and img. 562
+(p. 425), by eye at 4× on the crops; the 1996 etext (IE0OPI51524892) and
+the Zhol etext (IE0OPI7850CC9C, poor) for placing the lines. No model run.
+
+### KP's third square for Rāhu (question 148)
+
+KP img. 78 (§7), right-hand chart: the same grid as the Bhutan reset, east
+at the top, south on the left, north on the right, west below, the middle
+cell «སྤྱི་བརྒྱུད» with a second line, the eight outer cells in the print's
+cursive numerals. By eye at 3× the number of numerals in each cell, counting
+two-digit dates as one cluster, is: east (top) 4, north-east 2, north 4,
+south 5, south-west 3, west 2; the north-west (4 dates in the Bhutan reset)
+shows five clusters and the south-east (6 dates) five or six, a joined
+two-digit date and a split one being undecidable on the blocks. The counts
+agree with the Bhutan reset's table (east 2, 4, 19, 27; north-east 9, 22;
+north 11, 17, 24, 26; north-west 6, 16, 21, 29; west 5, 18; south-west
+1, 8, 23; south 10, 12, 14, 25, 28; south-east 3, 7, 13, 15, 20, 30)
+in six of the eight cells, which is as far as the carving can be held to
+it. So the third chart is the square of the Bhutan reset, and the Bhutan
+table is the best reading of its dates; KP's own digits are not read
+beyond this.
+
+What the square counts. Set against WB vol. 2, p. 238 (img. 246), «ནང་ལྟར་རྒྱུ་ལ་ཚེས་སྐར་མ། །ཚེས་ནི་བཅོ་ལྔ་དགུ་བཅུ་གཅིག །བཅུ་དྲུག་བཅུ་དགུ་ཉི་ཤུ་གསུམ། །ཉི་ཤུ་དྲུག་དང་གནམ་སྟོང་ངོ་།»
+("the inner way of going has date and mansion; the dates are the 15th, 9th,
+11th, 16th, 19th, 23rd, 26th and the 30th"), «ཐོད་བརྒལ་དུ་ནི་རྒྱུ་བའི་ལུགས། །བཅུ་གསུམ་བཅུ་དགུ་ཉི་ཤུ་གསུམ། …བཅུ་དྲུག … ཉི་ཤུ…» (the *tho brgal*
+course on the 13th, 19th, 23rd, with the 10th, 16th and 20th set out from
+other directions) and «ཡང་གསང་གཏེར་སྦས་ལྟར་རྒྱུ་བ། །ཡར་གྱི་ཚེས་བརྒྱད་མར་བཅུ་དྲུག །ཐ་མའི་ཉི་ཤུ་བརྒྱད་ལ་རྒྱུ།» (the hidden course on the bright 8th, the dark 16th and the 28th): each of these names three to eight dates,
+and the square gives all thirty, so it is none of them. Against the *nu ru*
+course of pp. 236–237 and KP's left chart, the direction of setting out
+agrees on nine dates of thirty only and no other fixed relation of the
+square's direction to the setting-out or the arrival direction holds (each
+setting-out direction is scattered over three to five of the square's
+cells). The middle cell's «སྤྱི་བརྒྱུད་», "the general course", and WB's
+«སྤྱི་འདོམས་ནུ་རུའི་རྒྱུ་ལུགས» (p. 236, the general *nu ru* going) are the same word
+in two spellings by their sense, but the square's table of directions is
+not the *nu ru* table. Which course it counts stays open; no text found
+glosses it.
+
+### «བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར» (question 156)
+
+The Zhol print, img. 1159, the fourth line of the folio, read at 4× (the
+line is the print's own, the numerals in brackets below are the 1996 editors'):
+
+> ཚེས་གསུམ་བཞི་ལྔ་དང་བཅུ་བཞི་དང་། །བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར། །བཟང་ལ་གཞན་རྣམས་བཏང་སྙོམས་ཡིན།
+
+(the 3rd, 4th, 5th and 14th, the 15th, the 21st to the 25th [or: the 21st and
+the 25th]: good; the others neutral). The Zhol line is the 1996 print's word
+for word, with no «ནས» between the two numbers; «བཅུ་བཞི་དང་། །» opens
+the line before it. In the 1996 print (vol. 2, pp. 394–395, etext, the
+brackets are the editors') the bad line before is «གཅིག་དང་དྲུག་ནས་བཅུ་བཞིའི་བར། །བཅུ་དྲུག་བཅུ་དགུའི་བར་རྣམས་དང་། །ཉེར་དྲུག་རྣམས་ནི་ངན་པས་སྤང་།»
+and the editors number it 1, then each of 6 to 14, each of 16 to 19, 26:
+both «A ནས B-འི་བར» and the bare «A B-འི་བར» (16, 19) are numbered as runs
+there. The good line the editors number 3, 4, 5, 14, 15, 21 and 25, not 22 to
+24. Two things follow. First, the editors' own numbering reads the bare pair
+«བཅུ་དྲུག་བཅུ་དགུའི་བར» as a run and the bare pair «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as
+two dates, so it cannot be used to decide by the grammar; the same shape,
+two bare numerals and «འི་བར», stands in both lines. Second, read as a run in
+the bad line, 14 is both bad (in 6 to 14) and good (the good line's «བཅུ་བཞི»),
+so the text holds a contradiction on one date whichever way the 21–25 pair is
+read; and the month-specific bad dates of the same verse (the 23rd of the
+first month, the 25th of the twelfth, the 27th of the eleventh) fall inside
+21–25 on either reading. Work 13 (p. 394–395) says «ཉེར་གཅིག་ནས་ནི་ཉེར་ལྔའི་བར»
+with the «ནས», of which the work-14 line is the metrical shortening (seven
+syllables: བཅོ་ལྔ་ཉེར་གཅིག་ཉེར་ལྔའི་བར). The 1996 etext holds no other
+bare-pair run of dates in the work lists. So: the run is the likelier reading
+by WB's own usage, as narrowed on 2026-10-18, and the Zhol print gives no
+variant that changes it; the editors' numbering and KP's box 16 (21 and 25
+alone) are the evidence for the other reading, and the text alone does not
+decide between them.
+
+### «བསྔོ་རུ་མ་བཏུབ» (question 195)
+
+The Zhol print on the blocks, read at 4×:
+
+- img. 553, line 6 (vol. 1, p. 419), at the end of the folio: «དཀར་ནག་བསྔོ་རུ་མ་བཏུབ་ན། །ཐང་ཤིང་མ་བབས་ཕྱི་ཆགས་ཡོད། །ཚོགས་ལ་སོང་།» ("if white and black cannot be
+  [assigned], the plank-tree has not come down, a later fault; go to the
+  gathering"). The first word of the phrase has the prefix letter and the
+  stack of «བསྔོ», as on the Gser thang reprint; the 1996 etext's «མི་བབས» for
+  «མ་བབས» is its OCR (the Zhol etext and the scan read «མ»).
+- img. 560, line 1 (pp. 423–424), the wish-tree: «དཀར་ནག་འདྲེས་ནས་བསྔོ་མ་བཏུབ། །གདོན་བསྒྲིབས་ཐང་བབས་ཏེ། …» (the Zhol etext's «བསྡོམ་བཏུབ» is its OCR; the scan has «བསྔོ་མ»).
+- img. 562, lines 2–3 (p. 425): «བུ་ཕྲད་དཀར་ནག་སྣ་ཚོགས་པ། བསྔོ་རུ་མ་བཏུབ་གྱུར་པ་ན། །མ་བབས་འདི་ལ་ཕྱི་ཆགས་ཡོད།»
+  (the son meeting of mixed colours, cannot [be assigned]: in this the
+  plank-tree has not come down, a later fault). The line after the phrase
+  reads «མ་བབས་འདི་ལ», without «ཐང་ཤིང་», on the Zhol blocks and in the 1996 etext both;
+  the claim [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md)
+  gives «ཐང་ཤིང་མ་བབས» for p. 425, which is the p. 419 line.
+
+So the Zhol print has the same spellings as the other prints in the three
+places read, «བསྔོ་རུ» on pp. 419 and 425 and «བསྔོ་མ» on pp. 423–424, and
+no print carries a gloss; the question stays answered as far as the
+sources go, and the meaning "cannot be assigned" stays an inference from
+«བསྔོ་རུ» (p. 282) as a noun of «བསྔོ». The juniper's line (p. 423, Zhol
+img. 559) was not read on the scan.
+
+### Open
+
+- Question: in the *nu ru* course's square of KP img. 78 and the Bhutan reset, which course gives each of the thirty dates its one direction (the square's east holds the 2nd, 4th, 19th and 27th)?
+- Question: is the 14th in work 14 bad (in «དྲུག་ནས་བཅུ་བཞིའི་བར») or good (the good line's «བཅུ་བཞི་དང་»), and does the 21st to 25th run or are the 21st and 25th two dates, when the 1996 editors number the bare pair «བཅུ་དྲུག་བཅུ་དགུའི་བར» as a run and «ཉེར་གཅིག་ཉེར་ལྔའི་བར» as two dates?
+
+### Searched and not found
+
+- A gloss of «བསྔོ་རུ་མ་བཏུབ» or a variant spelling of it on the Zhol print, img. 553, 560, 562 (p. 419, pp. 423–424, p. 425): none, the three lines read alike.
+- A relation of the square's directions (Bhutan reset) to the *nu ru* setting-out or arrival direction, or to the inner, *tho brgal* or hidden course of WB p. 238 (each of these names three to eight dates): none; compared date by date, 2026-11-01.
+- A bare-pair run in the 1996 etext other than work 14's two lines and the notes' «ཐིག་དང་གཅིག་ནས་ཉེར་ལྔའི་བར»: none (vol. 1 and vol. 2 etexts searched, 2026-11-01).
 
 ## The dead's totals counted again: the first examination's own line, the three parts that do not close, the 87, the 1,874, the order of the rites (RD117)
 
