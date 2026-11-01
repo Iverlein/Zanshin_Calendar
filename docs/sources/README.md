@@ -869,6 +869,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0532.md](questions/q0532.md) | question q532 | The dates of the 簠簋内伝's 八将神 table and the 拾芥抄's 金神七殺方 | open; cites — |
 | [questions/q0533.md](questions/q0533.md) | question q533 | Livestock at the 歳破 in the 暦林問答集 against the 簠簋内伝 and the kana almanacs | open; cites — |
 | [questions/q0534.md](questions/q0534.md) | question q534 | The five-day 天一 from 庚戌 in the Meiji 大雑書 | open; cites — |
+| [questions/q0535.md](questions/q0535.md) | question q535 | Does the Mentsikhang's book 6 hold the Lamp of the Magic of Deciding as its third part | open; cites — |
+| [questions/q0536.md](questions/q0536.md) | question q536 | Does the Little Red Tiger-Head's chapter 10 or 17 lay the deciding pebble | open; cites — |
+| [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | open; cites — |
+| [questions/q0538.md](questions/q0538.md) | question q538 | When were the sheets drawn | open; cites — |
 
 <!-- end pool index -->
 

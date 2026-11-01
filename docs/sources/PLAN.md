@@ -1223,3 +1223,7 @@ Searched and found wanting, so not to be repeated:
 - **RD104 dead ends** (RD104, 2026-11-01):
   - The list of 208 questions searched by string: no hit for the sky dog (q415), «འཇུག་ཕོད» (q419), «རིགས་དགུ» (q428), «དགྲ་རྡེལ» (q396) or the moment's small examinations (q423).
   - «དཔྱད་འགོག» and «སྟོངས» have no second occurrence in img. 9–108 and 467–514.
+- **RD116 dead ends** (RD116, 2026-11-01):
+  - BDRC full-text: «བཏང་གཅོད་ཀྱི་འཕྲུལ་གྱི་སྒྲོན་མེ» 0 hits; «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» 1 (WB's list); «འབྱུང་བ་རིན་པོ་ཆེ་གསལ་བའི་སྒྲོན་མེ» 1 (the record itself); «སྟོང་གཅོད་ཁ་དམར» and «སྟོང་གཅོད་རྡེའུ» 0.
+  - The Mentsikhang catalogue's snippet shows books and page spans, not the contents of book 6; the catalogue is search only (etextchunks 403).
+  - No person record gave dates for the authors of the Four Tantras commentaries; the dating of the spellings rests on the Tantras being older than both reckoners.
