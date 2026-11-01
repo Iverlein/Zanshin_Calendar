@@ -3211,3 +3211,30 @@ Sources of the day: the 1996 etext and its scans (WB vol. 1 img. 391–426), the
 - «སྐྱེད་པུར་ཁུ་དཀར» (0 hits as written); a dictionary entry for «སྐྱེད་པུར», «སྐྱེད་བུར», «མ་ཏྲི» or «ཁ་སྦྲང»: none in the 64 dictionaries (2026-11-01).
 - The wealth's place's pebbles: BDRC's full text for «ནོར་ས» with «རབ་འབྲིང་ཐ་གསུམ» finds only WB's prints, KD and a Bhutan collection's poor copy; no manual lays it out (2026-11-01).
 - A household round for any count but five: nothing new, again (the typeset notes p. 491, read whole, give only the five's laying and the quarter rule).
+
+
+## The words of ch. 22 on the Zhol print and the Taikhang reproduction: «སྐབ» or «སྒབ», «རག་མི་ལ», «དུས་ཚོད་ཚང་གི་རྩིས» (RD119)
+
+Read 2026-11-01 (RD119) for the open questions 175, 221, 178 and 181, by eye on the Gser thang reprint of vol. 1 (I3CN5028; p. 331 = img. 326, its own printed number 331 at the foot), the Zhol print (I1KG1710, WBZ; each image one folio side of six lines: p. 331 = img. 429, p. 338 = img. 439, p. 349 = img. 456) and the Taikhang reproduction (I5877, image = WBZ image + 17: p. 331 = img. 446), with Yigdzin-1 over the Zhol images 426–442 and 453–458 as the base. No MITRA run; no agy. The 1996 print's own scans (the roadmap's img. 341, 348, 359) were not at hand in this worktree: the Gser thang reprint stands in for them, and the 1996 machine reading (Yigdzin-1, img. 341) is cited only as machine.
+
+### 175 and 221: «སྐབ» or «སྒབ»
+
+- **p. 331, the luck's friend black** («རྟའི་གྲོགས་ནི་ངན་པ་ན། །རྟ་དང་བོང་བུ་[སྒབ]་མི་འཕེལ། །ཚེ་གྲོགས་ཁ་རྗེ་ཆུང་བ་ཡིན།», "when the luck's friend is bad: horse and donkey, «སྒབ», do not increase; the life's friend, a small «ཁ་རྗེ»"). On the Zhol print (img. 429, l. 2, at 9×) the stack is ས over a tall letter with an open bowl and a vertical, the form of ག, and Yigdzin-1 reads «སྒབ»; on the Taikhang (img. 446, l. 2, at 8×) the stack has the same bulk, ས over a bowl with a tail, no crossed ཀ seen, but the heavy inking leaves it a reading with doubt; on the Gser thang (img. 326, l. 4, at 7×) the stack is a solid blot, neither letter can be told. So the question's «སྐབ» is the reprint's blot read by the 1996 setting, and the blocks carry «སྒབ», as p. 330's «སྒབ་འཕེལ» (Yigdzin-1 on the 1996 print, img. 340) does: «རྟ་དང་བོང་བུ་སྒབ་མི་འཕེལ», the horse's and donkey's «སྒབ» does not increase, the opposite of p. 330's «རྟ་དང་བོང་བུ་སྒབ་འཕེལ». Narrowed to «སྒབ» (its meaning here unsaid; ch. 27's «ཤི་སྒབ» is the run of deaths), on the Zhol print with fair confidence.
+- **p. 104 (vol. 2), ll. 27–28** («ཤི་འགྲམས་སྒབ། བཅད་པར་བྱ་བའི་ཐབས་གནད་དག། … ཐོག་མར་སྤར་ཁའི་སྒབ་བཅད་ཐབས།»): the second phrase is the line of the Zhol block already read at img. 778, l. 4 ([corpus/wbz/wbz.md](corpus/wbz/wbz.md), `wbz:i778`, «སྒབ», ས over ག); that heading names p. 105, but p. 105 begins at img. 778, l. 5 (the table of the 1996 pages), so the line is p. 104, l. 28 itself. The first phrase, «ཤི་འགྲམས་སྒབ», stands at the end of img. 778, l. 3, where a red smudge lies across the syllables «ཤི་འགྲམས» and the stack cannot be read; Yigdzin-1 on the 1996 print (vol. 2 img. 112, ll. 27–28) reads «སྒབ» at both. The Taikhang line (vol. 2 img. 160 by the offset) was not found in the one crop tried. The question is narrowed: the second phrase is «སྒབ» on the Zhol block, the first is hidden there and so far «སྒབ» only by machine and by the parallel line.
+
+### 178: «རག་མི་ལ»
+
+p. 338: the Zhol block (img. 439, l. 5) carries «…གྲུབ་ཅིང་རག་མི་[ལ]། །མ་ལུས་རང་གིས་རྟོགས་པ་ཡིན།»: «རག་མི» read at 2.2×, the last syllable at the crop's edge and read by Yigdzin-1 as ལ. The line is the 1996 print's and the Gser thang's; no variant. Still not glossed; the reading from the black half's «མི་ཡི་བྲན་བྱེད་དགོས་པ་ཡིན» stands ([claims/wb-rag-mi-la-white-many.md](claims/wb-rag-mi-la-white-many.md)). The Taikhang (img. 456) was not read.
+
+### 181: «དུས་ཚོད་ཚང་གི་རྩིས»
+
+p. 349: the Zhol block (img. 456, l. 2, at 5×) opens «…ཚང་གི་རྩིས་ཀྱང་སྦྱོར། །འབྲས་བུ་རེ་གཉིས་མི་རྟོགས་པས།»; the first two syllables are faint on the block (Yigdzin-1: «དུས་ཆོད»), «ཚང་གི་རྩིས་ཀྱང་སྦྱོར» is clear. The line is WB's, as on the other prints; the line after it, "one or two results are not understood" («འབྲས་བུ་རེ་གཉིས་མི་རྟོགས་པས»), says the reckoning joined is to be taken whole, which fits the reading of [claims/wb-dus-tshod-tshang-reading.md](claims/wb-dus-tshod-tshang-reading.md): the hour and the household added. Narrowed, not answered.
+
+### Open
+
+- Question: p. 104 (vol. 2), l. 27, «ཤི་འགྲམས་སྒབ» is hidden by a red smudge on the Zhol block (WBZ img. 778, end of l. 3); does the Taikhang reproduction (I5878, about img. 160) or another impression of the Zhol blocks (I4CZ74285) carry «སྒབ» there?
+- Question: the Gser thang reprint's stack in p. 331's «བོང་བུ་?བ་མི་འཕེལ» (img. 326, l. 4) is a solid blot; does the Taikhang's (img. 446, l. 2) carry ས over ག with a bowl, as the Zhol block does?
+
+### Searched and not found
+
+- The Taikhang's lines of pp. 338 and 349 (I5877 img. 456 and 473 by the offset): fetched (img. 442–475), not read, no slot taken for them.
