@@ -37,6 +37,14 @@ The answer: what comes from the *General Tantra* and the like is a pure tantra; 
 
 The reading is by the scan (a running hand): lines 1–4 of img. 17 were read in quarters at native size against Yigdzin-1 and agree with it in every clause quoted; Yigdzin-1 prints «སྦར་ཁ» for «སྤར་ཁ» in the *Vaiḍūrya* line, and the scan's first letter there is not told from either at this size; the opening, «བརྒྱ་ང་བདུན་པ» at the foot of img. 16, was not read on the scan (Yigdzin-1 gives «བརྒྱ་ད་»), and the reply's first clause about the *General Tantra*, «ཁོ་ན་སོགས», is taken as Yigdzin-1 has it.
 
+## <a id="ys-2-i026"></a>ys.2:i026 Reply 170: Lto-'phye's shrouding wood, and the Rahu on the elephant's head
+
+*Read: machine, 2026-11-01.*
+
+> …བརྒྱ་བདུན་ཅུ་པ་གཅེར་བུ་གབ་རྒྱུད་ལས་བཤད་པའི་ལྟོ་འཕྱེའི་སྒྲིབ་ཤིང་སྐབས་སྒྲིབ་ན་གླང་ཆེན་མགོ་ལ་སྒྲ་གཅན་བྲི་བར་བཤད་པ་འདི། ས་བདག་ལྟོ་འཕྱེ་ལ་སྒྲ་གཅན་བྲི་དགོས་པའི་རྒྱུ་མཚན་དོགས་ལན་ནི། འདི་ཁྱབ་འཇུག་རཱ་ཧུར་སྒྲ་གཅན་དུ་འབོད་པའི་སྒྲ་གཅན་དེ་མ་ཡིན་ཞིང་། དེ་ལ་གནམ་གྱི་སྒྲ་གཅན་དང་། ལྟོ་འཕྱེར་སའི་སྒྲ་གཅན་དུ་གྲགས་པས་ན་འདིའི་སྐབས་ཀྱི་སྒྲ་གཅན་གྱི་གཟུགས་དེ་ལྟོ་འཕྱེ་བྲི་བའི་ཕྱིར་ན་ཁྱབ་འཇུག་སྒྲ་གཅན་ལ་ཚོམ་པ་མི་འཚལ་ལོ།།
+
+From reply 170 (vol. 2, I5876 img. 25, last lines, to img. 26; Yigdzin-1 only, read on the scan by eye for layout, not line by line). The question: the *Naked One's Hidden Tantra* (གཅེར་བུ་གབ་རྒྱུད, gcer bu gab rgyud, the title as the reply gives it) tells of the shrouding wood (སྒྲིབ་ཤིང, sgrib shing) of Lto-'phye (ལྟོ་འཕྱེ): when it shrouds, a Rahu (སྒྲ་གཅན, sgra gcan) is drawn on the elephant's head; why must a Rahu be drawn for the earth lord Lto-'phye? The answer: this is not the Rahu called Vishnu's Rahu (ཁྱབ་འཇུག་རཱ་ཧུ); there is a Rahu of the sky, and for Lto-'phye one known as the earth's Rahu; the Rahu's form in this place is drawn to draw Lto-'phye, so no objection to Vishnu's Rahu is held.
+
 ## <a id="ys-i087"></a>ys:i087 Question 94: the boast «རྦད་ཁམས་སྒྲོག» of those who call a way Phugpa's
 
 *Read: machine, 2026-11-01.*
