@@ -7310,3 +7310,8 @@ Nothing read yet: RD101's passages, with the English beside them, go here.
 ## The lent scans: KD vol. 3 and the Sakya volume on the eclipse clause, the sheets, the supplement; KD's title page and the Tibet University interview (RD108)
 
 Nothing read yet: RD108's passages, with the English beside them, go here.
+
+
+## WB ch. 25's open questions: the illness classes, the fifth pebble's trigram, the shares, the ransoms (RD111)
+
+Nothing read yet: RD111's passages, with the English beside them, go here.
