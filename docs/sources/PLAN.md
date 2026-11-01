@@ -1195,3 +1195,11 @@ Searched and found wanting, so not to be repeated:
   - BDRC full-text: «ཡོལ་བས་སྒྲིབ» (82 hits, mandala curtain), «སྣང་སེལ་དུར» (2), «ཉི་དུས་ནག་པོ» (3, WB's etexts), «ཧལ་ཁྱི་ནག་པོ» (68, not read through): no gloss of the mothers and sons, the light-clearer's grave or Wangkhyi's day-time.
   - The Bon students' textbook (I4PD3282): none of ch. 31's lines for «ཡོ་ནས», «སྦྲང་མ», «ཕུད་གཏོར», «ཉི་མའི་ཀླུང», «ཉི་དུས», «སྣང་སེལ»; the rat cell has no remedy there.
   - Q441 (why a tent): no source; RD65's dead end stands.
+- **RD101 dead ends** (RD101, 2026-11-01):
+  - «བེ་ལུག» in Steinert's dictionaries (be lug, bu lug, be'u lug): none; BDRC «གྲོགས་ཀྱིས་བེ་ལུག»: the 1996 print and the Gser thang reprint only.
+  - «རག་མི་ལ» in the notes and the etexts of WB, UT, the Bhutan collection, G.ya' sel: none beside WB's line; BDRC 20 hits, none bearing.
+  - «ཀླུང་གི་དུར» outside WB p. 335: none.
+  - A rule for which verdict stands when the birth and the year of age disagree: none in WB, the notes, G.ya' sel, UT, the Bhutan collection.
+  - The forty of the birth wind (p. 342) in any other manual read: none.
+  - A name for a couple of mixed kinds: none in UT, the Bhutan manual (I1KG11905 pp. 217–218), G.ya' sel reply 113, the notes.
+  - BDRC «ལས་རྩིས་བྱས་པས་གཉིས་ཀ་ངན་པ» and «དུས་ཚོད་ཚང་གི་རྩིས»: WB's prints and copies only.

@@ -840,6 +840,12 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
 | [questions/q0516.md](questions/q0516.md) | question q516 | The la-knower's animals in the second table of p. 133: tiger, pig, monkey, snake | open; cites wb.2:p224d |
 | [questions/q0517.md](questions/q0517.md) | question q517 | The hal khyi's five mothers and five sons as the five elements' pairs | open; cites wb.2:p224d |
+| [questions/q0518.md](questions/q0518.md) | question q518 | The body's friend «བེ་ལུག» or «བུ་ལུག» on the Zhol block | open; cites wb.1:p334 |
+| [questions/q0519.md](questions/q0519.md) | question q519 | «ཀླུང་གི་དུར་ཕུགས» or «ཀླུང་གི་དུར་ལུགས» on p. 335 | open; cites wb.1:p334 |
+| [questions/q0520.md](questions/q0520.md) | question q520 | Item 15 of the forty of the birth wind: «ང་བཞི» (54) for fifty | open; cites wb.1:p342 |
+| [questions/q0521.md](questions/q0521.md) | question q521 | Does a bad but not utterly bad life reckoning bar the match (reply 111) | open; cites wb.1:p351b |
+| [questions/q0522.md](questions/q0522.md) | question q522 | «སྲོག་མ་མ་གུད་པ» and the «ངན་དྲུག» of the notes p. 484 | open; cites wb.1:p351b |
+| [questions/q0523.md](questions/q0523.md) | question q523 | «སྐར་འབྲས» on p. 351: the planets' and mansions' results or the match's | open; cites wb.1:p351b |
 
 <!-- end pool index -->
 
