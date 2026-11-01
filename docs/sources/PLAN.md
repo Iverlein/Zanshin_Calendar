@@ -1152,3 +1152,6 @@ Searched and found wanting, so not to be repeated:
   - A gloss of «ཇི་ནོང»: the 1996 etext has the word only at p. 3, l. 4.
   - A worked example of the notes' «སྨེ་ཕྲེང་མཐུན་པ» for the circles: the etext's four places (notes pp. 488, 495, 500, 504) speak of the thirty, the dead's reckoning or the sixteenth row, none of the circles.
   - «གྲོས་ལེགས» in either etext: none; «གོས་ལེགས་ཚོང་ལེགས» only at p. 24, l. 16.
+- **RD95 dead ends** (RD95, 2026-11-01):
+  - No headword in Steinert's 64 dictionaries for «ཁྲ་བོ་བློ་ཐུབ» as a pair, «བསེ་རགས», «བྱེ་ཐག», «ཏིང་མཉྫི», «སླ་ང་རྩེས», «སྟེང་འཁོར», «ཟོ་བ་ཞབས་བརྡོལ», «སིག་ལྐོགས», «སྐྱར་མ», «སེལ་གོག», «བང་ས་དུ་རུ་ཅན», «ཕན་ངོན», «ཐལ་ཤལ», «གསང་ཤིད་ཟུ», «ཕྱི་གུ»; «རགས» is a bare syllable with no headword.
+
