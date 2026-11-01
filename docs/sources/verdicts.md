@@ -7495,3 +7495,7 @@ used.
 - The machine's etexts (`~/ai/tibetan-ocr`): «པྲཛྙཱ་མ་ཎི» in the spellings
   པྲཛྙཱ་མ་ཎི, པྲཛྙཱ་མ་ནི, པྲཛྙ་མ་ཎི: nowhere.
 
+
+## WB ch. 20–21's open questions: the older system's 440, the circuits WB rejects, the luck's mewa, the la; the *Deathless Elixir*'s half stages (RD115)
+
+Nothing read yet: RD115's passages, with the English beside them, go here.
