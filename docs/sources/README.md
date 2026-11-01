@@ -342,6 +342,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
 | [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
+| [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md) | claim, note | The Seven Special Qualities' Mercury and Venus line, read on KD vol. 2's scan: one mansion, the true sun, a smaller part | cites kd.2:p441; feeds block-58 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |
@@ -561,6 +562,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
+| [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md) | corpus | KD vol. 2: the *Seven Special Qualities*' solar eclipse, the Mercury and Venus line | 1 passages: 1 machine |
 | [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) | corpus | KD vol. 3, Kun dga' rig 'dzin's *Sheets of Some Needed Examples*: the birth's pebbles | 9 passages: 7 scan, 1 machine, 1 etext |
 | [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) | corpus | KD vol. 3, Kun bzang blo gros's supplement to the Moonbeams: the bride sent by ten ways, the illness reckoning's identification | 12 passages: 2 scan, 1 machine, 9 etext |
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |

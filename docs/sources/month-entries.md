@@ -482,6 +482,7 @@ and what the 135 adds, stay open.
 - Open question 116 ([open-questions.md](open-questions.md)).
 - Open question 117 ([open-questions.md](open-questions.md)).
 - Open question 118 ([open-questions.md](open-questions.md)).
+- *Read on the lent scan 2026-11-01 (RD108)*: KD vol. 2, p. 441 holds the clause as one condition (the true sun and either planet in one mansion) with a smaller part seized, no 135 and no place of the planet; the Sakya print is stream-only and not read. [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md), [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md).
 #### Searched and not found
 
 - BDRC full-text search, 2026-10-12: «ཆུ་ཚོད་འབྱུང་མེ་ཟླ་ཚུན», «ལྷན་ཅིག་གནས་ཚེ་བཟུང», «ལྷག་པ་པ་སངས་གཉིས»

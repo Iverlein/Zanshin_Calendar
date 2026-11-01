@@ -7327,7 +7327,27 @@ Read 2026-11-01 (RD101), the same pages and prints as in [year-of-life.md](year-
 
 ## The lent scans: KD vol. 3 and the Sakya volume on the eclipse clause, the sheets, the supplement; KD's title page and the Tibet University interview (RD108)
 
-Nothing read yet: RD108's passages, with the English beside them, go here.
+Read 2026-11-01 on archive.org's lent scans (KD vol. 2, 3 and 5; KD's file bdrc-W28845, leaf = printed page + 19 in vols. 2 and 3), the reader's screenshots at 1002 px, cells enlarged 2 to 3 times, Yigdzin-1 over the verse pages. The passages are in the corpus files, the facts in claims:
+
+- **Questions 116–118** (the *Seven Special Qualities*' restatement of WB p. 64): [corpus/kd/v2-seven-qualities.md](corpus/kd/v2-seven-qualities.md), kd.2:p441; [claims/seven-qualities-mercury-venus-line.md](claims/seven-qualities-mercury-venus-line.md). Narrowed: one condition (one mansion), the true sun, a smaller part; no place of the planet, no gloss of «བཟུང་མི་སྲིད»; the Sakya print is stream-only and was not read.
+- **Question 243** (the verdict laid with a count, KD vol. 3, pp. 723–724): [claims/kd3-verdict-count-sum.md](claims/kd3-verdict-count-sum.md), [corpus/kd/v3-sheets.md](corpus/kd/v3-sheets.md) kd.3:p724. Answered as far as the sheets go: the verdict's count is the white-minus-black pebble sum of the five cells, in bands; 39 of 40 columns fit.
+- **Question 244** (the *Spor thang*): [claims/spor-thang-name.md](claims/spor-thang-name.md). The name of the Chinese reckoning's tradition that WB's notes and the charts both name, not one text; no other work found behind it.
+- **Question 398** (the seven members' round, p. 726): [claims/kd3-p726-leftovers-named.md](claims/kd3-p726-leftovers-named.md), kd.3:p726c. Answered: quarter-runs of eight, the leftovers 17, 18, 19 named fold, refold and secret refold; the colour words and the members' numbers not settled.
+- **Question 415** (the supplement's sky dog): [corpus/kd/v3-supplement.md](corpus/kd/v3-supplement.md) kd.3:p642 (machine reading). Answered: the sky dog is told once under each of the ways (seven dogs), so it runs across the ten and is not ranked above them; of weight for a bride by its mewa-seven line.
+- **Question 249** (KD's Chinese title): [claims/kd-chinese-title.md](claims/kd-chinese-title.md), [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md). Answered: 藏传历算学大全 (Zang chuan li suan xue da quan), by a compilers' group, no person named; no 西藏天文历算总汇.
+- **Question 250** (the Tibet University interview): not reached; see *Searched and not found*.
+
+### Open
+
+- Question: which colour words stand in the cells of the seven members' round (p. 726) and at 19, and what do the members' signs and two-digit numbers read at the print's own size? (the lent scan at 1002 px is too small)
+- Question: why does the second column of the first group on KD vol. 3, p. 724 carry one black pebble where the same sum on p. 723 carries two (kd.3:p724)? A printer's slip, or bands that overlap?
+- Question: is the Chinese title of KD the one Kun dga' rig 'dzin's national-register entry (《西藏天文历算总汇》) means, or another compilation under that name?
+
+### Searched and not found
+
+- 2026-11-01, archive.org: the Sakya volume with the *Seven Special Qualities* (BDRC W29978, `bdrc-W29978`, files `bdrc-W29978` and `-1`, etext volume I5721): the item is in the collection `stream_only`; the loan call answers HTTP 400 and the reader gives no page image (leaf 200 tried). Not lent, cannot be read; the etext stands.
+- 2026-11-01, archive.org `bdrc-W1KG25692` (the Tibet University journal's selected articles, 715 leaves): the item is one volume (printed pp. 1 to 567 by its three contents leaves, 5 to 7); none of its entries is the interview with Kun dga' rig 'dzin, and the BDRC record counts 3,740 pages in all. The interview is in a volume that archive.org does not carry. Contents entries and page numbers read from the print; the interview's page is not in this volume.
+- 2026-11-01, KD vol. 3 (`bdrc-W28845-2`) front and last leaves (1–7, 768–773): the title leaf is the work's calligraphy and a signature; the Tibetan colophon (leaf 770) gives the publisher's data and no writer; the Chinese title is in vol. 5's colophon only.
 
 
 ## WB ch. 25's open questions: the illness classes, the fifth pebble's trigram, the shares, the ransoms (RD111)
