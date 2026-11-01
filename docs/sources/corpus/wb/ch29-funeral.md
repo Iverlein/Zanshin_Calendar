@@ -51,6 +51,14 @@ The fifth examination, where the dead is reborn among the six kinds of beings. R
 
 **By the manner of dying.** Face down, head to the south-west, warmth gathered at the soles, dying hard and wailing: it goes to a lower realm whatever is done. Examined by the manner of death for this birth: head to the south, the lord caste; to the east, the royal caste; to the west, the commoners; to the north, brahmins; to an intermediate direction, outcastes. By the body's posture: cross-legged with the hands in meditation, endowed with realisation: a protector who guides beings; half cross-legged, pressing the earth: one who has gained the paths and stages; squatting in the gesture of giving: no fear of the lower realms; taking an auspicious *[mu?] chung*, mouth closed and eyes shut: good. Lying with the limbs on the right side below, the right hand raising the right cheek, the legs stretched, the left hand laid on the hip: the lion's lying posture, best; lying across, middling; on the back, last; legs stretched best, drawn up middling, crossed last. All this is set apart by good and bad roots of virtue: where the virtue is very dear and good it brings good results despite unlike signs, where weak bad results; let all strive for virtue.
 
+## <a id="wb-2-p71a"></a>wb.2:p71a The dog day's former life and the auspicious song at death
+
+*Read: scan, 2026-11-01.*
+
+> ཁྱི་ཡི་ཉི་མར་ཤི་བ་ན། །ཚེ་སྔོན་ཁྱི་གུ་ཞིག་ཏུ་སྐྱེས། །ཕྱི་མ་ནུབ་ཕྱོགས་བུ་སྤུན་ནི། །གསུམ་གྱི་བར་པ་ཞིག་ཏུ་སྐྱེ། །བཀྲ་ཤིས་གླུ་ཆུང་ལེན་པ་དང་། །ཁ་བཙུམས་མིག་ཟིམ་འདུག་ན་བཟང་།
+
+The dog day's lines and the song (WB vol. 2, p. 71, l. 16 and l. 26; Gser thang reprint I3CN5029 img. 077, cut and enlarged 3× to 6×; the Gser thang etext and the 1996 etext, p. 79, agree where they have the lines). Died on a dog day: in the former life born a «ཁྱི་གུ» (khyi gu, a puppy); in the next, in the west, the middle one of three brothers. The bird day's line above it has «ངང་པ» (a goose) before and the same next-life line, carved identically. And "taking an auspicious little song" («བཀྲ་ཤིས་གླུ་ཆུང», the syllable before «ཆུང» a stack ག over ལ with u: «གླུ»), mouth shut, eyes closed, sitting: good.
+
 ## <a id="wb-2-p72"></a>wb.2:p72 The sixth examination: help by virtue
 
 *Read: scan, 2026-10-23.*

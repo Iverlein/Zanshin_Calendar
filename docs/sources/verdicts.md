@@ -7208,6 +7208,39 @@ Not reached: 212, 265, 268–272, 274–276, 279–283, 285, 429 (no new evidenc
 
 - «ཁྲ་བོ་བློ་ཐུབ» as a pair, «བསེ་རགས», «རགས», «བྱེ་ཐག», «ཏིང་མཉྫི», «སླ་ང་རྩེས», «སྟེང་འཁོར», «ཟོ་བ་ཞབས་བརྡོལ», «སིག་ལྐོགས», «སྐྱར་མ», «སེལ་གོག», «བང་ས་དུ་རུ་ཅན», «ཕན་ངོན», «ཐལ་ཤལ», «གསང་ཤིད་ཟུ», «ཕྱི་གུ»: no headword in Steinert's 64 dictionaries (2026-11-01).
 
+### The second part (RD95, 2026-11-01)
+
+Read by eye on the Gser thang reprint (I3CN5029 img. 054, 056, 060, 077; lines cut with `scans.py line` at 0.75× to 6×), beside the 1996 etext and the Gser thang etext of BDRC (`locate.py find`), Steinert's dictionaries (`locate.py dict`, the clone of RD97b) and BDRC's full-text search (`bdrc_search.py`, 18 phrases in three runs). No model, no agy turn. Passages [wb.2:p48](corpus/wb/ch29-demons.md#wb-2-p48), [wb.2:p50a](corpus/wb/ch29-demons.md#wb-2-p50a), [wb.2:p71a](corpus/wb/ch29-funeral.md#wb-2-p71a).
+
+- **Q212 (white verdict, small rites?).** Narrowed: p. 50's last lines read "many white, white; many black, black; if even, the white-black pair; how the order of the rites, large, small, middling, goes, this verdict-reckoning tells as needed". The three sizes are a list, not a pairing with the colours; the pairing white small, black great, mixed middling is the LTWA manuscript's (RD29), not the verse's ([wb-p50-order-of-rites-is-a-list](claims/wb-p50-order-of-rites-is-a-list.md)).
+- **Q268 (which white, which red).** Narrowed: the red of p. 52 is the seven red (the vessel's «བདུན་དམར» has the blade and the rock-and-water of it), the white is the three whites with no number anywhere ([wb-household-mewa-white-red-by-the-vessel](claims/wb-household-mewa-white-red-by-the-vessel.md)).
+- **Q269 (the four executioners' door).** Narrowed, by inference: the sentence has the great cut-off place's consequence and position ([wb-four-executioners-door-follows-the-great-cut-off](claims/wb-four-executioners-door-follows-the-great-cut-off.md)).
+- **Q271 («དགྲ་དར»).** Narrowed: «དགྲ་དར» is WB's term for the enemy rising (p. 58, the strike lists), so it is not shown a misprint ([wb-dgra-dar-is-the-enemy-rising](claims/wb-dgra-dar-is-the-enemy-rising.md)).
+- **Q274 (the stack «བརྗེ»).** Answered as far as the print allows: the stack stays a blot at 6×, but the same phrase «བརྗེའི་རོ» under yellow stands at two more places, the dictionaries key «བརྗེ» only ([wb-brje-i-ro-is-one-phrase-three-places](claims/wb-brje-i-ro-is-one-phrase-three-places.md)). The other stacks of the question (p. 53 «དྭའུ», «ཁྱོ», «ན»; p. 55 «རྒན», «ཡོ», «སྦོས», «སྡེར»; p. 500 «ལོ་ཏ») were not read again.
+- **Q275 («སེར་གསུམ»).** Narrowed: one of four class labels, as Mipham's note on p. 507 counts them ([wb-ser-gsum-is-one-class-label](claims/wb-ser-gsum-is-one-class-label.md)).
+- **Q276 (the thirteen not offered food).** Narrowed: the thirteen ways of funeral are five pairs and three bars; the thirteen who may not be offered food stay unnamed, no other text found ([wb-thirteen-ways-of-funeral-are-ten-and-three](claims/wb-thirteen-ways-of-funeral-are-ten-and-three.md)).
+- **Q279 (the dog day).** Answered: «ཁྱི་གུ», a puppy, and the next-life line is carved the same on the bird and the dog day ([wb-khyi-gu-dog-day-and-glu-chung](claims/wb-khyi-gu-dog-day-and-glu-chung.md)).
+- **Q280 (the auspicious thing).** Answered: «གླུ་ཆུང», a little song, by the stack on the scan and six witnesses (same claim).
+- **Q281 (the thirteen blades).** Dead end: no other list in BDRC's search ([wb-blade-kinds-no-other-list-found](claims/wb-blade-kinds-no-other-list-found.md)).
+- **Q285 (the day's months).** Narrowed: they agree with the hour entries where both are given, they are not the clash months of p. 58, no rule found ([wb-day-months-agree-with-hour-months](claims/wb-day-months-agree-with-hour-months.md)).
+- **Q65 (the sums).** The tenth's 304 results close (11 + 136 + 153 + 4); its 1,952 identifying are 126 short on the etext's figures, five of which were read on the scan; the fourteenth's sums were not redone ([wb-tenth-results-close-identifying-open](claims/wb-tenth-results-close-identifying-open.md)).
+- **Q265, Q270, Q272, Q282, Q283, Q429.** No new evidence: BDRC's search finds the phrases of 265, 283 and 429 in WB's etexts only, and for 282 only one search-only manual repeating WB's entry ([wb-bdrc-search-ch29-phrases-2026-11-01](claims/wb-bdrc-search-ch29-phrases-2026-11-01.md)); 270 and 272 were not looked at again.
+
+Not done: the stacks of p. 53, 55 and 500 of question 274 on the Zhol print or the Taikhang (the Zhol print is leaf-wise, the page's leaf not found in the time), the preliminary's 39 and 17, «འཚོལ་བ» against «འཆོལ་བ» on the Zhol print, the by-eye pass of the tenth's and fourteenth's figures beyond five lines.
+
+#### Open
+
+- Question: Are the stacks of p. 54, l. 27–28 «བརྗེ» (the phrase «བརྗེའི་རོ» of p. 103 and 201), and what is "the corpse of the exchange" left abroad under yellow?
+- Question: Which of the nine mewas does each class label of p. 70's verse take, the two reds and the black, blue and green, and why does the label say «གསུམ» after the red-two class?
+- Question: Is the four executioners' door of p. 53 the great cut-off place's, as the consequence suggests?
+
+#### Searched and not found
+
+- «བུ་ནས་གཟུགས་དང་མར་བཅོས», «ཤི་ལོའི་སྤར་སྨེ», «ཟན་བརྣངས་ལར་ན», «ཟན་གཏད་མི་རུང་བཅུ་གསུམ», «གཤེད་བཞིའི་རྡེལ་སྒོ», «ཐོག་གྲི་རྐུན་པོ», «ལྟོང་དམར་ཆུ་གྲི», «གྲི་རིགས་བཅུ་གསུམ», «སྤྲེ་ཤལ་བཟེད་རབས་ཆད»: no text but WB's in BDRC's full-text search (2026-11-01).
+- «ཚེ་སྔོན་ཕྱི་གུ», «གཅོད་གྲི་བཅུ་གསུམ»: no hit.
+- «བརྡེ» as a headword: none in Steinert's 64 dictionaries; «བརྗེ» only (2026-11-01).
+
+
 
 ## The dead's open questions, pp. 97–143: the doors and the bearer, the thirteenth examination's rites, the grave provisions (RD97)
 

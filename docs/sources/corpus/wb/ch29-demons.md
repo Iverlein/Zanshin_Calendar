@@ -17,6 +17,14 @@ Read by RD31 (2026-10-23): WB vol. 2, pp. 58–68, on the Gser thang reprint; th
 
 The close of the fourth examination, the funeral share (WB vol. 2, p. 47, last lines; Gser thang reprint I3CN5029 img. 053, read by eye): with the verdict, eleven pebbles; "rolled together", 87 pebbles; that is the point to fit to the living's circumstances. Quoted from the number eleven on; the words before it (with the verdict, «ཁ་དམར་དང་བཅས») are as the 1996 etext and the Taikhang reading have them, the line's start not enlarged.
 
+## <a id="wb-2-p48"></a>wb.2:p48 The tenth examination's count lines: 19, 43, 9, 3 and 1,200
+
+*Read: scan, 2026-11-01.*
+
+> ངོས་འཛིན་རྡེའུ་བཅུ་དགུ་དང་། །ངོས་འཛིན་རྡེའུ་ཞེ་གསུམ་པོར། །ངོས་འཛིན་རྡེའུ་དགུ་འབྱུང་ངོ། །ངོས་འཛིན་རྡེའུ་རྣམ་པ་གསུམ། །ངོས་རྡེལ་སྟོང་དང་ཉིས་བརྒྱ་པོར།
+
+Five count lines of the tenth examination (WB vol. 2, p. 48, ll. 25-28, Gser thang reprint I3CN5029 img. 054, read by eye at 0.75×): the identifying pebbles "nineteen", "forty-three", "nine", "three kinds", and, after the burial-entry strikes, "the identifying pebbles, a thousand and two hundred". The reprint's figures are the 1996 etext's.
+
 ## <a id="wb-2-p50"></a>wb.2:p50 The twelfth examination's sizes: 3,186 and the planets-and-mansions round's 1,874
 
 *Read: scan, 2026-11-01.*
@@ -24,6 +32,14 @@ The close of the fourth examination, the funeral share (WB vol. 2, p. 47, last l
 > ས་དཔྱད་བཅུ་གཉིས་རོའི་བཏང་ཕྱོགས། །རྡེལ་གྲངས་སུམ་སྟོང་བརྒྱ་གྱ་དྲུག །འབྲས་རྡེལ་བརྒྱ་དང་ང་གཅིག་དང་། །ངོས་འཛིན་སུམ་སྟོང་སོ་ལྔ་སྟེ། །གནམ་གྱི་བྱ་ལམ་གཟའ་སྐར་རྡེལ། །བཟང་ངན་ལྟོས་པའི་རྡེལ་གྲངས་དང་། །ཚེས་དང་དབྱངས་གསལ་མཆེ་གདོང་སོགས། །འཁོར་འབྲས་ཚེས་རྒྱུའི་རྡེའུ་ནི། །དོན་བརྒྱད་ངོས་འཛིན་སྟོང་བརྒྱུད་བརྒྱ། །བདུན་བཞི་བོར་བར་བྱ་བའོ།
 
 The twelfth examination, the direction the corpse is sent (WB vol. 2, p. 50, first lines; Gser thang reprint I3CN5029 img. 056, the same lines on the 1996 etext, img. 58). The pebbles: 3,186, of them 151 result pebbles and 3,035 identifying. The sky's bird path, the planets' and mansions' pebbles with their good and bad, the dates, vowels and consonants, fangs and faces, the wheel's results and the dates' course: 78 result and 1,874 identifying pebbles (the print spells eight «བརྒྱུད» here, as on p. 47). Only these opening lines are quoted; the rest of p. 50 stays with the topic file reckonings.md.
+
+## <a id="wb-2-p50a"></a>wb.2:p50a The fourteenth examination's close: many white, many black, even, and the order of the rites
+
+*Read: scan, 2026-11-01.*
+
+> དཀར་མང་དཀར་ཡིན་ནག་མང་ནག་ཡིན། །སྙོམས་ན་དཀར་ནག་ཟུང། །གཏོ་རིམ་ཆེ་ཆུང་འབྲིང་ཇི་ལྟར། །དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད།
+
+The close of the fourteenth examination's list (WB vol. 2, p. 50, l. 26-28; Gser thang reprint I3CN5029 img. 056, lines cut and read at 0.75× and 2.2×; the 1996 etext breaks off at «དཀར་མང་དཀ»). Many white, white; many black, black; if even, the white-black pair. How the order of the rites, large, small, middling, goes, this verdict-reckoning (ཁ་སྨྲང, kha smrang) tells as it is needed. The middle of l. 27 («ནག་མང་ནག་ཡིན») was read at 2.2× only in part; the rest of the two lines is clear.
 
 ## <a id="wb-2-p58-60"></a>wb.2:p58-60 The third examination by the dead's year animal
 
