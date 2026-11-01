@@ -105,3 +105,12 @@ All of it must be known: for any work of the living or the dead, done by the rec
 - Question 352 ([q0352](../../questions/q0352.md)): On p. 538, is the gold reckoning's grid «རྒྱ་ཁང» (Yigdzin-1) or «གྱོ་ཁང» (the etext, question 125)? The Gser thang reprint is not clear.
 - Question 353 ([q0353](../../questions/q0353.md)): In the hand reckoning (pp. 538–539), what are the watch (ཐུན, thun) and the *kung* (the scan «ཐུན་ཀུང», Yigdzin-1 «ཐུན་ཀླུང») counted after the year, and what do the results *mung*, *krung* and *kyis* mean?
 
+
+## The notes' doubtful stacks on Mipham's own print, and the notes' last pages (RD105)
+
+Nothing read yet: RD105's passages, with the English beside them, go here.
+
+
+## WB ch. 30's open questions: the moment's dawn and direction, the thirteen gates, the asker's small examinations (RD110)
+
+Nothing read yet: RD110's passages, with the English beside them, go here.
