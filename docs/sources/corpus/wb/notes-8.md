@@ -11,6 +11,22 @@ Read by RD40 (2026-10-23): pp. 538–541, the close of the notes, the postscript
 
 Read by RD38 (2026-10-23): pp. 535–538, the opening of section eight, the reckoning of the moment, the omens and the small reckonings, on the Gser thang reprint (I3CN5029 img. 541–544) against Yigdzin-1 and MITRA; these pages gloss ch. 30 and ch. 28, not ch. 27.
 
+## <a id="wb-2-p144e"></a>wb.2:p144e p. 144, l. 24 read by eye: «རྨི་ལྟས»
+
+*Read: scan.*
+
+> སླར་ཡང་རྨི་ལྟས་དག་ལ་འབད། (wb.2:p144, l. 24, I3CN5029 img. 150)
+
+"Again strive at the dream signs" (བརྩི་བྱ, the asker's dreams): the last line of p. 144, read at 6x; the stack is a tall ra-over-ma-subjoined letter with the vowel i, the same as l. 11's «རྨི་ལྟས».
+
+## <a id="wb-2-p165e"></a>wb.2:p165e p. 165, l. 13 read by eye: «མཚོལ»
+
+*Read: scan.*
+
+> མཚོལ་དང་ཡུགས་ཀྱིས་ཕོག་མ་ཕོག (wb.2:p165, l. 13, Gser thang reprint I3CN5029 img. 171)
+
+"Whether the defilement (མནོལ, mnol; the scan's letter is «མཚོ» + ལ) and the curse (ཡུགས, yugs) struck or not" (p. 165, the mother's and the mother's sister's place): the first letter after the prefix is a ཚ with the vowel o, not a ན.
+
 ## <a id="wb-2-p535-537"></a>wb.2:p535-537 Section eight opens: the reckoning of the moment
 
 *Read: scan, 2026-10-23.*
@@ -113,4 +129,34 @@ Nothing read yet: RD105's passages, with the English beside them, go here.
 
 ## WB ch. 30's open questions: the moment's dawn and direction, the thirteen gates, the asker's small examinations (RD110)
 
-Nothing read yet: RD110's passages, with the English beside them, go here.
+Read 2026-11-01 (RD110) in the dictionaries (Steinert's 64, `locate.py dict`), the etexts of WB (Sakya print vol. 1, the Gser thang etext), UT and LT, and by eye at 5–6× on the Gser thang reprint for two spellings (passages wb.2:p165e, wb.2:p144e above). The reader had about forty minutes: the questions below are narrowed where the sources allow and left otherwise; the pages' whole text was not re-read.
+
+**Q341 («མཚོལ», p. 165).** The reprint's letter after the prefix མ is a ཚ with the vowel o, not ན (l. 13 at 5×). The dictionaries have «mnol» (defilement; Tshig mdzod chen mo, Dag tshig gsar bsgrigs, Brda dkrol gser gyi me long) and no headword «mtshol». So the scan's «མཚོལ» is read as the print's spelling of «མནོལ», defilement, beside the curse (ཡུགས, yugs); no other sense found. Narrowed, not closed: a second print was not read.
+
+**Q348 («རྨི་ལྟས», p. 144 l. 24).** At 6× the stack is the tall ra-over-ma letter of l. 11's «རྨི་ལྟས»; the lines before it end with the dreams («རྨི་ལྟས་དག་ལ་འབད»: strive again at the dreams, after the cleansing), so the heading's dreams are the theme. Settled as «རྨི་ལྟས»; «ཕྱི་ལྟས» has no headword in the dictionaries either.
+
+**Q346 (the earth hour's hair).** «བནྡེ» (ban de, a monk): the dictionaries have «ban de» (monk) and «ban+de»; none has «བཛེ». The marks' line «ཡང་ནི་ཤ་མཚན་ཤའི་ལྔ་ཅན། །དྲུག་གུ་མི་ལ་རྨེན་པའམ།» reads the same on Yigdzin-1 and the reprint's etext; it stays unexplained: the wood and fire entries are not in the line, which holds the earth (a mole, སྐུར་པོ), iron and water.
+
+**Q347 («ཀླུམ་མནན» or «གྲུམ་མནན»).** The Sakya etext (p. 177) reads «གྲུམ་མནན» and the Zhol etext «ཀླུམ་མནན»; neither is a headword in Steinert's dictionaries. Not settled; the line's end «ཐག་ཏུ་ལངས་པ་ཡོད» ("stands up at once") is the same in both, so the word is a pressing of the four named (breath-taking, womb, body, bath); what is pressed is not told.
+
+**Q350 («དོ་གཅིག»).** The Sakya etext of vol. 1 (the chapter on illness, pp. 248–254 of its numbering) holds a parallel spirit's speech «དོ་གཅིག་གི་ལོར་ཁྱོད་ལ་དྲོ» ("in the year of «དོ་གཅིག» my share falls on you"), and the same line with «ནིང་དོ་གཅིག» («ནིང་» the last year) in a loss-by-theft passage; so the word is used of a year in the spirits' speeches of the Sakya print as well; no gloss, and it is not in the dictionaries: not settled (the Sakya etext is noisy at these lines).
+
+**Q345 («ཡམས་སྐུད», the right shoulder).** In the Sakya etext (vol. 1, pp. 431–433, the births by the animal) and in UT (etext p. 250) «ཡམས་སྐུད» is a person on whom the harm falls beside the wife (ཆུང་མ), the uncle (ཁུ) and the daughter or child: «ཆུང་མ་ཡམས་སྐུད», «ཁུ་ཡམས་སྐུད», «བུ་མོ་མི་འོང་ཡམས་སྐུད་དམ». No headword in the dictionaries. It is a kinsman's class, not a place of the body; the right shoulder's occupant stays unnamed in the line.
+
+**Q422 («རྒྱ་མའི་ཐག་པ», «ལྷས་ངན»).** «རྒྱ་མ» is a steelyard (Rangjung Yeshe, Valby, Ives–Waldo; also the scales), so the «steelyard's rope» is a literal rope of the balance. UT (etext p. 224) uses it as a rite's condition: «རྒྱ་མའི་ཐག་པ་མ་ཆད་དགོས། ཆད་པ་ན།»: the steelyard's rope must not be cut; if cut, a rite of mending is given, together with «གནམ་གྱི་འཇུ་ཐག» (the sky's rope) in the same list; WB's «བབས་ལོས་དུས་ཚོད་ལ་བཅད་ན། རྒྱ་མའི་ཐག་པ་ཆད་ཅེས་བྱ» (p. 170–171) therefore names a state of the person's balance, cut when the landed year cuts the moment, not the line of births; the rite follows by UT's list. «ལྷས་ངན» has no headword; «ལྟས་ངན» (bad omen) is one: the scan was not re-read (img. 176), so the reading of that word stays open.
+
+**Q423, Q424–Q427 and Q420–Q421, Q238–Q239.** The chase upward (ཡར་དེད, yar ded) and the chase downward (མར་དེད, mar ded) in UT (etext pp. 224–226) run the board's fifteen places, one's own place first, the child, the woman, the father's brothers, and in the second form by the twelve year-stores (ལོ་མཛོད, lo mdzod); they are the nearest parallel to WB's «ཡར་གསུམ» and «མར་བརྒྱད» counts and say the count goes from one's own place along the places, upward and downward in the other direction, with each place named by what is not to be harmed. They do not give WB's sixty-year pairs, the ogre's and demon's seven, the 360 starting points, the moment's dawn or direction, which mewa fights the nine squares or where earth stands in one's own place. For q420 the Sakya etext of the notes (p. 544) reads «དུས་ཀྱི་དབང་སྨེས་སོ་སོར་འཐབ་སྟེ། ད་ལམ་དུས་སྨེ་ལྔ་སེར་གྱི་མར་བཞི་བརྒྱུད་དཀར»: the same words as the 1996 print; the example's «མར» is the "down" of the count («ལྔ་སེར་གྱི་མར»: below the 5 yellow), so the 4 and 8 are counted down from the 5, which fits the year's mewa being the one counted (the 8 white) and the day's the centre; not settled. For q424, the notes' «ཡར་གསུམ་སོགས་ལ་སྲོག་ལུས་དབང་ཀླུང་བཞིས་འཐབ། དུས་ཀྱིས་བརྩི་བྱའི་ལོ་ཚབ་བྱའོ» is on the Sakya etext (p. 545) as the same sentence, no other print has more. Q238, Q239, Q421, Q423, Q425–Q427: no new source found in the dictionaries, the Sakya or UT etexts (searched «ནམ་ལངས», «རིམ་པར་དེད», «ལུགས་འབྱུང»); the Sakya etext holds «ནམ་ལངས» in the sky's course (vol. 1, p. 37–38) as the start of the day's count, which supports the day's divisions starting at dawn («ནམ་ལངས»), not at a fixed clock hour; not settled for the moment.
+
+### Open
+
+- Question: On p. 165, is the print's «མཚོལ» a spelling of «མནོལ», defilement? (A second print was not read.)
+- Question: What is «ཡམས་སྐུད» as a class of kin, and who sits at the moment's mewa's right shoulder?
+- Question: Is «ལྷས་ངན་བབས» on p. 171 (img. 176) «ལྟས་ངན», a bad omen? (The word was not re-read on the scan.)
+- Question: Which of the moment's counts does the notes' «ཡར་གསུམ་སོགས» (p. 537) name, and does UT's chase upward and downward over the fifteen places read the same count?
+- Question: Is the «དོ་གཅིག» of p. 164 a year-word, and which year?
+
+### Searched and not found
+
+- «ཡམས་སྐུད», «རྒྱ་མའི་ཐག་པ་», «མཚོལ», «ཀླུམ་མནན», «གྲུམ་མནན», «དོ་གཅིག», «ལྷས་ངན», «ཕྱི་ལྟས» as headwords in Steinert's 64 dictionaries (`locate.py dict`, 2026-11-01): none, but «mnol» (defilement), «rgya ma» (steelyard), «ltas ngan», «ban de», «rmi ltas», «thur» are there.
+- «ཤ་མཚན་ཤའི་ལྔ», «ལྷས་ངན་བབས», «ནམ་ཁའི་དུས», «རིམ་པར་དེད» in the Sakya (I1KG12739/40), UT and LT etexts: no hit but the verse itself (2026-11-01).
+- Not done for lack of time: BDRC's full-text search (`bdrc_search.py`) for the thirteen gates' «ལྔ་ནས», the sixty pairs' length and the 360 starting points; the gates' pp. 170–171 and the sixty pairs' pp. 171–172 were not re-read by eye; Mipham's notes' pp. 535–538 were not re-read by eye.
