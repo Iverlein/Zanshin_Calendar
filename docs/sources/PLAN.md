@@ -1158,3 +1158,8 @@ Searched and found wanting, so not to be repeated:
   - BDRC title catalogue (autosuggest): no title «རིན་ཆེན་འགྲོ་ལམ» (Precious Road) and none «གབ་པའི་སྙིང་གཟེར» (Heart Nail of the Hidden).
   - «བུ་ཡིག» is a class of texts, not a single catalogued title.
   - «ར་བར»: no sense found in WB or the notes' pages on the dead's living pebbles.
+- **RD97 dead ends** (RD97, 2026-11-01):
+  - «སྤུད་པ་དགུ»: no gloss in the dictionaries (spud pa is only «adorn»); BDRC 3 hits (the White Beryl's outline, a Vajrabhairava text, a Four Tantras commentary), none a gloss. «རྒྱུག་པ་དགུ»: 2 hits, a leaping drill, unrelated.
+  - «ཆོམས་ཁྱུང་ནག»: 2 hits, both WB. «མཇུག་རྩེའི་དཔེ»: 3 hits, all WB. «སྤྱུག་སྟོན»: 0 hits. «ཤ་རུ»: 1417 hits, not sifted.
+  - «སྤོ་སྨད» as a mansion: 43 hits, all the place Po or unrelated; no dictionary has it as a mansion.
+  - «sha ri bhyo», «ma tram», «gung phur», «gzhob sel» as rites: no dictionary headword.
