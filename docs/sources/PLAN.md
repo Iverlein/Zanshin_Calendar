@@ -1289,3 +1289,8 @@ Searched and found wanting, so not to be repeated:
   - Gyurme Dorje's own text on the son (pp. 226–230): not read this time (no loan).
 - **RD127 dead ends** (RD127, 2026-11-01):
   - The Moonbeams f. 21b–22b and f. 26b–27a (DZ img. 046–048, 056–057), by eye and in the pool's text: a rule for a half in the count of the four verdict pebbles; a definition of the general and the particular verdict; a reading of a half verdict of the year of age: none.
+- **RD125 dead ends** (RD125, 2026-11-01):
+  - «གནས་སྐྱུག» as a spelling in the 1996 typeset etexts of both volumes (BDRC IE0OPI51524892): no hit; «གནས་སྒྱུག» and «སྒྱུག་མོ» stand there (vol. 1 img. 372; vol. 2 img. 344 and 534).
+  - The verse of p. 362 and the notes' p. 526 in the Chengdu typeset notes (I1PD34647 img. 571–573): not on those leaves.
+  - BDRC full-text search for «གནས་སྒྱུག་སྤར་ཁ» and «ཤིང་དུར་ལུག»: not run; bdrc_search.py did not start (Chromium 1248 missing).
+  - A rule that the verdict's colour picks one of the trigram's three rites, in WB pp. 104–105 and the notes' p. 517: none.

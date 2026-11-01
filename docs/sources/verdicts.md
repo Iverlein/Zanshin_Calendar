@@ -8251,9 +8251,9 @@ What stays: the first word's root letter on the blocks and on Mipham's own print
 
 ### Open
 
-Question: Does the notes' «བཅོ་ལྔའོ» (vol. 2, p. 517, l. 8), after "six each counted", count the smith's paper-roll and its remedy as two items, or the found trigram's verdict with the six, where WB (p. 51, l. 1) and the head of the same sentence say fourteen?
+Question 576 ([q0576](questions/q0576.md)): Does the notes' «བཅོ་ལྔའོ» (vol. 2, p. 517, l. 8), after "six each counted", count the smith's paper-roll and its remedy as two items, or the found trigram's verdict with the six, where WB (p. 51, l. 1) and the head of the same sentence say fourteen?
 
-Question: Which page of the Taikhang print (I5877/I5878) holds the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» (WB vol. 1, p. 362, img. 372)? Ten images of I5877 (img. 464–486) were read by Yigdzin-1 and the verse is not among them, and the Zhol print's leaf (img. 473) is too grey to give the root of the stack.
+Question 577 ([q0577](questions/q0577.md)): Which page of the Taikhang print (I5877/I5878) holds the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» (WB vol. 1, p. 362, img. 372)? Ten images of I5877 (img. 464–486) were read by Yigdzin-1 and the verse is not among them, and the Zhol print's leaf (img. 473) is too grey to give the root of the stack.
 
 ### Searched and not found
 
