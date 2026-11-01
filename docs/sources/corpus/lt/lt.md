@@ -26,6 +26,14 @@ the rest of each passage from the etext.
 
 LT's preliminaries, the trigram of each day and the planets' rising (etext pp. 17–19, printed pp. 9–11). The lines quoted were read on the scan, img. 017–019; the scan has «སྤར་ཁ» where the etext reads «སྤུར་ཁ». How the trigram turns day by day: on a tiger, horse or dog day li (ལི, li) rises (ཚེས, tshes), on a rat, dragon or monkey day kham, on a bird, ox or snake day dwa, on a pig, sheep or hare day zin; driven on in order, the day's trigram appears. After the eight planets and their elements, the planets' rising, by the same triads of animals: Saturn rises on tiger, horse and dog; the Moon on pig, sheep and hare; Jupiter on bird, ox and snake; Mars on rat, dragon and monkey. Whichever rises is in its rise (དར, dar), and its son also; its mother is spent (ཞུད, zhud), its enemy declining (གུད, gud), its friend in strife (གྱོད, gyod). Only four planets are named as rising; the passage does not say whether the animal is the day's, the month's or the year's, but the trigram's rising just before it is the day's.
 
+## <a id="lt-p10-11"></a>lt:p10-11 The eight planets by element, and the way of the date
+
+*Read: scan, 2026-11-01.*
+
+> …རུས་སྦལ་ཡན་ལག་རྣམ་བརྒྱད་ལས། །གཟའ་བརྒྱད་རྣམ་གྲངས་འདི་བཞིན་ཤར། །ཉི་མ་མིག་དམར་མེ་ཡི་གཟའ། །ཟླ་ལྷག་ཆུ་གཟའ་ཕུར་བུ་ཤིང་། །པ་སངས་ལྕགས་སྤེན་པ་ས། །རཱ་ཧུ་སྤྱི་ཁྱབ་འབྱུང་ལྔ་ཚང་། །ཚེས་ལུགས་སྟག་རྟ་ཁྱི་གསུམ་སྤེན། །ཕག་ལུག་ཡོས་གསུམ་ཟླ་བས་ཚེས། །བྱ་གླང་སྦྲུལ་གསུམ་ཕུར་བུས་ཚེས། །བྱི་འབྲུག་སྤྲེལ་གསུམ་མིག་དམར་ཚེས། །གང་ཚེས་དེ་དར་བུ་ཡང་དར། །མ་ཞུད་དགྲ་གུད་གྲོགས་ནི་གྱོད།
+
+From the eight limbs of the tortoise the eight planets appear thus: the Sun and Mars are the planets of fire; the Moon and Mercury (ཟླ་ལྷག, zla lhag) the planets of water; Jupiter wood; Venus (པ་སངས, pa sangs) iron; Saturn (སྤེན་པ, spen pa) earth; Rahu (རཱ་ཧུ, rA hu) pervades all and holds the five elements. The way of the date (ཚེས་ལུགས, tshes lugs): Saturn rises on the tiger, horse and dog; the Moon dates the pig, sheep and hare; Jupiter dates the bird, ox and snake; Mars dates the rat, dragon and monkey. Whichever dates, that one rises, and its son rises too; its mother is spent, its enemy declines, its friend is in strife.
+
 ## <a id="lt-p12"></a>lt:p12 The twelve stages of rise and decline, the graves and the cut-offs
 
 *Read: scan, 2026-10-23.*

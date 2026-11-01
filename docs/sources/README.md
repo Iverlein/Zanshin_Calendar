@@ -180,6 +180,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-household-years-together.md](claims/dead-household-years-together.md) | claim, table | The household's years counted together | cites wb.2:p54-55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-joined-hands-omens.md](claims/dead-joined-hands-omens.md) | claim, rule | The road omens after cutting the joined hands | cites wb.2:p139-140, wb.2:p522; feeds block-31 |
 | [claims/dead-kin-element-years.md](claims/dead-kin-element-years.md) | claim, table | The dead's paternal kin by element and the members' years | cites wb.2:p51-52; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-count-wb-root.md](claims/dead-la-count-wb-root.md) | claim, rule | The la board's count is WB's own verse, which the Moonbeams follows; LT's count is the birth's | cites wb.2:p45, dz:i055-057, lt:p26-28, wb.1:p260-261, wb.2:p499-500; feeds block-31 |
 | [claims/dead-la-general-verdict.md](claims/dead-la-general-verdict.md) | claim, table | The la pebbles' general verdict: the board's shape | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-pebbles-layout.md](claims/dead-la-pebbles-layout.md) | claim, rule | The twelve la pebbles: the board and how each living member is laid | cites wb.2:p52-54, wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-special-verdict.md](claims/dead-la-special-verdict.md) | claim, table | The la pebbles' special verdict: black or half before each place | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
@@ -260,6 +261,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/kha-smrang-an-account.md](claims/kha-smrang-an-account.md) | claim, note | «ཁ་སྨྲང» is the account told; it is one word on pp. 50, 114, 166 | cites wb.2:p166; feeds block-31 |
 | [claims/la-pebbles-colours-manuals.md](claims/la-pebbles-colours-manuals.md) | claim, list | The la places' pebbles by number and colour in the manuals | cites dz:i055-057, lt:p26-28, wb.2:p499-500; feeds block-31 |
 | [claims/life-reckoning-one-verdict.md](claims/life-reckoning-one-verdict.md) | claim, rule | Reply 111's life reckoning is ch. 22, its one pebble the verdict on the whole birth | cites ys:i467-468, ys:i090, wb.1:p355, wb.2:p524, wb.1:p349, wb.1:p329-331, wb.1:p259; feeds block-58, block-31 |
+| [claims/lt-clan-table-is-wb.md](claims/lt-clan-table-is-wb.md) | claim, conflict | LT's clan table of cut-offs is WB's birth table and conflicts with the notes' corner rule for fire and iron | cites lt:p26-28, wb.1:p260-261, wb.2:p499-500, lt:p12; feeds block-31 |
+| [claims/lt-planet-rise-by-date-and-element.md](claims/lt-planet-rise-by-date-and-element.md) | claim, rule | A planet rises on the day's animal; the Sun, Mercury and Venus are reached through their elements | cites lt:p10-11; feeds block-31 |
 | [claims/match-birth-times-relations.md](claims/match-birth-times-relations.md) | claim, rule | Point 10: the spouses' birth months, days and hours, four relations | cites wb.1:p360, wb.2:p525, wb.2:p478, wb.1:p306, wb.1:p258, wb.1:p235; feeds block-58 |
 | [claims/match-in-laws-trigrams.md](claims/match-in-laws-trigrams.md) | claim, rule | The in-laws' trigrams: daughter-in-law and mother-in-law | cites wb.1:p362, wb.2:p526; feeds block-58 |
 | [claims/match-karma-reckoning.md](claims/match-karma-reckoning.md) | claim, rule | The karma reckoning over the match is each spouse's birth reckoning | cites wb.1:p364, wb.2:p526, wb.2:p474, wb.2:p478, wb.2:p489, wb.1:p261; feeds block-58 |
@@ -286,6 +289,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/pha-gu-as-printed.md](claims/pha-gu-as-printed.md) | claim, note | P. 135: «ཕ་གུ» is what the reprint prints for the kin of wood | cites wb.2:p133-135; feeds block-31 |
 | [claims/planet-state-by-rising.md](claims/planet-state-by-rising.md) | claim, rule | A planet's rise, decline, spent and strife by the planet that rises on the animal | cites lt:p9-11, ut:p37, ut:p69-70; feeds block-31, block-32 |
 | [claims/plank-tree-bsngo-ru.md](claims/plank-tree-bsngo-ru.md) | claim, note | «བསྔོ་རུ་མ་བཏུབ» and «བསྔོ་མ་བཏུབ»: the plank-tree's white and black mixed | cites wb.1:p419, wb.1:p423b, wb.1:p423-424, wb.1:p424, wb.1:p425, wb.2:p495-496; feeds block-32 |
+| [claims/plank-tree-five-six-places.md](claims/plank-tree-five-six-places.md) | claim, definition | The plank-tree's fifteenth and sixteenth heads start at the sky year's down-fifth and down-sixth | cites dz:i052-055, wb.1:p413, wb.2:p494; feeds block-31 |
 | [claims/remains-day-hour-lords.md](claims/remains-day-hour-lords.md) | claim, table | The day's and the hour's earth lords at the sending of the remains | cites wb.2:p96-97; feeds block-31 |
 | [claims/remains-doors-hours.md](claims/remains-doors-hours.md) | claim, rule | The living's and the dead's directions, the hours and the corpse-bearer | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-places-not-allowed.md](claims/remains-places-not-allowed.md) | claim, table | The twenty-six places not allowed even if clean | cites wb.2:p104; feeds block-31 |
@@ -452,7 +456,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
-| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 6 passages: 6 scan |
+| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 7 passages: 7 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
