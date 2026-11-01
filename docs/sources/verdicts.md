@@ -7923,3 +7923,8 @@ Question 569 ([q0569](questions/q0569.md)): Is the hour's sky dog forty-three (�
 - The sub-counts of the sky's round (the 78 and 1,874) in the results pages (Yigdzin-1 over img. 60–151, «བྱ་ལམ», «སྟོང་བརྒྱད་བརྒྱ», «ཉེར་བརྒྱད»): none; the one hit of «ཉེར་བརྒྱད» is twenty-eight recitations of the Heart Sutra (p. 121).
 - The count lines on the Zhol print and the Sakya Centre print by their BDRC etexts (IE0OPI7850CC9C, IE0OPI0BA3A0E0, fetched 2026-11-01): the etexts are corrupt at these lines («རྡེའུ་བརྒྱད་ཅུ་བདུན», «ཉིས་བརྒྱ་གྱ་བདུན», «སུམ་སྟོང་བརྒྱ་གྱ་དྲུག» have no hit; the only «སྟོང་བརྒྱད་བརྒྱ» are chapter 21's counts); the Zhol scans' leaf for p. 50 not looked for.
 - A rule sizing the rites by the colour of the thirteenth's verdict in the notes' p. 517 (Yigdzin-1's reading): none.
+
+
+## The trigram's three rites and fourteen or fifteen remedies; the in-laws' «གནས་སྐྱུག» and «ཤིད་དུར» (RD125)
+
+Nothing read yet: RD125's passages, with the English beside them, go here.
