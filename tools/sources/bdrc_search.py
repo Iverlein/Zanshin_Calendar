@@ -14,8 +14,9 @@ The search page is a single-page app: six phrases at a time run in
 same-origin iframes of one open page and are read after 25 s. The browser
 is a headed Chromium of class playwright-work, which sway parks on
 workspace 11 beside the Playwright MCP browser (rule 9 of ~/AGENTS.md).
-Run it with a Python that has playwright, e.g. a throwaway virtualenv
-(`pip install playwright==1.62.0`, matching the cached Chromium).
+Run it with the system Python: its playwright (pacman's python-playwright)
+needs the matching Chromium in ~/.cache/ms-playwright, installed once with
+`python -m playwright install chromium` (1.64 → chromium-1248, 2026-11-01).
 Search-only etexts answer 403 to the etext API: their snippet is all there
 is without the lent scans (docs/sources/PLAN.md).
 """

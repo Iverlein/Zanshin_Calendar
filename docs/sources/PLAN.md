@@ -98,8 +98,9 @@ scratch directory, not in the repository:
   `hf_read.py` on the screenshots finds a phrase in a run of leaves.
   Return the loan and delete the cookie file afterwards. For a
   single-volume item `view`'s FILE argument is "." (an empty one finds no
-  page image), and the playwright it runs must match the cached Chromium
-  (1.62.0 for chromium-1234; RD9, 2026-10-12).
+  page image), and the playwright it runs must match a cached Chromium:
+  the system Python's 1.64 has chromium-1248 since 2026-11-01 (`python -m
+  playwright install chromium` fetches a missing one; RD9, 2026-10-12).
 - `hf_read.py yigdzin|mitra OUT IMG…` — **the main reader**: BDRC's
   Yigdzin-1 OCR model on the local GPU (`hf_read.py setup VENV` makes its
   environment); MITRA, the runner-up, as witness.
@@ -381,8 +382,9 @@ Searched and found wanting, so not to be repeated:
   board is KD vol. 3, p. 718 (the corpus file `corpus/kd/v3-sheets.md`).
   The *Utpala Garland* (UT) was cited in this file as Dpal bsdus's: he
   edited it; BDRC names Dge rtse 'Gyur med bstan pa'i rnam rgyal as its
-  author. `archive_lend.py view` needs playwright 1.62.0 for the cached
-  chromium-1234; the system Python's 1.64.0 asks for another download.
+  author. `archive_lend.py view` and `bdrc_search.py` run on the system Python's
+  playwright 1.64 since 2026-11-01, when its chromium-1248 was installed
+  (two readings had skipped their searches for want of it).
 - **The Derge reprint of WB** (BDRC MW1KG12714): its OCR garbles the verse
   passages; use the 1996 edition.
 - **Tsadra wikis** (rtz, rywiki): a static fetch gets HTTP 403. A headed
