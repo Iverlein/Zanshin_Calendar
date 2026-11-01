@@ -1239,3 +1239,7 @@ Searched and found wanting, so not to be repeated:
   - The two lines of the Mūlatantra in every etext of the pool: only WB's p. 450.
   - «ཏ་ལ་ལམ་དུ་བསྒྱུར» in the pool's etexts: only WB (1996 and Zhol); no dictionary has the saying.
   - «ཟོར་ཚུགས» as a word: none; the print has «ཐོར་ཚུགས».
+- **RD114 dead ends** (RD114, 2026-11-01):
+  - A mansion tied to the serpent's body: BDRC «ལྟོ་འཕྱེ་དང་རྒྱུ་སྐར», «ལྟོ་འཕྱེའི་ལུས་རྒྱུ་སྐར», «སྐར་མའི་རྒྱུ་ཕྱོགས་ལྟོ་འཕྱེ» no hit; «ལྟོ་འཕྱེའི་མཆན་ཁུང» four hits, none giving a mansion for a part of the body.
+  - The direction of counting the door's places: six BDRC phrasings no hit; the verse «ཞིབ་པར་ཕྱོགས་རེར་བརྒྱད་རེ་ཕྱེ» stands only in WB's prints and the Bzo rtsis zlos gar, none with a direction.
+  - The Sa dpyad phyogs bsgrigs that BSB cites was not searched by title.
