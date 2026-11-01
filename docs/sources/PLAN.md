@@ -1203,3 +1203,6 @@ Searched and found wanting, so not to be repeated:
   - The forty of the birth wind (p. 342) in any other manual read: none.
   - A name for a couple of mixed kinds: none in UT, the Bhutan manual (I1KG11905 pp. 217–218), G.ya' sel reply 113, the notes.
   - BDRC «ལས་རྩིས་བྱས་པས་གཉིས་ཀ་ངན་པ» and «དུས་ཚོད་ཚང་གི་རྩིས»: WB's prints and copies only.
+- **RD111 dead ends** (RD111, 2026-11-01):
+  - BDRC full-text: «བླངས་ལན་པ» and «མཚན་མོ་ནད་ཕོག་པ» 0 hits; «ནམ་ཕྱེད་འདས་ན་ཞག», «ནམ་ལངས་ནས་ཞག་ཕྱི་མ», «ནད་པའི་ནམ་མཁའི་ལོ», «ནམ་མཁའི་ལོ་ལས», «སྲོག་གི་དགྲ་ཡིས་ནམ་མཁའི» 0 hits; «ནད་ཕོག་པའི་ཞག» only a Tibetan-Mongolian dictionary; «གདོན་རྐྱེན་ནད» only WB's reprint. Nothing on where the day of falling ill turns at night, on the sky year of p. 426, on the thirds' spirits and conditions.
+  - Steinert's dictionaries: no entry for the compounds «མྱུར་སྨད», «བསྔོ་རུ», «བླངས་ལན», «གདོན་རྐྱེན»; the parts only.

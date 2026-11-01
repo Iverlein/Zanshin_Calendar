@@ -7,6 +7,8 @@ Sigla, numbering and quoting rules are in [README.md](../../README.md);
 the shape of this file, [STRUCTURE.md](../../STRUCTURE.md). Passages in the
 text's order, each under its id, with its `*Read:*` line.
 
+Read by RD111 (2026-11-01): the notes on the illness chapter, by dictionary and BDRC search; findings in [ch25.md](ch25.md) and verdicts.md.
+
 Read by RD41 (2026-10-23): pages 495–499 of vol. 2 (the 1996 scan img. 503–507; the Gser thang reprint I3CN5029 img. 501–505), Yigdzin-1 over the reprint compared with the 1996 print's reading; the stretches RD22 and O19 read on the reprint before are given in their checked text. The root text is in [ch25.md](ch25.md).
 
 ## <a id="wb-2-p495"></a>wb.2:p495 Section three opens: the board of sixteen rows, four across, three fives
