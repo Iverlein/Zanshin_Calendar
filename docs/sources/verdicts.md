@@ -7163,3 +7163,28 @@ All on 2026-10-27.
   «བུ་མོའི་སྲོག་ལུས་དབང་ཀླུང་འཐབ» (2), «སྲོག་རྡེལ་བཅོ་ལྔ» (1): the same hits as
   the fifth reading; the character offsets used were I4265 180897,
   I3CN6029 99918.
+
+
+## The *Moonbeams* and LT on the open questions of the dead, the la board, the thirty and the household (RD103)
+
+Nothing read yet: RD103's passages, with the English beside them, go here.
+
+
+## The dead's open questions, pp. 44–75: the preliminary, the la board, the first four examinations, the funeral shares (RD95)
+
+Nothing read yet: RD95's passages, with the English beside them, go here.
+
+
+## The dead's open questions, pp. 97–143: the doors and the bearer, the thirteenth examination's rites, the grave provisions (RD97)
+
+Nothing read yet: RD97's passages, with the English beside them, go here.
+
+
+## WB ch. 27's open questions: the thirteen circles' verdicts, the la's wandering, the four reckonings of «བརྗེ», the words (RD98)
+
+Nothing read yet: RD98's passages, with the English beside them, go here.
+
+
+## WB ch. 26's open questions: the thirty's count through the years, its eight fighting pebbles, its words (RD100)
+
+Nothing read yet: RD100's passages, with the English beside them, go here.

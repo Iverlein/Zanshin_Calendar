@@ -168,3 +168,13 @@ The fourteenth examination, the reckoning of the funeral feast's assembly (ཤ�
 - Question 335 ([q0335](../../questions/q0335.md)): WB vol. 2, p. 99, l. 8 (wb.2:p97-100) reads «གཤེད་བཞི་ཤར་དུ་མི་གཏོང་ངོ»: is ཤར་དུ "to the east" (and why the east for all four slayer directions) or "where the four slayers rise", and what are "the four slayers" here?
 - Question 336 ([q0336](../../questions/q0336.md)): WB vol. 2, p. 98, l. 5 (wb.2:p97-100) prints «གཅིག་དཀར་སྟེང་དུ་བཀྲ་ངོ་བཟང» where every following line has རོ, "corpse": is ངོ a misprint for རོ (the Zhol or Taikhang blocks would settle it)?
 - Question 337 ([q0337](../../questions/q0337.md)): WB vol. 2, pp. 99, ll. 25–26 (wb.2:p97-100): the corpse's facing is headed «སྤྲ་སྒོ་རོ་ཡི་ཁ་ཕྱོགས» and avoids «རྨེ[?]་བདུན་ཤར་བའི་གདོང»; what are spra sgo and rme bdun (is rme for sme, the mewa)?
+
+
+## The dead's open questions, pp. 97–143: the doors and the bearer, the thirteenth examination's rites, the grave provisions (RD97)
+
+Nothing read yet: RD97's passages, with the English beside them, go here.
+
+
+## The dead's open questions, pp. 75–97: the provisions, the old kinds, the nine-eye, the sounding, the grave days (RD96)
+
+Nothing read yet: RD96's passages, with the English beside them, go here.
