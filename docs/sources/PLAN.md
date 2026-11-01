@@ -1227,3 +1227,8 @@ Searched and found wanting, so not to be repeated:
   - BDRC full-text: «བཏང་གཅོད་ཀྱི་འཕྲུལ་གྱི་སྒྲོན་མེ» 0 hits; «བཏང་གཅོད་འཕྲུལ་གྱི་སྒྲོན་མེ» 1 (WB's list); «འབྱུང་བ་རིན་པོ་ཆེ་གསལ་བའི་སྒྲོན་མེ» 1 (the record itself); «སྟོང་གཅོད་ཁ་དམར» and «སྟོང་གཅོད་རྡེའུ» 0.
   - The Mentsikhang catalogue's snippet shows books and page spans, not the contents of book 6; the catalogue is search only (etextchunks 403).
   - No person record gave dates for the authors of the Four Tantras commentaries; the dating of the spellings rests on the Tantras being older than both reckoners.
+- **RD115 dead ends** (RD115, 2026-11-01):
+  - A subset of the seven counts of p. 249 (136, 47, 13, 19, 20, 12, 215) summing to 440: none; only 442 (without the 20).
+  - «གཅོད་འདྲལ», «འདྲལ་འགྱེད» as a circuit's name in the dictionaries: the verbs only.
+  - The faint letters of the Deathless Elixir img. 809 on a 2370 px scan at 3–5×: not legible.
+  - The pairs of the six bad stages by name in Mipham, the Good Vase and Zhechen Gyaltsab: none; the pairing is by order.

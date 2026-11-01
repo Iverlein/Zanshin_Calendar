@@ -873,6 +873,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0536.md](questions/q0536.md) | question q536 | Does the Little Red Tiger-Head's chapter 10 or 17 lay the deciding pebble | open; cites — |
 | [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | open; cites — |
 | [questions/q0538.md](questions/q0538.md) | question q538 | When were the sheets drawn | open; cites — |
+| [questions/q0539.md](questions/q0539.md) | question q539 | Which three of the five topics of the root were divided into four (p. 249) | open; cites — |
+| [questions/q0540.md](questions/q0540.md) | question q540 | «བརྩི་བྱ་གཅོད་འདྲལ་འགྱེད་པ» on p. 257: a leaping count or a cutting and scattering | open; cites — |
+| [questions/q0541.md](questions/q0541.md) | question q541 | The two letters before «ཕོ་ལོ་ཟིན» on p. 257 and the outer and inner circuits' counts | open; cites — |
+| [questions/q0542.md](questions/q0542.md) | question q542 | Why does the older system's sum say 440 when its parts make 442 | open; cites — |
 
 <!-- end pool index -->
 
