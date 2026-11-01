@@ -587,7 +587,7 @@ The notes' third and fourth heads of the general reckoning are read again (p. 53
 
 ### Open
 
-Question: the Bhutan collection's month wheels (pp. 436–446, 1981, hand-drawn): does the old couple, or the blue mouse road, stand in them on the places WB's first course gives for the month? A reader of the cursive script is needed, or the leaves read on a clean print.
+- Question 558 ([q558](questions/q0558.md)): the Bhutan collection's month wheels (pp. 436–446, img. 441–452, hand-drawn): do they set the old couple or the blue mouse road on WB's places? A reader of the cursive is needed.
 
 ### Searched and not found
 

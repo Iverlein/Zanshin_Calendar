@@ -923,6 +923,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0555.md](questions/q0555.md) | question q555 | The second and third result names «ཀླུང» and «ཀྱཱིས» on Mipham's print | open; cites — |
 | [questions/q0556.md](questions/q0556.md) | question q556 | The hand reckoning's word after the year's count: «རྒྱན་ཀྭང» or «ཐུན་ཀུང» | open; cites — |
 | [questions/q0557.md](questions/q0557.md) | question q557 | «གནས་སྐྱུག» or «གནས་སྒྱུག» in the notes p. 526 and «ཟླ་བའི་སྣང» on p. 484 | open; cites — |
+| [questions/q0558.md](questions/q0558.md) | question q558 | The Bhutan collection's month wheels and the old couple's course | open; cites wb.2:p215 |
 
 <!-- end pool index -->
 

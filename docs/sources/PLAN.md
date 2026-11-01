@@ -1255,3 +1255,7 @@ Searched and found wanting, so not to be repeated:
   - Strip-wise Yigdzin runs (one line at a time) of I2029 img. 744 hallucinate repeating text.
   - I2029 pages are 3400 px wide at about 33 px a line, so single stacks stay indistinct at 9–12×.
   - BDRC search «དྲུང་མཁས་པ་རཏྣ» and «དྲུང་མཁས་པ་རཀྵ»: 0 hits; «འབྲི་ཝང་སུམ་ཅུ»: 0 hits; «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས» only WB's two prints.
+- **RD118 dead ends** (RD118, 2026-11-01):
+  - The old couple's course in Lha mo tshul khrims (I1KG21886 etext, «རྒན་རྒོན» nine times) and the regent's replies (I5876 etext, once): no seats by month; the blue mouse road «བྱི་ལམ», «ལམ་སྔོ»: none in either.
+  - The Bhutan collection's verses (etext): remedies (p. 455), a corpse-rite entry (pp. 506, 509, 546) and the wheels' garbled lines; no verse course.
+  - An earth lord set against the date's results, in the three etexts: none.
