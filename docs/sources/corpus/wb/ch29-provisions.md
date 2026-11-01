@@ -16,6 +16,16 @@ witness. Mipham's notes on these examinations (pp. 504–512) are in
 [notes-4.md](notes-4.md#wb-2-p504-512), machine-read. Its facts are restated
 in the claims `dead-*` in [claims/](../../claims/).
 
+## <a id="wb-2-p50"></a>wb.2:p50 The sizes of the twelfth examination: the sky's road and the earth's mouse road
+
+*Read: etext, 2026-11-01.*
+
+> > ས་དཔྱད་བཅུ་གཉིས་རོའི་བཏང་ཕྱོགས། །རྡེལ་གྲངས་སུམ་སྟོང་བརྒྱ་གྱ་དྲུག །འབྲས་རྡེལ་བརྒྱ་དང་ང་གཅིག་དང༌། །ངོས་འཛིན་སུམ་སྟོང་སོ་ལྔ་སྟེ། །གནམ་གྱི་བྱ་ལམ་གཟའ་སྐར་རྡེལ། །བཟང་ངན་ལྟོས་པའི་རྡེལ་གྲངས་དང༌། །ཚེས་དང་དབྱངས་གསལ་མཆེ་གདོང་སོགས། །འཁོར་འབྲས་ཚེས་རྒྱུའི་རྡེའུ་ནི། །དོན་བརྒྱད་ངོས་འཛིན་སྟོང་བརྒྱད་བརྒྱ། །བདུན་བཞི་བོར་བར་བྱ་བའོ། །ས་ཡི་བྱི་ལམ་རིམ་པ་བཞིན། །ལོ་ཡི་ས་བདག་བཏང་བཅུ་གཉིས། …
+
+Read by RD96 (2026-11-01) in the etext of the 1996 print (etext p. 58 = printed p. 50) and in the etexts of the Gser thang reprint, of the Sakya print and of the Zhol-impression's group, which BDRC's full-text search shows carrying the same four syllables «གནམ་གྱི་བྱ་ལམ»; **not read on the scan**.
+
+The sizes of the twelfth examination (the sending of the remains), in WB's chapter's verses on how many pebbles each reckoning has: the reckoning's pebbles are 3,136 (3,000 and a hundred and thirty-six), of which 151 are result pebbles (འབྲས་རྡེལ, 'bras rdel) and 3,035 identifying pebbles (ངོས་འཛིན, ngos 'dzin); the **sky's road** (གནམ་གྱི་བྱ་ལམ, gnam gyi bya lam, printed so with «བྱ»), the pebbles of the planets and the mansions, with the pebbles that look to the good and bad, the days, the vowels, consonants and fangs-and-mouths of the lunar days and so on, are counted among them; then "the earth's mouse road" (ས་ཡི་བྱི་ལམ, sa yi byi lam, printed so with «བྱི»), the road of the earth lords of the year, begins with twelve pebbles for the year's earth lords.
+
 ## <a id="wb-2-p75-77"></a>wb.2:p75-77 The ninth examination: provisions by trigram and the old's common provisions
 
 *Read: scan, 2026-10-23.*
@@ -250,3 +260,32 @@ The bad kinds of death's eye: an old one dying is bad for a *sri'u* (སྲི�
 - Question 314 ([q0314](../../questions/q0314.md)): The grave days' two accounts.
 - Question 315 ([q0315](../../questions/q0315.md)): The eight places that open death for khen, gin and zon.
 - Question 316 ([q0316](../../questions/q0316.md)): The mansions of the sounding's examination under other names.
+
+## <a id="wb-2-p129-131"></a>wb.2:p129-131 The funeral recitation: the dead's goods handed over as provisions, trigram by trigram
+
+*Read: etext, 2026-11-01.*
+
+> > ལིར་ཤི་ན། མགོ་ཤ་མར་ཁུ་འབྲུ་བཟང་འབྲས། ཁྱོད་ཀྱི་དུར་བརྒྱགས་རྫོངས་སུ་འདེབས། … ཁོན་འདི་གྱེར་རོ། དྲོད་སྨན་ཟར་མ་ལག་གཡོན་ཤ། ཁྱོད་ཀྱི་དུར་བརྒྱགས་རྫོངས་སུ་འདེབས། … རྒན་མོའི་ཕུ་དུང་གཡོན་མ་འདི། ཁྱོད་ཀྱི་དུར་གོས་རྫོངས་སུ་འདེབས། … ཕུག་སྲང་སོག་པ་རྒན་མོའི་ནོར། ཁྱོད་ཀྱི་དུར་ནོར་རྫོངས་སུ་འདེབས། … ཤིང་གཉན་ལྕང་མ་བྱ་ཐི་བ། དུར་ཤིང་དུར་བྱའི་རྫོངས་སུ་འདེབས། … འཕྱི་ཤ་བྲ་བོ་གཡོན་ཤ། ཁྱོད་ཀྱི་དུར་བརྒྱུག་རྫོངས་སུ་འདེབས། … རས་དཀར་རྒད་པོའི་ལྷམ་གཡོན་པ། ཁྱོད་ཀྱི་དུར་གོས་རྫོངས་སུ་འདེབས། … ཤིང་གཉན་ཚར་བ་བྱ་ཁྲུང་ཁྲུང་། དུར་ཤིང་དུར་བྱའི་རྫོངས་སུ་འདེབས། … གིན་ལ་འདི་གྱེར་རོ། གླང་ཤ་རྐང་གཡས་འབྲུ་བཟང་གྲོ། ཁྱོད་ཀྱི་དུར་བརྒྱག་རྫོངས་སུ་འདེབས། ཟ་འུག་སྒོམ་ཆེན་རབ་བྱུང་གོས། ཁྱོད་ཀྱི་དུར་གོས་རྫོངས་སུ་འདེབས། … ཟིན་ལ་ཤི་ན་འདི་གྱེར་རོ། བོང་ཤ་རྩིབ་གཡས་འབྲུ་སོ་བ། ཁྱོད་ཀྱི་དུར་བརྒྱག་རྫོངས་སུ་འདེབས། … སྐ་རགས་སྟག་གཟིག་བོང་བུའི་པགས། ཁྱོད་ཀྱི་དུར་གོས་རྫོངས་སུ་འདེབས། … ཤིང་གཉན་སྟག་པ་བྱ་ཅོ་ཀ། དུར་ཤིང་དུར་བྱའི་རྫོངས་སུ་འདེབས། … ཟར་མ་མཛོ་རྟོལ་ལག་གཡས་ཤ། ཁྱོད་ཀྱི་དུར་བརྒྱག་རྫོངས་སུ་འདེབས། དར་སྣ་ལྔ་དང་ཟ་འོག་འདི། ཁྱོད་ཀྱི་དུར་གོས་རྫོངས་སུ་འདེབས། …
+
+Read by RD96 (2026-11-01) in BDRC's etext of the 1996 print (VEIE0OPI51524892_I1KG12907, etext pp. 137–139 = printed pp. 129–131); **not read on the scan**, the lines below are the etext's with its worst slips left out, and where the etext is damaged the line is not quoted. The page and image of the 1996 print: pp. 129–131 are img. 137–139.
+
+The recitation said over the dead at the funeral (the twelfth examination's closing rite, whose verses, one set to each trigram of death, hand the dead his goods as provisions, ro rdzongs, རོ་རྫོངས). For each trigram the speaker names the dead's share in food (བརྒྱགས, brgyags), clothes (གོས, gos) and wealth (ནོར, nor), and the tree (ཤིང་གཉན, shing gnyan) and bird (དུར་བྱ, dur bya) of the grave. They are the verse form of the provisions' list of p. 75 and name the same goods in the same trigram order, with some words spelled otherwise:
+
+- on *li* (ལི): head meat and butter broth, good grain and rice (food);
+- on *khon* (ཁོན): a warming medicine, sesame and the meat of the left arm (food); "this old woman's left *phu dung* (ཕུ་དུང)", i.e. the sleeve garment, for clothes; *phug srang sog pa* (ཕུག་སྲང་སོག་པ), "the old woman's wealth", for wealth; willow for the grave's tree and the pigeon, *thi ba* (བྱ་ཐི་བ), for its bird;
+- on *khen* (ཁེན): marmot meat, buckwheat and the left side's meat (food); white cloth, the old man's left boot (clothes); the tree *tshar ba* (ཚར་བ) and the crane (བྱ་ཁྲུང་ཁྲུང, bya khrung khrung);
+- on *gin* (གིན): ox meat from the right leg, good grain and wheat (food); brocade and the monk's cloth of a great meditator (clothes);
+- on *zin* (ཟིན): donkey meat, the right rib and *so ba* grain (food); a belt of tiger, leopard or donkey-foal hide (clothes); the tree *stag pa* (སྟག་པ) and a bird *co ka* (ཅོ་ཀ);
+- on *zon* (ཟོན): sesame and the right arm's meat of a dzo (food); five kinds of silk and brocade (clothes).
+
+The verses for *dwa* (དྭ) and *kham* (ཁམ) are damaged in the etext and are not quoted; the verse for *khen* sets the tree *tshar ba* beside the crane, where p. 75 gives the crane to *khen* with the tree *sbyar pa* (སྦྱར་པ) and *tshar shing* (ཚར་ཤིང) to *dwa*.
+
+## <a id="wb-2-p512"></a>wb.2:p512 Mipham's note on the sky's road of the twelfth examination
+
+*Read: etext, 2026-11-01.*
+
+> > གཤིན་པོའི་ཕུང་པོ་གཏོང་རྩིས་ལ། གནམ་གྱི་བྱ་ལམ་ཞེས་པ་ཕུང་པོ་གཏོང་ཉིན་གྱི་ལྔ་བསྡུས་ཚེས་རྩིས་སྐོར་རྒྱས་པར་བཏང་བ་སྟེ། ཚེས་སུམ་ཅུ། ཚེས་ཀྱི་དར་གུད་བྱིས་པ་སོགས་ལྔ། ཉི་མ་བཅུ་གཉིས་དང་རང་ཉི་བདུན་ཟུར་བཞི་གཤེད། རུས་ཀྱི་དུར་ཉི། སྲོག་གི་དུར་ཉི་བཅས་བཅོ་བརྒྱད། … ཚེས་ཀྱི་སྤར་བརྒྱད། སྨེ་དགུ། ཚེས་ཀྱི་ས་བདག་ཉི་ནག་སོགས་ངོ་བོ་ཞེ་དགུ། …
+
+Read by RD96 (2026-11-01) in the etext of the 1996 print (etext p. 520 = printed p. 512); **not read on the scan**. Mipham's notes on the twelfth examination (the sending of the remains).
+
+The notes say what the **sky's road** is, calling it «གནམ་གྱི་བྱ་ལམ» (gnam gyi bya lam, with «བྱ»): it is the five-fold gathering of the day of the sending (ཕུང་པོ་གཏོང་ཉིན, phung po gtong nyin) and its count of the lunar day, spread out wide: the thirty lunar days; the five rise-and-decline of the lunar day (the child and the rest, བྱིས་པ་སོགས); the twelve days of the sun and the own day with the seventh corner and the four executioners; the clan's grave days and the life force's grave days, eighteen in all; further, the eight trigrams of the lunar day, the nine mewa, and the lunar day's earth lords, the black sun day and the rest, forty-nine in all. (The text goes on for the planets, the vowels and consonants, the mansions and the conjunctions; only the head of it is quoted.)

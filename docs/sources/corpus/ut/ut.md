@@ -40,3 +40,13 @@ UT, the power year and the others that suit the clan element (རུས་ཁམ
 > …ལྔ་པ་ སྤར་ ཁའི་ འགྲམ་ འཁྲུགས་ ། ། ། རང་ རང་ ལོ་ ལྷའི་ སྟེང་ ཤི་ དང་། ། དགྲ་ ཐོག་ ཤི་ ན་འགྲམ་པ་ཡིན། དུར་ཐོག་འཁྲུགས་ཡིན་ངོས་ འཛིན་ཚུལ། གཤིན་པོའི་སྲོག་དང་བབ་སྤར་སྤྲད། སྲོག་ཤིང་ཁོན་དང་སྲོག་མེ་ཁེན། སྲོག་ལྕགས་གིན་ལ་ས་ཆུ་ཟོན། ཚུད་པ་སྤར་ཁའི་དུར་མིག་ཡིན། … བདུན་པ་ གཟའ་ ཡི་འགྲམ་གཤེད་ནི། གཤིན་པོའི་ བླ་ གཟའ་ རེས་ གཟའ་བསྟུན། མཐུན་དུས་ཤི་ན་འགྲམ་པ་ཡིན། དགྲ་ཐོག་འཁྲུག་ཡིན་ རེས་གཟའ་གང་། ། དར་དུས་ཤི་ལེགས་ཞུད་དུས་འབྲིང་། ། གྱོད་གུད་ གཉིས་ལ་ངན་པ་ཡིན། …
 
 UT's fifth chapter, the results of the reckoning for the dead: the grave-harm (འགྲམ, 'gram) and strife (འཁྲུགས, 'khrugs) of the trigram and of the planet (etext pp. 91–92, printed pp. 69–70). Before them, the year's, month's, day's and hour's, each measured from the dead's year (གཤིན་པོའི་ལོ, gshin po'i lo): dying on its nine-eye or on one's own year is grave-harm, on its seventh, enemy or fourth executioner strife. The fifth, the trigram's: dying on one's own year-god or on the enemy is grave-harm, on the grave strife; how it is found: the dead's life force is matched with the descended trigram (བབ་སྤར, bab spar), a wood life force with khon, fire with khen, iron with gin, earth and water with zon: falling there is the trigram's grave-eye. The seventh, the planet's: the dead's la-planet (བླ་གཟའ, bla gza') is set beside the weekday's planet (རེས་གཟའ, res gza'): dying when they agree is grave-harm, on the enemy strife; whatever the weekday's planet, dying in its rise is good, when it is spent middling, in strife or decline bad.
+
+## <a id="ut-p317"></a>ut:p317 The grave executioners' days: the 6th, the middle four's 26th, the last's 16th
+
+*Read: machine, 2026-11-01.*
+
+> > … དུར་གཤེད་ར་བཞིའི་ཚེས་དྲུག་དང་། །འབྲིང་བཞིའི་ཉེར་དྲུག་ཐའི་བཅུ་དྲུག །ཚེས་གཉན་རཱ་ཧུ་ཀི་ཀང་དང་། …
+
+Read by RD96 (2026-11-01) in the etext only (UT etext p. 339, printed p. 317; scan I4767 not opened). A modern edition: facts only, the line quoted is the shortest that carries them.
+
+The list of days that a manual of the element reckoning marks for a funeral, among them the grave executioners (དུར་གཤེད, dur gshed): the 6th of the first four months (ར་བ, ra ba), the **26th of the middle four** (འབྲིང་བཞི, 'bring bzhi) and the **16th of the last** (ཐ་ཆུང, tha chung), and then the days of the *gnyan* (the lawsuit days), Rāhu and Kikang; the 26th and 16th are the reverse of the pair that WB's first account and LT give, and the pair of WB's second account.

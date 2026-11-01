@@ -163,6 +163,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/circles-upward-for-all.md](claims/circles-upward-for-all.md) | claim, rule | The circles are counted upward for everyone, by the years lived | cites ys:i496-497, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/circles-zg-worked.md](claims/circles-zg-worked.md) | claim, rule | The circles: the count and the five pebbles, worked by Zhechen Gyaltsab | cites zg:p303-304, lt:p65-67, wb.2:p533b, ut:p4; feeds block-31 |
 | [claims/clan-twelve-years.md](claims/clan-twelve-years.md) | claim, table | The clan element's cut-off, power, mother, son, friend and enemy years for all five clans | cites lt:p26-28, lt:p12, ut:p56, wb.2:p499-500; feeds block-31 |
+| [claims/dead-belly-strike-khon-typeset.md](claims/dead-belly-strike-khon-typeset.md) | claim, note | «ལུག་ལོ་ཁོ་ན་ཤི» in the notes is «ཁོན་ཤི»: the belly strike's eight | cites wb.2:p86-90, wb.2:p504-512; feeds block-31 |
 | [claims/dead-burial-root-pebbles.md](claims/dead-burial-root-pebbles.md) | claim, rule | The dead's burial reckoning: eleven root pebbles of time, the mewa and trigram among them | cites dz:i057-061; feeds block-31 |
 | [claims/dead-cause-by-time.md](claims/dead-cause-by-time.md) | claim, table | The second examination: the demon's cut by the time of death | cites wb.2:p57-58, wb.2:p503; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-cause-mewa.md](claims/dead-cause-mewa.md) | claim, table | The second examination: the speckled middle reason by the mewa | cites wb.2:p57-58; feeds SPEC §5.9.4, block-31 |
@@ -178,12 +179,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-demon-by-trigram.md](claims/dead-demon-by-trigram.md) | claim, table | The trigram of death: the spirit that carried the dead off, the eating demon's object, the rite | cites wb.2:p60-62, wb.2:p503b; feeds block-31, R2 |
 | [claims/dead-demon-by-weekday.md](claims/dead-demon-by-weekday.md) | claim, table | The weekday of death and its planet's state: the eating demon and the rite | cites wb.2:p63-65; feeds block-31, R2 |
 | [claims/dead-demon-by-year-animal.md](claims/dead-demon-by-year-animal.md) | claim, table | The dead's year animal: whom the eating demon leads, where it hides, the rite | cites wb.2:p58-60; feeds block-31, R2 |
+| [claims/dead-eight-death-openings-three-by-implication.md](claims/dead-eight-death-openings-three-by-implication.md) | claim, rule | The eight places that open death: three by implication, and the animals they would take | cites wb.2:p86-90, wb.2:p504-512; feeds block-31 |
 | [claims/dead-fifteenth-parts.md](claims/dead-fifteenth-parts.md) | claim, rule | The dead's fifteenth examination: its parts and what selects each | cites wb.2:p128-129, wb.2:p129-132, wb.2:p133-135, wb.2:p135-137, wb.2:p137-138, wb.2:p139-140, wb.2:p141-142, wb.2:p522; feeds block-31 |
 | [claims/dead-five-graves-forbidden.md](claims/dead-five-graves-forbidden.md) | claim, table | Which corpses each of the five graves refuses, and when each is good | cites wb.2:p74-75, wb.2:p503-504; feeds block-31 |
 | [claims/dead-five-graves-lands.md](claims/dead-five-graves-lands.md) | claim, list | The five graves' chants: land and wish | cites wb.2:p135-137; feeds block-31 |
 | [claims/dead-five-graves.md](claims/dead-five-graves.md) | claim, rule | The five graves: elements, combatants, verdict and on whom harm falls | cites wb.2:p74-75, wb.2:p500-501, wb.2:p503-504; feeds block-31 |
 | [claims/dead-funeral-share-kinds.md](claims/dead-funeral-share-kinds.md) | claim, table | The eighteen funeral shares and who may not be buried | cites wb.2:p68-70, wb.2:p503-504; feeds block-31 |
 | [claims/dead-funeral-share-verdict.md](claims/dead-funeral-share-verdict.md) | claim, rule | The funeral share by the power's and the element's deciding pebbles | cites wb.2:p68-70, wb.2:p500-501, wb.2:p503-504; feeds block-31 |
+| [claims/dead-grave-days-two-traditions.md](claims/dead-grave-days-two-traditions.md) | claim, conflict | The grave days in two traditions: the last months' 26th (WB's first, LT) or 16th (WB's second, Mipham, UT) | cites wb.2:p86-90, wb.2:p504-512, lt:p59, ut:p317; feeds block-31 |
 | [claims/dead-grave-provisions-by-trigram.md](claims/dead-grave-provisions-by-trigram.md) | claim, table | The grave provisions, by the dead's trigram | cites wb.2:p129-132, wb.2:p522; feeds block-31 |
 | [claims/dead-ground-elements-kin.md](claims/dead-ground-elements-kin.md) | claim, list | Searching for the ground: the elements' gods and the kin each one shields | cites wb.2:p133-135; feeds block-31 |
 | [claims/dead-handlers-by-rise-mewa-trigram.md](claims/dead-handlers-by-rise-mewa-trigram.md) | claim, rule | Who may not handle the corpse, by rise and decline, mewa and trigram | cites wb.2:p90-93, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
@@ -200,10 +203,15 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-living-twenty-one.md](claims/dead-living-twenty-one.md) | claim, rule | The living household: each living member's twenty-one pebbles | cites wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-living-twenty-pebbles.md](claims/dead-living-twenty-pebbles.md) | claim, rule | The living's twenty pebbles in the dead's reckoning: descended mewa and birth mewa | cites dz:i055-057, wb.2:p499-500; feeds block-31 |
 | [claims/dead-mewa-copper-vessel.md](claims/dead-mewa-copper-vessel.md) | claim, table | The mewa's copper vessel: the household's birth mewa | cites wb.2:p54-55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-nine-eye-27-rough-for-five.md](claims/dead-nine-eye-27-rough-for-five.md) | claim, note | The nine-eye of 27: «ཇ་ལ་རྩུབ» is probably «ལྔ་ལ་རྩུབ», rough for five | cites wb.2:p86-90; feeds block-31 |
+| [claims/dead-nine-eye-rounds-by-age.md](claims/dead-nine-eye-rounds-by-age.md) | claim, table | The nine-eye's two rounds: the year of age, the executioner signs and the trigram at each age | cites wb.2:p86-90, lt:p93-94; feeds block-31 |
+| [claims/dead-old-ages-with-no-kind.md](claims/dead-old-ages-with-no-kind.md) | claim, note | The ages of the old with no kind named: the general rule and the Clear Lamp's sorting | cites wb.2:p77-80, wb.2:p80-82; feeds block-31 |
 | [claims/dead-old-kinds-by-age.md](claims/dead-old-kinds-by-age.md) | claim, table | The nine kinds of old men and of old women by age at death | cites wb.2:p77-80; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-old-not-made.md](claims/dead-old-not-made.md) | claim, rule | Who is not made an old one, and the Clear Lamp's kinds | cites wb.2:p77-80, wb.2:p80-82; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-old-sriu-body-mewa.md](claims/dead-old-sriu-body-mewa.md) | claim, note | The old one sri'u by the mewa and the body that died black, yellow or red | cites wb.2:p77-80, wb.2:p80-82, wb.2:p504-512; feeds block-31 |
 | [claims/dead-outer-reason-colours.md](claims/dead-outer-reason-colours.md) | claim, rule | The dead's outer reason: enemy, son and inner meeting black, mother and friend white | cites ys:i506-508, wb.2:p57-58; feeds block-31 |
 | [claims/dead-provisions-by-trigram.md](claims/dead-provisions-by-trigram.md) | claim, table | The corpse's provisions by the trigram of death | cites wb.2:p75-77; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-provisions-items-identified.md](claims/dead-provisions-items-identified.md) | claim, list | The provisions of the trigrams: what the recitation and the dictionaries identify, what is left | cites wb.2:p75-77, wb.2:p129-131; feeds block-31 |
 | [claims/dead-rebirth-by-aspect.md](claims/dead-rebirth-by-aspect.md) | claim, table | The rebirth by the dead's aspects against the time of death | cites wb.2:p70-72, wb.2:p503-504; feeds block-31 |
 | [claims/dead-rebirth-by-day-and-hour.md](claims/dead-rebirth-by-day-and-hour.md) | claim, table | The rebirth by the day's animal, the hour and the stage of death | cites wb.2:p70-72; feeds block-31 |
 | [claims/dead-rebirth-by-mewa.md](claims/dead-rebirth-by-mewa.md) | claim, table | The rebirth by the mewa of death, with the image that turns it | cites wb.2:p70-72, wb.2:p503-504; feeds block-31 |
@@ -220,14 +228,20 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-rites-notes-classes.md](claims/dead-rites-notes-classes.md) | claim, list | Mipham's thirteen classes of remedy and the chapter's sections | cites wb.2:p517, wb.2:p104-105; feeds block-31, block-58 |
 | [claims/dead-rites-order.md](claims/dead-rites-order.md) | claim, rule | The order of the rites against a run of deaths, and the grave rule by date | cites wb.2:p111-112, wb.2:p112-114, wb.2:p114-115, wb.2:p124, wb.2:p124-125, wb.2:p125-126; feeds block-31 |
 | [claims/dead-six-lamps.md](claims/dead-six-lamps.md) | claim, table | The six great lamps: deaths that repeat in a household | cites wb.2:p55, wb.2:p502; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-sky-road-bird-or-mouse.md](claims/dead-sky-road-bird-or-mouse.md) | claim, note | The sky's road of the twelfth examination: bird road in the sizes and the notes, mouse road on p. 96 | cites wb.2:p94-96, wb.2:p50, wb.2:p512; feeds block-31 |
 | [claims/dead-small-grave-mewa.md](claims/dead-small-grave-mewa.md) | claim, rule | The small grave by mewa, trigram and the child's age | cites wb.2:p82-85, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-sounding-black-white-over-twenty-five.md](claims/dead-sounding-black-white-over-twenty-five.md) | claim, rule | The sounding's black and white are counted over the twenty-five deciding pebbles together | cites wb.2:p90-93, wb.2:p504-512; feeds block-31 |
+| [claims/dead-sounding-mansion-aliases.md](claims/dead-sounding-mansion-aliases.md) | claim, list | The mansions of the sounding under other names: eight of ten identified | cites wb.2:p90-93, wb.2:p504-512; feeds block-31 |
+| [claims/dead-sounding-ninth-place-phung-sri.md](claims/dead-sounding-ninth-place-phung-sri.md) | claim, note | The ninth place of the sounding, 'phung sri dza mo or rdza mo: no gloss found | cites wb.2:p90-93, wb.2:p129-131; feeds block-31 |
 | [claims/dead-strike-belly-heart.md](claims/dead-strike-belly-heart.md) | claim, rule | The demon's belly strike and the heart strike | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-grave-days.md](claims/dead-strike-grave-days.md) | claim, rule | The grave-day strike by date | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-illness-death-grave.md](claims/dead-strike-illness-death-grave.md) | claim, table | The illness-death-grave strike of the five aspects | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-kungkung-iron-planets.md](claims/dead-strike-kungkung-iron-planets.md) | claim, rule | The kung kung, iron-four fire-eight and planet strikes | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-nine-eye.md](claims/dead-strike-nine-eye.md) | claim, table | The nine-eye strike by the dead's age | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-strike-wrong-deeds.md](claims/dead-strike-wrong-deeds.md) | claim, rule | The strike of wrong deeds, and who the strikes reach | cites wb.2:p86-90, wb.2:p504-512; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-sun-moon-grid-parts.md](claims/dead-sun-moon-grid-parts.md) | claim, note | The five parts of each direction on the sun and moon grid: no gloss found | cites wb.2:p96-97; feeds block-31 |
 | [claims/dead-third-examination-inputs.md](claims/dead-third-examination-inputs.md) | claim, rule | The third examination's inputs: the dead's year, the death year's trigram and mewa, day, weekday, mansion, hour | cites wb.2:p58-60, wb.2:p503b; feeds block-31, R2 |
+| [claims/dead-trigram-bad-by-name-endings.md](claims/dead-trigram-bad-by-name-endings.md) | claim, note | «སྲུ་མོ», «སྨྱུག་མོ», «ཚོས»: the bad trigram strikes by the shape of names, not by kin | cites wb.2:p504-512; feeds block-31 |
 | [claims/dead-trigram-descended.md](claims/dead-trigram-descended.md) | claim, rule | UT reads the dead's descended trigram | cites ut:p69-70; feeds block-31 |
 | [claims/dead-trigram-fallen-to.md](claims/dead-trigram-fallen-to.md) | claim, rule | The dead's trigram in ch. 29 is the trigram fallen to: the descended trigram at death | cites ys:i513-514, wb.2:p86-90, wb.2:p504-512, wb.2:p75-77; feeds block-31 |
 | [claims/dead-virtue-by-year.md](claims/dead-virtue-by-year.md) | claim, table | Help by virtue: the twelve ways and the texts by the year of death | cites wb.2:p72; feeds block-31 |
@@ -473,7 +487,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
-| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 7 passages: 7 scan |
+| [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 9 passages: 8 scan, 1 machine |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
@@ -482,7 +496,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
 | [corpus/ut/ch7-marriage.md](corpus/ut/ch7-marriage.md) | corpus | UT, ch. 7, the marriage reckoning: the short practice and the bride's going | 1 passages: 1 etext |
 | [corpus/ut/general.md](corpus/ut/general.md) | corpus | UT, the opening: the general presentation of the starting points | 2 passages: 2 etext |
-| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 3 passages: 3 etext |
+| [corpus/ut/ut.md](corpus/ut/ut.md) | corpus | UT, the preliminaries, the clans' years, and the dead's grave-harm | 4 passages: 1 machine, 3 etext |
 | [corpus/wb/ch23.md](corpus/wb/ch23.md) | corpus | WB ch. 23, marriage and the road | 3 passages: 3 scan |
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
@@ -492,8 +506,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 9 passages: 9 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
-| [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |
-| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 6 scan, 2 machine |
+| [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 12 passages: 9 scan, 3 etext |
+| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 7 scan, 1 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
@@ -563,14 +577,14 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0304.md](questions/q0304.md) | question q304 | The thirty's 241st pebble | open; cites wb.1:p453-454 |
 | [questions/q0305.md](questions/q0305.md) | question q305 | Doubtful words and unidentified rites of the thirty's readings | open; cites wb.1:p453-454, wb.1:p454, wbz:i605-607, wbz:i608-627 |
 | [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
-| [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | open; cites wb.2:p90-93 |
-| [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | open; cites wb.2:p86-90, wb.2:p77-80 |
+| [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | answered; cites wb.2:p90-93 |
+| [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | answered; cites wb.2:p86-90, wb.2:p77-80 |
 | [questions/q0309.md](questions/q0309.md) | question q309 | The ages with no old kind | open; cites wb.2:p77-80 |
 | [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | open; cites wb.2:p86-90 |
 | [questions/q0311.md](questions/q0311.md) | question q311 | «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding | open; cites wb.2:p90-93 |
 | [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
 | [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | open; cites wb.2:p80-82 |
-| [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | open; cites wb.2:p86-90 |
+| [questions/q0314.md](questions/q0314.md) | question q314 | The grave days' two accounts | answered; cites wb.2:p86-90 |
 | [questions/q0315.md](questions/q0315.md) | question q315 | The eight places that open death for khen, gin and zon | open; cites wb.2:p86-90, wb.2:p504-512 |
 | [questions/q0316.md](questions/q0316.md) | question q316 | The mansions of the sounding's examination under other names | open; cites wb.2:p90-93 |
 | [questions/q0317.md](questions/q0317.md) | question q317 | «གསུམ་གྱིས་བགོས» or «བཞི»: dividing the household's pebbles | open; cites wb.2:p490-491 |
@@ -595,8 +609,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | answered; cites wb.2:p97-100, wbz:i768 |
 | [questions/q0337.md](questions/q0337.md) | question q337 | «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing | open; cites wb.2:p97-100 |
 | [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135, wbz:i826 |
-| [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | open; cites wb.2:p504-512 |
-| [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | open; cites wb.2:p504-512 |
+| [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | answered; cites wb.2:p504-512 |
+| [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | answered; cites wb.2:p504-512 |
 | [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | open; cites wb.2:p165 |
 | [questions/q0342.md](questions/q0342.md) | question q342 | The five of the thirteen gates' fifth and sixth, and the own-element signs | open; cites wb.2:p170-171 |
 | [questions/q0343.md](questions/q0343.md) | question q343 | Horse or bird in the thirteenth gate | answered; cites wb.2:p170-171, wbz:i880 |

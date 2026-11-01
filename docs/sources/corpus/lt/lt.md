@@ -88,3 +88,28 @@ LT, the close of the illness plank-tree and the second nineteen (etext pp. 51–
 
 - Question 375 ([q0375](../../questions/q0375.md)): LT's great and small cut-off for a fire clan (dog great, dragon small) and an iron clan (ox great, sheep small) (lt:p26-28) go against the notes' rule that dragon and sheep are great and dog and ox small (wb.2:p499-500): which holds on the la board for those clans?
 - Question 376 ([q0376](../../questions/q0376.md)): The planets "rise" on triads of animals (lt:p9-11): is the animal the day's, the month's or the year's, and how is the state of the Sun, Mercury and Venus found, when only Saturn, the Moon, Jupiter and Mars are named as rising?
+
+## <a id="lt-p59"></a>lt:p59 The grave days in the list of the eight great strikes
+
+*Read: machine, 2026-11-01.*
+
+> > … བཞི་པར་བཞིའི་ཚེས་དྲུག་དང་། །འབྲིང་བཞིའི་བཅུ་དྲུག་ཐ་ཆུང་བཞིའི། །ཉེར་དྲུག་དུར་ཉི་ཡིན་པས་ན། །དུར་གྱི་འགྲམ་དུ་མཁས་པས་བཤད། …
+
+Read by RD96 (2026-11-01) in the etext only (LT etext p. 67, scan I1KG21886 img. 67; the printed page is 59); the verse is WB's own wording, set in LT's list of the eight great strikes as its third, "the grave strike".
+
+The grave days in LT: the 6th (of the first months of the four seasons), the 16th (of the middle months) and the 26th (of the last months) are the grave days (དུར་ཉི, dur nyi), and the learned call a death on them the grave strike (དུར་གྱི་འགྲམ, dur gyi 'gram). The verse is the first of WB's two accounts (WB vol. 2, p. 88) and does not carry the second.
+
+## <a id="lt-p93-94"></a>lt:p93-94 The nine-eye by the animal of the age, the male and the female round
+
+*Read: scan, 2026-11-01.*
+
+> > … གཉིས་པ་དགུ་མིག་ལ། ཕོ་སྐོར་མོ་སྐོར་གཉིས་ལས། དང་པོ་བརྩི་བྱ་དང་དབང་ཐང་གཅིག་པའི་བྱི་བ་ནས་གྱེན་དུ་བགྲང་བའི་དགུ་གཅིག་དང་པོ་འབྲུག་ལ་ནང་སྤར་ལི་མེའི་སྟེང་དུ་གནས་པས། … དགུ་གཉིས་བཅོ་བརྒྱད་ལུག་ལ་ནང་སྤར་ཁོན་ལ་གནས་པས། … ཉེར་བདུན་ཁྱི་ལ་ནང་སྤར་དྭ་ལ་བབས་པས། … སོ་དྲུག་གླང་ལ་ནང་སྤར་ཁེན་ལ་གནས་པས། … ཞེ་ལྔ་འབྲུག་ལ་ནང་སྤར་ཁམ་ལ་བབས་པས། … ང་བཞི་ལུག་ལ་ནང་སྤར་གིན་ལ་གནས་པས། … རེ་གསུམ་ཁྱི་ལ་ནང་སྤར་ཟིན་སྟེང་སླེབས་པས། … དོན་གཉིས་གླང་ལ་ནང་སྤར་ཟོན་ལ་གནས་པས། … གྱ་གཅིག་འབྲུག་ལ་ནང་སྤར་ལི་ལ་གནས་པས། … གཉིས་པ་མོ་སྐོར་བརྩི་བྱི་དང་དབང་ཐང་གཅིག་པའི་བྱ་ནས་གྱེན་དུ་བགྲང་བའི་དགུ་གཅིག་དང་པོ་གླང་ལ་ནང་སྤར་ཁམ་ལ་གནས་པས། … བཅོ་བརྒྱད་འབྲུག་ལ་ནང་སྤར་ཁེན་ལ་གནས་པས། … ཉེར་བདུན་ལུག་ལ་ནང་སྤར་དྭ་ལ་བབས་པས། … སོ་དྲུག་ཁྱི་ལ་ནང་སྤྱིར་ཁོན་ལ་གནས་པས། … ཞེ་ལྔ་གླང་ལ་ནང་སྤྱིར་ལི་ལ་གནས་པས། … ང་བཞི་འབྲུག་ལ་ནང་སྤར་ཟོན་ལ་ཕྱིན་པས། … རེ་གསུམ་ལུག་ལ་ནང་སྤུར་ཟིན་ལ་ཕྱིན་པས། … དོན་གཉིས་ཁྱི་ལ་ནང་སྤར་གིན་ལ་གནས་པས། … གྱ་གཅིག་གླང་ལ་ཁམ་སྟེང་ཕྱིན་པས། … དགུ་མིག་དེ་རྣམས་དགྲ་གཤེད་དང་དུར་འདོན་ཤིན་ཏུ་ངན་པས་རིམ་གྲོ་ལ་འབད། …
+
+Read by RD96 (2026-11-01): LT pp. 93–94 (etext pp. 101–102, scan I1KG21886 img. 101–102, image = printed page + 8). The etext is "good OCR"; the two pages were read on the scan down their lines against it at full size and the lines agree in every age, animal and trigram quoted (the spellings of the number words 54 and 72 and of the animal at 72 are the scan's; the etext has «ལྔ་བཞི» and «གླིང»). A modern work (2003): only the lines the facts need are quoted, ellipses for the rest.
+
+The nine-eye (དགུ་མིག, dgu mig) in the manual of the Chinese reckoning (LT, pp. 93–94), told in two rounds, the male round (ཕོ་སྐོར, pho skor) and the female round (མོ་སྐོར, mo skor). The man's round is counted from the rat (བྱི་བ, byi ba) that has the same power element (དབང་ཐང, dbang thang) as the one reckoned, the woman's from the bird (བྱ, bya) of that power, each "upward" (གྱེན་དུ, gyen du), and each ninth place is taken; the sign it falls on is the "inner" trigram, the one at which the person stands. The entries (age, animal, trigram), the male round first:
+
+- male: 9 dragon *li*; 18 sheep *khon*; 27 dog *dwa*; 36 ox *khen*; 45 dragon *kham*; 54 sheep *gin*; 63 dog *zin*; 72 ox *zon*; 81 dragon *li*;
+- female: 9 ox *kham*; 18 dragon *khen*; 27 sheep *dwa*; 36 dog *khon*; 45 ox *li*; 54 dragon *zon*; 63 sheep *zin*; 72 dog *gin*; 81 ox *kham*.
+
+After each entry the text names what the strike brings (illness, a death among the young or the old, thieves and weapons, the earth lords, the loss of the *g.yang* fortune), and closes: these nine-eyes are most harmful, the enemy and the executioner and the removal of the grave all bad, so make the rites.
