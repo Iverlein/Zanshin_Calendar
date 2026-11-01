@@ -736,6 +736,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | open; cites wb.2:p448 |
 | [questions/q0505.md](questions/q0505.md) | question q505 | Which root tantra is the «མཱུ་ལ་ཏནྟྲ» of p. 450 | open; cites wb.2:p450 |
 | [questions/q0506.md](questions/q0506.md) | question q506 | The black nine-eye's sky years on p. 16: «མི་སྟག» and «ས་ཡོས» | open; cites wb.2:p16 |
+| [questions/q0507.md](questions/q0507.md) | question q507 | The stack «བརྗེ» or «བནྡེ» on p. 23 and p. 17: a monk's set or the spiritual friend's | open; cites wb.2:p23c |
+| [questions/q0508.md](questions/q0508.md) | question q508 | «མི་སྟག» and «ས་ཡོས» on p. 16 on the Zhol print and the Taikhang; the wood pig's «ཤིང་བྱ» | open; cites wb.2:p16c |
 
 <!-- end pool index -->
 

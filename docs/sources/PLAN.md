@@ -1148,3 +1148,7 @@ Searched and found wanting, so not to be repeated:
   - Not searched: the rest of the 簠簋内伝 (巻一 after §9, 巻二–五) for further mentions of 金神.
 - **RD84 (2026-10-31)** (RD84, 2026-10-31):
   - A rule, list or figure of the calendar in WB vol. 2 pp. 429–454, by the eye pass of 2026-10-31 (every line read on the scan): none but p. 432's days to beware of for grammar; the letters and names the eye corrected bring none in.
+- **RD98 dead ends** (RD98, 2026-11-01):
+  - A gloss of «ཇི་ནོང»: the 1996 etext has the word only at p. 3, l. 4.
+  - A worked example of the notes' «སྨེ་ཕྲེང་མཐུན་པ» for the circles: the etext's four places (notes pp. 488, 495, 500, 504) speak of the thirty, the dead's reckoning or the sixteenth row, none of the circles.
+  - «གྲོས་ལེགས» in either etext: none; «གོས་ལེགས་ཚོང་ལེགས» only at p. 24, l. 16.
