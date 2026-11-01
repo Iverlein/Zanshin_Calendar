@@ -3142,3 +3142,13 @@ clan's grave or enemy mansion and the like.
 - A list naming WB's four «འགྲུབ་སྐར» together in WB: none in the etext
   («ས་ག་ཆུ་སྨད», «ཆུ་སྨད་ནམ་གྲུ», «འགྲུབ་སྐར་བཞི», «གྲུབ་སྐར་བཞི» only p. 348 and the
   classes of vol. 2, p. 329); BDRC's search, «བརྟན་གྲུབ་སྐར», no hit.
+
+
+## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
+
+Nothing read yet: RD101's passages, with the English beside them, go here.
+
+
+## The year of age's open questions: the obstacles' words, the household's general pebbles and rows (RD102)
+
+Nothing read yet: RD102's passages, with the English beside them, go here.

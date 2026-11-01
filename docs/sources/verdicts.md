@@ -7219,3 +7219,8 @@ When the «མི་སྟག» rises the iron tiger enters; if black, the «བ
 ## WB ch. 26's open questions: the thirty's count through the years, its eight fighting pebbles, its words (RD100)
 
 Nothing read yet: RD100's passages, with the English beside them, go here.
+
+
+## The birth's and the match's open questions: the words of pp. 330–349, the match of mixed kinds, the karma reckoning over the match (RD101)
+
+Nothing read yet: RD101's passages, with the English beside them, go here.
