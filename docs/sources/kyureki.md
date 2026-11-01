@@ -3348,3 +3348,415 @@ not say where the other days go. A difference stated, not settled.
   or 「天一天上と塞がり」; a site search returned no page for it.
 - 天一, 日遊, 方違 on the NAOJ 暦Wiki: not on the 「暦注」 page; the wiki's
   own search page (`?cmd=search`) returned only the front page.
+
+## The direction gods' open questions in the old texts (RD107)
+
+Read 2026-11-01, by eye on the NDL Digital Collections' scans (IIIF
+images, no model); the NDL's machine full text (`lab.ndl.go.jp/dl/api/book/fulltext-json/<pid>`
+and `.../book/search?keyword=…`) used only to find the pages and, where
+marked *OCR only*, to count. Questions 484–487, 489, 491–495 and 497–501
+(RD92's, RD93's and RD94's), each put to the old text that speaks to it.
+The paper 高島暦's questions (488, 490, 496, 502) are not this reading's.
+
+**Answer in short.**
+
+- The year table of the eight gods is old and whole in two Japanese
+  texts: the 簠簋内伝 (巻一 §3, 八将神方) prints all eight by the year's
+  branch, the 大將軍, 歳殺, 黄幡 and 歳刑 in single branches exactly as the
+  modern digests (484, 485, 486, 487); the 拾芥抄 gives the 大將軍's by
+  triad, and the 簾中抄 and 江次第抄 as printed in the 古事類苑 the same.
+  The Edo kana almanacs print the same single branches.
+- The 簠簋内伝's gloss of each god, not the 暦林問答集's, is what the
+  kana almanacs print; so the 歳破 has "not to cross water, not to board
+  a ship" there, and livestock stands under the 豹尾 (489).
+- The year of the gods turns at 立春, so far as the 方違え practice
+  shows (491).
+- 日遊 is in the house on the 戊 and 己 days as well as the seventeen
+  days: the court almanac of 応安七 marks it so (492); no outer course
+  is found (493); the five-day count is the cardinal stay of the same
+  reckoning, the almanac keeping five and six (494).
+- The 拾芥抄's sentence reads, on its grammar and its own reason, that
+  天一 and 太白 are to be avoided more strictly than the 大將軍, 王相
+  and 八卦 directions (495).
+- The 金神 year table of the Edo almanacs and of today is the 拾芥抄's,
+  a blend of the 簠簋内伝's two tables, with 乙庚 = 辰巳 alone; 戊癸 is
+  申酉子丑 in every old text and every almanac read, so 午未申酉 is a
+  slip (497, 498). Which 遊行 wins on a day both claim: no text says
+  (499). The 假名暦略註 is 塙保己一's vernacular gloss of the calendar
+  (501), the text itself not open.
+
+### The texts and the scans
+
+- **簠簋内伝, 1919 printing (HK1919)**, NDL pid 1911335 (as in *RD93*
+  above): 巻一 §3 八将神方, img. 9 (left page, the table) and img. 10
+  (the rest of the table and the eight glosses). Read by eye.
+- **拾芥抄**, 『拾芥抄 3巻』 [洞院公賢] [編], NDL pid **2543902**, call
+  number WA7-46, catalogued «[慶長年間]» (a woodblock print; the NDL
+  holds a second, pid 2544228, with 洞院実煕 [補] named, and the
+  略要抄 pid 2570189 and 898152, the same text), PDM. 巻下 方角禁忌: img. 21
+  (the 大將軍 and its 遊行 by the year), img. 22 (the 王相, the 天一太白
+  sentence), img. 26 (the 金神七殺方), img. 54–55 (the 金神's 遊行, the
+  大將軍's). Read by eye on pid 2543902; the typeset 故実叢書 (pid
+  772010, 1906, p. 57 of its text) read for its punctuation. Cited as **SG**.
+- **古事類苑 方技部２**, pid 897743 (KJ above), the 大將軍 article, img. 6–8,
+  天一方 and 太白 img. 11 (pp. 176–177, read by eye), 方違
+  img. 18 (the 簾中抄 and 方角禁忌撰, read as the machine text stands,
+  with the page's lines checked); the other quotations *OCR only*.
+- **洞院公定日記**, 文科大学史誌叢書, 1908, NDL pid 1885479, img. 10 (the
+  具注暦 of 応安七年, 8 January onward; the day entries; read by eye),
+  and its whole machine text, with the 御堂関白記 volumes (pids
+  2590937–2591262) and the 満済准后日記 (1287513, 1287515, 1287527),
+  for the counts of 日遊在内 (*OCR only*).
+- **The Ise kana almanacs** (伊勢度会暦, 伊勢内宮暦; NDL pids 2534319–2535242
+  and others), 302 dated copies of 1684–1871 by the catalogue's
+  volume field; their machine text read for the 金神 row (*OCR only*), and
+  by eye: 『[伊勢内宮暦]』 延享二年 (1745), pid 2534320, img. 2; 『[古暦帖]』 [5],
+  pid 2546786, img. 2 (the catalogue says 1669; the page's heading
+  reads 文化二年 乙丑); the 八将神's columns as a 明治44 book reproduces them,
+  『四十四年男女開運天眼鏡』 (小関金山, 1911), pid 904548, img. 10.
+- **塙検校伝** (渡辺知三郎, 1892, pid 781882, p. 21 of the text),
+  **塙保己一** (杉本文太郎, 1902, pid 781884), 『塙保己一先生』 (阪本百次郎,
+  1912, pid 781885), and the NDL catalogue's 『假名暦本名頒暦畧註』.
+- **Meiji almanac-books**: 『永代万暦大雑書大全』 (手塚貞彦, 1882, pid 759985,
+  img. 22), 『新選明治日用年代記』 (樺井達之助, 1884, pid 771737, img. 73),
+  『軽便』 (1894, pid 904217, img. 24); *OCR only*.
+
+### The 簠簋内伝's 八将神方 (HK1919 img. 9–10; Q484–487, 489)
+
+The table runs in rows across the twelve years, each row a god, written
+with leader lines; read on the scan:
+
+> 三　八将神方
+> 年　子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥
+> 大歳神方　子丑寅卯辰巳午未申酉戌亥
+> 大将軍方　酉酉子子子卯卯卯午午午酉
+> 大陰神方　戌亥子丑寅卯辰巳午未申酉
+> 歳刑神方　卯戌巳子辰申午丑寅酉未亥
+> 歳破神方　午未申酉戌亥子丑寅卯辰巳
+> 歳殺神方　未辰丑戌未辰丑戌未辰丑戌
+> 黄幡神方　辰丑戌未辰丑戌未辰丑戌未
+> 豹尾神方　戌未辰丑戌未辰丑戌未辰丑
+
+(The table's head, «年 子年より乃至亥の年・亥の方也», reads as "from the 子
+year to the 亥 year, the 亥 year's direction"; the rows are the year's
+branch in order.) Then:
+
+> 右八将神者牛頭天王王子。而春夏秋冬四十用行疫神也。太歳神方者厥歳其方也。以此一神方、諸餘七神方可知之者也
+
+"These eight generals are the princes of Gozu Tennō (牛頭天王),
+plague-bringing gods who act for forty days in each of spring, summer,
+autumn and winter. The 大歳's direction is that of its year; from this
+one, the other seven can be known." The glosses (the same page):
+
+> 第一太歳神 総光天王 本地薬師如来 向此方造作大吉、敢不截木
+> 第二大将軍 魔王天王 本地佗化自在天 向此方万事凶、故世人号二年塞
+> 第三大陰神 倶摩羅天王 本地聖観自在尊 向此方万事凶、殊嫁娶結婚等凶
+> 第四歳刑神 得達神天王 本地堅牢地神 向此方犯土凶、雖爾兵具収大吉
+> 第五歳破神 良侍天王 本地河泊大水神 向此方不渡海河、造作則牛馬死
+> 第六歳殺神 侍神相天王 本地大威徳 向此方不取弓箭、嫁娶結婚等凶
+> 第七黄幡神 宅神相天王 本地摩利支天 向此方開軍神幡吉、収財宝尤凶
+> 第八豹尾神 蛇毒気神 本地三宝大荒神 向此方大小便凶、宜不収六畜
+
+("In the first, the 大歳: building towards it is greatly good; do not
+fell trees. The 大將軍: everything towards it bad, so the world calls
+it the year's blocking (年塞). The 大陰: everything bad, marrying above
+all. The 歳刑: breaking ground bad, but gathering arms is greatly good.
+The 歳破: do not cross sea or river; if one builds, horses and cattle
+die. The 歳殺: do not take bow and arrow; marrying bad. The 黄幡: opening
+the war-god's banner is good, taking in wealth is worst. The 豹尾: urinating
+and defecating bad; it is fitting not to take in the six domestic animals.")
+The table was read in HK1919 only; the 1632 print (pid 2533009) and two
+other printings (pids 2544991 and 2532173, catalogue dates 1578 and
+1600 in machine form) have the eight glosses in their machine text,
+not compared further.
+
+**What this answers.**
+
+- **Q484** (the 大將軍's 仲 by the year): 亥子丑 → 酉, 寅卯辰 → 子,
+  巳午未 → 卯, 申酉戌 → 午, as the digests. Three texts give the same
+  assignment: this table; the 拾芥抄 (below); the 江次第抄 and the 簾中抄
+  as the 古事類苑 prints them (below). **Answered.**
+- **Q485** (the 歳殺): 申子辰 → 未, 巳酉丑 → 辰, 寅午戌 → 丑, 亥卯未 → 戌,
+  as the digests; the row above gives it year by year. **Answered**
+  (the 暦林問答集 gives none; this text does).
+- **Q486** (the 黄幡): the row gives 子 → 辰, 丑 → 丑, 寅 → 戌, 卯 → 未,
+  辰 → 辰, 巳 → 丑, 午 → 戌, 未 → 未, 申 → 辰, 酉 → 丑, 戌 → 戌, 亥 → 未:
+  the grave of the year's triad (申子辰 water → 辰; 巳酉丑 metal → 丑;
+  寅午戌 fire → 戌; 亥卯未 wood → 未), not of the year branch's own
+  agent (a 寅 year would give 未, the wood grave's own, if the branch's
+  agent; the row gives 戌). **Answered.**
+- **Q487** (the 歳刑's branch): the row gives a single branch for every
+  year, 子 → 卯, 丑 → 戌, 寅 → 巳, 卯 → 子, 辰 → 辰, 巳 → 申, 午 → 午,
+  未 → 丑, 申 → 寅, 酉 → 酉, 戌 → 未, 亥 → 亥, as the digests. **Answered
+  for the single branch**; whether the printed 方位吉凶図 shades the quarter or
+  the branch is below.
+- **Q489** (the 歳破 and livestock): the 簠簋内伝 says that building towards
+  it kills horses and cattle (牛馬死), and that one does not cross sea or
+  river: livestock stands on the bad side, as the 暦林問答集 §11 says it;
+  the NDL exhibition's «acquiring livestock good» is not in this text.
+
+### What the kana almanacs print (Q487, Q489)
+
+The glosses the Ise kana almanacs print under the eight, as read by eye
+on『[伊勢内宮暦]』 延享二年, pid 2534320, img. 2, and the 『[古暦帖]』 [5],
+pid 2546786, img. 2 (the columns of one year), and as the machine text
+of dozens of copies carries them (the lines are the same in all that
+were looked at): 大歳 «此方にむかひて万よし 但木をきらず»; 大將軍 «ことしまで
+三年ふさがり»; 大陰 «此方にむかひてさんをせず»; 歳刑 «むかひてたねまかず»;
+歳破 «むかひてわたましせず ふねのりはじめず»; 歳殺 «此方よりよめとらず»;
+黄幡 «むかひて弓はじめよし»; 豹尾 «むかひて大小へんせず ちくるいもとめず»
+(*the 豹尾's last words in the 1745 copy read «ちくるいもとめず», by eye
+on the 古暦帖's line*). Against the 簠簋内伝's glosses (above) these are
+the same, each cut to a clause: the 歳破's «ふねのり» is the 簠簋's «不渡
+海河», the 歳殺's «よめとらず» its «嫁娶結婚等凶», the 黄幡's «弓はじめ» its
+«開軍神幡吉», the 豹尾's «大小便・畜類» its «大小便凶、不収六畜». So:
+
+- **Q489**: the printed almanac of the Edo period has **no livestock rule
+  under the 歳破**; livestock stands under the 豹尾 («ちくるいもとめず»), as
+  in the 暦林問答集's §14 and the 簠簋内伝. The 暦林問答集's §11 clause is not
+  carried into the almanac. 柄沢照覚's 『方鑑図解大全』 (1913, pid 918621,
+  p. 11 of its text) and 『家相宝鑑図解』 (1909, pid 760113) repeat the
+  暦林問答集's: do not seek horses and cattle from the 歳破's direction.
+  The NDL exhibition's «acquiring livestock good» under the 歳破 is not
+  seen in any almanac read (dozens of copies, 1712–1860s, *OCR only*, and
+  the 1911 book's reproduction by eye), nor in any text; its source is
+  unknown. The 暦林問答集 §31's 歳對 (the 歳破's place, "harmless")
+  and §11 are not reconciled by any text read. **Narrowed**; the
+  paper 高島暦 still not seen (D12).
+- **Q487, the second half**: the Edo almanac's own 方位図 (a wheel of
+  twenty-four sectors, bottom of the page) names each god by a kana
+  label in **one sector**, not by shading a quarter (pid 2534320 img. 2,
+  by eye; which sector is which branch not mapped here). The almanac's
+  columns give one branch for the 歳刑 («さいけう ○の方», e.g. 戌 in the
+  乙丑 year) and for the 黄幡 (丑 in a 丑 year, the triad's grave). The
+  1911 book's reproduction gives for the 辛亥 year 大將軍 酉, 大陰 酉,
+  歳刑 亥, 歳破 巳, 歳殺 戌, 黄幡 未, 豹尾 丑: the table above for the 亥 year.
+  **Narrowed**: single branch in the columns and in the wheel.
+
+### The 拾芥抄 on the 大將軍, 王相 and 天一 and 太白 (SG img. 21–22; Q484, Q495)
+
+SG img. 21, the left page, the lower lines (read by eye; the machine text
+gives «発行説南復始» for the last four characters, the print reads
+«訖南復始», the 南 perhaps 而):
+
+> 今案云、大将軍大白之精、天之客、太一紫微宮方伯之神、不居四孟、常行四仲以正四方、三歳一移、百事不可犯之、仮令太歳在寅卯辰、大将軍常在子方、太歳在巳午未、大将軍在卯方、太歳在申酉戌、大将軍在午方、太歳在亥子丑、大将軍在酉方、訖南復始
+
+and img. 21 and 22, the next lines:
+
+> 歳次寅卯辰年在子方也、巳午未年在卯、申酉戌年在午、亥子丑年在酉、四十五日事、他人領宿留四十五日之後、自件所当大将軍者不可犯土造作云云
+
+("Now I consider: the 大將軍 is the essence of Venus, the guest of heaven,
+the governor god of the purple palace of Taiyi; it does not stay in the
+four 孟 but always goes in the four 仲 to set the four quarters right,
+moves once in three years, and nothing is to be done offending it. If
+the year star is in 寅卯辰, the 大將軍 is in the 子 direction; in 巳午未, in
+卯; in 申酉戌, in 午; in 亥子丑, in 酉; … and begins again. … " The year
+by year assignment is the digests' and the 簠簋内伝's. The passage is the
+暦林問答集 §8's quotation of the 新撰陰陽書 and then the assignment; the
+暦林問答集 stops before it.)
+
+The 天一太白 sentence, img. 22 (left page, left column; read by eye):
+
+> 天一太白方事　件方可忌正方一辰也、仮令十丈者、以一丈五尺六寸六分為正方、此外非忌限、大将軍王相諸禁忌方角皆同之、天一太白自大将軍王相八卦忌方重可忌避、是件大将軍方等日数久之故也、見保憲勘文之由宗明朝臣所談也
+
+"On the directions of 天一 and 太白. That direction is to be avoided as
+the exact quarter, one 辰 wide; for instance, if it is ten 丈, a one 丈
+five 尺 six 寸 six 分 is the exact quarter, and outside this is not the
+limit of avoidance. The same holds for the 大將軍's and the 王相's and all
+forbidden directions' corners. **天一 and 太白, more than the 大將軍, 王相
+and 八卦 forbidden directions, are to be avoided heavily; this is
+because those 大將軍 directions and the rest last many days.** It is said
+that this is to be seen in 保憲's 勘文, as 宗明朝臣 related." Then 保憲's
+saying: for neighbours' breaking of ground the 大將軍's and 王相's
+directions are avoided within 45 paces, the 八卦's within 300 paces, a
+little over four 町; but one's own breaking ground is avoided however
+far.
+
+The 故実叢書 (1906) prints the same, with its stops «天一太白。自大將軍王相
+八卦忌方。重可忌避», and the 古事類苑 (KJ img. 11) with its commas «天一
+太白自大將軍、王相、八卦忌方、重可忌避、是件大將軍方等、日數久之故也»;
+both break after 天一太白, 大將軍 … 忌方 as "than". The 簾中抄 as the 古
+事類苑 prints it says of 天一 «大かたいむことも、大將軍の方のごとし»
+(as to the rest of the avoidance, as the 大將軍's direction).
+
+**Q495, answered on the grammar and the sentence's own reason**: «自 A 重
+可忌避» is the comparison "more heavily than A", and the reason clause
+says why the others are weighed lighter: the 大將軍's, 王相's and 八卦's
+directions last many days (the 大將軍 three years, the 王相 a season),
+while 天一 and 太白 stay a few days (the 天一 five or six, the 太白 one).
+That the long-lasting ones were treated more lightly is also seen in a
+diary KJ img. 12 quotes («大將軍忌者、忌之内令他所給可宜», "as to the 大將軍's
+avoidance, it is fitting to lodge elsewhere within it") and in the 遊行
+days, when building towards the 大將軍's own direction is free (KJ img. 8). **Answered, the grammar's only doubt being
+that 自 can also be "from"** (then the sentence would say that the
+大將軍 etc. are avoided heavily because they last long, and 天一, 太白 are
+mentioned only as sharing the exact-quarter rule). The reason clause
+does not fit that reading: it would then explain the heavy avoidance of
+the long ones, and the heavy avoidance would be the same as the
+preceding sentence's, which already says the rule is the same for all.
+
+### Where the 大將軍's year begins (Q491)
+
+The year of the gods turns at 立春, not at the new year, wherever the
+old texts speak of when the avoidance begins:
+
+- the 簾中抄, as KJ img. 18 prints it: «方違のことは、節分のまへの夜より、
+  我家に、一夜もとどまらず», "of 方違え: from the night before the
+  節分 one does not stay a night at one's own house";
+- the 方角禁忌撰 (KJ img. 18): «假令大將軍移東之年、立春之前夜違方後、毎夜可違之»,
+  "if the 大將軍 has moved to the east, from the night before 立春, after
+  the 方違え, one makes the 方違え each night";
+- the 山槐記 (KJ img. 20), 安元元年十二月十七日: a 方違え to a house «節
+  是明日依立春也», "because tomorrow is 立春" (the 立春 falling before the
+  new year, in the twelfth month);
+- the 拾芥抄 (SG img. 26), on the 八卦's: «普通之習、従立春節居住所忌避也»,
+  "by common practice one avoids the dwelling from the 立春 節".
+
+All four speak of the 大將軍 or the 八卦's and the 方違え, none of the
+eight as a set; the 暦林問答集 is silent. **Narrowed**: for the 大將軍 the
+year turns at the eve of 立春 in the court practice; for the others
+nothing is said, and the almanacs print the whole year's set at its head.
+
+### 日遊 (Q492, Q493) and 天一 (Q494)
+
+**Q492.** The court's 具注暦 marks the days «日遊在内». Counted over the
+machine text of the 洞院公定日記's 応安七年 具注暦 (pid 1885479), six
+volumes of the 御堂関白記 and three of the 満済准后日記 (*OCR only*; some 150–190 entries of each day's 干支 in all, the entry
+taken from its heading «NN日<干支>» to the next, and the note searched
+within it): the 日遊在内 stands on the days 甲午 to 己酉 (and,
+the 癸 days being badly read, on the 癸巳 and 癸卯 between them) and on
+**every 戊 and 己 day** (戊辰 戊寅 戊子 戊戌 戊申 戊午; 己巳 己卯 己丑 己亥
+己酉 己未), at some 20–45% of the entries of each (the rest lost to the
+OCR) and at 0–7% of every other day. By eye on pid 1885479 img. 10: the
+具注暦 gives «日遊在内» to **十二日戊寅** and **十三日己卯** (beside «大歳對 …»),
+none to 十一日丁丑, 十日丙子 or 九日乙亥. So the court almanac kept the
+暦林問答集's rule (seventeen days, and the 戊・己 days), not the
+曆例's sixteen. **Answered for the old almanac**; whether the printed
+almanac of today marks the 戊・己 days stays D12's.
+
+**Q493.** Nothing. The 具注暦 says only «日遊在内»; 日遊 on a day not in
+the house is not given a direction in any text read (the 暦林問答集 §43,
+the 拾芥抄, the 簠簋内伝, the 古事類苑, the 大唐陰陽書's day lists, the
+Meiji books); the NDL search for 日遊在東, 在南, 在西, 在北, 日遊遊行 and
+日遊神遊行 found no page (「日遊在外」 hits only the Indian sun's course
+in Buddhist texts). **Dead end.**
+
+**Q494.** The 洞院公定日記's 具注暦 prints 天一's direction on the first
+day of each stay: 丁丑 西, 壬午 戌亥, 戊子 子, then 天上 (壬辰; the 癸巳
+unread); 乙卯 卯, 庚申 辰巳, 丙寅 午, 辛未 未申, 丁丑 酉 (img. 10 and the
+machine text over the five months): the starts 乙卯, 庚申, 丙寅, 辛未,
+丁丑, 壬午, 戊子 are five, six, five, six, five, six, five days apart, the
+暦林問答集's count. So the 簾中抄's «天一五日づふたがる乙卯の日より、五日は卯
+のかたにあり、…そののちしだいにめぐる、こよみにつきたり» is the first stay
+(five days in the east, from 乙卯) and a general "five days at a time", the
+exact days being "in the calendar"; **not a different reckoning in the
+court's almanac**. The Meiji books' five days from 庚戌 are not
+explained by any older text read; the 庚戌 is the day after the 暦林問答集's
+己酉 start. **Narrowed.**
+
+### 金神 (Q497–Q501)
+
+**Q497, Q498: the 拾芥抄's table.** SG img. 26 (read by eye):
+
+> 金神七殺方事　〔小〕当二白九紫方時無忌
+> 甲己年在午未申酉方、乙庚年在辰巳方、丙辛年在寅卯午未子丑方、丁壬年在寅卯戌亥方、戊癸年在申酉子丑方
+> 已上作犯一拝殺七人、家人不足、隣人慎之。大呂才百忌暦文也、但異本文章頻有削乎
+
+("The 金神's seven killings. … Offending it in building kills seven
+of the household; its people are not enough, neighbours beware. This is
+the text of 呂才's 百忌暦, but in other copies the wording has often been
+cut.") The small note: "if it falls on the 二白 or 九紫 direction, no
+avoidance at that time". This is **neither of the 簠簋内伝's two tables**:
+乙庚 is 辰巳 only (§5 辰巳戌亥, §6 寅卯辰巳: the common two) and 丙辛 is
+六方 子丑寅卯午未 (§5 子丑寅卯, §6 子丑午未: the two together); 甲己, 丁壬,
+戊癸 as in both. The Edo almanacs print this table: in the Ise almanacs
+(machine text, some seventy dated copies, 1712–1860) the row after the 歳徳 is
+甲己 «むまひつし … さるとり» (午未申酉); 乙庚 «たつ» and «み» (辰巳; by eye
+in the 延享二 copy, pid 2534320 img. 2, the 金神 label with «たつ» on one
+side and «み» on the other); 丙辛 «ねうしとら(う) … うむまひつし» (子丑寅卯
+午未); 丁壬 «とら(う) … いぬ(い)» (寅卯戌亥); 戊癸 «ねうし … さるとり» (子丑申酉).
+**Q497 answered: the Edo almanac followed the 拾芥抄's table, and
+today's 乙庚 = 辰巳 alone is that table's row**; the 拾芥抄's own
+attribution is to the 百忌暦. **Q498 answered: 戊癸 = 申酉子丑 in the
+簠簋内伝 (§5, §6), the 拾芥抄 and every almanac read; 午未申酉 is
+the 甲己 row, and koyomi8's is a slip.**
+
+**金神遊行 in the 拾芥抄** (img. 54–55, read by eye; the heading «金神遊行事»
+is the last line of img. 54): «春乙卯日より六日東に有り、夏丙午日より六日南に
+有り、秋辛酉日より六日西に有り、冬壬子日より六日北に有り», "six days", where
+the 簠簋内伝 §8 says five; the 拾芥抄 gives no §7 (the 寅 days). Then
+the 大將軍's: «甲子東行て己巳本処返、丙子南行て辛巳本処返、戊子中央行て癸巳
+本処帰、庚子西行て乙巳本処返、壬子北行て丁巳本処返» (so the 暦林問答集
+§54, with the return days given), «此日間行て妄子細四方固» (the last words
+not read with certainty). The Meiji books print both 遊行: 『永代万暦大雑書大全』
+(1882, pid 759985, img. 22) and 『軽便』 (1894, pid 904217, img. 24) give
+both lists, by the 寅 days and by the seasons, five days each, and add
+that on the 遊行 days the god's own direction may be used («遊行日ハ本方ヲ用
+ルモ妨ナシ»); 『新選明治日用年代記』 (1884, pid 771737, img. 73) gives the
+seasons six days each. *OCR only.*
+
+**Q499 (which 遊行 wins).** No text says. The 簠簋内伝 (§7, §8), the
+Meiji books and the digests give the two lists side by side without a
+rule; the only thing said is that on a 遊行 day the god's own direction is
+free. **Not found.**
+
+**Q500 (the 戊寅 days).** The 簠簋内伝 (§7) puts the god on the 戊寅
+days in the centre, the small note under it «丑未辰戌», and the 1919
+printing adds that the saying "all ten directions are blocked" is wrong.
+The note names the four 丑未辰戌 as the directions on those days; so
+the sentence denies a universal block, not the four, and it does not
+make every outer direction free. The 『新選明治日用年代記』 and the
+Meiji books name only "the centre". **Narrowed**; no text says the
+other directions are "free".
+
+**Q501 (the 假名暦略註).** 塙保己一's works are listed in his lives as
+«假名暦略註 暦の諺解 壹巻» (the 塙検校伝, 1892), «假名暦略註 暦の該を解し
+たもの» (1902, with the reading かなごよみりやくちう in 1912); the NDL
+catalogue lists 『假名暦本名頒暦畧註』 by 塙保己一 (1746–1821), dated 1806,
+subtitle «寳暦甲戌元暦» (pids 14487066 and 13589337, no machine text; the
+静嘉堂 catalogue lists it too). The 古事類苑's quotation is a glossary
+in kana («大さい 漢字太歲也», «きもん 漢字鬼門», «天一天上 …», «金神 正説なし, …»),
+which is what a "vernacular gloss of the calendar" is. **Answered
+as very probable**; the text itself not open, so the quotation not
+found in it. (The «頒暦略注» listed in 新城新蔵's 『迷信』 and the
+«増補頒暦略註» of 1806 by 小島好謙 named in 林鶴一's 『本邦編暦史』 are
+other works.)
+
+### Open
+
+- Question: does the printed 方位吉凶図 of today's almanac (高島暦) shade
+  the 歳刑's quarter or its one branch, and which sector of the Edo
+  almanac's wheel is which branch (the wheel names each god in one of
+  twenty-four sectors; its orientation was not mapped)?
+- Question: is the 拾芥抄's 天一太白 sentence read as "more strictly
+  than" by the tradition itself (a commentary on the 拾芥抄, the
+  Edo 拾芥抄 notes), or only on the grammar?
+- Question: what is the date of the 簠簋内伝's 八将神 table, and of the
+  拾芥抄's 金神七殺方 (both are in prints whose catalogue dates are only
+  those of the printing)? The attributions (安倍晴明; 洞院公賢) are the
+  books' own and the catalogue's.
+- Question: why does the 暦林問答集 (§11) forbid livestock from the 歳破's
+  direction while the 簠簋内伝 and the kana almanacs put livestock under
+  the 豹尾 (and the 簠簋's 歳破 kills livestock only if one builds)? And
+  what text is the NDL exhibition's «acquiring livestock good» under the
+  歳破?
+- Question: is the five-day 天一 from 庚戌 in the Meiji 大雑書 a
+  schematic, or a different tradition (the 庚戌 is the day after 己酉)?
+
+### Searched and not found
+
+- 日遊's outer course in a Japanese text: not in the 暦林問答集 §43, the
+  拾芥抄, the 簠簋内伝, the 古事類苑's entries, the 大唐陰陽書 (its day
+  lists), the 具注暦 of 応安七, the 御堂関白記 and the 満済准后日記
+  (only 日遊在内); NDL full-text queries 日遊在東, 日遊在南, 日遊在西,
+  日遊在北, 日遊遊行, 日遊神遊行 (2026-11-01): no page.
+- A text that says which 金神遊行 wins: not in the 簠簋内伝, 拾芥抄, the
+  Meiji almanac-books read (three) or the 古事類苑.
+- The 歳破's «livestock good»: not in the kana almanacs (dozens of copies,
+  1712–1860s, machine text; two by eye), not in the 簠簋内伝, 拾芥抄 or
+  古事類苑.
+- An old text that gives the 歳殺's, 黄幡's and 歳刑's branches in a
+  triad rule rather than a table: the 暦林問答集 (§10 gives the 歳刑
+  by quarter); the 簠簋内伝 gives only the table.
+- The 假名暦略註's own text: the NDL pids 14487066 and 13589337 have no
+  machine text and no open images (2026-11-01).
