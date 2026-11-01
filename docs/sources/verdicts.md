@@ -7333,3 +7333,13 @@ Nothing read yet: RD108's passages, with the English beside them, go here.
 ## WB ch. 25's open questions: the illness classes, the fifth pebble's trigram, the shares, the ransoms (RD111)
 
 Nothing read yet: RD111's passages, with the English beside them, go here.
+
+
+## Catalogue questions: the *Clear Lamp*'s commentary, the *Little Red Tiger-Head*, the deciding pebble's spelling, the sheets' date (RD116)
+
+Nothing read yet: RD116's passages, with the English beside them, go here.
+
+
+## The practitioners' manuscripts: the dead's speckled deciding pebble, the numbered cells, the life reckoning's blanks (RD106)
+
+Nothing read yet: RD106's passages, with the English beside them, go here.
