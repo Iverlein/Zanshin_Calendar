@@ -1,5 +1,7 @@
 # White Beryl, chapter 33: what it holds
 
+Read by RD112 (2026-11-01): the open questions of this chapter; findings in [corpus/wb/ch33.md](corpus/wb/ch33.md) and verdicts.md.
+
 Sigla, numbering and quoting rules are in [README.md](README.md). WB vol. 2,
 1996 Beijing edition; printed page = image number − 8. One line per
 section, from the BDRC OCR of each page (img. 305–358, 2026-10-03; img. 359–384, the etext, 2026-10-10): enough
