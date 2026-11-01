@@ -135,6 +135,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/ch32-lto-phye-ninth-part-digging.md](claims/ch32-lto-phye-ninth-part-digging.md) | claim, rule | Ch. 32: digging in the part where Lto-'phye lies | cites wb.2:p282, wb.2:p281; feeds block-31 |
 | [claims/ch32-outer-door-places.md](claims/ch32-outer-door-places.md) | claim, table | Ch. 32: the outer door by its place on each side | cites wb.2:p287; feeds block-31 |
 | [claims/ch32-rooms-by-direction.md](claims/ch32-rooms-by-direction.md) | claim, list | Ch. 32: the rooms and works of a house by direction | cites wb.2:p287; feeds block-31 |
+| [claims/ch32-serpent-walk-by-house-day.md](claims/ch32-serpent-walk-by-house-day.md) | claim, rule | The serpent's place for the first stroke is its walk by the house-day, not the day's mansion | cites wb.2:p281, lcm:p181-182, bsb:p435-436, sdp:p238-241; feeds block-25 |
 | [claims/ch35-grammar-days-to-beware.md](claims/ch35-grammar-days-to-beware.md) | claim, list | WB p. 432: the dates to beware of for grammar | cites wb.2:p432; feeds — |
 | [claims/ch35-khyung-nag-shak-dar-phugpa.md](claims/ch35-khyung-nag-shak-dar-phugpa.md) | claim, note | WB ch. 35 pp. 450–451: Khyung nag Shākya dar the Phugpa named for the practice of black reckoning | cites wb.2:p450, wb.2:p451; feeds — |
 | [claims/ch35-manjushri-voice-parts-of-reckoning.md](claims/ch35-manjushri-voice-parts-of-reckoning.md) | claim, note | WB ch. 35 p. 449: the parts of reckoning read as the parts of Mañjuśrī | cites wb.2:p449; feeds — |
@@ -336,6 +337,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/remains-trigram-road.md](claims/remains-trigram-road.md) | claim, table | The trigram's road of the remains | cites wb.2:p97-100; feeds block-31 |
 | [claims/remains-year-month-lords.md](claims/remains-year-month-lords.md) | claim, list | The year's and the month's earth lords the remains avoid | cites wb.2:p96-97; feeds block-31 |
 | [claims/rmang-po-childless-as-printed.md](claims/rmang-po-childless-as-printed.md) | claim, note | «རྨང་པོར་འགྲོ» as printed: to go to rmang po, bereft | cites wb.2:p104; feeds block-31 |
+| [claims/sdp-jug-phod-is-vishti.md](claims/sdp-jug-phod-is-vishti.md) | claim, definition | «འཇུག་ཕོད» in Sādhuputra's ground rite is Viṣṭi | cites sdp:p238-241; feeds block-25 |
 | [claims/sgab-one-word-everywhere.md](claims/sgab-one-word-everywhere.md) | claim, note | «ཤི་སྒབ» is one word at every place of the thirteenth examination | cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784; feeds block-31 |
 | [claims/sick-nineteen-pebbles.md](claims/sick-nineteen-pebbles.md) | claim, rule | The nineteen pebbles serve the sick and the newborn, over year, month, day and hour | cites dz:i051-052, lt:p20, lt:p43-44, wb.1:p445; feeds block-32 |
 | [claims/sky-dog-weight-for-bride.md](claims/sky-dog-weight-for-bride.md) | claim, note | The sky dog of particular weight for a bride; no earth lord among the unmendable | cites kd.3:p641-642, lt:p38-41, ut:p240-243; feeds T2.26, D4 |

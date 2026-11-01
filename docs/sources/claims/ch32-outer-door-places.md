@@ -18,3 +18,5 @@ WB vol. 2, ch. 32, p. 287 (img. 293 of the Gser thang reprint, Yigdzin-1 reading
 | north (བྱང) | 1, 2, 3, 8 | 7 | 4, 5, 6 |
 
 The doors at the four corner directions are all bad. East and south are good sides in general. The stable's (བྱན་ཚང) door is turned east and the pen's door south; the store's door south. Of the doors, the outer one belongs chiefly to the man, the inner to the woman; the side of the owner's power (དབང་ཐང) and of the mother is the lucky one, and the door of the father's kin faces the element (ཁམས) of the mother. Doubts: the numerals were read by Yigdzin-1 only; the east and south rows are not checked against the 1996 etext; whether places count clockwise is not in the lines.
+
+RD114 (2026-11-01, scan, img. 293 enlarged): the page prints ordinal words, no digits. The east line's first «དང་» is the first place cut short for the metre (every line of the table has seven syllables, and the other three sides name all eight places), so the east's place 1 is bad as listed. The direction of counting is not on the page, and no other text found gives it (six BDRC phrasings, no hit).
