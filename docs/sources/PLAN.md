@@ -1177,3 +1177,9 @@ Searched and found wanting, so not to be repeated:
   - «བུ་ནས་གཟུགས་དང་མར་བཅོས», «ཤི་ལོའི་སྤར་སྨེ», «ཟན་བརྣངས་ལར་ན», «ཟན་གཏད་མི་རུང་བཅུ་གསུམ», «གཤེད་བཞིའི་རྡེལ་སྒོ», «ཐོག་གྲི་རྐུན་པོ», «ལྟོང་དམར་ཆུ་གྲི», «གྲི་རིགས་བཅུ་གསུམ», «སྤྲེ་ཤལ་བཟེད་རབས་ཆད»: no text but WB's in BDRC's full-text search.
   - «ཚེ་སྔོན་ཕྱི་གུ», «གཅོད་གྲི་བཅུ་གསུམ»: no hit. «བརྡེ» as a headword: none in Steinert's 64 dictionaries; «བརྗེ» only.
   - No other list of the thirteen blades in BDRC's search (q281).
+- **RD100 dead ends** (RD100, 2026-11-01):
+  - BDRC full-text search for «རྟ་ཞག་སྔོན་པོ»: no hit; the Garland (KD vol. 3 etext p. 556) has «རྟ་ཞོག་ནི། སྔོན་པོའི་ཕྱིར», no gloss; no dictionary has «རྟ་ཞག» or «རྟ་ཞོག».
+  - Steinert's dictionaries, no headword: ja gshang, sngo thul, glong rgyas, yos ston, 'brang ma, da pa sri, thel 'gong, g.yo 'khrug, the'u bsen, gung phur, hal khyi, «ཁ་ལན» (only «ཁ་ལེན»).
+  - The commentary's continuation after WB's closing verse (search-only MW1KG10375, MW1PD152297): only the Moonbeams' own lines on the base and the count; no word on 241.
+  - The Zhol print's p. 472 l. 1–2 (WBZ img. 628): too cursive at 1.3× to tell ཁོན from བོན.
+  - A statement of whose year serves for points 12–13, 16, 18–20, 22, 26–30, and a worked example of the thirty with a number of years: none in the Garland, the Moonbeams (KD) or the search-only texts.
