@@ -898,6 +898,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0547.md](questions/q0547.md) | question q547 | In which direction are the eight places of a side of the outer door counted (p. 287) | open; cites — |
 | [questions/q0548.md](questions/q0548.md) | question q548 | Padma dkar po's «ཆ་དགུའི་ས» and WB's «དགུ་ཆའི་སར» on p. 282 | open; cites — |
 | [questions/q0549.md](questions/q0549.md) | question q549 | Is the lintel's verb on p. 294 «སྦས», hidden | open; cites — |
+| [questions/q0550.md](questions/q0550.md) | question q550 | What reckoning brings the Black Moon and the lords after it to a given day | open; cites — |
+| [questions/q0551.md](questions/q0551.md) | question q551 | Which Sanskrit yogas are WB's good «self-born three, five, seven and two, eight, six» | open; cites — |
 
 <!-- end pool index -->
 

@@ -1243,3 +1243,7 @@ Searched and found wanting, so not to be repeated:
   - A mansion tied to the serpent's body: BDRC «ལྟོ་འཕྱེ་དང་རྒྱུ་སྐར», «ལྟོ་འཕྱེའི་ལུས་རྒྱུ་སྐར», «སྐར་མའི་རྒྱུ་ཕྱོགས་ལྟོ་འཕྱེ» no hit; «ལྟོ་འཕྱེའི་མཆན་ཁུང» four hits, none giving a mansion for a part of the body.
   - The direction of counting the door's places: six BDRC phrasings no hit; the verse «ཞིབ་པར་ཕྱོགས་རེར་བརྒྱད་རེ་ཕྱེ» stands only in WB's prints and the Bzo rtsis zlos gar, none with a direction.
   - The Sa dpyad phyogs bsgrigs that BSB cites was not searched by title.
+- **RD112 dead ends** (RD112, 2026-11-01):
+  - BDRC full-text: «ཟླ་ནག་ས་བདག» no hit; «ཁ་དབོན» only in the Bon Kanjur catalogue, unrelated; «ལི་ནི་བཤན་པའི་ཐོད་པ» in WB's etexts and a Nyingma ritual collection (MW1KG2733, search only: not opened).
+  - Dictionaries: «གནམ་སྒོ», «ཟླ་ནག», «ཁ་དབོན», «གཟའ་རྒོད» not listed; «ཧལ་ཁྱི» only inside an abbreviation list.
+  - Dhaniṣṭhā-yoga: the editors' note on Bharaṇī (p. 329) was not reached; no dictionary lists «ཕུང» as a planet.
