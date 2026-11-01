@@ -1294,3 +1294,8 @@ Searched and found wanting, so not to be repeated:
   - The verse of p. 362 and the notes' p. 526 in the Chengdu typeset notes (I1PD34647 img. 571–573): not on those leaves.
   - BDRC full-text search for «གནས་སྒྱུག་སྤར་ཁ» and «ཤིང་དུར་ལུག»: not run; bdrc_search.py did not start (Chromium 1248 missing).
   - A rule that the verdict's colour picks one of the trigram's three rites, in WB pp. 104–105 and the notes' p. 517: none.
+- **RD126 dead ends** (RD126, 2026-11-01):
+  - «མ་སྤར» glossed beside the clause on the Zhol print or in the lines around it (img. 512, ll. 3–6): none; the block reads as the 1996 print.
+  - A gloss of «ངོ་ཐོག» or «ངོ་ཐེག» in the lines of img. 498–500: none.
+  - p. 403's «འདུ་ལོང» or «འདི་ལོང» on the Taikhang reproduction: not fetched.
+  - claims/wb-count-by-place-kha-smrang.md still says the Zhol print was not read: to update.

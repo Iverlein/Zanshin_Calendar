@@ -3316,8 +3316,8 @@ What follows for question 81: on the Zhol print p. 405's lines sit under the hea
 
 ### Open
 
-- Question: P. 381's «ངོ་ཐོག» or «ངོ་ཐེག» (Zhol img. 499, l. 2): the blocks' vowel sign over ཐ is not told at 4× and Yigdzin-1 reads ོ; does another impression of the blocks, or a reader of the tradition, carry «ཐོག», the top, or «ཐེག»?
-- Question: P. 390, «མ་སྤར་ལི» for the son and «མ་སྤར་ཁམ» for the daughter (Zhol img. 512, l. 4): the line's close «ཚོར་བ་དཀའ», "hard to feel", is the daughter's secret obstacle's own; is that why the daughter's is named last and with no symptoms?
+- Question 578 ([q0578](questions/q0578.md)): P. 381's «ངོ་ཐོག» or «ངོ་ཐེག» (Zhol img. 499, l. 2): the blocks' vowel sign over ཐ is not told at 4× and Yigdzin-1 reads ོ; does another impression of the blocks, or a reader of the tradition, carry «ཐོག», the top, or «ཐེག»?
+- Question 579 ([q0579](questions/q0579.md)): P. 390, «མ་སྤར་ལི» for the son and «མ་སྤར་ཁམ» for the daughter (Zhol img. 512, l. 4): the line's close «ཚོར་བ་དཀའ», "hard to feel", is the daughter's secret obstacle's own; is that why the daughter's is named last and with no symptoms?
 
 ### Searched and not found
 
