@@ -7911,11 +7911,11 @@ Many white, a white pebble; many black, black; even, the white-black pair; how l
 
 ### Open
 
-Question: Is the heaven-earth-between-mountain «རྡེལ་དོན་གཉིས» of the tenth examination's strikes (p. 48, 72 pebbles) one of its identifying pebbles, as «ངོས་རྡེལ» (the 1,200 that follows it) is, or one of its 136 result pebbles; with the 72 among the identifying the tenth's pieces add to 1,950 against 1,952, without it to 1,878?
+Question 567 ([q0567](questions/q0567.md)): Is the heaven-earth-between-mountain «རྡེལ་དོན་གཉིས» of the tenth examination's strikes (p. 48, 72 pebbles) one of its identifying pebbles, as «ངོས་རྡེལ» (the 1,200 that follows it) is, or one of its 136 result pebbles; with the 72 among the identifying the tenth's pieces add to 1,950 against 1,952, without it to 1,878?
 
-Question: Why does Mipham (p. 513) take the twelfth's day (86), hour (74) and Rahu (133) as identifying counts with deciding pebbles beside them (6, 4, 12), when WB's own items of p. 50 add to 80, to 79 against 70 and to 121 with those results already inside the block's total?
+Question 568 ([q0568](questions/q0568.md)): Why does Mipham (p. 513) take the twelfth's day (86), hour (74) and Rahu (133) as identifying counts with deciding pebbles beside them (6, 4, 12), when WB's own items of p. 50 add to 80, to 79 against 70 and to 121 with those results already inside the block's total?
 
-Question: Is the hour's sky dog forty-three («ཞེ་གསུམ») in the twelfth's block of 74 and the fourteenth's of 597, as printed on all three prints, or does a figure in the block (the gods' 15 or 17, the hidden's 13) account for the 9 by which the twelfth's pieces and the 6 by which the fourteenth's earth lords' pieces are over?
+Question 569 ([q0569](questions/q0569.md)): Is the hour's sky dog forty-three («ཞེ་གསུམ») in the twelfth's block of 74 and the fourteenth's of 597, as printed on all three prints, or does a figure in the block (the gods' 15 or 17, the hidden's 13) account for the 9 by which the twelfth's pieces and the 6 by which the fourteenth's earth lords' pieces are over?
 
 ### Searched and not found
 

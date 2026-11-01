@@ -1272,3 +1272,8 @@ Searched and found wanting, so not to be repeated:
   - A word-by-word gloss of p. 349's «རུས་ཆེན་ཁམས་ཀྱི་གཤེད་ལོར་སོང་» in the notes' pp. 488–489: none (the notes name only «ཕ་ཡི་དྭ་ཟླས»).
   - A second worked example of the luck's mewa in the Zhol print's pp. 255–258 or the hidden's page: none.
   - Doubt on the scan: img. 467, l. 4, «ཡར» and «ལྔ་སྨེ» read at 2× only; a 6× crop of both syllables would settle them.
+- **RD117 dead ends** (RD117, 2026-11-01):
+  - The fourth examination's 87 explained: in Mipham's notes (pp. 499–522) by Yigdzin-1's reading searched for «བརྒྱད་ཅུ་བདུན» and «གྱ་བདུན» (only the year's 287 on p. 513), in the 1996 etext's other occurrences of «བསྒྲིལ་བས» (two): none.
+  - The sub-counts of the sky's round (the 78 and 1,874) in the results pages (Yigdzin-1 over img. 60–151): none; the one hit of «ཉེར་བརྒྱད» is twenty-eight recitations of the Heart Sutra (p. 121).
+  - The count lines on the Zhol print and the Sakya Centre print by their BDRC etexts (IE0OPI7850CC9C, IE0OPI0BA3A0E0): corrupt at these lines; the Zhol scans' leaf for p. 50 not looked for.
+  - A rule sizing the rites by the colour of the thirteenth's verdict in the notes' p. 517: none.

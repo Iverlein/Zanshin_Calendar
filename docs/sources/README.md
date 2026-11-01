@@ -937,6 +937,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0564.md](questions/q0564.md) | question q564 | The limbs' verdict in Sprugtön's reckoning | open; cites wb.2:p23 |
 | [questions/q0565.md](questions/q0565.md) | question q565 | Revatī among p. 348's very bad and accomplishing mansions | open; cites wb.1:p348 |
 | [questions/q0566.md](questions/q0566.md) | question q566 | p. 349's «དྭ་ཟླ་རུས་ཁམས་ཟླ་བ་ན»: the clan element's months and the executioner year | open; cites wb.1:p349 |
+| [questions/q0567.md](questions/q0567.md) | question q567 | The tenth examination's «རྡེལ་དོན་གཉིས» of the strikes | open; cites wb.2:p48 |
+| [questions/q0568.md](questions/q0568.md) | question q568 | Mipham's reading of the twelfth's day, hour and Rahu as identifying counts | open; cites wb.2:p50 |
+| [questions/q0569.md](questions/q0569.md) | question q569 | The hour's sky dog 43 in the twelfth's and fourteenth's blocks | open; cites wb.2:p50, wb.2:p51 |
 
 <!-- end pool index -->
 
