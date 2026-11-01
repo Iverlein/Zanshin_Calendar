@@ -7172,7 +7172,13 @@ Nothing read yet: RD103's passages, with the English beside them, go here.
 
 ## The dead's open questions, pp. 44–75: the preliminary, the la board, the first four examinations, the funeral shares (RD95)
 
-Nothing read yet: RD95's passages, with the English beside them, go here.
+Read 2026-11-01, partly: the count lines of pp. 47 and 50 by eye on the Gser thang reprint (I3CN5029 img. 053, 056), the 1996 etext of pp. 44–51 for the sums, Steinert's dictionaries for the words. Passages wb.2:p47 and wb.2:p50 (in [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md)); claims [wb-ch29-counts-recomputed](claims/wb-ch29-counts-recomputed.md) (questions 65, 212 not touched), [wb-ch29-fourth-87-on-three-prints](claims/wb-ch29-fourth-87-on-three-prints.md) (66), [wb-planets-mansions-1874-against-1828](claims/wb-planets-mansions-1874-against-1828.md) (200), [wb-ch29-words-in-the-dictionaries](claims/wb-ch29-words-in-the-dictionaries.md) (273, 278, 287 in part), [wb-sbo-is-dbo-uttara-phalguni](claims/wb-sbo-is-dbo-uttara-phalguni.md) (284), [wb-funeral-shares-chol-ba-irregular](claims/wb-funeral-shares-chol-ba-irregular.md) (277).
+
+Not reached: 212, 265, 268–272, 274–276, 279–283, 285, 429 (no new evidence this reading); BDRC's full-text search was not run.
+
+### Searched and not found
+
+- «ཁྲ་བོ་བློ་ཐུབ» as a pair, «བསེ་རགས», «རགས», «བྱེ་ཐག», «ཏིང་མཉྫི», «སླ་ང་རྩེས», «སྟེང་འཁོར», «ཟོ་བ་ཞབས་བརྡོལ», «སིག་ལྐོགས», «སྐྱར་མ», «སེལ་གོག», «བང་ས་དུ་རུ་ཅན», «ཕན་ངོན», «ཐལ་ཤལ», «གསང་ཤིད་ཟུ», «ཕྱི་གུ»: no headword in Steinert's 64 dictionaries (2026-11-01).
 
 
 ## The dead's open questions, pp. 97–143: the doors and the bearer, the thirteenth examination's rites, the grave provisions (RD97)

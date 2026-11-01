@@ -355,6 +355,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-bride-family-white-arrows.md](claims/wb-bride-family-white-arrows.md) | claim, rule | The family wheel, the white wheels and the arrows wheel | cites wb.2:p407-411; feeds — |
 | [claims/wb-bride-wheels-couple.md](claims/wb-bride-wheels-couple.md) | claim, rule | The marriage wheels on the couple's bodies and signs | cites wb.2:p407-411; feeds — |
 | [claims/wb-ch29-colophon-sources.md](claims/wb-ch29-colophon-sources.md) | claim, note | WB ch. 29's colophon: the sources of the reckoning for the dead | cites wb.2:p142-143; feeds block-31 |
+| [claims/wb-ch29-counts-recomputed.md](claims/wb-ch29-counts-recomputed.md) | claim, note | WB ch. 29's counts recomputed: the parts close, the whole is 57 over | cites wb.2:p50; feeds block-31 |
+| [claims/wb-ch29-fourth-87-on-three-prints.md](claims/wb-ch29-fourth-87-on-three-prints.md) | claim, note | The fourth examination's 87 is on three prints and fits none of its figures | cites wb.2:p47; feeds block-31 |
+| [claims/wb-ch29-words-in-the-dictionaries.md](claims/wb-ch29-words-in-the-dictionaries.md) | claim, definition | WB ch. 29's unexplained words that the dictionaries do gloss | cites wb.2:p54-55, wb.2:p57-58, wb.2:p58-60, wb.2:p60-62, wb.2:p65-66, wb.2:p66-68, wb.2:p68-70; feeds block-31 |
 | [claims/wb-ch34-digging-figure-measure.md](claims/wb-ch34-digging-figure-measure.md) | claim, rule | Ch. 34's digging figure: ten mtho long, the eight are the eight nāgas, a cubit deep | cites wb.2:p387, wb.2:p281; feeds block-25 |
 | [claims/wb-ch34-digging-figure-sums-agree.md](claims/wb-ch34-digging-figure-sums-agree.md) | claim, note | Ch. 32's and ch. 34's counts of the digging figure sum to four mtho at the navel if one mtho is twelve finger-breadths | cites wb.2:p281, wb.2:p387; feeds block-25 |
 | [claims/wb-ch34-gdong-thug-shunned.md](claims/wb-ch34-gdong-thug-shunned.md) | claim, rule | གདོང་ཐུག་གནས in the fierce rites is the lord's seat that one would face | cites wb.2:p427b; feeds block-25 |
@@ -379,6 +382,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-fierce-works-facing-seat.md](claims/wb-fierce-works-facing-seat.md) | claim, rule | On the earth lords' best day for fierce works, the place facing them is still shunned | cites wb.2:p427b, wb.2:p364-365; feeds T2.26 |
 | [claims/wb-five-days-gya-bdud.md](claims/wb-five-days-gya-bdud.md) | claim, rule | The five days: Gyā, Jung-wa, Yangdag, Nectar, Destroyer, Demon | cites wb.2:p224-225; feeds — |
 | [claims/wb-fixed-earth-lords-72.md](claims/wb-fixed-earth-lords-72.md) | claim, list | The seventy-two fixed earth lords by quarter and element | cites wb.2:p175-176; feeds — |
+| [claims/wb-funeral-shares-chol-ba-irregular.md](claims/wb-funeral-shares-chol-ba-irregular.md) | claim, note | The six «འཆོལ་བ» funeral shares are the irregular ones | cites wb.2:p68-70; feeds block-31 |
 | [claims/wb-hal-khyi-mothers-sons-days.md](claims/wb-hal-khyi-mothers-sons-days.md) | claim, rule | The black hal khyi's five mothers and five sons hold 22 days each, 110 in all | cites wb.2:p185b; feeds — |
 | [claims/wb-hal-khyi-pairs-no-seat-on-any-print.md](claims/wb-hal-khyi-pairs-no-seat-on-any-print.md) | claim, note | No print or digest gives a seat to the hal khyi's mothers and sons | cites wb.2:p185b, wb.2:p185c; feeds — |
 | [claims/wb-khyad-par-du-singles-out.md](claims/wb-khyad-par-du-singles-out.md) | claim, note | WB's «ཁྱད་པར་དུ» singles out the case that counts most in its line, no weights | cites wb.2:p428b, wb.2:p387; feeds block-25 |
@@ -392,6 +396,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-nyi-dus-is-the-day-and-hour.md](claims/wb-nyi-dus-is-the-day-and-hour.md) | claim, note | «ཉི་མ་དུས་ཚོད» is the day and the hour, «ཉི་དུས» its short form | cites wb.2:p376c, wb.2:p498b, wb.2:p99c, wb.2:p210a, wb.2:p210c, wb.2:p210b; feeds block-25 |
 | [claims/wb-p133-tables-do-not-gloss-kha-yo.md](claims/wb-p133-tables-do-not-gloss-kha-yo.md) | claim, note | The tables of p. 133 do not gloss «ཁ་ཡོ» or «སྦྲང་མ» | cites wb.1:p133b, wb.2:p224b; feeds — |
 | [claims/wb-planets-directions-for-war-and-journey.md](claims/wb-planets-directions-for-war-and-journey.md) | claim, rule | WB sets the eight planets round the directions from the east for war, a road and aims; the Sun in the east is good | cites wb.2:p313; feeds — |
+| [claims/wb-planets-mansions-1874-against-1828.md](claims/wb-planets-mansions-1874-against-1828.md) | claim, conflict | The planets-and-mansions round: 1,874 in WB closes the twelfth, 1,828 is Mipham's | cites wb.2:p50, wb.2:p513; feeds block-31 |
 | [claims/wb-print-numbers-16-29-nine-places.md](claims/wb-print-numbers-16-29-nine-places.md) | claim, note | The print numbers the hal khyi's group 16–25 and Dkar-sham 26; Langging is 28 in the print | cites wb.2:p185e, wb.2:p186e; feeds — |
 | [claims/wb-rahu-finer-course-by-date.md](claims/wb-rahu-finer-course-by-date.md) | claim, rule | Rāhu's finer course by date, with what to do and avoid | cites wb.2:p236-237; feeds — |
 | [claims/wb-rahu-nuru-by-date.md](claims/wb-rahu-nuru-by-date.md) | claim, table | Rāhu's course by the lunar date, the general counsel | cites wb.2:p236-237; feeds — |
@@ -399,6 +404,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wb-rat-day-lines-on-all-prints.md](claims/wb-rat-day-lines-on-all-prints.md) | claim, note | The rat day's lines are the same on every print; the Bhutan collection's table adds «ཁ་ཡོ་ནས» | cites wb.2:p224b, wb.2:p224c; feeds — |
 | [claims/wb-rat-day-yo-nas-wb-own-table.md](claims/wb-rat-day-yo-nas-wb-own-table.md) | claim, note | The rat day's short form «ཁ་ཡོ་ནས་འདྲེན» is WB's own, and the verb of the line is «strain» | cites wb.1:p133, wb.2:p224b, wb.2:p224c; feeds — |
 | [claims/wb-rd56-additions.md](claims/wb-rd56-additions.md) | claim, note | What RD56 adds to and settles in the topic files | cites wb.2:p175-176, wb.2:p387, wb.2:p378-384, wb.2:p236-237, wb.2:p240; feeds — |
+| [claims/wb-sbo-is-dbo-uttara-phalguni.md](claims/wb-sbo-is-dbo-uttara-phalguni.md) | claim, definition | «སྦོ» on p. 65 is U. Phalgunī's second spelling, not a misprint | cites wb.2:p65-66; feeds block-31 |
 | [claims/wb-sick-nga-figure.md](claims/wb-sick-nga-figure.md) | claim, rule | Examining the sick by the nāga figure and the weekday | cites wb.2:p415-416; feeds — |
 | [claims/wb-sick-recovery-repayment.md](claims/wb-sick-recovery-repayment.md) | claim, table | Repayment and recovery of an illness by mansion, link and date | cites wb.2:p415-416; feeds — |
 | [claims/wb-spra-khyim-black-times.md](claims/wb-spra-khyim-black-times.md) | claim, remedy | The black times' remedy at the door's right is «སྤྲ་ཁྱིམ»; the first letter of the stack is not settled | cites wb.2:p236b; feeds — |
@@ -462,7 +468,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
 | [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 37 passages: 31 scan, 5 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
-| [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
+| [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 9 passages: 9 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |

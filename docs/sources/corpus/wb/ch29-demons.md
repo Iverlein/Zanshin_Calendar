@@ -9,6 +9,22 @@ text's order, each under its id, with its `*Read:*` line.
 
 Read by RD31 (2026-10-23): WB vol. 2, pp. 58–68, on the Gser thang reprint; the notes' p. 503 in [notes-4.md](notes-4.md).
 
+## <a id="wb-2-p47"></a>wb.2:p47 The fourth examination's close: eleven pebbles, rolled together 87
+
+*Read: scan, 2026-11-01.*
+
+> བཅུ་གཅིག །བསྒྲིལ་བས་རྡེའུ་བརྒྱུད་ཅུ་བདུན། །དེ་ཡང་གསོན་ཆགས་དང་བསྟུན་གནད།
+
+The close of the fourth examination, the funeral share (WB vol. 2, p. 47, last lines; Gser thang reprint I3CN5029 img. 053, read by eye): with the verdict, eleven pebbles; "rolled together", 87 pebbles; that is the point to fit to the living's circumstances. Quoted from the number eleven on; the words before it (with the verdict, «ཁ་དམར་དང་བཅས») are as the 1996 etext and the Taikhang reading have them, the line's start not enlarged.
+
+## <a id="wb-2-p50"></a>wb.2:p50 The twelfth examination's sizes: 3,186 and the planets-and-mansions round's 1,874
+
+*Read: scan, 2026-11-01.*
+
+> ས་དཔྱད་བཅུ་གཉིས་རོའི་བཏང་ཕྱོགས། །རྡེལ་གྲངས་སུམ་སྟོང་བརྒྱ་གྱ་དྲུག །འབྲས་རྡེལ་བརྒྱ་དང་ང་གཅིག་དང་། །ངོས་འཛིན་སུམ་སྟོང་སོ་ལྔ་སྟེ། །གནམ་གྱི་བྱ་ལམ་གཟའ་སྐར་རྡེལ། །བཟང་ངན་ལྟོས་པའི་རྡེལ་གྲངས་དང་། །ཚེས་དང་དབྱངས་གསལ་མཆེ་གདོང་སོགས། །འཁོར་འབྲས་ཚེས་རྒྱུའི་རྡེའུ་ནི། །དོན་བརྒྱད་ངོས་འཛིན་སྟོང་བརྒྱུད་བརྒྱ། །བདུན་བཞི་བོར་བར་བྱ་བའོ།
+
+The twelfth examination, the direction the corpse is sent (WB vol. 2, p. 50, first lines; Gser thang reprint I3CN5029 img. 056, the same lines on the 1996 etext, img. 58). The pebbles: 3,186, of them 151 result pebbles and 3,035 identifying. The sky's bird path, the planets' and mansions' pebbles with their good and bad, the dates, vowels and consonants, fangs and faces, the wheel's results and the dates' course: 78 result and 1,874 identifying pebbles (the print spells eight «བརྒྱུད» here, as on p. 47). Only these opening lines are quoted; the rest of p. 50 stays with the topic file reckonings.md.
+
 ## <a id="wb-2-p58-60"></a>wb.2:p58-60 The third examination by the dead's year animal
 
 *Read: scan, 2026-10-23.*
