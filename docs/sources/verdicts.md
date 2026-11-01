@@ -7184,7 +7184,36 @@ Not reached in this reading, and so still open: questions 213, 214, 260–262, 2
 
 ## WB ch. 27's open questions: the thirteen circles' verdicts, the la's wandering, the four reckonings of «བརྗེ», the words (RD98)
 
-Nothing read yet: RD98's passages, with the English beside them, go here.
+*Read: scan and etext, 2026-11-01.* RD98 went back to fifteen open questions of ch. 27 (WB vol. 2, pp. 3-25), on the Gser thang reprint (I3CN5029 img. 22 and 29, lines cut with `scans.py line` at 3 to 6 times), with BDRC's etexts of the 1996 print (VEIE0OPI51524892_I1KG12907) and of Zhechen Gyaltsab's volume (VEIE0OPIDB78C0F0_I4PD2444) searched with `locate.py find`. No model, no agy turn; Steinert's dictionaries were not at hand (the clone is not on the machine) and BDRC's full-text search was not run again beyond RD67's, RD71's and RD75's. Passages [wb.2:p16c](corpus/wb/ch27.md#wb-2-p16c), [wb.2:p23c](corpus/wb/ch27.md#wb-2-p23c), [wb.2:p495d](corpus/wb/notes-3.md#wb-2-p495d).
+
+> མི་སྟག་ཤར་ན་ལྕགས་སྟག་ཚུད། (p. 16) · ནག་ནང་བནྡེ་གྲོང་སྤྲང་བྱེད། (p. 23, etext) · གོས་ལེགས་ཚོང་ལེགས་ཟས་ནོར་འདུ། །ནག་ན་གྲོས་ཉེས་ཚོང་ཉེས་འབྱུང་། (p. 24) · བརྩི་བྱའི་ཁམས་སྟེ་དབང་ཐང་གི་དགྲ (p. 533) · ནག་ན་ཚང་ཟླ་མག་སྐུད་བུ་ཚར་ངན (ZG)
+
+When the «མི་སྟག» rises the iron tiger enters; if black, the «བནྡེ» (as the etext reads it) goes begging in the villages; good counsel, good trade (or good clothes, good trade), if black bad counsel, bad trade; the element of the one reckoned, that is the enemy of the power; bad for the house-mates' kin and the sons-in-law's line.
+
+- **Q216 (five verdicts: aspect or year).** Narrowed to the aspects: WB's results of the leaves are told by the aspects' domains and Sprugtön's lines give "one verdict to each of the five, life force, body, power, luck and la"; Mipham's "the five dogs" are the sky year's five aspects in five elements, so his and KD's groups may be the same five. Nothing supports "one for each year" ([ch27-meadow-verdicts-are-the-aspects](claims/ch27-meadow-verdicts-are-the-aspects.md)).
+- **Q217 (the sixteen limbs).** Narrowed: the closing «ཁ་དམར་སྤྱི་ལྟར་གདགས» follows the limbs and sends the verdict to the general rule; the limbs are sixteen pebbles beside the five, given no verdict of their own ([ch27-sprugton-closing-verdict](claims/ch27-sprugton-closing-verdict.md)).
+- **Q225 (the five totals and ch. 24).** Unchanged from RD54, RD67 and RD70: the totals close the meadow's leaves in the *Moonbeams* and in ZG; no text moves them to ch. 24.
+- **Q363, Q364 (the la's wandering, the turtle's wood sheep).** Nothing new: the letters stand as RD89 left them; the sense of the printed pairs and of the ten against the sum of sixty stays open.
+- **Q365, Q474 (for whom the «བརྗེ» set is; the verse's missing syllable).** Narrowed: BDRC's etext reads the same stack «བནྡེ» (ban de, a monk) at p. 23, l. 25 and p. 17, l. 6, which would give the black verse its seventh syllable and the set its monk; the scans (RD89, 9 to 10 times) read «བརྗེ», and at 4 times on the reprint the mass does not exclude either ([ch27-brje-or-bande-etext](claims/ch27-brje-or-bande-etext.md)).
+- **Q366, Q480 (the words).** «ཚད་ཟླ» is a slip for «ཚང་ཟླ», a term ZG defines and WB's marriage chapter uses ([ch27-tshad-zla-is-tshang-zla](claims/ch27-tshad-zla-is-tshang-zla.md)); the rest as RD75 and RD90 left it.
+- **Q368 (the two mewas).** Narrowed: Mipham's notes at pp. 495 and 500 take the compared year's mewa "agreeing in sequence" with the person's, the body mewa as base, so one mewa pebble ([mewa-agreeing-in-the-notes-elsewhere](claims/mewa-agreeing-in-the-notes-elsewhere.md)).
+- **Q407 (Taikhang and Zhol, two blockings?).** Not looked at again; RD77's answer stands: the three lines show no difference to the eye, the differences are the machine's.
+- **Q475 («གོས་ལེགས»).** Narrowed: the black line's «གྲོས་ཉེས» builds a pair with it, a ra dropped ([ch27-gos-legs-is-gros-legs](claims/ch27-gos-legs-is-gros-legs.md)).
+- **Q479 (the bare «ཁམས»).** Answered for the circles by Mipham's own gloss, the power's element; p. 17's two bare words are read with the family ([ch27-bare-khams-is-the-power-by-mipham](claims/ch27-bare-khams-is-the-power-by-mipham.md)).
+- **Q481 («ཇི་ནོང»).** Dead end: the etext of the 1996 print has the gloss only on p. 3 (so printed «ཇི་ནོང»); no other use found.
+- **Q506 (the nine-eye's sky years).** Narrowed: «མི་སྟག» has the vowel i on the reprint; in ten of eleven lines the sky year's element overcomes the person's element, and «ས་ཡོས» with the water bird fits that rule, so it is not shown a slip ([ch27-nine-eye-sky-years-by-element](claims/ch27-nine-eye-sky-years-by-element.md)).
+
+### Open
+
+- Question: Is the stack of p. 23, l. 22 and l. 25 and of p. 17, l. 6 the block's «བརྗེ» or «བནྡེ» (a monk), and does the set of the four reckonings in four then belong to the monk, as against Zhechen Gyaltsab's spiritual friend?
+- Question: Do the Zhol print and the Taikhang read «མི་སྟག» and «ས་ཡོས» on p. 16 as the reprint does, and is the wood pig's person, a «ཤིང་བྱ» (wood bird), a slip for the earth bird by the table's rule that the sky year's element overcomes the person's?
+
+### Searched and not found
+
+- **A gloss of «ཇི་ནོང»** (RD98, 2026-11-01): the 1996 etext, with the other readings tried in RD90, has the word only at p. 3, l. 4.
+- **A worked example of the notes' «སྨེ་ཕྲེང་མཐུན་པ» for the circles** (RD98): the etext's four places (pp. 488, 495, 500, 504 of the notes) all speak of the thirty, the dead's reckoning or the sixteenth row; none of the circles.
+- **«གྲོས་ལེགས» in either etext** (RD98): none; «གོས་ལེགས་ཚོང་ལེགས» only at p. 24, l. 16.
+
 
 
 ## WB ch. 26's open questions: the thirty's count through the years, its eight fighting pebbles, its words (RD100)

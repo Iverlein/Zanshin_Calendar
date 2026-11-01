@@ -29,6 +29,14 @@ WB vol. 2, the notes, p. 495, ll. 22–25 (the Gser thang reprint I3CN5029 img. 
 
 […] black broken. The speckled has no «སྔོ་བགྲང» (sngo bgrang; open question 196; the word is left untranslated; see claims/speckled-sngo-bgrang.md); roughly, it is counted as fallen.
 
+## <a id="wb-2-p495d"></a>wb.2:p495d The notes: the mewa agreeing in sequence, in two other places (pp. 495, 500)
+
+*Read: etext, 2026-11-01.*
+
+> བཅུ་དྲུག་པ་སྨེ་བ་ལ་འཐབས་ན་གནམ་ལོའི་ཚབ་ལ་གནམ་ལོ་དང་སྨེ་ཕྲེང་མཐུན་པ། བརྩི་བྱ་ལའང་དེ་འདྲ་བར་ལུས་སྨེ་ངོས་བཟུང་ནས་དེ་བརྟེན་གཞན་གསུམ་ཀྱང་ངོས་བཟུང་ལ་འཐབ་བོ། (p. 495) · གཤིན་གྱི་སྨེ་བས་ནི་གནམ་ལོའི་སྨེ་བ་དང་ཟླ་ཞག་དུས་ལོག་མིན་གྱི་བརྩི་བྱ་དང་སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ་དེ་[…]འཐབ་དགོས། (p. 500)
+
+Two lines of Mipham's notes (མི་ཕམ, mi pham) as BDRC's etext of the 1996 print gives them (etext pages 503 and 508 = printed pp. 495 and 500; a machine reading, a word lost in the second at the gap): "If the sixteenth row fights the mewa (སྨེ་བ, sme ba), then the sky year and the mewa agreeing in sequence (སྨེ་ཕྲེང་མཐུན་པ, sme phreng mthun pa) stand in the sky year's place; for the one reckoned too, in the same way, the body mewa (ལུས་སྨེ, lus sme) is fixed and, resting on it, the other three are fixed and fought." And of the dead's reckoning: "the dead's mewa must fight the sky year's mewa and the month's, day's, hour's and progressed year's mewas, [each] taken as the mewa that agrees in sequence with the one reckoned."
+
 ## <a id="wb-2-p495-496"></a>wb.2:p495-496 The juniper, wish-tree, houses and eyes; the plank-tree not come down; the classes as differences
 
 *Read: machine, 2026-10-23.*

@@ -71,28 +71,35 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/birth-sets-on-deciding.md](claims/birth-sets-on-deciding.md) | claim, rule | The sets of p. 338 are read on the hundred's deciding pebbles | cites wb.1:p338, wb.2:p484, lt:p162-164; feeds SPEC §5.9.2, block-58 |
 | [claims/bsgrub-all-prints.md](claims/bsgrub-all-prints.md) | claim, note | The five graves' «བསྒྲུབ» is carved the same in all prints read | cites wb.2:p124-125, wbz:i809; feeds block-31 |
 | [claims/ch27-aspect-for-whom.md](claims/ch27-aspect-for-whom.md) | claim, rule | Ch. 27: whose aspect is cherished for whom | cites wb.2:p23-25; feeds block-31 |
+| [claims/ch27-bare-khams-is-the-power-by-mipham.md](claims/ch27-bare-khams-is-the-power-by-mipham.md) | claim, note | Ch. 27: the notes name the circles' bare «ཁམས» the power's, the answer for the circles | cites wb.2:p533b, wb.2:p3, wb.2:p17; feeds block-25 |
+| [claims/ch27-brje-or-bande-etext.md](claims/ch27-brje-or-bande-etext.md) | claim, note | Ch. 27: the etext reads the stack of «བརྗེ» as «བནྡེ», which would give the black verse its seventh syllable | cites wb.2:p23c, wb.2:p23-25; feeds block-25 |
 | [claims/ch27-brje-set-is-the-monk.md](claims/ch27-brje-set-is-the-monk.md) | claim, note | Ch. 27: the set of four headed «བརྗེ» is the monk's | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-brje-set-zg-spiritual-friend.md](claims/ch27-brje-set-zg-spiritual-friend.md) | claim, note | Ch. 27: ZG puts the «བརྗེ» set at the spiritual friend's | cites wb.2:p23-25, zg:p348-349, wb.2:p195; feeds block-31 |
 | [claims/ch27-brje-twice-same-stack.md](claims/ch27-brje-twice-same-stack.md) | claim, note | Ch. 27: «བརྗེ» twice in its set, the same stack on both scans, the begging verse a syllable short | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-cherished-pebbles.md](claims/ch27-cherished-pebbles.md) | claim, table | Ch. 27: the reckonings in four, by kind of person | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-element-two-manuals.md](claims/ch27-element-two-manuals.md) | claim, note | Whose element: two manuals' example of the thirty, wood rat from the iron tiger | cites wb.1:p453, wb.2:p533b, zg:p303-304; feeds block-31 |
 | [claims/ch27-gone-abroad.md](claims/ch27-gone-abroad.md) | claim, rule | Ch. 27: the month reckoning for one gone abroad | cites wb.2:p13-14; feeds block-31 |
+| [claims/ch27-gos-legs-is-gros-legs.md](claims/ch27-gos-legs-is-gros-legs.md) | claim, note | Ch. 27: «གོས་ལེགས» of the minister's set is paired with «གྲོས་ཉེས», a ra dropped | cites wb.2:p23-25; feeds block-25 |
 | [claims/ch27-la-rat-south-on-1996-scan.md](claims/ch27-la-rat-south-on-1996-scan.md) | claim, note | Ch. 27: the rat's la goes south («ལྷོར») on the 1996 print's scan | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-la-wandering-directions.md](claims/ch27-la-wandering-directions.md) | claim, conflict | Ch. 27: the la's wandering by the year, three prints agree | cites wb.2:p16-17; feeds block-31 |
 | [claims/ch27-lcong-mo-rnga-ma-tail.md](claims/ch27-lcong-mo-rnga-ma-tail.md) | claim, note | Ch. 27, p. 17, l. 9: «ལྕོང་མོའི་རྔ་མས», the tadpole's tail, two syllables on both scans | cites wb.2:p16-17, wb.2:p6-7, wb.2:p17b; feeds block-31 |
 | [claims/ch27-meadow-verdict-per-column.md](claims/ch27-meadow-verdict-per-column.md) | claim, conflict | Ch. 27: the meadow's ornament lays one verdict under each of a group's five | cites wb.2:p22, wb.2:p533-534, kd.3:p723, kd.3:p723b; feeds block-31 |
+| [claims/ch27-meadow-verdicts-are-the-aspects.md](claims/ch27-meadow-verdicts-are-the-aspects.md) | claim, note | Ch. 27: the meadow's five verdicts are the five aspects', by WB's results and Sprugtön's wording | cites wb.2:p22, wb.2:p22-23, wb.2:p533-534; feeds block-31 |
 | [claims/ch27-mewa-triads-zg.md](claims/ch27-mewa-triads-zg.md) | claim, note | The circles' mewa: Zhechen Gyaltsab's verse puts the years in triads, each with its own mewa sequence | cites wb.2:p533b, zg:p303-304, wb.2:p10-11; feeds block-31 |
 | [claims/ch27-na-zla-ston-mo-letters.md](claims/ch27-na-zla-ston-mo-letters.md) | claim, note | Ch. 27, p. 9, l. 16: «ན་ཟླ་སྟོན་མོ་གཏང», the letters clear on both scans | cites wb.2:p9, wb.2:p9b; feeds block-31 |
+| [claims/ch27-nine-eye-sky-years-by-element.md](claims/ch27-nine-eye-sky-years-by-element.md) | claim, note | Ch. 27: the black nine-eye's sky years follow an element rule, so «ས་ཡོས» stands as printed | cites wb.2:p16, wb.2:p16c; feeds block-61 |
 | [claims/ch27-other-prints-and-etexts.md](claims/ch27-other-prints-and-etexts.md) | claim, note | Ch. 27's unread words on the Sakya, Zhol, rare-texts etexts: none changes a reading | cites wb.2:p16b, wb.2:p20b, wb.2:p9b, wb.2:p17c, wb.2:p23-25; feeds block-31 |
 | [claims/ch27-reckonings-in-four-letters.md](claims/ch27-reckonings-in-four-letters.md) | claim, note | Ch. 27: «དཀར་པ་ན», «སྤ་འཁར» and «ལྕུག་ཕྲན» in the reckonings in four, read on the 1996 scan | cites wb.2:p23-25; feeds block-31 |
 | [claims/ch27-rus-mig-bone-eye.md](claims/ch27-rus-mig-bone-eye.md) | claim, note | Ch. 27: the limb is «རུས་མིག», the bone-eye, on the reprint and the Zhol etext | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-rus-nag-north-turtle.md](claims/ch27-rus-nag-north-turtle.md) | claim, definition | «རུས་ནག» of the tenth circle is the north's black turtle | cites wb.2:p10-11, wb.2:p133-135, wb.2:p138-139; feeds block-31 |
 | [claims/ch27-small-reckonings-apart.md](claims/ch27-small-reckonings-apart.md) | claim, note | The small reckonings of ch. 27 kept apart | cites ys:i498-499, ys:i499; feeds block-31 |
+| [claims/ch27-sprugton-closing-verdict.md](claims/ch27-sprugton-closing-verdict.md) | claim, note | Ch. 27: Sprugtön's closing line lays the verdict as in general, after the limbs | cites wb.2:p22-23; feeds block-31 |
 | [claims/ch27-sprugton-limbs-beside-the-five.md](claims/ch27-sprugton-limbs-beside-the-five.md) | claim, note | Ch. 27: Sprugtön's sixteen limbs are sixteen pebbles beside the five verdict pebbles (75 = 50 + 16 + 5 + 4) | cites wb.2:p22-23, wb.2:p23-25, wb.2:p25; feeds block-31 |
 | [claims/ch27-start-element-wording.md](claims/ch27-start-element-wording.md) | claim, note | Ch. 27: how pp. 3, 9 and 17 name the element a start is counted from | cites wb.2:p3-4, wb.2:p9, wb.2:p17, wb.2:p10-11, wb.2:p533b; feeds block-31 |
 | [claims/ch27-taikhang-doubtful-letters.md](claims/ch27-taikhang-doubtful-letters.md) | claim, note | Ch. 27: the doubtful letters of pp. 9 and 17 on the Taikhang | cites wb.2:p9b, wb.2:p17b, wb.2:p17c, wb.2:p9, wb.2:p17; feeds block-31 |
 | [claims/ch27-taikhang-la-wandering.md](claims/ch27-taikhang-la-wandering.md) | claim, note | Ch. 27: the la's wandering carved on the Taikhang as on the other prints | cites wb.2:p16b, wb.2:p16-17; feeds block-31 |
 | [claims/ch27-taikhang-turtle-ten.md](claims/ch27-taikhang-turtle-ten.md) | claim, note | Ch. 27: the turtle's wood verse carves ten srin po on the Taikhang and the Zhol print | cites wb.2:p20b, wb.2:p20-22; feeds block-31 |
+| [claims/ch27-tshad-zla-is-tshang-zla.md](claims/ch27-tshad-zla-is-tshang-zla.md) | claim, note | Ch. 27: «ཚད་ཟླ» on p. 9 is a slip for «ཚང་ཟླ», a term of Zhechen Gyaltsab and of WB's marriage chapter | cites wb.2:p9, wb.2:p8-9; feeds block-25 |
 | [claims/ch27-tshad-zla-mag-skud-letters.md](claims/ch27-tshad-zla-mag-skud-letters.md) | claim, note | Ch. 27, p. 9, l. 6: «ཚད» and «སྐུད» as the 1996 setting prints them | cites wb.2:p8-9, wb.2:p9b, zg:p352; feeds block-31 |
 | [claims/ch27-turtle-classes.md](claims/ch27-turtle-classes.md) | claim, table | Ch. 27: the golden turtle's classes of years | cites wb.2:p20-22; feeds block-31 |
 | [claims/ch27-turtle-others-paired.md](claims/ch27-turtle-others-paired.md) | claim, rule | Ch. 27: the turtle's other classes, paired («བསྡེབས་པ»), have no enemy-executioner | cites wb.2:p20-22; feeds block-31 |
@@ -261,6 +268,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/match-two-bad-lives.md](claims/match-two-bad-lives.md) | claim, rule | The match barred by two utterly bad lives, each judged by one verdict pebble | cites ys:i467-468, wb.2:p526; feeds block-58 |
 | [claims/meadow-sums-and-the-five-totals.md](claims/meadow-sums-and-the-five-totals.md) | claim, note | The meadow's sums, 120, 360 and 600, and what the five totals gather | cites zg:p300-301, dz:i050, dz:i050-051, wb.2:p22; feeds block-31 |
 | [claims/mewa-8-white-north-east.md](claims/mewa-8-white-north-east.md) | claim, note | P. 112: the 5 yellow and the 8 white both go to the north-east corner in the print | cites wb.2:p112; feeds block-31 |
+| [claims/mewa-agreeing-in-the-notes-elsewhere.md](claims/mewa-agreeing-in-the-notes-elsewhere.md) | claim, note | The notes use «སྨེ་ཕྲེང་མཐུན་པའི་སྨེ་བ» in two other places: the compared year's mewa in the person's sequence | cites wb.2:p495d, wb.2:p533b; feeds block-31 |
 | [claims/mewa-sequence-agreeing.md](claims/mewa-sequence-agreeing.md) | claim, note | The circles' mewa: the body mewa and the person's own mewa sequence | cites lt:p8, ut:p5, zg:p303-304, wb.2:p533b; feeds block-31 |
 | [claims/moment-asker-year.md](claims/moment-asker-year.md) | claim, rule | How the asker's year enters the reckoning of the moment | cites wb.2:p165, wb.2:p166, wb.2:p170-171, wb.2:p172-173, wb.2:p169-170; feeds SPEC §5.9.5, block-31 |
 | [claims/moment-eight-places.md](claims/moment-eight-places.md) | claim, table | The moment's eight places: house, field, grave and one's own place | cites wb.2:p166, wb.2:p167-168; feeds SPEC §5.9.5, block-31 |
@@ -452,13 +460,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch24.md](corpus/wb/ch24.md) | corpus | WB ch. 24, obstacles and the Chinese pebbles | 2 passages: 2 scan |
 | [corpus/wb/ch25.md](corpus/wb/ch25.md) | corpus | WB ch. 25, illness | 34 passages: 18 scan, 16 machine |
 | [corpus/wb/ch26.md](corpus/wb/ch26.md) | corpus | WB ch. 26, the thirty starting points | 33 passages: 33 scan |
-| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 35 passages: 30 scan, 5 machine |
+| [corpus/wb/ch27.md](corpus/wb/ch27.md) | corpus | WB ch. 27, the thirteen circles and the small reckonings | 37 passages: 31 scan, 5 machine, 1 etext |
 | [corpus/wb/ch28.md](corpus/wb/ch28.md) | corpus | WB ch. 28, the small signs | 22 passages: 12 scan, 10 machine |
 | [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) | corpus | WB ch. 29, the third examination: which demon carried it off | 7 passages: 7 scan |
 | [corpus/wb/ch29-funeral.md](corpus/wb/ch29-funeral.md) | corpus | WB ch. 29, examinations 4–8: the funeral share, rebirth, virtue, the corpse, the graves | 5 passages: 5 scan |
 | [corpus/wb/ch29-grave.md](corpus/wb/ch29-grave.md) | corpus | WB ch. 29, the fifteenth examination: the grave | 10 passages: 10 scan |
 | [corpus/wb/ch29-provisions.md](corpus/wb/ch29-provisions.md) | corpus | WB ch. 29, examinations 9–11: provisions, repetition, the death's eye | 9 passages: 9 scan |
-| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 5 scan, 3 machine |
+| [corpus/wb/ch29-remains.md](corpus/wb/ch29-remains.md) | corpus | WB ch. 29, the twelfth and fourteenth examinations: sending the remains, the funeral assembly | 8 passages: 6 scan, 2 machine |
 | [corpus/wb/ch29-rites.md](corpus/wb/ch29-rites.md) | corpus | WB ch. 29, the thirteenth examination: cutting off the run of deaths | 19 passages: 19 scan |
 | [corpus/wb/ch29.md](corpus/wb/ch29.md) | corpus | WB ch. 29, the copper vessel: the reckoning for the dead | 6 passages: 6 scan |
 | [corpus/wb/ch30.md](corpus/wb/ch30.md) | corpus | WB ch. 30, the reckoning of the moment | 23 passages: 22 scan, 1 machine |
@@ -469,7 +477,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/wb/ch35.md](corpus/wb/ch35.md) | corpus | WB ch. 35, the closing chapter: pages read for the app | 26 passages: 26 scan |
 | [corpus/wb/notes-1.md](corpus/wb/notes-1.md) | corpus | Mipham's notes on WB, section 1: the birth | 3 passages: 3 scan |
 | [corpus/wb/notes-2.md](corpus/wb/notes-2.md) | corpus | Mipham's notes on WB, section 2: the obstacles | 1 passages: 1 scan |
-| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 6 passages: 3 scan, 3 machine |
+| [corpus/wb/notes-3.md](corpus/wb/notes-3.md) | corpus | Mipham's notes on WB, section 3: illness | 7 passages: 3 scan, 3 machine, 1 etext |
 | [corpus/wb/notes-4.md](corpus/wb/notes-4.md) | corpus | Mipham's notes on WB, section 4: the reckoning for the dead | 13 passages: 11 scan, 2 machine |
 | [corpus/wb/notes-6.md](corpus/wb/notes-6.md) | corpus | Mipham's notes on WB, section 6: marriage | 3 passages: 3 scan |
 | [corpus/wb/notes-7.md](corpus/wb/notes-7.md) | corpus | Mipham's notes on WB, section 7: the thirty starting points | 5 passages: 5 scan |
