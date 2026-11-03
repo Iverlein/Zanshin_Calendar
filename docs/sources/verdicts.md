@@ -8390,3 +8390,4 @@ Read 2026-11-03 (RD155), by eye, no model run, no agy turn: WB vol. 1 on the Zho
 
 - Doubt: Zhol img. 602 order of pairs 13 and 14, not read; next step: 4–8× crops of the second and third lines from the right half (display x about 570–1400, y about 140–215), counting the «བཅུ་» openers from «བཅུ་པ» on; the Taikhang (I5877, Zhol image + 17) as second witness, not opened.
 - RD155, 2026-11-03: dead end for 2× strips of the page; the hand needs 4× or more.
+- 2026-11-03, Zhol img. 602 (3758 × 609 px, six lines of about 85 px, the glyphs about 8 px high) the right half of lines 2 and 3 at 1× by the launcher: the pair verses are not told apart by eye at this size; a sharper copy (the Taikhang, I5877 img. 619, Zhol image + 17) is the next witness for question 602.
