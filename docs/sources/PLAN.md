@@ -1354,3 +1354,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, a gloss of «ལྔ་ནས» after an animal in the gates, in the reprint's pp. 170–171 and the Zhol etext (p. 880, 885): none.
   - 2026-11-03, a line seating a person of the own place on earth, pp. 167–169: none; earth appears only in the list of results.
   - 2026-11-03, «དུས་ལོའི་སྨེ་བ» elsewhere in the 1996 etext: only on p. 165.
+- **RD147** (RD147, 2026-11-03):
+  - 2026-11-03, a letter-by-letter reading of I5875 img. 497–498 and 513–514 at 3× or more: not made in RD147; the corpus readings of RD48 and RD104 stand for them.

@@ -991,6 +991,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | open; cites wb.2:p16 |
 | [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | open; cites wb.2:p165 |
 | [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | open; cites wb.2:p167-168 |
+| [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | open; cites ys.2:i016-017 |
 
 <!-- end pool index -->
 
