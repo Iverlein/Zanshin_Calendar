@@ -981,6 +981,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0594.md](questions/q0594.md) | question q594 | Five places of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang | open; cites wb.2:p104-105 |
 | [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
+| [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | open; cites wb.2:p16 |
 
 <!-- end pool index -->
 

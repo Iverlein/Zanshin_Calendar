@@ -1346,3 +1346,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, «སྤྲ་སྒོ» in the 1996 etext and the Zhol etext (which has «སྨྲ་སྒོ», p. 771): no second place; no gloss.
   - 2026-11-03, a count, or the word «ལྔ», explained in Mipham's note on the thirteen gates (p. 536): none.
   - 2026-11-03, the animals of khen, gin and zon in the notes p. 509: none beyond «ཁེན་གིན་ཟོན་གསུམ་ལའང་ཤི་ཁ་ཕྱེ་བས་བརྒྱད་དོ».
+- **RD142** (RD142, 2026-11-03):
+  - 2026-11-03, «ཚད་ཟླ་མག་སྐུད» and «ཞུར་ཞོགས» in the 1996 etext outside the verse: no occurrence; a parallel verse for the four la years: none.
