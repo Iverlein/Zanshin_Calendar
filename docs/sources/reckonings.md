@@ -2416,3 +2416,49 @@ First the king and minister, four pebbles: put the pebble where it falls; find t
 - «སྤྲ་སྒོ» in the 1996 etext and the Zhol etext (which has «སྨྲ་སྒོ», p. 771): no second place; no gloss.
 - A count, or the word «ལྔ», explained in Mipham's note on the thirteen gates (p. 536, etext pp. 544–545): none.
 - The animals of *khen*, *gin* and *zon* in the notes p. 509: none beyond «ཁེན་གིན་ཟོན་གསུམ་ལའང་ཤི་ཁ་ཕྱེ་བས་བརྒྱད་དོ».
+
+## The moment's examinations: the fighter of the three mewa, earth in one's own place, the thirteen gates' words, the small examinations, the rat day's lines (RD145)
+
+Read for RD145 (2026-11-03) on the Gser thang reprint (I3CN5029; image = page + 6; pp. 165–171 on img. 171–177, p. 224 on img. 230, the row's "img. 173–179" and "ch. 31, pp. 165–171" being the 1996 scan's numbers and ch. 30) against Yigdzin-1 on the reprint and the 1996 etext, which was disagree.py's witness (flags listed for img. 171–177 and 230–231); every line named below read by eye in 1.0–3× crops; the lines not named were compared with Yigdzin-1 and the etext and not read by eye here, the flags of the sheets not all gone through. The Zhol print (I1KG1710) located through its etext (p. 165 about img. 866–871, the gates img. 879–885, the rat day img. 941) and opened on img. 880 and 941. MITRA was not run, no agy.
+
+### The fighter of the three mewa (p. 165; question 420)
+
+> དུས་ལོའི་སྨེ་བས་བརྩི་བྱ་བྱས། །དབུས་ཀྱི་དགུ་གླིང་དང་འཐབས་པས། །མ་ཤར་འགོ་བའི་ལྷ་བཟང་ཡོད། (reprint img. 171, ll. 11–12)
+
+The mewa of the moment's year is made the one reckoned and fights the nine squares around the day's mewa; the word is «ལོའི» on the scan (not «སྨེ», not «ཀྱི»). Mipham's notes (p. 536, img. 544) call the fighter «དུས་ཀྱི་དབང་སྨེ» and count it four down from the moment's mewa (5 yellow gives 8 white); the same four-down is the power-mewa of a body-mewa in the year-of-life reckoning (marriage.md). The example's elements fit: 8 white (iron) fights 4 green (wood) as a friend, 2 black (water) as a son, 7 red (fire) as an enemy. So the 8 white is the moment's power-mewa, and what the notes' 5 yellow is, the moment's year's mewa as the body-mewa or the hour's, the example does not say. Claim moment-power-mewa-four-down. Narrowed: the fighter is not tied to the year's mewa itself by the notes; the build's year mewa may be the body-mewa from which the four-down is taken.
+
+### Earth in one's own place (pp. 167–169; question 421)
+
+> རང་ས་དུས་ཚོད་དབང་འབྱུང་དངོས། །ཕ་ཚན་སྲོག་ལ་ཞང་པོ་ལུས། །བྱན་མོ་གྲོགས་ལ་རྗེ་དཔོན་ཀླུང་། །གང་ཤར་གང་ལ་དགྲ་དེ་དགྲ། །འཁྲུགས་པ་བསྡེབས་ལ་ཤིང་མེ་ས། །ལྕགས་ཆུའི་འབྲས་བུ་གོང་ལྟར་བཤད། (reprint img. 174, ll. 5–6)
+
+One's own place, by the moment's power element itself: the father's side by the life force, the maternal uncle by the body, the maid by the friend, the lord by the luck, the enemy where the enemy's element stands; the results of wood, fire, earth, iron and water as above. Earth is among the results; no line seats a person on it. In the sick's and the demon's lists (img. 174–175) earth's kinsman is «ཤར་རམ་ལྷོ་ནུབ» (east or south-west), the earth lord «ལྷོ་ནུབ་ཤར་ཕྱོགས་ནས» (south-west or east): where WB gives earth a direction it is the south-west, the earth trigram's quarter, not the centre. Claim moment-earth-has-no-centre-in-lists. Narrowed: the built centre has no line behind it; the south-west has two.
+
+### The thirteen gates' words (pp. 170–171; question 422)
+
+> བབས་ལོས་དུས་ཚོད་ལ་བཅད་ན། །རྒྱ་མའི་ཐག་པ་ཆད་ཅེས་བྱ། །དེ་ལས་ལྡོག་ན་མ་ཆད་བཟང་། །མར་བརྒྱད་ལོ་དང་དུས་ཚོད་འཐབ། །དུས་ལ་བཅད་ན་གསེར་འཛིན་གྱི། །རྐང་པ་ཆག་ཅེས་ངན་པར་བཤད། (reprint img. 176, ll. 23–24)
+
+> དུས་འཐབ་ཚུར་བཅད་ལྟས་ངན་བབས། (img. 177, l. 1–2)
+
+The first gate: the year reached cutting the moment cuts "the steelyard's rope"; the down-eight year cutting it breaks the leg of the gold-holder: two parts of a balance, so «རྒྱ་མའི་ཐག་པ» is the balance's rope and not a line of births (UT's rope of the steelyard, notes-8.md, agrees). At p. 171 the word is «ལྟས་ངན» (bad omen) with a subjoined ta under la, not «ལྷས». The «ལྔ» after the animal: gate 6 «ཡོས་ལྔ་ནས», 10 «སྤྲེལ་ལྔ་ནས», 11 and 12 «ཕག་ལྔ་ནས», 13 «བྱི་ལྔ་ནས» (img. 177, ll. 6, 13, 14, 16, 17); gates 11 and 12 differ only in «ཡར་ལ་ཉེར་ལྔ» and «མར་ལ་ཉེར་ལྔའི་ས་དེ་ནས»; in gate 6 no count follows, in the rest 13 or 25. No line says what «ལྔ» is. Claim moment-gate-balance-and-omen. Narrowed: both doubtful words settled; the «ལྔ» open. The Zhol print's «རྒྱམའི་ཐག་པ» (etext) is the same word.
+
+### The small examinations (pp. 168–170; question 423)
+
+The text read line by line (img. 174–176) agrees with each reading built: wealth «དེ་གཉིས་བསྟུན་ལ་ཁ་དམར་གདགས», the two (body and power) agreeing; the beer given by the moment generating the asker's, kept back where cut, half where the asker generates; food «གཉིས་ཀ་དར་ན་ལན་གཉིས་ཟོས། བརྩི་བྱ་དར་ན་ལན་ཅིག་ཟོས། གཉིས་ཀ་གུད་ན་མ་ཟོས», and the first couplet «དར་ན་ཟོས» gives the moment's rise alone as eaten (the build's "no reading" lacks nothing in the text but the refinement); the sick one's life, the middle one glossed «དབུགས་ལེན་ལ་སོགས་འབྲིང་པོ», taking breath and the rest; the organs by the moment's element, the five solid ones. Claim moment-small-examinations-text. Answered as to the text: each reading is the verse's; whether the tradition reads them so, no commentary was found.
+
+### The rat day's lines (p. 224; question 404)
+
+> སྦྲང་མ་ཕུད་གཏོར་ཡོལ་བས་སྒྲིབ། །ཐེམ་བུར་མི་འཚག་ཡོ་ནས་འདྲེན། (reprint img. 230, l. 6)
+
+Read again by eye: the first syllable is «སྦྲང» (bee), as the 1996 etext and the Zhol etext, not Yigdzin-1's «སྤང»; the last of the first line «སྒྲིབ» on the reprint, the Zhol etext «སྒྲིལ», the Zhol scan (img. 941, l. 1, 2.5×) not telling ba from la. The sense is not new beyond claims wb-rat-day-first-portion and wb-rat-day-yo-nas-wb-own-table; q439, q446 and q447 carry it.
+
+### Open
+
+- Question: In WB vol. 2, p. 165, is the mewa that fights the nine squares the moment's year's mewa itself, as «དུས་ལོའི་སྨེ་བ» says, or its four down, as Mipham's «དུས་ཀྱི་དབང་སྨེ ... མར་བཞི» has it, and what year is the example's 5 yellow?
+- Question: In WB vol. 2, p. 168, the own place's lists give earth the south-west (with the east) in the sick's and the demon's lines; is that the own place's earth too, and who stands there?
+- Question: Is the «ལྔ» after the animal in gates 6, 10, 11, 12 and 13 of pp. 170–171 a step of five, or part of the name of the start?
+
+### Searched and not found
+
+- A gloss of «ལྔ་ནས» after an animal in the gates, in the reprint's pp. 170–171 and the Zhol etext (p. 880, 885): none.
+- A line seating a person of the own place on earth, pp. 167–169: none; earth appears only in the list of results.
+- «དུས་ལོའི་སྨེ་བ» elsewhere in the 1996 etext: only on p. 165.
