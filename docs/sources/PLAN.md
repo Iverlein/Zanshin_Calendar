@@ -1356,3 +1356,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, «དུས་ལོའི་སྨེ་བ» elsewhere in the 1996 etext: only on p. 165.
 - **RD147** (RD147, 2026-11-03):
   - 2026-11-03, a letter-by-letter reading of I5875 img. 497–498 and 513–514 at 3× or more: not made in RD147; the corpus readings of RD48 and RD104 stand for them.
+- **RD144** (RD144, 2026-11-03):
+  - 2026-11-03, a gloss in LT or in Mipham's notes (wb.2:p532-533) that gives the pair of WB's twenty-eighth or twenty-ninth reading: none; LT's pair verse is WB's.
+  - 2026-11-03, a gloss on «དྲུག་འབྲས» as a named place (the Moonbeams, LT's etext, Mipham's notes pp. 490–500, 532–534): the name occurs only in WB vol. 1, p. 413 and the Moonbeams; WB vol. 2, p. 188 has «མར་གྱི་དྲུག་པ» for the earth lord.

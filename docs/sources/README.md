@@ -765,7 +765,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0368.md](questions/q0368.md) | question q368 | How the circles' two mewas are combined | open; cites wb.2:p533b, wb.2:p3 |
 | [questions/q0369.md](questions/q0369.md) | question q369 | The first circle's broken luck remedy, p. 4 | answered; cites wb.2:p3-4, wbz:i631 |
 | [questions/q0370.md](questions/q0370.md) | question q370 | «བསྒྲུབ» or «བསྣུབ» among the five graves | open; cites wb.2:p124-125, wbz:i809 |
-| [questions/q0371.md](questions/q0371.md) | question q371 | The root text's count for the la board: the Moonbeams' or LT's | open; cites dz:i055-057, lt:p26-28, wb.2:p499-500 |
+| [questions/q0371.md](questions/q0371.md) | question q371 | The root text's count for the la board: the Moonbeams' or LT's | answered; cites dz:i055-057, lt:p26-28, wb.2:p499-500 |
 | [questions/q0372.md](questions/q0372.md) | question q372 | Whose mewa and trigram among the burial reckoning's eleven roots | open; cites dz:i057-061 |
 | [questions/q0373.md](questions/q0373.md) | question q373 | «ར་བར», where the living's year pebble is laid | open; cites dz:i055-057 |
 | [questions/q0374.md](questions/q0374.md) | question q374 | The plank-tree's fifteenth and sixteenth heads, «ལྔ་ཐུན» and «དྲུག་འབྲས» | open; cites dz:i052-055 |
@@ -995,6 +995,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | open; cites wb.2:p165 |
 | [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | open; cites wb.2:p167-168 |
 | [questions/q0600.md](questions/q0600.md) | question q600 | «སྤར་ཁ» in reply 157 and «ལོ་ལ» or «ཟླ་ལ» | open; cites ys.2:i016-017 |
+| [questions/q0601.md](questions/q0601.md) | question q601 | «ཡར» and «མར» in the plank-tree: later or earlier years | open; cites dz:i052-055 |
+| [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | open; cites wb.1:p453-454 |
 
 <!-- end pool index -->
 
