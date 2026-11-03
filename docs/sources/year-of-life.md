@@ -3410,3 +3410,42 @@ By eye at 2.4–7×; Yigdzin-1 and MITRA agree with the eye on the words below. 
 
 - «སྣང་པར་བཤད», «སྣད་པར་བཤད», «མི་ཆེན་སར» and «བོན་སར» as written in the Zhol etext (IE0OPI7850CC9C): none (the etext's OCR of p. 391 and p. 472 is garbled: «མདཔར», «མི་ཚེ་ནམའ», «ཐོན་སར»), 2026-11-03.
 - A gloss of «ཕུགས», «དུར་ཕུགས» or the luck's tomb on img. 435–436: none.
+
+
+## The Taikhang's own pages: p. 331's stack, p. 334's «བེ་ལུགས», p. 391's letter after སྣ, ch. 26's board on p. 472 (RD134)
+
+Read 2026-11-03 (RD134) for the open questions 582, 583, 584 and 585, on the Taikhang reproduction of a Lhasa print (I5877, New Delhi 1972; each image one folio side, 8700 × 1800 px, a bitonal scan; the folio number printed in the margin). The estimate "Zhol image + 17" held on all four: p. 331 = img. 446 (folio 436, l. 2), p. 334 = img. 450 (l. 2), p. 391 = img. 530 (folio 520, l. 2), p. 472 = img. 645 (folio 635, l. 4; the page of six lines with the colophon on its last two). Yigdzin-1 (through the slot) over img. 446, 450, 530, 645 and 444–445, then each place cut out of the scan and read by eye at 4–10×. No MITRA, no agy.
+
+### 582: p. 331's stack (img. 446, l. 2)
+
+- By eye at 10×, the line «…ཀླུང་རྟའི་གྲོགས་ནི་ངན་པ་ན། །རྟ་དང་བོང་བུ་[སྒབ]་མི་འཕེལ།»: the head ས is plain; the root under it has a heavy top bar, a vertical, and a short stroke running out to the lower left from the stem, which is the part that looks like ཀ. In this hand a spur is what ink spreading and the cutter's cursive both leave, and no crossbar of a plain ག can be told from it on a bitonal scan. Yigdzin-1 reads «སྒབ». The same result as RD128: the glyph does not decide. A comparison with p. 330's «སྒབ» on the Taikhang (img. 445, last line) was not secured: the crop that was cut out did not hold that word.
+- Narrowed, not answered. The sharper impression the question asks for is not among the prints known; the Taikhang is the sharpest of them.
+
+### 583: «བེ་ལུགས་རུ་བལྟ» (img. 450, l. 2)
+
+- By eye at 4×: «གྲོགས་ཀྱིས་[བེ་ལུགས་]རུ་བལྟ» ("by the friend, look to the …"); «བེ» with the vowel above, «ལུ» with its vowel below, then a ག and a ས written in one run with the sign of the genitive ས close against it, and no tsheg between them; the only tsheg of the word's span stands after «བེ» and before «རུ». Yigdzin-1 reads «བེ་ལུགས་རུ». So the block carries one syllable «ལུགས», against the 1996 print's «ལུག་ས». Moderate confidence: the ས is a small stroke in the cursive and a tsheg could be lost in it.
+- Narrowed: the Taikhang has «བེ་ལུགས» (not «བེ་ལུག་ས»), the Zhol «བུ་ལུག» (RD128). The meaning of «བེ་ལུག» stays as the earlier claim left it, as a reading only; «ལུགས» ("way, manner") is a possible sense of the syllable, not decided.
+
+### 584: p. 391's letter after སྣ (img. 530, l. 2)
+
+- Yigdzin-1: «རྩུབ་བདུན་འདི་ནི་སྣང་བར་བཤད» («སྣང»), against the Zhol machines' «སྣད་པར». By eye at 3–7× the stack སྣ is clear; the next letter is a closed hook under a head bar with a down-stroke on the right; ང and ད are told apart in this hand by exactly that closure, and on this scan it is not told. The following syllable shows two white holes, which suits «བར» (བ) better than «པར». Not settled by eye.
+- Line 2 ends «…དུར་གཤེད་རྩུབ་པའི་ཡོ་» and line 3 begins «ཏ་རྣམས», Yigdzin-1 on this print: «ཡོ་ཏ», not the Zhol's «ལོ་རྟ»; not read by eye here (the first letter and ཏ against རྟ stay as a machine reading).
+- Narrowed only on the machine side: the Taikhang's machine reading agrees with the 1996 print (སྣང), the Zhol's with neither; no reading by eye on any block.
+
+### 585: «མི་ཆེན» and «བོན» on ch. 26's board (img. 645, l. 4)
+
+- Yigdzin-1: «ཡོན་ཏན་མཁན་དང་མི་ཆེན་སར། །རྡེལ་ནག་གྱུར་ན་ཀླུང་རྟ་བསྐྱེད། །བོན་སར་ནག་ནག་སས་མཁར་བརྩིག» (the doubled «ནག་ནག» and «སས» are its own slips; the Zhol has «ནག་ན་གསས»). So on the Taikhang the machine gives «མི་ཆེན» and «བོན» as on the Zhol: the two names are the Lhasa blocks' reading, not an editor's mending of one copy.
+- By eye at 6–7×: «མི་ཆེན»'s second syllable has ེ in its long upper stroke over a ཆ-like letter with ན below, no extra left claw such as ཚ carries (low to moderate confidence); «བོན» too cursive to read at the scale of this scan, not taken.
+- Narrowed: two impressions of the Lhasa blocks (Zhol and Taikhang) by machine, one by eye (the Zhol, RD129), against the 1996 print, its etext and the Gser thang reprint; Mipham's print not looked at.
+
+### Open
+
+- Question: p. 331's «སྒབ» or «སྐབ» stays between the stack's two forms on both Lhasa block impressions (the Taikhang's root carries a lower-left spur, as on p. 330's «སྒབ» on the 1996 print); does a reader of the tradition know the word, and what does it say of horse and donkey in the friend's place?
+- Question: p. 334's «བེ་ལུགས་རུ» on the Taikhang against the 1996 print's «བེ་ལུག་ས་རུ» and the Zhol's «བུ་ལུག»: which does a reader of the tradition take, and is it the young of the herd, or a way («ལུགས») of looking at the friend's place?
+- Question: p. 391's «སྣང་བར་བཤད» (Taikhang, 1996 print by machine) or «སྣད་པར་བཤད» (Zhol by machine): ང or ད is not told by eye on either block, and the line's «ཡོ་ཏ» or «ལོ་རྟ» likewise; does a reader of the tradition, or the Zhol's own folio, decide?
+- Question: p. 472's «བོན» is not told by eye on the Taikhang or on a sharper scan of the Zhol at this scale; is a clearer impression of that line to be had?
+
+### Searched and not found
+
+- A sharper impression of p. 331's stack than the Taikhang's (8700 px): none among the prints known to the pool, 2026-11-03.
+- p. 330's «སྒབ» on the Taikhang for the stack's comparison: not found in the crop made (img. 445, the line the machine gives it in), 2026-11-03.
