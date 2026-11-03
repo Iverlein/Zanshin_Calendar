@@ -2244,3 +2244,13 @@ daytime of WB's table, equal to the night at the equinox.
   *Moonbeams*: none; the date's mewa start by the month's group (1, 4, 7)
   and run on (the notes, p. 535; DZ img. 019–020); «ཉི་ལྡོག» with «སྨེ» in
   WB's etext of vol. 2, ch. 30, and the notes' section 8: none.
+
+
+## The dead's reckoning, the day and its food: Dwa's food on p. 130, the thirteen who may not be offered food, the dog day's former and next life (RD135)
+
+Nothing read yet: RD135's passages, with the English beside them, go here.
+
+
+## The dead's reckoning, the la board and the death day: the upper, lower and middle pebbles, «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ», how the death day's planet's state is found, the months of the day's-animal entries (RD136)
+
+Nothing read yet: RD136's passages, with the English beside them, go here.
