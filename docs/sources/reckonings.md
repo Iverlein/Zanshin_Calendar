@@ -2254,3 +2254,8 @@ Nothing read yet: RD135's passages, with the English beside them, go here.
 ## The dead's reckoning, the la board and the death day: the upper, lower and middle pebbles, «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ», how the death day's planet's state is found, the months of the day's-animal entries (RD136)
 
 Nothing read yet: RD136's passages, with the English beside them, go here.
+
+
+## The dead's reckoning, the grid and the pegs: the five parts of each direction on the grid of the sun and moon, the two pegs on the nine-red and none on the eight-white, the mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 (RD137)
+
+Nothing read yet: RD137's passages, with the English beside them, go here.
