@@ -2353,4 +2353,66 @@ On the reprint (img. 128) the lines read, by eye in 3-4x crops: «འབྲུ�
 
 ## The dead's reckoning, the corpse and the gates: «རྫ་མོ» in the sounding, the eight places that open death, «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing, the thirteen gates' fifth and sixth, the marks' line of p. 170, «ཁ་སྨྲང» on p. 166 (RD140)
 
-Nothing read yet: RD140's passages, with the English beside them, go here.
+Read for RD140 (2026-11-03) on the Gser thang reprint (I3CN5029; image = page + 6) by eye in 1.2–3× crops, line by line against Yigdzin-1 on the 1996 scan (image = page + 8) and the 1996 etext; the Zhol print (I1KG1710) located through its etext (p. 90 starts on img. 757, the ninth place on img. 758, p. 99 on img. 771, the thirteen gates on img. 879–880) and opened on img. 757, 758, 771 and 880: its hand is cursive and at the size of the scan the stacks of the questioned words are not told apart, so the Zhol print is a witness only where said. No model was run.
+
+### The ninth place of the sounding (p. 91; question 311)
+
+> དགུ་ནག་འཕུང་སྲི་ཛ་མོ་ཡིས། །རྒྱལ་པོའི་དབུ་ཕོང་ཁ་སྨས་འོང་། (reprint img. 097, l. 8 of the page; Yigdzin-1: «འཕུང་སྲི་རྔ་མོ»)
+
+Black on the ninth: the *'phung sri* (འཕུང་སྲི, 'phung sri) «ཛ་མོ», the king's head is empty and quarrels come. On the reprint the word after «འཕུང་སྲི» is a stack whose letter carries the tail of «ཛ» (dza, not «རྫ», rdza) (as RD33 read it). Three readings are therefore on record for one word: «ཛ་མོ» on the reprint by eye, «རྫ་མོ» in the 1996 etext, «རྔ་མོ» in Yigdzin-1 on the 1996 scan; «རྔ་མོ» is a real word (the camel, WB's own «རྔ་མོ་བོང་བུ་འདྲ་བའི་སྤྲིན», p. 32) but it fits no being of a list of black places, and the 1996 scan is too small to settle the letter. The Zhol print was not resolved on img. 758. The question is narrowed, not answered: the reprint's letter is «ཛ»; which being is meant, no source read says.
+
+### The eight places that open death (pp. 90, 509; question 315)
+
+> ཤི་ཁ་བྱེ་བའི་ས་བརྒྱད་ཡོད། །ལི་ལ་བྱི་ཕག་ཁོན་སྟག་ཡོས། །དྭ་ལ་རྟ་སྦྲུལ་ཁམ་གཤེད་བཞི། །ཟིན་ལ་བྱ་སྤྲེལ་ཤི་ན་ནི། །རོ་ཟླ་འདོད་དང་ཤི་ཁ་བྱེ། (reprint img. 096, ll. 14–15)
+
+There are eight places that open the mouth of death: on *li* (ལི, li) the rat and pig, on *khon* (ཁོན, khon) the tiger and hare, on *dwa* (དྭ, dwa) the horse and snake, on *kham* (ཁམ, kham) the four slayers (གཤེད་བཞི, gshed bzhi), on *zin* (ཟིན, zin) the bird and monkey; "the corpse's wish for a day (?) and the opening of death." (the last line's «རོ་ཟླ་འདོད» is not clear to me and is left unread.)
+
+> ཤི་ཁ་ཕྱེ་བའི་ས་བརྒྱད་ནི་དངོས་བསྟན་ལྔ་པོ་གཞུང་ལྟར་དང་། སྟག་ཡོས་ཁོན་ལ་ལྷག་པར་ངན་པ་དངོས་སུ་བསྟན་ལ་ཤུགས་བསྟན། ཁེན་གིན་ཟོན་གསུམ་ལའང་ཤི་ཁ་ཕྱེ་བས་བརྒྱད་དོ། (Mipham's note, reprint img. 515, ll. 10–11 = p. 509, Yigdzin-1 the same)
+
+The eight places are the five shown outright, as in the root text, tiger and hare on *khon* being shown outright as especially bad, and by implication (ཤུགས་བསྟན, shugs bstan) *khen* (ཁེན, khen), *gin* (གིན, gin) and *zon* (ཟོན, zon) too, since death is opened there: so eight.
+
+Two corrections to the earlier claim and one new fact. The note is on p. 509 (reprint img. 515, whose printed number is 509), not p. 510. The root text says «བྱེ» (bye), Mipham «ཕྱེ» (phye). And the five lines already use all twelve animals once (2 + 2 + 2 + 4 + 2): no animal is left unplaced for the three trigrams, so the three can only take animals again. Each of the three has the element of one of the five: *khen* iron like *dwa*, *gin* earth like *khon*, *zon* wood like *zin*; the pairs that would follow are the earlier inference's, now with a reason: the same animals as the element's twin (*khen* horse and snake, *gin* tiger and hare, *zon* bird and monkey). Still an inference; no text read names the animals.
+
+### «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing (p. 99; question 337)
+
+> སྤྲ་སྒོ་རོ་ཡི་ཁ་ཕྱོགས་ནི། །ལིར་ཤི་ཁེན་དང་ཁེན་ཤི་ལི། །རང་གི་འཐབ་དགྲར་བསྟན་པར་བྱ། །ཡང་ན་རོ་ཕྱོགས་གར་འདྲེན་བསྟན། །མགྲོན་པོ་གར་བལྟས་ལམ་དང་འདྲ། །ས་བདག་ངན་པའི་ཕྱོགས་ལ་བྱོལ། །རྨེ་བདུན་ཤར་བའི་གདོང་ལ་འཛེམ། (reprint img. 105, ll. 25–26)
+
+The corpse's facing (ཁ་ཕྱོགས, kha phyogs): dead on *li*, face it to *khen*, dead on *khen*, to *li*, each toward its own enemy; or the way the corpse is led, as the guest looks along the road; let it escape the side of the bad earth lord; beware the face where the Great Bear (རྨེ་བདུན, rme bdun) rises.
+
+«རྨེ་བདུན» is the seven stars of the Great Bear. WB uses the word so in ch. 28 (the Great Bear at dusk with its feet under cloud, wb.2:p31-32, machine) and in ch. 32, where the middle of its rising and setting marks true north when the foundation stones are laid to the four quarters (wb.2:p283-285, machine; the 1996 etext p. 291 has «རྨེ་བདུན་འཆར་ནུབ་དཀྱིལ་དྲང་བྱང་»): not «སྨེ», the mewa. The sentence at p. 99 is then "avoid the face where the Great Bear rises", the north-east side, a star mark of direction beside the trigram pair. The reprint's first stack of «རྨེ» is a blot that shows the ra above the ma and the vowel e; the Zhol etext's «རྨོ» is noise.
+
+«སྤྲ་སྒོ»: on the reprint the first syllable is a stack of s, p and ra or ya and the second a stack with the vowel o on it, both heavy with ink; the Zhol etext reads «སྨྲ་སྒོ» and the Zhol hand on img. 771 (first line, after «ཁྱད་པར་ཏེ་ཁྲག་དུས་རྣམས་གཙོ») looks like «སྨྲ་སྒོ», not settled. It stands at the head of the first of two parts of the passage; the second is headed in the etext «(༢)སྒོ་ཕྱོགས་བརྩི་བ» (the door direction reckoned), so the first heading names the corpse's facing and «སྒོ» is the door by analogy; the earlier claim found «སྤྲ་སྒོ» in no dictionary consulted. Unresolved: whether «སྤྲ་སྒོ» is for «སྤྱི་སྒོ» (the general door; a guess from the parts' shape, not from any text).
+
+### The thirteen gates' fifth and sixth (pp. 170–171; question 342)
+
+> གནམ་ལོའི་བུ་ཡི་སྤྲུལ་ནས་ནི། །ཕོ་ནི་ཐུར་ལ་མོ་ཡར་ལྔ། །གར་བབས་པ་ཡི་ས་དེ་ནས། །ཕོ་སྒྲུབ་མོ་བཀེན་གང་བབས་པ། །དེ་དང་དུས་འཐབ་ཚུར་བཅད་ངན། (gate 5, reprint img. 177, ll. 4–6)
+> གནམ་ལོའི་གྲོགས་ཡོས་ལྔ་ནས་ཕོ། །ཐུར་སྒྲུབ་མོ་ནི་གྱེན་དུ་བགྲངས། (gate 6, the same, ll. 6–7)
+
+Gate 5: from the sky year's son, the monkey, the male down, the female "up five"; from the year so reached, the male down, the female up, and where it falls fight it with the hour: cut inward, bad. Gate 6: from the sky year's friend, "the hare five", the male down, the female counted up. By the text: the «ལྔ» of gate 5 stands after «ཡར» ("up") as a count, five years, and gate 5's male half lacks its count in the same line, so the one five serves both; in gate 6 «ལྔ» stands after the animal, «ཡོས་ལྔ་ནས», as in gates 10, 11 and 13 («སྤྲེལ་ལྔ་ནས», «ཕག་ལྔ་ནས», «བྱི་ལྔ་ནས») where a second count (13, 25, 13) follows; so «ལྔ» after an animal is a fixed part of the starting phrase there, and whether it is a first step of five or a name for the animal's place (the five elements' animal) the lines do not say. Mipham's note on the gates (p. 536, etext p. 544–545, Yigdzin-1) only says that the "sky year" is the asker's year (not the sky year of the almanac), that the nearest male in front is counted from the wood tiger for a water rat, that «ཡར་གསུམ» and the like are fought with life force, body, power and luck, and that the hour stands for the asker's year; it says nothing of «ལྔ». The "own element" of gates 9–13 is written «གནམ་ལོའི་རང་ཁམས» ("of the sky year"): it is the element of the asker's year, as the earlier claim has it. Narrowed: fixed on the own element, the five open.
+
+### The marks' line and the earth hour's hair (p. 170; question 346)
+
+> ཡང་ནི་སྐྲ་ཚད་བཤད་བྱ་བ། །ཤིང་ལ་སྐྲ་ཕྲུག་མེ་རལ་ཅན། །ས་ལ་བནྡེ་ལྕགས་མགོ་རེག །ཆུ་ལ་སྐྲ་གསིལ་ཡོད་པར་ཤོད། ། ཡང་ནི་ཤ་མཚན་ཤའི་ལྔ་ཅན། །དྲུག་གུ་མི་ལ་རྨེན་པའམ། །སྨེ་བ་ས་ལ་སྐུར་པོ་ཡོད། །ལྕགས་ལ་མཆན་ཁུང་སྨེ་བ་ཡོད། །ཆུ་ལ་ཤོ་རེ་ཡོད་པར་ཤོད། (reprint img. 176, ll. 5–6)
+
+The hair, by the element of the hour: the first line gives wood and fire together («ཤིང་ལ ... མེ»: a tuft for the wood, "fire-matted" for the fire), then earth, iron, water. The marks keep the same order: wood and fire are in the first two clauses of the first couplet, «ཤ་མཚན་ཤའི་ལྔ་ཅན» and «དྲུག་གུ་མི་ལ་རྨེན་པའམ» (a flesh mark with its "five"; a pimple on a man, or a mole, «རྨེན་པ»), then earth a mole (སྨེ་བ, sme ba) on the «སྐུར་པོ», iron a mole under the arm (མཆན་ཁུང, mchan khung), water «ཤོ་རེ». So no hour is lost: the verse has five parts in four and five lines, and the labels «ཤིང་ལ» and «མེ་ལ» are only left out of the marks. The words «ཤའི་ལྔ་ཅན», «དྲུག་གུ», «སྐུར་པོ» and «ཤོ་རེ» are not understood. For the earth hour's hair, the stack of the second syllable in «ས་ལ་བ?ྡེ་ལྕགས་མགོ་རེག» is a blot on the reprint (a top with the vowel e, a tail to the lower right): «བནྡེ» as Yigdzin-1 and the etext have it (the monk, bande, a word the 1996 etext has in many places of the chapter's rites) cannot be told from «བཛེ» by the eye; «བཛེ» gives no word, so «བནྡེ» stands: earth's hair a monk's, the iron head touching.
+
+### «ཁ་སྨྲང» for the king-and-minister pebbles (p. 166; question 349)
+
+> དང་པོ་རྒྱལ་བློན་རྡེལ་བཞི་སྟེ། །གར་བབ་ས་དེར་རྡེའུ་བཞག །དེ་ཡི་འབྱུང་བ་ངོས་བཟུང་ལ། །གང་ཡིན་དེ་ཡི་ཁ་སྨྲང་བཏགས། (reprint img. 172, ll. 7–8)
+
+First the king and minister, four pebbles: put the pebble where it falls; find the element of that place; whichever it is, attach its «ཁ་སྨྲང» («བཏགས», name it, tag it). The reprint's line 8 is read as Yigdzin-1 has it, the stack after «ཁ» a blot (s, ma and ra under, then «ང»). It is the word of pp. 50 and 114 («དགོས་པའི་ཁ་སྨྲང་འདི་ཡིས་ཤོད», p. 50 read on the scan in RD16): an account, a saying. «Tag the account of the element» is what the lines after do: each element's three pebbles and its eight places. Answered as before, now with p. 166 itself read.
+
+### Open
+
+- Question: In WB vol. 2, p. 91 the ninth place of the sounding reads «འཕུང་སྲི་ཛ་མོ» on the reprint, «རྫ་མོ» in the 1996 etext and «རྔ་མོ» in Yigdzin-1: is «ཛ་མོ» a being of the *'phung sri*, and is any of the three the Zhol print's word?
+- Question: In WB vol. 2, p. 90 and Mipham's note, p. 509: are the three places *khen*, *gin* and *zon* "by implication" the pairs horse and snake, tiger and hare, bird and monkey (the animals of the element-twin trigrams), as the five lines have used all twelve animals once?
+- Question: In WB vol. 2, p. 99, ll. 25–26: what is the first word of the corpse's facing, «སྤྲ་སྒོ» (Zhol etext «སྨྲ་སྒོ»), and does «རྨེ་བདུན་ཤར་བའི་གདོང» mean the face where the Great Bear rises?
+- Question: In the thirteen gates (pp. 170–171), is the «ལྔ» after an animal in gates 6, 10, 11 and 13 («ཡོས་ལྔ་ནས», «སྤྲེལ་ལྔ་ནས», «ཕག་ལྔ་ནས», «བྱི་ལྔ་ནས») a count of five from that animal or a name for its place, given that gate 5 counts five up?
+- Question: In p. 170, what do «ཤའི་ལྔ་ཅན», «དྲུག་གུ», «སྐུར་པོ» and «ཤོ་རེ» in the marks' verse mean, and is the earth hour's hair «བནྡེ» (the monk) as Yigdzin-1 reads?
+
+### Searched and not found
+
+- «འཕུང་སྲི་ཛ་མོ» or «འཕུང་སྲི་རྫ་མོ»: nowhere else in the etexts of WB (1996) and the Zhol print read in this reading; the Zhol scan, img. 758, not resolved.
+- «སྤྲ་སྒོ» in the 1996 etext and the Zhol etext (which has «སྨྲ་སྒོ», p. 771): no second place; no gloss.
+- A count, or the word «ལྔ», explained in Mipham's note on the thirteen gates (p. 536, etext pp. 544–545): none.
+- The animals of *khen*, *gin* and *zon* in the notes p. 509: none beyond «ཁེན་གིན་ཟོན་གསུམ་ལའང་ཤི་ཁ་ཕྱེ་བས་བརྒྱད་དོ».
