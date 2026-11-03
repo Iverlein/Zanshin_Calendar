@@ -656,3 +656,23 @@ Questions 324, 333 and 299, read in the pool and on one sharp print. *Read: scan
 
 - «ཤི་སྒབ» and «ཤི་སྐབ» in the Zhol etext (IE0OPI7850CC9C) pp. 777-784: three hits only (img. 778, 784 twice, one garbled), too noisy to place the other places by their text.
 - The rites' names «ཤ་རི་བྷྱོ», «མ་ཏྲམ» and «ཨུར་མནན»'s seeds: no dictionary or catalogue entry beyond the existing claim; not searched again.
+
+## RD142: the la's wandering and the year's names (2026-11-03)
+
+Questions 363 and 366 on WB vol. 2, pp. 9, 16 and 17. *Read: scan by eye on the Zhol print (WBZ, I1KG1710 img. 638 and 649, crops enlarged 3 to 9 times) and Yigdzin-1's files of the 1996 print (img. 17, 24, 25); the 1996 etext (VEIE0OPI51524892_I1KG12907, searched with `locate.py find`) for the other places of the words; the claims already written. No model run, no agy turn.* The image numbers of the row held: p. 9 = img. 17, p. 16 = img. 24, p. 17 = img. 25 on the 1996 print; the Zhol print's are img. 638, 649, 650-651 (checked: img. 638 carries p. 9's ninth-circle verses, img. 649 the la's verse).
+
+- **Question 363** (the la's wandering): narrowed by a new count, [ch27-la-wandering-by-compass-half](claims/ch27-la-wandering-by-compass-half.md). By the animal's own place on the compass the four named years (rat and pig in the northern half, snake and horse in the southern) all go to the opposite half; by the sky year's trine, which RD51 counted, the snake and pig alone did not. No misprint of east or west need be assumed; the verse states no rule, so this is a likely reason and not a proof. The directions read the same on every print seen. The rat's «ལྷོར» is settled on the 1996 scan by RD90's claim [ch27-la-rat-south-on-1996-scan](claims/ch27-la-rat-south-on-1996-scan.md); the Zhol crop of img. 649 (line 5) at 4 times is too faint to add to it, and the count gives south too.
+- **Question 366**, word by word, from the claims and this reading:
+  - «ན་ཟླ་སྟོན་མོ» (p. 9, l. 16): answered since RD90, the feast of the age-mates ([ch27-na-zla-ston-mo-letters](claims/ch27-na-zla-ston-mo-letters.md), [ch27-words-in-steinert-dictionaries](claims/ch27-words-in-steinert-dictionaries.md)); WB's own «ན་ཟླ» at p. 63 (the six great lamps of the dead's reckoning) is the same word as the month-of-illness lamp (`claims/dead-six-lamps.md`), another use, not the feast's. The question's wording is to be closed as answered.
+  - «ཚད་ཟླ་མག་སྐུད» (p. 9, l. 6): «ཚད་ཟླ» is «ཚང་ཟླ» by Zhechen Gyaltsab's verse (claim [ch27-tshad-zla-is-tshang-zla](claims/ch27-tshad-zla-is-tshang-zla.md)), comrades, «མག་» the son-in-law's side; on the Zhol print (img. 638, the line's second block) the syllables read «ཚད་ཟླ་མག» followed by a stack under a filled head with ུ, as on the reprint, and the ར over ག of the Taikhang's «རྒུད» against ས over ག «སྐུད» is not told by eye there either; the 1996 etext and Yigdzin-1 have «སྐུད». Unsettled letter, settled meaning.
+  - «འུར་ཞོགས» (p. 17, l. 26): a headword, "alarming talk" (claim in the dictionaries file); the old «ཞུར» is on no print; not looked at again by eye beyond RD51 and RD77.
+  - «ལྕོང་མོའི་རྔ་མས» (p. 17, l. 9): settled since RD90 on the 1996 and reprint scans as two syllables, the tadpole's tail (claim [ch27-lcong-mo-rnga-ma-tail](claims/ch27-lcong-mo-rnga-ma-tail.md)); the 1996 etext (p. 25 marker, printed p. 17) reads the same, which this reading confirmed by search. Only the Taikhang's fused ink is left.
+
+### Open
+
+- Question: for the la's wandering of p. 16 (the rat and pig year's la south, the snake and horse year's north), does a commentary or an oral tradition of the Phugpa state the rule that each la goes to the half of the compass opposite to its animal's own place, and why are only these four of the twelve years named?
+
+### Searched and not found
+
+- «ཚད་ཟླ་མག་སྐུད» and «ཞུར་ཞོགས»: no occurrence in the 1996 etext outside the verse itself (`locate.py find`); «འུར་ཞོགས» does not occur there as one word at all (OCR breaks it).
+- A parallel verse for the la's wandering by the four years: none found in the 1996 etext outside p. 16.
