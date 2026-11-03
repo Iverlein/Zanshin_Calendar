@@ -1359,3 +1359,5 @@ Searched and found wanting, so not to be repeated:
 - **RD144** (RD144, 2026-11-03):
   - 2026-11-03, a gloss in LT or in Mipham's notes (wb.2:p532-533) that gives the pair of WB's twenty-eighth or twenty-ninth reading: none; LT's pair verse is WB's.
   - 2026-11-03, a gloss on «དྲུག་འབྲས» as a named place (the Moonbeams, LT's etext, Mipham's notes pp. 490–500, 532–534): the name occurs only in WB vol. 1, p. 413 and the Moonbeams; WB vol. 2, p. 188 has «མར་གྱི་དྲུག་པ» for the earth lord.
+- **RD148** (RD148, 2026-11-03):
+  - 2026-11-03, «འཕྲུལ་གྱི་མིག་ཚགས» and «ཁྱུང» in img. 497–498's reply 140: not seen on the lines opened (part of img. 498 l. 2 and none of img. 497 at 3×; time).
