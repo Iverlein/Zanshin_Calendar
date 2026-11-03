@@ -8383,3 +8383,10 @@ None new.
 ### Searched and not found
 
 - 2026-11-03, pp. 478, 483 and 526 on the reprint and the 1996 print: a sentence naming the pebbles' colour as what makes the life force, body or luck bad in the match's karma reckoning; none.
+
+## Zhol img. 602, the order of the Tibetan thirteenth and fourteenth pairs (RD155, q602): not settled
+
+Read 2026-11-03 (RD155), by eye, no model run, no agy turn: WB vol. 1 on the Zhol print (I1KG1710) img. 602 (p. 453, 3758×609 px, six cursive lines) cut with PIL into line strips at 2× (about 470 display px wide each). The pair verses stand in the middle lines, one pair to a half-line, each opening «བཅུ་…» («བཅུ་གསུམ», «བཅུ་བཞི»); the hand is a running one and the ligatures of «དགྲ་བྱ་སྤྲེལ» and «གྲོགས་རྟ་ལུག» were not told apart at 2× in the time given, so the order of the thirteenth and fourteenth pairs on the Zhol blocks is not read. The 1996 print's order is the pool's ([wb.1:p453-454](corpus/wb/ch26.md#wb-1-p453-454): thirteenth the horse and sheep of the friend, fourteenth the bird and monkey of the enemy); no witness shows the *Moonbeams*' order (the enemy's bird and monkey before the friend's horse and sheep) yet.
+
+- Doubt: Zhol img. 602 order of pairs 13 and 14, not read; next step: 4–8× crops of the second and third lines from the right half (display x about 570–1400, y about 140–215), counting the «བཅུ་» openers from «བཅུ་པ» on; the Taikhang (I5877, Zhol image + 17) as second witness, not opened.
+- RD155, 2026-11-03: dead end for 2× strips of the page; the hand needs 4× or more.
