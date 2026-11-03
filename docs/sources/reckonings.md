@@ -2513,3 +2513,8 @@ Result per question, none changed by this reading:
 ### Searched and not found
 
 - «ཡི་བམ» on I5875 img. 514 in the line at y 520 (x up to 5,300) and the line at y 700 (x up to 2,250): not there; the page's numbering of lines (ll. 3–4 of RD104) does not match the y positions at which the clause lies, so the next reader should start from the clause «དེས་ན་མོ་ཡི་བམ་ལ་བབས་ནས» by its neighbours, in the strip x 5,300–8,000 of both tiers.
+
+
+## The Vaiḍūrya reply 140's first syllable, found from the clause «དེ་ལྟར་བསལ་ན་དཀའ་བ་མེད་པར་རྟོགས་པས» (RD152)
+
+Nothing read yet: RD152's passages, with the English beside them, go here.
