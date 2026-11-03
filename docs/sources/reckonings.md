@@ -2547,3 +2547,8 @@ Read 2026-11-03 (RD154) for open questions 595 and 596, by BDRC's full-text sear
 ### Searched and not found
 
 - «སྤོས་གྲི་རྒོད» (0 hits) and «ལྷོག་པ་སྤོས་གྲི» (0 hits), BDRC full-text search, 2026-11-03; «མོ་བརྒྱུད་རྨང» (1 hit, WB itself).
+
+
+## Ch. 32 on the scan: the stretch of WB vol. 2 pp. 241–296 that only the etext (34 pages) and the machine reading (19) cover, 2 pages by eye (`kb.py coverage WB`, 2026-11-03) (RD156)
+
+Nothing read yet: RD156's passages, with the English beside them, go here.
