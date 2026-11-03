@@ -2528,3 +2528,8 @@ Result per question, none changed by this reading:
 ### Searched and not found
 
 - The syllable under the head: no letter settled; the print's second copy (Zhol etext, not opened) or a sharper scan remains the way.
+
+
+## The la board's «རྨང» and the copper vessel's blue mewa line: «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52, «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» on p. 55 (RD154)
+
+Nothing read yet: RD154's passages, with the English beside them, go here.
