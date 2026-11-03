@@ -2248,7 +2248,43 @@ daytime of WB's table, equal to the night at the equinox.
 
 ## The dead's reckoning, the day and its food: Dwa's food on p. 130, the thirteen who may not be offered food, the dog day's former and next life (RD135)
 
-Nothing read yet: RD135's passages, with the English beside them, go here.
+Read 2026-11-03 (RD135): WB vol. 2, ch. 29, pp. 68–72 and 129–132, for open questions 262, 276 and 279, on the Zhol print (WBZ, I1KG1710, 3750 px; pp. 68–72 are img. 723–729, pp. 129–132 img. 815–820) and the Taikhang reproduction (I5878, 8280 px, img. = WBZ img. − 618: 106–111 and 197–202). The 1996 images (I1KG12907, img. 76–80 and 137–140, i.e. page + 8) were queued for Yigdzin-1 behind other readers and had not run when this was written; the 1996 and Gser thang (གསེར་ཐང, gser thang) readings are those of ch29-funeral.md and ch29-grave.md. Yigdzin-1 was run on the Zhol images 724–729 and 815–820 (scratch only); every line quoted below was then read by eye on the scan, the Zhol cut and enlarged 5× to 8×, the Taikhang 2× to 4×. No MITRA, no agy.
+
+### Dwa's food, p. 130 (question 262)
+
+Zhol img. 817, l. 3 (the page begins on l. 2), and Taikhang img. 199, l. 3, about a quarter along; the line is the dwa's (དྭ, dwa) verse of the grave provisions:
+
+> དྭ་ལ་ཤི་ན་འདི་གྱེར་རོ། །བྱ་ཤ་ཇུ་རྩེ་[སྐྱུར/སྒྱུར]་རྩིབ་གཡོན། །ཁྱོད་ཀྱི་དུར་བརྒྱགས་རྫོངས་སུ་འདེབས།
+
+"For the dwa who dies, this is sung: bird meat, «ju rtse», [?], the left ribs; as your grave food I lay it in the pit." Both prints carry the same seven syllables. The first four and the last two are plain on both. The fifth is a stack with a subjoined ya (ཡ་བཏགས, ya btags) and the vowel u under ས, then ར: on the Taikhang at 4× the ya-hook and the curl of the u are visible, so «སྒུར» (the reading of Yigdzin-1 on both prints, and of the earlier note) lacks the ya and is not what is carved; the Zhol etext's «སྒྱུར» (WBZ etext, p. 817) has it. Whether the head letter under ས is ཀ or ག is not told apart on either print. What «ju rtse» means is not stated by any source read.
+
+### The thirteen who may not be offered food, p. 69 (question 276)
+
+Zhol img. 726, l. 2, read at 5×; the verse reads on the Zhol as on the other prints, as far as the eye separates it:
+
+> དེ་ལྟར་འདུར་ལུགས་བཅུ་གསུམ་ནི། … ཕ་མ་མིང་པོས་འདུར་མི་རུང་། །ཟན་གཏད་མི་རུང་བཅུ་གསུམ་ནི། །ཟན་བརྣངས་ལར་ན་བརྣངས་ནས་ཤི། །ཟན་གཏང་མི་རུང་བཅུ་གསུམ་མོ།
+
+"The thirteen who may not be given food: one who choked on pulled food and died; (so) the thirteen who may not be given food." The first word of the thirteen's line is «གཏད» on the other prints; Yigdzin-1 on the Zhol has «གཏང», the eye did not settle the final letter of the first, and the sense is the same. The Zhol too names one person only, and the verse closes at once. The lists before it, on the same page and in the same words on the Zhol (img. 725–726, by Yigdzin-1 and the eye at 2×): «བསོད་ནམས་ཆེ་ཡང་མི་རུང་ལྔ» (five, though great in merit, who may not have a funeral; four are named: a monk dying in the prayer row, a mantra practitioner in the practice row, a Bon priest in the gods' row, one who died after practising on a single deity), «དབང་ཐང་ཆེ་ཡང་མི་རུང་དྲུག» (six, though great in power; the leper is the one named) and the three who may not hold the seven-day rite. Counted, five and six are eleven, and with the one who choked twelve; with the three of the seven-day rite fourteen; no sum is thirteen, so the thirteen is not any of these lists taken whole.
+
+### The dog day, p. 71 (question 279)
+
+Taikhang img. 110, l. 5 (the Zhol's img. 728), enlarged 2× to 4×; the bird day, the dog day and the pig day run on in one line:
+
+> བྱ་ཡི་ཉི་མར་ཤི་བ་ན། །ཚེ་སྔོན་ངང་པ་ཞིག་ཏུ་སྐྱེས། །ཕྱི་མ་ནུབ་ཕྱོགས་བུ་སྤུན་ནི། །གསུམ་གྱི་བར་པ་ཞིག་ཏུ་སྐྱེ། །ཁྱི་ཡི་ཉི་མར་ཤི་བ་ན། །ཚེ་སྔོན་ཁྱི་གུ་ཞིག་ཏུ་སྐྱེས། །ཕྱི་མ་ནུབ་ཕྱོགས་བུ་སྤུན་ནི། །གསུམ་གྱི་བར་པ་ཞིག་ཏུ་སྐྱེ། །ཕག་གི་ཉི་མར་ཤི་བ་ན། །ཚེ་སྔོན་སྔགས་པ་ཞིག་ཏུ་སྐྱེས།
+
+"Died on a bird day: before, born a goose; next, in the west, the middle one of three brothers. Died on a dog day: before, born a puppy (ཁྱི་གུ, khyi gu); next, in the west, the middle one of three brothers. Died on a pig day: before, born a mantra practitioner." The first letter of the dog day's former life has the same hooked head as the «ཁྱི» of the dog day's own heading, one segment before it, so the creature is the puppy and not «ཕྱི་གུ»; the next-life line is carved the same on the bird day and the dog day, so the repeat is in the blocks and not an error of the 1996 setting. On the Zhol, img. 728's last line ends within the bird day's lines and img. 729 opens at the lines on the manner of dying, so the dog and pig days and the hours' pairs were not found on the Zhol scans of this stretch (Yigdzin-1 also breaks off there); I did not settle whether a leaf is missing from the scan or the lines stand elsewhere, and the Taikhang is the print quoted.
+
+### Open
+
+- Question: On the dwa's grave food (WB vol. 2, p. 130) the blocks carve «བྱ་ཤ་ཇུ་རྩེ་སྐྱུར་རྩིབ་གཡོན» with a ya under the fifth stack (ka or ga undecided): what is «ཇུ་རྩེ», and what is the word after it?
+- Question: The verse of the thirteen who may not be offered food (p. 69) names only the one who choked on food; which twelve others does the tradition count, given that the verse does not call any of the five, six or three of the lists before it by this number?
+- Question: On the Zhol print the dog day's lines (p. 71) were not found between the bird day and the manner of dying; is a leaf missing in the Zhol print or in its scan (BDRC img. 728–729)?
+
+### Searched and not found
+
+- The thirteen who may not be offered food: no other name among the lines of pp. 68–70 on the Zhol, Taikhang (by Yigdzin-1 and the eye) and the Gser thang etext; the lists of five and six are of those who may not have a funeral, not food.
+- «ཇུ་རྩེ» in the WBZ etext (IE0OPI7850CC9C): only p. 817, in this verse.
+- The dog day's and pig day's lines in the WBZ etext (IE0OPI7850CC9C): «ཚེ་སྔོན་སྔགས་པ» and «ཉིན་མཚན་དུས་ཚོད་བཅུ་གཉིས» no hit (its OCR of these pages is garbled).
 
 
 ## The dead's reckoning, the la board and the death day: the upper, lower and middle pebbles, «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ», how the death day's planet's state is found, the months of the day's-animal entries (RD136)
