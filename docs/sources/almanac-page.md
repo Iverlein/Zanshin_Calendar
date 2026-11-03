@@ -717,3 +717,7 @@ Question 594. *Read: Taikhang I5878 img. 162 by eye at 1x (line crops cut by y w
 ### Searched and not found
 
 - «ཤི་སྒབ» on img. 162 of the Taikhang by eye at 1x over the left half of lines 1-5: not found among the cursive words.
+
+### A further look at img. 166 (launcher, 2026-11-03)
+
+Yigdzin-1 over img. 162, 165 and 166 (text only, no boxes) puts «མི་ལོ་བཅུ་དྲུག་ཤི་སྒབ་ཆོད» at the end of a line of img. 166 (p. 108, l. 26 by the machine's numbering). On the scan the right-hand stretch of the scan's fifth line (crop x 5880–6420, y 930–1150, at 3×) shows «ཤི» followed by a stack with a head letter and, under it, a closed subjoined bowl that ends in a rounded foot, with no crossing stroke through it: it reads as «སྒ» rather than «སྐ». This is one place of five, read at 3× on a one-bit scan with clotted ink, and the stroke that would make ཀ may be lost to the fill; so with RD150's p. 105 place the two read ག, three places are still unread (img. 162 twice, img. 165), and question 594 stays open.
