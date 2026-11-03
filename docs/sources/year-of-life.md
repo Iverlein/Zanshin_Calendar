@@ -3449,3 +3449,35 @@ Read 2026-11-03 (RD134) for the open questions 582, 583, 584 and 585, on the Tai
 
 - A sharper impression of p. 331's stack than the Taikhang's (8700 px): none among the prints known to the pool, 2026-11-03.
 - p. 330's «སྒབ» on the Taikhang for the stack's comparison: not found in the crop made (img. 445, the line the machine gives it in), 2026-11-03.
+
+## The thirty's element, whose year, the check order: questions 259, 303 and 306 (RD138)
+
+Read 2026-11-03. Pages: WB vol. 1, ch. 26, pp. 453–454 on the Zhol print (WBZ img. 602–603, I1KG1710, Yigdzin-1 through the slot, six leaves img. 602–607 run, 602–603 used) and on the 1996 and Gser thang scans (I3CN5028 img. 448–449 beside, no new reading); the notes, vol. 2, pp. 532–533 on the Gser thang reprint (I3CN5029 img. 538–539, image = page + 6), p. 532's last ten lines by eye at 0.9×; vol. 2, p. 3 (I3CN5029 img. 9, image = page + 6) looked at again, its lines already read one by one under RD90 (corpus/wb/ch27.md); p. 387 (I3CN5028 img. 382) by eye. Pages 455–458 (img. 465–468) were not read again: their readings are in corpus/wb/ch26.md and the claims `thirty-01-lords` to `thirty-14-bride`, and no question here turned on a doubtful syllable of them. Etexts of the 1996 print and the Zhol print fetched for searching.
+
+**The Zhol print, p. 453.** Yigdzin-1 on WBZ img. 602 gives the pair list, the count of years and the eight fighting pebbles in the words of the 1996 print (the pair lines «བརྩི་བྱའི་ཁམས་མཐུན་པའི», «བརྩི་བྱའི་བུ་མཐུན་པའི», «གྲོགས་ཁམས», «དགྲ་ཁམས», «མ་ཁམས», the verb of the fighting «ཡར་བཞིའི་སྲོག་དང་འཐབ། མར་བཞིའི་ལུས་དང་ཡར་བཅུ་གཅིག། དབང་ཐང་མར་གྱི་བཅུ་གཅིག་ས། ཀླུང་རྟའི་འཐབ་དགྲ…», and «བཞི་བཅུ་རྩ་གཅིག»), with its usual slips of letters (ཁྱི for བྱི, «མཁམས» for «མ་ཁམས», «རྩུབ» where the 1996 print has «སྦུབ», «ཐུར་ཕྲ» for «ཐུར་དུ» and the like). The cursive block letters of the leaf were looked at at 1.5–2×: not one of these slips is told by eye, so none is taken as a variant, and the leaf is *machine*. No difference in the element phrase between the prints.
+
+**The notes, pp. 532–533, on the reprint.** The sentences the questions turn on read as the etext has them: «གང་ལ་བརྩི་ཡུལ་དེའི་ལོ་རྟ་དང་ཁམས་མཐུན་པའི་བྱི་གླང་སོགས་ནས་བསྐོར་བ», the order «བུ་བག་ནི་བུ་དང་བག་མའི་ལོ་རྟ། དེ་བཞིན་ཁང་བདག་དང་། ཟངས་ཐེར…», and the closing «དུར་སའང་གཤིན་ལོའམ་འདྲི་བྱེད་ལའང་སྦྱར་འདུག་གཞན་རྣམས་སོ་སོའི་ལོ་རྟའོ». The passages are in corpus/wb/notes-7.md (wb.2:p532-533).
+
+### Question 259, whose element starts the thirty
+
+New: WB itself calls the element a start is counted from, in a count of the same frame, «ལོ་ཁམས», the year-element of the one reckoned (p. 387, claim thirty-element-lo-khams-p387): a man from the son's tiger, a woman from the mother's monkey, down and up by the years lived, fighting the life force, body, power and luck. With the *Moonbeams*' example (wood, fire tiger, water monkey) that is the year's name-element, the power's, in WB's own word; for the thirty it remains the inference of claim thirty-element-same-phrase, now with a parallel in WB's text. The bare phrase «བརྩི་བྱའི་ཁམས» is no proof by itself: in the illness reckoning's opening examinations the same start animal is the enemy's, mother's, friend's and son's in four examinations, so the element changes by examination there (claim thirty-element-phrase-varies-in-illness); the thirty's fifteen pairs, round one element, are one element for all. Which of the eight fighting pebbles answers which check: no new evidence; the check order stays an inference from «ཡར»/«མར» (claim thirty-check-order-yar-mar). The circles' part and the mewa were answered under RD38 (q368 holds the mewa).
+
+### Question 303, whose year for «བུ་བག» and the points passed over
+
+By eye the notes' order is horses, then «བུ་བག», then the house owner, then the bronze vessel: between the eleventh and fifteenth points, as claim thirty-bu-bag-bride has it. Nothing in the notes or in pp. 457–458's readings (as the pool has them) says whether the thirteenth, husband and wife together («བཟའ་མི་ཟུང»), takes the son's and bride's years as a pair; the notes' last clause, «གཞན་རྣམས་སོ་སོའི་ལོ་རྟ», gives each of the rest its own, which for the thirteenth would be the husband's or the wife's, not stated. No change.
+
+### Question 306, whether the check order is the pebbles' order
+
+Read again: the notes' «དང་པོ་གསུམ་པ་ལྔ་པ་གསུམ་ལ… ཡར་གསུམ། གཉིས་བཞི་དྲུག་ལ་མར་གསུམ། བདུན་བརྒྱད་ལ་བར་དུ» is told of the old oral tradition of Khyung and of a board set in a nine-square garuḍa («སྔོན་གྱི་ཞལ་ཤེས»), and ends «བརྩི་བར་གསུངས»: it groups the numbered results of the board, not the fighting pebbles by name. The link to p. 453's pebbles is the shared words «ཡར»/«མར» only; no sentence of WB or the notes says that the first of the eight results is the fourth up's life-force pebble. Narrowed no further: the readings' contents (forefathers twice running in points 1, 2 and 6) are the standing evidence against a strict match, and no source read says how the two orders are joined.
+
+### Open
+
+- Question: the notes (p. 532) start the thirty's pairs «ལོ་རྟ་དང་ཁམས་མཐུན་པའི» from the element of the one reckoned's year-horse (ལོ་རྟ, lo rta); WB's own «ལོ་ཁམས» (p. 387) names the year's element for a count of the same frame. Does a reader of the tradition take both as the element the year is named by (the power), and never the animal's own element, for the thirty?
+- Question: in the illness reckoning's opening examinations (pp. 417–419) «བརྩི་བྱའི་ཁམས་ཀྱི» takes a different element in each examination (the tiger is enemy, mother, friend and son in four of them). Which element of the one reckoned does each examination take, and is it the element of the aspect examined?
+- Question: the thirteenth point, husband and wife together, takes the notes' «བུ་བག» (the son's and the bride's year-horses) or the husband's and wife's own years?
+
+### Searched and not found
+
+- The Zhol print's first pair-line verb («སྦུབ» or the machine's «རྩུབ») on WBZ img. 602, by eye at 2×: the cursive letters are not told, 2026-11-03.
+- A sentence of WB or the notes joining the eight results of the board to the eight fighting pebbles by number: none in pp. 453–472 or the notes' pp. 532–533, 2026-11-03.
+- «བརྩི་བྱའི་ལོ་ཁམས» and «ལོ་ཁམས» across the 1996 etexts (vols. 1 and 2): hits only at vol. 1 p. 387 (img. 397) and, as «སོ་སོའི་ལོ་ཁམས», in the notes' close on the moment (vol. 2, etext p. 180); none in ch. 26, 2026-11-03.
