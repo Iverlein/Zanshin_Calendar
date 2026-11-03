@@ -1361,3 +1361,8 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, a gloss on «དྲུག་འབྲས» as a named place (the Moonbeams, LT's etext, Mipham's notes pp. 490–500, 532–534): the name occurs only in WB vol. 1, p. 413 and the Moonbeams; WB vol. 2, p. 188 has «མར་གྱི་དྲུག་པ» for the earth lord.
 - **RD148** (RD148, 2026-11-03):
   - 2026-11-03, «འཕྲུལ་གྱི་མིག་ཚགས» and «ཁྱུང» in img. 497–498's reply 140: not seen on the lines opened (part of img. 498 l. 2 and none of img. 497 at 3×; time).
+- **RD146** (RD146, 2026-11-03):
+  - 2026-11-03, BDRC's full-text search: «འགྲོ་བདེ་གཉིས» 2 hits (the Bhutan KP; the Jonang manual), «འགྲོ་བདེ་གཉིས་ཀྱི་འབྲས་བུ» 1 (the Bhutan KP only): no commentary on KP's clause, no second copy of KP's sentence.
+  - 2026-11-03, the same search, «ཁྱད་པར་དམིགས་ཀྱིས་བསལ» 19 hits: WB's prints, the Kun 'dus chen mo, the 'Byung rtsis dpyad don rmad byung and the commentators' idiom; none uses it for a weighing.
+  - 2026-11-03, «འཇུག་ཕོད་ལ་སོགས» 9 hits: the Sarvadurgati and its three commentaries, SDP's two copies; none gives a Sanskrit equivalent or the word viṣṭi.
+  - 2026-11-03, WB's departure, pp. 365–378 (etext): no verse ranks the checks; no screening clause of the KP kind.

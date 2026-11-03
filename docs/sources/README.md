@@ -999,6 +999,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0602.md](questions/q0602.md) | question q602 | A print of WB p. 453 with the Moonbeams' order of the thirteenth and fourteenth pairs | open; cites wb.1:p453-454 |
 | [questions/q0603.md](questions/q0603.md) | question q603 | «ཡི་བམ» in reply 152: a spelling of «ལི་ཁམ» or another word | open; cites ys:i513-514 |
 | [questions/q0604.md](questions/q0604.md) | question q604 | The first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན» in reply 140 | open; cites ys:i497-498 |
+| [questions/q0605.md](questions/q0605.md) | question q605 | The departure's singled-out lords: of the date, the year or the hour, barred or remedied | open; cites wb.1:p373-375 |
+| [questions/q0606.md](questions/q0606.md) | question q606 | «བཅག» or «བཅུག» in the nose rite, and the nose of «སྣ་ཆོག» | open; cites wb.1:p373-375 |
+| [questions/q0607.md](questions/q0607.md) | question q607 | A Kālacakra or Sarvadurgati commentary naming the Sanskrit of «འཇུག་ཕོད» | open; cites sdp:p238-241 |
 
 <!-- end pool index -->
 
