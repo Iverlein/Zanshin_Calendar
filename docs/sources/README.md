@@ -975,6 +975,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0592.md](questions/q0592.md) | question q592 | The element of the one reckoned in each illness examination | open; cites wb.1:p417-419 |
 | [questions/q0593.md](questions/q0593.md) | question q593 | The eight seed syllables of the pressing-down wheel on the Taikhang | open; cites wb.2:p112-114 |
 | [questions/q0594.md](questions/q0594.md) | question q594 | Five places of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang | open; cites wb.2:p104-105 |
+| [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
+| [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
 
 <!-- end pool index -->
 

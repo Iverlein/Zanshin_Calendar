@@ -1336,3 +1336,8 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, «བརྩི་བྱའི་ལོ་ཁམས» and «ལོ་ཁམས» across the 1996 etexts (vols. 1 and 2): hits only at vol. 1 p. 387 and, as «སོ་སོའི་ལོ་ཁམས», in the notes' close on the moment; none in ch. 26.
 - **RD141** (RD141, 2026-11-03):
   - 2026-11-03, «ཤི་སྒབ» and «ཤི་སྐབ» in the Zhol etext (IE0OPI7850CC9C) pp. 777–784: three hits only, too noisy to place the other places by their text.
+- **RD136** (RD136, 2026-11-03):
+  - 2026-11-03, a table or text dividing the twelve la places into the upper, lower and middle pebbles: not in WB's notes (p. 502), the Moonbeams' board (RD45), Lha mo Tshul khrims's verse restatement (MW1KG21818), or BDRC's full-text search for «རྡེལ་སྟོད་སྟོངས་ན» and «རྡེལ་སྨད་སྟོངས་ན» (0 hits each).
+  - 2026-11-03, a gloss of «ཡུགས་སའི་སྐྱུར» (0 hits) or «ཁྲ་བོ་བློ་ཐུབ» (1 hit, WB's own notes) in BDRC's full-text search; «ལྔ་སེར་སྐྱུར་རམ» has two (Lha mo's verse, MW1KG21818, and the Dge ldan Rdel 'grem dpag bsam ljon shing, MW21984_22CC1A, whose etext was not read), both repeating WB's line without a gloss in the first.
+  - 2026-11-03, a reason for Mercury's missing gyod and Jupiter's missing gud: none on the four prints, in Lha mo's verse or in the element test.
+  - 2026-11-03, a rule behind the six day-animal months of p. 63: none; Lha mo's verse has no day-animal entry.
