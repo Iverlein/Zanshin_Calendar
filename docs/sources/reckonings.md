@@ -2289,7 +2289,30 @@ Taikhang img. 110, l. 5 (the Zhol's img. 728), enlarged 2× to 4×; the bird day
 
 ## The dead's reckoning, the la board and the death day: the upper, lower and middle pebbles, «སྐྱུར», «ལྷོག་པ» and «ཁྲ་བོ་བློ་ཐུབ», how the death day's planet's state is found, the months of the day's-animal entries (RD136)
 
-Nothing read yet: RD136's passages, with the English beside them, go here.
+Read 2026-11-03 (RD136) for open questions 270, 273, 282 and 285. Pages: WB vol. 2, ch. 29, pp. 51–58 (img. 59–66) and 63–65 (img. 71–73); the image numbers of the row held (image = page + 8). The passages themselves stand in [corpus/wb/ch29.md](corpus/wb/ch29.md) (wb.2:p51-52 to p57-58) and [corpus/wb/ch29-demons.md](corpus/wb/ch29-demons.md) (wb.2:p63, p63-65), read on the scan by RD30 and RD31; this reading adds no passage, it answers the four questions in claims.
+
+**What was read.** Yigdzin-1 and MITRA over the 1996 print's img. 59–66 and 71–73 (MITRA on img. 059–066, 071–073; Yigdzin-1 files were there already for all); the lines asked about read by eye: the 1996 scan and the Gser thang reprint (I3CN5029 img. 058, 3–5×, ll. 22–23 of p. 52); the **Zhol print** (I1KG1710) by Yigdzin-1 over img. 686–718 and by eye at the lines of the questions (img. 699 for p. 52, img. 707 for p. 57), whose hand is cursive and at 1.5× too small to settle single letters; the Taikhang reproduction (I5878) by Yigdzin-1 over img. 079–081 and 091–102 (img. 098–101 hold pp. 63–65) and by eye at 1–2.6× for p. 63's line 5 (img. 097); the Zhol leaf img. 715, which holds p. 63's first lines, gave Yigdzin-1 nothing and MITRA a loop, and was not read. Zhol leaf and WB page: img. 699–700 = pp. 52–53, 702 = p. 54, 703 = p. 55, 706–708 = pp. 57–58, 716–718 = pp. 63–65; Taikhang img. 097 = p. 63, 098–101 = pp. 63–65. Other texts: Lha mo Tshul khrims's *Rdel 'grem 'bras bshad* (MW1KG21818, etext) and WB's etext (searches), BDRC's full-text search, WB's other uses of the words (eye on vol. 1 img. 321 and 404).
+
+**Question 270, the upper, lower and middle pebbles** ([claims/dead-la-upper-lower-waist-male-female-line.md](claims/dead-la-upper-lower-waist-male-female-line.md)). WB states what they mean, in p. 52's own lines (img. 60 ll. 22–23; Zhol img. 699; the three prints agree): «རྡེལ་སྟོད་སྟོངས་ན་ཕོ་བརྒྱུད་ཀྱི། །ས་ན་དར་གུད་གང་སྟོངས་ཆེ། །རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང་། །རྡེའུ་རྐེད་པར་ཆད་པ་ན། །ཕ་ཚན་དུར་སར་བཅས་པ་ནི། །གཉིས་སམ་གསུམ་དུ་གྱེས་ཤིང་ཆད།», "upper pebbles empty: the male line's ...; lower empty: the female line's foundation [?]; cut at the waist: the paternal kin and its grave split in two or three". The earlier note had this as an inference; it is stated. Which twelve places are upper, lower or middle is not: no table, and Mipham says the commentaries do not name what each image refers to (p. 502). The analogous words in ch. 26's board of eight (wb.1:p471-472) mark forebears, oneself, and harm and wealth.
+
+**Question 273.** «ཁྲ་བོ་བློ་ཐུབ» names the mewa's copper vessel ([claims/dead-khra-bo-blo-thub-names-mewa-vessel.md](claims/dead-khra-bo-blo-thub-names-mewa-vessel.md)); «ལྷོག་པ» is an illness, the swelling or sore kind, as WB's other pages (vol. 1 pp. 311, 394, 433–436; vol. 2 pp. 97–100, 164, 415) use it ([claims/wb-lhog-pa-is-an-illness.md](claims/wb-lhog-pa-is-an-illness.md)); «སྐྱུར» is likelier a sour thing, the mourning place's, than a cast-off one, but unsettled ([claims/dead-skyur-sour-thing-of-mourning.md](claims/dead-skyur-sour-thing-of-mourning.md)).
+
+**Question 282.** WB has two rules for a planet's state, by the month (vol. 1, p. 176) and by the date (vol. 2, p. 313); ch. 29 names neither; the element relation of the four risers does not reproduce the table's gaps, and Mercury's gyod and Jupiter's gud are missing on the 1996, Gser thang, Zhol and Taikhang prints alike ([claims/dead-weekday-planet-state-wb-rules.md](claims/dead-weekday-planet-state-wb-rules.md)).
+
+**Question 285.** The page says the month is the month the life was cut (three entries use «བཅད» in words); the months are not the opposite animal's, as in the second examination, and agree with the hour entries only for the monkey and the sheep; no rule found ([claims/dead-day-animal-months-two-schemes.md](claims/dead-day-animal-months-two-schemes.md)). The monkey day's «ཁྱི་ཟླར» is «བྱི་ཟླར» to Yigdzin-1 on the Taikhang; at 2.6× the letter looks like a ཁ but is not settled.
+
+### Open
+
+- Question: What does «རྨང» mean in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» (WB vol. 2, p. 52, l. 23; read so on the 1996 scan, the Gser thang reprint and the Zhol print): the female line's foundation, or a verb that goes with «སྟོངས»?
+- Question: What are «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the blue mewa line of the copper vessel (WB vol. 2, p. 55, l. 2: «གླང་ཐབས་ལྷོག་པ་སྤོས་གྲི་རྒོད»), two harms beside the illness «ལྷོག་པ», or rites?
+- Doubt: the Zhol print's leaf img. 715 (p. 63's day-animal verse) is unread; the Zhol and Taikhang letters of «སྐྱུར» (p. 57, p. 58) and of the monkey day's «ཁྱི་ཟླར» could not be settled at the size the scans allow.
+
+### Searched and not found
+
+- A table or text dividing the twelve la places into the upper, lower and middle pebbles: not in WB's notes (p. 502), the *Moonbeams*' board (RD45), Lha mo Tshul khrims's verse restatement (MW1KG21818), or BDRC's full-text search for «རྡེལ་སྟོད་སྟོངས་ན» and «རྡེལ་སྨད་སྟོངས་ན» (0 hits each, 2026-11-03).
+- A gloss of «ཡུགས་སའི་སྐྱུར» (0 hits) or «ཁྲ་བོ་བློ་ཐུབ» (1 hit, WB's own notes) in BDRC's full-text search; «ལྔ་སེར་སྐྱུར་རམ» has two (Lha mo's verse, MW1KG21818, and the Dge ldan *Rdel 'grem dpag bsam ljon shing*, MW21984_22CC1A, whose etext was not read), both repeating WB's line without a gloss in the first.
+- A reason for Mercury's missing gyod and Jupiter's missing gud: none on the four prints, in Lha mo's verse (which leaves the four states' results to "the root text"), or in the element test.
+- A rule behind the six day-animal months of p. 63: none; Lha mo's verse has no day-animal entry.
 
 
 ## The dead's reckoning, the grid and the pegs: the five parts of each direction on the grid of the sun and moon, the two pegs on the nine-red and none on the eight-white, the mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 (RD137)

@@ -10,7 +10,7 @@ open: []
 
 Terms as named below: the planet's states rising (དར, *dar*), declining (གུད, *gud*), waning (ཞུད, *zhud*) and *gyod* (གྱོད, *gyod*), the harmful spirit of the dead (སྲི, *sri*), the dagger (ཕུར་པ, *phur pa*), a sack (ཕད་བུ, *phad bu*), the measures (བྲེ, ཕུལ, སྲང; *bre*, *phul*, *srang*); «འོམ» (*'om*) wood and the «དམེ་པོ» (*dme po*) are not explained in the text.
 
-The third examination of the dead (WB vol. 2, pp. 63–65) by the weekday of death: each planet's day has a general entry (where the eating demon hides, on whom it repeats, what is laid on the corpse) and entries by the planet's state, *dar*, *gud*, *zhud* and *gyod* (its rising, declining, waning and *gyod*). Mercury has no *gyod* entry and Jupiter no *gud* entry. How the state of the day's planet is found for a death is not said here.
+The third examination of the dead (WB vol. 2, pp. 63–65) by the weekday of death: each planet's day has a general entry (where the eating demon hides, on whom it repeats, what is laid on the corpse) and entries by the planet's state, *dar*, *gud*, *zhud* and *gyod* (its rising, declining, waning and *gyod*). Mercury has no *gyod* entry and Jupiter no *gud* entry. How the state of the day's planet is found for a death is not said here; see [dead-weekday-planet-state-wb-rules](dead-weekday-planet-state-wb-rules.md).
 
 | Day | Eating demon hides | Repeats on | Laid on the corpse, rite | By state |
 | --- | --- | --- | --- | --- |

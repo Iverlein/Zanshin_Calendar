@@ -21,4 +21,4 @@ WB, vol. 2, p. 54: over one paternal kin (ཕ་ཚན, pha tshan) taken togethe
 | the friend year | friends build one's fort, descendants increase beyond holding, quarrels among many paternal relatives |
 | one's own year struck by the clan element | offer respect to the enemy (the notes, p. 502: one's year has become the clan's enemy) |
 
-The section closes "speckled, the mind can bear it" (ཁྲ་བོ་བློ་ཐུབ, khra bo blo thub), which the notes quote with the mewa's copper vessel; whether it names a verdict for a mixed board is not said.
+The section closes "speckled, the mind can bear it" (ཁྲ་བོ་བློ་ཐུབ, khra bo blo thub), which the notes quote with the mewa's copper vessel: it is the name of that vessel, which follows it, not a verdict on the years ([dead-khra-bo-blo-thub-names-mewa-vessel](dead-khra-bo-blo-thub-names-mewa-vessel.md)).

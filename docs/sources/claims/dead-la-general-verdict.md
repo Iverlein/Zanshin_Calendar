@@ -24,4 +24,4 @@ WB's first of three verdicts on the twelve la pebbles (vol. 2, p. 52) reads the 
 | lower pebbles empty | the female line cut off [?] |
 | pebbles cut off in the middle | the kin splits in two or three at its grave, goes to two or three districts, defilement and strife within; three or four cuts the same |
 
-The notes define "empty": not one pebble on the four sides of the great cut-off. "Upper", "lower" and "middle" are not defined in the passages read; no remedy is given for the general verdict.
+The notes define "empty": not one pebble on the four sides of the great cut-off. WB itself states what they mean (p. 52): the upper pebbles empty, the male line; the lower, the female line; cut at the waist, the kin splits ([dead-la-upper-lower-waist-male-female-line](dead-la-upper-lower-waist-male-female-line.md)). Which of the twelve places are upper, lower or middle is not stated; no remedy is given for the general verdict.
