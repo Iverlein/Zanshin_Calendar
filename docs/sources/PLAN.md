@@ -1327,3 +1327,6 @@ Searched and found wanting, so not to be repeated:
 - **RD137** (RD137, 2026-11-03):
   - 2026-11-03, a figure or a numbered layout of the grid's five parts on p. 96 in the 1996 print, the Gser thang reprint (img. 102) or the Zhol print (img. 766): none, text only.
   - 2026-11-03, a name of the mansions of p. 122 other than «སྤོ», «སྦ་སྨད», «ལག་སོར» on the pages (reprint img. 128, Zhol img. 804–805): none.
+- **RD139** (RD139, 2026-11-03):
+  - 2026-11-03, «ལུགས་གཞན་བཞི་པ» (the fourth system of p. 37): not on p. 537 (reprint img. 543) nor in the Zhol etext's page of the verse.
+  - 2026-11-03, «ཉི་ནག་དྲུག་གསུམ» and «ས་ཞིག»/«སེ་ཞིག» on the scan of p. 42 (reprint img. 048, Zhol img. 685): not located in the crops made at 1–3×; the Zhol etext's reading of the page is too garbled.
