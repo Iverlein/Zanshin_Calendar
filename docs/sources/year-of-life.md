@@ -3403,8 +3403,8 @@ By eye at 2.4–7×; Yigdzin-1 and MITRA agree with the eye on the words below. 
 
 ### Open
 
-- Question: p. 391's «རྩུབ་བདུན་འདི་ནི་སྣང་པར་བཤད» (1996 print) is «སྣད་པར་བཤད» on the Zhol print by both machines (img. 513, l. 2) and the letter after སྣ is not told between ང and ད on the cursive block: which does a reader of the tradition or another impression of the blocks (the Taikhang reproduction, I5877, near img. 530) carry, and in either case is the phrase "told as they appear"?
-- Question: p. 472's board names «མི་ཆེན» and «བོན» on the Zhol print where the 1996 print and the Gser thang reprint have «མི་ཚན» and «ཁོན»: are the Zhol's the blocks' own readings (the others' a shared slip, as the sense of WB's point 30 and point 4 suggests), or an editor's mending of the Zhol? Does the Taikhang reproduction (I5877) or Mipham's print give a third reading?
+- Question 584 ([q0584](questions/q0584.md)): p. 391's «རྩུབ་བདུན་འདི་ནི་སྣང་པར་བཤད» (1996 print) is «སྣད་པར་བཤད» on the Zhol print by both machines (img. 513, l. 2) and the letter after སྣ is not told between ང and ད on the cursive block: which does a reader of the tradition or another impression of the blocks (the Taikhang reproduction, I5877, near img. 530) carry, and in either case is the phrase "told as they appear"?
+- Question 585 ([q0585](questions/q0585.md)): p. 472's board names «མི་ཆེན» and «བོན» on the Zhol print where the 1996 print and the Gser thang reprint have «མི་ཚན» and «ཁོན»: are the Zhol's the blocks' own readings (the others' a shared slip, as the sense of WB's point 30 and point 4 suggests), or an editor's mending of the Zhol? Does the Taikhang reproduction (I5877) or Mipham's print give a third reading?
 
 ### Searched and not found
 

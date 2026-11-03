@@ -1308,3 +1308,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, «རག་མི་ལ» and «བེ་ལུག»: no new place; not searched again beyond RD101's list.
 - **RD132** (RD132, 2026-11-03):
   - 2026-11-03, the local etexts and scratch readings, and Yigdzin-1 on img. 743–745 of Mipham's print: a gloss of «ལཱུ» or a second text that names the method; no.
+- **RD129** (RD129, 2026-11-03):
+  - 2026-11-03, «སྣང་པར་བཤད», «སྣད་པར་བཤད», «མི་ཆེན་སར» and «བོན་སར» as written in the Zhol etext (IE0OPI7850CC9C): none (its OCR of p. 391 and p. 472 is garbled).
+  - 2026-11-03, a gloss of «ཕུགས», «དུར་ཕུགས» or the luck's tomb on Zhol img. 435–436: none.

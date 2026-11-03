@@ -954,6 +954,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0581.md](questions/q0581.md) | question q581 | Which mark of the notes' worked table is the white | open; cites wb.2:p475 |
 | [questions/q0582.md](questions/q0582.md) | question q582 | p. 331's «སྒབ» or «སྐབ» on a sharper impression | open; cites wb.1:p331 |
 | [questions/q0583.md](questions/q0583.md) | question q583 | The Taikhang's «བེ་ལུགས་རུ་བལྟ» against «བེ་ལུག་ས་རུ་བལྟ» | open; cites wb.1:p334 |
+| [questions/q0584.md](questions/q0584.md) | question q584 | «སྣང་པར་བཤད» or «སྣད་པར་བཤད» on p. 391 | open; cites wb.1:p391 |
+| [questions/q0585.md](questions/q0585.md) | question q585 | The Zhol's «མི་ཆེན» and «བོན» on ch. 26's board | open; cites wb.1:p472 |
 
 <!-- end pool index -->
 
