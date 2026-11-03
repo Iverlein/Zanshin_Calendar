@@ -1395,3 +1395,27 @@ that concern the body are here.
   time of falling ill and the sick person's kind, and give the example
   wood two, fire two, iron three: iron is "a third and a little more",
   and the illness is iron's, the greater share.
+
+## The fever's words, the third and two thirds, the third topic (RD131)
+
+Read 2026-11-03: WB vol. 1, pp. 435, 438 and 249 on the two Lhasa blocks, the Zhol print (WBZ, I1KG1710) and the Taikhang reproduction (I5877), read by Yigdzin-1 on the card and looked at on the scan; the notes (vol. 2, p. 497) on the typeset reprint (I3CN5029 img. 503), by eye. Questions 228, 231 and 242 of open-questions.md. Image numbers differ between the prints and are not a fixed shift: p. 435 is Zhol img. 577 and Taikhang img. 594, p. 438 Zhol img. 581 and Taikhang img. 598 (second row), but **p. 249 is Zhol img. 309 (third row) and Taikhang img. 326 (third row)**, where the etext of the Zhol print also puts it (page marker p309). The Zhol and Taikhang scans of p. 249 had not been fetched before; they are now in the shared cache (Zhol img. 308–311, 389–393, Taikhang img. 323–328, 406–410). The notes have no Zhol or Taikhang scan in the cache.
+
+**The third and two thirds (question 228; p. 438, img. 581 and 598, line 2; the notes, p. 497, img. 503, ll. 13–15).** Read on both Lhasa blocks: «འབྱུང་བ་ཕྱེད་མ་ནད་གཉིས་འདོམ། །གསུམ་ཆ་སུམ་གཉིས་གདོན་རྐྱེན་ནད། །» (Yigdzin-1 on both; the Zhol row put against the scan, the first word legible as «གསུམ»). The 1996 print has «སུམ་ཆ» there, so the Lhasa blocks agree with each other against it, the same word spelt with the prefix. The notes' example, read on the scan: «ཤིང་གཉིས་མེ་གཉིས་ལྕགས་གསུམ་ལྟ་བུ་བྱུང་ན། མེ་སུམ་ཆ་གཅིག … ལྕགས་སུམ་གཅིག་དྲག་ཙམ་བྱུང་བས་ལྕགས་ནད་ཤས་ཆེ་བར་བཤད།» (wood two, fire two, iron three: fire a third, [wood a third], iron a third and a little stronger, so the illness is iron's, the stronger). The new point: in the notes «སུམ་ཆ» is a rough share, used for two parts of seven (2/7) and, with «དྲག་ཙམ», for three of seven (3/7), not an exact fraction; the notes put the three elements in one rule («the greater share chiefly») and do not call upon the "spirits and conditions" clause. So «སུམ་ཆ་སུམ་གཉིས» on p. 438 reads as the shares of one split of two kinds (a third and two thirds), the notes' example being a split of three kinds which falls under «དེ་མིན་གང་མང་གཙོ་བོར་བཟུང»; narrowed, as in claims/illness-shares-halves-thirds.md, with no source that says what "spirits and conditions" adds. Not answered.
+
+**The fever's words (question 231; p. 435, img. 577 and 594).** (a) «ཉ་བཞིན་ལ་ཁ་ནད་ལྕེར» (line 4, near its end, after «ཚིགས་པ་དང»): Yigdzin-1 reads the first stack on both Lhasa blocks as «ཉྭ»; on the scan of each the stack has a clear foot of the wa-zur (ྭ) shape under a top letter that is «ཉ» or «ཞ» (the Taikhang at 3.5×, the Zhol at 4×). The wa-zur agrees with the 1996 etext's «ཞྭ་བཞིན» and not with the reprint's plain «ཉ» (RD53); p. 436's «ཉ་དང་ཚིགས་བཞི་ན་བ» has no wa-zur on the reprint. Which of «ཉ» and «ཞ» the top is cannot be told at this size; «ཞྭ» is the hat (no dictionary was opened here) and no sense of "like a hat" is found for an illness of the mouth and tongue. Unsettled; the wa-zur is new evidence. (b) The fever of fire four and wind one (line 6): both Lhasa blocks carve a tall stack with a looped foot before «ཚད་ནད»; Yigdzin-1 reads «སྙོངས» on both (the 1996 print's reading is «རྙོངས», the Zhol etext's «སྟོངས»); the stack was looked at on the Zhol scan at 4–5× and its upper and lower letters could not be told apart. Not settled between «སྙོངས», «རྙོངས» and «སྟོངས»; the line above carries «སྟོངས་ཚད», which a second reading «སྟོངས» would repeat.
+
+**The third topic (question 242; p. 249).** The line, read by Yigdzin-1 on both Lhasa blocks: «རྩ་བ་སྐབས་དོན་ལྔ་པ་ཡི། །གལ་ཆེའི་སྐོར་འགོ་གཅིག་དོར་ཞིང་། །སྐབས་གསུམ་བཞིར་བགོས་ས་དཔྱད་ཀྱི། །རྩ་བ་གཉིས་ནི་གཅིག་ལ་བསྒྲིལ། །» (Zhol img. 309 line 3: «བགོས་སར་དཔྱད», the Taikhang img. 326 line 3: «བགོས་ས་དཔྱད»). Neither block has a «པ» after «གསུམ». The Zhol line was put against the scan at 2×: the cursive stacks of that folio do not resolve to a syllable-by-syllable reading, so the blocks' line stays a machine reading. Result: «གསུམ» is the plain number in both blocks, as in the 1996 print and Nor brang, so "three topics divided into four" stands over "the third topic into four"; which three of the five is told by none of them. Narrowed, as before.
+
+*Open*
+
+Question: In the notes' example (vol. 2, p. 497) fire and wood each hold two of seven and iron three; is «སུམ་ཆ» there a rough share, and is the "spirits and conditions" of «གསུམ་ཆ་སུམ་གཉིས» a share's illness joined to a humoral one or a different cause?
+
+Question: Is the first stack of «[ཉ/ཞ]ྭ་བཞིན་ལ་ཁ་ནད་ལྕེར» (p. 435, line 4) the hat «ཞྭ», and what does it say of the fever of fire four and earth one?
+
+Question: What is the first word of the fever of fire four and wind one on p. 435, «རྙོངས», «སྙོངས» or «སྟོངས»?
+
+*Searched and not found*
+
+- A syllable-by-syllable scan reading of p. 249's «སྐབས་གསུམ་བཞིར་བགོས» on the Zhol print (img. 309, 2× crop) and the Taikhang reproduction (img. 326): not made, the Zhol hand too small and the Taikhang line not cropped; machine readings only.
+- The stack of «རྙོངས/སྙོངས/སྟོངས» on p. 435 (Zhol img. 577, Taikhang img. 594, 4–5×): its two letters could not be told apart.
+- The notes (vol. 2, p. 497) on a Zhol or Taikhang scan: none in the cache; the notes were read on the typeset reprint only.
