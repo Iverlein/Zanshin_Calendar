@@ -8338,3 +8338,13 @@ None new.
 ### Searched and not found
 
 - 2026-11-03, the local etexts and scratch readings, and Yigdzin-1 on img. 743–745 of Mipham's print: a gloss of «ལཱུ» or a second text that names the method; no.
+
+
+## The notes on the karma reckoning and the gold reckoning: «རྒྱ་ཁང» or «གྱོ་ཁང», which findings make an aspect bad, «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck, a white enemy pebble (RD143)
+
+Nothing read yet: RD143's passages, with the English beside them, go here.
+
+
+## The *Moonbeams*' la board and plank-tree: the root text's count for the la board (the *Moonbeams*' or LT's), the plank-tree's fifteenth and sixteenth heads «ལྔ་ཐུན» and «དྲུག་འབྲས», the *Moonbeams*' readings 28 and 29 exchanged (RD144)
+
+Nothing read yet: RD144's passages, with the English beside them, go here.
