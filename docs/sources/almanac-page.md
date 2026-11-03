@@ -676,3 +676,10 @@ Questions 363 and 366 on WB vol. 2, pp. 9, 16 and 17. *Read: scan by eye on the 
 
 - «ཚད་ཟླ་མག་སྐུད» and «ཞུར་ཞོགས»: no occurrence in the 1996 etext outside the verse itself (`locate.py find`); «འུར་ཞོགས» does not occur there as one word at all (OCR breaks it).
 - A parallel verse for the la's wandering by the four years: none found in the 1996 etext outside p. 16.
+
+## RD149: the pressing-down wheel's seeds and the run of deaths on the Taikhang (2026-11-03)
+
+Questions 593 and 594. *Read: Taikhang I5878 img. 172 by eye at 3-8x; img. 160-166 by Yigdzin-1 only.*
+
+- **Question 593**: narrowed (`claims/wbt-ur-mnan-eight-seeds-by-eye.md`): eight letters, the first hrī-like without the dot, 2-4 and 6-8 dotted, the fifth plain, not settled (most like ཧཱ).
+- **Question 594**: the six places located on img. 161, 162, 165, 166 (`claims/wbt-shi-sgab-places-by-machine.md`); the stacks not read by eye, doubt stands. Image = Zhol image minus 618 confirmed (778 to 160, 790 to 172); one leaf per image.
