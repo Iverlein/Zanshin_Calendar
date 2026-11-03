@@ -683,3 +683,16 @@ Questions 593 and 594. *Read: Taikhang I5878 img. 172 by eye at 3-8x; img. 160-1
 
 - **Question 593**: narrowed (`claims/wbt-ur-mnan-eight-seeds-by-eye.md`): eight letters, the first hrī-like without the dot, 2-4 and 6-8 dotted, the fifth plain, not settled (most like ཧཱ).
 - **Question 594**: the six places located on img. 161, 162, 165, 166 (`claims/wbt-shi-sgab-places-by-machine.md`); the stacks not read by eye, doubt stands. Image = Zhol image minus 618 confirmed (778 to 160, 790 to 172); one leaf per image.
+
+## RD150: the run of deaths' five places on the Taikhang, by eye (2026-11-03)
+
+Question 594. *Read: Taikhang I5878 img. 161, 162, 165, 166 by eye (line crops cut by y with PIL, 1x for the line, 4-8x for the stack); Yigdzin-1 once more on the four images only to place the words (its files in scratch).*
+
+- Each folio is a 5-line landscape image; Yigdzin-1's files have six lines, so its line numbers do not match the scan's lines and the places are found by the words round them: «ལོ་དགུ་ཡི། ཤི་སྒབ་ཆོད་པར» (img. 161, near the middle of the third scan line), «ལོ་བཅུའི་ཤི་སྒབ་ཆོད་པར» (img. 162, left third), «ལོ་བཅུ་གཅིག་ཤི་སྒབ་ཆོད» (img. 162, right), «བཅོ་ལྔའི་ཤི་སྒབ་ཆོད» (img. 165, line end), «ལོ་བཅུ་དྲུག་ཤི་སྒབ་ཆོད» and «བཤད་པའི་ཤི་སྒབ་བཅད» (img. 166).
+- Read by eye at 8x: img. 161, third scan line, the word after «ལོ་དགུ་ཡི།»: ཤི, then ས over a boxy subjoined letter with an open left bowl, then བ, then ཆོད. This looks like ག, not the crossed ཀ, but the ink is clotted at the join of the two and it is held with doubt, as at p. 104 (`claims/wbt-p104-sgab-on-taikhang.md`).
+- Not read by eye in this reading (time): img. 162 (two places), 165, 166 (two places). Question 594 stays open for these four-and-more places; one of six leans to ག.
+
+### Open
+
+- Question 594 (five places): img. 162, 165 and 166's stacks still to be cut at 8x; the scan lines are not the machine's lines.
+
