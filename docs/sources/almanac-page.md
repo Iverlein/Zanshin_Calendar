@@ -696,3 +696,12 @@ Question 594. *Read: Taikhang I5878 img. 161, 162, 165, 166 by eye (line crops c
 
 - Question 594 (five places): img. 162, 165 and 166's stacks still to be cut at 8x; the scan lines are not the machine's lines.
 
+
+## The five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, by eye (RD150)
+
+Nothing read yet: RD150's passages, with the English beside them, go here.
+
+
+## The other five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, found by the words around them (RD153)
+
+Nothing read yet: RD153's passages, with the English beside them, go here.
