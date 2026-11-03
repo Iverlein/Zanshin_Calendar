@@ -1334,3 +1334,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, the Zhol print's first pair-line verb («སྦུབ» or the machine's «རྩུབ») on img. 602, by eye at 2×: the cursive letters are not told.
   - 2026-11-03, a sentence of WB or the notes joining the eight results of the board to the eight fighting pebbles by number: none in pp. 453–472 or the notes' pp. 532–533.
   - 2026-11-03, «བརྩི་བྱའི་ལོ་ཁམས» and «ལོ་ཁམས» across the 1996 etexts (vols. 1 and 2): hits only at vol. 1 p. 387 and, as «སོ་སོའི་ལོ་ཁམས», in the notes' close on the moment; none in ch. 26.
+- **RD141** (RD141, 2026-11-03):
+  - 2026-11-03, «ཤི་སྒབ» and «ཤི་སྐབ» in the Zhol etext (IE0OPI7850CC9C) pp. 777–784: three hits only, too noisy to place the other places by their text.
