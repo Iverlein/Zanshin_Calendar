@@ -2497,3 +2497,19 @@ Result per question, none changed by this reading:
 ### Searched and not found
 
 - The words «འཕྲུལ་གྱི་མིག་ཚགས» and «ཁྱུང» in img. 497–498's reply 140: not seen on the lines opened (about two thirds of img. 498, l. 1–2 and none of img. 497 at 3×; time).
+
+## The Vaiḍūrya replies, «ཡི་བམ» in reply 152 and the first syllable in reply 140, a third look (RD151)
+
+*Read: by eye on hand-cut crops of I5875 img. 514 (about 1–3×), 2026-11-03; no model run; the Zhol print was not opened.* The page's lines were located at low zoom (img. 514 is 8,280 px wide; the lines run at about y 400, 520 and 700); the line at y 520 was read in 1,500 px strips up to x 5,300 and the line at y 700 from its start to x 2,250. The clause with «ཡི་བམ» was not found in these strips: they hold other clauses of the answer (among them a line ending «…བརྗོད་པ…» at y 700, as RD104 notes for l. 4), so the letters of q603 were not seen again and RD148's reading of the hand (a ya with gigu over ba and ma, no lamed or kha) neither confirmed nor contradicted. Img. 498 was not opened (time).
+
+- q603: no new letter; stays narrowed as in RD148 (letters read «ཡི་བམ», sense «ལི་ཁམ» from the sentence, scribal spelling or the copyist's misreading undecided).
+- q604: not read; the first syllable stays unread («རྦད» by the machine).
+
+### Open
+
+- Question: In reply 152 (I5875 img. 514, l. 3), is «ཡི་བམ» (ya with gigu, ba, ma) a copyist's spelling of «ལི་ཁམ», or a different word of the regent's hand?
+- Question: In reply 140 (I5875 img. 498, l. 2), what is the first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན», read «རྦད» by the machine?
+
+### Searched and not found
+
+- «ཡི་བམ» on I5875 img. 514 in the line at y 520 (x up to 5,300) and the line at y 700 (x up to 2,250): not there; the page's numbering of lines (ll. 3–4 of RD104) does not match the y positions at which the clause lies, so the next reader should start from the clause «དེས་ན་མོ་ཡི་བམ་ལ་བབས་ནས» by its neighbours, in the strip x 5,300–8,000 of both tiers.
