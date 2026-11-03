@@ -3324,3 +3324,13 @@ What follows for question 81: on the Zhol print p. 405's lines sit under the hea
 - «མ་སྤར» glossed beside the clause on the Zhol print or in the lines around it (img. 512, ll. 3–6): none; the block reads as the 1996 print and gives no word for «མ» (2026-11-01).
 - A gloss of «ངོ་ཐོག» or «ངོ་ཐེག» in the lines of img. 498–500: none (2026-11-01).
 - p. 403's «འདུ་ལོང» or «འདི་ལོང» on the Taikhang reproduction: not fetched.
+
+
+## The birth read whole, the words left open: «སྐབ» or «སྒབ», the horse in «དར་གུད་ཏ་ལ», «བེ་ལུག», «རག་མི་ལ» and «དུས་ཚོད་ཚང་གི་རྩིས» (RD128)
+
+Nothing read yet: RD128's passages, with the English beside them, go here.
+
+
+## Ch. 26's board and the harsh years: «ཁོན་སར», «མི་ཚན», «ཀླུང་གི་དུར་ཕུགས», «ལོ་རྟ» and «སྣང་པར་བཤད» (RD129)
+
+Nothing read yet: RD129's passages, with the English beside them, go here.
