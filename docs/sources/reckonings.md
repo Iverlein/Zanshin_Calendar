@@ -2327,3 +2327,7 @@ On the reprint (img. 128) the lines read, by eye in 3-4x crops: «འབྲུ�
 - A figure or a numbered layout of the grid's five parts on p. 96 in the 1996 print, the Gser thang reprint (img. 102) or the Zhol print (img. 766): none, text only.
 - A name of the mansions of p. 122 other than «སྤོ», «སྦ་སྨད», «ལག་སོར» on the pages (reprint img. 128, Zhol img. 804-805): none.
 
+
+## The dead's reckoning, the corpse and the gates: «རྫ་མོ» in the sounding, the eight places that open death, «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing, the thirteen gates' fifth and sixth, the marks' line of p. 170, «ཁ་སྨྲང» on p. 166 (RD140)
+
+Nothing read yet: RD140's passages, with the English beside them, go here.
