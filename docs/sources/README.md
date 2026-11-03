@@ -732,7 +732,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0346.md](questions/q0346.md) | question q346 | The marks' line of p. 170 and the earth hour's hair | open; cites wb.2:p170 |
 | [questions/q0347.md](questions/q0347.md) | question q347 | «ཀླུམ་མནན» or «གྲུམ་མནན» on p. 169 | open; cites wb.2:p168-169, wb.2:p169-170 |
 | [questions/q0348.md](questions/q0348.md) | question q348 | «རྨི་ལྟས» or «ཕྱི་ལྟས» at the foot of p. 144 | open; cites wb.2:p144 |
-| [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | open; cites wb.2:p166 |
+| [questions/q0349.md](questions/q0349.md) | question q349 | «ཁ་སྨྲང» for the king-and-minister pebbles, p. 166 | answered; cites wb.2:p166 |
 | [questions/q0350.md](questions/q0350.md) | question q350 | The year «དོ་གཅིག» of the blue mewa, p. 164 | open; cites wb.2:p164-165, wb.2:p163-164 |
 | [questions/q0351.md](questions/q0351.md) | question q351 | The thirty 'bri wang and their results | open; cites wb.2:p538 |
 | [questions/q0352.md](questions/q0352.md) | question q352 | «རྒྱ་ཁང» or «གྱོ་ཁང» of the gold reckoning | open; cites wb.2:p538 |

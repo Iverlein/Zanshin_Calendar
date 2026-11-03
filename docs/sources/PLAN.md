@@ -1341,3 +1341,8 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, a gloss of «ཡུགས་སའི་སྐྱུར» (0 hits) or «ཁྲ་བོ་བློ་ཐུབ» (1 hit, WB's own notes) in BDRC's full-text search; «ལྔ་སེར་སྐྱུར་རམ» has two (Lha mo's verse, MW1KG21818, and the Dge ldan Rdel 'grem dpag bsam ljon shing, MW21984_22CC1A, whose etext was not read), both repeating WB's line without a gloss in the first.
   - 2026-11-03, a reason for Mercury's missing gyod and Jupiter's missing gud: none on the four prints, in Lha mo's verse or in the element test.
   - 2026-11-03, a rule behind the six day-animal months of p. 63: none; Lha mo's verse has no day-animal entry.
+- **RD140** (RD140, 2026-11-03):
+  - 2026-11-03, «འཕུང་སྲི་ཛ་མོ» or «འཕུང་སྲི་རྫ་མོ»: nowhere else in the etexts of WB (1996) and the Zhol print; the Zhol scan, img. 758, not resolved.
+  - 2026-11-03, «སྤྲ་སྒོ» in the 1996 etext and the Zhol etext (which has «སྨྲ་སྒོ», p. 771): no second place; no gloss.
+  - 2026-11-03, a count, or the word «ལྔ», explained in Mipham's note on the thirteen gates (p. 536): none.
+  - 2026-11-03, the animals of khen, gin and zon in the notes p. 509: none beyond «ཁེན་གིན་ཟོན་གསུམ་ལའང་ཤི་ཁ་ཕྱེ་བས་བརྒྱད་དོ».
