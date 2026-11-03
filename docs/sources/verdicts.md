@@ -8340,16 +8340,11 @@ None new.
 - 2026-11-03, the local etexts and scratch readings, and Yigdzin-1 on img. 743–745 of Mipham's print: a gloss of «ལཱུ» or a second text that names the method; no.
 
 
-## The notes on the karma reckoning and the gold reckoning: «རྒྱ་ཁང» or «གྱོ་ཁང», which findings make an aspect bad, «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck, a white enemy pebble (RD143)
-
-Nothing read yet: RD143's passages, with the English beside them, go here.
-
-
 ## The *Moonbeams*' la board and plank-tree: the root text's count for the la board (the *Moonbeams*' or LT's), the plank-tree's fifteenth and sixteenth heads «ལྔ་ཐུན» and «དྲུག་འབྲས», the *Moonbeams*' readings 28 and 29 exchanged (RD144)
 
 Nothing read yet: RD144's passages, with the English beside them, go here.
 
-## The karma reckoning's bad aspects, the doubled ma of the five doors, the gold reckoning's grid (RD143)
+## The notes on the karma reckoning and the gold reckoning: «རྒྱ་ཁང» or «གྱོ་ཁང», which findings make an aspect bad, «སྲོག་མ་མ་གུད་པ» in the five doors of bad luck, a white enemy pebble (RD143)
 
 Read 2026-11-03 (RD143), by eye on the Gser thang reprint (I3CN5029; here the printed page is the image minus 6: pp. 478, 483, 526, 538 = img. 484, 489, 532, 544), with Yigdzin-1 over the four pages and over the same pages of the 1996 print (I1KG12907 img. 486, 491, 534, 546); Mipham's own print (I2029 img. 640–641 for p. 483, img. 744 for p. 538) beside. No MITRA: the pages had been read before and only the lines of the four questions were in doubt. Questions 352, 355, 393 and 396 of [open-questions.md](open-questions.md).
 
