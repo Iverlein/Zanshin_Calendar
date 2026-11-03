@@ -2481,3 +2481,19 @@ Result per question, none changed by this reading:
 ### Searched and not found
 
 - A letter-by-letter reading of I5875 img. 497–498 and 513–514 at 3× or more: not made in this reading (time); the corpus readings of RD48 and RD104 stand for them.
+
+## The Vaiḍūrya replies at 3×: the old text of the servants' fine start and «ཡི་བམ» in reply 152 (RD148)
+
+*Read: by eye on hand-cut crops of I5875 img. 498 (l. 2) and 514 (ll. 3–4), 1×–3×, 2026-11-03; no model run.* Of img. 497–498 the end of reply 140 was looked at (img. 498, ll. 1–2, the tail of the fourth nail, the root's citation and the clause after it); of img. 513–514 the word of q386 only.
+
+- q386, the hand's «ཡི་བམ» (img. 514, l. 3, in «དེས་ན་མོ་ཡི་བམ་ལ་བབས་ནས་འབྱུང་ཆུང…»): at 3× the first letter is a ya with the vowel sign above it, and the second syllable a ba over ma, with a dotted gap before the next word. The hand therefore reads «ཡི་བམ», not «ལི་ཁམ». A lamed (ལ) and a kha (ཁ) were not seen in it. That it stands for li and kham is still taken from the sentence repeating the question's «ལི་ཁམ»; it may be a scribal spelling or a misreading by the print's copyist. Narrowed as to the letters, not settled as to the sense; the small element (འབྱུང་ཆུང, 'byung chung) stays as RD104 has it.
+- q383, the servants' fine start (img. 498, l. 2): the sentence «རྩ་བ་ལས། བཅུ་པ་དེ་ཡང་འབྱུང་བ་བར་གྱི་གཟེར་བཞི་ལས…» was found in its line; the old text is named only as «རྩ་བ», the root, as RD104 has it, and the line after it, «དེ་ལྟར་བསལ་ན་དཀའ་བ་མེད་པར་རྟོགས་པས་[?]ཁམ་མི་དགོས་ཞེ་ན», has an unread first syllable (corpus «རྦད»). Khyung's root pebbles and the *Magic Sieve* are not named on the page. Unchanged.
+
+### Open
+
+- Question: In reply 152 (I5875 img. 514, l. 3), is «ཡི་བམ» (ya with gigu, ba, ma) a copyist's spelling of «ལི་ཁམ», or a different word of the regent's hand?
+- Question: In reply 140 (I5875 img. 498, l. 2), what is the first syllable of «[?]ཁམ་མི་དགོས་ཞེ་ན», read «རྦད» by the machine?
+
+### Searched and not found
+
+- The words «འཕྲུལ་གྱི་མིག་ཚགས» and «ཁྱུང» in img. 497–498's reply 140: not seen on the lines opened (about two thirds of img. 498, l. 1–2 and none of img. 497 at 3×; time).
