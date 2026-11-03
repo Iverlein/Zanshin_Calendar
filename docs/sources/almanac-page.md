@@ -562,3 +562,79 @@ the plan asked to look for in WB. Neither is in either volume's etext
 Neither appears in WB's list of a day's entries above either. The etext
 is OCR, so a passage it garbles could be missed; the list of entries is
 read on the scan.
+
+## RD139: ch. 28's seasons, the fifty water-hours and the doors, read again (2026-11-03)
+
+Questions 321, 327 and 330, on WB vol. 2 pp. 26 (img. 34), 37 (img. 45),
+42 (img. 50) and the notes p. 537 (img. 545). Read by eye: the Zhol print
+(WBZ, I1KG1710; the folio sides are strips 3.7k px wide, five lines, the
+cursive hard to read, and the images are not the reprint's: p. 26 is img.
+662, p. 37 img. 678, p. 42 img. 685, the notes are not in it) at 1–2×, and
+the Gser thang reprint (I3CN5029, image = page + 6: img. 048 for p. 42,
+543 for p. 537) at 1–3×, against the passages already written in
+[corpus/wb/ch28.md](corpus/wb/ch28.md) and
+[corpus/wb/notes-7.md](corpus/wb/notes-7.md). No model was run: no slot was
+queued. The Zhol etext (IE0OPI7850CC9C) was fetched for searching only.
+
+### Question 321: the seasons against the Phugpa months
+
+The notes' sentence on p. 537 (reprint img. 543, lines 5–6) reads on the
+scan as the corpus has it: the first spring month is «ཧོར་ཟླ་བཅུ་གཅིག་པ»,
+the eleventh Hor month, with the 27th; the 25th of the *rgyal* month
+(རྒྱལ་ཟླ, rgyal zla) and the 23rd of the Miracle month (ཆོ་འཕྲུལ, cho
+'phrul) follow. The Zhol print's p. 26 (WBZ img. 662) has the same three
+dates in the same verse, «ཉེར་བདུན་ཉེར་ལྔ་ཉེར་གསུམ». Nothing in the three
+pages contradicts the answer of RD99 (claim
+`ch28-seasons-chinese-count`): spring is Hor months 11, 12, 1, two months
+before the Phugpa spring. The question stays answered; no new fact.
+
+### Question 327: the fifty water-hours and the fourth system
+
+The verse on the Zhol print (WBZ img. 678, line 4 to 5), read at 2×:
+«ཉི་སྐར་གནས་སུ་སྨིན་དྲུག་དང་། །ཆུ་ཚོད་ལྔ་བཅུར་ལོངས་པའི་ཉིན།». The
+Zhol print has «ལོངས» (reaches, is full) where the 1996 edition and the
+reprint have «ལངས» (rises); either way the verb belongs to the water-hours
+of the sun in the Pleiades' mansion, which is the reading of RD99 (the
+sun's progress in the mansion, fifty of sixty water-hours), and the Zhol
+reading «ལོངས» is the nearer to "reaches the fiftieth". The cursive of the
+line is read at 2× only, so «ལོངས» rests on the Zhol OCR (Yigdzin-1 on
+this print, in the etext) and the eye together, not on the eye alone. The
+notes (p. 537) say nothing on the rite, so the fourth system is not
+found: narrowed as before.
+
+### Question 330: the doors of sky and earth
+
+On the reprint (img. 048), at 3×: the sky door's line reads
+«ལོ་ནི་ཁྱི་འབྲུག་སྤར་ཁ་མ། །ཁེན་ཐོག་སྨེ་བ་གསུམ་ལྔ་དྲུག»; the earth
+door's «ཕག་སྦྲུལ་སྤར་ཁ་ཁོན་དང་བུ། །སྨེ་བ་གཉིས་ནག་ལྗང་གུ་ཡིན།».
+The letters «མ» and «བུ» are clear on the scan, not blurred: the earlier
+"reading slips" for trigram names is therefore not shown by the scan. The
+words are the ones for "mother" and "son" and read as a pair with the
+trigrams (the sky door: mother, *khen*, thunder; the earth door: *khon* and
+the son); which trigrams they stand for is not decided here, and the
+deduction by the mewa of claim `ch28-doors-by-mewa` stays a deduction. The
+Zhol print's (WBZ img. 685) cursive of these lines was not legible at 1×,
+so no variant is claimed; its etext reads «ཁེན་ཐོག» and «ཁོན་དང་བུ» in the
+same places, as a machine witness only. «ས་ཞིག» against «སེ་ཞིག» and the
+black days «ཉི་ནག་དྲུག་གསུམ» were not re-read: the line was not found
+in the crops made, so the answers of RD99 stand.
+
+### Open
+
+- Question: on p. 42 (img. 50), are «མ» of «སྤར་ཁ་མ» (the sky door) and
+  «བུ» of «ཁོན་དང་བུ» (the earth door) the words for "mother" and "son",
+  naming trigrams by their place in the family of the eight (which then
+  would have to agree with the mewa 3, 5, 6 and 2, 4), or are they
+  abbreviations of trigram names?
+- Question: in the verse on p. 37 (img. 45), does the Zhol print's
+  «ལོངས་པའི་ཉིན» («ཆུ་ཚོད་ལྔ་བཅུར་ལོངས་པའི་ཉིན») against the
+  1996 edition's «ལངས་པའི་ཉིན» change the sense of the day's mark, the
+  sun having "reached" and not "risen to" the fiftieth water-hour?
+
+### Searched and not found
+
+- «ལུགས་གཞན་བཞི་པ» (the fourth system of p. 37): not on p. 537 (read on
+  the reprint, img. 543) nor in the Zhol etext's page of the verse.
+- «ཉི་ནག་དྲུག་གསུམ» and «ས་ཞིག»/«སེ་ཞིག» on the scan of p. 42: not
+  located in the crops made at 1–3× (Gser thang img. 048, the Zhol print img.
+  685); the Zhol etext's reading of the page is too garbled to settle them.
