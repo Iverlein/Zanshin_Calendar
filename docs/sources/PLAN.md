@@ -1317,3 +1317,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, the notes (vol. 2, p. 497) on a Zhol or Taikhang scan: none in the cache; read on the typeset reprint only.
 - **RD133** (RD133, 2026-11-03):
   - 2026-11-03, a clear subjoined ga on Taikhang img. 488–490 to compare with the stack after «གནས»: «སྒྱུ་མ» (img. 488, l. 3) is blotted at 6×; «སྒྲུབ» and «སྒྲོག» (img. 490) were not looked at.
+- **RD134** (RD134, 2026-11-03):
+  - 2026-11-03, a sharper impression of p. 331's stack than the Taikhang's (8700 px): none among the prints known to the pool.
+  - 2026-11-03, p. 330's «སྒབ» on the Taikhang for the stack's comparison: not found in the crop made (img. 445).
