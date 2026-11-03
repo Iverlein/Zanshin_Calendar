@@ -2462,3 +2462,22 @@ Read again by eye: the first syllable is «སྦྲང» (bee), as the 1996 ete
 - A gloss of «ལྔ་ནས» after an animal in the gates, in the reprint's pp. 170–171 and the Zhol etext (p. 880, 885): none.
 - A line seating a person of the own place on earth, pp. 167–169: none; earth appears only in the list of results.
 - «དུས་ལོའི་སྨེ་བ» elsewhere in the 1996 etext: only on p. 165.
+
+## The Vaiḍūrya replies, four open questions re-examined on the scan: the servants' fine start, «ཡི་བམ» and «འབྱུང་ཆུང», the moment's trigram line, «བཙས་པ་སྲོག་རླུང» (RD147)
+
+*Read: by eye on crops of the cached scans, 2026-11-03; no model run.* I5875 img. 99, 497–498, 513–514 and I5876 img. 16–17 are in the cache and were opened (the printed folio of img. 17 is 545). The pages are written in two tiers of dense cursive lines, 8,000 px wide; at native size and 1× crops (about 2,000 px wide, one line high) the hand of img. 99 and 17 was looked at clause by clause, and the syllables that carry the four questions were not settled by eye beyond what is in the corpus: no letter was seen that contradicts the readings of RD104 (img. 99: «བཙས་པ་སྲོག་རླུང» is one run of syllables without a break; img. 17: the clause with the three animals lies in the line the question names), and no new letter was read in their place.
+
+Result per question, none changed by this reading:
+
+- q383 (old text of the servants' fine start, img. 497–498): the scan was opened, the reply names only «རྩ་བ», the root, as in RD104; the colophon's *Magic Sieve* is neither confirmed nor refuted. Still narrowed, not answered.
+- q386 (img. 514, l. 3, «ཡི་བམ» and «འབྱུང་ཆུང»): not re-read letter by letter; the narrowing of RD104 stands.
+- q390 (img. 17, ll. 3–4, «ལོ་ལ» against the notes' month): the first letter of «སྤར་ཁ» was again not told from «སྦར་ཁ» at 1×; the doubt about «ལོ་ལ» stays.
+- q399 (img. 99, «བཙས་པ་སྲོག་རླུང»): the scan shows no space inside the word; this agrees with its being one word, the life-wind (སྲོག་རླུང, srog rlung), as narrowed.
+
+### Open
+
+- Question: On the Taikhang print of the *Vaiḍūrya* replies, is the first letter of «སྤར་ཁ» in reply 157 (I5876 img. 17, l. 3) a pa or a ba subjoined with ra, and is «ལོ་ལ» there the year or a misreading of «ཟླ་ལ»?
+
+### Searched and not found
+
+- A letter-by-letter reading of I5875 img. 497–498 and 513–514 at 3× or more: not made in this reading (time); the corpus readings of RD48 and RD104 stand for them.
