@@ -2532,4 +2532,18 @@ Result per question, none changed by this reading:
 
 ## The la board's «རྨང» and the copper vessel's blue mewa line: «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52, «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» on p. 55 (RD154)
 
-Nothing read yet: RD154's passages, with the English beside them, go here.
+Read 2026-11-03 (RD154) for open questions 595 and 596, by BDRC's full-text search (`bdrc_search.py`) and the etexts only; the Dge ldan *Rdel 'grem dpag bsam ljon shing* (MW21984_22CC1A) was not opened (no etext id at hand in the time given) and no scan was read, no model run. The passages stand in [corpus/wb/ch29.md](corpus/wb/ch29.md); this reading adds no passage.
+
+**Question 595, «རྨང».** The exact phrase «མོ་བརྒྱུད་རྨང» has one hit in all of BDRC, WB's own Gser thang etext (I3CN5029, offset 121254): no other text repeats or glosses the line. «རྡེལ་སྨད» has three hits, all the verse of WB's chapter on the lord of the year's examination (Gser thang I3CN5028, the Beijing 1996 print and the *Bod kyi rtsis rig kun 'dus chen mo*), where «རྡེལ་སྟོད་ནག་ལ་རྡེལ་སྨད་དཀར» is a colour pair of upper and lower pebbles, not a pebble count: it shows the board's upper and lower halves as a fixed pair in WB, but gives no sense for «རྨང». Nothing settles the word. The parallel of the line before it («ཕོ་བརྒྱུད» + a verb or noun) leaves both readings open; "foundation" (རྨང, rmang) for the female line is the plainer one, but this is an inference, not a source.
+
+**Question 596, «སྤོས་གྲི» and «གླང་ཐབས».** «སྤོས་གྲི་རྒོད» as a phrase: 0 hits. «སྤོས་གྲི» alone has six, among them WB's own verse in the same chapter family: «བདུན་དམར་ལ་བབས་བཙན་འདྲེ་གནོད། །ནད་དུ་གཟེར་ཐབས་སྤོས་གྲི་དང་། །ལུས་ལ་གཏར་སྲེག་བྱེད་པ་འོང་།» (Gser thang I3CN5028 offset 842935; the same in the 1996 print), "the fierce spirit (བཙན, btsan) and demon harm: as illness, nailing (གཟེར་ཐབས, gzer thabs) and the «spos gri», and stabbing and burning of the body come". There «སྤོས་གྲི» stands in a list of harms done to the body, which fits it being a harm beside the illness, not a rite; what it is (a knife, from གྲི, gri) is read from the word, not glossed. «གླང་ཐབས» has 811 hits, a common word, and no search of it was narrowed; its sense here is unsettled. «རྒོད» is not shown by any hit to belong to «སྤོས་གྲི» or to start the next word.
+
+### Open
+
+- Question: whether «རྨང» in «མོ་བརྒྱུད་རྨང» is the foundation or a verb: no text found, open.
+- Question: «གླང་ཐབས» and «རྒོད» in p. 55's blue mewa line: «སྤོས་གྲི» is a harm to the body in a parallel verse of WB; the other two words unsettled.
+- Doubt: the Dge ldan *Rdel 'grem* etext (MW21984_22CC1A) and the scans (img. 60, 63) were not read in this reading's time.
+
+### Searched and not found
+
+- «སྤོས་གྲི་རྒོད» (0 hits) and «ལྷོག་པ་སྤོས་གྲི» (0 hits), BDRC full-text search, 2026-11-03; «མོ་བརྒྱུད་རྨང» (1 hit, WB itself).
