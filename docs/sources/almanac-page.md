@@ -638,3 +638,21 @@ in the crops made, so the answers of RD99 stand.
 - «ཉི་ནག་དྲུག་གསུམ» and «ས་ཞིག»/«སེ་ཞིག» on the scan of p. 42: not
   located in the crops made at 1–3× (Gser thang img. 048, the Zhol print img.
   685); the Zhol etext's reading of the page is too garbled to settle them.
+
+## RD141: the tail of the year, the run of deaths' stack and the thirteenth's rites (2026-11-03)
+
+Questions 324, 333 and 299, read in the pool and on one sharp print. *Read: scan for the Taikhang places named, etext and corpus for the rest.*
+
+- **Question 324** (the tail of the year «ནམ་མཇུག», the bird «འོལ་བ»; WB vol. 2, ch. 28, pp. 27-30, img. 35-38) is answered already (RD99, 2026-11-01: the end of autumn; the black kite): `claims/ch28-nam-mjug.md`, `claims/ch28-bird-days-forty.md`. Nothing was added.
+- **Question 333** (the run of deaths, «ཤི་སྐབ» or «ཤི་སྒབ»; pp. 104-108): the Zhol blocks carve «སྒབ» at two places (`claims/wbz-shi-sgab.md`); the Taikhang reproduction (I5878 img. 160) shows the same stack at p. 104's two places, held with doubt (`claims/wbt-p104-sgab-on-taikhang.md`). Five places (p. 105, l. 15; p. 106, ll. 2, 15; p. 108, ll. 11, 24, 26) are still unread on a sharp print: the Zhol etext cannot place them and the blocks are too faint. The word is «ཤི་སྒབ» by the claims already written.
+- **Question 299** (gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan): nothing new on the rites' names beyond `claims/gzhob-sel-gung-phur-bon-rites.md`. New: the ur mnan wheel's spoke seeds, blotted on the reprint, are legible on the Taikhang and are hrī-like letters (`claims/ur-mnan-spoke-seeds-on-taikhang.md`); the sha ri bhyo is the tail of a wrathful mantra (that claim), the p. 107 occurrence not looked at again.
+
+### Open
+
+- Question: on the Taikhang (I5878 img. 172, folio 162), are the eight seed syllables on the first spoke row of the pressing-down wheel (p. 112) all «ཧྲཱི» (hrī), with or without the anusvara, or are they eight different letters in the decorative script, and what is the fifth, which has no subjoined ར?
+- Question: at the five places of the run of deaths not read on a sharp print (p. 105, l. 15; p. 106, ll. 2, 15; p. 108, ll. 11, 24, 26), does the Taikhang show ག or ཀ under the ས?
+
+### Searched and not found
+
+- «ཤི་སྒབ» and «ཤི་སྐབ» in the Zhol etext (IE0OPI7850CC9C) pp. 777-784: three hits only (img. 778, 784 twice, one garbled), too noisy to place the other places by their text.
+- The rites' names «ཤ་རི་བྷྱོ», «མ་ཏྲམ» and «ཨུར་མནན»'s seeds: no dictionary or catalogue entry beyond the existing claim; not searched again.
