@@ -959,6 +959,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0586.md](questions/q0586.md) | question q586 | «སུམ་ཆ» in the notes' example and the spirits-and-conditions share | open; cites wb.1:p438 |
 | [questions/q0587.md](questions/q0587.md) | question q587 | The first stack of «ཞྭ་བཞིན» on p. 435 | open; cites wb.1:p435 |
 | [questions/q0588.md](questions/q0588.md) | question q588 | The first word of the fever of fire four and wind one on p. 435 | open; cites wb.1:p435 |
+| [questions/q0589.md](questions/q0589.md) | question q589 | «སྐྱུག» or «སྒྱུག» after «གནས» on the Taikhang leaf | open; cites wb.1:p362 |
 
 <!-- end pool index -->
 

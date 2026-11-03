@@ -1315,3 +1315,5 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, a syllable-by-syllable scan reading of p. 249's «སྐབས་གསུམ་བཞིར་བགོས» on the Zhol print (img. 309) and the Taikhang reproduction (img. 326): not made, the Zhol hand too small; machine readings only.
   - 2026-11-03, the stack of «རྙོངས/སྙོངས/སྟོངས» on p. 435 (Zhol img. 577, Taikhang img. 594, 4–5×): its two letters could not be told apart.
   - 2026-11-03, the notes (vol. 2, p. 497) on a Zhol or Taikhang scan: none in the cache; read on the typeset reprint only.
+- **RD133** (RD133, 2026-11-03):
+  - 2026-11-03, a clear subjoined ga on Taikhang img. 488–490 to compare with the stack after «གནས»: «སྒྱུ་མ» (img. 488, l. 3) is blotted at 6×; «སྒྲུབ» and «སྒྲོག» (img. 490) were not looked at.
