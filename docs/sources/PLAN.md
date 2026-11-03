@@ -1366,3 +1366,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, the same search, «ཁྱད་པར་དམིགས་ཀྱིས་བསལ» 19 hits: WB's prints, the Kun 'dus chen mo, the 'Byung rtsis dpyad don rmad byung and the commentators' idiom; none uses it for a weighing.
   - 2026-11-03, «འཇུག་ཕོད་ལ་སོགས» 9 hits: the Sarvadurgati and its three commentaries, SDP's two copies; none gives a Sanskrit equivalent or the word viṣṭi.
   - 2026-11-03, WB's departure, pp. 365–378 (etext): no verse ranks the checks; no screening clause of the KP kind.
+- **RD154** (RD154, 2026-11-03):
+  - 2026-11-03, «མོ་བརྒྱུད་རྨང» in BDRC's full-text search: 1 hit, WB's own Gser thang etext (I3CN5029); no text repeats or glosses the line; «རྡེལ་སྨད» has 3 hits, all WB's colour pair, none gives a sense for «རྨང».
+  - 2026-11-03, «སྤོས་གྲི་རྒོད» and «ལྷོག་པ་སྤོས་གྲི» in BDRC's full-text search: 0 hits.
