@@ -8311,8 +8311,8 @@ Read 2026-11-03 (RD130), by eye on the scan, with Yigdzin-1 over the four pages 
 
 ### Open
 
-- Question: On p. 538's «ལག་རྩིས་ལཱུ་བཞིན» the syllable is written with a long-vowel sign (Yigdzin-1 on the reprint and the 1996 print), not «ལུ»: is the word «ལཱུ» (or «ལླུ») a name of the method taken from another language, and is it so written on Mipham's own print (I2029 img. 743)?
-- Question: Which of the cross and the dot (circle) of p. 475's worked table is the white, given that the example's elements are not stated: does the *Moonbeams*' or the *Little Red Tiger-Head*'s own table of the hundred carry the same marks with a legend?
+- Question 580 ([q0580](questions/q0580.md)): On p. 538's «ལག་རྩིས་ལཱུ་བཞིན» the syllable is written with a long-vowel sign (Yigdzin-1 on the reprint and the 1996 print), not «ལུ»: is the word «ལཱུ» (or «ལླུ») a name of the method taken from another language, and is it so written on Mipham's own print (I2029 img. 743)?
+- Question 581 ([q0581](questions/q0581.md)): Which of the cross and the dot (circle) of p. 475's worked table is the white, given that the example's elements are not stated: does the *Moonbeams*' or the *Little Red Tiger-Head*'s own table of the hundred carry the same marks with a legend?
 
 ### Searched and not found
 
