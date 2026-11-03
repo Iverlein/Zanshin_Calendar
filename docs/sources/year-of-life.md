@@ -3328,7 +3328,40 @@ What follows for question 81: on the Zhol print p. 405's lines sit under the hea
 
 ## The birth read whole, the words left open: «སྐབ» or «སྒབ», the horse in «དར་གུད་ཏ་ལ», «བེ་ལུག», «རག་མི་ལ» and «དུས་ཚོད་ཚང་གི་རྩིས» (RD128)
 
-Nothing read yet: RD128's passages, with the English beside them, go here.
+Read 2026-11-03 (RD128) for the open questions 175, 176, 177, 178 and 181, by eye on the 1996 print's own scans (I1KG12906, image = printed page + 10: p. 331 = img. 341, p. 334 = img. 344, p. 338 = img. 348, p. 349 = img. 359; 691–694 px wide, the page's letters about 8 px high) and, for the Taikhang reproduction (I5877, image = Zhol image + 17: p. 331 = img. 446, p. 334 = img. 450, p. 338 = img. 456, p. 349 = img. 473), by eye on pp. 331 and 334 and by Yigdzin-1 (through the slot) on all four folios. The Zhol print was read by RD101 and RD119 and is not repeated; no MITRA run. agy was asked for one crop (the Taikhang's stack of p. 331) and judged against the scan. The 1996 machine readings of both Yigdzin-1 and MITRA (wb/vol1) are cited as machine.
+
+### 175: «སྐབ» or «སྒབ» (p. 331)
+
+- **1996 print, img. 341, line 4, at 5–14×**: «རྟ་དང་བོང་བུ་[སྒབ]་མི་འཕེལ» ("horse and donkey, «སྒབ», do not increase"). The head letter ས is clear; the root under it is a small blot at this resolution, with no crossbar that can be told from a bowl. The same stack on p. 330 (img. 340, «རྟ་དང་བོང་བུ་སྒབ་འཕེལ་ལོ») set beside it at the same scale (both cut out, 22 × 26 px, enlarged 20×) is the same shape: one typeface, one letter. Yigdzin-1 reads «སྒབ» on both pages, MITRA «སྒབ» on p. 330 and «སྐབ» on p. 331, so MITRA's two readings of one glyph show that the glyph does not decide; what decides is the pair, the horse's and donkey's «སྒབ» that increases on p. 330 and does not on p. 331.
+- **Taikhang, img. 446, line 2, at 7×**: ས over a root with a heavy top stroke, a lower-left spur crossing the stem and a vertical; the spur is plain, and belongs to ཀ in this hand; agy, asked which of ག, ཀ it is without the meaning, described the same spur and answered ཀ. Against that: Yigdzin-1 on the same folio reads «སྒབ», the Zhol block's stack (img. 429, at 12×) is blotted past telling (RD119 read ག; not confirmed on a second look), and the block hand's ཀ and ག run together under heavy ink; a spur of ink is not a letter. Agy's answer is not taken.
+- Result: narrowed again, not answered. The 1996 typesetting prints the same stack at pp. 330 and 331; the machine readings of the other prints split between «སྒབ» and «སྐབ»; the meaning of the word is unsaid in either spelling, and ch. 27's «ཤི་སྒབ» (the run of deaths) is the only gloss, for «སྒབ». The built text keeps «སྒབ» as the pair requires.
+
+### 176: «ཏ» in «དར་གུད་ཏ་ལ་བསྐྱོན» (p. 334)
+
+- 1996 print, img. 344, line 2 (at 6×): «དར་གུད་[ཏ]་ལ་བསྐྱོན་ནས་བརྩི» with a plain «ཏ», no ར over it; both machine readings of the 1996 print give «ཏ».
+- Taikhang, img. 450, line 2 (the row that holds «དགྲ་ཡིས་གྲི་རུ་འཆི་མི་འཆི། །དར་གུད་རྟ་ལ་བསྐྱོན་ནས་བརྩི», at 2.2×): the syllable after «གུད» is taller than a plain «ཏ», its head stroke carries a hooked cap, the look of ར over ཏ; Yigdzin-1 on the folio reads «རྟ». With the Zhol print's and the manuscript copy's «རྟ» (RD101) the answer of [claims/wb-dar-gud-rta-la-bskyon.md](claims/wb-dar-gud-rta-la-bskyon.md) stands: the horse, «ཏ» a slip of the 1996 typesetting. Confirmed on a third block witness, by eye at moderate confidence (the cap is the part the print's ink spreads).
+
+### 177: «བེ་ལུག» (p. 334)
+
+- 1996 print, img. 344, line 3 (at 16×): «གྲོགས་ཀྱིས་[བེ]་ལུག་ས་རུ་བལྟ», «བེ» with the vowel clear, not «བུ»; the Zhol's «བུ་ལུག» is thus a variant between blocks and print. Taikhang (img. 450): Yigdzin-1 reads «བེ་ལུགས་རུ་བལྟ» (no separate «ས»), by eye not looked at. So the syllable after «ལུག» stays doubtful between the print's «ལུག་ས་རུ» ("look to the place of the «བེ་ལུག»") and a form «ལུགས་རུ». Not glossed; the earlier reading (the young of the herd) stands as a reading only ([claims/wb-be-lug-sa-ru-lta.md](claims/wb-be-lug-sa-ru-lta.md)).
+
+### 178: «རག་མི་ལ» (p. 338)
+
+- 1996 print, img. 348, line 14 (at 12×): «བྱ་བ་གྲུབ་ཅིང་རག་མི་ལ། །མ་ལུས་རང་གིས་རྟོགས་པ་ཡིན།», the three syllables clear and the shad after «ལ» printed, so «ལ» is the last syllable and the line is not cut. Taikhang (img. 456): Yigdzin-1 reads the same, «རག་མི་ལ»; not looked at by eye. No variant in any print; not glossed. The reading from the black half's «མི་ཡི་བྲན་བྱེད་དགོས་པ་ཡིན» stands ([claims/wb-rag-mi-la-white-many.md](claims/wb-rag-mi-la-white-many.md)).
+
+### 181: «དུས་ཚོད་ཚང་གི་རྩིས» (p. 349)
+
+- 1996 print, img. 359: the page's line 21 ends «…མ་ནོར་སོ་སོར་གཏན་ལ་ཕབ། །དུས་» and line 22 begins «[ཚོད]་ཚང་གི་རྩིས་ཀྱང་སྦྱོར། །འབྲས་བུ་རེ་གཉིས་མི་རྟོགས་པས།» (at 14×; «ཚོད» with ོ, not «ཚད»). On the Taikhang (img. 473, line 2 by Yigdzin-1) the whole phrase «དུས་ཚོད་ཚང་གི་རྩིས་ཀྱང་སྦྱོར» stands in one line, so the 1996 break after «དུས་» is the typesetter's alone. The words are one: the 1996 print, the Taikhang and the Zhol block (RD119) agree, MITRA's «ཚད» on the 1996 print being the only variant. The meaning stays as narrowed by RD119: WB's own closing formula, the hour and the household added ([claims/wb-dus-tshod-tshang-reading.md](claims/wb-dus-tshod-tshang-reading.md)); a gloss in another text was not searched anew.
+
+### Open
+
+- Question: p. 331's «སྒབ» or «སྐབ»: does a better impression of the Zhol or Taikhang block (a sharper scan of I5877 img. 446 or another Zhol copy) show a crossbar on the root, and what does «སྒབ» (or «སྐབ») say of horse and donkey?
+- Question: the Taikhang's «བེ་ལུགས་རུ་བལྟ» (Yigdzin-1, img. 450) against the print's «བེ་ལུག་ས་རུ་བལྟ»: is the syllable after «ལུག» one with «ས» (the genitive-of-place, as read) or «ལུགས» (way, manner), when the line is read on the block by eye?
+
+### Searched and not found
+
+- A difference between the 1996 print's stack on p. 331 and p. 330: none at 20× (2026-11-03); the 1996 scans (691 px wide) cannot tell ཀ from ག.
+- «རག་མི་ལ» and «བེ་ལུག»: no new place; not searched again beyond RD101's list.
 
 
 ## Ch. 26's board and the harsh years: «ཁོན་སར», «མི་ཚན», «ཀླུང་གི་དུར་ཕུགས», «ལོ་རྟ» and «སྣང་པར་བཤད» (RD129)
