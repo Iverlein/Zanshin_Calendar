@@ -3355,8 +3355,8 @@ Read 2026-11-03 (RD128) for the open questions 175, 176, 177, 178 and 181, by ey
 
 ### Open
 
-- Question: p. 331's «སྒབ» or «སྐབ»: does a better impression of the Zhol or Taikhang block (a sharper scan of I5877 img. 446 or another Zhol copy) show a crossbar on the root, and what does «སྒབ» (or «སྐབ») say of horse and donkey?
-- Question: the Taikhang's «བེ་ལུགས་རུ་བལྟ» (Yigdzin-1, img. 450) against the print's «བེ་ལུག་ས་རུ་བལྟ»: is the syllable after «ལུག» one with «ས» (the genitive-of-place, as read) or «ལུགས» (way, manner), when the line is read on the block by eye?
+- Question 582 ([q0582](questions/q0582.md)): p. 331's «སྒབ» or «སྐབ»: does a better impression of the Zhol or Taikhang block (a sharper scan of I5877 img. 446 or another Zhol copy) show a crossbar on the root, and what does «སྒབ» (or «སྐབ») say of horse and donkey?
+- Question 583 ([q0583](questions/q0583.md)): the Taikhang's «བེ་ལུགས་རུ་བལྟ» (Yigdzin-1, img. 450) against the print's «བེ་ལུག་ས་རུ་བལྟ»: is the syllable after «ལུག» one with «ས» (the genitive-of-place, as read) or «ལུགས» (way, manner), when the line is read on the block by eye?
 
 ### Searched and not found
 

@@ -1303,3 +1303,6 @@ Searched and found wanting, so not to be repeated:
   - claims/wb-count-by-place-kha-smrang.md still says the Zhol print was not read: to update.
 - **RD130** (RD130, 2026-11-03):
   - 2026-11-03, p. 475 and p. 538 on the Gser thang reprint, the 1996 print and Yigdzin-1, Mipham's p. 475 table: a legend naming the white mark; a name or description of «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས»; a gloss of «ལཱུ་བཞིན».
+- **RD128** (RD128, 2026-11-03):
+  - 2026-11-03, p. 331's stack on the 1996 print against p. 330's: no difference at 20×; the 1996 scans (691 px wide) cannot tell ཀ from ག.
+  - 2026-11-03, «རག་མི་ལ» and «བེ་ལུག»: no new place; not searched again beyond RD101's list.
