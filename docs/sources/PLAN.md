@@ -1350,3 +1350,7 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, «ཚད་ཟླ་མག་སྐུད» and «ཞུར་ཞོགས» in the 1996 etext outside the verse: no occurrence; a parallel verse for the four la years: none.
 - **RD143** (RD143, 2026-11-03):
   - 2026-11-03, pp. 478, 483 and 526 on the reprint and the 1996 print: a sentence naming the pebbles' colour as what makes the life force, body or luck bad in the match's karma reckoning; none.
+- **RD145** (RD145, 2026-11-03):
+  - 2026-11-03, a gloss of «ལྔ་ནས» after an animal in the gates, in the reprint's pp. 170–171 and the Zhol etext (p. 880, 885): none.
+  - 2026-11-03, a line seating a person of the own place on earth, pp. 167–169: none; earth appears only in the list of results.
+  - 2026-11-03, «དུས་ལོའི་སྨེ་བ» elsewhere in the 1996 etext: only on p. 165.

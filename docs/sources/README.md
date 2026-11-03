@@ -814,7 +814,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0420.md](questions/q0420.md) | question q420 | Which mewa fights the nine squares of the three mewa joined? | open; cites wb.2:p165 |
 | [questions/q0421.md](questions/q0421.md) | question q421 | Where does earth stand in one's own place? | open; cites wb.2:p167-168 |
 | [questions/q0422.md](questions/q0422.md) | question q422 | How are the thirteen gates counted? | open; cites wb.2:p170-171 |
-| [questions/q0423.md](questions/q0423.md) | question q423 | How are the moment's small examinations of the asker combined? | open; cites wb.2:p168-169, wb.2:p169-170, wb.2:p170 |
+| [questions/q0423.md](questions/q0423.md) | question q423 | How are the moment's small examinations of the asker combined? | answered; cites wb.2:p168-169, wb.2:p169-170, wb.2:p170 |
 | [questions/q0424.md](questions/q0424.md) | question q424 | Whose aspects fight the landed year of the moment's counts, and what do the notes' «ཡར་གསུམ་སོགས» count? | open; cites wb.2:p171-172, wb.2:p537-538 |
 | [questions/q0425.md](questions/q0425.md) | question q425 | How far does the count of the sixty-year pairs and of the ogre's and demon's seven run? | open; cites wb.2:p171-172, wb.2:p537-538 |
 | [questions/q0426.md](questions/q0426.md) | question q426 | Which six fight in the notes' 360 starting points? | open; cites wb.2:p537-538 |
@@ -989,6 +989,8 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0595.md](questions/q0595.md) | question q595 | «རྨང» in «རྡེལ་སྨད་སྟོངས་ན་མོ་བརྒྱུད་རྨང» on p. 52 | open; cites wb.2:p51-52 |
 | [questions/q0596.md](questions/q0596.md) | question q596 | «སྤོས་གྲི་རྒོད» and «གླང་ཐབས» in the copper vessel's blue mewa line | open; cites wb.2:p54-55 |
 | [questions/q0597.md](questions/q0597.md) | question q597 | The la's wandering by the compass half, p. 16 | open; cites wb.2:p16 |
+| [questions/q0598.md](questions/q0598.md) | question q598 | The mewa that fights the nine squares: the year's or four down | open; cites wb.2:p165 |
+| [questions/q0599.md](questions/q0599.md) | question q599 | Earth in the own place's lists, p. 168 | open; cites wb.2:p167-168 |
 
 <!-- end pool index -->
 
