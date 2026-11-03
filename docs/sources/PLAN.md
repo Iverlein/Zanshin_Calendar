@@ -1330,3 +1330,7 @@ Searched and found wanting, so not to be repeated:
 - **RD139** (RD139, 2026-11-03):
   - 2026-11-03, «ལུགས་གཞན་བཞི་པ» (the fourth system of p. 37): not on p. 537 (reprint img. 543) nor in the Zhol etext's page of the verse.
   - 2026-11-03, «ཉི་ནག་དྲུག་གསུམ» and «ས་ཞིག»/«སེ་ཞིག» on the scan of p. 42 (reprint img. 048, Zhol img. 685): not located in the crops made at 1–3×; the Zhol etext's reading of the page is too garbled.
+- **RD138** (RD138, 2026-11-03):
+  - 2026-11-03, the Zhol print's first pair-line verb («སྦུབ» or the machine's «རྩུབ») on img. 602, by eye at 2×: the cursive letters are not told.
+  - 2026-11-03, a sentence of WB or the notes joining the eight results of the board to the eight fighting pebbles by number: none in pp. 453–472 or the notes' pp. 532–533.
+  - 2026-11-03, «བརྩི་བྱའི་ལོ་ཁམས» and «ལོ་ཁམས» across the 1996 etexts (vols. 1 and 2): hits only at vol. 1 p. 387 and, as «སོ་སོའི་ལོ་ཁམས», in the notes' close on the moment; none in ch. 26.

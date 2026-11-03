@@ -964,6 +964,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0589.md](questions/q0589.md) | question q589 | «སྐྱུག» or «སྒྱུག» after «གནས» on the Taikhang leaf | open; cites wb.1:p362 |
 | [questions/q0590.md](questions/q0590.md) | question q590 | A leaf missing at the dog day on the Zhol print (img. 728–729)? | open; cites wb.2:p70-72 |
 | [questions/q0591.md](questions/q0591.md) | question q591 | The Zhol's «ལོངས་པའི་ཉིན» against «ལངས་པའི་ཉིན» on p. 37 | open; cites wb.2:p37 |
+| [questions/q0592.md](questions/q0592.md) | question q592 | The element of the one reckoned in each illness examination | open; cites wb.1:p417-419 |
 
 <!-- end pool index -->
 
