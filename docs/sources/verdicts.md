@@ -8286,3 +8286,34 @@ Read 2026-11-01 (RD127): the *Moonbeams* (DZ, I2533) f. 21b–22a (img. 046–04
 ### Searched and not found
 
 - 2026-11-01, the *Moonbeams* f. 21b–22b and f. 26b–27a (DZ img. 046–048, 056–057), by eye and in the pool's text: a rule for a half in the count of the four verdict pebbles; a definition of the general and the particular verdict; a reading of a half verdict of the year of age.
+
+## The notes' worked table and hand reckoning again: the marks, the first row, the learned secretary Ratna, the deep points, the «ལཱུ» (RD130)
+
+Read 2026-11-03 (RD130), by eye on the scan, with Yigdzin-1 over the four pages (no MITRA): the Gser thang reprint (I3CN5029) img. 481 (p. 475) and img. 544 (p. 538), at 2–3× in line crops, the 1996 print (I1KG12907) img. 483 and 546 as machine reading and at page size, and Mipham's own print (I2029) img. 625, the table at 6×. Questions 101, 198, 199, 201 and 202 of [open-questions.md](open-questions.md); RD105 and RD26 above had read the same places.
+
+**The marks (question 198).** The table's cells are two marks: a cross (×) and a small round mark. On the Gser thang reprint and on the 1996 print the round mark is a filled dot (•) in every cell; on Mipham's own print it is an open circle (○), and the cells equal RD26's table above cell by cell (the reprint's friend column in the son and friend rows has its crosses, as Mipham's print has). So "circle" and "dot" are one mark in the prints' two hands. Which of the two is white the page does not say, and it cannot be counted out of the table: the example's elements are not given, and a column holds both marks under pebbles that by the rule above are all white (mother, friend). The deciding pebble is the mark that is more among the five. Not settled.
+
+**The first row (question 199).** On the Gser thang reprint the first row's label is a blotted line of four syllables, the first two a black mass (the reprint's glyphs read as «ས་སོའི» at best); on Mipham's own print the same label is compact and reads «སོ་སོའི་རང་རྡེལ», "each one's own pebble", as the Chengdu typeset prints it (corpus/wb/notes-1.md, wb.2:p475b). Answered as to the print, as RD105 had it; the blot is the reprint's own.
+
+**The learned secretary Ratna (question 201).**
+
+> དེ་དག་ནི་སྔ་ཕྱིར་བཻ་དཀར་བུ་ཡིག་པོད་ཆེན་བརྒྱད་ཙམ་མིག་ལམ་དུ་སོན་པ་དང་དྲུང་མཁས་པ་རཏྣའི་ཟིན་……
+
+(p. 538, l. 9, Gser thang img. 544.) The name's second stack is a black blot on the Gser thang reprint at 2.4×: neither «རཏྣ» nor «རཀྵ» can be told by eye; Yigdzin-1 reads «རཏྣ» on the reprint and «རཀྵ» on the 1996 print, as before. The print that settles it is Mipham's own (claims/notes-ratna-secretary.md: «རཏྣ»). The line breaks off in a row of dots after «ཟིན་», and «བྲིས» opens the next line, so «ཟིན་བྲིས», "notes", is one word across the dots. No new word on who he was.
+
+**The collection of deep points (question 202).** On the reprint p. 538, l. 16–17 (Yigdzin-1 line count): «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས་ནི་ལོགས་སུ་འབྲི་བར་བྱ་བ་ཡིན་ནོ», the collection of the reckoning's deep points and instructions is to be written separately; it follows «གཞན་ཡང་དམག་རྩིས་ཀྱི་སྐོར་སོགས་ནི་བཀའ་རྒྱ་དམ་པས་འདིར་གསལ་བར་མ་ཕྱེ་ལ», besides, the war reckonings and the like are not laid out here for the seal of the command, and the next sentence goes on to the thirty (འབྲི་ཝང, 'bri wang). Both prints and Yigdzin-1 read it alike. So the "collection" is a promised separate writing on the matters the notes leave out (war reckonings and the like), not a method of condensing. Dead end as to a work of that name (claims/notes-collection-not-found.md); narrowed as to what it is meant to hold.
+
+**The hand reckoning's «ལུ» (question 101).**
+
+> ལག་རྩིས་ལཱུ་བཞིན་གྱི་མོ་ནི། ཟླ་བ་དང་པོ་དགུ་པ་གཉིས་གླང་གི་སྟེང་ནས་བརྩི་བ་སོགས་གཞུང་གིས་གསལ་ལ།
+
+(p. 538, l. 25–26, Gser thang img. 544.) The hand reckoning of the «ལཱུ» kind, the female part: months one and nine are counted from the ox and so on, as the text makes clear. New: Yigdzin-1 reads the syllable «ལཱུ», with the long-vowel sign, on both the reprint and the 1996 print, and on the reprint at 3× the syllable is a ལ with a long foot under it and a vowel sign, not the plain «ལུ» of the question; the foot and sign are too crowded to say by eye whether it is «ལཱུ» or «ལླུ». A spelling with a long ū is not Tibetan's ordinary one, so the word may be a borrowed name of the method; no source seen explains it. «གཞུང་གིས་གསལ» ("the text makes clear") is not named: the sentence's example is the notes' own, and no text is named on the page.
+
+### Open
+
+- Question: On p. 538's «ལག་རྩིས་ལཱུ་བཞིན» the syllable is written with a long-vowel sign (Yigdzin-1 on the reprint and the 1996 print), not «ལུ»: is the word «ལཱུ» (or «ལླུ») a name of the method taken from another language, and is it so written on Mipham's own print (I2029 img. 743)?
+- Question: Which of the cross and the dot (circle) of p. 475's worked table is the white, given that the example's elements are not stated: does the *Moonbeams*' or the *Little Red Tiger-Head*'s own table of the hundred carry the same marks with a legend?
+
+### Searched and not found
+
+- 2026-11-03, p. 475 and p. 538 on the Gser thang reprint, the 1996 print and Yigdzin-1, Mipham's p. 475 table: a legend naming the white mark; a name or description of «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས»; a gloss of «ལཱུ་བཞིན».
