@@ -649,7 +649,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | open; cites wb.2:p68-70, wb.2:p503-504 |
 | [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | open; cites wb.2:p68-70 |
 | [questions/q0278.md](questions/q0278.md) | question q278 | Unidentified things of the funeral share and the corpse kinds | open; cites wb.2:p68-70, wb.2:p72, wb.2:p72-74 |
-| [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | open; cites wb.2:p70-72 |
+| [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | answered; cites wb.2:p70-72 |
 | [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | open; cites wb.2:p70-72 |
 | [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
 | [questions/q0282.md](questions/q0282.md) | question q282 | How the death day's planet's state is found | open; cites wb.2:p63-65 |
@@ -960,6 +960,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0587.md](questions/q0587.md) | question q587 | The first stack of «ཞྭ་བཞིན» on p. 435 | open; cites wb.1:p435 |
 | [questions/q0588.md](questions/q0588.md) | question q588 | The first word of the fever of fire four and wind one on p. 435 | open; cites wb.1:p435 |
 | [questions/q0589.md](questions/q0589.md) | question q589 | «སྐྱུག» or «སྒྱུག» after «གནས» on the Taikhang leaf | open; cites wb.1:p362 |
+| [questions/q0590.md](questions/q0590.md) | question q590 | A leaf missing at the dog day on the Zhol print (img. 728–729)? | open; cites wb.2:p70-72 |
 
 <!-- end pool index -->
 

@@ -1320,3 +1320,7 @@ Searched and found wanting, so not to be repeated:
 - **RD134** (RD134, 2026-11-03):
   - 2026-11-03, a sharper impression of p. 331's stack than the Taikhang's (8700 px): none among the prints known to the pool.
   - 2026-11-03, p. 330's «སྒབ» on the Taikhang for the stack's comparison: not found in the crop made (img. 445).
+- **RD135** (RD135, 2026-11-03):
+  - 2026-11-03, the thirteen who may not be offered food: no other name among the lines of pp. 68–70 on the Zhol, Taikhang (Yigdzin-1 and the eye) and the Gser thang etext; the lists of five and six are of those who may not have a funeral, not food.
+  - 2026-11-03, «ཇུ་རྩེ» in the Zhol etext (IE0OPI7850CC9C): only p. 817, in this verse.
+  - 2026-11-03, the dog day's and pig day's lines in the Zhol etext (IE0OPI7850CC9C): «ཚེ་སྔོན་སྔགས་པ» and «ཉིན་མཚན་དུས་ཚོད་བཅུ་གཉིས» no hit (its OCR of these pages is garbled).
