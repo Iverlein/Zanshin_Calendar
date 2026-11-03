@@ -956,6 +956,9 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0583.md](questions/q0583.md) | question q583 | The Taikhang's «བེ་ལུགས་རུ་བལྟ» against «བེ་ལུག་ས་རུ་བལྟ» | open; cites wb.1:p334 |
 | [questions/q0584.md](questions/q0584.md) | question q584 | «སྣང་པར་བཤད» or «སྣད་པར་བཤད» on p. 391 | open; cites wb.1:p391 |
 | [questions/q0585.md](questions/q0585.md) | question q585 | The Zhol's «མི་ཆེན» and «བོན» on ch. 26's board | open; cites wb.1:p472 |
+| [questions/q0586.md](questions/q0586.md) | question q586 | «སུམ་ཆ» in the notes' example and the spirits-and-conditions share | open; cites wb.1:p438 |
+| [questions/q0587.md](questions/q0587.md) | question q587 | The first stack of «ཞྭ་བཞིན» on p. 435 | open; cites wb.1:p435 |
+| [questions/q0588.md](questions/q0588.md) | question q588 | The first word of the fever of fire four and wind one on p. 435 | open; cites wb.1:p435 |
 
 <!-- end pool index -->
 

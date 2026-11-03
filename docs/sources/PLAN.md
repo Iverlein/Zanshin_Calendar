@@ -1311,3 +1311,7 @@ Searched and found wanting, so not to be repeated:
 - **RD129** (RD129, 2026-11-03):
   - 2026-11-03, «སྣང་པར་བཤད», «སྣད་པར་བཤད», «མི་ཆེན་སར» and «བོན་སར» as written in the Zhol etext (IE0OPI7850CC9C): none (its OCR of p. 391 and p. 472 is garbled).
   - 2026-11-03, a gloss of «ཕུགས», «དུར་ཕུགས» or the luck's tomb on Zhol img. 435–436: none.
+- **RD131** (RD131, 2026-11-03):
+  - 2026-11-03, a syllable-by-syllable scan reading of p. 249's «སྐབས་གསུམ་བཞིར་བགོས» on the Zhol print (img. 309) and the Taikhang reproduction (img. 326): not made, the Zhol hand too small; machine readings only.
+  - 2026-11-03, the stack of «རྙོངས/སྙོངས/སྟོངས» on p. 435 (Zhol img. 577, Taikhang img. 594, 4–5×): its two letters could not be told apart.
+  - 2026-11-03, the notes (vol. 2, p. 497) on a Zhol or Taikhang scan: none in the cache; read on the typeset reprint only.
