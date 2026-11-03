@@ -8317,3 +8317,24 @@ Read 2026-11-03 (RD130), by eye on the scan, with Yigdzin-1 over the four pages 
 ### Searched and not found
 
 - 2026-11-03, p. 475 and p. 538 on the Gser thang reprint, the 1996 print and Yigdzin-1, Mipham's p. 475 table: a legend naming the white mark; a name or description of «རྩིས་ཀྱི་ཟབ་གནད་མན་ངག་གི་ཚོགས»; a gloss of «ལཱུ་བཞིན».
+
+
+## The hand reckoning's «ལཱུ» on Mipham's own print and the notes' «ཕ་ཡི་དྭ་ཟླས» (RD132)
+
+Read 2026-11-03 (RD132), by eye on the scans, with Yigdzin-1 (no MITRA) to place the words: Mipham's own print (I2029) img. 743–745, the 1996 print (I1KG12907) img. 496. Questions 580 and 236 of [open-questions.md](open-questions.md).
+
+**Question 580, where the word stands.** Img. 743 (a landscape folio of five lines, number 123, the postscript's thanks and the thirty *'bri wang*) ends before the hand reckoning. The word is on img. 744, at the head of its second line, whose first line ends the thirty's last rule («…མོ་ཀླུ་ཞལ་ནས་རྩི།») and whose second opens after the gold reckoning's close:
+
+> ལག་རྩིས་ལཱུ་བཞིན་གྱི་མོ་ནི། ཟླ་བ་དང་པོ་དགུ་པ་གཉིས་གླང་གི་སྟེང་ནས་བརྩི་བ་སོགས་གཞུང་གིས་གསལ་ལ།
+
+(Yigdzin-1 on img. 744; the hand reckoning "in the Lū manner", the female part: months one and nine counted from the ox, as the text makes clear.) The same spelling stands in the colophon on img. 745: «ལཱུ་བཞིན་རྩིས་འདི་ནི་སོག་པོ་དགེ་བཤེས་བསམ་གཏན་ལས་ལག་ཁྲིད་བྱས་པ་བཞིན་བྲིས་པའོ།», "this Lū reckoning is written down as the Mongol geshe Samten taught it by hand". So Mipham's print has the long-sign spelling at both places, where the 1996 print has «ལུ». On the scan at 10× the first syllable is a ལ with a long foot and a hooked sign beside the vowel position, more than the plain ུ of the 1996 print; the 1-bit bitmap is too coarse to say ཱུ from a subjoined ླུ. Answered as to the print; the word as a foreign name of the method stays the inference of [notes-hand-reckoning-three-results](claims/notes-hand-reckoning-three-results.md), from the Mongol teacher of the colophon. No source seen explains the word itself.
+
+**Question 236, the notes' p. 488.** On the 1996 print (img. 496, lines 18–19, at 4×) the line reads «…གཞུང་ན་གསལ། ཕ་ཡི་དྭ་» and the next line «ཟླས་མ་འཆི། བུ་ཡིས་གཉིས་ཀ་འཆི་བའོ།», the same break as on the Gser thang reprint (img. 494), and the sentence before it speaks of the ease or difficulty of healing judged by the birth's time, "as the text makes clear". «མ» is the mother: before a present stem like «འཆི» the negative is «མི», and «མ» negates past and imperative stems, so «མ་འཆི» is not "does not die"; the clause pairs with «བུ་ཡིས». The father's orphaning month kills the mother, the child's own, both (the parents, by the pair; no gloss says it). Answered, as in [orphaning-month-kills-the-other-parent](claims/orphaning-month-kills-the-other-parent.md), now on two prints.
+
+### Open
+
+None new.
+
+### Searched and not found
+
+- 2026-11-03, the local etexts and scratch readings, and Yigdzin-1 on img. 743–745 of Mipham's print: a gloss of «ལཱུ» or a second text that names the method; no.
