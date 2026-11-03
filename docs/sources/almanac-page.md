@@ -704,4 +704,16 @@ Nothing read yet: RD150's passages, with the English beside them, go here.
 
 ## The other five stacks of «ཤི་སྒབ» or «ཤི་སྐབ» on the Taikhang, found by the words around them (RD153)
 
-Nothing read yet: RD153's passages, with the English beside them, go here.
+Question 594. *Read: Taikhang I5878 img. 162 by eye at 1x (line crops cut by y with PIL, left and right halves); no model run, no agy turn.*
+
+- Img. 162 is cut at 1x into two crops (x 300-2100 and 2100-3900, y 380-1330); the five scan lines sit at about y 450, 660, 845, 1030 and 1215 of the full image. The hand is a running cursive: at 1x the words round the two places («ལོ་བཅུའི་ཤི་སྒབ་ཆོད་པར», left third; «ལོ་བཅུ་གཅིག་ཤི་སྒབ་ཆོད», right) could not be told apart from their neighbours by eye, so neither place was found and no stack was cut at 4-8x.
+- Img. 165 and 166 were not opened (time). Nothing is settled: the ག or ཀ of these four places stays open, and the leaning of RD150 (ག) is not strengthened.
+- Doubt for the next reading: place the words by one Yigdzin-1 run on the four images through the slot (its boxes give x, from which the scan line is found by y), then cut the stacks at 8x; by eye alone the cursive is not found in ten minutes.
+
+### Open
+
+- Question 594: img. 162 (two places), 165 (one) and 166 (two) still unread on the scan.
+
+### Searched and not found
+
+- «ཤི་སྒབ» on img. 162 of the Taikhang by eye at 1x over the left half of lines 1-5: not found among the cursive words.
