@@ -3366,4 +3366,47 @@ Read 2026-11-03 (RD128) for the open questions 175, 176, 177, 178 and 181, by ey
 
 ## Ch. 26's board and the harsh years: «ཁོན་སར», «མི་ཚན», «ཀླུང་གི་དུར་ཕུགས», «ལོ་རྟ» and «སྣང་པར་བཤད» (RD129)
 
-Nothing read yet: RD129's passages, with the English beside them, go here.
+Read 2026-11-03 (RD129) for the open questions 203, 204, 205 and 206, on the Zhol print (བཞོལ, zhol; I1KG1710, WBZ; each image one folio side): WB vol. 1, p. 335 = img. 435 (l. 4), p. 391 = img. 513 (ll. 2–3), p. 472 = img. 628 (l. 5). The images were found from the Zhol etext (IE0OPI7850CC9C; its page = image) by the phrases, not by an offset: the print's folios run about 1.4 images to a page of the 1996 print. Yigdzin-1 over the three images and over img. 436, 499–512, 586–593, 600 and the sample 612–648 (looking for the pages), MITRA as witness over the three; each quoted clause read by eye at 3–7× on the scan. The shared scan cache gained img. 580–660 of I1KG1710.
+
+### 205: «ཀླུང་གི་དུར་ཕུགས» on the Zhol print (p. 335, img. 435, l. 4)
+
+By eye at 3×, with Yigdzin-1 and MITRA agreeing:
+
+> ལོ་གཅིག་ཀེག་གི་འབྱུང་རྩིས་ལ། །ཀླུངས་ཀྱི་དུར་ཕུགས་མ་ཤེས་ན། །ཕན་གནོད་དམིགས་ནས་ཟིན་མི་འགྱུར། །བཟང་བཤད་ངན་པར་གྱུར་པ་ལ། །ངན་ཡང་ཉེས་པ་མི་འབྱུང་ངོ་། །དེ་ཡང་ཀླུངས་ཀྱི་བྱེ་བྲག་སྟེ། །དར་གུད་ཀླུངས་དང་བསྟུན་པ་ནི།
+
+"In the elemental reckoning of the obstacles of one year, if the depth (ཕུགས, phugs) of the luck's tomb (དུར, dur) is not known, help and harm cannot be aimed at and caught; where a good is told as bad, the bad too brings no fault. That is the luck's particular [kind]: what goes with the rise and decline of the luck…" The Zhol spells the luck «ཀླུངས» (with a final ས) throughout the passage.
+
+- The word after «དུར་» is **«ཕུགས»** on the blocks: the ཕ with its ུ and the final གས read at 3× (the cursive hand, not sure of the vowel sign), and Yigdzin-1 and MITRA read it so. The earlier note (claim wb-luck-dur-phugs-variant) that the Zhol print reads «དུར་ལུགས» rests on the Zhol etext alone (it reads «དུར་ལུགས» here and elsewhere garbles the line); the blocks do not support it. So the three prints known (the 1996, the Sakya Centre and the Zhol) agree on «ཀླུང(ས)་གི/ཀྱི་དུར་ཕུགས».
+- What «ཕུགས» means here stays as the claim said it: «དུར» is the tomb, «ཕུགས» the inner end; the clause is about the luck's tomb, not a stage of its rise and decline, which the lines after it name («དར་གུད་ཀླུངས་དང་བསྟུན་པ་ནི»). No gloss on the page. Narrowed (the variant gone), not answered.
+
+### 204 and 203: «མི་ཆེན» and «བོན» on the Zhol print (p. 472, img. 628, l. 5)
+
+Page of seven lines, the last two the colophon. By eye at 4.5× for the two words, Yigdzin-1 and MITRA with it:
+
+> གཏོ་དང་དཔྱད་ལ་འབད་པར་གཅེས། །རྡེའུ་ཐམས་ཅད་ཁྲ་ན་བཟང་། །ཡོན་ཏན་མཁན་དང་མི་ཆེན་སར། །རྡེལ་ནག་གྱུར་ན་ཀླུང་རྟ་བསྐྱེད། །བོན་སར་ནག་ན་གསས་མཁར་བརྩིག །ཞང་བློན་སར་ནག་སྲོག་མཁར་ཚུགས། །སྲོག་བསྐྱེད་ཆོ་ག་བྱ་བ་གནད། །བུད་མེད་ནག་ན་དབང་ཐང་བསྐྱེད། །བུ་ཕོ་ལུས་བསྐྱེད་བུ་མོ་དཔལ། །བསྐྱེད་པའི་རིགས་རྣམས་ཀུན་གྱི་སར། །རིག་པའི་འཕྲུལ་འཁོར་བསྐོར་བར་བྱ།
+
+"Take care with the rites and the examination; when all the pebbles are speckled it is good. In the places of the learned (ཡོན་ཏན་མཁན, yon tan mkhan) and the great man (མི་ཆེན, mi chen), if the pebble is black, raise the luck's horse (ཀླུང་རྟ, klung rta); in the Bon priest's (བོན, bon) place, if black, build the god-castle (གསས་མཁར, gsas mkhar); in the minister's place, if black, set up the life-castle (སྲོག་མཁར, srog mkhar); to raise the life the rite is the key; if the woman's is black, raise the power; the boy's, the body, the girl's, the glory; in the places of all that are to be raised, turn the wheel of knowledge." (Only the two words differ from the 1996 print; the rest as in claim thirty-general-board.)
+
+- **«མི་ཆེན»**, not «མི་ཚན»: the second letter of the word is ཆ with ེ above, then ན (at 4.5×; Yigdzin-1 «མི་ཆེན», MITRA «མི་ཆེ་ནས»). The 1996 print, its etext and the Gser thang reprint print «མི་ཚན». WB's own point 30 and the *Moonbeams* name the great man beside the learned (claim thirty-bon-mi-chen-places), so the Zhol print has the reading that claim reached by inference. Question 204 answered for the Zhol print: «མི་ཆེན», the great man; the others' «མི་ཚན» is a slip, or the Zhol an editor's mending of one (the blocks cannot say which).
+- **«བོན»**, not «ཁོན»: the first letter is a round བ with ོ (Yigdzin-1 «བོན», MITRA «བོན»), against «ཁོན» of the 1996 print and the Gser thang. «བོན་སར་ནག་ན་གསས་མཁར་བརྩིག» "in the Bon priest's place black, build a god-castle" is the same gsas castle as the black reading of WB's point 4's first check. So «ཁོན» is not the trigram khon and not a title: the Zhol print names the Bon priest's place. Question 203 answered for the Zhol print, with the same caution (the Bon priest here is a person of WB's board, not a Bon text used as a source).
+
+### 206: «ལོ་རྟ» and «སྣང་པར་བཤད» on the Zhol print (p. 391, img. 513, ll. 2–3)
+
+By eye at 2.4–7×; Yigdzin-1 and MITRA agree with the eye on the words below. Line 2 ends at «ལོ་» (tsheg after it) and line 3 begins «རྟ་རྣམས», so the word stands across the line break, written «ལོ་རྟ»:
+
+> འོད་ཟེར་ཅན་གྱི་གཟུངས་ཀྱང་འདོན། །རྩུབ་བདུན་འདི་ནི་སྣད་པར་བཤད། །རང་ལོ་བཞི་གཤེད་བདུན་ཟུར་དང་། །དུར་གཤེད་རྩུབ་པའི་ལོ་ / རྟ་རྣམས། །ཟླ་ཞག་དུས་ལ་འཆར་བའི་ཚེ། །གཉན་གྱི་ཁྱད་པར་དབང་ཐང་རྣམས། །དགྲ་དང་གཤེད་དུ་གྱུར་ན་གཉན།
+
+(The words «བཞི་གཤེད» are the 1996 print's; Yigdzin-1 writes «བཞིག་ཤེད» here and the eye did not take that clause.) "…and recite the dhāraṇī of the Ray-Bearer. These seven harsh ones are told …; one's own year, the four killers and the seventh corner, and the harsh years of the tomb and the killer, when they appear on month, day and hour, the *gnyan*'s special power: if they become enemy and killer, a *gnyan*…"
+
+- «ལོ་རྟ» is **one word in two lines**, not a horse after a break: nothing on the block splits it, and the machine readers keep it. As in the claim wb-rough-years-lo-rta-snang-par, the years of the tomb and the killer. The scan adds no gloss; the question's first part stays as the claim left it (years).
+- **The first syllable of the phrase is not «སྣང»** on the Zhol print by the machines: Yigdzin-1 and MITRA read «སྣད་པར་བཤད», and the Zhol etext's garbled «མདཔར» has the ད too. By eye at 7× the stack ས+ྣ is clear, then a letter that is ད or ང (a short bar with a small closing stroke): **not settled**. If ད, the phrase is «སྣད་པར་བཤད», and "told as they appear" is not its reading; it would be «སྣད» (speech, name, a way of speaking, as in a language) and its sense needs a dictionary or a reader (not looked up here: nothing is said from memory). The 1996 print and its etext have «སྣང».
+
+### Open
+
+- Question: p. 391's «རྩུབ་བདུན་འདི་ནི་སྣང་པར་བཤད» (1996 print) is «སྣད་པར་བཤད» on the Zhol print by both machines (img. 513, l. 2) and the letter after སྣ is not told between ང and ད on the cursive block: which does a reader of the tradition or another impression of the blocks (the Taikhang reproduction, I5877, near img. 530) carry, and in either case is the phrase "told as they appear"?
+- Question: p. 472's board names «མི་ཆེན» and «བོན» on the Zhol print where the 1996 print and the Gser thang reprint have «མི་ཚན» and «ཁོན»: are the Zhol's the blocks' own readings (the others' a shared slip, as the sense of WB's point 30 and point 4 suggests), or an editor's mending of the Zhol? Does the Taikhang reproduction (I5877) or Mipham's print give a third reading?
+
+### Searched and not found
+
+- «སྣང་པར་བཤད», «སྣད་པར་བཤད», «མི་ཆེན་སར» and «བོན་སར» as written in the Zhol etext (IE0OPI7850CC9C): none (the etext's OCR of p. 391 and p. 472 is garbled: «མདཔར», «མི་ཚེ་ནམའ», «ཐོན་སར»), 2026-11-03.
+- A gloss of «ཕུགས», «དུར་ཕུགས» or the luck's tomb on img. 435–436: none.
