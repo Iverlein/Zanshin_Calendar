@@ -1324,3 +1324,6 @@ Searched and found wanting, so not to be repeated:
   - 2026-11-03, the thirteen who may not be offered food: no other name among the lines of pp. 68–70 on the Zhol, Taikhang (Yigdzin-1 and the eye) and the Gser thang etext; the lists of five and six are of those who may not have a funeral, not food.
   - 2026-11-03, «ཇུ་རྩེ» in the Zhol etext (IE0OPI7850CC9C): only p. 817, in this verse.
   - 2026-11-03, the dog day's and pig day's lines in the Zhol etext (IE0OPI7850CC9C): «ཚེ་སྔོན་སྔགས་པ» and «ཉིན་མཚན་དུས་ཚོད་བཅུ་གཉིས» no hit (its OCR of these pages is garbled).
+- **RD137** (RD137, 2026-11-03):
+  - 2026-11-03, a figure or a numbered layout of the grid's five parts on p. 96 in the 1996 print, the Gser thang reprint (img. 102) or the Zhol print (img. 766): none, text only.
+  - 2026-11-03, a name of the mansions of p. 122 other than «སྤོ», «སྦ་སྨད», «ལག་སོར» on the pages (reprint img. 128, Zhol img. 804–805): none.
