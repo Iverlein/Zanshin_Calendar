@@ -950,7 +950,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0577.md](questions/q0577.md) | question q577 | The Taikhang leaf of the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» | open; cites wb.1:p362 |
 | [questions/q0578.md](questions/q0578.md) | question q578 | p. 381's «ངོ་ཐོག» or «ངོ་ཐེག» on the Zhol blocks | open; cites wb.1:p381 |
 | [questions/q0579.md](questions/q0579.md) | question q579 | The daughter's secret obstacle named last with no symptoms | open; cites wb.1:p390 |
-| [questions/q0580.md](questions/q0580.md) | question q580 | The hand reckoning's «ལཱུ་བཞིན» with a long-vowel sign | open; cites wb.2:p538 |
+| [questions/q0580.md](questions/q0580.md) | question q580 | The hand reckoning's «ལཱུ་བཞིན» with a long-vowel sign | answered; cites wb.2:p538 |
 | [questions/q0581.md](questions/q0581.md) | question q581 | Which mark of the notes' worked table is the white | open; cites wb.2:p475 |
 | [questions/q0582.md](questions/q0582.md) | question q582 | p. 331's «སྒབ» or «སྐབ» on a sharper impression | open; cites wb.1:p331 |
 | [questions/q0583.md](questions/q0583.md) | question q583 | The Taikhang's «བེ་ལུགས་རུ་བལྟ» against «བེ་ལུག་ས་རུ་བལྟ» | open; cites wb.1:p334 |

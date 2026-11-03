@@ -1306,3 +1306,5 @@ Searched and found wanting, so not to be repeated:
 - **RD128** (RD128, 2026-11-03):
   - 2026-11-03, p. 331's stack on the 1996 print against p. 330's: no difference at 20×; the 1996 scans (691 px wide) cannot tell ཀ from ག.
   - 2026-11-03, «རག་མི་ལ» and «བེ་ལུག»: no new place; not searched again beyond RD101's list.
+- **RD132** (RD132, 2026-11-03):
+  - 2026-11-03, the local etexts and scratch readings, and Yigdzin-1 on img. 743–745 of Mipham's print: a gloss of «ལཱུ» or a second text that names the method; no.
