@@ -8348,3 +8348,23 @@ Nothing read yet: RD143's passages, with the English beside them, go here.
 ## The *Moonbeams*' la board and plank-tree: the root text's count for the la board (the *Moonbeams*' or LT's), the plank-tree's fifteenth and sixteenth heads «ལྔ་ཐུན» and «དྲུག་འབྲས», the *Moonbeams*' readings 28 and 29 exchanged (RD144)
 
 Nothing read yet: RD144's passages, with the English beside them, go here.
+
+## The karma reckoning's bad aspects, the doubled ma of the five doors, the gold reckoning's grid (RD143)
+
+Read 2026-11-03 (RD143), by eye on the Gser thang reprint (I3CN5029; here the printed page is the image minus 6: pp. 478, 483, 526, 538 = img. 484, 489, 532, 544), with Yigdzin-1 over the four pages and over the same pages of the 1996 print (I1KG12907 img. 486, 491, 534, 546); Mipham's own print (I2029 img. 640–641 for p. 483, img. 744 for p. 538) beside. No MITRA: the pages had been read before and only the lines of the four questions were in doubt. Questions 352, 355, 393 and 396 of [open-questions.md](open-questions.md).
+
+**Question 352, «གྱོ» or «རྒྱ».** On the reprint (img. 544, l. 23, 6×) and on the 1996 print (img. 546, l. 23, 6×) the stack after «ཞག་གི་ལོ་འབྱུང་རྣམས» is a ག with ya-btags below and ོ above, no ར over it: «གྱོ་ཁང་རེའུ་མིག་བཞིན་ལ». Yigdzin-1 reads «གྱོ» on the reprint and «རྒྱ» on the 1996 print; the eye follows the first on both. With Mipham's print (RD130, img. 744) three prints agree. Answered as to the reading ([claims/notes-gold-grid-gyo-khang-reprint-and-1996.md](claims/notes-gold-grid-gyo-khang-reprint-and-1996.md)); what «གྱོ་ཁང» is stays unexplained.
+
+**Question 393, «སྲོག་མ་མ་གུད་པ».** The doubled «མ་མ» stands on the reprint (img. 489, l. 28, 4×), the 1996 print (Yigdzin-1, img. 491, l. 28) and Mipham's own print (img. 641, l. 1, 2.4×, the sentence opening the folio). So it is Mipham's spelling, not a typesetter's dittography; the earlier guess of an editor's doubling is dropped. The grammar (mother not in decline, or a doubled syllable) stays open ([claims/notes-sroq-ma-ma-gud-pa-three-prints.md](claims/notes-sroq-ma-ma-gud-pa-three-prints.md)). Narrowed, not answered.
+
+**Question 355, which findings make an aspect bad.** The six words of p. 526 (img. 532, ll. 13–15, 1.5×) read as the machine has them, the luck being the wind-horse (ཀླུང་རྟ, klung rta) bad. On p. 478 (img. 484, ll. 3–6) the notes speak of the power «དབང་ཐང» with many enemies, once in the household's meetings and once as the karma reckoning's hundred pebbles' power with many enemies. Neither page names the pebbles' colour as the test, so the narrowing of 2026-10-25 (bad when the block's verdict is black) stands as a reading; nothing new settles it ([claims/notes-karma-reckoning-power-and-list-read.md](claims/notes-karma-reckoning-power-and-list-read.md)).
+
+**Question 396, a white enemy pebble.** The line «དགྲ་དར་ཞེས་སོ་སོའི་དགྲ་རྡེལ་དཀར་ནའོ» (p. 483, l. 27) is the same on the three prints (by Yigdzin-1 on the reprint, the 1996 print, img. 491, and Mipham's print, img. 640, last words; not separately read by eye). Nothing on p. 483, 478 or 526 adds to the answer already recorded (the white enemy pebble the bad one, UT's reading differing).
+
+### Open
+
+None new.
+
+### Searched and not found
+
+- 2026-11-03, pp. 478, 483 and 526 on the reprint and the 1996 print: a sentence naming the pebbles' colour as what makes the life force, body or luck bad in the match's karma reckoning; none.
