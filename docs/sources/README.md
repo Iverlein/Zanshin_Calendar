@@ -947,7 +947,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0574.md](questions/q0574.md) | question q574 | A half in the Moonbeams' count of white and black | open; cites dz:i047 |
 | [questions/q0575.md](questions/q0575.md) | question q575 | The Moonbeams' general, particular and special verdicts | open; cites dz:i056 |
 | [questions/q0576.md](questions/q0576.md) | question q576 | The notes' «བཅོ་ལྔའོ» against fourteen | open; cites wb.2:p517 |
-| [questions/q0577.md](questions/q0577.md) | question q577 | The Taikhang leaf of the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» | open; cites wb.1:p362 |
+| [questions/q0577.md](questions/q0577.md) | question q577 | The Taikhang leaf of the root verse «གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན» | answered; cites wb.1:p362 |
 | [questions/q0578.md](questions/q0578.md) | question q578 | p. 381's «ངོ་ཐོག» or «ངོ་ཐེག» on the Zhol blocks | open; cites wb.1:p381 |
 | [questions/q0579.md](questions/q0579.md) | question q579 | The daughter's secret obstacle named last with no symptoms | open; cites wb.1:p390 |
 | [questions/q0580.md](questions/q0580.md) | question q580 | The hand reckoning's «ལཱུ་བཞིན» with a long-vowel sign | answered; cites wb.2:p538 |
