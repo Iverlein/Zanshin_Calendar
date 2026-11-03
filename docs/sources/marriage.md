@@ -1489,3 +1489,26 @@ Read 2026-11-01 (RD122) for the open question 161, on the Zhol print (I1KG1710, 
 ## The in-laws' «གནས་སྒྱུག» and «ཤིད་དུར» (RD125)
 
 WB's verse on the match (vol. 1, p. 362, img. 372) reads «སོ་ནམ་མི་བཏུབ་བྱ་བ་བཟློག །གནས་སྒྱུག་སྤར་ཁ་འཐབ་ན་ངན།» in the 1996 typeset etext, "the in-laws' trigrams fighting is bad"; the Zhol print's last line of img. 473 shows «གནས» and a tall stack with «ྱུ» below whose root letter cannot be told. Mipham's note on it (vol. 2, p. 526) has «སྒྱུག་མོ» in the etext where the scan's blotted stack was read «སྐྱུག་མོ». The reading and the evidence are in [verdicts.md](verdicts.md), section "The trigram's three rites and fourteen or fifteen remedies; the in-laws' «གནས་སྐྱུག» and «ཤིད་དུར» (RD125)"; the broken line's «ཤིད་དུར» stays likelier «ཤིང་དུར» (match-trigram-grave).
+
+## The match's open words on the Taikhang print (RD133)
+
+Read 2026-11-03 (RD133) for open questions 208–211. Pages: WB vol. 1, ch. 23, pp. 351 (img. 361), 355 and 362; the notes, vol. 2, pp. 524, 526 (img. 532, 534). The Zhol print's leaves of pp. 351, 355 and 362 (I1KG1710 img. 458, 464, 473) were read by RD21, RD42 and RD125 and stand as they are written above; the notes are not on the Zhol blocks (Mipham's own print, I2029, was read by RD42 and RD125). New in this reading: the **Taikhang reproduction** (I5877, 8700 × 1800 px a leaf, the sharpest print), whose leaf of p. 362 was not found before (question 577). Yigdzin-1 over img. 487–491, the lines found by the text, the stack by eye at 6–8× and compared with the same letters on the same leaf.
+
+**The leaf.** The root verse of p. 362 stands at the end of the last line of img. 490 (folio 480; img. 486 is f. 476) and goes on at the head of img. 491:
+
+> རང་སྐྱེས་སྤར་ཁ་མི་མཐུན་ན། །སོ་ནམ་མི་བཏུབ་བྱ་བ་བཟློག །གནས་སྐྱུག[…] / [img. 491, l. 1] སྤར་ཁ་འཐབ་ན་ངན། །གཞན་ཡང་སྤར་ཁའི་དུར་བསྡེབས་ནི།
+
+(Yigdzin-1's reading; the words of the line before the stack were not checked letter by letter.) "If the own-born trigrams do not agree, farming is not possible, the like is to be turned back; the in-laws' (གནས་སྐྱུག, gnas skyug) trigrams fighting is bad. Besides, the trigrams' grave matches:" Question 577 is answered: the Taikhang leaf is img. 490–491 (f. 480–481).
+
+**The stack («གནས» then the stack).** At 8× the stack has a flat head over a box with a closed counter and a dot, then the subjoined ya and the vowel's curl; the box is shaped like the subjoined ka of «བསྐྱོན» on the same line (img. 490, 6×) and unlike a plain ga; Yigdzin-1 reads «སྐྱུག». A subjoined ga (the «སྒྱུ་མ» of img. 488, l. 3) was looked for as a model, but that stack is too blotted to compare. So the blocks lean to «གནས་སྐྱུག», the spelling the notes' scan was read with (RD21), against the typeset etext of WB and of the notes (སྒྱུག): a lean by one stack read by eye, **not settled**. This narrows question 356 and the first part of 211.
+
+**Questions 208, 209, 210.** No new witness: «སྐར་འབྲས་སྤྱི་སྡོམ» heads the pebble counts and «སྐར་འབྲས» is not glossed (claims/wb-skar-bras-spyi-sdom-counts.md); no text names a couple of mixed kinds (claims/match-kinds-in-general.md, claims/wb-mixed-kinds-other-manuals.md); the karma reckoning over the match is each spouse's birth reckoning (claims/match-karma-reckoning.md, claims/karma-reckoning-aspect-bad.md). The notes' pp. 524 and 526 were not read again.
+
+### Open
+
+- Question: Is the stack after «གནས» on the Taikhang print's img. 490 (WB p. 362, the in-laws' trigrams), read at 8×, «སྐྱུག» or «སྒྱུག»; does a still sharper copy (the original blocks, a better scan) show the subjoined letter's shape?
+- Doubt: the leaf's lines before the verse were not read letter by letter.
+
+### Searched and not found
+
+- A clear subjoined ga on Taikhang img. 488–490 to compare with the stack: «སྒྱུ་མ» (img. 488, l. 3) is blotted at 6×; «སྒྲུབ» and «སྒྲོག» (img. 490) were not looked at.
