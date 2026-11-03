@@ -2517,4 +2517,14 @@ Result per question, none changed by this reading:
 
 ## The Vaiḍūrya reply 140's first syllable, found from the clause «དེ་ལྟར་བསལ་ན་དཀའ་བ་མེད་པར་རྟོགས་པས» (RD152)
 
-Nothing read yet: RD152's passages, with the English beside them, go here.
+*Read: by eye on hand-cut crops of I5875 img. 498 (8,280 px wide), 0.25×–6×, 2026-11-03; no model run.* The page (printed folio 489) was cut into four strips of 2,300 px over the whole width, height y 250–1250: it shows six lines of continuous cursive across the full width, not two separate tiers as RD147 had it, and the numbering of RD104 does not carry over line by line. The clause was found in the second line of the strip x 4,000–6,300 (full-page x about 4,300–5,500, y about 480–580), after the sentence ending «…བཀའ་བ་མེད་པར་རྟོགས་པས» and before «མི་དགོས་ཞེ་ན»; the whole run reads «དེ་ལྟར་བསལ་ན་དཀའ་བ་མེད་པར་རྟོགས་པས [?]ཁམ་མི་དགོས་ཞེ་ན།» as RD148 has it (the strokes up to «པས» agree).
+
+- q604, the unread syllable (crop x 4,900–5,150, y 450–610 at 6×): after the sa of «པས» stands one stack with a flat head, a stroke running down-left from it and one long descending stroke on the right, before the loop letter of «ཁམ» (kha with ma). The stack is not a plain ཁ, བ or ད: it has a ra-like head with something joined beneath. Which letter lies under the head (ba, ga, da) was not told apart at 6×, the ink being filled in at that size. The machine's «རྦད» is not contradicted and not confirmed.
+
+### Open
+
+- Question: In reply 140 (I5875 img. 498, second line of the strip, full-page x about 4,950–5,050), is the letter joined under the ra-like head of the syllable before «ཁམ་མི་དགོས་ཞེ་ན» a ba, a ga or a da?
+
+### Searched and not found
+
+- The syllable under the head: no letter settled; the print's second copy (Zhol etext, not opened) or a sharper scan remains the way.
