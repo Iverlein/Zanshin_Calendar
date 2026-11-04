@@ -8,7 +8,7 @@ readings of that day and sunrise, solar noon and sunset for your place.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="220" alt="Japanese day: 十三夜">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="220" alt="Japanese almanac annotations">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="220" alt="Meditation timer: a zazen of 20, 10 and 30 minutes">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10.png" width="220" alt="Prayer wheel: a mantra in gold on a turning drum, with the mantras to choose from below">
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10.png" width="220" alt="Prayer wheel: a mantra in gold on a turning drum, with the way to the wheel alone and the mantras to choose from below">
 
 - **Tibetan:** lunar day, month and year with skipped and doubled days and
   leap months; festivals and monthly observances; lunar mansion, yoga,
@@ -87,8 +87,9 @@ readings of that day and sunrise, solar noon and sunset for your place.
   synthesised on the phone, so no sound file is bundled.
 - **Prayer wheel:** a mantra in Tibetan script alone, seven to choose
   from or a line of your own, on a drum or a ring in the colours you
-  choose, turning slowly by itself; a flick speeds it, a finger against it
-  brakes it. Also a live wallpaper, the same wheel on the home screen.
+  choose, turning slowly by itself; every touch quickens it, and nothing
+  slows it. Shown alone on the whole screen if you wish, the screen kept on
+  if you ask. Also a live wallpaper, the same wheel on the home screen.
 - Every Tibetan term and kanji shows its English on tap; every reading comes
   from a published source, listed in About & sources.
 - Six themes: Ink (dark, the default), Paper (light), Night (black, for

@@ -85,7 +85,7 @@ alt = "Главный экран с двумя виджетами: «День» 
 file = "10.png"
 [shot.en]
 caption = "A prayer wheel"
-alt = "The prayer wheel: a mantra in gold Tibetan script on a turning drum, with the mantras to choose from below; also a live wallpaper"
+alt = "The prayer wheel: a mantra in gold Tibetan script on a turning drum, with the way to the wheel alone and the mantras to choose from below; also a live wallpaper"
 [shot.ru]
 caption = "Молитвенное колесо"
-alt = "Молитвенное колесо: мантра золотым тибетским письмом на вращающемся барабане, ниже — мантры на выбор; есть и живые обои"
+alt = "Молитвенное колесо: мантра золотым тибетским письмом на вращающемся барабане, ниже — переход к одному колесу и мантры на выбор; есть и живые обои"

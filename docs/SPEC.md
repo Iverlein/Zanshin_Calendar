@@ -4851,19 +4851,29 @@ OpenGL.
 - **Turning:** one turn in thirty seconds by itself, clockwise seen from
   above: a drum's front runs from right to left, a ring turns clockwise on
   the screen with its line reading anticlockwise, so that on both the
-  syllables pass any one point in their order. A finger with the wheel
-  speeds it, up to two turns a second, and it eases back with a time
-  constant of 5 s; a finger against it only brakes it, down to a stop,
-  from which it takes up the slow turn: it never runs backwards
-  (`WheelMotion`). On a drum a finger counts along x, on a ring around
-  the centre.
+  syllables pass any one point in their order. Every touch quickens the
+  wheel and none slows it (the owner, 2026-11-04: stopping it is wrong in
+  idea and in logic): a tap adds a quarter turn a second, so that taps add
+  up, a moving finger in any direction brings the wheel up to the finger's
+  own speed, and the most is two turns a second, from which it eases back
+  with a time constant of 5 s. It never stops or runs backwards
+  (`WheelMotion`).
+- **Only the wheel:** the first thing under the wheel, a button that
+  gives the screen to the wheel alone: no header, settings, status bar or
+  navigation bar, no word on the screen, every touch going to the wheel,
+  which keeps its turning. The system's back returns to the settings; a
+  turn of the phone stays in it. "Keep the screen on", off by default, holds
+  the screen lit for as long as only the wheel is shown, and is dropped on
+  leaving. Android itself shows a one-time notice on how to leave full screen,
+  the first time on each device.
 - **Colours:** six for the script and six for the ground, every pair
   standing 4.5:1 (`WheelTest`), so no choice hides the mantra; gold on
   black by default. The screen's frame keeps the app's theme.
 - **Wallpaper:** "Set as wallpaper" opens Android's own page for it. It
   shows what the screen has chosen, at once when that changes, and draws
-  only while seen, at about thirty frames a second at the slow turn; a
-  finger on the home screen and the turning of its pages speed it. The
+  only while seen, at about thirty frames a second at the slow turn. A
+  finger on the home screen, the turning of its pages either way and
+  coming back to the home screen from an app each quicken it. The
   button is hidden where a phone has no live wallpapers
   (`android.software.live_wallpaper`, not required). Android drops a
   live wallpaper when its app is force-stopped.

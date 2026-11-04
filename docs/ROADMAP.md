@@ -2180,8 +2180,12 @@ The owner's request of 2026-11-04, after an old live wallpaper no longer
 offered on current Android: a screen in the Practice group and a live
 wallpaper, one painter for both. Its forms and colours (the owner's
 answers the same day): both a drum and a ring, the colours to choose;
-several mantras, not one; a slow turn by itself that a flick speeds and a
-finger against only brakes.
+several mantras, not one; a slow turn by itself that any touch quickens.
+The owner first chose that a finger against it should only brake it, and
+reversed that the same day, once it stood on the phone: a tap on the home
+screen or a page swipe stopped the wheel, "ideologically and logically
+wrong". With that, a mode with only the wheel on the screen, and the option
+of keeping the screen on.
 
 - **Checked on the emulator** (Android 17): both forms and every mantra
   in English and Russian, an own line, font scale 2.0 and landscape in both,
@@ -2190,6 +2194,16 @@ finger against only brakes.
   (3.6 rad/s) and a page swipe (the most, 12.5 rad/s), no frames while an
   app covers it, a change of colours reaching it at once. `WheelTest`
   holds the turning, the layout and the colours' contrast.
+- **Every touch quickens, only the wheel (built 2026-11-04), checked on
+  the emulator:** the speed logged for swipes left, right and down on the
+  screen (0.03 to over 1.2 turns a second each) and a tap (to 0.3); on the
+  wallpaper a tap, page swipes both ways, fast and slow, a small drag in
+  three directions, coming home from an app and five quick taps (to 1.3),
+  none below where it began. Only the wheel: no bars and no words on the
+  screen, upright and on its side, back returning to the settings; the
+  screen's flag set only with the option on, and gone after back, also
+  after a turn of the phone and a trip to the home screen. That last case
+  is why the window's flag is used: `view.keepScreenOn` stayed set after it.
 - **Direction:** the pool has no passage on it. Clockwise is the common
   account of turning a wheel; that the syllables pass in their order
   follows from the geometry. Ladner's *The Wheel of Great Compassion*
