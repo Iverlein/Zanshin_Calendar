@@ -33,6 +33,11 @@ class WheelSettings(context: Context) {
         get() = enumOf(KEY_GROUND, WheelGround.BLACK)
         set(value) = prefs.edit().putString(KEY_GROUND, value.name).apply()
 
+    /** Whether the screen stays on while only the wheel is shown. */
+    var keepScreenOn: Boolean
+        get() = prefs.getBoolean(KEY_KEEP_ON, false)
+        set(value) = prefs.edit().putBoolean(KEY_KEEP_ON, value).apply()
+
     /** What the wheel shows now; an own line left empty shows the first mantra. */
     val look: WheelLook
         get() {
@@ -49,6 +54,7 @@ class WheelSettings(context: Context) {
         private const val KEY_FORM = "wheel_form"
         private const val KEY_SCRIPT = "wheel_script"
         private const val KEY_GROUND = "wheel_ground"
+        private const val KEY_KEEP_ON = "wheel_keep_on"
 
         /** Whether a preference key is one of the wheel's, for the wallpaper to draw it anew. */
         fun isWheelKey(key: String?): Boolean = key?.startsWith("wheel_") == true

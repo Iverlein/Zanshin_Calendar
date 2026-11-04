@@ -1504,10 +1504,14 @@
     <string name="wheel_color_indigo">Indigo</string>
     <string name="wheel_color_forest">Forest</string>
     <string name="wheel_color_umber">Umber</string>
+    <string name="wheel_alone">Only the wheel</string>
+    <string name="wheel_alone_note">The wheel fills the screen, with nothing else on it; back returns here.</string>
+    <string name="wheel_keep_on">Keep the screen on</string>
+    <string name="wheel_keep_on_subtitle">While only the wheel is shown</string>
     <string name="wheel_set_wallpaper">Set as wallpaper</string>
     <string name="wheel_wallpaper_note">The wallpaper carries what is chosen here, and speeds up at a touch on the home screen.</string>
     <!-- the wheel in the system's list of live wallpapers -->
-    <string name="wheel_wallpaper_description">A mantra turning slowly by itself; a flick speeds it. Chosen in Zanshin, under Practice.</string>
+    <string name="wheel_wallpaper_description">A mantra turning slowly by itself; any touch speeds it. Chosen in Zanshin, under Practice.</string>
     <!-- describes the turning wheel for screen readers -->
-    <string name="desc_wheel">A prayer wheel, turning slowly; a flick speeds it</string>
+    <string name="desc_wheel">A prayer wheel, turning slowly; any touch speeds it</string>
 </resources>

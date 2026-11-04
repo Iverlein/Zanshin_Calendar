@@ -44,12 +44,8 @@ class WheelPainter(context: Context) {
     private var margin = 0f
     private var fit = WheelFit(1, 0f, 0f)
 
-    /** The wheel's turning for a finger at (x, y) on the canvas moving at (vx, vy) pixels a second. */
-    fun rate(x: Float, y: Float, velocityX: Float, velocityY: Float): Double = when (built?.form) {
-        WheelForm.DRUM -> WheelMotion.drumRate(velocityX, fit.radius)
-        WheelForm.RING -> WheelMotion.ringRate(x - builtWidth / 2f, y - builtHeight / 2f, velocityX, velocityY)
-        null -> 0.0
-    }
+    /** The wheel's turning for a finger moving at (vx, vy) pixels a second. */
+    fun rate(velocityX: Float, velocityY: Float): Double = WheelMotion.fingerRate(velocityX, velocityY, fit.radius)
 
     /** Draws the wheel filling [width] by [height] at [angle], radians turned. */
     fun draw(canvas: Canvas, width: Int, height: Int, angle: Double, look: WheelLook) {

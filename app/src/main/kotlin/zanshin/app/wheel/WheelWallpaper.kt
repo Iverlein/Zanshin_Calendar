@@ -15,8 +15,8 @@ import android.view.VelocityTracker
 
 /**
  * The prayer wheel as a live wallpaper (SPEC §10.12): the screen's wheel on the home screen, with its settings. It draws
- * only while seen, thirty frames a second at the slow turn; a finger on the home screen and the turning of its pages
- * speed it.
+ * only while seen, thirty frames a second at the slow turn; a finger on the home screen, the turning of its pages and
+ * coming back to it each quicken it.
  */
 class WheelWallpaper : WallpaperService() {
     override fun onCreateEngine(): Engine = WheelEngine()
@@ -70,19 +70,25 @@ class WheelWallpaper : WallpaperService() {
 
         override fun onVisibilityChanged(visible: Boolean) {
             seen = visible
-            if (visible) start() else stop()
+            if (visible) {
+                motion.nudge()
+                start()
+            } else {
+                stop()
+            }
         }
 
         override fun onTouchEvent(event: MotionEvent) {
             when (event.actionMasked) {
                 MotionEvent.ACTION_DOWN -> {
+                    motion.nudge()
                     tracker?.recycle()
                     tracker = VelocityTracker.obtain().also { it.addMovement(event) }
                 }
                 MotionEvent.ACTION_MOVE -> tracker?.let {
                     it.addMovement(event)
                     it.computeCurrentVelocity(1000)
-                    motion.touch(painter.rate(event.x, event.y, it.xVelocity, it.yVelocity))
+                    motion.touch(painter.rate(it.xVelocity, it.yVelocity))
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
                     tracker?.recycle()
@@ -95,7 +101,9 @@ class WheelWallpaper : WallpaperService() {
             val now = SystemClock.uptimeMillis()
             val moved = xOffset - lastOffset
             val gap = (now - lastOffsetAt) / 1000.0
-            if (moved != 0f && !moved.isNaN() && gap in 0.001..0.25) motion.touch(moved / gap * WheelMotion.TURN)
+            if (moved != 0f && !moved.isNaN()) {
+                if (gap in 0.001..0.25) motion.touch(moved / gap * WheelMotion.TURN) else motion.nudge()
+            }
             lastOffset = xOffset
             lastOffsetAt = now
         }

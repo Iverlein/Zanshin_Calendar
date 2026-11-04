@@ -31,14 +31,28 @@ class WheelTest {
     }
 
     @Test
-    fun `a finger against it brakes it and never turns it back`() {
+    fun `a finger either way quickens it, and nothing slows or turns it back`() {
         val motion = WheelMotion()
-        motion.touch(5.0)
+        motion.touch(-5.0)
+        assertEquals(5.0, motion.speed, 1e-9, "against the turning counts as with it")
+        motion.touch(-1.0)
+        assertEquals(5.0, motion.speed, 1e-9, "a slower finger takes nothing away")
         motion.touch(-1000.0)
-        assertEquals(0.0, motion.speed, 1e-9)
-        val stopped = motion.angle
+        assertEquals(WheelMotion.MAX, motion.speed, 1e-9)
+        val before = motion.angle
         motion.step(0.05)
-        assertTrue(motion.angle >= stopped)
+        assertTrue(motion.angle > before)
+    }
+
+    @Test
+    fun `each tap adds, up to the most`() {
+        val motion = WheelMotion()
+        motion.nudge()
+        assertEquals(WheelMotion.REST + WheelMotion.NUDGE, motion.speed, 1e-9)
+        motion.nudge()
+        assertEquals(WheelMotion.REST + 2 * WheelMotion.NUDGE, motion.speed, 1e-9)
+        repeat(20) { motion.nudge() }
+        assertEquals(WheelMotion.MAX, motion.speed, 1e-9)
         run(motion, 60.0)
         assertEquals(WheelMotion.REST, motion.speed, 1e-3)
     }
@@ -59,12 +73,12 @@ class WheelTest {
     }
 
     @Test
-    fun `a finger's way round gives the turning's sign`() {
-        assertTrue(WheelMotion.drumRate(-100f, 50f) > 0, "to the left, with the drum's front")
-        assertTrue(WheelMotion.drumRate(100f, 50f) < 0)
-        assertTrue(WheelMotion.ringRate(100f, 0f, 0f, 100f) > 0, "down at the right is clockwise")
-        assertTrue(WheelMotion.ringRate(0f, 100f, 100f, 0f) < 0, "right at the foot is anticlockwise")
-        assertEquals(0.0, WheelMotion.ringRate(0f, 0f, 100f, 100f), 0.0)
+    fun `a finger counts in every direction`() {
+        for ((x, y) in listOf(100f to 0f, -100f to 0f, 0f to 100f, 0f to -100f)) {
+            assertEquals(2.0, WheelMotion.fingerRate(x, y, 50f), 1e-9)
+        }
+        assertEquals(10.0, WheelMotion.fingerRate(300f, -400f, 50f), 1e-9)
+        assertEquals(0.0, WheelMotion.fingerRate(100f, 100f, 0f), 0.0, "before the first drawing there is no radius")
     }
 
     @Test

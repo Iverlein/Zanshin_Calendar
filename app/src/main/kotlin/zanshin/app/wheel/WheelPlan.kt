@@ -6,6 +6,7 @@ package zanshin.app.wheel
 
 import zanshin.app.bell.BellSettings
 import kotlin.math.PI
+import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.math.exp
 import kotlin.math.floor
@@ -55,9 +56,8 @@ enum class WheelMantra(val text: String?) {
 data class WheelLook(val text: String, val form: WheelForm, val script: Int, val ground: Int)
 
 /**
- * The turning (SPEC §10.12): [angle] runs on at [speed], which eases back to the slow turn. The wheel never runs
- * backwards: a finger with it speeds it, a finger against it only brakes it, and from a stop it takes up the slow
- * turn again.
+ * The turning (SPEC §10.12): [angle] runs on at [speed], which eases back to the slow turn. Nothing holds the wheel
+ * back or turns it back: every touch quickens it, whichever way the finger goes.
  */
 class WheelMotion {
     var angle = 0.0
@@ -72,12 +72,14 @@ class WheelMotion {
         angle = (angle + speed * dt) % TURN
     }
 
-    /** A finger moving at [rate] radians a second, positive in the wheel's own direction. */
+    /** A finger moving at [rate] radians a second, either way: the wheel takes up that speed if it is turning slower. */
     fun touch(rate: Double) {
-        when {
-            rate > speed -> speed = min(rate, MAX)
-            rate < 0 -> speed = max(0.0, speed + rate * BRAKE)
-        }
+        speed = max(speed, min(abs(rate), MAX))
+    }
+
+    /** A touch that carries no speed of its own, a tap or a finger coming down: added to the speed, so that taps add up. */
+    fun nudge() {
+        speed = min(speed + NUDGE, MAX)
     }
 
     companion object {
@@ -91,17 +93,14 @@ class WheelMotion {
 
         /** The time constant of the ease back to the slow turn, seconds. */
         const val EASE = 5.0
+
+        /** What one tap adds: a quarter turn a second, so that eight quick ones reach [MAX]. */
+        const val NUDGE = TURN / 4
         private const val MAX_STEP = 0.1
-        private const val BRAKE = 0.25
 
-        /** A drum's turning for a finger's velocity along x: its front runs from right to left. */
-        fun drumRate(velocityX: Float, radius: Float): Double = if (radius > 0) -velocityX.toDouble() / radius else 0.0
-
-        /** A ring's turning for a finger at (x, y) from its centre, in screen axes, moving at (vx, vy); clockwise positive. */
-        fun ringRate(x: Float, y: Float, velocityX: Float, velocityY: Float): Double {
-            val r2 = x.toDouble() * x + y.toDouble() * y
-            return if (r2 > 1) (x.toDouble() * velocityY - y.toDouble() * velocityX) / r2 else 0.0
-        }
+        /** The turning a finger's velocity gives a wheel of [radius], in any direction. */
+        fun fingerRate(velocityX: Float, velocityY: Float, radius: Float): Double =
+            if (radius > 0) hypot(velocityX.toDouble(), velocityY.toDouble()) / radius else 0.0
     }
 }
 

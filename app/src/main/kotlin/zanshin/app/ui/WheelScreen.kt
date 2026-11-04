@@ -4,12 +4,15 @@
 
 package zanshin.app.ui
 
+import android.app.Activity
 import android.app.WallpaperManager
 import android.content.ActivityNotFoundException
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.view.WindowManager
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -45,6 +48,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
@@ -56,6 +60,7 @@ import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.input.pointer.util.VelocityTracker
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -64,6 +69,9 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
 import io.github.iverlein.zanshin.R
 import zanshin.app.wheel.WheelForm
 import zanshin.app.wheel.WheelGround
@@ -104,13 +112,20 @@ private val GROUND_NAMES = mapOf(
 
 /**
  * The prayer wheel (SPEC §10.12), a screen of its own from the menu's Practice group: the wheel, turning, with the
- * mantra, its form and colours under it, or beside it where the screen is wider than tall, and the way to the wallpaper.
+ * mantra, its form and colours under it, or beside it where the screen is wider than tall, the way to the wheel alone
+ * and the way to the wallpaper. The turning carries over between the wheel here and the wheel alone.
  */
 @Composable
 fun WheelScreen(onBack: () -> Unit) {
     val context = LocalContext.current
     val settings = remember { WheelSettings(context) }
     var look by remember { mutableStateOf(settings.look) }
+    val motion = remember { WheelMotion() }
+    var alone by rememberSaveable { mutableStateOf(false) }
+    if (alone) {
+        WheelAlone(look, motion, settings.keepScreenOn) { alone = false }
+        return
+    }
     Column(
         Modifier
             .fillMaxSize()
@@ -124,25 +139,47 @@ fun WheelScreen(onBack: () -> Unit) {
         BoxWithConstraints(Modifier.fillMaxSize()) {
             if (maxWidth > maxHeight) {
                 Row(Modifier.fillMaxSize()) {
-                    TurningWheel(look, Modifier.weight(1f).fillMaxHeight())
-                    Options(settings, { look = settings.look }, Modifier.weight(1f).fillMaxHeight())
+                    TurningWheel(look, motion, Modifier.weight(1f).fillMaxHeight())
+                    Options(settings, { look = settings.look }, { alone = true }, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
                 Column(Modifier.fillMaxSize()) {
-                    TurningWheel(look, Modifier.fillMaxWidth().weight(1f))
-                    Options(settings, { look = settings.look }, Modifier.fillMaxWidth().weight(1f))
+                    TurningWheel(look, motion, Modifier.fillMaxWidth().weight(1f))
+                    Options(settings, { look = settings.look }, { alone = true }, Modifier.fillMaxWidth().weight(1f))
                 }
             }
         }
     }
 }
 
-/** The wheel on its ground, turning while the screen is seen; a finger speeds or brakes it. */
+/**
+ * Nothing on the screen but the wheel: no frame, no bars, no words, every touch going to the wheel, so that only the
+ * system's back leaves it. With [keepOn] the screen stays lit for as long as it lasts.
+ */
 @Composable
-private fun TurningWheel(look: WheelLook, modifier: Modifier) {
+private fun WheelAlone(look: WheelLook, motion: WheelMotion, keepOn: Boolean, onLeave: () -> Unit) {
+    BackHandler(onBack = onLeave)
+    val view = LocalView.current
+    DisposableEffect(view) {
+        val window = (view.context as Activity).window
+        val bars = WindowCompat.getInsetsController(window, view)
+        bars.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        bars.hide(WindowInsetsCompat.Type.systemBars())
+        // The window's flag, not view.keepScreenOn: that one stays set if the app was left and come back to meanwhile.
+        if (keepOn) window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        onDispose {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+            bars.show(WindowInsetsCompat.Type.systemBars())
+        }
+    }
+    TurningWheel(look, motion, Modifier.fillMaxSize())
+}
+
+/** The wheel on its ground, turning while the screen is seen; every touch quickens it. */
+@Composable
+private fun TurningWheel(look: WheelLook, motion: WheelMotion, modifier: Modifier) {
     val context = LocalContext.current
     val painter = remember { WheelPainter(context) }
-    val motion = remember { WheelMotion() }
     var frame by remember { mutableLongStateOf(0L) }
     DisposableEffect(painter) { onDispose { painter.release() } }
     LaunchedEffect(motion) {
@@ -163,6 +200,7 @@ private fun TurningWheel(look: WheelLook, modifier: Modifier) {
             .pointerInput(painter) {
                 awaitEachGesture {
                     val down = awaitFirstDown(requireUnconsumed = false)
+                    motion.nudge()
                     val tracker = VelocityTracker()
                     tracker.addPosition(down.uptimeMillis, down.position)
                     do {
@@ -170,7 +208,7 @@ private fun TurningWheel(look: WheelLook, modifier: Modifier) {
                         val change = event.changes.firstOrNull { it.id == down.id } ?: break
                         tracker.addPosition(change.uptimeMillis, change.position)
                         val velocity = tracker.calculateVelocity()
-                        motion.touch(painter.rate(change.position.x, change.position.y, velocity.x, velocity.y))
+                        motion.touch(painter.rate(velocity.x, velocity.y))
                         change.consume()
                     } while (change.pressed)
                 }
@@ -181,19 +219,29 @@ private fun TurningWheel(look: WheelLook, modifier: Modifier) {
     }
 }
 
-/** The mantra, the form, the two colours and the way to the wallpaper. */
+/** The way to the wheel alone, the mantra, the form, the two colours and the way to the wallpaper. */
 @Composable
-private fun Options(settings: WheelSettings, onChange: () -> Unit, modifier: Modifier) {
+private fun Options(settings: WheelSettings, onChange: () -> Unit, onAlone: () -> Unit, modifier: Modifier) {
     val context = LocalContext.current
     var mantra by remember { mutableStateOf(settings.mantra) }
     var form by remember { mutableStateOf(settings.form) }
     var script by remember { mutableStateOf(settings.script) }
     var ground by remember { mutableStateOf(settings.ground) }
     var editingOwn by remember { mutableStateOf(false) }
+    var keepOn by remember { mutableStateOf(settings.keepScreenOn) }
     Column(
         modifier.verticalScroll(rememberScrollState()).padding(top = 12.dp, bottom = 32.dp),
         verticalArrangement = Arrangement.spacedBy(4.dp),
     ) {
+        Column(Modifier.padding(horizontal = 24.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Pill(stringResource(R.string.wheel_alone), Palette.saffron, onAlone)
+            Text(stringResource(R.string.wheel_alone_note), style = body.copy(fontSize = 13.sp, lineHeight = 19.sp, color = Palette.faint))
+        }
+        Toggle(stringResource(R.string.wheel_keep_on), stringResource(R.string.wheel_keep_on_subtitle), keepOn) {
+            keepOn = it
+            settings.keepScreenOn = it
+        }
+        Separator()
         SectionLabel(stringResource(R.string.wheel_section_mantra))
         Box(Modifier.padding(horizontal = 24.dp, vertical = 8.dp)) {
             Choice(null, MANTRA_NAMES.map { (m, name) -> m to stringResource(name) }, mantra) {

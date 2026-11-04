@@ -709,7 +709,7 @@ private fun Days(days: Set<DayOfWeek>, onChange: (Set<DayOfWeek>) -> Unit) {
 
 /** A title and subtitle with a switch, as in the menu. */
 @Composable
-private fun Toggle(title: String, subtitle: String, checked: Boolean, onChange: (Boolean) -> Unit) {
+internal fun Toggle(title: String, subtitle: String, checked: Boolean, onChange: (Boolean) -> Unit) {
     Row(
         modifier = Modifier
             .fillMaxWidth()

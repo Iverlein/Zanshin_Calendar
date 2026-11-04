@@ -1357,10 +1357,14 @@
     <string name="wheel_color_indigo">Индиго</string>
     <string name="wheel_color_forest">Лесной</string>
     <string name="wheel_color_umber">Умбра</string>
+    <string name="wheel_alone">Только колесо</string>
+    <string name="wheel_alone_note">Колесо занимает весь экран, и больше на нём ничего нет; «назад» возвращает сюда.</string>
+    <string name="wheel_keep_on">Не гасить экран</string>
+    <string name="wheel_keep_on_subtitle">Пока на экране только колесо</string>
     <string name="wheel_set_wallpaper">Поставить на обои</string>
     <string name="wheel_wallpaper_note">Обои показывают то, что выбрано здесь, и ускоряются от касания главного экрана.</string>
     <!-- the wheel in the system's list of live wallpapers -->
-    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; взмах пальцем ускоряет её. Выбирается в Zanshin, в разделе «Практика».</string>
+    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; любое касание ускоряет её. Выбирается в Zanshin, в разделе «Практика».</string>
     <!-- describes the turning wheel for screen readers -->
-    <string name="desc_wheel">Молитвенное колесо, вращается медленно; взмах пальцем ускоряет его</string>
+    <string name="desc_wheel">Молитвенное колесо, вращается медленно; любое касание ускоряет его</string>
 </resources>
