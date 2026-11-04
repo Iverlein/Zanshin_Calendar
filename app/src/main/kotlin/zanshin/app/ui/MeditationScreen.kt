@@ -5,9 +5,11 @@
 package zanshin.app.ui
 
 import android.Manifest
+import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.SystemClock
+import android.view.WindowManager
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Canvas
@@ -131,8 +133,10 @@ fun MeditationScreen(onBack: () -> Unit) {
     LaunchedEffect(sitting) { if (sitting != null && settings.keepScreenOn) awake = true }
     val view = LocalView.current
     DisposableEffect(view, awake) {
-        view.keepScreenOn = awake
-        onDispose { view.keepScreenOn = false }
+        // The window's flag, not view.keepScreenOn: that one stays set if the app was left and come back to meanwhile.
+        val window = (view.context as Activity).window
+        if (awake) window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        onDispose { window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON) }
     }
 
     Column(
