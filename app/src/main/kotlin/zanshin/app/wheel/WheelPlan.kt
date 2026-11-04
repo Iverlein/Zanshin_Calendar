@@ -56,17 +56,20 @@ enum class WheelMantra(val text: String?) {
 data class WheelLook(val text: String, val form: WheelForm, val script: Int, val ground: Int)
 
 /**
- * The turning (SPEC §10.12): [angle] runs on at [speed], which eases back to the slow turn. Nothing holds the wheel
- * back or turns it back: every touch quickens it, whichever way the finger goes.
+ * The turning (SPEC §10.12): [angle] runs on at [speed], which eases back to the slow turn. Only a finger [held] on it
+ * stops it, and letting go leaves it at the slow turn; it never runs backwards.
  */
 class WheelMotion {
     var angle = 0.0
         private set
     var speed = REST
         private set
+    var held = false
+        private set
 
     /** Moves the wheel on by [seconds]; a long gap, the screen having been away, counts as one short step. */
     fun step(seconds: Double) {
+        if (held) return
         val dt = seconds.coerceIn(0.0, MAX_STEP)
         speed = REST + (speed - REST) * exp(-dt / EASE)
         angle = (angle + speed * dt) % TURN
@@ -77,9 +80,23 @@ class WheelMotion {
         speed = max(speed, min(abs(rate), MAX))
     }
 
-    /** A touch that carries no speed of its own, a tap or a finger coming down: added to the speed, so that taps add up. */
+    /** A touch that carries no speed of its own, a tap or the home button: added to the speed, so that taps add up. */
     fun nudge() {
         speed = min(speed + NUDGE, MAX)
+    }
+
+    /** Stops the wheel where it stands, until [letGo]. */
+    fun hold() {
+        held = true
+        speed = 0.0
+    }
+
+    /** Lets a held wheel go, at the slow turn. */
+    fun letGo() {
+        if (held) {
+            held = false
+            speed = REST
+        }
     }
 
     companion object {
@@ -101,6 +118,58 @@ class WheelMotion {
         /** The turning a finger's velocity gives a wheel of [radius], in any direction. */
         fun fingerRate(velocityX: Float, velocityY: Float, radius: Float): Double =
             if (radius > 0) hypot(velocityX.toDouble(), velocityY.toDouble()) / radius else 0.0
+    }
+}
+
+/**
+ * One finger on the wheel, told apart by what it does (SPEC §10.12): lifted at once it is a tap, which [WheelMotion.nudge]s;
+ * resting for [HOLD] seconds it holds the wheel until it lifts; moved past [slop] pixels it is a swipe, which brings the wheel
+ * up to its speed, also out of a hold.
+ */
+class WheelFinger(private val motion: WheelMotion, private val slop: Float) {
+    private var pressed = false
+    private var swiping = false
+    private var startX = 0f
+    private var startY = 0f
+    private var rested = 0.0
+
+    fun down(x: Float, y: Float) {
+        pressed = true
+        swiping = false
+        startX = x
+        startY = y
+        rested = 0.0
+    }
+
+    /** The finger at (x, y), moving at [rate] radians a second by [WheelPainter.rate]. */
+    fun move(x: Float, y: Float, rate: Double) {
+        if (!pressed) return
+        if (!swiping) {
+            if (hypot(x - startX, y - startY) < slop) return
+            swiping = true
+            motion.letGo()
+            motion.nudge()
+        }
+        motion.touch(rate)
+    }
+
+    /** Called with each frame's [seconds], before [WheelMotion.step]. */
+    fun step(seconds: Double) {
+        if (!pressed || swiping || motion.held) return
+        rested += seconds
+        if (rested >= HOLD) motion.hold()
+    }
+
+    /** The finger lifted, or lost to the system; safe to call when none is down. */
+    fun up() {
+        if (!pressed) return
+        pressed = false
+        if (motion.held) motion.letGo() else if (!swiping) motion.nudge()
+    }
+
+    companion object {
+        /** Longer than a tap, shorter than the system's long press. */
+        const val HOLD = 0.3
     }
 }
 

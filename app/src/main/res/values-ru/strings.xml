@@ -1364,7 +1364,7 @@
     <string name="wheel_set_wallpaper">Поставить на обои</string>
     <string name="wheel_wallpaper_note">Обои показывают то, что выбрано здесь, и ускоряются от касания главного экрана.</string>
     <!-- the wheel in the system's list of live wallpapers -->
-    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; любое касание ускоряет её. Выбирается в Zanshin, в разделе «Практика».</string>
+    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; касание или взмах ускоряет её, удержание пальца останавливает. Выбирается в Zanshin, в разделе «Практика».</string>
     <!-- describes the turning wheel for screen readers -->
-    <string name="desc_wheel">Молитвенное колесо, вращается медленно; любое касание ускоряет его</string>
+    <string name="desc_wheel">Молитвенное колесо, вращается медленно; касание или взмах ускоряет его, удержание пальца останавливает</string>
 </resources>

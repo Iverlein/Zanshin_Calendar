@@ -5,6 +5,7 @@
 package zanshin.app.wheel
 
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 import kotlin.math.hypot
@@ -31,7 +32,7 @@ class WheelTest {
     }
 
     @Test
-    fun `a finger either way quickens it, and nothing slows or turns it back`() {
+    fun `a finger either way raises the speed and never lowers it or turns it back`() {
         val motion = WheelMotion()
         motion.touch(-5.0)
         assertEquals(5.0, motion.speed, 1e-9, "against the turning counts as with it")
@@ -63,6 +64,73 @@ class WheelTest {
         motion.touch(5.0)
         motion.touch(1.0)
         assertEquals(5.0, motion.speed, 1e-9)
+    }
+
+    private fun rest(finger: WheelFinger, motion: WheelMotion, seconds: Double) = repeat((seconds * 60).toInt()) {
+        finger.step(1.0 / 60)
+        motion.step(1.0 / 60)
+    }
+
+    @Test
+    fun `a finger resting holds the wheel, and letting go leaves it at the slow turn`() {
+        val motion = WheelMotion()
+        motion.touch(WheelMotion.MAX)
+        val finger = WheelFinger(motion, 10f)
+        finger.down(100f, 100f)
+        rest(finger, motion, 0.5)
+        assertTrue(motion.held)
+        assertEquals(0.0, motion.speed, 0.0)
+        val stood = motion.angle
+        finger.move(103f, 102f, 50.0)
+        rest(finger, motion, 2.0)
+        assertEquals(stood, motion.angle, 0.0, "a finger's tremble does not free it")
+        finger.up()
+        assertFalse(motion.held)
+        assertEquals(WheelMotion.REST, motion.speed, 0.0)
+        motion.step(0.05)
+        assertTrue(motion.angle > stood)
+    }
+
+    @Test
+    fun `a quick tap quickens a little and does not hold`() {
+        val motion = WheelMotion()
+        val finger = WheelFinger(motion, 10f)
+        finger.down(100f, 100f)
+        rest(finger, motion, 0.1)
+        finger.up()
+        assertFalse(motion.held)
+        assertTrue(motion.speed > WheelMotion.NUDGE)
+        assertTrue(motion.speed < WheelMotion.MAX / 4)
+    }
+
+    @Test
+    fun `a swipe speeds it either way, also out of a hold`() {
+        for (rate in listOf(9.0, -9.0)) {
+            val motion = WheelMotion()
+            val finger = WheelFinger(motion, 10f)
+            finger.down(100f, 100f)
+            rest(finger, motion, 0.5)
+            assertTrue(motion.held)
+            finger.move(200f, 100f, rate)
+            assertFalse(motion.held)
+            assertEquals(9.0, motion.speed, 1e-9)
+            rest(finger, motion, 1.0)
+            assertFalse(motion.held, "a finger stopped after a swipe does not hold")
+            finger.up()
+            assertTrue(motion.speed > WheelMotion.REST)
+        }
+    }
+
+    @Test
+    fun `a finger lost to the system never leaves the wheel held`() {
+        val motion = WheelMotion()
+        val finger = WheelFinger(motion, 10f)
+        finger.down(0f, 0f)
+        rest(finger, motion, 0.5)
+        finger.up()
+        finger.up()
+        assertFalse(motion.held)
+        assertEquals(WheelMotion.REST, motion.speed, 0.0)
     }
 
     @Test

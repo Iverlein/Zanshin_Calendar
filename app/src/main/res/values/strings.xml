@@ -1511,7 +1511,7 @@
     <string name="wheel_set_wallpaper">Set as wallpaper</string>
     <string name="wheel_wallpaper_note">The wallpaper carries what is chosen here, and speeds up at a touch on the home screen.</string>
     <!-- the wheel in the system's list of live wallpapers -->
-    <string name="wheel_wallpaper_description">A mantra turning slowly by itself; any touch speeds it. Chosen in Zanshin, under Practice.</string>
+    <string name="wheel_wallpaper_description">A mantra turning slowly by itself; a tap or a swipe speeds it, a held finger holds it. Chosen in Zanshin, under Practice.</string>
     <!-- describes the turning wheel for screen readers -->
-    <string name="desc_wheel">A prayer wheel, turning slowly; any touch speeds it</string>
+    <string name="desc_wheel">A prayer wheel, turning slowly; a tap or a swipe speeds it, a held finger holds it</string>
 </resources>

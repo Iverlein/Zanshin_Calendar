@@ -61,6 +61,7 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.input.pointer.util.VelocityTracker
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.platform.LocalViewConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -73,6 +74,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import io.github.iverlein.zanshin.R
+import zanshin.app.wheel.WheelFinger
 import zanshin.app.wheel.WheelForm
 import zanshin.app.wheel.WheelGround
 import zanshin.app.wheel.WheelLook
@@ -175,18 +177,24 @@ private fun WheelAlone(look: WheelLook, motion: WheelMotion, keepOn: Boolean, on
     TurningWheel(look, motion, Modifier.fillMaxSize())
 }
 
-/** The wheel on its ground, turning while the screen is seen; every touch quickens it. */
+/** The wheel on its ground, turning while the screen is seen; a finger acts on it as [WheelFinger] tells. */
 @Composable
 private fun TurningWheel(look: WheelLook, motion: WheelMotion, modifier: Modifier) {
     val context = LocalContext.current
     val painter = remember { WheelPainter(context) }
+    val slop = LocalViewConfiguration.current.touchSlop
+    val finger = remember(motion) { WheelFinger(motion, slop) }
     var frame by remember { mutableLongStateOf(0L) }
     DisposableEffect(painter) { onDispose { painter.release() } }
     LaunchedEffect(motion) {
         var last = 0L
         while (true) {
             withFrameNanos { now ->
-                if (last != 0L) motion.step((now - last) / 1e9)
+                if (last != 0L) {
+                    val seconds = (now - last) / 1e9
+                    finger.step(seconds)
+                    motion.step(seconds)
+                }
                 last = now
                 frame = now
             }
@@ -200,17 +208,22 @@ private fun TurningWheel(look: WheelLook, motion: WheelMotion, modifier: Modifie
             .pointerInput(painter) {
                 awaitEachGesture {
                     val down = awaitFirstDown(requireUnconsumed = false)
-                    motion.nudge()
+                    finger.down(down.position.x, down.position.y)
                     val tracker = VelocityTracker()
                     tracker.addPosition(down.uptimeMillis, down.position)
-                    do {
-                        val event = awaitPointerEvent()
-                        val change = event.changes.firstOrNull { it.id == down.id } ?: break
-                        tracker.addPosition(change.uptimeMillis, change.position)
-                        val velocity = tracker.calculateVelocity()
-                        motion.touch(painter.rate(velocity.x, velocity.y))
-                        change.consume()
-                    } while (change.pressed)
+                    try {
+                        do {
+                            val event = awaitPointerEvent()
+                            val change = event.changes.firstOrNull { it.id == down.id } ?: break
+                            tracker.addPosition(change.uptimeMillis, change.position)
+                            val velocity = tracker.calculateVelocity()
+                            finger.move(change.position.x, change.position.y, painter.rate(velocity.x, velocity.y))
+                            change.consume()
+                        } while (change.pressed)
+                    } finally {
+                        // Also when the screen goes with the finger still down: a wheel is never left held.
+                        finger.up()
+                    }
                 }
             },
     ) {

@@ -4,6 +4,10 @@
 
 package zanshin.app.wheel
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
 import android.content.SharedPreferences
 import android.graphics.Canvas
 import android.os.SystemClock
@@ -12,11 +16,13 @@ import android.view.Choreographer
 import android.view.MotionEvent
 import android.view.SurfaceHolder
 import android.view.VelocityTracker
+import android.view.ViewConfiguration
+import androidx.core.content.ContextCompat
 
 /**
  * The prayer wheel as a live wallpaper (SPEC §10.12): the screen's wheel on the home screen, with its settings. It draws
- * only while seen, thirty frames a second at the slow turn; a finger on the home screen, the turning of its pages and
- * coming back to it each quicken it.
+ * only while seen, thirty frames a second at the slow turn. A finger on the home screen acts as on the screen's wheel,
+ * the turning of its pages speeds it, and the home button quickens it a little.
  */
 class WheelWallpaper : WallpaperService() {
     override fun onCreateEngine(): Engine = WheelEngine()
@@ -25,6 +31,7 @@ class WheelWallpaper : WallpaperService() {
         private val settings = WheelSettings(this@WheelWallpaper)
         private val painter = WheelPainter(this@WheelWallpaper)
         private val motion = WheelMotion()
+        private val finger = WheelFinger(motion, ViewConfiguration.get(this@WheelWallpaper).scaledTouchSlop.toFloat())
         private var look = settings.look
         private var width = 0
         private var height = 0
@@ -36,14 +43,28 @@ class WheelWallpaper : WallpaperService() {
         private var lastOffset = Float.NaN
         private var lastOffsetAt = 0L
 
+        /** The home button pressed on the home screen itself, which tells the wallpaper nothing else. */
+        private val homeButton = object : BroadcastReceiver() {
+            override fun onReceive(context: Context, intent: Intent) {
+                if (seen && intent.getStringExtra("reason") == "homekey") motion.nudge()
+            }
+        }
+
         override fun onCreate(surfaceHolder: SurfaceHolder) {
             super.onCreate(surfaceHolder)
             setTouchEventsEnabled(true)
             settings.prefs.registerOnSharedPreferenceChangeListener(this)
+            ContextCompat.registerReceiver(
+                this@WheelWallpaper,
+                homeButton,
+                IntentFilter(Intent.ACTION_CLOSE_SYSTEM_DIALOGS),
+                ContextCompat.RECEIVER_NOT_EXPORTED,
+            )
         }
 
         override fun onDestroy() {
             stop()
+            unregisterReceiver(homeButton)
             settings.prefs.unregisterOnSharedPreferenceChangeListener(this)
             tracker?.recycle()
             tracker = null
@@ -74,6 +95,7 @@ class WheelWallpaper : WallpaperService() {
                 motion.nudge()
                 start()
             } else {
+                finger.up()
                 stop()
             }
         }
@@ -81,16 +103,17 @@ class WheelWallpaper : WallpaperService() {
         override fun onTouchEvent(event: MotionEvent) {
             when (event.actionMasked) {
                 MotionEvent.ACTION_DOWN -> {
-                    motion.nudge()
+                    finger.down(event.x, event.y)
                     tracker?.recycle()
                     tracker = VelocityTracker.obtain().also { it.addMovement(event) }
                 }
                 MotionEvent.ACTION_MOVE -> tracker?.let {
                     it.addMovement(event)
                     it.computeCurrentVelocity(1000)
-                    motion.touch(painter.rate(it.xVelocity, it.yVelocity))
+                    finger.move(event.x, event.y, painter.rate(it.xVelocity, it.yVelocity))
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    finger.up()
                     tracker?.recycle()
                     tracker = null
                 }
@@ -111,7 +134,11 @@ class WheelWallpaper : WallpaperService() {
         override fun doFrame(frameTimeNanos: Long) {
             if (!seen) return
             val now = SystemClock.uptimeMillis()
-            if (lastFrame != 0L) motion.step((now - lastFrame) / 1000.0)
+            if (lastFrame != 0L) {
+                val seconds = (now - lastFrame) / 1000.0
+                finger.step(seconds)
+                motion.step(seconds)
+            }
             lastFrame = now
             if (motion.speed > WheelMotion.REST * 4 || now - lastDrawn >= SLOW_FRAME_MILLIS) {
                 lastDrawn = now
