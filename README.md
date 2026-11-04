@@ -87,8 +87,8 @@ readings of that day and sunrise, solar noon and sunset for your place.
   synthesised on the phone, so no sound file is bundled.
 - **Prayer wheel:** a mantra in Tibetan script alone, seven to choose
   from or a line of your own, on a drum or a ring in the colours you
-  choose, turning slowly by itself; every touch quickens it, and nothing
-  slows it. Shown alone on the whole screen if you wish, the screen kept on
+  choose, turning slowly by itself; a tap quickens it a bit, a swipe a lot,
+  and a finger held on it holds it until released. Shown alone on the whole screen if you wish, the screen kept on
   if you ask. Also a live wallpaper, the same wheel on the home screen.
 - Every Tibetan term and kanji shows its English on tap; every reading comes
   from a published source, listed in About & sources.

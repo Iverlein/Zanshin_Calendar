@@ -44,7 +44,7 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 
 <b>Prayer wheel</b>
 <ul>
-<li>A mantra in Tibetan script alone, turning slowly by itself: every touch quickens it, and nothing slows it</li>
+<li>A mantra in Tibetan script alone, turning slowly by itself: a tap quickens it a bit, a swipe a lot, and a finger held on it holds it until released</li>
 <li>Seven mantras to choose from, or a line of your own</li>
 <li>A drum seen from the side or a ring seen from above, in the colours you choose</li>
 <li>Only the wheel: it alone on the whole screen, with the screen kept on if you ask</li>

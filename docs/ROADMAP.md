@@ -2180,12 +2180,14 @@ The owner's request of 2026-11-04, after an old live wallpaper no longer
 offered on current Android: a screen in the Practice group and a live
 wallpaper, one painter for both. Its forms and colours (the owner's
 answers the same day): both a drum and a ring, the colours to choose;
-several mantras, not one; a slow turn by itself that any touch quickens.
-The owner first chose that a finger against it should only brake it, and
-reversed that the same day, once it stood on the phone: a tap on the home
-screen or a page swipe stopped the wheel, "ideologically and logically
-wrong". With that, a mode with only the wheel on the screen, and the option
-of keeping the screen on.
+several mantras, not one; a slow turn by itself. The owner first chose
+that a finger against it should only brake it, and reversed that the same
+day, once it stood on the phone: a tap on the home screen or a page swipe
+stopped the wheel, "ideologically and logically wrong". With that, a mode
+with only the wheel on the screen, and the option of keeping the screen on.
+Then, tried on the phone again, the final shape: tap and hold holds the
+wheel, release lets it rotate slowly, the home button and a tap accelerate
+it a bit, a swipe left or right a lot.
 
 - **Checked on the emulator** (Android 17): both forms and every mantra
   in English and Russian, an own line, font scale 2.0 and landscape in both,
@@ -2194,12 +2196,12 @@ of keeping the screen on.
   (3.6 rad/s) and a page swipe (the most, 12.5 rad/s), no frames while an
   app covers it, a change of colours reaching it at once. `WheelTest`
   holds the turning, the layout and the colours' contrast.
-- **Every touch quickens, only the wheel (built 2026-11-04), checked on
-  the emulator:** the speed logged for swipes left, right and down on the
-  screen (0.03 to over 1.2 turns a second each) and a tap (to 0.3); on the
-  wallpaper a tap, page swipes both ways, fast and slow, a small drag in
-  three directions, coming home from an app and five quick taps (to 1.3),
-  none below where it began. Only the wheel: no bars and no words on the
+- **Tap, swipe, hold and only the wheel (built 2026-11-04), checked on
+  the emulator:** the speed logged on the screen and the wallpaper alike:
+  a tap to 0.3 turns a second, swipes left and right to over 1.1, a hold of
+  2 s at 0 for its length, also from a fast turn, and the slow turn (0.033)
+  on release; the home button to 0.3, from an app and on the home screen.
+  Only the wheel: no bars and no words on the
   screen, upright and on its side, back returning to the settings; the
   screen's flag set only with the option on, and gone after back, also
   after a turn of the phone and a trip to the home screen. That last case
