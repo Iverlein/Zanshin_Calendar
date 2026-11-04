@@ -595,10 +595,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/wbz-p98-bkra-ro.md](claims/wbz-p98-bkra-ro.md) | claim, note | P. 98's «bkra ngo» is «bkra ro» on the blocks | cites wbz:i768, wb.2:p97-100; feeds block-31 |
 | [claims/wbz-shi-sgab.md](claims/wbz-shi-sgab.md) | claim, note | The run of deaths is «sgab» on the Zhol blocks | cites wbz:i778, wbz:i784, wb.2:p104-105, wb.2:p107-108; feeds block-31 |
 | [claims/wbz-thirty-ban-de-sngags.md](claims/wbz-thirty-ban-de-sngags.md) | claim, note | The thirty's «ban de sngags pha» and «lnga 'dra» on the Taikhang | cites wbz:i605-607, wbz:i608-627, wb.1:p454-455, wb.1:p457-458; feeds block-31 |
+| [claims/wheel-mantras.md](claims/wheel-mantras.md) | claim, list | The mantras of the prayer wheel, as printed | cites wb.2:p128-129, lg:i42, lg:i63, lg:i103, mgz.6:p4, mgz.28:p182, mcw.32:p289, sk.13:p258, st:p92, ak:p268, bk.1:p613; feeds SPEC, §10.12 |
 | [claims/ys-particular-over-grouping.md](claims/ys-particular-over-grouping.md) | claim, rule | The regent: where the mansions' grouping and particular results disagree, the particular leads | cites ys.2:i049; feeds T2.26 |
 | [claims/za-ma-the-hour.md](claims/za-ma-the-hour.md) | claim, definition | Za ma, beside the day, is the hour | cites lt:p12, lt:p14, lt:p43-44, dz:i051-052, wb.1:p445; feeds block-32 |
 | [claims/zg-meadow-five-totals.md](claims/zg-meadow-five-totals.md) | claim, note | ZG gathers the meadow's verdicts into five totals by domain | cites zg:p300-301; feeds block-31 |
 | [claims/zg-nyer-tham-is-twenty.md](claims/zg-nyer-tham-is-twenty.md) | claim, note | ZG's «ཉེར་ཐམ» is twenty: each of the meadow's three years is 120 | cites zg:p300-301, dz:i050, wb.2:p22, lt:p27-29; feeds block-31 |
+| [corpus/ak/ak.md](corpus/ak/ak.md) | corpus | AK, the A kho ris recitation collection | 1 passages: 1 scan |
+| [corpus/bk/bk.md](corpus/bk/bk.md) | corpus | BK, Gter chen bdud klong zung gi gter byon smin byed | 1 passages: 1 scan |
 | [corpus/bsb/bsb.md](corpus/bsb/bsb.md) | corpus | BSB, Bod spyi bshad: the rites of building a house | 1 passages: 1 etext |
 | [corpus/dz/dz.md](corpus/dz/dz.md) | corpus | DZ, Dharmaśrī's *Moonbeams*: the thirty, the household round, the birth's hundred, the sick and the dead | 11 passages: 11 scan |
 | [corpus/kd/v1-almanac.md](corpus/kd/v1-almanac.md) | corpus | KD vol. 1, Tshul khrims rgyal mtshan's account of the almanac | 2 passages: 2 etext |
@@ -608,14 +611,19 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [corpus/kd/v5-colophon.md](corpus/kd/v5-colophon.md) | corpus | KD vol. 5: the Tibetan and the Chinese colophon | 1 passages: 1 scan |
 | [corpus/kp/kp.md](corpus/kp/kp.md) | corpus | KP, the *Kun phan me long*: its prose | 1 passages: 1 scan |
 | [corpus/lcm/lcm.md](corpus/lcm/lcm.md) | corpus | LCM, Longchenpa's Dispelling the Darkness: the rite of the ground | 1 passages: 1 etext |
+| [corpus/lg/lg.md](corpus/lg/lg.md) | corpus | LG, Mipham's hundred mantras (Las sgrib rgyun gcod kyi sngags brgya pa) | 3 passages: 3 scan |
 | [corpus/lt/ch-marriage.md](corpus/lt/ch-marriage.md) | corpus | LT, the marriage reckoning: the road of the bride's going | 1 passages: 1 scan |
 | [corpus/lt/ch1-elements.md](corpus/lt/ch1-elements.md) | corpus | LT, the first branch: the elements, the years and the mewa | 1 passages: 1 scan |
 | [corpus/lt/ch4-birth.md](corpus/lt/ch4-birth.md) | corpus | LT, the fourth branch: the life reckoning's practice | 4 passages: 1 scan, 3 etext |
 | [corpus/lt/ch8-small-reckonings.md](corpus/lt/ch8-small-reckonings.md) | corpus | LT, the eighth branch: the small reckonings, the thirty and the circles | 1 passages: 1 scan |
 | [corpus/lt/lt.md](corpus/lt/lt.md) | corpus | LT, the year's and the sick's reckonings: the preliminaries and the nineteen | 9 passages: 8 scan, 1 machine |
+| [corpus/mcw/mcw.md](corpus/mcw/mcw.md) | corpus | MCW, Mipham's Collected Works, Chengdu | 1 passages: 1 scan |
+| [corpus/mgz/mgz.md](corpus/mgz/mgz.md) | corpus | MGZ, Mi pham gsung 'bum las gzhung 'grel skor | 2 passages: 2 scan |
 | [corpus/mta/mta.md](corpus/mta/mta.md) | corpus | MTA, the Men-Tsee-Khang's almanac of the iron dragon year (2000) | 1 passages: 1 scan |
 | [corpus/sdp/sdp.md](corpus/sdp/sdp.md) | corpus | SDP, Sādhuputra's Kālacakra maṇḍala rite: the rite of the ground | 1 passages: 1 etext |
+| [corpus/sk/sk.md](corpus/sk/sk.md) | corpus | SK, Sgrub thabs rin po che kun las btus pa | 1 passages: 1 scan |
 | [corpus/sn/sn.md](corpus/sn/sn.md) | corpus | SN, the Bon *Mirror of Appearance and Existence*: the household round | 1 passages: 1 scan |
+| [corpus/st/st.md](corpus/st/st.md) | corpus | ST, the Four Tantras, Serthang edition | 1 passages: 1 scan |
 | [corpus/sy/sy.md](corpus/sy/sy.md) | corpus | SY, Nam mkha' seng ge's *Mirror*: the results of the star chart | 1 passages: 1 scan |
 | [corpus/ut/ch1-results.md](corpus/ut/ch1-results.md) | corpus | UT, the first part: the particular examination of the pebbles | 2 passages: 2 etext |
 | [corpus/ut/ch4-karma.md](corpus/ut/ch4-karma.md) | corpus | UT, the third part's fourth chapter: the golden rosary of rise and decline, the karma reckoning | 2 passages: 2 etext |
@@ -1080,6 +1088,17 @@ work for its facts only, never its wording):
 | **GD** | Gyurme Dorje, *Tibetan Elemental Divination Paintings* (2001); cited as "Gyurme Dorje, p. N" | — |
 | **LT** | Lha mo tshul khrims, *Nag rtsis rdel 'grem 'bras bshad* (2003), a manual of laying the pebbles and their results; facts only | BDRC MW1KG21818, etext IE0OPI9C5B1B35 (printed page = etext page − 8) |
 | **UT** | Dge rtse 'Gyur med bstan pa'i rnam rgyal, *'Byung rtsis dpyad don rmad byung ut+pal sngon po'i do shal*, ed. Dpal bsdus (Mi rigs dpe skrun khang); facts only | BDRC MW25167, etext IE0OPI6328F058 (printed page = etext page − 22) |
+
+The prints read for the mantras of the prayer wheel ([claims/wheel-mantras.md](claims/wheel-mantras.md)):
+
+| Siglum | Work | Access |
+| --- | --- | --- |
+| **LG** | Ju Mipham, *Las sgrib rgyun gcod kyi sngags brgya pa*, his hundred mantras, woodblock print | BDRC MW27938, scans I4530 |
+| **MGZ** | *Mi pham gsung 'bum las gzhung 'grel skor*, Chengdu 2008, 33 vols, cited by volume | BDRC MW1PD76231, scans I1PD84565 (vol. 6), I1PD84587 (vol. 28) |
+| **MCW** | Ju Mipham's Collected Works, Chengdu, 32 vols, cited by volume | BDRC MW2DB16631, scans I1PD34678 (vol. 32) |
+| **SK** | *Sgrub thabs rin po che kun las btus pa*, Chengdu 2015, 14 vols, cited by volume | BDRC MW3CN3381, scans I3CN20893 (vol. 13) |
+| **AK** | *Mdo chen a kho ris thub bstan nyi shar gling gi zhal 'don phyogs bsgrigs* | BDRC MW2PD19997, scans I2PD20007 |
+| **BK** | *Gter chen bdud klong zung gi gter byon smin byed thams cad chu 'babs su bkod pa*, 4 vols, cited by volume | BDRC MW3CN7543, scans I3CN7545 (vol. 1) |
 
 The machine-readable registry of every siglum (identifiers, volumes, page-to-image
 offsets, chapters, licence, rank, role) is [sources.yaml](sources.yaml); the two

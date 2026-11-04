@@ -1369,3 +1369,8 @@ Searched and found wanting, so not to be repeated:
 - **RD154** (RD154, 2026-11-03):
   - 2026-11-03, «མོ་བརྒྱུད་རྨང» in BDRC's full-text search: 1 hit, WB's own Gser thang etext (I3CN5029); no text repeats or glosses the line; «རྡེལ་སྨད» has 3 hits, all WB's colour pair, none gives a sense for «རྨང».
   - 2026-11-03, «སྤོས་གྲི་རྒོད» and «ལྷོག་པ་སྤོས་གྲི» in BDRC's full-text search: 0 hits.
+- **The prayer wheel's mantras** (2026-11-04):
+  - 2026-11-04, WB's etext, both volumes with Mipham's notes, for the six mantras of claims/wheel-mantras.md other than Mañjuśrī's: none is printed whole. WB has the fragment «མ་ཎི་པདྨེ» (vol. 2, etext p. 263, «to be drawn at the wall's corners»), the six syllables by name (etext p. 78), and the hearts of White Tārā (vol. 1, etext p. 381) and Vajrapāṇi (vol. 2, etext p. 175) by name.
+  - 2026-11-04, BDRC's full-text search filtered to Mipham (the results page's Author facet; the URL takes `&author[0]=P252`): no hit for ཨོཾ་བཛྲ་པཱ་ཎི་ཧཱུྃ་ཕཊ; the only hit for the Medicine Buddha's mantra is the anthology MW2DB4624, of many authors, search-only. The Hundred Mantras has no Medicine Buddha mantra and no ཨོཾ་ཨཱཿཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ: its guru mantra is another one, etext p. 668 of the reset copy.
+  - 2026-11-04, the Rin chen gter mdzod (MW1KG14) was not used: its etext is unaligned, its [pN] marks count paragraphs and not images, so a hit does not give a page. Prints with an image group in the etext's id (VE…_I…) mostly have marks that are images (the next line is an exception).
+  - 2026-11-04, the Sde dge gzungs bsdus (I1KG9227) was not reached: its etext's page 177 is not image 177, and the Medicine Buddha mantra (etext «མུཏྒ») was not found on img. 177–178.

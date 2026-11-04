@@ -380,3 +380,84 @@ sll:
   rank: 3
   role: witness
   notes: "printed page = etext page − 7 (p. 414 = etext p. 421); the line at character 646 102"
+
+# The mantras of the prayer wheel (claims/wheel-mantras.md, SPEC §10.12). WB names these
+# mantras and does not print them (PLAN.md, *Dead ends*), so Mipham comes first, then the
+# Four Tantras (ST) on the Medicine Buddha, then other open-access prints.
+lg:
+  title: "Las sgrib rgyun gcod kyi sngags brgya pa (the hundred mantras that cut the stream of karmic obscurations)"
+  author: "'Ju Mi pham 'jam dbyangs rnam rgyal rgya mtsho"
+  edition: "woodblock print, [India], 154 images"
+  bdrc: {work: MW27938, etext: VEIE0OPI213E41A5_I4530, scans: [I4530]}
+  licence: public-domain
+  rank: 2
+  role: source
+  locator: image
+  notes: "3872 px, bi-level, one folio side an image; the blocks worn in places (img. 90, the Śākyamuni mantra, is read on mgz.6:p4 instead); its etext is a poor OCR, good only for finding a page. A clean reset of the work, whose scans are on archive.org only, is in the Bka' ma shin tu rgyas pa (MW1PD100944_F9CEF8, etext VEIE0OPI48DFFA46_I1PD106522, etext pp. 597–690): it finds a sentence, and it prints ཧཱུཾ where these blocks have ཧཱུྃ"
+
+mgz:
+  title: "Mi pham gsung 'bum las gzhung 'grel skor"
+  author: "'Ju Mi pham 'jam dbyangs rnam rgyal rgya mtsho"
+  edition: "'Jam dpal dhI yig ser po'i dpe skrun tshogs pa, Khreng tu'u 2008, 33 vols (typeset)"
+  bdrc: {work: MW1PD76231, etext: IE0OPI08B0BB3C}
+  licence: public-domain
+  rank: 2
+  role: source
+  volumes:
+    6:
+      scan: I1PD84565
+      image_offset: 8
+      notes: "Thub chog byin rlabs gter mdzod at the head of the volume"
+    28:
+      scan: I1PD84587
+      image_offset: 8
+      notes: "the commentary on the Kālacakra sādhana chapter, Dus 'khor sgrub thabs le'u'i 'grel ba"
+
+mcw:
+  title: "Gsung 'bum, Mi pham rgya mtsho (Collected Works)"
+  author: "'Ju Mi pham 'jam dbyangs rnam rgyal rgya mtsho"
+  edition: "Chengdu, 32 vols (typeset)"
+  bdrc: {work: MW2DB16631, etext: IE0OPI814E11F4}
+  licence: public-domain
+  rank: 2
+  role: source
+  volumes:
+    32:
+      scan: I1PD34678
+      image_offset: 12
+      notes: "Rdo rje'i tshig bdun dang 'brel ba'i tshogs mchod dpal gyi bum bzang, img. 300–301"
+  notes: "search only (the etext API answers 403); the same edition as PLAN.md's Chengdu print of the Nag rtsis brjed byang, vol. 1, I1PD34647"
+
+sk:
+  title: "Sgrub thabs rin po che kun las btus pa"
+  edition: "Si khron zhing chen bod yig dpe rnying bsdu sgrig khang, Khren tu'u 2015, 14 vols (typeset)"
+  bdrc: {work: MW3CN3381, etext: IE0OPI4A5C41A6}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    13:
+      scan: I3CN20893
+      image_offset: 9
+      notes: "p. 258: 'Jam dbyangs mkhyen brtse'i dbang po's prayer to Padmasambhava, Bsam don myur 'grub"
+
+ak:
+  title: "Mdo chen a kho ris thub bstan nyi shar gling gi zhal 'don phyogs bsgrigs"
+  edition: "[s.l., s.n.], 488 pp. (typeset)"
+  bdrc: {work: MW2PD19997, etext: VEIE0OPIFAE16D6A_I2PD20007, scans: [I2PD20007]}
+  licence: public-domain
+  rank: 3
+  role: source
+  notes: "printed page = image − 4; p. 268 is in the Medicine Buddha rite Sman bla'i cho ga bai DUr+ya'i chu rgyun (title from the etext), whose colophon on p. 269 signs it རཱ་ག་ཨ་སྱ (rA ga a sya) and says it is drawn from the Gnam chos"
+
+bk:
+  title: "Gter chen bdud klong zung gi gter byon smin byed thams cad chu 'babs su bkod pa"
+  edition: "[s.l., s.n.], 4 vols (typeset)"
+  bdrc: {work: MW3CN7543, etext: IE0OPIB67ABB4B}
+  licence: public-domain
+  rank: 3
+  role: source
+  volumes:
+    1:
+      scan: I3CN7545
+      image_offset: 3
