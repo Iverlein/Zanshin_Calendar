@@ -3,6 +3,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Asked for only when "Use my location" is tapped; approximate is enough. -->
+    <uses-feature android:name="android.software.live_wallpaper" android:required="false" />
+
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -35,6 +37,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="zanshin.app.wheel.WheelWallpaper"
+            android:exported="true"
+            android:label="@string/wheel_title"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/wheel_wallpaper" />
+        </service>
 
         <service
             android:name="zanshin.app.bell.MeditationService"

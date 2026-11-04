@@ -1471,4 +1471,43 @@
     <string name="departure_election_title">The bride\'s going for you and your spouse</string>
     <string name="departure_election_note">The bride\'s going, its own reckoning beside the day\'s sides above: each day by the checks of its month and day. What holds over the whole year stands on the day page.</string>
     <string name="departure_cell">%1$s, %2$d of the Tibetan month: %3$s for the bride\'s going; bad by %4$s</string>
+    <!-- The prayer wheel (SPEC §10.12) -->
+    <string name="menu_wheel">Prayer wheel</string>
+    <string name="menu_wheel_subtitle">Turns by itself; also a live wallpaper</string>
+    <string name="wheel_title">Prayer wheel</string>
+    <string name="wheel_section_mantra">MANTRA</string>
+    <string name="wheel_section_look">LOOK</string>
+    <string name="wheel_mantra_mani">Avalokiteśvara</string>
+    <string name="wheel_mantra_vajra_guru">Padmasambhava</string>
+    <string name="wheel_mantra_tara">Tārā</string>
+    <string name="wheel_mantra_manjushri">Mañjuśrī</string>
+    <string name="wheel_mantra_vajrapani">Vajrapāṇi</string>
+    <string name="wheel_mantra_medicine">Medicine Buddha</string>
+    <string name="wheel_mantra_shakyamuni">Śākyamuni</string>
+    <string name="wheel_mantra_own">Your own</string>
+    <string name="wheel_own_title">Your own line</string>
+    <string name="wheel_own_hint">The words the wheel carries, in any script; empty for the first mantra.</string>
+    <string name="wheel_form">Form</string>
+    <string name="wheel_form_drum">Drum</string>
+    <string name="wheel_form_ring">Ring</string>
+    <string name="wheel_script">Script</string>
+    <string name="wheel_ground">Ground</string>
+    <string name="wheel_color_gold">Gold</string>
+    <string name="wheel_color_white">White</string>
+    <string name="wheel_color_red">Red</string>
+    <string name="wheel_color_green">Green</string>
+    <string name="wheel_color_blue">Blue</string>
+    <string name="wheel_color_turquoise">Turquoise</string>
+    <string name="wheel_color_black">Black</string>
+    <string name="wheel_color_ink">Ink</string>
+    <string name="wheel_color_maroon">Maroon</string>
+    <string name="wheel_color_indigo">Indigo</string>
+    <string name="wheel_color_forest">Forest</string>
+    <string name="wheel_color_umber">Umber</string>
+    <string name="wheel_set_wallpaper">Set as wallpaper</string>
+    <string name="wheel_wallpaper_note">The wallpaper carries what is chosen here, and speeds up at a touch on the home screen.</string>
+    <!-- the wheel in the system's list of live wallpapers -->
+    <string name="wheel_wallpaper_description">A mantra turning slowly by itself; a flick speeds it. Chosen in Zanshin, under Practice.</string>
+    <!-- describes the turning wheel for screen readers -->
+    <string name="desc_wheel">A prayer wheel, turning slowly; a flick speeds it</string>
 </resources>

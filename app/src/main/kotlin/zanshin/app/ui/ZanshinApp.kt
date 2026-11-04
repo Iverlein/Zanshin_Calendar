@@ -56,6 +56,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.Saver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
@@ -110,7 +111,10 @@ import java.time.LocalDate
 import java.time.LocalTime
 import java.time.ZoneId
 
-private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, HEALTH, RECKONINGS }
+private enum class Screen { DAYS, LOCATION, ABOUT, ELECTION, MEDITATION, WHEEL, HEALTH, RECKONINGS }
+
+/** The prayer wheel, which needs nothing else kept, stays open through a turn of the phone; every other screen gives way to the day. */
+private val ScreenSaver = Saver<Screen, Boolean>(save = { it == Screen.WHEEL }, restore = { if (it) Screen.WHEEL else Screen.DAYS })
 
 /** The app; [meditationRequests] counts the timer notification's taps, each showing the meditation screen. */
 @Composable
@@ -138,7 +142,7 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
     val notifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
     // Set while the people dialogs were opened by switching 九星気学 on.
     var kigakuPending by remember { mutableStateOf(false) }
-    var screen by remember { mutableStateOf(Screen.DAYS) }
+    var screen by rememberSaveable(stateSaver = ScreenSaver) { mutableStateOf(Screen.DAYS) }
     LaunchedEffect(meditationRequests) { if (meditationRequests > 0) screen = Screen.MEDITATION }
     var pickerOpen by remember { mutableStateOf(false) }
     // The election's work and the day it runs from (ROADMAP E2); a day it opens is shown when the pager is back.
@@ -309,6 +313,11 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
             ReadingWidth { MeditationScreen(onBack = { screen = Screen.DAYS }) }
             return
         }
+        Screen.WHEEL -> {
+            BackHandler { screen = Screen.DAYS }
+            WheelScreen(onBack = { screen = Screen.DAYS })
+            return
+        }
         Screen.HEALTH -> {
             BackHandler { screen = Screen.DAYS }
             ReadingWidth {
@@ -410,6 +419,10 @@ fun ZanshinApp(settings: Settings, cities: Cities, meditationRequests: Int = 0, 
                 onMeditation = {
                     scope.launch { drawer.close() }
                     screen = Screen.MEDITATION
+                },
+                onWheel = {
+                    scope.launch { drawer.close() }
+                    screen = Screen.WHEEL
                 },
                 openGroups = openGroups,
                 onGroup = { group, open ->
@@ -794,6 +807,7 @@ private fun SideMenu(
     onHealth: () -> Unit,
     onReckonings: () -> Unit,
     onMeditation: () -> Unit,
+    onWheel: () -> Unit,
     openGroups: Map<MenuGroup, Boolean>,
     onGroup: (MenuGroup, Boolean) -> Unit,
     onLocation: () -> Unit,
@@ -858,9 +872,10 @@ private fun SideMenu(
                 MenuRow(Icons.Pebbles, stringResource(R.string.menu_reckonings), stringResource(R.string.menu_reckonings_subtitle), onReckonings)
             }
             MenuSeparator()
-            // Practice: the meditation timer and the mindfulness bell, a screen of their own (SPEC §10.9).
+            // Practice: the meditation timer and the mindfulness bell (SPEC §10.9), the prayer wheel (§10.12).
             MenuGroupSection(MenuGroup.PRACTICE, stringResource(R.string.menu_practice), openGroups, onGroup) {
                 MenuRow(Icons.Bowl, stringResource(R.string.menu_meditation), stringResource(R.string.menu_meditation_subtitle), onMeditation)
+                MenuRow(Icons.PrayerWheel, stringResource(R.string.menu_wheel), stringResource(R.string.menu_wheel_subtitle), onWheel)
             }
             MenuSeparator()
             MenuGroupSection(MenuGroup.SETTINGS, stringResource(R.string.menu_settings), openGroups, onGroup) {

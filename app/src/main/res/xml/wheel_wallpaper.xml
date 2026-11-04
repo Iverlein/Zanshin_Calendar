@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The prayer wheel as a live wallpaper (SPEC §10.12); its settings are the Prayer wheel screen's. -->
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/wheel_wallpaper_description"
+    android:thumbnail="@mipmap/ic_launcher" />

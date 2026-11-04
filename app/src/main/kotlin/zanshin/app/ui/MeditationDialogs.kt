@@ -136,16 +136,22 @@ fun PresetDialog(taken: Set<String>, onSave: (String) -> Unit, onDismiss: () -> 
 
 /** The mindfulness bell's message: any line, empty for the bell's name alone, Default for the mantra. */
 @Composable
-fun MessageDialog(message: String, onSave: (String) -> Unit, onDismiss: () -> Unit) {
+fun MessageDialog(
+    message: String,
+    hint: String,
+    default: String,
+    title: String = stringResource(R.string.bell_message),
+    onSave: (String) -> Unit,
+    onDismiss: () -> Unit,
+) {
     var text by remember { mutableStateOf(message) }
-    val description = stringResource(R.string.bell_message)
     AlertDialog(
         onDismissRequest = onDismiss,
         containerColor = Palette.surface,
-        title = { Text(description, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold)) },
+        title = { Text(title, style = body.copy(fontSize = 20.sp, fontWeight = FontWeight.SemiBold)) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text(stringResource(R.string.bell_message_hint), style = body.copy(fontSize = 13.sp, color = Palette.muted))
+                Text(hint, style = body.copy(fontSize = 13.sp, color = Palette.muted))
                 BasicTextField(
                     value = text,
                     onValueChange = { if (it.length <= BellSettings.MESSAGE_MAX) text = it.replace('\n', ' ') },
@@ -156,10 +162,10 @@ fun MessageDialog(message: String, onSave: (String) -> Unit, onDismiss: () -> Un
                         .fillMaxWidth()
                         .border(1.dp, Palette.lineStrong, RoundedCornerShape(8.dp))
                         .padding(horizontal = 12.dp, vertical = 12.dp)
-                        .semantics { contentDescription = description },
+                        .semantics { contentDescription = title },
                 )
-                if (text != BellSettings.MANTRA) {
-                    TextButton(onClick = { text = BellSettings.MANTRA }) {
+                if (text != default) {
+                    TextButton(onClick = { text = default }) {
                         Text(stringResource(R.string.bell_message_default), color = Palette.saffron)
                     }
                 }

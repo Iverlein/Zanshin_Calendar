@@ -46,6 +46,9 @@ object Icons {
     /** A singing bowl and its striker, for the meditation timer. */
     val Bowl = stroke("M3 9.5h18M3 9.5c0 4.7 4 8.5 9 8.5s9-3.8 9-8.5M8.5 20.5h7M15.5 3.5l3 4", 1.7f)
 
+    /** A prayer wheel on its handle, with the weight on its chain, for the prayer wheel. */
+    val PrayerWheel = stroke("M8 6.5h8v8H8zM12 3.5v3M12 14.5v7M16 8.5l3.5 2.5M19.5 11v.5", 1.7f)
+
     /** A heart with the beat of a pulse, for the Health screen. */
     /** The earth lords' row (ROADMAP T2.26): a compass. */
     val Compass = stroke("M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18zM14.8 9.2l-1.6 4-4 1.6 1.6-4z", 1.7f)

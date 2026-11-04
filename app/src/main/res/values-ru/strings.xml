@@ -1324,4 +1324,43 @@
     <string name="departure_election_title">Отъезд невесты для вас и супруга</string>
     <string name="departure_election_note">Отъезд невесты, отдельный расчёт рядом с оценками дней выше: каждый день по проверкам его месяца и дня. То, что верно для всего года, показано на странице дня.</string>
     <string name="departure_cell">%1$s, %2$d-е число тибетского месяца: для отъезда невесты — %3$s; плохо по: %4$s</string>
+    <!-- The prayer wheel (SPEC §10.12) -->
+    <string name="menu_wheel">Молитвенное колесо</string>
+    <string name="menu_wheel_subtitle">Вращается само; есть живые обои</string>
+    <string name="wheel_title">Молитвенное колесо</string>
+    <string name="wheel_section_mantra">МАНТРА</string>
+    <string name="wheel_section_look">ВИД</string>
+    <string name="wheel_mantra_mani">Авалокитешвара</string>
+    <string name="wheel_mantra_vajra_guru">Падмасамбхава</string>
+    <string name="wheel_mantra_tara">Тара</string>
+    <string name="wheel_mantra_manjushri">Манджушри</string>
+    <string name="wheel_mantra_vajrapani">Ваджрапани</string>
+    <string name="wheel_mantra_medicine">Будда Медицины</string>
+    <string name="wheel_mantra_shakyamuni">Шакьямуни</string>
+    <string name="wheel_mantra_own">Своя</string>
+    <string name="wheel_own_title">Своя строка</string>
+    <string name="wheel_own_hint">Слова на колесе, любым письмом; если пусто, первая мантра.</string>
+    <string name="wheel_form">Форма</string>
+    <string name="wheel_form_drum">Барабан</string>
+    <string name="wheel_form_ring">Кольцо</string>
+    <string name="wheel_script">Письмо</string>
+    <string name="wheel_ground">Фон</string>
+    <string name="wheel_color_gold">Золотой</string>
+    <string name="wheel_color_white">Белый</string>
+    <string name="wheel_color_red">Красный</string>
+    <string name="wheel_color_green">Зелёный</string>
+    <string name="wheel_color_blue">Синий</string>
+    <string name="wheel_color_turquoise">Бирюзовый</string>
+    <string name="wheel_color_black">Чёрный</string>
+    <string name="wheel_color_ink">Тушь</string>
+    <string name="wheel_color_maroon">Бордовый</string>
+    <string name="wheel_color_indigo">Индиго</string>
+    <string name="wheel_color_forest">Лесной</string>
+    <string name="wheel_color_umber">Умбра</string>
+    <string name="wheel_set_wallpaper">Поставить на обои</string>
+    <string name="wheel_wallpaper_note">Обои показывают то, что выбрано здесь, и ускоряются от касания главного экрана.</string>
+    <!-- the wheel in the system's list of live wallpapers -->
+    <string name="wheel_wallpaper_description">Мантра медленно вращается сама; взмах пальцем ускоряет её. Выбирается в Zanshin, в разделе «Практика».</string>
+    <!-- describes the turning wheel for screen readers -->
+    <string name="desc_wheel">Молитвенное колесо, вращается медленно; взмах пальцем ускоряет его</string>
 </resources>

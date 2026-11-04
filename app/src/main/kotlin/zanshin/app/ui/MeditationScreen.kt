@@ -500,6 +500,8 @@ private fun PeriodicBell(settings: BellSettings) {
     if (editingMessage) {
         MessageDialog(
             message,
+            hint = stringResource(R.string.bell_message_hint),
+            default = BellSettings.MANTRA,
             onSave = {
                 settings.message = it
                 message = settings.message
@@ -592,7 +594,7 @@ private fun Dial(fraction: Float, time: String, label: String, faint: Boolean) {
 
 /** An outlined pill button in [accent]. */
 @Composable
-private fun Pill(text: String, accent: androidx.compose.ui.graphics.Color, onClick: () -> Unit) {
+internal fun Pill(text: String, accent: androidx.compose.ui.graphics.Color, onClick: () -> Unit) {
     Text(
         text,
         style = body.copy(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = accent),
@@ -654,7 +656,7 @@ private fun StepButton(sign: String, onClick: (() -> Unit)?) {
 /** A row of chips, one of them chosen, under an optional [title]. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun <T> Choice(title: String?, options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit) {
+internal fun <T> Choice(title: String?, options: List<Pair<T, String>>, selected: T, onSelect: (T) -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
         if (title != null) Text(title, style = label)
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -736,7 +738,7 @@ private fun Toggle(title: String, subtitle: String, checked: Boolean, onChange: 
 }
 
 @Composable
-private fun SectionLabel(text: String) {
+internal fun SectionLabel(text: String) {
     Text(
         text,
         style = body.copy(fontSize = 12.sp, fontWeight = FontWeight.SemiBold, letterSpacing = 1.2.sp, color = Palette.faint),
@@ -745,7 +747,7 @@ private fun SectionLabel(text: String) {
 }
 
 @Composable
-private fun Separator() {
+internal fun Separator() {
     Box(Modifier.padding(horizontal = 24.dp, vertical = 16.dp).fillMaxWidth().height(1.dp).background(Palette.line))
 }
 
