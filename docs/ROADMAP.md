@@ -122,6 +122,7 @@ moves up as soon as it is unblocked.
 | <a id="block-61"></a>61 | [R6](#r6) Ch. 27's small reckonings by the year — built 2026-10-31 | — (read: RD38, RD51, RD89, RD90) | [28](#block-28) | Build block 61: R6, the small reckonings of ch. 27 pp. 16–17 and 20 in a view of their own, stepped by year: the four starting points of p. 17, the la's wandering and decline, the grave entered, the end of the womb, the birth by the year's power. |
 | <a id="block-62"></a>62 | [R7](#r7) The rounds by age of pp. 18–19 — built 2026-10-31 | — (read: RD38, RD51, RD90) | [61](#block-61) | Build block 62: R7, the rounds by age of ch. 27 pp. 18–19 in the small reckonings, the man's or the woman's: their cuts and the signs as printed. |
 | <a id="block-63"></a>63 | [R8](#r8) The reckonings of the time of asking — built 2026-10-31 | — (read: RD38, RD51) | [62](#block-62) | Build block 63: R8, Brahmā's month for one gone abroad and the signs of the time of asking (ch. 27 pp. 13–14, 19) on the moment's view. |
+| <a id="block-64"></a>64 | [M2](#m2) The prayer wheel: a screen and a live wallpaper — built 2026-11-04 | — (the mantras: claims/wheel-mantras.md) | [M1](#m1) | Build block 64: M2, the prayer wheel on a screen of its own and as a live wallpaper. |
 
 ## Readings
 
@@ -2172,6 +2173,29 @@ Java of the Google Code era, and its one sound file names no source.
   after Stop, off once the back arrow left the screen and when it was
   opened again; never on with the switch off; the switch stored on tap,
   shown in English and Russian.
+
+### <a id="m2"></a>M2. The prayer wheel — built 2026-11-04 (SPEC §10.5, §10.12)
+
+The owner's request of 2026-11-04, after an old live wallpaper no longer
+offered on current Android: a screen in the Practice group and a live
+wallpaper, one painter for both. Its forms and colours (the owner's
+answers the same day): both a drum and a ring, the colours to choose;
+several mantras, not one; a slow turn by itself that a flick speeds and a
+finger against only brakes.
+
+- **Checked on the emulator** (Android 17): both forms and every mantra
+  in English and Russian, an own line, font scale 2.0 and landscape in both,
+  a turn of the phone keeping the screen; the wallpaper set through
+  Android's page, its speed logged at rest (no speed-up), under a flick
+  (3.6 rad/s) and a page swipe (the most, 12.5 rad/s), no frames while an
+  app covers it, a change of colours reaching it at once. `WheelTest`
+  holds the turning, the layout and the colours' contrast.
+- **Direction:** the pool has no passage on it. Clockwise is the common
+  account of turning a wheel; that the syllables pass in their order
+  follows from the geometry. Ladner's *The Wheel of Great Compassion*
+  (Wisdom, 2000) is the book to read it in, not yet read.
+- **Left open:** an ornate wheel, a drum with its rim and body drawn, as
+  a third form (the owner: "maybe in future").
 
 ## UX
 

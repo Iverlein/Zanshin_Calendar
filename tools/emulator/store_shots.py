@@ -2,7 +2,7 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
-"""The nine store screenshots, in one language, on the emulator.
+"""The ten store screenshots, in one language, on the emulator.
 
 1. Tibetan day: Saga Dawa Düchen, 2027-06-18, a lucky day, in Lhasa
 2. 旧暦 day: 2026-10-23 (十三夜, 霜降 begins), in Kyoto
@@ -15,8 +15,9 @@
 8. Shot 1's day in the Paper theme (ROADMAP A1), the light page beside the seven in Ink
 9. The home screen with the small and the wide widget on shot 1's day (ROADMAP W1), placed there by
    emu.widgets() from the launcher's widget list
+10. The prayer wheel: Om mani padme hum on the drum, gold on black, the settings' defaults
 
-Shots 1 to 6, 8 and 9 set no birth date, so no personal rows appear. The status bar is put in demo
+Shots 1 to 6, 8, 9 and 10 set no birth date, so no personal rows appear. The status bar is put in demo
 mode (09:00, full battery, no signal icons). This image ignores demo mode's
 "hide notifications", and every clock change posts a "Clock change"
 notification, so the shade is cleared after each change. Demo mode is left
@@ -37,10 +38,10 @@ from pathlib import Path
 from emu import BIRTH_1976_06_01, KYOTO, LHASA, adb, nodes, prefs, language, restore, sh, start, up, widgets
 
 LABELS = {
-    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$",
+    "en": {"festival": r"^Saga Dawa Düchen$", "menu": r"[Mm]enu", "meditation": r"^Meditation$", "wheel": r"^Prayer wheel$",
            "year": r"^Fire Horse year$", "year_of_age": r"year of age", "person": "Tenzin",
            "calendar": r"^CALENDAR$", "practice": r"^PRACTICE$"},
-    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$",
+    "ru": {"festival": r"^Сага Дава Дючен$", "menu": r"меню", "meditation": r"^Медитация$", "wheel": r"^Молитвенное колесо$",
            "year": r"Огонь-Лошадь$", "year_of_age": r"год жизни", "person": "Тензин",
            "calendar": r"^КАЛЕНДАРЬ$", "practice": r"^ПРАКТИКА$"},
 }
@@ -166,6 +167,14 @@ try:
     day("06180900", 2027, "TIBETAN", LHASA)
     widgets()
     shot(9)
+
+    # The wheel turns: it stands wherever the shot falls.
+    day("10230900", 2026, "KYUREKI", KYOTO)
+    tap_at(find(labels["menu"], desc=True))
+    tap_at(find(labels["practice"]))
+    tap_at(find(labels["wheel"]))
+    time.sleep(2)
+    shot(10)
 finally:
     demo("exit")
     sh("settings put global auto_time 1")

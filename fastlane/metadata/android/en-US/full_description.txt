@@ -1,4 +1,4 @@
-Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place. A meditation timer and a mindfulness bell come with it.
+Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old Japanese calendar (旧暦), with the almanac readings that belong to that day, and sunrise, solar noon and sunset for your place. A meditation timer, a mindfulness bell and a prayer wheel come with it.
 
 <b>Tibetan calendar, Phugpa (ཕུག་པ, phug pa)</b>
 <ul>
@@ -40,6 +40,14 @@ Zanshin Calendar shows one day at a time in the Tibetan calendar or in the old J
 <li>Or, if you choose, keeps the screen on from Begin until you leave the timer</li>
 <li>A mindfulness bell through the day, every 15 minutes to 2 hours, at fixed or random times, within the hours and on the days you choose, quiet while the phone is silenced, during a call or while music or a video plays; while it rings, a notice shows a message of your own</li>
 <li>A large bowl, a small bowl, a bell and the wood block, sounded on the phone itself</li>
+</ul>
+
+<b>Prayer wheel</b>
+<ul>
+<li>A mantra in Tibetan script alone, turning slowly by itself: a flick speeds it, a finger against it brakes it, and it never runs backwards</li>
+<li>Seven mantras to choose from, or a line of your own</li>
+<li>A drum seen from the side or a ring seen from above, in the colours you choose</li>
+<li>Also a live wallpaper: the same wheel on the home screen, drawn only while it is seen</li>
 </ul>
 
 Tibetan terms show their English with their Tibetan script and Wylie, and their pronunciation on tap; tap any kanji to see its English. Tap an almanac line to read what it means, what it favours, what to avoid and how to remedy it; every reading comes from a published source, listed in About & sources.

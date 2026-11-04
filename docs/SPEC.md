@@ -43,6 +43,7 @@ command-line tool in §4 exists to develop and verify the engines, not to ship.
 | Local sky: sunrise, sunset, true solar noon and the sun's altitude at noon; moon-phase glyph | |
 | Screen with date navigation, home-screen widget, location setting; the morning notice, one a day with the day in brief (§10.5) | Other notifications |
 | Meditation timer and mindfulness bell, a screen of their own (§10.9) | |
+| Prayer wheel, a screen of its own and a live wallpaper (§10.12) | |
 | Texts from published sources only (§8) | Translations beyond English |
 
 Planned work, with its open questions, is in [ROADMAP.md](ROADMAP.md).
@@ -4089,7 +4090,7 @@ its stay, opening §53's reading with the course as a row. Each 干支
   as a full-height column, scrolling when it does not fit, in groups under
   small capital labels, a line between groups: **Calendar** (the two
   calendars, Choose a day and Health), **Reckonings** (the element
-  reckoning, §10.11), **Practice** (Meditation, §10.9),
+  reckoning, §10.11), **Practice** (Meditation, §10.9; Prayer wheel, §10.12),
   **Settings** (location, people, nine-star reading, language, theme,
   morning notice), and
   About & sources alone at the foot. About & sources lists the
@@ -4818,6 +4819,58 @@ Tibetan, and no reckoning in it is cast, as Mo is not (T4).
 - **Back** leads the way it came: from a reckoning to the list, or, from the year of age,
   when the year's balloon opened it, to the page; from the list out of
   the section.
+
+### 10.12 The prayer wheel
+
+A screen of its own (ROADMAP M2, built 2026-11-04), opened by "Prayer
+wheel" in the menu's Practice group, and the same wheel as a live
+wallpaper. The idea is that of an old wallpaper no longer kept up (Doo
+Reelkow's *Prayer wheel live wallpaper*, last built 2014); nothing of it is
+used, and the app stays without a sound or picture file: the wheel is the
+bundled Noto Serif Tibetan drawn on a plain canvas (`app/.../wheel/`), no
+OpenGL.
+
+- **The wheel:** the mantra in its Tibetan script alone (the owner's
+  choice, as the bell's message in §10.9), with no drum, frame or
+  ornament drawn. Nothing on the screen says what turning a wheel
+  does: no such text has a source in the pool (§8).
+- **Mantras:** seven, named by whose they are (Avalokiteśvara,
+  Padmasambhava, Tārā, Mañjuśrī, Vajrapāṇi, the Medicine Buddha,
+  Śākyamuni), each as printed on a page read on the scan
+  ([sources/claims/wheel-mantras.md](sources/claims/wheel-mantras.md)):
+  Mañjuśrī's from WB, the Medicine Buddha's the Four Tantras' full form,
+  Padmasambhava's from the prayer of 'Jam dbyangs mkhyen brtse'i dbang po (འཇམ་དབྱངས་མཁྱེན་བརྩེའི་དབང་པོ), the others Mipham's, Vajrapāṇi's so
+  without the closing phaṭ (ཕཊ, phaT); and a line of the user's own in any script, up to 120
+  characters, the user's text as in §10.9; left empty the first mantra
+  stands.
+- **Form:** a **drum** seen from the side, the script bent over its
+  curve and fading towards the edges, or a **ring** seen from above, each
+  piece of the line whole and upright at the ring's foot. The mantra
+  goes round as many times as keeps the script within the canvas and,
+  on a ring, clear of the centre and flat pieces on the curve.
+- **Turning:** one turn in thirty seconds by itself, clockwise seen from
+  above: a drum's front runs from right to left, a ring turns clockwise on
+  the screen with its line reading anticlockwise, so that on both the
+  syllables pass any one point in their order. A finger with the wheel
+  speeds it, up to two turns a second, and it eases back with a time
+  constant of 5 s; a finger against it only brakes it, down to a stop,
+  from which it takes up the slow turn: it never runs backwards
+  (`WheelMotion`). On a drum a finger counts along x, on a ring around
+  the centre.
+- **Colours:** six for the script and six for the ground, every pair
+  standing 4.5:1 (`WheelTest`), so no choice hides the mantra; gold on
+  black by default. The screen's frame keeps the app's theme.
+- **Wallpaper:** "Set as wallpaper" opens Android's own page for it. It
+  shows what the screen has chosen, at once when that changes, and draws
+  only while seen, at about thirty frames a second at the slow turn; a
+  finger on the home screen and the turning of its pages speed it. The
+  button is hidden where a phone has no live wallpapers
+  (`android.software.live_wallpaper`, not required). Android drops a
+  live wallpaper when its app is force-stopped.
+- The screen stays open through a turn of the phone (§10.1): wider than
+  tall, the wheel stands beside its settings. No permission is added:
+  `BIND_WALLPAPER` guards the service against other apps, it is not asked
+  of the user (§2).
 
 ## 11. Milestones and done criteria
 

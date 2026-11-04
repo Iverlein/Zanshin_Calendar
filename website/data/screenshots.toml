@@ -80,3 +80,12 @@ alt = "The home screen with the two widgets: Day, the 15th of the 4th month, a l
 [shot.ru]
 caption = "Виджеты на главном экране"
 alt = "Главный экран с двумя виджетами: «День» — 15-е число 4-го месяца, благоприятный день; «День и часы» — двенадцать часов дня, нынешний отмечен, и часы, которых избегают"
+
+[[shot]]
+file = "10.png"
+[shot.en]
+caption = "A prayer wheel"
+alt = "The prayer wheel: a mantra in gold Tibetan script on a turning drum, with the mantras to choose from below; also a live wallpaper"
+[shot.ru]
+caption = "Молитвенное колесо"
+alt = "Молитвенное колесо: мантра золотым тибетским письмом на вращающемся барабане, ниже — мантры на выбор; есть и живые обои"
