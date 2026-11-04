@@ -2212,6 +2212,13 @@ it a bit, a swipe left or right a lot.
   (Wisdom, 2000) is the book to read it in, not yet read.
 - **Left open:** an ornate wheel, a drum with its rim and body drawn, as
   a third form (the owner: "maybe in future").
+- **Not built: counter-clockwise (the owner, 2026-11-04):** a few special
+  mantras must rotate counter-clockwise, so the wheel needs that as an
+  option: a direction carried by each mantra, and a choice for a line of
+  the user's own. Which mantras has no passage in the pool yet: the list
+  waits for a published source (§8; no Bon text is a source), and the
+  Direction note above is its starting point. Until then SPEC §10.12 stands,
+  clockwise for all.
 
 ## UX
 
