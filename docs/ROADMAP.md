@@ -2212,13 +2212,17 @@ it a bit, a swipe left or right a lot.
   (Wisdom, 2000) is the book to read it in, not yet read.
 - **Left open:** an ornate wheel, a drum with its rim and body drawn, as
   a third form (the owner: "maybe in future").
-- **Not built: counter-clockwise (the owner, 2026-11-04):** a few special
-  mantras must rotate counter-clockwise, so the wheel needs that as an
-  option: a direction carried by each mantra, and a choice for a line of
-  the user's own. Which mantras has no passage in the pool yet: the list
-  waits for a published source (§8; no Bon text is a source), and the
-  Direction note above is its starting point. Until then SPEC §10.12 stands,
-  clockwise for all.
+- **Not built: counter-clockwise for a line of one's own (the owner,
+  2026-11-04):** a few special mantras must rotate counter-clockwise. They
+  are usually restricted to practitioners who have received the proper
+  teachings and the empowerment (དབང, dbang), so none is offered in the
+  list: the seven all turn clockwise (the owner), and the option stands
+  only with "Your own", off by default. Beside it a comment, in the owner's
+  words: reversing the rotation is "an act that the practitioner must
+  clearly understand, it is not deliberate". That comment is the owner's
+  caution, the only text on the screen about what the turning means (§10.12
+  otherwise keeps it free of any, §8); its final wording in both languages
+  is settled with the owner at the build.
 
 ## UX
 
