@@ -2219,7 +2219,11 @@ it a bit, a swipe left or right a lot.
   list: the seven all turn clockwise (the owner), and the option stands
   only with "Your own", off by default. Beside it a comment, in the owner's
   words: reversing the rotation is "an act that the practitioner must
-  clearly understand, it is not deliberate". That comment is the owner's
+  clearly understand, it is not deliberate". The direction of a mantra
+  circle is usually given orally during the empowerment, when the lama
+  (བླ་མ, bla ma) describes the sadhana's visualization, and the wheel must
+  match that strictly: so the app never proposes a direction for a line,
+  and the comment sends the practitioner to what was given. That comment is the owner's
   caution, the only text on the screen about what the turning means (§10.12
   otherwise keeps it free of any, §8); its final wording in both languages
   is settled with the owner at the build.
