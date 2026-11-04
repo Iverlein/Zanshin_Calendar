@@ -2225,8 +2225,10 @@ it a bit, a swipe left or right a lot.
   match that strictly: so the app never proposes a direction for a line,
   and the comment sends the practitioner to what was given. That comment is the owner's
   caution, the only text on the screen about what the turning means (§10.12
-  otherwise keeps it free of any, §8); its final wording in both languages
-  is settled with the owner at the build.
+  otherwise keeps it free of any, §8). Its English, settled by the owner:
+  "The direction of a mantra is the one given by your lama with the
+  practice. Reverse it only if that is what you received." The Russian is
+  shown to the owner at the build.
 
 ## UX
 
