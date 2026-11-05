@@ -47,24 +47,24 @@ Zanshin Calendar opens on today and shows it as a Tibetan almanac or the old Jap
 <li>Timer: a warm-up and periods of any length in one session, say a zazen of 20, 10 and 30 minutes. The bowl sounds at the start and end, the wood block between periods.</li>
 <li>Presets: save a session and set it again with one tap.</li>
 <li>Screen off or on: the timer keeps time with the screen off and puts the countdown and a Stop button in the notification. If you prefer, the screen stays on from Begin until you leave the timer.</li>
-<li>Mindfulness bell: rings through the day, every 15 minutes to 2 hours, at fixed or random times, in the hours and on the days you choose. It keeps quiet when the phone is silenced, during a call, and while music or a video plays. While it rings, a notice shows a message of your own.</li>
-<li>Sounds: a large bowl, a small bowl, a bell and the wood block, all made on the phone itself.</li>
+<li>Mindfulness bell: pick how often it rings, anywhere from every 15 minutes to every 2 hours, at fixed or random times, and which hours and days count. A silenced phone, a call, music or a video keeps it quiet. While it rings you see a notice with your own message.</li>
+<li>Sounds: two bowls, large and small, a bell and the wood block. The phone makes them itself, so the app carries no sound files.</li>
 </ul>
 
 <b>Prayer wheel</b>
 <ul>
-<li>A mantra in Tibetan script and nothing else, turning slowly by itself: a tap speeds it up a little, a swipe a lot, and a finger held on it stops it until you let go</li>
-<li>Seven mantras to choose from, or a line of your own, which can turn counter-clockwise if that is what your lama gave</li>
-<li>A drum seen from the side or a ring seen from above, in the colours you choose</li>
-<li>Only the wheel: nothing else on the screen, which can stay on if you ask</li>
-<li>Live wallpaper: the same wheel on your home screen, drawn only while it is in view</li>
+<li>The wheel turns slowly on its own and shows a mantra in Tibetan script, with nothing drawn around it: tap to nudge it faster, swipe to send it spinning, hold a finger on it to stop it</li>
+<li>Pick one of seven mantras or type your own line, and that line can turn counter-clockwise if that is what your lama gave</li>
+<li>Drum from the side or ring from above, in the colours you choose</li>
+<li>Only the wheel: everything else goes away, and the screen can stay on if you ask</li>
+<li>Live wallpaper: the same wheel on your home screen, and it draws only while you can see it</li>
 </ul>
 
-Terms you can open: every Tibetan word comes with its English, script and Wylie, and a tap gives the pronunciation. Tap a kanji for its English. Tap an almanac line to read what it means, what it favours, what to avoid and how to remedy it. Every reading comes from a published source, and About & sources lists them.
+Terms you can open: Tibetan words carry their English, script and Wylie, and a tap adds how to say them. Kanji give their English on a tap. An almanac line opens to what it means, what it favours, what to avoid and how to remedy it. The readings all come from published sources, listed under About & sources.
 
-Glyphs and dials: small glyphs show at a glance what the day favours and warns against. In the readings, dials, rings and boards show where a term stands in its cycle.
+Glyphs and dials: the little glyphs are there for a quick look at what the day favours and warns against. Inside the readings, dials, rings and boards show where a term stands in its cycle.
 
-Languages: English and Russian. Choose in the menu, or let the app follow the phone.
+Languages: English and Russian, set in the menu or taken from the phone.
 
 Themes: Ink is the dark default, Paper a light page with dark ink, Night black for OLED screens, Maroon the robe's colour with saffron, and Sepia a parchment page for the evening. The app can also follow the phone's own dark or light setting.
 

@@ -44,8 +44,9 @@ On every merge of a feature, in the same branch:
    joins its item in a sentence or two, the full inventory stays in the
    README. Before merging, `prose-scan` both listings and run the rendered
    page through `ai-check --pieces 1500`, since Sapling's free form reads only
-   the head of a long text. Its Russian score moves with where the text is cut,
-   so judge Russian by the wording, with ZeroGPT beside it.
+   the head of a long text. Its score moves with where the text is cut, in both
+   languages and most in Russian, so run two cuts, read ZeroGPT beside it and
+   judge by the wording.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
    show has changed, review every PNG, then copy them into
