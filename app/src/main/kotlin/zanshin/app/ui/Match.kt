@@ -256,6 +256,26 @@ fun MatchReckoningView(m: MatchReading, onOpen: (Annotation) -> Unit) {
             ),
         )
     }
+    // Point 10 (p. 360): the birth months and days against enemy, grave, seventh and four-slayer. The hour is not asked.
+    if (m.months != null && m.days != null) {
+        section(stringResource(R.string.match_section_times))
+        listOf(R.string.match_time_month to m.months, R.string.match_time_day to m.days).forEach { (name, pair) ->
+            val meetings = MatchReckoning.timeMeetings(pair.first, pair.second)
+            add(
+                Annotation(
+                    title = stringResource(
+                        R.string.birth_share_title, stringResource(name),
+                        if (meetings.isEmpty()) stringResource(R.string.match_time_agree) else meetings.joinToString(", ") { it.english },
+                    ),
+                    english = "",
+                    tone = if (meetings.isEmpty()) Tone.GOOD else Tone.BAD,
+                    reading = Texts.matchTime(meetings.isEmpty()),
+                    subtitle = labels.string(R.string.match_aspect_subtitle, gloss(pair.first), gloss(pair.second)),
+                    titleIsKanji = false,
+                ),
+            )
+        }
+    }
     section(stringResource(R.string.match_section_siblings))
     val (manSiblings, womanSiblings) = MatchReckoning.siblings(m.manYear) to MatchReckoning.siblings(m.womanYear)
     val win = MatchReckoning.siblingsWin(manSiblings, womanSiblings)

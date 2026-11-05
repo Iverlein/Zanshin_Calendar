@@ -43,6 +43,7 @@ import zanshin.core.texts.gloss
 import zanshin.core.tibetan.Ewts
 import zanshin.core.tibetan.YearOfLife
 import zanshin.core.tibetan.Circles
+import zanshin.core.tibetan.HouseholdRound
 import zanshin.core.tibetan.SmallReckonings
 import zanshin.core.tibetan.Thirty
 import zanshin.core.tibetan.MomentReckoning
@@ -76,6 +77,7 @@ fun ReckoningsScreen(year: Int, opened: Reckoning?, zone: ZoneId, person: Person
             Reckoning.BIRTH -> BirthView(person, onPeople, back, open)
             Reckoning.MATCH -> MatchView(person, onPeople, back, open)
             Reckoning.YEAR_OF_AGE -> YearOfAgeView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
+            Reckoning.HOUSEHOLD -> HouseholdView(person, shownYear, zone, onYear = { shownYear = it }, onPeople, back, open)
             Reckoning.DEAD -> DeadView(person, onPeople, back, open)
             Reckoning.THIRTY -> ThirtyScreen(person, onPeople, back, open)
             Reckoning.CIRCLES -> CirclesScreen(person, onPeople, back, open)
@@ -193,6 +195,15 @@ private fun ReckoningList(person: Person?, year: Int, zone: ZoneId, onPeople: ()
                     icon = Icons.Pebbles,
                 )
             }
+            Reckoning.HOUSEHOLD -> {
+                val n = Reckonings.household(person, year, hourOfReckoning(zone)).members.size
+                ScreenLinkRow(
+                    stringResource(R.string.household_title),
+                    if (n < HouseholdRound.FEWEST) stringResource(R.string.reckonings_household_needed) else labels.string(R.string.reckonings_household_subtitle, n),
+                    onClick = { onOpen(r) },
+                    icon = Icons.Pebbles,
+                )
+            }
             Reckoning.DEAD -> {
                 val n = Reckonings.dead(person).count { it.second != null }
                 ScreenLinkRow(
@@ -246,6 +257,31 @@ private fun CirclesScreen(person: Person?, onPeople: () -> Unit, onBack: () -> U
         val birth = Reckonings.birthSign(person)
         val age = YearOfLife.age(Reckonings.birthYear(person), Reckonings.presentYear())
         CirclesView(person, birth, age, remember(person, age) { Circles.all(birth, age) }, onOpen)
+    }
+}
+
+/** The household round (SPEC §5.9.10, ROADMAP R9) of [person]'s household in the Tibetan year [year], stepped a year at a time from their first. */
+@Composable
+private fun HouseholdView(person: Person?, year: Int, zone: ZoneId, onYear: (Int) -> Unit, onPeople: () -> Unit, onBack: () -> Unit, onOpen: (Annotation) -> Unit) {
+    val labels = LocalLabels.current
+    val sign = YearOfLife.yearSign(year)
+    Header(
+        stringResource(R.string.household_title),
+        labels.string(R.string.reckonings_year_header, labels.string(R.string.element_animal, gloss(sign.element), gloss(sign.animal)), year, year + 1),
+        onBack,
+    ) {
+        if (person != null) {
+            val first = Reckonings.birthYear(person)
+            IconButton(onClick = { onYear(year - 1) }, enabled = year > first) {
+                Icon(Icons.ChevronLeft, contentDescription = stringResource(R.string.reckonings_year_before), tint = if (year > first) Palette.muted else Palette.faint)
+            }
+            IconButton(onClick = { onYear(year + 1) }) {
+                Icon(Icons.ChevronRight, contentDescription = stringResource(R.string.reckonings_year_after), tint = Palette.muted)
+            }
+        }
+    }
+    Body {
+        if (person == null) NoPerson(onPeople) else HouseholdRoundView(person, remember(person, year) { Reckonings.household(person, year, hourOfReckoning(zone)) }, onOpen)
     }
 }
 
