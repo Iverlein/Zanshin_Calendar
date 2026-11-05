@@ -13,7 +13,8 @@ once before the first plan.
    Make `work/readings` as AGENTS.md says and work there.
 2. **Plan.** `python3 tools/sources/kb.py next` first: the readings whose
    needs are met, ranked by what waits on them, and the chapters with
-   open questions and no reading planned; a chapter worth a reading gets
+   open questions and no reading planned, and the open questions no row
+   names; a chapter or a group of such questions worth a reading gets
    its RD row in the roadmap (topic file `corpus/<siglum>/<chapter>.md`)
    before the plan. Then `python3 tools/sources/schedule.py plan`. **Three
    readings at once is the floor** (the owner, 2026-10-22): when it
