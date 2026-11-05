@@ -2,7 +2,7 @@
 kind: claim
 type: rule
 terms: [bla-rdel, chad-chen, chad-chung, rus-khams, bdun-zur]
-cites: ['wb.2:p52-54', 'wb.2:p499-500']
+cites: ['wb.2:p45', 'wb.2:p52-54', 'wb.2:p499-500']
 feeds: ["SPEC §5.9.4", block-31]
 open: []
 ---
@@ -29,7 +29,7 @@ The board: twelve places, set out over the twelve year animals by the dead clan'
 | dragon | great friend year |
 | dog | small friend year |
 
-The pebbles: under each living member's year animal a white pebble, and on its seventh (བདུན་ཟུར, bdun zur, the opposite animal) a black one; four fingers are left between pebbles for this. The notes' example: a fire sheep member of a wood household, one white under the great cut-off (sheep) and a black on the small cut-off (ox). "Fourteen pebbles" is said of one person. The notes also say the pebbles stand "three black for the great cut-off and so on" as WB lays them, a count WB's own pages read here do not give.
+The pebbles: under each living member's year animal a white pebble, and on its seventh (བདུན་ཟུར, bdun zur, the opposite animal) a black one; four fingers are left between pebbles for this. The notes' example: a fire sheep member of a wood household, one white under the great cut-off (sheep) and a black on the small cut-off (ox). "Fourteen pebbles" is said of one person. The notes also say the pebbles stand "three black for the great cut-off and so on" as WB lays them: the count is WB's own, on p. 45 (three black at the great cut-off, two black at the small, two white at each mother year, one white at each power year, a white and a black at each son year, one black at each enemy year, two white and one black at each friend year; [dead-la-count-wb-root](dead-la-count-wb-root.md)).
 
 The readings then go by what lies "before" (མདུན་དུ, mdun du) each place: empty, black, white, or half black and half white ([dead-la-special-verdict](dead-la-special-verdict.md)), and by the board's whole shape ([dead-la-general-verdict](dead-la-general-verdict.md)).
 

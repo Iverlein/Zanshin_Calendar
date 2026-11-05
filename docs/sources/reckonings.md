@@ -2552,3 +2552,100 @@ Read 2026-11-03 (RD154) for open questions 595 and 596, by BDRC's full-text sear
 ## Ch. 32 on the scan: the stretch of WB vol. 2 pp. 241–296 that only the etext (34 pages) and the machine reading (19) cover, 2 pages by eye (`kb.py coverage WB`, 2026-11-03) (RD156)
 
 RD156 (2026-11-03): p. 241 (img. 247 of the Gser thang reprint) recorded as [wb.2:p241](corpus/wb/ch32.md#wb-2-p241), state etext: only the chapter heading was read on the scan (it agrees with the etext), l. 1 left as q608.
+
+## The dead's reckoning, what no row holds, by the Bhutan digest (RD164)
+
+RD164, 2026-11-05. Fifteen questions of WB ch. 29 and the notes (q261, q264, q266, q271, q281, q297, q300, q309, q313, q316, q510, q512, q567, q568, q569), each sought first in the digest of [word-hunts.md](word-hunts.md) (*The new witness*; the Bhutan collection, I1KG11905, printed page = image − 10). The digest ranks below WB and Mipham: it shows how one reader took WB, and it is used so below. Yigdzin-1 and MITRA were not run: their readings already on disk served for finding, and what is said to be by eye was read on the image named.
+
+Read by eye: Bhutan collection img. 15 (ll. 3–6, at reading size), 572 (the table), 600 (ll. 5–6, 2×), 601; WB's Zhol print I1KG1710 img. 741 (p. 80, 2×), 804 (p. 121–122, 3× for the marks), 805, 817 (p. 129, 1.8×); the Gser thang reprint I3CN5029 img. 051 (p. 45, ll. 19–21), 086 (p. 80, l. 3, 2×), 507 (the notes, p. 501, l. 6). By the etext only: the digest img. 479–598 (searched by word, and read through at img. 543, 556–558, 567–568, 574–575, 580–582, 584–586, 591–601), the collection's img. 16, 84, 259; UT (I4767) etext p. 43; LT etext p. 35; WB's 1996 etext img. 249 and 321; WB vol. 1 Yigdzin-1 img. 373. WB's own lines not named above are quoted from corpus passages already read on the scan: wb.2:p77-80, wb.2:p80-82, wb.2:p90-93, wb.2:p119-122, wb.2:p124-125, wb.2:p129-132, wb.2:p139-140, wb.2:p504-512.
+
+### What the digest is, and what it leaves out
+
+Its colophon (img. 599–601) says what the title does not. By eye on img. 600, ll. 5–6, the writer is a pupil of the Medical and Astrological Institute (སྨན་རྩིས་ཁང, sman rtsis khang): «སྨན་རྩིས་ཁང་གི་སློབ་མའི་ཐ་ཤལ་སྐྱེ་མོ་རྒྱལ་བྱེད[?]» followed on the next line by «དགོན་གྱི་རྩིས་སློབ་དགེ་ཚུལ་ཡེ་ཤེས་ཆོས་འཛིན[?]་དུ་འབོད་པས», "the lowest of the Institute's pupils, the reckoning-student and novice of the monastery Skye mo rgyal byed[?], called Ye shes chos 'dzin[?]" (ཡེ་ཤེས་ཆོས་འཛིན, ye shes chos 'dzin; the two names read with doubt at 2×; the date that follows was not read). The same lines say it was gathered from WB's reckoning for the dead and filled out from the star reckoning (སྐར་རྩིས, skar rtsis): «སྐར་རྩིས་ནས་གཟའ་སྐར་དུས་ལྷ་སོགས་ཁ་འགེངས་འོས་ཀྱང་བཀང་སྟེ», "from the star reckoning the planets, the mansions, the time gods and the like, what should be filled in, were filled in too". The dedication names the Yellow Hat tradition (ཞྭ་སེར་རིང་ལུགས, zhwa ser ring lugs; etext, img. 601). So the digest is a late schoolbook of the Institute's time, not a classical manual, and not all it holds is WB. Its date being unread, it is quoted here no further than the facts need.
+
+It carries the verdict lists of the day, month, planet and mansion, the rebirth table and the verse of the disposal. It has no pebble counts, no la board (བླ་རྡེལ, bla rdel), no kinds of old (བཀྲ, bkra) and no kinds of blade, and of the fifteenth examination it names the five rites without giving them (img. 584–585, etext). So eight of the fifteen questions find nothing in it, as said under each.
+
+### q261: the seal is the element that overcomes; khon's has no seal on the Zhol print either (answered in part)
+
+The rule is WB's own, stated at another place. The five seals (ཕྱག་རྒྱ, phyag rgya) of pp. 124–125 go to the directions so: white dwa (དྭ) east, kham (ཁམ) south, red li (ལི) west, yellow khon (ཁོན) north, green zin (ཟིན) in the four corners, and the passage closes «འབྱུང་བ་གོ་ལྡོག་ཨུར་མནན་ཡིན», "it is the pressing-down by the elements reversed". The digest repeats the lines (img. 575, etext). Each seal stands where its element overcomes what is there: iron over the wood east, water over the fire south, fire over the iron west, earth over the water north, wood over the earth of the corners. The provision blocks of pp. 129–132 follow it: li's block is sealed by kham (water over fire), dwa's and khen's (ཁེན) by li (fire over iron), kham's by khon (earth over water), zin's by dwa (iron over wood). Gin (གིན) and zon (ཟོན) seal each other; they are not among p. 124's five, and the rule for that pair is not stated.
+
+Khon's block has no seal on the Zhol print: I1KG1710 img. 817, l. 2, by eye, runs «དུར་ཁ་མ་བྱེ་མ་གནོད་ཅིག །སྤར་ཁའི་དགྲ་དུར་མ་ལྡང་ཞིག །རྒན་མུ་ལུག་གི་ཐོད་པ་རུ།» with nothing between, as the 1996 print and the reprint have it; the other seven blocks carry the line at that place. So the gap is no omission of the 1996 setting. By p. 124's rule a wood trigram would stand there; no print read shows it. The digest gives the goods of khon's block with no seal (img. 543, etext). Its rites of the trigrams have seals of their own, drawn on stones by direction (img. 540–553, etext); these were not compared with the provision blocks' seals.
+
+### q264: the road omens (narrowed)
+
+The digest has no road omens: of the cutting of the joined hands it says only that it is done (img. 584–585, etext). WB uses the word for a test that decides whether to go on: in the search of the ground, «ཞུགས་ཚེ་ལ་ཉེའི་བཟང་ངན་བརྟག །ངན་ན་བཤོལ་ཞིང་བཟང་བ་ན།» (1996 etext img. 249, p. 241, not read on the scan), "on setting out, examine the road omen (ལ་ཉེ, la nye), good or bad; if bad, put it off; if good, …"; and the notes pp. 519–520 have the same word at the feast, after the examination of what is allowed. The persons who make the omen take "hold" («ཐེབས») are one of another clan talking and a man and woman whose line was cut, which is the rite's own refrain of separation, «སུ་མཐུན་རིགས་མི་གཅིག་པ་ཡིན» (p. 140): so what takes hold is likely the cutting itself, and "turning back" its failing. Likely, not stated; nothing done after each is given anywhere read.
+
+### q266: the colophon's authorities (dead end in the digest)
+
+The digest's colophon names none of them, and a search of the collection, LT, UT and the Zhol etext adds nothing to the claim [wb-ch29-sources-leads](claims/wb-ch29-sources-leads.md). The digest has «བྱ་ཁྲུང་ཁྲུང» (img. 546, etext) only as the grave bird of the block of p. 130, the crane, which is the sense that claim gives. The question stays as that claim leaves it.
+
+### q271: «དགྲ་དར» is one of a series (narrowed)
+
+The digest has no la board. WB's chapter on the match has the word in a full series, four times over: «མ་དར», «བུ་དར», «གྲོགས་དར», «དགྲ་དར», each joined to life force, body, power and luck: «སྲོག་དར་བ་སྐྱེས་བསྡེབས་པ་ན། …མ་དར་སྐྱེས་བསྡེབས་ཕ་མར་དགེ། །བུ་དར་བསྡེབས་པ་དར་རྒྱས་འོང་། །གྲོགས་དར་བསྡེབས་པ་རིགས་བརྒྱུད་དཀོན། །དགྲ་དར་བསྡེབས་པ་ནད་མོད་ལ།» (WB vol. 1, p. 363, img. 373, ll. 15–17, Yigdzin-1, not read on the scan; under the head «བཅུ་གསུམ་དར་གུད་བསྟན་ལ་གཉིས», the thirteenth, rise and fall (དར་གུད, dar gud)). So «དར» after a relation word is regular: own, mother, son, friend and enemy each have a rise. It is not the state of the general rule «གང་ཚེས་དེ་དར་བུ་ཡང་དར། །མ་ཞུད་དགྲ་གུད་གྲོགས་ནི་གྱོད།» (1996 etext img. 321), where the enemy's state is fall. With the regent's reply (claim [regent-dgra-dar-black-and-white-in-reply-148](claims/regent-dgra-dar-black-and-white-in-reply-148.md)) this makes a misprint unlikely. At p. 54 the word stands in the slot of the enemy year between the friend year and the great cut-off, so the place is the same; why this one place of the run has «དར» for «ལོ» is not said.
+
+### q281: the thirteen blades (dead end; repeats the claim)
+
+The digest has neither «གྲི་རིགས» nor «ཐོག་གྲི». Two names of the kinds of p. 73 occur in its verse on corpses that may not be disposed of in a given way, «ཆུ་གྲི» (img. 567) and «རྦབ་གྲི» (img. 568, etext), without a count. The claim [wb-blade-kinds-no-other-list-found](claims/wb-blade-kinds-no-other-list-found.md) stands; the notes' «ཕྱི་མ་གསུམ» stays unexplained.
+
+### q297: the snake marks are on the Zhol print (narrowed)
+
+The digest counts nothing. The notes' «རྩ་བར་སྦྲུལ་ཤད་ཅན་བརྩི» (p. 517), "in the root text count those with the snake mark", had not been looked for on a block print. On the Zhol print they are there: on img. 804 small wavy strokes stand above four verse heads, by eye at 3×: «མོན་གྲུ་འདི་ལ་གཡང་ལོན་བྱ», «ཁྲུམས་སྟོད་ཁྲུམས་སྨད་ལ་ཤི་ན», «ཁྲུམས་སྨད་འཁོར་ལོ…», «ནམ་གྲུ…». They mark one mansion each, and they are not the 1996 setting's dots, which pass over «མོན་གྲུ» and the second «ཁྲུམས་སྨད». Whether they are carved or added in ink on this copy is not settled by the scan; img. 805 has grey blots of wash over the year heads and one such stroke. So the notes' counts are meant of marked items, and a count of the marks over img. 782–806 can test 10, 24, 9, 20, 13, 8, 27, 17 and 24; it was not made. One lead for it: the dots of the 1996 setting on p. 122 give exactly 5 elements + 12 years = 17 heads, the notes' figure for the class they call the first mansions, where the earlier table sets 24 on that page.
+
+### q300: the five clans (answered)
+
+WB's own p. 92 gives four of the equations in one run: «ཀུངས་ས་སྤེན་ཤི་འཐོར་བྱེད་དང་། །ཇི་མེ་ཉི་མ་དགུ་ལ་ཟློས། །ཤང་ལྕགས་ཉི་མ་མིག་དམར་ཤི། …ལྔ་ཟློས་འུ་ཆུ་རཱ་ཧུ་ཡིས།», earth *kungs*, fire *ji*, iron *shang*, water *'u*. The fifth is in a verse primer at the head of the Bhutan collection (not the digest; img. 15, ll. 3–4, by eye at reading size):
+
+> དང་པོ་ཁམས་ནི་ཀེག་ཤིང་དང་། །ཇི་མེ་ཀུངས་ས་ཤང་ལྕགས་ཏེ། །འུ་ཆུ་རུས་ཆེན་ལྔ་རུ་གྲགས།
+
+(First, the elements: *keg* (ཀེག) wood, *ji* (ཇི) fire, *kungs* (ཀུངས) earth, *shang* (ཤང) iron, *'u* (འུ) water: known as the five great clans.) UT has the same line (etext p. 43, «རུས་ཆེན་ལྔ»), and LT ties the five to the years (etext p. 35). So the slips of p. 114 are right.
+
+The clan is not computed from the dead's dates. It is the five great clans (རུས་ཆེན, rus chen) into which families fall. The primer tells them by the voice, «སྐད་འགགས་གྲེ་བ་འདར་ཀེག་ཤིང་། །སོ་བར་སྒྲ་འདོན་ཇི་མེ་ཡིན། །ལྟེ་ཁུང་དབུགས་བསྡུད་ཀུང་ས་དང་།…» (the voice stopped and the throat trembling, *keg*; sound between the teeth, *ji*; breath drawn in at the navel, *kungs*; ll. 4–5, then breath through the nose for *shang* and lips drawn in for *'u*, etext), or, "here in lower Mdo khams", by the old clan names gdong (གདོང) earth, 'gu (འགུ, etext) water, dbra (དབྲ) iron, sgo (སྒོ) fire, sga (སྒ) wood, each with its la-animal (img. 15–16, etext); who does not know the clan is gathered into gdong, "but let the wise examine". UT adds that present practice calls it the la (etext p. 43). This agrees with the reckoning's asking the clan's element as a fact.
+
+### q309: the ages with no old kind (answered, by WB)
+
+The digest has no kinds of old. WB closes the gap itself on p. 79: the nine rounds are the reckoning for a life of a hundred, and another round follows for the present span, by condition, not by age:
+
+> གཞན་ཡང་བཀྲ་སྐོར་རྣམ་གཅིག་ནི། །ཚེ་ལོ་བརྒྱ་བར་གོང་བཞིན་དུ། །མཆིས་ཀྱང་ད་ལྟའི་ཚེ་ལོ་ལ། །སྐྱེས་པ་དྲུག་ཅུ་རྩ་གཅིག་ནས། །བཀྲ་འོ་བུད་མེད་དྲུག་ཅུ་ནས། །བཀྲ་འོ་དེ་ཡང་ཟླ་མ་བྲལ། །ཐོན་བུ་མ་བྲལ་བཀྲ་དང་པོ། །ཟླ་བྲལ་བུ་ཚ་འདུར་བ་ཡོད། །གུམ་ན་བཀྲ་བཟང་དུ་བརྩིས་ཤིག །ཁྱེའུ་མེད་ཟླ་བྲལ་བཀྲ་རབས་ཆད། །
+
+(wb.2:p77-80. Another round of the old: up to a life of a hundred it is as above, but in the present span a man from sixty-one is old, a woman from sixty is old. Not widowed, not parted from the first son: the first old. Widowed, with sons to give the share: reckon the one who dies a good old. No son, widowed: an old whose line is cut.) So a man of 61–69 or 83 and a woman of 66, 70–71 or 73–77 take this round: they are old, and their kind goes by companion and son. For the women WB also has two kinds not tied to one age (pp. 77–79), *srid sman* (of the old's years, no descendants) and *mche ser ma* (sixty to seventy, sons and husband dead). The notes add only that the names are known by examining the years (p. 504).
+
+### q313: the old one sri'u (narrowed)
+
+The digest does not have the lines. «དབུས་ནག» stands on every print read: reprint img. 086, l. 3, and Zhol img. 741, l. 5, by eye, both «དེ་ལ་བཀྲ་སྲིའུ་དབུས་ནག་དང་། །གཅིག་དཀར་བཞི་ལྗང་བབས་པའི་དུས།», so it is no misprint for «གཉིས་ནག» (two black). The colours are mewa: Mipham glosses the lines that follow, «བཀྲ་ལུས་ནག་ཤི་སེར་ཤི་སོགས་བུར་མ་མཐོང་ཡང་། བཀྲ་དེའི་ལུས་སྨེ་གང་ཡིན་ལས་འདྲའོ།» (p. 504): "the old body died black, died yellow and so on: even where no son is seen, it goes as that old one's body mewa (ལུས་སྨེ, lus sme) is." So "body" in these lines is the body mewa, and one white and four green are mewas fallen.
+
+Where the corpse goes, as the verse has it (wb.2:p77-80): when these fall he is one with power (དབང་ཐང་ཅན, dbang thang can), and the corpse's place is not sent "from the waist to the hands and feet": «དེ་དབུས་ཞེས་བྱ་སྟེ», "that is called the centre"; on the side of the house that is easy, the edge not dug; with many sons a round terrace, with few a square. Without the corpse's power, hidden at the border of outside and inside. With the body black, the sons' side, in five holes; with yellow and red, the rites of those lines. What the first «དབུས» in «དབུས་ནག» counts, a place or a mewa at the centre, is not said; the verse's own «དབུས» is a place in the house.
+
+### q316: the two mansions left (narrowed)
+
+The digest has no list of p. 92, but WB's and its own mansion entries bear on *nor phyugs* (ནོར་ཕྱུགས, "wealth and cattle"). P. 121 opens the entry of Śravaṇa with «གྲོ་བཞིན་བྱི་བཞིན་ནོར་ལ་གཟན», "gro bzhin [and] byi bzhin gnaw at wealth", and goes on to byi bzhin as an entry of its own; the digest has the same words (img. 518, etext). With *bya spo* already *byi bzhin* (claim [dead-sounding-mansion-aliases](claims/dead-sounding-mansion-aliases.md)), *nor phyugs* is probably gro bzhin (གྲོ་བཞིན), Śravaṇa, the mansion that stands next after chu smad as the verse wants. Probable, not stated. For *bya 'u* (བྱ་འུ) nothing read decides. The collection's verse of bad mansions (img. 84 and 479, etext) has «བྱའུ» without a place: «སྨིན་སྩལ་རྟ་ཆུང་བྱའུ་མགོ །ནམ་མཐེང་ཆེ་ཆུང་སོག་པ་གྲེ། །མཆུ་ལག་བྲ་ཉེ…». It lists *rta chung* and gre side by side, and mchu after both, which sits ill with the claim's *rta chung* = gre and *rta chen* = mchu.
+
+### q510: which mewa each label takes (narrowed)
+
+The digest drops the four-line verse and goes mewa by mewa (table, img. 557–558, etext), as WB pp. 71–72 do; it gives no classes. The notes' line has been cited with a gap. It reads, by eye on the reprint img. 507, l. 6 (1996 img. 509, l. 6; printed p. 501, the question's "p. 507" being the reprint's image): «སྨེ་བ་དཀར་གསུམ་དང་། དམར་གཉིས་སེར་གསུམ་དང་ནག་གཉིས་ལྗང་དང་གསུམ་སྟེ་བཞི་ངོས་འཛིན་ལ་བརྩིས་འདུག» So Mipham writes «ལྗང་དང་གསུམ» where the verse has «ལྗང་གསུམ». That allows «གསུམ» to be the count of a class, not a colour's number: the white three (1, 6, 8), the reds two with yellow, three (7, 9, 5), black two with green and blue, three (2, 3, 4), nine in all, and five yellow named apart as the fourth because it alone gives a human body. This would explain why the label says «གསུམ» after the red-two class. It is a reading of the arithmetic, stated nowhere, and pp. 71–72's births do not follow it.
+
+### q512: the la board's count on p. 45 (answered; repeats q371)
+
+The passage, by eye on the reprint I3CN5029 img. 051, ll. 19–21 (1996 img. 053):
+
+> ཚ་ཡུག་གིས་བྱ་འཆད་ཆེན་ལ། །ནག་གསུམ་འཆད་ཆུང་ནག་པོ་གཉིས། །མ་ལོ་ཆེ་ཆུང་དཀར་པོ་གཉིས། །དབང་ལོ་ཆེ་ཆུང་དཀར་པོ་རེ། །བུ་ལོ་ཆེ་ཆུང་དཀར་ནག་ཟུང་། །དགྲ་ལོ་ཆེ་ཆུང་ནག་པོ་རེ། །གྲོགས་ལོ་ཆེ་ཆུང་དཀར་གཉིས་དང་། །ནག་རེ་བོར་ལ་རྡེལ་དབར་ཚད། །སོར་བཞི་བཞག་ལ་རྒན་རིམ་
+
+(… at the great cut-off, three black; at the small cut-off, two black; at the great and small mother year, two white; at the great and small power year, one white each; at the great and small son year, a white and a black; at the great and small enemy year, one black each; at the great and small friend year, two white and one black; and the gap between pebbles four fingers, laid in order of age.) The print spells «འཆད» here. It is the verse of the claim [dead-la-count-wb-root](claims/dead-la-count-wb-root.md), which answered q371; the sentence of [dead-la-pebbles-layout](claims/dead-la-pebbles-layout.md) saying WB's pages give no such count is corrected in this reading. The digest has no la board.
+
+### q567, q568, q569: the counts (dead ends in the digest)
+
+The digest has no count lines: none of «རྡེལ་དོན», «ངོས་རྡེལ», «ཞེ་གསུམ», «ཉིས་སྟོང» occurs in it as a count, and it sets out the tenth's and twelfth's items without numbers. It has a table of the sky dogs (གནམ་ཁྱི, gnam khyi) by the twelve months (img. 572, by eye), their dates and their hours, with no total; it does not touch the forty-three. The three questions stay as RD117 left them.
+
+### Open
+
+- Question: Khon's block of the provisions (WB vol. 2, pp. 129–130) has no seal on the Zhol print, the Gser thang reprint or the 1996 print, and p. 124's rule would want a wood trigram there. Is the line lost from all the prints, or is khon left unsealed on purpose?
+- Question: By what rule do gin and zon seal each other in the provisions (pp. 130–132), when the five seals of p. 124 leave both out?
+- Question: In the old one *sri'u* of p. 80, does «དབུས» of «དབུས་ནག» name a mewa at the centre or the place in the house that the verse goes on to call «དབུས»?
+- Question: Do the wavy marks of the Zhol print (img. 804) give, counted over img. 782–806, Mipham's 10, 24, 9, 20, 13, 8, 27, 17 and 24 of p. 517, and are they carved or inked on this copy?
+- Question: Is «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» (p. 501) a count of three mewas to a class?
+- Question: Is *rta chung* of the sounding (WB vol. 2, p. 92) gre, when the Bhutan collection's verse of bad mansions lists the two side by side?
+- Question: Who is the digest's writer, read here with doubt as the novice Ye shes chos 'dzin of Skye mo rgyal byed, and what year does the colophon's date on img. 600 give?
+
+### Searched and not found
+
+- 2026-11-05, the digest (Bhutan collection etext, img. 479–601): the road omens («ལ་ཉེ», «ཐེབས», «ལྡོག་པའི»); the colophon's names («སྤྱུག», «སྤྲུག», «ལྡུམ», «ཆོམས་ཁྱུང»); «དགྲ་དར», «དགྲ་ལོ», «ཆད་ཆེན», «བླ་རྡེ»; «གྲི་རིགས», «ཐོག་གྲི», «གྲགས་རྒྱལ», «ཤངས་དཀར»; «བཀྲ་རྒྱལ», «བཀྲ་ལུས», «བཀྲ་དཔྱད», «བསྲུང་མེད»; the verse of p. 80 («དབུས་ནག», «གཅིག་དཀར་བཞི»); the list of p. 92 («རྟ་ཆེན», «ལྡེ་འུ», «བྱ་སྤོ»); the verse of p. 70 («དཀར་གསུམ», «བར་དོར»); «རྡེལ་དོན», «ངོས་རྡེལ», «ཞེ་གསུམ»: none in WB's sense.
+- 2026-11-05, «བྱ་འུ» as a mansion in the etexts of the collection, LT, UT, I4949, the regent's replies (I5876) and the Zhol print: the verse of bad mansions and the list at img. 259 only, neither with a number.
