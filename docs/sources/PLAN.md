@@ -1386,3 +1386,9 @@ Searched and found wanting, so not to be repeated:
 - **RD163, the direction gods (2026-11-05)** (RD163, 2026-11-05):
   - A text that calls livestock good towards the 歳破: none in the 暦林問答集, the 簠簋内伝, the 協紀辨方書, the 假名暦本名頒暦畧註, the 方鑒精義大成, こよみの友, the 1924–1928 almanacs or the NDL full-text search; the exhibition page names no source.
   - A commentary on the 拾芥抄's 天一太白 sentence; a rule for which 金神遊行 wins (first 25 hits of each search); 日遊 with a direction outside the house; 金神 in the 二中歴; the 高島暦 of today (the NDL lists it without images): the terms searched are in kyureki.md, *Searched and not found* of RD163.
+- **RD161, ch. 29's words (2026-11-05)** (RD161, 2026-11-05):
+  - BDRC exact phrases with no text but WB's prints: «སེལ་གོག», «ཏིང་མཉྫི», «སླ་ང་རྩེས», «གསང་ཤིད», «བྱུར་ཤིད», «སིག་ལྐོགས», «དུ་རུ་ཅན», «སྨན་ལེ་འབྲང» (but for two offering lists), «ས་བདག་ཁར་བུ», «བཀྲ་བྱེ་མ», «བཀྲ་ཆུ་རྟེན», «གནམ་གྱི་བྱི་ལམ», «ཇུ་ཚེ་གླུ», «རྡེལ་ཕྲེང་གསུམ», «ཚ་རགས་སྣ».
+  - BDRC no hit: «ཕ་གུ་མེས», «བང་སོ་དུ་རུ», «སྐྱར་མའི་ནང», «གྲི་ཐལ་ཤལ», «བུས་པ་ཤར་བ» as «བྱིས་པ་ཤར་བ»; Wylie «gsang-shid» none, «byur-shid» and «'dur-shid» Gyurme Dorje alone.
+  - The Bhutan digest (I1KG11905, etext pp. 479–597), no line for: «སྟེང་འཁོར», «ཟོ་བ», «འོག་རྟ», «བྱེ་ཐག», «འབྲང་རྒྱས», «གཡེར་མ», «ཕ་གུ», «རྨང་པོ», «ཚ་རགས», the funeral shares.
+  - Steinert's dictionaries, no headword: «ju rtse», «ju tshe», «ju tsher», «sor le», «tshar shing», «phan ngon», «tsha rags», «bye thag», «bse rags», «bang sa».
+  - The Blue Beryl's page image (I1PD411 img. 450) is not served by `bdrc.py scans`; I8LS20838 img. 228 holds printed p. 216, not the etext's p. 228.

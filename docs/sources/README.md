@@ -694,28 +694,28 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0274.md](questions/q0274.md) | question q274 | The stack «བརྫེ» on p. 54 and the other doubtful syllables of pp. 53–55 | open; cites wb.2:p54-55, wb.2:p52-54, wb.2:p55 |
 | [questions/q0275.md](questions/q0275.md) | question q275 | «སེར་གསུམ» in the rebirth by the mewa | open; cites wb.2:p70-72, wb.2:p500-501 |
 | [questions/q0276.md](questions/q0276.md) | question q276 | The thirteen who may not be offered food | open; cites wb.2:p68-70, wb.2:p503-504 |
-| [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | open; cites wb.2:p68-70 |
+| [questions/q0277.md](questions/q0277.md) | question q277 | «འཚོལ་བ» or «འཆོལ་བ»: the six funeral shares | answered; cites wb.2:p68-70 |
 | [questions/q0278.md](questions/q0278.md) | question q278 | Unidentified things of the funeral share and the corpse kinds | open; cites wb.2:p68-70, wb.2:p72, wb.2:p72-74 |
 | [questions/q0279.md](questions/q0279.md) | question q279 | The dog day's former and next life | answered; cites wb.2:p70-72 |
 | [questions/q0280.md](questions/q0280.md) | question q280 | The auspicious thing taken at death, p. 71 | open; cites wb.2:p70-72 |
 | [questions/q0281.md](questions/q0281.md) | question q281 | The thirteen kinds of blade | open; cites wb.2:p72-74, wb.2:p503-504 |
 | [questions/q0282.md](questions/q0282.md) | question q282 | How the death day's planet's state is found | open; cites wb.2:p63-65 |
 | [questions/q0283.md](questions/q0283.md) | question q283 | «ཤི་ལོའི་སྤར་སྨེ»: the year's own, or the dead's descended | open; cites wb.2:p503b |
-| [questions/q0284.md](questions/q0284.md) | question q284 | «སྤྲོ» for U. Phalgunī among the mansions | open; cites wb.2:p65-66 |
+| [questions/q0284.md](questions/q0284.md) | question q284 | «སྤྲོ» for U. Phalgunī among the mansions | answered; cites wb.2:p65-66 |
 | [questions/q0285.md](questions/q0285.md) | question q285 | The months of the day's-animal entries | open; cites wb.2:p63 |
 | [questions/q0286.md](questions/q0286.md) | question q286 | «གཡང་[ཤེན]་གཅིག» and «ཚགས་བྱ» in U. Phalgunī's entry | answered; cites wb.2:p65-66, wbz:i720 |
 | [questions/q0287.md](questions/q0287.md) | question q287 | Objects and rites of the third examination left unexplained | open; cites wb.2:p58-60, wb.2:p60-62, wb.2:p63-65, wb.2:p65-66, wb.2:p66-68 |
 | [questions/q0288.md](questions/q0288.md) | question q288 | «གནམ་གྱི་བྱི་ལམ» or «བྱ་ལམ»: the sky's road | open; cites wb.2:p94-96 |
 | [questions/q0289.md](questions/q0289.md) | question q289 | The five parts of each direction on the grid of the sun and moon | open; cites wb.2:p96-97 |
 | [questions/q0290.md](questions/q0290.md) | question q290 | «ས་བདག་ཁྲུ་ལུ» and the khar bu of p. 224 | open; cites wb.2:p96-97 |
-| [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | open; cites wb.2:p97-100, wb.2:p126-128 |
+| [questions/q0291.md](questions/q0291.md) | question q291 | Who the «བཙད་པོ» is | answered; cites wb.2:p97-100, wb.2:p126-128 |
 | [questions/q0292.md](questions/q0292.md) | question q292 | Two pegs on the nine-red, none on the eight-white | open; cites wb.2:p126-128 |
-| [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | open; cites wb.2:p104, wbz:i777 |
+| [questions/q0293.md](questions/q0293.md) | question q293 | «རྨང་པོར་འགྲོ» among the places not allowed | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0294.md](questions/q0294.md) | question q294 | «རྗེ་ངན་རྗེ་ཆུང» or «ཇེ» | answered; cites wb.2:p104, wbz:i777 |
 | [questions/q0295.md](questions/q0295.md) | question q295 | The 8 white's direction in the mewa rite | open; cites wb.2:p112 |
 | [questions/q0296.md](questions/q0296.md) | question q296 | The mansions «སྦ་སྨད», «ལག་སོར» and «སྤོ» on p. 122 | open; cites wb.2:p122 |
 | [questions/q0297.md](questions/q0297.md) | question q297 | Mipham's thirteen remedy classes against the chapter's twelve | open; cites wb.2:p517 |
-| [questions/q0298.md](questions/q0298.md) | question q298 | The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ» | open; cites wb.2:p109-111, wb.2:p111-112, wb.2:p517 |
+| [questions/q0298.md](questions/q0298.md) | question q298 | The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ» | answered; cites wb.2:p109-111, wb.2:p111-112, wb.2:p517 |
 | [questions/q0299.md](questions/q0299.md) | question q299 | The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan | open; cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114 |
 | [questions/q0300.md](questions/q0300.md) | question q300 | The five clans of the strikes, p. 114 | open; cites wb.2:p112-114, wb.2:p114-115 |
 | [questions/q0301.md](questions/q0301.md) | question q301 | How the thirty's count runs through the years | open; cites wb.1:p453-454, wb.2:p532-533 |
@@ -727,7 +727,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | answered; cites wb.2:p90-93 |
 | [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | answered; cites wb.2:p86-90, wb.2:p77-80 |
 | [questions/q0309.md](questions/q0309.md) | question q309 | The ages with no old kind | open; cites wb.2:p77-80 |
-| [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | open; cites wb.2:p86-90 |
+| [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | answered; cites wb.2:p86-90 |
 | [questions/q0311.md](questions/q0311.md) | question q311 | «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding | open; cites wb.2:p90-93 |
 | [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
 | [questions/q0313.md](questions/q0313.md) | question q313 | The old one sri'u by the mewa, p. 80 | open; cites wb.2:p80-82 |
@@ -737,7 +737,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0317.md](questions/q0317.md) | question q317 | «གསུམ་གྱིས་བགོས» or «བཞི»: dividing the household's pebbles | open; cites wb.2:p490-491 |
 | [questions/q0318.md](questions/q0318.md) | question q318 | A speckled deciding pebble in the household round | open; cites wb.1:p385-387, wb.2:p490-491, dz:i048-049 |
 | [questions/q0319.md](questions/q0319.md) | question q319 | The wealth's places among the household's rows | open; cites wb.1:p385-387, wb.2:p490-491 |
-| [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | open; cites wb.2:p490-491 |
+| [questions/q0320.md](questions/q0320.md) | question q320 | «རྡེལ་ཕྲེང་གསུམ» and the box over the fold | answered; cites wb.2:p490-491 |
 | [questions/q0321.md](questions/q0321.md) | question q321 | Ch. 28's seasons against the Phugpa months | open; cites wb.2:p26, wb.2:p537 |
 | [questions/q0322.md](questions/q0322.md) | question q322 | The parts of the hand of stars on p. 28's figure | open; cites wb.2:p26-27, wb.2:p27-28 |
 | [questions/q0323.md](questions/q0323.md) | question q323 | The six full moons from the tenth month | open; cites wb.2:p27-28 |
@@ -751,11 +751,11 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0331.md](questions/q0331.md) | question q331 | The 360's fifth and sixth years and «ཕྱི་རྩིས» | open; cites wb.2:p42-43, wbz:i686 |
 | [questions/q0332.md](questions/q0332.md) | question q332 | The trigrams and «བོན་བཞི» of ordination, p. 39 | open; cites wb.2:p39b |
 | [questions/q0333.md](questions/q0333.md) | question q333 | «ཤི་སྐབ» or «ཤི་སྒབ» throughout the thirteenth | open; cites wb.2:p104-105, wb.2:p105-106, wb.2:p106-107, wb.2:p107-108, wbz:i778, wbz:i784 |
-| [questions/q0334.md](questions/q0334.md) | question q334 | The word read «ལྷང» on p. 106 | open; cites wb.2:p106-107 |
+| [questions/q0334.md](questions/q0334.md) | question q334 | The word read «ལྷང» on p. 106 | answered; cites wb.2:p106-107 |
 | [questions/q0335.md](questions/q0335.md) | question q335 | «གཤེད་བཞི་ཤར་དུ་མི་གཏོང»: the east, or where the four slayers rise | open; cites wb.2:p97-100 |
 | [questions/q0336.md](questions/q0336.md) | question q336 | «བཀྲ་ངོ» or «བཀྲ་རོ» on p. 98 | answered; cites wb.2:p97-100, wbz:i768 |
 | [questions/q0337.md](questions/q0337.md) | question q337 | «སྤྲ་སྒོ» and «རྨེ་བདུན» in the corpse's facing | open; cites wb.2:p97-100 |
-| [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | open; cites wb.2:p133-135, wbz:i826 |
+| [questions/q0338.md](questions/q0338.md) | question q338 | «ཕ་གུ» or «ཕ་ཁུ» for the kin of wood | answered; cites wb.2:p133-135, wbz:i826 |
 | [questions/q0339.md](questions/q0339.md) | question q339 | «ལུག་ལོ་ཁོ་ན་ཤི» among the belly strikes | answered; cites wb.2:p504-512 |
 | [questions/q0340.md](questions/q0340.md) | question q340 | «སྨྱུག་མོ» and «ཚོས» among the kin a bad trigram touches | answered; cites wb.2:p504-512 |
 | [questions/q0341.md](questions/q0341.md) | question q341 | «མཚོལ» or «མནོལ» on p. 165 | open; cites wb.2:p165 |
@@ -1049,6 +1049,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | open; cites — |
 | [questions/q0630.md](questions/q0630.md) | question q630 | «རྗོན» on pp. 317 and 323: a spelling of «རྔོན» or another word | open; cites wb.2:p317 |
 | [questions/q0631.md](questions/q0631.md) | question q631 | Bharaṇī's minor star on p. 314: «ཕུང་རྒྱབ་ཅན» or «ཕུང་རྒྱང་ཅན» | open; cites wb.2:p314 |
+| [questions/q0632.md](questions/q0632.md) | question q632 | «རྒྱུག» in the notes' «སྤུད་པ་དགུ་རྒྱུག་དྲུག» | open; cites wb.2:p517 |
+| [questions/q0633.md](questions/q0633.md) | question q633 | The goat's bladder on p. 106: lost by the Zhol or added by the 1996 print | open; cites — |
+| [questions/q0634.md](questions/q0634.md) | question q634 | The snake's «སྦོ་སྨད» on p. 122 | open; cites wb.2:p122 |
+| [questions/q0635.md](questions/q0635.md) | question q635 | The seventh of the old: «ཕན་ངོན» or «བན་བོན» | open; cites — |
 
 <!-- end pool index -->
 
