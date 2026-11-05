@@ -1392,3 +1392,6 @@ Searched and found wanting, so not to be repeated:
   - The Bhutan digest (I1KG11905, etext pp. 479–597), no line for: «སྟེང་འཁོར», «ཟོ་བ», «འོག་རྟ», «བྱེ་ཐག», «འབྲང་རྒྱས», «གཡེར་མ», «ཕ་གུ», «རྨང་པོ», «ཚ་རགས», the funeral shares.
   - Steinert's dictionaries, no headword: «ju rtse», «ju tshe», «ju tsher», «sor le», «tshar shing», «phan ngon», «tsha rags», «bye thag», «bse rags», «bang sa».
   - The Blue Beryl's page image (I1PD411 img. 450) is not served by `bdrc.py scans`; I8LS20838 img. 228 holds printed p. 216, not the etext's p. 228.
+- **RD164, the Bhutan digest (2026-11-05)** (RD164, 2026-11-05):
+  - The digest (Bhutan collection etext, img. 479–601) has none of these in WB's sense: the road omens, the colophon's names, «དགྲ་དར», «དགྲ་ལོ», «ཆད་ཆེན», «བླ་རྡེ», the blades, the speckled parts, the verses of pp. 70 and 80, the list of p. 92, «རྡེལ་དོན», «ངོས་རྡེལ», «ཞེ་གསུམ»: the terms are in reckonings.md, RD164.
+  - «བྱ་འུ» as a mansion in the collection, LT, UT, I4949, the regent's replies and the Zhol print: the verse of bad mansions and the list at img. 259 only, neither with a number.

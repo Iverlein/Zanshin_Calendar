@@ -209,7 +209,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [claims/dead-kin-element-years.md](claims/dead-kin-element-years.md) | claim, table | The dead's paternal kin by element and the members' years | cites wb.2:p51-52; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-count-wb-root.md](claims/dead-la-count-wb-root.md) | claim, rule | The la board's count is WB's own verse, which the Moonbeams follows; LT's count is the birth's | cites wb.2:p45, dz:i055-057, lt:p26-28, wb.1:p260-261, wb.2:p499-500; feeds block-31 |
 | [claims/dead-la-general-verdict.md](claims/dead-la-general-verdict.md) | claim, table | The la pebbles' general verdict: the board's shape | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
-| [claims/dead-la-pebbles-layout.md](claims/dead-la-pebbles-layout.md) | claim, rule | The twelve la pebbles: the board and how each living member is laid | cites wb.2:p52-54, wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
+| [claims/dead-la-pebbles-layout.md](claims/dead-la-pebbles-layout.md) | claim, rule | The twelve la pebbles: the board and how each living member is laid | cites wb.2:p45, wb.2:p52-54, wb.2:p499-500; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-special-verdict.md](claims/dead-la-special-verdict.md) | claim, table | The la pebbles' special verdict: black or half before each place | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-specific-verdict.md](claims/dead-la-specific-verdict.md) | claim, table | The la pebbles' specific verdict: empty and filled places | cites wb.2:p52-54, wb.2:p502; feeds SPEC §5.9.4, block-31 |
 | [claims/dead-la-upper-lower-waist-male-female-line.md](claims/dead-la-upper-lower-waist-male-female-line.md) | claim, rule | The la pebbles' upper, lower and waist: WB states them as the male line, the female line and a split of the kin | cites wb.2:p52-54, wb.2:p502, wb.1:p471-472; feeds block-31 |
@@ -717,7 +717,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0297.md](questions/q0297.md) | question q297 | Mipham's thirteen remedy classes against the chapter's twelve | open; cites wb.2:p517 |
 | [questions/q0298.md](questions/q0298.md) | question q298 | The spud pa and rgyug of «རྒྱ་ཡི་སྤུད་པ་དགུ» | answered; cites wb.2:p109-111, wb.2:p111-112, wb.2:p517 |
 | [questions/q0299.md](questions/q0299.md) | question q299 | The rites gzhob sel, gung phur, sha ri bhyo, sha ru, ma tram, ur mnan | open; cites wb.2:p105-106, wb.2:p107-108, wb.2:p112-114 |
-| [questions/q0300.md](questions/q0300.md) | question q300 | The five clans of the strikes, p. 114 | open; cites wb.2:p112-114, wb.2:p114-115 |
+| [questions/q0300.md](questions/q0300.md) | question q300 | The five clans of the strikes, p. 114 | answered; cites wb.2:p112-114, wb.2:p114-115 |
 | [questions/q0301.md](questions/q0301.md) | question q301 | How the thirty's count runs through the years | open; cites wb.1:p453-454, wb.2:p532-533 |
 | [questions/q0302.md](questions/q0302.md) | question q302 | The thirty pairs and the thirty readings in one order | answered; cites wb.1:p453-454, wb.1:p454, wb.2:p532-533, dz:i029-034 |
 | [questions/q0303.md](questions/q0303.md) | question q303 | Whose year serves for the son and bride and the points the notes pass over | open; cites wb.2:p532-533 |
@@ -726,7 +726,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0306.md](questions/q0306.md) | question q306 | Is the check order the order of the eight fighting pebbles | open; cites wb.1:p454, wb.1:p454-455, wb.1:p457-458, wb.2:p532-533 |
 | [questions/q0307.md](questions/q0307.md) | question q307 | Over which pebbles the sounding's black and white are counted | answered; cites wb.2:p90-93 |
 | [questions/q0308.md](questions/q0308.md) | question q308 | The age of the nine-eye and the old kinds, and the rounds to the executioner | answered; cites wb.2:p86-90, wb.2:p77-80 |
-| [questions/q0309.md](questions/q0309.md) | question q309 | The ages with no old kind | open; cites wb.2:p77-80 |
+| [questions/q0309.md](questions/q0309.md) | question q309 | The ages with no old kind | answered; cites wb.2:p77-80 |
 | [questions/q0310.md](questions/q0310.md) | question q310 | «ཇ་ལ་རྩུབ» at the nine-eye of 27 | answered; cites wb.2:p86-90 |
 | [questions/q0311.md](questions/q0311.md) | question q311 | «འཕུང་སྲི་ཛ་མོ» or «རྫ་མོ» in the sounding | open; cites wb.2:p90-93 |
 | [questions/q0312.md](questions/q0312.md) | question q312 | Unidentified provisions of the trigrams and the old | open; cites wb.2:p75-77 |
@@ -929,7 +929,7 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0509.md](questions/q0509.md) | question q509 | The stacks of p. 54 ll. 27–28: «བརྗེའི་རོ» under yellow | open; cites wb.2:p48 |
 | [questions/q0510.md](questions/q0510.md) | question q510 | Which mewa does each class label of p. 70's verse take | open; cites wb.2:p71a |
 | [questions/q0511.md](questions/q0511.md) | question q511 | Is the four executioners' door of p. 53 the great cut-off place's | open; cites wb.2:p50a |
-| [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | open; cites wb.2:p47 |
+| [questions/q0512.md](questions/q0512.md) | question q512 | The la board's count on WB p. 45 against the claim dead-la-pebbles-layout | answered; cites wb.2:p47 |
 | [questions/q0513.md](questions/q0513.md) | question q513 | The secret obstacle's «མ་སྤར»: which own trigrams take li and which kham | open; cites wb.1:p390 |
 | [questions/q0514.md](questions/q0514.md) | question q514 | «ཐེག» in «ངོ་ཐེག» (WB vol. 1, p. 381) | open; cites wb.1:p381 |
 | [questions/q0515.md](questions/q0515.md) | question q515 | The light-clearer's grave in the tiger, snake, monkey and pig months: which of ox, sheep, dragon, dog | open; cites wb.2:p224d |
@@ -1053,6 +1053,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0633.md](questions/q0633.md) | question q633 | The goat's bladder on p. 106: lost by the Zhol or added by the 1996 print | open; cites — |
 | [questions/q0634.md](questions/q0634.md) | question q634 | The snake's «སྦོ་སྨད» on p. 122 | open; cites wb.2:p122 |
 | [questions/q0635.md](questions/q0635.md) | question q635 | The seventh of the old: «ཕན་ངོན» or «བན་བོན» | open; cites — |
+| [questions/q0636.md](questions/q0636.md) | question q636 | Khon's block of the provisions without a seal | open; cites wb.2:p129-132 |
+| [questions/q0637.md](questions/q0637.md) | question q637 | How gin and zon seal each other in the provisions | open; cites wb.2:p129-132 |
+| [questions/q0638.md](questions/q0638.md) | question q638 | «དབུས» of «དབུས་ནག» in the old one sri'u, p. 80 | open; cites — |
+| [questions/q0639.md](questions/q0639.md) | question q639 | The Zhol print's wavy marks against Mipham's counts, p. 517 | open; cites wb.2:p517 |
+| [questions/q0640.md](questions/q0640.md) | question q640 | «གསུམ» in p. 70's labels and the notes' «ལྗང་དང་གསུམ» | open; cites — |
+| [questions/q0641.md](questions/q0641.md) | question q641 | *Rta chung* of the sounding: gre or not | open; cites — |
+| [questions/q0642.md](questions/q0642.md) | question q642 | The Bhutan digest's writer and date | open; cites — |
 
 <!-- end pool index -->
 
