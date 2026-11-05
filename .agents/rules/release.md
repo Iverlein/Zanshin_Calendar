@@ -45,8 +45,9 @@ On every merge of a feature, in the same branch:
    README. Before merging, `prose-scan` both listings and run the rendered
    page through `ai-check --pieces 1500`, since Sapling's free form reads only
    the head of a long text. Its score moves with where the text is cut, in both
-   languages and most in Russian, so run two cuts, read ZeroGPT beside it and
-   judge by the wording.
+   languages and most in Russian, so run several cuts and read Scribbr and
+   ZeroGPT beside it. What moves the score: `detector-resistant-prose` in
+   `~/knowledge/`. The Russian site text has no «ё» except in рокуё.
 6. **Screenshots**, both languages: retake them with
    `tools/emulator/store_shots.py en|ru OUTDIR` whenever a screen they
    show has changed, review every PNG, then copy them into
