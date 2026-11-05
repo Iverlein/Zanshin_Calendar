@@ -1221,7 +1221,7 @@ Searched and found wanting, so not to be repeated:
   - A text that says which 金神遊行 wins: not in the 簠簋内伝, 拾芥抄, three Meiji almanac-books or the 古事類苑.
   - The 歳破's «livestock good»: not in the kana almanacs (dozens of copies, 1712–1860s), the 簠簋内伝, 拾芥抄 or 古事類苑.
   - The 歳殺's, 黄幡's and 歳刑's branches in a triad rule in an old text: the 暦林問答集 gives the 歳刑 by quarter, the 簠簋内伝 only the table.
-  - The 假名暦略註's own text: NDL pids 14487066 and 13589337 have no machine text and no open images.
+  - The 假名暦略註's own text: NDL pids 14487066 and 13589337 have no machine text and no open images. *Corrected 2026-11-05 (RD163): 14487066 has open images, read by eye; only the machine text is missing.*
 - **RD104 dead ends** (RD104, 2026-11-01):
   - The list of 208 questions searched by string: no hit for the sky dog (q415), «འཇུག་ཕོད» (q419), «རིགས་དགུ» (q428), «དགྲ་རྡེལ» (q396) or the moment's small examinations (q423).
   - «དཔྱད་འགོག» and «སྟོངས» have no second occurrence in img. 9–108 and 467–514.
@@ -1381,3 +1381,6 @@ Searched and found wanting, so not to be repeated:
   - Ladner, *The Wheel of Great Compassion* (Wisdom, 2000): archive.org's `wheelgreatcompas00ladn` answered «no longer available» on 2026-11-05.
 - **RD156 (2026-11-05)** (RD156, 2026-11-05):
   - The direction of counting the door's places: pp. 276–294 read line by line, no direction stated; pp. 242–275 not read.
+- **RD163, the direction gods (2026-11-05)** (RD163, 2026-11-05):
+  - A text that calls livestock good towards the 歳破: none in the 暦林問答集, the 簠簋内伝, the 協紀辨方書, the 假名暦本名頒暦畧註, the 方鑒精義大成, こよみの友, the 1924–1928 almanacs or the NDL full-text search; the exhibition page names no source.
+  - A commentary on the 拾芥抄's 天一太白 sentence; a rule for which 金神遊行 wins (first 25 hits of each search); 日遊 with a direction outside the house; 金神 in the 二中歴; the 高島暦 of today (the NDL lists it without images): the terms searched are in kyureki.md, *Searched and not found* of RD163.

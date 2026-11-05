@@ -901,23 +901,23 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0482.md](questions/q0482.md) | question q482 | Is «ལྟོ་འཕྱེ་གནས་པའི་དགུ་ཆའི་སར» on p. 282 one small part or the great part of nine | open; cites wb.2:p282 |
 | [questions/q0483.md](questions/q0483.md) | question q483 | Is the earth of «ཁྱི་སྤྱང་བྲང་ཤུལ» hidden at or smeared on the lintel (p. 294) | answered; cites wb.2:p291-294 |
 | [questions/q0484.md](questions/q0484.md) | question q484 | Which years put the 大將軍 in which 仲 | open; cites — |
-| [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | open; cites — |
-| [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | open; cites — |
-| [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | open; cites — |
+| [questions/q0485.md](questions/q0485.md) | question q485 | Which old text gives the 歳殺's branch by the year | answered; cites — |
+| [questions/q0486.md](questions/q0486.md) | question q486 | Is the 黄幡 the grave of the year's triad or of the year branch's own agent | answered; cites — |
+| [questions/q0487.md](questions/q0487.md) | question q487 | The 歳刑 in a whole quarter or in one branch | answered; cites — |
 | [questions/q0488.md](questions/q0488.md) | question q488 | How wide is each god's direction on the printed 方位吉凶図 | open; cites — |
 | [questions/q0489.md](questions/q0489.md) | question q489 | The 歳破 and livestock: forbidden or good | open; cites — |
 | [questions/q0490.md](questions/q0490.md) | question q490 | Does the printed almanac keep the 大將軍's five-day outings | open; cites — |
 | [questions/q0491.md](questions/q0491.md) | question q491 | Where does the year of the 八将神 begin | open; cites — |
 | [questions/q0492.md](questions/q0492.md) | question q492 | 日遊 in the house: seventeen days and the 戊・己 days, or sixteen | open; cites — |
 | [questions/q0493.md](questions/q0493.md) | question q493 | Is 日遊神's course outside the house reckoned in Japan | open; cites — |
-| [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | open; cites — |
-| [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | open; cites — |
+| [questions/q0494.md](questions/q0494.md) | question q494 | 天一's five-day count from 乙卯 or 庚戌 against six days in the corners | answered; cites — |
+| [questions/q0495.md](questions/q0495.md) | question q495 | The sense of the 拾芥抄's «天一太白自大將軍王相八卦忌方重可忌避» | answered; cites — |
 | [questions/q0496.md](questions/q0496.md) | question q496 | Does today's printed almanac show 天一神's daily direction and 日遊神 | open; cites — |
 | [questions/q0497.md](questions/q0497.md) | question q497 | Which of the 簠簋内伝's two 金神 year tables did the Edo almanac follow | open; cites — |
-| [questions/q0498.md](questions/q0498.md) | question q498 | Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉 | open; cites — |
+| [questions/q0498.md](questions/q0498.md) | question q498 | Is koyomi8's 戊癸 = 午未申酉 a slip for 子丑申酉 | answered; cites — |
 | [questions/q0499.md](questions/q0499.md) | question q499 | When the 金神's two 遊行 meet on one day, which wins | open; cites — |
-| [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | open; cites — |
-| [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | open; cites — |
+| [questions/q0500.md](questions/q0500.md) | question q500 | Are all outer directions free on the 戊寅 days of the 金神 in the centre | answered; cites — |
+| [questions/q0501.md](questions/q0501.md) | question q501 | What is the 「假名暦略註」 the 古事類苑 quotes | answered; cites — |
 | [questions/q0502.md](questions/q0502.md) | question q502 | Which 金神 table, 遊行 and 間日 does the paper 高島暦 print | open; cites — |
 | [questions/q0503.md](questions/q0503.md) | question q503 | «ཏ་ལ་ལམ་དུ་བསྒྱུར་བ་འདྲ» on p. 453: the palm or another word | open; cites wb.2:p453 |
 | [questions/q0504.md](questions/q0504.md) | question q504 | «རྟོགས་དཀའ་གུད་རྡུལ་ཀུན» on p. 448: which word, and what is «གུད» | open; cites wb.2:p448 |
@@ -947,10 +947,10 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0528.md](questions/q0528.md) | question q528 | Is «ལྟས་ངན་བབས» on p. 171 the third gate's bad omen | open; cites wb.2:p165e |
 | [questions/q0529.md](questions/q0529.md) | question q529 | Does UT's chase over the fifteen places read the notes' «ཡར་གསུམ་སོགས» | open; cites wb.2:p144e |
 | [questions/q0530.md](questions/q0530.md) | question q530 | Does today's 高島暦 shade the 歳刑's quarter or its one branch; the Edo wheel's sectors | open; cites — |
-| [questions/q0531.md](questions/q0531.md) | question q531 | The 拾芥抄's 天一太白 sentence: «more strictly than» by the tradition itself | open; cites — |
+| [questions/q0531.md](questions/q0531.md) | question q531 | The 拾芥抄's 天一太白 sentence: «more strictly than» by the tradition itself | answered; cites — |
 | [questions/q0532.md](questions/q0532.md) | question q532 | The dates of the 簠簋内伝's 八将神 table and the 拾芥抄's 金神七殺方 | open; cites — |
 | [questions/q0533.md](questions/q0533.md) | question q533 | Livestock at the 歳破 in the 暦林問答集 against the 簠簋内伝 and the kana almanacs | open; cites — |
-| [questions/q0534.md](questions/q0534.md) | question q534 | The five-day 天一 from 庚戌 in the Meiji 大雑書 | open; cites — |
+| [questions/q0534.md](questions/q0534.md) | question q534 | The five-day 天一 from 庚戌 in the Meiji 大雑書 | answered; cites — |
 | [questions/q0535.md](questions/q0535.md) | question q535 | Does the Mentsikhang's book 6 hold the Lamp of the Magic of Deciding as its third part | open; cites — |
 | [questions/q0536.md](questions/q0536.md) | question q536 | Does the Little Red Tiger-Head's chapter 10 or 17 lay the deciding pebble | open; cites — |
 | [questions/q0537.md](questions/q0537.md) | question q537 | Does the oldest copy of the Moonbeams write «སྟངས་གཅོད» in the count of the 24 pebbles | open; cites — |
@@ -1039,6 +1039,13 @@ The corpus, claim and question files of [STRUCTURE.md](STRUCTURE.md), listed by
 | [questions/q0620.md](questions/q0620.md) | question q620 | «ས་དགའ་མ» on p. 288 | open; cites wb.2:p288 |
 | [questions/q0621.md](questions/q0621.md) | question q621 | «སྨན་གཉིས» and «མ་དགུ» on p. 276 | open; cites wb.2:p276 |
 | [questions/q0622.md](questions/q0622.md) | question q622 | «མཛེས་ཅན་མིན་པའི་མི» on p. 278 | open; cites wb.2:p278 |
+| [questions/q0623.md](questions/q0623.md) | question q623 | Today's paper 高島暦: the 金神's 遊行 as two lists or merged | open; cites — |
+| [questions/q0624.md](questions/q0624.md) | question q624 | The 簠簋内伝's §6–§9: added by the print, or cut by the short copies | open; cites — |
+| [questions/q0625.md](questions/q0625.md) | question q625 | Why the 暦林問答集 §11 adds horses and cattle to the 歳破 | open; cites — |
+| [questions/q0626.md](questions/q0626.md) | question q626 | The source of the NDL exhibition's «家畜を求めるを吉» | open; cites — |
+| [questions/q0627.md](questions/q0627.md) | question q627 | Who wrote the 假名暦略註 | open; cites — |
+| [questions/q0628.md](questions/q0628.md) | question q628 | The date of the 簠簋内伝 and of the 拾芥抄's 金神七殺方 | open; cites — |
+| [questions/q0629.md](questions/q0629.md) | question q629 | The stepped line round the 歳刑 on 1931's wheel | open; cites — |
 
 <!-- end pool index -->
 
